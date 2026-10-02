@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: a4e2b58969b
+revision_basis: b48dadbc6496
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K771--K774 resolve the exact positive-curvature composition left by K770.
+    K771 sums, rather than rank-adds, K720's selected I1B Euler symbol and the
+    unit-weight identity-Cartan curvature Hessian on every complete K743
+    invariant block. Both tested distortion sums have rank 221183; after the
+    coupled metric rows their ranks are 221189 and 221186, leaving 8193 and
+    8196 middle classes after the owned rank-four metric gauge. K772 proves
+    the full 8193-dimensional distortion kernel lies inside the
+    curvature-only `q lambda` candidate on both strata, but that containment
+    is not a total-action gauge declaration; the source-selected I1B complex
+    does not own the candidate subspace, and the native-null test has three
+    additional metric-coupled classes. K773 composes the exact displayed
+    fermion diagonal, whose zero mixed blocks leave the bosonic cohomology
+    unchanged. K774 closes this fixed positive comparator and the invalid
+    candidate-kernel-to-gauge promotion. A source/background-owned different
+    positive reduction, changed stationary germ, independent action
+    parent/different Shiab response, and complete native K500 A/B packet
+    remain open. SC-ACT-06 remains `ASSERTS`; no source, ledger, canon, paper,
+    public, prediction, confirmation or physical verdict moves.
+
     K767--K770 test the first natural high-rank comparator left by K766.
     K767 freezes the repository-owned control
     `S_curv=(1/2)||F_A||^2` on K749's flat stationary germ, proves flat
@@ -12316,6 +12335,20 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  On the SC-ACT-06 route, K771--K774 close the unit-weight identity-Cartan
+  positive curvature-square comparator after exact composition with selected
+  I1B, the owned metric gauge/redundancy maps and the displayed fermion block.
+  The summed full symbol retains 8193/8196 middle classes. Its common
+  8193-dimensional distortion kernel lies inside the curvature-only
+  `q lambda` candidate, but accidental kernel containment is not an owned
+  total-action gauge subcomplex, and the native-null stratum retains three
+  additional metric-coupled classes. Do not retry this fixed comparator,
+  promote its kernel to gauge, or identify it with source I2B. Reopen only
+  with a source/background-owned different reduction and a new exact summed
+  complex; a fully stationary changed/nonzero-`T` germ; an independently
+  action-owned parent/different Shiab response; or a complete native K500 A/B
+  packet.
+
   On the SC-ACT-06 route, K767--K770 close the natural full-connection
   curvature-square comparator with the native `(13,1)` pairing. Although its
   rank is 212992 at a native-nonnull covector, it collapses to 16384 at a
@@ -13232,6 +13265,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K771--K774 remove the fixed unit-weight identity-Cartan curvature-square
+  comparator from the live SC-ACT-06 repair space: exact matrix sums leave
+  8193/8196 full-symbol middle classes. The 8193-dimensional distortion
+  kernel is contained in the curvature-only `q lambda` candidate but is not
+  source-owned gauge, and the native-null test has three additional
+  metric-coupled classes. The next valid input is a source/background-owned
+  different positive reduction with a newly computed summed complex; a fully
+  stationary changed/nonzero-`T` source germ with new principal image; an
+  independently owned action parent/different Shiab response; or complete
+  native K500 A/B certificates. Do not promote candidate-kernel containment
+  to gauge, promote `||F_A||^2` to source I2B, or treat the exact displayed
+  fermion diagonal as a repair of nonexact bosonic cohomology.
+
   K767--K770 remove the native-pairing pure-curvature-square comparator from
   the live SC-ACT-06 repair space: at the native-null test its full-connection
   Hessian has rank 16384 and leaves at least 81927 middle classes. The positive

@@ -1,0 +1,159 @@
+{
+  "claim_ceiling": "Exact two-stratum invariant-block rank theorem for one fixed repository-only positive-curvature/I1B sum. No source ownership, all-covector theorem, canonical reduction, global SC-ACT-06 conclusion, or physical conclusion.",
+  "classification": "INTERNAL_COMPARATOR_ONLY",
+  "composition_theorem": {
+    "all_invariant_blocks_enumerated": true,
+    "operator": "E_total(q)=E_I1B(q)+diag(0_metric,d_q^{*q_Cartan}d_q)",
+    "rank_method": "sum matrices inside every complete K743 invariant block before exact rational rank",
+    "relative_weight": 1,
+    "separate_rank_addition_used": false
+  },
+  "controls": {
+    "controls_passed": 30,
+    "hostile_mutations_rejected": 16,
+    "probe": "tests/channel-swings/k771_sc_act_06_positive_curvature_i1b_composition_probe.py",
+    "producer": "tests/channel-swings/k771_sc_act_06_positive_curvature_i1b_composition.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "all_covector_exactness_proved": false,
+    "global_SC_ACT_06_proved_or_refuted": false,
+    "next_exact_input": "Check the actual total-action gauge/redundancy identities and the displayed fermion diagonal, then close the comparator at repository-only grade unless source ownership and an all-covector theorem are supplied.",
+    "source_owned_total_action": false,
+    "summed_comparator_middle_exact_on_both_tested_strata": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "cases": [
+      {
+        "block_types": [
+          {
+            "block_dimension": 28,
+            "i1b_rank": 2,
+            "multiplicity": 1,
+            "positive_curvature_rank": 26,
+            "summed_operator_rank": 27
+          },
+          {
+            "block_dimension": 28,
+            "i1b_rank": 6,
+            "multiplicity": 4095,
+            "positive_curvature_rank": 26,
+            "summed_operator_rank": 28
+          },
+          {
+            "block_dimension": 28,
+            "i1b_rank": 24,
+            "multiplicity": 78,
+            "positive_curvature_rank": 26,
+            "summed_operator_rank": 26
+          },
+          {
+            "block_dimension": 28,
+            "i1b_rank": 26,
+            "multiplicity": 4018,
+            "positive_curvature_rank": 26,
+            "summed_operator_rank": 26
+          }
+        ],
+        "bosonic_middle_cohomology_dimension": 8193,
+        "case": "native_nonnull",
+        "distortion_dimension": 229376,
+        "distortion_i1b_rank": 130912,
+        "distortion_positive_curvature_rank": 212992,
+        "distortion_summed_operator_rank": 221183,
+        "euler_times_gauge_rank": 0,
+        "gauge_rank": 4,
+        "local_connection_dimension": 112,
+        "local_connection_rank": 104,
+        "local_label_count": 8,
+        "metric_coupled_rank": 110,
+        "metric_rank_increment": 6,
+        "middle_exact": false,
+        "redundancy_times_euler_rank": 0,
+        "total_coupled_rank": 221189
+      },
+      {
+        "block_types": [
+          {
+            "block_dimension": 56,
+            "i1b_rank": 28,
+            "multiplicity": 1,
+            "positive_curvature_rank": 52,
+            "summed_operator_rank": 53
+          },
+          {
+            "block_dimension": 56,
+            "i1b_rank": 28,
+            "multiplicity": 66,
+            "positive_curvature_rank": 52,
+            "summed_operator_rank": 54
+          },
+          {
+            "block_dimension": 56,
+            "i1b_rank": 30,
+            "multiplicity": 4029,
+            "positive_curvature_rank": 52,
+            "summed_operator_rank": 54
+          }
+        ],
+        "bosonic_middle_cohomology_dimension": 8196,
+        "case": "native_null_auxiliary_nonzero",
+        "distortion_dimension": 229376,
+        "distortion_i1b_rank": 122746,
+        "distortion_positive_curvature_rank": 212992,
+        "distortion_summed_operator_rank": 221183,
+        "euler_times_gauge_rank": 0,
+        "gauge_rank": 4,
+        "local_connection_dimension": 168,
+        "local_connection_rank": 162,
+        "local_label_count": 12,
+        "metric_coupled_rank": 165,
+        "metric_rank_increment": 3,
+        "middle_exact": false,
+        "redundancy_times_euler_rank": 0,
+        "total_coupled_rank": 221186
+      }
+    ],
+    "field_dimension": 229386,
+    "owned_metric_diffeomorphism_rank": 4
+  },
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "gu_typed_objects": {
+    "action_owner": "selected source I1B plus a repository-only curvature-square comparator; the sum is not source-owned",
+    "carrier": "S^2(T*X) direct-sum Omega1(Cl_14(C)); complex dimension 229386",
+    "grading": "rank-four metric diffeomorphism gauge -> coupled metric/distortion field -> summed Euler rows",
+    "pairing": "K714 identity Cartan auxiliary metric for the comparator; K717 native action pairing remains distinct",
+    "real_structure": "K743 pinned real invariant blocks used only for exact rank calculation",
+    "target": "middle principal-symbol cohomology of the frozen summed comparator"
+  },
+  "ledger_no_change_reason": "The exact composition uses an unowned positive curvature comparator on two representative strata and cannot change the source or physics ledger.",
+  "pinned_inputs": {
+    "k714": {
+      "path": "lab/process/k714-sc-act-06-cartan-reduction-gauge-metric.json",
+      "sha256": "b24f549b3488a0e60b5dbd08dc9ebab7cde481d6973aaafb9cf3d709d22efa70"
+    },
+    "k720": {
+      "path": "lab/process/k720-sc-act-06-selected-i1b-euclidean-bosonic-symbol.json",
+      "sha256": "c0019f3f8ad286995b31b81d571e429487e004b07becb37a73cdf36baba16aaa"
+    },
+    "k743": {
+      "path": "lab/process/k743-sc-act-06-residual-square-image-cap.json",
+      "sha256": "3e2eb52e889bc575bae556f10a3bc64f86b07c2c382e826e8ada8abc7d9cd0cb"
+    },
+    "k768": {
+      "path": "lab/process/k768-sc-act-06-curvature-square-rank-boundary.json",
+      "sha256": "1c55e8b998e9a35c65d721e7099a22ae7c99d74abb200a7d386721d97ab838da"
+    },
+    "k770": {
+      "path": "lab/process/k770-sc-act-06-curvature-square-successor-gate.json",
+      "sha256": "c5e5af0da6f4ca4419700637482b5c17d668ecde90fd736e72dc7d1f17411285"
+    }
+  },
+  "result_id": "K771-SC-ACT-06-POSITIVE-CURVATURE-I1B-COMPOSITION",
+  "schema_version": "1.0",
+  "scope": "Exact invariant-block ranks for the sum of K720's selected I1B bosonic Euler symbol and K768's identity-Cartan positive curvature-square comparator on K720's frozen flat germ.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

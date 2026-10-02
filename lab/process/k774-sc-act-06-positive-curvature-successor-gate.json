@@ -1,0 +1,98 @@
+{
+  "claim_ceiling": "Exact successor gate for one fixed positive-curvature/I1B comparator. It closes that comparator and two invalid promotions, not every positive reduction, action parent, stationary germ, native K500 route, or SC-ACT-06 globally.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "closed_classes": [
+    {
+      "class": "unit-weight identity-Cartan positive curvature-square comparator added to K720's selected I1B symbol on the frozen flat germ",
+      "reason": "Exact summed-operator ranks leave 8193/8196 full-symbol middle classes on the two tested strata."
+    },
+    {
+      "class": "promoting the 8193-dimensional intersection with the curvature-only q-lambda candidate to total-action gauge",
+      "reason": "The source-selected I1B complex owns only the rank-four metric diffeomorphism map here; accidental kernel containment is not a gauge declaration, and the native-null stratum retains three additional metric-coupled classes."
+    },
+    {
+      "class": "repairing the bosonic obstruction with the displayed exact zero-fermion diagonal",
+      "reason": "K719 makes the middle cohomology a direct sum, so the exact fermion block leaves the bosonic classes unchanged."
+    }
+  ],
+  "controls": {
+    "controls_passed": 24,
+    "hostile_mutations_rejected": 16,
+    "probe": "tests/channel-swings/k774_sc_act_06_positive_curvature_successor_gate_probe.py",
+    "producer": "tests/channel-swings/k774_sc_act_06_positive_curvature_successor_gate.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "SC_ACT_06_status": "ASSERTS",
+    "do_not_promote_candidate_kernel_to_gauge": true,
+    "do_not_promote_comparator_to_source_I2B": true,
+    "do_not_retry_fixed_identity_cartan_unit_weight_comparator": true,
+    "global_SC_ACT_06_refuted": false,
+    "source_owned_positive_family_globally_closed": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "common_distortion_kernel_inside_curvature_candidate": 8193,
+    "native_null_additional_metric_coupled_classes": 3,
+    "native_null_middle_classes": 8196,
+    "nonnull_middle_classes": 8193
+  },
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "gu_typed_objects": {
+    "action_owner": "source-action plus comparator; no combined source owner",
+    "carrier": "LAYER=source-print+toy BRIDGE=K720-plus-K768 frozen sum; coupled full symbol; CHIRALITY=S-HALF-OPPOSITE",
+    "grading": "source-native successor gate after bosonic and fermion complex composition",
+    "pairing": "source I1B action form plus K714 identity Cartan comparator form; ON=coupled full symbol",
+    "real_structure": "frozen tested Euclidean real blocks",
+    "target": "SC-ACT-06 successor routing; MAP-TYPE=not-a-map"
+  },
+  "ledger_no_change_reason": "The fixed comparator is excluded at repository-only grade; every source-owned changed-germ or different-parent route remains open.",
+  "pinned_inputs": {
+    "k770": {
+      "path": "lab/process/k770-sc-act-06-curvature-square-successor-gate.json",
+      "sha256": "c5e5af0da6f4ca4419700637482b5c17d668ecde90fd736e72dc7d1f17411285"
+    },
+    "k771": {
+      "path": "lab/process/k771-sc-act-06-positive-curvature-i1b-composition.json",
+      "sha256": "eec45c7c4190f6005378b42d389f7058082bfaec4cc673e3be06b8ddc2e6baa4"
+    },
+    "k772": {
+      "path": "lab/process/k772-sc-act-06-positive-curvature-total-complex.json",
+      "sha256": "9873f773fcc7e530b4abb978c97e3d43faa3594639e7e2364808cbeaca97a291"
+    },
+    "k773": {
+      "path": "lab/process/k773-sc-act-06-positive-curvature-full-symbol.json",
+      "sha256": "e151608b71892ba02c56de882e9769b1267352de0079ae63444e2984c1e73d77"
+    }
+  },
+  "reranked_frontier": {
+    "high_confidence_outlier": "a different Shiab coefficient could alter the 8193-dimensional curvature-gauge intersection if independently action-owned",
+    "incumbent": "construct a fully stationary changed/nonzero-T source-typed germ or an independently action-owned response before another comparator variation",
+    "positive_comparator_revival": "only an owned reduction/pairing/weight with a new exact summed complex, not rank-threshold clearance",
+    "strongest_independent_alternative": "complete native K500 A/B packet once its native remainder, boundary maps and two lower certificates exist"
+  },
+  "result_id": "K774-SC-ACT-06-POSITIVE-CURVATURE-SUCCESSOR-GATE",
+  "schema_version": "1.0",
+  "scope": "Successor routing after exact composition of the selected I1B symbol, identity-Cartan positive curvature comparator, owned metric gauge/redundancy maps, and displayed fermion diagonal.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "surviving_branches": [
+    {
+      "input": "source/background-owned positive reduction or another curvature pairing/weight",
+      "required_new_fact": "an owned choice plus a new exact summed-complex calculation; K771--K773 close only the fixed identity-Cartan unit-weight comparator and do not license an unowned parameter scan"
+    },
+    {
+      "input": "fully stationary changed or nonzero-T source-typed germ",
+      "required_new_fact": "new action-owned principal image and complete coupled symbol complex"
+    },
+    {
+      "input": "independent source/action parent or different Shiab response",
+      "required_new_fact": "exact owner, maps, pairing, common domain and stationarity"
+    },
+    {
+      "input": "complete native K500 A/B packet",
+      "required_new_fact": "native remainder and boundary maps plus complete A and parity-cofinal B certificates"
+    }
+  ],
+  "target_claim": "SC-ACT-06"
+}

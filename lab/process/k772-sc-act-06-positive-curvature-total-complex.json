@@ -1,0 +1,143 @@
+{
+  "claim_ceiling": "Exact total-complex and internal-gauge audit for one fixed positive-curvature/I1B comparator on two representative strata. No source ownership, all-covector theorem, global SC-ACT-06 conclusion, or physical conclusion.",
+  "classification": "INTERNAL_COMPARATOR_ONLY",
+  "complex_theorem": {
+    "accidental_candidate_kernel_promoted_to_gauge": false,
+    "curvature_only_gauge_automatically_added": false,
+    "curvature_only_internal_candidate": "lambda -> q lambda on each Clifford coefficient",
+    "metric_gauge": "the owned rank-four metric diffeomorphism map has zero connection component at the frozen T=0 germ",
+    "metric_redundancy": "the transpose rank-four map annihilates the summed Euler block on both tested strata",
+    "total_action_rule": "a curvature-only candidate direction is not quotiented merely because the selected I1B block also annihilates a subspace; the total theory must own that subspace as a gauge map"
+  },
+  "controls": {
+    "controls_passed": 28,
+    "hostile_mutations_rejected": 16,
+    "probe": "tests/channel-swings/k772_sc_act_06_positive_curvature_total_complex_probe.py",
+    "producer": "tests/channel-swings/k772_sc_act_06_positive_curvature_total_complex.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "all_covector_exactness_proved": false,
+    "complete_total_action_complex_constructed_for_tested_strata": true,
+    "global_SC_ACT_06_proved_or_refuted": false,
+    "next_exact_input": "Compose the exact bosonic nonexactness with the displayed fermion diagonal, then retire this positive-comparator repair without promoting it to a source action.",
+    "source_owned_total_action": false,
+    "summed_comparator_middle_exact_on_both_tested_strata": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "cases": [
+      {
+        "candidate_kernel_equals_distortion_kernel": true,
+        "case": "native_nonnull",
+        "combined_on_internal_candidate_rank": 8191,
+        "euler_times_metric_gauge_rank": 0,
+        "i1b_on_internal_candidate_rank": 8191,
+        "internal_block_types": [
+          {
+            "candidate_kernel_dimension": 2,
+            "candidate_rank": 2,
+            "coefficient_count": 2,
+            "combined_on_candidate_rank": 0,
+            "i1b_on_candidate_rank": 0,
+            "multiplicity": 4096
+          },
+          {
+            "candidate_kernel_dimension": 1,
+            "candidate_rank": 2,
+            "coefficient_count": 2,
+            "combined_on_candidate_rank": 1,
+            "i1b_on_candidate_rank": 1,
+            "multiplicity": 1
+          },
+          {
+            "candidate_kernel_dimension": 0,
+            "candidate_rank": 2,
+            "coefficient_count": 2,
+            "combined_on_candidate_rank": 2,
+            "i1b_on_candidate_rank": 2,
+            "multiplicity": 4095
+          }
+        ],
+        "internal_candidate_dimension": 16384,
+        "internal_candidate_kernel_dimension": 8193,
+        "internal_candidate_rank": 16384,
+        "metric_diffeomorphism_rank": 4,
+        "metric_redundancy_times_euler_rank": 0,
+        "middle_exact": false,
+        "refined_middle_cohomology_dimension": 8193,
+        "summed_euler_rank": 221189,
+        "total_actual_gauge_rank": 4
+      },
+      {
+        "candidate_kernel_equals_distortion_kernel": true,
+        "case": "native_null_auxiliary_nonzero",
+        "combined_on_internal_candidate_rank": 8191,
+        "euler_times_metric_gauge_rank": 0,
+        "i1b_on_internal_candidate_rank": 8191,
+        "internal_block_types": [
+          {
+            "candidate_kernel_dimension": 3,
+            "candidate_rank": 4,
+            "coefficient_count": 4,
+            "combined_on_candidate_rank": 1,
+            "i1b_on_candidate_rank": 1,
+            "multiplicity": 1
+          },
+          {
+            "candidate_kernel_dimension": 2,
+            "candidate_rank": 4,
+            "coefficient_count": 4,
+            "combined_on_candidate_rank": 2,
+            "i1b_on_candidate_rank": 2,
+            "multiplicity": 4095
+          }
+        ],
+        "internal_candidate_dimension": 16384,
+        "internal_candidate_kernel_dimension": 8193,
+        "internal_candidate_rank": 16384,
+        "metric_diffeomorphism_rank": 4,
+        "metric_redundancy_times_euler_rank": 0,
+        "middle_exact": false,
+        "refined_middle_cohomology_dimension": 8196,
+        "summed_euler_rank": 221186,
+        "total_actual_gauge_rank": 4
+      }
+    ],
+    "field_dimension": 229386
+  },
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "gu_typed_objects": {
+    "action_owner": "source-action plus comparator; no combined source owner",
+    "carrier": "LAYER=source-print+toy BRIDGE=K720-plus-K768 frozen sum; S^2(T*X) direct-sum Omega1(Cl_14(C)); CHIRALITY=N/A",
+    "grading": "owned metric-diffeomorphism map -> coupled bosonic Euler map -> transpose redundancy",
+    "pairing": "K717 native action form plus K714 identity Cartan comparator form; ON=coupled metric/distortion field",
+    "real_structure": "K743 pinned real invariant blocks",
+    "target": "middle cohomology of the summed tested-stratum complex; MAP-TYPE=not-a-map"
+  },
+  "ledger_no_change_reason": "The complete tested-stratum complex remains a repository comparator with an unowned positive reduction.",
+  "pinned_inputs": {
+    "k720": {
+      "path": "lab/process/k720-sc-act-06-selected-i1b-euclidean-bosonic-symbol.json",
+      "sha256": "c0019f3f8ad286995b31b81d571e429487e004b07becb37a73cdf36baba16aaa"
+    },
+    "k745": {
+      "path": "lab/process/k745-sc-act-06-gauge-redundancy-obstruction.json",
+      "sha256": "460a3c0981d9cb8fef8e54e4ef1fd5217e4ed922b5bbfdf92416fcc4f8134994"
+    },
+    "k768": {
+      "path": "lab/process/k768-sc-act-06-curvature-square-rank-boundary.json",
+      "sha256": "1c55e8b998e9a35c65d721e7099a22ae7c99d74abb200a7d386721d97ab838da"
+    },
+    "k771": {
+      "path": "lab/process/k771-sc-act-06-positive-curvature-i1b-composition.json",
+      "sha256": "eec45c7c4190f6005378b42d389f7058082bfaec4cc673e3be06b8ddc2e6baa4"
+    }
+  },
+  "result_id": "K772-SC-ACT-06-POSITIVE-CURVATURE-TOTAL-COMPLEX",
+  "schema_version": "1.0",
+  "scope": "Exact gauge/redundancy audit for K771's selected-I1B plus identity-Cartan curvature comparator on the two frozen covector strata.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

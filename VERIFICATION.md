@@ -7,6 +7,47 @@ updated_at: "2026-10-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K771--K774 positive-curvature/I1B composition boundary (2026-10-01)
+
+K771 computes the rank of the actual matrix sum
+`E_I1B + diag(0,d_q^{*q_Cartan}d_q)` on K743's complete invariant-block
+decomposition. It does not add separately computed ranks. The distortion sum
+has rank 221183 on both the native-nonnull and native-null representative
+covectors. After the ten metric directions and exact mixed blocks are
+included, the coupled ranks are 221189 and 221186. The owned rank-four metric
+diffeomorphism map and its transpose still compose to zero, leaving exact
+middle-cohomology dimensions 8193 and 8196.
+
+K772 audits the curvature-only internal candidate `lambda -> q lambda`. On
+both strata it is injective on 16384 coefficient directions, the selected I1B
+block maps it with rank 8191, and its 8193-dimensional kernel equals the
+complete distortion kernel of the summed operator. This is containment, not a
+gauge declaration: the selected total action owns only the rank-four metric
+diffeomorphism map here. Quotienting an accidental kernel would manufacture a
+gauge symmetry. The native-null coupled complex also retains three middle
+classes beyond the distortion kernel.
+
+K773 composes the exact displayed equation-(9.16) fermion diagonal using
+K719's zero mixed blocks. Its fermion middle cohomology is zero, so the full
+symbol retains bosonic middle dimensions 8193 and 8196. K774 closes the fixed
+unit-weight identity-Cartan comparator, promotion of its candidate kernel to
+gauge, and fermion-diagonal repair. It does not close every source-owned
+positive reduction, stationary germ, action parent or native K500 route, and
+it does not change SC-ACT-06.
+
+Run:
+
+```bash
+sage -python tests/channel-swings/k771_sc_act_06_positive_curvature_i1b_composition.py
+sage -python tests/channel-swings/k771_sc_act_06_positive_curvature_i1b_composition_probe.py
+sage -python tests/channel-swings/k772_sc_act_06_positive_curvature_total_complex.py
+sage -python tests/channel-swings/k772_sc_act_06_positive_curvature_total_complex_probe.py
+python3 tests/channel-swings/k773_sc_act_06_positive_curvature_full_symbol.py
+python3 tests/channel-swings/k773_sc_act_06_positive_curvature_full_symbol_probe.py
+python3 tests/channel-swings/k774_sc_act_06_positive_curvature_successor_gate.py
+python3 tests/channel-swings/k774_sc_act_06_positive_curvature_successor_gate_probe.py
+```
+
 ## K767--K770 curvature-square comparator boundary (2026-10-01)
 
 K767 defines one repository comparator, fixed before solving:

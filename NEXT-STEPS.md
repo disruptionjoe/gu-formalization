@@ -7,6 +7,21 @@ updated_at: "2026-10-01"
 
 # Next Steps For Contributors
 
+> **2026-10-01 K771--K774 POSITIVE-CURVATURE/I1B COMPOSITION BOUNDARY.**
+> K771 sums the selected I1B Euler block with the unit-weight identity-Cartan
+> curvature Hessian inside every complete invariant block. Both distortion
+> sums have rank 221183; coupled ranks 221189/221186 leave 8193/8196 middle
+> classes after the owned metric gauge. K772 finds the complete
+> 8193-dimensional distortion kernel inside the curvature-only `q lambda`
+> candidate, but the total action does not own that accidental kernel as
+> gauge, and the native-null row retains three additional metric-coupled
+> classes. K773's exact displayed fermion diagonal leaves those bosonic
+> classes unchanged. K774 closes this fixed comparator and the invalid
+> kernel-to-gauge promotion. Next require an owned different reduction with a
+> new exact summed complex, a changed stationary germ, an independent action
+> parent/different Shiab response, or complete native K500 input. SC-ACT-06
+> remains `ASSERTS`.
+
 > **2026-10-01 K767--K770 CURVATURE-SQUARE COMPARATOR BOUNDARY.** K767
 > freezes the natural repository control `S_curv=(1/2)||F_A||^2` before
 > solving, proves stationarity at K749's flat germ and preserves the old

@@ -251,6 +251,18 @@ def load_inputs() -> dict:
         "k770": json.loads(
             (ROOT / "lab/process/k770-sc-act-06-curvature-square-successor-gate.json").read_text()
         ),
+        "k771": json.loads(
+            (ROOT / "lab/process/k771-sc-act-06-positive-curvature-i1b-composition.json").read_text()
+        ),
+        "k772": json.loads(
+            (ROOT / "lab/process/k772-sc-act-06-positive-curvature-total-complex.json").read_text()
+        ),
+        "k773": json.loads(
+            (ROOT / "lab/process/k773-sc-act-06-positive-curvature-full-symbol.json").read_text()
+        ),
+        "k774": json.loads(
+            (ROOT / "lab/process/k774-sc-act-06-positive-curvature-successor-gate.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -443,9 +455,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     check(registry["latest_gu_formalization_result"] ==
-          "K767_K770_SC_ACT_06_CURVATURE_SQUARE_BOUNDARY_CURRENT",
+          "K771_K774_SC_ACT_06_POSITIVE_CURVATURE_COMPOSITION_BOUNDARY_CURRENT",
           "latest GU result pointer moved")
     if isinstance(live, str):
+        check("K771--K774 remove the fixed unit-weight identity-Cartan" in live and
+              "8193/8196" in live and "candidate-kernel containment" in live,
+              "live K771--K774 positive-curvature composition boundary missing")
         check("K767--K770 remove the native-pairing pure-curvature-square comparator" in live and
               "81927" in live and "positive Cartan" in live,
               "live K767--K770 curvature-square boundary missing")
@@ -662,6 +677,9 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K771--K774 resolve the exact positive-curvature composition" in summary and
+          "221189 and 221186" in summary and "8193 and 8196" in summary,
+          "current K771--K774 positive-curvature composition result lost")
     check("K767--K770 test the first natural high-rank comparator" in summary and
           "196608" in summary and "81927" in summary,
           "current K767--K770 curvature-square result lost")
@@ -798,6 +816,17 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "K771--K774 close the unit-weight identity-Cartan" in question
+        and "8193/8196" in question and "additional metric-coupled classes" in question,
+        "current question lost K771--K774 composition boundary",
+    )
+    check(
+        "ranks are 221183" in data["agenda"].get("latest_result_2026_10_01_k771_k774", "")
+        and "8193/8196" in data["agenda"].get("latest_result_2026_10_01_k771_k774", "")
+        and "q-lambda candidate" in data["agenda"].get("latest_result_2026_10_01_k771_k774", ""),
+        "agenda K771--K774 result is not current",
+    )
     check(
         "K767--K770 close the natural full-connection" in question
         and "81927" in question and "positive Cartan" in question,
@@ -2379,6 +2408,40 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k770["decision"]["global_SC_ACT_06_refuted"],
           "K770 curvature-square successor gate moved")
 
+    k771 = data["k771"]
+    k771_rows = {row["case"]: row for row in k771["exact_controls"]["cases"]}
+    check(k771_rows["native_nonnull"]["distortion_summed_operator_rank"] == 221183 and
+          k771_rows["native_null_auxiliary_nonzero"]["distortion_summed_operator_rank"] == 221183 and
+          k771_rows["native_nonnull"]["bosonic_middle_cohomology_dimension"] == 8193 and
+          k771_rows["native_null_auxiliary_nonzero"]["bosonic_middle_cohomology_dimension"] == 8196 and
+          not k771["decision"]["source_owned_total_action"],
+          "K771 positive-curvature/I1B composition moved")
+
+    k772 = data["k772"]
+    k772_rows = {row["case"]: row for row in k772["exact_controls"]["cases"]}
+    check(k772_rows["native_nonnull"]["internal_candidate_kernel_dimension"] == 8193 and
+          k772_rows["native_null_auxiliary_nonzero"]["internal_candidate_kernel_dimension"] == 8193 and
+          k772_rows["native_nonnull"]["candidate_kernel_equals_distortion_kernel"] and
+          k772_rows["native_null_auxiliary_nonzero"]["refined_middle_cohomology_dimension"] == 8196 and
+          not k772["complex_theorem"]["accidental_candidate_kernel_promoted_to_gauge"],
+          "K772 positive-curvature total complex moved")
+
+    k773 = data["k773"]
+    k773_rows = {row["case"]: row for row in k773["exact_controls"]["cases"]}
+    check(k773_rows["native_nonnull"]["full_symbol_middle_cohomology_dimension"] == 8193 and
+          k773_rows["native_null_auxiliary_nonzero"]["full_symbol_middle_cohomology_dimension"] == 8196 and
+          k773["composition_theorem"]["displayed_fermion_candidate_is_exact"] and
+          not k773["decision"]["displayed_full_symbol_comparator_is_elliptic"],
+          "K773 positive-curvature full symbol moved")
+
+    k774 = data["k774"]
+    check(k774["decision"]["SC_ACT_06_status"] == "ASSERTS" and
+          k774["decision"]["do_not_retry_fixed_identity_cartan_unit_weight_comparator"] and
+          k774["decision"]["do_not_promote_candidate_kernel_to_gauge"] and
+          not k774["decision"]["source_owned_positive_family_globally_closed"] and
+          not k774["decision"]["global_SC_ACT_06_refuted"],
+          "K774 positive-curvature successor gate moved")
+
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]
     k693_n = k693["native_interface_status"]
@@ -3680,6 +3743,14 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k769-exact", lambda d: d["k769"]["decision"].__setitem__("positive_pairing_repairs_both_proved", True))
     add("k770-retry", lambda d: d["k770"]["decision"].__setitem__("do_not_retry_native_pairing_curvature_square_comparator", False))
     add("k770-global", lambda d: d["k770"]["decision"].__setitem__("global_SC_ACT_06_refuted", True))
+    add("k771-rank", lambda d: d["k771"]["exact_controls"]["cases"][0].__setitem__("distortion_summed_operator_rank", 221184))
+    add("k771-middle", lambda d: d["k771"]["exact_controls"]["cases"][1].__setitem__("bosonic_middle_cohomology_dimension", 0))
+    add("k772-kernel", lambda d: d["k772"]["exact_controls"]["cases"][0].__setitem__("internal_candidate_kernel_dimension", 8192))
+    add("k772-gauge", lambda d: d["k772"]["complex_theorem"].__setitem__("accidental_candidate_kernel_promoted_to_gauge", True))
+    add("k773-full", lambda d: d["k773"]["exact_controls"]["cases"][1].__setitem__("full_symbol_middle_cohomology_dimension", 0))
+    add("k773-elliptic", lambda d: d["k773"]["decision"].__setitem__("displayed_full_symbol_comparator_is_elliptic", True))
+    add("k774-retry", lambda d: d["k774"]["decision"].__setitem__("do_not_retry_fixed_identity_cartan_unit_weight_comparator", False))
+    add("k774-global", lambda d: d["k774"]["decision"].__setitem__("global_SC_ACT_06_refuted", True))
 
     add("k693-lower", lambda d: d["k693"]["graph_equivalence_theorem"].__setitem__("upper_bound_alone_sufficient_for_closedness", True))
     add("k693-native", lambda d: d["k693"]["native_interface_status"].__setitem__("actual_native_closed_column_proved", True))
