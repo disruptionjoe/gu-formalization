@@ -1,0 +1,111 @@
+{
+  "claim_ceiling": "Necessary combined image/symmetry budget on the current packet only; no ownership, sufficiency, ellipticity or global conclusion.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "combined_budget_theorem": {
+    "beyond_current_grant_condition": "r+s>=90124",
+    "class_lower_bound": "max(0,90124-r-s)",
+    "embedded_kernel_dimension": 106512,
+    "full_field_embedding_remains_load_bearing": true,
+    "maximal_current_grant": 16388,
+    "necessary_condition_is_sufficient": false,
+    "new_authenticated_symmetry_rank_symbol": "s",
+    "new_symmetry_must_compose_to_zero": true,
+    "overlap_can_only_weaken_effective_budget": true,
+    "relative_transverse_rank_symbol": "r",
+    "total_budget_necessary_condition": "r+16388+s>=106512"
+  },
+  "controls": {
+    "controls_passed": 38,
+    "hostile_mutations_rejected": 30,
+    "probe": "tests/channel-swings/k813_sc_act_06_relative_full_field_symmetry_budget_probe.py",
+    "producer": "tests/channel-swings/k813_sc_act_06_relative_full_field_symmetry_budget.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "current_candidate_grant_promoted_to_owned_gauge": false,
+    "full_field_ellipticity_proved": false,
+    "global_sc_act_06_proved_or_refuted": false,
+    "next_exact_input": "A future packet must measure independent transverse correction rank and authenticated symmetry rank after overlap, prove the symmetry composition, and then pass the remaining full-field and domain gates.",
+    "relative_rank_and_new_symmetry_below_90124_can_close": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "budgets": [
+      {
+        "full_field_classes_lower_bound": 90124,
+        "necessary_budget_met": false,
+        "new_authenticated_symmetry_rank_upper": 0,
+        "relative_transverse_rank_upper": 0,
+        "total_granted_symmetry_rank_upper": 16388
+      },
+      {
+        "full_field_classes_lower_bound": 40124,
+        "necessary_budget_met": false,
+        "new_authenticated_symmetry_rank_upper": 0,
+        "relative_transverse_rank_upper": 50000,
+        "total_granted_symmetry_rank_upper": 16388
+      },
+      {
+        "full_field_classes_lower_bound": 1,
+        "necessary_budget_met": false,
+        "new_authenticated_symmetry_rank_upper": 0,
+        "relative_transverse_rank_upper": 90123,
+        "total_granted_symmetry_rank_upper": 16388
+      },
+      {
+        "full_field_classes_lower_bound": 1,
+        "necessary_budget_met": false,
+        "new_authenticated_symmetry_rank_upper": 40123,
+        "relative_transverse_rank_upper": 50000,
+        "total_granted_symmetry_rank_upper": 56511
+      },
+      {
+        "full_field_classes_lower_bound": 0,
+        "necessary_budget_met": true,
+        "new_authenticated_symmetry_rank_upper": 40124,
+        "relative_transverse_rank_upper": 50000,
+        "total_granted_symmetry_rank_upper": 56512
+      },
+      {
+        "full_field_classes_lower_bound": 0,
+        "necessary_budget_met": true,
+        "new_authenticated_symmetry_rank_upper": 0,
+        "relative_transverse_rank_upper": 90124,
+        "total_granted_symmetry_rank_upper": 16388
+      }
+    ]
+  },
+  "gu_typed_objects": {
+    "action_owner": "released Upsilon packet; current q-lambda remains a conservative grant, not promoted gauge",
+    "carrier": "K808 pure-connection kernel embedded in the released zero-fermion full-field tangent",
+    "grading": "symmetry parameters to full fields to released first-order residual rows",
+    "pairing": "quotient by authenticated symmetry image only",
+    "real_structure": "K788/K808 pinned real coefficient basis",
+    "target": "whether relative image plus owned symmetry can cover the embedded kernel"
+  },
+  "ledger_no_change_reason": "This is a conservative full-field necessary budget with no ownership promotion or physical quotient.",
+  "pinned_inputs": {
+    "k808": {
+      "path": "lab/process/k808-sc-act-06-comoving-full-field-kernel.json",
+      "sha256": "a84196fa14e5a9cc87f1e5408e251fb578b6feae9160d9e3ad34df679bfe16af"
+    },
+    "k809": {
+      "path": "lab/process/k809-sc-act-06-comoving-symmetry-quotient.json",
+      "sha256": "45a069e73529a11f0416ec677633ebe9e3701934c170cb6e85d74182ea21ec69"
+    },
+    "k811": {
+      "path": "lab/process/k811-sc-act-06-relative-response-rank-budget.json",
+      "sha256": "1b160a0b70ed1088c30083262687f84a789a9ec9742ce00f25f8ae2f108e34fc"
+    },
+    "k812": {
+      "path": "lab/process/k812-sc-act-06-relative-transverse-block.json",
+      "sha256": "2ff61b3e51edf15e5d964f206c2ffb2a0ea7b576d24976ea2c148a417bdcf6c5"
+    }
+  },
+  "result_id": "K813-SC-ACT-06-RELATIVE-FULL-FIELD-SYMMETRY-BUDGET",
+  "schema_version": "1.0",
+  "scope": "Necessary combined budget for a relative principal correction and authenticated symmetry on the current embedded full-field packet.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

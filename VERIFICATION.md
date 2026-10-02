@@ -7,6 +7,37 @@ updated_at: "2026-10-02"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K811--K814 relative-response rank budget (2026-10-02)
+
+K811 applies rank subadditivity to the exact K788 packet. A genuinely relative
+correction of rank at most `r` leaves kernel at least
+`max(0,106512-r)` and at least `max(0,90124-r)` classes after the maximal
+current grant, uniformly on the three real nonzero covector orbits. K812
+identifies the first-order discriminator as
+`tau=pi_coker(J) Delta|ker(J)` and supplies exact sharp and absorbed finite
+controls. K813 transports the bound through the full-field embedding and adds
+`s` new authenticated independent symmetry directions, giving the necessary
+condition `r+s>=90124`. K814 freezes the remaining source-typed two-jet,
+stationarity, redundancy, full-symbol, common-domain and all-covector packet.
+The threshold is necessary, not sufficient; SC-ACT-06 remains `ASSERTS`.
+
+Run the producers and hostile probes:
+
+```bash
+python3 tests/channel-swings/k811_sc_act_06_relative_response_rank_budget.py
+python3 tests/channel-swings/k811_sc_act_06_relative_response_rank_budget_probe.py
+python3 tests/channel-swings/k812_sc_act_06_relative_transverse_block.py
+python3 tests/channel-swings/k812_sc_act_06_relative_transverse_block_probe.py
+python3 tests/channel-swings/k813_sc_act_06_relative_full_field_symmetry_budget.py
+python3 tests/channel-swings/k813_sc_act_06_relative_full_field_symmetry_budget_probe.py
+python3 tests/channel-swings/k814_sc_act_06_relative_packet_gate.py
+python3 tests/channel-swings/k814_sc_act_06_relative_packet_gate_probe.py
+```
+
+The producers declare 160 controls and the probes reject 126 hostile
+mutations. No source, physics-ledger, canon, paper, public, prediction,
+confirmation, or physical-verdict surface moves.
+
 ## K807--K810 co-moving frame-orbit closure (2026-10-02)
 
 K807 composes the exact moving-parent cocycle and co-moving

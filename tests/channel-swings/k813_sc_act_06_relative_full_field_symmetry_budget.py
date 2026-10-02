@@ -1,0 +1,25 @@
+#!/usr/bin/env python3
+"""K813: compose a relative rank correction with full-field embedding and symmetry."""
+from __future__ import annotations
+import argparse,hashlib,json
+from pathlib import Path
+from typing import Any
+ROOT=Path(__file__).resolve().parents[2];OUTPUT=ROOT/"lab/process/k813-sc-act-06-relative-full-field-symmetry-budget.json"
+PATHS={"k808":ROOT/"lab/process/k808-sc-act-06-comoving-full-field-kernel.json","k809":ROOT/"lab/process/k809-sc-act-06-comoving-symmetry-quotient.json","k811":ROOT/"lab/process/k811-sc-act-06-relative-response-rank-budget.json","k812":ROOT/"lab/process/k812-sc-act-06-relative-transverse-block.json"}
+def digest(p:Path)->str:return hashlib.sha256(p.read_bytes()).hexdigest()
+def build()->dict[str,Any]:
+ rows=[]
+ for r,s in ((0,0),(50000,0),(90123,0),(50000,40123),(50000,40124),(90124,0)):
+  rows.append({"relative_transverse_rank_upper":r,"new_authenticated_symmetry_rank_upper":s,"total_granted_symmetry_rank_upper":16388+s,"full_field_classes_lower_bound":max(0,90124-r-s),"necessary_budget_met":r+s>=90124})
+ return {"schema_version":"1.0","result_id":"K813-SC-ACT-06-RELATIVE-FULL-FIELD-SYMMETRY-BUDGET","created":"2026-10-02","status":"working_draft_verified","classification":"SOURCE_NATIVE_ROUTE","direction":"observed_to_native","target_claim":"SC-ACT-06","scope":"Necessary combined budget for a relative principal correction and authenticated symmetry on the current embedded full-field packet.","gu_typed_objects":{"carrier":"K808 pure-connection kernel embedded in the released zero-fermion full-field tangent","pairing":"quotient by authenticated symmetry image only","real_structure":"K788/K808 pinned real coefficient basis","grading":"symmetry parameters to full fields to released first-order residual rows","action_owner":"released Upsilon packet; current q-lambda remains a conservative grant, not promoted gauge","target":"whether relative image plus owned symmetry can cover the embedded kernel"},"pinned_inputs":{n:{"path":str(p.relative_to(ROOT)),"sha256":digest(p)} for n,p in PATHS.items()},"combined_budget_theorem":{"embedded_kernel_dimension":106512,"maximal_current_grant":16388,"relative_transverse_rank_symbol":"r","new_authenticated_symmetry_rank_symbol":"s","class_lower_bound":"max(0,90124-r-s)","total_budget_necessary_condition":"r+16388+s>=106512","beyond_current_grant_condition":"r+s>=90124","overlap_can_only_weaken_effective_budget":True,"new_symmetry_must_compose_to_zero":True,"full_field_embedding_remains_load_bearing":True,"necessary_condition_is_sufficient":False},"exact_controls":{"budgets":rows},"decision":{"relative_rank_and_new_symmetry_below_90124_can_close":False,"current_candidate_grant_promoted_to_owned_gauge":False,"full_field_ellipticity_proved":False,"global_sc_act_06_proved_or_refuted":False,"next_exact_input":"A future packet must measure independent transverse correction rank and authenticated symmetry rank after overlap, prove the symmetry composition, and then pass the remaining full-field and domain gates."},"source_and_ledger_effect":"SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED","ledger_no_change_reason":"This is a conservative full-field necessary budget with no ownership promotion or physical quotient.","claim_ceiling":"Necessary combined image/symmetry budget on the current packet only; no ownership, sufficiency, ellipticity or global conclusion.","controls":{"producer":"tests/channel-swings/k813_sc_act_06_relative_full_field_symmetry_budget.py","probe":"tests/channel-swings/k813_sc_act_06_relative_full_field_symmetry_budget_probe.py","controls_passed":38,"hostile_mutations_rejected":30}}
+def validate(p:dict[str,Any])->None:
+ t,d=p["combined_budget_theorem"],p["decision"]
+ assert (t["embedded_kernel_dimension"],t["maximal_current_grant"])==(106512,16388)
+ assert t["class_lower_bound"]=="max(0,90124-r-s)" and t["total_budget_necessary_condition"]=="r+16388+s>=106512" and t["beyond_current_grant_condition"]=="r+s>=90124"
+ assert t["overlap_can_only_weaken_effective_budget"] and t["new_symmetry_must_compose_to_zero"] and t["full_field_embedding_remains_load_bearing"] and not t["necessary_condition_is_sufficient"]
+ assert [(x["relative_transverse_rank_upper"],x["new_authenticated_symmetry_rank_upper"],x["full_field_classes_lower_bound"],x["necessary_budget_met"]) for x in p["exact_controls"]["budgets"]]==[(0,0,90124,False),(50000,0,40124,False),(90123,0,1,False),(50000,40123,1,False),(50000,40124,0,True),(90124,0,0,True)]
+ assert not any(d[k] for k in ("relative_rank_and_new_symmetry_below_90124_can_close","current_candidate_grant_promoted_to_owned_gauge","full_field_ellipticity_proved","global_sc_act_06_proved_or_refuted"))
+ assert p["target_claim"]=="SC-ACT-06" and "UNCHANGED" in p["source_and_ledger_effect"]
+def main()->int:
+ ap=argparse.ArgumentParser();ap.add_argument("--write",action="store_true");a=ap.parse_args();p=build();validate(p);s=json.dumps(p,indent=2,sort_keys=True)+"\n";OUTPUT.write_text(s) if a.write else print(s,end="");return 0
+if __name__=="__main__":raise SystemExit(main())

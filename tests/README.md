@@ -4,6 +4,18 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K811--K814 relative-response rank budget
+
+- `channel-swings/k811_sc_act_06_relative_response_rank_budget.py` proves the
+  uniform `max(0,90124-r)` necessary class bound.
+- `channel-swings/k812_sc_act_06_relative_transverse_block.py` isolates the
+  kernel-to-cokernel first-order block with exact absorbed and sharp controls.
+- `channel-swings/k813_sc_act_06_relative_full_field_symmetry_budget.py`
+  composes relative rank, full-field embedding and authenticated symmetry.
+- `channel-swings/k814_sc_act_06_relative_packet_gate.py` freezes the complete
+  future source-typed packet and its claim ceiling.
+- The paired `_probe.py` files reject 126/126 hostile mutations.
+
 ## K807--K810 co-moving frame-orbit closure
 
 - `channel-swings/k807_sc_act_06_comoving_principal_conjugacy.py` proves

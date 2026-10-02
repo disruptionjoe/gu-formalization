@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 606fd48c4eb2
+revision_basis: 9e9aaea84324
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -12467,6 +12467,20 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K811--K814 quantify every genuinely relative principal-response repair of
+  the current SC-ACT-06 packet before a new germ is constructed. For
+  `J'=J+Delta` with relative correction rank at most `r`, rank subadditivity
+  leaves connection kernel at least `max(0,106512-r)` and, under the maximal
+  current grant, at least `max(0,90124-r)` middle classes. The first-order
+  discriminator is the induced block `ker(J) -> coker(J)`; correction inside
+  the old image or vanishing on the old kernel does not lift old zero modes to
+  first order. With `s` new authenticated independent symmetry directions,
+  the full-field lower bound is `max(0,90124-r-s)`, so `r+s>=90124` is
+  necessary but not sufficient. Next construct one source-typed relative-
+  coefficient zero-locus two-jet, compute that transverse block on every
+  nonzero covector, prove symmetry composition and overlap, and pass the full
+  stationarity/redundancy/fermion/domain packet. SC-ACT-06 remains `ASSERTS`.
+
   K807--K810 close regular co-moving metric/epsilon/Shiab/Hodge frame motion as
   a principal reopener. The exact moving-frame cocycle gives
   `J_e(q_e)=R_e J_0(q_0) C_e^-1`; invertible domain, residual, and covector
@@ -13504,6 +13518,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K811--K814 close only low-budget relative principal motion as a sufficient
+  repair of the current packet. A future genuinely relative correction of
+  transverse rank `r`, together with `s` new authenticated independent
+  symmetry directions beyond the maximal current grant, must satisfy
+  `r+s>=90124`; passing that threshold does not prove ellipticity. The packet
+  must still provide one source-typed `Upsilon=0` two-jet, complete
+  stationarity, same typed domain and target or explicit retyping, symmetry
+  composition and overlap, redundant-row removal, complete bosonic/fermionic/
+  mixed symbols, a common Euclidean domain, and every nonzero covector. An
+  independent source-owned row, sufficient owned symmetry, genuinely new
+  native K500 A/B data, and singular/retyped domains remain open. SC-ACT-06
+  remains `ASSERTS`; no protected conclusion moves.
+
   K807--K810 close regular natural co-moving frame transport as a principal
   reopener. Simultaneous invertible transport of the covector, connection
   domain, residual target, full-field embedding, and current symmetry image

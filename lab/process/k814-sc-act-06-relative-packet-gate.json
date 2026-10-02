@@ -1,0 +1,85 @@
+{
+  "claim_ceiling": "Necessary future-packet interface and low-budget exclusion only; threshold passage is not sufficient and global SC-ACT-06 remains open.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "closure": {
+    "all_relative_motion_closed": false,
+    "future_independent_rows_closed": false,
+    "future_owned_symmetry_closed": false,
+    "global_sc_act_06_proved_or_refuted": false,
+    "low_budget_relative_motion_closed_as_sufficient_repair": true,
+    "regular_frame_motion_closed": true,
+    "singular_or_retyped_domains_closed": false,
+    "source_claim_status_changes": false
+  },
+  "controls": {
+    "controls_passed": 42,
+    "hostile_mutations_rejected": 32,
+    "probe": "tests/channel-swings/k814_sc_act_06_relative_packet_gate_probe.py",
+    "producer": "tests/channel-swings/k814_sc_act_06_relative_packet_gate.py"
+  },
+  "created": "2026-10-02",
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "source first-order Upsilon zero locus; no I1B/I2B sum imported",
+    "carrier": "one source-typed Upsilon=0 full-field tangent and residual packet on a common Euclidean domain",
+    "grading": "owned symmetry -> fields -> independent first-order residual rows -> redundant rows",
+    "pairing": "source-owned residual and gauge/redundancy pairings, with coker projection used only as a rank discriminator",
+    "real_structure": "authenticated Euclidean real carrier on the proposed B(epsilon)/Y germ",
+    "target": "middle exactness at every nonzero covector for one relative-coefficient germ"
+  },
+  "ledger_no_change_reason": "The gate prices future inputs but constructs no source-owned germ, physical quotient, observable, prediction or confirmation.",
+  "necessary_packet": {
+    "all_nonzero_covectors_checked": true,
+    "common_euclidean_domain": true,
+    "complete_bosonic_fermionic_mixed_symbol": true,
+    "complete_redundant_row_removal": true,
+    "complete_two_jet_and_zero_locus_stationarity": true,
+    "genuine_relative_not_regular_frame_conjugacy": true,
+    "kernel_to_cokernel_transverse_rank_measured": true,
+    "new_symmetry_composes_to_zero": true,
+    "overlap_independence_accounted": true,
+    "same_typed_domain_and_target_or_explicit_new_typing": true,
+    "serialized_relative_principal_correction": true,
+    "threshold_is_sufficient_for_ellipticity": false,
+    "transverse_rank_plus_new_authenticated_symmetry_minimum": 90124
+  },
+  "pinned_inputs": {
+    "k810": {
+      "path": "lab/process/k810-sc-act-06-comoving-frame-closure.json",
+      "sha256": "3bbfb48cec7d6fcae9922d5c7dd849257c70f8fcdbbd3d46260c2697bacac0ab"
+    },
+    "k811": {
+      "path": "lab/process/k811-sc-act-06-relative-response-rank-budget.json",
+      "sha256": "1b160a0b70ed1088c30083262687f84a789a9ec9742ce00f25f8ae2f108e34fc"
+    },
+    "k812": {
+      "path": "lab/process/k812-sc-act-06-relative-transverse-block.json",
+      "sha256": "2ff61b3e51edf15e5d964f206c2ffb2a0ea7b576d24976ea2c148a417bdcf6c5"
+    },
+    "k813": {
+      "path": "lab/process/k813-sc-act-06-relative-full-field-symmetry-budget.json",
+      "sha256": "efd2320036c0adac67763516c94ec9aa8f02d4187808871ab01dbde2519d072b"
+    }
+  },
+  "protected_effects": {
+    "canon": "UNCHANGED",
+    "paper_and_public_posture": "UNCHANGED",
+    "physics_ledger": "UNCHANGED",
+    "prediction_confirmation_physical_verdict": "UNCHANGED",
+    "sc_act_06": "ASSERTS_UNCHANGED",
+    "source_register": "UNCHANGED"
+  },
+  "reranked_frontier": [
+    "construct a source-typed relative-coefficient zero-locus two-jet and evaluate its transverse block",
+    "authenticate a genuinely independent source-owned row acting on the current kernel",
+    "authenticate new symmetry, prove composition and measure independent rank after overlap",
+    "acquire genuinely new native same-domain K500 A plus complete B/boundary/tail data",
+    "use K218/K152 only after a named consuming margin"
+  ],
+  "result_id": "K814-SC-ACT-06-RELATIVE-PACKET-GATE",
+  "schema_version": "1.0",
+  "scope": "Complete necessary admission interface for a future genuinely relative moving-principal-coefficient repair of the current SC-ACT-06 packet.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

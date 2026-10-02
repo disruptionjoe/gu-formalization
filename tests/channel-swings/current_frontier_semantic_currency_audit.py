@@ -371,6 +371,18 @@ def load_inputs() -> dict:
         "k810": json.loads(
             (ROOT / "lab/process/k810-sc-act-06-comoving-frame-closure.json").read_text()
         ),
+        "k811": json.loads(
+            (ROOT / "lab/process/k811-sc-act-06-relative-response-rank-budget.json").read_text()
+        ),
+        "k812": json.loads(
+            (ROOT / "lab/process/k812-sc-act-06-relative-transverse-block.json").read_text()
+        ),
+        "k813": json.loads(
+            (ROOT / "lab/process/k813-sc-act-06-relative-full-field-symmetry-budget.json").read_text()
+        ),
+        "k814": json.loads(
+            (ROOT / "lab/process/k814-sc-act-06-relative-packet-gate.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -563,9 +575,13 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     check(registry["latest_gu_formalization_result"] ==
-          "K807_K810_SC_ACT_06_COMOVING_FRAME_CLOSURE_CURRENT",
+          "K811_K814_SC_ACT_06_RELATIVE_RESPONSE_BUDGET_CURRENT",
           "latest GU result pointer moved")
     if isinstance(live, str):
+        check("K811--K814 close only low-budget relative principal motion" in live and
+              "r+s>=90124" in live and
+              "passing that threshold does not prove ellipticity" in live,
+              "live K811--K814 relative-response budget missing")
         check("K807--K810 close regular natural co-moving frame transport" in live and
               "90124-class lower bound" in live and
               "relative moving coefficients" in live,
@@ -971,6 +987,18 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "K811--K814 quantify every genuinely relative principal-response repair" in question
+        and "max(0,90124-r-s)" in question
+        and "necessary but not sufficient" in question,
+        "current question lost K811--K814 relative-response budget",
+    )
+    check(
+        "K811--K814 price every genuinely relative principal-response repair" in data["agenda"].get("latest_result_2026_10_02_k811_k814", "")
+        and "r+s>=90124 is necessary" in data["agenda"].get("latest_result_2026_10_02_k811_k814", "")
+        and "SC-ACT-06 remains ASSERTS" in data["agenda"].get("latest_result_2026_10_02_k811_k814", ""),
+        "agenda K811--K814 result is not current",
+    )
     check(
         "K807--K810 close regular co-moving metric/epsilon/Shiab/Hodge frame motion" in question
         and "kernel 106512" in question
@@ -2976,6 +3004,40 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           k810["protected_effects"]["sc_act_06"] == "ASSERTS_UNCHANGED",
           "K810 co-moving-frame closure moved")
 
+    k811 = data["k811"]
+    check(k811["rank_theorem"]["reference_kernel_dimension"] == 106512 and
+          k811["rank_theorem"]["maximal_current_grant"] == 16388 and
+          k811["rank_theorem"]["minimum_relative_rank_with_current_grant"] == 90124 and
+          k811["rank_theorem"]["bound_is_necessary_not_sufficient"] and
+          not k811["decision"]["threshold_proves_ellipticity"],
+          "K811 relative-response rank budget moved")
+
+    k812 = data["k812"]
+    check(k812["transverse_theorem"]["block"] == "tau=pi_Q o Delta|ker(J)" and
+          k812["transverse_theorem"]["post_current_grant_lift_requires_induced_rank"] == 90124 and
+          k812["transverse_theorem"]["cokernel_capacity_must_be_checked"] and
+          not k812["transverse_theorem"]["finite_parameter_sufficiency_follows"] and
+          k812["exact_controls"]["absorbed_sum_rank"] == 3 and
+          k812["exact_controls"]["sharp_sum_rank"] == 7,
+          "K812 relative transverse block moved")
+
+    k813 = data["k813"]
+    check(k813["combined_budget_theorem"]["class_lower_bound"] == "max(0,90124-r-s)" and
+          k813["combined_budget_theorem"]["beyond_current_grant_condition"] == "r+s>=90124" and
+          k813["combined_budget_theorem"]["new_symmetry_must_compose_to_zero"] and
+          not k813["combined_budget_theorem"]["necessary_condition_is_sufficient"] and
+          not k813["decision"]["current_candidate_grant_promoted_to_owned_gauge"],
+          "K813 relative full-field symmetry budget moved")
+
+    k814 = data["k814"]
+    check(k814["necessary_packet"]["transverse_rank_plus_new_authenticated_symmetry_minimum"] == 90124 and
+          not k814["necessary_packet"]["threshold_is_sufficient_for_ellipticity"] and
+          k814["closure"]["low_budget_relative_motion_closed_as_sufficient_repair"] and
+          not k814["closure"]["all_relative_motion_closed"] and
+          not k814["closure"]["global_sc_act_06_proved_or_refuted"] and
+          k814["protected_effects"]["sc_act_06"] == "ASSERTS_UNCHANGED",
+          "K814 relative packet gate moved")
+
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]
     k693_n = k693["native_interface_status"]
@@ -4114,6 +4176,10 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k808-kernel", lambda d: d["k808"]["extension_theorem"].__setitem__("embedded_transported_kernel_dimension", 0))
     add("k809-quotient", lambda d: d["k809"]["quotient_transport"].__setitem__("transported_persistent_classes", 0))
     add("k810-overclaim", lambda d: d["k810"]["decision"].__setitem__("global_sc_act_06_proved_or_refuted", True))
+    add("k811-threshold", lambda d: d["k811"]["rank_theorem"].__setitem__("minimum_relative_rank_with_current_grant", 0))
+    add("k812-sufficiency", lambda d: d["k812"]["transverse_theorem"].__setitem__("finite_parameter_sufficiency_follows", True))
+    add("k813-budget", lambda d: d["k813"]["combined_budget_theorem"].__setitem__("beyond_current_grant_condition", "r+s>=1"))
+    add("k814-overclaim", lambda d: d["k814"]["closure"].__setitem__("global_sc_act_06_proved_or_refuted", True))
 
     add("k696-form", lambda d: d["k696"]["integration_theorem"].__setitem__("graph_equivalence_without_form_identity_sufficient", True))
     add("k696-reduction", lambda d: d["k696"]["integration_theorem"].__setitem__("reduction_of_column_labels_alone_reduces_native_R", True))

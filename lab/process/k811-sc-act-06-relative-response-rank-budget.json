@@ -1,0 +1,104 @@
+{
+  "claim_ceiling": "Necessary rank budget on the current typed packet only; no existence, sufficiency, ellipticity or global SC-ACT-06 conclusion.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 44,
+    "hostile_mutations_rejected": 34,
+    "probe": "tests/channel-swings/k811_sc_act_06_relative_response_rank_budget_probe.py",
+    "producer": "tests/channel-swings/k811_sc_act_06_relative_response_rank_budget.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "actual_relative_germ_constructed": false,
+    "global_sc_act_06_proved_or_refuted": false,
+    "low_rank_relative_motion_can_close_current_packet": false,
+    "next_exact_input": "Compute the kernel-to-cokernel transverse block of a source-owned relative correction, then compose it with authenticated symmetry and the complete full-field complex.",
+    "threshold_proves_ellipticity": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "rank_budgets": [
+      {
+        "classes_lower_bound_after_current_grant": 90124,
+        "correction_alone_can_be_injective": false,
+        "current_grant_can_close": false,
+        "kernel_lower_bound": 106512,
+        "relative_correction_rank_upper": 0
+      },
+      {
+        "classes_lower_bound_after_current_grant": 73740,
+        "correction_alone_can_be_injective": false,
+        "current_grant_can_close": false,
+        "kernel_lower_bound": 90128,
+        "relative_correction_rank_upper": 16384
+      },
+      {
+        "classes_lower_bound_after_current_grant": 1,
+        "correction_alone_can_be_injective": false,
+        "current_grant_can_close": false,
+        "kernel_lower_bound": 16389,
+        "relative_correction_rank_upper": 90123
+      },
+      {
+        "classes_lower_bound_after_current_grant": 0,
+        "correction_alone_can_be_injective": false,
+        "current_grant_can_close": true,
+        "kernel_lower_bound": 16388,
+        "relative_correction_rank_upper": 90124
+      },
+      {
+        "classes_lower_bound_after_current_grant": 0,
+        "correction_alone_can_be_injective": true,
+        "current_grant_can_close": true,
+        "kernel_lower_bound": 0,
+        "relative_correction_rank_upper": 106512
+      }
+    ]
+  },
+  "gu_typed_objects": {
+    "action_owner": "released first-order Upsilon row; Delta is hypothetical until a source-typed germ owns it",
+    "carrier": "K788 real full-connection principal domain on each nonzero covector orbit",
+    "grading": "connection variations to the released Upsilon residual target",
+    "pairing": "none; rank inequality for J+Delta",
+    "real_structure": "K788 pinned real U(64,64) coefficient basis",
+    "target": "minimum genuinely new principal rank needed to remove the current kernel"
+  },
+  "ledger_no_change_reason": "This necessary rank bound constructs no stationary germ, quotient, observable, prediction or confirmation.",
+  "pinned_inputs": {
+    "k788": {
+      "path": "lab/process/k788-sc-act-06-direct-response-orbit-classification.json",
+      "sha256": "5d1b2813b629f13ebaaec0a2ee86e442422ab0ed0eb985c4589f9664ead9e445"
+    },
+    "k789": {
+      "path": "lab/process/k789-sc-act-06-maximal-symmetry-budget.json",
+      "sha256": "b73011120d0904f451a232042ab03b5089f20336df45371180cca4db6d999a7f"
+    },
+    "k810": {
+      "path": "lab/process/k810-sc-act-06-comoving-frame-closure.json",
+      "sha256": "3bbfb48cec7d6fcae9922d5c7dd849257c70f8fcdbbd3d46260c2697bacac0ab"
+    }
+  },
+  "rank_theorem": {
+    "bound_is_necessary_not_sufficient": true,
+    "domain_dimension": 229376,
+    "formula": "rank(J+Delta)<=rank(J)+rank(Delta)",
+    "kernel_lower_bound": "max(0,106512-r)",
+    "maximal_current_grant": 16388,
+    "minimum_relative_rank_with_current_grant": 90124,
+    "minimum_relative_rank_without_symmetry": 106512,
+    "post_grant_class_lower_bound": "max(0,90124-r)",
+    "reference_kernel_dimension": 106512,
+    "reference_rank": 122864,
+    "uniform_on_orbits": [
+      "native_positive",
+      "native_negative",
+      "native_null"
+    ]
+  },
+  "result_id": "K811-SC-ACT-06-RELATIVE-RESPONSE-RANK-BUDGET",
+  "schema_version": "1.0",
+  "scope": "Necessary rank budget for a genuinely relative correction Delta to K788's direct principal response J on the same typed domain and target.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

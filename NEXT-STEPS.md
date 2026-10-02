@@ -7,6 +7,19 @@ updated_at: "2026-10-02"
 
 # Next Steps For Contributors
 
+> **2026-10-02 K811--K814 RELATIVE-RESPONSE RANK BUDGET.** For a genuinely
+> relative correction `Delta` of rank at most `r`, rank subadditivity leaves
+> kernel at least `max(0,106512-r)` and at least
+> `max(0,90124-r)` classes after the maximal current grant. The only
+> first-order part that can lift old zero modes is
+> `pi_coker(J) Delta|ker(J)`. With `s` new authenticated independent symmetry
+> directions the full-field lower bound is `max(0,90124-r-s)`, so
+> `r+s>=90124` is necessary but not sufficient. Next construct a source-typed
+> relative-coefficient zero-locus two-jet, measure this transverse block on
+> every nonzero covector, prove symmetry composition and overlap, and complete
+> stationarity, redundancy, fermion/mixed-symbol and common-domain checks. Do
+> not infer ellipticity from the threshold alone or move SC-ACT-06.
+
 > **2026-10-02 K807--K810 CO-MOVING FRAME-ORBIT CLOSURE.** Exact moving-parent
 > cocycle and Hodge/Clifford/Shiab naturality give
 > `J_e(q_e)=R_e J_0(q_0) C_e^-1` under regular co-moving frame transport.
