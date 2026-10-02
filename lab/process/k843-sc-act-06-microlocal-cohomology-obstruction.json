@@ -1,0 +1,73 @@
+{
+  "claim_ceiling": "Proof-grade local first-order microlocal obstruction under the stated constant-rank hypotheses. It does not construct or globally classify a GU deformation complex.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "comparator_routing_notice": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) 126 Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read lab/methods/source-native-comparator-routing.md and follow its source-native pointers before reusing this result.",
+  "controls": {
+    "controls_passed": 32,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k843_sc_act_06_microlocal_cohomology_obstruction_probe.py",
+    "producer": "tests/channel-swings/k843_sc_act_06_microlocal_cohomology_obstruction.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "global_fredholmness_adjudicated_without_a_global_realization": false,
+    "local_high_frequency_obstruction_obtained": true,
+    "next_exact_input": "Apply the theorem only where one actual local realization supplies a constant-rank open covector cone and an owned or conservative gauge-symbol image.",
+    "symbol_cohomology_is_only_a_finite_dimensional_count": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "defect_amplitude": [
+      0,
+      0,
+      1
+    ],
+    "defect_amplitude_killed_by_equation_symbol": true,
+    "defect_amplitude_outside_gauge_image": true,
+    "defect_complex": {
+      "composition_zero": true,
+      "equation_symbol_rank": 1,
+      "gauge_symbol_rank": 1,
+      "middle_dimension": 3,
+      "middle_exact": false,
+      "middle_symbol_cohomology_dimension": 1
+    },
+    "exact_complex_control": {
+      "composition_zero": true,
+      "equation_symbol_rank": 1,
+      "gauge_symbol_rank": 1,
+      "middle_dimension": 2,
+      "middle_exact": true,
+      "middle_symbol_cohomology_dimension": 0
+    }
+  },
+  "gu_typed_objects": {
+    "action_owner": "repository-construction",
+    "carrier": "LAYER=toy CHIRALITY=N/A finite-rank bundles E0 -> E1 -> E2 over a local coordinate ball",
+    "grading": "gauge parameters -> fields -> equations",
+    "pairing": "auxiliary Euclidean bundle metrics ON=E0,E1,E2 used only to define quotient distance",
+    "real_structure": "real or complex finite-rank coefficient bundles",
+    "target": "MAP-TYPE=quotient local Sobolev estimate modulo the principal gauge image"
+  },
+  "ledger_no_change_reason": "This is a local analytic theorem and control pair, not a GU family, physical quotient, observable, prediction or confirmation.",
+  "result_id": "K843-SC-ACT-06-MICROLOCAL-COHOMOLOGY-OBSTRUCTION",
+  "schema_version": "1.0",
+  "scope": "Local first-order symbol-complex theorem on a coordinate ball; no GU global family, torus quotient, boundary condition or physical quotient is assumed.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "bounded_one_derivative_splitting_follows": false,
+    "compact_remainder_Hs_minus_1_growth_exponent": "s-1",
+    "constant_symbol_ranks_on_cone_required": true,
+    "construction": "u_N=chi(x)*a(xi_0)*exp(i*N*x.xi_0), with a a smooth local quotient representative",
+    "equation_Hs_minus_1_growth_exponent": "s-1",
+    "field_Hs_growth_exponent": "s",
+    "local_elliptic_quotient_estimate_holds": false,
+    "open_covector_cone_required": true,
+    "operator_order": 1,
+    "positive_middle_symbol_cohomology_required": true,
+    "principal_composition_zero_required": true,
+    "quotient_to_residual_ratio_growth_exponent": 1
+  }
+}

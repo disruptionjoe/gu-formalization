@@ -4,6 +4,19 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K843--K846 flat-realization microlocal disposition
+
+- `channel-swings/k843_sc_act_06_microlocal_cohomology_obstruction.py`
+  proves the local high-frequency quotient-estimate obstruction.
+- `channel-swings/k844_sc_act_06_flat_symbol_sobolev_obstruction.py` applies
+  it to the current K717/K788/K789 packet and its 90124-class lower bound.
+- `channel-swings/k845_sc_act_06_lower_order_repair_boundary.py` classifies
+  principal-preserving repairs and the necessary `r+s>=90124` reopener.
+- `channel-swings/k846_sc_act_06_flat_function_space_disposition.py` composes
+  the realization-specific disposition and preserves global reopeners.
+- The matching `_probe.py` files reject 85/85 hostile mutations. These are
+  local controls for the current flat packet, not a global SC-ACT-06 no-go.
+
 ## K839--K842 infinite-dimensional nonlinear admission
 
 - `channel-swings/k839_sc_act_06_finite_cutoff_limit_gate.py` proves that

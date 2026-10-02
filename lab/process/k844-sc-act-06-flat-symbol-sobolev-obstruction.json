@@ -1,0 +1,73 @@
+{
+  "claim_ceiling": "Exact local Sobolev obstruction for the current serialized flat symbol packet under a symmetry grant stronger than current custody. No global-family or source-claim no-go follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "comparator_routing_notice": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) 126 Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read lab/methods/source-native-comparator-routing.md and follow its source-native pointers before reusing this result.",
+  "controls": {
+    "controls_passed": 34,
+    "hostile_mutations_rejected": 22,
+    "probe": "tests/channel-swings/k844_sc_act_06_flat_symbol_sobolev_obstruction_probe.py",
+    "producer": "tests/channel-swings/k844_sc_act_06_flat_symbol_sobolev_obstruction.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "K717_background_globally_refuted": false,
+    "current_flat_realization_crosses_K842_bounded_or_tame_splitting_row": false,
+    "current_flat_realization_is_a_direct_SC_ACT_06_elliptic_model": false,
+    "global_SC_ACT_06_proved_or_refuted": false,
+    "next_exact_input": "Change the principal response or supply an owned principal symmetry image large enough to remove the 90124-class debt; a different source-owned germ must be tested independently."
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "source-action",
+    "carrier": "LAYER=ambient CHIRALITY=N/A local Omega1(Cl_14(C)) connection variations on K717's flat Y14 chart",
+    "grading": "candidate symmetries -> connection/metric fields -> D Upsilon equations",
+    "pairing": "auxiliary positive Frobenius form ON=connection coefficients and K717 native action form kept distinct",
+    "real_structure": "K740 pinned real U(64,64) coefficient basis",
+    "target": "MAP-TYPE=quotient local Hs elliptic estimate for the current serialized deformation symbol"
+  },
+  "hypothesis_match": {
+    "actual_owned_symmetry_is_no_larger_than_grant": true,
+    "connection_symbol_kernel_on_cone": 106512,
+    "connection_symbol_rank_on_cone": 122864,
+    "global_torus_or_compact_realization_assumed": false,
+    "local_coordinate_ball_supplied": true,
+    "middle_symbol_cohomology_lower_bound": 90124,
+    "open_cone_available": true,
+    "open_covector_cone": "native_positive",
+    "overgranted_symmetry_rank": 16388,
+    "principal_composition_zero_under_grant": true
+  },
+  "ledger_no_change_reason": "The result rejects a local analytic estimate for one repository-constructed realization; it does not supply a physical quotient, observable, prediction or confirmation.",
+  "microlocal_consequence": {
+    "bounded_one_derivative_right_inverse_on_current_quotient_follows": false,
+    "current_flat_symbol_complex_is_middle_elliptic": false,
+    "global_fredholm_cohomology_dimension_computed": false,
+    "local_first_order_elliptic_quotient_estimate_holds": false,
+    "oscillatory_compactly_supported_sequence_exists": true,
+    "quotient_Hs_to_residual_Hs_minus_1_ratio_unbounded": true
+  },
+  "pinned_inputs": {
+    "k717": {
+      "path": "lab/process/k717-sc-act-06-flat-euclidean-gimmel-germ.json",
+      "sha256": "9b6f66363ecc489ff9d2eca45c6a130cbbeb949e065414fff04343e79c1f3ed1"
+    },
+    "k788": {
+      "path": "lab/process/k788-sc-act-06-direct-response-orbit-classification.json",
+      "sha256": "5d1b2813b629f13ebaaec0a2ee86e442422ab0ed0eb985c4589f9664ead9e445"
+    },
+    "k789": {
+      "path": "lab/process/k789-sc-act-06-maximal-symmetry-budget.json",
+      "sha256": "b73011120d0904f451a232042ab03b5089f20336df45371180cca4db6d999a7f"
+    },
+    "k843": {
+      "path": "lab/process/k843-sc-act-06-microlocal-cohomology-obstruction.json",
+      "sha256": "abbf0f6433ee35c273c12fdba0b20f7d307f7bc18a90e10d81dc9403db89ae0d"
+    }
+  },
+  "result_id": "K844-SC-ACT-06-FLAT-SYMBOL-SOBOLEV-OBSTRUCTION",
+  "schema_version": "1.0",
+  "scope": "Local microlocal consequence for the currently serialized K717 flat Upsilon=0 realization and K789's deliberately over-granted symmetry image only.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

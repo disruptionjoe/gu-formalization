@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 9f97fb62117c
+revision_basis: d046ace4609c
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K843--K846 switch from generic admission-distance controls to the actual
+    current K717/K788/K789 flat packet. K843 proves the local microlocal
+    implication: positive middle cohomology of a constant-rank first-order
+    symbol complex on an open covector cone produces compactly supported
+    oscillatory representatives whose quotient `H^s` norm grows one power of
+    frequency faster than the equation and compact-remainder `H^{s-1}` norms.
+    K844 applies it on the native-positive cone: even after K789's deliberately
+    overlarge symmetry grant, at least 90124 middle classes remain, so the
+    current flat packet has no local one-derivative elliptic quotient estimate
+    or bounded splitting. K845 proves lower-order terms, same-linearization
+    nonlinearities, boundary conditions and regular natural frame conjugacy
+    cannot repair that principal obstruction; a changed response of rank `r`
+    plus a new owned symmetry image of rank `s` must at least satisfy
+    `r+s>=90124`, which is necessary but not sufficient. K846 therefore closes
+    only the current serialized flat packet as a direct elliptic realization.
+    It does not refute K717 globally, every `Upsilon=0` germ, or SC-ACT-06.
+    The source register and ledger do not move.
+
     K839--K842 close the finite-cutoff shortcut left after K838. K839 gives
     the exact diagonal Hilbert operator `T(x)_n=x_n/n`: every finite section
     and capped cutoff is invertible, while inverse norms diverge and the limit
@@ -12565,6 +12583,20 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K843--K846 turn the current flat packet's symbol count into a local
+  function-space obstruction. On the native-positive open covector cone,
+  K717/K788/K789 retain at least 90124 middle symbol classes even after a
+  symmetry grant stronger than present ownership. Compactly supported
+  high-frequency representatives then violate the one-derivative quotient
+  estimate required by a first-order elliptic deformation complex. Lower-
+  order, same-linearization, boundary-only and regular-frame repairs leave the
+  principal obstruction unchanged. The next live question is therefore not
+  another repair of this packet: construct a source/action-owned nonconjugate
+  first-order response and/or owned principal symmetry image with necessary
+  rank budget `r+s>=90124`, or supply a genuinely different source-owned germ
+  and test it independently. This is a local disposition of the current flat
+  realization, not a global SC-ACT-06 verdict.
+
   K839--K842 make the nonlinear rich-moduli obligation genuinely infinite-
   dimensional. Invertibility and isolated zeros at every finite cutoff do not
   survive a limit without uniform control: `diag(1/n)` has invertible finite
@@ -13701,6 +13733,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K843--K846 require the next SC-ACT-06 attempt to change the principal data,
+  not merely its lower-order realization. For the current K717/K788/K789 flat
+  packet, a new source/action-owned first-order response of quotient-effective
+  rank `r` and a new owned principal symmetry image of independent rank `s`
+  must satisfy the necessary threshold `r+s>=90124`; passing that threshold is
+  not sufficient and the rebuilt symbol complex must still be checked for
+  exactness on every nonzero covector orbit. A genuinely different
+  nonconjugate `Upsilon=0` germ or a complete K842 family may instead reopen
+  the question on its own merits. Do not retry lower-order, same-linearization,
+  boundary-only or regular natural frame repairs of the current flat packet.
+  SC-ACT-06 remains `ASSERTS` and no protected conclusion moves.
+
   K839--K842 require a future SC-ACT-06 candidate to cross the cutoff-to-limit
   boundary on its actual completed function space. Finite-dimensional
   exactness, pointwise inverse derivatives, analytic formulas and isolated

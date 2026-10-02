@@ -1,0 +1,92 @@
+{
+  "claim_ceiling": "Exact principal-versus-lower-order repair boundary for K844. It does not exclude changed principal symbols, new owned symmetries or a different native germ.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "comparator_routing_notice": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) 126 Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read lab/methods/source-native-comparator-routing.md and follow its source-native pointers before reusing this result.",
+  "controls": {
+    "controls_passed": 34,
+    "hostile_mutations_rejected": 21,
+    "probe": "tests/channel-swings/k845_sc_act_06_lower_order_repair_boundary_probe.py",
+    "producer": "tests/channel-swings/k845_sc_act_06_lower_order_repair_boundary.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "current_lower_order_or_same_linearization_repair_route_open": false,
+    "next_exact_input": "Supply a source/action-owned nonconjugate first-order response and/or owned symmetry image with r+s at least 90124, then rebuild the complete complex; threshold passage is necessary, not sufficient.",
+    "principal_reopener_is_exactly_localized": true
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "source-action",
+    "carrier": "LAYER=ambient CHIRALITY=N/A K717 local field/symmetry/equation symbol sequence",
+    "grading": "principal symmetry -> principal fields -> principal equations",
+    "pairing": "NONE",
+    "real_structure": "K740 pinned real coefficient basis",
+    "target": "MAP-TYPE=quotient repair of the current 90124-dimensional middle-symbol debt"
+  },
+  "ledger_no_change_reason": "This classifies repairs to one local principal packet and supplies no physical quotient or source-family construction.",
+  "pinned_inputs": {
+    "k807": {
+      "path": "lab/process/k807-sc-act-06-comoving-principal-conjugacy.json",
+      "sha256": "a4866b74c707b544f77e96fa4ea59de8e092a7e809a1c0e340c27fc00c6f6385"
+    },
+    "k813": {
+      "path": "lab/process/k813-sc-act-06-relative-full-field-symmetry-budget.json",
+      "sha256": "efd2320036c0adac67763516c94ec9aa8f02d4187808871ab01dbde2519d072b"
+    },
+    "k844": {
+      "path": "lab/process/k844-sc-act-06-flat-symbol-sobolev-obstruction.json",
+      "sha256": "5b4a7212a9719225ba87766bfee74e01f46a7d163de6ae5941bc6fba40896164"
+    }
+  },
+  "principal_invariance_theorem": {
+    "interior_compactly_supported_quasimodes_are_removed_by_boundary_conditions": false,
+    "lower_order_only_repair_restores_local_elliptic_estimate": false,
+    "nonlinear_terms_with_same_linearization_change_principal_symbol": false,
+    "regular_natural_frame_conjugacy_changes_symbol_cohomology_dimension": false,
+    "regular_natural_frame_conjugacy_preserves_rank_and_kernel": true,
+    "zeroth_order_operator_changes_principal_symbol": false
+  },
+  "repair_budget": {
+    "changed_principal_response_can_reopen": true,
+    "current_middle_symbol_debt": 90124,
+    "genuinely_different_nonconjugate_germ_can_reopen": true,
+    "necessary_threshold": "r+s>=90124",
+    "new_independent_owned_symmetry_rank": "s",
+    "new_owned_principal_symmetry_can_reopen": true,
+    "relative_principal_response_rank": "r",
+    "threshold_is_sufficient": false
+  },
+  "repair_classification": [
+    {
+      "disposition": "cannot_repair_K844",
+      "principal_effect": "none",
+      "repair": "zeroth_order_mass_or_potential"
+    },
+    {
+      "disposition": "cannot_repair_K844",
+      "principal_effect": "none_at_fixed_germ",
+      "repair": "nonlinear_terms_with_same_D_Upsilon"
+    },
+    {
+      "disposition": "cannot_repair_K844",
+      "principal_effect": "none_on_interior_quasimode",
+      "repair": "boundary_condition_or_compactification"
+    },
+    {
+      "disposition": "cannot_repair_K844",
+      "principal_effect": "invertible_conjugacy",
+      "repair": "regular_natural_frame_transport"
+    },
+    {
+      "disposition": "reopen_if_complete_and_threshold_passes",
+      "principal_effect": "may_act_on_old_quotient",
+      "repair": "new_first_order_response_or_owned_symmetry"
+    }
+  ],
+  "result_id": "K845-SC-ACT-06-LOWER-ORDER-REPAIR-BOUNDARY",
+  "schema_version": "1.0",
+  "scope": "Principal-symbol repair classification for K844's current flat realization only.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

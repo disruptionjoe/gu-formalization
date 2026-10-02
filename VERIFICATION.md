@@ -7,6 +7,49 @@ updated_at: "2026-10-02"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K843--K846 flat-realization microlocal disposition (2026-10-02)
+
+K843 proves a local first-order microlocal obstruction. If the symbol complex
+has positive middle cohomology with constant ranks on an open covector cone,
+compactly supported oscillatory representatives have quotient `H^s` growth
+of order `N^s`, while the equation and compact-remainder `H^{s-1}` terms grow
+only as `N^(s-1)`. The local one-derivative elliptic quotient estimate, and
+hence a bounded splitting of that type, cannot hold.
+
+K844 applies this theorem only to the current K717/K788/K789 local flat
+packet. On the native-positive open cone, the direct response has rank 122864
+and kernel 106512. Even K789's deliberately overlarge rank-16388 symmetry
+grant leaves at least 90124 middle symbol classes. No global torus,
+compactification or Fredholm realization is assumed.
+
+K845 classifies repair boundaries. Zeroth- and lower-order terms, nonlinear
+terms with the same linearization, boundary conditions on interior-supported
+quasimodes and regular natural frame conjugacies do not change the principal
+obstruction. A quotient-effective response rank `r` and independent owned
+principal symmetry rank `s` must satisfy `r+s>=90124`; this is necessary, not
+sufficient. K846 composes the result: the current serialized flat packet is
+not a direct elliptic SC-ACT-06 realization, but K717 globally, other
+`Upsilon=0` germs and the source claim remain unadjudicated.
+
+Run the producers and hostile probes:
+
+```bash
+python3 tests/channel-swings/k843_sc_act_06_microlocal_cohomology_obstruction.py --check
+python3 tests/channel-swings/k843_sc_act_06_microlocal_cohomology_obstruction_probe.py
+python3 tests/channel-swings/k844_sc_act_06_flat_symbol_sobolev_obstruction.py --check
+python3 tests/channel-swings/k844_sc_act_06_flat_symbol_sobolev_obstruction_probe.py
+python3 tests/channel-swings/k845_sc_act_06_lower_order_repair_boundary.py --check
+python3 tests/channel-swings/k845_sc_act_06_lower_order_repair_boundary_probe.py
+python3 tests/channel-swings/k846_sc_act_06_flat_function_space_disposition.py --check
+python3 tests/channel-swings/k846_sc_act_06_flat_function_space_disposition_probe.py
+```
+
+The producers declare 135 controls and the probes reject 85 hostile
+mutations. The result is local and realization-specific. It does not construct
+a different source-owned family, compute global Fredholm cohomology, refute
+the background globally or move the source register, ledger, canon, paper,
+public, prediction, confirmation or physical verdict.
+
 ## K839--K842 infinite-dimensional nonlinear admission (2026-10-02)
 
 K839 studies `T:l2->l2`, `(Tx)_n=x_n/n`. Every first-`N` section and the

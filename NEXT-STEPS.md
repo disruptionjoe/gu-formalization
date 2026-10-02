@@ -7,6 +7,21 @@ updated_at: "2026-10-02"
 
 # Next Steps For Contributors
 
+> **2026-10-02 K843--K846 FLAT-REALIZATION MICROLOCAL DISPOSITION.** K843
+> proves that positive middle cohomology of a constant-rank first-order symbol
+> complex on an open covector cone produces compactly supported oscillatory
+> representatives that violate the local one-derivative quotient estimate.
+> K844 applies this theorem to the current K717/K788/K789 packet on the
+> native-positive cone: at least 90124 classes remain even after K789's
+> overlarge symmetry grant. K845 proves lower-order, same-linearization,
+> boundary-only and regular-frame repairs cannot change the principal
+> obstruction; a changed response of rank `r` plus new owned principal
+> symmetry of rank `s` must at least satisfy `r+s>=90124`. K846 closes only
+> this serialized flat packet as a direct elliptic realization. Next supply
+> genuinely changed source/action-owned principal data or a nonconjugate germ,
+> then rebuild and test the complete complex. This local result is not a
+> global no-go; SC-ACT-06 remains `ASSERTS`.
+
 > **2026-10-02 K839--K842 INFINITE-DIMENSIONAL NONLINEAR ADMISSION.**
 > K839 proves that invertibility at every finite cutoff does not imply an
 > invertible or Fredholm limit: `T(x)_n=x_n/n` has inverse cutoff norm `N`

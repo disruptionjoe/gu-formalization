@@ -1,0 +1,73 @@
+{
+  "claim_ceiling": "Exact local function-space disposition for the current serialized flat realization. It is not a global no-go for SC-ACT-06 or for every source-owned germ.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "comparator_routing_notice": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) 126 Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read lab/methods/source-native-comparator-routing.md and follow its source-native pointers before reusing this result.",
+  "composition": {
+    "all_K842_admission_rows_pass": false,
+    "bounded_one_derivative_splitting_on_current_quotient": false,
+    "complete_global_function_space_realization_supplied": false,
+    "current_flat_middle_symbol_exact": false,
+    "local_elliptic_quotient_estimate": false,
+    "lower_order_or_same_linearization_repair_available": false,
+    "uniform_middle_symbol_cohomology_lower_bound": 90124
+  },
+  "controls": {
+    "controls_passed": 35,
+    "hostile_mutations_rejected": 22,
+    "probe": "tests/channel-swings/k846_sc_act_06_flat_function_space_disposition_probe.py",
+    "producer": "tests/channel-swings/k846_sc_act_06_flat_function_space_disposition.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "K717_background_itself_globally_refuted": false,
+    "K717_current_serialized_packet_is_direct_elliptic_realization": false,
+    "SC_ACT_06_source_claim_proved_or_refuted": false,
+    "every_Upsilon_zero_background_rejected": false,
+    "next_exact_input": "Supply one of the four principal reopeners above; do not retry lower-order, same-linearization, boundary-only or regular-frame repairs of K717.",
+    "reopeners": [
+      "a source/action-owned nonconjugate first-order response acting on the old quotient",
+      "an owned principal symmetry image supplying enough independent directions to meet the 90124 necessary debt",
+      "a genuinely different zero-locus germ whose principal packet is not related by regular natural conjugacy",
+      "a complete source/action-owned family passing all 30 K842 rows on one declared function-space realization"
+    ],
+    "source_register_or_ledger_moves": false
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "source-action",
+    "carrier": "LAYER=ambient CHIRALITY=N/A K717 local flat Y14 field/symmetry/equation packet",
+    "grading": "candidate symmetries -> full serialized flat fields -> source first-order residual rows",
+    "pairing": "K717 native action form plus auxiliary positive Frobenius coefficient metric ON=local connection carrier",
+    "real_structure": "K740 pinned real coefficient basis",
+    "target": "MAP-TYPE=quotient local ellipticity and one-derivative Sobolev splitting for the current realization"
+  },
+  "ledger_no_change_reason": "This closes one current repository realization as a direct elliptic model and does not adjudicate the source's existential claim or construct physical observables.",
+  "pinned_inputs": {
+    "k790": {
+      "path": "lab/process/k790-sc-act-06-flat-zero-locus-realization-gate.json",
+      "sha256": "13904b26e4ed08d972a8b33d8038a384d62af9c23512372f1e96f9cbdbee4625"
+    },
+    "k794": {
+      "path": "lab/process/k794-sc-act-06-released-flat-realization-closure.json",
+      "sha256": "e7e970813bd1e8e00afb171d202b492e515ccab2d1327328ca0481da3fb344ee"
+    },
+    "k842": {
+      "path": "lab/process/k842-sc-act-06-infinite-dimensional-admission-compiler.json",
+      "sha256": "197f007de72d7b8c165a88c7e5e898bf9eada71fff2bf81a58b87ad6331aab0d"
+    },
+    "k844": {
+      "path": "lab/process/k844-sc-act-06-flat-symbol-sobolev-obstruction.json",
+      "sha256": "5b4a7212a9719225ba87766bfee74e01f46a7d163de6ae5941bc6fba40896164"
+    },
+    "k845": {
+      "path": "lab/process/k845-sc-act-06-lower-order-repair-boundary.json",
+      "sha256": "ab5c035962c8355917cdd36a568a8b2d0e1aa6b58580997d00dd263013d4a0d3"
+    }
+  },
+  "result_id": "K846-SC-ACT-06-FLAT-FUNCTION-SPACE-DISPOSITION",
+  "schema_version": "1.0",
+  "scope": "Integrated realization-level disposition of the current K717 flat Upsilon=0 packet; every conclusion is local to its serialized principal rows and conservative symmetry grant.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

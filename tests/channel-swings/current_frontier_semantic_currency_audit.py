@@ -467,6 +467,18 @@ def load_inputs() -> dict:
         "k842": json.loads(
             (ROOT / "lab/process/k842-sc-act-06-infinite-dimensional-admission-compiler.json").read_text()
         ),
+        "k843": json.loads(
+            (ROOT / "lab/process/k843-sc-act-06-microlocal-cohomology-obstruction.json").read_text()
+        ),
+        "k844": json.loads(
+            (ROOT / "lab/process/k844-sc-act-06-flat-symbol-sobolev-obstruction.json").read_text()
+        ),
+        "k845": json.loads(
+            (ROOT / "lab/process/k845-sc-act-06-lower-order-repair-boundary.json").read_text()
+        ),
+        "k846": json.loads(
+            (ROOT / "lab/process/k846-sc-act-06-flat-function-space-disposition.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -659,9 +671,13 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     check(registry["latest_gu_formalization_result"] ==
-          "K839_K842_SC_ACT_06_INFINITE_DIMENSIONAL_CURRENT",
+          "K843_K846_SC_ACT_06_FLAT_FUNCTION_SPACE_CURRENT",
           "latest GU result pointer moved")
     if isinstance(live, str):
+        check("K843--K846 require the next SC-ACT-06 attempt" in live and
+              "r+s>=90124" in live and
+              "Do not retry lower-order" in live,
+              "live K843--K846 flat function-space disposition missing")
         check("K839--K842 require a future SC-ACT-06 candidate" in live and
               "bounded or tame" in live and
               "all 30 rows" in live,
@@ -1120,6 +1136,18 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "K843--K846 turn the current flat packet's symbol count" in question
+        and "at least 90124 middle symbol classes" in question
+        and "not a global SC-ACT-06 verdict" in question,
+        "current question lost K843--K846 flat microlocal disposition",
+    )
+    check(
+        "K843--K846 switch from generic admission-distance accumulation" in data["agenda"].get("latest_result_2026_10_02_k843_k846", "")
+        and "r+s>=90124" in data["agenda"].get("latest_result_2026_10_02_k843_k846", "")
+        and "SC-ACT-06 remain unadjudicated" in data["agenda"].get("latest_result_2026_10_02_k843_k846", ""),
+        "agenda K843--K846 result is not current",
+    )
     check(
         "K839--K842 make the nonlinear rich-moduli obligation genuinely infinite" in question
         and "completed function-space topology" in question
@@ -3495,6 +3523,42 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k842["decision"]["actual_gu_rich_moduli_admitted"],
           "K842 infinite-dimensional admission compiler moved")
 
+    k843 = data["k843"]
+    check(k843["theorem"]["positive_middle_symbol_cohomology_required"] and
+          k843["theorem"]["open_covector_cone_required"] and
+          not k843["theorem"]["local_elliptic_quotient_estimate_holds"] and
+          k843["theorem"]["quotient_to_residual_ratio_growth_exponent"] == 1 and
+          k843["decision"]["local_high_frequency_obstruction_obtained"] and
+          not k843["decision"]["global_fredholmness_adjudicated_without_a_global_realization"],
+          "K843 microlocal cohomology obstruction moved")
+
+    k844 = data["k844"]
+    check(k844["hypothesis_match"]["open_covector_cone"] == "native_positive" and
+          k844["hypothesis_match"]["connection_symbol_kernel_on_cone"] == 106512 and
+          k844["hypothesis_match"]["middle_symbol_cohomology_lower_bound"] == 90124 and
+          not k844["hypothesis_match"]["global_torus_or_compact_realization_assumed"] and
+          not k844["microlocal_consequence"]["current_flat_symbol_complex_is_middle_elliptic"] and
+          not k844["microlocal_consequence"]["local_first_order_elliptic_quotient_estimate_holds"] and
+          not k844["decision"]["global_SC_ACT_06_proved_or_refuted"],
+          "K844 flat symbol Sobolev obstruction moved")
+
+    k845 = data["k845"]
+    check(not k845["principal_invariance_theorem"]["lower_order_only_repair_restores_local_elliptic_estimate"] and
+          not k845["principal_invariance_theorem"]["nonlinear_terms_with_same_linearization_change_principal_symbol"] and
+          k845["repair_budget"]["necessary_threshold"] == "r+s>=90124" and
+          not k845["repair_budget"]["threshold_is_sufficient"] and
+          not k845["decision"]["current_lower_order_or_same_linearization_repair_route_open"],
+          "K845 lower-order repair boundary moved")
+
+    k846 = data["k846"]
+    check(k846["composition"]["uniform_middle_symbol_cohomology_lower_bound"] == 90124 and
+          not k846["composition"]["local_elliptic_quotient_estimate"] and
+          not k846["decision"]["K717_current_serialized_packet_is_direct_elliptic_realization"] and
+          not k846["decision"]["SC_ACT_06_source_claim_proved_or_refuted"] and
+          not k846["decision"]["source_register_or_ledger_moves"] and
+          len(k846["decision"]["reopeners"]) == 4,
+          "K846 flat function-space disposition moved")
+
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]
     k693_n = k693["native_interface_status"]
@@ -4665,6 +4729,10 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k840-uniform-radius", lambda d: d["k840"]["uniform_failure_certificate"].__setitem__("positive_N_uniform_injectivity_radius_exists", True))
     add("k841-origin-isolated", lambda d: d["k841"]["full_space_zero_set"].__setitem__("origin_is_isolated", True))
     add("k842-cutoff-admissible", lambda d: d["k842"]["compiler"].__setitem__("finite_cutoff_exactness_alone_admissible", True))
+    add("k843-elliptic-estimate", lambda d: d["k843"]["theorem"].__setitem__("local_elliptic_quotient_estimate_holds", True))
+    add("k844-middle-exact", lambda d: d["k844"]["microlocal_consequence"].__setitem__("current_flat_symbol_complex_is_middle_elliptic", True))
+    add("k845-lower-order-repair", lambda d: d["k845"]["principal_invariance_theorem"].__setitem__("lower_order_only_repair_restores_local_elliptic_estimate", True))
+    add("k846-global-verdict", lambda d: d["k846"]["decision"].__setitem__("SC_ACT_06_source_claim_proved_or_refuted", True))
 
     add("k696-form", lambda d: d["k696"]["integration_theorem"].__setitem__("graph_equivalence_without_form_identity_sufficient", True))
     add("k696-reduction", lambda d: d["k696"]["integration_theorem"].__setitem__("reduction_of_column_labels_alone_reduces_native_R", True))
