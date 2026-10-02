@@ -1,0 +1,88 @@
+{
+  "claim_ceiling": "Exact K763 lower-bound composition for the curvature-square comparator. It excludes the native-pairing comparator from all-covector exactness, but positive-pairing threshold clearance is not exactness or source ownership and no global SC-ACT-06 or physical conclusion follows.",
+  "classification": "INTERNAL_COMPARATOR_ONLY",
+  "composition": {
+    "formula": "H_new >= max(0,H_K749-r) because m=0 and the old gauge embedding is unchanged",
+    "gauge_rank": 4,
+    "rows": [
+      {
+        "case": "native_nonnull",
+        "k763_lower_bound": 0,
+        "middle_exact_proved": false,
+        "necessary_rank_threshold_cleared": true,
+        "new_even_dimension_m": 0,
+        "old_block_correction_rank_r": 212992,
+        "old_middle_cohomology_lower_bound": 98308,
+        "pairing": "native_eta"
+      },
+      {
+        "case": "native_null_auxiliary_nonzero",
+        "k763_lower_bound": 81927,
+        "middle_exact_proved": false,
+        "necessary_rank_threshold_cleared": false,
+        "new_even_dimension_m": 0,
+        "old_block_correction_rank_r": 16384,
+        "old_middle_cohomology_lower_bound": 98311,
+        "pairing": "native_eta"
+      },
+      {
+        "case": "native_nonnull",
+        "k763_lower_bound": 0,
+        "middle_exact_proved": false,
+        "necessary_rank_threshold_cleared": true,
+        "new_even_dimension_m": 0,
+        "old_block_correction_rank_r": 212992,
+        "old_middle_cohomology_lower_bound": 98308,
+        "pairing": "positive_cartan_q"
+      },
+      {
+        "case": "native_null_auxiliary_nonzero",
+        "k763_lower_bound": 0,
+        "middle_exact_proved": false,
+        "necessary_rank_threshold_cleared": true,
+        "new_even_dimension_m": 0,
+        "old_block_correction_rank_r": 212992,
+        "old_middle_cohomology_lower_bound": 98311,
+        "pairing": "positive_cartan_q"
+      }
+    ]
+  },
+  "controls": {
+    "controls_passed": 40,
+    "hostile_mutations_rejected": 34,
+    "probe": "tests/channel-swings/k769_sc_act_06_curvature_square_cohomology_bound_probe.py",
+    "producer": "tests/channel-swings/k769_sc_act_06_curvature_square_cohomology_bound.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "global_SC_ACT_06_refuted": false,
+    "native_null_middle_cohomology_lower_bound": 81927,
+    "native_pairing_repairs_native_null": false,
+    "native_pairing_repairs_nonnull_proved": false,
+    "positive_pairing_clears_both_necessary_rank_thresholds": true,
+    "positive_pairing_repairs_both_proved": false,
+    "positive_pairing_source_selected": false
+  },
+  "direction": "observed_to_native",
+  "ledger_no_change_reason": "The native comparator remains obstructed at a null covector, while the positive comparator clears only a necessary rank budget and carries unowned reduction and image-placement debts.",
+  "pinned_inputs": {
+    "k749": {
+      "path": "lab/process/k749-sc-act-06-t0-full-symbol-obstruction.json",
+      "sha256": "3e8a8688d7292b1680b08ba3e9c3a21b9ebbf96bbbb18a3fc9cc7825038ca7ca"
+    },
+    "k763": {
+      "path": "lab/process/k763-sc-act-06-finite-rank-even-owner-update.json",
+      "sha256": "e4a83a2c61708ed932da1ad5bc086c2c1e3ef0cd0678b890af0cff7aba5093cf"
+    },
+    "k768": {
+      "path": "lab/process/k768-sc-act-06-curvature-square-rank-boundary.json",
+      "sha256": "1c55e8b998e9a35c65d721e7099a22ae7c99d74abb200a7d386721d97ab838da"
+    }
+  },
+  "result_id": "K769-SC-ACT-06-CURVATURE-SQUARE-COHOMOLOGY-BOUND",
+  "schema_version": "1.0",
+  "scope": "K763 rank-budget composition of K768's pure curvature-square comparator with K749's two certified full-symbol strata and unchanged rank-four metric gauge.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

@@ -1,0 +1,77 @@
+{
+  "claim_ceiling": "Exact successor gate for the pure curvature-square comparator. It closes the native-pairing version and preserves a positive-reduction version only as an unowned threshold survivor. No source action identification, complete exactness, global SC-ACT-06 result, or physical conclusion.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "closed_classes": [
+    {
+      "class": "pure full-connection curvature-square comparator with native (13,1) adjoint on the frozen K749 germ",
+      "reason": "At a native-null nonzero covector its Hessian rank is only 16384, so K763 leaves at least 81927 middle classes."
+    },
+    {
+      "class": "identifying pure ||F_A||^2 with the source-owned I2B residual action",
+      "reason": "SC-ACT-04 owns ||Upsilon||^2 and the evidence contract requires an explicit residual/action derivative owner; matching derivative order or Yang-Mills language is insufficient."
+    }
+  ],
+  "controls": {
+    "controls_passed": 42,
+    "hostile_mutations_rejected": 36,
+    "probe": "tests/channel-swings/k770_sc_act_06_curvature_square_successor_gate_probe.py",
+    "producer": "tests/channel-swings/k770_sc_act_06_curvature_square_successor_gate.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "SC_ACT_06_status": "ASSERTS",
+    "do_not_promote_comparator_to_source_I2B": true,
+    "do_not_promote_positive_rank_clearance_to_exactness": true,
+    "do_not_retry_native_pairing_curvature_square_comparator": true,
+    "global_SC_ACT_06_refuted": false,
+    "positive_reduction_branch_mathematically_open_but_unowned": true
+  },
+  "direction": "observed_to_native",
+  "ledger_no_change_reason": "The native comparator is excluded, while its positive repair changes the pairing/reduction ownership and still lacks the complete source-owned symbol complex.",
+  "pinned_inputs": {
+    "k716": {
+      "path": "lab/process/k716-sc-act-06-compact-reduction-selection-boundary.json",
+      "sha256": "51add4414d9981532fee152b42fd152063e20e6541112bd8a9d39f5cc0555e0d"
+    },
+    "k766": {
+      "path": "lab/process/k766-sc-act-06-derivative-even-successor-gate.json",
+      "sha256": "48335e33c649246aac25adc6ef5ae690d7e52931c5fe8a2405600e0433086d78"
+    },
+    "k767": {
+      "path": "lab/process/k767-sc-act-06-curvature-square-control.json",
+      "sha256": "1381446607326ce2058eb1342c7980058601c6fb4b60fd1f2ba12a5f159bff9c"
+    },
+    "k768": {
+      "path": "lab/process/k768-sc-act-06-curvature-square-rank-boundary.json",
+      "sha256": "1c55e8b998e9a35c65d721e7099a22ae7c99d74abb200a7d386721d97ab838da"
+    },
+    "k769": {
+      "path": "lab/process/k769-sc-act-06-curvature-square-cohomology-bound.json",
+      "sha256": "048d36f02d917b42f20d243672d5ce867b3b2708bf098bc783f3ec46979d9679"
+    }
+  },
+  "result_id": "K770-SC-ACT-06-CURVATURE-SQUARE-SUCCESSOR-GATE",
+  "schema_version": "1.0",
+  "scope": "Successor routing after K767--K769 test the natural full-connection curvature-square comparator under native and positive Cartan pairings.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "surviving_branches": [
+    {
+      "input": "positive Cartan-reduction curvature comparator",
+      "required_new_fact": "background/source ownership of one reduction, exact combined I1B image placement, total-action gauge/redundancy maps and all-covector exactness; rank-threshold clearance alone is insufficient"
+    },
+    {
+      "input": "fully stationary changed or nonzero-T source-typed germ",
+      "required_new_fact": "new action-owned principal image and complete coupled symbol complex"
+    },
+    {
+      "input": "independent source/action parent or different Shiab response",
+      "required_new_fact": "exact owner, maps, pairing, common domain and stationarity"
+    },
+    {
+      "input": "complete native K500 A/B packet",
+      "required_new_fact": "native remainder and boundary maps plus complete A and parity-cofinal B certificates"
+    }
+  ],
+  "target_claim": "SC-ACT-06"
+}

@@ -1,0 +1,109 @@
+{
+  "claim_ceiling": "Exact four-stratum rank and connection-only cohomology theorem for a pure curvature-square comparator. No source ownership, combined I1B image placement, total-action gauge enlargement, all-covector exactness, global SC-ACT-06 result, or physical conclusion.",
+  "classification": "INTERNAL_COMPARATOR_ONLY",
+  "controls": {
+    "controls_passed": 44,
+    "hostile_mutations_rejected": 38,
+    "probe": "tests/channel-swings/k768_sc_act_06_curvature_square_rank_boundary_probe.py",
+    "producer": "tests/channel-swings/k768_sc_act_06_curvature_square_rank_boundary.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "curvature_hessian_equals_gauge_fixed_hodge_laplacian": false,
+    "global_SC_ACT_06_refuted": false,
+    "native_nonnull_rank_clears_k766_threshold": true,
+    "native_null_rank_clears_k766_threshold": false,
+    "positive_pairing_rank_clears_both_thresholds": true,
+    "positive_pairing_source_selected": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "coefficient_dimension": 16384,
+    "connection_dimension": 229376,
+    "dimension": 14,
+    "rows": [
+      {
+        "case": "native_nonnull",
+        "coefficient_dimension": 16384,
+        "connection_hessian_rank": 212992,
+        "connection_kernel_dimension": 16384,
+        "connection_only_middle_cohomology_dimension": 0,
+        "internal_gauge_image_rank": 16384,
+        "one_coefficient_hessian_rank": 13,
+        "one_coefficient_kernel_dimension": 1,
+        "pairing": "native_eta"
+      },
+      {
+        "case": "native_null_auxiliary_nonzero",
+        "coefficient_dimension": 16384,
+        "connection_hessian_rank": 16384,
+        "connection_kernel_dimension": 212992,
+        "connection_only_middle_cohomology_dimension": 196608,
+        "internal_gauge_image_rank": 16384,
+        "one_coefficient_hessian_rank": 1,
+        "one_coefficient_kernel_dimension": 13,
+        "pairing": "native_eta"
+      },
+      {
+        "case": "native_nonnull",
+        "coefficient_dimension": 16384,
+        "connection_hessian_rank": 212992,
+        "connection_kernel_dimension": 16384,
+        "connection_only_middle_cohomology_dimension": 0,
+        "internal_gauge_image_rank": 16384,
+        "one_coefficient_hessian_rank": 13,
+        "one_coefficient_kernel_dimension": 1,
+        "pairing": "positive_cartan_q"
+      },
+      {
+        "case": "native_null_auxiliary_nonzero",
+        "coefficient_dimension": 16384,
+        "connection_hessian_rank": 212992,
+        "connection_kernel_dimension": 16384,
+        "connection_only_middle_cohomology_dimension": 0,
+        "internal_gauge_image_rank": 16384,
+        "one_coefficient_hessian_rank": 13,
+        "one_coefficient_kernel_dimension": 1,
+        "pairing": "positive_cartan_q"
+      }
+    ]
+  },
+  "ledger_no_change_reason": "The exact rank boundary belongs to a repository comparator and an unowned positive reduction; it does not identify the source residual Hessian or complete total-action complex.",
+  "pinned_inputs": {
+    "k710": {
+      "path": "lab/process/k710-sc-act-06-null-symbol-ellipticity-boundary.json",
+      "sha256": "91f90ee3154a43e3b2e7768a1979feb08dd07fa92be61c67f445dc1f2115434f"
+    },
+    "k712": {
+      "path": "lab/process/k712-sc-act-06-auxiliary-positive-gauge-repair.json",
+      "sha256": "5a4d448b585dc5643815baf878e7ea0a3b9b18b75fa386f876e46d175d9a22ee"
+    },
+    "k714": {
+      "path": "lab/process/k714-sc-act-06-cartan-reduction-gauge-metric.json",
+      "sha256": "b24f549b3488a0e60b5dbd08dc9ebab7cde481d6973aaafb9cf3d709d22efa70"
+    },
+    "k767": {
+      "path": "lab/process/k767-sc-act-06-curvature-square-control.json",
+      "sha256": "1381446607326ce2058eb1342c7980058601c6fb4b60fd1f2ba12a5f159bff9c"
+    }
+  },
+  "rank_theorem": {
+    "nonnull_native": "rank per coefficient 13; curvature complex middle exact",
+    "null_native": "rank per coefficient 1; kernel q-perp and middle cohomology dimension 12 per coefficient",
+    "positive_all_nonzero": "rank per coefficient 13; curvature complex middle exact",
+    "proof": "For h-nonnull q, ker(d_q^{*h}d_q)=span(q). For eta-null q, H=-q tensor q-sharp has rank one, while im(d_q) remains span(q). Positive h has no nonzero null covectors."
+  },
+  "result_id": "K768-SC-ACT-06-CURVATURE-SQUARE-RANK-BOUNDARY",
+  "schema_version": "1.0",
+  "scope": "Exact principal Hessian and connection-only gauge-cohomology ranks for K767's full 16,384-coefficient curvature-square comparator under native indefinite and supplied positive Cartan pairings.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "typed_objects": {
+    "hessian": "H_h(q)=d_q^{*h} d_q",
+    "internal_gauge": "lambda -> q lambda",
+    "native_pairing": "eta of signature (13,1)",
+    "positive_pairing": "K714 Cartan-compatible q, mathematically supplied but not source-selected",
+    "principal_differential": "d_q:u -> q wedge u on Lambda1(R14)*Cl14"
+  }
+}

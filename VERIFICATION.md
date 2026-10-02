@@ -7,6 +7,46 @@ updated_at: "2026-10-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K767--K770 curvature-square comparator boundary (2026-10-01)
+
+K767 defines one repository comparator, fixed before solving:
+`S_curv=(1/2)||F_A||^2`. At K749's flat `F_A=0` germ every first variation
+vanishes, and the old rank-four diffeomorphism gauge has zero connection
+component at frozen `T=0`. This proves stationarity and Ward compatibility for
+the comparator only. It does not make the comparator source I1B or I2B; the
+source-owned I2B term remains `||Upsilon||^2`.
+
+K768 computes the principal connection Hessian
+`H_h=d_q^{*h}d_q` on the full `14*16384=229376` connection carrier. With the
+native `(13,1)` pairing, each internal coefficient has rank 13 for nonnull
+`q` and rank 1 for native-null `q`. The corresponding full ranks are 212992
+and 16384, and the native-null connection-only middle cohomology has dimension
+196608. With the positive Cartan pairing every nonzero `q` has rank 13 per
+coefficient and full rank 212992. This curvature Hessian is not the
+gauge-fixed Hodge Laplacian used in K710.
+
+K769 composes those exact ranks with K763 and K749. The native-null row leaves
+at least `98311-16384=81927` middle classes. The native nonnull and both
+positive-pairing rows have zero dimension-only lower bound, which proves only
+that the necessary rank threshold is cleared. It does not prove combined I1B
+image complementarity, total-action gauge/redundancy identities, source
+ownership, or all-covector exactness. K770 therefore closes the native-pairing
+comparator and source-I2B conflation while retaining an explicitly unowned
+positive-reduction branch. No protected scientific verdict changes.
+
+Run:
+
+```bash
+python3 tests/channel-swings/k767_sc_act_06_curvature_square_control.py
+python3 tests/channel-swings/k767_sc_act_06_curvature_square_control_probe.py
+python3 tests/channel-swings/k768_sc_act_06_curvature_square_rank_boundary.py
+python3 tests/channel-swings/k768_sc_act_06_curvature_square_rank_boundary_probe.py
+python3 tests/channel-swings/k769_sc_act_06_curvature_square_cohomology_bound.py
+python3 tests/channel-swings/k769_sc_act_06_curvature_square_cohomology_bound_probe.py
+python3 tests/channel-swings/k770_sc_act_06_curvature_square_successor_gate.py
+python3 tests/channel-swings/k770_sc_act_06_curvature_square_successor_gate_probe.py
+```
+
 ## K763--K766 finite-rank derivative-even boundary (2026-10-01)
 
 K763 is an exact finite-dimensional rank theorem. For

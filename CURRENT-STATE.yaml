@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 63fcbb330dd2
+revision_basis: a4e2b58969b
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,26 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K767--K770 test the first natural high-rank comparator left by K766.
+    K767 freezes the repository-owned control
+    `S_curv=(1/2)||F_A||^2` on K749's flat stationary germ, proves flat
+    stationarity and compatibility with the old rank-four Ward image, and
+    separates the control from source I1B and I2B. K768 computes the exact
+    full-connection rank on all 16384 internal coefficients. With the native
+    `(13,1)` pairing it is 212992 at a nonnull covector but only 16384 at a
+    native-null covector, leaving 196608 connection-only middle classes; with
+    the positive Cartan pairing it is 212992 on both tested nonzero
+    covectors. K769 composes K763: the native-null case still has at least
+    81927 middle classes, while the positive case merely clears the necessary
+    rank threshold and proves neither exactness nor source ownership. K770
+    closes the native-pairing pure-curvature comparator and any identification
+    of it with source I2B. A source-owned positive reduction with exact I1B
+    image placement, total-action gauge/redundancy maps and all-covector
+    exactness remains open, as do a changed stationary germ, independent
+    action parent/different Shiab response and complete native K500 A/B input.
+    SC-ACT-06 remains `ASSERTS`; no source, ledger, canon, paper, public,
+    prediction, confirmation or physical verdict moves.
+
     K763--K766 extend the fixed-old-block spectator theorem to every
     Ward-compatible finite-rank correction of the old bosonic block. If the
     old-block correction has rank at most `r` and `m` new body-valued even
@@ -12296,6 +12316,19 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  On the SC-ACT-06 route, K767--K770 close the natural full-connection
+  curvature-square comparator with the native `(13,1)` pairing. Although its
+  rank is 212992 at a native-nonnull covector, it collapses to 16384 at a
+  native-null covector and K763 leaves at least 81927 middle classes. The
+  positive Cartan pairing has rank 212992 on both tested strata, but it is an
+  unowned reduction and rank-threshold clearance is not exactness. Do not
+  retry the native-pairing curvature square or identify it with source I2B.
+  Reopen only with a source-owned positive reduction plus exact combined I1B
+  image placement, total-action gauge/redundancy maps and all-covector
+  exactness; a fully stationary changed/nonzero-`T` germ; an independent
+  action parent/different Shiab response; or a complete native K500 A/B
+  packet.
+
   On the SC-ACT-06 route, K763--K766 prove that a Ward-compatible correction
   of rank at most `r` to K749's old bosonic body block, together with `m` new
   body-valued even fields, can remove at most `r+m` old middle classes. Every
@@ -13199,6 +13232,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K767--K770 remove the native-pairing pure-curvature-square comparator from
+  the live SC-ACT-06 repair space: at the native-null test its full-connection
+  Hessian has rank 16384 and leaves at least 81927 middle classes. The positive
+  Cartan version clears the necessary rank threshold on both tested strata
+  but remains unowned and nonexact. The next valid input is a source-owned
+  positive reduction with exact combined I1B image placement,
+  total-action gauge/redundancy maps and all-covector exactness; a fully
+  stationary changed/nonzero-`T` source germ with a new principal image; an
+  independently owned action parent/different Shiab response; or complete
+  native K500 A/B certificates. Do not promote `||F_A||^2` to source I2B,
+  conflate `d_q^{*h}d_q` with a gauge-fixed Hodge Laplacian, or treat
+  rank-threshold clearance as exactness.
+
   K763--K766 remove every Ward-compatible finite-rank old-block correction
   plus `m`-field body-valued even extension with `r+m<98311` from the live
   K749 repair inputs. This includes the stationary K764 one-scalar

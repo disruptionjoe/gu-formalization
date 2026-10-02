@@ -7,6 +7,21 @@ updated_at: "2026-10-01"
 
 # Next Steps For Contributors
 
+> **2026-10-01 K767--K770 CURVATURE-SQUARE COMPARATOR BOUNDARY.** K767
+> freezes the natural repository control `S_curv=(1/2)||F_A||^2` before
+> solving, proves stationarity at K749's flat germ and preserves the old
+> rank-four Ward image, but does not identify the control with source I1B or
+> I2B. K768 computes its exact full-connection Hessian rank: native `(13,1)`
+> gives 212992 on the nonnull stratum and only 16384 on the native-null
+> stratum, leaving 196608 connection-only middle classes; the positive Cartan
+> pairing gives 212992 on both. K769 composes K763, leaving at least 81927
+> native-null middle classes. K770 closes the native comparator and any
+> `||F_A||^2=I2B` conflation. Next supply source ownership for a positive
+> reduction plus exact I1B overlap, total-action gauge/redundancy maps and
+> all-covector exactness, or one of the changed-germ, independent-parent, or
+> native K500 packets. Rank-threshold clearance is necessary only. SC-ACT-06
+> remains `ASSERTS`.
+
 > **2026-10-01 K763--K766 FINITE-RANK DERIVATIVE-EVEN BOUNDARY.** K763
 > extends K759: if an action-owned correction of the old bosonic body block
 > has rank at most `r` and `m` new even fields are adjoined, then

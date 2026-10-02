@@ -239,6 +239,18 @@ def load_inputs() -> dict:
         "k766": json.loads(
             (ROOT / "lab/process/k766-sc-act-06-derivative-even-successor-gate.json").read_text()
         ),
+        "k767": json.loads(
+            (ROOT / "lab/process/k767-sc-act-06-curvature-square-control.json").read_text()
+        ),
+        "k768": json.loads(
+            (ROOT / "lab/process/k768-sc-act-06-curvature-square-rank-boundary.json").read_text()
+        ),
+        "k769": json.loads(
+            (ROOT / "lab/process/k769-sc-act-06-curvature-square-cohomology-bound.json").read_text()
+        ),
+        "k770": json.loads(
+            (ROOT / "lab/process/k770-sc-act-06-curvature-square-successor-gate.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -431,9 +443,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     check(registry["latest_gu_formalization_result"] ==
-          "K763_K766_SC_ACT_06_FINITE_RANK_DERIVATIVE_EVEN_BOUNDARY_CURRENT",
+          "K767_K770_SC_ACT_06_CURVATURE_SQUARE_BOUNDARY_CURRENT",
           "latest GU result pointer moved")
     if isinstance(live, str):
+        check("K767--K770 remove the native-pairing pure-curvature-square comparator" in live and
+              "81927" in live and "positive Cartan" in live,
+              "live K767--K770 curvature-square boundary missing")
         check("K763--K766 remove every Ward-compatible finite-rank old-block correction" in live and
               "r+m<98311" in live and "98297/98300" in live,
               "live K763--K766 finite-rank derivative-even boundary missing")
@@ -647,6 +662,9 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K767--K770 test the first natural high-rank comparator" in summary and
+          "196608" in summary and "81927" in summary,
+          "current K767--K770 curvature-square result lost")
     check("K763--K766 extend the fixed-old-block spectator theorem" in summary and
           "rank(H)-rank(E)<=r+2m" in summary and "98297/98300" in summary and
           "r+m<98311" in summary,
@@ -780,6 +798,17 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "K767--K770 close the natural full-connection" in question
+        and "81927" in question and "positive Cartan" in question,
+        "current question lost K767--K770 boundary",
+    )
+    check(
+        "rank 212992" in data["agenda"].get("latest_result_2026_10_01_k767_k770", "")
+        and "196608" in data["agenda"].get("latest_result_2026_10_01_k767_k770", "")
+        and "81927" in data["agenda"].get("latest_result_2026_10_01_k767_k770", ""),
+        "agenda K767--K770 result is not current",
+    )
     check(
         "K763--K766 prove that a Ward-compatible correction" in question
         and "r+m<98311" in question and "98297/98300" in question,
@@ -2319,6 +2348,37 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k766["decision"]["global_SC_ACT_06_refuted"],
           "K766 derivative-even successor gate moved")
 
+    k767 = data["k767"]
+    check(k767["stationarity"]["full_flat_germ_stationary_for_comparator"] and
+          k767["ward"]["curvature_hessian_annihilates_old_gauge_image"] and
+          not k767["ownership"]["pure_curvature_square_is_source_I2B"] and
+          not k767["decision"]["natural_high_rank_source_action_owner_constructed"],
+          "K767 curvature-square control moved")
+
+    k768 = data["k768"]
+    k768_rows = k768["exact_controls"]["rows"]
+    check(k768_rows[0]["connection_hessian_rank"] == 212992 and
+          k768_rows[1]["connection_hessian_rank"] == 16384 and
+          k768_rows[1]["connection_only_middle_cohomology_dimension"] == 196608 and
+          k768_rows[3]["connection_hessian_rank"] == 212992 and
+          not k768["decision"]["curvature_hessian_equals_gauge_fixed_hodge_laplacian"],
+          "K768 curvature-square rank boundary moved")
+
+    k769 = data["k769"]
+    check(k769["composition"]["rows"][1]["k763_lower_bound"] == 81927 and
+          not k769["decision"]["native_pairing_repairs_native_null"] and
+          k769["decision"]["positive_pairing_clears_both_necessary_rank_thresholds"] and
+          not k769["decision"]["positive_pairing_repairs_both_proved"],
+          "K769 curvature-square cohomology bound moved")
+
+    k770 = data["k770"]
+    check(k770["decision"]["SC_ACT_06_status"] == "ASSERTS" and
+          k770["decision"]["do_not_retry_native_pairing_curvature_square_comparator"] and
+          k770["decision"]["do_not_promote_comparator_to_source_I2B"] and
+          k770["decision"]["positive_reduction_branch_mathematically_open_but_unowned"] and
+          not k770["decision"]["global_SC_ACT_06_refuted"],
+          "K770 curvature-square successor gate moved")
+
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]
     k693_n = k693["native_interface_status"]
@@ -3612,6 +3672,14 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k765-repair", lambda d: d["k765"]["decision"].__setitem__("scalar_metric_control_repairs_k749", True))
     add("k766-retry", lambda d: d["k766"]["decision"].__setitem__("do_not_retry_low_rank_scalar_tensor_or_small_derivative_even_owner", False))
     add("k766-global", lambda d: d["k766"]["decision"].__setitem__("global_SC_ACT_06_refuted", True))
+    add("k767-stationary", lambda d: d["k767"]["stationarity"].__setitem__("full_flat_germ_stationary_for_comparator", False))
+    add("k767-source", lambda d: d["k767"]["ownership"].__setitem__("pure_curvature_square_is_source_I2B", True))
+    add("k768-native-null-rank", lambda d: d["k768"]["exact_controls"]["rows"][1].__setitem__("connection_hessian_rank", 212992))
+    add("k768-hodge", lambda d: d["k768"]["decision"].__setitem__("curvature_hessian_equals_gauge_fixed_hodge_laplacian", True))
+    add("k769-bound", lambda d: d["k769"]["composition"]["rows"][1].__setitem__("k763_lower_bound", 0))
+    add("k769-exact", lambda d: d["k769"]["decision"].__setitem__("positive_pairing_repairs_both_proved", True))
+    add("k770-retry", lambda d: d["k770"]["decision"].__setitem__("do_not_retry_native_pairing_curvature_square_comparator", False))
+    add("k770-global", lambda d: d["k770"]["decision"].__setitem__("global_SC_ACT_06_refuted", True))
 
     add("k693-lower", lambda d: d["k693"]["graph_equivalence_theorem"].__setitem__("upper_bound_alone_sufficient_for_closedness", True))
     add("k693-native", lambda d: d["k693"]["native_interface_status"].__setitem__("actual_native_closed_column_proved", True))

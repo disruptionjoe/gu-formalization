@@ -1,0 +1,78 @@
+{
+  "claim_ceiling": "Exact ownership, stationarity and old-Ward audit for one repository-owned pure curvature-square comparator. It is not the source's I1B or I2B owner and proves no principal rank, exactness, positive-reduction ownership, global SC-ACT-06 result, or physical conclusion.",
+  "classification": "INTERNAL_COMPARATOR_ONLY",
+  "controls": {
+    "controls_passed": 38,
+    "hostile_mutations_rejected": 32,
+    "probe": "tests/channel-swings/k767_sc_act_06_curvature_square_control_probe.py",
+    "producer": "tests/channel-swings/k767_sc_act_06_curvature_square_control.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "global_SC_ACT_06_refuted": false,
+    "natural_high_rank_comparator_constructed": true,
+    "natural_high_rank_source_action_owner_constructed": false,
+    "rank_and_null_stratum_test_released": true
+  },
+  "direction": "observed_to_native",
+  "ledger_no_change_reason": "The control is deliberately not identified with the source's transgression or residual-square action and supplies no physical state, quotient, observable, or source-selected positive reduction.",
+  "ownership": {
+    "comparator_fixed_before_solving": true,
+    "pure_curvature_square_is_source_I1B": false,
+    "pure_curvature_square_is_source_I2B": false,
+    "repository_control_only": true,
+    "source_I2B_owner": "||Upsilon||^2, not ||F_A||^2",
+    "source_or_GU_selected": false
+  },
+  "pinned_inputs": {
+    "k710": {
+      "path": "lab/process/k710-sc-act-06-null-symbol-ellipticity-boundary.json",
+      "sha256": "91f90ee3154a43e3b2e7768a1979feb08dd07fa92be61c67f445dc1f2115434f"
+    },
+    "k749": {
+      "path": "lab/process/k749-sc-act-06-t0-full-symbol-obstruction.json",
+      "sha256": "3e8a8688d7292b1680b08ba3e9c3a21b9ebbf96bbbb18a3fc9cc7825038ca7ca"
+    },
+    "k766": {
+      "path": "lab/process/k766-sc-act-06-derivative-even-successor-gate.json",
+      "sha256": "48335e33c649246aac25adc6ef5ae690d7e52931c5fe8a2405600e0433086d78"
+    }
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "An authenticated source action whose actual residual linearization has the same full curvature block would require a new owner-and-map proof.",
+    "strongest_overclaim": "Calling a pure curvature square the source-owned I2B residual action.",
+    "weakest_reproducibility_seam": "Stationarity at F=0 does not determine principal rank or exactness; those are separate K768/K769 obligations."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K710--K716 already separate bare exterior exactness, indefinite-adjoint failure, and unowned positive reductions; K767 adds the missing full-connection action/stationarity and ownership typing before rank composition.",
+    "strongest_alternative": "A complete native K500 A/B packet remains independent but lacks its native remainder and boundary objects by K678/K698."
+  },
+  "result_id": "K767-SC-ACT-06-CURVATURE-SQUARE-CONTROL",
+  "schema_version": "1.0",
+  "scope": "A repository-owned pure connection curvature-square comparator on K749's flat stationary germ, separated from the source-owned I1B transgression and I2B residual norm square.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "stationarity": {
+    "connection_euler_at_flat_F_zero": "0",
+    "epsilon_pairing_euler_at_flat_F_zero": "0",
+    "full_flat_germ_stationary_for_comparator": true,
+    "metric_pairing_euler_at_flat_F_zero": "0",
+    "proof": "Every first variation is bilinear in F_A and delta F_A, or quadratic in F_A through a pairing variation; F_A=0 annihilates all rows."
+  },
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "typed_objects": {
+    "background": "K749 flat T=0 zero-fermion germ with A=0 and F_A=0",
+    "comparator_action": "S_curv(A;h)=1/2 integral <F_A,F_A>_h",
+    "curvature": "F_A=dA+A wedge A",
+    "field": "A in Omega1(Cl_14(C)), coefficient dimension 16384",
+    "old_gauge": "rank-four metric diffeomorphism map; its connection component vanishes at the frozen T=0 germ",
+    "pairing_fork": "native (13,1) form h=eta versus supplied positive Cartan-reduction form h=q"
+  },
+  "ward": {
+    "curvature_hessian_annihilates_old_gauge_image": true,
+    "independent_internal_connection_gauge_promoted_to_total_action_gauge": false,
+    "old_connection_gauge_columns_at_T0": 0,
+    "old_gauge_embedding_preserved": true,
+    "old_metric_diffeomorphism_rank": 4
+  }
+}
