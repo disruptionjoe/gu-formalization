@@ -1,0 +1,93 @@
+{
+  "claim_ceiling": "Exact first-order overlap accounting only; no symmetry ownership, finite-parameter complex, ellipticity or global conclusion.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 38,
+    "hostile_mutations_rejected": 30,
+    "probe": "tests/channel-swings/k816_sc_act_06_response_symmetry_overlap_probe.py",
+    "producer": "tests/channel-swings/k816_sc_act_06_response_symmetry_overlap.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "budget_without_composition_is_credited": false,
+    "budget_without_overlap_is_credited": false,
+    "current_candidate_grant_promoted_to_owned_gauge": false,
+    "full_field_ellipticity_proved": false,
+    "global_sc_act_06_proved_or_refuted": false,
+    "next_exact_input": "For every proposed symmetry family, prove image containment in ker(tau), compute old/new intersection rank, and quotient only by the authenticated union image."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "exact_unresolved_dimension": 1,
+    "gu_examples": [
+      {
+        "new_rank": 40124,
+        "overlap": 0,
+        "transverse_rank": 50000,
+        "unresolved_lower_bound": 0
+      },
+      {
+        "new_rank": 40124,
+        "overlap": 1,
+        "transverse_rank": 50000,
+        "unresolved_lower_bound": 1
+      },
+      {
+        "new_rank": 0,
+        "overlap": 0,
+        "transverse_rank": 90124,
+        "unresolved_lower_bound": 0
+      }
+    ],
+    "naive_addition_overcounts_by": 1,
+    "naive_unresolved_dimension": 0,
+    "new_symmetry_rank": 2,
+    "noncomposing_candidate_rejected": true,
+    "old_symmetry_rank": 2,
+    "symmetry_overlap_rank": 1,
+    "symmetry_union_rank": 3,
+    "toy_kernel_dimension": 7,
+    "toy_tau_kernel_dimension": 4,
+    "toy_tau_rank": 3
+  },
+  "gu_typed_objects": {
+    "action_owner": "released Upsilon response; candidate q-lambda remains a conservative grant",
+    "carrier": "K=ker(J) in the K788 connection response",
+    "grading": "symmetry parameters -> old kernel K -> old residual cokernel Q",
+    "pairing": "quotient by an authenticated symmetry image G only after tau(G)=0",
+    "real_structure": "K788 real coefficient basis",
+    "target": "first-order unresolved classes after transverse lifting and valid symmetry quotient"
+  },
+  "ledger_no_change_reason": "The exact quotient accounting promotes no candidate symmetry and constructs no physical state or observable.",
+  "overlap_theorem": {
+    "composition_requirement": "G subset ker(tau)",
+    "current_grant_rank_upper": 16388,
+    "current_kernel_dimension": 106512,
+    "exact_unresolved_dimension": "dim(K)-rank(tau)-dim(G)",
+    "naive_rank_addition_valid_without_overlap_check": false,
+    "necessary_exact_budget": "rank(tau)+dim(G0+G1)>=106512",
+    "noncomposing_direction_is_symmetry": false,
+    "old_new_union_rank": "g0+g1-overlap",
+    "transverse_block": "tau:K->Q"
+  },
+  "pinned_inputs": {
+    "k812": {
+      "path": "lab/process/k812-sc-act-06-relative-transverse-block.json",
+      "sha256": "2ff61b3e51edf15e5d964f206c2ffb2a0ea7b576d24976ea2c148a417bdcf6c5"
+    },
+    "k813": {
+      "path": "lab/process/k813-sc-act-06-relative-full-field-symmetry-budget.json",
+      "sha256": "efd2320036c0adac67763516c94ec9aa8f02d4187808871ab01dbde2519d072b"
+    },
+    "k815": {
+      "path": "lab/process/k815-sc-act-06-zero-locus-tangent-compatibility.json",
+      "sha256": "897f1feed21163ec2031203c614911bceb4b4be006cd020dd1ec23a93f8d3734"
+    }
+  },
+  "result_id": "K816-SC-ACT-06-RESPONSE-SYMMETRY-OVERLAP",
+  "schema_version": "1.0",
+  "scope": "Exact first-order accounting of transverse response and authenticated symmetry after composition and overlap.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

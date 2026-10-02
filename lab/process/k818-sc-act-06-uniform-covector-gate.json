@@ -1,0 +1,89 @@
+{
+  "claim_ceiling": "Uniformity admission rule and exact sampling counterexample only; no GU all-covector proof, ellipticity or global conclusion.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 36,
+    "hostile_mutations_rejected": 28,
+    "probe": "tests/channel-swings/k818_sc_act_06_uniform_covector_gate_probe.py",
+    "producer": "tests/channel-swings/k818_sc_act_06_uniform_covector_gate.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "all_covector_exactness_proved_for_gu": false,
+    "euclidean_domain_authenticated_by_this_result": false,
+    "global_sc_act_06_proved_or_refuted": false,
+    "next_exact_input": "For an actual source family, prove its Euclidean domain and quotient symbol, then certify equivariant orbit coverage or a uniform positive singular-value bound on the complete unit cotangent sphere.",
+    "three_old_orbit_representatives_certify_relative_family": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "all_covectors_pass": false,
+    "counterexample_symbol": "diag(q1^2+q2^2,q1^2-q2^2)",
+    "finite_samples_pass": true,
+    "homogeneous_degree": 2,
+    "missed_zero_covector": [
+      1,
+      1
+    ],
+    "missed_zero_determinant": 0,
+    "positive_control_symbol": "diag(q1^2+q2^2,q1^2+q2^2)",
+    "positive_control_unit_sphere_gap": 1,
+    "sample_covectors": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "sample_determinants": [
+      1,
+      -1,
+      -15
+    ]
+  },
+  "gu_typed_objects": {
+    "action_owner": "future source-owned relative Upsilon complex",
+    "carrier": "authenticated Euclidean cotangent sphere and the proposed quotient-symbol fibers",
+    "grading": "quotiented field symbol to independent residual symbol at each nonzero covector",
+    "pairing": "Euclidean norms used only after domain authentication",
+    "real_structure": "real homogeneous symbol coefficients",
+    "target": "uniform exactness/invertibility rather than rank at selected representatives"
+  },
+  "ledger_no_change_reason": "The gate supplies a counterexample to finite sampling and no source-owned symbol family or physical result.",
+  "pinned_inputs": {
+    "k810": {
+      "path": "lab/process/k810-sc-act-06-comoving-frame-closure.json",
+      "sha256": "3bbfb48cec7d6fcae9922d5c7dd849257c70f8fcdbbd3d46260c2697bacac0ab"
+    },
+    "k814": {
+      "path": "lab/process/k814-sc-act-06-relative-packet-gate.json",
+      "sha256": "cd0247f6f8e9df6d665bec6a139b72b0b830e9cdc2caaede03a6de300dada181"
+    },
+    "k817": {
+      "path": "lab/process/k817-sc-act-06-finite-parameter-schur-gate.json",
+      "sha256": "4b00381e01e8da380e692da1b694d26c777e8450e17a3a39a1a33def970efdd2"
+    }
+  },
+  "result_id": "K818-SC-ACT-06-UNIFORM-COVECTOR-GATE",
+  "schema_version": "1.0",
+  "scope": "All-nonzero-covector admission gate for a genuinely relative symbol family after regular frame conjugacy is unavailable.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "uniformity_theorem": {
+    "compact_base_required": true,
+    "finite_orbit_representatives_suffice_only_with_proved_equivariance_and_orbit_coverage": true,
+    "finite_samples_imply_all_covectors": false,
+    "homogeneity_reduction": "q nonzero -> q/|q| on the Euclidean unit sphere",
+    "pointwise_continuous_invertibility_on_compact_sphere_gives_uniform_gap": true,
+    "regular_frame_conjugacy_available_for_genuine_relative_motion": false,
+    "uniform_gap": "inf_{|q|=1} sigma_min(S(q)) > 0"
+  }
+}

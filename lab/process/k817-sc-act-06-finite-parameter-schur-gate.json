@@ -1,0 +1,76 @@
+{
+  "claim_ceiling": "Generic finite-dimensional punctured-family control only; no GU quotient construction, ellipticity or global conclusion.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 36,
+    "hostile_mutations_rejected": 28,
+    "probe": "tests/channel-swings/k817_sc_act_06_finite_parameter_schur_gate_probe.py",
+    "producer": "tests/channel-swings/k817_sc_act_06_finite_parameter_schur_gate.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "deficient_first_derivative_closes_higher_order_repairs": false,
+    "finite_parameter_gu_ellipticity_proved": false,
+    "global_sc_act_06_proved_or_refuted": false,
+    "gu_square_quotient_complex_constructed": false,
+    "next_exact_input": "After a source family passes K815 and K816, build its actual quotient block, control the Schur remainder uniformly, and prove the complete finite-parameter complex on the common domain."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "absorbed_family": {
+      "matrices": "[[1,t,0],[0,0,0],[0,0,0]]",
+      "opens": false,
+      "rank_for_nonzero_t": 1,
+      "tau_rank": 0
+    },
+    "higher_order_family": {
+      "determinant": "t^3",
+      "invertible_for_nonzero_t": true,
+      "matrices": "diag(1,t,t^2)",
+      "shows_deficient_tau_is_inconclusive": true,
+      "tau_rank": 1
+    },
+    "opening_family": {
+      "determinant": "2*t^2",
+      "invertible_for_nonzero_t": true,
+      "matrices": "diag(1,t,2t)",
+      "tau": "diag(1,2)",
+      "tau_rank": 2
+    }
+  },
+  "gu_typed_objects": {
+    "action_owner": "generic control theorem; application to GU requires the complete source-owned quotient complex",
+    "carrier": "complement plus kernel decomposition of a square finite symbol response",
+    "grading": "old image/complement block plus kernel-to-cokernel block",
+    "pairing": "none; block decomposition and determinant/Schur complement",
+    "real_structure": "real analytic one-parameter matrix family",
+    "target": "whether first-order transverse lifting opens a punctured finite-parameter response"
+  },
+  "ledger_no_change_reason": "This generic persistence theorem is not yet applied to a source-owned GU quotient complex.",
+  "pinned_inputs": {
+    "k812": {
+      "path": "lab/process/k812-sc-act-06-relative-transverse-block.json",
+      "sha256": "2ff61b3e51edf15e5d964f206c2ffb2a0ea7b576d24976ea2c148a417bdcf6c5"
+    },
+    "k816": {
+      "path": "lab/process/k816-sc-act-06-response-symmetry-overlap.json",
+      "sha256": "57f946e5da32bf196c4293ef1d20450d7c23e075071e0cb904e9c5789e1eddea"
+    }
+  },
+  "result_id": "K817-SC-ACT-06-FINITE-PARAMETER-SCHUR-GATE",
+  "schema_version": "1.0",
+  "schur_theorem": {
+    "decomposition": "X=X1+K and Y=im(J0)+Q",
+    "deficient_tau_implies_no_finite_parameter_repair": false,
+    "effective_block": "S(t)=D(t)-C(t)A(t)^-1B(t)",
+    "first_term": "S(t)=t tau+O(t^2)",
+    "invertible_old_block": "A(0):X1->im(J0)",
+    "invertible_tau_implies_punctured_local_invertibility": true,
+    "requires_square_quotient_block": true,
+    "single_parameter_rank_threshold_is_sufficient_for_complex": false
+  },
+  "scope": "Finite-dimensional square-response control separating an invertible transverse derivative from finite-parameter persistence.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

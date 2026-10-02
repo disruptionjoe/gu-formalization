@@ -7,6 +7,20 @@ updated_at: "2026-10-02"
 
 # Next Steps For Contributors
 
+> **2026-10-02 K815--K818 RELATIVE-GERM ADMISSION DISCRIMINATORS.** A moving
+> zero-locus family must first solve `J xdot+b=0`; the parameter source `b`
+> must vanish in `coker(J)` and is distinct from the principal correction
+> `Delta`. Authenticated symmetry may be quotiented only inside `ker(tau)` and
+> after old/new overlap is removed, so the exact first-order unresolved count
+> is `dim K-rank(tau)-dim G`. An invertible transverse derivative can open a
+> square response on a punctured parameter interval via its Schur block, but a
+> deficient derivative is inconclusive and the GU quotient complex still must
+> be constructed. Finally, finite covector samples do not prove a genuinely
+> relative symbol exact: prove equivariant orbit coverage or a uniform positive
+> gap on the full authenticated Euclidean cotangent sphere. Next supply one
+> source-typed relative `Upsilon=0` two-jet and run all four gates together
+> with stationarity, redundancy, fermion/mixed-symbol and common-domain checks.
+
 > **2026-10-02 K811--K814 RELATIVE-RESPONSE RANK BUDGET.** For a genuinely
 > relative correction `Delta` of rank at most `r`, rank subadditivity leaves
 > kernel at least `max(0,106512-r)` and at least

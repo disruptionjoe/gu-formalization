@@ -4,6 +4,18 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K815--K818 relative-germ admission discriminators
+
+- `channel-swings/k815_sc_act_06_zero_locus_tangent_compatibility.py`
+  separates zero-locus tangent solvability from principal-response motion.
+- `channel-swings/k816_sc_act_06_response_symmetry_overlap.py` enforces
+  composition and exact old/new symmetry overlap accounting.
+- `channel-swings/k817_sc_act_06_finite_parameter_schur_gate.py` proves the
+  punctured-family Schur control and its first-order ceiling.
+- `channel-swings/k818_sc_act_06_uniform_covector_gate.py` proves the complete
+  covector-uniformity gate and finite-sampling counterexample.
+- The paired `_probe.py` files reject 114/114 hostile mutations.
+
 ## K811--K814 relative-response rank budget
 
 - `channel-swings/k811_sc_act_06_relative_response_rank_budget.py` proves the

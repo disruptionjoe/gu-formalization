@@ -383,6 +383,18 @@ def load_inputs() -> dict:
         "k814": json.loads(
             (ROOT / "lab/process/k814-sc-act-06-relative-packet-gate.json").read_text()
         ),
+        "k815": json.loads(
+            (ROOT / "lab/process/k815-sc-act-06-zero-locus-tangent-compatibility.json").read_text()
+        ),
+        "k816": json.loads(
+            (ROOT / "lab/process/k816-sc-act-06-response-symmetry-overlap.json").read_text()
+        ),
+        "k817": json.loads(
+            (ROOT / "lab/process/k817-sc-act-06-finite-parameter-schur-gate.json").read_text()
+        ),
+        "k818": json.loads(
+            (ROOT / "lab/process/k818-sc-act-06-uniform-covector-gate.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -575,9 +587,13 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     check(registry["latest_gu_formalization_result"] ==
-          "K811_K814_SC_ACT_06_RELATIVE_RESPONSE_BUDGET_CURRENT",
+          "K815_K818_SC_ACT_06_RELATIVE_GERM_ADMISSION_CURRENT",
           "latest GU result pointer moved")
     if isinstance(live, str):
+        check("K815--K818 require every future relative-coefficient candidate" in live and
+              "pi_coker(J)b=0" in live and
+              "uniform positive" in live,
+              "live K815--K818 relative-germ admission packet missing")
         check("K811--K814 close only low-budget relative principal motion" in live and
               "r+s>=90124" in live and
               "passing that threshold does not prove ellipticity" in live,
@@ -987,6 +1003,18 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "K815--K818 make the future SC-ACT-06 relative-germ gate executable" in question
+        and "pi_coker(J)b=0" in question
+        and "uniform Euclidean-sphere gap" in question,
+        "current question lost K815--K818 relative-germ admission discriminators",
+    )
+    check(
+        "K815--K818 turn the future relative-germ packet" in data["agenda"].get("latest_result_2026_10_02_k815_k818", "")
+        and "dim K-rank(tau)-dim G" in data["agenda"].get("latest_result_2026_10_02_k815_k818", "")
+        and "SC-ACT-06 remains ASSERTS" in data["agenda"].get("latest_result_2026_10_02_k815_k818", ""),
+        "agenda K815--K818 result is not current",
+    )
     check(
         "K811--K814 quantify every genuinely relative principal-response repair" in question
         and "max(0,90124-r-s)" in question
@@ -3038,6 +3066,34 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           k814["protected_effects"]["sc_act_06"] == "ASSERTS_UNCHANGED",
           "K814 relative packet gate moved")
 
+    k815 = data["k815"]
+    check(k815["tangent_theorem"]["necessary_cokernel_condition"] == "pi_coker(J)(b)=0" and
+          not k815["tangent_theorem"]["parameter_source_equals_principal_correction"] and
+          k815["tangent_theorem"]["cokernel_failure_rejects_solution_germ"] and
+          not k815["decision"]["actual_relative_germ_constructed"],
+          "K815 zero-locus tangent compatibility moved")
+
+    k816 = data["k816"]
+    check(k816["overlap_theorem"]["composition_requirement"] == "G subset ker(tau)" and
+          k816["exact_controls"]["symmetry_union_rank"] == 3 and
+          k816["exact_controls"]["exact_unresolved_dimension"] == 1 and
+          not k816["decision"]["budget_without_overlap_is_credited"],
+          "K816 response/symmetry overlap moved")
+
+    k817 = data["k817"]
+    check(k817["schur_theorem"]["invertible_tau_implies_punctured_local_invertibility"] and
+          not k817["schur_theorem"]["deficient_tau_implies_no_finite_parameter_repair"] and
+          k817["exact_controls"]["higher_order_family"]["determinant"] == "t^3" and
+          not k817["decision"]["finite_parameter_gu_ellipticity_proved"],
+          "K817 finite-parameter Schur gate moved")
+
+    k818 = data["k818"]
+    check(not k818["uniformity_theorem"]["finite_samples_imply_all_covectors"] and
+          k818["uniformity_theorem"]["finite_orbit_representatives_suffice_only_with_proved_equivariance_and_orbit_coverage"] and
+          k818["exact_controls"]["missed_zero_determinant"] == 0 and
+          not k818["decision"]["all_covector_exactness_proved_for_gu"],
+          "K818 uniform covector gate moved")
+
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]
     k693_n = k693["native_interface_status"]
@@ -4180,6 +4236,10 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k812-sufficiency", lambda d: d["k812"]["transverse_theorem"].__setitem__("finite_parameter_sufficiency_follows", True))
     add("k813-budget", lambda d: d["k813"]["combined_budget_theorem"].__setitem__("beyond_current_grant_condition", "r+s>=1"))
     add("k814-overclaim", lambda d: d["k814"]["closure"].__setitem__("global_sc_act_06_proved_or_refuted", True))
+    add("k815-source-delta", lambda d: d["k815"]["tangent_theorem"].__setitem__("parameter_source_equals_principal_correction", True))
+    add("k816-overlap", lambda d: d["k816"]["exact_controls"].__setitem__("symmetry_union_rank", 4))
+    add("k817-first-order-close", lambda d: d["k817"]["schur_theorem"].__setitem__("deficient_tau_implies_no_finite_parameter_repair", True))
+    add("k818-sampling", lambda d: d["k818"]["uniformity_theorem"].__setitem__("finite_samples_imply_all_covectors", True))
 
     add("k696-form", lambda d: d["k696"]["integration_theorem"].__setitem__("graph_equivalence_without_form_identity_sufficient", True))
     add("k696-reduction", lambda d: d["k696"]["integration_theorem"].__setitem__("reduction_of_column_labels_alone_reduces_native_R", True))

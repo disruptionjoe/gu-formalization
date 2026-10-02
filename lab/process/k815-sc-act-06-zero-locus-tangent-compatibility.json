@@ -1,0 +1,96 @@
+{
+  "claim_ceiling": "Necessary first-tangent solvability only; no source family, two-jet, ellipticity or global SC-ACT-06 conclusion.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 34,
+    "hostile_mutations_rejected": 28,
+    "probe": "tests/channel-swings/k815_sc_act_06_zero_locus_tangent_compatibility_probe.py",
+    "producer": "tests/channel-swings/k815_sc_act_06_zero_locus_tangent_compatibility.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "actual_relative_germ_constructed": false,
+    "global_sc_act_06_proved_or_refuted": false,
+    "next_exact_input": "For a proposed source family, serialize b and Delta separately, prove pi_coker(J)b=0, solve the tangent equation, then supply the second jet and full stationary complex.",
+    "principal_rank_budget_establishes_zero_locus_motion": false,
+    "tangent_compatibility_establishes_stationary_two_jet": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "cokernel_dimension": 2,
+    "in_image_solution_tangent": [
+      -1,
+      0,
+      0
+    ],
+    "in_image_source": [
+      1,
+      0,
+      0
+    ],
+    "in_image_source_solvable": true,
+    "kernel_dimension": 2,
+    "toy_J": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "transverse_cokernel_projection": [
+      0,
+      1
+    ],
+    "transverse_source": [
+      0,
+      1,
+      0
+    ],
+    "transverse_source_solvable": false
+  },
+  "gu_typed_objects": {
+    "action_owner": "released Upsilon zero locus; the parameter family remains hypothetical until source-typed",
+    "carrier": "tangent to one proposed source-typed field/background family x_t",
+    "grading": "parameter source b in the Upsilon residual target; field tangent xdot in the Upsilon domain",
+    "pairing": "cokernel quotient only; no target metric identification",
+    "real_structure": "real finite-dimensional frozen symbol control at one base point",
+    "target": "existence of a first derivative of a zero-locus solution family"
+  },
+  "ledger_no_change_reason": "This is a necessary zero-locus existence test and supplies no source-owned family, physical quotient, observable, prediction or confirmation.",
+  "pinned_inputs": {
+    "k812": {
+      "path": "lab/process/k812-sc-act-06-relative-transverse-block.json",
+      "sha256": "2ff61b3e51edf15e5d964f206c2ffb2a0ea7b576d24976ea2c148a417bdcf6c5"
+    },
+    "k814": {
+      "path": "lab/process/k814-sc-act-06-relative-packet-gate.json",
+      "sha256": "cd0247f6f8e9df6d665bec6a139b72b0b830e9cdc2caaede03a6de300dada181"
+    }
+  },
+  "result_id": "K815-SC-ACT-06-ZERO-LOCUS-TANGENT-COMPATIBILITY",
+  "schema_version": "1.0",
+  "scope": "Necessary tangent compatibility for any parameterized source-typed Upsilon=0 solution germ before its moving principal response is credited.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "tangent_theorem": {
+    "cokernel_failure_rejects_solution_germ": true,
+    "cokernel_pass_proves_full_two_jet": false,
+    "differentiated_equation": "J xdot + b = 0",
+    "family_equation": "F_t(x_t)=0",
+    "necessary_cokernel_condition": "pi_coker(J)(b)=0",
+    "parameter_source": "b=partial_t F_t(x_0)|t=0",
+    "parameter_source_equals_principal_correction": false,
+    "principal_correction": "Delta=partial_t D_xF_t(x_t)|t=0"
+  },
+  "target_claim": "SC-ACT-06"
+}

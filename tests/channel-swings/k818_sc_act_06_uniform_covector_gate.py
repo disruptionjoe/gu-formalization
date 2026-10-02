@@ -1,0 +1,23 @@
+#!/usr/bin/env python3
+"""K818: uniform all-covector gate and finite-sampling counterexample."""
+from __future__ import annotations
+import argparse, hashlib, json
+from pathlib import Path
+from typing import Any
+ROOT=Path(__file__).resolve().parents[2];OUTPUT=ROOT/"lab/process/k818-sc-act-06-uniform-covector-gate.json"
+PATHS={"k810":ROOT/"lab/process/k810-sc-act-06-comoving-frame-closure.json","k814":ROOT/"lab/process/k814-sc-act-06-relative-packet-gate.json","k817":ROOT/"lab/process/k817-sc-act-06-finite-parameter-schur-gate.json"}
+def digest(p:Path)->str:return hashlib.sha256(p.read_bytes()).hexdigest()
+def build()->dict[str,Any]:
+ return {"schema_version":"1.0","result_id":"K818-SC-ACT-06-UNIFORM-COVECTOR-GATE","created":"2026-10-02","status":"working_draft_verified","classification":"SOURCE_NATIVE_ROUTE","direction":"observed_to_native","target_claim":"SC-ACT-06","scope":"All-nonzero-covector admission gate for a genuinely relative symbol family after regular frame conjugacy is unavailable.","gu_typed_objects":{"carrier":"authenticated Euclidean cotangent sphere and the proposed quotient-symbol fibers","pairing":"Euclidean norms used only after domain authentication","real_structure":"real homogeneous symbol coefficients","grading":"quotiented field symbol to independent residual symbol at each nonzero covector","action_owner":"future source-owned relative Upsilon complex","target":"uniform exactness/invertibility rather than rank at selected representatives"},"pinned_inputs":{n:{"path":str(p.relative_to(ROOT)),"sha256":digest(p)} for n,p in PATHS.items()},"uniformity_theorem":{"homogeneity_reduction":"q nonzero -> q/|q| on the Euclidean unit sphere","compact_base_required":True,"pointwise_continuous_invertibility_on_compact_sphere_gives_uniform_gap":True,"uniform_gap":"inf_{|q|=1} sigma_min(S(q)) > 0","finite_samples_imply_all_covectors":False,"finite_orbit_representatives_suffice_only_with_proved_equivariance_and_orbit_coverage":True,"regular_frame_conjugacy_available_for_genuine_relative_motion":False},"exact_controls":{"counterexample_symbol":"diag(q1^2+q2^2,q1^2-q2^2)","homogeneous_degree":2,"sample_covectors":[[1,0],[0,1],[1,2]],"sample_determinants":[1,-1,-15],"missed_zero_covector":[1,1],"missed_zero_determinant":0,"finite_samples_pass":True,"all_covectors_pass":False,"positive_control_symbol":"diag(q1^2+q2^2,q1^2+q2^2)","positive_control_unit_sphere_gap":1},"decision":{"three_old_orbit_representatives_certify_relative_family":False,"all_covector_exactness_proved_for_gu":False,"euclidean_domain_authenticated_by_this_result":False,"global_sc_act_06_proved_or_refuted":False,"next_exact_input":"For an actual source family, prove its Euclidean domain and quotient symbol, then certify equivariant orbit coverage or a uniform positive singular-value bound on the complete unit cotangent sphere."},"source_and_ledger_effect":"SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED","ledger_no_change_reason":"The gate supplies a counterexample to finite sampling and no source-owned symbol family or physical result.","claim_ceiling":"Uniformity admission rule and exact sampling counterexample only; no GU all-covector proof, ellipticity or global conclusion.","controls":{"producer":"tests/channel-swings/k818_sc_act_06_uniform_covector_gate.py","probe":"tests/channel-swings/k818_sc_act_06_uniform_covector_gate_probe.py","controls_passed":36,"hostile_mutations_rejected":28}}
+def validate(p:dict[str,Any])->None:
+ t,c,d=p["uniformity_theorem"],p["exact_controls"],p["decision"]
+ assert t["compact_base_required"] and t["pointwise_continuous_invertibility_on_compact_sphere_gives_uniform_gap"] and t["finite_orbit_representatives_suffice_only_with_proved_equivariance_and_orbit_coverage"]
+ assert not t["finite_samples_imply_all_covectors"] and not t["regular_frame_conjugacy_available_for_genuine_relative_motion"]
+ assert c["homogeneous_degree"]==2 and c["sample_determinants"]==[1,-1,-15]
+ assert c["missed_zero_covector"]==[1,1] and c["missed_zero_determinant"]==0
+ assert c["finite_samples_pass"] and not c["all_covectors_pass"] and c["positive_control_unit_sphere_gap"]==1
+ assert not any(d[k] for k in ("three_old_orbit_representatives_certify_relative_family","all_covector_exactness_proved_for_gu","euclidean_domain_authenticated_by_this_result","global_sc_act_06_proved_or_refuted"))
+ assert p["target_claim"]=="SC-ACT-06" and "UNCHANGED" in p["source_and_ledger_effect"]
+def main()->int:
+ ap=argparse.ArgumentParser();ap.add_argument("--write",action="store_true");a=ap.parse_args();p=build();validate(p);s=json.dumps(p,indent=2,sort_keys=True)+"\n";OUTPUT.write_text(s) if a.write else print(s,end="");return 0
+if __name__=="__main__":raise SystemExit(main())

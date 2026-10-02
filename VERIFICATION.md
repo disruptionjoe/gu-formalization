@@ -7,6 +7,44 @@ updated_at: "2026-10-02"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K815--K818 relative-germ admission discriminators (2026-10-02)
+
+K815 proves the tangent compatibility condition for any moving zero-locus
+family: differentiating `F_t(x_t)=0` gives `J xdot+b=0`, so
+`pi_coker(J)b=0` is necessary. The parameter source `b` and response
+correction `Delta` are distinct data. K816 proves that a symmetry image can be
+quotiented only after it lies in `ker(tau)` and old/new overlap is removed;
+then the unresolved first-order dimension is exactly
+`dim K-rank(tau)-dim G`.
+
+K817 supplies the finite-dimensional Schur-complement control. An invertible
+transverse derivative opens a square analytic response on a sufficiently small
+punctured parameter interval, but a deficient derivative can still lift at
+higher order and the theorem does not construct GU's quotient complex. K818
+gives an exact homogeneous polynomial counterexample showing that finite
+covector samples can all pass while another nonzero covector is singular.
+Without regular frame conjugacy, a relative symbol therefore needs proved
+equivariant orbit coverage or a uniform positive smallest-singular-value bound
+on the authenticated Euclidean unit cotangent sphere.
+
+Run the producers and hostile probes:
+
+```bash
+python3 tests/channel-swings/k815_sc_act_06_zero_locus_tangent_compatibility.py
+python3 tests/channel-swings/k815_sc_act_06_zero_locus_tangent_compatibility_probe.py
+python3 tests/channel-swings/k816_sc_act_06_response_symmetry_overlap.py
+python3 tests/channel-swings/k816_sc_act_06_response_symmetry_overlap_probe.py
+python3 tests/channel-swings/k817_sc_act_06_finite_parameter_schur_gate.py
+python3 tests/channel-swings/k817_sc_act_06_finite_parameter_schur_gate_probe.py
+python3 tests/channel-swings/k818_sc_act_06_uniform_covector_gate.py
+python3 tests/channel-swings/k818_sc_act_06_uniform_covector_gate_probe.py
+```
+
+The producers declare 144 controls and the probes reject 114 hostile
+mutations. No source family or two-jet is constructed, and SC-ACT-06 remains
+`ASSERTS` with no source, physics-ledger, canon, paper, public, prediction,
+confirmation, or physical-verdict effect.
+
 ## K811--K814 relative-response rank budget (2026-10-02)
 
 K811 applies rank subadditivity to the exact K788 packet. A genuinely relative

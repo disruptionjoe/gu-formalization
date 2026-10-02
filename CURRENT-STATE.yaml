@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 9e9aaea84324
+revision_basis: a1b763b068c1
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K815--K818 turn K814's future relative-germ packet into four executable
+    admission discriminators. K815 separates motion of the zero locus from
+    motion of its principal response: a family `F_t(x_t)=0` must satisfy
+    `J xdot+b=0`, so the parameter source `b` must vanish in `coker(J)` before
+    its response correction `Delta` matters. K816 proves authenticated
+    symmetry may be quotiented only inside `ker(tau)` and after old/new overlap
+    is removed; the exact first-order unresolved dimension is
+    `dim K-rank(tau)-dim G`. K817 gives the finite-parameter Schur gate: an
+    invertible transverse derivative opens a square response locally on a
+    punctured parameter interval, while deficient first order is inconclusive
+    and a rank budget alone does not certify the GU complex. K818 proves that
+    finite covector samples do not certify a genuinely relative symbol; after
+    authenticated Euclidean typing one needs proved equivariant orbit coverage
+    or a uniform positive gap on the complete unit cotangent sphere. No
+    source two-jet was invented. SC-ACT-06 remains `ASSERTS`; no source,
+    ledger, canon, paper, public, prediction, confirmation, or physical verdict
+    moves.
+
     K807--K810 close regular co-moving metric/epsilon/Shiab/Hodge frame
     transport as a principal-response reopener. K807 composes the exact
     associated-bundle cocycle and Hodge/Clifford/Shiab naturality with K803:
@@ -12467,6 +12485,22 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K815--K818 make the future SC-ACT-06 relative-germ gate executable without
+  pretending that the missing source two-jet exists. First, a proposed
+  `F_t(x_t)=0` family must solve `J xdot+b=0`, equivalently
+  `pi_coker(J)b=0`; the parameter source `b` is not the principal correction
+  `Delta`. Second, authenticated symmetry `G` must lie in `ker(tau)` and its
+  old/new overlap must be removed, giving exact first-order unresolved
+  dimension `dim K-rank(tau)-dim G`. Third, finite-parameter opening requires
+  the actual quotient Schur block and remainder control; first-order rank is
+  not by itself a complex. Fourth, a genuinely relative symbol must pass every
+  nonzero covector through proved equivariance/orbit coverage or a uniform
+  Euclidean-sphere gap; three inherited representatives are insufficient once
+  regular frame conjugacy is absent. Next supply one source-typed relative
+  zero-locus two-jet and run these four gates together with stationarity,
+  redundancy, fermion/mixed-symbol, and common-domain checks. SC-ACT-06
+  remains `ASSERTS`.
+
   K811--K814 quantify every genuinely relative principal-response repair of
   the current SC-ACT-06 packet before a new germ is constructed. For
   `J'=J+Delta` with relative correction rank at most `r`, rank subadditivity
@@ -13518,6 +13552,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K815--K818 require every future relative-coefficient candidate to serialize
+  the parameter source `b` separately from the principal correction `Delta`,
+  prove `pi_coker(J)b=0` and solve the zero-locus tangent equation, authenticate
+  a symmetry image inside `ker(tau)` with exact overlap rank, construct the
+  finite-parameter quotient Schur block with controlled remainder, and prove
+  all-covector exactness by complete equivariant coverage or a uniform positive
+  gap on an authenticated Euclidean cotangent sphere. Passing any subset is
+  not sufficient. Current custody supplies no source-owned family on which to
+  run the packet, so the next native input remains one complete source-typed
+  relative `Upsilon=0` two-jet. Independent rows, sufficient owned symmetry,
+  singular/retyped domains, and genuinely new native K500 A/B data remain
+  open. SC-ACT-06 remains `ASSERTS`; no protected conclusion moves.
+
   K811--K814 close only low-budget relative principal motion as a sufficient
   repair of the current packet. A future genuinely relative correction of
   transverse rank `r`, together with `s` new authenticated independent
