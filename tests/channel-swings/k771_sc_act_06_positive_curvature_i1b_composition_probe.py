@@ -10,7 +10,10 @@ except ModuleNotFoundError:
 ROOT=Path(__file__).resolve().parents[2]
 K=runpy.run_path(str(ROOT/"tests/channel-swings/k771_sc_act_06_positive_curvature_i1b_composition.py"))
 p=K["build"](); K["validate"](p)
-def row(q,name): return next(x for x in q["exact_controls"]["cases"] if x["case"]==name)
+def row(q, name):
+    match = next((x for x in q["exact_controls"]["cases"] if x["case"] == name), None)
+    assert match is not None, f"missing exact-control case: {name}"
+    return match
 M=[
  lambda q:q.__setitem__("classification","SOURCE_NATIVE_ROUTE"),
  lambda q:q["composition_theorem"].__setitem__("separate_rank_addition_used",True),

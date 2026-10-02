@@ -10,7 +10,10 @@ except ModuleNotFoundError:
 ROOT=Path(__file__).resolve().parents[2]
 K=runpy.run_path(str(ROOT/"tests/channel-swings/k772_sc_act_06_positive_curvature_total_complex.py"))
 p=K["build"](); K["validate"](p)
-def row(q,name): return next(x for x in q["exact_controls"]["cases"] if x["case"]==name)
+def row(q, name):
+    match = next((x for x in q["exact_controls"]["cases"] if x["case"] == name), None)
+    assert match is not None, f"missing exact-control case: {name}"
+    return match
 M=[
  lambda q:q.__setitem__("classification","SOURCE_NATIVE_ROUTE"),
  lambda q:q["complex_theorem"].__setitem__("curvature_only_gauge_automatically_added",True),
