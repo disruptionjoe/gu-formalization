@@ -7,6 +7,39 @@ updated_at: "2026-10-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K779--K782 nonzero-residual stationarity/new-image gate (2026-10-01)
+
+K779 proves that the first variation of released
+`I2B=(1/2)<Upsilon,Q Upsilon>` remains `J^*Q Upsilon` at nonzero residual.
+Thus it lies in `im(J^*)` and annihilates `ker(J)` independently of pairing
+signature or finite scalar weight. K780 composes this with I1B: combined
+stationarity requires the I1B Euler covector to annihilate `ker(J)`,
+equivalently to lie in `im(J^*)` in the finite-dimensional local model. One
+transverse witness rejects that candidate, but compatibility alone does not
+prove stationarity.
+
+K781 splits the I2B Hessian into `J^*QJ` and
+`C_U=(D2Upsilon)^*(Q Upsilon)`. The Gram term vanishes on `ker(J)` and stays
+inside the old response-adjoint image, so only `C_U` can supply kernel action
+or image escape. An affine residual has `C_U=0`; nonzero residual or nonzero
+`C_U` alone does not establish actual new rank or ellipticity. K782 freezes
+the complete source-typed stationary two-jet and exact-complex admission
+packet. No such candidate is currently in custody, and SC-ACT-06 remains
+`ASSERTS`.
+
+Run:
+
+```bash
+python3 tests/channel-swings/k779_sc_act_06_nonzero_residual_euler_image.py
+python3 tests/channel-swings/k779_sc_act_06_nonzero_residual_euler_image_probe.py
+python3 tests/channel-swings/k780_sc_act_06_kernel_transverse_stationarity_obstruction.py
+python3 tests/channel-swings/k780_sc_act_06_kernel_transverse_stationarity_obstruction_probe.py
+python3 tests/channel-swings/k781_sc_act_06_residual_curvature_novelty.py
+python3 tests/channel-swings/k781_sc_act_06_residual_curvature_novelty_probe.py
+python3 tests/channel-swings/k782_sc_act_06_nonzero_residual_two_jet_admission.py
+python3 tests/channel-swings/k782_sc_act_06_nonzero_residual_two_jet_admission_probe.py
+```
+
 ## K775--K778 residual-stratum stationarity/Hessian gate (2026-10-01)
 
 K775 gives the exact first and second variations of a fixed quadratic residual

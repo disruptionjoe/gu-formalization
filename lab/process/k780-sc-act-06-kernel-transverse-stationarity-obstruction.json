@@ -1,0 +1,65 @@
+{
+  "claim_ceiling": "Exact fixed-response stationarity compatibility theorem. It rejects only candidates with a proved I1B Euler component transverse to im(J*); no global nonzero-residual or nonzero-T no-go, stationary germ, ellipticity, protected verdict or physical conclusion follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 32,
+    "hostile_mutations_rejected": 22,
+    "probe": "tests/channel-swings/k780_sc_act_06_kernel_transverse_stationarity_obstruction_probe.py",
+    "producer": "tests/channel-swings/k780_sc_act_06_kernel_transverse_stationarity_obstruction.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "compatible_candidate_admitted_to_next_gate_only": true,
+    "next_exact_input": "For a source-typed candidate, compute J, a complete basis or certified witness for ker(J), and E_I1B on the same domain before evaluating D2Upsilon or an elliptic complex.",
+    "transverse_candidate_rejected": true
+  },
+  "direction": "observed_to_native",
+  "exact_control": {
+    "compatible_I1B_euler": [
+      -6,
+      5,
+      -6
+    ],
+    "compatible_kernel_pairing": 0,
+    "compatible_total_euler": [
+      0,
+      0,
+      0
+    ],
+    "kernel_witness": [
+      1,
+      0,
+      -1
+    ],
+    "transverse_I1B_euler": [
+      -6,
+      5,
+      -5
+    ],
+    "transverse_kernel_pairing": -1
+  },
+  "gu_typed_objects": {
+    "action_owner": "released I1B plus I2B only",
+    "carrier": "field tangent V with response J:V->W",
+    "grading": "ker(J) -> V -> W and W* -> V*",
+    "pairing": "fixed residual Q and finite scalar weight",
+    "real_structure": "local real tangent/cotangent pairing",
+    "target": "combined Euler stationarity before Hessian exactness"
+  },
+  "ledger_no_change_reason": "This is a local stationarity obstruction; no source candidate was evaluated and no physical mapping moved.",
+  "result_id": "K780-SC-ACT-06-KERNEL-TRANSVERSE-STATIONARITY-OBSTRUCTION",
+  "schema_version": "1.0",
+  "scope": "Necessary and sufficient finite-dimensional annihilator condition for cancellation of an I1B Euler covector by a quadratic-residual I2B first variation with fixed response J.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "combined_stationarity_equation": "E_I1B+J^*Q Upsilon=0",
+    "condition_alone_proves_ellipticity": false,
+    "condition_alone_proves_stationarity": false,
+    "equivalent_finite_dimensional_condition": "E_I1B lies in im(J^*)",
+    "necessary_condition": "E_I1B annihilates ker(J)",
+    "one_kernel_transverse_witness_rejects_candidate": true,
+    "pairing_or_finite_weight_can_cancel_transverse_component": false
+  }
+}

@@ -275,6 +275,18 @@ def load_inputs() -> dict:
         "k778": json.loads(
             (ROOT / "lab/process/k778-sc-act-06-residual-stratum-successor-gate.json").read_text()
         ),
+        "k779": json.loads(
+            (ROOT / "lab/process/k779-sc-act-06-nonzero-residual-euler-image.json").read_text()
+        ),
+        "k780": json.loads(
+            (ROOT / "lab/process/k780-sc-act-06-kernel-transverse-stationarity-obstruction.json").read_text()
+        ),
+        "k781": json.loads(
+            (ROOT / "lab/process/k781-sc-act-06-residual-curvature-novelty.json").read_text()
+        ),
+        "k782": json.loads(
+            (ROOT / "lab/process/k782-sc-act-06-nonzero-residual-two-jet-admission.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -467,9 +479,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     check(registry["latest_gu_formalization_result"] ==
-          "K775_K778_SC_ACT_06_RESIDUAL_STRATUM_GATE_CURRENT",
+          "K779_K782_SC_ACT_06_NONZERO_RESIDUAL_ADMISSION_CURRENT",
           "latest GU result pointer moved")
     if isinstance(live, str):
+        check("K779--K782 close nonzero residual as a free stationarity" in live and
+              "annihilates `ker(J)`" in live and "contracted residual curvature" in live,
+              "live K779--K782 nonzero-residual admission gate missing")
         check("K775--K778 close every fixed-pairing or finite-weight I2B rescue" in live and
               "Upsilon != 0" in live and "Nonzero residual alone" in live,
               "live K775--K778 residual-stratum gate missing")
@@ -831,6 +846,17 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "K779--K782 sharpen the first admissible nonzero-residual" in question
+        and "kernel-transverse" in question and "contracted residual curvature" in question,
+        "current question lost K779--K782 nonzero-residual admission gate",
+    )
+    check(
+        "dI2B=J^*Q Upsilon remains inside im(J^*)" in data["agenda"].get("latest_result_2026_10_01_k779_k782", "")
+        and "transverse to im(J^*)" in data["agenda"].get("latest_result_2026_10_01_k779_k782", "")
+        and "nonzero C_U alone" in data["agenda"].get("latest_result_2026_10_01_k779_k782", ""),
+        "agenda K779--K782 result is not current",
+    )
     check(
         "K775--K778 split the source-owned residual-square" in question
         and "D2Upsilon" in question and "Do not retry K726" in question,
@@ -2499,6 +2525,34 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k778["decision"]["global_nonzero_T_no_go_proved"],
           "K778 residual-stratum successor gate moved")
 
+    k779 = data["k779"]
+    check(k779["theorem"]["euler_covector_lies_in_image_J_star"] and
+          k779["theorem"]["euler_covector_annihilates_kernel_J"] and
+          not k779["theorem"]["nonzero_residual_changes_first_variation_image"] and
+          not k779["decision"]["nonzero_residual_opens_new_first_variation_directions"],
+          "K779 nonzero-residual Euler image theorem moved")
+
+    k780 = data["k780"]
+    check(k780["theorem"]["one_kernel_transverse_witness_rejects_candidate"] and
+          not k780["theorem"]["pairing_or_finite_weight_can_cancel_transverse_component"] and
+          k780["exact_control"]["transverse_kernel_pairing"] == -1 and
+          k780["decision"]["compatible_candidate_admitted_to_next_gate_only"],
+          "K780 kernel-transverse stationarity obstruction moved")
+
+    k781 = data["k781"]
+    check(k781["theorem"]["only_possible_new_kernel_action_is_C_U"] and
+          k781["theorem"]["affine_residual_has_C_U_zero"] and
+          not k781["theorem"]["nonzero_residual_alone_implies_C_U_nonzero"] and
+          k781["exact_control"]["curvature_image_escapes_im_J_star"],
+          "K781 residual-curvature novelty theorem moved")
+
+    k782 = data["k782"]
+    check(len(k782["required_packet"]) == 10 and
+          all(value is False for value in k782["current_custody"].values()) and
+          not k782["decision"]["candidate_admitted"] and
+          k782["decision"]["SC_ACT_06_status"] == "ASSERTS",
+          "K782 nonzero-residual two-jet admission gate moved")
+
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]
     k693_n = k693["native_interface_status"]
@@ -3816,6 +3870,14 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k777-rank", lambda d: d["k777"]["hessian_split"].__setitem__("nonzero_residual_alone_proves_new_rank", True))
     add("k778-status", lambda d: d["k778"]["decision"].__setitem__("SC_ACT_06_status", "REFUTED"))
     add("k778-global", lambda d: d["k778"]["decision"].__setitem__("global_nonzero_T_no_go_proved", True))
+    add("k779-image", lambda d: d["k779"]["theorem"].__setitem__("euler_covector_lies_in_image_J_star", False))
+    add("k779-new", lambda d: d["k779"]["decision"].__setitem__("nonzero_residual_opens_new_first_variation_directions", True))
+    add("k780-transverse", lambda d: d["k780"]["theorem"].__setitem__("pairing_or_finite_weight_can_cancel_transverse_component", True))
+    add("k780-pairing", lambda d: d["k780"]["exact_control"].__setitem__("transverse_kernel_pairing", 0))
+    add("k781-affine", lambda d: d["k781"]["theorem"].__setitem__("affine_residual_has_C_U_zero", False))
+    add("k781-escape", lambda d: d["k781"]["exact_control"].__setitem__("curvature_image_escapes_im_J_star", False))
+    add("k782-admit", lambda d: d["k782"]["decision"].__setitem__("candidate_admitted", True))
+    add("k782-status", lambda d: d["k782"]["decision"].__setitem__("SC_ACT_06_status", "CONFIRMED"))
 
     add("k693-lower", lambda d: d["k693"]["graph_equivalence_theorem"].__setitem__("upper_bound_alone_sufficient_for_closedness", True))
     add("k693-native", lambda d: d["k693"]["native_interface_status"].__setitem__("actual_native_closed_column_proved", True))

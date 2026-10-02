@@ -7,6 +7,21 @@ updated_at: "2026-10-01"
 
 # Next Steps For Contributors
 
+> **2026-10-01 K779--K782 NONZERO-RESIDUAL STATIONARITY/NEW-IMAGE GATE.**
+> K779 proves that `Upsilon != 0` does not enlarge the first-variation image:
+> `dI2B=J^*Q Upsilon` still lies in `im(J^*)` and annihilates `ker(J)` for
+> every fixed pairing and finite weight. K780 converts this into the exact
+> stationarity preflight: one source-owned I1B Euler component transverse to
+> `im(J^*)` rejects the candidate before Hessian work. K781 isolates
+> `C_U=(D2Upsilon)^*(Q Upsilon)` as the only I2B Hessian term able to act on
+> `ker(J)` or escape the old response image; affine residuals have no such
+> term, and nonzero `C_U` alone proves neither rank nor ellipticity. K782
+> requires one complete source-typed stationary two-jet with the actual
+> pairing, Euler cancellation, complete response and contracted curvature,
+> owned gauge/redundancy maps, a common Euclidean real domain and
+> all-covector exactness. Current custody supplies no complete candidate.
+> SC-ACT-06 remains `ASSERTS`.
+
 > **2026-10-01 K775--K778 RESIDUAL-STRATUM STATIONARITY/HESSIAN GATE.**
 > K775 derives the exact quadratic-residual calculus:
 > `dI2B=J^* Q Upsilon` and

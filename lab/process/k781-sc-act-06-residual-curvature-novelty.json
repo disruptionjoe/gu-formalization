@@ -1,0 +1,97 @@
+{
+  "claim_ceiling": "Exact local residual-curvature decomposition and synthetic escape witness. No source candidate, actual new rank, stationarity, gauge, ellipticity, global no-go, source/ledger/canon/public or physical conclusion follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 34,
+    "hostile_mutations_rejected": 24,
+    "probe": "tests/channel-swings/k781_sc_act_06_residual_curvature_novelty_probe.py",
+    "producer": "tests/channel-swings/k781_sc_act_06_residual_curvature_novelty.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "candidate_must_compute_actual_contraction_before_rank_credit": true,
+    "new_principal_image_requires_nonzero_contracted_D2Upsilon": true,
+    "next_exact_input": "On one stationarity-compatible source two-jet, compute Q Upsilon and every principal component of D2Upsilon, form C_U on the same carrier, then test its image relative to the full old Hessian and owned gauge/redundancy complex."
+  },
+  "direction": "observed_to_native",
+  "exact_control": {
+    "J_star_Q_J": [
+      [
+        2,
+        0,
+        2
+      ],
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        2,
+        0,
+        2
+      ]
+    ],
+    "affine_curvature_rank": 0,
+    "contracted_residual_curvature": [
+      [
+        6,
+        0,
+        0
+      ],
+      [
+        0,
+        -5,
+        0
+      ],
+      [
+        0,
+        0,
+        6
+      ]
+    ],
+    "curvature_image_escapes_im_J_star": true,
+    "curvature_on_kernel": [
+      6,
+      0,
+      -6
+    ],
+    "curvature_rank": 3,
+    "gram_on_kernel": [
+      0,
+      0,
+      0
+    ],
+    "kernel_witness": [
+      1,
+      0,
+      -1
+    ]
+  },
+  "gu_typed_objects": {
+    "action_owner": "released I2B only",
+    "carrier": "field tangent V and residual carrier W",
+    "grading": "DUpsilon principal response plus contracted D2Upsilon curvature",
+    "pairing": "fixed Q on W",
+    "real_structure": "local real two-jet; Euclidean continuation unconstructed",
+    "target": "new Hessian image relative to im(J*) and ker(J)"
+  },
+  "ledger_no_change_reason": "The theorem identifies a necessary local Hessian datum but supplies no source background or physical map.",
+  "result_id": "K781-SC-ACT-06-RESIDUAL-CURVATURE-NOVELTY",
+  "schema_version": "1.0",
+  "scope": "Exact local decomposition of the nonzero-residual I2B Hessian into same-response Gram and contracted residual-curvature terms.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "C_U_nonzero_alone_implies_ellipticity": false,
+    "C_U_nonzero_alone_implies_new_rank": false,
+    "affine_residual_has_C_U_zero": true,
+    "contracted_second_derivative_zero_has_C_U_zero": true,
+    "formula": "d2I2B=J^*QJ+C_U, C_U=(D2Upsilon)^*(Q Upsilon)",
+    "nonzero_residual_alone_implies_C_U_nonzero": false,
+    "only_possible_image_escape_is_C_U": true,
+    "only_possible_new_kernel_action_is_C_U": true,
+    "same_response_term_vanishes_on_kernel_J": true
+  }
+}

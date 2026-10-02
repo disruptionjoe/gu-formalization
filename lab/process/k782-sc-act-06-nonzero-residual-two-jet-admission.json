@@ -1,0 +1,67 @@
+{
+  "claim_ceiling": "Exact successor admission gate only. No stationary germ, new actual rank, gauge complex, ellipticity, global nonzero-residual no-go, source/ledger/canon/paper/public, prediction, confirmation or physical conclusion follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 38,
+    "hostile_mutations_rejected": 26,
+    "probe": "tests/channel-swings/k782_sc_act_06_nonzero_residual_two_jet_admission_probe.py",
+    "producer": "tests/channel-swings/k782_sc_act_06_nonzero_residual_two_jet_admission.py"
+  },
+  "created": "2026-10-01",
+  "current_custody": {
+    "actual_pairing_on_candidate": false,
+    "all_covector_middle_exactness": false,
+    "common_Euclidean_real_domain": false,
+    "complete_DUpsilon": false,
+    "complete_I1B_euler": false,
+    "complete_contracted_D2Upsilon": false,
+    "complete_coupled_principal_hessian": false,
+    "kernel_annihilation_and_combined_stationarity": false,
+    "owned_gauge_redundancy_complex": false,
+    "source_typed_nonzero_residual_two_jet": false
+  },
+  "decision": {
+    "SC_ACT_06_status": "ASSERTS",
+    "candidate_admitted": false,
+    "do_not_retry": "residual nonzero by itself, another pairing/weight, an affine residual, or a kernel promoted to gauge",
+    "incumbent": "construct the first complete source-typed nonzero-residual stationary two-jet satisfying every K782 row",
+    "strongest_independent_alternative": "complete native K500 A/B packet"
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "released I1B plus I2B, without comparator substitution",
+    "carrier": "one common source field/residual/gauge/redundancy carrier",
+    "grading": "gauge -> fields -> Euler equations -> redundancies",
+    "pairing": "actual source/background-owned Q on the same residual carrier",
+    "real_structure": "one authenticated Euclidean continuation or positive reduction",
+    "target": "stationary coupled all-covector deformation complex"
+  },
+  "ledger_no_change_reason": "The compiler sharpens admissibility but supplies none of the missing native data and changes no physics mapping.",
+  "rejection_rules": {
+    "D2Upsilon_without_contraction_by_Q_Upsilon": "reject",
+    "Lorentzian_or_indefinite_pairing_called_Euclidean": "reject",
+    "kernel_containment_without_owned_gauge_map": "reject",
+    "nonzero_C_U_without_relative_image_or_rank_test": "reject",
+    "nonzero_Upsilon_without_stationarity": "reject",
+    "one_covector_rank_without_all_covectors": "reject",
+    "stationarity_without_kernel_annihilation": "reject"
+  },
+  "required_packet": [
+    "source-typed background two-jet",
+    "actual fixed residual pairing Q and Q Upsilon",
+    "complete I1B Euler covector",
+    "complete DUpsilon response J",
+    "proof E_I1B annihilates ker(J) and exact combined Euler cancellation",
+    "complete contracted residual curvature C_U=(D2Upsilon)^*(Q Upsilon)",
+    "full old plus new coupled principal Hessian",
+    "owned gauge and redundant-Euler maps with compositions",
+    "common Euclidean real carrier and domain",
+    "middle exactness at every nonzero covector"
+  ],
+  "result_id": "K782-SC-ACT-06-NONZERO-RESIDUAL-TWO-JET-ADMISSION",
+  "schema_version": "1.0",
+  "scope": "Admission compiler for the first source-typed nonzero-residual stationary two-jet eligible for an SC-ACT-06 exact-complex test.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

@@ -1,0 +1,70 @@
+{
+  "claim_ceiling": "Exact local first-variation image theorem for released I2B. No stationary nonzero-residual germ, gauge complex, ellipticity, global no-go, source-status, ledger, canon, paper, public, prediction, confirmation or physical conclusion follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 30,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k779_sc_act_06_nonzero_residual_euler_image_probe.py",
+    "producer": "tests/channel-swings/k779_sc_act_06_nonzero_residual_euler_image.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "next_exact_input": "Compute the source-owned I1B Euler covector and complete J on one candidate background; any component transverse to im(J*) rejects combined stationarity before Hessian or ellipticity work.",
+    "nonzero_residual_opens_new_first_variation_directions": false
+  },
+  "direction": "observed_to_native",
+  "exact_control": {
+    "I2B_euler": [
+      6,
+      -5,
+      6
+    ],
+    "J": [
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ]
+    ],
+    "Q_Upsilon": [
+      6,
+      -5
+    ],
+    "Upsilon_nonzero": true,
+    "kernel_pairing": 0,
+    "kernel_witness": [
+      1,
+      0,
+      -1
+    ]
+  },
+  "gu_typed_objects": {
+    "action_owner": "released I2B=(1/2)<Upsilon,Q Upsilon>",
+    "carrier": "one source-typed field tangent V and residual carrier W",
+    "grading": "field tangent -> residual response -> Euler cotangent",
+    "pairing": "one fixed symmetric residual pairing Q on W",
+    "real_structure": "real local two-jet; candidate Euclidean continuation still owed",
+    "target": "the I2B Euler covector at Upsilon nonzero"
+  },
+  "ledger_no_change_reason": "The theorem is a local necessary condition and constructs no stationary source background, physical state, observable, prediction or confirmation.",
+  "result_id": "K779-SC-ACT-06-NONZERO-RESIDUAL-EULER-IMAGE",
+  "schema_version": "1.0",
+  "scope": "First-variation image theorem for the released quadratic residual-square action on a nonzero-residual background.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "euler_covector_annihilates_kernel_J": true,
+    "euler_covector_lies_in_image_J_star": true,
+    "finite_scalar_weight_changes_image_containment": false,
+    "fixed_pairing_signature_changes_image_containment": false,
+    "formula": "dI2B=J^* Q Upsilon",
+    "nonzero_residual_changes_first_variation_image": false,
+    "stationarity_of_I1B_plus_I2B_follows": false
+  }
+}
