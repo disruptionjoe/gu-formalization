@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d046ace4609c
+revision_basis: 5f0324f73660
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K847--K850 sharpen K845's scalar repair budget into the exact quotient
+    repair criterion. K847 proves that a new response `tau` and symmetry `S`
+    repair `E0 --G--> E1 --J--> E2` exactly when their induced maps on
+    `H=ker(J)/im(G)` satisfy `im(S_bar)=ker(tau_bar)`; equivalently,
+    `h_new=h_old-rank(tau_bar)-rank(S_bar)`. K848 gives three valid repair
+    complexes with the same raw rank sum: only the complementary quotient
+    images repair, while a response duplicating an old equation or a symmetry
+    overlapping old gauge leaves one class. K849 compiles the necessary and
+    sufficient finite-symbol interface into ten conjunctive ownership,
+    composition, quotient-rank, exactness and all-covector/domain rows. K850
+    applies only that interface shape to the current K717 packet: its 90124
+    lower bound remains, no missing source maps are invented, and SC-ACT-06
+    remains `ASSERTS`. The source register and ledger do not move.
+
     K843--K846 switch from generic admission-distance controls to the actual
     current K717/K788/K789 flat packet. K843 proves the local microlocal
     implication: positive middle cohomology of a constant-rank first-order
@@ -12583,6 +12597,16 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K847--K850 replace the coarse raw-rank reopener with an exact quotient-level
+  repair question. For each nonzero covector, a source/action-owned response
+  `tau_q` must descend through `tau_q G_q=0`, an owned symmetry `S_q` must
+  satisfy `J_q S_q=0` and `tau_q S_q=0`, and their induced maps on
+  `H_q=ker(J_q)/im(G_q)` must obey `im(S_bar_q)=ker(tau_bar_q)`. Raw matrix
+  ranks and the scalar threshold `r+s>=90124` remain necessary bookkeeping,
+  but cannot substitute for quotient-effective ranks, overlap removal, common
+  domain and all-covector uniformity. Current custody supplies none of the new
+  maps, so this is an exact input contract rather than a GU repair or verdict.
+
   K843--K846 turn the current flat packet's symbol count into a local
   function-space obstruction. On the native-positive open covector cone,
   K717/K788/K789 retain at least 90124 middle symbol classes even after a
@@ -13733,6 +13757,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K847--K850 require the next SC-ACT-06 repair attempt to populate the ten-row
+  exact quotient certificate on one source/action-owned principal packet. For
+  every nonzero covector `q`, construct actual `tau_q` and `S_q`, prove
+  `tau_q G_q=0`, `J_q S_q=0`, and `tau_q S_q=0`, compute their induced maps on
+  the complete `H_q=ker(J_q)/im(G_q)`, and prove
+  `im(S_bar_q)=ker(tau_bar_q)` with common-domain uniformity. Do not credit raw
+  response rank already in the old equation span or raw symmetry rank already
+  in the old gauge image. The current 90124 lower bound is not sufficient to
+  construct these maps. SC-ACT-06 remains `ASSERTS` and no protected
+  conclusion moves.
+
   K843--K846 require the next SC-ACT-06 attempt to change the principal data,
   not merely its lower-order realization. For the current K717/K788/K789 flat
   packet, a new source/action-owned first-order response of quotient-effective

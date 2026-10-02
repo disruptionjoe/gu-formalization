@@ -7,6 +7,17 @@ updated_at: "2026-10-02"
 
 # Next Steps For Contributors
 
+> **2026-10-02 K847--K850 EXACT QUOTIENT REPAIR CERTIFICATE.** K847 proves
+> that a repaired principal complex is middle-exact precisely when its induced
+> quotient maps satisfy `im(S_bar)=ker(tau_bar)`, with
+> `h_new=h_old-rank(tau_bar)-rank(S_bar)`. K848 gives equal-raw-rank
+> countermodels: a response already in the old equation span and a symmetry
+> already in the old gauge image earn zero quotient credit. K849 compiles ten
+> conjunctive certificate rows. K850 applies the interface to the current flat
+> packet without inventing the missing maps. Next supply source/action-owned
+> `tau_q,S_q` on every nonzero covector and prove the quotient equality with
+> common-domain uniformity. SC-ACT-06 remains `ASSERTS`.
+
 > **2026-10-02 K843--K846 FLAT-REALIZATION MICROLOCAL DISPOSITION.** K843
 > proves that positive middle cohomology of a constant-rank first-order symbol
 > complex on an open covector cone produces compactly supported oscillatory

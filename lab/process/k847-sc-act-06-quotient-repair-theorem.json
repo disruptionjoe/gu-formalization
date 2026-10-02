@@ -1,0 +1,72 @@
+{
+  "claim_ceiling": "Necessary-and-sufficient finite-dimensional middle-exactness criterion for an admitted principal repair. No GU repair or global elliptic family follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "comparator_routing_notice": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) 126 Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read lab/methods/source-native-comparator-routing.md and follow its source-native pointers before reusing this result.",
+  "controls": {
+    "controls_passed": 43,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k847_sc_act_06_quotient_repair_theorem_probe.py",
+    "producer": "tests/channel-swings/k847_sc_act_06_quotient_repair_theorem.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "K845_necessary_budget_sharpened": true,
+    "next_exact_input": "For every nonzero covector, construct source/action-owned tau_bar and S_bar and prove im(S_bar)=ker(tau_bar), with ownership, composition, domain and uniformity retained.",
+    "quotient_effect_and_overlap_are_required": true,
+    "source_owned_GU_repair_constructed": false
+  },
+  "direction": "observed_to_native",
+  "exact_control": {
+    "base_composition_zero": true,
+    "dimension_formula_holds": true,
+    "middle_dimension": 4,
+    "middle_exact_after_repair": true,
+    "new_middle_cohomology_dimension": 0,
+    "new_response_kills_new_symmetry": true,
+    "new_symmetry_is_old_cycle": true,
+    "old_middle_cohomology_dimension": 2,
+    "raw_response_rank": 1,
+    "raw_symmetry_rank": 1,
+    "repaired_complex_valid": true,
+    "response_descends_to_old_cohomology": true,
+    "response_effective_rank_on_old_cohomology": 1,
+    "symmetry_effective_rank_in_response_kernel": 1
+  },
+  "gu_typed_objects": {
+    "action_owner": "repository-construction",
+    "carrier": "LAYER=toy CHIRALITY=N/A finite-dimensional principal complex E0 -> E1 -> E2",
+    "grading": "old symmetries plus new symmetries -> fields -> old equations plus new response rows",
+    "pairing": "NONE",
+    "real_structure": "real or complex coefficient spaces",
+    "target": "MAP-TYPE=quotient induced response and symmetry maps on old middle cohomology"
+  },
+  "ledger_no_change_reason": "This is an exact linear-algebra theorem and synthetic control, not a source-owned GU response, symmetry, quotient or observable.",
+  "pinned_inputs": {
+    "k845": {
+      "path": "lab/process/k845-sc-act-06-lower-order-repair-boundary.json",
+      "sha256": "ab5c035962c8355917cdd36a568a8b2d0e1aa6b58580997d00dd263013d4a0d3"
+    },
+    "k846": {
+      "path": "lab/process/k846-sc-act-06-flat-function-space-disposition.json",
+      "sha256": "9281d3944af9f31ccde5239020ac5b3b00ce2d4ba5bf112218026874e4781f43"
+    }
+  },
+  "result_id": "K847-SC-ACT-06-QUOTIENT-REPAIR-THEOREM",
+  "schema_version": "1.0",
+  "scope": "Finite-dimensional principal-symbol theorem for repairing one middle term of a complex; no GU repair map is supplied.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "dimension_formula": "h_new=h_old-rank(tau_bar)-rank(S_bar)",
+    "effective_rank_equality_is_sufficient_under_composition": true,
+    "exactness_criterion": "im(S_bar)=ker(tau_bar)",
+    "new_response": "tau:E1->F with tau G=0, inducing tau_bar:H->F",
+    "new_symmetry": "S:U->E1 with JS=0 and tau S=0, inducing S_bar:U->ker(tau_bar)",
+    "old_complex": "E0 --G--> E1 --J--> E2 with JG=0",
+    "old_middle_cohomology": "H=ker(J)/im(G)",
+    "raw_rank_budget_is_sufficient": false,
+    "repaired_complex": "E0 direct_sum U --[G,S]--> E1 --[J;tau]--> E2 direct_sum F",
+    "repaired_middle_cohomology": "ker(tau_bar)/im(S_bar)"
+  }
+}

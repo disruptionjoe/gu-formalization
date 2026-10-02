@@ -1,0 +1,142 @@
+{
+  "claim_ceiling": "Sharp synthetic countermodels to raw-rank sufficiency and a complementary exact control. They do not constrain an absent source-owned GU repair beyond its certificate obligations.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "common_base": {
+    "G": [
+      [
+        1
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ],
+    "J": [
+      [
+        0,
+        1,
+        0,
+        0
+      ]
+    ],
+    "old_middle_cohomology_basis": [
+      "[e3]",
+      "[e4]"
+    ],
+    "old_middle_cohomology_dimension": 2
+  },
+  "comparator_routing_notice": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) 126 Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read lab/methods/source-native-comparator-routing.md and follow its source-native pointers before reusing this result.",
+  "comparison": {
+    "all_raw_budgets_equal_old_h": true,
+    "all_raw_response_plus_symmetry_ranks": [
+      2,
+      2,
+      2
+    ],
+    "all_three_are_valid_complex_repairs": true,
+    "duplicate_response_effective_split": [
+      0,
+      1
+    ],
+    "gauge_overlap_effective_split": [
+      1,
+      0
+    ],
+    "pass_effective_split": [
+      1,
+      1
+    ],
+    "quotient_complementarity_decides_exactness": true,
+    "raw_rank_threshold_decides_exactness": false
+  },
+  "controls": {
+    "complementary_pass": {
+      "base_composition_zero": true,
+      "dimension_formula_holds": true,
+      "middle_dimension": 4,
+      "middle_exact_after_repair": true,
+      "new_middle_cohomology_dimension": 0,
+      "new_response_kills_new_symmetry": true,
+      "new_symmetry_is_old_cycle": true,
+      "old_middle_cohomology_dimension": 2,
+      "raw_response_rank": 1,
+      "raw_symmetry_rank": 1,
+      "repaired_complex_valid": true,
+      "response_descends_to_old_cohomology": true,
+      "response_effective_rank_on_old_cohomology": 1,
+      "symmetry_effective_rank_in_response_kernel": 1
+    },
+    "duplicate_response_fail": {
+      "base_composition_zero": true,
+      "dimension_formula_holds": true,
+      "middle_dimension": 4,
+      "middle_exact_after_repair": false,
+      "new_middle_cohomology_dimension": 1,
+      "new_response_kills_new_symmetry": true,
+      "new_symmetry_is_old_cycle": true,
+      "old_middle_cohomology_dimension": 2,
+      "raw_response_rank": 1,
+      "raw_symmetry_rank": 1,
+      "repaired_complex_valid": true,
+      "response_descends_to_old_cohomology": true,
+      "response_effective_rank_on_old_cohomology": 0,
+      "symmetry_effective_rank_in_response_kernel": 1
+    },
+    "old_gauge_overlap_fail": {
+      "base_composition_zero": true,
+      "dimension_formula_holds": true,
+      "middle_dimension": 4,
+      "middle_exact_after_repair": false,
+      "new_middle_cohomology_dimension": 1,
+      "new_response_kills_new_symmetry": true,
+      "new_symmetry_is_old_cycle": true,
+      "old_middle_cohomology_dimension": 2,
+      "raw_response_rank": 1,
+      "raw_symmetry_rank": 1,
+      "repaired_complex_valid": true,
+      "response_descends_to_old_cohomology": true,
+      "response_effective_rank_on_old_cohomology": 1,
+      "symmetry_effective_rank_in_response_kernel": 0
+    }
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "K845_threshold_is_only_a_coarse_necessary_test": true,
+    "next_exact_input": "Report induced quotient ranks and the equality im(S_bar)=ker(tau_bar), not raw matrix ranks or a scalar budget alone.",
+    "response_rows_already_in_old_equation_span_get_zero_credit": true,
+    "symmetry_directions_already_in_old_gauge_image_get_zero_credit": true
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "repository-construction",
+    "carrier": "LAYER=toy CHIRALITY=N/A E0=R, E1=R4, E2=R",
+    "grading": "symmetries -> four fields -> equations",
+    "pairing": "standard Euclidean coordinate pairing",
+    "real_structure": "real",
+    "target": "MAP-TYPE=quotient raw-rank versus induced-rank discrimination"
+  },
+  "ledger_no_change_reason": "The countermodels test finite-dimensional inference only; none is a GU family, source-owned map, physical quotient or observable.",
+  "pinned_inputs": {
+    "k847": {
+      "path": "lab/process/k847-sc-act-06-quotient-repair-theorem.json",
+      "sha256": "b32a7bfe8c6594889d6c04c8be0e95a95ac03439f9b1c4e937ded9ce4156d3ce"
+    }
+  },
+  "probe_contract": {
+    "controls_passed": 41,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k848_sc_act_06_rank_budget_overlap_countermodels_probe.py",
+    "producer": "tests/channel-swings/k848_sc_act_06_rank_budget_overlap_countermodels.py"
+  },
+  "result_id": "K848-SC-ACT-06-RANK-BUDGET-OVERLAP-COUNTERMODELS",
+  "schema_version": "1.0",
+  "scope": "Exact four-dimensional controls for K847's quotient repair theorem; they are not GU principal symbols.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

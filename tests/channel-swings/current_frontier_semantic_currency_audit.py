@@ -479,6 +479,18 @@ def load_inputs() -> dict:
         "k846": json.loads(
             (ROOT / "lab/process/k846-sc-act-06-flat-function-space-disposition.json").read_text()
         ),
+        "k847": json.loads(
+            (ROOT / "lab/process/k847-sc-act-06-quotient-repair-theorem.json").read_text()
+        ),
+        "k848": json.loads(
+            (ROOT / "lab/process/k848-sc-act-06-rank-budget-overlap-countermodels.json").read_text()
+        ),
+        "k849": json.loads(
+            (ROOT / "lab/process/k849-sc-act-06-exact-repair-certificate.json").read_text()
+        ),
+        "k850": json.loads(
+            (ROOT / "lab/process/k850-sc-act-06-flat-quotient-repair-interface.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -671,9 +683,13 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     check(registry["latest_gu_formalization_result"] ==
-          "K843_K846_SC_ACT_06_FLAT_FUNCTION_SPACE_CURRENT",
+          "K847_K850_SC_ACT_06_EXACT_QUOTIENT_REPAIR_CURRENT",
           "latest GU result pointer moved")
     if isinstance(live, str):
+        check("K847--K850 require the next SC-ACT-06 repair attempt" in live and
+              "im(S_bar_q)=ker(tau_bar_q)" in live and
+              "Do not credit raw" in live,
+              "live K847--K850 exact quotient repair certificate missing")
         check("K843--K846 require the next SC-ACT-06 attempt" in live and
               "r+s>=90124" in live and
               "Do not retry lower-order" in live,
@@ -963,6 +979,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K847--K850 sharpen K845's scalar repair budget" in summary and
+          "im(S_bar)=ker(tau_bar)" in summary and
+          "ten conjunctive" in summary,
+          "current K847--K850 exact quotient repair result lost")
     check("K839--K842 close the finite-cutoff shortcut" in summary and
           "dense nonclosed range" in summary and
           "30-row interface" in summary,
@@ -1136,6 +1156,18 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "K847--K850 replace the coarse raw-rank reopener" in question
+        and "im(S_bar_q)=ker(tau_bar_q)" in question
+        and "cannot substitute for quotient-effective ranks" in question,
+        "current question lost K847--K850 exact quotient repair interface",
+    )
+    check(
+        "K847--K850 sharpen K845's necessary raw-rank budget" in data["agenda"].get("latest_result_2026_10_02_k847_k850", "")
+        and "ten conjunctive" in data["agenda"].get("latest_result_2026_10_02_k847_k850", "")
+        and "SC-ACT-06 remains ASSERTS" in data["agenda"].get("latest_result_2026_10_02_k847_k850", ""),
+        "agenda K847--K850 result is not current",
+    )
     check(
         "K843--K846 turn the current flat packet's symbol count" in question
         and "at least 90124 middle symbol classes" in question
@@ -3559,6 +3591,42 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           len(k846["decision"]["reopeners"]) == 4,
           "K846 flat function-space disposition moved")
 
+    k847 = data["k847"]
+    check(k847["theorem"]["exactness_criterion"] == "im(S_bar)=ker(tau_bar)" and
+          k847["theorem"]["dimension_formula"] == "h_new=h_old-rank(tau_bar)-rank(S_bar)" and
+          not k847["theorem"]["raw_rank_budget_is_sufficient"] and
+          k847["exact_control"]["middle_exact_after_repair"] and
+          k847["exact_control"]["new_middle_cohomology_dimension"] == 0 and
+          not k847["decision"]["source_owned_GU_repair_constructed"],
+          "K847 quotient repair theorem moved")
+
+    k848 = data["k848"]
+    check(k848["comparison"]["all_raw_budgets_equal_old_h"] and
+          k848["comparison"]["pass_effective_split"] == [1, 1] and
+          k848["comparison"]["duplicate_response_effective_split"] == [0, 1] and
+          k848["comparison"]["gauge_overlap_effective_split"] == [1, 0] and
+          not k848["comparison"]["raw_rank_threshold_decides_exactness"] and
+          k848["decision"]["response_rows_already_in_old_equation_span_get_zero_credit"],
+          "K848 raw-rank overlap countermodels moved")
+
+    k849 = data["k849"]
+    check(k849["certificate"]["row_count"] == 10 and
+          k849["certificate"]["core_equality"] == "im(S_bar)=ker(tau_bar)" and
+          not k849["certificate"]["raw_rank_substitution_allowed"] and
+          k849["exact_controls"]["complete_synthetic_candidate"]["admitted"] and
+          k849["exact_controls"]["all_single_row_omissions_rejected"] and
+          not k849["decision"]["source_owned_GU_candidate_admitted"],
+          "K849 exact repair certificate moved")
+
+    k850 = data["k850"]
+    check(k850["current_flat_packet"]["old_middle_cohomology_lower_bound"] == 90124 and
+          not k850["current_flat_packet"]["kernel_image_equality_every_q"] and
+          k850["future_packet_contract"]["for_each_nonzero_covector_q"] and
+          not k850["future_packet_contract"]["raw_rank_budget_is_sufficient"] and
+          not k850["decision"]["current_flat_packet_passes_certificate"] and
+          not k850["decision"]["SC_ACT_06_proved_or_refuted"],
+          "K850 flat quotient repair interface moved")
+
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]
     k693_n = k693["native_interface_status"]
@@ -4733,6 +4801,10 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k844-middle-exact", lambda d: d["k844"]["microlocal_consequence"].__setitem__("current_flat_symbol_complex_is_middle_elliptic", True))
     add("k845-lower-order-repair", lambda d: d["k845"]["principal_invariance_theorem"].__setitem__("lower_order_only_repair_restores_local_elliptic_estimate", True))
     add("k846-global-verdict", lambda d: d["k846"]["decision"].__setitem__("SC_ACT_06_source_claim_proved_or_refuted", True))
+    add("k847-raw-rank-sufficient", lambda d: d["k847"]["theorem"].__setitem__("raw_rank_budget_is_sufficient", True))
+    add("k848-overlap-decides", lambda d: d["k848"]["comparison"].__setitem__("raw_rank_threshold_decides_exactness", True))
+    add("k849-raw-rank-substitution", lambda d: d["k849"]["certificate"].__setitem__("raw_rank_substitution_allowed", True))
+    add("k850-current-passes", lambda d: d["k850"]["decision"].__setitem__("current_flat_packet_passes_certificate", True))
 
     add("k696-form", lambda d: d["k696"]["integration_theorem"].__setitem__("graph_equivalence_without_form_identity_sufficient", True))
     add("k696-reduction", lambda d: d["k696"]["integration_theorem"].__setitem__("reduction_of_column_labels_alone_reduces_native_R", True))

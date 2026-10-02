@@ -1,0 +1,264 @@
+{
+  "certificate": {
+    "core_equality": "im(S_bar)=ker(tau_bar)",
+    "equivalent_dimension_test_under_rows_2_to_5": "rank(tau_bar)+rank(S_bar)=dim(H)",
+    "logical_form": "conjunction",
+    "raw_rank_substitution_allowed": false,
+    "row_count": 10,
+    "rows": [
+      "source_or_action_ownership",
+      "old_principal_complex",
+      "response_descends_tau_G_zero",
+      "symmetry_is_old_cycle_J_S_zero",
+      "repaired_composition_tau_S_zero",
+      "old_middle_cohomology_dimension",
+      "induced_response_rank",
+      "induced_symmetry_rank",
+      "kernel_image_equality",
+      "all_covector_domain_uniformity"
+    ]
+  },
+  "claim_ceiling": "Exact conjunctive admission interface for principal middle-exactness repairs. It does not establish global ellipticity, Fredholmness, nonlinear integrability or a GU realization.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "comparator_routing_notice": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) 126 Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read lab/methods/source-native-comparator-routing.md and follow its source-native pointers before reusing this result.",
+  "controls": {
+    "controls_passed": 40,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k849_sc_act_06_exact_repair_certificate_probe.py",
+    "producer": "tests/channel-swings/k849_sc_act_06_exact_repair_certificate.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "necessary_and_sufficient_finite_symbol_interface_emitted": true,
+    "next_exact_input": "Populate all ten rows on one source/action-owned principal packet at every nonzero covector; raw dimensions cannot substitute for the induced quotient maps.",
+    "rank_threshold_without_descent_and_overlap_rejected": true,
+    "source_owned_GU_candidate_admitted": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "all_single_row_omissions_rejected": true,
+    "complete_synthetic_candidate": {
+      "admitted": true,
+      "missing_rows": [],
+      "rows": {
+        "all_covector_domain_uniformity": true,
+        "induced_response_rank": true,
+        "induced_symmetry_rank": true,
+        "kernel_image_equality": true,
+        "old_middle_cohomology_dimension": true,
+        "old_principal_complex": true,
+        "repaired_composition_tau_S_zero": true,
+        "response_descends_tau_G_zero": true,
+        "source_or_action_ownership": true,
+        "symmetry_is_old_cycle_J_S_zero": true
+      }
+    },
+    "one_missing_row_controls": {
+      "all_covector_domain_uniformity": {
+        "admitted": false,
+        "missing_rows": [
+          "all_covector_domain_uniformity"
+        ],
+        "rows": {
+          "all_covector_domain_uniformity": false,
+          "induced_response_rank": true,
+          "induced_symmetry_rank": true,
+          "kernel_image_equality": true,
+          "old_middle_cohomology_dimension": true,
+          "old_principal_complex": true,
+          "repaired_composition_tau_S_zero": true,
+          "response_descends_tau_G_zero": true,
+          "source_or_action_ownership": true,
+          "symmetry_is_old_cycle_J_S_zero": true
+        }
+      },
+      "induced_response_rank": {
+        "admitted": false,
+        "missing_rows": [
+          "induced_response_rank"
+        ],
+        "rows": {
+          "all_covector_domain_uniformity": true,
+          "induced_response_rank": false,
+          "induced_symmetry_rank": true,
+          "kernel_image_equality": true,
+          "old_middle_cohomology_dimension": true,
+          "old_principal_complex": true,
+          "repaired_composition_tau_S_zero": true,
+          "response_descends_tau_G_zero": true,
+          "source_or_action_ownership": true,
+          "symmetry_is_old_cycle_J_S_zero": true
+        }
+      },
+      "induced_symmetry_rank": {
+        "admitted": false,
+        "missing_rows": [
+          "induced_symmetry_rank"
+        ],
+        "rows": {
+          "all_covector_domain_uniformity": true,
+          "induced_response_rank": true,
+          "induced_symmetry_rank": false,
+          "kernel_image_equality": true,
+          "old_middle_cohomology_dimension": true,
+          "old_principal_complex": true,
+          "repaired_composition_tau_S_zero": true,
+          "response_descends_tau_G_zero": true,
+          "source_or_action_ownership": true,
+          "symmetry_is_old_cycle_J_S_zero": true
+        }
+      },
+      "kernel_image_equality": {
+        "admitted": false,
+        "missing_rows": [
+          "kernel_image_equality"
+        ],
+        "rows": {
+          "all_covector_domain_uniformity": true,
+          "induced_response_rank": true,
+          "induced_symmetry_rank": true,
+          "kernel_image_equality": false,
+          "old_middle_cohomology_dimension": true,
+          "old_principal_complex": true,
+          "repaired_composition_tau_S_zero": true,
+          "response_descends_tau_G_zero": true,
+          "source_or_action_ownership": true,
+          "symmetry_is_old_cycle_J_S_zero": true
+        }
+      },
+      "old_middle_cohomology_dimension": {
+        "admitted": false,
+        "missing_rows": [
+          "old_middle_cohomology_dimension"
+        ],
+        "rows": {
+          "all_covector_domain_uniformity": true,
+          "induced_response_rank": true,
+          "induced_symmetry_rank": true,
+          "kernel_image_equality": true,
+          "old_middle_cohomology_dimension": false,
+          "old_principal_complex": true,
+          "repaired_composition_tau_S_zero": true,
+          "response_descends_tau_G_zero": true,
+          "source_or_action_ownership": true,
+          "symmetry_is_old_cycle_J_S_zero": true
+        }
+      },
+      "old_principal_complex": {
+        "admitted": false,
+        "missing_rows": [
+          "old_principal_complex"
+        ],
+        "rows": {
+          "all_covector_domain_uniformity": true,
+          "induced_response_rank": true,
+          "induced_symmetry_rank": true,
+          "kernel_image_equality": true,
+          "old_middle_cohomology_dimension": true,
+          "old_principal_complex": false,
+          "repaired_composition_tau_S_zero": true,
+          "response_descends_tau_G_zero": true,
+          "source_or_action_ownership": true,
+          "symmetry_is_old_cycle_J_S_zero": true
+        }
+      },
+      "repaired_composition_tau_S_zero": {
+        "admitted": false,
+        "missing_rows": [
+          "repaired_composition_tau_S_zero"
+        ],
+        "rows": {
+          "all_covector_domain_uniformity": true,
+          "induced_response_rank": true,
+          "induced_symmetry_rank": true,
+          "kernel_image_equality": true,
+          "old_middle_cohomology_dimension": true,
+          "old_principal_complex": true,
+          "repaired_composition_tau_S_zero": false,
+          "response_descends_tau_G_zero": true,
+          "source_or_action_ownership": true,
+          "symmetry_is_old_cycle_J_S_zero": true
+        }
+      },
+      "response_descends_tau_G_zero": {
+        "admitted": false,
+        "missing_rows": [
+          "response_descends_tau_G_zero"
+        ],
+        "rows": {
+          "all_covector_domain_uniformity": true,
+          "induced_response_rank": true,
+          "induced_symmetry_rank": true,
+          "kernel_image_equality": true,
+          "old_middle_cohomology_dimension": true,
+          "old_principal_complex": true,
+          "repaired_composition_tau_S_zero": true,
+          "response_descends_tau_G_zero": false,
+          "source_or_action_ownership": true,
+          "symmetry_is_old_cycle_J_S_zero": true
+        }
+      },
+      "source_or_action_ownership": {
+        "admitted": false,
+        "missing_rows": [
+          "source_or_action_ownership"
+        ],
+        "rows": {
+          "all_covector_domain_uniformity": true,
+          "induced_response_rank": true,
+          "induced_symmetry_rank": true,
+          "kernel_image_equality": true,
+          "old_middle_cohomology_dimension": true,
+          "old_principal_complex": true,
+          "repaired_composition_tau_S_zero": true,
+          "response_descends_tau_G_zero": true,
+          "source_or_action_ownership": false,
+          "symmetry_is_old_cycle_J_S_zero": true
+        }
+      },
+      "symmetry_is_old_cycle_J_S_zero": {
+        "admitted": false,
+        "missing_rows": [
+          "symmetry_is_old_cycle_J_S_zero"
+        ],
+        "rows": {
+          "all_covector_domain_uniformity": true,
+          "induced_response_rank": true,
+          "induced_symmetry_rank": true,
+          "kernel_image_equality": true,
+          "old_middle_cohomology_dimension": true,
+          "old_principal_complex": true,
+          "repaired_composition_tau_S_zero": true,
+          "response_descends_tau_G_zero": true,
+          "source_or_action_ownership": true,
+          "symmetry_is_old_cycle_J_S_zero": false
+        }
+      }
+    }
+  },
+  "gu_typed_objects": {
+    "action_owner": "candidate-must-declare",
+    "carrier": "LAYER=ambient-or-toy CHIRALITY=N/A typed principal complex at each nonzero covector",
+    "grading": "owned symmetries -> fields -> owned residual equations",
+    "pairing": "NONE required for the finite-dimensional quotient certificate",
+    "real_structure": "must be inherited from the proposed principal packet",
+    "target": "MAP-TYPE=quotient exactness of repaired middle symbol cohomology"
+  },
+  "ledger_no_change_reason": "The compiler formalizes obligations for a future candidate and supplies no candidate, physical quotient, prediction or confirmation.",
+  "pinned_inputs": {
+    "k847": {
+      "path": "lab/process/k847-sc-act-06-quotient-repair-theorem.json",
+      "sha256": "b32a7bfe8c6594889d6c04c8be0e95a95ac03439f9b1c4e937ded9ce4156d3ce"
+    },
+    "k848": {
+      "path": "lab/process/k848-sc-act-06-rank-budget-overlap-countermodels.json",
+      "sha256": "c47924136c1589375d44f2d070b1f69426d080da65b2e8a603ce3875c50d7439"
+    }
+  },
+  "result_id": "K849-SC-ACT-06-EXACT-REPAIR-CERTIFICATE",
+  "schema_version": "1.0",
+  "scope": "Conjunctive certificate for a proposed principal repair of an already typed symbol complex; it does not provide the proposed GU repair.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

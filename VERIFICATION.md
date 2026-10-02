@@ -7,6 +7,43 @@ updated_at: "2026-10-02"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K847--K850 exact quotient repair certificate (2026-10-02)
+
+K847 proves the finite-dimensional repair theorem for an old complex
+`E0 --G--> E1 --J--> E2`. A new response `tau` with `tau G=0` descends to
+`tau_bar:H->F` on `H=ker(J)/im(G)`. A new symmetry `S` with `JS=0` and
+`tau S=0` descends into `ker(tau_bar)`. The repaired middle cohomology is
+`ker(tau_bar)/im(S_bar)`, so exactness is equivalent to
+`im(S_bar)=ker(tau_bar)` and its dimension is
+`h_old-rank(tau_bar)-rank(S_bar)`.
+
+K848 supplies three exact matrix controls with the same raw response-plus-
+symmetry rank. The complementary quotient images give exactness; duplicating
+an old equation or overlapping the old gauge image leaves one class. K849
+therefore requires ten conjunctive rows covering ownership, the old complex,
+all three composition identities, the old quotient dimension, both induced
+ranks, kernel-image equality, and all-covector/domain uniformity. K850 applies
+this interface shape to K717 without supplying absent source data: the current
+packet still has only the 90124 lower bound and fails the new certificate.
+
+Run the producers and hostile probes:
+
+```bash
+python3 tests/channel-swings/k847_sc_act_06_quotient_repair_theorem.py --check
+python3 tests/channel-swings/k847_sc_act_06_quotient_repair_theorem_probe.py
+python3 tests/channel-swings/k848_sc_act_06_rank_budget_overlap_countermodels.py --check
+python3 tests/channel-swings/k848_sc_act_06_rank_budget_overlap_countermodels_probe.py
+python3 tests/channel-swings/k849_sc_act_06_exact_repair_certificate.py --check
+python3 tests/channel-swings/k849_sc_act_06_exact_repair_certificate_probe.py
+python3 tests/channel-swings/k850_sc_act_06_flat_quotient_repair_interface.py --check
+python3 tests/channel-swings/k850_sc_act_06_flat_quotient_repair_interface_probe.py
+```
+
+The producers declare 165 controls and the probes reject 80 hostile
+mutations. These are exact conditional controls, not source-owned GU repair
+data. They do not move SC-ACT-06, the source register, ledger, canon, paper,
+public, prediction, confirmation or physical verdict.
+
 ## K843--K846 flat-realization microlocal disposition (2026-10-02)
 
 K843 proves a local first-order microlocal obstruction. If the symbol complex
