@@ -7,6 +7,44 @@ updated_at: "2026-10-02"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K791--K794 released first-order flat-packet closure (2026-10-02)
+
+K791 inventories the released first-order equation grammar. Its one bosonic
+residual family is `Upsilon`; `Xi=D_omega Upsilon` is explicitly redundant.
+The fermion equations are block-separated at the zero-fermion germ, while
+metric, epsilon, varpi and fermions are field columns rather than additional
+bosonic equation rows. The adjoint equation belongs to the distinct I2B
+action and is not imported into SC-ACT-06's first-order complex.
+
+K792 linearizes the redundant row at `Upsilon=0`:
+`delta(D_A Upsilon)=D_A(delta Upsilon)`. Hence its principal symbol is
+`(q wedge)J_q` and vanishes on every vector in `ker(J_q)`. K793 then composes
+K719: for an extended map `(v,x,psi) -> (Jv+Lx,Fpsi)`, the subspace
+`ker(J) x {0} x {0}` remains in the full kernel. Adding metric/epsilon or
+fermion columns, the exact fermion diagonal, or Xi cannot remove K788's
+connection defect. After K789's maximal current symmetry grant, at least
+90124 middle classes persist on all three real nonzero covector orbits.
+
+K794 therefore closes K717 only as the current released-source direct
+elliptic realization. It does not refute K717 as a zero-locus solution or
+SC-ACT-06 globally. Reopening requires a genuinely different zero-locus germ,
+an authenticated independent bosonic row nonzero on the kernel, or at least
+90124 additional independent owned symmetry directions. The complete native
+K500 A/B packet is the strongest independent route.
+
+Run:
+
+```bash
+python3 tests/channel-swings/k791_sc_act_06_released_first_order_row_inventory.py
+python3 tests/channel-swings/k791_sc_act_06_released_first_order_row_inventory_probe.py
+python3 tests/channel-swings/k792_sc_act_06_redundant_prolongation_kernel_theorem.py
+python3 tests/channel-swings/k792_sc_act_06_redundant_prolongation_kernel_theorem_probe.py
+python3 tests/channel-swings/k793_sc_act_06_full_field_kernel_persistence.py
+python3 tests/channel-swings/k793_sc_act_06_full_field_kernel_persistence_probe.py
+python3 tests/channel-swings/k794_sc_act_06_released_flat_realization_closure.py
+python3 tests/channel-swings/k794_sc_act_06_released_flat_realization_closure_probe.py
+```
+
 ## K787--K790 flat zero-locus direct-response gate (2026-10-02)
 
 K787 verifies custody rather than ellipticity: K717 is a local

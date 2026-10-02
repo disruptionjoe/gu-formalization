@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: c47761820336
+revision_basis: 2e315e80f53d
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K791--K794 complete the released first-order row audit demanded by K790.
+    K791 finds one first-order bosonic residual family, `Upsilon`, plus the
+    declared redundant prolongation `Xi=D_omega Upsilon`; the fermion rows are
+    separate at zero fermion, metric/epsilon/varpi/fermions are field columns,
+    and `D_omega^* Upsilon_B=Upsilon_F` belongs to the distinct I2B action.
+    K792 proves that at `Upsilon=0`,
+    `delta Xi=D_omega(delta Upsilon)`, so its principal symbol factors through
+    `J=D Upsilon` and cannot act on K788's 106512-dimensional kernel. K793
+    proves that adjoining metric/epsilon or fermion columns and the exact
+    zero-fermion diagonal cannot delete the embedded connection kernel; after
+    K789's maximal current grant, at least 90124 classes persist on positive,
+    negative and null real nonzero covectors. K794 closes K717 only as the
+    current released-source direct elliptic realization. A genuinely different
+    zero-locus germ, authenticated independent row/symmetry completion, or the
+    complete native K500 A/B packet is next. SC-ACT-06 remains `ASSERTS`; no
+    source, ledger, canon, paper, public, prediction, confirmation or physical
+    verdict moves.
+
     K787--K790 execute the corrected direct SC-ACT-06 route on K717's flat
     germ. K787 establishes that K717 is a repository-constructed local,
     source-typed `Upsilon=0` background, while the released source exhibits no
@@ -12388,20 +12406,20 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K787--K790 show that K717 already supplies a local repository-constructed,
-  source-typed `Upsilon=0` germ, so background search is no longer the first
-  missing input on this flat route. The direct K788 connection response has
-  rank 122864 and kernel 106512 on positive, negative and null real nonzero
-  covectors. Even granting K789's full 16384-dimensional internal
-  `q lambda` candidate plus four metric diffeomorphisms leaves at least 90124
-  middle classes uniformly. Audit for an omitted source-owned first-order row
-  acting on that kernel or at least 90124 additional independent owned
-  symmetry directions, then supply the complete fermion, redundancy and
-  common-domain packet. Otherwise retire this flat packet and change the
-  zero-locus germ, or supply the complete native K500 A/B packet. Do not
-  promote candidate symmetry to source-owned gauge, conflate `DUpsilon` with
-  an action Hessian, or infer a global SC-ACT-06 no-go. SC-ACT-06 remains
-  `ASSERTS`.
+  K791--K794 close K790's omitted-row audit for the released first-order
+  serialization. The only displayed extra bosonic equation is the declared
+  redundant prolongation `Xi=D_omega Upsilon`; at a zero-locus background its
+  linearization factors through `J=D Upsilon` and vanishes on K788's kernel.
+  The zero-fermion fermion block is separate, and extra metric/epsilon/fermion
+  field columns cannot remove the embedded connection kernel. Thus K789's
+  maximal current symmetry grant still leaves at least 90124 middle classes
+  on positive, negative and null real nonzero covectors. K717 is closed only
+  as the current released-source direct elliptic realization. Next construct a
+  genuinely different source-typed `Upsilon=0` germ with changed response
+  data, authenticate a genuinely independent row or at least 90124 further
+  owned symmetry directions, or execute the complete native K500 A/B packet.
+  Do not import the distinct I2B row, promote candidate symmetry to gauge, or
+  infer a global SC-ACT-06 no-go. SC-ACT-06 remains `ASSERTS`.
 
   On the direct SC-ACT-06 route, K783--K786 require one source-typed
   `Upsilon=0` background and its complete first-order Euclidean deformation
@@ -13375,6 +13393,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K791--K794 close K790's omitted-row audit under the released first-order
+  serialization. `Xi=D_omega Upsilon` is the only displayed extra bosonic
+  equation and its zero-locus linearization factors through `J=D Upsilon`;
+  zero-fermion rows are block-separate and added field columns cannot remove
+  the embedded connection kernel. At least 90124 middle classes therefore
+  persist after the maximal current symmetry grant. K717 is closed only as
+  the current released-source direct elliptic realization. The next direct
+  input is a genuinely different source-typed `Upsilon=0` germ, an
+  authenticated independent row nonzero on the kernel, at least 90124 further
+  independent owned symmetry directions, or the complete native K500 A/B
+  packet. Do not import I2B, promote candidate symmetry, or infer a global
+  SC-ACT-06 no-go. SC-ACT-06 remains `ASSERTS`.
+
   K787--K790 close the current serialized K717/K788 flat packet as a complete
   Euclidean deformation complex. The exact direct-response ranks are 122864
   in a 229376-dimensional domain on positive, negative and null real nonzero

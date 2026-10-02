@@ -1,0 +1,82 @@
+{
+  "claim_ceiling": "Complete inventory of the released rows used by the current first-order packet. It does not prove that every future or unreleased completion lacks another row and changes no source or physical verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 40,
+    "hostile_mutations_rejected": 28,
+    "probe": "tests/channel-swings/k791_sc_act_06_released_first_order_row_inventory_probe.py",
+    "producer": "tests/channel-swings/k791_sc_act_06_released_first_order_row_inventory.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "next_exact_input": "Prove that the redundant Xi row factors through D Upsilon at the zero locus, then compose the zero-fermion block split and field-column extension lemma.",
+    "only_displayed_extra_bosonic_equation_is_declared_redundant": true,
+    "released_independent_first_order_bosonic_row_count_beyond_Upsilon": 0,
+    "source_inventory_supplies_K790_missing_independent_row": false
+  },
+  "direction": "observed_to_native",
+  "inventory": {
+    "additional_released_first_order_bosonic_row_independent_of_Upsilon": [],
+    "distinct_second_action_rows": [
+      "D_omega^* Upsilon_B=Upsilon_F"
+    ],
+    "field_columns_not_equation_rows": [
+      "metric g",
+      "source epsilon",
+      "connection varpi",
+      "fermions"
+    ],
+    "first_order_bosonic_residual_rows": [
+      "Upsilon_B inside total Upsilon=Upsilon_B+Upsilon_F"
+    ],
+    "first_order_fermion_rows": [
+      "spinor Euler components inside Upsilon_F",
+      "adjoint-valued bilinear current inside Upsilon_F"
+    ],
+    "redundant_rows": [
+      "Xi=D_omega Upsilon"
+    ]
+  },
+  "ledger_no_change_reason": "This is a source-serialization inventory, not a physical state, quotient, observable, prediction or confirmation.",
+  "pinned_inputs": {
+    "k719": {
+      "path": "lab/process/k719-sc-act-06-zero-fermion-full-symbol-reduction.json",
+      "sha256": "f5a586ce7071acc0ffec59b66232ed25ab1c1de5f17c0e9d87e392d126f09cd9"
+    },
+    "k784": {
+      "path": "lab/process/k784-sc-act-06-i1b-i2b-action-sum-ownership-correction.json",
+      "sha256": "ae60fcfb2811b1e1dfa01c50323c770878d17f68618e8e47c0e179874865e011"
+    },
+    "k790": {
+      "path": "lab/process/k790-sc-act-06-flat-zero-locus-realization-gate.json",
+      "sha256": "13904b26e4ed08d972a8b33d8038a384d62af9c23512372f1e96f9cbdbee4625"
+    },
+    "source_pack": {
+      "path": "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md",
+      "sha256": "7b37925b0342c9495dc1706a39c0f2e9569e64a1352a3221814a2b0c9b9c2999"
+    },
+    "source_register": {
+      "path": "lab/sources/source-claim-register.yaml",
+      "sha256": "dc3ae173b4cc0eb2a0e343e3d92d5f110b8e4f6eef3e2852a1e897ab4371ade6"
+    }
+  },
+  "result_id": "K791-SC-ACT-06-RELEASED-FIRST-ORDER-ROW-INVENTORY",
+  "schema_version": "1.0",
+  "scope": "Complete released-source row/column inventory relevant to the K717 zero-fermion first-order Upsilon=0 deformation packet.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "source_witnesses": {
+    "first_order_total_residual": true,
+    "redundant_prolongation": true,
+    "sc_act_06_exact_wording": true,
+    "second_order_alternative": true
+  },
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "typing": {
+    "fermion_current_is_bilinear_and_has_zero_connection_derivative_at_zero_fermion": true,
+    "i2b_row_belongs_to_distinct_second_action": true,
+    "metric_and_epsilon_are_fields_not_extra_equations": true,
+    "xi_is_covariant_prolongation_not_frechet_epsilon_column": true,
+    "zero_fermion_principal_symbol_is_block_diagonal": true
+  }
+}

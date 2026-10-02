@@ -7,6 +7,19 @@ updated_at: "2026-10-02"
 
 # Next Steps For Contributors
 
+> **2026-10-02 K791--K794 RELEASED FIRST-ORDER FLAT-PACKET CLOSURE.** K791
+> audits the released first-order display: `Upsilon` is the sole bosonic
+> residual family, `Xi=D_omega Upsilon` is declared redundant, the fermion
+> rows split at zero fermion, and metric/epsilon/varpi/fermions are field
+> columns; the adjoint `D_omega^* Upsilon_B=Upsilon_F` belongs to distinct
+> I2B. K792 proves `delta Xi=D_omega(delta Upsilon)` at `Upsilon=0`, so Xi
+> cannot shrink K788's kernel. K793 proves added field columns and the exact
+> fermion diagonal preserve that embedded kernel, leaving at least 90124
+> classes after K789's maximal current symmetry grant. K794 closes K717 only
+> as the current released-source direct elliptic realization. Next change the
+> native zero-locus germ, authenticate an independent row/symmetry completion,
+> or supply the complete K500 A/B packet. SC-ACT-06 remains `ASSERTS`.
+
 > **2026-10-02 K787--K790 FLAT ZERO-LOCUS DIRECT-RESPONSE GATE.** K787
 > establishes that K717 already supplies a repository-constructed local,
 > source-typed `Upsilon=0` germ, although the source does not exhibit a

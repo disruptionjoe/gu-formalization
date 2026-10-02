@@ -1,0 +1,63 @@
+{
+  "claim_ceiling": "Exact persistence theorem for the released zero-fermion field extension and currently granted symmetries. It does not classify future nonzero-fermion germs or undisplayed independent rows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 42,
+    "hostile_mutations_rejected": 30,
+    "probe": "tests/channel-swings/k793_sc_act_06_full_field_kernel_persistence_probe.py",
+    "producer": "tests/channel-swings/k793_sc_act_06_full_field_kernel_persistence.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "complete_fermion_diagonal_can_repair_bosonic_defect": false,
+    "new_metric_or_epsilon_columns_alone_can_repair_bosonic_defect": false,
+    "released_full_field_extension_repairs_K790": false,
+    "remaining_reopener": "A genuinely independent source-owned bosonic response row nonzero on the embedded kernel or at least 90124 additional independent owned symmetry directions."
+  },
+  "direction": "observed_to_native",
+  "exact_bound": {
+    "embedded_connection_kernel_dimension": 106512,
+    "maximal_current_granted_symmetry_rank": 16388,
+    "persistent_middle_classes_lower_bound": 90124,
+    "uniform_on_positive_negative_and_null_real_covectors": true
+  },
+  "extension_lemma": {
+    "adding_block_diagonal_fermion_rows_can_act_on_old_bosonic_kernel": false,
+    "adding_field_columns_can_delete_old_kernel_vectors": false,
+    "embedded_subspace": "ker(J) x {0} x {0}",
+    "embedded_subspace_is_in_full_kernel": true,
+    "map_form": "J_tilde(v,x,psi)=(Jv+Lx,Fpsi)",
+    "redundant_xi_row_can_act_on_old_kernel": false
+  },
+  "ledger_no_change_reason": "The persistence theorem is local principal-symbol algebra and supplies no physical quotient or observable.",
+  "pinned_inputs": {
+    "k719": {
+      "path": "lab/process/k719-sc-act-06-zero-fermion-full-symbol-reduction.json",
+      "sha256": "f5a586ce7071acc0ffec59b66232ed25ab1c1de5f17c0e9d87e392d126f09cd9"
+    },
+    "k789": {
+      "path": "lab/process/k789-sc-act-06-maximal-symmetry-budget.json",
+      "sha256": "b73011120d0904f451a232042ab03b5089f20336df45371180cca4db6d999a7f"
+    },
+    "k791": {
+      "path": "lab/process/k791-sc-act-06-released-first-order-row-inventory.json",
+      "sha256": "90339b7eaea811bc00d87b514e45d99c36917a50ff8f71dd7a33ab4fc4233c97"
+    },
+    "k792": {
+      "path": "lab/process/k792-sc-act-06-redundant-prolongation-kernel-theorem.json",
+      "sha256": "0f4c88f9c89ec2b7813332d608c64d0f54807058bdee29707f6bfc3c1a023466"
+    }
+  },
+  "released_full_field_typing": {
+    "fermion_diagonal_is_separate_from_bosonic_connection_kernel": true,
+    "i2b_adjoint_row_is_not_part_of_first_order_SC_ACT_06_packet": true,
+    "metric_epsilon_varpi_fermions_are_field_columns": true,
+    "zero_fermion_mixed_principal_blocks_vanish": true
+  },
+  "result_id": "K793-SC-ACT-06-FULL-FIELD-KERNEL-PERSISTENCE",
+  "schema_version": "1.0",
+  "scope": "Persistence of K788's connection-kernel quotient under the released zero-fermion full-field extension of the K717 direct Upsilon packet.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

@@ -1,0 +1,56 @@
+{
+  "claim_ceiling": "Exact zero-locus factorization theorem for the released Xi row. It does not exclude a genuinely independent future response row, another background, or another source completion.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 38,
+    "hostile_mutations_rejected": 26,
+    "probe": "tests/channel-swings/k792_sc_act_06_redundant_prolongation_kernel_theorem_probe.py",
+    "producer": "tests/channel-swings/k792_sc_act_06_redundant_prolongation_kernel_theorem.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "discarding_xi_changes_field_kernel": false,
+    "next_exact_input": "Compose the kernel inclusion with the zero-fermion block split and prove that added field columns cannot delete the embedded connection-kernel subspace.",
+    "xi_can_act_nontrivially_on_a_vector_killed_by_J": false,
+    "xi_supplies_K790_missing_independent_row": false
+  },
+  "direction": "observed_to_native",
+  "exact_consequence": {
+    "all_three_real_nonzero_covector_orbits": true,
+    "connection_domain_dimension": 229376,
+    "direct_response_kernel_dimension": 106512,
+    "direct_response_rank": 122864,
+    "kernel_inclusion": "ker(J_q) subset ker((J_q,(q wedge)J_q))",
+    "stacked_row_kernel_dimension": 106512,
+    "stacked_row_rank": 122864
+  },
+  "ledger_no_change_reason": "The theorem only classifies a declared redundant local equation row on one flat germ.",
+  "linearization": {
+    "background_residual_zero": true,
+    "identity": "delta(D_A Upsilon)=D_A(delta Upsilon)+(delta D_A)Upsilon",
+    "principal_factorization": "sigma_q(delta Xi)=(q wedge) J_q",
+    "variation_of_connection_times_background_residual_vanishes": true,
+    "xi_row_factors_through_direct_response": true,
+    "zero_locus_reduction": "delta Xi=D_A(delta Upsilon)"
+  },
+  "pinned_inputs": {
+    "k788": {
+      "path": "lab/process/k788-sc-act-06-direct-response-orbit-classification.json",
+      "sha256": "5d1b2813b629f13ebaaec0a2ee86e442422ab0ed0eb985c4589f9664ead9e445"
+    },
+    "k790": {
+      "path": "lab/process/k790-sc-act-06-flat-zero-locus-realization-gate.json",
+      "sha256": "13904b26e4ed08d972a8b33d8038a384d62af9c23512372f1e96f9cbdbee4625"
+    },
+    "k791": {
+      "path": "lab/process/k791-sc-act-06-released-first-order-row-inventory.json",
+      "sha256": "90339b7eaea811bc00d87b514e45d99c36917a50ff8f71dd7a33ab4fc4233c97"
+    }
+  },
+  "result_id": "K792-SC-ACT-06-REDUNDANT-PROLONGATION-KERNEL-THEOREM",
+  "schema_version": "1.0",
+  "scope": "Principal-symbol effect of adjoining the released redundant Xi=D_omega Upsilon equation at K717's Upsilon=0 flat germ.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

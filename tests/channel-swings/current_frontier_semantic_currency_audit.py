@@ -311,6 +311,18 @@ def load_inputs() -> dict:
         "k790": json.loads(
             (ROOT / "lab/process/k790-sc-act-06-flat-zero-locus-realization-gate.json").read_text()
         ),
+        "k791": json.loads(
+            (ROOT / "lab/process/k791-sc-act-06-released-first-order-row-inventory.json").read_text()
+        ),
+        "k792": json.loads(
+            (ROOT / "lab/process/k792-sc-act-06-redundant-prolongation-kernel-theorem.json").read_text()
+        ),
+        "k793": json.loads(
+            (ROOT / "lab/process/k793-sc-act-06-full-field-kernel-persistence.json").read_text()
+        ),
+        "k794": json.loads(
+            (ROOT / "lab/process/k794-sc-act-06-released-flat-realization-closure.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -503,9 +515,13 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     check(registry["latest_gu_formalization_result"] ==
-          "K787_K790_SC_ACT_06_FLAT_ZERO_LOCUS_GATE_CURRENT",
+          "K791_K794_SC_ACT_06_RELEASED_FLAT_REALIZATION_CLOSURE_CURRENT",
           "latest GU result pointer moved")
     if isinstance(live, str):
+        check("K791--K794 close K790's omitted-row audit" in live and
+              "at least 90124 middle classes" in live and
+              "genuinely different source-typed `Upsilon=0` germ" in live,
+              "live K791--K794 released-flat-packet closure missing")
         check("K787--K790 close the current serialized K717/K788 flat packet" in live and
               "at least 90124 middle classes" in live and
               "omitted source-owned first-order row" in live,
@@ -739,6 +755,11 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K791--K794 complete the released first-order row audit" in summary and
+          "delta Xi=D_omega(delta Upsilon)" in summary and
+          "at least 90124 classes persist" in summary and
+          "current released-source direct elliptic realization" in summary,
+          "current K791--K794 released-flat-packet result lost")
     check("K787--K790 execute the corrected direct SC-ACT-06 route" in summary and
           "rank 122864" in summary and "at least 90124 middle classes" in summary and
           "rejects only the current serialized K717/K788 flat" in summary,
@@ -887,10 +908,17 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
 
     question = current.get("current_question", "")
     check(
-        "K787--K790 show that K717 already supplies" in question
-        and "kernel 106512" in question
-        and "at least 90124" in question,
-        "current question lost K787--K790 flat-packet gate",
+        "K791--K794 close K790's omitted-row audit" in question
+        and "at least 90124" in question
+        and "complete native K500 A/B packet" in question,
+        "current question lost K791--K794 released-flat-packet closure",
+    )
+    check(
+        "K791--K794 complete K790's released first-order row audit" in data["agenda"].get("latest_result_2026_10_02_k791_k794", "")
+        and "106512-dimensional kernel" in data["agenda"].get("latest_result_2026_10_02_k791_k794", "")
+        and "90124" in data["agenda"].get("latest_result_2026_10_02_k791_k794", "")
+        and "SC-ACT-06 remains ASSERTS" in data["agenda"].get("latest_result_2026_10_02_k791_k794", ""),
+        "agenda K791--K794 result is not current",
     )
     check(
         "repository-constructed local source-typed Upsilon=0 background" in data["agenda"].get("latest_result_2026_10_02_k787_k790", "")
@@ -2683,6 +2711,34 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k790["decision"]["global_SC_ACT_06_proved_or_refuted"],
           "K790 flat zero-locus realization gate moved")
 
+    k791 = data["k791"]
+    check(k791["decision"]["released_independent_first_order_bosonic_row_count_beyond_Upsilon"] == 0 and
+          k791["decision"]["only_displayed_extra_bosonic_equation_is_declared_redundant"] and
+          not k791["decision"]["source_inventory_supplies_K790_missing_independent_row"] and
+          k791["typing"]["i2b_row_belongs_to_distinct_second_action"],
+          "K791 released first-order row inventory moved")
+
+    k792 = data["k792"]
+    check(k792["linearization"]["xi_row_factors_through_direct_response"] and
+          k792["exact_consequence"]["stacked_row_kernel_dimension"] == 106512 and
+          not k792["decision"]["xi_supplies_K790_missing_independent_row"] and
+          not k792["decision"]["discarding_xi_changes_field_kernel"],
+          "K792 redundant prolongation theorem moved")
+
+    k793 = data["k793"]
+    check(k793["extension_lemma"]["embedded_subspace_is_in_full_kernel"] and
+          not k793["extension_lemma"]["adding_field_columns_can_delete_old_kernel_vectors"] and
+          k793["exact_bound"]["persistent_middle_classes_lower_bound"] == 90124 and
+          not k793["decision"]["released_full_field_extension_repairs_K790"],
+          "K793 full-field kernel persistence moved")
+
+    k794 = data["k794"]
+    check(k794["decision"]["K717_direct_released_source_packet_closed"] and
+          not k794["decision"]["K717_is_complete_elliptic_realization_under_released_serialization"] and
+          not k794["decision"]["global_SC_ACT_06_proved_or_refuted"] and
+          k794["composition"]["uniform_persistent_middle_classes"] == 90124,
+          "K794 released flat-realization closure moved")
+
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]
     k693_n = k693["native_interface_status"]
@@ -4026,6 +4082,14 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k789-exact", lambda d: d["k789"]["decision"].__setitem__("all_three_orbits_middle_exact_under_maximal_grant", True))
     add("k790-exact", lambda d: d["k790"]["decision"].__setitem__("current_flat_packet_middle_exact", True))
     add("k790-global", lambda d: d["k790"]["decision"].__setitem__("global_SC_ACT_06_proved_or_refuted", True))
+    add("k791-row", lambda d: d["k791"]["decision"].__setitem__("released_independent_first_order_bosonic_row_count_beyond_Upsilon", 1))
+    add("k791-i2b", lambda d: d["k791"]["typing"].__setitem__("i2b_row_belongs_to_distinct_second_action", False))
+    add("k792-factor", lambda d: d["k792"]["linearization"].__setitem__("xi_row_factors_through_direct_response", False))
+    add("k792-kernel", lambda d: d["k792"]["exact_consequence"].__setitem__("stacked_row_kernel_dimension", 0))
+    add("k793-columns", lambda d: d["k793"]["extension_lemma"].__setitem__("adding_field_columns_can_delete_old_kernel_vectors", True))
+    add("k793-lower", lambda d: d["k793"]["exact_bound"].__setitem__("persistent_middle_classes_lower_bound", 0))
+    add("k794-close", lambda d: d["k794"]["decision"].__setitem__("K717_direct_released_source_packet_closed", False))
+    add("k794-global", lambda d: d["k794"]["decision"].__setitem__("global_SC_ACT_06_proved_or_refuted", True))
 
     add("k693-lower", lambda d: d["k693"]["graph_equivalence_theorem"].__setitem__("upper_bound_alone_sufficient_for_closedness", True))
     add("k693-native", lambda d: d["k693"]["native_interface_status"].__setitem__("actual_native_closed_column_proved", True))
