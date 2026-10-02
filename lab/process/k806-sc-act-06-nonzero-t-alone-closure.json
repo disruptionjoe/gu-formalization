@@ -1,0 +1,83 @@
+{
+  "claim_ceiling": "Exact closure of nonzero T alone under unchanged released principal structure. It is not a global nonzero-T/non-Levi-Civita classification or SC-ACT-06 no-go.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "composition": {
+    "current_k500_native_packet_available": false,
+    "fixed_structure_connection_kernel": 106512,
+    "fixed_structure_connection_rank": 122864,
+    "full_field_embedded_kernel": 106512,
+    "maximal_current_grant": 16388,
+    "nonzero_T_alone_changes_principal_response": false,
+    "persistent_classes_under_current_grant": 90124,
+    "released_independent_row_beyond_Upsilon_available": false
+  },
+  "controls": {
+    "controls_passed": 40,
+    "hostile_mutations_rejected": 30,
+    "probe": "tests/channel-swings/k806_sc_act_06_nonzero_t_alone_closure_probe.py",
+    "producer": "tests/channel-swings/k806_sc_act_06_nonzero_t_alone_closure.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "all_nonzero_T_or_non_levi_civita_zero_locus_germs_closed": false,
+    "future_owned_symmetry_or_independent_row_closed": false,
+    "global_sc_act_06_proved_or_refuted": false,
+    "moving_principal_geometry_closed": false,
+    "next_direct_frontier": "Construct a source-typed zero-locus germ whose moving metric/epsilon/Shiab/Hodge principal coefficients actually differ, authenticate an independent first-order row, or supply enough owned symmetry to cover the 106512-dimensional kernel. Future native K500 remains separate and needs new A/B data.",
+    "nonzero_T_alone_reopens_certified_packet": false,
+    "source_claim_status_changes": false
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "released Upsilon equation and current owned symmetry grant only",
+    "carrier": "fixed-principal-structure nonzero-T connection tangent and its full-field embedding",
+    "grading": "connection principal symbol through full-field middle cohomology",
+    "pairing": "principal response, embedded kernel, and authenticated symmetry quotient considered in sequence",
+    "real_structure": "real U(64,64) coefficient dimensions inherited from K803-K805",
+    "target": "whether changing T alone reopens the certified SC-ACT-06 packet"
+  },
+  "ledger_no_change_reason": "The result narrows one principal reopener and constructs no stationary nonzero-T germ, physical quotient, observable, prediction or confirmation.",
+  "pinned_inputs": {
+    "k798": {
+      "path": "lab/process/k798-k500-current-packet-closure.json",
+      "sha256": "81adec6251a78428de6deebb24cdae2925ec1bde864a29df22294e79e74b9f10"
+    },
+    "k802": {
+      "path": "lab/process/k802-sc-act-06-certified-t0-family-closure.json",
+      "sha256": "2f87a4807f39f0456c1d629441531bc8f9ddf7679f1eb5c237615be58afad31f"
+    },
+    "k803": {
+      "path": "lab/process/k803-sc-act-06-nonzero-t-principal-invariance.json",
+      "sha256": "0975cbfb2dd7ee2f4634198b29bdae51fc6a425879afd69ed4c890bba76f1d62"
+    },
+    "k804": {
+      "path": "lab/process/k804-sc-act-06-fixed-structure-full-field-kernel.json",
+      "sha256": "c2344e9861528c19704893f1481a66e966a6e82546a1d4a0827aeccf0af8b660"
+    },
+    "k805": {
+      "path": "lab/process/k805-sc-act-06-fixed-structure-symmetry-threshold.json",
+      "sha256": "ca32ef6a89987f17437b6d147439732431e36df44a80c4caf7ece62cc2039ab1"
+    }
+  },
+  "protected_effects": {
+    "canon": "UNCHANGED",
+    "paper_and_public_posture": "UNCHANGED",
+    "physics_ledger": "UNCHANGED",
+    "prediction_confirmation_physical_verdict": "UNCHANGED",
+    "sc_act_06": "ASSERTS_UNCHANGED",
+    "source_register": "UNCHANGED"
+  },
+  "reranked_frontier": [
+    "moving metric/epsilon/Shiab/Hodge zero-locus germ with genuinely changed principal coefficients and complete stationarity/gauge/domain packet",
+    "authenticated independent released/source-owned first-order row acting on the embedded kernel",
+    "owned symmetry image spanning 106512 kernel directions or at least 90124 beyond the current grant",
+    "genuinely new native same-domain K500 A data plus same-coordinate complete B/boundary/tail data",
+    "K218/K152 only after a named consuming margin"
+  ],
+  "result_id": "K806-SC-ACT-06-NONZERO-T-ALONE-CLOSURE",
+  "schema_version": "1.0",
+  "scope": "Closure of nonzero background T alone, with unchanged released first-order principal structure, as a repair of the current SC-ACT-06 packet.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

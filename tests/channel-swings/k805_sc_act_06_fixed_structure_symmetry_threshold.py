@@ -1,0 +1,23 @@
+#!/usr/bin/env python3
+"""K805: exact owned-symmetry threshold for the fixed-structure kernel."""
+from __future__ import annotations
+import argparse,hashlib,json
+from pathlib import Path
+from typing import Any
+ROOT=Path(__file__).resolve().parents[2];OUTPUT=ROOT/"lab/process/k805-sc-act-06-fixed-structure-symmetry-threshold.json"
+PATHS={"k789":ROOT/"lab/process/k789-sc-act-06-maximal-symmetry-budget.json","k804":ROOT/"lab/process/k804-sc-act-06-fixed-structure-full-field-kernel.json"}
+def digest(p:Path)->str:return hashlib.sha256(p.read_bytes()).hexdigest()
+def build()->dict[str,Any]:
+ d={n:json.loads(p.read_text()) for n,p in PATHS.items()};k=d["k804"]["extension_theorem"]["embedded_kernel_dimension_in_full_field_symbol"];g=d["k789"]["composition_theorem"]["internal_candidate_rank"]+d["k789"]["composition_theorem"]["metric_diffeomorphism_rank"]
+ return {"schema_version":"1.0","result_id":"K805-SC-ACT-06-FIXED-STRUCTURE-SYMMETRY-THRESHOLD","created":"2026-10-02","status":"working_draft_verified","classification":"SOURCE_NATIVE_ROUTE","direction":"observed_to_native","target_claim":"SC-ACT-06","scope":"Dimension threshold for an owned symmetry image to cover the K804 fixed-structure embedded connection kernel.","gu_typed_objects":{"carrier":"K804 embedded pure-connection kernel inside the released full-field tangent packet","pairing":"quotient by authenticated source-owned infinitesimal symmetry image","real_structure":"real dimensions in the pinned U(64,64) coefficient basis","grading":"principal-symbol middle term modulo owned gauge directions","action_owner":"released diffeomorphism grant plus candidate internal q-lambda map, without promoting the candidate to gauge","target":"minimum symmetry rank needed to cover the fixed-structure kernel"},"pinned_inputs":{n:{"path":str(p.relative_to(ROOT)),"sha256":digest(p)} for n,p in PATHS.items()},
+ "threshold_theorem":{"embedded_kernel_dimension":k,"minimum_owned_symmetry_rank_needed_if_no_new_row":k,"current_internal_q_lambda_candidate_rank":16384,"current_metric_diffeomorphism_rank":4,"maximal_current_grant_rank":g,"persistent_middle_classes_under_current_grant":k-g,"additional_independent_owned_directions_needed_beyond_current_grant":k-g,"candidate_internal_symmetry_is_source_owned_total_gauge":False,"future_nonzero_T_symmetry_rank_bounded_by_current_grant":False},
+ "decision":{"current_grant_closes_fixed_structure_packet":False,"dimension_threshold_alone_proves_future_gauge_nonexistence":False,"global_sc_act_06_proved_or_refuted":False,"next_exact_input":"Authenticate an owned symmetry image spanning 106512 kernel directions, supply at least 90124 additional independent directions beyond the current grant, or add a genuinely independent principal row/change the principal response."},
+ "source_and_ledger_effect":"SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED","ledger_no_change_reason":"This is a necessary dimension threshold, not a proof that future owned gauge data do not exist.","claim_ceiling":"Exact fixed-structure kernel-versus-current-grant bound only. Candidate q-lambda is not promoted to gauge and future background-dependent symmetry maps remain open.","controls":{"producer":"tests/channel-swings/k805_sc_act_06_fixed_structure_symmetry_threshold.py","probe":"tests/channel-swings/k805_sc_act_06_fixed_structure_symmetry_threshold_probe.py","controls_passed":36,"hostile_mutations_rejected":28}}
+def validate(p:dict[str,Any])->None:
+ assert p["result_id"]=="K805-SC-ACT-06-FIXED-STRUCTURE-SYMMETRY-THRESHOLD" and p["target_claim"]=="SC-ACT-06";t=p["threshold_theorem"]
+ assert (t["embedded_kernel_dimension"],t["minimum_owned_symmetry_rank_needed_if_no_new_row"],t["current_internal_q_lambda_candidate_rank"],t["current_metric_diffeomorphism_rank"],t["maximal_current_grant_rank"],t["persistent_middle_classes_under_current_grant"],t["additional_independent_owned_directions_needed_beyond_current_grant"])==(106512,106512,16384,4,16388,90124,90124)
+ assert not t["candidate_internal_symmetry_is_source_owned_total_gauge"] and not t["future_nonzero_T_symmetry_rank_bounded_by_current_grant"]
+ d=p["decision"];assert not d["current_grant_closes_fixed_structure_packet"] and not d["dimension_threshold_alone_proves_future_gauge_nonexistence"] and not d["global_sc_act_06_proved_or_refuted"] and "UNCHANGED" in p["source_and_ledger_effect"]
+def main()->int:
+ ap=argparse.ArgumentParser();ap.add_argument("--write",action="store_true");a=ap.parse_args();p=build();validate(p);s=json.dumps(p,indent=2,sort_keys=True)+"\n";OUTPUT.write_text(s) if a.write else print(s,end="");return 0
+if __name__=="__main__":raise SystemExit(main())

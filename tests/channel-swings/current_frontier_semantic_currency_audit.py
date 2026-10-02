@@ -347,6 +347,18 @@ def load_inputs() -> dict:
         "k802": json.loads(
             (ROOT / "lab/process/k802-sc-act-06-certified-t0-family-closure.json").read_text()
         ),
+        "k803": json.loads(
+            (ROOT / "lab/process/k803-sc-act-06-nonzero-t-principal-invariance.json").read_text()
+        ),
+        "k804": json.loads(
+            (ROOT / "lab/process/k804-sc-act-06-fixed-structure-full-field-kernel.json").read_text()
+        ),
+        "k805": json.loads(
+            (ROOT / "lab/process/k805-sc-act-06-fixed-structure-symmetry-threshold.json").read_text()
+        ),
+        "k806": json.loads(
+            (ROOT / "lab/process/k806-sc-act-06-nonzero-t-alone-closure.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -539,9 +551,13 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     check(registry["latest_gu_formalization_result"] ==
-          "K799_K802_SC_ACT_06_CERTIFIED_T0_FAMILY_CLOSURE_CURRENT",
+          "K803_K806_SC_ACT_06_NONZERO_T_ALONE_CLOSURE_CURRENT",
           "latest GU result pointer moved")
     if isinstance(live, str):
+        check("K803--K806 close nonzero background `T` alone" in live and
+              "90124-class lower bound" in live and
+              "genuinely moving principal coefficients" in live,
+              "live K803--K806 nonzero-T-alone closure missing")
         check("K799--K802 close only the current released first-order packet" in live and
               "90124-class lower bound" in live and
               "nonzero-`T` or otherwise non-Levi-Civita" in live,
@@ -939,6 +955,18 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "K803--K806 close nonzero background `T` alone" in question
+        and "kernel remains 106512" in question
+        and "owned symmetry image spanning the kernel" in question,
+        "current question lost K803--K806 nonzero-T-alone closure",
+    )
+    check(
+        "K803--K806 close nonzero background T alone" in data["agenda"].get("latest_result_2026_10_02_k803_k806", "")
+        and "rank 122864 and kernel 106512" in data["agenda"].get("latest_result_2026_10_02_k803_k806", "")
+        and "SC-ACT-06 remains ASSERTS" in data["agenda"].get("latest_result_2026_10_02_k803_k806", ""),
+        "agenda K803--K806 result is not current",
+    )
     check(
         "K799--K802 close the curvature-only reopener" in question
         and "kernel 106512" in question
@@ -2852,6 +2880,37 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k802["decision"]["global_sc_act_06_proved_or_refuted"] and
           k802["protected_effects"]["sc_act_06"] == "ASSERTS_UNCHANGED",
           "K802 certified T0 family closure moved")
+
+    k803 = data["k803"]
+    check(k803["frechet_calculus"]["background_A_commutator_is_lower_order"] and
+          k803["frechet_calculus"]["hodge_u_is_zero_order"] and
+          not k803["frechet_calculus"]["background_T_enters_principal_connection_symbol"] and
+          not k803["frechet_calculus"]["nonzero_T_alone_changes_principal_response"] and
+          k803["orbit_consequence"]["connection_response_rank"] == 122864 and
+          k803["orbit_consequence"]["connection_kernel_dimension"] == 106512,
+          "K803 nonzero-T principal invariance moved")
+
+    k804 = data["k804"]
+    check(k804["extension_theorem"]["xi_principal_row_factors_through_D_Upsilon"] and
+          not k804["extension_theorem"]["xi_acts_nontrivially_on_connection_kernel"] and
+          k804["extension_theorem"]["embedded_kernel_dimension_in_full_field_symbol"] == 106512 and
+          not k804["decision"]["fixed_structure_released_full_field_packet_middle_exact_before_symmetry"],
+          "K804 fixed-structure full-field kernel moved")
+
+    k805 = data["k805"]
+    check(k805["threshold_theorem"]["minimum_owned_symmetry_rank_needed_if_no_new_row"] == 106512 and
+          k805["threshold_theorem"]["persistent_middle_classes_under_current_grant"] == 90124 and
+          not k805["threshold_theorem"]["candidate_internal_symmetry_is_source_owned_total_gauge"] and
+          not k805["decision"]["current_grant_closes_fixed_structure_packet"],
+          "K805 fixed-structure symmetry threshold moved")
+
+    k806 = data["k806"]
+    check(not k806["decision"]["nonzero_T_alone_reopens_certified_packet"] and
+          not k806["decision"]["all_nonzero_T_or_non_levi_civita_zero_locus_germs_closed"] and
+          not k806["decision"]["moving_principal_geometry_closed"] and
+          not k806["decision"]["global_sc_act_06_proved_or_refuted"] and
+          k806["protected_effects"]["sc_act_06"] == "ASSERTS_UNCHANGED",
+          "K806 nonzero-T-alone closure moved")
 
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]

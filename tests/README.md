@@ -4,6 +4,21 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K803--K806 fixed-structure nonzero-T closure
+
+- `channel-swings/k803_sc_act_06_nonzero_t_principal_invariance.py` proves
+  nonzero background T alone does not alter the fixed released principal
+  response; its `_probe.py` independently replays 32 hostile mutations.
+- `channel-swings/k804_sc_act_06_fixed_structure_full_field_kernel.py` embeds
+  the connection kernel in the full-field packet; its `_probe.py`
+  independently replays 30 hostile mutations.
+- `channel-swings/k805_sc_act_06_fixed_structure_symmetry_threshold.py` fixes
+  the exact owned-symmetry rank threshold; its `_probe.py` independently
+  replays 28 hostile mutations.
+- `channel-swings/k806_sc_act_06_nonzero_t_alone_closure.py` records the
+  scoped closure and surviving inputs; its `_probe.py` independently replays
+  30 hostile mutations.
+
 ## K799--K802 certified curved T=0 family closure
 
 - `channel-swings/k799_sc_act_06_curved_t0_direct_response_transport.py`

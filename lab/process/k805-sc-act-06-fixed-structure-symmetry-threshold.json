@@ -1,0 +1,54 @@
+{
+  "claim_ceiling": "Exact fixed-structure kernel-versus-current-grant bound only. Candidate q-lambda is not promoted to gauge and future background-dependent symmetry maps remain open.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 36,
+    "hostile_mutations_rejected": 28,
+    "probe": "tests/channel-swings/k805_sc_act_06_fixed_structure_symmetry_threshold_probe.py",
+    "producer": "tests/channel-swings/k805_sc_act_06_fixed_structure_symmetry_threshold.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "current_grant_closes_fixed_structure_packet": false,
+    "dimension_threshold_alone_proves_future_gauge_nonexistence": false,
+    "global_sc_act_06_proved_or_refuted": false,
+    "next_exact_input": "Authenticate an owned symmetry image spanning 106512 kernel directions, supply at least 90124 additional independent directions beyond the current grant, or add a genuinely independent principal row/change the principal response."
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "released diffeomorphism grant plus candidate internal q-lambda map, without promoting the candidate to gauge",
+    "carrier": "K804 embedded pure-connection kernel inside the released full-field tangent packet",
+    "grading": "principal-symbol middle term modulo owned gauge directions",
+    "pairing": "quotient by authenticated source-owned infinitesimal symmetry image",
+    "real_structure": "real dimensions in the pinned U(64,64) coefficient basis",
+    "target": "minimum symmetry rank needed to cover the fixed-structure kernel"
+  },
+  "ledger_no_change_reason": "This is a necessary dimension threshold, not a proof that future owned gauge data do not exist.",
+  "pinned_inputs": {
+    "k789": {
+      "path": "lab/process/k789-sc-act-06-maximal-symmetry-budget.json",
+      "sha256": "b73011120d0904f451a232042ab03b5089f20336df45371180cca4db6d999a7f"
+    },
+    "k804": {
+      "path": "lab/process/k804-sc-act-06-fixed-structure-full-field-kernel.json",
+      "sha256": "c2344e9861528c19704893f1481a66e966a6e82546a1d4a0827aeccf0af8b660"
+    }
+  },
+  "result_id": "K805-SC-ACT-06-FIXED-STRUCTURE-SYMMETRY-THRESHOLD",
+  "schema_version": "1.0",
+  "scope": "Dimension threshold for an owned symmetry image to cover the K804 fixed-structure embedded connection kernel.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "threshold_theorem": {
+    "additional_independent_owned_directions_needed_beyond_current_grant": 90124,
+    "candidate_internal_symmetry_is_source_owned_total_gauge": false,
+    "current_internal_q_lambda_candidate_rank": 16384,
+    "current_metric_diffeomorphism_rank": 4,
+    "embedded_kernel_dimension": 106512,
+    "future_nonzero_T_symmetry_rank_bounded_by_current_grant": false,
+    "maximal_current_grant_rank": 16388,
+    "minimum_owned_symmetry_rank_needed_if_no_new_row": 106512,
+    "persistent_middle_classes_under_current_grant": 90124
+  }
+}

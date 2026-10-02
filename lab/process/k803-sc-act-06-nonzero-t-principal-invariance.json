@@ -1,0 +1,73 @@
+{
+  "claim_ceiling": "Exact fixed-structure nonzero-T principal theorem only. It does not construct a nonzero-T zero-locus solution, cover moving epsilon/Shiab/Hodge data, classify all non-Levi-Civita germs, or decide SC-ACT-06 globally.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 44,
+    "hostile_mutations_rejected": 32,
+    "probe": "tests/channel-swings/k803_sc_act_06_nonzero_t_principal_invariance_probe.py",
+    "producer": "tests/channel-swings/k803_sc_act_06_nonzero_t_principal_invariance.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "all_nonzero_T_or_non_levi_civita_germs_classified": false,
+    "fixed_structure_nonzero_T_is_new_principal_germ": false,
+    "global_sc_act_06_proved_or_refuted": false,
+    "next_exact_input": "Change the moving metric/epsilon/Shiab/Hodge principal coefficients, authenticate an independent row, or construct additional owned symmetry; nonzero T by itself is not a principal reopener."
+  },
+  "direction": "observed_to_native",
+  "frechet_calculus": {
+    "background_A_commutator_is_lower_order": true,
+    "background_T_enters_principal_connection_symbol": false,
+    "connection_variation": "D_varpi Upsilon[u]=Shiab(d_A u)+star(u)",
+    "covariant_derivative_split": "d_A u=d u+[A,u]",
+    "hodge_u_is_zero_order": true,
+    "moving_metric_epsilon_shiab_hodge_covered": false,
+    "nonzero_T_alone_changes_principal_response": false,
+    "principal_symbol": "J_q(u)=K_LIFT(SHIAB(q_WEDGE_u))",
+    "released_equation": "Upsilon=Shiab(F_A)+star(T)"
+  },
+  "gu_typed_objects": {
+    "action_owner": "released source first-order equation Upsilon=Shiab(F_A)+star T",
+    "carrier": "full source-owned Omega1(Cl_14(C)) connection tangent, complex dimension 229376",
+    "grading": "connection variation u to first-order residual variation D_varpi Upsilon[u]",
+    "pairing": "released first-order residual equation; no I1B/I2B Hessian substitution",
+    "real_structure": "the pinned real U(64,64) coefficient basis used by K788",
+    "target": "whether nonzero background T alone changes the highest-order response"
+  },
+  "ledger_no_change_reason": "This is a fixed-principal-structure local symbol theorem, not a stationary germ construction, quotient, observable, prediction or confirmation.",
+  "orbit_consequence": {
+    "connection_kernel_dimension": 106512,
+    "connection_response_rank": 122864,
+    "domain_dimension": 229376,
+    "rank_and_kernel_transport_under_fixed_principal_structure": true,
+    "real_nonzero_covector_orbits": [
+      "native_positive",
+      "native_negative",
+      "native_null"
+    ]
+  },
+  "pinned_inputs": {
+    "euler_jet": {
+      "path": "explorations/conditional-build/selected-k77-complete-euler-jet-tangent-closure-2026-08-10.md",
+      "sha256": "a917b0b1813b2a1fb76eaee0f33acf32d5010400abf52b95585788378577e6dd"
+    },
+    "k788": {
+      "path": "lab/process/k788-sc-act-06-direct-response-orbit-classification.json",
+      "sha256": "5d1b2813b629f13ebaaec0a2ee86e442422ab0ed0eb985c4589f9664ead9e445"
+    },
+    "k791": {
+      "path": "lab/process/k791-sc-act-06-released-first-order-row-inventory.json",
+      "sha256": "90339b7eaea811bc00d87b514e45d99c36917a50ff8f71dd7a33ab4fc4233c97"
+    },
+    "k802": {
+      "path": "lab/process/k802-sc-act-06-certified-t0-family-closure.json",
+      "sha256": "2f87a4807f39f0456c1d629441531bc8f9ddf7679f1eb5c237615be58afad31f"
+    }
+  },
+  "result_id": "K803-SC-ACT-06-NONZERO-T-PRINCIPAL-INVARIANCE",
+  "schema_version": "1.0",
+  "scope": "Principal connection response of the released first-order Upsilon equation at arbitrary background T with metric, epsilon, Shiab, Hodge and real carrier fixed at principal grade.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

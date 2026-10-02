@@ -7,6 +7,19 @@ updated_at: "2026-10-02"
 
 # Next Steps For Contributors
 
+> **2026-10-02 K803--K806 FIXED-STRUCTURE NONZERO-T CLOSURE.** The released
+> formula `D_varpi Upsilon[u]=Shiab(d_A u)+Hodge(u)` makes the background
+> commutator and Hodge term lower order when metric, epsilon, Shiab, Hodge,
+> real carrier, and row structure are fixed. Nonzero `T` alone therefore
+> preserves the connection rank 122864 and kernel 106512. That kernel embeds
+> in the full-field packet, and the maximal current symmetry grant still
+> leaves 90124 classes. Next construct a source-typed zero-locus germ with
+> genuinely moving principal coefficients, authenticate an independent row,
+> or own enough symmetry to span the kernel. Native K500 remains separate and
+> needs new same-domain A plus complete B/boundary/tail data. Do not promote
+> this scoped result to a global nonzero-`T`, non-Levi-Civita, or SC-ACT-06
+> no-go.
+
 > **2026-10-02 K799--K802 CERTIFIED CURVED T=0 FAMILY CLOSURE.** K799 composes
 > K127's local Ricci-flat arbitrary-Weyl zero-response family with K723/K747:
 > coherent normal-frame transport preserves the direct `D Upsilon` rank

@@ -1,0 +1,62 @@
+{
+  "claim_ceiling": "Exact fixed-principal-structure zero-fermion full-field embedding only. Moving coefficients, nonzero fermions, new rows, new owned symmetries and global domains remain open.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 40,
+    "hostile_mutations_rejected": 30,
+    "probe": "tests/channel-swings/k804_sc_act_06_fixed_structure_full_field_kernel_probe.py",
+    "producer": "tests/channel-swings/k804_sc_act_06_fixed_structure_full_field_kernel.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "all_nonzero_T_full_field_packets_classified": false,
+    "fixed_structure_released_full_field_packet_middle_exact_before_symmetry": false,
+    "global_sc_act_06_proved_or_refuted": false,
+    "next_exact_input": "Compare the embedded 106512-dimensional kernel with owned symmetry, or change principal coefficients/rows; extra field columns and Xi do not remove it."
+  },
+  "direction": "observed_to_native",
+  "extension_theorem": {
+    "background_residual_zero_required": true,
+    "distinct_i2b_row_imported": false,
+    "embedded_kernel_dimension_in_full_field_symbol": 106512,
+    "fixed_structure_connection_kernel_dimension": 106512,
+    "metric_epsilon_columns_can_delete_pure_connection_kernel": false,
+    "moving_principal_coefficients_covered": false,
+    "xi_acts_nontrivially_on_connection_kernel": false,
+    "xi_principal_row_factors_through_D_Upsilon": true,
+    "zero_fermion_diagonal_can_delete_pure_bosonic_kernel": false
+  },
+  "gu_typed_objects": {
+    "action_owner": "released Upsilon row together with the K719 full-field block decomposition",
+    "carrier": "released full bosonic-plus-fermionic tangent packet restricted to the pure connection subspace",
+    "grading": "pure connection tangent embedded in the full field tangent",
+    "pairing": "principal field-equation symbol on the zero-fermion diagonal",
+    "real_structure": "the pinned real U(64,64) connection basis inherited from K803",
+    "target": "whether extra field columns or Xi remove the K803 connection kernel"
+  },
+  "ledger_no_change_reason": "This is an algebraic principal-symbol embedding theorem, not a full stationary background, quotient, domain or physical result.",
+  "pinned_inputs": {
+    "k719": {
+      "path": "lab/process/k719-sc-act-06-zero-fermion-full-symbol-reduction.json",
+      "sha256": "f5a586ce7071acc0ffec59b66232ed25ab1c1de5f17c0e9d87e392d126f09cd9"
+    },
+    "k792": {
+      "path": "lab/process/k792-sc-act-06-redundant-prolongation-kernel-theorem.json",
+      "sha256": "0f4c88f9c89ec2b7813332d608c64d0f54807058bdee29707f6bfc3c1a023466"
+    },
+    "k793": {
+      "path": "lab/process/k793-sc-act-06-full-field-kernel-persistence.json",
+      "sha256": "b3f88b05b50514e55fba134ee870e47e84c1d784c871a5c37bac36d726a03b60"
+    },
+    "k803": {
+      "path": "lab/process/k803-sc-act-06-nonzero-t-principal-invariance.json",
+      "sha256": "0975cbfb2dd7ee2f4634198b29bdae51fc6a425879afd69ed4c890bba76f1d62"
+    }
+  },
+  "result_id": "K804-SC-ACT-06-FIXED-STRUCTURE-FULL-FIELD-KERNEL",
+  "schema_version": "1.0",
+  "scope": "Embedded connection-kernel theorem for any zero-fermion Upsilon=0 germ whose released first-order principal connection structure is the fixed K803 structure.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

@@ -7,6 +7,36 @@ updated_at: "2026-10-02"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K803--K806 fixed-structure nonzero-T closure (2026-10-02)
+
+K803 uses the released Frechet formula
+`D_varpi Upsilon[u]=Shiab(d_A u)+Hodge(u)`. With metric, epsilon, Shiab,
+Hodge, real carrier, and row structure fixed, the background commutator and
+Hodge term are lower order. Nonzero background `T` alone therefore does not
+change the principal connection map: its rank is 122864 and its kernel has
+dimension 106512 on each real nonzero covector orbit.
+
+K804 embeds that kernel in the released zero-fermion full-field symbol. K805
+shows that the maximal current internal-plus-diffeomorphism grant leaves
+90124 middle classes and that, absent a new row, an owned symmetry image needs
+rank 106512 to cover the kernel. K806 closes only the nonzero-`T`-alone route.
+Moving metric/epsilon/Shiab/Hodge coefficients, an authenticated independent
+row, sufficient owned symmetry, and genuinely new native K500 data remain
+open. This is not a global nonzero-`T`, non-Levi-Civita, or SC-ACT-06 no-go.
+
+Run:
+
+```bash
+python3 tests/channel-swings/k803_sc_act_06_nonzero_t_principal_invariance.py
+python3 tests/channel-swings/k803_sc_act_06_nonzero_t_principal_invariance_probe.py
+python3 tests/channel-swings/k804_sc_act_06_fixed_structure_full_field_kernel.py
+python3 tests/channel-swings/k804_sc_act_06_fixed_structure_full_field_kernel_probe.py
+python3 tests/channel-swings/k805_sc_act_06_fixed_structure_symmetry_threshold.py
+python3 tests/channel-swings/k805_sc_act_06_fixed_structure_symmetry_threshold_probe.py
+python3 tests/channel-swings/k806_sc_act_06_nonzero_t_alone_closure.py
+python3 tests/channel-swings/k806_sc_act_06_nonzero_t_alone_closure_probe.py
+```
+
 ## K799--K802 certified curved T=0 family closure (2026-10-02)
 
 K799 composes the certified K127 local Ricci-flat arbitrary-Weyl `T=0`
