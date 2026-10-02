@@ -4,6 +4,18 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K827--K830 integrated relative-family admission
+
+- `channel-swings/k827_sc_act_06_regular_parameter_jet_invariance.py` proves
+  regular-parameter invariance of the first nonzero response-jet order.
+- `channel-swings/k828_sc_act_06_differentiable_domain_transport.py` separates
+  graph-differentiable transport from bounded domain bijection.
+- `channel-swings/k829_sc_act_06_schur_complex_compatibility.py` transports
+  gauge and redundancy maps through the exact Schur reduction.
+- `channel-swings/k830_sc_act_06_relative_family_admission_compiler.py`
+  composes eighteen required rows with a synthetic consistency control.
+- The paired `_probe.py` files reject 48/48 hostile mutations.
+
 ## K823--K826 action, mixed-symbol, domain and ownership gates
 
 - `channel-swings/k823_sc_act_06_stationarity_transport_gate.py` separates

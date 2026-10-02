@@ -7,6 +7,45 @@ updated_at: "2026-10-02"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K827--K830 integrated relative-family admission (2026-10-02)
+
+K827 proves that if `phi(0)=0` and `phi'(0)!=0`, composition with `phi`
+preserves the first nonzero jet order and rank; the leading coefficient scales
+by `phi'(0)^k`. The singular control `t=s^2` raises the order of `f(t)=t` from
+one to two and therefore cannot be credited as a zero tangent in the same
+normalization class. K828 separates domain transport from differentiable
+operator transport. A jump by `I` to `-I` maps the same domain with uniform
+bounds but has no derivative, while the exact rotation control satisfies the
+conjugation chain rule and gives `[K,A0]=[[0,-1],[-1,0]]`.
+
+K829 proves the full complex version of K824. For
+`M=[[B,C],[D,F]]`, the lift `L(x)=(x,-F^-1 D x)` and projection
+`P(y,z)=y-C F^-1 z` satisfy `PML=B-CF^-1D`. Full gauge and redundancy maps
+descend only with their fermionic components fixed by the same blocks. The
+exact control has one-dimensional full and reduced kernels equal to the gauge
+image. K830 then compiles eighteen K815--K829 rows conjunctively. A synthetic
+control proves joint consistency, and one missing row fails closed. The
+current GU packet has no single source/action-owned family carrying those
+rows, so it is not admitted.
+
+Run the producers and hostile probes:
+
+```bash
+python3 tests/channel-swings/k827_sc_act_06_regular_parameter_jet_invariance.py --check
+python3 tests/channel-swings/k827_sc_act_06_regular_parameter_jet_invariance_probe.py
+python3 tests/channel-swings/k828_sc_act_06_differentiable_domain_transport.py --check
+python3 tests/channel-swings/k828_sc_act_06_differentiable_domain_transport_probe.py
+python3 tests/channel-swings/k829_sc_act_06_schur_complex_compatibility.py --check
+python3 tests/channel-swings/k829_sc_act_06_schur_complex_compatibility_probe.py
+python3 tests/channel-swings/k830_sc_act_06_relative_family_admission_compiler.py --check
+python3 tests/channel-swings/k830_sc_act_06_relative_family_admission_compiler_probe.py
+```
+
+The producers declare 114 controls and the probes reject 48 hostile
+mutations. The synthetic candidate is a consistency control, not a source
+family or physical model. SC-ACT-06 remains `ASSERTS` with no source, ledger,
+canon, paper, public, prediction, confirmation, or physical-verdict effect.
+
 ## K823--K826 action, mixed-symbol, domain and ownership gates (2026-10-02)
 
 K823 proves that zero-locus transport and action-stationarity transport are

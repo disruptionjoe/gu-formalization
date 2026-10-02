@@ -7,6 +7,19 @@ updated_at: "2026-10-02"
 
 # Next Steps For Contributors
 
+> **2026-10-02 K827--K830 INTEGRATED RELATIVE-FAMILY ADMISSION.** K827 proves
+> that regular local parameter changes preserve the first nonzero response-jet
+> order and rank, while singular changes such as `t=s^2` belong to a different
+> normalization class. K828 requires graph-differentiable domain transports,
+> not only domain bijections and uniform bounds, before a conjugated operator
+> derivative is defined. K829 transports full gauge and redundancy maps
+> through the invertible-fermion Schur reduction. K830 compiles eighteen rows
+> conjunctively: a synthetic finite control passes, any missing row fails, and
+> the current GU packet is not admitted. Next supply one source/action-owned
+> normalized `Upsilon=0` two-jet carrying all eighteen rows on one Euclidean
+> carrier and graph domain, then test middle exactness at every nonzero
+> covector. The synthetic control is not GU evidence.
+
 > **2026-10-02 K823--K826 ACTION, MIXED-SYMBOL, DOMAIN AND OWNERSHIP GATES.**
 > K823 separates a transported `Upsilon=0` branch from an action-stationary
 > branch and requires the independently owned Euler first and second jets

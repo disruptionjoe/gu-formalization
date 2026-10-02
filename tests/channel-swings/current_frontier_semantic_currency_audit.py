@@ -419,6 +419,18 @@ def load_inputs() -> dict:
         "k826": json.loads(
             (ROOT / "lab/process/k826-sc-act-06-relative-coefficient-ownership-gate.json").read_text()
         ),
+        "k827": json.loads(
+            (ROOT / "lab/process/k827-sc-act-06-regular-parameter-jet-invariance.json").read_text()
+        ),
+        "k828": json.loads(
+            (ROOT / "lab/process/k828-sc-act-06-differentiable-domain-transport.json").read_text()
+        ),
+        "k829": json.loads(
+            (ROOT / "lab/process/k829-sc-act-06-schur-complex-compatibility.json").read_text()
+        ),
+        "k830": json.loads(
+            (ROOT / "lab/process/k830-sc-act-06-relative-family-admission-compiler.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -611,9 +623,13 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     check(registry["latest_gu_formalization_result"] ==
-          "K823_K826_SC_ACT_06_ACTION_DOMAIN_OWNERSHIP_CURRENT",
+          "K827_K830_SC_ACT_06_INTEGRATED_RELATIVE_ADMISSION_CURRENT",
           "latest GU result pointer moved")
     if isinstance(live, str):
+        check("K827--K830 require one source/action-owned normalized relative family" in live and
+              "all eighteen admission rows" in live and
+              "graph differentiability" in live,
+              "live K827--K830 integrated relative-family gate missing")
         check("K823--K826 require a future relative candidate" in live and
               "stationary action jet" in live and
               "source/action-owned normalized family" in live,
@@ -883,6 +899,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K827--K830 compose the complete relative-family admission interface" in summary and
+          "eighteen required rows" in summary and
+          "current GU packet" in summary,
+          "current K827--K830 result lost")
     check("K823--K826 complete four remaining typed admission seams" in summary and
           "B-C F^-1 D" in summary and
           "pointwise closed or self-adjoint operators need not share a domain" in summary and
@@ -1040,6 +1060,18 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "K827--K830 make the future relative-family decision conjunctive" in question
+        and "graph-differentiable transports" in question
+        and "eighteen-row compiler" in question,
+        "current question lost K827--K830 integrated admission gates",
+    )
+    check(
+        "K827--K830 compose the relative-family admission interface" in data["agenda"].get("latest_result_2026_10_02_k827_k830", "")
+        and "graph-differentiable domain transport" in data["agenda"].get("latest_result_2026_10_02_k827_k830", "")
+        and "SC-ACT-06 remains ASSERTS" in data["agenda"].get("latest_result_2026_10_02_k827_k830", ""),
+        "agenda K827--K830 result is not current",
+    )
     check(
         "K823--K826 add the action and analytic typing" in question
         and "two-sided mixed Schur complement" in question
@@ -3220,6 +3252,41 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k826["decision"]["actual_source_relative_family_constructed"],
           "K826 relative-coefficient ownership gate moved")
 
+    k827 = data["k827"]
+    check(k827["jet_invariance_theorem"]["vanishing_order_preserved"] and
+          k827["jet_invariance_theorem"]["first_order_rank_preserved"] and
+          not k827["jet_invariance_theorem"]["singular_change_is_same_normalization_class"] and
+          k827["exact_controls"]["regular_composite_vanishing_order"] == 1 and
+          k827["exact_controls"]["singular_composite_vanishing_order"] == 2 and
+          not k827["decision"]["actual_source_normalization_constructed"],
+          "K827 regular parameter-jet invariance moved")
+
+    k828 = data["k828"]
+    check(not k828["domain_transport_theorem"]["domain_bijection_alone_defines_derivative"] and
+          k828["domain_transport_theorem"]["jump_transport_has_uniform_bounds"] and
+          not k828["domain_transport_theorem"]["jump_transport_is_differentiable"] and
+          k828["exact_controls"]["conjugated_derivative_matches_commutator"] and
+          not k828["decision"]["actual_gu_domain_transport_constructed"],
+          "K828 differentiable domain transport moved")
+
+    k829 = data["k829"]
+    check(k829["schur_complex_theorem"]["factorization"] == "P M L=S" and
+          not k829["schur_complex_theorem"]["kernel_equivalence_alone_authenticates_reduced_complex"] and
+          k829["exact_controls"]["M_G"] == [0, 0, 0] and
+          k829["exact_controls"]["R_M"] == [0, 0, 0] and
+          k829["exact_controls"]["gauge_image_equals_reduced_kernel"] and
+          not k829["decision"]["actual_gu_mixed_complex_constructed"],
+          "K829 Schur complex compatibility moved")
+
+    k830 = data["k830"]
+    check(k830["compiler"]["row_count"] == 18 and
+          not k830["compiler"]["partial_pass_implies_ellipticity"] and
+          k830["exact_controls"]["synthetic_candidate_admitted"] and
+          not k830["exact_controls"]["single_missing_candidate_admitted"] and
+          k830["exact_controls"]["current_gu_missing_row_count"] == 18 and
+          not k830["decision"]["actual_gu_candidate_admitted"],
+          "K830 relative-family admission compiler moved")
+
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]
     k693_n = k693["native_interface_status"]
@@ -4374,6 +4441,10 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k824-one-sided-repair", lambda d: d["k824"]["mixed_symbol_schur_theorem"].__setitem__("one_sided_mixed_block_repairs_bosonic_kernel", True))
     add("k825-pointwise-domain", lambda d: d["k825"]["common_domain_theorem"].__setitem__("pointwise_closed_or_self_adjoint_implies_common_domain", True))
     add("k826-endpoint-ownership", lambda d: d["k826"]["ownership_theorem"].__setitem__("owned_endpoints_determine_relative_coefficient", True))
+    add("k827-singular-same-class", lambda d: d["k827"]["jet_invariance_theorem"].__setitem__("singular_change_is_same_normalization_class", True))
+    add("k828-domain-bijection-suffices", lambda d: d["k828"]["domain_transport_theorem"].__setitem__("domain_bijection_alone_defines_derivative", True))
+    add("k829-kernel-authenticates-complex", lambda d: d["k829"]["schur_complex_theorem"].__setitem__("kernel_equivalence_alone_authenticates_reduced_complex", True))
+    add("k830-partial-pass", lambda d: d["k830"]["compiler"].__setitem__("partial_pass_implies_ellipticity", True))
 
     add("k696-form", lambda d: d["k696"]["integration_theorem"].__setitem__("graph_equivalence_without_form_identity_sufficient", True))
     add("k696-reduction", lambda d: d["k696"]["integration_theorem"].__setitem__("reduction_of_column_labels_alone_reduces_native_R", True))

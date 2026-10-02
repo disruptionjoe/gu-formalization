@@ -1,0 +1,47 @@
+{
+  "claim_ceiling": "Executable conjunctive admission interface with synthetic consistency control only; no GU family, ellipticity, source, ledger, canon, or physical verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "compiler": {
+    "logic": "all required rows must be present and true on one typed family, carrier, parameter, and analytic domain",
+    "necessary_packet_is_sufficient_without_middle_exactness": false,
+    "partial_pass_implies_ellipticity": false,
+    "required_rows": ["source_action_owned_family", "normalized_regular_parameter", "typed_relative_two_jet", "zero_locus_first_jet", "zero_locus_second_jet", "euler_first_jet", "euler_second_jet", "differentiated_gauge_identity", "differentiated_redundancy_identity", "authenticated_gauge_slice", "complete_boson_fermion_mixed_symbols", "invertible_fermion_block_or_direct_full_analysis", "schur_gauge_compatibility", "schur_redundancy_compatibility", "common_domain_or_transport", "graph_differentiable_transport", "uniform_all_covector_gap", "uniform_parameter_remainder"],
+    "row_count": 18
+  },
+  "controls": {"controls_passed": 34, "hostile_mutations_rejected": 12, "probe": "tests/channel-swings/k830_sc_act_06_relative_family_admission_compiler_probe.py", "producer": "tests/channel-swings/k830_sc_act_06_relative_family_admission_compiler.py"},
+  "created": "2026-10-02",
+  "decision": {"actual_gu_candidate_admitted": false, "actual_source_relative_family_constructed": false, "gate_system_jointly_consistent": true, "global_sc_act_06_proved_or_refuted": false, "next_exact_input": "One source/action-owned normalized Upsilon=0 two-jet carrying every required row on the same Euclidean carrier and graph domain; only then test middle exactness at every nonzero covector."},
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "current_gu_admitted": false,
+    "current_gu_candidate": {"authenticated_gauge_slice": false, "common_domain_or_transport": false, "complete_boson_fermion_mixed_symbols": false, "differentiated_gauge_identity": false, "differentiated_redundancy_identity": false, "euler_first_jet": false, "euler_second_jet": false, "graph_differentiable_transport": false, "invertible_fermion_block_or_direct_full_analysis": false, "normalized_regular_parameter": false, "schur_gauge_compatibility": false, "schur_redundancy_compatibility": false, "source_action_owned_family": false, "typed_relative_two_jet": false, "uniform_all_covector_gap": false, "uniform_parameter_remainder": false, "zero_locus_first_jet": false, "zero_locus_second_jet": false},
+    "current_gu_missing_row_count": 18,
+    "single_missing_candidate_admitted": false,
+    "single_missing_row": "graph_differentiable_transport",
+    "synthetic_candidate_admitted": true,
+    "synthetic_consistency_candidate": {"authenticated_gauge_slice": true, "common_domain_or_transport": true, "complete_boson_fermion_mixed_symbols": true, "differentiated_gauge_identity": true, "differentiated_redundancy_identity": true, "euler_first_jet": true, "euler_second_jet": true, "graph_differentiable_transport": true, "invertible_fermion_block_or_direct_full_analysis": true, "normalized_regular_parameter": true, "schur_gauge_compatibility": true, "schur_redundancy_compatibility": true, "source_action_owned_family": true, "typed_relative_two_jet": true, "uniform_all_covector_gap": true, "uniform_parameter_remainder": true, "zero_locus_first_jet": true, "zero_locus_second_jet": true}
+  },
+  "pinned_inputs": {
+    "k815": {"path": "lab/process/k815-sc-act-06-zero-locus-tangent-compatibility.json", "sha256": "897f1feed21163ec2031203c614911bceb4b4be006cd020dd1ec23a93f8d3734"},
+    "k816": {"path": "lab/process/k816-sc-act-06-response-symmetry-overlap.json", "sha256": "57f946e5da32bf196c4293ef1d20450d7c23e075071e0cb904e9c5789e1eddea"},
+    "k817": {"path": "lab/process/k817-sc-act-06-finite-parameter-schur-gate.json", "sha256": "4b00381e01e8da380e692da1b694d26c777e8450e17a3a39a1a33def970efdd2"},
+    "k818": {"path": "lab/process/k818-sc-act-06-uniform-covector-gate.json", "sha256": "88b7ab39ba3cab9f00358b945fbd168d38d301dd41a9c1c76f3f6a9b64fc62e3"},
+    "k819": {"path": "lab/process/k819-sc-act-06-second-order-zero-locus-obstruction.json", "sha256": "bfa73e53cd1cd3fe587ea4d9f7e7d6a437e244fafd904a800db835bfb0d9f667"},
+    "k820": {"path": "lab/process/k820-sc-act-06-differentiated-complex-compatibility.json", "sha256": "31b860114fdb9a78501c66a56b7e28a8fcd973d6eff95527a158a1efe135c6e9"},
+    "k821": {"path": "lab/process/k821-sc-act-06-quotient-slice-equivalence.json", "sha256": "39151c78af0792273fe66f76dba72b2250dc9b0e1e7ce5913828f7aa18f8c722"},
+    "k822": {"path": "lab/process/k822-sc-act-06-joint-parameter-covector-uniformity.json", "sha256": "697c98e3750f5042eda62a0a324fe48e5c5c5d288881330f286c110827dfd118"},
+    "k823": {"path": "lab/process/k823-sc-act-06-stationarity-transport-gate.json", "sha256": "9092ef751149486a8b3492aea421bcf696093ce4b691ffd4273736f1ebf8225f"},
+    "k824": {"path": "lab/process/k824-sc-act-06-mixed-symbol-schur-gate.json", "sha256": "7005f9bcd747bd27fd153e96786dc0dfc8ff56ce43f2d26183649e57dd8e1737"},
+    "k825": {"path": "lab/process/k825-sc-act-06-common-analytic-domain-gate.json", "sha256": "b49fad5ee0759b116951ce911c3005f9260b6a2a9a41c2bc992bc615d7f709f3"},
+    "k826": {"path": "lab/process/k826-sc-act-06-relative-coefficient-ownership-gate.json", "sha256": "cdf81bab2f0e62a0ae5991ca2ecca9d319db794d9223a205bef874cf528ba3c1"},
+    "k827": {"path": "lab/process/k827-sc-act-06-regular-parameter-jet-invariance.json", "sha256": "cba51c6fa3e6cd55fa66ae70071573c6342362298a4397005007a18f75f4190a"},
+    "k828": {"path": "lab/process/k828-sc-act-06-differentiable-domain-transport.json", "sha256": "d1017b41edb3b9ce36c68b8c4dd5474971defac9426d0bcc1f22ee6be9f4cd71"},
+    "k829": {"path": "lab/process/k829-sc-act-06-schur-complex-compatibility.json", "sha256": "78dcfb5aa434bb2a4a2050c7d7774a48b155e10a8ed71f34a9aaba79038b398c"}
+  },
+  "result_id": "K830-SC-ACT-06-RELATIVE-FAMILY-ADMISSION-COMPILER",
+  "schema_version": "1.0",
+  "scope": "Conjunctive fail-closed interface for admitting one source/action-owned relative Euclidean deformation family through K815--K829.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

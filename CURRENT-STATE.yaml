@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 9c744d6b13e3
+revision_basis: 32af9187d974
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,18 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K827--K830 compose the complete relative-family admission interface left
+    implicit after K815--K826. K827 proves that regular local parameter
+    changes preserve the first nonzero response-jet order and rank, while a
+    singular change such as `t=s^2` can raise the order and is not the same
+    normalization class. K828 strengthens common-domain custody to graph-
+    differentiable transport before `Delta` is defined. K829 transports the
+    gauge and redundancy maps through the actual Schur reduction, not merely
+    its kernel. K830 compiles eighteen required rows conjunctively: an exact
+    synthetic control passes, one missing row fails, and the current GU packet
+    is not admitted because no single source/action-owned family supplies the
+    rows. SC-ACT-06 remains `ASSERTS`; no protected conclusion moves.
+
     K823--K826 complete four remaining typed admission seams for a future
     relative SC-ACT-06 family. K823 separates transport of the zero locus from
     transport of action stationarity: the same branch can solve
@@ -12513,6 +12525,18 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K827--K830 make the future relative-family decision conjunctive. Regular
+  reparameterizations preserve the first nonzero jet order but not its
+  absolute scale; singular changes do not belong to the same normalization
+  class. A moving-domain symbol needs graph-differentiable transports before
+  its derivative is defined. If a fermion block is eliminated, the full gauge
+  and redundancy maps must descend through the same Schur factorization. The
+  eighteen-row compiler passes a synthetic consistency control and rejects the
+  current incomplete GU packet. Next supply one source/action-owned normalized
+  `Upsilon=0` two-jet carrying all eighteen rows on the same Euclidean carrier
+  and graph domain, then test middle exactness at every nonzero covector.
+  SC-ACT-06 remains `ASSERTS`.
+
   K823--K826 add the action and analytic typing still missing after K815--K822.
   A proposed relative zero-locus family must independently transport Euler
   stationarity before any action Hessian is credited; its full fermion symbol
@@ -13603,6 +13627,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K827--K830 require one source/action-owned normalized relative family to
+  satisfy all eighteen admission rows on a single Euclidean carrier and graph
+  domain. Regular local parameter changes preserve the first nonzero jet order
+  and rank but rescale its coefficient; singular changes cannot manufacture a
+  zero tangent in the same normalization class. Domain bijection and uniform
+  bounds alone do not define `Delta` without graph differentiability. Schur
+  kernel equivalence alone does not authenticate the reduced complex unless
+  the full gauge and redundancy maps descend. The synthetic control proves the
+  gate system is consistent, not that GU supplies a candidate. Current custody
+  supplies no complete family, so SC-ACT-06 remains `ASSERTS` and no protected
+  conclusion moves.
+
   K823--K826 require a future relative candidate to carry an independently
   owned stationary action jet, both action-owned mixed principal blocks and
   fermion diagonal, one common dense analytic domain or explicit uniformly
