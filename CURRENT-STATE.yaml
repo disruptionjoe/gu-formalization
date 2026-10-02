@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: b48dadbc6496
+revision_basis: 05f1c53f3d6e
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -12335,6 +12335,21 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  On the SC-ACT-06 route, K775--K778 split the source-owned residual-square
+  action by residual stratum. For `I2B=(1/2)<Upsilon,Q Upsilon>`,
+  `dI2B=J^*Q Upsilon` and
+  `d2I2B=J^*QJ+(D2Upsilon)^*(Q Upsilon)`. At `Upsilon=0`, I2B cannot cancel a
+  nonzero I1B Euler covector for any fixed pairing or finite weight, and its
+  Hessian remains same-response. Thus K726's homogeneous nonzero-`T` Phi1
+  branch stays nonstationary under every such I2B reweighting. A genuinely
+  nonzero residual can activate the second-derivative term outside the old
+  response image, but does not by itself prove stationarity or rank. Build one
+  source-typed `Upsilon != 0` stationary two-jet with `Q Upsilon`, `DUpsilon`,
+  `D2Upsilon`, complete gauge/redundancy maps and a Euclidean reduction; or a
+  different I1B-stationary zero-residual germ with a new exact complex. Do not
+  retry K726 with another residual pairing or weight. SC-ACT-06 remains
+  `ASSERTS`.
+
   On the SC-ACT-06 route, K771--K774 close the unit-weight identity-Cartan
   positive curvature-square comparator after exact composition with selected
   I1B, the owned metric gauge/redundancy maps and the displayed fermion block.
@@ -13265,6 +13280,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K775--K778 close every fixed-pairing or finite-weight I2B rescue of K726's
+  homogeneous raw-residual-zero Phi1 branch. On the entire `Upsilon=0`
+  stratum, I2B has zero first variation and Hessian `J^*QJ`; it cannot cancel
+  a nonzero I1B Euler covector or escape the old response-adjoint image. The
+  next valid I2B input is one source-typed `Upsilon != 0` stationary two-jet
+  with the actual pairing, `Q Upsilon`, complete `DUpsilon` and `D2Upsilon`,
+  gauge/redundancy maps, a common Euclidean real carrier and all-covector
+  exactness. A zero-residual alternative must independently be I1B-stationary
+  and still pass the same-response exact-complex test. Nonzero residual alone
+  is not stationarity, rank, gauge or ellipticity. Do not retry K726 by changing
+  only the residual pairing or finite weight. SC-ACT-06 remains `ASSERTS`.
+
   K771--K774 remove the fixed unit-weight identity-Cartan curvature-square
   comparator from the live SC-ACT-06 repair space: exact matrix sums leave
   8193/8196 full-symbol middle classes. The 8193-dimensional distortion

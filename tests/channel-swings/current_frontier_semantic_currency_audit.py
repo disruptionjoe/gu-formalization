@@ -263,6 +263,18 @@ def load_inputs() -> dict:
         "k774": json.loads(
             (ROOT / "lab/process/k774-sc-act-06-positive-curvature-successor-gate.json").read_text()
         ),
+        "k775": json.loads(
+            (ROOT / "lab/process/k775-sc-act-06-residual-zero-variation-theorem.json").read_text()
+        ),
+        "k776": json.loads(
+            (ROOT / "lab/process/k776-sc-act-06-homogeneous-residual-square-stationarity-closure.json").read_text()
+        ),
+        "k777": json.loads(
+            (ROOT / "lab/process/k777-sc-act-06-nonzero-residual-hessian-split.json").read_text()
+        ),
+        "k778": json.loads(
+            (ROOT / "lab/process/k778-sc-act-06-residual-stratum-successor-gate.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -455,9 +467,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     check(registry["latest_gu_formalization_result"] ==
-          "K771_K774_SC_ACT_06_POSITIVE_CURVATURE_COMPOSITION_BOUNDARY_CURRENT",
+          "K775_K778_SC_ACT_06_RESIDUAL_STRATUM_GATE_CURRENT",
           "latest GU result pointer moved")
     if isinstance(live, str):
+        check("K775--K778 close every fixed-pairing or finite-weight I2B rescue" in live and
+              "Upsilon != 0" in live and "Nonzero residual alone" in live,
+              "live K775--K778 residual-stratum gate missing")
         check("K771--K774 remove the fixed unit-weight identity-Cartan" in live and
               "8193/8196" in live and "candidate-kernel containment" in live,
               "live K771--K774 positive-curvature composition boundary missing")
@@ -816,6 +831,17 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "K775--K778 split the source-owned residual-square" in question
+        and "D2Upsilon" in question and "Do not retry K726" in question,
+        "current question lost K775--K778 residual-stratum gate",
+    )
+    check(
+        "dI2B=J^*Q Upsilon" in data["agenda"].get("latest_result_2026_10_01_k775_k778", "")
+        and "metric Euler rank remains one" in data["agenda"].get("latest_result_2026_10_01_k775_k778", "")
+        and "nonzero residual alone" in data["agenda"].get("latest_result_2026_10_01_k775_k778", ""),
+        "agenda K775--K778 result is not current",
+    )
     check(
         "K771--K774 close the unit-weight identity-Cartan" in question
         and "8193/8196" in question and "additional metric-coupled classes" in question,
@@ -2442,6 +2468,37 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k774["decision"]["global_SC_ACT_06_refuted"],
           "K774 positive-curvature successor gate moved")
 
+    k775 = data["k775"]
+    check(k775["variation_theorem"]["residual_zero_first_variation_zero"] and
+          k775["variation_theorem"]["residual_zero_hessian"] == "J_x^* Q J_x" and
+          k775["variation_theorem"]["residual_zero_hessian_image_contained_in_response_adjoint_image"] and
+          not k775["variation_theorem"]["residual_zero_stationarity_can_cancel_first_action_euler"],
+          "K775 residual-zero variation theorem moved")
+
+    k776 = data["k776"]
+    check(k776["exact_composition"]["combined_metric_euler_rank_for_nonzero_kappa"] == 1 and
+          not k776["exact_composition"]["nonzero_kappa_branch_stationary"] and
+          k776["decision"]["current_homogeneous_branch_closed_for_all_fixed_residual_pairings_and_finite_weights"] and
+          not k776["decision"]["global_nonzero_T_stationarity_closed"],
+          "K776 homogeneous residual-square closure moved")
+
+    k777 = data["k777"]
+    check(k777["hessian_split"]["gauss_newton_term"] == "J^* Q J" and
+          k777["hessian_split"]["residual_zero_kills_residual_curvature_term"] and
+          k777["hessian_split"]["nonzero_residual_makes_residual_curvature_term_potentially_live"] and
+          not k777["hessian_split"]["nonzero_residual_alone_proves_new_rank"] and
+          not k777["decision"]["route_is_currently_constructed"],
+          "K777 nonzero-residual Hessian split moved")
+
+    k778 = data["k778"]
+    check(len(k778["residual_strata"]) == 3 and
+          not k778["residual_strata"][0]["stationary_for_I1B_plus_I2B"] and
+          k778["residual_strata"][1]["stationary_for_I1B_plus_I2B"] and
+          k778["residual_strata"][2]["stationary_for_I1B_plus_I2B"] is None and
+          k778["decision"]["SC_ACT_06_status"] == "ASSERTS" and
+          not k778["decision"]["global_nonzero_T_no_go_proved"],
+          "K778 residual-stratum successor gate moved")
+
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]
     k693_n = k693["native_interface_status"]
@@ -3751,6 +3808,14 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k773-elliptic", lambda d: d["k773"]["decision"].__setitem__("displayed_full_symbol_comparator_is_elliptic", True))
     add("k774-retry", lambda d: d["k774"]["decision"].__setitem__("do_not_retry_fixed_identity_cartan_unit_weight_comparator", False))
     add("k774-global", lambda d: d["k774"]["decision"].__setitem__("global_SC_ACT_06_refuted", True))
+    add("k775-zero", lambda d: d["k775"]["variation_theorem"].__setitem__("residual_zero_first_variation_zero", False))
+    add("k775-cancel", lambda d: d["k775"]["variation_theorem"].__setitem__("residual_zero_stationarity_can_cancel_first_action_euler", True))
+    add("k776-rank", lambda d: d["k776"]["exact_composition"].__setitem__("combined_metric_euler_rank_for_nonzero_kappa", 0))
+    add("k776-global", lambda d: d["k776"]["decision"].__setitem__("global_nonzero_T_stationarity_closed", True))
+    add("k777-term", lambda d: d["k777"]["hessian_split"].__setitem__("nonzero_residual_makes_residual_curvature_term_potentially_live", False))
+    add("k777-rank", lambda d: d["k777"]["hessian_split"].__setitem__("nonzero_residual_alone_proves_new_rank", True))
+    add("k778-status", lambda d: d["k778"]["decision"].__setitem__("SC_ACT_06_status", "REFUTED"))
+    add("k778-global", lambda d: d["k778"]["decision"].__setitem__("global_nonzero_T_no_go_proved", True))
 
     add("k693-lower", lambda d: d["k693"]["graph_equivalence_theorem"].__setitem__("upper_bound_alone_sufficient_for_closedness", True))
     add("k693-native", lambda d: d["k693"]["native_interface_status"].__setitem__("actual_native_closed_column_proved", True))

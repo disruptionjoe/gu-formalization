@@ -7,6 +7,45 @@ updated_at: "2026-10-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K775--K778 residual-stratum stationarity/Hessian gate (2026-10-01)
+
+K775 gives the exact first and second variations of a fixed quadratic residual
+action `I2B(x)=1/2<Upsilon(x),Q Upsilon(x)>`:
+`dI2B=J^*Q Upsilon` and
+`d2I2B=J^*QJ+(D2Upsilon)^*(Q Upsilon)`. Therefore every background with
+`Upsilon=0` has zero I2B first variation, independently of the signature of
+`Q` or any finite scalar weight, and its I2B Hessian image is contained in
+`im(J^*)`.
+
+K776 composes that theorem with K726. The homogeneous nonzero-`T` Phi1 branch
+has raw residual zero and a rank-one I1B metric Euler covector for every
+nonzero `kappa_1`; changing only the I2B pairing or finite weight cannot make
+it stationary. K777 separates the nonzero-residual case. There the term
+`(D2Upsilon)^*(Q Upsilon)` is potentially live and need not lie in
+`im(J^*)`, but `Upsilon != 0` alone proves neither the combined Euler equation
+nor any new Hessian rank.
+
+K778 freezes the successor gate. A zero-residual candidate must first be
+I1B-stationary and still faces the same-response exact-complex test. A
+nonzero-residual candidate must supply one source-typed stationary two-jet,
+the actual pairing, `Q Upsilon`, complete `DUpsilon` and `D2Upsilon`, owned
+gauge/redundancy maps, a common Euclidean real carrier and all-covector
+exactness. This is a local action-calculus classification, not a global
+nonzero-`T` no-go or a change to SC-ACT-06.
+
+Run:
+
+```bash
+python3 tests/channel-swings/k775_sc_act_06_residual_zero_variation_theorem.py
+python3 tests/channel-swings/k775_sc_act_06_residual_zero_variation_theorem_probe.py
+python3 tests/channel-swings/k776_sc_act_06_homogeneous_residual_square_stationarity_closure.py
+python3 tests/channel-swings/k776_sc_act_06_homogeneous_residual_square_stationarity_closure_probe.py
+python3 tests/channel-swings/k777_sc_act_06_nonzero_residual_hessian_split.py
+python3 tests/channel-swings/k777_sc_act_06_nonzero_residual_hessian_split_probe.py
+python3 tests/channel-swings/k778_sc_act_06_residual_stratum_successor_gate.py
+python3 tests/channel-swings/k778_sc_act_06_residual_stratum_successor_gate_probe.py
+```
+
 ## K771--K774 positive-curvature/I1B composition boundary (2026-10-01)
 
 K771 computes the rank of the actual matrix sum

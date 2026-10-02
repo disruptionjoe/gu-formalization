@@ -1,0 +1,56 @@
+{
+  "claim_ceiling": "Exact closure of one homogeneous residual-zero branch under fixed residual-pairing and finite-weight changes. No global nonzero-T no-go or SC-ACT-06 verdict change.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "closed_classes": [
+    "changing only the residual pairing Q on the K726 raw-residual-zero branch",
+    "changing only a finite scalar I2B weight on that branch",
+    "using residual-square first variation to cancel the nonzero I1B metric Euler covector at Upsilon=0"
+  ],
+  "controls": {
+    "controls_passed": 26,
+    "hostile_mutations_rejected": 17,
+    "probe": "tests/channel-swings/k776_sc_act_06_homogeneous_residual_square_stationarity_closure_probe.py",
+    "producer": "tests/channel-swings/k776_sc_act_06_homogeneous_residual_square_stationarity_closure.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "current_homogeneous_branch_closed_for_all_fixed_residual_pairings_and_finite_weights": true,
+    "global_nonzero_T_stationarity_closed": false,
+    "next_exact_input": "A different branch that is I1B-stationary at Upsilon=0, or a source-typed Upsilon-nonzero stationary germ where the I2B first variation is live; either route still owes the complete principal complex and Euclidean reduction."
+  },
+  "direction": "observed_to_native",
+  "exact_composition": {
+    "I1B_metric_euler_rank_for_nonzero_kappa": 1,
+    "I2B_first_variation_zero_for_every_finite_weight": true,
+    "I2B_first_variation_zero_for_every_fixed_pairing": true,
+    "combined_metric_euler_rank_for_nonzero_kappa": 1,
+    "kappa_zero_returns_to_T0": true,
+    "nonzero_kappa_branch_stationary": false,
+    "raw_residual_zero": true
+  },
+  "gu_typed_objects": {
+    "action_owner": "source I1B plus source I2B residual-square family",
+    "carrier": "K726 homogeneous B=b Phi1, T=t Phi1 branch plus ten metric normals",
+    "grading": "connection-critical branch -> metric Euler covector -> full stationarity test",
+    "pairing": "arbitrary fixed symmetric residual pairing Q and arbitrary finite I2B weight",
+    "real_structure": "real labelled K77 homogeneous fixture",
+    "target": "whether I2B pairing or weight can cancel K726's metric Euler obstruction at raw Upsilon zero"
+  },
+  "ledger_no_change_reason": "This closes only residual-square reweighting of one already rejected homogeneous branch; nonhomogeneous and nonzero-residual germs remain open.",
+  "pinned_inputs": {
+    "k726": {
+      "path": "lab/process/k726-sc-act-06-homogeneous-nonzero-t-stationarity-obstruction.json",
+      "sha256": "6845d4d5c11d5717a220d43b01972a72a027ab99b2255aa4f15d57165489041a"
+    },
+    "k775": {
+      "path": "lab/process/k775-sc-act-06-residual-zero-variation-theorem.json",
+      "sha256": "29c430294505f0b98078b9077eb196d2c386e1a0e4b1a02c56e7a2a0897f43c3"
+    }
+  },
+  "result_id": "K776-SC-ACT-06-HOMOGENEOUS-RESIDUAL-SQUARE-STATIONARITY-CLOSURE",
+  "schema_version": "1.0",
+  "scope": "Stationarity closure for K726's homogeneous nonzero-T Phi1 branch under every fixed residual pairing and finite scalar I2B weight.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

@@ -7,6 +7,22 @@ updated_at: "2026-10-01"
 
 # Next Steps For Contributors
 
+> **2026-10-01 K775--K778 RESIDUAL-STRATUM STATIONARITY/HESSIAN GATE.**
+> K775 derives the exact quadratic-residual calculus:
+> `dI2B=J^* Q Upsilon` and
+> `d2I2B=J^*QJ+(D2Upsilon)^*(Q Upsilon)`. At `Upsilon=0`, I2B has zero
+> first variation for every fixed pairing and finite weight, and its Hessian
+> factors through the old response adjoint. K776 therefore closes every
+> residual-pairing or finite-weight rescue of K726's homogeneous nonzero-`T`
+> Phi1 branch: its I1B metric Euler rank remains one. K777 isolates the only
+> I2B term not forced through `im(J^*)`: the residual-curvature term at a
+> genuinely nonzero residual. K778 requires the next incumbent to be a
+> source-typed `Upsilon != 0` stationary two-jet with `Q Upsilon`,
+> `DUpsilon`, `D2Upsilon`, gauge/redundancy maps and a Euclidean reduction;
+> the zero-residual alternative must already be I1B-stationary. Nonzero
+> residual alone proves neither stationarity nor rank. SC-ACT-06 remains
+> `ASSERTS`.
+
 > **2026-10-01 K771--K774 POSITIVE-CURVATURE/I1B COMPOSITION BOUNDARY.**
 > K771 sums the selected I1B Euler block with the unit-weight identity-Cartan
 > curvature Hessian inside every complete invariant block. Both distortion

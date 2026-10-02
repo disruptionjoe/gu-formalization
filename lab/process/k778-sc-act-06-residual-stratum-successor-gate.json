@@ -1,0 +1,78 @@
+{
+  "claim_ceiling": "Exact successor gate for residual-zero versus nonzero-residual source I2B backgrounds. No global nonzero-T no-go, new stationary germ, complete elliptic complex, or protected verdict change.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "closed_classes": [
+    "I2B pairing or finite-weight rescue of K726's raw-residual-zero homogeneous Phi1 branch",
+    "using residual-zero I2B first variation to cancel any nonzero I1B Euler covector",
+    "claiming nonzero residual alone supplies stationarity, new rank, gauge, or ellipticity"
+  ],
+  "controls": {
+    "controls_passed": 32,
+    "hostile_mutations_rejected": 21,
+    "probe": "tests/channel-swings/k778_sc_act_06_residual_stratum_successor_gate_probe.py",
+    "producer": "tests/channel-swings/k778_sc_act_06_residual_stratum_successor_gate.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "SC_ACT_06_status": "ASSERTS",
+    "do_not_retry_K726_with_residual_pairing_or_weight": true,
+    "global_nonzero_T_no_go_proved": false,
+    "incumbent": "construct one source-typed Upsilon-nonzero stationary two-jet with Q Upsilon, DUpsilon, D2Upsilon, gauge/redundancy maps and Euclidean reduction",
+    "strongest_independent_alternative": "complete native K500 A/B packet once its native remainder, boundary maps and complete lower certificates exist",
+    "zero_residual_alternative": "construct a different I1B-stationary germ and exact same-response complex"
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "released source I1B and I2B only",
+    "carrier": "source I1B/I2B field and residual strata, without identifying comparator carriers",
+    "grading": "background stationarity -> coupled principal complex -> gauge/redundancy cohomology",
+    "pairing": "fixed operative residual pairing on each candidate common domain",
+    "real_structure": "candidate-specific and still owed for a Euclidean exactness test",
+    "target": "SC-ACT-06 next-input routing across Upsilon-zero and Upsilon-nonzero strata"
+  },
+  "ledger_no_change_reason": "The gate narrows admissible action inputs but neither constructs one nor changes source fidelity or a physics verdict.",
+  "pinned_inputs": {
+    "k774": {
+      "path": "lab/process/k774-sc-act-06-positive-curvature-successor-gate.json",
+      "sha256": "64164a2fb01a076b0c1c4844753be85f07a480ccae53e26893f945d5640de7a4"
+    },
+    "k775": {
+      "path": "lab/process/k775-sc-act-06-residual-zero-variation-theorem.json",
+      "sha256": "29c430294505f0b98078b9077eb196d2c386e1a0e4b1a02c56e7a2a0897f43c3"
+    },
+    "k776": {
+      "path": "lab/process/k776-sc-act-06-homogeneous-residual-square-stationarity-closure.json",
+      "sha256": "d48bbfe3d6653abe69be0f933609b5ba556ce8a5ee6262aadeb97abac0b7da0b"
+    },
+    "k777": {
+      "path": "lab/process/k777-sc-act-06-nonzero-residual-hessian-split.json",
+      "sha256": "59cefa5c004c8bbe21435eeebdc079a8d3cc7da2a565ad1687bd4a817ab1687c"
+    }
+  },
+  "residual_strata": [
+    {
+      "disposition": "CLOSED_INDEPENDENTLY_OF_FIXED_PAIRING_AND_FINITE_WEIGHT",
+      "principal_effect": "I2B Hessian factors as J^*QJ",
+      "stationary_for_I1B_plus_I2B": false,
+      "stratum": "Upsilon=0 and dI1B nonzero"
+    },
+    {
+      "disposition": "OPEN_ONLY_WITH_NEW_STATIONARY_GERM_AND_COMPLETE_EXACT_COMPLEX",
+      "principal_effect": "same-response J^*QJ only",
+      "stationary_for_I1B_plus_I2B": true,
+      "stratum": "Upsilon=0 and dI1B=0"
+    },
+    {
+      "disposition": "OPEN__COMPLETE_COMBINED_EULER_AND_HESSIAN_PACKET_REQUIRED",
+      "principal_effect": "J^*QJ plus potentially nonfactorizing (D2U)^*(Q U)",
+      "stationary_for_I1B_plus_I2B": null,
+      "stratum": "Upsilon nonzero"
+    }
+  ],
+  "result_id": "K778-SC-ACT-06-RESIDUAL-STRATUM-SUCCESSOR-GATE",
+  "schema_version": "1.0",
+  "scope": "Successor routing after the exact residual-zero variation theorem, homogeneous-branch closure and nonzero-residual Hessian split.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}
