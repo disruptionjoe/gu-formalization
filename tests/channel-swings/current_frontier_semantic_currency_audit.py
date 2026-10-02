@@ -443,6 +443,18 @@ def load_inputs() -> dict:
         "k834": json.loads(
             (ROOT / "lab/process/k834-sc-act-06-rich-moduli-admission-compiler.json").read_text()
         ),
+        "k835": json.loads(
+            (ROOT / "lab/process/k835-sc-act-06-higher-order-kuranishi-obstruction.json").read_text()
+        ),
+        "k836": json.loads(
+            (ROOT / "lab/process/k836-sc-act-06-smooth-flat-obstruction.json").read_text()
+        ),
+        "k837": json.loads(
+            (ROOT / "lab/process/k837-sc-act-06-analytic-category-closure.json").read_text()
+        ),
+        "k838": json.loads(
+            (ROOT / "lab/process/k838-sc-act-06-nonlinear-germ-admission-compiler.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -635,9 +647,13 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     check(registry["latest_gu_formalization_result"] ==
-          "K831_K834_SC_ACT_06_POST_SYMBOL_MODULI_CURRENT",
+          "K835_K838_SC_ACT_06_NONLINEAR_GERM_CURRENT",
           "latest GU result pointer moved")
     if isinstance(live, str):
+        check("K835--K838 require a future SC-ACT-06 candidate" in live and
+              "actual smooth obstruction germ" in live and
+              "convergent analytic expansion" in live,
+              "live K835--K838 nonlinear-germ category gate missing")
         check("K831--K834 require a future SC-ACT-06 candidate" in live and
               "closed Fredholm realization" in live and
               "proper stabilizer-typed local gauge quotient" in live,
@@ -915,6 +931,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K835--K838 close the finite-jet shortcut" in summary and
+          "complete formal data" in summary and
+          "27-row interface" in summary,
+          "current K835--K838 nonlinear-germ result lost")
     check("K831--K834 separate the source's claimed elliptic deformation complex" in summary and
           "quadratic Kuranishi obstruction" in summary and
           "25-row interface" in summary,
@@ -1080,6 +1100,18 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "K835--K838 make the nonlinear-germ obligation category-sensitive" in question
+        and "complete formal Taylor series" in question
+        and "convergent analytic expansion" in question,
+        "current question lost K835--K838 nonlinear-germ category gates",
+    )
+    check(
+        "K835--K838 close the nonlinear-germ category seam" in data["agenda"].get("latest_result_2026_10_02_k835_k838", "")
+        and "27 rows" in data["agenda"].get("latest_result_2026_10_02_k835_k838", "")
+        and "SC-ACT-06 remains ASSERTS" in data["agenda"].get("latest_result_2026_10_02_k835_k838", ""),
+        "agenda K835--K838 result is not current",
+    )
     check(
         "K831--K834 make explicit that a source-owned exact symbol complex" in question
         and "closed Fredholm realization" in question
@@ -3356,6 +3388,42 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k834["decision"]["actual_gu_rich_moduli_admitted"],
           "K834 rich-moduli admission compiler moved")
 
+    k835 = data["k835"]
+    check(k835["exact_controls"]["first_obstruction_orders"] == [2, 3, 4] and
+          k835["exact_controls"]["quadratic_obstruction_vanishes_for_orders"] == [3, 4] and
+          not k835["theorem"]["vanishing_quadratic_obstruction_determines_integrability"] and
+          not k835["theorem"]["any_fixed_finite_jet_order_is_universal"] and
+          not k835["decision"]["actual_gu_kuranishi_germ_constructed"],
+          "K835 higher-order Kuranishi obstruction moved")
+
+    k836 = data["k836"]
+    check(k836["smooth_control"]["all_derivatives_of_f_at_origin_zero"] and
+          k836["smooth_control"]["formal_taylor_series"] == "0" and
+          k836["smooth_control"]["formal_zero_set_dimension"] == 1 and
+          k836["smooth_control"]["actual_local_dimension"] == 0 and
+          not k836["theorem"]["complete_formal_series_determines_smooth_zero_germ"] and
+          not k836["decision"]["actual_gu_smooth_kuranishi_map_constructed"],
+          "K836 smooth flat obstruction moved")
+
+    k837 = data["k837"]
+    check(k837["analytic_identity_theorem"]["convergent_taylor_series_determines_local_germ"] and
+          k837["analytic_identity_theorem"]["all_taylor_coefficients_zero_implies_local_zero_germ"] and
+          not k837["analytic_identity_theorem"]["finite_jet_order_suffices_without_degree_bound"] and
+          k837["category_boundary"]["regularity_category_must_be_declared"] and
+          not k837["decision"]["actual_gu_regular_category_declared"],
+          "K837 analytic category closure moved")
+
+    k838 = data["k838"]
+    check(k838["compiler"]["k834_row_count"] == 25 and
+          k838["compiler"]["new_row_count"] == 2 and
+          k838["compiler"]["total_row_count"] == 27 and
+          not k838["compiler"]["finite_jet_or_formal_data_alone_admissible"] and
+          k838["exact_controls"]["category_complete_admitted"] and
+          not k838["exact_controls"]["finite_jet_only_admitted"] and
+          k838["exact_controls"]["current_gu_missing_row_count"] == 27 and
+          not k838["decision"]["actual_gu_rich_moduli_admitted"],
+          "K838 nonlinear-germ admission compiler moved")
+
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]
     k693_n = k693["native_interface_status"]
@@ -4518,6 +4586,10 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k832-unobstructed", lambda d: d["k832"]["decision"].__setitem__("actual_gu_unobstructedness_proved", True))
     add("k833-smooth-quotient", lambda d: d["k833"]["nonfree_control"].__setitem__("quotient_is_smooth_manifold_without_boundary_near_origin", True))
     add("k834-rich-without-nonlinear", lambda d: d["k834"]["exact_controls"].__setitem__("missing_nonlinear_rich_moduli_admitted", True))
+    add("k835-quadratic-suffices", lambda d: d["k835"]["theorem"].__setitem__("vanishing_quadratic_obstruction_determines_integrability", True))
+    add("k836-formal-determines-smooth", lambda d: d["k836"]["theorem"].__setitem__("complete_formal_series_determines_smooth_zero_germ", True))
+    add("k837-finite-jet-suffices", lambda d: d["k837"]["analytic_identity_theorem"].__setitem__("finite_jet_order_suffices_without_degree_bound", True))
+    add("k838-finite-formal-admissible", lambda d: d["k838"]["compiler"].__setitem__("finite_jet_or_formal_data_alone_admissible", True))
 
     add("k696-form", lambda d: d["k696"]["integration_theorem"].__setitem__("graph_equivalence_without_form_identity_sufficient", True))
     add("k696-reduction", lambda d: d["k696"]["integration_theorem"].__setitem__("reduction_of_column_labels_alone_reduces_native_R", True))

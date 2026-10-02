@@ -1,0 +1,74 @@
+{
+  "claim_ceiling": "Exact smooth flat-germ boundary only; no GU obstruction map, rich moduli, source, ledger, canon, or physical conclusion.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 29,
+    "hostile_mutations_rejected": 12,
+    "probe": "tests/channel-swings/k836_sc_act_06_smooth_flat_obstruction_probe.py",
+    "producer": "tests/channel-swings/k836_sc_act_06_smooth_flat_obstruction.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "actual_gu_smooth_kuranishi_map_constructed": false,
+    "actual_gu_smooth_unobstructedness_proved": false,
+    "global_sc_act_06_proved_or_refuted": false,
+    "next_exact_input": "In a smooth GU slice, finite jets and the formal Taylor series are insufficient; control the actual obstruction map or prove a category-appropriate convergence/unobstructedness theorem."
+  },
+  "direction": "observed_to_native",
+  "result_id": "K836-SC-ACT-06-SMOOTH-FLAT-OBSTRUCTION",
+  "schema_version": "1.0",
+  "scope": "Smooth finite-dimensional control in which every formal obstruction coefficient vanishes but the actual local zero set is isolated.",
+  "smooth_control": {
+    "actual_local_dimension": 0,
+    "all_derivatives_of_f_at_origin_zero": true,
+    "cokernel_basis": [
+      [
+        0,
+        1
+      ]
+    ],
+    "exact_zero_locus_near_origin": [
+      [
+        0,
+        0
+      ]
+    ],
+    "f_strictly_positive_off_origin": true,
+    "flat_function": "f(x)=exp(-1/x^2) for x!=0; f(0)=0",
+    "formal_taylor_series": "0",
+    "formal_zero_set_dimension": 1,
+    "infinitesimal_dimension": 1,
+    "jacobian_at_origin": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "jacobian_rank": 1,
+    "map": "F(x,y)=(y,f(x))",
+    "positive_sample_points": [
+      "f(1)=e^-1",
+      "f(1/2)=e^-4",
+      "f(1/3)=e^-9"
+    ],
+    "tangent_kernel_basis": [
+      [
+        1,
+        0
+      ]
+    ]
+  },
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "all_finite_jets_determine_smooth_zero_germ": false,
+    "complete_formal_series_determines_smooth_zero_germ": false,
+    "formal_unobstructedness_implies_smooth_unobstructedness_without_extra_hypotheses": false,
+    "required_smooth_input": "the actual projected map with quantitative control, a convergent reduction theorem, or an independent smooth unobstructedness theorem"
+  }
+}

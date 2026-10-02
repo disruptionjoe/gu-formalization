@@ -1,0 +1,73 @@
+{
+  "analytic_identity_theorem": {
+    "all_taylor_coefficients_zero_implies_local_zero_germ": true,
+    "convergent_taylor_series_determines_local_germ": true,
+    "finite_jet_order_suffices_without_degree_bound": false,
+    "hypothesis": "real-analytic germ on a connected neighborhood",
+    "polynomial_controls": [
+      {
+        "first_nonzero_coefficient": 2,
+        "first_nonzero_order": 2,
+        "map": "k_2(x)=x^2",
+        "zero_derivative_orders": [
+          0,
+          1
+        ],
+        "zero_germ": false
+      },
+      {
+        "first_nonzero_coefficient": 6,
+        "first_nonzero_order": 3,
+        "map": "k_3(x)=x^3",
+        "zero_derivative_orders": [
+          0,
+          1,
+          2
+        ],
+        "zero_germ": false
+      },
+      {
+        "first_nonzero_coefficient": 120,
+        "first_nonzero_order": 5,
+        "map": "k_5(x)=x^5",
+        "zero_derivative_orders": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "zero_germ": false
+      }
+    ]
+  },
+  "category_boundary": {
+    "analytic_identity_excludes_smooth_flat_behavior": true,
+    "formal_series_requires_convergence_or_actual_map": true,
+    "regularity_category_must_be_declared": true,
+    "smooth_flat_counterexample_ref": "lab/process/k836-sc-act-06-smooth-flat-obstruction.json"
+  },
+  "claim_ceiling": "Exact analytic identity boundary and polynomial controls only; no GU category, convergent series, rich moduli, source, ledger, canon, or physical conclusion.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 27,
+    "hostile_mutations_rejected": 12,
+    "probe": "tests/channel-swings/k837_sc_act_06_analytic_category_closure_probe.py",
+    "producer": "tests/channel-swings/k837_sc_act_06_analytic_category_closure.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "actual_gu_convergent_kuranishi_series_constructed": false,
+    "actual_gu_nonlinear_germ_constructed": false,
+    "actual_gu_regular_category_declared": false,
+    "global_sc_act_06_proved_or_refuted": false,
+    "next_exact_input": "Declare the GU slice and obstruction-map regularity. In the analytic category prove convergence; in the smooth category control the actual map rather than its formal series."
+  },
+  "direction": "observed_to_native",
+  "result_id": "K837-SC-ACT-06-ANALYTIC-CATEGORY-CLOSURE",
+  "schema_version": "1.0",
+  "scope": "Exact real-analytic identity boundary distinguishing a convergent obstruction germ from finite jets and from a merely formal smooth series.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

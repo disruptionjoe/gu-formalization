@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 7f7df28194d3
+revision_basis: 6879b0246a45
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,19 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K835--K838 close the finite-jet shortcut left open by K832--K834.
+    K835 gives polynomial obstruction germs whose first nonzero projected
+    orders are two, three and four, so a vanishing quadratic obstruction does
+    not establish integrability and no fixed finite jet order is universal.
+    K836 gives a smooth flat obstruction with zero Taylor series but an
+    isolated actual zero, so even complete formal data do not determine a
+    smooth zero germ. K837 records the analytic boundary: a convergent Taylor
+    series determines an analytic germ, but finite jets never suffice without
+    a degree bound. K838 adds a declared regularity category and either the
+    actual smooth germ or a convergent analytic expansion to K834, producing a
+    27-row interface. Current GU custody passes none. SC-ACT-06 remains
+    `ASSERTS`; no protected conclusion moves.
+
     K831--K834 separate the source's claimed elliptic deformation complex from
     its additional rich-moduli conclusion. K831 gives an exact noncompact
     Fredholm boundary: `d/dx` on `R` has invertible nonzero principal symbol
@@ -12539,6 +12552,16 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K835--K838 make the nonlinear-germ obligation category-sensitive. A
+  vanishing quadratic obstruction can hide cubic or quartic failure, and in
+  the smooth category even the complete formal Taylor series can vanish while
+  the actual zero germ is isolated. Analytic identity becomes available only
+  after the regularity category and convergence of the expansion are proved.
+  A future candidate must therefore declare the smooth or analytic slice and
+  supply the actual smooth obstruction germ or a convergent analytic
+  expansion, in addition to K834's 25 rows. Current GU custody supplies
+  neither category nor germ, so SC-ACT-06 remains `ASSERTS`.
+
   K831--K834 make explicit that a source-owned exact symbol complex would not
   by itself establish rich moduli. On a noncompact carrier it still needs a
   closed Fredholm realization; its finite-dimensional tangent directions must
@@ -13653,6 +13676,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K835--K838 require a future SC-ACT-06 candidate to declare its regularity
+  category and close the actual nonlinear germ. Finite jets are never enough
+  without an independent terminating-order theorem; in the smooth category,
+  even the complete formal series is insufficient. Supply K834's complete
+  source/action-owned family and post-symbol packet together with either the
+  actual smooth obstruction germ plus quantitative control or a convergent
+  analytic expansion. Current custody supplies neither, so the 27-row
+  compiler fails closed, SC-ACT-06 remains `ASSERTS`, and no protected
+  conclusion moves.
+
   K831--K834 require a future SC-ACT-06 candidate to cross two distinct
   boundaries. The elliptic-complex boundary is K830's eighteen source-family
   rows plus actual middle exactness at every nonzero covector. The rich-moduli

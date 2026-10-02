@@ -7,6 +7,20 @@ updated_at: "2026-10-02"
 
 # Next Steps For Contributors
 
+> **2026-10-02 K835--K838 NONLINEAR-GERM CATEGORY CLOSURE.** K835 proves
+> that vanishing quadratic obstruction does not establish integrability:
+> `F_m(x,y)=(y,x^m)` has the same one-dimensional tangent and isolated zero
+> for `m=2,3,4`, while the first obstruction occurs at order `m`. K836
+> strengthens the boundary in the smooth category: the flat germ
+> `exp(-1/x^2)` has zero Taylor series but an isolated zero, so even complete
+> formal data do not determine the actual zero germ. K837 records the analytic
+> contrast: a convergent Taylor series determines an analytic germ, while no
+> finite jet order suffices without a degree bound. K838 extends K834 to 27
+> rows by requiring a declared regularity category and either the actual
+> smooth germ or a convergent analytic expansion. Next supply those rows on
+> the same source/action-owned GU family. The controls are not GU evidence;
+> SC-ACT-06 remains `ASSERTS`.
+
 > **2026-10-02 K831--K834 POST-SYMBOL RICH-MODULI ADMISSION.** K831 proves
 > pointwise ellipticity does not supply a global Fredholm realization on a
 > noncompact carrier: normalized Gaussian dilations for `d/dx` on `R` have

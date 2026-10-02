@@ -1,0 +1,178 @@
+{
+  "claim_ceiling": "Exact finite polynomial obstruction hierarchy only; no GU nonlinear map, rich moduli, source, ledger, canon, or physical conclusion.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 32,
+    "hostile_mutations_rejected": 12,
+    "probe": "tests/channel-swings/k835_sc_act_06_higher_order_kuranishi_obstruction_probe.py",
+    "producer": "tests/channel-swings/k835_sc_act_06_higher_order_kuranishi_obstruction.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "actual_gu_kuranishi_germ_constructed": false,
+    "actual_gu_unobstructedness_proved": false,
+    "global_sc_act_06_proved_or_refuted": false,
+    "next_exact_input": "Do not stop at the quadratic obstruction: construct the complete projected nonlinear germ on the authenticated GU slice or prove a theorem that controls all later orders."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "all_actual_local_dimensions": [
+      0,
+      0,
+      0
+    ],
+    "common_infinitesimal_dimension": 1,
+    "common_jacobian": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "families": [
+      {
+        "actual_local_dimension": 0,
+        "cokernel_basis": [
+          [
+            0,
+            1
+          ]
+        ],
+        "exact_zero_locus_near_origin": [
+          [
+            0,
+            0
+          ]
+        ],
+        "first_nonzero_projected_coefficient": 2,
+        "first_nonzero_projected_order": 2,
+        "infinitesimal_dimension": 1,
+        "jacobian": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "jacobian_rank": 1,
+        "map": "F_2(x,y)=(y,x^2)",
+        "order": 2,
+        "projected_derivatives_below_first_obstruction_zero": [],
+        "tangent_kernel_basis": [
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "actual_local_dimension": 0,
+        "cokernel_basis": [
+          [
+            0,
+            1
+          ]
+        ],
+        "exact_zero_locus_near_origin": [
+          [
+            0,
+            0
+          ]
+        ],
+        "first_nonzero_projected_coefficient": 6,
+        "first_nonzero_projected_order": 3,
+        "infinitesimal_dimension": 1,
+        "jacobian": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "jacobian_rank": 1,
+        "map": "F_3(x,y)=(y,x^3)",
+        "order": 3,
+        "projected_derivatives_below_first_obstruction_zero": [
+          2
+        ],
+        "tangent_kernel_basis": [
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "actual_local_dimension": 0,
+        "cokernel_basis": [
+          [
+            0,
+            1
+          ]
+        ],
+        "exact_zero_locus_near_origin": [
+          [
+            0,
+            0
+          ]
+        ],
+        "first_nonzero_projected_coefficient": 24,
+        "first_nonzero_projected_order": 4,
+        "infinitesimal_dimension": 1,
+        "jacobian": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "jacobian_rank": 1,
+        "map": "F_4(x,y)=(y,x^4)",
+        "order": 4,
+        "projected_derivatives_below_first_obstruction_zero": [
+          2,
+          3
+        ],
+        "tangent_kernel_basis": [
+          [
+            1,
+            0
+          ]
+        ]
+      }
+    ],
+    "first_obstruction_orders": [
+      2,
+      3,
+      4
+    ],
+    "quadratic_obstruction_vanishes_for_orders": [
+      3,
+      4
+    ]
+  },
+  "result_id": "K835-SC-ACT-06-HIGHER-ORDER-KURANISHI-OBSTRUCTION",
+  "schema_version": "1.0",
+  "scope": "Exact polynomial controls showing that identical tangent/cokernel data can have first nonlinear obstruction at arbitrarily later finite order.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "any_fixed_finite_jet_order_is_universal": false,
+    "linearized_kernel_determines_integrability": false,
+    "required_evidence": "the actual finite-dimensional obstruction germ, a proved terminating order, or an independent unobstructedness theorem",
+    "vanishing_quadratic_obstruction_determines_integrability": false
+  }
+}

@@ -7,6 +7,46 @@ updated_at: "2026-10-02"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K835--K838 nonlinear-germ category closure (2026-10-02)
+
+K835 computes the exact obstruction hierarchy for
+`F_m(x,y)=(y,x^m)`, `m=2,3,4`. All three maps have Jacobian rank one,
+one-dimensional tangent and cokernel, and an isolated local zero. Their first
+nonzero projected obstruction orders are respectively two, three and four,
+with coefficients `2`, `6` and `24`. Thus a vanishing quadratic obstruction
+does not prove integrability, and no fixed finite jet order is universal.
+
+K836 gives the smooth flat control
+`F(x,y)=(y,exp(-1/x^2))`, with the flat function defined as zero at the
+origin. Every Taylor coefficient vanishes and the formal zero set is
+one-dimensional, but the function is positive off the origin and the actual
+local zero is isolated. K837 identifies the category boundary: a convergent
+Taylor series determines a real-analytic germ, but finite jets do not; a
+merely formal smooth series does not determine the germ. K838 adds two rows to
+K834—declared regularity category, and actual smooth germ or convergent
+analytic expansion—for a 27-row conjunctive compiler. Its category-complete
+synthetic control passes, the finite-jet-only control fails, and current GU
+custody misses all 27 rows.
+
+Run the producers and hostile probes:
+
+```bash
+python3 tests/channel-swings/k835_sc_act_06_higher_order_kuranishi_obstruction.py --check
+python3 tests/channel-swings/k835_sc_act_06_higher_order_kuranishi_obstruction_probe.py
+python3 tests/channel-swings/k836_sc_act_06_smooth_flat_obstruction.py --check
+python3 tests/channel-swings/k836_sc_act_06_smooth_flat_obstruction_probe.py
+python3 tests/channel-swings/k837_sc_act_06_analytic_category_closure.py --check
+python3 tests/channel-swings/k837_sc_act_06_analytic_category_closure_probe.py
+python3 tests/channel-swings/k838_sc_act_06_nonlinear_germ_admission_compiler.py --check
+python3 tests/channel-swings/k838_sc_act_06_nonlinear_germ_admission_compiler_probe.py
+```
+
+The producers declare 122 controls and the probes reject 48 hostile
+mutations. These are finite-dimensional category and admission controls, not
+a GU slice, obstruction germ, convergent expansion or rich-moduli proof.
+SC-ACT-06 remains `ASSERTS`; no source, ledger, canon, paper, public,
+prediction, confirmation or physical verdict moves.
+
 ## K831--K834 post-symbol rich-moduli admission (2026-10-02)
 
 K831 separates pointwise ellipticity from global Fredholmness. The derivative
