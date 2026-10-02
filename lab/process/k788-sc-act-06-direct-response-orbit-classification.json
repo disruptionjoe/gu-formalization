@@ -1,0 +1,99 @@
+{
+  "claim_ceiling": "Exact all-real-covector-orbit connection-response ranks on K717. No symmetry ownership, complete field complex, global SC-ACT-06 no-go, source-status change or physical result follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 46,
+    "hostile_mutations_rejected": 34,
+    "probe": "tests/channel-swings/k788_sc_act_06_direct_response_orbit_classification_probe.py",
+    "producer": "tests/channel-swings/k788_sc_act_06_direct_response_orbit_classification.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "all_nonzero_covector_middle_exactness_follows_without_symmetry_quotient": false,
+    "connection_kernel_dimension": 106512,
+    "connection_response_rank": 122864,
+    "connection_sector_injective": false,
+    "next_exact_input": "Compare the 106512-dimensional kernel with the strongest symmetry image available on the same flat germ; do not call the kernel gauge without an owned map."
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "source first-order residual Upsilon, not an I1B or I2B Hessian",
+    "carrier": "Omega1(Cl_14(C)) on K717's fixed flat native germ; complex dimension 229376",
+    "grading": "connection variation u -> first-order residual variation J_q(u)",
+    "pairing": "K717 native action form; auxiliary Frobenius q only identifies nonzero Euclidean covectors",
+    "real_structure": "K740 pinned real U(64,64) basis followed by exact rational rank calculation",
+    "target": "kernel of D Upsilon before quotient by an owned symmetry map"
+  },
+  "ledger_no_change_reason": "This is a local deformation-rank result on one native flat germ, not a physical state or observable construction.",
+  "operator": {
+    "complete_connection_basis_enumerated": true,
+    "is_action_hessian": false,
+    "is_direct_first_order_linearization": true,
+    "principal_map": "J_q(u)=K_LIFT(SHIAB(q_WEDGE_u))",
+    "rank_field": "Q_IN_PINNED_REAL_U64_64_BASIS"
+  },
+  "orbit_theorem": {
+    "all_orbits_tested": true,
+    "auxiliary_euclidean_norm_nonzero_on_all_cases": true,
+    "cases": [
+      {
+        "auxiliary_q_norm_squared": 1,
+        "domain_dimension": 229376,
+        "native_norm_squared": 1,
+        "nullity": 106512,
+        "orbit": "native_positive",
+        "rank": 122864,
+        "zero_columns": 16410
+      },
+      {
+        "auxiliary_q_norm_squared": 1,
+        "domain_dimension": 229376,
+        "native_norm_squared": -1,
+        "nullity": 106512,
+        "orbit": "native_negative",
+        "rank": 122864,
+        "zero_columns": 16410
+      },
+      {
+        "auxiliary_q_norm_squared": 2,
+        "domain_dimension": 229376,
+        "native_norm_squared": 0,
+        "nullity": 106512,
+        "orbit": "native_null",
+        "rank": 122864,
+        "zero_columns": 16
+      }
+    ],
+    "nullity_constant_across_all_orbits": true,
+    "rank_constant_across_all_orbits": true,
+    "real_nonzero_covector_orbits": [
+      "native_positive",
+      "native_negative",
+      "native_null"
+    ]
+  },
+  "pinned_inputs": {
+    "k717": {
+      "path": "lab/process/k717-sc-act-06-flat-euclidean-gimmel-germ.json",
+      "sha256": "9b6f66363ecc489ff9d2eca45c6a130cbbeb949e065414fff04343e79c1f3ed1"
+    },
+    "k740": {
+      "path": "lab/process/k740-sc-act-06-expanded-principal-response-rank.json",
+      "sha256": "bc1d8b00bf4c58c1cd3a9da36e8933218476ca4a7182a84a10131a058b8867e7"
+    },
+    "k783": {
+      "path": "lab/process/k783-sc-act-06-source-zero-locus-boundary.json",
+      "sha256": "bdaaf3466a6ee1410c400a5bce6386e31b5ccc389d0ffd68969e649b2f08c357"
+    },
+    "k787": {
+      "path": "lab/process/k787-sc-act-06-flat-zero-locus-custody.json",
+      "sha256": "d9fbe046c32ceaa0e81a5c51da6a631866f61597efe2a59de7e67e48ef9c8e1e"
+    }
+  },
+  "result_id": "K788-SC-ACT-06-DIRECT-RESPONSE-ORBIT-CLASSIFICATION",
+  "schema_version": "1.0",
+  "scope": "Exact all-orbit rank classification of the direct connection-sector linearization J=D Upsilon on K717's flat Upsilon=0 germ.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

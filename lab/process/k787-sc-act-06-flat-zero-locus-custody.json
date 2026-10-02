@@ -1,0 +1,73 @@
+{
+  "claim_ceiling": "Exact local background-custody correction. It does not attribute the germ to the released source or prove a complete two-jet, elliptic complex, rich moduli, Fredholm domain, source-status change or physical result.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 38,
+    "hostile_mutations_rejected": 30,
+    "probe": "tests/channel-swings/k787_sc_act_06_flat_zero_locus_custody_probe.py",
+    "producer": "tests/channel-swings/k787_sc_act_06_flat_zero_locus_custody.py"
+  },
+  "created": "2026-10-02",
+  "custody_reconciliation": {
+    "Upsilon_B_on_background": "0",
+    "Upsilon_F_on_background": "0",
+    "Upsilon_total_on_background": "0",
+    "background_B_epsilon": "0",
+    "background_F_B": "0",
+    "background_T": "0",
+    "background_fermions": "0",
+    "background_varpi": "0",
+    "boundary_posture": "compact_support_or_fixed_boundary_local_germ",
+    "released_source_exhibits_complete_solution_two_jet": false,
+    "repository_constructs_local_source_typed_background": true,
+    "source_claims_zero_locus": true
+  },
+  "decision": {
+    "background_search_remains_first_missing_input": false,
+    "complete_K786_packet_supplied": false,
+    "direct_linearization_test_released": true,
+    "next_exact_input": "Test J=D Upsilon on K717's fixed flat zero-locus germ across every nonzero Euclidean covector orbit, then compare its kernel with the strongest symmetry budget without promoting candidates to owned gauge."
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "source first-order residual Upsilon=Upsilon_B+Upsilon_F",
+    "carrier": "K717 real local B(epsilon)/Y field carrier over the constant positive metric on R4",
+    "grading": "bosonic B(epsilon), varpi and T plus four zero source fermion fields",
+    "pairing": "native lambda=1/2 DeWitt action form; background Frobenius q retained only as an auxiliary positive metric",
+    "real_structure": "real Euclidean base and real symmetric-metric fibre on the local flat chart",
+    "target": "existence of one repository-constructed local point on the source zero locus"
+  },
+  "k786_requirement_status": {
+    "all_covector_middle_exactness": "open",
+    "authenticated_euclidean_carrier_pairing_domain": "local_carrier_only_global_domain_open",
+    "complete_bosonic_fermionic_mixed_symbols": "open",
+    "complete_first_order_linearization": "open_beyond_current_connection_response",
+    "complete_source_field_tangent": "open",
+    "exact_redundant_row_removal": "open",
+    "one_common_native_geometry": "local_K717_geometry_fixed",
+    "one_source_typed_background_satisfying_Upsilon_zero": "supplied_locally_by_K717",
+    "owned_redundant_euler_map": "open",
+    "owned_symmetry_map": "open"
+  },
+  "ledger_no_change_reason": "The repository has one local zero-locus germ, but no complete physical quotient, observable, prediction or confirmation follows.",
+  "pinned_inputs": {
+    "k717": {
+      "path": "lab/process/k717-sc-act-06-flat-euclidean-gimmel-germ.json",
+      "sha256": "9b6f66363ecc489ff9d2eca45c6a130cbbeb949e065414fff04343e79c1f3ed1"
+    },
+    "k783": {
+      "path": "lab/process/k783-sc-act-06-source-zero-locus-boundary.json",
+      "sha256": "bdaaf3466a6ee1410c400a5bce6386e31b5ccc389d0ffd68969e649b2f08c357"
+    },
+    "k786": {
+      "path": "lab/process/k786-sc-act-06-zero-residual-deformation-input-gate.json",
+      "sha256": "65069521fca7866b0e4567e8bfdef8effc1393ffde2b1cf2f8d21a8e5f16e5b0"
+    }
+  },
+  "result_id": "K787-SC-ACT-06-FLAT-ZERO-LOCUS-CUSTODY",
+  "schema_version": "1.0",
+  "scope": "Custody reconciliation for K717's local flat native germ against K786's corrected direct Upsilon=0 gate.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

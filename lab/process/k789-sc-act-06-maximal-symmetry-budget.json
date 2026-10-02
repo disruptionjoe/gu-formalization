@@ -1,0 +1,89 @@
+{
+  "claim_ceiling": "Exact conservative cohomology lower bound after a maximal current symmetry grant. No ownership of q lambda, global no-go, source-status change, moduli theorem or physical conclusion follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "composition_theorem": {
+    "direct_response_on_internal_candidate": "SHIAB(q wedge q lambda)=0",
+    "grant_is_stronger_than_current_owned_symmetry_custody": true,
+    "internal_candidate": "lambda -> q tensor lambda on each Clifford coefficient",
+    "internal_candidate_composes_to_zero": true,
+    "internal_candidate_promoted_to_source_owned_total_gauge": false,
+    "internal_candidate_rank": 16384,
+    "metric_diffeomorphism_connection_component_at_flat_T0": 0,
+    "metric_diffeomorphism_rank": 4
+  },
+  "controls": {
+    "controls_passed": 40,
+    "hostile_mutations_rejected": 32,
+    "probe": "tests/channel-swings/k789_sc_act_06_maximal_symmetry_budget_probe.py",
+    "producer": "tests/channel-swings/k789_sc_act_06_maximal_symmetry_budget.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "additional_independent_symmetry_rank_required_for_exactness": 90124,
+    "all_three_orbits_middle_exact_under_maximal_grant": false,
+    "kernel_may_be_relabelled_as_gauge": false,
+    "next_exact_input": "Either supply at least 90124 further independent source-owned symmetry directions inside ker(D Upsilon), or exhibit a complete first-order residual response on connection variations that is not contained in K788's serialized J; otherwise this flat packet is not middle-exact.",
+    "uniform_middle_cohomology_lower_bound": 90124
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "cases": [
+      {
+        "connection_kernel_dimension": 106512,
+        "granted_internal_q_lambda_rank": 16384,
+        "granted_metric_diffeomorphism_rank": 4,
+        "maximal_granted_symmetry_budget": 16388,
+        "middle_cohomology_lower_bound_after_maximal_grant": 90124,
+        "middle_exact_after_maximal_grant": false,
+        "orbit": "native_positive"
+      },
+      {
+        "connection_kernel_dimension": 106512,
+        "granted_internal_q_lambda_rank": 16384,
+        "granted_metric_diffeomorphism_rank": 4,
+        "maximal_granted_symmetry_budget": 16388,
+        "middle_cohomology_lower_bound_after_maximal_grant": 90124,
+        "middle_exact_after_maximal_grant": false,
+        "orbit": "native_negative"
+      },
+      {
+        "connection_kernel_dimension": 106512,
+        "granted_internal_q_lambda_rank": 16384,
+        "granted_metric_diffeomorphism_rank": 4,
+        "maximal_granted_symmetry_budget": 16388,
+        "middle_cohomology_lower_bound_after_maximal_grant": 90124,
+        "middle_exact_after_maximal_grant": false,
+        "orbit": "native_null"
+      }
+    ]
+  },
+  "gu_typed_objects": {
+    "action_owner": "source first-order residual; internal q lambda is granted as a candidate and not promoted to source-owned total symmetry",
+    "carrier": "K788 full connection variation carrier, with K745's metric slot retained only for a conservative symmetry grant",
+    "grading": "candidate symmetry parameters -> connection/metric fields -> D Upsilon equations",
+    "pairing": "none needed for the algebraic kernel/image dimension bound",
+    "real_structure": "K788 pinned real coefficient basis with exact rational ranks",
+    "target": "necessary middle-exactness budget on the K717 flat germ"
+  },
+  "ledger_no_change_reason": "The symmetry map is deliberately over-granted and not source-promoted; the result is a local necessary-condition bound only.",
+  "pinned_inputs": {
+    "k745": {
+      "path": "lab/process/k745-sc-act-06-gauge-redundancy-obstruction.json",
+      "sha256": "460a3c0981d9cb8fef8e54e4ef1fd5217e4ed922b5bbfdf92416fcc4f8134994"
+    },
+    "k772": {
+      "path": "lab/process/k772-sc-act-06-positive-curvature-total-complex.json",
+      "sha256": "9873f773fcc7e530b4abb978c97e3d43faa3594639e7e2364808cbeaca97a291"
+    },
+    "k788": {
+      "path": "lab/process/k788-sc-act-06-direct-response-orbit-classification.json",
+      "sha256": "5d1b2813b629f13ebaaec0a2ee86e442422ab0ed0eb985c4589f9664ead9e445"
+    }
+  },
+  "result_id": "K789-SC-ACT-06-MAXIMAL-SYMMETRY-BUDGET",
+  "schema_version": "1.0",
+  "scope": "Most-favorable finite symmetry-budget test for K788's direct connection-response kernel on K717's flat zero-locus germ.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

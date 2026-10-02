@@ -299,6 +299,18 @@ def load_inputs() -> dict:
         "k786": json.loads(
             (ROOT / "lab/process/k786-sc-act-06-zero-residual-deformation-input-gate.json").read_text()
         ),
+        "k787": json.loads(
+            (ROOT / "lab/process/k787-sc-act-06-flat-zero-locus-custody.json").read_text()
+        ),
+        "k788": json.loads(
+            (ROOT / "lab/process/k788-sc-act-06-direct-response-orbit-classification.json").read_text()
+        ),
+        "k789": json.loads(
+            (ROOT / "lab/process/k789-sc-act-06-maximal-symmetry-budget.json").read_text()
+        ),
+        "k790": json.loads(
+            (ROOT / "lab/process/k790-sc-act-06-flat-zero-locus-realization-gate.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -491,9 +503,13 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     check(registry["latest_gu_formalization_result"] ==
-          "K783_K786_SC_ACT_06_ZERO_LOCUS_ROUTE_CORRECTION_CURRENT",
+          "K787_K790_SC_ACT_06_FLAT_ZERO_LOCUS_GATE_CURRENT",
           "latest GU result pointer moved")
     if isinstance(live, str):
+        check("K787--K790 close the current serialized K717/K788 flat packet" in live and
+              "at least 90124 middle classes" in live and
+              "omitted source-owned first-order row" in live,
+              "live K787--K790 flat-packet realization gate missing")
         check("K783--K786 restore the direct SC-ACT-06 route" in live and
               "source-typed `Upsilon=0` background" in live and
               "source-selected relative coefficient" in live,
@@ -723,6 +739,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K787--K790 execute the corrected direct SC-ACT-06 route" in summary and
+          "rank 122864" in summary and "at least 90124 middle classes" in summary and
+          "rejects only the current serialized K717/K788 flat" in summary,
+          "current K787--K790 flat-packet result lost")
     check("K783--K786 correct the source-object routing" in summary and
           "repository-conditional comparator" in summary and
           "Current custody supplies the claim and zero locus only" in summary,
@@ -866,6 +886,19 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "K787--K790 show that K717 already supplies" in question
+        and "kernel 106512" in question
+        and "at least 90124" in question,
+        "current question lost K787--K790 flat-packet gate",
+    )
+    check(
+        "repository-constructed local source-typed Upsilon=0 background" in data["agenda"].get("latest_result_2026_10_02_k787_k790", "")
+        and "rank 122864" in data["agenda"].get("latest_result_2026_10_02_k787_k790", "")
+        and "90124" in data["agenda"].get("latest_result_2026_10_02_k787_k790", "")
+        and "SC-ACT-06 remains ASSERTS" in data["agenda"].get("latest_result_2026_10_02_k787_k790", ""),
+        "agenda K787--K790 result is not current",
+    )
     check(
         "K783--K786 require one source-typed" in question
         and "complete first-order Euclidean deformation" in question
@@ -2618,6 +2651,38 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           k786["decision"]["SC_ACT_06_status"] == "ASSERTS",
           "K786 zero-residual deformation input gate moved")
 
+    k787 = data["k787"]
+    check(k787["custody_reconciliation"]["repository_constructs_local_source_typed_background"] and
+          not k787["custody_reconciliation"]["released_source_exhibits_complete_solution_two_jet"] and
+          not k787["decision"]["background_search_remains_first_missing_input"] and
+          not k787["decision"]["complete_K786_packet_supplied"],
+          "K787 flat zero-locus custody moved")
+
+    k788 = data["k788"]
+    check(k788["operator"]["is_direct_first_order_linearization"] and
+          not k788["operator"]["is_action_hessian"] and
+          k788["decision"]["connection_response_rank"] == 122864 and
+          k788["decision"]["connection_kernel_dimension"] == 106512 and
+          k788["orbit_theorem"]["all_orbits_tested"] and
+          k788["orbit_theorem"]["rank_constant_across_all_orbits"],
+          "K788 direct-response orbit classification moved")
+
+    k789 = data["k789"]
+    check(k789["composition_theorem"]["internal_candidate_rank"] == 16384 and
+          k789["composition_theorem"]["metric_diffeomorphism_rank"] == 4 and
+          not k789["composition_theorem"]["internal_candidate_promoted_to_source_owned_total_gauge"] and
+          k789["decision"]["uniform_middle_cohomology_lower_bound"] == 90124 and
+          not k789["decision"]["all_three_orbits_middle_exact_under_maximal_grant"],
+          "K789 maximal symmetry budget moved")
+
+    k790 = data["k790"]
+    check(k790["composition"]["uniform_middle_cohomology_lower_bound_after_grant"] == 90124 and
+          not k790["decision"]["current_flat_packet_middle_exact"] and
+          not k790["decision"]["current_flat_packet_satisfies_K786"] and
+          not k790["decision"]["K717_background_itself_globally_refuted"] and
+          not k790["decision"]["global_SC_ACT_06_proved_or_refuted"],
+          "K790 flat zero-locus realization gate moved")
+
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]
     k693_n = k693["native_interface_status"]
@@ -3951,6 +4016,16 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k785-route", lambda d: d["k785"]["decision"].__setitem__("route_status", "SOURCE_NATIVE"))
     add("k786-custody", lambda d: d["k786"]["current_custody"].__setitem__("complete_first_order_linearization", True))
     add("k786-admit", lambda d: d["k786"]["decision"].__setitem__("candidate_admitted", True))
+    add("k787-background", lambda d: d["k787"]["custody_reconciliation"].__setitem__("repository_constructs_local_source_typed_background", False))
+    add("k787-search", lambda d: d["k787"]["decision"].__setitem__("background_search_remains_first_missing_input", True))
+    add("k788-hessian", lambda d: d["k788"]["operator"].__setitem__("is_action_hessian", True))
+    add("k788-rank", lambda d: d["k788"]["decision"].__setitem__("connection_response_rank", 122865))
+    add("k788-orbits", lambda d: d["k788"]["orbit_theorem"].__setitem__("all_orbits_tested", False))
+    add("k789-gauge", lambda d: d["k789"]["composition_theorem"].__setitem__("internal_candidate_promoted_to_source_owned_total_gauge", True))
+    add("k789-lower", lambda d: d["k789"]["decision"].__setitem__("uniform_middle_cohomology_lower_bound", 0))
+    add("k789-exact", lambda d: d["k789"]["decision"].__setitem__("all_three_orbits_middle_exact_under_maximal_grant", True))
+    add("k790-exact", lambda d: d["k790"]["decision"].__setitem__("current_flat_packet_middle_exact", True))
+    add("k790-global", lambda d: d["k790"]["decision"].__setitem__("global_SC_ACT_06_proved_or_refuted", True))
 
     add("k693-lower", lambda d: d["k693"]["graph_equivalence_theorem"].__setitem__("upper_bound_alone_sufficient_for_closedness", True))
     add("k693-native", lambda d: d["k693"]["native_interface_status"].__setitem__("actual_native_closed_column_proved", True))

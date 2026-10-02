@@ -2,10 +2,44 @@
 title: "Verification: What Is Proved, Computed, and Conjectural"
 status: process
 doc_type: verification-map
-updated_at: "2026-10-01"
+updated_at: "2026-10-02"
 ---
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
+
+## K787--K790 flat zero-locus direct-response gate (2026-10-02)
+
+K787 verifies custody rather than ellipticity: K717 is a local
+repository-constructed background typed by the released `Upsilon=0` equation,
+but the source does not exhibit a complete solution two-jet. K788 computes the
+actual first-order connection response
+`J_q(u)=K_LIFT(SHIAB(q_WEDGE_u))`, not an action Hessian. On representative
+positive, negative and null real nonzero covectors, its domain dimension is
+229376, rank is 122864 and kernel dimension is 106512.
+
+K789 gives the flat packet its strongest currently expressible symmetry
+budget: all 16384 internal `q lambda` directions plus four metric
+diffeomorphisms. This is deliberately conservative and does not claim that the
+source owns `q lambda` as the total-action gauge image. Even under that grant,
+the middle-cohomology lower bound is 90124 on all three covector orbits. K790
+therefore rejects this serialized packet as a complete elliptic complex, not
+the K717 background or SC-ACT-06 globally. The packet can reopen only through
+an omitted source-owned first-order row acting on the current kernel or at
+least 90124 further independent owned symmetry directions, followed by the
+complete redundancy, fermion/mixed-symbol and common-domain data.
+
+Run:
+
+```bash
+python3 tests/channel-swings/k787_sc_act_06_flat_zero_locus_custody.py
+python3 tests/channel-swings/k787_sc_act_06_flat_zero_locus_custody_probe.py
+python3 tests/channel-swings/k788_sc_act_06_direct_response_orbit_classification.py
+python3 tests/channel-swings/k788_sc_act_06_direct_response_orbit_classification_probe.py
+python3 tests/channel-swings/k789_sc_act_06_maximal_symmetry_budget.py
+python3 tests/channel-swings/k789_sc_act_06_maximal_symmetry_budget_probe.py
+python3 tests/channel-swings/k790_sc_act_06_flat_zero_locus_realization_gate.py
+python3 tests/channel-swings/k790_sc_act_06_flat_zero_locus_realization_gate_probe.py
+```
 
 ## K783--K786 source zero-locus route correction (2026-10-01)
 

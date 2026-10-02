@@ -1,0 +1,70 @@
+{
+  "claim_ceiling": "Exact realization-level gate for the current K717/K788 packet. It is not a no-go for every Upsilon=0 background, does not promote a candidate symmetry, and changes no source, ledger, canon, paper, public, prediction, confirmation or physical verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "composition": {
+    "adding_other_field_columns_can_remove_a_kernel_vector_already_zero_in_every_serialized_connection_response_row": false,
+    "all_real_nonzero_covector_orbits_tested": true,
+    "complete_euclidean_fermion_real_form_and_common_domain_supplied": false,
+    "complete_owned_total_symmetry_and_redundancy_maps_supplied": false,
+    "deleting_redundant_euler_rows_can_reduce_field_kernel": false,
+    "direct_connection_linearization_supplied": true,
+    "local_zero_locus_background_supplied": true,
+    "maximal_current_symmetry_grant": 16388,
+    "uniform_connection_kernel_dimension": 106512,
+    "uniform_middle_cohomology_lower_bound_after_grant": 90124,
+    "zero_fermion_action_hessian_block_split_is_supporting_only_not_a_D_Upsilon_identity": true
+  },
+  "controls": {
+    "controls_passed": 44,
+    "hostile_mutations_rejected": 34,
+    "probe": "tests/channel-swings/k790_sc_act_06_flat_zero_locus_realization_gate_probe.py",
+    "producer": "tests/channel-swings/k790_sc_act_06_flat_zero_locus_realization_gate.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "K717_background_itself_globally_refuted": false,
+    "current_flat_packet_middle_exact": false,
+    "current_flat_packet_satisfies_K786": false,
+    "global_SC_ACT_06_proved_or_refuted": false,
+    "next_exact_input": "Do not search for another background first. Audit whether the source first-order residual has any omitted connection-response row or symmetry map large enough to meet K789's 90124-rank debt; if not, retire K717 as a direct elliptic realization and switch to a genuinely different native zero-locus germ or the complete K500 A/B route.",
+    "reopener": "A source-owned symmetry map with at least 90124 additional independent connection-kernel directions, or a proved omitted first-order Upsilon response row acting on those directions, followed by the complete fermion/redundancy/domain packet."
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "source first-order zero locus only",
+    "carrier": "one K717 local B(epsilon)/Y background with the full serialized connection tangent and zero fermions",
+    "grading": "candidate symmetries -> source fields -> D Upsilon rows -> source redundancies",
+    "pairing": "native action form plus background Frobenius auxiliary metric; no residual-square pairing imported",
+    "real_structure": "local real Euclidean base/fibre and K788 pinned real connection coefficient basis",
+    "target": "middle exactness of the currently serialized flat zero-locus deformation packet"
+  },
+  "ledger_no_change_reason": "The result rejects only the current serialized flat deformation packet and supplies no physical state, quotient, observable, prediction or confirmation.",
+  "pinned_inputs": {
+    "k719": {
+      "path": "lab/process/k719-sc-act-06-zero-fermion-full-symbol-reduction.json",
+      "sha256": "f5a586ce7071acc0ffec59b66232ed25ab1c1de5f17c0e9d87e392d126f09cd9"
+    },
+    "k786": {
+      "path": "lab/process/k786-sc-act-06-zero-residual-deformation-input-gate.json",
+      "sha256": "65069521fca7866b0e4567e8bfdef8effc1393ffde2b1cf2f8d21a8e5f16e5b0"
+    },
+    "k787": {
+      "path": "lab/process/k787-sc-act-06-flat-zero-locus-custody.json",
+      "sha256": "d9fbe046c32ceaa0e81a5c51da6a631866f61597efe2a59de7e67e48ef9c8e1e"
+    },
+    "k788": {
+      "path": "lab/process/k788-sc-act-06-direct-response-orbit-classification.json",
+      "sha256": "5d1b2813b629f13ebaaec0a2ee86e442422ab0ed0eb985c4589f9664ead9e445"
+    },
+    "k789": {
+      "path": "lab/process/k789-sc-act-06-maximal-symmetry-budget.json",
+      "sha256": "b73011120d0904f451a232042ab03b5089f20336df45371180cca4db6d999a7f"
+    }
+  },
+  "result_id": "K790-SC-ACT-06-FLAT-ZERO-LOCUS-REALIZATION-GATE",
+  "schema_version": "1.0",
+  "scope": "Direct K786 gate disposition for the currently serialized K717 flat Upsilon=0 realization.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

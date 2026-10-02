@@ -2,10 +2,25 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-10-01"
+updated_at: "2026-10-02"
 ---
 
 # Next Steps For Contributors
+
+> **2026-10-02 K787--K790 FLAT ZERO-LOCUS DIRECT-RESPONSE GATE.** K787
+> establishes that K717 already supplies a repository-constructed local,
+> source-typed `Upsilon=0` germ, although the source does not exhibit a
+> complete solution two-jet. K788 evaluates the direct response
+> `J_q(u)=K_LIFT(SHIAB(q_WEDGE_u))` on positive, negative and null real
+> nonzero covectors: each has domain dimension 229376, rank 122864 and kernel
+> 106512. K789 conservatively grants all 16384 internal `q lambda` directions
+> and four metric diffeomorphisms, leaving at least 90124 middle classes on
+> every orbit without promoting the candidate to source-owned gauge. K790
+> rejects only this serialized flat packet. Reopen it with an omitted
+> source-owned first-order row acting on the kernel or at least 90124 further
+> independent owned symmetry directions, plus complete redundancy,
+> fermion/mixed-symbol and common-domain data. Otherwise change the germ or
+> supply native K500 A/B input. SC-ACT-06 remains `ASSERTS`.
 
 > **2026-10-01 K783--K786 SOURCE ZERO-LOCUS ROUTE CORRECTION.** K783 binds
 > SC-ACT-06 to the source statement that the first-order zero locus
