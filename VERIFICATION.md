@@ -7,6 +7,47 @@ updated_at: "2026-10-02"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K851--K854 robust quotient repair certificate (2026-10-02)
+
+K851 upgrades K847's pointwise quotient criterion to a uniform theorem. For
+continuous finite-dimensional quotient maps on the compact authenticated
+cosphere, with `tau_bar_q S_bar_q=0` and
+`im(S_bar_q)=ker(tau_bar_q)` at every point, the Hodge operator
+`L_q=tau_bar_q^*tau_bar_q+S_bar_q S_bar_q^*` is pointwise positive definite.
+Continuity and compactness then give a uniform gap `mu>0` and
+`||L_q^-1||<=1/mu`. The scalar control has gap one everywhere.
+
+K852 supplies sharp failure controls: a continuous pointwise-exact family on
+a noncompact base, a discontinuous pointwise-exact family on a compact base,
+and a compact continuous but nonexact family all have infimum gap zero. Thus
+none of compactness, continuity and pointwise exactness can be dropped. K853
+derives
+`||L'_q-L_q||<=2(T+R)epsilon+2epsilon^2`; positivity and exactness persist
+when this is below `mu` and the perturbed composition remains zero. Positivity
+without composition is explicitly rejected as a complex certificate. K854
+compiles fourteen exact rows and fifteen robust rows, and records that the
+current flat packet supplies only the old principal complex and its 90124
+lower bound—not the required quotient maps, exactness, gap or perturbation
+control.
+
+Run the producers and hostile probes:
+
+```bash
+python3 tests/channel-swings/k851_sc_act_06_compact_cosphere_hodge_gap.py --check
+python3 tests/channel-swings/k851_sc_act_06_compact_cosphere_hodge_gap_probe.py
+python3 tests/channel-swings/k852_sc_act_06_uniformity_failure_controls.py --check
+python3 tests/channel-swings/k852_sc_act_06_uniformity_failure_controls_probe.py
+python3 tests/channel-swings/k853_sc_act_06_robust_exactness_radius.py --check
+python3 tests/channel-swings/k853_sc_act_06_robust_exactness_radius_probe.py
+python3 tests/channel-swings/k854_sc_act_06_robust_quotient_repair_certificate.py --check
+python3 tests/channel-swings/k854_sc_act_06_robust_quotient_repair_certificate_probe.py
+```
+
+The producers declare 180 controls and the probes reject 80 hostile
+mutations. These are exact conditional controls, not source-owned GU repair
+data. They do not move SC-ACT-06, the source register, ledger, canon, paper,
+public, prediction, confirmation or physical verdict.
+
 ## K847--K850 exact quotient repair certificate (2026-10-02)
 
 K847 proves the finite-dimensional repair theorem for an old complex

@@ -1,0 +1,611 @@
+{
+  "certificate": {
+    "core_equality": "im(S_bar_q)=ker(tau_bar_q) for every q",
+    "exact_row_count": 14,
+    "exact_rows": [
+      "source_or_action_ownership",
+      "old_principal_complex",
+      "response_descends_tau_G_zero",
+      "symmetry_is_old_cycle_J_S_zero",
+      "repaired_composition_tau_S_zero",
+      "old_middle_cohomology_dimension",
+      "induced_response_rank",
+      "induced_symmetry_rank",
+      "pointwise_kernel_image_equality",
+      "authenticated_compact_unit_cosphere",
+      "continuous_induced_map_family",
+      "continuous_auxiliary_fibre_metrics",
+      "common_domain_and_real_structure",
+      "uniform_hodge_gap_conclusion"
+    ],
+    "logical_form": "conjunction",
+    "raw_rank_substitution_allowed": false,
+    "robust_row_count": 15,
+    "robust_rows": [
+      "source_or_action_ownership",
+      "old_principal_complex",
+      "response_descends_tau_G_zero",
+      "symmetry_is_old_cycle_J_S_zero",
+      "repaired_composition_tau_S_zero",
+      "old_middle_cohomology_dimension",
+      "induced_response_rank",
+      "induced_symmetry_rank",
+      "pointwise_kernel_image_equality",
+      "authenticated_compact_unit_cosphere",
+      "continuous_induced_map_family",
+      "continuous_auxiliary_fibre_metrics",
+      "common_domain_and_real_structure",
+      "uniform_hodge_gap_conclusion",
+      "composition_compatible_perturbation_below_radius"
+    ],
+    "robustness_theorem": "composition-compatible perturbations below (-T-R+sqrt((T+R)^2+2mu))/2 preserve exactness",
+    "uniform_gap_is_an_independent_GU_input": false,
+    "uniformity_theorem": "compact authenticated cosphere plus continuous maps/metrics plus pointwise exactness implies mu=min_q lambda_min(L_q)>0"
+  },
+  "claim_ceiling": "Necessary-and-sufficient finite-symbol exactness interface plus a sufficient perturbative robustness extension. It neither repairs nor globally excludes the current or any other GU germ.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "comparator_routing_notice": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) 126 Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read lab/methods/source-native-comparator-routing.md and follow its source-native pointers before reusing this result.",
+  "controls": {
+    "controls_passed": 47,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k854_sc_act_06_robust_quotient_repair_certificate_probe.py",
+    "producer": "tests/channel-swings/k854_sc_act_06_robust_quotient_repair_certificate.py"
+  },
+  "created": "2026-10-02",
+  "current_flat_packet": {
+    "evaluation": {
+      "exact_admitted": false,
+      "missing_exact_rows": [
+        "source_or_action_ownership",
+        "response_descends_tau_G_zero",
+        "symmetry_is_old_cycle_J_S_zero",
+        "repaired_composition_tau_S_zero",
+        "old_middle_cohomology_dimension",
+        "induced_response_rank",
+        "induced_symmetry_rank",
+        "pointwise_kernel_image_equality",
+        "authenticated_compact_unit_cosphere",
+        "continuous_induced_map_family",
+        "continuous_auxiliary_fibre_metrics",
+        "common_domain_and_real_structure",
+        "uniform_hodge_gap_conclusion"
+      ],
+      "missing_robust_rows": [
+        "source_or_action_ownership",
+        "response_descends_tau_G_zero",
+        "symmetry_is_old_cycle_J_S_zero",
+        "repaired_composition_tau_S_zero",
+        "old_middle_cohomology_dimension",
+        "induced_response_rank",
+        "induced_symmetry_rank",
+        "pointwise_kernel_image_equality",
+        "authenticated_compact_unit_cosphere",
+        "continuous_induced_map_family",
+        "continuous_auxiliary_fibre_metrics",
+        "common_domain_and_real_structure",
+        "uniform_hodge_gap_conclusion",
+        "composition_compatible_perturbation_below_radius"
+      ],
+      "robust_admitted": false,
+      "rows": {
+        "authenticated_compact_unit_cosphere": false,
+        "common_domain_and_real_structure": false,
+        "composition_compatible_perturbation_below_radius": false,
+        "continuous_auxiliary_fibre_metrics": false,
+        "continuous_induced_map_family": false,
+        "induced_response_rank": false,
+        "induced_symmetry_rank": false,
+        "old_middle_cohomology_dimension": false,
+        "old_principal_complex": true,
+        "pointwise_kernel_image_equality": false,
+        "repaired_composition_tau_S_zero": false,
+        "response_descends_tau_G_zero": false,
+        "source_or_action_ownership": false,
+        "symmetry_is_old_cycle_J_S_zero": false,
+        "uniform_hodge_gap_conclusion": false
+      }
+    },
+    "old_middle_cohomology_lower_bound": 90124,
+    "owned_continuous_S_bar_family": false,
+    "owned_continuous_tau_bar_family": false,
+    "pointwise_exactness": false,
+    "robustness_radius": false,
+    "rows": {
+      "authenticated_compact_unit_cosphere": false,
+      "common_domain_and_real_structure": false,
+      "composition_compatible_perturbation_below_radius": false,
+      "continuous_auxiliary_fibre_metrics": false,
+      "continuous_induced_map_family": false,
+      "induced_response_rank": false,
+      "induced_symmetry_rank": false,
+      "old_middle_cohomology_dimension": false,
+      "old_principal_complex": true,
+      "pointwise_kernel_image_equality": false,
+      "repaired_composition_tau_S_zero": false,
+      "response_descends_tau_G_zero": false,
+      "source_or_action_ownership": false,
+      "symmetry_is_old_cycle_J_S_zero": false,
+      "uniform_hodge_gap_conclusion": false
+    },
+    "uniform_hodge_gap": false
+  },
+  "decision": {
+    "K849_uniformity_row_decomposed_and_resolved": true,
+    "SC_ACT_06_proved_or_refuted": false,
+    "current_flat_packet_exact_admitted": false,
+    "current_flat_packet_repairability_refuted": false,
+    "current_flat_packet_robust_admitted": false,
+    "future_exact_candidate_needs_independent_uniform_gap_assumption": false,
+    "next_exact_input": "Construct continuous source/action-owned tau_bar_q and S_bar_q on the authenticated compact Euclidean cosphere, prove pointwise equality im(S_bar_q)=ker(tau_bar_q), and compute the resulting gap and norm bounds; robustness then has the explicit K853 radius."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "all_single_row_omissions_reject_robust_admission": true,
+    "complete_synthetic_candidate": {
+      "exact_admitted": true,
+      "missing_exact_rows": [],
+      "missing_robust_rows": [],
+      "robust_admitted": true,
+      "rows": {
+        "authenticated_compact_unit_cosphere": true,
+        "common_domain_and_real_structure": true,
+        "composition_compatible_perturbation_below_radius": true,
+        "continuous_auxiliary_fibre_metrics": true,
+        "continuous_induced_map_family": true,
+        "induced_response_rank": true,
+        "induced_symmetry_rank": true,
+        "old_middle_cohomology_dimension": true,
+        "old_principal_complex": true,
+        "pointwise_kernel_image_equality": true,
+        "repaired_composition_tau_S_zero": true,
+        "response_descends_tau_G_zero": true,
+        "source_or_action_ownership": true,
+        "symmetry_is_old_cycle_J_S_zero": true,
+        "uniform_hodge_gap_conclusion": true
+      }
+    },
+    "one_missing_row_controls": {
+      "authenticated_compact_unit_cosphere": {
+        "exact_admitted": false,
+        "missing_exact_rows": [
+          "authenticated_compact_unit_cosphere"
+        ],
+        "missing_robust_rows": [
+          "authenticated_compact_unit_cosphere"
+        ],
+        "robust_admitted": false,
+        "rows": {
+          "authenticated_compact_unit_cosphere": false,
+          "common_domain_and_real_structure": true,
+          "composition_compatible_perturbation_below_radius": true,
+          "continuous_auxiliary_fibre_metrics": true,
+          "continuous_induced_map_family": true,
+          "induced_response_rank": true,
+          "induced_symmetry_rank": true,
+          "old_middle_cohomology_dimension": true,
+          "old_principal_complex": true,
+          "pointwise_kernel_image_equality": true,
+          "repaired_composition_tau_S_zero": true,
+          "response_descends_tau_G_zero": true,
+          "source_or_action_ownership": true,
+          "symmetry_is_old_cycle_J_S_zero": true,
+          "uniform_hodge_gap_conclusion": true
+        }
+      },
+      "common_domain_and_real_structure": {
+        "exact_admitted": false,
+        "missing_exact_rows": [
+          "common_domain_and_real_structure"
+        ],
+        "missing_robust_rows": [
+          "common_domain_and_real_structure"
+        ],
+        "robust_admitted": false,
+        "rows": {
+          "authenticated_compact_unit_cosphere": true,
+          "common_domain_and_real_structure": false,
+          "composition_compatible_perturbation_below_radius": true,
+          "continuous_auxiliary_fibre_metrics": true,
+          "continuous_induced_map_family": true,
+          "induced_response_rank": true,
+          "induced_symmetry_rank": true,
+          "old_middle_cohomology_dimension": true,
+          "old_principal_complex": true,
+          "pointwise_kernel_image_equality": true,
+          "repaired_composition_tau_S_zero": true,
+          "response_descends_tau_G_zero": true,
+          "source_or_action_ownership": true,
+          "symmetry_is_old_cycle_J_S_zero": true,
+          "uniform_hodge_gap_conclusion": true
+        }
+      },
+      "composition_compatible_perturbation_below_radius": {
+        "exact_admitted": true,
+        "missing_exact_rows": [],
+        "missing_robust_rows": [
+          "composition_compatible_perturbation_below_radius"
+        ],
+        "robust_admitted": false,
+        "rows": {
+          "authenticated_compact_unit_cosphere": true,
+          "common_domain_and_real_structure": true,
+          "composition_compatible_perturbation_below_radius": false,
+          "continuous_auxiliary_fibre_metrics": true,
+          "continuous_induced_map_family": true,
+          "induced_response_rank": true,
+          "induced_symmetry_rank": true,
+          "old_middle_cohomology_dimension": true,
+          "old_principal_complex": true,
+          "pointwise_kernel_image_equality": true,
+          "repaired_composition_tau_S_zero": true,
+          "response_descends_tau_G_zero": true,
+          "source_or_action_ownership": true,
+          "symmetry_is_old_cycle_J_S_zero": true,
+          "uniform_hodge_gap_conclusion": true
+        }
+      },
+      "continuous_auxiliary_fibre_metrics": {
+        "exact_admitted": false,
+        "missing_exact_rows": [
+          "continuous_auxiliary_fibre_metrics"
+        ],
+        "missing_robust_rows": [
+          "continuous_auxiliary_fibre_metrics"
+        ],
+        "robust_admitted": false,
+        "rows": {
+          "authenticated_compact_unit_cosphere": true,
+          "common_domain_and_real_structure": true,
+          "composition_compatible_perturbation_below_radius": true,
+          "continuous_auxiliary_fibre_metrics": false,
+          "continuous_induced_map_family": true,
+          "induced_response_rank": true,
+          "induced_symmetry_rank": true,
+          "old_middle_cohomology_dimension": true,
+          "old_principal_complex": true,
+          "pointwise_kernel_image_equality": true,
+          "repaired_composition_tau_S_zero": true,
+          "response_descends_tau_G_zero": true,
+          "source_or_action_ownership": true,
+          "symmetry_is_old_cycle_J_S_zero": true,
+          "uniform_hodge_gap_conclusion": true
+        }
+      },
+      "continuous_induced_map_family": {
+        "exact_admitted": false,
+        "missing_exact_rows": [
+          "continuous_induced_map_family"
+        ],
+        "missing_robust_rows": [
+          "continuous_induced_map_family"
+        ],
+        "robust_admitted": false,
+        "rows": {
+          "authenticated_compact_unit_cosphere": true,
+          "common_domain_and_real_structure": true,
+          "composition_compatible_perturbation_below_radius": true,
+          "continuous_auxiliary_fibre_metrics": true,
+          "continuous_induced_map_family": false,
+          "induced_response_rank": true,
+          "induced_symmetry_rank": true,
+          "old_middle_cohomology_dimension": true,
+          "old_principal_complex": true,
+          "pointwise_kernel_image_equality": true,
+          "repaired_composition_tau_S_zero": true,
+          "response_descends_tau_G_zero": true,
+          "source_or_action_ownership": true,
+          "symmetry_is_old_cycle_J_S_zero": true,
+          "uniform_hodge_gap_conclusion": true
+        }
+      },
+      "induced_response_rank": {
+        "exact_admitted": false,
+        "missing_exact_rows": [
+          "induced_response_rank"
+        ],
+        "missing_robust_rows": [
+          "induced_response_rank"
+        ],
+        "robust_admitted": false,
+        "rows": {
+          "authenticated_compact_unit_cosphere": true,
+          "common_domain_and_real_structure": true,
+          "composition_compatible_perturbation_below_radius": true,
+          "continuous_auxiliary_fibre_metrics": true,
+          "continuous_induced_map_family": true,
+          "induced_response_rank": false,
+          "induced_symmetry_rank": true,
+          "old_middle_cohomology_dimension": true,
+          "old_principal_complex": true,
+          "pointwise_kernel_image_equality": true,
+          "repaired_composition_tau_S_zero": true,
+          "response_descends_tau_G_zero": true,
+          "source_or_action_ownership": true,
+          "symmetry_is_old_cycle_J_S_zero": true,
+          "uniform_hodge_gap_conclusion": true
+        }
+      },
+      "induced_symmetry_rank": {
+        "exact_admitted": false,
+        "missing_exact_rows": [
+          "induced_symmetry_rank"
+        ],
+        "missing_robust_rows": [
+          "induced_symmetry_rank"
+        ],
+        "robust_admitted": false,
+        "rows": {
+          "authenticated_compact_unit_cosphere": true,
+          "common_domain_and_real_structure": true,
+          "composition_compatible_perturbation_below_radius": true,
+          "continuous_auxiliary_fibre_metrics": true,
+          "continuous_induced_map_family": true,
+          "induced_response_rank": true,
+          "induced_symmetry_rank": false,
+          "old_middle_cohomology_dimension": true,
+          "old_principal_complex": true,
+          "pointwise_kernel_image_equality": true,
+          "repaired_composition_tau_S_zero": true,
+          "response_descends_tau_G_zero": true,
+          "source_or_action_ownership": true,
+          "symmetry_is_old_cycle_J_S_zero": true,
+          "uniform_hodge_gap_conclusion": true
+        }
+      },
+      "old_middle_cohomology_dimension": {
+        "exact_admitted": false,
+        "missing_exact_rows": [
+          "old_middle_cohomology_dimension"
+        ],
+        "missing_robust_rows": [
+          "old_middle_cohomology_dimension"
+        ],
+        "robust_admitted": false,
+        "rows": {
+          "authenticated_compact_unit_cosphere": true,
+          "common_domain_and_real_structure": true,
+          "composition_compatible_perturbation_below_radius": true,
+          "continuous_auxiliary_fibre_metrics": true,
+          "continuous_induced_map_family": true,
+          "induced_response_rank": true,
+          "induced_symmetry_rank": true,
+          "old_middle_cohomology_dimension": false,
+          "old_principal_complex": true,
+          "pointwise_kernel_image_equality": true,
+          "repaired_composition_tau_S_zero": true,
+          "response_descends_tau_G_zero": true,
+          "source_or_action_ownership": true,
+          "symmetry_is_old_cycle_J_S_zero": true,
+          "uniform_hodge_gap_conclusion": true
+        }
+      },
+      "old_principal_complex": {
+        "exact_admitted": false,
+        "missing_exact_rows": [
+          "old_principal_complex"
+        ],
+        "missing_robust_rows": [
+          "old_principal_complex"
+        ],
+        "robust_admitted": false,
+        "rows": {
+          "authenticated_compact_unit_cosphere": true,
+          "common_domain_and_real_structure": true,
+          "composition_compatible_perturbation_below_radius": true,
+          "continuous_auxiliary_fibre_metrics": true,
+          "continuous_induced_map_family": true,
+          "induced_response_rank": true,
+          "induced_symmetry_rank": true,
+          "old_middle_cohomology_dimension": true,
+          "old_principal_complex": false,
+          "pointwise_kernel_image_equality": true,
+          "repaired_composition_tau_S_zero": true,
+          "response_descends_tau_G_zero": true,
+          "source_or_action_ownership": true,
+          "symmetry_is_old_cycle_J_S_zero": true,
+          "uniform_hodge_gap_conclusion": true
+        }
+      },
+      "pointwise_kernel_image_equality": {
+        "exact_admitted": false,
+        "missing_exact_rows": [
+          "pointwise_kernel_image_equality"
+        ],
+        "missing_robust_rows": [
+          "pointwise_kernel_image_equality"
+        ],
+        "robust_admitted": false,
+        "rows": {
+          "authenticated_compact_unit_cosphere": true,
+          "common_domain_and_real_structure": true,
+          "composition_compatible_perturbation_below_radius": true,
+          "continuous_auxiliary_fibre_metrics": true,
+          "continuous_induced_map_family": true,
+          "induced_response_rank": true,
+          "induced_symmetry_rank": true,
+          "old_middle_cohomology_dimension": true,
+          "old_principal_complex": true,
+          "pointwise_kernel_image_equality": false,
+          "repaired_composition_tau_S_zero": true,
+          "response_descends_tau_G_zero": true,
+          "source_or_action_ownership": true,
+          "symmetry_is_old_cycle_J_S_zero": true,
+          "uniform_hodge_gap_conclusion": true
+        }
+      },
+      "repaired_composition_tau_S_zero": {
+        "exact_admitted": false,
+        "missing_exact_rows": [
+          "repaired_composition_tau_S_zero"
+        ],
+        "missing_robust_rows": [
+          "repaired_composition_tau_S_zero"
+        ],
+        "robust_admitted": false,
+        "rows": {
+          "authenticated_compact_unit_cosphere": true,
+          "common_domain_and_real_structure": true,
+          "composition_compatible_perturbation_below_radius": true,
+          "continuous_auxiliary_fibre_metrics": true,
+          "continuous_induced_map_family": true,
+          "induced_response_rank": true,
+          "induced_symmetry_rank": true,
+          "old_middle_cohomology_dimension": true,
+          "old_principal_complex": true,
+          "pointwise_kernel_image_equality": true,
+          "repaired_composition_tau_S_zero": false,
+          "response_descends_tau_G_zero": true,
+          "source_or_action_ownership": true,
+          "symmetry_is_old_cycle_J_S_zero": true,
+          "uniform_hodge_gap_conclusion": true
+        }
+      },
+      "response_descends_tau_G_zero": {
+        "exact_admitted": false,
+        "missing_exact_rows": [
+          "response_descends_tau_G_zero"
+        ],
+        "missing_robust_rows": [
+          "response_descends_tau_G_zero"
+        ],
+        "robust_admitted": false,
+        "rows": {
+          "authenticated_compact_unit_cosphere": true,
+          "common_domain_and_real_structure": true,
+          "composition_compatible_perturbation_below_radius": true,
+          "continuous_auxiliary_fibre_metrics": true,
+          "continuous_induced_map_family": true,
+          "induced_response_rank": true,
+          "induced_symmetry_rank": true,
+          "old_middle_cohomology_dimension": true,
+          "old_principal_complex": true,
+          "pointwise_kernel_image_equality": true,
+          "repaired_composition_tau_S_zero": true,
+          "response_descends_tau_G_zero": false,
+          "source_or_action_ownership": true,
+          "symmetry_is_old_cycle_J_S_zero": true,
+          "uniform_hodge_gap_conclusion": true
+        }
+      },
+      "source_or_action_ownership": {
+        "exact_admitted": false,
+        "missing_exact_rows": [
+          "source_or_action_ownership"
+        ],
+        "missing_robust_rows": [
+          "source_or_action_ownership"
+        ],
+        "robust_admitted": false,
+        "rows": {
+          "authenticated_compact_unit_cosphere": true,
+          "common_domain_and_real_structure": true,
+          "composition_compatible_perturbation_below_radius": true,
+          "continuous_auxiliary_fibre_metrics": true,
+          "continuous_induced_map_family": true,
+          "induced_response_rank": true,
+          "induced_symmetry_rank": true,
+          "old_middle_cohomology_dimension": true,
+          "old_principal_complex": true,
+          "pointwise_kernel_image_equality": true,
+          "repaired_composition_tau_S_zero": true,
+          "response_descends_tau_G_zero": true,
+          "source_or_action_ownership": false,
+          "symmetry_is_old_cycle_J_S_zero": true,
+          "uniform_hodge_gap_conclusion": true
+        }
+      },
+      "symmetry_is_old_cycle_J_S_zero": {
+        "exact_admitted": false,
+        "missing_exact_rows": [
+          "symmetry_is_old_cycle_J_S_zero"
+        ],
+        "missing_robust_rows": [
+          "symmetry_is_old_cycle_J_S_zero"
+        ],
+        "robust_admitted": false,
+        "rows": {
+          "authenticated_compact_unit_cosphere": true,
+          "common_domain_and_real_structure": true,
+          "composition_compatible_perturbation_below_radius": true,
+          "continuous_auxiliary_fibre_metrics": true,
+          "continuous_induced_map_family": true,
+          "induced_response_rank": true,
+          "induced_symmetry_rank": true,
+          "old_middle_cohomology_dimension": true,
+          "old_principal_complex": true,
+          "pointwise_kernel_image_equality": true,
+          "repaired_composition_tau_S_zero": true,
+          "response_descends_tau_G_zero": true,
+          "source_or_action_ownership": true,
+          "symmetry_is_old_cycle_J_S_zero": false,
+          "uniform_hodge_gap_conclusion": true
+        }
+      },
+      "uniform_hodge_gap_conclusion": {
+        "exact_admitted": false,
+        "missing_exact_rows": [
+          "uniform_hodge_gap_conclusion"
+        ],
+        "missing_robust_rows": [
+          "uniform_hodge_gap_conclusion"
+        ],
+        "robust_admitted": false,
+        "rows": {
+          "authenticated_compact_unit_cosphere": true,
+          "common_domain_and_real_structure": true,
+          "composition_compatible_perturbation_below_radius": true,
+          "continuous_auxiliary_fibre_metrics": true,
+          "continuous_induced_map_family": true,
+          "induced_response_rank": true,
+          "induced_symmetry_rank": true,
+          "old_middle_cohomology_dimension": true,
+          "old_principal_complex": true,
+          "pointwise_kernel_image_equality": true,
+          "repaired_composition_tau_S_zero": true,
+          "response_descends_tau_G_zero": true,
+          "source_or_action_ownership": true,
+          "symmetry_is_old_cycle_J_S_zero": true,
+          "uniform_hodge_gap_conclusion": false
+        }
+      }
+    },
+    "only_missing_robustness_row_preserves_exact_admission": true
+  },
+  "gu_typed_objects": {
+    "action_owner": "candidate-must-declare",
+    "carrier": "LAYER=ambient CHIRALITY=N/A repaired quotient symbol bundle over the authenticated Euclidean unit cosphere",
+    "grading": "owned principal symmetries -> old quotient cohomology -> owned principal responses",
+    "pairing": "continuous positive auxiliary fibre metrics used for the quotient Hodge operator",
+    "real_structure": "must be inherited continuously from the proposed principal packet",
+    "target": "MAP-TYPE=quotient exact and perturbatively robust middle symbol complex"
+  },
+  "ledger_no_change_reason": "The certificate removes an analytic ambiguity but supplies none of the missing source-owned GU maps, domains, quotients or observables.",
+  "pinned_inputs": {
+    "k849": {
+      "path": "lab/process/k849-sc-act-06-exact-repair-certificate.json",
+      "sha256": "3ffecbf6c3911dad9b9049a4974a8845f255702d84bd33738eabada81917c085"
+    },
+    "k850": {
+      "path": "lab/process/k850-sc-act-06-flat-quotient-repair-interface.json",
+      "sha256": "7f33c5cc8e5b5366bf2cc7ff8f18e7df9b84402651f276dc001a02a630ea19cb"
+    },
+    "k851": {
+      "path": "lab/process/k851-sc-act-06-compact-cosphere-hodge-gap.json",
+      "sha256": "7802936f795191c5aa3c7d9b2d9f5885748d8363b996b0dd5c618efabe45cbb5"
+    },
+    "k852": {
+      "path": "lab/process/k852-sc-act-06-uniformity-failure-controls.json",
+      "sha256": "86b6d27451cfc6cbc59fcd604a2cb5f4ca68c2406bfabc338ea7f3288c6d5501"
+    },
+    "k853": {
+      "path": "lab/process/k853-sc-act-06-robust-exactness-radius.json",
+      "sha256": "7d99f0cf8dd7ad0bbda0aedfec4ec63900c1fdb5528ef604cc1a1734a6caaa02"
+    }
+  },
+  "result_id": "K854-SC-ACT-06-ROBUST-QUOTIENT-REPAIR-CERTIFICATE",
+  "schema_version": "1.0",
+  "scope": "Robust compact-cosphere certificate for a future repair of the current flat quotient complex; no repair maps, new germ or completed GU family are constructed.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

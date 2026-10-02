@@ -491,6 +491,18 @@ def load_inputs() -> dict:
         "k850": json.loads(
             (ROOT / "lab/process/k850-sc-act-06-flat-quotient-repair-interface.json").read_text()
         ),
+        "k851": json.loads(
+            (ROOT / "lab/process/k851-sc-act-06-compact-cosphere-hodge-gap.json").read_text()
+        ),
+        "k852": json.loads(
+            (ROOT / "lab/process/k852-sc-act-06-uniformity-failure-controls.json").read_text()
+        ),
+        "k853": json.loads(
+            (ROOT / "lab/process/k853-sc-act-06-robust-exactness-radius.json").read_text()
+        ),
+        "k854": json.loads(
+            (ROOT / "lab/process/k854-sc-act-06-robust-quotient-repair-certificate.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -683,9 +695,13 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     check(registry["latest_gu_formalization_result"] ==
-          "K847_K850_SC_ACT_06_EXACT_QUOTIENT_REPAIR_CURRENT",
+          "K851_K854_SC_ACT_06_ROBUST_QUOTIENT_REPAIR_CURRENT",
           "latest GU result pointer moved")
     if isinstance(live, str):
+        check("K851--K854 require the next SC-ACT-06 repair attempt" in live and
+              "uniform positive Hodge gap" in live and
+              "K853's explicit radius" in live,
+              "live K851--K854 robust quotient repair certificate missing")
         check("K847--K850 require the next SC-ACT-06 repair attempt" in live and
               "im(S_bar_q)=ker(tau_bar_q)" in live and
               "Do not credit raw" in live,
@@ -979,6 +995,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K851--K854 strengthen K849/K850's pointwise quotient repair criterion" in summary and
+          "uniformly positive Hodge gap" in summary and
+          "fourteen exact and fifteen robust" in summary,
+          "current K851--K854 robust quotient repair result lost")
     check("K847--K850 sharpen K845's scalar repair budget" in summary and
           "im(S_bar)=ker(tau_bar)" in summary and
           "ten conjunctive" in summary,
@@ -1156,6 +1176,18 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "K851--K854 upgrade the exact quotient-repair interface" in question
+        and "uniform positive Hodge gap" in question
+        and "K853's explicit radius" in question,
+        "current question lost K851--K854 robust quotient repair interface",
+    )
+    check(
+        "K851--K854 upgrade K849/K850's pointwise quotient repair interface" in data["agenda"].get("latest_result_2026_10_02_k851_k854", "")
+        and "fourteen exact and fifteen robust" in data["agenda"].get("latest_result_2026_10_02_k851_k854", "")
+        and "SC-ACT-06 remains ASSERTS" in data["agenda"].get("latest_result_2026_10_02_k851_k854", ""),
+        "agenda K851--K854 result is not current",
+    )
     check(
         "K847--K850 replace the coarse raw-rank reopener" in question
         and "im(S_bar_q)=ker(tau_bar_q)" in question
@@ -3627,6 +3659,50 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k850["decision"]["SC_ACT_06_proved_or_refuted"],
           "K850 flat quotient repair interface moved")
 
+    k851 = data["k851"]
+    check(k851["theorem"]["pointwise_exactness"] ==
+          "im(S_bar_q)=ker(tau_bar_q) for every q in K" and
+          not k851["theorem"]["uniform_gap_is_separate_input_after_hypotheses"] and
+          k851["exact_family_control"]["all_cardinal_exact"] and
+          k851["exact_family_control"]["analytic_uniform_gap"] == 1 and
+          not k851["decision"]["finite_covector_sampling_sufficient"] and
+          not k851["decision"]["source_owned_GU_maps_constructed"],
+          "K851 compact-cosphere Hodge-gap theorem moved")
+
+    k852 = data["k852"]
+    check(k852["controls"]["noncompact_continuous_exact"]["gap_infimum"] == 0 and
+          k852["controls"]["compact_discontinuous_exact"]["gap_infimum"] == 0 and
+          k852["controls"]["compact_continuous_nonexact"]["gap_minimum"] == 0 and
+          k852["controls"]["compact_continuous_exact_positive"]["gap_minimum"] == 1 and
+          k852["decision"]["compactness_is_load_bearing"] and
+          k852["decision"]["continuity_is_load_bearing"] and
+          k852["decision"]["pointwise_exactness_is_load_bearing"] and
+          not k852["decision"]["finite_sampling_proves_uniformity"],
+          "K852 uniformity failure controls moved")
+
+    k853 = data["k853"]
+    check(k853["theorem"]["composition_is_required"] and
+          k853["theorem"]["hodge_difference_bound"] ==
+          "||L'_q-L_q||<=2(T+R)epsilon+2epsilon^2" and
+          not k853["theorem"]["positive_hodge_without_composition_certifies_a_complex"] and
+          k853["exact_controls"]["certified_radius"]["bound_below_mu"] and
+          k853["exact_controls"]["safe_diagonal_perturbation"]["middle_exact"] and
+          not k853["exact_controls"]["composition_breaker"]["valid_complex"] and
+          not k853["decision"]["arbitrary_perturbations_preserve_complex_structure"],
+          "K853 robust exactness radius moved")
+
+    k854 = data["k854"]
+    check(k854["certificate"]["exact_row_count"] == 14 and
+          k854["certificate"]["robust_row_count"] == 15 and
+          not k854["certificate"]["raw_rank_substitution_allowed"] and
+          not k854["certificate"]["uniform_gap_is_an_independent_GU_input"] and
+          k854["exact_controls"]["complete_synthetic_candidate"]["robust_admitted"] and
+          k854["exact_controls"]["all_single_row_omissions_reject_robust_admission"] and
+          not k854["decision"]["current_flat_packet_exact_admitted"] and
+          not k854["decision"]["current_flat_packet_robust_admitted"] and
+          not k854["decision"]["SC_ACT_06_proved_or_refuted"],
+          "K854 robust quotient repair certificate moved")
+
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]
     k693_n = k693["native_interface_status"]
@@ -4805,6 +4881,10 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k848-overlap-decides", lambda d: d["k848"]["comparison"].__setitem__("raw_rank_threshold_decides_exactness", True))
     add("k849-raw-rank-substitution", lambda d: d["k849"]["certificate"].__setitem__("raw_rank_substitution_allowed", True))
     add("k850-current-passes", lambda d: d["k850"]["decision"].__setitem__("current_flat_packet_passes_certificate", True))
+    add("k851-gap-independent", lambda d: d["k851"]["theorem"].__setitem__("uniform_gap_is_separate_input_after_hypotheses", True))
+    add("k852-finite-sampling", lambda d: d["k852"]["decision"].__setitem__("finite_sampling_proves_uniformity", True))
+    add("k853-composition-unneeded", lambda d: d["k853"]["theorem"].__setitem__("composition_is_required", False))
+    add("k854-current-robust", lambda d: d["k854"]["decision"].__setitem__("current_flat_packet_robust_admitted", True))
 
     add("k696-form", lambda d: d["k696"]["integration_theorem"].__setitem__("graph_equivalence_without_form_identity_sufficient", True))
     add("k696-reduction", lambda d: d["k696"]["integration_theorem"].__setitem__("reduction_of_column_labels_alone_reduces_native_R", True))

@@ -1,0 +1,153 @@
+{
+  "claim_ceiling": "Sufficient uniform perturbation radius for finite-dimensional exact quotient symbols. It is not a necessary sharp radius and does not establish a GU family or nonlinear moduli.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "comparator_routing_notice": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) 126 Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read lab/methods/source-native-comparator-routing.md and follow its source-native pointers before reusing this result.",
+  "controls": {
+    "controls_passed": 47,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k853_sc_act_06_robust_exactness_radius_probe.py",
+    "producer": "tests/channel-swings/k853_sc_act_06_robust_exactness_radius.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "K851_uniform_gap_has_quantitative_stability_margin": true,
+    "arbitrary_perturbations_preserve_complex_structure": false,
+    "next_exact_input": "After constructing the owned continuous exact family, bound its quotient Hodge gap and map norms, then keep every admitted principal perturbation composition-compatible and below the certified radius.",
+    "pointwise_exactness_is_open_inside_composition_compatible_families": true,
+    "source_owned_GU_perturbation_constructed": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "baseline": {
+      "R": 1,
+      "S": [
+        [
+          1
+        ],
+        [
+          0
+        ]
+      ],
+      "T": 1,
+      "composition_zero": true,
+      "hodge": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "middle_exact": true,
+      "mu": 1,
+      "tau": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    "certified_radius": {
+      "bound_below_mu": true,
+      "decimal": 0.22474487139158894,
+      "difference_bound": 0.42000000000000004,
+      "exact": "(sqrt(6)-2)/2",
+      "safe_epsilon": 0.1
+    },
+    "composition_breaker": {
+      "S_prime": [
+        [
+          1
+        ],
+        [
+          0
+        ]
+      ],
+      "composition": "1/10",
+      "hodge_positive": true,
+      "tau_prime": [
+        [
+          "1/10",
+          1
+        ]
+      ],
+      "valid_complex": false
+    },
+    "outside_radius_collapse": {
+      "S_prime": [
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "epsilon": 1,
+      "hodge_gap": 0,
+      "middle_exact": false,
+      "tau_prime": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "safe_diagonal_perturbation": {
+      "S_prime": [
+        [
+          "9/10"
+        ],
+        [
+          0
+        ]
+      ],
+      "composition_zero": true,
+      "hodge_gap": "81/100",
+      "middle_exact": true,
+      "tau_prime": [
+        [
+          0,
+          "9/10"
+        ]
+      ]
+    }
+  },
+  "gu_typed_objects": {
+    "action_owner": "candidate-and-perturbation-must-declare",
+    "carrier": "LAYER=ambient-or-toy CHIRALITY=N/A finite-dimensional quotient bundle over a compact cosphere",
+    "grading": "induced symmetries -> old middle cohomology -> induced responses",
+    "pairing": "continuous positive auxiliary fibre metric",
+    "real_structure": "real or complex",
+    "target": "MAP-TYPE=quotient stability of exactness under composition-compatible map perturbations"
+  },
+  "ledger_no_change_reason": "The stability radius is conditional operator theory and does not construct an action-owned GU deformation, quotient or physical observable.",
+  "pinned_inputs": {
+    "k851": {
+      "path": "lab/process/k851-sc-act-06-compact-cosphere-hodge-gap.json",
+      "sha256": "7802936f795191c5aa3c7d9b2d9f5885748d8363b996b0dd5c618efabe45cbb5"
+    },
+    "k852": {
+      "path": "lab/process/k852-sc-act-06-uniformity-failure-controls.json",
+      "sha256": "86b6d27451cfc6cbc59fcd604a2cb5f4ca68c2406bfabc338ea7f3288c6d5501"
+    }
+  },
+  "result_id": "K853-SC-ACT-06-ROBUST-EXACTNESS-RADIUS",
+  "schema_version": "1.0",
+  "scope": "Operator-norm stability theorem for an already exact continuous quotient-symbol family; it supplies no GU family or perturbation.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "baseline_gap": "L_q>=mu I uniformly",
+    "baseline_norm_bounds": "||tau_bar_q||<=T and ||S_bar_q||<=R",
+    "composition_is_required": true,
+    "conclusion": "L'_q>0 uniformly; if tau'_q S'_q=0 then im(S'_q)=ker(tau'_q) for every q",
+    "explicit_radius": "epsilon<(-T-R+sqrt((T+R)^2+2mu))/2",
+    "hodge_difference_bound": "||L'_q-L_q||<=2(T+R)epsilon+2epsilon^2",
+    "perturbation_bounds": "||delta tau_q||<=epsilon and ||delta S_q||<=epsilon",
+    "positive_hodge_without_composition_certifies_a_complex": false,
+    "stability_condition": "2(T+R)epsilon+2epsilon^2<mu"
+  }
+}

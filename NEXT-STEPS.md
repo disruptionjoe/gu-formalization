@@ -7,6 +7,16 @@ updated_at: "2026-10-02"
 
 # Next Steps For Contributors
 
+> **2026-10-02 K851--K854 ROBUST QUOTIENT REPAIR CERTIFICATE.** K851 turns
+> pointwise quotient exactness into a uniform positive Hodge gap on the compact
+> authenticated cosphere. K852 proves compactness, continuity and pointwise
+> exactness are all needed. K853 gives the explicit perturbation radius from
+> `||L'-L||<=2(T+R)epsilon+2epsilon^2`, conditional on preserved composition.
+> K854 compiles fourteen exact and fifteen robust rows. Next supply the actual
+> source/action-owned continuous quotient maps on every nonzero covector and
+> pass that certificate. The current flat packet supplies none of the missing
+> maps, gap or robustness data; SC-ACT-06 remains `ASSERTS`.
+
 > **2026-10-02 K847--K850 EXACT QUOTIENT REPAIR CERTIFICATE.** K847 proves
 > that a repaired principal complex is middle-exact precisely when its induced
 > quotient maps satisfy `im(S_bar)=ker(tau_bar)`, with

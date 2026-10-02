@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 5f0324f73660
+revision_basis: 3b785845edf3
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K851--K854 strengthen K849/K850's pointwise quotient repair criterion into
+    a robust uniform certificate. K851 proves that continuous quotient maps on
+    the compact authenticated cosphere, with pointwise
+    `im(S_bar_q)=ker(tau_bar_q)`, give a uniformly positive Hodge gap for
+    `L_q=tau_bar_q^*tau_bar_q+S_bar_q S_bar_q^*`. K852 gives sharp controls
+    showing compactness, continuity and pointwise exactness are each necessary
+    for that implication. K853 derives the explicit perturbation bound
+    `||L'_q-L_q||<=2(T+R)epsilon+2epsilon^2` and its positive exactness radius,
+    while preserving the composition identities as an independent premise.
+    K854 compiles fourteen exact and fifteen robust conjunctive rows. The
+    current K717 packet supplies neither the missing quotient maps nor their
+    exactness, gap or robustness, so SC-ACT-06 remains `ASSERTS`. The source
+    register and ledger do not move.
+
     K847--K850 sharpen K845's scalar repair budget into the exact quotient
     repair criterion. K847 proves that a new response `tau` and symmetry `S`
     repair `E0 --G--> E1 --J--> E2` exactly when their induced maps on
@@ -12597,6 +12611,16 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K851--K854 upgrade the exact quotient-repair interface to a uniform robust
+  theorem: supply continuous source/action-owned `tau_bar_q,S_bar_q` on the
+  complete compact authenticated cosphere, prove pointwise
+  `im(S_bar_q)=ker(tau_bar_q)`, and obtain the uniform positive Hodge gap for
+  `L_q=tau_bar_q^*tau_bar_q+S_bar_q S_bar_q^*`. Any perturbative successor
+  must also preserve all composition identities and remain below K853's
+  explicit radius. Compactness, continuity, pointwise exactness and
+  composition cannot substitute for one another; the present K717 packet
+  supplies none of the new owned maps, gap or robustness data.
+
   K847--K850 replace the coarse raw-rank reopener with an exact quotient-level
   repair question. For each nonzero covector, a source/action-owned response
   `tau_q` must descend through `tau_q G_q=0`, an owned symmetry `S_q` must
@@ -13757,6 +13781,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K851--K854 require the next SC-ACT-06 repair attempt to supply one continuous
+  source/action-owned quotient complex over the complete compact authenticated
+  cosphere, prove `im(S_bar_q)=ker(tau_bar_q)` at every point, and certify the
+  resulting uniform positive Hodge gap. A robust claim must additionally bound
+  `T=sup||tau_bar_q||`, `R=sup||S_bar_q||`, keep every composition identity
+  exact, and place the perturbation below K853's explicit radius. Do not infer
+  a uniform or robust repair from pointwise ranks, finite covector samples,
+  compactness without continuity, or positivity after composition has failed.
+
   K847--K850 require the next SC-ACT-06 repair attempt to populate the ten-row
   exact quotient certificate on one source/action-owned principal packet. For
   every nonzero covector `q`, construct actual `tau_q` and `S_q`, prove

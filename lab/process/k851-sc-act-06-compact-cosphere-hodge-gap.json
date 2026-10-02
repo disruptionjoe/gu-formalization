@@ -1,0 +1,283 @@
+{
+  "claim_ceiling": "Uniform finite-symbol Hodge-gap theorem conditional on compactness, continuity, composition and pointwise exactness. No GU elliptic family, Fredholm realization or rich moduli follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "comparator_routing_notice": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) 126 Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read lab/methods/source-native-comparator-routing.md and follow its source-native pointers before reusing this result.",
+  "controls": {
+    "controls_passed": 44,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k851_sc_act_06_compact_cosphere_hodge_gap_probe.py",
+    "producer": "tests/channel-swings/k851_sc_act_06_compact_cosphere_hodge_gap.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "K849_uniformity_row_resolved_conditionally": true,
+    "finite_covector_sampling_sufficient": false,
+    "next_exact_input": "Supply continuous source/action-owned induced maps on the authenticated compact Euclidean unit cosphere and prove pointwise im(S_bar_q)=ker(tau_bar_q); the uniform Hodge gap then follows rather than remaining an independent assumption.",
+    "source_owned_GU_maps_constructed": false
+  },
+  "direction": "observed_to_native",
+  "exact_family_control": {
+    "all_cardinal_compositions_zero": true,
+    "all_cardinal_exact": true,
+    "all_cardinal_gaps_at_least_one": true,
+    "analytic_hodge_eigenvalues": [
+      "(2-cos theta)^2",
+      "(2+cos theta)^2",
+      "(2+sin theta)^2"
+    ],
+    "analytic_uniform_gap": 1,
+    "cardinal_checks": [
+      {
+        "S": [
+          [
+            1
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ],
+        "covector_angle": "0",
+        "hodge_eigenvalues_in_rotated_frame": [
+          1,
+          9,
+          4
+        ],
+        "hodge_matrix": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            9,
+            0
+          ],
+          [
+            0,
+            0,
+            4
+          ]
+        ],
+        "middle_exact": true,
+        "minimum_eigenvalue": 1,
+        "rank_S": 1,
+        "rank_tau": 2,
+        "tau": [
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            2
+          ]
+        ],
+        "tau_S_zero": true
+      },
+      {
+        "S": [
+          [
+            0
+          ],
+          [
+            2
+          ],
+          [
+            0
+          ]
+        ],
+        "covector_angle": "pi/2",
+        "hodge_eigenvalues_in_rotated_frame": [
+          4,
+          4,
+          9
+        ],
+        "hodge_matrix": [
+          [
+            4,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0
+          ],
+          [
+            0,
+            0,
+            9
+          ]
+        ],
+        "middle_exact": true,
+        "minimum_eigenvalue": 4,
+        "rank_S": 1,
+        "rank_tau": 2,
+        "tau": [
+          [
+            -2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            3
+          ]
+        ],
+        "tau_S_zero": true
+      },
+      {
+        "S": [
+          [
+            -3
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ],
+        "covector_angle": "pi",
+        "hodge_eigenvalues_in_rotated_frame": [
+          9,
+          1,
+          4
+        ],
+        "hodge_matrix": [
+          [
+            9,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            4
+          ]
+        ],
+        "middle_exact": true,
+        "minimum_eigenvalue": 1,
+        "rank_S": 1,
+        "rank_tau": 2,
+        "tau": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            0,
+            0,
+            2
+          ]
+        ],
+        "tau_S_zero": true
+      },
+      {
+        "S": [
+          [
+            0
+          ],
+          [
+            -2
+          ],
+          [
+            0
+          ]
+        ],
+        "covector_angle": "3pi/2",
+        "hodge_eigenvalues_in_rotated_frame": [
+          4,
+          4,
+          1
+        ],
+        "hodge_matrix": [
+          [
+            4,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "middle_exact": true,
+        "minimum_eigenvalue": 1,
+        "rank_S": 1,
+        "rank_tau": 2,
+        "tau": [
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "tau_S_zero": true
+      }
+    ],
+    "parameterization": "q=(cos theta,sin theta) on S1; S=(2-cos theta)s(theta); tau rows=(2+cos theta)p(theta)^T and (2+sin theta)e3^T"
+  },
+  "gu_typed_objects": {
+    "action_owner": "candidate-must-declare",
+    "carrier": "LAYER=ambient-or-toy CHIRALITY=N/A continuous finite-dimensional quotient bundle H over a unit cosphere",
+    "grading": "owned induced symmetries -> old middle cohomology -> owned induced responses",
+    "pairing": "continuous positive auxiliary fibre metric used only to form adjoints",
+    "real_structure": "real or complex finite-dimensional fibres",
+    "target": "MAP-TYPE=quotient middle Hodge family L_q=tau_bar_q^*tau_bar_q+S_bar_q S_bar_q^*"
+  },
+  "ledger_no_change_reason": "This is a quotient-bundle theorem and synthetic family, not a source-owned GU symbol, physical quotient, prediction or confirmation.",
+  "pinned_inputs": {
+    "k849": {
+      "path": "lab/process/k849-sc-act-06-exact-repair-certificate.json",
+      "sha256": "3ffecbf6c3911dad9b9049a4974a8845f255702d84bd33738eabada81917c085"
+    },
+    "k850": {
+      "path": "lab/process/k850-sc-act-06-flat-quotient-repair-interface.json",
+      "sha256": "7f33c5cc8e5b5366bf2cc7ff8f18e7df9b84402651f276dc001a02a630ea19cb"
+    }
+  },
+  "result_id": "K851-SC-ACT-06-COMPACT-COSPHERE-HODGE-GAP",
+  "schema_version": "1.0",
+  "scope": "Finite-dimensional quotient-symbol theorem over a compact authenticated cosphere; no GU response or symmetry map is supplied.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "base": "compact authenticated unit cosphere K",
+    "compactness_conclusion": "continuous pointwise exactness implies mu=min_q lambda_min(L_q)>0",
+    "constant_rank_is_separate_input": false,
+    "data": "continuous finite-dimensional maps S_bar_q:U_q->H_q and tau_bar_q:H_q->F_q with tau_bar_q S_bar_q=0",
+    "exactness_equivalence": "L_q positive definite iff im(S_bar_q)=ker(tau_bar_q), assuming tau_bar_q S_bar_q=0",
+    "kernel_identity": "ker(L_q)=ker(tau_bar_q) intersect im(S_bar_q)^perp",
+    "middle_hodge_operator": "L_q=tau_bar_q^*tau_bar_q+S_bar_q S_bar_q^*",
+    "pointwise_exactness": "im(S_bar_q)=ker(tau_bar_q) for every q in K",
+    "quadratic_identity": "<L_q v,v>=||tau_bar_q v||^2+||S_bar_q^* v||^2",
+    "uniform_gap_is_separate_input_after_hypotheses": false,
+    "uniform_splitting": "L_q^-1 is continuous and ||L_q^-1||<=1/mu"
+  }
+}
