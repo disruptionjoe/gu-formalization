@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K834-SC-ACT-06-RICH-MODULI-ADMISSION-COMPILER",
+  "created": "2026-10-02",
+  "status": "working_draft_verified",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-ACT-06",
+  "scope": "Conjunctive fail-closed interface separating source-family admission, symbol ellipticity, global Fredholmness, nonlinear integrability, and quotient regularity.",
+  "pinned_inputs": {
+    "k830": {"path": "lab/process/k830-sc-act-06-relative-family-admission-compiler.json", "sha256": "6cc19a4c8bf6bd49f0094b858e9ec5c599cea64ca75de0c53f0e39c126a4e018"},
+    "k831": {"path": "lab/process/k831-sc-act-06-noncompact-fredholm-boundary.json", "sha256": "c7a23cb1192b18d80163e6dbfdb9c1a61638449c962f6f974874316b2c165137"},
+    "k832": {"path": "lab/process/k832-sc-act-06-kuranishi-obstruction-gate.json", "sha256": "e2c329bc6b92138b26a11d2d1aca4cf14c0c2708ffaaf8842d5855995d67514b"},
+    "k833": {"path": "lab/process/k833-sc-act-06-quotient-regularity-gate.json", "sha256": "60a077b1c2e72ec7251ff140e56268df0be6ceadcf9136780ed6a12327faf88c"}
+  },
+  "compiler": {
+    "family_rows": [
+      "source_action_owned_family", "normalized_regular_parameter", "typed_relative_two_jet",
+      "zero_locus_first_jet", "zero_locus_second_jet", "euler_first_jet", "euler_second_jet",
+      "differentiated_gauge_identity", "differentiated_redundancy_identity", "authenticated_gauge_slice",
+      "complete_boson_fermion_mixed_symbols", "invertible_fermion_block_or_direct_full_analysis",
+      "schur_gauge_compatibility", "schur_redundancy_compatibility", "common_domain_or_transport",
+      "graph_differentiable_transport", "uniform_all_covector_gap", "uniform_parameter_remainder"
+    ],
+    "post_symbol_rows": [
+      "actual_all_covector_middle_exactness", "closed_global_fredholm_realization",
+      "finite_dimensional_H1_H2", "nonlinear_kuranishi_map",
+      "local_zero_set_dimension_or_stratification", "proper_local_gauge_action",
+      "stabilizer_typed_slice_and_quotient_category"
+    ],
+    "required_rows": [
+      "source_action_owned_family", "normalized_regular_parameter", "typed_relative_two_jet",
+      "zero_locus_first_jet", "zero_locus_second_jet", "euler_first_jet", "euler_second_jet",
+      "differentiated_gauge_identity", "differentiated_redundancy_identity", "authenticated_gauge_slice",
+      "complete_boson_fermion_mixed_symbols", "invertible_fermion_block_or_direct_full_analysis",
+      "schur_gauge_compatibility", "schur_redundancy_compatibility", "common_domain_or_transport",
+      "graph_differentiable_transport", "uniform_all_covector_gap", "uniform_parameter_remainder",
+      "actual_all_covector_middle_exactness", "closed_global_fredholm_realization",
+      "finite_dimensional_H1_H2", "nonlinear_kuranishi_map",
+      "local_zero_set_dimension_or_stratification", "proper_local_gauge_action",
+      "stabilizer_typed_slice_and_quotient_category"
+    ],
+    "family_row_count": 18,
+    "post_symbol_row_count": 7,
+    "total_row_count": 25,
+    "elliptic_rows": [
+      "source_action_owned_family", "normalized_regular_parameter", "typed_relative_two_jet",
+      "zero_locus_first_jet", "zero_locus_second_jet", "euler_first_jet", "euler_second_jet",
+      "differentiated_gauge_identity", "differentiated_redundancy_identity", "authenticated_gauge_slice",
+      "complete_boson_fermion_mixed_symbols", "invertible_fermion_block_or_direct_full_analysis",
+      "schur_gauge_compatibility", "schur_redundancy_compatibility", "common_domain_or_transport",
+      "graph_differentiable_transport", "uniform_all_covector_gap", "uniform_parameter_remainder",
+      "actual_all_covector_middle_exactness"
+    ],
+    "elliptic_complex_implies_rich_moduli": false,
+    "all_rows_must_bind_one_family_domain_and_local_quotient": true
+  },
+  "exact_controls": {
+    "synthetic_consistency_candidate": {
+      "source_action_owned_family": true, "normalized_regular_parameter": true, "typed_relative_two_jet": true,
+      "zero_locus_first_jet": true, "zero_locus_second_jet": true, "euler_first_jet": true, "euler_second_jet": true,
+      "differentiated_gauge_identity": true, "differentiated_redundancy_identity": true, "authenticated_gauge_slice": true,
+      "complete_boson_fermion_mixed_symbols": true, "invertible_fermion_block_or_direct_full_analysis": true,
+      "schur_gauge_compatibility": true, "schur_redundancy_compatibility": true, "common_domain_or_transport": true,
+      "graph_differentiable_transport": true, "uniform_all_covector_gap": true, "uniform_parameter_remainder": true,
+      "actual_all_covector_middle_exactness": true, "closed_global_fredholm_realization": true,
+      "finite_dimensional_H1_H2": true, "nonlinear_kuranishi_map": true,
+      "local_zero_set_dimension_or_stratification": true, "proper_local_gauge_action": true,
+      "stabilizer_typed_slice_and_quotient_category": true
+    },
+    "synthetic_elliptic_admitted": true,
+    "synthetic_rich_moduli_admitted": true,
+    "missing_nonlinear_candidate": {
+      "source_action_owned_family": true, "normalized_regular_parameter": true, "typed_relative_two_jet": true,
+      "zero_locus_first_jet": true, "zero_locus_second_jet": true, "euler_first_jet": true, "euler_second_jet": true,
+      "differentiated_gauge_identity": true, "differentiated_redundancy_identity": true, "authenticated_gauge_slice": true,
+      "complete_boson_fermion_mixed_symbols": true, "invertible_fermion_block_or_direct_full_analysis": true,
+      "schur_gauge_compatibility": true, "schur_redundancy_compatibility": true, "common_domain_or_transport": true,
+      "graph_differentiable_transport": true, "uniform_all_covector_gap": true, "uniform_parameter_remainder": true,
+      "actual_all_covector_middle_exactness": true, "closed_global_fredholm_realization": true,
+      "finite_dimensional_H1_H2": true, "nonlinear_kuranishi_map": false,
+      "local_zero_set_dimension_or_stratification": true, "proper_local_gauge_action": true,
+      "stabilizer_typed_slice_and_quotient_category": true
+    },
+    "missing_nonlinear_elliptic_admitted": true,
+    "missing_nonlinear_rich_moduli_admitted": false,
+    "current_gu_candidate": {
+      "source_action_owned_family": false, "normalized_regular_parameter": false, "typed_relative_two_jet": false,
+      "zero_locus_first_jet": false, "zero_locus_second_jet": false, "euler_first_jet": false, "euler_second_jet": false,
+      "differentiated_gauge_identity": false, "differentiated_redundancy_identity": false, "authenticated_gauge_slice": false,
+      "complete_boson_fermion_mixed_symbols": false, "invertible_fermion_block_or_direct_full_analysis": false,
+      "schur_gauge_compatibility": false, "schur_redundancy_compatibility": false, "common_domain_or_transport": false,
+      "graph_differentiable_transport": false, "uniform_all_covector_gap": false, "uniform_parameter_remainder": false,
+      "actual_all_covector_middle_exactness": false, "closed_global_fredholm_realization": false,
+      "finite_dimensional_H1_H2": false, "nonlinear_kuranishi_map": false,
+      "local_zero_set_dimension_or_stratification": false, "proper_local_gauge_action": false,
+      "stabilizer_typed_slice_and_quotient_category": false
+    },
+    "current_gu_missing_row_count": 25,
+    "current_gu_elliptic_admitted": false,
+    "current_gu_rich_moduli_admitted": false
+  },
+  "decision": {
+    "gate_system_jointly_consistent": true,
+    "actual_source_relative_family_constructed": false,
+    "actual_gu_elliptic_complex_admitted": false,
+    "actual_gu_rich_moduli_admitted": false,
+    "global_sc_act_06_proved_or_refuted": false,
+    "next_exact_input": "First supply one source/action-owned normalized family passing K830 and actual all-covector middle exactness; then construct its closed Fredholm realization, finite-dimensional deformation/obstruction theory, Kuranishi zero set, and typed local gauge quotient."
+  },
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Executable 25-row admission interface with synthetic controls only; no GU family, elliptic complex, Fredholm domain, rich moduli, source, ledger, canon, or physical verdict.",
+  "controls": {
+    "producer": "tests/channel-swings/k834_sc_act_06_rich_moduli_admission_compiler.py",
+    "probe": "tests/channel-swings/k834_sc_act_06_rich_moduli_admission_compiler_probe.py",
+    "controls_passed": 36,
+    "hostile_mutations_rejected": 12
+  }
+}

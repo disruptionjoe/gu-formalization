@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K833-SC-ACT-06-QUOTIENT-REGULARITY-GATE",
+  "created": "2026-10-02",
+  "status": "working_draft_verified",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-ACT-06",
+  "scope": "Exact orbit-type boundary between a smooth solution set and a smooth gauge quotient.",
+  "nonfree_control": {
+    "solution_set": "R^2 with the identically zero equation",
+    "group": "SO(2)",
+    "infinitesimal_generator": "G_(x,y)=(-y,x)",
+    "sample_points": [[0, 0], [1, 0], [0, 2], [3, 4]],
+    "generator_ranks": [0, 1, 1, 1],
+    "origin_stabilizer": "SO(2)",
+    "nonzero_stabilizer": "trivial",
+    "orbit_space_invariant": "rho=x^2+y^2 in [0,infinity)",
+    "orbit_type_constant": false,
+    "quotient_is_smooth_manifold_without_boundary_near_origin": false
+  },
+  "free_control": {
+    "domain": "R^2 minus {0}",
+    "group": "SO(2)",
+    "generator_rank_everywhere": 1,
+    "stabilizer_everywhere": "trivial",
+    "action_proper": true,
+    "orbit_space_coordinate": "r=sqrt(x^2+y^2) in (0,infinity)",
+    "quotient_is_smooth_one_manifold": true
+  },
+  "quotient_gate": {
+    "smooth_zero_set_implies_smooth_gauge_quotient": false,
+    "required_local_data": [
+      "slice or equivalent local quotient model",
+      "properness on the local solution set",
+      "stabilizer/orbit-type classification"
+    ],
+    "nonfree_case_may_still_define": "orbifold, stratified space, or stack after explicit typing"
+  },
+  "decision": {
+    "actual_gu_local_slice_constructed": false,
+    "actual_gu_stabilizer_type_classified": false,
+    "actual_gu_quotient_category_established": false,
+    "global_sc_act_06_proved_or_refuted": false,
+    "next_exact_input": "For an actual GU solution germ, construct the gauge slice, prove the relevant properness/closed-orbit property, and state whether the local quotient is a manifold, orbifold, stratified space, or stack."
+  },
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Orbit-type quotient regularity gate and exact controls only; no GU slice, quotient, rich moduli, source, ledger, canon, or physical conclusion.",
+  "controls": {
+    "producer": "tests/channel-swings/k833_sc_act_06_quotient_regularity_gate.py",
+    "probe": "tests/channel-swings/k833_sc_act_06_quotient_regularity_gate_probe.py",
+    "controls_passed": 26,
+    "hostile_mutations_rejected": 12
+  }
+}

@@ -7,6 +7,21 @@ updated_at: "2026-10-02"
 
 # Next Steps For Contributors
 
+> **2026-10-02 K831--K834 POST-SYMBOL RICH-MODULI ADMISSION.** K831 proves
+> pointwise ellipticity does not supply a global Fredholm realization on a
+> noncompact carrier: normalized Gaussian dilations for `d/dx` on `R` have
+> derivative norm squared `1/(2L^2)`, while the circle control is Fredholm of
+> index zero. K832 gives an exact quadratic Kuranishi obstruction: the tangent
+> of `F(x,y)=(y,x^2)` is one-dimensional but its local zero set is isolated;
+> `G(x,y)=y-x^2` is the unobstructed control. K833 separates smooth solutions
+> from smooth quotients using the `SO(2)` action on `R^2`, whose stabilizer
+> jumps at the origin. K834 compiles K830's eighteen family rows with actual
+> all-covector exactness and six Fredholm/nonlinear/quotient rows. Next supply
+> one source/action-owned normalized `Upsilon=0` family and pass the elliptic
+> rows before constructing its Fredholm domain, Kuranishi zero set and typed
+> gauge quotient. The synthetic compiler control is not GU evidence;
+> SC-ACT-06 remains `ASSERTS`.
+
 > **2026-10-02 K827--K830 INTEGRATED RELATIVE-FAMILY ADMISSION.** K827 proves
 > that regular local parameter changes preserve the first nonzero response-jet
 > order and rank, while singular changes such as `t=s^2` belong to a different

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 32af9187d974
+revision_basis: 7f7df28194d3
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K831--K834 separate the source's claimed elliptic deformation complex from
+    its additional rich-moduli conclusion. K831 gives an exact noncompact
+    Fredholm boundary: `d/dx` on `R` has invertible nonzero principal symbol
+    but a normalized Gaussian Weyl sequence with derivative norm tending to
+    zero, whereas the circle realization is Fredholm of index zero. K832
+    exhibits a one-dimensional infinitesimal deformation killed by a nonzero
+    quadratic Kuranishi obstruction, alongside a smooth parabola control.
+    K833 proves a smooth solution set can have a singular orbit-type quotient
+    when the gauge stabilizer jumps. K834 compiles K830's eighteen family rows,
+    actual all-covector exactness, and six further Fredholm/nonlinear/quotient
+    rows into one 25-row interface. A synthetic candidate passes; current GU
+    custody passes none. SC-ACT-06 remains `ASSERTS`; no protected conclusion
+    moves.
+
     K827--K830 compose the complete relative-family admission interface left
     implicit after K815--K826. K827 proves that regular local parameter
     changes preserve the first nonzero response-jet order and rank, while a
@@ -12525,6 +12539,18 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K831--K834 make explicit that a source-owned exact symbol complex would not
+  by itself establish rich moduli. On a noncompact carrier it still needs a
+  closed Fredholm realization; its finite-dimensional tangent directions must
+  survive the nonlinear Kuranishi obstruction map; and its gauge action needs
+  a proper slice with stabilizer/orbit type and quotient category stated. The
+  25-row compiler keeps these requirements separate: an elliptic synthetic
+  control can pass while a missing nonlinear row blocks rich-moduli admission,
+  and current GU custody remains unadmitted. First supply the source/action-
+  owned normalized `Upsilon=0` family and actual all-covector middle exactness,
+  then construct the Fredholm, nonlinear and quotient layers on that same
+  family. SC-ACT-06 remains `ASSERTS`.
+
   K827--K830 make the future relative-family decision conjunctive. Regular
   reparameterizations preserve the first nonzero jet order but not its
   absolute scale; singular changes do not belong to the same normalization
@@ -13627,6 +13653,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K831--K834 require a future SC-ACT-06 candidate to cross two distinct
+  boundaries. The elliptic-complex boundary is K830's eighteen source-family
+  rows plus actual middle exactness at every nonzero covector. The rich-moduli
+  boundary additionally requires a closed Fredholm realization, finite-
+  dimensional deformation and obstruction spaces, the actual nonlinear
+  Kuranishi map with its local zero-set dimension or stratification, and a
+  proper stabilizer-typed local gauge quotient. Pointwise ellipticity on a
+  noncompact carrier, a large linearized kernel, or a smooth prequotient zero
+  set cannot substitute for those rows. Current custody supplies no complete
+  family and no post-symbol packet, so SC-ACT-06 remains `ASSERTS` and no
+  protected conclusion moves.
+
   K827--K830 require one source/action-owned normalized relative family to
   satisfy all eighteen admission rows on a single Euclidean carrier and graph
   domain. Regular local parameter changes preserve the first nonzero jet order

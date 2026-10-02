@@ -431,6 +431,18 @@ def load_inputs() -> dict:
         "k830": json.loads(
             (ROOT / "lab/process/k830-sc-act-06-relative-family-admission-compiler.json").read_text()
         ),
+        "k831": json.loads(
+            (ROOT / "lab/process/k831-sc-act-06-noncompact-fredholm-boundary.json").read_text()
+        ),
+        "k832": json.loads(
+            (ROOT / "lab/process/k832-sc-act-06-kuranishi-obstruction-gate.json").read_text()
+        ),
+        "k833": json.loads(
+            (ROOT / "lab/process/k833-sc-act-06-quotient-regularity-gate.json").read_text()
+        ),
+        "k834": json.loads(
+            (ROOT / "lab/process/k834-sc-act-06-rich-moduli-admission-compiler.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -623,9 +635,13 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     check(registry["latest_gu_formalization_result"] ==
-          "K827_K830_SC_ACT_06_INTEGRATED_RELATIVE_ADMISSION_CURRENT",
+          "K831_K834_SC_ACT_06_POST_SYMBOL_MODULI_CURRENT",
           "latest GU result pointer moved")
     if isinstance(live, str):
+        check("K831--K834 require a future SC-ACT-06 candidate" in live and
+              "closed Fredholm realization" in live and
+              "proper stabilizer-typed local gauge quotient" in live,
+              "live K831--K834 post-symbol moduli gate missing")
         check("K827--K830 require one source/action-owned normalized relative family" in live and
               "all eighteen admission rows" in live and
               "graph differentiability" in live,
@@ -899,6 +915,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K831--K834 separate the source's claimed elliptic deformation complex" in summary and
+          "quadratic Kuranishi obstruction" in summary and
+          "25-row interface" in summary,
+          "current K831--K834 result lost")
     check("K827--K830 compose the complete relative-family admission interface" in summary and
           "eighteen required rows" in summary and
           "current GU packet" in summary,
@@ -1060,6 +1080,18 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "K831--K834 make explicit that a source-owned exact symbol complex" in question
+        and "closed Fredholm realization" in question
+        and "proper slice with stabilizer/orbit type" in question,
+        "current question lost K831--K834 post-symbol moduli gates",
+    )
+    check(
+        "K831--K834 separate symbol ellipticity" in data["agenda"].get("latest_result_2026_10_02_k831_k834", "")
+        and "25 rows" in data["agenda"].get("latest_result_2026_10_02_k831_k834", "")
+        and "SC-ACT-06 remains ASSERTS" in data["agenda"].get("latest_result_2026_10_02_k831_k834", ""),
+        "agenda K831--K834 result is not current",
+    )
     check(
         "K827--K830 make the future relative-family decision conjunctive" in question
         and "graph-differentiable transports" in question
@@ -3287,6 +3319,43 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k830["decision"]["actual_gu_candidate_admitted"],
           "K830 relative-family admission compiler moved")
 
+    k831 = data["k831"]
+    check(k831["operator_theorem"]["principal_symbol_invertible_for_nonzero_covector"] and
+          not k831["operator_theorem"]["bounded_below_modulo_kernel"] and
+          not k831["operator_theorem"]["fredholm"] and
+          k831["exact_controls"]["derivative_norm_squared"] == ["1/2", "1/8", "1/32", "1/128"] and
+          k831["exact_controls"]["compact_control_fredholm"] and
+          not k831["decision"]["actual_gu_fredholm_domain_constructed"],
+          "K831 noncompact Fredholm boundary moved")
+
+    k832 = data["k832"]
+    check(k832["obstructed_control"]["cokernel_obstruction_coefficient"] == 2 and
+          not k832["obstructed_control"]["second_order_lift_exists"] and
+          k832["obstructed_control"]["actual_local_dimension"] == 0 and
+          k832["unobstructed_control"]["second_order_equation_residual"] == 0 and
+          not k832["decision"]["actual_gu_unobstructedness_proved"],
+          "K832 Kuranishi obstruction gate moved")
+
+    k833 = data["k833"]
+    check(k833["nonfree_control"]["generator_ranks"] == [0, 1, 1, 1] and
+          not k833["nonfree_control"]["orbit_type_constant"] and
+          not k833["nonfree_control"]["quotient_is_smooth_manifold_without_boundary_near_origin"] and
+          k833["free_control"]["action_proper"] and
+          k833["free_control"]["quotient_is_smooth_one_manifold"] and
+          not k833["decision"]["actual_gu_local_slice_constructed"],
+          "K833 quotient regularity gate moved")
+
+    k834 = data["k834"]
+    check(k834["compiler"]["family_row_count"] == 18 and
+          k834["compiler"]["post_symbol_row_count"] == 7 and
+          k834["compiler"]["total_row_count"] == 25 and
+          not k834["compiler"]["elliptic_complex_implies_rich_moduli"] and
+          k834["exact_controls"]["missing_nonlinear_elliptic_admitted"] and
+          not k834["exact_controls"]["missing_nonlinear_rich_moduli_admitted"] and
+          k834["exact_controls"]["current_gu_missing_row_count"] == 25 and
+          not k834["decision"]["actual_gu_rich_moduli_admitted"],
+          "K834 rich-moduli admission compiler moved")
+
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]
     k693_n = k693["native_interface_status"]
@@ -4445,6 +4514,10 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k828-domain-bijection-suffices", lambda d: d["k828"]["domain_transport_theorem"].__setitem__("domain_bijection_alone_defines_derivative", True))
     add("k829-kernel-authenticates-complex", lambda d: d["k829"]["schur_complex_theorem"].__setitem__("kernel_equivalence_alone_authenticates_reduced_complex", True))
     add("k830-partial-pass", lambda d: d["k830"]["compiler"].__setitem__("partial_pass_implies_ellipticity", True))
+    add("k831-fredholm", lambda d: d["k831"]["operator_theorem"].__setitem__("fredholm", True))
+    add("k832-unobstructed", lambda d: d["k832"]["decision"].__setitem__("actual_gu_unobstructedness_proved", True))
+    add("k833-smooth-quotient", lambda d: d["k833"]["nonfree_control"].__setitem__("quotient_is_smooth_manifold_without_boundary_near_origin", True))
+    add("k834-rich-without-nonlinear", lambda d: d["k834"]["exact_controls"].__setitem__("missing_nonlinear_rich_moduli_admitted", True))
 
     add("k696-form", lambda d: d["k696"]["integration_theorem"].__setitem__("graph_equivalence_without_form_identity_sufficient", True))
     add("k696-reduction", lambda d: d["k696"]["integration_theorem"].__setitem__("reduction_of_column_labels_alone_reduces_native_R", True))
