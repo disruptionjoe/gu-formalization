@@ -1,0 +1,62 @@
+{
+  "claim_ceiling": "Joint uniform-persistence theorem and nonuniform counterexample only; no GU all-covector family or ellipticity conclusion.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 28,
+    "hostile_mutations_rejected": 12,
+    "probe": "tests/channel-swings/k822_sc_act_06_joint_parameter_covector_uniformity_probe.py",
+    "producer": "tests/channel-swings/k822_sc_act_06_joint_parameter_covector_uniformity.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "actual_gu_uniform_interval_proved": false,
+    "global_sc_act_06_proved_or_refuted": false,
+    "next_exact_input": "For an authenticated source family and quotient slice, prove a positive gap for tau(q) and a jointly uniform quadratic Schur remainder on the complete Euclidean cotangent sphere.",
+    "pointwise_k817_k818_checks_suffice_without_joint_control": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "C": 3,
+    "actual_gap_at_test_t": "5/16",
+    "certified_gap_at_test_t": "1/4",
+    "common_interval_upper": "1/3",
+    "common_punctured_interval_exists": false,
+    "each_fixed_q_has_punctured_interval": true,
+    "failure_reason": "remainder is not jointly continuous and has no uniform quadratic constant",
+    "mu": 2,
+    "pointwise_counterexample": "S(t,q)=2t-t^2/q for q>0 and S(t,0)=2t",
+    "scalar_control": "S(t)=2t-3t^2",
+    "test_t": "1/4"
+  },
+  "gu_typed_objects": {
+    "action_owner": "future source-owned relative Upsilon complex",
+    "carrier": "authenticated quotient-symbol bundles over the Euclidean unit cotangent sphere",
+    "grading": "quotiented field symbol to independent residual symbol",
+    "pairing": "Euclidean fiber norms after domain and slice authentication",
+    "real_structure": "real parameter and real homogeneous covector symbol",
+    "target": "one common punctured parameter interval with all-covector exactness"
+  },
+  "ledger_no_change_reason": "The theorem composes generic uniform estimates but supplies no source symbol family, physical quotient, observable, prediction or confirmation.",
+  "pinned_inputs": {
+    "k817": {"path": "lab/process/k817-sc-act-06-finite-parameter-schur-gate.json", "sha256": "4b00381e01e8da380e692da1b694d26c777e8450e17a3a39a1a33def970efdd2"},
+    "k818": {"path": "lab/process/k818-sc-act-06-uniform-covector-gate.json", "sha256": "88b7ab39ba3cab9f00358b945fbd168d38d301dd41a9c1c76f3f6a9b64fc62e3"},
+    "k820": {"path": "lab/process/k820-sc-act-06-differentiated-complex-compatibility.json", "sha256": "31b860114fdb9a78501c66a56b7e28a8fcd973d6eff95527a158a1efe135c6e9"},
+    "k821": {"path": "lab/process/k821-sc-act-06-quotient-slice-equivalence.json", "sha256": "39151c78af0792273fe66f76dba72b2250dc9b0e1e7ce5913828f7aa18f8c722"}
+  },
+  "result_id": "K822-SC-ACT-06-JOINT-PARAMETER-COVECTOR-UNIFORMITY",
+  "schema_version": "1.0",
+  "scope": "Uniform punctured-parameter theorem for an authenticated quotient symbol over the complete Euclidean unit cotangent sphere.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "uniform_persistence_theorem": {
+    "certified_gap": "sigma_min(S(t,q)) >= mu|t|/2 for every unit q",
+    "common_interval": "0 < |t| <= mu/(2C)",
+    "expansion": "S(t,q)=t tau(q)+E(t,q)",
+    "joint_continuity_and_compactness_can_supply_uniform_remainder": true,
+    "pointwise_thresholds_imply_common_interval": false,
+    "theorem_constructs_gu_symbol": false,
+    "transverse_gap": "inf_|q|=1 sigma_min(tau(q)) >= mu > 0",
+    "uniform_remainder": "sup_|q|=1 ||E(t,q)|| <= C t^2"
+  }
+}

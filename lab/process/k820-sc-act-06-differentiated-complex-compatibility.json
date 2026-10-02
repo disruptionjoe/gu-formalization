@@ -1,0 +1,65 @@
+{
+  "claim_ceiling": "Necessary differentiated-complex identities only; no source family, exact quotient or ellipticity conclusion.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 26,
+    "hostile_mutations_rejected": 12,
+    "probe": "tests/channel-swings/k820_sc_act_06_differentiated_complex_compatibility_probe.py",
+    "producer": "tests/channel-swings/k820_sc_act_06_differentiated_complex_compatibility.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "actual_moving_complex_constructed": false,
+    "arbitrary_relative_rank_budget_admissible": false,
+    "global_sc_act_06_proved_or_refuted": false,
+    "next_exact_input": "For an actual source family, serialize Gdot and Rdot and prove both differentiated zero-composition identities before computing the quotient transverse rank."
+  },
+  "differentiated_complex_theorem": {
+    "cokernel_gauge_condition": "pi_coker(J0) Delta G0 = 0",
+    "identities_prove_exactness": false,
+    "kernel_redundancy_condition": "R0 Delta|ker(J0) = 0",
+    "left_identity": "Delta G0 + J0 Gdot = 0",
+    "rank_budget_without_identities_is_credited": false,
+    "right_identity": "Rdot J0 + R0 Delta = 0",
+    "transverse_factorization": "tau: ker(J0)/im(G0) -> ker(Rbar0) subset coker(J0)"
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "G0": [0, 1, 0],
+    "J0": [[1, 0, 0], [0, 0, 0], [0, 0, 0]],
+    "R0": [0, 0, 1],
+    "invalid_gauge_Delta": [[0, 0, 0], [0, 1, 0], [0, 0, 0]],
+    "invalid_gauge_rejected": true,
+    "invalid_redundancy_Delta": [[0, 0, 0], [0, 0, 0], [0, 0, 1]],
+    "invalid_redundancy_rejected": true,
+    "valid_Delta": [[0, 0, 0], [0, 0, 1], [0, 0, 0]],
+    "valid_gauge_projection_zero": true,
+    "valid_redundancy_on_kernel_zero": true,
+    "valid_tau_rank": 1
+  },
+  "gu_typed_objects": {
+    "action_owner": "future source-owned moving Upsilon complex",
+    "carrier": "P --G_t--> X --J_t--> Y --R_t--> Z",
+    "grading": "gauge parameters, fields, residuals and redundant rows",
+    "pairing": "none; quotient and induced cokernel maps only",
+    "real_structure": "real finite-dimensional frozen symbol fibers",
+    "target": "preservation of both zero compositions under relative coefficient motion"
+  },
+  "ledger_no_change_reason": "A generic moving-complex compatibility theorem promotes no source gauge, quotient, physical state or observable.",
+  "pinned_inputs": {
+    "k816": {
+      "path": "lab/process/k816-sc-act-06-response-symmetry-overlap.json",
+      "sha256": "57f946e5da32bf196c4293ef1d20450d7c23e075071e0cb904e9c5789e1eddea"
+    },
+    "k819": {
+      "path": "lab/process/k819-sc-act-06-second-order-zero-locus-obstruction.json",
+      "sha256": "bfa73e53cd1cd3fe587ea4d9f7e7d6a437e244fafd904a800db835bfb0d9f667"
+    }
+  },
+  "result_id": "K820-SC-ACT-06-DIFFERENTIATED-COMPLEX-COMPATIBILITY",
+  "schema_version": "1.0",
+  "scope": "Necessary first-parameter identities for a moving gauge-response-redundancy symbol complex.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

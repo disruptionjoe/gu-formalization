@@ -395,6 +395,18 @@ def load_inputs() -> dict:
         "k818": json.loads(
             (ROOT / "lab/process/k818-sc-act-06-uniform-covector-gate.json").read_text()
         ),
+        "k819": json.loads(
+            (ROOT / "lab/process/k819-sc-act-06-second-order-zero-locus-obstruction.json").read_text()
+        ),
+        "k820": json.loads(
+            (ROOT / "lab/process/k820-sc-act-06-differentiated-complex-compatibility.json").read_text()
+        ),
+        "k821": json.loads(
+            (ROOT / "lab/process/k821-sc-act-06-quotient-slice-equivalence.json").read_text()
+        ),
+        "k822": json.loads(
+            (ROOT / "lab/process/k822-sc-act-06-joint-parameter-covector-uniformity.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -587,9 +599,13 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     check(registry["latest_gu_formalization_result"] ==
-          "K815_K818_SC_ACT_06_RELATIVE_GERM_ADMISSION_CURRENT",
+          "K819_K822_SC_ACT_06_RELATIVE_FAMILY_COHERENCE_CURRENT",
           "latest GU result pointer moved")
     if isinstance(live, str):
+        check("K819--K822 require a future relative candidate" in live and
+              "second-order" in live and
+              "one common punctured interval" in live,
+              "live K819--K822 relative-family coherence packet missing")
         check("K815--K818 require every future relative-coefficient candidate" in live and
               "pi_coker(J)b=0" in live and
               "uniform positive" in live,
@@ -1003,6 +1019,18 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "K819--K822 make the relative-family coherence test explicit" in question
+        and "Delta G0+J0 Gdot=0" in question
+        and "one common punctured interval" in question,
+        "current question lost K819--K822 relative-family coherence gates",
+    )
+    check(
+        "K819--K822 add four coherence gates" in data["agenda"].get("latest_result_2026_10_02_k819_k822", "")
+        and "arbitrary extra rows" in data["agenda"].get("latest_result_2026_10_02_k819_k822", "")
+        and "SC-ACT-06 remains ASSERTS" in data["agenda"].get("latest_result_2026_10_02_k819_k822", ""),
+        "agenda K819--K822 result is not current",
+    )
     check(
         "K815--K818 make the future SC-ACT-06 relative-germ gate executable" in question
         and "pi_coker(J)b=0" in question
@@ -3094,6 +3122,39 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k818["decision"]["all_covector_exactness_proved_for_gu"],
           "K818 uniform covector gate moved")
 
+    k819 = data["k819"]
+    check(not k819["second_order_theorem"]["first_order_pass_implies_second_order_pass"] and
+          k819["second_order_theorem"]["kernel_choice_must_be_solved"] and
+          not k819["exact_controls"]["obstructed_real_second_order_solution_exists"] and
+          k819["exact_controls"]["repairable_kernel_speeds"] == [-1, 1] and
+          not k819["decision"]["actual_source_two_jet_constructed"],
+          "K819 second-order zero-locus obstruction moved")
+
+    k820 = data["k820"]
+    check(k820["differentiated_complex_theorem"]["left_identity"] == "Delta G0 + J0 Gdot = 0" and
+          k820["differentiated_complex_theorem"]["right_identity"] == "Rdot J0 + R0 Delta = 0" and
+          not k820["differentiated_complex_theorem"]["rank_budget_without_identities_is_credited"] and
+          k820["exact_controls"]["invalid_gauge_rejected"] and
+          k820["exact_controls"]["invalid_redundancy_rejected"],
+          "K820 differentiated-complex compatibility moved")
+
+    k821 = data["k821"]
+    check(k821["slice_theorem"]["dimension_condition"] == "dim(Z)=rank(G)" and
+          k821["slice_theorem"]["arbitrary_extra_rows_may_erase_physical_classes"] and
+          k821["exact_controls"]["invalid_middle_cohomology_dimension"] == 1 and
+          k821["exact_controls"]["arbitrary_stack_rank"] == 3 and
+          not k821["exact_controls"]["arbitrary_rows_are_gauge_slice"] and
+          not k821["decision"]["source_gauge_slice_authenticated"],
+          "K821 quotient/slice equivalence moved")
+
+    k822 = data["k822"]
+    check(k822["uniform_persistence_theorem"]["common_interval"] == "0 < |t| <= mu/(2C)" and
+          not k822["uniform_persistence_theorem"]["pointwise_thresholds_imply_common_interval"] and
+          k822["exact_controls"]["actual_gap_at_test_t"] == "5/16" and
+          not k822["exact_controls"]["common_punctured_interval_exists"] and
+          not k822["decision"]["actual_gu_uniform_interval_proved"],
+          "K822 joint parameter-covector uniformity moved")
+
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]
     k693_n = k693["native_interface_status"]
@@ -4240,6 +4301,10 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k816-overlap", lambda d: d["k816"]["exact_controls"].__setitem__("symmetry_union_rank", 4))
     add("k817-first-order-close", lambda d: d["k817"]["schur_theorem"].__setitem__("deficient_tau_implies_no_finite_parameter_repair", True))
     add("k818-sampling", lambda d: d["k818"]["uniformity_theorem"].__setitem__("finite_samples_imply_all_covectors", True))
+    add("k819-first-implies-second", lambda d: d["k819"]["second_order_theorem"].__setitem__("first_order_pass_implies_second_order_pass", True))
+    add("k820-rank-without-identities", lambda d: d["k820"]["differentiated_complex_theorem"].__setitem__("rank_budget_without_identities_is_credited", True))
+    add("k821-arbitrary-slice", lambda d: d["k821"]["exact_controls"].__setitem__("arbitrary_rows_are_gauge_slice", True))
+    add("k822-pointwise-uniform", lambda d: d["k822"]["uniform_persistence_theorem"].__setitem__("pointwise_thresholds_imply_common_interval", True))
 
     add("k696-form", lambda d: d["k696"]["integration_theorem"].__setitem__("graph_equivalence_without_form_identity_sufficient", True))
     add("k696-reduction", lambda d: d["k696"]["integration_theorem"].__setitem__("reduction_of_column_labels_alone_reduces_native_R", True))

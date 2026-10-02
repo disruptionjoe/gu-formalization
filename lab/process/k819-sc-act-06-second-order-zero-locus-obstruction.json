@@ -1,0 +1,70 @@
+{
+  "claim_ceiling": "Necessary second-order zero-locus compatibility only; no source two-jet, ellipticity or global SC-ACT-06 conclusion.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 24,
+    "hostile_mutations_rejected": 12,
+    "probe": "tests/channel-swings/k819_sc_act_06_second_order_zero_locus_obstruction_probe.py",
+    "producer": "tests/channel-swings/k819_sc_act_06_second_order_zero_locus_obstruction.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "actual_source_two_jet_constructed": false,
+    "global_sc_act_06_proved_or_refuted": false,
+    "k815_alone_certifies_solution_family": false,
+    "next_exact_input": "For a source family, solve K815 and then the K819 cokernel equation over the affine kernel freedom in xdot before crediting a C2 zero-locus germ."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "obstructed_J": 0,
+    "obstructed_b": 0,
+    "obstructed_family": "F(t,x)=x^2+t^2",
+    "obstructed_first_order_passes": true,
+    "obstructed_real_second_order_solution_exists": false,
+    "obstructed_second_term": "2+2*xdot^2",
+    "repairable_branches": [
+      "x=-t",
+      "x=t"
+    ],
+    "repairable_family": "F(t,x)=x^2-t^2",
+    "repairable_first_order_passes": true,
+    "repairable_kernel_speeds": [
+      -1,
+      1
+    ],
+    "repairable_second_order_solution_exists": true
+  },
+  "gu_typed_objects": {
+    "action_owner": "released Upsilon zero locus; no source parameter family is supplied",
+    "carrier": "second jet of a proposed real field/background curve x_t",
+    "grading": "parameter two-jet and field two-jet into the Upsilon residual target",
+    "pairing": "cokernel quotient of the frozen first response J only",
+    "real_structure": "real C2 parameter curve and real residual target",
+    "target": "existence of a second derivative of a zero-locus solution family"
+  },
+  "ledger_no_change_reason": "A generic second-order existence obstruction supplies no source family, physical quotient, observable, prediction or confirmation.",
+  "pinned_inputs": {
+    "k815": {
+      "path": "lab/process/k815-sc-act-06-zero-locus-tangent-compatibility.json",
+      "sha256": "897f1feed21163ec2031203c614911bceb4b4be006cd020dd1ec23a93f8d3734"
+    },
+    "k817": {
+      "path": "lab/process/k817-sc-act-06-finite-parameter-schur-gate.json",
+      "sha256": "4b00381e01e8da380e692da1b694d26c777e8450e17a3a39a1a33def970efdd2"
+    }
+  },
+  "result_id": "K819-SC-ACT-06-SECOND-ORDER-ZERO-LOCUS-OBSTRUCTION",
+  "schema_version": "1.0",
+  "scope": "Necessary second-order compatibility for any source-typed relative Upsilon=0 solution germ after K815 tangent solvability.",
+  "second_order_theorem": {
+    "first_equation": "J xdot + b = 0",
+    "first_order_pass_implies_second_order_pass": false,
+    "kernel_choice_must_be_solved": true,
+    "obstruction": "pi_coker(J)(F_tt + 2 F_tx[xdot] + F_xx[xdot,xdot]) = 0",
+    "second_equation": "J xddot + F_tt + 2 F_tx[xdot] + F_xx[xdot,xdot] = 0",
+    "second_order_pass_proves_full_family": false
+  },
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

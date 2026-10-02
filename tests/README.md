@@ -4,6 +4,18 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K819--K822 relative-family coherence gates
+
+- `channel-swings/k819_sc_act_06_second_order_zero_locus_obstruction.py`
+  proves the second-order cokernel obstruction and kernel-choice requirement.
+- `channel-swings/k820_sc_act_06_differentiated_complex_compatibility.py`
+  enforces the differentiated gauge and redundancy identities.
+- `channel-swings/k821_sc_act_06_quotient_slice_equivalence.py` distinguishes
+  an authenticated gauge slice from arbitrary class-erasing rows.
+- `channel-swings/k822_sc_act_06_joint_parameter_covector_uniformity.py`
+  proves the common parameter/covector interval from uniform estimates.
+- The paired `_probe.py` files reject 48/48 hostile mutations.
+
 ## K815--K818 relative-germ admission discriminators
 
 - `channel-swings/k815_sc_act_06_zero_locus_tangent_compatibility.py`

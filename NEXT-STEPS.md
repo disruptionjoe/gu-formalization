@@ -7,6 +7,21 @@ updated_at: "2026-10-02"
 
 # Next Steps For Contributors
 
+> **2026-10-02 K819--K822 RELATIVE-FAMILY COHERENCE GATES.** K819 adds the
+> second-order zero-locus obstruction: after `J xdot+b=0`, a proposed family
+> must solve the cokernel equation for
+> `F_tt+2F_tx[xdot]+F_xx[xdot,xdot]` over the affine kernel freedom in
+> `xdot`. K820 differentiates both complex identities, requiring
+> `Delta G0+J0 Gdot=0` and `Rdot J0+R0 Delta=0`; relative rank outside those
+> identities is not admissible. K821 proves when a gauge slice represents
+> `ker(J)/im(G)` and exhibits how arbitrary extra rows can erase a physical
+> class while making the augmented matrix invertible. K822 composes parameter
+> persistence with all-covector exactness: a positive transverse gap and a
+> uniform quadratic Schur remainder give one common punctured interval;
+> pointwise thresholds alone do not. Next supply one source-typed relative
+> `Upsilon=0` two-jet and pass K815--K822 together with full stationarity,
+> field-symbol, domain and ownership checks.
+
 > **2026-10-02 K815--K818 RELATIVE-GERM ADMISSION DISCRIMINATORS.** A moving
 > zero-locus family must first solve `J xdot+b=0`; the parameter source `b`
 > must vanish in `coker(J)` and is distinct from the principal correction

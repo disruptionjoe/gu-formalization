@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: a1b763b068c1
+revision_basis: 264041a15fe7
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K819--K822 add the second-order and complex-coherence conditions missing
+    from the first relative-germ admission packet. K819 proves that first-
+    tangent solvability does not imply a real C2 zero-locus family: the
+    second derivative must also vanish in `coker(J)` after solving over the
+    kernel freedom in `xdot`. K820 differentiates both zero-composition
+    identities, so `Delta G0+J0 Gdot=0` and `Rdot J0+R0 Delta=0` must hold
+    before any relative rank is credited. K821 authenticates a gauge slice by
+    `HG` invertibility and the direct-sum decomposition; arbitrary rank-adding
+    rows can erase physical cohomology. K822 proves that a uniform transverse
+    gap plus a uniform quadratic Schur remainder yields one common punctured
+    parameter interval over every Euclidean unit covector. Pointwise
+    thresholds do not. No source family, gauge slice or quotient was invented.
+    SC-ACT-06 remains `ASSERTS`; no protected conclusion moves.
+
     K815--K818 turn K814's future relative-germ packet into four executable
     admission discriminators. K815 separates motion of the zero locus from
     motion of its principal response: a family `F_t(x_t)=0` must satisfy
@@ -12485,6 +12499,18 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K819--K822 make the relative-family coherence test explicit. After K815,
+  solve the second-order cokernel equation over the affine kernel freedom in
+  `xdot`; after K816, serialize moving gauge and redundancy maps satisfying
+  `Delta G0+J0 Gdot=0` and `Rdot J0+R0 Delta=0`; authenticate any gauge slice
+  by `HG` and `X=im(G) direct_sum ker(H)`; and combine K817/K818 with a uniform
+  quadratic Schur remainder to obtain one common punctured interval for every
+  Euclidean unit covector. First-order passage, arbitrary augmented
+  invertibility and covector-dependent local thresholds are insufficient.
+  Next supply one source-typed relative `Upsilon=0` two-jet and pass K815--K822
+  together with stationarity, fermion/mixed-symbol, ownership and common-
+  domain checks. SC-ACT-06 remains `ASSERTS`.
+
   K815--K818 make the future SC-ACT-06 relative-germ gate executable without
   pretending that the missing source two-jet exists. First, a proposed
   `F_t(x_t)=0` family must solve `J xdot+b=0`, equivalently
@@ -13552,6 +13578,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K819--K822 require a future relative candidate to solve the second-order
+  zero-locus cokernel obstruction over kernel freedom, preserve the moving
+  gauge-response-redundancy complex to first parameter order, authenticate
+  every gauge slice as an actual quotient representative, and prove a joint
+  parameter/covector estimate with one common punctured interval. Passing
+  K815--K818 without these coherence rows is not sufficient. Current custody
+  still supplies no source-owned relative family, so the next native input is
+  one complete source-typed relative `Upsilon=0` two-jet with moving `G_t`,
+  `J_t`, `R_t`, quotient slice, Schur remainder and common Euclidean domain.
+  SC-ACT-06 remains `ASSERTS`; no protected conclusion moves.
+
   K815--K818 require every future relative-coefficient candidate to serialize
   the parameter source `b` separately from the principal correction `Delta`,
   prove `pi_coker(J)b=0` and solve the zero-locus tangent equation, authenticate

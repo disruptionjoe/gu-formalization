@@ -7,6 +7,44 @@ updated_at: "2026-10-02"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K819--K822 relative-family coherence gates (2026-10-02)
+
+K819 proves the second-order cokernel condition for a proposed moving zero
+locus. The exact real controls show that `F(t,x)=x^2+t^2` passes the first
+tangent equation at the origin but admits no real second-order solution,
+while `F(t,x)=x^2-t^2` is repaired by the kernel choices `xdot=+/-1`.
+K820 differentiates `J_t G_t=0` and `R_t J_t=0`; consequently the relative
+correction must vanish on old gauge directions in cokernel and send the old
+kernel into the kernel of the induced redundancy map.
+
+K821 proves the finite-dimensional quotient/slice equivalence. Only an
+authenticated `H` with `HG` an isomorphism and
+`X=im(G) direct_sum ker(H)` lets the sliced kernel represent
+`ker(J)/im(G)`. An exact counterexample adds two arbitrary rows, obtains full
+stacked rank, and silently deletes a genuine physical class. K822 then
+composes K817 and K818: if `S(t,q)=t tau(q)+E(t,q)`, the transverse gap is at
+least `mu` and the remainder is uniformly bounded by `C t^2`, then every unit
+covector has gap at least `mu|t|/2` on the common interval
+`0<|t|<=mu/(2C)`. Covector-dependent thresholds without joint continuity or a
+uniform remainder do not imply any common interval.
+
+Run the producers and hostile probes:
+
+```bash
+python3 tests/channel-swings/k819_sc_act_06_second_order_zero_locus_obstruction.py --check
+python3 tests/channel-swings/k819_sc_act_06_second_order_zero_locus_obstruction_probe.py
+python3 tests/channel-swings/k820_sc_act_06_differentiated_complex_compatibility.py --check
+python3 tests/channel-swings/k820_sc_act_06_differentiated_complex_compatibility_probe.py
+python3 tests/channel-swings/k821_sc_act_06_quotient_slice_equivalence.py --check
+python3 tests/channel-swings/k821_sc_act_06_quotient_slice_equivalence_probe.py
+python3 tests/channel-swings/k822_sc_act_06_joint_parameter_covector_uniformity.py --check
+python3 tests/channel-swings/k822_sc_act_06_joint_parameter_covector_uniformity_probe.py
+```
+
+The producers declare 104 controls and the probes reject 48 hostile
+mutations. No source family, gauge slice or quotient is constructed, and
+SC-ACT-06 remains `ASSERTS` with no protected scientific effect.
+
 ## K815--K818 relative-germ admission discriminators (2026-10-02)
 
 K815 proves the tangent compatibility condition for any moving zero-locus
