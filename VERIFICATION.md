@@ -7,6 +7,40 @@ updated_at: "2026-10-02"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K799--K802 certified curved T=0 family closure (2026-10-02)
+
+K799 composes the certified K127 local Ricci-flat arbitrary-Weyl `T=0`
+zero-response family with K723/K747's principal transport theorem and K788's
+direct first-order calculation. Coherent normal-frame transport preserves the
+map `J_q(u)=K_LIFT(SHIAB(q_WEDGE_u))`, hence rank 122864 and kernel 106512 on
+positive, negative, and null real nonzero covectors.
+
+K800 transports K792's zero-locus factorization of `Xi=D_omega Upsilon` and
+K793's zero-fermion full-field kernel embedding. Even after granting the full
+16384-dimensional internal `q lambda` candidate plus four metric
+diffeomorphisms, at least 90124 middle classes persist. The internal candidate
+is not promoted to source-owned total gauge.
+
+K801 proves that changing only the curvature two-jet inside the certified K127
+family changes subprincipal transport but not the highest-order response.
+K802 therefore closes only that family's current released packet. The result
+does not classify all `T=0` or `Upsilon=0` germs, exclude nonzero-`T` or
+non-Levi-Civita germs, authenticate another row or symmetry, or refute
+SC-ACT-06.
+
+Run:
+
+```bash
+python3 tests/channel-swings/k799_sc_act_06_curved_t0_direct_response_transport.py
+python3 tests/channel-swings/k799_sc_act_06_curved_t0_direct_response_transport_probe.py
+python3 tests/channel-swings/k800_sc_act_06_curved_t0_full_field_kernel_persistence.py
+python3 tests/channel-swings/k800_sc_act_06_curved_t0_full_field_kernel_persistence_probe.py
+python3 tests/channel-swings/k801_sc_act_06_curvature_only_reopener_theorem.py
+python3 tests/channel-swings/k801_sc_act_06_curvature_only_reopener_theorem_probe.py
+python3 tests/channel-swings/k802_sc_act_06_certified_t0_family_closure.py
+python3 tests/channel-swings/k802_sc_act_06_certified_t0_family_closure_probe.py
+```
+
 ## K795--K798 current-custody K500 packet closure (2026-10-02)
 
 K795 freezes the complete native K500 decision interface as a conjunction.

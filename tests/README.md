@@ -4,6 +4,21 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K799--K802 certified curved T=0 family closure
+
+- `channel-swings/k799_sc_act_06_curved_t0_direct_response_transport.py`
+  transports the direct response over K127's certified family; its `_probe.py`
+  independently replays 28 hostile mutations.
+- `channel-swings/k800_sc_act_06_curved_t0_full_field_kernel_persistence.py`
+  composes the Xi/full-field/symmetry bound; its `_probe.py` independently
+  replays 30 hostile mutations.
+- `channel-swings/k801_sc_act_06_curvature_only_reopener_theorem.py` proves
+  curvature-only changes do not alter the principal response; its `_probe.py`
+  independently replays 28 hostile mutations.
+- `channel-swings/k802_sc_act_06_certified_t0_family_closure.py` records the
+  scoped family closure and live reopeners; its `_probe.py` independently
+  replays 30 hostile mutations.
+
 ## K795--K798 current-custody K500 packet closure
 
 - `channel-swings/k795_k500_complete_ab_decision_interface.py` freezes the

@@ -1,0 +1,61 @@
+{
+  "claim_ceiling": "Exact persistence over the certified K127 family only. The internal q-lambda candidate remains a favorable grant, not source-owned total gauge; no all-germ or global SC-ACT-06 conclusion follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "composition": {
+    "background_residual_zero": true,
+    "candidate_internal_symmetry_promoted_to_owned_gauge": false,
+    "coherent_transport_preserves_dimensions": true,
+    "distinct_i2b_row_imported": false,
+    "global_all_zero_locus_germs_classified": false,
+    "metric_epsilon_columns_delete_embedded_kernel": false,
+    "xi_principal_row_factors_through_D_Upsilon": true,
+    "xi_reduces_connection_kernel": false,
+    "zero_fermion_diagonal_acts_on_embedded_bosonic_kernel": false
+  },
+  "controls": {
+    "controls_passed": 40,
+    "hostile_mutations_rejected": 30,
+    "probe": "tests/channel-swings/k800_sc_act_06_curved_t0_full_field_kernel_persistence_probe.py",
+    "producer": "tests/channel-swings/k800_sc_act_06_curved_t0_full_field_kernel_persistence.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "curvature_only_family_middle_exact_under_maximal_grant": false,
+    "next_exact_input": "A nonzero-T or otherwise non-Levi-Civita zero-locus germ with changed principal response, a different authenticated first-order coefficient/row, or at least 90124 additional independent owned symmetry directions.",
+    "released_full_field_extension_repairs_certified_family": false
+  },
+  "direction": "observed_to_native",
+  "exact_bound": {
+    "embedded_connection_kernel_dimension": 106512,
+    "granted_internal_q_lambda_rank": 16384,
+    "granted_metric_diffeomorphism_rank": 4,
+    "maximal_current_granted_symmetry_rank": 16388,
+    "persistent_middle_classes_lower_bound": 90124,
+    "uniform_on_certified_family_and_positive_negative_null_real_covectors": true
+  },
+  "ledger_no_change_reason": "This is a local principal-symbol lower bound over one certified family, not a physical quotient or global moduli result.",
+  "pinned_inputs": {
+    "k789": {
+      "path": "lab/process/k789-sc-act-06-maximal-symmetry-budget.json",
+      "sha256": "b73011120d0904f451a232042ab03b5089f20336df45371180cca4db6d999a7f"
+    },
+    "k792": {
+      "path": "lab/process/k792-sc-act-06-redundant-prolongation-kernel-theorem.json",
+      "sha256": "0f4c88f9c89ec2b7813332d608c64d0f54807058bdee29707f6bfc3c1a023466"
+    },
+    "k793": {
+      "path": "lab/process/k793-sc-act-06-full-field-kernel-persistence.json",
+      "sha256": "b3f88b05b50514e55fba134ee870e47e84c1d784c871a5c37bac36d726a03b60"
+    },
+    "k799": {
+      "path": "lab/process/k799-sc-act-06-curved-t0-direct-response-transport.json",
+      "sha256": "41cdb0e087d123b766a61a527932622f4b68b9fc18344413eb38cf9a86852baa"
+    }
+  },
+  "result_id": "K800-SC-ACT-06-CURVED-T0-FULL-FIELD-KERNEL-PERSISTENCE",
+  "schema_version": "1.0",
+  "scope": "Persistence of K799's transported connection kernel after the released zero-locus Xi row, zero-fermion full-field extension and maximal current symmetry grant over the certified K127 family.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

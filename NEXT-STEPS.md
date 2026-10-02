@@ -7,6 +7,19 @@ updated_at: "2026-10-02"
 
 # Next Steps For Contributors
 
+> **2026-10-02 K799--K802 CERTIFIED CURVED T=0 FAMILY CLOSURE.** K799 composes
+> K127's local Ricci-flat arbitrary-Weyl zero-response family with K723/K747:
+> coherent normal-frame transport preserves the direct `D Upsilon` rank
+> 122864 and kernel 106512 on every real nonzero covector orbit. K800 transports
+> the zero-locus `Xi` factorization and zero-fermion full-field kernel embedding;
+> even the maximal current symmetry grant leaves at least 90124 middle classes.
+> K801 proves that changing curvature alone within this family is not a changed
+> principal-response germ. K802 closes only that certified family under the
+> current released packet. Next requires a nonzero-`T` or otherwise non-
+> Levi-Civita zero-locus germ with changed highest-order response, an
+> authenticated independent row, or at least 90124 further owned symmetry
+> directions. Do not promote this family result to a global SC-ACT-06 no-go.
+
 > **2026-10-02 K795--K798 CURRENT-CUSTODY K500 PACKET CLOSURE.** K795 freezes
 > the complete native K500 decision as the conjunction of complete-domain A
 > (`I-R*R>2/3`) and same-coordinate complete B (`B>=1/170`,

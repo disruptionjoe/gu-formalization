@@ -1,0 +1,73 @@
+{
+  "claim_ceiling": "Exact packet closure for the certified K127 curved T=0 family only. It is not a global SC-ACT-06 no-go and does not exclude nonzero-T, non-Levi-Civita, changed-Shiab, independent-row/symmetry, unreleased, or future native K500 routes.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "composition": {
+    "certified_family_connection_kernel": 106512,
+    "certified_family_direct_response_rank": 122864,
+    "current_k500_seed_prefix_assembly_available": false,
+    "curvature_only_changes_highest_order_response": false,
+    "maximal_current_symmetry_grant": 16388,
+    "uniform_persistent_middle_classes": 90124,
+    "xi_factors_through_D_Upsilon_on_zero_locus": true,
+    "zero_fermion_full_field_extension_repairs_kernel": false
+  },
+  "controls": {
+    "controls_passed": 40,
+    "hostile_mutations_rejected": 30,
+    "probe": "tests/channel-swings/k802_sc_act_06_certified_t0_family_closure_probe.py",
+    "producer": "tests/channel-swings/k802_sc_act_06_certified_t0_family_closure.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "all_t0_or_all_zero_locus_germs_closed": false,
+    "certified_k127_t0_family_is_complete_elliptic_realization_under_released_packet": false,
+    "certified_k127_t0_family_packet_closed": true,
+    "global_sc_act_06_proved_or_refuted": false,
+    "next_direct_frontier": "Construct a nonzero-T or otherwise non-Levi-Civita Upsilon=0 germ with genuinely changed highest-order response and complete gauge/redundancy/domain data, or authenticate an independent row/symmetry completion. A future native K500 A/B packet remains separate and requires new cofinal data.",
+    "source_claim_status_changes": false
+  },
+  "direction": "observed_to_native",
+  "ledger_no_change_reason": "This closes one certified local germ family at principal grade and constructs no global moduli, physical quotient, observable, prediction or confirmation.",
+  "pinned_inputs": {
+    "k794": {
+      "path": "lab/process/k794-sc-act-06-released-flat-realization-closure.json",
+      "sha256": "e7e970813bd1e8e00afb171d202b492e515ccab2d1327328ca0481da3fb344ee"
+    },
+    "k798": {
+      "path": "lab/process/k798-k500-current-packet-closure.json",
+      "sha256": "81adec6251a78428de6deebb24cdae2925ec1bde864a29df22294e79e74b9f10"
+    },
+    "k799": {
+      "path": "lab/process/k799-sc-act-06-curved-t0-direct-response-transport.json",
+      "sha256": "41cdb0e087d123b766a61a527932622f4b68b9fc18344413eb38cf9a86852baa"
+    },
+    "k800": {
+      "path": "lab/process/k800-sc-act-06-curved-t0-full-field-kernel-persistence.json",
+      "sha256": "78569f18d374d5b21c766a2e7531364880732aec0508356ac60fc7a2c566c50a"
+    },
+    "k801": {
+      "path": "lab/process/k801-sc-act-06-curvature-only-reopener-theorem.json",
+      "sha256": "a308813a162e37a2b9e324601f4ee380537f25f8635cfa06ff1a6741b161a273"
+    }
+  },
+  "protected_effects": {
+    "canon": "UNCHANGED",
+    "paper_and_public_posture": "UNCHANGED",
+    "physics_ledger": "UNCHANGED",
+    "prediction_confirmation_physical_verdict": "UNCHANGED",
+    "sc_act_06": "ASSERTS_UNCHANGED",
+    "source_register": "UNCHANGED"
+  },
+  "reranked_frontier": [
+    "nonzero-T or otherwise non-Levi-Civita source-typed Upsilon=0 germ with changed principal response",
+    "authenticated independent released/source-owned row or at least 90124 additional independent owned symmetry directions",
+    "genuinely new native same-domain K500 A data plus same-coordinate complete B/boundary/tail data",
+    "K218/K152 only after a named consuming margin defines the needed tolerance"
+  ],
+  "result_id": "K802-SC-ACT-06-CERTIFIED-T0-FAMILY-CLOSURE",
+  "schema_version": "1.0",
+  "scope": "Packet-level closure of the current released first-order Upsilon realization over the certified K127 local Ricci-flat arbitrary-Weyl T=0 family.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

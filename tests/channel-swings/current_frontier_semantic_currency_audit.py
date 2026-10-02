@@ -335,6 +335,18 @@ def load_inputs() -> dict:
         "k798": json.loads(
             (ROOT / "lab/process/k798-k500-current-packet-closure.json").read_text()
         ),
+        "k799": json.loads(
+            (ROOT / "lab/process/k799-sc-act-06-curved-t0-direct-response-transport.json").read_text()
+        ),
+        "k800": json.loads(
+            (ROOT / "lab/process/k800-sc-act-06-curved-t0-full-field-kernel-persistence.json").read_text()
+        ),
+        "k801": json.loads(
+            (ROOT / "lab/process/k801-sc-act-06-curvature-only-reopener-theorem.json").read_text()
+        ),
+        "k802": json.loads(
+            (ROOT / "lab/process/k802-sc-act-06-certified-t0-family-closure.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -527,9 +539,13 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     check(registry["latest_gu_formalization_result"] ==
-          "K795_K798_K500_CURRENT_PACKET_CLOSURE_CURRENT",
+          "K799_K802_SC_ACT_06_CERTIFIED_T0_FAMILY_CLOSURE_CURRENT",
           "latest GU result pointer moved")
     if isinstance(live, str):
+        check("K799--K802 close only the current released first-order packet" in live and
+              "90124-class lower bound" in live and
+              "nonzero-`T` or otherwise non-Levi-Civita" in live,
+              "live K799--K802 certified-family closure missing")
         check("K795--K798 close only unchanged-current-custody assembly" in live and
               "all four A/B outcomes" in live and
               "genuinely new native A and B data" in live,
@@ -923,6 +939,18 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "K799--K802 close the curvature-only reopener" in question
+        and "kernel 106512" in question
+        and "at least 90124 middle classes" in question,
+        "current question lost K799--K802 certified-family closure",
+    )
+    check(
+        "K799--K802 close only the current released first-order Upsilon packet" in data["agenda"].get("latest_result_2026_10_02_k799_k802", "")
+        and "rank 122864 and kernel 106512" in data["agenda"].get("latest_result_2026_10_02_k799_k802", "")
+        and "SC-ACT-06 remains ASSERTS" in data["agenda"].get("latest_result_2026_10_02_k799_k802", ""),
+        "agenda K799--K802 result is not current",
+    )
     check(
         "K795--K798 close only the attempt to assemble" in question
         and "every A/B truth pair" in question
@@ -2792,6 +2820,38 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k798["decision"]["conditional_compilers_retracted"] and
           not k798["decision"]["source_or_physics_verdict_changed"],
           "K798 current-packet closure moved")
+
+    k799 = data["k799"]
+    check(k799["transport_theorem"]["normal_frame_freezes_highest_order_coefficients"] and
+          k799["transport_theorem"]["curvature_changes_only_subprincipal_or_lower_order_transport"] and
+          not k799["transport_theorem"]["global_all_t0_or_all_zero_locus_germs_classified"] and
+          k799["decision"]["connection_response_rank"] == 122864 and
+          k799["decision"]["connection_kernel_dimension"] == 106512,
+          "K799 curved T0 direct-response transport moved")
+
+    k800 = data["k800"]
+    check(k800["composition"]["xi_principal_row_factors_through_D_Upsilon"] and
+          not k800["composition"]["candidate_internal_symmetry_promoted_to_owned_gauge"] and
+          not k800["composition"]["global_all_zero_locus_germs_classified"] and
+          k800["exact_bound"]["persistent_middle_classes_lower_bound"] == 90124 and
+          not k800["decision"]["curvature_only_family_middle_exact_under_maximal_grant"],
+          "K800 curved T0 full-field kernel persistence moved")
+
+    k801 = data["k801"]
+    check(k801["theorem"]["curvature_twojet_changes_subprincipal_transport"] and
+          not k801["theorem"]["curvature_twojet_changes_direct_principal_response"] and
+          not k801["theorem"]["all_t0_or_all_zero_locus_germs_classified"] and
+          not k801["decision"]["k127_curvature_only_family_reopens_k794"] and
+          not k801["decision"]["global_sc_act_06_proved_or_refuted"],
+          "K801 curvature-only reopener theorem moved")
+
+    k802 = data["k802"]
+    check(k802["decision"]["certified_k127_t0_family_packet_closed"] and
+          not k802["decision"]["certified_k127_t0_family_is_complete_elliptic_realization_under_released_packet"] and
+          not k802["decision"]["all_t0_or_all_zero_locus_germs_closed"] and
+          not k802["decision"]["global_sc_act_06_proved_or_refuted"] and
+          k802["protected_effects"]["sc_act_06"] == "ASSERTS_UNCHANGED",
+          "K802 certified T0 family closure moved")
 
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]

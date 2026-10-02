@@ -1,0 +1,63 @@
+{
+  "claim_ceiling": "Exact reopener theorem for the certified K127 family only. No global classification of T=0 or Upsilon=0 backgrounds and no source, ledger, canon, paper, public or physical verdict change.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 36,
+    "hostile_mutations_rejected": 28,
+    "probe": "tests/channel-swings/k801_sc_act_06_curvature_only_reopener_theorem_probe.py",
+    "producer": "tests/channel-swings/k801_sc_act_06_curvature_only_reopener_theorem.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "global_sc_act_06_proved_or_refuted": false,
+    "k127_curvature_only_family_reopens_k794": false,
+    "k127_family_released_packet_closed_at_principal_grade": true,
+    "next_exact_input": "Construct a zero-locus germ whose highest-order response actually changes, or authenticate a new row/symmetry completion; do not retry another Ricci-flat arbitrary-Weyl T=0 two-jet as a principal repair."
+  },
+  "direction": "observed_to_native",
+  "ledger_no_change_reason": "The theorem rejects one certified curvature-only reopener class and leaves all nonzero-T, non-Levi-Civita, changed-operator and global questions open.",
+  "pinned_inputs": {
+    "k723": {
+      "path": "lab/process/k723-sc-act-06-t0-curvature-principal-invariance.json",
+      "sha256": "98c2182329030dd734d4d4738e7e73c64bf432ce64ecd7901f42c79ccf8bf8cb"
+    },
+    "k747": {
+      "path": "lab/process/k747-sc-act-06-t0-response-invariance.json",
+      "sha256": "7c554b490f248c56ab4fef2ad1b7d0f8690d2ed6747681ad04e086e274174567"
+    },
+    "k799": {
+      "path": "lab/process/k799-sc-act-06-curved-t0-direct-response-transport.json",
+      "sha256": "41cdb0e087d123b766a61a527932622f4b68b9fc18344413eb38cf9a86852baa"
+    },
+    "k800": {
+      "path": "lab/process/k800-sc-act-06-curved-t0-full-field-kernel-persistence.json",
+      "sha256": "78569f18d374d5b21c766a2e7531364880732aec0508356ac60fc7a2c566c50a"
+    }
+  },
+  "reopener": {
+    "admissible_inputs": [
+      "a nonzero-T or otherwise non-Levi-Civita Upsilon=0 germ with changed principal coefficient data",
+      "an authenticated independent first-order row nonzero on the transported kernel",
+      "at least 90124 additional independent owned symmetry directions",
+      "a different source-owned Shiab or action-owned principal operator on a complete common packet"
+    ],
+    "changed_zero_order_or_subprincipal_terms_alone_suffice": false,
+    "requires_changed_highest_order_response_or_owned_symmetry": true
+  },
+  "result_id": "K801-SC-ACT-06-CURVATURE-ONLY-REOPENER-THEOREM",
+  "schema_version": "1.0",
+  "scope": "Necessary changed-principal-data criterion for reopening K794 using K127's certified curved T=0 family.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "all_t0_or_all_zero_locus_germs_classified": false,
+    "certified_family_contains_curved_nonflat_germs": true,
+    "curvature_only_change_is_genuinely_different_principal_germ": false,
+    "curvature_twojet_changes_direct_principal_response": false,
+    "curvature_twojet_changes_subprincipal_transport": true,
+    "direct_response_kernel_remains_106512": true,
+    "direct_response_rank_remains_122864": true,
+    "persistent_classes_after_maximal_current_grant_at_least_90124": true
+  }
+}

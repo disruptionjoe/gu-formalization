@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d94bb5255693
+revision_basis: 936d4df9f9e6
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K799--K802 test the strongest curved `T=0` germ family already in native
+    custody rather than inventing a new source input. K799 composes K127's
+    local Ricci-flat arbitrary-Weyl zero-response family with K723/K747 and
+    proves coherent normal-frame transport leaves the direct first-order
+    response at rank 122864 with kernel 106512 on positive, negative, and null
+    real nonzero covectors. K800 transports the zero-locus `Xi` factorization,
+    zero-fermion full-field kernel embedding, and maximal current symmetry
+    grant, leaving at least 90124 middle classes uniformly. K801 therefore
+    proves that changing only the curvature two-jet inside this certified
+    family is not a genuinely changed principal-response germ. K802 closes
+    only the current released first-order packet over that family. Nonzero-`T`
+    or otherwise non-Levi-Civita zero-locus germs, changed Shiab/row/symmetry
+    data, and future native K500 input remain open. SC-ACT-06 remains
+    `ASSERTS`; no source, ledger, canon, paper, public, prediction,
+    confirmation, or physical verdict moves.
+
     K795--K798 test whether the unchanged current serialized K500 custody can
     be algebraically assembled into the complete native A/B packet left open
     by K794. K795 freezes the conjunctive decision interface: A requires the
@@ -12423,6 +12439,18 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K799--K802 close the curvature-only reopener represented by K127's certified
+  local Ricci-flat arbitrary-Weyl `T=0` family. Curvature changes subprincipal
+  transport but not the direct `D Upsilon` principal response: its rank remains
+  122864 and its connection kernel 106512 on every real nonzero covector orbit.
+  The zero-locus `Xi` row factors through that response, the zero-fermion
+  full-field extension preserves the embedded kernel, and the maximal current
+  symmetry grant leaves at least 90124 middle classes. Reopen SC-ACT-06
+  directly with a nonzero-`T` or otherwise non-Levi-Civita `Upsilon=0` germ
+  whose highest-order response actually changes, an authenticated independent
+  row, or at least 90124 further independent owned symmetry directions. This
+  does not classify all zero-locus germs or refute SC-ACT-06.
+
   K795--K798 close only the attempt to assemble a complete native K500 A/B
   packet from unchanged current serialized custody. The exact decision is a
   conjunction: complete-domain A (`I-R*R>2/3`) and same-coordinate complete B
@@ -13423,6 +13451,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K799--K802 close only the current released first-order packet over K127's
+  certified local Ricci-flat arbitrary-Weyl `T=0` family. A curvature-only
+  two-jet change does not alter the direct principal response and therefore
+  cannot repair its uniform 106512-dimensional connection kernel or the
+  90124-class lower bound after the maximal current grant. Next construct a
+  nonzero-`T` or otherwise non-Levi-Civita `Upsilon=0` germ with changed
+  highest-order response and complete gauge/redundancy/domain data, or
+  authenticate an independent row/symmetry completion. Future native K500
+  remains open but needs genuinely new cofinal A and B data; K218/K152 waits
+  for a named consuming margin. SC-ACT-06 remains `ASSERTS`.
+
   K795--K798 close only unchanged-current-custody assembly of the complete
   native K500 A/B packet. The current seed and finite-prefix projection has
   exact extensions realizing all four A/B outcomes, so it determines neither

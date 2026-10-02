@@ -1,0 +1,84 @@
+{
+  "claim_ceiling": "Exact principal-rank transport over the certified K127 Ricci-flat arbitrary-Weyl T=0 family only. It does not classify all T=0 or Upsilon=0 germs, prove a global no-go, own a symmetry completion, or change any source or physical verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 38,
+    "hostile_mutations_rejected": 28,
+    "probe": "tests/channel-swings/k799_sc_act_06_curved_t0_direct_response_transport_probe.py",
+    "producer": "tests/channel-swings/k799_sc_act_06_curved_t0_direct_response_transport.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "certified_curved_family_is_new_principal_response_data": false,
+    "connection_kernel_dimension": 106512,
+    "connection_response_rank": 122864,
+    "curvature_only_change_alters_direct_principal_rank": false,
+    "next_exact_input": "Compose the transported kernel with the zero-locus Xi factorization, released zero-fermion full-field extension, and the strongest current symmetry grant."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "cases": [
+      {
+        "domain_dimension": 229376,
+        "nullity": 106512,
+        "orbit": "native_positive",
+        "rank": 122864
+      },
+      {
+        "domain_dimension": 229376,
+        "nullity": 106512,
+        "orbit": "native_negative",
+        "rank": 122864
+      },
+      {
+        "domain_dimension": 229376,
+        "nullity": 106512,
+        "orbit": "native_null",
+        "rank": 122864
+      }
+    ]
+  },
+  "gu_typed_objects": {
+    "action_owner": "released source first-order residual Upsilon, not an I1B or I2B Hessian",
+    "carrier": "Omega1(Cl_14(C)) on the certified K127 local T=0 Levi-Civita family",
+    "grading": "connection variation to first-order Upsilon residual variation",
+    "pairing": "none required for direct response rank; auxiliary positive covector norm only classifies nonzero Euclidean covectors",
+    "real_structure": "coherent real normal-frame transport from the pinned K788 coefficient basis",
+    "target": "principal kernel of D Upsilon across the certified curved family"
+  },
+  "ledger_no_change_reason": "This is a local principal-symbol transport result on one certified family and supplies no global moduli, physical quotient or observable.",
+  "pinned_inputs": {
+    "k127": {
+      "path": "lab/process/selected-k127-native-i1b-ricci-flat-weyl-tt-closure-gate.json",
+      "sha256": "0092d4288e221673795024f09de8c9bfe505b245f556d58cbe0035790f8fd8e4"
+    },
+    "k723": {
+      "path": "lab/process/k723-sc-act-06-t0-curvature-principal-invariance.json",
+      "sha256": "98c2182329030dd734d4d4738e7e73c64bf432ce64ecd7901f42c79ccf8bf8cb"
+    },
+    "k747": {
+      "path": "lab/process/k747-sc-act-06-t0-response-invariance.json",
+      "sha256": "7c554b490f248c56ab4fef2ad1b7d0f8690d2ed6747681ad04e086e274174567"
+    },
+    "k788": {
+      "path": "lab/process/k788-sc-act-06-direct-response-orbit-classification.json",
+      "sha256": "5d1b2813b629f13ebaaec0a2ee86e442422ab0ed0eb985c4589f9664ead9e445"
+    }
+  },
+  "result_id": "K799-SC-ACT-06-CURVED-T0-DIRECT-RESPONSE-TRANSPORT",
+  "schema_version": "1.0",
+  "scope": "Principal-symbol transport of the direct first-order D Upsilon connection response over K127's certified local Ricci-flat arbitrary-Weyl T=0 family.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "transport_theorem": {
+    "all_real_nonzero_covector_orbits_inherit_k788_rank": true,
+    "coherent_frame_transport_is_rank_preserving": true,
+    "curvature_changes_only_subprincipal_or_lower_order_transport": true,
+    "direct_response_formula": "J_q(u)=K_LIFT(SHIAB(q_WEDGE_u))",
+    "global_all_t0_or_all_zero_locus_germs_classified": false,
+    "k127_family_is_nonflat_when_weyl_nonzero": true,
+    "k127_translation_response_zero": true,
+    "normal_frame_freezes_highest_order_coefficients": true
+  }
+}
