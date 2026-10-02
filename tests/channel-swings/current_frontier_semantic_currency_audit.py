@@ -287,6 +287,18 @@ def load_inputs() -> dict:
         "k782": json.loads(
             (ROOT / "lab/process/k782-sc-act-06-nonzero-residual-two-jet-admission.json").read_text()
         ),
+        "k783": json.loads(
+            (ROOT / "lab/process/k783-sc-act-06-source-zero-locus-boundary.json").read_text()
+        ),
+        "k784": json.loads(
+            (ROOT / "lab/process/k784-sc-act-06-i1b-i2b-action-sum-ownership-correction.json").read_text()
+        ),
+        "k785": json.loads(
+            (ROOT / "lab/process/k785-sc-act-06-nonzero-residual-variational-salvage.json").read_text()
+        ),
+        "k786": json.loads(
+            (ROOT / "lab/process/k786-sc-act-06-zero-residual-deformation-input-gate.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -479,12 +491,16 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     check(registry["latest_gu_formalization_result"] ==
-          "K779_K782_SC_ACT_06_NONZERO_RESIDUAL_ADMISSION_CURRENT",
+          "K783_K786_SC_ACT_06_ZERO_LOCUS_ROUTE_CORRECTION_CURRENT",
           "latest GU result pointer moved")
     if isinstance(live, str):
+        check("K783--K786 restore the direct SC-ACT-06 route" in live and
+              "source-typed `Upsilon=0` background" in live and
+              "source-selected relative coefficient" in live,
+              "live K783--K786 source zero-locus route correction missing")
         check("K779--K782 close nonzero residual as a free stationarity" in live and
               "annihilates `ker(J)`" in live and "contracted residual curvature" in live,
-              "live K779--K782 nonzero-residual admission gate missing")
+              "retained K779--K782 conditional mathematics missing")
         check("K775--K778 close every fixed-pairing or finite-weight I2B rescue" in live and
               "Upsilon != 0" in live and "Nonzero residual alone" in live,
               "live K775--K778 residual-stratum gate missing")
@@ -707,6 +723,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K783--K786 correct the source-object routing" in summary and
+          "repository-conditional comparator" in summary and
+          "Current custody supplies the claim and zero locus only" in summary,
+          "current K783--K786 route-correction result lost")
     check("K771--K774 resolve the exact positive-curvature composition" in summary and
           "221189 and 221186" in summary and "8193 and 8196" in summary,
           "current K771--K774 positive-curvature composition result lost")
@@ -846,6 +866,18 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "K783--K786 require one source-typed" in question
+        and "complete first-order Euclidean deformation" in question
+        and "separate conditional action problem" in question,
+        "current question lost K783--K786 zero-locus gate",
+    )
+    check(
+        "binds the claim to the first-order zero locus" in data["agenda"].get("latest_result_2026_10_01_k783_k786", "")
+        and "repository-conditional comparator" in data["agenda"].get("latest_result_2026_10_01_k783_k786", "")
+        and "SC-ACT-06 remains ASSERTS" in data["agenda"].get("latest_result_2026_10_01_k783_k786", ""),
+        "agenda K783--K786 result is not current",
+    )
     check(
         "K779--K782 sharpen the first admissible nonzero-residual" in question
         and "kernel-transverse" in question and "contracted residual curvature" in question,
@@ -2553,6 +2585,39 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           k782["decision"]["SC_ACT_06_status"] == "ASSERTS",
           "K782 nonzero-residual two-jet admission gate moved")
 
+    k783 = data["k783"]
+    check(k783["source_custody"]["claimed_solution_locus"] == "Upsilon=0" and
+          not k783["source_custody"]["source_exhibits_one_complete_solution_two_jet"] and
+          k783["decision"]["zero_residual_is_required_for_direct_SC_ACT_06_test"] and
+          not k783["decision"]["nonzero_residual_is_direct_SC_ACT_06_input"],
+          "K783 source zero-locus boundary moved")
+
+    k784 = data["k784"]
+    check(k784["ownership"]["combined_stationarity_classification"] == "REPO_CONDITIONAL_COMPARATOR" and
+          not k784["ownership"]["combined_stationarity_is_source_owned"] and
+          not k784["ownership"]["source_supplies_relative_sum_coefficient"] and
+          not k784["decision"]["nonzero_residual_sum_can_directly_adjudicate_SC_ACT_06"],
+          "K784 action-sum ownership correction moved")
+
+    k785 = data["k785"]
+    check(all(k785["preserved_results"][key] for key in (
+              "K779_first_variation_image",
+              "K780_kernel_transverse_obstruction_for_fixed_sum",
+              "K781_residual_curvature_decomposition",
+              "K782_packet_fields_useful_for_conditional_joint_action")) and
+          all(k785["withdrawn_current_inferences"].values()) and
+          k785["decision"]["route_status"] ==
+              "RETAINED_CONDITIONAL_MATHEMATICS__DIRECT_SC_ACT_06_ROUTE_WITHDRAWN",
+          "K785 variational salvage or route withdrawal moved")
+
+    k786 = data["k786"]
+    check(len(k786["required_packet"]) == 10 and
+          k786["current_custody"]["source_claim_and_zero_locus"] and
+          sum(bool(value) for value in k786["current_custody"].values()) == 1 and
+          not k786["decision"]["candidate_admitted"] and
+          k786["decision"]["SC_ACT_06_status"] == "ASSERTS",
+          "K786 zero-residual deformation input gate moved")
+
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]
     k693_n = k693["native_interface_status"]
@@ -3878,6 +3943,14 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k781-escape", lambda d: d["k781"]["exact_control"].__setitem__("curvature_image_escapes_im_J_star", False))
     add("k782-admit", lambda d: d["k782"]["decision"].__setitem__("candidate_admitted", True))
     add("k782-status", lambda d: d["k782"]["decision"].__setitem__("SC_ACT_06_status", "CONFIRMED"))
+    add("k783-locus", lambda d: d["k783"]["source_custody"].__setitem__("claimed_solution_locus", "Upsilon!=0"))
+    add("k783-route", lambda d: d["k783"]["decision"].__setitem__("nonzero_residual_is_direct_SC_ACT_06_input", True))
+    add("k784-coefficient", lambda d: d["k784"]["ownership"].__setitem__("source_supplies_relative_sum_coefficient", True))
+    add("k784-owned", lambda d: d["k784"]["ownership"].__setitem__("combined_stationarity_is_source_owned", True))
+    add("k785-preserve", lambda d: d["k785"]["preserved_results"].__setitem__("K779_first_variation_image", False))
+    add("k785-route", lambda d: d["k785"]["decision"].__setitem__("route_status", "SOURCE_NATIVE"))
+    add("k786-custody", lambda d: d["k786"]["current_custody"].__setitem__("complete_first_order_linearization", True))
+    add("k786-admit", lambda d: d["k786"]["decision"].__setitem__("candidate_admitted", True))
 
     add("k693-lower", lambda d: d["k693"]["graph_equivalence_theorem"].__setitem__("upper_bound_alone_sufficient_for_closedness", True))
     add("k693-native", lambda d: d["k693"]["native_interface_status"].__setitem__("actual_native_closed_column_proved", True))

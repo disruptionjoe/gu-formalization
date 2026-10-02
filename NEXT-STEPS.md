@@ -7,6 +7,21 @@ updated_at: "2026-10-01"
 
 # Next Steps For Contributors
 
+> **2026-10-01 K783--K786 SOURCE ZERO-LOCUS ROUTE CORRECTION.** K783 binds
+> SC-ACT-06 to the source statement that the first-order zero locus
+> `Upsilon=0` carries a Euclidean elliptic deformation complex after redundant
+> Euler rows are discarded. K784 confirms I1B and I2B are distinct source
+> action candidates but finds no source-selected relative coefficient or
+> operative second-action completion licensing their sum; K780's combined
+> equation is therefore a repository-conditional comparator. K785 preserves
+> K779--K781's variational theorems and K782's packet fields for an explicitly
+> owned conditional joint action while withdrawing the direct source-native
+> route. K786 requires one native zero-locus background, complete `J`, owned
+> symmetry/redundancy maps and compositions, exact redundant-row handling,
+> complete total symbol, Euclidean domain and all-covector exactness on one
+> `B(epsilon)/Y` geometry. Current custody supplies only the claim and zero
+> locus. SC-ACT-06 remains `ASSERTS`.
+
 > **2026-10-01 K779--K782 NONZERO-RESIDUAL STATIONARITY/NEW-IMAGE GATE.**
 > K779 proves that `Upsilon != 0` does not enlarge the first-variation image:
 > `dI2B=J^*Q Upsilon` still lies in `im(J^*)` and annihilates `ker(J)` for

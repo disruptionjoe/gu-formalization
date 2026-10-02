@@ -7,6 +7,37 @@ updated_at: "2026-10-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K783--K786 source zero-locus route correction (2026-10-01)
+
+K783 verifies that SC-ACT-06 is stated on the first-order zero locus
+`Upsilon=0`, not on an arbitrary nonzero-residual critical point of another
+action. K784 verifies that the source presents I1B and I2B as distinct action
+candidates but supplies neither a relative coefficient nor an operative
+second-action completion licensing the sum used by K780. That sum remains a
+valid repository-conditional comparator only.
+
+K785 preserves K779--K781's exact variational results and K782's packet fields
+for a separately owned conditional joint action while withdrawing them as the
+direct source-native SC-ACT-06 route. K786 freezes the direct gate: one native
+zero-locus solution, complete `J=DUpsilon`, owned symmetry and redundancy maps
+with their zero compositions, exact redundant-row handling, complete total
+symbol, authenticated Euclidean carrier/domain and all-covector middle
+exactness on one `B(epsilon)/Y` geometry. Current custody does not satisfy that
+packet, and SC-ACT-06 remains `ASSERTS`.
+
+Run:
+
+```bash
+python3 tests/channel-swings/k783_sc_act_06_source_zero_locus_boundary.py
+python3 tests/channel-swings/k783_sc_act_06_source_zero_locus_boundary_probe.py
+python3 tests/channel-swings/k784_sc_act_06_i1b_i2b_action_sum_ownership_correction.py
+python3 tests/channel-swings/k784_sc_act_06_i1b_i2b_action_sum_ownership_correction_probe.py
+python3 tests/channel-swings/k785_sc_act_06_nonzero_residual_variational_salvage.py
+python3 tests/channel-swings/k785_sc_act_06_nonzero_residual_variational_salvage_probe.py
+python3 tests/channel-swings/k786_sc_act_06_zero_residual_deformation_input_gate.py
+python3 tests/channel-swings/k786_sc_act_06_zero_residual_deformation_input_gate_probe.py
+```
+
 ## K779--K782 nonzero-residual stationarity/new-image gate (2026-10-01)
 
 K779 proves that the first variation of released

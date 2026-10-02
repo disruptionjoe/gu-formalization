@@ -1,0 +1,47 @@
+{
+  "claim_ceiling": "Exact action-ownership correction. It does not invalidate K779--K781, choose an operative second action, construct a background, or move source, ledger, canon, paper, public or physical status.",
+  "classification": "SOURCE_NATIVE_ROUTE_CORRECTION",
+  "controls": {
+    "controls_passed": 36,
+    "hostile_mutations_rejected": 26,
+    "probe": "tests/channel-swings/k784_sc_act_06_i1b_i2b_action_sum_ownership_correction_probe.py",
+    "producer": "tests/channel-swings/k784_sc_act_06_i1b_i2b_action_sum_ownership_correction.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "K782_source_native_action_owner_label_current": false,
+    "nonzero_residual_sum_can_directly_adjudicate_SC_ACT_06": false,
+    "nonzero_residual_sum_can_screen_conditional_realizations": true,
+    "reopen_condition": "A source-selected relative coefficient and operative second-action completion, or an explicitly frozen repository-conditional realization with no source-claim transfer."
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "two separately source-confirmed action candidates; their weighted sum is repository-conditional",
+    "carrier": "the common field carrier only after a candidate realizes both distinct source action grammars",
+    "grading": "first-action Euler covector plus second-action Euler covector",
+    "pairing": "Q belongs to the residual-square action and does not supply the missing relative action coefficient",
+    "real_structure": "unchanged local real comparator; Euclidean source realization remains missing",
+    "target": "ownership of E_I1B + lambda J^*Q Upsilon = 0"
+  },
+  "ledger_no_change_reason": "The correction narrows ownership and preserves the conditional theorem; it changes no source claim or physics mapping.",
+  "ownership": {
+    "combined_stationarity_classification": "REPO_CONDITIONAL_COMPARATOR",
+    "combined_stationarity_is_source_owned": false,
+    "source_confirms_I1B": true,
+    "source_confirms_distinct_I2B_grammar": true,
+    "source_selects_endpoint_square_over_other_completions": false,
+    "source_supplies_relative_sum_coefficient": false
+  },
+  "preserved_mathematics": {
+    "K780_equation": "E_I1B+J^*Q Upsilon=0",
+    "kernel_transverse_obstruction_preserved": true,
+    "source_ownership_attribution_preserved": false,
+    "valid_when_sum_is_conditionally_fixed": true
+  },
+  "result_id": "K784-SC-ACT-06-I1B-I2B-ACTION-SUM-OWNERSHIP-CORRECTION",
+  "schema_version": "1.0",
+  "scope": "Action-ownership correction for the combined I1B-plus-I2B stationary equation used in K780--K782.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

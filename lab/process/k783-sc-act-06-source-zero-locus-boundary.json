@@ -1,0 +1,42 @@
+{
+  "claim_ceiling": "Exact source-custody classification. It neither proves nor disproves rich moduli or Euclidean ellipticity and changes no source polarity, physics ledger, canon, paper or public verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 34,
+    "hostile_mutations_rejected": 24,
+    "probe": "tests/channel-swings/k783_sc_act_06_source_zero_locus_boundary_probe.py",
+    "producer": "tests/channel-swings/k783_sc_act_06_source_zero_locus_boundary.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "lorentzian_K77_defect_adjudicates_Euclidean_claim": false,
+    "next_exact_input": "Construct or recover one source-typed Upsilon=0 background and its complete Euclidean deformation complex; do not substitute a nonzero-residual critical point of another action.",
+    "nonzero_residual_is_direct_SC_ACT_06_input": false,
+    "zero_residual_is_required_for_direct_SC_ACT_06_test": true
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "source first-order theory and its equation Upsilon=0",
+    "carrier": "the source first-order field carrier on which Upsilon is defined",
+    "grading": "symmetries -> first-order fields -> Upsilon equations -> redundant Euler rows",
+    "pairing": "not required to state the first-order zero locus; residual norm pairing belongs to the distinct second action",
+    "real_structure": "the source-asserted Euclidean continuation, not the Lorentzian K77 carrier by default",
+    "target": "the SC-ACT-06 classical-solution moduli problem"
+  },
+  "ledger_no_change_reason": "The source-object boundary corrects route selection but supplies no solution, physical map, prediction or confirmation.",
+  "result_id": "K783-SC-ACT-06-SOURCE-ZERO-LOCUS-BOUNDARY",
+  "schema_version": "1.0",
+  "scope": "Source-custody boundary for the solution locus named by SC-ACT-06.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "source_custody": {
+    "claim_polarity": "ASSERTS",
+    "claimed_operation": "discard redundant Euler-Lagrange equations",
+    "claimed_signature": "Euclidean",
+    "claimed_solution_locus": "Upsilon=0",
+    "source_exhibits_one_complete_solution_two_jet": false,
+    "source_identifies_nonzero_residual_critical_points_with_the_claimed_moduli": false,
+    "source_replaces_first_order_zero_locus_by_second_action_critical_locus": false
+  },
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

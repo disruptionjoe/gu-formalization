@@ -1,0 +1,65 @@
+{
+  "claim_ceiling": "Exact successor admission gate. No rich moduli, Euclidean ellipticity, source-status, physics mapping, canon, paper, public, prediction, confirmation or physical conclusion follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 42,
+    "hostile_mutations_rejected": 30,
+    "probe": "tests/channel-swings/k786_sc_act_06_zero_residual_deformation_input_gate_probe.py",
+    "producer": "tests/channel-swings/k786_sc_act_06_zero_residual_deformation_input_gate.py"
+  },
+  "created": "2026-10-01",
+  "current_custody": {
+    "all_covector_middle_exactness": false,
+    "complete_Euclidean_real_continuation": false,
+    "complete_common_analytic_domain": false,
+    "complete_first_order_linearization": false,
+    "complete_owned_redundancy_map": false,
+    "complete_owned_symmetry_map": false,
+    "source_claim_and_zero_locus": true,
+    "source_exhibited_complete_solution_two_jet": false
+  },
+  "decision": {
+    "SC_ACT_06_status": "ASSERTS",
+    "candidate_admitted": false,
+    "conditional_reopener": "A source-selected I1B/I2B sum coefficient and operative second-action completion can reopen K779--K782 only as a separately typed action problem.",
+    "incumbent": "recover or construct one native Upsilon=0 background and the complete first-order Euclidean deformation packet",
+    "strongest_independent_alternative": "complete native K500 A/B packet"
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "source first-order theory only",
+    "carrier": "one common source field, symmetry, Euler and redundancy carrier",
+    "grading": "symmetries -> fields -> first-order Euler equations -> redundant Euler equations",
+    "pairing": "the first-order complex does not inherit a residual-square pairing by default",
+    "real_structure": "one authenticated Euclidean continuation of the complete source carrier",
+    "target": "middle exactness of the Upsilon=0 deformation complex at every nonzero Euclidean covector"
+  },
+  "ledger_no_change_reason": "The gate corrects the direct source object but supplies none of the missing native solution or complex data.",
+  "rejection_rules": {
+    "I1B_plus_I2B_sum_without_source_coefficient": "reject",
+    "Lorentzian_K77_defect_called_Euclidean_verdict": "reject",
+    "bosonic_only_complex_called_complete_total_theory": "reject",
+    "kernel_called_gauge_without_owned_map": "reject",
+    "nonzero_residual_substituted_for_zero_locus": "reject",
+    "one_covector_rank_called_ellipticity": "reject",
+    "printed_Xi_called_complete_off_shell_redundancy_without_proof": "reject"
+  },
+  "required_packet": [
+    "one source-typed background satisfying Upsilon=0",
+    "complete source field tangent on that background",
+    "complete first-order linearization J=DUpsilon",
+    "owned infinitesimal symmetry map G with J composition G equal to zero",
+    "owned redundant-Euler map R with R composition J equal to zero",
+    "exact removal or quotient of precisely the source-redundant Euler rows",
+    "complete bosonic fermionic and mixed principal symbols when the claimed theory includes them",
+    "authenticated Euclidean real carrier pairing and analytic domain",
+    "middle exactness at every nonzero Euclidean covector",
+    "solution and complex realized on one common native B(epsilon)/Y geometry"
+  ],
+  "result_id": "K786-SC-ACT-06-ZERO-RESIDUAL-DEFORMATION-INPUT-GATE",
+  "schema_version": "1.0",
+  "scope": "Direct admission compiler for the source-asserted Upsilon=0 Euclidean deformation complex.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

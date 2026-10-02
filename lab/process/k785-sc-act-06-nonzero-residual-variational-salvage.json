@@ -1,0 +1,50 @@
+{
+  "claim_ceiling": "Exact semantic correction and salvage. It proves no source claim, stationary background, ellipticity, prediction, confirmation or physical verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE_CORRECTION",
+  "controls": {
+    "controls_passed": 38,
+    "hostile_mutations_rejected": 28,
+    "probe": "tests/channel-swings/k785_sc_act_06_nonzero_residual_variational_salvage_probe.py",
+    "producer": "tests/channel-swings/k785_sc_act_06_nonzero_residual_variational_salvage.py"
+  },
+  "corrected_use": {
+    "cannot_transfer_to_source_claim_without_new_ownership": true,
+    "conditional_joint_action_screen": true,
+    "direct_SC_ACT_06_adjudication": false,
+    "requires_explicit_sum_coefficient_and_action_completion": true
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "next_exact_input": "Return the direct SC-ACT-06 route to Upsilon=0 and build the complete first-order Euclidean deformation complex; retain K779--K782 only for an explicitly owned conditional joint action.",
+    "route_status": "RETAINED_CONDITIONAL_MATHEMATICS__DIRECT_SC_ACT_06_ROUTE_WITHDRAWN"
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "I2B alone for K779/K781; a repository-conditional I1B-plus-I2B sum for K780/K782",
+    "carrier": "an explicitly frozen conditional field/residual carrier",
+    "grading": "field tangent -> residual response -> conditional action Euler/Hessian",
+    "pairing": "the fixed Q of a conditional residual-square action",
+    "real_structure": "local real two-jet unless a separate Euclidean completion is authenticated",
+    "target": "conditional joint-action critical points, not the SC-ACT-06 Upsilon=0 moduli by default"
+  },
+  "ledger_no_change_reason": "No mathematical result is discarded and no physics row moves; only the source-claim transfer and incumbent route are corrected.",
+  "preserved_results": {
+    "K779_first_variation_image": true,
+    "K780_kernel_transverse_obstruction_for_fixed_sum": true,
+    "K781_residual_curvature_decomposition": true,
+    "K782_packet_fields_useful_for_conditional_joint_action": true,
+    "arithmetic_or_linear_algebra_retracted": false
+  },
+  "result_id": "K785-SC-ACT-06-NONZERO-RESIDUAL-VARIATIONAL-SALVAGE",
+  "schema_version": "1.0",
+  "scope": "Semantic salvage and corrected use boundary for K779--K782.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "withdrawn_current_inferences": {
+    "K782_is_direct_source_native_SC_ACT_06_gate": true,
+    "nonzero_residual_is_the_incumbent_SC_ACT_06_input": true,
+    "nonzero_residual_two_jet_can_by_itself_move_SC_ACT_06": true,
+    "released_I1B_plus_I2B_sum_is_source_owned": true
+  }
+}
