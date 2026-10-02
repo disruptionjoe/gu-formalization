@@ -7,6 +7,35 @@ updated_at: "2026-10-02"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K807--K810 co-moving frame-orbit closure (2026-10-02)
+
+K807 composes the exact moving-parent cocycle and co-moving
+Hodge/Clifford/Shiab naturality with K803's released first-order response. For
+regular frame maps it proves
+`J_e(q_e)=R_e J_0(q_0) C_e^-1`, so the connection rank remains 122864 and
+the kernel dimension remains 106512 on every real nonzero covector orbit.
+
+K808 transports the pure-connection kernel through the zero-fermion full-field
+packet and redundant Xi row. K809 transports the current symmetry image by
+the same intertwiner, preserving the 90124-class lower bound. K810 closes only
+regular natural co-moving frame motion. Genuine relative coefficient motion,
+singular/non-natural reductions, new rows, new owned symmetry and new native
+K500 data remain open. This is not a classification of all moving geometry or
+a global SC-ACT-06 no-go.
+
+Run:
+
+```bash
+python3 tests/channel-swings/k807_sc_act_06_comoving_principal_conjugacy.py
+python3 tests/channel-swings/k807_sc_act_06_comoving_principal_conjugacy_probe.py
+python3 tests/channel-swings/k808_sc_act_06_comoving_full_field_kernel.py
+python3 tests/channel-swings/k808_sc_act_06_comoving_full_field_kernel_probe.py
+python3 tests/channel-swings/k809_sc_act_06_comoving_symmetry_quotient.py
+python3 tests/channel-swings/k809_sc_act_06_comoving_symmetry_quotient_probe.py
+python3 tests/channel-swings/k810_sc_act_06_comoving_frame_closure.py
+python3 tests/channel-swings/k810_sc_act_06_comoving_frame_closure_probe.py
+```
+
 ## K803--K806 fixed-structure nonzero-T closure (2026-10-02)
 
 K803 uses the released Frechet formula

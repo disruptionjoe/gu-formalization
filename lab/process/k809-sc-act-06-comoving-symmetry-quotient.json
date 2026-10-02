@@ -1,0 +1,60 @@
+{
+  "claim_ceiling": "Exact current-grant quotient transport only; future owned symmetries and arbitrary backgrounds remain open.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 36,
+    "hostile_mutations_rejected": 28,
+    "probe": "tests/channel-swings/k809_sc_act_06_comoving_symmetry_quotient_probe.py",
+    "producer": "tests/channel-swings/k809_sc_act_06_comoving_symmetry_quotient.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "current_transported_grant_closes_packet": false,
+    "future_background_dependent_symmetry_closed": false,
+    "global_sc_act_06_proved_or_refuted": false,
+    "next_exact_input": "Supply new source-owned symmetry directions, a new independent row, or genuine relative principal motion; simultaneous frame transport preserves the quotient."
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "current source-owned grant only; the q-lambda candidate is not promoted to total gauge",
+    "carrier": "transported K808 pure-connection kernel inside the released full-field packet",
+    "grading": "principal middle term modulo authenticated infinitesimal symmetry directions",
+    "pairing": "middle quotient by the simultaneously transported current symmetry image",
+    "real_structure": "real associated-bundle transport inherited from K807",
+    "target": "whether a basis change creates new owned symmetry or shrinks the quotient"
+  },
+  "ledger_no_change_reason": "This is quotient invariance under an isomorphism, not ownership of new gauge data or a physical quotient.",
+  "pinned_inputs": {
+    "k805": {
+      "path": "lab/process/k805-sc-act-06-fixed-structure-symmetry-threshold.json",
+      "sha256": "ca32ef6a89987f17437b6d147439732431e36df44a80c4caf7ece62cc2039ab1"
+    },
+    "k807": {
+      "path": "lab/process/k807-sc-act-06-comoving-principal-conjugacy.json",
+      "sha256": "a4866b74c707b544f77e96fa4ea59de8e092a7e809a1c0e340c27fc00c6f6385"
+    },
+    "k808": {
+      "path": "lab/process/k808-sc-act-06-comoving-full-field-kernel.json",
+      "sha256": "a84196fa14e5a9cc87f1e5408e251fb578b6feae9160d9e3ad34df679bfe16af"
+    }
+  },
+  "quotient_transport": {
+    "basis_motion_creates_owned_symmetry": false,
+    "candidate_internal_map_promoted_to_gauge": false,
+    "kernel_frame_map_invertible": true,
+    "reference_current_grant_rank": 16388,
+    "reference_kernel_dimension": 106512,
+    "reference_persistent_classes": 90124,
+    "same_domain_intertwiner_used": true,
+    "symmetry_frame_map_invertible": true,
+    "transported_current_grant_rank": 16388,
+    "transported_kernel_dimension": 106512,
+    "transported_persistent_classes": 90124
+  },
+  "result_id": "K809-SC-ACT-06-COMOVING-SYMMETRY-QUOTIENT",
+  "schema_version": "1.0",
+  "scope": "Simultaneous regular frame transport of the K808 embedded kernel and the current authenticated internal-plus-diffeomorphism grant.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

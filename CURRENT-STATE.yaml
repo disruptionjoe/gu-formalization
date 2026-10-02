@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: aac75c32cb1a
+revision_basis: 606fd48c4eb2
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K807--K810 close regular co-moving metric/epsilon/Shiab/Hodge frame
+    transport as a principal-response reopener. K807 composes the exact
+    associated-bundle cocycle and Hodge/Clifford/Shiab naturality with K803:
+    `J_e(q_e)=R_e J_0(q_0) C_e^-1`, so rank 122864 and kernel 106512 are
+    invariant on every real nonzero covector orbit. K808 transports the pure-
+    connection kernel through the zero-fermion full-field packet and redundant
+    Xi row. K809 transports the current symmetry image with the same
+    intertwiner, leaving the 90124-class lower bound unchanged. K810 closes
+    only regular natural basis motion. A source-typed germ with genuinely
+    relative or singular moving principal data, a new independent row,
+    sufficient owned symmetry, or new native K500 A/B data remains open.
+    SC-ACT-06 remains `ASSERTS`; no source, ledger, canon, paper, public,
+    prediction, confirmation, or physical verdict moves.
+
     K803--K806 close nonzero background `T` by itself as a principal-response
     reopener while holding the released metric, epsilon, Shiab, Hodge, real
     carrier, and first-order row structure fixed. K803 reads the released
@@ -12453,6 +12467,18 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K807--K810 close regular co-moving metric/epsilon/Shiab/Hodge frame motion as
+  a principal reopener. The exact moving-frame cocycle gives
+  `J_e(q_e)=R_e J_0(q_0) C_e^-1`; invertible domain, residual, and covector
+  transport therefore preserves rank 122864 and kernel 106512. The full-field
+  embedding and current symmetry quotient transport functorially, leaving the
+  same 90124-class lower bound. Reopen directly only with relative coefficient
+  motion not induced by a regular natural frame map, a singular/non-natural
+  reduction with its own typed domain, an authenticated independent row, or
+  new owned symmetry spanning the kernel. Future native K500 still requires
+  genuinely new same-domain A and complete B/boundary/tail data. This does not
+  classify all moving geometries or refute SC-ACT-06.
+
   K803--K806 close nonzero background `T` alone as a principal reopener when
   the released metric, epsilon, Shiab, Hodge, real carrier, and first-order
   row structure are fixed. The released Frechet formula has principal symbol
@@ -13478,6 +13504,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K807--K810 close regular natural co-moving frame transport as a principal
+  reopener. Simultaneous invertible transport of the covector, connection
+  domain, residual target, full-field embedding, and current symmetry image
+  preserves the principal rank 122864, kernel 106512, and 90124-class lower
+  bound. Next construct a source-typed zero-locus germ whose relative moving
+  coefficients are not natural frame conjugacy, with complete two-jet,
+  stationarity, gauge/redundancy and common-domain data; or authenticate an
+  independent row/symmetry completion. Future native K500 remains open only
+  with new A and B data on one complete domain. SC-ACT-06 remains `ASSERTS`;
+  no protected conclusion moves.
+
   K803--K806 close nonzero background `T` alone as a principal reopener under
   fixed released metric, epsilon, Shiab, Hodge, real carrier, and first-order
   row structure. The principal connection rank remains 122864, the kernel

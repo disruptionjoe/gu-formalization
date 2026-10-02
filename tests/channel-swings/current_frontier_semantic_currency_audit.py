@@ -359,6 +359,18 @@ def load_inputs() -> dict:
         "k806": json.loads(
             (ROOT / "lab/process/k806-sc-act-06-nonzero-t-alone-closure.json").read_text()
         ),
+        "k807": json.loads(
+            (ROOT / "lab/process/k807-sc-act-06-comoving-principal-conjugacy.json").read_text()
+        ),
+        "k808": json.loads(
+            (ROOT / "lab/process/k808-sc-act-06-comoving-full-field-kernel.json").read_text()
+        ),
+        "k809": json.loads(
+            (ROOT / "lab/process/k809-sc-act-06-comoving-symmetry-quotient.json").read_text()
+        ),
+        "k810": json.loads(
+            (ROOT / "lab/process/k810-sc-act-06-comoving-frame-closure.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -551,9 +563,13 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     check(registry["latest_gu_formalization_result"] ==
-          "K803_K806_SC_ACT_06_NONZERO_T_ALONE_CLOSURE_CURRENT",
+          "K807_K810_SC_ACT_06_COMOVING_FRAME_CLOSURE_CURRENT",
           "latest GU result pointer moved")
     if isinstance(live, str):
+        check("K807--K810 close regular natural co-moving frame transport" in live and
+              "90124-class lower bound" in live and
+              "relative moving coefficients" in live,
+              "live K807--K810 co-moving-frame closure missing")
         check("K803--K806 close nonzero background `T` alone" in live and
               "90124-class lower bound" in live and
               "genuinely moving principal coefficients" in live,
@@ -955,6 +971,18 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "K807--K810 close regular co-moving metric/epsilon/Shiab/Hodge frame motion" in question
+        and "kernel 106512" in question
+        and "relative coefficient motion" in question,
+        "current question lost K807--K810 co-moving-frame closure",
+    )
+    check(
+        "K807--K810 close only regular natural co-moving metric/epsilon/Shiab/Hodge frame transport" in data["agenda"].get("latest_result_2026_10_02_k807_k810", "")
+        and "rank 122864 and kernel 106512" in data["agenda"].get("latest_result_2026_10_02_k807_k810", "")
+        and "SC-ACT-06 remains ASSERTS" in data["agenda"].get("latest_result_2026_10_02_k807_k810", ""),
+        "agenda K807--K810 result is not current",
+    )
     check(
         "K803--K806 close nonzero background `T` alone" in question
         and "kernel remains 106512" in question
@@ -2912,6 +2940,42 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           k806["protected_effects"]["sc_act_06"] == "ASSERTS_UNCHANGED",
           "K806 nonzero-T-alone closure moved")
 
+    k807 = data["k807"]
+    check(k807["intertwiner_theorem"]["pure_frame_motion_is_basis_change"] and
+          k807["intertwiner_theorem"]["moving_projector_cocycle_exact"] and
+          not k807["intertwiner_theorem"]["genuine_relative_coefficient_motion_covered"] and
+          k807["orbit_consequence"]["transported_rank"] == 122864 and
+          k807["orbit_consequence"]["transported_kernel_dimension"] == 106512 and
+          not k807["decision"]["comoving_frame_orbit_is_new_principal_packet"],
+          "K807 co-moving principal conjugacy moved")
+
+    k808 = data["k808"]
+    check(k808["extension_theorem"]["pure_connection_subspace_intertwined"] and
+          k808["extension_theorem"]["xi_row_factors_through_transported_D_Upsilon"] and
+          not k808["extension_theorem"]["extra_transported_field_columns_delete_pure_connection_kernel"] and
+          k808["extension_theorem"]["embedded_transported_kernel_dimension"] == 106512 and
+          not k808["decision"]["comoving_full_field_packet_middle_exact_before_symmetry"],
+          "K808 co-moving full-field kernel moved")
+
+    k809 = data["k809"]
+    check(k809["quotient_transport"]["same_domain_intertwiner_used"] and
+          not k809["quotient_transport"]["basis_motion_creates_owned_symmetry"] and
+          k809["quotient_transport"]["transported_current_grant_rank"] == 16388 and
+          k809["quotient_transport"]["transported_kernel_dimension"] == 106512 and
+          k809["quotient_transport"]["transported_persistent_classes"] == 90124 and
+          not k809["decision"]["current_transported_grant_closes_packet"],
+          "K809 co-moving symmetry quotient moved")
+
+    k810 = data["k810"]
+    check(not k810["composition"]["regular_comoving_frame_changes_principal_rank"] and
+          not k810["composition"]["genuine_relative_coefficient_motion_available"] and
+          k810["composition"]["persistent_classes_under_current_grant"] == 90124 and
+          not k810["decision"]["regular_comoving_frame_reopens_certified_packet"] and
+          not k810["decision"]["all_moving_principal_geometry_closed"] and
+          not k810["decision"]["global_sc_act_06_proved_or_refuted"] and
+          k810["protected_effects"]["sc_act_06"] == "ASSERTS_UNCHANGED",
+          "K810 co-moving-frame closure moved")
+
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]
     k693_n = k693["native_interface_status"]
@@ -4045,6 +4109,11 @@ def selftest(base: dict) -> tuple[int, int]:
         case = copy.deepcopy(base)
         fn(case)
         mutations.append((name, case))
+
+    add("k807-rank", lambda d: d["k807"]["orbit_consequence"].__setitem__("transported_rank", 122865))
+    add("k808-kernel", lambda d: d["k808"]["extension_theorem"].__setitem__("embedded_transported_kernel_dimension", 0))
+    add("k809-quotient", lambda d: d["k809"]["quotient_transport"].__setitem__("transported_persistent_classes", 0))
+    add("k810-overclaim", lambda d: d["k810"]["decision"].__setitem__("global_sc_act_06_proved_or_refuted", True))
 
     add("k696-form", lambda d: d["k696"]["integration_theorem"].__setitem__("graph_equivalence_without_form_identity_sufficient", True))
     add("k696-reduction", lambda d: d["k696"]["integration_theorem"].__setitem__("reduction_of_column_labels_alone_reduces_native_R", True))

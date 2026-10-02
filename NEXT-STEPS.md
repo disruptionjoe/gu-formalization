@@ -7,6 +7,17 @@ updated_at: "2026-10-02"
 
 # Next Steps For Contributors
 
+> **2026-10-02 K807--K810 CO-MOVING FRAME-ORBIT CLOSURE.** Exact moving-parent
+> cocycle and Hodge/Clifford/Shiab naturality give
+> `J_e(q_e)=R_e J_0(q_0) C_e^-1` under regular co-moving frame transport.
+> Hence the connection rank 122864, kernel 106512, full-field embedded kernel,
+> and 90124-class current-symmetry quotient are invariant. Next construct a
+> source-typed zero-locus germ with genuinely relative principal-coefficient
+> motion and a complete two-jet/stationarity/gauge/domain packet, or supply an
+> authenticated independent row or enough new owned symmetry. Do not treat
+> arbitrary coefficient motion or a singular observation as frame conjugacy,
+> and do not promote this scoped closure to a global SC-ACT-06 no-go.
+
 > **2026-10-02 K803--K806 FIXED-STRUCTURE NONZERO-T CLOSURE.** The released
 > formula `D_varpi Upsilon[u]=Shiab(d_A u)+Hodge(u)` makes the background
 > commutator and Hodge term lower order when metric, epsilon, Shiab, Hodge,

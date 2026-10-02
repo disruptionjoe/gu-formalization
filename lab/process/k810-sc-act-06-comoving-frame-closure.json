@@ -1,0 +1,84 @@
+{
+  "claim_ceiling": "Exact closure of regular natural co-moving frame transport only; arbitrary moving principal geometry and global SC-ACT-06 remain open.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "composition": {
+    "connection_kernel": 106512,
+    "connection_rank": 122864,
+    "current_k500_native_packet_available": false,
+    "full_field_embedded_kernel": 106512,
+    "genuine_relative_coefficient_motion_available": false,
+    "maximal_current_grant": 16388,
+    "persistent_classes_under_current_grant": 90124,
+    "regular_comoving_frame_changes_principal_rank": false,
+    "released_independent_row_beyond_Upsilon_available": false
+  },
+  "controls": {
+    "controls_passed": 40,
+    "hostile_mutations_rejected": 30,
+    "probe": "tests/channel-swings/k810_sc_act_06_comoving_frame_closure_probe.py",
+    "producer": "tests/channel-swings/k810_sc_act_06_comoving_frame_closure.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "all_moving_principal_geometry_closed": false,
+    "future_owned_symmetry_or_independent_row_closed": false,
+    "global_sc_act_06_proved_or_refuted": false,
+    "next_direct_frontier": "Construct a source-typed zero-locus germ with relative metric/epsilon/Shiab/Hodge principal motion not induced by a regular natural frame map, plus complete stationarity, gauge/redundancy and domain data; or authenticate a new row/symmetry. Future K500 still needs new A/B data.",
+    "regular_comoving_frame_reopens_certified_packet": false,
+    "singular_or_non_natural_reductions_closed": false,
+    "source_claim_status_changes": false
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "released Upsilon row and current authenticated symmetry grant only",
+    "carrier": "regular frame orbit of the released full connection and zero-fermion full-field packet",
+    "grading": "connection principal symbol through embedded full-field kernel and middle quotient",
+    "pairing": "natural transported principal response and current symmetry quotient",
+    "real_structure": "real associated-bundle frame transport",
+    "target": "whether a co-moving change of frame reopens the certified principal packet"
+  },
+  "ledger_no_change_reason": "The result removes one basis-change reopener and constructs no new stationary germ, physical quotient, observable, prediction or confirmation.",
+  "pinned_inputs": {
+    "k798": {
+      "path": "lab/process/k798-k500-current-packet-closure.json",
+      "sha256": "81adec6251a78428de6deebb24cdae2925ec1bde864a29df22294e79e74b9f10"
+    },
+    "k806": {
+      "path": "lab/process/k806-sc-act-06-nonzero-t-alone-closure.json",
+      "sha256": "a152d1488135898ef2db09287bfd8aac24209c4b2d96da7b7a9a5b2affccbb0a"
+    },
+    "k807": {
+      "path": "lab/process/k807-sc-act-06-comoving-principal-conjugacy.json",
+      "sha256": "a4866b74c707b544f77e96fa4ea59de8e092a7e809a1c0e340c27fc00c6f6385"
+    },
+    "k808": {
+      "path": "lab/process/k808-sc-act-06-comoving-full-field-kernel.json",
+      "sha256": "a84196fa14e5a9cc87f1e5408e251fb578b6feae9160d9e3ad34df679bfe16af"
+    },
+    "k809": {
+      "path": "lab/process/k809-sc-act-06-comoving-symmetry-quotient.json",
+      "sha256": "45a069e73529a11f0416ec677633ebe9e3701934c170cb6e85d74182ea21ec69"
+    }
+  },
+  "protected_effects": {
+    "canon": "UNCHANGED",
+    "paper_and_public_posture": "UNCHANGED",
+    "physics_ledger": "UNCHANGED",
+    "prediction_confirmation_physical_verdict": "UNCHANGED",
+    "sc_act_06": "ASSERTS_UNCHANGED",
+    "source_register": "UNCHANGED"
+  },
+  "reranked_frontier": [
+    "relative moving-coefficient source two-jet with complete stationarity/gauge/domain packet",
+    "authenticated independent released/source-owned first-order row acting on the embedded kernel",
+    "owned symmetry image spanning 106512 kernel directions or at least 90124 beyond the current grant",
+    "genuinely new native same-domain K500 A data plus same-coordinate complete B/boundary/tail data",
+    "K218/K152 only after a named consuming margin"
+  ],
+  "result_id": "K810-SC-ACT-06-COMOVING-FRAME-CLOSURE",
+  "schema_version": "1.0",
+  "scope": "Closure of regular natural co-moving metric/epsilon/Shiab/Hodge frame transport, not genuine relative coefficient motion, as a repair of the current SC-ACT-06 packet.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

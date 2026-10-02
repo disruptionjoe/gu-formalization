@@ -1,0 +1,71 @@
+{
+  "claim_ceiling": "Exact co-moving-frame principal conjugacy only; arbitrary moving coefficients, singular reductions and global SC-ACT-06 remain open.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 44,
+    "hostile_mutations_rejected": 32,
+    "probe": "tests/channel-swings/k807_sc_act_06_comoving_principal_conjugacy_probe.py",
+    "producer": "tests/channel-swings/k807_sc_act_06_comoving_principal_conjugacy.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "all_moving_metric_epsilon_shiab_hodge_germs_classified": false,
+    "comoving_frame_orbit_is_new_principal_packet": false,
+    "global_sc_act_06_proved_or_refuted": false,
+    "next_exact_input": "Construct relative coefficient motion not induced by a regular natural frame map, with a compatible source two-jet and complete stationarity/gauge/domain packet."
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "released first-order Upsilon equation only; no residual-square Hessian import",
+    "carrier": "source-owned full connection tangent transported by the epsilon/frame associated-bundle cocycle",
+    "grading": "connection one-form principal symbol at a transported nonzero covector",
+    "pairing": "natural gimmel Hodge/Clifford/Shiab packet under simultaneous domain and residual-frame transport",
+    "real_structure": "the real U(64,64) coefficient basis transported by an invertible real frame map",
+    "target": "whether natural co-moving frame motion changes principal rank or kernel"
+  },
+  "intertwiner_theorem": {
+    "covector_transport_invertible": true,
+    "domain_frame_map_invertible": true,
+    "formula": "J_e(q_e)=R_e J_0(q_0) C_e^-1",
+    "genuine_relative_coefficient_motion_covered": false,
+    "hodge_shiab_clifford_packet_natural": true,
+    "moving_projector_cocycle_exact": true,
+    "pure_frame_motion_is_basis_change": true,
+    "residual_frame_map_invertible": true,
+    "singular_observation_map_covered": false
+  },
+  "ledger_no_change_reason": "This is an associated-bundle conjugacy theorem, not a new stationary germ, quotient, observable, prediction or confirmation.",
+  "orbit_consequence": {
+    "domain_dimension": 229376,
+    "kernel_transport": "ker(J_e)=C_e ker(J_0)",
+    "real_nonzero_covector_orbits": [
+      "native_positive",
+      "native_negative",
+      "native_null"
+    ],
+    "reference_kernel_dimension": 106512,
+    "reference_rank": 122864,
+    "transported_kernel_dimension": 106512,
+    "transported_rank": 122864
+  },
+  "pinned_inputs": {
+    "frame_naturality": {
+      "path": "explorations/conditional-build/selected-action-comoving-frame-naturality-2026-08-06.md",
+      "sha256": "7ab09821220bde9d7a13a7113b510bbd9fca32a99186322d97b48dd50ec050e1"
+    },
+    "k803": {
+      "path": "lab/process/k803-sc-act-06-nonzero-t-principal-invariance.json",
+      "sha256": "0975cbfb2dd7ee2f4634198b29bdae51fc6a425879afd69ed4c890bba76f1d62"
+    },
+    "moving_parent": {
+      "path": "lab/process/selected-k77-moving-parent-bundle-observation-reduction.json",
+      "sha256": "994b7e3e83d7ee3075bd463612b871875feeb02a436c49d563ac75c2d8a9d73f"
+    }
+  },
+  "result_id": "K807-SC-ACT-06-COMOVING-PRINCIPAL-CONJUGACY",
+  "schema_version": "1.0",
+  "scope": "Regular co-moving orthonormal-frame transport of the released Upsilon principal connection response; genuine relative coefficient motion and singular observation maps are excluded.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

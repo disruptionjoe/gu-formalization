@@ -4,6 +4,21 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K807--K810 co-moving frame-orbit closure
+
+- `channel-swings/k807_sc_act_06_comoving_principal_conjugacy.py` proves
+  regular natural frame transport conjugates the principal response; its
+  `_probe.py` independently replays 32 hostile mutations.
+- `channel-swings/k808_sc_act_06_comoving_full_field_kernel.py` transports the
+  embedded kernel through the full-field packet; its `_probe.py` independently
+  replays 30 hostile mutations.
+- `channel-swings/k809_sc_act_06_comoving_symmetry_quotient.py` transports the
+  current symmetry quotient; its `_probe.py` independently replays 28 hostile
+  mutations.
+- `channel-swings/k810_sc_act_06_comoving_frame_closure.py` records the scoped
+  frame-orbit closure and surviving inputs; its `_probe.py` independently
+  replays 30 hostile mutations.
+
 ## K803--K806 fixed-structure nonzero-T closure
 
 - `channel-swings/k803_sc_act_06_nonzero_t_principal_invariance.py` proves

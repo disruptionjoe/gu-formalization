@@ -1,0 +1,57 @@
+{
+  "claim_ceiling": "Exact regular co-moving full-field kernel transport only; genuine mixed blocks and arbitrary moving germs remain open.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 40,
+    "hostile_mutations_rejected": 30,
+    "probe": "tests/channel-swings/k808_sc_act_06_comoving_full_field_kernel_probe.py",
+    "producer": "tests/channel-swings/k808_sc_act_06_comoving_full_field_kernel.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "all_moving_full_field_germs_classified": false,
+    "comoving_full_field_packet_middle_exact_before_symmetry": false,
+    "global_sc_act_06_proved_or_refuted": false,
+    "next_exact_input": "Test the transported kernel against owned symmetry, or construct genuinely new mixed principal blocks on a complete stationary germ."
+  },
+  "direction": "observed_to_native",
+  "extension_theorem": {
+    "embedded_reference_kernel_dimension": 106512,
+    "embedded_transported_kernel_dimension": 106512,
+    "extra_transported_field_columns_delete_pure_connection_kernel": false,
+    "full_field_frame_map_invertible": true,
+    "genuine_mixed_principal_blocks_covered": false,
+    "pure_connection_subspace_intertwined": true,
+    "xi_row_factors_through_transported_D_Upsilon": true,
+    "zero_fermion_diagonal_remains_separate": true
+  },
+  "gu_typed_objects": {
+    "action_owner": "released Upsilon row, redundant Xi prolongation and displayed zero-fermion diagonal",
+    "carrier": "released zero-fermion full-field tangent with transported pure-connection subspace",
+    "grading": "pure connection tangent embedded into the full bosonic-plus-fermionic packet",
+    "pairing": "principal field-equation symbol and redundant Xi row",
+    "real_structure": "transported real full-field frame compatible with K807",
+    "target": "whether natural full-field frame transport removes the connection kernel"
+  },
+  "ledger_no_change_reason": "This is a functorial kernel embedding, not a new physical quotient, domain, prediction or confirmation.",
+  "pinned_inputs": {
+    "k792": {
+      "path": "lab/process/k792-sc-act-06-redundant-prolongation-kernel-theorem.json",
+      "sha256": "0f4c88f9c89ec2b7813332d608c64d0f54807058bdee29707f6bfc3c1a023466"
+    },
+    "k804": {
+      "path": "lab/process/k804-sc-act-06-fixed-structure-full-field-kernel.json",
+      "sha256": "c2344e9861528c19704893f1481a66e966a6e82546a1d4a0827aeccf0af8b660"
+    },
+    "k807": {
+      "path": "lab/process/k807-sc-act-06-comoving-principal-conjugacy.json",
+      "sha256": "a4866b74c707b544f77e96fa4ea59de8e092a7e809a1c0e340c27fc00c6f6385"
+    }
+  },
+  "result_id": "K808-SC-ACT-06-COMOVING-FULL-FIELD-KERNEL",
+  "schema_version": "1.0",
+  "scope": "Transport of the K804 pure-connection kernel embedding through a regular natural full-field frame map at a zero-fermion Upsilon=0 germ.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}
