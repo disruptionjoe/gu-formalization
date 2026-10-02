@@ -7,6 +7,42 @@ updated_at: "2026-10-02"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K795--K798 current-custody K500 packet closure (2026-10-02)
+
+K795 freezes the complete native K500 decision interface as a conjunction.
+The A half requires a complete graph carrier and `I-R*R>2/3`; the B half
+requires the same-coordinate lower bound `B>=1/170`, the boundary inequality
+`D_W(341/170)>=0`, and complete parity-tail control. The existing conditional
+compiler chain is complete as a chain of implications, but current custody
+supplies neither native antecedent bundle.
+
+K796 gives exact product countermodels. All four models have the same visible
+seed leakage `1/4` and finite denominator prefix `1/100`, while their hidden
+complete-domain extensions realize all four A/B truth pairs. K797 converts
+this into the no-assembly theorem: the unchanged serialized projection
+entails neither A, B, nor A-and-B, and conditional compilers cannot create the
+missing native premises.
+
+K798 closes only the unchanged-current-custody assembly route. It does not
+kill a future native K500 packet, reject the K139/K168 operator, retract K609,
+or release K473/K152. Reopening requires genuinely new native same-domain A
+data and same-coordinate complete B/boundary/tail data. The four producers
+exercise 140 controls; the independent probes reject 108/108 hostile
+mutations.
+
+Run:
+
+```bash
+python3 tests/channel-swings/k795_k500_complete_ab_decision_interface.py
+python3 tests/channel-swings/k795_k500_complete_ab_decision_interface_probe.py
+python3 tests/channel-swings/k796_k500_current_custody_product_countermodels.py
+python3 tests/channel-swings/k796_k500_current_custody_product_countermodels_probe.py
+python3 tests/channel-swings/k797_k500_current_custody_no_assembly_theorem.py
+python3 tests/channel-swings/k797_k500_current_custody_no_assembly_theorem_probe.py
+python3 tests/channel-swings/k798_k500_current_packet_closure.py
+python3 tests/channel-swings/k798_k500_current_packet_closure_probe.py
+```
+
 ## K791--K794 released first-order flat-packet closure (2026-10-02)
 
 K791 inventories the released first-order equation grammar. Its one bosonic

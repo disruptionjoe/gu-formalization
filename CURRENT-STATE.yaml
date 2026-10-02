@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 2e315e80f53d
+revision_basis: d94bb5255693
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K795--K798 test whether the unchanged current serialized K500 custody can
+    be algebraically assembled into the complete native A/B packet left open
+    by K794. K795 freezes the conjunctive decision interface: A requires the
+    complete-graph inequality `I-R*R>2/3`; B requires the same-coordinate
+    lower bound `B>=1/170`, `D_W(341/170)>=0`, and complete parity-tail
+    control. Neither half substitutes for the other. K796 constructs four
+    exact extensions with identical visible seed leakage `1/4` and finite
+    denominator prefix `1/100` but all four A/B pass/fail outcomes. K797
+    therefore proves that the current projection and conditional compilers
+    entail neither A, B, nor their conjunction. K798 closes only assembly from
+    unchanged current custody; it preserves the native K500 route, K609,
+    K139/K168, all conditional compilers, and the unreleased K473/K152
+    conclusions. Reopen with genuinely new native same-domain A data and
+    same-coordinate B/boundary/tail data; otherwise switch to a different
+    substantial arc. No source, ledger, canon, paper, public, prediction,
+    confirmation, or physical verdict moves.
+
     K791--K794 complete the released first-order row audit demanded by K790.
     K791 finds one first-order bosonic residual family, `Upsilon`, plus the
     declared redundant prolongation `Xi=D_omega Upsilon`; the fermion rows are
@@ -12406,6 +12423,19 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K795--K798 close only the attempt to assemble a complete native K500 A/B
+  packet from unchanged current serialized custody. The exact decision is a
+  conjunction: complete-domain A (`I-R*R>2/3`) and same-coordinate complete B
+  (`B>=1/170`, `D_W(341/170)>=0`, and parity-tail control). Four exact
+  extensions share the visible seed leakage `1/4` and denominator prefix
+  `1/100` while realizing every A/B truth pair, so the current projection and
+  conditional compilers entail neither half nor the conjunction. Reopen only
+  with genuinely new native same-domain remainder/complement data and a
+  same-coordinate complete boundary/tail packet. Otherwise change the
+  source-native germ/row/symmetry arc or pursue K218/K152 only when a named
+  consuming margin exists. K609, K139/K168, the conditional compilers, and
+  the unreleased K473/K152 conclusions remain intact.
+
   K791--K794 close K790's omitted-row audit for the released first-order
   serialization. The only displayed extra bosonic equation is the declared
   redundant prolongation `Xi=D_omega Upsilon`; at a zero-locus background its
@@ -13393,6 +13423,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K795--K798 close only unchanged-current-custody assembly of the complete
+  native K500 A/B packet. The current seed and finite-prefix projection has
+  exact extensions realizing all four A/B outcomes, so it determines neither
+  the complete-domain A inequality nor the same-coordinate B/boundary/tail
+  packet. Resume this route only with genuinely new native A and B data on one
+  complete domain. Otherwise move to a different source-typed SC-ACT-06 germ
+  or authenticated independent row/symmetry completion, or to K218/K152 when
+  a named consuming margin exists. No protected conclusion moves.
+
   K791--K794 close K790's omitted-row audit under the released first-order
   serialization. `Xi=D_omega Upsilon` is the only displayed extra bosonic
   equation and its zero-locus linearization factors through `J=D Upsilon`;

@@ -2,11 +2,29 @@
 title: "Research Status"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-09-28"
+updated_at: "2026-10-02"
 canon_sweep_at: "2026-07-25"
 ---
 
 # Research Status
+
+## 2026-10-02 — K795--K798 current-custody K500 packet closure
+
+K795 freezes the complete native K500 decision as the conjunction of a
+complete-domain A inequality (`I-R*R>2/3`) and a same-coordinate complete B
+packet (`B>=1/170`, `D_W(341/170)>=0`, and parity-tail control). The existing
+compiler chain is conditional and supplies neither native antecedent.
+
+K796 constructs four exact extensions with identical visible seed leakage
+`1/4` and finite denominator prefix `1/100`, realizing every A/B truth pair.
+K797 therefore proves that unchanged current custody entails neither half nor
+their conjunction. K798 closes only algebraic assembly from that unchanged
+projection. It preserves the future native K500 route, K609, K139/K168, the
+conditional compilers, and the unreleased K473/K152 conclusions. Reopening
+requires genuinely new native same-domain A data and same-coordinate
+B/boundary/tail data. The producers exercise 140 controls and their probes
+reject 108/108 hostile mutations. No protected scientific or public
+conclusion moves.
 
 ## 2026-09-28 — K608--K610 analytic envelopes, complete leakage and factorwise algebra
 

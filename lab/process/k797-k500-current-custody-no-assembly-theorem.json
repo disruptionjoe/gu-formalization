@@ -1,0 +1,91 @@
+{
+  "claim_ceiling": "Exact no-assembly theorem for unchanged current custody only. It neither rejects the native operator nor supplies a floor, K473/K152 release, source, ledger, canon, paper, public, prediction, confirmation or physical conclusion.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "controls": {
+    "controls_passed": 34,
+    "hostile_mutations_rejected": 28,
+    "probe": "tests/channel-swings/k797_k500_current_custody_no_assembly_theorem_probe.py",
+    "producer": "tests/channel-swings/k797_k500_current_custody_no_assembly_theorem.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "closure_reason": "exact extension non-identifiability on both independent complete-domain gates",
+    "current_serialized_K500_assembly_route_closed": true,
+    "new_native_data_required": true,
+    "next_exact_input": "Construct either native bundle first, but do not claim K500 completion until both are authenticated on one complete domain. Otherwise switch to a different substantial arc."
+  },
+  "dependency_reconciliation": {
+    "K139_K168_semiboundedness_retracted": false,
+    "K609_leakage_result_retracted": false,
+    "K696_K704_conditional_compilers_retracted": false,
+    "current_complete_AB_packet_available": false,
+    "future_native_AB_packet_excluded": false
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "extensions": "complete graph-complement and boundary-tail completions",
+    "projection": "current seed-line leakage plus finite boundary/prefix observations",
+    "result": "current-custody no-assembly theorem MAP-TYPE=logical extension theorem",
+    "target": "the complete native K500 A/B conjunction"
+  },
+  "ledger_no_change_reason": "This is a data-sufficiency theorem for an internal conditional operator route.",
+  "minimal_native_reopeners": {
+    "A_bundle": [
+      "one native same-domain remainder/form or complete column defining bounded R",
+      "one native seed-compression identity",
+      "one complete complement/cross or reducing-subspace certificate"
+    ],
+    "B_bundle": [
+      "one authenticated native minimal/Friedrichs boundary realization",
+      "one complete finite-tail-cross trace and real-interval packet",
+      "one same-coordinate target denominator and both parity-tail certificate"
+    ],
+    "both_bundles_on_one_domain_are_sufficient_inputs_for_existing_compilers": true,
+    "either_bundle_alone_suffices_for_complete_K500": false
+  },
+  "no_assembly_theorem": {
+    "another_algebraic_recomposition_of_unchanged_projection_can_close_packet": false,
+    "conditional_compilers_add_implications_not_missing_native_premises": true,
+    "premise_projection_is_shared_by_all_product_models": true,
+    "projection_has_all_four_joint_extensions": true,
+    "projection_has_pass_fail_extensions_for_A": true,
+    "projection_has_pass_fail_extensions_for_B": true,
+    "therefore_projection_does_not_entail_A": true,
+    "therefore_projection_does_not_entail_A_and_B": true,
+    "therefore_projection_does_not_entail_B": true
+  },
+  "pinned_inputs": {
+    "k678": {
+      "path": "lab/process/k678-k500-native-remainder-custody-audit.json",
+      "sha256": "7e48690dac605359cabc9f65890a6f33e45e4274cee1cebae4c38a4b52eab054"
+    },
+    "k698": {
+      "path": "lab/process/k698-k500-boundary-denominator-end-to-end-compiler.json",
+      "sha256": "22d7da5e196e526c8ca88172c424d0877428b33000569d308cc6a19e1a29a5cf"
+    },
+    "k795": {
+      "path": "lab/process/k795-k500-complete-ab-decision-interface.json",
+      "sha256": "aa809ea661b51465116cdfa68a1f60c6f98520a702da35a8da8cee0747f85048"
+    },
+    "k796": {
+      "path": "lab/process/k796-k500-current-custody-product-countermodels.json",
+      "sha256": "32f2c636c05872d1f247c18140ed69bb030f2c3411e1669b94c2b8946e9f9524"
+    }
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "A single pass/pass native extension would satisfy the existing compilers and defeat only the current-custody premise.",
+    "strongest_overclaim": "Calling current-custody closure a no-go for the fixed native operator or for K500 globally.",
+    "weakest_reproducibility_seam": "The theorem depends on the visible projection remaining exactly the currently serialized one; any genuinely new cofinal datum reopens it."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K678 and K698 report absent native inputs; K796 upgrades absence to exact non-entailment across the conjunction.",
+    "route_comparison": "A logical extension theorem closes repeated compiler composition without pretending to close future native construction.",
+    "strongest_alternative": "Directly build either missing native bundle."
+  },
+  "result_id": "K797-K500-CURRENT-CUSTODY-NO-ASSEMBLY-THEOREM",
+  "schema_version": "1.0",
+  "scope": "Whether any algebraic composition of the currently serialized K500 seed, finite-prefix and conditional-compiler data entails the complete native A/B certificate.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

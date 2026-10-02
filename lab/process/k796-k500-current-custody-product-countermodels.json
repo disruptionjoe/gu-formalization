@@ -1,0 +1,103 @@
+{
+  "claim_ceiling": "Exact current-projection non-identifiability only; no native A or B sign, nonexistence result, K473/K152 release, source, ledger, canon, paper, public, prediction, confirmation or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "controls": {
+    "controls_passed": 32,
+    "hostile_mutations_rejected": 24,
+    "probe": "tests/channel-swings/k796_k500_current_custody_product_countermodels_probe.py",
+    "producer": "tests/channel-swings/k796_k500_current_custody_product_countermodels.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "current_serialized_projection_is_nonidentifying": true,
+    "native_A_or_B_nonexistence_proved": false,
+    "next_exact_input": "Add complete-domain complement/cross data for A and cofinal tail/same-coordinate boundary data for B; another seed or finite-prefix row alone cannot decide the conjunction."
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "carrier": "C e_seed direct-sum C e_hidden with a separate finite/tail boundary coordinate",
+    "form": "diagonal positive R*R control and diagonal complete denominator control",
+    "result": "A/B product countermodels MAP-TYPE=logical data-sufficiency obstruction",
+    "target": "current-custody implication to the complete K500 certificate"
+  },
+  "ledger_no_change_reason": "The controls test logical implication only and construct no source-owned or physical object.",
+  "postflight_bookend": {
+    "strongest_contrary_construction": "New cofinal native data can select the pass/pass quadrant.",
+    "strongest_overclaim": "Treating abstract controls as native counterexamples to K139/K168.",
+    "weakest_reproducibility_seam": "All four controls must keep the visible seed and prefix projections byte-identical while varying only hidden complete data."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K673 and K651 separately prove hidden-complement and hidden-tail freedom; the product question has not been frozen as a conjunctive K500 decision obstruction.",
+    "route_comparison": "The Cartesian product control is the cheapest decisive test of whether the two partial evidence families can rescue one another.",
+    "strongest_alternative": "A native direct A/B construction bypasses non-identifiability."
+  },
+  "product_countermodels": [
+    {
+      "A_lower": "3/4",
+      "A_strictly_above_two_thirds": true,
+      "B_denominator_nonnegative": true,
+      "complete_R_norm_square": "1/4",
+      "complete_denominator_lower": "1/100",
+      "hidden_complement_square": "1/4",
+      "hidden_tail_denominator": "1/100",
+      "label": "A_PASS__B_PASS",
+      "visible_finite_denominator": "1/100",
+      "visible_seed_square": "1/4"
+    },
+    {
+      "A_lower": "3/4",
+      "A_strictly_above_two_thirds": true,
+      "B_denominator_nonnegative": false,
+      "complete_R_norm_square": "1/4",
+      "complete_denominator_lower": "-1/100",
+      "hidden_complement_square": "1/4",
+      "hidden_tail_denominator": "-1/100",
+      "label": "A_PASS__B_FAIL",
+      "visible_finite_denominator": "1/100",
+      "visible_seed_square": "1/4"
+    },
+    {
+      "A_lower": "1/2",
+      "A_strictly_above_two_thirds": false,
+      "B_denominator_nonnegative": true,
+      "complete_R_norm_square": "1/2",
+      "complete_denominator_lower": "1/100",
+      "hidden_complement_square": "1/2",
+      "hidden_tail_denominator": "1/100",
+      "label": "A_FAIL__B_PASS",
+      "visible_finite_denominator": "1/100",
+      "visible_seed_square": "1/4"
+    },
+    {
+      "A_lower": "1/2",
+      "A_strictly_above_two_thirds": false,
+      "B_denominator_nonnegative": false,
+      "complete_R_norm_square": "1/2",
+      "complete_denominator_lower": "-1/100",
+      "hidden_complement_square": "1/2",
+      "hidden_tail_denominator": "-1/100",
+      "label": "A_FAIL__B_FAIL",
+      "visible_finite_denominator": "1/100",
+      "visible_seed_square": "1/4"
+    }
+  ],
+  "result_id": "K796-K500-CURRENT-CUSTODY-PRODUCT-COUNTERMODELS",
+  "schema_version": "1.0",
+  "scope": "Four exact complete-carrier controls sharing the current seed and finite-prefix projections while independently varying the complete A and B outcomes.",
+  "shared_projection": {
+    "finite_denominator_margin": "1/100 > 0",
+    "models_are_controls_not_native_K139_K168_realizations": true,
+    "same_seed_and_finite_prefix_for_all_models": true,
+    "seed_leakage_square": "1/4 < 1/3"
+  },
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "A_and_B_missing_inputs_are_logically_independent": true,
+    "all_four_A_B_truth_pairs_realized": true,
+    "current_projection_entails_complete_K500_AB": false,
+    "finite_prefix_determines_complete_B": false,
+    "seed_data_determines_complete_A": false
+  }
+}

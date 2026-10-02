@@ -7,6 +7,20 @@ updated_at: "2026-10-02"
 
 # Next Steps For Contributors
 
+> **2026-10-02 K795--K798 CURRENT-CUSTODY K500 PACKET CLOSURE.** K795 freezes
+> the complete native K500 decision as the conjunction of complete-domain A
+> (`I-R*R>2/3`) and same-coordinate complete B (`B>=1/170`,
+> `D_W(341/170)>=0`, and parity-tail control). K796 constructs four exact
+> extensions sharing visible seed leakage `1/4` and finite denominator prefix
+> `1/100` while realizing every A/B pass/fail pair. K797 proves that unchanged
+> current custody and the conditional compiler chain entail neither A, B, nor
+> their conjunction. K798 closes only that algebraic assembly attempt; it
+> preserves native K500, K609, K139/K168, all conditional compilers, and the
+> unreleased K473/K152 conclusions. Reopen with genuinely new native
+> same-domain A data and same-coordinate B/boundary/tail data. Otherwise
+> change the SC-ACT-06 germ/row/symmetry arc or pursue K218/K152 only with a
+> named consuming margin.
+
 > **2026-10-02 K791--K794 RELEASED FIRST-ORDER FLAT-PACKET CLOSURE.** K791
 > audits the released first-order display: `Upsilon` is the sole bosonic
 > residual family, `Xi=D_omega Upsilon` is declared redundant, the fermion

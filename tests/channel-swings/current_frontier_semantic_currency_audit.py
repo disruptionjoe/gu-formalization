@@ -323,6 +323,18 @@ def load_inputs() -> dict:
         "k794": json.loads(
             (ROOT / "lab/process/k794-sc-act-06-released-flat-realization-closure.json").read_text()
         ),
+        "k795": json.loads(
+            (ROOT / "lab/process/k795-k500-complete-ab-decision-interface.json").read_text()
+        ),
+        "k796": json.loads(
+            (ROOT / "lab/process/k796-k500-current-custody-product-countermodels.json").read_text()
+        ),
+        "k797": json.loads(
+            (ROOT / "lab/process/k797-k500-current-custody-no-assembly-theorem.json").read_text()
+        ),
+        "k798": json.loads(
+            (ROOT / "lab/process/k798-k500-current-packet-closure.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -515,9 +527,13 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     check(registry["latest_gu_formalization_result"] ==
-          "K791_K794_SC_ACT_06_RELEASED_FLAT_REALIZATION_CLOSURE_CURRENT",
+          "K795_K798_K500_CURRENT_PACKET_CLOSURE_CURRENT",
           "latest GU result pointer moved")
     if isinstance(live, str):
+        check("K795--K798 close only unchanged-current-custody assembly" in live and
+              "all four A/B outcomes" in live and
+              "genuinely new native A and B data" in live,
+              "live K795--K798 current-custody packet closure missing")
         check("K791--K794 close K790's omitted-row audit" in live and
               "at least 90124 middle classes" in live and
               "genuinely different source-typed `Upsilon=0` germ" in live,
@@ -908,10 +924,17 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
 
     question = current.get("current_question", "")
     check(
-        "K791--K794 close K790's omitted-row audit" in question
-        and "at least 90124" in question
-        and "complete native K500 A/B packet" in question,
-        "current question lost K791--K794 released-flat-packet closure",
+        "K795--K798 close only the attempt to assemble" in question
+        and "every A/B truth pair" in question
+        and "genuinely new native same-domain remainder/complement data" in question,
+        "current question lost K795--K798 current-custody packet closure",
+    )
+    check(
+        "K795--K798 close only the attempt to assemble" in data["agenda"].get("latest_result_2026_10_02_k795_k798", "")
+        and "every A/B truth pair" in data["agenda"].get("latest_result_2026_10_02_k795_k798", "")
+        and "future native K500" in data["agenda"].get("latest_result_2026_10_02_k795_k798", "")
+        and "No protected conclusion moves" in data["agenda"].get("latest_result_2026_10_02_k795_k798", ""),
+        "agenda K795--K798 result is not current",
     )
     check(
         "K791--K794 complete K790's released first-order row audit" in data["agenda"].get("latest_result_2026_10_02_k791_k794", "")
@@ -2739,6 +2762,37 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           k794["composition"]["uniform_persistent_middle_classes"] == 90124,
           "K794 released flat-realization closure moved")
 
+    k795 = data["k795"]
+    check(k795["decision"]["conditional_compiler_chain_complete"] and
+          not k795["decision"]["current_native_A_packet_complete"] and
+          not k795["decision"]["current_native_B_packet_complete"] and
+          not k795["decision"]["current_complete_K500_AB_packet_executable"] and
+          "neither gate substitutes" in k795["decision_interface"]["final_requirement"],
+          "K795 complete A/B decision interface moved")
+
+    k796 = data["k796"]
+    check(k796["theorem"]["all_four_A_B_truth_pairs_realized"] and
+          k796["theorem"]["A_and_B_missing_inputs_are_logically_independent"] and
+          not k796["theorem"]["current_projection_entails_complete_K500_AB"] and
+          not k796["theorem"]["seed_data_determines_complete_A"] and
+          not k796["theorem"]["finite_prefix_determines_complete_B"],
+          "K796 current-custody product countermodels moved")
+
+    k797 = data["k797"]
+    check(k797["decision"]["current_serialized_K500_assembly_route_closed"] and
+          k797["decision"]["new_native_data_required"] and
+          not k797["dependency_reconciliation"]["future_native_AB_packet_excluded"] and
+          k797["no_assembly_theorem"]["therefore_projection_does_not_entail_A_and_B"],
+          "K797 current-custody no-assembly theorem moved")
+
+    k798 = data["k798"]
+    check(k798["decision"]["unchanged_current_custody_K500_AB_packet_closed"] and
+          not k798["decision"]["complete_native_K500_route_killed"] and
+          not k798["decision"]["K473_or_K152_released"] and
+          not k798["decision"]["conditional_compilers_retracted"] and
+          not k798["decision"]["source_or_physics_verdict_changed"],
+          "K798 current-packet closure moved")
+
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]
     k693_n = k693["native_interface_status"]
@@ -4090,6 +4144,14 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k793-lower", lambda d: d["k793"]["exact_bound"].__setitem__("persistent_middle_classes_lower_bound", 0))
     add("k794-close", lambda d: d["k794"]["decision"].__setitem__("K717_direct_released_source_packet_closed", False))
     add("k794-global", lambda d: d["k794"]["decision"].__setitem__("global_SC_ACT_06_proved_or_refuted", True))
+    add("k795-executable", lambda d: d["k795"]["decision"].__setitem__("current_complete_K500_AB_packet_executable", True))
+    add("k795-native-a", lambda d: d["k795"]["decision"].__setitem__("current_native_A_packet_complete", True))
+    add("k796-four-pairs", lambda d: d["k796"]["theorem"].__setitem__("all_four_A_B_truth_pairs_realized", False))
+    add("k796-entails", lambda d: d["k796"]["theorem"].__setitem__("current_projection_entails_complete_K500_AB", True))
+    add("k797-closure", lambda d: d["k797"]["decision"].__setitem__("current_serialized_K500_assembly_route_closed", False))
+    add("k797-future", lambda d: d["k797"]["dependency_reconciliation"].__setitem__("future_native_AB_packet_excluded", True))
+    add("k798-packet", lambda d: d["k798"]["decision"].__setitem__("unchanged_current_custody_K500_AB_packet_closed", False))
+    add("k798-native", lambda d: d["k798"]["decision"].__setitem__("complete_native_K500_route_killed", True))
 
     add("k693-lower", lambda d: d["k693"]["graph_equivalence_theorem"].__setitem__("upper_bound_alone_sufficient_for_closedness", True))
     add("k693-native", lambda d: d["k693"]["native_interface_status"].__setitem__("actual_native_closed_column_proved", True))

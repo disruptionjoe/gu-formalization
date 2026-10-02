@@ -1,0 +1,93 @@
+{
+  "claim_ceiling": "Exact conjunctive input interface and current-custody executability audit only. It does not prove the native inputs do not exist or that K500 cannot be completed after new data.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "controls": {
+    "controls_passed": 36,
+    "hostile_mutations_rejected": 26,
+    "probe": "tests/channel-swings/k795_k500_complete_ab_decision_interface_probe.py",
+    "producer": "tests/channel-swings/k795_k500_complete_ab_decision_interface.py"
+  },
+  "created": "2026-10-02",
+  "current_custody": {
+    "K609_seed_leakage_below_one_third": true,
+    "native_A_proved": false,
+    "native_R_defined": false,
+    "native_complete_floor_emitted": false,
+    "native_target_denominator_proved": false
+  },
+  "decision": {
+    "conditional_compiler_chain_complete": true,
+    "current_complete_K500_AB_packet_executable": false,
+    "current_native_A_packet_complete": false,
+    "current_native_B_packet_complete": false,
+    "next_exact_input": "Supply at least one genuinely native complete-domain A bundle and one same-coordinate complete B/boundary bundle; current conditional compilers cannot manufacture either input."
+  },
+  "decision_interface": {
+    "A_definition": "A=I-R*R on K647's complete graph carrier",
+    "A_native_requirements": [
+      "native same-domain r_free or complete column and bounded R=T a^-1",
+      "K609-to-R P_seed compression identity",
+      "complete Q_seed norm and cross/reduction control"
+    ],
+    "A_strict_target": "A>2/3",
+    "B_definition": "complete same-coordinate cancellation/boundary lower input",
+    "B_native_requirements": [
+      "native minimal operator and Friedrichs reference",
+      "complete boundary maps, trace finite/tail/cross packet and real interval",
+      "same-coordinate complete denominator margin and both parity tails"
+    ],
+    "B_target": "B>=1/170 together with D_W(341/170)>=0",
+    "final_requirement": "A and B must hold on one authenticated complete carrier/domain; neither gate substitutes for the other"
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "carrier": "K647 complete graph carrier with seed and graph-orthogonal complement",
+    "form": "fixed K139/K168 cancelled regular form and its complete boundary realization",
+    "pairing": "K153 physical graph Gram M together with one authenticated boundary coordinate",
+    "result": "complete K500 A/B decision interface MAP-TYPE=conjunctive certificate schema",
+    "target": "one native positive cancellation-graph floor, not a source or physical verdict"
+  },
+  "ledger_no_change_reason": "This is internal conditional operator mathematics and supplies no source-owned action, physical state, quotient, observable, prediction or confirmation.",
+  "pinned_inputs": {
+    "k609": {
+      "path": "lab/process/k609-k500-complete-uniform-leakage-enclosure.json",
+      "sha256": "1677504d1cf36e3672f2921103f3168ea7d6a8a95a7e7694aee2f4018b1a75a3"
+    },
+    "k673": {
+      "path": "lab/process/k673-k500-seed-line-leakage-custody.json",
+      "sha256": "321e213df33ff273a718cbdbbce8151d7b1e77f83447b92d74f9a87ecff5c857"
+    },
+    "k674": {
+      "path": "lab/process/k674-k500-compressed-leakage-complement-budget.json",
+      "sha256": "d6bb96da0453618b18227262ad2fdfb1699317ca35bc938ebb540853e946677c"
+    },
+    "k678": {
+      "path": "lab/process/k678-k500-native-remainder-custody-audit.json",
+      "sha256": "7e48690dac605359cabc9f65890a6f33e45e4274cee1cebae4c38a4b52eab054"
+    },
+    "k698": {
+      "path": "lab/process/k698-k500-boundary-denominator-end-to-end-compiler.json",
+      "sha256": "22d7da5e196e526c8ca88172c424d0877428b33000569d308cc6a19e1a29a5cf"
+    },
+    "k703": {
+      "path": "lab/process/k703-k500-interval-complete-cancellation-floor-compiler.json",
+      "sha256": "6313c43f3e7b70b6370c95eb5a12153610935dc588711c3262a2f5f999cb3d0d"
+    }
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "A future native A and B bundle on one domain would immediately reopen the route.",
+    "strongest_overclaim": "Calling a complete conditional compiler a complete native certificate.",
+    "weakest_reproducibility_seam": "Every A and B row must share the exact carrier, form domain, reference extension and boundary coordinate."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K696--K704 already provide the conditional compilers; K795 audits native executability rather than adding another sufficient synthetic row.",
+    "route_comparison": "A conjunctive interface is cheaper and more decisive than separately extending the seed or finite prefix because it exposes whether any current-data assembly can close K500.",
+    "strongest_alternative": "Construct a genuinely new native remainder/boundary packet directly."
+  },
+  "result_id": "K795-K500-COMPLETE-AB-DECISION-INTERFACE",
+  "schema_version": "1.0",
+  "scope": "The complete native conjunction required to turn the current K500 leakage and semibound program into a positive cancellation-graph floor.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}
