@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 264041a15fe7
+revision_basis: 9c744d6b13e3
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K823--K826 complete four remaining typed admission seams for a future
+    relative SC-ACT-06 family. K823 separates transport of the zero locus from
+    transport of action stationarity: the same branch can solve
+    `F_t(x_t)=0` while failing the independently owned Euler first jet. K824
+    proves the exact fermion/mixed-symbol reduction through the bosonic Schur
+    complement `B-C F^-1 D`; zero or one-sided mixed blocks preserve a
+    bosonic class, while a two-sided owned packet may change it. K825 shows
+    that pointwise closed or self-adjoint operators need not share a domain
+    and requires one common dense graph domain or explicit uniformly bounded
+    domain transport. K826 proves that source-owned endpoints determine
+    neither `Delta=dJ_t/dt|0` nor its parameter normalization. No source
+    action family, mixed block, common domain or interpolation was invented.
+    SC-ACT-06 remains `ASSERTS`; no protected conclusion moves.
+
     K819--K822 add the second-order and complex-coherence conditions missing
     from the first relative-germ admission packet. K819 proves that first-
     tangent solvability does not imply a real C2 zero-locus family: the
@@ -12499,6 +12513,17 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K823--K826 add the action and analytic typing still missing after K815--K822.
+  A proposed relative zero-locus family must independently transport Euler
+  stationarity before any action Hessian is credited; its full fermion symbol
+  must be reduced through the actual two-sided mixed Schur complement; every
+  operator and complex map must live on one common dense domain or an explicit
+  uniformly graph-controlled transport; and `Delta` must come from a
+  source/action-owned normalized family rather than an interpolation chosen
+  between owned endpoints. Next supply one source-typed relative
+  `Upsilon=0` two-jet satisfying K815--K826 together on one common Euclidean
+  domain. SC-ACT-06 remains `ASSERTS`.
+
   K819--K822 make the relative-family coherence test explicit. After K815,
   solve the second-order cokernel equation over the affine kernel freedom in
   `xdot`; after K816, serialize moving gauge and redundancy maps satisfying
@@ -13578,6 +13603,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K823--K826 require a future relative candidate to carry an independently
+  owned stationary action jet, both action-owned mixed principal blocks and
+  fermion diagonal, one common dense analytic domain or explicit uniformly
+  controlled domain transport, and a source/action-owned normalized family
+  whose derivative is the claimed `Delta`. Endpoint custody, pointwise
+  closedness, one-sided mixing and zero-locus transport do not supply those
+  rows. Current custody still contains no such complete source family. The
+  next native input is therefore one source-typed relative `Upsilon=0`
+  two-jet passing K815--K826 on the same Euclidean carrier and domain.
+  SC-ACT-06 remains `ASSERTS`; no protected conclusion moves.
+
   K819--K822 require a future relative candidate to solve the second-order
   zero-locus cokernel obstruction over kernel freedom, preserve the moving
   gauge-response-redundancy complex to first parameter order, authenticate

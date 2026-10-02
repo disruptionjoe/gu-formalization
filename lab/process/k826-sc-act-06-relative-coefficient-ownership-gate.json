@@ -1,0 +1,126 @@
+{
+  "claim_ceiling": "Relative-coefficient ownership and reparameterization obstruction only; no source family, ellipticity or global SC-ACT-06 conclusion.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 28,
+    "hostile_mutations_rejected": 12,
+    "probe": "tests/channel-swings/k826_sc_act_06_relative_coefficient_ownership_gate_probe.py",
+    "producer": "tests/channel-swings/k826_sc_act_06_relative_coefficient_ownership_gate.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "actual_source_relative_family_constructed": false,
+    "endpoint_custody_promoted_to_relative_ownership": false,
+    "global_sc_act_06_proved_or_refuted": false,
+    "next_exact_input": "Supply one source/action-owned normalized family J_t on the K825 domain transport, then use its actual Delta in K820 and K822; do not choose an interpolation after seeing the desired rank."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "Delta_A": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "Delta_A_rank": 1,
+    "Delta_B": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "Delta_B_rank": 0,
+    "J0": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "J1": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "K": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "path_A": "J_A(t)=J0+tK",
+    "path_B": "J_B(t)=J0+t^2K",
+    "relative_tangent_is_endpoint_invariant": false,
+    "same_endpoint_at_t1": true,
+    "scaled_Delta": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "scaled_Delta_rank": 1,
+    "scaled_parameter": "J_A(3s)=J0+3sK"
+  },
+  "gu_typed_objects": {
+    "action_owner": "future source/action-selected interpolation, not endpoint custody",
+    "carrier": "one parameterized family of response maps on fixed or explicitly transported typed fibers",
+    "grading": "relative tangent Delta between the field and residual symbol grades",
+    "pairing": "none; derivative ownership precedes rank and Schur estimates",
+    "real_structure": "the family's real carrier and parameter must be source/action typed",
+    "target": "whether a relative principal correction and its scale are owned data"
+  },
+  "ledger_no_change_reason": "The ownership counterexample authenticates no GU interpolation, action, physical quotient, observable, prediction or confirmation.",
+  "ownership_theorem": {
+    "endpoint_interpolation_may_be_reverse_selected": true,
+    "owned_endpoints_determine_parameter_normalization": false,
+    "owned_endpoints_determine_relative_coefficient": false,
+    "relative_coefficient": "Delta=dJ_t/dt|t=0",
+    "reparameterization_changes_delta": true,
+    "required_owner": "one source/action-owned parameterized family J_t plus its parameter normalization and typed domain transport",
+    "unowned_interpolation_rank_is_credited": false
+  },
+  "pinned_inputs": {
+    "k784": {
+      "path": "lab/process/k784-sc-act-06-i1b-i2b-action-sum-ownership-correction.json",
+      "sha256": "ae60fcfb2811b1e1dfa01c50323c770878d17f68618e8e47c0e179874865e011"
+    },
+    "k820": {
+      "path": "lab/process/k820-sc-act-06-differentiated-complex-compatibility.json",
+      "sha256": "31b860114fdb9a78501c66a56b7e28a8fcd973d6eff95527a158a1efe135c6e9"
+    },
+    "k825": {
+      "path": "lab/process/k825-sc-act-06-common-analytic-domain-gate.json",
+      "sha256": "b49fad5ee0759b116951ce911c3005f9260b6a2a9a41c2bc992bc615d7f709f3"
+    }
+  },
+  "result_id": "K826-SC-ACT-06-RELATIVE-COEFFICIENT-OWNERSHIP-GATE",
+  "schema_version": "1.0",
+  "scope": "Ownership and normalization conditions for crediting Delta=dJ_t/dt at a source-native relative family.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

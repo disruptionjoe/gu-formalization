@@ -407,6 +407,18 @@ def load_inputs() -> dict:
         "k822": json.loads(
             (ROOT / "lab/process/k822-sc-act-06-joint-parameter-covector-uniformity.json").read_text()
         ),
+        "k823": json.loads(
+            (ROOT / "lab/process/k823-sc-act-06-stationarity-transport-gate.json").read_text()
+        ),
+        "k824": json.loads(
+            (ROOT / "lab/process/k824-sc-act-06-mixed-symbol-schur-gate.json").read_text()
+        ),
+        "k825": json.loads(
+            (ROOT / "lab/process/k825-sc-act-06-common-analytic-domain-gate.json").read_text()
+        ),
+        "k826": json.loads(
+            (ROOT / "lab/process/k826-sc-act-06-relative-coefficient-ownership-gate.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -599,9 +611,13 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     check(registry["latest_gu_formalization_result"] ==
-          "K819_K822_SC_ACT_06_RELATIVE_FAMILY_COHERENCE_CURRENT",
+          "K823_K826_SC_ACT_06_ACTION_DOMAIN_OWNERSHIP_CURRENT",
           "latest GU result pointer moved")
     if isinstance(live, str):
+        check("K823--K826 require a future relative candidate" in live and
+              "stationary action jet" in live and
+              "source/action-owned normalized family" in live,
+              "live K823--K826 action/domain/ownership packet missing")
         check("K819--K822 require a future relative candidate" in live and
               "second-order" in live and
               "one common punctured interval" in live,
@@ -867,6 +883,11 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K823--K826 complete four remaining typed admission seams" in summary and
+          "B-C F^-1 D" in summary and
+          "pointwise closed or self-adjoint operators need not share a domain" in summary and
+          "SC-ACT-06 remains `ASSERTS`" in summary,
+          "current K823--K826 action/domain/ownership result lost")
     check("K791--K794 complete the released first-order row audit" in summary and
           "delta Xi=D_omega(delta Upsilon)" in summary and
           "at least 90124 classes persist" in summary and
@@ -1019,6 +1040,18 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "K823--K826 add the action and analytic typing" in question
+        and "two-sided mixed Schur complement" in question
+        and "source/action-owned normalized family" in question,
+        "current question lost K823--K826 action/domain/ownership gates",
+    )
+    check(
+        "K823--K826 complete four remaining typed admission seams" in data["agenda"].get("latest_result_2026_10_02_k823_k826", "")
+        and "pointwise self-adjointness" in data["agenda"].get("latest_result_2026_10_02_k823_k826", "")
+        and "SC-ACT-06 remains ASSERTS" in data["agenda"].get("latest_result_2026_10_02_k823_k826", ""),
+        "agenda K823--K826 result is not current",
+    )
     check(
         "K819--K822 make the relative-family coherence test explicit" in question
         and "Delta G0+J0 Gdot=0" in question
@@ -3155,6 +3188,38 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k822["decision"]["actual_gu_uniform_interval_proved"],
           "K822 joint parameter-covector uniformity moved")
 
+    k823 = data["k823"]
+    check(not k823["stationarity_transport_theorem"]["zero_locus_transport_implies_stationarity_transport"] and
+          k823["stationarity_transport_theorem"]["stationarity_is_required_before_action_hessian_credit"] and
+          k823["exact_controls"]["nonstationary_first_jet_residual"] == 1 and
+          not k823["exact_controls"]["nonstationary_stationarity_transport_passes"] and
+          not k823["decision"]["actual_source_action_family_constructed"],
+          "K823 stationarity transport gate moved")
+
+    k824 = data["k824"]
+    check(k824["mixed_symbol_schur_theorem"]["effective_bosonic_symbol"] == "S_B=B-C F^-1 D" and
+          not k824["mixed_symbol_schur_theorem"]["one_sided_mixed_block_repairs_bosonic_kernel"] and
+          k824["exact_controls"]["one_sided_full_nullity"] == 1 and
+          k824["exact_controls"]["two_sided_full_nullity"] == 0 and
+          not k824["decision"]["actual_source_mixed_packet_constructed"],
+          "K824 mixed-symbol Schur gate moved")
+
+    k825 = data["k825"]
+    check(not k825["common_domain_theorem"]["pointwise_closed_or_self_adjoint_implies_common_domain"] and
+          not k825["exact_controls"]["domains_equal"] and
+          k825["exact_controls"]["reflection_maps_D0_onto_D1"] and
+          k825["exact_controls"]["transported_graph_norm_constant"] == 1 and
+          not k825["decision"]["actual_gu_common_domain_constructed"],
+          "K825 common analytic-domain gate moved")
+
+    k826 = data["k826"]
+    check(not k826["ownership_theorem"]["owned_endpoints_determine_relative_coefficient"] and
+          not k826["ownership_theorem"]["owned_endpoints_determine_parameter_normalization"] and
+          k826["exact_controls"]["Delta_A_rank"] == 1 and
+          k826["exact_controls"]["Delta_B_rank"] == 0 and
+          not k826["decision"]["actual_source_relative_family_constructed"],
+          "K826 relative-coefficient ownership gate moved")
+
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]
     k693_n = k693["native_interface_status"]
@@ -4305,6 +4370,10 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k820-rank-without-identities", lambda d: d["k820"]["differentiated_complex_theorem"].__setitem__("rank_budget_without_identities_is_credited", True))
     add("k821-arbitrary-slice", lambda d: d["k821"]["exact_controls"].__setitem__("arbitrary_rows_are_gauge_slice", True))
     add("k822-pointwise-uniform", lambda d: d["k822"]["uniform_persistence_theorem"].__setitem__("pointwise_thresholds_imply_common_interval", True))
+    add("k823-infer-stationarity", lambda d: d["k823"]["stationarity_transport_theorem"].__setitem__("zero_locus_transport_implies_stationarity_transport", True))
+    add("k824-one-sided-repair", lambda d: d["k824"]["mixed_symbol_schur_theorem"].__setitem__("one_sided_mixed_block_repairs_bosonic_kernel", True))
+    add("k825-pointwise-domain", lambda d: d["k825"]["common_domain_theorem"].__setitem__("pointwise_closed_or_self_adjoint_implies_common_domain", True))
+    add("k826-endpoint-ownership", lambda d: d["k826"]["ownership_theorem"].__setitem__("owned_endpoints_determine_relative_coefficient", True))
 
     add("k696-form", lambda d: d["k696"]["integration_theorem"].__setitem__("graph_equivalence_without_form_identity_sufficient", True))
     add("k696-reduction", lambda d: d["k696"]["integration_theorem"].__setitem__("reduction_of_column_labels_alone_reduces_native_R", True))

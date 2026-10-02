@@ -4,6 +4,18 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K823--K826 action, mixed-symbol, domain and ownership gates
+
+- `channel-swings/k823_sc_act_06_stationarity_transport_gate.py` separates
+  zero-locus transport from independently owned action stationarity.
+- `channel-swings/k824_sc_act_06_mixed_symbol_schur_gate.py` proves the exact
+  two-sided mixed-symbol Schur criterion.
+- `channel-swings/k825_sc_act_06_common_analytic_domain_gate.py` supplies the
+  unequal-domain counterexample and explicit graph-domain transport rule.
+- `channel-swings/k826_sc_act_06_relative_coefficient_ownership_gate.py`
+  proves endpoints and reparameterizations do not own `Delta`.
+- The paired `_probe.py` files reject 48/48 hostile mutations.
+
 ## K819--K822 relative-family coherence gates
 
 - `channel-swings/k819_sc_act_06_second_order_zero_locus_obstruction.py`

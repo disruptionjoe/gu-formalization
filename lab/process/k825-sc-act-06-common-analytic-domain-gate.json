@@ -1,0 +1,72 @@
+{
+  "claim_ceiling": "Necessary common-domain/transport criterion and exact counterexample only; no GU domain, ellipticity or global SC-ACT-06 conclusion.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "common_domain_theorem": {
+    "admissible_common_domain_route": "one dense D common to all operators, maps and adjoints used in the claimed complex",
+    "admissible_transport_route": "bounded invertible U_t:D_0->D_t with transported operators on D_0, domain-preserving complex maps, and uniform two-sided graph-norm bounds",
+    "identity_comparison_allowed_when_domains_differ": false,
+    "pointwise_closed_or_self_adjoint_implies_common_domain": false,
+    "pointwise_symbol_rank_implies_closed_family_exactness": false,
+    "uniform_graph_control_needed_for_parameter_uniformity": true
+  },
+  "controls": {
+    "controls_passed": 30,
+    "hostile_mutations_rejected": 12,
+    "probe": "tests/channel-swings/k825_sc_act_06_common_analytic_domain_gate_probe.py",
+    "producer": "tests/channel-swings/k825_sc_act_06_common_analytic_domain_gate.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "actual_gu_common_domain_constructed": false,
+    "global_sc_act_06_proved_or_refuted": false,
+    "next_exact_input": "For the same source family used by K815--K824, name one dense common domain or explicit bounded domain transport and prove every gauge, response, mixed, fermion and redundancy map preserves it with the uniform graph estimates used by K822.",
+    "pointwise_closedness_credited_as_common_domain": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "D0": "multiplication by 1/x on Dom(D0)={f:f/x in L2}",
+    "D0_not_D1_witness": "f(x)=x(1-x)^(1/4)",
+    "D0_self_adjoint": true,
+    "D1": "multiplication by 1/(1-x) on Dom(D1)={f:f/(1-x) in L2}",
+    "D1_not_D0_witness": "g(x)=(1-x)x^(1/4)",
+    "D1_self_adjoint": true,
+    "domains_equal": false,
+    "hilbert_space": "L2(0,1)",
+    "reflection_intertwines": "D1 U = U D0",
+    "reflection_is_unitary": true,
+    "reflection_maps_D0_onto_D1": true,
+    "reflection_transport": "(Uf)(x)=f(1-x)",
+    "transported_graph_norm_constant": 1,
+    "witness_integrability_exponent_bad": "-3/2",
+    "witness_integrability_exponent_good": "1/2"
+  },
+  "gu_typed_objects": {
+    "action_owner": "future source/action-owned operator family; no GU common domain is supplied",
+    "carrier": "Hilbert field fibers with dense operator domains over the family parameter",
+    "grading": "domain-preserving gauge, response, mixed fermion and redundancy maps",
+    "pairing": "graph norms for the response, fermion and redundancy operators",
+    "real_structure": "real form and complexification must be transported explicitly with the domain",
+    "target": "one well-defined relative complex and uniform all-covector estimate"
+  },
+  "ledger_no_change_reason": "The domain theorem supplies no GU operator domain, physical state, quotient, observable, prediction or confirmation.",
+  "pinned_inputs": {
+    "k818": {
+      "path": "lab/process/k818-sc-act-06-uniform-covector-gate.json",
+      "sha256": "88b7ab39ba3cab9f00358b945fbd168d38d301dd41a9c1c76f3f6a9b64fc62e3"
+    },
+    "k822": {
+      "path": "lab/process/k822-sc-act-06-joint-parameter-covector-uniformity.json",
+      "sha256": "697c98e3750f5042eda62a0a324fe48e5c5c5d288881330f286c110827dfd118"
+    },
+    "k824": {
+      "path": "lab/process/k824-sc-act-06-mixed-symbol-schur-gate.json",
+      "sha256": "7005f9bcd747bd27fd153e96786dc0dfc8ff56ce43f2d26183649e57dd8e1737"
+    }
+  },
+  "result_id": "K825-SC-ACT-06-COMMON-ANALYTIC-DOMAIN-GATE",
+  "schema_version": "1.0",
+  "scope": "Necessary common-domain or explicit graph-domain transport conditions for a relative family of closed operators and symbol complexes.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

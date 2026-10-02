@@ -7,6 +7,19 @@ updated_at: "2026-10-02"
 
 # Next Steps For Contributors
 
+> **2026-10-02 K823--K826 ACTION, MIXED-SYMBOL, DOMAIN AND OWNERSHIP GATES.**
+> K823 separates a transported `Upsilon=0` branch from an action-stationary
+> branch and requires the independently owned Euler first and second jets
+> before action-Hessian credit. K824 proves that an invertible fermion block
+> changes the bosonic kernel only through the actual Schur complement
+> `B-C F^-1 D`; zero or one-sided mixed blocks do not repair it. K825 gives
+> an exact pair of self-adjoint multiplication operators with unequal domains
+> and requires a common dense graph domain or explicit uniformly controlled
+> domain transport. K826 proves that identical owned endpoints admit paths
+> with different `Delta`, and reparameterization changes its scale. Next
+> supply one source/action-owned normalized relative family passing K815--K826
+> on the same Euclidean carrier and common domain.
+
 > **2026-10-02 K819--K822 RELATIVE-FAMILY COHERENCE GATES.** K819 adds the
 > second-order zero-locus obstruction: after `J xdot+b=0`, a proposed family
 > must solve the cokernel equation for

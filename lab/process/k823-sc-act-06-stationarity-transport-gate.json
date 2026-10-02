@@ -1,0 +1,71 @@
+{
+  "claim_ceiling": "Necessary stationarity transport only; no source action family, ellipticity or global SC-ACT-06 conclusion.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 28,
+    "hostile_mutations_rejected": 12,
+    "probe": "tests/channel-swings/k823_sc_act_06_stationarity_transport_gate_probe.py",
+    "producer": "tests/channel-swings/k823_sc_act_06_stationarity_transport_gate.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "actual_source_action_family_constructed": false,
+    "global_sc_act_06_proved_or_refuted": false,
+    "next_exact_input": "For a source relative family, serialize its independent Euler map and prove the stationarity jets on the same field curve before using an action Hessian or action-owned mixed symbol.",
+    "zero_locus_packet_promoted_to_action_stationarity": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "branch_speed": 1,
+    "nonstationary_action": "S(t,x)=x^2/2",
+    "nonstationary_euler": "E(t,x)=x",
+    "nonstationary_first_jet_residual": 1,
+    "nonstationary_stationarity_transport_passes": false,
+    "nonstationary_zero_locus_passes": true,
+    "shared_zero_locus": "F(t,x)=x-t with branch x_t=t",
+    "stationary_action": "S(t,x)=(x-t)^2/2",
+    "stationary_euler": "E(t,x)=x-t",
+    "stationary_first_jet_residual": 0,
+    "stationary_second_jet_residual": 0,
+    "stationary_transport_passes": true,
+    "stationary_zero_locus_passes": true
+  },
+  "gu_typed_objects": {
+    "action_owner": "future source/action-owned moving functional; no such family is supplied",
+    "carrier": "a proposed real parameterized field/background curve x_t",
+    "grading": "zero-locus residual F_t and action Euler map E_t are separate typed rows",
+    "pairing": "independently owned Euler covector and Hessian, not the Upsilon residual pairing",
+    "real_structure": "real C2 parameter and field jets",
+    "target": "simultaneous zero-locus and action-stationary transport"
+  },
+  "ledger_no_change_reason": "A generic stationarity-separation theorem supplies no source action, physical quotient, observable, prediction or confirmation.",
+  "pinned_inputs": {
+    "k815": {
+      "path": "lab/process/k815-sc-act-06-zero-locus-tangent-compatibility.json",
+      "sha256": "897f1feed21163ec2031203c614911bceb4b4be006cd020dd1ec23a93f8d3734"
+    },
+    "k819": {
+      "path": "lab/process/k819-sc-act-06-second-order-zero-locus-obstruction.json",
+      "sha256": "bfa73e53cd1cd3fe587ea4d9f7e7d6a437e244fafd904a800db835bfb0d9f667"
+    },
+    "k822": {
+      "path": "lab/process/k822-sc-act-06-joint-parameter-covector-uniformity.json",
+      "sha256": "697c98e3750f5042eda62a0a324fe48e5c5c5d288881330f286c110827dfd118"
+    }
+  },
+  "result_id": "K823-SC-ACT-06-STATIONARITY-TRANSPORT-GATE",
+  "schema_version": "1.0",
+  "scope": "Necessary action-stationarity jet conditions for a proposed relative Upsilon=0 family whenever action Hessians or action-owned field symbols are claimed.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "stationarity_transport_theorem": {
+    "first_stationarity_jet": "A xdot + e = 0, where A=D_x E_0 and e=partial_t E_t|0",
+    "passing_first_and_second_stationarity_jets_proves_a_full_family": false,
+    "second_stationarity_jet": "A xddot + E_tt + 2 E_tx[xdot] + E_xx[xdot,xdot] = 0",
+    "stationarity_equation": "E_t(x_t)=dS_t(x_t)=0",
+    "stationarity_is_required_before_action_hessian_credit": true,
+    "zero_locus_equation": "F_t(x_t)=0",
+    "zero_locus_transport_implies_stationarity_transport": false
+  },
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

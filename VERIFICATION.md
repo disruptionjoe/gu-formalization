@@ -7,6 +7,44 @@ updated_at: "2026-10-02"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K823--K826 action, mixed-symbol, domain and ownership gates (2026-10-02)
+
+K823 proves that zero-locus transport and action-stationarity transport are
+different typed obligations. The exact branch `F(t,x)=x-t=0` solves the zero
+locus with `x_t=t`, but fails the Euler first jet for `S=x^2/2`; the action
+`S=(x-t)^2/2` passes both first and second stationarity jets on the same
+branch. K824 proves the block-kernel equivalence for
+`M=[[B,C],[D,F]]` with invertible `F`: the full kernel is the kernel of
+`B-C F^-1 D`. Exact controls show zero and one-sided mixed blocks preserve one
+bosonic class, while a two-sided mixed control can remove it.
+
+K825 separates pointwise operator closure from a common analytic domain. The
+self-adjoint multipliers `1/x` and `1/(1-x)` on `L2(0,1)` have unequal maximal
+domains, with exact power witnesses in each difference. Reflection transports
+the domains isometrically, illustrating the explicit transport data a valid
+family must provide. K826 then shows that the same endpoints `J0,J1` admit
+`J0+tK` and `J0+t^2K`, whose initial derivatives have ranks one and zero;
+reparameterization also changes the derivative scale. Endpoint custody is not
+ownership of a relative coefficient.
+
+Run the producers and hostile probes:
+
+```bash
+python3 tests/channel-swings/k823_sc_act_06_stationarity_transport_gate.py --check
+python3 tests/channel-swings/k823_sc_act_06_stationarity_transport_gate_probe.py
+python3 tests/channel-swings/k824_sc_act_06_mixed_symbol_schur_gate.py --check
+python3 tests/channel-swings/k824_sc_act_06_mixed_symbol_schur_gate_probe.py
+python3 tests/channel-swings/k825_sc_act_06_common_analytic_domain_gate.py --check
+python3 tests/channel-swings/k825_sc_act_06_common_analytic_domain_gate_probe.py
+python3 tests/channel-swings/k826_sc_act_06_relative_coefficient_ownership_gate.py --check
+python3 tests/channel-swings/k826_sc_act_06_relative_coefficient_ownership_gate_probe.py
+```
+
+The producers declare 116 controls and the probes reject 48 hostile
+mutations. No source action family, mixed symbol, common GU domain or owned
+interpolation is constructed. SC-ACT-06 remains `ASSERTS` with no protected
+scientific effect.
+
 ## K819--K822 relative-family coherence gates (2026-10-02)
 
 K819 proves the second-order cokernel condition for a proposed moving zero
