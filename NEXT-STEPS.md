@@ -7,6 +7,19 @@ updated_at: "2026-10-02"
 
 # Next Steps For Contributors
 
+> **2026-10-02 K859--K862 NATURALITY-AWARE REPAIR DISPOSITION.** K859 proves
+> that the present data constrain the old middle cohomology only to the exact
+> interval 90124 through 106512; 90124 is not an exact bundle rank because the
+> rank-16388 symmetry budget is a deliberately overlarge grant, not an owned
+> image. K860 reduces natural maps over `S^13=SO(14)/SO(13)` to `SO(13)`-
+> intertwiners at one base covector. K861 shows why this is stronger than
+> ordinary topology: the rank-91 product bundle
+> `S^13 x Lambda^2(R^14)` is ordinarily trivial but has no nonzero
+> `SO(14)`-equivariant section. K862 compiles eleven conjunctive naturality
+> rows. Next compute the authenticated old cohomology isotropy module and
+> construct source/action-owned `S_0,tau_0` intertwiners before globalizing
+> them. An arbitrary frame earns no GU credit; SC-ACT-06 remains `ASSERTS`.
+
 > **2026-10-02 K855--K858 TOPOLOGICAL REPAIR DISPOSITION.** K855 proves that
 > constant-rank continuous old symbol maps form a real middle-cohomology
 > bundle. K856 proves every real rank-at-least-14 bundle over the Euclidean

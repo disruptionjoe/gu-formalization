@@ -7,6 +7,49 @@ updated_at: "2026-10-02"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K859--K862 naturality-aware repair disposition (2026-10-02)
+
+K859 sharpens the rank custody left by K858. The current direct response has
+kernel dimension 106512, while K789 deliberately grants at most 16388
+symmetry directions without promoting them to a source-owned total gauge map.
+Thus an authenticated image rank `g` would give
+`dim(H)=106512-g`; present custody permits the complete interval
+`[90124,106512]` and certifies only the lower bound 90124.
+
+K860 proves the homogeneous-bundle naturality theorem. For bundles
+`G x_H U` and `G x_H V` over `G/H`, evaluation at the base coset identifies
+`G`-equivariant bundle maps with `H`-intertwiners `U->V`. Rank is constant;
+composition and `im(S)=ker(tau)` hold globally exactly when they hold at the
+base fibre. K861 proves ordinary triviality is strictly weaker. The product
+bundle `S^13 x Lambda^2(R^14)` has ordinary rank 91 and is trivial, but
+`Lambda^2(R^14)|SO(13)=Lambda^2(R^13) direct-sum R^13` has no fixed vector.
+It therefore has no nonzero `SO(14)`-equivariant section or equivariant frame.
+The six-dimensional `SO(4)/SO(3)` infinitesimal control has joint invariant
+dimension zero exactly.
+
+K862 compiles eleven conjunctive rows for a natural repair: the complete
+equivariant old complex and exact ranks, the old cohomology isotropy module,
+owned source and target modules, `SO(13)`-intertwiners, every descent and
+composition identity, base-fibre exactness, globalization, common real/domain
+data and the robust Hodge row when claimed. Current custody supplies none of
+the new module or ownership rows. The four producers pass 132 controls and
+their probes reject 74/74 hostile mutations. SC-ACT-06 remains `ASSERTS`; no
+source, ledger, canon, paper, public, prediction, confirmation or physical
+verdict moves.
+
+Run the producers and hostile probes:
+
+```bash
+python3 tests/channel-swings/k859_sc_act_06_cohomology_rank_custody.py --check
+python3 tests/channel-swings/k859_sc_act_06_cohomology_rank_custody_probe.py
+python3 tests/channel-swings/k860_sc_act_06_homogeneous_intertwiner_gate.py --check
+python3 tests/channel-swings/k860_sc_act_06_homogeneous_intertwiner_gate_probe.py
+python3 tests/channel-swings/k861_sc_act_06_equivariant_triviality_countermodel.py --check
+python3 tests/channel-swings/k861_sc_act_06_equivariant_triviality_countermodel_probe.py
+python3 tests/channel-swings/k862_sc_act_06_naturality_repair_disposition.py --check
+python3 tests/channel-swings/k862_sc_act_06_naturality_repair_disposition_probe.py
+```
+
 ## K855--K858 topological repair disposition (2026-10-02)
 
 K855 proves the constant-rank bundle theorem for the old principal complex:

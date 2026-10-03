@@ -515,6 +515,18 @@ def load_inputs() -> dict:
         "k858": json.loads(
             (ROOT / "lab/process/k858-sc-act-06-topological-repair-disposition.json").read_text()
         ),
+        "k859": json.loads(
+            (ROOT / "lab/process/k859-sc-act-06-cohomology-rank-custody.json").read_text()
+        ),
+        "k860": json.loads(
+            (ROOT / "lab/process/k860-sc-act-06-homogeneous-intertwiner-gate.json").read_text()
+        ),
+        "k861": json.loads(
+            (ROOT / "lab/process/k861-sc-act-06-equivariant-triviality-countermodel.json").read_text()
+        ),
+        "k862": json.loads(
+            (ROOT / "lab/process/k862-sc-act-06-naturality-repair-disposition.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -707,9 +719,13 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     check(registry["latest_gu_formalization_result"] ==
-          "K855_K858_SC_ACT_06_TOPOLOGICAL_REPAIR_DISPOSITION_CURRENT",
+          "K859_K862_SC_ACT_06_NATURALITY_REPAIR_DISPOSITION_CURRENT",
           "latest GU result pointer moved")
     if isinstance(live, str):
+        check("K859--K862 prove that the current 90124 value is only the lower endpoint" in live and
+              "natural repair maps are determined by `SO(13)`-intertwiners" in live and
+              "rank-91 product bundle" in live,
+              "live K859--K862 naturality repair disposition missing")
         check("K855--K858 prove that once a complete real constant-rank old cohomology" in live and
               "rank-`h>=14` bundle over `S^13` is trivial" in live and
               "a chosen global frame to an owner" in live,
@@ -1192,6 +1208,18 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "K859--K862 separate ordinary high-rank bundle triviality" in data["agenda"].get("latest_result_2026_10_02_k859_k862", "")
+        and "rank-91 ordinary trivial bundle" in data["agenda"].get("latest_result_2026_10_02_k859_k862", "")
+        and "SC-ACT-06 remains ASSERTS" in data["agenda"].get("latest_result_2026_10_02_k859_k862", ""),
+        "agenda K859--K862 result is not current",
+    )
+    check(
+        "K859--K862 replace ordinary bundle triviality" in question
+        and "SO(13)" in question
+        and "im(S_0)=ker(tau_0)" in question,
+        "current question lost K859--K862 naturality repair interface",
+    )
     check(
         "K855--K858 close the purely topological obstruction route" in data["agenda"].get("latest_result_2026_10_02_k855_k858", "")
         and "rank h>=14 bundle is trivial" in data["agenda"].get("latest_result_2026_10_02_k855_k858", "")
@@ -3757,6 +3785,41 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k858["compiled_result"]["source_or_action_ownership_supplied"],
           "K858 topological repair disposition moved")
 
+    k859 = data["k859"]
+    check(k859["rank_theorem"]["conditional_exact_rank_interval"] == [90124, 106512] and
+          k859["rank_theorem"]["lower_bound_is_not_exact_rank"] and
+          not k859["decision"]["current_exact_old_cohomology_rank_known"] and
+          not k859["decision"]["90124_promoted_to_exact_bundle_rank"] and
+          not k859["decision"]["SC_ACT_06_proved_or_refuted"],
+          "K859 cohomology rank custody moved")
+
+    k860 = data["k860"]
+    check(k860["theorem"]["bijection"] == "Hom_G(E,F)=Hom_H(U,V)" and
+          k860["decision"]["source_naturality_requires_isotropy_intertwiners"] and
+          not k860["decision"]["current_GU_isotropy_modules_authenticated"] and
+          not k860["decision"]["current_source_owned_intertwiners_constructed"] and
+          not k860["decision"]["SC_ACT_06_proved_or_refuted"],
+          "K860 homogeneous intertwiner gate moved")
+
+    k861 = data["k861"]
+    check(k861["countermodel"]["ordinary_bundle_trivial"] and
+          k861["countermodel"]["ordinary_rank"] == 91 and
+          k861["countermodel"]["isotropy_fixed_dimension"] == 0 and
+          not k861["countermodel"]["nonzero_equivariant_section_exists"] and
+          not k861["decision"]["K857_abstract_frame_promoted_to_natural_owner"] and
+          not k861["decision"]["SC_ACT_06_proved_or_refuted"],
+          "K861 equivariant triviality countermodel moved")
+
+    k862 = data["k862"]
+    check(k862["naturality_certificate"]["row_count"] == 11 and
+          k862["naturality_certificate"]["all_rows_conjunctive"] and
+          not k862["naturality_certificate"]["rank_lower_bound_allowed_as_exact_dimension"] and
+          not k862["naturality_certificate"]["arbitrary_global_frame_allowed_as_owner"] and
+          not k862["compiled_result"]["current_flat_exact_admitted"] and
+          not k862["decision"]["current_flat_packet_repaired"] and
+          not k862["decision"]["SC_ACT_06_proved_or_refuted"],
+          "K862 naturality repair disposition moved")
+
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]
     k693_n = k693["native_interface_status"]
@@ -4943,6 +5006,10 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k856-current-hypotheses", lambda d: d["k856"]["decision"].__setitem__("current_flat_packet_bundle_hypotheses_established", True))
     add("k857-source-owned", lambda d: d["k857"]["decision"].__setitem__("source_owned_repair_maps_constructed", True))
     add("k858-current-repaired", lambda d: d["k858"]["decision"].__setitem__("current_flat_packet_repaired", True))
+    add("k859-exact-rank-known", lambda d: d["k859"]["decision"].__setitem__("current_exact_old_cohomology_rank_known", True))
+    add("k860-modules-authenticated", lambda d: d["k860"]["decision"].__setitem__("current_GU_isotropy_modules_authenticated", True))
+    add("k861-natural-frame", lambda d: d["k861"]["decision"].__setitem__("K857_abstract_frame_promoted_to_natural_owner", True))
+    add("k862-current-repaired", lambda d: d["k862"]["decision"].__setitem__("current_flat_packet_repaired", True))
 
     add("k696-form", lambda d: d["k696"]["integration_theorem"].__setitem__("graph_equivalence_without_form_identity_sufficient", True))
     add("k696-reduction", lambda d: d["k696"]["integration_theorem"].__setitem__("reduction_of_column_labels_alone_reduces_native_R", True))

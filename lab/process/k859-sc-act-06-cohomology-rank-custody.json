@@ -1,0 +1,92 @@
+{
+  "claim_ceiling": "Exact interval implied by the current kernel dimension and granted symmetry ceiling. It does not identify the actual old cohomology rank or a complete bundle.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "comparator_routing_notice": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) 126 Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read lab/methods/source-native-comparator-routing.md and follow its source-native pointers before reusing this result.",
+  "controls": {
+    "controls_passed": 30,
+    "hostile_mutations_rejected": 18,
+    "probe": "tests/channel-swings/k859_sc_act_06_cohomology_rank_custody_probe.py",
+    "producer": "tests/channel-swings/k859_sc_act_06_cohomology_rank_custody.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "90124_promoted_to_exact_bundle_rank": false,
+    "SC_ACT_06_proved_or_refuted": false,
+    "complete_constant_rank_bundle_established": false,
+    "current_exact_old_cohomology_rank_known": false,
+    "rank_nonidentifiability_under_current_custody": true
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "abstract_attainable_count": 16389,
+    "abstract_attainable_endpoints": [
+      90124,
+      106512
+    ],
+    "all_grant_ceilings": [
+      16388,
+      16388,
+      16388
+    ],
+    "all_kernel_dimensions": [
+      106512,
+      106512,
+      106512
+    ],
+    "interval_width": 16388,
+    "lower_endpoint": 90124,
+    "orbits": [
+      "native_positive",
+      "native_negative",
+      "native_null"
+    ],
+    "small_control": {
+      "kernel_dimension": 5,
+      "possible_cohomology_dimensions": [
+        5,
+        4,
+        3
+      ],
+      "rank_ceiling": 2
+    },
+    "upper_endpoint": 106512
+  },
+  "gu_typed_objects": {
+    "action_owner": "source/action-owned old symmetry map still required",
+    "carrier": "LAYER=ambient CHIRALITY=N/A old middle symbol bundle over a compact Euclidean cosphere",
+    "grading": "old gauge image -> old middle kernel -> old equation image",
+    "pairing": "continuous positive auxiliary fibre metric used only to realize orthogonal projectors",
+    "real_structure": "fixed real symbol bundles",
+    "target": "MAP-TYPE=old middle cohomology rank H_q=ker(J_q)/im(G_q)"
+  },
+  "ledger_no_change_reason": "The packet sharpens a local algebraic lower bound and supplies neither an owned symmetry map nor a physical quotient or observable.",
+  "pinned_inputs": {
+    "k789": {
+      "path": "lab/process/k789-sc-act-06-maximal-symmetry-budget.json",
+      "sha256": "b73011120d0904f451a232042ab03b5089f20336df45371180cca4db6d999a7f"
+    },
+    "k858": {
+      "path": "lab/process/k858-sc-act-06-topological-repair-disposition.json",
+      "sha256": "bfd5a8fe40de61222a84172951815bf7bca1a3d4d70679abfcc7bc34fff37e2c"
+    }
+  },
+  "rank_theorem": {
+    "authenticated_kernel_dimension": 106512,
+    "conditional_exact_rank_interval": [
+      90124,
+      106512
+    ],
+    "current_certified_statement": "dim(H_q)>=90124",
+    "exact_rank_requires": "authenticated rank of the source/action-owned G_q on the complete Euclidean cosphere",
+    "formula_when_JG_zero": "dim(H_q)=dim ker(J_q)-rank(G_q)",
+    "granted_symmetry_rank_ceiling": 16388,
+    "lower_bound_is_not_exact_rank": true,
+    "maximal_grant_is_not_owned_rank": true
+  },
+  "result_id": "K859-SC-ACT-06-COHOMOLOGY-RANK-CUSTODY",
+  "schema_version": "1.0",
+  "scope": "Rank custody for the current K788/K789 flat connection kernel under the deliberately overlarge symmetry grant; no complete cosphere bundle or owned symmetry map is inferred.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

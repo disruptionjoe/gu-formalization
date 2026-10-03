@@ -1,0 +1,128 @@
+{
+  "claim_ceiling": "Necessary-and-sufficient homogeneous naturality interface conditional on the complete equivariant old complex. It neither repairs nor globally excludes any GU germ.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "comparator_routing_notice": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) 126 Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read lab/methods/source-native-comparator-routing.md and follow its source-native pointers before reusing this result.",
+  "compiled_result": {
+    "current_exact_old_cohomology_rank_known": false,
+    "current_flat_exact_admitted": false,
+    "current_flat_robust_admitted": false,
+    "current_old_isotropy_module_authenticated": false,
+    "current_owned_repair_intertwiners_supplied": false,
+    "current_rank_interval_under_grant": [
+      90124,
+      106512
+    ],
+    "homogeneous_maps_reduce_to_isotropy_intertwiners": true,
+    "ordinary_high_rank_bundle_trivial_conditionally": true,
+    "ordinary_triviality_implies_natural_frame": false
+  },
+  "controls": {
+    "controls_passed": 39,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k862_sc_act_06_naturality_repair_disposition_probe.py",
+    "producer": "tests/channel-swings/k862_sc_act_06_naturality_repair_disposition.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "current_flat_packet_repairability_refuted": false,
+    "current_flat_packet_repaired": false,
+    "naturality_adds_a_distinct_representation_ownership_gate": true,
+    "naturality_reopens_an_ordinary_topological_obstruction": false,
+    "next_exact_input": "Compute the SO(13) isotropy representation of the authenticated complete old cohomology fibre, then exhibit source/action-owned isotropy modules and intertwiners S_0,tau_0 satisfying every descent, composition and kernel-image row before globalizing over SO(14)/SO(13).",
+    "pure_topological_route_remains_closed_conditionally": true
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "all_single_row_omissions_reject": true,
+    "complete_synthetic_candidate": {
+      "SO(13)-intertwiners S_0 and tau_0": true,
+      "authenticated SO(13) isotropy module of H_[e]": true,
+      "common real structure, invariant metrics and analytic domain": true,
+      "complete SO(14)-equivariant old principal complex over S^13": true,
+      "constant exact ranks and exact old cohomology rank": true,
+      "im(S_0)=ker(tau_0) at the base covector": true,
+      "induced SO(14)-equivariant maps on the complete cosphere": true,
+      "old-cycle and response-descent identities": true,
+      "positive Hodge gap and K853 perturbation control when robustness is claimed": true,
+      "source/action-owned repair-domain and repair-target isotropy modules": true,
+      "tau_0 S_0=0": true
+    },
+    "complete_synthetic_candidate_admitted": true,
+    "current_GU_candidate": {
+      "SO(13)-intertwiners S_0 and tau_0": false,
+      "authenticated SO(13) isotropy module of H_[e]": false,
+      "common real structure, invariant metrics and analytic domain": false,
+      "complete SO(14)-equivariant old principal complex over S^13": false,
+      "constant exact ranks and exact old cohomology rank": false,
+      "im(S_0)=ker(tau_0) at the base covector": false,
+      "induced SO(14)-equivariant maps on the complete cosphere": false,
+      "old-cycle and response-descent identities": false,
+      "positive Hodge gap and K853 perturbation control when robustness is claimed": false,
+      "source/action-owned repair-domain and repair-target isotropy modules": false,
+      "tau_0 S_0=0": false
+    },
+    "current_GU_candidate_admitted": false
+  },
+  "gu_typed_objects": {
+    "action_owner": "source/action ownership required for isotropy intertwiners and their globalized maps",
+    "carrier": "LAYER=ambient CHIRALITY=N/A old middle symbol bundle over a compact Euclidean cosphere",
+    "grading": "old gauge image -> old middle kernel -> old equation image",
+    "pairing": "continuous positive auxiliary fibre metric used only to realize orthogonal projectors",
+    "real_structure": "fixed real symbol bundles",
+    "target": "MAP-TYPE=SO(14)-natural exact quotient repair"
+  },
+  "ledger_no_change_reason": "The result sharpens the mathematical ownership interface but supplies no GU module, owned repair map, domain, physical quotient, state or observable.",
+  "naturality_certificate": {
+    "all_rows_conjunctive": true,
+    "arbitrary_global_frame_allowed_as_owner": false,
+    "basepoint_exactness_globalizes_only_after_equivariance": true,
+    "rank_lower_bound_allowed_as_exact_dimension": false,
+    "row_count": 11,
+    "rows": [
+      "complete SO(14)-equivariant old principal complex over S^13",
+      "constant exact ranks and exact old cohomology rank",
+      "authenticated SO(13) isotropy module of H_[e]",
+      "source/action-owned repair-domain and repair-target isotropy modules",
+      "SO(13)-intertwiners S_0 and tau_0",
+      "old-cycle and response-descent identities",
+      "tau_0 S_0=0",
+      "im(S_0)=ker(tau_0) at the base covector",
+      "induced SO(14)-equivariant maps on the complete cosphere",
+      "common real structure, invariant metrics and analytic domain",
+      "positive Hodge gap and K853 perturbation control when robustness is claimed"
+    ]
+  },
+  "pinned_inputs": {
+    "k850": {
+      "path": "lab/process/k850-sc-act-06-flat-quotient-repair-interface.json",
+      "sha256": "7f33c5cc8e5b5366bf2cc7ff8f18e7df9b84402651f276dc001a02a630ea19cb"
+    },
+    "k854": {
+      "path": "lab/process/k854-sc-act-06-robust-quotient-repair-certificate.json",
+      "sha256": "afe042325dd836f737520375fa2c5c017c8d5ed05a3fb4b629dea5d6d0787665"
+    },
+    "k858": {
+      "path": "lab/process/k858-sc-act-06-topological-repair-disposition.json",
+      "sha256": "bfd5a8fe40de61222a84172951815bf7bca1a3d4d70679abfcc7bc34fff37e2c"
+    },
+    "k859": {
+      "path": "lab/process/k859-sc-act-06-cohomology-rank-custody.json",
+      "sha256": "9c5073ad5ff223b92fd8f39d2f13e37a099d6fcd5f689f48a93f1ad34841ea96"
+    },
+    "k860": {
+      "path": "lab/process/k860-sc-act-06-homogeneous-intertwiner-gate.json",
+      "sha256": "b9ef0dd912193ec1e037f84316f68fb36dbfe17dc8f7b9db68d4b0816b0dcffc"
+    },
+    "k861": {
+      "path": "lab/process/k861-sc-act-06-equivariant-triviality-countermodel.json",
+      "sha256": "e8da92376a15d4cddc5ba3b40be9b076cc040820c50148404d453c630ad979ce"
+    }
+  },
+  "result_id": "K862-SC-ACT-06-NATURALITY-REPAIR-DISPOSITION",
+  "schema_version": "1.0",
+  "scope": "Naturality-aware disposition for repairing a complete Euclidean SC-ACT-06 symbol complex over S^13; current GU custody is not promoted to the required equivariant modules or maps.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

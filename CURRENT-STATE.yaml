@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 67730b8924cb
+revision_basis: 08a05e5e0beb
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K859--K862 separate ordinary high-rank triviality from a source-natural
+    SC-ACT-06 repair. K859 proves that K788's exact 106512-dimensional kernel
+    and K789's deliberately overlarge rank-16388 symmetry ceiling constrain
+    the old middle cohomology only to the interval 90124 through 106512; the
+    lower endpoint is not an exact rank because the granted image is not an
+    authenticated source/action-owned symmetry. K860 proves the homogeneous-
+    bundle theorem: over `G/H`, `G`-equivariant bundle maps are exactly
+    `H`-intertwiners at one base fibre, and rank, composition and middle
+    exactness reduce to that fibre. K861 supplies a sharp countermodel:
+    `S^13 x Lambda^2(R^14)` is an ordinary trivial real rank-91 bundle, but its
+    `SO(13)` isotropy fibre has no fixed vector, so it has no nonzero
+    `SO(14)`-equivariant section or equivariant frame. K862 compiles eleven
+    conjunctive naturality rows. The next exact input is the authenticated
+    `SO(13)` module of the complete old cohomology fibre plus source/action-
+    owned isotropy intertwiners `S_0,tau_0`. The current flat packet remains
+    unadmitted, SC-ACT-06 remains `ASSERTS`, and the source register and ledger
+    do not move.
+
     K855--K858 close the purely topological obstruction route for a future
     high-rank SC-ACT-06 quotient repair, without supplying GU ownership. K855
     proves that a continuous old symbol complex with constant gauge and
@@ -12628,6 +12646,18 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K859--K862 replace ordinary bundle triviality with the naturality-aware
+  repair question. The current 90124 value is only the lower endpoint of the
+  rank interval `[90124,106512]` allowed by the deliberately overlarge
+  symmetry ceiling. On the homogeneous Euclidean cosphere
+  `S^13=SO(14)/SO(13)`, a source-natural repair must come from `SO(13)`-
+  intertwiners on the authenticated old cohomology fibre; ordinary global
+  frames do not suffice. Compute that isotropy module and construct owned
+  `S_0,tau_0` satisfying descent, composition and
+  `im(S_0)=ker(tau_0)` before globalizing. The rank-91 exterior-square
+  countermodel proves that ordinary triviality alone supplies no equivariant
+  section. Current GU custody supplies none of these modules or maps.
+
   K851--K854 upgrade the exact quotient-repair interface to a uniform robust
   theorem: supply continuous source/action-owned `tau_bar_q,S_bar_q` on the
   complete compact authenticated cosphere, prove pointwise
@@ -13798,6 +13828,22 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K859--K862 prove that the current 90124 value is only the lower endpoint of
+  the exact interval `[90124,106512]` permitted by the deliberately overlarge
+  symmetry-rank ceiling, not the exact rank of an authenticated old
+  cohomology bundle. They also sharpen ownership: for a homogeneous Euclidean
+  family over `S^13=SO(14)/SO(13)`, natural repair maps are determined by
+  `SO(13)`-intertwiners on one base fibre. Ordinary stable triviality does not
+  supply those intertwiners; the rank-91 product bundle
+  `S^13 x Lambda^2(R^14)` is ordinarily trivial but has no nonzero
+  `SO(14)`-equivariant section. Next authenticate the complete equivariant old
+  complex and its exact cohomology rank, compute the `SO(13)` isotropy module
+  of `H_[e]`, and exhibit source/action-owned modules and intertwiners
+  `S_0,tau_0` satisfying every descent, composition and kernel-image row
+  before globalizing them. Do not promote the rank lower bound, an arbitrary
+  global frame or ordinary clutching triviality to GU ownership. SC-ACT-06
+  remains `ASSERTS` and no protected conclusion moves.
+
   K855--K858 prove that once a complete real constant-rank old cohomology
   bundle `H` exists over the Euclidean unit cosphere `S^13`, its current
   high-rank scale cannot carry a stable clutching obstruction: every real
