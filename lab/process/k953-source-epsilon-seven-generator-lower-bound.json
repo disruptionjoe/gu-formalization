@@ -1,0 +1,55 @@
+{
+  "claim_ceiling": "Exact formal/analytic local generator lower bound on the seven-dimensional invariant chart; no global orbit theorem, source-owned lock, functional domain or physical state selection follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 24,
+    "hostile_mutations_rejected": 10,
+    "probe": "tests/channel-swings/k953_source_epsilon_seven_generator_lower_bound_probe.py",
+    "producer": "tests/channel-swings/k953_source_epsilon_seven_generator_lower_bound.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "higher_stage_data_can_make_one_degree_one_image_generate_the_point_ideal": false,
+    "minimal_reduced_local_selector_requires_seven_generators": true,
+    "next_exact_input": "Compute the one-constraint Koszul/BFV degree-zero algebra and linearized Hamiltonian rank, then compose the finite-parent disposition.",
+    "seven_lock_component_count_is_only_a_regular_jacobian_artifact": false
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "no source/action-owned generators supplied",
+    "carrier": "formal or analytic regular local invariant ring of dimension seven",
+    "cotangent_space": "m/m^2",
+    "reduced_point_ideal": "m=(u_1,...,u_7)",
+    "target": "LOWER-BOUND-TYPE=minimal reduced local lock generators"
+  },
+  "ledger_no_change_reason": "The generator theorem proves a necessary local interface but provides none of the missing source values, multipliers, domains or physical interpretation.",
+  "pinned_inputs": {
+    "k949": {
+      "path": "lab/process/k949-source-epsilon-seven-lock-boundary-contract.json",
+      "sha256": "84908ff7e6951bdd5ddb03f55799892f200a02766b96653311d4bcc0cc384ffc"
+    },
+    "k952": {
+      "path": "lab/process/k952-source-epsilon-principal-ideal-fat-point.json",
+      "sha256": "89905bacc97b05db01dbbc49ea5e7d163fdec4cf3120f11a6f21338d8fa0cb2b"
+    }
+  },
+  "result_id": "K953-SOURCE-EPSILON-SEVEN-GENERATOR-LOWER-BOUND",
+  "schema_version": "1.0",
+  "scope": "Minimum local generator count for the reduced target-point ideal in the authenticated invariant chart.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__AC-F1_LT-SM8_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "ambient_regular_local_dimension": 7,
+    "any_reduced_point_quotient_kernel_equals_maximal_ideal": true,
+    "cotangent_space_dimension": 7,
+    "maximal_ideal_generated_by_coordinate_differences": true,
+    "minimal_generator_count_by_nakayama": 7,
+    "one_principal_generator_is_sufficient": false,
+    "point_ideal_generator_lower_bound": 7,
+    "seven_coordinate_generators_are_sufficient": true,
+    "seven_generator_lower_bound_is_sharp": true,
+    "source_selected_generator_count": 0
+  }
+}

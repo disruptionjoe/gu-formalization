@@ -1,0 +1,53 @@
+{
+  "claim_ceiling": "Exact formal-local and real-radical obstruction for the quadratic scalar control; no theorem about arbitrary nonlocal or noncommutative selectors, source ownership, functional domains or physical cohomology follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 24,
+    "hostile_mutations_rejected": 10,
+    "probe": "tests/channel-swings/k952_source_epsilon_principal_ideal_fat_point_probe.py",
+    "producer": "tests/channel-swings/k952_source_epsilon_principal_ideal_fat_point.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "ordinary_principal_ideal_equals_reduced_point_ideal": false,
+    "real_set_isolation_equals_constraint_algebra_selection": false,
+    "single_scalar_degree_zero_quotient_is_point_observable_algebra": false,
+    "next_exact_input": "Prove the minimum number of local generators required for the reduced target-point ideal in a regular seven-dimensional chart."
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "quadratic scalar remains auxiliary and unowned",
+    "carrier": "formal local invariant ring A=R[[u_1,...,u_7]]",
+    "constraint_ideal": "(F) with F=sum_i u_i^2",
+    "reduced_point_ideal": "m=(u_1,...,u_7)",
+    "target": "ALGEBRA-TYPE=principal constraint quotient versus reduced point"
+  },
+  "ledger_no_change_reason": "The local-algebra obstruction narrows an auxiliary selector route without constructing an action-owned or physical constraint algebra.",
+  "pinned_inputs": {
+    "k951": {
+      "path": "lab/process/k951-source-epsilon-singular-scalar-isolation.json",
+      "sha256": "5e206d40f35bc4cad24293f63b0497443234757a2f525e72cf60d48fc51777ca"
+    }
+  },
+  "result_id": "K952-SOURCE-EPSILON-PRINCIPAL-IDEAL-POINT-ALGEBRA-OBSTRUCTION",
+  "schema_version": "1.0",
+  "scope": "Formal-local algebra of K951's sum-of-squares scalar at its isolated real zero.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__AC-F1_LT-SM8_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "ambient_regular_local_dimension": 7,
+    "constraint_order_at_target": 2,
+    "cotangent_dimension_of_principal_quotient": 7,
+    "cotangent_dimension_of_reduced_point": 0,
+    "evaluation_kernel_is_maximal_ideal": true,
+    "linear_coordinate_survives_principal_quotient": true,
+    "ordinary_principal_ideal_is_maximal_ideal": false,
+    "principal_quotient_is_reduced_point_algebra": false,
+    "principal_quotient_krull_dimension": 6,
+    "quadratic_constraint_is_nonzero_nonunit": true,
+    "real_radical_of_principal_ideal_is_maximal_ideal": true,
+    "reduced_point_quotient_krull_dimension": 0
+  }
+}

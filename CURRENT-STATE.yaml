@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 5c8360dc8438
+revision_basis: efcda9aac851
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K951--K955 close the separately proper singular one-scalar escape at
+    local formal/analytic grade. K951 exhibits the strongest real
+    set-theoretic counterexample, the sum of seven squares: its real zero set
+    is one invariant value even though its first derivative vanishes and its
+    Hessian has rank seven. K952 proves the principal quotient
+    `R[[u_1,...,u_7]]/(sum u_i^2)` is a six-dimensional hypersurface algebra,
+    not the reduced point algebra. K953 applies the cotangent-space/Nakayama
+    lower bound: the reduced point ideal needs at least seven generators, and
+    the seven coordinate locks attain the bound. K954 proves the
+    one-constraint Koszul/BFV complex resolves the wrong hypersurface algebra
+    and has zero linearized Hamiltonian constraint rank at the target; adding
+    higher ghosts without new degree-one constraints cannot repair its
+    degree-zero image ideal. K955 therefore closes the ordinary singular
+    scalar BFV escape without claiming a global nonlocal or noncommutative
+    no-go. The rank-seven reduced local lock remains minimal, but the current
+    source/action owns neither its generators, values nor functional
+    Green/BV-BFV domain. SC-ACT-06 remains `ASSERTS`; no protected conclusion
+    moves.
+
     K946--K950 make the source-epsilon nonzero-charge selection problem
     exact without importing a boundary law. K946 identifies the seven
     primitive regular coadjoint invariants as local transverse coordinates:
@@ -12986,6 +13005,20 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K951--K955 close the singular one-scalar proper-selector escape on the
+  authenticated seven-dimensional invariant chart. A sum of squares isolates
+  one real point only set-theoretically: its principal quotient remains a
+  six-dimensional hypersurface algebra, its one-constraint Koszul/BFV
+  degree-zero observables are not the reduced point algebra, and its
+  linearized Hamiltonian constraint rank vanishes. The reduced point ideal
+  needs at least seven generators by its seven-dimensional cotangent space,
+  so K949's rank-seven lock is minimal at local formal/analytic grade. Current
+  custody owns neither those seven generators and values nor a functional
+  boundary/Green/BV-BFV domain. Retain charged boundary symmetry and switch to
+  another observed-to-native reverse edge unless the source/action supplies
+  that complete native lock. This does not exclude a separately justified
+  genuinely nonlocal or noncommutative selector. SC-ACT-06 remains `ASSERTS`.
+
   K946--K950 prove that the seven regular primitive coadjoint invariants are
   local transverse coordinates to the source-epsilon 84-dimensional orbit.
   A collective invariant Hamiltonian conserves them but selects no initial
@@ -14355,6 +14388,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K951--K955 exhaust the finite local scalar-selector parent. Do not reopen it
+  with a smooth or analytic scalar whose real zero set is a point: unless its
+  constraint ideal equals the reduced maximal ideal, set isolation is not a
+  proper point-algebra selector, and that maximal ideal requires at least
+  seven generators. Reopen only with an action-owned seven-generator lock,
+  seven selected values and a complete functional boundary/Green/BV-BFV
+  realization, or with a separately justified genuinely nonlocal or
+  noncommutative selector carrying its own reduced-observable and properness
+  proof. Otherwise retain charged boundary symmetry and switch the reverse
+  edge. SC-ACT-06 remains `ASSERTS`.
+
   K946--K950 sharpen the nonzero-charge horn. The seven primitive invariants
   form local transverse coordinates to the regular 84-dimensional orbit.
   Any collective invariant Hamiltonian conserves those values but does not

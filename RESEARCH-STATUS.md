@@ -8,6 +8,33 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-03 — K951--K955 singular selector properness boundary
+
+K951 resolves the real set-theoretic part of K948's singular escape. On the
+seven-dimensional invariant chart, `F(u)=sum_i u_i^2` has real zero set
+`{0}`, vanishing first derivative and rank-seven Hessian. A single singular
+scalar can therefore isolate a point as a real set; rank-one implicit-function
+reasoning alone cannot exclude it.
+
+K952 separates that set statement from the constraint algebra required for a
+proper reduced selector. In `A=R[[u_1,...,u_7]]`, the principal quotient
+`A/(F)` has Krull dimension six and cotangent dimension seven, whereas the
+reduced point algebra is `A/(u_1,...,u_7)=R`. K953 applies Nakayama's lemma:
+the maximal ideal has seven-dimensional cotangent space, so any generating
+set for the reduced point ideal has at least seven elements; the seven
+coordinate locks attain that lower bound.
+
+K954 composes the algebra with BFV properness. Since `F` is a non-zero-divisor,
+the one-constraint Koszul complex has degree-zero cohomology `A/(F)` and no
+positive Koszul homology, but it resolves the hypersurface rather than the
+point. Its Hamiltonian constraint vector field also has rank zero at the
+target. Higher ghosts without new degree-one constraint generators cannot
+change the degree-zero image ideal. K955 therefore closes the ordinary local
+formal/analytic singular scalar escape while leaving genuinely nonlocal or
+noncommutative selectors outside scope. Five producers pass 120 declared
+controls and five probes reject 50/50 hostile mutations. SC-ACT-06 remains
+`ASSERTS`; no protected conclusion moves.
+
 ## 2026-10-03 — K946--K950 source-epsilon seven-lock boundary
 
 K946 composes the exact K77 invariant derivative data with K943's regular

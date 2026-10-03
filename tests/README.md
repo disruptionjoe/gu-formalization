@@ -4,6 +4,24 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K951--K955 singular selector properness boundary
+
+- `channel-swings/k951_source_epsilon_singular_scalar_isolation.py` proves a
+  singular sum-of-squares scalar isolates one real point set-theoretically.
+- `channel-swings/k952_source_epsilon_principal_ideal_fat_point.py` proves its
+  principal quotient is a six-dimensional hypersurface algebra, not the
+  reduced point algebra.
+- `channel-swings/k953_source_epsilon_seven_generator_lower_bound.py` proves
+  the reduced point ideal needs at least seven generators and that the
+  coordinate lock attains the bound.
+- `channel-swings/k954_source_epsilon_singular_bfv_properness_obstruction.py`
+  proves one-constraint Koszul/BFV resolves the wrong degree-zero algebra and
+  has zero linearized Hamiltonian rank at the target.
+- `channel-swings/k955_source_epsilon_singular_selector_disposition.py`
+  freezes the local formal/analytic disposition and exact reopener.
+- Matching probes reject 50/50 hostile mutations across 120 declared
+  controls. SC-ACT-06 remains `ASSERTS`.
+
 ## K946--K950 source-epsilon seven-lock boundary
 
 - `channel-swings/k946_source_epsilon_invariant_coordinate_chart.py` proves

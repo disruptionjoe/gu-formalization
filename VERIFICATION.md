@@ -7,6 +7,40 @@ updated_at: "2026-10-03"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K951--K955 singular selector properness boundary (2026-10-03)
+
+The scalar `F(u)=u_1^2+...+u_7^2` proves that one singular real equation can
+isolate a point set-theoretically. Its gradient vanishes at that point and its
+Hessian is nonsingular, so the example is deliberately stronger than a
+regular rank-one constraint.
+
+Set isolation is not reduced constraint selection. In the complete regular
+local ring `A=R[[u_1,...,u_7]]`, the quotient by the single equation has
+dimension six and is not the evaluation algebra `A/m=R`. The cotangent space
+`m/m^2` has dimension seven, so Nakayama's lemma gives seven as the sharp
+minimum number of generators of the reduced point ideal. The coordinate
+locks supply the matching upper bound.
+
+The one-element Koszul complex for `F` is exact in positive degree because
+`F` is a non-zero-divisor, but its degree-zero cohomology is `A/(F)`, the
+wrong hypersurface algebra. At the isolated real point the Hamiltonian vector
+field of `F` also vanishes. This closes the ordinary local formal/analytic
+one-scalar BFV route; it is not a theorem against arbitrary global, nonlocal
+or noncommutative selection mechanisms.
+
+```bash
+python3 tests/channel-swings/k951_source_epsilon_singular_scalar_isolation.py --check
+python3 tests/channel-swings/k951_source_epsilon_singular_scalar_isolation_probe.py
+python3 tests/channel-swings/k952_source_epsilon_principal_ideal_fat_point.py --check
+python3 tests/channel-swings/k952_source_epsilon_principal_ideal_fat_point_probe.py
+python3 tests/channel-swings/k953_source_epsilon_seven_generator_lower_bound.py --check
+python3 tests/channel-swings/k953_source_epsilon_seven_generator_lower_bound_probe.py
+python3 tests/channel-swings/k954_source_epsilon_singular_bfv_properness_obstruction.py --check
+python3 tests/channel-swings/k954_source_epsilon_singular_bfv_properness_obstruction_probe.py
+python3 tests/channel-swings/k955_source_epsilon_singular_selector_disposition.py --check
+python3 tests/channel-swings/k955_source_epsilon_singular_selector_disposition_probe.py
+```
+
 ## K946--K950 source-epsilon seven-lock boundary (2026-10-03)
 
 At the authenticated regular charge, the differentials of

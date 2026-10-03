@@ -1,0 +1,56 @@
+{
+  "claim_ceiling": "Exact local real-set isolation example only; no reduced point algebra, proper selector, source ownership, functional domain or physical quotient follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 24,
+    "hostile_mutations_rejected": 10,
+    "probe": "tests/channel-swings/k951_source_epsilon_singular_scalar_isolation_probe.py",
+    "producer": "tests/channel-swings/k951_source_epsilon_singular_scalar_isolation.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "current_action_owns_the_scalar": false,
+    "isolated_real_zero_implies_regular_constraint": false,
+    "next_exact_input": "Compare the principal constraint ideal with the reduced point ideal and compute the resulting degree-zero Koszul/BFV algebra.",
+    "singular_scalar_isolates_the_target_set_theoretically": true
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "candidate scalar law unowned",
+    "carrier": "seven-dimensional regular invariant chart centered at the target charge",
+    "constraint": "F(u)=u_1^2+...+u_7^2",
+    "pairing": "Euclidean sum-of-squares control on invariant-value differences",
+    "real_structure": "real local invariant coordinates",
+    "target": "SELECTOR-TYPE=singular scalar real-zero isolation"
+  },
+  "ledger_no_change_reason": "The scalar is an auxiliary local control and supplies neither a source-owned law nor a proper physical quotient.",
+  "pinned_inputs": {
+    "k948": {
+      "path": "lab/process/k948-source-epsilon-single-scalar-selection-obstruction.json",
+      "sha256": "50c61995b87039e514b85d68a26ffdec61c80baabbc124bc07301dd4a316c1b3"
+    },
+    "k950": {
+      "path": "lab/process/k950-source-epsilon-boundary-selection-disposition.json",
+      "sha256": "f9e62fd946de34bc472c1305ec3fd4666b27881fa69392677137c9a089a62d10"
+    }
+  },
+  "result_id": "K951-SOURCE-EPSILON-SINGULAR-SCALAR-ISOLATION",
+  "schema_version": "1.0",
+  "scope": "Strongest elementary singular one-function escape on the authenticated seven-coordinate invariant chart.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__AC-F1_LT-SM8_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "ambient_invariant_dimension": 7,
+    "constraint_hessian_rank_at_target": 7,
+    "constraint_jacobian_rank_at_target": 0,
+    "constraint_nonnegative_over_reals": true,
+    "constraint_polynomial_degree": 2,
+    "first_jet_vanishes_at_target": true,
+    "real_zero_set_dimension": 0,
+    "real_zero_set_is_exactly_target": true,
+    "regular_constraint": false,
+    "set_theoretic_codimension": 7
+  }
+}

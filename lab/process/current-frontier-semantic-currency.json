@@ -1472,7 +1472,7 @@
     },
     "research_agenda": {
       "path": "lab/process/RESEARCH-AGENDA.json",
-      "sha256": "4815019756de73c2dc0580c5248e1133af31f367f5e7c2e1b09c48e4a03ac46e"
+      "sha256": "84ce5dce386e4acf31f1a3c6544b06d41e917b0f4cde3f73146cc978fbad30cf"
     },
     "k684_closed_column_remainder_compiler": {
       "path": "lab/process/k684-k500-closed-column-remainder-compiler.json",
@@ -2619,11 +2619,11 @@
     "exact_reopener": "action-owned equation-9.16 map fixing internal projection, form-leg contraction, real/Krein coefficients, family covector, selected quadratic owner and nonzero background or interaction meaning"
   },
   "live_frontier": {
-    "current_question_contains": "K926--K930 complete the connection-sector cosphere bundle",
-    "selected_condition": "SC_ACT_06_COMPLETE_CONNECTION_PROJECTOR_FAMILY__ORDER_ZERO_PSEUDODIFFERENTIAL_PRINCIPAL_SYMBOL__LOCAL_ORDER_ZERO_ROUTE_CLOSED__FOUR_OWNERSHIP_ANALYTIC_ROWS_MISSING__NO_PROTECTED_CLAIM_MOVE",
+    "current_question_contains": "K951--K955 close the singular one-scalar proper-selector escape",
+    "selected_condition": "SC_ACT_06_SINGULAR_SCALAR_REAL_ZERO_ISOLATION__PRINCIPAL_QUOTIENT_NOT_POINT_ALGEBRA__SEVEN_GENERATORS_MINIMAL__SINGULAR_ONE_CONSTRAINT_BFV_ROUTE_CLOSED__NO_PROTECTED_CLAIM_MOVE",
     "b2_root": "EMPTY_NAMED_OWNER_SET",
     "reopeners": [
-      "explicitly source/action-own the K928 order-zero pseudodifferential parent and construct its full lower symbol, exact operator identities, common closed/Green domain and preboundary/BV data; otherwise switch to a different local parent, changed stationary germ or independent owned response",
+      "supply an action-owned seven-generator invariant lock, seven selected values and a complete functional boundary/Green/BV-BFV domain, or a separately justified genuinely nonlocal or noncommutative selector with its own reduced-observable and properness proof; otherwise retain charged boundary symmetry and switch reverse edge",
       "a genuinely new stationary body-changing even owner, fully stationary nonzero-T or non-Levi-Civita Euclidean germ, independently action-owned path adapter or different Shiab response, separately justified commuting-spinor action, or genuinely new gauge-basic old-old parent, each with complete gauge/Hessian/Noether/Green/preboundary data; do not retry K751--K754's closed minimal odd or CBRS-1R classes",
       "provide a source/action-owned nonzero-fermion stationary germ with full gauge tangent (G,L), trivial infinitesimal stabilizer when kappa is nonzero, both augmented Ward equations, every Hessian block and common variational/Green/preboundary data; then recompute all forty old-type quotient capacities",
       "construct and action-own a cross block B with BG=0 whose induced map is injective on all 90128 old quotient dimensions and carries every one of the forty real SO(6)xSO(7) types with total real multiplicity at least 169, together with complete Green/preboundary data and, for a surplus target, nondegenerate D_KK on ker(B_bar*)",
@@ -2732,6 +2732,6 @@
     "release_readiness_change": false,
     "public_posture_change": false
   },
-  "result_ref": "lab/process/k915-sc-act-06-changed-gauge-admission-boundary.json",
+  "result_ref": "lab/process/k955-source-epsilon-singular-selector-disposition.json",
   "probe_ref": "tests/channel-swings/current_frontier_semantic_currency_audit.py"
 }

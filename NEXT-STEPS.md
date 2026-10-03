@@ -7,6 +7,20 @@ updated_at: "2026-10-03"
 
 # Next Steps For Contributors
 
+> **2026-10-03 K951--K955 SINGULAR SELECTOR PROPERNESS BOUNDARY.** K951 uses
+> the strongest real set-theoretic scalar escape, `F=sum_i u_i^2`: its zero
+> set is one point, its gradient vanishes there and its Hessian has rank seven.
+> K952 proves the principal quotient is nevertheless a six-dimensional
+> hypersurface algebra, not the reduced point algebra. K953 proves the reduced
+> point ideal needs at least seven generators and that the coordinate locks
+> attain the bound. K954 proves the one-constraint Koszul/BFV complex resolves
+> the wrong algebra and has zero linearized Hamiltonian constraint rank at the
+> target. K955 closes ordinary local formal/analytic singular one-scalar
+> selection without claiming a global nonlocal or noncommutative no-go. Supply
+> an action-owned seven-generator lock, seven values and a functional
+> boundary/Green/BV-BFV domain, or retain charged symmetry and switch reverse
+> edge. SC-ACT-06 remains `ASSERTS`.
+
 > **2026-10-03 K946--K950 SOURCE-EPSILON SEVEN-LOCK BOUNDARY.** K946 proves
 > the seven primitive regular coadjoint invariants are local transverse
 > coordinates to the 84-dimensional orbit. K947 separates conservation from
