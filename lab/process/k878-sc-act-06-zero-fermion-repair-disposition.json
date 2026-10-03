@@ -1,0 +1,93 @@
+{
+  "claim_ceiling": "Exact local closure of the displayed Bose-Fermi repair route on K717 and a five-item remaining-obligation packet. No complete flat-packet no-go, global ellipticity, rich-moduli, source-polarity or physical conclusion follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 43,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k878_sc_act_06_zero_fermion_repair_disposition_probe.py",
+    "producer": "tests/channel-swings/k878_sc_act_06_zero_fermion_repair_disposition.py"
+  },
+  "corrected_full_field_certificate": {
+    "current_GU_candidate": {
+      "authenticated common compact stabilizer SO(6)xSO(7)": true,
+      "authenticated source/action-owned principal old symmetry image": true,
+      "auxiliary SO(13) equivariance of the pinned response kernel": false,
+      "constructed corrected-group intertwiners S_0,tau_0": false,
+      "descent, composition and image-kernel equality": false,
+      "exact radial/tangential vector-space kernel split": true,
+      "globalized natural maps and analytic robustness": false,
+      "owned principal q-lambda quotient dimension 90128": true,
+      "real SO(6)xSO(7) tangential-quotient multiplicities": true,
+      "source/action-owned repair-domain and repair-target multiplicities": false,
+      "typewise repair capacity on the corrected group": false
+    },
+    "current_GU_candidate_admitted": false,
+    "failed_row_count": 6,
+    "mixed_route_failure_does_not_set_total_repair_multiplicities": true,
+    "row_count": 11,
+    "satisfied_row_count": 5,
+    "source_action_owned_total_repair_multiplicities_known": false
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "K874_disposition_refined": true,
+    "SC_ACT_06_proved_or_refuted": false,
+    "current_flat_packet_repairability_refuted": false,
+    "current_flat_packet_repaired": false,
+    "next_exact_input": "Build the complete nonmixed bosonic full-field symbol and owned redundant-row quotient on K717 before any total typewise capacity verdict; alternatively authenticate a source-owned nonzero-fermion stationary germ and recompute the mixed blocks there.",
+    "source_and_physics_verdicts_move": false,
+    "source_displayed_mixed_stabilization_route_refuted_on_K717": true
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "source-displayed common-action mixed Hessian and source gauge tangent",
+    "carrier": "K874 owned tangential principal quotient H with the displayed mixed predecessor and mixed Euler-target blocks",
+    "grading": "A_mixed -> H -> B_mixed",
+    "pairing": "not needed for zero-rank typewise capacity",
+    "real_structure": "K872 real SO(6)xSO(7) irreducible types",
+    "target": "CERTIFICATE-TYPE=local mixed-route closure plus remaining full-field obligations"
+  },
+  "ledger_no_change_reason": "The source-displayed mixed route is locally closed, but the complete full-field deformation complex and every physical bridge remain open.",
+  "mixed_route_certificate": {
+    "background": "K717 zero-fermion flat Upsilon=0 germ",
+    "mixed_domain_rank": 0,
+    "mixed_target_rank": 0,
+    "old_quotient_dimension": 90128,
+    "real_irreducible_type_count": 40,
+    "source_displayed_mixed_route_closed": true,
+    "typewise_rows_failed": 40,
+    "typewise_rows_satisfied": 0,
+    "typewise_rows_tested": 40
+  },
+  "pinned_inputs": {
+    "k874": {
+      "path": "lab/process/k874-sc-act-06-corrected-typewise-disposition.json",
+      "sha256": "d84f631386db5388d3831c250c74b42dbaee3d11983f1854b35680cfe9a658a2"
+    },
+    "k875": {
+      "path": "lab/process/k875-sc-act-06-zero-fermion-mixed-block-vanishing.json",
+      "sha256": "385e3c2a640eff46b2d11eb39e29c6fdaec926d967d57de2eb0cbc960ca7cb01"
+    },
+    "k876": {
+      "path": "lab/process/k876-sc-act-06-zero-fermion-gauge-block-custody.json",
+      "sha256": "ae0a0224d1f965b9588397f130b6efdac8d6af72c4301d7ebd09ebaa2c783d59"
+    },
+    "k877": {
+      "path": "lab/process/k877-sc-act-06-mixed-repair-capacity.json",
+      "sha256": "d399b2a9c27ec538782b528774374428e85aac8b0ef6fc4aad7916e8d07b983b"
+    }
+  },
+  "remaining_obligations": [
+    "complete nonmixed bosonic field tangent beyond the serialized connection response",
+    "metric and epsilon principal and zero-order response blocks on K717",
+    "owned redundant Euler-row map and exact independent target quotient",
+    "complete real covector-sphere family and constant-rank proof",
+    "source-natural intertwiners, descent, domains, elliptic estimates and nonlinear moduli analysis"
+  ],
+  "result_id": "K878-SC-ACT-06-ZERO-FERMION-REPAIR-DISPOSITION",
+  "schema_version": "1.0",
+  "scope": "Disposition after refuting only the source-displayed mixed Bose-Fermi repair route on K717's zero-fermion flat germ.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

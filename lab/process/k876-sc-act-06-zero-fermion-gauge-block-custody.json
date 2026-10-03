@@ -1,0 +1,74 @@
+{
+  "background": {
+    "all_fermions_zero": true,
+    "common_stabilizer": "SO(6) x SO(7)",
+    "fermions": "nu=bar_nu=zeta=bar_zeta=0",
+    "germ": "K717"
+  },
+  "claim_ceiling": "Exact principal gauge-block custody and zero extra fermionic gauge image on K717. No complete symmetry complex, full-field repair, global ellipticity, rich moduli or physical conclusion follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 34,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k876_sc_act_06_zero_fermion_gauge_block_custody_probe.py",
+    "producer": "tests/channel-swings/k876_sc_act_06_zero_fermion_gauge_block_custody.py"
+  },
+  "created": "2026-10-03",
+  "custody": {
+    "caveated_full_complex_promoted": false,
+    "complete_diffeomorphism_metric_epsilon_symmetry_complex_owned": false,
+    "fermionic_gauge_tangent_zero_at_K717": true,
+    "new_source_owned_predecessor_into_old_tangential_H_found": false,
+    "principal_internal_gauge_image_owned": true
+  },
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "complete_full_field_symmetry_image_authenticated": false,
+    "mixed_repair_domain_multiplicity_is_zero_on_K717": true,
+    "next_exact_input": "Combine the zero mixed Euler blocks and zero extra mixed gauge image with the 40 positive K874 multiplicities; keep every unserialized bosonic and analytic module outside the conclusion.",
+    "owned_radial_image_reused_not_double_counted": true
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "source gauge group H=Gau(P_H)",
+    "carrier": "Omega0(ad) gauge parameter acting on Omega1(ad) connection and source fermions",
+    "grading": "gauge parameter -> connection plus barred/unbarred fermion field tangents",
+    "pairing": "none required for the infinitesimal gauge-action rank",
+    "real_structure": "K873 real U(64,64) adjoint arena; independent barred/unbarred source fermions",
+    "target": "MAP-TYPE=owned zero-fermion gauge image before the tangential quotient"
+  },
+  "infinitesimal_action": {
+    "connection_image_dimension": 16384,
+    "connection_image_equals_radial_kernel_summand": true,
+    "connection_principal_map": "lambda maps to q tensor lambda",
+    "extra_mixed_gauge_image_in_tangential_quotient": 0,
+    "fermion_image_dimension_at_zero_background": 0,
+    "fermion_map": "delta_lambda psi=rho(lambda) psi; delta_lambda barpsi=-barpsi rho(lambda)",
+    "owned_tangential_quotient_dimension": 90128
+  },
+  "ledger_no_change_reason": "Gauge-block custody at one local zero-fermion germ does not supply a physical state or observable.",
+  "pinned_inputs": {
+    "k717": {
+      "path": "lab/process/k717-sc-act-06-flat-euclidean-gimmel-germ.json",
+      "sha256": "9b6f66363ecc489ff9d2eca45c6a130cbbeb949e065414fff04343e79c1f3ed1"
+    },
+    "k873": {
+      "path": "lab/process/k873-sc-act-06-owned-symmetry-custody.json",
+      "sha256": "cc148cac1cce342c3e43d4e7681766630c8455e7ba687f87ece02978ec09c66c"
+    },
+    "k875": {
+      "path": "lab/process/k875-sc-act-06-zero-fermion-mixed-block-vanishing.json",
+      "sha256": "385e3c2a640eff46b2d11eb39e29c6fdaec926d967d57de2eb0cbc960ca7cb01"
+    },
+    "source_mixed": {
+      "path": "lab/sources/gu-mixed-bose-fermi-cross-map-source-reinspection-2026-08-04.md",
+      "sha256": "dfb966675a41bb1332b8468eda9965d157f7e5ea908b339b86111fca2642fd97"
+    }
+  },
+  "result_id": "K876-SC-ACT-06-ZERO-FERMION-GAUGE-BLOCK-CUSTODY",
+  "schema_version": "1.0",
+  "scope": "Principal source-gauge tangent on K717's zero-fermion flat germ, restricted to its action on the authenticated connection quotient and displayed fermion slots.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

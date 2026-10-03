@@ -2,10 +2,23 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-10-02"
+updated_at: "2026-10-03"
 ---
 
 # Next Steps For Contributors
+
+> **2026-10-03 K875--K878 ZERO-FERMION MIXED-REPAIR BOUNDARY.** K875 proves
+> that every source-displayed Bose--Fermi mixed Euler derivative contains one
+> background fermion and hence vanishes on K717. K876 proves the extra
+> fermionic gauge tangent also vanishes there, leaving K873's radial image as
+> the only authenticated principal gauge contribution. K877 sets
+> `a_rho=b_rho=0` for this displayed mixed route and rejects it on all 40 old
+> quotient types. K878 does not promote that local result to a complete
+> flat-packet no-go: the nonmixed bosonic, metric/epsilon, zero-order,
+> redundant-row, domain and globalization modules remain open. Next build the
+> complete nonmixed bosonic full-field symbol and redundancy quotient on K717,
+> or authenticate a source-owned nonzero-fermion stationary germ and recompute
+> the mixed blocks there. SC-ACT-06 remains `ASSERTS`.
 
 > **2026-10-02 K871--K874 OWNED QUOTIENT CHARACTER.** K871 computes the exact
 > 90,128-dimensional `SO(6)xSO(7)` tangential weight character and K872

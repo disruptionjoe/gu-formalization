@@ -1,0 +1,86 @@
+{
+  "background": {
+    "Upsilon_total": "displayed local bosonic and fermionic residuals vanish; compact-support/fixed-boundary only",
+    "all_barred_and_unbarred_background_fermions_zero": true,
+    "fermions": "nu=bar_nu=zeta=bar_zeta=0",
+    "germ": "K717",
+    "owned_old_tangential_quotient_dimension": 90128
+  },
+  "claim_ceiling": "Exact vanishing of the source-displayed Bose-Fermi mixed derivative blocks at K717. No nonzero-fermion, complete bosonic, global ellipticity, rich-moduli or physical conclusion follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 37,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k875_sc_act_06_zero_fermion_mixed_block_vanishing_probe.py",
+    "producer": "tests/channel-swings/k875_sc_act_06_zero_fermion_mixed_block_vanishing.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "complete_full_field_repairability_refuted": false,
+    "next_exact_input": "Classify the zero-fermion gauge block, then compose both zero mixed ranks with K874's 40 old quotient types while retaining the unserialized bosonic, metric, epsilon, redundancy and analytic modules.",
+    "source_displayed_mixed_blocks_supply_repair_capacity_on_K717": false,
+    "source_displayed_mixed_stabilization_route_closed_on_K717": true
+  },
+  "direction": "observed_to_native",
+  "formal_derivatives": {
+    "action": "S_F(b,psi,bar_psi)=<bar_psi,F(b)psi>",
+    "boson_to_barred_fermion_euler": "D_b E_psi[db]=barpsi (D_b F[db])",
+    "boson_to_unbarred_fermion_euler": "D_b E_barpsi[db]=(D_b F[db]) psi",
+    "every_mixed_term_contains_one_background_fermion": true,
+    "fermion_fermion_diagonal_block_forced_zero": false,
+    "fermion_to_boson_euler_barred": "D_barpsi E_b[dbarpsi]=<dbarpsi,(D_b F)psi>",
+    "fermion_to_boson_euler_unbarred": "D_psi E_b[dpsi]=<barpsi,(D_b F)dpsi>",
+    "mixed_block_rank_at_zero_fermion": 0
+  },
+  "gu_typed_objects": {
+    "action_owner": "source common scalar action and total Euler residual",
+    "carrier": "bosonic variation b plus independent barred/unbarred source fermions (nu,zeta,bar_nu,bar_zeta)",
+    "grading": "bosonic field tangent versus fermionic field tangent and their Euler-dual slots",
+    "pairing": "source-displayed bilinear S_F(b,psi,bar_psi)=<bar_psi,F(b)psi>",
+    "real_structure": "independent barred/unbarred variables; no unowned adjoint or reality identification",
+    "target": "MAP-TYPE=zero-fermion mixed derivative blocks of D Upsilon"
+  },
+  "ledger_no_change_reason": "A local zero-fermion block theorem supplies no physical state, observable, prediction or confirmation.",
+  "pinned_inputs": {
+    "k717": {
+      "path": "lab/process/k717-sc-act-06-flat-euclidean-gimmel-germ.json",
+      "sha256": "9b6f66363ecc489ff9d2eca45c6a130cbbeb949e065414fff04343e79c1f3ed1"
+    },
+    "k787": {
+      "path": "lab/process/k787-sc-act-06-flat-zero-locus-custody.json",
+      "sha256": "d9fbe046c32ceaa0e81a5c51da6a631866f61597efe2a59de7e67e48ef9c8e1e"
+    },
+    "k873": {
+      "path": "lab/process/k873-sc-act-06-owned-symmetry-custody.json",
+      "sha256": "cc148cac1cce342c3e43d4e7681766630c8455e7ba687f87ece02978ec09c66c"
+    },
+    "k874": {
+      "path": "lab/process/k874-sc-act-06-corrected-typewise-disposition.json",
+      "sha256": "d84f631386db5388d3831c250c74b42dbaee3d11983f1854b35680cfe9a658a2"
+    },
+    "source_fermion": {
+      "path": "lab/sources/gu-2021-draft-s9-fermionic-operator-extraction-2026-08-04.md",
+      "sha256": "c250ce367774ff593255cd211e18ea793dd3eddcd843e0520437b6d645a2c31b"
+    },
+    "source_mixed": {
+      "path": "lab/sources/gu-mixed-bose-fermi-cross-map-source-reinspection-2026-08-04.md",
+      "sha256": "dfb966675a41bb1332b8468eda9965d157f7e5ea908b339b86111fca2642fd97"
+    }
+  },
+  "result_id": "K875-SC-ACT-06-ZERO-FERMION-MIXED-BLOCK-VANISHING",
+  "schema_version": "1.0",
+  "scope": "Exact mixed-linearization theorem for the source-displayed bilinear fermion action on K717's fixed zero-fermion flat Upsilon=0 germ.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "complete_bosonic_full_field_symbol_covered": false,
+    "connection_to_fermionic_euler_repair_map_zero": true,
+    "fermionic_field_to_bosonic_euler_repair_map_zero": true,
+    "lower_order_nonmixed_fermion_operator_not_removed": true,
+    "mixed_hessian_reciprocity_preserved": true,
+    "nonzero_fermion_stationary_germ_covered": false,
+    "result_independent_of_F_dimension_and_coefficients": true
+  }
+}

@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K875--K878 close only the source-displayed Bose--Fermi mixed repair route
+    on K717's fixed zero-fermion flat germ. K875 differentiates the source
+    bilinear `S_F(b,psi,bar_psi)=<bar_psi,F(b)psi>` in both orders: every
+    boson--fermion Euler block contains one background fermion and therefore
+    has exact rank zero when `nu=bar_nu=zeta=bar_zeta=0`. K876 applies the
+    same boundary to the source gauge action. The principal connection image
+    remains K873's owned 16,384-dimensional radial summand, while the extra
+    fermionic gauge tangent is zero and contributes no predecessor image to
+    the old tangential quotient. K877 applies K865 to all 40 K874 types:
+    `a_rho=b_rho=0` for the displayed mixed route, every `h_rho>0`, and all
+    40 rows fail, with total multiplicity deficit 169. K878 preserves the
+    complete certificate at five of eleven rows because this local mixed
+    failure does not determine the still-unserialized nonmixed bosonic,
+    metric/epsilon, zero-order, redundancy, domain or global modules. Thus
+    the displayed mixed stabilization cannot repair K717, but neither the
+    complete flat packet nor SC-ACT-06 is refuted. SC-ACT-06 remains
+    `ASSERTS`; no protected conclusion moves.
+
     K871--K874 compute and authenticate the corrected old principal quotient.
     K871 performs exact sparse elimination over `Q(i)` on 3,645
     `SO(6)xSO(7)` torus-weight blocks and obtains the full 90,128-dimensional
@@ -12683,18 +12701,16 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K871--K874 close the corrected old principal quotient at representation
-  level. The owned tangential connection quotient has dimension 90128 and
-  decomposes into 40 exact real `SO(6)xSO(7)` irreducible types. For each type
-  rho the old multiplicity `h_rho` is known, but the source/action-owned
-  repair-domain and repair-target multiplicities `a_rho,b_rho` are absent.
-  Supply those two modules on the same authenticated common group and test
-  `h_rho <= a_rho+b_rho` for every one of the 40 rows. Only then construct
-  owned `S_0,tau_0` intertwiners and prove descent, composition,
-  `im(S_0)=ker(tau_0)`, common-domain control and analytic globalization.
-  Do not promote the source-caveated complete deformation complex from the
-  principal connection-symbol result.
-
+  K875--K878 refute the source-displayed Bose--Fermi mixed stabilization as a
+  repair of K717's owned 90128-dimensional tangential quotient: at the fixed
+  zero-fermion germ both mixed Euler directions and the extra fermionic gauge
+  tangent have rank zero, so all 40 types fail with `a_rho=b_rho=0` for that
+  route. The full-field verdict remains open. Can the complete nonmixed
+  bosonic field tangent, metric/epsilon response, zero-order blocks and owned
+  redundant Euler-row quotient be constructed on K717 and decomposed under
+  `SO(6)xSO(7)`? Alternatively, can a source-owned nonzero-fermion stationary
+  germ be authenticated so that the mixed blocks are recomputed rather than
+  assumed nonzero?
   K859--K862 replace ordinary bundle triviality with the naturality-aware
   repair question. The current 90124 value is only the lower endpoint of the
   rank interval `[90124,106512]` allowed by the deliberately overlarge
@@ -13877,16 +13893,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  K871--K874 establish the exact 40-type real `SO(6)xSO(7)` character of the
-  owned 90128-dimensional tangential principal connection quotient. Preserve
-  the scope boundary: ownership comes from the source-displayed internal
-  gauge map at principal connection-symbol level, while the complete
-  deformation complex remains caveated. The next exact input is the
-  source/action-owned repair-domain and repair-target character on the same
-  group. Fill `a_rho,b_rho` for all 40 rows, test
-  `h_rho <= a_rho+b_rho` typewise, and only then construct owned intertwiners
-  satisfying descent, composition and image-kernel equality before analytic
-  globalization. SC-ACT-06 remains `ASSERTS` and no protected conclusion
+  K875--K878 prove that the source-displayed mixed Bose--Fermi route supplies
+  zero repair-domain and zero repair-target capacity on K717's zero-fermion
+  germ, failing all 40 old quotient types. Preserve the ceiling: this closes
+  one displayed stabilization route, not the complete flat packet. The next
+  exact input is the owned complete nonmixed bosonic full-field symbol,
+  including metric/epsilon and zero-order blocks plus the exact redundant
+  Euler-row quotient, all decomposed under `SO(6)xSO(7)`. A distinct reopener
+  is a source-owned nonzero-fermion stationary germ on which the mixed blocks
+  must be recomputed. SC-ACT-06 remains `ASSERTS`; no protected conclusion
   moves.
 
   K859--K862 prove that the current 90124 value is only the lower endpoint of

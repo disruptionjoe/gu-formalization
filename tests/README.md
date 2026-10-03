@@ -4,6 +4,21 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K875--K878 zero-fermion mixed-repair boundary
+
+- `channel-swings/k875_sc_act_06_zero_fermion_mixed_block_vanishing.py`
+  proves all source-displayed mixed Euler blocks vanish on K717.
+- `channel-swings/k876_sc_act_06_zero_fermion_gauge_block_custody.py`
+  proves the extra fermionic gauge tangent also vanishes without recounting
+  the owned radial connection image.
+- `channel-swings/k877_sc_act_06_mixed_repair_capacity.py` applies the
+  typewise criterion to all 40 old quotient types and rejects the displayed
+  mixed route in every row.
+- `channel-swings/k878_sc_act_06_zero_fermion_repair_disposition.py` preserves
+  the complete full-field custody boundary and the five-of-eleven certificate.
+- The matching `_probe.py` files reject 80/80 hostile mutations across 154
+  controls. SC-ACT-06 remains `ASSERTS`; no protected verdict moves.
+
 ## K871--K874 owned quotient character and typewise boundary
 
 - `channel-swings/k871_sc_act_06_common_stabilizer_weight_character.py`

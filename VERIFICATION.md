@@ -2,10 +2,50 @@
 title: "Verification: What Is Proved, Computed, and Conjectural"
 status: process
 doc_type: verification-map
-updated_at: "2026-10-02"
+updated_at: "2026-10-03"
 ---
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
+
+## K875--K878 zero-fermion mixed-repair boundary (2026-10-03)
+
+K875 starts from the source-displayed bilinear fermion action
+`S_F(b,psi,bar_psi)=<bar_psi,F(b)psi>`. Its two boson-to-fermion Euler
+derivatives and two fermion-to-boson Euler derivatives each contain one
+background fermion. K717 sets every barred and unbarred source fermion to
+zero, so both mixed directions have exact rank zero. This does not remove the
+nonmixed fermion operator and does not apply to a nonzero-fermion stationary
+germ.
+
+K876 classifies the source gauge tangent on the same background. The
+connection principal map remains the owned injective
+`lambda -> q tensor lambda` map with 16,384-dimensional radial image. The
+fermionic gauge tangent is linear in the background fermion and is therefore
+zero. It supplies no additional predecessor image in the owned tangential
+quotient.
+
+K877 applies the retained K865 criterion to K874's 40 real
+`SO(6)xSO(7)` types. For the displayed mixed route only,
+`a_rho=b_rho=0` in every row, while every `h_rho` is positive. All 40 rows
+fail and the total multiplicity deficit is 169. K878 closes this mixed route
+but keeps the complete certificate at five of eleven rows: the nonmixed
+bosonic, metric/epsilon, zero-order, redundant-row, domain and global modules
+remain unserialized. The four producers pass 154 controls and their probes
+reject 80/80 hostile mutations. SC-ACT-06 remains `ASSERTS`; no protected
+verdict moves.
+
+Run the producers and hostile probes:
+
+```bash
+python3 tests/channel-swings/k875_sc_act_06_zero_fermion_mixed_block_vanishing.py --check
+python3 tests/channel-swings/k875_sc_act_06_zero_fermion_mixed_block_vanishing_probe.py
+python3 tests/channel-swings/k876_sc_act_06_zero_fermion_gauge_block_custody.py --check
+python3 tests/channel-swings/k876_sc_act_06_zero_fermion_gauge_block_custody_probe.py
+python3 tests/channel-swings/k877_sc_act_06_mixed_repair_capacity.py --check
+python3 tests/channel-swings/k877_sc_act_06_mixed_repair_capacity_probe.py
+python3 tests/channel-swings/k878_sc_act_06_zero_fermion_repair_disposition.py --check
+python3 tests/channel-swings/k878_sc_act_06_zero_fermion_repair_disposition_probe.py
+```
 
 ## K871--K874 owned quotient character and typewise boundary (2026-10-02)
 

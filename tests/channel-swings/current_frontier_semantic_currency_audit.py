@@ -563,6 +563,18 @@ def load_inputs() -> dict:
         "k874": json.loads(
             (ROOT / "lab/process/k874-sc-act-06-corrected-typewise-disposition.json").read_text()
         ),
+        "k875": json.loads(
+            (ROOT / "lab/process/k875-sc-act-06-zero-fermion-mixed-block-vanishing.json").read_text()
+        ),
+        "k876": json.loads(
+            (ROOT / "lab/process/k876-sc-act-06-zero-fermion-gauge-block-custody.json").read_text()
+        ),
+        "k877": json.loads(
+            (ROOT / "lab/process/k877-sc-act-06-mixed-repair-capacity.json").read_text()
+        ),
+        "k878": json.loads(
+            (ROOT / "lab/process/k878-sc-act-06-zero-fermion-repair-disposition.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -755,13 +767,13 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     check(registry["latest_gu_formalization_result"] ==
-          "K871_K874_SC_ACT_06_CORRECTED_TYPEWISE_DISPOSITION_CURRENT",
+          "K875_K878_SC_ACT_06_ZERO_FERMION_MIXED_REPAIR_DISPOSITION_CURRENT",
           "latest GU result pointer moved")
     if isinstance(live, str):
-        check("K871--K874 establish the exact 40-type real" in live and
-              "Fill `a_rho,b_rho` for all 40 rows" in live and
-              "complete deformation complex remains caveated" in live,
-              "live K871--K874 corrected typewise disposition missing")
+        check("K875--K878 prove that the source-displayed mixed Bose--Fermi route" in live and
+              "complete nonmixed bosonic full-field symbol" in live and
+              "nonzero-fermion stationary germ" in live,
+              "live K875--K878 zero-fermion mixed-repair disposition missing")
         check("K859--K862 prove that the current 90124 value is only the lower endpoint" in live and
               "natural repair maps are determined by `SO(13)`-intertwiners" in live and
               "rank-91 product bundle" in live,
@@ -1253,16 +1265,22 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
 
     question = current.get("current_question", "")
     check(
+        "K875--K878 close only the source-displayed mixed Bose-Fermi repair route" in data["agenda"].get("latest_result_2026_10_03_k875_k878", "")
+        and "all 40 positive old quotient types fail" in data["agenda"].get("latest_result_2026_10_03_k875_k878", "")
+        and "SC-ACT-06 remains ASSERTS" in data["agenda"].get("latest_result_2026_10_03_k875_k878", ""),
+        "agenda K875--K878 result is not current",
+    )
+    check(
         "K871--K874 close the old principal quotient" in data["agenda"].get("latest_result_2026_10_02_k871_k874", "")
         and "40 real irreducible types" in data["agenda"].get("latest_result_2026_10_02_k871_k874", "")
         and "SC-ACT-06 remains ASSERTS" in data["agenda"].get("latest_result_2026_10_02_k871_k874", ""),
         "agenda K871--K874 result is not current",
     )
     check(
-        "K871--K874 close the corrected old principal quotient" in question
-        and "40 exact real `SO(6)xSO(7)` irreducible types" in question
-        and "`h_rho <= a_rho+b_rho`" in question,
-        "current question lost K867--K870 corrected isotropy interface",
+        "K875--K878 refute the source-displayed Bose--Fermi mixed stabilization" in question
+        and "all 40 types fail with `a_rho=b_rho=0`" in question
+        and "complete nonmixed" in question,
+        "current question lost K875--K878 mixed-repair boundary",
     )
     check(
         "K859--K862 separate ordinary high-rank bundle triviality" in data["agenda"].get("latest_result_2026_10_02_k859_k862", "")
@@ -3981,6 +3999,40 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k874["decision"]["current_flat_packet_repaired"] and
           not k874["decision"]["SC_ACT_06_proved_or_refuted"],
           "K874 corrected typewise disposition moved")
+
+    k875 = data["k875"]
+    check(k875["formal_derivatives"]["mixed_block_rank_at_zero_fermion"] == 0 and
+          k875["theorem"]["connection_to_fermionic_euler_repair_map_zero"] and
+          k875["theorem"]["fermionic_field_to_bosonic_euler_repair_map_zero"] and
+          not k875["decision"]["complete_full_field_repairability_refuted"] and
+          not k875["decision"]["SC_ACT_06_proved_or_refuted"],
+          "K875 zero-fermion mixed-block theorem moved")
+
+    k876 = data["k876"]
+    check(k876["infinitesimal_action"]["connection_image_dimension"] == 16384 and
+          k876["infinitesimal_action"]["fermion_image_dimension_at_zero_background"] == 0 and
+          k876["infinitesimal_action"]["extra_mixed_gauge_image_in_tangential_quotient"] == 0 and
+          not k876["custody"]["complete_diffeomorphism_metric_epsilon_symmetry_complex_owned"] and
+          not k876["decision"]["SC_ACT_06_proved_or_refuted"],
+          "K876 zero-fermion gauge-block custody moved")
+
+    k877 = data["k877"]
+    check(k877["typewise_test"]["row_count"] == 40 and
+          k877["typewise_test"]["old_quotient_dimension"] == 90128 and
+          k877["typewise_test"]["satisfied_row_count"] == 0 and
+          k877["typewise_test"]["failed_row_count"] == 40 and
+          k877["typewise_test"]["total_multiplicity_deficit"] == 169 and
+          not k877["theorem"]["complete_full_field_repairability_refuted"],
+          "K877 mixed repair capacity moved")
+
+    k878 = data["k878"]
+    check(k878["mixed_route_certificate"]["source_displayed_mixed_route_closed"] and
+          k878["corrected_full_field_certificate"]["satisfied_row_count"] == 5 and
+          not k878["corrected_full_field_certificate"]["source_action_owned_total_repair_multiplicities_known"] and
+          len(k878["remaining_obligations"]) == 5 and
+          not k878["decision"]["current_flat_packet_repairability_refuted"] and
+          not k878["decision"]["SC_ACT_06_proved_or_refuted"],
+          "K878 zero-fermion repair disposition moved")
 
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]

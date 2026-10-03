@@ -1,0 +1,1168 @@
+{
+  "claim_ceiling": "Exact 40-type failure of the source-displayed mixed repair route at K717. No complete flat-packet no-go, nonzero-fermion no-go, global ellipticity, rich-moduli or physical conclusion follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 40,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k877_sc_act_06_mixed_repair_capacity_probe.py",
+    "producer": "tests/channel-swings/k877_sc_act_06_mixed_repair_capacity.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "current_flat_packet_repairability_refuted": false,
+    "next_exact_input": "Construct and authenticate the complete nonmixed bosonic full-field symbol and redundancy quotient on K717, or move to a source-owned nonzero-fermion stationary germ where the mixed blocks need not vanish.",
+    "remaining_candidate_capacity": "unserialized bosonic/metric/epsilon/zero-order/redundancy modules only",
+    "source_displayed_Bose_Fermi_stabilization_repair_route": "REFUTED_ON_K717_ZERO_FERMION_GERM"
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "source-displayed common-action mixed Hessian and source gauge tangent",
+    "carrier": "K874 owned tangential principal quotient H with the displayed mixed predecessor and mixed Euler-target blocks",
+    "grading": "A_mixed -> H -> B_mixed",
+    "pairing": "not needed for zero-rank typewise capacity",
+    "real_structure": "K872 real SO(6)xSO(7) irreducible types",
+    "target": "CERTIFICATE-TYPE=displayed mixed repair capacity by old quotient type"
+  },
+  "ledger_no_change_reason": "Refuting one local repair route does not establish a physical state, observable or the complete source complex.",
+  "pinned_inputs": {
+    "k865": {
+      "path": "lab/process/k865-sc-act-06-isotypic-repair-criterion.json",
+      "sha256": "4098ed72e728f1fb4a1424d83c5c9c4fc5d3c4129c0af10ec8fa0ec0b6c26a06"
+    },
+    "k874": {
+      "path": "lab/process/k874-sc-act-06-corrected-typewise-disposition.json",
+      "sha256": "d84f631386db5388d3831c250c74b42dbaee3d11983f1854b35680cfe9a658a2"
+    },
+    "k875": {
+      "path": "lab/process/k875-sc-act-06-zero-fermion-mixed-block-vanishing.json",
+      "sha256": "385e3c2a640eff46b2d11eb39e29c6fdaec926d967d57de2eb0cbc960ca7cb01"
+    },
+    "k876": {
+      "path": "lab/process/k876-sc-act-06-zero-fermion-gauge-block-custody.json",
+      "sha256": "ae0a0224d1f965b9588397f130b6efdac8d6af72c4301d7ebd09ebaa2c783d59"
+    }
+  },
+  "result_id": "K877-SC-ACT-06-MIXED-REPAIR-CAPACITY",
+  "schema_version": "1.0",
+  "scope": "K865 typewise capacity test for only the source-displayed Bose-Fermi mixed stabilization on K717's zero-fermion germ.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "complete_full_field_repairability_refuted": false,
+    "displayed_mixed_route_fails_every_type": true,
+    "every_displayed_mixed_capacity_is_zero": true,
+    "every_old_type_has_positive_multiplicity": true,
+    "mixed_route_cannot_repair_owned_tangential_quotient_on_K717": true
+  },
+  "typewise_test": {
+    "criterion": "h_rho <= a_rho + b_rho",
+    "decidable_row_count": 40,
+    "displayed_mixed_repair_domain_dimension": 0,
+    "displayed_mixed_repair_target_dimension": 0,
+    "failed_row_count": 40,
+    "group": "SO(6) x SO(7)",
+    "old_quotient_dimension": 90128,
+    "row_count": 40,
+    "rows": [
+      {
+        "capacity_decidable": false,
+        "capacity_decidable_for_displayed_mixed_route": true,
+        "criterion": "h_rho <= a_rho + b_rho",
+        "criterion_satisfied_for_displayed_mixed_route": false,
+        "deficit": 2,
+        "h_rho": 2,
+        "mixed_capacity": 0,
+        "real_irreducible_dimension": 3780,
+        "real_type": "complex_conjugate_pair",
+        "repair_domain_a_rho": 0,
+        "repair_target_b_rho": 0,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          1,
+          1
+        ],
+        "type_id": "rho-01"
+      },
+      {
+        "capacity_decidable": false,
+        "capacity_decidable_for_displayed_mixed_route": true,
+        "criterion": "h_rho <= a_rho + b_rho",
+        "criterion_satisfied_for_displayed_mixed_route": false,
+        "deficit": 4,
+        "h_rho": 4,
+        "mixed_capacity": 0,
+        "real_irreducible_dimension": 2835,
+        "real_type": "real_tensor_type",
+        "repair_domain_a_rho": 0,
+        "repair_target_b_rho": 0,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          1,
+          1
+        ],
+        "type_id": "rho-02"
+      },
+      {
+        "capacity_decidable": false,
+        "capacity_decidable_for_displayed_mixed_route": true,
+        "criterion": "h_rho <= a_rho + b_rho",
+        "criterion_satisfied_for_displayed_mixed_route": false,
+        "deficit": 2,
+        "h_rho": 2,
+        "mixed_capacity": 0,
+        "real_irreducible_dimension": 3150,
+        "real_type": "complex_conjugate_pair",
+        "repair_domain_a_rho": 0,
+        "repair_target_b_rho": 0,
+        "so6_highest_weights": [
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          1
+        ],
+        "type_id": "rho-03"
+      },
+      {
+        "capacity_decidable": false,
+        "capacity_decidable_for_displayed_mixed_route": true,
+        "criterion": "h_rho <= a_rho + b_rho",
+        "criterion_satisfied_for_displayed_mixed_route": false,
+        "deficit": 4,
+        "h_rho": 4,
+        "mixed_capacity": 0,
+        "real_irreducible_dimension": 2240,
+        "real_type": "real_tensor_type",
+        "repair_domain_a_rho": 0,
+        "repair_target_b_rho": 0,
+        "so6_highest_weights": [
+          [
+            2,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          1
+        ],
+        "type_id": "rho-04"
+      },
+      {
+        "capacity_decidable": false,
+        "capacity_decidable_for_displayed_mixed_route": true,
+        "criterion": "h_rho <= a_rho + b_rho",
+        "criterion_satisfied_for_displayed_mixed_route": false,
+        "deficit": 2,
+        "h_rho": 2,
+        "mixed_capacity": 0,
+        "real_irreducible_dimension": 2100,
+        "real_type": "complex_conjugate_pair",
+        "repair_domain_a_rho": 0,
+        "repair_target_b_rho": 0,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          1,
+          0
+        ],
+        "type_id": "rho-05"
+      },
+      {
+        "capacity_decidable": false,
+        "capacity_decidable_for_displayed_mixed_route": true,
+        "criterion": "h_rho <= a_rho + b_rho",
+        "criterion_satisfied_for_displayed_mixed_route": false,
+        "deficit": 4,
+        "h_rho": 4,
+        "mixed_capacity": 0,
+        "real_irreducible_dimension": 1575,
+        "real_type": "real_tensor_type",
+        "repair_domain_a_rho": 0,
+        "repair_target_b_rho": 0,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          1,
+          0
+        ],
+        "type_id": "rho-06"
+      },
+      {
+        "capacity_decidable": false,
+        "capacity_decidable_for_displayed_mixed_route": true,
+        "criterion": "h_rho <= a_rho + b_rho",
+        "criterion_satisfied_for_displayed_mixed_route": false,
+        "deficit": 4,
+        "h_rho": 4,
+        "mixed_capacity": 0,
+        "real_irreducible_dimension": 1134,
+        "real_type": "real_tensor_type",
+        "repair_domain_a_rho": 0,
+        "repair_target_b_rho": 0,
+        "so6_highest_weights": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          1,
+          1
+        ],
+        "type_id": "rho-07"
+      },
+      {
+        "capacity_decidable": false,
+        "capacity_decidable_for_displayed_mixed_route": true,
+        "criterion": "h_rho <= a_rho + b_rho",
+        "criterion_satisfied_for_displayed_mixed_route": false,
+        "deficit": 2,
+        "h_rho": 2,
+        "mixed_capacity": 0,
+        "real_irreducible_dimension": 1890,
+        "real_type": "complex_conjugate_pair",
+        "repair_domain_a_rho": 0,
+        "repair_target_b_rho": 0,
+        "so6_highest_weights": [
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          0
+        ],
+        "type_id": "rho-08"
+      },
+      {
+        "capacity_decidable": false,
+        "capacity_decidable_for_displayed_mixed_route": true,
+        "criterion": "h_rho <= a_rho + b_rho",
+        "criterion_satisfied_for_displayed_mixed_route": false,
+        "deficit": 4,
+        "h_rho": 4,
+        "mixed_capacity": 0,
+        "real_irreducible_dimension": 1344,
+        "real_type": "real_tensor_type",
+        "repair_domain_a_rho": 0,
+        "repair_target_b_rho": 0,
+        "so6_highest_weights": [
+          [
+            2,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          0
+        ],
+        "type_id": "rho-09"
+      },
+      {
+        "capacity_decidable": false,
+        "capacity_decidable_for_displayed_mixed_route": true,
+        "criterion": "h_rho <= a_rho + b_rho",
+        "criterion_satisfied_for_displayed_mixed_route": false,
+        "deficit": 4,
+        "h_rho": 4,
+        "mixed_capacity": 0,
+        "real_irreducible_dimension": 700,
+        "real_type": "real_tensor_type",
+        "repair_domain_a_rho": 0,
+        "repair_target_b_rho": 0,
+        "so6_highest_weights": [
+          [
+            2,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          1
+        ],
+        "type_id": "rho-10"
+      },
+      {
+        "capacity_decidable": false,
+        "capacity_decidable_for_displayed_mixed_route": true,
+        "criterion": "h_rho <= a_rho + b_rho",
+        "criterion_satisfied_for_displayed_mixed_route": false,
+        "deficit": 4,
+        "h_rho": 4,
+        "mixed_capacity": 0,
+        "real_irreducible_dimension": 630,
+        "real_type": "real_tensor_type",
+        "repair_domain_a_rho": 0,
+        "repair_target_b_rho": 0,
+        "so6_highest_weights": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          1,
+          0
+        ],
+        "type_id": "rho-11"
+      },
+      {
+        "capacity_decidable": false,
+        "capacity_decidable_for_displayed_mixed_route": true,
+        "criterion": "h_rho <= a_rho + b_rho",
+        "criterion_satisfied_for_displayed_mixed_route": false,
+        "deficit": 4,
+        "h_rho": 4,
+        "mixed_capacity": 0,
+        "real_irreducible_dimension": 420,
+        "real_type": "real_tensor_type",
+        "repair_domain_a_rho": 0,
+        "repair_target_b_rho": 0,
+        "so6_highest_weights": [
+          [
+            2,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          0
+        ],
+        "type_id": "rho-12"
+      },
+      {
+        "capacity_decidable": false,
+        "capacity_decidable_for_displayed_mixed_route": true,
+        "criterion": "h_rho <= a_rho + b_rho",
+        "criterion_satisfied_for_displayed_mixed_route": false,
+        "deficit": 2,
+        "h_rho": 2,
+        "mixed_capacity": 0,
+        "real_irreducible_dimension": 540,
+        "real_type": "complex_conjugate_pair",
+        "repair_domain_a_rho": 0,
+        "repair_target_b_rho": 0,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          0,
+          0
+        ],
+        "type_id": "rho-13"
+      },
+      {
+        "capacity_decidable": false,
+        "capacity_decidable_for_displayed_mixed_route": true,
+        "criterion": "h_rho <= a_rho + b_rho",
+        "criterion_satisfied_for_displayed_mixed_route": false,
+        "deficit": 4,
+        "h_rho": 4,
+        "mixed_capacity": 0,
+        "real_irreducible_dimension": 700,
+        "real_type": "complex_conjugate_pair",
+        "repair_domain_a_rho": 0,
+        "repair_target_b_rho": 0,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          1
+        ],
+        "type_id": "rho-14"
+      },
+      {
+        "capacity_decidable": false,
+        "capacity_decidable_for_displayed_mixed_route": true,
+        "criterion": "h_rho <= a_rho + b_rho",
+        "criterion_satisfied_for_displayed_mixed_route": false,
+        "deficit": 4,
+        "h_rho": 4,
+        "mixed_capacity": 0,
+        "real_irreducible_dimension": 405,
+        "real_type": "real_tensor_type",
+        "repair_domain_a_rho": 0,
+        "repair_target_b_rho": 0,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          0,
+          0
+        ],
+        "type_id": "rho-15"
+      },
+      {
+        "capacity_decidable": false,
+        "capacity_decidable_for_displayed_mixed_route": true,
+        "criterion": "h_rho <= a_rho + b_rho",
+        "criterion_satisfied_for_displayed_mixed_route": false,
+        "deficit": 8,
+        "h_rho": 8,
+        "mixed_capacity": 0,
+        "real_irreducible_dimension": 525,
+        "real_type": "real_tensor_type",
+        "repair_domain_a_rho": 0,
+        "repair_target_b_rho": 0,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          1
+        ],
+        "type_id": "rho-16"
+      },
+      {
+        "capacity_decidable": false,
+        "capacity_decidable_for_displayed_mixed_route": true,
+        "criterion": "h_rho <= a_rho + b_rho",
+        "criterion_satisfied_for_displayed_mixed_route": false,
+        "deficit": 4,
+        "h_rho": 4,
+        "mixed_capacity": 0,
+        "real_irreducible_dimension": 189,
+        "real_type": "real_tensor_type",
+        "repair_domain_a_rho": 0,
+        "repair_target_b_rho": 0,
+        "so6_highest_weights": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          1,
+          1
+        ],
+        "type_id": "rho-17"
+      },
+      {
+        "capacity_decidable": false,
+        "capacity_decidable_for_displayed_mixed_route": true,
+        "criterion": "h_rho <= a_rho + b_rho",
+        "criterion_satisfied_for_displayed_mixed_route": false,
+        "deficit": 2,
+        "h_rho": 2,
+        "mixed_capacity": 0,
+        "real_irreducible_dimension": 630,
+        "real_type": "complex_conjugate_pair",
+        "repair_domain_a_rho": 0,
+        "repair_target_b_rho": 0,
+        "so6_highest_weights": [
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          0,
+          0
+        ],
+        "type_id": "rho-18"
+      },
+      {
+        "capacity_decidable": false,
+        "capacity_decidable_for_displayed_mixed_route": true,
+        "criterion": "h_rho <= a_rho + b_rho",
+        "criterion_satisfied_for_displayed_mixed_route": false,
+        "deficit": 4,
+        "h_rho": 4,
+        "mixed_capacity": 0,
+        "real_irreducible_dimension": 448,
+        "real_type": "real_tensor_type",
+        "repair_domain_a_rho": 0,
+        "repair_target_b_rho": 0,
+        "so6_highest_weights": [
+          [
+            2,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          0,
+          0
+        ],
+        "type_id": "rho-19"
+      },
+      {
+        "capacity_decidable": false,
+        "capacity_decidable_for_displayed_mixed_route": true,
+        "criterion": "h_rho <= a_rho + b_rho",
+        "criterion_satisfied_for_displayed_mixed_route": false,
+        "deficit": 4,
+        "h_rho": 4,
+        "mixed_capacity": 0,
+        "real_irreducible_dimension": 420,
+        "real_type": "complex_conjugate_pair",
+        "repair_domain_a_rho": 0,
+        "repair_target_b_rho": 0,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          0
+        ],
+        "type_id": "rho-20"
+      },
+      {
+        "capacity_decidable": false,
+        "capacity_decidable_for_displayed_mixed_route": true,
+        "criterion": "h_rho <= a_rho + b_rho",
+        "criterion_satisfied_for_displayed_mixed_route": false,
+        "deficit": 8,
+        "h_rho": 8,
+        "mixed_capacity": 0,
+        "real_irreducible_dimension": 315,
+        "real_type": "real_tensor_type",
+        "repair_domain_a_rho": 0,
+        "repair_target_b_rho": 0,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          0
+        ],
+        "type_id": "rho-21"
+      },
+      {
+        "capacity_decidable": false,
+        "capacity_decidable_for_displayed_mixed_route": true,
+        "criterion": "h_rho <= a_rho + b_rho",
+        "criterion_satisfied_for_displayed_mixed_route": false,
+        "deficit": 4,
+        "h_rho": 4,
+        "mixed_capacity": 0,
+        "real_irreducible_dimension": 162,
+        "real_type": "real_tensor_type",
+        "repair_domain_a_rho": 0,
+        "repair_target_b_rho": 0,
+        "so6_highest_weights": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          0,
+          0
+        ],
+        "type_id": "rho-22"
+      },
+      {
+        "capacity_decidable": false,
+        "capacity_decidable_for_displayed_mixed_route": true,
+        "criterion": "h_rho <= a_rho + b_rho",
+        "criterion_satisfied_for_displayed_mixed_route": false,
+        "deficit": 8,
+        "h_rho": 8,
+        "mixed_capacity": 0,
+        "real_irreducible_dimension": 210,
+        "real_type": "real_tensor_type",
+        "repair_domain_a_rho": 0,
+        "repair_target_b_rho": 0,
+        "so6_highest_weights": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          1
+        ],
+        "type_id": "rho-23"
+      },
+      {
+        "capacity_decidable": false,
+        "capacity_decidable_for_displayed_mixed_route": true,
+        "criterion": "h_rho <= a_rho + b_rho",
+        "criterion_satisfied_for_displayed_mixed_route": false,
+        "deficit": 4,
+        "h_rho": 4,
+        "mixed_capacity": 0,
+        "real_irreducible_dimension": 105,
+        "real_type": "real_tensor_type",
+        "repair_domain_a_rho": 0,
+        "repair_target_b_rho": 0,
+        "so6_highest_weights": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          1,
+          0
+        ],
+        "type_id": "rho-24"
+      },
+      {
+        "capacity_decidable": false,
+        "capacity_decidable_for_displayed_mixed_route": true,
+        "criterion": "h_rho <= a_rho + b_rho",
+        "criterion_satisfied_for_displayed_mixed_route": false,
+        "deficit": 4,
+        "h_rho": 4,
+        "mixed_capacity": 0,
+        "real_irreducible_dimension": 140,
+        "real_type": "real_tensor_type",
+        "repair_domain_a_rho": 0,
+        "repair_target_b_rho": 0,
+        "so6_highest_weights": [
+          [
+            2,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          0,
+          0
+        ],
+        "type_id": "rho-25"
+      },
+      {
+        "capacity_decidable": false,
+        "capacity_decidable_for_displayed_mixed_route": true,
+        "criterion": "h_rho <= a_rho + b_rho",
+        "criterion_satisfied_for_displayed_mixed_route": false,
+        "deficit": 8,
+        "h_rho": 8,
+        "mixed_capacity": 0,
+        "real_irreducible_dimension": 126,
+        "real_type": "real_tensor_type",
+        "repair_domain_a_rho": 0,
+        "repair_target_b_rho": 0,
+        "so6_highest_weights": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          0
+        ],
+        "type_id": "rho-26"
+      },
+      {
+        "capacity_decidable": false,
+        "capacity_decidable_for_displayed_mixed_route": true,
+        "criterion": "h_rho <= a_rho + b_rho",
+        "criterion_satisfied_for_displayed_mixed_route": false,
+        "deficit": 4,
+        "h_rho": 4,
+        "mixed_capacity": 0,
+        "real_irreducible_dimension": 140,
+        "real_type": "complex_conjugate_pair",
+        "repair_domain_a_rho": 0,
+        "repair_target_b_rho": 0,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          0,
+          0
+        ],
+        "type_id": "rho-27"
+      },
+      {
+        "capacity_decidable": false,
+        "capacity_decidable_for_displayed_mixed_route": true,
+        "criterion": "h_rho <= a_rho + b_rho",
+        "criterion_satisfied_for_displayed_mixed_route": false,
+        "deficit": 8,
+        "h_rho": 8,
+        "mixed_capacity": 0,
+        "real_irreducible_dimension": 105,
+        "real_type": "real_tensor_type",
+        "repair_domain_a_rho": 0,
+        "repair_target_b_rho": 0,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          0,
+          0
+        ],
+        "type_id": "rho-28"
+      },
+      {
+        "capacity_decidable": false,
+        "capacity_decidable_for_displayed_mixed_route": true,
+        "criterion": "h_rho <= a_rho + b_rho",
+        "criterion_satisfied_for_displayed_mixed_route": false,
+        "deficit": 4,
+        "h_rho": 4,
+        "mixed_capacity": 0,
+        "real_irreducible_dimension": 27,
+        "real_type": "real_tensor_type",
+        "repair_domain_a_rho": 0,
+        "repair_target_b_rho": 0,
+        "so6_highest_weights": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          0,
+          0
+        ],
+        "type_id": "rho-29"
+      },
+      {
+        "capacity_decidable": false,
+        "capacity_decidable_for_displayed_mixed_route": true,
+        "criterion": "h_rho <= a_rho + b_rho",
+        "criterion_satisfied_for_displayed_mixed_route": false,
+        "deficit": 4,
+        "h_rho": 4,
+        "mixed_capacity": 0,
+        "real_irreducible_dimension": 35,
+        "real_type": "real_tensor_type",
+        "repair_domain_a_rho": 0,
+        "repair_target_b_rho": 0,
+        "so6_highest_weights": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          1
+        ],
+        "type_id": "rho-30"
+      },
+      {
+        "capacity_decidable": false,
+        "capacity_decidable_for_displayed_mixed_route": true,
+        "criterion": "h_rho <= a_rho + b_rho",
+        "criterion_satisfied_for_displayed_mixed_route": false,
+        "deficit": 2,
+        "h_rho": 2,
+        "mixed_capacity": 0,
+        "real_irreducible_dimension": 90,
+        "real_type": "complex_conjugate_pair",
+        "repair_domain_a_rho": 0,
+        "repair_target_b_rho": 0,
+        "so6_highest_weights": [
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          0,
+          0,
+          0
+        ],
+        "type_id": "rho-31"
+      },
+      {
+        "capacity_decidable": false,
+        "capacity_decidable_for_displayed_mixed_route": true,
+        "criterion": "h_rho <= a_rho + b_rho",
+        "criterion_satisfied_for_displayed_mixed_route": false,
+        "deficit": 4,
+        "h_rho": 4,
+        "mixed_capacity": 0,
+        "real_irreducible_dimension": 64,
+        "real_type": "real_tensor_type",
+        "repair_domain_a_rho": 0,
+        "repair_target_b_rho": 0,
+        "so6_highest_weights": [
+          [
+            2,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          0,
+          0,
+          0
+        ],
+        "type_id": "rho-32"
+      },
+      {
+        "capacity_decidable": false,
+        "capacity_decidable_for_displayed_mixed_route": true,
+        "criterion": "h_rho <= a_rho + b_rho",
+        "criterion_satisfied_for_displayed_mixed_route": false,
+        "deficit": 8,
+        "h_rho": 8,
+        "mixed_capacity": 0,
+        "real_irreducible_dimension": 42,
+        "real_type": "real_tensor_type",
+        "repair_domain_a_rho": 0,
+        "repair_target_b_rho": 0,
+        "so6_highest_weights": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          0,
+          0
+        ],
+        "type_id": "rho-33"
+      },
+      {
+        "capacity_decidable": false,
+        "capacity_decidable_for_displayed_mixed_route": true,
+        "criterion": "h_rho <= a_rho + b_rho",
+        "criterion_satisfied_for_displayed_mixed_route": false,
+        "deficit": 4,
+        "h_rho": 4,
+        "mixed_capacity": 0,
+        "real_irreducible_dimension": 21,
+        "real_type": "real_tensor_type",
+        "repair_domain_a_rho": 0,
+        "repair_target_b_rho": 0,
+        "so6_highest_weights": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          0
+        ],
+        "type_id": "rho-34"
+      },
+      {
+        "capacity_decidable": false,
+        "capacity_decidable_for_displayed_mixed_route": true,
+        "criterion": "h_rho <= a_rho + b_rho",
+        "criterion_satisfied_for_displayed_mixed_route": false,
+        "deficit": 4,
+        "h_rho": 4,
+        "mixed_capacity": 0,
+        "real_irreducible_dimension": 20,
+        "real_type": "real_tensor_type",
+        "repair_domain_a_rho": 0,
+        "repair_target_b_rho": 0,
+        "so6_highest_weights": [
+          [
+            2,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          0,
+          0,
+          0
+        ],
+        "type_id": "rho-35"
+      },
+      {
+        "capacity_decidable": false,
+        "capacity_decidable_for_displayed_mixed_route": true,
+        "criterion": "h_rho <= a_rho + b_rho",
+        "criterion_satisfied_for_displayed_mixed_route": false,
+        "deficit": 2,
+        "h_rho": 2,
+        "mixed_capacity": 0,
+        "real_irreducible_dimension": 20,
+        "real_type": "complex_conjugate_pair",
+        "repair_domain_a_rho": 0,
+        "repair_target_b_rho": 0,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          0,
+          0,
+          0
+        ],
+        "type_id": "rho-36"
+      },
+      {
+        "capacity_decidable": false,
+        "capacity_decidable_for_displayed_mixed_route": true,
+        "criterion": "h_rho <= a_rho + b_rho",
+        "criterion_satisfied_for_displayed_mixed_route": false,
+        "deficit": 4,
+        "h_rho": 4,
+        "mixed_capacity": 0,
+        "real_irreducible_dimension": 15,
+        "real_type": "real_tensor_type",
+        "repair_domain_a_rho": 0,
+        "repair_target_b_rho": 0,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          0,
+          0,
+          0
+        ],
+        "type_id": "rho-37"
+      },
+      {
+        "capacity_decidable": false,
+        "capacity_decidable_for_displayed_mixed_route": true,
+        "criterion": "h_rho <= a_rho + b_rho",
+        "criterion_satisfied_for_displayed_mixed_route": false,
+        "deficit": 5,
+        "h_rho": 5,
+        "mixed_capacity": 0,
+        "real_irreducible_dimension": 7,
+        "real_type": "real_tensor_type",
+        "repair_domain_a_rho": 0,
+        "repair_target_b_rho": 0,
+        "so6_highest_weights": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          0,
+          0
+        ],
+        "type_id": "rho-38"
+      },
+      {
+        "capacity_decidable": false,
+        "capacity_decidable_for_displayed_mixed_route": true,
+        "criterion": "h_rho <= a_rho + b_rho",
+        "criterion_satisfied_for_displayed_mixed_route": false,
+        "deficit": 5,
+        "h_rho": 5,
+        "mixed_capacity": 0,
+        "real_irreducible_dimension": 6,
+        "real_type": "real_tensor_type",
+        "repair_domain_a_rho": 0,
+        "repair_target_b_rho": 0,
+        "so6_highest_weights": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          0,
+          0,
+          0
+        ],
+        "type_id": "rho-39"
+      },
+      {
+        "capacity_decidable": false,
+        "capacity_decidable_for_displayed_mixed_route": true,
+        "criterion": "h_rho <= a_rho + b_rho",
+        "criterion_satisfied_for_displayed_mixed_route": false,
+        "deficit": 3,
+        "h_rho": 3,
+        "mixed_capacity": 0,
+        "real_irreducible_dimension": 1,
+        "real_type": "real_tensor_type",
+        "repair_domain_a_rho": 0,
+        "repair_target_b_rho": 0,
+        "so6_highest_weights": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          0,
+          0,
+          0
+        ],
+        "type_id": "rho-40"
+      }
+    ],
+    "satisfied_row_count": 0,
+    "total_multiplicity_deficit": 169
+  }
+}
