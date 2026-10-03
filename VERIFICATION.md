@@ -7,7 +7,54 @@ updated_at: "2026-10-02"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
-## K863--K866 basepoint isotropy and repair capacity (2026-10-02)
+## K867--K870 corrected isotropy boundary (2026-10-02)
+
+K867 audits the symmetry premise used by K863 directly on the pinned K788
+operator. The tangential vector
+`u=e_1 tensor gamma_{23}+e_2 tensor gamma_{13}` satisfies `J_e0(u)=0`.
+A determinant-one auxiliary-Euclidean rotation in the `(1,4)` plane fixes
+`e_0` but mixes one native-negative and one native-positive direction; its
+image has a ten-term nonzero response. A same-native-sign `(1,2)` rotation is
+the exact preserving control. Therefore the pinned `Cl(7,7)` response kernel
+is not an `SO(13)` module.
+
+K868 identifies the authenticated compact common stabilizer. Fixing positive
+`e_0` gives native stabilizer `SO_0(6,7)` and auxiliary stabilizer `SO(13)`;
+their identity-component intersection is `SO(6)xSO(7)`. The radial module
+restricts as
+`2 direct-sum_(a=0)^6 direct-sum_(b=0)^7 Lambda^a(P_6) tensor Lambda^b(N_7)`,
+with dimension `2*64*128=16384`. The tangential kernel is invariant under this
+common group, but its complete real character is not yet computed.
+
+K869 applies the correction narrowly. K860's homogeneous-bundle theorem and
+K865's compact typewise capacity theorem remain valid abstractly. K863's
+radial/tangential vector-space dimensions and K864's conditional q-lambda
+quotient dimension also remain exact. What fails is the concrete `SO(13)`
+kernel-module premise, so K866's four satisfied `SO(13)` rows cannot stand.
+K870 replaces them with an eleven-row corrected certificate: three rows are
+satisfied, while the common-stabilizer character, owned quotient, repair
+modules, intertwiners and analytic globalization remain open. The four
+producers pass 150 controls and the probes reject 80/80 hostile mutations.
+SC-ACT-06 remains `ASSERTS`; no protected verdict moves.
+
+Run the producers and hostile probes:
+
+```bash
+python3 tests/channel-swings/k867_sc_act_06_compact_equivariance_audit.py --check
+python3 tests/channel-swings/k867_sc_act_06_compact_equivariance_audit_probe.py
+python3 tests/channel-swings/k868_sc_act_06_common_stabilizer_boundary.py --check
+python3 tests/channel-swings/k868_sc_act_06_common_stabilizer_boundary_probe.py
+python3 tests/channel-swings/k869_sc_act_06_isotropy_gate_correction.py --check
+python3 tests/channel-swings/k869_sc_act_06_isotropy_gate_correction_probe.py
+python3 tests/channel-swings/k870_sc_act_06_corrected_isotropy_disposition.py --check
+python3 tests/channel-swings/k870_sc_act_06_corrected_isotropy_disposition_probe.py
+```
+
+## K863--K866 basepoint isotropy and repair capacity (superseded in part 2026-10-02)
+
+The dimension split, conditional quotient and abstract K865 theorem below
+remain valid. K867--K870 supersede the claimed `SO(13)` tangential-kernel
+module and the resulting four-of-eleven concrete disposition.
 
 K863 uses the positive Euclidean base covector `q=e_0`. The connection domain
 splits as `(R q direct-sum V_13) tensor Cl_14`; the radial part lies in the

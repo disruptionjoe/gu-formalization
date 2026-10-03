@@ -1,0 +1,88 @@
+{
+  "claim_ceiling": "Exact common-stabilizer identity component and radial restriction formula for the pinned packet. No complete tangential character, repair or global result follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 38,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k868_sc_act_06_common_stabilizer_boundary_probe.py",
+    "producer": "tests/channel-swings/k868_sc_act_06_common_stabilizer_boundary.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "K865_may_be_reapplied_after_common_stabilizer_multiplicities": true,
+    "SC_ACT_06_proved_or_refuted": false,
+    "auxiliary_SO13_is_valid_response_stabilizer": false,
+    "common_compact_stabilizer_authenticated": true,
+    "next_exact_input": "Compute the real SO(6)xSO(7) multiplicities of the 90128-dimensional tangential kernel and of an authenticated owned symmetry image; only then compare source/action-owned repair modules type by type.",
+    "owned_old_symmetry_authenticated": false
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "source first-order residual Upsilon, not an I1B or I2B Hessian",
+    "carrier": "Omega1(Cl_14(C)) on K717's fixed flat native germ; complex dimension 229376",
+    "grading": "connection variation u -> first-order residual variation J_q(u)",
+    "pairing": "K717 native action form; auxiliary Frobenius q only identifies nonzero Euclidean covectors",
+    "real_structure": "K740 pinned real U(64,64) basis followed by exact rational rank calculation",
+    "target": "GROUP-TYPE=authenticated basepoint stabilizer for the pinned response"
+  },
+  "ledger_no_change_reason": "The common stabilizer corrects a local representation interface but does not supply the missing owned complex or physical quotient.",
+  "pinned_inputs": {
+    "k717": {
+      "path": "lab/process/k717-sc-act-06-flat-euclidean-gimmel-germ.json",
+      "sha256": "9b6f66363ecc489ff9d2eca45c6a130cbbeb949e065414fff04343e79c1f3ed1"
+    },
+    "k788": {
+      "path": "lab/process/k788-sc-act-06-direct-response-orbit-classification.json",
+      "sha256": "5d1b2813b629f13ebaaec0a2ee86e442422ab0ed0eb985c4589f9664ead9e445"
+    },
+    "k863": {
+      "path": "lab/process/k863-sc-act-06-basepoint-kernel-isotropy.json",
+      "sha256": "0cb827d6146b5a89b5eab57febeb8d46bdf924e290b231f81d411566f4bfb55f"
+    },
+    "k864": {
+      "path": "lab/process/k864-sc-act-06-radial-grant-quotient.json",
+      "sha256": "7f9f66e614592e2e1beaeb2df02d231a69d76ab2a64edef590a96d7030e18453"
+    },
+    "k867": {
+      "path": "lab/process/k867-sc-act-06-compact-equivariance-audit.json",
+      "sha256": "73aabaac2e78bc8eaf7225363036e221dc4b90c809e3d70a725fddfdbf36c20e"
+    }
+  },
+  "radial_restriction": {
+    "dimension_check": 16384,
+    "expected_radial_dimension": 16384,
+    "exterior_dimension_sum": 8192,
+    "formula": "q tensor Cl_14 restricted to SO(6)xSO(7) = 2 direct-sum_(a=0)^6 direct-sum_(b=0)^7 Lambda^a(P_6) tensor Lambda^b(N_7)",
+    "full_real_irreducible_reduction_completed": false,
+    "multiplicity": 2,
+    "tangential_split": "P_6 direct-sum N_7"
+  },
+  "result_id": "K868-SC-ACT-06-COMMON-STABILIZER-BOUNDARY",
+  "schema_version": "1.0",
+  "scope": "Exact group boundary after requiring a transformation to fix q=e_0 and preserve both the pinned (7,7) form and the supplied Euclidean auxiliary metric.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "stabilizer_chain": {
+    "auxiliary_group": "SO(14)",
+    "auxiliary_q_stabilizer": "SO(13)",
+    "common_q_stabilizer_identity_component": "SO(6) x SO(7)",
+    "compact_semisimple": true,
+    "cross_sign_euclidean_rotation_excluded": true,
+    "native_group": "SO(7,7)",
+    "native_q_stabilizer_identity_component": "SO_0(6,7)",
+    "negative_tangential_dimension": 7,
+    "positive_tangential_dimension": 6,
+    "same_sign_rotations_retained": true
+  },
+  "status": "working_draft_verified",
+  "surviving_response_facts": {
+    "conditional_q_lambda_quotient_dimension": 90128,
+    "radial_dimension": 16384,
+    "radial_map_zero": true,
+    "tangential_common_stabilizer_character_computed": false,
+    "tangential_domain_dimension": 212992,
+    "tangential_kernel_dimension": 90128,
+    "tangential_kernel_is_common_stabilizer_module": true,
+    "tangential_response_rank": 122864
+  },
+  "target_claim": "SC-ACT-06"
+}

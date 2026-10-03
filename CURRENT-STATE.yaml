@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 37ea3ee921cd
+revision_basis: 99190fbca680
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,22 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
-    K863--K866 authenticate the first substantial part of the missing
-    `SO(13)` basepoint structure without promoting an unowned symmetry. K863
-    splits K788's 106512-dimensional kernel as the direct sum of a radial
-    16384-dimensional module and a 90128-dimensional tangential kernel. The
-    radial module is exactly
-    `direct-sum_(k=0)^6 4 Lambda^k(V_13)`. K864 proves that K789's provisional
-    `lambda -> q tensor lambda` image is exactly this radial summand, so the
-    conditional connection-only quotient has dimension 90128. K789's 90124
-    remains only a conservative full-field lower bound because its separate
-    rank-four metric grant has zero connection component. K865 proves that an
-    exact `SO(13)`-equivariant repair exists precisely when every real
-    irreducible type satisfies `h_rho<=a_rho+b_rho`; equal total dimensions
-    can fail by type mismatch. K866 records four of eleven isotropy rows as
-    established. The tangential irreducible multiplicities, actual owned
-    symmetry quotient and owned repair modules/maps remain open. SC-ACT-06
-    remains `ASSERTS`, and no protected conclusion moves.
+    K867--K870 correct the group-action premise in K863--K866. K867 gives an
+    exact tangential witness
+    `e_1 tensor gamma_{23}+e_2 tensor gamma_{13}` in `ker(J_e0)` and a
+    determinant-one auxiliary-Euclidean rotation in the `(1,4)` plane that
+    carries it out of the kernel. The pinned `Cl(7,7)` response kernel is
+    therefore not an `SO(13)` module. K868 identifies the identity component
+    preserving the pinned native form, auxiliary metric and `e_0` as
+    `SO(6)xSO(7)` and restricts the radial module as
+    `2 direct-sum_(a=0)^6 direct-sum_(b=0)^7 Lambda^a(P_6) tensor
+    Lambda^b(N_7)`. K869 preserves the exact K863/K864 dimension facts and
+    the abstract K860/K865 theorems while retiring their concrete `SO(13)`
+    application. Thus the radial dimension 16384, tangential kernel dimension
+    90128 and conditional q-lambda quotient dimension 90128 survive; the old
+    four-of-eleven `SO(13)` disposition does not. K870 records three of eleven
+    corrected rows satisfied. Next compute the real `SO(6)xSO(7)` tangential
+    character and authenticate the owned quotient before applying the retained
+    typewise repair criterion. SC-ACT-06 remains `ASSERTS`; no protected
+    conclusion moves.
 
     K859--K862 separate ordinary high-rank triviality from a source-natural
     SC-ACT-06 repair. K859 proves that K788's exact 106512-dimensional kernel
@@ -12663,18 +12665,18 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K863--K866 replace the undifferentiated isotropy-module request with a
-  sharper typed problem. At a positive Euclidean base covector, the K788
-  kernel splits `SO(13)`-equivariantly into the radial module
-  `direct-sum_(k=0)^6 4 Lambda^k(V_13)` of dimension 16384 and a tangential
-  kernel of dimension 90128. The provisional `q lambda` grant removes exactly
-  the radial summand, but it is not source/action-owned; the rank-four metric
-  grant cannot lower a connection-only quotient. Compute the irreducible real
-  `SO(13)` multiplicities `h_rho` of the tangential kernel, authenticate the
-  actual owned symmetry quotient, and identify source/action-owned repair
-  multiplicities `a_rho,b_rho`. Every type must satisfy
-  `h_rho<=a_rho+b_rho` before constructing `S_0,tau_0` with
-  `im(S_0)=ker(tau_0)` and globalizing. Raw total rank is insufficient.
+  K867--K870 replace the invalid auxiliary-`SO(13)` multiplicity request with
+  the authenticated common-stabilizer problem. The pinned K788 response uses
+  the native `(7,7)` form: an auxiliary-Euclidean cross-sign rotation fixing
+  `e_0` carries an exact tangential kernel witness out of the kernel, so the
+  kernel is not an `SO(13)` module. The identity component preserving the
+  native form, auxiliary metric and base covector is `SO(6)xSO(7)`. The exact
+  radial/tangential dimensions and conditional q-lambda quotient survive:
+  16384 radial, 90128 tangential, and conditional connection-only quotient
+  90128. Compute the real `SO(6)xSO(7)` multiplicities of that tangential
+  kernel, authenticate the actual owned symmetry quotient, and identify
+  source/action-owned repair multiplicities before applying K865 type by
+  type. Raw total rank and the retired `SO(13)` decomposition are insufficient.
 
   K859--K862 replace ordinary bundle triviality with the naturality-aware
   repair question. The current 90124 value is only the lower endpoint of the
@@ -13858,21 +13860,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  K863--K866 authenticate the radial part of the K788 basepoint kernel and
-  isolate the remaining representation-theoretic burden. The radial
-  16384-dimensional `SO(13)` module is
-  `direct-sum_(k=0)^6 4 Lambda^k(V_13)`; K789's provisional `q lambda` image
-  equals it exactly, leaving a conditional connection-only quotient of
-  dimension 90128. Do not replace that number by K789's 90124 full-field
-  lower bound, whose extra rank-four metric grant has zero connection
-  component. Next compute the irreducible real `SO(13)` multiplicities of the
-  tangential kernel, authenticate the actual source/action-owned old symmetry
-  image, and compare the resulting `h_rho` type by type with owned repair
-  multiplicities `a_rho,b_rho`. Only after every
-  `h_rho<=a_rho+b_rho` row passes may owned intertwiners `S_0,tau_0` be
-  constructed and tested for descent, composition, kernel-image equality,
-  globalization and robust analytic control. SC-ACT-06 remains `ASSERTS` and
-  no protected conclusion moves.
+  K867--K870 correct the K863--K866 isotropy premise. The exact witness
+  `e_1 tensor gamma_{23}+e_2 tensor gamma_{13}` lies in `ker(J_e0)`, but the
+  auxiliary-Euclidean determinant-one `(1,4)` rotation carries it out of the
+  kernel because it mixes opposite native signs. Thus the pinned response is
+  not `SO(13)`-equivariant. Its authenticated compact common stabilizer at
+  `e_0` has identity component `SO(6)xSO(7)`. Preserve the exact surviving
+  dimensions: radial 16384, tangential kernel 90128, and conditional q-lambda
+  quotient 90128; K789's 90124 remains only the conservative full-field lower
+  bound. Next compute the real `SO(6)xSO(7)` tangential character,
+  authenticate the source/action-owned old symmetry image, and compare the
+  corrected-group multiplicities with owned repair modules before constructing
+  intertwiners. Do not reuse the retired `SO(13)` kernel-module claim.
+  SC-ACT-06 remains `ASSERTS` and no protected conclusion moves.
 
   K859--K862 prove that the current 90124 value is only the lower endpoint of
   the exact interval `[90124,106512]` permitted by the deliberately overlarge

@@ -1,0 +1,150 @@
+{
+  "claim_ceiling": "Exact counterexample to auxiliary-SO(13) invariance of the pinned K788 basepoint kernel. Dimension ranks survive; no global no-go or physical conclusion follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 38,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k867_sc_act_06_compact_equivariance_audit_probe.py",
+    "producer": "tests/channel-swings/k867_sc_act_06_compact_equivariance_audit.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "K788_kernel_is_auxiliary_SO13_module": false,
+    "K863_SO13_tangential_kernel_claim_valid": false,
+    "K863_dimension_split_retracted": false,
+    "K864_conditional_quotient_dimension_retracted": false,
+    "K865_abstract_compact_representation_theorem_retracted": false,
+    "SC_ACT_06_proved_or_refuted": false,
+    "next_exact_input": "Replace the auxiliary SO(13) application by the stabilizer preserving the pinned native form and the selected auxiliary metric, then compute the tangential kernel character under that authenticated group before any repair-capacity comparison."
+  },
+  "direction": "observed_to_native",
+  "exact_kernel_witness": {
+    "J_q_u_zero": true,
+    "u": "e_1 tensor gamma_{23} + e_2 tensor gamma_{13}",
+    "u1_response_equals_minus_u2_response": true
+  },
+  "forms": {
+    "auxiliary_euclidean_signature": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "base_covector": "e_0",
+    "native_signature": [
+      1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "native_signature_counts": [
+      7,
+      7
+    ]
+  },
+  "gu_typed_objects": {
+    "action_owner": "source first-order residual Upsilon, not an I1B or I2B Hessian",
+    "carrier": "Omega1(Cl_14(C)) on K717's fixed flat native germ; complex dimension 229376",
+    "grading": "connection variation u -> first-order residual variation J_q(u)",
+    "pairing": "K717 native action form; auxiliary Frobenius q only identifies nonzero Euclidean covectors",
+    "real_structure": "K740 pinned real U(64,64) basis followed by exact rational rank calculation",
+    "target": "MAP-TYPE=actual symmetry group of the pinned basepoint response kernel"
+  },
+  "ledger_no_change_reason": "This corrects the symmetry type of a repository-constructed local response; it supplies no source-owned complex, physical state or observable.",
+  "pinned_inputs": {
+    "bank": {
+      "path": "tests/fixtures/k77_exact_coefficient_bank_v1.json",
+      "sha256": "af7642876b0f788c4561f977c62b57307783849170031536a9e578102fc382c8"
+    },
+    "k788": {
+      "path": "lab/process/k788-sc-act-06-direct-response-orbit-classification.json",
+      "sha256": "5d1b2813b629f13ebaaec0a2ee86e442422ab0ed0eb985c4589f9664ead9e445"
+    },
+    "k863": {
+      "path": "lab/process/k863-sc-act-06-basepoint-kernel-isotropy.json",
+      "sha256": "0cb827d6146b5a89b5eab57febeb8d46bdf924e290b231f81d411566f4bfb55f"
+    },
+    "k866": {
+      "path": "lab/process/k866-sc-act-06-isotropy-repair-disposition.json",
+      "sha256": "762d5a3305cdf46465e4d7ae44f6b6f8b1ef3c304ccfdb9d4a94eff35bf80929"
+    }
+  },
+  "result_id": "K867-SC-ACT-06-COMPACT-EQUIVARIANCE-AUDIT",
+  "rotation_controls": {
+    "cross_native_sign_rotation": {
+      "belongs_to_auxiliary_SO13": true,
+      "determinant": 1,
+      "first_nonzero_terms": [
+        [
+          8191,
+          8221,
+          "-4",
+          "0"
+        ],
+        [
+          12287,
+          4125,
+          "4",
+          "0"
+        ],
+        [
+          14335,
+          2077,
+          "-4",
+          "0"
+        ],
+        [
+          15359,
+          1053,
+          "4",
+          "0"
+        ]
+      ],
+      "fixes_q": true,
+      "nonzero_response_sha256": "3be5274b7ef13e61675a4b1f97660d4454a1376e735a1915e88602403e8a7d9a",
+      "nonzero_response_term_count": 10,
+      "plane": [
+        1,
+        4
+      ],
+      "preserves_native_form": false,
+      "rotated_witness_remains_in_kernel": false
+    },
+    "same_native_sign_rotation": {
+      "determinant": 1,
+      "fixes_q": true,
+      "plane": [
+        1,
+        2
+      ],
+      "preserves_auxiliary_euclidean_form": true,
+      "preserves_native_form": true,
+      "rotated_witness_remains_in_kernel": true
+    }
+  },
+  "schema_version": "1.0",
+  "scope": "Exact audit of whether the pinned Cl(7,7) response kernel at q=e_0 is invariant under the auxiliary Euclidean SO(13) stabilizer assumed by K863.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

@@ -1,0 +1,86 @@
+{
+  "claim_ceiling": "Exact correction of the group-action premise. It neither retracts the exact ranks nor supplies an owned repair.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 36,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k869_sc_act_06_isotropy_gate_correction_probe.py",
+    "producer": "tests/channel-swings/k869_sc_act_06_isotropy_gate_correction.py"
+  },
+  "corrected_results": {
+    "K860_SO14_homogeneous_application_to_current_packet": false,
+    "K863_radial_formula_is_full_kernel_SO13_decomposition": false,
+    "K863_tangential_kernel_is_SO13_module": false,
+    "K864_conditional_quotient_is_SO13_module": false,
+    "K865_SO13_multiplicity_test_currently_applicable": false,
+    "K866_four_SO13_rows_established": false,
+    "replacement_character_known": false,
+    "replacement_group": "SO(6) x SO(7)"
+  },
+  "correction_reason": {
+    "no_rank_retraction": "Rank, nullity, radial zero-map and conditional quotient dimensions do not use the failed SO(13) action.",
+    "not_theorem_failure": "The abstract K860 and K865 theorems remain correct; the failed premise is equivariance of this concrete old response under the selected group.",
+    "premise_failure": "The auxiliary SO(13) stabilizer contains a cross-native-sign rotation that carries an exact K788 tangential kernel witness out of the kernel."
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "new_common_stabilizer_frontier_active": true,
+    "next_exact_input": "Compute the actual SO(6)xSO(7) tangential kernel character and authenticate the owned symmetry quotient before applying the retained typewise repair theorem to that corrected compact group.",
+    "old_SO13_multiplicity_frontier_retired": true,
+    "owned_old_cohomology_module_known": false,
+    "owned_repair_modules_known": false
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "source first-order residual Upsilon, not an I1B or I2B Hessian",
+    "carrier": "Omega1(Cl_14(C)) on K717's fixed flat native germ; complex dimension 229376",
+    "grading": "connection variation u -> first-order residual variation J_q(u)",
+    "pairing": "K717 native action form; auxiliary Frobenius q only identifies nonzero Euclidean covectors",
+    "real_structure": "K740 pinned real U(64,64) basis followed by exact rational rank calculation",
+    "target": "MAP-TYPE=actual symmetry group of the pinned basepoint response kernel"
+  },
+  "ledger_no_change_reason": "The correction narrows a repository-derived naturality route and leaves the source assertion and physical evidence untouched.",
+  "pinned_inputs": {
+    "k860": {
+      "path": "lab/process/k860-sc-act-06-homogeneous-intertwiner-gate.json",
+      "sha256": "b9ef0dd912193ec1e037f84316f68fb36dbfe17dc8f7b9db68d4b0816b0dcffc"
+    },
+    "k863": {
+      "path": "lab/process/k863-sc-act-06-basepoint-kernel-isotropy.json",
+      "sha256": "0cb827d6146b5a89b5eab57febeb8d46bdf924e290b231f81d411566f4bfb55f"
+    },
+    "k864": {
+      "path": "lab/process/k864-sc-act-06-radial-grant-quotient.json",
+      "sha256": "7f9f66e614592e2e1beaeb2df02d231a69d76ab2a64edef590a96d7030e18453"
+    },
+    "k865": {
+      "path": "lab/process/k865-sc-act-06-isotypic-repair-criterion.json",
+      "sha256": "4098ed72e728f1fb4a1424d83c5c9c4fc5d3c4129c0af10ec8fa0ec0b6c26a06"
+    },
+    "k867": {
+      "path": "lab/process/k867-sc-act-06-compact-equivariance-audit.json",
+      "sha256": "73aabaac2e78bc8eaf7225363036e221dc4b90c809e3d70a725fddfdbf36c20e"
+    },
+    "k868": {
+      "path": "lab/process/k868-sc-act-06-common-stabilizer-boundary.json",
+      "sha256": "29c4e359999fda415cebd14568832a33c032c91e1378c00146761af71c18b266"
+    }
+  },
+  "result_id": "K869-SC-ACT-06-ISOTROPY-GATE-CORRECTION",
+  "schema_version": "1.0",
+  "scope": "Correction ledger for the abstract homogeneous-intertwiner and compact-representation theorems versus their invalid auxiliary-SO(13) application to the pinned K788 response.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "surviving_results": {
+    "K789_90124_remains_full_field_lower_bound": true,
+    "K860_abstract_G_over_H_theorem": true,
+    "K863_radial_dimension": 16384,
+    "K863_radial_tangential_vector_space_split": true,
+    "K863_tangential_kernel_dimension": 90128,
+    "K864_conditional_quotient_dimension": 90128,
+    "K864_q_lambda_image_equals_radial_summand": true,
+    "K865_abstract_typewise_capacity_theorem": true
+  },
+  "target_claim": "SC-ACT-06"
+}

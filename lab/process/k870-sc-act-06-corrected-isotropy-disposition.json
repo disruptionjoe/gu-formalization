@@ -1,0 +1,103 @@
+{
+  "claim_ceiling": "Corrected local group and exact surviving dimensions only. No GU repair, global no-go or physical conclusion follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "compiled_result": {
+    "auxiliary_SO13_kernel_module_retracted": true,
+    "common_stabilizer": "SO(6) x SO(7)",
+    "common_stabilizer_character_known": false,
+    "conditional_q_lambda_quotient_dimension": 90128,
+    "current_flat_exact_admitted": false,
+    "dimension_split_survives": true,
+    "owned_old_cohomology_module_known": false,
+    "owned_repair_modules_known": false,
+    "radial_dimension": 16384,
+    "tangential_kernel_dimension": 90128
+  },
+  "controls": {
+    "controls_passed": 38,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k870_sc_act_06_corrected_isotropy_disposition_probe.py",
+    "producer": "tests/channel-swings/k870_sc_act_06_corrected_isotropy_disposition.py"
+  },
+  "corrected_certificate": {
+    "all_rows_conjunctive": true,
+    "current_GU_candidate": {
+      "authenticated common compact stabilizer SO(6)xSO(7)": true,
+      "authenticated source/action-owned old symmetry image": false,
+      "auxiliary SO(13) equivariance of the pinned response kernel": false,
+      "conditional q-lambda quotient dimension 90128": true,
+      "constructed corrected-group intertwiners S_0,tau_0": false,
+      "descent, composition and image-kernel equality": false,
+      "exact radial/tangential vector-space kernel split": true,
+      "globalized natural maps and analytic robustness": false,
+      "real SO(6)xSO(7) tangential-kernel multiplicities": false,
+      "source/action-owned repair-domain and repair-target multiplicities": false,
+      "typewise repair capacity on the corrected group": false
+    },
+    "current_GU_candidate_admitted": false,
+    "failed_SO13_row_cannot_be_counted_as_satisfied": true,
+    "failed_row_count": 8,
+    "row_count": 11,
+    "rows": [
+      "exact radial/tangential vector-space kernel split",
+      "conditional q-lambda quotient dimension 90128",
+      "auxiliary SO(13) equivariance of the pinned response kernel",
+      "authenticated common compact stabilizer SO(6)xSO(7)",
+      "real SO(6)xSO(7) tangential-kernel multiplicities",
+      "authenticated source/action-owned old symmetry image",
+      "source/action-owned repair-domain and repair-target multiplicities",
+      "typewise repair capacity on the corrected group",
+      "constructed corrected-group intertwiners S_0,tau_0",
+      "descent, composition and image-kernel equality",
+      "globalized natural maps and analytic robustness"
+    ],
+    "satisfied_row_count": 3
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "K866_disposition_current": false,
+    "SC_ACT_06_proved_or_refuted": false,
+    "correction_required_and_applied": true,
+    "current_flat_packet_repairability_refuted": false,
+    "current_flat_packet_repaired": false,
+    "next_exact_input": "Compute the real SO(6)xSO(7) character of the 90128-dimensional tangential kernel, authenticate the actual owned quotient, and then apply the retained compact typewise criterion to corrected-group repair modules."
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "source first-order residual Upsilon, not an I1B or I2B Hessian",
+    "carrier": "Omega1(Cl_14(C)) on K717's fixed flat native germ; complex dimension 229376",
+    "grading": "connection variation u -> first-order residual variation J_q(u)",
+    "pairing": "K717 native action form; auxiliary Frobenius q only identifies nonzero Euclidean covectors",
+    "real_structure": "K740 pinned real U(64,64) basis followed by exact rational rank calculation",
+    "target": "MAP-TYPE=actual symmetry group of the pinned basepoint response kernel"
+  },
+  "ledger_no_change_reason": "The correction removes an invalid naturality claim but preserves the local rank obstruction and supplies no physical complex.",
+  "pinned_inputs": {
+    "k864": {
+      "path": "lab/process/k864-sc-act-06-radial-grant-quotient.json",
+      "sha256": "7f9f66e614592e2e1beaeb2df02d231a69d76ab2a64edef590a96d7030e18453"
+    },
+    "k865": {
+      "path": "lab/process/k865-sc-act-06-isotypic-repair-criterion.json",
+      "sha256": "4098ed72e728f1fb4a1424d83c5c9c4fc5d3c4129c0af10ec8fa0ec0b6c26a06"
+    },
+    "k867": {
+      "path": "lab/process/k867-sc-act-06-compact-equivariance-audit.json",
+      "sha256": "73aabaac2e78bc8eaf7225363036e221dc4b90c809e3d70a725fddfdbf36c20e"
+    },
+    "k868": {
+      "path": "lab/process/k868-sc-act-06-common-stabilizer-boundary.json",
+      "sha256": "29c4e359999fda415cebd14568832a33c032c91e1378c00146761af71c18b266"
+    },
+    "k869": {
+      "path": "lab/process/k869-sc-act-06-isotropy-gate-correction.json",
+      "sha256": "4f03e6cdaa248f991986e79ef39f3337f25f6619359f02c6ed5669ebb1604ddd"
+    }
+  },
+  "result_id": "K870-SC-ACT-06-CORRECTED-ISOTROPY-DISPOSITION",
+  "schema_version": "1.0",
+  "scope": "Compiled correction after the pinned response fails auxiliary-SO(13) equivariance and the common SO(6)xSO(7) stabilizer replaces the retired multiplicity frontier.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}
