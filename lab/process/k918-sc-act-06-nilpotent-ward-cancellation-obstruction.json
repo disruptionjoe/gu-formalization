@@ -1,0 +1,69 @@
+{
+  "claim_ceiling": "Exact body-level Ward obstruction for the released torsion parent. It does not exclude nilpotent deformations, even composites or category-changed spinor models.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 44,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k918_sc_act_06_nilpotent_ward_cancellation_obstruction_probe.py",
+    "producer": "tests/channel-swings/k918_sc_act_06_nilpotent_ward_cancellation_obstruction.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "changed_gauge_superpoint_branch_fully_refuted": false,
+    "k915_changed_gauge_reopens_nonzero_body_torsion_on_literal_odd_route": false,
+    "new_body_level_action_parent_required_for_ordinary_torsion": true,
+    "new_effect_is_current_torsion_ward_composition": true,
+    "next_exact_input": "Reduce the graph gauge quotient to the body and freeze separate reopeners for a supermodule complex, a justified commuting-spinor proxy, an even condensate or a new gauge-basic old-old parent."
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "gauge_tangent_parity": "L is odd",
+    "mixed_block_parity": "B* is odd at an odd background",
+    "mixed_product": "B*L is even and lies in the nilpotent ideal",
+    "released_old_block": "S=kappa K+H_Q with H_Q G=0",
+    "target": "OBSTRUCTION-TYPE=body Ward cancellation",
+    "ward_equation": "S G+B*L=0"
+  },
+  "ledger_no_change_reason": "The obstruction closes only ordinary-body torsion cancellation by nilpotent odd data; it supplies no full complex or physical state.",
+  "pinned_inputs": {
+    "k752": {
+      "path": "lab/process/k752-sc-act-06-nonzero-odd-saddle-body-obstruction.json",
+      "sha256": "26e8ecb2599898c9173faf0e1e70514c80350240a06916ef777ed25fb7b512bc"
+    },
+    "k899": {
+      "path": "lab/process/k899-sc-act-06-torsion-hessian-gauge-restriction.json",
+      "sha256": "5f42d450ac6ea34a64186000f25a0359cd5b88a99c681c58618c86396ea4a171"
+    },
+    "k911": {
+      "path": "lab/process/k911-sc-act-06-augmented-gauge-ward-splitting.json",
+      "sha256": "e465129bb77fb8d3538930a8780e66c8f8005d1edd30509a5a2c6b03962530c8"
+    },
+    "k917": {
+      "path": "lab/process/k917-sc-act-06-superpoint-gauge-body-reduction.json",
+      "sha256": "171e4cbe757b683e6e61aa91073330ee67caeb858da7b771ba56db1f54e0abaa"
+    }
+  },
+  "proof": {
+    "body_equation": "Applying beta to SG+B*L=0 removes B*L and H_QG, leaving body(kappa)KG=0.",
+    "parity_product": "Both B* and L carry odd background degree, so B*L is even but belongs to the positive nilpotent filtration and has zero body.",
+    "rank": "K899 proves KG injective of ordinary rank 16,384, hence body(kappa)=0."
+  },
+  "result_id": "K918-SC-ACT-06-NILPOTENT-WARD-CANCELLATION-OBSTRUCTION",
+  "schema_version": "1.0",
+  "scope": "Body-level first augmented Ward equation for the released torsion Hessian over a literal odd superpoint.",
+  "source_and_ledger_effect": "SC-ACT-01_04_05_06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "KG_rank": 16384,
+    "body_of_BstarL": 0,
+    "body_ward_equation": "body(kappa) K G=0",
+    "even_condensate_background_change_remains_possible": true,
+    "independent_body_old_old_correction_remains_possible": true,
+    "k752_body_zero_mechanism_reused": true,
+    "literal_odd_background_salvages_ordinary_torsion": false,
+    "nilpotent_kappa_changes_ordinary_torsion_coefficient": false,
+    "nonzero_body_kappa_allowed": false
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "claim_ceiling": "Exact body-level gauge statement only. Zero body does not imply that the superpoint itself is zero.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 42,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k917_sc_act_06_superpoint_gauge_body_reduction_probe.py",
+    "producer": "tests/channel-swings/k917_sc_act_06_superpoint_gauge_body_reduction.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "k912_ordinary_stabilizer_test_satisfied": false,
+    "literal_odd_background_supplies_ordinary_injective_L": false,
+    "new_effect_is_augmented_gauge_composition": true,
+    "next_exact_input": "Compute the parity and body of B*L in the first augmented Ward equation and compare it with the ordinary torsion defect kappa KG.",
+    "supergeometric_route_refuted": false
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "base": "finite supercommutative algebra A with body map beta:A->k",
+    "body_gauge_map": "beta(G,L_psi)=(G,0)",
+    "fermionic_gauge_tangent": "L_psi(lambda)=rho(lambda)psi in V tensor A_odd",
+    "gauge_parameter": "lambda in U tensor A_even",
+    "odd_background": "psi in V tensor A_odd",
+    "target": "MAP-TYPE=body of augmented gauge tangent"
+  },
+  "ledger_no_change_reason": "Body reduction narrows one rank transfer but supplies no completed supermodule complex or physical realization.",
+  "pinned_inputs": {
+    "k751": {
+      "path": "lab/process/k751-sc-act-06-supercomplex-body-reduction.json",
+      "sha256": "7a15ad10ac25363fdc9819b5f6ce28736f1f2162cbf19930f0ea2ea6c1a748eb"
+    },
+    "k752": {
+      "path": "lab/process/k752-sc-act-06-nonzero-odd-saddle-body-obstruction.json",
+      "sha256": "26e8ecb2599898c9173faf0e1e70514c80350240a06916ef777ed25fb7b512bc"
+    },
+    "k911": {
+      "path": "lab/process/k911-sc-act-06-augmented-gauge-ward-splitting.json",
+      "sha256": "e465129bb77fb8d3538930a8780e66c8f8005d1edd30509a5a2c6b03962530c8"
+    },
+    "k912": {
+      "path": "lab/process/k912-sc-act-06-torsion-salvage-stabilizer-necessity.json",
+      "sha256": "b3b06765ba9377de3795d37526b7b24493421945efb40487cc040b765ff07ad3"
+    },
+    "k916": {
+      "path": "lab/process/k916-sc-act-06-ordinary-point-fermion-parity-boundary.json",
+      "sha256": "ab083b7cd6b15604cbab996785b0aed9709f03132634c893393fbbfb13583a6b"
+    }
+  },
+  "proof": {
+    "body": "The body morphism kills A_odd and the nilpotent ideal, hence beta(L_psi(lambda))=0 for every lambda.",
+    "parity": "rho(lambda) is even, so rho(lambda)psi remains A_odd-valued.",
+    "rank_fence": "K912's 16,384 is an ordinary-field rank of B*L; it cannot be assigned to an A_odd-valued map with zero body without a new module-theoretic packet."
+  },
+  "result_id": "K917-SC-ACT-06-SUPERPOINT-GAUGE-BODY-REDUCTION",
+  "schema_version": "1.0",
+  "scope": "Body reduction of the source gauge action on a literal Grassmann-odd fermion superpoint.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "body_augmented_gauge_map": "(G,0)",
+    "body_of_fermionic_gauge_tangent": 0,
+    "body_of_odd_background": 0,
+    "k912_rank_16384_transfers_to_body": false,
+    "ordinary_injectivity_of_L_body": false,
+    "ordinary_rank_of_L_body": 0,
+    "prior_body_obstruction_reused": true,
+    "supermodule_injectivity_requires_separate_definition": true,
+    "zero_body_excludes_nonzero_superpoint": false
+  }
+}

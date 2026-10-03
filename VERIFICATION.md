@@ -7,6 +7,48 @@ updated_at: "2026-10-03"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K916--K920 graded nonzero-fermion reconciliation (2026-10-03)
+
+K916 reconciles K915's generic nonzero-fermion successor with K751--K754,
+which had already proved the finite-free body-reduction obstruction, closed the
+minimal Grassmann-bilinear saddle on the earlier flat body packet, and rejected
+the CBRS-1R ultralocal condensate candidate. The result is a historical
+correction, not a rediscovery.
+
+K917 composes that earlier parity boundary with K911's augmented gauge map. A
+literal odd background and its fermionic gauge tangent are odd-valued, so
+`body(L)=0`; the ordinary body gauge map is `(G,0)` and the K912 rank-16,384
+condition does not transfer to `L_body`. K918 applies the same body map to the
+first Ward equation. Since the mixed block and `L` are odd,
+`body(B*L)=0`; for `S=kappa K+H_Q`, the body equation is
+`body(kappa)KG=0`. K899's rank-16,384 injectivity therefore forces
+`body(kappa)=0`. This closes ordinary torsion salvage by nilpotent odd data,
+not supergeometry or even composites generally.
+
+K919 composes K751 with K913: the body gauge graph is `(G,0)`, so all 90,128
+old quotient dimensions, forty real types and total real multiplicity 169
+persist. K920 freezes the corrected successor gate. The minimal bilinear odd
+saddle and CBRS-1R must not be retried; a commuting c-number spinor is a new
+field category unless separately action-owned. Live routes require a genuinely
+new body-changing even owner, nonzero-T/non-Levi-Civita germ, independent
+action/path/Shiab response, separately justified commuting-spinor action, or a
+new gauge-basic old-old parent with complete analytic data. The five producers
+pass 224 declared controls and the probes reject 102/102 hostile mutations.
+The completion gate remains five of eleven and SC-ACT-06 remains `ASSERTS`.
+
+```bash
+python3 tests/channel-swings/k916_sc_act_06_ordinary_point_fermion_parity_boundary.py --check
+python3 tests/channel-swings/k916_sc_act_06_ordinary_point_fermion_parity_boundary_probe.py
+python3 tests/channel-swings/k917_sc_act_06_superpoint_gauge_body_reduction.py --check
+python3 tests/channel-swings/k917_sc_act_06_superpoint_gauge_body_reduction_probe.py
+python3 tests/channel-swings/k918_sc_act_06_nilpotent_ward_cancellation_obstruction.py --check
+python3 tests/channel-swings/k918_sc_act_06_nilpotent_ward_cancellation_obstruction_probe.py
+python3 tests/channel-swings/k919_sc_act_06_body_quotient_persistence.py --check
+python3 tests/channel-swings/k919_sc_act_06_body_quotient_persistence_probe.py
+python3 tests/channel-swings/k920_sc_act_06_graded_nonzero_fermion_admission_boundary.py --check
+python3 tests/channel-swings/k920_sc_act_06_graded_nonzero_fermion_admission_boundary_probe.py
+```
+
 ## K911--K915 changed-gauge / nonzero-fermion boundary (2026-10-03)
 
 K911 applies block multiplication and the stationary Noether identity to an

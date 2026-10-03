@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 98b1ddd648ed
+revision_basis: a3a5c99ff873
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,28 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K916--K920 reconcile K915 with the earlier K751--K754 supercomplex/body
+    obstruction that its generic nonzero-fermion handoff omitted. K916 records
+    that an ordinary point has zero literal odd coordinates and that K751--K754
+    already closed the minimal Grassmann-bilinear saddle and the CBRS-1R
+    ultralocal condensate candidate; no rediscovery is claimed. K917 composes
+    the literal odd superpoint with K911's augmented gauge map: the fermionic
+    gauge component `L` has zero ordinary body and therefore ordinary body rank
+    zero, not 16,384. K918 composes K752's zero-body mixed mechanism with K899:
+    `body(B*L)=0`, so the first Ward equation reduces to
+    `body(kappa)KG=0` and forces `body(kappa)=0`; nilpotent odd data cannot
+    salvage a nonzero ordinary torsion coefficient. K919 composes K751/K913:
+    body reduction returns gauge map `(G,0)` and preserves K879's entire
+    90,128-dimensional, forty-type, multiplicity-169 old quotient. K920
+    corrects the successor gate: do not retry the minimal bilinear odd saddle,
+    a commuting c-number substitution presented as the same source fermion, or
+    CBRS-1R. A live successor must instead supply a genuinely new stationary
+    body-changing owner (including a full supermodule packet whose even sector
+    changes the body), a separately justified commuting-spinor action, a
+    nonzero-T/non-Levi-Civita germ, a new action-owned path/Shiab response, or a
+    new gauge-basic old-old parent. The completion gate remains five of eleven
+    and SC-ACT-06 remains `ASSERTS`.
+
     K911--K915 switch from the exhausted cross-target budget route to the
     changed-gauge/nonzero-fermion branch. K911 proves the exact augmented Ward
     pair for `G_tilde=(G,L)` and `T=[[S,B*],[B,D]]`:
@@ -12853,6 +12875,19 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K916--K920 correct K915's generic nonzero-fermion handoff by reconciling the
+  earlier K751--K754 body obstruction. For a literal Grassmann-odd superpoint,
+  `body(L)=0` and `body(B*L)=0`; hence the augmented Ward equation reduces to
+  `body(kappa)KG=0`, so nilpotent odd data cannot retain a nonzero ordinary
+  torsion coefficient. Body reduction also preserves all 90,128 old quotient
+  dimensions, forty real types and multiplicity 169. Do not retry the minimal
+  bilinear odd saddle, treat a commuting c-number spinor as the same source
+  fermion, or reuse CBRS-1R. Can the source/action supply a genuinely new
+  stationary body-changing even owner, nonzero-T/non-Levi-Civita germ,
+  independent path/Shiab response, separately justified commuting-spinor
+  action, or new gauge-basic old-old parent with the complete gauge,
+  Hessian, Noether, Green and preboundary packet? SC-ACT-06 remains `ASSERTS`.
+
   K911--K915 make the changed-gauge escape precise. A stationary augmented
   gauge tangent `(G,L)` obeys `SG+B*L=0` and `BG+DL=0`. If a nonzero torsion
   coefficient is to survive, `L` must be injective with rank at least 16,384,
@@ -14147,6 +14182,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K916--K920 reconcile K915 with K751--K754 and correct its generic
+  nonzero-fermion handoff. No rediscovery is claimed: the earlier body theorem
+  already closes the minimal Grassmann-bilinear odd saddle and CBRS-1R. For a
+  literal odd superpoint, `body(L)=0` and `body(B*L)=0`, so the torsion Ward
+  equation forces `body(kappa)=0`; graph-gauge body reduction still leaves the
+  90,128-dimensional, forty-type, multiplicity-169 old quotient injected. Do
+  not retry those closed classes or present a commuting c-number spinor as the
+  same source fermion. Next supply a genuinely new stationary body-changing
+  owner, nonzero-T/non-Levi-Civita germ, independent action/path/Shiab
+  response, separately justified commuting-spinor action, or new gauge-basic
+  old-old parent, with complete gauge/Hessian/Noether/Green/preboundary data.
+  The completion gate remains five of eleven and SC-ACT-06 remains `ASSERTS`.
+
   K911--K915 close the vague changed-gauge escape while preserving the exact
   nonzero-fermion reopener. Admit it only with a source/action-owned stationary
   nonzero-fermion germ whose augmented gauge tangent `(G,L)` and full symmetric

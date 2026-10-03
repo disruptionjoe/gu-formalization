@@ -7,6 +7,21 @@ updated_at: "2026-10-03"
 
 # Next Steps For Contributors
 
+> **2026-10-03 K916--K920 GRADED NONZERO-FERMION RECONCILIATION.** K916
+> corrects K915 against K751--K754: the finite-free body obstruction, minimal
+> Grassmann-bilinear saddle closure and CBRS-1R rejection already existed.
+> K917 proves `body(L)=0` for the literal odd superpoint gauge tangent. K918
+> proves `body(B*L)=0`, so `body(kappa)KG=0` and a nonzero ordinary torsion
+> coefficient cannot be rescued by nilpotent odd data. K919 preserves the full
+> 90,128-dimensional, forty-type, multiplicity-169 old quotient on the body.
+> K920 forbids retrying the minimal odd saddle, treating a commuting c-number
+> spinor as the same source fermion, or reusing CBRS-1R. Next construct a
+> genuinely new stationary body-changing owner, nonzero-T/non-Levi-Civita
+> germ, independent action/path/Shiab response, separately justified
+> commuting-spinor action, or new gauge-basic old-old parent, with complete
+> gauge/Hessian/Noether/Green/preboundary data. The completion gate remains
+> five of eleven and SC-ACT-06 remains `ASSERTS`.
+
 > **2026-10-03 K911--K915 CHANGED-GAUGE / NONZERO-FERMION BOUNDARY.** K911
 > derives the augmented Ward equations `SG+B*L=0` and `BG+DL=0`. K912 proves
 > that retaining nonzero torsion requires `L` injective, a trivial

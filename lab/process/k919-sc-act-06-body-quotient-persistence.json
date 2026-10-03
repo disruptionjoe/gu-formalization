@@ -1,0 +1,71 @@
+{
+  "claim_ceiling": "Exact body field-quotient persistence only. It does not classify nilpotent supermodule cohomology or the changed Hessian.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 42,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k919_sc_act_06_body_quotient_persistence_probe.py",
+    "producer": "tests/channel-swings/k919_sc_act_06_body_quotient_persistence.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "literal_odd_superpoint_erases_old_body_deficit": false,
+    "new_effect_is_current_90128_quotient_composition": true,
+    "next_exact_input": "Freeze the graded admission boundary: distinguish body-level repair from a full supermodule complex, a commuting proxy and an even condensate or new old-old action parent.",
+    "old_typewise_body_repair_still_required": true,
+    "supermodule_cohomology_classified": false
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "body_gauge_graph": "lambda maps to (G lambda,0)",
+    "old_complement": "H_old embedded as (h,0) with H_old intersect im(G)=0",
+    "super_gauge_graph": "lambda maps to (G lambda,L_psi lambda)",
+    "target": "QUOTIENT-TYPE=body field quotient after odd superpoint base change"
+  },
+  "ledger_no_change_reason": "The field-quotient body theorem supplies no changed-Hessian cohomology, global ellipticity, state or observable.",
+  "pinned_inputs": {
+    "k751": {
+      "path": "lab/process/k751-sc-act-06-supercomplex-body-reduction.json",
+      "sha256": "7a15ad10ac25363fdc9819b5f6ce28736f1f2162cbf19930f0ea2ea6c1a748eb"
+    },
+    "k752": {
+      "path": "lab/process/k752-sc-act-06-nonzero-odd-saddle-body-obstruction.json",
+      "sha256": "26e8ecb2599898c9173faf0e1e70514c80350240a06916ef777ed25fb7b512bc"
+    },
+    "k913": {
+      "path": "lab/process/k913-sc-act-06-augmented-gauge-quotient-persistence.json",
+      "sha256": "3145e8d6b6c475d94490add8640d9955b4df09a7721126bc5485f8f6e0a0d26c"
+    },
+    "k917": {
+      "path": "lab/process/k917-sc-act-06-superpoint-gauge-body-reduction.json",
+      "sha256": "171e4cbe757b683e6e61aa91073330ee67caeb858da7b771ba56db1f54e0abaa"
+    },
+    "k918": {
+      "path": "lab/process/k918-sc-act-06-nilpotent-ward-cancellation-obstruction.json",
+      "sha256": "fb9182d40de857b1462ac91ca8c1c559fd176b085a81b7d200bc7762ea8fcace"
+    }
+  },
+  "proof": {
+    "character": "Body reduction preserves the K913 authenticated forty-type lower character and total real multiplicity 169.",
+    "intersection": "If (h,0)=(G lambda,0) and h lies in the fixed complement H_old, then h=0 by H_old intersect im(G)=0.",
+    "reduction": "K917 reduces the gauge graph to im(G,0) on the ordinary body."
+  },
+  "result_id": "K919-SC-ACT-06-BODY-QUOTIENT-PERSISTENCE",
+  "schema_version": "1.0",
+  "scope": "Ordinary-body field quotient induced by a literal odd superpoint gauge graph.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "body_graph_removes_old_complement": false,
+    "body_injection": "h maps to class of (h,0)",
+    "body_old_quotient_dimension": 90128,
+    "body_old_real_type_count": 40,
+    "body_old_total_real_multiplicity": 169,
+    "changed_super_hessian_response_computed": false,
+    "kernel_of_body_injection": 0,
+    "nilpotent_gauge_components_change_body_quotient": false,
+    "prior_finite_free_body_theorem_reused": true
+  }
+}

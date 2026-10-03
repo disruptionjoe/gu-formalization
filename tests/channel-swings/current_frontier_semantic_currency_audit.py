@@ -686,6 +686,21 @@ def load_inputs() -> dict:
         "k915": json.loads(
             (ROOT / "lab/process/k915-sc-act-06-changed-gauge-admission-boundary.json").read_text()
         ),
+        "k916": json.loads(
+            (ROOT / "lab/process/k916-sc-act-06-ordinary-point-fermion-parity-boundary.json").read_text()
+        ),
+        "k917": json.loads(
+            (ROOT / "lab/process/k917-sc-act-06-superpoint-gauge-body-reduction.json").read_text()
+        ),
+        "k918": json.loads(
+            (ROOT / "lab/process/k918-sc-act-06-nilpotent-ward-cancellation-obstruction.json").read_text()
+        ),
+        "k919": json.loads(
+            (ROOT / "lab/process/k919-sc-act-06-body-quotient-persistence.json").read_text()
+        ),
+        "k920": json.loads(
+            (ROOT / "lab/process/k920-sc-act-06-graded-nonzero-fermion-admission-boundary.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -878,9 +893,14 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     check(registry["latest_gu_formalization_result"] ==
-          "K911_K915_SC_ACT_06_CHANGED_GAUGE_NONZERO_FERMION_BOUNDARY_CURRENT",
+          "K916_K920_SC_ACT_06_GRADED_NONZERO_FERMION_RECONCILIATION_CURRENT",
           "latest GU result pointer moved")
     if isinstance(live, str):
+        check("K916--K920 reconcile K915" in live and
+              "body(B*L)=0" in live and
+              "90,128-dimensional" in live and
+              "No rediscovery is claimed" in live,
+              "live K916--K920 graded reconciliation missing")
         check("K911--K915 close the vague changed-gauge escape" in live and
               "`L` injective, trivial infinitesimal stabilizer" in live and
               "graph gauge alone leaves the 90,128-dimensional" in live,
@@ -1427,6 +1447,19 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "K916--K920 reconcile K915" in data["agenda"].get("latest_result_2026_10_03_k916_k920", "")
+        and "body(B*L)=0" in data["agenda"].get("latest_result_2026_10_03_k916_k920", "")
+        and "forbids retrying" in data["agenda"].get("latest_result_2026_10_03_k916_k920", "").lower()
+        and "SC-ACT-06 remains ASSERTS" in data["agenda"].get("latest_result_2026_10_03_k916_k920", ""),
+        "agenda K916--K920 result is not current",
+    )
+    check(
+        "K916--K920 correct K915's generic nonzero-fermion handoff" in question
+        and "body(B*L)=0" in question
+        and "all 90,128 old quotient" in question,
+        "current question lost K916--K920 graded reconciliation",
+    )
     check(
         "K911--K915 switch from exhausted cross-target distance estimates" in data["agenda"].get("latest_result_2026_10_03_k911_k915", "")
         and "trivial infinitesimal stabilizer" in data["agenda"].get("latest_result_2026_10_03_k911_k915", "")
@@ -4595,6 +4628,43 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           k915["decision"]["distance_only_cross_budget_route_remains_exhausted"] and
           not k915["decision"]["SC_ACT_06_proved_or_refuted"],
           "K915 changed-gauge admission boundary moved")
+
+    k916 = data["k916"]
+    check(k916["theorem"]["parity_body_result_preexisted_in_K751_K752"] and
+          not k916["decision"]["new_scientific_theorem_claimed"] and
+          k916["decision"]["k915_successor_wording_needs_correction"] and
+          not k916["decision"]["SC_ACT_06_proved_or_refuted"],
+          "K916 historical-collision reconciliation moved")
+
+    k917 = data["k917"]
+    check(k917["theorem"]["body_of_fermionic_gauge_tangent"] == 0 and
+          k917["theorem"]["ordinary_rank_of_L_body"] == 0 and
+          not k917["theorem"]["k912_rank_16384_transfers_to_body"] and
+          k917["decision"]["new_effect_is_augmented_gauge_composition"],
+          "K917 superpoint gauge body reduction moved")
+
+    k918 = data["k918"]
+    check(k918["theorem"]["body_of_BstarL"] == 0 and
+          k918["theorem"]["body_ward_equation"] == "body(kappa) K G=0" and
+          not k918["theorem"]["nonzero_body_kappa_allowed"] and
+          k918["decision"]["new_effect_is_current_torsion_ward_composition"],
+          "K918 nilpotent Ward cancellation obstruction moved")
+
+    k919 = data["k919"]
+    check(k919["theorem"]["body_old_quotient_dimension"] == 90128 and
+          k919["theorem"]["body_old_real_type_count"] == 40 and
+          not k919["theorem"]["body_graph_removes_old_complement"] and
+          k919["decision"]["new_effect_is_current_90128_quotient_composition"],
+          "K919 body quotient persistence moved")
+
+    k920 = data["k920"]
+    check(k920["admission"]["prior_successor_gate_reconciled"] and
+          not k920["admission"]["nonzero_body_kappa_salvaged_by_literal_odd_data"] and
+          k920["decision"]["minimal_grassmann_bilinear_must_not_retry"] and
+          k920["decision"]["cbrs1r_minimal_condensate_must_not_retry"] and
+          k920["decision"]["k915_generic_nonzero_fermion_wording_corrected"] and
+          not k920["decision"]["SC_ACT_06_proved_or_refuted"],
+          "K920 graded admission boundary moved")
 
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]

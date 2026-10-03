@@ -1,0 +1,79 @@
+{
+  "claim_ceiling": "Historical reconciliation and exact Layer-0 restatement only. K751--K754 own the prior body obstruction; this packet does not claim rediscovery or deny superpoints, condensates or justified commuting-spinor formulations.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 44,
+    "hostile_mutations_rejected": 22,
+    "probe": "tests/channel-swings/k916_sc_act_06_ordinary_point_fermion_parity_boundary_probe.py",
+    "producer": "tests/channel-swings/k916_sc_act_06_ordinary_point_fermion_parity_boundary.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "commuting_spinor_proxy_constructed": false,
+    "k915_reopener_requires_category_refinement": true,
+    "k915_successor_wording_needs_correction": true,
+    "literal_odd_superpoint_route_closed": false,
+    "new_scientific_theorem_claimed": false,
+    "next_exact_input": "Reduce the literal odd superpoint gauge tangent to its ordinary body, then test whether the K912 rank and Ward cancellation survive."
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "commuting_proxy": "ordinary spinor-valued coordinate in V tensor k",
+    "literal_fermion": "odd section psi in V tensor A_odd",
+    "ordinary_base": "purely even field k with k_odd=0",
+    "super_base": "supercommutative algebra A=A_even direct-sum A_odd",
+    "target": "TYPE-BOUNDARY=ordinary point versus odd superpoint"
+  },
+  "ledger_no_change_reason": "The parity distinction types a candidate stationary germ but supplies no physical state, observable or completed deformation complex.",
+  "pinned_inputs": {
+    "graded_packet": {
+      "path": "explorations/full20-native-polarization-closure-wave-2026-07-30.md",
+      "sha256": "d6aa5fa8fd0ea19db6c8ddeb1b79fcaa9d88319f968e41205bb65417843b7e6e"
+    },
+    "k751": {
+      "path": "lab/process/k751-sc-act-06-supercomplex-body-reduction.json",
+      "sha256": "7a15ad10ac25363fdc9819b5f6ce28736f1f2162cbf19930f0ea2ea6c1a748eb"
+    },
+    "k752": {
+      "path": "lab/process/k752-sc-act-06-nonzero-odd-saddle-body-obstruction.json",
+      "sha256": "26e8ecb2599898c9173faf0e1e70514c80350240a06916ef777ed25fb7b512bc"
+    },
+    "k754": {
+      "path": "lab/process/k754-sc-act-06-nonzero-fermion-successor-gate.json",
+      "sha256": "2ec64a9f4baad36aa501f4ada1e6233d6de69b403b68d8bed7628e9a309656cf"
+    },
+    "k914": {
+      "path": "lab/process/k914-sc-act-06-nonzero-fermion-germ-custody.json",
+      "sha256": "ddf381c99d398a784ea1837bf9681d15209df3dfc4a823cdcc93b1e9ddb73d92"
+    },
+    "k915": {
+      "path": "lab/process/k915-sc-act-06-changed-gauge-admission-boundary.json",
+      "sha256": "188d0f7abeb53a8c78318e603facb649b8414b1432a5899099db1d882232b33d"
+    },
+    "source_fermion": {
+      "path": "lab/sources/gu-2021-draft-s9-fermionic-operator-extraction-2026-08-04.md",
+      "sha256": "c250ce367774ff593255cd211e18ea793dd3eddcd843e0520437b6d645a2c31b"
+    }
+  },
+  "proof": {
+    "point_functor": "An ordinary k-point evaluates every odd coordinate in k_odd=0, so the pullback of each literal Grassmann-odd field vanishes.",
+    "proxy_fence": "Replacing psi by a commuting c-number spinor changes the field category and requires a separately justified action, gauge law and variational domain.",
+    "superpoint": "A nonzero odd value exists only after base change to A with A_odd nonzero; it is not an ordinary real or complex vector."
+  },
+  "result_id": "K916-SC-ACT-06-ORDINARY-POINT-FERMION-PARITY-BOUNDARY",
+  "schema_version": "1.0",
+  "scope": "Historical-collision reconciliation for K915's nonzero-fermion stationary-germ reopener against K751--K754's earlier Layer-0 parity and body obstruction.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "category_change_requires_new_action_typing": true,
+    "nonzero_commuting_spinor_is_literal_odd_field": false,
+    "nonzero_literal_odd_field_requires_super_base": true,
+    "ordinary_point_odd_coordinate": "psi=0 because k_odd=0",
+    "ordinary_zero_fermion_germ_is_not_a_truncation_error": true,
+    "parity_body_result_preexisted_in_K751_K752": true,
+    "source_fermionic_label_alone_selects_category": false
+  }
+}

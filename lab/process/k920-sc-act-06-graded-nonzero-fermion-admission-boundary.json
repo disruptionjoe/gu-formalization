@@ -1,0 +1,81 @@
+{
+  "admission": {
+    "commuting_proxy_requires_category_and_action_receipt": true,
+    "corrected_completion_gate_satisfied_rows": 5,
+    "corrected_completion_gate_total_rows": 11,
+    "even_composite_requires_new_stationary_body_and_hessian": true,
+    "full_supermodule_complex_requires_module_rank_noether_and_domain_data": true,
+    "literal_odd_BstarL_body": 0,
+    "literal_odd_L_body_rank": 0,
+    "nonzero_body_kappa_salvaged_by_literal_odd_data": false,
+    "old_body_quotient_dimension_persists": 90128,
+    "old_body_real_type_count_persists": 40,
+    "old_body_total_real_multiplicity_persists": 169,
+    "ordinary_point_literal_fermions_zero": true,
+    "prior_successor_gate_reconciled": true
+  },
+  "claim_ceiling": "Exact categorical and body-level admission boundary only. It neither proves nor refutes rich moduli, Euclidean ellipticity or a supergeometric completion.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 52,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k920_sc_act_06_graded_nonzero_fermion_admission_boundary_probe.py",
+    "producer": "tests/channel-swings/k920_sc_act_06_graded_nonzero_fermion_admission_boundary.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "cbrs1r_minimal_condensate_must_not_retry": true,
+    "commuting_proxy_constructed": false,
+    "distance_only_cross_budget_route_remains_exhausted": true,
+    "even_composite_constructed": false,
+    "k915_generic_nonzero_fermion_wording_corrected": true,
+    "k915_ordinary_rank_reopener_applies_unchanged_to_literal_odd_fields": false,
+    "literal_odd_route_refuted_as_supergeometry": false,
+    "literal_odd_route_repairs_ordinary_body": false,
+    "minimal_grassmann_bilinear_must_not_retry": true,
+    "new_old_old_parent_constructed": false,
+    "next_exact_input": "Construct one typed source/action-owned route: either a full supermodule stationary complex with module-theoretic rank, Noether, Green and preboundary data plus a body-changing even sector; a justified commuting-spinor action with the same complete packet; an even condensate-derived stationary bosonic body; or a genuinely new gauge-basic old-old parent."
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "commuting_proxy_route": "ordinary c-number spinor with separately justified action category",
+    "even_composite_route": "fermion bilinear or condensate changing the bosonic body and old-old Hessian",
+    "literal_odd_route": "superpoint over A with zero ordinary fermion body",
+    "old_parent_route": "genuinely new gauge-basic old-old action parent",
+    "target": "DISPOSITION-TYPE=graded nonzero-fermion admission boundary"
+  },
+  "ledger_no_change_reason": "The graded boundary removes an invalid ordinary-rank transfer but constructs none of the surviving action-owned routes.",
+  "pinned_inputs": {
+    "k754": {
+      "path": "lab/process/k754-sc-act-06-nonzero-fermion-successor-gate.json",
+      "sha256": "2ec64a9f4baad36aa501f4ada1e6233d6de69b403b68d8bed7628e9a309656cf"
+    },
+    "k915": {
+      "path": "lab/process/k915-sc-act-06-changed-gauge-admission-boundary.json",
+      "sha256": "188d0f7abeb53a8c78318e603facb649b8414b1432a5899099db1d882232b33d"
+    },
+    "k916": {
+      "path": "lab/process/k916-sc-act-06-ordinary-point-fermion-parity-boundary.json",
+      "sha256": "ab083b7cd6b15604cbab996785b0aed9709f03132634c893393fbbfb13583a6b"
+    },
+    "k917": {
+      "path": "lab/process/k917-sc-act-06-superpoint-gauge-body-reduction.json",
+      "sha256": "171e4cbe757b683e6e61aa91073330ee67caeb858da7b771ba56db1f54e0abaa"
+    },
+    "k918": {
+      "path": "lab/process/k918-sc-act-06-nilpotent-ward-cancellation-obstruction.json",
+      "sha256": "fb9182d40de857b1462ac91ca8c1c559fd176b085a81b7d200bc7762ea8fcace"
+    },
+    "k919": {
+      "path": "lab/process/k919-sc-act-06-body-quotient-persistence.json",
+      "sha256": "715ade7129a0c26b2a48741aea48252622e89341e3cc1d7da6ca1a70285fb10f"
+    }
+  },
+  "result_id": "K920-SC-ACT-06-GRADED-NONZERO-FERMION-ADMISSION-BOUNDARY",
+  "schema_version": "1.0",
+  "scope": "Corrected admission boundary for K915's nonzero-fermion reopener after separating literal odd superpoints, commuting proxies and even composites.",
+  "source_and_ledger_effect": "SC-ACT-01_03_04_05_06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}
