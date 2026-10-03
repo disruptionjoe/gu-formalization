@@ -1,0 +1,337 @@
+{
+  "claim_ceiling": "Exact finite-dimensional equivariant classification only; character equality is not an action, Ward identity, Green operator or preboundary complex.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 42,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k908_sc_act_06_minimal_target_isotypic_isomorphism_probe.py",
+    "producer": "tests/channel-swings/k908_sc_act_06_minimal_target_isotypic_isomorphism.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "action_ownership_and_BG_zero_still_required": true,
+    "mere_character_match_constructs_cross_map": false,
+    "minimal_target_can_be_checked_typewise": true,
+    "next_exact_input": "Determine whether a symmetric block with isomorphic cross map needs any condition on its new-field self-block D."
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "cross_map": "B_bar:H_old->Y*",
+    "domain": "H_old",
+    "minimal_target_dual": "Y* congruent to H_old as a real SO(6)xSO(7) module",
+    "target": "THEOREM-TYPE=minimal-target isotypic isomorphism"
+  },
+  "ledger_no_change_reason": "The isotypic theorem classifies a hypothetical exact-minimum target but constructs no action-owned intertwiner.",
+  "minimal_target": {
+    "all_type_multiplicities_saturated": true,
+    "occupied_real_type_count": 40,
+    "row_count": 40,
+    "rows": [
+      {
+        "cross_block_condition": "invertible on multiplicity space",
+        "minimal_target_multiplicity_b_rho": 2,
+        "old_multiplicity_h_rho": 2,
+        "real_irreducible_dimension": 3780,
+        "type_id": "rho-01"
+      },
+      {
+        "cross_block_condition": "invertible on multiplicity space",
+        "minimal_target_multiplicity_b_rho": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 2835,
+        "type_id": "rho-02"
+      },
+      {
+        "cross_block_condition": "invertible on multiplicity space",
+        "minimal_target_multiplicity_b_rho": 2,
+        "old_multiplicity_h_rho": 2,
+        "real_irreducible_dimension": 3150,
+        "type_id": "rho-03"
+      },
+      {
+        "cross_block_condition": "invertible on multiplicity space",
+        "minimal_target_multiplicity_b_rho": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 2240,
+        "type_id": "rho-04"
+      },
+      {
+        "cross_block_condition": "invertible on multiplicity space",
+        "minimal_target_multiplicity_b_rho": 2,
+        "old_multiplicity_h_rho": 2,
+        "real_irreducible_dimension": 2100,
+        "type_id": "rho-05"
+      },
+      {
+        "cross_block_condition": "invertible on multiplicity space",
+        "minimal_target_multiplicity_b_rho": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 1575,
+        "type_id": "rho-06"
+      },
+      {
+        "cross_block_condition": "invertible on multiplicity space",
+        "minimal_target_multiplicity_b_rho": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 1134,
+        "type_id": "rho-07"
+      },
+      {
+        "cross_block_condition": "invertible on multiplicity space",
+        "minimal_target_multiplicity_b_rho": 2,
+        "old_multiplicity_h_rho": 2,
+        "real_irreducible_dimension": 1890,
+        "type_id": "rho-08"
+      },
+      {
+        "cross_block_condition": "invertible on multiplicity space",
+        "minimal_target_multiplicity_b_rho": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 1344,
+        "type_id": "rho-09"
+      },
+      {
+        "cross_block_condition": "invertible on multiplicity space",
+        "minimal_target_multiplicity_b_rho": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 700,
+        "type_id": "rho-10"
+      },
+      {
+        "cross_block_condition": "invertible on multiplicity space",
+        "minimal_target_multiplicity_b_rho": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 630,
+        "type_id": "rho-11"
+      },
+      {
+        "cross_block_condition": "invertible on multiplicity space",
+        "minimal_target_multiplicity_b_rho": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 420,
+        "type_id": "rho-12"
+      },
+      {
+        "cross_block_condition": "invertible on multiplicity space",
+        "minimal_target_multiplicity_b_rho": 2,
+        "old_multiplicity_h_rho": 2,
+        "real_irreducible_dimension": 540,
+        "type_id": "rho-13"
+      },
+      {
+        "cross_block_condition": "invertible on multiplicity space",
+        "minimal_target_multiplicity_b_rho": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 700,
+        "type_id": "rho-14"
+      },
+      {
+        "cross_block_condition": "invertible on multiplicity space",
+        "minimal_target_multiplicity_b_rho": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 405,
+        "type_id": "rho-15"
+      },
+      {
+        "cross_block_condition": "invertible on multiplicity space",
+        "minimal_target_multiplicity_b_rho": 8,
+        "old_multiplicity_h_rho": 8,
+        "real_irreducible_dimension": 525,
+        "type_id": "rho-16"
+      },
+      {
+        "cross_block_condition": "invertible on multiplicity space",
+        "minimal_target_multiplicity_b_rho": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 189,
+        "type_id": "rho-17"
+      },
+      {
+        "cross_block_condition": "invertible on multiplicity space",
+        "minimal_target_multiplicity_b_rho": 2,
+        "old_multiplicity_h_rho": 2,
+        "real_irreducible_dimension": 630,
+        "type_id": "rho-18"
+      },
+      {
+        "cross_block_condition": "invertible on multiplicity space",
+        "minimal_target_multiplicity_b_rho": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 448,
+        "type_id": "rho-19"
+      },
+      {
+        "cross_block_condition": "invertible on multiplicity space",
+        "minimal_target_multiplicity_b_rho": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 420,
+        "type_id": "rho-20"
+      },
+      {
+        "cross_block_condition": "invertible on multiplicity space",
+        "minimal_target_multiplicity_b_rho": 8,
+        "old_multiplicity_h_rho": 8,
+        "real_irreducible_dimension": 315,
+        "type_id": "rho-21"
+      },
+      {
+        "cross_block_condition": "invertible on multiplicity space",
+        "minimal_target_multiplicity_b_rho": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 162,
+        "type_id": "rho-22"
+      },
+      {
+        "cross_block_condition": "invertible on multiplicity space",
+        "minimal_target_multiplicity_b_rho": 8,
+        "old_multiplicity_h_rho": 8,
+        "real_irreducible_dimension": 210,
+        "type_id": "rho-23"
+      },
+      {
+        "cross_block_condition": "invertible on multiplicity space",
+        "minimal_target_multiplicity_b_rho": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 105,
+        "type_id": "rho-24"
+      },
+      {
+        "cross_block_condition": "invertible on multiplicity space",
+        "minimal_target_multiplicity_b_rho": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 140,
+        "type_id": "rho-25"
+      },
+      {
+        "cross_block_condition": "invertible on multiplicity space",
+        "minimal_target_multiplicity_b_rho": 8,
+        "old_multiplicity_h_rho": 8,
+        "real_irreducible_dimension": 126,
+        "type_id": "rho-26"
+      },
+      {
+        "cross_block_condition": "invertible on multiplicity space",
+        "minimal_target_multiplicity_b_rho": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 140,
+        "type_id": "rho-27"
+      },
+      {
+        "cross_block_condition": "invertible on multiplicity space",
+        "minimal_target_multiplicity_b_rho": 8,
+        "old_multiplicity_h_rho": 8,
+        "real_irreducible_dimension": 105,
+        "type_id": "rho-28"
+      },
+      {
+        "cross_block_condition": "invertible on multiplicity space",
+        "minimal_target_multiplicity_b_rho": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 27,
+        "type_id": "rho-29"
+      },
+      {
+        "cross_block_condition": "invertible on multiplicity space",
+        "minimal_target_multiplicity_b_rho": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 35,
+        "type_id": "rho-30"
+      },
+      {
+        "cross_block_condition": "invertible on multiplicity space",
+        "minimal_target_multiplicity_b_rho": 2,
+        "old_multiplicity_h_rho": 2,
+        "real_irreducible_dimension": 90,
+        "type_id": "rho-31"
+      },
+      {
+        "cross_block_condition": "invertible on multiplicity space",
+        "minimal_target_multiplicity_b_rho": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 64,
+        "type_id": "rho-32"
+      },
+      {
+        "cross_block_condition": "invertible on multiplicity space",
+        "minimal_target_multiplicity_b_rho": 8,
+        "old_multiplicity_h_rho": 8,
+        "real_irreducible_dimension": 42,
+        "type_id": "rho-33"
+      },
+      {
+        "cross_block_condition": "invertible on multiplicity space",
+        "minimal_target_multiplicity_b_rho": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 21,
+        "type_id": "rho-34"
+      },
+      {
+        "cross_block_condition": "invertible on multiplicity space",
+        "minimal_target_multiplicity_b_rho": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 20,
+        "type_id": "rho-35"
+      },
+      {
+        "cross_block_condition": "invertible on multiplicity space",
+        "minimal_target_multiplicity_b_rho": 2,
+        "old_multiplicity_h_rho": 2,
+        "real_irreducible_dimension": 20,
+        "type_id": "rho-36"
+      },
+      {
+        "cross_block_condition": "invertible on multiplicity space",
+        "minimal_target_multiplicity_b_rho": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 15,
+        "type_id": "rho-37"
+      },
+      {
+        "cross_block_condition": "invertible on multiplicity space",
+        "minimal_target_multiplicity_b_rho": 5,
+        "old_multiplicity_h_rho": 5,
+        "real_irreducible_dimension": 7,
+        "type_id": "rho-38"
+      },
+      {
+        "cross_block_condition": "invertible on multiplicity space",
+        "minimal_target_multiplicity_b_rho": 5,
+        "old_multiplicity_h_rho": 5,
+        "real_irreducible_dimension": 6,
+        "type_id": "rho-39"
+      },
+      {
+        "cross_block_condition": "invertible on multiplicity space",
+        "minimal_target_multiplicity_b_rho": 3,
+        "old_multiplicity_h_rho": 3,
+        "real_irreducible_dimension": 1,
+        "type_id": "rho-40"
+      }
+    ],
+    "total_real_dimension": 90128,
+    "total_real_multiplicity": 169
+  },
+  "pinned_inputs": {
+    "k905": {
+      "path": "lab/process/k905-sc-act-06-cross-target-typewise-budget.json",
+      "sha256": "6cfb7216804c57f925e12635640453f9fc737ef032988d07522ad74347fa7161"
+    },
+    "k907": {
+      "path": "lab/process/k907-sc-act-06-cross-adjoint-rank-equivalence.json",
+      "sha256": "54dc26e071beeee1f3d1771f5bcbedf75536432b23ae653797281925be1e1a96"
+    }
+  },
+  "result_id": "K908-SC-ACT-06-MINIMAL-TARGET-ISOTYPIC-ISOMORPHISM",
+  "schema_version": "1.0",
+  "scope": "Exact-minimum SO(6)xSO(7)-equivariant target classification for an injective cross repair on K905's old quotient.",
+  "source_and_ledger_effect": "SC-ACT-01_04_06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "adjoint_isomorphism": true,
+    "dimension_equality_plus_injectivity_implies_isomorphism": true,
+    "equivariant_isomorphism_requires_every_type_block_invertible": true,
+    "minimal_character_matches_old_quotient": true,
+    "no_unused_target_complement": true
+  }
+}

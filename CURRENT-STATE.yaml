@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 7eecbbbcba7c
+revision_basis: 8f67683c6d91
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,26 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K907--K910 make the remaining symmetric cross-completion escape exact.
+    K907 proves that an injective cross map
+    `B_bar:H_old->Y*` is equivalent to surjectivity of its adjoint onto
+    `H_old*`, with unused target dimension `dim(Y)-90,128`. K908 proves that
+    at the minimum 90,128-dimensional, forty-type, multiplicity-169 target,
+    every type multiplicity is saturated and `B_bar` must be an equivariant
+    isomorphism. K909 proves the full block criterion for
+    `T=[[0,B_bar*],[B_bar,D]]`: after splitting
+    `Y=im(tilde B_bar) direct_sum ker(B_bar*)`, its kernel is exactly the
+    kernel of the compressed self-block `D_KK`. Hence the minimum-target block
+    is nondegenerate for arbitrary `D`, whereas every surplus target requires
+    nondegenerate action-owned `D_KK`. K910 freezes this admission boundary.
+    No named action-owned `B_bar` or `D_KK` exists in current custody, so no
+    cross completion is constructed; further distance-only budget waves on
+    this route are exhausted. The next input must be the owned cross map with
+    domain/Green/preboundary data, or the work must switch to a new old-old
+    block, changed gauge/domain, or source-owned nonzero-fermion germ. The
+    corrected completion gate stays five of eleven and SC-ACT-06 remains
+    `ASSERTS`.
+
     K903--K906 replace the vague coupled-field cancellation escape by an exact
     blockwise Ward boundary. For a symmetric full-field Hessian
     `T=[[S,B^T],[B,D]]` and K873's authenticated principal internal-gauge map
@@ -12814,6 +12834,19 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K907--K910 decide algebraic sufficiency for every symmetric cross target on
+  K717. If an action-owned gauge-basic `B_bar:H_old->Y*` is injective, its
+  adjoint is surjective. At the exact 90,128-dimensional target the map is an
+  equivariant isomorphism across all forty types and the full symmetric block
+  is nondegenerate for arbitrary `D`. For a larger target, the only remaining
+  algebraic obstruction is the compression `D_KK` on
+  `K=ker(B_bar*)`, which must be nondegenerate. Can the source/action now
+  supply the named `B_bar`, and where needed `D_KK`, with common domains,
+  Green operators and preboundary data? If not, do not repeat target-budget
+  estimates: switch to a new gauge-basic old-old block, changed gauge/domain,
+  or source-owned nonzero-fermion stationary germ. SC-ACT-06 remains
+  `ASSERTS`.
+
   K903--K906 prove that coupled-field blocks do not share one cancellable Ward
   equation on K717. With principal gauge vector `(G,0)`, a symmetric Hessian
   `[[S,B^T],[B,D]]` is gauge-basic exactly when `SG=0` and `BG=0` separately.
@@ -14082,6 +14115,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K907--K910 close the abstract symmetric cross-completion algebra. Injective
+  `B_bar:H_old->Y*` is equivalent to surjective `B_bar*`; at the exact
+  90,128-dimensional, forty-type, multiplicity-169 target it is an
+  equivariant isomorphism and `T=[[0,B_bar*],[B_bar,D]]` is nondegenerate for
+  every `D`. For a surplus target, write
+  `K=ker(B_bar*)`; full-block nondegeneracy is equivalent to nondegeneracy of
+  the compressed self-block `D_KK=P_K D|K`. Current custody supplies neither
+  a named action-owned cross map nor a surplus-complement Hessian. Admit this
+  route only when `BG=0`, the complete typewise intertwiner, common domains,
+  Green operators and preboundary data are owned, and—when `Y` is larger than
+  minimal—`D_KK` is nondegenerate. Otherwise switch route; do not spend a
+  third wave extending only the target budget. The corrected certificate
+  remains five of eleven and SC-ACT-06 remains `ASSERTS`.
+
   K903--K906 close vague coupled-field cancellation at K717. Because the
   authenticated principal gauge vector is `(G,0)`, the full-field Ward
   identity splits as `SG=0` and `BG=0`. Off-diagonal blocks cannot cancel the

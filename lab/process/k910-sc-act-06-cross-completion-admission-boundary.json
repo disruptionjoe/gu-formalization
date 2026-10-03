@@ -1,0 +1,82 @@
+{
+  "admission": {
+    "common_requirements": [
+      "named action ownership for B and D",
+      "B G=0 on the authenticated principal gauge image",
+      "B_bar injective on all forty old types",
+      "compatible domains, Green operators and preboundary data"
+    ],
+    "corrected_completion_gate_satisfied_rows": 5,
+    "corrected_completion_gate_total_rows": 11,
+    "minimal_target": {
+      "character": "exactly H_old",
+      "dimension": 90128,
+      "extra_algebraic_requirement": "none beyond injective B_bar; it is then an isomorphism",
+      "full_symmetric_block_nondegenerate_for_arbitrary_D": true,
+      "multiplicity": 169
+    },
+    "released_inventory_admitted": false,
+    "released_zero_fermion_mixed_capacity": 0,
+    "surplus_target": {
+      "cross_rank_alone_sufficient": false,
+      "dimension": ">90128",
+      "extra_algebraic_requirement": "D_KK=P_K D|K nondegenerate",
+      "unused_complement": "K=ker(B_bar*)"
+    }
+  },
+  "claim_ceiling": "Exact local finite-dimensional admission theorem for the released germ only. It does not provide an action, elliptic complex, globalization, physical quotient or SC-ACT-06.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 45,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k910_sc_act_06_cross_completion_admission_boundary_probe.py",
+    "producer": "tests/channel-swings/k910_sc_act_06_cross_completion_admission_boundary.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "cross_completion_constructed": false,
+    "current_action_owned_B_available": false,
+    "current_action_owned_D_KK_available": false,
+    "distance_only_cross_budget_waves_exhausted": true,
+    "minimal_hypothetical_sufficiency_now_exact": true,
+    "next_exact_input": "Provide a named source/action-owned gauge-basic B_bar meeting the full forty-type budget and complete domain/Green/preboundary data; if Y is larger than minimal, also provide nondegenerate D_KK. Otherwise switch route to a new old-old block, changed gauge/domain, or source-owned nonzero-fermion germ.",
+    "surplus_hypothetical_sufficiency_now_exact": true
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "coupled_block": "T=[[0,B_bar*],[B_bar,D]]",
+    "cross_map": "B_bar:H_old->Y* with B G=0",
+    "old_quotient": "H_old: dimension 90128, forty real types, multiplicity 169",
+    "target": "DISPOSITION-TYPE=cross-completion admission boundary"
+  },
+  "ledger_no_change_reason": "The boundary makes hypothetical sufficiency exact but the released inventory contains no admitted cross map or complement Hessian.",
+  "pinned_inputs": {
+    "k875": {
+      "path": "lab/process/k875-sc-act-06-zero-fermion-mixed-block-vanishing.json",
+      "sha256": "385e3c2a640eff46b2d11eb39e29c6fdaec926d967d57de2eb0cbc960ca7cb01"
+    },
+    "k906": {
+      "path": "lab/process/k906-sc-act-06-coupled-repair-boundary.json",
+      "sha256": "1c82c20c25a267c353b7ef999473e63e64017092b9a92579d3624ae03f601d1d"
+    },
+    "k907": {
+      "path": "lab/process/k907-sc-act-06-cross-adjoint-rank-equivalence.json",
+      "sha256": "54dc26e071beeee1f3d1771f5bcbedf75536432b23ae653797281925be1e1a96"
+    },
+    "k908": {
+      "path": "lab/process/k908-sc-act-06-minimal-target-isotypic-isomorphism.json",
+      "sha256": "25ee3311ef98ca5d3b9b307488f0272aa95cc4ff5c158f1ffa97cdb4d54704e8"
+    },
+    "k909": {
+      "path": "lab/process/k909-sc-act-06-surplus-complement-compression.json",
+      "sha256": "445e5cf52ca6726793ec1b09eda7a60b90781b3aa14e80fc490e8bc00264f28d"
+    }
+  },
+  "result_id": "K910-SC-ACT-06-CROSS-COMPLETION-ADMISSION-BOUNDARY",
+  "schema_version": "1.0",
+  "scope": "Admission boundary for a future action-owned symmetric cross completion of K906's released old quotient obstruction.",
+  "source_and_ledger_effect": "SC-ACT-01_03_04_05_06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

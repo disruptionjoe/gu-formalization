@@ -1,0 +1,57 @@
+{
+  "claim_ceiling": "Exact rank equivalence only under nondegenerate finite-dimensional pairings on K905's old quotient. It does not construct B_bar or prove the full deformation complex.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 38,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k907_sc_act_06_cross_adjoint_rank_equivalence_probe.py",
+    "producer": "tests/channel-swings/k907_sc_act_06_cross_adjoint_rank_equivalence.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "action_owned_cross_map_still_required": true,
+    "full_coupled_nondegeneracy_decided": false,
+    "next_exact_input": "Resolve the minimal-target and surplus-target cases of the full symmetric block separately.",
+    "one_sided_rank_check_sufficient_for_old_pair": true,
+    "raw_target_dimension_alone_sufficient": false
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "adjoint": "B_bar*:Y->H_old*",
+    "cross_map": "B_bar:H_old->Y*",
+    "old_quotient": "H_old, dimension 90128, forty real types, multiplicity 169",
+    "pairings": "nondegenerate finite-dimensional real pairings",
+    "target": "THEOREM-TYPE=cross-adjoint rank equivalence"
+  },
+  "ledger_no_change_reason": "The theorem is finite-dimensional linear algebra on the authenticated old quotient and supplies no action-owned cross operator or physical quotient.",
+  "pinned_inputs": {
+    "k903": {
+      "path": "lab/process/k903-sc-act-06-full-field-ward-block-splitting.json",
+      "sha256": "17ac96a8e47af07cff0b2ae99a5dcf4d463b7687c8d8679883b22b7256e3a654"
+    },
+    "k905": {
+      "path": "lab/process/k905-sc-act-06-cross-target-typewise-budget.json",
+      "sha256": "6cfb7216804c57f925e12635640453f9fc737ef032988d07522ad74347fa7161"
+    },
+    "k906": {
+      "path": "lab/process/k906-sc-act-06-coupled-repair-boundary.json",
+      "sha256": "1c82c20c25a267c353b7ef999473e63e64017092b9a92579d3624ae03f601d1d"
+    }
+  },
+  "result_id": "K907-SC-ACT-06-CROSS-ADJOINT-RANK-EQUIVALENCE",
+  "schema_version": "1.0",
+  "scope": "Finite-dimensional paired-space criterion for a gauge-basic cross map on K905's authenticated old quotient.",
+  "source_and_ledger_effect": "SC-ACT-01_04_06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "adjoint_kernel_dimension_formula": "dim ker(B_bar*)=dim(Y)-90128 when B_bar is injective",
+    "injective_iff_adjoint_surjective": true,
+    "injective_rank": 90128,
+    "minimum_target_dimension": 90128,
+    "old_cokernel_eliminated_iff": "B_bar* is surjective",
+    "old_kernel_eliminated_iff": "B_bar is injective",
+    "rank_identity": "rank(B_bar)=rank(B_bar*)",
+    "symmetric_cross_pair_controls_both_old_sides": true
+  }
+}

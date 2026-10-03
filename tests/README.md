@@ -4,6 +4,20 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K907--K910 cross-completion exactness boundary
+
+- `channel-swings/k907_sc_act_06_cross_adjoint_rank_equivalence.py` proves
+  injective cross rank is equivalent to adjoint surjectivity on the old pair.
+- `channel-swings/k908_sc_act_06_minimal_target_isotypic_isomorphism.py`
+  classifies the exact-minimum forty-type target as an isomorphic copy.
+- `channel-swings/k909_sc_act_06_surplus_complement_compression.py` proves the
+  full block is nondegenerate iff the unused-target compression `D_KK` is.
+- `channel-swings/k910_sc_act_06_cross_completion_admission_boundary.py`
+  freezes the exact minimum/surplus action-data admission gate.
+- The matching probes reject 80/80 hostile mutations across 168 declared
+  controls. The completion gate stays five of eleven and SC-ACT-06 remains
+  `ASSERTS`.
+
 ## K903--K906 coupled-repair block boundary
 
 - `channel-swings/k903_sc_act_06_full_field_ward_block_splitting.py` proves

@@ -659,6 +659,18 @@ def load_inputs() -> dict:
         "k906": json.loads(
             (ROOT / "lab/process/k906-sc-act-06-coupled-repair-boundary.json").read_text()
         ),
+        "k907": json.loads(
+            (ROOT / "lab/process/k907-sc-act-06-cross-adjoint-rank-equivalence.json").read_text()
+        ),
+        "k908": json.loads(
+            (ROOT / "lab/process/k908-sc-act-06-minimal-target-isotypic-isomorphism.json").read_text()
+        ),
+        "k909": json.loads(
+            (ROOT / "lab/process/k909-sc-act-06-surplus-complement-compression.json").read_text()
+        ),
+        "k910": json.loads(
+            (ROOT / "lab/process/k910-sc-act-06-cross-completion-admission-boundary.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -851,9 +863,13 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     check(registry["latest_gu_formalization_result"] ==
-          "K903_K906_SC_ACT_06_COUPLED_REPAIR_BLOCK_BOUNDARY_CURRENT",
+          "K907_K910_SC_ACT_06_CROSS_COMPLETION_EXACTNESS_BOUNDARY_CURRENT",
           "latest GU result pointer moved")
     if isinstance(live, str):
+        check("K907--K910 close the abstract symmetric cross-completion algebra" in live and
+              "full-block nondegeneracy is equivalent to nondegeneracy" in live and
+              "do not spend a third wave" in live,
+              "live K907--K910 cross-completion exactness boundary missing")
         check("K903--K906 close vague coupled-field cancellation at K717" in live and
               "full-field Ward identity splits as `SG=0` and `BG=0`" in live and
               "all forty real `SO(6)xSO(7)` types" in live,
@@ -1392,6 +1408,18 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "K907--K910 close the abstract symmetric cross-completion algebra" in data["agenda"].get("latest_result_2026_10_03_k907_k910", "")
+        and "D_KK=P_K D|ker(B_bar*)" in data["agenda"].get("latest_result_2026_10_03_k907_k910", "")
+        and "SC-ACT-06 remains ASSERTS" in data["agenda"].get("latest_result_2026_10_03_k907_k910", ""),
+        "agenda K907--K910 result is not current",
+    )
+    check(
+        "K907--K910 decide algebraic sufficiency for every symmetric cross target" in question
+        and "the only remaining algebraic obstruction is the compression `D_KK`" in question
+        and "do not repeat target-budget estimates" in question,
+        "current question lost K907--K910 cross-completion exactness boundary",
+    )
     check(
         "K903--K906 sharpen the coupled-field reopener" in data["agenda"].get("latest_result_2026_10_03_k903_k906", "")
         and "90128 old quotient dimensions" in data["agenda"].get("latest_result_2026_10_03_k903_k906", "")
@@ -4471,6 +4499,35 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           k906["decision"]["specific_gauge_basic_cross_response_reopener_open"] and
           not k906["decision"]["SC_ACT_06_proved_or_refuted"],
           "K906 coupled repair boundary moved")
+
+    k907 = data["k907"]
+    check(k907["theorem"]["injective_iff_adjoint_surjective"] and
+          k907["theorem"]["injective_rank"] == 90128 and
+          k907["theorem"]["minimum_target_dimension"] == 90128 and
+          not k907["decision"]["full_coupled_nondegeneracy_decided"],
+          "K907 cross-adjoint rank equivalence moved")
+
+    k908 = data["k908"]
+    check(k908["minimal_target"]["row_count"] == 40 and
+          k908["minimal_target"]["total_real_dimension"] == 90128 and
+          k908["minimal_target"]["total_real_multiplicity"] == 169 and
+          k908["theorem"]["dimension_equality_plus_injectivity_implies_isomorphism"],
+          "K908 minimal-target isotypic isomorphism moved")
+
+    k909 = data["k909"]
+    check(k909["theorem"]["kernel_isomorphism"] == "ker(T) congruent to ker(D_KK)" and
+          k909["theorem"]["minimal_target_full_block_nondegenerate_for_every_D"] and
+          k909["decision"]["surplus_target_requires_action_owned_complement_self_block"] and
+          not k909["decision"]["full_deformation_complex_proved"],
+          "K909 surplus-complement compression moved")
+
+    k910 = data["k910"]
+    check(k910["admission"]["minimal_target"]["dimension"] == 90128 and
+          k910["admission"]["surplus_target"]["extra_algebraic_requirement"] == "D_KK=P_K D|K nondegenerate" and
+          k910["decision"]["distance_only_cross_budget_waves_exhausted"] and
+          not k910["decision"]["cross_completion_constructed"] and
+          not k910["decision"]["SC_ACT_06_proved_or_refuted"],
+          "K910 cross-completion admission boundary moved")
 
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]

@@ -7,6 +7,40 @@ updated_at: "2026-10-03"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K907--K910 cross-completion exactness boundary (2026-10-03)
+
+K907 applies finite-dimensional rank duality to the authenticated old quotient:
+`B_bar` is injective exactly when `B_bar*` is surjective. K908 combines this
+with K905's forty-type budget. Equality at dimension 90,128 and multiplicity
+169 saturates every isotypic block, so an injective equivariant `B_bar` is an
+isomorphism and leaves no unused target complement.
+
+K909 gives the exact full-block test. With Riesz identifications and
+`Y=R direct_sum K`, where `R=im(tilde B_bar)` and `K=ker(B_bar*)`, the first
+block equation forces the new-field variable into `K`, the range equation
+uniquely determines the old variable, and the remaining equation is precisely
+`D_KK y=0`. Thus `ker(T)` is isomorphic to `ker(D_KK)`. At the minimum target
+`K=0`, so the block is nondegenerate for every `D`; with surplus target
+capacity, nondegeneracy requires the action-owned compression `D_KK`.
+
+K910 records that these are hypothetical sufficiency criteria, not a
+construction. Current custody has neither a named action-owned gauge-basic
+cross isomorphism nor a surplus-complement Hessian, and it lacks the complete
+domain, Green and preboundary packet. The four producers pass 168 declared
+controls and the probes reject 80/80 hostile mutations. The completion gate
+remains five of eleven and SC-ACT-06 remains `ASSERTS`.
+
+```bash
+python3 tests/channel-swings/k907_sc_act_06_cross_adjoint_rank_equivalence.py --check
+python3 tests/channel-swings/k907_sc_act_06_cross_adjoint_rank_equivalence_probe.py
+python3 tests/channel-swings/k908_sc_act_06_minimal_target_isotypic_isomorphism.py --check
+python3 tests/channel-swings/k908_sc_act_06_minimal_target_isotypic_isomorphism_probe.py
+python3 tests/channel-swings/k909_sc_act_06_surplus_complement_compression.py --check
+python3 tests/channel-swings/k909_sc_act_06_surplus_complement_compression_probe.py
+python3 tests/channel-swings/k910_sc_act_06_cross_completion_admission_boundary.py --check
+python3 tests/channel-swings/k910_sc_act_06_cross_completion_admission_boundary_probe.py
+```
+
 ## K903--K906 coupled-repair block boundary (2026-10-03)
 
 K903 uses K873's authenticated principal gauge map `(G,0)`. For any symmetric

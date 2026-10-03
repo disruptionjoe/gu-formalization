@@ -1,0 +1,70 @@
+{
+  "claim_ceiling": "Exact finite-dimensional paired-space criterion only. It does not establish ellipticity, gauge-complex exactness, Green operators, boundary compatibility or SC-ACT-06.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 43,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k909_sc_act_06_surplus_complement_compression_probe.py",
+    "producer": "tests/channel-swings/k909_sc_act_06_surplus_complement_compression.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "full_deformation_complex_proved": false,
+    "minimum_budget_plus_injective_B_suffices_for_block_nondegeneracy": true,
+    "next_exact_input": "For a surplus target, provide D_KK with its action ownership, domain, Green and preboundary data; at the minimum target, provide the named action-owned gauge-basic isomorphism B_bar.",
+    "surplus_target_requires_action_owned_complement_self_block": true,
+    "target_character_and_cross_rank_alone_suffice_in_surplus_case": false
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "compression": "D_KK=P_K D restricted to K",
+    "coupled_block": "T on H_old direct_sum Y",
+    "cross_map": "B_bar:H_old->Y* injective",
+    "riesz_range": "R=im(tilde B_bar) subset Y",
+    "surplus_complement": "K=ker(B_bar*)=R_perp",
+    "target": "THEOREM-TYPE=surplus-complement compression criterion"
+  },
+  "ledger_no_change_reason": "The compression theorem decides a hypothetical finite-dimensional block but supplies neither the cross map nor the complementary action Hessian.",
+  "pinned_inputs": {
+    "k907": {
+      "path": "lab/process/k907-sc-act-06-cross-adjoint-rank-equivalence.json",
+      "sha256": "54dc26e071beeee1f3d1771f5bcbedf75536432b23ae653797281925be1e1a96"
+    },
+    "k908": {
+      "path": "lab/process/k908-sc-act-06-minimal-target-isotypic-isomorphism.json",
+      "sha256": "25ee3311ef98ca5d3b9b307488f0272aa95cc4ff5c158f1ffa97cdb4d54704e8"
+    }
+  },
+  "result_id": "K909-SC-ACT-06-SURPLUS-COMPLEMENT-COMPRESSION",
+  "schema_version": "1.0",
+  "scope": "Kernel criterion for T=[[0,B_bar*],[B_bar,D]] after an injective cross map repairs the authenticated old quotient.",
+  "source_and_ledger_effect": "SC-ACT-01_04_06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "synthetic_controls": {
+    "case": "H=R^1, Y=R^2, B(h)=(h,0)",
+    "invertible_D_KK": {
+      "D": "diag(0,1)",
+      "kernel_dimension": 0
+    },
+    "minimal_case": "H=Y=R^1 with B=1 is nondegenerate for arbitrary scalar D",
+    "singular_D_KK": {
+      "D": "zero matrix",
+      "kernel_dimension": 1
+    }
+  },
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "full_block_nondegenerate_iff": "D_KK is nondegenerate on K",
+    "kernel_isomorphism": "ker(T) congruent to ker(D_KK)",
+    "minimal_target_full_block_nondegenerate_for_every_D": true,
+    "minimal_target_has_K_dimension": 0,
+    "orthogonal_split": "Y=R direct_sum K",
+    "proof_route": [
+      "The H_old equation B_bar* y=0 forces y into K.",
+      "The R component of the Y equation uniquely solves h because B_bar:H_old->R is an isomorphism.",
+      "The remaining K component is exactly D_KK y=0."
+    ],
+    "surplus_cross_rank_does_not_control_D_KK": true,
+    "surplus_dimension_formula": "dim(K)=dim(Y)-90128"
+  }
+}

@@ -7,6 +7,19 @@ updated_at: "2026-10-03"
 
 # Next Steps For Contributors
 
+> **2026-10-03 K907--K910 CROSS-COMPLETION EXACTNESS BOUNDARY.** K907 proves
+> that injectivity of `B_bar:H_old->Y*` is equivalent to surjectivity of its
+> adjoint. K908 proves that an exact-minimum target must match all forty old
+> types, 90,128 dimensions and multiplicity 169, making `B_bar` an equivariant
+> isomorphism. K909 proves that the full symmetric block is then nondegenerate
+> for arbitrary `D`; for a larger target it is nondegenerate exactly when
+> `D_KK=P_K D|ker(B_bar*)` is nondegenerate. K910 freezes the admission gate.
+> Current custody supplies no action-owned `B_bar` or `D_KK`. Next provide the
+> named map, `BG=0`, and complete domain/Green/preboundary data (plus `D_KK`
+> for a surplus target), or switch to a new old-old block, changed gauge/domain
+> or nonzero-fermion germ. Do not repeat cross-budget distance estimates. The
+> completion gate remains five of eleven and SC-ACT-06 remains `ASSERTS`.
+
 > **2026-10-03 K903--K906 COUPLED-REPAIR BLOCK BOUNDARY.** K903 proves that
 > for a symmetric full-field Hessian `T=[[S,B^T],[B,D]]` and K873's
 > principal internal-gauge map `(G,0)`, the Ward identity splits exactly into
