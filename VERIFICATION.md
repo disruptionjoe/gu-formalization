@@ -7,6 +7,38 @@ updated_at: "2026-10-03"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K887--K890 selected-I1B gauge-descent obstruction (2026-10-03)
+
+K887 replays the K132 exact invariant-block backend. The raw response
+annihilates every radial gauge column, but the selected-I1B Euler Hessian has
+rank 8,191 on the 16,384-dimensional radial module. Its block-rank
+distribution is 4,096 rank-zero blocks, one rank-one block and 4,095 rank-two
+blocks. The current map therefore fails representative independence and does
+not descend to `ker(J)/im(G)`.
+
+K888 decomposes that exact defect as
+`2 Lambda^odd(R^6 direct-sum R^7) - 1`: dimension 8,191, total real
+multiplicity 55 and 16 real `SO(6)xSO(7)` types. K889 keeps all 40 old
+quotient deficits, totaling multiplicity 169 and dimension 90,128, because
+the selected-I1B induced ranks are undefined rather than zero. K890 closes
+only the current serialized realization; complete action-owned cancellation,
+new independent parents and other stationary germs remain open. The four
+producers pass 150 controls and their probes reject 80/80 hostile mutations.
+The completion gate remains five of eleven and SC-ACT-06 remains `ASSERTS`.
+
+Run the producers and hostile probes:
+
+```bash
+python3 tests/channel-swings/k887_sc_act_06_selected_i1b_gauge_descent_obstruction.py --check
+python3 tests/channel-swings/k887_sc_act_06_selected_i1b_gauge_descent_obstruction_probe.py
+python3 tests/channel-swings/k888_sc_act_06_selected_i1b_gauge_defect_character.py --check
+python3 tests/channel-swings/k888_sc_act_06_selected_i1b_gauge_defect_character_probe.py
+python3 tests/channel-swings/k889_sc_act_06_selected_i1b_typewise_nonadmission.py --check
+python3 tests/channel-swings/k889_sc_act_06_selected_i1b_typewise_nonadmission_probe.py
+python3 tests/channel-swings/k890_sc_act_06_independent_parent_disposition.py --check
+python3 tests/channel-swings/k890_sc_act_06_independent_parent_disposition_probe.py
+```
+
 ## K883--K886 released residual-square quotient boundary (2026-10-03)
 
 K883 applies K743's exact zero-residual factorization `H_Q=J^*QJ` to K879's

@@ -1,0 +1,528 @@
+{
+  "claim_ceiling": "Exact failure of the current selected-I1B Hessian to descend through the authenticated radial gauge image: rank 8191 on a 16384-dimensional gauge domain. No all-I1B, all-action, other-germ or global no-go follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 36,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k887_sc_act_06_selected_i1b_gauge_descent_obstruction_probe.py",
+    "producer": "tests/channel-swings/k887_sc_act_06_selected_i1b_gauge_descent_obstruction.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "complete_source_action_or_other_stationary_germ_excluded": false,
+    "next_exact_input": "Construct the complete action-owned I1B field/gauge packet whose additional blocks cancel the 8191-dimensional radial defect, or supply a genuinely new independent response/symmetry module or source-owned nonzero-fermion stationary germ; only then compute quotient ranks.",
+    "selected_i1b_current_realization_repairs_old_quotient": false,
+    "selected_i1b_forty_type_quotient_ranks_admissible": false,
+    "selected_i1b_is_zero_on_old_quotient": false
+  },
+  "direction": "observed_to_native",
+  "exact_gauge_test": {
+    "backend_replayed": true,
+    "block_rank_distribution": {
+      "0": 4096,
+      "1": 1,
+      "2": 4095
+    },
+    "i1b_euler_kernel_on_radial": 8193,
+    "i1b_euler_rank_on_radial": 8191,
+    "radial_domain_dimension": 16384,
+    "representative_block_count": 56,
+    "representative_rows": [
+      {
+        "base_parity": 0,
+        "i1b_euler_rank_on_radial": 0,
+        "multiplicity": 1,
+        "negative_degree": 0,
+        "positive_degree": 0,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 1,
+        "i1b_euler_rank_on_radial": 2,
+        "multiplicity": 7,
+        "negative_degree": 1,
+        "positive_degree": 0,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 0,
+        "i1b_euler_rank_on_radial": 0,
+        "multiplicity": 21,
+        "negative_degree": 2,
+        "positive_degree": 0,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 1,
+        "i1b_euler_rank_on_radial": 2,
+        "multiplicity": 35,
+        "negative_degree": 3,
+        "positive_degree": 0,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 0,
+        "i1b_euler_rank_on_radial": 0,
+        "multiplicity": 35,
+        "negative_degree": 4,
+        "positive_degree": 0,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 1,
+        "i1b_euler_rank_on_radial": 2,
+        "multiplicity": 21,
+        "negative_degree": 5,
+        "positive_degree": 0,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 0,
+        "i1b_euler_rank_on_radial": 0,
+        "multiplicity": 7,
+        "negative_degree": 6,
+        "positive_degree": 0,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 1,
+        "i1b_euler_rank_on_radial": 2,
+        "multiplicity": 1,
+        "negative_degree": 7,
+        "positive_degree": 0,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 1,
+        "i1b_euler_rank_on_radial": 2,
+        "multiplicity": 6,
+        "negative_degree": 0,
+        "positive_degree": 1,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 0,
+        "i1b_euler_rank_on_radial": 0,
+        "multiplicity": 42,
+        "negative_degree": 1,
+        "positive_degree": 1,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 1,
+        "i1b_euler_rank_on_radial": 2,
+        "multiplicity": 126,
+        "negative_degree": 2,
+        "positive_degree": 1,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 0,
+        "i1b_euler_rank_on_radial": 0,
+        "multiplicity": 210,
+        "negative_degree": 3,
+        "positive_degree": 1,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 1,
+        "i1b_euler_rank_on_radial": 2,
+        "multiplicity": 210,
+        "negative_degree": 4,
+        "positive_degree": 1,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 0,
+        "i1b_euler_rank_on_radial": 0,
+        "multiplicity": 126,
+        "negative_degree": 5,
+        "positive_degree": 1,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 1,
+        "i1b_euler_rank_on_radial": 2,
+        "multiplicity": 42,
+        "negative_degree": 6,
+        "positive_degree": 1,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 0,
+        "i1b_euler_rank_on_radial": 0,
+        "multiplicity": 6,
+        "negative_degree": 7,
+        "positive_degree": 1,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 0,
+        "i1b_euler_rank_on_radial": 0,
+        "multiplicity": 15,
+        "negative_degree": 0,
+        "positive_degree": 2,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 1,
+        "i1b_euler_rank_on_radial": 2,
+        "multiplicity": 105,
+        "negative_degree": 1,
+        "positive_degree": 2,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 0,
+        "i1b_euler_rank_on_radial": 0,
+        "multiplicity": 315,
+        "negative_degree": 2,
+        "positive_degree": 2,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 1,
+        "i1b_euler_rank_on_radial": 2,
+        "multiplicity": 525,
+        "negative_degree": 3,
+        "positive_degree": 2,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 0,
+        "i1b_euler_rank_on_radial": 0,
+        "multiplicity": 525,
+        "negative_degree": 4,
+        "positive_degree": 2,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 1,
+        "i1b_euler_rank_on_radial": 2,
+        "multiplicity": 315,
+        "negative_degree": 5,
+        "positive_degree": 2,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 0,
+        "i1b_euler_rank_on_radial": 0,
+        "multiplicity": 105,
+        "negative_degree": 6,
+        "positive_degree": 2,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 1,
+        "i1b_euler_rank_on_radial": 2,
+        "multiplicity": 15,
+        "negative_degree": 7,
+        "positive_degree": 2,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 1,
+        "i1b_euler_rank_on_radial": 2,
+        "multiplicity": 20,
+        "negative_degree": 0,
+        "positive_degree": 3,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 0,
+        "i1b_euler_rank_on_radial": 0,
+        "multiplicity": 140,
+        "negative_degree": 1,
+        "positive_degree": 3,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 1,
+        "i1b_euler_rank_on_radial": 2,
+        "multiplicity": 420,
+        "negative_degree": 2,
+        "positive_degree": 3,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 0,
+        "i1b_euler_rank_on_radial": 0,
+        "multiplicity": 700,
+        "negative_degree": 3,
+        "positive_degree": 3,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 1,
+        "i1b_euler_rank_on_radial": 2,
+        "multiplicity": 700,
+        "negative_degree": 4,
+        "positive_degree": 3,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 0,
+        "i1b_euler_rank_on_radial": 0,
+        "multiplicity": 420,
+        "negative_degree": 5,
+        "positive_degree": 3,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 1,
+        "i1b_euler_rank_on_radial": 2,
+        "multiplicity": 140,
+        "negative_degree": 6,
+        "positive_degree": 3,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 0,
+        "i1b_euler_rank_on_radial": 0,
+        "multiplicity": 20,
+        "negative_degree": 7,
+        "positive_degree": 3,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 0,
+        "i1b_euler_rank_on_radial": 0,
+        "multiplicity": 15,
+        "negative_degree": 0,
+        "positive_degree": 4,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 1,
+        "i1b_euler_rank_on_radial": 2,
+        "multiplicity": 105,
+        "negative_degree": 1,
+        "positive_degree": 4,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 0,
+        "i1b_euler_rank_on_radial": 0,
+        "multiplicity": 315,
+        "negative_degree": 2,
+        "positive_degree": 4,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 1,
+        "i1b_euler_rank_on_radial": 2,
+        "multiplicity": 525,
+        "negative_degree": 3,
+        "positive_degree": 4,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 0,
+        "i1b_euler_rank_on_radial": 0,
+        "multiplicity": 525,
+        "negative_degree": 4,
+        "positive_degree": 4,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 1,
+        "i1b_euler_rank_on_radial": 2,
+        "multiplicity": 315,
+        "negative_degree": 5,
+        "positive_degree": 4,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 0,
+        "i1b_euler_rank_on_radial": 0,
+        "multiplicity": 105,
+        "negative_degree": 6,
+        "positive_degree": 4,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 1,
+        "i1b_euler_rank_on_radial": 2,
+        "multiplicity": 15,
+        "negative_degree": 7,
+        "positive_degree": 4,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 1,
+        "i1b_euler_rank_on_radial": 2,
+        "multiplicity": 6,
+        "negative_degree": 0,
+        "positive_degree": 5,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 0,
+        "i1b_euler_rank_on_radial": 0,
+        "multiplicity": 42,
+        "negative_degree": 1,
+        "positive_degree": 5,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 1,
+        "i1b_euler_rank_on_radial": 2,
+        "multiplicity": 126,
+        "negative_degree": 2,
+        "positive_degree": 5,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 0,
+        "i1b_euler_rank_on_radial": 0,
+        "multiplicity": 210,
+        "negative_degree": 3,
+        "positive_degree": 5,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 1,
+        "i1b_euler_rank_on_radial": 2,
+        "multiplicity": 210,
+        "negative_degree": 4,
+        "positive_degree": 5,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 0,
+        "i1b_euler_rank_on_radial": 0,
+        "multiplicity": 126,
+        "negative_degree": 5,
+        "positive_degree": 5,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 1,
+        "i1b_euler_rank_on_radial": 2,
+        "multiplicity": 42,
+        "negative_degree": 6,
+        "positive_degree": 5,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 0,
+        "i1b_euler_rank_on_radial": 0,
+        "multiplicity": 6,
+        "negative_degree": 7,
+        "positive_degree": 5,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 0,
+        "i1b_euler_rank_on_radial": 0,
+        "multiplicity": 1,
+        "negative_degree": 0,
+        "positive_degree": 6,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 1,
+        "i1b_euler_rank_on_radial": 2,
+        "multiplicity": 7,
+        "negative_degree": 1,
+        "positive_degree": 6,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 0,
+        "i1b_euler_rank_on_radial": 0,
+        "multiplicity": 21,
+        "negative_degree": 2,
+        "positive_degree": 6,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 1,
+        "i1b_euler_rank_on_radial": 2,
+        "multiplicity": 35,
+        "negative_degree": 3,
+        "positive_degree": 6,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 0,
+        "i1b_euler_rank_on_radial": 0,
+        "multiplicity": 35,
+        "negative_degree": 4,
+        "positive_degree": 6,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 1,
+        "i1b_euler_rank_on_radial": 2,
+        "multiplicity": 21,
+        "negative_degree": 5,
+        "positive_degree": 6,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 0,
+        "i1b_euler_rank_on_radial": 0,
+        "multiplicity": 7,
+        "negative_degree": 6,
+        "positive_degree": 6,
+        "raw_response_rank_on_radial": 0
+      },
+      {
+        "base_parity": 1,
+        "i1b_euler_rank_on_radial": 1,
+        "multiplicity": 1,
+        "negative_degree": 7,
+        "positive_degree": 6,
+        "raw_response_rank_on_radial": 0
+      }
+    ]
+  },
+  "gu_typed_objects": {
+    "action_owner": "frozen K132/K720 comm/symi/symi selected-I1B realization only",
+    "carrier": "K873 radial q-lambda gauge image inside the full 229376-dimensional connection tangent",
+    "grading": "owned internal gauge -> connection fields -> selected-I1B Euler target",
+    "pairing": "K132 selected-I1B formal Euler antisymmetrization of the source-native transgression density",
+    "real_structure": "real K77 nonnull base covector with exact rational invariant blocks",
+    "target": "MAP-TYPE=gauge-descent prerequisite for a map on ker(J)/im(G)"
+  },
+  "ledger_no_change_reason": "The result rejects quotient descent for one frozen local selected-I1B realization but constructs no complete action, physical quotient, observable, prediction or confirmation.",
+  "pinned_inputs": {
+    "k132": {
+      "path": "lab/process/selected-k132-native-i1b-t0-all-grade-noether-complex.json",
+      "sha256": "c2835f33db681168424e95ff0195a5c88813f3d7db073bda45ccfef1c2dbf5b8"
+    },
+    "k720": {
+      "path": "lab/process/k720-sc-act-06-selected-i1b-euclidean-bosonic-symbol.json",
+      "sha256": "c0019f3f8ad286995b31b81d571e429487e004b07becb37a73cdf36baba16aaa"
+    },
+    "k873": {
+      "path": "lab/process/k873-sc-act-06-owned-symmetry-custody.json",
+      "sha256": "cc148cac1cce342c3e43d4e7681766630c8455e7ba687f87ece02978ec09c66c"
+    },
+    "k879": {
+      "path": "lab/process/k879-sc-act-06-full-field-quotient-injection.json",
+      "sha256": "bd70c9cdc5d11b65fd60c922edffdee607d63938c90fcfbc90ffa59670b746bf"
+    },
+    "k885": {
+      "path": "lab/process/k885-sc-act-06-released-action-parent-quotient-inventory.json",
+      "sha256": "4aa2a784f6655c338a05537e514524ce9ced193ffb2d7c21a7f01c258dc006d6"
+    }
+  },
+  "result_id": "K887-SC-ACT-06-SELECTED-I1B-GAUGE-DESCENT-OBSTRUCTION",
+  "schema_version": "1.0",
+  "scope": "Gauge-descent test for K720's selected-I1B Euler Hessian on K873's authenticated radial internal-gauge image at the K717 flat zero-fermion germ.",
+  "source_and_ledger_effect": "SC-ACT-01_06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "structural_theorem": {
+    "descent_condition": "A G=0",
+    "descent_condition_satisfied": false,
+    "formal_euler_rule": "A=(R-R^T)/2",
+    "missing_completion_may_restore_descent": true,
+    "old_response_annihilates_radial_gauge": true,
+    "on_radial_gauge": "A G=-(1/2)R^T G",
+    "raw_i1b_density_radial_columns_zero": true,
+    "selected_i1b_induced_map_on_old_quotient_exists": false
+  },
+  "target_claim": "SC-ACT-06"
+}

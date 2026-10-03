@@ -4,6 +4,22 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K887--K890 selected-I1B gauge-descent obstruction
+
+- `channel-swings/k887_sc_act_06_selected_i1b_gauge_descent_obstruction.py`
+  proves the current Euler Hessian has rank 8,191 on the authenticated radial
+  gauge module and therefore does not descend to the old quotient.
+- `channel-swings/k888_sc_act_06_selected_i1b_gauge_defect_character.py`
+  decomposes the exact 8,191-dimensional defect into 16 real
+  `SO(6)xSO(7)` types.
+- `channel-swings/k889_sc_act_06_selected_i1b_typewise_nonadmission.py`
+  records all 40 induced ranks as undefined and preserves every old deficit.
+- `channel-swings/k890_sc_act_06_independent_parent_disposition.py` closes
+  only the current realization while preserving complete-action and
+  changed-germ reopeners.
+- The matching `_probe.py` files reject 80/80 hostile mutations across 150
+  controls. The defect is not repair capacity; SC-ACT-06 remains `ASSERTS`.
+
 ## K883--K886 released residual-square quotient boundary
 
 - `channel-swings/k883_sc_act_06_residual_square_quotient_annihilation.py`

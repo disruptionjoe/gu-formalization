@@ -1,0 +1,401 @@
+{
+  "character_theorem": {
+    "active_submodule": "two copies of Lambda^odd(W)",
+    "all_defect_types_occur_in_old_character": true,
+    "defect_character": "2 Lambda^odd(R^6 direct-sum R^7) - 1",
+    "fixed_covector_complement": "W=R^6 direct-sum R^7",
+    "one_dimensional_top_relation": true,
+    "radial_module": "two copies of Lambda^*(W)",
+    "real_irreducible_type_count": 16,
+    "rows": [
+      {
+        "gauge_defect_dimension": 3,
+        "gauge_defect_multiplicity": 3,
+        "old_obstruction_multiplicity": 3,
+        "overlapping_old_type_id": "rho-40",
+        "real_irreducible_dimension": 1,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "gauge_defect_dimension": 28,
+        "gauge_defect_multiplicity": 4,
+        "old_obstruction_multiplicity": 5,
+        "overlapping_old_type_id": "rho-38",
+        "real_irreducible_dimension": 7,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "gauge_defect_dimension": 84,
+        "gauge_defect_multiplicity": 4,
+        "old_obstruction_multiplicity": 4,
+        "overlapping_old_type_id": "rho-34",
+        "real_irreducible_dimension": 21,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "gauge_defect_dimension": 140,
+        "gauge_defect_multiplicity": 4,
+        "old_obstruction_multiplicity": 4,
+        "overlapping_old_type_id": "rho-30",
+        "real_irreducible_dimension": 35,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "gauge_defect_dimension": 24,
+        "gauge_defect_multiplicity": 4,
+        "old_obstruction_multiplicity": 5,
+        "overlapping_old_type_id": "rho-39",
+        "real_irreducible_dimension": 6,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "gauge_defect_dimension": 168,
+        "gauge_defect_multiplicity": 4,
+        "old_obstruction_multiplicity": 8,
+        "overlapping_old_type_id": "rho-33",
+        "real_irreducible_dimension": 42,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "gauge_defect_dimension": 504,
+        "gauge_defect_multiplicity": 4,
+        "old_obstruction_multiplicity": 8,
+        "overlapping_old_type_id": "rho-26",
+        "real_irreducible_dimension": 126,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "gauge_defect_dimension": 840,
+        "gauge_defect_multiplicity": 4,
+        "old_obstruction_multiplicity": 8,
+        "overlapping_old_type_id": "rho-23",
+        "real_irreducible_dimension": 210,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "gauge_defect_dimension": 60,
+        "gauge_defect_multiplicity": 4,
+        "old_obstruction_multiplicity": 4,
+        "overlapping_old_type_id": "rho-37",
+        "real_irreducible_dimension": 15,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "gauge_defect_dimension": 420,
+        "gauge_defect_multiplicity": 4,
+        "old_obstruction_multiplicity": 8,
+        "overlapping_old_type_id": "rho-28",
+        "real_irreducible_dimension": 105,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "gauge_defect_dimension": 1260,
+        "gauge_defect_multiplicity": 4,
+        "old_obstruction_multiplicity": 8,
+        "overlapping_old_type_id": "rho-21",
+        "real_irreducible_dimension": 315,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "gauge_defect_dimension": 2100,
+        "gauge_defect_multiplicity": 4,
+        "old_obstruction_multiplicity": 8,
+        "overlapping_old_type_id": "rho-16",
+        "real_irreducible_dimension": 525,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "gauge_defect_dimension": 40,
+        "gauge_defect_multiplicity": 2,
+        "old_obstruction_multiplicity": 2,
+        "overlapping_old_type_id": "rho-36",
+        "real_irreducible_dimension": 20,
+        "real_type": "complex_conjugate_pair",
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "gauge_defect_dimension": 280,
+        "gauge_defect_multiplicity": 2,
+        "old_obstruction_multiplicity": 4,
+        "overlapping_old_type_id": "rho-27",
+        "real_irreducible_dimension": 140,
+        "real_type": "complex_conjugate_pair",
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "gauge_defect_dimension": 840,
+        "gauge_defect_multiplicity": 2,
+        "old_obstruction_multiplicity": 4,
+        "overlapping_old_type_id": "rho-20",
+        "real_irreducible_dimension": 420,
+        "real_type": "complex_conjugate_pair",
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "gauge_defect_dimension": 1400,
+        "gauge_defect_multiplicity": 2,
+        "old_obstruction_multiplicity": 4,
+        "overlapping_old_type_id": "rho-14",
+        "real_irreducible_dimension": 700,
+        "real_type": "complex_conjugate_pair",
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "total_dimension": 8191,
+    "total_real_multiplicity": 55
+  },
+  "claim_ceiling": "Exact 16-type SO(6)xSO(7) gauge-defect character of the frozen selected-I1B realization, of total dimension 8191. It is not quotient repair capacity.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 36,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k888_sc_act_06_selected_i1b_gauge_defect_character_probe.py",
+    "producer": "tests/channel-swings/k888_sc_act_06_selected_i1b_gauge_defect_character.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "complete_action_cancellation_excluded": false,
+    "defect_character_is_repair_capacity": false,
+    "gauge_defect_character_computed": true,
+    "next_exact_input": "Supply complete action-owned blocks canceling this 16-type, 8191-dimensional gauge defect before any induced selected-I1B quotient character is computed.",
+    "typewise_old_quotient_ranks_defined": false
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "frozen K132/K720 selected-I1B realization",
+    "carrier": "image of the selected-I1B Euler Hessian on the radial q-lambda gauge module",
+    "grading": "radial gauge module -> selected-I1B gauge-defect target",
+    "pairing": "K132 selected formal Euler pairing",
+    "real_structure": "real exterior algebra of the 13-dimensional q-orthogonal module",
+    "target": "REPRESENTATION-TYPE=gauge-descent defect, not repair capacity"
+  },
+  "ledger_no_change_reason": "The exact defect character diagnoses a local descent failure but is not a physical module or quotient-effective repair map.",
+  "pinned_inputs": {
+    "k872": {
+      "path": "lab/process/k872-sc-act-06-common-stabilizer-irreducible-character.json",
+      "sha256": "8fd3ab18d9d8b8d49660cbeaad3123b0cd6acf458b3e82fe3f2096a27013f0e6"
+    },
+    "k884": {
+      "path": "lab/process/k884-sc-act-06-residual-square-typewise-capacity.json",
+      "sha256": "22cdd9c9c6dcd0fd8140938d0d68a11bf96f617e9cf0b75cffa73ef7907316a4"
+    },
+    "k887": {
+      "path": "lab/process/k887-sc-act-06-selected-i1b-gauge-descent-obstruction.json",
+      "sha256": "a259443e593cfa1010674320e8120fc49fe81ca2b59110bc05f6ac03032f3b2a"
+    }
+  },
+  "result_id": "K888-SC-ACT-06-SELECTED-I1B-GAUGE-DEFECT-CHARACTER",
+  "schema_version": "1.0",
+  "scope": "Exact real SO(6)xSO(7) character of the nonzero selected-I1B image of K873's radial gauge module.",
+  "source_and_ledger_effect": "SC-ACT-01_06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

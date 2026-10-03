@@ -599,6 +599,18 @@ def load_inputs() -> dict:
         "k886": json.loads(
             (ROOT / "lab/process/k886-sc-act-06-released-repair-disposition.json").read_text()
         ),
+        "k887": json.loads(
+            (ROOT / "lab/process/k887-sc-act-06-selected-i1b-gauge-descent-obstruction.json").read_text()
+        ),
+        "k888": json.loads(
+            (ROOT / "lab/process/k888-sc-act-06-selected-i1b-gauge-defect-character.json").read_text()
+        ),
+        "k889": json.loads(
+            (ROOT / "lab/process/k889-sc-act-06-selected-i1b-typewise-nonadmission.json").read_text()
+        ),
+        "k890": json.loads(
+            (ROOT / "lab/process/k890-sc-act-06-independent-parent-disposition.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -791,9 +803,13 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     check(registry["latest_gu_formalization_result"] ==
-          "K883_K886_SC_ACT_06_RELEASED_RESIDUAL_SQUARE_REPAIR_DISPOSITION_CURRENT",
+          "K887_K890_SC_ACT_06_SELECTED_I1B_GAUGE_DESCENT_OBSTRUCTION_CURRENT",
           "latest GU result pointer moved")
     if isinstance(live, str):
+        check("K887--K890 close the current serialized selected-I1B realization" in live and
+              "fails representative independence" in live and
+              "undefined rather than zero" in live,
+              "live K887--K890 selected-I1B gauge-descent disposition missing")
         check("K883--K886 exclude the released same-response residual-square repair class" in live and
               "selected I1B is independent" in live and
               "nonzero-fermion stationary germ" in live,
@@ -1107,6 +1123,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K887--K890 close the current serialized selected-I1B quotient-map attempt" in summary and
+          "rank 8,191" in summary and
+          "undefined, not zero" in summary,
+          "current K887--K890 selected-I1B gauge-descent result lost")
     check("K883--K886 close the released same-response residual-square repair class" in summary and
           "selected I1B remains an independent uncomputed" in summary and
           "five of eleven" in summary,
@@ -1301,6 +1321,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
 
     question = current.get("current_question", "")
     check(
+        "K887--K890 prove that the current serialized selected-I1B Euler Hessian" in data["agenda"].get("latest_result_2026_10_03_k887_k890", "")
+        and "forty old quotient ranks are undefined rather than zero" in data["agenda"].get("latest_result_2026_10_03_k887_k890", "")
+        and "SC-ACT-06 remains ASSERTS" in data["agenda"].get("latest_result_2026_10_03_k887_k890", ""),
+        "agenda K887--K890 result is not current",
+    )
+    check(
         "K883--K886 prove that every released same-response residual-square Hessian" in data["agenda"].get("latest_result_2026_10_03_k883_k886", "")
         and "selected I1B remains independent and uncomputed" in data["agenda"].get("latest_result_2026_10_03_k883_k886", "")
         and "SC-ACT-06 remains ASSERTS" in data["agenda"].get("latest_result_2026_10_03_k883_k886", ""),
@@ -1323,6 +1349,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         and "40 real irreducible types" in data["agenda"].get("latest_result_2026_10_02_k871_k874", "")
         and "SC-ACT-06 remains ASSERTS" in data["agenda"].get("latest_result_2026_10_02_k871_k874", ""),
         "agenda K871--K874 result is not current",
+    )
+    check(
+        "K887--K890 prove that the current serialized selected-I1B Euler Hessian" in question
+        and "rank 8,191" in question
+        and "undefined, not zero" in question,
+        "current question lost K887--K890 selected-I1B gauge-descent boundary",
     )
     check(
         "K883--K886 prove that every released same-response residual-square Hessian" in question
@@ -4159,6 +4191,45 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k886["decision"]["selected_I1B_route_excluded"] and
           not k886["decision"]["global_SC_ACT_06_proved_or_refuted"],
           "K886 released repair disposition moved")
+
+    k887 = data["k887"]
+    check(k887["structural_theorem"]["old_response_annihilates_radial_gauge"] and
+          not k887["structural_theorem"]["descent_condition_satisfied"] and
+          not k887["structural_theorem"]["selected_i1b_induced_map_on_old_quotient_exists"] and
+          k887["exact_gauge_test"]["radial_domain_dimension"] == 16384 and
+          k887["exact_gauge_test"]["i1b_euler_rank_on_radial"] == 8191 and
+          k887["exact_gauge_test"]["block_rank_distribution"] == {"0": 4096, "1": 1, "2": 4095} and
+          not k887["decision"]["selected_i1b_is_zero_on_old_quotient"],
+          "K887 selected-I1B gauge-descent obstruction moved")
+
+    k888 = data["k888"]
+    check(k888["character_theorem"]["defect_character"] == "2 Lambda^odd(R^6 direct-sum R^7) - 1" and
+          k888["character_theorem"]["real_irreducible_type_count"] == 16 and
+          k888["character_theorem"]["total_dimension"] == 8191 and
+          k888["character_theorem"]["total_real_multiplicity"] == 55 and
+          k888["character_theorem"]["all_defect_types_occur_in_old_character"] and
+          not k888["decision"]["defect_character_is_repair_capacity"],
+          "K888 selected-I1B gauge-defect character moved")
+
+    k889 = data["k889"]
+    check(k889["typewise_nonadmission"]["row_count"] == 40 and
+          k889["typewise_nonadmission"]["undefined_induced_rank_row_count"] == 40 and
+          k889["typewise_nonadmission"]["rows_with_explicit_gauge_defect"] == 16 and
+          k889["typewise_nonadmission"]["sum_of_preserved_deficit_lower_bounds"] == 169 and
+          k889["typewise_nonadmission"]["dimension_of_preserved_deficit_lower_bound"] == 90128 and
+          not k889["decision"]["any_of_40_deficits_credited_as_repaired"] and
+          not k889["decision"]["selected_i1b_capacity_is_zero"],
+          "K889 selected-I1B typewise nonadmission moved")
+
+    k890 = data["k890"]
+    check(k890["released_parent_disposition"]["selected_i1b_current_realization"] == "closed_as_nondescending_map" and
+          k890["released_parent_disposition"]["selected_i1b_complete_action_class"] == "open" and
+          k890["exact_effect"]["selected_i1b_radial_defect_rank"] == 8191 and
+          k890["exact_effect"]["credited_selected_i1b_repair_rows"] == 0 and
+          k890["exact_effect"]["corrected_completion_gate_satisfied_rows"] == 5 and
+          not k890["decision"]["complete_flat_packet_repairability_refuted"] and
+          not k890["decision"]["SC_ACT_06_proved_or_refuted"],
+          "K890 independent parent disposition moved")
 
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]
