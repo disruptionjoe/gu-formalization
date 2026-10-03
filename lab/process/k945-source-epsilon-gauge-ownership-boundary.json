@@ -1,0 +1,113 @@
+{
+  "certificate": {
+    "SC_ACT_06_status": "ASSERTS",
+    "closed_trivial_row_count": 1,
+    "missing_row_count": 5,
+    "row_count": 11,
+    "rows": [
+      {
+        "row": "action_owned_full_cotangent_parent",
+        "state": "satisfied"
+      },
+      {
+        "row": "canonical_moment_map_submersion",
+        "state": "satisfied"
+      },
+      {
+        "row": "regular_zero_level",
+        "state": "satisfied"
+      },
+      {
+        "row": "proper_finite_zero_BFV",
+        "state": "satisfied"
+      },
+      {
+        "row": "zero_reduced_space",
+        "state": "closed_trivial"
+      },
+      {
+        "row": "regular_nonzero_orbit_reduction",
+        "state": "satisfied"
+      },
+      {
+        "row": "seven_invariant_locking_law",
+        "state": "missing"
+      },
+      {
+        "row": "source_selected_constraint_value",
+        "state": "missing"
+      },
+      {
+        "row": "functional_local_BV_BFV",
+        "state": "missing"
+      },
+      {
+        "row": "closed_Green_or_causal_domain",
+        "state": "missing"
+      },
+      {
+        "row": "positive_observed_physical_cohomology",
+        "state": "missing"
+      }
+    ],
+    "satisfied_row_count": 5
+  },
+  "claim_ceiling": "Exact finite source-epsilon cotangent reduction and ownership boundary. No source-selected gauge constraint, functional BV-BFV, causal/Fredholm domain, positivity, chirality, generation count or physical cohomology follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 24,
+    "hostile_mutations_rejected": 10,
+    "probe": "tests/channel-swings/k945_source_epsilon_gauge_ownership_boundary_probe.py",
+    "producer": "tests/channel-swings/k945_source_epsilon_gauge_ownership_boundary.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "charged_boundary_symmetry_retains_zero_import_primacy": true,
+    "current_action_selects_fixed_nonzero_orbit": false,
+    "full_zero_gauging_leaves_nontrivial_edge_sector": false,
+    "functional_domain_and_physical_cohomology_remain_open": true,
+    "new_boundary_or_Green_owner_required": true,
+    "next_route": "CONSTRUCT_AN_ACTION_OWNED_BOUNDARY_OR_GREEN_LAW_LOCKING_THE_SEVEN_COADJOINT_INVARIANTS_ON_THE_SOURCE_EPSILON_PARENT__OTHERWISE_RETAIN_CHARGED_BOUNDARY_SYMMETRY_AND_SWITCH_TO_ANOTHER_REVERSE_EDGE",
+    "projector_parent_not_retried": true,
+    "regular_nonzero_orbit_leaves_dimension": 84,
+    "source_epsilon_parent_is_genuinely_action_owned": true
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "missing_owner": "boundary/Green law locking seven invariant values",
+    "nonzero_quotient": "84-dimensional regular coadjoint orbit",
+    "parent": "T*Spin_0(7,7)",
+    "target": "DISPOSITION-TYPE=charged symmetry versus gauge quotient",
+    "zero_quotient": "one point"
+  },
+  "ledger_no_change_reason": "The finite parent is classified exactly, but neither zero nor a fixed nonzero orbit is selected by the current source/action and no functional physical quotient is built.",
+  "pinned_inputs": {
+    "k940": {
+      "path": "lab/process/k940-sc-act-06-analytic-ownership-boundary.json",
+      "sha256": "804cf059223aa0ce263b9a4ea0e8b9d1670617137286a32f51980a9ce2a7105a"
+    },
+    "k941": {
+      "path": "lab/process/k941-source-epsilon-cotangent-moment-map.json",
+      "sha256": "9c458f2a6851e8ece1389b5ac8b5c110d82846973b65c5a39362f95b87add8c3"
+    },
+    "k942": {
+      "path": "lab/process/k942-source-epsilon-zero-reduction.json",
+      "sha256": "0fff922321b61c46406929159857ee85d1454a6d6f79d0ab40e515e7b80e677c"
+    },
+    "k943": {
+      "path": "lab/process/k943-source-epsilon-orbit-reduction.json",
+      "sha256": "f9caa48599e05eb8098c9e35ca1a635e42a875599080f0ae4ec726c0da632d1a"
+    },
+    "k944": {
+      "path": "lab/process/k944-source-epsilon-regular-bfv-boundary.json",
+      "sha256": "1e186687a0eeb82a0045d9217cd87d8f2e330e775e5b0a772d4a88cf26494b28"
+    }
+  },
+  "result_id": "K945-SOURCE-EPSILON-GAUGE-OWNERSHIP-BOUNDARY",
+  "schema_version": "1.0",
+  "scope": "Integrated disposition of the genuinely action-owned source-epsilon cotangent parent after exact zero, nonzero-orbit and finite BFV reduction.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__AC-F1_LT-SM8_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

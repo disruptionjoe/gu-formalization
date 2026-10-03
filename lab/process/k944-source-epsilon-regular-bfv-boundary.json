@@ -1,0 +1,65 @@
+{
+  "claim_ceiling": "Proper finite polynomial/Koszul BFV at the canonical zero level only. No functional locality, Green domain, positivity, observed state space or physical cohomology follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 24,
+    "hostile_mutations_rejected": 10,
+    "probe": "tests/channel-swings/k944_source_epsilon_regular_bfv_boundary_probe.py",
+    "producer": "tests/channel-swings/k944_source_epsilon_regular_bfv_boundary.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "analytic_domain_constructed": false,
+    "current_nonzero_endpoint_admitted_by_zero_BFV": false,
+    "finite_zero_level_BFV_complete": true,
+    "finite_zero_level_BFV_nontrivial_physics": false,
+    "functional_field_space_BV_BFV_constructed": false,
+    "next_exact_input": "Do not extend the finite zero quotient into physical credit; obtain the seven-invariant boundary law for the nonzero orbit or retain charged symmetry.",
+    "nonzero_orbit_BFV_requires_invariant_locking_owner": true
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "bfv": "Omega=c^a J_a-(1/2)f_ab^c c^a c^b b_c",
+    "constraint": "J_L=0 on T*Spin_0(7,7)",
+    "ghosts": "91 irreducible first-class generators",
+    "koszul": "regular sequence at the full cotangent zero level",
+    "target": "COHOMOLOGY-TYPE=finite formal zero-reduction"
+  },
+  "ledger_no_change_reason": "The proper finite BFV model has only constant reduced observables and excludes the actual nonzero endpoint.",
+  "pinned_inputs": {
+    "k941": {
+      "path": "lab/process/k941-source-epsilon-cotangent-moment-map.json",
+      "sha256": "9c458f2a6851e8ece1389b5ac8b5c110d82846973b65c5a39362f95b87add8c3"
+    },
+    "k942": {
+      "path": "lab/process/k942-source-epsilon-zero-reduction.json",
+      "sha256": "0fff922321b61c46406929159857ee85d1454a6d6f79d0ab40e515e7b80e677c"
+    },
+    "k943": {
+      "path": "lab/process/k943-source-epsilon-orbit-reduction.json",
+      "sha256": "f9caa48599e05eb8098c9e35ca1a635e42a875599080f0ae4ec726c0da632d1a"
+    },
+    "old_bfv": {
+      "path": "lab/process/selected-k77-full-bfv-master-equation-gate.json",
+      "sha256": "8a7b1e785081ba1238e1b7f9fd99eeee12280d881ba32abeb746ce46ff7e9671"
+    }
+  },
+  "result_id": "K944-SOURCE-EPSILON-REGULAR-BFV-BOUNDARY",
+  "schema_version": "1.0",
+  "scope": "Proper finite-dimensional Koszul/BFV consequence of the regular canonical cotangent zero-level constraint, separated from the singular frozen-distortion presentation.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__AC-F1_LT-SM8_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "constraint_count": 91,
+    "constraint_rank": 91,
+    "degree_zero_reduced_observables": "constants",
+    "first_stage_reducibility": 0,
+    "frozen_distortion_rank70_nonregularity_transfers": false,
+    "koszul_tate_is_proper_at_zero": true,
+    "master_equation_closes": true,
+    "minimal_ghost_count": 91,
+    "positive_degree_regular_reduction_cohomology": "zero in the finite polynomial/Koszul model"
+  }
+}

@@ -7,6 +7,20 @@ updated_at: "2026-10-03"
 
 # Next Steps For Contributors
 
+> **2026-10-03 K941--K945 SOURCE-EPSILON COTANGENT GAUGE BOUNDARY.** K941
+> switches to the action-owned full parent `T*Spin_0(7,7)` and proves its
+> canonical left moment map is a rank-91 submersion on the 182-dimensional
+> cotangent bundle. K942 proves regular zero reduction is a point. K943 proves
+> reduction at a regular nonzero charge is the 84-dimensional coadjoint orbit,
+> so seven independent invariant values must be locked. K944 constructs the
+> proper finite zero-level Koszul/BFV complex with 91 ghosts, but degree-zero
+> observables are constants and no functional local BV-BFV or Green/causal
+> theorem follows. K945 leaves the charged-boundary horn open. Next construct
+> an action-owned boundary/Green law that selects the nonzero charge and locks
+> its seven invariants; otherwise retain charged boundary symmetry and switch
+> the reverse edge. Do not promote the zero-level point to observed physics.
+> SC-ACT-06 remains `ASSERTS`.
+
 > **2026-10-03 K936--K940 ANALYTIC OWNERSHIP BOUNDARY.** K936 classifies every
 > zero-mode extension of the auxiliary toroidal projector: `p(0)=Q0` may be
 > any orthogonal projector on the 229,376-dimensional fibre, and the nonzero

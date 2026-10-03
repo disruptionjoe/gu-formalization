@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 2c9793531ad8
+revision_basis: 9df36c9f8308
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K941--K945 switch from the exhausted auxiliary projector to source
+    epsilon's action-owned full cotangent preboundary parent
+    `T*Spin_0(7,7)`. K941 proves its canonical left moment map is a rank-91
+    submersion on the 182-dimensional parent. K942 proves zero reduction is
+    regular but collapses to a point. K943 proves reduction at a regular
+    nonzero charge is the 84-dimensional coadjoint orbit, requiring seven
+    independent invariant values to be locked. K944 constructs the proper
+    finite zero-level Koszul/BFV model with 91 ghosts, but its degree-zero
+    observables are constants and it supplies no functional local BV-BFV or
+    Green/causal theorem. K945 therefore preserves the charged-boundary
+    symmetry horn: current custody has no action-owned boundary/Green law
+    selecting a nonzero charge and locking its seven invariants. SC-ACT-06
+    remains `ASSERTS`; no protected conclusion moves.
+
     K936--K940 exhaust the auxiliary projector's remaining zero-mode and
     abstract analytic freedom without promoting it to GU truth. K936
     classifies every exact self-adjoint toroidal extension: the isolated zero
@@ -14303,6 +14317,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K941--K945 establish the exact cotangent gauge boundary. The action-owned
+  canonical moment map is regular, but zero reduction is a point and its
+  finite BFV model has only constant degree-zero observables. A regular
+  nonzero charge instead reduces to the 84-dimensional coadjoint orbit and
+  requires seven independent invariant values. Continue only by constructing
+  an action-owned boundary/Green law that selects the charge and locks those
+  seven invariants; otherwise retain charged boundary symmetry and switch the
+  reverse edge. Do not promote the zero-level point or finite Koszul model to
+  observed physics. SC-ACT-06 remains `ASSERTS`.
+
   K936--K940 close the projector-only analytic continuation. The nonzero
   symbol leaves an arbitrary finite-dimensional zero-mode projector, and no
   such choice changes the infinite-dimensional kernel, cokernel or essential

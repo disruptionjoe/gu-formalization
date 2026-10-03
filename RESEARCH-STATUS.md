@@ -8,6 +8,30 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-03 — K941--K945 source-epsilon cotangent gauge boundary
+
+K941 leaves the exhausted projector route and opens source epsilon's
+action-owned full cotangent preboundary parent `T*Spin_0(7,7)`. For the
+canonical left action, `J_L(g,p)=Ad_g^*p`; variation in `p` alone spans the
+91-dimensional dual Lie algebra, so the moment map is a submersion everywhere
+on the 182-dimensional parent. This regularity is stronger than, and does not
+reuse, the rank-70 frozen-distortion map.
+
+K942 proves `J_L^{-1}(0)=Spin_0(7,7) x {0}` and the left action is free and
+transitive there, so the zero reduced space is one point. K943 proves that a
+regular nonzero charge with seven-dimensional stabilizer instead reduces to
+the 84-dimensional coadjoint orbit. Its seven independent invariant values
+must be selected and locked by an owner; the present action does neither.
+
+K944 constructs the proper finite zero-level Koszul/BFV model: 91 independent
+constraints, 91 ghosts, constant degree-zero reduced observables and vanishing
+positive regular-reduction Koszul cohomology. This is algebraic finite BFV,
+not a functional local BV-BFV, operator-domain or physical-cohomology result.
+K945 records five satisfied rows, one closed-trivial row and five missing rows.
+The five producers pass their declared controls and the five hostile probes
+reject 50/50 mutations. Charged boundary symmetry remains the honest horn;
+SC-ACT-06 stays `ASSERTS` and no protected conclusion moves.
+
 ## 2026-10-03 — K936--K940 analytic ownership boundary
 
 K936 classifies every exact self-adjoint zero-mode extension of K932's

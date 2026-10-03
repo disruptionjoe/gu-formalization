@@ -1,0 +1,57 @@
+{
+  "claim_ceiling": "Exact finite-dimensional canonical cotangent moment-map theorem. No source-selected constraint value, functional BV-BFV domain, positivity or physical cohomology follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 24,
+    "hostile_mutations_rejected": 10,
+    "probe": "tests/channel-swings/k941_source_epsilon_cotangent_moment_map_probe.py",
+    "producer": "tests/channel-swings/k941_source_epsilon_cotangent_moment_map.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "canonical_constraint_geometry_complete": true,
+    "functional_boundary_domain_constructed": false,
+    "next_exact_input": "Classify the zero and nonzero symplectic reductions separately; do not transfer the rank-70 frozen-distortion singularity to the free cotangent parent.",
+    "selected_endpoint_mu_is_in_image": true,
+    "zero_is_regular_value_on_full_parent": true
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "source epsilon boundary potential",
+    "carrier": "T*Spin_0(7,7) in left trivialization",
+    "grading": "finite formal preboundary phase space",
+    "pairing": "nondegenerate trace pairing on so(7,7)",
+    "real_structure": "real split group Spin_0(7,7)",
+    "target": "MAP-TYPE=canonical cotangent moment map"
+  },
+  "ledger_no_change_reason": "The theorem classifies the already-owned finite formal parent and changes no physical row.",
+  "pinned_inputs": {
+    "bfv": {
+      "path": "lab/process/selected-k77-full-bfv-master-equation-gate.json",
+      "sha256": "8a7b1e785081ba1238e1b7f9fd99eeee12280d881ba32abeb746ce46ff7e9671"
+    },
+    "parent": {
+      "path": "lab/process/selected-k77-source-epsilon-cotangent-parent.json",
+      "sha256": "8cdf66fad6bb53141f12b89ae4ab99098709561c514b40e39813a76dc4b09dd3"
+    }
+  },
+  "result_id": "K941-SOURCE-EPSILON-COTANGENT-MOMENT-MAP",
+  "schema_version": "1.0",
+  "scope": "Canonical lifted-left-action moment-map theorem for the action-owned formal T*Spin_0(7,7) epsilon preboundary parent.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "fiber_dimension": 91,
+    "fiber_over_mu_is_diffeomorphic_to_group": true,
+    "frozen_distortion_rank70_is_same_map": false,
+    "group_dimension": 91,
+    "left_action_is_free": true,
+    "moment_map": "J_L(g,p)=Ad_g^* p",
+    "moment_map_is_surjective_submersion": true,
+    "parent_dimension": 182,
+    "vertical_derivative": "d_p J_L=Ad_g^*",
+    "vertical_derivative_rank": 91
+  }
+}

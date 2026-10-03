@@ -1,0 +1,51 @@
+{
+  "claim_ceiling": "Exact finite zero-level quotient only. It does not select the zero constraint, bind the nonzero endpoint, or construct functional physical cohomology.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 24,
+    "hostile_mutations_rejected": 10,
+    "probe": "tests/channel-swings/k942_source_epsilon_zero_reduction_probe.py",
+    "producer": "tests/channel-swings/k942_source_epsilon_zero_reduction.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "full_zero_constraint_is_mathematically_proper": true,
+    "full_zero_constraint_is_selected_by_source_action": false,
+    "next_exact_input": "Classify reduction at the actual nonzero charge orbit and identify the extra invariant-locking law it requires.",
+    "selected_nonzero_endpoint_lies_on_zero_level": false,
+    "zero_reduction_supplies_physical_edge_sector": false
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "formal source epsilon parent, not constraint selection",
+    "carrier": "J_L^{-1}(0)=Spin_0(7,7) x {0}",
+    "grading": "regular first-class zero level",
+    "pairing": "canonical cotangent symplectic form",
+    "real_structure": "real split group",
+    "target": "QUOTIENT-TYPE=zero-level cotangent reduction"
+  },
+  "ledger_no_change_reason": "A regular but trivial zero quotient does not authorize imposing zero or change a physical verdict.",
+  "pinned_inputs": {
+    "k941": {
+      "path": "lab/process/k941-source-epsilon-cotangent-moment-map.json",
+      "sha256": "9c458f2a6851e8ece1389b5ac8b5c110d82846973b65c5a39362f95b87add8c3"
+    }
+  },
+  "result_id": "K942-SOURCE-EPSILON-ZERO-REDUCTION",
+  "schema_version": "1.0",
+  "scope": "Exact zero-level symplectic reduction of the action-owned finite source-epsilon cotangent parent.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "action_on_zero_level_is_free_and_transitive": true,
+    "group_dimension": 91,
+    "nontrivial_edge_modes_after_full_zero_gauging": false,
+    "reduced_dimension": 0,
+    "reduced_space_is_one_point": true,
+    "zero_level_dimension": 91,
+    "zero_level_is_regular": true,
+    "zero_stabilizer_dimension": 91
+  }
+}

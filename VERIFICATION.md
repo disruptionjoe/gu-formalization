@@ -7,6 +7,38 @@ updated_at: "2026-10-03"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K941--K945 source-epsilon cotangent gauge boundary (2026-10-03)
+
+For the canonical left action on `T*G`, `G=Spin_0(7,7)`, left trivialization
+gives `J_L(g,p)=Ad_g^*p`. Since `Ad_g^*` is invertible, the derivative in the
+`p` direction is onto; hence `rank(dJ_L)=dim(G)=91` on the full
+182-dimensional parent. At zero, the fiber is `G x {0}` and quotienting by
+the free transitive left action gives a point, equivalently
+`182-2(91)=0` dimensions.
+
+For a regular nonzero value `mu` with rank-seven stabilizer, the fixed-value
+quotient has dimension `91-7=84` and is the coadjoint orbit through `mu`, with
+its Kirillov--Kostant--Souriau form up to convention sign. Selecting that orbit
+requires locking seven independent invariant values. The current source/action
+packet supplies no such locking law. At zero, the 91 independent constraints
+give the finite Koszul/BFV complex with 91 ghosts; its degree-zero observables
+are constants because the reduced space is a point. This does not imply a
+functional local BV-BFV theory, a closed Green/causal domain, or positive
+observed physical cohomology.
+
+```bash
+python3 tests/channel-swings/k941_source_epsilon_cotangent_moment_map.py --check
+python3 tests/channel-swings/k941_source_epsilon_cotangent_moment_map_probe.py
+python3 tests/channel-swings/k942_source_epsilon_zero_reduction.py --check
+python3 tests/channel-swings/k942_source_epsilon_zero_reduction_probe.py
+python3 tests/channel-swings/k943_source_epsilon_orbit_reduction.py --check
+python3 tests/channel-swings/k943_source_epsilon_orbit_reduction_probe.py
+python3 tests/channel-swings/k944_source_epsilon_regular_bfv_boundary.py --check
+python3 tests/channel-swings/k944_source_epsilon_regular_bfv_boundary_probe.py
+python3 tests/channel-swings/k945_source_epsilon_gauge_ownership_boundary.py --check
+python3 tests/channel-swings/k945_source_epsilon_gauge_ownership_boundary_probe.py
+```
+
 ## K936--K940 analytic ownership boundary (2026-10-03)
 
 K936 classifies rather than chooses the auxiliary torus zero mode. Any

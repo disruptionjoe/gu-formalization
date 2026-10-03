@@ -1,0 +1,58 @@
+{
+  "claim_ceiling": "Exact finite coadjoint-orbit reduction theorem. It supplies neither the invariant-locking owner nor a functional domain, positivity or observed physical cohomology.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 24,
+    "hostile_mutations_rejected": 10,
+    "probe": "tests/channel-swings/k943_source_epsilon_orbit_reduction_probe.py",
+    "producer": "tests/channel-swings/k943_source_epsilon_orbit_reduction.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "current_action_locks_all_seven_invariants": false,
+    "current_off_shell_line_changes_all_seven_invariants": true,
+    "next_exact_input": "Supply an action-owned boundary or Green law locking the seven coadjoint invariants, or retain the transformations as charged boundary symmetry.",
+    "nonzero_reduction_preserves_formal_edge_modes": true,
+    "orbit_reduction_is_action_selected": false,
+    "physical_cohomology_constructed": false
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "source epsilon parent; orbit locking remains unowned",
+    "carrier": "J_L^{-1}(mu)/G_mu and J_L^{-1}(O_mu)/G",
+    "grading": "finite formal preboundary orbit sector",
+    "pairing": "Kirillov-Kostant-Souriau form inherited by cotangent reduction",
+    "real_structure": "regular real coadjoint orbit of Spin_0(7,7)",
+    "target": "QUOTIENT-TYPE=nonzero coadjoint-orbit reduction"
+  },
+  "ledger_no_change_reason": "The formal nonzero reduction is nontrivial but the current action does not select its fixed orbit.",
+  "pinned_inputs": {
+    "invariants": {
+      "path": "lab/process/selected-k77-coadjoint-invariant-variation-gate.json",
+      "sha256": "be1be824199f08b21c07c356a390fa5981a6009bc2be9dc6064382058409d876"
+    },
+    "k941": {
+      "path": "lab/process/k941-source-epsilon-cotangent-moment-map.json",
+      "sha256": "9c458f2a6851e8ece1389b5ac8b5c110d82846973b65c5a39362f95b87add8c3"
+    }
+  },
+  "result_id": "K943-SOURCE-EPSILON-ORBIT-REDUCTION",
+  "schema_version": "1.0",
+  "scope": "Exact fixed-charge and orbit reduction of the action-owned finite source-epsilon cotangent parent at the regular selected endpoint type.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__AC-F1_LT-SM8_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "fixed_mu_fiber_dimension": 91,
+    "fixed_mu_quotient_dimension": 84,
+    "fixed_mu_reduction_is_coadjoint_orbit": true,
+    "group_dimension": 91,
+    "nonzero_reduction_is_point": false,
+    "orbit_dimension": 84,
+    "orbit_reduction_is_same_coadjoint_orbit": true,
+    "reduced_form_is_KKS_up_to_convention_sign": true,
+    "regular_stabilizer_dimension": 7,
+    "seven_independent_invariants_must_be_locked": true
+  }
+}
