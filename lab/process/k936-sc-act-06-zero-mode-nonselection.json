@@ -1,0 +1,53 @@
+{
+  "claim_ceiling": "Exact classification of the isolated zero-mode freedom for the auxiliary toroidal projector. No native compactification, action, Fredholm, causal, BV-BFV or physical conclusion follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 24,
+    "hostile_mutations_rejected": 10,
+    "probe": "tests/channel-swings/k936_sc_act_06_zero_mode_nonselection_probe.py",
+    "producer": "tests/channel-swings/k936_sc_act_06_zero_mode_nonselection.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "native_zero_mode_owner_constructed": false,
+    "next_exact_input": "Test whether any finite-dimensional zero-mode choice can change the infinite-mode Fredholm obstruction; then identify the additional complement operator and domain a Fredholm completion would require.",
+    "zero_mode_family_classified": true,
+    "zero_mode_selection_is_new_global_data": true
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "carrier": "auxiliary L2(T^14;E1) with dim(E1)=229376",
+    "nonzero_symbol": "p(k)=P_H(k), rank 90128, for k nonzero",
+    "target": "OWNERSHIP-TYPE=zero-frequency projector selection",
+    "zero_mode": "an arbitrary orthogonal projector Q0 on E1"
+  },
+  "ledger_no_change_reason": "Classifying auxiliary zero-mode extensions neither selects one from the source nor changes a physical ledger row.",
+  "pinned_inputs": {
+    "k932": {
+      "path": "lab/process/k932-sc-act-06-toroidal-exact-projector.json",
+      "sha256": "90c0f31191ee977e5d455ab0867ec175e0e240728490bd7481eaef8d4ff8c990"
+    },
+    "k935": {
+      "path": "lab/process/k935-sc-act-06-exact-auxiliary-realization-boundary.json",
+      "sha256": "e3ca0bd40ee027e5d7bb76b62cb4ec65f109f92d2f75724dcaca68dd6fa5bd8a"
+    }
+  },
+  "result_id": "K936-SC-ACT-06-ZERO-MODE-NONSELECTION",
+  "schema_version": "1.0",
+  "scope": "Classification of every exact self-adjoint zero-mode extension of K932's fixed nonzero toroidal projector symbol.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "allowed_zero_mode_ranks": "every integer from 0 through 229376",
+    "any_two_Q0_extensions_differ_by_finite_rank": true,
+    "every_Q0_gives_exact_self_adjoint_projection": true,
+    "field_fiber_dimension": 229376,
+    "k932_choice": "Q0=0",
+    "nonzero_mode_kernel_dimension": 139248,
+    "nonzero_mode_rank": 90128,
+    "nonzero_principal_symbol_determines_Q0": false,
+    "source_or_action_selects_Q0": false
+  }
+}

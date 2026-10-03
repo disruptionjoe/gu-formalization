@@ -7,6 +7,49 @@ updated_at: "2026-10-03"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K936--K940 analytic ownership boundary (2026-10-03)
+
+K936 classifies rather than chooses the auxiliary torus zero mode. Any
+orthogonal projector `Q0` on the 229,376-dimensional coefficient fibre gives
+an exact self-adjoint extension of the fixed nonzero symbol, with every rank
+from zero through 229,376 possible. Two choices differ only on the constant
+Fourier mode and hence by finite rank. The source and the nonzero principal
+symbol select none of them.
+
+K937 uses the 90,128-dimensional range and 139,248-dimensional kernel on every
+nonzero lattice mode. Both occur infinitely often, so zero and one are
+essential-spectrum values of infinite multiplicity; the kernel and cokernel
+are infinite-dimensional for every `Q0`. Thus no finite low-mode choice makes
+the projection Fredholm. K938 proves the exact block-completion theorem: for
+`L_A=1` on `ran(Pi)` and `L_A=A` on `ker(Pi)`, with domain
+`ran(Pi)H^s direct sum D(A)`, `L_A` is Fredholm iff `A` is Fredholm, and
+`index(L_A)=index(A)`. This is an interface theorem, not an owner: choosing a
+Bessel-potential or another invertible `A` adds new infinite-mode dynamics and
+a new graph domain.
+
+K939 constructs the minimal linear BV differential
+`Q u=d0 c`, `Q c=0`, `Q u_plus=Pi u`,
+`Q c_plus=-d0* u_plus`. Its square vanishes exactly by `Pi d0=0` and
+`d0*Pi=0`. The auxiliary torus is closed, so this result contains no BFV
+boundary phase space; the nonlocal projector also supplies no local
+preboundary current or retarded/advanced support. K940 records eleven
+satisfied rows, two closed-negative rows and five missing native rows. Five
+producers pass 120 declared controls and five probes reject 50/50 hostile
+mutations. SC-ACT-06 remains `ASSERTS`.
+
+```bash
+python3 tests/channel-swings/k936_sc_act_06_zero_mode_nonselection.py --check
+python3 tests/channel-swings/k936_sc_act_06_zero_mode_nonselection_probe.py
+python3 tests/channel-swings/k937_sc_act_06_fredholm_essential_obstruction.py --check
+python3 tests/channel-swings/k937_sc_act_06_fredholm_essential_obstruction_probe.py
+python3 tests/channel-swings/k938_sc_act_06_complement_completion_interface.py --check
+python3 tests/channel-swings/k938_sc_act_06_complement_completion_interface_probe.py
+python3 tests/channel-swings/k939_sc_act_06_closed_carrier_bv_skeleton.py --check
+python3 tests/channel-swings/k939_sc_act_06_closed_carrier_bv_skeleton_probe.py
+python3 tests/channel-swings/k940_sc_act_06_analytic_ownership_boundary.py --check
+python3 tests/channel-swings/k940_sc_act_06_analytic_ownership_boundary_probe.py
+```
+
 ## K931--K935 exact auxiliary realization boundary (2026-10-03)
 
 K931 separates principal-symbol existence from exact all-frequency

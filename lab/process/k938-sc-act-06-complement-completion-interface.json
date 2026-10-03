@@ -1,0 +1,54 @@
+{
+  "claim_ceiling": "Exact Fredholm equivalence for block completion of the auxiliary projector. It proves analytic feasibility only after a new infinite-mode complement operator and graph domain are supplied.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 24,
+    "hostile_mutations_rejected": 10,
+    "probe": "tests/channel-swings/k938_sc_act_06_complement_completion_interface_probe.py",
+    "producer": "tests/channel-swings/k938_sc_act_06_complement_completion_interface.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "exact_missing_input": "a source/action-owned closed operator A on ker(Pi), its graph domain, and compatibility with the full gauge/response/preboundary complex",
+    "fredholm_completion_is_analytically_possible_with_new_data": true,
+    "native_fredholm_row_closed": false,
+    "next_exact_input": "Separate the algebraic BV identities already forced by Pi d0=0 from the still-unowned local preboundary/BFV and causal-domain data."
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "completion": "L_A=identity on ran(Pi) direct sum A on ker(Pi)",
+    "graph_domain": "ran(Pi)H^s direct sum D(A)",
+    "split": "H^s=ran(Pi) direct_sum ker(Pi)",
+    "target": "INTERFACE-TYPE=missing complement operator and domain"
+  },
+  "ledger_no_change_reason": "The theorem identifies the missing owner interface; selecting an auxiliary A is not a GU action or native domain.",
+  "pinned_inputs": {
+    "k934": {
+      "path": "lab/process/k934-sc-act-06-toroidal-formal-action.json",
+      "sha256": "36c6eae992bf9f7e1e547f4ff83d749836562d4c1de3a1b9638598cd76aef519"
+    },
+    "k937": {
+      "path": "lab/process/k937-sc-act-06-fredholm-essential-obstruction.json",
+      "sha256": "71e9ec0ee227ea9ec6c4ca0c89b6ce05afc0311ad3e2a89252c2212f5cbf7043"
+    }
+  },
+  "result_id": "K938-SC-ACT-06-COMPLEMENT-COMPLETION-INTERFACE",
+  "schema_version": "1.0",
+  "scope": "Abstract Fredholm-completion theorem for the orthogonal split ran(Pi) direct-sum ker(Pi) on the auxiliary toroidal carrier.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "L_A_fredholm_iff_A_fredholm": true,
+    "auxiliary_choice_A_equals_Bessel_potential_is_possible": true,
+    "auxiliary_choice_is_source_owned": false,
+    "cokernel_L_A_isomorphic_to_cokernel_A": true,
+    "completion_changes_infinite_mode_dynamics": true,
+    "index_L_A_equals_index_A": true,
+    "invertible_A_gives_inverse": "identity on ran(Pi) direct sum A^-1 on ker(Pi)",
+    "kernel_L_A_equals_kernel_A": true,
+    "projector_alone_specifies_A": false,
+    "projector_alone_specifies_graph_domain": false
+  }
+}

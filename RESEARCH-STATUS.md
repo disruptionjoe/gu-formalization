@@ -8,6 +8,27 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-03 — K936--K940 analytic ownership boundary
+
+K936 classifies every exact self-adjoint zero-mode extension of K932's
+toroidal projector. The isolated value is an arbitrary orthogonal projector
+`Q0` of any rank from zero through 229,376; the fixed nonzero principal symbol
+does not select it. K937 proves all such extensions retain infinite-dimensional
+range, kernel and cokernel, with essential spectrum `{0,1}`. Finite-rank
+zero-mode changes therefore cannot repair Fredholm failure.
+
+K938 identifies the precise missing Fredholm datum. Relative to
+`ran(Pi) direct sum ker(Pi)`, the block operator `L_A=1 direct sum A` is
+Fredholm exactly when the new closed complement operator `A` is Fredholm on
+its declared graph domain, and their indices agree. The projector supplies
+neither `A` nor that domain. K939 constructs the minimal linear BV differential
+forced by `Pi d0=0` on the closed auxiliary torus; it is nilpotent, but it
+provides no local preboundary/BFV phase space, causal support or finite BV
+cohomology theorem. K940 closes finite-low-mode repair and exhausts the
+projector-only continuation absent new source-owned infinite-mode data. The
+five producers pass 120 controls and the probes reject 50/50 hostile
+mutations. SC-ACT-06 remains `ASSERTS`; no protected conclusion moves.
+
 ## 2026-10-03 — K931--K935 exact auxiliary realization boundary
 
 K931 proves the nonconstant homogeneous projector cannot extend continuously

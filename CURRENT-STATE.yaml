@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 387d77f97294
+revision_basis: 2c9793531ad8
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K936--K940 exhaust the auxiliary projector's remaining zero-mode and
+    abstract analytic freedom without promoting it to GU truth. K936
+    classifies every exact self-adjoint toroidal extension: the isolated zero
+    mode is an arbitrary orthogonal projector `Q0` of any rank from zero
+    through 229,376, and the nonzero principal symbol selects none of them.
+    K937 proves all such choices differ only by finite rank while zero and one
+    retain infinite multiplicity, so every extension remains non-Fredholm.
+    K938 identifies the exact missing Fredholm datum: on
+    `ran(Pi) direct sum ker(Pi)`, a completion is Fredholm exactly when a new
+    closed complement operator `A` is Fredholm on `ker(Pi)`, with the same
+    index. Neither `A` nor its graph domain comes from the projector. K939
+    constructs the minimal linear BV differential implied by `Pi d0=0` on the
+    closed auxiliary torus, but no local preboundary/BFV phase space or causal
+    support follows. K940 therefore closes finite-low-mode repair and the
+    projector-only continuation. A different source/action-owned parent or
+    stationary germ must now supply the complete operator, domain,
+    Fredholm/causal and preboundary/BV-BFV packet. SC-ACT-06 remains
+    `ASSERTS`; no protected conclusion moves.
+
     K931--K935 settle the remaining formal quantization feasibility without
     promoting the projector to a GU action. K931 proves that K928's nonconstant
     degree-zero projector cannot extend continuously through zero frequency on
@@ -12936,6 +12955,20 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K936--K940 prove that the auxiliary projector cannot acquire Fredholm status
+  from any isolated zero-mode choice. Every orthogonal `Q0` is allowed, every
+  pair of choices differs by finite rank, and zero and one remain essential
+  spectrum values of infinite multiplicity. A Fredholm block completion
+  `L_A=1 on ran(Pi) direct sum A on ker(Pi)` exists exactly when a new closed
+  complement operator and graph domain are supplied; the projector selects
+  neither. The minimal closed-carrier BV differential is algebraically
+  nilpotent, but it supplies no local BFV boundary phase space or causal Green
+  support. The projector-parent route is therefore exhausted absent new
+  source/action-owned infinite-mode data. Which different owned parent or
+  stationary germ supplies the complete gauge/Hessian, domain,
+  Fredholm-or-causal and preboundary/BV-BFV packet? SC-ACT-06 remains
+  `ASSERTS`.
+
   K931--K935 prove that exact quantization is feasible only after the carrier
   and low-frequency convention are stated. The identical direction-dependent
   projector has no continuous full-symbol extension through zero on `R^14`,
@@ -14270,6 +14303,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K936--K940 close the projector-only analytic continuation. The nonzero
+  symbol leaves an arbitrary finite-dimensional zero-mode projector, and no
+  such choice changes the infinite-dimensional kernel, cokernel or essential
+  spectrum. Fredholm completion requires a new closed operator `A` on the
+  entire `ker(Pi)` complement and its graph domain. Algebraic BV nilpotence on
+  the auxiliary closed torus follows from `Pi d0=0`, but local preboundary/BFV
+  and causal support do not. Do not retry zero-mode choices or call an
+  arbitrary complement stabilization source-owned. Switch to a different
+  source/action-owned parent or stationary germ carrying the complete
+  operator, domain, Fredholm/causal and preboundary/BV-BFV data. SC-ACT-06
+  remains `ASSERTS`.
+
   K931--K935 close exact auxiliary quantization and common Sobolev/Hodge
   feasibility, not native GU ownership. The projector has no continuous
   all-frequency `R^14` symbol equal to `P_H` away from zero. The added flat

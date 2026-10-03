@@ -1,0 +1,55 @@
+{
+  "claim_ceiling": "Exact non-Fredholm theorem for every finite-dimensional zero-mode extension of the auxiliary toroidal projector. Different infinite-mode parents, domains, stationary germs and source actions remain open.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 24,
+    "hostile_mutations_rejected": 10,
+    "probe": "tests/channel-swings/k937_sc_act_06_fredholm_essential_obstruction_probe.py",
+    "producer": "tests/channel-swings/k937_sc_act_06_fredholm_essential_obstruction.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "native_fredholm_realization_constructed": false,
+    "next_exact_input": "A Fredholm completion must act nontrivially on the infinite-dimensional complement ker(Pi), not merely change the isolated zero mode. Classify that required complement operator and domain as new data.",
+    "zero_mode_repair_route_closed": true
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "domain": "H^s(T^14;E1) to itself",
+    "operator": "Pi_Q0 with p(k)=P_H(k) for k nonzero and p(0)=Q0",
+    "target": "OBSTRUCTION-TYPE=finite-low-mode Fredholm repair"
+  },
+  "ledger_no_change_reason": "The theorem closes only finite-low-mode repair of an auxiliary projection; it neither supplies nor excludes a different source-owned operator.",
+  "pinned_inputs": {
+    "k933": {
+      "path": "lab/process/k933-sc-act-06-sobolev-hodge-domain.json",
+      "sha256": "0e6833b5de6c09f045647e5ae937ac94d0c0889f59d8d66ba7fc901a9e9e9f0d"
+    },
+    "k936": {
+      "path": "lab/process/k936-sc-act-06-zero-mode-nonselection.json",
+      "sha256": "d86f80db2cc8aa2a1515dc507b2b127f2a6c80246d6f68b088e355efc6d3b59c"
+    }
+  },
+  "result_id": "K937-SC-ACT-06-FREDHOLM-ESSENTIAL-OBSTRUCTION",
+  "schema_version": "1.0",
+  "scope": "Fredholm and essential-spectrum classification for every K936 zero-mode extension of the auxiliary toroidal projection.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "cokernel_infinite_dimensional": true,
+    "essential_spectrum": [
+      0,
+      1
+    ],
+    "every_Q0_extension_fredholm": false,
+    "finite_rank_zero_mode_changes_preserve_essential_spectrum": true,
+    "finite_rank_zero_mode_changes_preserve_nonfredholm_status": true,
+    "kernel_infinite_dimensional": true,
+    "nonzero_mode_kernel_dimension": 139248,
+    "nonzero_mode_range_dimension": 90128,
+    "range_infinite_dimensional": true,
+    "zero_and_one_have_infinite_multiplicity": true
+  }
+}

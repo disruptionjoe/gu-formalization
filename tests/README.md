@@ -4,6 +4,22 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K936--K940 analytic ownership boundary
+
+- `channel-swings/k936_sc_act_06_zero_mode_nonselection.py` classifies every
+  exact self-adjoint zero-mode projector extension.
+- `channel-swings/k937_sc_act_06_fredholm_essential_obstruction.py` proves
+  finite low-mode changes cannot repair the essential Fredholm obstruction.
+- `channel-swings/k938_sc_act_06_complement_completion_interface.py` proves
+  Fredholm completion is equivalent to supplying a new Fredholm operator and
+  graph domain on the projector complement.
+- `channel-swings/k939_sc_act_06_closed_carrier_bv_skeleton.py` constructs the
+  minimal nilpotent BV differential on the auxiliary closed carrier.
+- `channel-swings/k940_sc_act_06_analytic_ownership_boundary.py` freezes the
+  remaining native Fredholm, causal, source/action and local BV-BFV rows.
+- Matching probes reject 50/50 hostile mutations across 120 declared
+  controls. SC-ACT-06 remains `ASSERTS`.
+
 ## K931--K935 exact auxiliary realization boundary
 
 - `channel-swings/k931_sc_act_06_low_frequency_extension_obstruction.py`

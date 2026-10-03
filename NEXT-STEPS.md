@@ -7,6 +7,21 @@ updated_at: "2026-10-03"
 
 # Next Steps For Contributors
 
+> **2026-10-03 K936--K940 ANALYTIC OWNERSHIP BOUNDARY.** K936 classifies every
+> zero-mode extension of the auxiliary toroidal projector: `p(0)=Q0` may be
+> any orthogonal projector on the 229,376-dimensional fibre, and the nonzero
+> symbol selects none. K937 proves all choices remain non-Fredholm because
+> zero and one have infinite multiplicity; finite-rank low-mode changes cannot
+> repair that obstruction. K938 proves a block completion is Fredholm exactly
+> when a new closed operator `A` on `ker(Pi)` is Fredholm on its own graph
+> domain. K939 constructs the minimal algebraic BV differential on the closed
+> auxiliary carrier, but no local BFV boundary phase space or causal support.
+> K940 exhausts this projector-only route. Next switch to a different
+> source/action-owned parent or stationary germ with the complete
+> gauge/Hessian, operator domain, Fredholm-or-causal and preboundary/BV-BFV
+> packet. Do not retry zero-mode choices or promote an arbitrary complement
+> stabilization. SC-ACT-06 remains `ASSERTS`.
+
 > **2026-10-03 K931--K935 EXACT AUXILIARY REALIZATION BOUNDARY.** K931 proves
 > that the nonconstant homogeneous projector has no continuous zero-frequency
 > extension on `R^14`; a smooth cutoff loses exact idempotence. K932 chooses an

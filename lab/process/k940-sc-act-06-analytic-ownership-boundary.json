@@ -1,0 +1,141 @@
+{
+  "certificate": {
+    "SC_ACT_06_status": "ASSERTS",
+    "closed_negative_row_count": 2,
+    "connection_fiber_rank": 90128,
+    "full_GU_repair_credit": false,
+    "missing_row_count": 5,
+    "row_count": 18,
+    "rows": [
+      {
+        "row": "complete_nonzero_connection_family",
+        "state": "satisfied"
+      },
+      {
+        "row": "fixed_germ_positive_metric",
+        "state": "satisfied"
+      },
+      {
+        "row": "smooth_nonconstant_degree_zero_symbol",
+        "state": "satisfied"
+      },
+      {
+        "row": "continuous_euclidean_zero_frequency_extension",
+        "state": "closed_negative"
+      },
+      {
+        "row": "auxiliary_toroidal_full_symbol",
+        "state": "satisfied"
+      },
+      {
+        "row": "exact_self_adjoint_operator_projection",
+        "state": "satisfied"
+      },
+      {
+        "row": "common_auxiliary_sobolev_domain",
+        "state": "satisfied"
+      },
+      {
+        "row": "auxiliary_hodge_generalized_inverse",
+        "state": "satisfied"
+      },
+      {
+        "row": "zero_mode_family_classified",
+        "state": "satisfied"
+      },
+      {
+        "row": "finite_low_mode_fredholm_repair",
+        "state": "closed_negative"
+      },
+      {
+        "row": "complement_fredholm_interface",
+        "state": "satisfied"
+      },
+      {
+        "row": "auxiliary_closed_carrier_bv_skeleton",
+        "state": "satisfied"
+      },
+      {
+        "row": "native_fredholm_realization",
+        "state": "missing"
+      },
+      {
+        "row": "native_causal_green_realization",
+        "state": "missing"
+      },
+      {
+        "row": "native_global_topology_and_zero_mode_owner",
+        "state": "missing"
+      },
+      {
+        "row": "source_action_ownership",
+        "state": "missing"
+      },
+      {
+        "row": "local_preboundary_bfv_data",
+        "state": "missing"
+      },
+      {
+        "row": "authenticated_old_quotient_identity",
+        "state": "satisfied"
+      }
+    ],
+    "satisfied_row_count": 11
+  },
+  "claim_ceiling": "Exact auxiliary zero-mode, Fredholm-interface and algebraic-BV boundary. It neither proves nor refutes SC-ACT-06 and grants no native action, causal, BV-BFV or physical credit.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 24,
+    "hostile_mutations_rejected": 10,
+    "probe": "tests/channel-swings/k940_sc_act_06_analytic_ownership_boundary_probe.py",
+    "producer": "tests/channel-swings/k940_sc_act_06_analytic_ownership_boundary.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "abstract_fredholm_completion_requires_new_infinite_mode_owner": true,
+    "auxiliary_algebraic_bv_exists": true,
+    "native_fredholm_or_causal_green_exists": false,
+    "native_local_preboundary_bfv_exists": false,
+    "next_route": "SWITCH_TO_A_DIFFERENT_SOURCE_ACTION_OWNED_PARENT_OR_STATIONARY_GERM_WITH_COMPLETE_OPERATOR_DOMAIN_CAUSAL_OR_FREDHOLM_AND_PREBOUNDARY_BV_BFV_DATA",
+    "projector_parent_route_exhausted_without_new_owned_input": true,
+    "source_action_owned_complete_operator_exists": false,
+    "zero_mode_choice_cannot_repair_fredholm_failure": true
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "bv_skeleton": "minimal linear closed-carrier Q",
+    "fredholm_interface": "L_A=identity on ran(Pi) direct sum A on ker(Pi)",
+    "projector": "Pi_Q0 on auxiliary T^14",
+    "target": "DISPOSITION-TYPE=analytic feasibility versus native ownership"
+  },
+  "ledger_no_change_reason": "The wave exhausts auxiliary analytic freedom without supplying a source-owned action, topology, complement operator, causal structure or boundary theory.",
+  "pinned_inputs": {
+    "k935": {
+      "path": "lab/process/k935-sc-act-06-exact-auxiliary-realization-boundary.json",
+      "sha256": "e3ca0bd40ee027e5d7bb76b62cb4ec65f109f92d2f75724dcaca68dd6fa5bd8a"
+    },
+    "k936": {
+      "path": "lab/process/k936-sc-act-06-zero-mode-nonselection.json",
+      "sha256": "d86f80db2cc8aa2a1515dc507b2b127f2a6c80246d6f68b088e355efc6d3b59c"
+    },
+    "k937": {
+      "path": "lab/process/k937-sc-act-06-fredholm-essential-obstruction.json",
+      "sha256": "71e9ec0ee227ea9ec6c4ca0c89b6ce05afc0311ad3e2a89252c2212f5cbf7043"
+    },
+    "k938": {
+      "path": "lab/process/k938-sc-act-06-complement-completion-interface.json",
+      "sha256": "e67e1df2fbdb5159319bae2f0b3332cafd61514bd16a94ff5946fa37b0481a83"
+    },
+    "k939": {
+      "path": "lab/process/k939-sc-act-06-closed-carrier-bv-skeleton.json",
+      "sha256": "ed777f1ae5bea08825c3f5b41a5f5b8748bf98069983cd7964122fecd988a499"
+    }
+  },
+  "result_id": "K940-SC-ACT-06-ANALYTIC-OWNERSHIP-BOUNDARY",
+  "schema_version": "1.0",
+  "scope": "Post-K935 disposition after exhausting zero-mode repair, classifying Fredholm complement data and constructing the auxiliary closed-carrier BV skeleton.",
+  "source_and_ledger_effect": "SC-ACT-01_04_05_06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}
