@@ -1,0 +1,66 @@
+{
+  "claim_ceiling": "Exact identity action on the authenticated old submodule only. It does not establish the complete cohomology family, local differential ownership, analytic globalization, ellipticity or rich moduli.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "composition": {
+    "gauge_descent": "P_H G=0",
+    "induced_operator": "identity on H_old",
+    "kernel_on_H_old": 0,
+    "rank": 90128,
+    "rank_on_every_occupied_isotypic_block": "full",
+    "real_type_count": 40,
+    "released_residual_square_rank_on_H_old": 0,
+    "strictly_new_formal_capacity_relative_to_released_span": true,
+    "total_real_multiplicity": 169
+  },
+  "controls": {
+    "controls_passed": 34,
+    "hostile_mutations_rejected": 18,
+    "probe": "tests/channel-swings/k923_sc_act_06_forty_type_projector_repair_probe.py",
+    "producer": "tests/channel-swings/k923_sc_act_06_forty_type_projector_repair.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "abstract_diagonal_repair_covers_authenticated_old_submodule": true,
+    "forty_type_capacity_obstruction_for_formal_parent": false,
+    "next_exact_input": "Audit whether this identity repair can arise from a local natural source/action-owned old-old Hessian on the complete cosphere family with common Green and preboundary data.",
+    "released_K_HQ_span_reopened": false,
+    "source_owned_GU_repair_constructed": false
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "domain": "authenticated old quotient submodule H_old",
+    "operator": "bar(P_H):H_old->H_old",
+    "representation": "forty real SO(6)xSO(7) types with total multiplicity 169",
+    "target": "CAPACITY-TYPE=identity repair on authenticated old quotient"
+  },
+  "ledger_no_change_reason": "Full formal quotient capacity is not source ownership, locality, a complete symbol complex or physical recovery.",
+  "pinned_inputs": {
+    "k879": {
+      "path": "lab/process/k879-sc-act-06-full-field-quotient-injection.json",
+      "sha256": "bd70c9cdc5d11b65fd60c922edffdee607d63938c90fcfbc90ffa59670b746bf"
+    },
+    "k884": {
+      "path": "lab/process/k884-sc-act-06-residual-square-typewise-capacity.json",
+      "sha256": "22cdd9c9c6dcd0fd8140938d0d68a11bf96f617e9cf0b75cffa73ef7907316a4"
+    },
+    "k901": {
+      "path": "lab/process/k901-sc-act-06-released-parent-typewise-capacity.json",
+      "sha256": "525c2385abf5605bd9673b4c85a8593f83790cdfd14a8eb430753663706c9893"
+    },
+    "k921": {
+      "path": "lab/process/k921-sc-act-06-quotient-projector-parent.json",
+      "sha256": "35c43e28cfc321cd386330b8b7efed99295164571171bece5e4246d7d298b598"
+    },
+    "k922": {
+      "path": "lab/process/k922-sc-act-06-quadratic-projector-action.json",
+      "sha256": "71b860407b6730d43e737bf057eac35cb59ddc52c06df95f4aa2ab0caf0e4d8d"
+    }
+  },
+  "result_id": "K923-SC-ACT-06-FORTY-TYPE-PROJECTOR-REPAIR",
+  "schema_version": "1.0",
+  "scope": "Induced action of K922's auxiliary quotient-projector Hessian on K879's authenticated 90,128-dimensional old obstruction submodule with forty real SO(6)xSO(7) types.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

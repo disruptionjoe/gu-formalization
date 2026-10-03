@@ -7,6 +7,22 @@ updated_at: "2026-10-03"
 
 # Next Steps For Contributors
 
+> **2026-10-03 K921--K925 FORMAL OLD-PARENT ADMISSION BOUNDARY.** K921
+> constructs the orthogonal projector `P_H` onto
+> `ker(J) intersect im(G)^perp`; it is symmetric, idempotent, gauge-basic and
+> induces the identity on old cohomology. K922 realizes it as the Hessian of
+> `A_H=1/2<x,P_Hx>`. K923 proves exact rank 90,128 and full identity capacity
+> on all forty old types and multiplicity 169. K924 shows that only the formal
+> identity row passes: complete-family, auxiliary-owner, naturality, locality,
+> source/action, Green-domain and preboundary/BV rows remain absent. K925
+> removes pure finite-symbol algebraic impossibility without granting GU
+> repair credit. Next derive or reject a local or explicitly accepted
+> pseudodifferential natural source/action realization on the complete
+> cosphere family with common Green and preboundary data; otherwise switch to
+> a changed stationary germ or independently owned response. Do not promote
+> the auxiliary projector or reopen the released `K/H_Q` span. SC-ACT-06
+> remains `ASSERTS`.
+
 > **2026-10-03 K916--K920 GRADED NONZERO-FERMION RECONCILIATION.** K916
 > corrects K915 against K751--K754: the finite-free body obstruction, minimal
 > Grassmann-bilinear saddle closure and CBRS-1R rejection already existed.

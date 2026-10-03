@@ -1,0 +1,110 @@
+{
+  "audit": {
+    "finite_symbol_existence_implies_local_action": false,
+    "formal_identity_row_only": true,
+    "generalized_inverse_dependency": "P_ker(J) and P_im(G) require auxiliary adjoints/complements and, in formulas, Moore-Penrose or Green-type inverses",
+    "missing_rows": 7,
+    "ordinary_bundle_triviality_implies_natural_action": false,
+    "row_count": 8,
+    "rows": [
+      {
+        "current": false,
+        "row": "complete_constant_rank_family",
+        "why": "K879 authenticates a basepoint old submodule, not the complete old cohomology bundle over the cosphere"
+      },
+      {
+        "current": false,
+        "row": "positive_auxiliary_metric_owner",
+        "why": "the orthogonal complement and adjoints depend on a chosen positive auxiliary metric"
+      },
+      {
+        "current": false,
+        "row": "natural_equivariant_projector",
+        "why": "K862 still requires authenticated isotropy modules and source/action-owned intertwiners"
+      },
+      {
+        "current": false,
+        "row": "local_differential_symbol",
+        "why": "the orthogonal projector is defined through kernels, complements and generalized inverses; no polynomial local symbol is supplied"
+      },
+      {
+        "current": false,
+        "row": "source_action_ownership",
+        "why": "the quadratic control is repository-defined and absent from the source action inventory"
+      },
+      {
+        "current": false,
+        "row": "common_green_domain",
+        "why": "no common closed domain or Green realization for the complete field complex is constructed"
+      },
+      {
+        "current": false,
+        "row": "preboundary_bv_bfv_data",
+        "why": "no variational preboundary form, gauge quotient or BFV/BV completion is constructed"
+      },
+      {
+        "current": true,
+        "row": "authenticated_old_submodule_identity",
+        "why": "K923 proves identity on the 90,128-dimensional forty-type old submodule"
+      }
+    ],
+    "satisfied_rows": 1
+  },
+  "claim_ceiling": "Exact current-custody audit. It does not prove that every local or natural old-old parent is impossible, and it does not grant source, action, ellipticity or moduli credit to the projector.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 38,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k924_sc_act_06_projector_locality_ownership_boundary_probe.py",
+    "producer": "tests/channel-swings/k924_sc_act_06_projector_locality_ownership_boundary.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "formal_parent_admitted_as_source_GU_action": false,
+    "formal_parent_rejected_as_algebraically_invalid": false,
+    "locality_or_naturality_no_go_for_all_future_parents": false,
+    "next_exact_input": "Supply a complete constant-rank Euclidean family and derive a polynomial local or explicitly accepted pseudodifferential natural projector from the source/action, with owned auxiliary structure, common Green domain and preboundary/BV data.",
+    "remaining_obstruction_relocated_to_family_ownership_and_analysis": true
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action": "repository-defined quadratic A_H",
+    "candidate": "auxiliary orthogonal quotient projector P_H",
+    "consuming_family": "complete Euclidean old-field symbol family over the nonzero covector cosphere",
+    "target": "ADMISSION-TYPE=local natural source/action-owned old-old Hessian"
+  },
+  "ledger_no_change_reason": "Seven unsatisfied admission rows prevent the formal identity parent from becoming a GU action or physical complex.",
+  "pinned_inputs": {
+    "k855": {
+      "path": "lab/process/k855-sc-act-06-cohomology-bundle.json",
+      "sha256": "e5117e3de143b715f684c0d2601b0d820a326ab8bedb2b255206060aae49ef32"
+    },
+    "k858": {
+      "path": "lab/process/k858-sc-act-06-topological-repair-disposition.json",
+      "sha256": "bfd5a8fe40de61222a84172951815bf7bca1a3d4d70679abfcc7bc34fff37e2c"
+    },
+    "k862": {
+      "path": "lab/process/k862-sc-act-06-naturality-repair-disposition.json",
+      "sha256": "afb6bc283444da51c143389042b0c2b709cb702dcd0001051e78d0c1d5b4753c"
+    },
+    "k921": {
+      "path": "lab/process/k921-sc-act-06-quotient-projector-parent.json",
+      "sha256": "35c43e28cfc321cd386330b8b7efed99295164571171bece5e4246d7d298b598"
+    },
+    "k922": {
+      "path": "lab/process/k922-sc-act-06-quadratic-projector-action.json",
+      "sha256": "71b860407b6730d43e737bf057eac35cb59ddc52c06df95f4aa2ab0caf0e4d8d"
+    },
+    "k923": {
+      "path": "lab/process/k923-sc-act-06-forty-type-projector-repair.json",
+      "sha256": "f7fd8a521ac8c137d0d02b43e2388ace962789c4464259f8c990b3faee567eb5"
+    }
+  },
+  "result_id": "K924-SC-ACT-06-PROJECTOR-LOCALITY-OWNERSHIP-BOUNDARY",
+  "schema_version": "1.0",
+  "scope": "Admission audit of K921--K923's auxiliary quotient-projector action against the complete-family, locality, naturality, ownership, Green and preboundary obligations for GU credit.",
+  "source_and_ledger_effect": "SC-ACT-01_06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

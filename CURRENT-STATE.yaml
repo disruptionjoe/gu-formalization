@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: a3a5c99ff873
+revision_basis: f0787d41ed33
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,26 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K921--K925 instantiate K920's new gauge-basic old-old-parent reopener at
+    exact auxiliary finite-symbol grade. K921 constructs the orthogonal
+    projector `P_H` onto `H=ker(J) intersect im(G)^perp`; it is self-adjoint,
+    idempotent, satisfies `P_H G=0` and `J P_H=0`, and induces the identity on
+    old cohomology. K922 realizes it as the Hessian of the quadratic functional
+    `A_H(x)=1/2<x,P_Hx>`, giving an honest formal variational parent rather than
+    another nonintegrable control. K923 composes that Hessian with K879/K884:
+    it has rank 90,128 and full rank on all forty real types and multiplicity
+    169, whereas the released residual-square span remains zero there. K924
+    audits the promotion boundary: only the authenticated-submodule identity
+    row passes; the complete constant-rank family, auxiliary-metric owner,
+    natural equivariant projector, local differential symbol, source/action
+    ownership, common Green domain and preboundary/BV rows are absent. K925
+    therefore removes pure finite-dimensional algebraic impossibility but
+    grants no GU repair credit. Next derive or reject a local or explicitly
+    accepted pseudodifferential natural source/action realization of this
+    projector class with the full family and analytic packet, or switch to a
+    changed stationary germ or independent owned response. The completion gate
+    remains five of eleven and SC-ACT-06 remains `ASSERTS`.
+
     K916--K920 reconcile K915 with the earlier K751--K754 supercomplex/body
     obstruction that its generic nonzero-fermion handoff omitted. K916 records
     that an ordinary point has zero literal odd coordinates and that K751--K754
@@ -12875,6 +12895,22 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K921--K925 construct an exact auxiliary old-old parent instead of another
+  rank budget. For the old complex, the orthogonal projector `P_H` onto
+  `ker(J) intersect im(G)^perp` is symmetric, idempotent, gauge-basic and the
+  Hessian of `A_H=1/2<x,P_Hx>`. It induces the identity on K879's full
+  90,128-dimensional, forty-type, multiplicity-169 old quotient, proving that
+  pure finite-symbol algebra does not forbid a diagonal variational repair.
+  Current custody nevertheless passes only one of eight admission rows: it
+  lacks the complete constant-rank cosphere family, owned positive auxiliary
+  structure, natural equivariant projector, polynomial local symbol or an
+  explicitly accepted pseudodifferential action, source/action ownership,
+  common Green domain and preboundary/BV data. Can the source/action derive
+  such a natural realization on the complete family, or can a proposed local
+  realization be rejected by its first failed ownership, locality, Ward,
+  domain or preboundary row? Otherwise switch to a changed stationary germ or
+  independently owned response. SC-ACT-06 remains `ASSERTS`.
+
   K916--K920 correct K915's generic nonzero-fermion handoff by reconciling the
   earlier K751--K754 body obstruction. For a literal Grassmann-odd superpoint,
   `body(L)=0` and `body(B*L)=0`; hence the augmented Ward equation reduces to
@@ -14182,6 +14218,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K921--K925 instantiate K920's new gauge-basic old-old-parent reopener at
+  exact auxiliary finite-symbol grade. The orthogonal projector `P_H` is
+  symmetric, idempotent, gauge-basic, variational and identity on the
+  90,128-dimensional old quotient, with full rank on all forty real types and
+  multiplicity 169. Pure finite-symbol algebra therefore does not forbid a
+  diagonal repair, but current custody lacks the complete constant-rank
+  family, owned auxiliary metric, natural projector, local or accepted
+  pseudodifferential symbol, source/action ownership, common Green domain and
+  preboundary/BV data. Next derive or reject that natural realization on the
+  complete family; otherwise switch to a changed stationary germ or
+  independent owned response. The completion gate remains five of eleven and
+  SC-ACT-06 remains `ASSERTS`.
+
   K916--K920 reconcile K915 with K751--K754 and correct its generic
   nonzero-fermion handoff. No rediscovery is claimed: the earlier body theorem
   already closes the minimal Grassmann-bilinear odd saddle and CBRS-1R. For a

@@ -7,6 +7,47 @@ updated_at: "2026-10-03"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K921--K925 formal old-parent admission boundary (2026-10-03)
+
+K921 applies the positive-auxiliary orthogonal model of the old symbol
+cohomology. The projector `P_H` onto
+`H=ker(J) intersect im(G)^perp` is self-adjoint and idempotent, obeys
+`P_H G=0` and `J P_H=0`, and induces the identity on `H`. K922 proves this is
+not merely a linear control: the quadratic functional
+`A_H(x)=1/2<x,P_Hx>` has Euler map and Hessian `P_H`, is stationary at the
+origin, satisfies Helmholtz symmetry and is invariant along the gauge image.
+
+K923 composes the formal Hessian with K879's authenticated old obstruction
+submodule. Its induced rank is 90,128, with full rank on all forty real
+`SO(6)xSO(7)` types and total real multiplicity 169. This is strictly new
+formal quotient capacity relative to the released `K/H_Q` span, whose induced
+rank remains zero; it does not reopen or alter that released span.
+
+K924 audits eight promotion rows. Only identity on the authenticated old
+submodule is present. Current custody does not supply the complete
+constant-rank cosphere family, an owner for the auxiliary positive metric, a
+natural equivariant projector, a polynomial local symbol or explicitly
+accepted pseudodifferential action, source/action ownership, a common Green
+domain, or preboundary/BV data. K925 freezes the result: a symmetric
+gauge-basic variational parent exists abstractly, so pure finite-dimensional
+algebra does not forbid diagonal repair, but the projector earns no GU
+repair, ellipticity or moduli credit. The five producers pass 176 declared
+controls and the probes reject 94/94 hostile mutations. SC-ACT-06 remains
+`ASSERTS`.
+
+```bash
+python3 tests/channel-swings/k921_sc_act_06_quotient_projector_parent.py --check
+python3 tests/channel-swings/k921_sc_act_06_quotient_projector_parent_probe.py
+python3 tests/channel-swings/k922_sc_act_06_quadratic_projector_action.py --check
+python3 tests/channel-swings/k922_sc_act_06_quadratic_projector_action_probe.py
+python3 tests/channel-swings/k923_sc_act_06_forty_type_projector_repair.py --check
+python3 tests/channel-swings/k923_sc_act_06_forty_type_projector_repair_probe.py
+python3 tests/channel-swings/k924_sc_act_06_projector_locality_ownership_boundary.py --check
+python3 tests/channel-swings/k924_sc_act_06_projector_locality_ownership_boundary_probe.py
+python3 tests/channel-swings/k925_sc_act_06_formal_parent_admission_boundary.py --check
+python3 tests/channel-swings/k925_sc_act_06_formal_parent_admission_boundary_probe.py
+```
+
 ## K916--K920 graded nonzero-fermion reconciliation (2026-10-03)
 
 K916 reconciles K915's generic nonzero-fermion successor with K751--K754,

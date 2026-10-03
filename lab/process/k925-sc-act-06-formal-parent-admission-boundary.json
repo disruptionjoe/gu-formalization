@@ -1,0 +1,69 @@
+{
+  "boundary": {
+    "SC_ACT_06_status": "ASSERTS",
+    "abstract_parent_is_variational": true,
+    "abstract_symmetric_gauge_basic_parent_exists": true,
+    "authenticated_old_multiplicity_repaired": 169,
+    "authenticated_old_real_types_repaired": 40,
+    "authenticated_old_submodule_rank_repaired": 90128,
+    "common_green_preboundary_packet_exists_in_current_custody": false,
+    "complete_cosphere_family_exists_in_current_custody": false,
+    "pure_finite_symbol_algebraic_impossibility": false,
+    "source_action_owned_local_parent_exists_in_current_custody": false
+  },
+  "claim_ceiling": "Exact formal-parent admission boundary. It is neither a source action construction nor a local/pseudodifferential classification theorem, complete elliptic complex, Fredholm realization or rich-moduli result.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 38,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k925_sc_act_06_formal_parent_admission_boundary_probe.py",
+    "producer": "tests/channel-swings/k925_sc_act_06_formal_parent_admission_boundary.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "K920_new_old_parent_route_instantiated_formally": true,
+    "SC_ACT_06_proved_or_refuted": false,
+    "do_not_promote_auxiliary_projector_to_source_action": true,
+    "do_not_retry_released_K_HQ_span": true,
+    "formal_instantiation_earns_GU_repair_credit": false,
+    "next_route": "DERIVE_OR_REJECT_A_LOCAL_OR_EXPLICITLY_ACCEPTED_PSEUDODIFFERENTIAL_NATURAL_SOURCE_ACTION_REALIZATION_OF_THE_PROJECTOR_CLASS__OTHERWISE_SWITCH_TO_A_CHANGED_STATIONARY_GERM_OR_INDEPENDENT_OWNED_RESPONSE",
+    "what_negative_changes": "failure closes that proposed realization only; it does not undo formal existence or refute every future old-old parent",
+    "what_positive_changes": "an owned natural realization would supply the missing diagonal quotient capacity and open complete-family ellipticity tests"
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "formal_effect": "identity on the authenticated forty-type old quotient",
+    "formal_parent": "P_H and A_H=1/2<x,P_Hx>",
+    "target": "DISPOSITION-TYPE=formal old-parent admission boundary",
+    "unmet_owner": "local or accepted pseudodifferential natural source/action family with complete analytic data"
+  },
+  "ledger_no_change_reason": "The wave proves formal variational capacity but none of the ownership, locality, family or analytic conditions needed for a GU deformation complex.",
+  "pinned_inputs": {
+    "k920": {
+      "path": "lab/process/k920-sc-act-06-graded-nonzero-fermion-admission-boundary.json",
+      "sha256": "7fa12a692a13c40e2400be0b05caafc26832862dfbde7fdeb9d27b66b5a48bc8"
+    },
+    "k921": {
+      "path": "lab/process/k921-sc-act-06-quotient-projector-parent.json",
+      "sha256": "35c43e28cfc321cd386330b8b7efed99295164571171bece5e4246d7d298b598"
+    },
+    "k922": {
+      "path": "lab/process/k922-sc-act-06-quadratic-projector-action.json",
+      "sha256": "71b860407b6730d43e737bf057eac35cb59ddc52c06df95f4aa2ab0caf0e4d8d"
+    },
+    "k923": {
+      "path": "lab/process/k923-sc-act-06-forty-type-projector-repair.json",
+      "sha256": "f7fd8a521ac8c137d0d02b43e2388ace962789c4464259f8c990b3faee567eb5"
+    },
+    "k924": {
+      "path": "lab/process/k924-sc-act-06-projector-locality-ownership-boundary.json",
+      "sha256": "cfbd7538a245f5ab7e6951d4db0878ec20cf773a4a6134616f1aa28ae2955c5d"
+    }
+  },
+  "result_id": "K925-SC-ACT-06-FORMAL-PARENT-ADMISSION-BOUNDARY",
+  "schema_version": "1.0",
+  "scope": "Post-K920 disposition after constructing a symmetric gauge-basic auxiliary old-old projector Hessian with exact identity capacity on the authenticated old quotient.",
+  "source_and_ledger_effect": "SC-ACT-01_04_05_06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

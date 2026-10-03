@@ -701,6 +701,21 @@ def load_inputs() -> dict:
         "k920": json.loads(
             (ROOT / "lab/process/k920-sc-act-06-graded-nonzero-fermion-admission-boundary.json").read_text()
         ),
+        "k921": json.loads(
+            (ROOT / "lab/process/k921-sc-act-06-quotient-projector-parent.json").read_text()
+        ),
+        "k922": json.loads(
+            (ROOT / "lab/process/k922-sc-act-06-quadratic-projector-action.json").read_text()
+        ),
+        "k923": json.loads(
+            (ROOT / "lab/process/k923-sc-act-06-forty-type-projector-repair.json").read_text()
+        ),
+        "k924": json.loads(
+            (ROOT / "lab/process/k924-sc-act-06-projector-locality-ownership-boundary.json").read_text()
+        ),
+        "k925": json.loads(
+            (ROOT / "lab/process/k925-sc-act-06-formal-parent-admission-boundary.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -893,9 +908,14 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     check(registry["latest_gu_formalization_result"] ==
-          "K916_K920_SC_ACT_06_GRADED_NONZERO_FERMION_RECONCILIATION_CURRENT",
+          "K921_K925_SC_ACT_06_FORMAL_PARENT_ADMISSION_BOUNDARY_CURRENT",
           "latest GU result pointer moved")
     if isinstance(live, str):
+        check("K921--K925 instantiate K920's new gauge-basic old-old-parent reopener" in live and
+              "90,128-dimensional" in live and
+              "all forty real types" in live and
+              "complete constant-rank family" in live,
+              "live K921--K925 formal-parent boundary missing")
         check("K916--K920 reconcile K915" in live and
               "body(B*L)=0" in live and
               "90,128-dimensional" in live and
@@ -1447,6 +1467,19 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "K921--K925 instantiate K920's gauge-basic old-old-parent reopener" in data["agenda"].get("latest_result_2026_10_03_k921_k925", "")
+        and "orthogonal projector" in data["agenda"].get("latest_result_2026_10_03_k921_k925", "")
+        and "complete-family" in data["agenda"].get("latest_result_2026_10_03_k921_k925", "")
+        and "SC-ACT-06 remains ASSERTS" in data["agenda"].get("latest_result_2026_10_03_k921_k925", ""),
+        "agenda K921--K925 result is not current",
+    )
+    check(
+        "K921--K925 construct an exact auxiliary old-old parent" in question
+        and "90,128-dimensional, forty-type" in question
+        and "one of eight admission rows" in question,
+        "current question lost K921--K925 formal-parent boundary",
+    )
     check(
         "K916--K920 reconcile K915" in data["agenda"].get("latest_result_2026_10_03_k916_k920", "")
         and "body(B*L)=0" in data["agenda"].get("latest_result_2026_10_03_k916_k920", "")
@@ -4666,6 +4699,48 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k920["decision"]["SC_ACT_06_proved_or_refuted"],
           "K920 graded admission boundary moved")
 
+    k921 = data["k921"]
+    check(k921["theorem"]["rank_on_authenticated_old_submodule"] == 90128 and
+          k921["theorem"]["self_adjoint"] and
+          k921["theorem"]["idempotent"] and
+          k921["theorem"]["gauge_basic"] == "P_H G=0" and
+          k921["decision"]["abstract_gauge_basic_old_old_parent_constructed"] and
+          not k921["decision"]["source_or_action_owned_local_parent_constructed"],
+          "K921 quotient-projector parent moved")
+
+    k922 = data["k922"]
+    check(k922["variation"]["hessian"] == "D E_H=P_H" and
+          k922["variation"]["gauge_invariant_under_x_to_x+G lambda"] and
+          k922["variation"]["helmholtz_symmetric"] and
+          k922["decision"]["formal_variational_parent_constructed"] and
+          not k922["decision"]["local_field_action_constructed"],
+          "K922 quadratic-projector action moved")
+
+    k923 = data["k923"]
+    check(k923["composition"]["rank"] == 90128 and
+          k923["composition"]["real_type_count"] == 40 and
+          k923["composition"]["total_real_multiplicity"] == 169 and
+          k923["composition"]["induced_operator"] == "identity on H_old" and
+          not k923["decision"]["source_owned_GU_repair_constructed"],
+          "K923 forty-type projector repair moved")
+
+    k924 = data["k924"]
+    check(k924["audit"]["row_count"] == 8 and
+          k924["audit"]["satisfied_rows"] == 1 and
+          k924["audit"]["missing_rows"] == 7 and
+          k924["decision"]["remaining_obstruction_relocated_to_family_ownership_and_analysis"] and
+          not k924["decision"]["formal_parent_admitted_as_source_GU_action"],
+          "K924 projector locality/ownership boundary moved")
+
+    k925 = data["k925"]
+    check(k925["boundary"]["abstract_symmetric_gauge_basic_parent_exists"] and
+          k925["boundary"]["authenticated_old_submodule_rank_repaired"] == 90128 and
+          k925["boundary"]["authenticated_old_real_types_repaired"] == 40 and
+          not k925["boundary"]["source_action_owned_local_parent_exists_in_current_custody"] and
+          not k925["decision"]["formal_instantiation_earns_GU_repair_credit"] and
+          not k925["decision"]["SC_ACT_06_proved_or_refuted"],
+          "K925 formal-parent admission boundary moved")
+
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]
     k693_n = k693["native_interface_status"]
@@ -5799,6 +5874,19 @@ def selftest(base: dict) -> tuple[int, int]:
         case = copy.deepcopy(base)
         fn(case)
         mutations.append((name, case))
+
+    add("latest-result-pointer", lambda d: d["registry"].__setitem__(
+        "latest_gu_formalization_result", "K916_K920_SC_ACT_06_GRADED_NONZERO_FERMION_RECONCILIATION_CURRENT"))
+    add("k921-local-owner", lambda d: d["k921"]["decision"].__setitem__(
+        "source_or_action_owned_local_parent_constructed", True))
+    add("k922-local-action", lambda d: d["k922"]["decision"].__setitem__(
+        "local_field_action_constructed", True))
+    add("k923-rank", lambda d: d["k923"]["composition"].__setitem__("rank", 90127))
+    add("k924-missing-rows", lambda d: d["k924"]["audit"].__setitem__("missing_rows", 6))
+    add("k925-gu-credit", lambda d: d["k925"]["decision"].__setitem__(
+        "formal_instantiation_earns_GU_repair_credit", True))
+    add("k925-overclaim", lambda d: d["k925"]["decision"].__setitem__(
+        "SC_ACT_06_proved_or_refuted", True))
 
     add("k807-rank", lambda d: d["k807"]["orbit_consequence"].__setitem__("transported_rank", 122865))
     add("k808-kernel", lambda d: d["k808"]["extension_theorem"].__setitem__("embedded_transported_kernel_dimension", 0))

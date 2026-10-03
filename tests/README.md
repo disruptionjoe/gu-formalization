@@ -4,6 +4,22 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K921--K925 formal old-parent admission boundary
+
+- `channel-swings/k921_sc_act_06_quotient_projector_parent.py` constructs the
+  symmetric gauge-basic projector onto old cohomology.
+- `channel-swings/k922_sc_act_06_quadratic_projector_action.py` realizes that
+  projector as an auxiliary quadratic-action Hessian.
+- `channel-swings/k923_sc_act_06_forty_type_projector_repair.py` composes it
+  with all forty authenticated old quotient types.
+- `channel-swings/k924_sc_act_06_projector_locality_ownership_boundary.py`
+  audits complete-family, locality, naturality, ownership, Green and
+  preboundary obligations.
+- `channel-swings/k925_sc_act_06_formal_parent_admission_boundary.py` freezes
+  the formal-parent ceiling and next exact input.
+- Matching `_probe.py` files reject 94/94 hostile mutations across 176
+  producer controls. SC-ACT-06 remains `ASSERTS`.
+
 ## K916--K920 graded nonzero-fermion reconciliation
 
 - `channel-swings/k916_sc_act_06_ordinary_point_fermion_parity_boundary.py`

@@ -1,0 +1,54 @@
+{
+  "claim_ceiling": "Exact variational realization on one finite symbol fibre. It does not authenticate locality, source ownership, a nonlinear field action, a continuous cosphere family, Green operators, preboundary data or rich moduli.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 32,
+    "hostile_mutations_rejected": 18,
+    "probe": "tests/channel-swings/k922_sc_act_06_quadratic_projector_action_probe.py",
+    "producer": "tests/channel-swings/k922_sc_act_06_quadratic_projector_action.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "formal_variational_parent_constructed": true,
+    "k897_symmetric_gauge_basic_class_instantiated": true,
+    "local_field_action_constructed": false,
+    "next_exact_input": "Compose the Hessian with K879's complete old quotient, then decide whether the projector is a local natural source/action-owned family with common Green and preboundary data.",
+    "source_selected_action_constructed": false
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action": "A_H(x)=1/2<x,P_Hx>",
+    "field": "x in E1",
+    "hessian": "D2 A_H=P_H",
+    "pairing": "chosen positive auxiliary inner product on E1",
+    "target": "ACTION-TYPE=auxiliary quadratic projector action"
+  },
+  "ledger_no_change_reason": "A repository-defined auxiliary quadratic functional is not the source's first-order action and supplies no physical field theory.",
+  "pinned_inputs": {
+    "k897": {
+      "path": "lab/process/k897-sc-act-06-variational-completion-classification.json",
+      "sha256": "512441644e2d070659a2669171d12e6fa4dff095c0f304b847c4c6fca8587cac"
+    },
+    "k921": {
+      "path": "lab/process/k921-sc-act-06-quotient-projector-parent.json",
+      "sha256": "35c43e28cfc321cd386330b8b7efed99295164571171bece5e4246d7d298b598"
+    }
+  },
+  "result_id": "K922-SC-ACT-06-QUADRATIC-PROJECTOR-ACTION",
+  "schema_version": "1.0",
+  "scope": "Quadratic functional A_H(x)=1/2 <x,P_H x> on K921's fixed finite-dimensional auxiliary inner-product carrier.",
+  "source_and_ledger_effect": "SC-ACT-01_06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "variation": {
+    "euler_map": "E_H(x)=P_H x",
+    "first": "D A_H(x)[u]=<P_H x,u>",
+    "gauge_invariant_under_x_to_x+G lambda": true,
+    "helmholtz_symmetric": true,
+    "hessian": "D E_H=P_H",
+    "quotient_energy": "A_H(h)=1/2||h||^2 for h in H",
+    "stationary_origin": true,
+    "ward_identity": "P_H G=0"
+  }
+}

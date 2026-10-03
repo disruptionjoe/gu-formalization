@@ -1,0 +1,60 @@
+{
+  "claim_ceiling": "Exact finite-dimensional orthogonal-projector theorem and current quotient-rank composition only. No local differential action, natural family, global domain, ellipticity, rich moduli or GU verdict follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 34,
+    "hostile_mutations_rejected": 18,
+    "probe": "tests/channel-swings/k921_sc_act_06_quotient_projector_parent_probe.py",
+    "producer": "tests/channel-swings/k921_sc_act_06_quotient_projector_parent.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "abstract_gauge_basic_old_old_parent_constructed": true,
+    "finite_symbol_algebra_forbids_diagonal_repair": false,
+    "next_exact_input": "Realize P_H as an honest symmetric Hessian, compose it with every authenticated old quotient type, then audit locality, naturality, ownership, Green and preboundary data.",
+    "source_or_action_owned_local_parent_constructed": false
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "carrier": "real old-field symbol carrier E1 with chosen positive auxiliary inner product",
+    "cohomology_model": "H=ker(J) intersect im(G)^perp",
+    "gauge_map": "G:E0->E1",
+    "parent": "P_H:E1->E1 orthogonal projector onto H",
+    "response": "J:E1->E2 with JG=0",
+    "target": "OPERATOR-TYPE=symmetric gauge-basic old-old projector parent"
+  },
+  "ledger_no_change_reason": "The projector is an auxiliary finite-symbol construction and not a source/action-owned local field operator.",
+  "pinned_inputs": {
+    "k855": {
+      "path": "lab/process/k855-sc-act-06-cohomology-bundle.json",
+      "sha256": "e5117e3de143b715f684c0d2601b0d820a326ab8bedb2b255206060aae49ef32"
+    },
+    "k879": {
+      "path": "lab/process/k879-sc-act-06-full-field-quotient-injection.json",
+      "sha256": "bd70c9cdc5d11b65fd60c922edffdee607d63938c90fcfbc90ffa59670b746bf"
+    },
+    "k920": {
+      "path": "lab/process/k920-sc-act-06-graded-nonzero-fermion-admission-boundary.json",
+      "sha256": "7fa12a692a13c40e2400be0b05caafc26832862dfbde7fdeb9d27b66b5a48bc8"
+    }
+  },
+  "result_id": "K921-SC-ACT-06-QUOTIENT-PROJECTOR-PARENT",
+  "schema_version": "1.0",
+  "scope": "Finite-dimensional real inner-product symbol complex E0--G-->E1--J-->E2 with JG=0 and the authenticated K879 old quotient as the consuming instance.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "gauge_basic": "P_H G=0",
+    "idempotent": true,
+    "induced_map_on_H": "identity",
+    "kernel": "im(G) direct_sum im(J*)",
+    "orthogonal_decomposition": "E1=im(G) direct_sum H direct_sum im(J*)",
+    "projector_formula": "P_H=P_ker(J)-P_im(G)",
+    "range": "H",
+    "rank_on_authenticated_old_submodule": 90128,
+    "response_annihilates_range": "J P_H=0",
+    "self_adjoint": true
+  }
+}
