@@ -4,6 +4,23 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K871--K874 owned quotient character and typewise boundary
+
+- `channel-swings/k871_sc_act_06_common_stabilizer_weight_character.py`
+  computes the exact 3,645-block `SO(6)xSO(7)` torus character of the
+  90,128-dimensional tangential kernel.
+- `channel-swings/k872_sc_act_06_common_stabilizer_irreducible_character.py`
+  reconstructs 40 exact real irreducible types by `D3 x B3` Kostant
+  multiplicity inversion.
+- `channel-swings/k873_sc_act_06_owned_symmetry_custody.py` authenticates the
+  principal internal-gauge radial image and resulting owned tangential
+  connection quotient, without promoting the caveated full complex.
+- `channel-swings/k874_sc_act_06_corrected_typewise_disposition.py` compiles
+  the 40 typewise obligations and the corrected five-of-eleven certificate.
+- The matching `_probe.py` files reject 80/80 hostile mutations across 164
+  controls. Repair multiplicities remain absent, SC-ACT-06 remains ASSERTS,
+  and no protected conclusion moves.
+
 ## K867--K870 corrected isotropy boundary
 
 - `channel-swings/k867_sc_act_06_compact_equivariance_audit.py` supplies the

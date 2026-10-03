@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K871--K874 compute and authenticate the corrected old principal quotient.
+    K871 performs exact sparse elimination over `Q(i)` on 3,645
+    `SO(6)xSO(7)` torus-weight blocks and obtains the full 90,128-dimensional
+    tangential kernel character, including zero-weight multiplicity 644 and
+    sign-inversion symmetry. K872 uses exact `D3 x B3` Kostant multiplicity
+    inversion to reconstruct 40 real irreducible types: 29 real tensor types
+    and 11 complex-conjugate-pair realifications, with maximum multiplicity
+    eight and exact dimension check 90,128. K873 authenticates the
+    source-displayed principal internal-gauge map `lambda -> q tensor lambda`:
+    its injective 16,384-dimensional image is exactly the radial kernel, so
+    the 90,128-dimensional tangential connection quotient is owned at
+    principal-symbol scope. K874 records five of eleven corrected rows
+    satisfied and freezes one obligation for each of the 40 types. Every
+    source/action-owned repair-domain and repair-target multiplicity remains
+    absent, so neither repairability nor nonrepairability follows. The
+    caveated complete deformation complex is not promoted. SC-ACT-06 remains
+    `ASSERTS`; no protected conclusion moves.
+
     K867--K870 correct the group-action premise in K863--K866. K867 gives an
     exact tangential witness
     `e_1 tensor gamma_{23}+e_2 tensor gamma_{13}` in `ker(J_e0)` and a
@@ -12665,18 +12683,17 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K867--K870 replace the invalid auxiliary-`SO(13)` multiplicity request with
-  the authenticated common-stabilizer problem. The pinned K788 response uses
-  the native `(7,7)` form: an auxiliary-Euclidean cross-sign rotation fixing
-  `e_0` carries an exact tangential kernel witness out of the kernel, so the
-  kernel is not an `SO(13)` module. The identity component preserving the
-  native form, auxiliary metric and base covector is `SO(6)xSO(7)`. The exact
-  radial/tangential dimensions and conditional q-lambda quotient survive:
-  16384 radial, 90128 tangential, and conditional connection-only quotient
-  90128. Compute the real `SO(6)xSO(7)` multiplicities of that tangential
-  kernel, authenticate the actual owned symmetry quotient, and identify
-  source/action-owned repair multiplicities before applying K865 type by
-  type. Raw total rank and the retired `SO(13)` decomposition are insufficient.
+  K871--K874 close the corrected old principal quotient at representation
+  level. The owned tangential connection quotient has dimension 90128 and
+  decomposes into 40 exact real `SO(6)xSO(7)` irreducible types. For each type
+  rho the old multiplicity `h_rho` is known, but the source/action-owned
+  repair-domain and repair-target multiplicities `a_rho,b_rho` are absent.
+  Supply those two modules on the same authenticated common group and test
+  `h_rho <= a_rho+b_rho` for every one of the 40 rows. Only then construct
+  owned `S_0,tau_0` intertwiners and prove descent, composition,
+  `im(S_0)=ker(tau_0)`, common-domain control and analytic globalization.
+  Do not promote the source-caveated complete deformation complex from the
+  principal connection-symbol result.
 
   K859--K862 replace ordinary bundle triviality with the naturality-aware
   repair question. The current 90124 value is only the lower endpoint of the
@@ -13860,19 +13877,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  K867--K870 correct the K863--K866 isotropy premise. The exact witness
-  `e_1 tensor gamma_{23}+e_2 tensor gamma_{13}` lies in `ker(J_e0)`, but the
-  auxiliary-Euclidean determinant-one `(1,4)` rotation carries it out of the
-  kernel because it mixes opposite native signs. Thus the pinned response is
-  not `SO(13)`-equivariant. Its authenticated compact common stabilizer at
-  `e_0` has identity component `SO(6)xSO(7)`. Preserve the exact surviving
-  dimensions: radial 16384, tangential kernel 90128, and conditional q-lambda
-  quotient 90128; K789's 90124 remains only the conservative full-field lower
-  bound. Next compute the real `SO(6)xSO(7)` tangential character,
-  authenticate the source/action-owned old symmetry image, and compare the
-  corrected-group multiplicities with owned repair modules before constructing
-  intertwiners. Do not reuse the retired `SO(13)` kernel-module claim.
-  SC-ACT-06 remains `ASSERTS` and no protected conclusion moves.
+  K871--K874 establish the exact 40-type real `SO(6)xSO(7)` character of the
+  owned 90128-dimensional tangential principal connection quotient. Preserve
+  the scope boundary: ownership comes from the source-displayed internal
+  gauge map at principal connection-symbol level, while the complete
+  deformation complex remains caveated. The next exact input is the
+  source/action-owned repair-domain and repair-target character on the same
+  group. Fill `a_rho,b_rho` for all 40 rows, test
+  `h_rho <= a_rho+b_rho` typewise, and only then construct owned intertwiners
+  satisfying descent, composition and image-kernel equality before analytic
+  globalization. SC-ACT-06 remains `ASSERTS` and no protected conclusion
+  moves.
 
   K859--K862 prove that the current 90124 value is only the lower endpoint of
   the exact interval `[90124,106512]` permitted by the deliberately overlarge

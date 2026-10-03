@@ -7,6 +7,46 @@ updated_at: "2026-10-02"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K871--K874 owned quotient character and typewise boundary (2026-10-02)
+
+K871 computes the exact complexified torus weight character of the pinned
+`SO(6)xSO(7)` tangential kernel by sparse elimination over `Q(i)`: 3,645
+weight blocks reconstruct all 90,128 kernel dimensions, with zero-weight
+multiplicity 644 and sign-inversion symmetry. K872 applies exact Kostant
+multiplicity inversion for `D3 x B3` and reconstructs 40 real irreducible
+types (29 real tensor types and 11 complex-conjugate-pair realifications),
+again totaling 90,128 dimensions. The maximum multiplicity is eight.
+
+K873 authenticates the principal internal-gauge map from the source-displayed
+`Omega^0(ad(P_H)) -> Omega^1(ad(P_H))` connection complex. At the K717 flat
+germ its symbol is `lambda -> q tensor lambda`; it is injective and its image
+is exactly the 16,384-dimensional radial kernel. Thus the 90,128-dimensional
+tangential quotient is owned at principal connection-symbol scope. This does
+not promote the source's caveated complete deformation complex or establish a
+complete full-field cohomology.
+
+K874 replaces K870's provisional certificate. Five of eleven rows now pass:
+the exact split, owned quotient, authenticated common group, exact real
+character, and owned old principal symmetry image. All 40 old quotient types
+have known multiplicities, but every repair-domain and repair-target
+multiplicity remains absent. The retained criterion is
+`h_rho <= a_rho+b_rho` for every real type. The four producers pass 164
+controls and their probes reject 80/80 hostile mutations. SC-ACT-06 remains
+`ASSERTS`; no protected verdict moves.
+
+Run the producers and hostile probes:
+
+```bash
+python3 tests/channel-swings/k871_sc_act_06_common_stabilizer_weight_character.py --check
+python3 tests/channel-swings/k871_sc_act_06_common_stabilizer_weight_character_probe.py
+python3 tests/channel-swings/k872_sc_act_06_common_stabilizer_irreducible_character.py --check
+python3 tests/channel-swings/k872_sc_act_06_common_stabilizer_irreducible_character_probe.py
+python3 tests/channel-swings/k873_sc_act_06_owned_symmetry_custody.py --check
+python3 tests/channel-swings/k873_sc_act_06_owned_symmetry_custody_probe.py
+python3 tests/channel-swings/k874_sc_act_06_corrected_typewise_disposition.py --check
+python3 tests/channel-swings/k874_sc_act_06_corrected_typewise_disposition_probe.py
+```
+
 ## K867--K870 corrected isotropy boundary (2026-10-02)
 
 K867 audits the symmetry premise used by K863 directly on the pinned K788

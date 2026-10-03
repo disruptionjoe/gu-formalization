@@ -551,6 +551,18 @@ def load_inputs() -> dict:
         "k870": json.loads(
             (ROOT / "lab/process/k870-sc-act-06-corrected-isotropy-disposition.json").read_text()
         ),
+        "k871": json.loads(
+            (ROOT / "lab/process/k871-sc-act-06-common-stabilizer-weight-character.json").read_text()
+        ),
+        "k872": json.loads(
+            (ROOT / "lab/process/k872-sc-act-06-common-stabilizer-irreducible-character.json").read_text()
+        ),
+        "k873": json.loads(
+            (ROOT / "lab/process/k873-sc-act-06-owned-symmetry-custody.json").read_text()
+        ),
+        "k874": json.loads(
+            (ROOT / "lab/process/k874-sc-act-06-corrected-typewise-disposition.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -743,13 +755,13 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     check(registry["latest_gu_formalization_result"] ==
-          "K867_K870_SC_ACT_06_CORRECTED_ISOTROPY_DISPOSITION_CURRENT",
+          "K871_K874_SC_ACT_06_CORRECTED_TYPEWISE_DISPOSITION_CURRENT",
           "latest GU result pointer moved")
     if isinstance(live, str):
-        check("K867--K870 correct the K863--K866 isotropy premise" in live and
-              "SO(6)xSO(7)" in live and
-              "Do not reuse the retired `SO(13)` kernel-module claim" in live,
-              "live K867--K870 corrected isotropy disposition missing")
+        check("K871--K874 establish the exact 40-type real" in live and
+              "Fill `a_rho,b_rho` for all 40 rows" in live and
+              "complete deformation complex remains caveated" in live,
+              "live K871--K874 corrected typewise disposition missing")
         check("K859--K862 prove that the current 90124 value is only the lower endpoint" in live and
               "natural repair maps are determined by `SO(13)`-intertwiners" in live and
               "rank-91 product bundle" in live,
@@ -1241,15 +1253,15 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
 
     question = current.get("current_question", "")
     check(
-        "K867--K870 correct the K863--K866 group-action premise" in data["agenda"].get("latest_result_2026_10_02_k867_k870", "")
-        and "SO(6)xSO(7)" in data["agenda"].get("latest_result_2026_10_02_k867_k870", "")
-        and "SC-ACT-06 remains ASSERTS" in data["agenda"].get("latest_result_2026_10_02_k867_k870", ""),
-        "agenda K867--K870 result is not current",
+        "K871--K874 close the old principal quotient" in data["agenda"].get("latest_result_2026_10_02_k871_k874", "")
+        and "40 real irreducible types" in data["agenda"].get("latest_result_2026_10_02_k871_k874", "")
+        and "SC-ACT-06 remains ASSERTS" in data["agenda"].get("latest_result_2026_10_02_k871_k874", ""),
+        "agenda K871--K874 result is not current",
     )
     check(
-        "K867--K870 replace the invalid auxiliary-`SO(13)` multiplicity request" in question
-        and "SO(6)xSO(7)" in question
-        and "retired `SO(13)` decomposition" in question,
+        "K871--K874 close the corrected old principal quotient" in question
+        and "40 exact real `SO(6)xSO(7)` irreducible types" in question
+        and "`h_rho <= a_rho+b_rho`" in question,
         "current question lost K867--K870 corrected isotropy interface",
     )
     check(
@@ -3933,6 +3945,42 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k870["decision"]["K866_disposition_current"] and
           not k870["decision"]["SC_ACT_06_proved_or_refuted"],
           "K870 corrected isotropy disposition moved")
+
+    k871 = data["k871"]
+    check(k871["exact_character"]["kernel_dimension"] == 90128 and
+          k871["exact_character"]["weight_block_count"] == 3645 and
+          k871["exact_character"]["zero_weight_kernel_multiplicity"] == 644 and
+          k871["exact_character"]["sign_inversion_symmetric"] and
+          not k871["decision"]["SC_ACT_06_proved_or_refuted"],
+          "K871 exact common-stabilizer character moved")
+
+    k872 = data["k872"]
+    check(k872["reconstruction"]["real_irreducible_type_count"] == 40 and
+          k872["reconstruction"]["real_tensor_type_count"] == 29 and
+          k872["reconstruction"]["complex_pair_type_count"] == 11 and
+          k872["reconstruction"]["real_dimension_check"] == 90128 and
+          k872["reconstruction"]["exact_weight_reconstruction"] and
+          not k872["decision"]["typewise_capacity_decidable_from_current_inputs"],
+          "K872 real irreducible reconstruction moved")
+
+    k873 = data["k873"]
+    check(k873["source_custody"]["principal_map_is_owned"] and
+          not k873["source_custody"]["complete_displayed_complex_stabilized"] and
+          k873["owned_image"]["image_dimension"] == 16384 and
+          k873["owned_tangential_quotient"]["quotient_dimension"] == 90128 and
+          k873["owned_tangential_quotient"]["authenticated_at_principal_connection_symbol_scope"] and
+          not k873["decision"]["source_displayed_complete_complex_promoted"],
+          "K873 owned symmetry custody moved")
+
+    k874 = data["k874"]
+    check(k874["typewise_obligations"]["row_count"] == 40 and
+          k874["typewise_obligations"]["known_h_row_count"] == 40 and
+          k874["typewise_obligations"]["known_repair_capacity_row_count"] == 0 and
+          k874["corrected_certificate"]["satisfied_row_count"] == 5 and
+          not k874["corrected_certificate"]["current_GU_candidate_admitted"] and
+          not k874["decision"]["current_flat_packet_repaired"] and
+          not k874["decision"]["SC_ACT_06_proved_or_refuted"],
+          "K874 corrected typewise disposition moved")
 
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]

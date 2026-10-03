@@ -7,6 +7,18 @@ updated_at: "2026-10-02"
 
 # Next Steps For Contributors
 
+> **2026-10-02 K871--K874 OWNED QUOTIENT CHARACTER.** K871 computes the exact
+> 90,128-dimensional `SO(6)xSO(7)` tangential weight character and K872
+> reconstructs it as 40 real irreducible types. K873 authenticates the
+> source/action-owned principal map `lambda -> q tensor lambda`, so its
+> 16,384-dimensional radial image gives an owned 90,128-dimensional
+> tangential connection quotient. K874 records five of eleven corrected rows
+> satisfied. Next supply the source/action-owned repair-domain and
+> repair-target `SO(6)xSO(7)` modules, fill `a_rho,b_rho` for all 40 types,
+> then construct the owned intertwiners and prove descent, composition,
+> image-kernel equality, and analytic globalization. The caveated complete
+> full-field complex is not promoted; SC-ACT-06 remains `ASSERTS`.
+
 > **2026-10-02 K867--K870 CORRECTED ISOTROPY BOUNDARY.** K867 proves the
 > pinned K788 tangential kernel is not an auxiliary-`SO(13)` module: the exact
 > kernel witness `e_1 tensor gamma_{23}+e_2 tensor gamma_{13}` leaves the

@@ -1,0 +1,110 @@
+{
+  "claim_ceiling": "Exact principal internal-gauge ownership and 90128-dimensional tangential connection quotient on K717. No complete full-field cohomology, repair, global ellipticity, rich moduli or physical conclusion follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 46,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k873_sc_act_06_owned_symmetry_custody_probe.py",
+    "producer": "tests/channel-swings/k873_sc_act_06_owned_symmetry_custody.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "K789_q_lambda_remains_merely_unowned_candidate": false,
+    "SC_ACT_06_proved_or_refuted": false,
+    "next_exact_input": "Compare the 40 authenticated real tangential quotient types with source/action-owned repair-domain and repair-target modules; the caveated full field complex, intertwiners, descent and analytic globalization remain separate obligations.",
+    "owned_complete_full_field_symmetry_image_authenticated": false,
+    "owned_principal_internal_gauge_image_authenticated": true,
+    "owned_tangential_connection_quotient_authenticated": true,
+    "source_displayed_complete_complex_promoted": false
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "source first-order residual; internal q lambda is granted as a candidate and not promoted to source-owned total symmetry",
+    "carrier": "K788 full connection variation carrier, with K745's metric slot retained only for a conservative symmetry grant",
+    "grading": "candidate symmetry parameters -> connection/metric fields -> D Upsilon equations",
+    "pairing": "none needed for the algebraic kernel/image dimension bound",
+    "real_structure": "K788 pinned real coefficient basis with exact rational ranks",
+    "target": "MAP-TYPE=owned principal internal-gauge image and corrected tangential connection quotient"
+  },
+  "ledger_no_change_reason": "The source-owned principal gauge image authenticates one local connection quotient but not the caveated complete deformation complex, physical state or observable.",
+  "owned_image": {
+    "candidate_domain_dimension": 16384,
+    "common_stabilizer": "SO(6) x SO(7)",
+    "composition_zero_on_flat_zero_locus": true,
+    "image_dimension": 16384,
+    "image_equals_radial_kernel_summand": true,
+    "map_injective": true,
+    "metric_diffeomorphism_changes_connection_only_quotient": false,
+    "metric_diffeomorphism_connection_component_at_flat_T0": 0,
+    "metric_diffeomorphism_rank": 4,
+    "nonzero_covector": true,
+    "radial_common_group_formula": "q tensor Cl_14 restricted to SO(6)xSO(7) = 2 direct-sum_(a=0)^6 direct-sum_(b=0)^7 Lambda^a(P_6) tensor Lambda^b(N_7)"
+  },
+  "owned_tangential_quotient": {
+    "authenticated_at_principal_connection_symbol_scope": true,
+    "complete_full_field_old_cohomology_authenticated": false,
+    "full_connection_kernel_dimension": 106512,
+    "owned_radial_image_dimension": 16384,
+    "quotient_dimension": 90128,
+    "quotient_is_tangential_kernel": true,
+    "real_irreducible_character_sha256": "fbb50ba3277648b45121880862dc36c363c0f3436b277b17fa42b05742b07f83",
+    "real_irreducible_type_count": 40
+  },
+  "pinned_inputs": {
+    "k745": {
+      "path": "lab/process/k745-sc-act-06-gauge-redundancy-obstruction.json",
+      "sha256": "460a3c0981d9cb8fef8e54e4ef1fd5217e4ed922b5bbfdf92416fcc4f8134994"
+    },
+    "k787": {
+      "path": "lab/process/k787-sc-act-06-flat-zero-locus-custody.json",
+      "sha256": "d9fbe046c32ceaa0e81a5c51da6a631866f61597efe2a59de7e67e48ef9c8e1e"
+    },
+    "k789": {
+      "path": "lab/process/k789-sc-act-06-maximal-symmetry-budget.json",
+      "sha256": "b73011120d0904f451a232042ab03b5089f20336df45371180cca4db6d999a7f"
+    },
+    "k864": {
+      "path": "lab/process/k864-sc-act-06-radial-grant-quotient.json",
+      "sha256": "7f9f66e614592e2e1beaeb2df02d231a69d76ab2a64edef590a96d7030e18453"
+    },
+    "k868": {
+      "path": "lab/process/k868-sc-act-06-common-stabilizer-boundary.json",
+      "sha256": "29c4e359999fda415cebd14568832a33c032c91e1378c00146761af71c18b266"
+    },
+    "k872": {
+      "path": "lab/process/k872-sc-act-06-common-stabilizer-irreducible-character.json",
+      "sha256": "8fd3ab18d9d8b8d49660cbeaad3123b0cd6acf458b3e82fe3f2096a27013f0e6"
+    },
+    "source_deformation": {
+      "path": "lab/sources/gu-mixed-bose-fermi-cross-map-source-reinspection-2026-08-04.md",
+      "sha256": "dfb966675a41bb1332b8468eda9965d157f7e5ea908b339b86111fca2642fd97"
+    },
+    "source_group": {
+      "path": "lab/sources/gu-paper-reference-surfaces.md",
+      "sha256": "c66f77bad13d6acac127816933866100c710b144d5849264fe75bbd00a46f9c3"
+    },
+    "source_parent": {
+      "path": "lab/sources/k77-global-chimeric-spin-reduction-source-reinspection-2026-08-05.md",
+      "sha256": "a8b220faa2753aebb8184d5b9ba88b8edba52f295fe2048ade6a53eac113dc6d"
+    }
+  },
+  "result_id": "K873-SC-ACT-06-OWNED-SYMMETRY-CUSTODY",
+  "schema_version": "1.0",
+  "scope": "Principal-symbol custody audit for the source-displayed gauge-to-field map on K717's repository-constructed flat Upsilon=0 germ; the caveated remainder of the displayed deformation complex is not promoted.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "source_custody": {
+    "caveat_empor_remains_load_bearing": true,
+    "complete_displayed_complex_stabilized": false,
+    "displayed_C0": "Omega^0(ad(P_H))",
+    "displayed_C1_contains": "Omega^1(ad(P_H))",
+    "k77_adjoint_parent": "full U(64,64) adjoint/Clifford coefficient arena",
+    "ownership_grade": "SOURCE_DISPLAYED_TOPOLOGY_PLUS_REPOSITORY_DERIVED_PRINCIPAL_SYMBOL",
+    "principal_connection_gauge_map": "lambda maps to q tensor lambda",
+    "principal_map_is_owned": true,
+    "real_parameter_dimension": 16384,
+    "source_connection_arena": "A(Y,P_H)",
+    "source_gauge_group": "H=Gau(P_H)"
+  },
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

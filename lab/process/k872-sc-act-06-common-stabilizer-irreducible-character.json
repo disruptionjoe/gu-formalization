@@ -1,0 +1,811 @@
+{
+  "claim_ceiling": "Exact real SO(6)xSO(7) irreducible character of the tangential K788 kernel. No owned quotient, repair capacity, intertwiner, global no-go or physical conclusion follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 38,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k872_sc_act_06_common_stabilizer_irreducible_character_probe.py",
+    "producer": "tests/channel-swings/k872_sc_act_06_common_stabilizer_irreducible_character.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "common_stabilizer_weight_character_computed": true,
+    "next_exact_input": "Authenticate the actual source/action-owned old symmetry image on the pinned flat germ and quotient these 40 real types before comparing any source/action-owned repair-domain and repair-target multiplicities.",
+    "owned_old_cohomology_module_authenticated": false,
+    "owned_repair_modules_known": false,
+    "real_irreducible_multiplicities_computed": true,
+    "typewise_capacity_decidable_from_current_inputs": false
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "source first-order residual Upsilon, not an I1B or I2B Hessian",
+    "carrier": "Omega1(Cl_14(C)) on K717's fixed flat native germ; complex dimension 229376",
+    "grading": "connection variation u -> first-order residual variation J_q(u)",
+    "pairing": "K717 native action form; auxiliary Frobenius q only identifies nonzero Euclidean covectors",
+    "real_structure": "K740 pinned real U(64,64) basis followed by exact rational rank calculation",
+    "target": "REPRESENTATION-TYPE=real irreducible SO(6)xSO(7) tangential-kernel character"
+  },
+  "ledger_no_change_reason": "The corrected local irreducible character supplies no owned symmetry quotient, repair module, physical state or observable.",
+  "pinned_inputs": {
+    "k865": {
+      "path": "lab/process/k865-sc-act-06-isotypic-repair-criterion.json",
+      "sha256": "4098ed72e728f1fb4a1424d83c5c9c4fc5d3c4129c0af10ec8fa0ec0b6c26a06"
+    },
+    "k868": {
+      "path": "lab/process/k868-sc-act-06-common-stabilizer-boundary.json",
+      "sha256": "29c4e359999fda415cebd14568832a33c032c91e1378c00146761af71c18b266"
+    },
+    "k870": {
+      "path": "lab/process/k870-sc-act-06-corrected-isotropy-disposition.json",
+      "sha256": "20246b6d04995b6006990d0e5005cf1c509286d20d614e0a2cb6770dd5006732"
+    },
+    "k871": {
+      "path": "lab/process/k871-sc-act-06-common-stabilizer-weight-character.json",
+      "sha256": "7b98449fe759cd56819e4701fb40576cbf6a7bf64d6d95b157f5134cc9cd7f5f"
+    }
+  },
+  "reconstruction": {
+    "complex_highest_weight_row_count": 51,
+    "complex_pair_type_count": 11,
+    "exact_weight_reconstruction": true,
+    "maximum_real_multiplicity": 8,
+    "method": "Kostant multiplicity formula plus descending highest-weight subtraction",
+    "negative_residual_multiplicity_encountered": false,
+    "real_dimension_check": 90128,
+    "real_irreducible_rows": [
+      {
+        "multiplicity": 2,
+        "real_irreducible_dimension": 3780,
+        "real_type": "complex_conjugate_pair",
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          1,
+          1
+        ]
+      },
+      {
+        "multiplicity": 4,
+        "real_irreducible_dimension": 2835,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          1,
+          1
+        ]
+      },
+      {
+        "multiplicity": 2,
+        "real_irreducible_dimension": 3150,
+        "real_type": "complex_conjugate_pair",
+        "so6_highest_weights": [
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "multiplicity": 4,
+        "real_irreducible_dimension": 2240,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            2,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "multiplicity": 2,
+        "real_irreducible_dimension": 2100,
+        "real_type": "complex_conjugate_pair",
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          1,
+          0
+        ]
+      },
+      {
+        "multiplicity": 4,
+        "real_irreducible_dimension": 1575,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          1,
+          0
+        ]
+      },
+      {
+        "multiplicity": 4,
+        "real_irreducible_dimension": 1134,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          1,
+          1
+        ]
+      },
+      {
+        "multiplicity": 2,
+        "real_irreducible_dimension": 1890,
+        "real_type": "complex_conjugate_pair",
+        "so6_highest_weights": [
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "multiplicity": 4,
+        "real_irreducible_dimension": 1344,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            2,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "multiplicity": 4,
+        "real_irreducible_dimension": 700,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            2,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "multiplicity": 4,
+        "real_irreducible_dimension": 630,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          1,
+          0
+        ]
+      },
+      {
+        "multiplicity": 4,
+        "real_irreducible_dimension": 420,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            2,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "multiplicity": 2,
+        "real_irreducible_dimension": 540,
+        "real_type": "complex_conjugate_pair",
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          0,
+          0
+        ]
+      },
+      {
+        "multiplicity": 4,
+        "real_irreducible_dimension": 700,
+        "real_type": "complex_conjugate_pair",
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "multiplicity": 4,
+        "real_irreducible_dimension": 405,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          0,
+          0
+        ]
+      },
+      {
+        "multiplicity": 8,
+        "real_irreducible_dimension": 525,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "multiplicity": 4,
+        "real_irreducible_dimension": 189,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          1,
+          1
+        ]
+      },
+      {
+        "multiplicity": 2,
+        "real_irreducible_dimension": 630,
+        "real_type": "complex_conjugate_pair",
+        "so6_highest_weights": [
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "multiplicity": 4,
+        "real_irreducible_dimension": 448,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            2,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "multiplicity": 4,
+        "real_irreducible_dimension": 420,
+        "real_type": "complex_conjugate_pair",
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "multiplicity": 8,
+        "real_irreducible_dimension": 315,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "multiplicity": 4,
+        "real_irreducible_dimension": 162,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          0,
+          0
+        ]
+      },
+      {
+        "multiplicity": 8,
+        "real_irreducible_dimension": 210,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "multiplicity": 4,
+        "real_irreducible_dimension": 105,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          1,
+          0
+        ]
+      },
+      {
+        "multiplicity": 4,
+        "real_irreducible_dimension": 140,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            2,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "multiplicity": 8,
+        "real_irreducible_dimension": 126,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "multiplicity": 4,
+        "real_irreducible_dimension": 140,
+        "real_type": "complex_conjugate_pair",
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "multiplicity": 8,
+        "real_irreducible_dimension": 105,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "multiplicity": 4,
+        "real_irreducible_dimension": 27,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          0,
+          0
+        ]
+      },
+      {
+        "multiplicity": 4,
+        "real_irreducible_dimension": 35,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "multiplicity": 2,
+        "real_irreducible_dimension": 90,
+        "real_type": "complex_conjugate_pair",
+        "so6_highest_weights": [
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "multiplicity": 4,
+        "real_irreducible_dimension": 64,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            2,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "multiplicity": 8,
+        "real_irreducible_dimension": 42,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "multiplicity": 4,
+        "real_irreducible_dimension": 21,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "multiplicity": 4,
+        "real_irreducible_dimension": 20,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            2,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "multiplicity": 2,
+        "real_irreducible_dimension": 20,
+        "real_type": "complex_conjugate_pair",
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "multiplicity": 4,
+        "real_irreducible_dimension": 15,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "multiplicity": 5,
+        "real_irreducible_dimension": 7,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "multiplicity": 5,
+        "real_irreducible_dimension": 6,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "multiplicity": 3,
+        "real_irreducible_dimension": 1,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "real_irreducible_type_count": 40,
+    "real_tensor_type_count": 29,
+    "root_systems": [
+      "D3=so(6)",
+      "B3=so(7)"
+    ],
+    "rows_sha256": "fbb50ba3277648b45121880862dc36c363c0f3436b277b17fa42b05742b07f83",
+    "weyl_group_orders": {
+      "B3": 48,
+      "D3": 24
+    }
+  },
+  "result_id": "K872-SC-ACT-06-COMMON-STABILIZER-IRREDUCIBLE-CHARACTER",
+  "schema_version": "1.0",
+  "scope": "Exact real irreducible reconstruction of K871's 90128-dimensional tangential-kernel character for SO(6)xSO(7).",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}
