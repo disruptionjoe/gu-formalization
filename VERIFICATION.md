@@ -7,6 +7,45 @@ updated_at: "2026-10-03"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K891--K894 action-owned gauge-completion boundary (2026-10-03)
+
+K891 applies the quotient-descent identity directly. If `H` is the frozen
+selected-I1B Euler map and `C` is any additional completion block, then
+`(H+C)G=0` forces `CG=-HG`. Every completion therefore has exact restriction
+rank 8,191 on the radial gauge image and must carry the complete 16-type
+character `2 Lambda^odd(R^6 direct-sum R^7) - 1`, with total real
+multiplicity 55.
+
+K892 constructs the strongest abstract contrary control. For any
+`SO(6)xSO(7)`-equivariant projector `P_R` onto the radial summand,
+`C_formal=-H P_R` restores descent and is rank-minimal. This proves there is
+no pure linear-algebra impossibility. It does not supply source ownership,
+an action derivation, Helmholtz/second-variation integrability, a nonlinear
+completion, a global domain or quotient repair capacity.
+
+K893 audits current custody against the exact target. Same-response
+residual-square blocks vanish on `im(G)` because `JG=0`; the displayed mixed
+blocks and extra fermionic gauge tangent vanish at K717's zero-fermion germ;
+the path adapter is source-silent and unbuilt. Their current owned
+cancellation rank is zero. Only the unowned formal projector passes. K894
+therefore leaves all forty quotient ranks undefined, keeps zero repaired rows
+and preserves the corrected completion gate at five of eleven. Future action
+blocks, new parents and other stationary germs remain open. The four producers
+pass 155 controls and their probes reject 80/80 hostile mutations.
+
+Run the producers and hostile probes:
+
+```bash
+python3 tests/channel-swings/k891_sc_act_06_gauge_cancellation_necessity.py --check
+python3 tests/channel-swings/k891_sc_act_06_gauge_cancellation_necessity_probe.py
+python3 tests/channel-swings/k892_sc_act_06_minimal_formal_gauge_completion.py --check
+python3 tests/channel-swings/k892_sc_act_06_minimal_formal_gauge_completion_probe.py
+python3 tests/channel-swings/k893_sc_act_06_released_block_cancellation_audit.py --check
+python3 tests/channel-swings/k893_sc_act_06_released_block_cancellation_audit_probe.py
+python3 tests/channel-swings/k894_sc_act_06_action_owned_completion_boundary.py --check
+python3 tests/channel-swings/k894_sc_act_06_action_owned_completion_boundary_probe.py
+```
+
 ## K887--K890 selected-I1B gauge-descent obstruction (2026-10-03)
 
 K887 replays the K132 exact invariant-block backend. The raw response

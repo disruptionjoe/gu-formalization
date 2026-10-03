@@ -1,0 +1,367 @@
+{
+  "cancellation_theorem": {
+    "descent_equation": "(H+C)G=0",
+    "equivariant_rows": [
+      {
+        "real_irreducible_dimension": 1,
+        "real_type": "real_tensor_type",
+        "required_cancellation_dimension": 3,
+        "required_cancellation_multiplicity": 3,
+        "so6_highest_weights": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "real_irreducible_dimension": 7,
+        "real_type": "real_tensor_type",
+        "required_cancellation_dimension": 28,
+        "required_cancellation_multiplicity": 4,
+        "so6_highest_weights": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "real_irreducible_dimension": 21,
+        "real_type": "real_tensor_type",
+        "required_cancellation_dimension": 84,
+        "required_cancellation_multiplicity": 4,
+        "so6_highest_weights": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "real_irreducible_dimension": 35,
+        "real_type": "real_tensor_type",
+        "required_cancellation_dimension": 140,
+        "required_cancellation_multiplicity": 4,
+        "so6_highest_weights": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "real_irreducible_dimension": 6,
+        "real_type": "real_tensor_type",
+        "required_cancellation_dimension": 24,
+        "required_cancellation_multiplicity": 4,
+        "so6_highest_weights": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "real_irreducible_dimension": 42,
+        "real_type": "real_tensor_type",
+        "required_cancellation_dimension": 168,
+        "required_cancellation_multiplicity": 4,
+        "so6_highest_weights": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "real_irreducible_dimension": 126,
+        "real_type": "real_tensor_type",
+        "required_cancellation_dimension": 504,
+        "required_cancellation_multiplicity": 4,
+        "so6_highest_weights": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "real_irreducible_dimension": 210,
+        "real_type": "real_tensor_type",
+        "required_cancellation_dimension": 840,
+        "required_cancellation_multiplicity": 4,
+        "so6_highest_weights": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "real_irreducible_dimension": 15,
+        "real_type": "real_tensor_type",
+        "required_cancellation_dimension": 60,
+        "required_cancellation_multiplicity": 4,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "real_irreducible_dimension": 105,
+        "real_type": "real_tensor_type",
+        "required_cancellation_dimension": 420,
+        "required_cancellation_multiplicity": 4,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "real_irreducible_dimension": 315,
+        "real_type": "real_tensor_type",
+        "required_cancellation_dimension": 1260,
+        "required_cancellation_multiplicity": 4,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "real_irreducible_dimension": 525,
+        "real_type": "real_tensor_type",
+        "required_cancellation_dimension": 2100,
+        "required_cancellation_multiplicity": 4,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "real_irreducible_dimension": 20,
+        "real_type": "complex_conjugate_pair",
+        "required_cancellation_dimension": 40,
+        "required_cancellation_multiplicity": 2,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "real_irreducible_dimension": 140,
+        "real_type": "complex_conjugate_pair",
+        "required_cancellation_dimension": 280,
+        "required_cancellation_multiplicity": 2,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "real_irreducible_dimension": 420,
+        "real_type": "complex_conjugate_pair",
+        "required_cancellation_dimension": 840,
+        "required_cancellation_multiplicity": 2,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "real_irreducible_dimension": 700,
+        "real_type": "complex_conjugate_pair",
+        "required_cancellation_dimension": 1400,
+        "required_cancellation_multiplicity": 2,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "forced_restriction": "CG=-HG",
+    "minimum_completion_restriction_rank": 8191,
+    "radial_domain_dimension": 16384,
+    "required_image_character": "2 Lambda^odd(R^6 direct-sum R^7) - 1",
+    "required_real_type_count": 16,
+    "required_total_dimension": 8191,
+    "required_total_real_multiplicity": 55,
+    "restriction_rank_is_exact_not_only_lower_bound": true,
+    "selected_i1b_defect_rank": 8191
+  },
+  "claim_ceiling": "Exact necessary rank and SO(6)xSO(7) character for any completion of the frozen selected-I1B realization. It neither constructs nor attributes the missing block.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 39,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k891_sc_act_06_gauge_cancellation_necessity_probe.py",
+    "producer": "tests/channel-swings/k891_sc_act_06_gauge_cancellation_necessity.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "matching_character_alone_proves_variational_ownership": false,
+    "matching_rank_alone_proves_action_ownership": false,
+    "next_exact_input": "Exhibit an action-owned completion block C on the same stationary germ and domain with CG=-HG on all sixteen defect types; then retest descent before quotient ranks.",
+    "quotient_ranks_now_admissible": false,
+    "rank_below_8191_can_restore_descent": false,
+    "zero_restriction_completion_can_restore_descent": false
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "H is frozen selected I1B; C is not owned by this theorem",
+    "carrier": "K873 radial q-lambda gauge image inside the connection tangent",
+    "grading": "gauge parameter --G--> field tangent --(H+C)--> Euler target",
+    "pairing": "K132/K720 selected-I1B formal Euler pairing plus an unspecified completion block C",
+    "real_structure": "real SO(6)xSO(7)-equivariant K717 nonnull symbol",
+    "target": "MAP-TYPE=necessary gauge-cancellation restriction before quotient descent"
+  },
+  "ledger_no_change_reason": "A necessary local cancellation identity supplies no action-owned completion, physical quotient, observable, prediction or confirmation.",
+  "pinned_inputs": {
+    "k887": {
+      "path": "lab/process/k887-sc-act-06-selected-i1b-gauge-descent-obstruction.json",
+      "sha256": "a259443e593cfa1010674320e8120fc49fe81ca2b59110bc05f6ac03032f3b2a"
+    },
+    "k888": {
+      "path": "lab/process/k888-sc-act-06-selected-i1b-gauge-defect-character.json",
+      "sha256": "efede511d2b84bcc1982e67ffe5e4b2985016d0dbd5f2a00eedde34702e3a17c"
+    }
+  },
+  "result_id": "K891-SC-ACT-06-GAUGE-CANCELLATION-NECESSITY",
+  "schema_version": "1.0",
+  "scope": "Necessary radial restriction of any extra linearized Euler block C that completes the frozen selected-I1B Hessian H to a gauge-descending map at K717.",
+  "source_and_ledger_effect": "SC-ACT-01_06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

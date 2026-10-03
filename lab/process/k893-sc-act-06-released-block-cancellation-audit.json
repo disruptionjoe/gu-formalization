@@ -1,0 +1,122 @@
+{
+  "cancellation_target": {
+    "equation": "CG=-HG",
+    "required_character": "2 Lambda^odd(R^6 direct-sum R^7) - 1",
+    "required_rank": 8191,
+    "required_real_type_count": 16
+  },
+  "candidate_rows": [
+    {
+      "cancellation_rank": 0,
+      "candidate": "same-response residual-square blocks H_Q=J^*QJ",
+      "custody": "action_owned_released_class",
+      "meets_CG_equals_minus_HG": false,
+      "restriction_on_im_G": "zero because JG=0"
+    },
+    {
+      "cancellation_rank": 0,
+      "candidate": "source-displayed Bose-Fermi mixed Hessian blocks",
+      "custody": "action_owned_displayed_at_K717",
+      "meets_CG_equals_minus_HG": false,
+      "restriction_on_im_G": "zero at zero background fermion"
+    },
+    {
+      "cancellation_rank": 0,
+      "candidate": "extra fermionic gauge tangent",
+      "custody": "source_owned_gauge_action_at_K717",
+      "meets_CG_equals_minus_HG": false,
+      "restriction_on_im_G": "zero at zero background fermion"
+    },
+    {
+      "cancellation_rank": null,
+      "candidate": "Dirac-square path adapter",
+      "custody": "source_silent_unbuilt",
+      "meets_CG_equals_minus_HG": false,
+      "restriction_on_im_G": "undefined"
+    },
+    {
+      "cancellation_rank": 8191,
+      "candidate": "formal radial-projector completion C_formal",
+      "custody": "mathematical_control_unowned",
+      "meets_CG_equals_minus_HG": true,
+      "restriction_on_im_G": "exactly -HG"
+    }
+  ],
+  "claim_ceiling": "Exact current-custody cancellation audit at K717. It closes no unreleased action term, different stationary germ or global SC-ACT-06 route.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 40,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k893_sc_act_06_released_block_cancellation_audit_probe.py",
+    "producer": "tests/channel-swings/k893_sc_act_06_released_block_cancellation_audit.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "current_released_owned_packet_restores_descent": false,
+    "formal_control_counts_as_action_completion": false,
+    "formal_control_restores_descent": true,
+    "new_owned_block_or_new_germ_still_open": true,
+    "next_exact_input": "Derive an actual source/action-owned block with the sixteen-type restriction -HG; the present released owned blocks contribute zero while the only passing projector control has no action owner.",
+    "quotient_ranks_now_admissible": false
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "row-specific; the sole passing formal control is explicitly unowned",
+    "carrier": "K873 radial gauge image at K717",
+    "grading": "candidate block restricted to im(G) and compared with -HG",
+    "pairing": "each candidate kept with its own released action or formal-control pairing",
+    "real_structure": "real SO(6)xSO(7) symbol",
+    "target": "INVENTORY-TYPE=current released cancellation capacity"
+  },
+  "inventory_result": {
+    "all_future_action_blocks_exhausted": false,
+    "current_owned_cancellation_rank": 0,
+    "current_owned_rank_deficit": 8191,
+    "released_action_owned_candidate_count": 3,
+    "released_action_owned_passing_count": 0,
+    "required_cancellation_rank": 8191,
+    "unbuilt_source_silent_candidate_count": 1,
+    "unowned_formal_control_passing_count": 1
+  },
+  "ledger_no_change_reason": "The audit separates a formal control from released action ownership and constructs no physical quotient, state, observable, prediction or confirmation.",
+  "pinned_inputs": {
+    "k873": {
+      "path": "lab/process/k873-sc-act-06-owned-symmetry-custody.json",
+      "sha256": "cc148cac1cce342c3e43d4e7681766630c8455e7ba687f87ece02978ec09c66c"
+    },
+    "k875": {
+      "path": "lab/process/k875-sc-act-06-zero-fermion-mixed-block-vanishing.json",
+      "sha256": "385e3c2a640eff46b2d11eb39e29c6fdaec926d967d57de2eb0cbc960ca7cb01"
+    },
+    "k876": {
+      "path": "lab/process/k876-sc-act-06-zero-fermion-gauge-block-custody.json",
+      "sha256": "ae0a0224d1f965b9588397f130b6efdac8d6af72c4301d7ebd09ebaa2c783d59"
+    },
+    "k883": {
+      "path": "lab/process/k883-sc-act-06-residual-square-quotient-annihilation.json",
+      "sha256": "697b3f23ee4e716e8494c7121de2c286c98e6c8fd0070f06b7ccd83e9c230e85"
+    },
+    "k885": {
+      "path": "lab/process/k885-sc-act-06-released-action-parent-quotient-inventory.json",
+      "sha256": "4aa2a784f6655c338a05537e514524ce9ced193ffb2d7c21a7f01c258dc006d6"
+    },
+    "k887": {
+      "path": "lab/process/k887-sc-act-06-selected-i1b-gauge-descent-obstruction.json",
+      "sha256": "a259443e593cfa1010674320e8120fc49fe81ca2b59110bc05f6ac03032f3b2a"
+    },
+    "k891": {
+      "path": "lab/process/k891-sc-act-06-gauge-cancellation-necessity.json",
+      "sha256": "2de71e60e7dddcff26e0adf642239514566e3a215e9132570a6eeac6122c5ac7"
+    },
+    "k892": {
+      "path": "lab/process/k892-sc-act-06-minimal-formal-gauge-completion.json",
+      "sha256": "9e3b061636a6d92f3012e034dcc22b030b3e023b539693b43bc9c13d4d37af6b"
+    }
+  },
+  "result_id": "K893-SC-ACT-06-RELEASED-BLOCK-CANCELLATION-AUDIT",
+  "schema_version": "1.0",
+  "scope": "Current-custody audit of released residual-square, zero-fermion mixed, gauge and path-adapter candidates against K891's exact selected-I1B radial cancellation equation.",
+  "source_and_ledger_effect": "SC-ACT-01_03_04_05_06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

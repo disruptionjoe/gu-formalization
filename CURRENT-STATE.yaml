@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: eef156ae9ccc
+revision_basis: 00f1565a16f0
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K891--K894 replace the vague request for a selected-I1B completion by an
+    exact action-owned admission boundary. K891 proves that every completion
+    block C restoring gauge descent must satisfy `CG=-HG` on the authenticated
+    radial gauge image, hence has exact restriction rank 8,191 and carries the
+    full 16-type character `2 Lambda^odd(R^6 direct-sum R^7) - 1`. K892
+    constructs the rank-minimal equivariant control
+    `C_formal=-H P_R`, proving that abstract linear completion is possible,
+    while fencing it from source/action ownership, variational integrability,
+    nonlinear completion and quotient repair. K893 audits the current released
+    inventory: residual-square and zero-fermion mixed/gauge additions contribute
+    zero cancellation rank; the source-silent path adapter is unbuilt; only the
+    unowned formal control passes. K894 therefore keeps all forty quotient ranks
+    undefined and the corrected completion gate at five of eleven. SC-ACT-06
+    remains `ASSERTS`; no protected conclusion moves.
+
     K887--K890 close the current serialized selected-I1B quotient-map attempt
     before quotient ranks can be assigned. K887 replays K132's exact invariant
     blocks: the raw response annihilates the 16,384-dimensional radial gauge
@@ -12749,6 +12764,18 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K891--K894 prove that gauge descent is abstractly completable but not by any
+  currently released action-owned block. Any completion must obey `CG=-HG`
+  on the radial gauge image, with exact rank 8,191 and the full 16-type
+  `2 Lambda^odd(R^6 direct-sum R^7) - 1` character. The formal projector
+  `C_formal=-H P_R` realizes that restriction but is not action-derived and
+  earns no quotient credit. Can a named source/action-owned field or gauge
+  block on the same stationary germ and common Euler/preboundary domain
+  realize this exact restriction? Only after the complete Euler linearization
+  again satisfies `(H+C)G=0` may the forty quotient ranks be computed.
+  Otherwise require a genuinely new owned response/symmetry module or a
+  source-owned nonzero-fermion stationary germ.
+
   K887--K890 prove that the current serialized selected-I1B Euler Hessian is
   not a map on `ker(J)/im(G)`: although the raw response annihilates the
   16,384-dimensional radial gauge image, the Euler map has exact rank 8,191
@@ -13967,6 +13994,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K891--K894 quantify the selected-I1B completion gap exactly. A valid
+  completion must be action-owned on one common field/gauge/Euler/preboundary
+  domain, satisfy `CG=-HG` on the 16,384-dimensional radial gauge image, and
+  realize rank 8,191 with character
+  `2 Lambda^odd(R^6 direct-sum R^7) - 1` across sixteen real types. The
+  rank-minimal formal projector completion proves only abstract linear
+  solvability; it is unowned and cannot license quotient ranks. Every current
+  released owned addition supplies zero cancellation rank, so all forty old
+  deficits remain uncredited and the corrected certificate stays five of
+  eleven. Construct the named owned block and rederive the complete Euler and
+  Green/preboundary data, or move to a genuinely new owner or source-owned
+  nonzero-fermion germ. SC-ACT-06 remains `ASSERTS`.
+
   K887--K890 close the current serialized selected-I1B realization as a
   quotient repair map: its Euler Hessian has exact rank 8191 on the
   16384-dimensional authenticated radial gauge image and therefore fails

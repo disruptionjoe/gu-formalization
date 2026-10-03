@@ -1,0 +1,70 @@
+{
+  "claim_ceiling": "Exact rank-minimal abstract equivariant completion of the gauge-descent equation. No source ownership, variational integrability, nonlinear completion or quotient repair follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 36,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k892_sc_act_06_minimal_formal_gauge_completion_probe.py",
+    "producer": "tests/channel-swings/k892_sc_act_06_minimal_formal_gauge_completion.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "action_owned_completion_constructed": false,
+    "formal_control_may_be_credited_to_SC_ACT_06": false,
+    "linear_algebra_obstruction_to_descent_completion": false,
+    "next_exact_input": "Replace the formal projector control by a source/action-owned field or gauge block on the same germ whose restriction equals -HG, then rederive the full Euler and preboundary maps.",
+    "quotient_ranks_now_admissible": false
+  },
+  "direction": "observed_to_native",
+  "formal_completion": {
+    "completed_restriction": "(H+C_formal)G=0",
+    "completion_restriction_rank": 8191,
+    "definition": "C_formal=-H P_R",
+    "formal_solution_exists": true,
+    "image_character": "2 Lambda^odd(R^6 direct-sum R^7) - 1",
+    "projector": "P_R is any SO(6)xSO(7)-equivariant projector onto R",
+    "projector_on_gauge": "P_R G=G",
+    "radial_summand": "R=im(G)",
+    "rank_minimal_among_all_completions": true,
+    "real_type_count": 16,
+    "unique_off_radial_gauge_image": false,
+    "unique_on_radial_gauge_image": true
+  },
+  "gu_typed_objects": {
+    "action_owner": "none for C_formal; H alone remains selected-I1B-owned",
+    "carrier": "full field tangent with K873 radial gauge summand R=im(G)",
+    "grading": "field tangent --P_R--> radial summand --H--> Euler target",
+    "pairing": "an invariant positive control inner product used only to choose P_R",
+    "real_structure": "real compact-stabilizer module",
+    "target": "MAP-TYPE=formal descent control, not a source-action Hessian"
+  },
+  "ledger_no_change_reason": "The formal projector proves abstract linear solvability only; it is not an owned action, state, observable, prediction or confirmation.",
+  "ownership_fence": {
+    "action_derivation_supplied": false,
+    "global_domain_supplied": false,
+    "helmholtz_or_second_variation_integrability_supplied": false,
+    "nonlinear_completion_supplied": false,
+    "quotient_repair_capacity_computed": false,
+    "source_displays_projector_counterterm": false
+  },
+  "pinned_inputs": {
+    "k873": {
+      "path": "lab/process/k873-sc-act-06-owned-symmetry-custody.json",
+      "sha256": "cc148cac1cce342c3e43d4e7681766630c8455e7ba687f87ece02978ec09c66c"
+    },
+    "k887": {
+      "path": "lab/process/k887-sc-act-06-selected-i1b-gauge-descent-obstruction.json",
+      "sha256": "a259443e593cfa1010674320e8120fc49fe81ca2b59110bc05f6ac03032f3b2a"
+    },
+    "k891": {
+      "path": "lab/process/k891-sc-act-06-gauge-cancellation-necessity.json",
+      "sha256": "2de71e60e7dddcff26e0adf642239514566e3a215e9132570a6eeac6122c5ac7"
+    }
+  },
+  "result_id": "K892-SC-ACT-06-MINIMAL-FORMAL-GAUGE-COMPLETION",
+  "schema_version": "1.0",
+  "scope": "Abstract SO(6)xSO(7)-equivariant linear completion control for the frozen selected-I1B map at K717; not an action-derived field block.",
+  "source_and_ledger_effect": "SC-ACT-01_06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

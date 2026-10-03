@@ -7,6 +7,19 @@ updated_at: "2026-10-03"
 
 # Next Steps For Contributors
 
+> **2026-10-03 K891--K894 ACTION-OWNED GAUGE-COMPLETION BOUNDARY.** K891
+> proves that every selected-I1B completion must satisfy `CG=-HG` on the
+> authenticated radial gauge image, so its restriction has exact rank 8,191
+> and the 16-type character `2 Lambda^odd(R^6 direct-sum R^7) - 1`. K892's
+> rank-minimal formal control `C_formal=-H P_R` restores descent abstractly but
+> has no source/action owner and supplies no quotient credit. K893 finds zero
+> cancellation rank from all currently released residual-square and
+> zero-fermion mixed/gauge additions; the path adapter remains source-silent
+> and unbuilt. K894 freezes the next gate: derive one named action-owned block
+> on a common stationary Euler/preboundary domain with that exact restriction,
+> then retest `(H+C)G=0` before computing any of the forty quotient ranks.
+> The completion gate remains five of eleven and SC-ACT-06 remains `ASSERTS`.
+
 > **2026-10-03 K887--K890 SELECTED-I1B GAUGE-DESCENT OBSTRUCTION.** K887
 > replays the exact K132 block model and proves that the current selected-I1B
 > Euler Hessian has rank 8,191 on the authenticated 16,384-dimensional radial

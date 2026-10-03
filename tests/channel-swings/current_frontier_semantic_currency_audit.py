@@ -611,6 +611,18 @@ def load_inputs() -> dict:
         "k890": json.loads(
             (ROOT / "lab/process/k890-sc-act-06-independent-parent-disposition.json").read_text()
         ),
+        "k891": json.loads(
+            (ROOT / "lab/process/k891-sc-act-06-gauge-cancellation-necessity.json").read_text()
+        ),
+        "k892": json.loads(
+            (ROOT / "lab/process/k892-sc-act-06-minimal-formal-gauge-completion.json").read_text()
+        ),
+        "k893": json.loads(
+            (ROOT / "lab/process/k893-sc-act-06-released-block-cancellation-audit.json").read_text()
+        ),
+        "k894": json.loads(
+            (ROOT / "lab/process/k894-sc-act-06-action-owned-completion-boundary.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -803,9 +815,13 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     check(registry["latest_gu_formalization_result"] ==
-          "K887_K890_SC_ACT_06_SELECTED_I1B_GAUGE_DESCENT_OBSTRUCTION_CURRENT",
+          "K891_K894_SC_ACT_06_ACTION_OWNED_GAUGE_COMPLETION_BOUNDARY_CURRENT",
           "latest GU result pointer moved")
     if isinstance(live, str):
+        check("K891--K894 quantify the selected-I1B completion gap exactly" in live and
+              "abstract linear solvability" in live and
+              "all forty old deficits remain uncredited" in live,
+              "live K891--K894 action-owned completion boundary missing")
         check("K887--K890 close the current serialized selected-I1B realization" in live and
               "fails representative independence" in live and
               "undefined rather than zero" in live,
@@ -1123,6 +1139,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K891--K894 replace the vague request for a selected-I1B completion" in summary and
+          "rank 8,191" in summary and
+          "only the unowned formal control passes" in summary,
+          "current K891--K894 action-owned completion result lost")
     check("K887--K890 close the current serialized selected-I1B quotient-map attempt" in summary and
           "rank 8,191" in summary and
           "undefined, not zero" in summary,
@@ -1320,6 +1340,18 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "K891--K894 prove that every selected-I1B completion must satisfy CG=-HG" in data["agenda"].get("latest_result_2026_10_03_k891_k894", "")
+        and "formal projector C_formal=-H P_R" in data["agenda"].get("latest_result_2026_10_03_k891_k894", "")
+        and "SC-ACT-06 remains ASSERTS" in data["agenda"].get("latest_result_2026_10_03_k891_k894", ""),
+        "agenda K891--K894 result is not current",
+    )
+    check(
+        "K891--K894 prove that gauge descent is abstractly completable" in question
+        and "exact rank 8,191" in question
+        and "Only after the complete Euler linearization" in question,
+        "current question lost K891--K894 action-owned completion boundary",
+    )
     check(
         "K887--K890 prove that the current serialized selected-I1B Euler Hessian" in data["agenda"].get("latest_result_2026_10_03_k887_k890", "")
         and "forty old quotient ranks are undefined rather than zero" in data["agenda"].get("latest_result_2026_10_03_k887_k890", "")
@@ -4230,6 +4262,38 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k890["decision"]["complete_flat_packet_repairability_refuted"] and
           not k890["decision"]["SC_ACT_06_proved_or_refuted"],
           "K890 independent parent disposition moved")
+
+    k891 = data["k891"]
+    check(k891["cancellation_theorem"]["forced_restriction"] == "CG=-HG" and
+          k891["cancellation_theorem"]["minimum_completion_restriction_rank"] == 8191 and
+          k891["cancellation_theorem"]["required_real_type_count"] == 16 and
+          k891["cancellation_theorem"]["required_total_dimension"] == 8191 and
+          not k891["decision"]["quotient_ranks_now_admissible"],
+          "K891 gauge cancellation necessity moved")
+
+    k892 = data["k892"]
+    check(k892["formal_completion"]["definition"] == "C_formal=-H P_R" and
+          k892["formal_completion"]["completed_restriction"] == "(H+C_formal)G=0" and
+          k892["formal_completion"]["rank_minimal_among_all_completions"] and
+          not k892["ownership_fence"]["action_derivation_supplied"] and
+          not k892["decision"]["action_owned_completion_constructed"],
+          "K892 minimal formal gauge completion moved")
+
+    k893 = data["k893"]
+    check(k893["inventory_result"]["released_action_owned_passing_count"] == 0 and
+          k893["inventory_result"]["current_owned_cancellation_rank"] == 0 and
+          k893["inventory_result"]["current_owned_rank_deficit"] == 8191 and
+          k893["inventory_result"]["unowned_formal_control_passing_count"] == 1 and
+          not k893["decision"]["formal_control_counts_as_action_completion"],
+          "K893 released block cancellation audit moved")
+
+    k894 = data["k894"]
+    check(k894["admission_boundary"]["required_radial_identity"] == "CG=-HG" and
+          k894["admission_boundary"]["required_restriction_rank"] == 8191 and
+          not k894["current_disposition"]["forty_quotient_ranks_defined"] and
+          k894["current_disposition"]["corrected_completion_gate_satisfied_rows"] == 5 and
+          not k894["decision"]["current_selected_i1b_complete_action_class_closed"],
+          "K894 action-owned completion boundary moved")
 
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]

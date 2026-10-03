@@ -1,0 +1,80 @@
+{
+  "admission_boundary": {
+    "quotient_rank_gate": "only after every preceding row passes",
+    "required_action_evidence": "derive C from a named source/action-owned field or gauge block; an abstract projector is insufficient",
+    "required_integrability_evidence": "rederive the complete Euler linearization and preboundary/Green data for the completed packet",
+    "required_radial_identity": "CG=-HG",
+    "required_real_type_count": 16,
+    "required_restriction_character": "2 Lambda^odd(R^6 direct-sum R^7) - 1",
+    "required_restriction_rank": 8191,
+    "required_retest": "verify (H+C)G=0 exactly before quotient ranks",
+    "required_same_domain": "common field, gauge, Euler and preboundary domain",
+    "required_same_germ": "K717 or another separately source-owned stationary germ with all blocks recomputed"
+  },
+  "claim_ceiling": "Exact local admission boundary after the current released block audit. Future completion blocks, new parents and other stationary germs remain open.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 40,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k894_sc_act_06_action_owned_completion_boundary_probe.py",
+    "producer": "tests/channel-swings/k894_sc_act_06_action_owned_completion_boundary.py"
+  },
+  "created": "2026-10-03",
+  "current_disposition": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "corrected_completion_gate_satisfied_rows": 5,
+    "corrected_completion_gate_total_rows": 11,
+    "credited_quotient_repair_rows": 0,
+    "current_released_owned_cancellation_rank": 0,
+    "formal_completion_action_owned": false,
+    "formal_linear_completion_exists": true,
+    "forty_quotient_ranks_defined": false,
+    "old_obstruction_real_type_count": 40,
+    "required_cancellation_rank": 8191
+  },
+  "decision": {
+    "abstract_descent_impossibility_claimed": false,
+    "current_released_owned_packet_closed_as_completion": true,
+    "current_selected_i1b_complete_action_class_closed": false,
+    "global_no_go_claimed": false,
+    "next_exact_input": "Construct one named action-owned completion satisfying the K894 admission boundary, or move to a genuinely new owned response/symmetry module or source-owned nonzero-fermion stationary germ."
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "future completion unresolved; current released owned blocks audited",
+    "carrier": "K873 radial gauge image plus K879 injected old quotient",
+    "grading": "action ownership -> radial cancellation -> quotient descent -> forty typewise ranks",
+    "pairing": "selected-I1B Euler map with a future action-owned completion kept distinct from K892's formal projector",
+    "real_structure": "real SO(6)xSO(7) character data",
+    "target": "DISPOSITION-TYPE=action-owned completion admission boundary"
+  },
+  "ledger_no_change_reason": "The exact admission boundary changes neither the source claim nor any physics row because the action-owned completion remains absent.",
+  "pinned_inputs": {
+    "k874": {
+      "path": "lab/process/k874-sc-act-06-corrected-typewise-disposition.json",
+      "sha256": "d84f631386db5388d3831c250c74b42dbaee3d11983f1854b35680cfe9a658a2"
+    },
+    "k890": {
+      "path": "lab/process/k890-sc-act-06-independent-parent-disposition.json",
+      "sha256": "02829c781dd9fa1a9494ad6ed18339f16d32955b64f5b3260a1ca4cd1486b27e"
+    },
+    "k891": {
+      "path": "lab/process/k891-sc-act-06-gauge-cancellation-necessity.json",
+      "sha256": "2de71e60e7dddcff26e0adf642239514566e3a215e9132570a6eeac6122c5ac7"
+    },
+    "k892": {
+      "path": "lab/process/k892-sc-act-06-minimal-formal-gauge-completion.json",
+      "sha256": "9e3b061636a6d92f3012e034dcc22b030b3e023b539693b43bc9c13d4d37af6b"
+    },
+    "k893": {
+      "path": "lab/process/k893-sc-act-06-released-block-cancellation-audit.json",
+      "sha256": "78a86f3e6709752cf4fd96a425840774a6a47ef9d62f1f3d8bc7960fc1abe0d6"
+    }
+  },
+  "result_id": "K894-SC-ACT-06-ACTION-OWNED-COMPLETION-BOUNDARY",
+  "schema_version": "1.0",
+  "scope": "Post-K891--K893 disposition of the exact information required before the selected-I1B realization can define and test a map on K879's old quotient.",
+  "source_and_ledger_effect": "SC-ACT-01_03_04_05_06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}
