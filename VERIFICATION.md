@@ -7,6 +7,46 @@ updated_at: "2026-10-02"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K855--K858 topological repair disposition (2026-10-02)
+
+K855 proves the constant-rank bundle theorem for the old principal complex:
+if continuous real bundle maps `G_q` and `J_q` have constant ranks and
+`J_q G_q=0`, then `H=ker(J)/im(G)` is a vector bundle of rank
+`dim(B)-rank(J)-rank(G)`. With continuous auxiliary metrics it is represented
+by `ker(J) intersect im(G)^perp` and projector
+`P_H=P_ker(J)-P_im(G)`.
+
+K856 specializes to the fourteen-covector Euclidean unit sphere `S^13`.
+Rank-`h` real bundles are clutched by `pi_12(O(h))`; for `h>=14` this is in
+the stable range, and real Bott periodicity gives `pi_12(O)=0`. Thus every
+such high-rank real bundle is trivial. K857 chooses a continuous orthonormal
+frame and any complementary split. The inclusion `S_bar` and projection
+`tau_bar` obey `tau_bar S_bar=0` and `im(S_bar)=ker(tau_bar)`, while
+`tau_bar^*tau_bar+S_bar S_bar^*=I`. Hence `mu=T=R=1` and K853's robustness
+radius is `(sqrt(6)-2)/2`.
+
+K858 applies this only as a conditional topology result. The current flat
+packet has a 90124-class lower bound but no authenticated complete-cosphere
+constant-rank cohomology bundle or exact bundle rank, and an arbitrary
+trivialization is not a source/action owner. The current packet is therefore
+not repaired or admitted. The four producers pass 129 controls and their
+probes reject 70/70 hostile mutations. SC-ACT-06 remains `ASSERTS`; no source,
+ledger, canon, paper, public, prediction, confirmation or physical verdict
+moves.
+
+Run the producers and hostile probes:
+
+```bash
+python3 tests/channel-swings/k855_sc_act_06_cohomology_bundle.py --check
+python3 tests/channel-swings/k855_sc_act_06_cohomology_bundle_probe.py
+python3 tests/channel-swings/k856_sc_act_06_s13_stable_triviality.py --check
+python3 tests/channel-swings/k856_sc_act_06_s13_stable_triviality_probe.py
+python3 tests/channel-swings/k857_sc_act_06_abstract_orthogonal_repair.py --check
+python3 tests/channel-swings/k857_sc_act_06_abstract_orthogonal_repair_probe.py
+python3 tests/channel-swings/k858_sc_act_06_topological_repair_disposition.py --check
+python3 tests/channel-swings/k858_sc_act_06_topological_repair_disposition_probe.py
+```
+
 ## K851--K854 robust quotient repair certificate (2026-10-02)
 
 K851 upgrades K847's pointwise quotient criterion to a uniform theorem. For

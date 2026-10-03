@@ -1,0 +1,173 @@
+{
+  "claim_ceiling": "Constructive abstract exact repair with unit Hodge gap and explicit robustness radius. It is an existence control, not a GU-owned repair.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "comparator_routing_notice": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) 126 Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read lab/methods/source-native-comparator-routing.md and follow its source-native pointers before reusing this result.",
+  "construction": {
+    "S_bar": "isometric inclusion of the first summand",
+    "composition": "tau_bar S_bar=0",
+    "exactness": "im(S_bar)=ker(tau_bar)",
+    "hodge_operator": "L=tau_bar^* tau_bar+S_bar S_bar^*=I_H",
+    "hypotheses": [
+      "H is a trivial real rank-h bundle",
+      "H carries a continuous positive metric",
+      "1<=s<h"
+    ],
+    "k853_radius_exact": "(sqrt(6)-2)/2",
+    "k853_radius_numeric": 0.22474487139158894,
+    "map_norms": {
+      "R": 1,
+      "T": 1
+    },
+    "orthonormal_frame": "continuous Gram-Schmidt of a global frame",
+    "ownership_from_triviality": false,
+    "split": "H=R^s direct-sum R^(h-s)",
+    "tau_bar": "orthogonal projection onto the second summand",
+    "uniform_gap": 1
+  },
+  "controls": {
+    "controls_passed": 34,
+    "hostile_mutations_rejected": 18,
+    "probe": "tests/channel-swings/k857_sc_act_06_abstract_orthogonal_repair_probe.py",
+    "producer": "tests/channel-swings/k857_sc_act_06_abstract_orthogonal_repair.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "abstract_continuous_exact_repair_exists_under_hypotheses": true,
+    "current_flat_packet_repaired": false,
+    "source_owned_repair_maps_constructed": false,
+    "topological_triviality_selects_GU_maps": false
+  },
+  "direction": "observed_to_native",
+  "exact_control": {
+    "S_bar": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "epsilon_inside": 0.11237243569579447,
+    "epsilon_outside": 0.22699232010550482,
+    "h": 5,
+    "hodge": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "hodge_is_identity": true,
+    "perturbation_bound_inside": 0.47474487139158883,
+    "r": 3,
+    "radius_positive": true,
+    "rank_sum": 5,
+    "s": 2,
+    "tau_S": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "tau_bar": [
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "gu_typed_objects": {
+    "action_owner": "candidate-must-declare",
+    "carrier": "LAYER=ambient CHIRALITY=N/A old middle symbol bundle over a compact Euclidean cosphere",
+    "grading": "old gauge image -> old middle kernel -> old equation image",
+    "pairing": "continuous positive auxiliary fibre metric used only to realize orthogonal projectors",
+    "real_structure": "fixed real symbol bundles",
+    "target": "MAP-TYPE=abstract complementary quotient repair"
+  },
+  "pinned_inputs": {
+    "k855": {
+      "path": "lab/process/k855-sc-act-06-cohomology-bundle.json",
+      "sha256": "e5117e3de143b715f684c0d2601b0d820a326ab8bedb2b255206060aae49ef32"
+    },
+    "k856": {
+      "path": "lab/process/k856-sc-act-06-s13-stable-triviality.json",
+      "sha256": "ceb1a275d9fbca491f94c6cfeaa5039ae518052df52019bbad46a7bd6f7557b3"
+    }
+  },
+  "result_id": "K857-SC-ACT-06-ABSTRACT-ORTHOGONAL-REPAIR",
+  "schema_version": "1.0",
+  "scope": "Abstract repair after choosing an orthonormal trivialization of a real cohomology bundle; the chosen frame and maps are not thereby GU source/action owned.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

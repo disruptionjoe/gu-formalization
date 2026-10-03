@@ -1,0 +1,69 @@
+{
+  "claim_ceiling": "Stable-range real clutching theorem. It removes only a purely topological obstruction after a complete constant-rank real cohomology bundle has been established.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "comparator_routing_notice": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) 126 Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read lab/methods/source-native-comparator-routing.md and follow its source-native pointers before reusing this result.",
+  "controls": {
+    "controls_passed": 28,
+    "hostile_mutations_rejected": 16,
+    "probe": "tests/channel-swings/k856_sc_act_06_s13_stable_triviality_probe.py",
+    "producer": "tests/channel-swings/k856_sc_act_06_s13_stable_triviality.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "abstract_triviality_implies_source_ownership": false,
+    "current_flat_packet_bundle_hypotheses_established": false,
+    "high_rank_S13_bundle_has_topological_clutching_obstruction": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "bott_table_mod8": {
+      "0": "Z/2",
+      "1": "Z/2",
+      "2": "0",
+      "3": "Z",
+      "4": "0",
+      "5": "0",
+      "6": "0",
+      "7": "Z"
+    },
+    "current_lower_bound": 90124,
+    "current_lower_bound_exceeds_threshold": true,
+    "h13_outside_iso_range": true,
+    "stable_h14": true,
+    "stable_h90124": true,
+    "twelve_mod_eight": 4
+  },
+  "gu_typed_objects": {
+    "action_owner": "candidate-must-declare",
+    "carrier": "LAYER=ambient CHIRALITY=N/A old middle symbol bundle over a compact Euclidean cosphere",
+    "grading": "old gauge image -> old middle kernel -> old equation image",
+    "pairing": "continuous positive auxiliary fibre metric used only to realize orthogonal projectors",
+    "real_structure": "fixed real symbol bundles",
+    "target": "MAP-TYPE=clutching class of the old middle cohomology bundle"
+  },
+  "pinned_inputs": {
+    "k855": {
+      "path": "lab/process/k855-sc-act-06-cohomology-bundle.json",
+      "sha256": "e5117e3de143b715f684c0d2601b0d820a326ab8bedb2b255206060aae49ef32"
+    }
+  },
+  "result_id": "K856-SC-ACT-06-S13-STABLE-TRIVIALITY",
+  "schema_version": "1.0",
+  "scope": "Topology of finite-rank real bundles over the Euclidean 14-covector unit sphere S^13; no GU ownership or complete symbol family is inferred.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "base": "S^13",
+    "bott_periodicity_residue": 4,
+    "classification_group": "pi_12(O(h))",
+    "clutching_degree": 12,
+    "complex_bundles_are_not_being_classified": true,
+    "conclusion": "every real rank-h bundle over S^13 is trivial for h>=14",
+    "rank_13_status": "not decided by this stable-range argument",
+    "stable_group": "pi_12(O)=0",
+    "stable_range_condition": "h>=14",
+    "stable_range_reason": "pi_12(O(h))->pi_12(O) is an isomorphism for 12<h-1"
+  }
+}

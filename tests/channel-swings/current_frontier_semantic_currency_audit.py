@@ -503,6 +503,18 @@ def load_inputs() -> dict:
         "k854": json.loads(
             (ROOT / "lab/process/k854-sc-act-06-robust-quotient-repair-certificate.json").read_text()
         ),
+        "k855": json.loads(
+            (ROOT / "lab/process/k855-sc-act-06-cohomology-bundle.json").read_text()
+        ),
+        "k856": json.loads(
+            (ROOT / "lab/process/k856-sc-act-06-s13-stable-triviality.json").read_text()
+        ),
+        "k857": json.loads(
+            (ROOT / "lab/process/k857-sc-act-06-abstract-orthogonal-repair.json").read_text()
+        ),
+        "k858": json.loads(
+            (ROOT / "lab/process/k858-sc-act-06-topological-repair-disposition.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -695,9 +707,13 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     check(registry["latest_gu_formalization_result"] ==
-          "K851_K854_SC_ACT_06_ROBUST_QUOTIENT_REPAIR_CURRENT",
+          "K855_K858_SC_ACT_06_TOPOLOGICAL_REPAIR_DISPOSITION_CURRENT",
           "latest GU result pointer moved")
     if isinstance(live, str):
+        check("K855--K858 prove that once a complete real constant-rank old cohomology" in live and
+              "rank-`h>=14` bundle over `S^13` is trivial" in live and
+              "a chosen global frame to an owner" in live,
+              "live K855--K858 topological repair disposition missing")
         check("K851--K854 require the next SC-ACT-06 repair attempt" in live and
               "uniform positive Hodge gap" in live and
               "K853's explicit radius" in live,
@@ -1176,6 +1192,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "K855--K858 close the purely topological obstruction route" in data["agenda"].get("latest_result_2026_10_02_k855_k858", "")
+        and "rank h>=14 bundle is trivial" in data["agenda"].get("latest_result_2026_10_02_k855_k858", "")
+        and "SC-ACT-06 remains ASSERTS" in data["agenda"].get("latest_result_2026_10_02_k855_k858", ""),
+        "agenda K855--K858 result is not current",
+    )
     check(
         "K851--K854 upgrade the exact quotient-repair interface" in question
         and "uniform positive Hodge gap" in question
@@ -3703,6 +3725,38 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k854["decision"]["SC_ACT_06_proved_or_refuted"],
           "K854 robust quotient repair certificate moved")
 
+    k855 = data["k855"]
+    check(k855["decision"]["constant_rank_old_complex_produces_cohomology_bundle"] and
+          not k855["decision"]["current_flat_packet_complete_cosphere_bundle_established"] and
+          not k855["decision"]["source_owned_repair_maps_constructed"] and
+          not k855["decision"]["SC_ACT_06_proved_or_refuted"],
+          "K855 cohomology bundle theorem moved")
+
+    k856 = data["k856"]
+    check(k856["exact_controls"]["stable_h14"] and
+          k856["exact_controls"]["stable_h90124"] and
+          not k856["decision"]["high_rank_S13_bundle_has_topological_clutching_obstruction"] and
+          not k856["decision"]["current_flat_packet_bundle_hypotheses_established"] and
+          not k856["decision"]["SC_ACT_06_proved_or_refuted"],
+          "K856 S13 stable triviality theorem moved")
+
+    k857 = data["k857"]
+    check(k857["decision"]["abstract_continuous_exact_repair_exists_under_hypotheses"] and
+          not k857["decision"]["topological_triviality_selects_GU_maps"] and
+          not k857["decision"]["source_owned_repair_maps_constructed"] and
+          not k857["decision"]["current_flat_packet_repaired"] and
+          not k857["decision"]["SC_ACT_06_proved_or_refuted"],
+          "K857 abstract orthogonal repair moved")
+
+    k858 = data["k858"]
+    check(k858["decision"]["pure_topological_nonexistence_route_closed_conditionally"] and
+          k858["decision"]["ownership_and_complete_family_are_now_the_decisive_gates"] and
+          not k858["decision"]["current_flat_packet_repaired"] and
+          not k858["decision"]["current_flat_packet_repairability_refuted"] and
+          not k858["decision"]["SC_ACT_06_proved_or_refuted"] and
+          not k858["compiled_result"]["source_or_action_ownership_supplied"],
+          "K858 topological repair disposition moved")
+
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]
     k693_n = k693["native_interface_status"]
@@ -4885,6 +4939,10 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k852-finite-sampling", lambda d: d["k852"]["decision"].__setitem__("finite_sampling_proves_uniformity", True))
     add("k853-composition-unneeded", lambda d: d["k853"]["theorem"].__setitem__("composition_is_required", False))
     add("k854-current-robust", lambda d: d["k854"]["decision"].__setitem__("current_flat_packet_robust_admitted", True))
+    add("k855-current-bundle", lambda d: d["k855"]["decision"].__setitem__("current_flat_packet_complete_cosphere_bundle_established", True))
+    add("k856-current-hypotheses", lambda d: d["k856"]["decision"].__setitem__("current_flat_packet_bundle_hypotheses_established", True))
+    add("k857-source-owned", lambda d: d["k857"]["decision"].__setitem__("source_owned_repair_maps_constructed", True))
+    add("k858-current-repaired", lambda d: d["k858"]["decision"].__setitem__("current_flat_packet_repaired", True))
 
     add("k696-form", lambda d: d["k696"]["integration_theorem"].__setitem__("graph_equivalence_without_form_identity_sufficient", True))
     add("k696-reduction", lambda d: d["k696"]["integration_theorem"].__setitem__("reduction_of_column_labels_alone_reduces_native_R", True))

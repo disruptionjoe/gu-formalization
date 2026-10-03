@@ -7,6 +7,18 @@ updated_at: "2026-10-02"
 
 # Next Steps For Contributors
 
+> **2026-10-02 K855--K858 TOPOLOGICAL REPAIR DISPOSITION.** K855 proves that
+> constant-rank continuous old symbol maps form a real middle-cohomology
+> bundle. K856 proves every real rank-at-least-14 bundle over the Euclidean
+> unit cosphere `S^13` is trivial because the stable clutching group is
+> `pi_12(O)=0`. K857 constructs an abstract complementary repair from an
+> orthonormal trivialization, with Hodge gap one and K853 radius
+> `(sqrt(6)-2)/2`. K858 closes only the purely topological nonexistence route.
+> Next authenticate the complete constant-rank old cohomology bundle and find
+> source/action-owned quotient maps; the current 90124 lower bound is not an
+> exact bundle rank and a chosen frame is not an owner. SC-ACT-06 remains
+> `ASSERTS`.
+
 > **2026-10-02 K851--K854 ROBUST QUOTIENT REPAIR CERTIFICATE.** K851 turns
 > pointwise quotient exactness into a uniform positive Hodge gap on the compact
 > authenticated cosphere. K852 proves compactness, continuity and pointwise
