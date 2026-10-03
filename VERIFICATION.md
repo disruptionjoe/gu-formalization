@@ -7,6 +7,38 @@ updated_at: "2026-10-03"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K883--K886 released residual-square quotient boundary (2026-10-03)
+
+K883 applies K743's exact zero-residual factorization `H_Q=J^*QJ` to K879's
+injected obstruction submodule. Every representative lies in `ker(J)`, so
+`H_Qh=0`; the old gauge identity `JG=0` makes this zero map independent of the
+representative. The conclusion is uniform over every admissible residual
+pairing and weight in the released same-response residual-square class.
+
+K884 transfers this zero induced capacity to each of K881's 40 real
+`SO(6)xSO(7)` types, preserving all 169 multiplicity deficits. K885 separates
+released action-parent custody from quotient effectiveness: I2B and the total
+residual-norm rival are closed at zero capacity, selected I1B remains an
+independent uncomputed map, and the source-silent path adapter remains unbuilt.
+K886 therefore excludes only the released factorized repair class. It does not
+compute the complementary cohomology or prove a complete flat-packet,
+all-action, other-germ, global-ellipticity or physical no-go. The completion
+gate remains five of eleven. The four producers pass 187 controls and their
+probes reject 80/80 hostile mutations. SC-ACT-06 remains `ASSERTS`.
+
+Run the producers and hostile probes:
+
+```bash
+python3 tests/channel-swings/k883_sc_act_06_residual_square_quotient_annihilation.py --check
+python3 tests/channel-swings/k883_sc_act_06_residual_square_quotient_annihilation_probe.py
+python3 tests/channel-swings/k884_sc_act_06_residual_square_typewise_capacity.py --check
+python3 tests/channel-swings/k884_sc_act_06_residual_square_typewise_capacity_probe.py
+python3 tests/channel-swings/k885_sc_act_06_released_action_parent_quotient_inventory.py --check
+python3 tests/channel-swings/k885_sc_act_06_released_action_parent_quotient_inventory_probe.py
+python3 tests/channel-swings/k886_sc_act_06_released_repair_disposition.py --check
+python3 tests/channel-swings/k886_sc_act_06_released_repair_disposition_probe.py
+```
+
 ## K879--K882 full-field tangential obstruction (2026-10-03)
 
 K879 places the owned K873 connection quotient inside K717's full bosonic

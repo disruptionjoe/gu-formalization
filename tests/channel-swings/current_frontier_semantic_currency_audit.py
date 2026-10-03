@@ -587,6 +587,18 @@ def load_inputs() -> dict:
         "k882": json.loads(
             (ROOT / "lab/process/k882-sc-act-06-full-field-obstruction-disposition.json").read_text()
         ),
+        "k883": json.loads(
+            (ROOT / "lab/process/k883-sc-act-06-residual-square-quotient-annihilation.json").read_text()
+        ),
+        "k884": json.loads(
+            (ROOT / "lab/process/k884-sc-act-06-residual-square-typewise-capacity.json").read_text()
+        ),
+        "k885": json.loads(
+            (ROOT / "lab/process/k885-sc-act-06-released-action-parent-quotient-inventory.json").read_text()
+        ),
+        "k886": json.loads(
+            (ROOT / "lab/process/k886-sc-act-06-released-repair-disposition.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -779,9 +791,13 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     check(registry["latest_gu_formalization_result"] ==
-          "K879_K882_SC_ACT_06_FULL_FIELD_OBSTRUCTION_DISPOSITION_CURRENT",
+          "K883_K886_SC_ACT_06_RELEASED_RESIDUAL_SQUARE_REPAIR_DISPOSITION_CURRENT",
           "latest GU result pointer moved")
     if isinstance(live, str):
+        check("K883--K886 exclude the released same-response residual-square repair class" in live and
+              "selected I1B is independent" in live and
+              "nonzero-fermion stationary germ" in live,
+              "live K883--K886 released residual-square disposition missing")
         check("K879--K882 inject K873's complete 90128-dimensional tangential quotient" in live and
               "genuinely independent source/action-owned" in live and
               "nonzero-fermion stationary germ" in live,
@@ -1091,6 +1107,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K883--K886 close the released same-response residual-square repair class" in summary and
+          "selected I1B remains an independent uncomputed" in summary and
+          "five of eleven" in summary,
+          "current K883--K886 residual-square quotient result lost")
     check("K879--K882 prove that K873's owned 90,128-dimensional tangential" in summary and
           "all 40 K872 real types" in summary and
           "five of eleven" in summary,
@@ -1281,6 +1301,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
 
     question = current.get("current_question", "")
     check(
+        "K883--K886 prove that every released same-response residual-square Hessian" in data["agenda"].get("latest_result_2026_10_03_k883_k886", "")
+        and "selected I1B remains independent and uncomputed" in data["agenda"].get("latest_result_2026_10_03_k883_k886", "")
+        and "SC-ACT-06 remains ASSERTS" in data["agenda"].get("latest_result_2026_10_03_k883_k886", ""),
+        "agenda K883--K886 result is not current",
+    )
+    check(
         "K879--K882 prove that K873's owned 90128-dimensional tangential quotient" in data["agenda"].get("latest_result_2026_10_03_k879_k882", "")
         and "All 40 real types survive as lower bounds" in data["agenda"].get("latest_result_2026_10_03_k879_k882", "")
         and "SC-ACT-06 remains ASSERTS" in data["agenda"].get("latest_result_2026_10_03_k879_k882", ""),
@@ -1297,6 +1323,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         and "40 real irreducible types" in data["agenda"].get("latest_result_2026_10_02_k871_k874", "")
         and "SC-ACT-06 remains ASSERTS" in data["agenda"].get("latest_result_2026_10_02_k871_k874", ""),
         "agenda K871--K874 result is not current",
+    )
+    check(
+        "K883--K886 prove that every released same-response residual-square Hessian" in question
+        and "selected-I1B Euler map" in question
+        and "released factorized class" in question,
+        "current question lost K883--K886 residual-square quotient boundary",
     )
     check(
         "K879--K882 strengthen the K717 boundary" in question
@@ -4094,6 +4126,39 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           k882["decision"]["exact_full_field_obstruction_submodule_proved"] and
           not k882["decision"]["global_SC_ACT_06_proved_or_refuted"],
           "K882 full-field obstruction disposition moved")
+
+    k883 = data["k883"]
+    check(k883["annihilation_theorem"]["descends_to_old_cohomology"] and
+          k883["annihilation_theorem"]["induced_quotient_map_is_zero"] and
+          k883["annihilation_theorem"]["injected_submodule_dimension"] == 90128 and
+          k883["repair_consequence"]["quotient_effective_response_rank_on_injected_submodule"] == 0 and
+          not k883["repair_consequence"]["selected_I1B_induced_map_computed"],
+          "K883 residual-square quotient annihilation moved")
+
+    k884 = data["k884"]
+    check(k884["typewise_capacity"]["row_count"] == 40 and
+          k884["typewise_capacity"]["failed_released_factorized_row_count"] == 40 and
+          k884["typewise_capacity"]["dimension_of_injected_lower_bound"] == 90128 and
+          k884["decision"]["all_40_types_still_require_independent_capacity"] and
+          not k884["decision"]["selected_I1B_typewise_capacity_known"],
+          "K884 residual-square typewise capacity moved")
+
+    k885 = data["k885"]
+    check(k885["inventory_summary"]["closed_zero_capacity_parent_count"] == 2 and
+          k885["inventory_summary"]["open_independent_parent_count"] == 1 and
+          k885["inventory_summary"]["unowned_unbuilt_parent_count"] == 1 and
+          k885["decision"]["released_residual_square_repair_class_closed"] and
+          not k885["decision"]["selected_I1B_repair_capacity_closed"],
+          "K885 released action-parent quotient inventory moved")
+
+    k886 = data["k886"]
+    check(k886["released_repair_certificate"]["released_residual_square_class_closed"] and
+          k886["released_repair_certificate"]["released_factorized_failed_type_count"] == 40 and
+          k886["corrected_completion_gate"]["satisfied_row_count"] == 5 and
+          k886["decision"]["released_same_response_repair_class_excluded"] and
+          not k886["decision"]["selected_I1B_route_excluded"] and
+          not k886["decision"]["global_SC_ACT_06_proved_or_refuted"],
+          "K886 released repair disposition moved")
 
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]

@@ -1,0 +1,1031 @@
+{
+  "claim_ceiling": "Exact zero typewise quotient capacity for all 40 injected obstruction types from the displayed mixed, redundant-Xi and same-response residual-square routes. Independent I1B, other action parents, other germs and the full complement remain open.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 47,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k884_sc_act_06_residual_square_typewise_capacity_probe.py",
+    "producer": "tests/channel-swings/k884_sc_act_06_residual_square_typewise_capacity.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "all_40_types_still_require_independent_capacity": true,
+    "complete_flat_packet_repairability_refuted": false,
+    "next_exact_input": "Compute the selected-I1B quotient map in the same SO(6)xSO(7) basis and compare its multiplicities with these 40 deficits, or construct a genuinely new owned response or symmetry module.",
+    "released_factorized_routes_cover_any_injected_type": false,
+    "selected_I1B_typewise_capacity_known": false
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "released zero-fermion mixed, Xi and same-response residual-square parents only",
+    "carrier": "K881 forty-type injected full-field obstruction submodule",
+    "grading": "old cohomology -> released factorized repair targets",
+    "pairing": "arbitrary admissible residual pairing Q; the induced map is zero",
+    "real_structure": "K872/K881 real SO(6)xSO(7) irreducible reconstruction",
+    "target": "CERTIFICATE-TYPE=typewise quotient-effective repair capacity"
+  },
+  "ledger_no_change_reason": "The typewise zero-capacity result is local deformation algebra and supplies no physical bridge or complete full-field character.",
+  "pinned_inputs": {
+    "k881": {
+      "path": "lab/process/k881-sc-act-06-full-field-typewise-lower-bound.json",
+      "sha256": "e4f8e85fed14216bad0275d8834a921497c654328e27ecd154e1f637564f7f12"
+    },
+    "k883": {
+      "path": "lab/process/k883-sc-act-06-residual-square-quotient-annihilation.json",
+      "sha256": "697b3f23ee4e716e8494c7121de2c286c98e6c8fd0070f06b7ccd83e9c230e85"
+    }
+  },
+  "result_id": "K884-SC-ACT-06-RESIDUAL-SQUARE-TYPEWISE-CAPACITY",
+  "schema_version": "1.0",
+  "scope": "SO(6)xSO(7)-typewise capacity of the displayed mixed, redundant-Xi and same-response residual-square routes on K879's injected full-field obstruction submodule.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "typewise_capacity": {
+    "all_same_response_capacities_zero": true,
+    "common_stabilizer": "SO(6) x SO(7)",
+    "criterion": "every type requires new quotient-effective response-plus-symmetry multiplicity at least h_rho",
+    "dimension_of_injected_lower_bound": 90128,
+    "failed_released_factorized_row_count": 40,
+    "row_count": 40,
+    "rows": [
+      {
+        "displayed_mixed_capacity": 0,
+        "injected_multiplicity_lower_bound": 2,
+        "real_irreducible_dimension": 3780,
+        "real_type": "complex_conjugate_pair",
+        "redundant_xi_capacity": 0,
+        "remaining_deficit_lower_bound": 2,
+        "same_response_residual_square_capacity": 0,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          1,
+          1
+        ],
+        "total_released_factorized_capacity": 0,
+        "type_id": "rho-01"
+      },
+      {
+        "displayed_mixed_capacity": 0,
+        "injected_multiplicity_lower_bound": 4,
+        "real_irreducible_dimension": 2835,
+        "real_type": "real_tensor_type",
+        "redundant_xi_capacity": 0,
+        "remaining_deficit_lower_bound": 4,
+        "same_response_residual_square_capacity": 0,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          1,
+          1
+        ],
+        "total_released_factorized_capacity": 0,
+        "type_id": "rho-02"
+      },
+      {
+        "displayed_mixed_capacity": 0,
+        "injected_multiplicity_lower_bound": 2,
+        "real_irreducible_dimension": 3150,
+        "real_type": "complex_conjugate_pair",
+        "redundant_xi_capacity": 0,
+        "remaining_deficit_lower_bound": 2,
+        "same_response_residual_square_capacity": 0,
+        "so6_highest_weights": [
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          1
+        ],
+        "total_released_factorized_capacity": 0,
+        "type_id": "rho-03"
+      },
+      {
+        "displayed_mixed_capacity": 0,
+        "injected_multiplicity_lower_bound": 4,
+        "real_irreducible_dimension": 2240,
+        "real_type": "real_tensor_type",
+        "redundant_xi_capacity": 0,
+        "remaining_deficit_lower_bound": 4,
+        "same_response_residual_square_capacity": 0,
+        "so6_highest_weights": [
+          [
+            2,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          1
+        ],
+        "total_released_factorized_capacity": 0,
+        "type_id": "rho-04"
+      },
+      {
+        "displayed_mixed_capacity": 0,
+        "injected_multiplicity_lower_bound": 2,
+        "real_irreducible_dimension": 2100,
+        "real_type": "complex_conjugate_pair",
+        "redundant_xi_capacity": 0,
+        "remaining_deficit_lower_bound": 2,
+        "same_response_residual_square_capacity": 0,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          1,
+          0
+        ],
+        "total_released_factorized_capacity": 0,
+        "type_id": "rho-05"
+      },
+      {
+        "displayed_mixed_capacity": 0,
+        "injected_multiplicity_lower_bound": 4,
+        "real_irreducible_dimension": 1575,
+        "real_type": "real_tensor_type",
+        "redundant_xi_capacity": 0,
+        "remaining_deficit_lower_bound": 4,
+        "same_response_residual_square_capacity": 0,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          1,
+          0
+        ],
+        "total_released_factorized_capacity": 0,
+        "type_id": "rho-06"
+      },
+      {
+        "displayed_mixed_capacity": 0,
+        "injected_multiplicity_lower_bound": 4,
+        "real_irreducible_dimension": 1134,
+        "real_type": "real_tensor_type",
+        "redundant_xi_capacity": 0,
+        "remaining_deficit_lower_bound": 4,
+        "same_response_residual_square_capacity": 0,
+        "so6_highest_weights": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          1,
+          1
+        ],
+        "total_released_factorized_capacity": 0,
+        "type_id": "rho-07"
+      },
+      {
+        "displayed_mixed_capacity": 0,
+        "injected_multiplicity_lower_bound": 2,
+        "real_irreducible_dimension": 1890,
+        "real_type": "complex_conjugate_pair",
+        "redundant_xi_capacity": 0,
+        "remaining_deficit_lower_bound": 2,
+        "same_response_residual_square_capacity": 0,
+        "so6_highest_weights": [
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          0
+        ],
+        "total_released_factorized_capacity": 0,
+        "type_id": "rho-08"
+      },
+      {
+        "displayed_mixed_capacity": 0,
+        "injected_multiplicity_lower_bound": 4,
+        "real_irreducible_dimension": 1344,
+        "real_type": "real_tensor_type",
+        "redundant_xi_capacity": 0,
+        "remaining_deficit_lower_bound": 4,
+        "same_response_residual_square_capacity": 0,
+        "so6_highest_weights": [
+          [
+            2,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          0
+        ],
+        "total_released_factorized_capacity": 0,
+        "type_id": "rho-09"
+      },
+      {
+        "displayed_mixed_capacity": 0,
+        "injected_multiplicity_lower_bound": 4,
+        "real_irreducible_dimension": 700,
+        "real_type": "real_tensor_type",
+        "redundant_xi_capacity": 0,
+        "remaining_deficit_lower_bound": 4,
+        "same_response_residual_square_capacity": 0,
+        "so6_highest_weights": [
+          [
+            2,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          1
+        ],
+        "total_released_factorized_capacity": 0,
+        "type_id": "rho-10"
+      },
+      {
+        "displayed_mixed_capacity": 0,
+        "injected_multiplicity_lower_bound": 4,
+        "real_irreducible_dimension": 630,
+        "real_type": "real_tensor_type",
+        "redundant_xi_capacity": 0,
+        "remaining_deficit_lower_bound": 4,
+        "same_response_residual_square_capacity": 0,
+        "so6_highest_weights": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          1,
+          0
+        ],
+        "total_released_factorized_capacity": 0,
+        "type_id": "rho-11"
+      },
+      {
+        "displayed_mixed_capacity": 0,
+        "injected_multiplicity_lower_bound": 4,
+        "real_irreducible_dimension": 420,
+        "real_type": "real_tensor_type",
+        "redundant_xi_capacity": 0,
+        "remaining_deficit_lower_bound": 4,
+        "same_response_residual_square_capacity": 0,
+        "so6_highest_weights": [
+          [
+            2,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          0
+        ],
+        "total_released_factorized_capacity": 0,
+        "type_id": "rho-12"
+      },
+      {
+        "displayed_mixed_capacity": 0,
+        "injected_multiplicity_lower_bound": 2,
+        "real_irreducible_dimension": 540,
+        "real_type": "complex_conjugate_pair",
+        "redundant_xi_capacity": 0,
+        "remaining_deficit_lower_bound": 2,
+        "same_response_residual_square_capacity": 0,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          0,
+          0
+        ],
+        "total_released_factorized_capacity": 0,
+        "type_id": "rho-13"
+      },
+      {
+        "displayed_mixed_capacity": 0,
+        "injected_multiplicity_lower_bound": 4,
+        "real_irreducible_dimension": 700,
+        "real_type": "complex_conjugate_pair",
+        "redundant_xi_capacity": 0,
+        "remaining_deficit_lower_bound": 4,
+        "same_response_residual_square_capacity": 0,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          1
+        ],
+        "total_released_factorized_capacity": 0,
+        "type_id": "rho-14"
+      },
+      {
+        "displayed_mixed_capacity": 0,
+        "injected_multiplicity_lower_bound": 4,
+        "real_irreducible_dimension": 405,
+        "real_type": "real_tensor_type",
+        "redundant_xi_capacity": 0,
+        "remaining_deficit_lower_bound": 4,
+        "same_response_residual_square_capacity": 0,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          0,
+          0
+        ],
+        "total_released_factorized_capacity": 0,
+        "type_id": "rho-15"
+      },
+      {
+        "displayed_mixed_capacity": 0,
+        "injected_multiplicity_lower_bound": 8,
+        "real_irreducible_dimension": 525,
+        "real_type": "real_tensor_type",
+        "redundant_xi_capacity": 0,
+        "remaining_deficit_lower_bound": 8,
+        "same_response_residual_square_capacity": 0,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          1
+        ],
+        "total_released_factorized_capacity": 0,
+        "type_id": "rho-16"
+      },
+      {
+        "displayed_mixed_capacity": 0,
+        "injected_multiplicity_lower_bound": 4,
+        "real_irreducible_dimension": 189,
+        "real_type": "real_tensor_type",
+        "redundant_xi_capacity": 0,
+        "remaining_deficit_lower_bound": 4,
+        "same_response_residual_square_capacity": 0,
+        "so6_highest_weights": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          1,
+          1
+        ],
+        "total_released_factorized_capacity": 0,
+        "type_id": "rho-17"
+      },
+      {
+        "displayed_mixed_capacity": 0,
+        "injected_multiplicity_lower_bound": 2,
+        "real_irreducible_dimension": 630,
+        "real_type": "complex_conjugate_pair",
+        "redundant_xi_capacity": 0,
+        "remaining_deficit_lower_bound": 2,
+        "same_response_residual_square_capacity": 0,
+        "so6_highest_weights": [
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          0,
+          0
+        ],
+        "total_released_factorized_capacity": 0,
+        "type_id": "rho-18"
+      },
+      {
+        "displayed_mixed_capacity": 0,
+        "injected_multiplicity_lower_bound": 4,
+        "real_irreducible_dimension": 448,
+        "real_type": "real_tensor_type",
+        "redundant_xi_capacity": 0,
+        "remaining_deficit_lower_bound": 4,
+        "same_response_residual_square_capacity": 0,
+        "so6_highest_weights": [
+          [
+            2,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          0,
+          0
+        ],
+        "total_released_factorized_capacity": 0,
+        "type_id": "rho-19"
+      },
+      {
+        "displayed_mixed_capacity": 0,
+        "injected_multiplicity_lower_bound": 4,
+        "real_irreducible_dimension": 420,
+        "real_type": "complex_conjugate_pair",
+        "redundant_xi_capacity": 0,
+        "remaining_deficit_lower_bound": 4,
+        "same_response_residual_square_capacity": 0,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          0
+        ],
+        "total_released_factorized_capacity": 0,
+        "type_id": "rho-20"
+      },
+      {
+        "displayed_mixed_capacity": 0,
+        "injected_multiplicity_lower_bound": 8,
+        "real_irreducible_dimension": 315,
+        "real_type": "real_tensor_type",
+        "redundant_xi_capacity": 0,
+        "remaining_deficit_lower_bound": 8,
+        "same_response_residual_square_capacity": 0,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          0
+        ],
+        "total_released_factorized_capacity": 0,
+        "type_id": "rho-21"
+      },
+      {
+        "displayed_mixed_capacity": 0,
+        "injected_multiplicity_lower_bound": 4,
+        "real_irreducible_dimension": 162,
+        "real_type": "real_tensor_type",
+        "redundant_xi_capacity": 0,
+        "remaining_deficit_lower_bound": 4,
+        "same_response_residual_square_capacity": 0,
+        "so6_highest_weights": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          0,
+          0
+        ],
+        "total_released_factorized_capacity": 0,
+        "type_id": "rho-22"
+      },
+      {
+        "displayed_mixed_capacity": 0,
+        "injected_multiplicity_lower_bound": 8,
+        "real_irreducible_dimension": 210,
+        "real_type": "real_tensor_type",
+        "redundant_xi_capacity": 0,
+        "remaining_deficit_lower_bound": 8,
+        "same_response_residual_square_capacity": 0,
+        "so6_highest_weights": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          1
+        ],
+        "total_released_factorized_capacity": 0,
+        "type_id": "rho-23"
+      },
+      {
+        "displayed_mixed_capacity": 0,
+        "injected_multiplicity_lower_bound": 4,
+        "real_irreducible_dimension": 105,
+        "real_type": "real_tensor_type",
+        "redundant_xi_capacity": 0,
+        "remaining_deficit_lower_bound": 4,
+        "same_response_residual_square_capacity": 0,
+        "so6_highest_weights": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          1,
+          0
+        ],
+        "total_released_factorized_capacity": 0,
+        "type_id": "rho-24"
+      },
+      {
+        "displayed_mixed_capacity": 0,
+        "injected_multiplicity_lower_bound": 4,
+        "real_irreducible_dimension": 140,
+        "real_type": "real_tensor_type",
+        "redundant_xi_capacity": 0,
+        "remaining_deficit_lower_bound": 4,
+        "same_response_residual_square_capacity": 0,
+        "so6_highest_weights": [
+          [
+            2,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          0,
+          0
+        ],
+        "total_released_factorized_capacity": 0,
+        "type_id": "rho-25"
+      },
+      {
+        "displayed_mixed_capacity": 0,
+        "injected_multiplicity_lower_bound": 8,
+        "real_irreducible_dimension": 126,
+        "real_type": "real_tensor_type",
+        "redundant_xi_capacity": 0,
+        "remaining_deficit_lower_bound": 8,
+        "same_response_residual_square_capacity": 0,
+        "so6_highest_weights": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          0
+        ],
+        "total_released_factorized_capacity": 0,
+        "type_id": "rho-26"
+      },
+      {
+        "displayed_mixed_capacity": 0,
+        "injected_multiplicity_lower_bound": 4,
+        "real_irreducible_dimension": 140,
+        "real_type": "complex_conjugate_pair",
+        "redundant_xi_capacity": 0,
+        "remaining_deficit_lower_bound": 4,
+        "same_response_residual_square_capacity": 0,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          0,
+          0
+        ],
+        "total_released_factorized_capacity": 0,
+        "type_id": "rho-27"
+      },
+      {
+        "displayed_mixed_capacity": 0,
+        "injected_multiplicity_lower_bound": 8,
+        "real_irreducible_dimension": 105,
+        "real_type": "real_tensor_type",
+        "redundant_xi_capacity": 0,
+        "remaining_deficit_lower_bound": 8,
+        "same_response_residual_square_capacity": 0,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          0,
+          0
+        ],
+        "total_released_factorized_capacity": 0,
+        "type_id": "rho-28"
+      },
+      {
+        "displayed_mixed_capacity": 0,
+        "injected_multiplicity_lower_bound": 4,
+        "real_irreducible_dimension": 27,
+        "real_type": "real_tensor_type",
+        "redundant_xi_capacity": 0,
+        "remaining_deficit_lower_bound": 4,
+        "same_response_residual_square_capacity": 0,
+        "so6_highest_weights": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          0,
+          0
+        ],
+        "total_released_factorized_capacity": 0,
+        "type_id": "rho-29"
+      },
+      {
+        "displayed_mixed_capacity": 0,
+        "injected_multiplicity_lower_bound": 4,
+        "real_irreducible_dimension": 35,
+        "real_type": "real_tensor_type",
+        "redundant_xi_capacity": 0,
+        "remaining_deficit_lower_bound": 4,
+        "same_response_residual_square_capacity": 0,
+        "so6_highest_weights": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          1
+        ],
+        "total_released_factorized_capacity": 0,
+        "type_id": "rho-30"
+      },
+      {
+        "displayed_mixed_capacity": 0,
+        "injected_multiplicity_lower_bound": 2,
+        "real_irreducible_dimension": 90,
+        "real_type": "complex_conjugate_pair",
+        "redundant_xi_capacity": 0,
+        "remaining_deficit_lower_bound": 2,
+        "same_response_residual_square_capacity": 0,
+        "so6_highest_weights": [
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          0,
+          0,
+          0
+        ],
+        "total_released_factorized_capacity": 0,
+        "type_id": "rho-31"
+      },
+      {
+        "displayed_mixed_capacity": 0,
+        "injected_multiplicity_lower_bound": 4,
+        "real_irreducible_dimension": 64,
+        "real_type": "real_tensor_type",
+        "redundant_xi_capacity": 0,
+        "remaining_deficit_lower_bound": 4,
+        "same_response_residual_square_capacity": 0,
+        "so6_highest_weights": [
+          [
+            2,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          0,
+          0,
+          0
+        ],
+        "total_released_factorized_capacity": 0,
+        "type_id": "rho-32"
+      },
+      {
+        "displayed_mixed_capacity": 0,
+        "injected_multiplicity_lower_bound": 8,
+        "real_irreducible_dimension": 42,
+        "real_type": "real_tensor_type",
+        "redundant_xi_capacity": 0,
+        "remaining_deficit_lower_bound": 8,
+        "same_response_residual_square_capacity": 0,
+        "so6_highest_weights": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          0,
+          0
+        ],
+        "total_released_factorized_capacity": 0,
+        "type_id": "rho-33"
+      },
+      {
+        "displayed_mixed_capacity": 0,
+        "injected_multiplicity_lower_bound": 4,
+        "real_irreducible_dimension": 21,
+        "real_type": "real_tensor_type",
+        "redundant_xi_capacity": 0,
+        "remaining_deficit_lower_bound": 4,
+        "same_response_residual_square_capacity": 0,
+        "so6_highest_weights": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          0
+        ],
+        "total_released_factorized_capacity": 0,
+        "type_id": "rho-34"
+      },
+      {
+        "displayed_mixed_capacity": 0,
+        "injected_multiplicity_lower_bound": 4,
+        "real_irreducible_dimension": 20,
+        "real_type": "real_tensor_type",
+        "redundant_xi_capacity": 0,
+        "remaining_deficit_lower_bound": 4,
+        "same_response_residual_square_capacity": 0,
+        "so6_highest_weights": [
+          [
+            2,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          0,
+          0,
+          0
+        ],
+        "total_released_factorized_capacity": 0,
+        "type_id": "rho-35"
+      },
+      {
+        "displayed_mixed_capacity": 0,
+        "injected_multiplicity_lower_bound": 2,
+        "real_irreducible_dimension": 20,
+        "real_type": "complex_conjugate_pair",
+        "redundant_xi_capacity": 0,
+        "remaining_deficit_lower_bound": 2,
+        "same_response_residual_square_capacity": 0,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          0,
+          0,
+          0
+        ],
+        "total_released_factorized_capacity": 0,
+        "type_id": "rho-36"
+      },
+      {
+        "displayed_mixed_capacity": 0,
+        "injected_multiplicity_lower_bound": 4,
+        "real_irreducible_dimension": 15,
+        "real_type": "real_tensor_type",
+        "redundant_xi_capacity": 0,
+        "remaining_deficit_lower_bound": 4,
+        "same_response_residual_square_capacity": 0,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          0,
+          0,
+          0
+        ],
+        "total_released_factorized_capacity": 0,
+        "type_id": "rho-37"
+      },
+      {
+        "displayed_mixed_capacity": 0,
+        "injected_multiplicity_lower_bound": 5,
+        "real_irreducible_dimension": 7,
+        "real_type": "real_tensor_type",
+        "redundant_xi_capacity": 0,
+        "remaining_deficit_lower_bound": 5,
+        "same_response_residual_square_capacity": 0,
+        "so6_highest_weights": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          0,
+          0
+        ],
+        "total_released_factorized_capacity": 0,
+        "type_id": "rho-38"
+      },
+      {
+        "displayed_mixed_capacity": 0,
+        "injected_multiplicity_lower_bound": 5,
+        "real_irreducible_dimension": 6,
+        "real_type": "real_tensor_type",
+        "redundant_xi_capacity": 0,
+        "remaining_deficit_lower_bound": 5,
+        "same_response_residual_square_capacity": 0,
+        "so6_highest_weights": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          0,
+          0,
+          0
+        ],
+        "total_released_factorized_capacity": 0,
+        "type_id": "rho-39"
+      },
+      {
+        "displayed_mixed_capacity": 0,
+        "injected_multiplicity_lower_bound": 3,
+        "real_irreducible_dimension": 1,
+        "real_type": "real_tensor_type",
+        "redundant_xi_capacity": 0,
+        "remaining_deficit_lower_bound": 3,
+        "same_response_residual_square_capacity": 0,
+        "so6_highest_weights": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          0,
+          0,
+          0
+        ],
+        "total_released_factorized_capacity": 0,
+        "type_id": "rho-40"
+      }
+    ],
+    "sum_of_injected_multiplicity_lower_bounds": 169
+  }
+}

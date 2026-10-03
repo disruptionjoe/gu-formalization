@@ -1,0 +1,102 @@
+{
+  "claim_ceiling": "Exact exclusion of the released same-response residual-square repair class on the 90128-dimensional forty-type submodule. No complete flat-packet no-go, all-action no-go, other-germ no-go, global ellipticity or physical conclusion follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 46,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k886_sc_act_06_released_repair_disposition_probe.py",
+    "producer": "tests/channel-swings/k886_sc_act_06_released_repair_disposition.py"
+  },
+  "corrected_completion_gate": {
+    "current_GU_candidate": {
+      "authenticated common compact stabilizer SO(6)xSO(7)": true,
+      "authenticated source/action-owned principal old symmetry image": true,
+      "auxiliary SO(13) equivariance of the pinned response kernel": false,
+      "constructed corrected-group intertwiners S_0,tau_0": false,
+      "descent, composition and image-kernel equality": false,
+      "exact radial/tangential vector-space kernel split": true,
+      "globalized natural maps and analytic robustness": false,
+      "owned principal q-lambda quotient dimension 90128": true,
+      "real SO(6)xSO(7) tangential-quotient multiplicities": true,
+      "source/action-owned repair-domain and repair-target multiplicities": false,
+      "typewise repair capacity on the corrected group": false
+    },
+    "current_GU_candidate_admitted": false,
+    "failed_row_count": 6,
+    "row_count": 11,
+    "satisfied_row_count": 5,
+    "unchanged_by_released_class_closure": true
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "complete_flat_packet_repairability_refuted": false,
+    "future_or_unreleased_action_parent_excluded": false,
+    "global_SC_ACT_06_proved_or_refuted": false,
+    "next_exact_input": "Construct the selected-I1B induced map on the authenticated SO(6)xSO(7) quotient and compute its forty typewise ranks; if it fails, construct a genuinely new source/action-owned response or symmetry module or a source-owned nonzero-fermion stationary germ.",
+    "nonzero_fermion_stationary_germ_excluded": false,
+    "released_same_response_repair_class_excluded": true,
+    "selected_I1B_route_excluded": false,
+    "source_claim_status_changes": false
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "released I1B/I2B/total-rival inventory with only factorized parents closed",
+    "carrier": "K879 injected zero-fermion full-field obstruction submodule",
+    "grading": "old cohomology -> released repair parents -> remaining independent repair obligations",
+    "pairing": "arbitrary within the released factorized residual-square class",
+    "real_structure": "K884 exact real SO(6)xSO(7) typewise capacity table",
+    "target": "CERTIFICATE-TYPE=released repair-class disposition"
+  },
+  "ledger_no_change_reason": "The released repair-class closure is local principal deformation algebra and leaves the independent I1B map, full complement and physical bridges open.",
+  "pinned_inputs": {
+    "k882": {
+      "path": "lab/process/k882-sc-act-06-full-field-obstruction-disposition.json",
+      "sha256": "4642924183f5ef112d6d76ee38ef7aba5fab8158ba329719bd66af28a3d421ad"
+    },
+    "k883": {
+      "path": "lab/process/k883-sc-act-06-residual-square-quotient-annihilation.json",
+      "sha256": "697b3f23ee4e716e8494c7121de2c286c98e6c8fd0070f06b7ccd83e9c230e85"
+    },
+    "k884": {
+      "path": "lab/process/k884-sc-act-06-residual-square-typewise-capacity.json",
+      "sha256": "22cdd9c9c6dcd0fd8140938d0d68a11bf96f617e9cf0b75cffa73ef7907316a4"
+    },
+    "k885": {
+      "path": "lab/process/k885-sc-act-06-released-action-parent-quotient-inventory.json",
+      "sha256": "4aa2a784f6655c338a05537e514524ce9ced193ffb2d7c21a7f01c258dc006d6"
+    }
+  },
+  "protected_effects": {
+    "canon": "UNCHANGED",
+    "paper_and_public_posture": "UNCHANGED",
+    "physics_ledger": "UNCHANGED",
+    "prediction_confirmation_physical_verdict": "UNCHANGED",
+    "sc_act_06": "ASSERTS_UNCHANGED",
+    "source_register": "UNCHANGED"
+  },
+  "released_repair_certificate": {
+    "failed_or_open_row_count": 3,
+    "injected_dimension": 90128,
+    "real_irreducible_type_count": 40,
+    "released_factorized_failed_type_count": 40,
+    "released_residual_square_class_closed": true,
+    "row_count": 7,
+    "rows": {
+      "all 40 real obstruction types and multiplicities": true,
+      "complete full-field cohomology character known": false,
+      "displayed mixed and redundant Xi quotient capacity zero": true,
+      "genuinely independent owned repair module known": false,
+      "owned 90128-dimensional obstruction submodule": true,
+      "same-response residual-square quotient capacity zero": true,
+      "selected-I1B induced quotient character known": false
+    },
+    "satisfied_row_count": 4,
+    "sum_of_multiplicity_lower_bounds": 169
+  },
+  "result_id": "K886-SC-ACT-06-RELEASED-REPAIR-DISPOSITION",
+  "schema_version": "1.0",
+  "scope": "Disposition after proving zero quotient-effective capacity for every released same-response residual-square repair parent on K879's forty-type obstruction submodule.",
+  "source_and_ledger_effect": "SC-ACT-01_03_04_05_06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}
