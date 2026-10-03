@@ -1,0 +1,60 @@
+{
+  "claim_ceiling": "Exact common Sobolev scale, closed orthogonal decomposition and Moore--Penrose/Hodge generalized inverse for the auxiliary toroidal projection. No Fredholm, retarded/advanced, native-global, BV/BFV or physical conclusion follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 24,
+    "hostile_mutations_rejected": 10,
+    "probe": "tests/channel-swings/k933_sc_act_06_sobolev_hodge_domain_probe.py",
+    "producer": "tests/channel-swings/k933_sc_act_06_sobolev_hodge_domain.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "common_auxiliary_sobolev_domain_constructed": true,
+    "hodge_generalized_inverse_constructed": true,
+    "native_fredholm_or_causal_green_row_closed": false,
+    "next_exact_input": "Use Pi d0=0 to construct the exact bounded quadratic formal action and its Noether identity, while preserving the infinite-dimensional non-Fredholm and noncausal boundary."
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "gauge_map": "d0 lambda has Fourier symbol i k tensor lambda",
+    "generalized_inverse": "G_H=Pi",
+    "harmonic_projector": "H=I-Pi",
+    "operator": "Pi on H^s(T^14;E1)",
+    "target": "DOMAIN-TYPE=auxiliary Sobolev Hodge realization"
+  },
+  "ledger_no_change_reason": "A Hodge generalized inverse for an auxiliary projection is not a source-owned Fredholm or causal Green realization.",
+  "pinned_inputs": {
+    "k873": {
+      "path": "lab/process/k873-sc-act-06-owned-symmetry-custody.json",
+      "sha256": "cc148cac1cce342c3e43d4e7681766630c8455e7ba687f87ece02978ec09c66c"
+    },
+    "k932": {
+      "path": "lab/process/k932-sc-act-06-toroidal-exact-projector.json",
+      "sha256": "90c0f31191ee977e5d455ab0867ec175e0e240728490bd7481eaef8d4ff8c990"
+    }
+  },
+  "result_id": "K933-SC-ACT-06-SOBOLEV-HODGE-DOMAIN",
+  "schema_version": "1.0",
+  "scope": "Common Sobolev-scale and generalized-inverse analysis for K932's exact auxiliary toroidal projection.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "Hs_operator_norm": 1,
+    "Pi_d0_zero": true,
+    "bounded_on_every_real_sobolev_order": true,
+    "common_domain": "H^s to H^s for every real s",
+    "formal_cokernel_equals_kernel": true,
+    "fredholm_realization": false,
+    "gauge_image_in_kernel": true,
+    "hodge_identity": "Pi G_H=G_H Pi=Pi=I-H",
+    "kernel_and_cokernel_infinite_dimensional": true,
+    "kernel_closed": true,
+    "moore_penrose_inverse_equals_operator": true,
+    "native_global_domain_owned": false,
+    "orthogonal_decomposition": "H^s=ran(Pi) direct_sum ker(Pi)",
+    "range_closed": true,
+    "retarded_or_advanced_green_operator_constructed": false
+  }
+}

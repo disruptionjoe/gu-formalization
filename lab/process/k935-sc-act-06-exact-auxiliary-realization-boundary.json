@@ -1,0 +1,120 @@
+{
+  "certificate": {
+    "SC_ACT_06_status": "ASSERTS",
+    "closed_negative_row_count": 1,
+    "connection_fiber_rank": 90128,
+    "full_GU_repair_credit": false,
+    "missing_row_count": 4,
+    "row_count": 13,
+    "rows": [
+      {
+        "row": "complete_nonzero_connection_family",
+        "state": "satisfied"
+      },
+      {
+        "row": "fixed_germ_positive_metric",
+        "state": "satisfied"
+      },
+      {
+        "row": "smooth_nonconstant_degree_zero_symbol",
+        "state": "satisfied"
+      },
+      {
+        "row": "continuous_euclidean_zero_frequency_extension",
+        "state": "closed_negative"
+      },
+      {
+        "row": "auxiliary_toroidal_full_symbol",
+        "state": "satisfied"
+      },
+      {
+        "row": "exact_self_adjoint_operator_projection",
+        "state": "satisfied"
+      },
+      {
+        "row": "common_auxiliary_sobolev_domain",
+        "state": "satisfied"
+      },
+      {
+        "row": "auxiliary_hodge_generalized_inverse",
+        "state": "satisfied"
+      },
+      {
+        "row": "native_fredholm_or_causal_green_realization",
+        "state": "missing"
+      },
+      {
+        "row": "native_global_topology_and_zero_mode_owner",
+        "state": "missing"
+      },
+      {
+        "row": "source_action_ownership",
+        "state": "missing"
+      },
+      {
+        "row": "preboundary_bv_bfv_data",
+        "state": "missing"
+      },
+      {
+        "row": "authenticated_old_quotient_identity",
+        "state": "satisfied"
+      }
+    ],
+    "satisfied_row_count": 8
+  },
+  "claim_ceiling": "Exact auxiliary full-operator, Sobolev/Hodge-domain and formal-action boundary. It is not a native compactification, source action, Fredholm/causal Green realization, BV/BFV complex, global SC-ACT-06 verdict or physical result.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 24,
+    "hostile_mutations_rejected": 10,
+    "probe": "tests/channel-swings/k935_sc_act_06_exact_auxiliary_realization_boundary_probe.py",
+    "producer": "tests/channel-swings/k935_sc_act_06_exact_auxiliary_realization_boundary.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "exact_auxiliary_operator_and_hodge_domain_exist": true,
+    "native_fredholm_or_causal_green_exists": false,
+    "native_source_owned_complete_operator_exists": false,
+    "next_route": "SOURCE_OR_ACTION_MUST_OWN_THE_GLOBAL_CARRIER_ZERO_MODE_COMPLETE_OPERATOR_AND_VARIATIONAL_DOMAIN__THEN_SUPPLY_NATIVE_FREDHOLM_OR_CAUSAL_GREEN_AND_PREBOUNDARY_BV_DATA__OTHERWISE_SWITCH_PARENT_OR_STATIONARY_GERM",
+    "preboundary_bv_bfv_exists": false,
+    "pure_analytic_impossibility_of_a_complete_formal_parent_removed": true,
+    "same_projector_global_euclidean_s0_route_closed": true
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "auxiliary_realization": "exact toroidal Fourier projection on T^14",
+    "euclidean_boundary": "no continuous full symbol equal to P_H at every nonzero frequency",
+    "formal_parent": "A_T(u)=1/2<u,Pi u>",
+    "target": "DISPOSITION-TYPE=exact auxiliary realization versus native ownership"
+  },
+  "ledger_no_change_reason": "Exact auxiliary feasibility relocates the frontier to native/source ownership and global variational data; it supplies no owned action or physical prediction.",
+  "pinned_inputs": {
+    "k930": {
+      "path": "lab/process/k930-sc-act-06-projector-realization-boundary.json",
+      "sha256": "1170a3f23455c979e9842135df2a439e670c3690056ee64e3c21ada7111ffe6d"
+    },
+    "k931": {
+      "path": "lab/process/k931-sc-act-06-low-frequency-extension-obstruction.json",
+      "sha256": "a3b233833ff22b9111fd823cf9d07dd346564d23dbff8c838e26e282f63a9865"
+    },
+    "k932": {
+      "path": "lab/process/k932-sc-act-06-toroidal-exact-projector.json",
+      "sha256": "90c0f31191ee977e5d455ab0867ec175e0e240728490bd7481eaef8d4ff8c990"
+    },
+    "k933": {
+      "path": "lab/process/k933-sc-act-06-sobolev-hodge-domain.json",
+      "sha256": "0e6833b5de6c09f045647e5ae937ac94d0c0889f59d8d66ba7fc901a9e9e9f0d"
+    },
+    "k934": {
+      "path": "lab/process/k934-sc-act-06-toroidal-formal-action.json",
+      "sha256": "36c6eae992bf9f7e1e547f4ff83d749836562d4c1de3a1b9638598cd76aef519"
+    }
+  },
+  "result_id": "K935-SC-ACT-06-EXACT-AUXILIARY-REALIZATION-BOUNDARY",
+  "schema_version": "1.0",
+  "scope": "Post-K930 disposition after resolving the exact quantization and common-domain feasibility of the projector on an explicitly auxiliary compact flat carrier.",
+  "source_and_ledger_effect": "SC-ACT-01_04_05_06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

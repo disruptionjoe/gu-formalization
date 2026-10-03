@@ -1,0 +1,69 @@
+{
+  "claim_ceiling": "Exact auxiliary toroidal order-zero pseudodifferential projection with full symbol and operator identities. No native compactification, source action, Fredholm/causal Green theory, BV/BFV data or physical result follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 24,
+    "hostile_mutations_rejected": 10,
+    "probe": "tests/channel-swings/k932_sc_act_06_toroidal_exact_projector_probe.py",
+    "producer": "tests/channel-swings/k932_sc_act_06_toroidal_exact_projector.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "arbitrary_quantization_problem_avoided_by_exact_fourier_quantization": true,
+    "exact_auxiliary_pseudodifferential_projection_constructed": true,
+    "native_or_source_owned_complete_operator_constructed": false,
+    "next_exact_input": "Establish the common Sobolev scale, closed range/kernel decomposition and precisely typed Hodge generalized inverse for Pi; do not call it a causal Green operator or a source-owned Fredholm realization."
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "base": "auxiliary flat torus T^14",
+    "frequency_lattice": "Z^14",
+    "full_symbol": "p(0)=0 and p(k)=P_H(k) for k nonzero",
+    "operator": "Pi u=sum_k exp(i k.x) p(k) u_hat(k)",
+    "target": "OPERATOR-TYPE=exact toroidal pseudodifferential projection"
+  },
+  "ledger_no_change_reason": "The torus and zero-mode convention are reverse-selected auxiliary data, not source-owned GU geometry.",
+  "literature_anchor": {
+    "arxiv": "0805.2892",
+    "doi": "10.1007/s00041-009-9117-6",
+    "use": "toroidal symbol and finite-difference calculus only",
+    "work": "Ruzhansky--Turunen, Quantization of Pseudo-differential Operators on the Torus"
+  },
+  "pinned_inputs": {
+    "k928": {
+      "path": "lab/process/k928-sc-act-06-pseudodifferential-projector-symbol.json",
+      "sha256": "b41536848622d52094b00c47adc7131cae6f8640c8db05cf689d30ab2586a5c4"
+    },
+    "k929": {
+      "path": "lab/process/k929-sc-act-06-local-projector-obstruction.json",
+      "sha256": "d614df5bd57432668f4dc6ec7ebff0990781c234d86d7410eb2e849c0727f15b"
+    },
+    "k931": {
+      "path": "lab/process/k931-sc-act-06-low-frequency-extension-obstruction.json",
+      "sha256": "a3b233833ff22b9111fd823cf9d07dd346564d23dbff8c838e26e282f63a9865"
+    }
+  },
+  "result_id": "K932-SC-ACT-06-TOROIDAL-EXACT-PROJECTOR",
+  "schema_version": "1.0",
+  "scope": "Exact order-zero toroidal quantization of K928's projector after adding an auxiliary compact flat T^14 carrier and an explicit isolated zero-mode convention.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "finite_difference_estimate": "||Delta_k^alpha p(k)|| <= C_alpha <k>^(-|alpha|)",
+    "finite_low_modes_do_not_change_symbol_class": true,
+    "full_lower_symbol_explicit": true,
+    "lower_symbol_terms": "none: translation-invariant toroidal Fourier multiplier",
+    "nonzero_mode_fiber_rank": 90128,
+    "operator_idempotent": true,
+    "operator_norm_on_L2": 1,
+    "operator_self_adjoint": true,
+    "pointwise_idempotent": true,
+    "pointwise_self_adjoint": true,
+    "principal_symbol": "P_H(q)",
+    "source_or_native_compactification_owned": false,
+    "toroidal_symbol_class": "S^0_1,0(T^14 x Z^14)",
+    "zero_mode_rank": 0
+  }
+}

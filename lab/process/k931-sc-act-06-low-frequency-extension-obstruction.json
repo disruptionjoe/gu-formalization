@@ -1,0 +1,57 @@
+{
+  "claim_ceiling": "Exact no-go for a continuous global R^14 symbol equal to the same direction-dependent degree-zero projector at every nonzero frequency. It does not exclude homogeneous singular-integral, toroidal, corrected, higher-order or different-parent realizations.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 24,
+    "hostile_mutations_rejected": 10,
+    "probe": "tests/channel-swings/k931_sc_act_06_low_frequency_extension_obstruction_probe.py",
+    "producer": "tests/channel-swings/k931_sc_act_06_low_frequency_extension_obstruction.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "all_pseudodifferential_realizations_excluded": false,
+    "exact_euclidean_full_symbol_route_closed": true,
+    "next_exact_input": "Restrict P_H to nonzero Z^14 modes, choose the isolated zero mode explicitly, and test the resulting toroidal Fourier multiplier for exact projection and common-domain identities.",
+    "toroidal_discrete_zero_mode_route_released": true
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "homogeneity": "P_H(t q)=P_H(q) for t>0",
+    "symbol": "P_H(q) on R^14 minus {0}",
+    "target": "OBSTRUCTION-TYPE=continuous zero-frequency extension of the identical projector"
+  },
+  "ledger_no_change_reason": "This is a low-frequency regularity obstruction for the repository-defined projector, not a source action or physical operator.",
+  "pinned_inputs": {
+    "k928": {
+      "path": "lab/process/k928-sc-act-06-pseudodifferential-projector-symbol.json",
+      "sha256": "b41536848622d52094b00c47adc7131cae6f8640c8db05cf689d30ab2586a5c4"
+    },
+    "k929": {
+      "path": "lab/process/k929-sc-act-06-local-projector-obstruction.json",
+      "sha256": "d614df5bd57432668f4dc6ec7ebff0990781c234d86d7410eb2e849c0727f15b"
+    },
+    "k930": {
+      "path": "lab/process/k930-sc-act-06-projector-realization-boundary.json",
+      "sha256": "1170a3f23455c979e9842135df2a439e670c3690056ee64e3c21ada7111ffe6d"
+    }
+  },
+  "result_id": "K931-SC-ACT-06-LOW-FREQUENCY-EXTENSION-OBSTRUCTION",
+  "schema_version": "1.0",
+  "scope": "Exact low-frequency regularity boundary for K928's nonconstant homogeneous projector on the fixed flat R^14 model.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "continuous_extension_at_zero_exists": false,
+    "continuous_extension_at_zero_would_force_constant_sphere_value": true,
+    "cutoff_defect": "(chi P)^2-chi P=chi(chi-1)P",
+    "direction_dependence_basis": "K929: a covector-independent gauge-basic endomorphism would vanish",
+    "homogeneous_or_discrete_low_frequency_calculus_remains_open": true,
+    "ordinary_global_s0_symbol_equal_to_P_on_every_nonzero_frequency_exists": false,
+    "projector_direction_dependent": true,
+    "projector_rank_on_nonzero_rays": 90128,
+    "smooth_radial_cutoff_preserves_principal_symbol": true,
+    "smooth_transition_cutoff_preserves_exact_idempotence": false
+  }
+}

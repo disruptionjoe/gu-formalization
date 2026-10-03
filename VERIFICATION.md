@@ -7,6 +7,53 @@ updated_at: "2026-10-03"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K931--K935 exact auxiliary realization boundary (2026-10-03)
+
+K931 separates principal-symbol existence from exact all-frequency
+quantization. Because `P_H(tq)=P_H(q)` for positive `t`, a continuous value at
+zero would have to equal `P_H(q)` for every direction. K929 proves this
+projector is not covector-independent, so no such extension exists. A smooth
+radial cutoff gives defect `(chi P)^2-chi P=chi(chi-1)P` wherever
+`0<chi<1`; it preserves the principal symbol but not exact idempotence.
+
+K932 supplies a conditional exact realization by adding a compact flat torus.
+On lattice frequency `k`, set `p(0)=0` and `p(k)=P_H(k)` otherwise. Restriction
+of the smooth homogeneous symbol obeys the order-zero toroidal finite-
+difference estimates; the isolated low modes do not alter that class. The
+Fourier multiplier is therefore an order-zero toroidal pseudodifferential
+operator and is exactly self-adjoint and idempotent mode by mode, with rank
+90,128 on every nonzero mode. This uses the toroidal calculus of
+Ruzhansky--Turunen (arXiv:0805.2892; DOI 10.1007/s00041-009-9117-6). The
+compactification and zero-mode convention are repository-chosen, not
+source-owned.
+
+K933 proves the multiplier has norm one on every `H^s`, closed orthogonal range
+and kernel, and Moore--Penrose/Hodge inverse `G_H=Pi`, satisfying
+`Pi G_H=G_H Pi=Pi=I-(I-Pi)`. Its kernel and cokernel are infinite-dimensional,
+so this is neither Fredholm nor a retarded/advanced Green operator. K934
+constructs `A_T(u)=1/2<u,Pi u>`, with Euler operator and Hessian `Pi`, gauge
+invariance from `Pi d0=0`, and Noether identity `d0*Pi=0`. Its critical space
+is `ker(Pi)`, not the projector range.
+
+K935 closes exact auxiliary operator and Hodge-domain feasibility while
+preserving four missing native rows: native Fredholm/causal Green data, native
+global topology and zero-mode ownership, source/action ownership, and
+preboundary/BV data. Five producers pass 120 declared controls and five probes
+reject 50/50 hostile mutations. SC-ACT-06 remains `ASSERTS`.
+
+```bash
+python3 tests/channel-swings/k931_sc_act_06_low_frequency_extension_obstruction.py --check
+python3 tests/channel-swings/k931_sc_act_06_low_frequency_extension_obstruction_probe.py
+python3 tests/channel-swings/k932_sc_act_06_toroidal_exact_projector.py --check
+python3 tests/channel-swings/k932_sc_act_06_toroidal_exact_projector_probe.py
+python3 tests/channel-swings/k933_sc_act_06_sobolev_hodge_domain.py --check
+python3 tests/channel-swings/k933_sc_act_06_sobolev_hodge_domain_probe.py
+python3 tests/channel-swings/k934_sc_act_06_toroidal_formal_action.py --check
+python3 tests/channel-swings/k934_sc_act_06_toroidal_formal_action_probe.py
+python3 tests/channel-swings/k935_sc_act_06_exact_auxiliary_realization_boundary.py --check
+python3 tests/channel-swings/k935_sc_act_06_exact_auxiliary_realization_boundary_probe.py
+```
+
 ## K926--K930 projector realization boundary (2026-10-03)
 
 K926 composes three already exact all-covector facts. K788 gives response rank

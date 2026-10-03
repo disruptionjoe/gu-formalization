@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f26b0c187c34
+revision_basis: 387d77f97294
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,26 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K931--K935 settle the remaining formal quantization feasibility without
+    promoting the projector to a GU action. K931 proves that K928's nonconstant
+    degree-zero projector cannot extend continuously through zero frequency on
+    `R^14`: homogeneity would make any such limit equal to every sphere value,
+    forcing direction independence. A smooth radial cutoff preserves the
+    principal symbol but loses exact idempotence on its transition annulus.
+    K932 moves to an explicitly auxiliary flat torus and sets `p(0)=0`,
+    `p(k)=P_H(k)` for nonzero `k in Z^14`. This is a full order-zero toroidal
+    symbol whose Fourier multiplier is exactly self-adjoint and idempotent,
+    with rank 90,128 on every nonzero mode. K933 proves boundedness on every
+    Sobolev order, the closed orthogonal range/kernel split and the Hodge/
+    Moore--Penrose inverse `G_H=Pi`; it is non-Fredholm and is not a retarded
+    or advanced Green operator. K934 constructs the exact bounded quadratic
+    formal action `A_T=1/2<u,Pi u>` and its Noether identity `d0*Pi=0`, while
+    recording that `ran(Pi)` is not its critical space. K935 therefore removes
+    pure analytic impossibility for a complete auxiliary parent but leaves the
+    chosen compactification and zero mode, native Fredholm/causal domain,
+    source/action ownership and preboundary/BV data unowned. SC-ACT-06 remains
+    `ASSERTS`; no protected conclusion moves.
+
     K926--K930 advance K925's formal projector from one authenticated
     basepoint module to the complete connection-sector cosphere family on
     K717's fixed flat germ. K926 composes K788's constant rank 122,864 across
@@ -12916,6 +12936,18 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K931--K935 prove that exact quantization is feasible only after the carrier
+  and low-frequency convention are stated. The identical direction-dependent
+  projector has no continuous full-symbol extension through zero on `R^14`,
+  but on an explicitly auxiliary `T^14` the discrete symbol `p(0)=0` and
+  `p(k)=P_H(k)` is an exact self-adjoint toroidal projection. It has a common
+  Sobolev scale and Hodge generalized inverse, yet infinite-dimensional kernel
+  and cokernel, no Fredholm or causal Green realization, and no native owner
+  for the torus or zero mode. Can the source/action now own a global carrier,
+  low-frequency convention, complete operator and variational domain, then
+  supply native Fredholm/causal Green and preboundary/BV data? Otherwise switch
+  to a different parent or stationary germ. SC-ACT-06 remains `ASSERTS`.
+
   K926--K930 complete the connection-sector cosphere bundle left open by
   K925. The response rank is 122,864 on every nonzero native covector orbit,
   the owned radial gauge image has rank 16,384 and zero composition, and the
@@ -14238,6 +14270,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K931--K935 close exact auxiliary quantization and common Sobolev/Hodge
+  feasibility, not native GU ownership. The projector has no continuous
+  all-frequency `R^14` symbol equal to `P_H` away from zero. The added flat
+  torus and explicit zero-mode convention instead give an exact order-zero
+  toroidal projection, a common `H^s` scale, Hodge generalized inverse and
+  bounded gauge-invariant quadratic formal action. Admit the route next only
+  when the source or action owns the global carrier, zero mode, complete
+  operator and variational domain, and then supplies a native Fredholm or
+  causal Green realization plus preboundary/BV data. Otherwise switch parent
+  or stationary germ. SC-ACT-06 remains `ASSERTS`.
+
   K926--K930 establish the complete rank-90,128 connection quotient bundle on
   the nonzero Euclidean cosphere, the fixed-germ background owner for its
   positive metric, and its smooth degree-zero classical pseudodifferential

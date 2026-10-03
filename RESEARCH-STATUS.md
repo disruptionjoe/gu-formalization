@@ -2,11 +2,30 @@
 title: "Research Status"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-10-02"
+updated_at: "2026-10-03"
 canon_sweep_at: "2026-07-25"
 ---
 
 # Research Status
+
+## 2026-10-03 — K931--K935 exact auxiliary realization boundary
+
+K931 proves the nonconstant homogeneous projector cannot extend continuously
+through zero frequency on `R^14`; any such limit would force the sphere family
+to be constant. K932 bypasses that single low-frequency obstruction only by
+choosing an auxiliary compact flat torus and zero mode. The resulting toroidal
+Fourier multiplier is a full order-zero symbol and an exact self-adjoint
+projection, rank 90,128 on every nonzero mode.
+
+K933 supplies its common Sobolev scale, orthogonal Hodge split and
+Moore--Penrose inverse, while proving that the infinite-dimensional kernel and
+cokernel make this neither Fredholm nor causal Green data. K934 realizes the
+operator as a bounded gauge-invariant quadratic formal action with exact
+Noether identity. K935 therefore removes pure analytic impossibility for an
+auxiliary complete parent but does not source-own the torus, zero mode,
+operator or action. Native Fredholm/causal Green and preboundary/BV data remain
+absent. The five producers pass 120 controls and the probes reject 50/50
+hostile mutations. SC-ACT-06 remains `ASSERTS`; no protected conclusion moves.
 
 ## 2026-10-02 — K795--K798 current-custody K500 packet closure
 

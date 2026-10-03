@@ -7,6 +7,20 @@ updated_at: "2026-10-03"
 
 # Next Steps For Contributors
 
+> **2026-10-03 K931--K935 EXACT AUXILIARY REALIZATION BOUNDARY.** K931 proves
+> that the nonconstant homogeneous projector has no continuous zero-frequency
+> extension on `R^14`; a smooth cutoff loses exact idempotence. K932 chooses an
+> explicitly auxiliary flat `T^14` and constructs the exact toroidal symbol
+> `p(0)=0`, `p(k)=P_H(k)` for nonzero lattice modes. Its Fourier multiplier is
+> a self-adjoint order-zero pseudodifferential projection. K933 supplies the
+> common Sobolev scale, closed Hodge split and Moore--Penrose inverse, while
+> showing the operator is non-Fredholm and not causal Green data. K934 gives
+> the bounded gauge-invariant quadratic formal action and exact Noether
+> identity. K935 leaves the real frontier at native carrier/zero-mode and
+> source/action ownership, native Fredholm or causal Green theory, and
+> preboundary/BV data. Do not promote the torus or formal action to GU truth.
+> SC-ACT-06 remains `ASSERTS`.
+
 > **2026-10-03 K926--K930 PROJECTOR REALIZATION BOUNDARY.** K926 composes
 > K788, K873 and K879 into a complete rank-90,128 connection quotient bundle
 > over the nonzero Euclidean cosphere. K927 shows K717's fixed flat background
