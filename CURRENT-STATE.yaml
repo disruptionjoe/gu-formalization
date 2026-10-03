@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 08a05e5e0beb
+revision_basis: 37ea3ee921cd
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K863--K866 authenticate the first substantial part of the missing
+    `SO(13)` basepoint structure without promoting an unowned symmetry. K863
+    splits K788's 106512-dimensional kernel as the direct sum of a radial
+    16384-dimensional module and a 90128-dimensional tangential kernel. The
+    radial module is exactly
+    `direct-sum_(k=0)^6 4 Lambda^k(V_13)`. K864 proves that K789's provisional
+    `lambda -> q tensor lambda` image is exactly this radial summand, so the
+    conditional connection-only quotient has dimension 90128. K789's 90124
+    remains only a conservative full-field lower bound because its separate
+    rank-four metric grant has zero connection component. K865 proves that an
+    exact `SO(13)`-equivariant repair exists precisely when every real
+    irreducible type satisfies `h_rho<=a_rho+b_rho`; equal total dimensions
+    can fail by type mismatch. K866 records four of eleven isotropy rows as
+    established. The tangential irreducible multiplicities, actual owned
+    symmetry quotient and owned repair modules/maps remain open. SC-ACT-06
+    remains `ASSERTS`, and no protected conclusion moves.
+
     K859--K862 separate ordinary high-rank triviality from a source-natural
     SC-ACT-06 repair. K859 proves that K788's exact 106512-dimensional kernel
     and K789's deliberately overlarge rank-16388 symmetry ceiling constrain
@@ -12646,6 +12663,19 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K863--K866 replace the undifferentiated isotropy-module request with a
+  sharper typed problem. At a positive Euclidean base covector, the K788
+  kernel splits `SO(13)`-equivariantly into the radial module
+  `direct-sum_(k=0)^6 4 Lambda^k(V_13)` of dimension 16384 and a tangential
+  kernel of dimension 90128. The provisional `q lambda` grant removes exactly
+  the radial summand, but it is not source/action-owned; the rank-four metric
+  grant cannot lower a connection-only quotient. Compute the irreducible real
+  `SO(13)` multiplicities `h_rho` of the tangential kernel, authenticate the
+  actual owned symmetry quotient, and identify source/action-owned repair
+  multiplicities `a_rho,b_rho`. Every type must satisfy
+  `h_rho<=a_rho+b_rho` before constructing `S_0,tau_0` with
+  `im(S_0)=ker(tau_0)` and globalizing. Raw total rank is insufficient.
+
   K859--K862 replace ordinary bundle triviality with the naturality-aware
   repair question. The current 90124 value is only the lower endpoint of the
   rank interval `[90124,106512]` allowed by the deliberately overlarge
@@ -13828,6 +13858,22 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K863--K866 authenticate the radial part of the K788 basepoint kernel and
+  isolate the remaining representation-theoretic burden. The radial
+  16384-dimensional `SO(13)` module is
+  `direct-sum_(k=0)^6 4 Lambda^k(V_13)`; K789's provisional `q lambda` image
+  equals it exactly, leaving a conditional connection-only quotient of
+  dimension 90128. Do not replace that number by K789's 90124 full-field
+  lower bound, whose extra rank-four metric grant has zero connection
+  component. Next compute the irreducible real `SO(13)` multiplicities of the
+  tangential kernel, authenticate the actual source/action-owned old symmetry
+  image, and compare the resulting `h_rho` type by type with owned repair
+  multiplicities `a_rho,b_rho`. Only after every
+  `h_rho<=a_rho+b_rho` row passes may owned intertwiners `S_0,tau_0` be
+  constructed and tested for descent, composition, kernel-image equality,
+  globalization and robust analytic control. SC-ACT-06 remains `ASSERTS` and
+  no protected conclusion moves.
+
   K859--K862 prove that the current 90124 value is only the lower endpoint of
   the exact interval `[90124,106512]` permitted by the deliberately overlarge
   symmetry-rank ceiling, not the exact rank of an authenticated old

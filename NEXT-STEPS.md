@@ -7,6 +7,17 @@ updated_at: "2026-10-02"
 
 # Next Steps For Contributors
 
+> **2026-10-02 K863--K866 BASEPOINT ISOTROPY AND REPAIR CAPACITY.** K863
+> splits the K788 basepoint kernel into a radial 16384-dimensional `SO(13)`
+> module `direct-sum_(k=0)^6 4 Lambda^k(V_13)` and a tangential kernel of
+> dimension 90128. K864 proves the provisional `q lambda` image is exactly
+> the radial summand, while the separate rank-four metric grant cannot reduce
+> a connection-only quotient. K865 proves repair capacity is typewise:
+> `h_rho<=a_rho+b_rho` for every real irreducible, not merely in total rank.
+> Next compute the tangential multiplicities, authenticate the owned symmetry
+> quotient and identify owned repair modules before constructing
+> `S_0,tau_0`. SC-ACT-06 remains `ASSERTS`.
+
 > **2026-10-02 K859--K862 NATURALITY-AWARE REPAIR DISPOSITION.** K859 proves
 > that the present data constrain the old middle cohomology only to the exact
 > interval 90124 through 106512; 90124 is not an exact bundle rank because the

@@ -7,6 +7,49 @@ updated_at: "2026-10-02"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K863--K866 basepoint isotropy and repair capacity (2026-10-02)
+
+K863 uses the positive Euclidean base covector `q=e_0`. The connection domain
+splits as `(R q direct-sum V_13) tensor Cl_14`; the radial part lies in the
+kernel because `q wedge q=0`, while K788's rank 122864 is carried entirely by
+the 212992-dimensional tangential domain. Hence the kernel splits exactly as
+16384 radial plus 90128 tangential dimensions. Under `SO(13)`,
+`Cl_14=2 Lambda^*(V_13)`, and Hodge duality gives the radial decomposition
+`direct-sum_(k=0)^6 4 Lambda^k(V_13)` with dimensions
+`4*(1+13+78+286+715+1287+1716)=16384`.
+
+K864 identifies K789's provisional `lambda -> q tensor lambda` image with the
+entire radial summand. Conditional on that unowned grant, the exact
+connection-only quotient is therefore the 90128-dimensional tangential
+kernel. K789's 90124 remains a deliberately conservative full-field lower
+bound: its additional rank-four metric grant has zero connection component
+at flat `T=0` and cannot be subtracted from a connection-only module.
+
+K865 proves the compact real representation criterion. Write the old
+cohomology and repair modules isotypically with multiplicities
+`h_rho,a_rho,b_rho` over the real division algebra of each irreducible type.
+An exact pair `A -> H -> B` exists if and only if
+`h_rho<=a_rho+b_rho` for every type. Equal raw dimensions can fail: thirteen
+trivial source copies cannot repair one 13-dimensional vector representation.
+K866 compiles eleven rows, of which four are now established. The tangential
+irreducible character, actual owned quotient, repair modules, intertwiners and
+analytic globalization remain open. The producers pass 148 controls and the
+probes reject 80/80 hostile mutations. No protected scientific or public
+conclusion moves.
+
+Run the producers and hostile probes:
+
+```bash
+python3 tests/channel-swings/k863_sc_act_06_basepoint_kernel_isotropy.py --check
+python3 tests/channel-swings/k863_sc_act_06_basepoint_kernel_isotropy_probe.py
+python3 tests/channel-swings/k864_sc_act_06_radial_grant_quotient.py --check
+python3 tests/channel-swings/k864_sc_act_06_radial_grant_quotient_probe.py
+python3 tests/channel-swings/k865_sc_act_06_isotypic_repair_criterion.py --check
+python3 tests/channel-swings/k865_sc_act_06_isotypic_repair_criterion_probe.py
+python3 tests/channel-swings/k866_sc_act_06_isotropy_repair_disposition.py --check
+python3 tests/channel-swings/k866_sc_act_06_isotropy_repair_disposition_probe.py
+```
+
 ## K859--K862 naturality-aware repair disposition (2026-10-02)
 
 K859 sharpens the rank custody left by K858. The current direct response has

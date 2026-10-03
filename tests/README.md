@@ -4,6 +4,19 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K863--K866 basepoint isotropy and repair capacity
+
+- `channel-swings/k863_sc_act_06_basepoint_kernel_isotropy.py` proves the
+  radial/tangential `SO(13)` kernel split and radial exterior-power module.
+- `channel-swings/k864_sc_act_06_radial_grant_quotient.py` identifies the
+  provisional `q lambda` image and the conditional rank-90128 quotient.
+- `channel-swings/k865_sc_act_06_isotypic_repair_criterion.py` proves the
+  irreducible-multiplicity repair criterion and a raw-dimension countermodel.
+- `channel-swings/k866_sc_act_06_isotropy_repair_disposition.py` compiles the
+  eleven-row current disposition.
+- The matching `_probe.py` files reject 80/80 hostile mutations across 148
+  controls. SC-ACT-06 remains ASSERTS and no protected conclusion moves.
+
 ## K859--K862 naturality-aware repair disposition
 
 - `channel-swings/k859_sc_act_06_cohomology_rank_custody.py` proves the exact

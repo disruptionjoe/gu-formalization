@@ -1,0 +1,75 @@
+{
+  "claim_ceiling": "Exact quotient by the provisional radial q-lambda image only. It does not authenticate the source-owned old cohomology rank or complete field complex.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "comparator_routing_notice": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) 126 Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read lab/methods/source-native-comparator-routing.md and follow its source-native pointers before reusing this result.",
+  "conditional_connection_quotient": {
+    "exact_only_under_q_lambda_grant": true,
+    "granted_image_dimension": 16384,
+    "kernel_dimension": 106512,
+    "quotient_dimension": 90128,
+    "quotient_is_tangential_kernel": true,
+    "quotient_module": "ker(J_q restricted to V_13 tensor Cl_14)"
+  },
+  "controls": {
+    "controls_passed": 35,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k864_sc_act_06_radial_grant_quotient_probe.py",
+    "producer": "tests/channel-swings/k864_sc_act_06_radial_grant_quotient.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "K859_interval_retracted": false,
+    "SC_ACT_06_proved_or_refuted": false,
+    "conditional_connection_quotient_rank": 90128,
+    "conditional_connection_quotient_rank_known": true,
+    "current_owned_old_cohomology_rank_known": false,
+    "next_exact_input": "Authenticate the actual owned symmetry image and compute the irreducible SO(13) multiplicities of the surviving tangential quotient; do not subtract the separate metric rank from a connection-only module.",
+    "q_lambda_promoted_to_owned_total_gauge": false
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "source first-order residual Upsilon, not an I1B or I2B Hessian",
+    "carrier": "Omega1(Cl_14(C)) on K717's fixed flat native germ; complex dimension 229376",
+    "grading": "connection variation u -> first-order residual variation J_q(u)",
+    "pairing": "K717 native action form; auxiliary Frobenius q only identifies nonzero Euclidean covectors",
+    "real_structure": "K740 pinned real U(64,64) basis followed by exact rational rank calculation",
+    "target": "MAP-TYPE=conditional connection kernel modulo the q-lambda radial image"
+  },
+  "ledger_no_change_reason": "The exact 90128 quotient is conditional on an unowned grant and remains a connection-symbol result without a physical quotient or observable.",
+  "metric_grant_separation": {
+    "K789_90124_is_exact_connection_quotient": false,
+    "K789_90124_role": "conservative full-field lower bound under a deliberately overlarge cross-slot grant",
+    "K789_metric_diffeomorphism_rank": 4,
+    "metric_connection_component_at_flat_T0": 0,
+    "metric_rank_may_lower_connection_only_quotient": false
+  },
+  "pinned_inputs": {
+    "k789": {
+      "path": "lab/process/k789-sc-act-06-maximal-symmetry-budget.json",
+      "sha256": "b73011120d0904f451a232042ab03b5089f20336df45371180cca4db6d999a7f"
+    },
+    "k859": {
+      "path": "lab/process/k859-sc-act-06-cohomology-rank-custody.json",
+      "sha256": "9c5073ad5ff223b92fd8f39d2f13e37a099d6fcd5f689f48a93f1ad34841ea96"
+    },
+    "k863": {
+      "path": "lab/process/k863-sc-act-06-basepoint-kernel-isotropy.json",
+      "sha256": "0cb827d6146b5a89b5eab57febeb8d46bdf924e290b231f81d411566f4bfb55f"
+    }
+  },
+  "radial_grant": {
+    "candidate_domain_dimension": 16384,
+    "candidate_injective": true,
+    "candidate_map": "lambda maps to q tensor lambda",
+    "composition_zero": true,
+    "image_SO13_module": "q tensor Cl_14 = direct-sum_(k=0)^6 4 Lambda^k(V_13)",
+    "image_equals_radial_kernel_summand": true,
+    "source_action_owned_total_gauge": false
+  },
+  "result_id": "K864-SC-ACT-06-RADIAL-GRANT-QUOTIENT",
+  "schema_version": "1.0",
+  "scope": "Exact connection-only quotient of K788's positive-basepoint kernel by K789's provisional q-lambda candidate; ownership remains ungranted.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

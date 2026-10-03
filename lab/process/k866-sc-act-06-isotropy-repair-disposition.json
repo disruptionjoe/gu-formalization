@@ -1,0 +1,100 @@
+{
+  "claim_ceiling": "Exact basepoint radial module, conditional q-lambda quotient and exact irrepwise repair-capacity theorem. No GU repair, global no-go or physical conclusion follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "comparator_routing_notice": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) 126 Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read lab/methods/source-native-comparator-routing.md and follow its source-native pointers before reusing this result.",
+  "compiled_result": {
+    "K789_90124_exact_connection_quotient": false,
+    "basepoint_radial_kernel_module_authenticated": true,
+    "basepoint_tangential_kernel_authenticated_as_kernel_module": true,
+    "conditional_q_lambda_connection_quotient_dimension": 90128,
+    "current_flat_exact_admitted": false,
+    "owned_old_cohomology_module_known": false,
+    "owned_old_symmetry_image_known": false,
+    "owned_repair_intertwiners_known": false,
+    "owned_repair_modules_known": false,
+    "radial_module_formula": "direct-sum_(k=0)^6 4 Lambda^k(V_13)",
+    "tangential_irreducible_multiplicities_known": false
+  },
+  "controls": {
+    "controls_passed": 39,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k866_sc_act_06_isotropy_repair_disposition_probe.py",
+    "producer": "tests/channel-swings/k866_sc_act_06_isotropy_repair_disposition.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "K862_naturality_gate_retracted": false,
+    "SC_ACT_06_proved_or_refuted": false,
+    "current_flat_packet_repairability_refuted": false,
+    "current_flat_packet_repaired": false,
+    "next_exact_input": "Compute the irreducible real SO(13) multiplicities of the 90128-dimensional tangential kernel, authenticate the actual owned old symmetry quotient, and compare the surviving h_rho against source/action-owned repair multiplicities a_rho,b_rho before constructing S_0,tau_0.",
+    "radial_structure_materially_advanced": true
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "source/action ownership required for isotropy intertwiners and their globalized maps",
+    "carrier": "LAYER=ambient CHIRALITY=N/A old middle symbol bundle over a compact Euclidean cosphere",
+    "grading": "old gauge image -> old middle kernel -> old equation image",
+    "pairing": "continuous positive auxiliary fibre metric used only to realize orthogonal projectors",
+    "real_structure": "fixed real symbol bundles",
+    "target": "MAP-TYPE=SO(14)-natural exact quotient repair"
+  },
+  "isotropy_certificate": {
+    "all_rows_conjunctive": true,
+    "current_GU_candidate": {
+      "SO(13)-equivariant radial/tangential split of the K788 basepoint kernel": true,
+      "authenticated source/action-owned old symmetry image": false,
+      "conditional connection-only quotient dimension 90128": true,
+      "constructed SO(13)-intertwiners S_0,tau_0": false,
+      "descent, composition and im(S_0)=ker(tau_0)": false,
+      "exact radial module direct-sum_(k=0)^6 4 Lambda^k(V_13)": true,
+      "globalized SO(14)-equivariant maps and analytic robustness rows": false,
+      "h_rho<=a_rho+b_rho for every real irreducible type": false,
+      "irreducible multiplicities of the tangential quotient": false,
+      "q-lambda image identified with the radial summand": true,
+      "source/action-owned repair-domain and repair-target multiplicities": false
+    },
+    "current_GU_candidate_admitted": false,
+    "raw_total_rank_can_substitute_for_isotypic_coverage": false,
+    "row_count": 11,
+    "rows": [
+      "SO(13)-equivariant radial/tangential split of the K788 basepoint kernel",
+      "exact radial module direct-sum_(k=0)^6 4 Lambda^k(V_13)",
+      "q-lambda image identified with the radial summand",
+      "conditional connection-only quotient dimension 90128",
+      "irreducible multiplicities of the tangential quotient",
+      "authenticated source/action-owned old symmetry image",
+      "source/action-owned repair-domain and repair-target multiplicities",
+      "h_rho<=a_rho+b_rho for every real irreducible type",
+      "constructed SO(13)-intertwiners S_0,tau_0",
+      "descent, composition and im(S_0)=ker(tau_0)",
+      "globalized SO(14)-equivariant maps and analytic robustness rows"
+    ],
+    "satisfied_row_count": 4
+  },
+  "ledger_no_change_reason": "Four representation rows advance, but the actual owned quotient, repair modules, maps, analytic domain and physical interpretation remain absent.",
+  "pinned_inputs": {
+    "k862": {
+      "path": "lab/process/k862-sc-act-06-naturality-repair-disposition.json",
+      "sha256": "afb6bc283444da51c143389042b0c2b709cb702dcd0001051e78d0c1d5b4753c"
+    },
+    "k863": {
+      "path": "lab/process/k863-sc-act-06-basepoint-kernel-isotropy.json",
+      "sha256": "0cb827d6146b5a89b5eab57febeb8d46bdf924e290b231f81d411566f4bfb55f"
+    },
+    "k864": {
+      "path": "lab/process/k864-sc-act-06-radial-grant-quotient.json",
+      "sha256": "7f9f66e614592e2e1beaeb2df02d231a69d76ab2a64edef590a96d7030e18453"
+    },
+    "k865": {
+      "path": "lab/process/k865-sc-act-06-isotypic-repair-criterion.json",
+      "sha256": "4098ed72e728f1fb4a1424d83c5c9c4fc5d3c4129c0af10ec8fa0ec0b6c26a06"
+    }
+  },
+  "result_id": "K866-SC-ACT-06-ISOTROPY-REPAIR-DISPOSITION",
+  "schema_version": "1.0",
+  "scope": "Compiled naturality disposition after authenticating the radial SO(13) kernel module, the provisional radial quotient, and the irrepwise repair-capacity theorem.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

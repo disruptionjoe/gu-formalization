@@ -527,6 +527,18 @@ def load_inputs() -> dict:
         "k862": json.loads(
             (ROOT / "lab/process/k862-sc-act-06-naturality-repair-disposition.json").read_text()
         ),
+        "k863": json.loads(
+            (ROOT / "lab/process/k863-sc-act-06-basepoint-kernel-isotropy.json").read_text()
+        ),
+        "k864": json.loads(
+            (ROOT / "lab/process/k864-sc-act-06-radial-grant-quotient.json").read_text()
+        ),
+        "k865": json.loads(
+            (ROOT / "lab/process/k865-sc-act-06-isotypic-repair-criterion.json").read_text()
+        ),
+        "k866": json.loads(
+            (ROOT / "lab/process/k866-sc-act-06-isotropy-repair-disposition.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -719,9 +731,13 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     check(registry["latest_gu_formalization_result"] ==
-          "K859_K862_SC_ACT_06_NATURALITY_REPAIR_DISPOSITION_CURRENT",
+          "K863_K866_SC_ACT_06_ISOTROPY_REPAIR_DISPOSITION_CURRENT",
           "latest GU result pointer moved")
     if isinstance(live, str):
+        check("K863--K866 authenticate the radial part of the K788 basepoint kernel" in live and
+              "conditional connection-only quotient of dimension 90128" in live and
+              "h_rho<=a_rho+b_rho" in live,
+              "live K863--K866 isotropy repair disposition missing")
         check("K859--K862 prove that the current 90124 value is only the lower endpoint" in live and
               "natural repair maps are determined by `SO(13)`-intertwiners" in live and
               "rank-91 product bundle" in live,
@@ -1208,6 +1224,18 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "K863--K866 authenticate the first basepoint SO(13) structure" in data["agenda"].get("latest_result_2026_10_02_k863_k866", "")
+        and "90128-dimensional tangential kernel" in data["agenda"].get("latest_result_2026_10_02_k863_k866", "")
+        and "SC-ACT-06 remains ASSERTS" in data["agenda"].get("latest_result_2026_10_02_k863_k866", ""),
+        "agenda K863--K866 result is not current",
+    )
+    check(
+        "K863--K866 replace the undifferentiated isotropy-module request" in question
+        and "h_rho<=a_rho+b_rho" in question
+        and "Raw total rank is insufficient" in question,
+        "current question lost K863--K866 isotypic repair interface",
+    )
     check(
         "K859--K862 separate ordinary high-rank bundle triviality" in data["agenda"].get("latest_result_2026_10_02_k859_k862", "")
         and "rank-91 ordinary trivial bundle" in data["agenda"].get("latest_result_2026_10_02_k859_k862", "")
@@ -3820,6 +3848,41 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k862["decision"]["SC_ACT_06_proved_or_refuted"],
           "K862 naturality repair disposition moved")
 
+    k863 = data["k863"]
+    check(k863["basepoint_split"]["radial_summand_dimension"] == 16384 and
+          k863["basepoint_split"]["tangential_kernel_dimension"] == 90128 and
+          k863["radial_isotropy_module"]["multiplicity_each_degree_0_through_6"] == 4 and
+          k863["decision"]["radial_kernel_isotropy_module_authenticated"] and
+          not k863["decision"]["old_cohomology_module_authenticated"] and
+          not k863["decision"]["SC_ACT_06_proved_or_refuted"],
+          "K863 basepoint kernel isotropy moved")
+
+    k864 = data["k864"]
+    check(k864["radial_grant"]["image_equals_radial_kernel_summand"] and
+          not k864["radial_grant"]["source_action_owned_total_gauge"] and
+          k864["conditional_connection_quotient"]["quotient_dimension"] == 90128 and
+          not k864["metric_grant_separation"]["K789_90124_is_exact_connection_quotient"] and
+          not k864["decision"]["current_owned_old_cohomology_rank_known"],
+          "K864 radial grant quotient moved")
+
+    k865 = data["k865"]
+    check(k865["theorem"]["compact_semisimplicity_used"] and
+          "h_rho <= a_rho + b_rho" in k865["theorem"]["exact_pair_exists_iff"] and
+          not k865["theorem"]["raw_total_dimension_suffices"] and
+          k865["exact_controls"]["typed_exact_control"]["criterion_passes"] and
+          not k865["exact_controls"]["dimension_matched_type_mismatch"]["criterion_passes"] and
+          not k865["decision"]["current_GU_repair_admitted"],
+          "K865 isotypic repair criterion moved")
+
+    k866 = data["k866"]
+    check(k866["isotropy_certificate"]["row_count"] == 11 and
+          k866["isotropy_certificate"]["satisfied_row_count"] == 4 and
+          not k866["isotropy_certificate"]["current_GU_candidate_admitted"] and
+          not k866["compiled_result"]["owned_old_cohomology_module_known"] and
+          not k866["decision"]["current_flat_packet_repaired"] and
+          not k866["decision"]["SC_ACT_06_proved_or_refuted"],
+          "K866 isotropy repair disposition moved")
+
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]
     k693_n = k693["native_interface_status"]
@@ -5010,6 +5073,10 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k860-modules-authenticated", lambda d: d["k860"]["decision"].__setitem__("current_GU_isotropy_modules_authenticated", True))
     add("k861-natural-frame", lambda d: d["k861"]["decision"].__setitem__("K857_abstract_frame_promoted_to_natural_owner", True))
     add("k862-current-repaired", lambda d: d["k862"]["decision"].__setitem__("current_flat_packet_repaired", True))
+    add("k863-old-cohomology", lambda d: d["k863"]["decision"].__setitem__("old_cohomology_module_authenticated", True))
+    add("k864-owned-rank", lambda d: d["k864"]["decision"].__setitem__("current_owned_old_cohomology_rank_known", True))
+    add("k865-current-admitted", lambda d: d["k865"]["decision"].__setitem__("current_GU_repair_admitted", True))
+    add("k866-current-repaired", lambda d: d["k866"]["decision"].__setitem__("current_flat_packet_repaired", True))
 
     add("k696-form", lambda d: d["k696"]["integration_theorem"].__setitem__("graph_equivalence_without_form_identity_sufficient", True))
     add("k696-reduction", lambda d: d["k696"]["integration_theorem"].__setitem__("reduction_of_column_labels_alone_reduces_native_R", True))
