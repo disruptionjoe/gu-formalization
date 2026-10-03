@@ -7,6 +7,54 @@ updated_at: "2026-10-03"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K926--K930 projector realization boundary (2026-10-03)
+
+K926 composes three already exact all-covector facts. K788 gives response rank
+122,864 and nullity 106,512 on every native-positive, native-negative and
+native-null nonzero covector orbit. K873 gives the owned injective radial gauge
+map `G_q(lambda)=q tensor lambda`, of rank 16,384, with `J_q G_q=0`. K879
+proves the resulting 90,128-dimensional quotient injects uniformly into the
+full-field cohomology. Since the symbols are polynomial and their ranks are
+constant, the connection quotient is a continuous rank-90,128 bundle over the
+Euclidean cosphere `S^13`. This does not compute the complementary full-field
+cohomology.
+
+K927 composes that bundle with K717's background-owned positive Frobenius
+metric on the fixed flat germ. The orthogonal projector family is smooth,
+self-adjoint, idempotent, gauge-basic and identity on the quotient. The metric
+is neither globally unique nor invariant under the unreduced full native
+group. K928 writes the constant-rank Moore--Penrose formula. Because `G(q)`
+and `J(q)` are degree one and their pseudoinverses degree minus one, `P_H(q)`
+is a smooth homogeneous degree-zero classical symbol and therefore has an
+order-zero pseudodifferential quantization. That is a principal-symbol result:
+an arbitrary quantization is not exactly idempotent without recursive
+lower-symbol corrections, and no common Green domain is supplied.
+
+K929 gives an exact local obstruction for this same projector. A local
+order-zero differential endomorphism has covector-independent principal
+symbol `A(x)`. If it were gauge-basic for all nonzero `q`, then
+`A(q tensor lambda)=0` for every `q` and `lambda`. Those simple tensors span
+the full connection carrier, so `A=0`, contradicting the required rank 90,128.
+This closes only the identical projector's order-zero differential
+realization; it does not exclude higher-order or different local parents.
+K930 records five of nine realization rows satisfied. Source/action ownership,
+the full lower symbol/common Green domain and preboundary/BV data remain
+absent. The five producers pass 120 declared controls and the probes reject
+50/50 hostile mutations. SC-ACT-06 remains `ASSERTS`.
+
+```bash
+python3 tests/channel-swings/k926_sc_act_06_complete_connection_quotient_bundle.py --check
+python3 tests/channel-swings/k926_sc_act_06_complete_connection_quotient_bundle_probe.py
+python3 tests/channel-swings/k927_sc_act_06_background_metric_projector_family.py --check
+python3 tests/channel-swings/k927_sc_act_06_background_metric_projector_family_probe.py
+python3 tests/channel-swings/k928_sc_act_06_pseudodifferential_projector_symbol.py --check
+python3 tests/channel-swings/k928_sc_act_06_pseudodifferential_projector_symbol_probe.py
+python3 tests/channel-swings/k929_sc_act_06_local_projector_obstruction.py --check
+python3 tests/channel-swings/k929_sc_act_06_local_projector_obstruction_probe.py
+python3 tests/channel-swings/k930_sc_act_06_projector_realization_boundary.py --check
+python3 tests/channel-swings/k930_sc_act_06_projector_realization_boundary_probe.py
+```
+
 ## K921--K925 formal old-parent admission boundary (2026-10-03)
 
 K921 applies the positive-auxiliary orthogonal model of the old symbol

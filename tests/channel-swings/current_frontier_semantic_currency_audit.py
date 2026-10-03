@@ -716,6 +716,21 @@ def load_inputs() -> dict:
         "k925": json.loads(
             (ROOT / "lab/process/k925-sc-act-06-formal-parent-admission-boundary.json").read_text()
         ),
+        "k926": json.loads(
+            (ROOT / "lab/process/k926-sc-act-06-complete-connection-quotient-bundle.json").read_text()
+        ),
+        "k927": json.loads(
+            (ROOT / "lab/process/k927-sc-act-06-background-metric-projector-family.json").read_text()
+        ),
+        "k928": json.loads(
+            (ROOT / "lab/process/k928-sc-act-06-pseudodifferential-projector-symbol.json").read_text()
+        ),
+        "k929": json.loads(
+            (ROOT / "lab/process/k929-sc-act-06-local-projector-obstruction.json").read_text()
+        ),
+        "k930": json.loads(
+            (ROOT / "lab/process/k930-sc-act-06-projector-realization-boundary.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -908,14 +923,14 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     check(registry["latest_gu_formalization_result"] ==
-          "K921_K925_SC_ACT_06_FORMAL_PARENT_ADMISSION_BOUNDARY_CURRENT",
+          "K926_K930_SC_ACT_06_PROJECTOR_REALIZATION_BOUNDARY_CURRENT",
           "latest GU result pointer moved")
     if isinstance(live, str):
-        check("K921--K925 instantiate K920's new gauge-basic old-old-parent reopener" in live and
-              "90,128-dimensional" in live and
-              "all forty real types" in live and
-              "complete constant-rank family" in live,
-              "live K921--K925 formal-parent boundary missing")
+        check("K926--K930 establish the complete rank-90,128 connection quotient bundle" in live and
+              "classical pseudodifferential" in live and
+              "no local order-zero differential realization" in live and
+              "Five of nine realization rows pass" in live,
+              "live K926--K930 projector realization boundary missing")
         check("K916--K920 reconcile K915" in live and
               "body(B*L)=0" in live and
               "90,128-dimensional" in live and
@@ -1262,6 +1277,13 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K926--K930 advance K925's formal projector" in summary and
+          "rank-90,128 quotient bundle" in summary and
+          "classical order-zero" in summary and
+          "five of nine realization rows" in summary,
+          "current K926--K930 result lost")
+    check("K921--K925 instantiate K920's new gauge-basic old-old-parent reopener" in summary,
+          "K921--K925 predecessor result lost")
     check("K895--K898 close the frozen selected-I1B formal Euler map against" in summary and
           "rank 130,912" in summary and
           "all nonzero quotient capacity must come from a new" in summary,
@@ -1468,6 +1490,13 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
 
     question = current.get("current_question", "")
     check(
+        "K926--K930 complete K925's connection-sector projector realization boundary" in data["agenda"].get("latest_result_2026_10_03_k926_k930", "")
+        and "rank-90128 bundle" in data["agenda"].get("latest_result_2026_10_03_k926_k930", "")
+        and "no covector-independent local order-zero differential realization" in data["agenda"].get("latest_result_2026_10_03_k926_k930", "")
+        and "SC-ACT-06 remains ASSERTS" in data["agenda"].get("latest_result_2026_10_03_k926_k930", ""),
+        "agenda K926--K930 result is not current",
+    )
+    check(
         "K921--K925 instantiate K920's gauge-basic old-old-parent reopener" in data["agenda"].get("latest_result_2026_10_03_k921_k925", "")
         and "orthogonal projector" in data["agenda"].get("latest_result_2026_10_03_k921_k925", "")
         and "complete-family" in data["agenda"].get("latest_result_2026_10_03_k921_k925", "")
@@ -1475,10 +1504,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         "agenda K921--K925 result is not current",
     )
     check(
-        "K921--K925 construct an exact auxiliary old-old parent" in question
-        and "90,128-dimensional, forty-type" in question
-        and "one of eight admission rows" in question,
-        "current question lost K921--K925 formal-parent boundary",
+        "K926--K930 complete the connection-sector cosphere bundle" in question
+        and "rank 90,128" in question
+        and "Five of nine realization rows pass" in question,
+        "current question lost K926--K930 projector realization boundary",
     )
     check(
         "K916--K920 reconcile K915" in data["agenda"].get("latest_result_2026_10_03_k916_k920", "")
@@ -4741,6 +4770,45 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k925["decision"]["SC_ACT_06_proved_or_refuted"],
           "K925 formal-parent admission boundary moved")
 
+    k926 = data["k926"]
+    check(k926["composition"]["response_rank"] == 122864 and
+          k926["composition"]["gauge_rank"] == 16384 and
+          k926["composition"]["cohomology_rank"] == 90128 and
+          k926["composition"]["constant_rank_bundle_conclusion"] and
+          not k926["decision"]["complete_full_field_cohomology_computed"],
+          "K926 complete connection quotient bundle moved")
+
+    k927 = data["k927"]
+    check(k927["composition"]["background_owns_metric_on_fixed_flat_germ"] and
+          k927["composition"]["projector_family_rank"] == 90128 and
+          k927["composition"]["self_adjoint"] and
+          not k927["decision"]["global_or_source_action_ownership_follows"],
+          "K927 background metric projector family moved")
+
+    k928 = data["k928"]
+    check(k928["theorem"]["projector_homogeneous_degree"] == 0 and
+          k928["theorem"]["principal_symbol_class"] == "S^0_classical" and
+          k928["theorem"]["order_zero_pseudodifferential_quantization_exists"] and
+          not k928["decision"]["complete_owned_pseudodifferential_action_constructed"],
+          "K928 pseudodifferential projector symbol moved")
+
+    k929 = data["k929"]
+    check(k929["theorem"]["gauge_images_span_connection_carrier"] and
+          k929["theorem"]["forced_local_candidate_rank"] == 0 and
+          k929["theorem"]["desired_projector_rank"] == 90128 and
+          not k929["theorem"]["exact_local_order_zero_realization_exists"] and
+          not k929["decision"]["all_local_action_parents_refuted"],
+          "K929 local projector obstruction moved")
+
+    k930 = data["k930"]
+    check(k930["certificate"]["row_count"] == 9 and
+          k930["certificate"]["satisfied_row_count"] == 5 and
+          k930["certificate"]["missing_row_count"] == 4 and
+          k930["decision"]["same_projector_local_order_zero_route_closed"] and
+          not k930["decision"]["source_action_owned_complete_operator_exists"] and
+          not k930["decision"]["SC_ACT_06_proved_or_refuted"],
+          "K930 projector realization boundary moved")
+
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]
     k693_n = k693["native_interface_status"]
@@ -5877,6 +5945,15 @@ def selftest(base: dict) -> tuple[int, int]:
 
     add("latest-result-pointer", lambda d: d["registry"].__setitem__(
         "latest_gu_formalization_result", "K916_K920_SC_ACT_06_GRADED_NONZERO_FERMION_RECONCILIATION_CURRENT"))
+    add("k926-rank", lambda d: d["k926"]["composition"].__setitem__("cohomology_rank", 90127))
+    add("k927-owner", lambda d: d["k927"]["decision"].__setitem__(
+        "global_or_source_action_ownership_follows", True))
+    add("k928-owned-action", lambda d: d["k928"]["decision"].__setitem__(
+        "complete_owned_pseudodifferential_action_constructed", True))
+    add("k929-local-realization", lambda d: d["k929"]["theorem"].__setitem__(
+        "exact_local_order_zero_realization_exists", True))
+    add("k930-overclaim", lambda d: d["k930"]["decision"].__setitem__(
+        "SC_ACT_06_proved_or_refuted", True))
     add("k921-local-owner", lambda d: d["k921"]["decision"].__setitem__(
         "source_or_action_owned_local_parent_constructed", True))
     add("k922-local-action", lambda d: d["k922"]["decision"].__setitem__(

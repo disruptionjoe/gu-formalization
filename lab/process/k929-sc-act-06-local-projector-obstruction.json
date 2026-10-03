@@ -1,0 +1,56 @@
+{
+  "claim_ceiling": "Exact no-go for the same nonzero quotient projector as an order-zero differential endomorphism. It does not exclude higher-order local parents, different symbols, nonlocal realizations, changed germs or independent responses.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 24,
+    "hostile_mutations_rejected": 10,
+    "probe": "tests/channel-swings/k929_sc_act_06_local_projector_obstruction_probe.py",
+    "producer": "tests/channel-swings/k929_sc_act_06_local_projector_obstruction.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "all_local_action_parents_refuted": false,
+    "next_exact_input": "An admitted continuation must explicitly own the order-zero pseudodifferential parent and construct its full lower symbol, common domain/Green realization and preboundary/BV data, or switch to a different local parent, stationary germ or independent response.",
+    "same_projector_local_differential_route_closed": true
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "desired_rank": 90128,
+    "gauge_family": "G_q(lambda)=q tensor lambda",
+    "local_candidate": "A(x):E1->E1 with principal symbol independent of nonzero q",
+    "target": "OBSTRUCTION-TYPE=local order-zero realization of quotient projector"
+  },
+  "ledger_no_change_reason": "The obstruction closes only a covector-independent local realization of this projector; it does not exclude different local Hessians or create an owned pseudodifferential action.",
+  "pinned_inputs": {
+    "k873": {
+      "path": "lab/process/k873-sc-act-06-owned-symmetry-custody.json",
+      "sha256": "cc148cac1cce342c3e43d4e7681766630c8455e7ba687f87ece02978ec09c66c"
+    },
+    "k926": {
+      "path": "lab/process/k926-sc-act-06-complete-connection-quotient-bundle.json",
+      "sha256": "bec4677ecb1e196d1ef621b44e2df3cbb336ebb41db0457ff06d89bc1989b685"
+    },
+    "k928": {
+      "path": "lab/process/k928-sc-act-06-pseudodifferential-projector-symbol.json",
+      "sha256": "b41536848622d52094b00c47adc7131cae6f8640c8db05cf689d30ab2586a5c4"
+    }
+  },
+  "result_id": "K929-SC-ACT-06-LOCAL-PROJECTOR-OBSTRUCTION",
+  "schema_version": "1.0",
+  "scope": "Exact realization of the nonzero K928 projector family by a covector-independent order-zero differential endomorphism on the same connection carrier.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "desired_projector_rank": 90128,
+    "exact_local_order_zero_realization_exists": false,
+    "forced_local_candidate_rank": 0,
+    "gauge_basic_requirement": "A G_q=0 for every nonzero q",
+    "gauge_images_span_connection_carrier": true,
+    "higher_order_or_different_parent_classes_excluded": false,
+    "order_zero_differential_symbol_is_covector_independent": true,
+    "pseudodifferential_realization_remains_open_at_full_operator_grade": true,
+    "span_identity": "span{q tensor lambda:q nonzero, lambda in Cl_14}=T*Y tensor Cl_14=E1"
+  }
+}

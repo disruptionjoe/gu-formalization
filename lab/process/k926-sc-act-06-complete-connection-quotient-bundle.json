@@ -1,0 +1,74 @@
+{
+  "claim_ceiling": "Exact complete connection-sector bundle theorem on the fixed flat germ. It does not identify the complete full-field cohomology, a source/action-owned repair, Fredholm realization, rich moduli or physical result.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "composition": {
+    "JG_zero_on_flat_zero_locus": true,
+    "base": "S^13",
+    "cohomology_rank": 90128,
+    "constant_rank_bundle_conclusion": true,
+    "continuous_polynomial_symbol_family": true,
+    "field_dimension": 229376,
+    "gauge_rank": 16384,
+    "gauge_rank_constant_for_all_nonzero_covectors": true,
+    "nonzero_covector_orbits": [
+      "native_positive",
+      "native_negative",
+      "native_null"
+    ],
+    "rank_identity": "229376-122864-16384=90128",
+    "response_nullity": 106512,
+    "response_rank": 122864,
+    "response_rank_constant_on_all_orbits": true,
+    "uniform_full_field_injection": true
+  },
+  "controls": {
+    "controls_passed": 24,
+    "hostile_mutations_rejected": 10,
+    "probe": "tests/channel-swings/k926_sc_act_06_complete_connection_quotient_bundle_probe.py",
+    "producer": "tests/channel-swings/k926_sc_act_06_complete_connection_quotient_bundle.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "complete_connection_sector_cosphere_bundle_established": true,
+    "complete_full_field_cohomology_computed": false,
+    "next_exact_input": "Compose the K717 background-owned positive metric with this bundle, derive the smooth Moore-Penrose projector symbol, and classify local versus pseudodifferential realization without promoting it to a source action."
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "carrier": "real connection-symbol bundle E1=T*Y tensor Cl_14 over the auxiliary Euclidean cosphere S^13",
+    "gauge_map": "G_q(lambda)=q tensor lambda",
+    "quotient": "H_q=ker(J_q) intersect im(G_q)^perp",
+    "response": "J_q(u)=K_LIFT(SHIAB(q_WEDGE_u))",
+    "target": "BUNDLE-TYPE=complete constant-rank owned connection quotient"
+  },
+  "ledger_no_change_reason": "The result authenticates the connection-sector quotient bundle only; it supplies no source/action-owned repairing Hessian, full field complex, domain or observable.",
+  "pinned_inputs": {
+    "k788": {
+      "path": "lab/process/k788-sc-act-06-direct-response-orbit-classification.json",
+      "sha256": "5d1b2813b629f13ebaaec0a2ee86e442422ab0ed0eb985c4589f9664ead9e445"
+    },
+    "k855": {
+      "path": "lab/process/k855-sc-act-06-cohomology-bundle.json",
+      "sha256": "e5117e3de143b715f684c0d2601b0d820a326ab8bedb2b255206060aae49ef32"
+    },
+    "k873": {
+      "path": "lab/process/k873-sc-act-06-owned-symmetry-custody.json",
+      "sha256": "cc148cac1cce342c3e43d4e7681766630c8455e7ba687f87ece02978ec09c66c"
+    },
+    "k879": {
+      "path": "lab/process/k879-sc-act-06-full-field-quotient-injection.json",
+      "sha256": "bd70c9cdc5d11b65fd60c922edffdee607d63938c90fcfbc90ffa59670b746bf"
+    },
+    "k921": {
+      "path": "lab/process/k921-sc-act-06-quotient-projector-parent.json",
+      "sha256": "35c43e28cfc321cd386330b8b7efed99295164571171bece5e4246d7d298b598"
+    }
+  },
+  "result_id": "K926-SC-ACT-06-COMPLETE-CONNECTION-QUOTIENT-BUNDLE",
+  "schema_version": "1.0",
+  "scope": "Complete nonzero-covector connection-sector complex on K717's fixed flat germ; the complementary full-field cohomology is not computed.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

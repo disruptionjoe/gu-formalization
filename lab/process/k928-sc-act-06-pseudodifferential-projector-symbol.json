@@ -1,0 +1,59 @@
+{
+  "claim_ceiling": "Exact smooth homogeneous principal-symbol theorem and conditional order-zero pseudodifferential realization. No full symbol, exact operator projector, source/action ownership, Green domain, ellipticity or physical result follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 24,
+    "hostile_mutations_rejected": 10,
+    "probe": "tests/channel-swings/k928_sc_act_06_pseudodifferential_projector_symbol_probe.py",
+    "producer": "tests/channel-swings/k928_sc_act_06_pseudodifferential_projector_symbol.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "complete_owned_pseudodifferential_action_constructed": false,
+    "next_exact_input": "Test whether the same nonzero gauge-basic projector can be a local order-zero differential endomorphism; then freeze the remaining source/action, lower-symbol, Green-domain and preboundary obligations.",
+    "pseudodifferential_principal_symbol_row_closed": true
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "gauge_symbol": "degree-one G(q)",
+    "projector_symbol": "P_H(q)=I-J(q)^dagger J(q)-G(q)(G(q)^*G(q))^-1G(q)^*",
+    "response_symbol": "degree-one J(q)",
+    "target": "OPERATOR-TYPE=classical order-zero pseudodifferential principal symbol"
+  },
+  "ledger_no_change_reason": "A classical principal symbol is an operator-class construction, not a source/action term, exact quantization, domain or physical observable.",
+  "pinned_inputs": {
+    "k855": {
+      "path": "lab/process/k855-sc-act-06-cohomology-bundle.json",
+      "sha256": "e5117e3de143b715f684c0d2601b0d820a326ab8bedb2b255206060aae49ef32"
+    },
+    "k926": {
+      "path": "lab/process/k926-sc-act-06-complete-connection-quotient-bundle.json",
+      "sha256": "bec4677ecb1e196d1ef621b44e2df3cbb336ebb41db0457ff06d89bc1989b685"
+    },
+    "k927": {
+      "path": "lab/process/k927-sc-act-06-background-metric-projector-family.json",
+      "sha256": "93bef72fcbe5c8c21ad966520cec78e3366b4bc59637ae37dd50b9269120288b"
+    }
+  },
+  "result_id": "K928-SC-ACT-06-PSEUDODIFFERENTIAL-PROJECTOR-SYMBOL",
+  "schema_version": "1.0",
+  "scope": "Principal-symbol classification of K927's smooth constant-rank projector family; no full quantization, source/action ownership or common domain is asserted.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "G_pseudoinverse_degree": -1,
+    "J_pseudoinverse_degree": -1,
+    "common_closed_domain_and_green_realization_constructed": false,
+    "constant_rank_makes_moore_penrose_smooth": true,
+    "exact_operator_idempotence_after_arbitrary_quantization": false,
+    "formal_self_adjoint_idempotent_at_principal_grade": true,
+    "lower_order_recursive_correction_required": true,
+    "order_zero_pseudodifferential_quantization_exists": true,
+    "principal_symbol_class": "S^0_classical",
+    "projector_homogeneous_degree": 0,
+    "projector_rank": 90128,
+    "projector_smooth_on_nonzero_cosphere": true
+  }
+}

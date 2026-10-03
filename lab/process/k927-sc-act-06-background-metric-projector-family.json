@@ -1,0 +1,62 @@
+{
+  "claim_ceiling": "Exact background-relative metric/projector composition on K717. No globally canonical metric, source/action parent, complete quantization, Green domain, BV/BFV data or physical result follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "composition": {
+    "background_owns_metric_on_fixed_flat_germ": true,
+    "background_positive_metric_exists": true,
+    "full_native_naturality_without_background_reduction": false,
+    "gauge_basic": "P_H(q) G_q=0",
+    "idempotent": true,
+    "induced_quotient_map": "identity",
+    "metric_is_globally_unique_or_full_native_invariant": false,
+    "projector_family_is_smooth": true,
+    "projector_family_rank": 90128,
+    "response_closed": "J_q P_H(q)=0",
+    "self_adjoint": true
+  },
+  "controls": {
+    "controls_passed": 24,
+    "hostile_mutations_rejected": 10,
+    "probe": "tests/channel-swings/k927_sc_act_06_background_metric_projector_family_probe.py",
+    "producer": "tests/channel-swings/k927_sc_act_06_background_metric_projector_family.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "global_or_source_action_ownership_follows": false,
+    "next_exact_input": "Write the constant-rank Moore-Penrose formula, prove degree-zero smooth homogeneity, and separate its pseudodifferential principal-symbol realization from local differential and source/action ownership.",
+    "positive_auxiliary_metric_owner_row_closed_on_fixed_germ": true
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "carrier": "K926 real connection-symbol bundle",
+    "pairing": "K717 background Frobenius q on T*Y with the pinned positive coefficient Frobenius pairing",
+    "projector": "P_H(q)=P_ker(J_q)-P_im(G_q)",
+    "target": "MAP-TYPE=background-relative smooth orthogonal projector family"
+  },
+  "ledger_no_change_reason": "Background ownership closes one auxiliary row only; it neither makes the projector a term of the source action nor supplies global uniqueness or a Green domain.",
+  "pinned_inputs": {
+    "k713": {
+      "path": "lab/process/k713-sc-act-06-native-symmetry-gauge-metric-obstruction.json",
+      "sha256": "3e74834c08df02ef7821af54c3e16dd89b0e49fba7de00bdbfd67c3cb53ed4ba"
+    },
+    "k716": {
+      "path": "lab/process/k716-sc-act-06-compact-reduction-selection-boundary.json",
+      "sha256": "51add4414d9981532fee152b42fd152063e20e6541112bd8a9d39f5cc0555e0d"
+    },
+    "k717": {
+      "path": "lab/process/k717-sc-act-06-flat-euclidean-gimmel-germ.json",
+      "sha256": "9b6f66363ecc489ff9d2eca45c6a130cbbeb949e065414fff04343e79c1f3ed1"
+    },
+    "k926": {
+      "path": "lab/process/k926-sc-act-06-complete-connection-quotient-bundle.json",
+      "sha256": "bec4677ecb1e196d1ef621b44e2df3cbb336ebb41db0457ff06d89bc1989b685"
+    }
+  },
+  "result_id": "K927-SC-ACT-06-BACKGROUND-METRIC-PROJECTOR-FAMILY",
+  "schema_version": "1.0",
+  "scope": "Orthogonal-projector family on K926's complete connection quotient using the positive Frobenius reduction owned by K717's fixed flat germ.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

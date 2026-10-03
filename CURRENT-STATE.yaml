@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 7f8323a4d6c5
+revision_basis: f26b0c187c34
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,27 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K926--K930 advance K925's formal projector from one authenticated
+    basepoint module to the complete connection-sector cosphere family on
+    K717's fixed flat germ. K926 composes K788's constant rank 122,864 across
+    the native-positive, native-negative and native-null nonzero covector
+    orbits with K873's owned rank-16,384 radial gauge image and zero
+    composition, giving a continuous rank-90,128 quotient bundle over
+    `S^13`. K927 composes the K717 background-owned positive Frobenius metric
+    with that bundle; this closes the auxiliary-metric owner only on the fixed
+    germ, not globally. K928 derives the smooth homogeneous degree-zero
+    Moore--Penrose projector symbol, hence a classical order-zero
+    pseudodifferential principal-symbol realization. Arbitrary quantization
+    does not preserve exact idempotence without lower-symbol correction and no
+    common Green domain is constructed. K929 proves the same nonzero projector
+    cannot be a covector-independent order-zero differential endomorphism:
+    annihilating every owned gauge image `q tensor lambda` annihilates their
+    span, the entire connection carrier, and forces rank zero rather than
+    90,128. K930 records five of nine realization rows satisfied. Source/action
+    ownership, the full lower symbol and common Green domain, and preboundary/
+    BV data remain absent; the local order-zero route is closed. SC-ACT-06
+    remains `ASSERTS` and no protected conclusion moves.
+
     K921--K925 instantiate K920's new gauge-basic old-old-parent reopener at
     exact auxiliary finite-symbol grade. K921 constructs the orthogonal
     projector `P_H` onto `H=ker(J) intersect im(G)^perp`; it is self-adjoint,
@@ -12895,21 +12916,20 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K921--K925 construct an exact auxiliary old-old parent instead of another
-  rank budget. For the old complex, the orthogonal projector `P_H` onto
-  `ker(J) intersect im(G)^perp` is symmetric, idempotent, gauge-basic and the
-  Hessian of `A_H=1/2<x,P_Hx>`. It induces the identity on K879's full
-  90,128-dimensional, forty-type, multiplicity-169 old quotient, proving that
-  pure finite-symbol algebra does not forbid a diagonal variational repair.
-  Current custody nevertheless passes only one of eight admission rows: it
-  lacks the complete constant-rank cosphere family, owned positive auxiliary
-  structure, natural equivariant projector, polynomial local symbol or an
-  explicitly accepted pseudodifferential action, source/action ownership,
-  common Green domain and preboundary/BV data. Can the source/action derive
-  such a natural realization on the complete family, or can a proposed local
-  realization be rejected by its first failed ownership, locality, Ward,
-  domain or preboundary row? Otherwise switch to a changed stationary germ or
-  independently owned response. SC-ACT-06 remains `ASSERTS`.
+  K926--K930 complete the connection-sector cosphere bundle left open by
+  K925. The response rank is 122,864 on every nonzero native covector orbit,
+  the owned radial gauge image has rank 16,384 and zero composition, and the
+  resulting quotient bundle over `S^13` has rank 90,128. K717's flat
+  background owns the positive Frobenius metric used by its smooth orthogonal
+  projector. The projector is a homogeneous degree-zero classical
+  pseudodifferential principal symbol, but no covector-independent order-zero
+  differential endomorphism can realize it: gauge basicness on all
+  `q tensor lambda` directions would force the endomorphism to vanish. Can the
+  source/action now explicitly own this pseudodifferential parent and supply
+  the full lower symbol, exact operator identities, common Green domain and
+  preboundary/BV data? Otherwise construct a different local parent, changed
+  stationary germ or independent owned response. Five of nine realization
+  rows pass; SC-ACT-06 remains `ASSERTS`.
 
   K916--K920 correct K915's generic nonzero-fermion handoff by reconciling the
   earlier K751--K754 body obstruction. For a literal Grassmann-odd superpoint,
@@ -14218,18 +14238,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  K921--K925 instantiate K920's new gauge-basic old-old-parent reopener at
-  exact auxiliary finite-symbol grade. The orthogonal projector `P_H` is
-  symmetric, idempotent, gauge-basic, variational and identity on the
-  90,128-dimensional old quotient, with full rank on all forty real types and
-  multiplicity 169. Pure finite-symbol algebra therefore does not forbid a
-  diagonal repair, but current custody lacks the complete constant-rank
-  family, owned auxiliary metric, natural projector, local or accepted
-  pseudodifferential symbol, source/action ownership, common Green domain and
-  preboundary/BV data. Next derive or reject that natural realization on the
-  complete family; otherwise switch to a changed stationary germ or
-  independent owned response. The completion gate remains five of eleven and
-  SC-ACT-06 remains `ASSERTS`.
+  K926--K930 establish the complete rank-90,128 connection quotient bundle on
+  the nonzero Euclidean cosphere, the fixed-germ background owner for its
+  positive metric, and its smooth degree-zero classical pseudodifferential
+  projector symbol. The identical projector has no local order-zero
+  differential realization because the owned gauge images
+  `q tensor lambda` span the full connection carrier. Admit the route next
+  only if the source/action explicitly owns the pseudodifferential parent and
+  supplies a complete lower symbol preserving the required identities, one
+  common closed/Green domain, and preboundary/BV data. Otherwise switch to a
+  different local parent, changed stationary germ or independent owned
+  response. Five of nine realization rows pass; the completion gate remains
+  five of eleven and SC-ACT-06 remains `ASSERTS`.
 
   K916--K920 reconcile K915 with K751--K754 and correct its generic
   nonzero-fermion handoff. No rediscovery is claimed: the earlier body theorem
