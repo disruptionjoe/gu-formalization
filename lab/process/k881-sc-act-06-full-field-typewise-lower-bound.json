@@ -1,0 +1,1048 @@
+{
+  "claim_ceiling": "Exact 40-type lower bounds for an injected 90128-dimensional full-field cohomology submodule and zero capacity from the displayed mixed plus Xi routes. No complete full-field character, repair or physical conclusion follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 47,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k881_sc_act_06_full_field_typewise_lower_bound_probe.py",
+    "producer": "tests/channel-swings/k881_sc_act_06_full_field_typewise_lower_bound.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "complete_flat_packet_repairability_refuted": false,
+    "displayed_mixed_plus_xi_routes_repair_the_injected_submodule": false,
+    "every_injected_type_requires_a_genuinely_independent_module": true,
+    "next_exact_input": "Construct a genuinely independent source/action-owned bosonic symmetry or response module on K717 and decompose it under SO(6)xSO(7); it must cover every listed lower bound before intertwiners and globalization are attempted."
+  },
+  "direction": "observed_to_native",
+  "equivariant_transfer": {
+    "common_stabilizer": "SO(6) x SO(7)",
+    "complete_full_field_character_computed": false,
+    "every_old_type_survives_with_at_least_old_multiplicity": true,
+    "injected_dimension_check": 90128,
+    "injection_is_equivariant": true,
+    "real_irreducible_type_count": 40,
+    "sum_of_multiplicity_lower_bounds": 169
+  },
+  "gu_typed_objects": {
+    "action_owner": "source Upsilon packet; displayed mixed and Xi routes only, with unconstructed modules left open",
+    "carrier": "K879 injected tangential submodule of full-field cohomology",
+    "grading": "known source gauge -> full fields -> independent first-order targets",
+    "pairing": "none required for equivariant multiplicity injection",
+    "real_structure": "K872 exact real SO(6)xSO(7) irreducible reconstruction",
+    "target": "CERTIFICATE-TYPE=typewise full-field cohomology lower bounds"
+  },
+  "ledger_no_change_reason": "The 40-type lower bound is local deformation algebra and leaves the uncomputed full-field complement and every physical bridge open.",
+  "pinned_inputs": {
+    "k872": {
+      "path": "lab/process/k872-sc-act-06-common-stabilizer-irreducible-character.json",
+      "sha256": "8fd3ab18d9d8b8d49660cbeaad3123b0cd6acf458b3e82fe3f2096a27013f0e6"
+    },
+    "k874": {
+      "path": "lab/process/k874-sc-act-06-corrected-typewise-disposition.json",
+      "sha256": "d84f631386db5388d3831c250c74b42dbaee3d11983f1854b35680cfe9a658a2"
+    },
+    "k877": {
+      "path": "lab/process/k877-sc-act-06-mixed-repair-capacity.json",
+      "sha256": "d399b2a9c27ec538782b528774374428e85aac8b0ef6fc4aad7916e8d07b983b"
+    },
+    "k879": {
+      "path": "lab/process/k879-sc-act-06-full-field-quotient-injection.json",
+      "sha256": "bd70c9cdc5d11b65fd60c922edffdee607d63938c90fcfbc90ffa59670b746bf"
+    },
+    "k880": {
+      "path": "lab/process/k880-sc-act-06-redundant-target-quotient.json",
+      "sha256": "52b322461ac2595f474e477872f208a713dfd932883433f49cbb5c81c110f4c9"
+    }
+  },
+  "result_id": "K881-SC-ACT-06-FULL-FIELD-TYPEWISE-LOWER-BOUND",
+  "schema_version": "1.0",
+  "scope": "SO(6)xSO(7)-equivariant lower-bound transfer of K872's 40 tangential quotient types into K879's zero-fermion full-field cohomology, after the displayed mixed route and redundant Xi target are removed.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "typewise_lower_bounds": {
+    "criterion": "complete full-field repair requires a_rho+b_rho at least the injected multiplicity lower bound for every rho",
+    "failed_known_route_row_count": 40,
+    "known_displayed_capacity_row_count": 40,
+    "row_count": 40,
+    "rows": [
+      {
+        "complete_full_field_multiplicity_known": false,
+        "displayed_mixed_domain_multiplicity": 0,
+        "injected_full_field_multiplicity_lower_bound": 2,
+        "known_displayed_repair_capacity": 0,
+        "real_irreducible_dimension": 3780,
+        "real_type": "complex_conjugate_pair",
+        "redundant_xi_target_multiplicity": 0,
+        "remaining_typewise_deficit_lower_bound": 2,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          1,
+          1
+        ],
+        "type_id": "rho-01"
+      },
+      {
+        "complete_full_field_multiplicity_known": false,
+        "displayed_mixed_domain_multiplicity": 0,
+        "injected_full_field_multiplicity_lower_bound": 4,
+        "known_displayed_repair_capacity": 0,
+        "real_irreducible_dimension": 2835,
+        "real_type": "real_tensor_type",
+        "redundant_xi_target_multiplicity": 0,
+        "remaining_typewise_deficit_lower_bound": 4,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          1,
+          1
+        ],
+        "type_id": "rho-02"
+      },
+      {
+        "complete_full_field_multiplicity_known": false,
+        "displayed_mixed_domain_multiplicity": 0,
+        "injected_full_field_multiplicity_lower_bound": 2,
+        "known_displayed_repair_capacity": 0,
+        "real_irreducible_dimension": 3150,
+        "real_type": "complex_conjugate_pair",
+        "redundant_xi_target_multiplicity": 0,
+        "remaining_typewise_deficit_lower_bound": 2,
+        "so6_highest_weights": [
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          1
+        ],
+        "type_id": "rho-03"
+      },
+      {
+        "complete_full_field_multiplicity_known": false,
+        "displayed_mixed_domain_multiplicity": 0,
+        "injected_full_field_multiplicity_lower_bound": 4,
+        "known_displayed_repair_capacity": 0,
+        "real_irreducible_dimension": 2240,
+        "real_type": "real_tensor_type",
+        "redundant_xi_target_multiplicity": 0,
+        "remaining_typewise_deficit_lower_bound": 4,
+        "so6_highest_weights": [
+          [
+            2,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          1
+        ],
+        "type_id": "rho-04"
+      },
+      {
+        "complete_full_field_multiplicity_known": false,
+        "displayed_mixed_domain_multiplicity": 0,
+        "injected_full_field_multiplicity_lower_bound": 2,
+        "known_displayed_repair_capacity": 0,
+        "real_irreducible_dimension": 2100,
+        "real_type": "complex_conjugate_pair",
+        "redundant_xi_target_multiplicity": 0,
+        "remaining_typewise_deficit_lower_bound": 2,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          1,
+          0
+        ],
+        "type_id": "rho-05"
+      },
+      {
+        "complete_full_field_multiplicity_known": false,
+        "displayed_mixed_domain_multiplicity": 0,
+        "injected_full_field_multiplicity_lower_bound": 4,
+        "known_displayed_repair_capacity": 0,
+        "real_irreducible_dimension": 1575,
+        "real_type": "real_tensor_type",
+        "redundant_xi_target_multiplicity": 0,
+        "remaining_typewise_deficit_lower_bound": 4,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          1,
+          0
+        ],
+        "type_id": "rho-06"
+      },
+      {
+        "complete_full_field_multiplicity_known": false,
+        "displayed_mixed_domain_multiplicity": 0,
+        "injected_full_field_multiplicity_lower_bound": 4,
+        "known_displayed_repair_capacity": 0,
+        "real_irreducible_dimension": 1134,
+        "real_type": "real_tensor_type",
+        "redundant_xi_target_multiplicity": 0,
+        "remaining_typewise_deficit_lower_bound": 4,
+        "so6_highest_weights": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          1,
+          1
+        ],
+        "type_id": "rho-07"
+      },
+      {
+        "complete_full_field_multiplicity_known": false,
+        "displayed_mixed_domain_multiplicity": 0,
+        "injected_full_field_multiplicity_lower_bound": 2,
+        "known_displayed_repair_capacity": 0,
+        "real_irreducible_dimension": 1890,
+        "real_type": "complex_conjugate_pair",
+        "redundant_xi_target_multiplicity": 0,
+        "remaining_typewise_deficit_lower_bound": 2,
+        "so6_highest_weights": [
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          0
+        ],
+        "type_id": "rho-08"
+      },
+      {
+        "complete_full_field_multiplicity_known": false,
+        "displayed_mixed_domain_multiplicity": 0,
+        "injected_full_field_multiplicity_lower_bound": 4,
+        "known_displayed_repair_capacity": 0,
+        "real_irreducible_dimension": 1344,
+        "real_type": "real_tensor_type",
+        "redundant_xi_target_multiplicity": 0,
+        "remaining_typewise_deficit_lower_bound": 4,
+        "so6_highest_weights": [
+          [
+            2,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          0
+        ],
+        "type_id": "rho-09"
+      },
+      {
+        "complete_full_field_multiplicity_known": false,
+        "displayed_mixed_domain_multiplicity": 0,
+        "injected_full_field_multiplicity_lower_bound": 4,
+        "known_displayed_repair_capacity": 0,
+        "real_irreducible_dimension": 700,
+        "real_type": "real_tensor_type",
+        "redundant_xi_target_multiplicity": 0,
+        "remaining_typewise_deficit_lower_bound": 4,
+        "so6_highest_weights": [
+          [
+            2,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          1
+        ],
+        "type_id": "rho-10"
+      },
+      {
+        "complete_full_field_multiplicity_known": false,
+        "displayed_mixed_domain_multiplicity": 0,
+        "injected_full_field_multiplicity_lower_bound": 4,
+        "known_displayed_repair_capacity": 0,
+        "real_irreducible_dimension": 630,
+        "real_type": "real_tensor_type",
+        "redundant_xi_target_multiplicity": 0,
+        "remaining_typewise_deficit_lower_bound": 4,
+        "so6_highest_weights": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          1,
+          0
+        ],
+        "type_id": "rho-11"
+      },
+      {
+        "complete_full_field_multiplicity_known": false,
+        "displayed_mixed_domain_multiplicity": 0,
+        "injected_full_field_multiplicity_lower_bound": 4,
+        "known_displayed_repair_capacity": 0,
+        "real_irreducible_dimension": 420,
+        "real_type": "real_tensor_type",
+        "redundant_xi_target_multiplicity": 0,
+        "remaining_typewise_deficit_lower_bound": 4,
+        "so6_highest_weights": [
+          [
+            2,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          0
+        ],
+        "type_id": "rho-12"
+      },
+      {
+        "complete_full_field_multiplicity_known": false,
+        "displayed_mixed_domain_multiplicity": 0,
+        "injected_full_field_multiplicity_lower_bound": 2,
+        "known_displayed_repair_capacity": 0,
+        "real_irreducible_dimension": 540,
+        "real_type": "complex_conjugate_pair",
+        "redundant_xi_target_multiplicity": 0,
+        "remaining_typewise_deficit_lower_bound": 2,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          0,
+          0
+        ],
+        "type_id": "rho-13"
+      },
+      {
+        "complete_full_field_multiplicity_known": false,
+        "displayed_mixed_domain_multiplicity": 0,
+        "injected_full_field_multiplicity_lower_bound": 4,
+        "known_displayed_repair_capacity": 0,
+        "real_irreducible_dimension": 700,
+        "real_type": "complex_conjugate_pair",
+        "redundant_xi_target_multiplicity": 0,
+        "remaining_typewise_deficit_lower_bound": 4,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          1
+        ],
+        "type_id": "rho-14"
+      },
+      {
+        "complete_full_field_multiplicity_known": false,
+        "displayed_mixed_domain_multiplicity": 0,
+        "injected_full_field_multiplicity_lower_bound": 4,
+        "known_displayed_repair_capacity": 0,
+        "real_irreducible_dimension": 405,
+        "real_type": "real_tensor_type",
+        "redundant_xi_target_multiplicity": 0,
+        "remaining_typewise_deficit_lower_bound": 4,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          0,
+          0
+        ],
+        "type_id": "rho-15"
+      },
+      {
+        "complete_full_field_multiplicity_known": false,
+        "displayed_mixed_domain_multiplicity": 0,
+        "injected_full_field_multiplicity_lower_bound": 8,
+        "known_displayed_repair_capacity": 0,
+        "real_irreducible_dimension": 525,
+        "real_type": "real_tensor_type",
+        "redundant_xi_target_multiplicity": 0,
+        "remaining_typewise_deficit_lower_bound": 8,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          1
+        ],
+        "type_id": "rho-16"
+      },
+      {
+        "complete_full_field_multiplicity_known": false,
+        "displayed_mixed_domain_multiplicity": 0,
+        "injected_full_field_multiplicity_lower_bound": 4,
+        "known_displayed_repair_capacity": 0,
+        "real_irreducible_dimension": 189,
+        "real_type": "real_tensor_type",
+        "redundant_xi_target_multiplicity": 0,
+        "remaining_typewise_deficit_lower_bound": 4,
+        "so6_highest_weights": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          1,
+          1
+        ],
+        "type_id": "rho-17"
+      },
+      {
+        "complete_full_field_multiplicity_known": false,
+        "displayed_mixed_domain_multiplicity": 0,
+        "injected_full_field_multiplicity_lower_bound": 2,
+        "known_displayed_repair_capacity": 0,
+        "real_irreducible_dimension": 630,
+        "real_type": "complex_conjugate_pair",
+        "redundant_xi_target_multiplicity": 0,
+        "remaining_typewise_deficit_lower_bound": 2,
+        "so6_highest_weights": [
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          0,
+          0
+        ],
+        "type_id": "rho-18"
+      },
+      {
+        "complete_full_field_multiplicity_known": false,
+        "displayed_mixed_domain_multiplicity": 0,
+        "injected_full_field_multiplicity_lower_bound": 4,
+        "known_displayed_repair_capacity": 0,
+        "real_irreducible_dimension": 448,
+        "real_type": "real_tensor_type",
+        "redundant_xi_target_multiplicity": 0,
+        "remaining_typewise_deficit_lower_bound": 4,
+        "so6_highest_weights": [
+          [
+            2,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          0,
+          0
+        ],
+        "type_id": "rho-19"
+      },
+      {
+        "complete_full_field_multiplicity_known": false,
+        "displayed_mixed_domain_multiplicity": 0,
+        "injected_full_field_multiplicity_lower_bound": 4,
+        "known_displayed_repair_capacity": 0,
+        "real_irreducible_dimension": 420,
+        "real_type": "complex_conjugate_pair",
+        "redundant_xi_target_multiplicity": 0,
+        "remaining_typewise_deficit_lower_bound": 4,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          0
+        ],
+        "type_id": "rho-20"
+      },
+      {
+        "complete_full_field_multiplicity_known": false,
+        "displayed_mixed_domain_multiplicity": 0,
+        "injected_full_field_multiplicity_lower_bound": 8,
+        "known_displayed_repair_capacity": 0,
+        "real_irreducible_dimension": 315,
+        "real_type": "real_tensor_type",
+        "redundant_xi_target_multiplicity": 0,
+        "remaining_typewise_deficit_lower_bound": 8,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          0
+        ],
+        "type_id": "rho-21"
+      },
+      {
+        "complete_full_field_multiplicity_known": false,
+        "displayed_mixed_domain_multiplicity": 0,
+        "injected_full_field_multiplicity_lower_bound": 4,
+        "known_displayed_repair_capacity": 0,
+        "real_irreducible_dimension": 162,
+        "real_type": "real_tensor_type",
+        "redundant_xi_target_multiplicity": 0,
+        "remaining_typewise_deficit_lower_bound": 4,
+        "so6_highest_weights": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          0,
+          0
+        ],
+        "type_id": "rho-22"
+      },
+      {
+        "complete_full_field_multiplicity_known": false,
+        "displayed_mixed_domain_multiplicity": 0,
+        "injected_full_field_multiplicity_lower_bound": 8,
+        "known_displayed_repair_capacity": 0,
+        "real_irreducible_dimension": 210,
+        "real_type": "real_tensor_type",
+        "redundant_xi_target_multiplicity": 0,
+        "remaining_typewise_deficit_lower_bound": 8,
+        "so6_highest_weights": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          1
+        ],
+        "type_id": "rho-23"
+      },
+      {
+        "complete_full_field_multiplicity_known": false,
+        "displayed_mixed_domain_multiplicity": 0,
+        "injected_full_field_multiplicity_lower_bound": 4,
+        "known_displayed_repair_capacity": 0,
+        "real_irreducible_dimension": 105,
+        "real_type": "real_tensor_type",
+        "redundant_xi_target_multiplicity": 0,
+        "remaining_typewise_deficit_lower_bound": 4,
+        "so6_highest_weights": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          1,
+          0
+        ],
+        "type_id": "rho-24"
+      },
+      {
+        "complete_full_field_multiplicity_known": false,
+        "displayed_mixed_domain_multiplicity": 0,
+        "injected_full_field_multiplicity_lower_bound": 4,
+        "known_displayed_repair_capacity": 0,
+        "real_irreducible_dimension": 140,
+        "real_type": "real_tensor_type",
+        "redundant_xi_target_multiplicity": 0,
+        "remaining_typewise_deficit_lower_bound": 4,
+        "so6_highest_weights": [
+          [
+            2,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          0,
+          0
+        ],
+        "type_id": "rho-25"
+      },
+      {
+        "complete_full_field_multiplicity_known": false,
+        "displayed_mixed_domain_multiplicity": 0,
+        "injected_full_field_multiplicity_lower_bound": 8,
+        "known_displayed_repair_capacity": 0,
+        "real_irreducible_dimension": 126,
+        "real_type": "real_tensor_type",
+        "redundant_xi_target_multiplicity": 0,
+        "remaining_typewise_deficit_lower_bound": 8,
+        "so6_highest_weights": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          0
+        ],
+        "type_id": "rho-26"
+      },
+      {
+        "complete_full_field_multiplicity_known": false,
+        "displayed_mixed_domain_multiplicity": 0,
+        "injected_full_field_multiplicity_lower_bound": 4,
+        "known_displayed_repair_capacity": 0,
+        "real_irreducible_dimension": 140,
+        "real_type": "complex_conjugate_pair",
+        "redundant_xi_target_multiplicity": 0,
+        "remaining_typewise_deficit_lower_bound": 4,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          0,
+          0
+        ],
+        "type_id": "rho-27"
+      },
+      {
+        "complete_full_field_multiplicity_known": false,
+        "displayed_mixed_domain_multiplicity": 0,
+        "injected_full_field_multiplicity_lower_bound": 8,
+        "known_displayed_repair_capacity": 0,
+        "real_irreducible_dimension": 105,
+        "real_type": "real_tensor_type",
+        "redundant_xi_target_multiplicity": 0,
+        "remaining_typewise_deficit_lower_bound": 8,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          0,
+          0
+        ],
+        "type_id": "rho-28"
+      },
+      {
+        "complete_full_field_multiplicity_known": false,
+        "displayed_mixed_domain_multiplicity": 0,
+        "injected_full_field_multiplicity_lower_bound": 4,
+        "known_displayed_repair_capacity": 0,
+        "real_irreducible_dimension": 27,
+        "real_type": "real_tensor_type",
+        "redundant_xi_target_multiplicity": 0,
+        "remaining_typewise_deficit_lower_bound": 4,
+        "so6_highest_weights": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          0,
+          0
+        ],
+        "type_id": "rho-29"
+      },
+      {
+        "complete_full_field_multiplicity_known": false,
+        "displayed_mixed_domain_multiplicity": 0,
+        "injected_full_field_multiplicity_lower_bound": 4,
+        "known_displayed_repair_capacity": 0,
+        "real_irreducible_dimension": 35,
+        "real_type": "real_tensor_type",
+        "redundant_xi_target_multiplicity": 0,
+        "remaining_typewise_deficit_lower_bound": 4,
+        "so6_highest_weights": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          1
+        ],
+        "type_id": "rho-30"
+      },
+      {
+        "complete_full_field_multiplicity_known": false,
+        "displayed_mixed_domain_multiplicity": 0,
+        "injected_full_field_multiplicity_lower_bound": 2,
+        "known_displayed_repair_capacity": 0,
+        "real_irreducible_dimension": 90,
+        "real_type": "complex_conjugate_pair",
+        "redundant_xi_target_multiplicity": 0,
+        "remaining_typewise_deficit_lower_bound": 2,
+        "so6_highest_weights": [
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          0,
+          0,
+          0
+        ],
+        "type_id": "rho-31"
+      },
+      {
+        "complete_full_field_multiplicity_known": false,
+        "displayed_mixed_domain_multiplicity": 0,
+        "injected_full_field_multiplicity_lower_bound": 4,
+        "known_displayed_repair_capacity": 0,
+        "real_irreducible_dimension": 64,
+        "real_type": "real_tensor_type",
+        "redundant_xi_target_multiplicity": 0,
+        "remaining_typewise_deficit_lower_bound": 4,
+        "so6_highest_weights": [
+          [
+            2,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          0,
+          0,
+          0
+        ],
+        "type_id": "rho-32"
+      },
+      {
+        "complete_full_field_multiplicity_known": false,
+        "displayed_mixed_domain_multiplicity": 0,
+        "injected_full_field_multiplicity_lower_bound": 8,
+        "known_displayed_repair_capacity": 0,
+        "real_irreducible_dimension": 42,
+        "real_type": "real_tensor_type",
+        "redundant_xi_target_multiplicity": 0,
+        "remaining_typewise_deficit_lower_bound": 8,
+        "so6_highest_weights": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          0,
+          0
+        ],
+        "type_id": "rho-33"
+      },
+      {
+        "complete_full_field_multiplicity_known": false,
+        "displayed_mixed_domain_multiplicity": 0,
+        "injected_full_field_multiplicity_lower_bound": 4,
+        "known_displayed_repair_capacity": 0,
+        "real_irreducible_dimension": 21,
+        "real_type": "real_tensor_type",
+        "redundant_xi_target_multiplicity": 0,
+        "remaining_typewise_deficit_lower_bound": 4,
+        "so6_highest_weights": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          0
+        ],
+        "type_id": "rho-34"
+      },
+      {
+        "complete_full_field_multiplicity_known": false,
+        "displayed_mixed_domain_multiplicity": 0,
+        "injected_full_field_multiplicity_lower_bound": 4,
+        "known_displayed_repair_capacity": 0,
+        "real_irreducible_dimension": 20,
+        "real_type": "real_tensor_type",
+        "redundant_xi_target_multiplicity": 0,
+        "remaining_typewise_deficit_lower_bound": 4,
+        "so6_highest_weights": [
+          [
+            2,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          0,
+          0,
+          0
+        ],
+        "type_id": "rho-35"
+      },
+      {
+        "complete_full_field_multiplicity_known": false,
+        "displayed_mixed_domain_multiplicity": 0,
+        "injected_full_field_multiplicity_lower_bound": 2,
+        "known_displayed_repair_capacity": 0,
+        "real_irreducible_dimension": 20,
+        "real_type": "complex_conjugate_pair",
+        "redundant_xi_target_multiplicity": 0,
+        "remaining_typewise_deficit_lower_bound": 2,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          0,
+          0,
+          0
+        ],
+        "type_id": "rho-36"
+      },
+      {
+        "complete_full_field_multiplicity_known": false,
+        "displayed_mixed_domain_multiplicity": 0,
+        "injected_full_field_multiplicity_lower_bound": 4,
+        "known_displayed_repair_capacity": 0,
+        "real_irreducible_dimension": 15,
+        "real_type": "real_tensor_type",
+        "redundant_xi_target_multiplicity": 0,
+        "remaining_typewise_deficit_lower_bound": 4,
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          0,
+          0,
+          0
+        ],
+        "type_id": "rho-37"
+      },
+      {
+        "complete_full_field_multiplicity_known": false,
+        "displayed_mixed_domain_multiplicity": 0,
+        "injected_full_field_multiplicity_lower_bound": 5,
+        "known_displayed_repair_capacity": 0,
+        "real_irreducible_dimension": 7,
+        "real_type": "real_tensor_type",
+        "redundant_xi_target_multiplicity": 0,
+        "remaining_typewise_deficit_lower_bound": 5,
+        "so6_highest_weights": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          0,
+          0
+        ],
+        "type_id": "rho-38"
+      },
+      {
+        "complete_full_field_multiplicity_known": false,
+        "displayed_mixed_domain_multiplicity": 0,
+        "injected_full_field_multiplicity_lower_bound": 5,
+        "known_displayed_repair_capacity": 0,
+        "real_irreducible_dimension": 6,
+        "real_type": "real_tensor_type",
+        "redundant_xi_target_multiplicity": 0,
+        "remaining_typewise_deficit_lower_bound": 5,
+        "so6_highest_weights": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          0,
+          0,
+          0
+        ],
+        "type_id": "rho-39"
+      },
+      {
+        "complete_full_field_multiplicity_known": false,
+        "displayed_mixed_domain_multiplicity": 0,
+        "injected_full_field_multiplicity_lower_bound": 3,
+        "known_displayed_repair_capacity": 0,
+        "real_irreducible_dimension": 1,
+        "real_type": "real_tensor_type",
+        "redundant_xi_target_multiplicity": 0,
+        "remaining_typewise_deficit_lower_bound": 3,
+        "so6_highest_weights": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          0,
+          0,
+          0
+        ],
+        "type_id": "rho-40"
+      }
+    ]
+  }
+}

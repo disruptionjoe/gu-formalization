@@ -575,6 +575,18 @@ def load_inputs() -> dict:
         "k878": json.loads(
             (ROOT / "lab/process/k878-sc-act-06-zero-fermion-repair-disposition.json").read_text()
         ),
+        "k879": json.loads(
+            (ROOT / "lab/process/k879-sc-act-06-full-field-quotient-injection.json").read_text()
+        ),
+        "k880": json.loads(
+            (ROOT / "lab/process/k880-sc-act-06-redundant-target-quotient.json").read_text()
+        ),
+        "k881": json.loads(
+            (ROOT / "lab/process/k881-sc-act-06-full-field-typewise-lower-bound.json").read_text()
+        ),
+        "k882": json.loads(
+            (ROOT / "lab/process/k882-sc-act-06-full-field-obstruction-disposition.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -767,13 +779,13 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     check(registry["latest_gu_formalization_result"] ==
-          "K875_K878_SC_ACT_06_ZERO_FERMION_MIXED_REPAIR_DISPOSITION_CURRENT",
+          "K879_K882_SC_ACT_06_FULL_FIELD_OBSTRUCTION_DISPOSITION_CURRENT",
           "latest GU result pointer moved")
     if isinstance(live, str):
-        check("K875--K878 prove that the source-displayed mixed Bose--Fermi route" in live and
-              "complete nonmixed bosonic full-field symbol" in live and
+        check("K879--K882 inject K873's complete 90128-dimensional tangential quotient" in live and
+              "genuinely independent source/action-owned" in live and
               "nonzero-fermion stationary germ" in live,
-              "live K875--K878 zero-fermion mixed-repair disposition missing")
+              "live K879--K882 full-field obstruction disposition missing")
         check("K859--K862 prove that the current 90124 value is only the lower endpoint" in live and
               "natural repair maps are determined by `SO(13)`-intertwiners" in live and
               "rank-91 product bundle" in live,
@@ -1079,6 +1091,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K879--K882 prove that K873's owned 90,128-dimensional tangential" in summary and
+          "all 40 K872 real types" in summary and
+          "five of eleven" in summary,
+          "current K879--K882 full-field obstruction result lost")
     check("K867--K870 correct the group-action premise" in summary and
           "SO(6)xSO(7)" in summary and
           "old four-of-eleven `SO(13)` disposition does not" in summary,
@@ -1265,6 +1281,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
 
     question = current.get("current_question", "")
     check(
+        "K879--K882 prove that K873's owned 90128-dimensional tangential quotient" in data["agenda"].get("latest_result_2026_10_03_k879_k882", "")
+        and "All 40 real types survive as lower bounds" in data["agenda"].get("latest_result_2026_10_03_k879_k882", "")
+        and "SC-ACT-06 remains ASSERTS" in data["agenda"].get("latest_result_2026_10_03_k879_k882", ""),
+        "agenda K879--K882 result is not current",
+    )
+    check(
         "K875--K878 close only the source-displayed mixed Bose-Fermi repair route" in data["agenda"].get("latest_result_2026_10_03_k875_k878", "")
         and "all 40 positive old quotient types fail" in data["agenda"].get("latest_result_2026_10_03_k875_k878", "")
         and "SC-ACT-06 remains ASSERTS" in data["agenda"].get("latest_result_2026_10_03_k875_k878", ""),
@@ -1277,10 +1299,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         "agenda K871--K874 result is not current",
     )
     check(
-        "K875--K878 refute the source-displayed Bose--Fermi mixed stabilization" in question
-        and "all 40 types fail with `a_rho=b_rho=0`" in question
-        and "complete nonmixed" in question,
-        "current question lost K875--K878 mixed-repair boundary",
+        "K879--K882 strengthen the K717 boundary" in question
+        and "All 40 K872 types survive" in question
+        and "genuinely independent source/action-owned" in question,
+        "current question lost K879--K882 full-field obstruction boundary",
     )
     check(
         "K859--K862 separate ordinary high-rank bundle triviality" in data["agenda"].get("latest_result_2026_10_02_k859_k862", "")
@@ -4033,6 +4055,45 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k878["decision"]["current_flat_packet_repairability_refuted"] and
           not k878["decision"]["SC_ACT_06_proved_or_refuted"],
           "K878 zero-fermion repair disposition moved")
+
+    k879 = data["k879"]
+    check(k879["injection_theorem"]["induced_map_on_quotients_is_injective"] and
+          k879["injection_theorem"]["metric_diffeomorphism_rank_at_nonzero_covector"] == 4 and
+          k879["injection_theorem"]["metric_diffeomorphism_injectivity_proof"]["conclusion_over_reals"] == "ell(v)=0 and v=0" and
+          k879["injection_theorem"]["fermionic_gauge_tangent_dimension_at_zero_background"] == 0 and
+          k879["injection_theorem"]["radial_tangential_intersection_dimension"] == 0 and
+          k879["exact_consequence"]["injected_tangential_quotient_dimension"] == 90128 and
+          k879["exact_consequence"]["full_field_middle_cohomology_dimension_at_least"] == 90128 and
+          not k879["decision"]["complete_full_field_cohomology_equals_the_injected_submodule"],
+          "K879 full-field quotient injection moved")
+
+    k880 = data["k880"]
+    check(k880["target_quotient_theorem"]["linearized_xi_factors_through_direct_response"] and
+          k880["target_quotient_theorem"]["induced_xi_map_on_old_quotient_is_zero"] and
+          k880["target_quotient_theorem"]["independent_target_quotient_unchanged"] and
+          k880["typewise_target_capacity"]["row_count"] == 40 and
+          k880["typewise_target_capacity"]["all_xi_b_rho_zero"] and
+          not k880["decision"]["complete_independent_target_carrier_computed"],
+          "K880 redundant target quotient moved")
+
+    k881 = data["k881"]
+    check(k881["equivariant_transfer"]["injection_is_equivariant"] and
+          k881["equivariant_transfer"]["real_irreducible_type_count"] == 40 and
+          k881["equivariant_transfer"]["injected_dimension_check"] == 90128 and
+          k881["equivariant_transfer"]["sum_of_multiplicity_lower_bounds"] == 169 and
+          k881["typewise_lower_bounds"]["failed_known_route_row_count"] == 40 and
+          not k881["decision"]["SC_ACT_06_proved_or_refuted"],
+          "K881 full-field typewise lower bounds moved")
+
+    k882 = data["k882"]
+    check(k882["obstruction_certificate"]["injected_dimension"] == 90128 and
+          k882["obstruction_certificate"]["known_displayed_route_failed_type_count"] == 40 and
+          k882["obstruction_certificate"]["all_known_displayed_repairs_fail_on_submodule"] and
+          k882["corrected_completion_gate"]["satisfied_row_count"] == 5 and
+          k882["corrected_completion_gate"]["unchanged_by_submodule_theorem"] and
+          k882["decision"]["exact_full_field_obstruction_submodule_proved"] and
+          not k882["decision"]["global_SC_ACT_06_proved_or_refuted"],
+          "K882 full-field obstruction disposition moved")
 
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]

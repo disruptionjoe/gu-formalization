@@ -1,0 +1,84 @@
+{
+  "claim_ceiling": "Exact equivariant injection of a 90128-dimensional tangential quotient into K717's zero-fermion full-field cohomology. No equality with complete cohomology, global ellipticity, rich moduli or physical conclusion follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 50,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k879_sc_act_06_full_field_quotient_injection_probe.py",
+    "producer": "tests/channel-swings/k879_sc_act_06_full_field_quotient_injection.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "complete_full_field_cohomology_equals_the_injected_submodule": false,
+    "metric_diffeomorphisms_reduce_the_pure_tangential_quotient": false,
+    "next_exact_input": "Transfer K872's 40 real SO(6)xSO(7) types through this injection, remove the redundant Xi target row exactly, then compare only genuinely independent source/action-owned repair modules.",
+    "owned_tangential_quotient_survives_in_full_field_cohomology": true
+  },
+  "direction": "observed_to_native",
+  "exact_consequence": {
+    "complete_full_field_cohomology_dimension_computed": false,
+    "connection_kernel_dimension": 106512,
+    "exact_improvement_over_overgrant": 4,
+    "full_field_middle_cohomology_dimension_at_least": 90128,
+    "injected_tangential_quotient_dimension": 90128,
+    "owned_radial_gauge_dimension": 16384,
+    "previous_overgrant_lower_bound": 90124,
+    "uniform_on_positive_negative_and_null_real_covectors": true
+  },
+  "gu_typed_objects": {
+    "action_owner": "source first-order Upsilon packet with K873-owned internal gauge and K745-owned metric diffeomorphism",
+    "carrier": "pure tangential connection kernel inside the K717 metric/epsilon/connection/fermion field tangent",
+    "grading": "owned internal gauge plus metric diffeomorphism -> full fields -> Upsilon plus redundant Xi rows",
+    "pairing": "none required for the kernel/image injection",
+    "real_structure": "K872 real SO(6)xSO(7) tangential quotient",
+    "target": "MAP-TYPE=equivariant injection into full-field middle cohomology"
+  },
+  "injection_theorem": {
+    "common_stabilizer_equivariant": true,
+    "fermionic_gauge_tangent_dimension_at_zero_background": 0,
+    "induced_map_on_quotients_is_injective": true,
+    "internal_gauge_image_is_radial": true,
+    "metric_diffeomorphism_connection_component_at_flat_T0": 0,
+    "metric_diffeomorphism_injectivity_proof": {
+      "choose_linear_functional": "ell(q)=1 for nonzero q",
+      "conclusion_over_reals": "ell(v)=0 and v=0",
+      "contract_one_leg": "v+ell(v)q=0",
+      "map": "v -> q tensor v + v tensor q",
+      "sample_rank_controls": [
+        4
+      ],
+      "substitute_back": "-2 ell(v) q tensor q=0"
+    },
+    "metric_diffeomorphism_rank_at_nonzero_covector": 4,
+    "metric_diffeomorphism_symbol_is_injective": true,
+    "pure_connection_kernel_embeds_in_full_kernel": true,
+    "pure_tangential_class_in_total_gauge_image_forces_zero_metric_parameter": true,
+    "radial_tangential_intersection_dimension": 0,
+    "then_internal_parameter_must_have_zero_radial_image": true
+  },
+  "ledger_no_change_reason": "The theorem identifies a local full-field cohomology submodule but constructs no physical state, observable, domain, prediction or confirmation.",
+  "pinned_inputs": {
+    "k745": {
+      "path": "lab/process/k745-sc-act-06-gauge-redundancy-obstruction.json",
+      "sha256": "460a3c0981d9cb8fef8e54e4ef1fd5217e4ed922b5bbfdf92416fcc4f8134994"
+    },
+    "k793": {
+      "path": "lab/process/k793-sc-act-06-full-field-kernel-persistence.json",
+      "sha256": "b3f88b05b50514e55fba134ee870e47e84c1d784c871a5c37bac36d726a03b60"
+    },
+    "k873": {
+      "path": "lab/process/k873-sc-act-06-owned-symmetry-custody.json",
+      "sha256": "cc148cac1cce342c3e43d4e7681766630c8455e7ba687f87ece02978ec09c66c"
+    },
+    "k876": {
+      "path": "lab/process/k876-sc-act-06-zero-fermion-gauge-block-custody.json",
+      "sha256": "ae0a0224d1f965b9588397f130b6efdac8d6af72c4301d7ebd09ebaa2c783d59"
+    }
+  },
+  "result_id": "K879-SC-ACT-06-FULL-FIELD-QUOTIENT-INJECTION",
+  "schema_version": "1.0",
+  "scope": "Injection of K873's owned tangential connection quotient into the zero-fermion full-field middle cohomology on K717, without computing the complementary full-field cohomology.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

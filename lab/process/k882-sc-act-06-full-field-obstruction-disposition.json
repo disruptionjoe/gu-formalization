@@ -1,0 +1,99 @@
+{
+  "claim_ceiling": "Exact 90128-dimensional, 40-type obstruction submodule for the displayed K717 zero-fermion full-field packet. No complete flat-packet no-go, nonzero-fermion no-go, global ellipticity, rich moduli or physical conclusion follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 44,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k882_sc_act_06_full_field_obstruction_disposition_probe.py",
+    "producer": "tests/channel-swings/k882_sc_act_06_full_field_obstruction_disposition.py"
+  },
+  "corrected_completion_gate": {
+    "current_GU_candidate": {
+      "authenticated common compact stabilizer SO(6)xSO(7)": true,
+      "authenticated source/action-owned principal old symmetry image": true,
+      "auxiliary SO(13) equivariance of the pinned response kernel": false,
+      "constructed corrected-group intertwiners S_0,tau_0": false,
+      "descent, composition and image-kernel equality": false,
+      "exact radial/tangential vector-space kernel split": true,
+      "globalized natural maps and analytic robustness": false,
+      "owned principal q-lambda quotient dimension 90128": true,
+      "real SO(6)xSO(7) tangential-quotient multiplicities": true,
+      "source/action-owned repair-domain and repair-target multiplicities": false,
+      "typewise repair capacity on the corrected group": false
+    },
+    "current_GU_candidate_admitted": false,
+    "failed_row_count": 6,
+    "row_count": 11,
+    "satisfied_row_count": 5,
+    "unchanged_by_submodule_theorem": true
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "complete_full_field_cohomology_computed": false,
+    "current_flat_packet_repairability_refuted": false,
+    "current_flat_packet_repaired": false,
+    "exact_full_field_obstruction_submodule_proved": true,
+    "global_SC_ACT_06_proved_or_refuted": false,
+    "next_exact_input": "Construct and SO(6)xSO(7)-decompose a genuinely independent source/action-owned bosonic symmetry or response module that covers all 40 injected lower bounds; then construct intertwiners, prove composition and image-kernel equality, and globalize analytically.",
+    "source_claim_status_changes": false
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "source-displayed zero-fermion first-order Upsilon packet only",
+    "carrier": "K879 injected tangential full-field cohomology submodule",
+    "grading": "owned gauge -> full fields -> independent targets",
+    "pairing": "not needed for obstruction injection",
+    "real_structure": "K881 exact real SO(6)xSO(7) typewise lower bounds",
+    "target": "CERTIFICATE-TYPE=full-field obstruction submodule disposition"
+  },
+  "ledger_no_change_reason": "The exact obstruction submodule remains local and does not supply the complementary full-field complex or a physical bridge.",
+  "obstruction_certificate": {
+    "all_known_displayed_repairs_fail_on_submodule": true,
+    "failed_or_open_row_count": 2,
+    "injected_dimension": 90128,
+    "known_displayed_route_failed_type_count": 40,
+    "real_irreducible_type_count": 40,
+    "rows": {
+      "all 40 tangential types survive as full-field lower bounds": true,
+      "complete full-field cohomology character known": false,
+      "genuinely independent repair modules known": false,
+      "metric diffeomorphism does not quotient pure tangential classes": true,
+      "owned tangential quotient injects into full-field cohomology": true,
+      "redundant Xi target induces zero on old quotient": true
+    },
+    "satisfied_row_count": 4,
+    "sum_of_multiplicity_lower_bounds": 169
+  },
+  "pinned_inputs": {
+    "k878": {
+      "path": "lab/process/k878-sc-act-06-zero-fermion-repair-disposition.json",
+      "sha256": "d61c2e717e3c55296078e4533ea657b6e0122265a8ce78a144a870612efa8189"
+    },
+    "k879": {
+      "path": "lab/process/k879-sc-act-06-full-field-quotient-injection.json",
+      "sha256": "bd70c9cdc5d11b65fd60c922edffdee607d63938c90fcfbc90ffa59670b746bf"
+    },
+    "k880": {
+      "path": "lab/process/k880-sc-act-06-redundant-target-quotient.json",
+      "sha256": "52b322461ac2595f474e477872f208a713dfd932883433f49cbb5c81c110f4c9"
+    },
+    "k881": {
+      "path": "lab/process/k881-sc-act-06-full-field-typewise-lower-bound.json",
+      "sha256": "e4f8e85fed14216bad0275d8834a921497c654328e27ecd154e1f637564f7f12"
+    }
+  },
+  "protected_effects": {
+    "canon": "UNCHANGED",
+    "paper_and_public_posture": "UNCHANGED",
+    "physics_ledger": "UNCHANGED",
+    "prediction_confirmation_physical_verdict": "UNCHANGED",
+    "sc_act_06": "ASSERTS_UNCHANGED",
+    "source_register": "UNCHANGED"
+  },
+  "result_id": "K882-SC-ACT-06-FULL-FIELD-OBSTRUCTION-DISPOSITION",
+  "schema_version": "1.0",
+  "scope": "Disposition after proving an exact 90128-dimensional tangential obstruction submodule inside K717's zero-fermion full-field cohomology and removing the displayed mixed and redundant Xi routes.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

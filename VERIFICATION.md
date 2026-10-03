@@ -7,6 +7,46 @@ updated_at: "2026-10-03"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K879--K882 full-field tangential obstruction (2026-10-03)
+
+K879 places the owned K873 connection quotient inside K717's full bosonic
+field space. A pure tangential connection class cannot lie in the total gauge
+image: its metric component forces the diffeomorphism parameter to vanish by
+K745's rank-four nonzero-covector symbol, and the remaining internal-gauge
+image is radial, disjoint from the tangential kernel; K876's extra fermionic
+gauge tangent is zero at this background. Thus the complete
+90,128-dimensional quotient injects `SO(6)xSO(7)`-equivariantly into the
+zero-fermion full-field middle cohomology. This is an injection, not a
+calculation of the complementary full-field cohomology.
+
+K880 applies K792's factorization of the displayed `Xi` linearization through
+the old response row at `Upsilon=0`. Stacking `Xi` changes neither kernel nor
+rank, so its induced target map on the injected quotient is zero. K881
+transfers K872's exact 40 real types and their multiplicities into full-field
+cohomology as lower bounds, totaling multiplicity 169. The source-displayed
+mixed and `Xi` capacities are zero on every type.
+
+K882 records the exact obstruction submodule while preserving the scientific
+ceiling. The complementary full-field character, genuinely independent
+source/action-owned repair modules, their intertwiners, composition,
+image-kernel equality and globalization remain open. The corrected certificate
+therefore remains five of eleven. The four producers pass 181 controls and
+their probes reject 80/80 hostile mutations. SC-ACT-06 remains `ASSERTS`; no
+protected verdict moves.
+
+Run the producers and hostile probes:
+
+```bash
+python3 tests/channel-swings/k879_sc_act_06_full_field_quotient_injection.py --check
+python3 tests/channel-swings/k879_sc_act_06_full_field_quotient_injection_probe.py
+python3 tests/channel-swings/k880_sc_act_06_redundant_target_quotient.py --check
+python3 tests/channel-swings/k880_sc_act_06_redundant_target_quotient_probe.py
+python3 tests/channel-swings/k881_sc_act_06_full_field_typewise_lower_bound.py --check
+python3 tests/channel-swings/k881_sc_act_06_full_field_typewise_lower_bound_probe.py
+python3 tests/channel-swings/k882_sc_act_06_full_field_obstruction_disposition.py --check
+python3 tests/channel-swings/k882_sc_act_06_full_field_obstruction_disposition_probe.py
+```
+
 ## K875--K878 zero-fermion mixed-repair boundary (2026-10-03)
 
 K875 starts from the source-displayed bilinear fermion action
