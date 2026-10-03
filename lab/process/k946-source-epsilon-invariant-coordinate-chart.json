@@ -1,0 +1,65 @@
+{
+  "claim_ceiling": "Local regular-stratum invariant-coordinate theorem only; no global orbit classification, source-selected value, Green law or physical cohomology follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 24,
+    "hostile_mutations_rejected": 10,
+    "probe": "tests/channel-swings/k946_source_epsilon_invariant_coordinate_chart_probe.py",
+    "producer": "tests/channel-swings/k946_source_epsilon_invariant_coordinate_chart.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "current_action_selects_values": false,
+    "global_orbit_separation_claimed": false,
+    "next_exact_input": "Test the selection power of invariant boundary Hamiltonians and regular scalar boundary equations in this seven-coordinate chart.",
+    "off_shell_source_line_is_transverse": true,
+    "seven_values_locally_label_regular_orbits": true
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "source epsilon cotangent parent",
+    "carrier": "regular stratum of so(7,7)^*",
+    "grading": "finite preboundary charge",
+    "pairing": "trace-dual vector representation",
+    "real_structure": "split real so(7,7)",
+    "target": "COORDINATE-TYPE=regular coadjoint invariant chart"
+  },
+  "ledger_no_change_reason": "The invariant chart classifies finite regular charge freedom but supplies no action-owned selector or functional domain.",
+  "pinned_inputs": {
+    "k77": {
+      "path": "lab/process/selected-k77-coadjoint-invariant-variation-gate.json",
+      "sha256": "be1be824199f08b21c07c356a390fa5981a6009bc2be9dc6064382058409d876"
+    },
+    "k943": {
+      "path": "lab/process/k943-source-epsilon-orbit-reduction.json",
+      "sha256": "f9caa48599e05eb8098c9e35ca1a635e42a875599080f0ae4ec726c0da632d1a"
+    }
+  },
+  "result_id": "K946-SOURCE-EPSILON-INVARIANT-COORDINATE-CHART",
+  "schema_version": "1.0",
+  "scope": "Local regular-stratum invariant coordinates transverse to the authenticated nonzero source-epsilon coadjoint orbit.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__AC-F1_LT-SM8_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "common_tangent_kernel_dimension": 84,
+    "invariant_differential_rank": 7,
+    "invariant_map_is_local_transverse_submersion": true,
+    "lie_algebra_dimension": 91,
+    "local_invariant_parameter_dimension": 7,
+    "orbit_tangent_equals_common_invariant_kernel_locally": true,
+    "primitive_generator_count": 7,
+    "primitive_generators": [
+      "tr(L^2)",
+      "tr(L^4)",
+      "tr(L^6)",
+      "tr(L^8)",
+      "tr(L^10)",
+      "tr(L^12)",
+      "pfaffian(eta L)"
+    ],
+    "regular_orbit_dimension": 84,
+    "regular_rank": 7
+  }
+}

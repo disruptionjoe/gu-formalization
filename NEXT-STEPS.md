@@ -7,6 +7,21 @@ updated_at: "2026-10-03"
 
 # Next Steps For Contributors
 
+> **2026-10-03 K946--K950 SOURCE-EPSILON SEVEN-LOCK BOUNDARY.** K946 proves
+> the seven primitive regular coadjoint invariants are local transverse
+> coordinates to the 84-dimensional orbit. K947 separates conservation from
+> selection: an invariant collective boundary Hamiltonian preserves all seven
+> values but leaves their initial values arbitrary. K948 proves one regular
+> scalar boundary equation leaves six local invariant parameters; a singular
+> isolating scalar is a separate unowned properness problem. K949 gives the
+> minimal formal regular selector, a gauge-invariant seven-component lock
+> with rank-seven Jacobian and seven multipliers. The current source/action
+> owns neither the lock nor its values or functional realization. K950 closes
+> the regular one-scalar escape and exhausts this finite parent absent new
+> native locking data. Supply an action-owned rank-seven boundary/Green law
+> with functional domain, or retain charged symmetry and switch reverse edge.
+> SC-ACT-06 remains `ASSERTS`.
+
 > **2026-10-03 K941--K945 SOURCE-EPSILON COTANGENT GAUGE BOUNDARY.** K941
 > switches to the action-owned full parent `T*Spin_0(7,7)` and proves its
 > canonical left moment map is a rank-91 submersion on the 182-dimensional

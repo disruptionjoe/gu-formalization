@@ -1,0 +1,99 @@
+{
+  "certificate": {
+    "missing_row_count": 4,
+    "required_row_count": 4,
+    "row_count": 8,
+    "rows": [
+      {
+        "row": "seven_component_lock_map",
+        "state": "required"
+      },
+      {
+        "row": "full_rank_jacobian_at_selected_value",
+        "state": "required"
+      },
+      {
+        "row": "gauge_invariant_dependence_on_primitive_invariants",
+        "state": "required"
+      },
+      {
+        "row": "seven_target_values_or_equivalent_boundary_data",
+        "state": "required"
+      },
+      {
+        "row": "source_or_action_ownership",
+        "state": "missing"
+      },
+      {
+        "row": "functional_boundary_domain",
+        "state": "missing"
+      },
+      {
+        "row": "proper_bv_bfv_extension",
+        "state": "missing"
+      },
+      {
+        "row": "green_or_causal_realization",
+        "state": "missing"
+      }
+    ]
+  },
+  "claim_ceiling": "Minimal regular finite selection contract only; its auxiliary multipliers, values, functional domain and physical interpretation are unowned.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 24,
+    "hostile_mutations_rejected": 10,
+    "probe": "tests/channel-swings/k949_source_epsilon_seven_lock_boundary_contract_probe.py",
+    "producer": "tests/channel-swings/k949_source_epsilon_seven_lock_boundary_contract.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "current_action_selects_constants_or_couplings": false,
+    "finite_lock_implies_functional_green_domain": false,
+    "finite_lock_implies_physical_cohomology": false,
+    "minimal_regular_contract_constructed": true,
+    "next_exact_input": "Derive Phi, its seven values and multiplier/Green realization from the source action; otherwise retain charged symmetry and switch reverse edge.",
+    "physical_boundary_law_constructed": false
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "not supplied by current source/action",
+    "constraint": "Phi(I(J_L))=0 with Phi:R^7->R^7",
+    "multipliers": "seven auxiliary boundary multipliers",
+    "quotient": "J_L^{-1}(I^{-1}(c))/Spin_0(7,7) locally",
+    "target": "CONTRACT-TYPE=regular seven-invariant lock"
+  },
+  "ledger_no_change_reason": "The contract is a necessary finite interface, not an action-owned law or admitted functional realization.",
+  "pinned_inputs": {
+    "k945": {
+      "path": "lab/process/k945-source-epsilon-gauge-ownership-boundary.json",
+      "sha256": "a3d7e6e0a9a04b95c4d6840212cdf7aed5357d40071e2c334720f1537c79fc63"
+    },
+    "k946": {
+      "path": "lab/process/k946-source-epsilon-invariant-coordinate-chart.json",
+      "sha256": "2e003428733ae0ccd79806f36b5be7d04ae60f764a39c20a04273e4d1fcee13c"
+    },
+    "k948": {
+      "path": "lab/process/k948-source-epsilon-single-scalar-selection-obstruction.json",
+      "sha256": "50c61995b87039e514b85d68a26ffdec61c80baabbc124bc07301dd4a316c1b3"
+    }
+  },
+  "result_id": "K949-SOURCE-EPSILON-SEVEN-LOCK-BOUNDARY-CONTRACT",
+  "schema_version": "1.0",
+  "scope": "Smallest regular gauge-invariant finite boundary contract that locally selects one regular nonzero coadjoint orbit.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__AC-F1_LT-SM8_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "constraint_functions_are_gauge_invariant": true,
+    "formal_multiplier_action_is_source_owned": false,
+    "local_fixed_orbit_selection_follows_if_full_rank": true,
+    "lock_component_count": 7,
+    "quotient_by_full_group_is_separate_declared_step": true,
+    "required_jacobian_rank": 7,
+    "selected_charge_orbit_dimension": 84,
+    "selected_invariant_level_dimension": 0,
+    "seven_auxiliary_multipliers_can_enforce_contract_formally": true
+  }
+}

@@ -7,6 +7,44 @@ updated_at: "2026-10-03"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K946--K950 source-epsilon seven-lock boundary (2026-10-03)
+
+At the authenticated regular charge, the differentials of
+`tr(L^2), tr(L^4), tr(L^6), tr(L^8), tr(L^10), tr(L^12)` and
+`pfaffian(eta L)` have rank seven. Their common 84-dimensional kernel equals
+the local coadjoint-orbit tangent, so these invariants are local transverse
+coordinates. This is a local regular-stratum statement, not a global
+separation theorem for all real coadjoint orbits.
+
+For any collective invariant Hamiltonian `H_h=h(I(J_L))`, invariance places
+its generator in the charge stabilizer and makes every moment-map component
+Poisson-commute with `H_h`. The flow therefore preserves the supplied charge
+orbit but does not impose initial-value equations. A regular scalar equation
+`F(I)=0` has rank one; the implicit function theorem leaves a
+six-dimensional local invariant level. A singular scalar may isolate a point
+in principle, but then the regular-constraint/BFV argument does not transfer.
+
+A regular local selector can be written formally as
+`Phi(I(J_L))=0`, with `Phi:R^7->R^7` and `rank(DPhi)=7`, enforced by seven
+auxiliary multipliers. Because it depends only on invariants it is
+gauge-invariant; quotienting by the full group remains a separate declared
+step and locally leaves the 84-dimensional orbit. This contract is not the
+missing owner: the current source/action supplies neither `Phi`, its seven
+values, the multiplier coupling nor a functional Green/BV-BFV domain.
+
+```bash
+python3 tests/channel-swings/k946_source_epsilon_invariant_coordinate_chart.py --check
+python3 tests/channel-swings/k946_source_epsilon_invariant_coordinate_chart_probe.py
+python3 tests/channel-swings/k947_source_epsilon_invariant_hamiltonian_boundary.py --check
+python3 tests/channel-swings/k947_source_epsilon_invariant_hamiltonian_boundary_probe.py
+python3 tests/channel-swings/k948_source_epsilon_single_scalar_selection_obstruction.py --check
+python3 tests/channel-swings/k948_source_epsilon_single_scalar_selection_obstruction_probe.py
+python3 tests/channel-swings/k949_source_epsilon_seven_lock_boundary_contract.py --check
+python3 tests/channel-swings/k949_source_epsilon_seven_lock_boundary_contract_probe.py
+python3 tests/channel-swings/k950_source_epsilon_boundary_selection_disposition.py --check
+python3 tests/channel-swings/k950_source_epsilon_boundary_selection_disposition_probe.py
+```
+
 ## K941--K945 source-epsilon cotangent gauge boundary (2026-10-03)
 
 For the canonical left action on `T*G`, `G=Spin_0(7,7)`, left trivialization

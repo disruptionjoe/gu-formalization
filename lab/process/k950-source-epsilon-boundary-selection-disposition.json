@@ -1,0 +1,114 @@
+{
+  "certificate": {
+    "SC_ACT_06_status": "ASSERTS",
+    "closed_insufficient_row_count": 1,
+    "missing_row_count": 5,
+    "row_count": 11,
+    "rows": [
+      {
+        "row": "action_owned_cotangent_parent",
+        "state": "satisfied"
+      },
+      {
+        "row": "regular_nonzero_orbit_reduction",
+        "state": "satisfied"
+      },
+      {
+        "row": "seven_local_invariant_coordinates",
+        "state": "satisfied"
+      },
+      {
+        "row": "invariant_conservation",
+        "state": "satisfied"
+      },
+      {
+        "row": "regular_single_scalar_selector",
+        "state": "closed_insufficient"
+      },
+      {
+        "row": "minimal_regular_seven_lock_contract",
+        "state": "satisfied_formal"
+      },
+      {
+        "row": "source_owned_lock_map",
+        "state": "missing"
+      },
+      {
+        "row": "selected_constants_or_couplings",
+        "state": "missing"
+      },
+      {
+        "row": "functional_boundary_green_domain",
+        "state": "missing"
+      },
+      {
+        "row": "proper_functional_bv_bfv",
+        "state": "missing"
+      },
+      {
+        "row": "positive_observed_physical_cohomology",
+        "state": "missing"
+      }
+    ],
+    "satisfied_formal_row_count": 1,
+    "satisfied_row_count": 4
+  },
+  "claim_ceiling": "Exact finite regular selection boundary. No source-selected charge, global singular-selector no-go, functional BV-BFV, causal/Fredholm domain, positivity or physical cohomology follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 24,
+    "hostile_mutations_rejected": 10,
+    "probe": "tests/channel-swings/k950_source_epsilon_boundary_selection_disposition_probe.py",
+    "producer": "tests/channel-swings/k950_source_epsilon_boundary_selection_disposition.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "charged_boundary_symmetry_remains_honest_horn": true,
+    "current_parent_exhausted_absent_new_native_locking_input": true,
+    "formal_seven_lock_is_source_owned": false,
+    "invariant_conservation_not_misread_as_selection": true,
+    "next_route": "SUPPLY_AN_ACTION_OWNED_RANK_SEVEN_BOUNDARY_OR_GREEN_LOCK_WITH_VALUES_AND_FUNCTIONAL_DOMAIN__OTHERWISE_RETAIN_CHARGED_BOUNDARY_SYMMETRY_AND_SWITCH_REVERSE_EDGE",
+    "single_regular_scalar_route_closed": true,
+    "singular_selector_globally_excluded": false,
+    "switch_to_another_reverse_edge_is_live": true,
+    "zero_reduction_not_promoted": true
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "charge_chart": "seven regular primitive invariants",
+    "current_horn": "charged boundary symmetry with unselected charge",
+    "parent": "T*Spin_0(7,7)",
+    "selected_quotient": "84-dimensional coadjoint orbit if a rank-seven lock is supplied",
+    "target": "DISPOSITION-TYPE=finite boundary selection versus charged symmetry"
+  },
+  "ledger_no_change_reason": "The wave proves the finite selection contract and its current absence without constructing an owned lock, functional domain or physical quotient.",
+  "pinned_inputs": {
+    "k945": {
+      "path": "lab/process/k945-source-epsilon-gauge-ownership-boundary.json",
+      "sha256": "a3d7e6e0a9a04b95c4d6840212cdf7aed5357d40071e2c334720f1537c79fc63"
+    },
+    "k946": {
+      "path": "lab/process/k946-source-epsilon-invariant-coordinate-chart.json",
+      "sha256": "2e003428733ae0ccd79806f36b5be7d04ae60f764a39c20a04273e4d1fcee13c"
+    },
+    "k947": {
+      "path": "lab/process/k947-source-epsilon-invariant-hamiltonian-boundary.json",
+      "sha256": "e39e8cd8b8fb90eefaf6e3b1c76a0c29d2628c64aa1fe6d9d075235daf307f33"
+    },
+    "k948": {
+      "path": "lab/process/k948-source-epsilon-single-scalar-selection-obstruction.json",
+      "sha256": "50c61995b87039e514b85d68a26ffdec61c80baabbc124bc07301dd4a316c1b3"
+    },
+    "k949": {
+      "path": "lab/process/k949-source-epsilon-seven-lock-boundary-contract.json",
+      "sha256": "84908ff7e6951bdd5ddb03f55799892f200a02766b96653311d4bcc0cc384ffc"
+    }
+  },
+  "result_id": "K950-SOURCE-EPSILON-BOUNDARY-SELECTION-DISPOSITION",
+  "schema_version": "1.0",
+  "scope": "Integrated disposition of finite invariant conservation, regular charge selection and current source/action ownership on the source-epsilon cotangent parent.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__AC-F1_LT-SM8_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

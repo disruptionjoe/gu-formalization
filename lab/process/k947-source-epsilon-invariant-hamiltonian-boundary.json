@@ -1,0 +1,55 @@
+{
+  "claim_ceiling": "Exact finite Hamiltonian conservation-versus-selection boundary; no source-owned boundary Euler law, functional Green domain or physical state selection follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 24,
+    "hostile_mutations_rejected": 10,
+    "probe": "tests/channel-swings/k947_source_epsilon_invariant_hamiltonian_boundary_probe.py",
+    "producer": "tests/channel-swings/k947_source_epsilon_invariant_hamiltonian_boundary.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "boundary_euler_multiplier_law_supplied": false,
+    "conservation_is_selection": false,
+    "current_source_action_owns_h": false,
+    "invariant_hamiltonian_selects_a_fixed_nonzero_orbit": false,
+    "next_exact_input": "Add an independently owned regular boundary Euler law for the invariant values; conservation by h alone cannot select them."
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "auxiliary h is not source-owned",
+    "carrier": "T*Spin_0(7,7) regular nonzero charge sector",
+    "grading": "finite preboundary Hamiltonian",
+    "pairing": "canonical cotangent symplectic form",
+    "real_structure": "split real group and coadjoint charge",
+    "target": "DYNAMICS-TYPE=collective invariant boundary Hamiltonian"
+  },
+  "ledger_no_change_reason": "Collective invariant evolution preserves whichever charge is supplied and therefore does not select a GU endpoint.",
+  "pinned_inputs": {
+    "k943": {
+      "path": "lab/process/k943-source-epsilon-orbit-reduction.json",
+      "sha256": "f9caa48599e05eb8098c9e35ca1a635e42a875599080f0ae4ec726c0da632d1a"
+    },
+    "k946": {
+      "path": "lab/process/k946-source-epsilon-invariant-coordinate-chart.json",
+      "sha256": "2e003428733ae0ccd79806f36b5be7d04ae60f764a39c20a04273e4d1fcee13c"
+    }
+  },
+  "result_id": "K947-SOURCE-EPSILON-INVARIANT-HAMILTONIAN-BOUNDARY",
+  "schema_version": "1.0",
+  "scope": "Collective boundary Hamiltonians h(I_1,...,I_7) pulled back through the canonical source-epsilon moment map.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__AC-F1_LT-SM8_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "all_seven_invariant_values_are_conserved": true,
+    "arbitrary_initial_regular_invariant_values_remain_allowed": true,
+    "collective_hamiltonian": "H_h=h(I_1(J_L),...,I_7(J_L))",
+    "flow_remains_in_initial_charge_orbit": true,
+    "hamiltonian_evolution_imposes_initial_value_equations": false,
+    "hamiltonian_generator_lies_in_charge_stabilizer": true,
+    "invariant_coordinate_count": 7,
+    "poisson_commutes_with_all_moment_map_components": true
+  }
+}

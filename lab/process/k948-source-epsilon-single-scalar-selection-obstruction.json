@@ -1,0 +1,56 @@
+{
+  "claim_ceiling": "Local regular-constraint obstruction only; it does not rule out singular selectors and supplies no source ownership or functional properness theorem.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 24,
+    "hostile_mutations_rejected": 10,
+    "probe": "tests/channel-swings/k948_source_epsilon_single_scalar_selection_obstruction_probe.py",
+    "producer": "tests/channel-swings/k948_source_epsilon_single_scalar_selection_obstruction.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "current_action_supplies_either_route": false,
+    "next_exact_input": "Construct a rank-seven invariant locking map, or separately prove a singular selector with its own proper BV-BFV and analytic domain.",
+    "seven_independent_regular_locking_equations_required": true,
+    "single_energy_or_boundary_value_is_sufficient": false,
+    "singular_one_function_escape_requires_separate_properness_analysis": true
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "candidate scalar law unowned",
+    "carrier": "seven-dimensional local invariant chart",
+    "grading": "finite preboundary constraint",
+    "pairing": "regular scalar differential dF",
+    "real_structure": "real invariant-value space",
+    "target": "OBSTRUCTION-TYPE=regular scalar charge selection"
+  },
+  "ledger_no_change_reason": "The obstruction scopes ordinary regular scalar laws and explicitly leaves singular selection as a separately unowned route.",
+  "pinned_inputs": {
+    "k946": {
+      "path": "lab/process/k946-source-epsilon-invariant-coordinate-chart.json",
+      "sha256": "2e003428733ae0ccd79806f36b5be7d04ae60f764a39c20a04273e4d1fcee13c"
+    },
+    "k947": {
+      "path": "lab/process/k947-source-epsilon-invariant-hamiltonian-boundary.json",
+      "sha256": "e39e8cd8b8fb90eefaf6e3b1c76a0c29d2628c64aa1fe6d9d075235daf307f33"
+    }
+  },
+  "result_id": "K948-SOURCE-EPSILON-SINGLE-SCALAR-SELECTION-OBSTRUCTION",
+  "schema_version": "1.0",
+  "scope": "Implicit-function-theorem classification of one regular scalar boundary equation F(I_1,...,I_7)=0 near the authenticated regular charge.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__AC-F1_LT-SM8_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "ambient_invariant_dimension": 7,
+    "one_regular_scalar_locks_all_seven_values": false,
+    "regular_BFV_transfer_to_singular_case_allowed": false,
+    "regular_scalar_constraint_rank": 1,
+    "regular_scalar_level_dimension": 6,
+    "regular_scalar_level_is_locally_isolated": false,
+    "singular_isolating_case_is_regular_constraint": false,
+    "singular_scalar_can_be_isolating_in_principle": true,
+    "six_local_invariant_directions_remain": true
+  }
+}

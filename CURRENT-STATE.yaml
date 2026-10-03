@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 9df36c9f8308
+revision_basis: 5c8360dc8438
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K946--K950 make the source-epsilon nonzero-charge selection problem
+    exact without importing a boundary law. K946 identifies the seven
+    primitive regular coadjoint invariants as local transverse coordinates:
+    their common differential kernel is the 84-dimensional orbit tangent.
+    K947 proves that a collective invariant boundary Hamiltonian preserves
+    all seven values but does not select their initial values. K948 proves
+    that one regular scalar boundary equation leaves a six-dimensional local
+    invariant family; a singular isolating scalar is not covered and would
+    need its own properness analysis. K949 constructs the minimal formal
+    regular interface: a gauge-invariant seven-component locking map with
+    rank-seven Jacobian, plus seven auxiliary multipliers, locally selects
+    one 84-dimensional orbit. The current source/action owns neither that
+    map, its values, nor a functional Green/BV-BFV realization. K950 therefore
+    closes the regular one-scalar escape, retains charged boundary symmetry,
+    and exhausts this finite parent absent new native locking input.
+    SC-ACT-06 remains `ASSERTS`; no protected conclusion moves.
+
     K941--K945 switch from the exhausted auxiliary projector to source
     epsilon's action-owned full cotangent preboundary parent
     `T*Spin_0(7,7)`. K941 proves its canonical left moment map is a rank-91
@@ -12969,6 +12986,27 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K946--K950 prove that the seven regular primitive coadjoint invariants are
+  local transverse coordinates to the source-epsilon 84-dimensional orbit.
+  A collective invariant Hamiltonian conserves them but selects no initial
+  values, while one regular scalar boundary equation leaves six local
+  invariant directions free. The minimal regular finite selector is a
+  gauge-invariant seven-component map with rank-seven Jacobian, seven values
+  and seven multipliers; current custody owns none of those new data and no
+  functional Green/BV-BFV domain. Can the source/action derive that lock (or
+  a separately proper singular selector) on a functional boundary domain?
+  Otherwise retain charged boundary symmetry and switch to another reverse
+  edge. SC-ACT-06 remains `ASSERTS`.
+
+  K941--K945 prove that the canonical moment map on the action-owned
+  `T*Spin_0(7,7)` parent is a rank-91 submersion. Zero reduction is a point
+  and its finite 91-ghost BFV model has only constant degree-zero observables;
+  a regular nonzero charge instead reduces to the 84-dimensional coadjoint
+  orbit and requires seven invariant values to be locked. Do not promote the
+  clean zero quotient or the finite Koszul model to physical edge theory.
+  The next admissible continuation is the missing invariant-locking law, not
+  another projector repair. SC-ACT-06 remains `ASSERTS`.
+
   K936--K940 prove that the auxiliary projector cannot acquire Fredholm status
   from any isolated zero-mode choice. Every orthogonal `Q0` is allowed, every
   pair of choices differs by finite rank, and zero and one remain essential
@@ -14317,6 +14355,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K946--K950 sharpen the nonzero-charge horn. The seven primitive invariants
+  form local transverse coordinates to the regular 84-dimensional orbit.
+  Any collective invariant Hamiltonian conserves those values but does not
+  select them, and one regular scalar boundary equation leaves six invariant
+  directions free. A regular local selector must instead provide a
+  gauge-invariant seven-component lock with rank-seven Jacobian and its seven
+  values (or a separately justified singular selector with a new properness
+  analysis). Current custody owns neither route, nor the functional boundary,
+  Green or BV-BFV completion. Admit this parent again only with that new
+  native input; otherwise retain charged boundary symmetry and switch the
+  reverse edge. SC-ACT-06 remains `ASSERTS`.
+
   K941--K945 establish the exact cotangent gauge boundary. The action-owned
   canonical moment map is regular, but zero reduction is a point and its
   finite BFV model has only constant degree-zero observables. A regular

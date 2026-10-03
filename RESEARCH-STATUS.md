@@ -8,6 +8,32 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-03 — K946--K950 source-epsilon seven-lock boundary
+
+K946 composes the exact K77 invariant derivative data with K943's regular
+orbit. The seven primitive invariants have differential rank seven; their
+common kernel is the 84-dimensional orbit tangent. They therefore provide a
+local transverse chart of regular charge values, without asserting a global
+orbit-classification theorem.
+
+K947 proves that a collective invariant boundary Hamiltonian
+`h(I_1(J_L),...,I_7(J_L))` Poisson-commutes with the moment-map components
+and conserves every invariant value. It imposes no equation on their initial
+values, so conservation is not selection. K948 applies the implicit function
+theorem: one regular scalar condition has rank one and leaves a
+six-dimensional local invariant level. A singular scalar can isolate a point
+in principle, but cannot inherit the regular BFV/properness result by fiat.
+
+K949 constructs the minimal formal regular interface: a seven-component
+gauge-invariant locking map with full-rank Jacobian, seven target values and
+seven auxiliary multipliers locally selects one 84-dimensional orbit before
+the separately declared group quotient. The source/action owns none of those
+new data and no functional domain follows. K950 closes the ordinary
+single-energy/scalar escape, retains the charged-boundary-symmetry horn and
+marks the finite cotangent parent exhausted absent new native locking input.
+Five producers pass their declared controls and five hostile probes reject
+50/50 mutations. SC-ACT-06 remains `ASSERTS`; no protected conclusion moves.
+
 ## 2026-10-03 — K941--K945 source-epsilon cotangent gauge boundary
 
 K941 leaves the exhausted projector route and opens source epsilon's
