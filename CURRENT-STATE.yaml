@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: efcda9aac851
+revision_basis: 531620583f07
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K956--K960 advance the two admitted quantum calibration anchors from a
+    static interface to an exact conditional local-dephasing dynamics. K956
+    constructs the one-parameter CPTP semigroup `Phi_lambda`, proves
+    `Phi_lambda o Phi_mu = Phi_{lambda mu}`, and proves that its local
+    nonselective action leaves the remote Bell marginal maximally mixed.
+    K957 derives `S(lambda)=sqrt(2)(1+lambda)` and the exact CHSH threshold
+    `lambda>sqrt(2)-1`. K958 derives two-path visibility `V(lambda)=lambda`.
+    K959 therefore obtains the carrier-neutral cross-anchor relation
+    `S/sqrt(2)-1=V`, with exponential Bell survival time
+    `t<log(1+sqrt(2))/(2 gamma)`. K960 freezes the resulting causal/dynamical
+    demand and its ownership boundary. Hilbert space, tensor composition,
+    Born pairing, preparations, detector meaning, clock, rate, and the common
+    law are imported; no GU action, physical quotient, state/effect pairing,
+    local net, held-out prediction, source claim, or ledger verdict moves.
+
     K951--K955 close the separately proper singular one-scalar escape at
     local formal/analytic grade. K951 exhibits the strongest real
     set-theoretic counterexample, the sum of seven squares: its real zero set
@@ -13005,6 +13020,16 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K956--K960 construct an exact conditional local-dephasing semigroup across
+  the two admitted quantum calibration anchors. The common coherence factor
+  obeys `V=lambda` and `S/sqrt(2)-1=lambda`, while local nonselective evolution
+  preserves the remote Bell marginal. This identifies the next native demand:
+  a GU-owned physical quotient carrying a positive state/effect interface and
+  an action-derived local generator, together with a distinct held-out
+  consequence frozen before scoring. The present construction imports every
+  quantum and dynamical primitive and therefore earns no GU prediction or
+  confirmation credit.
+
   K951--K955 close the singular one-scalar proper-selector escape on the
   authenticated seven-dimensional invariant chart. A sum of squares isolates
   one real point only set-theoretically: its principal quotient remains a
@@ -14388,6 +14413,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K956--K960 open a causal/dynamical reverse edge without changing any GU
+  verdict. Reopen this edge only with a GU-owned physical quotient, positive
+  state and effect/Born pairing, an action-derived local CPTP or appropriately
+  generalized positive generator, and a remote-marginal theorem; freeze a
+  distinct held-out consequence before assigning prediction credit. Do not
+  treat a fitted dephasing rate or the imported relation
+  `S/sqrt(2)-1=V=lambda` as a GU derivation.
+
   K951--K955 exhaust the finite local scalar-selector parent. Do not reopen it
   with a smooth or analytic scalar whose real zero set is a point: unless its
   constraint ideal equals the reduced maximal ideal, set isolation is not a

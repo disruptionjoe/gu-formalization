@@ -8,6 +8,30 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-03 — K956--K960 quantum-anchor dynamical demand
+
+K956--K960 switch from the exhausted local selector parent to the two admitted
+quantum calibration anchors. K956 constructs the exact qubit dephasing family
+`Phi_lambda(rho)=((1+lambda)/2)rho+((1-lambda)/2)Zrho Z`, proves complete
+positivity, trace preservation, unitality and semigroup composition, and proves
+that a local nonselective channel leaves the remote Bell marginal equal to
+`I/2`.
+
+K957 derives the Bell witness `S(lambda)=sqrt(2)(1+lambda)` and the exact CHSH
+threshold `lambda>sqrt(2)-1`. K958 derives the two-path law
+`P_0(phi)=(1+lambda cos(phi))/2` and visibility `V(lambda)=lambda`. K959
+composes the carrier-neutral coherence relation `S/sqrt(2)-1=V`; for
+`lambda(t)=exp(-2 gamma t)`, Bell violation survives exactly while
+`t<log(1+sqrt(2))/(2 gamma)`.
+
+K960 records the resulting causal/dynamical demand. The construction imports
+complex Hilbert space, tensor composition, Born trace pairing, preparations,
+detector meaning, an external clock and rate, and the identification of one
+law across the two interfaces. It therefore supplies no GU action, physical
+quotient, positive state/effect construction, local net, held-out prediction,
+confirmation, or source/ledger/canon/public verdict. Five producers pass 79
+declared controls and five probes reject 52/52 hostile mutations.
+
 ## 2026-10-03 — K951--K955 singular selector properness boundary
 
 K951 resolves the real set-theoretic part of K948's singular escape. On the

@@ -1,0 +1,77 @@
+{
+  "bell_decay": {
+    "chsh_formula": "S(lambda)=sqrt(2)(1+lambda)",
+    "chsh_square": "2(1+lambda)^2",
+    "correlations": {
+      "XX": "lambda",
+      "XZ": "0",
+      "ZX": "0",
+      "ZZ": "1"
+    },
+    "joint_state_changes_when_lambda_below_one": true,
+    "remote_marginal": "I_2/2 for every lambda",
+    "violation_iff": "lambda>sqrt(2)-1"
+  },
+  "claim_ceiling": "Exact decay of one imported finite Bell witness under the K956 conditional local semigroup. It is not a Bell prediction, spacelike local-net theorem, GU state construction or confirmation result.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "created": "2026-10-03",
+  "decision": {
+    "bell_decay_exact": true,
+    "next_exact_input": "Compare lambda with the two-path fringe visibility under the same conditional semigroup.",
+    "no_signalling_preserved": true
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "bell_endpoint_S_squared": "8",
+    "dephased_endpoint_S_squared": "2",
+    "five_twelfths_violates": true,
+    "lower_bracket": "2/5 < sqrt(2)-1",
+    "lower_bracket_square": "(7/5)^2=49/25<2",
+    "rows": [
+      {
+        "S_over_sqrt2": "1",
+        "S_squared": "2",
+        "lambda": "0",
+        "violates_CHSH": false
+      },
+      {
+        "S_over_sqrt2": "7/5",
+        "S_squared": "98/25",
+        "lambda": "2/5",
+        "violates_CHSH": false
+      },
+      {
+        "S_over_sqrt2": "17/12",
+        "S_squared": "289/72",
+        "lambda": "5/12",
+        "violates_CHSH": true
+      },
+      {
+        "S_over_sqrt2": "3/2",
+        "S_squared": "9/2",
+        "lambda": "1/2",
+        "violates_CHSH": true
+      },
+      {
+        "S_over_sqrt2": "2",
+        "S_squared": "8",
+        "lambda": "1",
+        "violates_CHSH": true
+      }
+    ],
+    "two_fifths_does_not_violate": true,
+    "upper_bracket": "sqrt(2)-1 < 5/12",
+    "upper_bracket_square": "(17/12)^2=289/144>2"
+  },
+  "ownership": {
+    "gu_prediction": false,
+    "settings_state_tensor_born_imported": true,
+    "spacelike_local_net_constructed": false
+  },
+  "result_id": "K957-QUANTUM-ANCHOR-BELL-DECAY",
+  "schema_version": "1.0",
+  "scope": "The fixed Phi+ Bell state and standard optimal CHSH settings after K956 phase damping on Alice only.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

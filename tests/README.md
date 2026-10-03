@@ -4,6 +4,22 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K956--K960 quantum-anchor dynamical demand
+
+- `channel-swings/k956_quantum_anchor_local_dephasing_semigroup.py` constructs
+  the exact local CPTP semigroup and proves remote Bell marginal invariance.
+- `channel-swings/k957_quantum_anchor_bell_decay.py` derives the conditional
+  CHSH law and exact coherence threshold.
+- `channel-swings/k958_quantum_anchor_interference_visibility_decay.py`
+  derives the two-path probability and visibility law.
+- `channel-swings/k959_quantum_anchor_cross_benchmark_coherence_law.py`
+  composes the carrier-neutral Bell/visibility relation.
+- `channel-swings/k960_quantum_anchor_dynamical_demand_disposition.py` freezes
+  the native dynamical demand and ownership boundary.
+- Matching probes reject 52/52 hostile mutations across 79 declared controls.
+  All quantum and dynamical primitives remain imported, so no protected GU
+  conclusion moves.
+
 ## K951--K955 singular selector properness boundary
 
 - `channel-swings/k951_source_epsilon_singular_scalar_isolation.py` proves a

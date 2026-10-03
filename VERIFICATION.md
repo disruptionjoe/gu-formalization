@@ -7,6 +7,36 @@ updated_at: "2026-10-03"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K956--K960 quantum-anchor dynamical demand (2026-10-03)
+
+The finite-dimensional checks prove that the imported local dephasing channel
+is CPTP and composes multiplicatively in its coherence eigenvalue. Applied to
+one half of a Bell state, it leaves the other half's nonselective marginal
+unchanged. For the fixed CHSH and two-path calibration interfaces, exact
+symbolic evaluation gives
+
+`S(lambda)=sqrt(2)(1+lambda)`, `V(lambda)=lambda`, and hence
+`S/sqrt(2)-1=V`, with Bell violation iff `lambda>sqrt(2)-1`.
+
+These are conditional quantum-model theorems, not a GU derivation. The state
+space, tensor product, Born pairing, preparations, records, clock, rate and
+common dephasing law are imported. The next admissible advance must construct
+their analogue on a GU-owned physical quotient and freeze a distinct held-out
+consequence before scoring prediction.
+
+```bash
+python3 tests/channel-swings/k956_quantum_anchor_local_dephasing_semigroup.py --check
+python3 tests/channel-swings/k956_quantum_anchor_local_dephasing_semigroup_probe.py
+python3 tests/channel-swings/k957_quantum_anchor_bell_decay.py --check
+python3 tests/channel-swings/k957_quantum_anchor_bell_decay_probe.py
+python3 tests/channel-swings/k958_quantum_anchor_interference_visibility_decay.py --check
+python3 tests/channel-swings/k958_quantum_anchor_interference_visibility_decay_probe.py
+python3 tests/channel-swings/k959_quantum_anchor_cross_benchmark_coherence_law.py --check
+python3 tests/channel-swings/k959_quantum_anchor_cross_benchmark_coherence_law_probe.py
+python3 tests/channel-swings/k960_quantum_anchor_dynamical_demand_disposition.py --check
+python3 tests/channel-swings/k960_quantum_anchor_dynamical_demand_disposition_probe.py
+```
+
 ## K951--K955 singular selector properness boundary (2026-10-03)
 
 The scalar `F(u)=u_1^2+...+u_7^2` proves that one singular real equation can

@@ -1,0 +1,66 @@
+{
+  "claim_ceiling": "Exact finite two-path visibility law under an imported dephasing model. It does not derive a composite centre-of-mass state, environment, rate, detector, Born rule or GU prediction.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "created": "2026-10-03",
+  "decision": {
+    "next_exact_input": "Compose V=lambda with K957's S/sqrt(2)-1=lambda and state the shared-law discriminator with environment caveats.",
+    "same_semigroup_parameter_as_k956": true,
+    "visibility_decay_exact": true
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "normalization_all_rows": true,
+    "rows": [
+      {
+        "bright_probability": "1/2",
+        "dark_probability": "1/2",
+        "lambda": "0",
+        "visibility": "0"
+      },
+      {
+        "bright_probability": "5/8",
+        "dark_probability": "3/8",
+        "lambda": "1/4",
+        "visibility": "1/4"
+      },
+      {
+        "bright_probability": "3/4",
+        "dark_probability": "1/4",
+        "lambda": "1/2",
+        "visibility": "1/2"
+      },
+      {
+        "bright_probability": "7/8",
+        "dark_probability": "1/8",
+        "lambda": "3/4",
+        "visibility": "3/4"
+      },
+      {
+        "bright_probability": "1",
+        "dark_probability": "0",
+        "lambda": "1",
+        "visibility": "1"
+      }
+    ],
+    "unit_visibility_at_lambda_one": true,
+    "visibility_equals_lambda_all_rows": true,
+    "zero_visibility_at_lambda_zero": true
+  },
+  "fringe_law": {
+    "coherence": "rho_01=lambda exp(-i phi)/2",
+    "continuous_decay": "V(t)=exp(-2 gamma t)",
+    "probability": "P_0(theta)=(1+lambda cos(phi-theta))/2",
+    "visibility": "V=lambda"
+  },
+  "ownership": {
+    "environmental_rate_imported": true,
+    "gu_interference_prediction": false,
+    "path_state_phase_born_and_detector_imported": true
+  },
+  "result_id": "K958-QUANTUM-ANCHOR-INTERFERENCE-VISIBILITY-DECAY",
+  "schema_version": "1.0",
+  "scope": "One imported two-path qubit with phase-sensitive recombination under the K956 conditional dephasing semigroup.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

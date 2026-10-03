@@ -1,0 +1,126 @@
+{
+  "claim_ceiling": "Exact finite-dimensional conditional CPTP semigroup and remote-marginal theorem only. The Hilbert/tensor/Born/state/clock/rate structure is imported; no GU action, physical quotient, prediction, confirmation or source/ledger/canon/public verdict follows.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "created": "2026-10-03",
+  "decision": {
+    "continuous_local_candidate_constructed": true,
+    "next_exact_input": "Compose the same coherence eigenvalue with the fixed Bell witness and the two-path visibility readout, then test whether one cross-anchor law results.",
+    "remote_marginal_requirement_satisfied": true
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "complete_dephasing_at_lambda_zero": true,
+    "composition_lambda_half_two_thirds_equals_one_third": true,
+    "identity_at_lambda_one": true,
+    "remote_marginal_all_samples": true,
+    "samples": [
+      {
+        "bell_coherence_00_11": "1/2",
+        "bob_marginal": [
+          [
+            "1/2",
+            "0"
+          ],
+          [
+            "0",
+            "1/2"
+          ]
+        ],
+        "lambda": "1",
+        "trace": "1"
+      },
+      {
+        "bell_coherence_00_11": "1/3",
+        "bob_marginal": [
+          [
+            "1/2",
+            "0"
+          ],
+          [
+            "0",
+            "1/2"
+          ]
+        ],
+        "lambda": "2/3",
+        "trace": "1"
+      },
+      {
+        "bell_coherence_00_11": "1/4",
+        "bob_marginal": [
+          [
+            "1/2",
+            "0"
+          ],
+          [
+            "0",
+            "1/2"
+          ]
+        ],
+        "lambda": "1/2",
+        "trace": "1"
+      },
+      {
+        "bell_coherence_00_11": "1/6",
+        "bob_marginal": [
+          [
+            "1/2",
+            "0"
+          ],
+          [
+            "0",
+            "1/2"
+          ]
+        ],
+        "lambda": "1/3",
+        "trace": "1"
+      },
+      {
+        "bell_coherence_00_11": "0",
+        "bob_marginal": [
+          [
+            "1/2",
+            "0"
+          ],
+          [
+            "0",
+            "1/2"
+          ]
+        ],
+        "lambda": "0",
+        "trace": "1"
+      }
+    ],
+    "trace_all_samples": true
+  },
+  "locality": {
+    "bipartite_channel": "Phi_lambda tensor id_B",
+    "bob_marginal_invariant_for_every_input": true,
+    "no_signalling_direction": "Alice nonselective dynamics cannot change Bob's marginal",
+    "proof": "trace_A((Z_A tensor I)rho(Z_A tensor I))=trace_A(rho)"
+  },
+  "ownership": {
+    "gamma_and_clock_imported": true,
+    "gu_action_or_physical_quotient_constructed": false,
+    "hilbert_tensor_born_and_state_imported": true,
+    "prediction_or_confirmation_credit": false
+  },
+  "result_id": "K956-QUANTUM-ANCHOR-LOCAL-DEPHASING-SEMIGROUP",
+  "schema_version": "1.0",
+  "scope": "Carrier-neutral qubit phase damping used as a continuous causal/dynamical candidate for the two admitted quantum calibration anchors.",
+  "semigroup": {
+    "channel": "Phi_lambda(rho)=((1+lambda)/2)rho+((1-lambda)/2)Z rho Z",
+    "completely_positive_trace_preserving": true,
+    "composition": "Phi_lambda o Phi_mu = Phi_(lambda mu)",
+    "continuous_parameterization": "lambda(t)=exp(-2 gamma t), gamma>=0",
+    "generator": "L(rho)=gamma(Z rho Z-rho)",
+    "kraus_weights": [
+      "(1+lambda)/2",
+      "(1-lambda)/2"
+    ],
+    "parameter_range": "0<=lambda<=1",
+    "unital": true
+  },
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

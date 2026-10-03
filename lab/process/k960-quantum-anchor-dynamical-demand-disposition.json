@@ -1,0 +1,63 @@
+{
+  "claim_ceiling": "K956--K960 give an exact finite conditional causal/dynamical demand shared by the two calibration anchors. They do not construct a GU action, physical quotient, positive state space, Born rule, local net, empirical common rate, held-out prediction, confirmation or source/ledger/canon/public verdict.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "created": "2026-10-03",
+  "decision": {
+    "bell_threshold": "V>sqrt(2)-1",
+    "charged_boundary_or_sc_act_06_result_retracted": false,
+    "conditional_cross_anchor_dynamics_constructed": true,
+    "cross_benchmark_relation": "S/sqrt(2)-1=V",
+    "next_exact_input": "Derive a local CPTP or appropriately generalized positive evolution on a GU-owned physical quotient, with the coherence eigenoperator, Born/effect pairing and remote-marginal theorem produced by the action/domain rather than imported; then freeze a distinct held-out consequence before scoring."
+  },
+  "dependency_checks": {
+    "all_prediction_or_confirmation_withheld": true,
+    "all_source_and_ledger_effect_none": true,
+    "input_ids": [
+      "K956-QUANTUM-ANCHOR-LOCAL-DEPHASING-SEMIGROUP",
+      "K957-QUANTUM-ANCHOR-BELL-DECAY",
+      "K958-QUANTUM-ANCHOR-INTERFERENCE-VISIBILITY-DECAY",
+      "K959-QUANTUM-ANCHOR-CROSS-BENCHMARK-COHERENCE-LAW"
+    ]
+  },
+  "direction": "observed_to_native",
+  "gu_boundary": {
+    "gu_born_pairing": false,
+    "gu_local_net": false,
+    "gu_physical_quotient": false,
+    "gu_positive_state_space": false,
+    "held_out_prediction_scored": false,
+    "physics_ledger_moved": false,
+    "source_claim_moved": false,
+    "source_or_action_owned_generator": false
+  },
+  "import_accounting": [
+    "complex Hilbert state space",
+    "tensor composition",
+    "Born trace pairing",
+    "Bell and path preparations",
+    "detector settings and record meaning",
+    "external clock and gamma",
+    "identification of one candidate law across the compared interfaces"
+  ],
+  "result_id": "K960-QUANTUM-ANCHOR-DYNAMICAL-DEMAND-DISPOSITION",
+  "reverse_lineage": {
+    "anchors": [
+      "EXT-QM-MASSIVE-MATTER-INTERFERENCE",
+      "EXT-QM-SPACELIKE-BELL-NOSIGNAL"
+    ],
+    "requirements": [
+      "a normalized coherence eigenoperator",
+      "a completely positive trace-preserving one-parameter evolution",
+      "local nonselective remote-marginal invariance",
+      "phase-sensitive recombination",
+      "nonfactorizable joint state support",
+      "a distinct held-out family before scoring"
+    ],
+    "stage": "causal_dynamical_demand"
+  },
+  "schema_version": "1.0",
+  "scope": "Disposition of K956--K959 as an observed-to-native causal/dynamical demand derived from the two admitted calibration anchors.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

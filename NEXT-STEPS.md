@@ -7,6 +7,17 @@ updated_at: "2026-10-03"
 
 # Next Steps For Contributors
 
+> **2026-10-03 K956--K960 QUANTUM-ANCHOR DYNAMICAL DEMAND.** K956 constructs
+> an exact conditional local-dephasing CPTP semigroup and proves remote Bell
+> marginal invariance. K957 derives `S(lambda)=sqrt(2)(1+lambda)` and the CHSH
+> threshold. K958 derives interference visibility `V(lambda)=lambda`. K959
+> composes `S/sqrt(2)-1=V` and its exponential survival interval. K960 freezes
+> the next native demand. Supply a GU-owned physical quotient, positive
+> state/effect and Born pairing, action-derived local generator, and
+> remote-marginal theorem; then freeze a distinct held-out consequence before
+> scoring. Do not count the imported quantum model or fitted rate as a GU
+> prediction. No source, ledger, canon, or public verdict moves.
+
 > **2026-10-03 K951--K955 SINGULAR SELECTOR PROPERNESS BOUNDARY.** K951 uses
 > the strongest real set-theoretic scalar escape, `F=sum_i u_i^2`: its zero
 > set is one point, its gradient vanishes there and its Hessian has rank seven.
