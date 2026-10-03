@@ -1,0 +1,110 @@
+{
+  "claim_ceiling": "Exact same-domain even-bosonic Helmholtz obstruction for the frozen selected-I1B formal Euler map. It does not exclude a completed action, different domain, odd sector, boundary completion, new parent or other stationary germ.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 40,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k895_sc_act_06_helmholtz_symmetry_obstruction_probe.py",
+    "producer": "tests/channel-swings/k895_sc_act_06_helmholtz_symmetry_obstruction.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "k891_radial_cancellation_is_sufficient_for_action_ownership": false,
+    "next_exact_input": "A same-domain variational completion must cancel the entire rank-130912 skew part, not only the rank-8191 radial defect; classify that correction and test the formal projector before crediting any quotient map.",
+    "quotient_ranks_now_admissible": false,
+    "same_domain_variational_completion_still_possible": true,
+    "selected_i1b_formal_euler_map_is_action_hessian": false
+  },
+  "direction": "observed_to_native",
+  "exact_helmholtz_test": {
+    "backend_replayed": true,
+    "connection_field_dimension": 229376,
+    "formal_completed_helmholtz_defect_rank": 130912,
+    "formal_completed_rank": 122721,
+    "formal_correction_symmetric_part_rank": 16382,
+    "helmholtz_symmetry_defect_rank": 130912,
+    "radial_gauge_restriction_rank": 8191,
+    "rank_distributions": {
+      "action_rank": {
+        "2": 1,
+        "24": 78,
+        "26": 4018,
+        "6": 4095
+      },
+      "formal_completed_helmholtz_defect_rank": {
+        "2": 1,
+        "24": 78,
+        "26": 4018,
+        "6": 4095
+      },
+      "formal_completed_rank": {
+        "1": 1,
+        "24": 78,
+        "26": 4018,
+        "4": 4095
+      },
+      "formal_correction_symmetric_part_rank": {
+        "0": 4096,
+        "2": 1,
+        "4": 4095
+      },
+      "helmholtz_defect_rank": {
+        "2": 1,
+        "24": 78,
+        "26": 4018,
+        "6": 4095
+      },
+      "radial_rank": {
+        "0": 4096,
+        "1": 1,
+        "2": 4095
+      }
+    },
+    "representative_block_count": 56,
+    "representative_multiplicity": 8192,
+    "selected_action_rank": 130912
+  },
+  "gu_typed_objects": {
+    "action_owner": "frozen selected-I1B formal Euler construction only; no completed scalar action Hessian inferred",
+    "carrier": "229376-dimensional real even connection tangent at the K717 flat zero-fermion germ",
+    "grading": "even bosonic field tangent --A--> even bosonic Euler dual",
+    "pairing": "the fixed real coefficient pairing used by K887 to transpose the raw selected-I1B density map",
+    "real_structure": "real K77 nonnull coefficient blocks",
+    "target": "INTEGRABILITY-TYPE=Helmholtz symmetry prerequisite for a same-domain even scalar-action Hessian"
+  },
+  "ledger_no_change_reason": "A Helmholtz obstruction to one formal Euler construction supplies no completed action, physical state, observable, prediction or confirmation.",
+  "pinned_inputs": {
+    "k720": {
+      "path": "lab/process/k720-sc-act-06-selected-i1b-euclidean-bosonic-symbol.json",
+      "sha256": "c0019f3f8ad286995b31b81d571e429487e004b07becb37a73cdf36baba16aaa"
+    },
+    "k887": {
+      "path": "lab/process/k887-sc-act-06-selected-i1b-gauge-descent-obstruction.json",
+      "sha256": "a259443e593cfa1010674320e8120fc49fe81ca2b59110bc05f6ac03032f3b2a"
+    },
+    "k892": {
+      "path": "lab/process/k892-sc-act-06-minimal-formal-gauge-completion.json",
+      "sha256": "9e3b061636a6d92f3012e034dcc22b030b3e023b539693b43bc9c13d4d37af6b"
+    },
+    "k894": {
+      "path": "lab/process/k894-sc-act-06-action-owned-completion-boundary.json",
+      "sha256": "eca8e70313465b9fe255c8e0a1356e56dd18644ff5372b778b5dc30c637693ef"
+    }
+  },
+  "result_id": "K895-SC-ACT-06-HELMHOLTZ-SYMMETRY-OBSTRUCTION",
+  "schema_version": "1.0",
+  "scope": "Helmholtz/second-variation test of the frozen selected-I1B formal Euler map on the fixed even bosonic connection domain at K717's nonnull symbol.",
+  "source_and_ledger_effect": "SC-ACT-01_06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "structural_theorem": {
+    "even_scalar_action_hessian_identity": "Hessian^T=Hessian on one fixed common bosonic domain",
+    "exact_selected_map_rank": 130912,
+    "exact_symmetry_defect_rank": 130912,
+    "formal_adjoint_identity": "A^T=-A",
+    "formal_euler_rule": "A=(R-R^T)/2",
+    "radial_defect_is_strict_subtest": true,
+    "selected_map_is_helmholtz_integrable_as_standalone_hessian": false,
+    "selected_map_is_nonzero": true
+  },
+  "target_claim": "SC-ACT-06"
+}

@@ -1,0 +1,74 @@
+{
+  "claim_ceiling": "Complete algebraic classification only for fixed-domain even bosonic Hessian completions of the frozen A. Moving domains, odd sectors, boundary pairings, new parents and other germs remain open.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "classification_theorem": {
+    "bijection": "same-domain variational gauge-descending completions C are in bijection with symmetric gauge-basic maps S",
+    "completion_decomposition": "C=-A+S",
+    "forced_skew_correction": "skew(C)=-A",
+    "forced_skew_correction_rank": 130912,
+    "gauge_condition": "SG=0",
+    "hypotheses": [
+      "A^T=-A",
+      "T=A+C",
+      "T^T=T",
+      "TG=0"
+    ],
+    "minimal_completed_hessian": "T_min=0",
+    "minimal_completion_repairs_old_quotient": false,
+    "minimal_variational_completion": "C_min=-A",
+    "nonzero_quotient_map_requires_new_symmetric_block": true,
+    "selected_skew_map_survives_in_completed_hessian": false,
+    "surviving_map": "T=S",
+    "symmetric_condition": "S^T=S"
+  },
+  "controls": {
+    "controls_passed": 40,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k897_sc_act_06_variational_completion_classification_probe.py",
+    "producer": "tests/channel-swings/k897_sc_act_06_variational_completion_classification.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "current_variational_repair_capacity_known": false,
+    "formal_projector_is_member_of_variational_completion_class": false,
+    "next_exact_input": "Construct and action-own a nonzero symmetric gauge-basic block S on the same common Euler/preboundary domain; all quotient capacity belongs to S, while the selected skew map A is canceled identically.",
+    "quotient_ranks_now_admissible": false,
+    "selected_i1b_skew_map_has_independent_variational_quotient_capacity": false
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "none supplied for the surviving symmetric block S",
+    "carrier": "fixed real even connection tangent and its Euler dual",
+    "grading": "gauge parameter --G--> even fields --(A+C)--> even Euler dual",
+    "pairing": "fixed nondegenerate real coefficient pairing defining transpose",
+    "real_structure": "real characteristic-zero linear algebra",
+    "target": "THEOREM-TYPE=all same-domain variational gauge-descending completions"
+  },
+  "ledger_no_change_reason": "The classification isolates the missing action-owned symmetric block but constructs no action, quotient state, observable, prediction or confirmation.",
+  "pinned_inputs": {
+    "k891": {
+      "path": "lab/process/k891-sc-act-06-gauge-cancellation-necessity.json",
+      "sha256": "2de71e60e7dddcff26e0adf642239514566e3a215e9132570a6eeac6122c5ac7"
+    },
+    "k895": {
+      "path": "lab/process/k895-sc-act-06-helmholtz-symmetry-obstruction.json",
+      "sha256": "955a8f52c4286f69c46862a2a0ef4b5217db2e13654d714e017712e40a3af2f9"
+    },
+    "k896": {
+      "path": "lab/process/k896-sc-act-06-formal-projector-integrability-audit.json",
+      "sha256": "428d60a40ca38b0545a8d1ca82409fc7a1f96daa31d25a37dfad1178bb80c696"
+    }
+  },
+  "proof": {
+    "converse_step": "every symmetric S with SG=0 gives C=-A+S and T=S",
+    "decomposition_step": "write C=sym(C)+skew(C)=-A+S with S=sym(C)",
+    "descent_step": "TG=0 becomes SG=0 because T=A-A+S=S",
+    "symmetry_step": "0=skew(T)=skew(A+C)=A+skew(C), hence skew(C)=-A"
+  },
+  "result_id": "K897-SC-ACT-06-VARIATIONAL-COMPLETION-CLASSIFICATION",
+  "schema_version": "1.0",
+  "scope": "Algebraic classification of all fixed-common-domain completions C for which the frozen skew selected-I1B map A+C is both an even bosonic Hessian and gauge descending.",
+  "source_and_ledger_effect": "SC-ACT-01_06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

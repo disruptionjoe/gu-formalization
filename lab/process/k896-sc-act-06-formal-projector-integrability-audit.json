@@ -1,0 +1,81 @@
+{
+  "claim_ceiling": "Exact failure of K892's orthogonal radial-projector control to be a same-domain even scalar-action Hessian. Other completions and action parents remain open.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 40,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k896_sc_act_06_formal_projector_integrability_audit_probe.py",
+    "producer": "tests/channel-swings/k896_sc_act_06_formal_projector_integrability_audit.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "formal_projector_may_be_credited_as_action_completion": false,
+    "formal_projector_restores_linear_gauge_descent": true,
+    "formal_projector_supplies_variational_integrability": false,
+    "next_exact_input": "Replace the projector control by a completion whose full skew part is -A and whose surviving symmetric part is action-owned, gauge-basic and defined on the same common Euler/preboundary domain.",
+    "quotient_ranks_now_admissible": false
+  },
+  "direction": "observed_to_native",
+  "formal_projector_audit": {
+    "completed_helmholtz_defect_distribution": {
+      "2": 1,
+      "24": 78,
+      "26": 4018,
+      "6": 4095
+    },
+    "completed_map_helmholtz_defect_rank": 130912,
+    "completed_map_rank": 122721,
+    "completed_rank_distribution": {
+      "1": 1,
+      "24": 78,
+      "26": 4018,
+      "4": 4095
+    },
+    "correction_symmetric_part_distribution": {
+      "0": 4096,
+      "2": 1,
+      "4": 4095
+    },
+    "correction_symmetric_part_rank": 16382,
+    "formal_completed_map": "T_formal=A(I-P_R)",
+    "formal_completion_is_same_domain_even_scalar_action_hessian": false,
+    "formal_correction": "C_formal=-A P_R",
+    "gauge_descent": "T_formal G=0",
+    "gauge_descent_satisfied": true,
+    "helmholtz_symmetry_satisfied": false,
+    "projector_identity": "P_R^T=P_R and P_R G=G",
+    "selected_action_rank": 130912
+  },
+  "gu_typed_objects": {
+    "action_owner": "none for P_R or C_formal; selected I1B owns only the frozen formal A construction",
+    "carrier": "K873 radial summand R inside the 229376-dimensional even connection tangent",
+    "grading": "connection tangent --A(I-P_R)--> Euler dual",
+    "pairing": "the same fixed real coefficient pairing used for A^T and the orthogonal control projector P_R",
+    "real_structure": "real K77 nonnull coefficient blocks",
+    "target": "INTEGRABILITY-TYPE=formal descent completion versus same-domain Hessian symmetry"
+  },
+  "ledger_no_change_reason": "The exact integrability failure removes credit from a mathematical control but supplies no completed action or physical quotient.",
+  "pinned_inputs": {
+    "k892": {
+      "path": "lab/process/k892-sc-act-06-minimal-formal-gauge-completion.json",
+      "sha256": "9e3b061636a6d92f3012e034dcc22b030b3e023b539693b43bc9c13d4d37af6b"
+    },
+    "k895": {
+      "path": "lab/process/k895-sc-act-06-helmholtz-symmetry-obstruction.json",
+      "sha256": "955a8f52c4286f69c46862a2a0ef4b5217db2e13654d714e017712e40a3af2f9"
+    }
+  },
+  "result_id": "K896-SC-ACT-06-FORMAL-PROJECTOR-INTEGRABILITY-AUDIT",
+  "schema_version": "1.0",
+  "scope": "Exact Helmholtz audit of K892's rank-minimal formal completion C_formal=-A P_R on the fixed K717 nonnull even-bosonic connection domain.",
+  "source_and_ledger_effect": "SC-ACT-01_06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "structural_reason": {
+    "condition_fails_exactly": true,
+    "defect_rank_equals_selected_action_rank": true,
+    "equivalent_anticommutator_condition": "A P_R+P_R A=2A",
+    "symmetry_condition": "A(I-P_R)=-(I-P_R)A",
+    "transpose": "T_formal^T=-(I-P_R)A"
+  },
+  "target_claim": "SC-ACT-06"
+}

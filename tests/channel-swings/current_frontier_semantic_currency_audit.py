@@ -623,6 +623,18 @@ def load_inputs() -> dict:
         "k894": json.loads(
             (ROOT / "lab/process/k894-sc-act-06-action-owned-completion-boundary.json").read_text()
         ),
+        "k895": json.loads(
+            (ROOT / "lab/process/k895-sc-act-06-helmholtz-symmetry-obstruction.json").read_text()
+        ),
+        "k896": json.loads(
+            (ROOT / "lab/process/k896-sc-act-06-formal-projector-integrability-audit.json").read_text()
+        ),
+        "k897": json.loads(
+            (ROOT / "lab/process/k897-sc-act-06-variational-completion-classification.json").read_text()
+        ),
+        "k898": json.loads(
+            (ROOT / "lab/process/k898-sc-act-06-corrected-action-completion-boundary.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -815,9 +827,13 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     check(registry["latest_gu_formalization_result"] ==
-          "K891_K894_SC_ACT_06_ACTION_OWNED_GAUGE_COMPLETION_BOUNDARY_CURRENT",
+          "K895_K898_SC_ACT_06_HELMHOLTZ_ACTION_COMPLETION_BOUNDARY_CURRENT",
           "latest GU result pointer moved")
     if isinstance(live, str):
+        check("K895--K898 sharpen the action-completion gate" in live and
+              "full Helmholtz integrability" in live and
+              "all nonzero capacity must come from a newly action-owned symmetric" in live,
+              "live K895--K898 Helmholtz action-completion boundary missing")
         check("K891--K894 quantify the selected-I1B completion gap exactly" in live and
               "abstract linear solvability" in live and
               "all forty old deficits remain uncredited" in live,
@@ -1139,6 +1155,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K895--K898 close the frozen selected-I1B formal Euler map against" in summary and
+          "rank 130,912" in summary and
+          "all nonzero quotient capacity must come from a new" in summary,
+          "current K895--K898 Helmholtz action-completion result lost")
     check("K891--K894 replace the vague request for a selected-I1B completion" in summary and
           "rank 8,191" in summary and
           "only the unowned formal control passes" in summary,
@@ -1340,6 +1360,18 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "K895--K898 prove that the frozen selected-I1B formal Euler map" in data["agenda"].get("latest_result_2026_10_03_k895_k898", "")
+        and "Helmholtz defect rank 130912" in data["agenda"].get("latest_result_2026_10_03_k895_k898", "")
+        and "SC-ACT-06 remains ASSERTS" in data["agenda"].get("latest_result_2026_10_03_k895_k898", ""),
+        "agenda K895--K898 result is not current",
+    )
+    check(
+        "K895--K898 prove that the frozen selected-I1B formal Euler map" in question
+        and "Helmholtz defect rank are both 130,912" in question
+        and "all forty quotient types" in question,
+        "current question lost K895--K898 Helmholtz action-completion boundary",
+    )
     check(
         "K891--K894 prove that every selected-I1B completion must satisfy CG=-HG" in data["agenda"].get("latest_result_2026_10_03_k891_k894", "")
         and "formal projector C_formal=-H P_R" in data["agenda"].get("latest_result_2026_10_03_k891_k894", "")
@@ -4294,6 +4326,39 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           k894["current_disposition"]["corrected_completion_gate_satisfied_rows"] == 5 and
           not k894["decision"]["current_selected_i1b_complete_action_class_closed"],
           "K894 action-owned completion boundary moved")
+
+    k895 = data["k895"]
+    check(k895["exact_helmholtz_test"]["selected_action_rank"] == 130912 and
+          k895["exact_helmholtz_test"]["radial_gauge_restriction_rank"] == 8191 and
+          k895["exact_helmholtz_test"]["helmholtz_symmetry_defect_rank"] == 130912 and
+          not k895["structural_theorem"]["selected_map_is_helmholtz_integrable_as_standalone_hessian"] and
+          not k895["decision"]["quotient_ranks_now_admissible"],
+          "K895 Helmholtz symmetry obstruction moved")
+
+    k896 = data["k896"]
+    check(k896["formal_projector_audit"]["completed_map_rank"] == 122721 and
+          k896["formal_projector_audit"]["completed_map_helmholtz_defect_rank"] == 130912 and
+          k896["decision"]["formal_projector_restores_linear_gauge_descent"] and
+          not k896["decision"]["formal_projector_supplies_variational_integrability"] and
+          not k896["decision"]["quotient_ranks_now_admissible"],
+          "K896 formal projector integrability audit moved")
+
+    k897 = data["k897"]
+    check(k897["classification_theorem"]["completion_decomposition"] == "C=-A+S" and
+          k897["classification_theorem"]["surviving_map"] == "T=S" and
+          k897["classification_theorem"]["gauge_condition"] == "SG=0" and
+          k897["classification_theorem"]["forced_skew_correction_rank"] == 130912 and
+          not k897["decision"]["selected_i1b_skew_map_has_independent_variational_quotient_capacity"],
+          "K897 variational completion classification moved")
+
+    k898 = data["k898"]
+    check(k898["admission_boundary"]["completion_form"] == "C=-A+S" and
+          k898["admission_boundary"]["forced_skew_cancellation_rank"] == 130912 and
+          not k898["current_disposition"]["released_owned_nonzero_S_present"] and
+          not k898["current_disposition"]["forty_quotient_ranks_defined"] and
+          k898["current_disposition"]["corrected_completion_gate_satisfied_rows"] == 5 and
+          not k898["decision"]["all_completed_i1b_actions_exhausted"],
+          "K898 corrected action completion boundary moved")
 
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]

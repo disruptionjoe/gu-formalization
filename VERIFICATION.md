@@ -7,6 +7,46 @@ updated_at: "2026-10-03"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K895--K898 Helmholtz action-completion boundary (2026-10-03)
+
+K895 applies the same-domain Helmholtz condition to K887's frozen even
+bosonic map. Since `A=(R-R^T)/2`, one has `A^T=-A`. Exact replay of all 56
+representative blocks gives rank 130,912 on the 229,376-dimensional
+connection tangent and the same rank for `A-A^T`; a nonzero skew map cannot
+be the Hessian of a twice-differentiable even scalar action on that fixed
+common domain. The earlier rank-8,191 radial defect is a strict subtest.
+
+K896 audits K892's strongest formal control. For an orthogonal radial
+projector, `C_formal=-A P_R` gives `T_formal=A(I-P_R)` and indeed
+`T_formal G=0`. But `T_formal` has rank 122,721 and its exact Helmholtz
+symmetry defect still has rank 130,912. Linear gauge descent therefore does
+not promote the projector control into an action Hessian.
+
+K897 classifies all fixed-domain variational completions. The conditions
+`(A+C)^T=A+C` and `(A+C)G=0` are equivalent to
+`C=-A+S`, `S^T=S`, and `SG=0`; the completed Hessian is exactly `T=S`.
+The minimal variational completion `C=-A` produces the zero Hessian, so every
+nonzero quotient map requires a genuinely new symmetric gauge-basic block.
+K898 freezes that block's action ownership, common-domain, Euler,
+preboundary/Green and quotient-descent obligations. New parents, moving
+domains, odd sectors, boundary completions and other germs remain open. The
+four producers pass 160 controls and their probes reject 80/80 hostile
+mutations. The completion gate remains five of eleven and SC-ACT-06 remains
+`ASSERTS`.
+
+Run the producers and hostile probes:
+
+```bash
+python3 tests/channel-swings/k895_sc_act_06_helmholtz_symmetry_obstruction.py --check
+python3 tests/channel-swings/k895_sc_act_06_helmholtz_symmetry_obstruction_probe.py
+python3 tests/channel-swings/k896_sc_act_06_formal_projector_integrability_audit.py --check
+python3 tests/channel-swings/k896_sc_act_06_formal_projector_integrability_audit_probe.py
+python3 tests/channel-swings/k897_sc_act_06_variational_completion_classification.py --check
+python3 tests/channel-swings/k897_sc_act_06_variational_completion_classification_probe.py
+python3 tests/channel-swings/k898_sc_act_06_corrected_action_completion_boundary.py --check
+python3 tests/channel-swings/k898_sc_act_06_corrected_action_completion_boundary_probe.py
+```
+
 ## K891--K894 action-owned gauge-completion boundary (2026-10-03)
 
 K891 applies the quotient-descent identity directly. If `H` is the frozen

@@ -7,6 +7,19 @@ updated_at: "2026-10-03"
 
 # Next Steps For Contributors
 
+> **2026-10-03 K895--K898 HELMHOLTZ ACTION-COMPLETION BOUNDARY.** K895
+> proves that the frozen selected-I1B formal Euler map
+> `A=(R-R^T)/2` is skew-adjoint of exact rank 130,912 on the nonnull
+> connection tangent, so it cannot itself be a same-domain even scalar-action
+> Hessian. K896 shows that the radial-projector repair restores gauge descent
+> but retains a rank-130,912 Helmholtz defect. K897 classifies every
+> variational completion as `C=-A+S`, with `S^T=S`, `SG=0`, and completed
+> Hessian `T=S`; all nonzero quotient capacity must therefore come from a new
+> action-owned symmetric gauge-basic block. K898 freezes the next gate:
+> construct that named `S` on the common stationary Euler/preboundary domain,
+> rederive the Green data, and only then compute its forty quotient ranks.
+> The completion gate remains five of eleven and SC-ACT-06 remains `ASSERTS`.
+
 > **2026-10-03 K891--K894 ACTION-OWNED GAUGE-COMPLETION BOUNDARY.** K891
 > proves that every selected-I1B completion must satisfy `CG=-HG` on the
 > authenticated radial gauge image, so its restriction has exact rank 8,191
