@@ -671,6 +671,21 @@ def load_inputs() -> dict:
         "k910": json.loads(
             (ROOT / "lab/process/k910-sc-act-06-cross-completion-admission-boundary.json").read_text()
         ),
+        "k911": json.loads(
+            (ROOT / "lab/process/k911-sc-act-06-augmented-gauge-ward-splitting.json").read_text()
+        ),
+        "k912": json.loads(
+            (ROOT / "lab/process/k912-sc-act-06-torsion-salvage-stabilizer-necessity.json").read_text()
+        ),
+        "k913": json.loads(
+            (ROOT / "lab/process/k913-sc-act-06-augmented-gauge-quotient-persistence.json").read_text()
+        ),
+        "k914": json.loads(
+            (ROOT / "lab/process/k914-sc-act-06-nonzero-fermion-germ-custody.json").read_text()
+        ),
+        "k915": json.loads(
+            (ROOT / "lab/process/k915-sc-act-06-changed-gauge-admission-boundary.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -863,9 +878,13 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     check(registry["latest_gu_formalization_result"] ==
-          "K907_K910_SC_ACT_06_CROSS_COMPLETION_EXACTNESS_BOUNDARY_CURRENT",
+          "K911_K915_SC_ACT_06_CHANGED_GAUGE_NONZERO_FERMION_BOUNDARY_CURRENT",
           "latest GU result pointer moved")
     if isinstance(live, str):
+        check("K911--K915 close the vague changed-gauge escape" in live and
+              "`L` injective, trivial infinitesimal stabilizer" in live and
+              "graph gauge alone leaves the 90,128-dimensional" in live,
+              "live K911--K915 changed-gauge boundary missing")
         check("K907--K910 close the abstract symmetric cross-completion algebra" in live and
               "full-block nondegeneracy is equivalent to nondegeneracy" in live and
               "do not spend a third wave" in live,
@@ -1408,6 +1427,18 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "K911--K915 switch from exhausted cross-target distance estimates" in data["agenda"].get("latest_result_2026_10_03_k911_k915", "")
+        and "trivial infinitesimal stabilizer" in data["agenda"].get("latest_result_2026_10_03_k911_k915", "")
+        and "SC-ACT-06 remains ASSERTS" in data["agenda"].get("latest_result_2026_10_03_k911_k915", ""),
+        "agenda K911--K915 result is not current",
+    )
+    check(
+        "K911--K915 make the changed-gauge escape precise" in question
+        and "must have trivial infinitesimal gauge stabilizer" in question
+        and "does not remove any of K879's 90,128-dimensional" in question,
+        "current question lost K911--K915 changed-gauge boundary",
+    )
     check(
         "K907--K910 close the abstract symmetric cross-completion algebra" in data["agenda"].get("latest_result_2026_10_03_k907_k910", "")
         and "D_KK=P_K D|ker(B_bar*)" in data["agenda"].get("latest_result_2026_10_03_k907_k910", "")
@@ -4528,6 +4559,42 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k910["decision"]["cross_completion_constructed"] and
           not k910["decision"]["SC_ACT_06_proved_or_refuted"],
           "K910 cross-completion admission boundary moved")
+
+    k911 = data["k911"]
+    check(k911["theorem"]["ward_iff"] == "S G+B* L=0 and B G+D L=0" and
+          k911["theorem"]["cross_cancellation_possible_only_when_L_nonzero"] and
+          k911["theorem"]["stationarity_required_for_hessian_zero_mode"] and
+          not k911["decision"]["k903_noncancellation_extends_to_changed_gauge"],
+          "K911 augmented-gauge Ward splitting moved")
+
+    k912 = data["k912"]
+    check(k912["theorem"]["nonzero_kappa_implies_rank_BstarL"] == 16384 and
+          k912["theorem"]["nonzero_kappa_implies_L_injective"] and
+          k912["theorem"]["nonzero_kappa_implies_trivial_infinitesimal_stabilizer"] and
+          not k912["decision"]["trivial_stabilizer_is_sufficient_for_full_repair"],
+          "K912 torsion-salvage stabilizer boundary moved")
+
+    k913 = data["k913"]
+    check(k913["theorem"]["inclusion_is_injective_for_every_L"] and
+          k913["theorem"]["surviving_lower_bound_dimension"] == 90128 and
+          k913["theorem"]["surviving_real_type_count"] == 40 and
+          not k913["decision"]["changed_gauge_removes_k879_old_obstruction_by_quotienting"],
+          "K913 augmented-gauge quotient persistence moved")
+
+    k914 = data["k914"]
+    check(not k914["custody"]["source_supplies_nonzero_fermion_stationary_solution"] and
+          not k914["custody"]["repository_owns_nonzero_fermion_stationary_solution"] and
+          not k914["custody"]["repository_has_complete_nonzero_background_hessian"] and
+          not k914["decision"]["nonzero_fermion_branch_closed"],
+          "K914 nonzero-fermion germ custody moved")
+
+    k915 = data["k915"]
+    check(k915["admission"]["nonzero_torsion_requires_rank_BstarL"] == 16384 and
+          k915["admission"]["old_tangential_lower_bound_persists_in_field_quotient"] == 90128 and
+          not k915["admission"]["current_custody_satisfies_admission"] and
+          k915["decision"]["distance_only_cross_budget_route_remains_exhausted"] and
+          not k915["decision"]["SC_ACT_06_proved_or_refuted"],
+          "K915 changed-gauge admission boundary moved")
 
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]

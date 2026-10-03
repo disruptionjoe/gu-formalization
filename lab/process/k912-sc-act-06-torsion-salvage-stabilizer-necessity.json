@@ -1,0 +1,63 @@
+{
+  "claim_ceiling": "Exact finite-dimensional necessity at the released K717 symbol grade. It is not a construction of a nonzero-fermion germ and trivial stabilizer is not sufficient for ellipticity.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 40,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k912_sc_act_06_torsion_salvage_stabilizer_necessity_probe.py",
+    "producer": "tests/channel-swings/k912_sc_act_06_torsion_salvage_stabilizer_necessity.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "changed_gauge_automatically_rescues_torsion": false,
+    "next_exact_input": "Test whether augmented gauge quotienting removes any of the authenticated 90128-dimensional old tangential complement.",
+    "trivial_stabilizer_is_necessary_for_nonzero_kappa": true,
+    "trivial_stabilizer_is_sufficient_for_full_repair": false
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "cross_adjoint": "B*:Y->X*",
+    "gauge_parameter": "U, dimension 16384",
+    "new_gauge_component": "L:U->Y",
+    "old_gauge_map": "G:U->X injective",
+    "target": "OBSTRUCTION-TYPE=infinitesimal stabilizer necessity",
+    "torsion_hessian": "K:X->X* injective involution"
+  },
+  "ledger_no_change_reason": "The theorem is a necessary condition on a hypothetical stationary background and constructs neither that background nor a complete quotient complex.",
+  "pinned_inputs": {
+    "k899": {
+      "path": "lab/process/k899-sc-act-06-torsion-hessian-gauge-restriction.json",
+      "sha256": "5f42d450ac6ea34a64186000f25a0359cd5b88a99c681c58618c86396ea4a171"
+    },
+    "k900": {
+      "path": "lab/process/k900-sc-act-06-released-symmetric-parent-classification.json",
+      "sha256": "6bd7cb2fb794f9d4697ca5da0d11c9fb3239e203b150e6cd14e8003d28b19544"
+    },
+    "k911": {
+      "path": "lab/process/k911-sc-act-06-augmented-gauge-ward-splitting.json",
+      "sha256": "e465129bb77fb8d3538930a8780e66c8f8005d1edd30509a5a2c6b03962530c8"
+    }
+  },
+  "proof": {
+    "kernel": "If L(lambda)=0, the Ward equation gives kappa K G(lambda)=0; for nonzero kappa, injectivity of K and G forces lambda=0.",
+    "rank": "For nonzero kappa the composite B*L equals the injective rank-16384 map -kappa KG, so L is injective and B* is injective on im(L).",
+    "source_reading": "For the source fermion gauge action, ker(L) is the infinitesimal stabilizer of the background fermions; any nontrivial stabilizer forbids this torsion salvage route."
+  },
+  "result_id": "K912-SC-ACT-06-TORSION-SALVAGE-STABILIZER-NECESSITY",
+  "schema_version": "1.0",
+  "scope": "Necessary algebraic conditions for a nonzero released torsion coefficient to satisfy the first augmented Ward equation on K717's authenticated gauge parameter module.",
+  "source_and_ledger_effect": "SC-ACT-01_04_05_06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "first_ward_equation": "kappa K G+B* L=0",
+    "minimum_new_gauge_carrier_dimension": 16384,
+    "nontrivial_kernel_L_forces_kappa_zero": true,
+    "nonzero_kappa_implies_Bstar_injective_on_imL": true,
+    "nonzero_kappa_implies_L_injective": true,
+    "nonzero_kappa_implies_composite_identity": "B* L=-kappa K G",
+    "nonzero_kappa_implies_rank_BstarL": 16384,
+    "nonzero_kappa_implies_trivial_infinitesimal_stabilizer": true,
+    "rank_KG": 16384
+  }
+}

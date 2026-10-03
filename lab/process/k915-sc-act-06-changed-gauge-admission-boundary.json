@@ -1,0 +1,74 @@
+{
+  "admission": {
+    "corrected_completion_gate_satisfied_rows": 5,
+    "corrected_completion_gate_total_rows": 11,
+    "current_custody_satisfies_admission": false,
+    "nonzero_torsion_requires_L_injective": true,
+    "nonzero_torsion_requires_rank_BstarL": 16384,
+    "nonzero_torsion_requires_trivial_infinitesimal_stabilizer": true,
+    "old_real_type_count_persists": 40,
+    "old_tangential_lower_bound_persists_in_field_quotient": 90128,
+    "old_total_real_multiplicity_persists": 169,
+    "old_typewise_hessian_repair_still_required": true,
+    "requires_action_owned_full_hessian": true,
+    "requires_both_augmented_ward_equations": true,
+    "requires_common_variational_green_preboundary_domain": true,
+    "requires_stationary_nonzero_fermion_germ": true
+  },
+  "claim_ceiling": "Exact local necessary-condition and custody boundary only. It neither supplies the missing germ nor proves or refutes rich moduli or Euclidean ellipticity.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 46,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k915_sc_act_06_changed_gauge_admission_boundary_probe.py",
+    "producer": "tests/channel-swings/k915_sc_act_06_changed_gauge_admission_boundary.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "changed_gauge_alone_removes_old_quotient": false,
+    "changed_gauge_can_algebraically_mix_old_and_new_ward_defects": true,
+    "distance_only_cross_budget_route_remains_exhausted": true,
+    "next_exact_input": "Provide a source/action-owned nonzero-fermion stationary germ with full gauge tangent (G,L), trivial infinitesimal stabilizer if kappa is nonzero, both Ward equations, every Hessian block and common domain/Green/preboundary data; then recompute old-type quotient capacity. Otherwise construct a genuinely new gauge-basic old-old action parent.",
+    "nonzero_fermion_branch_refuted": false,
+    "nonzero_fermion_completion_constructed": false,
+    "released_torsion_parent_reopened_on_current_germ": false
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "gauge": "G_tilde=(G,L)",
+    "hessian": "T=[[S,B*],[B,D]]",
+    "old_quotient": "H_old, dimension 90128, forty real types, multiplicity 169",
+    "target": "DISPOSITION-TYPE=changed-gauge admission boundary",
+    "ward_pair": "S G+B*L=0 and B G+D L=0"
+  },
+  "ledger_no_change_reason": "The boundary distinguishes a valid changed-gauge mechanism from a current construction; no source claim or physics-ledger row moves.",
+  "pinned_inputs": {
+    "k910": {
+      "path": "lab/process/k910-sc-act-06-cross-completion-admission-boundary.json",
+      "sha256": "371e343d69e379762e93d101c178f91e6d8413a81354338ac65d1aba6dacec93"
+    },
+    "k911": {
+      "path": "lab/process/k911-sc-act-06-augmented-gauge-ward-splitting.json",
+      "sha256": "e465129bb77fb8d3538930a8780e66c8f8005d1edd30509a5a2c6b03962530c8"
+    },
+    "k912": {
+      "path": "lab/process/k912-sc-act-06-torsion-salvage-stabilizer-necessity.json",
+      "sha256": "b3b06765ba9377de3795d37526b7b24493421945efb40487cc040b765ff07ad3"
+    },
+    "k913": {
+      "path": "lab/process/k913-sc-act-06-augmented-gauge-quotient-persistence.json",
+      "sha256": "3145e8d6b6c475d94490add8640d9955b4df09a7721126bc5485f8f6e0a0d26c"
+    },
+    "k914": {
+      "path": "lab/process/k914-sc-act-06-nonzero-fermion-germ-custody.json",
+      "sha256": "ddf381c99d398a784ea1837bf9681d15209df3dfc4a823cdcc93b1e9ddb73d92"
+    }
+  },
+  "result_id": "K915-SC-ACT-06-CHANGED-GAUGE-ADMISSION-BOUNDARY",
+  "schema_version": "1.0",
+  "scope": "Admission boundary for reopening K910's released flat packet through a changed gauge embedding realized by a source/action-owned nonzero-fermion stationary germ.",
+  "source_and_ledger_effect": "SC-ACT-01_03_04_05_06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

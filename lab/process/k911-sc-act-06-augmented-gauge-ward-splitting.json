@@ -1,0 +1,65 @@
+{
+  "claim_ceiling": "Exact formal Hessian/Noether identity only. It does not construct a nonzero-fermion stationary solution or prove that the displayed source complex is stabilized.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 38,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k911_sc_act_06_augmented_gauge_ward_splitting_probe.py",
+    "producer": "tests/channel-swings/k911_sc_act_06_augmented_gauge_ward_splitting.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "changed_gauge_route_is_algebraically_distinct": true,
+    "k903_noncancellation_extends_to_changed_gauge": false,
+    "next_exact_input": "Apply the first Ward equation to the released torsion Hessian and determine what L must satisfy before any cancellation is possible.",
+    "nonzero_fermion_stationary_germ_still_required": true
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "augmented_gauge_map": "G_tilde=(G,L):U->X direct-sum Y",
+    "field_split": "X direct-sum Y",
+    "gauge_parameter": "U",
+    "hessian": "T=[[S,B*],[B,D]]",
+    "source_fermion_specialization": "L(lambda)=(rho(lambda)psi,-barpsi rho(lambda))",
+    "target": "IDENTITY-TYPE=augmented full-field Ward splitting"
+  },
+  "ledger_no_change_reason": "The identity types a possible changed-gauge mechanism but supplies no stationary germ, action completion, state, observable or elliptic complex.",
+  "pinned_inputs": {
+    "k875": {
+      "path": "lab/process/k875-sc-act-06-zero-fermion-mixed-block-vanishing.json",
+      "sha256": "385e3c2a640eff46b2d11eb39e29c6fdaec926d967d57de2eb0cbc960ca7cb01"
+    },
+    "k876": {
+      "path": "lab/process/k876-sc-act-06-zero-fermion-gauge-block-custody.json",
+      "sha256": "ae0a0224d1f965b9588397f130b6efdac8d6af72c4301d7ebd09ebaa2c783d59"
+    },
+    "k903": {
+      "path": "lab/process/k903-sc-act-06-full-field-ward-block-splitting.json",
+      "sha256": "17ac96a8e47af07cff0b2ae99a5dcf4d463b7687c8d8679883b22b7256e3a654"
+    },
+    "source_mixed": {
+      "path": "lab/sources/gu-mixed-bose-fermi-cross-map-source-reinspection-2026-08-04.md",
+      "sha256": "dfb966675a41bb1332b8468eda9965d157f7e5ea908b339b86111fca2642fd97"
+    }
+  },
+  "proof": {
+    "block_multiplication": "Multiply [[S,B*],[B,D]] by the column (G,L) and equate the two direct-sum components to zero.",
+    "noether_boundary": "Gauge invariance makes the Hessian annihilate the gauge tangent at a stationary point; away from stationarity an Euler-term correction remains.",
+    "source_specialization": "For a nonzero fermion background the infinitesimal source gauge action has the displayed L; at the K717 zero-fermion germ L=0 by K876."
+  },
+  "result_id": "K911-SC-ACT-06-AUGMENTED-GAUGE-WARD-SPLITTING",
+  "schema_version": "1.0",
+  "scope": "Blockwise Ward identity for a symmetric Hessian when the same source gauge parameter acts in both the old connection slot and a complementary field slot.",
+  "source_and_ledger_effect": "SC-ACT-01_04_05_06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "D_enters_gauge_restriction_when_L_nonzero": true,
+    "converse": true,
+    "cross_cancellation_possible_only_when_L_nonzero": true,
+    "old_supported_special_case": "L=0 gives S G=0 and B G=0",
+    "stationarity_required_for_hessian_zero_mode": true,
+    "ward_iff": "S G+B* L=0 and B G+D L=0",
+    "ward_product": "T(G,L)=(S G+B* L,B G+D L)"
+  }
+}

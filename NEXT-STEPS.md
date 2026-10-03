@@ -7,6 +7,19 @@ updated_at: "2026-10-03"
 
 # Next Steps For Contributors
 
+> **2026-10-03 K911--K915 CHANGED-GAUGE / NONZERO-FERMION BOUNDARY.** K911
+> derives the augmented Ward equations `SG+B*L=0` and `BG+DL=0`. K912 proves
+> that retaining nonzero torsion requires `L` injective, a trivial
+> infinitesimal stabilizer and rank `B*L=16,384`. K913 proves the graph gauge
+> image does not erase the 90,128-dimensional, forty-type old tangential
+> quotient. K914 finds no source/action-owned nonzero-fermion stationary germ
+> or complete Hessian/domain packet in current custody, and K915 freezes the
+> admission boundary. Next provide that stationary germ, full gauge tangent,
+> every Hessian block, both Ward equations and common Green/preboundary data,
+> then recompute all old-type capacities; otherwise construct a genuinely new
+> gauge-basic old-old action parent. The completion gate remains five of
+> eleven and SC-ACT-06 remains `ASSERTS`.
+
 > **2026-10-03 K907--K910 CROSS-COMPLETION EXACTNESS BOUNDARY.** K907 proves
 > that injectivity of `B_bar:H_old->Y*` is equivalent to surjectivity of its
 > adjoint. K908 proves that an exact-minimum target must match all forty old

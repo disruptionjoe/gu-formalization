@@ -7,6 +7,48 @@ updated_at: "2026-10-03"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K911--K915 changed-gauge / nonzero-fermion boundary (2026-10-03)
+
+K911 applies block multiplication and the stationary Noether identity to an
+augmented gauge tangent `(G,L)`. The full Ward condition is exactly
+`SG+B*L=0` and `BG+DL=0`; K903's separate `SG=0`, `BG=0` equations are the
+special case `L=0`.
+
+K912 applies the first equation to the released torsion Hessian. Since `KG`
+is injective of rank 16,384, any nonzero torsion coefficient forces
+`B*L=-kappa KG`. Hence `L` is injective, the background has trivial
+infinitesimal gauge stabilizer, `B*` is injective on `im(L)`, and the new gauge
+carrier has dimension at least 16,384. These are necessary, not sufficient,
+conditions.
+
+K913 proves that the graph gauge image cannot remove the old tangential field
+quotient. If `(h,0)=(G lambda,L lambda)` with `h` in the direct complement of
+`im(G)`, then `h=0`; therefore all 90,128 dimensions, forty real types and
+multiplicity 169 inject into the augmented quotient for every `L`. This is a
+field-quotient theorem, not a claim that the changed Hessian remains zero on
+those classes.
+
+K914 audits current custody: the source displays fermion fields, an operator
+candidate and mixed Euler cells, but supplies no nonzero-fermion stationary
+solution; the repository has not computed its full gauge tangent, Hessian or
+common variational/Green/preboundary domain. K915 freezes this as an open but
+uninstantiated reopener. The five producers pass 208 declared controls and the
+probes reject 100/100 hostile mutations. The completion gate remains five of
+eleven and SC-ACT-06 remains `ASSERTS`.
+
+```bash
+python3 tests/channel-swings/k911_sc_act_06_augmented_gauge_ward_splitting.py --check
+python3 tests/channel-swings/k911_sc_act_06_augmented_gauge_ward_splitting_probe.py
+python3 tests/channel-swings/k912_sc_act_06_torsion_salvage_stabilizer_necessity.py --check
+python3 tests/channel-swings/k912_sc_act_06_torsion_salvage_stabilizer_necessity_probe.py
+python3 tests/channel-swings/k913_sc_act_06_augmented_gauge_quotient_persistence.py --check
+python3 tests/channel-swings/k913_sc_act_06_augmented_gauge_quotient_persistence_probe.py
+python3 tests/channel-swings/k914_sc_act_06_nonzero_fermion_germ_custody.py --check
+python3 tests/channel-swings/k914_sc_act_06_nonzero_fermion_germ_custody_probe.py
+python3 tests/channel-swings/k915_sc_act_06_changed_gauge_admission_boundary.py --check
+python3 tests/channel-swings/k915_sc_act_06_changed_gauge_admission_boundary_probe.py
+```
+
 ## K907--K910 cross-completion exactness boundary (2026-10-03)
 
 K907 applies finite-dimensional rank duality to the authenticated old quotient:

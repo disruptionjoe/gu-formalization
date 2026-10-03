@@ -1,0 +1,71 @@
+{
+  "claim_ceiling": "Exact repository/source custody audit only. Absence from current custody neither refutes SC-ACT-06 nor proves that no nonzero-fermion stationary germ exists.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 42,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k914_sc_act_06_nonzero_fermion_germ_custody_probe.py",
+    "producer": "tests/channel-swings/k914_sc_act_06_nonzero_fermion_germ_custody.py"
+  },
+  "created": "2026-10-03",
+  "custody": {
+    "k717_zero_fermion_results_transfer_automatically": false,
+    "repository_has_common_domain_green_preboundary_packet": false,
+    "repository_has_complete_nonzero_background_hessian": false,
+    "repository_has_computed_nonzero_background_L": false,
+    "repository_owns_nonzero_fermion_stationary_solution": false,
+    "source_displays_fermion_operator_candidate": true,
+    "source_displays_mixed_euler_architecture": true,
+    "source_supplies_nonzero_fermion_stationary_solution": false
+  },
+  "decision": {
+    "absence_is_source_disproof": false,
+    "next_exact_input": "Provide a source/action-owned nonzero-fermion stationary solution, then compute its full gauge tangent and every Hessian block on one common variational/Green/preboundary domain.",
+    "nonzero_fermion_branch_closed": false,
+    "nonzero_fermion_branch_currently_instantiable": false
+  },
+  "direction": "observed_to_native",
+  "evidence": {
+    "gauge_tangent": "K876 proves the extra fermionic gauge tangent is zero at K717; it does not compute a nonzero background.",
+    "mixed_blocks": "K875 proves only that every displayed mixed derivative contains a background fermion and therefore vanishes at K717.",
+    "source_ceiling": "The source extractions supply candidate field/operator and mixed-cell grammar, not a solved stationary background, global adjoint or common closed domain.",
+    "stationary_germ": "K787 authenticates K717 as a flat zero-locus germ with all fermions zero."
+  },
+  "gu_typed_objects": {
+    "current_fermion_background": "nu=bar_nu=zeta=bar_zeta=0",
+    "current_germ": "K717 flat Euclidean Upsilon=0 germ",
+    "required_new_object": "stationary nonzero-fermion germ with L, S, B, D and common domain",
+    "source_fields": "four independent barred/unbarred fields in equation 9.16",
+    "source_mixed_topology": "raw Bose--Fermi Euler cross cells in equation 10.10",
+    "target": "CUSTODY-TYPE=nonzero-fermion stationary germ"
+  },
+  "ledger_no_change_reason": "The audit records an exact custody gap without converting source-displayed candidate architecture into a constructed solution.",
+  "pinned_inputs": {
+    "k787": {
+      "path": "lab/process/k787-sc-act-06-flat-zero-locus-custody.json",
+      "sha256": "d9fbe046c32ceaa0e81a5c51da6a631866f61597efe2a59de7e67e48ef9c8e1e"
+    },
+    "k875": {
+      "path": "lab/process/k875-sc-act-06-zero-fermion-mixed-block-vanishing.json",
+      "sha256": "385e3c2a640eff46b2d11eb39e29c6fdaec926d967d57de2eb0cbc960ca7cb01"
+    },
+    "k876": {
+      "path": "lab/process/k876-sc-act-06-zero-fermion-gauge-block-custody.json",
+      "sha256": "ae0a0224d1f965b9588397f130b6efdac8d6af72c4301d7ebd09ebaa2c783d59"
+    },
+    "source_fermion": {
+      "path": "lab/sources/gu-2021-draft-s9-fermionic-operator-extraction-2026-08-04.md",
+      "sha256": "c250ce367774ff593255cd211e18ea793dd3eddcd843e0520437b6d645a2c31b"
+    },
+    "source_mixed": {
+      "path": "lab/sources/gu-mixed-bose-fermi-cross-map-source-reinspection-2026-08-04.md",
+      "sha256": "dfb966675a41bb1332b8468eda9965d157f7e5ea908b339b86111fca2642fd97"
+    }
+  },
+  "result_id": "K914-SC-ACT-06-NONZERO-FERMION-GERM-CUSTODY",
+  "schema_version": "1.0",
+  "scope": "Current-custody audit for a source/action-owned stationary solution with nonzero barred or unbarred fermions and computable augmented gauge/Hessian data.",
+  "source_and_ledger_effect": "SC-ACT-01_04_05_06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

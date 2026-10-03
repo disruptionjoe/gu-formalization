@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 8f67683c6d91
+revision_basis: 98b1ddd648ed
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K911--K915 switch from the exhausted cross-target budget route to the
+    changed-gauge/nonzero-fermion branch. K911 proves the exact augmented Ward
+    pair for `G_tilde=(G,L)` and `T=[[S,B*],[B,D]]`:
+    `SG+B*L=0` and `BG+DL=0`. Thus a new-field gauge component can couple the
+    old and new Ward defects, unlike K903's old-supported `(G,0)` case. K912
+    proves a sharp obstruction for the released torsion Hessian: if
+    `kappa != 0`, then `B*L=-kappa KG` has rank 16,384, so `L` must be
+    injective, the background must have trivial infinitesimal gauge
+    stabilizer, and `B*` must be injective on `im(L)`. K913 proves that this
+    graph-valued gauge image does not quotient away the authenticated old
+    tangential module: all 90,128 dimensions, forty real types and
+    multiplicity 169 inject into the augmented field quotient for every `L`.
+    K914 finds no source/action-owned nonzero-fermion stationary germ, full
+    Hessian or common domain/Green/preboundary packet in current custody.
+    K915 therefore leaves the changed-gauge branch open but uninstantiated;
+    it cannot reopen the released torsion parent on K717 or remove the old
+    typewise repair obligation. The corrected completion gate stays five of
+    eleven and SC-ACT-06 remains `ASSERTS`.
+
     K907--K910 make the remaining symmetric cross-completion escape exact.
     K907 proves that an injective cross map
     `B_bar:H_old->Y*` is equivalent to surjectivity of its adjoint onto
@@ -12834,6 +12853,19 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K911--K915 make the changed-gauge escape precise. A stationary augmented
+  gauge tangent `(G,L)` obeys `SG+B*L=0` and `BG+DL=0`. If a nonzero torsion
+  coefficient is to survive, `L` must be injective with rank at least 16,384,
+  the background fermions must have trivial infinitesimal gauge stabilizer,
+  and `B*` must be injective on `im(L)`. Even then, the graph gauge image does
+  not remove any of K879's 90,128-dimensional, forty-type old tangential
+  quotient. Can the source/action supply a genuine nonzero-fermion stationary
+  germ with this full gauge tangent, every Hessian block, both Ward equations
+  and common variational/Green/preboundary data, and can those blocks repair
+  the persistent old types? If not, switch to a genuinely new gauge-basic
+  old-old action parent. Do not treat changed gauge as a quotient eraser or
+  resume cross-target distance estimates. SC-ACT-06 remains `ASSERTS`.
+
   K907--K910 decide algebraic sufficiency for every symmetric cross target on
   K717. If an action-owned gauge-basic `B_bar:H_old->Y*` is injective, its
   adjoint is surjective. At the exact 90,128-dimensional target the map is an
@@ -14115,6 +14147,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K911--K915 close the vague changed-gauge escape while preserving the exact
+  nonzero-fermion reopener. Admit it only with a source/action-owned stationary
+  nonzero-fermion germ whose augmented gauge tangent `(G,L)` and full symmetric
+  Hessian satisfy both `SG+B*L=0` and `BG+DL=0` on one common
+  variational/Green/preboundary domain. Any attempt to retain nonzero torsion
+  must additionally prove `L` injective, trivial infinitesimal stabilizer and
+  rank `B*L=16,384`. Recompute the response and all forty old-type quotient
+  capacities: K913 proves that graph gauge alone leaves the 90,128-dimensional
+  old tangential module injected. Current custody supplies none of this data.
+  Otherwise construct a genuinely new gauge-basic old-old action parent; do
+  not retry the released `K/H_Q` span or distance-only cross budgets. The
+  corrected certificate remains five of eleven and SC-ACT-06 remains
+  `ASSERTS`.
+
   K907--K910 close the abstract symmetric cross-completion algebra. Injective
   `B_bar:H_old->Y*` is equivalent to surjective `B_bar*`; at the exact
   90,128-dimensional, forty-type, multiplicity-169 target it is an
