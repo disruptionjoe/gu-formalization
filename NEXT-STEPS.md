@@ -7,6 +7,20 @@ updated_at: "2026-10-03"
 
 # Next Steps For Contributors
 
+> **2026-10-03 K899--K902 RELEASED SYMMETRIC ACTION-PARENT BOUNDARY.** K899
+> proves that the source-owned torsion Hessian has `rank(KG)=16,384` on the
+> authenticated radial gauge image, so no nonzero torsion coefficient is
+> gauge-basic. K900 classifies the full released symmetric span
+> `S_{kappa,Q}=kappa K+H_Q`: `SG=0` holds exactly when `kappa=0`, leaving the
+> residual-square family. K901 transfers K883/K884 to all forty old quotient
+> types: every induced rank is zero, all 169 multiplicities remain deficient,
+> and the full 90,128-dimensional obstruction survives. K902 closes only the
+> released `K/H_Q` span. Next construct a genuinely independent source/action-
+> owned symmetric gauge-basic block on the common Euler/preboundary domain, or
+> recompute the packet on a source-owned nonzero-fermion germ. Do not retry the
+> released span. The completion gate remains five of eleven and SC-ACT-06
+> remains `ASSERTS`.
+
 > **2026-10-03 K895--K898 HELMHOLTZ ACTION-COMPLETION BOUNDARY.** K895
 > proves that the frozen selected-I1B formal Euler map
 > `A=(R-R^T)/2` is skew-adjoint of exact rank 130,912 on the nonnull

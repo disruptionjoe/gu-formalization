@@ -1,0 +1,66 @@
+{
+  "claim_ceiling": "Exact classification of the two currently released symmetric action-owned parent classes at K717. Coupled-field cross terms, new parents, moving domains, boundaries, odd sectors and other germs remain open.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "classification_theorem": {
+    "admissible_family_can_have_nonzero_raw_rank": true,
+    "admissible_released_family": "S_{0,Q}=H_Q",
+    "both_summands_symmetric": true,
+    "family": "S_{kappa,Q}=kappa K+H_Q",
+    "family_gauge_restriction": "S_{kappa,Q}G=kappa K G",
+    "gauge_basic_iff": "kappa=0",
+    "induced_map_on_K879_old_cohomology": "zero",
+    "induced_quotient_rank": 0,
+    "residual_square_gauge_identity": "H_Q G=0",
+    "torsion_restriction_identity": "rank(KG)=16384"
+  },
+  "controls": {
+    "controls_passed": 36,
+    "hostile_mutations_rejected": 18,
+    "probe": "tests/channel-swings/k900_sc_act_06_released_symmetric_parent_classification_probe.py",
+    "producer": "tests/channel-swings/k900_sc_act_06_released_symmetric_parent_classification.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "all_action_parents_exhausted": false,
+    "next_exact_input": "Transfer the zero induced rank to all forty old types, then require a genuinely independent symmetric action parent or a source-owned nonzero-fermion stationary germ.",
+    "released_span_contains_nonzero_gauge_basic_quotient_capacity": false,
+    "released_span_repairs_any_old_type": false,
+    "released_symmetric_action_owned_span_contains_nonzero_gauge_basic_raw_hessians": true
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "released I1B torsion quadratic plus released I2B residual-norm-square class",
+    "carrier": "K717 fixed even connection domain and K879 old quotient submodule",
+    "grading": "fields --S_{kappa,Q}--> Euler dual, restricted to im(G) and old cohomology",
+    "pairing": "K134 torsion-action pairing plus any symmetric residual pairing Q admitted by K743",
+    "real_structure": "real SO(6)xSO(7) symbol",
+    "target": "CLASSIFICATION-TYPE=released symmetric gauge-basic action parents"
+  },
+  "ledger_no_change_reason": "The theorem closes one released parent span locally and changes no source attribution or physics-ledger row.",
+  "pinned_inputs": {
+    "k883": {
+      "path": "lab/process/k883-sc-act-06-residual-square-quotient-annihilation.json",
+      "sha256": "697b3f23ee4e716e8494c7121de2c286c98e6c8fd0070f06b7ccd83e9c230e85"
+    },
+    "k897": {
+      "path": "lab/process/k897-sc-act-06-variational-completion-classification.json",
+      "sha256": "512441644e2d070659a2669171d12e6fa4dff095c0f304b847c4c6fca8587cac"
+    },
+    "k899": {
+      "path": "lab/process/k899-sc-act-06-torsion-hessian-gauge-restriction.json",
+      "sha256": "5f42d450ac6ea34a64186000f25a0359cd5b88a99c681c58618c86396ea4a171"
+    }
+  },
+  "proof": {
+    "if_gauge_basic": "kappa K G=0 and KG injective imply kappa=0",
+    "if_kappa_zero": "H_Q G=0",
+    "no_cross_cancellation": "H_QG is identically zero and therefore cannot cancel any nonzero kappa KG",
+    "quotient": "Jh=0 implies H_Qh=J^*QJh=0"
+  },
+  "result_id": "K900-SC-ACT-06-RELEASED-SYMMETRIC-PARENT-CLASSIFICATION",
+  "schema_version": "1.0",
+  "scope": "Complete gauge-basic classification of the released symmetric action-owned linear span S_{kappa,Q}=kappa K+H_Q on K717.",
+  "source_and_ledger_effect": "SC-ACT-01_04_06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

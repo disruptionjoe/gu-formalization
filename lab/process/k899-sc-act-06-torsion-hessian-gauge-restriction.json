@@ -1,0 +1,70 @@
+{
+  "claim_ceiling": "Exact gauge-basic obstruction for the released kappa torsion Hessian at K717. It is not a no-go for another symmetric action parent, coupled-field cancellation, moving domain, boundary completion or other stationary germ.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "comparison": {
+    "decisive_fact": "K G is injective whereas a gauge-basic Hessian must annihilate im(G)",
+    "rank_mismatch_alone_is_not_the_proof": true,
+    "selected_A_restriction_rank": 8191,
+    "torsion_K_restriction_rank": 16384,
+    "torsion_block_cancels_selected_A_on_radial_image": false
+  },
+  "controls": {
+    "controls_passed": 32,
+    "hostile_mutations_rejected": 16,
+    "probe": "tests/channel-swings/k899_sc_act_06_torsion_hessian_gauge_restriction_probe.py",
+    "producer": "tests/channel-swings/k899_sc_act_06_torsion_hessian_gauge_restriction.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "new_symmetric_action_parent_or_new_germ_still_open": true,
+    "next_exact_input": "Classify the full released symmetric action-owned span kappa K + H_Q; gauge descent may force kappa=0, after which K883 controls the quotient.",
+    "released_torsion_hessian_is_admissible_nonzero_S": false,
+    "torsion_action_parent_closed_as_gauge_basic_completion": true
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "Hessian of (kappa_1/2)<T,*T>",
+    "carrier": "K717 real 229376-dimensional even connection tangent",
+    "grading": "internal gauge parameter --G--> connection tangent --K--> Euler dual",
+    "pairing": "K134 fixed real action pairing",
+    "real_structure": "Cl(7,7) real coefficient carrier under the common SO(6)xSO(7) stabilizer",
+    "target": "IDENTITY-TYPE=K G gauge restriction"
+  },
+  "ledger_no_change_reason": "The exact gauge restriction rejects one released Hessian as the required S but constructs no physical quotient, state, observable, prediction or confirmation.",
+  "pinned_inputs": {
+    "k724": {
+      "path": "lab/process/k724-sc-act-06-kappa-zero-order-ellipticity-obstruction.json",
+      "sha256": "a0660d0167381e06f3f505ce8c418f3a91407fc1e3d5869d0562bc4deeb2a44e"
+    },
+    "k873": {
+      "path": "lab/process/k873-sc-act-06-owned-symmetry-custody.json",
+      "sha256": "cc148cac1cce342c3e43d4e7681766630c8455e7ba687f87ece02978ec09c66c"
+    },
+    "k891": {
+      "path": "lab/process/k891-sc-act-06-gauge-cancellation-necessity.json",
+      "sha256": "2de71e60e7dddcff26e0adf642239514566e3a215e9132570a6eeac6122c5ac7"
+    },
+    "k898": {
+      "path": "lab/process/k898-sc-act-06-corrected-action-completion-boundary.json",
+      "sha256": "31e8bd43e9c9b6a060c32edd7d975fae5bd0f6cb99605539abfb86e2c00eb75d"
+    }
+  },
+  "restriction_theorem": {
+    "G_is_injective": true,
+    "K_is_action_owned": true,
+    "K_is_injective": true,
+    "K_is_involution": true,
+    "K_is_symmetric_hessian": true,
+    "kernel_KG_dimension": 0,
+    "nonzero_kappa_K_is_gauge_basic": false,
+    "radial_domain_dimension": 16384,
+    "rank_KG": 16384,
+    "required_identity": "S G=0"
+  },
+  "result_id": "K899-SC-ACT-06-TORSION-HESSIAN-GAUGE-RESTRICTION",
+  "schema_version": "1.0",
+  "scope": "Gauge-basic test of the source-owned algebraic torsion Hessian K on K873's authenticated radial connection-gauge image at K717.",
+  "source_and_ledger_effect": "SC-ACT-01_04_06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

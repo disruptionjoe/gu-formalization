@@ -635,6 +635,18 @@ def load_inputs() -> dict:
         "k898": json.loads(
             (ROOT / "lab/process/k898-sc-act-06-corrected-action-completion-boundary.json").read_text()
         ),
+        "k899": json.loads(
+            (ROOT / "lab/process/k899-sc-act-06-torsion-hessian-gauge-restriction.json").read_text()
+        ),
+        "k900": json.loads(
+            (ROOT / "lab/process/k900-sc-act-06-released-symmetric-parent-classification.json").read_text()
+        ),
+        "k901": json.loads(
+            (ROOT / "lab/process/k901-sc-act-06-released-parent-typewise-capacity.json").read_text()
+        ),
+        "k902": json.loads(
+            (ROOT / "lab/process/k902-sc-act-06-released-symmetric-parent-boundary.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -827,9 +839,13 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     check(registry["latest_gu_formalization_result"] ==
-          "K895_K898_SC_ACT_06_HELMHOLTZ_ACTION_COMPLETION_BOUNDARY_CURRENT",
+          "K899_K902_SC_ACT_06_RELEASED_SYMMETRIC_ACTION_PARENT_BOUNDARY_CURRENT",
           "latest GU result pointer moved")
     if isinstance(live, str):
+        check("K899--K902 close `span{K,H_Q}` at K717" in live and
+              "induced quotient rank is zero on all forty old types" in live and
+              "released `K/H_Q` span must not be retried" in live,
+              "live K899--K902 released symmetric action-parent boundary missing")
         check("K895--K898 sharpen the action-completion gate" in live and
               "full Helmholtz integrability" in live and
               "all nonzero capacity must come from a newly action-owned symmetric" in live,
@@ -1360,6 +1376,18 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "K899--K902 close the full released symmetric action-owned span" in data["agenda"].get("latest_result_2026_10_03_k899_k902", "")
+        and "rank(KG)=16384" in data["agenda"].get("latest_result_2026_10_03_k899_k902", "")
+        and "SC-ACT-06 remains ASSERTS" in data["agenda"].get("latest_result_2026_10_03_k899_k902", ""),
+        "agenda K899--K902 result is not current",
+    )
+    check(
+        "K899--K902 prove that the currently released symmetric action-owned span" in question
+        and "rank(KG)=16384" in question
+        and "all forty `SO(6)xSO(7)` quotient types" in question,
+        "current question lost K899--K902 released symmetric action-parent boundary",
+    )
     check(
         "K895--K898 prove that the frozen selected-I1B formal Euler map" in data["agenda"].get("latest_result_2026_10_03_k895_k898", "")
         and "Helmholtz defect rank 130912" in data["agenda"].get("latest_result_2026_10_03_k895_k898", "")
@@ -4359,6 +4387,36 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           k898["current_disposition"]["corrected_completion_gate_satisfied_rows"] == 5 and
           not k898["decision"]["all_completed_i1b_actions_exhausted"],
           "K898 corrected action completion boundary moved")
+
+    k899 = data["k899"]
+    check(k899["restriction_theorem"]["rank_KG"] == 16384 and
+          k899["restriction_theorem"]["kernel_KG_dimension"] == 0 and
+          not k899["restriction_theorem"]["nonzero_kappa_K_is_gauge_basic"] and
+          not k899["decision"]["released_torsion_hessian_is_admissible_nonzero_S"],
+          "K899 torsion Hessian gauge restriction moved")
+
+    k900 = data["k900"]
+    check(k900["classification_theorem"]["gauge_basic_iff"] == "kappa=0" and
+          k900["classification_theorem"]["induced_quotient_rank"] == 0 and
+          not k900["decision"]["released_span_contains_nonzero_gauge_basic_quotient_capacity"] and
+          not k900["decision"]["released_span_repairs_any_old_type"],
+          "K900 released symmetric parent classification moved")
+
+    k901 = data["k901"]
+    check(k901["typewise_capacity"]["row_count"] == 40 and
+          k901["typewise_capacity"]["old_total_dimension"] == 90128 and
+          k901["typewise_capacity"]["old_total_real_multiplicity"] == 169 and
+          k901["typewise_capacity"]["released_total_quotient_rank"] == 0 and
+          k901["typewise_capacity"]["remaining_type_deficit_count"] == 40,
+          "K901 released parent typewise capacity moved")
+
+    k902 = data["k902"]
+    check(k902["boundary"]["gauge_basic_released_span"] == "{H_Q}" and
+          k902["boundary"]["repaired_old_types"] == 0 and
+          k902["boundary"]["remaining_old_types"] == 40 and
+          k902["decision"]["released_symmetric_action_parent_span_closed"] and
+          not k902["decision"]["all_action_parents_exhausted"],
+          "K902 released symmetric parent boundary moved")
 
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]

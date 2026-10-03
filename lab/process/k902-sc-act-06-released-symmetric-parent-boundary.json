@@ -1,0 +1,66 @@
+{
+  "boundary": {
+    "corrected_completion_gate_satisfied_rows": 5,
+    "corrected_completion_gate_total_rows": 11,
+    "forty_released_quotient_ranks": "all zero",
+    "gauge_basic_released_span": "{H_Q}",
+    "old_obstruction_dimension": 90128,
+    "old_total_real_multiplicity": 169,
+    "released_parent_span": "span{K,H_Q}",
+    "remaining_old_types": 40,
+    "repaired_old_types": 0,
+    "residual_square_disposition": "gauge-basic but zero on old cohomology",
+    "torsion_disposition": "nonzero coefficient forbidden by SG=0 because rank(KG)=16384"
+  },
+  "claim_ceiling": "Exact local closure of the currently released symmetric K/H_Q action-parent span. Unreleased cross terms, new action parents, coupled-field cancellations, odd sectors, moving domains, boundaries and other stationary germs remain open.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 40,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k902_sc_act_06_released_symmetric_parent_boundary_probe.py",
+    "producer": "tests/channel-swings/k902_sc_act_06_released_symmetric_parent_boundary.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "all_action_parents_exhausted": false,
+    "complete_flat_packet_refuted": false,
+    "next_exact_input": "Construct a genuinely independent source/action-owned symmetric gauge-basic block on the common domain, or recompute every block on a source-owned nonzero-fermion stationary germ. The released K/H_Q span must not be retried.",
+    "released_symmetric_action_parent_span_closed": true,
+    "selected_i1b_completed_by_released_span": false
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "SC-ACT-01 torsion quadratic and SC-ACT-04 residual-norm-square",
+    "carrier": "K717 common even connection/gauge/Euler domain and K879 old quotient submodule",
+    "grading": "released action parents -> gauge-basic Hessian -> forty old quotient types",
+    "pairing": "released K and H_Q pairings only",
+    "real_structure": "real SO(6)xSO(7) nonnull symbol",
+    "target": "DISPOSITION-TYPE=released symmetric action-parent boundary"
+  },
+  "ledger_no_change_reason": "The released-span closure is local to K717 and supplies no complete deformation complex, rich moduli, physical state, observable, prediction or confirmation.",
+  "pinned_inputs": {
+    "k898": {
+      "path": "lab/process/k898-sc-act-06-corrected-action-completion-boundary.json",
+      "sha256": "31e8bd43e9c9b6a060c32edd7d975fae5bd0f6cb99605539abfb86e2c00eb75d"
+    },
+    "k899": {
+      "path": "lab/process/k899-sc-act-06-torsion-hessian-gauge-restriction.json",
+      "sha256": "5f42d450ac6ea34a64186000f25a0359cd5b88a99c681c58618c86396ea4a171"
+    },
+    "k900": {
+      "path": "lab/process/k900-sc-act-06-released-symmetric-parent-classification.json",
+      "sha256": "6bd7cb2fb794f9d4697ca5da0d11c9fb3239e203b150e6cd14e8003d28b19544"
+    },
+    "k901": {
+      "path": "lab/process/k901-sc-act-06-released-parent-typewise-capacity.json",
+      "sha256": "525c2385abf5605bd9673b4c85a8593f83790cdfd14a8eb430753663706c9893"
+    }
+  },
+  "result_id": "K902-SC-ACT-06-RELEASED-SYMMETRIC-PARENT-BOUNDARY",
+  "schema_version": "1.0",
+  "scope": "Disposition of every linear combination of the currently released symmetric torsion and residual-square action parents after K899--K901.",
+  "source_and_ledger_effect": "SC-ACT-01_03_04_05_06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

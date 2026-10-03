@@ -7,6 +7,38 @@ updated_at: "2026-10-03"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K899--K902 released symmetric action-parent boundary (2026-10-03)
+
+K899 tests the source-owned torsion Hessian against the exact K898 condition
+`SG=0`. K134/K724 make `K` a real nondegenerate involution, while K873 makes
+`G` injective with a 16,384-dimensional image. Hence `KG` is injective of
+rank 16,384 and no nonzero multiple of `K` is gauge-basic.
+
+K900 classifies every linear combination of the two released symmetric action
+parents: `S_{kappa,Q}=kappa K+H_Q`. Since `H_QG=0`, its gauge restriction is
+exactly `kappa KG`; therefore `SG=0` iff `kappa=0`. The admissible released
+family is precisely `H_Q`, which can have nonzero raw rank but induces zero on
+old cohomology. K901 records that zero rank on all forty real
+`SO(6)xSO(7)` types: all 169 old multiplicities and the complete 90,128-
+dimensional obstruction remain. K902 closes only `span{K,H_Q}`; new symmetric
+parents, coupled-field cross terms, moving domains, odd sectors, boundary
+completions and other stationary germs remain open. The four producers pass
+152 controls and their probes reject 74/74 hostile mutations. The completion
+gate remains five of eleven and SC-ACT-06 remains `ASSERTS`.
+
+Run the producers and hostile probes:
+
+```bash
+python3 tests/channel-swings/k899_sc_act_06_torsion_hessian_gauge_restriction.py --check
+python3 tests/channel-swings/k899_sc_act_06_torsion_hessian_gauge_restriction_probe.py
+python3 tests/channel-swings/k900_sc_act_06_released_symmetric_parent_classification.py --check
+python3 tests/channel-swings/k900_sc_act_06_released_symmetric_parent_classification_probe.py
+python3 tests/channel-swings/k901_sc_act_06_released_parent_typewise_capacity.py --check
+python3 tests/channel-swings/k901_sc_act_06_released_parent_typewise_capacity_probe.py
+python3 tests/channel-swings/k902_sc_act_06_released_symmetric_parent_boundary.py --check
+python3 tests/channel-swings/k902_sc_act_06_released_symmetric_parent_boundary_probe.py
+```
+
 ## K895--K898 Helmholtz action-completion boundary (2026-10-03)
 
 K895 applies the same-domain Helmholtz condition to K887's frozen even
