@@ -1,0 +1,62 @@
+{
+  "claim_ceiling": "Exact block-linear theorem at K873's flat principal gauge grade. It does not cover a changed gauge symbol, nonzero-background gauge components, moving domains, boundary pairings or another germ.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 36,
+    "hostile_mutations_rejected": 18,
+    "probe": "tests/channel-swings/k903_sc_act_06_full_field_ward_block_splitting_probe.py",
+    "producer": "tests/channel-swings/k903_sc_act_06_full_field_ward_block_splitting.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "coupled_cross_blocks_can_cancel_nonzero_SG": false,
+    "coupled_cross_blocks_can_carry_independent_old_quotient_response": true,
+    "future_cross_block_must_annihilate_gauge_image": true,
+    "next_exact_input": "Apply the split identity to S=kappa K+H_Q, then compute the minimum quotient-target representation budget for B."
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "added_fields": "arbitrary complementary even/odd body carrier Y at principal-symbol grade",
+    "gauge": "G_full=(G,0) with rank(G)=16384",
+    "hessian": "T=[[S,B^T],[B,D]]",
+    "old_field": "K873 connection carrier X",
+    "target": "IDENTITY-TYPE=full-field Ward splitting"
+  },
+  "ledger_no_change_reason": "The theorem types a necessary principal Ward condition and constructs no action, state, observable or complete complex.",
+  "pinned_inputs": {
+    "k873": {
+      "path": "lab/process/k873-sc-act-06-owned-symmetry-custody.json",
+      "sha256": "cc148cac1cce342c3e43d4e7681766630c8455e7ba687f87ece02978ec09c66c"
+    },
+    "k897": {
+      "path": "lab/process/k897-sc-act-06-variational-completion-classification.json",
+      "sha256": "512441644e2d070659a2669171d12e6fa4dff095c0f304b847c4c6fca8587cac"
+    },
+    "k902": {
+      "path": "lab/process/k902-sc-act-06-released-symmetric-parent-boundary.json",
+      "sha256": "61b69f5043a9d5b77fd0c5c6a99d828e027333102c719374e65fdcde2ad175f4"
+    }
+  },
+  "proof": {
+    "direct_sum": "The two components of (S G,B G) lie in independent Euler-dual summands X* and Y*.",
+    "necessity": "A direct-sum vector vanishes iff each component vanishes.",
+    "source_application": "K873 authenticates the principal internal-gauge symbol in the connection slot; other field components are zero at this grade.",
+    "sufficiency": "S G=0 and B G=0 imply T(G,0)=0."
+  },
+  "result_id": "K903-SC-ACT-06-FULL-FIELD-WARD-BLOCK-SPLITTING",
+  "schema_version": "1.0",
+  "scope": "Blockwise Ward identity for a symmetric full-field Hessian on X direct-sum Y when the authenticated principal internal-gauge map is G_full=(G,0).",
+  "source_and_ledger_effect": "SC-ACT-01_04_05_06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "converse": true,
+    "field_split": "X direct-sum Y",
+    "new_self_block_D_is_irrelevant_to_gauge_restriction": true,
+    "off_diagonal_cannot_cancel_old_euler_defect": true,
+    "old_supported_gauge": "G_full=(G,0)",
+    "symmetric_hessian": "T=[[S,B^T],[B,D]]",
+    "ward_iff": "S G=0 and B G=0",
+    "ward_product": "T G_full=(S G,B G)"
+  }
+}

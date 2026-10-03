@@ -1,0 +1,56 @@
+{
+  "claim_ceiling": "Exact classification only while the old diagonal remains in the released K/H_Q span and the principal gauge vector is (G,0). A new old-old block, changed gauge components, moving domain, boundary completion or other germ remains open.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "classification_theorem": {
+    "cross_euler_condition": "B G=0",
+    "cross_response_is_new_capacity_not_cancellation": true,
+    "cross_response_on_old_cohomology": "[h] maps to B h because H_Q h=0",
+    "gauge_basic_iff": "kappa=0 and B G=0",
+    "new_self_block_D_unconstrained_by_this_identity": true,
+    "off_diagonal_B_cannot_rescue_nonzero_kappa": true,
+    "old_euler_condition": "kappa K G=0",
+    "uses": "H_Q G=0",
+    "ward_product": "T G_full=(kappa K G,B G)"
+  },
+  "controls": {
+    "controls_passed": 38,
+    "hostile_mutations_rejected": 18,
+    "probe": "tests/channel-swings/k904_sc_act_06_cross_block_gauge_noncancellation_probe.py",
+    "producer": "tests/channel-swings/k904_sc_act_06_cross_block_gauge_noncancellation.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "cross_coupling_requires_independent_action_ownership": true,
+    "gauge_basic_cross_coupling_remains_open": true,
+    "next_exact_input": "Compute the necessary dimension and SO(6)xSO(7) multiplicity budget for an induced B_bar injective on the 90128-dimensional old quotient.",
+    "released_nonzero_torsion_coefficient_reopened_by_cross_coupling": false
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "gauge": "G_full=(G,0)",
+    "hessian": "T=[[kappa K+H_Q,B^T],[B,D]]",
+    "old_quotient": "K879 forty-type H_old",
+    "target": "CLASSIFICATION-TYPE=released diagonal plus arbitrary coupled cross block"
+  },
+  "ledger_no_change_reason": "The classification narrows a coupled repair route but constructs no cross block or physical complex.",
+  "pinned_inputs": {
+    "k899": {
+      "path": "lab/process/k899-sc-act-06-torsion-hessian-gauge-restriction.json",
+      "sha256": "5f42d450ac6ea34a64186000f25a0359cd5b88a99c681c58618c86396ea4a171"
+    },
+    "k900": {
+      "path": "lab/process/k900-sc-act-06-released-symmetric-parent-classification.json",
+      "sha256": "6bd7cb2fb794f9d4697ca5da0d11c9fb3239e203b150e6cd14e8003d28b19544"
+    },
+    "k903": {
+      "path": "lab/process/k903-sc-act-06-full-field-ward-block-splitting.json",
+      "sha256": "17ac96a8e47af07cff0b2ae99a5dcf4d463b7687c8d8679883b22b7256e3a654"
+    }
+  },
+  "result_id": "K904-SC-ACT-06-CROSS-BLOCK-GAUGE-NONCANCELLATION",
+  "schema_version": "1.0",
+  "scope": "Full-field symmetric Hessians whose old connection diagonal is the released S_{kappa,Q}=kappa K+H_Q and whose authenticated principal gauge map is (G,0), with arbitrary off-diagonal B and new self-block D.",
+  "source_and_ledger_effect": "SC-ACT-01_04_05_06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

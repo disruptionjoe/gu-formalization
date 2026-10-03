@@ -1,0 +1,918 @@
+{
+  "budget": {
+    "all_forty_types_required": true,
+    "injectivity_required_for_complete_old_submodule_repair": true,
+    "minimum_total_real_dimension": 90128,
+    "minimum_total_real_multiplicity": 169,
+    "occupied_real_type_count": 40,
+    "row_count": 40,
+    "rows": [
+      {
+        "minimum_cross_target_dimension": 7560,
+        "minimum_cross_target_multiplicity_for_injectivity": 2,
+        "old_multiplicity_h_rho": 2,
+        "real_irreducible_dimension": 3780,
+        "real_type": "complex_conjugate_pair",
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          1,
+          1
+        ],
+        "type_id": "rho-01"
+      },
+      {
+        "minimum_cross_target_dimension": 11340,
+        "minimum_cross_target_multiplicity_for_injectivity": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 2835,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          1,
+          1
+        ],
+        "type_id": "rho-02"
+      },
+      {
+        "minimum_cross_target_dimension": 6300,
+        "minimum_cross_target_multiplicity_for_injectivity": 2,
+        "old_multiplicity_h_rho": 2,
+        "real_irreducible_dimension": 3150,
+        "real_type": "complex_conjugate_pair",
+        "so6_highest_weights": [
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          1
+        ],
+        "type_id": "rho-03"
+      },
+      {
+        "minimum_cross_target_dimension": 8960,
+        "minimum_cross_target_multiplicity_for_injectivity": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 2240,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            2,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          1
+        ],
+        "type_id": "rho-04"
+      },
+      {
+        "minimum_cross_target_dimension": 4200,
+        "minimum_cross_target_multiplicity_for_injectivity": 2,
+        "old_multiplicity_h_rho": 2,
+        "real_irreducible_dimension": 2100,
+        "real_type": "complex_conjugate_pair",
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          1,
+          0
+        ],
+        "type_id": "rho-05"
+      },
+      {
+        "minimum_cross_target_dimension": 6300,
+        "minimum_cross_target_multiplicity_for_injectivity": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 1575,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          1,
+          0
+        ],
+        "type_id": "rho-06"
+      },
+      {
+        "minimum_cross_target_dimension": 4536,
+        "minimum_cross_target_multiplicity_for_injectivity": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 1134,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          1,
+          1
+        ],
+        "type_id": "rho-07"
+      },
+      {
+        "minimum_cross_target_dimension": 3780,
+        "minimum_cross_target_multiplicity_for_injectivity": 2,
+        "old_multiplicity_h_rho": 2,
+        "real_irreducible_dimension": 1890,
+        "real_type": "complex_conjugate_pair",
+        "so6_highest_weights": [
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          0
+        ],
+        "type_id": "rho-08"
+      },
+      {
+        "minimum_cross_target_dimension": 5376,
+        "minimum_cross_target_multiplicity_for_injectivity": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 1344,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            2,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          0
+        ],
+        "type_id": "rho-09"
+      },
+      {
+        "minimum_cross_target_dimension": 2800,
+        "minimum_cross_target_multiplicity_for_injectivity": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 700,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            2,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          1
+        ],
+        "type_id": "rho-10"
+      },
+      {
+        "minimum_cross_target_dimension": 2520,
+        "minimum_cross_target_multiplicity_for_injectivity": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 630,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          1,
+          0
+        ],
+        "type_id": "rho-11"
+      },
+      {
+        "minimum_cross_target_dimension": 1680,
+        "minimum_cross_target_multiplicity_for_injectivity": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 420,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            2,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          0
+        ],
+        "type_id": "rho-12"
+      },
+      {
+        "minimum_cross_target_dimension": 1080,
+        "minimum_cross_target_multiplicity_for_injectivity": 2,
+        "old_multiplicity_h_rho": 2,
+        "real_irreducible_dimension": 540,
+        "real_type": "complex_conjugate_pair",
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          0,
+          0
+        ],
+        "type_id": "rho-13"
+      },
+      {
+        "minimum_cross_target_dimension": 2800,
+        "minimum_cross_target_multiplicity_for_injectivity": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 700,
+        "real_type": "complex_conjugate_pair",
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          1
+        ],
+        "type_id": "rho-14"
+      },
+      {
+        "minimum_cross_target_dimension": 1620,
+        "minimum_cross_target_multiplicity_for_injectivity": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 405,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          0,
+          0
+        ],
+        "type_id": "rho-15"
+      },
+      {
+        "minimum_cross_target_dimension": 4200,
+        "minimum_cross_target_multiplicity_for_injectivity": 8,
+        "old_multiplicity_h_rho": 8,
+        "real_irreducible_dimension": 525,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          1
+        ],
+        "type_id": "rho-16"
+      },
+      {
+        "minimum_cross_target_dimension": 756,
+        "minimum_cross_target_multiplicity_for_injectivity": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 189,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          1,
+          1
+        ],
+        "type_id": "rho-17"
+      },
+      {
+        "minimum_cross_target_dimension": 1260,
+        "minimum_cross_target_multiplicity_for_injectivity": 2,
+        "old_multiplicity_h_rho": 2,
+        "real_irreducible_dimension": 630,
+        "real_type": "complex_conjugate_pair",
+        "so6_highest_weights": [
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          0,
+          0
+        ],
+        "type_id": "rho-18"
+      },
+      {
+        "minimum_cross_target_dimension": 1792,
+        "minimum_cross_target_multiplicity_for_injectivity": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 448,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            2,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          0,
+          0
+        ],
+        "type_id": "rho-19"
+      },
+      {
+        "minimum_cross_target_dimension": 1680,
+        "minimum_cross_target_multiplicity_for_injectivity": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 420,
+        "real_type": "complex_conjugate_pair",
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          0
+        ],
+        "type_id": "rho-20"
+      },
+      {
+        "minimum_cross_target_dimension": 2520,
+        "minimum_cross_target_multiplicity_for_injectivity": 8,
+        "old_multiplicity_h_rho": 8,
+        "real_irreducible_dimension": 315,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          0
+        ],
+        "type_id": "rho-21"
+      },
+      {
+        "minimum_cross_target_dimension": 648,
+        "minimum_cross_target_multiplicity_for_injectivity": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 162,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          0,
+          0
+        ],
+        "type_id": "rho-22"
+      },
+      {
+        "minimum_cross_target_dimension": 1680,
+        "minimum_cross_target_multiplicity_for_injectivity": 8,
+        "old_multiplicity_h_rho": 8,
+        "real_irreducible_dimension": 210,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          1
+        ],
+        "type_id": "rho-23"
+      },
+      {
+        "minimum_cross_target_dimension": 420,
+        "minimum_cross_target_multiplicity_for_injectivity": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 105,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          1,
+          0
+        ],
+        "type_id": "rho-24"
+      },
+      {
+        "minimum_cross_target_dimension": 560,
+        "minimum_cross_target_multiplicity_for_injectivity": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 140,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            2,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          0,
+          0
+        ],
+        "type_id": "rho-25"
+      },
+      {
+        "minimum_cross_target_dimension": 1008,
+        "minimum_cross_target_multiplicity_for_injectivity": 8,
+        "old_multiplicity_h_rho": 8,
+        "real_irreducible_dimension": 126,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          0
+        ],
+        "type_id": "rho-26"
+      },
+      {
+        "minimum_cross_target_dimension": 560,
+        "minimum_cross_target_multiplicity_for_injectivity": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 140,
+        "real_type": "complex_conjugate_pair",
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          0,
+          0
+        ],
+        "type_id": "rho-27"
+      },
+      {
+        "minimum_cross_target_dimension": 840,
+        "minimum_cross_target_multiplicity_for_injectivity": 8,
+        "old_multiplicity_h_rho": 8,
+        "real_irreducible_dimension": 105,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          0,
+          0
+        ],
+        "type_id": "rho-28"
+      },
+      {
+        "minimum_cross_target_dimension": 108,
+        "minimum_cross_target_multiplicity_for_injectivity": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 27,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          2,
+          0,
+          0
+        ],
+        "type_id": "rho-29"
+      },
+      {
+        "minimum_cross_target_dimension": 140,
+        "minimum_cross_target_multiplicity_for_injectivity": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 35,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          1
+        ],
+        "type_id": "rho-30"
+      },
+      {
+        "minimum_cross_target_dimension": 180,
+        "minimum_cross_target_multiplicity_for_injectivity": 2,
+        "old_multiplicity_h_rho": 2,
+        "real_irreducible_dimension": 90,
+        "real_type": "complex_conjugate_pair",
+        "so6_highest_weights": [
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          0,
+          0,
+          0
+        ],
+        "type_id": "rho-31"
+      },
+      {
+        "minimum_cross_target_dimension": 256,
+        "minimum_cross_target_multiplicity_for_injectivity": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 64,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            2,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          0,
+          0,
+          0
+        ],
+        "type_id": "rho-32"
+      },
+      {
+        "minimum_cross_target_dimension": 336,
+        "minimum_cross_target_multiplicity_for_injectivity": 8,
+        "old_multiplicity_h_rho": 8,
+        "real_irreducible_dimension": 42,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          0,
+          0
+        ],
+        "type_id": "rho-33"
+      },
+      {
+        "minimum_cross_target_dimension": 84,
+        "minimum_cross_target_multiplicity_for_injectivity": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 21,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          1,
+          0
+        ],
+        "type_id": "rho-34"
+      },
+      {
+        "minimum_cross_target_dimension": 80,
+        "minimum_cross_target_multiplicity_for_injectivity": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 20,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            2,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          0,
+          0,
+          0
+        ],
+        "type_id": "rho-35"
+      },
+      {
+        "minimum_cross_target_dimension": 40,
+        "minimum_cross_target_multiplicity_for_injectivity": 2,
+        "old_multiplicity_h_rho": 2,
+        "real_irreducible_dimension": 20,
+        "real_type": "complex_conjugate_pair",
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            -1
+          ]
+        ],
+        "so7_highest_weight": [
+          0,
+          0,
+          0
+        ],
+        "type_id": "rho-36"
+      },
+      {
+        "minimum_cross_target_dimension": 60,
+        "minimum_cross_target_multiplicity_for_injectivity": 4,
+        "old_multiplicity_h_rho": 4,
+        "real_irreducible_dimension": 15,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          0,
+          0,
+          0
+        ],
+        "type_id": "rho-37"
+      },
+      {
+        "minimum_cross_target_dimension": 35,
+        "minimum_cross_target_multiplicity_for_injectivity": 5,
+        "old_multiplicity_h_rho": 5,
+        "real_irreducible_dimension": 7,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          1,
+          0,
+          0
+        ],
+        "type_id": "rho-38"
+      },
+      {
+        "minimum_cross_target_dimension": 30,
+        "minimum_cross_target_multiplicity_for_injectivity": 5,
+        "old_multiplicity_h_rho": 5,
+        "real_irreducible_dimension": 6,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          0,
+          0,
+          0
+        ],
+        "type_id": "rho-39"
+      },
+      {
+        "minimum_cross_target_dimension": 3,
+        "minimum_cross_target_multiplicity_for_injectivity": 3,
+        "old_multiplicity_h_rho": 3,
+        "real_irreducible_dimension": 1,
+        "real_type": "real_tensor_type",
+        "so6_highest_weights": [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "so7_highest_weight": [
+          0,
+          0,
+          0
+        ],
+        "type_id": "rho-40"
+      }
+    ]
+  },
+  "claim_ceiling": "Exact necessary budget on the authenticated 90128-dimensional old submodule only. It is not sufficient for a complex, exactness, analytic globalization or SC-ACT-06.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 44,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k905_sc_act_06_cross_target_typewise_budget_probe.py",
+    "producer": "tests/channel-swings/k905_sc_act_06_cross_target_typewise_budget.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "cross_only_complete_repair_minimum_dimension": 90128,
+    "cross_only_complete_repair_minimum_real_multiplicity": 169,
+    "cross_only_complete_repair_requires_all_forty_types": true,
+    "current_released_zero_fermion_mixed_blocks_meet_budget": false,
+    "next_exact_input": "Construct and action-own B with BG=0 and the complete forty-type target/intertwiner inventory, or supply a new gauge-basic old-old symmetric block or another stationary germ."
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "condition": "injective equivariant repair on the authenticated old obstruction submodule",
+    "domain": "K874 old quotient H_old",
+    "map": "B_bar:H_old->Y*",
+    "target": "CAPACITY-TYPE=cross-target multiplicity budget"
+  },
+  "ledger_no_change_reason": "The budget is a necessary representation condition and supplies no cross operator, stationary solution or physical quotient.",
+  "pinned_inputs": {
+    "k874": {
+      "path": "lab/process/k874-sc-act-06-corrected-typewise-disposition.json",
+      "sha256": "d84f631386db5388d3831c250c74b42dbaee3d11983f1854b35680cfe9a658a2"
+    },
+    "k901": {
+      "path": "lab/process/k901-sc-act-06-released-parent-typewise-capacity.json",
+      "sha256": "525c2385abf5605bd9673b4c85a8593f83790cdfd14a8eb430753663706c9893"
+    },
+    "k904": {
+      "path": "lab/process/k904-sc-act-06-cross-block-gauge-noncancellation.json",
+      "sha256": "c1b03bba0aee7d55ddc3f0b310b63b1f13e2436e361e05022990113060b474d9"
+    }
+  },
+  "result_id": "K905-SC-ACT-06-CROSS-TARGET-TYPEWISE-BUDGET",
+  "schema_version": "1.0",
+  "scope": "Necessary SO(6)xSO(7)-equivariant target budget for a gauge-basic cross block B_bar to be injective on K874's old quotient when the released diagonal acts trivially there.",
+  "source_and_ledger_effect": "SC-ACT-01_04_05_06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "dimension_condition": "dim(Y*)>=90128",
+    "necessity_not_sufficiency": true,
+    "partial_cross_rank_can_only_repair_its_actual_image": true,
+    "raw_target_dimension_without_intertwiners_is_not_capacity": true,
+    "schur_multiplicity_condition": "For each real irreducible type rho, target multiplicity b_rho must satisfy b_rho>=h_rho for an equivariant injection."
+  }
+}

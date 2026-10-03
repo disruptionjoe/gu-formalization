@@ -647,6 +647,18 @@ def load_inputs() -> dict:
         "k902": json.loads(
             (ROOT / "lab/process/k902-sc-act-06-released-symmetric-parent-boundary.json").read_text()
         ),
+        "k903": json.loads(
+            (ROOT / "lab/process/k903-sc-act-06-full-field-ward-block-splitting.json").read_text()
+        ),
+        "k904": json.loads(
+            (ROOT / "lab/process/k904-sc-act-06-cross-block-gauge-noncancellation.json").read_text()
+        ),
+        "k905": json.loads(
+            (ROOT / "lab/process/k905-sc-act-06-cross-target-typewise-budget.json").read_text()
+        ),
+        "k906": json.loads(
+            (ROOT / "lab/process/k906-sc-act-06-coupled-repair-boundary.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -839,9 +851,13 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     check(registry["latest_gu_formalization_result"] ==
-          "K899_K902_SC_ACT_06_RELEASED_SYMMETRIC_ACTION_PARENT_BOUNDARY_CURRENT",
+          "K903_K906_SC_ACT_06_COUPLED_REPAIR_BLOCK_BOUNDARY_CURRENT",
           "latest GU result pointer moved")
     if isinstance(live, str):
+        check("K903--K906 close vague coupled-field cancellation at K717" in live and
+              "full-field Ward identity splits as `SG=0` and `BG=0`" in live and
+              "all forty real `SO(6)xSO(7)` types" in live,
+              "live K903--K906 coupled-repair block boundary missing")
         check("K899--K902 close `span{K,H_Q}` at K717" in live and
               "induced quotient rank is zero on all forty old types" in live and
               "released `K/H_Q` span must not be retried" in live,
@@ -1376,6 +1392,18 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "K903--K906 sharpen the coupled-field reopener" in data["agenda"].get("latest_result_2026_10_03_k903_k906", "")
+        and "90128 old quotient dimensions" in data["agenda"].get("latest_result_2026_10_03_k903_k906", "")
+        and "SC-ACT-06 remains ASSERTS" in data["agenda"].get("latest_result_2026_10_03_k903_k906", ""),
+        "agenda K903--K906 result is not current",
+    )
+    check(
+        "K903--K906 prove that coupled-field blocks do not share one cancellable Ward" in question
+        and "`SG=0` and `BG=0` separately" in question
+        and "total real multiplicity 169" in question,
+        "current question lost K903--K906 coupled-repair block boundary",
+    )
     check(
         "K899--K902 close the full released symmetric action-owned span" in data["agenda"].get("latest_result_2026_10_03_k899_k902", "")
         and "rank(KG)=16384" in data["agenda"].get("latest_result_2026_10_03_k899_k902", "")
@@ -4417,6 +4445,32 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           k902["decision"]["released_symmetric_action_parent_span_closed"] and
           not k902["decision"]["all_action_parents_exhausted"],
           "K902 released symmetric parent boundary moved")
+
+    k903 = data["k903"]
+    check(k903["theorem"]["ward_iff"] == "S G=0 and B G=0" and
+          k903["theorem"]["off_diagonal_cannot_cancel_old_euler_defect"] and
+          k903["decision"]["coupled_cross_blocks_can_carry_independent_old_quotient_response"],
+          "K903 full-field Ward block splitting moved")
+
+    k904 = data["k904"]
+    check(k904["classification_theorem"]["gauge_basic_iff"] == "kappa=0 and B G=0" and
+          k904["classification_theorem"]["off_diagonal_B_cannot_rescue_nonzero_kappa"] and
+          not k904["decision"]["released_nonzero_torsion_coefficient_reopened_by_cross_coupling"],
+          "K904 cross-block gauge noncancellation moved")
+
+    k905 = data["k905"]
+    check(k905["budget"]["row_count"] == 40 and
+          k905["budget"]["minimum_total_real_dimension"] == 90128 and
+          k905["budget"]["minimum_total_real_multiplicity"] == 169 and
+          k905["theorem"]["necessity_not_sufficiency"],
+          "K905 cross-target typewise budget moved")
+
+    k906 = data["k906"]
+    check(k906["boundary"]["released_zero_fermion_mixed_capacity"] == 0 and
+          k906["decision"]["vague_coupled_field_cancellation_reopener_closed"] and
+          k906["decision"]["specific_gauge_basic_cross_response_reopener_open"] and
+          not k906["decision"]["SC_ACT_06_proved_or_refuted"],
+          "K906 coupled repair boundary moved")
 
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]

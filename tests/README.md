@@ -4,6 +4,20 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K903--K906 coupled-repair block boundary
+
+- `channel-swings/k903_sc_act_06_full_field_ward_block_splitting.py` proves
+  that the full-field Ward identity splits into `SG=0` and `BG=0` when the
+  principal gauge vector is `(G,0)`.
+- `channel-swings/k904_sc_act_06_cross_block_gauge_noncancellation.py` proves
+  arbitrary off-diagonal coupling cannot rescue a nonzero torsion coefficient.
+- `channel-swings/k905_sc_act_06_cross_target_typewise_budget.py` computes the
+  necessary 40-type, 90,128-dimensional, multiplicity-169 cross-target budget.
+- `channel-swings/k906_sc_act_06_coupled_repair_boundary.py` freezes the exact
+  reopener and preserves new diagonal, gauge, domain and other-germ routes.
+- The matching probes reject 76/76 hostile mutations across 160 controls.
+  The completion gate stays five of eleven and SC-ACT-06 remains `ASSERTS`.
+
 ## K899--K902 released symmetric action-parent boundary
 
 - `channel-swings/k899_sc_act_06_torsion_hessian_gauge_restriction.py`

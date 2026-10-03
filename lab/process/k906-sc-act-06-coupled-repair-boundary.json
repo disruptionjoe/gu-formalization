@@ -1,0 +1,68 @@
+{
+  "boundary": {
+    "complete_cross_only_repair_budget": "B_bar injective on 90128 dimensions and all forty types with total real multiplicity 169",
+    "corrected_completion_gate_satisfied_rows": 5,
+    "corrected_completion_gate_total_rows": 11,
+    "cross_block_admission": "B G=0 plus independent action ownership",
+    "cross_block_can_have_future_quotient_capacity": true,
+    "gauge_basic_released_diagonal": "H_Q only",
+    "new_self_block_D_can_cancel_old_euler_gauge_defect": false,
+    "nonzero_kappa_cross_cancellation": "impossible by blockwise Ward splitting",
+    "released_zero_fermion_cross_only_repair": false,
+    "released_zero_fermion_mixed_capacity": 0
+  },
+  "claim_ceiling": "Exact local boundary only for the released old diagonal, flat principal gauge embedding and released zero-fermion mixed blocks. Changed gauge embeddings, new diagonals, nonzero fermions, moving domains, boundaries and other germs remain open.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 42,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k906_sc_act_06_coupled_repair_boundary_probe.py",
+    "producer": "tests/channel-swings/k906_sc_act_06_coupled_repair_boundary.py"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "new_gauge_basic_old_old_block_reopener_open": true,
+    "next_exact_input": "Construct a named action-owned B with BG=0 and enough forty-type target/intertwiner capacity, or a genuinely new gauge-basic symmetric old-old block; otherwise recompute the full packet on a source-owned nonzero-fermion stationary germ.",
+    "source_owned_nonzero_fermion_germ_reopener_open": true,
+    "specific_gauge_basic_cross_response_reopener_open": true,
+    "vague_coupled_field_cancellation_reopener_closed": true
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "cross_block": "B from old connection fields to complementary Euler equations",
+    "gauge": "(G,0)",
+    "old_diagonal": "kappa K+H_Q",
+    "old_quotient": "forty types, dimension 90128, total real multiplicity 169",
+    "target": "DISPOSITION-TYPE=corrected coupled-repair boundary"
+  },
+  "ledger_no_change_reason": "The boundary replaces a vague coupled escape with exact necessary inputs but constructs no complete deformation complex or physical quotient.",
+  "pinned_inputs": {
+    "k875": {
+      "path": "lab/process/k875-sc-act-06-zero-fermion-mixed-block-vanishing.json",
+      "sha256": "385e3c2a640eff46b2d11eb39e29c6fdaec926d967d57de2eb0cbc960ca7cb01"
+    },
+    "k902": {
+      "path": "lab/process/k902-sc-act-06-released-symmetric-parent-boundary.json",
+      "sha256": "61b69f5043a9d5b77fd0c5c6a99d828e027333102c719374e65fdcde2ad175f4"
+    },
+    "k903": {
+      "path": "lab/process/k903-sc-act-06-full-field-ward-block-splitting.json",
+      "sha256": "17ac96a8e47af07cff0b2ae99a5dcf4d463b7687c8d8679883b22b7256e3a654"
+    },
+    "k904": {
+      "path": "lab/process/k904-sc-act-06-cross-block-gauge-noncancellation.json",
+      "sha256": "c1b03bba0aee7d55ddc3f0b310b63b1f13e2436e361e05022990113060b474d9"
+    },
+    "k905": {
+      "path": "lab/process/k905-sc-act-06-cross-target-typewise-budget.json",
+      "sha256": "6cfb7216804c57f925e12635640453f9fc737ef032988d07522ad74347fa7161"
+    }
+  },
+  "result_id": "K906-SC-ACT-06-COUPLED-REPAIR-BOUNDARY",
+  "schema_version": "1.0",
+  "scope": "Disposition of coupled-field repairs that retain K902's released old diagonal and K873's flat principal gauge embedding, together with the released zero-fermion mixed inventory.",
+  "source_and_ledger_effect": "SC-ACT-01_03_04_05_06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

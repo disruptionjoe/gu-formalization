@@ -7,6 +7,22 @@ updated_at: "2026-10-03"
 
 # Next Steps For Contributors
 
+> **2026-10-03 K903--K906 COUPLED-REPAIR BLOCK BOUNDARY.** K903 proves that
+> for a symmetric full-field Hessian `T=[[S,B^T],[B,D]]` and K873's
+> principal internal-gauge map `(G,0)`, the Ward identity splits exactly into
+> `SG=0` and `BG=0`. Off-diagonal blocks cannot cancel an old connection-Euler
+> defect. K904 applies this to the released diagonal `kappa K+H_Q`: gauge
+> descent still forces `kappa=0`, while a cross block may contribute genuinely
+> new quotient response only after it independently satisfies `BG=0`. K905
+> proves that a cross-only complete repair must inject the full 90,128-
+> dimensional old quotient and therefore contain all forty real
+> `SO(6)xSO(7)` types with total real multiplicity at least 169. K906 records
+> that the released zero-fermion mixed capacity is zero and closes only the
+> vague cancellation escape. Next construct an action-owned gauge-basic cross
+> block with the complete type/intertwiner budget, a new gauge-basic old-old
+> symmetric block, or a source-owned nonzero-fermion stationary germ. The
+> completion gate remains five of eleven and SC-ACT-06 remains `ASSERTS`.
+
 > **2026-10-03 K899--K902 RELEASED SYMMETRIC ACTION-PARENT BOUNDARY.** K899
 > proves that the source-owned torsion Hessian has `rank(KG)=16,384` on the
 > authenticated radial gauge image, so no nonzero torsion coefficient is

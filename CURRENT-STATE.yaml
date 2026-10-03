@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 5799ddaa3424
+revision_basis: 7eecbbbcba7c
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K903--K906 replace the vague coupled-field cancellation escape by an exact
+    blockwise Ward boundary. For a symmetric full-field Hessian
+    `T=[[S,B^T],[B,D]]` and K873's authenticated principal internal-gauge map
+    `(G,0)`, K903 proves that `T(G,0)=0` is equivalent to the two independent
+    identities `SG=0` and `BG=0`; an off-diagonal cross block cannot cancel a
+    defect in the old connection-Euler summand. K904 applies this to the
+    released diagonal `S=kappa K+H_Q`: gauge descent still forces `kappa=0`,
+    while a gauge-basic cross block may supply genuinely new quotient response
+    only through its own induced map. K905 proves that complete cross-only
+    repair of the authenticated old submodule requires an injective map on all
+    90,128 dimensions and every one of the forty real `SO(6)xSO(7)` types,
+    with total real target multiplicity at least 169. K906 composes K875's
+    zero released mixed capacity and closes only the vague cancellation route.
+    A new gauge-basic old-old block, an action-owned cross block satisfying
+    `BG=0` with the complete type/intertwiner budget, a changed gauge/domain,
+    or a source-owned nonzero-fermion stationary germ remains open. The
+    corrected completion gate stays five of eleven and SC-ACT-06 remains
+    `ASSERTS`.
+
     K899--K902 close the complete linear span of the currently released
     symmetric action-owned torsion and residual-square Hessians as a repair of
     K879's old quotient. K899 proves that the torsion Hessian `K` is an
@@ -12795,6 +12814,19 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K903--K906 prove that coupled-field blocks do not share one cancellable Ward
+  equation on K717. With principal gauge vector `(G,0)`, a symmetric Hessian
+  `[[S,B^T],[B,D]]` is gauge-basic exactly when `SG=0` and `BG=0` separately.
+  Hence arbitrary off-diagonal coupling cannot rescue a nonzero torsion
+  coefficient in `S=kappa K+H_Q`; gauge descent still forces `kappa=0`.
+  A cross block can supply independent old-quotient capacity only if it is
+  action-owned, satisfies `BG=0`, and its induced map contains all forty real
+  `SO(6)xSO(7)` types with at least 90,128 dimensions and total real
+  multiplicity 169. Can such a named cross block and complete Green/preboundary
+  packet be constructed, or can a genuinely new gauge-basic old-old block be
+  derived? Otherwise recompute the complete packet on a source-owned nonzero-
+  fermion stationary germ. SC-ACT-06 remains `ASSERTS`.
+
   K899--K902 prove that the currently released symmetric action-owned span
   cannot repair the authenticated old quotient. The torsion Hessian has
   `rank(KG)=16384`, so gauge descent forces its coefficient to zero in every
@@ -14050,6 +14082,21 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K903--K906 close vague coupled-field cancellation at K717. Because the
+  authenticated principal gauge vector is `(G,0)`, the full-field Ward
+  identity splits as `SG=0` and `BG=0`. Off-diagonal blocks cannot cancel the
+  nonzero `kappa KG` old-Euler component, so every released-diagonal coupled
+  repair still has `kappa=0`. A cross response remains live only as an
+  independently action-owned gauge-basic map `B` with `BG=0`; complete repair
+  of the old obstruction requires its induced map to be injective on all
+  90,128 dimensions and all forty real `SO(6)xSO(7)` types, with total real
+  multiplicity at least 169. The released zero-fermion mixed capacity is zero.
+  Construct that cross block and its complete target/intertwiner and
+  Green/preboundary packet, derive a new gauge-basic symmetric old-old block,
+  or move to a changed gauge/domain or source-owned nonzero-fermion stationary
+  germ. The corrected certificate remains five of eleven and SC-ACT-06
+  remains `ASSERTS`.
+
   K899--K902 close `span{K,H_Q}` at K717. The nonzero torsion coefficient is
   incompatible with the gauge-basic identity because `KG` is injective of
   rank 16384, while gauge descent reduces the released span to `H_Q`, whose

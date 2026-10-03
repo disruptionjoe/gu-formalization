@@ -7,6 +7,39 @@ updated_at: "2026-10-03"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K903--K906 coupled-repair block boundary (2026-10-03)
+
+K903 uses K873's authenticated principal gauge map `(G,0)`. For any symmetric
+full-field Hessian `T=[[S,B^T],[B,D]]`, direct multiplication gives
+`T(G,0)=(SG,BG)`. Because the two outputs occupy independent Euler-dual
+summands, the Ward identity is equivalent to `SG=0` and `BG=0` separately.
+
+K904 applies the theorem to `S=kappa K+H_Q`. K899/K900 give
+`SG=kappa KG`, so no off-diagonal block can rescue nonzero `kappa`. When
+`kappa=0`, the old diagonal acts trivially on old cohomology and any genuinely
+new quotient response is exactly the induced cross map `B_bar`. K905 applies
+equivariant multiplicity necessity: injectivity on the whole old obstruction
+requires `b_rho>=h_rho` for all forty real types, total dimension at least
+90,128 and total real multiplicity at least 169. These conditions are
+necessary, not sufficient; raw codomain size without owned intertwiners is not
+capacity. K906 composes K875's zero released mixed capacity and closes only the
+vague coupled-cancellation escape. Changed gauge symbols, new diagonal blocks,
+nonzero-fermion germs, moving domains and boundary completions remain open.
+The four producers pass 160 controls and their probes reject 76/76 hostile
+mutations. The completion gate remains five of eleven and SC-ACT-06 remains
+`ASSERTS`.
+
+```bash
+python3 tests/channel-swings/k903_sc_act_06_full_field_ward_block_splitting.py --check
+python3 tests/channel-swings/k903_sc_act_06_full_field_ward_block_splitting_probe.py
+python3 tests/channel-swings/k904_sc_act_06_cross_block_gauge_noncancellation.py --check
+python3 tests/channel-swings/k904_sc_act_06_cross_block_gauge_noncancellation_probe.py
+python3 tests/channel-swings/k905_sc_act_06_cross_target_typewise_budget.py --check
+python3 tests/channel-swings/k905_sc_act_06_cross_target_typewise_budget_probe.py
+python3 tests/channel-swings/k906_sc_act_06_coupled_repair_boundary.py --check
+python3 tests/channel-swings/k906_sc_act_06_coupled_repair_boundary_probe.py
+```
+
 ## K899--K902 released symmetric action-parent boundary (2026-10-03)
 
 K899 tests the source-owned torsion Hessian against the exact K898 condition
