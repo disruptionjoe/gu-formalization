@@ -1,0 +1,38 @@
+{
+  "annihilation_rule": "w_mu annihilates 1, lambda and sqrt(lambda+mu), hence every quadratic readout for horn mu",
+  "created": "2026-10-04",
+  "directed_cross_contrast": {
+    "true_mu_1_against_mu_4": 0.00704922401371294,
+    "true_mu_4_against_mu_1": 0.0048300842680210065
+  },
+  "linf_feasibility": "distance from y to the horn readout hyperplane in component sup norm is abs(w_mu dot y) because ||w_mu||_1=1",
+  "mass_four_witness_l1": [
+    -0.13909844802742535,
+    0.38557383602056894,
+    -0.3609015519725746,
+    0.11442616397943106
+  ],
+  "mass_one_exact_witness": [
+    "-1/8",
+    "3/8",
+    "-3/8",
+    "1/8"
+  ],
+  "mass_one_witness_l1": [
+    -0.125,
+    0.375,
+    -0.375,
+    0.125
+  ],
+  "modes": [
+    3,
+    8,
+    15,
+    24
+  ],
+  "result_id": "K1061-K1060-FOUR-MODE-RESIDUAL-WITNESS",
+  "schema_version": "1.0",
+  "scope": "exact for the supplied horns and modes under one common quadratic transfer per horn",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

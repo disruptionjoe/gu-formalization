@@ -1,0 +1,41 @@
+{
+  "component_error_amplification": {
+    "1": 7.000000000000342,
+    "4": 10.224619665980052
+  },
+  "conditioning_warning": "the mass-four response row amplifies component error more strongly than the mass-one row",
+  "created": "2026-10-04",
+  "mass_one_exact_row": [
+    "-41/20",
+    "33/20",
+    "37/20",
+    "-29/20"
+  ],
+  "modes": [
+    3,
+    8,
+    15,
+    24
+  ],
+  "nonzero_certificate": "after horn feasibility is established, abs(g_hat)>eta*||r_mu||_1 certifies nonzero linear response",
+  "recovery_rule": "g_hat=r_mu dot y; for a correct horn and |e_i|<=eta, abs(g_hat-g)<=eta*||r_mu||_1",
+  "response_rows": {
+    "1": [
+      -2.0500000000000993,
+      1.6500000000000785,
+      1.8500000000000867,
+      -1.4500000000000774
+    ],
+    "4": [
+      -2.94293124338982,
+      2.2558239448965303,
+      2.856485888093502,
+      -2.1693785896002
+    ]
+  },
+  "result_id": "K1063-K1062-QUADRATIC-RESPONSE-RECOVERY",
+  "schema_version": "1.0",
+  "scope": "coefficient recovery inside the supplied four-mode quadratic model; no physical calibration ownership",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

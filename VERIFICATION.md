@@ -7,6 +7,20 @@ updated_at: "2026-10-04"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1061--K1065 robust quadratic apparatus certificate (2026-10-04)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Each four-mode horn has an exact residual witness and component-sup feasibility test | K1061 barycentric annihilators, null checks and directed cross contrasts; producer `14/14`; hostile mutations `10/10` | exact finite-dimensional theorem for supplied modes; no detector evidence |
+| Paired residual certificates separate sharply at `eta/gamma<0.00241504213401009...` | K1062 interval separation and touching boundary; producer `10/10`; hostile mutations `8/8` | sharp conditional systematics target; response floor and errors unmeasured |
+| The linear response is recoverable with exact component-error amplification | K1063 coefficient rows, left-inverse checks and `l1` bounds; producer `13/13`; hostile mutations `11/11` | exact in-model calibration interface; no independent physical calibration |
+| Higher fourth modes improve the checked error budget toward the analytic `0.00955587804121949...` ceiling | K1064 barycentric limit and ten finite fixtures; producer `12/12`; hostile mutations `10/10` | analytic limit plus checked fixtures; no global monotonic theorem or preparation ownership |
+| Four candidate rows pass while zero rows become GU-owned or empirically scorable | K1065 ten-row ownership matrix; producer `10/10`; hostile mutations `9/9` | candidate requirement disposition; no empirical score, prediction or confirmation |
+
+SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`, and LT-SM8,
+LT-GR6b, RA-F1 and AC-F1 remain `NEEDS`. No empirical score, prediction,
+confirmation, canon or public status moves.
+
 ## K1056--K1060 nonlinear detector-transfer boundary (2026-10-04)
 
 | Claim | Evidence | Honest grade |

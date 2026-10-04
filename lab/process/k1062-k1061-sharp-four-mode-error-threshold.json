@@ -1,0 +1,18 @@
+{
+  "created": "2026-10-04",
+  "decision_rule": "accept a horn only when its l1-normalized residual is at most eta; the wrong horn is excluded when gamma*c>2*eta",
+  "directed_contrasts": {
+    "true_mu_1_against_mu_4": 0.00704922401371294,
+    "true_mu_4_against_mu_1": 0.0048300842680210065
+  },
+  "limiting_contrast": 0.0048300842680210065,
+  "model": "y_i=A lambda_i+g sqrt(lambda_i+mu)+B+e_i with |e_i|<=eta and |g|>=gamma>0",
+  "result_id": "K1062-K1061-SHARP-FOUR-MODE-ERROR-THRESHOLD",
+  "scale_boundary": "eta/gamma is normalized readout error per linear-response unit, not absolute frequency or mass accuracy",
+  "schema_version": "1.0",
+  "scope": "sharp for the paired residual certificates on modes {3,8,15,24}; no measured detector audit",
+  "sharp_symmetric_eta_over_gamma": 0.0024150421340105033,
+  "sharpness": "at equality the true-horn and wrong-horn residual intervals touch, so strict certification requires eta/gamma below the boundary",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

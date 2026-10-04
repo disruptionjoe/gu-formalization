@@ -7,6 +7,19 @@ updated_at: "2026-10-04"
 
 # Next Steps For Contributors
 
+> **2026-10-04 K1061--K1065 ROBUST QUADRATIC APPARATUS CERTIFICATE.** The
+> four-mode common-quadratic route now has exact residual witnesses and a sharp
+> symmetric component-error target:
+> `eta/gamma<0.00241504213401009...`, where `gamma` is an independently
+> certified lower bound on linear response. The fitted-response amplification
+> is `7` for the mass-one horn and `10.2246196659792...` for the mass-four
+> horn. A higher fourth mode improves the conditional budget, but its analytic
+> ceiling is only `0.9556%` and it costs a more demanding preparation. Next
+> choose and own a physical fourth mode, response floor, component-error box,
+> dimensional scale, preparation record and complete measured systematics.
+> GU credit still separately requires a source-selected coefficient-complete
+> action and positive functional quotient.
+
 > **2026-10-04 K1056--K1060 NONLINEAR DETECTOR-TRANSFER BOUNDARY.** An
 > arbitrary monotone quadratic response erases `mu` for every mode, so K1052's
 > affine premise is load-bearing. Three modes remain usable under the sharp

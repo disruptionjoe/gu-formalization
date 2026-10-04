@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 72b7c324acfc
+revision_basis: 10d28a23fa58
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1061--K1065 turn the exact four-mode quadratic identifiability result into
+    a robust apparatus certificate. Unique l1-normalized annihilators give
+    exact residuals for each horn and exact component-sup distance to its
+    readout hyperplane. Their limiting directed contrast is
+    `0.00483008426802017...`; with component errors `|e_i|<=eta` and certified
+    linear-response floor `|g|>=gamma`, both horns separate sharply for
+    `eta/gamma<0.00241504213401009...`. The response coefficient is recoverable
+    after horn feasibility with component-error amplification `7` for the
+    mass-one design and `10.2246196659792...` for the mass-four design. Moving
+    the fourth prepared eigenmode upward improves the checked conditional
+    budget, but the analytic high-mode ceiling is only
+    `0.00955587804121949...`; no global monotonicity theorem is claimed. Four
+    mathematical apparatus rows pass at candidate grade while the physical
+    response floor, ruler, preparation, measured detector/systematics record,
+    source-selected action and positive functional quotient remain unowned.
+    SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`, and
+    LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain `NEEDS`; no protected status moves.
+
     K1056--K1060 expose and repair the nonlinear detector-transfer assumption
     in the frozen spectrum-shape holdout. An arbitrary unknown strictly
     increasing quadratic transfer destroys `mu` identifiability for every
@@ -13333,6 +13351,17 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1061--K1065 give the frozen four-mode quadratic route an exact residual
+  classifier, sharp response-normalized component-error threshold, and
+  coefficient-recovery audit. Which physical apparatus can now own a prepared
+  fourth mode, independent linear-response floor, component-error box,
+  dimensional scale, measured record and complete systematics? Is the
+  `lambda=24` preparation preferable to a higher-mode design once preparation
+  cost is measured, or does the sub-one-percent asymptotic ceiling make the
+  three-mode bounded-curvature route operationally superior? Or which
+  source-selected coefficient-complete GU action owns the scale, stationary
+  background and functional positive BV/BFV quotient?
+
   K1056--K1060 show that the affine transfer premise is load-bearing. Arbitrary
   monotone quadratic response erases the dimensionless horn even with
   unlimited modes. Three modes remain usable only inside the exact joint
@@ -14952,6 +14981,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K1061--K1065 close the mathematical finite-noise interface for the common-
+  quadratic four-mode route. Preserve the exact residual witnesses, the strict
+  symmetric `eta/gamma<0.00241504213401009...` boundary for
+  `{3,8,15,24}`, the response-amplification factors `7` and
+  `10.2246196659792...`, and the high-mode asymptotic ceiling
+  `0.00955587804121949...`. Do not infer physical calibration from fitted
+  coefficients, claim global monotonicity from the checked fixtures, or
+  relabel dimensionless horn identification as absolute mass or GU selection.
+  Reopen scoring only with an owned fourth-mode preparation, independent
+  response floor, component-error box, dimensional scale, measured record and
+  complete systematic audit. GU credit additionally requires a source-selected
+  coefficient-complete action and functional positive quotient.
+
   K1056--K1060 close the quadratic detector-transfer ambiguity for the frozen
   candidate horns. Preserve the all-mode pure-quadratic countermodel, the sharp
   three-mode curvature threshold `tau_*=0.0234898863260114...`, K1058's exact

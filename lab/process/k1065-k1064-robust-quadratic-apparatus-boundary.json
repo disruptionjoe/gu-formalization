@@ -1,0 +1,76 @@
+{
+  "candidate_pass_count": 4,
+  "created": "2026-10-04",
+  "empirically_scorable_count": 0,
+  "gu_source_owned_count": 0,
+  "next_condition": "supply a calibrated response floor and component-error bound satisfying K1062, plus dimensional scale, preparation, measured record and complete systematics; GU credit separately requires the source-selected action and positive quotient",
+  "protected_ledger_status": {
+    "AC-F1": "NEEDS",
+    "LT-GR6b": "NEEDS",
+    "LT-SM8": "NEEDS",
+    "RA-F1": "NEEDS"
+  },
+  "protected_source_status": {
+    "SC-ACT-01": "ASSERTS",
+    "SC-ACT-02": "ASSERTS",
+    "SC-ACT-06": "ASSERTS",
+    "SC-META-53": "UNCERTAIN"
+  },
+  "result_id": "K1065-K1064-ROBUST-QUADRATIC-APPARATUS-BOUNDARY",
+  "rows": [
+    {
+      "owner": "repository_owned_candidate",
+      "requirement": "four_mode_exact_residual_witness",
+      "status": "PASS"
+    },
+    {
+      "owner": "repository_owned_candidate",
+      "requirement": "bounded_component_error_certificate",
+      "status": "PASS"
+    },
+    {
+      "owner": "repository_owned_candidate",
+      "requirement": "linear_response_recovery",
+      "status": "PASS"
+    },
+    {
+      "owner": "repository_owned_candidate",
+      "requirement": "higher_mode_design_tradeoff",
+      "status": "PASS"
+    },
+    {
+      "owner": "apparatus_unowned",
+      "requirement": "certified_physical_linear_response_floor",
+      "status": "OPEN"
+    },
+    {
+      "owner": "apparatus_unowned",
+      "requirement": "dimensional_spatial_scale",
+      "status": "OPEN"
+    },
+    {
+      "owner": "apparatus_unowned",
+      "requirement": "four_or_higher_mode_preparation_record",
+      "status": "OPEN"
+    },
+    {
+      "owner": "apparatus_unowned",
+      "requirement": "measured_detector_record_and_complete_systematics",
+      "status": "OPEN"
+    },
+    {
+      "owner": "gu_source_unowned",
+      "requirement": "source_selected_coefficient_complete_action",
+      "status": "OPEN"
+    },
+    {
+      "owner": "gu_source_unowned",
+      "requirement": "stationary_positive_functional_bv_bfv_quotient",
+      "status": "OPEN"
+    }
+  ],
+  "schema_version": "1.0",
+  "scope": "conditional apparatus requirements only; no source, ledger, empirical, prediction, confirmation, canon or public move",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}
