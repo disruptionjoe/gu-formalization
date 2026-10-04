@@ -1472,7 +1472,7 @@
     },
     "research_agenda": {
       "path": "lab/process/RESEARCH-AGENDA.json",
-      "sha256": "6a3645b091fbd04bd162c9670f0517008b5b0363db75411fc6f9b61e25a6a7e6"
+      "sha256": "83240b00e70adb08ff022dfe7739f4b1d4d5c8078cbebf7c1aa55bd9c343b265"
     },
     "k684_closed_column_remainder_compiler": {
       "path": "lab/process/k684-k500-closed-column-remainder-compiler.json",
@@ -2619,10 +2619,11 @@
     "exact_reopener": "action-owned equation-9.16 map fixing internal projection, form-leg contraction, real/Krein coefficients, family covector, selected quadratic owner and nonzero background or interaction meaning"
   },
   "live_frontier": {
-    "current_question_contains": "K1066--K1070 prove that higher fourth modes monotonically improve the common-quadratic residual budget",
-    "selected_condition": "GLOBAL_FOURTH_MODE_MONOTONICITY__LEAST_MODE_INVERSE_DESIGN__MATCHED_THREE_FOUR_MODE_CROSSOVER__MONOTONE_COST_PARETO_RULE__SIX_CANDIDATE_PASS__ZERO_GU_OWNED_ZERO_SCORABLE__NO_PROTECTED_CLAIM_MOVE",
+    "current_question_contains": "K1071--K1075 prove that the existing K77 quotient and generator packet admits every positive mass coefficient",
+    "selected_condition": "FULL_POSITIVE_MASS_FAMILY__FIXED_COMMON_PAIRING_OBSTRUCTION__PAIRING_RATIO_SELECTOR__MULTIMODE_AFFINE_STIFFNESS__FOUR_MATHEMATICAL_PASS__ZERO_GU_OWNED_ZERO_SCORABLE__NO_PROTECTED_CLAIM_MOVE",
     "b2_root": "EMPTY_NAMED_OWNER_SET",
     "reopeners": [
+      "supply a source/action-owned positive functional pairing or Hessian on a native stationary domain, verify common kinetic normalization and the affine stiffness law S_qq(lambda)=c(lambda+u), read the mass intercept u, then compose the physical preparation, response floor, component-error box, ruler, measured record and complete systematic audit",
       "supply an independently selected tolerance, measured physical mode-preparation cost curve, calibrated nonzero linear-response floor and component-error box, dimensional scale, measured record and complete systematic audit; then use K1067--K1069 to choose the least-cost feasible route; GU credit additionally requires a source-selected coefficient-complete action owning the scale and functional positive quotient",
       "supply a GU-owned physical quotient and positive state/effect pairing, commuting local observable algebras, an action-derived local generator, ownership of the noisy state family, preparation, settings and detector calibration, common domain and locality theorem, and a complete statistical/systematic error budget before scoring entanglement or Bell relations",
       "supply a GU-owned physical quotient and positive state/effect pairing, an action-owned charge generator and integer spectrum plus a selected circular generator or real lift on a common domain, the locality theorem, and either operational all-harmonic access with a declared finite-band regularity/error budget or a winding-sensitive native record before scoring",

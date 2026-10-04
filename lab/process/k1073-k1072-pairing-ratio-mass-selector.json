@@ -1,0 +1,44 @@
+{
+  "circularity_guard": "constructing S from a previously chosen u proves compatibility but does not select u; the pairing must be independently source/action owned",
+  "claim_ceiling": "exact conditional selector for the supplied modewise candidate family",
+  "controls": [
+    {
+      "S_pp": "1",
+      "S_qq": "1",
+      "lambda": "0",
+      "selected_mass_squared": "1"
+    },
+    {
+      "S_pp": "1",
+      "S_qq": "4",
+      "lambda": "0",
+      "selected_mass_squared": "4"
+    },
+    {
+      "S_pp": "1",
+      "S_qq": "8",
+      "lambda": "3",
+      "selected_mass_squared": "5"
+    },
+    {
+      "S_pp": "5",
+      "S_qq": "35",
+      "lambda": "8",
+      "selected_mass_squared": "-1"
+    }
+  ],
+  "created": "2026-10-04",
+  "ownership": {
+    "conditional_selector": true,
+    "physical_mass_selected": false,
+    "source_action_pairing_owned": false
+  },
+  "positive_solution_cone": "S=c diag(lambda+u,1) with c>0",
+  "result_id": "K1073-K1072-PAIRING-RATIO-MASS-SELECTOR",
+  "scale_invariance": "overall positive rescaling of S cancels from S_qq/S_pp",
+  "schema_version": "1.0",
+  "selector": "u=S_qq/S_pp-lambda",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "uniqueness": "for a fixed positive pairing S and known spatial eigenvalue lambda, at most one positive mass coefficient is energy-skew"
+}

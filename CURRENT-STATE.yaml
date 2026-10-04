@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f77fc1810ce5
+revision_basis: a2aa373c4b1e
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,26 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1071--K1075 switch from two distance-only apparatus waves to the
+    action/positive-pairing branch and close the coefficient-selection
+    algebra for the repository-owned K77 wave family. Every positive mass
+    squared `u>0` passes the same positive-quotient, energy-skew generator and
+    algebraic local-effect rows when its energy form is rebuilt as
+    `M_u=diag(lambda+u,1,0)`. For the full symmetric pairing
+    `S=[[a,b],[b,c]]`, invariance under `K_w=[[0,1],[-w,0]]` holds exactly
+    when `b=0` and `a=wc`. One fixed nonzero positive pairing therefore
+    cannot symmetrize two distinct masses at one spatial mode, while an
+    independently fixed pairing selects
+    `u=S_qq/S_pp-lambda`. Across modes, common kinetic normalization forces
+    the affine stiffness law `S_qq(lambda)=c(lambda+u)`; its intercept-to-
+    slope ratio is `u`. Rebuilding `S` after choosing `u` is compatibility,
+    not selection. Four mathematical rows pass at candidate or conditional
+    grade, but zero become GU-source-owned or scorable because no source/action-
+    owned positive functional pairing or Hessian supplies the ratio, common
+    normalization or intercept. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53
+    remains `UNCERTAIN`, and LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain `NEEDS`;
+    no protected status moves.
+
     K1066--K1070 close the mathematical fourth-mode design question left by
     K1064. The sharp symmetric `eta/gamma` threshold is globally strictly
     increasing for every `lambda_n=n(n+2)`, not merely the checked fixtures,
@@ -13370,6 +13390,17 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1071--K1075 prove that the existing K77 quotient and generator packet
+  admits every positive mass coefficient when its energy pairing is allowed
+  to vary with that coefficient. A single independently fixed positive
+  pairing instead selects at most one coefficient, and common mode
+  normalization makes its stiffness affine with mass equal to the intercept-
+  to-slope ratio. Which source/action-owned functional Hessian or positive
+  quotient pairing can now supply that ratio and common normalization on a
+  native stationary background? If one does, does its affine law hold on the
+  actual domain, and what mass coefficient does it select before any apparatus
+  score is attempted?
+
   K1066--K1070 prove that higher fourth modes monotonically improve the
   common-quadratic residual budget, but with inverse-distance cost growth near
   a sub-one-percent ceiling. Under matched response units they also give the
@@ -15011,6 +15042,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K1071--K1075 close the structural mass-selection algebra for the supplied
+  K77 quadratic family. Preserve the full positive-family compatibility
+  theorem, the common-pairing obstruction, the conditional selector
+  `u=S_qq/S_pp-lambda`, the multimode affine stiffness law and the circularity
+  guard. Do not treat the candidate-dependent K1037 energy as independent
+  selection evidence, infer source ownership from algebraic compatibility, or
+  score a mass without the physical apparatus. Reopen this branch only with a
+  source/action-owned positive functional pairing or Hessian on a native
+  stationary domain; verify common mode normalization and the affine law,
+  read its mass intercept, then compose K1070's preparation, response, ruler,
+  measured-record and complete-systematics requirements.
+
   K1066--K1070 close the global candidate mode-design mathematics. Preserve
   strict fourth-mode monotonicity, the least-mode inverse table, the
   `[2+sqrt(7)-sqrt(19)]/[8(n+1)]` leading ceiling deficit, and the matched-

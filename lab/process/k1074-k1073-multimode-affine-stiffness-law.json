@@ -1,0 +1,57 @@
+{
+  "affine_characterization": "the stiffness slope is c and the intercept is c u",
+  "claim_ceiling": "exact multimode compatibility and recovery theorem for the supplied quadratic wave family",
+  "controls": [
+    {
+      "kinetic_scale": "1",
+      "lambda_pair": [
+        "3",
+        "15"
+      ],
+      "mass_squared": "1",
+      "recovered_mass_squared": "1",
+      "recovered_scale": "1",
+      "stiffness_pair": [
+        "4",
+        "16"
+      ]
+    },
+    {
+      "kinetic_scale": "3",
+      "lambda_pair": [
+        "3",
+        "15"
+      ],
+      "mass_squared": "4",
+      "recovered_mass_squared": "4",
+      "recovered_scale": "3",
+      "stiffness_pair": [
+        "21",
+        "57"
+      ]
+    },
+    {
+      "kinetic_scale": "7/3",
+      "lambda_pair": [
+        "3",
+        "15"
+      ],
+      "mass_squared": "5/2",
+      "recovered_mass_squared": "5/2",
+      "recovered_scale": "7/3",
+      "stiffness_pair": [
+        "77/6",
+        "245/6"
+      ]
+    }
+  ],
+  "created": "2026-10-04",
+  "law": "S_qq(lambda)=c(lambda+u), S_pp(lambda)=c with common c>0",
+  "normalization_boundary": "if each mode has an unrelated kinetic scale c_lambda, invariance alone selects only the per-mode ratio and does not identify one common u",
+  "result_id": "K1074-K1073-MULTIMODE-AFFINE-STIFFNESS-LAW",
+  "schema_version": "1.0",
+  "source_boundary": "the affine law is a candidate action requirement; no source-owned functional Hessian/pairing supplies its slope or intercept",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "two_mode_recovery": "c=(A2-A1)/(lambda2-lambda1), u=A1/c-lambda1"
+}

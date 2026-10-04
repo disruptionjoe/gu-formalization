@@ -1,0 +1,125 @@
+{
+  "claim_ceiling": "exact positive-coefficient family inside the K77 repository-owned quadratic candidate class only",
+  "controls": [
+    {
+      "defect": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "mass_squared": "1/7",
+      "omega_squared": "1/7",
+      "quotient_positive": true,
+      "radical_invariant": true,
+      "spatial_eigenvalue": "0"
+    },
+    {
+      "defect": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "mass_squared": "1",
+      "omega_squared": "4",
+      "quotient_positive": true,
+      "radical_invariant": true,
+      "spatial_eigenvalue": "3"
+    },
+    {
+      "defect": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "mass_squared": "4",
+      "omega_squared": "12",
+      "quotient_positive": true,
+      "radical_invariant": true,
+      "spatial_eigenvalue": "8"
+    },
+    {
+      "defect": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "mass_squared": "25/3",
+      "omega_squared": "70/3",
+      "quotient_positive": true,
+      "radical_invariant": true,
+      "spatial_eigenvalue": "15"
+    }
+  ],
+  "created": "2026-10-04",
+  "family_result": "every positive u has the same K77 quotient, gauge radical and algebraic local-effect rows; the energy pairing varies with u",
+  "identity": "K_u^T M_u+M_u K_u=0 identically in lambda and u",
+  "mode_rule": "omega_squared=lambda+u",
+  "ownership": {
+    "repository_candidate_family": true,
+    "scorable": false,
+    "source_selected_coefficient": false
+  },
+  "parameter_domain": "every real mass_squared u>0 and spatial eigenvalue lambda>=0",
+  "result_id": "K1071-K1070-POSITIVE-MASS-FAMILY-COMPOSITION",
+  "schema_version": "1.0",
+  "status": "working_draft_verified",
+  "structural_rows": [
+    "physical_quotient",
+    "state_effect_pairing",
+    "action_generator",
+    "local_observables"
+  ],
+  "symbolic_pair": {
+    "K_u": "[[0,1,0],[-(lambda+u),0,0],[0,0,0]]",
+    "M_u": "diag(lambda+u,1,0)"
+  },
+  "target_claim": "NONE-NOT-A-KILL"
+}

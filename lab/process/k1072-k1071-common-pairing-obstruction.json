@@ -1,0 +1,71 @@
+{
+  "claim_ceiling": "exact two-generator linear-algebra obstruction inside the supplied candidate family",
+  "contrary_boundary": "an indefinite or positive pairing may symmetrize one chosen coefficient; the obstruction concerns one fixed pairing for two distinct coefficients",
+  "controls": [
+    {
+      "defect": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "omega_squared": "1",
+      "pairing": [
+        "1",
+        "0",
+        "1"
+      ]
+    },
+    {
+      "defect": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "omega_squared": "4",
+      "pairing": [
+        "4",
+        "0",
+        "1"
+      ]
+    },
+    {
+      "defect": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "omega_squared": "11/3",
+      "pairing": [
+        "11/3",
+        "0",
+        "1"
+      ]
+    }
+  ],
+  "created": "2026-10-04",
+  "defect_formula": "K_w^T S+S K_w=[[-2wb,a-wc],[a-wc,2b]]",
+  "general_pairing": "S=[[a,b],[b,c]]",
+  "generator": "K_w=[[0,1],[-w,0]] with w=lambda+u>0",
+  "positive_consequence": "no nonzero positive-semidefinite coefficient-independent pairing symmetrizes two distinct masses at one fixed mode",
+  "result_id": "K1072-K1071-COMMON-PAIRING-OBSTRUCTION",
+  "schema_version": "1.0",
+  "single_generator_solution": "b=0 and a=w c",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "two_generator_theorem": "if w1!=w2 and the same S symmetrizes both, then a=b=c=0"
+}

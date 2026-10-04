@@ -7,6 +7,19 @@ updated_at: "2026-10-04"
 
 # Next Steps For Contributors
 
+> **2026-10-04 K1071--K1075 ACTION-PAIRING MASS-SELECTION BOUNDARY.** Every
+> positive mass coefficient passes the repository-owned K77 quotient,
+> energy-skew generator and algebraic local-effect packet when its energy form
+> is rebuilt with that coefficient. One fixed nonzero positive pairing cannot
+> symmetrize two distinct masses at a fixed spatial mode. Conversely, an
+> independently fixed pairing selects `u=S_qq/S_pp-lambda`; across modes,
+> common kinetic normalization forces affine stiffness with mass equal to the
+> intercept-to-slope ratio. The K1037 candidate-dependent energy is therefore
+> compatibility evidence, not a selector. Next supply a source/action-owned
+> positive functional pairing or Hessian on a native stationary domain,
+> verify its common normalization and affine law, read the selected mass, and
+> only then compose K1070's physical apparatus and systematics packet.
+
 > **2026-10-04 K1066--K1070 GLOBAL QUADRATIC MODE-DESIGN BOUNDARY.** The
 > higher-fourth-mode tolerance is now proved globally strictly increasing, not
 > only sampled. Targets `0.003`, `0.005`, `0.0075`, `0.009`, and `0.0095`

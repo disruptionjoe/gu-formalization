@@ -7,6 +7,20 @@ updated_at: "2026-10-04"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1071--K1075 action-pairing mass-selection boundary (2026-10-04)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Every positive mass coefficient passes the K77 quotient/generator/effect packet when its energy form moves with the coefficient | K1071 symbolic identity and four exact rational controls; producer `14/14`; hostile mutations `14/14` | exact family theorem for the repository-owned quadratic candidates; no source selection |
+| One fixed nonzero positive pairing cannot symmetrize two distinct mass generators at one spatial mode | K1072 full symmetric-pairing classification; producer `10/10`; hostile mutations `10/10` | exact two-generator obstruction inside the supplied family; no global action no-go |
+| An independently fixed positive pairing selects `u=S_qq/S_pp-lambda` | K1073 positive solution cone, scale cancellation and circularity guard; producer `9/9`; hostile mutations `9/9` | exact conditional selector; the required pairing is unowned |
+| Common kinetic normalization across modes forces affine stiffness with mass equal to intercept/slope | K1074 two-mode recovery and three rational controls; producer `8/8`; hostile mutations `8/8` | exact multimode candidate-action requirement; no source functional Hessian |
+| Four mathematical rows pass while zero rows become GU-owned or empirically scorable | K1075 six-row ownership matrix; producer `9/9`; hostile mutations `10/10` | candidate requirement disposition; no empirical score, prediction or confirmation |
+
+SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`, and LT-SM8,
+LT-GR6b, RA-F1 and AC-F1 remain `NEEDS`. No empirical score, prediction,
+confirmation, canon or public status moves.
+
 ## K1066--K1070 global quadratic mode-design boundary (2026-10-04)
 
 | Claim | Evidence | Honest grade |

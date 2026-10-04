@@ -1,0 +1,67 @@
+{
+  "circularity_result": "the K1037 mass-dependent energy form cannot be reused as independent selection evidence",
+  "counts": {
+    "gu_source_owned": 0,
+    "mathematical_pass_or_conditional": 4,
+    "open_physical_or_source": 2,
+    "scorable": 0
+  },
+  "created": "2026-10-04",
+  "ledger_effect": "none -- LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS",
+  "next_condition": "supply a source/action-owned positive functional pairing or Hessian with common mode normalization; verify its affine stiffness law and read the mass intercept before composing the measured apparatus",
+  "requirements": [
+    {
+      "candidate_grade": "pass",
+      "evidence": "K1071",
+      "gu_source_owned": false,
+      "id": "positive_mass_family",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "pass",
+      "evidence": "K1072",
+      "gu_source_owned": false,
+      "id": "fixed_common_pairing_obstruction",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "pass_conditional",
+      "evidence": "K1073",
+      "gu_source_owned": false,
+      "id": "pairing_ratio_selector",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "pass_conditional",
+      "evidence": "K1074",
+      "gu_source_owned": false,
+      "id": "multimode_affine_stiffness",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "open",
+      "evidence": "SC-ACT-01/02/06 and LT-SM8/LT-GR6b",
+      "gu_source_owned": false,
+      "id": "source_action_pairing",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "open",
+      "evidence": "K1070 open rows",
+      "gu_source_owned": false,
+      "id": "measured_apparatus",
+      "scorable": false
+    }
+  ],
+  "result_id": "K1075-K1074-ACTION-PAIRING-SELECTION-BOUNDARY",
+  "schema_version": "1.0",
+  "selection_result": "structural compatibility admits every positive mass when its energy pairing is rebuilt with that mass; one independently fixed positive pairing selects at most one coefficient",
+  "source_scope": {
+    "SC-ACT-01": "ASSERTS",
+    "SC-ACT-02": "ASSERTS",
+    "SC-ACT-06": "ASSERTS",
+    "SC-META-53": "UNCERTAIN"
+  },
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}
