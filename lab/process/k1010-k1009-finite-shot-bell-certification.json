@@ -1,0 +1,41 @@
+{
+  "claim_ceiling": "Union-Hoeffding finite-shot certificate for four bounded iid correlators plus an ownership disposition only; no systematic-error theorem, loophole closure, GU-native measurement or empirical score.",
+  "classification": "INTERNAL_REQUIREMENT_DISPOSITION",
+  "created": "2026-10-04",
+  "exact_example": {
+    "V": "2/5",
+    "alpha": "1/20",
+    "margin_numeric": 0.15406592285380194,
+    "n_per_correlator": 1711,
+    "p": "1",
+    "penalty_at_n": 0.15404423473387804,
+    "penalty_at_n_minus_one": 0.15408927032458847,
+    "total_shots": 6844,
+    "true_margin": "2(sqrt(29)/5-1)"
+  },
+  "ownership": {
+    "gu_physical_quotient_state_effect_locality_or_detector_constructed": false,
+    "prediction_or_confirmation": false
+  },
+  "result_id": "K1010-K1009-FINITE-SHOT-BELL-CERTIFICATION",
+  "schema_version": "1.0",
+  "statistical_contract": {
+    "certificate": "S_hat>2+beta implies S>2",
+    "confidence": "1-alpha",
+    "margin_budget": "n>=8 log(8/alpha)/m^2 per correlator",
+    "outcomes": "four iid streams in [-1,1]",
+    "penalty": "beta(n,alpha)=sqrt(8 log(8/alpha)/n)",
+    "per_correlator_shots": "n"
+  },
+  "status": "working_draft_verified",
+  "systematic_extension": "S_hat>2+beta+sigma_sys",
+  "target_claim": "NONE-NOT-A-KILL",
+  "unowned_assumptions": [
+    "iid trials",
+    "correct bounded outcomes",
+    "predeclared settings",
+    "Bell-compatible randomization",
+    "detector semantics",
+    "systematic-error allocation"
+  ]
+}

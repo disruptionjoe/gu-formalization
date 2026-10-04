@@ -1,0 +1,36 @@
+{
+  "claim_ceiling": "Exact separation between PPT entanglement and optimized CHSH violation inside K1006 only; no all-measurement local model or GU-native state claim.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "created": "2026-10-04",
+  "exact_separator": {
+    "S_fixed_squared": "1568/625",
+    "S_max_squared": "1856/625",
+    "entanglement_control": "p(1+2lambda)=36/25>1",
+    "fixed_CHSH_violates": false,
+    "lambda": "2/5",
+    "optimized_CHSH_violates": false,
+    "p": "4/5"
+  },
+  "optimized_chsh": {
+    "formula": "S_max=2p sqrt(1+lambda^2)",
+    "threshold": "p_B=1/sqrt(1+lambda^2)",
+    "violation_iff": "p^2(1+lambda^2)>1"
+  },
+  "ownership": {
+    "gu_state_or_measurement_owner_constructed": false,
+    "prediction_or_confirmation": false
+  },
+  "result_id": "K1008-K1007-ENTANGLED-BELL-LOCAL-SEPARATOR",
+  "schema_version": "1.0",
+  "scope": {
+    "all_measurement_lhv_model_claimed": false,
+    "optimized_chsh_local_only": true
+  },
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "threshold_order": {
+    "entanglement_threshold": "p_E=1/(1+2 lambda)",
+    "proof_gap": "(1+2 lambda)^2-(1+lambda^2)=lambda(4+3 lambda)>0",
+    "strict_order_for_positive_lambda": "p_E<p_B"
+  }
+}

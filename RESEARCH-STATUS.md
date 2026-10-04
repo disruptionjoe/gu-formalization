@@ -8,6 +8,31 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-04 — K1006--K1010 noisy-Bell scoring boundary
+
+K1006 introduces the two-parameter imported state
+`rho_(p,lambda)=p rho_lambda+(1-p)I_4/4`. Its eigenvalues are
+`(1+p+2p lambda)/4`, `(1+p-2p lambda)/4`, and two copies of `(1-p)/4`,
+while its correlation tensor is `p diag(lambda,-lambda,1)`.
+
+K1007 diagonalizes the partial transpose. The state is entangled exactly when
+`p(1+2 lambda)>1`; its negativity is
+`max(0,(p(1+2 lambda)-1)/4)` and its concurrence is twice the negativity.
+K1008 compares that threshold with optimized CHSH violation,
+`p^2(1+lambda^2)>1`, and proves a nonempty entangled-but-CHSH-local interval
+for every `lambda>0`. At `(p,lambda)=(4/5,2/5)`, the partial-transpose minimum
+is `-11/100`, while `S_max^2=1856/625<4`.
+
+K1009 proves the identifiability boundary. Under common contrast,
+`V=p lambda` and `<ZZ>=p`, so `S_max^2/4=p^2+V^2`; visibility alone admits
+opposite Bell decisions. K1010 supplies a four-correlator union-Hoeffding
+certificate with radius `sqrt(8 log(8/alpha)/n)` and keeps systematic error as
+a separate additive budget.
+
+No GU action, physical quotient, source claim, ledger row, empirical score,
+prediction, confirmation, canon or public verdict changes. Five producers pass
+65 declared controls and five hostile probes reject 53/53 mutations.
+
 ## 2026-10-04 — K1001--K1005 optimized-Bell scope correction
 
 K1001 applies the correlation-tensor singular-value theorem to K956's damped

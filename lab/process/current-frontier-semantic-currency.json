@@ -1472,7 +1472,7 @@
     },
     "research_agenda": {
       "path": "lab/process/RESEARCH-AGENDA.json",
-      "sha256": "c33d016384fef349e223ae968d52fa9c80afb114bcee5fca12a17ce4b86af3d9"
+      "sha256": "c060c167d67e8f659dcea9ef90db62d52a77a0cecb7281b920de78955e5c68b7"
     },
     "k684_closed_column_remainder_compiler": {
       "path": "lab/process/k684-k500-closed-column-remainder-compiler.json",
@@ -2619,11 +2619,11 @@
     "exact_reopener": "action-owned equation-9.16 map fixing internal projection, form-leg contraction, real/Krein coefficients, family covector, selected quadratic owner and nonzero background or interaction meaning"
   },
   "live_frontier": {
-    "current_question_contains": "K1001--K1005 prove that the K957/K959 finite threshold is specific to Bell-endpoint settings frozen at `lambda=1`",
-    "selected_condition": "K957_FIXED_WITNESS_PRESERVED__POST_DAMPING_OPTIMUM_2SQRT1PLUSLAMBDA2__EVERY_NONZERO_IDEAL_VISIBILITY_VIOLATES__NO_FINITE_EXPONENTIAL_OPTIMIZED_BELL_DEATH__FINITE_MARGIN_NEEDS_VISIBILITY_ERROR_BUDGET__FIXED_VERSUS_ADAPTIVE_HOLDOUT_FROZEN_UNSCORED__NO_PROTECTED_CLAIM_MOVE",
+    "current_question_contains": "K1006--K1010 prove that an added depolarizing contrast separates entanglement, optimized Bell violation and interference visibility",
+    "selected_condition": "DEPOLARIZED_DAMPED_BELL_STATE__PPT_ENTANGLEMENT_THRESHOLD_BELOW_OPTIMIZED_CHSH_THRESHOLD__EXACT_ENTANGLED_BELL_LOCAL_SEPARATOR__VISIBILITY_ALONE_NONIDENTIFYING__ZZ_CONTRAST_CLOSES_TWO_PARAMETER_MODEL__FOUR_CORRELATOR_HOEFFDING_CERTIFICATE__SYSTEMATIC_BUDGET_STILL_EXTERNAL__NO_PROTECTED_CLAIM_MOVE",
     "b2_root": "EMPTY_NAMED_OWNER_SET",
     "reopeners": [
-      "supply a GU-owned physical quotient and positive state/effect pairing, commuting local observable algebras, an action-derived local generator, preparation and detector ownership, a declared fixed-or-adaptive Bell-setting protocol, common domain and locality theorem, and a finite statistical/systematic error budget before scoring the corrected Bell/visibility relation",
+      "supply a GU-owned physical quotient and positive state/effect pairing, commuting local observable algebras, an action-derived local generator, ownership of the noisy state family, preparation, settings and detector calibration, common domain and locality theorem, and a complete statistical/systematic error budget before scoring entanglement or Bell relations",
       "supply a GU-owned physical quotient and positive state/effect pairing, an action-owned charge generator and integer spectrum plus a selected circular generator or real lift on a common domain, the locality theorem, and either operational all-harmonic access with a declared finite-band regularity/error budget or a winding-sensitive native record before scoring",
       "supply a GU-owned physical quotient and positive state/effect pairing, an action-owned charge generator and spectrum plus characteristic exponent selecting an explicitly typed Brownian, jump, bounded-domain, unbounded/singular, reset/time-dependent, correlated-assignment or other horn, a common domain and clock/noise/limit/record accounting, the remote-marginal/locality theorem, and either the frozen native gap-one observable for the named pair or an owned record/unbounded-harmonic completion before scoring",
       "supply an action-owned seven-generator invariant lock, seven selected values and a complete functional boundary/Green/BV-BFV domain, or a separately justified genuinely nonlocal or noncommutative selector with its own reduced-observable and properness proof; otherwise retain charged boundary symmetry and switch reverse edge",
@@ -2735,6 +2735,6 @@
     "release_readiness_change": false,
     "public_posture_change": false
   },
-  "result_ref": "lab/process/k1000-k999-circle-lift-action-disposition.json",
+  "result_ref": "lab/process/k1010-k1009-finite-shot-bell-certification.json",
   "probe_ref": "tests/channel-swings/current_frontier_semantic_currency_audit.py"
 }

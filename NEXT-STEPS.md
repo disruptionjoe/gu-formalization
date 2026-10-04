@@ -7,6 +7,18 @@ updated_at: "2026-10-04"
 
 # Next Steps For Contributors
 
+> **2026-10-04 K1006--K1010 NOISY-BELL SCORING BOUNDARY.** For the imported
+> family `rho_(p,lambda)=p rho_lambda+(1-p)I_4/4`, entanglement is exact when
+> `p(1+2 lambda)>1`, whereas optimized CHSH violation requires
+> `p^2(1+lambda^2)>1`. The interval between those thresholds is nonempty for
+> every `lambda>0`; `(p,lambda)=(4/5,2/5)` is an exact entangled-but-Bell-local
+> control. If the same contrast controls interference then `V=p lambda` and
+> `<ZZ>=p`, so visibility alone cannot fix `S_max`; one extra calibration does.
+> A four-correlator union-Hoeffding certificate is now explicit, but a real
+> score still needs a GU-owned state family, quotient, positive pairing, local
+> observables, settings, contrast calibration, independence model and complete
+> statistical/systematic error budget.
+
 > **2026-10-04 K1001--K1005 OPTIMIZED-BELL SCOPE CORRECTION.** K957's
 > `sqrt(2)(1+lambda)` is the CHSH value for Bell-endpoint settings frozen at
 > `lambda=1`, not the post-damping optimum. The exact optimum is

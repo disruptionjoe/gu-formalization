@@ -1,0 +1,40 @@
+{
+  "claim_ceiling": "Exact two-qubit PPT, negativity and concurrence boundary inside K1006 only; no GU physical-state, preparation or empirical result.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "created": "2026-10-04",
+  "entanglement": {
+    "concurrence": "max(0,(p(1+2 lambda)-1)/2)=2 negativity",
+    "criterion": "p(1+2 lambda)>1",
+    "negativity": "max(0,(p(1+2 lambda)-1)/4)",
+    "threshold": "p_E=1/(1+2 lambda)"
+  },
+  "exact_control": {
+    "concurrence": "11/50",
+    "entangled": true,
+    "lambda": "2/5",
+    "negativity": "11/100",
+    "p": "4/5",
+    "partial_transpose_spectrum": [
+      "9/20",
+      "9/20",
+      "21/100",
+      "-11/100"
+    ],
+    "threshold_at_lambda": "5/9"
+  },
+  "ownership": {
+    "gu_physical_state_selected": false,
+    "ppt_is_internal_state_classification": true,
+    "prediction_or_confirmation": false
+  },
+  "partial_transpose_spectrum": [
+    "(1+p)/4",
+    "(1+p)/4",
+    "(1-p+2p lambda)/4",
+    "(1-p-2p lambda)/4"
+  ],
+  "result_id": "K1007-K1006-PPT-ENTANGLEMENT-THRESHOLD",
+  "schema_version": "1.0",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

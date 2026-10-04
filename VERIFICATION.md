@@ -7,6 +7,19 @@ updated_at: "2026-10-04"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1006--K1010 noisy-Bell scoring boundary (2026-10-04)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The depolarized damped Bell state is positive and has correlation tensor `p diag(lambda,-lambda,1)` | K1006 exact spectrum and matrix calculation; producer `14/14`; hostile mutations `10/10` | exact finite-dimensional theorem inside the imported state/Born model |
+| Entanglement is equivalent to `p(1+2 lambda)>1`, with exact negativity and concurrence | K1007 partial-transpose spectrum and X-state concurrence; producer `13/13`; hostile mutations `10/10` | exact two-qubit theorem for the supplied family |
+| Every nonzero `lambda` admits entangled states with no optimized CHSH violation | K1008 threshold comparison and exact `(4/5,2/5)` separator; producer `13/13`; hostile mutations `11/11` | exact separation of two criteria; no claim about all Bell inequalities |
+| Visibility alone does not identify optimized CHSH, while `<ZZ>` plus visibility does under common contrast | K1009 equal-visibility countermodels and reconstruction law; producer `13/13`; hostile mutations `12/12` | exact conditional identifiability result for the supplied apparatus law |
+| A finite-shot CHSH certificate follows from four independent bounded correlator means | K1010 union-Hoeffding bound; producer `12/12`; hostile mutations `10/10` | sufficient statistical certificate; systematic error, drift and apparatus ownership remain external |
+
+The noise family, preparations, observables and confidence model are imported;
+none is a GU derivation or empirical score.
+
 ## K1001--K1005 optimized-Bell scope correction (2026-10-04)
 
 | Claim | Evidence | Honest grade |

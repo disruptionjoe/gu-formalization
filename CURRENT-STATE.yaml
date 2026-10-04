@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: bffe2310176a
+revision_basis: 74ccef9629aa
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1006--K1010 add an explicit noise parameter to the imported damped Bell
+    family, `rho_(p,lambda)=p rho_lambda+(1-p)I_4/4`. The correlation tensor is
+    `p diag(lambda,-lambda,1)`. Exact partial-transpose analysis gives
+    entanglement iff `p(1+2 lambda)>1`, negativity
+    `max(0,(p(1+2 lambda)-1)/4)` and concurrence twice that value, while
+    optimized CHSH violation requires `p^2(1+lambda^2)>1`. Thus every
+    `lambda>0` has a nonempty entangled-but-CHSH-local interval; at
+    `(p,lambda)=(4/5,2/5)` the negativity is `11/100` but
+    `S_max^2=1856/625<4`. When the same contrast controls interference,
+    `V=p lambda` and `<ZZ>=p`, so visibility alone does not identify the Bell
+    score: `S_max^2/4=p^2+V^2`. Four correlators with `n` independent shots
+    each admit the union-Hoeffding certificate
+    `S_hat>2+sqrt(8 log(8/alpha)/n)`; a systematic-error allowance must be
+    added separately. The family, observables, calibration and error model are
+    imported and unscored. No GU action, quotient, source, ledger, prediction,
+    confirmation, canon or public verdict moves.
+
     K1001--K1005 correct the Bell-witness scope inside the imported K956
     dephasing model. K957's `sqrt(2)(1+lambda)` remains exact only for the
     Bell-endpoint settings frozen at `lambda=1`; the post-damping optimum is
@@ -13149,6 +13166,18 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1006--K1010 prove that an added depolarizing contrast separates
+  entanglement, optimized Bell violation and interference visibility. The
+  exact state is entangled when `p(1+2 lambda)>1`, but violates optimized CHSH
+  only when `p^2(1+lambda^2)>1`; visibility `V=p lambda` does not identify the
+  score without an independent contrast estimate such as `<ZZ>=p`. Finite-shot
+  certification additionally requires an owned confidence level, allocation,
+  independence argument and systematic-error budget. Can a GU-owned physical
+  quotient, positive state/effect pairing, local observable algebra and
+  action-derived generator now own the state family, preparations, settings,
+  contrast calibration, common domain, locality and full error model before
+  entanglement or Bell relations are scored?
+
   K1001--K1005 prove that the K957/K959 finite threshold is specific to
   Bell-endpoint settings frozen at `lambda=1`. The optimized damped-state value is
   `S_max=2 sqrt(1+lambda^2)`, so every nonzero ideal visibility violates and
@@ -14642,6 +14671,26 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K1006--K1010 close the assumption that one interference visibility or one
+  ideal Bell curve determines the noisy two-qubit state and its operational
+  score. Do not treat the repository's depolarizing parameter, density matrix,
+  Born pairing, preparations, Pauli correlators, common-contrast law,
+  confidence model or systematic budget as GU-selected. Reopen for GU credit
+  only with a physical quotient and positive state/effect pairing, commuting
+  local observable algebras, an action-owned local generator selecting the
+  state family, owned preparation/setting/detector and contrast-calibration
+  procedures, a common domain and locality theorem, and a complete
+  statistical/systematic error budget before scoring entanglement or Bell
+  violation.
+
+  K1001--K1005 close the finite-threshold claim for optimized CHSH inside the
+  ideal one-parameter damping family. Preserve K957/K959 only as a fixed-
+  setting witness and do not treat the repository's adaptive settings,
+  visibility law, resolution target or finite-margin budget as GU-selected.
+  Reopen for GU credit only with the same physical quotient, positive pairing,
+  local observable and action ownership plus a declared fixed-or-adaptive
+  setting protocol and complete error budget before scoring.
+
   K996--K1000 close the assumption that unbounded integer harmonics identify a
   real microscopic phase process. They identify the circle quotient when
   available at every harmonic and, for process identification, at every time;

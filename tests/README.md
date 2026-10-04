@@ -4,6 +4,26 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1006--K1010 noisy-Bell scoring boundary
+
+- `channel-swings/k1006_k1005_depolarized_damped_bell_state.py` certifies the
+  two-parameter state spectrum and correlation tensor; its probe rejects ten
+  mutations.
+- `channel-swings/k1007_k1006_ppt_entanglement_threshold.py` certifies the
+  exact PPT, negativity and concurrence threshold; its probe rejects ten
+  mutations.
+- `channel-swings/k1008_k1007_entangled_bell_local_separator.py` certifies the
+  strict threshold ordering and rational separator; its probe rejects eleven
+  mutations.
+- `channel-swings/k1009_k1008_visibility_noise_identifiability.py` certifies
+  equal-visibility countermodels and the extra-contrast reconstruction; its
+  probe rejects twelve mutations.
+- `channel-swings/k1010_k1009_finite_shot_bell_certification.py` certifies the
+  union-Hoeffding finite-shot rule and systematic-error boundary; its probe
+  rejects ten mutations.
+- Five producers pass 65 declared controls; five probes reject 53/53 hostile
+  mutations. No protected GU conclusion moves.
+
 ## K1001--K1005 optimized-Bell scope correction
 
 - `channel-swings/k1001_k957_optimized_chsh_correction.py` certifies the

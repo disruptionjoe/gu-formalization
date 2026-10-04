@@ -1,0 +1,41 @@
+{
+  "claim_ceiling": "Exact two-parameter cross-anchor relation and visibility-only nonidentifiability inside the imported shared-noise model; no GU-owned noise law or empirical result.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "created": "2026-10-04",
+  "identifiability": {
+    "additional_calibration": "<ZZ>=p",
+    "for_p_positive": "lambda=V/p",
+    "visibility_alone_sufficient": false
+  },
+  "ownership": {
+    "gu_cross_anchor_law_constructed": false,
+    "prediction_or_confirmation": false,
+    "shared_p_across_anchors_is_imported": true
+  },
+  "result_id": "K1009-K1008-VISIBILITY-NOISE-IDENTIFIABILITY",
+  "same_visibility_controls": [
+    {
+      "S_max_squared_over_4": "29/25",
+      "V": "2/5",
+      "lambda": "2/5",
+      "p": "1",
+      "violates_CHSH": true
+    },
+    {
+      "S_max_squared_over_4": "41/100",
+      "V": "2/5",
+      "lambda": "4/5",
+      "p": "1/2",
+      "violates_CHSH": false
+    }
+  ],
+  "schema_version": "1.0",
+  "shared_noise_model": {
+    "longitudinal_correlation": "<ZZ>=p",
+    "optimized_relation": "S_max^2/4=p^2+V^2",
+    "violation_iff": "p^2+V^2>1",
+    "visibility": "V=p lambda"
+  },
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

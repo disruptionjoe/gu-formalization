@@ -1,0 +1,42 @@
+{
+  "claim_ceiling": "Exact density and correlation spectrum for the repository-selected two-parameter noisy K956 control only; no GU-native state, action, detector or empirical claim.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "correlation_tensor": "p diag(lambda,-lambda,1)",
+  "created": "2026-10-04",
+  "exact_control": {
+    "correlation_diagonal": [
+      "8/25",
+      "-8/25",
+      "4/5"
+    ],
+    "lambda": "2/5",
+    "p": "4/5",
+    "spectrum": [
+      "61/100",
+      "29/100",
+      "1/20",
+      "1/20"
+    ],
+    "trace": "1"
+  },
+  "ownership": {
+    "gu_action_or_physical_quotient_constructed": false,
+    "isotropic_contrast_is_repository_selected": true,
+    "prediction_or_confirmation": false
+  },
+  "parameter_domain": [
+    "0<=p<=1",
+    "0<=lambda<=1"
+  ],
+  "result_id": "K1006-K1005-DEPOLARIZED-DAMPED-BELL-STATE",
+  "schema_version": "1.0",
+  "state": "rho_(p,lambda)=p rho_lambda+(1-p)I_4/4",
+  "state_spectrum": [
+    "(1+p+2p lambda)/4",
+    "(1+p-2p lambda)/4",
+    "(1-p)/4",
+    "(1-p)/4"
+  ],
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}
