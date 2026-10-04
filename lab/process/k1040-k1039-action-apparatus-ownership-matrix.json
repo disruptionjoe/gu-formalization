@@ -1,0 +1,81 @@
+{
+  "candidate_result": "K77 plus K1036--K1039 closes quotient, state/effect, closed-generator and algebraic-locality rows for one repository-owned candidate class",
+  "counts": {
+    "candidate_pass_or_algebraic": 4,
+    "fully_open_candidate_rows": 4,
+    "gu_source_owned": 0,
+    "scorable": 0
+  },
+  "created": "2026-10-04",
+  "ledger_effect": "none -- LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS",
+  "requirements": [
+    {
+      "candidate_grade": "pass",
+      "evidence": "K1036",
+      "gu_source_owned": false,
+      "id": "physical_quotient",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "pass",
+      "evidence": "K1038",
+      "gu_source_owned": false,
+      "id": "state_effect_pairing",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "pass",
+      "evidence": "K1037",
+      "gu_source_owned": false,
+      "id": "action_generator",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "open",
+      "evidence": "K1023",
+      "gu_source_owned": false,
+      "id": "preparation_herald",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "open",
+      "evidence": "K1021-K1022",
+      "gu_source_owned": false,
+      "id": "fresh_settings",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "pass_algebraic",
+      "evidence": "K1038",
+      "gu_source_owned": false,
+      "id": "local_observables",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "open",
+      "evidence": "K1026-K1029",
+      "gu_source_owned": false,
+      "id": "causal_event_record",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "open",
+      "evidence": "K1016-K1030",
+      "gu_source_owned": false,
+      "id": "detector_systematics",
+      "scorable": false
+    }
+  ],
+  "result_id": "K1040-K1039-ACTION-APPARATUS-OWNERSHIP-MATRIX",
+  "schema_version": "1.0",
+  "score_gate": "closed -- preparation/herald, fresh settings, spacelike records, detector/systematics, source ownership and a distinct frozen holdout remain absent",
+  "selection_result": "the same rows pass for mass squared 1 and 4, so the packet does not select a unique action",
+  "source_scope": {
+    "SC-ACT-01": "ASSERTS",
+    "SC-ACT-02": "ASSERTS",
+    "SC-ACT-06": "ASSERTS",
+    "SC-META-53": "UNCERTAIN"
+  },
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

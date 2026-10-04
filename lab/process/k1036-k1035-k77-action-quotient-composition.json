@@ -1,0 +1,85 @@
+{
+  "claim_ceiling": "exact composition of an existing repository-owned K77 candidate with K1031; no source-selected GU action, unique physical quotient, prediction or confirmation",
+  "created": "2026-10-04",
+  "finite_control": {
+    "M_equals_P_star_P": [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "P": [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ]
+    ],
+    "ambient_rank": 4,
+    "gauge_rank": 2,
+    "quotient_rank": 2,
+    "radical_basis": [
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "functional_composition": {
+    "action_basicness": "S_m[Phi+kappa]=S_m[Phi] because P kappa=0",
+    "ambient": "H1(M;V), rank(V)=1920",
+    "closed_range": "the_inclusion_is_isometric_and_I_minus_P_is_a_bounded_projection_onto_the_gauge_image",
+    "gauge": "H1(M;ker P), rank(ker P)=960",
+    "positive_pairing": "the transported incoming H equals the quotient pairing induced by P*H P",
+    "quotient": "H1(M;V)/H1(M;ker P) ~= H1(M;W), rank(W)=960"
+  },
+  "ownership": {
+    "repository_owned_candidate_action": true,
+    "source_selected_GU_action": false,
+    "unique_physical_quotient": false
+  },
+  "predecessors": [
+    "lab/process/k77-observed-action-owned-global-quotient-wave.json",
+    "lab/process/k1031-k1030-positive-quotient-descent.json"
+  ],
+  "result_id": "K1036-K1035-K77-ACTION-QUOTIENT-COMPOSITION",
+  "schema_version": "1.0",
+  "source_ledger_effect": "none -- SC-ACT-01/02/06 and SC-META-53 retain their prior polarities; LT-SM8 and LT-GR6b remain NEEDS",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

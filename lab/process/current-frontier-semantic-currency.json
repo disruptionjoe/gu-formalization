@@ -1472,7 +1472,7 @@
     },
     "research_agenda": {
       "path": "lab/process/RESEARCH-AGENDA.json",
-      "sha256": "e7e4ff9266bb42334a8fecb75ee3d714d6eddcf549a8470511a30f9ea6876a61"
+      "sha256": "f3a125df54faab79292a599853f10803de97b8924fb97784ec426a880fbc6a79"
     },
     "k684_closed_column_remainder_compiler": {
       "path": "lab/process/k684-k500-closed-column-remainder-compiler.json",
@@ -2619,8 +2619,8 @@
     "exact_reopener": "action-owned equation-9.16 map fixing internal projection, form-leg contraction, real/Krein coefficients, family covector, selected quadratic owner and nonzero background or interaction meaning"
   },
   "live_frontier": {
-    "current_question_contains": "K1031--K1035 prove the exact positive-quotient, observable, local-probability",
-    "selected_condition": "POSITIVE_QUOTIENT_RADICAL_DESCENT__MIXED_SIGN_FULL_CARRIER_BORN_OBSTRUCTION__LOCAL_POVM_NOSIGNALLING__K_STAR_M_PLUS_M_K_GENERATOR_COMPATIBILITY__EIGHT_ROW_ACTION_APPARATUS_OWNERSHIP_MATRIX_ALL_UNOWNED__NO_PROTECTED_CLAIM_MOVE",
+    "current_question_contains": "K1036--K1040 prove that one complete repository-owned K77 candidate class",
+    "selected_condition": "K77_REPOSITORY_OWNED_ACTION_POSITIVE_QUOTIENT_COMPOSITION__STATIONARY_MASSIVE_WAVE_GENERATOR_COMPATIBILITY__ALGEBRAIC_LOCAL_EFFECT_INTERFACE__MASS_ONE_VERSUS_MASS_FOUR_NONSELECTION__FOUR_CANDIDATE_ROWS_ZERO_GU_OWNED_ZERO_SCORABLE__NO_PROTECTED_CLAIM_MOVE",
     "b2_root": "EMPTY_NAMED_OWNER_SET",
     "reopeners": [
       "supply a GU-owned physical quotient and positive state/effect pairing, commuting local observable algebras, an action-derived local generator, ownership of the noisy state family, preparation, settings and detector calibration, common domain and locality theorem, and a complete statistical/systematic error budget before scoring entanglement or Bell relations",

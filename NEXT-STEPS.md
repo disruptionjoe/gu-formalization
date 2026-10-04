@@ -7,6 +7,18 @@ updated_at: "2026-10-04"
 
 # Next Steps For Contributors
 
+> **2026-10-04 K1036--K1040 K77 ACTION/QUOTIENT COMPOSITION.** The existing
+> repository-owned K77 candidate realizes K1031's positive quotient as
+> `P* H P` modulo `ker(P)`, has a closed Sobolev gauge image, and at the
+> stationary zero background its mass-one and mass-four generators satisfy
+> `K^T M+M K=0`. Its two-copy effects satisfy K1033 normalization and
+> remote-marginal invariance. Four apparatus rows therefore pass at candidate
+> or algebraic-candidate grade, but zero are GU-owned or scorable. Both mass
+> horns pass, so the packet does not select a unique action. Next require a
+> source-selected coefficient-complete action, native stationary background,
+> functional BV/BFV quotient, positive cohomology and owned discriminator,
+> then finish the physical apparatus and freeze a distinct holdout.
+
 > **2026-10-04 K1031--K1035 POSITIVE QUOTIENT AND ACTION REQUIREMENTS.** For a
 > finite carrier with `M>=0`, the physical pairing descends positively through
 > exactly `ker(M)`; operators must preserve that radical, effects obey

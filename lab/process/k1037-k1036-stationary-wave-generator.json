@@ -1,0 +1,137 @@
+{
+  "analytic_scope": "modewise exact control for the existing constant-coefficient H1 wave action; no nonlinear BV master equation or interacting common domain",
+  "background": "Phi=0 on the cooriented ultrastatic slab [0,1]xT3 is stationary for both quadratic candidate actions",
+  "created": "2026-10-04",
+  "horns": [
+    {
+      "K": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "M": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "defect": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "energy_derivative": 0,
+      "mass_squared": 1,
+      "omega_squared": 1,
+      "spatial_eigenvalue": 0
+    },
+    {
+      "K": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "M": [
+        [
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "defect": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "energy_derivative": 0,
+      "mass_squared": 4,
+      "omega_squared": 4,
+      "spatial_eigenvalue": 0
+    }
+  ],
+  "mode_rule": "omega_squared=spatial_eigenvalue+mass_squared; displayed exact controls use the spatial zero mode",
+  "ownership": {
+    "candidate_generator_owned": true,
+    "dissipative_CPTP_resource_owned": false,
+    "source_GU_generator_owned": false
+  },
+  "phase_space": "each spatial Fourier mode has quotient coordinates (q,p) and ambient gauge radical g",
+  "result_id": "K1037-K1036-STATIONARY-WAVE-GENERATOR",
+  "schema_version": "1.0",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "compatibility": "K^T M+M K=0",
+    "consequence": "the first-order flow descends to the positive quotient and conserves its Cauchy energy",
+    "radical": "span(g)=ker M is invariant under K"
+  }
+}

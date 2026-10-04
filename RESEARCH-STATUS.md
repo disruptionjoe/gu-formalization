@@ -8,6 +8,34 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-04 — K1036--K1040 K77 action/quotient composition
+
+K1036 composes K77's existing repository-owned action with K1031. The
+representative form is `M=P* H P`, its radical is exactly `ker(P)`, the
+Sobolev gauge image is closed by a bounded complementary projection, and the
+rank-1920 quotient is the positive rank-960 incoming carrier.
+
+K1037 derives the first-order quotient generator at the stationary zero
+background. For each spatial mode, `omega^2=lambda+m^2`,
+`M=diag(omega^2,1,0)` and `K=[[0,1,0],[-omega^2,0,0],[0,0,0]]` obey
+`K^T M+M K=0`; the gauge radical is invariant and quotient energy is
+conserved. K1038 composes the full-incoming
+two-copy effects with K1033, obtaining normalized probabilities and
+nonselective remote-marginal invariance.
+
+K1039 proves nonselection: both mass horns pass the same quotient, generator,
+state/effect and algebraic-locality rows while their zero-mode frequencies are
+one and two. K1040 therefore records four candidate-grade or
+algebraic-candidate rows, zero GU-source-owned rows and zero scorable rows.
+Preparation/herald, fresh settings, two-way spacelike records and detector plus
+complete systematics remain open.
+
+The result authenticates a complete repository-owned candidate; it does not
+authenticate a source-selected GU action. SC-ACT-01/02/06 remain `ASSERTS`,
+SC-META-53 remains `UNCERTAIN`, and LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain
+`NEEDS`. No protected verdict changes. Five producers pass 66 declared
+controls; five hostile probes reject 64/64 mutations.
+
 ## 2026-10-04 — K1031--K1035 positive quotient and action requirements
 
 K1031 proves the finite-dimensional descent theorem. For a positive

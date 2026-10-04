@@ -1,0 +1,30 @@
+{
+  "carrier": "two labelled copies of the K77 rank-960 positive quotient W",
+  "composition_grade": "exact algebraic candidate on the repository-owned K77 quotient",
+  "created": "2026-10-04",
+  "instrument": "the complete local rank-one/complement instrument depends only on P Phi and is trace preserving",
+  "marginal_after": {
+    "(0, 0)": "1/2",
+    "(1, 1)": "1/2"
+  },
+  "marginal_before": {
+    "(0, 0)": "1/2",
+    "(1, 1)": "1/2"
+  },
+  "open_physical_boundary": "the tensor-copy rule, spacelike realization, preparation, settings and detectors are not source/action-selected GU apparatus",
+  "ownership": {
+    "candidate_effect_interface": true,
+    "scorable_apparatus": false,
+    "source_GU_local_algebra": false
+  },
+  "probabilities": [
+    "1/2",
+    "1/2"
+  ],
+  "probability_sum": "1",
+  "result_id": "K1038-K1037-QUOTIENT-LOCAL-EFFECT-COMPOSITION",
+  "schema_version": "1.0",
+  "state": "normalized Bell control supported on a two-dimensional subspace of W tensor W",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

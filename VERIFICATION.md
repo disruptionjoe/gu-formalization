@@ -7,6 +7,20 @@ updated_at: "2026-10-04"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1036--K1040 K77 action/quotient composition (2026-10-04)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The K77 functional quotient is an exact K1031 instance with representative form `P* H P`, radical `ker(P)` and positive rank-960 quotient | K1036 exact-sequence and finite-control composition; producer `13/13`; hostile mutations `12/12` | exact composition for the existing repository-owned candidate; not source-selected GU |
+| The mass-one and mass-four stationary wave generators preserve the radical and quotient energy | K1037 direct `K^T M+M K=0` and energy-derivative controls; producer `15/15`; hostile mutations `14/14` | exact modewise constant-coefficient result; no nonlinear BV or dissipative resource |
+| K77's quotient states/effects give normalized local probabilities and nonselective remote-marginal invariance | K1038 Bell-control and complete-instrument replay; producer `13/13`; hostile mutations `13/13` | exact algebraic candidate interface; no source-selected spacelike apparatus |
+| Current structural requirements do not select between the two K77 mass horns | K1039 common-row comparison and distinct frequencies `1` versus `2`; producer `12/12`; hostile mutations `12/12` | exact two-candidate nonselection; not a global GU action no-go |
+| Four apparatus rows pass at candidate/algebraic grade while zero are GU-owned or scorable | K1040 three-grade ownership matrix; producer `13/13`; hostile mutations `13/13` | exact ownership audit; protected source and ledger states unchanged |
+
+SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`, and LT-SM8,
+LT-GR6b, RA-F1 and AC-F1 remain `NEEDS`. No empirical score, prediction,
+confirmation, canon or public status moves.
+
 ## K1031--K1035 positive quotient and action requirements (2026-10-04)
 
 | Claim | Evidence | Honest grade |

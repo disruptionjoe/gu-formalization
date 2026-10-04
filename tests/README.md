@@ -4,6 +4,24 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1036--K1040 K77 action/quotient composition
+
+- `channel-swings/k1036_k1035_k77_action_quotient_composition.py` composes the
+  K77 functional quotient with K1031; its probe rejects twelve mutations.
+- `channel-swings/k1037_k1036_stationary_wave_generator.py` certifies the
+  mass-one and mass-four stationary generators; its probe rejects fourteen
+  mutations.
+- `channel-swings/k1038_k1037_quotient_local_effect_composition.py` certifies
+  the quotient-local probability and remote-marginal identities; its probe
+  rejects thirteen mutations.
+- `channel-swings/k1039_k1038_mass_horn_nonselection.py` proves the two current
+  candidate actions remain unselected; its probe rejects twelve mutations.
+- `channel-swings/k1040_k1039_action_apparatus_ownership_matrix.py` certifies
+  candidate versus GU-source versus scorable ownership; its probe rejects
+  thirteen mutations.
+- Five producers pass 66 declared controls; five probes reject 64/64 hostile
+  mutations. No protected GU conclusion moves.
+
 ## K1031--K1035 positive quotient and action requirements
 
 - `channel-swings/k1031_k1030_positive_quotient_descent.py` certifies positive
