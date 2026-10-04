@@ -1,0 +1,65 @@
+{
+  "boundary": {
+    "not_excluded": [
+      "infinite or continuum environment",
+      "fresh ancillas or resets",
+      "time-dependent driving",
+      "non-Hamiltonian primitive",
+      "finite-time approximation"
+    ]
+  },
+  "claim_ceiling": "Exact no-go only for the five declared finite closed controlled-dephasing premises; no general open-system, continuum or GU no-go follows.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "created": "2026-10-03",
+  "decision": {
+    "finite_closed_exact_markov_parent_killed": true,
+    "next_exact_input": "Construct the strongest explicit fresh-resource contrary model and account for its continuous-time scaling."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "gamma": 0.25,
+    "late_value_below_one_fiftieth": true,
+    "samples": [
+      {
+        "lambda": 1.0,
+        "t": 0
+      },
+      {
+        "lambda": 0.36787944117144233,
+        "t": 2
+      },
+      {
+        "lambda": 0.1353352832366127,
+        "t": 4
+      },
+      {
+        "lambda": 0.01831563888873418,
+        "t": 8
+      }
+    ],
+    "strictly_decreasing": true
+  },
+  "ownership": {
+    "gu_action_or_physical_quotient_constructed": false,
+    "prediction_or_confirmation_credit": false
+  },
+  "result_id": "K962-EXPONENTIAL-SEMIGROUP-NO-GO",
+  "schema_version": "1.0",
+  "scope": "Exact positive-rate exponential dephasing versus a fixed finite-dimensional autonomous controlled-dephasing reservoir.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "contradiction": "K961 supplies arbitrarily late returns near one, while exp(-2 gamma t) tends to zero.",
+    "exponential_limit_zero": true,
+    "finite_closed_exact_realization_exists": false,
+    "premises": [
+      "finite-dimensional environment",
+      "fixed initial environment state",
+      "time-independent autonomous Hamiltonian",
+      "controlled-dephasing coupling",
+      "gamma>0"
+    ],
+    "recurrence_from_k961": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "claim_ceiling": "Exact collision-model dilation and resource accounting only; freshness, partial trace, time step and probability semantics are imported and no GU result follows.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "construction": {
+    "ancilla_state": "|0><0|",
+    "angle": "theta=(1/2) arccos(lambda)",
+    "cptp": true,
+    "n_step_coherence": "lambda^n",
+    "remote_marginal_invariant": true,
+    "single_step_coherence": "lambda=cos(2 theta)",
+    "unitary": "U_theta=exp(-i theta Z_S tensor Y_E)"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "exact_resource_backed_contrary_model_constructed": true,
+    "next_exact_input": "Scale lambda with the time step and expose the continuous-time resource/coupling limit."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "identity_at_n_zero": true,
+    "lambda": "3/5",
+    "powers": [
+      {
+        "coherence": "1",
+        "n": 0
+      },
+      {
+        "coherence": "3/5",
+        "n": 1
+      },
+      {
+        "coherence": "9/25",
+        "n": 2
+      },
+      {
+        "coherence": "27/125",
+        "n": 3
+      },
+      {
+        "coherence": "81/625",
+        "n": 4
+      },
+      {
+        "coherence": "243/3125",
+        "n": 5
+      }
+    ],
+    "semigroup_on_integer_steps": true,
+    "strict_decay": true
+  },
+  "ownership": {
+    "ancilla_preparation_trace_and_clock_imported": true,
+    "gu_action_or_physical_quotient_constructed": false,
+    "prediction_or_confirmation_credit": false
+  },
+  "resource": {
+    "closed_finite_environment": false,
+    "fresh_ancillas_after_n_steps": 5,
+    "reset_or_unbounded_tape_required_for_unbounded_time": true
+  },
+  "result_id": "K963-FRESH-ANCILLA-DEPHASING-DILATION",
+  "schema_version": "1.0",
+  "scope": "One qubit system colliding once with each fresh qubit ancilla prepared in a fixed pure state.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

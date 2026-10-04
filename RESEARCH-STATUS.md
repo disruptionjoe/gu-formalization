@@ -8,6 +8,23 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-03 — K961--K965 microscopic reservoir boundary
+
+K961--K965 move the K960 exponential law from a phenomenological generator to
+its microscopic ownership boundary. K961 proves that every fixed finite
+autonomous controlled-dephasing reservoir has a finite trigonometric-polynomial
+coherence factor with arbitrarily late recurrences. K962 therefore excludes
+exact positive-rate exponential decay for all time under those finite closed
+premises. K963 supplies the strongest elementary contrary model: fresh qubit
+collisions realize coherence `lambda^n` exactly and preserve a remote marginal.
+K964 proves that the exact exponential grid law requires collision angles of
+order `sqrt(h)`, coupling of order `h^(-1/2)` and fresh-ancilla rate `1/h`.
+
+K965 freezes the resulting action/reservoir demand and reserves the
+recurrence-versus-reset discriminator without scoring it. The result does not
+derive a GU action, physical quotient, reservoir, Born pairing, rate or
+prediction; no source, ledger, canon or public verdict changes.
+
 ## 2026-10-03 — K956--K960 quantum-anchor dynamical demand
 
 K956--K960 switch from the exhausted local selector parent to the two admitted

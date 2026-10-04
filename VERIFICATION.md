@@ -7,6 +7,16 @@ updated_at: "2026-10-03"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K961--K965 microscopic reservoir boundary (2026-10-03)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A fixed finite autonomous controlled-dephasing reservoir has a finite trigonometric-polynomial coherence factor and arbitrarily late returns near one | K961 spectral expansion and simultaneous-recurrence argument; exact producer `9/9`; hostile mutations `9/9` | exact finite-dimensional theorem under the declared controlled-dephasing premises |
+| Such a reservoir cannot equal `exp(-2 gamma t)` for every `t>=0` when `gamma>0` | K962 recurrence-versus-zero-limit contradiction; exact producer `10/10`; hostile mutations `10/10` | exact premise-local no-go; not a no-go for continuum, reset or time-dependent parents |
+| Fresh qubit collisions realize coherence `lambda^n` and preserve the remote marginal | K963 explicit unitary dilation; exact producer `11/11`; hostile mutations `11/11` | exact repository-owned collision construction with imported preparation and trace |
+| The grid-exact continuous law has `theta_h~sqrt(gamma h)`, coupling `~sqrt(gamma/h)` and refresh rate `1/h` | K964 asymptotic calculation; exact producer `11/11`; hostile mutations `11/11` | exact scaling boundary for the named collision family |
+| GU supplies the physical quotient, positive pairing, local coupling, reservoir/reset, controlled limit or held-out prediction | no native owner was constructed; K965 producer `10/10`, hostile mutations `12/12` | open / explicitly excluded |
+
 ## K956--K960 quantum-anchor dynamical demand (2026-10-03)
 
 The finite-dimensional checks prove that the imported local dephasing channel

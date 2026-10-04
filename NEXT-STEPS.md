@@ -7,6 +7,18 @@ updated_at: "2026-10-03"
 
 # Next Steps For Contributors
 
+> **2026-10-03 K961--K965 MICROSCOPIC RESERVOIR BOUNDARY.** A fixed finite
+> autonomous controlled-dephasing reservoir is recurrent and cannot realize
+> strict `exp(-2 gamma t)` decay for all time at `gamma>0`. Fresh-qubit
+> collisions do realize the law exactly on a grid, but require an unbounded
+> supply/reset and a singular `h^(-1/2)` coupling limit. Reopen this edge only
+> with a GU-owned physical quotient and positive state/effect pairing, a local
+> action coupling to an owned continuum reservoir or reset mechanism, and a
+> controlled thermodynamic/white-noise limit. Preserve the unscored
+> recurrence-versus-reset discriminator and freeze a distinct held-out before
+> assigning prediction credit. Do not treat a fitted rate, finite-window
+> approximation or imported collision tape as GU dynamics.
+
 > **2026-10-03 K956--K960 QUANTUM-ANCHOR DYNAMICAL DEMAND.** K956 constructs
 > an exact conditional local-dephasing CPTP semigroup and proves remote Bell
 > marginal invariance. K957 derives `S(lambda)=sqrt(2)(1+lambda)` and the CHSH

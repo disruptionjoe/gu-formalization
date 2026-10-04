@@ -1,0 +1,82 @@
+{
+  "boundary": {
+    "finite_ancilla_supply_continuum_limit": false,
+    "finite_coupling_continuum_limit": false,
+    "white_noise_or_thermodynamic_resource_required": true
+  },
+  "claim_ceiling": "Exact grid law and asymptotic resource boundary for one collision realization only; no universal dilation theorem or GU dynamics follows.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "created": "2026-10-03",
+  "decision": {
+    "next_exact_input": "Demand an action-owned continuum reservoir or reset law, positive state/effect pairing and controlled limit before assigning the K960 rate to GU.",
+    "singular_resource_boundary_proved": true
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "coupling_strictly_increases": true,
+    "gamma": 0.7,
+    "grid_exact": true,
+    "rows": [
+      {
+        "coupling": 2.584470662515476,
+        "grid_coherence_at_t_one": 0.24659696394160657,
+        "h": 0.1,
+        "lambda_h": 0.8693582353988059,
+        "n": 10,
+        "scaled_coupling": 0.8172813839433261,
+        "target": 0.2465969639416065,
+        "theta": 0.2584470662515476
+      },
+      {
+        "coupling": 5.260690214720302,
+        "grid_coherence_at_t_one": 0.24659696394160632,
+        "h": 0.025,
+        "lambda_h": 0.9656054162575665,
+        "n": 40,
+        "scaled_coupling": 0.8317881571538204,
+        "target": 0.2465969639416065,
+        "theta": 0.13151725536800757
+      },
+      {
+        "coupling": 10.567578468211318,
+        "grid_coherence_at_t_one": 0.2465969639416084,
+        "h": 0.00625,
+        "lambda_h": 0.9912881698401698,
+        "n": 160,
+        "scaled_coupling": 0.8354404328025258,
+        "target": 0.2465969639416065,
+        "theta": 0.06604736542632074
+      },
+      {
+        "coupling": 21.158294558540753,
+        "grid_coherence_at_t_one": 0.24659696394161412,
+        "h": 0.0015625,
+        "lambda_h": 0.9978148908344905,
+        "n": 640,
+        "scaled_coupling": 0.8363550276216951,
+        "target": 0.2465969639416065,
+        "theta": 0.03305983524771993
+      }
+    ],
+    "scaled_coupling_converges_to_sqrt_gamma": true
+  },
+  "ownership": {
+    "gamma_clock_scaling_and_freshness_imported": true,
+    "gu_action_or_physical_quotient_constructed": false,
+    "prediction_or_confirmation_credit": false
+  },
+  "result_id": "K964-WHITE-NOISE-SCALING-BOUNDARY",
+  "scaling": {
+    "angle_asymptotic": "theta_h ~ sqrt(gamma h)",
+    "coupling_asymptotic": "theta_h/h ~ sqrt(gamma/h)",
+    "fresh_ancilla_rate": "1/h",
+    "grid_law": "lambda_h^(t/h)=exp(-2 gamma t)",
+    "lambda_h": "exp(-2 gamma h)",
+    "theta_h": "(1/2) arccos(exp(-2 gamma h))"
+  },
+  "schema_version": "1.0",
+  "scope": "Continuous-time scaling of the K963 fresh-ancilla collision model at fixed positive dephasing rate.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

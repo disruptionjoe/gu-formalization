@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 531620583f07
+revision_basis: 8c43ccaaab08
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K961--K965 sharpen K960's imported exponential generator into an exact
+    microscopic ownership boundary. K961 proves that every fixed finite
+    autonomous controlled-dephasing environment has a finite
+    trigonometric-polynomial coherence factor with arbitrarily late
+    recurrences. K962 therefore excludes strict positive-rate exponential
+    decay for all time under that finite closed parent. K963 supplies the
+    exact contrary construction: fresh qubit collisions realize coherence
+    `lambda^n` and preserve the remote marginal, but require an unbounded tape
+    or explicit reset. K964 proves the grid-exact continuous law has collision
+    angle `theta_h~sqrt(gamma h)`, coupling `theta_h/h~sqrt(gamma/h)` and
+    refresh rate `1/h`. K965 freezes the physical quotient, positive pairing,
+    local action coupling, reservoir/reset and controlled-limit demand, plus
+    an unscored recurrence-versus-reset discriminator. No GU action,
+    prediction, confirmation, source claim, ledger row, canon or public
+    verdict moves.
+
     K956--K960 advance the two admitted quantum calibration anchors from a
     static interface to an exact conditional local-dephasing dynamics. K956
     constructs the one-parameter CPTP semigroup `Phi_lambda`, proves
@@ -13020,6 +13036,17 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K961--K965 expose the microscopic owner missing from K960. A finite closed
+  autonomous controlled-dephasing reservoir is recurrent and cannot produce
+  strict `exp(-2 gamma t)` decay forever. Fresh collisions can produce the
+  exact law on a grid only with an unbounded supply/reset and a singular
+  continuous-time coupling/refresh limit. Can a GU-owned physical quotient
+  with positive state/effect pairing and a local action derive an owned
+  continuum reservoir or reset mechanism, its controlled limit and the
+  remote-marginal theorem? Freeze the recurrence-versus-reset discriminator
+  and a distinct held-out before scoring. Otherwise this edge remains a
+  conditional reverse scaffold with zero prediction or confirmation credit.
+
   K956--K960 construct an exact conditional local-dephasing semigroup across
   the two admitted quantum calibration anchors. The common coherence factor
   obeys `V=lambda` and `S/sqrt(2)-1=lambda`, while local nonselective evolution
@@ -14413,6 +14440,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K961--K965 close the finite closed microscopic parent and price the exact
+  fresh-resource alternative. Reopen this edge only with a GU-owned physical
+  quotient and positive state/effect pairing, an action-owned local
+  system-environment coupling, an owned continuum reservoir or explicit reset
+  mechanism, a controlled thermodynamic/white-noise limit, and the
+  remote-marginal/locality theorem. Preserve the unscored
+  recurrence-versus-reset discriminator and freeze a distinct held-out before
+  assigning prediction credit. Do not treat a fitted rate, finite-window
+  approximation, fresh collision tape or singular scaling ansatz as a GU
+  derivation.
+
   K956--K960 open a causal/dynamical reverse edge without changing any GU
   verdict. Reopen this edge only with a GU-owned physical quotient, positive
   state and effect/Born pairing, an action-derived local CPTP or appropriately

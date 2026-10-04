@@ -4,6 +4,24 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K961--K965 microscopic reservoir boundary
+
+- `channel-swings/k961_k960_finite_reservoir_recurrence_boundary.py` certifies
+  the finite trigonometric-polynomial recurrence interface; its `_probe.py`
+  rejects nine theorem, control and ownership mutations.
+- `channel-swings/k962_k961_exponential_semigroup_no_go.py` certifies the
+  strict exponential finite-parent contradiction; its probe rejects ten
+  premise and overclaim mutations.
+- `channel-swings/k963_k962_fresh_ancilla_dephasing_dilation.py` certifies the
+  exact fresh-collision law and resource boundary; its probe rejects eleven
+  channel, resource and ownership mutations.
+- `channel-swings/k964_k963_white_noise_scaling_boundary.py` certifies the
+  grid law and singular continuous-time scaling; its probe rejects eleven
+  scaling and overclaim mutations.
+- `channel-swings/k965_k964_action_reservoir_demand_disposition.py` freezes
+  the composed demand and reserved discriminator; its probe rejects twelve
+  missing-demand and promotion mutations.
+
 ## K956--K960 quantum-anchor dynamical demand
 
 - `channel-swings/k956_quantum_anchor_local_dephasing_semigroup.py` constructs

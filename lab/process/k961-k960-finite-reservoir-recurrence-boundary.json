@@ -1,0 +1,47 @@
+{
+  "claim_ceiling": "Finite-dimensional controlled-dephasing recurrence theorem only; no no-go for infinite reservoirs, resets, time-dependent driving or non-Hamiltonian primitives, and no GU verdict follows.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "created": "2026-10-03",
+  "decision": {
+    "finite_closed_recurrence_proved": true,
+    "next_exact_input": "Compare recurrence with strict positive-rate exponential decay."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "all_returns_near_one": true,
+    "explicit_periodic_returns": [
+      {
+        "absolute_error_from_one": 4.0821559971578437e-16,
+        "multiple": 1
+      },
+      {
+        "absolute_error_from_one": 8.164311994315687e-16,
+        "multiple": 2
+      },
+      {
+        "absolute_error_from_one": 3.225315891512422e-15,
+        "multiple": 5
+      }
+    ],
+    "frequency_count": 3,
+    "weights_sum": "1"
+  },
+  "ownership": {
+    "finite_hilbert_and_trace_rule_imported": true,
+    "gu_action_or_physical_quotient_constructed": false,
+    "prediction_or_confirmation_credit": false
+  },
+  "result_id": "K961-FINITE-RESERVOIR-RECURRENCE-BOUNDARY",
+  "schema_version": "1.0",
+  "scope": "Finite-dimensional autonomous controlled-dephasing Hamiltonians with a fixed environment state.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "coherence_factor": "f(t)=Tr(rho_E exp(i H_1 t) exp(-i H_0 t))",
+    "finite_trigonometric_polynomial": true,
+    "normalization": "f(0)=1",
+    "recurrence": "For every epsilon>0 and T>0 there exists t>T with |f(t)-1|<epsilon by simultaneous Diophantine approximation of the finite Bohr-frequency set.",
+    "requires_commuting_environment_hamiltonians": false
+  }
+}

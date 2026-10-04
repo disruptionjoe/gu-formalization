@@ -1,0 +1,41 @@
+{
+  "claim_ceiling": "Conditional microscopic requirement and reserved discriminator only; this does not derive GU dynamics, exclude all non-Markovian finite-time models or move any scientific verdict.",
+  "classification": "INTERNAL_REQUIREMENT_DISPOSITION",
+  "created": "2026-10-03",
+  "decision": {
+    "candidate_action_requirement_sharpened": true,
+    "next_exact_input": "A GU-owned physical quotient with positive state/effect pairing and local action coupling to an owned continuum reservoir or reset mechanism, with a controlled limit and the reserved recurrence/reset discriminator frozen before scoring."
+  },
+  "demand": {
+    "action_owned_local_coupling_required": true,
+    "continuum_reservoir_or_explicit_reset_law_required": true,
+    "controlled_thermodynamic_or_white_noise_limit_required": true,
+    "distinct_holdout_frozen_before_scoring": true,
+    "physical_quotient_and_positive_pairing_required": true,
+    "remote_marginal_and_locality_theorem_required": true
+  },
+  "direction": "observed_to_native",
+  "discriminator": {
+    "finite_closed_parent": "predicts arbitrarily late coherence returns",
+    "fresh_resource_parent": "supports monotone grid decay only while fresh ancillas/reset continue",
+    "status": "reserved_not_scored"
+  },
+  "inputs": {
+    "K961": "finite closed recurrence",
+    "K962": "strict exponential finite-parent no-go",
+    "K963": "fresh-ancilla exact contrary construction",
+    "K964": "singular continuous-time resource boundary"
+  },
+  "ownership": {
+    "all_quantum_state_trace_clock_and_environment_semantics_imported": true,
+    "gu_action_or_physical_quotient_constructed": false,
+    "prediction_or_confirmation_credit": false,
+    "source_claim_or_ledger_verdict_changed": false
+  },
+  "result_id": "K965-ACTION-RESERVOIR-DEMAND-DISPOSITION",
+  "schema_version": "1.0",
+  "scope": "Composition of K961--K964 into the microscopic ownership demand behind K960's exponential candidate law.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}
