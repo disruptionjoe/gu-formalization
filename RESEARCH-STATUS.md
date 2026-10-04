@@ -8,6 +8,39 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-04 — K991--K995 charge-harmonic observability boundary
+
+K991 proves the general finite-charge theorem. If
+`Q|j>=q_j|j>` and `U_x=exp(-ixQ)`, then the averaged phase channel maps
+`E_jk` to `phi_t(q_j-q_k)E_jk`. Stationary independent increments give
+`phi_t(n)=exp[t psi(n)]`. The K956 qubit spectrum `{-1,+1}` therefore fixes
+only the nonzero harmonic `psi(2)`.
+
+K992 supplies the minimal simultaneous gap-one/gap-two enlargement. For
+`Q=diag(-1,0,1)`, Brownian diffusion has
+`psi_B(1)=-gamma/2`, while the K987 horn has
+`psi_theta(1)=-gamma/(1+cos(theta))`; these differ at every finite nonzero
+angle even though both have `psi(2)=-2gamma`. The separator uses a new qutrit
+sector and does not contradict K988's original-qubit controlled-process
+equivalence.
+
+K993 proves the general ceiling. For any finite nonzero harmonic set `S`, two
+distinct uniform symmetric jump measures on shifted `N`th and `M`th roots,
+with distinct `N,M>max|S|`, have zero Fourier moments throughout `S`.
+Equal-rate compound-Poisson processes built from them therefore have identical
+observed exponents but distinct jump laws. Finite-dimensional charge
+tomography cannot identify an arbitrary microscopic phase law.
+
+K994 freezes a nonrecord gap-one holdout at `T=2`, `theta=pi/4`, calibrated
+only on the shared gap-two law. K995 preserves the difference between pairwise
+separation and full-law identification and requires a GU-owned charge
+generator, spectrum, positive state/effect interface, action, exponent, common
+domain, locality and native observable before scoring.
+
+No GU action, physical quotient, source claim, ledger row, empirical score,
+prediction, confirmation, canon or public verdict changes. Five producers pass
+88 declared controls and five hostile probes reject 94/94 mutations.
+
 ## 2026-10-04 — K986--K990 Levy-horn controlled-process boundary
 
 K986 constructs the continuous-path counterpart to K981. With

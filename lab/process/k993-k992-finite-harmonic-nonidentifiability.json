@@ -1,0 +1,116 @@
+{
+  "claim_ceiling": "Exact finite-harmonic nonidentifiability construction only; not an exhaustive Levy classification and not a claim that every named pair remains indistinguishable under every enlargement.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "created": "2026-10-04",
+  "decision": {
+    "arbitrary_finite_charge_spectrum_leaves_microscopic_horns": true,
+    "next_exact_input": "Freeze the named qutrit pairwise holdout while retaining the general finite-probe ceiling.",
+    "qutrit_pairwise_discrimination_not_full_model_identification": true
+  },
+  "dependency_checks": {
+    "input_id": "K992-QUTRIT-HORN-SEPARATOR",
+    "pairwise_qutrit_separator_preserved": true
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "M": 7,
+    "N": 5,
+    "all_exponents_equal": true,
+    "all_moments_numerically_zero": true,
+    "observed_gaps": [
+      -3,
+      -2,
+      -1,
+      1,
+      2,
+      3
+    ],
+    "orders_exceed_observed_max": true,
+    "rate": 0.9,
+    "rows": [
+      {
+        "exponent_M_real": -0.9,
+        "exponent_N_real": -0.9,
+        "harmonic": -3,
+        "moment_difference": 1.3068578955767467e-16,
+        "nu_M_imag": 1.1404859087317264e-16,
+        "nu_M_real": 7.93016446160826e-18,
+        "nu_N_imag": 1.5339034021171335e-17,
+        "nu_N_real": -7.771561172376095e-17
+      },
+      {
+        "exponent_M_real": -0.8999999999999999,
+        "exponent_N_real": -0.9,
+        "harmonic": -2,
+        "moment_difference": 4.4133133284913314e-16,
+        "nu_M_imag": -4.011691368413871e-16,
+        "nu_M_real": 6.344131569286608e-17,
+        "nu_N_imag": 2.6781411473391e-17,
+        "nu_N_real": -4.4408920985006264e-17
+      },
+      {
+        "exponent_M_real": -0.9,
+        "exponent_N_real": -0.9,
+        "harmonic": -1,
+        "moment_difference": 1.3558101589845926e-16,
+        "nu_M_imag": -1.047267633512245e-16,
+        "nu_M_real": -1.1102230246251565e-16,
+        "nu_N_imag": -2.2884754904439333e-18,
+        "nu_N_real": -2.2204460492503132e-17
+      },
+      {
+        "exponent_M_real": -0.9,
+        "exponent_N_real": -0.9,
+        "harmonic": 1,
+        "moment_difference": 1.3558101589845926e-16,
+        "nu_M_imag": 1.047267633512245e-16,
+        "nu_M_real": -1.1102230246251565e-16,
+        "nu_N_imag": 2.2884754904439333e-18,
+        "nu_N_real": -2.2204460492503132e-17
+      },
+      {
+        "exponent_M_real": -0.8999999999999999,
+        "exponent_N_real": -0.9,
+        "harmonic": 2,
+        "moment_difference": 4.4133133284913314e-16,
+        "nu_M_imag": 4.011691368413871e-16,
+        "nu_M_real": 6.344131569286608e-17,
+        "nu_N_imag": -2.6781411473391e-17,
+        "nu_N_real": -4.4408920985006264e-17
+      },
+      {
+        "exponent_M_real": -0.9,
+        "exponent_N_real": -0.9,
+        "harmonic": 3,
+        "moment_difference": 1.3068578955767467e-16,
+        "nu_M_imag": -1.1404859087317264e-16,
+        "nu_M_real": 7.93016446160826e-18,
+        "nu_N_imag": -1.5339034021171335e-17,
+        "nu_N_real": -7.771561172376095e-17
+      }
+    ],
+    "support_cardinalities_distinct": true
+  },
+  "ownership": {
+    "finite_charge_spectrum_imported": true,
+    "gu_action_or_observable_owner_constructed": false,
+    "jump_laws_and_rate_imported": true,
+    "prediction_or_confirmation_credit": false
+  },
+  "result_id": "K993-FINITE-HARMONIC-NONIDENTIFIABILITY",
+  "schema_version": "1.0",
+  "scope": "Compound-Poisson phase laws observed only through an arbitrary finite set of nonzero integer charge gaps.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "construction": "choose distinct N,M>max|S| and uniform symmetric jumps on shifted Nth and Mth roots",
+    "finite_dimensional_charge_tomography_identifies_general_phase_law": false,
+    "finite_observed_harmonic_set": "S subset Z without 0",
+    "fourier_moments_zero_on_S": true,
+    "jump_laws_distinct": true,
+    "no_zero_angle_atoms": true,
+    "same_rate_gives_identical_exponents_on_S": true,
+    "shifted_root_angles": "2 pi (k+1/2)/N"
+  }
+}

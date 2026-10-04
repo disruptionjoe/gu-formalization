@@ -1,0 +1,59 @@
+{
+  "boundary": {
+    "action_owned_qutrit_charge_sector_required": true,
+    "distinguishes_named_pair_only": true,
+    "identifies_general_phase_law": false,
+    "microscopic_record_required": false,
+    "positive_state_effect_and_gap_one_readout_required": true,
+    "same_original_qubit_system": false
+  },
+  "claim_ceiling": "Frozen unscored pairwise holdout after an imported system enlargement; no same-qubit separator, data, GU observable, prediction or confirmation.",
+  "classification": "INTERNAL_PREREGISTERED_HOLDOUT",
+  "created": "2026-10-04",
+  "decision": {
+    "k989_record_holdout_remains_distinct": true,
+    "next_exact_input": "Require a GU-owned action, quotient, positive pairing and charge observable before either system-enlargement or record holdout is scored.",
+    "nonrecord_pairwise_holdout_frozen": true
+  },
+  "dependency_checks": {
+    "finite_probe_not_full_identification": true,
+    "input_ids": [
+      "K992-QUTRIT-HORN-SEPARATOR",
+      "K993-FINITE-HARMONIC-NONIDENTIFIABILITY"
+    ],
+    "named_pair_qutrit_separable": true
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "gap_one_values_strictly_different": true,
+    "gap_two_value_replayed": true,
+    "holdout_finite_and_positive": true,
+    "rate_equals_two_gamma": true
+  },
+  "ownership": {
+    "gu_action_or_observable_owner_constructed": false,
+    "prediction_or_confirmation_credit": false,
+    "qutrit_sector_and_readout_imported": true
+  },
+  "preregistration": {
+    "T": 2.0,
+    "absolute_separation": 0.05619813621925118,
+    "brownian_gap_one": 0.4965853037914095,
+    "calibration_observable": "gap-two coherence",
+    "compound_gap_one": 0.44038716757215834,
+    "empirical_score_assigned": false,
+    "event_rate": 1.4000000000000001,
+    "gamma": 0.7,
+    "no_holdout_refit": true,
+    "primary_holdout": "gap-one coherence",
+    "shared_gap_two": 0.06081006262521797,
+    "status": "frozen_not_scored",
+    "theta": 0.7853981633974483
+  },
+  "result_id": "K994-SYSTEM-ENLARGEMENT-HOLDOUT",
+  "schema_version": "1.0",
+  "scope": "The imported Q=diag(-1,0,1) coherence experiment for K986 Brownian diffusion and the K987 theta=pi/4 compound-Poisson horn after gamma is fixed from the shared gap-two law.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

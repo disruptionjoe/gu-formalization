@@ -1,0 +1,51 @@
+{
+  "claim_ceiling": "Finite-charge observability and exact nonidentifiability boundary only; no GU derivation, empirical score, prediction, confirmation or exhaustive microscopic classification.",
+  "classification": "INTERNAL_REQUIREMENT_DISPOSITION",
+  "created": "2026-10-04",
+  "decision": {
+    "k990_inequivalent_observable_requirement_sharpened": true,
+    "next_exact_input": "A GU-owned physical quotient and positive state/effect pairing plus an action must select the charge generator, spectrum and characteristic exponent, own the common domain and locality, and expose either the frozen gap-one pairwise observable or a record/infinite-harmonic completion before scoring.",
+    "pairwise_separation_does_not_select_full_microscopic_law": true
+  },
+  "demand": {
+    "common_domain_and_locality_theorem_required": true,
+    "finite_probe_claim_ceiling_required": true,
+    "gu_action_owned_characteristic_exponent_required": true,
+    "gu_action_owned_charge_generator_and_spectrum_required": true,
+    "gu_physical_quotient_and_positive_effect_pairing_required": true,
+    "native_preparation_and_gap_coherence_observable_required": true,
+    "record_or_infinite_harmonic_completion_required_for_full_identification": true
+  },
+  "dependency_checks": {
+    "all_prediction_or_confirmation_withheld": true,
+    "all_source_and_ledger_effect_none": true,
+    "holdout_frozen_not_scored": true,
+    "input_ids": [
+      "K991-CHARGE-HARMONIC-CHANNEL-THEOREM",
+      "K992-QUTRIT-HORN-SEPARATOR",
+      "K993-FINITE-HARMONIC-NONIDENTIFIABILITY",
+      "K994-SYSTEM-ENLARGEMENT-HOLDOUT"
+    ]
+  },
+  "direction": "observed_to_native",
+  "observability": {
+    "arbitrary_finite_charge_spectrum_identifies_general_phase_law": false,
+    "microscopic_record_not_required_for_named_pair": true,
+    "original_qubit_samples_only_gap_two": true,
+    "qutrit_gap_one_separates_named_brownian_and_compound_poisson_pair": true,
+    "qutrit_is_a_declared_system_enlargement": true,
+    "record_and_unbounded_harmonic_access_remain_distinct_routes": true
+  },
+  "ownership": {
+    "gu_action_charge_observable_or_physical_quotient_constructed": false,
+    "prediction_or_confirmation_credit": false,
+    "repository_conditional_models_only": true,
+    "source_claim_or_ledger_verdict_changed": false
+  },
+  "result_id": "K995-HARMONIC-ACTION-DISPOSITION",
+  "schema_version": "1.0",
+  "scope": "Composition of K991--K994 into the finite-charge harmonic observability and native-owner boundary for the K956 Levy phase family.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

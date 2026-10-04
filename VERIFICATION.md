@@ -7,6 +7,16 @@ updated_at: "2026-10-04"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K991--K995 charge-harmonic observability boundary (2026-10-04)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A finite-charge random-phase channel acts diagonally on matrix units through charge-difference harmonics | K991 direct conjugation theorem and nine matrix-unit replay; producer `16/16`; hostile mutations `16/16` | exact for a supplied finite charge operator and classical phase law; no GU charge owner or physical quotient |
+| The minimal `diag(-1,0,1)` qutrit separates K986 Brownian diffusion from every finite-angle K987 horn at gap one while preserving gap two | K992 exact characteristic exponents and four-angle controls; producer `15/15`; hostile mutations `16/16` | exact pairwise separator after declared system enlargement; not same-qubit discrimination |
+| No finite charge spectrum identifies a general microscopic phase law | K993 shifted-root jump-measure construction on arbitrary finite harmonic sets; producer `17/17`; hostile mutations `18/18` | exact counterexample family; not an exhaustive Levy classification |
+| A nonrecord gap-one pairwise holdout can be frozen after gap-two calibration | K994 `T=2`, `theta=pi/4` preregistration; producer `19/19`; hostile mutations `20/20` | frozen conditional holdout only; qutrit sector, readout, apparatus and data remain absent |
+| The charge spectrum, characteristic exponent or full microscopic law is GU-selected | K995 preserves the action/quotient/pairing/domain/locality/observable and finite-probe ceilings; producer `21/21`; hostile mutations `24/24` | explicitly excluded |
+
 ## K986--K990 Levy-horn controlled-process boundary (2026-10-04)
 
 | Claim | Evidence | Honest grade |

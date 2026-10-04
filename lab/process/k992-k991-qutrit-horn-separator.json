@@ -1,0 +1,95 @@
+{
+  "claim_ceiling": "Exact pairwise separation after an imported system enlargement only; not same-qubit discrimination, full Levy-law identification or a GU-owned observable.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "construction": {
+    "brownian_exponent": "psi_B(n)=-(gamma/2)n^2",
+    "charge_spectrum": [
+      -1,
+      0,
+      1
+    ],
+    "compound_poisson_exponent": "psi_theta(n)=gamma(cos(n theta)-1)/sin(theta)^2",
+    "gap_one_strictly_separates_every_finite_nonzero_angle": true,
+    "gap_two_matched": true,
+    "minimal_dimension_for_simultaneous_gap_one_and_two": 3,
+    "simultaneously_observed_gaps": [
+      1,
+      2
+    ]
+  },
+  "created": "2026-10-04",
+  "decision": {
+    "named_brownian_and_compound_poisson_horns_system_separable_after_declared_enlargement": true,
+    "next_exact_input": "Test whether any finite set of charge harmonics identifies a general microscopic phase law.",
+    "same_qubit_system_remains_nonidentifying": true
+  },
+  "dependency_checks": {
+    "charge_gap_theorem_available": true,
+    "input_id": "K991-CHARGE-HARMONIC-CHANNEL-THEOREM"
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "all_gap_one_closed_forms_replayed": true,
+    "all_gap_one_separations_positive": true,
+    "all_gap_two_identities_replayed": true,
+    "gamma": 0.7,
+    "rows": [
+      {
+        "brownian_psi_1": -0.35,
+        "brownian_psi_2": -1.4,
+        "closed_form_jump_psi_1": -0.3751288694035717,
+        "event_rate": 2.8000000000000003,
+        "gap_one_separation": 0.025128869403571674,
+        "gap_two_error": 0.0,
+        "jump_psi_1": -0.37512886940357165,
+        "jump_psi_2": -1.4,
+        "theta": 0.5235987755982988
+      },
+      {
+        "brownian_psi_1": -0.35,
+        "brownian_psi_2": -1.4,
+        "closed_form_jump_psi_1": -0.41005050633883344,
+        "event_rate": 1.4000000000000001,
+        "gap_one_separation": 0.060050506338833465,
+        "gap_two_error": 0.0,
+        "jump_psi_1": -0.41005050633883344,
+        "jump_psi_2": -1.4,
+        "theta": 0.7853981633974483
+      },
+      {
+        "brownian_psi_1": -0.35,
+        "brownian_psi_2": -1.4,
+        "closed_form_jump_psi_1": -0.4666666666666666,
+        "event_rate": 0.9333333333333335,
+        "gap_one_separation": 0.11666666666666664,
+        "gap_two_error": 0.0,
+        "jump_psi_1": -0.4666666666666666,
+        "jump_psi_2": -1.4,
+        "theta": 1.0471975511965976
+      },
+      {
+        "brownian_psi_1": -0.35,
+        "brownian_psi_2": -1.4,
+        "closed_form_jump_psi_1": -0.7,
+        "event_rate": 0.7,
+        "gap_one_separation": 0.34999999999999987,
+        "gap_two_error": 0.0,
+        "jump_psi_1": -0.6999999999999998,
+        "jump_psi_2": -1.4,
+        "theta": 1.5707963267948966
+      }
+    ]
+  },
+  "ownership": {
+    "gap_one_coherence_access_imported": true,
+    "gu_action_or_physical_quotient_constructed": false,
+    "prediction_or_confirmation_credit": false,
+    "qutrit_charge_sector_imported": true
+  },
+  "result_id": "K992-QUTRIT-HORN-SEPARATOR",
+  "schema_version": "1.0",
+  "scope": "The imported qutrit charge operator Q=diag(-1,0,1) driven by the K986 Brownian and K987 symmetric compound-Poisson phase laws.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 63a29c2799ec
+revision_basis: b9b31a9ed79d
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K991--K995 sharpen K990's vague observable demand into an exact harmonic
+    boundary. A phase law acting through `exp(-iX_tQ)` multiplies each charge
+    matrix unit by the characteristic function at its charge difference. The
+    original qubit therefore samples only the gap-two exponent. The minimal
+    `Q=diag(-1,0,1)` qutrit also samples gap one and exactly separates K986
+    Brownian diffusion from every finite-angle K987 compound-Poisson horn,
+    while preserving their gap-two equality. This is a declared system
+    enlargement, not a contradiction of K988. Conversely, distinct symmetric
+    shifted-root jump laws agree on any prescribed finite harmonic set, so no
+    finite charge spectrum identifies a general microscopic phase law. K994
+    freezes an unscored gap-one pairwise holdout. No GU action, quotient,
+    charge observable, source, ledger, prediction, confirmation, canon or
+    public verdict moves.
+
     K986--K990 strengthen the stochastic microscopic boundary from endpoint
     channels to complete finite system-only controlled processes for the
     stationary-independent-increment class. Brownian phase diffusion and a
@@ -13104,6 +13118,18 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K991--K995 prove that finite charge probes see a phase law only through their
+  charge-difference harmonics. The K956 qubit fixes only `psi(2)`, while the
+  minimal `diag(-1,0,1)` qutrit also reads `psi(1)` and separates the named
+  Brownian and finite-angle compound-Poisson horns without microscopic record
+  access. Yet distinct shifted-root compound-Poisson laws can agree on every
+  member of any prescribed finite harmonic set, so pairwise qutrit separation
+  is not full phase-law identification. Can a GU-owned physical quotient,
+  positive state/effect pairing and action select the charge generator,
+  spectrum and characteristic exponent, own their common domain and locality,
+  and make either the frozen gap-one observable or a record/unbounded-harmonic
+  completion operational before scoring?
+
   K986--K990 prove that Brownian phase diffusion and a continuum of symmetric
   compound-Poisson phase-jump processes realize the same K956 dephasing
   semigroup and the same arbitrary finite system-only controlled process when
@@ -14563,6 +14589,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K991--K995 close the assumption that the original qubit exhausts system-only
+  observability and also close the opposite assumption that one finite
+  enlargement identifies the microscopic law. Do not treat the repository's
+  qutrit charge operator, preparations, positive trace pairing, gap-one
+  readout, shifted-root jump measures or characteristic exponent as
+  GU-selected. Reopen for GU credit only with a physical quotient and positive
+  state/effect pairing, an action-owned charge generator and spectrum, an
+  action-owned characteristic exponent on a common domain, the locality
+  theorem, and either the frozen native gap-one observable for the named pair
+  or a justified record/unbounded-harmonic completion for broader
+  identification before scoring.
+
   K986--K990 close the system-only controlled-process escape for the declared
   stationary-independent-increment phase horns. Do not treat the repository's
   Brownian or compound-Poisson clocks, characteristic exponents, path records

@@ -1,0 +1,146 @@
+{
+  "claim_ceiling": "Exact finite-charge random-phase channel theorem only; no GU-owned charge operator, physical state/effect interface or phase law.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "created": "2026-10-04",
+  "decision": {
+    "k956_qubit_samples_one_nonzero_harmonic": true,
+    "next_exact_input": "Use the minimal simultaneous gap-one/gap-two charge spectrum to compare the K986 and K987 exponents."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "all_matrix_unit_identities_exact": true,
+    "all_matrix_units_checked": true,
+    "diagonal_units_fixed": true,
+    "observed_gap_set": [
+      1,
+      2
+    ],
+    "rows": [
+      {
+        "characteristic_imag": 0.0,
+        "characteristic_real": 1.0,
+        "charge_gap": 0,
+        "direct_imag": 0.0,
+        "direct_real": 1.0,
+        "identity_error": 0.0,
+        "j": 0,
+        "k": 0
+      },
+      {
+        "characteristic_imag": 0.24759296946578752,
+        "characteristic_real": 0.7598763891524286,
+        "charge_gap": -1,
+        "direct_imag": 0.24759296946578752,
+        "direct_real": 0.7598763891524286,
+        "identity_error": 0.0,
+        "j": 0,
+        "k": 1
+      },
+      {
+        "characteristic_imag": 0.28234696983967744,
+        "characteristic_real": 0.25640104130832486,
+        "charge_gap": -2,
+        "direct_imag": 0.28234696983967744,
+        "direct_real": 0.25640104130832486,
+        "identity_error": 0.0,
+        "j": 0,
+        "k": 2
+      },
+      {
+        "characteristic_imag": -0.24759296946578752,
+        "characteristic_real": 0.7598763891524286,
+        "charge_gap": 1,
+        "direct_imag": -0.24759296946578752,
+        "direct_real": 0.7598763891524286,
+        "identity_error": 0.0,
+        "j": 1,
+        "k": 0
+      },
+      {
+        "characteristic_imag": 0.0,
+        "characteristic_real": 1.0,
+        "charge_gap": 0,
+        "direct_imag": 0.0,
+        "direct_real": 1.0,
+        "identity_error": 0.0,
+        "j": 1,
+        "k": 1
+      },
+      {
+        "characteristic_imag": 0.24759296946578752,
+        "characteristic_real": 0.7598763891524286,
+        "charge_gap": -1,
+        "direct_imag": 0.24759296946578752,
+        "direct_real": 0.7598763891524286,
+        "identity_error": 0.0,
+        "j": 1,
+        "k": 2
+      },
+      {
+        "characteristic_imag": -0.28234696983967744,
+        "characteristic_real": 0.25640104130832486,
+        "charge_gap": 2,
+        "direct_imag": -0.28234696983967744,
+        "direct_real": 0.25640104130832486,
+        "identity_error": 0.0,
+        "j": 2,
+        "k": 0
+      },
+      {
+        "characteristic_imag": -0.24759296946578752,
+        "characteristic_real": 0.7598763891524286,
+        "charge_gap": 1,
+        "direct_imag": -0.24759296946578752,
+        "direct_real": 0.7598763891524286,
+        "identity_error": 0.0,
+        "j": 2,
+        "k": 1
+      },
+      {
+        "characteristic_imag": 0.0,
+        "characteristic_real": 1.0,
+        "charge_gap": 0,
+        "direct_imag": 0.0,
+        "direct_real": 1.0,
+        "identity_error": 0.0,
+        "j": 2,
+        "k": 2
+      }
+    ],
+    "weights_sum_to_one": true
+  },
+  "ownership": {
+    "finite_charge_operator_imported": true,
+    "gu_action_or_physical_quotient_constructed": false,
+    "phase_law_and_characteristic_exponent_imported": true,
+    "positive_matrix_pairing_imported": true,
+    "prediction_or_confirmation_credit": false
+  },
+  "result_id": "K991-CHARGE-HARMONIC-CHANNEL-THEOREM",
+  "schema_version": "1.0",
+  "scope": "Finite integer charge spectra under an imported classical phase process U_t=exp(-i X_t Q).",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "characteristic_function": "phi_t(n)=E[exp(-i n X_t)]",
+    "matrix_unit_law": "E_jk maps to phi_t(q_j-q_k) E_jk",
+    "observable_harmonics_are_charge_differences": true,
+    "qubit_fixes_only_psi_2": true,
+    "qubit_nonzero_gap": 2,
+    "qubit_z_spectrum": [
+      -1,
+      1
+    ],
+    "qutrit_nonzero_gaps": [
+      1,
+      2
+    ],
+    "qutrit_spectrum": [
+      -1,
+      0,
+      1
+    ],
+    "stationary_independent_increment_form": "phi_t(n)=exp(t psi(n))"
+  }
+}

@@ -7,6 +7,20 @@ updated_at: "2026-10-04"
 
 # Next Steps For Contributors
 
+> **2026-10-04 K991--K995 CHARGE-HARMONIC BOUNDARY.** A random phase law
+> acting through `exp(-iX_tQ)` multiplies each charge matrix unit by the
+> characteristic function at its charge difference. The K956 qubit therefore
+> samples only gap two. The minimal `Q=diag(-1,0,1)` qutrit adds gap one and
+> exactly separates K986 Brownian diffusion from every finite-angle K987 horn,
+> but this is a declared system enlargement. Distinct symmetric shifted-root
+> jump laws still agree on any prescribed finite harmonic set, so finite
+> charge tomography does not identify a general microscopic law. A `T=2`,
+> `theta=pi/4` gap-one holdout is frozen but unscored. Next require a GU-owned
+> quotient and action to select the charge generator, spectrum, exponent,
+> positive pairing, preparations, observable, domain and locality; broader
+> identification additionally needs an owned record or justified unbounded
+> harmonic completion.
+
 > **2026-10-04 K986--K990 LEVY-HORN PROCESS BOUNDARY.** Brownian phase
 > diffusion and every symmetric compound-Poisson phase-jump process with
 > `lambda=gamma/sin(theta)^2` realize the exact K956 semigroup. For stationary
