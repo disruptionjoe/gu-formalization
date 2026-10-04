@@ -1,0 +1,74 @@
+{
+  "claim_ceiling": "Constructive sufficient finite-window approximation bound only; no optimal dimension lower bound and no GU dynamics or empirical fit.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "construction": {
+    "Omega": 71.3014145051691,
+    "T": 3.0,
+    "atom_count": 8557,
+    "cell_width": 0.01666504955128412,
+    "epsilon": 0.05,
+    "finite_autonomous_reservoir": true,
+    "gamma": 0.7,
+    "weights_positive": true,
+    "weights_sum": 1.000000000000007
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "finite_window_indistinguishability_constructed": true,
+    "next_exact_input": "Expose the finite grid's exact recurrence time and freeze it as a held-out discriminator rather than treating finite-window fit as a derivation."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "imaginary_parts_cancel": true,
+    "sample_errors_below_bound": true,
+    "samples": [
+      {
+        "absolute_error": 7.105427357601002e-15,
+        "atomic_imag": 0.0,
+        "atomic_real": 1.000000000000007,
+        "t": 0.0,
+        "target": 1.0
+      },
+      {
+        "absolute_error": 0.005978937084338054,
+        "atomic_imag": -3.676911483831755e-15,
+        "atomic_real": 0.5025642408757476,
+        "t": 0.5,
+        "target": 0.4965853037914095
+      },
+      {
+        "absolute_error": 0.0015607262258407473,
+        "atomic_imag": 1.1556824252418786e-15,
+        "atomic_real": 0.1240171544788227,
+        "t": 1.5,
+        "target": 0.12245642825298195
+      },
+      {
+        "absolute_error": 0.0002037958987028219,
+        "atomic_imag": 3.0978678072977536e-16,
+        "atomic_real": 0.015199372719180539,
+        "t": 3.0,
+        "target": 0.014995576820477717
+      }
+    ]
+  },
+  "ownership": {
+    "cutoff_partition_and_error_budget_imported": true,
+    "gu_action_or_physical_quotient_constructed": false,
+    "prediction_or_confirmation_credit": false
+  },
+  "result_id": "K968-FINITE-WINDOW-ATOMIC-APPROXIMATION",
+  "schema_version": "1.0",
+  "scope": "Positive midpoint discretization of K967 on one declared finite observation window.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "bound_below_epsilon": true,
+    "combined_uniform_bound": 0.049997574326926184,
+    "dimension_sufficient": "N>=32 gamma T/(pi epsilon^2)",
+    "discretization_bound": 0.02499757432692618,
+    "truncation_bound": 0.025,
+    "uniform_window": "0<=t<=T"
+  }
+}

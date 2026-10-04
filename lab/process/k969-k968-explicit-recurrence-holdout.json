@@ -1,0 +1,49 @@
+{
+  "claim_ceiling": "Exact recurrence witness for the named grid construction only; no universal lower bound on recurrence time and no empirical or GU prediction.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "created": "2026-10-03",
+  "decision": {
+    "bounded_fit_cannot_decide_parent": true,
+    "next_exact_input": "Compose continuum exactness, finite-window mimicry and late recurrence into the unscored owner/discriminator disposition."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "Omega": 71.3014145051691,
+    "T": 3.0,
+    "atom_count": 8557,
+    "atomic_imag": 2.042893146444783e-12,
+    "atomic_real": 1.000000000000007,
+    "atomic_return_error": 2.0429055031716472e-12,
+    "continuum_target": 0.0,
+    "epsilon": 0.05,
+    "gamma": 0.7,
+    "late_gap": 1.000000000000007,
+    "late_gap_above_0_999": true,
+    "recurrence_after_calibration": true,
+    "tau_rec": 754.0554005368003
+  },
+  "holdout": {
+    "calibration_window": "[0,T]",
+    "score_window": "a predeclared neighborhood of tau_rec",
+    "status": "reserved_not_scored"
+  },
+  "ownership": {
+    "finite_grid_and_holdout_location_imported": true,
+    "gu_action_or_physical_quotient_constructed": false,
+    "prediction_or_confirmation_credit": false
+  },
+  "result_id": "K969-EXPLICIT-RECURRENCE-HOLDOUT",
+  "schema_version": "1.0",
+  "scope": "Exact common-period recurrence of K968's equally spaced midpoint spectrum.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "all_phases_one": true,
+    "atomic_coherence_at_recurrence": "1",
+    "continuum_coherence_at_recurrence": "exp(-2 gamma tau_rec)",
+    "frequency_spacing": 0.01666504955128412,
+    "not_a_minimal_recurrence_claim": true,
+    "recurrence_time": "tau_rec=2 pi N/Omega"
+  }
+}

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 8c43ccaaab08
+revision_basis: f89a0e0bf57e
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K966--K970 close the mathematical continuum escape and sharpen the
+    recurrence holdout without granting GU ownership. K966 constructs an
+    exact autonomous positive-Hilbert-pairing continuum reservoir whose Cauchy
+    spectral characteristic function is `exp(-2 gamma |t|)`. K967 proves a
+    uniform normalized bandwidth error at most `8 gamma/(pi Omega)`. K968
+    proves that, for any finite window `[0,T]` and tolerance `epsilon`, a
+    positive finite atomic reservoir with
+    `N>=32 gamma T/(pi epsilon^2)` approximates the exponential uniformly.
+    K969 exhibits that grid's exact later recurrence at
+    `tau_rec=2 pi N/Omega`, where the continuum remains exponentially small.
+    K970 freezes the calibration/holdout discriminator as unscored. The
+    physical quotient, GU action coupling, action-selected reservoir/reset,
+    common domain, empirical holdout and prediction credit remain open; no
+    source, ledger, canon or public verdict moves.
+
     K961--K965 sharpen K960's imported exponential generator into an exact
     microscopic ownership boundary. K961 proves that every fixed finite
     autonomous controlled-dephasing environment has a finite
@@ -13036,6 +13051,15 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K966--K970 close the continuum escape and prove finite-window parent
+  nonidentifiability. The imported positive-Hilbert Cauchy reservoir realizes
+  `exp(-2 gamma |t|)` exactly, but an explicit positive finite reservoir can
+  approximate it on every fixed calibration window and then recur exactly at
+  a known later time. Can a GU-owned physical quotient and action select the
+  spectral measure or reset law, common domain and locality theorem, and can
+  a distinct empirical holdout be frozen before scoring? Otherwise the
+  continuum/recurrence split remains an unscored conditional discriminator.
+
   K961--K965 expose the microscopic owner missing from K960. A finite closed
   autonomous controlled-dephasing reservoir is recurrent and cannot produce
   strict `exp(-2 gamma t)` decay forever. Fresh collisions can produce the
@@ -14440,6 +14464,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K966--K970 prove that an imported positive-pairing Cauchy continuum realizes
+  the exponential law exactly, while positive finite atomic reservoirs can
+  imitate it on every declared finite window and still recur exactly at a
+  known later time. Do not treat finite-window fit as parent identification or
+  the repository continuum as GU-owned. Reopen for GU credit only with a
+  physical quotient and positive state/effect pairing, an action-owned local
+  coupling that selects the spectral measure or reset law, a controlled common
+  domain/limit, the locality theorem, and a distinct empirical holdout frozen
+  before scoring.
+
   K961--K965 close the finite closed microscopic parent and price the exact
   fresh-resource alternative. Reopen this edge only with a GU-owned physical
   quotient and positive state/effect pairing, an action-owned local

@@ -4,6 +4,26 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K966--K970 continuum/recurrence discriminator
+
+- `channel-swings/k966_k965_cauchy_continuum_reservoir.py` certifies the exact
+  Cauchy-spectrum continuum dilation; its probe rejects eleven construction
+  and ownership mutations.
+- `channel-swings/k967_k966_bandlimited_continuum_bound.py` certifies the
+  uniform normalized cutoff bound; its probe rejects ten bound and promotion
+  mutations.
+- `channel-swings/k968_k967_finite_window_atomic_approximation.py` certifies
+  the positive finite-atomic approximation and dimension scaling; its probe
+  rejects thirteen construction, bound and ownership mutations.
+- `channel-swings/k969_k968_explicit_recurrence_holdout.py` certifies the
+  exact common-period recurrence and unscored holdout; its probe rejects
+  eleven recurrence and promotion mutations.
+- `channel-swings/k970_k969_continuum_recurrence_discriminator_disposition.py`
+  freezes the composed discriminator and native ownership demands; its probe
+  rejects thirteen demand and overclaim mutations.
+- Five producers pass 55 declared controls; five probes reject 58/58 hostile
+  mutations. No protected GU conclusion moves.
+
 ## K961--K965 microscopic reservoir boundary
 
 - `channel-swings/k961_k960_finite_reservoir_recurrence_boundary.py` certifies

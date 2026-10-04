@@ -1,0 +1,38 @@
+{
+  "claim_ceiling": "Uniform total-variation/Fourier error bound for the named Cauchy truncation only; not a GU cutoff or physical ultraviolet law.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "created": "2026-10-03",
+  "decision": {
+    "next_exact_input": "Discretize the normalized band with a finite positive atomic measure and quantify uniform finite-window error.",
+    "uniform_bandwidth_bound_proved": true
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "Omega": 30.0,
+    "gamma": 0.7,
+    "normalization_penalty_included": true,
+    "scale": 1.4,
+    "tail_inequality": true,
+    "tail_mass": 0.029687384369695313,
+    "tail_upper": 0.02970892271048713,
+    "uniform_error_exact_bound": 0.059374768739390626,
+    "uniform_error_theorem_bound": 0.05941784542097426
+  },
+  "ownership": {
+    "gu_action_or_physical_quotient_constructed": false,
+    "prediction_or_confirmation_credit": false,
+    "spectral_cutoff_and_normalization_imported": true
+  },
+  "result_id": "K967-BANDLIMITED-CONTINUUM-BOUND",
+  "schema_version": "1.0",
+  "scope": "Normalized restriction of K966's Cauchy spectral measure to [-Omega,Omega].",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "normalized_characteristic_error": "sup_t |f_Omega(t)-exp(-2 gamma |t|)|<=2 q_Omega<=8 gamma/(pi Omega)",
+    "tail_mass": "q_Omega=(2/pi) arctan(2 gamma/Omega)",
+    "tail_upper": "q_Omega<=4 gamma/(pi Omega)",
+    "uniform_all_real_times": true
+  }
+}

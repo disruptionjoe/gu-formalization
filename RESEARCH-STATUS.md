@@ -8,6 +8,29 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-03 — K966--K970 continuum/recurrence discriminator
+
+K966 closes the exact continuum escape left by K962: the multiplication
+generator on `L^2(R,mu_gamma)` with normalized Cauchy spectral measure produces
+coherence `exp(-2 gamma |t|)` under a positive Hilbert pairing. K967 proves
+that normalized truncation to `[-Omega,Omega]` changes the characteristic
+function by at most `8 gamma/(pi Omega)` uniformly in time.
+
+K968 then constructs a positive finite atomic reservoir. For any finite
+calibration window `[0,T]` and tolerance `epsilon`, the explicit choices
+`Omega=16 gamma/(pi epsilon)` and
+`N>=32 gamma T/(pi epsilon^2)` guarantee uniform error at most `epsilon`.
+K969 proves the same equally spaced grid recurs exactly at
+`tau_rec=2 pi N/Omega`; the continuum parent remains
+`exp(-2 gamma tau_rec)`. K970 freezes that calibration/holdout split as an
+unscored discriminator.
+
+All system/environment structure, the Cauchy measure, rate, cutoff, partition,
+trace semantics and holdout location are repository inputs. No GU action,
+physical quotient, empirical score, prediction, source claim, ledger row,
+canon or public verdict changes. Five producers pass 55 declared controls and
+five hostile probes reject 58/58 mutations.
+
 ## 2026-10-03 — K961--K965 microscopic reservoir boundary
 
 K961--K965 move the K960 exponential law from a phenomenological generator to

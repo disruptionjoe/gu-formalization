@@ -7,6 +7,19 @@ updated_at: "2026-10-03"
 
 # Next Steps For Contributors
 
+> **2026-10-03 K966--K970 CONTINUUM/RECURRENCE DISCRIMINATOR.** The normalized
+> Cauchy spectral reservoir realizes `exp(-2 gamma |t|)` exactly on a positive
+> Hilbert space. Finite bandwidth incurs uniform error at most
+> `8 gamma/(pi Omega)`, and a positive `N`-atom reservoir with
+> `N>=32 gamma T/(pi epsilon^2)` imitates it within `epsilon` on `[0,T]`.
+> That finite grid returns exactly to unit coherence at
+> `tau_rec=2 pi N/Omega`, while the continuum remains exponentially small.
+> Preserve this calibration/holdout split as unscored. Next supply a GU-owned
+> physical quotient, positive state/effect pairing and action coupling that
+> selects a reservoir spectrum or reset law, then freeze a distinct empirical
+> holdout before scoring. Do not count finite-window agreement or the imported
+> Cauchy model as GU dynamics.
+
 > **2026-10-03 K961--K965 MICROSCOPIC RESERVOIR BOUNDARY.** A fixed finite
 > autonomous controlled-dephasing reservoir is recurrent and cannot realize
 > strict `exp(-2 gamma t)` decay for all time at `gamma>0`. Fresh-qubit

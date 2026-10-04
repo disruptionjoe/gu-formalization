@@ -1,0 +1,60 @@
+{
+  "claim_ceiling": "Exact repository-owned continuum dilation only; the Cauchy measure, rate, system split, trace and observable semantics are not GU-derived.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "construction": {
+    "coherence": "integral exp(i omega t) d mu_gamma=exp(-2 gamma |t|)",
+    "controlled_hamiltonian": "|0><0| tensor 0 + |1><1| tensor M_omega",
+    "density": "d mu_gamma/d omega=(2 gamma)/(pi(omega^2+(2 gamma)^2))",
+    "environment": "L^2(R, mu_gamma)",
+    "generator": "self-adjoint multiplication M_omega",
+    "initial_vector": "1",
+    "positive_pairing": true,
+    "remote_marginal_invariant": true,
+    "unitary_group": true
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "exact_continuum_escape_constructed": true,
+    "next_exact_input": "Truncate the continuum and quantify uniform bandwidth error before finite atomic approximation."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "gamma": 0.7,
+    "normalization": true,
+    "sample_equalities": true,
+    "samples": [
+      {
+        "fourier_coherence": 1.0,
+        "t": 0.0,
+        "target": 1.0
+      },
+      {
+        "fourier_coherence": 0.7046880897187134,
+        "t": 0.25,
+        "target": 0.7046880897187134
+      },
+      {
+        "fourier_coherence": 0.2465969639416065,
+        "t": 1.0,
+        "target": 0.2465969639416065
+      },
+      {
+        "fourier_coherence": 0.014995576820477717,
+        "t": 3.0,
+        "target": 0.014995576820477717
+      }
+    ],
+    "scale": 1.4
+  },
+  "ownership": {
+    "continuum_measure_rate_split_and_trace_imported": true,
+    "gu_action_or_physical_quotient_constructed": false,
+    "prediction_or_confirmation_credit": false
+  },
+  "result_id": "K966-CAUCHY-CONTINUUM-RESERVOIR",
+  "schema_version": "1.0",
+  "scope": "Repository-owned autonomous controlled-dephasing model on an infinite Cauchy spectral reservoir.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

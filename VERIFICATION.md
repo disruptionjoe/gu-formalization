@@ -7,6 +7,16 @@ updated_at: "2026-10-03"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K966--K970 continuum/recurrence discriminator (2026-10-03)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A normalized Cauchy spectral measure on a positive Hilbert reservoir gives coherence `exp(-2 gamma |t|)` | K966 Fourier-transform construction; producer `10/10`; hostile mutations `11/11` | exact repository-owned continuum dilation; spectral owner and GU physical quotient imported |
+| Normalized cutoff to `[-Omega,Omega]` has uniform error at most `8 gamma/(pi Omega)` | K967 tail-mass and convex-mixture bound; producer `10/10`; hostile mutations `10/10` | exact sufficient bound for the named Cauchy model |
+| A positive finite atomic reservoir approximates the exponential within `epsilon` on `[0,T]` when `N>=32 gamma T/(pi epsilon^2)` | K968 truncation plus midpoint-Lipschitz theorem; producer `12/12`; hostile mutations `13/13` | constructive sufficient finite-window theorem; no optimal lower bound |
+| The same uniform grid returns exactly to unit coherence at `tau_rec=2 pi N/Omega` | K969 common-period phase identity; producer `11/11`; hostile mutations `11/11` | exact witness for the named grid; not an earliest/universal recurrence claim |
+| Finite-window agreement identifies the physical parent or supplies a GU prediction | K970 preserves an unscored calibration/holdout split and all native ownership demands; producer `12/12`; hostile mutations `13/13` | explicitly excluded |
+
 ## K961--K965 microscopic reservoir boundary (2026-10-03)
 
 | Claim | Evidence | Honest grade |
