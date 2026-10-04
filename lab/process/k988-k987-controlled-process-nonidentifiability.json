@@ -1,0 +1,49 @@
+{
+  "boundary": {
+    "action_specific_observables_may_distinguish": true,
+    "correlated_increment_or_memory_horns_excluded": true,
+    "environment_access_excluded": true,
+    "record_conditioned_feedback_excluded": true
+  },
+  "claim_ceiling": "Exact controlled system-only operational equivalence for the declared stationary-independent-increment class; not arbitrary multi-time equivalence for correlated, memoryful or record-accessible realizations.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "created": "2026-10-04",
+  "decision": {
+    "k983_one_time_boundary_strengthened_for_markov_independent_increment_class": true,
+    "next_exact_input": "Construct exact record-law discriminators between the operationally identical horns without assigning empirical credit."
+  },
+  "dependency_checks": {
+    "both_independent_increment": true,
+    "both_same_semigroup": true,
+    "input_ids": [
+      "K986-BROWNIAN-PHASE-DIFFUSION",
+      "K987-SYMMETRIC-COMPOUND-POISSON-FAMILY"
+    ]
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "interval_semigroup_identity_error": 0,
+    "interval_semigroup_pass": true,
+    "noncommuting_replay_pass": true,
+    "noncommuting_three_interval_replay_error": 0.0
+  },
+  "ownership": {
+    "gu_action_or_process_owner_constructed": false,
+    "prediction_or_confirmation_credit": false
+  },
+  "result_id": "K988-CONTROLLED-PROCESS-NONIDENTIFIABILITY",
+  "schema_version": "1.0",
+  "scope": "Finite sequences of system or system-plus-inert-ancilla CP interventions that do not access the microscopic noise record, for stationary independent-increment horns with the same interval channel.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "arbitrary_finite_system_only_instruments": true,
+    "arbitrary_microscopic_process_equality_claimed": false,
+    "brownian_and_compound_poisson_process_tensors_equal_on_declared_access_class": true,
+    "controlled_composition": "D_Delta_n o A_{n-1} o ... o A_1 o D_Delta_1",
+    "inert_ancillas_included": true,
+    "interval_average_factorization": "E[U_Delta(.)U_Delta*]=D_Delta independently on every interval",
+    "system_outcome_feedback_included_by_branchwise_induction": true
+  }
+}

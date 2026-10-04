@@ -1,0 +1,58 @@
+{
+  "claim_ceiling": "Non-exhaustive Levy-horn family and unscored record-owner requirement only; no empirical score, GU derivation, prediction, confirmation or protected verdict.",
+  "classification": "INTERNAL_REQUIREMENT_DISPOSITION",
+  "created": "2026-10-04",
+  "decision": {
+    "expanded_horn_family_does_not_supply_gu_owner": true,
+    "next_exact_input": "A GU-owned physical quotient and positive state/effect pairing plus an action must select a characteristic exponent and horn, own its common domain, locality and clock/noise/limit/record resources, and expose an inequivalent native record observable before scoring.",
+    "system_only_markov_process_data_do_not_select_levy_unravelling": true
+  },
+  "demand": {
+    "clock_noise_limit_or_record_accounting_required": true,
+    "gu_action_owned_characteristic_exponent_required": true,
+    "gu_physical_quotient_and_positive_effect_pairing_required": true,
+    "inequivalent_native_record_observable_required": true,
+    "remote_marginal_and_locality_theorem_required": true,
+    "selected_horn_and_common_domain_required": true
+  },
+  "dependency_checks": {
+    "all_prediction_or_confirmation_withheld": true,
+    "all_source_and_ledger_effect_none": true,
+    "input_ids": [
+      "K986-BROWNIAN-PHASE-DIFFUSION",
+      "K987-SYMMETRIC-COMPOUND-POISSON-FAMILY",
+      "K988-CONTROLLED-PROCESS-NONIDENTIFIABILITY",
+      "K989-RECORD-LAW-DISCRIMINATOR"
+    ],
+    "record_holdout_frozen_not_scored": true
+  },
+  "direction": "observed_to_native",
+  "identifiability": {
+    "empirical_score_assigned": false,
+    "finite_controlled_system_only_process_selects_independent_increment_horn": false,
+    "one_time_system_data_selects_horn": false,
+    "record_holdout_frozen": true,
+    "record_or_environment_sensitive_holdout_required": true
+  },
+  "ownership": {
+    "gu_action_clock_record_or_physical_quotient_constructed": false,
+    "prediction_or_confirmation_credit": false,
+    "repository_conditional_models_only": true,
+    "source_claim_or_ledger_verdict_changed": false
+  },
+  "result_id": "K990-LEVY-HORN-ACTION-DISPOSITION",
+  "revised_fork": {
+    "bounded_autonomous_fixed_product_horn": "excluded by K976--K977",
+    "brownian_diffusion_horn": "exact reduced semigroup with continuous imported Gaussian record",
+    "classification_exhaustive": false,
+    "deterministic_fresh_grid_horn": "uniformly convergent with h^-1/2 coupling and 1/h refresh costs",
+    "poisson_phase_flip_horn": "theta=pi/2 member up to pathwise global phase",
+    "symmetric_compound_poisson_horns": "continuum of exact finite-activity jump realizations with imported angle/rate/record",
+    "unbounded_spectral_horn": "exact only on singular energy-domain state in K966--K975"
+  },
+  "schema_version": "1.0",
+  "scope": "Composition of K986--K989 into the Levy phase-horn, controlled-process identifiability and record-owner boundary for K956.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

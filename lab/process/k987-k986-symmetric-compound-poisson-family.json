@@ -1,0 +1,68 @@
+{
+  "claim_ceiling": "Exact continuum of imported finite-activity phase-jump realizations only; no GU selection, physical record or diffusion-limit theorem.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "construction": {
+    "brownian_rate_divergence_as_theta_to_zero": "lambda~gamma/theta^2",
+    "characteristic_exponent": "lambda(cos(2 theta)-1)=-2 gamma",
+    "continuum_of_exact_horns": true,
+    "k981_recovered_at_theta_pi_over_2_up_to_global_phase": true,
+    "phase_process": "X_t=theta sum_{j=1}^{N_t} epsilon_j with epsilon_j=+/-1 equiprobably",
+    "rate_angle_law": "lambda=gamma/sin(theta)^2",
+    "same_dephasing_semigroup_as_k956": true,
+    "stationary_independent_increments": true
+  },
+  "created": "2026-10-04",
+  "decision": {
+    "k981_not_an_isolated_exact_horn": true,
+    "next_exact_input": "Test whether arbitrary finite system-only controlled processes distinguish these independent-increment horns from Brownian phase diffusion."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "all_rate_angle_identities_replayed": true,
+    "all_rates_finite_positive": true,
+    "gamma": 0.7,
+    "rows": [
+      {
+        "coherence": 0.06081006262521797,
+        "event_rate": 2.8000000000000003,
+        "identity_error": 0.0,
+        "target": 0.06081006262521797,
+        "theta": 0.5235987755982988
+      },
+      {
+        "coherence": 0.06081006262521797,
+        "event_rate": 1.4000000000000001,
+        "identity_error": 0.0,
+        "target": 0.06081006262521797,
+        "theta": 0.7853981633974483
+      },
+      {
+        "coherence": 0.06081006262521797,
+        "event_rate": 0.9333333333333335,
+        "identity_error": 0.0,
+        "target": 0.06081006262521797,
+        "theta": 1.0471975511965976
+      },
+      {
+        "coherence": 0.06081006262521797,
+        "event_rate": 0.7,
+        "identity_error": 0.0,
+        "target": 0.06081006262521797,
+        "theta": 1.5707963267948966
+      }
+    ],
+    "t": 2.0,
+    "theta_pi_over_2_rate_equals_gamma": true
+  },
+  "ownership": {
+    "gu_action_or_record_owner_constructed": false,
+    "jump_clock_angles_and_signs_imported": true,
+    "prediction_or_confirmation_credit": false
+  },
+  "result_id": "K987-SYMMETRIC-COMPOUND-POISSON-FAMILY",
+  "schema_version": "1.0",
+  "scope": "Symmetric +/-theta phase jumps with total Poisson rate gamma/sin(theta)^2 for 0<theta<pi modulo pi.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

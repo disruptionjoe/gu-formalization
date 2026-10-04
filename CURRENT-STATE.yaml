@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 21a30a8e4f01
+revision_basis: 63a29c2799ec
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,19 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K986--K990 strengthen the stochastic microscopic boundary from endpoint
+    channels to complete finite system-only controlled processes for the
+    stationary-independent-increment class. Brownian phase diffusion and a
+    continuum of symmetric compound-Poisson phase-jump processes all realize
+    the exact K956 semigroup. Because each interval averages to the same
+    channel and increments are independent, arbitrary finite CP interventions,
+    inert ancillas and system-outcome feedback see the same process. Their
+    inaccessible records differ exactly: Brownian paths are continuous with
+    quadratic variation `gamma T`, while compound-Poisson paths jump and have
+    atomic terminal laws. K989 freezes a `T=2`, `theta=pi/4` record holdout
+    without scoring. No GU action, quotient, record observable, source, ledger,
+    prediction, confirmation, canon or public verdict moves.
+
     K981--K985 open and classify the stochastic/time-dependent horn left by
     K979. A supplied Poisson clock of rate `gamma` driving pathwise phase flips
     `Z^{N_t}` realizes K956's dephasing semigroup exactly because
@@ -13091,6 +13104,18 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K986--K990 prove that Brownian phase diffusion and a continuum of symmetric
+  compound-Poisson phase-jump processes realize the same K956 dephasing
+  semigroup and the same arbitrary finite system-only controlled process when
+  their microscopic records are inaccessible. Their record laws remain
+  inequivalent: continuous Brownian paths and finite-activity jump paths have
+  distinct terminal-law and quadratic-variation structure. Can a GU-owned
+  physical quotient, positive state/effect pairing and action select a
+  characteristic exponent and one microscopic horn, own its common domain,
+  locality and clock/noise/limit/record resources, and make the frozen native
+  record holdout operational before scoring? Otherwise the Levy family remains
+  conditional, unowned and process-level nonidentifiable.
+
   K981--K985 prove that an imported Poisson phase-flip process realizes the
   exact K956 dephasing semigroup at finite event rate, so the deterministic
   collision family's divergent coupling is construction-specific rather than
@@ -14538,6 +14563,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K986--K990 close the system-only controlled-process escape for the declared
+  stationary-independent-increment phase horns. Do not treat the repository's
+  Brownian or compound-Poisson clocks, characteristic exponents, path records
+  or exact record resolution as GU-selected. Reopen for GU credit only with a
+  physical quotient and positive state/effect pairing, an action-owned
+  characteristic exponent selecting an explicitly typed horn, its common
+  domain and clock/noise/limit/record accounting, the locality theorem, and an
+  inequivalent native record observable frozen before scoring.
+
   K981--K985 add an exact finite-rate stochastic horn and prove the
   microscopic identifiability boundary. Do not promote K978's grid-coupling
   divergence to a universal Markov cost, and do not treat the repository's

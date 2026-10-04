@@ -2,11 +2,42 @@
 title: "Research Status"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-10-03"
+updated_at: "2026-10-04"
 canon_sweep_at: "2026-07-25"
 ---
 
 # Research Status
+
+## 2026-10-04 — K986--K990 Levy-horn controlled-process boundary
+
+K986 constructs the continuous-path counterpart to K981. With
+`X_t=sqrt(gamma)W_t` and `U_t=exp(-iX_tZ)`, the Gaussian characteristic
+function gives coherence `exp(-2 gamma t)` exactly. The Brownian clock,
+probability law, white-noise interpretation and positive pairing are imported.
+
+K987 constructs a continuum of finite-activity alternatives. Symmetric
+`+/-theta` phase jumps with total rate `lambda=gamma/sin(theta)^2` have
+characteristic exponent `lambda(cos(2theta)-1)=-2gamma`. The
+`theta=pi/2` member recovers K981 up to global phase; small angle requires
+rate `lambda~gamma/theta^2`.
+
+K988 closes K983's expressly reserved seam for this class. Stationary
+independent increments make every interval average equal to `D_Delta`, so an
+arbitrary finite sequence of system or system-plus-inert-ancilla CP
+interventions has the same controlled composition. Feedback on observed system
+outcomes is included branchwise. Record-conditioned feedback, environment
+access, correlated increments and memoryful horns remain outside scope.
+
+K989 separates the records exactly: Brownian paths are continuous almost
+surely with quadratic variation `gamma T` and atomless terminal phase, while
+compound-Poisson paths are piecewise constant with atomic terminal phase and
+jump quadratic variation `theta^2N_T`. A `T=2`, `theta=pi/4` record holdout is
+frozen without data or refitting. K990 preserves the action, quotient, pairing,
+domain, locality, characteristic-exponent and record-observable debts.
+
+No GU action, physical quotient, source claim, ledger row, empirical score,
+prediction, confirmation, canon or public verdict changes. Five producers pass
+81 declared controls and five hostile probes reject 86/86 mutations.
 
 ## 2026-10-03 — K981--K985 stochastic dephasing horn
 

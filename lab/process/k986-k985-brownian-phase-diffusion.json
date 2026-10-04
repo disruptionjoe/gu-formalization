@@ -1,0 +1,75 @@
+{
+  "claim_ceiling": "Exact random-unitary Brownian unraveling of the imported qubit semigroup only; not a GU-owned stochastic action, white-noise limit or physical record.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "construction": {
+    "coherence": "E[exp(-2 i X_t)]=exp(-2 gamma t)",
+    "continuous_paths_almost_surely": true,
+    "pathwise_unitary": "U_t=exp(-i X_t Z)",
+    "phase_process": "X_t=sqrt(gamma) W_t",
+    "remote_marginal_invariant": true,
+    "same_dephasing_semigroup_as_k956": true,
+    "stationary_independent_increments": true
+  },
+  "created": "2026-10-04",
+  "decision": {
+    "exact_nonjump_horn_constructed": true,
+    "next_exact_input": "Construct a distinct finite-activity phase-jump family and test controlled multi-time system-only identifiability."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "all_characteristic_identities_replayed": true,
+    "gamma": 0.7,
+    "identity_at_zero": true,
+    "rows": [
+      {
+        "brownian_characteristic": 1.0,
+        "identity_error": 0.0,
+        "phase_variance": 0.0,
+        "t": 0.0,
+        "target_coherence": 1.0
+      },
+      {
+        "brownian_characteristic": 0.7046880897187134,
+        "identity_error": 0.0,
+        "phase_variance": 0.175,
+        "t": 0.25,
+        "target_coherence": 0.7046880897187134
+      },
+      {
+        "brownian_characteristic": 0.2465969639416065,
+        "identity_error": 0.0,
+        "phase_variance": 0.7,
+        "t": 1.0,
+        "target_coherence": 0.2465969639416065
+      },
+      {
+        "brownian_characteristic": 0.06081006262521797,
+        "identity_error": 0.0,
+        "phase_variance": 1.4,
+        "t": 2.0,
+        "target_coherence": 0.06081006262521797
+      },
+      {
+        "brownian_characteristic": 0.003697863716482932,
+        "identity_error": 0.0,
+        "phase_variance": 2.8,
+        "t": 4.0,
+        "target_coherence": 0.003697863716482932
+      }
+    ],
+    "strict_decay_after_zero": true
+  },
+  "ownership": {
+    "brownian_clock_and_probability_imported": true,
+    "gu_action_or_physical_quotient_constructed": false,
+    "positive_hilbert_pairing_imported": true,
+    "prediction_or_confirmation_credit": false,
+    "white_noise_limit_or_stochastic_action_imported": true
+  },
+  "result_id": "K986-BROWNIAN-PHASE-DIFFUSION",
+  "schema_version": "1.0",
+  "scope": "A supplied standard Brownian motion W_t driving U_t=exp(-i sqrt(gamma) W_t Z).",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

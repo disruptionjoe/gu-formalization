@@ -2,10 +2,20 @@
 title: "Verification: What Is Proved, Computed, and Conjectural"
 status: process
 doc_type: verification-map
-updated_at: "2026-10-03"
+updated_at: "2026-10-04"
 ---
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
+
+## K986--K990 Levy-horn controlled-process boundary (2026-10-04)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Brownian phase diffusion realizes coherence `exp(-2 gamma t)` with continuous paths | K986 Gaussian characteristic function; producer `14/14`; hostile mutations `15/15` | exact for the supplied Brownian random-unitary model; not a GU stochastic action or derived white-noise limit |
+| A continuum of symmetric compound-Poisson horns realizes the same semigroup under `lambda=gamma/sin(theta)^2` | K987 characteristic exponent and four angle controls; producer `13/13`; hostile mutations `13/13` | exact finite-activity family; jump angle, rate and record remain imported |
+| Brownian and compound-Poisson horns are identical under arbitrary finite system-only controls in the declared independent-increment class | K988 conditional-expectation factorization and noncommuting replay; producer `18/18`; hostile mutations `18/18` | exact with inert ancillas and system-outcome feedback; excludes record access, memory and correlated increments |
+| Their microscopic record laws are inequivalent and define a frozen holdout | K989 continuity, terminal-law and quadratic-variation separation at `T=2`, `theta=pi/4`; producer `17/17`; hostile mutations `17/17` | frozen conditional holdout only; exact record access, apparatus and data remain absent |
+| The Levy horn is GU-selected or empirically scored | K990 preserves every native quotient/action/domain/locality/characteristic-exponent/record obligation; producer `19/19`; hostile mutations `23/23` | explicitly excluded |
 
 ## K981--K985 stochastic dephasing horn (2026-10-03)
 

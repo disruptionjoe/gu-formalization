@@ -1,0 +1,57 @@
+{
+  "claim_ceiling": "Frozen exact record-law discriminator only; no apparatus model, data, empirical score, GU record observable or diffusion-limit claim.",
+  "classification": "INTERNAL_PREREGISTERED_HOLDOUT",
+  "created": "2026-10-04",
+  "decision": {
+    "next_exact_input": "Require a GU-owned action and physical quotient that select the characteristic exponent and make one inequivalent record observable operational.",
+    "record_crosses_operational_equivalence_class": true,
+    "reduced_controlled_process_not_enough_to_select_levy_horn": true
+  },
+  "dependency_checks": {
+    "input_id": "K988-CONTROLLED-PROCESS-NONIDENTIFIABILITY",
+    "system_only_controlled_processes_equal": true
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "brownian_qv": 1.4,
+    "compound_expected_jump_qv": 1.7271807701906379,
+    "p_no_jump": 0.06081006262521795,
+    "p_no_jump_in_unit_interval": true,
+    "rate_equals_two_gamma": true,
+    "terminal_law_type_differs": true
+  },
+  "ownership": {
+    "gu_record_observable_constructed": false,
+    "prediction_or_confirmation_credit": false,
+    "record_access_and_resolution_imported": true
+  },
+  "preregistration": {
+    "T": 2.0,
+    "empirical_score_assigned": false,
+    "event_rate": 1.4000000000000001,
+    "gamma": 0.7,
+    "no_holdout_refit": true,
+    "primary_test": "path continuity / resolved jump occurrence",
+    "requires_action_owned_record_observable": true,
+    "secondary_test": "continuous versus jump quadratic-variation decomposition",
+    "status": "frozen_not_scored",
+    "theta": 0.7853981633974483
+  },
+  "record_laws": {
+    "brownian_paths_continuous_probability": 1.0,
+    "brownian_quadratic_variation": 1.4,
+    "brownian_terminal_phase": "Normal(0,gamma T), atomless",
+    "compound_at_least_one_jump_probability": 0.9391899373747821,
+    "compound_continuous_quadratic_variation": 0.0,
+    "compound_jump_quadratic_variation": "theta^2 N_T",
+    "compound_paths_continuous_probability": 0.06081006262521795,
+    "compound_terminal_phase": "theta times an integer-valued signed count, purely atomic",
+    "record_laws_equal": false
+  },
+  "result_id": "K989-RECORD-LAW-DISCRIMINATOR",
+  "schema_version": "1.0",
+  "scope": "Exact microscopic path records for K986 Brownian diffusion and the K987 theta=pi/4 compound-Poisson horn, after gamma is fixed from system calibration.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

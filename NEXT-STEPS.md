@@ -2,10 +2,23 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-10-03"
+updated_at: "2026-10-04"
 ---
 
 # Next Steps For Contributors
+
+> **2026-10-04 K986--K990 LEVY-HORN PROCESS BOUNDARY.** Brownian phase
+> diffusion and every symmetric compound-Poisson phase-jump process with
+> `lambda=gamma/sin(theta)^2` realize the exact K956 semigroup. For stationary
+> independent increments, every finite system-only controlled process factors
+> through the same interval channels, including inert ancillas and feedback on
+> system outcomes. The microscopic records still differ: Brownian paths are
+> continuous with continuous quadratic variation, while compound-Poisson paths
+> have finite jumps and atomic terminal laws. A `T=2`, `theta=pi/4` record test
+> is frozen but unscored. Next require a GU-owned physical quotient and action
+> to select the characteristic exponent and horn, own its positive pairing,
+> common domain, locality and clock/noise/limit/record resources, and make the
+> inequivalent native record observable operational before scoring.
 
 > **2026-10-03 K981--K985 STOCHASTIC-HORN BOUNDARY.** A Poisson clock of
 > rate `gamma` driving phase flips `Z^{N_t}` realizes the exact K956 dephasing

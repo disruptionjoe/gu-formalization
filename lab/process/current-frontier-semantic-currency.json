@@ -1472,7 +1472,7 @@
     },
     "research_agenda": {
       "path": "lab/process/RESEARCH-AGENDA.json",
-      "sha256": "79c1e05959696b1aa563d66341cfb26ec6bc3137e62935ab0b0ace28b3688661"
+      "sha256": "b0db1bb42e8b9725d91e28be52b4cdf732d807a06d37d290d3993f0a93dd3cf8"
     },
     "k684_closed_column_remainder_compiler": {
       "path": "lab/process/k684-k500-closed-column-remainder-compiler.json",
@@ -2619,11 +2619,11 @@
     "exact_reopener": "action-owned equation-9.16 map fixing internal projection, form-leg contraction, real/Krein coefficients, family covector, selected quadratic owner and nonzero background or interaction meaning"
   },
   "live_frontier": {
-    "current_question_contains": "K981--K985 prove that an imported Poisson phase-flip process realizes the exact K956 dephasing semigroup",
-    "selected_condition": "POISSON_PHASE_FLIP_EXACT_FINITE_RATE__DETERMINISTIC_GRID_DIVERGENCE_NOT_HORN_GENERAL__STOCHASTIC_CLOCK_POINT_JUMPS_RECORD_IMPORTED__SYSTEM_ENDPOINT_HORN_NONIDENTIFIABLE__COUNT_RECORD_HOLDOUT_FROZEN_UNSCORED__NO_PROTECTED_CLAIM_MOVE",
+    "current_question_contains": "K986--K990 prove that Brownian phase diffusion and a continuum of symmetric compound-Poisson phase-jump processes realize the same K956 dephasing semigroup",
+    "selected_condition": "BROWNIAN_AND_COMPOUND_POISSON_EXACT__FINITE_SYSTEM_ONLY_CONTROLLED_PROCESS_EQUALITY__RECORD_LAWS_INEQUIVALENT__CHARACTERISTIC_EXPONENT_ACTION_AND_RECORD_OWNER_MISSING__HOLDOUT_FROZEN_UNSCORED__NO_PROTECTED_CLAIM_MOVE",
     "b2_root": "EMPTY_NAMED_OWNER_SET",
     "reopeners": [
-      "supply a GU-owned physical quotient and positive state/effect pairing, an action-owned local or stochastic coupling that selects an explicitly typed bounded-domain, unbounded/singular, reset/time-dependent, correlated-assignment or other horn, a common domain and clock/reset/limit/record accounting, the remote-marginal/locality theorem and an inequivalent native holdout observable frozen before scoring",
+      "supply a GU-owned physical quotient and positive state/effect pairing, an action-owned characteristic exponent and local or stochastic coupling that selects an explicitly typed Brownian, jump, bounded-domain, unbounded/singular, reset/time-dependent, correlated-assignment or other horn, a common domain and clock/noise/limit/record accounting, the remote-marginal/locality theorem and an inequivalent native record observable frozen before scoring",
       "supply an action-owned seven-generator invariant lock, seven selected values and a complete functional boundary/Green/BV-BFV domain, or a separately justified genuinely nonlocal or noncommutative selector with its own reduced-observable and properness proof; otherwise retain charged boundary symmetry and switch reverse edge",
       "a genuinely new stationary body-changing even owner, fully stationary nonzero-T or non-Levi-Civita Euclidean germ, independently action-owned path adapter or different Shiab response, separately justified commuting-spinor action, or genuinely new gauge-basic old-old parent, each with complete gauge/Hessian/Noether/Green/preboundary data; do not retry K751--K754's closed minimal odd or CBRS-1R classes",
       "provide a source/action-owned nonzero-fermion stationary germ with full gauge tangent (G,L), trivial infinitesimal stabilizer when kappa is nonzero, both augmented Ward equations, every Hessian block and common variational/Green/preboundary data; then recompute all forty old-type quotient capacities",
@@ -2733,6 +2733,6 @@
     "release_readiness_change": false,
     "public_posture_change": false
   },
-  "result_ref": "lab/process/k985-k984-stochastic-horn-action-disposition.json",
+  "result_ref": "lab/process/k990-k989-levy-horn-action-disposition.json",
   "probe_ref": "tests/channel-swings/current_frontier_semantic_currency_audit.py"
 }
