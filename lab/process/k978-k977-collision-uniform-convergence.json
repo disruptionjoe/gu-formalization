@@ -1,0 +1,88 @@
+{
+  "claim_ceiling": "Uniform coherence-factor approximation for one supplied collision interpolation only; no universal channel-norm optimum or GU-selected reservoir.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "created": "2026-10-03",
+  "decision": {
+    "grid_equality_not_microscopic_owner": true,
+    "next_exact_input": "Compose the bounded-parent obstruction and singular fresh-resource repair into an exact assumption fork.",
+    "off_grid_convergence_quantified": true
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "all_bounds_hold": true,
+    "coupling_rates_increase": true,
+    "gamma": 0.7,
+    "horizon": 3.0,
+    "rows": [
+      {
+        "analytic_uniform_bound": 0.24421625854427453,
+        "bound_holds": true,
+        "coupling_rate_theta_over_h": 1.7848653854583987,
+        "fresh_ancillas_through_T": 15,
+        "h": 0.2,
+        "linear_bound_2_gamma_h": 0.27999999999999997,
+        "sampled_sup_error": 0.24400460946717883,
+        "theta_h": 0.35697307709167975,
+        "white_noise_scale_h_g_squared": 0.6371488888415117
+      },
+      {
+        "analytic_uniform_bound": 0.13064176460119414,
+        "bound_holds": true,
+        "coupling_rate_theta_over_h": 2.584470662515476,
+        "fresh_ancillas_through_T": 30,
+        "h": 0.1,
+        "linear_bound_2_gamma_h": 0.13999999999999999,
+        "sampled_sup_error": 0.13052004592813005,
+        "theta_h": 0.2584470662515476,
+        "white_noise_scale_h_g_squared": 0.6679488605403183
+      },
+      {
+        "analytic_uniform_bound": 0.06760618009405173,
+        "bound_holds": true,
+        "coupling_rate_theta_over_h": 3.69816130467688,
+        "fresh_ancillas_through_T": 60,
+        "h": 0.05,
+        "linear_bound_2_gamma_h": 0.06999999999999999,
+        "sampled_sup_error": 0.06734507327122885,
+        "theta_h": 0.184908065233844,
+        "white_noise_scale_h_g_squared": 0.6838198517704702
+      },
+      {
+        "analytic_uniform_bound": 0.02761163319875315,
+        "bound_holds": true,
+        "coupling_rate_theta_over_h": 5.888510448370392,
+        "fresh_ancillas_through_T": 150,
+        "h": 0.02,
+        "linear_bound_2_gamma_h": 0.027999999999999997,
+        "sampled_sup_error": 0.02733932633486691,
+        "theta_h": 0.11777020896740784,
+        "white_noise_scale_h_g_squared": 0.6934911060113454
+      }
+    ],
+    "sampled_errors_decrease": true,
+    "white_noise_scales_tend_to_gamma": true
+  },
+  "ownership": {
+    "clock_reset_and_freshness_imported": true,
+    "continuous_time_action_constructed": false,
+    "gu_reservoir_or_domain_constructed": false,
+    "prediction_or_confirmation_credit": false
+  },
+  "result_id": "K978-COLLISION-UNIFORM-CONVERGENCE",
+  "schema_version": "1.0",
+  "scope": "Left-continuous continuous-time interpolation of K963--K964's fresh-qubit collision construction on a finite horizon.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "collision_interpolation": "lambda_h(t)=exp(-2 gamma h floor(t/h))",
+    "coupling": "theta_h=(1/2) arccos(exp(-2 gamma h)); g_h=theta_h/h",
+    "coupling_rate_diverges_as": "sqrt(gamma/h)",
+    "freshness_cost": "floor(T/h) one-pass ancillas by horizon T",
+    "grid_error_zero": true,
+    "target": "lambda(t)=exp(-2 gamma t)",
+    "uniform_error": "sup_{0<=t<=T}|lambda_h(t)-lambda(t)| <= 1-exp(-2 gamma h) <= 2 gamma h",
+    "uniform_on_every_fixed_finite_horizon": true,
+    "white_noise_action_scale": "h g_h^2 -> gamma"
+  }
+}

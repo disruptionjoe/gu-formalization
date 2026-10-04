@@ -7,6 +7,18 @@ updated_at: "2026-10-03"
 
 # Next Steps For Contributors
 
+> **2026-10-03 K976--K980 BOUNDED-DILATION BOUNDARY.** Any bounded,
+> time-independent Hamiltonian dilation with a fixed product environment state
+> has a commutator reduced first jet and zero linear purity loss on pure system
+> inputs. It therefore cannot realize the positive-rate K956 dephasing
+> semigroup, whose `|+>` purity loss is linear. The fresh-collision repair
+> converges uniformly with error at most `2 gamma h`, but imports a one-pass
+> ancilla/reset resource and a coupling rate diverging like `h^{-1/2}`. Next
+> require a GU-owned physical quotient and action to select and control one
+> assumption-fork horn, own its positive pairing, domain, limit/reset and
+> locality theorem, and freeze a distinct empirical holdout before scoring.
+> Do not promote the repository collision model to GU dynamics.
+
 > **2026-10-03 K971--K975 PHYSICAL-DOMAIN BOUNDARY.** The exact Cauchy
 > spectral parent has divergent absolute first and second moments; its state is
 > outside both the generator and absolute form domains. More generally, finite

@@ -1,0 +1,54 @@
+{
+  "assumption_fork": {
+    "candidate_failure_modes_not_exhaustive": [
+      "unbounded or singular generator/domain",
+      "freshness, reset or time-dependent driving",
+      "non-product or input-dependent assignment outside the theorem",
+      "non-Hamiltonian primitive or nondifferentiable limit"
+    ],
+    "collision_route": "The explicit K963 family chooses freshness plus a singular rapid-refresh coupling scale and converges uniformly on fixed finite horizons.",
+    "does_not_select_a_failure_mode": true,
+    "exact_target": "positive-rate dephasing semigroup on an interval containing t=0",
+    "jointly_incompatible_parent_assumptions": [
+      "fixed product assignment for every system input",
+      "bounded self-adjoint time-independent Hamiltonian",
+      "fixed normalized environment state",
+      "differentiable reduced unitary dynamics at t=0"
+    ],
+    "minimum_conclusion": "Any exact microscopic parent must fail at least one declared assumption."
+  },
+  "claim_ceiling": "Logical negation of the K976 joint hypotheses plus one explicit K978 contrary approximation; not an exhaustive classification of open-system dilations or a GU verdict.",
+  "classification": "INTERNAL_REQUIREMENT_DISPOSITION",
+  "created": "2026-10-03",
+  "decision": {
+    "bounded_autonomous_horn_closed": true,
+    "fresh_resource_horn_conditionally_open": true,
+    "next_exact_input": "A GU-owned action/domain packet must select and control one horn rather than inheriting the repository's collision repair."
+  },
+  "dependency_checks": {
+    "all_prediction_or_confirmation_withheld": true,
+    "all_source_and_ledger_effect_none": true,
+    "bounded_parent_obstruction_present": true,
+    "collision_repair_present": true,
+    "input_ids": [
+      "K976-BOUNDED-DILATION-FIRST-JET-OBSTRUCTION",
+      "K977-REDUCED-PURITY-ZENO-BOUNDARY",
+      "K978-COLLISION-UNIFORM-CONVERGENCE"
+    ],
+    "purity_boundary_present": true
+  },
+  "direction": "observed_to_native",
+  "ownership": {
+    "gu_action_selects_no_horn": true,
+    "gu_physical_quotient_constructed": false,
+    "held_out_scored": false,
+    "logical_fork_only": true,
+    "prediction_or_confirmation_credit": false
+  },
+  "result_id": "K979-MARKOV-DILATION-ASSUMPTION-FORK",
+  "schema_version": "1.0",
+  "scope": "Logical composition of K976--K978 for exact positive-rate dephasing and its fresh-collision approximation.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

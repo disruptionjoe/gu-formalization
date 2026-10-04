@@ -4,6 +4,25 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K976--K980 bounded-dilation first-jet boundary
+
+- `channel-swings/k976_k975_bounded_dilation_first_jet_obstruction.py`
+  certifies the commutator-only first jet for bounded fixed-product Hamiltonian
+  dilations and the exact dephasing witness; its probe rejects seventeen
+  mutations.
+- `channel-swings/k977_k976_reduced_purity_zeno_boundary.py` certifies the
+  quadratic-versus-linear reduced-purity onset; its probe rejects eleven
+  mutations.
+- `channel-swings/k978_k977_collision_uniform_convergence.py` certifies the
+  uniform off-grid collision error and retained singular resource scaling; its
+  probe rejects fourteen mutations.
+- `channel-swings/k979_k978_markov_dilation_assumption_fork.py` composes the
+  exact non-exhaustive assumption fork; its probe rejects seventeen mutations.
+- `channel-swings/k980_k979_action_domain_disposition.py` freezes the native
+  action/domain/locality/holdout demand; its probe rejects nineteen mutations.
+- Five producers pass 70 declared controls; five probes reject 78/78 hostile
+  mutations. No protected GU conclusion moves.
+
 ## K971--K975 finite-energy physical-domain boundary
 
 - `channel-swings/k971_k970_cauchy_energy_domain_boundary.py` certifies the

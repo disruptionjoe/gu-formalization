@@ -1,0 +1,49 @@
+{
+  "claim_ceiling": "Conditional microscopic action/domain requirement and unscored assumption fork only; no exhaustive dilation theorem, empirical score, GU derivation, prediction, confirmation or protected verdict.",
+  "classification": "INTERNAL_REQUIREMENT_DISPOSITION",
+  "created": "2026-10-03",
+  "decision": {
+    "bounded_product_autonomous_parent_excluded": true,
+    "fresh_collision_family_imports_singular_resources": true,
+    "fresh_collision_family_uniformly_approximates": true,
+    "next_exact_input": "A GU-owned physical quotient and positive state/effect pairing plus an action must select an unbounded/domain-controlled reservoir, reset/time-dependent resource, correlated assignment, or another explicitly typed horn; prove its locality and controlled limit; and freeze a distinct empirical resolution or holdout before scoring."
+  },
+  "demand": {
+    "controlled_limit_or_reset_accounting_required": true,
+    "distinct_empirical_holdout_frozen_before_scoring_required": true,
+    "gu_action_owned_local_coupling_required": true,
+    "gu_physical_quotient_and_positive_effect_pairing_required": true,
+    "remote_marginal_and_locality_theorem_required": true,
+    "selected_horn_and_common_domain_required": true
+  },
+  "dependency_checks": {
+    "all_prediction_or_confirmation_withheld": true,
+    "all_source_and_ledger_effect_none": true,
+    "assumption_fork_unselected": true,
+    "input_ids": [
+      "K976-BOUNDED-DILATION-FIRST-JET-OBSTRUCTION",
+      "K977-REDUCED-PURITY-ZENO-BOUNDARY",
+      "K978-COLLISION-UNIFORM-CONVERGENCE",
+      "K979-MARKOV-DILATION-ASSUMPTION-FORK"
+    ]
+  },
+  "direction": "observed_to_native",
+  "discriminator": {
+    "bounded_autonomous_parent": "zero first-order purity loss and no dissipative first jet",
+    "exact_markov_target": "linear first-order purity loss at positive rate",
+    "fresh_collision_repair": "uniform O(h) coherence error with diverging coupling rate and ancilla supply",
+    "status": "reserved_not_scored"
+  },
+  "ownership": {
+    "gu_action_or_physical_quotient_constructed": false,
+    "prediction_or_confirmation_credit": false,
+    "repository_conditional_models_only": true,
+    "source_claim_or_ledger_verdict_changed": false
+  },
+  "result_id": "K980-ACTION-DOMAIN-DISPOSITION",
+  "schema_version": "1.0",
+  "scope": "Composition of K976--K979 into the physical quotient, action, domain, locality and holdout boundary for the K956 dephasing candidate.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

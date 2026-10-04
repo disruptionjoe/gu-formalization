@@ -1,0 +1,58 @@
+{
+  "claim_ceiling": "Exact first-jet no-go under the four declared dilation hypotheses only; no general open-system, unbounded-Hamiltonian, correlated-state, reset-law or GU no-go.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "created": "2026-10-03",
+  "decision": {
+    "bounded_product_parent_first_jet_excluded": true,
+    "next_exact_input": "Expose the observable reduced-purity consequence and compare its short-time order with the K956 semigroup."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "P0_and_P1_force_commuting_hamiltonian_diagonal": true,
+    "dephasing_Pplus_has_real_symmetric_nonzero_offdiagonal": true,
+    "dephasing_of_P0_zero": true,
+    "dephasing_of_P1_zero": true,
+    "dephasing_of_Pplus": [
+      [
+        "0",
+        "-1"
+      ],
+      [
+        "-1",
+        "0"
+      ]
+    ],
+    "diagonal_commutator_on_Pplus_has_purely_imaginary_offdiagonal": true,
+    "gamma": "1",
+    "witness_separates_generators": true
+  },
+  "ownership": {
+    "bounded_autonomous_parent_only": true,
+    "correlated_assignment_or_reset_parent_excluded": false,
+    "gu_action_or_physical_quotient_constructed": false,
+    "hilbert_tensor_trace_and_product_assignment_imported": true,
+    "prediction_or_confirmation_credit": false,
+    "unbounded_or_nondifferentiable_parent_excluded": false
+  },
+  "result_id": "K976-BOUNDED-DILATION-FIRST-JET-OBSTRUCTION",
+  "schema_version": "1.0",
+  "scope": "Reduced dynamics from a fixed product environment state and a bounded time-independent Hamiltonian, compared with the K956 positive-rate qubit dephasing semigroup at t=0.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "dephasing_generator": "L(rho)=gamma(Z rho Z-rho)",
+    "effective_hamiltonian": "H_eff=Tr_E(H(I tensor sigma_E))",
+    "exact_semigroup_parent_impossible_under_hypotheses": true,
+    "first_jet_is_derivation": true,
+    "hypotheses": [
+      "fixed product assignment rho tensor sigma_E for every system input",
+      "bounded self-adjoint time-independent H",
+      "trace-class normalized sigma_E",
+      "differentiability at t=0"
+    ],
+    "parent": "Phi_t(rho)=Tr_E(exp(-itH)(rho tensor sigma_E)exp(itH))",
+    "positive_rate_dephasing_is_not_a_commutator": true,
+    "reduced_first_jet": "d Phi_t(rho)/dt|_0=-i[H_eff,rho]"
+  }
+}

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 0751ed454665
+revision_basis: dce220196cef
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,19 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K976--K980 close the bounded-autonomous dilation horn behind K956's exact
+    Markov dephasing candidate. K976 proves that every bounded time-independent
+    Hamiltonian dilation with a fixed product environment state has a reduced
+    first jet of commutator form, so it cannot equal positive-rate dephasing.
+    K977 exposes the observable consequence: bounded parents have zero linear
+    purity loss for a pure input, whereas the semigroup loses purity at rate
+    `2 gamma`. K978 proves the fresh-collision repair converges uniformly on
+    every fixed finite horizon with coherence error at most
+    `1-exp(-2 gamma h)<=2 gamma h`, while its coupling rate diverges like
+    `h^{-1/2}` and its ancilla demand like `h^{-1}`. K979--K980 freeze the exact
+    assumption fork and native ownership demand. No GU action, source, ledger,
+    prediction, confirmation, canon or public verdict moves.
+
     K971--K975 expose the finite-energy seam in K966's exact continuum parent.
     K971 proves that the Cauchy state has divergent absolute first and second
     spectral moments and lies in neither the multiplication-generator domain
@@ -13065,6 +13078,17 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K976--K980 prove that the imported exact dephasing semigroup cannot have a
+  bounded autonomous Hamiltonian parent with a fixed product environment
+  assignment: its dissipative first jet and linear purity loss are
+  incompatible with the commutator first jet and quadratic onset of that
+  parent class. Fresh collisions converge uniformly but require an imported
+  reset/freshness resource and singular coupling rate. Can a GU-owned physical
+  quotient, positive state/effect pairing and action select and control one
+  assumption-fork horn, own the common domain and locality theorem, and freeze
+  a distinct empirical resolution/holdout before scoring? Otherwise the
+  Markov parent remains conditional and unowned.
+
   K971--K975 prove that the imported exact exponential spectral parent is a
   singular energy-domain limit: finite first moment removes the cusp and
   finite variance restores quadratic short-time survival. Finite-energy
@@ -14488,6 +14512,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K976--K980 close the bounded fixed-product autonomous horn for the K956
+  Markov law and quantify the fresh-collision contrary repair between grid
+  points. Do not treat the repository's Hilbert pairing, collision tape,
+  reset clock or singular coupling limit as GU-selected. Reopen for GU credit
+  only with a physical quotient and positive state/effect pairing, an
+  action-owned local coupling that selects an explicitly typed assumption-fork
+  horn, its common domain and controlled limit/reset accounting, the locality
+  theorem, and a distinct empirical resolution or holdout frozen before
+  scoring.
+
   K971--K975 close the hidden finite-energy upgrade of the K966 Cauchy parent:
   exact exponential spectral coherence requires divergent first and second
   moments, while any finite-energy approximation pays a quantified

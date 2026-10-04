@@ -8,6 +8,31 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-03 — K976--K980 bounded-dilation first-jet boundary
+
+K976 proves a general short-time obstruction beyond K961's controlled-
+dephasing recurrence theorem. For a fixed product environment state and any
+bounded time-independent self-adjoint Hamiltonian, the reduced first
+derivative is `-i[H_eff,rho]`. K956's positive-rate dephasing generator is not
+a commutator, as the exact `P0,P1,P+` witness shows.
+
+K977 turns the generator mismatch into an observable order test. Pure system
+inputs under the bounded parent have zero linear purity loss; for K956 on
+`|+><+|`, purity is `(1+exp(-4 gamma t))/2` and its derivative is `-2 gamma`.
+The explicit bounded control `H=Z tensor Y` has the expected quadratic loss.
+
+K978 supplies the strongest simple contrary repair. The left-continuous
+fresh-collision interpolation converges uniformly on every fixed horizon with
+error at most `1-exp(-2 gamma h)<=2 gamma h`, but the collision coupling rate
+diverges like `sqrt(gamma/h)` and the fresh-ancilla demand like `1/h`.
+K979 records only the logical assumption fork; it does not claim an exhaustive
+dilation classification. K980 freezes the GU action/domain/locality/holdout
+requirements and keeps the discriminator unscored.
+
+No GU action, physical quotient, source claim, ledger row, empirical score,
+prediction, confirmation, canon or public verdict changes. Five producers pass
+70 declared controls and five hostile probes reject 78/78 mutations.
+
 ## 2026-10-03 — K971--K975 finite-energy physical-domain boundary
 
 K971 computes the exact spectral moments of K966's Cauchy state. Its cutoff

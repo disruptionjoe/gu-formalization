@@ -1,0 +1,93 @@
+{
+  "claim_ceiling": "Exact purity-order incompatibility under K976 hypotheses; no universal Zeno theorem for singular, reset, correlated or non-Hamiltonian parents.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "contrary_control": {
+    "Hamiltonian": "H=Z tensor Y",
+    "environment_state": "|0><0|",
+    "reduced_coherence": "cos(2t)",
+    "reduced_purity": "(1+cos(2t)^2)/2",
+    "short_time_loss": "2t^2+O(t^4)",
+    "system_input": "|+><+|"
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "next_exact_input": "Quantify continuous-time convergence of the fresh-collision repair between its exact grid points.",
+    "observable_short_time_boundary_proved": true
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "bounded_example_linear_ratio_tends_to_zero": true,
+    "bounded_example_quadratic_ratio_tends_to_two": true,
+    "bounded_example_rows": [
+      {
+        "linear_loss_ratio": 0.19734751499278724,
+        "purity": 0.9802652485007213,
+        "quadratic_loss_ratio": 1.973475149927872,
+        "t": 0.1
+      },
+      {
+        "linear_loss_ratio": 0.05992803455111181,
+        "purity": 0.9982021589634666,
+        "quadratic_loss_ratio": 1.9976011517037269,
+        "t": 0.03
+      },
+      {
+        "linear_loss_ratio": 0.019997333475552104,
+        "purity": 0.9998000266652445,
+        "quadratic_loss_ratio": 1.9997333475552104,
+        "t": 0.01
+      },
+      {
+        "linear_loss_ratio": 0.005999928000359016,
+        "purity": 0.9999820002159989,
+        "quadratic_loss_ratio": 1.9999760001196718,
+        "t": 0.003
+      }
+    ],
+    "gamma": 1.0,
+    "semigroup_linear_ratio_tends_to_two_gamma": true,
+    "semigroup_rows": [
+      {
+        "linear_loss_ratio": 1.6483997698218034,
+        "purity": 0.8351600230178197,
+        "t": 0.1
+      },
+      {
+        "linear_loss_ratio": 1.8846593880473754,
+        "purity": 0.9434602183585787,
+        "t": 0.03
+      },
+      {
+        "linear_loss_ratio": 1.9605280423838467,
+        "purity": 0.9803947195761615,
+        "t": 0.01
+      },
+      {
+        "linear_loss_ratio": 1.9880478563449135,
+        "purity": 0.9940358564309653,
+        "t": 0.003
+      }
+    ]
+  },
+  "ownership": {
+    "general_unbounded_dilation_excluded": false,
+    "gu_positive_state_effect_pairing_constructed": false,
+    "prediction_or_confirmation_credit": false,
+    "purity_and_born_trace_imported": true
+  },
+  "result_id": "K977-REDUCED-PURITY-ZENO-BOUNDARY",
+  "schema_version": "1.0",
+  "scope": "Short-time purity of a pure system input under K976 bounded product-state Hamiltonian dilation versus K956 positive-rate dephasing.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "bounded_parent_first_jet": "rho_dot(0)=-i[H_eff,P]",
+    "bounded_parent_purity_loss_order": "O(t^2)",
+    "dephasing_plus_state": "rho_t=(I+exp(-2 gamma t)X)/2",
+    "dephasing_purity": "(1+exp(-4 gamma t))/2",
+    "dephasing_purity_derivative": "-2 gamma",
+    "positive_rate_orders_incompatible": true,
+    "pure_input_purity_derivative": "2 Tr(P rho_dot(0))=0"
+  }
+}

@@ -7,6 +7,16 @@ updated_at: "2026-10-03"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K976--K980 bounded-dilation first-jet boundary (2026-10-03)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A bounded time-independent Hamiltonian dilation with fixed product environment state has a commutator reduced first jet and cannot equal positive-rate dephasing | K976 partial-trace derivative theorem and exact `P0,P1,P+` witness; producer `15/15`; hostile mutations `17/17` | exact under the four declared hypotheses; not an unbounded/reset/correlated-parent no-go |
+| The bounded parent has zero linear purity loss for a pure system input, unlike K956 dephasing | K977 trace identity, exact dephasing formula and `Z tensor Y` quadratic control; producer `12/12`; hostile mutations `11/11` | exact short-time order boundary under K976 hypotheses |
+| The fresh-collision interpolation converges uniformly between grid points with error at most `2 gamma h` | K978 analytic remainder bound and deterministic dense replay; producer `13/13`; hostile mutations `14/14` | exact coherence-factor bound for the named interpolation; no universal channel-norm optimum |
+| Exact Markov dynamics must leave at least one K976 parent assumption | K979 dependency composition; producer `16/16`; hostile mutations `17/17` | exact logical fork, explicitly not an exhaustive classification |
+| The assumption fork is GU-selected or empirically scored | K980 preserves every native owner/domain/locality/holdout demand; producer `14/14`; hostile mutations `19/19` | explicitly excluded |
+
 ## K971--K975 finite-energy physical-domain boundary (2026-10-03)
 
 | Claim | Evidence | Honest grade |
