@@ -1472,7 +1472,7 @@
     },
     "research_agenda": {
       "path": "lab/process/RESEARCH-AGENDA.json",
-      "sha256": "b78b4a2af68b3dac75e1ff0192e8d1786b96836efb4d53285abe24bed189fcb8"
+      "sha256": "6aab7f50a952410a67cfe2f21d116e7c7ea0b09c4903bbdb9a40cf7726bd5907"
     },
     "k684_closed_column_remainder_compiler": {
       "path": "lab/process/k684-k500-closed-column-remainder-compiler.json",
@@ -2619,8 +2619,8 @@
     "exact_reopener": "action-owned equation-9.16 map fixing internal projection, form-leg contraction, real/Krein coefficients, family covector, selected quadratic owner and nonzero background or interaction meaning"
   },
   "live_frontier": {
-    "current_question_contains": "K1021--K1025 derive sharp conditional setting-source ceilings from total",
-    "selected_condition": "SETTING_TV_AND_MIN_ENTROPY_CEILINGS__PRESETTINGS_HERALD_ORDERING__POSTSETTINGS_LOCAL_COUNTERMODEL__EXACT_R_OVER_N_RECORD_CORRECTION__MEMORY_ROBUST_33412_TRIAL_COMPOSED_FORECAST__STATE_HERALD_SOURCE_LOCALITY_DETECTOR_AND_AUDIT_OWNERSHIP_STILL_EXTERNAL__NO_PROTECTED_CLAIM_MOVE",
+    "current_question_contains": "K1026--K1030 derive the robust event-box spacelike condition",
+    "selected_condition": "ROBUST_SPACELIKE_EVENT_BOX_MARGIN__TWO_WAY_SETTING_TO_REMOTE_OUTCOME_SCHEDULE__SHARP_B_PLUS_Q_ONE_MINUS_B_COMPROMISE_CEILING__MEMORY_ROBUST_CAUSAL_RECORD_COMPOSITION__36043_TRIAL_IMPORTED_FORECAST__STATE_EVENT_RECORD_CLOCK_POSITION_ACTION_DETECTOR_AND_AUDIT_OWNERSHIP_STILL_EXTERNAL__NO_PROTECTED_CLAIM_MOVE",
     "b2_root": "EMPTY_NAMED_OWNER_SET",
     "reopeners": [
       "supply a GU-owned physical quotient and positive state/effect pairing, commuting local observable algebras, an action-derived local generator, ownership of the noisy state family, preparation, settings and detector calibration, common domain and locality theorem, and a complete statistical/systematic error budget before scoring entanglement or Bell relations",

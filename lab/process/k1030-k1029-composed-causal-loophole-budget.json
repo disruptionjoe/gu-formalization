@@ -1,0 +1,41 @@
+{
+  "certificate": "w_hat_recorded>3/4+epsilon+q(1/4-epsilon)+R/n+sqrt(log(1/alpha)/(2n))",
+  "created": "2026-10-04",
+  "feasibility_condition": "expected_win_rate>3/4+epsilon+q(1/4-epsilon)+record_rate",
+  "forecast_model": "K1018 independent equal-efficiency loss plus K1021 setting-TV, K1028 locality-compromise and K1024 record budgets",
+  "frozen_point": {
+    "V": "2/5",
+    "alpha": "1/20",
+    "compromise_rate": "1/1000",
+    "effective_margin": 0.0064466140385988635,
+    "epsilon": "1/1000",
+    "eta": "49/50",
+    "expected_win_rate": 0.7586956140385989,
+    "good_local_ceiling": 0.751,
+    "locality_penalty": 0.000249,
+    "n_total": 36043,
+    "p": "1",
+    "penalty_at_n": 0.00644653040476433,
+    "penalty_at_n_minus_one": 0.0064466198349525826,
+    "record_rate": "1/1000"
+  },
+  "inference_boundary": "36,043 trials is an imported-model forecast using supplied predictable pre-score causal-compromise indicators plus setting, loss and record bounds; no empirical locality audit is inferred",
+  "ownership": {
+    "gu_protocol_constructed": false,
+    "loophole_free_experiment_claimed": false
+  },
+  "remaining_unowned_packet": [
+    "positive state/effect pairing",
+    "action-owned preparation and generator",
+    "physical pre-settings herald",
+    "fresh setting source and independence proof",
+    "commuting local observables",
+    "measured two-way spacelike event records",
+    "detector response calibration",
+    "audited complete systematic-error budget"
+  ],
+  "result_id": "K1030-K1029-COMPOSED-CAUSAL-LOOPHOLE-BUDGET",
+  "schema_version": "1.0",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

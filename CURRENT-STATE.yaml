@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 2602da9167eb
+revision_basis: 1285a3e048bf
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1026--K1030 make K1025's spacelike-locality and causal-record assumptions
+    exact. Event-coordinate uncertainty boxes are robustly spacelike when
+    `L_nom-r_A-r_B>c(|Delta t_nom|+tau_A+tau_B)`. Bell locality requires that
+    margin separately from `A_setting` to `B_outcome` and from `B_setting` to
+    `A_outcome`; nominal station separation or one direction alone is not
+    enough. If good trials have local ceiling `b` and at most fraction `q` is
+    compromised, the sharp aggregate ceiling is `b+q(1-b)`. Composing
+    `b=3/4+epsilon`, `q`, `R/n` and Hoeffding--Azuma yields the memory-robust
+    causal-record certificate. At the imported
+    `p=1,V=2/5,eta=49/50,alpha=1/20` point with
+    `epsilon=q=R/n=1/1000`, the forecast becomes 36,043 all-trials shots. No
+    GU state, physical event record, clock/position calibration, action,
+    empirical score, source, ledger, prediction, confirmation, canon or public
+    verdict moves.
+
     K1021--K1025 turn K1020's unnamed setting-freshness, herald-ordering and
     record-integrity assumptions into exact operational boundaries. If the
     conditional four-pair setting law is within total variation `epsilon` of
@@ -13213,6 +13228,17 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1026--K1030 derive the robust event-box spacelike condition, require both
+  setting-to-remote-outcome directions, prove the sharp `b+q(1-b)` locality-
+  compromise ceiling and compose it with setting variation, record corruption
+  and arbitrary device memory. The imported frozen forecast becomes 36,043
+  trials at `p=1,V=2/5,eta=49/50,epsilon=q=R/n=1/1000,alpha=1/20`. Can a
+  GU-owned physical quotient and action now supply the positive state/effect
+  pairing, preparation, physical pre-settings herald, fresh setting source,
+  commuting local observables, measured two-way spacelike event records,
+  detector response and audited complete systematics before the empirical
+  certificate is scored?
+
   K1021--K1025 derive sharp conditional setting-source ceilings from total
   variation and pair-source min-entropy, prove the pre-settings herald
   ordering requirement with a firing post-settings countermodel, and add an
@@ -14750,6 +14776,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K1026--K1030 close the mathematical ambiguity in K1025's spacelike-locality
+  and causal-record assumptions. Preserve the sharp event-box margin, the
+  two-way setting-to-remote-outcome schedule, the `b+q(1-b)` compromise
+  ceiling, the memory-robust composition and the 36,043-trial imported-model
+  forecast. Do not treat supplied coordinates, clock/position errors,
+  compromise fraction, loss model, timing or locality as GU-selected or
+  empirically certified. Reopen for GU credit only with measured two-way event
+  records and a physical quotient and positive state/effect pairing, commuting
+  local observable algebras, an action-owned generator and preparation, a
+  physical pre-settings herald, an owned fresh setting source, detector
+  response and audited complete statistical/systematic calibration budget.
+
   K1021--K1025 close the mathematical ambiguity in K1020's freshness,
   event-ready ordering and record-integrity assumptions. Preserve the sharp
   total-variation and min-entropy ceilings, the pre-settings herald theorem,

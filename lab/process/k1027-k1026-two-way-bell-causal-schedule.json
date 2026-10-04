@@ -1,0 +1,68 @@
+{
+  "created": "2026-10-04",
+  "decision_rule": "a trial is locality-certified only when both directional robust margins are strictly positive",
+  "one_way_only_control": [
+    {
+      "certified": true,
+      "delta_t": 2,
+      "direction": "A_setting_to_B_outcome",
+      "distance": 10,
+      "margin": 7.700000000000001,
+      "radius_outcome": 0.1,
+      "radius_setting": 0.1,
+      "tau_outcome": 0.05,
+      "tau_setting": 0.05
+    },
+    {
+      "certified": false,
+      "delta_t": 10,
+      "direction": "B_setting_to_A_outcome",
+      "distance": 10,
+      "margin": -0.3000000000000007,
+      "radius_outcome": 0.1,
+      "radius_setting": 0.1,
+      "tau_outcome": 0.05,
+      "tau_setting": 0.05
+    }
+  ],
+  "ownership": {
+    "gu_locality_theorem_constructed": false,
+    "minkowski_regime_verified": false,
+    "physical_events_recorded": false
+  },
+  "passing_schedule": [
+    {
+      "certified": true,
+      "delta_t": 2,
+      "direction": "A_setting_to_B_outcome",
+      "distance": 10,
+      "margin": 7.700000000000001,
+      "radius_outcome": 0.1,
+      "radius_setting": 0.1,
+      "tau_outcome": 0.05,
+      "tau_setting": 0.05
+    },
+    {
+      "certified": true,
+      "delta_t": 3,
+      "direction": "B_setting_to_A_outcome",
+      "distance": 10,
+      "margin": 6.700000000000001,
+      "radius_outcome": 0.1,
+      "radius_setting": 0.1,
+      "tau_outcome": 0.05,
+      "tau_setting": 0.05
+    }
+  ],
+  "record_requirement": "retain per-trial setting and outcome event intervals plus calibration provenance for both wings",
+  "required_relations": [
+    "A_setting spacelike from B_outcome",
+    "B_setting spacelike from A_outcome"
+  ],
+  "result_id": "K1027-K1026-TWO-WAY-BELL-CAUSAL-SCHEDULE",
+  "schema_version": "1.0",
+  "scope": "excludes subluminal or luminal setting-to-remote-outcome influence inside the supplied Minkowski uncertainty model only",
+  "station_separation_warning": "nominal station separation alone does not certify the setting-to-remote-outcome event pairs",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

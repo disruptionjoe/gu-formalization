@@ -1,0 +1,52 @@
+{
+  "audit_boundary": "positive margin certifies every event pair in the supplied uncertainty sets; nonpositive margin is inconclusive, not proof of timelike influence",
+  "controls": [
+    {
+      "certified": true,
+      "delta_t": 2.0,
+      "distance": 10.0,
+      "margin": 7.700000000000001,
+      "name": "robust_spacelike",
+      "radius_a": 0.1,
+      "radius_b": 0.1,
+      "tau_a": 0.05,
+      "tau_b": 0.05
+    },
+    {
+      "certified": false,
+      "delta_t": 1.5,
+      "distance": 2.0,
+      "margin": 0.0,
+      "name": "boundary",
+      "radius_a": 0.125,
+      "radius_b": 0.125,
+      "tau_a": 0.125,
+      "tau_b": 0.125
+    },
+    {
+      "certified": false,
+      "delta_t": 2.0,
+      "distance": 2.0,
+      "margin": -0.2999999999999998,
+      "name": "not_certified",
+      "radius_a": 0.1,
+      "radius_b": 0.1,
+      "tau_a": 0.05,
+      "tau_b": 0.05
+    }
+  ],
+  "created": "2026-10-04",
+  "margin": "m=max(0,L_nom-r_A-r_B)-c(|Delta t_nom|+tau_A+tau_B)",
+  "metric_convention": "spacelike when ||Delta x||>c|Delta t|",
+  "ownership": {
+    "clock_calibration_supplied": false,
+    "gu_spacetime_protocol_constructed": false,
+    "measured_coordinates_supplied": false
+  },
+  "result_id": "K1026-K1025-SPACELIKE-INTERVAL-UNCERTAINTY-CERTIFICATE",
+  "robust_condition": "L_nom-r_A-r_B>c(|Delta t_nom|+tau_A+tau_B)",
+  "schema_version": "1.0",
+  "sharpness": "aligned spatial errors attain the distance floor and aligned clock errors attain the time ceiling",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

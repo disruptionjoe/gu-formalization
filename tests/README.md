@@ -4,6 +4,22 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1026--K1030 causal-record and spacelike-locality boundary
+
+- `channel-swings/k1026_k1025_spacelike_interval_uncertainty_certificate.py`
+  certifies the robust spacelike margin for event-coordinate uncertainty;
+  its probe rejects twelve mutations.
+- `channel-swings/k1027_k1026_two_way_bell_causal_schedule.py` certifies the
+  two setting-to-remote-outcome directions; its probe rejects twelve mutations.
+- `channel-swings/k1028_k1027_locality_compromise_fraction_boundary.py`
+  certifies the sharp `b+q(1-b)` ceiling; its probe rejects thirteen mutations.
+- `channel-swings/k1029_k1028_causal_record_sequential_certificate.py`
+  certifies the memory-robust composed threshold; its probe rejects twelve mutations.
+- `channel-swings/k1030_k1029_composed_causal_loophole_budget.py` certifies
+  the composed 36,043-shot imported-model forecast; its probe rejects twelve mutations.
+- Five producers pass 61 declared controls; five probes reject 61/61 hostile
+  mutations. No protected GU conclusion moves.
+
 ## K1021--K1025 setting, herald and record-integrity boundary
 
 - `channel-swings/k1021_k1020_setting_tv_chsh_certificate.py` certifies the

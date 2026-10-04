@@ -1,0 +1,40 @@
+{
+  "aggregate_ceiling": "b+q(1-b)",
+  "compromised_trial_ceiling": "E[W_i|past,compromised]<=1",
+  "controls": [
+    {
+      "b": 0.75,
+      "ceiling": 0.75,
+      "q": 0.0
+    },
+    {
+      "b": 0.75,
+      "ceiling": 0.775,
+      "q": 0.1
+    },
+    {
+      "b": 0.8,
+      "ceiling": 0.8500000000000001,
+      "q": 0.25
+    },
+    {
+      "b": 0.75,
+      "ceiling": 1.0,
+      "q": 1.0
+    }
+  ],
+  "created": "2026-10-04",
+  "finite_count_form": "[(n-C)b+C]/n=b+(C/n)(1-b)",
+  "fraction_bound": "predictable compromise indicators c_i are fixed before W_i and sum_i c_i<=qn",
+  "good_trial_ceiling": "E[W_i|past,good]<=b_i",
+  "ownership": {
+    "communication_model_gu_owned": false,
+    "compromise_fraction_audited": false
+  },
+  "result_id": "K1028-K1027-LOCALITY-COMPROMISE-FRACTION-BOUNDARY",
+  "schema_version": "1.0",
+  "scope": "a supplied audit bound on causally uncertified or communication-capable trials; no physical locality audit is constructed",
+  "sharpness": "mix a strategy saturating b on good trials with perfect wins on every compromised trial",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

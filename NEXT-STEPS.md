@@ -7,6 +7,20 @@ updated_at: "2026-10-04"
 
 # Next Steps For Contributors
 
+> **2026-10-04 K1026--K1030 CAUSAL-RECORD AND SPACELIKE-LOCALITY BOUNDARY.**
+> Event boxes are robustly spacelike when
+> `L_nom-r_A-r_B>c(|Delta t_nom|+tau_A+tau_B)`. Bell locality requires this
+> separately from each wing's setting choice to the remote registered outcome;
+> nominal station separation or one direction alone is insufficient. If good
+> trials have local ceiling `b` and at most fraction `q` is causally
+> compromised, the sharp ceiling is `b+q(1-b)`. Composing
+> `b=3/4+epsilon`, `q`, `R/n` and Hoeffding--Azuma gives the memory-robust
+> threshold. At the imported frozen point with `epsilon=q=R/n=1/1000`, the
+> forecast becomes 36,043 shots. Next require measured two-way event records,
+> calibrated clocks/positions and a GU-owned quotient, positive pairing,
+> action, physical herald, fresh source, commuting observables, detector
+> response and complete audited systematics before scoring.
+
 > **2026-10-04 K1021--K1025 SETTING, HERALD AND RECORD-INTEGRITY BOUNDARY.**
 > A conditional setting-pair law within total variation `epsilon` of uniform
 > has sharp local CHSH ceiling `min(1,3/4+epsilon)`. Pair-source min-entropy

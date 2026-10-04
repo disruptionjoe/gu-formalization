@@ -7,6 +7,19 @@ updated_at: "2026-10-04"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1026--K1030 causal-record and spacelike-locality boundary (2026-10-04)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| `L_nom-r_A-r_B>c(|Delta t_nom|+tau_A+tau_B)` certifies every supplied event pair as spacelike | K1026 reverse/triangle bounds and sharp aligned-error controls; producer `12/12`; hostile mutations `12/12` | exact sufficient uncertainty-set theorem; no coordinates, clocks or spacetime regime measured |
+| Bell locality needs both setting-to-remote-outcome directions, not nominal station separation | K1027 two-direction schedule and one-way failure control; producer `12/12`; hostile mutations `12/12` | exact conditional causal-record interface; no physical event record or GU locality theorem |
+| If good trials have ceiling `b` and fraction `q` is compromised, the sharp aggregate ceiling is `b+q(1-b)` | K1028 convex decomposition and saturating mixture; producer `13/13`; hostile mutations `13/13` | exact for a supplied deterministic compromise bound |
+| Setting TV, locality compromise, record corruption and arbitrary device memory compose in one sequential certificate | K1029 pathwise count bound plus Hoeffding--Azuma; producer `12/12`; hostile mutations `12/12` | exact conditional theorem; audit inputs are supplied, not estimated |
+| With `epsilon=q=R/n=1/1000`, the imported frozen point needs 36,043 all-trials shots | K1030 exact penalty and minimal-integer check; producer `12/12`; hostile mutations `12/12` | imported-model forecast; no empirical score or GU protocol |
+
+Measured two-way event records, clock/position calibration, detector response,
+fresh settings, state/effect pairing and action remain unowned and unscored.
+
 ## K1021--K1025 setting, herald and record-integrity boundary (2026-10-04)
 
 | Claim | Evidence | Honest grade |

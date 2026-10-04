@@ -8,6 +8,29 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-04 — K1026--K1030 causal-record and spacelike-locality boundary
+
+K1026 proves the sharp robust uncertainty-set condition
+`L_nom-r_A-r_B>c(|Delta t_nom|+tau_A+tau_B)` for spacelike event pairs.
+K1027 applies it to the two distinct Bell relations from each wing's setting
+choice to the remote wing's registered outcome and gives a one-way-only
+failure control. Nominal station separation does not substitute for this
+trial-level record.
+
+K1028 proves that good-trial local ceiling `b` plus a causally compromised
+fraction `q` yields the sharp aggregate ceiling `b+q(1-b)`. K1029 composes
+that result with K1021's setting variation, K1024's record budget and the
+memory-robust sequential tail. K1030 applies the composition to the imported
+`p=1,V=2/5,eta=49/50,alpha=1/20` point. With supplied
+`epsilon=q=R/n=1/1000`, the causal penalty is `0.000249`, the effective
+margin is `0.0064466140...`, and the minimum forecast is 36,043 all-trials
+shots.
+
+These results construct no physical event records, calibrated clocks or
+positions, GU state/action/locality theorem, empirical score, source claim,
+ledger row, prediction, confirmation, canon or public verdict. Five producers
+pass 61 declared controls; five hostile probes reject 61/61 mutations.
+
 ## 2026-10-04 — K1021--K1025 setting, herald and record-integrity boundary
 
 K1021 converts a supplied per-trial setting-pair total-variation bound into

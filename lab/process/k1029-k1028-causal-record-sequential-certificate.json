@@ -1,0 +1,32 @@
+{
+  "audit_boundary": "epsilon, predictable pre-score compromise indicators with sum_i c_i<=qn, and R/n are supplied trial-level audit bounds; the theorem does not estimate them from experimental data",
+  "certificate": "w_hat_recorded>b+q(1-b)+R/n+sqrt(log(1/alpha)/(2n)), b=min(1,3/4+epsilon)",
+  "controls": {
+    "epsilon_quarter": 1.0,
+    "q_one": 1.0,
+    "q_zero": 0.76
+  },
+  "created": "2026-10-04",
+  "example": {
+    "alpha": 0.05,
+    "certificate_threshold": 0.7800387341534041,
+    "epsilon": 0.01,
+    "good_local_ceiling": 0.76,
+    "mixed_local_ceiling": 0.7648,
+    "n": 10000,
+    "q": 0.02,
+    "record_rate": 0.003
+  },
+  "memory_scope": "arbitrary inter-trial device memory with predictable conditional setting and compromise bounds",
+  "ownership": {
+    "locality_audit_constructed": false,
+    "record_audit_constructed": false,
+    "setting_source_certified": false
+  },
+  "pathwise_count_form": "for predictable c_i fixed before W_i: sum_i E[W_i|past]<=sum_i b_i+sum_i c_i(1-b_i), sum_i c_i<=qn",
+  "record_scope": "at most R recorded binary wins differ from the underlying trial wins",
+  "result_id": "K1029-K1028-CAUSAL-RECORD-SEQUENTIAL-CERTIFICATE",
+  "schema_version": "1.0",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}
