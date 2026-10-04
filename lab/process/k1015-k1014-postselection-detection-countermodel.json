@@ -1,0 +1,80 @@
+{
+  "claim_ceiling": "explicit low-efficiency counterexample only; no optimal detector-efficiency threshold",
+  "created": "2026-10-04",
+  "disposition": "discarding no-click trials can turn a fully local model into an apparently perfect retained CHSH sample",
+  "hidden_variable": "lambda=(u,v) uniform on {0,1}^2",
+  "joint_detection_probability": "1/4",
+  "local_detection": {
+    "alice": "D_A=1 iff x=u",
+    "bob": "D_B=1 iff y=v"
+  },
+  "local_outputs": "a=0; on Bob's detected setting y=v choose b=u*v; other local outputs arbitrary",
+  "ownership": {
+    "empirical_loophole_closed": false,
+    "gu_detector_model_constructed": false
+  },
+  "postselected_win_rate": "1",
+  "result_id": "K1015-K1014-POSTSELECTION-DETECTION-COUNTERMODEL",
+  "schema_version": "1.0",
+  "single_party_detection_probability": "1/2",
+  "status": "working_draft_verified",
+  "table": [
+    {
+      "joint_detection_probability": "1/4",
+      "retained": [
+        {
+          "a": 0,
+          "b": 0,
+          "u": 0,
+          "v": 0,
+          "win": true
+        }
+      ],
+      "x": 0,
+      "y": 0
+    },
+    {
+      "joint_detection_probability": "1/4",
+      "retained": [
+        {
+          "a": 0,
+          "b": 0,
+          "u": 0,
+          "v": 1,
+          "win": true
+        }
+      ],
+      "x": 0,
+      "y": 1
+    },
+    {
+      "joint_detection_probability": "1/4",
+      "retained": [
+        {
+          "a": 0,
+          "b": 0,
+          "u": 1,
+          "v": 0,
+          "win": true
+        }
+      ],
+      "x": 1,
+      "y": 0
+    },
+    {
+      "joint_detection_probability": "1/4",
+      "retained": [
+        {
+          "a": 0,
+          "b": 1,
+          "u": 1,
+          "v": 1,
+          "win": true
+        }
+      ],
+      "x": 1,
+      "y": 1
+    }
+  ],
+  "target_claim": "NONE-NOT-A-KILL"
+}

@@ -1472,7 +1472,7 @@
     },
     "research_agenda": {
       "path": "lab/process/RESEARCH-AGENDA.json",
-      "sha256": "c060c167d67e8f659dcea9ef90db62d52a77a0cecb7281b920de78955e5c68b7"
+      "sha256": "9f20c276f277db071454060d235db03f46a4df8b0dc7990b5ac4def931cac1a2"
     },
     "k684_closed_column_remainder_compiler": {
       "path": "lab/process/k684-k500-closed-column-remainder-compiler.json",
@@ -2619,8 +2619,8 @@
     "exact_reopener": "action-owned equation-9.16 map fixing internal projection, form-leg contraction, real/Krein coefficients, family covector, selected quadratic owner and nonzero background or interaction meaning"
   },
   "live_frontier": {
-    "current_question_contains": "K1006--K1010 prove that an added depolarizing contrast separates entanglement, optimized Bell violation and interference visibility",
-    "selected_condition": "DEPOLARIZED_DAMPED_BELL_STATE__PPT_ENTANGLEMENT_THRESHOLD_BELOW_OPTIMIZED_CHSH_THRESHOLD__EXACT_ENTANGLED_BELL_LOCAL_SEPARATOR__VISIBILITY_ALONE_NONIDENTIFYING__ZZ_CONTRAST_CLOSES_TWO_PARAMETER_MODEL__FOUR_CORRELATOR_HOEFFDING_CERTIFICATE__SYSTEMATIC_BUDGET_STILL_EXTERNAL__NO_PROTECTED_CLAIM_MOVE",
+    "current_question_contains": "K1011--K1015 turn the K1006 noisy-Bell thresholds into observable",
+    "selected_condition": "OBSERVABLE_P_V_PHASE_DIAGRAM__SIMULTANEOUS_RECTANGLE_CERTIFICATES__MEMORY_ROBUST_CHSH_GAME_BOUND__PREDICTABLE_SETTING_BIAS_LOCAL_CEILING__LOCAL_POSTSELECTION_PERFECT_WIN_COUNTERMODEL__EVENT_READY_LOCALITY_RANDOMNESS_DETECTOR_AND_SYSTEMATIC_OWNERSHIP_STILL_EXTERNAL__NO_PROTECTED_CLAIM_MOVE",
     "b2_root": "EMPTY_NAMED_OWNER_SET",
     "reopeners": [
       "supply a GU-owned physical quotient and positive state/effect pairing, commuting local observable algebras, an action-derived local generator, ownership of the noisy state family, preparation, settings and detector calibration, common domain and locality theorem, and a complete statistical/systematic error budget before scoring entanglement or Bell relations",
@@ -2735,6 +2735,6 @@
     "release_readiness_change": false,
     "public_posture_change": false
   },
-  "result_ref": "lab/process/k1010-k1009-finite-shot-bell-certification.json",
+  "result_ref": "lab/process/k1015-k1014-postselection-detection-countermodel.json",
   "probe_ref": "tests/channel-swings/current_frontier_semantic_currency_audit.py"
 }

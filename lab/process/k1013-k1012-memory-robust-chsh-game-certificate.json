@@ -1,0 +1,37 @@
+{
+  "certificate": "w_hat>3/4+sqrt(log(1/alpha)/(2n))",
+  "created": "2026-10-04",
+  "exact_point": {
+    "S": "2*sqrt(29)/5",
+    "V": "2/5",
+    "alpha": "1/20",
+    "margin": 0.019258240356725187,
+    "n_total": 4039,
+    "p": "1",
+    "penalty_at_n": 0.019257485284540063,
+    "penalty_at_n_minus_one": 0.019259869669528407,
+    "win_rate": 0.7692582403567252
+  },
+  "local_conditional_ceiling": "E[W_i|F_(i-1)]<=3/4",
+  "memory_scope": "arbitrary inter-trial device memory allowed under fresh uniform settings independent of the devices",
+  "ownership": {
+    "gu_protocol_constructed": false,
+    "loophole_free_experiment_claimed": false
+  },
+  "result_id": "K1013-K1012-MEMORY-ROBUST-CHSH-GAME-CERTIFICATE",
+  "schema_version": "1.0",
+  "status": "working_draft_verified",
+  "tail_bound": "P(w_hat-3/4>=t)<=exp(-2*n*t^2)",
+  "target_claim": "NONE-NOT-A-KILL",
+  "uniform_game": {
+    "score_relation": "w=1/2+S/8",
+    "win_condition": "a xor b = x*y"
+  },
+  "unowned_assumptions": [
+    "measurement independence",
+    "locality",
+    "binary outcomes",
+    "event-ready trial definition",
+    "no postselection"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "created": "2026-10-04",
+  "nondecision": "failure of a sufficient lower or upper test is inconclusive",
+  "ownership": {
+    "empirical_score": false,
+    "gu_calibration_constructed": false
+  },
+  "result_id": "K1012-K1011-CALIBRATION-RECTANGLE-CERTIFICATES",
+  "rules": {
+    "chsh_certify": "pL^2+VL^2>1",
+    "chsh_exclude": "pU^2+VU^2<=1",
+    "entanglement_certify": "pL+2VL>1",
+    "entanglement_exclude": "pU+2VU<=1"
+  },
+  "schema_version": "1.0",
+  "separator_rectangle": {
+    "bounds": [
+      "79/100",
+      "81/100",
+      "31/100",
+      "33/100"
+    ],
+    "chsh_certified": false,
+    "chsh_excluded": true,
+    "entanglement_certified": true,
+    "entanglement_excluded": false
+  },
+  "simultaneous_event": "p in [pL,pU] and V in [VL,VU] with declared joint confidence",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "violator_rectangle": {
+    "bounds": [
+      "99/100",
+      "1",
+      "39/100",
+      "41/100"
+    ],
+    "chsh_certified": true,
+    "chsh_excluded": false,
+    "entanglement_certified": true,
+    "entanglement_excluded": false
+  }
+}

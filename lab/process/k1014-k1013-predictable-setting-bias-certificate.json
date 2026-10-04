@@ -1,0 +1,29 @@
+{
+  "created": "2026-10-04",
+  "example": {
+    "alpha": "1/20",
+    "ideal_win_rate": 0.7692582403567252,
+    "local_ceiling": 0.76,
+    "margin": 0.009258240356725178,
+    "n_total": 17475,
+    "penalty_at_n": 0.009258228793230966,
+    "q": 0.24
+  },
+  "ownership": {
+    "gu_randomness_source_constructed": false,
+    "measurement_independence_proved": false
+  },
+  "per_trial_local_ceiling": "b_i=1-min_(x,y) pi_i(x,y)",
+  "q_floor_certificate": "w_hat>1-q+sqrt(log(1/alpha)/(2n)) when min pi_i>=q",
+  "result_id": "K1014-K1013-PREDICTABLE-SETTING-BIAS-CERTIFICATE",
+  "schema_version": "1.0",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "tightness": "a deterministic local CHSH strategy can choose its single losing pair at a minimum-probability input",
+  "unowned_assumptions": [
+    "known predictable setting law",
+    "settings independent of hidden device state conditional on history",
+    "event-ready no-postselection trials"
+  ],
+  "variable_bias_certificate": "sum_i(W_i-b_i)>sqrt(n*log(1/alpha)/2)"
+}

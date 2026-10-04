@@ -8,6 +8,32 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-04 — K1011--K1015 loophole-aware Bell certification boundary
+
+K1011 rewrites the imported noisy-Bell phase diagram in the calibrated
+coordinates `p=<ZZ>` and `V=p lambda`: entanglement is exactly `p+2V>1`,
+while optimized CHSH violation is `p^2+V^2>1`. K1012 uses coordinate
+monotonicity to propagate one simultaneous calibration rectangle into honest
+certification, exclusion or inconclusion decisions.
+
+K1013 recasts CHSH as the game `a xor b=x*y`. Under fresh uniform settings
+independent of local devices, arbitrary inter-trial memory still obeys the
+conditional local ceiling `3/4`; Hoeffding--Azuma gives the certificate
+`w_hat>3/4+sqrt(log(1/alpha)/(2n))`. The frozen
+`p=1,V=2/5,alpha=1/20` point needs 4,039 total event-ready trials. K1014
+generalizes the exact conditional local ceiling to
+`1-min_(x,y) pi_i(x,y)` for known predictable biased input laws. With minimum
+pair probability `0.24`, the same point needs 17,475 trials.
+
+K1015 gives an exact fully local hidden-variable detector model: each side
+detects with probability `1/2`, joint detection is `1/4`, and every retained
+trial wins CHSH. It proves only that unqualified no-click postselection is
+invalid, not an optimal efficiency threshold.
+
+No GU action, physical quotient, source claim, ledger row, empirical score,
+prediction, confirmation, canon or public verdict changes. Five producers
+pass 60 declared controls and five hostile probes reject 62/62 mutations.
+
 ## 2026-10-04 — K1006--K1010 noisy-Bell scoring boundary
 
 K1006 introduces the two-parameter imported state

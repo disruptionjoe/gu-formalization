@@ -7,6 +7,21 @@ updated_at: "2026-10-04"
 
 # Next Steps For Contributors
 
+> **2026-10-04 K1011--K1015 LOOPHOLE-AWARE BELL CERTIFICATION BOUNDARY.** In
+> the imported common-contrast model, direct calibrations obey `p=<ZZ>` and
+> `V=p lambda`, so entanglement is `p+2V>1` and optimized CHSH is
+> `p^2+V^2>1`; simultaneous confidence rectangles propagate by monotone lower
+> and upper corners. A uniform-input CHSH-game supermartingale allows arbitrary
+> inter-trial device memory and needs 4,039 total event-ready trials at the
+> frozen `p=1,V=2/5,alpha=1/20` point. Known predictable setting bias changes
+> the local ceiling to `1-min pi_i`; a minimum pair probability of `0.24`
+> raises the sufficient budget to 17,475. An exact fully local detection model
+> attains a perfect postselected win rate, so discarding no-clicks is invalid
+> without a separate detector analysis. Next require a GU-owned quotient,
+> state/effect pairing, local action, event-ready trial protocol, fresh
+> independent settings, spacelike locality, detector model and complete
+> statistical/systematic budget before scoring.
+
 > **2026-10-04 K1006--K1010 NOISY-BELL SCORING BOUNDARY.** For the imported
 > family `rho_(p,lambda)=p rho_lambda+(1-p)I_4/4`, entanglement is exact when
 > `p(1+2 lambda)>1`, whereas optimized CHSH violation requires

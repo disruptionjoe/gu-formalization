@@ -7,6 +7,19 @@ updated_at: "2026-10-04"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1011--K1015 loophole-aware Bell certification boundary (2026-10-04)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| In the imported common-contrast model, entanglement is `p+2V>1` and optimized CHSH is `p^2+V^2>1` on `0<=V<=p<=1` | K1011 exact substitution and rational separator; producer `11/11`; hostile mutations `11/11` | exact coordinate theorem inside the supplied state and calibration model |
+| A simultaneous `(p,V)` rectangle gives monotone lower/upper certification and exclusion rules | K1012 corner evaluation and two exact rectangles; producer `12/12`; hostile mutations `13/13` | exact confidence-event propagation; no confidence event or calibration apparatus constructed |
+| Fresh uniform settings yield a memory-robust CHSH-game certificate with 4,039 total trials at the frozen exact point | K1013 conditional local ceiling and Hoeffding--Azuma bound; producer `12/12`; hostile mutations `12/12` | exact finite-sample theorem under measurement independence, locality, binary event-ready outcomes and no postselection |
+| Known predictable biased settings have local ceiling `1-min pi_i`; a `0.24` minimum pair probability raises the example budget to 17,475 | K1014 deterministic local-strategy tightness and supermartingale bound; producer `11/11`; hostile mutations `12/12` | exact conditional bias correction; known setting law does not prove measurement independence |
+| Unqualified joint-detection postselection can make a fully local model win every retained CHSH trial | K1015 four-hidden-state local detector construction; producer `14/14`; hostile mutations `14/14` | exact low-efficiency counterexample; no optimal detector threshold or empirical apparatus verdict |
+
+The state, calibrations, settings, timing, locality and detector semantics are
+imported; none is a GU derivation, empirical score or loophole-free experiment.
+
 ## K1006--K1010 noisy-Bell scoring boundary (2026-10-04)
 
 | Claim | Evidence | Honest grade |

@@ -1,0 +1,23 @@
+{
+  "claim_ceiling": "exact coordinate transformation inside the imported common-contrast two-qubit model only",
+  "created": "2026-10-04",
+  "entangled_chsh_local_region": "p+2V>1 and p^2+V^2<=1",
+  "entanglement_region": "p+2V>1",
+  "observable_domain": "0<=V<=p<=1 with V=p*lambda",
+  "optimized_chsh_region": "p^2+V^2>1",
+  "ownership": {
+    "gu_state_or_observable_constructed": false,
+    "prediction_or_confirmation": false
+  },
+  "result_id": "K1011-K1010-OBSERVABLE-NOISY-BELL-PHASE-DIAGRAM",
+  "schema_version": "1.0",
+  "separator": {
+    "V": "8/25",
+    "chsh_lhs": "464/625",
+    "entanglement_lhs": "36/25",
+    "lambda": "2/5",
+    "p": "4/5"
+  },
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

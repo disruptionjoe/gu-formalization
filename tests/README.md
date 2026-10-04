@@ -4,6 +4,26 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1011--K1015 loophole-aware Bell certification boundary
+
+- `channel-swings/k1011_k1010_observable_noisy_bell_phase_diagram.py`
+  certifies the exact `(p,V)` entanglement and optimized-CHSH regions; its
+  probe rejects eleven mutations.
+- `channel-swings/k1012_k1011_calibration_rectangle_certificates.py`
+  certifies monotone rectangle decisions and honest inconclusion; its probe
+  rejects thirteen mutations.
+- `channel-swings/k1013_k1012_memory_robust_chsh_game_certificate.py`
+  certifies the uniform-setting supermartingale rule and 4,039-trial budget;
+  its probe rejects twelve mutations.
+- `channel-swings/k1014_k1013_predictable_setting_bias_certificate.py`
+  certifies the exact biased-input local ceiling and 17,475-trial control; its
+  probe rejects twelve mutations.
+- `channel-swings/k1015_k1014_postselection_detection_countermodel.py`
+  certifies the fully local perfect-postselection countermodel; its probe
+  rejects fourteen mutations.
+- Five producers pass 60 declared controls; five probes reject 62/62 hostile
+  mutations. No protected GU conclusion moves.
+
 ## K1006--K1010 noisy-Bell scoring boundary
 
 - `channel-swings/k1006_k1005_depolarized_damped_bell_state.py` certifies the
