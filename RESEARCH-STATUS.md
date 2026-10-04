@@ -8,6 +8,35 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-04 — K1041--K1045 mass-horn dispersion holdout
+
+K1041 proves a scale nonidentifiability theorem for the K77 stationary-wave
+candidate family. For spatial eigenvalues `s^2` and `4s^2`, the ratio
+`Q=(4s^2+m^2)/(s^2+m^2)` is invariant under common positive rescaling of
+`s^2` and `m^2`. The mass-one horn with `s^2=1` and the mass-four horn with
+`s^2=4` both give `Q=5/2`, so dimensionless dispersion alone does not identify
+an absolute mass when the ruler is free.
+
+K1042 freezes one common independent scale `s^2=1` and preregisters nonzero
+modes `lambda={1,4}`, distinct from K1037's zero-mode controls. Their
+squared-frequency ratio is `5/2` for mass squared one and `8/5` for mass
+squared four. K1043 proves the exact gap `9/10`, midpoint `41/20` and sharp
+symmetric additive-error radius `9/20`.
+
+K1044 translates that decision into a frequency-resolution certificate. If
+each component frequency has relative magnitude error at most `epsilon`, the
+squared ratio inflates by `((1+epsilon)/(1-epsilon))^2`; the horn intervals
+are disjoint exactly for `epsilon<9-4 sqrt(5)`, about 5.57 percent. K1045
+records the holdout and error certificate as candidate-grade mathematics,
+while the common ruler, two-mode preparation, clock/frequency detector,
+measured record, complete systematics and source-selected coefficient remain
+open. Zero rows become GU-owned or scorable.
+
+SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`, and LT-SM8,
+LT-GR6b, RA-F1 and AC-F1 remain `NEEDS`. No protected verdict changes. Five
+producers pass 53 declared controls; five hostile probes reject 57/57
+mutations.
+
 ## 2026-10-04 — K1036--K1040 K77 action/quotient composition
 
 K1036 composes K77's existing repository-owned action with K1031. The

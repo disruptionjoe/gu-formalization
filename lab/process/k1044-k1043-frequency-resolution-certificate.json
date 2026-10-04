@@ -1,0 +1,29 @@
+{
+  "created": "2026-10-04",
+  "measurement_model": "each of the two measured frequencies has magnitude error bounded separately by the same relative epsilon<1",
+  "ratio_inflation": "beta=((1+epsilon)/(1-epsilon))^2 for the squared-frequency ratio Q",
+  "result_id": "K1044-K1043-FREQUENCY-RESOLUTION-CERTIFICATE",
+  "safe_fixture": {
+    "epsilon": "1/20",
+    "gap": "146329/1592010",
+    "mass1_interval": [
+      "1805/882",
+      "2205/722"
+    ],
+    "mass4_interval": [
+      "2888/2205",
+      "3528/1805"
+    ]
+  },
+  "schema_version": "1.0",
+  "separation_condition": "beta<5/4",
+  "sharp_epsilon": {
+    "decimal": "0.055728090000841214363305325074895058236",
+    "exact": "9-4*sqrt(5)",
+    "minimal_polynomial": "epsilon^2-18*epsilon+1=0"
+  },
+  "status": "working_draft_verified",
+  "systematics_boundary": "this is a required calibration target, not evidence that any physical clock or detector attains it",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": "the two Q intervals are disjoint exactly for epsilon<9-4*sqrt(5); at equality they touch"
+}

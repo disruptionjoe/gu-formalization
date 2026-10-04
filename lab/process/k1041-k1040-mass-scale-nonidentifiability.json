@@ -1,0 +1,53 @@
+{
+  "consequence": "without an independently owned spatial scale, dimensionless two-mode dispersion cannot identify the absolute mass coefficient",
+  "created": "2026-10-04",
+  "degenerate_horns": [
+    {
+      "Q": "5/2",
+      "mass_squared": 1,
+      "scale_squared": 1
+    },
+    {
+      "Q": "5/2",
+      "mass_squared": 4,
+      "scale_squared": 4
+    }
+  ],
+  "degenerate_value": "5/2",
+  "mode_family": "omega_n_squared=n_squared*s_squared+mass_squared for n_squared in {1,4}",
+  "observable": "Q=omega_2_squared/omega_1_squared=(4*s_squared+mass_squared)/(s_squared+mass_squared)",
+  "ownership": {
+    "candidate_formula_owned": true,
+    "scorable": false,
+    "spatial_scale_owned_by_GU": false
+  },
+  "result_id": "K1041-K1040-MASS-SCALE-NONIDENTIFIABILITY",
+  "scaling_checks": [
+    {
+      "after": "3",
+      "before": "3",
+      "factor": 3,
+      "mass_squared": 1,
+      "scale_squared": 2
+    },
+    {
+      "after": "16/7",
+      "before": "16/7",
+      "factor": 5,
+      "mass_squared": 4,
+      "scale_squared": 3
+    },
+    {
+      "after": "17/6",
+      "before": "17/6",
+      "factor": 2,
+      "mass_squared": 7,
+      "scale_squared": 11
+    }
+  ],
+  "scaling_theorem": "Q(c*mass_squared,c*s_squared)=Q(mass_squared,s_squared) for every c>0",
+  "schema_version": "1.0",
+  "scope": "theorem for the K77 constant-coefficient candidate family; not a GU action no-go",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

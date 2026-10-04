@@ -1,0 +1,39 @@
+{
+  "created": "2026-10-04",
+  "credit_boundary": "distinguishing supplied candidates is not GU prediction or confirmation because neither coefficient nor ruler is source-selected",
+  "gap": "9/10",
+  "heldout_status": "frozen_candidate_holdout_unscored",
+  "horns": [
+    {
+      "Q": "5/2",
+      "mass_squared": 1,
+      "omega_squared": [
+        2,
+        5
+      ]
+    },
+    {
+      "Q": "8/5",
+      "mass_squared": 4,
+      "omega_squared": [
+        5,
+        8
+      ]
+    }
+  ],
+  "midpoint": "41/20",
+  "ordering": "Q_mass1>Q_mass4",
+  "pre_registration": {
+    "calibration_use": "none -- K1037 used only lambda=0 fixtures",
+    "mode_eigenvalues": [
+      1,
+      4
+    ],
+    "observable": "Q=omega(lambda=4)^2/omega(lambda=1)^2",
+    "spatial_scale_squared": 1
+  },
+  "result_id": "K1042-K1041-TWO-MODE-DISPERSION-HOLDOUT",
+  "schema_version": "1.0",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

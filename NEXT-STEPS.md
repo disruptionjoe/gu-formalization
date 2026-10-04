@@ -7,6 +7,17 @@ updated_at: "2026-10-04"
 
 # Next Steps For Contributors
 
+> **2026-10-04 K1041--K1045 MASS-HORN DISPERSION HOLDOUT.** A two-mode ratio
+> `Q=(4s^2+m^2)/(s^2+m^2)` cannot identify absolute mass while the spatial
+> ruler is free: common rescaling of `s^2` and `m^2` leaves it unchanged.
+> Freeze one independent common scale and the nonzero-mode holdout becomes
+> `5/2` versus `8/5`, with gap `9/10`, sharp additive radius `9/20` and sharp
+> componentwise relative-frequency tolerance `9-4 sqrt(5)` (about 5.57%).
+> The holdout is frozen but unscored. Next supply an owned ruler, two-mode
+> preparation, clock/frequency detector, measured record and complete
+> systematics; GU credit additionally requires a source-selected coefficient
+> and action-owned scale/positive quotient.
+
 > **2026-10-04 K1036--K1040 K77 ACTION/QUOTIENT COMPOSITION.** The existing
 > repository-owned K77 candidate realizes K1031's positive quotient as
 > `P* H P` modulo `ker(P)`, has a closed Sobolev gauge image, and at the

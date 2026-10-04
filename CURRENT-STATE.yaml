@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 540dd1d85448
+revision_basis: fd8a0b4f7094
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1041--K1045 freeze the distinct mass-horn dispersion holdout proposed by
+    K1039 and expose its scale and apparatus boundary. Every two-mode ratio
+    `Q=(4s^2+m^2)/(s^2+m^2)` is invariant under common rescaling of `s^2`
+    and `m^2`, so an unowned ruler cannot identify the absolute mass horn.
+    With one independently frozen common scale `s^2=1`, the nonzero-mode
+    squared-frequency ratio at `lambda={1,4}` is `5/2` for mass squared one
+    and `8/5` for mass squared four. The gap is `9/10`; symmetric absolute-Q
+    intervals separate exactly below radius `9/20`, and componentwise
+    relative-frequency errors separate exactly below `9-4 sqrt(5)` (about
+    5.57 percent). The holdout is frozen at candidate grade but unscored:
+    the common ruler, two-mode preparation, clock/frequency detector, measured
+    record, complete systematic audit and source-selected mass coefficient
+    remain unowned. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+    `UNCERTAIN`, and LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain `NEEDS`; no
+    source, ledger, empirical, prediction, confirmation, canon or public
+    verdict moves.
+
     K1036--K1040 compose the existing K77 repository-owned quadratic action
     with the K1031--K1035 action/apparatus requirements. The exact K77 sequence
     has semidefinite representative form `P* H P`, radical `ker(P)`, closed
@@ -13259,6 +13276,19 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1041--K1045 show that the two complete repository-owned mass horns have a
+  distinct exact dispersion discriminator only after one common spatial scale
+  is fixed independently of the fit. The frozen nonzero-mode ratio differs by
+  `9/10` and has the sharp frequency-resolution threshold
+  `epsilon<9-4 sqrt(5)`, but the ruler, preparation, clock/detector record,
+  complete systematics and source-selected coefficient remain unowned and the
+  holdout is unscored. Which source-selected coefficient-complete GU action on
+  a native stationary background fixes the coefficient and physical scale,
+  supplies a functional BV/BFV quotient and positive cohomology, and composes
+  with an owned two-mode preparation and calibrated detector record? Or which
+  physical candidate-level apparatus can first score the frozen holdout
+  without being misreported as GU selection?
+
   K1036--K1040 prove that one complete repository-owned K77 candidate class
   satisfies the positive quotient, closed-generator, state/effect and
   algebraic-locality requirements, but neither mass coefficient is
@@ -14829,6 +14859,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K1041--K1045 close the mathematical mass-horn holdout at candidate grade.
+  Preserve the exact common-rescaling nonidentifiability, the independently
+  frozen `s^2=1` two-mode ratio `5/2` versus `8/5`, additive radius `9/20`
+  and componentwise relative-frequency threshold `9-4 sqrt(5)`. Do not claim
+  absolute mass identification with a fitted ruler, treat the error target as
+  detector evidence, or relabel a score on supplied candidates as source/GU
+  selection. Reopen scoring only with an owned common ruler, two-mode
+  preparation, clock/frequency detector, measured record and complete
+  systematic audit. Reopen GU credit only when a source-selected
+  coefficient-complete action also owns the scale and functional positive
+  quotient.
+
   K1036--K1040 close the candidate-compatibility composition for the existing
   K77 action/quotient packet. Preserve the exact semidefinite lift, closed
   quotient, stationary massive-wave generator identity, local-effect

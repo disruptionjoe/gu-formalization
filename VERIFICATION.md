@@ -7,6 +7,20 @@ updated_at: "2026-10-04"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1041--K1045 mass-horn dispersion holdout (2026-10-04)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A free common ruler makes the absolute mass coefficient nonidentifiable from two-mode dispersion ratios | K1041 exact scaling identity and three rational controls; producer `12/12`; hostile mutations `12/12` | exact theorem for the K77 constant-coefficient candidate family; not a GU action no-go |
+| On frozen `s^2=1`, the nonzero-mode squared-frequency ratio is `5/2` versus `8/5` for the two supplied horns | K1042 exact frequency pairs and preregistration audit; producer `10/10`; hostile mutations `12/12` | frozen candidate holdout; no empirical score or source-selected coefficient |
+| Symmetric absolute-Q intervals separate exactly below radius `9/20` | K1043 gap, midpoint, strict and touching controls; producer `10/10`; hostile mutations `10/10` | sharp arithmetic conditional on one honest common scale and Q-error bound |
+| Componentwise relative-frequency errors separate the horns exactly below `9-4 sqrt(5)` | K1044 interval propagation, minimal-polynomial and safe-fixture controls; producer `11/11`; hostile mutations `11/11` | sharp calibration target; not detector or clock certification |
+| The holdout is frozen at candidate grade while zero rows are GU-owned or scorable | K1045 ownership matrix; producer `10/10`; hostile mutations `12/12` | exact ownership audit; ruler, preparation, detector record, systematics and source selection remain open |
+
+SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`, and LT-SM8,
+LT-GR6b, RA-F1 and AC-F1 remain `NEEDS`. No empirical score, prediction,
+confirmation, canon or public status moves.
+
 ## K1036--K1040 K77 action/quotient composition (2026-10-04)
 
 | Claim | Evidence | Honest grade |

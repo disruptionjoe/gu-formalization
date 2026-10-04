@@ -1,0 +1,81 @@
+{
+  "counts": {
+    "candidate_closed_or_frozen": 4,
+    "gu_source_owned": 0,
+    "required_open": 4,
+    "scorable": 0
+  },
+  "created": "2026-10-04",
+  "credit_boundary": "a future score distinguishes repository-owned candidates; it earns no GU credit unless the action selects the coefficient and owns the apparatus bridge",
+  "holdout_result": "the lambda={1,4} squared-frequency ratio is now frozen and separates the supplied mass horns only after one common independent spatial scale is fixed",
+  "ledger_effect": "none -- LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS",
+  "requirements": [
+    {
+      "candidate_grade": "pass",
+      "evidence": "K1037",
+      "gu_source_owned": false,
+      "id": "candidate_dispersion_law",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "frozen",
+      "evidence": "K1042",
+      "gu_source_owned": false,
+      "id": "distinct_two_mode_holdout",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "pass_obstruction",
+      "evidence": "K1041",
+      "gu_source_owned": false,
+      "id": "scale_identifiability_audit",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "required_open",
+      "evidence": "K1041-K1042",
+      "gu_source_owned": false,
+      "id": "fixed_common_spatial_ruler",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "required_open",
+      "evidence": "K1042",
+      "gu_source_owned": false,
+      "id": "two_mode_preparation",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "required_open",
+      "evidence": "K1044",
+      "gu_source_owned": false,
+      "id": "clock_and_frequency_detector",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "pass_mathematical",
+      "evidence": "K1043-K1044",
+      "gu_source_owned": false,
+      "id": "relative_error_certificate",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "required_open",
+      "evidence": "K1039-K1041",
+      "gu_source_owned": false,
+      "id": "source_selected_mass_coefficient",
+      "scorable": false
+    }
+  ],
+  "result_id": "K1045-K1044-HOLDOUT-APPARATUS-OWNERSHIP",
+  "schema_version": "1.0",
+  "score_gate": "closed -- no owned ruler, two-mode preparation, clock/frequency detector, measured record or complete systematic audit",
+  "source_scope": {
+    "SC-ACT-01": "ASSERTS",
+    "SC-ACT-02": "ASSERTS",
+    "SC-ACT-06": "ASSERTS",
+    "SC-META-53": "UNCERTAIN"
+  },
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

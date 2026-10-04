@@ -1,0 +1,41 @@
+{
+  "created": "2026-10-04",
+  "gap": "9/10",
+  "midpoint_classifier": {
+    "above": "mass_squared_1",
+    "below": "mass_squared_4",
+    "threshold": "41/20"
+  },
+  "result_id": "K1043-K1042-FROZEN-SCALE-HORN-SEPARATION",
+  "schema_version": "1.0",
+  "scope": "mathematical decision rule conditional on the frozen common scale and honest Q error bound",
+  "sharp_additive_radius": "9/20",
+  "status": "working_draft_verified",
+  "strict_example_radius": "2/5",
+  "strict_intervals": {
+    "mass1": [
+      "21/10",
+      "29/10"
+    ],
+    "mass4": [
+      "6/5",
+      "2"
+    ]
+  },
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": "symmetric absolute-Q intervals are disjoint exactly when radius<9/20; at radius=9/20 they touch at 41/20",
+  "touching_intervals": {
+    "mass1": [
+      "41/20",
+      "59/20"
+    ],
+    "mass4": [
+      "23/20",
+      "41/20"
+    ]
+  },
+  "true_values": {
+    "mass1": "5/2",
+    "mass4": "8/5"
+  }
+}
