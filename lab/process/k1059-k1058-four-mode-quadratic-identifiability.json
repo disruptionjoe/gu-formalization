@@ -1,0 +1,29 @@
+{
+  "created": "2026-10-04",
+  "degenerate_boundary": "pure quadratic response g=0 lies in span{1,lambda} and reproduces K1056 nonidentifiability",
+  "determinant": "det[1,lambda,x_1,x_4]=2*(3*sqrt(19)-6*sqrt(3)-sqrt(7))",
+  "determinant_numeric": 0.0772813482883361,
+  "identification": "a common four-mode readout cannot fit both horns with a quadratic transfer having nonzero linear coefficient g",
+  "intersection": "the two three-dimensional readout spaces intersect exactly in span{1,lambda}",
+  "mass_one_frequencies": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "modes": [
+    3,
+    8,
+    15,
+    24
+  ],
+  "nonzero_proof": "equality would imply 56=12*sqrt(21), contradicted after squaring: 3136!=3024",
+  "reopener": "prepare and measure all four modes and certify one common quadratic transfer with nonzero linear response",
+  "result_id": "K1059-K1058-FOUR-MODE-QUADRATIC-IDENTIFIABILITY",
+  "scale_boundary": "the theorem distinguishes dimensionless mu only and does not own an absolute ruler or gain",
+  "schema_version": "1.0",
+  "scope": "exact for horns mu={1,4}, modes {3,8,15,24} and one common quadratic transfer per horn",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "transfer_space": "for fixed mu, quadratic readouts span {1,lambda,x_mu} because x_mu^2=lambda+mu"
+}

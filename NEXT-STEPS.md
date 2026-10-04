@@ -7,6 +7,17 @@ updated_at: "2026-10-04"
 
 # Next Steps For Contributors
 
+> **2026-10-04 K1056--K1060 NONLINEAR DETECTOR-TRANSFER BOUNDARY.** An
+> arbitrary monotone quadratic response erases `mu` for every mode, so K1052's
+> affine premise is load-bearing. Three modes remain usable under the sharp
+> normalized-curvature bound `tau<0.0234898863260114...` and K1058's decreasing
+> joint component-error budget. Alternatively, four modes `{3,8,15,24}`
+> distinguish the frozen horns under a common quadratic transfer with nonzero
+> linear response. Next own one of those transfer models, the dimensional
+> scale, physical preparation, measured record and complete systematics before
+> scoring. GU credit still separately requires a source-selected
+> coefficient-complete action and functional positive quotient.
+
 > **2026-10-04 K1051--K1055 AFFINE SPECTRUM-SHAPE BOUNDARY.** Simultaneous
 > scaling of `s^2` and `m^2` is absorbed by common readout gain for every
 > supplied mode, so no finite or infinite mode set identifies absolute mass

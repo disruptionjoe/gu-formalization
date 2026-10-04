@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 1545de0094b0
+revision_basis: 72b7c324acfc
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,26 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1056--K1060 expose and repair the nonlinear detector-transfer assumption
+    in the frozen spectrum-shape holdout. An arbitrary unknown strictly
+    increasing quadratic transfer destroys `mu` identifiability for every
+    supplied mode because `T_mu(x)=x^2-mu` maps every horn to the same mode
+    label `lambda`. Under the bounded model `y=g(x+t x^2)+b`, the three-mode
+    horns separate sharply for `|t|<0.0234898863260114...` in inverse
+    normalized-frequency units. Composing independent gain-normalized
+    component error gives an exact affine budget `eta<eta_*(tau)`, decreasing
+    from K1054's `0.0102940997633828...` at zero curvature to zero at the
+    K1057 boundary. A fourth nonzero mode repairs finite quadratic ambiguity:
+    on `{3,8,15,24}`, the determinant
+    `2(3sqrt(19)-6sqrt(3)-sqrt(7))` is positive, so the two quadratic-readout
+    spaces intersect only in the pure-quadratic `g=0` boundary; any nonzero
+    linear response distinguishes the frozen horns. These are candidate
+    calibration and identifiability theorems, not detector evidence. Absolute
+    scale, mode preparation, transfer characterization, measured record,
+    complete systematics and source-selected action remain unowned.
+    SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`, and
+    LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain `NEEDS`; no protected status moves.
+
     K1051--K1055 distinguish absolute scale from affine spectrum shape in the
     frozen candidate mass-horn holdout. For every supplied mode, simultaneous
     positive scaling of `s^2` and `m^2` is absorbed exactly by common readout
@@ -13313,6 +13333,18 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1056--K1060 show that the affine transfer premise is load-bearing. Arbitrary
+  monotone quadratic response erases the dimensionless horn even with
+  unlimited modes. Three modes remain usable only inside the exact joint
+  curvature/component budget, while four modes `{3,8,15,24}` distinguish the
+  two horns under a common quadratic transfer with certified nonzero linear
+  response. Which physical apparatus can own one of those transfer models,
+  the dimensional scale, corresponding mode preparation, measured record and
+  complete systematics without relabeling dimensionless `mu` as absolute mass
+  or GU selection? Or which source-selected coefficient-complete GU action
+  owns the scale, stationary background and functional positive BV/BFV
+  quotient?
+
   K1051--K1055 prove that the affine-invariant three-mode route identifies
   only the dimensionless shape `mu=m^2/s^2`, not absolute mass or ruler scale.
   Its sharp candidate thresholds are about `2.233%` for independently bounded
@@ -14920,6 +14952,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K1056--K1060 close the quadratic detector-transfer ambiguity for the frozen
+  candidate horns. Preserve the all-mode pure-quadratic countermodel, the sharp
+  three-mode curvature threshold `tau_*=0.0234898863260114...`, K1058's exact
+  decreasing joint error line, and the four-mode determinant repair conditional
+  on nonzero linear response. Do not call inverse normalized-frequency units a
+  physical percent, infer detector calibration from a candidate theorem, or
+  relabel dimensionless horn identification as absolute mass or GU selection.
+  Reopen scoring only with an owned dimensional scale and either a three-mode
+  calibration box strictly inside K1058 or a four-mode common-quadratic fit
+  with certified nonzero linear response, plus preparation, measured record
+  and complete systematic audit. GU credit additionally requires a
+  source-selected coefficient-complete action and functional positive quotient.
+
   K1051--K1055 close the mathematical scale-versus-shape ambiguity in the
   frozen three-mode route. Preserve the all-mode scale-gauge obstruction, the
   strict `D_mu` monotonicity theorem, the `2.233%` relative-gap target and the

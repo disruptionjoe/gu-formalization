@@ -1,0 +1,24 @@
+{
+  "affine_form": {
+    "intercept": "0.01029409976338280934008808760288329103627334459422045990108040898723261",
+    "slope": "-0.4382354014197031439594714743827002537823599324346772405935175460766043",
+    "zero_at_tau": "0.02348988632601141731544069675787785936107825521373517877408352175479894"
+  },
+  "created": "2026-10-04",
+  "extrema": "mass-one maximum uses t=+tau and (+eta,-eta,+eta); mass-four minimum uses t=-tau and (-eta,+eta,-eta)",
+  "fixtures": {
+    "0": "0.01029409976338280934008808760288329103627334459422045990108040898723261",
+    "0.01": "0.005911745749185777900493372859056288498449745269873687495145233526466576",
+    "0.02": "0.001529391734988746460898658115229285960626145945526915089210058065700525"
+  },
+  "limiting_cases": "eta_star(0)=K1054 threshold and eta_star(tau_*)=0 at the K1057 curvature threshold",
+  "model": "y_i=g*(x_i+t*x_i^2)+b+zeta_i with |t|<=tau and |zeta_i|<=g*eta",
+  "reopener": "own a joint detector calibration box strictly inside this line, or use a redundant-mode transfer fit",
+  "result_id": "K1058-K1057-JOINT-NONLINEARITY-COMPONENT-BUDGET",
+  "schema_version": "1.0",
+  "scope": "sharp for independent component boxes, symmetric normalized curvature and the supplied frozen horns",
+  "separation": "[(1+7tau)+2eta]/[(1+5tau)-2eta] < [(b4-7tau)-2eta]/[(a4-5tau)+2eta]",
+  "sharp_budget": "eta<eta_star(tau)=[(1+5tau)(b4-7tau)-(1+7tau)(a4-5tau)]/[2(2+a4+b4)]",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

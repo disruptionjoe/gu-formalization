@@ -1,0 +1,76 @@
+{
+  "common_limit": "both routes identify dimensionless mu only; neither owns absolute scale, apparatus data or GU action selection",
+  "created": "2026-10-04",
+  "four_mode_route": "modes {3,8,15,24} distinguish the two horns under a common quadratic transfer with nonzero linear response, without a small-curvature assumption",
+  "ledger_effect": "none -- LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS",
+  "next_gate": "own either a three-mode curvature/error calibration box or a four-mode common-quadratic fit with nonzero linear response, plus dimensional scale, preparation, record and full systematics",
+  "promotion_effect": "none -- no empirical score, GU prediction, confirmation, canon or public posture change",
+  "requirements": [
+    {
+      "candidate_grade": "open",
+      "gu_source_owned": false,
+      "id": "absolute_dimensional_scale",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "candidate_exact",
+      "gu_source_owned": false,
+      "id": "three_mode_affine_shape",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "candidate_exact_obstruction",
+      "gu_source_owned": false,
+      "id": "quadratic_transfer_countermodel",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "calibration_target",
+      "gu_source_owned": false,
+      "id": "bounded_curvature_threshold_tau_2p349_inverse_units",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "calibration_target",
+      "gu_source_owned": false,
+      "id": "joint_curvature_component_budget",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "candidate_exact",
+      "gu_source_owned": false,
+      "id": "four_mode_quadratic_identifiability",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "open",
+      "gu_source_owned": false,
+      "id": "physical_mode_preparation_and_transfer_audit",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "open",
+      "gu_source_owned": false,
+      "id": "measured_record_and_complete_systematics",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "open",
+      "gu_source_owned": false,
+      "id": "source_selected_coefficient_complete_action",
+      "scorable": false
+    }
+  ],
+  "result_id": "K1060-K1059-NONLINEAR-TRANSFER-APPARATUS-BOUNDARY",
+  "schema_version": "1.0",
+  "score_gate": "closed -- no physical mode preparation, transfer characterization, measured record or complete systematic audit",
+  "source_scope": {
+    "SC-ACT-01": "ASSERTS",
+    "SC-ACT-02": "ASSERTS",
+    "SC-ACT-06": "ASSERTS",
+    "SC-META-53": "UNCERTAIN"
+  },
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "three_mode_route": "three modes identify mu under affine transfer; under bounded quadratic curvature they require tau<0.0234898863260114 and the K1058 joint component budget"
+}

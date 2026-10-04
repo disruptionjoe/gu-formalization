@@ -1,0 +1,29 @@
+{
+  "affine_boundary": "K1052 remains exact only for a common affine transfer or a separately certified nonlinear extension",
+  "common_readout": "T_mu(x_mu(lambda))=lambda for every supplied lambda and every mu>0",
+  "consequence": "without a calibrated restriction below arbitrary quadratic transfer, spectrum shape mu is nonidentifiable even with unlimited modes",
+  "created": "2026-10-04",
+  "dispersion": "x_mu(lambda)=sqrt(lambda+mu) in normalized ruler units",
+  "fixture": {
+    "derivative_floor": 2.0,
+    "horns": [
+      1.0,
+      4.0
+    ],
+    "maximum_residual": 3.552713678800501e-15,
+    "modes": [
+      0,
+      3,
+      8,
+      15,
+      24
+    ]
+  },
+  "reopener": "bound detector curvature or add redundant modes under a finite-dimensional transfer model with nonzero linear response",
+  "result_id": "K1056-K1055-QUADRATIC-TRANSFER-NONIDENTIFIABILITY",
+  "schema_version": "1.0",
+  "scope": "the countermodel holds simultaneously on any finite or infinite positive-mode set",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "transfer_family": "T_mu(x)=x^2-mu, a strictly increasing quadratic transfer on x>0"
+}

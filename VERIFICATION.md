@@ -7,6 +7,20 @@ updated_at: "2026-10-04"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1056--K1060 nonlinear detector-transfer boundary (2026-10-04)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Unknown monotone quadratic transfer makes `mu` nonidentifiable for every mode count | K1056 exact `T_mu(x)=x^2-mu` countermodel and five-mode control; producer `12/12`; hostile mutations `12/12` | exact theorem for the supplied dispersion family; not a detector or GU action no-go |
+| The frozen three-mode horns separate under symmetric quadratic curvature exactly below `tau_*=0.0234898863260114...` | K1057 monotonicity, exact cancellation, touching boundary and safe fixture; producer `12/12`; hostile mutations `12/12` | sharp normalized calibration target; no measured curvature audit |
+| Quadratic curvature and independent component error share one exact affine budget | K1058 attainable shared-middle corners and both limiting cases; producer `12/12`; hostile mutations `12/12` | sharp conditional systematics surface; no detector construction |
+| Four modes distinguish the frozen horns under common quadratic transfer with nonzero linear response | K1059 exact positive determinant and intersection theorem; producer `13/13`; hostile mutations `13/13` | exact candidate-family identifiability theorem; no absolute scale |
+| The three- and four-mode nonlinear-transfer routes have distinct obligations while zero rows become scorable or GU-owned | K1060 nine-row ownership matrix; producer `11/11`; hostile mutations `11/11` | candidate requirement disposition; no empirical score, prediction or confirmation |
+
+SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`, and LT-SM8,
+LT-GR6b, RA-F1 and AC-F1 remain `NEEDS`. No empirical score, prediction,
+confirmation, canon or public status moves.
+
 ## K1051--K1055 affine spectrum-shape boundary (2026-10-04)
 
 | Claim | Evidence | Honest grade |

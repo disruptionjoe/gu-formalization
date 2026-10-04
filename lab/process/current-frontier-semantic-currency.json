@@ -1472,7 +1472,7 @@
     },
     "research_agenda": {
       "path": "lab/process/RESEARCH-AGENDA.json",
-      "sha256": "deba2133dbb40ffdef63aff306ba975d3acfd0dc451164ba6e0bdb33507f7221"
+      "sha256": "d8127bdb96e3141ecbda263c0c0d7dd0c56cadd8755356bd0b1b90cccd93913d"
     },
     "k684_closed_column_remainder_compiler": {
       "path": "lab/process/k684-k500-closed-column-remainder-compiler.json",
@@ -2619,11 +2619,11 @@
     "exact_reopener": "action-owned equation-9.16 map fixing internal projection, form-leg contraction, real/Krein coefficients, family covector, selected quadratic owner and nonzero background or interaction meaning"
   },
   "live_frontier": {
-    "current_question_contains": "K1051--K1055 prove that the affine-invariant three-mode route identifies",
-    "selected_condition": "ALL_MODE_SCALE_GAUGE_OBSTRUCTION__THREE_MODE_D_MU_STRICTLY_INCREASING_AND_INJECTIVE__MU_ONE_IFF_D_ONE_ON_3_8_15__SHARP_RELATIVE_GAP_RHO_2P233_PERCENT__SHARP_GAIN_NORMALIZED_COMPONENT_ETA_1P030_PERCENT__ZERO_GU_OWNED_ZERO_SCORABLE__NO_PROTECTED_CLAIM_MOVE",
+    "current_question_contains": "K1056--K1060 show that the affine transfer premise is load-bearing",
+    "selected_condition": "ALL_MODE_QUADRATIC_TRANSFER_NONIDENTIFIABILITY__THREE_MODE_SHARP_TAU_0P0234898863__JOINT_ETA_TAU_AFFINE_BUDGET__FOUR_MODE_QUADRATIC_IDENTIFIABILITY_WITH_NONZERO_LINEAR_RESPONSE__ZERO_GU_OWNED_ZERO_SCORABLE__NO_PROTECTED_CLAIM_MOVE",
     "b2_root": "EMPTY_NAMED_OWNER_SET",
     "reopeners": [
-      "supply an independently owned dimensional scale and either a two-mode preparation with offset-controlled relative transfer or a three-mode preparation with stable common affine transfer satisfying the sharp gap/component resolution targets, plus measured record and complete systematic audit; GU credit additionally requires a source-selected coefficient-complete action owning the scale and functional positive quotient",
+      "supply an independently owned dimensional scale and either a three-mode preparation with a joint curvature/component calibration box strictly inside K1058 or a four-mode preparation with one common quadratic transfer and certified nonzero linear response, plus measured record and complete systematic audit; GU credit additionally requires a source-selected coefficient-complete action owning the scale and functional positive quotient",
       "supply a GU-owned physical quotient and positive state/effect pairing, commuting local observable algebras, an action-derived local generator, ownership of the noisy state family, preparation, settings and detector calibration, common domain and locality theorem, and a complete statistical/systematic error budget before scoring entanglement or Bell relations",
       "supply a GU-owned physical quotient and positive state/effect pairing, an action-owned charge generator and integer spectrum plus a selected circular generator or real lift on a common domain, the locality theorem, and either operational all-harmonic access with a declared finite-band regularity/error budget or a winding-sensitive native record before scoring",
       "supply a GU-owned physical quotient and positive state/effect pairing, an action-owned charge generator and spectrum plus characteristic exponent selecting an explicitly typed Brownian, jump, bounded-domain, unbounded/singular, reset/time-dependent, correlated-assignment or other horn, a common domain and clock/noise/limit/record accounting, the remote-marginal/locality theorem, and either the frozen native gap-one observable for the named pair or an owned record/unbounded-harmonic completion before scoring",

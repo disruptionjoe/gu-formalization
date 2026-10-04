@@ -1,0 +1,21 @@
+{
+  "created": "2026-10-04",
+  "horn_ratio": "D_mu(t)=D_mu(0)*(1+t*(x2+x3))/(1+t*(x1+x2))",
+  "model": "y=g*(x+t*x^2)+b with g>0, common |t|<=tau and positive transfer derivative",
+  "monotonicity": "D_mu(t) is strictly increasing in t while the adjacent transformed gaps stay positive",
+  "reopener": "measure or certify normalized curvature below the threshold, or use an overdetermined calibrated transfer design",
+  "result_id": "K1057-K1056-SHARP-QUADRATIC-TRANSFER-CERTIFICATE",
+  "safe_fixture": {
+    "gap": "0.009701698486496507113376850945627485439512439526398468449211508082351",
+    "tau": "0.02114089769341027558389662708209007342497042969236166089667516957931914"
+  },
+  "schema_version": "1.0",
+  "scope": "sharp for the supplied horns, modes {3,8,15}, symmetric t bound and quadratic transfer family",
+  "separation": "D_4(-tau)>D_1(tau)",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "threshold": "0.02348988632601141731544069675787785936107825521373517877408352175479904",
+  "threshold_equation": "D_4*(-tau)=D_1*(tau); quadratic terms cancel exactly",
+  "threshold_percent_in_inverse_normalized_frequency": "2.348988632601141731544069675787785936107825521373517877408352175479904",
+  "touching_residual": "1E-69"
+}

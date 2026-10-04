@@ -8,6 +8,33 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-04 — K1056--K1060 nonlinear detector-transfer boundary
+
+K1056 proves that K1052's affine premise is load-bearing. For every `mu>0`,
+the strictly increasing quadratic transfer `T_mu(x)=x^2-mu` maps the complete
+dispersion sequence `sqrt(lambda+mu)` to the same readout `lambda`. Arbitrary
+unknown quadratic response therefore destroys shape identification even with
+unlimited exact modes.
+
+K1057 bounds that obstruction. In `y=g(x+t x^2)+b`, the adjacent-gap ratio is
+strictly increasing in `t`; the frozen horns separate for symmetric curvature
+bound `|t|<=tau` exactly below
+`tau_*=0.0234898863260114...` in inverse normalized-frequency units. K1058
+adds independent component error and derives a sharp affine joint budget
+`eta<eta_*(tau)`, with intercept K1054's `1.0294%` target and zero at `tau_*`.
+
+K1059 adds the fourth nonzero mode `lambda=24`. The exact determinant
+`2(3sqrt(19)-6sqrt(3)-sqrt(7))` is positive, so the two quadratic-readout
+spaces intersect only in `span{1,lambda}`. A common quadratic transfer with
+nonzero linear response cannot fit both horns. K1060 freezes the tradeoff:
+three modes require a small-curvature joint calibration; four modes replace
+that bound with an extra preparation and common quadratic-fit obligation.
+Neither route owns absolute scale or apparatus data.
+
+SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`, and LT-SM8,
+LT-GR6b, RA-F1 and AC-F1 remain `NEEDS`. No protected verdict changes. Five
+producers pass 60 declared controls; five hostile probes reject 60/60 mutations.
+
 ## 2026-10-04 — K1051--K1055 affine spectrum-shape boundary
 
 K1051 generalizes the K1041 scale obstruction. For every dispersion mode,
