@@ -1,0 +1,96 @@
+{
+  "candidate_pass_count": 6,
+  "created": "2026-10-04",
+  "empirically_scorable_count": 0,
+  "gu_source_owned_count": 0,
+  "next_condition": "supply an independently selected tolerance, measured mode-preparation cost, response floor, component-error box, dimensional scale and complete systematics; GU credit separately requires the source-selected action and positive quotient",
+  "protected_ledger_status": {
+    "AC-F1": "NEEDS",
+    "LT-GR6b": "NEEDS",
+    "LT-SM8": "NEEDS",
+    "RA-F1": "NEEDS"
+  },
+  "protected_source_status": {
+    "SC-ACT-01": "ASSERTS",
+    "SC-ACT-02": "ASSERTS",
+    "SC-ACT-06": "ASSERTS",
+    "SC-META-53": "UNCERTAIN"
+  },
+  "result_id": "K1070-K1069-QUADRATIC-MODE-DESIGN-BOUNDARY",
+  "rows": [
+    {
+      "owner": "repository_owned_candidate",
+      "requirement": "global_fourth_mode_monotonicity",
+      "status": "PASS"
+    },
+    {
+      "owner": "repository_owned_candidate",
+      "requirement": "least_mode_inverse_design",
+      "status": "PASS"
+    },
+    {
+      "owner": "repository_owned_candidate",
+      "requirement": "three_four_mode_crossover",
+      "status": "PASS"
+    },
+    {
+      "owner": "repository_owned_candidate",
+      "requirement": "monotone_cost_pareto_rule",
+      "status": "PASS"
+    },
+    {
+      "owner": "repository_owned_candidate",
+      "requirement": "exact_residual_classifier",
+      "status": "PASS"
+    },
+    {
+      "owner": "repository_owned_candidate",
+      "requirement": "linear_response_recovery",
+      "status": "PASS"
+    },
+    {
+      "owner": "apparatus_unowned",
+      "requirement": "independently_fixed_target_tolerance",
+      "status": "OPEN"
+    },
+    {
+      "owner": "apparatus_unowned",
+      "requirement": "physical_mode_preparation_cost",
+      "status": "OPEN"
+    },
+    {
+      "owner": "apparatus_unowned",
+      "requirement": "certified_linear_response_floor",
+      "status": "OPEN"
+    },
+    {
+      "owner": "apparatus_unowned",
+      "requirement": "component_error_box",
+      "status": "OPEN"
+    },
+    {
+      "owner": "apparatus_unowned",
+      "requirement": "dimensional_scale",
+      "status": "OPEN"
+    },
+    {
+      "owner": "apparatus_unowned",
+      "requirement": "measured_record_and_complete_systematics",
+      "status": "OPEN"
+    },
+    {
+      "owner": "gu_source_unowned",
+      "requirement": "source_selected_coefficient_complete_action",
+      "status": "OPEN"
+    },
+    {
+      "owner": "gu_source_unowned",
+      "requirement": "stationary_positive_functional_bv_bfv_quotient",
+      "status": "OPEN"
+    }
+  ],
+  "schema_version": "1.0",
+  "scope": "conditional mode-design requirements only; no source, ledger, empirical, prediction, confirmation, canon or public move",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

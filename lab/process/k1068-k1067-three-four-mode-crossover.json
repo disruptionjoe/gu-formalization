@@ -1,0 +1,46 @@
+{
+  "asymptotic_crossover_tau": 0.0016845323763707441,
+  "created": "2026-10-04",
+  "crossover_table": [
+    {
+      "crossover_tau": 0.017979053275585195,
+      "four_mode_budget": 0.0024150421340105033,
+      "lambda_four": 24,
+      "n": 4
+    },
+    {
+      "crossover_tau": 0.010583968037457083,
+      "four_mode_budget": 0.0056558302818744965,
+      "lambda_four": 80,
+      "n": 8
+    },
+    {
+      "crossover_tau": 0.00643419420800405,
+      "four_mode_budget": 0.007474408081825826,
+      "lambda_four": 288,
+      "n": 16
+    },
+    {
+      "crossover_tau": 0.002938763437466614,
+      "four_mode_budget": 0.009006229588687081,
+      "lambda_four": 4224,
+      "n": 64
+    },
+    {
+      "crossover_tau": 0.0016845323763707441,
+      "four_mode_budget": 0.00955587804121949,
+      "lambda_four": "infinity",
+      "n": "infinity"
+    }
+  ],
+  "decision_rule": "below a row's crossover tau the three-mode route has the larger component-error budget; above it the named four-mode route has the larger budget",
+  "four_mode_assumption": "exact common quadratic transfer with independently certified nonzero linear-response floor",
+  "non_dominance": "the budget comparison alone cannot choose a route because three modes require a curvature box while four modes require another preparation and global quadratic-model ownership",
+  "normalization_assumption": "the three-mode gain unit equals the independently certified response floor used for the four-mode eta/gamma budget",
+  "result_id": "K1068-K1067-THREE-FOUR-MODE-CROSSOVER",
+  "schema_version": "1.0",
+  "scope": "exact candidate-route crossover in common response-normalized units; no apparatus score",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "three_mode_budget": "eta_3(tau)=0.0102940997633828...-0.438235401419703...*tau"
+}

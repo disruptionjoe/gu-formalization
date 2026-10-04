@@ -7,6 +7,20 @@ updated_at: "2026-10-04"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1066--K1070 global quadratic mode-design boundary (2026-10-04)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The sharp symmetric four-mode tolerance increases strictly for every higher fourth mode | K1066 barycentric normalizer identity, limiting-direction proof and positive shifted quartic; producer `16/16`; hostile mutations `12/12` | exact global theorem for the supplied conditional horn family; no apparatus ownership |
+| Named normalized-error targets have unique least integer fourth modes and inverse-distance ceiling cost | K1067 adjacent integer brackets and asymptotic expansion; producer `13/13`; hostile mutations `12/12` | exact candidate inverse design; target and cost unowned |
+| Three-mode curvature and named four-mode redundancy budgets cross at exact matched-normalization curvatures | K1068 affine budget composition and route table; producer `13/13`; hostile mutations `12/12` | exact conditional route comparison; no measured calibration |
+| The least feasible fourth mode is uniquely cost-minimal for every strictly increasing preparation cost | K1069 monotone Pareto proof; producer `8/8`; hostile mutations `9/9` | conditional cost theorem; no physical cost model or route choice |
+| Six candidate rows pass while zero rows become GU-owned or empirically scorable | K1070 fourteen-row ownership matrix; producer `11/11`; hostile mutations `10/10` | candidate requirement disposition; no empirical score, prediction or confirmation |
+
+SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`, and LT-SM8,
+LT-GR6b, RA-F1 and AC-F1 remain `NEEDS`. No empirical score, prediction,
+confirmation, canon or public status moves.
+
 ## K1061--K1065 robust quadratic apparatus certificate (2026-10-04)
 
 | Claim | Evidence | Honest grade |

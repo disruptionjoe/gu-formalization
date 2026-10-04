@@ -7,6 +7,19 @@ updated_at: "2026-10-04"
 
 # Next Steps For Contributors
 
+> **2026-10-04 K1066--K1070 GLOBAL QUADRATIC MODE-DESIGN BOUNDARY.** The
+> higher-fourth-mode tolerance is now proved globally strictly increasing, not
+> only sampled. Targets `0.003`, `0.005`, `0.0075`, `0.009`, and `0.0095`
+> first pass at `n=5,7,17,64,641`; approaching the
+> `0.00955587804121949...` ceiling costs inverse distance. Under matched
+> response normalization, the three-mode K1058 budget and each four-mode
+> design have an exact curvature crossover. For any strictly increasing
+> preparation cost, the least passing mode is uniquely cost-minimal. Next
+> supply an independently selected target, measured mode-cost curve, response
+> floor, component-error box, ruler, measured record and complete systematics
+> before selecting or scoring a route. GU credit still separately requires a
+> source-selected coefficient-complete action and positive functional quotient.
+
 > **2026-10-04 K1061--K1065 ROBUST QUADRATIC APPARATUS CERTIFICATE.** The
 > four-mode common-quadratic route now has exact residual witnesses and a sharp
 > symmetric component-error target:

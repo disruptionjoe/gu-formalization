@@ -1,0 +1,50 @@
+{
+  "asymptotic_deficit": "ceiling-E(n)=(2+sqrt(7)-sqrt(19))/(8*(n+1))+O((n+1)^-2)",
+  "ceiling": 0.00955587804121949,
+  "cost_warning": "near the ceiling the required mode grows at leading order like leading_deficit_constant/(ceiling-rho)",
+  "created": "2026-10-04",
+  "feasibility_rule": "a target rho is attainable iff 0<rho<ceiling; global strict monotonicity makes the first passing integer n unique",
+  "leading_deficit_constant": 0.03585654594048959,
+  "result_id": "K1067-K1066-LEAST-MODE-INVERSE-DESIGN",
+  "schema_version": "1.0",
+  "scope": "inverse design for candidate normalized error targets; no physical target or preparation cost selected",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "target_table": [
+    {
+      "achieved": 0.003689907637149492,
+      "least_lambda_four": 35,
+      "least_n": 5,
+      "previous": 0.0024150421340105033,
+      "target_eta_over_gamma": 0.003
+    },
+    {
+      "achieved": 0.005172057285774578,
+      "least_lambda_four": 63,
+      "least_n": 7,
+      "previous": 0.004544851934374858,
+      "target_eta_over_gamma": 0.005
+    },
+    {
+      "achieved": 0.007588730861978716,
+      "least_lambda_four": 323,
+      "least_n": 17,
+      "previous": 0.007474408081825826,
+      "target_eta_over_gamma": 0.0075
+    },
+    {
+      "achieved": 0.009006229588687081,
+      "least_lambda_four": 4224,
+      "least_n": 64,
+      "previous": 0.008997672666026007,
+      "target_eta_over_gamma": 0.009
+    },
+    {
+      "achieved": 0.009500047232705481,
+      "least_lambda_four": 412163,
+      "least_n": 641,
+      "previous": 0.009499960165194964,
+      "target_eta_over_gamma": 0.0095
+    }
+  ]
+}

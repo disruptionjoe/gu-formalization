@@ -1,0 +1,30 @@
+{
+  "asymptotic_ceiling": 0.00955587804121949,
+  "checked_last_n": 64,
+  "checked_last_threshold": 0.009006229588687081,
+  "created": "2026-10-04",
+  "derivative_reduction": "with t=n+1, the derivative of the limiting contrast is positive iff 2t^2+6t+12>sqrt(t^2+3)*((sqrt(19)-sqrt(7))*t+8sqrt(3)+3sqrt(7)-3sqrt(19))",
+  "family": "fixed lambda={3,8,15}; lambda_four=n(n+2), integer n>=4; mu in {1,4}",
+  "first_threshold": 0.0024150421340105033,
+  "global_result": "the sharp symmetric eta/gamma threshold is strictly increasing for every real t>4 and hence every integer n>=4",
+  "limiting_direction": "the mu=1 witness evaluated on mu=4 is strictly smaller because every positive gap in the normalizer decreases with mu, so Q_1>Q_4",
+  "normalizer_identity": "V(x)*||bary(x)||_1=2*(x3-x1)*(x4-x2)*((x2-x1)+(x4-x3))",
+  "radical_bounds": {
+    "sqrt133_lower": 11.532,
+    "sqrt21_lower": 4.582,
+    "sqrt57_upper": 7.55
+  },
+  "result_id": "K1066-K1064-GLOBAL-FOURTH-MODE-MONOTONICITY",
+  "schema_version": "1.0",
+  "scope": "global design theorem for the supplied conditional horn family; no preparation or detector ownership",
+  "shifted_square_coefficients": [
+    1.0651251893415932,
+    11.175112048377343,
+    31.059248210950273,
+    39.13998289367191,
+    18.19072154175751
+  ],
+  "shifted_square_variable": "u=t-4>=0",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

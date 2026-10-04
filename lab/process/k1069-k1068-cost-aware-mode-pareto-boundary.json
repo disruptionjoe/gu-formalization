@@ -1,0 +1,50 @@
+{
+  "created": "2026-10-04",
+  "pareto_theorem": "the least integer n with E(n)>=rho is the unique minimum-cost feasible fourth-mode design",
+  "premises": [
+    "E(n) is strictly increasing for n>=4",
+    "physical preparation cost C(n) is strictly increasing",
+    "a target rho<ceiling is fixed independently"
+  ],
+  "result_id": "K1069-K1068-COST-AWARE-MODE-PARETO-BOUNDARY",
+  "route_boundary": "without those inputs neither n=4, a higher fourth mode, nor the three-mode bounded-curvature route is physically preferred",
+  "schema_version": "1.0",
+  "scope": "conditional Pareto theorem for monotone costs; no cost model, apparatus choice or empirical score",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "target_examples": [
+    {
+      "lambda_four": 35,
+      "pareto_n": 5,
+      "rho": 0.003
+    },
+    {
+      "lambda_four": 63,
+      "pareto_n": 7,
+      "rho": 0.005
+    },
+    {
+      "lambda_four": 323,
+      "pareto_n": 17,
+      "rho": 0.0075
+    },
+    {
+      "lambda_four": 4224,
+      "pareto_n": 64,
+      "rho": 0.009
+    },
+    {
+      "lambda_four": 412163,
+      "pareto_n": 641,
+      "rho": 0.0095
+    }
+  ],
+  "withheld_inputs": [
+    "physical target rho",
+    "measured preparation-cost function C(n)",
+    "response floor",
+    "component-error box",
+    "dimensional scale",
+    "complete systematics"
+  ]
+}
