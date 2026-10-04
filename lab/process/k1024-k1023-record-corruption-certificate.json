@@ -1,0 +1,30 @@
+{
+  "certificate": "w_hat_recorded>average_i(b_i)+R/n+sqrt(log(1/alpha)/(2n))",
+  "combined_tv_form": "w_hat_recorded>3/4+average_i(epsilon_i)+R/n+sqrt(log(1/alpha)/(2n))",
+  "created": "2026-10-04",
+  "deterministic_budget": "sum_i |W_tilde_i-W_i|<=R",
+  "example": {
+    "R": 10,
+    "R_over_n": 0.01,
+    "alpha": "1/20",
+    "n": 1000,
+    "penalty": 0.038702275602049495,
+    "uniform_threshold": 0.7987022756020495
+  },
+  "memory_scope": "arbitrary inter-trial device memory and adversarial placement of at most R record changes",
+  "ownership": {
+    "gu_record_system_constructed": false,
+    "record_budget_empirically_certified": false
+  },
+  "pathwise_lipschitz_bound": "sum_i W_tilde_i<=sum_i W_i+R",
+  "result_id": "K1024-K1023-RECORD-CORRUPTION-CERTIFICATE",
+  "schema_version": "1.0",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "tightness": "R adversarial flips can convert R losing records into wins, so R/n cannot be reduced without more structure",
+  "unowned_assumptions": [
+    "audited deterministic record-error budget",
+    "conditional setting-source bound",
+    "event-ready complete trial record"
+  ]
+}

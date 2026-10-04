@@ -1,0 +1,78 @@
+{
+  "created": "2026-10-04",
+  "enumerated_controls": [
+    {
+      "local_optimum": 0.75,
+      "one_minus_min": 0.75,
+      "pi": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "tv": 0.0
+    },
+    {
+      "local_optimum": 0.76,
+      "one_minus_min": 0.76,
+      "pi": [
+        0.24,
+        0.26,
+        0.25,
+        0.25
+      ],
+      "tv": 0.010000000000000009
+    },
+    {
+      "local_optimum": 0.8999999999999999,
+      "one_minus_min": 0.9,
+      "pi": [
+        0.1,
+        0.3,
+        0.3,
+        0.3
+      ],
+      "tv": 0.14999999999999997
+    },
+    {
+      "local_optimum": 1.0,
+      "one_minus_min": 1.0,
+      "pi": [
+        0.0,
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "tv": 0.24999999999999997
+    }
+  ],
+  "local_ceiling": "b<=min(1,3/4+epsilon)",
+  "memory_scope": "arbitrary inter-trial device memory; each conditional setting law remains independent of the devices given the past",
+  "minimum_pair_floor": "min_j pi_j>=max(0,1/4-epsilon) when TV(pi,u)<=epsilon",
+  "ownership": {
+    "gu_setting_source_constructed": false,
+    "measurement_independence_proved": false
+  },
+  "result_id": "K1021-K1020-SETTING-TV-CHSH-CERTIFICATE",
+  "schema_version": "1.0",
+  "sequential_certificate": "sum_i[W_i-(3/4+epsilon_i)]>sqrt(n*log(1/alpha)/2), with each epsilon_i<=1/4 predictable before trial i",
+  "sharp_example": {
+    "epsilon": 0.01,
+    "local_optimum": 0.76,
+    "pi": [
+      0.24,
+      0.26,
+      0.25,
+      0.25
+    ],
+    "tv": 0.010000000000000009
+  },
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "tv_convention": "TV(pi,u)=1/2 sum_j |pi_j-1/4|",
+  "unowned_assumptions": [
+    "certified conditional total-variation bounds",
+    "measurement independence conditional on history",
+    "event-ready no-postselection trials"
+  ]
+}

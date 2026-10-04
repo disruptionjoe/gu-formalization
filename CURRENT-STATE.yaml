@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 92aa73e75aff
+revision_basis: 2602da9167eb
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1021--K1025 turn K1020's unnamed setting-freshness, herald-ordering and
+    record-integrity assumptions into exact operational boundaries. If the
+    conditional four-pair setting law is within total variation `epsilon` of
+    uniform, the sharp local CHSH ceiling is `min(1,3/4+epsilon)`. Pair-source
+    min-entropy `h` alone gives ceiling `min(1,3*2^-h)` and is nontrivial only
+    for `h>log2(3)`. A herald fixed before settings preserves the predictable
+    ceiling when conditional freshness holds, while a post-settings herald can
+    delete the unique losing input of a deterministic local strategy and
+    retain a perfect score. At most `R` adversarial record flips add exactly
+    `R/n` to the finite-shot threshold. Composing `epsilon=R/n=1/1000` with
+    K1018's imported `p=1,V=2/5,eta=49/50,alpha=1/20` forecast requires 33,412
+    all-trials shots. No GU state, herald, setting source, action, locality,
+    detector, record audit, empirical score, source, ledger, prediction,
+    confirmation, canon or public verdict moves.
+
     K1016--K1020 repair K1015's postselection failure inside a declared
     imported detector model by retaining every event-ready trial and assigning
     every no-click locally to `+1`. For the maximally entangled CHSH optimum
@@ -13198,6 +13213,17 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1021--K1025 derive sharp conditional setting-source ceilings from total
+  variation and pair-source min-entropy, prove the pre-settings herald
+  ordering requirement with a firing post-settings countermodel, and add an
+  adversarial record-error budget to the memory-robust all-trials certificate.
+  The frozen imported forecast becomes 33,412 trials at
+  `p=1,V=2/5,eta=49/50,epsilon=R/n=1/1000,alpha=1/20`. Can a GU-owned
+  physical quotient and action now supply the positive state/effect pairing,
+  preparation, physical pre-settings herald, fresh setting source, commuting
+  local observables, spacelike locality, detector response and audited
+  complete systematics before the empirical certificate is scored?
+
   K1016--K1020 replace unsafe no-click discarding with a fixed all-trials
   binary assignment, derive exact symmetric and asymmetric efficiency
   surfaces, compose them with the noisy `(p,V)` interface, propagate joint
@@ -14724,6 +14750,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K1021--K1025 close the mathematical ambiguity in K1020's freshness,
+  event-ready ordering and record-integrity assumptions. Preserve the sharp
+  total-variation and min-entropy ceilings, the pre-settings herald theorem,
+  the post-settings local countermodel, the exact `R/n` record correction and
+  the 33,412-trial composed forecast. Do not treat the supplied variation,
+  entropy, herald, record budget, loss model, timing or locality as GU-selected
+  or empirically certified. Reopen for GU credit only with a physical quotient
+  and positive state/effect pairing, commuting local observable algebras, an
+  action-owned generator and preparation, a physical pre-settings herald, an
+  owned fresh setting source, detector/locality theorem and audited complete
+  statistical/systematic calibration budget.
+
   K1016--K1020 close the mathematical assumption that K1015's postselection
   countermodel leaves no safe finite-efficiency completion. Preserve the exact
   fixed-assignment efficiency surfaces, noisy-lossy composition, corner-based

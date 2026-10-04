@@ -1,0 +1,70 @@
+{
+  "assumption": "for feasible 0<=h<=2, the pointwise conditional bound H_infinity(XY|F)>=h is equivalent to max_j pi_j<=2^-h",
+  "created": "2026-10-04",
+  "critical_entropy": "h>log2(3) is necessary and sufficient for this assumption alone to force a nonzero minimum pair probability",
+  "extremal_family": [
+    {
+      "h": 1.5,
+      "local_ceiling": 1.0,
+      "max_probability_bound": 0.3535533905932738,
+      "minimum_pair_floor": 0.0,
+      "pi": [
+        0.0,
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    {
+      "h": 1.584962500721156,
+      "local_ceiling": 1.0,
+      "max_probability_bound": 0.33333333333333337,
+      "minimum_pair_floor": 0.0,
+      "pi": [
+        0.0,
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    {
+      "h": 1.8,
+      "local_ceiling": 0.8615237662477762,
+      "max_probability_bound": 0.2871745887492587,
+      "minimum_pair_floor": 0.13847623375222384,
+      "pi": [
+        0.13847623375222384,
+        0.2871745887492587,
+        0.2871745887492587,
+        0.2871745887492587
+      ]
+    },
+    {
+      "h": 2.0,
+      "local_ceiling": 0.75,
+      "max_probability_bound": 0.25,
+      "minimum_pair_floor": 0.25,
+      "pi": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ]
+    }
+  ],
+  "interpretation": "pair-source min-entropy at or below log2(3) permits one absent input pair and therefore a perfect deterministic local CHSH score",
+  "local_ceiling": "b<=min(1,3*2^-h)",
+  "minimum_pair_floor": "min_j pi_j>=max(0,1-3*2^-h)",
+  "ownership": {
+    "entropy_certified": false,
+    "gu_randomness_source_constructed": false
+  },
+  "result_id": "K1022-K1021-SETTING-MIN-ENTROPY-BOUNDARY",
+  "schema_version": "1.0",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "unowned_assumptions": [
+    "conditional pair-source min-entropy against the devices",
+    "event-ready no-postselection trials"
+  ]
+}

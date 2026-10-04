@@ -1,0 +1,38 @@
+{
+  "created": "2026-10-04",
+  "memory_scope": "the theorem permits arbitrary past memory and herald-hidden-state correlation; freshness is required after conditioning on the pre-settings herald and past",
+  "ordering_boundary": "a herald chosen after reading the setting pair can delete the unique losing pair and create a perfect retained local score",
+  "ownership": {
+    "causal_order_proved": false,
+    "gu_herald_constructed": false
+  },
+  "post_settings_countermodel": {
+    "acceptance_rate": 0.75,
+    "herald_accepts_by_pair": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "retained_win_rate": 1.0,
+    "strategy": "a(x)=0,b(y)=0",
+    "wins_by_pair": [
+      1,
+      1,
+      1,
+      0
+    ]
+  },
+  "result_id": "K1023-K1022-EVENT-READY-HERALD-ORDERING",
+  "safe_consequence": "conditioning on H_i=1 preserves the K1014 predictable-input local ceiling 1-min_j pi_i(j)",
+  "safe_order": "H_i is fixed from past/source information before X_i,Y_i are generated, and the conditional setting law remains independent of the local hidden device state given H_i and the past",
+  "schema_version": "1.0",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "unowned_assumptions": [
+    "physical event-ready herald",
+    "conditional setting freshness",
+    "spacelike locality",
+    "complete trial record"
+  ]
+}

@@ -7,6 +7,19 @@ updated_at: "2026-10-04"
 
 # Next Steps For Contributors
 
+> **2026-10-04 K1021--K1025 SETTING, HERALD AND RECORD-INTEGRITY BOUNDARY.**
+> A conditional setting-pair law within total variation `epsilon` of uniform
+> has sharp local CHSH ceiling `min(1,3/4+epsilon)`. Pair-source min-entropy
+> `h` alone gives `min pi>=max(0,1-3*2^-h)` and is nontrivial only when
+> `h>log2(3)`. A herald fixed before settings preserves the predictable local
+> ceiling under conditional freshness; a post-settings herald can delete a
+> deterministic strategy's unique losing pair and fake a perfect retained
+> score. An adversarial record budget `R` adds exactly `R/n`. With
+> `epsilon=R/n=1/1000`, K1018's imported frozen point needs 33,412 shots.
+> Next require a GU-owned quotient, positive pairing, action, physical herald,
+> fresh source, commuting local observables, spacelike locality, detector
+> response and audited complete systematics before scoring.
+
 > **2026-10-04 K1016--K1020 ALL-TRIALS DETECTOR-EFFICIENCY BOUNDARY.** Fixed
 > `+1` assignment for every no-click retains all event-ready CHSH trials. For
 > the imported maximally entangled zero-marginal model, equal efficiency must

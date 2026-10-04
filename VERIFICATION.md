@@ -7,6 +7,20 @@ updated_at: "2026-10-04"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1021--K1025 setting, herald and record-integrity boundary (2026-10-04)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| `TV(pi,u)<=epsilon` gives the sharp local ceiling `min(1,3/4+epsilon)` | K1021 simplex proof, deterministic-strategy enumeration and sharp law; producer `13/13`; hostile mutations `13/13` | exact for supplied conditional setting laws; no source or independence certified |
+| Pair-source min-entropy `h` gives ceiling `min(1,3*2^-h)` and becomes nontrivial only above `log2(3)` | K1022 extremal distributions; producer `12/12`; hostile mutations `12/12` | exact conditional entropy boundary; no physical randomness source certified |
+| A pre-settings herald preserves the predictable ceiling under conditional freshness, while a post-settings herald can retain a perfect local score | K1023 ordering theorem and finite countermodel; producer `11/11`; hostile mutations `12/12` | exact conditional theorem; no physical timing or locality result |
+| At most `R` adversarial record changes add exactly `R/n` to the sequential threshold | K1024 pathwise Hamming bound and sharp flip construction; producer `12/12`; hostile mutations `13/13` | exact given an audited deterministic record budget |
+| With `epsilon=R/n=1/1000`, the imported frozen point needs 33,412 all-trials shots | K1025 composed forecast and minimal-integer check; producer `11/11`; hostile mutations `13/13` | imported-model forecast; no empirical score or GU protocol |
+
+The physical herald, setting-source independence, spacelike separation,
+detector response, record audit, state/effect pairing and action remain
+unowned and unscored.
+
 ## K1016--K1020 all-trials detector-efficiency boundary (2026-10-04)
 
 | Claim | Evidence | Honest grade |

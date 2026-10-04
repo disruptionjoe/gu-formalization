@@ -1472,7 +1472,7 @@
     },
     "research_agenda": {
       "path": "lab/process/RESEARCH-AGENDA.json",
-      "sha256": "8211f5c88597321106c304352ee93298029cd94292fd63ca07aea53a4f554dc7"
+      "sha256": "b78b4a2af68b3dac75e1ff0192e8d1786b96836efb4d53285abe24bed189fcb8"
     },
     "k684_closed_column_remainder_compiler": {
       "path": "lab/process/k684-k500-closed-column-remainder-compiler.json",
@@ -2619,8 +2619,8 @@
     "exact_reopener": "action-owned equation-9.16 map fixing internal projection, form-leg contraction, real/Krein coefficients, family covector, selected quadratic owner and nonzero background or interaction meaning"
   },
   "live_frontier": {
-    "current_question_contains": "K1016--K1020 replace unsafe no-click discarding with a fixed all-trials",
-    "selected_condition": "ALL_TRIALS_FIXED_NOCLICK_ASSIGNMENT__SYMMETRIC_AND_ASYMMETRIC_EFFICIENCY_SURFACES__NOISY_LOSSY_P_V_COMPOSITION__EXACT_CALIBRATION_CORNER_EXTREMA__MEMORY_ROBUST_19810_TRIAL_FORECAST__HERALD_SETTING_LOCALITY_DETECTOR_AND_SYSTEMATIC_OWNERSHIP_STILL_EXTERNAL__NO_PROTECTED_CLAIM_MOVE",
+    "current_question_contains": "K1021--K1025 derive sharp conditional setting-source ceilings from total",
+    "selected_condition": "SETTING_TV_AND_MIN_ENTROPY_CEILINGS__PRESETTINGS_HERALD_ORDERING__POSTSETTINGS_LOCAL_COUNTERMODEL__EXACT_R_OVER_N_RECORD_CORRECTION__MEMORY_ROBUST_33412_TRIAL_COMPOSED_FORECAST__STATE_HERALD_SOURCE_LOCALITY_DETECTOR_AND_AUDIT_OWNERSHIP_STILL_EXTERNAL__NO_PROTECTED_CLAIM_MOVE",
     "b2_root": "EMPTY_NAMED_OWNER_SET",
     "reopeners": [
       "supply a GU-owned physical quotient and positive state/effect pairing, commuting local observable algebras, an action-derived local generator, ownership of the noisy state family, preparation, settings and detector calibration, common domain and locality theorem, and a complete statistical/systematic error budget before scoring entanglement or Bell relations",

@@ -8,6 +8,31 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-04 — K1021--K1025 setting, herald and record-integrity boundary
+
+K1021 converts a supplied per-trial setting-pair total-variation bound into
+the sharp predictable local ceiling `min(1,3/4+epsilon_i)`, including its
+sequential arbitrary-memory certificate. K1022 proves that conditional
+pair-source min-entropy `h` implies
+`min pi_i>=max(0,1-3*2^-h)` and local ceiling `min(1,3*2^-h)`; a nontrivial
+ceiling follows from this assumption alone exactly when `h>log2(3)`.
+
+K1023 proves that a herald fixed before settings preserves K1014's ceiling
+when the later setting law is conditionally fresh. Its exact local
+countermodel uses a post-settings herald to delete a deterministic strategy's
+unique losing input and retain a perfect score. K1024 shows that at most `R`
+adversarial record flips add the sharp correction `R/n` to the sequential
+threshold.
+
+K1025 composes these results with K1018/K1020. At the imported
+`p=1,V=2/5,eta=49/50,alpha=1/20` point, supplied allowances
+`epsilon=R/n=1/1000` leave margin `0.0066956140...` and require 33,412
+all-trials shots. This number is a forecast, not an empirical score. No GU
+state, herald, setting source, action, locality, detector, record audit,
+source claim, ledger row, prediction, confirmation, canon or public verdict
+changes. Five producers pass 59 declared controls; five hostile probes reject
+63/63 mutations.
+
 ## 2026-10-04 — K1016--K1020 all-trials detector-efficiency boundary
 
 K1016 repairs K1015's postselection failure inside an explicit imported model:

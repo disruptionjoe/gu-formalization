@@ -4,6 +4,23 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1021--K1025 setting, herald and record-integrity boundary
+
+- `channel-swings/k1021_k1020_setting_tv_chsh_certificate.py` certifies the
+  sharp total-variation setting-source ceiling; its probe rejects thirteen
+  mutations.
+- `channel-swings/k1022_k1021_setting_min_entropy_boundary.py` certifies the
+  exact pair-source min-entropy boundary; its probe rejects twelve mutations.
+- `channel-swings/k1023_k1022_event_ready_herald_ordering.py` certifies the
+  pre-settings herald theorem and post-settings countermodel; its probe rejects
+  twelve mutations.
+- `channel-swings/k1024_k1023_record_corruption_certificate.py` certifies the
+  exact adversarial record correction; its probe rejects thirteen mutations.
+- `channel-swings/k1025_k1024_composed_loophole_budget.py` certifies the
+  composed 33,412-shot forecast; its probe rejects thirteen mutations.
+- Five producers pass 59 declared controls; five probes reject 63/63 hostile
+  mutations. No protected GU conclusion moves.
+
 ## K1016--K1020 all-trials detector-efficiency boundary
 
 - `channel-swings/k1016_k1015_assigned_noclick_chsh_threshold.py` certifies

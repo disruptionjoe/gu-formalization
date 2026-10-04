@@ -1,0 +1,39 @@
+{
+  "certificate": "w_hat_recorded>3/4+epsilon+R/n+sqrt(log(1/alpha)/(2n))",
+  "created": "2026-10-04",
+  "feasibility_condition": "expected_win_rate>3/4+epsilon+record_rate",
+  "forecast_model": "K1018 independent equal-efficiency loss plus K1021 conditional setting-TV bound plus K1024 deterministic record budget",
+  "frozen_point": {
+    "V": "2/5",
+    "alpha": "1/20",
+    "effective_margin": 0.0066956140385988645,
+    "epsilon": "1/1000",
+    "eta": "49/50",
+    "expected_win_rate": 0.7586956140385989,
+    "half_chsh": 1.0347824561543955,
+    "n_total": 33412,
+    "p": "1",
+    "penalty_at_n": 0.006695534696125746,
+    "penalty_at_n_minus_one": 0.0066956348949314855,
+    "record_rate": "1/1000"
+  },
+  "inference_boundary": "an empirical certificate may use audited bounds directly; the 33,412-trial number is only a forecast under the imported loss, setting-TV and record-rate model",
+  "ownership": {
+    "gu_protocol_constructed": false,
+    "loophole_free_experiment_claimed": false
+  },
+  "remaining_unowned_packet": [
+    "positive state/effect pairing",
+    "action-owned preparation and generator",
+    "pre-settings physical herald",
+    "fresh setting source and independence proof",
+    "commuting local observables",
+    "spacelike locality",
+    "detector response calibration",
+    "audited complete systematic-error budget"
+  ],
+  "result_id": "K1025-K1024-COMPOSED-LOOPHOLE-BUDGET",
+  "schema_version": "1.0",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}
