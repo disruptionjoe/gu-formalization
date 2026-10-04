@@ -1472,7 +1472,7 @@
     },
     "research_agenda": {
       "path": "lab/process/RESEARCH-AGENDA.json",
-      "sha256": "4d25864f16d4026a28d048cd16629ee05a254fb83c121b657b96ba22e9f91637"
+      "sha256": "780cf7500c52417d01096cd4176dcaaedd53b85a97b96970a30b8d0a76df612c"
     },
     "k684_closed_column_remainder_compiler": {
       "path": "lab/process/k684-k500-closed-column-remainder-compiler.json",
@@ -2619,11 +2619,11 @@
     "exact_reopener": "action-owned equation-9.16 map fixing internal projection, form-leg contraction, real/Krein coefficients, family covector, selected quadratic owner and nonzero background or interaction meaning"
   },
   "live_frontier": {
-    "current_question_contains": "K966--K970 close the continuum escape and prove finite-window parent nonidentifiability",
-    "selected_condition": "CAUCHY_CONTINUUM_EXACT__FINITE_BAND_UNIFORM__FINITE_WINDOW_ATOMIC_MIMIC__EXPLICIT_LATE_RECURRENCE__HOLDOUT_UNSCORED__GU_ACTION_RESERVOIR_OWNER_MISSING__NO_PROTECTED_CLAIM_MOVE",
+    "current_question_contains": "K971--K975 prove that the imported exact exponential spectral parent is a singular energy-domain limit",
+    "selected_condition": "CAUCHY_EXACT_PARENT_INFINITE_FIRST_SECOND_MOMENTS__FINITE_FIRST_MOMENT_CUSP_NO_GO__FINITE_VARIANCE_QUADRATIC_ZENO__APPROXIMATION_VARIANCE_INVERSE_ERROR_COST__PHYSICAL_DOMAIN_FORK_UNSCORED__NO_PROTECTED_CLAIM_MOVE",
     "b2_root": "EMPTY_NAMED_OWNER_SET",
     "reopeners": [
-      "supply a GU-owned physical quotient and positive state/effect pairing, an action-owned local system-environment coupling that selects the spectral measure or reset law, a controlled common domain/limit, the remote-marginal/locality theorem and a distinct empirical holdout frozen before scoring",
+      "supply a GU-owned physical quotient and positive state/effect pairing, an action-owned local system-environment coupling that selects the exact singular spectral/reset law or finite-resolution regularization, an owned energy/form domain and resolution budget, the remote-marginal/locality theorem and a distinct empirical holdout frozen before scoring",
       "supply an action-owned seven-generator invariant lock, seven selected values and a complete functional boundary/Green/BV-BFV domain, or a separately justified genuinely nonlocal or noncommutative selector with its own reduced-observable and properness proof; otherwise retain charged boundary symmetry and switch reverse edge",
       "a genuinely new stationary body-changing even owner, fully stationary nonzero-T or non-Levi-Civita Euclidean germ, independently action-owned path adapter or different Shiab response, separately justified commuting-spinor action, or genuinely new gauge-basic old-old parent, each with complete gauge/Hessian/Noether/Green/preboundary data; do not retry K751--K754's closed minimal odd or CBRS-1R classes",
       "provide a source/action-owned nonzero-fermion stationary germ with full gauge tangent (G,L), trivial infinitesimal stabilizer when kappa is nonzero, both augmented Ward equations, every Hessian block and common variational/Green/preboundary data; then recompute all forty old-type quotient capacities",
@@ -2733,6 +2733,6 @@
     "release_readiness_change": false,
     "public_posture_change": false
   },
-  "result_ref": "lab/process/k970-k969-continuum-recurrence-discriminator-disposition.json",
+  "result_ref": "lab/process/k975-k974-physical-domain-disposition.json",
   "probe_ref": "tests/channel-swings/current_frontier_semantic_currency_audit.py"
 }

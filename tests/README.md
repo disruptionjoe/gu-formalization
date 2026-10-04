@@ -4,6 +4,25 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K971--K975 finite-energy physical-domain boundary
+
+- `channel-swings/k971_k970_cauchy_energy_domain_boundary.py` certifies the
+  exact Cauchy moment divergence and generator/form-domain exclusions; its
+  probe rejects twelve mutations.
+- `channel-swings/k972_k971_finite_moment_cusp_no_go.py` certifies the general
+  finite-first-moment differentiability obstruction; its probe rejects eleven
+  mutations.
+- `channel-swings/k973_k972_quadratic_zeno_boundary.py` certifies the
+  finite-variance quadratic survival law; its probe rejects nine mutations.
+- `channel-swings/k974_k973_finite_energy_approximation_cost.py` certifies the
+  necessary inverse-error second-moment cost and symmetric compact-band
+  sufficient repair; its probe rejects thirteen mutations.
+- `channel-swings/k975_k974_physical_domain_disposition.py` freezes the
+  physical-domain ownership fork and unscored holdout; its probe rejects
+  thirteen mutations.
+- Five producers pass 51 declared controls; five probes reject 58/58 hostile
+  mutations. No protected GU conclusion moves.
+
 ## K966--K970 continuum/recurrence discriminator
 
 - `channel-swings/k966_k965_cauchy_continuum_reservoir.py` certifies the exact

@@ -1,0 +1,45 @@
+{
+  "claim_ceiling": "Quadratic short-time theorem for positive spectral characteristic functions with finite variance; no universal quantum-dynamics no-go.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "created": "2026-10-03",
+  "decision": {
+    "next_exact_input": "Quantify how the spectral second moment must diverge when a finite-energy characteristic function uniformly approximates the exponential cusp.",
+    "quadratic_vs_linear_boundary_proved": true
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "a": 1.4,
+    "finite_rows": [
+      {"quadratic_ratio": 0.9999666671112184, "t": 0.01},
+      {"quadratic_ratio": 0.9999996666287814, "t": 0.001},
+      {"quadratic_ratio": 0.999999993922529, "t": 0.0001}
+    ],
+    "linear_ratio_tends_to_2a": true,
+    "quadratic_ratio_tends_to_variance": true,
+    "symmetric_two_atom_variance": 1.0,
+    "target_rows": [
+      {"linear_ratio": 2.761163319875315, "t": 0.01},
+      {"linear_ratio": 2.7960836561070623, "t": 0.001},
+      {"linear_ratio": 2.799608036584411, "t": 0.0001}
+    ]
+  },
+  "ownership": {
+    "finite_variance_physical_state_rule_imported": true,
+    "general_nonunitary_dynamics_excluded": false,
+    "gu_action_or_physical_quotient_constructed": false,
+    "prediction_or_confirmation_credit": false
+  },
+  "result_id": "K973-QUADRATIC-ZENO-BOUNDARY",
+  "schema_version": "1.0",
+  "scope": "Short-time survival law for positive spectral states with finite second moment.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "amplitude_expansion": "phi(t)=1+i m t-(1/2)E[omega^2]t^2+o(t^2)",
+    "exact_exponential_survival": "exp(-2a|t|)=1-2a|t|+o(|t|)",
+    "finite_variance_exact_exponential_impossible": true,
+    "hypothesis": "integral omega^2 dmu < infinity",
+    "survival_expansion": "|phi(t)|^2=1-Var(omega)t^2+o(t^2)"
+  }
+}

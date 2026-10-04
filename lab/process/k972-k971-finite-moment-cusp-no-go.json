@@ -1,0 +1,43 @@
+{
+  "claim_ceiling": "Finite-first-moment no-go for exact positive-measure spectral characteristic functions only; no no-go for reset, nonautonomous or singular-limit dynamics.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "created": "2026-10-03",
+  "decision": {
+    "finite_first_moment_excludes_exact_cusp": true,
+    "next_exact_input": "Strengthen to the finite-second-moment quadratic survival law and compare with the target's linear short-time loss."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "a": 1.4,
+    "difference_quotients": [
+      {"h": 0.01, "imag": 0.4999416679583208, "real": -0.012499645837849016},
+      {"h": 0.001, "imag": 0.49999941666679576, "real": -0.0012499996458470441},
+      {"h": 0.0001, "imag": 0.49999999416666674, "real": -0.00012499999924031613}
+    ],
+    "difference_quotients_converge_to_i_mean": true,
+    "finite_atom_first_moment": 1.5,
+    "finite_atom_mean": 0.5,
+    "target_one_sided_derivatives_disagree": true
+  },
+  "ownership": {
+    "general_open_system_no_go": false,
+    "gu_action_or_physical_quotient_constructed": false,
+    "positive_spectral_model_only": true,
+    "prediction_or_confirmation_credit": false
+  },
+  "result_id": "K972-FINITE-MOMENT-CUSP-NO-GO",
+  "schema_version": "1.0",
+  "scope": "Positive spectral characteristic functions with finite absolute first moment.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "characteristic_differentiable_at_zero": true,
+    "derivative": "i integral omega dmu",
+    "exact_positive_rate_target_impossible": true,
+    "hypothesis": "integral |omega| dmu < infinity",
+    "target": "exp(-a|t|)",
+    "target_left_derivative": 1.4,
+    "target_right_derivative": -1.4
+  }
+}

@@ -8,6 +8,33 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-03 — K971--K975 finite-energy physical-domain boundary
+
+K971 computes the exact spectral moments of K966's Cauchy state. Its cutoff
+absolute first moment grows logarithmically and its cutoff second moment grows
+linearly, so the constant state belongs to neither `Dom(M_omega)` nor
+`Dom(|M_omega|^(1/2))`, even though the bounded unitary orbit remains defined.
+
+K972 proves the general finite-first-moment obstruction by dominated
+convergence: every positive spectral characteristic function with
+`E|omega|<infinity` is differentiable at zero, whereas `exp(-a|t|)` has
+one-sided derivatives `-a` and `+a`. K973 strengthens this to the
+finite-variance short-time law
+`|phi(t)|^2=1-Var(omega)t^2+o(t^2)`, incompatible with the target's linear
+survival loss.
+
+K974 quantifies the repair. Uniform error `eta<1/2` implies
+`E[omega^2]>=a^2(1-2 eta)/(2 eta)`. The normalized compact-band Cauchy model
+is symmetric, so its finite second moment and variance both equal
+`a Omega/atan(Omega/a)-a^2`; K967 supplies the uniform error bound. Thus
+finite-energy approximation survives with inverse-error cost.
+K975 freezes the exact-singular versus finite-resolution domain fork as
+reserved and unscored.
+
+No GU action, physical quotient, source claim, ledger row, empirical score,
+prediction, confirmation, canon or public verdict changes. Five producers pass
+51 declared controls and five hostile probes reject 58/58 mutations.
+
 ## 2026-10-03 — K966--K970 continuum/recurrence discriminator
 
 K966 closes the exact continuum escape left by K962: the multiplication

@@ -1,0 +1,55 @@
+{
+  "claim_ceiling": "Necessary second-moment lower bound plus one compact-band sufficient construction; no optimal approximation theorem or GU-selected cutoff.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "compact_band_repair": {
+    "Omega": 35.65070725258455,
+    "a": 1.4,
+    "eta": 0.05,
+    "exact_second_moment": "a Omega/atan(Omega/a)-a^2",
+    "mean_zero": true,
+    "model": "normalized symmetric Cauchy restriction to [-Omega,Omega]",
+    "necessary_lower": 17.639999999999997,
+    "repair_respects_lower_bound": true,
+    "sufficient_bandwidth": "Omega=4a/(pi eta)",
+    "uniform_error_at_most_eta": true,
+    "second_moment_equals_variance": 30.628620286574645
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "finite_energy_repair_quantified": true,
+    "next_exact_input": "Compose the exact singular parent and finite-energy approximation cost into the physical-domain ownership disposition."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "all_repairs_respect_lower_bound": true,
+    "lower_cost_increases": true,
+    "scaling_rows": [
+      {"eta": 0.2, "necessary_second_moment_lower": 2.939999999999999, "sufficient_bandwidth": 8.912676813146138, "truncated_second_moment": 6.858259539292546},
+      {"eta": 0.1, "necessary_second_moment_lower": 7.839999999999999, "sufficient_bandwidth": 17.825353626292276, "truncated_second_moment": 14.761525070463081},
+      {"eta": 0.05, "necessary_second_moment_lower": 17.639999999999997, "sufficient_bandwidth": 35.65070725258455, "truncated_second_moment": 30.628620286574645},
+      {"eta": 0.025, "necessary_second_moment_lower": 37.23999999999999, "sufficient_bandwidth": 71.3014145051691, "truncated_second_moment": 62.39295496609724}
+    ],
+    "second_moment_cost_increases": true
+  },
+  "ownership": {
+    "bandwidth_error_and_energy_budget_imported": true,
+    "gu_action_or_physical_quotient_constructed": false,
+    "optimal_constant_claimed": false,
+    "prediction_or_confirmation_credit": false
+  },
+  "result_id": "K974-FINITE-ENERGY-APPROXIMATION-COST",
+  "schema_version": "1.0",
+  "scope": "Uniform approximation of exp(-a|t|) by positive spectral characteristic functions with finite second moment.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "cosine_bound": "1-Re phi(t) <= E[omega^2]*t^2/2",
+    "exponential_bound": "1-exp(-2 eta) >= 2 eta-2 eta^2",
+    "range": "0<eta<1/2",
+    "test_time": "t=2 eta/a",
+    "uniform_error": "sup_t |phi(t)-exp(-a|t|)| <= eta",
+    "second_moment_diverges_as_error_vanishes": true,
+    "second_moment_lower": "E[omega^2] >= a^2(1-2 eta)/(2 eta)"
+  }
+}

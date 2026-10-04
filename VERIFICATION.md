@@ -7,6 +7,16 @@ updated_at: "2026-10-03"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K971--K975 finite-energy physical-domain boundary (2026-10-03)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K966's Cauchy state has divergent absolute first and second spectral moments and lies outside the named generator/form domains | K971 exact cutoff integrals; producer `11/11`; hostile mutations `12/12` | exact for the named Cauchy multiplication model |
+| A positive spectral characteristic function with finite absolute first moment cannot equal `exp(-a|t|)` for `a>0` | K972 dominated-convergence derivative theorem; producer `10/10`; hostile mutations `11/11` | exact for positive spectral measures; not a general open-system no-go |
+| Finite spectral variance gives quadratic survival loss, unlike exact exponential linear onset | K973 second-order expansion and two-atom control; producer `9/9`; hostile mutations `9/9` | exact short-time theorem in the stated class |
+| Uniform error `eta<1/2` requires spectral second moment at least `a^2(1-2 eta)/(2 eta)` | K974 cosine inequality at `t=2 eta/a`; symmetric compact-band Cauchy sufficient repair; producer `11/11`; hostile mutations `13/13` | necessary lower bound plus matching-order construction; no optimal constant |
+| The singular/regularized fork is GU-owned or empirically scored | K975 preserves every native owner/domain/locality/holdout demand; producer `10/10`; hostile mutations `13/13` | explicitly excluded |
+
 ## K966--K970 continuum/recurrence discriminator (2026-10-03)
 
 | Claim | Evidence | Honest grade |

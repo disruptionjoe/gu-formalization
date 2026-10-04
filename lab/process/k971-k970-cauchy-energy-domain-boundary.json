@@ -1,0 +1,46 @@
+{
+  "claim_ceiling": "Exact domain statement for the named Cauchy spectral state only; no general no-go for open systems or GU dynamics.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "construction": {
+    "density": "a/(pi(omega^2+a^2))",
+    "gamma": 0.7,
+    "generator": "self-adjoint multiplication M_omega",
+    "initial_vector": "1 in L^2(R,mu_a)",
+    "scale": 1.4
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "k966_finite_energy_seam_closed_negatively": true,
+    "next_exact_input": "Prove the finite-first-moment cusp obstruction for every positive spectral measure, not only the Cauchy example."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "absolute_first_strictly_increases": true,
+    "cutoff_rows": [
+      {"absolute_first_moment": 1.7609827749151756, "cutoff": 10.0, "second_moment": 7.1262372172891375},
+      {"absolute_first_moment": 3.804639859238817, "cutoff": 100.0, "second_moment": 87.18423583685137},
+      {"absolute_first_moment": 5.856773073868534, "cutoff": 1000.0, "second_moment": 889.309428198128}
+    ],
+    "second_strictly_increases": true
+  },
+  "ownership": {
+    "finite_energy_physical_state_constructed": false,
+    "gu_action_or_physical_quotient_constructed": false,
+    "prediction_or_confirmation_credit": false
+  },
+  "result_id": "K971-CAUCHY-ENERGY-DOMAIN-BOUNDARY",
+  "schema_version": "1.0",
+  "scope": "Spectral-moment and multiplication-generator domain of K966's normalized Cauchy reservoir state.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "absolute_first_cutoff": "(a/pi) log(1+(Omega/a)^2)",
+    "absolute_first_moment_diverges": true,
+    "initial_vector_in_absolute_form_domain": false,
+    "initial_vector_in_generator_domain": false,
+    "second_cutoff": "(2a/pi)(Omega-a arctan(Omega/a))",
+    "second_moment_diverges": true,
+    "unitary_orbit_still_defined": true
+  }
+}

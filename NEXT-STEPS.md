@@ -7,6 +7,19 @@ updated_at: "2026-10-03"
 
 # Next Steps For Contributors
 
+> **2026-10-03 K971--K975 PHYSICAL-DOMAIN BOUNDARY.** The exact Cauchy
+> spectral parent has divergent absolute first and second moments; its state is
+> outside both the generator and absolute form domains. More generally, finite
+> first moment makes the characteristic function differentiable at zero, and
+> finite variance makes survival loss quadratic, so neither can realize the
+> exact `exp(-a|t|)` cusp. Finite-energy approximations remain possible, but
+> uniform error `eta<1/2` requires spectral second moment at least
+> `a^2(1-2 eta)/(2 eta)`. Next require a GU-owned physical quotient and action
+> to choose the exact singular limit or a finite-resolution regularization,
+> own its domain/energy budget and locality theorem, and freeze an empirical
+> resolution or holdout before scoring. Do not promote this repository model
+> to GU dynamics.
+
 > **2026-10-03 K966--K970 CONTINUUM/RECURRENCE DISCRIMINATOR.** The normalized
 > Cauchy spectral reservoir realizes `exp(-2 gamma |t|)` exactly on a positive
 > Hilbert space. Finite bandwidth incurs uniform error at most
