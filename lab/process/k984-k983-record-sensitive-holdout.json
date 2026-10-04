@@ -1,0 +1,76 @@
+{
+  "claim_ceiling": "Preregistered conditional holdout and exact Poisson probabilities only; no data, score, GU observable, prediction or confirmation.",
+  "classification": "INTERNAL_PREREGISTERED_HOLDOUT",
+  "created": "2026-10-03",
+  "decision": {
+    "distinct_holdout_frozen_before_scoring": true,
+    "holdout_execution_requires_new_native_owner": true,
+    "next_exact_input": "A GU-owned physical quotient and action must make the stochastic clock or environment record an observable, or select a different horn with its own inequivalent holdout."
+  },
+  "dependency": {
+    "input_ids": [
+      "K981-POISSON-PHASE-FLIP-UNRAVELLING",
+      "K983-SYSTEM-ONLY-NONIDENTIFIABILITY"
+    ],
+    "source_and_ledger_effect_none": true,
+    "system_endpoint_nonidentifiability_proved": true
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "counts_beyond_parity_have_positive_probability": true,
+    "gamma": 0.7,
+    "gamma_T": 1.4,
+    "p_even": 0.530405031312609,
+    "p_odd": 0.46959496868739103,
+    "p_two_or_more": 0.40816728654014445,
+    "parity_matches_system_coherence": true,
+    "probabilities_n_0_through_11": [
+      0.2465969639416065,
+      0.3452357495182491,
+      0.24166502466277434,
+      0.11277701150929469,
+      0.03947195402825314,
+      0.011052147127910878,
+      0.002578834329845871,
+      0.0005157668659691742,
+      9.025920154460549e-05,
+      1.4040320240271963e-05,
+      1.9656448336380743e-06,
+      2.5017297882666405e-07
+    ],
+    "probabilities_normalize": true,
+    "tail_n_ge_12": 3.267649895111191e-08
+  },
+  "information_boundary": {
+    "count_record_strictly_refines_parity": true,
+    "record_not_supplied_by_reduced_channel": true,
+    "same_endpoint_unitary_for_n_and_n_plus_2": true,
+    "system_endpoint_reads_only_parity": true
+  },
+  "ownership": {
+    "empirical_data_collected": false,
+    "gu_action_or_clock_constructed": false,
+    "gu_record_observable_constructed": false,
+    "prediction_or_confirmation_credit": false
+  },
+  "preregistration": {
+    "fit_on_holdout": false,
+    "holdout_time_T": 2.0,
+    "predicted_distribution": "P(N_T=n)=exp(-gamma T)(gamma T)^n/n!",
+    "primary_checks": [
+      "mean=gamma T",
+      "variance=gamma T",
+      "full count histogram follows Poisson(gamma T)"
+    ],
+    "rate_source": "gamma fixed from the prior system-only dephasing calibration",
+    "record": "full jump count N_T, not endpoint parity alone",
+    "required_access": "an action-owned environment or clock record operationally linked to each system trial",
+    "status": "frozen_not_scored"
+  },
+  "result_id": "K984-RECORD-SENSITIVE-HOLDOUT",
+  "schema_version": "1.0",
+  "scope": "A pre-score holdout for the supplied Poisson phase-flip horn using an independently accessible jump-count record at fixed T=2.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

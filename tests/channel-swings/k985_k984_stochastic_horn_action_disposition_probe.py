@@ -1,0 +1,12 @@
+#!/usr/bin/env python3
+import copy,importlib.util
+from pathlib import Path
+H=Path(__file__).resolve().parent;s=importlib.util.spec_from_file_location("k985",H/"k985_k984_stochastic_horn_action_disposition.py");m=importlib.util.module_from_spec(s);s.loader.exec_module(m)
+def ok(p):
+    try:m.validate(p);return True
+    except (AssertionError,KeyError):return False
+def main():
+    p=m.build();muts=[lambda x:x["dependency_checks"].__setitem__("input_ids",[]),lambda x:x["dependency_checks"].__setitem__("all_source_and_ledger_effect_none",False),lambda x:x["dependency_checks"].__setitem__("all_prediction_or_confirmation_withheld",False),lambda x:x["dependency_checks"].__setitem__("record_holdout_frozen_not_scored",False),lambda x:x["revised_fork"].__setitem__("classification_exhaustive",True),lambda x:x["identifiability"].__setitem__("system_only_endpoint_data_selects_microscopic_horn",True),lambda x:x["identifiability"].__setitem__("record_or_environment_sensitive_holdout_required",False),lambda x:x["identifiability"].__setitem__("poisson_count_holdout_frozen",False),lambda x:x["identifiability"].__setitem__("empirical_score_assigned",True),lambda x:x["demand"].__setitem__("gu_physical_quotient_and_positive_effect_pairing_required",False),lambda x:x["demand"].__setitem__("gu_action_owned_local_or_stochastic_coupling_required",False),lambda x:x["demand"].__setitem__("selected_horn_and_common_domain_required",False),lambda x:x["demand"].__setitem__("clock_reset_limit_or_record_accounting_required",False),lambda x:x["demand"].__setitem__("remote_marginal_and_locality_theorem_required",False),lambda x:x["demand"].__setitem__("inequivalent_native_holdout_and_observable_required",False),lambda x:x["ownership"].__setitem__("repository_conditional_models_only",False),lambda x:x["ownership"].__setitem__("gu_action_clock_record_or_physical_quotient_constructed",True),lambda x:x["ownership"].__setitem__("source_claim_or_ledger_verdict_changed",True),lambda x:x["ownership"].__setitem__("prediction_or_confirmation_credit",True),lambda x:x["decision"].__setitem__("deterministic_grid_cost_not_promoted_to_universal_markov_cost",False),lambda x:x["decision"].__setitem__("stochastic_repair_does_not_supply_gu_owner",False),lambda x:x.__setitem__("source_and_ledger_effect","changed")];caught=0
+    for f in muts:q=copy.deepcopy(p);f(q);caught+=not ok(q)
+    print(f"K985 hostile: {caught}/{len(muts)}");return 0 if caught==len(muts) else 1
+if __name__=="__main__":raise SystemExit(main())

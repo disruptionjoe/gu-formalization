@@ -7,6 +7,18 @@ updated_at: "2026-10-03"
 
 # Next Steps For Contributors
 
+> **2026-10-03 K981--K985 STOCHASTIC-HORN BOUNDARY.** A Poisson clock of
+> rate `gamma` driving phase flips `Z^{N_t}` realizes the exact K956 dephasing
+> semigroup at finite event rate. Thus K978's `h^{-1/2}` coupling divergence is
+> a cost of the deterministic grid construction, not a universal Markov cost.
+> The repair imports a stochastic clock, point jumps, probability semantics
+> and a record. Endpoint system-only data cannot identify the microscopic
+> horn. A count-record holdout at `T=2` is frozen but unscored and requires an
+> independently accessible action-owned record. Next require a GU-owned
+> physical quotient and action to select a horn, own its positive pairing,
+> common domain, clock/reset/record and locality theorem, and expose the
+> inequivalent native holdout observable before scoring.
+
 > **2026-10-03 K976--K980 BOUNDED-DILATION BOUNDARY.** Any bounded,
 > time-independent Hamiltonian dilation with a fixed product environment state
 > has a commutator reduced first jet and zero linear purity loss on pure system

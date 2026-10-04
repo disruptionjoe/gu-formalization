@@ -1,0 +1,92 @@
+{
+  "claim_ceiling": "Exact random-unitary unraveling of the imported qubit semigroup only; not a deterministic Hamiltonian dilation or GU-owned stochastic action.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "construction": {
+    "coherence": "E[(-1)^N_t]=exp(-2 gamma t)",
+    "count_law": "N_t~Poisson(gamma t)",
+    "cptp": true,
+    "ensemble_channel": "D_t(rho)=P(even)rho+P(odd)ZrhoZ",
+    "pathwise_unitary": "U_t=Z^N_t",
+    "remote_marginal_invariant": true,
+    "semigroup": true
+  },
+  "created": "2026-10-03",
+  "decision": {
+    "deterministic_grid_singularity_not_horn_general": true,
+    "exact_stochastic_horn_constructed": true,
+    "next_exact_input": "Derive the generator and separate finite event rate from the imported stochastic clock, point-jump and record resources."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "all_characteristic_identities_replayed": true,
+    "all_probabilities_normalized": true,
+    "gamma": 0.7,
+    "identity_at_zero": true,
+    "rows": [
+      {
+        "coherence_even_minus_odd": 1.0,
+        "finite_sum_replay": 1.0,
+        "identity_error": 0.0,
+        "normalization_error": 0.0,
+        "p_even": 1.0,
+        "p_odd": 0.0,
+        "t": 0.0,
+        "target_exp_minus_2_gamma_t": 1.0
+      },
+      {
+        "coherence_even_minus_odd": 0.7046880897187133,
+        "finite_sum_replay": 0.7046880897187134,
+        "identity_error": 0.0,
+        "normalization_error": 0.0,
+        "p_even": 0.8523440448593567,
+        "p_odd": 0.14765595514064328,
+        "t": 0.25,
+        "target_exp_minus_2_gamma_t": 0.7046880897187134
+      },
+      {
+        "coherence_even_minus_odd": 0.24659696394160652,
+        "finite_sum_replay": 0.2465969639416065,
+        "identity_error": 0.0,
+        "normalization_error": 0.0,
+        "p_even": 0.6232984819708033,
+        "p_odd": 0.37670151802919677,
+        "t": 1.0,
+        "target_exp_minus_2_gamma_t": 0.2465969639416065
+      },
+      {
+        "coherence_even_minus_odd": 0.06081006262521793,
+        "finite_sum_replay": 0.06081006262521795,
+        "identity_error": 2.0816681711721685e-17,
+        "normalization_error": 0.0,
+        "p_even": 0.530405031312609,
+        "p_odd": 0.46959496868739103,
+        "t": 2.0,
+        "target_exp_minus_2_gamma_t": 0.06081006262521797
+      },
+      {
+        "coherence_even_minus_odd": 0.0036978637164828965,
+        "finite_sum_replay": 0.0036978637164829784,
+        "identity_error": 4.640385298237959e-17,
+        "normalization_error": 0.0,
+        "p_even": 0.5018489318582414,
+        "p_odd": 0.4981510681417585,
+        "t": 4.0,
+        "target_exp_minus_2_gamma_t": 0.003697863716482932
+      }
+    ],
+    "strict_decay_after_zero": true
+  },
+  "ownership": {
+    "classical_poisson_clock_imported": true,
+    "gu_action_or_physical_quotient_constructed": false,
+    "point_jump_rule_imported": true,
+    "positive_hilbert_pairing_imported": true,
+    "prediction_or_confirmation_credit": false
+  },
+  "result_id": "K981-POISSON-PHASE-FLIP-UNRAVELLING",
+  "schema_version": "1.0",
+  "scope": "A qubit driven by a supplied classical Poisson clock of rate gamma and pathwise phase flips Z^N_t.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

@@ -4,6 +4,26 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K981--K985 stochastic dephasing horn
+
+- `channel-swings/k981_k980_poisson_phase_flip_unravelling.py` certifies the
+  exact Poisson even/odd phase-flip unraveling and remote-marginal theorem; its
+  probe rejects sixteen mutations.
+- `channel-swings/k982_k981_poisson_generator_resource_boundary.py` certifies
+  the finite-rate generator and imported stochastic resource boundary; its
+  probe rejects sixteen mutations.
+- `channel-swings/k983_k982_system_only_nonidentifiability.py` certifies the
+  endpoint reduced-channel nonidentifiability theorem; its probe rejects
+  seventeen mutations.
+- `channel-swings/k984_k983_record_sensitive_holdout.py` freezes and checks the
+  inequivalent Poisson count-record holdout; its probe rejects twenty-two
+  mutations.
+- `channel-swings/k985_k984_stochastic_horn_action_disposition.py` composes the
+  revised non-exhaustive microscopic fork and native ownership demand; its
+  probe rejects twenty-two mutations.
+- Five producers pass 79 declared controls; five probes reject 93/93 hostile
+  mutations. No protected GU conclusion moves.
+
 ## K976--K980 bounded-dilation first-jet boundary
 
 - `channel-swings/k976_k975_bounded_dilation_first_jet_obstruction.py`

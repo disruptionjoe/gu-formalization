@@ -1,0 +1,55 @@
+{
+  "claim_ceiling": "Non-exhaustive microscopic fork and unscored native-owner requirement only; no empirical score, GU derivation, prediction, confirmation or protected verdict.",
+  "classification": "INTERNAL_REQUIREMENT_DISPOSITION",
+  "created": "2026-10-03",
+  "decision": {
+    "deterministic_grid_cost_not_promoted_to_universal_markov_cost": true,
+    "next_exact_input": "A GU-owned physical quotient and positive state/effect pairing plus an action must select and control a microscopic horn, own its common domain, locality and clock/reset/record resources, and expose an inequivalent native holdout observable before scoring.",
+    "stochastic_repair_does_not_supply_gu_owner": true
+  },
+  "demand": {
+    "clock_reset_limit_or_record_accounting_required": true,
+    "gu_action_owned_local_or_stochastic_coupling_required": true,
+    "gu_physical_quotient_and_positive_effect_pairing_required": true,
+    "inequivalent_native_holdout_and_observable_required": true,
+    "remote_marginal_and_locality_theorem_required": true,
+    "selected_horn_and_common_domain_required": true
+  },
+  "dependency_checks": {
+    "all_prediction_or_confirmation_withheld": true,
+    "all_source_and_ledger_effect_none": true,
+    "input_ids": [
+      "K981-POISSON-PHASE-FLIP-UNRAVELLING",
+      "K982-POISSON-GENERATOR-RESOURCE-BOUNDARY",
+      "K983-SYSTEM-ONLY-NONIDENTIFIABILITY",
+      "K984-RECORD-SENSITIVE-HOLDOUT"
+    ],
+    "record_holdout_frozen_not_scored": true
+  },
+  "direction": "observed_to_native",
+  "identifiability": {
+    "empirical_score_assigned": false,
+    "poisson_count_holdout_frozen": true,
+    "record_or_environment_sensitive_holdout_required": true,
+    "system_only_endpoint_data_selects_microscopic_horn": false
+  },
+  "ownership": {
+    "gu_action_clock_record_or_physical_quotient_constructed": false,
+    "prediction_or_confirmation_credit": false,
+    "repository_conditional_models_only": true,
+    "source_claim_or_ledger_verdict_changed": false
+  },
+  "result_id": "K985-STOCHASTIC-HORN-ACTION-DISPOSITION",
+  "revised_fork": {
+    "bounded_autonomous_fixed_product_horn": "excluded by K976--K977",
+    "classification_exhaustive": false,
+    "deterministic_fresh_grid_horn": "uniformly convergent with h^-1/2 coupling and 1/h refresh costs",
+    "poisson_phase_flip_horn": "exact reduced semigroup at finite event rate with imported stochastic clock and point jumps",
+    "unbounded_spectral_horn": "exact only on singular energy-domain state in K966--K975"
+  },
+  "schema_version": "1.0",
+  "scope": "Composition of K981--K984 into the revised microscopic horn, identifiability and native-owner boundary for K956.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

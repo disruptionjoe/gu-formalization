@@ -7,6 +7,16 @@ updated_at: "2026-10-03"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K981--K985 stochastic dephasing horn (2026-10-03)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A Poisson rate-`gamma` phase-flip process realizes coherence `exp(-2 gamma t)` and preserves remote marginals | K981 even/odd characteristic-function identity; producer `14/14`; hostile mutations `16/16` | exact for the supplied classical random-unitary process; not a deterministic Hamiltonian or GU action |
+| Its generator is `gamma(Z rho Z-rho)` at finite event rate, without K978's grid `h^{-1/2}` coupling | K982 short-time law and exact count moments; producer `15/15`; hostile mutations `16/16` | exact resource classification for this horn; stochastic clock and point jumps remain imported |
+| Equal reduced channel families cannot be distinguished by one-time endpoint system-only experiments | K983 endpoint probability theorem and zero reduced-channel distance; producer `15/15`; hostile mutations `17/17` | exact including ancilla-assisted endpoint tests; arbitrary multi-time process equality is not claimed |
+| A full Poisson count record is strictly finer than endpoint parity and supplies a distinct frozen holdout | K984 `T=2` preregistration and exact count/parity probabilities; producer `17/17`; hostile mutations `22/22` | frozen conditional holdout only; record access and empirical data remain absent |
+| The stochastic horn is GU-selected or empirically scored | K985 preserves every native quotient/action/domain/locality/record obligation; producer `18/18`; hostile mutations `22/22` | explicitly excluded |
+
 ## K976--K980 bounded-dilation first-jet boundary (2026-10-03)
 
 | Claim | Evidence | Honest grade |

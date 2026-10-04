@@ -8,6 +8,32 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-03 — K981--K985 stochastic dephasing horn
+
+K981 constructs an exact random-unitary unraveling of K956. For a Poisson
+count `N_t` of rate `gamma`, pathwise evolution by `Z^{N_t}` gives even/odd
+weights `(1+/-exp(-2 gamma t))/2`, hence the exact dephasing semigroup and
+remote-marginal invariance.
+
+K982 derives `L(rho)=gamma(Z rho Z-rho)`. The event rate is finite and the
+jump-count mean and variance are `gamma T`; no deterministic step `h` or
+`h^{-1/2}` coupling occurs. The horn instead imports a classical random clock,
+ideal point jumps, probability semantics and unbounded count support. This is
+not a finite closed Hamiltonian parent or a GU stochastic action.
+
+K983 proves any one-time endpoint probability determined by the common
+reduced channel—including ancilla-assisted tomography—is identical across
+microscopic realizations. K984 therefore freezes a distinct count-record
+holdout at `T=2`, with `gamma` fixed from prior system data and no holdout
+refit. The record is strictly finer than endpoint parity but is not GU-owned or
+empirically scored. K985 composes the revised non-exhaustive fork and native
+owner requirements.
+
+No GU action, physical quotient, record observable, source claim, ledger row,
+empirical score, prediction, confirmation, canon or public verdict changes.
+Five producers pass 79 declared controls and five hostile probes reject 93/93
+mutations.
+
 ## 2026-10-03 — K976--K980 bounded-dilation first-jet boundary
 
 K976 proves a general short-time obstruction beyond K961's controlled-

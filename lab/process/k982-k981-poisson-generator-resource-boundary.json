@@ -1,0 +1,75 @@
+{
+  "claim_ceiling": "Exact generator and resource accounting for one supplied stochastic process; no finite closed Hamiltonian parent, stochastic action or GU clock owner.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "created": "2026-10-03",
+  "decision": {
+    "finite_rate_does_not_remove_stochastic_owner_debt": true,
+    "k978_grid_coupling_divergence_not_universal_across_horns": true,
+    "next_exact_input": "Determine which observables can distinguish this stochastic horn from any other microscopic realization of the same reduced channel family."
+  },
+  "dependency": {
+    "exact_stochastic_horn": true,
+    "input_id": "K981-POISSON-PHASE-FLIP-UNRAVELLING",
+    "source_and_ledger_effect_none": true
+  },
+  "direction": "observed_to_native",
+  "generator": {
+    "coherence_rate": "-2 gamma",
+    "finite_event_rate": 0.7,
+    "grid_step_or_h": null,
+    "h_inverse_half_coupling": false,
+    "lindblad_generator": "L(rho)=gamma(ZrhoZ-rho)",
+    "short_time_law": "D_dt(rho)=(1-gamma dt)rho+gamma dt ZrhoZ+o(dt)"
+  },
+  "ownership": {
+    "gu_action_or_clock_owner_constructed": false,
+    "prediction_or_confirmation_credit": false
+  },
+  "resource": {
+    "classical_random_clock_and_probability_law_imported": true,
+    "deterministic_closed_hamiltonian_parent_supplied": false,
+    "instantaneous_point_jumps_idealized": true,
+    "mean_and_variance_equal_gamma_T": true,
+    "rows": [
+      {
+        "T": 0.5,
+        "expected_jumps": 0.35,
+        "probability_no_jump": 0.7046880897187134,
+        "probability_two_or_more": 0.04867107887973676,
+        "replayed_mean": 0.35,
+        "replayed_variance": 0.3499999999999999
+      },
+      {
+        "T": 1.0,
+        "expected_jumps": 0.7,
+        "probability_no_jump": 0.4965853037914095,
+        "probability_two_or_more": 0.15580498355460382,
+        "replayed_mean": 0.7,
+        "replayed_variance": 0.6999999999999998
+      },
+      {
+        "T": 2.0,
+        "expected_jumps": 1.4,
+        "probability_no_jump": 0.2465969639416065,
+        "probability_two_or_more": 0.40816728654014445,
+        "replayed_mean": 1.4,
+        "replayed_variance": 1.4
+      },
+      {
+        "T": 5.0,
+        "expected_jumps": 3.5,
+        "probability_no_jump": 0.0301973834223185,
+        "probability_two_or_more": 0.8641117745995668,
+        "replayed_mean": 3.5,
+        "replayed_variance": 3.5
+      }
+    ],
+    "unbounded_horizon_count_support": true
+  },
+  "result_id": "K982-POISSON-GENERATOR-RESOURCE-BOUNDARY",
+  "schema_version": "1.0",
+  "scope": "Infinitesimal generator and resource accounting of K981's supplied Poisson phase-flip process.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

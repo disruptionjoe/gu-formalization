@@ -1,0 +1,76 @@
+{
+  "claim_ceiling": "Exact operational equivalence for endpoint tests of equal reduced channels only; no assertion that arbitrary multi-time process tensors are identical.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "created": "2026-10-03",
+  "decision": {
+    "k980_holdout_must_cross_reduced_channel_equivalence_class": true,
+    "next_exact_input": "Freeze a record-sensitive holdout before scoring, and state the additional access and ownership assumptions explicitly.",
+    "system_only_endpoint_holdout_cannot_select_horn": true
+  },
+  "dependency": {
+    "input_ids": [
+      "K981-POISSON-PHASE-FLIP-UNRAVELLING",
+      "K982-POISSON-GENERATOR-RESOURCE-BOUNDARY"
+    ],
+    "same_reduced_semigroup": true,
+    "source_and_ledger_effect_none": true
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "all_endpoint_differences_zero": true,
+    "ancilla_assisted_scope_included": true,
+    "rows": [
+      {
+        "bell_plus_probability": 0.8778918707278627,
+        "lambda": 0.7557837414557255,
+        "model_difference": 0.0,
+        "t": 0.2,
+        "x_plus_probability": 0.8778918707278627,
+        "z_zero_probability": 1.0
+      },
+      {
+        "bell_plus_probability": 0.6631398973115198,
+        "lambda": 0.3262797946230395,
+        "model_difference": 0.0,
+        "t": 0.8,
+        "x_plus_probability": 0.6631398973115198,
+        "z_zero_probability": 1.0
+      },
+      {
+        "bell_plus_probability": 0.5462752887551716,
+        "lambda": 0.09255057751034329,
+        "model_difference": 0.0,
+        "t": 1.7,
+        "x_plus_probability": 0.5462752887551716,
+        "z_zero_probability": 1.0
+      },
+      {
+        "bell_plus_probability": 0.5065182641017189,
+        "lambda": 0.013036528203437736,
+        "model_difference": 0.0,
+        "t": 3.1,
+        "x_plus_probability": 0.5065182641017189,
+        "z_zero_probability": 1.0
+      }
+    ],
+    "three_witness_classes_replayed": true
+  },
+  "ownership": {
+    "environment_record_constructed": false,
+    "gu_observable_or_action_constructed": false,
+    "prediction_or_confirmation_credit": false
+  },
+  "result_id": "K983-SYSTEM-ONLY-NONIDENTIFIABILITY",
+  "schema_version": "1.0",
+  "scope": "One-time endpoint experiments, including ancilla-assisted channel tomography, whose probabilities are determined only by the reduced CPTP family D_t.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "diamond_distance_between_reduced_channels": 0.0,
+    "endpoint_system_only_selector_exists": false,
+    "environment_or_record_sensitive_observable_required": true,
+    "multi_time_process_claimed": false,
+    "statement": "If two microscopic models induce the same reduced channel D_t, then every endpoint probability tr[E(D_t tensor id)(rho)] is identical."
+  }
+}
