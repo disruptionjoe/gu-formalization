@@ -1,0 +1,24 @@
+{
+  "claim_ceiling": "composition theorem inside the imported noisy-state and independent-loss models only",
+  "created": "2026-10-04",
+  "domain": "0<=V<=p<=1 and 0<=eta_A,eta_B<=1",
+  "frozen_point": {
+    "V": "2/5",
+    "at_threshold_factor": 1.0000000000000002,
+    "equal_efficiency_threshold": "10/(5+sqrt(29))",
+    "ideal_half_chsh": "sqrt(29)/5",
+    "p": "1",
+    "threshold": 0.9629120178362601
+  },
+  "interpretation": "small ideal Bell margins demand detector efficiencies much closer to one than the maximally entangled K1016 control",
+  "observed_chsh": "S_loss=2[eta_A eta_B sqrt(p^2+V^2)+(1-eta_A)(1-eta_B)]",
+  "ownership": {
+    "empirical_score": false,
+    "gu_state_or_detector_constructed": false
+  },
+  "result_id": "K1018-K1017-NOISY-LOSSY-BELL-INTERFACE",
+  "schema_version": "1.0",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "violation_iff": "eta_A eta_B sqrt(p^2+V^2)+(1-eta_A)(1-eta_B)>1"
+}

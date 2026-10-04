@@ -1,0 +1,23 @@
+{
+  "claim_ceiling": "exact threshold for this state, witness, zero-marginal independent-loss and fixed-assignment model only",
+  "controls": {
+    "at_one": 2.8284271247461903,
+    "at_threshold": 2.0000000000000004,
+    "at_zero": 2.0
+  },
+  "correlator_map": "E'_xy=eta^2 E_xy+(1-eta)^2",
+  "created": "2026-10-04",
+  "disposition": "fixed binary assignment retains every event-ready trial and defeats K1015-style postselection",
+  "model": "maximally entangled CHSH optimum, zero ideal one-party marginals, independent equal efficiency eta, every no-click assigned +1",
+  "observed_chsh": "S_eta=2 sqrt(2) eta^2+2(1-eta)^2",
+  "ownership": {
+    "gu_detector_model_constructed": false,
+    "loophole_free_experiment_claimed": false
+  },
+  "result_id": "K1016-K1015-ASSIGNED-NOCLICK-CHSH-THRESHOLD",
+  "schema_version": "1.0",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "threshold": 0.8284271247461902,
+  "violation_iff": "eta>2/(1+sqrt(2))"
+}

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: b08f9fc84eb8
+revision_basis: 92aa73e75aff
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1016--K1020 repair K1015's postselection failure inside a declared
+    imported detector model by retaining every event-ready trial and assigning
+    every no-click locally to `+1`. For the maximally entangled CHSH optimum
+    with zero marginals and independent equal efficiency, the exact threshold
+    is `eta>2/(1+sqrt(2))`; unequal efficiencies obey
+    `sqrt(2)eta_A eta_B+(1-eta_A)(1-eta_B)>1`. Composing this with K1011 gives
+    `S_loss=2[eta_A eta_B sqrt(p^2+V^2)+(1-eta_A)(1-eta_B)]`; at
+    `p=1,V=2/5` equal efficiency must exceed `10/(5+sqrt(29))`. Simultaneous
+    `(p,V,eta_A,eta_B)` boxes propagate by exact efficiency-corner extrema,
+    not a false global monotonicity rule. At `eta=49/50,alpha=1/20`, the
+    all-trials memory-robust forecast needs 19,810 trials. The empirical
+    all-trials certificate needs no fair-sampling assumption, but the shot
+    forecast imports independent loss. No GU state, detector, action,
+    locality, empirical score, source, ledger, prediction, confirmation,
+    canon or public verdict moves.
+
     K1011--K1015 convert the imported noisy-Bell family to directly calibrated
     coordinates `p=<ZZ>` and `V=p lambda`: entanglement is exactly
     `p+2V>1`, while optimized CHSH violation is `p^2+V^2>1`. Simultaneous
@@ -13182,6 +13198,16 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1016--K1020 replace unsafe no-click discarding with a fixed all-trials
+  binary assignment, derive exact symmetric and asymmetric efficiency
+  surfaces, compose them with the noisy `(p,V)` interface, propagate joint
+  calibration boxes by corner extrema and give a 19,810-trial memory-robust
+  forecast at `p=1,V=2/5,eta=49/50,alpha=1/20`. Can a GU-owned quotient and
+  action now supply the state/effect pairing, event-ready herald, commuting
+  local observables, fresh independent settings, spacelike locality, detector
+  response and complete statistical/systematic calibration model before the
+  empirical all-trials certificate or its efficiency forecast is scored?
+
   K1011--K1015 turn the K1006 noisy-Bell thresholds into observable
   `(p,V)` decision geometry, propagate simultaneous calibration rectangles,
   replace iid-device inference with a memory-robust CHSH-game certificate,
@@ -14698,6 +14724,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K1016--K1020 close the mathematical assumption that K1015's postselection
+  countermodel leaves no safe finite-efficiency completion. Preserve the exact
+  fixed-assignment efficiency surfaces, noisy-lossy composition, corner-based
+  calibration rule and all-trials finite-shot boundary. Do not treat
+  independent or setting-independent losses, heralding, fixed no-click
+  semantics, settings, locality, state preparation or systematics as
+  GU-selected. Reopen for GU credit only with a physical quotient and positive
+  state/effect pairing, commuting local observable algebras, an action-owned
+  generator and preparation, event-ready heralding before settings, an owned
+  fresh measurement-independent source, detector/locality theorem and complete
+  statistical/systematic calibration budget.
+
   K1011--K1015 close the assumption that ideal correlator concentration alone
   makes the imported noisy-Bell interface operational. Preserve the exact
   observable regions, calibration-rectangle monotonicity, memory-robust game

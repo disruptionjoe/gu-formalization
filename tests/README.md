@@ -4,6 +4,24 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1016--K1020 all-trials detector-efficiency boundary
+
+- `channel-swings/k1016_k1015_assigned_noclick_chsh_threshold.py` certifies
+  the fixed-assignment symmetric efficiency threshold; its probe rejects
+  thirteen mutations.
+- `channel-swings/k1017_k1016_asymmetric_efficiency_region.py` certifies the
+  unequal-efficiency region; its probe rejects thirteen mutations.
+- `channel-swings/k1018_k1017_noisy_lossy_bell_interface.py` certifies the
+  noisy-state/loss composition and frozen threshold; its probe rejects twelve
+  mutations.
+- `channel-swings/k1019_k1018_loss_calibration_rectangle.py` certifies exact
+  efficiency-corner propagation; its probe rejects fifteen mutations.
+- `channel-swings/k1020_k1019_all_trials_finite_shot_certificate.py` certifies
+  the memory-robust all-trials rule and 19,810-trial forecast; its probe rejects
+  fourteen mutations.
+- Five producers pass 64 declared controls; five probes reject 67/67 hostile
+  mutations. No protected GU conclusion moves.
+
 ## K1011--K1015 loophole-aware Bell certification boundary
 
 - `channel-swings/k1011_k1010_observable_noisy_bell_phase_diagram.py`

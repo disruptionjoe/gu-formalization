@@ -1,0 +1,57 @@
+{
+  "certifying_control": {
+    "box": [
+      0.99,
+      1,
+      0.39,
+      0.41,
+      0.98,
+      0.99,
+      0.98,
+      0.99
+    ],
+    "certified": true,
+    "corner_values": [
+      1.0223125357641913,
+      1.0325402147005607,
+      1.0325402147005607,
+      1.042974298524036
+    ],
+    "minimum": 1.0223125357641913
+  },
+  "claim_ceiling": "propagation of one supplied simultaneous confidence box; no calibration event or systematic budget constructed",
+  "created": "2026-10-04",
+  "excluding_control": {
+    "box": [
+      0.79,
+      0.81,
+      0.31,
+      0.33,
+      0.9,
+      0.92,
+      0.9,
+      0.92
+    ],
+    "corner_values": [
+      0.7184606552237041,
+      0.7322042253397864,
+      0.7322042253397864,
+      0.7466976525695593
+    ],
+    "excluded": true,
+    "maximum": 0.7466976525695593
+  },
+  "lower_rule": "min over four efficiency corners at (pL,VL); certify CHSH when min F>1",
+  "nondecision": "all other rectangle outcomes are inconclusive",
+  "ownership": {
+    "gu_calibration_constructed": false,
+    "joint_confidence_event_owned": false
+  },
+  "rectangle_order": "[pL,pU,VL,VU,etaAL,etaAU,etaBL,etaBU]",
+  "result_id": "K1019-K1018-LOSS-CALIBRATION-RECTANGLE",
+  "schema_version": "1.0",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "upper_rule": "max over four efficiency corners at (pU,VU); exclude CHSH when max F<=1",
+  "why_corners": "F is monotone in p,V but bilinear, not globally monotone, in eta_A,eta_B"
+}

@@ -7,6 +7,20 @@ updated_at: "2026-10-04"
 
 # Next Steps For Contributors
 
+> **2026-10-04 K1016--K1020 ALL-TRIALS DETECTOR-EFFICIENCY BOUNDARY.** Fixed
+> `+1` assignment for every no-click retains all event-ready CHSH trials. For
+> the imported maximally entangled zero-marginal model, equal efficiency must
+> exceed `2/(1+sqrt(2))`; unequal efficiencies obey
+> `sqrt(2)eta_A eta_B+(1-eta_A)(1-eta_B)>1`. With K1011 noise this becomes
+> `eta_A eta_B sqrt(p^2+V^2)+(1-eta_A)(1-eta_B)>1`; the frozen
+> `p=1,V=2/5` point needs equal efficiency above `10/(5+sqrt(29))`.
+> Calibration rectangles require exact efficiency-corner extrema. At
+> `eta=49/50,alpha=1/20`, the imported independent-loss forecast needs 19,810
+> all-trials shots. The empirical certificate avoids fair sampling, but the
+> forecast does not. Next require a GU-owned quotient, positive pairing,
+> action, event-ready herald, fresh settings, spacelike locality, detector
+> response and complete statistical/systematic calibration before scoring.
+
 > **2026-10-04 K1011--K1015 LOOPHOLE-AWARE BELL CERTIFICATION BOUNDARY.** In
 > the imported common-contrast model, direct calibrations obey `p=<ZZ>` and
 > `V=p lambda`, so entanglement is `p+2V>1` and optimized CHSH is

@@ -1,0 +1,36 @@
+{
+  "certificate": "w_hat>3/4+sqrt(log(1/alpha)/(2n))",
+  "created": "2026-10-04",
+  "forecast_model": "K1018 independent setting-independent equal-efficiency loss model",
+  "frozen_point": {
+    "V": "2/5",
+    "alpha": "1/20",
+    "eta": "49/50",
+    "half_chsh": 1.0347824561543955,
+    "margin": 0.008695614038598865,
+    "n_total": 19810,
+    "p": "1",
+    "penalty_at_n": 0.00869549407464989,
+    "penalty_at_n_minus_one": 0.008695713555298476,
+    "win_rate": 0.7586956140385989
+  },
+  "inference_boundary": "the empirical all-trials win-rate certificate itself needs no fair-sampling assumption; the 19,810-trial forecast does",
+  "memory_scope": "arbitrary inter-trial device memory under fresh uniform settings independent of the devices",
+  "ownership": {
+    "gu_protocol_constructed": false,
+    "loophole_free_experiment_claimed": false
+  },
+  "protocol": "herald every trial before settings; assign every no-click locally to +1; retain every trial",
+  "result_id": "K1020-K1019-ALL-TRIALS-FINITE-SHOT-CERTIFICATE",
+  "schema_version": "1.0",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "unowned_assumptions": [
+    "event-ready heralding",
+    "fresh measurement-independent settings",
+    "spacelike locality",
+    "fixed binary outcome convention",
+    "independent-loss forecast",
+    "complete systematic budget"
+  ]
+}

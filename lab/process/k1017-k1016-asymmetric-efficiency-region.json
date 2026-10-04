@@ -1,0 +1,23 @@
+{
+  "claim_ceiling": "exact unequal-efficiency surface for the fixed K1016 model, not a detector theorem for arbitrary states or inequalities",
+  "controls": {
+    "perfect": 1.4142135623730951,
+    "perfect_alice_bob_threshold": 0.7071067811865475,
+    "symmetric_boundary_factor": 1.0000000000000002
+  },
+  "correlator_map": "E'_xy=eta_A eta_B E_xy+(1-eta_A)(1-eta_B)",
+  "created": "2026-10-04",
+  "model": "K1016 with independent setting-independent local efficiencies eta_A and eta_B",
+  "observed_chsh": "S=2[sqrt(2) eta_A eta_B+(1-eta_A)(1-eta_B)]",
+  "ownership": {
+    "apparatus_calibrated": false,
+    "loss_independence_derived_from_gu": false
+  },
+  "result_id": "K1017-K1016-ASYMMETRIC-EFFICIENCY-REGION",
+  "schema_version": "1.0",
+  "status": "working_draft_verified",
+  "symmetric_reduction": "eta>2/(1+sqrt(2))",
+  "symmetric_threshold": 0.8284271247461902,
+  "target_claim": "NONE-NOT-A-KILL",
+  "violation_iff": "sqrt(2) eta_A eta_B+(1-eta_A)(1-eta_B)>1"
+}

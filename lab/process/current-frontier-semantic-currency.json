@@ -1472,7 +1472,7 @@
     },
     "research_agenda": {
       "path": "lab/process/RESEARCH-AGENDA.json",
-      "sha256": "9f20c276f277db071454060d235db03f46a4df8b0dc7990b5ac4def931cac1a2"
+      "sha256": "8211f5c88597321106c304352ee93298029cd94292fd63ca07aea53a4f554dc7"
     },
     "k684_closed_column_remainder_compiler": {
       "path": "lab/process/k684-k500-closed-column-remainder-compiler.json",
@@ -2619,8 +2619,8 @@
     "exact_reopener": "action-owned equation-9.16 map fixing internal projection, form-leg contraction, real/Krein coefficients, family covector, selected quadratic owner and nonzero background or interaction meaning"
   },
   "live_frontier": {
-    "current_question_contains": "K1011--K1015 turn the K1006 noisy-Bell thresholds into observable",
-    "selected_condition": "OBSERVABLE_P_V_PHASE_DIAGRAM__SIMULTANEOUS_RECTANGLE_CERTIFICATES__MEMORY_ROBUST_CHSH_GAME_BOUND__PREDICTABLE_SETTING_BIAS_LOCAL_CEILING__LOCAL_POSTSELECTION_PERFECT_WIN_COUNTERMODEL__EVENT_READY_LOCALITY_RANDOMNESS_DETECTOR_AND_SYSTEMATIC_OWNERSHIP_STILL_EXTERNAL__NO_PROTECTED_CLAIM_MOVE",
+    "current_question_contains": "K1016--K1020 replace unsafe no-click discarding with a fixed all-trials",
+    "selected_condition": "ALL_TRIALS_FIXED_NOCLICK_ASSIGNMENT__SYMMETRIC_AND_ASYMMETRIC_EFFICIENCY_SURFACES__NOISY_LOSSY_P_V_COMPOSITION__EXACT_CALIBRATION_CORNER_EXTREMA__MEMORY_ROBUST_19810_TRIAL_FORECAST__HERALD_SETTING_LOCALITY_DETECTOR_AND_SYSTEMATIC_OWNERSHIP_STILL_EXTERNAL__NO_PROTECTED_CLAIM_MOVE",
     "b2_root": "EMPTY_NAMED_OWNER_SET",
     "reopeners": [
       "supply a GU-owned physical quotient and positive state/effect pairing, commuting local observable algebras, an action-derived local generator, ownership of the noisy state family, preparation, settings and detector calibration, common domain and locality theorem, and a complete statistical/systematic error budget before scoring entanglement or Bell relations",
@@ -2735,6 +2735,6 @@
     "release_readiness_change": false,
     "public_posture_change": false
   },
-  "result_ref": "lab/process/k1015-k1014-postselection-detection-countermodel.json",
+  "result_ref": "lab/process/k1020-k1019-all-trials-finite-shot-certificate.json",
   "probe_ref": "tests/channel-swings/current_frontier_semantic_currency_audit.py"
 }

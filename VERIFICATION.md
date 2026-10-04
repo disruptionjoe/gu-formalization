@@ -7,6 +7,19 @@ updated_at: "2026-10-04"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1016--K1020 all-trials detector-efficiency boundary (2026-10-04)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Fixed `+1` no-click assignment gives `S=2sqrt(2)eta^2+2(1-eta)^2` and threshold `eta>2/(1+sqrt(2))` | K1016 exact loss expansion and boundary controls; producer `13/13`; hostile mutations `13/13` | exact for one imported state, witness, zero-marginal independent-loss model |
+| Unequal efficiencies violate exactly when `sqrt(2)eta_A eta_B+(1-eta_A)(1-eta_B)>1` | K1017 two-parameter expansion and symmetric/perfect-side controls; producer `13/13`; hostile mutations `13/13` | exact for fixed assignment and independent setting-independent losses |
+| Noisy coordinates compose as `S_loss=2[eta_A eta_B sqrt(p^2+V^2)+(1-eta_A)(1-eta_B)]` | K1018 composition and exact `10/(5+sqrt(29))` frozen threshold; producer `12/12`; hostile mutations `12/12` | exact conditional composition; no state or detector constructed |
+| Simultaneous noisy-lossy calibration boxes propagate by four efficiency corners | K1019 exact bilinear extrema and certify/exclude controls; producer `13/13`; hostile mutations `15/15` | exact supplied-confidence-event propagation; no joint coverage or systematics constructed |
+| At `p=1,V=2/5,eta=49/50,alpha=1/20`, the all-trials forecast needs 19,810 trials | K1020 Hoeffding--Azuma threshold and minimal-integer check; producer `13/13`; hostile mutations `14/14` | empirical all-trials inference avoids fair sampling; sample forecast assumes independent loss |
+
+The event-ready herald, settings, spacelike separation, detector response,
+state/effect pairing and systematic model remain imported and unscored.
+
 ## K1011--K1015 loophole-aware Bell certification boundary (2026-10-04)
 
 | Claim | Evidence | Honest grade |

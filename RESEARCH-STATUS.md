@@ -8,6 +8,31 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-04 — K1016--K1020 all-trials detector-efficiency boundary
+
+K1016 repairs K1015's postselection failure inside an explicit imported model:
+every no-click is assigned `+1` and every event-ready trial is retained. For
+the maximally entangled CHSH optimum with zero marginals and independent equal
+efficiency, `S=2sqrt(2)eta^2+2(1-eta)^2`, so violation is exact iff
+`eta>2/(1+sqrt(2))`. K1017 derives the unequal-efficiency region
+`sqrt(2)eta_A eta_B+(1-eta_A)(1-eta_B)>1`.
+
+K1018 composes the detector model with K1011's noisy observable coordinates:
+`S_loss=2[eta_A eta_B sqrt(p^2+V^2)+(1-eta_A)(1-eta_B)]`. At the frozen
+`p=1,V=2/5` point, equal efficiency must exceed
+`10/(5+sqrt(29))=0.962912...`. K1019 propagates simultaneous calibration
+rectangles by exact efficiency-corner extrema because the loss expression is
+bilinear, not globally monotone, in `eta_A,eta_B`.
+
+K1020 retains every heralded trial and applies the memory-robust CHSH-game
+certificate. Under the imported independent-loss forecast at
+`eta=49/50,alpha=1/20`, the smallest sufficient budget is 19,810 trials. The
+empirical all-trials inference needs no fair-sampling assumption; its predicted
+budget does. No GU action, quotient, detector, source claim, ledger row,
+empirical score, prediction, confirmation, canon or public verdict changes.
+Five producers pass 64 declared controls; five hostile probes reject 67/67
+mutations.
+
 ## 2026-10-04 — K1011--K1015 loophole-aware Bell certification boundary
 
 K1011 rewrites the imported noisy-Bell phase diagram in the calibrated
