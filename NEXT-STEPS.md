@@ -7,6 +7,17 @@ updated_at: "2026-10-04"
 
 # Next Steps For Contributors
 
+> **2026-10-04 K1031--K1035 POSITIVE QUOTIENT AND ACTION REQUIREMENTS.** For a
+> finite carrier with `M>=0`, the physical pairing descends positively through
+> exactly `ker(M)`; operators must preserve that radical, effects obey
+> `0<=M A<=M`, and a closed generator obeys `K* M+M K=0`. A nondegenerate
+> mixed-sign form is not itself a Born pairing. Complete local POVMs on a
+> supplied positive quotient give normalized probabilities and remote-marginal
+> invariance. All eight quotient/state/action/apparatus ownership rows remain
+> open. Next construct a GU-action-owned stationary gauge/BV quotient with
+> positive pairing and invariant generator/effects, then compose it with the
+> physical preparation, settings, records, detector and held-out protocol.
+
 > **2026-10-04 K1026--K1030 CAUSAL-RECORD AND SPACELIKE-LOCALITY BOUNDARY.**
 > Event boxes are robustly spacelike when
 > `L_nom-r_A-r_B>c(|Delta t_nom|+tau_A+tau_B)`. Bell locality requires this

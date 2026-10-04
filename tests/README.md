@@ -4,6 +4,22 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1031--K1035 positive quotient and action requirements
+
+- `channel-swings/k1031_k1030_positive_quotient_descent.py` certifies positive
+  quotient, observable and effect descent; its probe rejects eleven mutations.
+- `channel-swings/k1032_k1031_indefinite_born_obstruction.py` certifies the
+  full-carrier mixed-sign obstruction; its probe rejects twelve mutations.
+- `channel-swings/k1033_k1032_quotient_local_nosignalling.py` certifies the
+  local-effect probability and remote-marginal identities; its probe rejects
+  thirteen mutations.
+- `channel-swings/k1034_k1033_action_generator_compatibility.py` certifies the
+  closed-generator compatibility conditions; its probe rejects twelve mutations.
+- `channel-swings/k1035_k1034_quantum_apparatus_ownership_matrix.py` certifies
+  the eight-row ownership matrix; its probe rejects thirteen mutations.
+- Five producers pass 60 declared controls; five probes reject 61/61 hostile
+  mutations. No protected GU conclusion moves.
+
 ## K1026--K1030 causal-record and spacelike-locality boundary
 
 - `channel-swings/k1026_k1025_spacelike_interval_uncertainty_certificate.py`

@@ -1,0 +1,46 @@
+{
+  "claim_ceiling": "necessary positivity obstruction; not a no-go for a separately selected positive invariant subquotient",
+  "created": "2026-10-04",
+  "exact_control": {
+    "J": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        -1
+      ]
+    ],
+    "full_space_radical_dimension": 0,
+    "negative_norm": -1,
+    "negative_vector": [
+      0,
+      1
+    ],
+    "positive_norm": 1,
+    "positive_vector": [
+      1,
+      0
+    ]
+  },
+  "inertia_is_congruence_invariant": true,
+  "ownership": {
+    "positive_sector_selected": false,
+    "probability_rule_derived": false
+  },
+  "repair_boundary": [
+    "select an invariant positive subspace",
+    "or supply a positive semidefinite form whose exact radical is quotiented",
+    "prove the action/generator and every physical effect preserve the selected structure"
+  ],
+  "result_id": "K1032-K1031-INDEFINITE-BORN-OBSTRUCTION",
+  "schema_version": "1.0",
+  "source_scope": {
+    "SC-ACT-01": "ASSERTS -- classical first-order action; does not by itself select a Born pairing",
+    "SC-META-53": "UNCERTAIN -- source says the unbounded-spectrum problem is not known and proposes maximal-compact shielding"
+  },
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": "a nondegenerate Hermitian form of inertia (p,q) with p,q>0 cannot be a positive probability pairing on its full carrier"
+}

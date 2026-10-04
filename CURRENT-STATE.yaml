@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 1285a3e048bf
+revision_basis: 948d1916f447
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1031--K1035 convert the open positive-state/action packet into exact
+    candidate-action requirements. For `M>=0`, quotienting exactly `ker(M)`
+    gives a positive Hilbert pairing; an operator descends iff it preserves
+    the radical, is self-adjoint iff `A* M=M A`, and is an effect when
+    `0<=M A<=M`. A nondegenerate mixed-sign form cannot itself be a full-space
+    Born pairing, so an invariant positive sector or semidefinite quotient is
+    extra selected structure. On the supplied positive quotient, complete
+    local POVMs give normalized probabilities and nonselective remote-marginal
+    invariance. A closed action-derived generator must preserve the radical
+    and satisfy `K* M+M K=0`; dissipative evolution still needs separately
+    owned open-system resources. The composed eight-row apparatus matrix
+    remains entirely unowned by GU. SC-ACT-01/02/06 preserve `ASSERTS`,
+    SC-META-53 preserves `UNCERTAIN`, and no source, ledger, empirical,
+    prediction, confirmation, canon or public verdict moves.
+
     K1026--K1030 make K1025's spacelike-locality and causal-record assumptions
     exact. Event-coordinate uncertainty boxes are robustly spacelike when
     `L_nom-r_A-r_B>c(|Delta t_nom|+tau_A+tau_B)`. Bell locality requires that
@@ -13228,6 +13243,16 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1031--K1035 prove the exact positive-quotient, observable, local-probability
+  and closed-generator compatibility conditions demanded by K1030. A
+  mixed-sign full carrier is not a Born space, while an invariant positive
+  sector or semidefinite quotient is additional selected data. The eight-row
+  quotient/state/action/preparation/settings/locality/record/detector packet
+  remains unowned. Which GU-native action, stationary background and gauge/BV
+  reduction selects a positive physical quotient, preserves it dynamically,
+  supplies local effects and composes with the measured apparatus before a
+  distinct held-out consequence is scored?
+
   K1026--K1030 derive the robust event-box spacelike condition, require both
   setting-to-remote-outcome directions, prove the sharp `b+q(1-b)` locality-
   compromise ceiling and compose it with setting variation, record corruption
@@ -14776,6 +14801,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K1031--K1035 close the abstract finite-dimensional action requirements for
+  the admitted quantum anchors. Preserve the exact radical-descent,
+  mixed-sign obstruction, local-POVM no-signalling and generator-compatibility
+  theorems. Do not treat a classical action, an indefinite form, algebraic
+  commutation or imported Hilbert structure as a GU physical state space.
+  Reopen for GU credit only with a source/action-owned stationary background,
+  gauge/BV quotient, positive pairing, invariant domain and generator,
+  preparation and local effects, then the physical herald, fresh settings,
+  measured two-way records, detector response, complete audited systematics
+  and a distinct held-out consequence frozen before scoring.
+
   K1026--K1030 close the mathematical ambiguity in K1025's spacelike-locality
   and causal-record assumptions. Preserve the sharp event-box margin, the
   two-way setting-to-remote-outcome schedule, the `b+q(1-b)` compromise

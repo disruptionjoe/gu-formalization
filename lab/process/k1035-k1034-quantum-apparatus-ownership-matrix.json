@@ -1,0 +1,71 @@
+{
+  "created": "2026-10-04",
+  "current_result": "all eight action/apparatus rows remain unowned by GU; imported conditional mathematics is reusable but earns no prediction or confirmation credit",
+  "ledger_effect": "none -- v0.263 rows and distances remain unchanged",
+  "requirements": [
+    {
+      "acceptance": "positive M with exact gauge radical and owned quotient",
+      "evidence": "K1031",
+      "gu_owned": false,
+      "id": "physical_quotient"
+    },
+    {
+      "acceptance": "normalized positive states and complete local effects",
+      "evidence": "K1031-K1033",
+      "gu_owned": false,
+      "id": "state_effect_pairing"
+    },
+    {
+      "acceptance": "radical-preserving M-skew closed flow or fully owned CPTP open flow",
+      "evidence": "K1034",
+      "gu_owned": false,
+      "id": "action_generator"
+    },
+    {
+      "acceptance": "pre-settings physical preparation and herald",
+      "evidence": "K1023",
+      "gu_owned": false,
+      "id": "preparation_herald"
+    },
+    {
+      "acceptance": "device-conditional setting freshness or audited deviation bound",
+      "evidence": "K1021-K1022",
+      "gu_owned": false,
+      "id": "fresh_settings"
+    },
+    {
+      "acceptance": "commuting/tensor-local quotient effect algebras",
+      "evidence": "K1033",
+      "gu_owned": false,
+      "id": "local_observables"
+    },
+    {
+      "acceptance": "measured two-way spacelike records with predictable compromise audit",
+      "evidence": "K1026-K1029",
+      "gu_owned": false,
+      "id": "causal_event_record"
+    },
+    {
+      "acceptance": "detector response and complete statistical/systematic budget",
+      "evidence": "K1016-K1030",
+      "gu_owned": false,
+      "id": "detector_systematics"
+    }
+  ],
+  "result_id": "K1035-K1034-QUANTUM-APPARATUS-OWNERSHIP-MATRIX",
+  "reverse_lineage": [
+    "EXT-QM-MASSIVE-MATTER-INTERFERENCE",
+    "EXT-QM-SPACELIKE-BELL-NOSIGNAL"
+  ],
+  "schema_version": "1.0",
+  "score_status": "forbidden_until_every_required_row_is_owned_and_a_distinct_holdout_is_frozen",
+  "source_scope": {
+    "SC-ACT-01": "ASSERTS classical first-order action",
+    "SC-ACT-02": "ASSERTS stated first-order field equation",
+    "SC-ACT-06": "ASSERTS rich moduli/Euclidean ellipticity at source scope; complete proof remains open",
+    "SC-META-53": "UNCERTAIN on the indefinite-form/unbounded-spectrum physical resolution"
+  },
+  "stage": "candidate_action_requirements",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

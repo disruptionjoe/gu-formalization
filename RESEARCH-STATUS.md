@@ -8,6 +8,32 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-04 — K1031--K1035 positive quotient and action requirements
+
+K1031 proves the finite-dimensional descent theorem. For a positive
+semidefinite Hermitian form `M`, quotienting by `N=ker(M)` gives a positive
+definite pairing. An operator descends iff it preserves `N`, is self-adjoint
+when `A* M=M A`, and is an effect when `0<=M A<=M`. Its bad control maps a
+null representative into a non-null class and fails descent.
+
+K1032 proves that a nondegenerate mixed-sign form cannot itself be a positive
+Born pairing on the full carrier. It preserves the admissible repairs: select
+an invariant positive subspace, or a positive semidefinite form and quotient
+its exact radical. K1033 then proves positivity, normalization and
+nonselective remote-marginal invariance for complete local POVMs on the
+supplied positive quotient.
+
+K1034 derives the closed-flow compatibility conditions
+`K(ker M) subset ker M` and `K* M+M K=0`. They make the flow descend and
+preserve the quotient pairing, but do not supply a dissipative CPTP resource.
+K1035 composes these results with K1016--K1030 into eight action/apparatus
+ownership rows; all remain unowned by GU.
+
+SC-ACT-01, SC-ACT-02 and SC-ACT-06 retain `ASSERTS`; SC-META-53 retains
+`UNCERTAIN`. No source claim, ledger row, empirical score, prediction,
+confirmation, canon or public verdict changes. Five producers pass 60 declared
+controls; five hostile probes reject 61/61 mutations.
+
 ## 2026-10-04 — K1026--K1030 causal-record and spacelike-locality boundary
 
 K1026 proves the sharp robust uncertainty-set condition

@@ -1,0 +1,49 @@
+{
+  "claim_ceiling": "exact finite-dimensional quotient-local probability theorem; no GU state, effect algebra or locality theorem constructed",
+  "created": "2026-10-04",
+  "exact_bell_control": {
+    "alice_marginal": [
+      "1/2",
+      "1/2"
+    ],
+    "bob_marginal": [
+      "1/2",
+      "1/2"
+    ],
+    "joint": [
+      [
+        "1/2",
+        "0"
+      ],
+      [
+        "0",
+        "1/2"
+      ]
+    ],
+    "total": "1"
+  },
+  "failure_controls": [
+    "nonpositive state/effect can make a recorded weight negative",
+    "setting-dependent or nonlocal effects do not yield the stated marginal identity",
+    "algebraic commutation alone does not supply a state, preparation or spacelike event record"
+  ],
+  "ownership": {
+    "gu_local_effects_selected": false,
+    "gu_locality_derived": false,
+    "gu_state_selected": false
+  },
+  "result_id": "K1033-K1032-QUOTIENT-LOCAL-NOSIGNALLING",
+  "schema_version": "1.0",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "conclusions": [
+      "p>=0",
+      "sum_ab p=1",
+      "sum_a p(a,b|x,y)=Tr[rho(I tensor F_b^y)] independent of x"
+    ],
+    "joint_rule": "p(a,b|x,y)=Tr[rho(E_a^x tensor F_b^y)]",
+    "local_effects": "E_a^x>=0, sum_a E_a^x=I and F_b^y>=0, sum_b F_b^y=I",
+    "state": "rho>=0 and Tr(rho)=1 on the positive physical quotient"
+  }
+}

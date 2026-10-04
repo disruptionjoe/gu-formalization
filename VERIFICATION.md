@@ -7,6 +7,20 @@ updated_at: "2026-10-04"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1031--K1035 positive quotient and action requirements (2026-10-04)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| `M>=0` descends to a positive pairing on `V/ker(M)`; `A` descends iff it preserves the radical | K1031 quotient theorem and firing representative-shift control; producer `11/11`; hostile mutations `11/11` | exact finite-dimensional theorem; no GU quotient selected |
+| A nondegenerate mixed-sign form cannot be a Born pairing on its full carrier | K1032 inertia theorem and `diag(1,-1)` control; producer `12/12`; hostile mutations `12/12` | exact necessary obstruction; positive invariant subquotient repairs remain open |
+| Complete local effects on a positive quotient give normalized probabilities and remote-marginal invariance | K1033 trace identity and Bell-state control; producer `13/13`; hostile mutations `13/13` | exact conditional theorem; no GU state, effects or spacelike locality |
+| A closed generator descends and preserves the pairing under radical invariance and `K* M+M K=0` | K1034 exact good/bad generator controls; producer `12/12`; hostile mutations `12/12` | exact finite-dimensional compatibility theorem; no dissipative resource derived |
+| The two quantum anchors have a complete eight-row action/apparatus requirement matrix | K1035 composition of K1016--K1034; producer `12/12`; hostile mutations `13/13` | exact ownership audit; all eight GU rows remain open and unscored |
+
+SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`, and no
+source, ledger, empirical, prediction, confirmation, canon or public status
+moves.
+
 ## K1026--K1030 causal-record and spacelike-locality boundary (2026-10-04)
 
 | Claim | Evidence | Honest grade |

@@ -1,0 +1,86 @@
+{
+  "claim_ceiling": "exact finite-dimensional descent criterion; no GU physical quotient or Born pairing constructed",
+  "created": "2026-10-04",
+  "exact_control": {
+    "M": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "bad_operator": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "bad_representative_shift": "A e3=e1, so [A(x+e3)] differs from [Ax]",
+    "good_effect": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        "1/2",
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "kernel_basis": [
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "quotient_effect_eigenvalues": [
+      1,
+      "1/2"
+    ]
+  },
+  "ownership": {
+    "gu_effect_selected": false,
+    "gu_quotient_selected": false
+  },
+  "result_id": "K1031-K1030-POSITIVE-QUOTIENT-DESCENT",
+  "schema_version": "1.0",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "carrier": "finite-dimensional complex V with Hermitian M>=0",
+    "effect_condition": "0<=M A<=M as Hermitian forms",
+    "gauge_radical": "N=ker(M)",
+    "operator_descent_iff": "A(N) subset N",
+    "positive_definite_iff": "N=ker(M) is exactly the quotient relation",
+    "quotient_pairing": "<[x],[y]>=x^* M y on V/N",
+    "self_adjointness": "A^* M=M A"
+  }
+}
