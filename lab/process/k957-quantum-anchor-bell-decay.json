@@ -1,6 +1,6 @@
 {
   "bell_decay": {
-    "chsh_formula": "S(lambda)=sqrt(2)(1+lambda)",
+    "chsh_formula": "S_fixed(lambda)=sqrt(2)(1+lambda)",
     "chsh_square": "2(1+lambda)^2",
     "correlations": {
       "XX": "lambda",
@@ -9,10 +9,12 @@
       "ZZ": "1"
     },
     "joint_state_changes_when_lambda_below_one": true,
+    "post_damping_optimum": false,
     "remote_marginal": "I_2/2 for every lambda",
-    "violation_iff": "lambda>sqrt(2)-1"
+    "settings_scope": "frozen at the Bell endpoint lambda=1",
+    "violation_iff_for_fixed_settings": "lambda>sqrt(2)-1"
   },
-  "claim_ceiling": "Exact decay of one imported finite Bell witness under the K956 conditional local semigroup. It is not a Bell prediction, spacelike local-net theorem, GU state construction or confirmation result.",
+  "claim_ceiling": "Exact decay of one imported finite Bell witness with Bell-endpoint settings held fixed under the K956 conditional local semigroup. K1001 corrects the distinct optimized value. This is not a Bell prediction, spacelike local-net theorem, GU state construction or confirmation result.",
   "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
   "created": "2026-10-03",
   "decision": {
@@ -70,7 +72,7 @@
   },
   "result_id": "K957-QUANTUM-ANCHOR-BELL-DECAY",
   "schema_version": "1.0",
-  "scope": "The fixed Phi+ Bell state and standard optimal CHSH settings after K956 phase damping on Alice only.",
+  "scope": "The fixed Phi+ Bell state and the Bell-endpoint CHSH settings frozen at their lambda=1 values after K956 phase damping on Alice only. K1001 supplies the distinct post-damping optimum.",
   "source_and_ledger_effect": "none",
   "status": "working_draft_verified",
   "target_claim": "NONE-NOT-A-KILL"

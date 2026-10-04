@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 00b74c526404
+revision_basis: bffe2310176a
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,19 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1001--K1005 correct the Bell-witness scope inside the imported K956
+    dephasing model. K957's `sqrt(2)(1+lambda)` remains exact only for the
+    Bell-endpoint settings frozen at `lambda=1`; the post-damping optimum is
+    `S_max=2 sqrt(1+lambda^2)`. Hence every `lambda>0` violates ideally, and
+    exponential damping has no finite optimized-Bell death time; K959's finite
+    threshold is the frozen-witness crossing. At `lambda=V=2/5`, the fixed
+    witness has square `98/25<4` while the optimized witness has square
+    `116/25>4`. The corrected cross-anchor law is
+    `S_max^2/4-1=V^2`, and resolving CHSH margin `delta` requires
+    `V>=sqrt(delta+delta^2/4)`. The holdout is frozen but unscored. No GU
+    action, quotient, state/effect pairing, setting protocol, source, ledger,
+    prediction, confirmation, canon or public verdict moves.
+
     K996--K1000 sharpen K995's unbounded-harmonic completion into a circle-
     versus-lift boundary. All integer Fourier coefficients determine a fixed-
     time probability law on the circle, and all-time convolution-semigroup
@@ -154,11 +167,13 @@ current_result:
     constructs the one-parameter CPTP semigroup `Phi_lambda`, proves
     `Phi_lambda o Phi_mu = Phi_{lambda mu}`, and proves that its local
     nonselective action leaves the remote Bell marginal maximally mixed.
-    K957 derives `S(lambda)=sqrt(2)(1+lambda)` and the exact CHSH threshold
-    `lambda>sqrt(2)-1`. K958 derives two-path visibility `V(lambda)=lambda`.
-    K959 therefore obtains the carrier-neutral cross-anchor relation
-    `S/sqrt(2)-1=V`, with exponential Bell survival time
-    `t<log(1+sqrt(2))/(2 gamma)`. K960 freezes the resulting causal/dynamical
+    K957 derives the fixed-setting witness
+    `S_fixed(lambda)=sqrt(2)(1+lambda)` and its threshold
+    `lambda>sqrt(2)-1`; K1001 later distinguishes this from the optimized
+    value. K958 derives two-path visibility `V(lambda)=lambda`. K959 therefore
+    obtains the fixed-witness relation `S_fixed/sqrt(2)-1=V`, with frozen-
+    setting crossing time `t<log(1+sqrt(2))/(2 gamma)`. K960 freezes the
+    resulting causal/dynamical
     demand and its ownership boundary. Hilbert space, tensor composition,
     Born pairing, preparations, detector meaning, clock, rate, and the common
     law are imported; no GU action, physical quotient, state/effect pairing,
@@ -13134,6 +13149,17 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1001--K1005 prove that the K957/K959 finite threshold is specific to
+  Bell-endpoint settings frozen at `lambda=1`. The optimized damped-state value is
+  `S_max=2 sqrt(1+lambda^2)`, so every nonzero ideal visibility violates and
+  exponential damping crosses the optimized boundary only asymptotically.
+  Operationally, resolving margin `delta` requires
+  `V>=sqrt(delta+delta^2/4)`, and adaptation itself needs an owned setting
+  protocol. Can a GU-owned physical quotient, positive state/effect pairing,
+  local observable algebra and action-derived generator now own the
+  preparation, fixed-or-adaptive settings, common domain, locality and finite
+  error budget before either Bell relation is scored?
+
   K996--K1000 prove that complete integer harmonics recover the circular phase
   law but not an unwrapped real microscopic lift. All-time harmonics recover
   the circular independent-increment process; one-time harmonics do not select
@@ -14706,8 +14732,8 @@ next_condition: >-
   state and effect/Born pairing, an action-derived local CPTP or appropriately
   generalized positive generator, and a remote-marginal theorem; freeze a
   distinct held-out consequence before assigning prediction credit. Do not
-  treat a fitted dephasing rate or the imported relation
-  `S/sqrt(2)-1=V=lambda` as a GU derivation.
+  treat a fitted dephasing rate or the imported fixed-witness relation
+  `S_fixed/sqrt(2)-1=V=lambda` as a GU derivation.
 
   K951--K955 exhaust the finite local scalar-selector parent. Do not reopen it
   with a smooth or analytic scalar whose real zero set is a point: unless its

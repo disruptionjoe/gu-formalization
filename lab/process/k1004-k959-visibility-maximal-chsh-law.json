@@ -1,0 +1,37 @@
+{
+  "claim_ceiling": "Exact fixed and optimized CHSH relations to K958 visibility inside one imported state law; no cross-experiment equality, GU-native interface or empirical score.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "controls": {
+    "delta_one_tenth": "1/10",
+    "nonlinear_not_linear_optimum": true,
+    "same_remote_marginal": "I_2/2",
+    "small_visibility_gap": "S_max-2=V^2+O(V^4)"
+  },
+  "created": "2026-10-04",
+  "finite_resolution": {
+    "delta_one_tenth_squared_requirement": "41/400",
+    "requested_chsh_margin": "delta>0",
+    "strict_violation_only": "V>0",
+    "visibility_requirement": "V>=sqrt(delta+delta^2/4)"
+  },
+  "holdout": {
+    "S_fixed_squared": "98/25",
+    "S_max_squared": "116/25",
+    "V": "2/5",
+    "fixed_fails_while_optimized_passes": true
+  },
+  "ownership": {
+    "gu_effect": "none",
+    "shared_semigroup_state_born_and_resolution_imported": true
+  },
+  "result_id": "K1004-K959-VISIBILITY-MAXIMAL-CHSH-LAW",
+  "schema_version": "1.0",
+  "shared_imported_law": {
+    "fixed_relation": "S_fixed/sqrt(2)-1=V",
+    "optimized_formula": "S_max=2 sqrt(1+V^2)",
+    "optimized_relation": "S_max^2/4-1=V^2",
+    "visibility": "V=lambda"
+  },
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

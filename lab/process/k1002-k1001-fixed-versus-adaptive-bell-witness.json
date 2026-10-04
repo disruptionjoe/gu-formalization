@@ -1,0 +1,35 @@
+{
+  "claim_ceiling": "Exact witness-choice separation on the imported K956 state family; no experimental optimization protocol or GU-native measurement owner.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "controls": {
+    "adaptive_above_two": true,
+    "fixed_below_two": true,
+    "same_remote_marginal": "I_2/2",
+    "same_state_parameter": true
+  },
+  "created": "2026-10-04",
+  "ownership": {
+    "adaptive_setting_protocol_imported": true,
+    "gu_effect": "none"
+  },
+  "result_id": "K1002-K1001-FIXED-VERSUS-ADAPTIVE-BELL-WITNESS",
+  "schema_version": "1.0",
+  "separator": {
+    "S_fixed_squared": "98/25",
+    "S_max_squared": "116/25",
+    "adaptive_settings": "B0=(Z+(2/5)X)/sqrt(29/25), B1=(Z-(2/5)X)/sqrt(29/25)",
+    "adaptive_violates": true,
+    "fixed_settings": "B0=(Z+X)/sqrt(2), B1=(Z-X)/sqrt(2)",
+    "fixed_violates": false,
+    "lambda": "2/5",
+    "visibility": "2/5"
+  },
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "adaptive_violation_iff": "lambda>0",
+    "fixed_violation_iff": "lambda>sqrt(2)-1",
+    "fixed_witness_death_is_not_state_locality_death": true,
+    "optimization_changes_measurement_settings_not_the_state": true
+  }
+}

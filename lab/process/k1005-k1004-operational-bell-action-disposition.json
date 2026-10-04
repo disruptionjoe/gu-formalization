@@ -1,0 +1,45 @@
+{
+  "claim_ceiling": "Corrected operational demand surface for the imported quantum calibration model only.",
+  "classification": "INTERNAL_REQUIREMENT_DISPOSITION",
+  "corrected": {
+    "asymptotic_resolution_cost": true,
+    "finite_optimized_death_time": false,
+    "fixed_threshold_is_not_optimized_bell_death": true,
+    "optimized_formula": "S_max=2 sqrt(1+V^2)"
+  },
+  "created": "2026-10-04",
+  "effects": {
+    "canon": "none",
+    "confirmation": "none",
+    "physics_ledger": "none",
+    "prediction": "none",
+    "public_verdict": "none",
+    "source_claim": "none"
+  },
+  "holdout": {
+    "fixed_witness": "no violation",
+    "optimized_witness": "violation",
+    "status": "frozen_unscored",
+    "visibility": "2/5"
+  },
+  "native_requirements": [
+    "physical quotient",
+    "positive state/effect pairing",
+    "commuting local observable algebras",
+    "action-derived local generator",
+    "preparation and detector ownership",
+    "fixed-or-adaptive setting protocol",
+    "common domain and locality",
+    "finite statistical and systematic error budget"
+  ],
+  "preserved": {
+    "fixed_witness_formula": true,
+    "fixed_witness_threshold": true,
+    "remote_marginal_theorem": true,
+    "visibility_law": true
+  },
+  "result_id": "K1005-K1004-OPERATIONAL-BELL-ACTION-DISPOSITION",
+  "schema_version": "1.0",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

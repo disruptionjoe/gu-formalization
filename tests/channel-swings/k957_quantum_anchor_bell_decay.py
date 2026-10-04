@@ -17,12 +17,14 @@ def build():
       "schema_version":"1.0","result_id":"K957-QUANTUM-ANCHOR-BELL-DECAY","created":"2026-10-03",
       "status":"working_draft_verified","direction":"observed_to_native","target_claim":"NONE-NOT-A-KILL",
       "classification":"INTERNAL_CONDITIONAL_MATHEMATICS",
-      "scope":"The fixed Phi+ Bell state and standard optimal CHSH settings after K956 phase damping on Alice only.",
+      "scope":"The fixed Phi+ Bell state and the Bell-endpoint CHSH settings frozen at their lambda=1 values after K956 phase damping on Alice only. K1001 supplies the distinct post-damping optimum.",
       "bell_decay":{
         "correlations":{"ZZ":"1","XX":"lambda","ZX":"0","XZ":"0"},
-        "chsh_formula":"S(lambda)=sqrt(2)(1+lambda)",
+        "chsh_formula":"S_fixed(lambda)=sqrt(2)(1+lambda)",
         "chsh_square":"2(1+lambda)^2",
-        "violation_iff":"lambda>sqrt(2)-1",
+        "violation_iff_for_fixed_settings":"lambda>sqrt(2)-1",
+        "settings_scope":"frozen at the Bell endpoint lambda=1",
+        "post_damping_optimum":False,
         "remote_marginal":"I_2/2 for every lambda",
         "joint_state_changes_when_lambda_below_one":True,
       },
@@ -36,12 +38,13 @@ def build():
       "ownership":{"settings_state_tensor_born_imported":True,"spacelike_local_net_constructed":False,"gu_prediction":False},
       "decision":{"bell_decay_exact":True,"no_signalling_preserved":True,"next_exact_input":"Compare lambda with the two-path fringe visibility under the same conditional semigroup."},
       "source_and_ledger_effect":"none",
-      "claim_ceiling":"Exact decay of one imported finite Bell witness under the K956 conditional local semigroup. It is not a Bell prediction, spacelike local-net theorem, GU state construction or confirmation result."
+      "claim_ceiling":"Exact decay of one imported finite Bell witness with Bell-endpoint settings held fixed under the K956 conditional local semigroup. K1001 corrects the distinct optimized value. This is not a Bell prediction, spacelike local-net theorem, GU state construction or confirmation result."
     }
 
 def validate(p):
     b,c,o,d=p["bell_decay"],p["exact_controls"],p["ownership"],p["decision"]
-    assert b["chsh_formula"]=="S(lambda)=sqrt(2)(1+lambda)" and b["remote_marginal"]=="I_2/2 for every lambda"
+    assert b["chsh_formula"]=="S_fixed(lambda)=sqrt(2)(1+lambda)" and b["remote_marginal"]=="I_2/2 for every lambda"
+    assert b["violation_iff_for_fixed_settings"]=="lambda>sqrt(2)-1" and b["settings_scope"]=="frozen at the Bell endpoint lambda=1" and not b["post_damping_optimum"]
     assert c["bell_endpoint_S_squared"]=="8" and c["dephased_endpoint_S_squared"]=="2"
     assert c["two_fifths_does_not_violate"] and c["five_twelfths_violates"]
     assert d["bell_decay_exact"] and d["no_signalling_preserved"]

@@ -1,0 +1,87 @@
+{
+  "claim_ceiling": "Exact correction distinguishing K957's frozen Bell-endpoint witness from the optimized CHSH value of the same imported damped Bell state; no GU-native state, observable, action, prediction or confirmation result.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "correlation_tensor": "diag(lambda,-lambda,1)",
+  "created": "2026-10-04",
+  "exact_controls": {
+    "lambda_one_saturates_tsirelson": true,
+    "lambda_two_fifths_S_max_squared": "116/25",
+    "lambda_two_fifths_violates": true,
+    "lambda_zero_saturates_classical_boundary": true,
+    "rows": [
+      {
+        "S_max_squared": "4",
+        "correlation_squared_eigenvalues": [
+          "1",
+          "0",
+          "0"
+        ],
+        "lambda": "0",
+        "violates_CHSH": false
+      },
+      {
+        "S_max_squared": "116/25",
+        "correlation_squared_eigenvalues": [
+          "1",
+          "4/25",
+          "4/25"
+        ],
+        "lambda": "2/5",
+        "violates_CHSH": true
+      },
+      {
+        "S_max_squared": "5",
+        "correlation_squared_eigenvalues": [
+          "1",
+          "1/4",
+          "1/4"
+        ],
+        "lambda": "1/2",
+        "violates_CHSH": true
+      },
+      {
+        "S_max_squared": "8",
+        "correlation_squared_eigenvalues": [
+          "1",
+          "1",
+          "1"
+        ],
+        "lambda": "1",
+        "violates_CHSH": true
+      }
+    ]
+  },
+  "horodecki_spectrum": [
+    "1",
+    "lambda^2",
+    "lambda^2"
+  ],
+  "k957_scope_correction": {
+    "not_the_post_damping_optimum": true,
+    "old_threshold_applies_only_to_fixed_witness": true,
+    "preserved_formula": "S_fixed(lambda)=sqrt(2)(1+lambda)",
+    "preserved_settings": "Bell-endpoint settings frozen at lambda=1"
+  },
+  "optimized_chsh": {
+    "alice_settings": [
+      "Z",
+      "X"
+    ],
+    "bob_settings": [
+      "(Z+lambda X)/sqrt(1+lambda^2)",
+      "(Z-lambda X)/sqrt(1+lambda^2)"
+    ],
+    "formula": "S_max(lambda)=2 sqrt(1+lambda^2)",
+    "violation_iff": "lambda>0"
+  },
+  "ownership": {
+    "bell_state_tensor_born_and_setting_optimization_imported": true,
+    "gu_physical_quotient_or_action_constructed": false,
+    "prediction_or_confirmation": false
+  },
+  "result_id": "K1001-K957-OPTIMIZED-CHSH-CORRECTION",
+  "schema_version": "1.0",
+  "state": "rho_lambda=(I tensor I + lambda X tensor X - lambda Y tensor Y + Z tensor Z)/4",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

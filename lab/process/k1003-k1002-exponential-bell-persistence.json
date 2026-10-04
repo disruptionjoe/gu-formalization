@@ -1,0 +1,35 @@
+{
+  "claim_ceiling": "Exact optimized-versus-fixed CHSH consequence of the imported exponential K956 law; no GU-native generator, local net, setting protocol or prediction.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "controls": {
+    "asymptotic_gap": "S_max-2 ~ exp(-4 gamma t)",
+    "finite_t_S_max_strictly_above_two": true,
+    "finite_t_exponential_positive": true,
+    "t_zero_S_max_squared": "8"
+  },
+  "created": "2026-10-04",
+  "distinction": {
+    "fixed_setting_witness_death_time": "log(1+sqrt(2))/(2 gamma)",
+    "optimized_bell_death_time": "none at finite t",
+    "requires_gamma_positive": true
+  },
+  "fixed_witness": {
+    "S_fixed(t)": "sqrt(2)(1+exp(-2 gamma t))",
+    "finite_threshold_is_witness_specific": true,
+    "violation_interval": "t < log(1+sqrt(2))/(2 gamma)"
+  },
+  "law": {
+    "S_max(t)": "2 sqrt(1+exp(-4 gamma t))",
+    "finite_time_violation": true,
+    "lambda(t)": "exp(-2 gamma t)",
+    "limit_at_infinity": "2 from above"
+  },
+  "ownership": {
+    "exponential_law_and_adaptive_settings_imported": true,
+    "gu_effect": "none"
+  },
+  "result_id": "K1003-K1002-EXPONENTIAL-BELL-PERSISTENCE",
+  "schema_version": "1.0",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

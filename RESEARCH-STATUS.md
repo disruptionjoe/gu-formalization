@@ -8,6 +8,28 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-04 — K1001--K1005 optimized-Bell scope correction
+
+K1001 applies the correlation-tensor singular-value theorem to K956's damped
+Bell state. Its tensor is `diag(lambda,-lambda,1)`, so the optimized value is
+`S_max=2 sqrt(1+lambda^2)`. K957's `sqrt(2)(1+lambda)` remains exact for the
+settings optimal at `lambda=1` held fixed; it is not the damped-state optimum.
+
+K1002 freezes the exact separator `lambda=2/5`: the fixed witness has square
+`98/25<4`, while the optimized witness has square `116/25>4`. K1003 composes
+the exponential law. The optimized value stays strictly above two at every
+finite time and tends to two from above; K959's old finite time is the frozen-
+setting witness crossing.
+
+K1004 composes K958 visibility into `S_max^2/4-1=V^2` and derives the finite-
+resolution condition `V>=sqrt(delta+delta^2/4)` for CHSH margin `delta`.
+K1005 preserves the fixed-witness results while requiring an owned fixed-or-
+adaptive setting protocol and error budget before operational scoring.
+
+No GU action, physical quotient, source claim, ledger row, empirical score,
+prediction, confirmation, canon or public verdict changes. Five producers pass
+69 declared controls and five hostile probes reject 60/60 mutations.
+
 ## 2026-10-04 — K996--K1000 circle/lift identification boundary
 
 K996 proves that all integer Fourier coefficients determine a probability
@@ -229,11 +251,12 @@ positivity, trace preservation, unitality and semigroup composition, and proves
 that a local nonselective channel leaves the remote Bell marginal equal to
 `I/2`.
 
-K957 derives the Bell witness `S(lambda)=sqrt(2)(1+lambda)` and the exact CHSH
-threshold `lambda>sqrt(2)-1`. K958 derives the two-path law
+K957 derives the fixed-setting Bell witness
+`S_fixed(lambda)=sqrt(2)(1+lambda)` and its exact CHSH threshold
+`lambda>sqrt(2)-1`. K958 derives the two-path law
 `P_0(phi)=(1+lambda cos(phi))/2` and visibility `V(lambda)=lambda`. K959
-composes the carrier-neutral coherence relation `S/sqrt(2)-1=V`; for
-`lambda(t)=exp(-2 gamma t)`, Bell violation survives exactly while
+composes the carrier-neutral fixed-witness relation `S_fixed/sqrt(2)-1=V`; for
+`lambda(t)=exp(-2 gamma t)`, that frozen witness violates CHSH exactly while
 `t<log(1+sqrt(2))/(2 gamma)`.
 
 K960 records the resulting causal/dynamical demand. The construction imports

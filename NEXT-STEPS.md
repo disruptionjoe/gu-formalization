@@ -7,6 +7,18 @@ updated_at: "2026-10-04"
 
 # Next Steps For Contributors
 
+> **2026-10-04 K1001--K1005 OPTIMIZED-BELL SCOPE CORRECTION.** K957's
+> `sqrt(2)(1+lambda)` is the CHSH value for Bell-endpoint settings frozen at
+> `lambda=1`, not the post-damping optimum. The exact optimum is
+> `2 sqrt(1+lambda^2)`, so every `lambda>0` violates ideally and exponential
+> damping has no finite optimized-Bell death time. K959's finite threshold
+> remains correct for the frozen witness. With K958 visibility `V=lambda`, the
+> optimized relation is `S_max^2/4-1=V^2`; resolving margin `delta` requires
+> `V>=sqrt(delta+delta^2/4)`. A `V=2/5` fixed-versus-adaptive holdout is frozen
+> but unscored. Next require a GU-owned quotient, positive pairing, local
+> observable algebra, action-derived generator, preparation/detector owner,
+> fixed-or-adaptive setting protocol, domain, locality and finite error budget.
+
 > **2026-10-04 K996--K1000 CIRCLE/LIFT IDENTIFICATION BOUNDARY.** All integer
 > Fourier coefficients determine a supplied fixed-time circle law, and their
 > all-time convolution semigroup determines the circular independent-
@@ -111,9 +123,10 @@ updated_at: "2026-10-04"
 
 > **2026-10-03 K956--K960 QUANTUM-ANCHOR DYNAMICAL DEMAND.** K956 constructs
 > an exact conditional local-dephasing CPTP semigroup and proves remote Bell
-> marginal invariance. K957 derives `S(lambda)=sqrt(2)(1+lambda)` and the CHSH
-> threshold. K958 derives interference visibility `V(lambda)=lambda`. K959
-> composes `S/sqrt(2)-1=V` and its exponential survival interval. K960 freezes
+> marginal invariance. K957 derives the frozen-setting witness
+> `S_fixed(lambda)=sqrt(2)(1+lambda)` and its CHSH threshold. K958 derives
+> interference visibility `V(lambda)=lambda`. K959 composes
+> `S_fixed/sqrt(2)-1=V` and that witness's exponential survival interval. K960 freezes
 > the next native demand. Supply a GU-owned physical quotient, positive
 > state/effect and Born pairing, action-derived local generator, and
 > remote-marginal theorem; then freeze a distinct held-out consequence before

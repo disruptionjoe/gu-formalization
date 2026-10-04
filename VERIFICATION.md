@@ -7,6 +7,18 @@ updated_at: "2026-10-04"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1001--K1005 optimized-Bell scope correction (2026-10-04)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The K956 damped Bell state has optimized CHSH value `2 sqrt(1+lambda^2)` | K1001 correlation tensor, singular-value spectrum and explicit settings; producer `15/15`; hostile mutations `13/13` | exact finite-dimensional theorem inside the imported state/Born model |
+| K957's finite threshold belongs to its Bell-endpoint settings held fixed, not to optimized Bell locality | K1002 exact `lambda=2/5` separator; producer `13/13`; hostile mutations `12/12` | exact protocol distinction |
+| Exponential damping has no finite optimized-Bell death time | K1003 substitution and asymptotic law; producer `14/14`; hostile mutations `12/12` | exact consequence of the imported exponential law |
+| Visibility obeys `S_max^2/4-1=V^2`; margin `delta` needs `V>=sqrt(delta+delta^2/4)` | K1004 algebraic composition and rational control; producer `15/15`; hostile mutations `12/12` | exact conditional cross-anchor and resolution law |
+| GU owns the quotient, positive pairing, local algebra, generator, setting protocol or error budget | no native owner was constructed; K1005 producer `12/12`; hostile mutations `11/11` | open / explicitly excluded |
+
+K957 and K959 retain their fixed-setting arithmetic with corrected scope.
+
 ## K996--K1000 circle/lift identification boundary (2026-10-04)
 
 | Claim | Evidence | Honest grade |
@@ -95,8 +107,9 @@ one half of a Bell state, it leaves the other half's nonselective marginal
 unchanged. For the fixed CHSH and two-path calibration interfaces, exact
 symbolic evaluation gives
 
-`S(lambda)=sqrt(2)(1+lambda)`, `V(lambda)=lambda`, and hence
-`S/sqrt(2)-1=V`, with Bell violation iff `lambda>sqrt(2)-1`.
+`S_fixed(lambda)=sqrt(2)(1+lambda)`, `V(lambda)=lambda`, and hence
+`S_fixed/sqrt(2)-1=V`, with that frozen witness violating CHSH iff
+`lambda>sqrt(2)-1`.
 
 These are conditional quantum-model theorems, not a GU derivation. The state
 space, tensor product, Born pairing, preparations, records, clock, rate and

@@ -1472,7 +1472,7 @@
     },
     "research_agenda": {
       "path": "lab/process/RESEARCH-AGENDA.json",
-      "sha256": "faa3360f551c9c738d50b5fee9f919b8c53a7a6f96d0434902979733aa769e4b"
+      "sha256": "c33d016384fef349e223ae968d52fa9c80afb114bcee5fca12a17ce4b86af3d9"
     },
     "k684_closed_column_remainder_compiler": {
       "path": "lab/process/k684-k500-closed-column-remainder-compiler.json",
@@ -2619,10 +2619,11 @@
     "exact_reopener": "action-owned equation-9.16 map fixing internal projection, form-leg contraction, real/Krein coefficients, family covector, selected quadratic owner and nonzero background or interaction meaning"
   },
   "live_frontier": {
-    "current_question_contains": "K996--K1000 prove that complete integer harmonics recover the circular phase law but not an unwrapped real microscopic lift",
-    "selected_condition": "ALL_INTEGER_HARMONICS_IDENTIFY_CIRCLE_MARGINAL__ALL_TIME_SEMIGROUP_IDENTIFIES_CIRCULAR_PROCESS__ONE_TIME_DOES_NOT_SELECT_GENERATOR__INVISIBLE_2PI_JUMP_LIFTS_REMAIN__FINITE_BAND_NEEDS_REGULARITY_BUDGET__WINDING_RECORD_HOLDOUT_FROZEN_UNSCORED__NO_PROTECTED_CLAIM_MOVE",
+    "current_question_contains": "K1001--K1005 prove that the K957/K959 finite threshold is specific to Bell-endpoint settings frozen at `lambda=1`",
+    "selected_condition": "K957_FIXED_WITNESS_PRESERVED__POST_DAMPING_OPTIMUM_2SQRT1PLUSLAMBDA2__EVERY_NONZERO_IDEAL_VISIBILITY_VIOLATES__NO_FINITE_EXPONENTIAL_OPTIMIZED_BELL_DEATH__FINITE_MARGIN_NEEDS_VISIBILITY_ERROR_BUDGET__FIXED_VERSUS_ADAPTIVE_HOLDOUT_FROZEN_UNSCORED__NO_PROTECTED_CLAIM_MOVE",
     "b2_root": "EMPTY_NAMED_OWNER_SET",
     "reopeners": [
+      "supply a GU-owned physical quotient and positive state/effect pairing, commuting local observable algebras, an action-derived local generator, preparation and detector ownership, a declared fixed-or-adaptive Bell-setting protocol, common domain and locality theorem, and a finite statistical/systematic error budget before scoring the corrected Bell/visibility relation",
       "supply a GU-owned physical quotient and positive state/effect pairing, an action-owned charge generator and integer spectrum plus a selected circular generator or real lift on a common domain, the locality theorem, and either operational all-harmonic access with a declared finite-band regularity/error budget or a winding-sensitive native record before scoring",
       "supply a GU-owned physical quotient and positive state/effect pairing, an action-owned charge generator and spectrum plus characteristic exponent selecting an explicitly typed Brownian, jump, bounded-domain, unbounded/singular, reset/time-dependent, correlated-assignment or other horn, a common domain and clock/noise/limit/record accounting, the remote-marginal/locality theorem, and either the frozen native gap-one observable for the named pair or an owned record/unbounded-harmonic completion before scoring",
       "supply an action-owned seven-generator invariant lock, seven selected values and a complete functional boundary/Green/BV-BFV domain, or a separately justified genuinely nonlocal or noncommutative selector with its own reduced-observable and properness proof; otherwise retain charged boundary symmetry and switch reverse edge",

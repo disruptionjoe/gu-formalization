@@ -10,6 +10,23 @@
 # This registry is the propagation ledger, not the correction text. The prose banners in the owning
 # files remain the human-facing record.
 corrections:
+  - id: K957-K959-OPTIMIZED-CHSH-SCOPE-20261004
+    owner: explorations/conditional-build/k1001-k957-optimized-chsh-correction-2026-10-04.md
+    meaning: >-
+      K957's S=sqrt(2)(1+lambda) and K959's finite exponential threshold
+      use the Bell-endpoint settings frozen at lambda=1. They are exact fixed-
+      witness results, not the post-damping CHSH optimum. The optimized value
+      is 2 sqrt(1+lambda^2), so every lambda>0 violates ideally and exponential
+      damping has no finite optimized-Bell death time. K1004 gives the corrected
+      visibility law and finite-resolution budget. No GU-native credit follows.
+    canonical_since: "2026-10-04"
+    topic_signature:
+      - K957
+      - K959
+      - CHSH threshold
+      - Bell survival time
+      - S/sqrt(2)-1=V
+    enforce: false
   - id: K457-DUAL-METRIC-20260925
     owner: explorations/conditional-build/k465-k152-residual-metric-type-correction-2026-09-25.md
     meaning: >-

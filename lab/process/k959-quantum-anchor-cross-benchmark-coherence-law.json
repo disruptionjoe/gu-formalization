@@ -1,13 +1,13 @@
 {
-  "claim_ceiling": "Exact relation inside one carrier-neutral conditional dephasing model. It neither asserts one empirical rate across distinct experiments nor derives Hilbert/Born/tensor/locality/dynamics from GU, and it earns no prediction or confirmation credit.",
+  "claim_ceiling": "Exact fixed-setting witness relation inside one carrier-neutral conditional dephasing model. K1004 supplies the distinct optimized nonlinear relation. It neither asserts one empirical rate across distinct experiments nor derives Hilbert/Born/tensor/locality/dynamics from GU, and it earns no prediction or confirmation credit.",
   "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
   "created": "2026-10-03",
   "cross_anchor_law": {
-    "bell_violation_iff": "V>sqrt(2)-1",
-    "exponential_threshold": "t < log(1+sqrt(2))/(2 gamma)",
-    "identity": "S/sqrt(2)-1=V=lambda",
+    "fixed_witness_exponential_threshold": "t < log(1+sqrt(2))/(2 gamma)",
+    "fixed_witness_violation_iff": "V>sqrt(2)-1",
+    "identity": "S_fixed/sqrt(2)-1=V=lambda",
     "shared_rate_is_not_empirically_asserted_across_distinct_environments": true,
-    "threshold_orientation": "Bell violation is lost after the threshold as visibility decays"
+    "threshold_orientation": "The frozen witness loses violation after the threshold; K1001 proves the optimized witness remains violating for every nonzero visibility."
   },
   "decision": {
     "cross_benchmark_information_gain": true,
@@ -63,7 +63,7 @@
   },
   "result_id": "K959-QUANTUM-ANCHOR-CROSS-BENCHMARK-COHERENCE-LAW",
   "schema_version": "1.0",
-  "scope": "The common normalized coherence eigenvalue of K957's Bell witness and K958's two-path readout when both are represented by one K956 candidate law.",
+  "scope": "The common normalized coherence eigenvalue of K957's fixed Bell-endpoint witness and K958's two-path readout when both are represented by one K956 candidate law. K1004 supplies the distinct optimized relation.",
   "source_and_ledger_effect": "none",
   "status": "working_draft_verified",
   "target_claim": "NONE-NOT-A-KILL"
