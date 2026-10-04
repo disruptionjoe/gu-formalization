@@ -8,6 +8,36 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-04 — K996--K1000 circle/lift identification boundary
+
+K996 proves that all integer Fourier coefficients determine a probability
+measure on the circle. Equality on every character gives equality on every
+trigonometric polynomial, and density then gives equality on every continuous
+test function. This is a fixed-time circular result; K993's arbitrary finite-
+harmonic nonidentifiability remains intact.
+
+K997 lifts the result to circular stationary independent-increment processes.
+All-time integer harmonics identify every increment law and therefore every
+finite-dimensional process law. A single terminal marginal is insufficient:
+at `T=2`, deterministic drifts `0` and `pi` have the same terminal circle law
+but differ at `t=1`.
+
+K998 proves the real-lift ceiling. For any real Levy phase `X_t`, the family
+`X_t+2 pi N_t` with independent Poisson counts of arbitrary rate has the same
+complete circular path and every integer harmonic. The real lifts have
+different unwrapped terminal laws, jump counts and quadratic variation; a
+noninteger frequency also separates them.
+
+K999 proves the finite-band Sobolev tail bound and freezes a distinct winding-
+record holdout at `T=2`, added-jump rate `0.4`. K1000 composes the circle-versus-
+lift boundary and retains the physical quotient, positive pairing, action,
+charge generator, domain, locality, finite-band budget and native record
+obligations.
+
+No GU action, physical quotient, source claim, ledger row, empirical score,
+prediction, confirmation, canon or public verdict changes. Five producers pass
+85 declared controls and five hostile probes reject 85/85 mutations.
+
 ## 2026-10-04 — K991--K995 charge-harmonic observability boundary
 
 K991 proves the general finite-charge theorem. If

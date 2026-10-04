@@ -1,0 +1,48 @@
+{
+  "claim_ceiling": "Conditional Fourier-tail bound and frozen winding-record holdout only; neither regularity nor record access is GU-derived or empirically scored.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "created": "2026-10-04",
+  "decision": {
+    "complete_integer_harmonics_still_do_not_resolve_winding_lift": true,
+    "finite_band_data_give_conditional_approximation_not_unrestricted_identification": true,
+    "next_exact_input": "Compose the circle-versus-lift boundary and require GU ownership before scoring either route."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "declared_bound_squared": 0.007939568204249615,
+    "positive_tail_present": true,
+    "sampled_hs_norm_squared": 10.869268871617724,
+    "sampled_tail_squared": 8.326205349456396e-10,
+    "tail_bound_pass": true,
+    "test_sequence": "wrapped heat-kernel Fourier coefficients exp(-0.3 n^2)"
+  },
+  "finite_band_theorem": {
+    "declared_regularity_budget_required": true,
+    "k993_ceiling_preserved": true,
+    "observed_band": 5,
+    "sobolev_order": 2,
+    "tail_rule": "sum_{|n|>N}|p_hat(n)|^2 <= ||p||_{H^s}^2/(1+(N+1)^2)^s",
+    "unrestricted_finite_band_identification": false
+  },
+  "frozen_holdout": {
+    "added_winding_jump_rate": 0.4,
+    "base_lift_event_probability": 0.0,
+    "calibration": "all integer harmonics and the complete circular process are identical",
+    "frozen_not_scored": true,
+    "jump_lift_event_probability": 0.5506710358827784,
+    "observable": "unwrapped count of added +2pi jumps by T",
+    "time_T": 2.0
+  },
+  "ownership": {
+    "gu_action_or_observable_constructed": false,
+    "prediction_or_confirmation_credit": false,
+    "sobolev_class_and_budget_imported": true,
+    "unwrapped_record_and_apparatus_imported": true
+  },
+  "result_id": "K999-OPERATIONAL-CIRCLE-LIFT-HOLDOUTS",
+  "schema_version": "1.0",
+  "scope": "Finite-band reconstruction of a supplied circular density with declared Sobolev regularity, plus a supplied winding-sensitive record for two circularly identical real lifts.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

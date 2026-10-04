@@ -4,6 +4,26 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K996--K1000 circle/lift identification boundary
+
+- `channel-swings/k996_k995_integer_harmonic_circle_reconstruction.py`
+  certifies fixed-time circle-measure uniqueness and the inverse-DFT control;
+  its probe rejects sixteen mutations.
+- `channel-swings/k997_k996_circular_process_identification.py` certifies the
+  all-time circular-process theorem and terminal drift alias; its probe rejects
+  fifteen mutations.
+- `channel-swings/k998_k997_invisible_winding_lift_nonidentifiability.py`
+  certifies the invisible `2 pi` jump-lift family; its probe rejects seventeen
+  mutations.
+- `channel-swings/k999_k998_operational_circle_lift_holdouts.py` certifies the
+  finite-band Sobolev tail and frozen winding holdout; its probe rejects
+  seventeen mutations.
+- `channel-swings/k1000_k999_circle_lift_action_disposition.py` composes the
+  circle-versus-lift and native ownership boundary; its probe rejects twenty
+  mutations.
+- Five producers pass 85 declared controls; five probes reject 85/85 hostile
+  mutations. No protected GU conclusion moves.
+
 ## K991--K995 charge-harmonic observability boundary
 
 - `channel-swings/k991_k990_charge_harmonic_channel_theorem.py` certifies the

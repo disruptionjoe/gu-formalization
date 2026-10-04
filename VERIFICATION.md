@@ -7,6 +7,16 @@ updated_at: "2026-10-04"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K996--K1000 circle/lift identification boundary (2026-10-04)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| All integer Fourier coefficients identify a supplied fixed-time circular phase law | K996 Fourier uniqueness argument and exact inverse-DFT control; producer `16/16`; hostile mutations `16/16` | exact measure-uniqueness theorem on the circle; no operational unbounded charge probe or GU quotient |
+| All-time integer harmonics identify a circular independent-increment process, while one terminal law does not select its generator | K997 increment-kernel composition and exact drift-winding alias; producer `15/15`; hostile mutations `15/15` | exact in the supplied compact-group process class; not a real-lift theorem |
+| Complete circular process data do not identify a real Levy lift | K998 independent `2 pi` compound-Poisson lift family; producer `17/17`; hostile mutations `17/17` | exact counterexample family; not an exhaustive classification of lifts |
+| Finite-band circular recovery has a Sobolev tail bound and a winding-sensitive lift holdout can be frozen | K999 Parseval tail inequality and `T=2`, rate `0.4` record event; producer `17/17`; hostile mutations `17/17` | conditional approximation plus frozen holdout; regularity, apparatus and record are imported and unscored |
+| The charge spectrum, circular generator, real lift, regularity budget or record is GU-selected | K1000 preserves every quotient/action/pairing/domain/locality/access ceiling; producer `20/20`; hostile mutations `20/20` | explicitly excluded |
+
 ## K991--K995 charge-harmonic observability boundary (2026-10-04)
 
 | Claim | Evidence | Honest grade |

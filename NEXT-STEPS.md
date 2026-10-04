@@ -7,6 +7,19 @@ updated_at: "2026-10-04"
 
 # Next Steps For Contributors
 
+> **2026-10-04 K996--K1000 CIRCLE/LIFT IDENTIFICATION BOUNDARY.** All integer
+> Fourier coefficients determine a supplied fixed-time circle law, and their
+> all-time convolution semigroup determines the circular independent-
+> increment process. One terminal law does not select a generator. Complete
+> circular data also do not identify a real lift: adding independent `2 pi`
+> Poisson winding jumps preserves every integer harmonic and integer-charge
+> channel. Finite-band recovery needs a declared Sobolev/error budget, while a
+> real-lift claim needs a winding-sensitive record or justified noninteger
+> probe. A `T=2`, rate `0.4` winding holdout is frozen but unscored. Next
+> require a GU-owned quotient and action to select the charge spectrum,
+> circular generator or lift, positive pairing, domain, locality and native
+> access before scoring.
+
 > **2026-10-04 K991--K995 CHARGE-HARMONIC BOUNDARY.** A random phase law
 > acting through `exp(-iX_tQ)` multiplies each charge matrix unit by the
 > characteristic function at its charge difference. The K956 qubit therefore

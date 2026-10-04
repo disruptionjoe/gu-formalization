@@ -1,0 +1,45 @@
+{
+  "claim_ceiling": "Exact nonidentifiability of real Levy lifts modulo invisible 2pi jumps; not an exhaustive classification of lifts or a GU dynamical result.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "construction": {
+    "added_process": "independent compound-Poisson jumps of size 2 pi",
+    "base_lift": "real Brownian phase with exponent -gamma u^2/2",
+    "infinitely_many_distinct_rates": true,
+    "lifted_exponent": "psi(u)+lambda(exp(-i 2 pi u)-1)",
+    "positive_rate": 0.4
+  },
+  "created": "2026-10-04",
+  "decision": {
+    "complete_circle_identification_does_not_identify_real_lift": true,
+    "k997_positive_result_preserved": true,
+    "next_exact_input": "State the finite-band regularity burden and freeze a winding-sensitive holdout before composing the native-owner boundary."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "added_jump_quadratic_variation_per_event": 39.47841760435743,
+    "half_harmonic_exponent_difference": 0.8,
+    "integer_exponent_max_error": 7.837739514543061e-16,
+    "integer_invisibility_pass": true,
+    "noninteger_probe_separates": true,
+    "terminal_no_added_jump_probability_T2": 0.44932896411722156
+  },
+  "ownership": {
+    "gu_action_or_native_record_constructed": false,
+    "prediction_or_confirmation_credit": false,
+    "real_lift_and_lattice_jump_process_imported": true,
+    "winding_record_imported": true
+  },
+  "result_id": "K998-INVISIBLE-WINDING-LIFT-NONIDENTIFIABILITY",
+  "schema_version": "1.0",
+  "scope": "Real-valued Levy lifts of one supplied circle-valued phase process under integer-charge observations.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "all_integer_charge_process_channels_identical": true,
+    "all_integer_harmonics_identical": true,
+    "circular_path_process_identical": true,
+    "real_lift_laws_distinct": true,
+    "unwrapped_record_or_noninteger_probe_required": true
+  }
+}

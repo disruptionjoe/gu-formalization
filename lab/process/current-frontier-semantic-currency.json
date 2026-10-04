@@ -1472,7 +1472,7 @@
     },
     "research_agenda": {
       "path": "lab/process/RESEARCH-AGENDA.json",
-      "sha256": "d473f63e4dc2cad7f7efde7564d628935d202c3897cdf6ed3570b71de9c61b83"
+      "sha256": "faa3360f551c9c738d50b5fee9f919b8c53a7a6f96d0434902979733aa769e4b"
     },
     "k684_closed_column_remainder_compiler": {
       "path": "lab/process/k684-k500-closed-column-remainder-compiler.json",
@@ -2619,10 +2619,11 @@
     "exact_reopener": "action-owned equation-9.16 map fixing internal projection, form-leg contraction, real/Krein coefficients, family covector, selected quadratic owner and nonzero background or interaction meaning"
   },
   "live_frontier": {
-    "current_question_contains": "K991--K995 prove that finite charge probes see a phase law only through their charge-difference harmonics",
-    "selected_condition": "FINITE_CHARGE_HARMONIC_THEOREM__QUBIT_GAP_TWO_ONLY__QUTRIT_GAP_ONE_SEPARATES_NAMED_HORNS__FINITE_HARMONIC_SET_DOES_NOT_IDENTIFY_GENERAL_PHASE_LAW__ACTION_CHARGE_AND_OBSERVABLE_OWNER_MISSING__HOLDOUT_FROZEN_UNSCORED__NO_PROTECTED_CLAIM_MOVE",
+    "current_question_contains": "K996--K1000 prove that complete integer harmonics recover the circular phase law but not an unwrapped real microscopic lift",
+    "selected_condition": "ALL_INTEGER_HARMONICS_IDENTIFY_CIRCLE_MARGINAL__ALL_TIME_SEMIGROUP_IDENTIFIES_CIRCULAR_PROCESS__ONE_TIME_DOES_NOT_SELECT_GENERATOR__INVISIBLE_2PI_JUMP_LIFTS_REMAIN__FINITE_BAND_NEEDS_REGULARITY_BUDGET__WINDING_RECORD_HOLDOUT_FROZEN_UNSCORED__NO_PROTECTED_CLAIM_MOVE",
     "b2_root": "EMPTY_NAMED_OWNER_SET",
     "reopeners": [
+      "supply a GU-owned physical quotient and positive state/effect pairing, an action-owned charge generator and integer spectrum plus a selected circular generator or real lift on a common domain, the locality theorem, and either operational all-harmonic access with a declared finite-band regularity/error budget or a winding-sensitive native record before scoring",
       "supply a GU-owned physical quotient and positive state/effect pairing, an action-owned charge generator and spectrum plus characteristic exponent selecting an explicitly typed Brownian, jump, bounded-domain, unbounded/singular, reset/time-dependent, correlated-assignment or other horn, a common domain and clock/noise/limit/record accounting, the remote-marginal/locality theorem, and either the frozen native gap-one observable for the named pair or an owned record/unbounded-harmonic completion before scoring",
       "supply an action-owned seven-generator invariant lock, seven selected values and a complete functional boundary/Green/BV-BFV domain, or a separately justified genuinely nonlocal or noncommutative selector with its own reduced-observable and properness proof; otherwise retain charged boundary symmetry and switch reverse edge",
       "a genuinely new stationary body-changing even owner, fully stationary nonzero-T or non-Levi-Civita Euclidean germ, independently action-owned path adapter or different Shiab response, separately justified commuting-spinor action, or genuinely new gauge-basic old-old parent, each with complete gauge/Hessian/Noether/Green/preboundary data; do not retry K751--K754's closed minimal odd or CBRS-1R classes",
@@ -2733,6 +2734,6 @@
     "release_readiness_change": false,
     "public_posture_change": false
   },
-  "result_ref": "lab/process/k995-k994-harmonic-action-disposition.json",
+  "result_ref": "lab/process/k1000-k999-circle-lift-action-disposition.json",
   "probe_ref": "tests/channel-swings/current_frontier_semantic_currency_audit.py"
 }

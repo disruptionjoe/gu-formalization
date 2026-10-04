@@ -1,0 +1,50 @@
+{
+  "claim_ceiling": "Circle-versus-lift observability boundary only; no GU derivation, empirical score, prediction, confirmation or exhaustive Levy-lift classification.",
+  "classification": "INTERNAL_REQUIREMENT_DISPOSITION",
+  "created": "2026-10-04",
+  "decision": {
+    "k995_unbounded_harmonic_route_sharpened": true,
+    "next_exact_input": "A GU-owned physical quotient and positive state/effect pairing plus an action must select the charge generator and spectrum, circular generator or real lift, common domain and locality, and either operational all-harmonic access with a declared finite-band error budget or a winding-sensitive record before scoring."
+  },
+  "demand": {
+    "common_domain_and_locality_theorem_required": true,
+    "finite_band_regularization_and_error_budget_required_if_access_is_finite": true,
+    "gu_action_owned_charge_generator_and_integer_spectrum_required": true,
+    "gu_action_owned_circular_generator_or_real_lift_required": true,
+    "gu_physical_quotient_and_positive_effect_pairing_required": true,
+    "native_preparations_and_harmonic_observables_required": true,
+    "winding_sensitive_record_required_for_real_lift_claim": true
+  },
+  "dependency_checks": {
+    "all_prediction_or_confirmation_withheld": true,
+    "all_source_and_ledger_effect_none": true,
+    "holdouts_frozen_not_scored": true,
+    "input_ids": [
+      "K996-INTEGER-HARMONIC-CIRCLE-RECONSTRUCTION",
+      "K997-CIRCULAR-PROCESS-IDENTIFICATION",
+      "K998-INVISIBLE-WINDING-LIFT-NONIDENTIFIABILITY",
+      "K999-OPERATIONAL-CIRCLE-LIFT-HOLDOUTS"
+    ]
+  },
+  "direction": "observed_to_native",
+  "identification_boundary": {
+    "all_integer_harmonics_at_fixed_time_identify_circle_marginal": true,
+    "all_time_integer_harmonics_identify_circular_independent_increment_process": true,
+    "complete_circular_process_identifies_real_lift": false,
+    "finite_harmonic_set_identifies_unrestricted_circle_law": false,
+    "single_time_marginal_identifies_generator": false,
+    "winding_record_or_noninteger_probe_required_for_lift": true
+  },
+  "ownership": {
+    "gu_action_phase_observable_or_physical_quotient_constructed": false,
+    "prediction_or_confirmation_credit": false,
+    "repository_conditional_models_only": true,
+    "source_claim_or_ledger_verdict_changed": false
+  },
+  "result_id": "K1000-CIRCLE-LIFT-ACTION-DISPOSITION",
+  "schema_version": "1.0",
+  "scope": "Composition of K996--K999 into the circular phase-law, finite-band and microscopic-lift observability boundary for the K956 family.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

@@ -1,0 +1,39 @@
+{
+  "claim_ceiling": "Exact measure-uniqueness theorem on the supplied circle quotient only; no operational unbounded probe or real-valued microscopic lift identification.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "created": "2026-10-04",
+  "decision": {
+    "k993_finite_ceiling_preserved": true,
+    "next_exact_input": "Determine what all-time harmonics identify for a circular independent-increment process, then test whether distinct real lifts remain invisible.",
+    "unbounded_harmonic_completion_recovers_only_circle_marginal": true
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "all_cyclic_harmonics_used": true,
+    "cyclic_order": 8,
+    "inverse_dft_max_error": 1.1102230246251565e-16,
+    "inverse_dft_reconstructs_measure": true,
+    "planted_coefficient_change_detected": true,
+    "weights_sum_to_one": true
+  },
+  "ownership": {
+    "circle_phase_quotient_imported": true,
+    "gu_action_or_physical_quotient_constructed": false,
+    "integer_charge_ladder_imported": true,
+    "positive_state_effect_pairing_imported": true,
+    "prediction_or_confirmation_credit": false
+  },
+  "result_id": "K996-INTEGER-HARMONIC-CIRCLE-RECONSTRUCTION",
+  "schema_version": "1.0",
+  "scope": "Probability laws on the supplied circle phase quotient sampled by every integer charge difference.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "all_integer_fourier_coefficients_determine_circle_measure": true,
+    "finite_harmonic_sets_remain_nonidentifying": true,
+    "fixed_time_only": true,
+    "proof_route": "trigonometric polynomials are uniformly dense in continuous functions on the circle; equal coefficients imply equal integrals of every continuous function and hence equal measures",
+    "real_line_lift_identified": false
+  }
+}
