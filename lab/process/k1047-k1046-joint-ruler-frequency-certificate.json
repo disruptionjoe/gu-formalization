@@ -1,0 +1,21 @@
+{
+  "created": "2026-10-04",
+  "fixture": {
+    "R": "391/266",
+    "beta_squared": "28561/20736",
+    "delta": "1/10",
+    "epsilon": "1/25",
+    "measured_gap": "255275/1965132",
+    "sharp_epsilon_decimal": "0.048114226939321"
+  },
+  "measurement_model": "r in [1-delta,1+delta]; each measured frequency has separate relative error at most epsilon",
+  "ratio_inflation": "beta=((1+epsilon)/(1-epsilon))^2",
+  "recovery": "at delta=0 the threshold is 9-4*sqrt(5), exactly K1044",
+  "result_id": "K1047-K1046-JOINT-RULER-FREQUENCY-CERTIFICATE",
+  "schema_version": "1.0",
+  "separation_condition": "beta^2 < R(delta), where R(delta)=((5-4*delta)/(2-delta))/((8+4*delta)/(5+delta))",
+  "sharp_surface": "0<=delta<3/5 and epsilon<(R(delta)^(1/4)-1)/(R(delta)^(1/4)+1)",
+  "status": "working_draft_verified",
+  "systematics_boundary": "ruler uncertainty and modewise frequency transfer are separate inputs; neither is measured here",
+  "target_claim": "NONE-NOT-A-KILL"
+}

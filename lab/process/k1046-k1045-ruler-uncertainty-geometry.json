@@ -1,0 +1,34 @@
+{
+  "created": "2026-10-04",
+  "fixture": {
+    "delta": "1/10",
+    "gap": "250/323",
+    "mass1_interval": [
+      "46/19",
+      "18/7"
+    ],
+    "mass4_interval": [
+      "76/49",
+      "28/17"
+    ]
+  },
+  "gap": "(9-15*delta)/((2-delta)*(5+delta))",
+  "intervals": {
+    "mass1": [
+      "(5-4*delta)/(2-delta)",
+      "(5+4*delta)/(2+delta)"
+    ],
+    "mass4": [
+      "(8-4*delta)/(5-delta)",
+      "(8+4*delta)/(5+delta)"
+    ]
+  },
+  "model": "Q_m(r)=(4r+m)/(r+m), with r=s^2 in [1-delta,1+delta] and m in {1,4}",
+  "monotonicity": "Q_m is strictly increasing in r and strictly decreasing in m for positive r,m",
+  "result_id": "K1046-K1045-RULER-UNCERTAINTY-GEOMETRY",
+  "schema_version": "1.0",
+  "scope": "delta bounds the common squared-spatial-scale coordinate; it is not a physical ruler calibration",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": "the fixed-horn ratio ranges are disjoint exactly for 0<=delta<3/5; they touch at delta=3/5"
+}

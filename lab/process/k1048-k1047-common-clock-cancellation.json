@@ -1,0 +1,17 @@
+{
+  "common_gain_theorem": "when b=0 and e_1=e_2=0, (y_2/y_1)^2=(omega_2/omega_1)^2 exactly for every g>0",
+  "created": "2026-10-04",
+  "differential_transfer": "when b=0, Q_hat=Q*((1+e_2)/(1+e_1))^2, which is exactly the K1044 error model",
+  "fixture": {
+    "gain": "7/3",
+    "measured_Q": "5/2",
+    "true_Q": "5/2"
+  },
+  "offset_boundary": "a common additive b does not cancel from a two-frequency ratio and requires calibration, bounding, or an affine-invariant protocol",
+  "ownership_correction": "an absolute clock scale is unnecessary for the ratio; stable mode-to-mode transfer and offset control remain required",
+  "readout_model": "y_i=g*(1+e_i)*omega_i+b with common g>0",
+  "result_id": "K1048-K1047-COMMON-CLOCK-CANCELLATION",
+  "schema_version": "1.0",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

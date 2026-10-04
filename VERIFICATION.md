@@ -7,6 +7,20 @@ updated_at: "2026-10-04"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1046--K1050 calibration-invariant mass-horn holdout (2026-10-04)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A common squared-ruler interval preserves horn separation exactly for `delta<3/5` | K1046 monotonicity, exact interval and touching-boundary controls; producer `12/12`; hostile mutations `12/12` | exact theorem for supplied candidate horns; no physical ruler calibration |
+| Ruler and component-frequency errors separate exactly when `beta^2<R(delta)` | K1047 interval composition, K1044 recovery and rational safe fixture; producer `11/11`; hostile mutations `13/13` | sharp conditional surface; neither systematic is measured |
+| Common clock gain cancels, while differential transfer and additive offset remain distinct | K1048 exact readout algebra and gain control; producer `7/7`; hostile mutations `9/9` | exact apparatus-identifiability theorem; no detector constructed |
+| Two ordered frequencies cannot identify a horn under unknown positive affine readout | K1049 general affine map and exact horn-pair specialization; producer `10/10`; hostile mutations `12/12` | exact two-point countermodel; not a physical detector or GU action no-go |
+| Three nonzero modes give a common-gain-and-offset-invariant candidate holdout | K1050 exact difference-ratio radicals and positivity proof; producer `13/13`; hostile mutations `19/19` | frozen candidate holdout; preparation, resolution, record, systematics and source selection remain open |
+
+SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`, and LT-SM8,
+LT-GR6b, RA-F1 and AC-F1 remain `NEEDS`. No empirical score, prediction,
+confirmation, canon or public status moves.
+
 ## K1041--K1045 mass-horn dispersion holdout (2026-10-04)
 
 | Claim | Evidence | Honest grade |

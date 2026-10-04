@@ -1,0 +1,23 @@
+{
+  "consequence": "two prepared modes cannot discriminate the horns when common gain and additive offset are both free",
+  "created": "2026-10-04",
+  "general_theorem": "for ordered pairs u1<u2 and v1<v2, g=(v2-v1)/(u2-u1)>0 and b=v1-g*u1 give g*u_i+b=v_i for i=1,2",
+  "horn_map": {
+    "gain_decimal": "0.720759220056127",
+    "gain_exact": "(sqrt(8)-sqrt(5))/(sqrt(5)-sqrt(2))",
+    "offset_decimal": "1.216760513290961",
+    "offset_exact": "sqrt(5)-gain*sqrt(2)",
+    "residuals": [
+      "0.000e+00",
+      "0.000e+00"
+    ],
+    "source": "mass1 frequencies (sqrt(2),sqrt(5))",
+    "target": "mass4 frequencies (sqrt(5),sqrt(8))"
+  },
+  "reopener": "calibrate or bound the offset, or add a third mode and use an affine-invariant statistic",
+  "result_id": "K1049-K1048-AFFINE-READOUT-NONIDENTIFIABILITY",
+  "schema_version": "1.0",
+  "scope": "candidate apparatus countermodel only; the common ruler and both mass horns remain imported",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

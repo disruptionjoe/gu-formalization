@@ -1,0 +1,86 @@
+{
+  "affine_invariance": "for y_i=g*omega_i+b with common g>0, both differences gain the same factor g and D is unchanged",
+  "created": "2026-10-04",
+  "horns": {
+    "mass1": {
+      "D": "1",
+      "frequencies": [
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "mass4": {
+      "D": "(sqrt(19)-2*sqrt(3))/(2*sqrt(3)-sqrt(7))",
+      "D_decimal": "1.093416015060124",
+      "frequencies": [
+        "sqrt(7)",
+        "2*sqrt(3)",
+        "sqrt(19)"
+      ]
+    }
+  },
+  "ledger_effect": "none -- LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS",
+  "modes": [
+    3,
+    8,
+    15
+  ],
+  "requirements": [
+    {
+      "candidate_grade": "required_open",
+      "gu_source_owned": false,
+      "id": "fixed_common_spatial_ruler",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "required_open",
+      "gu_source_owned": false,
+      "id": "three_mode_preparation",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "required_open",
+      "gu_source_owned": false,
+      "id": "common_affine_readout_stability",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "required_open",
+      "gu_source_owned": false,
+      "id": "difference_ratio_resolution",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "required_open",
+      "gu_source_owned": false,
+      "id": "measured_record_and_complete_systematics",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "required_open",
+      "gu_source_owned": false,
+      "id": "source_selected_mass_coefficient",
+      "scorable": false
+    }
+  ],
+  "result_id": "K1050-K1049-AFFINE-INVARIANT-THREE-MODE-HOLDOUT",
+  "route_comparison": "two-mode Q needs offset control but only two prepared modes; three-mode D cancels common gain and offset but needs a third prepared mode and calibrated difference resolution",
+  "schema_version": "1.0",
+  "score_gate": "closed -- no owned ruler, three-mode preparation, stable affine transfer, measured record or complete systematic audit",
+  "separation": {
+    "exact_gap": "(sqrt(19)+sqrt(7)-4*sqrt(3))/(2*sqrt(3)-sqrt(7))",
+    "gap_decimal": "0.093416015060124",
+    "proof": "the denominator is positive and sqrt(19)+sqrt(7)>4*sqrt(3) because sqrt(133)>11"
+  },
+  "sharp_additive_D_radius": "half the exact gap",
+  "source_scope": {
+    "SC-ACT-01": "ASSERTS",
+    "SC-ACT-02": "ASSERTS",
+    "SC-ACT-06": "ASSERTS",
+    "SC-META-53": "UNCERTAIN"
+  },
+  "statistic": "D=(omega_3-omega_2)/(omega_2-omega_1)",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

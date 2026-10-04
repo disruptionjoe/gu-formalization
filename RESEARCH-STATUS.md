@@ -8,6 +8,33 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-04 — K1046--K1050 calibration-invariant mass-horn holdout
+
+K1046 propagates the independently supplied common squared-spatial-scale
+interval through the two candidate horns. Their ratio ranges separate exactly
+for `0<=delta<3/5`; at `delta=1/10` the remaining exact gap is `250/323`.
+K1047 composes this with separate component-frequency errors and derives the
+sharp joint condition `beta^2<R(delta)`, recovering K1044 at `delta=0`.
+
+K1048 corrects the apparatus ownership statement. A common multiplicative
+clock gain cancels from the two-mode ratio, so no absolute clock scale is
+required. Differential transfer error remains exactly K1044's model, while a
+common additive offset does not cancel. K1049 proves the resulting no-go: any
+two ordered frequency pairs are related by a positive affine readout, so two
+modes cannot distinguish horns while both gain and offset are free.
+
+K1050 freezes an alternative on nonzero modes `lambda={3,8,15}`. The adjacent
+difference ratio is invariant under common positive affine readout. It equals
+one for mass squared one and a distinct exact radical value above one for mass
+squared four. The two-mode route therefore trades a smaller preparation for
+offset control; the three-mode route trades one extra prepared mode for common
+gain-and-offset cancellation. Neither route is scored.
+
+SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`, and LT-SM8,
+LT-GR6b, RA-F1 and AC-F1 remain `NEEDS`. No protected verdict changes. Five
+producers pass 53 declared controls; five hostile probes reject 65/65
+mutations.
+
 ## 2026-10-04 — K1041--K1045 mass-horn dispersion holdout
 
 K1041 proves a scale nonidentifiability theorem for the K77 stationary-wave

@@ -7,6 +7,19 @@ updated_at: "2026-10-04"
 
 # Next Steps For Contributors
 
+> **2026-10-04 K1046--K1050 CALIBRATION-INVARIANT MASS-HORN HOLDOUT.** A
+> common squared-ruler interval preserves the two candidate horns exactly for
+> `delta<3/5`; component-frequency uncertainty composes through the sharp
+> condition `beta^2<R(delta)`. Common clock gain cancels from the two-mode
+> ratio, but additive offset does not: any two ordered frequency pairs are
+> positive-affine equivalent. The nonzero three-mode statistic
+> `D=(omega_3-omega_2)/(omega_2-omega_1)` on `lambda={3,8,15}` cancels common
+> gain and offset and exactly separates the supplied mass horns. Next own and
+> score either the offset-controlled two-mode route or the affine-stable
+> three-mode route with an independent ruler, corresponding preparation,
+> measured record and complete systematics. GU credit still requires a
+> source-selected coefficient-complete action and functional positive quotient.
+
 > **2026-10-04 K1041--K1045 MASS-HORN DISPERSION HOLDOUT.** A two-mode ratio
 > `Q=(4s^2+m^2)/(s^2+m^2)` cannot identify absolute mass while the spatial
 > ruler is free: common rescaling of `s^2` and `m^2` leaves it unchanged.
