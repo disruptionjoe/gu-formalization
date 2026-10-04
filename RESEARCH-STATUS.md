@@ -8,6 +8,35 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-04 — K1051--K1055 affine spectrum-shape boundary
+
+K1051 generalizes the K1041 scale obstruction. For every dispersion mode,
+simultaneously scaling the squared ruler and mass coefficients by `c>0`
+multiplies the frequency by `sqrt(c)` and is absorbed by changing the common
+readout gain by `1/sqrt(c)`. Thus adding modes or taking affine invariants
+cannot identify absolute mass while the dimensional scale remains free.
+
+K1052 proves the positive result left inside that obstruction. For any ordered
+three modes, the adjacent-difference ratio has logarithmic derivative
+`(x_3-x_1)/(2x_1x_2x_3)>0` in `mu=m^2/s^2`, so it is strictly increasing and
+injective in the dimensionless spectrum shape. On modes `{3,8,15}`, `D=1`
+iff `mu=1`; the mass-four candidate has K1050's distinct value above one.
+
+K1053 derives the sharp relative adjacent-gap threshold
+`rho<(sqrt(D_4)-1)/(sqrt(D_4)+1)`, about `2.233%`. K1054 propagates independent
+component errors through the shared middle reading and derives the sharp
+gain-normalized bound
+`[sqrt(19)+sqrt(7)-4sqrt(3)]/[4+2sqrt(19)-2sqrt(7)]`, about `1.030%`.
+K1055 reconciles those results with K1044: the two-mode route tolerates larger
+relative component error but needs offset control, while the three-mode route
+cancels common gain and offset at the cost of a third preparation and tighter
+resolution. Neither route is scored.
+
+SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`, and LT-SM8,
+LT-GR6b, RA-F1 and AC-F1 remain `NEEDS`. No protected verdict changes. Five
+producers pass 60 declared controls; five hostile probes reject 62/62
+mutations.
+
 ## 2026-10-04 — K1046--K1050 calibration-invariant mass-horn holdout
 
 K1046 propagates the independently supplied common squared-spatial-scale

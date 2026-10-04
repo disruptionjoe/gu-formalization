@@ -7,6 +7,19 @@ updated_at: "2026-10-04"
 
 # Next Steps For Contributors
 
+> **2026-10-04 K1051--K1055 AFFINE SPECTRUM-SHAPE BOUNDARY.** Simultaneous
+> scaling of `s^2` and `m^2` is absorbed by common readout gain for every
+> supplied mode, so no finite or infinite mode set identifies absolute mass
+> while the dimensional scale is free. The three-mode statistic does identify
+> `mu=m^2/s^2` exactly: it is strictly increasing for every ordered triple and
+> equals one iff `mu=1` on `lambda={3,8,15}`. The sharp three-mode candidate
+> targets are about `2.233%` relative adjacent-gap error or `1.030%`
+> independent gain-normalized component error. Next supply an owned
+> dimensional scale, physical three-mode preparation, transfer audit, measured
+> record and complete systematics before scoring. GU credit still separately
+> requires a source-selected coefficient-complete action and functional
+> positive quotient.
+
 > **2026-10-04 K1046--K1050 CALIBRATION-INVARIANT MASS-HORN HOLDOUT.** A
 > common squared-ruler interval preserves the two candidate horns exactly for
 > `delta<3/5`; component-frequency uncertainty composes through the sharp

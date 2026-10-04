@@ -1,0 +1,24 @@
+{
+  "created": "2026-10-04",
+  "fixture": {
+    "eta": "1/100",
+    "mass1_upper": "1.040816326530612",
+    "mass4_lower": "1.043474695664421"
+  },
+  "normalization_boundary": "eta is error in gain-normalized frequency units; the theorem does not calibrate g or construct a detector",
+  "offset_cancellation": "the common b cancels from both adjacent differences",
+  "readout_model": "y_i=g*omega_i+b+zeta_i with g>0 and |zeta_i|<=g*eta independently",
+  "result_id": "K1054-K1053-SHARP-COMPONENT-READOUT-ERROR-CERTIFICATE",
+  "schema_version": "1.0",
+  "shared_middle_extrema": {
+    "a4": "2*sqrt(3)-sqrt(7)",
+    "b4": "sqrt(19)-2*sqrt(3)",
+    "mass1_upper": "(1+2*eta)/(1-2*eta)",
+    "mass4_lower": "(b4-2*eta)/(a4+2*eta)"
+  },
+  "sharp_threshold": "eta<(sqrt(19)+sqrt(7)-4*sqrt(3))/(4+2*sqrt(19)-2*sqrt(7))",
+  "sharp_threshold_decimal": "0.010294099763383",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "touching_boundary": "at equality the exact mass-one upper and mass-four lower ratios coincide"
+}

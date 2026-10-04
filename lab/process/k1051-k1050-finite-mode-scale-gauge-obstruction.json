@@ -1,0 +1,26 @@
+{
+  "consequence": "adding modes or using affine invariants cannot identify absolute mass while common gain and the spatial ruler scale are both free",
+  "created": "2026-10-04",
+  "dispersion": "omega_lambda(r,m)=sqrt(r*lambda+m), with r=s^2>0 and m=m^2>0",
+  "fixture": {
+    "maximum_residual": 1.7763568394002505e-15,
+    "modes": [
+      0,
+      1,
+      3,
+      8,
+      15
+    ],
+    "scale": 11.0
+  },
+  "identified_parameter": "mu=m/r is invariant under the scale action; absolute r and m are not",
+  "invariance": "the complete readout family y_lambda is unchanged for every supplied mode lambda",
+  "mode_scope": "any finite or infinite collection of dispersion modes sharing the same coefficients",
+  "readout": "y_lambda=g*omega_lambda(r,m)+b with common g>0 and common b",
+  "reopener": "independently own one dimensional scale or calibrate the common gain against an external standard",
+  "result_id": "K1051-K1050-FINITE-MODE-SCALE-GAUGE-OBSTRUCTION",
+  "scale_action": "(r,m,g,b)->(c*r,c*m,g/sqrt(c),b) for every c>0",
+  "schema_version": "1.0",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

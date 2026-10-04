@@ -1,0 +1,26 @@
+{
+  "created": "2026-10-04",
+  "frozen_controls": {
+    "D_at_mu_0": "0.952735119407267",
+    "D_at_mu_1": "1.000000000000000",
+    "D_at_mu_4": "1.093416015060124",
+    "large_mu_control": "1.399995800087437",
+    "upper_limit": "7/5"
+  },
+  "frozen_modes": [
+    3,
+    8,
+    15
+  ],
+  "identifiability_boundary": "the affine-invariant statistic identifies mu, not absolute m or r",
+  "log_derivative": "d(log D_mu)/dmu=(x3-x1)/(2*x1*x2*x3)>0",
+  "parameter": "mu=m/r=m^2/s^2>0",
+  "range": "D_0<D_mu<(lambda3-lambda2)/(lambda2-lambda1), with the upper endpoint approached as mu tends to infinity",
+  "rationalized": "D_mu=((lambda3-lambda2)/(lambda2-lambda1))*((x2+x1)/(x3+x2))",
+  "result_id": "K1052-K1051-AFFINE-SPECTRUM-SHAPE-IDENTIFIABILITY",
+  "schema_version": "1.0",
+  "statistic": "D_mu=(sqrt(lambda3+mu)-sqrt(lambda2+mu))/(sqrt(lambda2+mu)-sqrt(lambda1+mu))",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": "for every lambda1<lambda2<lambda3, D_mu is strictly increasing and therefore injective in mu"
+}

@@ -7,6 +7,20 @@ updated_at: "2026-10-04"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1051--K1055 affine spectrum-shape boundary (2026-10-04)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Common gain makes simultaneous mass/ruler scaling unidentifiable for every supplied mode | K1051 exact scale action and five-mode numerical control; producer `11/11`; hostile mutations `12/12` | exact theorem for the supplied dispersion family; not a GU action no-go |
+| Three ordered modes identify the dimensionless ratio `mu=m^2/s^2` through an affine invariant | K1052 rationalization and positive logarithmic derivative; producer `13/13`; hostile mutations `14/14` | exact candidate-family injectivity theorem; no absolute parameter identification |
+| Frozen horn separation under relative adjacent-gap error is sharp at about `2.233%` | K1053 exact interval geometry, touching boundary and passing fixture; producer `11/11`; hostile mutations `11/11` | sharp conditional calibration target; no measured transfer audit |
+| Frozen horn separation under independent component readout error is sharp at about `1.030%` in gain-normalized units | K1054 shared-middle extrema and exact radical threshold; producer `13/13`; hostile mutations `13/13` | sharp conditional apparatus target; no gain calibration or detector construction |
+| The two- and three-mode routes have distinct exact calibration costs while zero rows become scorable or GU-owned | K1055 eight-row ownership matrix; producer `12/12`; hostile mutations `12/12` | candidate requirement disposition; no empirical score, prediction or confirmation |
+
+SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`, and LT-SM8,
+LT-GR6b, RA-F1 and AC-F1 remain `NEEDS`. No empirical score, prediction,
+confirmation, canon or public status moves.
+
 ## K1046--K1050 calibration-invariant mass-horn holdout (2026-10-04)
 
 | Claim | Evidence | Honest grade |

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: eb4408271257
+revision_basis: 1545de0094b0
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1051--K1055 distinguish absolute scale from affine spectrum shape in the
+    frozen candidate mass-horn holdout. For every supplied mode, simultaneous
+    positive scaling of `s^2` and `m^2` is absorbed exactly by common readout
+    gain, so no number of modes identifies absolute mass while the dimensional
+    scale is free. The three-mode adjacent-difference statistic nevertheless
+    identifies the dimensionless ratio `mu=m^2/s^2`: for every ordered triple
+    its logarithmic derivative is
+    `(x_3-x_1)/(2 x_1 x_2 x_3)>0`. On `lambda={3,8,15}`, `D=1` iff `mu=1`,
+    while the mass-four candidate has the distinct K1050 radical. The sharp
+    relative adjacent-gap tolerance is about `2.233%`; independent additive
+    component errors bounded in gain-normalized units must be below about
+    `1.030%`. These are candidate calibration targets, not measurements. The
+    dimensional scale, three-mode preparation, transfer audit, measured
+    record, complete systematics and source-selected coefficient-complete
+    action remain unowned. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+    `UNCERTAIN`, and LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain `NEEDS`; no
+    source, ledger, empirical, prediction, confirmation, canon or public
+    verdict moves.
+
     K1046--K1050 harden the frozen candidate mass-horn holdout against ruler
     and clock-transfer uncertainty. If the common squared spatial scale lies
     in `[1-delta,1+delta]`, the two ratio ranges separate exactly for
@@ -13294,6 +13313,17 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1051--K1055 prove that the affine-invariant three-mode route identifies
+  only the dimensionless shape `mu=m^2/s^2`, not absolute mass or ruler scale.
+  Its sharp candidate thresholds are about `2.233%` for independently bounded
+  adjacent-gap transfer and `1.030%` for independent gain-normalized component
+  errors. Which physical apparatus can now own the dimensional scale,
+  three-mode preparation, transfer characterization, measured record and
+  complete systematics needed to score `mu` without relabeling it as absolute
+  mass or GU selection? Or which source-selected coefficient-complete GU
+  action owns the scale, stationary background and functional positive BV/BFV
+  quotient?
+
   K1046--K1050 show that the frozen candidate mass-horn holdout has two honest
   apparatus routes. The two-mode squared-frequency ratio needs only stable
   relative transfer and additive-offset control, not an absolute clock scale.
@@ -14890,6 +14920,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K1051--K1055 close the mathematical scale-versus-shape ambiguity in the
+  frozen three-mode route. Preserve the all-mode scale-gauge obstruction, the
+  strict `D_mu` monotonicity theorem, the `2.233%` relative-gap target and the
+  `1.030%` gain-normalized component-error target. Do not claim that adding
+  modes removes the dimensional ruler/gain gauge, convert a calibration target
+  into detector evidence, or relabel dimensionless `mu` selection as absolute
+  mass or GU selection. Reopen scoring only with an owned dimensional scale,
+  corresponding physical preparation, transfer characterization, measured
+  record and complete systematic audit. Reopen GU credit only when a
+  source-selected coefficient-complete action also owns the scale and
+  functional positive quotient.
+
   K1046--K1050 close the calibration-identifiability ambiguity in the frozen
   candidate mass-horn holdout. Preserve the exact squared-ruler threshold
   `delta<3/5`, the joint fourth-root ruler/frequency surface, common-gain

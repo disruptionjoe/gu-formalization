@@ -1,0 +1,20 @@
+{
+  "created": "2026-10-04",
+  "error_model": "each adjacent frequency gap is measured with independent relative error at most rho<1",
+  "fixture": {
+    "mass1_upper": "1.040816326530612",
+    "mass4_lower": "1.050536955646002",
+    "rho": "1/50"
+  },
+  "interval_rule": "D_hat is in [D*(1-rho)/(1+rho),D*(1+rho)/(1-rho)]",
+  "mass4_D": "(sqrt(19)-2*sqrt(3))/(2*sqrt(3)-sqrt(7))",
+  "result_id": "K1053-K1052-SHARP-RELATIVE-GAP-RESOLUTION-CERTIFICATE",
+  "schema_version": "1.0",
+  "separation_condition": "((1+rho)/(1-rho))^2 < D4",
+  "sharp_threshold": "rho<(sqrt(D4)-1)/(sqrt(D4)+1)",
+  "sharp_threshold_decimal": "0.022322979529169",
+  "status": "working_draft_verified",
+  "systematics_boundary": "relative adjacent-gap transfer is not a measured detector specification or a complete error budget",
+  "target_claim": "NONE-NOT-A-KILL",
+  "touching_boundary": "at equality the upper mass-one interval equals the lower mass-four interval"
+}

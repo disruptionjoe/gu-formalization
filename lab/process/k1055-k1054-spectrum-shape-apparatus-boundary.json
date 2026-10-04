@@ -1,0 +1,73 @@
+{
+  "created": "2026-10-04",
+  "identification_result": "three affine-readout modes identify the dimensionless ratio mu=m^2/s^2, not absolute mass or ruler scale",
+  "ledger_effect": "none -- LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS",
+  "promotion_effect": "none -- no empirical score, GU prediction, confirmation, canon or public posture change",
+  "requirements": [
+    {
+      "candidate_grade": "open",
+      "gu_source_owned": false,
+      "id": "absolute_mass_or_ruler_scale",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "candidate_exact",
+      "gu_source_owned": false,
+      "id": "dimensionless_mu_from_exact_three_mode_shape",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "open",
+      "gu_source_owned": false,
+      "id": "three_mode_preparation",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "candidate_exact",
+      "gu_source_owned": false,
+      "id": "common_affine_readout_cancellation",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "calibration_target",
+      "gu_source_owned": false,
+      "id": "relative_gap_resolution_below_2p233_percent",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "calibration_target",
+      "gu_source_owned": false,
+      "id": "gain_normalized_component_error_below_1p030_percent",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "open",
+      "gu_source_owned": false,
+      "id": "measured_record_and_complete_systematics",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "open",
+      "gu_source_owned": false,
+      "id": "source_selected_coefficient_complete_action",
+      "scorable": false
+    }
+  ],
+  "result_id": "K1055-K1054-SPECTRUM-SHAPE-APPARATUS-BOUNDARY",
+  "schema_version": "1.0",
+  "score_gate": "closed -- no owned dimensional scale, physical preparation, measured record or complete systematic audit",
+  "sharp_targets": {
+    "gain_normalized_component_percent": "1.029409976338294",
+    "relative_gap_percent": "2.232297952916870"
+  },
+  "source_scope": {
+    "SC-ACT-01": "ASSERTS",
+    "SC-ACT-02": "ASSERTS",
+    "SC-ACT-06": "ASSERTS",
+    "SC-META-53": "UNCERTAIN"
+  },
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "three_mode_route": "common gain and offset cancel; exact shape is injective in mu, but three-mode preparation and tighter gap/component resolution are required",
+  "two_mode_route": "fewer prepared modes and 5.573 percent component-relative-frequency tolerance at fixed ruler, but additive offset must be controlled"
+}
