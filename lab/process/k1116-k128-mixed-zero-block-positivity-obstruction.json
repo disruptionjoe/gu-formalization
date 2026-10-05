@@ -1,0 +1,23 @@
+{
+  "block_form": "H=[[0,A*],[A,C]] with H self-adjoint",
+  "created": "2026-10-05",
+  "fixture": {
+    "a": "2",
+    "c": "5",
+    "epsilon": "1/10"
+  },
+  "fixture_q_minus": "-7/20",
+  "fixture_q_plus": "9/20",
+  "fixture_signs": [
+    "positive",
+    "negative"
+  ],
+  "mixed_sign_witness_rule": "for Ax!=0 choose y=+/-epsilon*Ax; the linear mixed term changes sign and dominates the quadratic C term for sufficiently small epsilon",
+  "negative_theorem": "H is negative semidefinite iff A=0 and C is negative semidefinite",
+  "positivity_theorem": "H is positive semidefinite iff A=0 and C is positive semidefinite",
+  "result_id": "K1116-K128-MIXED-ZERO-BLOCK-POSITIVITY-OBSTRUCTION",
+  "schema_version": "1.0",
+  "scope_boundary": "exact finite-dimensional or common-form-domain obstruction; no closed GU operator domain or physical quotient is supplied",
+  "status": "working_draft_verified",
+  "target_claim": "K128-T0-I1B-HESSIAN-POSITIVITY"
+}

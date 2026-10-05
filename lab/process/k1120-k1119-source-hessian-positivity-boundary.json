@@ -1,0 +1,54 @@
+{
+  "counts": {
+    "global_physical_owned": 0,
+    "open": 3,
+    "scorable": 0,
+    "source_native_local_constraints": 4
+  },
+  "created": "2026-10-05",
+  "do_not_continue": "do not substitute another conditional inverse refinement for the missing action-owned reduction, domain, background or apparatus",
+  "next_condition": "construct an action-owned constraint/KT/BFV reduction on a common closed domain and prove that it removes or controls at least the rank(A) negative sector, or derive the actual source boundary coupling or stationary global background",
+  "protected_disposition": "SC-ACT-01/02/06 remain ASSERTS; SC-META-53 remains UNCERTAIN; LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS",
+  "requirements": [
+    {
+      "evidence": "K128",
+      "requirement": "source_native_mixed_block",
+      "state": "exact_local"
+    },
+    {
+      "evidence": "K129",
+      "requirement": "causal_metric_to_distortion_ranks",
+      "state": "exact_finite_symbol"
+    },
+    {
+      "evidence": "K1116-K1118",
+      "requirement": "mixed_hessian_inertia_floor",
+      "state": "exact_finite_symbol"
+    },
+    {
+      "evidence": "K1119",
+      "requirement": "definite_C_schur_sign",
+      "state": "exact_finite_symbol"
+    },
+    {
+      "evidence": null,
+      "requirement": "global_stationary_functional_domain",
+      "state": "open"
+    },
+    {
+      "evidence": null,
+      "requirement": "proper_BV_BFV_positive_cohomology",
+      "state": "open"
+    },
+    {
+      "evidence": null,
+      "requirement": "apparatus_and_scorable_observable",
+      "state": "open"
+    }
+  ],
+  "result_id": "K1120-K1119-SOURCE-HESSIAN-POSITIVITY-BOUNDARY",
+  "schema_version": "1.0",
+  "scope_boundary": "source-native local action structure advances; no physical positivity, GU confirmation, prediction or empirical score follows",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

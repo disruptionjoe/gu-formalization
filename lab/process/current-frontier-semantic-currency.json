@@ -1472,7 +1472,7 @@
     },
     "research_agenda": {
       "path": "lab/process/RESEARCH-AGENDA.json",
-      "sha256": "f24ca4282baf456ca874daf6e84e0cf81e7a78ea640d4fbc197560537eba21fa"
+      "sha256": "ec0ef6ad81c2d3c9bb39f237666658568dea46be2570e05850f5b98ecc12455a"
     },
     "k684_closed_column_remainder_compiler": {
       "path": "lab/process/k684-k500-closed-column-remainder-compiler.json",

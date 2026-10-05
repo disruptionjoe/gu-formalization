@@ -7,6 +7,20 @@ updated_at: "2026-10-05"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1116--K1120 source-Hessian positivity boundary (2026-10-05)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A self-adjoint mixed zero block is semidefinite only when its mixed map vanishes | K1116 small mixed-sign witness and exact `9/20,-7/20` fixture; producer `10/10`; hostile mutations `10/10` | exact finite-symbol or common-form-domain theorem; no global GU domain |
+| The full block has at least `rank(A)` positive and `rank(A)` negative directions | K1117 singular-vector compression, interlacing and sharp `(2,2,0)` fixtures; producer `9/9`; hostile mutations `9/9` | exact sharp rank-only inertia theorem |
+| K129's source-native causal symbols have paired floors `6/6`, `6/6`, and `4/4` | K1118 application to timelike, spacelike and null ranks; producer `9/9`; hostile mutations `8/8` | exact source-local finite-symbol constraint; ordinary kernel quotient is not physical cohomology |
+| Definite `C` gives exact full inertia and a sign-opposed metric Schur form | K1119 congruence and exact `diag(-4,-9/4)` fixture; producer `10/10`; hostile mutations `10/10` | exact fixed-symbol theorem; no global inverse or closed domain |
+| Four source-local constraints pass while zero global physical rows become owned or scorable | K1120 ownership matrix; producer `9/9`; hostile mutations `9/9` | source-action requirement disposition; no physical positivity, prediction or confirmation |
+
+SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`, and LT-SM8,
+LT-GR6b, RA-F1 and AC-F1 remain `NEEDS`. No source polarity, ledger, empirical,
+canon or public status moves.
+
 ## K1111--K1115 Loewner reconstruction boundary (2026-10-05)
 
 | Claim | Evidence | Honest grade |

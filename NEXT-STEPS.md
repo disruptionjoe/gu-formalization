@@ -7,6 +7,17 @@ updated_at: "2026-10-05"
 
 # Next Steps For Contributors
 
+> **2026-10-05 K1116--K1120 SOURCE-HESSIAN POSITIVITY BOUNDARY.** The actual
+> source-native I1B T=0 Hessian has block form `[[0,A*],[A,C]]`. Any nonzero
+> `A` forces both signs, with sharp floors `n_+,n_- >= rank(A)`. K129's causal
+> ranks therefore give at least `6+/6-`, `6+/6-`, and `4+/4-` directions;
+> quotienting the named metric kernels does not remove them. For definite `C`,
+> block congruence gives the exact full inertia and makes the positive-`C`
+> metric Schur form nonpositive. Next construct an action-owned constraint,
+> KT or BV/BFV reduction on a common closed domain and prove it controls the
+> negative sector, or derive the actual source boundary coupling or stationary
+> global background. Do not substitute more conditional inverse refinement.
+
 > **2026-10-05 K1111--K1115 LOEWNER RECONSTRUCTION BOUNDARY.** With an
 > independently owned affine part and finite pole count, ordinary and shifted
 > cross-Loewner matrices form an exact pole-recovery pencil. The K1098 fixture

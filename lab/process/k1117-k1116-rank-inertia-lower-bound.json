@@ -1,0 +1,46 @@
+{
+  "created": "2026-10-05",
+  "nonzero_C_fixture": {
+    "A_diagonal": [
+      2,
+      3
+    ],
+    "C_diagonal": [
+      5,
+      -1
+    ],
+    "block_determinants": [
+      -4,
+      -9
+    ]
+  },
+  "nonzero_C_fixture_inertia": {
+    "negative": 2,
+    "positive": 2,
+    "zero": 0
+  },
+  "proof_route": "restrict to the rank(A) singular domain and range; after singular-value rescaling the 2r compression is [[0,I],[I,C_r]], congruent to [[0,I],[I,0]], then apply inertia interlacing",
+  "result_id": "K1117-K1116-RANK-INERTIA-LOWER-BOUND",
+  "schema_version": "1.0",
+  "scope_boundary": "rank-only finite-symbol inertia; no global spectrum, Fredholm index or physical inner product",
+  "sharp_fixture": {
+    "A_diagonal": [
+      2,
+      3
+    ],
+    "C_diagonal": [
+      0,
+      0
+    ],
+    "rank_A": 2
+  },
+  "sharp_fixture_inertia": {
+    "negative": 2,
+    "positive": 2,
+    "zero": 0
+  },
+  "sharpness": "the lower bounds are attained when C=0 on a square full-rank A carrier",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": "for H=[[0,A*],[A,C]] self-adjoint, n_plus(H)>=rank(A) and n_minus(H)>=rank(A)"
+}

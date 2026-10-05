@@ -1,0 +1,32 @@
+{
+  "created": "2026-10-05",
+  "ordinary_quotient_result": "quotienting the named metric kernel preserves rank(A) and therefore does not erase the paired positive/negative inertia floor",
+  "result_id": "K1118-K129-SOURCE-I1B-SYMBOL-INERTIA",
+  "schema_version": "1.0",
+  "scope_boundary": "source-native local finite-symbol result; no global stationary background, common domain, BV/BFV cohomology or positive physical pairing",
+  "source_block": "K128 source-native I1B T=0 Hessian H=[[0,A*],[A,C]]",
+  "source_rank_input": "K129 ranks A=(6,6,4) on timelike, spacelike and null covectors",
+  "status": "working_draft_verified",
+  "strata": {
+    "null": {
+      "metric_kernel": "diffeomorphism_4_plus_TT_2",
+      "min_negative": 4,
+      "min_positive": 4,
+      "rank_A": 4
+    },
+    "spacelike": {
+      "metric_kernel": "diffeomorphism_4",
+      "min_negative": 6,
+      "min_positive": 6,
+      "rank_A": 6
+    },
+    "timelike": {
+      "metric_kernel": "diffeomorphism_4",
+      "min_negative": 6,
+      "min_positive": 6,
+      "rank_A": 6
+    }
+  },
+  "strongest_conclusion": "every nonzero causal K129 symbol is indefinite before an additional action-owned constraint or cohomological reduction",
+  "target_claim": "SC-ACT-01"
+}

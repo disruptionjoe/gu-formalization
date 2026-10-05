@@ -1,0 +1,37 @@
+{
+  "congruence": "if C is invertible, H is congruent to diag(-A* C^-1 A,C)",
+  "created": "2026-10-05",
+  "fixture_A_diagonal": [
+    "2",
+    "3"
+  ],
+  "fixture_full_inertia_both_horns": {
+    "negative": 2,
+    "positive": 2,
+    "zero": 0
+  },
+  "fixture_negative_C_diagonal": [
+    "-1",
+    "-4"
+  ],
+  "fixture_negative_C_schur_diagonal": [
+    "4",
+    "9/4"
+  ],
+  "fixture_positive_C_diagonal": [
+    "1",
+    "4"
+  ],
+  "fixture_positive_C_schur_diagonal": [
+    "-4",
+    "-9/4"
+  ],
+  "negative_C_inertia": "if C<0 then inertia(H)=(rank(A),dim(Y),dim(X)-rank(A)) in (+,-,0) order",
+  "positive_C_inertia": "if C>0 then inertia(H)=(dim(Y),rank(A),dim(X)-rank(A)) in (+,-,0) order",
+  "result_id": "K1119-K1118-DEFINITE-DISTORTION-SCHUR-SIGN",
+  "schema_version": "1.0",
+  "scope_boundary": "exact finite-symbol congruence only; invertibility does not supply a global closed inverse or a physical quotient",
+  "sign_boundary": "a definite auxiliary block cannot make the full Hessian positive when A is nonzero; for C>0 the reduced metric Schur form is nonpositive",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-01"
+}
