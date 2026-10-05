@@ -1,0 +1,53 @@
+{
+  "algebraic_controls_pass": true,
+  "common_closed_domain_supplied": false,
+  "created": "2026-10-05",
+  "current_candidates_meeting_composed_packet": 0,
+  "current_source_and_ledger_effect": "none",
+  "executable_tests": [
+    {
+      "acceptance": "typed derivation of Q, d, G and H on the native carrier",
+      "test": "source_action_owner"
+    },
+    {
+      "acceptance": "6/6/4 plus K1138/K1139 nonnegative restriction",
+      "test": "causal_rank_and_negative_capture"
+    },
+    {
+      "acceptance": "QG=RQ, equivalently QGP=0",
+      "test": "propagation"
+    },
+    {
+      "acceptance": "G*H+HG=0 and positive quotient after the invariant constrained radical",
+      "test": "energy_descent"
+    },
+    {
+      "acceptance": "Qd=0 on the same typed carrier",
+      "test": "cochain"
+    },
+    {
+      "acceptance": "rad(H|ker Q)=im d and dim ker Q>rank d",
+      "test": "positive_nonzero_cohomology"
+    },
+    {
+      "acceptance": "all maps, adjoints, evolution and boundary traces share one closed realization",
+      "test": "common_closed_domain"
+    }
+  ],
+  "inputs": [
+    "K1140-I1B-CONSTRAINT-ADMISSION-COMPILER",
+    "K1141-CONSTRAINT-PROPAGATION-INTERTWINER-CRITERION",
+    "K1142-CONSTRAINT-PROPAGATION-DEFECT-CERTIFICATE",
+    "K1143-CONSTRAINED-ENERGY-RADICAL-DESCENT",
+    "K1144-POSITIVE-NONZERO-TWO-TERM-COHOMOLOGY"
+  ],
+  "next_condition": "supply one source-action-owned Q,d,G,H packet on a common closed domain and pass every composed test, or obtain the actual boundary coupling, a stationary global background, or a different source-owned differential/completion",
+  "protected_disposition": "SC-ACT-01/02/06 remain ASSERTS; SC-META-53 remains UNCERTAIN; LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS",
+  "result_id": "K1145-I1B-DYNAMICAL-COHOMOLOGY-ADMISSION-COMPILER",
+  "schema_version": "1.0",
+  "scope_boundary": "future-candidate compiler only; finite controls do not construct a GU constraint, functional realization, physical quotient, prediction, confirmation, canon or public move",
+  "scorable_rows_added": 0,
+  "source_action_map_supplied": false,
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

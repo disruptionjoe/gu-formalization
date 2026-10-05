@@ -1,0 +1,126 @@
+{
+  "created": "2026-10-05",
+  "fixture": {
+    "G": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        -1
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ]
+    ],
+    "H_diagonal": [
+      0,
+      0,
+      2,
+      2
+    ],
+    "H_skew_defect": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "Q": [
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    "QG_on_kernel_zero": true,
+    "quotient_dimension": 2,
+    "quotient_gram": [
+      [
+        2,
+        0
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "quotient_positive_definite": true,
+    "radical_basis": [
+      [
+        0,
+        1,
+        0,
+        0
+      ]
+    ],
+    "radical_invariant": true,
+    "restricted_gram": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        2
+      ]
+    ],
+    "restricted_inertia": [
+      2,
+      0,
+      1
+    ]
+  },
+  "functional_domain_supplied": false,
+  "independence_controls": {
+    "positivity_without_propagation": "add a kernel-to-constraint entry in the first row of G",
+    "propagation_without_positivity": "replace the last H entry by -2"
+  },
+  "result_id": "K1143-CONSTRAINED-ENERGY-RADICAL-DESCENT",
+  "schema_version": "1.0",
+  "source_action_constraint_supplied": false,
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": "if G is H-skew and preserves ker(Q), constrained energy is conserved; a nonnegative restriction descends through its automatically G-invariant radical to a positive-definite quotient"
+}

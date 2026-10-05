@@ -7,6 +7,20 @@ updated_at: "2026-10-05"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1141--K1145 dynamical cohomology admission tests (2026-10-05)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A full-row-rank constraint kernel propagates exactly when `QG=RQ` | K1141 quotient/intertwiner proof and pass/fail fixtures; producer `12/12`; hostile mutations `10/10` | exact finite-dimensional theorem; no source owner or common domain |
+| `QGP` is the exact basis-independent propagation-leakage certificate | K1142 projector and kernel-basis controls; producer `12/12`; hostile mutations `10/10` | exact finite-symbol certificate; its norm remains coordinate dependent |
+| An `H`-skew propagated nonnegative constrained form descends to a positive radical quotient | K1143 conservation, invariant-radical and quotient fixtures; producer `12/12`; hostile mutations `11/11` | exact finite-dimensional theorem; no functional Hamiltonian realization |
+| Positive nonzero two-term cohomology requires radical equality and a dimension surplus | K1144 pass, acyclic and negative controls; producer `12/12`; hostile mutations `11/11` | exact finite-complex theorem; no source BV/BFV complex or physical identification |
+| A future I1B candidate must pass the composed dynamics/cohomology packet on one common domain | K1145 admission compiler; producer `12/12`; hostile mutations `11/11` | current constructive boundary; zero current candidates pass |
+
+Five producers pass `60/60` controls and five probes reject `53/53` hostile
+mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`,
+LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and no protected verdict moves.
+
 ## K1136--K1140 exceptional-shell and negative-capture gates (2026-10-05)
 
 | Claim | Evidence | Honest grade |

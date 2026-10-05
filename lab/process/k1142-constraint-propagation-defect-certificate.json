@@ -1,0 +1,81 @@
+{
+  "action_ownership_supplied": false,
+  "basis_invariance": "Z replaced by ZM right-multiplies QGZ by invertible M, preserving zero and rank",
+  "created": "2026-10-05",
+  "fixture": {
+    "E_fail": [
+      [
+        0,
+        1,
+        0
+      ]
+    ],
+    "E_pass": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "P": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "Q": [
+      [
+        1,
+        0,
+        0
+      ]
+    ],
+    "QGZ_fail": [
+      [
+        1,
+        0
+      ]
+    ],
+    "QGZ_pass": [
+      [
+        0,
+        0
+      ]
+    ],
+    "Z": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "fail_frobenius_norm_squared": 1,
+    "fail_rank": 1
+  },
+  "norm_is_coordinate_dependent": true,
+  "result_id": "K1142-CONSTRAINT-PROPAGATION-DEFECT-CERTIFICATE",
+  "schema_version": "1.0",
+  "scope_boundary": "finite symbol certificate only; source ownership, propagation on a common operator domain and boundary closure remain separate",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": "E=QGP vanishes exactly when G preserves ker(Q); equivalently QGZ=0 for any basis Z of ker(Q)",
+  "zero_and_rank_are_basis_independent": true
+}

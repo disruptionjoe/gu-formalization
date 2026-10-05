@@ -1,0 +1,98 @@
+{
+  "action_ownership_supplied": false,
+  "created": "2026-10-05",
+  "fixture": {
+    "G_fail": [
+      [
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        -1
+      ],
+      [
+        0,
+        1,
+        0
+      ]
+    ],
+    "G_pass": [
+      [
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        -1
+      ],
+      [
+        0,
+        1,
+        0
+      ]
+    ],
+    "Q": [
+      [
+        1,
+        0,
+        0
+      ]
+    ],
+    "QG_fail": [
+      [
+        2,
+        1,
+        0
+      ]
+    ],
+    "QG_pass": [
+      [
+        2,
+        0,
+        0
+      ]
+    ],
+    "R": [
+      [
+        2
+      ]
+    ],
+    "RQ_pass": [
+      [
+        2,
+        0,
+        0
+      ]
+    ],
+    "failing_constraint_derivative": 1,
+    "failing_kernel_witness": [
+      0,
+      1,
+      0
+    ],
+    "propagates": true,
+    "right_inverse": [
+      [
+        1
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ]
+  },
+  "induced_row_generator": "R=QGQ*(QQ*)^-1",
+  "result_id": "K1141-CONSTRAINT-PROPAGATION-INTERTWINER-CRITERION",
+  "schema_version": "1.0",
+  "scope_boundary": "finite-dimensional algebraic criterion; common closed domains, boundary traces, source derivation and physical cohomology remain separate",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": "for surjective Q, ker(Q) is G-invariant iff a unique R on the constraint rows satisfies QG=RQ"
+}

@@ -1,0 +1,73 @@
+{
+  "acyclic_control": {
+    "cohomology_dimension": 0,
+    "gauge_rank": 1,
+    "kernel_dimension": 1,
+    "vacuously_nonnegative_but_nonzero": false
+  },
+  "created": "2026-10-05",
+  "negative_control": {
+    "cohomology_dimension": 1,
+    "cohomology_gram": [
+      [
+        -1
+      ]
+    ],
+    "gauge_rank": 1,
+    "kernel_dimension": 2,
+    "positive_definite": false
+  },
+  "pass_fixture": {
+    "H_diagonal": [
+      0,
+      0,
+      2,
+      3
+    ],
+    "Q": [
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    "Qd_zero": true,
+    "cohomology_dimension": 2,
+    "cohomology_gram": [
+      [
+        2,
+        0
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "d": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ],
+    "gauge_rank": 1,
+    "kernel_dimension": 3,
+    "positive_definite": true,
+    "restricted_radical_equals_gauge_image": true
+  },
+  "physical_identification_supplied": false,
+  "result_id": "K1144-POSITIVE-NONZERO-TWO-TERM-COHOMOLOGY",
+  "schema_version": "1.0",
+  "source_bv_bfv_complex_supplied": false,
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": "for Qd=0, H0=ker(Q)/im(d) carries a positive-definite induced pairing iff H restricted to ker(Q) is nonnegative and its radical equals im(d); H0 is nonzero iff dim ker(Q)>rank(d)"
+}

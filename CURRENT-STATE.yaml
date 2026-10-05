@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 0a73bfdd5b95
+revision_basis: d682a695d664
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,19 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1141--K1145 make the propagation and positive-nonzero-cohomology parts
+    of the current I1B constraint frontier exact. For full-row-rank `Q`, the
+    kernel propagates under `G` exactly when `QG=RQ`; equivalently the
+    basis-independent leakage map `QGP` vanishes. If `G` is `H`-skew and
+    preserves the constrained kernel, a nonnegative restricted Hessian
+    descends through its invariant radical to a positive quotient. For a
+    two-term complex `G0 --d--> V --Q--> C`, the induced degree-zero pairing
+    is positive definite exactly when `Qd=0`, the restricted form is
+    nonnegative and `rad(H|ker Q)=im d`; it is nonzero exactly when
+    `dim ker Q > rank d`. These are exact finite-dimensional tests for a
+    supplied map, not source ownership or a common closed domain. Zero current
+    candidates pass the composed packet and no protected status moves.
+
     K1136--K1140 close the nonzero-`kappa` exceptional-shell local-constraint
     loophole and sharpen the source-native I1B positivity gate. A polynomial
     or real-analytic local differential constraint symbol that vanishes on the
@@ -13592,6 +13605,16 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1141--K1145 turn propagation, constrained-energy descent and positive
+  nonzero cohomology into exact algebraic tests. Which source-action-owned
+  `Q,d,G,H` packet on one typed native carrier meets the causal `6/6/4` floors,
+  captures the negative block, satisfies `QG=RQ` (equivalently `QGP=0`), is
+  `H`-skew, obeys `Qd=0` with `rad(H|ker Q)=im d`, leaves
+  `dim ker Q > rank d`, and realizes every map and boundary trace on one
+  common closed domain? Alternate source advances remain the actual boundary
+  coupling, a stationary global background, or a different source-owned
+  differential/completion.
+
   K1136--K1140 prove that nonzero-`kappa` exceptional shells cannot by
   themselves revive a finite-order local constraint that vanishes generically,
   and that the `6/6/4` rank floor is necessary but not sufficient. Which
@@ -15373,6 +15396,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K1141--K1145 close the finite-dimensional propagation and cohomology-test
+  gaps without constructing their missing owner. Preserve the distinctions
+  among an algebraic fixture, an action-derived constraint, a propagated
+  closed operator, a positive quotient and a physical state space. Advance
+  only with one source-action-owned `Q,d,G,H` packet passing causal rank,
+  negative capture, exact restricted inertia, zero leakage, Hessian-skew
+  energy descent, cochain closure, positive nonzero cohomology and common
+  closed-domain/boundary realization. Alternate reopeners are the actual
+  boundary coupling, stationary global background, or a different
+  source-owned differential/completion.
+
   K1136--K1140 close the exceptional-shell local-constraint loophole and
   replace rank-only admission by the exact negative-capture test. Preserve the
   possibility of shell spectral compatibility, nonlocal or distributional

@@ -7,6 +7,20 @@ updated_at: "2026-10-05"
 
 # Next Steps For Contributors
 
+> **2026-10-05 K1141--K1145 DYNAMICAL COHOMOLOGY ADMISSION TESTS.** A supplied
+> full-row-rank constraint propagates exactly when `QG=RQ`, equivalently when
+> the leakage certificate `QGP` vanishes. An `H`-skew propagated evolution
+> preserves constrained energy and descends through the restricted radical.
+> For `G0 --d--> V --Q--> C`, a positive-definite nonzero degree-zero pairing
+> requires `Qd=0`, nonnegative `H|ker Q`,
+> `rad(H|ker Q)=im d`, and `dim ker Q > rank d`. These exact finite tests do
+> not supply action ownership or a common closed domain. Next construct one
+> source-action-owned `Q,d,G,H` packet on the native carrier, pass these tests
+> together with causal `6/6/4` rank and negative capture, and realize the
+> operators and boundary traces on one common closed domain. Alternate
+> reopeners remain the actual boundary coupling, stationary global background
+> or a different source-owned differential/completion.
+
 > **2026-10-05 K1136--K1140 EXCEPTIONAL-SHELL AND NEGATIVE-CAPTURE GATES.** A
 > polynomial or real-analytic local constraint symbol that vanishes on the
 > dense generic-invertible region vanishes identically. K134's 27 spacelike
