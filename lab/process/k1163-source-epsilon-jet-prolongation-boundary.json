@@ -1,0 +1,30 @@
+{
+  "created": "2026-10-05",
+  "decision": "no finite derivative order, jet count, or target restacking of either single epsilon channel changes the K1158 causal shortfalls",
+  "inputs": [
+    "K792-SC-ACT-06-REDUNDANT-PROLONGATION-KERNEL-THEOREM",
+    "K880-SC-ACT-06-REDUNDANT-TARGET-QUOTIENT",
+    "K941-SOURCE-EPSILON-COTANGENT-MOMENT-MAP",
+    "K949-SOURCE-EPSILON-SEVEN-LOCK-BOUNDARY-CONTRACT",
+    "K1153-K132-CAUSAL-RADICAL-CAPTURE-FLOOR",
+    "K1161-FACTOR-THROUGH-PROLONGATION-RANK-THEOREM"
+  ],
+  "result_id": "K1163-SOURCE-EPSILON-JET-PROLONGATION-BOUNDARY",
+  "schema_version": "1.0",
+  "scope_boundary": "fixed-symbol factor-through class only; a genuinely independent field-valued principal symbol, lower-order boundary mechanism, changed parent, or enlarged gauge/KT image is not excluded",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "targets": {
+    "full_moment_map_91": {
+      "null": {"any_finite_derivative_stack_passes": false, "kernel_dimension": 106638, "owned_gauge_rank": 4, "rank_shortfall": 106543, "required_constraint_rank": 106634, "shared_factor_rank_ceiling": 91},
+      "spacelike": {"any_finite_derivative_stack_passes": false, "kernel_dimension": 98474, "owned_gauge_rank": 4, "rank_shortfall": 98379, "required_constraint_rank": 98470, "shared_factor_rank_ceiling": 91},
+      "timelike": {"any_finite_derivative_stack_passes": false, "kernel_dimension": 98474, "owned_gauge_rank": 4, "rank_shortfall": 98379, "required_constraint_rank": 98470, "shared_factor_rank_ceiling": 91}
+    },
+    "seven_invariant_lock": {
+      "null": {"any_finite_derivative_stack_passes": false, "kernel_dimension": 106638, "owned_gauge_rank": 4, "rank_shortfall": 106627, "required_constraint_rank": 106634, "shared_factor_rank_ceiling": 7},
+      "spacelike": {"any_finite_derivative_stack_passes": false, "kernel_dimension": 98474, "owned_gauge_rank": 4, "rank_shortfall": 98463, "required_constraint_rank": 98470, "shared_factor_rank_ceiling": 7},
+      "timelike": {"any_finite_derivative_stack_passes": false, "kernel_dimension": 98474, "owned_gauge_rank": 4, "rank_shortfall": 98463, "required_constraint_rank": 98470, "shared_factor_rank_ceiling": 7}
+    }
+  },
+  "tested_class": "every finite fixed-covector stack whose components are differential or operator-valued postprocessors of the same transported epsilon target"
+}

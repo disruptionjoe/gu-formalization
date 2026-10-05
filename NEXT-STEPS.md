@@ -7,6 +7,19 @@ updated_at: "2026-10-05"
 
 # Next Steps For Contributors
 
+> **2026-10-05 K1161--K1165 DIFFERENTIAL-PROLONGATION BOUNDARY.** Generalizing
+> K792/K880's held redundant-row result, at one fixed covector any finite stack
+> `Q_j=A_j q` factors through the base
+> constraint `q`, so its rank cannot exceed `rank q`; ordinary derivative jets
+> are a special case. Independent-symbol controls add rank sharply, proving
+> that the missing ingredient is new information rather than higher derivative
+> order. Therefore no finite prolongation of the 91-component moment map or
+> seven-invariant lock changes its K132 deficit. A combined repair must add at
+> least `98379/98379/106543` independent directions outside the moment-map
+> channel, source-own the complementary closed gauge/KT image, or change the
+> stationary parent and recompute every gate. Do not count derivative copies
+> as the independent copies granted in K1159.
+
 > **2026-10-05 K1156--K1160 SOURCE-EPSILON RANK-BUDGET BOUNDARY.** Any
 > successful finite constraint `Q:V->W` satisfies the sharp necessary budget
 > `rank d + dim W >= dim ker H`. K941's full source-epsilon moment map has 91

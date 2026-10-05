@@ -1,0 +1,24 @@
+{
+  "classes_now_excluded_for_current_k132_parent": [
+    "all linear Euler-row postprocessors Q=L H",
+    "one directly or favorably transported 91-component source-epsilon moment map or seven-invariant lock",
+    "every finite fixed-covector differential, jet, or operator-valued descendant stack factoring through either one finite epsilon target"
+  ],
+  "created": "2026-10-05",
+  "current_candidates_meeting_full_packet": 0,
+  "inputs": [
+    "K1160-I1B-SOURCE-EPSILON-ADMISSION-BOUNDARY",
+    "K1161-FACTOR-THROUGH-PROLONGATION-RANK-THEOREM",
+    "K1162-INDEPENDENT-SYMBOL-FAMILY-CONTROL",
+    "K1163-SOURCE-EPSILON-JET-PROLONGATION-BOUNDARY",
+    "K1164-NONFACTOR-COMPLEMENT-RANK-FLOOR"
+  ],
+  "next_condition": "derive a source-owned bulk-boundary or constraint symbol with at least 98379/98379/106543 independent directions outside the 91-component epsilon channel on the K132 causal radical, source-own the complementary enlarged closed gauge/KT image, or supply a changed stationary parent and recompute every gate",
+  "protected_disposition": "SC-ACT-01/02/06 remain ASSERTS; SC-META-53 remains UNCERTAIN; LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS",
+  "result_id": "K1165-I1B-PROLONGATION-ADMISSION-BOUNDARY",
+  "schema_version": "1.0",
+  "scope_boundary": "current K132 finite causal symbols and factor-through descendants of the two finite epsilon targets only; no genuinely independent field-valued map, arbitrary boundary operator, SC-ACT-06, GU, physical state, prediction, confirmation, canon, paper or public verdict is excluded",
+  "scorable_rows_added": 0,
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

@@ -7,6 +7,21 @@ updated_at: "2026-10-05"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1161--K1165 differential-prolongation boundary (2026-10-05)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A fixed-covector descendant stack `Q_j=A_j q` has rank no greater than its base symbol | K1161 generalization of K792/K880 plus exact shared-factor controls; producer `11/11`; hostile mutations `12/12` | exact finite-dimensional theorem; no source operator or functional domain; no rediscovery claim |
+| Genuinely independent symbols can add rank one-for-one | K1162 six-member coordinate control family; producer `10/10`; hostile mutations `11/11` | exact positive control; no source ownership |
+| Finite derivative/jet prolongations do not change either epsilon target's K132 deficit | K1163 causal application under K1158's favorable transport grant; producer `10/10`; hostile mutations `11/11` | fixed-symbol factor-through class exclusion; independent symbols and lower-order mechanisms remain open |
+| A combined repair must add rank on the base channel's kernel | K1164 exact rank split and causal complement floors; producer `10/10`; hostile mutations `10/10` | sharp necessary nonfactor-rank floor; no repair constructed |
+| Current K132 excludes Euler factors, both finite targets, and all of their factor-through prolongations | K1165 integrated admission update; producer `10/10`; hostile mutations `10/10` | exact current finite-symbol class exclusions; not a global boundary-map or SC-ACT-06 no-go |
+
+Five producers pass `51/51` controls and five probes reject `54/54` hostile
+mutations. `SC-ACT-01/02/06` remain `ASSERTS`, `SC-META-53` remains
+`UNCERTAIN`, and `LT-SM8/LT-GR6b/RA-F1/AC-F1` remain `NEEDS`. No empirical
+score, prediction, confirmation, canon, paper or public status moves.
+
 ## K1156--K1160 source-epsilon rank-budget boundary (2026-10-05)
 
 | Claim | Evidence | Honest grade |

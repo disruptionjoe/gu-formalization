@@ -1,0 +1,20 @@
+{
+  "all_independent_stacks_gain_one_rank_per_symbol": true,
+  "all_shared_factor_stacks_remain_rank_one": true,
+  "construction": "q_j:R8->R records coordinate j; stack q_1,...,q_m, while shared-factor descendants are scalar multiples of q_1",
+  "controls": [
+    {"independent_stack_rank": 1, "input_dimension": 8, "positive_quotient_dimension": 7, "shared_factor_descendant_rank": 1, "symbol_count": 1},
+    {"independent_stack_rank": 2, "input_dimension": 8, "positive_quotient_dimension": 6, "shared_factor_descendant_rank": 1, "symbol_count": 2},
+    {"independent_stack_rank": 3, "input_dimension": 8, "positive_quotient_dimension": 5, "shared_factor_descendant_rank": 1, "symbol_count": 3},
+    {"independent_stack_rank": 4, "input_dimension": 8, "positive_quotient_dimension": 4, "shared_factor_descendant_rank": 1, "symbol_count": 4},
+    {"independent_stack_rank": 5, "input_dimension": 8, "positive_quotient_dimension": 3, "shared_factor_descendant_rank": 1, "symbol_count": 5},
+    {"independent_stack_rank": 6, "input_dimension": 8, "positive_quotient_dimension": 2, "shared_factor_descendant_rank": 1, "symbol_count": 6}
+  ],
+  "created": "2026-10-05",
+  "decision": "rank growth is possible and sharp, but it requires genuinely independent symbols rather than derivative relabelings of one channel",
+  "result_id": "K1162-INDEPENDENT-SYMBOL-FAMILY-CONTROL",
+  "schema_version": "1.0",
+  "scope_boundary": "exact finite positive control; no source ownership, differential complex, domain, or physical quotient",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

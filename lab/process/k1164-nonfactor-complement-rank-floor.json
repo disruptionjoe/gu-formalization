@@ -1,0 +1,24 @@
+{
+  "created": "2026-10-05",
+  "decision": "a successful combined repair must supply the recorded ranks on directions invisible to the finite epsilon channel; restacking descendants contributes zero toward this complement",
+  "full_moment_map_91": {
+    "null": {"granted_base_channel_rank": 91, "kernel_dimension": 106638, "minimum_complement_rank_on_base_kernel": 106543, "required_total_constraint_rank": 106634},
+    "spacelike": {"granted_base_channel_rank": 91, "kernel_dimension": 98474, "minimum_complement_rank_on_base_kernel": 98379, "required_total_constraint_rank": 98470},
+    "timelike": {"granted_base_channel_rank": 91, "kernel_dimension": 98474, "minimum_complement_rank_on_base_kernel": 98379, "required_total_constraint_rank": 98470}
+  },
+  "necessity_not_sufficiency": "the complement floor still does not supply source ownership, Qd=0, negative capture, propagation, radical equality, common domains, closed range, uniform positivity, or a maximal boundary generator",
+  "result_id": "K1164-NONFACTOR-COMPLEMENT-RANK-FLOOR",
+  "schema_version": "1.0",
+  "seven_invariant_lock": {
+    "null": {"granted_base_channel_rank": 7, "kernel_dimension": 106638, "minimum_complement_rank_on_base_kernel": 106627, "required_total_constraint_rank": 106634},
+    "spacelike": {"granted_base_channel_rank": 7, "kernel_dimension": 98474, "minimum_complement_rank_on_base_kernel": 98463, "required_total_constraint_rank": 98470},
+    "timelike": {"granted_base_channel_rank": 7, "kernel_dimension": 98474, "minimum_complement_rank_on_base_kernel": 98463, "required_total_constraint_rank": 98470}
+  },
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "exact_rank_split": "rank((q,R)|K)=rank(q|K)+rank(R|(K intersect ker q))",
+    "factor_through_corollary": "if R=Aq, then R vanishes on K intersect ker q and contributes zero new rank",
+    "necessary_increment": "if rank((q,R)|K)>=t, then rank(R|(K intersect ker q))>=t-rank(q|K)"
+  }
+}

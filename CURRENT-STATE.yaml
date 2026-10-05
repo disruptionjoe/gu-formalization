@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: c7551c8dcb00
+revision_basis: e1ea25ad9632
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1161--K1165 generalize K792/K880's held redundant-row factorization and
+    test the first obvious attempt to turn the finite source-epsilon target
+    into a field-valued high-rank constraint. At one
+    fixed covector, any finite stack `Q_j=A_j q` factors as `Q=S q`, so its
+    rank on every subspace is at most the rank of the one base symbol.
+    Ordinary derivative jets have exactly this form. An exact positive control
+    shows that genuinely independent symbols do add rank one-for-one, so the
+    boundary is factorization rather than differential order. Consequently no
+    finite derivative order, jet count or target restacking changes the
+    moment-map shortfalls `98379/98379/106543` or invariant-lock shortfalls
+    `98463/98463/106627`. Any combined epsilon-plus-bulk repair must supply
+    those ranks on directions invisible to the finite channel, or use an
+    enlarged closed gauge/KT image or changed stationary parent. No protected
+    status moves.
+
     K1156--K1160 test the strongest retained finite source-owned boundary
     parent against the current K132 positive-cohomology requirement. If
     `Q:V->W`, `Hd=Qd=0`, and `rad(H|ker Q)=im d`, then the sharp necessary
@@ -13648,6 +13663,15 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1161--K1165 exclude every finite fixed-covector differential, jet or
+  operator-valued descendant stack that still factors through the one
+  91-component source-epsilon moment map or seven-invariant lock. Which actual
+  source-owned bulk-boundary or constraint symbol supplies at least
+  `98379/98379/106543` independent directions on the K132 radical outside the
+  full moment-map channel, or which enlarged closed gauge/KT image or changed
+  stationary parent recomputes the packet while meeting every K1150 functional
+  gate? Derivative multiplicity is not independent rank.
+
   K1156--K1160 exclude one directly or favorably transported finite
   source-epsilon moment map and one seven-invariant lock as the missing K132
   constraint by the sharp budget `rank d + dim W >= dim ker H`. Which actual
@@ -15458,6 +15482,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K1161--K1165 prove that every finite fixed-symbol differential, jet or
+  operator-valued descendant stack of one constraint factors through its base
+  symbol and therefore cannot gain rank. The retained 91-component moment map
+  and seven-invariant lock keep exactly the K1158 shortfalls under all such
+  prolongations. Advance only with a source-owned principal symbol that adds
+  at least `98379/98379/106543` directions invisible to the moment-map channel,
+  an enlarged closed gauge/KT image, or a changed stationary parent with every
+  gate recomputed. Lower-order boundary mechanisms remain open only if their
+  information does not factor through the same finite channel.
+
   K1156--K1160 prove the sharp constraint-gauge rank budget
   `rank d + dim W >= dim ker H` and apply it to the retained source-epsilon
   boundary parent. One 91-component cotangent moment map falls short of K132's
