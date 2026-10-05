@@ -1,0 +1,82 @@
+{
+  "advance": "reduced affine-branch survival now has exact divisibility, curvature, multi-auxiliary and three-mode tests",
+  "counts": {
+    "gu_source_owned": 0,
+    "mathematical_pass_or_conditional": 4,
+    "open_physical_or_source": 3,
+    "repository_conditional_owned": 4,
+    "scorable": 0
+  },
+  "created": "2026-10-04",
+  "ledger_effect": "none -- LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS",
+  "next_condition": "supply a source-selected stationary Hessian with functional BV/BFV complex, positive pairing, common domain and auxiliary splitting; compute the exact reduced branch and test its three-mode divided difference before apparatus scoring",
+  "nonselection": "the reduced-branch tests do not select a GU action, BV/BFV differential, positive domain, auxiliary splitting or apparatus",
+  "requirements": [
+    {
+      "candidate_grade": "pass_conditional",
+      "evidence": "K1096",
+      "gu_source_owned": false,
+      "id": "schur_affinity_classification",
+      "repository_conditional_owned": true,
+      "scorable": false
+    },
+    {
+      "candidate_grade": "pass_conditional",
+      "evidence": "K1097",
+      "gu_source_owned": false,
+      "id": "one_auxiliary_curvature",
+      "repository_conditional_owned": true,
+      "scorable": false
+    },
+    {
+      "candidate_grade": "pass_conditional",
+      "evidence": "K1098",
+      "gu_source_owned": false,
+      "id": "multi_auxiliary_stieltjes_law",
+      "repository_conditional_owned": true,
+      "scorable": false
+    },
+    {
+      "candidate_grade": "pass_conditional",
+      "evidence": "K1099",
+      "gu_source_owned": false,
+      "id": "three_mode_mixing_witness",
+      "repository_conditional_owned": true,
+      "scorable": false
+    },
+    {
+      "candidate_grade": "open",
+      "evidence": "SC-ACT-01/02/06",
+      "gu_source_owned": false,
+      "id": "source_selected_functional_complex",
+      "repository_conditional_owned": false,
+      "scorable": false
+    },
+    {
+      "candidate_grade": "open",
+      "evidence": "LT-SM8/LT-GR6b",
+      "gu_source_owned": false,
+      "id": "positive_physical_cohomology",
+      "repository_conditional_owned": false,
+      "scorable": false
+    },
+    {
+      "candidate_grade": "open",
+      "evidence": "K1099 scope boundary",
+      "gu_source_owned": false,
+      "id": "measured_modes_and_systematics",
+      "repository_conditional_owned": false,
+      "scorable": false
+    }
+  ],
+  "result_id": "K1100-K1099-REDUCED-BRANCH-BOUNDARY",
+  "schema_version": "1.0",
+  "source_scope": {
+    "SC-ACT-01": "ASSERTS",
+    "SC-ACT-02": "ASSERTS",
+    "SC-ACT-06": "ASSERTS",
+    "SC-META-53": "UNCERTAIN"
+  },
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

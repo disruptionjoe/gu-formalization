@@ -1,0 +1,35 @@
+{
+  "branch_family": "S(lambda)=alpha*lambda+beta-g^2/(lambda+d)",
+  "created": "2026-10-04",
+  "decision": "constant auxiliary mixing makes the reduced branch strictly increasing and strictly concave on the positive auxiliary domain",
+  "domain": "lambda>-d with alpha>0, d>0 and g!=0",
+  "first_derivative": "alpha+g^2/(lambda+d)^2 > 0",
+  "fixture": {
+    "alpha": 2,
+    "beta": 3,
+    "d": 2,
+    "g_squared": 1
+  },
+  "fixture_roots": [
+    "-5/2",
+    "-1"
+  ],
+  "result_id": "K1097-K1096-ONE-AUXILIARY-CURVATURE",
+  "sample_lambdas": [
+    0,
+    1,
+    2
+  ],
+  "sample_values": [
+    "5/2",
+    "14/3",
+    "27/4"
+  ],
+  "schema_version": "1.0",
+  "scope_boundary": "conditional one-auxiliary scalar Schur law; no source-selected GU coefficient or physical mode",
+  "second_derivative": "-2*g^2/(lambda+d)^3 < 0",
+  "second_finite_difference": "-1/12",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "unique_domain_root": "-1"
+}

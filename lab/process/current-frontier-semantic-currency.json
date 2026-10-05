@@ -1472,7 +1472,7 @@
     },
     "research_agenda": {
       "path": "lab/process/RESEARCH-AGENDA.json",
-      "sha256": "1e102a314c17d11270ebf8e4f7ff55778a7e5608d99adc46714b24276f0fc72a"
+      "sha256": "6a5a6517eb2baf6cfa5ee9c7c9a2930d57850b801f87cfb862dd98eedf078747"
     },
     "k684_closed_column_remainder_compiler": {
       "path": "lab/process/k684-k500-closed-column-remainder-compiler.json",
@@ -2619,10 +2619,11 @@
     "exact_reopener": "action-owned equation-9.16 map fixing internal projection, form-leg contraction, real/Krein coefficients, family covector, selected quadratic owner and nonzero background or interaction meaning"
   },
   "live_frontier": {
-    "current_question_contains": "K1091--K1095 prove that a Ward identity alone does not put a Hessian on physical cohomology",
-    "selected_condition": "HARMONIC_PROJECTOR_DESCENT_CRITERION__WARD_IDENTITY_INSUFFICIENCY__SCHUR_PHYSICAL_HESSIAN__AFFINE_UNREDUCED_NONAFFINE_REDUCED_BRANCH__FOUR_CONDITIONAL_PASS__ZERO_GU_SOURCE_OWNED_ZERO_SCORABLE__NO_PROTECTED_CLAIM_MOVE",
+    "current_question_contains": "K1096--K1100 prove the exact scalar affinity condition for a Schur-reduced branch",
+    "selected_condition": "SCHUR_AFFINITY_IFF_PROPORTIONAL_MIXING__CONSTANT_BLOCK_REQUIRES_CONSTANT_MIXING__POSITIVE_MULTI_AUXILIARY_STIELTJES_CONCAVITY__THREE_MODE_NEGATIVE_DIVIDED_DIFFERENCE__FINITE_DATA_ALIAS__FOUR_CONDITIONAL_PASS__ZERO_GU_SOURCE_OWNED_ZERO_SCORABLE__NO_PROTECTED_CLAIM_MOVE",
     "b2_root": "EMPTY_NAMED_OWNER_SET",
     "reopeners": [
+      "supply a source-selected GU stationary Hessian and functional BV/BFV complex with physical and auxiliary blocks, coupling, positive pairing, common operator domains and owned auxiliary splitting; compute the exact reduced branch and its three-mode divided difference, then supply prepared modes, dimensional scale, detector record and complete systematics before scoring",
       "supply a source-selected GU stationary Hessian and functional BV/BFV complex with differential, positive pairing, common operator domains and an owned auxiliary splitting; compute the physical projector or quotient operator, exact Schur complement, reduced commutator and surviving branch law before composing any independently owned ruler or apparatus score",
       "supply a source-selected GU stationary Hessian or curved action-owned quotient with M,E,nabla,B,C, one self-adjoint boundary realization and cross-sector spectral identification; test nabla C, [B,C], the boundary defect and restricted spectra, then construct positive BV/BFV cohomology and an independently owned ruler and apparatus before scoring",
       "supply a source-selected GU stationary Hessian or curved action-owned quotient with principal kinetic block, lower-order mass block and boundary domain; compute the full differential commutator, then construct physical positive BV cohomology and an independently owned ruler and apparatus before scoring",

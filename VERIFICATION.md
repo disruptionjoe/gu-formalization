@@ -7,6 +7,20 @@ updated_at: "2026-10-04"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1096--K1100 reduced affine-branch survival boundary (2026-10-04)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A scalar affine two-block pencil has an affine Schur branch exactly under the stated proportional-mixing condition | K1096 polynomial divisibility theorem, positive repair and K1094 failure controls; producer `14/14`; hostile mutations `9/9` | exact scalar rational-function classification; no source-selected functional Hessian |
+| One constant-coupling auxiliary mode makes the reduced branch strictly increasing and strictly concave | K1097 derivative theorem, exact roots and `-1/12` fixture; producer `13/13`; hostile mutations `12/12` | exact conditional one-auxiliary theorem; no physical mode or coefficient |
+| A positive diagonal auxiliary sector produces an affine branch minus a completely monotone Stieltjes sum | K1098 multi-auxiliary Schur identity and exact two-mode-sector fixture; producer `13/13`; hostile mutations `12/12` | exact finite diagonal-class theorem; noncommuting functional blocks remain open |
+| Three exact modes detect nonzero positive mixing in that class but do not identify the hidden auxiliary realization | K1099 `-7/30` divided difference and exact one-auxiliary alias; producer `11/11`; hostile mutations `11/11` | exact classifier and non-identifiability result; no preparation, error model or apparatus |
+| Four conditional mathematical rows pass while zero rows become GU-source-owned or empirically scorable | K1100 ownership matrix; producer `10/10`; hostile mutations `9/9` | conditional requirement disposition; no empirical score, prediction or confirmation |
+
+SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`, and LT-SM8,
+LT-GR6b, RA-F1 and AC-F1 remain `NEEDS`. No empirical score, prediction,
+confirmation, canon or public status moves.
+
 ## K1091--K1095 cohomology-Hessian reduction boundary (2026-10-04)
 
 | Claim | Evidence | Honest grade |

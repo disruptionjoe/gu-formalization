@@ -1,0 +1,41 @@
+{
+  "constant_auxiliary": {
+    "affine_iff": "b1=0",
+    "assumption": "d1=0 and d0!=0",
+    "quadratic_coefficient": "-b1^2/d0"
+  },
+  "constant_block_fixture": {
+    "A": "3+2*lambda",
+    "B": "1",
+    "D": "2",
+    "effective_branch": "5/2+2*lambda"
+  },
+  "created": "2026-10-04",
+  "effective_branch": "S=A-B^2/D",
+  "k1094_failure_fixture": {
+    "A": "2+lambda",
+    "B": "1",
+    "D": "2+lambda",
+    "condition_value": "1",
+    "effective_branch": "2+lambda-1/(2+lambda)"
+  },
+  "nonconstant_auxiliary": {
+    "affine_iff": "b0*d1-b1*d0=0",
+    "assumption": "d1!=0 and D!=0 on the tested domain",
+    "interpretation": "B=cD, so S=A-c^2 D is affine",
+    "pole_remainder": "-(b0*d1-b1*d0)^2/d1^2"
+  },
+  "pencil": "A=a0+a1*lambda, B=b0+b1*lambda, D=d0+d1*lambda",
+  "positive_repair_fixture": {
+    "A": "10+5*lambda",
+    "B": "4+2*lambda",
+    "D": "2+lambda",
+    "condition_value": "0",
+    "effective_branch": "2+lambda"
+  },
+  "result_id": "K1096-K1095-SCHUR-AFFINITY-CLASSIFICATION",
+  "schema_version": "1.0",
+  "scope_boundary": "exact scalar affine-pencil classification; no source-selected GU Hessian, quotient or apparatus",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

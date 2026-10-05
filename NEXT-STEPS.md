@@ -7,6 +7,19 @@ updated_at: "2026-10-04"
 
 # Next Steps For Contributors
 
+> **2026-10-04 K1096--K1100 REDUCED AFFINE-BRANCH SURVIVAL BOUNDARY.** For
+> scalar affine blocks, a moving auxiliary block retains an affine Schur
+> branch exactly when its mixing is proportional to that block; a constant
+> auxiliary block requires constant mixing. Positive constant multi-auxiliary
+> mixing instead gives an affine branch minus a Stieltjes sum, with strict
+> concavity and an exact negative three-mode divided difference. The K1098
+> fixture gives `-7/30`, but K1099 constructs a distinct one-auxiliary model
+> with the same three values, so the witness detects mixing without
+> identifying the hidden sector. Next obtain a source-selected stationary GU
+> Hessian and functional BV/BFV complex, compute its exact reduced branch and
+> three-mode curvature, then supply prepared modes, scale and systematics
+> before scoring.
+
 > **2026-10-04 K1091--K1095 COHOMOLOGY-HESSIAN REDUCTION BOUNDARY.** A
 > self-adjoint Hessian on a finite Hilbert complex acts on harmonic
 > representatives exactly when it commutes with the harmonic projector. The

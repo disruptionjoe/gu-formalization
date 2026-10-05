@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 03b471d09c90
+revision_basis: 7fa20efc1885
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1096--K1100 classify when affine Hessian blocks retain an affine physical
+    branch after auxiliary elimination. For scalar affine blocks
+    `A=a0+a1 lambda`, `B=b0+b1 lambda`, `D=d0+d1 lambda` with `d1!=0`, the
+    Schur branch is affine exactly when `b0 d1-b1 d0=0`, equivalently
+    `B=cD`; for constant `D`, affinity instead requires constant `B`.
+    Constant nonzero auxiliary mixing gives an affine branch minus a positive
+    Stieltjes sum, hence strict concavity. Its exact second divided difference
+    on three ordered modes is negative whenever any positive coupling
+    survives. The K1098 fixture gives `-7/30` on modes `0,1,2`, but a distinct
+    one-auxiliary model reproduces the same three values, so the witness
+    detects mixing inside the frozen class without identifying the hidden
+    sector. Four conditional mathematical rows pass, but zero become
+    GU-source-owned or scorable. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53
+    remains `UNCERTAIN`, and LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain `NEEDS`;
+    no protected status moves.
+
     K1091--K1095 make the cohomological reduction seam exact. For a finite
     Hilbert complex, a self-adjoint Hessian acts on harmonic representatives
     exactly when it commutes with the harmonic projector. The linear Ward
@@ -13459,6 +13475,17 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1096--K1100 prove the exact scalar affinity condition for a Schur-reduced
+  branch and show that positive constant auxiliary mixing produces a strictly
+  concave Stieltjes correction. Three exact modes detect that mixing inside
+  the frozen diagonal class, but do not identify auxiliary multiplicity,
+  shifts or weights. Which source-selected GU stationary Hessian and
+  functional BV/BFV complex can now supply the physical block, auxiliary
+  block, coupling, positive pairing and common domain? What is the exact
+  reduced branch on that object, and does its three-mode divided difference
+  vanish or fire? Only after the model class, modes and error budget are owned
+  may the witness inform a physical apparatus score.
+
   K1091--K1095 prove that a Ward identity alone does not put a Hessian on
   physical cohomology, that harmonic-projector commutation is the exact finite
   criterion, and that eliminating mixed auxiliary modes replaces raw
@@ -15152,6 +15179,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K1096--K1100 close the scalar affine-survival, positive multi-auxiliary
+  curvature and exact three-mode witness seams. Preserve the distinction
+  between detecting nonzero mixing inside the diagonal Stieltjes class and
+  identifying its auxiliary realization. Reopen GU credit only on a
+  source-selected stationary Hessian with functional BV/BFV complex, positive
+  pairing, common domain and owned auxiliary splitting. Compute the exact
+  reduced branch and its three-mode divided difference before composing a
+  dimensional ruler, prepared modes, detector record or apparatus score.
+
   K1091--K1095 close the finite cohomological-Hessian and auxiliary-reduction
   seams. Preserve the distinction between a Ward identity and descent to
   harmonic representatives; between raw harmonic compression and the Schur

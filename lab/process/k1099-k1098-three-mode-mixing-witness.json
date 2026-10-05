@@ -1,0 +1,31 @@
+{
+  "created": "2026-10-04",
+  "decision": "three exact modes detect nonzero positive auxiliary mixing within the assumed class but do not identify auxiliary multiplicity, shifts or weights",
+  "finite_second_difference": "-7/15",
+  "fixture_modes": [
+    0,
+    1,
+    2
+  ],
+  "fixture_values": [
+    "8/3",
+    "11/2",
+    "118/15"
+  ],
+  "general_identity": "S[x0,x1,x2]=-sum_i w_i/((x0+d_i)(x1+d_i)(x2+d_i))",
+  "result_id": "K1099-K1098-THREE-MODE-MIXING-WITNESS",
+  "schema_version": "1.0",
+  "scope_boundary": "conditional three-mode classifier; no prepared physical modes, error model or GU-owned auxiliary sector",
+  "second_divided_difference": "-7/30",
+  "sign_rule": "strictly negative for ordered modes in the positive domain iff at least one w_i>0",
+  "single_auxiliary_alias": {
+    "alpha": "32/15",
+    "beta": "61/15",
+    "same_three_values": true,
+    "shift": 1,
+    "weight": "7/5"
+  },
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "zero_witness_boundary": "zero excludes positive constant mixing only after the diagonal Stieltjes class and exact samples are independently owned"
+}
