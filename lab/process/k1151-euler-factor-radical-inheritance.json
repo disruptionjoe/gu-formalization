@@ -1,0 +1,25 @@
+{
+  "created": "2026-10-05",
+  "exact_control": {
+    "H": [[-2, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 3]],
+    "L": [[1, 2, -1, 1], [0, 1, 1, 0]],
+    "Q": [[-2, 0, 0, 3], [0, 0, 0, 0]],
+    "all_radical_pairings": [0, 0, 0, 0],
+    "dim_ker_H": 2,
+    "ker_H_basis": [[0, 1, 0, 0], [0, 0, 1, 0]],
+    "ker_Q_control_vectors": [[0, 1, -1, 0], [3, 0, 0, 2]],
+    "nongauge_radical_dimension": 1,
+    "rank_d_control": 1
+  },
+  "result_id": "K1151-EULER-FACTOR-RADICAL-INHERITANCE",
+  "schema_version": "1.0",
+  "source_scope": "applies to constraints formed only by linear postprocessing of source Euler rows at one fixed symbol; it does not classify nonfactor boundary, constraint, or KT/BFV maps",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "constraint_class": "Q=L H for an arbitrary linear Euler-row postprocessor L",
+    "kernel_inclusion": "ker(H) subset ker(Q)",
+    "positive_quotient_necessary_condition": "ker(H)=im(d) whenever im(d) subset ker(H) and rad(H|ker(Q))=im(d)",
+    "radical_inclusion": "ker(H) subset rad(H restricted to ker(Q))"
+  }
+}

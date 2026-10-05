@@ -1,0 +1,18 @@
+{
+  "branches": [
+    {"branch": "nonfactor_constraint", "causal_rank_on_kernel_floor": {"null": 106634, "spacelike": 98470, "timelike": 98470}, "current_status": "not_supplied", "necessary_input": "source-owned Q not factoring through H, with Qd=0 and injective action on ker(H)/im(d)"},
+    {"branch": "enlarged_gauge_or_kt_image", "causal_rank_on_kernel_floor": null, "current_status": "not_supplied", "necessary_input": "source-owned closed image enlarging im(d) to the complete constrained radical on one common domain"},
+    {"branch": "changed_parent_packet", "causal_rank_on_kernel_floor": null, "current_status": "not_supplied", "necessary_input": "different source-owned Hessian, pairing, stationary background, or bulk-boundary differential with every K1150 gate recomputed"}
+  ],
+  "branches_currently_supplied": 0,
+  "claim_ceiling": "excludes only the current Euler-factor constraint class; it does not exclude a new source differential, enlarged gauge/KT owner, changed stationary parent, or actual boundary coupling",
+  "created": "2026-10-05",
+  "functional_gates_retained": ["common_product_domain", "closed_gauge_range", "uniform_positive_gap", "skew_adjoint_boundary_generator", "common_trace_and_Green_form"],
+  "prior_negative_capture_floor_retained": {"null": 4, "spacelike": 6, "timelike": 6},
+  "rejected_class": "Euler-row-only constraints Q=L H on the current K132 Hessian",
+  "result_id": "K1154-SOURCE-I1B-CONSTRAINT-REPAIR-TRILEMMA",
+  "schema_version": "1.0",
+  "status": "working_draft_verified",
+  "stronger_radical_capture_floor": {"null": 106634, "spacelike": 98470, "timelike": 98470},
+  "target_claim": "NONE-NOT-A-KILL"
+}

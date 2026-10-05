@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 9d93de47ea83
+revision_basis: 12c8f260b118
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1151--K1155 test the first broad source-owned constraint class against
+    the completed admission packet. Every linear Euler-row postprocessor has
+    `Q=L H`, so `ker H` lies in both `ker Q` and the radical of
+    `H|ker Q`. More generally, if `Qd=0` and that restricted radical is
+    exactly `im d`, then `Q` must be injective on `ker H/im d`, giving the
+    sharp floor `rank(Q|ker H)=dim ker H-rank d`. Applied to K132's
+    229386-dimensional coupled symbols and rank-four metric-diffeomorphism
+    image, the timelike, spacelike and null floors are respectively `98470`,
+    `98470` and `106634`. Every Euler-factor constraint has zero rank there
+    and fails the positive-nonzero-cohomology gate. A viable repair must be a
+    source-owned nonfactor differential, an enlarged closed gauge/KT image,
+    or a changed Hessian/pairing/background/boundary packet with every prior
+    gate recomputed. Zero current candidates pass, and no protected status
+    moves.
+
     K1146--K1150 split the last bundled functional-domain row in K1145 into
     four exact and independent tests. A finite intersection of closed operator
     domains is complete in its combined graph norm, but it need not contain
@@ -15418,6 +15433,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K1151--K1155 reject every linear Euler-row postprocessor `Q=L H` of the
+  current K132 Hessian as the missing physical constraint: it annihilates the
+  complete Hessian kernel and therefore leaves its nongauge part inside the
+  constrained radical. For the current rank-four gauge image, any successful
+  nonfactor `Q` must detect `ker H/im d` with ranks at least
+  `98470/98470/106634` on timelike/spacelike/null symbols, in addition to the
+  prior `6/6/4` negative capture and every K1150 functional gate. Advance by
+  deriving that actual source-owned nonfactor bulk-boundary or constraint
+  differential, by source-owning an enlarged closed gauge/KT image, or by
+  supplying a changed stationary parent and recomputing the packet. Do not
+  relabel an Euler-row projection as the missing constraint.
+
   K1146--K1150 close the generic functional-analysis checklist without
   constructing its source owner. Preserve the distinctions among a common
   graph domain, a product domain, a Hausdorff quotient, modewise positivity,

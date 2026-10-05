@@ -1,0 +1,17 @@
+{
+  "causal_rank_floors": {"null": 106634, "spacelike": 98470, "timelike": 98470},
+  "conclusion": "every Euler-factor constraint Q=L H fails the positive-nonzero-cohomology radical gate on all three K132 causal strata",
+  "created": "2026-10-05",
+  "protected_effect": "none",
+  "repair_requirement": "a successful current-Hessian constraint must detect ker(H)/im(d) at the stated rank, or a source-owned enlarged gauge image or changed parent must be supplied",
+  "result_id": "K1153-K132-CAUSAL-RADICAL-CAPTURE-FLOOR",
+  "schema_version": "1.0",
+  "source_owner": "K132 selected source-native I1B coupled DN Hessian with rank-four metric diffeomorphism image",
+  "status": "working_draft_verified",
+  "strata": {
+    "null": {"euler_factor_passes_positive_cohomology_gate": false, "euler_factor_rank_on_hessian_kernel": 0, "field_dimension": 229386, "hessian_kernel_dimension": 106638, "hessian_rank": 122748, "owned_gauge_rank": 4, "required_rank_on_hessian_kernel": 106634},
+    "spacelike": {"euler_factor_passes_positive_cohomology_gate": false, "euler_factor_rank_on_hessian_kernel": 0, "field_dimension": 229386, "hessian_kernel_dimension": 98474, "hessian_rank": 130912, "owned_gauge_rank": 4, "required_rank_on_hessian_kernel": 98470},
+    "timelike": {"euler_factor_passes_positive_cohomology_gate": false, "euler_factor_rank_on_hessian_kernel": 0, "field_dimension": 229386, "hessian_kernel_dimension": 98474, "hessian_rank": 130912, "owned_gauge_rank": 4, "required_rank_on_hessian_kernel": 98470}
+  },
+  "target_claim": "NONE-NOT-A-KILL"
+}

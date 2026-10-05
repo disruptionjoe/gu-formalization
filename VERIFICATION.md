@@ -7,6 +7,21 @@ updated_at: "2026-10-05"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1151--K1155 Euler-factor radical-capture boundary (2026-10-05)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Every Euler-factor constraint `Q=L H` inherits the complete Hessian kernel inside its constrained radical | K1151 theorem and exact four-dimensional control; producer `12/12`; hostile mutations `11/11` | exact finite-dimensional theorem; no nonfactor boundary or KT/BFV map classified |
+| A positive quotient with `Qd=0` requires `rank(Q|ker H)=dim ker H-rank d` | K1152 rank-nullity theorem and sharp three-dimensional control; producer `12/12`; hostile mutations `11/11` | sharp finite-dimensional necessary condition; functional gates remain |
+| K132's causal kernel-capture floors are `98470/98470/106634` | K1153 exact rank-nullity application; producer `12/12`; hostile mutations `9/9` | selected source-native finite symbols; no global domain |
+| Honest repairs split into a nonfactor constraint, enlarged gauge/KT image, or changed parent packet | K1154 typed trilemma; producer `11/11`; hostile mutations `8/8` | current ownership boundary; no branch supplied |
+| The whole current Euler-row-only class fails the positive-nonzero-cohomology gate | K1155 admission update; producer `12/12`; hostile mutations `12/12` | exact class exclusion on K132; not a GU or SC-ACT-06 no-go |
+
+Five producers pass `59/59` controls and five probes reject `51/51` hostile
+mutations. `SC-ACT-01/02/06` remain `ASSERTS`, `SC-META-53` remains
+`UNCERTAIN`, and `LT-SM8/LT-GR6b/RA-F1/AC-F1` remain `NEEDS`. No empirical
+score, prediction, confirmation, canon, paper or public status moves.
+
 ## K1146--K1150 functional admission gates (2026-10-05)
 
 | Claim | Evidence | Honest grade |

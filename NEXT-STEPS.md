@@ -7,6 +7,19 @@ updated_at: "2026-10-05"
 
 # Next Steps For Contributors
 
+> **2026-10-05 K1151--K1155 EULER-FACTOR RADICAL-CAPTURE BOUNDARY.** Every
+> constraint obtained only by postprocessing source Euler rows has `Q=L H`,
+> so it annihilates the entire Hessian kernel and leaves that kernel inside
+> `rad(H|ker Q)`. A positive nonzero quotient with `Qd=0` instead requires
+> `Q` to be injective on `ker H/im d`. For K132, the exact timelike,
+> spacelike and null rank floors on this quotient are
+> `98470/98470/106634`; Euler-factor constraints have rank zero there. Next
+> derive a genuinely nonfactor source-owned bulk-boundary or constraint map
+> meeting those floors, the prior `6/6/4` negative capture and every K1150
+> functional gate; alternatively source-own an enlarged closed gauge/KT image
+> or changed stationary parent. Do not present an Euler-row projection as the
+> missing physical constraint.
+
 > **2026-10-05 K1146--K1150 FUNCTIONAL ADMISSION GATES.** A common graph
 > domain for closed `Q,d,G,H` does not automatically contain their product
 > domains. Algebraic cohomology is Hausdorff only when `im d` is closed, and a
