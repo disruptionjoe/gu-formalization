@@ -1,0 +1,45 @@
+{
+  "commutator_rank": 2,
+  "constraint_spill": 1,
+  "created": "2026-10-04",
+  "decision": "L d0=0 does not imply L(H1) subset H1 or [L,P_H]=0",
+  "eigenvalues": [
+    0,
+    1,
+    3
+  ],
+  "harmonic_image": [
+    0,
+    2,
+    1
+  ],
+  "hessian": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      1
+    ],
+    [
+      0,
+      1,
+      2
+    ]
+  ],
+  "positive_semidefinite": true,
+  "raw_compression": 2,
+  "result_id": "K1092-K1091-WARD-INSUFFICIENCY",
+  "schema_version": "1.0",
+  "scope_boundary": "finite conditional counterexample; no source action, functional BV complex or physical spectrum",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "ward_vector": [
+    0,
+    0,
+    0
+  ]
+}

@@ -7,6 +7,20 @@ updated_at: "2026-10-04"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1091--K1095 cohomology-Hessian reduction boundary (2026-10-04)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A self-adjoint finite-complex Hessian descends to harmonic representatives exactly when it commutes with the harmonic projector | K1091 Hodge-block equivalence and exact three-dimensional fixture; producer `11/11`; hostile mutations `10/10` | exact finite Hilbert-complex theorem; no source-selected functional BV/BFV complex |
+| The linear Ward identity does not by itself imply physical cohomology descent | K1092 positive-semidefinite matrix with `L d0=0`, unit harmonic spill and rank-two projector commutator; producer `10/10`; hostile mutations `10/10` | exact counterexample; not a claim about a complete GU action Hessian |
+| Mixed auxiliary modes replace raw harmonic compression by the Schur effective Hessian | K1093 completion-of-squares identity and exact `2` versus `3/2` fixture; producer `11/11`; hostile mutations `10/10` | exact finite block theorem under invertible positive auxiliary block; functional domains open |
+| An affine unreduced pencil can produce a non-affine reduced physical branch | K1094 exact pencil with affine full eigenvalues and rational Schur branch; producer `11/11`; hostile mutations `10/10` | exact two-block counterexample; not a source-owned GU dispersion relation |
+| Four conditional mathematical rows pass while zero rows become GU-source-owned or empirically scorable | K1095 ownership matrix; producer `10/10`; hostile mutations `9/9` | conditional requirement disposition; no empirical score, prediction or confirmation |
+
+SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`, and LT-SM8,
+LT-GR6b, RA-F1 and AC-F1 remain `NEEDS`. No empirical score, prediction,
+confirmation, canon or public status moves.
+
 ## K1086--K1090 curved-Hessian boundary (2026-10-04)
 
 | Claim | Evidence | Honest grade |

@@ -1,0 +1,24 @@
+{
+  "auxiliary_solution": "y=-D^-1 B* x",
+  "block_operator": "L=[[A,B],[B*,D]] on H direct_sum A with D invertible",
+  "congruence": "[[I,-B D^-1],[0,I]] block-diagonalizes L to diag(L_eff,D)",
+  "created": "2026-10-04",
+  "effective_hessian": "L_eff=A-B D^-1 B*",
+  "effective_value": "3/2",
+  "fixture": {
+    "A": 2,
+    "B": 1,
+    "D": 2
+  },
+  "full_eigenvalues": [
+    1,
+    3
+  ],
+  "positivity_equivalence": "if D>0, then L>=0 iff L_eff>=0",
+  "raw_compression": "2",
+  "result_id": "K1093-K1092-SCHUR-PHYSICAL-HESSIAN",
+  "schema_version": "1.0",
+  "scope_boundary": "finite conditional theorem; no GU gauge fixing, functional domain, boundary law or positivity owner",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

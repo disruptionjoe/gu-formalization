@@ -1472,7 +1472,7 @@
     },
     "research_agenda": {
       "path": "lab/process/RESEARCH-AGENDA.json",
-      "sha256": "f1f7ae9228e880a3d1d0a0b4c2b78514999a3fb324725189b3f72fa8e5594edb"
+      "sha256": "1e102a314c17d11270ebf8e4f7ff55778a7e5608d99adc46714b24276f0fc72a"
     },
     "k684_closed_column_remainder_compiler": {
       "path": "lab/process/k684-k500-closed-column-remainder-compiler.json",
@@ -2619,10 +2619,11 @@
     "exact_reopener": "action-owned equation-9.16 map fixing internal projection, form-leg contraction, real/Krein coefficients, family covector, selected quadratic owner and nonzero background or interaction meaning"
   },
   "live_frontier": {
-    "current_question_contains": "K1086--K1090 prove the exact curved survival conditions for the flat functional selector",
-    "selected_condition": "COVARIANT_PARALLEL_COMMUTATOR_CRITERION__DIRICHLET_NEUMANN_ROBIN_DOMAIN_PRESERVATION__HOLONOMY_BRANCH_DECOMPOSITION__TWISTED_COMMON_LADDER_OBSTRUCTION__FOUR_CONDITIONAL_PASS__ZERO_GU_SOURCE_OWNED_ZERO_SCORABLE__NO_PROTECTED_CLAIM_MOVE",
+    "current_question_contains": "K1091--K1095 prove that a Ward identity alone does not put a Hessian on physical cohomology",
+    "selected_condition": "HARMONIC_PROJECTOR_DESCENT_CRITERION__WARD_IDENTITY_INSUFFICIENCY__SCHUR_PHYSICAL_HESSIAN__AFFINE_UNREDUCED_NONAFFINE_REDUCED_BRANCH__FOUR_CONDITIONAL_PASS__ZERO_GU_SOURCE_OWNED_ZERO_SCORABLE__NO_PROTECTED_CLAIM_MOVE",
     "b2_root": "EMPTY_NAMED_OWNER_SET",
     "reopeners": [
+      "supply a source-selected GU stationary Hessian and functional BV/BFV complex with differential, positive pairing, common operator domains and an owned auxiliary splitting; compute the physical projector or quotient operator, exact Schur complement, reduced commutator and surviving branch law before composing any independently owned ruler or apparatus score",
       "supply a source-selected GU stationary Hessian or curved action-owned quotient with M,E,nabla,B,C, one self-adjoint boundary realization and cross-sector spectral identification; test nabla C, [B,C], the boundary defect and restricted spectra, then construct positive BV/BFV cohomology and an independently owned ruler and apparatus before scoring",
       "supply a source-selected GU stationary Hessian or curved action-owned quotient with principal kinetic block, lower-order mass block and boundary domain; compute the full differential commutator, then construct physical positive BV cohomology and an independently owned ruler and apparatus before scoring",
       "supply a source/action-owned positive functional Hessian on one native stationary quotient, extract kinetic A, gradient B and mass C blocks on a common domain, test [A^-1B,A^-1C] with two spatial modes, and only on the commuting horn read branch ratios u_j=c_j/b_j before composing the dimensional ruler and physical apparatus",

@@ -1,0 +1,82 @@
+{
+  "advance": "physical spectral reading now has exact harmonic-invariance, Ward, Schur-reduction and reduced-affinity tests",
+  "counts": {
+    "gu_source_owned": 0,
+    "mathematical_pass_or_conditional": 4,
+    "open_physical_or_source": 3,
+    "repository_conditional_owned": 4,
+    "scorable": 0
+  },
+  "created": "2026-10-04",
+  "ledger_effect": "none -- LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS",
+  "next_condition": "supply a source-selected stationary Hessian, functional BV/BFV complex, positive pairing and common closed boundary domain; compute the harmonic projector or Schur reduction and test the reduced commutator and branch law",
+  "nonselection": "finite cohomology-Hessian tests do not select a GU action, BV/BFV differential, positive domain or apparatus",
+  "requirements": [
+    {
+      "candidate_grade": "pass_conditional",
+      "evidence": "K1091",
+      "gu_source_owned": false,
+      "id": "harmonic_invariance",
+      "repository_conditional_owned": true,
+      "scorable": false
+    },
+    {
+      "candidate_grade": "pass_conditional",
+      "evidence": "K1092",
+      "gu_source_owned": false,
+      "id": "ward_insufficiency",
+      "repository_conditional_owned": true,
+      "scorable": false
+    },
+    {
+      "candidate_grade": "pass_conditional",
+      "evidence": "K1093",
+      "gu_source_owned": false,
+      "id": "schur_physical_hessian",
+      "repository_conditional_owned": true,
+      "scorable": false
+    },
+    {
+      "candidate_grade": "pass_conditional",
+      "evidence": "K1094",
+      "gu_source_owned": false,
+      "id": "reduced_affine_branch_test",
+      "repository_conditional_owned": true,
+      "scorable": false
+    },
+    {
+      "candidate_grade": "open",
+      "evidence": "SC-ACT-01/02/06",
+      "gu_source_owned": false,
+      "id": "source_selected_functional_complex",
+      "repository_conditional_owned": false,
+      "scorable": false
+    },
+    {
+      "candidate_grade": "open",
+      "evidence": "LT-SM8/LT-GR6b",
+      "gu_source_owned": false,
+      "id": "positive_physical_cohomology",
+      "repository_conditional_owned": false,
+      "scorable": false
+    },
+    {
+      "candidate_grade": "open",
+      "evidence": "K1070 open rows",
+      "gu_source_owned": false,
+      "id": "measured_apparatus",
+      "repository_conditional_owned": false,
+      "scorable": false
+    }
+  ],
+  "result_id": "K1095-K1094-COHOMOLOGY-HESSIAN-BOUNDARY",
+  "schema_version": "1.0",
+  "source_scope": {
+    "SC-ACT-01": "ASSERTS",
+    "SC-ACT-02": "ASSERTS",
+    "SC-ACT-06": "ASSERTS",
+    "SC-META-53": "UNCERTAIN"
+  },
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

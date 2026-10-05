@@ -1,0 +1,59 @@
+{
+  "bad_commutator_rank": 2,
+  "complex": "C0 --d0--> C1 --d1--> C2 with d1 d0=0 on finite Hilbert spaces",
+  "created": "2026-10-04",
+  "criterion": "for L=L*, harmonic representatives are invariant iff [L,P_H]=0",
+  "fixture_d0": [
+    1,
+    0,
+    0
+  ],
+  "fixture_d1": [
+    0,
+    0,
+    1
+  ],
+  "fixture_projector": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ]
+  ],
+  "good_commutator_rank": 0,
+  "good_hessian": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      0,
+      5
+    ]
+  ],
+  "harmonic_space": "H1=ker(d1) intersect ker(d0*)",
+  "hodge_splitting": "C1=im(d0) direct_sum H1 direct_sum im(d1*)",
+  "proof": "(I-P_H)L P_H=0 is invariance; self-adjointness makes P_H L(I-P_H) its adjoint",
+  "result_id": "K1091-K1090-HARMONIC-HESSIAN-DESCENT",
+  "schema_version": "1.0",
+  "scope_boundary": "finite conditional theorem; no source-selected GU differential, Hessian, closed domain or physical pairing",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

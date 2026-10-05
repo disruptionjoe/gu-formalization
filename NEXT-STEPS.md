@@ -7,6 +7,18 @@ updated_at: "2026-10-04"
 
 # Next Steps For Contributors
 
+> **2026-10-04 K1091--K1095 COHOMOLOGY-HESSIAN REDUCTION BOUNDARY.** A
+> self-adjoint Hessian on a finite Hilbert complex acts on harmonic
+> representatives exactly when it commutes with the harmonic projector. The
+> linear Ward law alone is insufficient: the positive-semidefinite K1092
+> fixture kills the gauge image but sends a harmonic vector partly into the
+> coexact sector. With mixed auxiliary modes, the physical Hessian is instead
+> the Schur complement `A-B D^-1 B*`; even an affine unreduced pencil can then
+> yield a rational, non-affine physical branch. Next obtain a source-selected
+> GU stationary Hessian with its functional BV/BFV complex, positive pairing,
+> common domains and auxiliary splitting, compute the reduced operator and
+> branch law, and only then add an independently owned ruler and apparatus.
+
 > **2026-10-04 K1086--K1090 CURVED-HESSIAN AND BOUNDARY-DOMAIN BOUNDARY.**
 > The flat commutator criterion now has an exact covariant replacement. For
 > `H0=nabla* B nabla`, vanishing `[H0,C]` requires `C` to be parallel and to

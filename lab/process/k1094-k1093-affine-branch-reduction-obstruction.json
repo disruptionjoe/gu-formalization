@@ -1,0 +1,32 @@
+{
+  "affine_repairs": [
+    "zero physical-auxiliary mixing",
+    "lambda-independent invertible auxiliary block with constant mixing"
+  ],
+  "created": "2026-10-04",
+  "decision": "test the reduced physical pencil before reading an intercept-to-slope selector",
+  "effective_branch": "lambda+2-1/(lambda+2)",
+  "pencil": "L(lambda)=[[lambda+2,1],[1,lambda+2]] for lambda>=0",
+  "positive_domain": "lambda>=0",
+  "result_id": "K1094-K1093-AFFINE-BRANCH-REDUCTION-OBSTRUCTION",
+  "sample_lambdas": [
+    0,
+    1,
+    2
+  ],
+  "sample_values": [
+    "3/2",
+    "8/3",
+    "15/4"
+  ],
+  "schema_version": "1.0",
+  "scope_boundary": "exact scalar Schur counterexample; no source-selected GU Hessian, quotient or apparatus",
+  "second_derivative": "-2/(lambda+2)^3",
+  "second_finite_difference": "-1/12",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "unreduced_eigenvalues": [
+    "lambda+1",
+    "lambda+3"
+  ]
+}
