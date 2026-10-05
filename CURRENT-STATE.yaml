@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 1d53bd3143c5
+revision_basis: 8797ed7b1baf
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1131--K1135 classify the current native I1B constraint owners. For the
+    mixed Hessian distortion equation `Ct+Ah=0`, the exact solvability map is
+    `Q=L* A` when `im(L)=ker(C*)`; invertible `C` gives `Q=0`, so generic
+    nonzero `kappa` eliminates `T` but supplies no non-gauge constraint. At
+    zero `kappa`, symbol-null rows fail propagation: only 11 of 24 normal-null
+    directions persist tangentially, generic Weyl curvature gives
+    `D_B^2=ad(F_B) != 0`, and even the flat/central selected Euler is not
+    square-zero. Gauge rows, both `kappa` horns and graph projectors therefore
+    supply zero owned propagated maps meeting `6/6/4` on one common domain.
+    Next construct a new action-derived map with those ranks, propagation,
+    closed domain, nonnegative restriction and positive pairing on nonzero
+    cohomology, or obtain the actual boundary coupling or stationary global
+    background. No protected status moves.
+
     K1126--K1130 correct two load-bearing premises in the K887--K925
     action-completion branch. For a constant-coefficient first-order operator,
     formal self-adjointness requires skew, not symmetric, coefficient matrices;
@@ -13563,6 +13577,15 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1131--K1135 classify the current native I1B constraint owners. The exact
+  mixed-block solvability map is `Q=L* A`, but generic nonzero `kappa` gives
+  `Q=0`, while zero-`kappa` symbol nulls do not propagate to an action complex.
+  Which new action-derived non-gauge map has typewise ranks at least `6/6/4`,
+  propagates on one common closed domain, restricts the Hessian to a
+  nonnegative carrier, and leaves nonzero cohomology with a positive pairing?
+  Alternate source advances remain the actual boundary coupling, a stationary
+  global background, or a different source-owned differential/completion.
+
   K1126--K1130 withdraw K895's principal Helmholtz obstruction, retype K887's
   radial image as a frozen connection-only control, and retire K887--K925 as a
   current source-action completion gate. Which source-action constraint/KT/BFV
@@ -15325,6 +15348,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K1131--K1135 close the present native I1B constraint-owner census. Preserve
+  the exact solvability criterion `Q=L* A`, the generic nonzero-`kappa`
+  rank-zero result, the zero-`kappa` propagation failures, and the separation
+  between gauge directions, constraints and inverse graph projectors. Advance
+  only by constructing an action-derived non-gauge map with typewise ranks at
+  least `6/6/4`, propagation on one common closed domain, nonnegative
+  restricted inertia and a positive pairing on nonzero cohomology, or by
+  deriving the actual boundary coupling, stationary global background, or a
+  different source-owned differential/completion.
+
   K1126--K1130 correct the first-order adjoint parity and the native T=0 gauge
   carrier. Do not reuse K895's rank-130912 transpose defect as a Helmholtz
   obstruction or K887's radial slice as an action-owned gauge image. Preserve

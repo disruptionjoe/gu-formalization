@@ -1,0 +1,46 @@
+{
+  "census_input": "K1134-SOURCE-I1B-CURRENT-CONSTRAINT-OWNER-CENSUS",
+  "created": "2026-10-05",
+  "current_candidates_meeting_complete_gate": 0,
+  "next_condition": "construct one action-derived non-gauge map with typewise ranks at least 6/6/4, prove propagation and a common closed domain, then compute restricted inertia and positive pairing on nonzero cohomology",
+  "protected_disposition": "SC-ACT-01/02/06 remain ASSERTS; SC-META-53 remains UNCERTAIN; LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS",
+  "reopeners": [
+    "new source-action constraint/KT map",
+    "actual source boundary coupling",
+    "stationary global background",
+    "different source-owned differential or completed coefficient"
+  ],
+  "requirements": [
+    {
+      "acceptance": "typewise symbol ranks at least 6/6/4",
+      "requirement": "action_derived_non_gauge_constraint_map",
+      "state": "open"
+    },
+    {
+      "acceptance": "intertwining or closed evolution on the same native carrier",
+      "requirement": "constraint_propagation",
+      "state": "open"
+    },
+    {
+      "acceptance": "one domain for H, constraints, adjoints and boundary traces",
+      "requirement": "common_closed_domain",
+      "state": "open"
+    },
+    {
+      "acceptance": "exact inertia after restriction and residual-radical quotient",
+      "requirement": "nonnegative_restriction",
+      "state": "open"
+    },
+    {
+      "acceptance": "positive pairing on at least one nonzero class",
+      "requirement": "nonzero_physical_cohomology_positive_pairing",
+      "state": "open"
+    }
+  ],
+  "result_id": "K1135-K1134-CONSTRAINT-FRONTIER-BOUNDARY",
+  "schema_version": "1.0",
+  "scope_boundary": "constructive ownership boundary only; no GU falsification, physical quotient, prediction, confirmation, canon or public move",
+  "scorable_rows_added": 0,
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

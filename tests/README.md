@@ -4,6 +4,24 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1131--K1135 native I1B constraint-owner census
+
+- K1131 proves the exact mixed-block solvability map `Q=L* A` and checks
+  invertible, singular-compatible and singular-constrained fixtures (`13/13`
+  controls; `10/10` hostile mutations).
+- K1132 shows that the generic nonzero-`kappa` horn eliminates `T` but yields
+  constraint rank zero (`11/11`; `9/9`).
+- K1133 audits zero-`kappa` propagation through normal/tangential null spaces,
+  curvature and square-zero tests (`12/12`; `11/11`).
+- K1134 inventories every current gauge, `kappa`-horn and graph candidate and
+  finds zero owned propagated maps meeting `6/6/4` (`12/12`; `11/11`).
+- K1135 freezes the constructive boundary for the next source-owned advance
+  (`12/12`; `9/9`).
+
+The five producers pass `60/60` controls; the five probes reject `50/50`
+hostile mutations. These tests do not construct a physical quotient, positive
+cohomology, source boundary coupling or stationary global background.
+
 ## K1126--K1130 adjoint and gauge-carrier correction
 
 - `channel-swings/k1126_k895_first_order_formal_adjoint_correction.py`

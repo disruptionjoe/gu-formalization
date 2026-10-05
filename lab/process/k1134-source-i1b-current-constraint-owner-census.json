@@ -1,0 +1,69 @@
+{
+  "action_owned_t0_gauge": "rank-four metric diffeomorphism image only; no independent distortion d-chi column",
+  "conclusion": "none of the currently identified native I1B candidates supplies an owned propagated non-gauge constraint map meeting 6/6/4 on one common domain",
+  "counts": {
+    "candidate_classes": 4,
+    "meets_floor_on_common_propagated_domain": 0,
+    "physical_quotient_owned": 0,
+    "scorable_rows_added": 0
+  },
+  "created": "2026-10-05",
+  "negative_floor": [
+    6,
+    6,
+    4
+  ],
+  "nonzero_kappa_conclusion": "nonzero kappa supplies no generic non-gauge field constraint; Schur or graph elimination does not pay the 6/6/4 positivity budget",
+  "result_id": "K1134-SOURCE-I1B-CURRENT-CONSTRAINT-OWNER-CENSUS",
+  "rows": [
+    {
+      "candidate": "metric_diffeomorphism_image",
+      "meets_non_gauge_floor": false,
+      "non_gauge": false,
+      "owned": true,
+      "propagated": true,
+      "reason": "gauge radical quotient preserves nonzero inertia",
+      "typewise_certified_rank": [
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "candidate": "nonzero_kappa_solvability_map",
+      "meets_non_gauge_floor": false,
+      "non_gauge": true,
+      "owned": true,
+      "propagated": false,
+      "reason": "generic invertibility gives elimination, not constraints",
+      "typewise_certified_rank": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "candidate": "zero_kappa_symbol_left_nulls",
+      "meets_non_gauge_floor": false,
+      "non_gauge": true,
+      "owned": true,
+      "propagated": false,
+      "reason": "tangential and covariant-complex tests fail",
+      "typewise_certified_rank": null
+    },
+    {
+      "candidate": "fixed_frequency_graph_projector",
+      "meets_non_gauge_floor": false,
+      "non_gauge": true,
+      "owned": false,
+      "propagated": false,
+      "reason": "inverse-dependent graph is not a homogeneous action-owned constraint projector",
+      "typewise_certified_rank": null
+    }
+  ],
+  "schema_version": "1.0",
+  "scope_boundary": "current candidate census, not an all-completions no-go and not a source-claim falsification",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "zero_kappa_conclusion": "zero-kappa principal null rows are characteristic data, not an action-owned propagated non-gauge constraint complex"
+}

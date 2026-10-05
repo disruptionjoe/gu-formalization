@@ -1,0 +1,119 @@
+{
+  "created": "2026-10-05",
+  "fixtures": [
+    {
+      "A": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "C": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "Q": [],
+      "constraint_rank": 0,
+      "id": "invertible_elimination",
+      "left_kernel_rows": [],
+      "meaning": "distortion elimination with no field constraint"
+    },
+    {
+      "A": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "C": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "Q": [
+        [
+          0,
+          0
+        ]
+      ],
+      "constraint_rank": 0,
+      "id": "singular_compatible",
+      "left_kernel_rows": [
+        [
+          0,
+          1
+        ]
+      ],
+      "meaning": "singular block whose left-null row annihilates A"
+    },
+    {
+      "A": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "C": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "Q": [
+        [
+          0,
+          1
+        ]
+      ],
+      "constraint_rank": 1,
+      "id": "singular_constraint",
+      "left_kernel_rows": [
+        [
+          0,
+          1
+        ]
+      ],
+      "meaning": "solvability requires h_2=0"
+    }
+  ],
+  "result_id": "K1131-MIXED-BLOCK-SOLVABILITY-CONSTRAINT-MAP",
+  "schema_version": "1.0",
+  "scope_boundary": "finite-dimensional exact solvability theorem; propagation, action ownership, closed domains and physical positivity are separate",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "constraint_map": "Q=L* A",
+    "constraint_rank_bound": "rank(Q)<=rank(A)",
+    "distortion_equation": "C t + A h = 0",
+    "invertible_case": "ker(C*)=0, so Q has rank 0 and C eliminates t without constraining h",
+    "left_kernel_map": "L with im(L)=ker(C*)",
+    "solvability_criterion": "Q h=0 iff -A h lies in im(C)"
+  }
+}

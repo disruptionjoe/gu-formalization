@@ -1,0 +1,22 @@
+{
+  "conclusion": "zero-kappa principal null rows are characteristic data, not an action-owned propagated non-gauge constraint complex",
+  "created": "2026-10-05",
+  "euler_ranks": {
+    "null": 122746,
+    "spacelike": 130912,
+    "timelike": 130912
+  },
+  "flat_selected_euler_square_zero": false,
+  "flat_symbol_cohomology_defined": false,
+  "generic_weyl_distortion_complex": false,
+  "normal_kernel_dimension": 24,
+  "normal_null_directions_lost_tangentially": 13,
+  "normal_tangential_common_kernel_dimension": 11,
+  "propagating_constraint_complex_owned": false,
+  "result_id": "K1133-ZERO-KAPPA-SYMBOL-NULL-PROPAGATION-AUDIT",
+  "schema_version": "1.0",
+  "scope_boundary": "selected comm/symi/symi I1B operator on the K127 local germ; a different source-owned differential or completed background may reopen the test",
+  "square_zero_rank_ceiling": 114688,
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

@@ -7,6 +7,20 @@ updated_at: "2026-10-05"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1131--K1135 native I1B constraint-owner census (2026-10-05)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Mixed-block solvability is controlled exactly by `Q=L* A` for `im(L)=ker(C*)` | K1131 exact invertible, singular-compatible and singular-constrained fixtures; producer `13/13`; hostile mutations `10/10` | exact finite-dimensional theorem and fixtures; functional domains remain open |
+| Generic nonzero `kappa` eliminates `T` but supplies zero non-gauge constraints | K1132 I1B horn audit; producer `11/11`; hostile mutations `9/9` | exact current-symbol classification away from exceptional shells; no global propagation result |
+| Zero-`kappa` symbol nulls do not form the required propagated constraint complex | K1133 normal/tangential intersection, Weyl-curvature and square-zero audits; producer `12/12`; hostile mutations `11/11` | exact current-fixture obstruction; does not exclude a new source-owned differential |
+| Current gauge, `kappa`-horn and graph candidates supply zero owned maps meeting `6/6/4` | K1134 candidate census; producer `12/12`; hostile mutations `11/11` | exact current-evidence census; not a universal impossibility theorem |
+| The constructive frontier requires a new action-derived map, propagation, domain and positive cohomology | K1135 ownership boundary; producer `12/12`; hostile mutations `9/9` | current research boundary; no physical quotient constructed |
+
+Five producers pass `60/60` controls and five probes reject `50/50` hostile
+mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`,
+LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and no protected verdict moves.
+
 ## K1126--K1130 adjoint and gauge-carrier correction (2026-10-05)
 
 | Claim | Evidence | Honest grade |

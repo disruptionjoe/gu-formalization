@@ -7,6 +7,20 @@ updated_at: "2026-10-05"
 
 # Next Steps For Contributors
 
+> **2026-10-05 K1131--K1135 NATIVE I1B CONSTRAINT-OWNER CENSUS.** For the
+> mixed Hessian equation `Ct+Ah=0`, the exact solvability constraint is
+> `Q=L* A` with `im(L)=ker(C*)`. Invertible `C` gives `Q=0`, so the generic
+> nonzero-`kappa` horn eliminates `T` but contributes no non-gauge constraint.
+> At zero `kappa`, only 11 of 24 normal-null directions persist tangentially;
+> generic Weyl curvature gives `D_B^2=ad(F_B) != 0`, and even the flat/central
+> selected Euler is not square-zero. Current gauge rows, both `kappa` horns and
+> graph projectors therefore supply zero owned propagated maps meeting
+> `6/6/4`. Next construct a new action-derived non-gauge map with those
+> typewise ranks, propagation on one common closed domain, nonnegative
+> restricted inertia and a positive pairing on nonzero cohomology, or derive
+> the actual boundary coupling, stationary global background, or a different
+> source-owned differential/completion.
+
 > **2026-10-05 K1126--K1130 ADJOINT AND GAUGE-CARRIER CORRECTION.** K895
 > applied a zero-order transpose test to a first-order coefficient. The
 > corrected formal adjoint requires skew coefficient matrices, so its
