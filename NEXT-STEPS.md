@@ -7,6 +7,19 @@ updated_at: "2026-10-05"
 
 # Next Steps For Contributors
 
+> **2026-10-05 K1146--K1150 FUNCTIONAL ADMISSION GATES.** A common graph
+> domain for closed `Q,d,G,H` does not automatically contain their product
+> domains. Algebraic cohomology is Hausdorff only when `im d` is closed, and a
+> fibrewise positive quotient needs a uniform lower gap to be coercive on the
+> completed Hilbert space. Formal skewness and zero flux on a small boundary
+> domain likewise do not make an evolution skew-adjoint; the Dirichlet
+> derivative fails while the periodic realization generates unitary
+> translations. Next supply one source-action-owned `Q,d,G,H` and boundary
+> packet passing these functional gates together with K1145's causal rank,
+> negative capture, propagation, energy and nonzero-cohomology tests. Alternate
+> reopeners remain the actual bulk-boundary coupling, stationary global
+> background, or a different source-owned differential/completion.
+
 > **2026-10-05 K1141--K1145 DYNAMICAL COHOMOLOGY ADMISSION TESTS.** A supplied
 > full-row-rank constraint propagates exactly when `QG=RQ`, equivalently when
 > the leakage certificate `QGP` vanishes. An `H`-skew propagated evolution

@@ -7,6 +7,20 @@ updated_at: "2026-10-05"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1146--K1150 functional admission gates (2026-10-05)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Finite intersections of closed operator domains are complete in the combined graph norm, but product domains are extra data | K1146 graph theorem and `u_n=n^-3` multiplier counterexample; producer `12/12`; hostile mutations `10/10` | exact closed-operator theorem and diagonal counterexample; no source realization |
+| Hilbert cohomology is Hausdorff only after the gauge image is closed | K1147 constant-symbol control and diagonal `1/n` dense-range counterexample; producer `12/12`; hostile mutations `10/10` | exact closed-range criterion for the declared diagonal class; no source gauge complex |
+| Fibrewise positivity becomes a coercive completed pairing only with a uniform lower gap | K1148 `1+1/n` control and `1/n` vanishing-gap sequence; producer `12/12`; hostile mutations `10/10` | exact bounded direct-sum coercivity theorem; no physical pairing or state identification |
+| Formal skewness and vanishing flux do not imply a skew-adjoint generator | K1149 Dirichlet-versus-periodic derivative realizations; producer `12/12`; hostile mutations `10/10` | exact interval boundary-domain comparison; no source boundary coupling |
+| A future I1B packet must pass the finite algebraic tests plus graph, range, gap and maximal-generator gates | K1150 functional admission compiler; producer `12/12`; hostile mutations `10/10` | current constructive boundary; zero current candidates pass |
+
+Five producers pass `60/60` controls and five probes reject `50/50` hostile
+mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`,
+LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and no protected verdict moves.
+
 ## K1141--K1145 dynamical cohomology admission tests (2026-10-05)
 
 | Claim | Evidence | Honest grade |

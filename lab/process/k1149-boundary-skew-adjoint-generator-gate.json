@@ -1,0 +1,29 @@
+{
+  "created": "2026-10-05",
+  "differential_expression": "G=d/dx on L2(0,1)",
+  "dirichlet_realization": {
+    "adjoint_domain": "H1(0,1)",
+    "boundary_form_zero": true,
+    "domain": "H1_0(0,1)",
+    "maximal": false,
+    "skew_adjoint": false,
+    "skew_symmetric": true,
+    "unitary_group_generator": false
+  },
+  "green_boundary_form": "<Gu,v>+<u,Gv>=u(1)^*v(1)-u(0)^*v(0)",
+  "periodic_realization": {
+    "adjoint_domain_equal": true,
+    "boundary_form_zero": true,
+    "domain": "{u in H1:u(1)=u(0)}",
+    "maximal": true,
+    "skew_adjoint": true,
+    "skew_symmetric": true,
+    "unitary_translation_group": true
+  },
+  "result_id": "K1149-BOUNDARY-SKEW-ADJOINT-GENERATOR-GATE",
+  "schema_version": "1.0",
+  "source_boundary_domain_supplied": false,
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": "formal skewness and vanishing boundary flux are necessary but not sufficient; the selected boundary domain must be maximal skew-adjoint and preserved by the evolution"
+}

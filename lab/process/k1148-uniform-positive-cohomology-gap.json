@@ -1,0 +1,27 @@
+{
+  "created": "2026-10-05",
+  "failure_fixture": {
+    "ambient_norm": "1",
+    "bounded_inverse_riesz_map": false,
+    "coercive": false,
+    "energy": "1/n",
+    "energy_norm_equivalent_to_ambient": false,
+    "every_fibre_positive": true,
+    "quotient_fibre_form": "1/n",
+    "uniform_lower_bound": "0",
+    "unit_vectors": "e_n"
+  },
+  "pass_fixture": {
+    "bounded_inverse_riesz_map": true,
+    "coercive": true,
+    "quotient_fibre_form": "1+1/n",
+    "uniform_lower_bound": "1"
+  },
+  "physical_state_identification_supplied": false,
+  "result_id": "K1148-UNIFORM-POSITIVE-COHOMOLOGY-GAP",
+  "schema_version": "1.0",
+  "source_positive_pairing_supplied": false,
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": "after closed-range reduction, bounded fibrewise positive quotient forms define a coercive Hilbert physical pairing in the inherited norm exactly when their positive eigenvalues have a uniform lower bound"
+}

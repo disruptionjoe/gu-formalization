@@ -1,0 +1,28 @@
+{
+  "admission_consequence": "the common I1B realization must include graph domains for Q,d,G,H and every composed word used by QG=RQ, Qd=0 and G*H+HG=0",
+  "composition_counterexample": {
+    "G_graph_series_exponent": -2,
+    "QG_graph_series_exponent": 0,
+    "Q_graph_series_exponent": -4,
+    "ell2_series_exponent": -6,
+    "in_QG_domain": false,
+    "in_common_Q_G_domain": true,
+    "sequence": "u_n=n^-3"
+  },
+  "created": "2026-10-05",
+  "multiplier_model": {
+    "G_symbol": "n^2",
+    "Q_symbol": "n",
+    "closed_common_domain": true,
+    "common_graph_weight": "1+n^2+n^4",
+    "hilbert_space": "ell2(N)",
+    "product_graph_weight": "n^6",
+    "product_symbol": "n^3"
+  },
+  "result_id": "K1146-COMMON-GRAPH-DOMAIN-CRITERION",
+  "schema_version": "1.0",
+  "source_action_domain_supplied": false,
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": "a finite intersection of domains of closed operators is complete in the combined graph norm; identities containing products require the corresponding product domains as additional graph factors"
+}

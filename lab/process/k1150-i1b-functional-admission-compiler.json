@@ -1,0 +1,54 @@
+{
+  "common_closed_realization_supplied": false,
+  "created": "2026-10-05",
+  "current_candidates_meeting_functional_packet": 0,
+  "current_source_and_ledger_effect": "none",
+  "executable_tests": [
+    {
+      "acceptance": "typed derivation of Q,d,G,H and boundary operators on the native carrier",
+      "test": "source_action_owner"
+    },
+    {
+      "acceptance": "K1145 ownership, 6/6/4, negative capture, propagation, energy and nonzero algebraic cohomology tests",
+      "test": "causal_algebraic_packet"
+    },
+    {
+      "acceptance": "one complete graph domain includes every operator and composed word used by the identities",
+      "test": "common_graph_domain"
+    },
+    {
+      "acceptance": "im(d) is closed, so constrained cohomology is Hausdorff",
+      "test": "closed_gauge_range"
+    },
+    {
+      "acceptance": "the quotient form has a positive lower bound on the complete physical domain",
+      "test": "uniform_positive_gap"
+    },
+    {
+      "acceptance": "G is skew-adjoint, not merely formally skew, on a boundary domain preserved by its evolution",
+      "test": "maximal_generator"
+    },
+    {
+      "acceptance": "Q,d,H and G share the selected trace conditions and Green boundary form",
+      "test": "boundary_trace_compatibility"
+    }
+  ],
+  "finite_algebraic_packet_executable": true,
+  "functional_gates_executable": true,
+  "inputs": [
+    "K1145-I1B-DYNAMICAL-COHOMOLOGY-ADMISSION-COMPILER",
+    "K1146-COMMON-GRAPH-DOMAIN-CRITERION",
+    "K1147-CLOSED-RANGE-HAUSDORFF-COHOMOLOGY",
+    "K1148-UNIFORM-POSITIVE-COHOMOLOGY-GAP",
+    "K1149-BOUNDARY-SKEW-ADJOINT-GENERATOR-GATE"
+  ],
+  "next_condition": "supply one source-action-owned Q,d,G,H and boundary packet passing the algebraic and functional tests, or obtain the actual bulk-boundary coupling, a stationary global background, or a different source-owned differential/completion",
+  "protected_disposition": "SC-ACT-01/02/06 remain ASSERTS; SC-META-53 remains UNCERTAIN; LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS",
+  "result_id": "K1150-I1B-FUNCTIONAL-ADMISSION-COMPILER",
+  "schema_version": "1.0",
+  "scope_boundary": "functional admission compiler only; the supplied diagonal and interval controls do not construct a GU constraint, physical quotient, prediction, confirmation, canon or public move",
+  "scorable_rows_added": 0,
+  "source_action_map_supplied": false,
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

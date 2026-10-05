@@ -4,6 +4,24 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1146--K1150 functional admission gates
+
+- K1146 proves the common graph-domain theorem and gives an exact sequence
+  lying in `D(Q) intersection D(G)` but outside `D(QG)` (`12/12` controls;
+  `10/10` hostile mutations).
+- K1147 proves the closed-range/Hausdorff quotient gate and gives the diagonal
+  `1/n` dense nonclosed-range control (`12/12`; `10/10`).
+- K1148 proves the uniform positive-gap requirement and gives a modewise
+  positive but noncoercive `1/n` quotient form (`12/12`; `10/10`).
+- K1149 separates a formally skew Dirichlet derivative from the skew-adjoint
+  periodic generator (`12/12`; `10/10`).
+- K1150 compiles the algebraic and functional I1B candidate gates (`12/12`;
+  `10/10`).
+
+The five producers pass `60/60` controls; the five probes reject `50/50`
+hostile mutations. These tests do not construct a source-owned constraint,
+bulk-boundary coupling, stationary global background or physical state space.
+
 ## K1141--K1145 dynamical cohomology admission tests
 
 - K1141 proves the exact propagation/intertwiner criterion `QG=RQ` for a

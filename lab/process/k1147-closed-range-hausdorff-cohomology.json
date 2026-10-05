@@ -1,0 +1,27 @@
+{
+  "created": "2026-10-05",
+  "failure_fixture": {
+    "algebraic_quotient_hausdorff": false,
+    "d_symbol": "1/n",
+    "formal_preimage": "x_n=1",
+    "formal_preimage_in_ell2": false,
+    "hilbert_space": "ell2(N)",
+    "limit_vector": "y_n=1/n",
+    "limit_vector_in_ell2": true,
+    "range_closed": false,
+    "range_dense": true,
+    "singular_value_infimum": "0"
+  },
+  "pass_fixture": {
+    "d_symbol": "1",
+    "nonzero_singular_value_floor": "1",
+    "quotient_hausdorff": true,
+    "range_closed": true
+  },
+  "result_id": "K1147-CLOSED-RANGE-HAUSDORFF-COHOMOLOGY",
+  "schema_version": "1.0",
+  "source_gauge_range_supplied": false,
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": "ker(Q)/im(d) is a Hausdorff Hilbert quotient in the inherited norm only when im(d) is closed; for diagonal finite-fibre d, a uniform lower bound on every nonzero singular value is the exact closed-range criterion"
+}

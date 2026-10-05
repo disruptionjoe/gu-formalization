@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d682a695d664
+revision_basis: 9d93de47ea83
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,19 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1146--K1150 split the last bundled functional-domain row in K1145 into
+    four exact and independent tests. A finite intersection of closed operator
+    domains is complete in its combined graph norm, but it need not contain
+    the product domains required by `QG=RQ`, `Qd=0` or `G*H+HG=0`. Algebraic
+    Hilbert cohomology is Hausdorff only when `im d` is closed; the diagonal
+    `1/n` gauge map has dense nonclosed range. Fibrewise positive quotient
+    forms require a uniform lower gap to be coercive; the diagonal `1/n` form
+    is positive on every fibre but has no bounded inverse Riesz map. Finally,
+    a formally skew Dirichlet derivative is not maximal skew-adjoint, whereas
+    the periodic realization generates unitary translations. Zero current
+    source candidates pass the strengthened algebraic-plus-functional packet,
+    and no protected status moves.
+
     K1141--K1145 make the propagation and positive-nonzero-cohomology parts
     of the current I1B constraint frontier exact. For full-row-rank `Q`, the
     kernel propagates under `G` exactly when `QG=RQ`; equivalently the
@@ -13605,6 +13618,15 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1146--K1150 make the common-domain requirement executable. Which
+  source-action-owned `Q,d,G,H` and boundary packet has one complete graph
+  domain for every operator and composed word, closed `im d`, a uniform
+  positive quotient gap, and a maximal skew-adjoint evolution preserving the
+  selected trace conditions, while also passing the K1145 causal, inertia,
+  propagation and algebraic-cohomology tests? Alternate source advances remain
+  the actual bulk-boundary coupling, a stationary global background, or a
+  different source-owned differential/completion.
+
   K1141--K1145 turn propagation, constrained-energy descent and positive
   nonzero cohomology into exact algebraic tests. Which source-action-owned
   `Q,d,G,H` packet on one typed native carrier meets the causal `6/6/4` floors,
@@ -15396,6 +15418,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K1146--K1150 close the generic functional-analysis checklist without
+  constructing its source owner. Preserve the distinctions among a common
+  graph domain, a product domain, a Hausdorff quotient, modewise positivity,
+  uniform coercivity, formal skewness and a maximal generator. Advance only
+  with one source-action-owned `Q,d,G,H` and boundary packet that passes the
+  full K1145 algebraic packet plus the common-product-domain, closed-range,
+  uniform-gap and skew-adjoint boundary tests. Alternate reopeners are the
+  actual bulk-boundary coupling, a stationary global background, or a
+  different source-owned differential/completion.
+
   K1141--K1145 close the finite-dimensional propagation and cohomology-test
   gaps without constructing their missing owner. Preserve the distinctions
   among an algebraic fixture, an action-derived constraint, a propagated
