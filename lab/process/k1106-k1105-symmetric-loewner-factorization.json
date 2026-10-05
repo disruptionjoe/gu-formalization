@@ -1,0 +1,41 @@
+{
+  "created": "2026-10-05",
+  "decision": "the positive diagonal Stieltjes branch has an exact positive finite-rank Loewner kernel whose rank exposes affine-plus-pole complexity on sufficiently rich data",
+  "factorization": "K=alpha*11^T+V diag(w_i) V^T, V_ji=1/(x_j+d_i)",
+  "fixture_determinant": "2/2025",
+  "fixture_matrix": [
+    [
+      "31/9",
+      "17/6",
+      "13/5"
+    ],
+    [
+      "17/6",
+      "5/2",
+      "71/30"
+    ],
+    [
+      "13/5",
+      "71/30",
+      "511/225"
+    ]
+  ],
+  "fixture_nodes": [
+    0,
+    1,
+    2
+  ],
+  "fixture_rank": 3,
+  "kernel": "K_S(x,y)=(S(x)-S(y))/(x-y), with diagonal K_S(x,x)=S'(x)",
+  "leading_principal_minors": [
+    "31/9",
+    "7/12",
+    "2/2025"
+  ],
+  "result_id": "K1106-K1105-SYMMETRIC-LOEWNER-FACTORIZATION",
+  "schema_version": "1.0",
+  "scope_boundary": "conditional rational-function theorem; no source-selected GU Hessian, physical derivative record or apparatus",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": "for alpha>=0 and w_i>0, every finite symmetric Loewner matrix is positive semidefinite; with distinct shifts and alpha>0 its rank is min(n,m+1)"
+}

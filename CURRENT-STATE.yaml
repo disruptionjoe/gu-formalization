@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 5b2335c88d79
+revision_basis: 129ae2c2e07f
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1106--K1110 turn the exact finite-mode hierarchy into a constructive
+    Loewner rank and stability boundary. The divided-difference kernel factors
+    as `alpha*11^T+V diag(w)V^T`, so it is positive semidefinite and has rank
+    `min(n,m+1)` for positive slope, distinct positive poles and sufficiently
+    rich nodes. A positive `r x r` confluent or cross-Loewner determinant
+    certifies at least `r-1` poles; the K1098 fixture gives determinants
+    `2/2025` on three confluent nodes and `1/113400` on the disjoint mode sets
+    `{0,1,2}` and `{3,4,5}`. The conclusion is only a lower bound unless an
+    independent multiplicity cap is owned. Under `||E||_2<=epsilon`, an
+    observed singular value above `epsilon` certifies the corresponding exact
+    rank direction, but a near-coalescent two-pole family has determinant
+    `2t^2/[9(1+t)^2(2+t)^2(3+t)^2]` and destroys any uniform noise threshold.
+    Four conditional mathematical rows pass, but zero become GU-source-owned
+    or scorable. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+    `UNCERTAIN`, and LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain `NEEDS`; no
+    protected status moves.
+
     K1101--K1105 make the finite-mode identifiability boundary exact for the
     positive diagonal Stieltjes branch class. Every divided difference of
     order `k>=2` has sign `(-1)^(k+1)` when any positive auxiliary coupling
@@ -13488,6 +13505,15 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1106--K1110 prove exact positive Loewner factorization, confluent and
+  derivative-free auxiliary-order lower bounds, and the singular-gap boundary
+  for noisy rank certification. Which source-selected GU stationary Hessian
+  and functional BV/BFV complex can supply the physical block, auxiliary law,
+  positive pairing and common domain? Which owned multiplicity cap,
+  pole/weight separation, paired or derivative mode data and matrix-norm error
+  budget make the rank certificate stable? Only after those inputs are owned
+  may Loewner rank inform a physical spectrum or apparatus score.
+
   K1101--K1105 prove the exact finite-mode identifiability hierarchy for
   positive diagonal Stieltjes branches. Alternating higher divided differences
   detect surviving positive mixing, four exact modes recover a one-auxiliary
@@ -15203,6 +15229,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K1106--K1110 close the exact Loewner factorization, order-lower-bound and
+  noisy singular-gap seams for the positive diagonal Stieltjes class. Preserve
+  the distinction between a certified minimum pole order and an independently
+  owned upper bound; between exact rank and stable numerical rank; and between
+  value-only, confluent-derivative and disjoint cross-mode data. Reopen GU
+  credit only on a source-selected stationary functional Hessian and BV/BFV
+  complex with positive pairing, common domain and owned auxiliary law. Own a
+  multiplicity cap, pole/weight separation, paired or derivative modes and a
+  matrix-norm error budget before scoring the certificate.
+
   K1101--K1105 close the exact-data identifiability hierarchy for the positive
   diagonal Stieltjes class. Preserve the distinction between detecting
   mixing, identifying a branch under an independently owned finite

@@ -1,0 +1,30 @@
+{
+  "created": "2026-10-05",
+  "decision": "finite noisy rank certification is gap-conditional, not a consequence of exact identifiability alone",
+  "determinant_formula": "det L(t)=2*t^2/[9(1+t)^2(2+t)^2(3+t)^2]",
+  "exact_order_rule": "the noisy lower bound becomes an exact order only after an independent at-most-(r-1)-pole bound",
+  "fixture_determinants": [
+    "1/2592",
+    "20000/461519289",
+    "200000000/336055001230809"
+  ],
+  "fixture_t": [
+    "1",
+    "1/10",
+    "1/100"
+  ],
+  "near_coalescent_family": "alpha=2, weights=(1,1), shifts=(1,1+t), nodes=(0,1,2)",
+  "null_rule": "sigma_r(Lhat)<=epsilon is inconclusive and cannot certify absence of the r-th direction",
+  "perturbation_model": "Lhat=L+E with an independently certified spectral-norm bound ||E||_2<=epsilon",
+  "result_id": "K1109-K1108-NOISY-LOEWNER-GAP-BOUNDARY",
+  "robust_lower_bound_rule": "sigma_r(Lhat)>epsilon certifies rank(L)>=r and therefore at least r-1 poles when alpha>0",
+  "schema_version": "1.0",
+  "scope_boundary": "conditional matrix perturbation theorem; no measured Loewner error norm, source-owned pole floor or physical apparatus",
+  "stability_boundary": "as t tends to zero the third singular value and determinant vanish; no uniform noise threshold exists without pole-separation, weight, slope and sample-geometry floors",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "weyl_bounds": [
+    "sigma_j(Lhat)>=sigma_j(L)-epsilon",
+    "sigma_j(L)>=sigma_j(Lhat)-epsilon"
+  ]
+}

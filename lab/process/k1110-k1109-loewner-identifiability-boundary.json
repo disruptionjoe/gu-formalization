@@ -1,0 +1,82 @@
+{
+  "advance": "finite Stieltjes data now have exact positive Loewner factorization, confluent and derivative-free order lower bounds, and a noise-gap/near-coalescence boundary",
+  "counts": {
+    "gu_source_owned": 0,
+    "mathematical_pass_or_conditional": 4,
+    "open_physical_or_source": 3,
+    "repository_conditional_owned": 4,
+    "scorable": 0
+  },
+  "created": "2026-10-05",
+  "ledger_effect": "none -- LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS",
+  "next_condition": "supply a source-selected stationary functional Hessian and BV/BFV complex with a positive pairing, common domain and owned auxiliary law; then own a multiplicity cap, pole/weight separation, paired or derivative mode data and matrix-norm error budget before scoring Loewner rank",
+  "nonselection": "the rank certificates do not select a GU Hessian, auxiliary upper bound, physical mode family, Loewner error norm, pole-separation floor, ruler or apparatus",
+  "requirements": [
+    {
+      "candidate_grade": "pass_conditional",
+      "evidence": "K1106",
+      "gu_source_owned": false,
+      "id": "symmetric_loewner_factorization",
+      "repository_conditional_owned": true,
+      "scorable": false
+    },
+    {
+      "candidate_grade": "pass_conditional",
+      "evidence": "K1107",
+      "gu_source_owned": false,
+      "id": "confluent_order_lower_bound",
+      "repository_conditional_owned": true,
+      "scorable": false
+    },
+    {
+      "candidate_grade": "pass_conditional",
+      "evidence": "K1108",
+      "gu_source_owned": false,
+      "id": "cross_mode_order_lower_bound",
+      "repository_conditional_owned": true,
+      "scorable": false
+    },
+    {
+      "candidate_grade": "pass_conditional",
+      "evidence": "K1109",
+      "gu_source_owned": false,
+      "id": "noisy_singular_gap_boundary",
+      "repository_conditional_owned": true,
+      "scorable": false
+    },
+    {
+      "candidate_grade": "open",
+      "evidence": "SC-ACT-01/02/06",
+      "gu_source_owned": false,
+      "id": "source_selected_functional_complex",
+      "repository_conditional_owned": false,
+      "scorable": false
+    },
+    {
+      "candidate_grade": "open",
+      "evidence": "LT-SM8/LT-GR6b",
+      "gu_source_owned": false,
+      "id": "positive_physical_cohomology",
+      "repository_conditional_owned": false,
+      "scorable": false
+    },
+    {
+      "candidate_grade": "open",
+      "evidence": "K1107--K1109 scope boundaries",
+      "gu_source_owned": false,
+      "id": "owned_modes_cap_gap_and_systematics",
+      "repository_conditional_owned": false,
+      "scorable": false
+    }
+  ],
+  "result_id": "K1110-K1109-LOEWNER-IDENTIFIABILITY-BOUNDARY",
+  "schema_version": "1.0",
+  "source_scope": {
+    "SC-ACT-01": "ASSERTS",
+    "SC-ACT-02": "ASSERTS",
+    "SC-ACT-06": "ASSERTS",
+    "SC-META-53": "UNCERTAIN"
+  },
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

@@ -7,6 +7,20 @@ updated_at: "2026-10-05"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1106--K1110 Loewner identifiability boundary (2026-10-05)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Positive diagonal Stieltjes branches have a positive finite-rank symmetric Loewner kernel | K1106 exact Gram factorization, rank theorem and determinant `2/2025`; producer `11/11`; hostile mutations `11/11` | exact conditional rational-function theorem; no source-selected Hessian or physical derivative data |
+| Positive confluent Loewner minors certify a minimum auxiliary order | K1107 rank lower-bound theorem and K1098 three-node fixture; producer `11/11`; hostile mutations `11/11` | exact lower bound from values plus derivatives; no upper multiplicity bound |
+| Disjoint exact mode sets give a derivative-free cross-Loewner order certificate | K1108 exact cross factorization and determinant `1/113400`; producer `11/11`; hostile mutations `12/12` | exact derivative-free lower bound; no parameter recovery or unbounded-order exclusion |
+| Noisy rank is certified only across an independently bounded singular gap | K1109 Weyl threshold and near-coalescent determinant family; producer `13/13`; hostile mutations `13/13` | exact matrix-perturbation boundary; no measured error norm or uniform separation floor |
+| Four conditional mathematical rows pass while zero rows become GU-source-owned or empirically scorable | K1110 ownership matrix; producer `10/10`; hostile mutations `10/10` | conditional requirement disposition; no empirical score, prediction or confirmation |
+
+SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`, and LT-SM8,
+LT-GR6b, RA-F1 and AC-F1 remain `NEEDS`. No empirical score, prediction,
+confirmation, canon or public status moves.
+
 ## K1101--K1105 finite-mode identifiability boundary (2026-10-05)
 
 | Claim | Evidence | Honest grade |

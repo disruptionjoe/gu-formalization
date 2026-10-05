@@ -1,0 +1,42 @@
+{
+  "created": "2026-10-05",
+  "cross_kernel": "D_ij=(S(x_i)-S(y_j))/(x_i-y_j)=alpha+sum_k w_k/((x_i+d_k)(y_j+d_k))",
+  "data_type": "values at two disjoint exact mode sets; no derivatives",
+  "fixture_conclusion": "six exact values certify at least two poles for the K1098 branch; with an independently owned at-most-two cap they certify exact order two",
+  "fixture_determinant": "1/113400",
+  "fixture_matrix": [
+    [
+      "89/36",
+      "251/105",
+      "7/3"
+    ],
+    [
+      "55/24",
+      "157/70",
+      "53/24"
+    ],
+    [
+      "133/60",
+      "229/105",
+      "97/45"
+    ]
+  ],
+  "fixture_rank": 3,
+  "left_modes": [
+    0,
+    1,
+    2
+  ],
+  "rank_theorem": "an (m+1)-by-(m+1) cross-Loewner matrix has nonzero determinant for alpha>0, positive weights, distinct shifts and distinct regular nodes",
+  "relation_to_k1103": "the certificate uses the same 2m+2 exact values as K1103 for m=2 but supplies a constructive rank witness, not parameter recovery or an unbounded upper-order exclusion",
+  "result_id": "K1108-K1107-CROSS-LOEWNER-MODE-CERTIFICATE",
+  "right_modes": [
+    3,
+    4,
+    5
+  ],
+  "schema_version": "1.0",
+  "scope_boundary": "conditional derivative-free rank certificate; modes, multiplicity cap, physical branch and apparatus remain unowned",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

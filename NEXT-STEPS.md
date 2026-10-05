@@ -7,6 +7,19 @@ updated_at: "2026-10-05"
 
 # Next Steps For Contributors
 
+> **2026-10-05 K1106--K1110 LOEWNER IDENTIFIABILITY BOUNDARY.** The positive
+> diagonal Stieltjes branch has an exact positive Loewner factorization. A
+> positive `r x r` confluent or disjoint cross-Loewner determinant certifies
+> at least `r-1` poles; the K1098 two-pole fixture gives `2/2025` and
+> `1/113400` in the two constructions. This is a minimum order, not an upper
+> bound. With an independently bounded matrix error, singular values above the
+> error certify exact rank directions, but the near-coalescent determinant
+> tends to zero quadratically, so no uniform noise tolerance exists without
+> pole/weight separation and controlled mode geometry. Next supply a
+> source-selected stationary functional Hessian and BV/BFV complex, an owned
+> multiplicity cap, separation floors, paired or derivative mode records and
+> a matrix-norm error budget before any physical rank score.
+
 > **2026-10-05 K1101--K1105 FINITE-MODE IDENTIFIABILITY BOUNDARY.** In the
 > positive diagonal Stieltjes class, every divided difference of order
 > `k>=2` alternates sign when any coupling survives. Four exact modes recover
