@@ -1,0 +1,66 @@
+{
+  "carrier": "L2(T3;R^2)",
+  "claim_ceiling": "exact constant-coefficient flat-torus functional Hessian theorem",
+  "compactness": "the H2 to L2 resolvent is compact on T3, so the spectrum is discrete with finite multiplicities",
+  "created": "2026-10-04",
+  "domain_result": "the closed positive form on H1 has one self-adjoint realization with domain H2; all Fourier fibres share that domain",
+  "fibres": [
+    {
+      "eigenvalues": [
+        6,
+        15
+      ],
+      "lambda": 0,
+      "mode": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "eigenvalues": [
+        8,
+        18
+      ],
+      "lambda": 1,
+      "mode": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "eigenvalues": [
+        10,
+        21
+      ],
+      "lambda": 2,
+      "mode": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "eigenvalues": [
+        12,
+        24
+      ],
+      "lambda": 3,
+      "mode": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "form_domain": "H1(T3;R^2)",
+  "fourier_rule": "H_hat(k)=|k|^2 B+C on every integer Fourier mode",
+  "hessian": "H=-Delta tensor B+C with constant B=diag(2,3), C=diag(6,15)",
+  "operator_domain": "H2(T3;R^2)",
+  "ownership": "functional lift of the repository-owned K1036 candidate action; not a source-selected GU Hessian",
+  "result_id": "K1081-K1080-FUNCTIONAL-HESSIAN-DOMAIN",
+  "schema_version": "1.0",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

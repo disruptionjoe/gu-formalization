@@ -1472,7 +1472,7 @@
     },
     "research_agenda": {
       "path": "lab/process/RESEARCH-AGENDA.json",
-      "sha256": "a96a4000945eb8367d9bdd84aff7b8184f7586359613d21e049f3b23d8fc4f45"
+      "sha256": "119fcddb0bd08759557f1cc7467c68f4852642431c09f8bc19ad41d473497a3a"
     },
     "k684_closed_column_remainder_compiler": {
       "path": "lab/process/k684-k500-closed-column-remainder-compiler.json",
@@ -2619,10 +2619,11 @@
     "exact_reopener": "action-owned equation-9.16 map fixing internal projection, form-leg contraction, real/Krein coefficients, family covector, selected quadratic owner and nonzero background or interaction meaning"
   },
   "live_frontier": {
-    "current_question_contains": "K1076--K1080 prove that a positive matrix action Hessian yields one fixed normal-mode basis exactly on the commuting horn",
-    "selected_condition": "MATRIX_ACTION_HAMILTONIAN_COMPOSITION__SIMULTANEOUS_NORMAL_MODE_IFF_COMMUTATOR_ZERO__COMMUTING_BRANCH_SELECTOR__TWO_MODE_COMMUTATOR_WITNESS__FOUR_MATHEMATICAL_PASS__ZERO_GU_OWNED_ZERO_SCORABLE__NO_PROTECTED_CLAIM_MOVE",
+    "current_question_contains": "K1081--K1085 prove that the repository-owned K1036 flat candidate has one",
+    "selected_condition": "FLAT_FUNCTIONAL_HESSIAN_H2_DOMAIN__POSITIVE_HAMILTONIAN__CONSTANT_COMMUTING_BLOCK_BRANCHES__VARIABLE_MASS_COMMUTATOR_OBSTRUCTION__FOUR_REPOSITORY_ACTION_OWNED__ZERO_GU_SOURCE_OWNED_ZERO_SCORABLE__NO_PROTECTED_CLAIM_MOVE",
     "b2_root": "EMPTY_NAMED_OWNER_SET",
     "reopeners": [
+      "supply a source-selected GU stationary Hessian or curved action-owned quotient with principal kinetic block, lower-order mass block and boundary domain; compute the full differential commutator, then construct physical positive BV cohomology and an independently owned ruler and apparatus before scoring",
       "supply a source/action-owned positive functional Hessian on one native stationary quotient, extract kinetic A, gradient B and mass C blocks on a common domain, test [A^-1B,A^-1C] with two spatial modes, and only on the commuting horn read branch ratios u_j=c_j/b_j before composing the dimensional ruler and physical apparatus",
       "supply an independently selected tolerance, measured physical mode-preparation cost curve, calibrated nonzero linear-response floor and component-error box, dimensional scale, measured record and complete systematic audit; then use K1067--K1069 to choose the least-cost feasible route; GU credit additionally requires a source-selected coefficient-complete action owning the scale and functional positive quotient",
       "supply a GU-owned physical quotient and positive state/effect pairing, commuting local observable algebras, an action-derived local generator, ownership of the noisy state family, preparation, settings and detector calibration, common domain and locality theorem, and a complete statistical/systematic error budget before scoring entanglement or Bell relations",

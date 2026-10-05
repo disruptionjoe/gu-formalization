@@ -7,6 +7,20 @@ updated_at: "2026-10-04"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1081--K1085 functional-Hessian boundary (2026-10-04)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The constant matrix pencil lifts to one positive self-adjoint flat-torus Hessian on a common domain | K1081 closed-form/Fourier theorem and four exact fibres; producer `10/10`; hostile mutations `12/12` | exact constant-coefficient functional theorem for the repository candidate; no source-selected GU Hessian |
+| The functional Hessian generates an energy-skew first-order flow | K1082 domain statement and three exact modal defects; producer `10/10`; hostile mutations `12/12` | exact flat candidate Hamiltonian theorem; no nonlinear BV domain |
+| Commuting constant internal blocks give affine functional branches and the K1036 specialization reads `u=m^2` | K1083 three-mode recovery on two branches; producer `9/9`; hostile mutations `10/10` | exact translation-invariant selector; dimensional ruler and source coefficient unowned |
+| A spatially varying mass block generically destroys the fixed Fourier/internal basis | K1084 exact differential commutator, iff criterion and positive firing example; producer `9/9`; hostile mutations `10/10` | exact smooth flat-torus obstruction; variable principal blocks, curvature and boundary domains open |
+| Four candidate-action rows pass while zero rows become GU-source-owned or empirically scorable | K1085 seven-row ownership matrix; producer `10/10`; hostile mutations `11/11` | candidate requirement disposition; no empirical score, prediction or confirmation |
+
+SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`, and LT-SM8,
+LT-GR6b, RA-F1 and AC-F1 remain `NEEDS`. No empirical score, prediction,
+confirmation, canon or public status moves.
+
 ## K1076--K1080 matrix-Hessian selection boundary (2026-10-04)
 
 | Claim | Evidence | Honest grade |

@@ -1,0 +1,16 @@
+{
+  "created": "2026-10-04",
+  "decision_rule": "a nonzero derivative commutator rejects the fixed Fourier/internal affine-branch reading without rejecting positivity or the action",
+  "identity": "[H0,V]f=(CB-BC)Delta f-B(Delta C)f-2B sum_a (partial_a C)(partial_a f)",
+  "operators": "H0=-B Delta with constant B>0 and multiplication V=C(x)",
+  "positive_counterexample": "B=diag(1,2), C(x)=diag(2+cos(x)/2,3) is uniformly positive and commuting pointwise but spatially nonconstant",
+  "proof_route": "the first-derivative principal coefficient forces partial_a C=0 because B is invertible; the remaining second-order coefficient forces [B,C]=0",
+  "result_id": "K1084-K1083-VARIABLE-MASS-COMMUTATOR-OBSTRUCTION",
+  "schema_version": "1.0",
+  "scope_boundary": "smooth constant-principal-part flat-torus theorem; variable kinetic matrices, curved geometry and boundary domains require separate commutator analysis",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "witness": "-1",
+  "witness_point": "x=pi/2 on f(x)=(cos(x),0), where the first component of [H0,V]f is -1",
+  "zero_criterion": "on a connected flat torus the commutator vanishes on smooth sections iff C is constant and [B,C]=0"
+}

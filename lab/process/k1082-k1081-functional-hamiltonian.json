@@ -1,0 +1,62 @@
+{
+  "controls": [
+    {
+      "defect": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "lambda": 0,
+      "mass_squared": 1,
+      "omega_squared": 1
+    },
+    {
+      "defect": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "lambda": 2,
+      "mass_squared": 1,
+      "omega_squared": 3
+    },
+    {
+      "defect": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "lambda": 3,
+      "mass_squared": 4,
+      "omega_squared": 7
+    }
+  ],
+  "created": "2026-10-04",
+  "energy_space": "H1(T3;R^r) direct_sum L2(T3;R^r)",
+  "generator": "K(q,p)=(p,-Hq) for H=-Delta tensor B+C",
+  "generator_domain": "H2(T3;R^r) direct_sum H1(T3;R^r)",
+  "identity": "K is skew for the energy pairing on the generator domain, hence smooth solutions conserve E",
+  "ownership": "repository-owned K1036 candidate Hamiltonian only",
+  "pairing": "E((q,p))=<q,Hq>+<p,p>",
+  "positivity": "B>0 and C>0 give a coercive positive energy; C>=0 gives nonnegative energy with the zero-mode radical handled separately",
+  "result_id": "K1082-K1081-FUNCTIONAL-HAMILTONIAN",
+  "schema_version": "1.0",
+  "scope_boundary": "constant coefficients on the flat quotient; no nonlinear interacting BV domain or dissipative resource",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

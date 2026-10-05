@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 383b89b9523f
+revision_basis: 87f05575b1b5
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1081--K1085 close the finite-to-functional seam for the repository-owned
+    K1036 flat stationary action. For constant `B>0,C>=0`, the Hessian
+    `H=-Delta tensor B+C` has one closed positive `H1` form, self-adjoint
+    `H2` realization, compact resolvent and exact Fourier fibres
+    `H_hat(k)=|k|^2B+C`. Its first-order Hamiltonian generator acts on
+    `H2 direct_sum H1` and conserves the positive energy. One fixed
+    Fourier/internal product basis exists exactly when the constant
+    `A`-normalized gradient and mass blocks commute, yielding
+    `omega_j(k)^2=b_j|k|^2+c_j`; the K1036 scalar horn specializes to
+    `u=m^2`. For a spatially varying matrix mass, the exact commutator is
+    `[H0,C]f=(CB-BC)Delta f-B(Delta C)f-2B sum_a(partial_a C)(partial_a f)`.
+    On a connected flat torus it vanishes on smooth sections iff `C` is
+    constant and `[B,C]=0`. A uniformly positive nonconstant example fires
+    exactly, so positivity and pointwise commutation do not license affine
+    Fourier branches. Four rows are repository-action-owned at candidate or
+    conditional grade, but zero become GU-source-owned or scorable.
+    SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`, and
+    LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain `NEEDS`; no protected status moves.
+
     K1076--K1080 lift the scalar action-pairing selector to a finite-rank
     positive matrix Hessian. For kinetic matrix `A>0` and symmetric gradient
     and mass blocks `B,C`, the quadratic action has generator
@@ -13409,6 +13428,16 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1081--K1085 prove that the repository-owned K1036 flat candidate has one
+  common `H2` functional Hessian domain and positive Hamiltonian, and that its
+  affine Fourier/internal branch reading survives exactly for constant
+  commuting internal blocks. Which source-selected GU stationary Hessian or
+  curved action-owned quotient can now supply its principal kinetic block,
+  lower-order mass block and boundary domain? Does the full differential
+  commutator vanish there? Only after that test, can physical positive BV
+  cohomology, a dimensional ruler and an independently owned apparatus make a
+  branch ratio scorable?
+
   K1076--K1080 prove that a positive matrix action Hessian yields one fixed
   normal-mode basis exactly on the commuting horn
   `[A^-1B,A^-1C]=0`; two spatial modal Hessians test that premise directly.
@@ -15070,6 +15099,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K1081--K1085 close the flat constant-coefficient functional upgrade for the
+  repository-owned K1036 action. Preserve the common `H1` form and `H2`
+  operator domain, compact-resolvent Fourier decomposition, positive
+  Hamiltonian energy, commuting-block branch law, K1036 specialization and
+  exact variable-mass commutator obstruction. Do not transfer the affine
+  Fourier branch reading to spatially varying coefficients merely from
+  positivity or pointwise commutation, and do not relabel repository action
+  ownership as source-selected GU ownership. Reopen GU credit on a
+  source-selected stationary Hessian or curved action-owned quotient with its
+  principal kinetic block, lower-order mass block and boundary domain; compute
+  the full commutator, then construct physical positive BV cohomology and an
+  independently owned ruler/apparatus before scoring.
+
   K1076--K1080 close the finite-rank matrix-Hessian selector. Preserve the
   exact action/Hamiltonian composition, the simultaneous-normal-mode criterion
   `[A^-1B,A^-1C]=0`, the commuting-horn branch law

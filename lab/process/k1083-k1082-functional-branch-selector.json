@@ -1,0 +1,39 @@
+{
+  "branch_law": "omega_j(k)^2=b_j |k|^2+c_j",
+  "branches": [
+    {
+      "b": 2,
+      "c": 6,
+      "recovered_b": 2,
+      "recovered_c": 6,
+      "u": "3",
+      "values": [
+        6,
+        8,
+        10
+      ]
+    },
+    {
+      "b": 3,
+      "c": 15,
+      "recovered_b": 3,
+      "recovered_c": 15,
+      "u": "5",
+      "values": [
+        15,
+        18,
+        21
+      ]
+    }
+  ],
+  "created": "2026-10-04",
+  "criterion": "constant A-normalized internal B and C admit one Fourier/internal product basis exactly when [A^-1B,A^-1C]=0",
+  "degeneracy_boundary": "jointly repeated (b_j,c_j) pairs select a subspace but not a preferred internal basis",
+  "k1036_specialization": "B=I and C=m^2 I commute, so every quotient component has u=m^2 on the common H2 domain",
+  "result_id": "K1083-K1082-FUNCTIONAL-BRANCH-SELECTOR",
+  "schema_version": "1.0",
+  "selector_boundary": "u_j=c_j/b_j is dimensionless until an independently owned spatial ruler fixes |k|",
+  "source_boundary": "the theorem certifies the repository K1036 candidate horn, not a source-selected GU coefficient",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

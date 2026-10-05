@@ -7,6 +7,19 @@ updated_at: "2026-10-04"
 
 # Next Steps For Contributors
 
+> **2026-10-04 K1081--K1085 FUNCTIONAL-HESSIAN BOUNDARY.** The
+> repository-owned K1036 flat stationary action now has one closed positive
+> `H1` form, self-adjoint `H2` Hessian, compact resolvent and positive
+> Hamiltonian flow. Constant internal blocks yield one Fourier/internal basis
+> exactly on the commuting horn and give
+> `omega_j(k)^2=b_j|k|^2+c_j`; the K1036 scalar specialization reads
+> `u=m^2`. A spatially varying mass block instead contributes exact derivative
+> commutator terms. With constant `B>0`, the commutator vanishes on smooth
+> sections iff `C` is constant and `[B,C]=0`; a uniformly positive nonconstant
+> example fires. Next apply this domain-and-commutator test to a
+> source-selected GU stationary Hessian or curved action-owned quotient, then
+> build physical positive cohomology, ruler and apparatus before scoring.
+
 > **2026-10-04 K1076--K1080 MATRIX-HESSIAN SELECTION BOUNDARY.** A positive
 > finite-rank action with kinetic, gradient and mass blocks `A,B,C` has the
 > exact Hamiltonian pairing from K1076. One fixed normal-mode basis exists
