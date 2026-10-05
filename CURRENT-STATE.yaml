@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: fd15d2aecc01
+revision_basis: 1d53bd3143c5
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1126--K1130 correct two load-bearing premises in the K887--K925
+    action-completion branch. For a constant-coefficient first-order operator,
+    formal self-adjointness requires skew, not symmetric, coefficient matrices;
+    K895's rank-130912 coefficient therefore has the correct principal parity
+    and its claimed principal Helmholtz obstruction is withdrawn. In native
+    `(g,T)` variables, `T=varpi-B_LC(g)` transforms tensorially, so K887's
+    rank-8191 radial connection-only response is an auxiliary slice, not an
+    action-owned T=0 gauge image. K896's projector still fails corrected
+    first-order integrability, now by the rank-16382 commutator `[P_R,A]`, but
+    it is unowned. K887--K925 no longer constitute the live source-action
+    completion gate; K926--K940 survive as explicitly auxiliary mathematics.
+    The live frontier is again the native constraint/KT/BFV construction on a
+    common closed domain meeting the independent `6/6/4` floors, or the actual
+    source boundary coupling or stationary global background. No protected
+    status moves.
+
     K1121--K1125 turn K1118's paired negative-index result into an exact
     physical-reduction necessity packet. Quotienting any Hessian radical
     preserves all nonzero inertia, so ordinary gauge quotienting cannot remove
@@ -13547,6 +13563,14 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1126--K1130 withdraw K895's principal Helmholtz obstruction, retype K887's
+  radial image as a frozen connection-only control, and retire K887--K925 as a
+  current source-action completion gate. Which source-action constraint/KT/BFV
+  maps on the native `(g,T)` carrier propagate on one common closed domain,
+  meet the independently established `6/6/4` non-gauge floors, and leave
+  nonzero cohomology with a positive pairing? Alternate source advances remain
+  the actual boundary coupling or a stationary global background.
+
   K1121--K1125 prove that a gauge/radical quotient cannot remove any of the
   source-native I1B Hessian's paired negative sector and that a positive
   constrained carrier needs at least `6/6/4` independent non-gauge conditions
@@ -15301,6 +15325,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K1126--K1130 correct the first-order adjoint parity and the native T=0 gauge
+  carrier. Do not reuse K895's rank-130912 transpose defect as a Helmholtz
+  obstruction or K887's radial slice as an action-owned gauge image. Preserve
+  K896's corrected rank-16382 auxiliary commutator defect and the explicit
+  auxiliary scope of K926--K940. Advance only by constructing native `(g,T)`
+  source-action constraint/KT/BFV maps with propagation, one common closed
+  domain and a positive pairing on nonzero cohomology, or by deriving the
+  actual source boundary coupling or a stationary global background.
+
   K1121--K1125 close the radical-quotient repair and quantify the minimum
   non-gauge constraint budget: `6/6/4` on K129's causal symbols. Preserve the
   distinction among Hessian gauge radical, constraint restriction, residual

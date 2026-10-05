@@ -1,0 +1,22 @@
+{
+  "action_owned_metric_diffeomorphism_rank": 4,
+  "affected_chain": "K887-K925 source-action gauge-completion inferences require correction; explicitly auxiliary mathematics remains separately typed",
+  "created": "2026-10-05",
+  "k720_owned_gauge_ranks": [
+    4
+  ],
+  "k887_exact_slice_calculation_survives": true,
+  "k887_radial_control_dimension": 16384,
+  "k887_radial_control_is_action_owned_t0_gauge": false,
+  "k887_radial_image_rank": 8191,
+  "k887_source_action_gauge_descent_failure_survives": false,
+  "native_coordinates": "(g,T)",
+  "reason": "T=varpi-B_LC(g) is a connection difference and transforms tensorially; at T=0 the source action owns no independent d-chi distortion column",
+  "result_id": "K1127-K887-T0-GAUGE-CARRIER-CORRECTION",
+  "schema_version": "1.0",
+  "source_and_ledger_effect": "SC-ACT-01_06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "surviving_scope": "the rank-8191 response is an exact frozen connection-only radial-slice calculation, not a Noether predecessor test for the native (g,T) action Hessian",
+  "t0_distortion_gauge_generator_owned": false,
+  "target_claim": "SC-ACT-06"
+}

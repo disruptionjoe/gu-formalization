@@ -1,0 +1,21 @@
+{
+  "classification_theorem": "all first-order completions have C=-A+Q with Q^T=-Q; gauge descent is QG=0 and the surviving principal coefficient is Q",
+  "completed_map_rank": 122721,
+  "corrected_defect": "T+T^T=P_R A-A P_R",
+  "corrected_defect_rank": 16382,
+  "correction_scope": "K896's nonintegrability conclusion survives with commutator rank 16382, but its rank-130912 anticommutator defect and K897's symmetric-S classification are withdrawn",
+  "created": "2026-10-05",
+  "equivalent_condition": "[P_R,A]=0",
+  "first_order_principal_integrability": false,
+  "first_order_self_adjoint_condition": "T^T=-T",
+  "formal_projector": "T=A(I-P_R)",
+  "projector_action_owned": false,
+  "radial_descent_restored": true,
+  "result_id": "K1128-K896-PROJECTOR-COMMUTATOR-AUDIT",
+  "retired_zero_order_defect_rank": 130912,
+  "schema_version": "1.0",
+  "source_and_ledger_effect": "SC-ACT-01_06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "transpose": "T^T=-(I-P_R)A",
+  "zero_order_symmetric_completion_classification_survives": false
+}

@@ -7,6 +7,20 @@ updated_at: "2026-10-05"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1126--K1130 adjoint and gauge-carrier correction (2026-10-05)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A constant first-order coefficient is formally self-adjoint when it is skew, not symmetric | K1126 integration-by-parts identity and exact `2x2` fixture; producer `14/14`; hostile mutations `14/14` | exact compact-support constant-coefficient principal statement; complete Hessian open |
+| The native T=0 action owns no independent distortion `d chi` gauge column | K1127 comparison of K887 with K129/K132 native `(g,T)` coordinates; producer `13/13`; hostile mutations `13/13` | exact carrier correction; K887's rank-8191 slice remains auxiliary |
+| K896's projector fails corrected first-order integrability at commutator rank `16382` | K1128 transpose and commutator audit; producer `15/15`; hostile mutations `15/15` | exact auxiliary finite-symbol result; no action owner |
+| K887--K925 lose source-action completion-gate status while K926--K940 retain auxiliary scope | K1129 audit of all 54 result manifests; producer `15/15`; hostile mutations `13/13` | exact dependency/scope disposition; historical algebra preserved on typed carriers |
+| The live frontier returns to native constraint/KT/BFV construction meeting the `6/6/4` floors | K1130 ownership boundary; producer `15/15`; hostile mutations `13/13` | current research boundary; no physical quotient or positive cohomology constructed |
+
+SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`, and LT-SM8,
+LT-GR6b, RA-F1 and AC-F1 remain `NEEDS`. No source polarity, ledger, empirical,
+canon or public status moves.
+
 ## K1121--K1125 physical-reduction necessity boundary (2026-10-05)
 
 | Claim | Evidence | Honest grade |

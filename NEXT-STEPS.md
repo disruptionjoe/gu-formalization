@@ -7,6 +7,19 @@ updated_at: "2026-10-05"
 
 # Next Steps For Contributors
 
+> **2026-10-05 K1126--K1130 ADJOINT AND GAUGE-CARRIER CORRECTION.** K895
+> applied a zero-order transpose test to a first-order coefficient. The
+> corrected formal adjoint requires skew coefficient matrices, so its
+> rank-130912 principal Helmholtz obstruction is withdrawn. Native
+> `T=varpi-B_LC(g)` transforms tensorially; K887's rank-8191 radial response is
+> a frozen connection-only control, not the action-owned T=0 gauge image.
+> K896's unowned auxiliary projector still fails the corrected commutator test
+> at rank `16382`. K887--K925 are retired as the live source-action completion
+> gate; K926--K940 remain exact auxiliary mathematics. Next construct the
+> native `(g,T)` source-action constraint/KT/BFV maps on one common closed
+> domain meeting the `6/6/4` floors and yielding a positive pairing on nonzero
+> cohomology, or derive the actual boundary coupling or stationary background.
+
 > **2026-10-05 K1121--K1125 PHYSICAL-REDUCTION NECESSITY BOUNDARY.** A
 > quotient by any Hessian radical preserves positive and negative inertia, so
 > ordinary gauge quotienting cannot remove K1118's negative sector. A

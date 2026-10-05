@@ -4,6 +4,24 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1126--K1130 adjoint and gauge-carrier correction
+
+- `channel-swings/k1126_k895_first_order_formal_adjoint_correction.py`
+  corrects the first-order formal-adjoint parity; its probe rejects fourteen
+  mutations.
+- `channel-swings/k1127_k887_t0_gauge_carrier_correction.py` separates the
+  native T=0 gauge image from K887's auxiliary radial slice; its probe rejects
+  thirteen mutations.
+- `channel-swings/k1128_k896_projector_commutator_audit.py` recomputes the
+  projector defect as a rank-16382 commutator; its probe rejects fifteen
+  mutations.
+- `channel-swings/k1129_k887_k940_consumer_survival_audit.py` audits all 54
+  downstream result manifests; its probe rejects thirteen mutations.
+- `channel-swings/k1130_k1129_corrected_action_boundary.py` freezes the
+  corrected live frontier; its probe rejects thirteen mutations.
+- Five producers pass 72 declared controls; five probes reject 68/68 hostile
+  mutations. No protected GU conclusion moves.
+
 ## K1121--K1125 physical-reduction necessity boundary
 
 - `channel-swings/k1121_k1118_radical_quotient_inertia_preservation.py`

@@ -10,6 +10,26 @@
 # This registry is the propagation ledger, not the correction text. The prose banners in the owning
 # files remain the human-facing record.
 corrections:
+  - id: K887-K898-ADJOINT-GAUGE-CARRIER-20261005
+    owner: explorations/conditional-build/k1130-k1129-corrected-action-boundary-2026-10-05.md
+    meaning: >-
+      K895 applied a zero-order transpose test to a first-order coefficient;
+      skew is the correct principal formal-self-adjoint parity, so its claimed
+      rank-130912 principal Helmholtz obstruction is withdrawn. Native
+      T=varpi-B_LC(g) transforms tensorially, so K887's rank-8191 radial image
+      is an auxiliary connection-only slice, not an action-owned T=0 gauge
+      image. K896's auxiliary projector still fails corrected first-order
+      integrability at commutator rank 16382. K887-K925 no longer establish a
+      source-action completion gate; K926-K940 retain their explicit auxiliary
+      scope.
+    canonical_since: "2026-10-05"
+    topic_signature:
+      - K887
+      - K895
+      - K896
+      - first-order formal adjoint
+      - T=0 gauge carrier
+    enforce: false
   - id: K957-K959-OPTIMIZED-CHSH-SCOPE-20261004
     owner: explorations/conditional-build/k1001-k957-optimized-chsh-correction-2026-10-04.md
     meaning: >-

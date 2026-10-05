@@ -1,0 +1,47 @@
+{
+  "complete_hessian_established": false,
+  "correction_scope": "K895's rank-130912 coefficient and skewness survive; only the inference that skewness obstructs a first-order even-bosonic Hessian is withdrawn",
+  "created": "2026-10-05",
+  "fixture_A": [
+    [
+      0,
+      2
+    ],
+    [
+      -2,
+      0
+    ]
+  ],
+  "fixture_A_transpose": [
+    [
+      0,
+      -2
+    ],
+    [
+      2,
+      0
+    ]
+  ],
+  "fixture_formally_self_adjoint": true,
+  "formal_adjoint": "D*=-sum_mu A_mu^T partial_mu",
+  "fourier_condition": "i A(xi) is Hermitian for real xi",
+  "k895_coefficient_is_skew": true,
+  "k895_first_order_principal_helmholtz_defect_rank": 0,
+  "k895_principal_obstruction_survives": false,
+  "k895_selected_coefficient_rank": 130912,
+  "k895_zero_order_transpose_defect_rank_retired": 130912,
+  "operator": "D=sum_mu A_mu partial_mu on compactly supported real fields with constant coefficients",
+  "principal_self_adjoint_condition": "A_mu^T=-A_mu for every mu",
+  "remaining_requirements": [
+    "coefficient derivatives",
+    "lower-order Euler terms",
+    "pairing density",
+    "boundary convention",
+    "common closed domain"
+  ],
+  "result_id": "K1126-K895-FIRST-ORDER-FORMAL-ADJOINT-CORRECTION",
+  "schema_version": "1.0",
+  "source_and_ledger_effect": "SC-ACT-01_06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

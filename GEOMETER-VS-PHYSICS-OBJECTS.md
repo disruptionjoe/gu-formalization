@@ -78,8 +78,12 @@ bridge. These reminders constrain inference, not permission to continue work.
 
 - **T10 Hessians and adjoints.** Keep derivative order, field coordinates,
   pairing and boundary convention. Differential adjoint is not coefficient
-  transpose; a third variation is not a Hessian. K895's differential
-  interpretation is under review, not corrected here.
+  transpose; a third variation is not a Hessian. K1126 corrects K895: a
+  constant first-order coefficient must be skew for formal self-adjointness,
+  so K895's claimed principal obstruction is withdrawn. K1127--K1130
+  separately correct the native T=0 gauge carrier and retire the K887--K925
+  source-action completion inference while preserving explicitly auxiliary
+  results in their declared scope.
   [First-order coefficient](explorations/conditional-build/selected-k132-native-i1b-t0-all-grade-noether-complex-2026-08-16.md);
   [Mixed Hessian](explorations/conditional-build/selected-k128-native-i1b-t0-coupled-hessian-and-schur-domain-gate-2026-08-16.md).
 
