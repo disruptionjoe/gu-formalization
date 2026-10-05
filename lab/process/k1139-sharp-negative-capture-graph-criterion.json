@@ -1,0 +1,90 @@
+{
+  "causal_rank_floor_controls": [
+    {
+      "constraint_rank": 6,
+      "kind": "timelike",
+      "negative_index": 6,
+      "positive_selector_passes": true,
+      "positive_selector_restricted_inertia": [
+        6,
+        0,
+        0
+      ],
+      "wrong_selector_passes": false,
+      "wrong_selector_restricted_inertia": [
+        0,
+        6,
+        0
+      ]
+    },
+    {
+      "constraint_rank": 6,
+      "kind": "spacelike",
+      "negative_index": 6,
+      "positive_selector_passes": true,
+      "positive_selector_restricted_inertia": [
+        6,
+        0,
+        0
+      ],
+      "wrong_selector_passes": false,
+      "wrong_selector_restricted_inertia": [
+        0,
+        6,
+        0
+      ]
+    },
+    {
+      "constraint_rank": 4,
+      "kind": "null",
+      "negative_index": 4,
+      "positive_selector_passes": true,
+      "positive_selector_restricted_inertia": [
+        4,
+        0,
+        0
+      ],
+      "wrong_selector_passes": false,
+      "wrong_selector_restricted_inertia": [
+        0,
+        4,
+        0
+      ]
+    }
+  ],
+  "created": "2026-10-05",
+  "negative_capture_and_contraction_required": true,
+  "rank_floor_is_sufficient": false,
+  "result_id": "K1139-SHARP-NEGATIVE-CAPTURE-GRAPH-CRITERION",
+  "schema_version": "1.0",
+  "scope_boundary": "exact finite-dimensional nondegenerate criterion; radicals, gauge, propagation, domains, action ownership and cohomology require separate proofs",
+  "sharp_fixture": {
+    "H_diagonal": [
+      -2,
+      -1,
+      3,
+      4
+    ],
+    "equal_constraint_rank": 2,
+    "failing_B_diagonal": [
+      2,
+      1
+    ],
+    "failing_restricted_diagonal": [
+      -5,
+      3
+    ],
+    "passing_B_diagonal": [
+      1,
+      1
+    ],
+    "passing_restricted_diagonal": [
+      1,
+      3
+    ]
+  },
+  "spectral_negative_selector_is_action_owned": false,
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": "write a nondegenerate Hessian as H=(-D_minus) direct-sum H_plus with both blocks positive definite. A minimal-rank constraint Q=[Q_minus,Q_plus] can have nonnegative kernel only if Q_minus is invertible; then ker(Q) is the graph v_minus=-B v_plus with B=Q_minus^-1 Q_plus, and the restriction is H_plus-B*D_minus B, which is nonnegative exactly when B is a contraction between these weighted forms"
+}

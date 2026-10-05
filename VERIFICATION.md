@@ -7,6 +7,20 @@ updated_at: "2026-10-05"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1136--K1140 exceptional-shell and negative-capture gates (2026-10-05)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A polynomial or real-analytic local constraint symbol that vanishes on an open set vanishes identically | K1136 line-restriction proof and degree-three Vandermonde control; producer `12/12`; hostile mutations `10/10` | exact local-symbol theorem; smooth, nonlocal and distributional shell data excluded from its scope |
+| Nonzero-`kappa` exceptional shells do not define a shell-only homogeneous local constraint | K1137 composition of K1132, K1136 and K134's 27 shell values; producer `12/12`; hostile mutations `10/10` | exact current-pencil classification; shell spectral compatibility and new differentials remain open |
+| `P=I-Q*(QQ*)^-1 Q` gives the exact constrained-inertia certificate | K1138 projector, kernel-basis and congruence controls; producer `12/12`; hostile mutations `11/11` | exact finite-dimensional theorem; no action ownership or functional domain |
+| Minimal-rank positivity requires negative capture and a sharp graph contraction | K1139 exact pass/fail graph fixtures plus causal `6/6/4` controls; producer `12/12`; hostile mutations `10/10` | exact nondegenerate criterion; radicals, gauge and propagation remain separate |
+| A future I1B constraint must pass seven ownership, inertia and functional gates | K1140 admission compiler; producer `12/12`; hostile mutations `11/11` | current constructive boundary; zero current candidates pass all gates |
+
+Five producers pass `60/60` controls and five probes reject `52/52` hostile
+mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`,
+LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and no protected verdict moves.
+
 ## K1131--K1135 native I1B constraint-owner census (2026-10-05)
 
 | Claim | Evidence | Honest grade |

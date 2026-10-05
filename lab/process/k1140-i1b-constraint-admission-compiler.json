@@ -1,0 +1,51 @@
+{
+  "admission_gates": [
+    {
+      "acceptance": "typed source-action derivation; shell spectral support or fitted projector is insufficient",
+      "gate": "action_owned_non_gauge_local_map"
+    },
+    {
+      "acceptance": "typewise rank at least 6/6/4",
+      "gate": "causal_rank_floor"
+    },
+    {
+      "acceptance": "full capture of the negative block, not rank alone",
+      "gate": "negative_capture"
+    },
+    {
+      "acceptance": "H_plus-B*D_minus B nonnegative or an equivalent exact ker(Q) inertia certificate",
+      "gate": "graph_contraction_or_exact_inertia"
+    },
+    {
+      "acceptance": "intertwining or closed evolution on the same native carrier",
+      "gate": "propagation"
+    },
+    {
+      "acceptance": "one domain for Hessian, constraint, adjoint and boundary traces",
+      "gate": "common_closed_domain"
+    },
+    {
+      "acceptance": "positive pairing on at least one nonzero physical class",
+      "gate": "nonzero_positive_cohomology"
+    }
+  ],
+  "created": "2026-10-05",
+  "current_candidates_meeting_all_gates": 0,
+  "current_source_and_ledger_effect": "none",
+  "exceptional_shell_retyped": "spectral_compatibility_not_homogeneous_local_constraint",
+  "inputs": [
+    "K1134-SOURCE-I1B-CURRENT-CONSTRAINT-OWNER-CENSUS",
+    "K1137-NONZERO-KAPPA-EXCEPTIONAL-SHELL-CONSTRAINT-BOUNDARY",
+    "K1138-CONSTRAINT-PROJECTOR-INERTIA-CERTIFICATE",
+    "K1139-SHARP-NEGATIVE-CAPTURE-GRAPH-CRITERION"
+  ],
+  "next_condition": "construct one source-action-owned non-gauge map and pass all seven gates, or supply the actual boundary coupling, a stationary global background, or a different source-owned differential/completion",
+  "protected_disposition": "SC-ACT-01/02/06 remain ASSERTS; SC-META-53 remains UNCERTAIN; LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS",
+  "rank_floor_retyped": "necessary_not_sufficient",
+  "result_id": "K1140-I1B-CONSTRAINT-ADMISSION-COMPILER",
+  "schema_version": "1.0",
+  "scope_boundary": "admission compiler for future candidates; no candidate is constructed and no GU falsification, physical quotient, prediction, confirmation, canon or public move follows",
+  "scorable_rows_added": 0,
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

@@ -7,6 +7,21 @@ updated_at: "2026-10-05"
 
 # Next Steps For Contributors
 
+> **2026-10-05 K1136--K1140 EXCEPTIONAL-SHELL AND NEGATIVE-CAPTURE GATES.** A
+> polynomial or real-analytic local constraint symbol that vanishes on the
+> dense generic-invertible region vanishes identically. K134's 27 spacelike
+> exceptional shells can therefore carry spectral solvability conditions, but
+> not a nonzero shell-only finite-order local constraint for the original
+> fixed-`kappa` equations. Separately, the `6/6/4` rank floor is necessary but
+> not sufficient. For a minimal-rank constraint, positivity requires full
+> negative-block capture and the sharp weighted graph contraction
+> `H_plus-B*D_minus B >= 0`; equal-rank controls both pass and fail at all three
+> causal floors. Next construct one source-action-owned map and pass the full
+> seven-gate compiler: ownership, rank, capture, nonnegative restriction,
+> propagation, common domain and positive nonzero cohomology. Alternate
+> reopeners remain the actual boundary coupling, stationary global background
+> or a different source-owned differential/completion.
+
 > **2026-10-05 K1131--K1135 NATIVE I1B CONSTRAINT-OWNER CENSUS.** For the
 > mixed Hessian equation `Ct+Ah=0`, the exact solvability constraint is
 > `Q=L* A` with `im(L)=ker(C*)`. Invertible `C` gives `Q=0`, so the generic

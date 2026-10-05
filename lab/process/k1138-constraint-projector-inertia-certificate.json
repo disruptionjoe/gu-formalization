@@ -1,0 +1,78 @@
+{
+  "action_ownership_supplied": false,
+  "basis_invariance": "replacing Z by ZM gives M*(Z*HZ)M and preserves inertia for invertible M",
+  "created": "2026-10-05",
+  "fixture": {
+    "H_diagonal": [
+      -1,
+      2,
+      3
+    ],
+    "P": [
+      [
+        "1/2",
+        "0",
+        "-1/2"
+      ],
+      [
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "-1/2",
+        "0",
+        "1/2"
+      ]
+    ],
+    "PHP": [
+      [
+        "1/2",
+        "0",
+        "-1/2"
+      ],
+      [
+        "0",
+        "2",
+        "0"
+      ],
+      [
+        "-1/2",
+        "0",
+        "1/2"
+      ]
+    ],
+    "P_idempotent": true,
+    "Q": [
+      [
+        1,
+        0,
+        1
+      ]
+    ],
+    "QP_zero": true,
+    "kernel_gram": [
+      [
+        "2",
+        "0"
+      ],
+      [
+        "0",
+        "2"
+      ]
+    ],
+    "kernel_inertia": [
+      2,
+      0,
+      0
+    ]
+  },
+  "radical_quotient_effect": "removes only zero inertia after restriction",
+  "rank_alone_decides_nonnegativity": false,
+  "result_id": "K1138-CONSTRAINT-PROJECTOR-INERTIA-CERTIFICATE",
+  "schema_version": "1.0",
+  "scope_boundary": "finite-dimensional exact certificate; functional domains, propagation, action ownership and physical cohomology remain separate",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": "for full-row-rank Q, P=I-Q*(QQ*)^-1 Q is the orthogonal projector onto ker(Q); H restricted to ker(Q) is nonnegative iff PHP is nonnegative on im(P), equivalently iff Z*HZ is positive semidefinite for any basis Z of ker(Q)"
+}

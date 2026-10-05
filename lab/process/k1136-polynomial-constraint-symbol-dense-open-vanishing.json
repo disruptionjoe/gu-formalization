@@ -1,0 +1,28 @@
+{
+  "created": "2026-10-05",
+  "distributional_or_nonlocal_shell_projector_excluded_by_theorem": false,
+  "finite_degree_control": {
+    "degree_at_most": 3,
+    "nodes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "vandermonde_determinant": "12",
+    "zero_values_force_zero_coefficients": true
+  },
+  "proof_route": "restrict each matrix entry to generic affine lines; a one-variable polynomial vanishing on an interval is zero, then vary the line",
+  "regularity_required": [
+    "polynomial",
+    "real_analytic"
+  ],
+  "result_id": "K1136-POLYNOMIAL-CONSTRAINT-SYMBOL-DENSE-OPEN-VANISHING",
+  "schema_version": "1.0",
+  "scope_boundary": "local finite-order differential or real-analytic symbol identity only; nonlocal, distributional and separately supplied shell data are not excluded",
+  "shell_only_local_symbol_possible": false,
+  "smooth_only_is_sufficient": false,
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": "a polynomial local differential constraint symbol that vanishes on a nonempty open subset of a connected covector chart vanishes identically; the same holds componentwise for real-analytic symbols"
+}

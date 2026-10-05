@@ -4,6 +4,25 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1136--K1140 exceptional-shell and negative-capture gates
+
+- K1136 proves the dense-open identity theorem for polynomial and
+  real-analytic local constraint symbols (`12/12` controls; `10/10` hostile
+  mutations).
+- K1137 applies it to the nonzero-`kappa` I1B pencil and separates K134's 27
+  exceptional shells from a homogeneous local constraint (`12/12`; `10/10`).
+- K1138 constructs the exact `ker Q` projector and restricted-inertia
+  certificate (`12/12`; `11/11`).
+- K1139 proves the sharp minimal-rank negative-capture graph criterion and
+  gives equal-rank pass/fail controls at causal floors `6/6/4` (`12/12`;
+  `10/10`).
+- K1140 compiles the resulting seven-gate admission boundary for future
+  source-native I1B constraints (`12/12`; `11/11`).
+
+The five producers pass `60/60` controls; the five probes reject `52/52`
+hostile mutations. These tests do not construct an action-owned constraint,
+functional domain, physical quotient or positive nonzero cohomology.
+
 ## K1131--K1135 native I1B constraint-owner census
 
 - K1131 proves the exact mixed-block solvability map `Q=L* A` and checks
