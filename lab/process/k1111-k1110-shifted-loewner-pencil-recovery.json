@@ -1,0 +1,59 @@
+{
+  "created": "2026-10-05",
+  "left_modes": [
+    0,
+    1
+  ],
+  "normalized_pencil_polynomial": [
+    "1",
+    "-4",
+    "3"
+  ],
+  "ordinary_centering": "R_ij=(S(x_i)-S(y_j))/(x_i-y_j)-alpha=V_X diag(w) V_Y^T",
+  "pencil_polynomial": [
+    "1/540",
+    "-1/135",
+    "1/180"
+  ],
+  "pole_matrix": [
+    [
+      "17/15",
+      "11/12"
+    ],
+    [
+      "23/30",
+      "5/8"
+    ]
+  ],
+  "recovered_shifts": [
+    1,
+    3
+  ],
+  "recovery_theorem": "if the exact pole count m and affine part alpha,beta are owned and the square Cauchy factors are nonsingular, the generalized eigenvalues of P-d*R are exactly the distinct pole shifts d_i",
+  "residual_loewner": [
+    [
+      "3/5",
+      "17/36"
+    ],
+    [
+      "11/30",
+      "7/24"
+    ]
+  ],
+  "result_id": "K1111-K1110-SHIFTED-LOEWNER-PENCIL-RECOVERY",
+  "right_modes": [
+    2,
+    3
+  ],
+  "sample_values": [
+    "8/3",
+    "11/2",
+    "118/15",
+    "121/12"
+  ],
+  "schema_version": "1.0",
+  "scope_boundary": "constructive exact inverse inside the bounded positive diagonal class; no source-owned affine part, pole count, GU Hessian or physical modes",
+  "shifted_centering": "P_ij=alpha*(x_i+y_j)+beta-(x_i*S(x_i)-y_j*S(y_j))/(x_i-y_j)=V_X diag(w*d) V_Y^T",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

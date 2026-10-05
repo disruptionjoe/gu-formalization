@@ -1,0 +1,31 @@
+{
+  "cauchy_determinant": "1/12",
+  "cauchy_matrix": [
+    [
+      "1",
+      "1/3"
+    ],
+    [
+      "1/2",
+      "1/4"
+    ]
+  ],
+  "correction_values": [
+    "7/3",
+    "3/2"
+  ],
+  "created": "2026-10-05",
+  "fixture_membership": "pass_positive_two_pole_class",
+  "membership_rule": "the bounded simple-pole positive Stieltjes class passes only if the pencil has the owned order, all recovered shifts and residues are positive, and the reconstructed branch matches every reserved exact sample",
+  "reconstruction_rule": "after pencil recovery of distinct positive shifts, solve the exact Cauchy system alpha*x_j+beta-S(x_j)=sum_i w_i/(x_j+d_i) for the residues",
+  "recovered_weights": [
+    "1",
+    "4"
+  ],
+  "rejection_rule": "a nonreal, nonpositive or repeated recovered shift, a nonpositive residue, a singular required Cauchy system, or a nonzero reserved-sample residual rejects that specified class rather than GU in general",
+  "result_id": "K1112-K1111-POSITIVE-STIELTJES-RECONSTRUCTION-TEST",
+  "schema_version": "1.0",
+  "scope_boundary": "exact conditional class test; the order, affine part, sample exactness and physical ownership remain independent premises",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

@@ -1,0 +1,82 @@
+{
+  "advance": "an owned affine part and finite order turn exact paired mode values into a constructive pole-and-residue inverse, while explicit separation and scalar-error budgets feed the Loewner matrices",
+  "counts": {
+    "gu_source_owned": 0,
+    "mathematical_pass_or_conditional": 4,
+    "open_physical_or_source": 3,
+    "repository_conditional_owned": 4,
+    "scorable": 0
+  },
+  "created": "2026-10-05",
+  "ledger_effect": "none -- LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS",
+  "next_condition": "return to source/action or apparatus ownership: supply a source-selected stationary functional Hessian and proper positive BV/BFV complex, or own the affine branch, finite order, separated poles and weights, prepared paired modes, scalar error box, dimensional ruler and complete systematics",
+  "nonselection": "the inverse does not supply a GU Hessian, physical BV/BFV quotient, affine coefficients, multiplicity cap, pole floors, mode preparation, ruler or measured systematics",
+  "requirements": [
+    {
+      "candidate_grade": "pass_conditional",
+      "evidence": "K1111",
+      "gu_source_owned": false,
+      "id": "shifted_loewner_pencil_recovery",
+      "repository_conditional_owned": true,
+      "scorable": false
+    },
+    {
+      "candidate_grade": "pass_conditional",
+      "evidence": "K1112",
+      "gu_source_owned": false,
+      "id": "positive_class_reconstruction_test",
+      "repository_conditional_owned": true,
+      "scorable": false
+    },
+    {
+      "candidate_grade": "pass_conditional",
+      "evidence": "K1113",
+      "gu_source_owned": false,
+      "id": "separation_to_singular_gap_bound",
+      "repository_conditional_owned": true,
+      "scorable": false
+    },
+    {
+      "candidate_grade": "pass_conditional",
+      "evidence": "K1114",
+      "gu_source_owned": false,
+      "id": "sample_to_matrix_error_map",
+      "repository_conditional_owned": true,
+      "scorable": false
+    },
+    {
+      "candidate_grade": "open",
+      "evidence": "SC-ACT-01/02/06",
+      "gu_source_owned": false,
+      "id": "source_selected_functional_complex",
+      "repository_conditional_owned": false,
+      "scorable": false
+    },
+    {
+      "candidate_grade": "open",
+      "evidence": "LT-SM8/LT-GR6b",
+      "gu_source_owned": false,
+      "id": "positive_physical_cohomology",
+      "repository_conditional_owned": false,
+      "scorable": false
+    },
+    {
+      "candidate_grade": "open",
+      "evidence": "K1111--K1114 scope boundaries",
+      "gu_source_owned": false,
+      "id": "owned_inverse_inputs_and_apparatus",
+      "repository_conditional_owned": false,
+      "scorable": false
+    }
+  ],
+  "result_id": "K1115-K1114-LOEWNER-RECONSTRUCTION-BOUNDARY",
+  "schema_version": "1.0",
+  "source_scope": {
+    "SC-ACT-01": "ASSERTS",
+    "SC-ACT-02": "ASSERTS",
+    "SC-ACT-06": "ASSERTS",
+    "SC-META-53": "UNCERTAIN"
+  },
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

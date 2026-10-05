@@ -1,0 +1,20 @@
+{
+  "cauchy_determinant": "det V(X,d)=prod_{i<j}(x_j-x_i)*prod_{i<j}(d_j-d_i)/prod_{i,k}(x_i+d_k)",
+  "created": "2026-10-05",
+  "decision": "owned pole, weight and node-separation floors yield an explicit positive but potentially conservative singular-gap certificate",
+  "fixture_conservative_det_floor": "1/419904",
+  "fixture_conservative_singular_floor": "1/6718464",
+  "fixture_det_r": "1/540",
+  "fixture_det_vx": "1/12",
+  "fixture_det_vy": "1/180",
+  "fixture_norm_ceiling": "16",
+  "general_floor": "for m nodes per side, q=m(m-1)/2, gaps delta_X,delta_Y,delta_d, 0<=x,y<=X, d<=D and w>=w_min: |det R|>=w_min^m*delta_X^q*delta_Y^q*delta_d^(2q)/(X+D)^(2m^2)",
+  "norm_ceiling": "if d>=d_min and w<=w_max then ||R||_2<=m^2*w_max/d_min^2",
+  "residual_determinant": "det R=det V_X*det V_Y*prod_i w_i",
+  "result_id": "K1113-K1112-CAUCHY-SEPARATION-GAP-BOUND",
+  "schema_version": "1.0",
+  "scope_boundary": "conditional finite-order bound; no owner supplies these floors for a GU physical branch or measured apparatus",
+  "singular_floor": "sigma_min(R)>=|det R|/||R||_2^(m-1)",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

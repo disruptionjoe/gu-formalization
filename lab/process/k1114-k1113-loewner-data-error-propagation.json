@@ -1,0 +1,27 @@
+{
+  "affine_model": "|alpha_hat-alpha|<=epsilon_alpha and |beta_hat-beta|<=epsilon_beta",
+  "created": "2026-10-05",
+  "decision": "sample spacing and affine-parameter errors must be budgeted jointly before applying rank or generalized-eigenvalue stability",
+  "fixture": {
+    "R": "3",
+    "epsilon_alpha": "1/2000",
+    "epsilon_beta": "1/1000",
+    "eta": "1/1000",
+    "g": "1",
+    "m": 2
+  },
+  "fixture_ordinary_entry_bound": "1/400",
+  "fixture_ordinary_norm_bound": "1/200",
+  "fixture_shifted_entry_bound": "1/100",
+  "fixture_shifted_norm_bound": "1/50",
+  "ordinary_entry_bound": "|Delta R_ij|<=2*eta/g+epsilon_alpha",
+  "ordinary_norm_bound": "||Delta R||_2<=m*(2*eta/g+epsilon_alpha)",
+  "result_id": "K1114-K1113-LOEWNER-DATA-ERROR-PROPAGATION",
+  "sample_model": "|S_hat(z)-S(z)|<=eta on two disjoint m-node sets, cross-gap g=min|x_i-y_j|>0, and |x_i|,|y_j|<=R",
+  "schema_version": "1.0",
+  "scope_boundary": "deterministic conditional error map; no measured GU branch values, affine calibration or apparatus systematic budget",
+  "shifted_entry_bound": "|Delta P_ij|<=2*R*eta/g+2*R*epsilon_alpha+epsilon_beta",
+  "shifted_norm_bound": "||Delta P||_2<=m*(2*R*eta/g+2*R*epsilon_alpha+epsilon_beta)",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

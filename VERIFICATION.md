@@ -7,6 +7,20 @@ updated_at: "2026-10-05"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1111--K1115 Loewner reconstruction boundary (2026-10-05)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A centered ordinary/shifted Loewner pencil recovers the pole shifts under an owned affine part and finite order | K1111 factorization and exact K1098 pencil `d^2-4d+3`; producer `12/12`; hostile mutations `13/13` | exact conditional inverse theorem; affine part, pole count and physical branch unowned |
+| Recovered poles yield an exact positive-class residue and reserved-sample test | K1112 Cauchy solve with determinant `1/12` and weights `(1,4)`; producer `10/10`; hostile mutations `10/10` | exact bounded-class membership test; rejection is class-relative, not GU-wide |
+| Owned pole, weight and node-separation floors imply an explicit positive singular-gap lower bound | K1113 Cauchy determinant theorem, exact `det R=1/540` and conservative `sigma_min>=1/6718464`; producer `14/14`; hostile mutations `14/14` | exact conditional conditioning theorem; no physical floors are owned |
+| Scalar value and affine-calibration errors propagate explicitly into both pencil matrices | K1114 deterministic entry and spectral-norm bounds; producer `14/14`; hostile mutations `14/14` | exact conditional error map; no measured branch or apparatus budget |
+| Four conditional mathematical rows pass while zero rows become GU-source-owned or empirically scorable | K1115 ownership matrix; producer `10/10`; hostile mutations `8/8` | conditional requirement disposition; no empirical score, prediction or confirmation |
+
+SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`, and LT-SM8,
+LT-GR6b, RA-F1 and AC-F1 remain `NEEDS`. No empirical score, prediction,
+confirmation, canon or public status moves.
+
 ## K1106--K1110 Loewner identifiability boundary (2026-10-05)
 
 | Claim | Evidence | Honest grade |

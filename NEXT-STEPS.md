@@ -7,6 +7,18 @@ updated_at: "2026-10-05"
 
 # Next Steps For Contributors
 
+> **2026-10-05 K1111--K1115 LOEWNER RECONSTRUCTION BOUNDARY.** With an
+> independently owned affine part and finite pole count, ordinary and shifted
+> cross-Loewner matrices form an exact pole-recovery pencil. The K1098 fixture
+> recovers shifts `1,3` from `d^2-4d+3` and weights `1,4` from an exact Cauchy
+> solve. Cauchy determinant identities turn owned node, pole and weight floors
+> into an explicit singular-gap certificate, and scalar sample plus affine
+> calibration errors now propagate to both pencil matrices. These are
+> conditional inverse results, not GU or apparatus ownership. Next return to a
+> source-selected stationary functional Hessian and proper positive BV/BFV
+> complex, or own the affine branch, finite order, separation floors, paired
+> modes, scalar error box, ruler and complete measured systematics.
+
 > **2026-10-05 K1106--K1110 LOEWNER IDENTIFIABILITY BOUNDARY.** The positive
 > diagonal Stieltjes branch has an exact positive Loewner factorization. A
 > positive `r x r` confluent or disjoint cross-Loewner determinant certifies
