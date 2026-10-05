@@ -2,10 +2,145 @@
 title: "GU Objects: Geometer and Physics Construction Routing"
 status: active_research
 doc_type: object-routing-authority
-updated_at: "2026-09-08"
+updated_at: "2026-10-05"
 ---
 
 # GU objects: the geometer's construction vs the physics default (read before attacking any GU object)
+
+## Required startup index
+
+Read this index before selecting or inheriting work. Follow a bullet's links
+when its object, a theorem assumption, an upstream dependency, or a downstream
+claim is involved—even under different terminology. Expand only relevant
+routes. Record the operative object/convention and inference limit in the
+existing research artifact; no separate checklist is needed.
+
+The [source register](lab/sources/source-claim-register.yaml) distinguishes
+ASSERTS, DISAVOWS and UNCERTAIN; adherence is not proof. Read the exact claim
+and [newest explicit correction](lab/methods/claim-status-consistency.md),
+not just a historical title. A missing source input is an open construction,
+not a universal no-go. Both criticisms and defenses need the same typed
+bridge. These reminders constrain inference, not permission to continue work.
+
+- **T01 Metrics, dimension, normalization.** Base spacetime is not
+  `Y=Met(X)`; the fibre is symmetric metric variations, not exterior grades.
+  Native Frobenius trace reversal uses `lambda=1/2`; matching signature at
+  `lambda=1` does not match coefficients.
+  [Normalization](explorations/gimmel-dewitt-normalization-ledger-2026-07-20.md);
+  [14D type distinction](explorations/geometry-curvature-emergence/graded-exterior-bundle-14d-comparator-2026-07-26.md).
+
+- **T02 Signature and real form.** Source use of K77 is not its geometric
+  derivation: the corrected displayed-block arithmetic gives K95.
+  The ambient bridge remains open. Do not transfer Clifford, Hodge,
+  conjugation or Krein data silently.
+  [Branch correction](explorations/conditional-build/signature-rationale-and-build-branch-retype-2026-08-08.md).
+
+- **T03 Trace reversal and gravity.** Vertical Frobenius, ambient Einstein
+  and observed Einstein traces are different maps. Full-`II` norm and
+  a Gauss-identity curvature term do not establish physical Einstein dynamics.
+  [Three traces](explorations/precontract-wave-0b-trace-reversal-robustness-2026-08-05.md);
+  [Scoped norm result](explorations/conditional-build/selected-moving-k77-vacuum-p2-norm-placement-2026-08-05.md).
+
+- **T04 Observation and transport.** Section pullback is contraction, not
+  arbitrary projection. Equal dimensions do not supply a natural map;
+  ambient gamma kernels need not descend. Prove the relevant intertwining.
+  [Observation obstruction](explorations/source-native-spin64-observation-sector-obstruction-2026-08-30.md).
+
+- **T05 Generations and labels.** SC-GEN-01 DISAVOWS three simply repeated
+  families. The target is `2+1`: imposter128 is spin-1/2;
+  RS384 is the separately labeled spin-3/2 cousin. Neither establishes a
+  physical-family count.
+  [Label adjudication and limits](lab/process/hostile-reviews/2026-08-03-imposter-ab-review.md).
+
+- **T06 Chirality and reality.** The source asserts a non-chiral total
+  theory (SC-CHI-01/51). Paired reality and zero bulk index do not settle
+  observed chiral separation; the observation/physical-quotient bridge remains.
+  [Native route](lab/methods/source-native-comparator-routing.md#1-ordinary-family-index-or-net-chirality-versus-weinsteins-21);
+  [Paired sectors](explorations/source-native-spin64-observation-sector-obstruction-2026-08-30.md).
+
+- **T07 Higgs, VEV, vectors.** The connection-curvature candidate is not a
+  conventional scalar/126 model. Section pullback sends
+  the ad-valued one-form to a one-form, not a KK scalar multiplet. A stabilizer
+  is not a propagating mass spectrum.
+  [Withdrawn scalar clause and required bridges](lab/methods/source-native-comparator-routing.md).
+
+- **T08 Torsion and backgrounds.** SC-GEO-55 ASSERTS displacement from
+  gauge-rotated Levi-Civita, not ordinary torsion. Nonzero T alone changes no
+  principal coefficient with the listed structures fixed; that is not an
+  all-non-LC exclusion.
+  [Exact fixed-structure scope](lab/process/k803-sc-act-06-nonzero-t-principal-invariance.json).
+
+- **T09 Actions and equations.** Printed Upsilon, the action's actual
+  variation, a residual square and an I1B/I2B sum are distinct. SC-ACT-06
+  ASSERTS a claim on Upsilon=0, not every joint stationary equation.
+  [Source distinctions](lab/sources/gu-eddy-augmented-torsion-euler-functor-source-reinspection-2026-08-05.md);
+  [Sum correction](lab/process/k784-sc-act-06-i1b-i2b-action-sum-ownership-correction.json).
+
+- **T10 Hessians and adjoints.** Keep derivative order, field coordinates,
+  pairing and boundary convention. Differential adjoint is not coefficient
+  transpose; a third variation is not a Hessian. K895's differential
+  interpretation is under review, not corrected here.
+  [First-order coefficient](explorations/conditional-build/selected-k132-native-i1b-t0-all-grade-noether-complex-2026-08-16.md);
+  [Mixed Hessian](explorations/conditional-build/selected-k128-native-i1b-t0-coupled-hessian-and-schur-domain-gate-2026-08-16.md).
+
+- **T11 Symbols and domains.** Finite ranks, local ellipticity and
+  pointwise inverses do not establish global Fredholmness, propagated
+  constraints or causal Green operators. Name the bundle, boundary conditions
+  and common closed domain.
+  [Domain distinctions](explorations/conditional-build/selected-k129-native-i1b-t0-ac-kernel-and-domain-classification-2026-08-16.md);
+  [Fredholm boundary](lab/process/k831-sc-act-06-noncompact-fredholm-boundary.json).
+
+- **T12 Gauge and BV reduction.** Ward annihilation is not physical
+  descent; nilpotence is not properness; a Green radical is not automatically
+  gauge. An imposed endpoint or finite cotangent parent is not a selected
+  physical quotient.
+  [Ward counterexample](explorations/conditional-build/k1092-k1091-ward-insufficiency-2026-10-04.md);
+  [Properness](explorations/conditional-build/k464-k77-properness-demand-sieve-2026-09-25.md);
+  [Epsilon parent](explorations/conditional-build/selected-k77-source-epsilon-cotangent-parent-2026-08-14.md).
+
+- **T13 Symmetry and branching.** An auxiliary compact metric does not
+  authenticate symmetry of the native operator. Check preservation before
+  using characters; invalid equivariance need not invalidate dimensions.
+  [SO13 correction](lab/process/k867-sc-act-06-compact-equivariance-audit.json).
+
+- **T14 Topology and indices.** Torsion order is not an integer family
+  observable. Raw RS, vector-spinor and ghost-subtracted complexes have
+  different indices; ghosts and Fredholm data must be derived, not chosen.
+  [Torsion correction](explorations/torsion-generation-arena-2026-07-20.md);
+  [RS symbol classes and open physical complex](explorations/generation-sector/generation-count-rs-k3-symbol-index-attempt-2026-06-24.md).
+
+- **T15 Positivity and quantization.** Indefinite ambient geometry neither
+  proves inconsistency nor clears ghosts. SC-META-53 remains UNCERTAIN.
+  Invariant positive physical dynamics, functional measure and regulator
+  require more than finite pairings/determinants.
+  [Probability boundary](explorations/conditional-build/k1032-k1031-indefinite-born-obstruction-2026-10-04.md);
+  [Functional measure boundary](explorations/conditional-build/k130-k129-compact-cylindrical-gauss-pairing-fock-measure-boundary-wave-2026-09-07.md).
+
+- **T16 Calibration, selection, units.** Imported QM or fitted anchors
+  are not GU predictions. A pairing rebuilt for each mass does not select
+  that mass; dimensionless ratios do not fix a dimensional ruler.
+  [Search versus certification](lab/process/reverse-scaffold-method-contract.json);
+  [Pairing-selection boundary](lab/process/k1075-k1074-action-pairing-selection-boundary.json).
+
+- **T17 Numerics and verification.** Precision, positive nodes and passing
+  controls do not certify a whole-domain sign. Track singular faces,
+  cancellations, tails and remainder; distinguish proof from reporting checks.
+  [Local versus global](explorations/conditional-build/k383-k387-order-nine-node-jet-and-global-architecture-2026-09-23.md);
+  [Harness discipline](VERIFICATION.md#probe-and-mutation-harness-discipline-adopted-2026-08-17).
+
+- **T18 Guardian and grading.** Internal super-IG is not spacetime
+  super-Poincare: its proposed odd bracket targets connection-valued data,
+  not translations. A kinematic projector is not an interacting symmetry.
+  [Construction and scope](explorations/misc/super-ig-algebra-construction-2026-06-23.md).
+
+For unlisted or ambiguous objects, use the existing
+[Layer 0 semantic check](lab/specifications/six-axis/six-axis-template.md):
+name both constructions and test the bridge. Update this index from accepted
+source/correction evidence; do not turn a new suspicion into a settled fact.
+The expanded reference below is consulted by relevance, not a second startup
+checklist.
+
+## Expanded reference
 
 Standing reference for every team/agent working GU. Geometric Unity is a GEOMETER'S program (Weinstein):
 many of its objects have a geometric construction that DIFFERS from the standard physics version of the
@@ -30,7 +165,7 @@ table, apply the rule below.
 |---|---|---|---|
 | **Gauge group** | "Sp(64)"; or "non-compact -> non-unitary -> inconsistent" | **Sp(32,32;H)**, the non-compact real form -- and the non-compactness IS the Krein/indefinite form, a feature not a bug (Branch 5: non-compactness == the Krein form, one datum) | Do not reject GU for a "non-unitary non-compact group"; the Krein structure is the point |
 | **Ghost clearance / physical positivity** | Remove unphysical degrees of freedom or construct positive physical states and probabilities | The conditional **KEEP-AND-GRADE** Krein route retains an indefinite ambient form; `[P,S]=0` and the older K95 Cartan construction do not establish an interacting positive physical theory or transfer automatically to K77 | Preserve this alternative without calling ghost clearance settled. SC-META-53 records source uncertainty; LT-SM8/LT-GR6b retain physical-state/domain burdens. `explorations/H59-krein-loop-positivity-gate-2026-07-12.md` explicitly leaves loop positivity OPEN. Neither signature alone nor a kinematic grading decides it. |
-| **Signature (7,7)** | Multiple timelike directions -> ghosts, no unitary Hilbert space, inconsistent | The settled K77 chimeric metric is horizontal (1,3) plus vertical (6,4), obtained by trace reversal on the symmetric-metric fibre. Its split spinor form is Krein `(+64,-64)`; positive-definiteness was never claimed. The older conditional K95 `(9,5)` carrier is a rival fork, not this object. | Do not kill GU merely for indefinite signature, and do not import K95 coefficients into K77. |
+| **Signature (7,7)** | Multiple timelike directions -> ghosts, no unitary Hilbert space, inconsistent | The source uses K77 as an asserted carrier, but its displayed metric-block arithmetic, read in consistent source notation, derives K95. SIGNATURE-AMBIENT remains open. Exact K77 results retain their stated conditional metric; their Krein data are not a derivation of that metric from the displayed blocks. See the [August 8 branch correction](explorations/conditional-build/signature-rationale-and-build-branch-retype-2026-08-08.md). | Do not kill GU merely for indefinite signature, mistake source assertion for geometric derivation, or transfer real-form coefficients silently. |
 | **Graded / guardian symmetry** | super-Poincare, `{Q,Q} ~ P_mu` (spacetime SUSY) | **super-IG**: a graded extension of the internal gauge group IG, `{Q,Q} ~ Omega^1(ad)` = the SPIN CONNECTION, not `P_mu` (Branch 5, decisive) | A team hunting spacetime SUSY concludes "no guardian"; the geometer's graded object is a distinct (local-Lorentz-graded) thing |
 | **Generation count** | an integer index/rank in `Z` | a proposed torsion reading in the 3-primary arena `Z/3 subset pi_3^s = Z/24` | The relation is **unsettled**, not a settled native-side win. `Hom(Z/3,Z)=0` blocks a direct additive identification, so a separately constructed integer observable and bridge would be required. Keep both codomains typed and treat “torsion component -> integer 3” as the open question. |
 | **Generation/chirality mechanism** | three repeated chiral spin-1/2 families selected by an ordinary compact family index or net four-dimensional chiral index | Weinstein's total theory is explicitly non-chiral; the claimed observed asymmetry is a source-native `2+1` construction involving two true-family sectors, an effective imposter/remainder sector, observation pullback and possible boundary/BV/domain descent | Ordinary index and net-chirality calculations are controls only. They do not adjudicate the `2+1` mechanism unless the artifact constructs the observation/quotient map that identifies their domains and codomains. Start at `lab/active-research/joe-directed/high-energy-two-plus-one/he1-imposter-separation-invariant-2026-08-14.md` and the chirality paragraph in `CURRENT-STATE.yaml`. |
