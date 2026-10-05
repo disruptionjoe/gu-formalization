@@ -1,0 +1,16 @@
+{
+  "claim_ceiling": "exact two-by-two positive counterexample and finite-rank witness",
+  "counterexample": "X=diag(1,2), Y=[[2,1],[1,3]] are positive but noncommuting",
+  "created": "2026-10-04",
+  "decision_rule": "a nonzero two-mode commutator rejects one lambda-independent normal basis without rejecting positivity or the quadratic action",
+  "exact_control": true,
+  "frequency_branches": "omega_+/-^2=(3 lambda+5 +/- sqrt((lambda+1)^2+4))/2, hence neither branch is affine",
+  "functional_boundary": "a native application still needs one common domain and controlled unbounded-operator commutators",
+  "identity": "[H(lambda1),H(lambda2)]=(lambda1-lambda2)[X,Y] for H(lambda)=lambda X+Y",
+  "recovery": "[X,Y]=[H(lambda1),H(lambda2)]/(lambda1-lambda2)",
+  "result_id": "K1079-K1078-TWO-MODE-COMMUTATOR-WITNESS",
+  "schema_version": "1.0",
+  "source_boundary": "the firing example is repository-owned and is not a GU Hessian",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

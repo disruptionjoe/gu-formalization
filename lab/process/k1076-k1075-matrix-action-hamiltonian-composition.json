@@ -1,0 +1,29 @@
+{
+  "action": "L_lambda=1/2 qdot^T A qdot-1/2 q^T(lambda B+C)q with A positive definite and B,C symmetric",
+  "canonical_momentum": "p=A qdot",
+  "claim_ceiling": "exact finite-matrix action-to-Hamiltonian composition only",
+  "controls": [
+    {
+      "defect_zero": true,
+      "lambda": "0"
+    },
+    {
+      "defect_zero": true,
+      "lambda": "2"
+    },
+    {
+      "defect_zero": true,
+      "lambda": "7"
+    }
+  ],
+  "created": "2026-10-04",
+  "generator": "K(lambda)=[[0,A^-1],[-(lambda B+C),0]]",
+  "identity": "K(lambda)^T S(lambda)+S(lambda)K(lambda)=0",
+  "ownership": "finite-rank repository-owned candidate theorem; no source-owned GU Hessian or functional domain",
+  "pairing": "S(lambda)=diag(lambda B+C,A^-1)",
+  "positivity_boundary": "S(lambda) is positive exactly on modes where lambda B+C is positive, given A positive definite",
+  "result_id": "K1076-K1075-MATRIX-ACTION-HAMILTONIAN-COMPOSITION",
+  "schema_version": "1.0",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

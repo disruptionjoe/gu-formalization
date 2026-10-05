@@ -1,0 +1,67 @@
+{
+  "counts": {
+    "gu_source_owned": 0,
+    "mathematical_pass_or_conditional": 4,
+    "open_physical_or_source": 2,
+    "scorable": 0
+  },
+  "created": "2026-10-04",
+  "ledger_effect": "none -- LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS",
+  "next_condition": "obtain a source/action-owned positive functional Hessian on one native stationary quotient; extract its kinetic, gradient and mass blocks, test the two-mode commutator on a common domain, and only on the commuting horn read branch intercept-to-slope ratios before apparatus scoring",
+  "nonselection_result": "K1076-K1079 supply tests for an independently owned Hessian but do not supply the Hessian, domain, quotient or physical ruler",
+  "requirements": [
+    {
+      "candidate_grade": "pass",
+      "evidence": "K1076",
+      "gu_source_owned": false,
+      "id": "matrix_action_hamiltonian",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "pass",
+      "evidence": "K1077",
+      "gu_source_owned": false,
+      "id": "simultaneous_normal_mode_criterion",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "pass_conditional",
+      "evidence": "K1078",
+      "gu_source_owned": false,
+      "id": "branch_selector",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "pass_conditional",
+      "evidence": "K1079",
+      "gu_source_owned": false,
+      "id": "two_mode_commutator_witness",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "open",
+      "evidence": "SC-ACT-01/02/06 and LT-SM8/LT-GR6b",
+      "gu_source_owned": false,
+      "id": "source_action_functional_hessian",
+      "scorable": false
+    },
+    {
+      "candidate_grade": "open",
+      "evidence": "K1070 open rows",
+      "gu_source_owned": false,
+      "id": "measured_apparatus",
+      "scorable": false
+    }
+  ],
+  "result_id": "K1080-K1079-MATRIX-HESSIAN-SELECTION-BOUNDARY",
+  "schema_version": "1.0",
+  "selection_result": "a supplied positive matrix Hessian has affine branches in one fixed basis exactly on the commuting normalized horn; the noncommuting horn is detected by two spatial modes",
+  "source_scope": {
+    "SC-ACT-01": "ASSERTS",
+    "SC-ACT-02": "ASSERTS",
+    "SC-ACT-06": "ASSERTS",
+    "SC-META-53": "UNCERTAIN"
+  },
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

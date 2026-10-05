@@ -7,6 +7,17 @@ updated_at: "2026-10-04"
 
 # Next Steps For Contributors
 
+> **2026-10-04 K1076--K1080 MATRIX-HESSIAN SELECTION BOUNDARY.** A positive
+> finite-rank action with kinetic, gradient and mass blocks `A,B,C` has the
+> exact Hamiltonian pairing from K1076. One fixed normal-mode basis exists
+> exactly when `[A^-1B,A^-1C]=0`. Only on that commuting horn are the branches
+> affine, `omega_j^2=b_j lambda+c_j`, with selector `u_j=c_j/b_j`. Two modal
+> Hessians recover the commutator directly; a positive noncommuting example
+> has non-affine square-root branches. Next obtain a source/action-owned
+> positive functional Hessian on one native stationary quotient, extract its
+> blocks on a common domain, run the two-mode test, and only then read branch
+> ratios and compose an independently owned ruler and apparatus.
+
 > **2026-10-04 K1071--K1075 ACTION-PAIRING MASS-SELECTION BOUNDARY.** Every
 > positive mass coefficient passes the repository-owned K77 quotient,
 > energy-skew generator and algebraic local-effect packet when its energy form

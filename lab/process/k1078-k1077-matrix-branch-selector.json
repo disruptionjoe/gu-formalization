@@ -1,0 +1,30 @@
+{
+  "branch_law": "omega_j(lambda)^2=b_j lambda+c_j in a common A-orthonormal eigenbasis",
+  "claim_ceiling": "exact commuting finite-matrix branch recovery only",
+  "controls": [
+    {
+      "intercept": "6",
+      "mass_to_speed_ratio": "3",
+      "recovered_intercept": "6",
+      "recovered_slope": "2",
+      "slope": "2"
+    },
+    {
+      "intercept": "15",
+      "mass_to_speed_ratio": "5",
+      "recovered_intercept": "15",
+      "recovered_slope": "3",
+      "slope": "3"
+    }
+  ],
+  "created": "2026-10-04",
+  "degeneracy_boundary": "repeated joint eigenvalue pairs determine a subspace, not a preferred basis inside it",
+  "field_normalization": "invertible field congruence changes A,B,C together but preserves the generalized branch spectrum and each u_j",
+  "result_id": "K1078-K1077-MATRIX-BRANCH-SELECTOR",
+  "ruler_boundary": "rescaling the spatial eigenvalue rescales b_j and therefore u_j; a dimensional mass still requires an independently owned spatial ruler",
+  "schema_version": "1.0",
+  "selector": "u_j=c_j/b_j for b_j>0",
+  "source_boundary": "branch recovery is conditional until a source/action-owned Hessian fixes A,B,C on one domain",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

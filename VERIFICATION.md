@@ -7,6 +7,20 @@ updated_at: "2026-10-04"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1076--K1080 matrix-Hessian selection boundary (2026-10-04)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A positive matrix action composes with `K(lambda)` and conserved `S(lambda)` | K1076 block identity and three exact rational controls; producer `9/9`; hostile mutations `9/9` | exact finite-matrix theorem; no source functional Hessian |
+| One fixed normal-mode basis exists iff the normalized gradient and mass operators commute | K1077 simultaneous self-adjoint spectral criterion with commuting and noncommuting controls; producer `8/8`; hostile mutations `9/9` | exact finite-rank equivalence; common functional domain open |
+| The commuting horn yields affine branches and exact `u_j=c_j/b_j` selectors | K1078 two-branch recovery plus field/ruler gauge audit; producer `9/9`; hostile mutations `10/10` | exact conditional selector; no dimensional ruler or source ownership |
+| Two modal Hessians recover the commutator, and positivity alone does not make branches affine | K1079 exact commutator identity and positive noncommuting square-root counterexample; producer `10/10`; hostile mutations `10/10` | exact finite-rank witness; not a global action no-go |
+| Four mathematical rows pass while zero rows become GU-owned or empirically scorable | K1080 six-row ownership matrix; producer `9/9`; hostile mutations `10/10` | candidate requirement disposition; no empirical score, prediction or confirmation |
+
+SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`, and LT-SM8,
+LT-GR6b, RA-F1 and AC-F1 remain `NEEDS`. No empirical score, prediction,
+confirmation, canon or public status moves.
+
 ## K1071--K1075 action-pairing mass-selection boundary (2026-10-04)
 
 | Claim | Evidence | Honest grade |

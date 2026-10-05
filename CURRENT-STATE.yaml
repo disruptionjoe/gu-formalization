@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: a2aa373c4b1e
+revision_basis: 383b89b9523f
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1076--K1080 lift the scalar action-pairing selector to a finite-rank
+    positive matrix Hessian. For kinetic matrix `A>0` and symmetric gradient
+    and mass blocks `B,C`, the quadratic action has generator
+    `K(lambda)=[[0,A^-1],[-(lambda B+C),0]]` and conserved Hamiltonian
+    pairing `S(lambda)=diag(lambda B+C,A^-1)`. A single
+    `lambda`-independent `A`-orthonormal normal basis exists exactly when
+    `[A^-1B,A^-1C]=0`. On that commuting horn, every branch is affine,
+    `omega_j^2=b_j lambda+c_j`, and selects the dimensionless ratio
+    `u_j=c_j/b_j`; field congruence preserves it, while an absolute
+    dimensional mass still needs an owned spatial ruler. Two distinct modal
+    Hessians recover the commutator exactly. The positive noncommuting example
+    `A^-1B=diag(1,2)`, `A^-1C=[[2,1],[1,3]]` has non-affine square-root
+    branches, so positivity and an affine operator pencil alone do not justify
+    scalar intercept reading. Four mathematical rows pass at candidate or
+    conditional grade, but zero become GU-source-owned or scorable because no
+    source/action-owned functional Hessian, common domain or apparatus exists.
+    SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`, and
+    LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain `NEEDS`; no protected status moves.
+
     K1071--K1075 switch from two distance-only apparatus waves to the
     action/positive-pairing branch and close the coefficient-selection
     algebra for the repository-owned K77 wave family. Every positive mass
@@ -13390,6 +13409,15 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1076--K1080 prove that a positive matrix action Hessian yields one fixed
+  normal-mode basis exactly on the commuting horn
+  `[A^-1B,A^-1C]=0`; two spatial modal Hessians test that premise directly.
+  Which source/action-owned functional Hessian on a native stationary
+  quotient can now supply `A,B,C` on one common domain? Does its two-mode
+  commutator vanish? Only if it does, what branch intercept-to-slope ratios
+  follow, and which independently owned spatial ruler turns them into
+  dimensional masses before any apparatus score is attempted?
+
   K1071--K1075 prove that the existing K77 quotient and generator packet
   admits every positive mass coefficient when its energy pairing is allowed
   to vary with that coefficient. A single independently fixed positive
@@ -15042,6 +15070,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K1076--K1080 close the finite-rank matrix-Hessian selector. Preserve the
+  exact action/Hamiltonian composition, the simultaneous-normal-mode criterion
+  `[A^-1B,A^-1C]=0`, the commuting-horn branch law
+  `omega_j^2=b_j lambda+c_j`, the selector `u_j=c_j/b_j`, the field-
+  normalization invariance, the spatial-ruler boundary and the two-mode
+  commutator witness. Do not infer affine frequency branches from positivity
+  or an affine operator pencil alone. Reopen this branch only with a
+  source/action-owned positive functional Hessian on one native stationary
+  quotient; extract `A,B,C` on a common domain, test the two-mode commutator,
+  and only on the commuting horn read branch ratios before composing the
+  physical apparatus and dimensional scale.
+
   K1071--K1075 close the structural mass-selection algebra for the supplied
   K77 quadratic family. Preserve the full positive-family compatibility
   theorem, the common-pairing obstruction, the conditional selector

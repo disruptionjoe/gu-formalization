@@ -1,0 +1,15 @@
+{
+  "claim_ceiling": "exact finite-rank simultaneous-normal-mode equivalence",
+  "commuting_control": true,
+  "created": "2026-10-04",
+  "criterion": "one lambda-independent A-orthonormal normal-mode basis exists iff [X,Y]=0",
+  "noncommuting_control": true,
+  "normalized_operators": "X=A^-1 B and Y=A^-1 C are self-adjoint for the A inner product",
+  "reason": "finite-dimensional commuting self-adjoint operators are simultaneously diagonalizable, and a common eigenbasis makes every lambda X+Y diagonal",
+  "result_id": "K1077-K1076-SIMULTANEOUS-NORMAL-MODE-CRITERION",
+  "schema_version": "1.0",
+  "scope_boundary": "finite-dimensional positive kinetic matrix; no unbounded-operator domain, degenerating quotient or functional spectral theorem",
+  "source_boundary": "the criterion tests a supplied Hessian but does not supply or attribute one",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}
