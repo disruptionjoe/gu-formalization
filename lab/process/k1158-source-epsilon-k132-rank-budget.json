@@ -1,0 +1,24 @@
+{
+  "created": "2026-10-05",
+  "decision": "neither one 91-component cotangent moment map nor one seven-invariant lock can be the missing current-parent K132 constraint, even under the strongest favorable transport grant",
+  "direct_port_passes": false,
+  "inputs": ["K941-SOURCE-EPSILON-COTANGENT-MOMENT-MAP", "K949-SOURCE-EPSILON-SEVEN-LOCK-BOUNDARY-CONTRACT", "K1153-K132-CAUSAL-RADICAL-CAPTURE-FLOOR"],
+  "result_id": "K1158-SOURCE-EPSILON-K132-RANK-BUDGET",
+  "schema_version": "1.0",
+  "scope_boundary": "dimension-only direct-port exclusion; the source-epsilon parent is distinct from the K132 bulk carrier and no actual coupling, trace, domain, or physical quotient is supplied",
+  "status": "working_draft_verified",
+  "strongest_grant": "grant an arbitrary linear transport of the source-epsilon target to the K132 carrier with maximally favorable image placement; no native bridge is claimed",
+  "target_claim": "SC-ACT-06",
+  "targets": {
+    "full_moment_map_91": {
+      "null": {"budget_passes": false, "constraint_target_dimension": 91, "kernel_dimension": 106638, "maximum_constraint_rank_on_kernel": 91, "owned_gauge_rank": 4, "rank_shortfall": 106543, "required_constraint_rank_on_kernel": 106634},
+      "spacelike": {"budget_passes": false, "constraint_target_dimension": 91, "kernel_dimension": 98474, "maximum_constraint_rank_on_kernel": 91, "owned_gauge_rank": 4, "rank_shortfall": 98379, "required_constraint_rank_on_kernel": 98470},
+      "timelike": {"budget_passes": false, "constraint_target_dimension": 91, "kernel_dimension": 98474, "maximum_constraint_rank_on_kernel": 91, "owned_gauge_rank": 4, "rank_shortfall": 98379, "required_constraint_rank_on_kernel": 98470}
+    },
+    "seven_invariant_lock": {
+      "null": {"budget_passes": false, "constraint_target_dimension": 7, "kernel_dimension": 106638, "maximum_constraint_rank_on_kernel": 7, "owned_gauge_rank": 4, "rank_shortfall": 106627, "required_constraint_rank_on_kernel": 106634},
+      "spacelike": {"budget_passes": false, "constraint_target_dimension": 7, "kernel_dimension": 98474, "maximum_constraint_rank_on_kernel": 7, "owned_gauge_rank": 4, "rank_shortfall": 98463, "required_constraint_rank_on_kernel": 98470},
+      "timelike": {"budget_passes": false, "constraint_target_dimension": 7, "kernel_dimension": 98474, "maximum_constraint_rank_on_kernel": 7, "owned_gauge_rank": 4, "rank_shortfall": 98463, "required_constraint_rank_on_kernel": 98470}
+    }
+  }
+}

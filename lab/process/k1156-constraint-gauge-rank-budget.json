@@ -1,0 +1,16 @@
+{
+  "created": "2026-10-05",
+  "hypotheses": ["H symmetric", "H d=0", "Q d=0", "rad(H restricted to ker(Q))=im(d)", "Q:V->W"],
+  "interpretation": "constraint output capacity and owned gauge image are complementary necessary resources for removing the nongauge Hessian radical",
+  "result_id": "K1156-CONSTRAINT-GAUGE-RANK-BUDGET",
+  "schema_version": "1.0",
+  "scope_boundary": "finite-dimensional necessary condition only; target dimension does not prove rank, ownership, compatibility, positivity, or a functional realization",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "budget": "rank(d)+dim(W)>=dim ker(H)",
+    "codomain_ceiling": "rank(Q restricted to ker(H))<=rank(Q)<=dim(W)",
+    "exact_kernel_rank": "rank(Q restricted to ker(H))=dim ker(H)-rank(d)",
+    "multi_constraint_budget": "rank(d)+sum_i dim(W_i)>=dim ker(H) for Q=(Q_i)_i"
+  }
+}

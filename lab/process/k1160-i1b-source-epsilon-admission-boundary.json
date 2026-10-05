@@ -1,0 +1,14 @@
+{
+  "classes_now_excluded_for_current_k132_parent": ["all linear Euler-row postprocessors Q=L H", "one directly or favorably transported 91-component source-epsilon moment map", "one directly or favorably transported seven-invariant lock"],
+  "created": "2026-10-05",
+  "current_candidates_meeting_full_packet": 0,
+  "inputs": ["K1155-I1B-EULER-FACTOR-ADMISSION-BOUNDARY", "K1156-CONSTRAINT-GAUGE-RANK-BUDGET", "K1157-SHARP-RANK-BUDGET-CONTROL", "K1158-SOURCE-EPSILON-K132-RANK-BUDGET", "K1159-SOURCE-EPSILON-REPAIR-MULTIPLICITY-BOUNDARY"],
+  "next_condition": "derive an actual source-owned high-rank field-valued nonfactor bulk-boundary or constraint differential on the K132 carrier, source-own the enormous closed gauge/KT enlargement required by K1159, or supply a changed stationary parent and recompute the packet",
+  "protected_disposition": "SC-ACT-01/02/06 remain ASSERTS; SC-META-53 remains UNCERTAIN; LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS",
+  "result_id": "K1160-I1B-SOURCE-EPSILON-ADMISSION-BOUNDARY",
+  "schema_version": "1.0",
+  "scope_boundary": "current K132 finite causal symbols and single finite source-epsilon targets only; no global arbitrary boundary map, SC-ACT-06, GU, physical state, prediction, confirmation, canon, paper or public verdict is excluded",
+  "scorable_rows_added": 0,
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

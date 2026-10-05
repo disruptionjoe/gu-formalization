@@ -1,0 +1,19 @@
+{
+  "created": "2026-10-05",
+  "full_moment_map_91": {
+    "null": {"kernel_dimension": 106638, "minimum_added_gauge_rank_over_current": 106543, "minimum_copies_with_rank4_gauge": 1172, "minimum_gauge_rank_with_one_copy": 106547, "target_dimension_per_copy": 91},
+    "spacelike": {"kernel_dimension": 98474, "minimum_added_gauge_rank_over_current": 98379, "minimum_copies_with_rank4_gauge": 1083, "minimum_gauge_rank_with_one_copy": 98383, "target_dimension_per_copy": 91},
+    "timelike": {"kernel_dimension": 98474, "minimum_added_gauge_rank_over_current": 98379, "minimum_copies_with_rank4_gauge": 1083, "minimum_gauge_rank_with_one_copy": 98383, "target_dimension_per_copy": 91}
+  },
+  "necessity_not_sufficiency": "meeting a copy or gauge rank floor would still require Qd=0, negative capture, propagation, radical equality, common domains, closed range, uniform positivity, and a maximal boundary generator",
+  "ownership_status": "no source-owned 1083/1172-copy moment-map constraint, 14068/15234-copy invariant lock, or complementary enlarged closed gauge/KT image is serialized",
+  "result_id": "K1159-SOURCE-EPSILON-REPAIR-MULTIPLICITY-BOUNDARY",
+  "schema_version": "1.0",
+  "seven_invariant_lock": {
+    "null": {"kernel_dimension": 106638, "minimum_added_gauge_rank_over_current": 106627, "minimum_copies_with_rank4_gauge": 15234, "minimum_gauge_rank_with_one_copy": 106631, "target_dimension_per_copy": 7},
+    "spacelike": {"kernel_dimension": 98474, "minimum_added_gauge_rank_over_current": 98463, "minimum_copies_with_rank4_gauge": 14068, "minimum_gauge_rank_with_one_copy": 98467, "target_dimension_per_copy": 7},
+    "timelike": {"kernel_dimension": 98474, "minimum_added_gauge_rank_over_current": 98463, "minimum_copies_with_rank4_gauge": 14068, "minimum_gauge_rank_with_one_copy": 98467, "target_dimension_per_copy": 7}
+  },
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

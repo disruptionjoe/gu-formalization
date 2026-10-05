@@ -7,6 +7,20 @@ updated_at: "2026-10-05"
 
 # Next Steps For Contributors
 
+> **2026-10-05 K1156--K1160 SOURCE-EPSILON RANK-BUDGET BOUNDARY.** Any
+> successful finite constraint `Q:V->W` satisfies the sharp necessary budget
+> `rank d + dim W >= dim ker H`. K941's full source-epsilon moment map has 91
+> target components and K949's invariant lock has seven. Even under an
+> arbitrary favorable transport to K132, their nonnull/null shortfalls are
+> `98379/106543` and `98463/106627`. With the current rank-four gauge image,
+> independent copies would require at least `1083/1172` moment maps or
+> `14068/15234` invariant locks; one copy would require complementary gauge
+> ranks near the full Hessian kernel. Next derive an actual source-owned
+> high-rank field-valued nonfactor bulk-boundary/constraint differential on
+> K132, an enlarged closed gauge/KT image, or a changed stationary parent.
+> Do not directly port, multiply, or identify the finite epsilon parent with
+> the bulk carrier without a source-owned coupling.
+
 > **2026-10-05 K1151--K1155 EULER-FACTOR RADICAL-CAPTURE BOUNDARY.** Every
 > constraint obtained only by postprocessing source Euler rows has `Q=L H`,
 > so it annihilates the entire Hessian kernel and leaves that kernel inside

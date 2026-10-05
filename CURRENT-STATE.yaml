@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 12c8f260b118
+revision_basis: c7551c8dcb00
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1156--K1160 test the strongest retained finite source-owned boundary
+    parent against the current K132 positive-cohomology requirement. If
+    `Q:V->W`, `Hd=Qd=0`, and `rad(H|ker Q)=im d`, then the sharp necessary
+    budget is `rank d + dim W >= dim ker H`; every gauge-versus-constraint
+    allocation saturating that budget has an exact positive control. K941's
+    source-epsilon moment map has only 91 output components and K949's
+    invariant lock only seven. Even granting an arbitrary favorable transport
+    to K132, their nonnull/null rank shortfalls are `98379/106543` and
+    `98463/106627`. With the current rank-four gauge image, independent copies
+    would need at least `1083/1172` moment maps or `14068/15234` invariant
+    locks. One copy instead requires enormous gauge ranks. Thus neither single
+    finite epsilon target is the missing current-parent constraint; an actual
+    high-rank field-valued coupling, enlarged closed gauge/KT image, or changed
+    stationary parent remains required. No protected status moves.
+
     K1151--K1155 test the first broad source-owned constraint class against
     the completed admission packet. Every linear Euler-row postprocessor has
     `Q=L H`, so `ker H` lies in both `ker Q` and the radical of
@@ -13633,6 +13648,16 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1156--K1160 exclude one directly or favorably transported finite
+  source-epsilon moment map and one seven-invariant lock as the missing K132
+  constraint by the sharp budget `rank d + dim W >= dim ker H`. Which actual
+  source-owned high-rank field-valued bulk-boundary or constraint differential
+  on the K132 carrier supplies the remaining `98379/98379/106543` ranks beyond
+  one 91-component target, or which enlarged closed gauge/KT image or changed
+  stationary parent recomputes the packet while meeting every K1150 functional
+  gate? Do not multiply the finite epsilon parent or identify it with the bulk
+  carrier without a source-owned coupling.
+
   K1146--K1150 make the common-domain requirement executable. Which
   source-action-owned `Q,d,G,H` and boundary packet has one complete graph
   domain for every operator and composed word, closed `im d`, a uniform
@@ -15433,6 +15458,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K1156--K1160 prove the sharp constraint-gauge rank budget
+  `rank d + dim W >= dim ker H` and apply it to the retained source-epsilon
+  boundary parent. One 91-component cotangent moment map falls short of K132's
+  required kernel capture by `98379/98379/106543`; one seven-invariant lock
+  falls short by `98463/98463/106627`. With the rank-four gauge image, favorable
+  independent targets would require at least `1083/1083/1172` moment-map
+  copies or `14068/14068/15234` invariant-lock copies, none source-owned.
+  Advance by deriving an actual source-owned high-rank field-valued nonfactor
+  bulk-boundary or constraint differential on the K132 carrier, by source-
+  owning the complementary enormous closed gauge/KT image, or by supplying a
+  changed stationary parent and recomputing the packet. Do not identify the
+  finite epsilon preboundary target with the bulk field carrier by dimension
+  grant alone.
+
   K1151--K1155 reject every linear Euler-row postprocessor `Q=L H` of the
   current K132 Hessian as the missing physical constraint: it annihilates the
   complete Hessian kernel and therefore leaves its nongauge part inside the

@@ -1,0 +1,21 @@
+{
+  "all_splits_leave_positive_nonzero_quotient": true,
+  "all_splits_saturate_budget": true,
+  "conclusion": "K1156 is sharp for every allocation between gauge image and constraint target; no stronger dimension-only inequality is available",
+  "control_family": "H=diag(0^6,2,3); im(d)=span(e_1,...,e_r); Q records e_(r+1),...,e_6",
+  "created": "2026-10-05",
+  "result_id": "K1157-SHARP-RANK-BUDGET-CONTROL",
+  "schema_version": "1.0",
+  "scope_boundary": "exact finite control family; no source ownership or functional domain",
+  "splits": [
+    {"budget_sum": 6, "constrained_radical_dimension": 0, "constraint_rank_on_kernel": 6, "constraint_target_dimension": 6, "gauge_rank": 0, "kernel_dimension": 6, "positive_quotient_dimension": 2},
+    {"budget_sum": 6, "constrained_radical_dimension": 1, "constraint_rank_on_kernel": 5, "constraint_target_dimension": 5, "gauge_rank": 1, "kernel_dimension": 6, "positive_quotient_dimension": 2},
+    {"budget_sum": 6, "constrained_radical_dimension": 2, "constraint_rank_on_kernel": 4, "constraint_target_dimension": 4, "gauge_rank": 2, "kernel_dimension": 6, "positive_quotient_dimension": 2},
+    {"budget_sum": 6, "constrained_radical_dimension": 3, "constraint_rank_on_kernel": 3, "constraint_target_dimension": 3, "gauge_rank": 3, "kernel_dimension": 6, "positive_quotient_dimension": 2},
+    {"budget_sum": 6, "constrained_radical_dimension": 4, "constraint_rank_on_kernel": 2, "constraint_target_dimension": 2, "gauge_rank": 4, "kernel_dimension": 6, "positive_quotient_dimension": 2},
+    {"budget_sum": 6, "constrained_radical_dimension": 5, "constraint_rank_on_kernel": 1, "constraint_target_dimension": 1, "gauge_rank": 5, "kernel_dimension": 6, "positive_quotient_dimension": 2},
+    {"budget_sum": 6, "constrained_radical_dimension": 6, "constraint_rank_on_kernel": 0, "constraint_target_dimension": 0, "gauge_rank": 6, "kernel_dimension": 6, "positive_quotient_dimension": 2}
+  ],
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

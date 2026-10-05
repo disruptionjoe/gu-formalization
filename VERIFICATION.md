@@ -7,6 +7,21 @@ updated_at: "2026-10-05"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1156--K1160 source-epsilon rank-budget boundary (2026-10-05)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Constraint target dimension and gauge rank obey `rank d + dim W >= dim ker H` | K1156 theorem; producer `8/8`; hostile mutations `8/8` | exact finite-dimensional necessary condition; no source map or functional realization |
+| The budget is sharp for every gauge-versus-constraint allocation | K1157 seven-split control family; producer `12/12`; hostile mutations `12/12` | exact finite controls with positive nonzero quotients; no source ownership |
+| One 91-component moment map or seven-invariant lock cannot repair K132 | K1158 strongest favorable transport grant and causal rank ceilings; producer `12/12`; hostile mutations `11/11` | dimension-only direct-port exclusion; the bulk/preboundary bridge remains unowned |
+| Favorable independent targets need at least `1083/1172` or `14068/15234` copies | K1159 copy-count and complementary gauge-rank bounds; producer `11/11`; hostile mutations `11/11` | sharp necessary arithmetic; copies and enlarged gauge/KT image are unowned and not sufficient |
+| Current K132 excludes Euler factors and both single finite epsilon targets | K1160 integrated admission update; producer `11/11`; hostile mutations `10/10` | exact current finite-symbol class exclusions; not a global boundary-map or SC-ACT-06 no-go |
+
+Five producers pass `54/54` controls and five probes reject `52/52` hostile
+mutations. `SC-ACT-01/02/06` remain `ASSERTS`, `SC-META-53` remains
+`UNCERTAIN`, and `LT-SM8/LT-GR6b/RA-F1/AC-F1` remain `NEEDS`. No empirical
+score, prediction, confirmation, canon, paper or public status moves.
+
 ## K1151--K1155 Euler-factor radical-capture boundary (2026-10-05)
 
 | Claim | Evidence | Honest grade |
