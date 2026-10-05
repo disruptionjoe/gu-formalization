@@ -1,0 +1,59 @@
+{
+  "all_samples_equal": true,
+  "boundary": "finite exact sampling cannot identify unbounded hidden multiplicity; K1103 becomes applicable only after a finite multiplicity bound is independently owned",
+  "branches_distinct": true,
+  "common_values": [
+    "5557/6",
+    "11399/12",
+    "57793/60",
+    "58343/60"
+  ],
+  "construction": "for n samples choose n-1 negative simple poles, form F=prod_j(x-x_j)/prod_k(x+d_k), divide F into an affine part plus residues, then split signed residues between two positive-weight branches and add common positive weights",
+  "created": "2026-10-05",
+  "fixture_modes": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "fixture_rational_difference": "F=x-12+12/(x+1)-120/(x+2)+180/(x+3)",
+  "fixture_residues": [
+    "12",
+    "-120",
+    "180"
+  ],
+  "general_decision": "for every finite set of at least two distinct nonnegative sample points, two distinct positive-weight affine-minus-Stieltjes branches can agree on every sample when no auxiliary multiplicity bound is imposed",
+  "left_branch": {
+    "alpha": 3,
+    "beta": 988,
+    "shifts": [
+      1,
+      2,
+      3
+    ],
+    "weights": [
+      1,
+      121,
+      1
+    ]
+  },
+  "result_id": "K1104-K1103-FINITE-SAMPLE-ALIAS-THEOREM",
+  "right_branch": {
+    "alpha": 2,
+    "beta": 1000,
+    "shifts": [
+      1,
+      2,
+      3
+    ],
+    "weights": [
+      13,
+      1,
+      181
+    ]
+  },
+  "schema_version": "1.0",
+  "scope_boundary": "conditional constructive non-identifiability theorem; no GU hidden sector, spectrum or apparatus",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

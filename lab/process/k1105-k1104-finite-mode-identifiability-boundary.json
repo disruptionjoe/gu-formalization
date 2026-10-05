@@ -1,0 +1,82 @@
+{
+  "advance": "finite-mode Stieltjes data now have exact sign, one-pole recovery, bounded-multiplicity uniqueness and unbounded-multiplicity alias theorems",
+  "counts": {
+    "gu_source_owned": 0,
+    "mathematical_pass_or_conditional": 4,
+    "open_physical_or_source": 3,
+    "repository_conditional_owned": 4,
+    "scorable": 0
+  },
+  "created": "2026-10-05",
+  "ledger_effect": "none -- LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS",
+  "next_condition": "supply a source-selected stationary functional Hessian and BV/BFV complex with an owned finite auxiliary bound or full reduced rational law; then acquire prepared modes and an error model before using the exact sample thresholds",
+  "nonselection": "the finite-mode theorems do not select a GU Hessian, auxiliary multiplicity, physical mode family, positive quotient, ruler or apparatus",
+  "requirements": [
+    {
+      "candidate_grade": "pass_conditional",
+      "evidence": "K1101",
+      "gu_source_owned": false,
+      "id": "higher_divided_difference_sign_law",
+      "repository_conditional_owned": true,
+      "scorable": false
+    },
+    {
+      "candidate_grade": "pass_conditional",
+      "evidence": "K1102",
+      "gu_source_owned": false,
+      "id": "four_mode_one_auxiliary_recovery",
+      "repository_conditional_owned": true,
+      "scorable": false
+    },
+    {
+      "candidate_grade": "pass_conditional",
+      "evidence": "K1103",
+      "gu_source_owned": false,
+      "id": "bounded_multiplicity_uniqueness",
+      "repository_conditional_owned": true,
+      "scorable": false
+    },
+    {
+      "candidate_grade": "pass_conditional",
+      "evidence": "K1104",
+      "gu_source_owned": false,
+      "id": "unbounded_finite_sample_alias",
+      "repository_conditional_owned": true,
+      "scorable": false
+    },
+    {
+      "candidate_grade": "open",
+      "evidence": "SC-ACT-01/02/06",
+      "gu_source_owned": false,
+      "id": "source_selected_functional_complex",
+      "repository_conditional_owned": false,
+      "scorable": false
+    },
+    {
+      "candidate_grade": "open",
+      "evidence": "LT-SM8/LT-GR6b",
+      "gu_source_owned": false,
+      "id": "positive_physical_cohomology",
+      "repository_conditional_owned": false,
+      "scorable": false
+    },
+    {
+      "candidate_grade": "open",
+      "evidence": "K1102--K1104 scope boundaries",
+      "gu_source_owned": false,
+      "id": "owned_multiplicity_modes_and_systematics",
+      "repository_conditional_owned": false,
+      "scorable": false
+    }
+  ],
+  "result_id": "K1105-K1104-FINITE-MODE-IDENTIFIABILITY-BOUNDARY",
+  "schema_version": "1.0",
+  "source_scope": {
+    "SC-ACT-01": "ASSERTS",
+    "SC-ACT-02": "ASSERTS",
+    "SC-ACT-06": "ASSERTS",
+    "SC-META-53": "UNCERTAIN"
+  },
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

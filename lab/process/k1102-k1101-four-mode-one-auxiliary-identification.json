@@ -1,0 +1,38 @@
+{
+  "created": "2026-10-05",
+  "decision": "four distinct exact modes identify the one-auxiliary branch whenever q0 and q1 are positive, while the fourth mode rejects K1099's three-mode alias",
+  "fixture_modes": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "fourth_mode_residual_original_minus_alias": "-1/30",
+  "one_auxiliary_alias_values": [
+    "8/3",
+    "11/2",
+    "118/15",
+    "607/60"
+  ],
+  "q0": "7/30",
+  "q1": "7/120",
+  "ratio": "4",
+  "recovered": {
+    "alpha": "32/15",
+    "beta": "61/15",
+    "shift": "1",
+    "weight": "7/5"
+  },
+  "recovery_identity": "q0=-S[x0,x1,x2], q1=-S[x1,x2,x3], r=q0/q1=(x3+d)/(x0+d), d=(x3-r*x0)/(r-1)",
+  "result_id": "K1102-K1101-FOUR-MODE-ONE-AUXILIARY-IDENTIFICATION",
+  "schema_version": "1.0",
+  "scope_boundary": "one-pole conditional inverse theorem; no physical multiplicity bound, preparation, error model or detector record",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "two_auxiliary_values": [
+    "8/3",
+    "11/2",
+    "118/15",
+    "121/12"
+  ]
+}

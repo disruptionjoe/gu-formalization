@@ -1,0 +1,35 @@
+{
+  "boundary": "the theorem assumes a declared finite multiplicity bound and reduced distinct-pole form; it is sufficient, not a claim of noisy stability or minimality in every constrained subclass",
+  "cases": [
+    {
+      "difference_numerator_degree_bound": 3,
+      "multiplicity_bound": 1,
+      "sufficient_exact_modes": 4
+    },
+    {
+      "difference_numerator_degree_bound": 5,
+      "multiplicity_bound": 2,
+      "sufficient_exact_modes": 6
+    },
+    {
+      "difference_numerator_degree_bound": 7,
+      "multiplicity_bound": 3,
+      "sufficient_exact_modes": 8
+    },
+    {
+      "difference_numerator_degree_bound": 9,
+      "multiplicity_bound": 4,
+      "sufficient_exact_modes": 10
+    }
+  ],
+  "created": "2026-10-05",
+  "degree_argument": "after multiplication by both pole polynomials, the difference numerator has degree at most 2m+1; 2m+2 distinct roots force it to vanish",
+  "one_pole_consistency": "m=1 requires four exact modes, matching K1102",
+  "parameter_recovery": "identity of reduced rational functions fixes affine slope/intercept and every distinct pole and positive residue up to permutation",
+  "result_id": "K1103-K1102-BOUNDED-MULTIPLICITY-IDENTIFIABILITY",
+  "schema_version": "1.0",
+  "scope_boundary": "conditional rational identifiability theorem; no source-owned auxiliary multiplicity or physical samples",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": "two reduced affine-minus-Stieltjes branches with at most m distinct simple poles that agree at 2m+2 distinct regular points are identical rational functions"
+}

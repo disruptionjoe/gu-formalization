@@ -1,0 +1,35 @@
+{
+  "created": "2026-10-05",
+  "decision": "every higher exact divided difference alternates sign in the positive diagonal Stieltjes class, but the sign sequence alone does not identify the auxiliary realization",
+  "fixture_modes": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "fixture_values": [
+    "8/3",
+    "11/2",
+    "118/15",
+    "121/12",
+    "428/35"
+  ],
+  "fixture_witnesses": {
+    "2": "-7/30",
+    "3": "19/360",
+    "4": "-5/504"
+  },
+  "general_identity": "for k>=2, S[x0,...,xk]=(-1)^(k+1) sum_i w_i/prod_j(x_j+d_i)",
+  "orders_checked": [
+    2,
+    3,
+    4
+  ],
+  "result_id": "K1101-K1100-HIGHER-DIVIDED-DIFFERENCE-SIGN-LAW",
+  "schema_version": "1.0",
+  "scope_boundary": "conditional scalar rational-function theorem; no source-selected GU Hessian, physical spectrum or measured mode",
+  "status": "working_draft_verified",
+  "strict_sign_rule": "(-1)^(k+1) S[x0,...,xk]>0 iff at least one w_i>0 on the common positive domain",
+  "target_claim": "NONE-NOT-A-KILL"
+}

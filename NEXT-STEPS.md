@@ -2,10 +2,23 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-10-04"
+updated_at: "2026-10-05"
 ---
 
 # Next Steps For Contributors
+
+> **2026-10-05 K1101--K1105 FINITE-MODE IDENTIFIABILITY BOUNDARY.** In the
+> positive diagonal Stieltjes class, every divided difference of order
+> `k>=2` alternates sign when any coupling survives. Four exact modes recover
+> one auxiliary pole and reject K1099's three-mode alias by the exact fourth
+> residual `-1/30`. With at most `m` poles, `2m+2` exact modes suffice to
+> identify the reduced rational branch. Without an independently owned
+> multiplicity bound, any finite sample set admits distinct positive-weight
+> aliases. Before physical use, supply a source-selected stationary
+> functional Hessian and BV/BFV complex with positive pairing, common domain
+> and owned auxiliary structure, then prepared modes, dimensional scale,
+> detector record and complete error model. Do not infer a GU hidden sector,
+> multiplicity or apparatus score from the conditional hierarchy.
 
 > **2026-10-04 K1096--K1100 REDUCED AFFINE-BRANCH SURVIVAL BOUNDARY.** For
 > scalar affine blocks, a moving auxiliary block retains an affine Schur

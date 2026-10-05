@@ -2,10 +2,24 @@
 title: "Verification: What Is Proved, Computed, and Conjectural"
 status: process
 doc_type: verification-map
-updated_at: "2026-10-04"
+updated_at: "2026-10-05"
 ---
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
+
+## K1101--K1105 finite-mode identifiability boundary (2026-10-05)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Every higher divided difference alternates sign when positive auxiliary mixing survives | K1101 exact divided-difference identity and order-two through order-four fixtures; producer `9/9`; hostile mutations `9/9` | exact conditional scalar theorem; no source-selected Hessian or spectrum |
+| Four exact modes recover a one-auxiliary branch and reject K1099's three-mode alias | K1102 closed recovery formulas and exact fourth-mode residual `-1/30`; producer `10/10`; hostile mutations `12/12` | exact one-pole inverse theorem; multiplicity bound and apparatus unowned |
+| `2m+2` exact modes identify a reduced branch with at most `m` simple poles | K1103 rational root-counting theorem and checked degree/sample table; producer `8/8`; hostile mutations `8/8` | exact sufficient bounded-multiplicity theorem; no noisy-stability or universal minimality claim |
+| Without a multiplicity bound, no finite exact sample set identifies the hidden auxiliary realization | K1104 constructive positive-weight alias theorem and exact four-mode fixture; producer `12/12`; hostile mutations `13/13` | exact conditional non-identifiability theorem; does not assert a GU auxiliary sector |
+| Four conditional mathematical rows pass while zero rows become GU-source-owned or empirically scorable | K1105 ownership matrix; producer `10/10`; hostile mutations `9/9` | conditional requirement disposition; no empirical score, prediction or confirmation |
+
+SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`, and LT-SM8,
+LT-GR6b, RA-F1 and AC-F1 remain `NEEDS`. No empirical score, prediction,
+confirmation, canon or public status moves.
 
 ## K1096--K1100 reduced affine-branch survival boundary (2026-10-04)
 
