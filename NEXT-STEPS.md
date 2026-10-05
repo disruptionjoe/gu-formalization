@@ -7,6 +7,19 @@ updated_at: "2026-10-04"
 
 # Next Steps For Contributors
 
+> **2026-10-04 K1086--K1090 CURVED-HESSIAN AND BOUNDARY-DOMAIN BOUNDARY.**
+> The flat commutator criterion now has an exact covariant replacement. For
+> `H0=nabla* B nabla`, vanishing `[H0,C]` requires `C` to be parallel and to
+> commute with parallel positive `B`. Multiplication preserves Dirichlet data
+> automatically, Neumann data iff `nabla_n C=0`, and Robin data iff
+> `nabla_n C+[S,C]=0`. Parallel commuting blocks yield affine laws on parallel
+> joint eigenbundles, but their spatial eigenvalue ladders can differ. The
+> exact `+1/-1` flat-holonomy circle control has ladders `n^2` and
+> `(n+1/2)^2`, rejecting a universal tensor-product spatial basis. Next obtain
+> a source-selected stationary Hessian or curved action-owned quotient with
+> its connection, blocks and boundary realization, run all four tests, and
+> only then build positive BV/BFV cohomology, ruler and apparatus.
+
 > **2026-10-04 K1081--K1085 FUNCTIONAL-HESSIAN BOUNDARY.** The
 > repository-owned K1036 flat stationary action now has one closed positive
 > `H1` form, self-adjoint `H2` Hessian, compact resolvent and positive

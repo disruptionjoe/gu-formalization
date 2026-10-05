@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 87f05575b1b5
+revision_basis: 66c7b88c2f49
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1086--K1090 replace the flat-torus coordinate test by exact covariant and
+    boundary-domain conditions. For `H0=nabla* B nabla` with parallel positive
+    invertible `B`, the commutator with a smooth self-adjoint potential `C`
+    vanishes on interior test sections exactly when `nabla C=0` and
+    `[B,C]=0`. Boundary preservation is automatic for Dirichlet, requires
+    `nabla_n C=0` for Neumann, and requires
+    `nabla_n C+[S,C]=0` for Robin data. Parallel commuting `B,C` split the
+    bundle into parallel joint eigenbundles with branch laws
+    `omega_jn^2=b_j lambda_jn+c_j`, but one shared spatial ladder additionally
+    requires isospectral identification of the restricted connections and
+    boundary domains. A flat-circle direct sum with holonomies `+1,-1` gives
+    exact ladders `n^2` and `(n+1/2)^2`, so parallel positivity and commutation
+    alone do not recover the K1083 tensor-product Fourier basis. Four
+    conditional mathematical rows pass, but zero become GU-source-owned or
+    scorable. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+    `UNCERTAIN`, and LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain `NEEDS`; no
+    protected status moves.
+
     K1081--K1085 close the finite-to-functional seam for the repository-owned
     K1036 flat stationary action. For constant `B>0,C>=0`, the Hessian
     `H=-Delta tensor B+C` has one closed positive `H1` form, self-adjoint
@@ -13428,6 +13446,17 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1086--K1090 prove the exact curved survival conditions for the flat
+  functional selector: the mass endomorphism must be covariantly parallel and
+  commute with the kinetic block; the selected boundary domain must also be
+  preserved; and distinct holonomy sectors need not share one spatial ladder.
+  Which source-selected GU stationary Hessian or curved action-owned quotient
+  can now supply `M,E,nabla,B,C`, its self-adjoint boundary realization and
+  cross-sector spectral identification? Do those exact tests pass on the
+  action-owned object? Only after that may positive physical BV/BFV cohomology,
+  a dimensional ruler and an independently owned apparatus make a branch
+  ratio scorable?
+
   K1081--K1085 prove that the repository-owned K1036 flat candidate has one
   common `H2` functional Hessian domain and positive Hamiltonian, and that its
   affine Fourier/internal branch reading survives exactly for constant
@@ -15099,6 +15128,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K1086--K1090 close the abstract curved commutator, boundary-domain, holonomy
+  and common-ladder seams. Preserve the distinction between coordinate
+  constancy and covariant parallelism; Dirichlet, Neumann and Robin domain
+  preservation; branch-specific covariant spectra; and the twisted-holonomy
+  counterexample. Reopen source/GU credit only on a source-selected stationary
+  Hessian or curved action-owned quotient that supplies `M,E,nabla,B,C`, its
+  self-adjoint boundary realization and cross-sector spectral identification.
+  Test `nabla C`, `[B,C]`, the boundary defect and the restricted spectra, then
+  construct interacting positive BV/BFV cohomology and an independently owned
+  ruler/apparatus before scoring.
+
   K1081--K1085 close the flat constant-coefficient functional upgrade for the
   repository-owned K1036 action. Preserve the common `H1` form and `H2`
   operator domain, compact-resolvent Fourier decomposition, positive

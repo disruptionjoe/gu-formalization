@@ -1,0 +1,45 @@
+{
+  "branch_rule": "on E_j, H=b_j L_j+c_j and omega_jn^2=b_j lambda_jn+c_j",
+  "common_ladder_condition": "one shared lambda_n across branches requires an additional isospectral identification of the restricted connection Laplacians and their boundary domains",
+  "created": "2026-10-04",
+  "decision_rule": "parallel commuting coefficients guarantee affine laws only against each branch's own covariant spectrum, not a universal Fourier ladder",
+  "decomposition": "E is the orthogonal direct sum of parallel simultaneous eigenbundles E_j",
+  "fixture": [
+    {
+      "b": 2,
+      "c": 5,
+      "lambda": [
+        0,
+        1,
+        4
+      ],
+      "omega_squared": [
+        5,
+        7,
+        13
+      ]
+    },
+    {
+      "b": 3,
+      "c": 7,
+      "lambda": [
+        0,
+        1,
+        4
+      ],
+      "omega_squared": [
+        7,
+        10,
+        19
+      ]
+    }
+  ],
+  "holonomy_rule": "parallel endomorphisms are the commutant of connection holonomy; on an irreducible orthogonal holonomy block every parallel self-adjoint endomorphism is scalar",
+  "hypotheses": "B and C are commuting parallel self-adjoint endomorphisms and the boundary realization preserves their joint spectral projections",
+  "result_id": "K1088-K1087-HOLONOMY-BRANCH-DECOMPOSITION",
+  "schema_version": "1.0",
+  "scope_boundary": "exact conditional spectral decomposition; no source-selected GU bundle, holonomy, boundary operator or physical mode interpretation",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "tensor_product_sufficient_case": "all E_j carry copies of the same spatial connection and boundary realization"
+}

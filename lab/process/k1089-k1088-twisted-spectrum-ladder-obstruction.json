@@ -1,0 +1,31 @@
+{
+  "branch_rule": "omega_1,n^2=n^2+1 and omega_2,n^2=(n+1/2)^2+4",
+  "carrier": "direct sum of two flat Hermitian line bundles over S1",
+  "connections": "nabla_alpha=d/dx+i alpha with alpha_1=0 and alpha_2=1/2 on periodic representatives",
+  "created": "2026-10-04",
+  "decision_rule": "parallel commuting B,C do not recover K1083's shared Fourier ladder unless the connection and boundary spectra also match across joint eigenbundles",
+  "holonomies": [
+    "+1",
+    "-1"
+  ],
+  "kinetic_and_mass": "B=identity and C=diag(1,4), both parallel, positive and commuting",
+  "laplacian_fixtures": {
+    "alpha_0_modes_0_1_minus1": [
+      "0",
+      "1",
+      "1"
+    ],
+    "alpha_half_modes_0_minus1_1": [
+      "1/4",
+      "1/4",
+      "9/4"
+    ]
+  },
+  "product_basis_obstruction": "the Hessian has an orthogonal branch eigenbasis but no tensor-product basis built from one common scalar spatial eigenbasis and fixed internal vectors",
+  "result_id": "K1089-K1088-TWISTED-SPECTRUM-LADDER-OBSTRUCTION",
+  "schema_version": "1.0",
+  "scope_boundary": "exact complex flat-circle counterexample; not a claim about the source GU connection or physical spectrum",
+  "spectral_obstruction": "the first restricted Laplacian has a zero mode while the second has lower bound 1/4, so their covariant spatial ladders are not the same",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

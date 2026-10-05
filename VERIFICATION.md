@@ -7,6 +7,20 @@ updated_at: "2026-10-04"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1086--K1090 curved-Hessian boundary (2026-10-04)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A covariant kinetic operator commutes with a smooth potential exactly on the parallel commuting horn | K1086 principal-symbol identity and exact rotating positive witness `(0,8)`; producer `10/10`; hostile mutations `10/10` | exact conditional connection-Laplacian theorem; no source-selected GU connection or Hessian |
+| Dirichlet, Neumann and Robin realizations impose distinct exact multiplication-domain conditions | K1087 boundary identity and positive constant Robin counterexample; producer `10/10`; hostile mutations `11/11` | exact domain-preservation theorem; no selected GU boundary law |
+| Parallel commuting coefficients give affine laws on parallel joint eigenbundles | K1088 holonomy-commutant reduction and two exact branch fixtures; producer `11/11`; hostile mutations `10/10` | exact conditional spectral theorem; a common cross-sector spatial ladder is additional data |
+| Distinct flat holonomies obstruct one shared tensor-product spatial ladder | K1089 `+1/-1` circle holonomies and exact `{0,1,1}` versus `{1/4,1/4,9/4}` fixtures; producer `12/12`; hostile mutations `11/11` | exact complex flat-bundle counterexample; not a claim about the GU source connection |
+| Four conditional mathematical rows pass while zero rows become GU-source-owned or empirically scorable | K1090 seven-row ownership matrix; producer `10/10`; hostile mutations `8/8` | conditional requirement disposition; no empirical score, prediction or confirmation |
+
+SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`, and LT-SM8,
+LT-GR6b, RA-F1 and AC-F1 remain `NEEDS`. No empirical score, prediction,
+confirmation, canon or public status moves.
+
 ## K1081--K1085 functional-Hessian boundary (2026-10-04)
 
 | Claim | Evidence | Honest grade |
