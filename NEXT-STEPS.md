@@ -7,6 +7,18 @@ updated_at: "2026-10-05"
 
 # Next Steps For Contributors
 
+> **2026-10-05 K1121--K1125 PHYSICAL-REDUCTION NECESSITY BOUNDARY.** A
+> quotient by any Hessian radical preserves positive and negative inertia, so
+> ordinary gauge quotienting cannot remove K1118's negative sector. A
+> nonnegative constrained carrier has codimension at least the negative index;
+> the source-native I1B floors are therefore `6/6/4` for timelike, spacelike
+> and null symbols. K590 is the separate acyclic control: zero cohomology is
+> vacuously positive but supplies no state, effect or observable. Next derive
+> the source-action constraint/KT/BFV maps, propagation and common closed
+> domain meeting those floors, then produce a positive pairing on nonzero
+> physical cohomology. Do not count a gauge radical or acyclic complex as the
+> missing physical reduction.
+
 > **2026-10-05 K1116--K1120 SOURCE-HESSIAN POSITIVITY BOUNDARY.** The actual
 > source-native I1B T=0 Hessian has block form `[[0,A*],[A,C]]`. Any nonzero
 > `A` forces both signs, with sharp floors `n_+,n_- >= rank(A)`. K129's causal

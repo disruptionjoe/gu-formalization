@@ -1,0 +1,23 @@
+{
+  "acyclic": true,
+  "carrier_transfer_to_K128_K129": false,
+  "control_input": "K590 factorized corrected-carrier complex",
+  "created": "2026-10-05",
+  "degree_dimensions": [
+    10752,
+    46592,
+    35840
+  ],
+  "homology_dimensions": [
+    0,
+    0,
+    0
+  ],
+  "positivity_on_zero_cohomology": "vacuously true for every descended form",
+  "reason": "K590 is a distinct K77 factorized finite homogeneous-orbit complex; zero cohomology carries no nonzero state, effect or observable",
+  "result_id": "K1124-K590-ACYCLIC-POSITIVITY-CONTROL",
+  "schema_version": "1.0",
+  "scope_boundary": "typed independent control only; it neither solves nor obstructs every functional BV/BFV completion of I1B",
+  "status": "working_draft_verified",
+  "supplies_nontrivial_physical_state_space": false
+}

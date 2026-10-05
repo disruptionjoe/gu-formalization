@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 7a288a2ca231
+revision_basis: d97bd5606537
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1121--K1125 turn K1118's paired negative-index result into an exact
+    physical-reduction necessity packet. Quotienting any Hessian radical
+    preserves all nonzero inertia, so ordinary gauge quotienting cannot remove
+    the negative sector. A nonnegative constraint subspace of a form with
+    inertia `(p,q,z)` has codimension at least `q`; K129's source-native
+    timelike, spacelike and null symbols therefore require at least `6`, `6`
+    and `4` independent non-gauge constraint conditions before residual-radical
+    quotienting. K590 supplies the separate acyclic control: its exact zero
+    cohomology is only vacuously positive and contains no nonzero physical
+    state, effect or observable. No global constraint map, propagation law,
+    closed domain, positive pairing or nontrivial physical cohomology is thereby
+    owned. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`,
+    and LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain `NEEDS`; no protected status
+    moves.
+
     K1116--K1120 return the frontier to the actual source-native I1B action
     Hessian. For every self-adjoint block form `[[0,A*],[A,C]]`, a nonzero
     mixed block forces both signs regardless of `C`, with the sharp floors
@@ -13532,6 +13547,16 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1121--K1125 prove that a gauge/radical quotient cannot remove any of the
+  source-native I1B Hessian's paired negative sector and that a positive
+  constrained carrier needs at least `6/6/4` independent non-gauge conditions
+  on timelike/spacelike/null symbols. Which source-action constraint/KT/BFV
+  maps on one common closed domain meet those floors, propagate consistently,
+  and leave nonzero cohomology carrying a positive physical pairing? The K590
+  acyclic factorized complex is a distinct zero-cohomology control, not that
+  solution. Alternate source advances remain the actual boundary coupling or
+  a stationary global background.
+
   K1116--K1120 prove that the actual source-native I1B T=0 mixed Hessian is
   sign-indefinite at every nonzero causal symbol, with paired inertia floors
   controlled by K129's ranks. Which action-owned constraint/KT/BFV reduction
@@ -15276,6 +15301,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K1121--K1125 close the radical-quotient repair and quantify the minimum
+  non-gauge constraint budget: `6/6/4` on K129's causal symbols. Preserve the
+  distinction among Hessian gauge radical, constraint restriction, residual
+  quotient and nontrivial physical cohomology. Advance next only by deriving
+  source-action constraint/KT/BFV maps with propagation on a common closed
+  domain and a positive pairing on nonzero cohomology, or by deriving the
+  actual source boundary coupling or a stationary global background. Exact
+  acyclicity or vacuous positivity does not satisfy the physical owner gate.
+
   K1116--K1120 close the local mixed-zero-block positivity question and turn
   K129's ranks into exact paired inertia floors. Preserve the local
   finite-symbol ceiling and the distinction between an ordinary metric-kernel

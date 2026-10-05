@@ -1,0 +1,28 @@
+{
+  "created": "2026-10-05",
+  "fixture_diagonal": [
+    -3,
+    0,
+    2,
+    5
+  ],
+  "fixture_gauge_index": 1,
+  "fixture_inertia_after": [
+    2,
+    1,
+    0
+  ],
+  "fixture_inertia_before": [
+    2,
+    1,
+    1
+  ],
+  "gauge_only_can_remove_negative_directions": false,
+  "nonzero_inertia_preserved": true,
+  "result_id": "K1121-K1118-RADICAL-QUOTIENT-INERTIA-PRESERVATION",
+  "schema_version": "1.0",
+  "scope_boundary": "exact finite-dimensional theorem and fibrewise necessity; no global closed operator quotient or physical cohomology is supplied",
+  "status": "working_draft_verified",
+  "target_claim": "K1118-I1B-GAUGE-RADICAL-POSITIVITY",
+  "theorem": "if G is contained in rad(H), the descended form on V/G has inertia (n_+(H),n_-(H),n_0(H)-dim(G))"
+}

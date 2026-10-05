@@ -1,0 +1,32 @@
+{
+  "constraint_interpretation": "a positive physical reduction must impose at least q independent non-gauge conditions before quotienting its residual radical",
+  "created": "2026-10-05",
+  "fixture_codimension": 2,
+  "fixture_diagonal": [
+    -4,
+    -1,
+    0,
+    2,
+    3,
+    5
+  ],
+  "fixture_floor": 2,
+  "fixture_inertia": [
+    3,
+    2,
+    1
+  ],
+  "fixture_nonnegative_indices": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "radical_quotient_is_separate_step": true,
+  "result_id": "K1122-K1121-POSITIVE-REDUCTION-CODIMENSION-FLOOR",
+  "schema_version": "1.0",
+  "scope_boundary": "necessary finite-dimensional or fibrewise condition only; it neither constructs constraints nor proves their propagation or closure",
+  "sharp": true,
+  "status": "working_draft_verified",
+  "theorem": "for inertia (p,q,z), every H-nonnegative subspace W has dim(W)<=p+z and codim(W)>=q"
+}

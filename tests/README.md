@@ -4,6 +4,25 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1121--K1125 physical-reduction necessity boundary
+
+- `channel-swings/k1121_k1118_radical_quotient_inertia_preservation.py`
+  proves nonzero-inertia preservation under radical quotient; its probe rejects
+  nine mutations.
+- `channel-swings/k1122_k1121_positive_reduction_codimension_floor.py` proves
+  the sharp nonnegative-subspace codimension floor; its probe rejects nine
+  mutations.
+- `channel-swings/k1123_k1122_source_i1b_constraint_rank_floor.py` applies
+  the floor to K129's causal symbols; its probe rejects eight mutations.
+- `channel-swings/k1124_k590_acyclic_positivity_control.py` distinguishes
+  vacuous zero-cohomology positivity from a physical state space; its probe
+  rejects nine mutations.
+- `channel-swings/k1125_k1124_physical_reduction_ownership_boundary.py`
+  reconciles exact necessities with open functional owners; its probe rejects
+  seven mutations.
+- Five producers pass 46 declared controls; five probes reject 42/42 hostile
+  mutations. No protected GU conclusion moves.
+
 ## K1116--K1120 source-Hessian positivity boundary
 
 - `channel-swings/k1116_k128_mixed_zero_block_positivity_obstruction.py`

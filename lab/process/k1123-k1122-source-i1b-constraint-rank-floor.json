@@ -1,0 +1,37 @@
+{
+  "created": "2026-10-05",
+  "ordinary_radical_quotient_sufficient": false,
+  "protected_effect": "none",
+  "reason": "a Hessian-radical gauge quotient preserves n_+ and n_-; positivity needs a separately owned nonnegative constraint subspace",
+  "result_id": "K1123-K1122-SOURCE-I1B-CONSTRAINT-RANK-FLOOR",
+  "rows": [
+    {
+      "causal_type": "timelike",
+      "minimum_constraint_codimension": 6,
+      "negative_floor": 6,
+      "rank_A": 6
+    },
+    {
+      "causal_type": "spacelike",
+      "minimum_constraint_codimension": 6,
+      "negative_floor": 6,
+      "rank_A": 6
+    },
+    {
+      "causal_type": "null",
+      "minimum_constraint_codimension": 4,
+      "negative_floor": 4,
+      "rank_A": 4
+    }
+  ],
+  "schema_version": "1.0",
+  "scope_boundary": "source-native local finite-symbol necessity only; no global constraints, propagation, closed domain, pairing or cohomology is constructed",
+  "source_input": "K129 causal symbol ranks as consumed by K1118",
+  "status": "working_draft_verified",
+  "stronger_typewise_floors": [
+    6,
+    6,
+    4
+  ],
+  "uniform_minimum_over_nonzero_causal_types": 4
+}

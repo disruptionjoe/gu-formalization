@@ -7,6 +7,20 @@ updated_at: "2026-10-05"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1121--K1125 physical-reduction necessity boundary (2026-10-05)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Quotienting a subspace of the Hessian radical preserves every positive and negative direction | K1121 adapted-basis theorem and exact `(2,1,1)->(2,1,0)` fixture; producer `9/9`; hostile mutations `9/9` | exact finite-dimensional and fibrewise theorem; no global closed quotient |
+| A nonnegative constrained subspace has codimension at least the negative index | K1122 inertia theorem and sharp `(3,2,1)` fixture; producer `9/9`; hostile mutations `9/9` | exact sharp necessity; no constraint map or propagation theorem |
+| K129's source-native symbols require at least `6/6/4` non-gauge constraint codimensions | K1123 composition of K1118 with K1121--K1122; producer `10/10`; hostile mutations `8/8` | exact source-local finite-symbol budget; no functional BV/BFV construction |
+| Exact zero cohomology makes positivity vacuous rather than physical | K1124 typed replay of K590 dimensions and homology; producer `9/9`; hostile mutations `9/9` | exact distinct-carrier control; no transfer from K77 to I1B |
+| Four necessity rows pass while zero global physical owners or scorable rows are added | K1125 ownership matrix; producer `9/9`; hostile mutations `7/7` | source-action requirement disposition; no physical positivity, prediction or confirmation |
+
+SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`, and LT-SM8,
+LT-GR6b, RA-F1 and AC-F1 remain `NEEDS`. No source polarity, ledger, empirical,
+canon or public status moves.
+
 ## K1116--K1120 source-Hessian positivity boundary (2026-10-05)
 
 | Claim | Evidence | Honest grade |

@@ -1,0 +1,57 @@
+{
+  "alternate_source_advances": [
+    "actual source boundary coupling",
+    "stationary global background"
+  ],
+  "counts": {
+    "exact_necessities": 4,
+    "new_global_physical_owned": 0,
+    "open_physical_owners": 3,
+    "scorable": 0
+  },
+  "created": "2026-10-05",
+  "next_condition": "construct the source-action constraint/KT/BFV maps on one common closed domain, prove constraint propagation and a nonnegative restriction of codimension at least 6/6/4, then exhibit a positive pairing on nonzero physical cohomology",
+  "protected_disposition": "SC-ACT-01/02/06 remain ASSERTS; SC-META-53 remains UNCERTAIN; LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS",
+  "requirements": [
+    {
+      "evidence": "K1121",
+      "requirement": "radical_quotient_inertia",
+      "state": "exact_general"
+    },
+    {
+      "evidence": "K1122",
+      "requirement": "nonnegative_constraint_codimension",
+      "state": "exact_general"
+    },
+    {
+      "evidence": "K1123",
+      "requirement": "source_causal_constraint_floors",
+      "state": "exact_finite_symbol"
+    },
+    {
+      "evidence": "K1124/K590",
+      "requirement": "acyclic_positivity_control",
+      "state": "exact_distinct_carrier_control"
+    },
+    {
+      "evidence": null,
+      "requirement": "action_owned_constraint_maps_and_propagation",
+      "state": "open"
+    },
+    {
+      "evidence": null,
+      "requirement": "common_closed_functional_domain",
+      "state": "open"
+    },
+    {
+      "evidence": null,
+      "requirement": "positive_pairing_on_nontrivial_physical_cohomology",
+      "state": "open"
+    }
+  ],
+  "result_id": "K1125-K1124-PHYSICAL-REDUCTION-OWNERSHIP-BOUNDARY",
+  "schema_version": "1.0",
+  "scope_boundary": "necessary source-local reduction budget only; no physical positivity, prediction, confirmation or empirical score follows",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}
