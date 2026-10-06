@@ -7,6 +7,18 @@ updated_at: "2026-10-05"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1176--K1180 native candidate repair audit (2026-10-05)
+
+Five exact producers pass `57/57` controls and five hostile probes reject
+`57/57` mutations. K1176 proves the null-dominated shared ceiling `106536` for
+a stratum-independent repair packet. K1177 supplies all 55 sharp
+dimension-nine allocations. K1178 freezes provenance and type for the
+`650/915/1470/1571` ceilings. K1179 applies exact sequential complement-rank
+accounting and gives the strongest-favorable four-row residual
+`93766/93766/101930`. K1180 integrates the admission frontier. These are
+finite-symbol necessities and optimistic ceilings, not a source-owned K132
+coupling, global complex, physical quotient, prediction or confirmation.
+
 ## K1171--K1175 three-resource repair boundary (2026-10-05)
 
 | Claim | Evidence | Honest grade |

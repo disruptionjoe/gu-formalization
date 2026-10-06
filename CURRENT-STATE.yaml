@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d5602284c6f7
+revision_basis: a3e2df853f3f
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,19 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1176--K1180 reconcile the abstract K132 repair polytope with the strongest
+    nearby source-native response and tangent objects already serialized. One
+    stratum-independent repair ceiling must pay the null-dominated shared floor
+    `106536`; exact positive coordinate controls realize all 55 nonnegative
+    dimension-nine allocations, so dimensions alone do not select changed
+    parent, gauge or constraint repair. The current native ceilings are
+    `650`, `915`, `1470` and `1571`, but none has a typed K132 transport or a
+    measured complement rank on `ker H`. The strongest single optimistic grant
+    still leaves `96801/96801/104965`; even an unproved mutually independent
+    direct sum of all four has ceiling `4606` and leaves
+    `93766/93766/101930`. Zero current candidates pass, and no protected status
+    moves.
+
     K1171--K1175 turn the three surviving K132 repair branches into one exact
     resource law. If `Hd=Qd=0` and
     `rad(H|ker Q)=im d`, then the actual constraint rank on the Hessian kernel
@@ -13692,6 +13705,16 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1176--K1180 show that one uniformly bounded all-causal repair needs at least
+  `106536` new directions, while the strongest currently serialized native
+  ceilings `650/915/1470/1571` remain untyped for K132. Even granting all four
+  mutually independent rank gives only `4606` and leaves
+  `93766/93766/101930`. Which source-owned map actually lives on the K132
+  carrier, what are its causal-stratum complement ranks on `ker H` after the
+  rank-98 joint channel and earlier maps, and does the resulting packet pass
+  every K1150 algebraic and functional gate? Carrier size, response rank on a
+  different object, and named channels are not additive K132 rank.
+
   K1166--K1170 exclude even the strongest favorable direct sum of the retained
   91-component moment map and seven-invariant lock. Their joint target ceiling
   is 98 before any overlap penalty, so K132 still needs
@@ -15520,6 +15543,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K1176--K1180 impose the null-dominated shared ceiling `106536` on any
+  stratum-independent repair packet and audit the strongest serialized native
+  response/tangent ceilings. The single best optimistic ceiling `1571` leaves
+  `96801/96801/104965`; the maximally favorable no-overlap sum
+  `650+915+1470+1571=4606` leaves `93766/93766/101930`. None of the four is a
+  typed K132 constraint coupling and none has a measured sequential complement
+  rank on the K132 Hessian kernel. Advance by supplying one source-owned map on
+  that carrier, computing its causal complement ranks after the rank-98 joint
+  channel and every earlier admitted map, placing the measured point in the
+  repair polytope, and recomputing every K1150 gate. Do not promote carrier
+  dimensions or ranks on other objects into K132 credit.
+
   K1171--K1175 prove the exact successful-packet resource identity
   `rank H+rank d+rank(Q|ker H)=dim V` and price all three current K132
   reopeners under the strongest favorable rank-98 joint-channel baseline.

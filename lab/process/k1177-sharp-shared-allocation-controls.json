@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1177-SHARP-SHARED-ALLOCATION-CONTROLS",
+  "status": "working_draft_verified",
+  "created": "2026-10-05",
+  "input": "K1176-SHARED-CAUSAL-REPAIR-BUDGET",
+  "control_dimension": 9,
+  "allocation_count": 55,
+  "allocation_rule": "all triples (h,g,c) of nonnegative integers with h+g+c=9",
+  "extreme_controls": [[9, 0, 0], [0, 9, 0], [0, 0, 9]],
+  "balanced_control": [3, 3, 3],
+  "construction": "on a coordinate space split V=V_H direct-sum V_d direct-sum V_Q, use a positive identity Hessian on V_H, inject gauge image V_d, and let Q be identity on V_Q",
+  "properties": ["Hd=0", "Qd=0", "rad(H restricted to ker Q)=im d", "rank H+rank d+rank(Q restricted to ker H)=dim V"],
+  "decision": "every nonnegative uniform allocation on the shared-budget face is realizable; dimensions alone cannot prefer changed parent, gauge, or constraint repair",
+  "scope_boundary": "sharp abstract controls only; no control is a GU source construction",
+  "target_claim": "NONE-NOT-A-KILL"
+}

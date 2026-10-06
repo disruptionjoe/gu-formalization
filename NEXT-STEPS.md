@@ -7,6 +7,18 @@ updated_at: "2026-10-05"
 
 # Next Steps For Contributors
 
+> **2026-10-05 K1176--K1180 NATIVE CANDIDATE REPAIR AUDIT.** A single
+> stratum-independent all-causal packet needs a shared repair ceiling of at
+> least `106536`. The strongest serialized nearby native ceilings are
+> `650/915/1470/1571`; none has typed K132 transport or measured complement
+> rank. The strongest single optimistic grant leaves
+> `96801/96801/104965`, while an unproved independent sum of all four leaves
+> `93766/93766/101930`. The next contribution must supply one source-owned map
+> on the K132 carrier and compute its causal sequential complement ranks after
+> the rank-98 joint channel, then rerun the complete K1150 packet. Do not count
+> carrier size, a response rank on another object, or a named descendant as
+> K132 rank.
+
 > **2026-10-05 K1171--K1175 THREE-RESOURCE REPAIR BOUNDARY.** A successful
 > constrained radical packet satisfies the exact identity
 > `rank H+rank d+rank(Q|ker H)=dim V`; all 78 nonnegative allocations in a

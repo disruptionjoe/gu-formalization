@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1179-NATIVE-STACK-COMPLEMENT-BOUNDARY",
+  "status": "working_draft_verified",
+  "created": "2026-10-05",
+  "inputs": ["K1166-STACKED-CONSTRAINT-RANK-SPLIT", "K1178-NATIVE-RESPONSE-CEILING-LEDGER"],
+  "theorem": "for maps Q1,...,Qm on K=ker H, rank(Q1,...,Qm)|K=sum_j rank(Qj restricted to K intersect previous kernels)",
+  "candidate_ceilings": [650, 915, 1470, 1571],
+  "optimistic_direct_sum_ceiling": 4606,
+  "optimistic_residual_deficits": {"timelike": 93766, "spacelike": 93766, "null": 101930},
+  "actual_admission_fields": ["typed common K132 carrier", "source-owned coupling", "causal-stratum symbol", "sequential complement ranks", "Qd=0", "functional K1150 packet"],
+  "current_actual_stack_rank": "unmeasured",
+  "decision": "even granting all four native ceilings independent direct-sum transport gives only 4606 directions and leaves 93766/93766/101930; any overlap or failed transport increases the deficit",
+  "zero_credit_rule": "a candidate that factors through the preceding stack has sequential complement rank zero regardless of its name, target size, derivative order or parameter count",
+  "scope_boundary": "strongest-favorable ceiling only; the four objects are not asserted to share one carrier or define one K132 constraint stack",
+  "target_claim": "SC-ACT-06"
+}

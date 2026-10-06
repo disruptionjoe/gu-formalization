@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1178-NATIVE-RESPONSE-CEILING-LEDGER",
+  "status": "working_draft_verified",
+  "created": "2026-10-05",
+  "inputs": ["K1176-SHARED-CAUSAL-REPAIR-BUDGET", "conditional-physics-ledger-v0.263"],
+  "baseline_deficits": {"timelike": 98372, "spacelike": 98372, "null": 106536},
+  "candidates": [
+    {"candidate_id": "labelled-null-conormal-principal-symbol", "optimistic_independent_rank_ceiling": 650, "ceiling_kind": "measured principal-symbol rank", "evidence": "selected-k77-observation-jet-euler-preboundary-sufficiency", "k132_transport": "unowned", "k132_kernel_complement_rank": "unmeasured", "residual_if_full_independent_transport": {"timelike": 97722, "spacelike": 97722, "null": 105886}},
+    {"candidate_id": "selected-spin-minimal-local-tangent", "optimistic_independent_rank_ceiling": 915, "ceiling_kind": "carrier-dimension ceiling", "evidence": "conditional-physics-ledger-v0.263 nonnull_koszul_gcr_directive", "k132_transport": "unowned", "k132_kernel_complement_rank": "unmeasured", "residual_if_full_independent_transport": {"timelike": 97457, "spacelike": 97457, "null": 105621}},
+    {"candidate_id": "full-raw-upsilon-response", "optimistic_independent_rank_ceiling": 1470, "ceiling_kind": "measured response rank", "evidence": "selected-k77-observation-jet-euler-preboundary-sufficiency", "k132_transport": "unowned", "k132_kernel_complement_rank": "unmeasured", "residual_if_full_independent_transport": {"timelike": 96902, "spacelike": 96902, "null": 105066}},
+    {"candidate_id": "source-native-y14-low-grade-tangent", "optimistic_independent_rank_ceiling": 1571, "ceiling_kind": "carrier-dimension ceiling", "evidence": "conditional-physics-ledger-v0.263 moving source directives", "k132_transport": "unowned", "k132_kernel_complement_rank": "unmeasured", "residual_if_full_independent_transport": {"timelike": 96801, "spacelike": 96801, "null": 104965}}
+  ],
+  "strongest_single_ceiling": 1571,
+  "strongest_single_residual": {"timelike": 96801, "spacelike": 96801, "null": 104965},
+  "decision": "even the strongest single serialized native ceiling misses the favorable K132 repair floor by at least 96801/96801/104965 directions",
+  "ownership_firewall": "the optimistic grant is not a K132 coupling: target/carrier size is not actual rank on ker H, and actual complement rank may be smaller or zero",
+  "protected_disposition": "SC-ACT-01/02/06 remain ASSERTS; SC-META-53 remains UNCERTAIN; LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS",
+  "target_claim": "SC-ACT-06"
+}

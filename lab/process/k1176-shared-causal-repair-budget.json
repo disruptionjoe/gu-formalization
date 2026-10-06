@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1176-SHARED-CAUSAL-REPAIR-BUDGET",
+  "status": "working_draft_verified",
+  "created": "2026-10-05",
+  "inputs": ["K1173-K132-CAUSAL-REPAIR-POLYTOPE", "K1175-I1B-THREE-REOPENER-ADMISSION-BOUNDARY"],
+  "causal_deficits": {"timelike": 98372, "spacelike": 98372, "null": 106536},
+  "theorem": "if one packet has stratum-independent added-rank ceilings H,G,C, success on every causal stratum requires H+G+C>=max_s D_s",
+  "shared_ceiling_floor": 106536,
+  "dominating_stratum": "null",
+  "nonnull_slack_at_floor": 8164,
+  "pointwise_boundary": "if added ranks vary by stratum, retain the three separate K1173 inequalities; the shared floor applies only to uniform ceilings",
+  "decision": "a single uniformly bounded repair packet must budget at least 106536 genuinely new directions even though each nonnull stratum needs only 98372",
+  "scope_boundary": "finite causal-symbol necessity under the favorable rank-98 baseline; no source-owned coupling or global domain is constructed",
+  "target_claim": "SC-ACT-06"
+}
