@@ -4,6 +4,36 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1266--K1270 split-D7 orbit sign boundary
+
+- K1266 realizes both degree-seven signs on explicit regular split-Cartan
+  elements with the same six even invariants (`16/16`; `10/10`).
+- K1267 enumerates the full `322560`-element `W(D7)` orbit and proves the
+  coordinate product separates the pair (`15/15`; `10/10`).
+- K1268 constructs the determinant-minus-one split-orthogonal reflection that
+  exchanges the pair while lying outside the identity component (`16/16`;
+  `10/10`).
+- K1269 verifies the connected `D7` invariant ring retains `p`, while the
+  all-signed extension retains only `p^2` (`16/16`; `10/10`).
+- K1270 composes the seventeen-row orbit, source and functional admission
+  boundary (`20/20`; `10/10`).
+
+The five producers pass `83/83` controls and the probes reject `50/50`
+hostile mutations.
+
+```bash
+python3 tests/channel-swings/k1266_realized_regular_sign_pair.py
+python3 tests/channel-swings/k1266_realized_regular_sign_pair_probe.py
+python3 tests/channel-swings/k1267_connected_d7_weyl_orbit_separation.py
+python3 tests/channel-swings/k1267_connected_d7_weyl_orbit_separation_probe.py
+python3 tests/channel-swings/k1268_disconnected_parity_exchange.py
+python3 tests/channel-swings/k1268_disconnected_parity_exchange_probe.py
+python3 tests/channel-swings/k1269_d7_b7_invariant_quotient_boundary.py
+python3 tests/channel-swings/k1269_d7_b7_invariant_quotient_boundary_probe.py
+python3 tests/channel-swings/k1270_orbit_sign_admission_boundary.py
+python3 tests/channel-swings/k1270_orbit_sign_admission_boundary_probe.py
+```
+
 ## K1261--K1265 weighted-polynomial shape/sign boundary
 
 - K1261 separates scalar-parameter count, full field-Hessian rank and regular

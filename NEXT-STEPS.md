@@ -7,6 +7,18 @@ updated_at: "2026-10-06"
 
 # Next Steps For Contributors
 
+> **2026-10-06 K1266--K1270 SPLIT-D7 ORBIT SIGN BOUNDARY.** The regular
+> split-Cartan points `(1,2,3,4,5,6,7)` and `(-1,2,3,4,5,6,7)` have the same
+> six even primitive invariants and opposite degree-seven product
+> `plus_or_minus 5040`. Both signs are therefore realized. `W(D7)` preserves
+> the product, so connected `Spin(7,7)` does not identify the pair. A
+> determinant-minus-one `O(7,7)` reflection does exchange them, and its outer
+> quotient replaces the degree-seven generator `p` by degree-fourteen `p^2`,
+> but the source does not own that disconnected parity as a physical gauge
+> identification. Next derive the six shape responses plus an odd-in-`p`
+> action/boundary response, or explicitly own the physical outer quotient or a
+> one-component restriction, then pass the full K1145/K1150 functional packet.
+
 > **2026-10-06 K1261--K1265 WEIGHTED-POLYNOMIAL SHAPE/SIGN BOUNDARY.** A
 > scalar coefficient can multiply a full-rank field quadratic while its
 > favorable linear-`I2` quotient surrogate has no nonzero regular critical

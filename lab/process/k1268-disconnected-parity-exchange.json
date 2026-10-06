@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1268-DISCONNECTED-PARITY-EXCHANGE",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-ACT-06",
+  "scope": "One explicit determinant-minus-one orthogonal normalizer element exchanging the regular sign pair; no source or physical gauging of that component.",
+  "pinned_inputs": {
+    "k1266": {"path": "lab/process/k1266-realized-regular-sign-pair.json", "sha256": "fe2c933f485e7390ba2d26377c59b691d44ea136eb94deae8608a3b69fd8f960"},
+    "prior_split_parity": {"path": "explorations/shiab-operator/pc1-spinor-spin77-shiab-2026-06-23.md", "sha256": "615a613fd13b78b13b3eca92284622dd2c3afefe3fb33ffb7d4fda424fe45f4a"}
+  },
+  "reflection": {
+    "split_form": "J=[[0,I7],[I7,0]]",
+    "operation": "swap the first isotropic basis pair",
+    "preserves_J": true,
+    "determinant": -1,
+    "Cartan_effect": "x1 maps to -x1; x2 through x7 fixed",
+    "exchanges_sign_pair": true,
+    "lies_in_identity_component": false
+  },
+  "decision": {
+    "full_O77_normalizer_identifies_pair": true,
+    "connected_Spin77_owns_reflection": false,
+    "source_action_gauges_reflection": false,
+    "mathematical_exchange_implies_physical_identification": false
+  },
+  "source_and_ledger_effect": "SOURCE_SPIN77_DATUM_UNCHANGED__O77_PARITY_UNOWNED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Exact disconnected orthogonal exchange on the split Cartan. It is a comparator for possible outer gauging, not evidence that the source action or physical quotient makes that identification.",
+  "controls": {"producer": "tests/channel-swings/k1268_disconnected_parity_exchange.py", "probe": "tests/channel-swings/k1268_disconnected_parity_exchange_probe.py", "controls_passed": 16, "hostile_mutations_rejected": 10}
+}

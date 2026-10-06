@@ -7,6 +7,20 @@ updated_at: "2026-10-06"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1266--K1270 split-D7 orbit sign boundary (2026-10-06)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Both degree-seven signs occur on the regular split Cartan | K1266 explicit pair with equal `e1` through `e6` of the squares, product `plus_or_minus 5040`, and all `D7` roots nonzero; `16/16`; `10/10` | exact realized regular pair; not a full singular/nonsemisimple orbit classification |
+| Connected `Spin(7,7)` does not identify the pair | K1267 exhaustive `322560`-element `W(D7)` orbit and product invariance; `15/15`; `10/10` | exact connected regular semisimple orbit separation; no physical-state claim |
+| A disconnected orthogonal reflection exchanges the pair | K1268 exact split-form matrix, determinant `-1`, and Cartan conjugation; `16/16`; `10/10` | exact `O(7,7)` normalizer comparison; source/physical gauging unowned |
+| The quotient change is exactly `p` to `p^2` | K1269 `D7` and all-signed `B7` invariant rings, with `e7(x^2)=p^2`; `16/16`; `10/10` | exact finite invariant-ring theorem; no action dependence or functional quotient |
+| Source and functional admission remain absent | K1270 six satisfied, three excluded, two conditional and six missing rows; K1145/K1150 `0/7`; `20/20`; `10/10` | no GU ellipticity, physical parity identification, positivity, prediction or confirmation |
+
+Five producers pass `83/83` declared controls and five probes reject `50/50`
+hostile mutations. SC-ACT-01/02/06, SC-META-53, the physics ledger and all
+protected verdicts remain unchanged.
+
 ## K1261--K1265 weighted-polynomial shape/sign boundary (2026-10-06)
 
 | Claim | Evidence | Honest grade |

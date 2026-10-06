@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1270-ORBIT-SIGN-ADMISSION-BOUNDARY",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-ACT-06",
+  "scope": "Integrated connected-orbit, disconnected-parity, source-ownership and functional-admission boundary after K1266--K1269.",
+  "pinned_inputs": {
+    "k1266": {"path": "lab/process/k1266-realized-regular-sign-pair.json", "sha256": "fe2c933f485e7390ba2d26377c59b691d44ea136eb94deae8608a3b69fd8f960"},
+    "k1267": {"path": "lab/process/k1267-connected-d7-weyl-orbit-separation.json", "sha256": "ce0cf948171b7cd453e0df61e8c4cddb1f05f02ce8b585d7bff0032f86aebc82"},
+    "k1268": {"path": "lab/process/k1268-disconnected-parity-exchange.json", "sha256": "4e66c1f50a916e03f85d131f9f9e05f810c9a8411fae27fa6d2c075dcf9b82e8"},
+    "k1269": {"path": "lab/process/k1269-d7-b7-invariant-quotient-boundary.json", "sha256": "20e082fb93c76b6bd229a09bc0cec1eff30cd9a633e6848de868d9c06c9affaa"}
+  },
+  "certificate": {
+    "rows": [
+      {"row": "parameter field and quotient rank types separated", "state": "satisfied"},
+      {"row": "six continuous weighted-polynomial shape responses", "state": "satisfied"},
+      {"row": "proper rank-seven formal-base continuous lock", "state": "satisfied"},
+      {"row": "odd-invariant parity theorem", "state": "satisfied"},
+      {"row": "opposite signs realized on regular split Cartan", "state": "satisfied"},
+      {"row": "connected D7 versus disconnected B7 quotient classified", "state": "satisfied"},
+      {"row": "pure nonzero kappa quadratic regular nonzero quotient selector", "state": "excluded"},
+      {"row": "even-in-I7 unique nonzero sign selector", "state": "excluded"},
+      {"row": "connected Spin77 identification of opposite signs", "state": "excluded"},
+      {"row": "favorable kappa-labelled scale channel", "state": "conditional"},
+      {"row": "disconnected O77 parity exchange", "state": "conditional"},
+      {"row": "source-derived six-shape response law", "state": "missing"},
+      {"row": "source-derived odd-in-I7 response or physical outer gauging", "state": "missing"},
+      {"row": "common closed functional domain", "state": "missing"},
+      {"row": "closed range and positive quotient gap", "state": "missing"},
+      {"row": "causal Green or maximal generator packet", "state": "missing"},
+      {"row": "positive nonzero physical cohomology", "state": "missing"}
+    ],
+    "satisfied_count": 6,
+    "excluded_count": 3,
+    "conditional_count": 2,
+    "missing_count": 6,
+    "k1145_pass_count": 0,
+    "k1150_pass_count": 0
+  },
+  "decision": {
+    "scientific_effect": "OPPOSITE_I7_SIGNS_ARE_REALIZED_DISTINCT_CONNECTED_SPLIT_D7_ORBITS__ONLY_DISCONNECTED_OUTER_PARITY_IDENTIFIES_THEM__SOURCE_AND_FUNCTIONAL_OWNERSHIP_UNCHANGED",
+    "both_signs_realized": true,
+    "connected_source_gauge_identifies_pair": false,
+    "disconnected_mathematical_extension_identifies_pair": true,
+    "disconnected_extension_is_source_owned": false,
+    "odd_action_response_owned": false,
+    "charged_boundary_symmetry_remains_honest_default": true,
+    "SC_ACT_06_proved_or_refuted": false,
+    "next_condition": "Derive the six shape responses plus an odd-in-p action or boundary response, or explicitly own a physical disconnected-parity quotient or one-component restriction; then realize one common closed BV-BFV domain with closed range, positive gap, causal evolution and positive nonzero cohomology."
+  },
+  "source_and_ledger_effect": "SC-ACT-01_02_06_ASSERTS_UNCHANGED__SC-META-53_UNCERTAIN_UNCHANGED__LT-SM8_LT-GR6b_RA-F1_AC-F1_NEEDS_UNCHANGED__LEDGER_UNCHANGED",
+  "protected_status_effect": "none",
+  "claim_ceiling": "Exact regular split-Cartan realization, connected-orbit separation and disconnected outer-quotient classification only; no source action selection, physical parity gauging, functional admission, positivity, prediction, confirmation or protected-status movement.",
+  "controls": {"producer": "tests/channel-swings/k1270_orbit_sign_admission_boundary.py", "probe": "tests/channel-swings/k1270_orbit_sign_admission_boundary_probe.py", "controls_passed": 20, "hostile_mutations_rejected": 10}
+}

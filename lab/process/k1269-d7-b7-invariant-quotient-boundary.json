@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1269-D7-B7-INVARIANT-QUOTIENT-BOUNDARY",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "INTERNAL_TARGET:K1264_EVEN_SUBRING_OWNER",
+  "scope": "Chevalley invariant rings for W(D7) and its all-signed B7 extension on the split Cartan.",
+  "pinned_inputs": {
+    "k1264": {"path": "lab/process/k1264-odd-invariant-sign-parity-obstruction.json", "sha256": "faac61a3f4c4573801281acb17d4c1699ce670a221a4f5b99ff6197491eac1aa"},
+    "k1268": {"path": "lab/process/k1268-disconnected-parity-exchange.json", "sha256": "4e66c1f50a916e03f85d131f9f9e05f810c9a8411fae27fa6d2c075dcf9b82e8"}
+  },
+  "rings": {
+    "connected_D7": "R[e1(x^2),e2(x^2),e3(x^2),e4(x^2),e5(x^2),e6(x^2),p]",
+    "connected_degrees": [2, 4, 6, 8, 10, 12, 7],
+    "all_signed_B7": "R[e1(x^2),e2(x^2),e3(x^2),e4(x^2),e5(x^2),e6(x^2),p^2]",
+    "all_signed_degrees": [2, 4, 6, 8, 10, 12, 14],
+    "top_square_relation": "e7(x^2)=p^2",
+    "odd_reflection_fixes_p": false,
+    "odd_reflection_fixes_p_squared": true
+  },
+  "decision": {
+    "K1264_even_subring_matches_outer_sign_quotient": true,
+    "degree_seven_generator_survives_connected_quotient": true,
+    "degree_seven_sign_survives_disconnected_quotient": false,
+    "physical_outer_quotient_owned": false
+  },
+  "claim_ceiling": "Exact finite invariant-ring boundary. No source action dependence, physical quotient, global functional orbit space or positivity follows.",
+  "controls": {"producer": "tests/channel-swings/k1269_d7_b7_invariant_quotient_boundary.py", "probe": "tests/channel-swings/k1269_d7_b7_invariant_quotient_boundary_probe.py", "controls_passed": 16, "hostile_mutations_rejected": 10}
+}
