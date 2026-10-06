@@ -1,0 +1,21 @@
+{
+  "actual_current_gauge_rank": 4,
+  "auxiliary_radial_joint_null_grant": 8193,
+  "claim_ceiling": "nonnull dimension-only stress test; neither auxiliary grant is source-owned gauge or a functional complex",
+  "classification": "CONDITIONAL_RESULT",
+  "created": "2026-10-05",
+  "current_nonnull_residual_after_h_j_and_actual_gauge": 98308,
+  "full_packet_candidate_after_overgrant": false,
+  "nonnull_only": true,
+  "ownership": {
+    "rank98_channel": "favorable unowned transport grant",
+    "radial_joint_nullspace": "corrected auxiliary connection-only slice"
+  },
+  "rank98_grant": 98,
+  "residual_after_radial_overgrant": 90115,
+  "residual_after_radial_plus_rank98": {"best_independent_placement": 90017, "worst_complete_overlap": 90115},
+  "result_id": "K1188-RADIAL-OVERGRANT-RESIDUAL-ENVELOPE",
+  "schema_version": "1.0",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

@@ -4,6 +4,24 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1186--K1190 corrected enlarged-gauge boundary
+
+- K1186 proves that a current-parent gauge image must be annihilated by both
+  the Hessian and response (`16/16` controls; `12/12` hostile mutations).
+- K1187 extracts the exact `8193`-dimensional joint kernel on K887's corrected
+  auxiliary nonnull radial slice (`17/17`; `13/13`).
+- K1188 grants that entire auxiliary subspace favorably and obtains residuals
+  `90115` and best-case `90017` after the rank-98 grant (`18/18`; `14/14`).
+- K1189 freezes the exact rank-`8191` restriction cost for any changed parent
+  making the full radial image Hessian-null (`16/16`; `12/12`).
+- K1190 integrates the corrected ownership and all-causal admission boundary
+  (`20/20`; `16/16`).
+
+The five producers pass `87/87` controls; the five probes reject `67/67`
+hostile mutations. These tests do not source-own the auxiliary radial slice,
+compute its null-stratum rank, construct a replacement parent, prove a closed
+gauge image, or build a physical quotient.
+
 ## K1181--K1185 measured native Upsilon candidate
 
 - K1181 proves the exact kernel-complement identity and checks four sharp

@@ -7,6 +7,21 @@ updated_at: "2026-10-05"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1186--K1190 corrected enlarged-gauge boundary (2026-10-05)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A current-parent gauge image must lie in `ker H intersection ker J` | K1186 theorem and four sharp coordinate controls; producer `16/16`; hostile mutations `12/12` | exact finite-dimensional necessity; no source-owned differential |
+| K887's corrected auxiliary nonnull radial joint kernel has dimension `8193` | K1187 composition of the `16384` domain, rank-`8191` Hessian restriction and rank-zero response restriction; producer `17/17`; hostile mutations `13/13` | exact frozen auxiliary-slice result; not native T=0 gauge and not a null-stratum result |
+| Favorably granting all `8193` directions still leaves `90115`, or `90017` after rank 98 | K1188 dimension-only over-grant envelope; producer `18/18`; hostile mutations `14/14` | exact nonnull stress test; both added images remain unowned |
+| Making the full radial carrier Hessian-null costs an exact rank-`8191` changed-parent restriction | K1189 corrected composition of K891 with K1127/K1129; producer `16/16`; hostile mutations `12/12` | exact auxiliary necessity; no replacement parent is constructed |
+| The enlarged-gauge route still needs a native all-causal closed image and full K1150 replay | K1190 integrated boundary; producer `20/20`; hostile mutations `16/16` | exact current ownership frontier; not a global SC-ACT-06 or GU no-go |
+
+Five producers pass `87/87` declared controls and five probes reject `67/67`
+hostile mutations. `SC-ACT-01/02/06` remain `ASSERTS`, `SC-META-53` remains
+`UNCERTAIN`, and `LT-SM8/LT-GR6b/RA-F1/AC-F1` remain `NEEDS`. No empirical
+score, prediction, confirmation, canon, paper or public status moves.
+
 ## K1181--K1185 measured native Upsilon candidate (2026-10-05)
 
 | Claim | Evidence | Honest grade |

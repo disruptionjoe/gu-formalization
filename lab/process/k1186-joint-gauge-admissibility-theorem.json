@@ -1,0 +1,18 @@
+{
+  "claim_ceiling": "exact finite-dimensional necessity; no source-owned enlarged gauge image or functional complex",
+  "classification": "CONDITIONAL_RESULT",
+  "controls": [
+    {"case": "full_joint_kernel", "dim_v": 4, "joint_kernel_dimension": 2, "proposed_rank": 2, "h_annihilates": true, "j_annihilates": true, "admissible": true},
+    {"case": "response_only_is_insufficient", "dim_v": 4, "joint_kernel_dimension": 2, "proposed_rank": 1, "h_annihilates": false, "j_annihilates": true, "admissible": false},
+    {"case": "hessian_only_is_insufficient", "dim_v": 4, "joint_kernel_dimension": 2, "proposed_rank": 1, "h_annihilates": true, "j_annihilates": false, "admissible": false},
+    {"case": "trivial_joint_kernel", "dim_v": 2, "joint_kernel_dimension": 0, "proposed_rank": 0, "h_annihilates": true, "j_annihilates": true, "admissible": true}
+  ],
+  "created": "2026-10-05",
+  "dimension_ceiling": "rank(d)<=dim ker(H,J)",
+  "equivalent_condition": "im(d) subset ker(H) intersection ker(J)=ker(H,J)",
+  "necessary_equations": ["H d=0", "J d=0"],
+  "result_id": "K1186-JOINT-GAUGE-ADMISSIBILITY-THEOREM",
+  "schema_version": "1.0",
+  "sharp": true,
+  "status": "working_draft_verified"
+}

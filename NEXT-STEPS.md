@@ -7,6 +7,19 @@ updated_at: "2026-10-05"
 
 # Next Steps For Contributors
 
+> **2026-10-05 K1186--K1190 CORRECTED ENLARGED-GAUGE BOUNDARY.** A proposed
+> current-parent gauge image must lie in `ker H intersection ker J`; raw
+> response annihilation alone earns no gauge credit. K887's corrected
+> auxiliary nonnull radial slice has dimension `16384`, but `H` has rank
+> `8191` there, so only `8193` directions are jointly null. Even granting all
+> of them independently leaves `90115` nonnull directions, or `90017` after
+> the separate favorable rank-98 grant. The full radial carrier would require
+> a changed-parent cancellation restriction of rank `8191`. Next supply a
+> native source-owned gauge/KT/BFV differential with measured closed image on
+> every causal stratum, or a replacement stationary parent and complete K1150
+> replay. Do not promote the auxiliary nonnull over-grant to source ownership
+> or a null-stratum result.
+
 > **2026-10-05 K1181--K1185 MEASURED NATIVE UPSILON CANDIDATE.** The full raw
 > Upsilon response `J` is the first source-owned map measured on the current
 > K132 carrier. Its exact causal complement ranks are `162/162/8323`, not its

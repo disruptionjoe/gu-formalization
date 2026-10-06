@@ -1,0 +1,21 @@
+{
+  "cancellation_equation": "(H+C)G=0",
+  "claim_ceiling": "exact auxiliary restriction cost; no replacement parent, action ownership, or functional completion",
+  "classification": "CORRECTION_PROPAGATION",
+  "created": "2026-10-05",
+  "forced_restriction": "CG=-HG",
+  "full_radial_domain_dimension": 16384,
+  "minimum_completion_restriction_rank": 8191,
+  "pinned_inputs": {
+    "k891": {"path": "lab/process/k891-sc-act-06-gauge-cancellation-necessity.json", "sha256": "2de71e60e7dddcff26e0adf642239514566e3a215e9132570a6eeac6122c5ac7"},
+    "k1127": {"path": "lab/process/k1127-k887-t0-gauge-carrier-correction.json", "sha256": "cd89511cc412d93bd242e19b2be7f574d8725d6f5af3c53c155fa89dae47f56e"},
+    "k1129": {"path": "lab/process/k1129-k887-k940-consumer-survival-audit.json", "sha256": "e1f3b306f14f0b060bebdac534b45dac5c3c3e6fd07fd2602d3eaa757ba0e9c7"}
+  },
+  "rank_below_8191_suffices": false,
+  "raw_response_cancellation_already_zero_on_radial": true,
+  "replacement_parent_constructed": false,
+  "result_id": "K1189-CHANGED-PARENT-CANCELLATION-COST",
+  "schema_version": "1.0",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

@@ -1,0 +1,23 @@
+{
+  "action_owned_current_t0_gauge_rank": 4,
+  "claim_ceiling": "exact nonnull auxiliary-slice arithmetic; no native gauge ownership, null-stratum transfer, or physical quotient",
+  "classification": "CORRECTION_PROPAGATION",
+  "created": "2026-10-05",
+  "full_radial_module_jointly_admissible": false,
+  "hessian_rank_on_radial": 8191,
+  "joint_kernel_dimension_on_radial": 8193,
+  "joint_restriction_rank": 8191,
+  "null_stratum_computed": false,
+  "ownership_disposition": "K1127/K1129: frozen connection-only auxiliary carrier, not the native T=0 source-action gauge image",
+  "pinned_inputs": {
+    "k887": {"path": "lab/process/k887-sc-act-06-selected-i1b-gauge-descent-obstruction.json", "sha256": "a259443e593cfa1010674320e8120fc49fe81ca2b59110bc05f6ac03032f3b2a"},
+    "k1127": {"path": "lab/process/k1127-k887-t0-gauge-carrier-correction.json", "sha256": "cd89511cc412d93bd242e19b2be7f574d8725d6f5af3c53c155fa89dae47f56e"},
+    "k1129": {"path": "lab/process/k1129-k887-k940-consumer-survival-audit.json", "sha256": "e1f3b306f14f0b060bebdac534b45dac5c3c3e6fd07fd2602d3eaa757ba0e9c7"}
+  },
+  "radial_domain_dimension": 16384,
+  "raw_response_rank_on_radial": 0,
+  "result_id": "K1187-RADIAL-JOINT-NULLSPACE-AUDIT",
+  "schema_version": "1.0",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

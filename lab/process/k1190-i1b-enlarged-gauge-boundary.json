@@ -1,0 +1,25 @@
+{
+  "actual_current_t0_gauge_rank": 4,
+  "auxiliary_nonnull_radial": {
+    "domain_dimension": 16384,
+    "hessian_defect_rank": 8191,
+    "joint_null_dimension": 8193,
+    "source_owned_gauge": false
+  },
+  "candidate_meeting_full_packet": 0,
+  "changed_parent_minimum_restriction_rank": 8191,
+  "claim_ceiling": "exact corrected branch boundary; no global GU or SC-ACT-06 verdict",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "created": "2026-10-05",
+  "favorable_nonnull_overgrant": {
+    "after_auxiliary_radial": 90115,
+    "after_auxiliary_radial_and_rank98_best": 90017
+  },
+  "next_condition": "supply a native source-owned enlarged gauge or KT/BFV differential, measure its joint-kernel image on every causal stratum, prove closed range, and replay K1150; otherwise supply a new source-owned map or changed stationary parent",
+  "null_radial_rank_computed": false,
+  "protected_disposition": "SC-ACT-01/02/06 remain ASSERTS; SC-META-53 remains UNCERTAIN; LT-SM8/LT-GR6b/RA-F1/AC-F1 remain NEEDS",
+  "result_id": "K1190-I1B-ENLARGED-GAUGE-BOUNDARY",
+  "schema_version": "1.0",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

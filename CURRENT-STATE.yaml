@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 818ef3b7a625
+revision_basis: efd06051e2538c91a2c20468e7a5a6db497a83b9
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,19 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1186--K1190 reconcile K1185's measured Upsilon obstruction with the
+    K1127/K1129 radial-carrier correction. Any current-parent gauge image must
+    lie in `ker H intersection ker J`; response annihilation alone is not
+    enough. On K887's frozen nonnull auxiliary radial slice, `J` has rank zero
+    but `H` has rank `8191`, so only `8193` of `16384` directions lie in the
+    joint kernel. Neither that subspace nor the full radial carrier is the
+    native T=0 source-action gauge image. Even favorably over-granting all
+    `8193` directions leaves `90115` nonnull directions, or at least `90017`
+    after the separate unowned rank-98 grant. Making the full radial module
+    Hessian-null instead requires a changed-parent restriction of exact rank
+    `8191`. No null radial rank, replacement parent, closed image or functional
+    complex is supplied, and no protected status moves.
+
     K1181--K1185 measure the first actual source-owned map on the current K132
     carrier. The exact identity
     `rank(J|ker H)=rank(H,J)-rank(H)` applied to K740's full raw Upsilon
@@ -13718,6 +13731,17 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1186--K1190 show that an enlarged current-parent gauge image must lie in
+  `ker H intersection ker J`, and that K887's corrected auxiliary nonnull
+  radial slice contributes only `8193` jointly null directions rather than its
+  full dimension `16384`. Even granting every one independently leaves
+  `90115` nonnull directions, or `90017` after the favorable unowned rank-98
+  channel; the null radial rank is uncomputed. Which native source-owned
+  gauge/KT/BFV differential supplies a measured closed image on every causal
+  stratum, or which changed stationary parent pays the rank-8191 cancellation
+  cost and then passes the complete K1150 packet? Auxiliary nullspace is not
+  gauge ownership.
+
   K1181--K1185 identify the full raw Upsilon response `J` as the first measured
   source-owned map on the K132 carrier. Its exact complement ranks are only
   `162/162/8323`, leaving `98308/98308/98311` directions after the owned gauge
@@ -15567,6 +15591,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Advance the enlarged-gauge branch only with a native source-owned
+  transformation or KT/BFV differential whose image is measured inside
+  `ker H intersection ker J` on timelike, spacelike and null strata. Prove its
+  closed range and replay radical equality, propagation, common graph domains,
+  uniform positivity, maximal generation and boundary traces. K887's
+  `8193`-dimensional nonnull joint nullspace remains an auxiliary over-grant:
+  even granting it plus the unowned rank-98 channel leaves at least `90017`
+  nonnull directions. A changed parent must supply the exact rank-8191 radial
+  cancellation and recompute every gate. Do not transfer the nonnull result to
+  the null stratum or call response annihilation gauge ownership.
+
   Advance by deriving an actual source-owned map whose sequential complement
   outside the measured `H/J` span and favorable prior channel reaches at least
   `98210/98210/98213`, or by owning an enlarged closed gauge/KT image or a
