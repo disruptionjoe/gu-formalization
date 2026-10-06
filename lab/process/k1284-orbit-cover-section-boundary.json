@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1284-ORBIT-COVER-SECTION-BOUNDARY",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "INTERNAL_TARGET:K1279_ONE_COMPONENT_RESTRICTION",
+  "scope": "The two-sheeted connected-orbit cover p to q=p^2 over the regular q>0 locus and its branch point q=0.",
+  "pinned_inputs": {
+    "k1278": {"path": "lab/process/k1278-equivariant-effective-response-parity-boundary.json", "sha256": "bbaba261c35d08b9c063d0fa25eefaab28bb1353a6ffebf35af8c0245b28a6bb"},
+    "k1279": {"path": "lab/process/k1279-odd-response-owner-gap.json", "sha256": "d1bb0a9529a7628a144fb5b009c94cf448b43dc8dda9c49fa21af2ce27bcc99e"}
+  },
+  "cover_theorem": {
+    "quotient_coordinate": "q=p^2",
+    "regular_base": "q>0",
+    "fibres_over_regular_base": 2,
+    "continuous_section_on_connected_regular_base": "p=sigma sqrt(q) with one constant sigma in {+1,-1}",
+    "section_selects_one_component": true,
+    "continuous_extension_to_branch_point": "p(0)=0",
+    "C1_extension_in_q_at_branch_point": false,
+    "deck_equivariant_section_over_regular_base_exists": false,
+    "reason": "deck equivariance with trivial quotient action would require p=-p on q>0"
+  },
+  "decision": {
+    "mathematical_section_exists_after_sign_choice": true,
+    "section_is_canonical_or_outer_equivariant": false,
+    "one_component_restriction_imports_orientation_choice": true,
+    "branch_regular_functional_owner_supplied": false
+  },
+  "claim_ceiling": "Exact topology and regularity boundary for the sign cover. It does not prove that GU gauges outer parity, selects a component, or owns a boundary condition or functional domain.",
+  "controls": {"producer": "tests/channel-swings/k1284_orbit_cover_section_boundary.py", "probe": "tests/channel-swings/k1284_orbit_cover_section_boundary_probe.py", "controls_passed": 12, "hostile_mutations_rejected": 8}
+}

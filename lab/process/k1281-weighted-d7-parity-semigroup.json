@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1281-WEIGHTED-D7-PARITY-SEMIGROUP",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "INTERNAL_TARGET:K1273_WEIGHT21_RESPONSE_OWNER",
+  "scope": "Weighted-homogeneous polynomial functions in the connected split-D7 invariant ring on the frozen regular Cartan quotient.",
+  "gu_typed_objects": {
+    "carrier": "connected split-D7 invariant ring R[e2,e4,e6,e8,e10,e12,p7] LAYER=source-print CHIRALITY=N/A",
+    "pairing": "weighted polynomial multiplication ON=invariant_ring",
+    "real_structure": "real invariant generators with outer reflection p to minus p",
+    "grading": "weights 2,4,6,8,10,12,7",
+    "action_owner": "repository structural theorem only",
+    "target": "parity of weighted-homogeneous invariant monomials MAP-TYPE=evaluation"
+  },
+  "pinned_inputs": {
+    "k1276": {"path": "lab/process/k1276-low-degree-d7-parity-floor.json", "sha256": "5d595997970bf7820d46537cb097387eb0fbde516db762c23a67e66bffc17219"}
+  },
+  "theorem": {
+    "ring": "R[e2,e4,e6,e8,e10,e12,p]",
+    "generator_weights": [2, 4, 6, 8, 10, 12, 7],
+    "monomial_weight": "W=2a2+4a4+6a6+8a8+10a10+12a12+7j",
+    "congruence": "W congruent to j modulo 2",
+    "even_weight_parity": "every even-weight monomial has even p exponent",
+    "odd_weight_parity": "every odd-weight monomial has odd p exponent",
+    "homogeneous_polynomial_law": "F_W(-p)=(-1)^W F_W(p)",
+    "weight28_is_outer_even": true,
+    "weight21_is_outer_odd": true
+  },
+  "decision": {
+    "homogeneous_internal_weight_determines_outer_parity": true,
+    "nonhomogeneous_sums_are_outside_single_weight_conclusion": true,
+    "source_action_owner_supplied": false,
+    "SC_ACT_06_proved_or_refuted": false
+  },
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Exact parity theorem for weighted-homogeneous polynomials in the stated connected-D7 invariant ring; no released action, functional domain or physical orientation follows.",
+  "controls": {"producer": "tests/channel-swings/k1281_weighted_d7_parity_semigroup.py", "probe": "tests/channel-swings/k1281_weighted_d7_parity_semigroup_probe.py", "controls_passed": 16, "hostile_mutations_rejected": 8}
+}

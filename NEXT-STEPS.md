@@ -7,6 +7,18 @@ updated_at: "2026-10-06"
 
 # Next Steps For Contributors
 
+> **2026-10-06 K1281--K1285 WEIGHTED ORIENTATION-SPURION BOUNDARY.** In
+> `R[e2,e4,e6,e8,e10,e12,p7]`, weighted degree and `p` exponent have the same
+> parity. An internally generated weight-21 coefficient is therefore odd, so
+> its product with `p` is even and cannot be K1273's fixed sign-selecting tilt.
+> Convergent homogeneous analytic and regular homogeneous rational repairs do
+> not evade this. Choosing `p=plus_or_minus sqrt(q)` over the outer quotient is
+> exactly a noncanonical component choice. Next supply a source-owned external
+> orientation spurion, explicitly nonhomogeneous action term, boundary/Green
+> law or owned singular/component restriction, together with all six shape
+> responses and the K1145/K1150 functional packet. Do not promote this scoped
+> homogeneous-ring obstruction to a full-action no-go.
+
 > **2026-10-06 K1276--K1280 RELEASED-ACTION ODD-RESPONSE BOUNDARY.** Every
 > connected-`D7` invariant polynomial of Cartan degree below seven is
 > outer-even. The checked released direct bosonic ceilings (`I1B` three,

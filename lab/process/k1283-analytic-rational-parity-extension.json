@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1283-ANALYTIC-RATIONAL-PARITY-EXTENSION",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "INTERNAL_TARGET:K1282_REGULAR_FUNCTION_ESCAPE",
+  "scope": "Convergent weighted-homogeneous analytic germs at the invariant origin and homogeneous rational functions on an outer-parity-stable domain where the denominator is nonzero.",
+  "pinned_inputs": {
+    "k1281": {"path": "lab/process/k1281-weighted-d7-parity-semigroup.json", "sha256": "32a545b7955e4c1d5a8721eeda08f6e2c3995c5179b8de67109eccd94c621bf2"},
+    "k1282": {"path": "lab/process/k1282-internal-weight21-coefficient-obstruction.json", "sha256": "7e4dc8a985d8cd31b49a6820ff9be34a3be7601782ec75dfd80c812b9b3fc637"}
+  },
+  "theorem": {
+    "analytic_homogeneous_piece_is_finite_polynomial": true,
+    "analytic_weight_parity_law": "F_W(-p)=(-1)^W F_W(p)",
+    "rational_setup": "F=N_A/D_B with homogeneous numerator and denominator and D_B nonzero on a parity-stable domain",
+    "rational_weight": "W=A-B",
+    "rational_parity_law": "F(-p)=(-1)^(A-B) F(p)",
+    "regular_weight21_coefficient_is_odd": true,
+    "regular_weight21_coefficient_times_p_is_even": true,
+    "singular_denominator_or_branch_cut_is_outside_regular_domain": true
+  },
+  "decision": {
+    "convergent_analytic_escape_supplies_fixed_odd_tilt": false,
+    "regular_homogeneous_rational_escape_supplies_fixed_odd_tilt": false,
+    "singular_branch_or_parity_nonstable_domain_requires_independent_ownership": true,
+    "nonhomogeneous_effective_law_remains_open": true
+  },
+  "claim_ceiling": "Exact extension of the weighted parity obstruction to convergent homogeneous analytic germs and regular homogeneous rational functions. Singular branches, nonhomogeneous laws and nonlocal functional constructions are not excluded.",
+  "controls": {"producer": "tests/channel-swings/k1283_analytic_rational_parity_extension.py", "probe": "tests/channel-swings/k1283_analytic_rational_parity_extension_probe.py", "controls_passed": 13, "hostile_mutations_rejected": 8}
+}

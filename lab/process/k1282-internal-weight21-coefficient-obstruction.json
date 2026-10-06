@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1282-INTERNAL-WEIGHT21-COEFFICIENT-OBSTRUCTION",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-ACT-06",
+  "scope": "K1273's scale-covariant weight-21 coefficient when required to be constructed polynomially from the connected split-D7 invariant generators themselves.",
+  "pinned_inputs": {
+    "k1273": {"path": "lab/process/k1273-scale-covariant-single-basin-threshold.json", "sha256": "29cbb0fa2c8fdaab6c8f18514e989a9d84d35dc789eccd470dd24ee908316f41"},
+    "k1281": {"path": "lab/process/k1281-weighted-d7-parity-semigroup.json", "sha256": "32a545b7955e4c1d5a8721eeda08f6e2c3995c5179b8de67109eccd94c621bf2"}
+  },
+  "coefficient_census": {
+    "required_weight": 21,
+    "monomial_exponent_classes": 15,
+    "possible_p_exponents": [1, 3],
+    "all_weight21_monomials_are_odd_in_p": true,
+    "coefficient_law": "epsilon(-p)=-epsilon(p)",
+    "selector_term_law": "epsilon(-p)(-p)=epsilon(p)p",
+    "resulting_weight28_term_is_even_in_p": true
+  },
+  "decision": {
+    "internally_generated_homogeneous_weight21_coefficient_supplies_fixed_odd_tilt": false,
+    "internal_coefficient_times_p_restores_outer_evenness": true,
+    "fixed_scalar_or_independently_transforming_spurion_is_extra_data": true,
+    "new_nonhomogeneous_or_boundary_Green_owner_remains_open": true,
+    "SC_ACT_06_proved_or_refuted": false
+  },
+  "source_and_ledger_effect": "SC-ACT-01_02_06_ASSERTS_UNCHANGED__SC-META-53_UNCERTAIN_UNCHANGED__LT-SM8_LT-GR6b_RA-F1_AC-F1_NEEDS_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Exact obstruction to an internally generated polynomial homogeneous weight-21 coefficient acting as K1273's fixed odd tilt. External spurions, nonhomogeneous laws, boundary/Green data and source-owned component restrictions remain open.",
+  "controls": {"producer": "tests/channel-swings/k1282_internal_weight21_coefficient_obstruction.py", "probe": "tests/channel-swings/k1282_internal_weight21_coefficient_obstruction_probe.py", "controls_passed": 14, "hostile_mutations_rejected": 8}
+}

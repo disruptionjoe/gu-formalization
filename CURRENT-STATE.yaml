@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 6466a0d7939c4a3e70724fccf6d05df92d171e12
+revision_basis: fd2aafddf8886dbf6fce42b36d48d992d734d98c
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,19 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1281--K1285 prove that weighted homogeneity fixes outer parity in the
+    connected split-D7 invariant ring: weight `W` has `p`-parity `(-1)^W`.
+    The weight-21 coefficient required by K1273 is therefore odd whenever it
+    is generated internally, and multiplying it by `p` produces an even
+    weight-28 term rather than a fixed sign-selecting tilt. The obstruction
+    extends to convergent homogeneous analytic germs and regular homogeneous
+    rational functions. Over the outer quotient `q=p^2`, a continuous regular
+    section is exactly one of the two choices `p=plus_or_minus sqrt(q)`; it is
+    noncanonical, not deck-equivariant and not `C1` at the branch point.
+    External orientation spurions, nonhomogeneous terms, boundary/Green data,
+    singular owned branches and physical one-component restrictions remain
+    open. K1145/K1150 remain `0/7` and no protected status moves.
+
     K1276--K1280 prove that every polynomial connected-D7 invariant of
     ordinary Cartan degree below seven is independent of the odd generator p.
     The checked released direct bosonic degree ceilings are I1B three,

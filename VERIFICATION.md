@@ -7,6 +7,20 @@ updated_at: "2026-10-06"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1281--K1285 weighted orientation-spurion boundary (2026-10-06)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Weighted degree fixes outer parity in the connected `D7` invariant ring | K1281 exact exponent-semigroup enumeration; `16/16`; `8/8` | exact weighted-polynomial theorem on the frozen Cartan quotient |
+| An internal weight-21 coefficient times `p` is weight-28 and even | K1282 fifteen-class census and parity controls; `14/14`; `8/8` | exact internal-spurion obstruction; external data remain open |
+| Convergent homogeneous analytic and regular rational functions obey the same law | K1283 finite homogeneous-piece and numerator/denominator proof; `13/13`; `8/8` | exact in the stated regular classes; singular/nonhomogeneous routes excluded from scope |
+| A regular sign-cover section chooses one component and is not deck-equivariant | K1284 `q=p^2` section and branch-regularity controls; `12/12`; `8/8` | exact cover theorem; no source physical restriction constructed |
+| Functional admission remains absent | K1285 eleven satisfied, six excluded, four conditional and six missing rows; `10/10`; `8/8` | K1145/K1150 `0/7`; no physical or protected-status movement |
+
+Five producers pass `65/65` declared controls and five probes reject `40/40`
+hostile mutations. SC-ACT-01/02/06, SC-META-53, the physics ledger and all
+protected verdicts remain unchanged.
+
 ## K1276--K1280 released-action odd-response boundary (2026-10-06)
 
 | Claim | Evidence | Honest grade |

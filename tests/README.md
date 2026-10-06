@@ -4,6 +4,35 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1281--K1285 weighted orientation-spurion boundary
+
+- K1281 proves weighted degree and `p` exponent have the same parity
+  (`16/16`; `8/8`).
+- K1282 enumerates all fifteen weight-21 exponent classes and proves an
+  internal coefficient times `p` is even (`14/14`; `8/8`).
+- K1283 extends the obstruction to convergent homogeneous analytic germs and
+  regular homogeneous rational functions (`13/13`; `8/8`).
+- K1284 classifies the two sign-cover sections and their branch regularity
+  (`12/12`; `8/8`).
+- K1285 composes the twenty-seven-row source and functional admission boundary
+  (`10/10`; `8/8`).
+
+The five producers pass `65/65` controls and the probes reject `40/40`
+hostile mutations.
+
+```bash
+python3 tests/channel-swings/k1281_weighted_d7_parity_semigroup.py
+python3 tests/channel-swings/k1281_weighted_d7_parity_semigroup_probe.py
+python3 tests/channel-swings/k1282_internal_weight21_coefficient_obstruction.py
+python3 tests/channel-swings/k1282_internal_weight21_coefficient_obstruction_probe.py
+python3 tests/channel-swings/k1283_analytic_rational_parity_extension.py
+python3 tests/channel-swings/k1283_analytic_rational_parity_extension_probe.py
+python3 tests/channel-swings/k1284_orbit_cover_section_boundary.py
+python3 tests/channel-swings/k1284_orbit_cover_section_boundary_probe.py
+python3 tests/channel-swings/k1285_weighted_orientation_admission_boundary.py
+python3 tests/channel-swings/k1285_weighted_orientation_admission_boundary_probe.py
+```
+
 ## K1276--K1280 released-action odd-response boundary
 
 - K1276 proves the degree-seven floor for every odd connected-`D7` invariant
