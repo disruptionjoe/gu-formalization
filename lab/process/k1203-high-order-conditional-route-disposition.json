@@ -1,0 +1,60 @@
+{
+  "claim_ceiling": "Exact current-route disposition. K577's targets remain valid and K582 improves thirteen complete order-eight group uppers, but all twenty-three remain above target. The broader K218/K152 route is not killed; it requires a named consuming margin and tighter descriptor/face-specific bounds before resumption.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-10-06",
+  "decision": {
+    "K218_K152_route_globally_killed": false,
+    "current_K582_attempt_satisfies_consumer": false,
+    "if_reopened_next_exact_input": "For groups still above target, replace rankwise global derivative maxima by descriptor- and face-mask-specific determinant envelopes and tighten K370's positive-interior scale penalty; retain K582 wherever its rank restriction already helps.",
+    "new_high_order_work_requires_named_consuming_margin": true,
+    "protected_status_moves": false
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "groups_improved": 13,
+    "groups_unchanged": 10,
+    "high_order_groups": 128,
+    "high_order_orders": [
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "order_eight_groups": 23,
+    "targets_failed": 23,
+    "targets_met": 0
+  },
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "gu_typed_objects": {
+    "certificate_family": "K577 groupwise sufficient complete-integral uppers",
+    "consumer": "K573/K576 projection_sine=1/2",
+    "current_attempt": "K579/K582 order-eight complete noncompact group uppers",
+    "result": "conditional route disposition MAP-TYPE=frontier audit"
+  },
+  "release_test": {
+    "K152_not_overclaimed": true,
+    "all_23_have_complete_uppers": true,
+    "exactly_128_high_order_groups": true,
+    "exactly_23_order_eight_groups": true,
+    "protected_status_unchanged": true,
+    "ten_unchanged": true,
+    "thirteen_improved": true,
+    "twenty_three_targets_failed": true,
+    "zero_targets_met": true
+  },
+  "result_id": "K1203-HIGH-ORDER-CONDITIONAL-ROUTE-DISPOSITION",
+  "route": {
+    "K579_complete_order_eight_uppers": true,
+    "K582_complete_uppers_preserved": true,
+    "K582_improves_13_groups": true,
+    "K582_meets_no_K577_targets": true,
+    "all_128_targets_defined": true,
+    "current_route_emits_K152": false
+  },
+  "schema_version": "1.0",
+  "scope": "Branch-relative disposition of the current K576/K577 K152 high-order consumer route after K579 and K582's complete order-eight attempts.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

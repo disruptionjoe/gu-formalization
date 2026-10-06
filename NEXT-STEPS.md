@@ -7,16 +7,33 @@ updated_at: "2026-10-06"
 
 # Next Steps For Contributors
 
-> **2026-10-06 K1196--K1200 ORDER-TEN COMPLETION RECONCILIATION.** K487 and
+> **2026-10-06 K1201--K1205 DOWNSTREAM FRONTIER RECONCILIATION.** K553 is
+> already an explicit K569 input: every complete order-two-through-twelve
+> enclosure is composed into all `59586` entries of the `2958`-vector,
+> `201`-group M-dual finite square. K575 then applies the sharp tail and proves
+> the fixed trial has a strictly nonzero complete M-dual residual. Do not call
+> that K152's shifted-form residual or a spectral-error lower. K577 keeps `128`
+> sufficient high-order targets; K582 improves thirteen of twenty-three
+> complete order-eight group bounds, but zero meet target. Resume K218/K152
+> only with a named consuming margin and tighter descriptor/face-specific
+> complete bounds. K609's leakage upper remains valid, while K795--K798 close
+> only unchanged-current-custody K500 assembly. Resume K500 only with genuinely
+> new native same-domain A and B data. The primary live frontier is again
+> post-K1190: construct a native source-owned enlarged gauge or KT/BFV
+> differential with measured closed joint-kernel image on every causal stratum,
+> or a changed stationary parent and full K1150 replay.
+
+> **2026-10-06 K1196--K1200 ORDER-TEN COMPLETION RECONCILIATION; DOWNSTREAM
+> WAKE SUPERSEDED BY K1201--K1205.** K487 and
 > K415 carry the same ordered scientific face programs after additive metadata
 > is removed. K508 plus K512--K541 already execute all `936` reachable programs
 > in `6552` positive-width cells, and K542--K553 already continue through exact
 > projective ownership, zero-inclusive determinant envelopes, all face and
 > hybrid majorants, the complete Peano remainder and a complete conditional
-> order-ten integral enclosure. The live next input is K553's post-integral
-> join: combine the complete order-eight, order-nine and order-ten conditional
-> enclosures with the remaining order-specific columns needed by K457, then
-> construct the complete base action column and `R_ref` residual before K152.
+> order-ten integral enclosure. K1201--K1205 later prove that K569/K575 already
+> consume the post-K553 join and complete the M-dual residual. The distinct
+> shifted-form K152 consumer remains open under its named margin and accuracy
+> conditions.
 > Do not rerun the `936`-program bank, reopen projective coverage, or mistake
 > K1191's implementation-cost observation for erasure of existing evidence.
 

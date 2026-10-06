@@ -1,0 +1,59 @@
+{
+  "claim_ceiling": "Branch-relative frontier correction only. The post-K553 join and complete M-dual residual are not open. K152 remains open, K218 requires a named consumer and tighter bounds, K500 requires genuinely new native A/B data, and the live primary question remains K1190's source-owned enlarged gauge/KT/BFV or changed-parent packet. No protected verdict moves.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-10-06",
+  "decision": {
+    "K1191_K1200_evidence_retained": true,
+    "K1200_post_K553_wake_superseded": true,
+    "K568_K798_evidence_retained": true,
+    "primary_frontier_restored_to_post_K1190": true,
+    "protected_status_moves": false
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "K1190_next_condition": "supply a native source-owned enlarged gauge or KT/BFV differential, measure its joint-kernel image on every causal stratum, prove closed range, and replay K1150; otherwise supply a new source-owned map or changed stationary parent",
+    "K577_groups": 128,
+    "K582_targets_met": 0,
+    "Q12_entries": 59586,
+    "reconciliation_packets": [
+      "K1201-ORDER-TEN-TO-Q12-LINEAGE-REPLAY",
+      "K1202-COMPLETE-M-DUAL-CONSUMER-BOUNDARY",
+      "K1203-HIGH-ORDER-CONDITIONAL-ROUTE-DISPOSITION",
+      "K1204-K500-CURRENT-CUSTODY-ROUTE-DISPOSITION"
+    ]
+  },
+  "frontier": {
+    "K152_shifted_form_residual_open": true,
+    "K218_route_current_attempt_satisfies_consumer": false,
+    "K500_current_custody_assembly_open": false,
+    "K500_future_native_construction_open": true,
+    "complete_M_dual_residual_open": false,
+    "post_K553_join_open": false,
+    "primary_next_condition": "supply a native source-owned enlarged gauge or KT/BFV differential, measure its joint-kernel image on every causal stratum, prove closed range, and replay K1150; otherwise supply a new source-owned map or changed stationary parent",
+    "primary_source_action_frontier_open": true
+  },
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "gu_typed_objects": {
+    "conditional_alternative": "K218/K152 only with a named consuming margin and tighter complete bounds",
+    "primary": "post-K1190 source-action enlarged-gauge/KT/BFV question",
+    "result": "frontier restoration MAP-TYPE=typed route reconciliation",
+    "revival_alternative": "K500 only with genuinely new same-domain A and B data"
+  },
+  "release_test": {
+    "K152_still_open": true,
+    "K218_current_attempt_not_promoted": true,
+    "K500_repeat_not_promoted": true,
+    "M_dual_complete": true,
+    "all_four_reconciliation_packets_pass": true,
+    "post_K553_not_reopened": true,
+    "protected_disposition_preserved": true,
+    "protected_status_unchanged": true,
+    "source_frontier_present": true
+  },
+  "result_id": "K1205-LIVE-FRONTIER-RESTORATION",
+  "schema_version": "1.0",
+  "scope": "Branch-relative restoration after correcting K1200's regression from the later K568--K798 evidence back to K553.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

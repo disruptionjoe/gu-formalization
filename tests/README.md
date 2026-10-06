@@ -4,6 +4,23 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1201--K1205 downstream frontier reconciliation
+
+- K1201 replays K553 as K569's explicit order-ten input inside the complete
+  eleven-order, 59,586-entry `Q_12` lineage (`8/8`; `4/4`).
+- K1202 preserves K575's strict complete M-dual residual while separating it
+  from K152's shifted-form consumer (`8/8`; `4/4`).
+- K1203 preserves K577's 128 targets and K582's thirteen improved groups while
+  recording that zero of twenty-three order-eight targets pass (`9/9`; `4/4`).
+- K1204 preserves K609's leakage upper and K795--K798's exact closure of only
+  unchanged-current-custody K500 assembly (`9/9`; `4/4`).
+- K1205 restores the post-K1190 live source-action frontier with exact K218 and
+  K500 revival conditions (`7/7`; `4/4`).
+
+The five producers pass `41/41` controls and the probes reject `20/20` hostile
+mutations. They do not emit a K152 shifted-form residual, kill K218 or K500
+globally, or move source, ledger, canon, paper, public or physical posture.
+
 ## K1196--K1200 order-ten completion reconciliation
 
 - K1196 proves K487 and K415 have the same scientific program lineage after
@@ -19,8 +36,9 @@ the map: which directory/group supports which claim.
   (`9/9`; `4/4`).
 
 The five producers pass `39/39` controls; the probes reject `20/20` hostile
-mutations. These tests do not decide the order-ten sign, construct the complete
-action column or `R_ref`, emit K152, or move a physical conclusion.
+mutations. K1201--K1205 subsequently prove that K569/K575 already consume the
+post-K553 join and complete the M-dual residual; only the distinct shifted-form
+consumer remains open. No physical conclusion moves.
 
 ## K1191--K1195 order-ten projective face route
 

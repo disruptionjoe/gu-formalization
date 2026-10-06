@@ -1,0 +1,63 @@
+{
+  "claim_ceiling": "Exact dependency replay only. K553 is already consumed by K569's complete eleven-order M-dual finite square. This does not make the coarse enclosure useful, identify a K152 shifted-form residual, or change any source, ledger, canon, paper, public or physical conclusion.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-10-06",
+  "decision": {
+    "K152_shifted_form_residual_emitted": false,
+    "K553_or_K569_retracted": false,
+    "post_K553_join_already_completed_by_K569": true,
+    "protected_status_moves": false
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "coherent_groups": 201,
+    "order_ten_resolved_vectors": 480,
+    "order_ten_source": "lab/process/k553-order-ten-complete-integral-enclosure.json",
+    "order_ten_upper_triangle_entries": 6890,
+    "orders": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "resolved_vectors": 2958,
+    "self_and_cross_entries": 59586
+  },
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "gu_typed_objects": {
+    "consumer": "K569 finite M-dual residual square Q_12",
+    "metric": "M-dual/Hilbert, not K152 shifted-form dual",
+    "order_ten": "K553 conditional coherent integral enclosure",
+    "result": "dependency replay MAP-TYPE=certificate-lineage"
+  },
+  "lineage": {
+    "K553_complete_integral_enclosure_emitted": true,
+    "K553_named_as_K569_order_ten_source": true,
+    "all_59586_entries_enclosed": true,
+    "all_eleven_orders_present": true,
+    "complete_Q12_emitted": true
+  },
+  "release_test": {
+    "K553_consumed_exactly": true,
+    "complete_Q12_preserved": true,
+    "exact_orders_2_through_12": true,
+    "exactly_201_groups": true,
+    "exactly_2958_vectors": true,
+    "exactly_59586_entries": true,
+    "protected_status_unchanged": true,
+    "shifted_metric_not_overclaimed": true
+  },
+  "result_id": "K1201-ORDER-TEN-TO-Q12-LINEAGE-REPLAY",
+  "schema_version": "1.0",
+  "scope": "Exact branch-relative dependency from K553's complete order-ten conditional enclosure into K569's complete eleven-order M-dual finite square.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

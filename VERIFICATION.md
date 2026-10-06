@@ -7,6 +7,20 @@ updated_at: "2026-10-06"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1201--K1205 downstream frontier reconciliation (2026-10-06)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K553 is already consumed by the complete K569 `Q_12` | K1201 replays orders 2--12, 2,958 vectors, 201 groups and 59,586 entries; producer `8/8`; hostile mutations `4/4` | exact branch-relative lineage; not a useful consumer margin |
+| The fixed trial's complete M-dual residual is already nonzero | K1202 preserves K575's strict lower and distinguishes the shifted-form metric; `8/8`; `4/4` | exact metric boundary; not a K152 or spectral-error lower |
+| The current high-order attempt does not satisfy K577 | K1203 preserves 128 targets, thirteen improved groups and zero of twenty-three order-eight passes; `9/9`; `4/4` | exact current-route disposition; K218 is not globally killed |
+| Current K500 assembly is closed without retracting K609 | K1204 composes K609 and K795--K798; `9/9`; `4/4` | exact unchanged-custody closure; future native construction remains open |
+| The live primary frontier is post-K1190, not post-K553 | K1205 composes the four reconciliations and preserves exact revival conditions; `7/7`; `4/4` | exact current-state correction; no protected verdict moves |
+
+Five producers pass `41/41` declared controls and five probes reject `20/20`
+hostile mutations. `SC-ACT-01/02/06` remain `ASSERTS`, `SC-META-53` remains
+`UNCERTAIN`, and `LT-SM8/LT-GR6b/RA-F1/AC-F1` remain `NEEDS`.
+
 ## K1196--K1200 order-ten completion reconciliation (2026-10-06)
 
 | Claim | Evidence | Honest grade |
@@ -19,8 +33,9 @@ updated_at: "2026-10-06"
 
 Five producers pass `39/39` declared controls and five probes reject `20/20`
 hostile mutations. The correction does not retract K1191--K1195; it narrows
-their frontier effect. No source claim, ledger verdict, canon, paper, public
-posture, prediction or physical conclusion moves.
+their frontier effect. K1201--K1205 later correct the claimed downstream wake:
+K569/K575 already complete the M-dual join and residual, while K152's distinct
+shifted-form consumer remains open. No protected conclusion moves.
 
 ## K1191--K1195 order-ten projective face route (2026-10-06)
 
