@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1244-BIANCHI-NULL-K1150-ADMISSION-AUDIT",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "k1145_pass_count": "0/7",
+  "k1150_pass_count": "0/7",
+  "source_action_owner": false,
+  "missing": ["owned Q and d", "radical-equals-gauge proof", "positive nonzero cohomology", "common closed graph domain", "closed gauge range", "uniform gap", "maximal generator", "boundary trace packet"],
+  "protected_status_effect": "none"
+}

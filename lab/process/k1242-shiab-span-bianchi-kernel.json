@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1242-SHIAB-SPAN-BIANCHI-KERNEL",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "operator_span_dimension": 5,
+  "exact_relations": ["ccc-ccs-scc+scs=0", "ccc-csc-scc+ssc=0", "ccc-css-scc+sss=0"],
+  "bianchi_defect_rank": 1,
+  "bianchi_kernel_dimension": 4,
+  "phase_realifiable_bianchi_rows": ["css", "scs", "ssc"],
+  "unique_nonzero_displayed_riemann_row": "css",
+  "css_response": "-2*Einstein14; Weyl=0",
+  "claim_ceiling": "Principal-symbol classification inside the eight displayed rows, not global Shiab uniqueness."
+}

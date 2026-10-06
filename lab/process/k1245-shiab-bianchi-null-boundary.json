@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1245-SHIAB-BIANCHI-NULL-BOUNDARY",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "scientific_effect": "REAL_BIANCHI_NULL_CORRECTION_IMPROVES_NULL_RANK_WITHOUT_ADMISSION",
+  "improvement_over_k1240": {"null_coupled_rank": 2, "cross_null_jump_reduction": 2},
+  "source_action_owner": false,
+  "next_condition": "Supply a source-selected/action-owned Shiab or stationary parent with jointly derived Q, d, gauge, Hessian and functional/boundary packet, or a genuinely new source-owned map.",
+  "protected_status_effect": "none"
+}

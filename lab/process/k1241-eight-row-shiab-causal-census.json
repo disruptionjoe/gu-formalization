@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1241-EIGHT-ROW-SHIAB-CAUSAL-CENSUS",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "direction": "observed_to_native",
+  "carrier_dimension": 229376,
+  "signature_type_counts": {"nonnull": 56, "null": 49},
+  "euler_ranks": {"ccc": [122878,122878,114688], "ccs": [131070,131070,122880], "csc": [131070,131070,122748], "css": [130912,130912,122746], "scc": [40956,40956,40956], "scs": [32764,32764,32764], "ssc": [32764,32764,32764], "sss": [32766,32766,32766]},
+  "claim_ceiling": "Exact census of source-displayed rows; no historical selector, action, or physical interpretation."
+}

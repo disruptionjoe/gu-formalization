@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 9b14000a0eab2eb9d696abc90cb48a4d56a3dce3
+revision_basis: d393f17b239e1a811b0d40935a69f6c5354172eb
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,18 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1241--K1245 exhaust all eight displayed Shiab product rows and prove they
+    span five operator directions, with three exact global relations. The
+    principal-Bianchi defect has rank one and the kernel dimension is four;
+    after canonical phase realification the compatible displayed basis is
+    `css,scs,ssc`, and only selected `css` has nonzero Riemann response
+    `-2 Einstein14` while killing Weyl. The repository-constructed correction
+    `css+i*ssc` preserves that response and has coupled causal ranks
+    `131070/131070/122882`, radicals `98316/98316/106504`, improving K1240's
+    null rank and cross-null jump by two. Propagation defect remains 13 and
+    K1145/K1150 remain `0/7`; no source/action selector or functional packet
+    exists, so no protected status moves.
+
     K1236--K1240 test the simplest real two-row Shiab pencil still inside the
     released source grammar. The all-commutator row has exact causal Euler
     ranks `122878/122878/114688`. In the bounded rational pencil

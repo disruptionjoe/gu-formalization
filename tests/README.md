@@ -4,6 +4,34 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1241--K1245 Shiab Bianchi-null correction boundary
+
+- K1241 exhausts all eight displayed product rows over every nonnull and null
+  signature type (`17/17`; `9/9`).
+- K1242 proves the five-dimensional span, three global relations, Bianchi
+  defect rank one and phase-realifiable compatible basis (`5/5`; `4/4`).
+- K1243 recomputes the `css+i*ssc` distortion, metric coupling, causal
+  radicals and propagation (`6/6`; `11/11`).
+- K1244 audits all K1145/K1150 gates (`6/6`; `4/4`).
+- K1245 records the null-rank-improvement-without-admission boundary
+  (`6/6`; `4/4`).
+
+The five producers pass `40/40` controls and the probes reject `32/32` hostile
+mutations. The correction is not source-selected or action-owned.
+
+```bash
+python3 tests/channel-swings/k1241_eight_row_shiab_causal_census.py
+python3 tests/channel-swings/k1241_eight_row_shiab_causal_census_probe.py
+python3 tests/channel-swings/k1242_shiab_span_bianchi_kernel.py
+python3 tests/channel-swings/k1242_shiab_span_bianchi_kernel_probe.py
+python3 tests/channel-swings/k1243_real_bianchi_null_correction.py
+python3 tests/channel-swings/k1243_real_bianchi_null_correction_probe.py
+python3 tests/channel-swings/k1244_bianchi_null_k1150_admission_audit.py
+python3 tests/channel-swings/k1244_bianchi_null_k1150_admission_audit_probe.py
+python3 tests/channel-swings/k1245_shiab_bianchi_null_boundary.py
+python3 tests/channel-swings/k1245_shiab_bianchi_null_boundary_probe.py
+```
+
 ## K1236--K1240 two-row Shiab causal-tradeoff boundary
 
 - K1236 computes the all-commutator Shiab row on every full-carrier causal

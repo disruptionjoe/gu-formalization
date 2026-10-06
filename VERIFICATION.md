@@ -7,6 +7,20 @@ updated_at: "2026-10-06"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1241--K1245 Shiab Bianchi-null correction boundary (2026-10-06)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The eight displayed rows have the published complete causal ranks | K1241 exact 56-nonnull/49-null census; producer `17/17`; hostile mutations `9/9` | exact displayed-grammar census; no selector |
+| Their effective operator span is five-dimensional with Bianchi-kernel dimension four | K1242 combined causal witnesses, three global relations and complete principal-Bianchi replay; producer `5/5`; hostile mutations `4/4` | exact inside the displayed grammar, not global uniqueness |
+| `css+i*ssc` preserves curvature response and improves the coupled null rank | K1243 ranks `131070/131070/122882`, radicals `98316/98316/106504`, defect 13; producer `6/6`; hostile mutations `11/11` | exact repository-constructed conditional correction |
+| The correction fails current cohomological and functional admission | K1244 K1145/K1150 audit `0/7`, `0/7`; producer `6/6`; hostile mutations `4/4` | exact rejection of this packet, not every alternative parent |
+| The honest effect is a two-rank null improvement without admission | K1245 integrated boundary; producer `6/6`; hostile mutations `4/4` | no action, physical, canon or protected-status movement |
+
+Five producers pass `40/40` declared controls and five probes reject `32/32`
+hostile mutations. The source displays the rows but does not select the
+correction coefficient or stationary parent; all K1150 obligations remain.
+
 ## K1236--K1240 two-row Shiab causal-tradeoff boundary (2026-10-06)
 
 | Claim | Evidence | Honest grade |

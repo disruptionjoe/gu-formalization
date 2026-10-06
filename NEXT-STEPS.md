@@ -7,6 +7,19 @@ updated_at: "2026-10-06"
 
 # Next Steps For Contributors
 
+> **2026-10-06 K1241--K1245 SHIAB BIANCHI-NULL CORRECTION BOUNDARY.** The
+> eight displayed product rows span exactly five operator directions and obey
+> three global relations. Principal Bianchi has defect rank one and kernel
+> dimension four. Canonically realifying the compatible `ssc` row gives the
+> repository-constructed correction `css+i*ssc`, which preserves the selected
+> `-2 Einstein14`, Weyl-zero curvature response and improves the coupled null
+> rank from K1240's `122880` to `122882`; radicals are
+> `98316/98316/106504` and the cross-null jump is `8188`. Propagation defect
+> remains 13 and K1145/K1150 remain `0/7`. Next supply a source-selected,
+> action-owned parent with jointly derived `Q`, `d`, gauge, Hessian and
+> functional/boundary data, or a genuinely new source-owned map. Award no
+> action, prediction, confirmation or protected-status credit.
+
 > **2026-10-06 K1236--K1240 TWO-ROW SHIAB CAUSAL-TRADEOFF BOUNDARY.** The
 > source-displayed all-commutator row has exact causal Euler ranks
 > `122878/122878/114688`. A bounded exact screen of

@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1243-REAL-BIANCHI-NULL-CORRECTION",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "candidate": "css + i*ssc",
+  "interpretation": "selected comm/symi/symi row plus canonical realification of the symi/symi/comm Bianchi-null row",
+  "distortion_ranks": [131070,131070,122880],
+  "coupled_ranks": [131070,131070,122882],
+  "coupled_radicals": [98316,98316,106504],
+  "gain_over_selected": [158,158,134],
+  "cross_null_radical_jump": 8188,
+  "propagation_defect": 13,
+  "claim_ceiling": "Repository-constructed correction; source does not select its coefficient or action parent."
+}
