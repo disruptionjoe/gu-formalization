@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1276-LOW-DEGREE-D7-PARITY-FLOOR",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "INTERNAL_TARGET:K1275_ODD_RESPONSE_OWNER",
+  "scope": "Polynomial W(D7)-invariants on the frozen constant-amplitude split-Cartan slice.",
+  "pinned_inputs": {"k1269": {"path": "lab/process/k1269-d7-b7-invariant-quotient-boundary.json", "sha256": "20e082fb93c76b6bd229a09bc0cec1eff30cd9a633e6848de868d9c06c9affaa"}},
+  "generator_degrees": {"even": [2,4,6,8,10,12], "odd_p": 7},
+  "theorem": {"degree_below_seven_independent_of_p": true, "degree_below_seven_outer_even": true, "minimum_odd_separator_degree": 7, "degree_seven_odd_generator": "p"},
+  "claim_ceiling": "Exact polynomial invariant-degree theorem on one frozen Cartan slice; no moving-field, derivative, nonlocal, boundary, branch or physical theorem follows.",
+  "controls": {"producer": "tests/channel-swings/k1276_low_degree_d7_parity_floor.py", "probe": "tests/channel-swings/k1276_low_degree_d7_parity_floor_probe.py", "controls_passed": 10, "hostile_mutations_rejected": 8}
+}

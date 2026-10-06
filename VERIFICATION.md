@@ -7,6 +7,20 @@ updated_at: "2026-10-06"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1276--K1280 released-action odd-response boundary (2026-10-06)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Degree below seven cannot see the odd `D7` generator | K1276 generator-degree enumeration; `10/10`; `8/8` | exact polynomial theorem on the frozen Cartan slice |
+| The checked released direct bosonic grammar cannot supply odd `p` there | K1277 degree ceilings `3,2,4 < 7`; `10/10`; `8/8` | exact composition in stated scope; not a full moving/effective action no-go |
+| Unique equivariant elimination preserves parity | K1278 theorem and branch-orientation countercontrol; `10/10`; `8/8` | exact finite theorem; no GU auxiliary or boundary datum constructed |
+| No current owner supplies the weight-21 odd response plus six shapes | K1279 owner census; `10/10`; `8/8` | exhaustive only over checked registered and named current routes |
+| Functional admission remains absent | K1280 eight satisfied, four excluded, three conditional and six missing rows; `10/10`; `8/8` | K1145/K1150 `0/7`; no physical or protected-status movement |
+
+Five producers pass `50/50` declared controls and five probes reject `40/40`
+hostile mutations. SC-ACT-01/02/06, SC-META-53, the physics ledger and all
+protected verdicts remain unchanged.
+
 ## K1271--K1275 odd-response uniform selection boundary (2026-10-06)
 
 | Claim | Evidence | Honest grade |

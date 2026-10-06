@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1279-ODD-RESPONSE-OWNER-GAP",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-ACT-06",
+  "scope": "Owner census for K1275's weight-21 odd response after the low-degree released-action exclusion.",
+  "requirements": {"odd_generator_degree": 7, "coefficient_weight": 21, "six_shape_responses": 6, "functional_packet_rows": 7},
+  "available": {"registered_direct_raw_action": false, "source_owned_boundary_or_Green_law": false, "source_owned_branch_orientation": false, "explicit_new_action_completion": false},
+  "remaining_routes": ["new_direct_term_of_degree_at_least_seven", "source_owned_boundary_or_Green_response", "owned_non_equivariant_branch_or_component", "physical_outer_quotient_or_owned_component_restriction"],
+  "decision": {"odd_response_owner_found": false, "six_shape_owner_found": false, "k1145_pass_count": 0, "k1150_pass_count": 0},
+  "claim_ceiling": "Exhaustive only over the checked registered direct raw action grammar plus named current owner routes; future completions remain open.",
+  "controls": {"producer": "tests/channel-swings/k1279_odd_response_owner_gap.py", "probe": "tests/channel-swings/k1279_odd_response_owner_gap_probe.py", "controls_passed": 10, "hostile_mutations_rejected": 8}
+}

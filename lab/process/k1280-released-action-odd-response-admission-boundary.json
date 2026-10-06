@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1280-RELEASED-ACTION-ODD-RESPONSE-ADMISSION-BOUNDARY",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-ACT-06",
+  "scope": "Integrated invariant-degree, released-action, elimination, owner and functional admission boundary after K1276--K1279.",
+  "certificate": {
+    "rows": [
+      {"row":"degree-below-seven connected-D7 invariants are outer-even","state":"satisfied"},
+      {"row":"minimum polynomial odd separator has degree seven","state":"satisfied"},
+      {"row":"released I1B degree ceiling is three","state":"satisfied"},
+      {"row":"released Upsilon_B degree ceiling is two","state":"satisfied"},
+      {"row":"released I2B degree ceiling is four","state":"satisfied"},
+      {"row":"equivariant elimination preserves parity","state":"satisfied"},
+      {"row":"weight-twenty-one odd response requirement retained","state":"satisfied"},
+      {"row":"connected versus outer symmetry fork retained","state":"satisfied"},
+      {"row":"registered direct raw action supplies odd p response","state":"excluded"},
+      {"row":"unique equivariant elimination creates odd response","state":"excluded"},
+      {"row":"kappa-one I2 supplies odd response","state":"excluded"},
+      {"row":"low-degree invariant polynomial separates sign","state":"excluded"},
+      {"row":"new degree-seven-or-higher direct action term","state":"conditional"},
+      {"row":"owned boundary Green or non-equivariant branch response","state":"conditional"},
+      {"row":"physical outer quotient or owned component restriction","state":"conditional"},
+      {"row":"source-derived six-shape response law","state":"missing"},
+      {"row":"source-owned odd-response owner","state":"missing"},
+      {"row":"common closed functional domain","state":"missing"},
+      {"row":"closed range and positive quotient gap","state":"missing"},
+      {"row":"causal Green or maximal generator packet","state":"missing"},
+      {"row":"positive nonzero physical cohomology","state":"missing"}
+    ],
+    "satisfied_count": 8, "excluded_count": 4, "conditional_count": 3, "missing_count": 6,
+    "k1145_pass_count": 0, "k1150_pass_count": 0
+  },
+  "decision": {"registered_direct_raw_action_route_closed_in_scope": true, "boundary_Green_branch_and_new_action_routes_open": true, "source_odd_response_owned": false, "charged_boundary_symmetry_remains_honest_default": true, "next_condition": "Supply an explicitly new action term of sufficient degree or a source-owned boundary, Green or branch datum that produces the weight-21 odd response and six shape responses, then construct the common K1145/K1150 functional packet."},
+  "source_and_ledger_effect": "SC-ACT-01_02_06_ASSERTS_UNCHANGED__SC-META-53_UNCERTAIN_UNCHANGED__LT-SM8_LT-GR6b_RA-F1_AC-F1_NEEDS_UNCHANGED__LEDGER_UNCHANGED",
+  "protected_status_effect": "none",
+  "claim_ceiling": "Exact direct released-action exclusion on the frozen constant-amplitude polynomial slice only; no full-action, boundary, physical, positivity, prediction or confirmation result.",
+  "controls": {"producer": "tests/channel-swings/k1280_released_action_odd_response_admission_boundary.py", "probe": "tests/channel-swings/k1280_released_action_odd_response_admission_boundary_probe.py", "controls_passed": 10, "hostile_mutations_rejected": 8}
+}

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 4b407bbb63018dc3c894618d4711c2dfc8423826
+revision_basis: 6466a0d7939c4a3e70724fccf6d05df92d171e12
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,18 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1276--K1280 prove that every polynomial connected-D7 invariant of
+    ordinary Cartan degree below seven is independent of the odd generator p.
+    The checked released direct bosonic degree ceilings are I1B three,
+    Upsilon_B two and I2B four, so none can supply K1275's odd response on the
+    frozen constant-amplitude Cartan slice. Unique parity-equivariant
+    elimination preserves evenness; an apparent odd term from a fixed branch
+    imports an orientation datum. The registered direct raw action route is
+    therefore closed only in this scope. New degree-seven action terms,
+    boundary/Green response, non-equivariant branch data and physical quotient
+    routes remain open; all six shape responses and the functional packet are
+    missing. K1145/K1150 remain 0/7 and no protected status moves.
+
     K1271--K1275 classify the exact response strength hidden inside K1270's
     odd-in-`p` requirement. For the canonical sign fiber
     `F(p)=1/2(p^2-a^2)^2+epsilon p`, every nonzero odd tilt selects one unique

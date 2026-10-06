@@ -4,6 +4,34 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1276--K1280 released-action odd-response boundary
+
+- K1276 proves the degree-seven floor for every odd connected-`D7` invariant
+  polynomial (`10/10`; `8/8`).
+- K1277 composes that floor with released direct bosonic degree ceilings
+  `3,2,4` (`10/10`; `8/8`).
+- K1278 proves equivariant elimination preserves parity and types the
+  non-equivariant branch escape (`10/10`; `8/8`).
+- K1279 records the remaining odd-response owner gap (`10/10`; `8/8`).
+- K1280 composes the twenty-one-row source and functional admission boundary
+  (`10/10`; `8/8`).
+
+The five producers pass `50/50` controls and the probes reject `40/40`
+hostile mutations.
+
+```bash
+python3 tests/channel-swings/k1276_low_degree_d7_parity_floor.py
+python3 tests/channel-swings/k1276_low_degree_d7_parity_floor_probe.py
+python3 tests/channel-swings/k1277_released_action_direct_odd_response_exclusion.py
+python3 tests/channel-swings/k1277_released_action_direct_odd_response_exclusion_probe.py
+python3 tests/channel-swings/k1278_equivariant_effective_response_parity_boundary.py
+python3 tests/channel-swings/k1278_equivariant_effective_response_parity_boundary_probe.py
+python3 tests/channel-swings/k1279_odd_response_owner_gap.py
+python3 tests/channel-swings/k1279_odd_response_owner_gap_probe.py
+python3 tests/channel-swings/k1280_released_action_odd_response_admission_boundary.py
+python3 tests/channel-swings/k1280_released_action_odd_response_admission_boundary_probe.py
+```
+
 ## K1271--K1275 odd-response uniform selection boundary
 
 - K1271 derives the exact cubic discriminant, critical tilt and unique global

@@ -7,6 +7,17 @@ updated_at: "2026-10-06"
 
 # Next Steps For Contributors
 
+> **2026-10-06 K1276--K1280 RELEASED-ACTION ODD-RESPONSE BOUNDARY.** Every
+> connected-`D7` invariant polynomial of Cartan degree below seven is
+> outer-even. The checked released direct bosonic ceilings (`I1B` three,
+> `Upsilon_B` two, `I2B` four) therefore cannot contain the required odd
+> generator on the frozen constant-amplitude slice. Unique equivariant
+> elimination also preserves parity; selecting a non-equivariant branch adds
+> an orientation datum. Next supply an explicitly new sufficient-degree action
+> term or a source-owned boundary/Green/branch owner for the weight-21 odd
+> response and all six shape responses, then pass K1145/K1150. Do not promote
+> this scoped direct-route exclusion to a full-action or physical no-go.
+
 > **2026-10-06 K1271--K1275 ODD-RESPONSE UNIFORM SELECTION BOUNDARY.** For
 > `F(p)=1/2(p^2-a^2)^2+epsilon p`, every nonzero odd tilt selects a unique
 > global sign, but `0<|epsilon|<4a^3/(3sqrt(3))` retains the opposite-sign

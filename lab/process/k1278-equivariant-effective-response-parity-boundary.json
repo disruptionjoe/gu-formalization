@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1278-EQUIVARIANT-EFFECTIVE-RESPONSE-PARITY-BOUNDARY",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "INTERNAL_TARGET:K1275_EFFECTIVE_ODD_RESPONSE_OWNER",
+  "scope": "Parity-equivariant elimination of auxiliary variables from an invariant scalar action.",
+  "theorem": {"premise": "S(-p,Ry)=S(p,y) and y*(-p)=R y*(p)", "conclusion": "S_eff(-p)=S_eff(p)", "unique_equivariant_elimination_preserves_evenness": true},
+  "controls": {"equivariant_model": "S=(y-p)^2+y^2 with R(y)=-y", "unique_solution": "y*=p/2", "effective_value": "p^2/2", "non_equivariant_component": "y=+1", "component_value": "1-2p+p^2"},
+  "decision": {"unique_equivariant_elimination_creates_odd_response": false, "fixed_component_can_create_apparent_odd_response": true, "fixed_component_imports_orientation_datum": true},
+  "claim_ceiling": "Exact finite equivariant-elimination theorem and countercontrol; no GU auxiliary field, measure, boundary condition or branch is constructed.",
+  "verification": {"producer": "tests/channel-swings/k1278_equivariant_effective_response_parity_boundary.py", "probe": "tests/channel-swings/k1278_equivariant_effective_response_parity_boundary_probe.py", "controls_passed": 10, "hostile_mutations_rejected": 8}
+}
