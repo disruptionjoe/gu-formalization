@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1262-WEIGHTED-POLYNOMIAL-SHAPE-CHANNEL-CONSTRUCTION",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "SC-ACT-06",
+  "scope": "Polynomial construction of six locally independent shape residuals on the ambient formal invariant base with degrees 2,4,6,7,8,10,12.",
+  "gu_typed_objects": {
+    "carrier": "ambient formal split-D7 invariant-coordinate base R7 LAYER=source-print CHIRALITY=N/A",
+    "pairing": "Euclidean residual-square pairing ON=formal_invariant_residuals",
+    "real_structure": "real invariant coordinates on the positive-I2 regular horn",
+    "grading": "weights 2,4,6,7,8,10,12 with the odd residual polynomialized at weight 14",
+    "action_owner": "repository-construction; no source boundary response is derived",
+    "target": "six continuous shape responses MAP-TYPE=evaluation"
+  },
+  "pinned_inputs": {
+    "k1258": {"path": "lab/process/k1258-favorable-kappa-scale-channel-boundary.json", "sha256": "9667aac8a1a3c5f3cf9e03d158b8936e9a46d9241bf9bacb700ad3b2f418abeb"}
+  },
+  "construction": {
+    "coordinates": ["x=I2", "I4", "I6", "I7", "I8", "I10", "I12"],
+    "even_residuals": "R_d=I_d-c_d x^(d/2), d in {4,6,8,10,12}",
+    "odd_residual": "R_7=I7^2-c7^2 x^7",
+    "shape_law": "S=1/2 sum_d R_d^2",
+    "regular_target": "x=r0^2>0, I_d=c_d r0^d for even d, I7=c7 r0^7 with c7 nonzero",
+    "shape_jacobian_rank": 6,
+    "shape_hessian_rank_at_zero_residual": 6,
+    "shape_hessian_nullity": 1,
+    "kernel": "weighted radial tangent (2 I2,4 I4,6 I6,7 I7,8 I8,10 I10,12 I12)",
+    "odd_row_pivot": "2 I7=2 c7 r0^7"
+  },
+  "decision": {
+    "six_continuous_shape_channels_exist_mathematically": true,
+    "channels_are_source_owned": false,
+    "odd_invariant_sign_selected": false,
+    "SC_ACT_06_proved_or_refuted": false,
+    "next_exact_input": "Add an independent scale residual, test global properness and count the minima created by the even-in-I7 odd residual."
+  },
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Exact ambient formal-base local construction only; realized split-real orbit-image coverage and action ownership are not proved.",
+  "controls": {"producer": "tests/channel-swings/k1262_weighted_polynomial_shape_channel_construction.py", "probe": "tests/channel-swings/k1262_weighted_polynomial_shape_channel_construction_probe.py", "controls_passed": 16, "hostile_mutations_rejected": 10}
+}

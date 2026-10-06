@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1261-PARAMETER-FIELD-QUOTIENT-RANK-SEPARATION",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-ACT-06",
+  "scope": "Exact type separation for a nonzero scalar coefficient multiplying a nondegenerate quadratic form on a finite field carrier versus its favorable linear-I2 regular-quotient surrogate.",
+  "gu_typed_objects": {
+    "carrier": "finite real torsion-field control and regular seven-coordinate split-D7 invariant quotient chart",
+    "pairing": "nondegenerate symmetric field pairing versus ordinary affine quotient Hessian",
+    "real_structure": "real finite control; no functional completion",
+    "grading": "field coordinates separated from primitive invariant degrees 2,4,6,7,8,10,12",
+    "action_owner": "source-print owns the kappa_1 quadratic torsion term; repository owns the favorable quotient surrogate and rank comparison",
+    "target": "RANK-TYPE=field Hessian versus regular quotient response"
+  },
+  "pinned_inputs": {
+    "k1260": {"path": "lab/process/k1260-kappa-selector-admission-boundary.json", "sha256": "74c900daf6a2b14ef55164ae1ef9b02537a382591b07890accadc61a11749305"}
+  },
+  "theorem": {
+    "field_law": "V_kappa(T)=kappa/2 <T,T>_G",
+    "field_hessian": "kappa G",
+    "field_rank_for_nonzero_kappa": "rank G",
+    "field_critical_locus_for_nonzero_kappa": "T=0",
+    "quotient_surrogate": "v_kappa(I)=kappa/2 I2",
+    "quotient_gradient": "(kappa/2,0,0,0,0,0,0)",
+    "quotient_hessian": "zero in affine invariant coordinates",
+    "regular_quotient_critical_locus_for_nonzero_kappa": "empty",
+    "resolution": "A one-dimensional parameter space does not bound field-Hessian rank. K1256 bounds the rank of the channel map through which a critical quotient law factors. The full-rank field quadratic and the absent regular quotient critical point are compatible because T=0 is outside the regular horn and the quotient forgets orbit directions."
+  },
+  "decision": {
+    "scalar_parameter_implies_rank_one_field_hessian": false,
+    "nonzero_kappa_quadratic_selects_regular_nonzero_quotient_shape": false,
+    "companion_action_terms_required_for_nonzero_regular_stationarity": true,
+    "SC_ACT_06_proved_or_refuted": false,
+    "next_exact_input": "Construct explicit companion boundary responses in the six shape directions without attributing their rank to parameter count."
+  },
+  "source_and_ledger_effect": "SC-ACT-01_02_06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Exact finite rank-type correction only; it does not identify the source torsion norm with I2 or construct a nonzero source stationary point.",
+  "controls": {"producer": "tests/channel-swings/k1261_parameter_field_quotient_rank_separation.py", "probe": "tests/channel-swings/k1261_parameter_field_quotient_rank_separation_probe.py", "controls_passed": 15, "hostile_mutations_rejected": 10}
+}

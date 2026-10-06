@@ -4,6 +4,36 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1261--K1265 weighted-polynomial shape/sign boundary
+
+- K1261 separates scalar-parameter count, full field-Hessian rank and regular
+  quotient response rank (`15/15`; `10/10`).
+- K1262 constructs six locally independent weighted-polynomial shape
+  residuals and verifies their sole radial null (`16/16`; `10/10`).
+- K1263 adds a scale residual, proves global formal-base properness and finds
+  two positive rank-seven minima with determinant `4 c7^2 r0^14`
+  (`19/19`; `10/10`).
+- K1264 proves every even-in-`I7` selector pairs the two nonzero signs with
+  congruent Hessians (`14/14`; `10/10`).
+- K1265 composes the fourteen-row source, orbit-scope, discrete-sign and
+  functional admission boundary (`17/17`; `10/10`).
+
+The five producers pass `81/81` controls and the probes reject `50/50`
+hostile mutations.
+
+```bash
+uv run --with sympy==1.14.0 python tests/channel-swings/k1261_parameter_field_quotient_rank_separation.py
+python3 tests/channel-swings/k1261_parameter_field_quotient_rank_separation_probe.py
+uv run --with sympy==1.14.0 python tests/channel-swings/k1262_weighted_polynomial_shape_channel_construction.py
+python3 tests/channel-swings/k1262_weighted_polynomial_shape_channel_construction_probe.py
+uv run --with sympy==1.14.0 python tests/channel-swings/k1263_proper_rank_seven_two_minimum_completion.py
+python3 tests/channel-swings/k1263_proper_rank_seven_two_minimum_completion_probe.py
+uv run --with sympy==1.14.0 python tests/channel-swings/k1264_odd_invariant_sign_parity_obstruction.py
+python3 tests/channel-swings/k1264_odd_invariant_sign_parity_obstruction_probe.py
+python3 tests/channel-swings/k1265_weighted_selector_admission_boundary.py
+python3 tests/channel-swings/k1265_weighted_selector_admission_boundary_probe.py
+```
+
 ## K1256--K1260 kappa/Casimir channel boundary
 
 - K1256 proves the general `m`-channel Hessian-rank bound (`20/20`; `10/10`).

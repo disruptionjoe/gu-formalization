@@ -7,6 +7,20 @@ updated_at: "2026-10-06"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1261--K1265 weighted-polynomial shape/sign boundary (2026-10-06)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Scalar-parameter count, field-Hessian rank and quotient response rank are distinct | K1261 full-rank `kappa G` field Hessian but empty nonzero regular quotient critical locus; `15/15`; `10/10` | exact finite type correction; torsion-to-charge transfer remains unproved |
+| Six weighted-polynomial shape residuals have local rank six | K1262 residual Jacobian, radial kernel and pullback Hessian; `16/16`; `10/10` | exact ambient formal-base construction; no source ownership |
+| A scale completion is proper and continuously rank seven | K1263 two minima, Jacobian determinant `plus_or_minus 2 c7 r0^7`, Hessian determinant `4 c7^2 r0^14`; `19/19`; `10/10` | exact finite construction; not realized-orbit or functional properness |
+| Even-in-`I7` laws cannot choose one nonzero sign | K1264 involution, critical pairing and Hessian congruence; `14/14`; `10/10` | exact algebraic subring theorem; source parity and physical sign identification remain open |
+| Source, orbit-image and functional admission remain absent | K1265 four satisfied, two excluded, one conditional and seven missing rows; K1145/K1150 `0/7`; `17/17`; `10/10` | no GU ellipticity, physical positivity, prediction or confirmation |
+
+Five producers pass `81/81` declared controls and five probes reject `50/50`
+hostile mutations. SC-ACT-01/02/06, SC-META-53, the physics ledger and all
+protected verdicts remain unchanged.
+
 ## K1256--K1260 kappa/Casimir channel boundary (2026-10-06)
 
 | Claim | Evidence | Honest grade |

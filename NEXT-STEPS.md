@@ -7,6 +7,20 @@ updated_at: "2026-10-06"
 
 # Next Steps For Contributors
 
+> **2026-10-06 K1261--K1265 WEIGHTED-POLYNOMIAL SHAPE/SIGN BOUNDARY.** A
+> scalar coefficient can multiply a full-rank field quadratic while its
+> favorable linear-`I2` quotient surrogate has no nonzero regular critical
+> point; parameter count, field-Hessian rank and quotient response rank are
+> distinct. Five even-degree residuals plus
+> `I7^2-c7^2 I2^7` supply all six continuous shape responses. Adding a scale
+> residual gives a globally proper formal-base polynomial with positive
+> rank-seven Hessian, but exactly two minima at opposite `I7` signs. Every law
+> in the even subring pairs those signs. Next derive the six shape responses
+> and an odd-in-`I7` response from the action, or prove a physical
+> identification of the pair on the realized orbit space, then pass the full
+> K1145/K1150 functional packet. Do not attribute field rank to parameter
+> count or promote the repository polynomial to source ownership.
+
 > **2026-10-06 K1256--K1260 KAPPA/CASIMIR CHANNEL BOUNDARY.** Any smooth
 > selector on the regular seven-dimensional quotient which factors through
 > `m` locally independent scalar channels has Hessian rank at most `m` at a

@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1265-WEIGHTED-SELECTOR-ADMISSION-BOUNDARY",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-ACT-06",
+  "scope": "Integrated rank-type, weighted-polynomial continuous-lock, odd-sign and functional-admission boundary after K1261--K1264.",
+  "pinned_inputs": {
+    "k1261": {"path": "lab/process/k1261-parameter-field-quotient-rank-separation.json", "sha256": "3ebea172594509ebe01e2f3507a01b7cee23859a7f1d8d523bd57cc79f8650f4"},
+    "k1262": {"path": "lab/process/k1262-weighted-polynomial-shape-channel-construction.json", "sha256": "f65333e0c24c0362e3ca68c4f2245f25a13b30ad8f57676e4c6656c0ca0db9d8"},
+    "k1263": {"path": "lab/process/k1263-proper-rank-seven-two-minimum-completion.json", "sha256": "135838d43d0eeb36abe186b7d41bbd94694a287f18192c10367d87fec94b92b4"},
+    "k1264": {"path": "lab/process/k1264-odd-invariant-sign-parity-obstruction.json", "sha256": "faac61a3f4c4573801281acb17d4c1699ce670a221a4f5b99ff6197491eac1aa"}
+  },
+  "certificate": {
+    "rows": [
+      {"row": "parameter field and quotient rank types separated", "state": "satisfied"},
+      {"row": "six continuous weighted-polynomial shape responses", "state": "satisfied"},
+      {"row": "proper rank-seven formal-base continuous lock", "state": "satisfied"},
+      {"row": "odd-invariant parity theorem", "state": "satisfied"},
+      {"row": "pure nonzero kappa quadratic regular nonzero quotient selector", "state": "excluded"},
+      {"row": "even-in-I7 unique nonzero sign selector", "state": "excluded"},
+      {"row": "favorable kappa-labelled scale channel", "state": "conditional"},
+      {"row": "source-derived six-shape response law", "state": "missing"},
+      {"row": "source-derived odd-in-I7 response or physical sign identification", "state": "missing"},
+      {"row": "realized split-real orbit-image coverage", "state": "missing"},
+      {"row": "common closed functional domain", "state": "missing"},
+      {"row": "closed range and positive quotient gap", "state": "missing"},
+      {"row": "causal Green or maximal generator packet", "state": "missing"},
+      {"row": "positive nonzero physical cohomology", "state": "missing"}
+    ],
+    "satisfied_count": 4,
+    "excluded_count": 2,
+    "conditional_count": 1,
+    "missing_count": 7,
+    "k1145_pass_count": 0,
+    "k1150_pass_count": 0
+  },
+  "decision": {
+    "scientific_effect": "SIX_CONTINUOUS_SHAPE_RESPONSES_AND_PROPER_RANK_SEVEN_LOCK_CONSTRUCTIBLE_BUT_EVEN_ODD_INVARIANT_LAW_LEAVES_Z2_SIGN__SOURCE_AND_FUNCTIONAL_OWNERSHIP_UNCHANGED",
+    "scalar_parameter_rank_conflation_rejected": true,
+    "finite_continuous_lock_exists_mathematically": true,
+    "finite_continuous_lock_is_source_owned": false,
+    "discrete_I7_sign_selected": false,
+    "charged_boundary_symmetry_remains_honest_default": true,
+    "SC_ACT_06_proved_or_refuted": false,
+    "next_condition": "Supply an action-derived six-shape response law plus an odd-in-I7 response or a proved physical identification of the paired signs on the realized orbit space; then realize one common closed BV-BFV domain with closed range, positive gap, causal evolution and positive nonzero cohomology."
+  },
+  "source_and_ledger_effect": "SC-ACT-01_02_06_ASSERTS_UNCHANGED__SC-META-53_UNCERTAIN_UNCHANGED__LT-SM8_LT-GR6b_RA-F1_AC-F1_NEEDS_UNCHANGED__LEDGER_UNCHANGED",
+  "protected_status_effect": "none",
+  "claim_ceiling": "Exact finite rank-type distinction, ambient formal-base construction and even-subring parity theorem only; no GU ellipticity, physical positivity, prediction, confirmation or protected-status movement.",
+  "controls": {"producer": "tests/channel-swings/k1265_weighted_selector_admission_boundary.py", "probe": "tests/channel-swings/k1265_weighted_selector_admission_boundary_probe.py", "controls_passed": 17, "hostile_mutations_rejected": 10}
+}

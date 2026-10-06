@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1263-PROPER-RANK-SEVEN-TWO-MINIMUM-COMPLETION",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "SC-ACT-06",
+  "scope": "Global properness, local nondegeneracy and minimum count for the scale-completed weighted-polynomial residual square on the ambient formal invariant base.",
+  "gu_typed_objects": {
+    "carrier": "ambient formal split-D7 invariant-coordinate base R7 LAYER=source-print CHIRALITY=N/A",
+    "pairing": "Euclidean sum of seven polynomial residual squares ON=formal_invariant_residuals",
+    "real_structure": "real formal invariant coordinates",
+    "grading": "one inhomogeneous scale residual plus six weighted shape residuals",
+    "action_owner": "repository-construction; no source action or boundary owner",
+    "target": "proper continuous rank-seven selector with discrete sign fiber MAP-TYPE=evaluation"
+  },
+  "pinned_inputs": {
+    "k1262": {"path": "lab/process/k1262-weighted-polynomial-shape-channel-construction.json", "sha256": "f65333e0c24c0362e3ca68c4f2245f25a13b30ad8f57676e4c6656c0ca0db9d8"},
+    "k1259": {"path": "lab/process/k1259-global-proper-formal-selector-repair.json", "sha256": "cf2af44ba2a0a2a80fbed596a358a46a0c2a64e361a8c24a88924f0ebf4a318f"}
+  },
+  "construction": {
+    "scale_residual": "R_2=I2-r0^2",
+    "potential": "U=1/2 (R_2^2+R_4^2+R_6^2+R_7^2+R_8^2+R_10^2+R_12^2)",
+    "hypotheses": ["r0>0", "c7 nonzero"],
+    "global_proper_on_formal_R7": true,
+    "minimum_count": 2,
+    "minima": "I2=r0^2; I_d=c_d r0^d for even d; I7=plus_or_minus c7 r0^7",
+    "residual_jacobian_determinant_at_minima": "plus_or_minus 2 c7 r0^7",
+    "hessian_rank_at_each_minimum": 7,
+    "hessian_inertia_at_each_minimum": [7, 0, 0],
+    "hessian_determinant_at_each_minimum": "4 c7^2 r0^14",
+    "properness_certificate": "Every sublevel bounds I2 through R2, then bounds each even I_d through R_d and bounds I7^2 through R7; closed bounded polynomial sublevels are compact."
+  },
+  "decision": {
+    "continuous_full_lock_exists_mathematically": true,
+    "unique_global_minimum_exists": false,
+    "remaining_discrete_fiber": "Z2 sign of I7",
+    "source_owned": false,
+    "functional_BV_BFV_properness_established": false,
+    "next_exact_input": "Classify the algebraic reason for the paired minima and the minimum extra response needed to select one odd-invariant sign."
+  },
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Exact finite polynomial construction on the ambient formal base; it is not a source action, orbit-image theorem or functional properness result.",
+  "controls": {"producer": "tests/channel-swings/k1263_proper_rank_seven_two_minimum_completion.py", "probe": "tests/channel-swings/k1263_proper_rank_seven_two_minimum_completion_probe.py", "controls_passed": 19, "hostile_mutations_rejected": 10}
+}
