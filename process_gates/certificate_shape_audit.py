@@ -98,6 +98,7 @@ LIBRARY_ALLOWLIST = frozenset({
     "tests/channel-swings/k105_k155_carrier_weyl_action_bv_green_probe.py",
     "tests/channel-swings/k1061_k1060_four_mode_residual_witness.py",
     "tests/channel-swings/k1064_k1063_high_mode_robustness_tradeoff.py",
+    "tests/channel-swings/k1211_pauli_channel_cp_tetrahedron.py",
     "tests/channel-swings/k149_sparse_differential_jet_api.py",
     "tests/channel-swings/k150_moving_selected_shiab_coordinate_adapter.py",
     "tests/channel-swings/k151_moving_distortion_pairing_adapter.py",
