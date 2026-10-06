@@ -7,6 +7,21 @@ updated_at: "2026-10-06"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1226--K1230 common-channel owner and holdout boundary (2026-10-06)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| One flight card can type the common channel, calibration and Bell branches | K1226 identity, raw-record, randomization, blinding, locality and systematics contract; producer `12/12`; hostile mutations `9/9` | exact protocol schema; no apparatus instance or data |
+| Nominal process probabilities do not self-authenticate SPAM or the physical frame | K1227 rational physical `SO(3)` gauge with 18 exact probability equalities and changed `M,t`; `11/11`; `9/9` | exact physical basis-gauge counterexample; no arbitrary-gauge claim |
+| Paired-frame relations provide necessary within- and cross-block drift witnesses | K1228 six zero relations plus planted `1/100` transfer and `-1/200` translation drift; `12/12`; `10/10` | exact observable controls; zero residuals do not prove ideal hardware |
+| An off-frame Bell coincidence table can be sealed and scored without refitting | K1229 exact four probabilities and union-Hoeffding plus systematics rule; `12/12`; `10/10` | exact preregistration on a synthetic control; no empirical score |
+| The schema/instance and calibration/confirmation firewalls remain explicit | K1230 integration; `11/11`; `10/10` | exact conditional boundary; no GU owner, prediction or confirmation |
+
+Five producers pass `58/58` declared controls and five probes reject `48/48`
+hostile mutations. No hardware owner, raw dataset, calibration estimate,
+loophole closure or empirical score is supplied. Delayed-choice entanglement
+swapping remains reserved and unscored; no protected verdict moves.
+
 ## K1221--K1225 affine qubit-channel process-frame boundary (2026-10-06)
 
 | Claim | Evidence | Honest grade |

@@ -1,0 +1,16 @@
+{
+  "claim_ceiling": "Exact holdout prediction and scoring preregistration for one synthetic affine control; no empirical score, loophole closure, GU prediction or confirmation.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "created": "2026-10-06",
+  "decision": {"calibration_refit_on_holdout_forbidden": true, "delayed_choice_entanglement_swapping_consumed": false, "holdout_is_predeclared": true, "holdout_is_scored": false, "holdout_validates_common_owner_model_not_GU": true},
+  "direction": "observed_to_native",
+  "exact_control": {"M_source": "K1223 rational rotated-amplitude-damping control", "a_dot_t": "3/13", "correlation": "99/1625", "minimum_probability": "1151/6500", "probabilities": [{"probability": "1349/6500", "x": -1, "y": -1}, {"probability": "1151/6500", "x": -1, "y": 1}, {"probability": "1901/6500", "x": 1, "y": -1}, {"probability": "2099/6500", "x": 1, "y": 1}], "probability_sum": "1"},
+  "ownership": {"bell_source_channel_pairing_analyzers_counts_and_error_budget_imported": true, "gu_native_effect": "none"},
+  "preregistration": {"analyzer_A": ["3/5", "0", "4/5"], "analyzer_B": ["0", "4/5", "3/5"], "fit_inputs": "only six axial preparations by three Pauli effects", "holdout_inputs": "Bell coincidences at the sealed off-axis analyzer pair", "predicted_formula": "p(x,y|a,b)=[1+x a.t + x y a^T M diag(1,-1,1)b]/4", "refit_after_unseal": false, "required_before_unseal": ["alpha", "N_holdout", "epsilon_systematic", "event inclusion rule", "schedule digest"], "score": "max_xy |f_xy-p_xy| <= sqrt(log(8/alpha)/(2N_holdout))+epsilon_systematic", "settings_absent_from_axial_fit": true},
+  "release_test": {"delayed_choice_reserved": true, "four_outcomes": true, "no_refit": true, "off_axis_unit_vectors": true, "probabilities_nonnegative": true, "probabilities_normalized": true, "protected_status_unchanged": true},
+  "result_id": "K1229-OFF-FRAME-BELL-HOLDOUT-PREREGISTRATION",
+  "schema_version": "1.0",
+  "scope": "A sealed off-axis Bell coincidence table predicted from a separately fitted affine process frame under the same channel-owner schema.",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

@@ -1,0 +1,20 @@
+{
+  "claim_ceiling": "Exact observable consistency and drift witnesses; zero witnesses do not prove an ideal, memoryless or loophole-free apparatus.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "control": {
+    "drifted_block": {"delta_M": [["0", "1/100", "0"], ["0", "0", "0"], ["0", "0", "0"]], "delta_t": ["0", "0", "-1/200"], "within_residuals": ["0", "0", "0", "0", "0", "0"]},
+    "fixed_block": {"M": [["3/10", "-2/5", "0"], ["2/13", "3/26", "-3/13"], ["24/65", "18/65", "5/52"]], "t": ["0", "-9/13", "15/52"], "within_residuals": ["0", "0", "0", "0", "0", "0"]},
+    "planted_nonzero_drift_entries": 2
+  },
+  "created": "2026-10-06",
+  "decision": {"cross_block_comparison_detects_planted_drift": true, "postselected_counts_self_validate_locality": false, "within_block_relations_detect_preparation_conditioned_inconsistency": true, "zero_residuals_prove_memoryless_hardware": false},
+  "direction": "observed_to_native",
+  "ownership": {"gu_native_effect": "none", "randomization_clocks_loss_model_and_systematic_bounds_imported": true},
+  "release_test": {"drifted_within_residuals_zero": true, "exact_two_drift_entries": true, "fixed_within_residuals_zero": true, "planted_cross_block_drift_detected": true, "protected_status_unchanged": true},
+  "result_id": "K1228-BLOCK-INTERLEAVING-DRIFT-CONTROLS",
+  "schema_version": "1.0",
+  "scope": "Randomized blocks of paired axial process trials and Bell trials under one nominal channel configuration.",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {"bell_remote_marginal": "sum_x p(x,y|a,b)=1/2 in the ideal Phi+ one-arm-channel model", "cross_block_drift": "Delta t=h_b-h_ref and Delta M=d_b-d_ref", "loss_rule": "score no-signalling and holdout probabilities only with a predeclared inclusion rule and raw attempt counts", "six_consistency_residuals": "h_ij-h_i0 for i=1..3 and j=1,2", "within_block_transfer": "d_ij=[y_i(+e_j)-y_i(-e_j)]/2=M_ij", "within_block_translation": "h_ij=[y_i(+e_j)+y_i(-e_j)]/2=t_i for every j"}
+}

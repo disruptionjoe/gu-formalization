@@ -1,0 +1,25 @@
+{
+  "claim_ceiling": "Typed apparatus flight card only; no hardware instance, data, channel estimate, Born derivation, GU prediction or confirmation.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "common_owner": {
+    "bell_branch": {"channel_location": "first Bell arm before analyzer choice", "preparation": "Phi+ with source identifier and fidelity interval", "raw_record": "attempt, settings, two outcomes, two timestamps, herald and inclusion bits"},
+    "blinding": "holdout settings, counts and decision threshold sealed before calibration fit",
+    "calibration_branch": {"effects": ["X", "Y", "Z"], "preparations": ["+X", "-X", "+Y", "-Y", "+Z", "-Z"], "raw_record": "attempt, preparation, effect, outcome, timestamp, herald and inclusion bit"},
+    "identity_keys": ["channel_device_id", "channel_configuration_hash", "basis_map_id", "calibration_epoch", "clock_epoch"],
+    "locality": ["setting generators recorded independently", "choice and detection windows spacelike when claimed", "remote marginal invariance scored on raw included trials"],
+    "pairing": "qubit density operators and binary effects with p=Tr(rho E)",
+    "randomization": "calibration and Bell trial types interleaved by a sealed schedule",
+    "systematics": ["preparation and measurement calibration", "basis registration", "channel drift and memory", "source impurity", "loss and postselection", "detector efficiency and dark counts", "timing and setting leakage"]
+  },
+  "created": "2026-10-06",
+  "decision": {"paper_protocol_is_empirical_evidence": false, "physical_owner_instantiated": false, "protocol_schema_constructed": true, "same_channel_assertion_requires_records": true},
+  "direction": "observed_to_native",
+  "instance_required": ["hardware identifiers", "immutable schedule digest", "raw event records", "SPAM calibration evidence", "channel stability evidence", "loss/inclusion rule", "count budget", "systematic error budget", "sealed holdout digest"],
+  "ownership": {"all_operational_primitives_imported": true, "gu_native_effect": "none"},
+  "release_test": {"both_branches_present": true, "identity_keys_shared": true, "locality_and_systematics_explicit": true, "protected_status_unchanged": true, "randomization_and_blinding_required": true, "raw_records_required": true},
+  "result_id": "K1226-COMMON-OWNER-FLIGHT-CARD",
+  "schema_version": "1.0",
+  "scope": "A preregistered operational schema joining one fixed qubit-channel module to axial process-calibration and Bell-coincidence branches.",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

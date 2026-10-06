@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: e2a0c3b6916a24f90cff99b0945116978dfe5013
+revision_basis: 2b8fe0bbb62adc58f2003d2038f0b903e2cb1eb1
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,26 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1226--K1230 turn K1225's physical-owner debt into an executable
+    common-channel flight card and a sealed holdout while proving why the
+    schema is not yet an apparatus instance. One identity-bound, randomized
+    channel module must connect six paired axial preparations and three Pauli
+    effects to a `Phi+` Bell branch, with shared device/configuration, basis,
+    calibration and clock identifiers plus raw event records, blinded
+    scheduling, locality, loss and systematic controls. A simultaneous
+    physical `SO(3)` rotation of states, effects and channel coordinates leaves
+    all eighteen nominal calibration probabilities invariant while changing
+    `M` and `t`, so the twelve-statistic affine optimum does not
+    self-authenticate SPAM or the physical frame. Six within-block translation
+    residuals and cross-block `Delta M,Delta t` detect named inconsistencies
+    but zero values do not prove memoryless hardware. The off-axis Bell pair
+    `a=(3/5,0,4/5)`, `b=(0,4/5,3/5)` is now preregistered; for K1223's exact
+    control its four probabilities are `1349/6500`, `1151/6500`, `1901/6500`
+    and `2099/6500`, scored without refitting against a predeclared count and
+    systematics bound. The holdout is not yet scored, no apparatus is
+    instantiated, delayed-choice entanglement swapping stays reserved, and no
+    protected status moves.
+
     K1221--K1225 remove unitality from the Bell/optimized-CHSH calibration
     theorem for qubit channels and make the remaining process-frame demand
     exact. Every trace-preserving qubit CPTP map has affine Bloch form

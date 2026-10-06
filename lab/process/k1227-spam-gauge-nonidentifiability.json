@@ -1,0 +1,26 @@
+{
+  "claim_ceiling": "Exact SO(3) SPAM-frame nonidentifiability inside a physical qubit-channel family; no claim about arbitrary gauge transforms, hardware data or GU.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "control": {
+    "M": [["1/2", "0", "0"], ["0", "1/2", "0"], ["0", "0", "1/4"]],
+    "M_prime": [["17/50", "0", "-3/25"], ["0", "1/2", "0"], ["-3/25", "0", "41/100"]],
+    "R": [["3/5", "0", "4/5"], ["0", "1", "0"], ["-4/5", "0", "3/5"]],
+    "both_channels_cptp": "same generalized-amplitude-damping channel under a unitary basis rotation",
+    "distinct_channel_coordinates": true,
+    "probability_checks": 18,
+    "probability_equalities": 18,
+    "t": ["0", "0", "1/4"],
+    "t_prime": ["1/5", "0", "3/20"]
+  },
+  "created": "2026-10-06",
+  "decision": {"independent_spam_or_self_consistent_gate_set_required": true, "optimized_chsh_basis_invariant_under_this_rotation": true, "twelve_nominal_statistics_self_authenticate": false},
+  "direction": "observed_to_native",
+  "ownership": {"gu_native_effect": "none", "spam_basis_and_channel_identity_imported": true},
+  "release_test": {"all_probability_equalities": true, "coordinates_change": true, "physical_rotation": true, "protected_status_unchanged": true},
+  "result_id": "K1227-SPAM-GAUGE-NONIDENTIFIABILITY",
+  "schema_version": "1.0",
+  "scope": "Simultaneous physical SO(3) frame rotation of preparations, effects and a generalized-amplitude-damping channel.",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {"consequence": "raw nominal probabilities cannot authenticate the physical preparation/effect frame or channel coordinates without independent SPAM and basis ownership", "gauge_action": "r'=Rr, e'=Re, M'=RMR^T, t'=Rt", "invariance": "e'^T(M'r'+t')=e^T(Mr+t)", "probability_coordinate": "y=e^T(Mr+t)"}
+}

@@ -4,6 +4,23 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1226--K1230 common-channel owner and holdout boundary
+
+- K1226 types the common channel/calibration/Bell apparatus flight card
+  (`12/12`; `9/9`).
+- K1227 proves 18 exact probability equalities under a physical SPAM-frame
+  gauge that changes `M,t` (`11/11`; `9/9`).
+- K1228 supplies within-block consistency and cross-block planted-drift
+  controls (`12/12`; `10/10`).
+- K1229 preregisters a normalized off-frame Bell four-outcome holdout and
+  no-refit score (`12/12`; `10/10`).
+- K1230 integrates the schema/instance and confirmation boundaries
+  (`11/11`; `10/10`).
+
+The five producers pass `58/58` controls and the probes reject `48/48` hostile
+mutations. They do not instantiate apparatus, supply data, score the holdout,
+consume delayed-choice entanglement swapping or move protected status.
+
 ## K1221--K1225 affine qubit-channel process-frame boundary
 
 - K1221 derives the general affine Bell-Choi state and proves translation is

@@ -1,0 +1,17 @@
+{
+  "claim_ceiling": "Exact operational owner schema, physical frame-gauge boundary, drift witnesses and unscored holdout preregistration; no apparatus instance, empirical result, GU derivation, prediction or confirmation.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "created": "2026-10-06",
+  "decision": {"calibration_or_holdout_earns_gu_confirmation": false, "holdout_predeclared": true, "holdout_scored": false, "instantiated_physical_owner_present": false, "nominal_tomography_alone_establishes_owner": false, "typed_common_owner_schema_constructed": true},
+  "direction": "observed_to_native",
+  "integration": {"delayed_choice_entanglement_swapping": "distinct reserved unscored family", "holdout": "off-frame Bell four-outcome table sealed before fit and scored without refitting", "owner_schema": "one identity-bound randomized channel module connects axial calibration and Bell branches", "spam_boundary": "at least a physical SO(3) frame gauge leaves every nominal calibration probability invariant", "stability_boundary": "within-block six-relation and cross-block affine residuals are necessary observable controls, not complete hardware proofs"},
+  "next_condition": "Instantiate the K1226 flight card with hardware IDs, immutable randomized schedule, independent SPAM or self-consistent gate-set evidence, raw calibration and Bell event records, drift/loss/locality bounds, sealed count budget and systematics; then unseal and score K1229 without refitting. Preserve delayed-choice entanglement swapping as a separate unscored family.",
+  "ownership": {"all_quantum_and_apparatus_primitives_imported": true, "gu_native_effect": "none", "prediction_or_confirmation": false},
+  "protected_disposition": "SC-ACT-01/02/06 remain ASSERTS; SC-META-53 remains UNCERTAIN; LT-SM8/LT-GR6b/RA-F1/AC-F1 remain NEEDS",
+  "release_test": {"delayed_choice_reserved": true, "drift_controls_retained": true, "flight_card_retained": true, "holdout_sealed_and_unscored": true, "protected_status_unchanged": true, "schema_instance_boundary_explicit": true, "spam_gauge_retained": true},
+  "result_id": "K1230-COMMON-OWNER-HOLDOUT-BOUNDARY",
+  "schema_version": "1.0",
+  "scope": "Integration of K1226--K1229 with the K1221--K1225 affine calibration boundary.",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

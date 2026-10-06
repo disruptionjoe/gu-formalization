@@ -7,6 +7,21 @@ updated_at: "2026-10-06"
 
 # Next Steps For Contributors
 
+> **2026-10-06 K1226--K1230 COMMON-CHANNEL OWNER AND HOLDOUT BOUNDARY.** A
+> typed flight card now binds one randomized channel module to the paired
+> axial process frame and a `Phi+` Bell branch through shared hardware,
+> configuration, basis, calibration and clock identities. It requires raw
+> events, blinded scheduling, independent SPAM or self-consistent gate-set
+> evidence, drift/memory, loss, locality and systematic bounds. A physical
+> `SO(3)` SPAM-frame rotation leaves all eighteen nominal calibration
+> probabilities unchanged while changing `M,t`, so twelve statistics do not
+> self-authenticate their owner. Within-block and cross-block residuals supply
+> necessary drift controls. An off-axis Bell coincidence table is sealed with
+> an exact no-refit score; it is not yet empirical evidence. Next instantiate
+> the flight card, freeze the count/systematics budget, unseal and score K1229.
+> Keep delayed-choice entanglement swapping separate and unscored; award no
+> GU-native, prediction, confirmation or protected-verdict credit.
+
 > **2026-10-06 K1221--K1225 AFFINE QUBIT-CHANNEL PROCESS-FRAME BOUNDARY.**
 > Every qubit CPTP map has affine Bloch form `r -> M r+t`. On one half of
 > `Phi+`, `t` appears only in the first local marginal while the Bell
