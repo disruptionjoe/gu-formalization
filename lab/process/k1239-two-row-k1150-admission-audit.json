@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1239-TWO-ROW-K1150-ADMISSION-AUDIT",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "direction": "observed_to_native",
+  "candidate": "all-commutator plus three times selected Shiab row",
+  "k1145_pass_count": "0/7",
+  "k1150_pass_count": "0/7",
+  "failed_obligations": ["source_action_owner", "causal_rank_and_negative_capture", "propagation", "energy_descent", "cochain", "positive_nonzero_cohomology", "common_closed_domain", "causal_algebraic_packet", "common_graph_domain", "closed_gauge_range", "uniform_positive_gap", "maximal_generator", "boundary_trace_compatibility"],
+  "propagation_defect": 13,
+  "protected_status": {"SC-ACT-01": "ASSERTS", "SC-ACT-02": "ASSERTS", "SC-ACT-06": "ASSERTS", "SC-META-53": "UNCERTAIN", "LT-SM8": "NEEDS", "LT-GR6b": "NEEDS", "RA-F1": "NEEDS", "AC-F1": "NEEDS"},
+  "claim_ceiling": "Exact failure of the current candidate against existing admission compilers; not a global no-go for alternative Shiabs or changed parents."
+}

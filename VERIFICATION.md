@@ -7,6 +7,21 @@ updated_at: "2026-10-06"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1236--K1240 two-row Shiab causal-tradeoff boundary (2026-10-06)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The displayed all-commutator Shiab row has full-carrier causal ranks `122878/122878/114688` | K1236 exact census over 56 nonnull and 49 null signature types; producer `9/9`; hostile mutations `8/8` | exact source-grammar row census; no preferred member or action |
+| A bounded rational two-row screen contains a uniform rank-improving member | K1237 five exact ratios; `r=3` distortion gains `156/156/132`; `6/6`; `11/11` | exact five-point classification, not a projective optimum |
+| Metric coupling preserves the uniform gain but not propagation or cross-null regularity | K1238 coupled ranks `131070/131070/122880`, radicals `98316/98316/106506`, propagation defect 13; `7/7`; `10/10` | exact finite-symbol tradeoff; no domain/Green result |
+| The candidate fails current cohomological and functional admission | K1239 audits all K1145/K1150 rows, with pass counts `0/7` and `0/7`; `8/8`; `8/8` | exact rejection of this candidate packet, not all alternative Shiabs |
+| The honest effect is rank improvement without admission | K1240 integrated boundary; `6/6`; `8/8` | conditional candidate retention only; no GU action or protected-status movement |
+
+Five producers pass `36/36` declared controls and five probes reject `45/45`
+hostile mutations. The source displays the constituent rows but selects neither
+their ratio nor a scalar action parent. The `8190` cross-null radical jump and
+all K1150 ownership/domain obligations remain open.
+
 ## K1231--K1235 Bell source-state identifiability boundary (2026-10-06)
 
 | Claim | Evidence | Honest grade |

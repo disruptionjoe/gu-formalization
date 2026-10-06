@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1240-TWO-ROW-SHIAB-BOUNDARY",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "direction": "observed_to_native",
+  "scientific_effect": "UNIFORM_CAUSAL_RANK_IMPROVEMENT_WITHOUT_ADMISSION",
+  "exact_coupled_rank_gain": {"timelike": 158, "spacelike": 158, "null": 132},
+  "cross_null_radical_jump": 8190,
+  "k1150_pass_count": "0/7",
+  "source_action_owner": false,
+  "next_condition": "Supply one source-selected/action-owned Shiab or changed stationary parent and jointly derive Q, d, gauge map, Hessian, common domain/Green or generator data, and boundary packet on every causal stratum; alternatively supply a genuinely new source-owned map.",
+  "protected_status_effect": "none",
+  "claim_ceiling": "Conditional candidate retention only; no GU action, physical prediction, confirmation, canon, paper or public-posture effect."
+}

@@ -7,6 +7,21 @@ updated_at: "2026-10-06"
 
 # Next Steps For Contributors
 
+> **2026-10-06 K1236--K1240 TWO-ROW SHIAB CAUSAL-TRADEOFF BOUNDARY.** The
+> source-displayed all-commutator row has exact causal Euler ranks
+> `122878/122878/114688`. A bounded exact screen of
+> `Shiab_all-comm+r Shiab_selected` finds `r=3` improves the selected
+> distortion ranks by `156/156/132`; recomputed metric coupling gives ranks
+> `131070/131070/122880`, gains `158/158/132`. The candidate retains the
+> `8190` cross-null radical jump, leaves thirteen normal-null directions
+> outside the tangential kernel, and passes zero of seven K1145 and zero of
+> seven K1150 tests. The source displays both rows but does not select their
+> ratio or an action parent. Next supply a source-selected/action-owned Shiab
+> or changed stationary parent with jointly derived `Q`, `d`, gauge, Hessian,
+> domain/Green or generator and boundary data on every causal stratum, or a
+> genuinely new source-owned map. Award no GU-action or protected-status
+> credit.
+
 > **2026-10-06 K1231--K1235 BELL SOURCE-STATE IDENTIFIABILITY BOUNDARY.**
 > K1229's `Phi+` table is a valid conditional specialization, but the eighteen
 > affine-process reads do not identify its source-state premises. For general

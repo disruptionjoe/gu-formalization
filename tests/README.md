@@ -4,6 +4,38 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1236--K1240 two-row Shiab causal-tradeoff boundary
+
+- K1236 computes the all-commutator Shiab row on every full-carrier causal
+  signature type (`9/9`; `8/8`).
+- K1237 classifies five exact rational members of the two-row pencil and finds
+  the uniform `r=3` distortion-rank gain (`6/6`; `11/11`).
+- K1238 recomputes the metric coupling, causal radicals and normal/tangential
+  propagation intersection (`7/7`; `10/10`).
+- K1239 audits every K1145 and K1150 admission row and records zero passes in
+  both seven-row compilers (`8/8`; `8/8`).
+- K1240 integrates the honest rank-improvement-without-admission boundary
+  (`6/6`; `8/8`).
+
+The five producers pass `36/36` controls and the probes reject `45/45` hostile
+mutations. The packet does not source-select the pencil ratio, supply an action
+or domain packet, repair the cross-null jump, or move protected status.
+
+Run directly:
+
+```bash
+python3 tests/channel-swings/k1236_all_comm_shiab_all_grade_census.py
+python3 tests/channel-swings/k1236_all_comm_shiab_all_grade_census_probe.py
+python3 tests/channel-swings/k1237_two_row_shiab_pencil_classification.py
+python3 tests/channel-swings/k1237_two_row_shiab_pencil_classification_probe.py
+python3 tests/channel-swings/k1238_two_row_coupled_dn_causal_tradeoff.py
+python3 tests/channel-swings/k1238_two_row_coupled_dn_causal_tradeoff_probe.py
+python3 tests/channel-swings/k1239_two_row_k1150_admission_audit.py
+python3 tests/channel-swings/k1239_two_row_k1150_admission_audit_probe.py
+python3 tests/channel-swings/k1240_two_row_shiab_boundary.py
+python3 tests/channel-swings/k1240_two_row_shiab_boundary_probe.py
+```
+
 ## K1231--K1235 Bell source-state identifiability boundary
 
 - K1231 derives the general two-qubit Bloch transformation under a local

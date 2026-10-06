@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1237-TWO-ROW-SHIAB-PENCIL-CLASSIFICATION",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "direction": "observed_to_native",
+  "source_route": "SOURCE_NATIVE_ROUTE_GRAMMAR_ONLY",
+  "scope": "Bounded exact rational screen of all-commutator plus selected Shiab rows.",
+  "pencil": "Shiab_all_comm + r Shiab_comm_symi_symi",
+  "screen": {
+    "-1": {"nonnull_rank": 40954, "null_rank": 40954},
+    "-1/2": {"nonnull_rank": 131068, "null_rank": 122878},
+    "1": {"nonnull_rank": 131068, "null_rank": 121888},
+    "2": {"nonnull_rank": 131068, "null_rank": 122438},
+    "3": {"nonnull_rank": 131068, "null_rank": 122878}
+  },
+  "ratio_three_distortion_gain_over_selected": {"timelike": 156, "spacelike": 156, "null": 132},
+  "ownership": {"source_displays_both_rows": true, "source_selects_ratio_three": false, "action_owner_present": false},
+  "claim_ceiling": "Five-point exact classification, not a projective optimum or source-selection theorem."
+}

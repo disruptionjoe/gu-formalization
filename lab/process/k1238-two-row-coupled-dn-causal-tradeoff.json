@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1238-TWO-ROW-COUPLED-DN-CAUSAL-TRADEOFF",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "direction": "observed_to_native",
+  "candidate_ratio": 3,
+  "metric_row_ranks": {"timelike": 6, "spacelike": 6, "null": 4},
+  "coupled_ranks": {"timelike": 131070, "spacelike": 131070, "null": 122880},
+  "coupled_radicals": {"timelike": 98316, "spacelike": 98316, "null": 106506},
+  "coupled_gain_over_selected": {"timelike": 158, "spacelike": 158, "null": 132},
+  "null_radical_jump": 8190,
+  "propagation": {"normal_rank": 32, "normal_radical": 24, "normal_null_also_tangential_null": 11, "defect": 13},
+  "claim_ceiling": "Uniform exact causal rank gain with unchanged cross-null jump and failed propagation; no action or domain packet."
+}

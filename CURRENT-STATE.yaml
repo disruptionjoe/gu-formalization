@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 9a236cd8c50c59e783902b0d7d15573b43410472
+revision_basis: 9b14000a0eab2eb9d696abc90cb48a4d56a3dce3
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,27 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1236--K1240 test the simplest real two-row Shiab pencil still inside the
+    released source grammar. The all-commutator row has exact causal Euler
+    ranks `122878/122878/114688`. In the bounded rational pencil
+    `Shiab_all-comm+r Shiab_selected`, `r=3` improves the selected distortion
+    ranks by `156/156/132`; after recomputing the metric-curvature coupling,
+    the coupled ranks are `131070/131070/122880`, uniform gains
+    `158/158/132`. The improvement does not repair the `8190` cross-null
+    radical jump. Only eleven of twenty-four normal-null directions remain
+    tangential-null, and the candidate passes zero of seven K1145 and zero of
+    seven K1150 tests. The source displays the two rows but selects neither
+    their ratio nor a scalar action parent. This is a repository-constructed
+    conditional candidate, not a GU action, and no protected status moves.
+
+    K1231--K1235 prove that the K1229 `Phi+` Bell table is not determined by
+    the common affine channel. A general two-qubit source contributes fifteen
+    independent Bloch coordinates, and a fixed binary analyzer pair requires
+    three separately certified source-sensitive scalars `A,B,C`. Full joint
+    channel/source linear identification has floor 27; the selected holdout
+    has floor 15. K1229 remains valid under its stated premise, but unseal
+    requires independent source characterization disjoint from the holdout.
+
     K1226--K1230 turn K1225's physical-owner debt into an executable
     common-channel flight card and a sealed holdout while proving why the
     schema is not yet an apparatus instance. One identity-bound, randomized
@@ -13876,6 +13897,15 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1236--K1240 find a repository-constructed `r=3` two-row Shiab candidate
+  with uniform exact causal rank gains, but the cross-null radical jump,
+  propagation defect, source/action ownership and every K1150 gate remain
+  open. Which source-selected/action-owned Shiab or changed stationary parent
+  now supplies jointly derived `Q`, `d`, gauge map, Hessian, common
+  domain/Green or generator data, and boundary packet on every causal stratum?
+  Do not promote the five-point pencil screen to a projective optimum or infer
+  action ownership from the source-displayed row grammar.
+
   K1231--K1235 prove that K1229's Bell table is not determined by the common
   affine channel alone. For a general two-qubit source `(u,v,T)`, a local
   channel gives `u'=M u+t`, `v'=v`, `T'=M T+t v^T`, so one binary analyzer
@@ -15783,6 +15813,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1236--K1240's exact improvement and admission boundary. The
+  ratio-three two-row candidate improves the selected coupled ranks by
+  `158/158/132` but retains an `8190` cross-null radical jump, a propagation
+  defect of thirteen and zero of seven K1150 passes. Advance only with a
+  source-selected/action-owned Shiab or changed stationary parent whose `Q`,
+  `d`, gauge map, Hessian, common domain/Green or generator data and boundary
+  packet are derived together on all causal strata; alternatively supply a
+  genuinely new source-owned map. Do not treat the bounded rational screen as
+  an optimum or the displayed Shiab grammar as source selection.
+
   Preserve K1231--K1235's channel/source identifiability boundary. A general
   source contributes fifteen Bloch coordinates independently of the twelve
   affine-channel coordinates; the eighteen process reads have zero Jacobian

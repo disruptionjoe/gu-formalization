@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1236-ALL-COMM-SHIAB-ALL-GRADE-CENSUS",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "direction": "observed_to_native",
+  "source_route": "SOURCE_NATIVE_ROUTE_GRAMMAR_ONLY",
+  "scope": "Exact full-carrier causal census for the source-displayed all-commutator Shiab row.",
+  "carrier_dimension": 229376,
+  "euler_ranks": {"timelike": 122878, "spacelike": 122878, "null": 114688},
+  "radicals": {"timelike": 106498, "spacelike": 106498, "null": 114688},
+  "null_radical_jump": 8190,
+  "grade_edges": [[1, 2], [3, 4], [5, 6], [7, 8], [9, 10], [11, 12], [13, 14]],
+  "coverage": {"nonnull_signature_types": 56, "null_signature_types": 49},
+  "claim_ceiling": "Exact row census inside displayed grammar; no preferred source member, scalar action, gauge completion or functional admission."
+}
