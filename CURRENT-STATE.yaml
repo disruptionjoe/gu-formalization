@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 50ede7e4193b6a61ded43a45bc092325cad85593
+revision_basis: ba3146430feb5da825c46c6ffeeb0911c7351918
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,27 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1211--K1215 generalize the quantum-anchor visibility/Bell relation from
+    K1004's one-parameter dephasing horn and K1009's two-parameter
+    common-contrast model to every unital Pauli-diagonal qubit channel. The
+    four Pauli probabilities give the exact complete-positivity tetrahedron,
+    while a Bell-Choi output has correlation tensor
+    `diag(lambda_x,-lambda_y,lambda_z)`. At fixed one-axis fringe visibility
+    `V=lambda_x`, the optimized CHSH value has the sharp interval
+    `2V <= S_max <= 2 sqrt(1+V^2)`. The lower channel `diag(V,0,0)` and upper
+    channel `diag(V,V,1)` attain both endpoints. At `V=2/5` they have
+    `S_max^2/4=4/25` and `29/25`, so the same visibility can be Bell-local or
+    Bell-violating. Two signed axes leave
+    `|lambda_x+lambda_y|-1 <= lambda_z <= 1-|lambda_x-lambda_y|`; the exact
+    `(4/5,3/5)` control ranges from the classical boundary `1` to `32/25`.
+    Three transfer magnitudes identify optimized CHSH only inside the imported
+    Pauli/Bell/Born class, while three signed axes identify the full diagonal
+    channel inside that class. Apparatus ownership, common-axis transport,
+    the state/effect pairing, locality and GU ownership remain absent. The
+    calibration anchors earn no prediction or confirmation credit, and the
+    delayed-choice entanglement-swapping holdout remains unscored. No protected
+    status moves.
+
     K1206--K1210 sharpen the post-K1190 changed-parent frontier without
     promoting an auxiliary map. The selected K132 joint kernels have
     dimensions `98312/98312/98315`, while the actual native T=0 distortion
@@ -13801,6 +13822,16 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1211--K1215 prove that one-axis fringe visibility is a nonidentifying
+  projection of a general Pauli-diagonal channel: at fixed `V`, optimized
+  CHSH spans the sharp interval `2V` through `2 sqrt(1+V^2)`. Two signed axes
+  still leave an exact complete-positivity interval for the third coefficient.
+  Which typed physical owner supplies the common channel, axes, state/effect
+  pairing and apparatus, or which broader non-Pauli channel class preserves a
+  rigorous calibration law? Preserve delayed-choice entanglement swapping as
+  the distinct unscored holdout; do not treat calibration-anchor reuse as
+  prediction or confirmation.
+
   K1206--K1210 prove that known gauge/KT/BFV candidates do not pay the K132
   joint-kernel debt, that the full unchanged-J changed-parent restriction
   costs `98308/98308/98311` rather than K1189's auxiliary `8191`, and that the
@@ -15684,6 +15715,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1211--K1215's identifiability boundary. One visibility supplies
+  only the sharp CHSH envelope; two signed transfer axes generally leave the
+  third-axis CP interval; three magnitudes identify optimized CHSH only after
+  independently validating a common unital Pauli-diagonal channel and aligned
+  apparatus axes. Construct a typed owner for those objects or extend the
+  theorem to a broader channel class. Do not generalize K1004's dephasing-horn
+  equality, retract K1009's separate common-contrast model, score the
+  calibration anchors, or consume the delayed-choice holdout.
+
   Preserve K1206--K1210's custody and functional boundary. Ordinary known
   gauge/KT/BFV data do not close the current K132 joint kernel, K1189's
   rank-`8191` auxiliary radial cost is not the global changed-parent budget,

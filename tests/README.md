@@ -4,6 +4,24 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1211--K1215 Pauli-channel visibility/Bell identifiability envelope
+
+- K1211 derives the exact Pauli CP tetrahedron and Bell-output correlation
+  tensor (`10/10`; `8/8`).
+- K1212 proves the sharp fixed-visibility optimized-CHSH interval
+  `2V <= S_max <= 2 sqrt(1+V^2)` (`9/9`; `8/8`).
+- K1213 gives exact same-visibility Bell-local and Bell-violating channels at
+  `V=2/5` (`9/9`; `8/8`).
+- K1214 derives the two-axis residual third-coefficient interval and an exact
+  score separator (`9/9`; `8/8`).
+- K1215 integrates the minimal calibration and held-out boundary without
+  promoting physical ownership (`12/12`; `11/11`).
+
+The five producers pass `49/49` controls and the probes reject `43/43` hostile
+mutations. They do not generalize K1004 beyond its dephasing horn, retract
+K1009, score the calibration anchors, consume the delayed-choice holdout or
+move any protected status.
+
 ## K1206--K1210 changed-parent custody and pointwise-control boundary
 
 - K1206 compiles the native and separate-parent gauge/KT/BFV custody ceiling

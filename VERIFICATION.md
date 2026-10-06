@@ -7,6 +7,22 @@ updated_at: "2026-10-06"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1211--K1215 Pauli-channel visibility/Bell identifiability envelope (2026-10-06)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A Pauli-diagonal channel is CP exactly on the four-probability tetrahedron, and its Bell output has correlation tensor `diag(lambda_x,-lambda_y,lambda_z)` | K1211 exact parameterization and Bell map; producer `10/10`; hostile mutations `8/8` | exact imported finite-dimensional theorem; no GU channel or Born owner |
+| Fixed one-axis visibility has sharp optimized-CHSH range `2V` to `2 sqrt(1+V^2)` | K1212 CP inequalities and explicit endpoint channels; `9/9`; `8/8` | exact conditional envelope; no cross-experiment identification |
+| The same `V=2/5` can be Bell-local or Bell-violating | K1213 exact CP channels with score squares `4/25` and `29/25`; `9/9`; `8/8` | exact counterexample to visibility-only inference |
+| Two signed axes generally leave a third-axis interval and unresolved Bell score | K1214 interval theorem and `(4/5,3/5)` endpoint scores `1` and `32/25`; `9/9`; `8/8` | exact conditional residual-identifiability theorem |
+| Full transfer data close only the frozen Pauli score, not the physical ownership or held-out problem | K1215 integration and ownership firewall; `12/12`; `11/11` | exact calibration boundary; no prediction or confirmation |
+
+Five producers pass `49/49` declared controls and five probes reject `43/43`
+hostile mutations. The Pauli class, Bell state, trace/Born pairing, channel
+axes, locality and apparatus are imported. Delayed-choice entanglement
+swapping remains unscored. No source, ledger, canon, paper, public posture,
+prediction, confirmation or protected verdict moves.
+
 ## K1206--K1210 changed-parent custody and pointwise-control boundary (2026-10-06)
 
 | Claim | Evidence | Honest grade |

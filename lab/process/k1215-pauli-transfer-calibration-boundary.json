@@ -1,0 +1,47 @@
+{
+  "claim_ceiling": "Exact branch-relative calibration boundary for imported finite Pauli/Bell controls; no GU state, channel, Born rule, locality theorem, empirical score, prediction, confirmation or verdict.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "created": "2026-10-06",
+  "decision": {
+    "calibration_anchor_earns_confirmation": false,
+    "cross_benchmark_information_gain": "one-axis visibility is a nonidentifying projection; three-axis transfer data close only the imported finite Pauli score",
+    "full_transfer_is_gu_derived": false,
+    "visibility_only_prediction_allowed": false
+  },
+  "direction": "observed_to_native",
+  "identifiability": {
+    "class_validation": "unital trace-preserving Pauli diagonality and common apparatus-axis transport remain independent obligations",
+    "one_axis": "sharp score interval only",
+    "three_axis_magnitudes": "identify optimized CHSH inside the frozen Pauli-diagonal Bell-output class",
+    "three_signed_axes": "identify the Pauli probabilities and the full diagonal channel inside that class",
+    "two_signed_axes": "CP interval for the third coefficient; score generally remains nonidentified"
+  },
+  "next_condition": "Construct a typed owner for the state/effect pairing and channel axes, or validate a broader non-Pauli channel class; preserve delayed-choice entanglement swapping as the distinct held-out family.",
+  "ownership": {
+    "gu_native_effect": "none",
+    "prediction_or_confirmation": false,
+    "state_born_channel_axes_locality_and_apparatus_imported": true
+  },
+  "protected_disposition": "SC-ACT-01/02/06 remain ASSERTS; SC-META-53 remains UNCERTAIN; LT-SM8/LT-GR6b/RA-F1/AC-F1 remain NEEDS",
+  "relation_to_prior": {
+    "K1004": "recovered only on the dephasing horn diag(V,V,1)",
+    "K1009": "retained as a distinct two-parameter common-contrast model with <ZZ> calibration",
+    "delayed_choice_entanglement_swapping": "remains a distinct unscored held-out family"
+  },
+  "release_test": {
+    "holdout_unscored": true,
+    "k1004_not_generalized": true,
+    "k1009_not_retracted": true,
+    "one_axis_nonidentifying": true,
+    "pauli_class_validation_external": true,
+    "protected_status_unchanged": true,
+    "signed_transfer_channel_identifying_inside_class": true,
+    "three_magnitudes_score_identifying": true,
+    "two_axis_residual_retained": true
+  },
+  "result_id": "K1215-PAULI-TRANSFER-CALIBRATION-BOUNDARY",
+  "schema_version": "1.0",
+  "scope": "Integration of K1211--K1214 into the reverse-scaffold quantum-anchor calibration boundary.",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

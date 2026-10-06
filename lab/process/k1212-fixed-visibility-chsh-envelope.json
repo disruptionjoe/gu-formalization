@@ -1,0 +1,105 @@
+{
+  "claim_ceiling": "Sharp conditional score envelope in an imported Pauli/Bell/Born class; no cross-experiment equality, GU owner or empirical score.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "controls": [
+    {
+      "high_S_squared_over_4": "1",
+      "high_cp": true,
+      "high_lambda": [
+        "0",
+        "0",
+        "1"
+      ],
+      "low_S_squared_over_4": "0",
+      "low_cp": true,
+      "low_lambda": [
+        "0",
+        "0",
+        "0"
+      ],
+      "visibility": "0"
+    },
+    {
+      "high_S_squared_over_4": "26/25",
+      "high_cp": true,
+      "high_lambda": [
+        "1/5",
+        "1/5",
+        "1"
+      ],
+      "low_S_squared_over_4": "1/25",
+      "low_cp": true,
+      "low_lambda": [
+        "1/5",
+        "0",
+        "0"
+      ],
+      "visibility": "1/5"
+    },
+    {
+      "high_S_squared_over_4": "29/25",
+      "high_cp": true,
+      "high_lambda": [
+        "2/5",
+        "2/5",
+        "1"
+      ],
+      "low_S_squared_over_4": "4/25",
+      "low_cp": true,
+      "low_lambda": [
+        "2/5",
+        "0",
+        "0"
+      ],
+      "visibility": "2/5"
+    },
+    {
+      "high_S_squared_over_4": "2",
+      "high_cp": true,
+      "high_lambda": [
+        "1",
+        "1",
+        "1"
+      ],
+      "low_S_squared_over_4": "1",
+      "low_cp": true,
+      "low_lambda": [
+        "1",
+        "0",
+        "0"
+      ],
+      "visibility": "1"
+    }
+  ],
+  "created": "2026-10-06",
+  "decision": {
+    "bounds_are_sharp": true,
+    "every_positive_visibility_forces_violation": false,
+    "one_axis_visibility_identifies_optimized_chsh": false
+  },
+  "direction": "observed_to_native",
+  "ownership": {
+    "gu_prediction": false,
+    "pauli_class_and_common_axis_identification_imported": true
+  },
+  "release_test": {
+    "both_attainers_cp": true,
+    "lower_bound_exact": true,
+    "protected_status_unchanged": true,
+    "upper_bound_exact": true,
+    "v_two_fifths_high_is_29_over_25": true,
+    "v_two_fifths_low_is_4_over_25": true
+  },
+  "result_id": "K1212-FIXED-VISIBILITY-CHSH-ENVELOPE",
+  "schema_version": "1.0",
+  "scope": "Optimized CHSH of Bell-Choi outputs across all Pauli-diagonal channels with fixed nonnegative lambda_x=V.",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "lower_attainer": "diag(V,0,0)",
+    "proof": "The Horodecki sum contains at least V^2. Pauli CP gives lambda_y^2+lambda_z^2 <= 1+V^2 and |lambda_i|<=1, so every pair sum is at most 1+V^2; the two displayed channels attain both endpoints.",
+    "range": "2 V <= S_max <= 2 sqrt(1+V^2)",
+    "squared_range": "V^2 <= S_max^2/4 <= 1+V^2",
+    "upper_attainer": "diag(V,V,1)"
+  }
+}

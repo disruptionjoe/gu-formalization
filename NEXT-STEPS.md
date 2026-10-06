@@ -7,6 +7,22 @@ updated_at: "2026-10-06"
 
 # Next Steps For Contributors
 
+> **2026-10-06 K1211--K1215 PAULI-CHANNEL VISIBILITY/BELL IDENTIFIABILITY
+> ENVELOPE.** For a unital Pauli-diagonal qubit channel, complete positivity
+> is exactly the four-probability tetrahedron and the Bell-output optimized
+> CHSH score is controlled by the two largest squared transfer coefficients.
+> Fixing one fringe visibility `V` leaves the sharp range
+> `2V <= S_max <= 2 sqrt(1+V^2)`. At `V=2/5`, the exact CP channels
+> `diag(2/5,0,0)` and `diag(2/5,2/5,1)` have `S_max^2/4=4/25` and `29/25`,
+> so visibility alone does not identify Bell violation. Two signed axes leave
+> `|lambda_x+lambda_y|-1 <= lambda_z <= 1-|lambda_x-lambda_y|`; the
+> `(4/5,3/5)` control spans score squares `1` through `32/25`. Next construct
+> a typed owner for the common channel, axes, state/effect pairing and
+> apparatus, or validate a broader non-Pauli class. K1004 remains a special
+> dephasing horn, K1009 remains a distinct common-contrast model, and delayed-
+> choice entanglement swapping remains the unscored holdout. No GU-native,
+> prediction, confirmation or protected-verdict credit follows.
+
 > **2026-10-06 K1206--K1210 CHANGED-PARENT CUSTODY AND POINTWISE-CONTROL
 > BOUNDARY.** The selected K132 joint kernels have dimensions
 > `98312/98312/98315` and only the rank-four metric diffeomorphism image is a

@@ -1,0 +1,106 @@
+{
+  "bell_output": {
+    "correlation_tensor": "diag(lambda_x,-lambda_y,lambda_z)",
+    "input": "Phi_plus",
+    "optimized_chsh": "S_max=2 sqrt(sum of the two largest values among lambda_x^2,lambda_y^2,lambda_z^2)"
+  },
+  "channel": {
+    "cp_iff": "all four Pauli probabilities are nonnegative",
+    "cp_probabilities": [
+      "(1+lambda_x+lambda_y+lambda_z)/4",
+      "(1+lambda_x-lambda_y-lambda_z)/4",
+      "(1-lambda_x+lambda_y-lambda_z)/4",
+      "(1-lambda_x-lambda_y+lambda_z)/4"
+    ],
+    "equivalent_inequalities": [
+      "1+lambda_z >= |lambda_x+lambda_y|",
+      "1-lambda_z >= |lambda_x-lambda_y|"
+    ],
+    "transfer": "E(I)=I; E(X)=lambda_x X; E(Y)=lambda_y Y; E(Z)=lambda_z Z"
+  },
+  "claim_ceiling": "Exact finite-dimensional Pauli-channel and Bell-output identities only; no GU-native channel, state, pairing, apparatus, locality theorem, prediction or confirmation.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "controls": [
+    {
+      "cp": true,
+      "lambda": [
+        "0",
+        "0",
+        "0"
+      ],
+      "probabilities": [
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4"
+      ],
+      "probability_sum": "1"
+    },
+    {
+      "cp": true,
+      "lambda": [
+        "1",
+        "1",
+        "1"
+      ],
+      "probabilities": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "probability_sum": "1"
+    },
+    {
+      "cp": true,
+      "lambda": [
+        "2/5",
+        "0",
+        "0"
+      ],
+      "probabilities": [
+        "7/20",
+        "7/20",
+        "3/20",
+        "3/20"
+      ],
+      "probability_sum": "1"
+    },
+    {
+      "cp": true,
+      "lambda": [
+        "2/5",
+        "2/5",
+        "1"
+      ],
+      "probabilities": [
+        "7/10",
+        "0",
+        "0",
+        "3/10"
+      ],
+      "probability_sum": "1"
+    }
+  ],
+  "created": "2026-10-06",
+  "direction": "observed_to_native",
+  "ownership": {
+    "channel_state_trace_pairing_and_axes_imported": true,
+    "gu_channel_or_born_rule_constructed": false,
+    "prediction_or_confirmation": false
+  },
+  "release_test": {
+    "bell_tensor_signed_y": true,
+    "dephasing_horn_cp": true,
+    "four_probability_parameterization": true,
+    "horodecki_score_uses_two_largest_squares": true,
+    "mixed_channel_cp": true,
+    "probabilities_sum_to_one": true,
+    "protected_status_unchanged": true
+  },
+  "result_id": "K1211-PAULI-CHANNEL-CP-TETRAHEDRON",
+  "schema_version": "1.0",
+  "scope": "One imported unital trace-preserving Pauli-diagonal qubit channel and its action on one half of an imported Bell state.",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

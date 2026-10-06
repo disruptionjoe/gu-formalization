@@ -1,0 +1,58 @@
+{
+  "claim_ceiling": "Exact residual-identifiability theorem for an imported signed Pauli transfer model; no physical channel identification or GU credit.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "control": {
+    "lambda_x": "4/5",
+    "lambda_y": "3/5",
+    "lambda_z_interval": [
+      "2/5",
+      "4/5"
+    ],
+    "lower_cp": true,
+    "lower_endpoint_S_squared_over_4": "1",
+    "lower_endpoint_probabilities": [
+      "7/10",
+      "1/5",
+      "1/10",
+      "0"
+    ],
+    "upper_cp": true,
+    "upper_endpoint_S_squared_over_4": "32/25",
+    "upper_endpoint_probabilities": [
+      "4/5",
+      "1/10",
+      "0",
+      "1/10"
+    ]
+  },
+  "created": "2026-10-06",
+  "decision": {
+    "same_two_axis_data_can_touch_classical_boundary_and_violate": true,
+    "third_axis_or_equivalent_calibration_needed": true,
+    "two_unsigned_fringes_identify_full_channel": false
+  },
+  "direction": "observed_to_native",
+  "ownership": {
+    "gu_apparatus_or_prediction": false,
+    "transfer_axes_and_common_channel_imported": true
+  },
+  "release_test": {
+    "both_endpoints_cp": true,
+    "interval_lower_is_2_over_5": true,
+    "interval_upper_is_4_over_5": true,
+    "lower_score_is_one": true,
+    "protected_status_unchanged": true,
+    "upper_score_is_32_over_25": true
+  },
+  "result_id": "K1214-TWO-AXIS-VISIBILITY-RESIDUAL-INTERVAL",
+  "schema_version": "1.0",
+  "scope": "Pauli complete-positivity interval and optimized-CHSH residual after signed lambda_x and lambda_y are fixed.",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "score_given_z": "S_max^2/4 is the sum of the two largest squared transfer coefficients",
+    "source": "the four Pauli probabilities",
+    "third_axis_interval": "|lambda_x+lambda_y|-1 <= lambda_z <= 1-|lambda_x-lambda_y|",
+    "two_axes_generally_sufficient": false
+  }
+}

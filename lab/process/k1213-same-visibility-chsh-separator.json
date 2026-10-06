@@ -1,0 +1,63 @@
+{
+  "claim_ceiling": "Exact counterexample to visibility-only Bell inference in the imported Pauli class; no apparatus, GU state/channel, locality theorem or empirical result.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "created": "2026-10-06",
+  "decision": {
+    "additional_channel_calibration_required": true,
+    "k1004_law_is_general_pauli_law": false,
+    "visibility_only_bell_inference_valid": false
+  },
+  "direction": "observed_to_native",
+  "high_channel": {
+    "S_squared_over_4": "29/25",
+    "cp": true,
+    "lambda": [
+      "2/5",
+      "2/5",
+      "1"
+    ],
+    "probabilities": [
+      "7/10",
+      "0",
+      "0",
+      "3/10"
+    ],
+    "violates_CHSH": true
+  },
+  "low_channel": {
+    "S_squared_over_4": "4/25",
+    "cp": true,
+    "lambda": [
+      "2/5",
+      "0",
+      "0"
+    ],
+    "probabilities": [
+      "7/20",
+      "7/20",
+      "3/20",
+      "3/20"
+    ],
+    "violates_CHSH": false
+  },
+  "ownership": {
+    "physical_shared_channel_identified": false,
+    "prediction_or_confirmation": false,
+    "separator_is_repository_control": true
+  },
+  "release_test": {
+    "high_cp": true,
+    "high_violates": true,
+    "low_cp": true,
+    "low_local": true,
+    "probabilities_normalized": true,
+    "protected_status_unchanged": true,
+    "same_x_visibility": true
+  },
+  "result_id": "K1213-SAME-VISIBILITY-CHSH-SEPARATOR",
+  "same_visibility": "2/5",
+  "schema_version": "1.0",
+  "scope": "Two explicit Pauli-diagonal channels with identical X-fringe visibility V=2/5 and different optimized CHSH dispositions.",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}
