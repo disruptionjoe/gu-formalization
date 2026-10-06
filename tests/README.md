@@ -4,6 +4,36 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1246--K1250 source-epsilon scale-selection boundary
+
+- K1246 reproduces the split-D7 dimension, rank, exponents, primitive
+  invariant degrees and regular quotient dimensions (`11/11`; `9/9`).
+- K1247 proves the weighted-homogeneous Hessian radial-null theorem
+  (`10/10`; `10/10`).
+- K1248 proves a quotient section preserves all seven invariant values
+  (`10/10`; `9/9`).
+- K1249 composes the remaining selector classes and source polarities
+  (`17/17`; `9/9`).
+- K1250 records one satisfied, three excluded and five missing admission rows
+  (`14/14`; `9/9`).
+
+The five producers pass `62/62` controls and the probes reject `46/46`
+hostile mutations. No source-selected boundary law or functional BV-BFV packet
+is supplied.
+
+```bash
+python3 tests/channel-swings/k1246_source_epsilon_invariant_weight_census.py
+python3 tests/channel-swings/k1246_source_epsilon_invariant_weight_census_probe.py
+python3 tests/channel-swings/k1247_weighted_homogeneous_selector_no_go.py
+python3 tests/channel-swings/k1247_weighted_homogeneous_selector_no_go_probe.py
+python3 tests/channel-swings/k1248_gauge_slice_no_selection.py
+python3 tests/channel-swings/k1248_gauge_slice_no_selection_probe.py
+python3 tests/channel-swings/k1249_source_boundary_escape_classification.py
+python3 tests/channel-swings/k1249_source_boundary_escape_classification_probe.py
+python3 tests/channel-swings/k1250_source_epsilon_scale_selection_boundary.py
+python3 tests/channel-swings/k1250_source_epsilon_scale_selection_boundary_probe.py
+```
+
 ## K1241--K1245 Shiab Bianchi-null correction boundary
 
 - K1241 exhausts all eight displayed product rows over every nonnull and null

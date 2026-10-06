@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1248-GAUGE-SLICE-NO-SELECTION",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-ACT-06",
+  "scope": "Any local section of the regular coadjoint quotient, including a Kostant-type representative slice.",
+  "gu_typed_objects": {
+    "carrier": "regular quotient map pi:g*_reg->B_reg with dim B_reg=7",
+    "pairing": "none required; set-theoretic and differential quotient identity",
+    "real_structure": "local split-real regular section when it exists",
+    "grading": "seven invariant quotient coordinates",
+    "action_owner": "gauge representative choice only",
+    "target": "MAP-TYPE=section of regular orbit quotient"
+  },
+  "pinned_inputs": {
+    "k946": {"path": "lab/process/k946-source-epsilon-invariant-coordinate-chart.json", "sha256": "2e003428733ae0ccd79806f36b5be7d04ae60f764a39c20a04273e4d1fcee13c"}
+  },
+  "theorem": {
+    "section_identity": "pi o s = id_B",
+    "section_jacobian_rank": 7,
+    "free_quotient_coordinates_after_section": 7,
+    "orbit_representative_selected": true,
+    "orbit_value_selected": false,
+    "gauge_transformation_changes_invariants": false,
+    "canonical_section_implies_canonical_charge": false,
+    "requires_global_section_existence": false
+  },
+  "decision": {
+    "gauge_fixing_can_replace_k949_lock": false,
+    "kostant_slice_can_replace_k949_lock": false,
+    "representative_selection_and_physical_selection_separated": true,
+    "SC_ACT_06_proved_or_refuted": false,
+    "next_exact_input": "Add an independently owned equation on the quotient coordinates; a representative slice alone leaves all seven values free."
+  },
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__AC-F1_LT-SM8_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Exact local section-versus-value-selection theorem; it neither denies section existence nor classifies non-gauge boundary dynamics.",
+  "controls": {"producer": "tests/channel-swings/k1248_gauge_slice_no_selection.py", "probe": "tests/channel-swings/k1248_gauge_slice_no_selection_probe.py", "controls_passed": 10, "hostile_mutations_rejected": 9}
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1249-SOURCE-BOUNDARY-ESCAPE-CLASSIFICATION",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-ACT-06",
+  "scope": "Minimal finite regular selection classes remaining after K949, K951--K955, K1247 and K1248.",
+  "pinned_inputs": {
+    "k949": {"path": "lab/process/k949-source-epsilon-seven-lock-boundary-contract.json", "sha256": "84908ff7e6951bdd5ddb03f55799892f200a02766b96653311d4bcc0cc384ffc"},
+    "k951": {"path": "lab/process/k951-source-epsilon-singular-scalar-isolation.json", "sha256": "5e206d40f35bc4cad24293f63b0497443234757a2f525e72cf60d48fc51777ca"},
+    "k952": {"path": "lab/process/k952-source-epsilon-principal-ideal-fat-point.json", "sha256": "89905bacc97b05db01dbbc49ea5e7d163fdec4cf3120f11a6f21338d8fa0cb2b"},
+    "k953": {"path": "lab/process/k953-source-epsilon-seven-generator-lower-bound.json", "sha256": "461099b0992ec95944b05fd1b86451f090abf9d87b4fc276009029c934556398"},
+    "k954": {"path": "lab/process/k954-source-epsilon-singular-bfv-properness-obstruction.json", "sha256": "35b390e7b535af6117e37d9890938caef3860d95c8dd8c6d833c4ede7ef2a7fa"},
+    "k955": {"path": "lab/process/k955-source-epsilon-singular-selector-disposition.json", "sha256": "6334f500d0bec0e4f4f8abbd35918b330596c0f23f057aee1fad738011ea245e"},
+    "k1247": {"path": "lab/process/k1247-weighted-homogeneous-selector-no-go.json", "sha256": "98903ce8649a2bc66b0c268dd15ce614f0ddac620dfdb485070a6db90646d182"},
+    "k1248": {"path": "lab/process/k1248-gauge-slice-no-selection.json", "sha256": "9f7a4b219a5bcf0f47acba3b55408cd18862212d293af9e8c9a2fe37792da648"},
+    "source_register": {"path": "lab/sources/source-claim-register.yaml", "sha256": "dc3ae173b4cc0eb2a0e343e3d92d5f110b8e4f6eef3e2852a1e897ab4371ade6"}
+  },
+  "classification_table": [
+    {"candidate": "regular seven-component full-rank lock", "finite_regular_selection": "sufficient", "source_owned": false, "functional_admission": false},
+    {"candidate": "singular one-scalar sum-of-squares lock", "finite_regular_selection": "wrong degree-zero algebra", "source_owned": false, "functional_admission": false},
+    {"candidate": "scale-free weighted-homogeneous invariant potential", "finite_regular_selection": "rank at most six at critical point with nonzero invariant tuple", "source_owned": false, "functional_admission": false},
+    {"candidate": "gauge or Kostant representative slice", "finite_regular_selection": "leaves seven quotient values free", "source_owned": false, "functional_admission": false},
+    {"candidate": "scale-breaking inhomogeneous invariant boundary law", "finite_regular_selection": "open if rank seven", "source_owned": false, "functional_admission": false},
+    {"candidate": "nonlocal or noncommutative boundary/Green law", "finite_regular_selection": "outside finite theorem", "source_owned": false, "functional_admission": false}
+  ],
+  "decision": {
+    "remaining_finite_regular_escape": "source-owned scale-breaking or multi-weight law with rank-seven quotient derivative",
+    "remaining_broader_escape": "source-owned nonlocal or noncommutative boundary/Green law",
+    "kappa1_alone_proved_insufficient": false,
+    "current_source_displays_required_boundary_law": false,
+    "current_source_selects_seven_invariant_values": false,
+    "functional_domain_constructed": false,
+    "SC_ACT_01_status": "ASSERTS",
+    "SC_ACT_02_status": "ASSERTS",
+    "SC_ACT_06_status": "ASSERTS",
+    "SC_META_53_status": "UNCERTAIN"
+  },
+  "source_and_ledger_effect": "SC-ACT-01_02_06_ASSERTS_UNCHANGED__SC-META-53_UNCERTAIN_UNCHANGED__AC-F1_LT-SM8_LT-GR6b_RA-F1_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Necessary-classification result only. It does not prove the listed open classes exist, belong to the source, or pass functional admission.",
+  "controls": {"producer": "tests/channel-swings/k1249_source_boundary_escape_classification.py", "probe": "tests/channel-swings/k1249_source_boundary_escape_classification_probe.py", "controls_passed": 17, "hostile_mutations_rejected": 9}
+}

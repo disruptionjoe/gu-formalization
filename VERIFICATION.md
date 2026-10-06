@@ -7,6 +7,20 @@ updated_at: "2026-10-06"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1246--K1250 source-epsilon scale-selection boundary (2026-10-06)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The regular split-D7 quotient has weights `2,4,6,7,8,10,12` | K1246 dimension/rank/exponent census; producer `11/11`; hostile mutations `9/9` | exact invariant-theory census on the finite source-epsilon charge parent |
+| A single-weight scale-free potential cannot nondegenerately select a regular point with nonzero invariant tuple | K1247 weighted Euler and differentiated identity; Hessian rank at most six; `10/10`; `10/10` | exact necessary-condition theorem; all-zero, inhomogeneous, singular and nonlocal laws remain open |
+| A gauge or Kostant slice chooses representatives but not quotient values | K1248 `pi o s=id` and rank-seven quotient Jacobian; `10/10`; `9/9` | exact local section-versus-selection theorem; no global-section claim |
+| The remaining finite regular escape requires a source-owned scale-breaking rank-seven law | K1249 six-class composition with K949 and K951--K955; `17/17`; `9/9` | exact classification of current finite routes; existence and ownership remain open |
+| Functional admission remains absent | K1250 one satisfied, three excluded and five missing rows; K1145/K1150 `0/7`; `14/14`; `9/9` | no GU ellipticity, positive physical quotient, prediction or confirmation |
+
+Five producers pass `62/62` declared controls and five probes reject `46/46`
+hostile mutations. SC-ACT-01/02/06, SC-META-53, the physics ledger and all
+protected verdicts remain unchanged.
+
 ## K1241--K1245 Shiab Bianchi-null correction boundary (2026-10-06)
 
 | Claim | Evidence | Honest grade |

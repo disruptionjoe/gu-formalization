@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d393f17b239e1a811b0d40935a69f6c5354172eb
+revision_basis: 71cefad01db9c234526ee608d80ff2f802ee70c9
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1246--K1250 sharpen the action-owned source-epsilon boundary-selection
+    frontier. Split `D7` has primitive invariant degrees
+    `2,4,6,7,8,10,12`; regular charge orbits are 84-dimensional and retain a
+    seven-dimensional invariant quotient. Weighted Euler differentiation
+    proves that any scale-free invariant potential of one weighted degree has
+    the weighted radial direction in its Hessian kernel at a critical point
+    with nonzero invariant tuple, so its rank is at most six and it cannot supply K949's
+    regular rank-seven lock. Independently, any local gauge or Kostant-type
+    section obeying `pi o s=id` chooses orbit representatives while leaving
+    all seven quotient values free. Together with K951--K955, the remaining
+    finite regular escape is a source-owned scale-breaking or multi-weight
+    boundary law with rank-seven quotient derivative; a nonlocal or
+    noncommutative boundary-Green owner remains outside the theorem. Neither
+    is displayed by the current source. K1145/K1150 remain `0/7`, charged
+    boundary symmetry remains the honest default, and no protected status
+    moves.
+
     K1241--K1245 exhaust all eight displayed Shiab product rows and prove they
     span five operator directions, with three exact global relations. The
     principal-Bianchi defect has rank one and the kernel dimension is four;
@@ -13909,6 +13926,17 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1246--K1250 exclude both a scale-free single-weight invariant boundary
+  potential at a nonzero invariant tuple and a canonical gauge/Kostant slice
+  as selectors of one regular source-epsilon charge orbit. Which source-owned scale-breaking or
+  multi-weight boundary law has rank-seven derivative on the quotient
+  coordinates `I2,I4,I6,I7,I8,I10,I12`, or which genuinely
+  nonlocal/noncommutative boundary-Green owner replaces the finite selector?
+  After that owner is supplied, construct the common closed BV-BFV domain,
+  closed range, positive quotient gap, causal Green/maximal generator packet
+  and positive nonzero cohomology. Do not treat gauge fixing, homogeneous
+  criticality, `kappa_1` by itself, or finite invariant algebra as selection.
+
   K1236--K1240 find a repository-constructed `r=3` two-row Shiab candidate
   with uniform exact causal rank gains, but the cross-null radical jump,
   propagation defect, source/action ownership and every K1150 gate remain
@@ -15825,6 +15853,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1246--K1250's selector-class boundary. On the regular split-D7
+  quotient, a scale-free potential of one weighted degree has Hessian rank at
+  most six at every critical point with nonzero invariant tuple, and a gauge/Kostant section leaves
+  all seven invariant values free. Advance only with a source-owned
+  scale-breaking or multi-weight boundary law whose quotient derivative has
+  rank seven, or a genuinely nonlocal/noncommutative boundary-Green law, then
+  build the common functional BV-BFV packet. Do not infer that `kappa_1`
+  supplies that coupling, that gauge fixing selects charge, or that this
+  finite theorem proves or refutes SC-ACT-06.
+
   Preserve K1236--K1240's exact improvement and admission boundary. The
   ratio-three two-row candidate improves the selected coupled ranks by
   `158/158/132` but retains an `8190` cross-null radical jump, a propagation

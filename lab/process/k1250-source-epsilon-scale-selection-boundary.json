@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1250-SOURCE-EPSILON-SCALE-SELECTION-BOUNDARY",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-ACT-06",
+  "scope": "Integrated source-epsilon regular-orbit selection boundary after the homogeneous-potential and gauge-slice discriminators.",
+  "pinned_inputs": {
+    "k1246": {"path": "lab/process/k1246-source-epsilon-invariant-weight-census.json", "sha256": "4f493bd54ff91a513233e7e78f3d33f9d24a85028a31bceb1d969efda669decd"},
+    "k1247": {"path": "lab/process/k1247-weighted-homogeneous-selector-no-go.json", "sha256": "98903ce8649a2bc66b0c268dd15ce614f0ddac620dfdb485070a6db90646d182"},
+    "k1248": {"path": "lab/process/k1248-gauge-slice-no-selection.json", "sha256": "9f7a4b219a5bcf0f47acba3b55408cd18862212d293af9e8c9a2fe37792da648"},
+    "k1249": {"path": "lab/process/k1249-source-boundary-escape-classification.json", "sha256": "90c9c902b9aed840bf0dba977184c64c8ed43e82474924c559c4691bb3184671"}
+  },
+  "certificate": {
+    "rows": [
+      {"row": "regular quotient weight census", "state": "satisfied"},
+      {"row": "scale-free homogeneous full-rank selector", "state": "excluded"},
+      {"row": "gauge-slice value selection", "state": "excluded"},
+      {"row": "singular one-scalar proper point reduction", "state": "excluded"},
+      {"row": "source-owned scale-breaking rank-seven boundary law", "state": "missing"},
+      {"row": "common closed functional domain", "state": "missing"},
+      {"row": "closed range and positive quotient gap", "state": "missing"},
+      {"row": "causal Green or maximal generator packet", "state": "missing"},
+      {"row": "positive nonzero physical cohomology", "state": "missing"}
+    ],
+    "satisfied_count": 1,
+    "excluded_count": 3,
+    "missing_count": 5,
+    "k1145_pass_count": 0,
+    "k1150_pass_count": 0
+  },
+  "decision": {
+    "scientific_effect": "SCALE_FREE_REGULAR_SELECTOR_AND_GAUGE_SLICE_EXCLUDED_WITHOUT_FUNCTIONAL_ADMISSION",
+    "source_epsilon_parent_remains_action_owned": true,
+    "regular_nonzero_orbit_remains_unselected": true,
+    "charged_boundary_symmetry_remains_honest_default": true,
+    "SC_ACT_06_proved_or_refuted": false,
+    "next_condition": "Supply a source-owned scale-breaking or multi-weight boundary law with rank-seven quotient derivative, or a genuinely nonlocal/noncommutative boundary-Green owner, then build the common functional BV-BFV packet."
+  },
+  "source_and_ledger_effect": "SC-ACT-01_02_06_ASSERTS_UNCHANGED__SC-META-53_UNCERTAIN_UNCHANGED__LT-SM8_LT-GR6b_RA-F1_AC-F1_NEEDS_UNCHANGED__LEDGER_UNCHANGED",
+  "protected_status_effect": "none",
+  "claim_ceiling": "Exact finite selector-class obstruction and dependency narrowing only; no GU ellipticity, positivity, physical quotient, prediction or confirmation.",
+  "controls": {"producer": "tests/channel-swings/k1250_source_epsilon_scale_selection_boundary.py", "probe": "tests/channel-swings/k1250_source_epsilon_scale_selection_boundary_probe.py", "controls_passed": 14, "hostile_mutations_rejected": 9}
+}

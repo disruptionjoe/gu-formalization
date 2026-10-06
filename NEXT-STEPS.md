@@ -7,6 +7,21 @@ updated_at: "2026-10-06"
 
 # Next Steps For Contributors
 
+> **2026-10-06 K1246--K1250 SOURCE-EPSILON SCALE-SELECTION BOUNDARY.** Split
+> `D7` has primitive invariant degrees `2,4,6,7,8,10,12`, so K946's regular
+> quotient carries seven weighted coordinates. For any invariant potential of
+> one weighted degree, differentiated weighted Euler gives
+> `[Hess(V)(W I)]_j=(D-w_j) partial_j V`; at a critical point with nonzero invariant tuple the
+> weighted radial direction is a Hessian null, limiting rank to six. Such a
+> scale-free potential cannot implement K949's regular rank-seven lock there. The all-zero invariant tuple remains a separate singular horn. A
+> gauge or Kostant-type section independently fails as a selector because
+> `pi o s=id` leaves all seven quotient values free. Next supply a source-owned
+> scale-breaking or multi-weight boundary law with rank-seven quotient
+> derivative, or a genuinely nonlocal/noncommutative boundary-Green owner,
+> then construct the functional BV-BFV packet. Do not infer `kappa_1`
+> sufficiency or insufficiency without its actual coupling. SC-ACT-06 remains
+> `ASSERTS`; K1145/K1150 remain `0/7`.
+
 > **2026-10-06 K1241--K1245 SHIAB BIANCHI-NULL CORRECTION BOUNDARY.** The
 > eight displayed product rows span exactly five operator directions and obey
 > three global relations. Principal Bianchi has defect rank one and kernel
