@@ -7,6 +7,21 @@ updated_at: "2026-10-06"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1196--K1200 order-ten completion reconciliation (2026-10-06)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K487 and K415 have identical ordered scientific face programs after additive K415 metadata is removed | K1196 compares 936 faces, two fallbacks, twenty-two selections and the shared template bank; producer `6/6`; hostile mutations `4/4` | exact lineage reconciliation; byte digests remain honestly distinct |
+| K508 plus K512--K541 execute every reachable program | K1197 reconstructs 229 shards, 916 remaining programs, 6,552 total cells, 87,141,600 descriptor-cell evaluations and all direct overlaps; producer `8/8`; hostile mutations `4/4` | exact numerical custody replay; not by itself an integral |
+| K1193--K1195 are confirmatory relative to K542--K545 | K1198 matches all shared projective censuses and verifies the stronger pilot, strip and owner results; producer `7/7`; hostile mutations `4/4` | exact branch-relative lineage correction |
+| K546--K553 close the order-ten route through a complete conditional integral enclosure | K1199 replays all eight dependency stages, 936 face majorants, 22 hybrid terms and one prefactor application; producer `9/9`; hostile mutations `4/4` | exact dependency replay; sign, action column, R_ref and K152 remain open |
+| The live frontier is post-K553 rather than a new factorized face evaluator | K1200 composes K1196--K1199 and preserves K1191's local cost observation; producer `9/9`; hostile mutations `4/4` | exact current-state correction; no protected verdict moves |
+
+Five producers pass `39/39` declared controls and five probes reject `20/20`
+hostile mutations. The correction does not retract K1191--K1195; it narrows
+their frontier effect. No source claim, ledger verdict, canon, paper, public
+posture, prediction or physical conclusion moves.
+
 ## K1191--K1195 order-ten projective face route (2026-10-06)
 
 | Claim | Evidence | Honest grade |
@@ -20,7 +35,9 @@ updated_at: "2026-10-06"
 Five producers pass `35/35` declared controls and five probes reject `45/45`
 hostile mutations. No complete face interval bank, Peano remainder, action
 column, K152 interval, source claim, ledger verdict, canon, paper, public
-posture, prediction or physical conclusion moves.
+posture, prediction or physical conclusion moves. K1196--K1200 subsequently
+prove that the branch already contained the stronger K488 and K508--K553
+completion chain, so this packet does not define the current order-ten wake.
 
 ## K1186--K1190 corrected enlarged-gauge boundary (2026-10-05)
 

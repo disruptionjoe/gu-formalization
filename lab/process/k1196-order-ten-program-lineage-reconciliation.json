@@ -1,0 +1,65 @@
+{
+  "claim_ceiling": "Exact lineage reconciliation between K487 and K415. Their 936 ordered scientific face programs, two interior fallbacks, twenty-two selections and determinant template bank agree after removing K415's additive execution metadata; byte-level program-bank digests remain distinct. This transfers program identity, not arbitrary future numerical results, and changes no source, ledger, canon, paper, public or physical verdict.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-10-06",
+  "decision": {
+    "K487_and_K415_scientific_program_lineages_reconciled": true,
+    "K487_program_ids_transfer_to_K415": true,
+    "historical_K487_results_retracted": false,
+    "next_exact_input": "Replay complete K508 plus K512--K541 execution custody on the identical ordered program IDs."
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "new_face_programs": 936,
+    "new_template_bank_sha256": "sha256:b6cf280f12d1e7dac760db42e645baaa7c34693aa6693754bf5144c2ee37d66c",
+    "old_face_programs": 936,
+    "old_template_bank_sha256": "sha256:b6cf280f12d1e7dac760db42e645baaa7c34693aa6693754bf5144c2ee37d66c",
+    "predecessor_manifests": [
+      "lab/process/k487-order-ten-face-program-compiler.json",
+      "lab/process/k415-order-ten-face-program-compiler.json"
+    ]
+  },
+  "lineage_reconciliation": {
+    "K487_numerical_evidence_requires_no_program_remap": true,
+    "digest_difference_explained_by_additive_metadata": true,
+    "ordered_program_ids_identical": true,
+    "program_bank_byte_digests_identical": false,
+    "sections": [
+      {
+        "new_projection_sha256": "sha256:b02a2f85468dfea32f8ee4225392eafd9087c5cad765df93078b965700078ca9",
+        "new_rows": 936,
+        "old_projection_sha256": "sha256:b02a2f85468dfea32f8ee4225392eafd9087c5cad765df93078b965700078ca9",
+        "old_rows": 936,
+        "section": "face_programs",
+        "semantic_projection_equal": true
+      },
+      {
+        "new_projection_sha256": "sha256:6db661f04a42fa383a482eb57bd55fd43418ebf7357347b077c5acb08d924098",
+        "new_rows": 2,
+        "old_projection_sha256": "sha256:6db661f04a42fa383a482eb57bd55fd43418ebf7357347b077c5acb08d924098",
+        "old_rows": 2,
+        "section": "positive_interior_fallback_programs",
+        "semantic_projection_equal": true
+      },
+      {
+        "new_projection_sha256": "sha256:e8047606902cff4858b7af9635a072ca9d9f29d99f24b4952f101be99a2f389d",
+        "new_rows": 22,
+        "old_projection_sha256": "sha256:e8047606902cff4858b7af9635a072ca9d9f29d99f24b4952f101be99a2f389d",
+        "old_rows": 22,
+        "section": "selected_boundary_or_interior_program_per_hybrid",
+        "semantic_projection_equal": true
+      }
+    ],
+    "template_bank_identical": true
+  },
+  "release_test": {
+    "all_three_semantic_projections_equal": true,
+    "byte_digests_honestly_distinguished": true,
+    "exactly_936_programs_each": true,
+    "ordered_ids_equal": true,
+    "protected_status_unchanged": true,
+    "template_banks_equal": true
+  },
+  "result_id": "K1196-ORDER-TEN-PROGRAM-LINEAGE-RECONCILIATION",
+  "schema_version": "1.0"
+}

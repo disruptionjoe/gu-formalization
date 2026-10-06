@@ -1,0 +1,68 @@
+{
+  "claim_ceiling": "Exact reconciliation of K1193--K1195 with K542--K545. The new artifacts reproduce the same 121 masks, 1,022 charts, 6,337 program-chart uses, 21,624 oriented boundaries and 94,463,974 compact lower strata, while the earlier lineage already adds positive-width projective controls, zero-strip angular majorants and exhaustive disjoint owner routing. This is lineage and frontier correction, not a new physical result.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-10-06",
+  "decision": {
+    "factorized_evaluator_is_not_the_current_order_ten_wake": true,
+    "next_exact_input": "Replay K546--K553, which already resolves the determinant-preserving boundary envelope through complete integral enclosure.",
+    "projective_lineage_reconciled": true,
+    "uniform_integrand_boundary_chain_continues_at_K546": true
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "predecessor_manifests": [
+      "lab/process/k1193-order-ten-normal-projective-atlas.json",
+      "lab/process/k1194-order-ten-projective-measure-and-boundary-routing.json",
+      "lab/process/k1195-order-ten-anisotropic-projective-controls.json",
+      "lab/process/k542-order-ten-normal-projective-partition.json",
+      "lab/process/k543-order-ten-positive-width-projective-pilots.json",
+      "lab/process/k544-order-ten-zero-strip-angular-majorants.json",
+      "lab/process/k545-order-ten-global-face-neighborhood-ownership.json"
+    ],
+    "shared_census": {
+      "boundary_uses": [
+        107832,
+        107832
+      ],
+      "charts": [
+        1022,
+        1022
+      ],
+      "coordinate_boundaries": [
+        21624,
+        21624
+      ],
+      "lower_strata": [
+        94463974,
+        94463974
+      ],
+      "program_chart_uses": [
+        6337,
+        6337
+      ],
+      "zero_masks": [
+        121,
+        121
+      ]
+    }
+  },
+  "lineage_reconciliation": {
+    "K1193_K1195_are_confirmatory_not_frontier_openers": true,
+    "K542_already_compiles_exact_partition_measure_and_boundary_routing": true,
+    "K543_executes_positive_width_projective_controls": true,
+    "K544_supplies_zero_strip_angular_majorants": true,
+    "K545_supplies_global_disjoint_ownership": true,
+    "all_shared_censuses_equal": true
+  },
+  "release_test": {
+    "all_shared_censuses_equal": true,
+    "complete_integral_not_overclaimed": true,
+    "exactly_16_projective_pilots": true,
+    "exactly_8388606_owned_subsets": true,
+    "integrand_boundary_not_credited_to_K544": true,
+    "protected_status_unchanged": true,
+    "stronger_lineage_retained": true
+  },
+  "result_id": "K1198-ORDER-TEN-PROJECTIVE-LINEAGE-RECONCILIATION",
+  "schema_version": "1.0"
+}

@@ -1,0 +1,50 @@
+{
+  "claim_ceiling": "Branch-relative frontier reconciliation. K1191's measured cost remains valid for its attempted implementation, but it does not reopen the already completed K488 and K508--K553 evidence chain. The order-ten conditional integral enclosure is closed; sign, the complete base action column, R_ref and K152 remain open. No source, ledger, canon, paper, public or physical verdict changes.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-10-06",
+  "decision": {
+    "K553_post_integral_frontier_restored": true,
+    "current_state_requires_correction": true,
+    "factorized_or_cached_group_evaluator_removed_as_current_wake": true,
+    "protected_status_moves": false
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "completion_chain_length": 8,
+    "executed_positive_width_cells": 6552,
+    "predecessor_manifests": [
+      "lab/process/k1196-order-ten-program-lineage-reconciliation.json",
+      "lab/process/k1197-order-ten-face-execution-coverage-replay.json",
+      "lab/process/k1198-order-ten-projective-lineage-reconciliation.json",
+      "lab/process/k1199-order-ten-completion-chain-replay.json"
+    ],
+    "projective_masks": 121,
+    "reconciled_programs": 936
+  },
+  "frontier": {
+    "K1191_host_cost_observation_does_not_erase_K488_or_K508_K553": true,
+    "K1191_host_cost_observation_retained": true,
+    "R_ref_residual_open": true,
+    "complete_base_action_column_open": true,
+    "native_K152_interval_open": true,
+    "order_ten_boundary_envelope_open": false,
+    "order_ten_complete_conditional_integral_enclosure_open": false,
+    "order_ten_face_execution_open": false,
+    "order_ten_projective_partition_open": false,
+    "order_ten_sign_open": true,
+    "restored_next_exact_input": "combine the complete order-eight, order-nine and order-ten conditional integral enclosures with the remaining order-specific columns needed by K457, then construct the complete base action column and R_ref residual before any K152 claim"
+  },
+  "release_test": {
+    "K152_still_open": true,
+    "R_ref_still_open": true,
+    "action_column_still_open": true,
+    "all_four_reconciliation_packets_pass": true,
+    "current_wake_is_post_K553": true,
+    "historical_completion_preserved": true,
+    "host_cost_observation_preserved": true,
+    "protected_status_unchanged": true,
+    "sign_still_open": true
+  },
+  "result_id": "K1200-ORDER-TEN-FRONTIER-RESTORATION",
+  "schema_version": "1.0"
+}

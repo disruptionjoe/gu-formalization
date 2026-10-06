@@ -1,0 +1,54 @@
+{
+  "claim_ceiling": "Exact dependency replay of K546--K553. The scalar-dual obstruction is repaired by derivative-order-ten bounds and same-permutation Newton fronts, then composed through zero-inclusive determinant envelopes, all 936 face majorants, 22 disjoint hybrid majorants, the complete Peano remainder and the complete conditional order-ten integral enclosure. Sign, action column, R_ref, K152 and physical conclusions remain open.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "completion_chain": {
+    "all_face_majorants_complete": true,
+    "bivariate_newton_fronts_complete": true,
+    "complete_integral_enclosure_emitted": true,
+    "complete_peano_remainder_emitted": true,
+    "disjoint_hybrid_majorants_complete": true,
+    "nested_dual_obstruction_found": true,
+    "zero_inclusive_determinant_envelopes_complete": true,
+    "zero_safe_derivative_bank_complete": true
+  },
+  "created": "2026-10-06",
+  "decision": {
+    "R_ref_residual_emitted": false,
+    "action_column_emitted": false,
+    "native_K152_interval_emitted": false,
+    "next_exact_input": "combine the complete order-eight, order-nine and order-ten conditional integral enclosures with the remaining order-specific columns needed by K457, then construct the complete base action column and R_ref residual before any K152 claim",
+    "order_ten_numerical_projective_route_is_complete_to_conditional_integral_enclosure": true,
+    "order_ten_sign_decided": false
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "chain_length": 8,
+    "face_programs": 936,
+    "hybrid_terms": 22,
+    "native_prefactor_application_count": 1,
+    "ordered_descriptors": 13300,
+    "predecessor_manifests": [
+      "lab/process/k546-order-ten-nested-face-dual-obstruction.json",
+      "lab/process/k547-order-ten-zero-safe-scaled-derivative-bank.json",
+      "lab/process/k548-order-ten-bivariate-determinant-newton-fronts.json",
+      "lab/process/k549-order-ten-zero-inclusive-determinant-envelope.json",
+      "lab/process/k550-order-ten-whole-radial-face-majorants.json",
+      "lab/process/k551-order-ten-disjoint-owner-hybrid-majorants.json",
+      "lab/process/k552-order-ten-complete-peano-remainder.json",
+      "lab/process/k553-order-ten-complete-integral-enclosure.json"
+    ]
+  },
+  "release_test": {
+    "K152_not_overclaimed": true,
+    "R_ref_not_overclaimed": true,
+    "action_column_not_overclaimed": true,
+    "all_completion_stages_hold": true,
+    "exactly_22_hybrids": true,
+    "exactly_8_chain_artifacts": true,
+    "exactly_936_face_majorants": true,
+    "prefactor_applied_once": true,
+    "protected_status_unchanged": true
+  },
+  "result_id": "K1199-ORDER-TEN-COMPLETION-CHAIN-REPLAY",
+  "schema_version": "1.0"
+}
