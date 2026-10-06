@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1257-KAPPA-CASIMIR-SHAPE-NULLITY",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "SC-ACT-06",
+  "scope": "Most favorable finite quotient surrogate in which the displayed scalar kappa_1 sector factors only through the quadratic charge invariant I2 on the regular I2-positive horn.",
+  "gu_typed_objects": {
+    "carrier": "regular quotient radial/shape chart (r,y4,y6,y7,y8,y10,y12)",
+    "pairing": "finite quotient Hessian",
+    "real_structure": "real I2-positive horn",
+    "grading": "one quadratic-Casimir channel",
+    "action_owner": "the source owns a scalar torsion-norm coefficient; transfer to charge I2 is deliberately only a favorable surrogate",
+    "target": "NULLITY-TYPE=scale channel versus six shapes"
+  },
+  "pinned_inputs": {
+    "k1256": {"path": "lab/process/k1256-invariant-channel-hessian-rank-bound.json", "sha256": "2d50de0b7808e8dd146930101eed843ed27d563239916ab50f27ee39e1c1202c"},
+    "source_register": {"path": "lab/sources/source-claim-register.yaml", "sha256": "dc3ae173b4cc0eb2a0e343e3d92d5f110b8e4f6eef3e2852a1e897ab4371ade6"}
+  },
+  "theorem": {
+    "favorable_surrogate": "V_kappa=F_kappa(I2)=F_kappa(r^2)",
+    "regular_critical_condition": "F_kappa'(I2*)=0 with I2*>0",
+    "hessian_in_radial_shape_coordinates": "diag(4 I2* F_kappa''(I2*),0,0,0,0,0,0)",
+    "maximum_hessian_rank": 1,
+    "minimum_shape_nullity": 6,
+    "pure_linear_norm_term": "V_kappa=kappa_1 I2",
+    "pure_linear_regular_critical_point_for_nonzero_kappa": false,
+    "pure_linear_hessian_rank_in_invariant_coordinates": 0,
+    "actual_torsion_norm_to_charge_casimir_transfer_derived": false
+  },
+  "decision": {
+    "quadratic_casimir_only_channel_can_fix_six_shapes": false,
+    "favorable_nonlinear_casimir_channel_can_at_most_fix_scale": true,
+    "displayed_kappa_1_proved_to_fix_scale": false,
+    "SC_ACT_06_proved_or_refuted": false,
+    "next_exact_input": "Separate one favorable scale channel from the six additional locally independent shape channels required for a rank-seven lock."
+  },
+  "source_and_ledger_effect": "SC-ACT-01_02_06_ASSERTS_UNCHANGED__SC-META-53_UNCERTAIN_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Exact obstruction for Casimir-only quotient surrogates. It is not a derivation of the source boundary coupling and does not prove that kappa_1 couples to I2 at all.",
+  "controls": {"producer": "tests/channel-swings/k1257_kappa_casimir_shape_nullity.py", "probe": "tests/channel-swings/k1257_kappa_casimir_shape_nullity_probe.py", "controls_passed": 13, "hostile_mutations_rejected": 10}
+}

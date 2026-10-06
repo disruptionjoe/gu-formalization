@@ -7,6 +7,20 @@ updated_at: "2026-10-06"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1256--K1260 kappa/Casimir channel boundary (2026-10-06)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A selector factoring through `m` regular scalar channels has Hessian rank at most `m` | K1256 chain-rule theorem and exact `m=1..7` controls; producer `20/20`; hostile mutations `10/10` | exact local finite theorem; no source channel constructed |
+| A favorable `F_kappa(I2)` law leaves six shape nulls | K1257 radial/shape Hessian `diag(4 I2* F''(I2*),0,...,0)`; literal linear norm has no regular critical point; `13/13`; `10/10` | exact Casimir-only surrogate obstruction; torsion-norm transfer remains unproved |
+| One favorable scale channel still needs six independent shape responses | K1258 scale rank one, shape rank six, joint rank seven; `12/12`; `10/10` | exact channel census; parameter count is not channel rank |
+| K1252's open-horn escape is repairable on the formal invariant base | K1259 globally proper target-centered polynomial, Hessian determinant `r0^-98`; `20/20`; `10/10` | exact ambient formal-base construction; not a realized-orbit or source theorem |
+| Source and functional admission remain absent | K1260 two satisfied, two excluded, one conditional and seven missing rows; K1145/K1150 `0/7`; `16/16`; `10/10` | no GU ellipticity, physical positivity, prediction or confirmation |
+
+Five producers pass `81/81` declared controls and five probes reject `50/50`
+hostile mutations. SC-ACT-01/02/06, SC-META-53, the physics ledger and all
+protected verdicts remain unchanged.
+
 ## K1251--K1255 two-weight source-epsilon selector boundary (2026-10-06)
 
 | Claim | Evidence | Honest grade |

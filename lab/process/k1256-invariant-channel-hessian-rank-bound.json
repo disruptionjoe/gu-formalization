@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1256-INVARIANT-CHANNEL-HESSIAN-RANK-BOUND",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "SC-ACT-06",
+  "scope": "Local Hessian-rank theorem for smooth laws on the seven-dimensional regular source-epsilon quotient that factor through m locally independent scalar channels.",
+  "gu_typed_objects": {
+    "carrier": "regular seven-coordinate split-D7 invariant quotient chart",
+    "pairing": "ordinary finite Hessian on quotient coordinates",
+    "real_structure": "real regular quotient coordinates",
+    "grading": "arbitrary smooth scalar channels, separated from weighted degree",
+    "action_owner": "abstract repository theorem; no source channel is constructed",
+    "target": "RANK-TYPE=local nondegenerate quotient selector"
+  },
+  "pinned_inputs": {
+    "k1251": {"path": "lab/process/k1251-source-epsilon-radial-shape-chart.json", "sha256": "bcadd150075787034815ee375b358ef8d3ecdf06dd79c4cf05a7c492afcafe63"},
+    "k1255": {"path": "lab/process/k1255-two-weight-selector-admission-boundary.json", "sha256": "c1bf51c744081eccc9c504eaaff7f2c8ec273cb2528a3afc85ba8f9ae1d46733"}
+  },
+  "theorem": {
+    "quotient_dimension": 7,
+    "factorization": "V=F o P with P:U subset R7 -> Rm",
+    "hypotheses": ["rank dP_z*=m", "dV_z*=0"],
+    "intermediate_conclusion": "dF_P(z*)=0 because transpose(dP_z*) is injective",
+    "hessian_identity": "Hess_z*(V)=transpose(dP_z*) Hess_P(z*)(F) dP_z*",
+    "hessian_rank_upper_bound": "rank Hess(V)<=m",
+    "hessian_nullity_lower_bound": "nullity Hess(V)>=7-m",
+    "full_rank_requirement": "m>=7",
+    "coordinate_invariant_at_critical_point": true
+  },
+  "decision": {
+    "fewer_than_seven_independent_channels_can_supply_regular_full_lock": false,
+    "seven_channels_are_sufficient_without_source_ownership": false,
+    "SC_ACT_06_proved_or_refuted": false,
+    "next_exact_input": "Specialize the theorem to the most favorable quotient-Casimir reading of the displayed kappa_1 sector and measure the surviving shape nullity."
+  },
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Exact local finite-dimensional factorization theorem only; it neither proves that the source law factors through any chosen channels nor constructs a functional domain.",
+  "controls": {"producer": "tests/channel-swings/k1256_invariant_channel_hessian_rank_bound.py", "probe": "tests/channel-swings/k1256_invariant_channel_hessian_rank_bound_probe.py", "controls_passed": 20, "hostile_mutations_rejected": 10}
+}

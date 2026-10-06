@@ -7,6 +7,21 @@ updated_at: "2026-10-06"
 
 # Next Steps For Contributors
 
+> **2026-10-06 K1256--K1260 KAPPA/CASIMIR CHANNEL BOUNDARY.** Any smooth
+> selector on the regular seven-dimensional quotient which factors through
+> `m` locally independent scalar channels has Hessian rank at most `m` at a
+> regular critical point. Even favorably replacing the displayed `kappa_1`
+> sector by an arbitrary `F_kappa(I2)` can fix at most the radial scale and
+> leaves six shape nulls; the literal linear `kappa_1 I2` surrogate has no
+> regular critical point for nonzero `kappa_1`. K1259 separately repairs the
+> K1252 open-horn escape with a globally proper rank-seven polynomial on the
+> ambient formal invariant base, but imports the same scale and six shapes and
+> supplies no source or functional owner. Next derive seven action-owned
+> quotient responses, including six shape channels, on the realized orbit
+> space and pass the complete K1145/K1150 domain, range/gap, Green/generator
+> and positive-cohomology packet. Do not identify the torsion norm with the
+> charge Casimir or finite properness with physical admission.
+
 > **2026-10-06 K1251--K1255 TWO-WEIGHT SOURCE-EPSILON SELECTOR BOUNDARY.**
 > On the regular `I2>0` quotient horn, `r=sqrt(I2)` and six scale-invariant
 > shapes form an exact chart with Jacobian `2 r^48`. The constructed

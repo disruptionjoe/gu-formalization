@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1259-GLOBAL-PROPER-FORMAL-SELECTOR-REPAIR",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "SC-ACT-06",
+  "scope": "Globally proper polynomial selector on the ambient formal seven-invariant coordinate base, with no claim that the full real split-D7 orbit image equals that base.",
+  "gu_typed_objects": {
+    "carrier": "ambient formal invariant base R7 with coordinates I2,I4,I6,I7,I8,I10,I12",
+    "pairing": "positive diagonal finite Hessian",
+    "real_structure": "real formal invariant coordinates",
+    "grading": "inhomogeneous multi-weight polynomial",
+    "action_owner": "repository-constructed target-centered quadratic; not source-owned",
+    "target": "PROPERNESS-TYPE=ambient finite invariant base"
+  },
+  "pinned_inputs": {
+    "k1253": {"path": "lab/process/k1253-two-weight-selector-data-inventory.json", "sha256": "4b50a2ee17ce2da1dffdd60720c0033d66e276d19369f2c4d23b8d7b8ec55fc4"},
+    "k1254": {"path": "lab/process/k1254-two-weight-local-properness-boundary.json", "sha256": "4a9159816e00a4691b4dfdd54776ab90e7c3ca7e27596066953ddf5093bd3520"}
+  },
+  "construction": {
+    "weights": [2, 4, 6, 7, 8, 10, 12],
+    "target": ["r0^2", "r0^4 c4", "r0^6 c6", "r0^7 c7", "r0^8 c8", "r0^10 c10", "r0^12 c12"],
+    "potential": "U=1/2 sum_d ((I_d-I_d*)/r0^d)^2",
+    "global_minimum_value": 0,
+    "unique_global_minimum_on_formal_base": true,
+    "hessian_diagonal": ["r0^-4", "r0^-8", "r0^-12", "r0^-14", "r0^-16", "r0^-20", "r0^-24"],
+    "hessian_rank": 7,
+    "hessian_inertia": [7, 0, 0],
+    "hessian_determinant": "r0^-98",
+    "proper_on_ambient_formal_base": true,
+    "finite_at_I2_zero": true,
+    "imports_one_scale_and_six_shapes": true,
+    "realized_split_real_orbit_image_classified": false
+  },
+  "decision": {
+    "K1254_open_horn_escape_is_universal_finite_obstruction": false,
+    "finite_global_properness_is_repairable": true,
+    "repair_reduces_unowned_orbit_data": false,
+    "repair_supplies_functional_BV_BFV_properness": false,
+    "SC_ACT_06_proved_or_refuted": false,
+    "next_exact_input": "Keep the finite repair but audit source ownership, realized-orbit scope and every K1145/K1150 functional row."
+  },
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__SC-META-53_UNCERTAIN_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Exact properness and full-rank theorem on the ambient formal invariant base only. The construction imports the selected orbit, is not source-owned, and is not a functional field theory.",
+  "controls": {"producer": "tests/channel-swings/k1259_global_proper_formal_selector_repair.py", "probe": "tests/channel-swings/k1259_global_proper_formal_selector_repair_probe.py", "controls_passed": 20, "hostile_mutations_rejected": 10}
+}

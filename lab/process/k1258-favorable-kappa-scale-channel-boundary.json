@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1258-FAVORABLE-KAPPA-SCALE-CHANNEL-BOUNDARY",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-ACT-06",
+  "scope": "Exact scale-versus-shape channel count on the regular I2-positive quotient after favorably granting one kappa-labelled scale condition.",
+  "gu_typed_objects": {
+    "carrier": "K1251 seven-dimensional regular radial/shape quotient chart",
+    "pairing": "Jacobian and finite Hessian ranks only",
+    "real_structure": "real positive-I2 horn",
+    "grading": "one radial channel plus six dilation-invariant shape channels",
+    "action_owner": "favorable kappa scale grant only; six shape channels remain unowned",
+    "target": "CHANNEL-TYPE=regular seven-lock"
+  },
+  "pinned_inputs": {
+    "k1251": {"path": "lab/process/k1251-source-epsilon-radial-shape-chart.json", "sha256": "bcadd150075787034815ee375b358ef8d3ecdf06dd79c4cf05a7c492afcafe63"},
+    "k1253": {"path": "lab/process/k1253-two-weight-selector-data-inventory.json", "sha256": "4b50a2ee17ce2da1dffdd60720c0033d66e276d19369f2c4d23b8d7b8ec55fc4"},
+    "k1256": {"path": "lab/process/k1256-invariant-channel-hessian-rank-bound.json", "sha256": "2d50de0b7808e8dd146930101eed843ed27d563239916ab50f27ee39e1c1202c"},
+    "k1257": {"path": "lab/process/k1257-kappa-casimir-shape-nullity.json", "sha256": "90c316f58637bf36266761118db578302b9a56a828f05ef935e9c5e478940bb8"}
+  },
+  "certificate": {
+    "scale_channel": "I2=r^2",
+    "scale_channel_jacobian_rank": 1,
+    "scale_level_set_dimension": 6,
+    "shape_channels": ["I4/I2^2", "I6/I2^3", "I7/I2^(7/2)", "I8/I2^4", "I10/I2^5", "I12/I2^6"],
+    "shape_channel_jacobian_rank": 6,
+    "shape_channels_kill_weighted_radial_vector": true,
+    "joint_scale_shape_jacobian_rank": 7,
+    "additional_shape_channels_required_after_favorable_scale_grant": 6,
+    "one_scalar_parameter_can_label_a_seven_channel_law": true,
+    "one_scalar_parameter_supplies_the_six_channel_functions": false
+  },
+  "decision": {
+    "favorable_kappa_scale_grant_closes_regular_lock": false,
+    "six_shape_response_channels_remain_required": true,
+    "source_displays_those_six_channels": false,
+    "SC_ACT_06_proved_or_refuted": false,
+    "next_exact_input": "Test whether finite nonproperness is itself an obstruction by constructing the cheapest globally proper seven-channel selector on the formal invariant base."
+  },
+  "source_and_ledger_effect": "SC-ACT-01_02_06_ASSERTS_UNCHANGED__SC-META-53_UNCERTAIN_UNCHANGED__AC-F1_LT-SM8_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Exact local channel count. Parameter count and channel rank are not identified; a universal one-parameter family could contain seven fixed channel functions, but the source supplies no such law.",
+  "controls": {"producer": "tests/channel-swings/k1258_favorable_kappa_scale_channel_boundary.py", "probe": "tests/channel-swings/k1258_favorable_kappa_scale_channel_boundary_probe.py", "controls_passed": 12, "hostile_mutations_rejected": 10}
+}

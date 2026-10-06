@@ -4,6 +4,35 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1256--K1260 kappa/Casimir channel boundary
+
+- K1256 proves the general `m`-channel Hessian-rank bound (`20/20`; `10/10`).
+- K1257 proves the favorable `I2`-only kappa surrogate has rank at most one
+  and six shape nulls (`13/13`; `10/10`).
+- K1258 verifies the one-scale/six-shape Jacobian census and the rank-seven
+  joint channel requirement (`12/12`; `10/10`).
+- K1259 verifies the globally proper target-centered polynomial on the
+  ambient formal invariant base, including determinant `r0^-98` (`20/20`;
+  `10/10`).
+- K1260 composes the twelve-row source, orbit-scope and functional admission
+  boundary (`16/16`; `10/10`).
+
+The five producers pass `81/81` controls and the probes reject `50/50`
+hostile mutations.
+
+```bash
+uv run --with sympy==1.14.0 python tests/channel-swings/k1256_invariant_channel_hessian_rank_bound.py
+python3 tests/channel-swings/k1256_invariant_channel_hessian_rank_bound_probe.py
+uv run --with sympy==1.14.0 python tests/channel-swings/k1257_kappa_casimir_shape_nullity.py
+python3 tests/channel-swings/k1257_kappa_casimir_shape_nullity_probe.py
+uv run --with sympy==1.14.0 python tests/channel-swings/k1258_favorable_kappa_scale_channel_boundary.py
+python3 tests/channel-swings/k1258_favorable_kappa_scale_channel_boundary_probe.py
+uv run --with sympy==1.14.0 python tests/channel-swings/k1259_global_proper_formal_selector_repair.py
+python3 tests/channel-swings/k1259_global_proper_formal_selector_repair_probe.py
+python3 tests/channel-swings/k1260_kappa_selector_admission_boundary.py
+python3 tests/channel-swings/k1260_kappa_selector_admission_boundary_probe.py
+```
+
 ## K1251--K1255 two-weight source-epsilon selector boundary
 
 - K1251 reproduces the positive-`I2` radial/shape chart and its exact Jacobian

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1260-KAPPA-SELECTOR-ADMISSION-BOUNDARY",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-ACT-06",
+  "scope": "Integrated kappa/Casimir channel-rank, finite properness and functional-admission boundary after K1256--K1259.",
+  "pinned_inputs": {
+    "k1256": {"path": "lab/process/k1256-invariant-channel-hessian-rank-bound.json", "sha256": "2d50de0b7808e8dd146930101eed843ed27d563239916ab50f27ee39e1c1202c"},
+    "k1257": {"path": "lab/process/k1257-kappa-casimir-shape-nullity.json", "sha256": "90c316f58637bf36266761118db578302b9a56a828f05ef935e9c5e478940bb8"},
+    "k1258": {"path": "lab/process/k1258-favorable-kappa-scale-channel-boundary.json", "sha256": "9667aac8a1a3c5f3cf9e03d158b8936e9a46d9241bf9bacb700ad3b2f418abeb"},
+    "k1259": {"path": "lab/process/k1259-global-proper-formal-selector-repair.json", "sha256": "cf2af44ba2a0a2a80fbed596a358a46a0c2a64e361a8c24a88924f0ebf4a318f"}
+  },
+  "certificate": {
+    "rows": [
+      {"row": "seven-channel local rank requirement", "state": "satisfied"},
+      {"row": "pure nonzero kappa times I2 regular critical point", "state": "excluded"},
+      {"row": "arbitrary I2-only full rank selector", "state": "excluded"},
+      {"row": "favorable kappa-labelled scale channel", "state": "conditional"},
+      {"row": "six independent shape channels", "state": "missing"},
+      {"row": "globally proper formal-base finite selector", "state": "satisfied"},
+      {"row": "source-owned charge-Casimir coupling", "state": "missing"},
+      {"row": "realized split-real orbit-image coverage", "state": "missing"},
+      {"row": "common closed functional domain", "state": "missing"},
+      {"row": "closed range and positive quotient gap", "state": "missing"},
+      {"row": "causal Green or maximal generator packet", "state": "missing"},
+      {"row": "positive nonzero physical cohomology", "state": "missing"}
+    ],
+    "satisfied_count": 2,
+    "excluded_count": 2,
+    "conditional_count": 1,
+    "missing_count": 7,
+    "k1145_pass_count": 0,
+    "k1150_pass_count": 0
+  },
+  "decision": {
+    "scientific_effect": "KAPPA_CASIMIR_ONLY_CANNOT_LOCK_SHAPES_AND_FINITE_PROPERNESS_IS_REPAIRABLE_WITH_SEVEN_IMPORTED_DATA__SOURCE_FUNCTIONAL_GAPS_UNCHANGED",
+    "kappa_casimir_only_regular_lock_exists": false,
+    "finite_global_selector_exists_mathematically": true,
+    "finite_global_selector_is_source_owned": false,
+    "charged_boundary_symmetry_remains_honest_default": true,
+    "SC_ACT_06_proved_or_refuted": false,
+    "next_condition": "Supply an action-derived boundary or Green law with seven locally independent quotient responses, including six shape channels, on the realized orbit space and one common closed functional domain; then prove closed range, positive gap, causal evolution and positive nonzero cohomology."
+  },
+  "source_and_ledger_effect": "SC-ACT-01_02_06_ASSERTS_UNCHANGED__SC-META-53_UNCERTAIN_UNCHANGED__LT-SM8_LT-GR6b_RA-F1_AC-F1_NEEDS_UNCHANGED__LEDGER_UNCHANGED",
+  "protected_status_effect": "none",
+  "claim_ceiling": "Exact finite channel-rank obstruction and ambient formal-base repair only; no GU ellipticity, physical positivity, prediction, confirmation or protected-status movement.",
+  "controls": {"producer": "tests/channel-swings/k1260_kappa_selector_admission_boundary.py", "probe": "tests/channel-swings/k1260_kappa_selector_admission_boundary_probe.py", "controls_passed": 16, "hostile_mutations_rejected": 10}
+}
