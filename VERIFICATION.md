@@ -7,6 +7,21 @@ updated_at: "2026-10-05"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1181--K1185 measured native Upsilon candidate (2026-10-05)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A map's new information on a Hessian kernel is `rank(H,J)-rank(H)` | K1181 rank-nullity theorem and four sharp controls; producer `12` declared controls; hostile mutations `9/9` | exact finite-dimensional identity; no source ownership |
+| The source-owned full raw Upsilon response has K132 complement ranks `162/162/8323` | K1182 composition of K720, K740, K743 and K745; producer `18` declared controls; hostile mutations `14/14` | exact frozen finite-symbol measurement; no global domain or physical quotient |
+| An arbitrary prior rank-98 channel leaves residual intervals ending at `98210/98210/98213` in the best case | K1183 sharp subspace-overlap envelope; producer `16` declared controls; hostile mutations `11/11` | exact dimension-only interval; the rank-98 K132 transport remains unowned |
+| Native `J` fails radical capture and does not promote the K1150 functional rows | K1184 ten-row admission audit; producer `15` declared controls; hostile mutations `10/10` | exact current candidate rejection; open functional rows are not scored as passes |
+| The measured frontier now requires new complement outside the joint `H/J/prior-channel` span | K1185 integrated boundary; producer `18` declared controls; hostile mutations `16/16` | exact current frontier; not a global SC-ACT-06 or GU no-go |
+
+Five producers pass `79` declared controls and five probes reject `60/60`
+hostile mutations. `SC-ACT-01/02/06` remain `ASSERTS`, `SC-META-53` remains
+`UNCERTAIN`, and `LT-SM8/LT-GR6b/RA-F1/AC-F1` remain `NEEDS`. No empirical
+score, prediction, confirmation, canon, paper or public status moves.
+
 ## K1176--K1180 native candidate repair audit (2026-10-05)
 
 Five exact producers pass `57/57` controls and five hostile probes reject

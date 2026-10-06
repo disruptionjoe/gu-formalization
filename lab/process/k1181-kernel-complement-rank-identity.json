@@ -1,0 +1,36 @@
+{
+  "claim_ceiling": "finite-dimensional rank identity only; no source ownership, positivity, domain or physical quotient",
+  "controls": [
+    {
+      "dim_v": 5,
+      "rank_h": 2,
+      "rank_j_on_ker_h": 2,
+      "rank_stacked": 4
+    },
+    {
+      "dim_v": 7,
+      "rank_h": 3,
+      "rank_j_on_ker_h": 0,
+      "rank_stacked": 3
+    },
+    {
+      "dim_v": 9,
+      "rank_h": 0,
+      "rank_j_on_ker_h": 6,
+      "rank_stacked": 6
+    },
+    {
+      "dim_v": 9,
+      "rank_h": 9,
+      "rank_j_on_ker_h": 0,
+      "rank_stacked": 9
+    }
+  ],
+  "created": "2026-10-05",
+  "identity": "rank(J|ker H)=rank((H,J))-rank(H)",
+  "proof": "rank(H,J)-rank(H)=dim ker(H)-dim(ker(H) intersect ker(J))",
+  "result_id": "K1181-KERNEL-COMPLEMENT-RANK-IDENTITY",
+  "schema_version": "1.0",
+  "sharp": true,
+  "status": "working_draft_verified"
+}

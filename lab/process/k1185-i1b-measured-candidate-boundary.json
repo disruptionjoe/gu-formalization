@@ -1,0 +1,47 @@
+{
+  "actual_residual_after_gauge": {
+    "null": 98311,
+    "spacelike": 98308,
+    "timelike": 98308
+  },
+  "best_favorable_residual_after_rank98": {
+    "null": 98213,
+    "spacelike": 98210,
+    "timelike": 98210
+  },
+  "candidate_meeting_full_packet": 0,
+  "causal_complement_ranks": {
+    "null": 8323,
+    "spacelike": 162,
+    "timelike": 162
+  },
+  "claim_ceiling": "first measured candidate and exact residual frontier; no global GU or SC-ACT-06 verdict",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "created": "2026-10-05",
+  "current_measured_source_owned_k132_maps": 1,
+  "measured_map": "full raw Upsilon response J",
+  "next_condition": "derive a source-owned map with new complement outside the joint H/J/prior-channel span at ranks at least 98210/98210/98213 under the favorable grant, or own an enlarged closed gauge/KT image or changed stationary parent and recompute every K1150 gate",
+  "pinned_inputs": {
+    "k1180": {
+      "path": "lab/process/k1180-i1b-native-candidate-admission-boundary.json",
+      "sha256": "298b8f11fea4a7fd014a38667070a00fe83d3b7afc894c8431260e3550b3941f"
+    },
+    "k1182": {
+      "path": "lab/process/k1182-native-upsilon-k132-complement-ranks.json",
+      "sha256": "a8dd4bfdb5ced31e7e5661e5c19c1fcdaaa70774aab4d84ae7160c5e28dbc60e"
+    },
+    "k1183": {
+      "path": "lab/process/k1183-rank98-overlap-envelope.json",
+      "sha256": "5f58886085d2a246774cd2d7fec69a182bb9210c17573482147dbee2445ce8df"
+    },
+    "k1184": {
+      "path": "lab/process/k1184-native-upsilon-admission-audit.json",
+      "sha256": "e45686e054d1f0057956c948b836c7693ec30273fdf21f954caf7a84a910df60"
+    }
+  },
+  "protected_disposition": "SC-ACT-01/02/06 remain ASSERTS; SC-META-53 remains UNCERTAIN; LT-SM8/LT-GR6b/RA-F1/AC-F1 remain NEEDS",
+  "result_id": "K1185-I1B-MEASURED-CANDIDATE-BOUNDARY",
+  "schema_version": "1.0",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

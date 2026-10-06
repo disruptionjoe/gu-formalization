@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: a3e2df853f3f
+revision_basis: 818ef3b7a625
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,19 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1181--K1185 measure the first actual source-owned map on the current K132
+    carrier. The exact identity
+    `rank(J|ker H)=rank(H,J)-rank(H)` applied to K740's full raw Upsilon
+    response and K743's complete invariant blocks gives causal complement
+    ranks `162/162/8323`. After the owned rank-four gauge image, `J` leaves
+    `98308/98308/98311` directions. The earlier rank-98 epsilon-channel grant
+    remains unowned; for every possible overlap it can reduce the combined
+    residual only into `98210--98308`, `98210--98308`, and `98213--98311`.
+    Thus `J` passes source ownership, same-carrier typing, measured-rank and
+    gauge-annihilation gates but fails radical capture before any K1150
+    functional promotion. Zero candidates meet the full packet, and no
+    protected status moves.
+
     K1176--K1180 reconcile the abstract K132 repair polytope with the strongest
     nearby source-native response and tangent objects already serialized. One
     stratum-independent repair ceiling must pay the null-dominated shared floor
@@ -13705,6 +13718,17 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1181--K1185 identify the full raw Upsilon response `J` as the first measured
+  source-owned map on the K132 carrier. Its exact complement ranks are only
+  `162/162/8323`, leaving `98308/98308/98311` directions after the owned gauge
+  image, or at best `98210/98210/98213` after the still-unowned favorable
+  rank-98 channel. Which source-owned map contributes new complement outside
+  the joint `H/J/prior-channel` span at those ranks, which enlarged closed
+  gauge/KT image changes the quotient, or which changed stationary parent
+  recomputes every K1150 algebraic and functional gate? Raw response rank is
+  not complement rank, and finite-symbol capture is not a global positive
+  physical quotient.
+
   K1176--K1180 show that one uniformly bounded all-causal repair needs at least
   `106536` new directions, while the strongest currently serialized native
   ceilings `650/915/1470/1571` remain untyped for K132. Even granting all four
@@ -15543,6 +15567,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Advance by deriving an actual source-owned map whose sequential complement
+  outside the measured `H/J` span and favorable prior channel reaches at least
+  `98210/98210/98213`, or by owning an enlarged closed gauge/KT image or a
+  changed stationary parent. Recompute radical equality, propagation, common
+  graph domains, closed range, uniform positivity, maximal generation and
+  boundary traces. Do not relabel K740's raw rank `122864` as K132 repair:
+  its measured complement is only `162/162/8323`.
+
   K1176--K1180 impose the null-dominated shared ceiling `106536` on any
   stratum-independent repair packet and audit the strongest serialized native
   response/tangent ceilings. The single best optimistic ceiling `1571` leaves

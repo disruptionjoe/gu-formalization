@@ -1,0 +1,60 @@
+{
+  "claim_ceiling": "exact frozen finite-symbol complement ranks; no global complex, positive quotient, domain, prediction or source-claim verdict",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "created": "2026-10-05",
+  "decision": {
+    "first_measured_source_owned_k132_carrier_map": true,
+    "protected_verdict_change": "none",
+    "sufficient_radical_capture": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "cases": [
+      {
+        "case": "native_nonnull",
+        "field_dimension": 229386,
+        "hessian_kernel_dimension": 98474,
+        "hessian_rank": 130912,
+        "ker_h_intersect_ker_j_dimension": 98312,
+        "owned_gauge_rank": 4,
+        "physical_candidate_residual_after_gauge": 98308,
+        "rank_j_on_ker_h": 162,
+        "stacked_h_j_rank": 131074
+      },
+      {
+        "case": "native_null_auxiliary_nonzero",
+        "field_dimension": 229386,
+        "hessian_kernel_dimension": 106638,
+        "hessian_rank": 122748,
+        "ker_h_intersect_ker_j_dimension": 98315,
+        "owned_gauge_rank": 4,
+        "physical_candidate_residual_after_gauge": 98311,
+        "rank_j_on_ker_h": 8323,
+        "stacked_h_j_rank": 131071
+      }
+    ]
+  },
+  "map": "J_q=principal D(Upsilon)_q on the action-owned full connection carrier",
+  "pinned_inputs": {
+    "k720": {
+      "path": "lab/process/k720-sc-act-06-selected-i1b-euclidean-bosonic-symbol.json",
+      "sha256": "c0019f3f8ad286995b31b81d571e429487e004b07becb37a73cdf36baba16aaa"
+    },
+    "k740": {
+      "path": "lab/process/k740-sc-act-06-expanded-principal-response-rank.json",
+      "sha256": "bc1d8b00bf4c58c1cd3a9da36e8933218476ca4a7182a84a10131a058b8867e7"
+    },
+    "k743": {
+      "path": "lab/process/k743-sc-act-06-residual-square-image-cap.json",
+      "sha256": "3e2eb52e889bc575bae556f10a3bc64f86b07c2c382e826e8ada8abc7d9cd0cb"
+    },
+    "k745": {
+      "path": "lab/process/k745-sc-act-06-gauge-redundancy-obstruction.json",
+      "sha256": "460a3c0981d9cb8fef8e54e4ef1fd5217e4ed922b5bbfdf92416fcc4f8134994"
+    }
+  },
+  "result_id": "K1182-NATIVE-UPSILON-K132-COMPLEMENT-RANKS",
+  "schema_version": "1.0",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

@@ -1,0 +1,45 @@
+{
+  "claim_ceiling": "sharp dimension-only overlap interval; no measured common coupling or source ownership for the rank-98 channel",
+  "created": "2026-10-05",
+  "exact_controls": {
+    "cases": [
+      {
+        "case": "native_nonnull",
+        "j_complement_before_prior": 162,
+        "j_sequential_complement_max": 162,
+        "j_sequential_complement_min": 64,
+        "joint_rank_max": 260,
+        "joint_rank_min": 162,
+        "prior_channel_rank": 98,
+        "repair_residual_best_case": 98210,
+        "repair_residual_worst_overlap": 98308
+      },
+      {
+        "case": "native_null_auxiliary_nonzero",
+        "j_complement_before_prior": 8323,
+        "j_sequential_complement_max": 8323,
+        "j_sequential_complement_min": 8225,
+        "joint_rank_max": 8421,
+        "joint_rank_min": 8323,
+        "prior_channel_rank": 98,
+        "repair_residual_best_case": 98213,
+        "repair_residual_worst_overlap": 98311
+      }
+    ]
+  },
+  "pinned_inputs": {
+    "k1173": {
+      "path": "lab/process/k1173-k132-causal-repair-polytope.json",
+      "sha256": "3892809d76c1a07002ae981ad1c121f7766dccdddfceb33f75a7907603c8d138"
+    },
+    "k1182": {
+      "path": "lab/process/k1182-native-upsilon-k132-complement-ranks.json",
+      "sha256": "a8dd4bfdb5ced31e7e5661e5c19c1fcdaaa70774aab4d84ae7160c5e28dbc60e"
+    }
+  },
+  "prior_channel_ownership": "favorable unowned K132 transport grant",
+  "result_id": "K1183-RANK98-OVERLAP-ENVELOPE",
+  "schema_version": "1.0",
+  "status": "working_draft_verified",
+  "theorem": "for subspaces of ranks a,b, the second sequential complement lies in [max(0,b-a),b]"
+}

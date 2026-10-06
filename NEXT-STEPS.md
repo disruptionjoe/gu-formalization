@@ -7,6 +7,18 @@ updated_at: "2026-10-05"
 
 # Next Steps For Contributors
 
+> **2026-10-05 K1181--K1185 MEASURED NATIVE UPSILON CANDIDATE.** The full raw
+> Upsilon response `J` is the first source-owned map measured on the current
+> K132 carrier. Its exact causal complement ranks are `162/162/8323`, not its
+> raw rank `122864`. After the owned rank-four gauge image it leaves
+> `98308/98308/98311` directions; even optimal independent placement of the
+> still-unowned rank-98 channel leaves `98210/98210/98213`. `J` therefore
+> fails radical capture before common-domain, closed-range, positivity and
+> generator gates can promote it. Next derive a source-owned map with new
+> complement outside the joint `H/J/prior-channel` span at those ranks, own an
+> enlarged closed gauge/KT image, or change the stationary parent and recompute
+> every K1150 gate. Do not equate raw response rank with complement rank.
+
 > **2026-10-05 K1176--K1180 NATIVE CANDIDATE REPAIR AUDIT.** A single
 > stratum-independent all-causal packet needs a shared repair ceiling of at
 > least `106536`. The strongest serialized nearby native ceilings are

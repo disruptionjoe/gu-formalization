@@ -1,0 +1,87 @@
+{
+  "claim_ceiling": "candidate admission audit only; no global complex, positivity, prediction, confirmation or claim-status change",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "created": "2026-10-05",
+  "gate_rows": [
+    {
+      "evidence": "K740/K1182",
+      "gate": "source-owned map on frozen carrier",
+      "status": "PASS"
+    },
+    {
+      "evidence": "K1182: 162/162/8323",
+      "gate": "measured causal complement ranks",
+      "status": "PASS"
+    },
+    {
+      "evidence": "K745 principal complex",
+      "gate": "annihilates owned gauge image",
+      "status": "PASS"
+    },
+    {
+      "evidence": "residual dimensions 98308/98308/98311",
+      "gate": "captures Hessian radical modulo gauge",
+      "status": "FAIL"
+    },
+    {
+      "evidence": "best residual dimensions 98210/98210/98213",
+      "gate": "survives favorable rank-98 predecessor",
+      "status": "FAIL"
+    },
+    {
+      "evidence": "not supplied",
+      "gate": "common complete graph domain",
+      "status": "OPEN"
+    },
+    {
+      "evidence": "not supplied",
+      "gate": "closed range and Hausdorff quotient",
+      "status": "OPEN"
+    },
+    {
+      "evidence": "radical capture already fails",
+      "gate": "uniform positive quotient gap",
+      "status": "OPEN"
+    },
+    {
+      "evidence": "not supplied",
+      "gate": "maximal skew-adjoint generator",
+      "status": "OPEN"
+    },
+    {
+      "evidence": "not supplied",
+      "gate": "boundary trace preservation",
+      "status": "OPEN"
+    }
+  ],
+  "pinned_inputs": {
+    "k1150": {
+      "path": "lab/process/k1150-i1b-functional-admission-compiler.json",
+      "sha256": "442aa09e758b0651b80c0876618a71871e41418585226920aed0ffeef9d1d21d"
+    },
+    "k1182": {
+      "path": "lab/process/k1182-native-upsilon-k132-complement-ranks.json",
+      "sha256": "a8dd4bfdb5ced31e7e5661e5c19c1fcdaaa70774aab4d84ae7160c5e28dbc60e"
+    },
+    "k1183": {
+      "path": "lab/process/k1183-rank98-overlap-envelope.json",
+      "sha256": "5f58886085d2a246774cd2d7fec69a182bb9210c17573482147dbee2445ce8df"
+    },
+    "k745": {
+      "path": "lab/process/k745-sc-act-06-gauge-redundancy-obstruction.json",
+      "sha256": "460a3c0981d9cb8fef8e54e4ef1fd5217e4ed922b5bbfdf92416fcc4f8134994"
+    }
+  },
+  "protected_disposition": "SC-ACT-01/02/06 ASSERTS; SC-META-53 UNCERTAIN; LT-SM8/LT-GR6b/RA-F1/AC-F1 NEEDS",
+  "result_id": "K1184-NATIVE-UPSILON-ADMISSION-AUDIT",
+  "schema_version": "1.0",
+  "status": "working_draft_verified",
+  "summary": {
+    "candidate_sufficient": false,
+    "fail": 2,
+    "failure_precedes_functional_promotion": true,
+    "open": 5,
+    "pass": 3
+  },
+  "target_claim": "SC-ACT-06"
+}

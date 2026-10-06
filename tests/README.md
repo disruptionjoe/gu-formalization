@@ -4,6 +4,24 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1181--K1185 measured native Upsilon candidate
+
+- K1181 proves the exact kernel-complement identity and checks four sharp
+  controls (`12` declared controls; `9/9` hostile mutations).
+- K1182 extracts the full raw Upsilon response's exact K132 complement ranks
+  `162/162/8323` (`18`; `14/14`).
+- K1183 gives the sharp overlap envelope against the favorable rank-98 channel
+  and the best residual `98210/98210/98213` (`16`; `11/11`).
+- K1184 audits source ownership, gauge annihilation, radical capture and the
+  K1150 functional obligations (`15`; `10/10`).
+- K1185 integrates the first measured native candidate into the current
+  frontier (`18`; `16/16`).
+
+The five producers pass `79` declared controls; the five probes reject `60/60`
+hostile mutations. These tests do not construct a global complex, closed
+gauge/KT image, common domain, positive physical quotient, prediction or
+confirmation.
+
 ## K1176--K1180 native candidate repair audit
 
 - K1176 proves the null-dominated shared ceiling for one uniformly bounded
