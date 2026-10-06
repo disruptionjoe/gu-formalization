@@ -7,6 +7,19 @@ updated_at: "2026-10-06"
 
 # Next Steps For Contributors
 
+> **2026-10-06 K1251--K1255 TWO-WEIGHT SOURCE-EPSILON SELECTOR BOUNDARY.**
+> On the regular `I2>0` quotient horn, `r=sqrt(I2)` and six scale-invariant
+> shapes form an exact chart with Jacobian `2 r^48`. The constructed
+> two-weight law `V=s^4(2+Q)+s^2(-4+Q)` has a unique finite minimum and
+> positive rank-seven Hessian, proving the K1247 single-weight obstruction is
+> sharp. It also imports exactly one scale and six shape values, is not
+> source-owned, is nonproper at the open `I2=0` chart boundary, and supplies
+> no functional BV-BFV packet. Next supply an action-derived boundary or
+> Green law fixing all seven orbit data on a common closed domain, with closed
+> range, positive quotient gap, causal Green/maximal generator data and
+> positive nonzero cohomology. `kappa_1` alone, finite minimization and the
+> existence of a selector family do not supply that ownership.
+
 > **2026-10-06 K1246--K1250 SOURCE-EPSILON SCALE-SELECTION BOUNDARY.** Split
 > `D7` has primitive invariant degrees `2,4,6,7,8,10,12`, so K946's regular
 > quotient carries seven weighted coordinates. For any invariant potential of

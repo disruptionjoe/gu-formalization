@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1255-TWO-WEIGHT-SELECTOR-ADMISSION-BOUNDARY",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-ACT-06",
+  "scope": "Integrated finite selector and functional-admission boundary after the K1251--K1254 two-weight construction.",
+  "pinned_inputs": {
+    "k1251": {"path": "lab/process/k1251-source-epsilon-radial-shape-chart.json", "sha256": "bcadd150075787034815ee375b358ef8d3ecdf06dd79c4cf05a7c492afcafe63"},
+    "k1252": {"path": "lab/process/k1252-two-weight-full-rank-selector.json", "sha256": "0ec88a6d727493f18830a4031261710ff6abebc3176279a7d3d6b7cb5d0acda4"},
+    "k1253": {"path": "lab/process/k1253-two-weight-selector-data-inventory.json", "sha256": "4b50a2ee17ce2da1dffdd60720c0033d66e276d19369f2c4d23b8d7b8ec55fc4"},
+    "k1254": {"path": "lab/process/k1254-two-weight-local-properness-boundary.json", "sha256": "4a9159816e00a4691b4dfdd54776ab90e7c3ca7e27596066953ddf5093bd3520"}
+  },
+  "certificate": {
+    "rows": [
+      {"row": "regular positive-I2 radial/shape chart", "state": "satisfied"},
+      {"row": "two-weight full-rank finite selector", "state": "satisfied"},
+      {"row": "unique minimum on the finite open horn", "state": "satisfied"},
+      {"row": "single-weight scale-free full-rank selector", "state": "excluded"},
+      {"row": "source-owned boundary law", "state": "missing"},
+      {"row": "source-selected scale and six shapes", "state": "missing"},
+      {"row": "common closed functional domain", "state": "missing"},
+      {"row": "closed range and positive quotient gap", "state": "missing"},
+      {"row": "causal Green or maximal generator packet", "state": "missing"},
+      {"row": "positive nonzero physical cohomology", "state": "missing"}
+    ],
+    "satisfied_count": 3,
+    "excluded_count": 1,
+    "missing_count": 6,
+    "k1145_pass_count": 0,
+    "k1150_pass_count": 0
+  },
+  "decision": {
+    "scientific_effect": "TWO_WEIGHT_FINITE_SELECTOR_EXISTS_BUT_IMPORTS_SEVEN_UNOWNED_ORBIT_DATA_WITHOUT_FUNCTIONAL_ADMISSION",
+    "two_weight_escape_exists_mathematically": true,
+    "two_weight_escape_is_source_owned": false,
+    "regular_nonzero_orbit_is_source_selected": false,
+    "charged_boundary_symmetry_remains_honest_default": true,
+    "SC_ACT_06_proved_or_refuted": false,
+    "next_condition": "Supply an action-derived boundary or Green law fixing one scale and six shapes on a common closed functional domain, then prove closed range, a positive quotient gap, causal evolution and positive nonzero cohomology."
+  },
+  "source_and_ledger_effect": "SC-ACT-01_02_06_ASSERTS_UNCHANGED__SC-META-53_UNCERTAIN_UNCHANGED__LT-SM8_LT-GR6b_RA-F1_AC-F1_NEEDS_UNCHANGED__LEDGER_UNCHANGED",
+  "protected_status_effect": "none",
+  "claim_ceiling": "Exact finite existence, parameter and properness boundary only; no GU ellipticity, physical positivity, prediction or confirmation.",
+  "controls": {"producer": "tests/channel-swings/k1255_two_weight_selector_admission_boundary.py", "probe": "tests/channel-swings/k1255_two_weight_selector_admission_boundary_probe.py", "controls_passed": 15, "hostile_mutations_rejected": 10}
+}

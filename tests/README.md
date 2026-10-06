@@ -4,6 +4,36 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1251--K1255 two-weight source-epsilon selector boundary
+
+- K1251 reproduces the positive-`I2` radial/shape chart and its exact Jacobian
+  (`11/11`; `9/9`).
+- K1252 verifies the two-weight potential's zero gradient, rank-seven positive
+  Hessian, critical-point coordinate congruence, determinant and lower-bound
+  identity (`14/14`; `10/10`).
+- K1253 verifies the one-scale/six-shape parameterization and source-ownership
+  boundary (`15/15`; `10/10`).
+- K1254 verifies the unique finite horn minimum, open-chart boundary escape
+  and absence of functional properness data (`17/17`; `11/11`).
+- K1255 composes the ten-row finite/functional admission certificate
+  (`15/15`; `10/10`).
+
+The five producers pass `72/72` controls and the probes reject `50/50`
+hostile mutations.
+
+```bash
+python3 tests/channel-swings/k1251_source_epsilon_radial_shape_chart.py
+python3 tests/channel-swings/k1251_source_epsilon_radial_shape_chart_probe.py
+python3 tests/channel-swings/k1252_two_weight_full_rank_selector.py
+python3 tests/channel-swings/k1252_two_weight_full_rank_selector_probe.py
+python3 tests/channel-swings/k1253_two_weight_selector_data_inventory.py
+python3 tests/channel-swings/k1253_two_weight_selector_data_inventory_probe.py
+python3 tests/channel-swings/k1254_two_weight_local_properness_boundary.py
+python3 tests/channel-swings/k1254_two_weight_local_properness_boundary_probe.py
+python3 tests/channel-swings/k1255_two_weight_selector_admission_boundary.py
+python3 tests/channel-swings/k1255_two_weight_selector_admission_boundary_probe.py
+```
+
 ## K1246--K1250 source-epsilon scale-selection boundary
 
 - K1246 reproduces the split-D7 dimension, rank, exponents, primitive

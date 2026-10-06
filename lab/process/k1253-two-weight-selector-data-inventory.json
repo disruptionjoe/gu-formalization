@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1253-TWO-WEIGHT-SELECTOR-DATA-INVENTORY",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "SC-ACT-06",
+  "scope": "Exact data inventory of the K1252 two-weight selector family on the I2-positive regular quotient horn.",
+  "gu_typed_objects": {
+    "carrier": "seven-dimensional regular split-D7 quotient horn I2>0",
+    "pairing": "finite coordinate Hessian only",
+    "real_structure": "real positive-I2 radial/shape chart",
+    "grading": "one scale plus six weight-zero shape ratios",
+    "action_owner": "repository-constructed selector family; no source boundary owner",
+    "target": "DATA-TYPE=regular orbit value inventory"
+  },
+  "pinned_inputs": {
+    "k1251": {"path": "lab/process/k1251-source-epsilon-radial-shape-chart.json", "sha256": "bcadd150075787034815ee375b358ef8d3ecdf06dd79c4cf05a7c492afcafe63"},
+    "k1252": {"path": "lab/process/k1252-two-weight-full-rank-selector.json", "sha256": "0ec88a6d727493f18830a4031261710ff6abebc3176279a7d3d6b7cb5d0acda4"},
+    "source_register": {"path": "lab/sources/source-claim-register.yaml", "sha256": "dc3ae173b4cc0eb2a0e343e3d92d5f110b8e4f6eef3e2852a1e897ab4371ade6"}
+  },
+  "inventory": {
+    "selected_scale": "r0>0",
+    "selected_shapes": ["c4", "c6", "c7", "c8", "c10", "c12"],
+    "independent_selector_data_count": 7,
+    "selected_invariants": ["I2*=r0^2", "I4*=r0^4 c4", "I6*=r0^6 c6", "I7*=r0^7 c7", "I8*=r0^8 c8", "I10*=r0^10 c10", "I12*=r0^12 c12"],
+    "inverse_from_selected_invariants": ["r0=sqrt(I2*)", "c_d=I_d*/r0^d"],
+    "parameterization_is_bijective_on_horn": true,
+    "fixed_weight_degrees_add_selector_data": 0,
+    "favorable_kappa1_as_scale_grant_leaves_shape_data": 6,
+    "source_displays_shape_ratios": false,
+    "source_derives_boundary_coupling_to_chart": false
+  },
+  "decision": {
+    "construction_relocates_seven_orbit_values_into_coefficients": true,
+    "construction_reduces_unowned_regular_orbit_freedom": false,
+    "kappa1_alone_proved_to_select_orbit": false,
+    "source_owned": false,
+    "SC_ACT_06_proved_or_refuted": false,
+    "next_exact_input": "Supply an action-derived boundary map that fixes r0 and all six c_d, not merely the existence of a seven-parameter selector family."
+  },
+  "source_and_ledger_effect": "SC-ACT-01_02_06_ASSERTS_UNCHANGED__SC-META-53_UNCERTAIN_UNCHANGED__AC-F1_LT-SM8_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Exact parameter inventory for the constructed family only. It does not establish a universal lower bound on all possible source laws or prove that kappa_1 couples to the quotient scale.",
+  "controls": {"producer": "tests/channel-swings/k1253_two_weight_selector_data_inventory.py", "probe": "tests/channel-swings/k1253_two_weight_selector_data_inventory_probe.py", "controls_passed": 15, "hostile_mutations_rejected": 10}
+}

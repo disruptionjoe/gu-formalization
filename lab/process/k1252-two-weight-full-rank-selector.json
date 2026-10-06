@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1252-TWO-WEIGHT-FULL-RANK-SELECTOR",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "SC-ACT-06",
+  "scope": "Exact two-weight invariant selector construction on the regular split-D7 quotient horn I2>0.",
+  "gu_typed_objects": {
+    "carrier": "K1251 radial/shape chart (r,y4,y6,y7,y8,y10,y12)",
+    "pairing": "ordinary Hessian on the seven finite quotient coordinates",
+    "real_structure": "real I2-positive regular quotient horn",
+    "grading": "sum of weighted degrees four and two",
+    "action_owner": "repository-constructed two-weight potential; not source-owned",
+    "target": "SELECTOR-TYPE=finite nondegenerate regular seven-lock"
+  },
+  "pinned_inputs": {
+    "k1247": {"path": "lab/process/k1247-weighted-homogeneous-selector-no-go.json", "sha256": "98903ce8649a2bc66b0c268dd15ce614f0ddac620dfdb485070a6db90646d182"},
+    "k1251": {"path": "lab/process/k1251-source-epsilon-radial-shape-chart.json", "sha256": "bcadd150075787034815ee375b358ef8d3ecdf06dd79c4cf05a7c492afcafe63"}
+  },
+  "construction": {
+    "dimensionless_radius": "s=r/r0",
+    "shape_distance": "Q(y)=1/2 sum_d (y_d-c_d)^2",
+    "degree_four_component": "V4=s^4(2+Q)",
+    "degree_two_component": "V2=s^2(-4+Q)",
+    "total_potential": "V=V4+V2",
+    "selected_point": "s=1 and y=c",
+    "gradient_at_selected_point": [0, 0, 0, 0, 0, 0, 0],
+    "hessian_in_r_shape_coordinates": ["16/r0^2", 2, 2, 2, 2, 2, 2],
+    "hessian_rank": 7,
+    "hessian_inertia": [7, 0, 0],
+    "scaled_hessian_determinant": "1024/r0^2",
+    "critical_point_coordinate_congruence_preserves_rank_and_inertia": true,
+    "exact_lower_bound_identity": "V+2=2(s^2-1)^2+(s^4+s^2)Q",
+    "unique_minimum_on_chart": true
+  },
+  "decision": {
+    "two_distinct_weighted_components_are_locally_sufficient": true,
+    "single_weight_obstruction_evaded": true,
+    "source_owned": false,
+    "functional_BV_BFV_properness_constructed": false,
+    "SC_ACT_06_proved_or_refuted": false,
+    "next_exact_input": "Inventory the scale r0 and six shape values c_d carried by the constructed law, then distinguish finite horn selection from functional admission."
+  },
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__AC-F1_LT-SM8_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Exact existence and sufficiency construction for a repository-built two-weight finite selector on I2>0; it supplies no source owner, boundary derivation, functional domain or physical cohomology.",
+  "controls": {"producer": "tests/channel-swings/k1252_two_weight_full_rank_selector.py", "probe": "tests/channel-swings/k1252_two_weight_full_rank_selector_probe.py", "controls_passed": 14, "hostile_mutations_rejected": 10}
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1251-SOURCE-EPSILON-RADIAL-SHAPE-CHART",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-ACT-06",
+  "scope": "Exact radial/shape coordinates on the regular split-D7 invariant quotient horn I2>0.",
+  "gu_typed_objects": {
+    "carrier": "regular invariant quotient coordinates (I2,I4,I6,I7,I8,I10,I12) with I2>0",
+    "pairing": "ordinary coordinate pairing only",
+    "real_structure": "real split-D7 invariant base",
+    "grading": "one radial coordinate of charge weight one and six scale-invariant shapes",
+    "action_owner": "source epsilon owns the cotangent parent; the chart owns no selector law",
+    "target": "COORDINATE-TYPE=regular positive-I2 quotient horn"
+  },
+  "pinned_inputs": {
+    "k1246": {"path": "lab/process/k1246-source-epsilon-invariant-weight-census.json", "sha256": "4f493bd54ff91a513233e7e78f3d33f9d24a85028a31bceb1d969efda669decd"}
+  },
+  "theorem": {
+    "weights": [2, 4, 6, 7, 8, 10, 12],
+    "horn": "I2>0",
+    "radial_coordinate": "r=sqrt(I2)>0",
+    "shape_coordinates": ["y4=I4/r^4", "y6=I6/r^6", "y7=I7/r^7", "y8=I8/r^8", "y10=I10/r^10", "y12=I12/r^12"],
+    "inverse_chart": ["I2=r^2", "I4=r^4 y4", "I6=r^6 y6", "I7=r^7 y7", "I8=r^8 y8", "I10=r^10 y10", "I12=r^12 y12"],
+    "jacobian_determinant": "2 r^48",
+    "chart_dimension": 7,
+    "radial_dilation": "r(t mu)=t r(mu) for t>0",
+    "shapes_are_dilation_invariant": true,
+    "global_split_real_orbit_classification_claimed": false
+  },
+  "decision": {
+    "regular_positive_I2_horn_has_one_scale_and_six_shapes": true,
+    "chart_selects_any_coordinate": false,
+    "negative_or_zero_I2_horns_covered": false,
+    "SC_ACT_06_proved_or_refuted": false,
+    "next_exact_input": "Test whether two distinct weighted components can select r and all six shapes with a nondegenerate Hessian."
+  },
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__AC-F1_LT-SM8_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Exact coordinate theorem on the I2-positive regular horn only; no boundary law, source-selected charge, functional domain or physical cohomology follows.",
+  "controls": {"producer": "tests/channel-swings/k1251_source_epsilon_radial_shape_chart.py", "probe": "tests/channel-swings/k1251_source_epsilon_radial_shape_chart_probe.py", "controls_passed": 11, "hostile_mutations_rejected": 9}
+}

@@ -7,6 +7,19 @@ updated_at: "2026-10-06"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1251--K1255 two-weight source-epsilon selector boundary (2026-10-06)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The regular `I2>0` quotient horn has one radial and six shape coordinates | K1251 chart with Jacobian `2 r^48`; producer `11/11`; hostile mutations `9/9` | exact finite coordinate theorem on one horn; no global orbit-space claim |
+| Two weighted components suffice for a rank-seven selector | K1252 potential, zero gradient, Hessian `diag(16/r0^2,2,2,2,2,2,2)`, determinant `1024/r0^2`, and critical-point coordinate congruence; `14/14`; `10/10` | exact repository construction; not a source boundary law |
+| The selector family imports one scale and six shapes | K1253 bijection between `(r0,c_d)` and selected invariant tuple; `15/15`; `10/10` | exact inventory for this family; no universal lower-bound claim |
+| The finite horn minimum is unique but not proper on the open chart | K1254 lower-bound identity and `s_n=1/n` boundary escape; `17/17`; `11/11` | exact finite open-horn statement; extensions through `I2=0` remain open |
+| Functional admission remains absent | K1255 three satisfied, one excluded and six missing rows; K1145/K1150 `0/7`; `15/15`; `10/10` | no source ownership, GU ellipticity, positive physical quotient, prediction or confirmation |
+
+Five producers pass `72/72` declared controls and five probes reject `50/50`
+hostile mutations.
+
 ## K1246--K1250 source-epsilon scale-selection boundary (2026-10-06)
 
 | Claim | Evidence | Honest grade |
