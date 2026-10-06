@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1233-MINIMAL-HOLDOUT-SOURCE-CERTIFICATE",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "direction": "observed_to_native",
+  "target_claim": "NONE-NOT-A-KILL",
+  "scope": "Linear identifiability for one normalized binary-pair coincidence table at fixed analyzers.",
+  "probability_law": "p_xy=(1+xA+yB+xyC)/4",
+  "certificate": ["A=a.(M u+t)", "B=b.v", "C=a^T(M T+t v^T)b"],
+  "minimum_independent_statistics": 3,
+  "inverse": ["A=sum_xy x p_xy", "B=sum_xy y p_xy", "C=sum_xy x y p_xy"],
+  "decision": {"normalization_alone_reduces_four_probabilities_to_three": true, "process_calibration_supplies_certificate": false, "certificate_must_be_fixed_before_holdout_unseal": true},
+  "ownership": {"source_characterization_or_certified_preparation_required": true, "gu_native_effect": "none"},
+  "claim_ceiling": "Exact linear minimum for one holdout table; no full source tomography, empirical score, loophole closure or GU result."
+}

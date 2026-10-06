@@ -7,6 +7,22 @@ updated_at: "2026-10-06"
 
 # Next Steps For Contributors
 
+> **2026-10-06 K1231--K1235 BELL SOURCE-STATE IDENTIFIABILITY BOUNDARY.**
+> K1229's `Phi+` table is a valid conditional specialization, but the eighteen
+> affine-process reads do not identify its source-state premises. For general
+> two-qubit Bloch data `(u,v,T)`, the first-arm channel sends
+> `u -> M u+t` and `T -> M T+t v^T`; one binary analyzer pair depends on the
+> three independent scalars `A=a.(M u+t)`, `B=b.v` and
+> `C=a^T(M T+t v^T)b`. Four Bell states plus the maximally mixed state share
+> the same channel and zero local source marginals yet give five distinct
+> holdout tables. Full channel/source linear identification has floor 27;
+> the selected table needs a separate rank-three source certificate and joint
+> floor 15. Next instantiate K1226 with an independently certified `Phi+`
+> preparation or those three source quantities from characterization data
+> disjoint from the holdout, then freeze error budgets and score without
+> refitting. Keep delayed-choice entanglement swapping reserved and award no
+> GU-native, prediction, confirmation or protected-verdict credit.
+
 > **2026-10-06 K1226--K1230 COMMON-CHANNEL OWNER AND HOLDOUT BOUNDARY.** A
 > typed flight card now binds one randomized channel module to the paired
 > axial process frame and a `Phi+` Bell branch through shared hardware,

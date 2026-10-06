@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1232-SAME-CHANNEL-SOURCE-STATE-COUNTEREXAMPLES",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "direction": "observed_to_native",
+  "target_claim": "NONE-NOT-A-KILL",
+  "scope": "Five physical two-qubit sources under the same K1223 channel and K1229 analyzers.",
+  "controls": {
+    "Phi+": {"local_marginals": ["0", "0"], "correlation": "99/1625", "probabilities": ["1349/6500", "1151/6500", "1901/6500", "2099/6500"]},
+    "Phi-": {"local_marginals": ["0", "0"], "correlation": "51/1625", "probabilities": ["1301/6500", "1199/6500", "1949/6500", "2051/6500"]},
+    "Psi+": {"local_marginals": ["0", "0"], "correlation": "-99/1625", "probabilities": ["1151/6500", "1349/6500", "2099/6500", "1901/6500"]},
+    "Psi-": {"local_marginals": ["0", "0"], "correlation": "-51/1625", "probabilities": ["1199/6500", "1301/6500", "2051/6500", "1949/6500"]},
+    "mixed": {"local_marginals": ["0", "0"], "correlation": "0", "probabilities": ["5/26", "5/26", "4/13", "4/13"]}
+  },
+  "decision": {"same_process_data_and_source_marginals_determine_holdout": false, "phi_plus_is_independent_premise": true, "all_tables_normalized_and_positive": true},
+  "ownership": {"bell_source_certificate_required": true, "gu_native_effect": "none"},
+  "claim_ceiling": "Exact physical-state counterexamples to channel-only holdout identification; no apparatus or GU conclusion."
+}

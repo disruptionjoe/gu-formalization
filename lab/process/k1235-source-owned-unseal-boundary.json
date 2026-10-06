@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1235-SOURCE-OWNED-UNSEAL-BOUNDARY",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "direction": "observed_to_native",
+  "target_claim": "NONE-NOT-A-KILL",
+  "scope": "Integrated source-state prerequisite for the K1229 off-frame Bell holdout.",
+  "required_before_unseal": ["common channel hardware and configuration identity", "authenticated process SPAM frame or gate set", "independent source-state certificate for A, B and C", "source-characterization data disjoint from the sealed holdout", "immutable randomized schedule digest", "raw attempt and inclusion records", "drift, loss and locality bounds", "holdout count and alpha budget", "systematic-error ceiling"],
+  "decision": {"k1229_formula_remains_valid_under_declared_phi_plus_premise": true, "channel_calibration_alone_authorizes_unseal": false, "holdout_may_fit_its_own_source_certificate": false, "delayed_choice_entanglement_swapping_consumed": false},
+  "protected_status": {"SC-ACT-01": "ASSERTS", "SC-ACT-02": "ASSERTS", "SC-ACT-06": "ASSERTS", "SC-META-53": "UNCERTAIN", "LT-SM8": "NEEDS", "LT-GR6b": "NEEDS", "RA-F1": "NEEDS", "AC-F1": "NEEDS"},
+  "ownership": {"channel_source_pairing_analyzers_counts_and_systematics_imported": true, "gu_native_effect": "none"},
+  "next_input": "One completed common-owner flight card with an independent three-scalar source certificate or stronger source characterization, plus raw blinded records and frozen error budgets.",
+  "claim_ceiling": "Exact conditional source-ownership and unseal boundary; no empirical score, loophole closure, prediction, confirmation or GU-native result."
+}

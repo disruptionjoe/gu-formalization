@@ -4,6 +4,34 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1231--K1235 Bell source-state identifiability boundary
+
+- K1231 derives the general two-qubit Bloch transformation under a local
+  affine channel and recovers K1229 only after supplying the `Phi+` source.
+- K1232 keeps the channel and zero source marginals fixed while five physical
+  sources produce five distinct holdout tables.
+- K1233 proves the rank-three `A,B,C` minimum for one normalized binary-pair
+  table.
+- K1234 separates the 12 channel and 15 source coordinates, giving full and
+  selected-holdout floors 27 and 15.
+- K1235 integrates the independent-source-characterization and no-refit
+  boundary without consuming delayed-choice entanglement swapping.
+
+Run directly:
+
+```bash
+python3 tests/channel-swings/k1231_affine_local_channel_two_qubit_law.py
+python3 tests/channel-swings/k1231_affine_local_channel_two_qubit_law_probe.py
+python3 tests/channel-swings/k1232_same_channel_source_state_counterexamples.py
+python3 tests/channel-swings/k1232_same_channel_source_state_counterexamples_probe.py
+python3 tests/channel-swings/k1233_minimal_holdout_source_certificate.py
+python3 tests/channel-swings/k1233_minimal_holdout_source_certificate_probe.py
+python3 tests/channel-swings/k1234_joint_identifiability_floor.py
+python3 tests/channel-swings/k1234_joint_identifiability_floor_probe.py
+python3 tests/channel-swings/k1235_source_owned_unseal_boundary.py
+python3 tests/channel-swings/k1235_source_owned_unseal_boundary_probe.py
+```
+
 ## K1226--K1230 common-channel owner and holdout boundary
 
 - K1226 types the common channel/calibration/Bell apparatus flight card

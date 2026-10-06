@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1234-JOINT-IDENTIFIABILITY-FLOOR",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "direction": "observed_to_native",
+  "target_claim": "NONE-NOT-A-KILL",
+  "scope": "Linear parameter floors for an affine qubit channel and an independently prepared general two-qubit source in authenticated frames.",
+  "dimensions": {"affine_channel": 12, "general_two_qubit_source": 15, "joint_full_owner": 27, "joint_single_holdout": 15},
+  "block_jacobian": {"process_rows_on_source_columns": 0, "selected_holdout_source_rank": 3, "full_source_tomography_rank": 15},
+  "decision": {"eighteen_process_reads_identify_general_source": false, "full_source_tomography_required_for_single_holdout": false, "independent_three_scalar_source_certificate_suffices_for_single_holdout": true},
+  "ownership": {"physical_frame_still_requires_independent_authentication": true, "joint_statistics_do_not_self_authenticate_hardware": true, "gu_native_effect": "none"},
+  "claim_ceiling": "Exact finite-dimensional linear floor inside the declared channel/source/Born class; no nonlinear global tomography optimum or physical ownership."
+}

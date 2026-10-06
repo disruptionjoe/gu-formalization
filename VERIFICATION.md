@@ -7,6 +7,22 @@ updated_at: "2026-10-06"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1231--K1235 Bell source-state identifiability boundary (2026-10-06)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A local affine channel sends general two-qubit Bloch data to `u'=M u+t`, `v'=v`, `T'=M T+t v^T` | K1231 exact operator-basis derivation and K1229 specialization; producer `12/12`; hostile mutations `5/5` | exact finite-dimensional identity; state, channel and Born owner imported |
+| A common channel and zero source marginals do not determine the holdout | K1232 four Bell states plus maximally mixed control with five distinct exact tables; `11/11`; `5/5` | exact physical-state counterexample; no apparatus claim |
+| One normalized binary-pair table needs exactly three independent statistics | K1233 Hadamard rank and inverse moments for `A,B,C`; `10/10`; `5/5` | exact linear minimum for one analyzer pair |
+| Full channel/source identification has floor 27; the selected holdout has joint floor 15 | K1234 block-Jacobian and rank-three selected-source calculation; `10/10`; `7/7` | exact authenticated-frame linear floor; not a hardware-authentication theorem |
+| K1229 may be unsealed only after independent source characterization | K1235 disjoint source-certificate and no-refit integration; `11/11`; `8/8` | exact conditional boundary; no empirical score or loophole closure |
+
+Five producers pass `54/54` declared controls and five probes reject `30/30`
+hostile mutations. An independent Kraus replay passed 2,000 random physical
+two-qubit states with worst probability error `2.220e-16`. No source-characterization
+dataset, apparatus instance or Bell score is supplied. Delayed-choice
+entanglement swapping remains reserved and no protected verdict moves.
+
 ## K1226--K1230 common-channel owner and holdout boundary (2026-10-06)
 
 | Claim | Evidence | Honest grade |

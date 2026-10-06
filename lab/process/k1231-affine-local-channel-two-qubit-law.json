@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1231-AFFINE-LOCAL-CHANNEL-TWO-QUBIT-LAW",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "direction": "observed_to_native",
+  "target_claim": "NONE-NOT-A-KILL",
+  "scope": "General two-qubit Bloch data under one local affine qubit channel and binary analyzer readout.",
+  "input_state": "rho=(I+u.sigma+v.sigma+sum_ij T_ij sigma_i tensor sigma_j)/4",
+  "transformation": {"first_marginal": "u'=M u+t", "second_marginal": "v'=v", "correlation": "T'=M T+t v^T"},
+  "probability_law": "p(x,y|a,b)=[1+x a.(M u+t)+y b.v+x y a^T(M T+t v^T)b]/4",
+  "specialization": {"k1229_requires": ["u=0", "v=0", "T=diag(1,-1,1)"], "a_dot_t": "3/13", "correlation": "99/1625", "probabilities": ["1349/6500", "1151/6500", "1901/6500", "2099/6500"]},
+  "ownership": {"channel_calibration_determines_source_state": false, "all_operational_primitives_imported": true, "gu_native_effect": "none"},
+  "decision": {"k1229_is_a_valid_phi_plus_specialization": true, "general_source_adds_two_marginal_and_correlation_terms": true, "delayed_choice_entanglement_swapping_consumed": false},
+  "claim_ceiling": "Exact finite-dimensional transformation and probability identity; no empirical source certification, locality closure, GU prediction or confirmation."
+}
