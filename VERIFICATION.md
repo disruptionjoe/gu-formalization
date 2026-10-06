@@ -2,10 +2,25 @@
 title: "Verification: What Is Proved, Computed, and Conjectural"
 status: process
 doc_type: verification-map
-updated_at: "2026-10-05"
+updated_at: "2026-10-06"
 ---
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
+
+## K1191--K1195 order-ten projective face route (2026-10-06)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The literal selected hardest-face port has workload `877800`, ratio `1463/216` to order eight, and exceeded a 2000-CPU-second bounded attempt | K1191 exact census plus recorded bounded execution; producer `6/6`; hostile mutations `8/8` | measured implementation boundary; not a mathematical nonexistence or numerical-divergence result |
+| Exact complete-program caching does not collapse the 936 order-ten faces | K1192 audits complete axis/mask/descriptor signatures; producer `6/6`; hostile mutations `8/8` | exact serialization/reuse obstruction; a new factorization may still exist |
+| All 121 zero masks admit a complete 1022-chart maximum-coordinate atlas with 6337 program uses | K1193 exact inverse/Jacobian controls across sixteen codimensions; producer `9/9`; hostile mutations `11/11` | exact coordinate theorem; not an integrand interval |
+| Each chart has mass `1/c!`, and zero/tie boundary routing terminates | K1194 exact combinatorial and measure audit; producer `9/9`; hostile mutations `10/10` | exact measure/routing result; measure-zero boundaries still need integrand majorants |
+| Every reachable codimension has an exact positive non-equal interior direction | K1195 rational inverse controls; producer `5/5`; hostile mutations `8/8` | exact coordinate controls; no Arb/Bessel evaluation claimed |
+
+Five producers pass `35/35` declared controls and five probes reject `45/45`
+hostile mutations. No complete face interval bank, Peano remainder, action
+column, K152 interval, source claim, ledger verdict, canon, paper, public
+posture, prediction or physical conclusion moves.
 
 ## K1186--K1190 corrected enlarged-gauge boundary (2026-10-05)
 

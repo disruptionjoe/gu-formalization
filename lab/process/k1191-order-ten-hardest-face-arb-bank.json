@@ -1,0 +1,67 @@
+{
+  "claim_ceiling": "Exact workload and bounded-execution result for the literal K355-style order-ten hardest-face port. The 22-hybrid, three-level bank requires 877,800 complete descriptor evaluations, exactly 1463/216 times the order-eight predecessor count. One 180-digit single-thread attempt exceeded 2,000 CPU seconds and was interrupted without a durable partial bank. This rejects the literal port for this launch, not the mathematical face program, its finiteness, the order-ten integral, or any source, ledger, canon, paper, public or physical claim.",
+  "classification": "INTERNAL_NUMERICAL_CONTROL_ONLY",
+  "created": "2026-10-06",
+  "decision": {
+    "literal_three_scale_direct_port_selected": false,
+    "mathematical_face_program_rejected": false,
+    "next_exact_input": "Audit exact whole-program reuse before any further Arb execution; preserve the full 936-face question and do not infer numerical failure from host cost.",
+    "port_rejected_for_this_launch_on_measured_resource_cost": true
+  },
+  "direction": "observed_to_native",
+  "execution_observation": {
+    "literal_port_interrupted_after_bounded_window": true,
+    "literal_port_started": true,
+    "measurement_is_a_host_cost_observation_not_a_mathematical_no_go": true,
+    "numerical_or_domain_exception_observed": false,
+    "partial_in_memory_rows_promoted": false
+  },
+  "fixed_control": {
+    "bounded_attempt_arb_decimal_digits": 180,
+    "bounded_attempt_cpu_seconds_lower": 2000,
+    "bounded_attempt_threads": 1,
+    "durable_complete_bank_emitted": false,
+    "exact_workload_ratio_to_order_eight": "1463/216",
+    "hybrid_terms": 22,
+    "normal_levels_per_program": 3,
+    "order_eight_predecessor_descriptor_evaluations": 129600,
+    "ordered_descriptors_per_control": 13300,
+    "planned_complete_arb_controls": 66,
+    "planned_descriptor_control_evaluations": 877800,
+    "positive_interior_fallbacks": 2,
+    "predecessor_manifests": [
+      "lab/process/k412-order-ten-interior-origin-control.json",
+      "lab/process/k415-order-ten-face-program-compiler.json"
+    ],
+    "reachable_face_programs": 20,
+    "selected_program_digest": "sha256:2e733e74248e6e551806a13ab2c2f712675f258f4ec8989c31cb099d2c5e13bf"
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-ACT-01": "ASSERTS_UNCHANGED",
+    "SC-ACT-02": "ASSERTS_UNCHANGED",
+    "SC-ACT-06": "ASSERTS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "release_test": {
+    "bounded_attempt_exceeded_2000_cpu_seconds": true,
+    "complete_order_ten_remainder_not_overclaimed": true,
+    "exact_ratio_1463_over_216": true,
+    "exactly_20_reachable_faces_and_2_fallbacks": true,
+    "exactly_22_hybrids_audited": true,
+    "exactly_66_controls_planned": true,
+    "exactly_877800_descriptor_evaluations_planned": true,
+    "native_K152_interval_not_emitted": true,
+    "no_partial_bank_promoted": true
+  },
+  "result_id": "K1191-ORDER-TEN-HARDEST-FACE-ARB-PORT-COST-BOUNDARY",
+  "schema_version": "1.0",
+  "source_routing": {
+    "classification": "INTERNAL_STRUCTURAL_ONLY",
+    "conditional_repository_Fock_construction_only": true,
+    "source_native_GU_mechanism_tested": false
+  }
+}

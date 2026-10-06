@@ -2,10 +2,25 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-10-05"
+updated_at: "2026-10-06"
 ---
 
 # Next Steps For Contributors
+
+> **2026-10-06 K1191--K1195 ORDER-TEN PROJECTIVE ROUTE.** The literal
+> order-eight Arb face architecture does not scale cheaply: the selected
+> three-level order-ten bank has `877800` complete descriptor evaluations
+> (`1463/216` of the predecessor workload), and a 180-digit single-thread
+> attempt exceeded `2000` CPU seconds without a durable bank. Exact reuse
+> audit finds all `936` complete numerical face-program signatures unique;
+> one cell per face would cost `12448800` descriptor evaluations. Coordinate
+> structure does reuse: `121` zero masks compile to `1022` exact maximum
+> charts and `6337` program-chart uses, with exact mass `1/c!`, terminating
+> zero/tie routing and sixteen exact anisotropic interior controls. Next build
+> a factorized or cached coherent-group evaluator, or a determinant-preserving
+> integrand-weighted boundary envelope, before executing interval boxes. Do
+> not resume the `936`-program brute-force bank, interpret host cost as a
+> mathematical no-go, or promote coordinate controls to a Peano remainder.
 
 > **2026-10-05 K1186--K1190 CORRECTED ENLARGED-GAUGE BOUNDARY.** A proposed
 > current-parent gauge image must lie in `ker H intersection ker J`; raw

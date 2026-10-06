@@ -4,6 +4,27 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1191--K1195 order-ten projective face route
+
+- K1191 audits the literal 22-hybrid, three-level Arb port: `877800`
+  descriptor evaluations, exact workload ratio `1463/216`, and a bounded
+  180-digit attempt exceeding `2000` CPU seconds without a durable bank
+  (`6/6` controls; `8/8` hostile mutations).
+- K1192 proves all `936` complete axis/mask/descriptor programs are unique;
+  the `230` axis-erased signatures and `121` zero masks do not license
+  numerical-integrand reuse (`6/6`; `8/8`).
+- K1193 compiles `1022` exact maximum charts and `6337` program-chart uses
+  across all zero masks (`9/9`; `11/11`).
+- K1194 freezes chart mass `1/c!` and terminating zero/tie boundary routing
+  (`9/9`; `10/10`).
+- K1195 constructs one exact positive non-equal rational interior direction
+  for all sixteen reachable codimensions (`5/5`; `8/8`).
+
+The five producers pass `35/35` controls; the probes reject `45/45` hostile
+mutations. These tests do not emit an all-face interval bank, integrand-weighted
+boundary envelope, recursive cover, Peano remainder, action column, K152
+interval or physical conclusion.
+
 ## K1186--K1190 corrected enlarged-gauge boundary
 
 - K1186 proves that a current-parent gauge image must be annihilated by both

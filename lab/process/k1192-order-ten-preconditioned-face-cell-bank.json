@@ -1,0 +1,66 @@
+{
+  "claim_ceiling": "Exact reuse obstruction and workload census for a positive-width cell on every K415 order-ten face. All 936 complete axis/mask/descriptor program signatures are unique. Erasing axis and descriptor ownership collapses them to 230 signatures and 121 zero masks, but that is coordinate reuse, not licensed numerical-integrand reuse. One cell per face still costs 12,448,800 descriptor evaluations, exactly 156/11 times K1191's entire planned selected bank. No all-face Arb bank, Peano remainder, integral, action column, K152 interval, source, ledger, canon, paper, public or physical claim is emitted.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-10-06",
+  "decision": {
+    "exact_whole_program_reuse_releases_all_face_arb_bank": false,
+    "literal_all_face_bank_deferred_on_measured_resource_cost": true,
+    "next_exact_input": "Exploit the 121 zero masks for projective geometry, but require a new factorization or cached group-level evaluator before returning to the 936 unique numerical programs.",
+    "projective_zero_mask_geometry_released": true
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "confluent_template_count": 75,
+    "face_programs_audited": 936,
+    "full_axis_mask_descriptor_signatures": 936,
+    "full_signature_digest": "sha256:41deea0cd4490088d47a2bda4be2e65d023690e31a1a6f5969e6317e7853aa93",
+    "maximum_programs_per_zero_mask": 20,
+    "one_cell_per_face_descriptor_evaluations": 12448800,
+    "ordered_descriptors_per_face_cell": 13300,
+    "predecessor_manifests": [
+      "lab/process/k413-order-ten-mask-native-preconditioner-compiler.json",
+      "lab/process/k415-order-ten-face-program-compiler.json"
+    ],
+    "ratio_to_K1191_three_scale_selected_bank": "156/11",
+    "reduced_axis_erased_signatures": 230,
+    "singleton_full_signatures": 936,
+    "singular_template_count": 60,
+    "unique_zero_masks": 121
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-ACT-01": "ASSERTS_UNCHANGED",
+    "SC-ACT-02": "ASSERTS_UNCHANGED",
+    "SC-ACT-06": "ASSERTS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "release_test": {
+    "all_936_full_signatures_unique": true,
+    "all_face_bank_not_overclaimed": true,
+    "complete_order_ten_remainder_not_overclaimed": true,
+    "exact_ratio_156_over_11": true,
+    "exactly_121_zero_masks": true,
+    "exactly_12448800_one_cell_descriptor_evaluations": true,
+    "exactly_230_axis_erased_signatures": true,
+    "exactly_60_singular_and_75_confluent_templates": true,
+    "exactly_936_face_programs": true,
+    "maximum_20_programs_per_zero_mask": true
+  },
+  "result_id": "K1192-ORDER-TEN-ALL-FACE-CELL-REUSE-OBSTRUCTION",
+  "reuse_boundary": {
+    "erasing_axis_or_descriptor_data_creates_apparent_reuse_only": true,
+    "every_complete_axis_mask_descriptor_signature_is_unique": true,
+    "one_cell_all_face_bank_executed": false,
+    "template_reuse_eliminates_complete_group_assembly": false,
+    "zero_mask_deduplication_is_coordinate_geometry_not_numerical_integrand_reuse": true
+  },
+  "schema_version": "1.0",
+  "source_routing": {
+    "classification": "INTERNAL_STRUCTURAL_ONLY",
+    "conditional_repository_Fock_construction_only": true,
+    "source_native_GU_mechanism_tested": false
+  }
+}
