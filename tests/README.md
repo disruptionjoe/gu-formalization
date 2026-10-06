@@ -4,6 +4,35 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1271--K1275 odd-response uniform selection boundary
+
+- K1271 derives the exact cubic discriminant, critical tilt and unique global
+  sign selected by every nonzero odd response (`16/16`; `10/10`).
+- K1272 distinguishes unique global selection, metastable-basin removal and
+  the strict one-critical-point Morse regime (`15/15`; `10/10`).
+- K1273 normalizes the response, proves fixed coefficients fail uniformly and
+  derives the weight-21 scale-covariant threshold (`16/16`; `10/10`).
+- K1274 proves an odd `p` term is connected-`D7` invariant but incompatible
+  with gauged outer parity for a fixed scalar coefficient (`15/15`; `10/10`).
+- K1275 composes the twenty-row response, symmetry, source and functional
+  admission boundary (`21/21`; `10/10`).
+
+The five producers pass `83/83` controls and the probes reject `50/50`
+hostile mutations.
+
+```bash
+python3 tests/channel-swings/k1271_odd_tilt_quartic_bifurcation.py
+python3 tests/channel-swings/k1271_odd_tilt_quartic_bifurcation_probe.py
+python3 tests/channel-swings/k1272_odd_tilt_morse_stability.py
+python3 tests/channel-swings/k1272_odd_tilt_morse_stability_probe.py
+python3 tests/channel-swings/k1273_scale_covariant_single_basin_threshold.py
+python3 tests/channel-swings/k1273_scale_covariant_single_basin_threshold_probe.py
+python3 tests/channel-swings/k1274_connected_outer_symmetry_fork.py
+python3 tests/channel-swings/k1274_connected_outer_symmetry_fork_probe.py
+python3 tests/channel-swings/k1275_odd_response_admission_boundary.py
+python3 tests/channel-swings/k1275_odd_response_admission_boundary_probe.py
+```
+
 ## K1266--K1270 split-D7 orbit sign boundary
 
 - K1266 realizes both degree-seven signs on explicit regular split-Cartan

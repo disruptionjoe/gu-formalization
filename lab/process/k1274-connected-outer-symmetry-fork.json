@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1274-CONNECTED-OUTER-SYMMETRY-FORK",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-ACT-06",
+  "scope": "Invariant-theory compatibility of an odd p response with connected split-D7 symmetry versus the unowned disconnected outer sign quotient.",
+  "pinned_inputs": {
+    "k1267": {"path": "lab/process/k1267-connected-d7-weyl-orbit-separation.json", "sha256": "ce0cf948171b7cd453e0df61e8c4cddb1f05f02ce8b585d7bff0032f86aebc82"},
+    "k1268": {"path": "lab/process/k1268-disconnected-parity-exchange.json", "sha256": "4e66c1f50a916e03f85d131f9f9e05f810c9a8411fae27fa6d2c075dcf9b82e8"},
+    "k1269": {"path": "lab/process/k1269-d7-b7-invariant-quotient-boundary.json", "sha256": "20e082fb93c76b6bd229a09bc0cec1eff30cd9a633e6848de868d9c06c9affaa"}
+  },
+  "symmetry_fork": {
+    "connected_group": "W(D7) preserves p, so epsilon p is a connected invariant for scalar epsilon",
+    "outer_involution": "sigma(p)=-p",
+    "fixed_scalar_effect": "epsilon p changes sign under sigma for nonzero invariant epsilon",
+    "outer_gauged_consequence": "a fixed-scalar odd p term is forbidden if the disconnected parity is gauged",
+    "connected_only_consequence": "an odd p term is mathematically allowed but its coefficient and physical interpretation still require action ownership",
+    "spurion_option": "covariance can be restored by assigning sigma(epsilon)=-epsilon, but choosing nonzero epsilon then adds an orientation-breaking datum",
+    "one_component_option": "a physical one-component restriction can select a sign without an odd potential, but no such source-owned restriction is supplied"
+  },
+  "decision": {
+    "connected_D7_forbids_odd_p_term": false,
+    "gauged_outer_parity_allows_fixed_scalar_odd_p_term": false,
+    "nonzero_spurion_is_owner_free": false,
+    "source_chooses_symmetry_horn": false,
+    "SC_ACT_06_proved_or_refuted": false
+  },
+  "source_and_ledger_effect": "SOURCE_SPIN77_DATUM_UNCHANGED__OUTER_PARITY_AND_ODD_RESPONSE_UNOWNED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Exact symmetry-compatibility fork only. Connected invariance permits but does not derive an odd response; disconnected gauging forbids a fixed-scalar odd term but is itself unowned.",
+  "controls": {"producer": "tests/channel-swings/k1274_connected_outer_symmetry_fork.py", "probe": "tests/channel-swings/k1274_connected_outer_symmetry_fork_probe.py", "controls_passed": 15, "hostile_mutations_rejected": 10}
+}

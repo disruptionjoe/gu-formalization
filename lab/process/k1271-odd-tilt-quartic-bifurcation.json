@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1271-ODD-TILT-QUARTIC-BIFURCATION",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "INTERNAL_TARGET:K1270_ODD_RESPONSE_REQUIREMENT",
+  "scope": "Exact critical-point classification for the canonical odd linear tilt of the fixed-even-invariant sign fiber; no source action coefficient or functional field theory is supplied.",
+  "gu_typed_objects": {
+    "carrier": "one-dimensional degree-seven invariant fiber p at fixed six even split-D7 invariants LAYER=source-print CHIRALITY=N/A",
+    "pairing": "ordinary real polynomial potential and Hessian ON=p_fiber",
+    "real_structure": "p and epsilon real with a positive",
+    "grading": "p has invariant weight seven; the even residual square has weight twenty-eight",
+    "action_owner": "repository conditional construction; epsilon is not source-derived",
+    "target": "minimum odd response needed to break the p to minus-p pairing MAP-TYPE=evaluation"
+  },
+  "pinned_inputs": {
+    "k1263": {"path": "lab/process/k1263-proper-rank-seven-two-minimum-completion.json", "sha256": "135838d43d0eeb36abe186b7d41bbd94694a287f18192c10367d87fec94b92b4"},
+    "k1270": {"path": "lab/process/k1270-orbit-sign-admission-boundary.json", "sha256": "7cb8486315a82ebf203c8efb884b4be3f20c64c25eb40c531801e3d95b1c65de"}
+  },
+  "theorem": {
+    "potential": "F(p)=1/2 (p^2-a^2)^2+epsilon p, with a>0",
+    "critical_equation": "2 p^3-2 a^2 p+epsilon=0",
+    "monic_discriminant": "Delta=4 a^6-27 epsilon^2/4",
+    "critical_tilt": "epsilon_c=4 a^3/(3 sqrt(3))",
+    "subcritical": "0<|epsilon|<epsilon_c gives three distinct real critical points",
+    "critical": "|epsilon|=epsilon_c gives two distinct real critical points, one double in the critical equation",
+    "supercritical": "|epsilon|>epsilon_c gives one real critical point",
+    "reflection_identity": "F(-p)-F(p)=-2 epsilon p",
+    "global_minimum_sign": "sign(p_min)=-sign(epsilon) for epsilon nonzero",
+    "unique_global_minimum_for_nonzero_tilt": true
+  },
+  "decision": {
+    "nonzero_odd_tilt_selects_one_global_sign": true,
+    "arbitrarily_small_odd_tilt_removes_all_other_stationary_points": false,
+    "critical_point_count_requires_response_magnitude": true,
+    "epsilon_source_owned": false,
+    "SC_ACT_06_proved_or_refuted": false
+  },
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Exact one-fiber quartic bifurcation and global-sign theorem only; no source odd response, six-shape law, physical parity breaking, functional domain or positivity follows.",
+  "controls": {"producer": "tests/channel-swings/k1271_odd_tilt_quartic_bifurcation.py", "probe": "tests/channel-swings/k1271_odd_tilt_quartic_bifurcation_probe.py", "controls_passed": 16, "hostile_mutations_rejected": 10}
+}

@@ -7,6 +7,21 @@ updated_at: "2026-10-06"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1271--K1275 odd-response uniform selection boundary (2026-10-06)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The odd-tilted sign fiber has an exact cubic bifurcation | K1271 discriminant `4a^6-27epsilon^2/4` and threshold `4a^3/(3sqrt(3))`; `16/16`; `10/10` | exact conditional one-fiber theorem; coefficient is not source-derived |
+| Any nonzero tilt chooses one global sign, but a small tilt leaves a metastable basin | K1271 reflection identity plus K1272 Hessian/Morse classification; `15/15`; `10/10` | exact global-versus-local distinction; no physical stability claim |
+| Threshold selection is degenerate and exactly one critical point needs a strict inequality | K1272 double root, stationary inflection and simple minimum with Hessian `6a^2` | exact finite bifurcation boundary |
+| Uniform one-critical-point selection needs a scale-covariant weight-21 response | K1273 normalization `eta=epsilon/a^3`, universal threshold and invariant-weight balance `21+7=28`; `16/16`; `10/10` | exact for the conditional quartic family; no functional uniform gap |
+| Connected symmetry allows while gauged outer parity forbids a fixed-scalar odd term | K1274 complete even/odd sign-pattern controls and spurion fork; `15/15`; `10/10` | exact invariant-theory compatibility; source chooses neither horn |
+| Source and functional admission remain absent | K1275 seven satisfied, four excluded, three conditional and six missing rows; K1145/K1150 `0/7`; `21/21`; `10/10` | no GU ellipticity, parity breaking, physical positivity, prediction or confirmation |
+
+Five producers pass `83/83` declared controls and five probes reject `50/50`
+hostile mutations. SC-ACT-01/02/06, SC-META-53, the physics ledger and all
+protected verdicts remain unchanged.
+
 ## K1266--K1270 split-D7 orbit sign boundary (2026-10-06)
 
 | Claim | Evidence | Honest grade |

@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1275-ODD-RESPONSE-ADMISSION-BOUNDARY",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-ACT-06",
+  "scope": "Integrated odd-response magnitude, stability, scale, symmetry, source-ownership and functional-admission boundary after K1271--K1274.",
+  "pinned_inputs": {
+    "k1271": {"path": "lab/process/k1271-odd-tilt-quartic-bifurcation.json", "sha256": "90fc48ce9c7dd314eb51c0e5c8b8c80f638dd623f80b037ac278314a3001cb38"},
+    "k1272": {"path": "lab/process/k1272-odd-tilt-morse-stability.json", "sha256": "0a7e9d23d8b4eb20eb75c2691c52a54c78eefa1c74ddfe4f021c8c09ed9aa9cc"},
+    "k1273": {"path": "lab/process/k1273-scale-covariant-single-basin-threshold.json", "sha256": "29cbb0fa2c8fdaab6c8f18514e989a9d84d35dc789eccd470dd24ee908316f41"},
+    "k1274": {"path": "lab/process/k1274-connected-outer-symmetry-fork.json", "sha256": "150c50b55b37a985427e7be57f26e23206b00070935f741104756016b6e71d17"}
+  },
+  "certificate": {
+    "rows": [
+      {"row": "opposite signs realized as distinct connected split-D7 orbits", "state": "satisfied"},
+      {"row": "exact odd-tilt quartic critical-point bifurcation", "state": "satisfied"},
+      {"row": "nonzero odd tilt selects a unique global sign", "state": "satisfied"},
+      {"row": "metastable opposite-sign threshold classified", "state": "satisfied"},
+      {"row": "threshold Morse degeneracy classified", "state": "satisfied"},
+      {"row": "scale-covariant weight-twenty-one response requirement", "state": "satisfied"},
+      {"row": "connected versus outer symmetry fork classified", "state": "satisfied"},
+      {"row": "even-in-p unique nonzero sign selector", "state": "excluded"},
+      {"row": "infinitesimal odd tilt removes metastable basin", "state": "excluded"},
+      {"row": "fixed scale-independent coefficient uniformly gives one critical point", "state": "excluded"},
+      {"row": "gauged outer parity permits a fixed-scalar odd p term", "state": "excluded"},
+      {"row": "repository odd-tilt global-sign selector", "state": "conditional"},
+      {"row": "scale-covariant strong single-critical-point response", "state": "conditional"},
+      {"row": "physical outer quotient or one-component restriction", "state": "conditional"},
+      {"row": "source-derived six-shape response law", "state": "missing"},
+      {"row": "source-derived odd-in-p coefficient or owned sign restriction", "state": "missing"},
+      {"row": "common closed functional domain", "state": "missing"},
+      {"row": "closed range and positive quotient gap", "state": "missing"},
+      {"row": "causal Green or maximal generator packet", "state": "missing"},
+      {"row": "positive nonzero physical cohomology", "state": "missing"}
+    ],
+    "satisfied_count": 7,
+    "excluded_count": 4,
+    "conditional_count": 3,
+    "missing_count": 6,
+    "k1145_pass_count": 0,
+    "k1150_pass_count": 0
+  },
+  "decision": {
+    "scientific_effect": "ANY_NONZERO_ODD_TILT_SELECTS_ONE_GLOBAL_SIGN_BUT_UNIFORM_NONDEGENERATE_SINGLE_CRITICAL_POINT_SELECTION_REQUIRES_A_SCALE_COVARIANT_WEIGHT_21_RESPONSE_ABOVE_THE_EXACT_THRESHOLD__SOURCE_AND_FUNCTIONAL_OWNERSHIP_UNCHANGED",
+    "unique_global_sign_requires_nonzero_odd_response": true,
+    "single_critical_point_requires_strict_threshold": true,
+    "uniform_response_requires_scale_covariance": true,
+    "source_odd_response_owned": false,
+    "charged_boundary_symmetry_remains_honest_default": true,
+    "SC_ACT_06_proved_or_refuted": false,
+    "next_condition": "Derive a source-owned six-shape law plus an odd-in-p response with its scale law and required stability regime, or explicitly own a physical outer-parity quotient or one-component restriction; then realize one common closed BV-BFV domain with closed range, positive gap, causal evolution and positive nonzero cohomology."
+  },
+  "source_and_ledger_effect": "SC-ACT-01_02_06_ASSERTS_UNCHANGED__SC-META-53_UNCERTAIN_UNCHANGED__LT-SM8_LT-GR6b_RA-F1_AC-F1_NEEDS_UNCHANGED__LEDGER_UNCHANGED",
+  "protected_status_effect": "none",
+  "claim_ceiling": "Exact conditional finite-fiber response magnitude, stability, scale and symmetry boundary only; no GU ellipticity, source parity breaking, physical positivity, prediction, confirmation or protected-status movement.",
+  "controls": {"producer": "tests/channel-swings/k1275_odd_response_admission_boundary.py", "probe": "tests/channel-swings/k1275_odd_response_admission_boundary_probe.py", "controls_passed": 21, "hostile_mutations_rejected": 10}
+}

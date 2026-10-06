@@ -7,6 +7,20 @@ updated_at: "2026-10-06"
 
 # Next Steps For Contributors
 
+> **2026-10-06 K1271--K1275 ODD-RESPONSE UNIFORM SELECTION BOUNDARY.** For
+> `F(p)=1/2(p^2-a^2)^2+epsilon p`, every nonzero odd tilt selects a unique
+> global sign, but `0<|epsilon|<4a^3/(3sqrt(3))` retains the opposite-sign
+> metastable minimum. Equality removes that minimum through a degenerate
+> stationary inflection; exactly one critical point requires a strict
+> inequality. Uniformity across scale requires
+> `epsilon(a)=lambda a^3`, hence invariant weight twenty-one, with
+> `|lambda|>4/(3sqrt(3))`. Connected `D7` permits the odd term, while gauged
+> outer parity forbids it for fixed scalar `epsilon`. Next derive this response
+> and the six shape channels from a source action/boundary/Green law, or own an
+> outer quotient or one-component restriction, then pass K1145/K1150. Do not
+> promote the conditional tilt, its coefficient or its stability to source or
+> physical ownership.
+
 > **2026-10-06 K1266--K1270 SPLIT-D7 ORBIT SIGN BOUNDARY.** The regular
 > split-Cartan points `(1,2,3,4,5,6,7)` and `(-1,2,3,4,5,6,7)` have the same
 > six even primitive invariants and opposite degree-seven product

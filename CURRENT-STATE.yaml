@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 73ceef2d738fc4facb4f9abaeba77e0a19ab6483
+revision_basis: 4b407bbb63018dc3c894618d4711c2dfc8423826
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1271--K1275 classify the exact response strength hidden inside K1270's
+    odd-in-`p` requirement. For the canonical sign fiber
+    `F(p)=1/2(p^2-a^2)^2+epsilon p`, every nonzero odd tilt selects one unique
+    global sign, but a subcritical response leaves the opposite-sign local
+    minimum metastable. The sharp threshold is `4a^3/(3sqrt(3))`: equality
+    leaves a degenerate stationary inflection, while exactly one critical
+    point requires a strict inequality. Normalization by `p=aq` proves that a
+    fixed coefficient is not uniform across scale; a scale-covariant law
+    needs `epsilon=lambda a^3`, hence invariant weight twenty-one, with
+    normalized magnitude strictly above the threshold. Connected `D7` allows
+    the odd term, while gauged outer parity forbids it for fixed scalar
+    `epsilon`. No source coefficient, six-shape response or functional packet
+    is supplied; K1145/K1150 remain `0/7` and no protected status moves.
+
     K1266--K1270 resolve K1264's realized-orbit ambiguity. The regular split
     Cartan pair `(1,2,3,4,5,6,7)` and `(-1,2,3,4,5,6,7)` has identical six
     even primitive invariants and opposite degree-seven product `plus_or_minus
@@ -13982,6 +13996,19 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1271--K1275 prove that nonzero odd dependence and stable uniform sign
+  selection are distinct requirements. Any nonzero tilt of the canonical
+  quartic fiber chooses one global sign, but removal of the opposite local
+  basin needs `|epsilon|>=4a^3/(3sqrt(3))`, and an everywhere nondegenerate
+  one-critical-point law needs a strict inequality. Uniformity across scale
+  requires a source-owned weight-twenty-one response
+  `epsilon(a)=lambda a^3`. Which action-derived boundary or Green law supplies
+  that coefficient with its scale and stability regime together with the six
+  shape responses, or which physical construction owns the outer quotient or
+  a one-component restriction, while also providing the complete common
+  closed BV-BFV domain, range/gap, causal generator and positive-cohomology
+  packet? Do not treat the repository tilt as source parity breaking.
+
   K1266--K1270 prove that the opposite degree-seven signs are both realized by
   regular split-Cartan elements and are distinct under connected `Spin(7,7)`
   inner conjugacy. A determinant-minus-one `O(7,7)` reflection exchanges them,
@@ -15938,6 +15965,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1271--K1275's response-magnitude, stability, scaling and symmetry
+  boundary. A nonzero odd tilt selects one global sign, but a uniform
+  nondegenerate one-critical-point selector requires a weight-twenty-one
+  coefficient whose normalized magnitude is strictly greater than
+  `4/(3sqrt(3))`. Connected `D7` permits such a response; gauged outer parity
+  forbids it for fixed scalar coefficient. Advance only with an action-derived
+  six-shape law plus an odd-in-`p` coefficient with its scale/stability regime,
+  or an explicitly owned physical outer quotient or one-component
+  restriction, together with the common-domain, range/gap, Green/generator
+  and positive-cohomology packet. Do not promote the conditional quartic or a
+  spurion convention to source ownership.
+
   Preserve K1266--K1270's connected/disconnected orbit boundary. Opposite
   degree-seven signs occur on explicit regular split-Cartan elements with the
   same six even invariants, and connected `Spin(7,7)` does not identify them.

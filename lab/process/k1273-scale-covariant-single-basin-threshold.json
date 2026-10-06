@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1273-SCALE-COVARIANT-SINGLE-BASIN-THRESHOLD",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "INTERNAL_TARGET:K1270_SCALE_UNIFORM_ODD_RESPONSE",
+  "scope": "Exact normalized response and weighted-scaling law for uniform removal of the opposite-sign metastable basin across the conditional quartic fibers.",
+  "pinned_inputs": {
+    "k1271": {"path": "lab/process/k1271-odd-tilt-quartic-bifurcation.json", "sha256": "90fc48ce9c7dd314eb51c0e5c8b8c80f638dd623f80b037ac278314a3001cb38"},
+    "k1272": {"path": "lab/process/k1272-odd-tilt-morse-stability.json", "sha256": "0a7e9d23d8b4eb20eb75c2691c52a54c78eefa1c74ddfe4f021c8c09ed9aa9cc"}
+  },
+  "normalization": {
+    "substitution": "p=a q and eta=epsilon/a^3",
+    "normalized_potential": "F(a q)/a^4=1/2 (q^2-1)^2+eta q",
+    "universal_threshold": "eta_c=4/(3 sqrt(3))",
+    "metastable_free_condition": "|eta| greater than or equal to eta_c",
+    "one_critical_point_condition": "|eta| strictly greater than eta_c",
+    "fixed_nonzero_epsilon_over_unbounded_a": "eta tends to zero, so sufficiently large a re-enters the two-minimum subcritical regime",
+    "scale_covariant_response": "epsilon(a)=lambda a^3",
+    "uniform_one_critical_point_condition": "|lambda| greater than 4/(3 sqrt(3))"
+  },
+  "weighted_D7_translation": {
+    "p_weight": 7,
+    "even_residual_square_weight": 28,
+    "epsilon_weight_required_for_epsilon_p": 21,
+    "target_fiber_scale": "a=|c7| r0^7",
+    "uniform_threshold_scale": "epsilon_c=4 |c7|^3 r0^21/(3 sqrt(3))"
+  },
+  "decision": {
+    "fixed_scale_independent_odd_coefficient_is_uniformly_single_basin": false,
+    "weight_twenty_one_response_matches_the_quartic_selector_scaling": true,
+    "scaling_law_is_source_derived": false,
+    "functional_uniformity_established": false
+  },
+  "claim_ceiling": "Exact scaling requirement for this conditional quartic family only; it does not derive a weight-twenty-one source response or a uniform functional field-theory gap.",
+  "controls": {"producer": "tests/channel-swings/k1273_scale_covariant_single_basin_threshold.py", "probe": "tests/channel-swings/k1273_scale_covariant_single_basin_threshold_probe.py", "controls_passed": 16, "hostile_mutations_rejected": 10}
+}
