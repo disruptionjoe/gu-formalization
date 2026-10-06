@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1171-REPAIR-RESOURCE-CONSERVATION-LAW",
+  "status": "working_draft_verified",
+  "created": "2026-10-05",
+  "hypotheses": [
+    "V is finite dimensional and H:V->V* is symmetric",
+    "Hd=0 and Qd=0",
+    "rad(H restricted to ker Q)=im d"
+  ],
+  "theorem": {
+    "actual_constraint_rank": "c=rank(Q restricted to ker H)=dim ker H-rank d",
+    "resource_identity": "rank H+rank d+c=dim V",
+    "ceiling_form": "if c<=C then rank H+rank d+C>=dim V",
+    "relative_repair_floor": "relative to ceilings h0,g0,C0, every successful packet needs Delta h+Delta g+Delta c>=dim V-h0-g0-C0"
+  },
+  "exact_control": {
+    "field_dimension": 7,
+    "hessian_rank": 2,
+    "gauge_rank": 2,
+    "constraint_rank_on_kernel": 3,
+    "resource_sum": 7,
+    "positive_quotient_dimension": 2
+  },
+  "decision": "a successful radical-capture packet cannot hide missing directions: every field direction is paid for by Hessian rank, actual gauge image, or actual independent constraint rank",
+  "scope_boundary": "exact finite-dimensional necessity; target dimension, formal parameter count, factor-through descendants, ownership, closure, propagation and physical positivity are separate",
+  "target_claim": "NONE-NOT-A-KILL"
+}

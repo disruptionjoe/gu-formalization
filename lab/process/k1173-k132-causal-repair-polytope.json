@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1173-K132-CAUSAL-REPAIR-POLYTOPE",
+  "status": "working_draft_verified",
+  "created": "2026-10-05",
+  "inputs": ["K1171-REPAIR-RESOURCE-CONSERVATION-LAW", "K1172-SHARP-REPAIR-ALLOCATION-CONTROLS", "K1168-SOURCE-EPSILON-JOINT-CHANNEL-BOUNDARY"],
+  "favorable_baseline": "grant the joint finite epsilon channel its unproved full rank-98 transport; actual rank or overlap can only increase the floors",
+  "causal": {
+    "timelike": {"field_dimension": 229386, "current_hessian_rank": 130912, "current_gauge_rank": 4, "favorable_joint_constraint_ceiling": 98, "best_case_repair_deficit": 98372, "constraint_only_total_rank_floor": 98470, "gauge_only_total_rank_floor": 98376, "changed_parent_hessian_rank_floor": 229284, "single_axis_added_rank_floor": 98372},
+    "spacelike": {"field_dimension": 229386, "current_hessian_rank": 130912, "current_gauge_rank": 4, "favorable_joint_constraint_ceiling": 98, "best_case_repair_deficit": 98372, "constraint_only_total_rank_floor": 98470, "gauge_only_total_rank_floor": 98376, "changed_parent_hessian_rank_floor": 229284, "single_axis_added_rank_floor": 98372},
+    "null": {"field_dimension": 229386, "current_hessian_rank": 122748, "current_gauge_rank": 4, "favorable_joint_constraint_ceiling": 98, "best_case_repair_deficit": 106536, "constraint_only_total_rank_floor": 106634, "gauge_only_total_rank_floor": 106540, "changed_parent_hessian_rank_floor": 229284, "single_axis_added_rank_floor": 106536}
+  },
+  "tradeoff": "Delta h+Delta g+Delta c>=best_case_repair_deficit, where Delta c is genuinely independent actual rank beyond the favorable joint ceiling",
+  "decision": "K132 needs at least 98372/98372/106536 added directions allocated among changed-parent Hessian rank, independent gauge image, and independent constraint rank",
+  "necessity_not_sufficiency": "meeting the polytope floor supplies no ownership, Qd=0, negative capture, propagation, radical equality, common domains, closed range, uniform positivity or maximal generator",
+  "protected_disposition": "SC-ACT-01/02/06 remain ASSERTS; SC-META-53 remains UNCERTAIN; LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS",
+  "target_claim": "SC-ACT-06"
+}

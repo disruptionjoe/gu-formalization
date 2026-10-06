@@ -7,6 +7,21 @@ updated_at: "2026-10-05"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1171--K1175 three-resource repair boundary (2026-10-05)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Every successful radical-capture packet obeys `rank H+rank d+rank(Q|ker H)=dim V` | K1171 theorem and exact seven-dimensional control; producer `11/11`; hostile mutations `11/11` | exact finite-dimensional necessity; no source packet or functional realization |
+| Every nonnegative Hessian/gauge/constraint allocation is dimensionally sharp | K1172 all 78 dimension-12 controls; producer `10/10`; hostile mutations `12/12` | exact positive controls; no source ownership |
+| K132 repairs require `98372/98372/106536` added directions under the favorable rank-98 baseline | K1173 causal repair polytope; producer `12/12`; hostile mutations `12/12` | strongest-favorable finite-symbol floors; actual joint rank may be lower |
+| Gauge descendants factoring through the current generator add zero gauge-image rank | K1174 factorization theorem, reducibility control and independent-generator control; producer `12/12`; hostile mutations `11/11` | exact finite-symbol image theorem; independent source gauge/KT generators remain open |
+| Constraint, gauge and changed-parent reopeners now share one measured admission boundary | K1175 integrated compiler; producer `12/12`; hostile mutations `12/12` | exact current repair boundary; not a global complex or SC-ACT-06 no-go |
+
+Five producers pass `57/57` controls and five probes reject `58/58` hostile
+mutations. `SC-ACT-01/02/06` remain `ASSERTS`, `SC-META-53` remains
+`UNCERTAIN`, and `LT-SM8/LT-GR6b/RA-F1/AC-F1` remain `NEEDS`. No empirical
+score, prediction, confirmation, canon, paper or public status moves.
+
 ## K1166--K1170 joint finite-channel boundary (2026-10-05)
 
 | Claim | Evidence | Honest grade |

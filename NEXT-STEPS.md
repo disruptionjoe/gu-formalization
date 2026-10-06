@@ -7,6 +7,20 @@ updated_at: "2026-10-05"
 
 # Next Steps For Contributors
 
+> **2026-10-05 K1171--K1175 THREE-RESOURCE REPAIR BOUNDARY.** A successful
+> constrained radical packet satisfies the exact identity
+> `rank H+rank d+rank(Q|ker H)=dim V`; all 78 nonnegative allocations in a
+> twelve-dimensional sharpness family are realized. Relative to the strongest
+> favorable rank-98 joint epsilon channel, K132 still needs
+> `98372/98372/106536` added directions allocated among changed-parent Hessian
+> rank, genuinely independent gauge image and genuinely independent constraint
+> rank. A pure-gauge repair needs total ranks `98376/98376/106540`; a pure
+> changed-parent repair needs Hessian rank `229284`. Factor-through gauge
+> descendants and gauge-for-gauge redundancy add no field-space image. Next
+> supply one source-owned packet with a measured point inside this causal
+> repair polytope and rerun every ownership, cochain, positivity and functional
+> gate; do not count parameter names or descendants as rank.
+
 > **2026-10-05 K1166--K1170 JOINT FINITE-CHANNEL BOUNDARY.** For two
 > constraints on one Hessian kernel,
 > `rank(q,ell)=rank q+rank(ell|ker q)`; shared information pays an exact

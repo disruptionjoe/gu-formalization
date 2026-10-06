@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1172-SHARP-REPAIR-ALLOCATION-CONTROLS",
+  "status": "working_draft_verified",
+  "created": "2026-10-05",
+  "construction": "H is positive diagonal on the first h coordinates and zero on the rest; im d spans the next g kernel coordinates; Q records the final c kernel coordinates",
+  "allocation_count": 78,
+  "allocation_invariants": "all 78 generated triples have h>=1, g>=0, c>=0, h+g+c=12 and positive quotient dimension h",
+  "extreme_controls": {
+    "constraint_heavy": {"hessian_rank": 2, "gauge_rank": 0, "constraint_rank_on_kernel": 10},
+    "balanced": {"hessian_rank": 4, "gauge_rank": 3, "constraint_rank_on_kernel": 5},
+    "gauge_heavy": {"hessian_rank": 2, "gauge_rank": 10, "constraint_rank_on_kernel": 0}
+  },
+  "sharpness": "every nonnegative allocation h+g+c=12 with h>=1 is realized with rad(H restricted to ker Q)=im d and a positive quotient of dimension h",
+  "scope_boundary": "coordinate controls only; they supply no source Hessian, gauge symmetry, constraint, common domain or physical state",
+  "target_claim": "NONE-NOT-A-KILL"
+}

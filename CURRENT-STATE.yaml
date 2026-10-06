@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: e4ea49bd524f
+revision_basis: d5602284c6f7
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1171--K1175 turn the three surviving K132 repair branches into one exact
+    resource law. If `Hd=Qd=0` and
+    `rad(H|ker Q)=im d`, then the actual constraint rank on the Hessian kernel
+    obeys `rank H+rank d+rank(Q|ker H)=dim V`. Sharp positive coordinate
+    controls realize all 78 nonnegative allocations in dimension 12. Relative
+    to K132's causal Hessian ranks, rank-four gauge image and the strongest
+    favorable rank-98 joint epsilon channel, every repair needs at least
+    `98372/98372/106536` added directions split among changed-parent Hessian
+    rank, genuinely independent gauge image and genuinely independent
+    constraint rank. The single-axis total floors are
+    `98376/98376/106540` for gauge image and `229284` for Hessian rank.
+    Factor-through gauge descendants and gauge-for-gauge redundancy add no
+    field-space image. Zero current candidates occupy the repair polytope, and
+    no protected status moves.
+
     K1166--K1170 close the strongest favorable joint use of the two retained
     finite source-epsilon channels. For constraints `q` and `ell` on one
     Hessian kernel, the exact split is
@@ -15505,6 +15520,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K1171--K1175 prove the exact successful-packet resource identity
+  `rank H+rank d+rank(Q|ker H)=dim V` and price all three current K132
+  reopeners under the strongest favorable rank-98 joint-channel baseline.
+  Added Hessian rank, genuinely independent gauge-image rank and genuinely
+  independent constraint rank must sum to at least
+  `98372/98372/106536`. A pure-gauge repair needs total ranks
+  `98376/98376/106540`; a pure changed-parent repair needs Hessian rank at
+  least `229284`. Factor-through constraint descendants, factor-through gauge
+  descendants and gauge-for-gauge redundancy receive zero repair credit.
+  Advance with one source-owned packet having a measured point inside this
+  causal repair polytope, then recompute every algebraic and functional gate.
+
   K1166--K1170 prove the exact stacked-channel split and grant the retained
   source-epsilon moment map plus seven-invariant lock their strongest possible
   independent direct-sum transport to K132. The combined ceiling is only 98,
