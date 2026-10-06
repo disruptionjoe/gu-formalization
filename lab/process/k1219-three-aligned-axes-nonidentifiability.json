@@ -1,0 +1,85 @@
+{
+  "claim_ceiling": "Exact three-read nonidentifiability theorem for imported unital channels; no physical process tomography, apparatus, GU owner or prediction.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "created": "2026-10-06",
+  "decision": {
+    "off_diagonal_frame_transport_is_load_bearing": true,
+    "pauli_three_axis_result_transfers_to_general_unital_class": false,
+    "three_aligned_axis_reads_identify_score": false
+  },
+  "direction": "observed_to_native",
+  "high_channel": {
+    "M": [
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0
+      ]
+    ],
+    "S_squared_over_4": "2",
+    "cp": true,
+    "kind": "120-degree cyclic unitary rotation",
+    "singular_values": [
+      "1",
+      "1",
+      "1"
+    ]
+  },
+  "low_channel": {
+    "M": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "S_squared_over_4": "0",
+    "cp": true,
+    "kind": "completely depolarizing",
+    "singular_values": [
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "ownership": {
+    "axis_correspondence_and_process_frame_imported": true,
+    "gu_prediction": false
+  },
+  "release_test": {
+    "both_diagonals_zero": true,
+    "cyclic_matrix_orthogonal_det_plus_one": true,
+    "opposite_score_extremes": true,
+    "protected_status_unchanged": true
+  },
+  "result_id": "K1219-THREE-ALIGNED-AXES-NONIDENTIFIABILITY",
+  "schema_version": "1.0",
+  "scope": "Three signed same-label transfers M_xx,M_yy,M_zz for general unital qubit channels.",
+  "shared_aligned_transfers": [
+    "0",
+    "0",
+    "0"
+  ],
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

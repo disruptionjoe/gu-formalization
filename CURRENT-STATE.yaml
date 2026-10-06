@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: babe46bc54815819e28bb14887e440126f4a6a93
+revision_basis: 22168fbe6319f768665432a7ed847ea6375abca8
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1216--K1220 extend the quantum-anchor calibration boundary from
+    Pauli-aligned channels to every unital qubit channel. For real
+    Bloch-transfer matrix `M`, the Bell-Choi output correlation matrix is
+    `M diag(1,-1,1)`, hence has the same singular values; optimized CHSH is
+    `2 sqrt(s_1^2+s_2^2)`. A signed directional visibility `V=a^T M b` leaves
+    the sharp interval `2|V| <= S_max <= 2sqrt(2)`. Rotated rank-one Pauli
+    channels and unitary rotations attain the endpoints for every `V`. At
+    `V=2/5` their score squares are `4/25` and `2`. Three aligned same-axis
+    reads are still insufficient: the completely depolarizing channel and a
+    cyclic unitary rotation both have diagonal `(0,0,0)` but score squares
+    `0` and `2`. Full transfer data, or independently validated singular
+    values/principal axes, are required. K1211--K1215 remains exact on the
+    Pauli-aligned subclass. The physical channel, Bell-Choi preparation,
+    trace/Born pairing, frame, locality and apparatus remain imported; the
+    holdout remains unscored and no protected status moves.
+
     K1211--K1215 generalize the quantum-anchor visibility/Bell relation from
     K1004's one-parameter dephasing horn and K1009's two-parameter
     common-contrast model to every unital Pauli-diagonal qubit channel. The
@@ -15715,6 +15731,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1216--K1220's general-unital identifiability boundary. One
+  directional visibility supplies only the sharp interval
+  `2|V| <= S_max <= 2sqrt(2)`, and even three same-axis transfers need not
+  determine the singular spectrum. Construct a typed physical owner for the
+  unital channel, Bell-Choi preparation, state/effect pairing, full process
+  frame, apparatus and systematics, or extend the theorem beyond unital qubit
+  channels. Treat K1211--K1215 as the independently validated Pauli/principal-
+  axis subcase. Do not score the calibration anchors, consume the delayed-
+  choice holdout, or infer GU prediction or confirmation.
+
   Preserve K1211--K1215's identifiability boundary. One visibility supplies
   only the sharp CHSH envelope; two signed transfer axes generally leave the
   third-axis CP interval; three magnitudes identify optimized CHSH only after

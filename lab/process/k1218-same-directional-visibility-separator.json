@@ -1,0 +1,59 @@
+{
+  "claim_ceiling": "Exact nonidentifiability counterexample in the imported unital-qubit class; no apparatus, GU state/channel, locality theorem or empirical result.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "created": "2026-10-06",
+  "decision": {
+    "k1212_upper_bound_requires_principal_axis_pauli_alignment": true,
+    "same_visibility_can_range_from_rank_one_to_unitary": true,
+    "same_visibility_opposite_bell_disposition": true
+  },
+  "direction": "observed_to_native",
+  "high_channel": {
+    "M": "R_z(theta), cos(theta)=2/5, sin(theta)=sqrt(21)/5",
+    "S_squared_over_4": "2",
+    "cp": true,
+    "singular_values": [
+      "1",
+      "1",
+      "1"
+    ],
+    "violates_CHSH": true
+  },
+  "low_channel": {
+    "M": "diag(2/5,0,0)",
+    "S_squared_over_4": "4/25",
+    "canonical_pauli_probabilities": [
+      "7/20",
+      "7/20",
+      "3/20",
+      "3/20"
+    ],
+    "cp": true,
+    "singular_values": [
+      "2/5",
+      "0",
+      "0"
+    ],
+    "violates_CHSH": false
+  },
+  "ownership": {
+    "physical_shared_channel_identified": false,
+    "prediction_or_confirmation": false,
+    "separator_is_repository_control": true
+  },
+  "release_test": {
+    "high_cp": true,
+    "high_maximal": true,
+    "low_cp": true,
+    "low_local": true,
+    "protected_status_unchanged": true,
+    "same_visibility": true,
+    "score_gap": "46/25"
+  },
+  "result_id": "K1218-SAME-DIRECTIONAL-VISIBILITY-SEPARATOR",
+  "same_directional_visibility": "2/5",
+  "schema_version": "1.0",
+  "scope": "Two explicit unital qubit channels with the same directional transfer V=2/5.",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

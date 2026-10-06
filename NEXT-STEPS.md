@@ -7,6 +7,20 @@ updated_at: "2026-10-06"
 
 # Next Steps For Contributors
 
+> **2026-10-06 K1216--K1220 GENERAL-UNITAL DIRECTIONAL VISIBILITY/BELL
+> BOUNDARY.** For any unital qubit channel with real Bloch-transfer matrix
+> `M`, the Bell-Choi correlation matrix is `M diag(1,-1,1)` and therefore has
+> the same singular values. One signed directional read `V=a^T M b` leaves
+> the sharp range `2|V| <= S_max <= 2sqrt(2)`. At `V=2/5`, a rank-one Pauli
+> channel has `S_max^2/4=4/25`, while a unitary rotation with the same matrix
+> element has `S_max^2/4=2`. Even all three same-axis reads can fail: the zero
+> channel and a cyclic unitary rotation both have diagonal `(0,0,0)` but score
+> squares `0` and `2`. Full transfer data, or independently validated singular
+> values/principal axes, are required. Next construct a typed physical owner
+> for the channel, preparation/effect pairing, frame and apparatus, or extend
+> beyond unital qubit channels. Preserve K1211--K1215 as the Pauli-aligned
+> subcase and keep delayed-choice entanglement swapping unscored.
+
 > **2026-10-06 K1211--K1215 PAULI-CHANNEL VISIBILITY/BELL IDENTIFIABILITY
 > ENVELOPE.** For a unital Pauli-diagonal qubit channel, complete positivity
 > is exactly the four-probability tetrahedron and the Bell-output optimized

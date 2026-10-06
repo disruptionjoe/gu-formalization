@@ -4,6 +4,24 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1216--K1220 general-unital directional visibility/Bell boundary
+
+- K1216 proves that the Bell-Choi correlation matrix and the unital channel's
+  Bloch-transfer matrix have the same singular values (`10/10`; `8/8`).
+- K1217 proves the sharp directional-visibility interval
+  `2|V| <= S_max <= 2sqrt(2)` (`10/10`; `8/8`).
+- K1218 gives exact `V=2/5` rank-one and unitary channels with score squares
+  `4/25` and `2` (`9/9`; `9/9`).
+- K1219 proves that three aligned axis reads remain nonidentifying by comparing
+  the zero channel with a cyclic unitary rotation (`10/10`; `9/9`).
+- K1220 integrates the full-transfer/principal-axis calibration boundary while
+  preserving the Pauli subcase and held-out firewall (`12/12`; `10/10`).
+
+The five producers pass `49/49` controls and the probes reject `44/44` hostile
+mutations. They do not supply a physical channel, Born rule, common apparatus,
+GU-native state, prediction or confirmation, and they do not consume the
+delayed-choice holdout or move protected status.
+
 ## K1211--K1215 Pauli-channel visibility/Bell identifiability envelope
 
 - K1211 derives the exact Pauli CP tetrahedron and Bell-output correlation

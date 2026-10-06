@@ -1,0 +1,49 @@
+{
+  "claim_ceiling": "Exact branch-relative calibration boundary for imported finite unital-qubit/Bell-Choi controls; no GU state, channel, Born rule, locality theorem, empirical score, prediction, confirmation or verdict.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "created": "2026-10-06",
+  "decision": {
+    "calibration_anchor_earns_confirmation": false,
+    "directional_visibility_only_prediction_allowed": false,
+    "full_transfer_or_singular_spectrum_closes_imported_score": true,
+    "general_unital_result_is_gu_derived": false,
+    "three_aligned_axes_universally_sufficient": false
+  },
+  "direction": "observed_to_native",
+  "identifiability": {
+    "class_validation": "unitality, trace preservation, qubit closure, Bell-Choi preparation, Born pairing and common frame transport remain independent obligations",
+    "full_signed_transfer_matrix": "sufficient by process tomography; its two largest singular values determine optimized CHSH",
+    "one_directional_read": "sharp general-unital score interval only: 2|V| through 2sqrt(2)",
+    "pauli_aligned_subclass": "K1211--K1215 remains exact when the channel is independently validated diagonal in the common apparatus frame",
+    "three_same_axis_reads": "insufficient without Pauli/principal-axis validation",
+    "three_singular_values": "sufficient for optimized CHSH inside the frozen unital Bell-Choi class"
+  },
+  "next_condition": "Construct a typed physical owner for the channel, preparation/effect pairing, process frame and apparatus, or extend beyond unital qubit channels without consuming the delayed-choice holdout.",
+  "ownership": {
+    "gu_native_effect": "none",
+    "prediction_or_confirmation": false,
+    "state_born_channel_frames_locality_and_apparatus_imported": true
+  },
+  "protected_disposition": "SC-ACT-01/02/06 remain ASSERTS; SC-META-53 remains UNCERTAIN; LT-SM8/LT-GR6b/RA-F1/AC-F1 remain NEEDS",
+  "relation_to_prior": {
+    "K1004": "retained only on its dephasing horn",
+    "K1009": "retained as a distinct common-contrast model",
+    "K1212": "tighter upper 2sqrt(1+V^2) requires Pauli principal-axis alignment",
+    "K1215": "three transfer magnitudes remain sufficient only when they are validated singular/principal-axis data",
+    "delayed_choice_entanglement_swapping": "remains a distinct reserved unscored held-out family"
+  },
+  "release_test": {
+    "full_transfer_sufficient_inside_class": true,
+    "holdout_unscored": true,
+    "one_direction_nonidentifying": true,
+    "pauli_boundary_not_retracted": true,
+    "protected_status_unchanged": true,
+    "singular_spectrum_rule_retained": true,
+    "three_aligned_reads_nonidentifying": true
+  },
+  "result_id": "K1220-UNITAL-TRANSFER-CALIBRATION-BOUNDARY",
+  "schema_version": "1.0",
+  "scope": "Integration of K1216--K1219 with the aligned Pauli boundary K1211--K1215.",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

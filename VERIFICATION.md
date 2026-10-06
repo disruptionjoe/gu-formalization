@@ -7,6 +7,22 @@ updated_at: "2026-10-06"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1216--K1220 general-unital directional visibility/Bell boundary (2026-10-06)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A unital channel's Bell-Choi correlation matrix has the Bloch-transfer singular spectrum | K1216 proves `T=M diag(1,-1,1)` and `TT^T=MM^T`; producer `10/10`; hostile mutations `8/8` | exact imported finite-dimensional identity; no GU channel or Born owner |
+| One directional visibility has sharp range `2|V|` to `2sqrt(2)` | K1217 singular-value bounds and rank-one/unitary endpoint constructions; `10/10`; `8/8` | exact general-unital envelope; no common-apparatus identification |
+| The same `V=2/5` can be sub-classical or Tsirelson-maximal | K1218 exact rank-one Pauli and unitary rotation controls with score squares `4/25` and `2`; `9/9`; `9/9` | exact nonidentifiability counterexample |
+| Three same-axis transfers still do not identify optimized CHSH | K1219 zero channel versus cyclic unitary, both diagonal zero, score squares `0` and `2`; `10/10`; `9/9` | exact frame-transport obstruction |
+| Full transfer or independently validated singular data close only the imported score | K1220 integration and ownership firewall; `12/12`; `10/10` | exact calibration boundary; no prediction or confirmation |
+
+Five producers pass `49/49` declared controls and five probes reject `44/44`
+hostile mutations. K1211--K1215 remains exact on the Pauli/principal-axis
+subclass. Unitality, the Bell-Choi preparation, Born pairing, process frames,
+locality and apparatus are imported; delayed-choice entanglement swapping
+remains unscored and no protected verdict moves.
+
 ## K1211--K1215 Pauli-channel visibility/Bell identifiability envelope (2026-10-06)
 
 | Claim | Evidence | Honest grade |

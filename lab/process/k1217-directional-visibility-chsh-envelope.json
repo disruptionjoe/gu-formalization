@@ -1,0 +1,84 @@
+{
+  "claim_ceiling": "Sharp score envelope inside the imported unital-qubit/Bell-Choi/Born class; no physical process identification, GU owner or empirical score.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "controls": [
+    {
+      "V": "-1",
+      "lower_attained": true,
+      "lower_channel": "R_out diag(V,0,0) R_in with aligned read",
+      "lower_score_squared_over_4": "1",
+      "unitary_completion_norm_square": "0",
+      "upper_attained": true,
+      "upper_channel": "unitary rotation R with a^T R b=V",
+      "upper_score_squared_over_4": "2"
+    },
+    {
+      "V": "-2/5",
+      "lower_attained": true,
+      "lower_channel": "R_out diag(V,0,0) R_in with aligned read",
+      "lower_score_squared_over_4": "4/25",
+      "unitary_completion_norm_square": "21/25",
+      "upper_attained": true,
+      "upper_channel": "unitary rotation R with a^T R b=V",
+      "upper_score_squared_over_4": "2"
+    },
+    {
+      "V": "0",
+      "lower_attained": true,
+      "lower_channel": "R_out diag(V,0,0) R_in with aligned read",
+      "lower_score_squared_over_4": "0",
+      "unitary_completion_norm_square": "1",
+      "upper_attained": true,
+      "upper_channel": "unitary rotation R with a^T R b=V",
+      "upper_score_squared_over_4": "2"
+    },
+    {
+      "V": "2/5",
+      "lower_attained": true,
+      "lower_channel": "R_out diag(V,0,0) R_in with aligned read",
+      "lower_score_squared_over_4": "4/25",
+      "unitary_completion_norm_square": "21/25",
+      "upper_attained": true,
+      "upper_channel": "unitary rotation R with a^T R b=V",
+      "upper_score_squared_over_4": "2"
+    },
+    {
+      "V": "1",
+      "lower_attained": true,
+      "lower_channel": "R_out diag(V,0,0) R_in with aligned read",
+      "lower_score_squared_over_4": "1",
+      "unitary_completion_norm_square": "0",
+      "upper_attained": true,
+      "upper_channel": "unitary rotation R with a^T R b=V",
+      "upper_score_squared_over_4": "2"
+    }
+  ],
+  "created": "2026-10-06",
+  "decision": {
+    "bounds_sharp_for_every_V": true,
+    "pauli_aligned_upper_bound_survives_without_alignment": false,
+    "single_direction_identifies_optimized_chsh": false
+  },
+  "direction": "observed_to_native",
+  "ownership": {
+    "directional_read_and_common_channel_imported": true,
+    "gu_prediction": false
+  },
+  "release_test": {
+    "all_endpoints_attained": true,
+    "five_exact_visibilities": true,
+    "protected_status_unchanged": true,
+    "zero_visibility_can_be_maximal": true
+  },
+  "result_id": "K1217-DIRECTIONAL-VISIBILITY-CHSH-ENVELOPE",
+  "schema_version": "1.0",
+  "scope": "All unital qubit CPTP maps with one fixed signed directional transfer V=a^T M b.",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "lower_proof": "|a^T M b|<=s_1 and s_1^2+s_2^2>=s_1^2; a rotated rank-one Pauli channel attains equality.",
+    "range": "2 |V| <= S_max <= 2 sqrt(2)",
+    "squared_range": "V^2 <= S_max^2/4 <= 2",
+    "upper_proof": "unital qubit channels contract the Bloch ball, so s_1,s_2<=1; a unitary rotation with matrix element V attains equality."
+  }
+}

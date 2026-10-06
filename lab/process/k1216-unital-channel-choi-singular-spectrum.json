@@ -1,0 +1,146 @@
+{
+  "claim_ceiling": "Exact finite-dimensional Choi/Bloch singular-spectrum identity; no physical channel, apparatus, GU state, Born derivation, prediction or confirmation.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "controls": [
+    {
+      "M": [
+        [
+          "2/5",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "3/5",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "4/5"
+        ]
+      ],
+      "T": [
+        [
+          "2/5",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-3/5",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "4/5"
+        ]
+      ],
+      "T_equals_M_D": true,
+      "gram_equal": true,
+      "name": "pauli_diagonal"
+    },
+    {
+      "M": [
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ]
+      ],
+      "T": [
+        [
+          "0",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ]
+      ],
+      "T_equals_M_D": true,
+      "gram_equal": true,
+      "name": "cyclic_unitary"
+    },
+    {
+      "M": [
+        [
+          "0",
+          "2/5",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "T": [
+        [
+          "0",
+          "-2/5",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "T_equals_M_D": true,
+      "gram_equal": true,
+      "name": "rank_one_rotated"
+    }
+  ],
+  "created": "2026-10-06",
+  "direction": "observed_to_native",
+  "ownership": {
+    "channel_unitality_bell_input_born_pairing_and_process_frame_imported": true,
+    "gu_native_effect": "none"
+  },
+  "release_test": {
+    "all_gram_identities": true,
+    "fixed_sign_matrix_orthogonal": true,
+    "protected_status_unchanged": true
+  },
+  "result_id": "K1216-UNITAL-CHANNEL-CHOI-SINGULAR-SPECTRUM",
+  "schema_version": "1.0",
+  "scope": "Every trace-preserving unital qubit channel represented by a real Bloch-transfer matrix M, acting on one half of the Bell state Phi+.",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "bell_input_correlation": "D=diag(1,-1,1)",
+    "gram_identity": "T T^T = M M^T",
+    "optimized_chsh": "S_max=2 sqrt(s_1^2+s_2^2), with s_1>=s_2>=s_3 the singular values of M",
+    "output_correlation": "T=M D",
+    "singular_spectrum": "singular values of T equal singular values of M"
+  }
+}
