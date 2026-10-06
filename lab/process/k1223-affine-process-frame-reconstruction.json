@@ -1,0 +1,20 @@
+{
+  "schema_version":"1.0",
+  "result_id":"K1223-AFFINE-PROCESS-FRAME-RECONSTRUCTION",
+  "created":"2026-10-06",
+  "status":"working_draft_verified",
+  "classification":"INTERNAL_CONDITIONAL_MATHEMATICS",
+  "direction":"observed_to_native",
+  "target_claim":"NONE-NOT-A-KILL",
+  "scope":"A fixed trace-preserving qubit process measured with six paired axial input states and three signed Pauli output effects.",
+  "theorem":{"raw_readouts":"y_i(+e_j)=t_i+M_ij and y_i(-e_j)=t_i-M_ij","transfer_recovery":"M_ij=[y_i(+e_j)-y_i(-e_j)]/2","translation_recovery":"t_i=[y_i(+e_j)+y_i(-e_j)]/2 for any j","independent_statistics":"nine antisymmetric transfers plus three common symmetric averages = 12","raw_consistency":"the three symmetric averages for each output component must agree, giving six consistency relations among 18 raw reads"},
+  "physical_control":{"construction":"gamma=3/4 amplitude damping composed with rational input/output rotations","M":[["3/10","-2/5","0"],["2/13","3/26","-3/13"],["24/65","18/65","5/52"]],"t":["0","-9/13","15/52"],"raw_readouts":[
+    {"input_axis":0,"plus":["3/10","-7/13","171/260"],"minus":["-3/10","-11/13","-21/260"]},
+    {"input_axis":1,"plus":["-2/5","-15/26","147/260"],"minus":["2/5","-21/26","3/260"]},
+    {"input_axis":2,"plus":["0","-12/13","5/13"],"minus":["0","-6/13","5/26"]}
+  ]},
+  "release_test":{"recovered_full_M":true,"all_three_translation_averages_agree":true,"raw_scalar_count":18,"independent_scalar_count":12,"consistency_relation_count":6,"protected_status_unchanged":true},
+  "decision":{"nine_centered_transfers_determine_bell_chsh":true,"three_additional_marginal_statistics_determine_translation":true,"full_affine_process_reconstructed":true,"apparatus_frame_is_self_authenticating":false},
+  "ownership":{"preparations_effects_frame_and_systematics_imported":true,"gu_native_effect":"none"},
+  "claim_ceiling":"Exact affine process-frame reconstruction inside an imported qubit/Born model; no physical apparatus or GU owner."
+}

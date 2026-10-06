@@ -1,0 +1,20 @@
+{
+  "schema_version":"1.0",
+  "result_id":"K1222-TRANSLATION-BLIND-CHSH-CONTROL",
+  "created":"2026-10-06",
+  "status":"working_draft_verified",
+  "classification":"INTERNAL_CONDITIONAL_MATHEMATICS",
+  "direction":"observed_to_native",
+  "target_claim":"NONE-NOT-A-KILL",
+  "scope":"Generalized amplitude-damping channels at gamma=3/4 and p in {0,1/2,1}.",
+  "family":{"affine_rule":"M=diag(sqrt(1-gamma),sqrt(1-gamma),1-gamma), t_z=gamma(2p-1)","cp_tp_certificate":"standard four-Kraus generalized-amplitude-damping representation for 0<=gamma,p<=1"},
+  "controls":[
+    {"p":"0","gamma":"3/4","M_diagonal":["1/2","1/2","1/4"],"t":["0","0","-3/4"],"correlation_singular_values":["1/2","1/2","1/4"],"S_squared_over_4":"1/2","cptp_by_kraus_family":true},
+    {"p":"1/2","gamma":"3/4","M_diagonal":["1/2","1/2","1/4"],"t":["0","0","0"],"correlation_singular_values":["1/2","1/2","1/4"],"S_squared_over_4":"1/2","cptp_by_kraus_family":true},
+    {"p":"1","gamma":"3/4","M_diagonal":["1/2","1/2","1/4"],"t":["0","0","3/4"],"correlation_singular_values":["1/2","1/2","1/4"],"S_squared_over_4":"1/2","cptp_by_kraus_family":true}
+  ],
+  "decision":{"same_M_different_t":true,"same_bell_correlation":true,"same_optimized_chsh":true,"local_output_marginal_distinguishes_translation":true},
+  "release_test":{"three_physical_family_points":true,"translations":true,"common_score":true,"protected_status_unchanged":true},
+  "ownership":{"physical_family_is_imported_control":true,"prediction_or_confirmation":false},
+  "claim_ceiling":"Exact same-correlation/different-marginal CPTP control; no apparatus identity, GU process, prediction or confirmation."
+}

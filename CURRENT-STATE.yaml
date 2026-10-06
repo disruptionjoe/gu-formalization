@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 22168fbe6319f768665432a7ed847ea6375abca8
+revision_basis: e2a0c3b6916a24f90cff99b0945116978dfe5013
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1221--K1225 remove unitality from the Bell/optimized-CHSH calibration
+    theorem for qubit channels and make the remaining process-frame demand
+    exact. Every trace-preserving qubit CPTP map has affine Bloch form
+    `r -> M r+t`. Applying it to one half of `Phi+` gives first marginal `t`,
+    second marginal zero and correlation tensor `M diag(1,-1,1)`, so optimized
+    CHSH depends only on the two largest singular values of `M` and is blind to
+    translation. Generalized amplitude-damping channels at `gamma=3/4` and
+    `p=0,1/2,1` share `M=diag(1/2,1/2,1/4)` and score square `1/2` while their
+    translations are `-3/4,0,3/4`. Six paired axial preparations and three
+    output effects yield eighteen raw reads: nine half-differences reconstruct
+    `M`, three independent half-sums reconstruct `t`, and the other six sums
+    are consistency relations. Twelve independent linear statistics meet the
+    exact affine-process dimension floor; fewer than twelve cannot identify a
+    full CPTP process on its relative interior, while fewer than nine cannot
+    identify the full unital transfer matrix. The channel, Bell preparation,
+    Born pairing, frame, locality, apparatus and systematics remain imported;
+    the holdout remains unscored and no protected status moves.
+
     K1216--K1220 extend the quantum-anchor calibration boundary from
     Pauli-aligned channels to every unital qubit channel. For real
     Bloch-transfer matrix `M`, the Bell-Choi output correlation matrix is
@@ -13838,15 +13856,17 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K1211--K1215 prove that one-axis fringe visibility is a nonidentifying
-  projection of a general Pauli-diagonal channel: at fixed `V`, optimized
-  CHSH spans the sharp interval `2V` through `2 sqrt(1+V^2)`. Two signed axes
-  still leave an exact complete-positivity interval for the third coefficient.
-  Which typed physical owner supplies the common channel, axes, state/effect
-  pairing and apparatus, or which broader non-Pauli channel class preserves a
-  rigorous calibration law? Preserve delayed-choice entanglement swapping as
-  the distinct unscored holdout; do not treat calibration-anchor reuse as
-  prediction or confirmation.
+  K1221--K1225 prove that affine translation in a general qubit CPTP channel
+  changes only the Bell output's first local marginal, not its correlation
+  tensor or optimized CHSH score. Nine centered transfer statistics recover
+  `M`; three additional marginal statistics recover `t`; twelve meet the
+  linear-identifiability floor for the complete affine process. Which typed
+  physical owner supplies one common channel, Bell preparation, paired input
+  frame, output effects, Born pairing, locality, apparatus and systematics,
+  and which predeclared empirical holdout can then be scored? Preserve
+  delayed-choice entanglement swapping as the distinct unscored holdout; do
+  not treat process tomography or calibration-anchor reuse as prediction or
+  confirmation.
 
   K1206--K1210 prove that known gauge/KT/BFV candidates do not pay the K132
   joint-kernel debt, that the full unchanged-J changed-parent restriction
@@ -15731,15 +15751,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Preserve K1216--K1220's general-unital identifiability boundary. One
-  directional visibility supplies only the sharp interval
-  `2|V| <= S_max <= 2sqrt(2)`, and even three same-axis transfers need not
-  determine the singular spectrum. Construct a typed physical owner for the
-  unital channel, Bell-Choi preparation, state/effect pairing, full process
-  frame, apparatus and systematics, or extend the theorem beyond unital qubit
-  channels. Treat K1211--K1215 as the independently validated Pauli/principal-
-  axis subcase. Do not score the calibration anchors, consume the delayed-
-  choice holdout, or infer GU prediction or confirmation.
+  Preserve K1221--K1225's all-CPTP affine identifiability boundary. Bell
+  correlations and optimized CHSH see `M` but not `t`; nine centered transfer
+  statistics recover `M`, three additional marginal statistics recover `t`,
+  and twelve meet the full affine linear-identifiability floor. Construct a
+  typed common physical owner for the channel, Bell preparation, paired
+  process frame, Born state/effect pairing, locality, apparatus and
+  systematics, then predeclare an empirical holdout. Treat K1216--K1220 as the
+  unital subcase and K1211--K1215 as the Pauli/principal-axis subcase. Do not
+  score the calibration anchors, consume delayed-choice entanglement swapping,
+  or infer GU prediction or confirmation.
 
   Preserve K1211--K1215's identifiability boundary. One visibility supplies
   only the sharp CHSH envelope; two signed transfer axes generally leave the

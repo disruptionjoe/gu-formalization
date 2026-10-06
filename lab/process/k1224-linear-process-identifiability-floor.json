@@ -1,0 +1,22 @@
+{
+  "schema_version":"1.0",
+  "result_id":"K1224-LINEAR-PROCESS-IDENTIFIABILITY-FLOOR",
+  "created":"2026-10-06",
+  "status":"working_draft_verified",
+  "classification":"INTERNAL_CONDITIONAL_MATHEMATICS",
+  "direction":"observed_to_native",
+  "target_claim":"NONE-NOT-A-KILL",
+  "scope":"Linear scalar statistics on the relative interior of trace-preserving qubit CPTP maps, and on its unital subfamily.",
+  "parameter_spaces":{"full_affine_tp_hermiticity_preserving_dimension":12,"unital_transfer_dimension":9,"full_rank_center":"completely depolarizing channel with positive-definite Choi matrix"},
+  "theorem":{"full_process_floor":"rank below 12 leaves a nonzero kernel direction; sufficiently small plus/minus perturbations of the full-rank depolarizing Choi matrix remain CPTP and share all measured statistics","unital_transfer_floor":"rank below 9 leaves a nonzero unital transfer direction; sufficiently small plus/minus perturbations remain unital CPTP","scope_limit":"dimension counting proves a floor for full linear process identification, not a universal floor for every nonlinear scalar invariant"},
+  "controls":[
+    {"measurement_rank":11,"full_kernel_dimension_at_least":1,"identifies_full_affine_process":false},
+    {"measurement_rank":12,"full_kernel_dimension_at_least":0,"dimension_obstruction_removed":true},
+    {"measurement_rank":8,"unital_kernel_dimension_at_least":1,"identifies_full_transfer_matrix":false},
+    {"measurement_rank":9,"unital_kernel_dimension_at_least":0,"dimension_obstruction_removed":true}
+  ],
+  "decision":{"twelve_statistic_frame_meets_linear_floor":true,"nine_transfer_statistics_meet_unital_linear_floor":true,"fewer_than_twelve_can_identify_full_affine_channel":false,"fewer_than_nine_can_identify_full_unital_transfer":false},
+  "release_test":{"full_dimension":12,"unital_dimension":9,"interior_perturbation_argument":true,"nonlinear_invariant_overclaim_rejected":true,"protected_status_unchanged":true},
+  "ownership":{"measurement_model_is_imported":true,"prediction_or_confirmation":false},
+  "claim_ceiling":"Exact finite-dimensional linear-identifiability floor; no claim about optimal nonlinear CHSH-only estimation or a physical apparatus."
+}

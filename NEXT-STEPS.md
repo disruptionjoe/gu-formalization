@@ -7,6 +7,22 @@ updated_at: "2026-10-06"
 
 # Next Steps For Contributors
 
+> **2026-10-06 K1221--K1225 AFFINE QUBIT-CHANNEL PROCESS-FRAME BOUNDARY.**
+> Every qubit CPTP map has affine Bloch form `r -> M r+t`. On one half of
+> `Phi+`, `t` appears only in the first local marginal while the Bell
+> correlation tensor remains `M diag(1,-1,1)`, so optimized CHSH is blind to
+> translation and K1217's sharp `2|V|` through `2sqrt(2)` envelope holds for
+> all qubit CPTP channels. Generalized amplitude-damping controls share `M`
+> and CHSH while varying `t`. Six paired axial preparations and three output
+> effects give eighteen raw reads: nine half-differences recover `M`, three
+> independent half-sums recover `t`, and six relations check consistency.
+> Twelve independent linear statistics meet the full affine-process dimension
+> floor; nine meet the unital-transfer floor. Next construct a typed common
+> physical owner for that channel, Bell preparation, paired process frame,
+> Born pairing, locality, apparatus and systematics, then predeclare a holdout.
+> Keep delayed-choice entanglement swapping unscored and award no GU-native,
+> prediction, confirmation or protected-verdict credit.
+
 > **2026-10-06 K1216--K1220 GENERAL-UNITAL DIRECTIONAL VISIBILITY/BELL
 > BOUNDARY.** For any unital qubit channel with real Bloch-transfer matrix
 > `M`, the Bell-Choi correlation matrix is `M diag(1,-1,1)` and therefore has

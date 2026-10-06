@@ -7,6 +7,23 @@ updated_at: "2026-10-06"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1221--K1225 affine qubit-channel process-frame boundary (2026-10-06)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Affine translation changes a Bell-output marginal but not its correlation tensor | K1221 derives `rho_out`, `T=M diag(1,-1,1)` and `TT^T=MM^T`; producer `11/11`; hostile mutations `9/9` | exact all-qubit-CPTP identity; no GU channel or Born owner |
+| Distinct translations can have identical Bell correlations and optimized CHSH | K1222 generalized-amplitude-damping controls at `gamma=3/4`; `10/10`; `8/8` | exact imported physical-family counterexample |
+| Paired axial preparations reconstruct the affine process | K1223 exact rational rotated-amplitude-damping control; `12/12`; `10/10` | exact 18-read/12-statistic process-frame theorem; apparatus imported |
+| Twelve and nine are linear-identifiability floors for the affine and unital parameter spaces | K1224 dimension plus positive-definite-Choi interior argument; `10/10`; `9/9` | exact finite-dimensional linear floor; no nonlinear-invariant optimality claim |
+| The all-CPTP calibration boundary retains the ownership and held-out firewalls | K1225 integration; `11/11`; `10/10` | exact conditional calibration law; no GU prediction or confirmation |
+
+Five producers pass `54/54` declared controls and five probes reject `46/46`
+hostile mutations. K1216--K1220 remains the unital subcase and K1211--K1215
+the Pauli/principal-axis subcase. The CPTP channel, Bell preparation, Born
+pairing, process frame, locality, apparatus and systematics remain imported;
+delayed-choice entanglement swapping remains unscored and no protected verdict
+moves.
+
 ## K1216--K1220 general-unital directional visibility/Bell boundary (2026-10-06)
 
 | Claim | Evidence | Honest grade |

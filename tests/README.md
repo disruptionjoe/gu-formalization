@@ -4,6 +4,24 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1221--K1225 affine qubit-channel process-frame boundary
+
+- K1221 derives the general affine Bell-Choi state and proves translation is
+  absent from the correlation tensor (`11/11`; `9/9`).
+- K1222 gives generalized-amplitude-damping channels with common `M` and CHSH
+  but different local translations (`10/10`; `8/8`).
+- K1223 reconstructs `M` and `t` from the paired axial process frame
+  (`12/12`; `10/10`).
+- K1224 proves the twelve- and nine-dimensional linear-identifiability floors
+  for full affine and unital transfer data (`10/10`; `9/9`).
+- K1225 integrates the all-CPTP calibration and ownership boundary
+  (`11/11`; `10/10`).
+
+The five producers pass `54/54` controls and the probes reject `46/46` hostile
+mutations. They do not supply a physical channel, Bell preparation, Born rule,
+process frame, apparatus, GU-native state, prediction or confirmation; they do
+not consume the delayed-choice holdout or move protected status.
+
 ## K1216--K1220 general-unital directional visibility/Bell boundary
 
 - K1216 proves that the Bell-Choi correlation matrix and the unital channel's
