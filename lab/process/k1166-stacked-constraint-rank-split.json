@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1166-STACKED-CONSTRAINT-RANK-SPLIT",
+  "status": "working_draft_verified",
+  "created": "2026-10-05",
+  "hypotheses": ["K=ker H finite dimensional", "im d subset K", "q d=ell d=0"],
+  "theorem": {
+    "exact_split": "rank((q,ell)|K)=rank(q|K)+rank(ell|(K intersect ker q))",
+    "overlap_defect": "delta=rank(q|K)+rank(ell|K)-rank((q,ell)|K)>=0",
+    "radical_capture_necessity": "rad(H|ker(q,ell))=im d implies rank((q,ell)|K)=dim K-rank d",
+    "target_ceiling": "dim K-rank d<=dim Wq+dim Well"
+  },
+  "exact_control": {
+    "kernel_dimension": 6,
+    "gauge_rank": 1,
+    "q_rank": 2,
+    "ell_rank": 3,
+    "stacked_rank": 4,
+    "overlap_defect": 1,
+    "required_radical_capture_rank": 5
+  },
+  "decision": "stacking finite channels gains only the second channel's rank on the first channel's kernel; shared information pays an exact overlap penalty",
+  "scope_boundary": "finite-dimensional necessary theorem only; no source coupling, propagation, common domain, positivity, or physical quotient is constructed",
+  "target_claim": "NONE-NOT-A-KILL"
+}

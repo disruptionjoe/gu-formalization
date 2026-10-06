@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1167-INDEPENDENT-OVERLAP-CHANNEL-CONTROLS",
+  "status": "working_draft_verified",
+  "created": "2026-10-05",
+  "controls": {
+    "independent": {"q_rank": 2, "ell_rank": 3, "stacked_rank": 5, "overlap_defect": 0},
+    "one_overlap": {"q_rank": 2, "ell_rank": 3, "stacked_rank": 4, "overlap_defect": 1},
+    "duplicate": {"q_rank": 2, "ell_rank": 2, "stacked_rank": 2, "overlap_defect": 2}
+  },
+  "sharpness": "delta=0,1,2 are realized exactly; the direct-sum dimension is attained only by the independent control",
+  "interpretation": "two named targets do not earn additive rank by nomenclature; independence must be proved on the actual K132 kernel",
+  "scope_boundary": "coordinate controls only; no claim that the moment map and seven-invariant lock realize any listed overlap pattern",
+  "target_claim": "NONE-NOT-A-KILL"
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1169-MIXED-CHANNEL-MULTIPLICITY-BOUNDARY",
+  "status": "working_draft_verified",
+  "created": "2026-10-05",
+  "theorem": "p independent 91-component channels and s independent seven-component channels can capture at most 91*p+7*s directions; every overlap lowers this ceiling",
+  "causal": {
+    "timelike": {"required_rank": 98470, "necessary_inequality": "91*p+7*s>=required_rank", "pure_moment_minimum": 1083, "pure_lock_minimum": 14068},
+    "spacelike": {"required_rank": 98470, "necessary_inequality": "91*p+7*s>=required_rank", "pure_moment_minimum": 1083, "pure_lock_minimum": 14068},
+    "null": {"required_rank": 106634, "necessary_inequality": "91*p+7*s>=required_rank", "pure_moment_minimum": 1172, "pure_lock_minimum": 15234}
+  },
+  "mixed_controls": {
+    "nonnull_fail_by_one": {"p": 1082, "s": 1, "capacity": 98469, "deficit": 1},
+    "nonnull_first_pass_nearby": {"p": 1082, "s": 2, "capacity": 98476, "surplus": 6},
+    "null_fail_by_three": {"p": 1171, "s": 10, "capacity": 106631, "deficit": 3},
+    "null_first_pass_nearby": {"p": 1171, "s": 11, "capacity": 106638, "surplus": 4}
+  },
+  "descendant_rule": "factor-through derivatives and postprocessors count as zero additional independent channels",
+  "ownership_boundary": "no multiplicity in this arithmetic family is source-owned; satisfying the inequality would remain necessary, not sufficient",
+  "target_claim": "SC-ACT-06"
+}

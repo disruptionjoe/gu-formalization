@@ -7,6 +7,21 @@ updated_at: "2026-10-05"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1166--K1170 joint finite-channel boundary (2026-10-05)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Two stacked constraints gain only the second channel's rank on the first kernel | K1166 exact split and overlap-defect fixture; producer `10/10`; hostile mutations `12/12` | exact finite-dimensional necessary theorem; no source coupling or functional domain |
+| Independent, partial-overlap and duplicate regimes are all sharp | K1167 coordinate controls with defects zero, one and two; producer `7/7`; hostile mutations `10/10` | exact controls; actual epsilon-channel overlap unclassified |
+| The strongest favorable 91+7 joint channel still misses K132 by `98372/98372/106536` | K1168 causal application under full-independent-transport grant; producer `10/10`; hostile mutations `11/11` | best-case finite-target exclusion; coupling and independence unowned |
+| Mixed independent copies obey `91p+7s>=98470/98470/106634` | K1169 arithmetic boundary and near-threshold controls; producer `11/11`; hostile mutations `12/12` | exact necessary budget; no copy family source-owned or sufficient |
+| Current K132 excludes both finite targets singly, jointly, and through factor-through descendants | K1170 integrated admission update; producer `11/11`; hostile mutations `13/13` | exact current finite-symbol class exclusion; not a global boundary-map or SC-ACT-06 no-go |
+
+Five producers pass `49/49` controls and five probes reject `58/58` hostile
+mutations. `SC-ACT-01/02/06` remain `ASSERTS`, `SC-META-53` remains
+`UNCERTAIN`, and `LT-SM8/LT-GR6b/RA-F1/AC-F1` remain `NEEDS`. No empirical
+score, prediction, confirmation, canon, paper or public status moves.
+
 ## K1161--K1165 differential-prolongation boundary (2026-10-05)
 
 | Claim | Evidence | Honest grade |

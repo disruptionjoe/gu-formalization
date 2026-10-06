@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1168-SOURCE-EPSILON-JOINT-CHANNEL-BOUNDARY",
+  "status": "working_draft_verified",
+  "created": "2026-10-05",
+  "inputs": [
+    "K941 91-component cotangent moment map",
+    "K949 seven-invariant lock",
+    "K1166 stacked-channel theorem",
+    "K1167 overlap controls"
+  ],
+  "favorable_grant": "transport both finite targets independently to the same K132 causal kernel and grant the full direct-sum rank 98",
+  "causal": {
+    "timelike": {"kernel_dimension": 98474, "gauge_rank": 4, "required_constraint_rank": 98470, "joint_target_ceiling": 98, "best_case_shortfall": 98372},
+    "spacelike": {"kernel_dimension": 98474, "gauge_rank": 4, "required_constraint_rank": 98470, "joint_target_ceiling": 98, "best_case_shortfall": 98372},
+    "null": {"kernel_dimension": 106638, "gauge_rank": 4, "required_constraint_rank": 106634, "joint_target_ceiling": 98, "best_case_shortfall": 106536}
+  },
+  "overlap_rule": "an actual overlap defect delta raises every recorded shortfall by delta",
+  "decision": "even the unproved best-case independent joint channel misses the current radical-capture floor by 98372/98372/106536",
+  "necessity_not_sufficiency": "rank 98 is only a favorable ceiling; it supplies neither a coupling nor Qd=0, negative capture, propagation, radical equality, common domains, closed range, uniform positivity, or a maximal generator",
+  "protected_disposition": "SC-ACT-01/02/06 remain ASSERTS; SC-META-53 remains UNCERTAIN; LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS",
+  "target_claim": "SC-ACT-06"
+}

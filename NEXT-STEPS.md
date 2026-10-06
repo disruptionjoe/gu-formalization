@@ -7,6 +7,19 @@ updated_at: "2026-10-05"
 
 # Next Steps For Contributors
 
+> **2026-10-05 K1166--K1170 JOINT FINITE-CHANNEL BOUNDARY.** For two
+> constraints on one Hessian kernel,
+> `rank(q,ell)=rank q+rank(ell|ker q)`; shared information pays an exact
+> overlap defect. Independent, partial-overlap and duplicate controls are
+> sharp. Even granting the 91-component moment map and seven-invariant lock
+> full independent transport to K132 gives rank at most 98 and leaves
+> `98372/98372/106536` directions uncaptured. Hypothetical independent
+> multiplicities must obey `91p+7s>=98470/98470/106634`; factor-through
+> descendants add no copies. Next derive an actual source-owned high-rank
+> symbol outside the complete joint finite channel, an enlarged closed
+> gauge/KT image, or a changed stationary parent. The direct-sum grant is a
+> best-case ceiling, not an owned coupling.
+
 > **2026-10-05 K1161--K1165 DIFFERENTIAL-PROLONGATION BOUNDARY.** Generalizing
 > K792/K880's held redundant-row result, at one fixed covector any finite stack
 > `Q_j=A_j q` factors through the base

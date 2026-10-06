@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: e1ea25ad9632
+revision_basis: e4ea49bd524f
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1166--K1170 close the strongest favorable joint use of the two retained
+    finite source-epsilon channels. For constraints `q` and `ell` on one
+    Hessian kernel, the exact split is
+    `rank(q,ell)=rank q+rank(ell|ker q)`; equivalently every shared direction
+    pays an overlap defect. Sharp coordinate controls realize independent,
+    partially overlapping and duplicate channels. Even granting K941's
+    91-component moment map and K949's seven-invariant lock full independent
+    transport to K132 gives rank at most 98, leaving best-case causal
+    shortfalls `98372/98372/106536`. Any actual overlap makes them larger.
+    For hypothetical independent multiplicities the exact necessary budget is
+    `91p+7s>=98470` nonnull and `91p+7s>=106634` null; factor-through
+    descendants add no copies. No such multiplicity or joint coupling is
+    source-owned, and no protected status moves.
+
     K1161--K1165 generalize K792/K880's held redundant-row factorization and
     test the first obvious attempt to turn the finite source-epsilon target
     into a field-valued high-rank constraint. At one
@@ -13663,6 +13677,15 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1166--K1170 exclude even the strongest favorable direct sum of the retained
+  91-component moment map and seven-invariant lock. Their joint target ceiling
+  is 98 before any overlap penalty, so K132 still needs
+  `98372/98372/106536` directions outside that complete finite epsilon
+  channel. Which actual source-owned bulk-boundary or constraint symbol
+  supplies them, which enlarged closed gauge/KT image changes the quotient,
+  or which changed stationary parent recomputes every K1150 gate? Named
+  channels and factor-through descendants are not independent rank.
+
   K1161--K1165 exclude every finite fixed-covector differential, jet or
   operator-valued descendant stack that still factors through the one
   91-component source-epsilon moment map or seven-invariant lock. Which actual
@@ -15482,6 +15505,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K1166--K1170 prove the exact stacked-channel split and grant the retained
+  source-epsilon moment map plus seven-invariant lock their strongest possible
+  independent direct-sum transport to K132. The combined ceiling is only 98,
+  leaving best-case shortfalls `98372/98372/106536`; any overlap defect raises
+  them. Hypothetical independent multiplicities obey
+  `91p+7s>=98470/98470/106634`, while derivative descendants count as zero
+  additional channels. Advance only with a source-owned principal symbol that
+  adds the recorded complement outside the entire joint finite channel, an
+  enlarged closed gauge/KT image, or a changed stationary parent with every
+  gate recomputed. Do not report the favorable direct-sum grant as an actual
+  source coupling.
+
   K1161--K1165 prove that every finite fixed-symbol differential, jet or
   operator-valued descendant stack of one constraint factors through its base
   symbol and therefore cannot gain rank. The retained 91-component moment map
