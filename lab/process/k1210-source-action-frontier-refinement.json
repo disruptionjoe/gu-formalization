@@ -1,0 +1,68 @@
+{
+  "claim_ceiling": "Exact current-frontier refinement only. Known candidates and the literal projector control are closed at their stated interfaces; future source-owned changed parents or maps remain open.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "created": "2026-10-06",
+  "decision": {
+    "SC_ACT_06_proved_or_refuted": false,
+    "alternative_parent_must_recompute_H_J_d_together": true,
+    "conditional_control_promoted_to_source_owner": false,
+    "mix_new_J_with_selected_H_allowed": false,
+    "protected_status_moves": false
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "known_overgrant_residuals": [
+      81826,
+      81826,
+      81829
+    ],
+    "minimum_changed_parent_restriction_ranks": [
+      98308,
+      98308,
+      98311
+    ],
+    "packet_ids": [
+      "K1206-CURRENT-GAUGE-BFV-CUSTODY-CEILING",
+      "K1207-CHANGED-PARENT-RANK-BUDGET",
+      "K1208-STRATUMWISE-PROJECTOR-PARENT-CONTROL",
+      "K1209-PROJECTOR-PARENT-FUNCTIONAL-BOUNDARY"
+    ],
+    "projector_failed_functional_gates": 7,
+    "projector_rank_jump": 3
+  },
+  "frontier": {
+    "K218_requires_named_consumer_and_tighter_bounds": true,
+    "K500_requires_new_same_domain_A_and_B": true,
+    "alternative_shiab_changed_parent_route_open": true,
+    "current_known_gauge_route_complete": false,
+    "literal_projector_parent_route_open": false,
+    "new_source_owned_map_route_open": true,
+    "next_condition": "serialize one source-selected/action-owned alternative Shiab or changed-parent stationary two-jet and recompute H, J and d together across every causal stratum, then pass K1145/K1150; otherwise supply a genuinely new source-owned map"
+  },
+  "gu_typed_objects": {
+    "current_parent": "selected K132 H,J,d packet",
+    "excluded_control": "reverse-selected S=B*B+P_W",
+    "next_parent_class": "source-selected alternative Shiab or changed-parent stationary two-jet",
+    "target": "ROUTE-TYPE=jointly recomputed source-action H/J/d frontier"
+  },
+  "next_condition": "serialize one source-selected/action-owned alternative Shiab or changed-parent stationary two-jet and recompute H, J and d together across every causal stratum, then pass K1145/K1150; otherwise supply a genuinely new source-owned map",
+  "protected_disposition": "SC-ACT-01/02/06 remain ASSERTS; SC-META-53 remains UNCERTAIN; LT-SM8/LT-GR6b/RA-F1/AC-F1 remain NEEDS",
+  "release_test": {
+    "K218_revival_predicate_retained": true,
+    "K500_revival_predicate_retained": true,
+    "alternative_parent_requires_joint_H_J_d_recomputation": true,
+    "global_changed_parent_budget_is_98308_98311": true,
+    "known_gauge_bfv_candidates_do_not_pay_debt": true,
+    "literal_projector_fails_cross_null": true,
+    "literal_projector_fails_nonzero_cohomology": true,
+    "pointwise_control_is_not_native_parent": true,
+    "protected_status_unchanged": true,
+    "rank8191_not_reused_as_global_cost": true
+  },
+  "result_id": "K1210-SOURCE-ACTION-FRONTIER-REFINEMENT",
+  "schema_version": "1.0",
+  "scope": "Branch-relative integration of K1206--K1209 into the post-K1190 source-action frontier.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

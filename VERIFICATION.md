@@ -7,6 +7,20 @@ updated_at: "2026-10-06"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1206--K1210 changed-parent custody and pointwise-control boundary (2026-10-06)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Known gauge/KT/BFV candidates do not close the K132 joint kernel | K1206 pins native rank four, the rank-16,384 connection-coordinate grant and residuals `81924/81924/81927`, then `81826/81826/81829` after rank 98; `10/10`; `5/5` | exact custody/overgrant ceiling; not a global no-go |
+| An unchanged-`J` repair has global restriction cost `98308/98308/98311` | K1207 applies rank-nullity to `C|K` with kernel `D`; `10/10`; `5/5` | sharp pointwise theorem; no source owner |
+| A saturated fixed-fibre control exists | K1208 constructs `S=B*B+P_W`, rank `229382`, kernel dimension four; `10/10`; `5/5` | exact reverse-selected control; not local or native |
+| The literal projector control fails cross-null and functional admission | K1209 records projector rank jump three, zero cohomology and seven failed K1150 gates; `10/10`; `5/5` | exact exclusion of this control, not all changed parents |
+| The live wake requires a jointly recomputed source-action parent | K1210 preserves alternative-Shiab/changed-parent and genuinely new source-map routes while forbidding mixed parent custody; `10/10`; `5/5` | exact current-frontier refinement; no protected verdict moves |
+
+Five producers pass `50/50` declared controls and five probes reject `25/25`
+hostile mutations. `SC-ACT-01/02/06` remain `ASSERTS`, `SC-META-53` remains
+`UNCERTAIN`, and `LT-SM8/LT-GR6b/RA-F1/AC-F1` remain `NEEDS`.
+
 ## K1201--K1205 downstream frontier reconciliation (2026-10-06)
 
 | Claim | Evidence | Honest grade |

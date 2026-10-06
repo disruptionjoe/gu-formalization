@@ -1,0 +1,66 @@
+{
+  "claim_ceiling": "Known-candidate custody ceiling and favorable rank overgrant only; no global impossibility, changed-parent construction, physical quotient or protected verdict follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "created": "2026-10-06",
+  "decision": {
+    "cotangent_bfv_transported_to_k132": false,
+    "full_u_connection_map_promoted_to_independent_distortion_gauge": false,
+    "known_candidate_meeting_native_k132_enlarged_gauge_packet": false,
+    "new_source_owned_map_remains_open": true,
+    "ordinary_known_gauge_enlargement_closes_joint_kernel": false,
+    "protected_status_moves": false
+  },
+  "direction": "observed_to_native",
+  "exact_control": {
+    "actual_native_t0_gauge_rank": 4,
+    "causal_strata": [
+      "nonnull_positive",
+      "nonnull_negative",
+      "null_auxiliary_nonzero"
+    ],
+    "cotangent_constraint_rank": 91,
+    "full_u_connection_coordinate_rank": 16384,
+    "joint_kernel_dimensions": [
+      98312,
+      98312,
+      98315
+    ],
+    "residual_after_full_u_and_rank98_overgrant": [
+      81826,
+      81826,
+      81829
+    ],
+    "residual_after_full_u_overgrant": [
+      81924,
+      81924,
+      81927
+    ],
+    "seven_lock_rank": 7,
+    "unowned_best_rank": 98
+  },
+  "gu_typed_objects": {
+    "carrier": "selected K132 full field fibre on positive, negative and null covectors",
+    "coordinate_candidate": "full U(64,64) principal connection gauge image on connection coordinates",
+    "native_map": "metric diffeomorphism image inside ker(H) intersect ker(J)",
+    "separate_parent": "source-epsilon cotangent/BFV parent and seven-lock boundary contract",
+    "target": "MAP-TYPE=custody-preserving joint-kernel gauge census"
+  },
+  "release_test": {
+    "connection_coordinate_gauge_rank_is_16384": true,
+    "connection_gauge_not_authenticated_as_independent_k132_distortion_column": true,
+    "cotangent_constraint_rank_is_91_on_separate_parent": true,
+    "finite_bfv_is_zero_level_only": true,
+    "full_u_overgrant_leaves_nonnull_81924": true,
+    "full_u_overgrant_leaves_null_81927": true,
+    "native_t0_distortion_gauge_rank_is_four": true,
+    "rank98_overgrant_still_leaves_81826_81829": true,
+    "selected_joint_kernel_dimensions_pinned": true,
+    "seven_lock_owner_missing": true
+  },
+  "result_id": "K1206-CURRENT-GAUGE-BFV-CUSTODY-CEILING",
+  "schema_version": "1.0",
+  "scope": "Custody and favorable-overgrant census for current native and auxiliary gauge/KT/BFV candidates at the selected K132 symbol.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

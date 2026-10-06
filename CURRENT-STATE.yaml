@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 0bfdafbdd38c9388c73030f6a7fd8063566ecdac
+revision_basis: 50ede7e4193b6a61ded43a45bc092325cad85593
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,29 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1206--K1210 sharpen the post-K1190 changed-parent frontier without
+    promoting an auxiliary map. The selected K132 joint kernels have
+    dimensions `98312/98312/98315`, while the actual native T=0 distortion
+    gauge image has rank four. Even favorably treating the full rank-`16384`
+    U(64,64) connection-coordinate gauge image as an additional independent
+    distortion column leaves `81924/81924/81927` directions; adding the
+    separate unowned rank-98 grant still leaves `81826/81826/81829`.
+    Cotangent-BFV rank 91 and the seven-lock contract live on separate parents
+    and have no transported K132 image. For any unchanged-`J` correction `C`
+    that preserves the retained gauge `D` and reduces
+    `ker(H+C) intersection ker(J)` to `D`, rank-nullity forces
+    `rank(C|K)>=dim(K)-dim(D)=98308/98308/98311`; K1189's rank `8191` is only
+    the auxiliary radial restriction cost. The pointwise control
+    `S=B*B+P_W`, with `B=(H,J)` and `W=ker(B) intersection D-perp`, saturates
+    that bound and has rank `229382` with kernel `D` on each stratum. But it
+    is reverse-selected and unowned, its projector rank jumps by three at the
+    null interface, and exactness erases the nonzero algebraic cohomology
+    required by K1145. It therefore fails K1150. The next exact native input
+    is one source-selected/action-owned alternative Shiab or changed-parent
+    stationary two-jet with `H`, `J` and `d` recomputed together on every
+    causal stratum, or a genuinely new source-owned map. No protected status
+    moves.
+
     K1201--K1205 correct K1200's downstream frontier regression while retaining
     all K1191--K1200 evidence. K569 already consumes K553 together with every
     complete order-two-through-twelve enclosure into all `59586` entries of
@@ -13778,6 +13801,16 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1206--K1210 prove that known gauge/KT/BFV candidates do not pay the K132
+  joint-kernel debt, that the full unchanged-J changed-parent restriction
+  costs `98308/98308/98311` rather than K1189's auxiliary `8191`, and that the
+  strongest pointwise projector repair is not a continuous or physically
+  admitted parent. Which source-selected/action-owned alternative Shiab or
+  changed-parent stationary two-jet supplies jointly recomputed `H`, `J` and
+  `d` on all causal strata and passes K1145/K1150, or which genuinely new
+  source-owned map changes the frontier? Do not mix a new `J` with the
+  selected `H` or promote the reverse-selected projector.
+
   K1201--K1205 show that K553's complete order-ten enclosure is already an
   explicit K569 input and that K575 already closes the complete M-dual
   residual for the fixed trial. K152 remains distinct: K582's current
@@ -15651,6 +15684,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1206--K1210's custody and functional boundary. Ordinary known
+  gauge/KT/BFV data do not close the current K132 joint kernel, K1189's
+  rank-`8191` auxiliary radial cost is not the global changed-parent budget,
+  and the literal `B*B+P_W` control is closed by its cross-null rank jump,
+  zero physical cohomology and seven failed K1150 gates. Advance only by
+  serializing one source-selected/action-owned alternative Shiab or
+  changed-parent stationary two-jet and recomputing `H`, `J` and `d` together
+  across every causal stratum, then replay K1145/K1150; otherwise supply a
+  genuinely new source-owned map. Do not splice a new response map into the
+  selected Hessian or promote a reverse-selected projector to native custody.
+
   Preserve K1201--K1205's corrected downstream frontier. K553 is already
   consumed by K569's complete order-two-through-twelve `Q_12`, and K575
   already encloses a strictly nonzero complete M-dual residual. Do not call

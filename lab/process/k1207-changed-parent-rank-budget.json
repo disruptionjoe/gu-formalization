@@ -1,0 +1,66 @@
+{
+  "claim_ceiling": "Sharp pointwise rank lower bound with unchanged J; no source-owned correction, locality, continuous cross-null family, action, functional domain or physical claim.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-10-06",
+  "decision": {
+    "global_budget_established_pointwise": true,
+    "k1189_rank8191_is_full_native_parent_cost": false,
+    "protected_status_moves": false,
+    "rank8191_suffices_for_selected_parent_joint_kernel": false,
+    "source_owned_parent_constructed": false
+  },
+  "direction": "observed_to_native",
+  "exact_control": {
+    "joint_kernel_dimensions": [
+      98312,
+      98312,
+      98315
+    ],
+    "k1189_auxiliary_radial_restriction_rank": 8191,
+    "minimum_correction_restriction_ranks": [
+      98308,
+      98308,
+      98311
+    ],
+    "retained_gauge_dimension": 4,
+    "toy_control": {
+      "gauge_dimension": 2,
+      "joint_kernel_dimension": 7,
+      "minimum_rank": 5
+    }
+  },
+  "gu_typed_objects": {
+    "correction": "C restricted to K with C(D)=0",
+    "joint_kernel": "K=ker(H) intersect ker(J)",
+    "retained_gauge": "D=im(d) subset K",
+    "target": "MAP-TYPE=unchanged-J changed-parent rank budget"
+  },
+  "release_test": {
+    "bound_is_sharp_for_projector_control": true,
+    "joint_kernel_dimensions_reused": true,
+    "k1189_cost_is_8191": true,
+    "k1189_cost_not_global_parent_budget": true,
+    "nonnull_minimum_rank_98308": true,
+    "null_minimum_rank_98311": true,
+    "protected_status_unchanged": true,
+    "rank_nullity_bound_applied_on_full_joint_kernel": true,
+    "retained_gauge_dimension_four": true,
+    "toy_dimension_seven_gauge_two_cost_five": true
+  },
+  "result_id": "K1207-CHANGED-PARENT-RANK-BUDGET",
+  "schema_version": "1.0",
+  "scope": "Finite-fibre lower bound for symmetric corrections C that preserve retained gauge D and satisfy ker(H+C) intersect ker(J)=D with J fixed.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "conclusion": "rank(C restricted to K) >= dim(K)-dim(D)",
+    "hypotheses": [
+      "D subset K",
+      "C(D)=0",
+      "ker(C restricted to K)=D"
+    ],
+    "proof": "Rank-nullity on C restricted to K; the desired joint kernel forces its kernel to equal D.",
+    "sharpness": "orthogonal projection onto K intersect D-perp attains equality pointwise"
+  }
+}

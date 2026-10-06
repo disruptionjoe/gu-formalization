@@ -7,6 +7,23 @@ updated_at: "2026-10-06"
 
 # Next Steps For Contributors
 
+> **2026-10-06 K1206--K1210 CHANGED-PARENT CUSTODY AND POINTWISE-CONTROL
+> BOUNDARY.** The selected K132 joint kernels have dimensions
+> `98312/98312/98315` and only the rank-four metric diffeomorphism image is a
+> current native T=0 distortion gauge. Even granting the full rank-`16384`
+> connection-coordinate gauge image independently leaves
+> `81924/81924/81927`; granting the separate rank-98 candidate as well leaves
+> `81826/81826/81829`. Cotangent-BFV and seven-lock data are separate-parent
+> objects, not transported K132 columns. Any unchanged-`J` parent correction
+> reducing the joint kernel to the gauge image costs at least
+> `98308/98308/98311`; rank `8191` is only K1189's auxiliary radial cost. The
+> pointwise control `B*B+P_W` saturates the bound but is reverse-selected,
+> jumps rank at the null interface, and kills the nonzero cohomology required
+> by K1145, so it fails K1150. Next serialize a source-selected/action-owned
+> alternative Shiab or changed-parent stationary two-jet and recompute `H`,
+> `J` and `d` together on every causal stratum, or supply a genuinely new
+> source-owned map. Do not splice a new `J` onto the selected `H`.
+
 > **2026-10-06 K1201--K1205 DOWNSTREAM FRONTIER RECONCILIATION.** K553 is
 > already an explicit K569 input: every complete order-two-through-twelve
 > enclosure is composed into all `59586` entries of the `2958`-vector,

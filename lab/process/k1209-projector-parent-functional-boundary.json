@@ -1,0 +1,61 @@
+{
+  "claim_ceiling": "Exact exclusion of the literal K1208 projector as a continuous admitted physical parent; does not exclude smoother source-owned changed parents with jointly recomputed H, J and d.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "created": "2026-10-06",
+  "decision": {
+    "control_passes_k1150": false,
+    "control_passes_nonzero_cohomology_gate": false,
+    "literal_projector_is_continuous_cross_null_family": false,
+    "native_parent_admitted": false,
+    "pointwise_control_remains_useful": true,
+    "protected_status_moves": false
+  },
+  "direction": "observed_to_native",
+  "exact_control": {
+    "control_cohomology_dimensions": [
+      0,
+      0,
+      0
+    ],
+    "failed_gate_count": 7,
+    "k1150_gate_results": {
+      "boundary_trace_compatibility": false,
+      "causal_algebraic_packet": false,
+      "closed_gauge_range": false,
+      "common_graph_domain": false,
+      "maximal_generator": false,
+      "source_action_owner": false,
+      "uniform_positive_gap": false
+    },
+    "projector_ranks": [
+      98308,
+      98308,
+      98311
+    ],
+    "rank_jump": 3
+  },
+  "gu_typed_objects": {
+    "algebraic_gate": "K1145 causal packet including nonzero cohomology",
+    "family": "literal orthogonal projectors P_W across nonnull and null strata",
+    "functional_gate": "K1150 seven-row compiler",
+    "target": "CONTRACT-TYPE=cross-null and functional admission boundary"
+  },
+  "release_test": {
+    "closed_range_gate_fails": true,
+    "common_graph_domain_gate_fails": true,
+    "control_cohomology_is_zero": true,
+    "generator_and_trace_gates_fail": true,
+    "k1145_nonzero_cohomology_gate_fails": true,
+    "no_k1150_admission": true,
+    "positive_gap_gate_fails": true,
+    "projector_rank_jumps_by_three": true,
+    "rank_jump_forbids_literal_continuous_projector_family": true,
+    "source_action_owner_gate_fails": true
+  },
+  "result_id": "K1209-PROJECTOR-PARENT-FUNCTIONAL-BOUNDARY",
+  "schema_version": "1.0",
+  "scope": "Cross-null continuity and K1145/K1150 audit of K1208's reverse-selected stratumwise projector control.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

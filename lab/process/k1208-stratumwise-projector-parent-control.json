@@ -1,0 +1,96 @@
+{
+  "claim_ceiling": "Exact stratumwise finite-fibre feasibility control only; reverse-selected projector, action ownership, locality, cross-null continuity, functional admission and nonzero physical cohomology are absent.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "construction": {
+    "formula": "S=B^*B+P_W",
+    "kernel": "ker(S)=D",
+    "local_differential_realization": false,
+    "ownership": "reverse-selected and unowned",
+    "positivity": "<Sx,x>=||Bx||^2+||P_W x||^2",
+    "symmetry": "self-adjoint for the chosen auxiliary positive fibre metric"
+  },
+  "created": "2026-10-06",
+  "decision": {
+    "native_changed_parent_constructed": false,
+    "nonzero_physical_cohomology_preserved": false,
+    "pointwise_linear_algebra_feasible": true,
+    "protected_status_moves": false,
+    "rank_budget_saturated": true
+  },
+  "direction": "observed_to_native",
+  "exact_control": {
+    "algebraic_cohomology_dimensions_after_control": [
+      0,
+      0,
+      0
+    ],
+    "control_parent_kernel_dimensions": [
+      4,
+      4,
+      4
+    ],
+    "control_parent_ranks": [
+      229382,
+      229382,
+      229382
+    ],
+    "field_dimension": 229386,
+    "projector_ranks": [
+      98308,
+      98308,
+      98311
+    ],
+    "stacked_h_j_ranks": [
+      131074,
+      131074,
+      131071
+    ],
+    "toy_diagonal_control": {
+      "BstarB_diagonal": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "S_diagonal": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "kernel_dimension": 1,
+      "projector_diagonal": [
+        0,
+        1,
+        0,
+        0
+      ]
+    }
+  },
+  "gu_typed_objects": {
+    "control_parent": "S=B*B+P_W",
+    "joint_kernel": "K=ker(B)",
+    "repair_space": "W=K intersect D-perp",
+    "retained_gauge": "D=im(d) subset K",
+    "stacked_map": "B=(H,J)",
+    "target": "MAP-TYPE=pointwise exact projector parent control"
+  },
+  "release_test": {
+    "B_kernel_is_joint_kernel": true,
+    "BstarB_ranks_pinned": true,
+    "S_is_symmetric_positive_semidefinite": true,
+    "S_kernel_equals_retained_gauge": true,
+    "S_rank_is_229382_all_strata": true,
+    "W_is_joint_kernel_orthogonal_to_gauge": true,
+    "physical_algebraic_cohomology_is_zero": true,
+    "projector_ranks_match_budget": true,
+    "source_action_owner_absent": true,
+    "summand_ranges_are_orthogonal": true
+  },
+  "result_id": "K1208-STRATUMWISE-PROJECTOR-PARENT-CONTROL",
+  "schema_version": "1.0",
+  "scope": "Conditional fixed-fibre construction using the selected H and J only as linear maps; it is a reverse-selected control, not a local action-owned parent.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}
