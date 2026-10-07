@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d92769824e1196da76ee0f9281c93ad39634356a
+revision_basis: ee2116c457936ccd9de60e97d8ca3a12e28399a2
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1316--K1320 resolve the finite Weyl-chamber multiplicity question without
+    promoting it to physical selection. After declared unitary identifications
+    of the 322560 compact-picture fibers, the coherent-diagonal average is a
+    canonical positive norm-one orthogonal projection and reduces the raw
+    chamber index to rank one. It is G-invariant exactly when all transported
+    chamber actions coincide. Path-independent transport reduces to the D7
+    Coxeter involution, commutation and braid relations on seven simple edges.
+    Unitary edge maps alone are insufficient: twisting one adjacent generator
+    by minus one preserves unitarity and involutivity but produces relative
+    phase minus one around a braid relator. Thus exact G descent remains
+    conditional on a pinned analytic normalized-intertwiner family with
+    trivial relator holonomy. No chamber or charge is source-selected; no
+    action-derived BV-BFV domain, causal physical pairing, cohomology or
+    observed state map is constructed. K1145/K1150 remain 0/7 and protected
+    statuses do not move.
+
     K1311--K1315 construct the exact normalized principal-series control opened
     by K1309's real polarizations. Because the connected split stabilizer
     A=exp(a) is exponential and noncompact, every supplied real regular charge

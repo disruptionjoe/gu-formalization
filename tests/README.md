@@ -4,6 +4,31 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1316--K1320 Weyl-chamber descent boundary
+
+- K1316 constructs the canonical finite chamber-average projection and its
+  rank-one chamber factor (`15/15`; `9/9`).
+- K1317 proves the exact transported-action criterion for `G`-equivariant
+  descent (`14/14`; `9/9`).
+- K1318 verifies the D7 Coxeter-flat transport relations (`17/17`; `9/9`).
+- K1319 constructs a unitary sign-twisted braid with projective phase `-1`
+  (`14/14`; `9/9`).
+- K1320 composes the finite descent and physical-admission boundary (`16/16`;
+  `9/9`).
+
+```bash
+python3 tests/channel-swings/k1316_canonical_chamber_average.py
+python3 tests/channel-swings/k1316_canonical_chamber_average_probe.py
+python3 tests/channel-swings/k1317_chamber_average_equivariance_criterion.py
+python3 tests/channel-swings/k1317_chamber_average_equivariance_criterion_probe.py
+python3 tests/channel-swings/k1318_coxeter_flat_intertwiner_descent.py
+python3 tests/channel-swings/k1318_coxeter_flat_intertwiner_descent_probe.py
+python3 tests/channel-swings/k1319_projective_chamber_holonomy_boundary.py
+python3 tests/channel-swings/k1319_projective_chamber_holonomy_boundary_probe.py
+python3 tests/channel-swings/k1320_chamber_descent_admission_boundary.py
+python3 tests/channel-swings/k1320_chamber_descent_admission_boundary_probe.py
+```
+
 ## K1311--K1315 split-orbit principal-series control
 
 - K1311 integrates every supplied regular split charge to a unitary stabilizer

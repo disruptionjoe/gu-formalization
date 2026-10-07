@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1316-CANONICAL-CHAMBER-AVERAGE",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "scope": "Finite Hilbert-space averaging over the 322560 Weyl chambers in K1314, before any claim that the average is invariant under the chamber-dependent G actions.",
+  "pinned_inputs": {
+    "k1313": {"path": "lab/process/k1313-compact-picture-positive-hilbert-control.json", "sha256": "aff3d467101d0ce988777f040300fa5ac46078d5546ee2e291cc4f7273cab620"},
+    "k1314": {"path": "lab/process/k1314-weyl-chamber-quantization-boundary.json", "sha256": "ec4f5dca5fa486166b60affb533c9cb76c8fa00cb8b204346fab5c5aad440aa3"}
+  },
+  "construction": {
+    "chamber_count": 322560,
+    "multichamber_space": "direct sum over chambers C of H_C with H_C=L2(K/M)",
+    "reference_identification": "one declared unitary identification U_C:H_0->H_C per chamber",
+    "average_projection": "P=(1/|W|) J J* where J(v)=(U_C v)_C",
+    "self_adjoint": true,
+    "idempotent": true,
+    "positive_contraction": true,
+    "operator_norm": 1,
+    "range": "coherent diagonal {(U_C v)_C}",
+    "chamber_factor_rank": 1,
+    "raw_multiplicity_reduced_from": 322560,
+    "raw_multiplicity_reduced_to": 1,
+    "depends_on_G_intertwining": false
+  },
+  "decision": {
+    "canonical_finite_Hilbert_average_exists_after_identifications": true,
+    "average_is_automatically_G_equivariant": false,
+    "average_selects_one_chamber": false,
+    "average_selects_charge_or_physical_sector": false,
+    "source_or_physical_status_moves": false
+  },
+  "source_and_ledger_effect": "SC-META-53_UNCERTAIN_UNCHANGED__LT-SM8_LT-GR6b_RA-F1_AC-F1_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Exact orthogonal projection on the finite chamber-indexed Hilbert sum after declared unitary fiber identifications. It removes raw chamber multiplicity only as Hilbert linear algebra and does not establish G-equivariance, analytic intertwiner coherence, source selection or physical descent.",
+  "controls": {"producer": "tests/channel-swings/k1316_canonical_chamber_average.py", "probe": "tests/channel-swings/k1316_canonical_chamber_average_probe.py", "controls_passed": 15, "hostile_mutations_rejected": 9}
+}

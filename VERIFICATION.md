@@ -7,6 +7,21 @@ updated_at: "2026-10-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1316--K1320 Weyl-chamber descent boundary (2026-10-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The finite chamber index has a canonical orthogonal average | K1316 projection identities and rank-one chamber factor; `15/15`; `9/9` | exact finite Hilbert theorem after declared unitary fiber identifications; not `G` descent |
+| The chamber average is `G`-equivariant exactly when transported actions agree | K1317 diagonal-invariance and projection-commutator criterion; `14/14`; `9/9` | exact necessary-and-sufficient criterion; analytic intertwiners absent |
+| D7 chamber transport is flat when the Coxeter relators hold | K1318 reflection realization, involutions, braids and commutations; `17/17`; `9/9` | exact algebraic coherence theorem; no pole/reducibility analysis |
+| Positive unitary edge maps can retain projective holonomy | K1319 sign-twisted branch generator and phase-minus-one braid; `14/14`; `9/9` | exact finite countercontrol; not a statement about actual normalized intertwiners |
+| Finite averaging does not close physical admission | K1320 eighteen-row composition; `16/16`; `9/9` | seven satisfied, three excluded, two conditional and six missing; K1145/K1150 remain `0/7` |
+
+The five producers pass `76/76` controls and five probes reject `45/45`
+hostile mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, and LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`. No source,
+ledger, canon, paper, prediction, confirmation or public status moves.
+
 ## K1311--K1315 split-orbit principal-series control (2026-10-07)
 
 | Claim | Evidence | Honest grade |

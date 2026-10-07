@@ -7,6 +7,19 @@ updated_at: "2026-10-07"
 
 # Next Steps For Contributors
 
+> **2026-10-07 K1316--K1320 WEYL-CHAMBER DESCENT BOUNDARY.** The direct sum
+> over all 322560 positive-root chambers has a canonical norm-one orthogonal
+> average after declared unitary fiber identifications, reducing the raw
+> chamber index to rank one. That average is a `G`-subrepresentation exactly
+> when all transported chamber actions coincide. Path-independent transport
+> reduces to the D7 Coxeter involution, commutation and braid relations, and a
+> sign-twisted branch generator gives an explicit unitary projective transport
+> with phase `-1` around one braid. Next supply a pinned analytic normalized
+> intertwiner family, including pole/reducibility control and exact braid
+> normalization, or return to a released source action/boundary/Green packet
+> and the interacting physical BV-BFV construction. Do not call finite
+> averaging a source-selected chamber or physical sector.
+
 > **2026-10-07 K1311--K1315 SPLIT-ORBIT PRINCIPAL-SERIES CONTROL.** Every
 > supplied regular split charge integrates to a unitary character of the
 > connected split stabilizer, so the orbit has a homogeneous prequantum line

@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1320-CHAMBER-DESCENT-ADMISSION-BOUNDARY",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "scope": "Integrated chamber-average, equivariance, Coxeter-coherence and physical-admission boundary after K1316--K1319.",
+  "pinned_inputs": {
+    "k1315": {"path": "lab/process/k1315-principal-series-admission-boundary.json", "sha256": "a6cd886f0be0bba84b983491ac537ea20af34c74b584c1b740954a5deb6e8330"},
+    "k1316": {"path": "lab/process/k1316-canonical-chamber-average.json", "sha256": "ba8c94afdd18c813757404eefce5dee722a3f1157170dbaa67ce788cb70b5f80"},
+    "k1317": {"path": "lab/process/k1317-chamber-average-equivariance-criterion.json", "sha256": "30c81be2f29e7654cc39fc70392d94051f538f58655909264c172584d9f20db9"},
+    "k1318": {"path": "lab/process/k1318-coxeter-flat-intertwiner-descent.json", "sha256": "498b6a0ae0d2361e25f4fd8f31bd1cf1e372d4bdcc77fea24ef43d82cb5e6b87"},
+    "k1319": {"path": "lab/process/k1319-projective-chamber-holonomy-boundary.json", "sha256": "3537373c1e31aabcf16d3261505a1482e6dd081e6957c8bb7459ced6fc1969da"}
+  },
+  "certificate": {
+    "row_count": 18,
+    "satisfied_count": 7,
+    "excluded_count": 3,
+    "conditional_count": 2,
+    "missing_count": 6,
+    "rows": [
+      {"row": "regular_orbit_kks_geometry", "state": "satisfied"},
+      {"row": "equivariant_prequantum_line", "state": "satisfied"},
+      {"row": "invariant_real_lagrangian_polarization", "state": "satisfied"},
+      {"row": "minimal_parabolic_polarization_extension", "state": "satisfied"},
+      {"row": "normalized_principal_series_control", "state": "satisfied"},
+      {"row": "positive_compact_picture_hilbert_control", "state": "satisfied"},
+      {"row": "finite_chamber_average_projection", "state": "satisfied"},
+      {"row": "prequantization_discretizes_or_selects_charge", "state": "excluded"},
+      {"row": "neutral_tangent_metric_is_hilbert_pairing", "state": "excluded"},
+      {"row": "canonical_single_weyl_chamber", "state": "excluded"},
+      {"row": "finite_polarized_bfv_compatibility", "state": "conditional"},
+      {"row": "analytic_coxeter_flat_G_intertwiner_completion", "state": "conditional"},
+      {"row": "source_owned_charge_and_chamber_selection", "state": "missing"},
+      {"row": "action_derived_interacting_constraint_complex", "state": "missing"},
+      {"row": "functional_local_bv_bfv_domain", "state": "missing"},
+      {"row": "causal_green_or_boundary_law", "state": "missing"},
+      {"row": "positive_nonzero_physical_cohomology", "state": "missing"},
+      {"row": "observed_export_and_state_effect_meaning", "state": "missing"}
+    ]
+  },
+  "decision": {
+    "raw_chamber_multiplicity_has_canonical_Hilbert_projection": true,
+    "G_equivariant_chamber_descent_constructed": false,
+    "analytic_normalized_intertwiner_family_constructed": false,
+    "projective_relator_phase_is_harmless": false,
+    "canonical_or_source_selected_chamber_constructed": false,
+    "positive_physical_pairing_constructed": false,
+    "k1145_k1150_candidate_counts_move": false,
+    "protected_status_change": false
+  },
+  "source_and_ledger_effect": "SC-ACT-01_02_06_ASSERTS_UNCHANGED__SC-META-53_UNCERTAIN_UNCHANGED__LT-SM8_LT-GR6b_RA-F1_AC-F1_NEEDS_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "The chamber index admits a canonical finite orthogonal average and exact G descent has a complete algebraic Coxeter-flatness criterion. The actual analytic normalized intertwiner family, relator-phase trivialization on the imported charge, source selection and physical BV-BFV state space remain unconstructed.",
+  "controls": {"producer": "tests/channel-swings/k1320_chamber_descent_admission_boundary.py", "probe": "tests/channel-swings/k1320_chamber_descent_admission_boundary_probe.py", "controls_passed": 16, "hostile_mutations_rejected": 9}
+}
