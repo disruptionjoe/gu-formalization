@@ -4,6 +4,35 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1306--K1310 split-orbit para-polarization boundary
+
+- K1306 proves that the real one-dimensional split-root spaces exclude every
+  fully invariant almost-complex structure (`13/13`; `8/8`).
+- K1307 constructs an integrable invariant para-complex structure from every
+  positive-root system (`16/16`; `9/9`).
+- K1308 combines it with the KKS form to obtain an invariant para-Kähler
+  metric of exact signature `(42,42)` (`14/14`; `9/9`).
+- K1309 classifies the invariant integrable real polarizations as the 322560
+  Weyl chambers, with no canonical Weyl-fixed choice (`15/15`; `9/9`).
+- K1310 composes the geometric and physical-admission boundary (`18/18`;
+  `9/9`).
+
+The five producers pass `76/76` controls and the probes reject `44/44`
+hostile mutations.
+
+```bash
+python3 tests/channel-swings/k1306_invariant_complex_structure_obstruction.py
+python3 tests/channel-swings/k1306_invariant_complex_structure_obstruction_probe.py
+python3 tests/channel-swings/k1307_split_orbit_para_complex_structure.py
+python3 tests/channel-swings/k1307_split_orbit_para_complex_structure_probe.py
+python3 tests/channel-swings/k1308_split_orbit_para_kahler_metric.py
+python3 tests/channel-swings/k1308_split_orbit_para_kahler_metric_probe.py
+python3 tests/channel-swings/k1309_invariant_real_polarization_classification.py
+python3 tests/channel-swings/k1309_invariant_real_polarization_classification_probe.py
+python3 tests/channel-swings/k1310_para_polarization_admission_boundary.py
+python3 tests/channel-swings/k1310_para_polarization_admission_boundary_probe.py
+```
+
 ## K1301--K1305 nonzero-charge shifting and BFV boundary
 
 - K1301 constructs the regular shifted parent for one supplied nonzero charge

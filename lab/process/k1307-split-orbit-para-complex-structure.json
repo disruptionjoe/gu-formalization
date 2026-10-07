@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1307-SPLIT-ORBIT-PARA-COMPLEX-STRUCTURE",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "scope": "Positive-root construction of an invariant integrable para-complex structure on Spin_0(7,7)/G_mu, with split-Cartan identity component A.",
+  "pinned_inputs": {
+    "k1302": {"path": "lab/process/k1302-regular-shifted-reduction.json", "sha256": "9ceca564b8e76365ab31135222fd4e0d6f6ddf4db3a2bac07888c10ffdd84898"},
+    "k1306": {"path": "lab/process/k1306-invariant-complex-structure-obstruction.json", "sha256": "26caafd9bcbc6d1496e3d9bcd8c3278df2bf6a2125bdd7871093b933439fbe4a"}
+  },
+  "construction": {
+    "positive_system": "choose Delta_plus in D7",
+    "plus_eigenspace": "n_plus=direct sum of g_alpha for alpha in Delta_plus",
+    "minus_eigenspace": "n_minus=direct sum of g_minus_alpha for alpha in Delta_plus",
+    "endomorphism": "K=+1 on n_plus and K=-1 on n_minus"
+  },
+  "theorem": {
+    "plus_eigenspace_dimension": 42,
+    "minus_eigenspace_dimension": 42,
+    "K_squared_is_identity": true,
+    "equal_rank_eigenbundles": true,
+    "a_equivariant": true,
+    "g_invariant": true,
+    "positive_root_brackets_close": true,
+    "negative_root_brackets_close": true,
+    "nijenhuis_tensor_zero": true,
+    "integrable_para_complex_structure": true,
+    "choice_independent": false
+  },
+  "decision": {
+    "invariant_split_replacement_exists": true,
+    "complex_structure_recovered": false,
+    "positive_structure_recovered": false,
+    "positive_root_choice_is_source_selected": false
+  },
+  "source_and_ledger_effect": "SC-META-53_UNCERTAIN_UNCHANGED__LT-SM8_LT-GR6b_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Exact invariant integrable para-complex construction after choosing a positive root system. The chamber choice is additional finite data and para-complex geometry is not positive complex geometry.",
+  "controls": {"producer": "tests/channel-swings/k1307_split_orbit_para_complex_structure.py", "probe": "tests/channel-swings/k1307_split_orbit_para_complex_structure_probe.py", "controls_passed": 16, "hostile_mutations_rejected": 9}
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1308-SPLIT-ORBIT-PARA-KAHLER-METRIC",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "scope": "KKS-compatible invariant para-Kahler metric induced by K1307 on the regular split-D7 orbit.",
+  "pinned_inputs": {
+    "k1302": {"path": "lab/process/k1302-regular-shifted-reduction.json", "sha256": "9ceca564b8e76365ab31135222fd4e0d6f6ddf4db3a2bac07888c10ffdd84898"},
+    "k1307": {"path": "lab/process/k1307-split-orbit-para-complex-structure.json", "sha256": "fa09e53a1261d4e2a36b2be10f68a91074fc3df1552fe7eb40c36305f348dd3f"}
+  },
+  "construction": {
+    "symplectic_form": "convention-signed KKS form omega",
+    "metric": "g_K(X,Y)=omega(X,KY)",
+    "root_plane_block": "for (E_alpha,E_-alpha), [[0,-c_alpha],[-c_alpha,0]] up to the global KKS sign",
+    "regularity_condition": "c_alpha=<mu,[E_alpha,E_-alpha]> is nonzero for every root"
+  },
+  "theorem": {
+    "metric_symmetric": true,
+    "metric_nondegenerate": true,
+    "metric_g_invariant": true,
+    "para_hermitian_identity": "g_K(KX,KY)=-g_K(X,Y)",
+    "root_plane_count": 42,
+    "positive_inertia": 42,
+    "negative_inertia": 42,
+    "zero_inertia": 0,
+    "metric_positive_definite": false,
+    "para_kahler": true,
+    "kks_form_is_positive_pairing": false
+  },
+  "decision": {
+    "canonical_after_chamber_neutral_geometry_constructed": true,
+    "invariant_positive_metric_constructed": false,
+    "physical_hilbert_pairing_constructed": false,
+    "SC_META_53_resolved": false
+  },
+  "source_and_ledger_effect": "SC-META-53_UNCERTAIN_UNCHANGED__LT-SM8_LT-GR6b_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Exact invariant neutral para-Kahler structure of signature (42,42) for each positive-root choice. Neutrality is a structural result, not physical positivity or unitary quantization.",
+  "controls": {"producer": "tests/channel-swings/k1308_split_orbit_para_kahler_metric.py", "probe": "tests/channel-swings/k1308_split_orbit_para_kahler_metric_probe.py", "controls_passed": 14, "hostile_mutations_rejected": 9}
+}

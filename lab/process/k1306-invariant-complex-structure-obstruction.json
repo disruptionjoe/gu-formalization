@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1306-INVARIANT-COMPLEX-STRUCTURE-OBSTRUCTION",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "scope": "Invariant almost-complex structures on the regular split coadjoint orbit Spin_0(7,7)/G_mu, whose stabilizer has split-Cartan identity component A.",
+  "pinned_inputs": {
+    "k1302": {"path": "lab/process/k1302-regular-shifted-reduction.json", "sha256": "9ceca564b8e76365ab31135222fd4e0d6f6ddf4db3a2bac07888c10ffdd84898"},
+    "k1304": {"path": "lab/process/k1304-split-orbit-positive-metric-obstruction.json", "sha256": "21113c7aeaac1f337146ddbe98c185598de593233de3d2b95714572a3d04bc0a"}
+  },
+  "theorem": {
+    "group": "Spin_0(7,7)",
+    "root_system": "D7",
+    "root_count": 84,
+    "positive_root_count": 42,
+    "root_space_real_dimension": 1,
+    "stabilizer_identity_component": "A, the seven-dimensional split Cartan; any finite centralizer components preserve the root lines and do not weaken the obstruction",
+    "isotropy_representation": "direct sum over all real root spaces g_alpha",
+    "split_torus_characters_pairwise_distinct": true,
+    "invariant_endomorphism_preserves_each_root_space": true,
+    "endomorphism_restriction_per_root_space": "real scalar",
+    "real_scalar_can_square_to_minus_one": false,
+    "g_invariant_almost_complex_structure_exists": false,
+    "g_invariant_kks_compatible_complex_structure_exists": false
+  },
+  "decision": {
+    "compact_orbit_kahler_template_transfers": false,
+    "invariant_complex_polarization_available": false,
+    "noninvariant_complex_structures_excluded": false,
+    "SC_META_53_resolved": false
+  },
+  "source_and_ledger_effect": "SC-META-53_UNCERTAIN_UNCHANGED__LT-SM8_LT-GR6b_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Exact homogeneous-space obstruction to a fully Spin_0(7,7)-invariant almost-complex structure on the regular split orbit. It does not exclude noninvariant complex structures or other quantization schemes.",
+  "controls": {"producer": "tests/channel-swings/k1306_invariant_complex_structure_obstruction.py", "probe": "tests/channel-swings/k1306_invariant_complex_structure_obstruction_probe.py", "controls_passed": 13, "hostile_mutations_rejected": 8}
+}

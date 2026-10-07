@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 32f0a137c05c4aa021b245eba6ef8e5595e011ba
+revision_basis: ebb092c8171186c26a007fad21d907a9dd953580
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1306--K1310 classify the invariant polarization geometry of the regular
+    split orbit left open by K1304. The one-dimensional real D7 root spaces
+    carry distinct split-Cartan characters, so every invariant endomorphism is
+    scalar on each root line and no fully Spin_0(7,7)-invariant almost-complex
+    structure exists. Choosing a positive-root system instead gives an
+    integrable invariant para-complex structure with two 42-dimensional KKS-
+    Lagrangian eigendistributions. The induced para-Kahler metric has exact
+    neutral signature (42,42). Compatible invariant integrable real
+    polarizations are exactly the 322560 Weyl chambers; the Weyl action is
+    transitive and has no canonical fixed choice. Thus invariant real
+    polarization exists, but it is neutral and chamber-dependent rather than
+    positive or source-selected. K1145/K1150 stay 0/7; source, ledger and
+    protected statuses do not move.
+
     K1301--K1305 close the finite nonzero-charge BFV presentation gap without
     closing source ownership. For one supplied regular split charge mu, the
     shifted parent T*Spin_0(7,7) times O_-mu has a diagonal rank-91 moment map
@@ -14087,17 +14101,16 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K1301--K1305 prove that a supplied regular nonzero source-epsilon charge has
-  a smooth shifted zero-level reduction and a proper finite 91-ghost BFV
-  complex, with degree-zero observables C-infinity(O_mu). The shifting orbit
-  does not select mu: it imports the same seven invariant values. Full split
-  symmetry also cannot provide a positive tangent metric on the regular orbit,
-  because the stabilizing split Cartan acts by nonunit real root weights. Which
-  released action, boundary or Green law derives the charge or equivalent
-  seven values, supplies an owned noninvariant positive pairing, and realizes
-  the local functional BV-BFV domain, causal Green/boundary law, positive
-  physical cohomology and observed state map? Do not count an auxiliary orbit
-  as source selection or the KKS form as a positive physical metric.
+  K1306--K1310 prove that the supplied regular split orbit has no invariant
+  almost-complex structure but does have exactly 322560 invariant integrable
+  real polarizations, one per Weyl chamber, each carrying a neutral
+  para-Kahler metric of signature (42,42). Which released action, boundary or
+  Green law derives the charge and selects or replaces the chamber choice,
+  supplies a conserved positive physical pairing, and realizes the local
+  functional BV-BFV domain, causal Green/boundary law, positive physical
+  cohomology and observed state map? Do not count a Weyl chamber as source
+  selection, a real polarization as a positive complex polarization, or the
+  neutral para-Kahler metric as a Hilbert metric.
 
   K1291--K1295 classify the realized split-D7 invariant image exactly. A
   proposed invariant target is real precisely when its monic degree-seven

@@ -7,6 +7,21 @@ updated_at: "2026-10-06"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1306--K1310 split-orbit para-polarization boundary (2026-10-06)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The regular split orbit has no invariant almost-complex structure | K1306 distinct real split-root characters and one-dimensional commutant; `13/13`; `8/8` | exact homogeneous-space obstruction; noninvariant complex structures remain outside scope |
+| Every positive-root system gives an invariant integrable para-complex structure | K1307 balanced root eigenspaces and bracket closure; `16/16`; `9/9` | exact split-real construction; depends on an unselected Weyl chamber |
+| The KKS-compatible para-Kähler metric has signature `(42,42)` | K1308 forty-two nondegenerate root-plane blocks; `14/14`; `9/9` | exact neutral metric theorem; not a positive physical pairing |
+| Invariant real polarizations are exactly the Weyl chambers | K1309 Lagrangian/integrability classification and `|W(D7)|=322560`; `15/15`; `9/9` | exact finite classification; no Weyl-fixed or source-selected chamber |
+| Para-polarization does not close physical admission | K1310 fourteen-row composition; `18/18`; `9/9` | five satisfied, two excluded, one conditional and six missing; K1145/K1150 remain `0/7` |
+
+The five producers pass `76/76` controls and five probes reject `44/44`
+hostile mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, and LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`. No source,
+ledger, canon, paper, prediction, confirmation or public status moves.
+
 ## K1301--K1305 nonzero-charge shifting and BFV boundary (2026-10-06)
 
 | Claim | Evidence | Honest grade |

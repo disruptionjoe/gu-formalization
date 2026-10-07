@@ -7,6 +7,20 @@ updated_at: "2026-10-06"
 
 # Next Steps For Contributors
 
+> **2026-10-06 K1306--K1310 SPLIT-ORBIT PARA-POLARIZATION BOUNDARY.** The
+> regular split orbit has no fully `Spin_0(7,7)`-invariant almost-complex
+> structure: every invariant endomorphism is a real scalar on each
+> one-dimensional root space. It does admit invariant integrable para-complex
+> structures. Each positive-root system gives complementary 42-dimensional
+> real Lagrangian distributions and a KKS-compatible para-Kähler metric of
+> exact signature `(42,42)`. These polarizations are exactly the 322560 Weyl
+> chambers and none is Weyl-fixed or source-selected. Next supply a released
+> action, boundary or Green law deriving the charge and selecting or replacing
+> the chamber, plus a conserved positive physical pairing, common local
+> BV-BFV domain, causal realization and observed state map. Do not call the
+> neutral para-Kähler metric a Hilbert metric or the chamber torsor a physical
+> quantization.
+
 > **2026-10-06 K1301--K1305 NONZERO-CHARGE SHIFTING AND BFV BOUNDARY.** A
 > supplied regular nonzero source-epsilon charge admits a smooth shifted
 > presentation on `T*Spin_0(7,7) x O_-mu`. Its diagonal zero constraint is a
