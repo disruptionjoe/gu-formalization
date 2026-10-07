@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1322-D7-TREE-BRAID-SIGN-TRIVIALIZATION",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "scope": "Complete classification of plus-or-minus-one adjacent-braid defects on the D7 Dynkin tree under simple-generator sign rephasing.",
+  "pinned_inputs": {
+    "k1321": {"path": "lab/process/k1321-coxeter-generator-sign-rephasing.json", "sha256": "38fa5839c5662e05dd560f854a1209abc61707e63983a240f23f08dc5305b7df"}
+  },
+  "graph": {"type": "D7", "vertices": 7, "edges": [[1,2],[2,3],[3,4],[4,5],[5,6],[5,7]], "connected": true, "acyclic": true},
+  "theorem": {
+    "defect_assignment_count": 64,
+    "every_edge_sign_assignment_is_a_vertex_coboundary": true,
+    "root_choice": "epsilon_1=plus_one",
+    "recursion": "epsilon_child = beta_parent_child epsilon_parent",
+    "solutions_per_assignment": 2,
+    "uniqueness_modulo_global_sign": true,
+    "all_adjacent_braids_become_exact": true
+  },
+  "decision": {
+    "k1319_displayed_minus_one_is_intrinsic_D7_holonomy": false,
+    "finite_D7_sign_normalization_obstruction_remains": false,
+    "non_sign_or_analytic_obstruction_excluded": false,
+    "source_or_physical_status_moves": false
+  },
+  "source_and_ledger_effect": "SC-META-53_UNCERTAIN_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Every assignment of sign-valued simple-braid defects on the D7 Dynkin tree is removable, uniquely up to common generator sign. This does not trivialize arbitrary scalar cocycles or construct the analytic intertwiner family.",
+  "controls": {"producer": "tests/channel-swings/k1322_d7_tree_braid_sign_trivialization.py", "probe": "tests/channel-swings/k1322_d7_tree_braid_sign_trivialization_probe.py", "controls_passed": 14, "hostile_mutations_rejected": 9}
+}

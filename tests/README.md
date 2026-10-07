@@ -4,6 +4,31 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1321--K1325 D7 braid-sign normalization boundary
+
+- K1321 derives the generator-sign action on adjacent braid defects (`14/14`;
+  `8/8`).
+- K1322 exhausts all 64 D7 edge-sign assignments and proves tree
+  trivialization (`14/14`; `9/9`).
+- K1323 gives the cycle-product theorem and triangle obstruction control
+  (`14/14`; `9/9`).
+- K1324 constructs the deterministic rooted D7 normalizer (`15/15`; `9/9`).
+- K1325 composes the finite sign and physical-admission boundary (`18/18`;
+  `10/10`).
+
+```bash
+python3 tests/channel-swings/k1321_coxeter_generator_sign_rephasing.py
+python3 tests/channel-swings/k1321_coxeter_generator_sign_rephasing_probe.py
+python3 tests/channel-swings/k1322_d7_tree_braid_sign_trivialization.py
+python3 tests/channel-swings/k1322_d7_tree_braid_sign_trivialization_probe.py
+python3 tests/channel-swings/k1323_cycle_product_obstruction_control.py
+python3 tests/channel-swings/k1323_cycle_product_obstruction_control_probe.py
+python3 tests/channel-swings/k1324_canonical_d7_sign_normalization.py
+python3 tests/channel-swings/k1324_canonical_d7_sign_normalization_probe.py
+python3 tests/channel-swings/k1325_braid_normalization_admission_boundary.py
+python3 tests/channel-swings/k1325_braid_normalization_admission_boundary_probe.py
+```
+
 ## K1316--K1320 Weyl-chamber descent boundary
 
 - K1316 constructs the canonical finite chamber-average projection and its

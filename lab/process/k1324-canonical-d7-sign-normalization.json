@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1324-CANONICAL-D7-SIGN-NORMALIZATION",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "scope": "Deterministic rooted algorithm that removes every sign-valued adjacent-braid defect on the D7 simple graph.",
+  "pinned_inputs": {
+    "k1322": {"path": "lab/process/k1322-d7-tree-braid-sign-trivialization.json", "sha256": "f546e1aed556b3879a033f984170cf73da2e78fe4287deb3aaa510ed95f12641"},
+    "k1323": {"path": "lab/process/k1323-cycle-product-obstruction-control.json", "sha256": "fc1e297a7531651014dc6bf5bb05fd0956e8eebb1f7e7b63ddeefd89310498d7"}
+  },
+  "algorithm": {
+    "root": 1,
+    "root_sign": 1,
+    "edge_order": [[1,2],[2,3],[3,4],[4,5],[5,6],[5,7]],
+    "update": "epsilon_child = beta_parent_child epsilon_parent",
+    "output": "T_i_normalized = epsilon_i T_i",
+    "deterministic": true,
+    "linear_edge_complexity": true,
+    "already_exact_input_is_fixed": true
+  },
+  "k1319_replay": {
+    "defective_edge": [5,6],
+    "defect": -1,
+    "normalizing_signs": [1,1,1,1,1,-1,1],
+    "all_normalized_edge_defects": [1,1,1,1,1,1],
+    "returns_standard_generator_6_sign": true
+  },
+  "decision": {
+    "finite_sign_normalization_constructed": true,
+    "normalization_is_source_selected_chamber": false,
+    "analytic_operator_normalization_constructed": false,
+    "source_or_physical_status_moves": false
+  },
+  "source_and_ledger_effect": "SC-META-53_UNCERTAIN_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Canonical relative to the declared root and generator labels, this finite algorithm removes sign-only braid defects. It does not choose a physical chamber or normalize an unconstructed analytic family.",
+  "controls": {"producer": "tests/channel-swings/k1324_canonical_d7_sign_normalization.py", "probe": "tests/channel-swings/k1324_canonical_d7_sign_normalization_probe.py", "controls_passed": 15, "hostile_mutations_rejected": 9}
+}

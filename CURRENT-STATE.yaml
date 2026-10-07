@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: ee2116c457936ccd9de60e97d8ca3a12e28399a2
+revision_basis: 45aa5a52136ccb1a8721347c785a7ca1e634dbcf
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1321--K1325 refine K1319's projective-holonomy boundary. For unitary
+    involutive simple transports, generator sign rephasing changes an adjacent
+    braid defect by the endpoint-sign product. Because the labeled D7 Dynkin
+    graph is a tree, all 64 sign-valued edge-defect assignments are removable,
+    each by exactly two vertex-sign choices related by a global sign. K1319's
+    displayed minus-one braid is therefore a failure of that normalization,
+    not an intrinsic D7 sign-holonomy class. A triangle control proves the
+    sharp general boundary: a sign assignment is removable exactly when every
+    graph-cycle product is positive. A deterministic rooted D7 algorithm
+    normalizes all sign defects, but actual analytic intertwiners, pole and
+    reducibility control, non-sign cocycles, source charge/chamber selection
+    and physical BV-BFV data remain absent. The nineteen-row census is eight
+    satisfied, three excluded, two conditional and six missing; K1145/K1150
+    remain 0/7 and protected statuses do not move.
+
     K1316--K1320 resolve the finite Weyl-chamber multiplicity question without
     promoting it to physical selection. After declared unitary identifications
     of the 322560 compact-picture fibers, the coherent-diagonal average is a
@@ -16143,6 +16158,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1321--K1325's finite sign-normalization boundary. Every
+  sign-valued adjacent-braid defect on the D7 simple graph is removable by a
+  deterministic rooted generator rephasing, and K1319's displayed minus-one
+  braid is not an intrinsic D7 sign class. Advance mathematical chamber
+  descent only with actual normalized analytic simple intertwiners, their
+  common domain and meromorphic pole/reducibility control, plus proof that all
+  relevant Coxeter defects are sign-valued or otherwise cohomologically
+  trivial. Do not promote tree sign trivialization to existence of the
+  intertwiners, arbitrary projective-cocycle triviality, source chamber
+  selection or a physical state space.
+
   Preserve K1291--K1295's exact realized-image and selector-transfer boundary.
   A finite target is realized exactly when the associated monic polynomial has
   seven nonnegative roots; regularity is the nonzero squared-root

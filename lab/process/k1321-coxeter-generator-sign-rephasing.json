@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1321-COXETER-GENERATOR-SIGN-REPHASING",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "scope": "Scalar sign rephasing law for already unitary involutive Coxeter generators whose adjacent braid relations may carry sign defects.",
+  "pinned_inputs": {
+    "k1319": {"path": "lab/process/k1319-projective-chamber-holonomy-boundary.json", "sha256": "3537373c1e31aabcf16d3261505a1482e6dd081e6957c8bb7459ced6fc1969da"}
+  },
+  "rephasing_law": {
+    "base_relation": "T_i T_j T_i = beta_ij T_j T_i T_j",
+    "defect_values": [-1, 1],
+    "allowed_rephasing": "T_i' = epsilon_i T_i with epsilon_i in {minus_one,plus_one}",
+    "involutions_preserved": true,
+    "unitarity_preserved": true,
+    "nonadjacent_commutation_preserved": true,
+    "transformed_braid_defect": "beta_ij' = beta_ij epsilon_j epsilon_i",
+    "exact_braid_condition": "epsilon_i epsilon_j = beta_ij"
+  },
+  "decision": {
+    "k1319_minus_one_defect_is_normalization_dependent": true,
+    "every_projective_unitary_representation_is_trivialized": false,
+    "analytic_intertwiner_existence_proved": false,
+    "source_or_physical_status_moves": false
+  },
+  "source_and_ledger_effect": "SC-META-53_UNCERTAIN_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Exact sign-cochain transformation law for unitary involutive simple generators. It does not classify arbitrary U(1) cocycles, construct analytic intertwiners, or establish physical chamber descent.",
+  "controls": {"producer": "tests/channel-swings/k1321_coxeter_generator_sign_rephasing.py", "probe": "tests/channel-swings/k1321_coxeter_generator_sign_rephasing_probe.py", "controls_passed": 14, "hostile_mutations_rejected": 8}
+}

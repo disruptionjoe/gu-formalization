@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1325-BRAID-NORMALIZATION-ADMISSION-BOUNDARY",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "scope": "Integrated finite braid-sign normalization and physical-admission boundary after K1321--K1324.",
+  "pinned_inputs": {
+    "k1320": {"path": "lab/process/k1320-chamber-descent-admission-boundary.json", "sha256": "35763dae1f11b5313690a6633515713509e59f25f40f95a39e6f8d3980407b44"},
+    "k1321": {"path": "lab/process/k1321-coxeter-generator-sign-rephasing.json", "sha256": "38fa5839c5662e05dd560f854a1209abc61707e63983a240f23f08dc5305b7df"},
+    "k1322": {"path": "lab/process/k1322-d7-tree-braid-sign-trivialization.json", "sha256": "f546e1aed556b3879a033f984170cf73da2e78fe4287deb3aaa510ed95f12641"},
+    "k1323": {"path": "lab/process/k1323-cycle-product-obstruction-control.json", "sha256": "fc1e297a7531651014dc6bf5bb05fd0956e8eebb1f7e7b63ddeefd89310498d7"},
+    "k1324": {"path": "lab/process/k1324-canonical-d7-sign-normalization.json", "sha256": "f009b51eccc8fd9b7f71f15add8f6aa86b7e6dd4797db53dbb406eaab6607d59"}
+  },
+  "certificate": {
+    "row_count": 19,
+    "satisfied_count": 8,
+    "excluded_count": 3,
+    "conditional_count": 2,
+    "missing_count": 6,
+    "new_row": {"row": "finite_D7_sign_braid_normalization", "state": "satisfied"},
+    "retained_conditional_rows": ["finite_polarized_bfv_compatibility", "analytic_coxeter_flat_G_intertwiner_completion"],
+    "retained_missing_rows": ["source_owned_charge_and_chamber_selection", "action_derived_interacting_constraint_complex", "functional_local_bv_bfv_domain", "causal_green_or_boundary_law", "positive_nonzero_physical_cohomology", "observed_export_and_state_effect_meaning"]
+  },
+  "decision": {
+    "K1319_minus_one_phase_is_intrinsic_obstruction": false,
+    "sign_only_D7_braid_normalization_constructed": true,
+    "analytic_normalized_intertwiner_family_constructed": false,
+    "general_projective_relator_class_trivialized": false,
+    "G_equivariant_chamber_descent_constructed": false,
+    "canonical_or_source_selected_chamber_constructed": false,
+    "positive_physical_pairing_constructed": false,
+    "k1145_k1150_candidate_counts_move": false,
+    "protected_status_change": false
+  },
+  "source_and_ledger_effect": "SC-ACT-01_02_06_ASSERTS_UNCHANGED__SC-META-53_UNCERTAIN_UNCHANGED__LT-SM8_LT-GR6b_RA-F1_AC-F1_NEEDS_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "D7 sign-valued adjacent-braid defects are normalization artifacts and admit a deterministic rooted correction. Exact G descent still requires actual analytic intertwiners, proof of regularity and a demonstration that every relevant defect lies in this sign-only class; physical admission remains open.",
+  "controls": {"producer": "tests/channel-swings/k1325_braid_normalization_admission_boundary.py", "probe": "tests/channel-swings/k1325_braid_normalization_admission_boundary_probe.py", "controls_passed": 18, "hostile_mutations_rejected": 10}
+}

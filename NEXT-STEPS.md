@@ -7,6 +7,19 @@ updated_at: "2026-10-07"
 
 # Next Steps For Contributors
 
+> **2026-10-07 K1321--K1325 D7 BRAID-SIGN NORMALIZATION BOUNDARY.** Sign
+> rephasing of unitary involutive simple transports changes each adjacent braid
+> defect by the product of its endpoint signs. Since the D7 Dynkin graph is a
+> tree, all 64 sign assignments are removable, uniquely up to global sign;
+> K1319's isolated minus-one braid is therefore a normalization artifact. A
+> triangle control shows the sharp graph boundary: cycle product minus one is
+> a genuine sign obstruction. The rooted D7 algorithm closes finite sign-only
+> normalization, not analytic chamber descent. Next supply actual normalized
+> simple intertwiners with common domain, meromorphic/pole/reducibility control
+> and proof that every scalar defect is sign-valued or otherwise trivial, or
+> return to a released source action/boundary/Green packet and the interacting
+> physical BV-BFV construction.
+
 > **2026-10-07 K1316--K1320 WEYL-CHAMBER DESCENT BOUNDARY.** The direct sum
 > over all 322560 positive-root chambers has a canonical norm-one orthogonal
 > average after declared unitary fiber identifications, reducing the raw

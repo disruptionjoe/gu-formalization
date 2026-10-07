@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1323-CYCLE-PRODUCT-OBSTRUCTION-CONTROL",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "scope": "Non-tree control proving that sign-valued edge defects are removable exactly when every graph-cycle product is plus one.",
+  "pinned_inputs": {
+    "k1321": {"path": "lab/process/k1321-coxeter-generator-sign-rephasing.json", "sha256": "38fa5839c5662e05dd560f854a1209abc61707e63983a240f23f08dc5305b7df"},
+    "k1322": {"path": "lab/process/k1322-d7-tree-braid-sign-trivialization.json", "sha256": "f546e1aed556b3879a033f984170cf73da2e78fe4287deb3aaa510ed95f12641"}
+  },
+  "general_theorem": {
+    "connected_graph_condition": "beta_uv = epsilon_u epsilon_v has a solution iff the product of beta over every cycle is plus_one",
+    "necessity": "vertex signs occur twice in every cycle product",
+    "sufficiency": "propagate signs on a spanning tree; cycle products make every chord consistent"
+  },
+  "triangle_control": {
+    "vertices": 3,
+    "edges": [[1,2],[2,3],[1,3]],
+    "assignment_count": 8,
+    "solvable_count": 4,
+    "one_negative_edge_product": -1,
+    "one_negative_edge_solvable": false,
+    "two_negative_edges_product": 1,
+    "two_negative_edges_solvable": true
+  },
+  "decision": {
+    "cycle_sign_can_be_intrinsic_to_edge_rephasing_problem": true,
+    "D7_simple_graph_has_cycle_obstruction": false,
+    "arbitrary_projective_Coxeter_cocycle_classified": false,
+    "source_or_physical_status_moves": false
+  },
+  "source_and_ledger_effect": "SC-META-53_UNCERTAIN_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Exact Z2 graph-cochain obstruction with a triangle countercontrol. D7's simple graph has no such cycle; general Coxeter presentation cocycles and analytic intertwiner monodromy remain outside scope.",
+  "controls": {"producer": "tests/channel-swings/k1323_cycle_product_obstruction_control.py", "probe": "tests/channel-swings/k1323_cycle_product_obstruction_control_probe.py", "controls_passed": 14, "hostile_mutations_rejected": 9}
+}

@@ -7,6 +7,21 @@ updated_at: "2026-10-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1321--K1325 D7 braid-sign normalization boundary (2026-10-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Generator signs act on braid defects by a vertex coboundary | K1321 exact scalar-word calculation; `14/14`; `8/8` | exact sign-cochain law for unitary involutions; not arbitrary U(1) cocycles |
+| Every D7 simple-edge sign defect is removable | K1322 exhaustive 64-assignment tree calculation; `14/14`; `9/9` | exact D7 tree theorem, unique up to global sign |
+| Cycle product is the graph-level sign obstruction | K1323 exhaustive triangle control; `14/14`; `9/9` | exact Z2 graph-cochain theorem; not the full Coxeter Schur multiplier |
+| A rooted algorithm normalizes all D7 sign defects | K1324 64-input algorithm replay and K1319 correction; `15/15`; `9/9` | exact finite algorithm relative to declared labels; not analytic normalization |
+| Sign normalization does not close chamber or physical admission | K1325 nineteen-row composition; `18/18`; `10/10` | eight satisfied, three excluded, two conditional and six missing; K1145/K1150 remain `0/7` |
+
+The five producers pass `75/75` controls and five probes reject `45/45`
+hostile mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, and LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`. No source,
+ledger, canon, paper, prediction, confirmation or public status moves.
+
 ## K1316--K1320 Weyl-chamber descent boundary (2026-10-07)
 
 | Claim | Evidence | Honest grade |
