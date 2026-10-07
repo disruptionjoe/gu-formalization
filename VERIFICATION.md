@@ -7,6 +7,26 @@ updated_at: "2026-10-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1351--K1355 principal-series gauge-bridge obstructions (2026-10-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Connected split D7 has no nontrivial U(1) character | K1351 explicit 91-generator commutator witnesses, perfectness and connected-character argument; `20/20`; `9/9` | exact full-group character obstruction; U(1) subgroups after selected reduction remain open |
+| K1346's uniform phase is not an internal principal-series charge | K1352 simple-Lie-algebra faithfulness, zero-center and irreducible fixed-sector argument; `21/21`; `9/9` | exact for a common scalar phase and full-G-invariant nonzero charge sector; nonuniform subgroup weights remain open |
+| Finite released source fibres have no pointwise linear bridge to `H_ps` | K1353 finite-image, closed-invariant-subspace and dimension argument; `20/20`; `9/9` | exact pointwise linear theorem; section-space, differential, integral, distributional and nonlinear maps open |
+| Full split gauging has no positive invariant quadratic kinetic form | K1354 exact 42-rotation/49-boost trace signature and invariant-form classification; `22/22`; `10/10` | exact split-simple quadratic obstruction; selected maximal compact and Cartan-majorant controls remain conditional |
+| Direct exclusions narrow but do not close the source bridge | K1355 31-row bridge census; `28/28`; `10/10` | eighteen satisfied, four conditional, five excluded and four missing; K1145/K1150 remain `0/7` |
+
+The five producers pass `111/111` controls and five probes reject `47/47`
+hostile mutations. The result excludes direct full-group character, uniform
+phase, invariant nonzero fixed-charge, pointwise finite-fibre linear and
+positive full-split quadratic-kinetic routes. It does not exclude a
+source-selected stabilizer/maximal-compact reduction, nonuniform charges,
+nonlinear/nonlocal section-space maps or an owned positive physical quotient.
+SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`, and
+LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`. No source, ledger, canon, paper,
+prediction, confirmation or public status moves.
+
 ## K1346--K1350 joint scalar-electrodynamics control (2026-10-07)
 
 | Claim | Evidence | Honest grade |

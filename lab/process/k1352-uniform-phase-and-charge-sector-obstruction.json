@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1352-UNIFORM-PHASE-AND-CHARGE-SECTOR-OBSTRUCTION",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "scope": "The relation between K1346's scalar phase on the entire nontrivial irreducible principal-series Hilbert fibre and one-parameter subgroups of Spin_0(7,7); not a prohibition on nonuniform subgroup weights after symmetry reduction.",
+  "pinned_inputs": {
+    "k1346": {"path": "lab/process/k1346-principal-series-scalar-electrodynamics-action.json", "sha256": "8e08d62d23d77832dd4022047f0fe74e72a3726f3d54ca7ba9f335ce01892127"},
+    "k1351": {"path": "lab/process/k1351-split-d7-character-obstruction.json", "sha256": "cb2ac6584c38981c42ac17df2ffe09096ba06d2010e5ee1e68eed35c97315eb4"}
+  },
+  "scalar_phase_theorem": {
+    "representation": "pi is K1335's nontrivial irreducible unitary spherical principal series on H_ps=L2(K/M)",
+    "hypothesis": "for X in g, pi(exp(tX))=exp(i q t) I on all H_ps",
+    "derived_action": "d pi(X)=i q I",
+    "commutator_identity": "d pi([X,Y])=[d pi(X),d pi(Y)]=0 for every Y",
+    "faithfulness_reason": "the kernel of a nontrivial Lie-algebra representation of simple g is a proper ideal, hence zero",
+    "centrality_conclusion": "[X,Y]=0 for every Y, so X lies in the zero center of g",
+    "result": "X=0 and q=0; no nontrivial internal one-parameter subgroup acts as one common scalar phase"
+  },
+  "charge_sector_theorem": {
+    "candidate": "a nonzero fixed-q eigenspace H_q for a noncentral internal U(1) subgroup",
+    "full_G_invariance_test": "a nonzero closed G-invariant H_q equals H_ps by irreducibility",
+    "contradiction": "if H_q=H_ps then the subgroup acts by one scalar phase on all H_ps, contradicting the scalar-phase theorem for q nonzero",
+    "surviving_scope": "a nonzero charge sector may be preserved by the subgroup centralizer or normalizer, not by the full G action"
+  },
+  "decision": {
+    "nontrivial_internal_uniform_scalar_phase_exists": false,
+    "nonzero_fixed_charge_sector_full_G_invariant": false,
+    "k1346_phase_is_external_commuting_u1_for_this_control": true,
+    "nonuniform_subgroup_charge_decomposition_excluded": false,
+    "symmetry_reduction_required_for_single_nonzero_charge_sector": true,
+    "source_charge_selector_constructed": false,
+    "protected_status_change": false
+  },
+  "claim_ceiling": "K1346's field-wide common phase is not the restriction of the nontrivial Spin_0(7,7) principal-series action. Selecting a nonzero charge eigenspace of an internal subgroup necessarily reduces the preserved internal symmetry. The theorem leaves nonuniform charge decompositions, stabilizer-selected sectors and externally commuting gauge factors open.",
+  "controls": {"producer": "tests/channel-swings/k1352_uniform_phase_and_charge_sector_obstruction.py", "probe": "tests/channel-swings/k1352_uniform_phase_and_charge_sector_obstruction_probe.py", "controls_passed": 21, "hostile_mutations_rejected": 9}
+}

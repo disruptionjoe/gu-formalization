@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1353-FINITE-SOURCE-FIBRE-PRINCIPAL-SERIES-MAP-OBSTRUCTION",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-ACT-01",
+  "scope": "Pointwise continuous linear Spin_0(7,7)-equivariant maps from finite-dimensional released GU field fibres into K1335's infinite-dimensional irreducible principal-series Hilbert representation; not maps on section spaces, distributional intertwiners, induced transforms, nonlinear maps or nonlocal observation rules.",
+  "pinned_inputs": {
+    "k1335": {"path": "lab/process/k1335-operator-intertwiner-admission-boundary.json", "sha256": "99f68437b43df42f1e49feb3b6b429cc410249cfff6c646ebd6af91e1f5909c9"}
+  },
+  "finite_fibre_theorem": {
+    "domain": "a finite-dimensional pointwise G-module V representing one released source fibre or a finite direct sum of such fibres",
+    "codomain": "the nontrivial infinite-dimensional irreducible unitary representation H_ps",
+    "candidate": "a continuous linear G-equivariant map T:V->H_ps",
+    "image_dimension": "im T is finite-dimensional",
+    "image_invariance": "equivariance makes im T a G-invariant subspace",
+    "closure": "finite-dimensional subspaces of a Hilbert space are closed",
+    "irreducibility_step": "closed invariant im T is either zero or all H_ps",
+    "dimension_step": "finite-dimensional im T cannot equal infinite-dimensional H_ps",
+    "conclusion": "T=0"
+  },
+  "typed_application": {
+    "covered": [
+      "pointwise linear maps from finite-dimensional epsilon/varpi/nu/zeta fibre data",
+      "pointwise linear maps from the 91-dimensional adjoint fibre",
+      "finite direct sums of released finite source fibres"
+    ],
+    "not_covered": [
+      "maps from infinite-dimensional spaces of source sections",
+      "differential or integral transforms with infinite-dimensional image",
+      "distributional intertwiners",
+      "nonlinear invariant maps",
+      "maps after explicit symmetry reduction"
+    ]
+  },
+  "decision": {
+    "nonzero_pointwise_finite_fibre_linear_equivariant_map_exists": false,
+    "released_source_fibre_directly_identified_with_H_ps": false,
+    "section_space_or_nonlocal_bridge_excluded": false,
+    "nonlinear_bridge_excluded": false,
+    "symmetry_reduced_bridge_excluded": false,
+    "source_action_bridge_constructed": false,
+    "protected_status_change": false
+  },
+  "claim_ceiling": "No released finite-dimensional GU field fibre maps nontrivially and linearly into the irreducible infinite-dimensional principal-series matter fibre while preserving the full split-D7 action. The result is pointwise and linear; it does not exclude section-space, differential, integral, distributional, nonlinear or symmetry-reduced bridges.",
+  "controls": {"producer": "tests/channel-swings/k1353_finite_source_fibre_principal_series_map_obstruction.py", "probe": "tests/channel-swings/k1353_finite_source_fibre_principal_series_map_obstruction_probe.py", "controls_passed": 20, "hostile_mutations_rejected": 9}
+}

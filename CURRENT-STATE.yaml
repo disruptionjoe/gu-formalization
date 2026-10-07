@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: fd6cd40c2cde0c94706fbba3c8c5f749086cf3d0
+revision_basis: fd864658f53f4716ccc5c19b2f0d2fb1617dce0d
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1351--K1355 classify the most direct source-to-K1346 gauge bridges.
+    Connected `Spin_0(7,7)` has no nontrivial continuous U(1) character;
+    no internal one-parameter subgroup acts by one nonzero scalar phase on
+    the entire nontrivial irreducible principal series; and no nonzero fixed
+    internal charge sector remains invariant under the full group. Every
+    pointwise linear equivariant map from a finite released source fibre to
+    the infinite-dimensional principal series is zero. Independently, the
+    full split adjoint Killing form has signature `(49,42)`, so no positive
+    definite full-G-invariant quadratic gauge kinetic form exists. A selected
+    maximal compact or Cartan majorant is positive but requires additional
+    source/action-owned reduction data. The 31-row bridge census has eighteen
+    satisfied, four conditional, five excluded and four missing rows.
+    Nonuniform stabilizer charges, nonlinear/nonlocal section-space maps and
+    owned positive quotients remain open; K1145/K1150 remain 0/7 and protected
+    statuses do not move.
+
     K1346--K1350 replace the prior separate controls with one repository-owned
     scalar-electrodynamics action on the completed principal-series Hilbert
     carrier. Its covariant kinetic term genuinely couples the U(1) gauge field
@@ -14226,6 +14242,19 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1351--K1355 exclude the obvious direct identifications between K1346's
+  uniform U(1) phase and the full split-D7 symmetry: there is no full-group
+  character, no nontrivial internal uniform phase, no full-G-invariant
+  nonzero charge sector, no pointwise finite-source-fibre linear intertwiner
+  into the principal series, and no positive full-split invariant quadratic
+  gauge kinetic form. Which source/action-selected stabilizer, maximal-compact
+  or Cartan reduction now supplies a typed nonuniform charge sector on the
+  actual observed carrier and commutes with the interacting constraint
+  complex? Alternatively, which nonlinear or nonlocal section-space map owns
+  the observation bridge? Do not generalize the pointwise linear no-go to
+  section spaces or identify a positive Cartan majorant with a physical
+  selector.
+
   K1346--K1350 construct one genuinely coupled repository scalar-
   electrodynamics control on the principal-series Hilbert carrier. Exact
   classical Gauss/BRST/BV-BFV algebra, positive constrained energy, positive
@@ -16286,6 +16315,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1351--K1355's direct bridge exclusions and their quantifiers.
+  The connected split group has no nontrivial U(1) character; its nontrivial
+  irreducible principal series admits neither a nonzero uniform internal phase
+  nor a full-G-invariant nonzero fixed-charge sector; finite released source
+  fibres have no nonzero pointwise linear full-G-equivariant map into that
+  carrier; and the full split algebra has no positive invariant quadratic
+  kinetic form. Advance the bridge only with a source/action-selected
+  stabilizer, maximal-compact or Cartan reduction and its induced charge
+  decomposition, or with a typed nonlinear/nonlocal section-space map. Then
+  prove compatibility with the interacting constraint/BV-BFV complex, global
+  causal evolution, closed nonlinear quotient and positive physical
+  cohomology. Do not erase the surviving routes or promote a mathematical
+  compact control to source observation.
+
   Preserve K1346--K1350's joint-control boundary. The internal carrier admits
   one covariantly coupled scalar-electrodynamics action with interacting
   Gauss/BRST/classical-BV/boundary-BFV algebra, positive constrained energy,

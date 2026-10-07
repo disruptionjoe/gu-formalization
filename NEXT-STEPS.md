@@ -7,6 +7,23 @@ updated_at: "2026-10-07"
 
 # Next Steps For Contributors
 
+> **2026-10-07 K1351--K1355 PRINCIPAL-SERIES GAUGE-BRIDGE
+> OBSTRUCTIONS.** The direct symmetry relabelings are now classified.
+> Connected `Spin_0(7,7)` has no nontrivial U(1) character; no internal
+> one-parameter subgroup acts by one nonzero scalar phase on all of the
+> irreducible principal series; a nonzero fixed internal charge sector cannot
+> preserve full `G`; and no finite released source fibre has a nonzero
+> pointwise linear full-G-equivariant map into that infinite-dimensional
+> carrier. The full split Killing form has exact signature `(49,42)`, so a
+> positive quadratic gauge kinetic term requires a selected maximal compact,
+> Cartan majorant or other reduction. Next construct or test the source/action-
+> owned reduction and its nonuniform charge decomposition on the observed
+> carrier, or a nonlinear/nonlocal section-space observation bridge, then
+> compose it with the interacting BV-BFV and global positive-quotient packet.
+> Do not identify K1346's external U(1) with source hypercharge, broaden the
+> finite-fibre theorem to section spaces, or call a Cartan majorant a physical
+> selector.
+
 > **2026-10-07 K1346--K1350 JOINT SCALAR-ELECTRODYNAMICS CONTROL.** One
 > repository-owned U(1) scalar-electrodynamics action now couples the
 > principal-series Hilbert matter to a gauge field on `R x T3`. Its exact
