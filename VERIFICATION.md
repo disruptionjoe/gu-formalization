@@ -7,6 +7,25 @@ updated_at: "2026-10-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1346--K1350 joint scalar-electrodynamics control (2026-10-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The principal-series fibre admits one coupled gauge-matter action | K1346 exact U(1) covariance, internal-unitary equivariance, current and seagull terms; `26/26`; `10/10` | exact repository scalar-electrodynamics control; fields and couplings are not GU-source-owned |
+| The coupled action has interacting classical BRST/BV-BFV algebra | K1347 Euler/Noether/Gauss identities, nilpotent BRST rules, classical master action and boundary BFV charge; `24/24`; `10/10` | exact algebraic classical complex on the smooth core; analytic KT resolution and global properness open |
+| The constrained control has positive energy and nonzero linearized cohomology | K1348 positive Hamiltonian, nonempty Gauss classes and vacuum-linearized photon/matter quotient; `30/30`; `10/10` | exact classical energy control and linearized BRST result; no closed nonlinear physical Hilbert quotient or global large-data theorem |
+| A bounded nonlinear scalar can retain local gauge and full internal symmetry | K1349 radial map, derivative, invariance and nonlinearity controls; `29/29`; `10/10` | exact nonlinear map-class escape from K1344; no source observation semantics or empirical export |
+| Joint control does not close GU physical admission | K1350 26-row census; `27/27`; `10/10` | eighteen satisfied, four repository-control conditionals and four source/analytic rows missing; K1145/K1150 remain `0/7` |
+
+The five producers pass `136/136` controls and five probes reject `50/50`
+hostile mutations. One repository action now composes gauge interaction,
+classical constraint algebra, positive energy and a nonlinear invariant scalar,
+but it is not the released GU action and does not construct a global nonlinear
+physical Hilbert quotient or source-owned observed-state map. SC-ACT-01/02/06
+remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`, and
+LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`. No source, ledger, canon, paper,
+prediction, confirmation or public status moves.
+
 ## K1341--K1345 gauge, interaction and observation controls (2026-10-07)
 
 | Claim | Evidence | Honest grade |

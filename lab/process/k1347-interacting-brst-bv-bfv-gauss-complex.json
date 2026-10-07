@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1347-INTERACTING-BRST-BV-BFV-GAUSS-COMPLEX",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "NOT-A-KILL__INTERNAL-INTERACTING-BRST-BV-BFV-CONTROL",
+  "scope": "Classical algebraic BRST/BV-BFV and Gauss system of K1346's repository-owned scalar electrodynamics; not the source GU KT/BV-BFV complex and not an analytic properness theorem.",
+  "pinned_inputs": {
+    "k1346": {"path": "lab/process/k1346-principal-series-scalar-electrodynamics-action.json", "sha256": "8e08d62d23d77832dd4022047f0fe74e72a3726f3d54ca7ba9f335ce01892127"}
+  },
+  "interacting_complex": {
+    "matter_euler_operator": "E_phi=-D_mu D^mu phi+m^2 phi+lambda ||phi||^2 phi",
+    "gauge_euler_operator": "E_A^mu=partial_nu F^{nu mu}-e Im<phi,D^mu phi>",
+    "noether_identity": "-partial_mu E_A^mu+Re<E_phi,i e phi>=0",
+    "gauss_constraint": "G=div E-e Im<phi,Pi>=0",
+    "interaction_witness": "both E_A and G contain matter bilinears and E_phi contains A through D",
+    "brst_rules": "sA=d c, s phi=i e c phi, s c=0",
+    "brst_nilpotence": "s^2 A=0 and s^2 phi=0 by s c=0, graded Leibniz and c^2=0",
+    "classical_bv_action": "S_BV=S_SED+integral(A_star d c+2 Re<phi_star,i e c phi>)",
+    "classical_master_equation": "(S_BV,S_BV)=0 follows from gauge invariance and the abelian closed gauge algebra",
+    "koszul_tate_role": "the antifield differential sends A_star and phi_star to E_A and E_phi, while c_star records the Noether identity",
+    "boundary_bfv_charge": "Omega_boundary=integral_T3 c G",
+    "bfv_nilpotence": "{Omega_boundary,Omega_boundary}=0 because the U(1) Gauss constraints Poisson commute",
+    "boundary_reduction": "degree-zero BFV functions are gauge-invariant functions on the Gauss surface modulo local U(1)",
+    "common_algebraic_core": "smooth finite Fourier fields and ghosts with K-finite H_ps matter values"
+  },
+  "decision": {
+    "interacting_euler_noether_system_constructed": true,
+    "interacting_gauss_constraint_constructed": true,
+    "minimal_brst_differential_constructed": true,
+    "classical_bv_master_action_constructed": true,
+    "boundary_bfv_charge_constructed": true,
+    "algebraic_nilpotence_constructed": true,
+    "full_analytic_kt_resolution_constructed": false,
+    "global_bv_bfv_properness_constructed": false,
+    "source_gu_complex_identified": false
+  },
+  "claim_ceiling": "K1346 has one interacting classical gauge complex with exact Noether, Gauss, BRST, BV-master and boundary-BFV algebra on a common smooth core. This does not prove a closed functional KT resolution, global BV-BFV properness, interacting Green theory or identification with the released GU action.",
+  "controls": {"producer": "tests/channel-swings/k1347_interacting_brst_bv_bfv_gauss_complex.py", "probe": "tests/channel-swings/k1347_interacting_brst_bv_bfv_gauss_complex_probe.py", "controls_passed": 24, "hostile_mutations_rejected": 10}
+}

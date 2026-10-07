@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1346-PRINCIPAL-SERIES-SCALAR-ELECTRODYNAMICS-ACTION",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "NOT-A-KILL__INTERNAL-COUPLED-GAUGE-MATTER-CONTROL",
+  "scope": "Repository-owned abelian scalar electrodynamics on R x T3 with K1335's spherical principal-series Hilbert fibre as matter target; not I1B, Upsilon_B, I2B or a GU action.",
+  "pinned_inputs": {
+    "k1341": {"path": "lab/process/k1341-hilbert-valued-maxwell-brst-complex.json", "sha256": "b9834c42599650a507dfd196db59ef836c7b18d8a0bb6e980c324410cc83d1fa"},
+    "k1343": {"path": "lab/process/k1343-defocusing-principal-series-wave-interaction.json", "sha256": "c864c5c8040bf415c43ec38eb495aad03bf1107c06f356a6b03f393da4fcd2e4"},
+    "k1344": {"path": "lab/process/k1344-principal-series-observation-functional-boundary.json", "sha256": "5dfbc14fa770488602cbfc0a269e61e9a47791446cc3ead2074fb6786930c272"}
+  },
+  "single_action": {
+    "spacetime": "M=R_t x T3_x with the ultrastatic Lorentz metric",
+    "internal_fibre": "H_ps=L2(K/M), the nontrivial regular-imaginary spherical principal-series Hilbert carrier supplied by K1335",
+    "fields": "a real U(1) connection A and an H_ps-valued complex scalar phi",
+    "parameters": "e is nonzero, m>0 and lambda>0",
+    "covariant_derivative": "D_mu phi=partial_mu phi-i e A_mu phi",
+    "curvature": "F_mu_nu=partial_mu A_nu-partial_nu A_mu",
+    "lagrangian": "L=-1/4 F_mu_nu F^mu_nu+1/2 Re< D_mu phi,D^mu phi>-m^2/2 ||phi||^2-lambda/4 ||phi||^4",
+    "local_gauge_action": "A maps to A+d chi and phi maps to exp(i e chi) phi",
+    "covariance_identity": "D'(exp(i e chi) phi)=exp(i e chi) D phi and F'=F",
+    "internal_G_action": "A is fixed and phi maps to pi(g)phi; unitarity gives D(pi(g)phi)=pi(g)Dphi",
+    "interaction_terms": "for e nonzero, ||D phi||^2 contains the A-phi current term and the e^2 A^2 ||phi||^2 seagull term",
+    "nonseparability": "the covariant kinetic term is not the sum of K1341's free Maxwell action and K1343's ungauged scalar action",
+    "common_core": "smooth finite spatial Fourier fields with K-finite H_ps values and smooth compactly time-supported variations",
+    "energy_form_domain": "A and phi in H1(T3), E and Pi in L2(T3), interpreted with H_ps values for phi and Pi"
+  },
+  "decision": {
+    "one_gauge_invariant_interacting_action_constructed": true,
+    "nonzero_gauge_matter_coupling_constructed": true,
+    "local_U1_gauge_invariance_constructed": true,
+    "internal_principal_series_equivariance_constructed": true,
+    "common_energy_form_domain_declared": true,
+    "sum_of_prior_separate_actions": false,
+    "source_gu_action_identified": false,
+    "source_charge_or_couplings_derived": false,
+    "global_interacting_solution_theory_constructed": false
+  },
+  "claim_ceiling": "The completed principal-series Hilbert carrier admits one standard local gauge-invariant scalar-electrodynamics action whose covariant kinetic term genuinely couples Maxwell and matter. The fields, U(1) gauge group, charge and couplings are repository choices, not source GU data, and no global interacting solution theorem follows from the algebraic construction.",
+  "controls": {"producer": "tests/channel-swings/k1346_principal_series_scalar_electrodynamics_action.py", "probe": "tests/channel-swings/k1346_principal_series_scalar_electrodynamics_action_probe.py", "controls_passed": 26, "hostile_mutations_rejected": 10}
+}

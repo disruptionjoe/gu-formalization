@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 4f621c98c9bf3d3842b4f1ce012c7d85674ee38b
+revision_basis: fd6cd40c2cde0c94706fbba3c8c5f749086cf3d0
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1346--K1350 replace the prior separate controls with one repository-owned
+    scalar-electrodynamics action on the completed principal-series Hilbert
+    carrier. Its covariant kinetic term genuinely couples the U(1) gauge field
+    and Hilbert-valued matter; the interacting Euler/Noether/Gauss system,
+    minimal BRST differential, classical BV master action and boundary BFV
+    charge close algebraically on one common smooth core. The constrained
+    Hamiltonian is positive in the zero-mean trivial-holonomy sector and the
+    vacuum-linearized BRST cohomology has two transverse photon polarizations
+    plus massive matter modes. The bounded nonlinear radial scalar
+    `||phi||^2/(1+||phi||^2)` is gauge- and full-G-invariant without a chosen
+    Riesz covector, so it lies outside K1344's linear theorem. The U(1) action,
+    charge, couplings and observable remain repository choices; global
+    nonlinear BV-BFV properness, interacting evolution, positive physical
+    Hilbert cohomology and source observation semantics remain missing. The
+    26-row census is eighteen satisfied, four conditional and four missing;
+    K1145/K1150 remain 0/7 and protected statuses do not move.
+
     K1341--K1345 separate three physical-admission ingredients on the
     completed principal-series carrier. The zero-mean Hilbert-valued Maxwell
     detour/BRST complex has exact gauge and Noether identities, closed gauge
@@ -14209,6 +14226,17 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1346--K1350 construct one genuinely coupled repository scalar-
+  electrodynamics control on the principal-series Hilbert carrier. Exact
+  classical Gauss/BRST/BV-BFV algebra, positive constrained energy, positive
+  nonzero vacuum-linearized cohomology and a bounded nonlinear invariant
+  scalar can coexist. Which typed bridge now maps the released GU fields and
+  first-order action into one such Lorentzian interacting complex, proves a
+  closed nonlinear KT/BV-BFV quotient with global causal evolution and
+  positive physical Hilbert cohomology, and derives the source observation
+  map? Do not identify the repository U(1), radial scalar or vacuum
+  linearization with the GU action or observed state space.
+
   K1341--K1345 prove that the principal-series Hilbert carrier separately
   supports a nontrivial free Maxwell gauge quotient with positive nonzero
   transverse cohomology and a defocusing nonlinear positive causal scalar
@@ -16258,6 +16286,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1346--K1350's joint-control boundary. The internal carrier admits
+  one covariantly coupled scalar-electrodynamics action with interacting
+  Gauss/BRST/classical-BV/boundary-BFV algebra, positive constrained energy,
+  positive nonzero vacuum-linearized cohomology and a bounded nonlinear
+  gauge/G-invariant scalar. Advance GU physical admission only with a typed
+  source-action bridge, a closed nonlinear KT/BV-BFV quotient, global causal
+  evolution or Green theory, positive physical Hilbert cohomology and a
+  source-owned observation map with physical semantics. Do not promote the
+  repository U(1), imported couplings, radial scalar or linearized result.
+
   Preserve K1341--K1345's separation theorem. The internal carrier admits a
   free nontrivial Maxwell detour/BRST complex with closed positive transverse
   quotient and, separately, a defocusing nonlinear positive causal scalar

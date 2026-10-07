@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1349-NONLINEAR-INVARIANT-OBSERVATION-BOUNDARY",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "scope": "A bounded nonlinear gauge- and internal-G-invariant scalar observable on K1346's principal-series matter carrier; not a source-owned GU observation map or an empirical observable.",
+  "pinned_inputs": {
+    "k1344": {"path": "lab/process/k1344-principal-series-observation-functional-boundary.json", "sha256": "5dfbc14fa770488602cbfc0a269e61e9a47791446cc3ead2074fb6786930c272"},
+    "k1346": {"path": "lab/process/k1346-principal-series-scalar-electrodynamics-action.json", "sha256": "8e08d62d23d77832dd4022047f0fe74e72a3726f3d54ca7ba9f335ce01892127"}
+  },
+  "observable": {
+    "pointwise_map": "O(phi)=||phi||_Hps^2/(1+||phi||_Hps^2)",
+    "codomain": "the real interval [0,1)",
+    "boundedness": "0<=O(phi)<1 for every phi and O(phi) tends to 1 as ||phi|| tends to infinity",
+    "gauge_invariance": "O(exp(i e chi)phi)=O(phi)",
+    "internal_G_invariance": "O(pi(g)phi)=O(phi) for the unitary principal-series action",
+    "frechet_derivative": "D O_phi[h]=2 Re<phi,h>/(1+||phi||^2)^2",
+    "nontriviality": "O(phi)>0 for phi nonzero and D O_phi[phi]>0 for phi nonzero",
+    "nonlinearity": "O(-phi)=O(phi), so every nonzero value contradicts linear oddness; also O(a phi) is not a O(phi) in general",
+    "k1344_relation": "K1344 classifies bounded linear scalar functionals; O is bounded and scalar-valued but nonlinear, so it is outside that theorem without selecting a Riesz covector",
+    "field_export": "a normalized nonnegative spatial weight may average O(phi(x)) to a bounded gauge- and G-invariant scalar field observable"
+  },
+  "decision": {
+    "bounded_nonlinear_scalar_observable_constructed": true,
+    "local_gauge_invariant": true,
+    "full_internal_G_invariant": true,
+    "nonzero_without_chosen_internal_covector": true,
+    "k1344_linear_no_go_evaded_by_changed_map_class": true,
+    "source_owned_observation_map_constructed": false,
+    "observed_state_semantics_constructed": false,
+    "empirical_export_or_prediction_constructed": false,
+    "protected_status_change": false
+  },
+  "claim_ceiling": "A bounded nonzero scalar map can preserve both local U(1) and the full internal principal-series symmetry when the map is nonlinear. This is the exact map-class escape left open by K1344, not a source-owned observed-state map, a physical measurement prescription or empirical GU export.",
+  "controls": {"producer": "tests/channel-swings/k1349_nonlinear_invariant_observation_boundary.py", "probe": "tests/channel-swings/k1349_nonlinear_invariant_observation_boundary_probe.py", "controls_passed": 29, "hostile_mutations_rejected": 10}
+}

@@ -7,6 +7,20 @@ updated_at: "2026-10-07"
 
 # Next Steps For Contributors
 
+> **2026-10-07 K1346--K1350 JOINT SCALAR-ELECTRODYNAMICS CONTROL.** One
+> repository-owned U(1) scalar-electrodynamics action now couples the
+> principal-series Hilbert matter to a gauge field on `R x T3`. Its exact
+> classical Gauss/BRST/BV-BFV algebra, positive constrained Hamiltonian,
+> positive nonzero vacuum-linearized cohomology and bounded nonlinear
+> gauge/G-invariant radial scalar coexist on the same control. This removes a
+> carrier-level incompatibility and gives the explicit nonlinear map-class
+> escape left open by K1344. It does not identify the source GU action, prove
+> a closed nonlinear physical Hilbert quotient or give the radial scalar
+> source observation semantics. Next construct the typed source-action bridge,
+> global nonlinear KT/BV-BFV and causal domain, positive physical cohomology,
+> and source-owned observed-state map. Do not promote the repository U(1),
+> imported couplings, radial scalar or vacuum linearization.
+
 > **2026-10-07 K1341--K1345 GAUGE, INTERACTION AND OBSERVATION
 > CONTROLS.** The principal-series Hilbert fibre separately supports a
 > zero-mean Maxwell detour/BRST complex with closed gauge image, causal Green

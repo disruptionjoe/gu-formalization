@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1348-POSITIVE-CONSTRAINED-ENERGY-REDUCTION",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "NOT-A-KILL__INTERNAL-POSITIVE-CONSTRAINED-CONTROL",
+  "scope": "Classical energy and zero-mean Gauss reduction of K1346--K1347 scalar electrodynamics, with positive nonzero linearized BRST cohomology at the vacuum; not GU physical positivity or a nonlinear Hilbert-cohomology theorem.",
+  "pinned_inputs": {
+    "k1342": {"path": "lab/process/k1342-transverse-positive-cohomology-green-boundary.json", "sha256": "32b8570d0618b31f7d4f51217804129779b46f4a603e4fc8299554e7bcddfd94"},
+    "k1346": {"path": "lab/process/k1346-principal-series-scalar-electrodynamics-action.json", "sha256": "8e08d62d23d77832dd4022047f0fe74e72a3726f3d54ca7ba9f335ce01892127"},
+    "k1347": {"path": "lab/process/k1347-interacting-brst-bv-bfv-gauss-complex.json", "sha256": "a993f735eecdcb4574f4e40d2739d4da58102fd8d3489ff41211e47fa4cde613"}
+  },
+  "constrained_reduction": {
+    "phase_space": "A,phi in H1(T3) and E,Pi in L2(T3), with H_ps-valued phi and Pi",
+    "gauss_surface": "G=div E-e Im<phi,Pi>=0 in H-1(T3)",
+    "gauge_group": "zero-mean H2(T3;R) phases acting by A maps to A+d chi and phi maps to exp(i e chi)phi",
+    "topological_sector": "the zero-mean trivial-holonomy connection sector excludes harmonic flat-potential zero modes",
+    "hamiltonian": "H=1/2||E||2^2+1/2||B||2^2+1/2||Pi||2^2+1/2||D phi||2^2+m^2/2||phi||2^2+lambda/4||phi||4^4",
+    "positivity": "for m>0 and lambda>0 every term is nonnegative and H vanishes only on the vacuum modulo the declared zero-mean gauge group",
+    "gauge_descent": "H and the Gauss surface are gauge invariant, so H descends to gauge classes",
+    "nonempty_nonzero_class": "A=0, a nonzero smooth real-line-valued phi, Pi=0 and any transverse E satisfy Gauss and define nonvacuum classes",
+    "vacuum_linearization": "at A=phi=0 the complex is free zero-mean Maxwell BRST direct-sum a massive complex H_ps-valued Klein-Gordon matter field",
+    "linearized_cohomology": "two transverse photon polarizations per nonzero mode plus the complex massive H_ps matter modes",
+    "linearized_pairing": "the quadratic Hamiltonian is strictly positive on nonzero linearized cohomology classes",
+    "nonlinear_status": "a positive conserved classical energy on the formal Gauss quotient is constructed; closed nonlinear orbit space, global large-data evolution and quantum completion are not"
+  },
+  "decision": {
+    "positive_interacting_hamiltonian_constructed": true,
+    "interacting_gauss_surface_nonempty": true,
+    "classical_energy_descends_to_gauge_classes": true,
+    "positive_nonzero_linearized_brst_cohomology_constructed": true,
+    "harmonic_zero_mode_removed_by_declared_sector": true,
+    "closed_nonlinear_physical_hilbert_quotient_constructed": false,
+    "global_large_data_interacting_evolution_constructed": false,
+    "quantum_positive_physical_space_constructed": false,
+    "gu_physical_cohomology_constructed": false
+  },
+  "claim_ceiling": "The repository control has a positive gauge-invariant interacting Hamiltonian, a nonempty Gauss reduction and positive nonzero vacuum-linearized BRST cohomology on the declared zero-mean trivial-holonomy sector. It does not construct a closed nonlinear physical Hilbert quotient, global large-data evolution, quantization or GU physical cohomology.",
+  "controls": {"producer": "tests/channel-swings/k1348_positive_constrained_energy_reduction.py", "probe": "tests/channel-swings/k1348_positive_constrained_energy_reduction_probe.py", "controls_passed": 30, "hostile_mutations_rejected": 10}
+}
