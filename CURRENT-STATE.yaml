@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 45aa5a52136ccb1a8721347c785a7ca1e634dbcf
+revision_basis: bbcd4a5076a9b40f45909c28513b72d583feaeec
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1326--K1330 construct the first analytic slice of K1325's normalized-
+    intertwiner obligation. For every split multiplicity-one simple root, the
+    spherical coefficient is the beta integral
+    `m(z)=sqrt(pi) Gamma(z/2)/Gamma((z+1)/2)`. Its poles are the nonpositive
+    even integers and its zeros the negative odd integers; hence every nonzero
+    imaginary root coordinate is finite and nonzero. D7 reduced-word products
+    depend only on inversion sets, and coefficient normalization gives exact
+    involution, commutation and braid relations on all 322560 spherical lines.
+    This removes arbitrary nonzero scalar Coxeter defects on the spherical
+    vector, not merely signs. The full operator kernels, common dense domain,
+    nonspherical K-type spectrum and pole/reducibility behavior remain absent,
+    so full G descent and physical admission stay open. The twenty-row census
+    is nine satisfied, three excluded, two conditional and six missing;
+    K1145/K1150 remain 0/7 and protected statuses do not move.
+
     K1321--K1325 refine K1319's projective-holonomy boundary. For unitary
     involutive simple transports, generator sign rephasing changes an adjacent
     braid defect by the endpoint-sign product. Because the labeled D7 Dynkin
@@ -14150,6 +14165,15 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1326--K1330 prove exact meromorphic Coxeter-flat transport on the spherical
+  lines of the regular imaginary split-D7 principal series. Which full
+  normalized simple intertwiner kernels act on one common dense
+  compact-picture domain, what are their eigenvalues on every relevant K-type,
+  and where do operator kernels, poles or reducibility occur? Prove the
+  operator-valued Coxeter relations before calling the chamber average a
+  G-subrepresentation. Do not promote a spherical coefficient to the full
+  operator or to physical GU positivity.
+
   K1311--K1315 prove that every supplied regular split charge and Weyl chamber
   admits a homogeneous prequantum line and a normalized unitary
   principal-series control with positive compact picture L2(K/M). The split
@@ -16158,6 +16182,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1326--K1330's spherical analytic boundary. The rank-one beta/gamma
+  coefficient, its punctured imaginary-axis regularity, D7 inversion-set
+  factorization and exact scalar Coxeter normalization are established on the
+  spherical vector. Advance full mathematical chamber descent only with
+  operator kernels on a common dense invariant domain, all relevant K-type
+  eigenvalues, operator pole/kernel/reducibility control and operator-valued
+  Coxeter relations. Do not infer those results from the one-dimensional
+  spherical line, or infer source selection or physical state construction
+  from either result.
+
   Preserve K1321--K1325's finite sign-normalization boundary. Every
   sign-valued adjacent-braid defect on the D7 simple graph is removable by a
   deterministic rooted generator rephasing, and K1319's displayed minus-one

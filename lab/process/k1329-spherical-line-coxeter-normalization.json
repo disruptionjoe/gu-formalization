@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1329-SPHERICAL-LINE-COXETER-NORMALIZATION",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "INTERNAL:K1325-ANALYTIC-SPHERICAL-LINE",
+  "scope": "Normalized standard intertwiners restricted to the one-dimensional spherical vectors over the regular imaginary Weyl orbit.",
+  "pinned_inputs": {
+    "k1326": {"path": "lab/process/k1326-rank-one-spherical-intertwiner-coefficient.json", "sha256": "4ab860406bc3d7ef97cf8100d457a46b98555522547385bf404c2bfafe8e5108"},
+    "k1327": {"path": "lab/process/k1327-spherical-coefficient-meromorphic-divisor.json", "sha256": "a10cec2e80853d42cd51444dab50b30f8000a9288a6821a6587cef8ede59921d"},
+    "k1328": {"path": "lab/process/k1328-d7-inversion-set-factorization.json", "sha256": "49eb00cde025fc143b9e48ae8b5fb854122eddc4dc3c6d9acfe1c011a4b7c26a"}
+  },
+  "normalized_transport": {
+    "definition": "R_i(lambda)=m(<lambda,alpha_i_coroot>)^(-1) J_i(lambda) on the spherical line",
+    "basis_action": "R_i(lambda)v_lambda=v_s_i_lambda",
+    "domain": "regular imaginary Weyl orbit; all root coordinates nonzero",
+    "fiber_count": 322560,
+    "fiber_dimension": 1
+  },
+  "coxeter_relations": {
+    "involution": "R_i(s_i lambda) R_i(lambda)=1 on v_lambda",
+    "nonadjacent_commutation": "R_i R_j=R_j R_i on spherical vectors",
+    "adjacent_braid": "R_i R_j R_i=R_j R_i R_j on spherical vectors",
+    "general_reduced_word": "R_w(lambda)v_lambda=v_w_lambda independent of the reduced expression",
+    "scalar_relator_defect": 1
+  },
+  "comparison_with_k1325": {
+    "sign_only_defects_normalized": true,
+    "arbitrary_nonzero_meromorphic_scalar_defects_on_spherical_line_normalized": true,
+    "nonspherical_k_type_defects_classified": false
+  },
+  "decision": {
+    "spherical_line_weyl_transport_constructed": true,
+    "spherical_line_coxeter_flat": true,
+    "full_principal_series_G_intertwiner_family_constructed": false,
+    "common_dense_operator_domain_constructed": false,
+    "operator_reducibility_control_constructed": false,
+    "canonical_physical_chamber_constructed": false,
+    "protected_status_change": false
+  },
+  "claim_ceiling": "The regular imaginary spherical vectors carry exact Coxeter-flat normalized scalar transport. This one-dimensional result neither identifies nor controls the full principal-series operator on the remaining K-types."
+}

@@ -7,6 +7,19 @@ updated_at: "2026-10-07"
 
 # Next Steps For Contributors
 
+> **2026-10-07 K1326--K1330 SPHERICAL INTERTWINER NORMALIZATION BOUNDARY.**
+> The split multiplicity-one rank-one spherical coefficient is exactly
+> `sqrt(pi) Gamma(z/2)/Gamma((z+1)/2)`, with poles at nonpositive even
+> integers and zeros at negative odd integers. Every regular imaginary D7
+> root coordinate is therefore finite and nonzero. Products along reduced
+> words depend only on inversion sets, so scalar normalization gives exact
+> Coxeter transport on all spherical lines and removes arbitrary nonzero
+> scalar defects there. Next construct the full simple intertwiners on one
+> common dense domain, compute all relevant K-type eigenvalues, classify
+> operator poles/kernels/reducibility and prove operator-valued Coxeter
+> relations. Do not promote the spherical eigenvalue to full `G` descent,
+> source chamber selection or physical positivity.
+
 > **2026-10-07 K1321--K1325 D7 BRAID-SIGN NORMALIZATION BOUNDARY.** Sign
 > rephasing of unitary involutive simple transports changes each adjacent braid
 > defect by the product of its endpoint signs. Since the D7 Dynkin graph is a

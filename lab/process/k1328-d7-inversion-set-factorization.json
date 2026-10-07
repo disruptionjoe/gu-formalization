@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1328-D7-INVERSION-SET-FACTORIZATION",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "INTERNAL:K1325-ANALYTIC-SPHERICAL-LINE",
+  "scope": "Scalar rank-one factors along reduced words in the simply-laced D7 Weyl group; not operator-valued composition.",
+  "pinned_inputs": {
+    "k1324": {"path": "lab/process/k1324-canonical-d7-sign-normalization.json", "sha256": "f009b51eccc8fd9b7f71f15add8f6aa86b7e6dd4797db53dbb406eaab6607d59"},
+    "k1327": {"path": "lab/process/k1327-spherical-coefficient-meromorphic-divisor.json", "sha256": "a10cec2e80853d42cd51444dab50b30f8000a9288a6821a6587cef8ede59921d"}
+  },
+  "d7_root_system": {
+    "rank": 7,
+    "positive_root_count": 42,
+    "simple_roots": [[1,-1,0,0,0,0,0],[0,1,-1,0,0,0,0],[0,0,1,-1,0,0,0],[0,0,0,1,-1,0,0],[0,0,0,0,1,-1,0],[0,0,0,0,0,1,-1],[0,0,0,0,0,1,1]],
+    "adjacent_edges": [[1,2],[2,3],[3,4],[4,5],[5,6],[5,7]],
+    "nonadjacent_pair_count": 15,
+    "adjacent_pair_count": 6,
+    "longest_length": 42
+  },
+  "factorization": {
+    "root_sequence": "beta_j=s_i1...s_i(j-1)(alpha_ij)",
+    "scalar_product": "M_w(lambda)=product_j m(<lambda,beta_j_coroot>)",
+    "inversion_set": "{beta>0:w^(-1)beta<0}",
+    "reduced_word_independence": "the root sequence enumerates the inversion set once",
+    "commutation_control": "nonadjacent words ij and ji have root multisets {alpha_i,alpha_j}",
+    "braid_control": "adjacent words iji and jij have root multisets {alpha_i,alpha_i+alpha_j,alpha_j}"
+  },
+  "regular_imaginary_charge": {
+    "all_42_root_coordinates_nonzero": true,
+    "all_reduced_products_finite_nonzero": true
+  },
+  "decision": {
+    "d7_scalar_factorization_constructed": true,
+    "reduced_word_scalar_independence_constructed": true,
+    "arbitrary_scalar_braid_defect_on_spherical_line": false,
+    "operator_valued_reduced_word_independence_constructed": false,
+    "physical_chamber_descent_constructed": false,
+    "protected_status_change": false
+  },
+  "claim_ceiling": "For regular imaginary charge, the product of K1327 scalar spherical coefficients along a D7 reduced word depends only on its inversion set. This does not compare the full operator products on nonspherical K-types."
+}

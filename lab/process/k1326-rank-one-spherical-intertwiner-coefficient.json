@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1326-RANK-ONE-SPHERICAL-INTERTWINER-COEFFICIENT",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "INTERNAL:K1325-ANALYTIC-SPHERICAL-LINE",
+  "scope": "The spherical vector coefficient of one split multiplicity-one rank-one standard intertwining integral; not the full operator on all K-types.",
+  "pinned_inputs": {
+    "k1312": {"path": "lab/process/k1312-minimal-parabolic-polarized-sections.json", "sha256": "4fb5457e968aa26980a02e5d3024c8bfffca2cd9d7800611b07e1ad769fa416c"},
+    "k1325": {"path": "lab/process/k1325-braid-normalization-admission-boundary.json", "sha256": "413db102f0c566f4e523891a95ee551c161013ddcd7123d3242875b91ca58460"}
+  },
+  "rank_one_model": {
+    "split_root_multiplicity": 1,
+    "double_root_multiplicity": 0,
+    "spectral_coordinate": "z=<lambda,alpha_coroot>",
+    "spherical_vector": "f_z(x)=(1+x^2)^(-(z+1)/2)",
+    "haar_measure": "Lebesgue dx in the declared rank-one noncompact chart",
+    "absolute_convergence_half_plane": "Re(z)>0",
+    "substitution": "u=x^2 then Euler beta integral",
+    "beta_value": "B(1/2,z/2)",
+    "coefficient": "m(z)=sqrt(pi)*Gamma(z/2)/Gamma((z+1)/2)"
+  },
+  "normalization": {
+    "raw_spherical_action": "J_alpha(z)v_z=m(z)v_s_alpha_z",
+    "normalized_spherical_action": "R_alpha(z)v_z=v_s_alpha_z",
+    "valid_where": "m(z) is finite and nonzero"
+  },
+  "decision": {
+    "rank_one_spherical_coefficient_constructed": true,
+    "coefficient_derived_from_beta_integral": true,
+    "full_knapp_stein_operator_constructed": false,
+    "common_operator_domain_constructed": false,
+    "k_type_spectrum_constructed": false,
+    "physical_intertwiner_constructed": false,
+    "protected_status_change": false
+  },
+  "literature_context": {
+    "reference": "A.W. Knapp and E.M. Stein, Intertwining Operators for Semisimple Groups II, Invent. Math. 60 (1980), 9-84",
+    "doi": "10.1007/BF01389898",
+    "use": "theorem context for meromorphic standard intertwiners; the displayed spherical coefficient is rederived directly"
+  },
+  "independent_controls": {
+    "chart": "x=tan(theta), so the integrand times dx is cos(theta)^(z-1) dtheta",
+    "special_values": {"m(1)": "pi", "m(2)": "2", "m(3)": "pi/2"},
+    "method": "independent composite Simpson quadrature on theta in [-pi/2,pi/2]"
+  },
+  "claim_ceiling": "The split multiplicity-one rank-one standard integral has the displayed beta/gamma coefficient on its spherical vector. This does not construct or certify the operator on the remaining compact-picture K-types."
+}

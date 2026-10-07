@@ -7,6 +7,21 @@ updated_at: "2026-10-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1326--K1330 spherical intertwiner normalization boundary (2026-10-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The split rank-one spherical coefficient is an explicit beta/gamma ratio | K1326 beta substitution, coefficient identity and three independent quadrature controls; `18/18`; `8/8` | exact scalar spherical-vector calculation; not the full operator |
+| Its meromorphic divisor and regular imaginary locus are explicit | K1327 disjoint pole/zero lattices and 42-root regularity; `16/16`; `8/8` | exact scalar complex-analysis boundary; not operator reducibility |
+| D7 scalar products depend only on inversion sets | K1328 all 21 simple-root pair controls and 42-root census; `31/31`; `9/9` | exact simply-laced Coxeter factorization; not operator composition |
+| Normalized spherical transport is Coxeter-flat | K1329 involution, commutation, braid and reduced-word controls; `18/18`; `8/8` | exact on 322560 one-dimensional spherical fibers; nonspherical K-types open |
+| Spherical normalization does not close full or physical admission | K1330 twenty-row composition; `18/18`; `9/9` | nine satisfied, three excluded, two conditional and six missing; K1145/K1150 remain `0/7` |
+
+The five producers pass `101/101` controls and five probes reject `42/42`
+hostile mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, and LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`. No source,
+ledger, canon, paper, prediction, confirmation or public status moves.
+
 ## K1321--K1325 D7 braid-sign normalization boundary (2026-10-07)
 
 | Claim | Evidence | Honest grade |

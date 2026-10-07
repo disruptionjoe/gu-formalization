@@ -4,6 +4,32 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1326--K1330 spherical intertwiner normalization boundary
+
+- K1326 derives the split rank-one spherical beta/gamma coefficient (`18/18`;
+  `8/8`).
+- K1327 classifies its meromorphic divisor and regular imaginary locus
+  (`16/16`; `8/8`).
+- K1328 proves D7 inversion-set factorization across all simple-root pairs
+  (`31/31`; `9/9`).
+- K1329 constructs exact Coxeter-flat normalized transport on the spherical
+  lines (`18/18`; `8/8`).
+- K1330 composes the spherical analytic and physical-admission boundary
+  (`18/18`; `9/9`).
+
+```bash
+python3 tests/channel-swings/k1326_rank_one_spherical_intertwiner_coefficient.py
+python3 tests/channel-swings/k1326_rank_one_spherical_intertwiner_coefficient_probe.py
+python3 tests/channel-swings/k1327_spherical_coefficient_meromorphic_divisor.py
+python3 tests/channel-swings/k1327_spherical_coefficient_meromorphic_divisor_probe.py
+python3 tests/channel-swings/k1328_d7_inversion_set_factorization.py
+python3 tests/channel-swings/k1328_d7_inversion_set_factorization_probe.py
+python3 tests/channel-swings/k1329_spherical_line_coxeter_normalization.py
+python3 tests/channel-swings/k1329_spherical_line_coxeter_normalization_probe.py
+python3 tests/channel-swings/k1330_spherical_intertwiner_admission_boundary.py
+python3 tests/channel-swings/k1330_spherical_intertwiner_admission_boundary_probe.py
+```
+
 ## K1321--K1325 D7 braid-sign normalization boundary
 
 - K1321 derives the generator-sign action on adjacent braid defects (`14/14`;

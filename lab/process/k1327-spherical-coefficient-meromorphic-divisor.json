@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1327-SPHERICAL-COEFFICIENT-MEROMORPHIC-DIVISOR",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "INTERNAL:K1325-ANALYTIC-SPHERICAL-LINE",
+  "scope": "Meromorphic divisor and regular imaginary-axis behavior of K1326's scalar spherical coefficient only.",
+  "pinned_inputs": {
+    "k1326": {"path": "lab/process/k1326-rank-one-spherical-intertwiner-coefficient.json", "sha256": "4ab860406bc3d7ef97cf8100d457a46b98555522547385bf404c2bfafe8e5108"}
+  },
+  "coefficient": "m(z)=sqrt(pi)*Gamma(z/2)/Gamma((z+1)/2)",
+  "meromorphic_divisor": {
+    "simple_poles": "z=0,-2,-4,...",
+    "simple_zeros": "z=-1,-3,-5,...",
+    "positive_real_axis": "finite_nonzero",
+    "imaginary_axis": "finite_nonzero_except_z=0",
+    "reason": "Gamma has simple poles at the nonpositive integers and no zeros; numerator and denominator pole lattices are disjoint"
+  },
+  "unitary_axis": {
+    "coordinate": "z=i*t with real t",
+    "regularity_condition": "t!=0",
+    "conjugation": "m(-i*t)=conjugate(m(i*t))",
+    "phase": "q(t)=m(i*t)/abs(m(i*t))",
+    "phase_modulus": 1,
+    "phase_inverse": "q(-t)=q(t)^(-1)"
+  },
+  "d7_regular_charge": {
+    "positive_root_count": 42,
+    "condition": "<mu,beta_coroot>!=0 for every D7 root beta",
+    "consequence": "all scalar factors encountered along every reduced word are finite and nonzero",
+    "singular_wall_excluded": true
+  },
+  "decision": {
+    "meromorphic_scalar_divisor_classified": true,
+    "regular_imaginary_scalar_normalization_available": true,
+    "operator_pole_and_reducibility_classification_constructed": false,
+    "singular_principal_series_classified": false,
+    "physical_regularization_constructed": false,
+    "protected_status_change": false
+  },
+  "claim_ceiling": "For regular imaginary split charge, every K1326 spherical scalar is finite and nonzero and has a unit-modulus phase. Operator-valued poles, kernels, images and reducibility remain unclassified."
+}
