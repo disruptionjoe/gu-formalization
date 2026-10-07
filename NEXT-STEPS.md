@@ -7,6 +7,20 @@ updated_at: "2026-10-07"
 
 # Next Steps For Contributors
 
+> **2026-10-07 K1391--K1396 COMPLETED TRIANGULAR FLOW.** Charge spectral
+> cutoffs now construct bounded-sector local solutions and converge, using one
+> additional triangular tier, to a unique completed local strong flow with
+> continuous dependence and propagated Lorenz and Gauss constraints. Regular
+> gauge changes preserve combined derivative-plus-charge order, making the
+> finite-time continuation alternative admissible-gauge invariant. The former
+> global target is excluded on `T3`: `B_R` contains a leading one, and even
+> after removing it a nonzero periodic homogeneous charged mode has
+> nonintegrable `||Qphi||_infinity`. Next prove global propagation by uniform
+> low-norm iteration, modified energy, normal-form/resonance control or another
+> mechanism that permits bounded recurrent coefficients. Independently supply
+> the source-owned selector and normalization. Do not promote the completed
+> local flow to global BV-BFV or GU physical closure.
+
 > **2026-10-07 K1386--K1390 DIAGONAL COVARIANT HIERARCHY.** K1384's
 > diagonal escape is now constructive at local high regularity. The exact
 > identity `[D_mu,D_nu]=iF_mu_nuQ` preserves combined covariant-derivative plus

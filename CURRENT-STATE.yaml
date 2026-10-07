@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: fd1d49acfdedac294fc73dc96d16415e9c88ffe5
+revision_basis: 62c5aaf749f3f30c4dcb0b7338f475df9f1cf7ef
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1391--K1396 construct the completed finite-triangular local flow left open
+    by K1390. Charge spectral cutoffs give bounded-generator local solutions;
+    a uniform higher-tier estimate and one-tier difference inequality make
+    them converge to a unique strong solution with continuous dependence and
+    propagated Lorenz and Gauss constraints. Regular gauge transformations
+    preserve combined derivative-plus-charge order, so finite-time
+    continuation is invariant in the admissible gauge class. But global
+    `integral B_R dt` is impossible as a target on `T3`: its leading one
+    already diverges for vacuum, and a nonzero periodic charged homogeneous
+    mode makes the charge coefficient nonintegrable even without that one.
+    Global propagation must instead allow bounded recurrent coefficients.
+    The 66-row census is forty-four satisfied, six conditional, twelve
+    excluded and four missing; K1145/K1150 remain 0/7 and protected statuses
+    do not move.
+
     K1386--K1390 construct the finite diagonal covariant hierarchy left open by
     K1384. The exact identity `[D_mu,D_nu]=iF_mu_nuQ` makes every iterated
     matter commutator preserve combined covariant-derivative plus charge order.
@@ -14351,17 +14366,19 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K1386--K1390 prove that the curvature-charge commutator closes a finite
-  triangular high-regularity hierarchy locally: matter commutators and the
-  differentiated Maxwell current remain on the same combined-order principal
-  tier, and the Lorenz-gauge norm obeys a closed local ODE. Which completed
-  graph-domain construction now produces smooth evolution and gauge-independent
-  continuation, and which dispersive, Morawetz, null-form or small-data
-  mechanism gives a global bound on `integral B_R dt`? Only then can closed
-  nonlinear KT range and a proper positive BV-BFV quotient be attempted.
-  Independently, which source/action-owned observed-carrier selector fixes `Q`
-  and its normalization while preserving the triangular domain? Do not transfer
-  a gauge-fixed local a priori inequality to global or GU physical closure.
+  K1391--K1396 construct a unique completed triangular local strong flow,
+  propagate Lorenz and Gauss constraints, and make the finite-time
+  continuation alternative invariant under regular admissible gauge changes.
+  They also prove that global `integral B_R dt` is not a viable compact-torus
+  target: even a global bounded periodic charged mode has a nonintegrable
+  coefficient. Which uniform low-norm iteration, modified energy,
+  normal-form/resonance argument or other invariant now gives global
+  propagation while allowing bounded recurrent coefficients? Only then can
+  closed nonlinear KT range and a proper positive BV-BFV quotient be
+  attempted. Independently, which source/action-owned observed-carrier
+  selector fixes `Q` and its normalization while preserving the completed
+  triangular domain? Do not transfer local flow or gauge-orbit continuation
+  to global or GU physical closure.
 
   K1381--K1385 prove that replacing K1378's electric `L-infinity_x` factor by
   finite `L^p_x` through bare Hölder/Sobolev does not close the same charge-
@@ -16515,16 +16532,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Preserve K1386--K1390's constructive boundary. Covariant curvature
-  commutators preserve combined derivative-plus-charge order, a finite
-  triangular hierarchy closes the differentiated matter and Maxwell terms,
-  and the resulting Lorenz-gauge high norm has an explicit local a priori
-  bound for smooth common-core solutions. Next construct the completed smooth
-  flow and gauge-independent continuation, then prove global control of
-  `integral B_R dt` by an actual dispersive, Morawetz, null-form or small-data
-  mechanism. Independently derive the source/action-owned observed-carrier
-  selector and normalization. Do not call local gauge-fixed analytic closure a
-  global nonlinear KT/BV-BFV quotient or GU physical cohomology.
+  Preserve K1391--K1396's constructive and exclusion boundaries. The completed
+  finite triangular flow is locally strong, unique, continuously dependent,
+  constraint preserving and continuation invariant under regular admissible
+  gauge changes. Global time-integrability of K1389's coefficient is not a
+  viable `T3` target, because bounded recurrent charged modes defeat it.
+  Advance with a uniform low-norm iteration, modified high energy,
+  normal-form/resonance control or another invariant that permits bounded
+  nonintegrable coefficients. Independently derive the source/action-owned
+  observed-carrier selector and normalization. Do not call the completed local
+  flow a global nonlinear KT/BV-BFV quotient or GU physical cohomology.
 
   Preserve K1381--K1385's sharp method boundary. Finite spatial `L^p` control
   of the electric field costs `H^(3/p)` regularity at the next charge level;

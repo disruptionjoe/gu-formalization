@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1393",
+  "title": "The completed triangular flow is unique and propagates the constraints",
+  "pinned_inputs": {
+    "k1374": {"path": "lab/process/k1374-smooth-constraint-propagation-brst.json", "sha256": "09757ddead39fc986abc8f9605bb5afaf8998fede4b2bc29be9ea2298e36a831"},
+    "k1392": {"path": "lab/process/k1392-completed-triangular-local-flow.json", "sha256": "c73294acb0a8f2ef531588e18da90a920e7298d0b73d97817dac230b541b4ef5"}
+  },
+  "completed_constraints": {
+    "uniqueness": "The K1392 one-tier difference inequality with zero initial difference gives uniqueness in C X_R intersect C^1 X_(R-1)",
+    "continuous_dependence": "Gronwall gives Z_R(t)<=Z_R(0) exp(C_R integral_0^t (1+Y_(R+1)+Ytilde_(R+1))^2 ds) on every common local interval",
+    "current_limit": "The cutoff currents converge in C H^(R-1), so K1374's distributional continuity equation partial_mu j^mu=0 passes to the completed solution",
+    "lorenz_constraint": "The Lorenz defect obeys the homogeneous scalar wave equation and remains zero from compatible initial data",
+    "gauss_constraint": "The Gauss defect is constant in time in H^(R-2) and remains zero from compatible initial data",
+    "brst_scope": "The Abelian BRST formulas remain nilpotent on the dense smooth common core and are closable between adjacent triangular graph tiers; no closed nonlinear KT range follows",
+    "flow_map": "The local solution map is single-valued and continuous from bounded X_(R+1) sets into C X_R intersect C^1 X_(R-1)",
+    "boundary": "Analytic constraint propagation and a continuous gauge-fixed flow are not a proper BV-BFV quotient, a positive physical cohomology theorem or source identification"
+  },
+  "decision": {
+    "completed_flow_unique": true,
+    "continuous_dependence_constructed": true,
+    "current_conservation_passes_to_limit": true,
+    "lorenz_constraint_propagates": true,
+    "gauss_constraint_propagates": true,
+    "brst_core_closable_between_adjacent_tiers": true,
+    "closed_nonlinear_KT_range_constructed": false,
+    "positive_physical_cohomology_constructed": false,
+    "source_action_identified": false,
+    "protected_status_change": false
+  }
+}

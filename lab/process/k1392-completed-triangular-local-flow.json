@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1392",
+  "title": "Charge cutoffs converge to a completed triangular local flow",
+  "pinned_inputs": {
+    "k1387": {"path": "lab/process/k1387-finite-triangular-hierarchy-closure.json", "sha256": "2b3d4e37771c7ff2786fd7406375308aa56add07e1830309de1c6e17139b825b"},
+    "k1389": {"path": "lab/process/k1389-local-high-regularity-continuation.json", "sha256": "eb6add15390e99a0e4bf58b6314fbb1731ce00764d323f41c83640f8a71aa731"},
+    "k1391": {"path": "lab/process/k1391-bounded-charge-local-evolution.json", "sha256": "cc703445eba557b90c554b87b213b86884e2d04492ddeac0392d9c48d233a5fe"}
+  },
+  "completed_flow": {
+    "phase_space": "X_R is the completion of smooth spatial/K-finite initial data in K1387's finite triangular norm Y_R, including Lorenz-compatible Maxwell data and the charge-regularized matter graph terms",
+    "spectral_density": "P_N converges strongly to the identity in every finite Q-graph norm, so P_N data are dense in X_R",
+    "uniform_lifespan": "For data bounded in X_(R+1), K1389 gives one N-independent interval T>=log(2)/(C_(R+1)(1+2Y_(R+1)(0))^2) and a uniform X_(R+1) bound",
+    "difference_estimate": "For two cutoff solutions on that interval, the X_R difference Z_R obeys dZ_R/dt<=C_R(1+Y_(R+1)^N+Y_(R+1)^M)^2 Z_R; the one extra triangular tier pays every tame coefficient difference",
+    "cauchy_limit": "The cutoff solutions are Cauchy in C([-T,T];X_R) intersect C^1([-T,T];X_(R-1)) whenever the cutoff initial data converge in X_(R+1)",
+    "equation_limit": "Sobolev algebra, graph closedness of Q and the uniform X_(R+1) bound pass the covariant matter equation and Maxwell current to the limit",
+    "local_result": "Initial data in X_(R+1), R>=3, therefore determine a completed local strong solution in X_R with the K1389 a priori bound; data in the intersection of all triangular levels give a smooth solution",
+    "boundary": "The construction spends one approximation tier and is local. It gives neither global large-data propagation nor a source-owned physical state space"
+  },
+  "decision": {
+    "triangular_phase_completion_constructed": true,
+    "cutoff_density_proved": true,
+    "cutoff_uniform_lifespan_proved": true,
+    "one_tier_difference_estimate_proved": true,
+    "completed_local_strong_solution_constructed": true,
+    "smooth_data_smooth_solution_constructed": true,
+    "global_large_data_solution_constructed": false,
+    "physical_quotient_constructed": false,
+    "source_action_identified": false,
+    "protected_status_change": false
+  }
+}

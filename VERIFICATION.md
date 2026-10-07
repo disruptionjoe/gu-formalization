@@ -7,6 +7,27 @@ updated_at: "2026-10-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1391--K1396 completed triangular flow (2026-10-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Bounded charge sectors admit local evolution | K1391 spectral-sector invariance and semilinear Lorenz-gauge wave theorem; `28/28`; `9/9` | exact unique local cutoff flow with smooth persistence and propagated compatible constraints; cutoff constants alone do not complete the unbounded generator |
+| Charge cutoffs converge to a completed triangular flow | K1392 uniform higher-tier lifespan, one-tier difference estimate and nonlinear limit passage; `27/27`; `11/11` | exact local strong solution from `X_(R+1)` into `X_R`; local and one approximation tier is spent |
+| The completed flow is unique and constraint preserving | K1393 Gronwall stability, current convergence and Lorenz/Gauss defect equations; `23/23`; `12/12` | exact uniqueness, continuous dependence and analytic constraint propagation; no closed nonlinear KT range |
+| Finite-time continuation depends on the regular gauge representative | K1394 triangular multiplier estimate and norm equivalence; `45/45`; `12/12` | false within the admitted regular gauge class; this is not a physical quotient topology |
+| Global `integral B_R dt` is a viable compact-torus target | K1395 vacuum baseline and exact periodic charged homogeneous mode; `29/29`; `12/12` | false, even after deleting the leading one; finite-interval integrability remains sufficient but is not necessary globally |
+| The advance closes GU physical admission | K1396 66-row bridge census; `30/30`; `12/12` | forty-four satisfied, six conditional, twelve excluded and four missing; global propagation, source selection and physical quotient remain open |
+
+The six producers pass `182/182` controls and six probes reject `68/68`
+hostile mutations. The finite triangular a priori hierarchy now has a unique
+completed local flow, and its continuation alternative is invariant under
+regular admissible gauges. The tempting global coefficient-integrability
+target is exactly excluded on the compact torus; the next global mechanism
+must permit bounded recurrent coefficients. SC-ACT-01/02/06 remain `ASSERTS`,
+SC-META-53 remains `UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`,
+and K1145/K1150 stay `0/7`. No source, ledger, canon, paper, prediction,
+confirmation or public status moves.
+
 ## K1386--K1390 diagonal covariant hierarchy (2026-10-07)
 
 | Claim | Evidence | Honest grade |

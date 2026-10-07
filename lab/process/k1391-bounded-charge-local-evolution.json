@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1391",
+  "title": "Every bounded charge sector has a unique smooth local Lorenz-gauge evolution",
+  "pinned_inputs": {
+    "k1359": {"path": "lab/process/k1359-nonuniform-charge-gauge-bv-core.json", "sha256": "6b9178661924c9a00324268c71c6d147b2bb0b744e6c31adc4360fc67b87e677"},
+    "k1366": {"path": "lab/process/k1366-positive-charge-regularizer.json", "sha256": "72075a863129fee1dff04d931a02dd083bf01c6c2f20ed76cab940cdcec24a22"},
+    "k1389": {"path": "lab/process/k1389-local-high-regularity-continuation.json", "sha256": "eb6add15390e99a0e4bf58b6314fbb1731ce00764d323f41c83640f8a71aa731"}
+  },
+  "bounded_charge_flow": {
+    "spectral_cutoff": "P_N=1_{[-N,N]}(Q) is the self-adjoint charge spectral projector; P_N commutes with Q, exp(i alpha Q), spatial derivatives and the real radial multiplier",
+    "invariant_sector": "Initial matter data in ran(P_N) remain in ran(P_N), because D_A, Q^2 and f(||phi||^2) act diagonally in charge and the Maxwell current is scalar-valued",
+    "bounded_generator": "Q_N=Q restricted to ran(P_N) is bounded with ||Q_N||<=N, while the internal multiplicity may remain infinite",
+    "lorenz_system": "In Lorenz gauge the Maxwell--matter equations form a semilinear Hilbert-valued wave system with at most first spacetime derivatives and smooth polynomial nonlinearities on H^(R+1)xH^R for integer R>=3",
+    "local_theorem": "Standard wave Duhamel contraction gives one unique solution (A_N,phi_N) in C([-T_N,T_N];H^(R+1)) intersect C^1([-T_N,T_N];H^R), with phi_N valued in ran(P_N)",
+    "constraint_data": "If the initial Lorenz and Gauss compatibility conditions hold, K1374's continuity identity propagates them throughout the local solution",
+    "smooth_persistence": "Smooth spatial data with values in a bounded charge sector give a smooth common-core solution on the same local interval",
+    "boundary": "The cutoff theorem alone has a cutoff-dependent contraction constant and does not produce a completed unbounded-Q flow, global evolution, source action or physical quotient"
+  },
+  "decision": {
+    "charge_spectral_cutoffs_constructed": true,
+    "cutoff_sector_invariant": true,
+    "bounded_charge_local_solution_constructed": true,
+    "bounded_charge_uniqueness_constructed": true,
+    "lorenz_and_gauss_constraints_propagate": true,
+    "cutoff_uniform_completed_flow_constructed": false,
+    "global_evolution_constructed": false,
+    "source_action_identified": false,
+    "protected_status_change": false
+  }
+}

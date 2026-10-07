@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1394",
+  "title": "Finite triangular continuation is invariant under admissible gauge changes",
+  "pinned_inputs": {
+    "k1361": {"path": "lab/process/k1361-local-gauge-charge-graph-domain.json", "sha256": "404e1a0289a02ad96f6b870f93ed41ee67f93144ec63c49f1121fe3fe54b63a6"},
+    "k1393": {"path": "lab/process/k1393-completed-constraint-uniqueness.json", "sha256": "3aef9d68ab4a5be503adaeea749bc755ebd02a42e09a8f28d7923e0db43ceae3"}
+  },
+  "gauge_continuation": {
+    "gauge_action": "A'=A+d chi and phi'=exp(i e chi Q)phi, with real chi; Q commutes with the unitary multiplier and D'_mu phi'=exp(i e chi Q)D_mu phi",
+    "derivative_count": "Each ordinary derivative falling on exp(i e chi Q) contributes one Q and derivatives of chi, so derivative order plus charge order is preserved by the same triangular filtration as K1386",
+    "admissible_class": "On a finite interval, chi with bounded W^(R+2,infinity) spacetime coefficients and compatible initial traces acts as a bounded invertible map on X_R; the inverse is obtained from -chi",
+    "norm_equivalence": "C_R(chi)^(-1) Y_R(A,phi)<=Y_R(A+dchi,exp(i e chi Q)phi)<=C_R(chi)Y_R(A,phi)",
+    "lorenz_residual": "A gauge change preserves Lorenz gauge when box chi=0; a smooth gauge representative can be returned to Lorenz gauge on a finite interval by solving box chi=-partial^mu A_mu with compatible traces",
+    "continuation_invariance": "Finite-time extendibility in one admissible representative is equivalent to finite-time extendibility in every representative connected by a gauge function with finite C_R(chi)",
+    "scope": "This is gauge-orbit invariance of the analytic blow-up alternative, not construction of the physical quotient topology or a gauge-independent global norm",
+    "boundary": "Singular gauge functions, global bundle topology, Gribov-type issues outside the Abelian trivial bundle and source-owned observation semantics are not classified"
+  },
+  "decision": {
+    "triangular_gauge_action_bounded": true,
+    "triangular_gauge_action_invertible": true,
+    "lorenz_preserving_gauge_class_identified": true,
+    "finite_time_continuation_gauge_invariant": true,
+    "physical_quotient_topology_constructed": false,
+    "global_gauge_independent_norm_constructed": false,
+    "source_observation_map_constructed": false,
+    "protected_status_change": false
+  }
+}

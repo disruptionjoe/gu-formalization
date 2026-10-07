@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1395",
+  "title": "Global coefficient integrability is impossible as a compact-torus continuation target",
+  "pinned_inputs": {
+    "k1358": {"path": "lab/process/k1358-principal-series-charge-generator-domain.json", "sha256": "c91feee049717eb6052116b92353e5c5660d606df629acb710d4042a136c9601"},
+    "k1389": {"path": "lab/process/k1389-local-high-regularity-continuation.json", "sha256": "eb6add15390e99a0e4bf58b6314fbb1731ce00764d323f41c83640f8a71aa731"},
+    "k1392": {"path": "lab/process/k1392-completed-triangular-local-flow.json", "sha256": "c73294acb0a8f2ef531588e18da90a920e7298d0b73d97817dac230b541b4ef5"}
+  },
+  "integrability_obstruction": {
+    "baseline": "K1389 defines B_R with a leading constant 1, so integral_0^infinity B_R dt diverges for every solution, including the vacuum",
+    "nontrivial_mode": "Choose a unit Q-eigenvector v with nonzero integer charge q and set A=0, phi(t,x)=a(t)v constant on T3 with real a",
+    "reduced_equation": "The Maxwell current vanishes identically and the matter equation reduces to a''+(m^2+mu q^2)a+lambda a^3=0",
+    "global_periodic_solution": "For m>0, mu>0 and lambda>0, every nonzero finite-energy oscillator solution is global, bounded and periodic",
+    "baseline_removed_obstruction": "Even after removing the artificial leading 1 from B_R, the term ||Qphi||_infinity=|q a(t)| has positive period average, so its time integral diverges",
+    "logical_effect": "Finite integral B_R is a sufficient finite-interval Gronwall condition, not a necessary global continuation condition and not an achievable global target on the compact torus",
+    "reroute": "Global propagation must allow nonintegrable bounded coefficients, for example by finite-interval iteration with a uniform low norm, a modified high energy, normal-form/resonance control or a different global invariant",
+    "boundary": "This obstruction does not prove global large-data propagation for the coupled system and does not exclude dispersive L1_t estimates after changing the spacetime from T3 to a noncompact geometry"
+  },
+  "decision": {
+    "global_integral_BR_target_viable_on_T3": false,
+    "vacuum_baseline_obstruction_proved": true,
+    "nontrivial_periodic_mode_obstruction_proved": true,
+    "finite_interval_continuation_criterion_reversed": false,
+    "global_large_data_evolution_proved": false,
+    "noncompact_dispersive_route_excluded": false,
+    "source_action_identified": false,
+    "protected_status_change": false
+  }
+}
