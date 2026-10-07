@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1388",
+  "title": "The differentiated Maxwell source closes on the same triangular principal tier",
+  "pinned_inputs": {
+    "k1374": {"path": "lab/process/k1374-smooth-constraint-propagation-brst.json", "sha256": "09757ddead39fc986abc8f9605bb5afaf8998fede4b2bc29be9ea2298e36a831"},
+    "k1387": {"path": "lab/process/k1387-finite-triangular-hierarchy-closure.json", "sha256": "2b3d4e37771c7ff2786fd7406375308aa56add07e1830309de1c6e17139b825b"}
+  },
+  "maxwell_source": {
+    "current": "j_nu=e Im<Qphi,D_nu phi> is gauge invariant and obeys partial_mu j^mu=0 on the smooth common core",
+    "differentiated_form": "partial^alpha j is a finite sum of pairings between D^beta Qphi and D^gamma Dphi, plus lower curvature commutators, with |beta|+|gamma|<=|alpha|",
+    "principal_count": "For |alpha|<=R, each high factor has combined derivative--charge order at most R+1 and is controlled by K1387's principal tier",
+    "tame_bound": "For integer R>=3, ||j||_(H^R)<=C_R Y_R^2 by H^R(T3) algebra and high-low tame product estimates",
+    "maxwell_energy": "Lorenz-gauge wave control gives d E_Max,R/dt<=C_R ||j||_(H^R) E_Max,R^(1/2)",
+    "constraint": "Current conservation propagates the differentiated Lorenz/Gauss constraint on every smooth common-core solution",
+    "boundary": "The estimate is a gauge-fixed high-regularity analytic control, not a closed nonlinear KT range, BFV quotient or source observation map"
+  },
+  "decision": {
+    "differentiated_current_expanded": true,
+    "same_triangular_tier_controls_source": true,
+    "tame_current_bound_constructed": true,
+    "differentiated_constraint_propagation_constructed": true,
+    "closed_nonlinear_KT_range_proved": false,
+    "physical_BFV_quotient_proved": false,
+    "source_observation_map_constructed": false,
+    "protected_status_change": false
+  }
+}

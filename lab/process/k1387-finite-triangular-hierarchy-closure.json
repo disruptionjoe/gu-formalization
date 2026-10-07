@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1387",
+  "title": "A finite triangular covariant hierarchy has no charge--spatial top corner",
+  "pinned_inputs": {
+    "k1386": {"path": "lab/process/k1386-covariant-charge-commutator-filtration.json", "sha256": "ca5f964c8389aae3374f2371077b04969b10946046dfed98a881303d2652ec64"}
+  },
+  "triangular_hierarchy": {
+    "index_set": "T_R={(alpha,n): |alpha|+n<=R} for an integer R>=3",
+    "matter_energy": "Sum over T_R of ||D_t D^alpha Q^n phi||_2^2+||D_x D^alpha Q^n phi||_2^2+m^2||D^alpha Q^n phi||_2^2+mu||Q D^alpha Q^n phi||_2^2",
+    "principal_tier": "For every (alpha,n) in T_R the energy controls one additional covariant derivative or one additional Q, hence every matter factor of combined order <=R+1",
+    "commutator_closure": "K1386 places every curvature commutator factor D^gamma Q^(n+1)phi in the same principal tier because |gamma|+n+1<=|alpha|+n+1<=R+1",
+    "radial_closure": "Q commutes with the real radial multiplier; spatially commuted polynomial radial terms obey the ordinary H^R tame product estimate for R>=3",
+    "comparison": "K1384's finite-p rectangle advances both independent ceilings to (S+3/p,N+1); T_R instead pays a curvature commutator by exchanging derivative and charge position at fixed combined order",
+    "boundary": "This removes the algebraic top-corner loss for a finite high-regularity hierarchy; it does not by itself bound the Maxwell coefficients globally or prove existence"
+  },
+  "decision": {
+    "finite_triangular_hierarchy_constructed": true,
+    "commutator_terms_close_in_principal_tier": true,
+    "radial_terms_close_by_tame_products": true,
+    "finite_rectangular_bare_holder_claim_reversed": false,
+    "coefficient_global_integrability_proved": false,
+    "solution_existence_proved": false,
+    "source_action_identified": false,
+    "protected_status_change": false
+  }
+}

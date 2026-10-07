@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1390",
+  "title": "Diagonal covariant hierarchy admission boundary",
+  "pinned_inputs": {
+    "k1386": {"path": "lab/process/k1386-covariant-charge-commutator-filtration.json", "sha256": "ca5f964c8389aae3374f2371077b04969b10946046dfed98a881303d2652ec64"},
+    "k1387": {"path": "lab/process/k1387-finite-triangular-hierarchy-closure.json", "sha256": "2b3d4e37771c7ff2786fd7406375308aa56add07e1830309de1c6e17139b825b"},
+    "k1388": {"path": "lab/process/k1388-differentiated-maxwell-source-closure.json", "sha256": "86f5f519bc7939514fdef2891dbdac6e3f59c135364401ed185dc3dfd86da811"},
+    "k1389": {"path": "lab/process/k1389-local-high-regularity-continuation.json", "sha256": "eb6add15390e99a0e4bf58b6314fbb1731ce00764d323f41c83640f8a71aa731"}
+  },
+  "bridge_census": {
+    "row_count": 61,
+    "satisfied_count": 40,
+    "conditional_count": 6,
+    "excluded_count": 11,
+    "missing_count": 4,
+    "new_satisfied_rows": [
+      "covariant derivative--charge commutators preserve combined order",
+      "finite triangular matter hierarchy has no algebraic top corner",
+      "differentiated Maxwell source closes on the same principal tier",
+      "Lorenz-gauge triangular high-regularity norm obeys a closed local a priori inequality"
+    ],
+    "missing_rows": [
+      "source-owned compact-generator selection and normalization on the observed carrier",
+      "identification with one source action",
+      "closed fully coupled global nonlinear BV-BFV quotient with positive physical Hilbert cohomology",
+      "source-owned observed-state/export map"
+    ]
+  },
+  "distance_update": {
+    "closed": [
+      "K1384's open diagonal-weight escape is realized by a finite combined-order covariant triangle",
+      "the differentiated matter commutators and Maxwell current require no new independent rectangular corner",
+      "the same finite high-regularity norm supplies its local coefficient bound"
+    ],
+    "opened_or_sharpened": [
+      "global control of integral B_R dt or a coercive dispersive/Morawetz estimate",
+      "construction of smooth graph-domain evolution rather than an a priori estimate",
+      "closed nonlinear KT range, BV-BFV properness and positive physical cohomology"
+    ],
+    "unchanged": [
+      "source selection and normalization",
+      "source action ownership",
+      "source observation/export ownership"
+    ]
+  },
+  "decision": {
+    "diagonal_covariant_hierarchy_constructed": true,
+    "finite_high_regularity_top_corner_removed": true,
+    "differentiated_maxwell_source_closed": true,
+    "local_apriori_continuation_bound_constructed": true,
+    "smooth_solution_existence_constructed": false,
+    "global_large_data_propagation_constructed": false,
+    "fully_coupled_global_nonlinear_BV_BFV_domain_constructed": false,
+    "source_selected_reduction_constructed": false,
+    "positive_GU_physical_Hilbert_cohomology_constructed": false,
+    "k1145_k1150_candidate_counts_move": false,
+    "protected_status_change": false
+  },
+  "source_and_ledger_effect": "SOURCE_REGISTER_UNCHANGED; LEDGER_UNCHANGED; SC-ACT-01/02/06 ASSERTS; SC-META-53 UNCERTAIN; LT-SM8/LT-GR6b/RA-F1/AC-F1 NEEDS; K1145/K1150 0/7"
+}

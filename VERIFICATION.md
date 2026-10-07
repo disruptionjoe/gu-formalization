@@ -7,6 +7,26 @@ updated_at: "2026-10-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1386--K1390 diagonal covariant hierarchy (2026-10-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Covariant differentiation forces a new rectangular charge--spatial corner | K1386 exact `[D_mu,D_nu]=iF_mu_nuQ` filtration and combined-order enumeration; `102/102`; `11/11` | false: commutators preserve the triangular combined derivative-plus-charge principal tier |
+| A finite diagonal hierarchy closes the matter commutators | K1387 `T_R={(alpha,n):|alpha|+n<=R}` energy and principal-tier checks; `28/28`; `10/10` | exact finite high-regularity algebraic closure; no coefficient or existence theorem by itself |
+| Differentiating the Maxwell current escapes the triangular tier | K1388 covariant current expansion, tame `H^R` bound and constraint propagation; `172/172`; `9/9` | false for `R>=3`; the source closes on the same principal tier for smooth common-core fields |
+| The finite triangular norm pays its own local coefficient bound | K1389 Lorenz-gauge tame inequality and bootstrap lifespan; `26/26`; `11/11` | exact local a priori continuation bound for smooth solutions; no solution construction or global large-data theorem |
+| The advance closes GU physical admission | K1390 61-row bridge census; `27/27`; `10/10` | forty satisfied, six conditional, eleven excluded and four missing; source selection and global physical quotient remain open |
+
+The five producers pass `355/355` controls and five probes reject `51/51`
+hostile mutations. The diagonal escape left open by K1384 is constructive:
+curvature commutators exchange covariant-derivative and charge position at
+fixed combined order, and the differentiated Maxwell source closes on the
+same finite principal tier. The resulting Lorenz-gauge norm has a closed local
+ODE but no global spacetime bound. SC-ACT-01/02/06 remain `ASSERTS`,
+SC-META-53 remains `UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`,
+and K1145/K1150 stay `0/7`. No source, ledger, canon, paper, prediction,
+confirmation or public status moves.
+
 ## K1381--K1385 finite-`Lp` charge-staircase boundary (2026-10-07)
 
 | Claim | Evidence | Honest grade |

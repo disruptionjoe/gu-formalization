@@ -7,6 +7,20 @@ updated_at: "2026-10-07"
 
 # Next Steps For Contributors
 
+> **2026-10-07 K1386--K1390 DIAGONAL COVARIANT HIERARCHY.** K1384's
+> diagonal escape is now constructive at local high regularity. The exact
+> identity `[D_mu,D_nu]=iF_mu_nuQ` preserves combined covariant-derivative plus
+> charge order, so the finite triangle
+> `T_R={(alpha,n):|alpha|+n<=R}` closes both matter commutators and the
+> differentiated Maxwell source for `R>=3`. In Lorenz gauge the same norm
+> obeys `dY_R/dt<=C_R(1+Y_R)^2Y_R`, giving an explicit local a priori bound.
+> Next construct smooth evolution on the completed triangular graph domain and
+> gauge-independent continuation, then obtain a global `integral B_R dt`
+> bound by a genuine dispersive, Morawetz, null-form or small-data mechanism.
+> Independently supply the source-owned selector and normalization. Do not
+> promote the gauge-fixed local inequality to global BV-BFV or GU physical
+> closure.
+
 > **2026-10-07 K1381--K1385 FINITE-`Lp` CHARGE-STAIRCASE BOUNDARY.** The
 > first direct weakening of K1378's endpoint estimate is now sharply resolved.
 > At charge-lift level `n`, finite spatial `L^p` control of the electric field

@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1386",
+  "title": "Covariant commutators preserve the combined derivative--charge filtration",
+  "pinned_inputs": {
+    "k1359": {"path": "lab/process/k1359-nonuniform-charge-gauge-bv-core.json", "sha256": "6b9178661924c9a00324268c71c6d147b2bb0b744e6c31adc4360fc67b87e677"},
+    "k1374": {"path": "lab/process/k1374-smooth-constraint-propagation-brst.json", "sha256": "09757ddead39fc986abc8f9605bb5afaf8998fede4b2bc29be9ea2298e36a831"},
+    "k1385": {"path": "lab/process/k1385-finite-lp-admission-boundary.json", "sha256": "6b4bff6f4d38bd020fd2078d9c150c0b422f732dc1015b28d7acae7bb6504a96"}
+  },
+  "covariant_filtration": {
+    "operators": "D_mu=partial_mu+i A_mu Q on the K1359 common core; [Q,D_mu]=0 and [D_mu,D_nu]=i F_mu_nu Q",
+    "basic_wave_commutator": "[D_a,D^mu D_mu]u=i(partial^mu F_(a mu))Q u+2i F_a^mu Q D_mu u",
+    "iterated_form": "[D^alpha,D^mu D_mu]Q^n phi is a finite sum of (partial^beta F) D^gamma Q^(n+1)phi with |beta|+|gamma|<=|alpha|",
+    "combined_order": "Every matter factor has |gamma|+(n+1)<=|alpha|+n+1, exactly the principal derivative/charge tier already present in the energy of D^alpha Q^n phi",
+    "curvature_order": "The coefficient factor uses at most |alpha| ordinary derivatives of F and creates no independent rectangular corner",
+    "mechanism": "One covariant-derivative commutator trades derivative position for one Q through curvature; total derivative-plus-charge order is triangular rather than rectangular",
+    "boundary": "The identity is algebraic on the smooth K-finite common core; it is not a null-form cancellation, a global estimate or source ownership of Q"
+  },
+  "decision": {
+    "basic_commutator_derived": true,
+    "iterated_filtration_derived": true,
+    "combined_order_preserved": true,
+    "rectangular_top_corner_required": false,
+    "null_form_constructed": false,
+    "global_bound_proved": false,
+    "source_action_identified": false,
+    "protected_status_change": false
+  }
+}

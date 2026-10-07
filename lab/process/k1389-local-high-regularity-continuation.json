@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1389",
+  "title": "The diagonal hierarchy yields a closed local high-regularity continuation bound",
+  "pinned_inputs": {
+    "k1387": {"path": "lab/process/k1387-finite-triangular-hierarchy-closure.json", "sha256": "2b3d4e37771c7ff2786fd7406375308aa56add07e1830309de1c6e17139b825b"},
+    "k1388": {"path": "lab/process/k1388-differentiated-maxwell-source-closure.json", "sha256": "86f5f519bc7939514fdef2891dbdac6e3f59c135364401ed185dc3dfd86da811"}
+  },
+  "local_continuation": {
+    "gauge_and_model": "Smooth K-finite solutions of the K1359/K1366 charge-regularized cubic scalar-electrodynamics control in Lorenz gauge on R x T3; the gauge-fixed Sobolev norm is analytic control, not a physical quotient pairing",
+    "control_norm": "Y_R^2 is the componentwise Lorenz-gauge H^(R+1)xH^R wave norm of A plus the K1387 triangular matter energy, for integer R>=3",
+    "low_coefficient": "B_R=1+||A||_(W^(1,infinity))+||F||_(W^(1,infinity))+||phi||_infinity^2+||Dphi||_infinity+||Qphi||_infinity",
+    "tame_inequality": "dY_R/dt<=C_R B_R Y_R and Sobolev/tame control on T3 gives B_R<=C_R(1+Y_R)^2",
+    "closed_ode": "dY_R/dt<=C_R(1+Y_R)^2 Y_R",
+    "local_bound": "If Y_R(0)=Y_0, then Y_R(t)<=2Y_0 for 0<=t<=log(2)/(C_R(1+2Y_0)^2) by a bootstrap Gronwall argument",
+    "continuation_criterion": "The high-regularity control continues across every finite interval on which integral B_R dt is finite",
+    "global_boundary": "Base energy and Gauss do not control integral B_R dt by K1379, so the hierarchy removes the algebraic top corner but does not prove global large-data propagation"
+  },
+  "decision": {
+    "closed_local_apriori_inequality_constructed": true,
+    "explicit_local_bound_constructed": true,
+    "finite_triangular_phase_topology_locally_controlled": true,
+    "smooth_solution_existence_constructed": false,
+    "global_large_data_bound_constructed": false,
+    "closed_nonlinear_BV_BFV_quotient_constructed": false,
+    "source_action_identified": false,
+    "protected_status_change": false
+  }
+}
