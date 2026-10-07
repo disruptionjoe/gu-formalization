@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1375",
+  "title": "Nonlinear Gauss functional-layer admission boundary",
+  "pinned_inputs": {
+    "k1369": {"path": "lab/process/k1369-charge-regularized-linearized-brst-cohomology.json", "sha256": "620a6a1daa8c95d2d1f3003463c02304ae6c6504aac6ef1d9bdf26fdc174fbd4"},
+    "k1370": {"path": "lab/process/k1370-charge-regularized-admission-boundary.json", "sha256": "aecf272cd6325b82f8dcf50fce9019452af1c4db4ffc4e66e1efeb1207d15792"}
+  },
+  "bridge_census": {
+    "row_count": 49,
+    "satisfied_count": 33,
+    "conditional_count": 4,
+    "excluded_count": 8,
+    "missing_count": 4,
+    "new_satisfied_rows": [
+      "covariant_charge_Sobolev_control_of_the_Gauss_density",
+      "closed_neutral_nonlinear_Gauss_constraint_and_bounded_longitudinal_solve",
+      "smooth_Noether_Gauss_propagation_and_BRST_compatibility_on_the_common_core"
+    ],
+    "new_excluded_rows": [
+      "K1366_charge_regularized_energy_alone_controls_the_nonlinear_Gauss_map"
+    ],
+    "missing_rows": [
+      "source_owned_selection_and_normalization_of_the_compact_charge_reduction_on_the_observed_carrier",
+      "identification_with_one_source_action_derived_interacting_constraint_complex",
+      "closed_fully_coupled_global_nonlinear_BV_BFV_quotient_with_positive_physical_Hilbert_cohomology",
+      "source_owned_observed_state_and_export_map"
+    ]
+  },
+  "distance_update": {
+    "closed": [
+      "the nonlinear Gauss density is well_defined in H^-1 on the mixed covariant charge_Sobolev topology",
+      "the neutral Gauss surface is closed and has a bounded Coulomb solve with positive transverse_longitudinal splitting",
+      "smooth common_core solutions propagate Gauss by Noether continuity"
+    ],
+    "excluded": [
+      "the K1366 L2 charge regularizer by itself supplies the nonlinear Gauss functional topology"
+    ],
+    "opened_or_sharpened": [
+      "propagate the covariant first charge_Sobolev norm through the coupled nonlinear evolution",
+      "upgrade kinematic closed Gauss reduction to a closed nonlinear KT resolution and proper BV_BFV quotient"
+    ]
+  },
+  "decision": {
+    "gauss_functional_layer_closed": true,
+    "original_energy_sufficient": false,
+    "global_mixed_graph_estimate_constructed": false,
+    "fully_coupled_global_nonlinear_BV_BFV_domain_constructed": false,
+    "source_selected_reduction_constructed": false,
+    "positive_GU_physical_Hilbert_cohomology_constructed": false,
+    "k1145_k1150_candidate_counts_move": false,
+    "protected_status_change": false
+  },
+  "source_and_ledger_effect": "SOURCE_UNCHANGED; LEDGER_UNCHANGED; SC-ACT-01/02/06 ASSERTS; SC-META-53 UNCERTAIN; LT-SM8/LT-GR6b/RA-F1/AC-F1 NEEDS; K1145/K1150 0/7"
+}

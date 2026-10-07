@@ -7,6 +7,17 @@ updated_at: "2026-10-07"
 
 # Next Steps For Contributors
 
+> **2026-10-07 K1371--K1375 NONLINEAR GAUSS CHARGE-GRAPH CLOSURE.** K1366's
+> positive charge regularizer does not by itself control the nonlinear Gauss
+> source: a neutral bounded-energy Fourier/charge sequence has divergent
+> `H^-1` density. One covariant derivative of `Qphi` repairs that exact seam,
+> makes the neutral Gauss surface closed, and yields a bounded positive Coulomb
+> reduction; smooth common-core solutions propagate the constraint. Next prove
+> a global coupled estimate propagating this mixed norm, then construct the
+> closed nonlinear KT/BV-BFV quotient. Independently supply a source-owned
+> observed-carrier selector and normalization. Do not promote the kinematic
+> reduction or smooth propagation identity to global GU physical closure.
+
 > **2026-10-07 K1366--K1370 COMPACT-CHARGE REGULARIZED LINEARIZED
 > QUOTIENT.** The exact K1364 coercivity repair is now constructed as
 > repository-owned control mathematics. For `mu>0`, `mu||Qphi||^2` is local-

@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1371",
+  "title": "Charge-regularized energy does not control the nonlinear Gauss source in H^-1",
+  "pinned_inputs": {
+    "k1366": {"path": "lab/process/k1366-positive-charge-regularizer.json", "sha256": "72075a863129fee1dff04d931a02dd083bf01c6c2f20ed76cab940cdcec24a22"},
+    "k1369": {"path": "lab/process/k1369-charge-regularized-linearized-brst-cohomology.json", "sha256": "620a6a1daa8c95d2d1f3003463c02304ae6c6504aac6ef1d9bdf26fdc174fbd4"}
+  },
+  "countersequence": {
+    "spatial_block": "u_N=N^(-3/2) sum_{k in {0,...,N-1}^3} exp(i k dot x), with normalized Haar measure",
+    "charge_vectors": "orthonormal e_4N,e_4 with Q e_4N=4N e_4N and Q e_4=4 e_4",
+    "phase_data": "phi_N=(4N)^(-1)u_N e_4N+(1/4)e_4; pi_N=i u_N e_4N-i e_4; A_N=0",
+    "gauss_density": "rho_N=Im<Q phi_N,pi_N>=|u_N|^2-1",
+    "neutrality": "integral rho_N=0"
+  },
+  "fourier_certificate": {
+    "u_l2_squared": "1",
+    "gradient_squared": "3(N-1)(2N-1)/6",
+    "density_coefficient": "rho_hat(m)=product_j (N-|m_j|)/N for 0<max_j|m_j|<N",
+    "hminus1_lower": "for r=floor(N/4), ||rho_N||_H^-1^2 >= ((2r+1)^3-1)(27/64)^2/(1+3r^2)",
+    "divergence": "the lower bound grows linearly in N"
+  },
+  "energy_certificate": {
+    "momentum_squared": "||pi_N||^2=2",
+    "spatial_gradient_bound": "||grad phi_N||^2=(16N^2)^-1 ||grad u_N||^2<3/16",
+    "charge_graph_squared": "||Q phi_N||^2=2",
+    "mass_bound": "||phi_N||^2=1/16+(16N^2)^-1",
+    "quartic_bound": "integral ||phi_N||^4=1/256+2/(256N^2)+(256N^4)^-1((2N^2+1)/(3N))^3<1",
+    "uniform_conclusion": "K1366 energy remains uniformly bounded while ||rho_N||_H^-1 diverges"
+  },
+  "decision": {
+    "zero_mean_countersequence_constructed": true,
+    "k1366_energy_uniformly_bounded": true,
+    "gauss_density_hminus1_unbounded": true,
+    "k1366_energy_controls_nonlinear_gauss_map": false,
+    "global_nonlinear_evolution_proved": false,
+    "source_action_identified": false,
+    "protected_status_change": false
+  }
+}

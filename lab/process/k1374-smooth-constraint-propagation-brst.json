@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1374",
+  "title": "Smooth Noether continuity, Gauss propagation and BRST compatibility",
+  "pinned_inputs": {
+    "k1366": {"path": "lab/process/k1366-positive-charge-regularizer.json", "sha256": "72075a863129fee1dff04d931a02dd083bf01c6c2f20ed76cab940cdcec24a22"},
+    "k1369": {"path": "lab/process/k1369-charge-regularized-linearized-brst-cohomology.json", "sha256": "620a6a1daa8c95d2d1f3003463c02304ae6c6504aac6ef1d9bdf26fdc174fbd4"}
+  },
+  "smooth_identity": {
+    "matter_equation": "D_mu D^mu phi+(m^2+mu Q^2+f(||phi||^2))phi=0",
+    "current": "j^mu=e Im<Qphi,D^mu phi>",
+    "continuity": "partial_mu j^mu=0 because Q commutes with D, Q is self-adjoint and the potential is a real function of Q^2 and ||phi||^2",
+    "maxwell_equation": "partial_mu F^(mu nu)=j^nu",
+    "gauss_propagation": "partial_t(div E-j^0)=0 after taking divergence of the spatial Maxwell equation and using continuity",
+    "conditionality": "the identity applies to smooth solutions remaining on the common charge core; it is not an existence theorem"
+  },
+  "brst": {
+    "rules": "sA=dc; sphi=i e c Qphi; sc=0",
+    "nilpotency": "s^2 A=s^2 c=s^2 phi=0 for odd c on the common core",
+    "gauss_covariance": "the Abelian Gauss functional is gauge invariant and BRST closed on smooth constrained data",
+    "boundary": "closed nonlinear KT range, BV-BFV properness and physical Hilbert cohomology are not inferred"
+  },
+  "decision": {
+    "smooth_noether_continuity_proved": true,
+    "smooth_gauss_constraint_propagation_proved": true,
+    "nonlinear_brst_nilpotency_on_common_core_proved": true,
+    "global_graph_solution_exists": false,
+    "closed_nonlinear_KT_range_proved": false,
+    "positive_GU_physical_cohomology_proved": false,
+    "source_action_identified": false,
+    "protected_status_change": false
+  }
+}

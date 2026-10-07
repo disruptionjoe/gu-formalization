@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 2248f7146fc442f5a4eefdc9bb249f9dfc425f2d
+revision_basis: 7c268cde2e710a5b822c147db0cd70eb1da7d187
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1371--K1375 locate and repair the first nonlinear Gauss functional seam.
+    An explicit neutral Fourier/charge sequence has uniformly bounded K1366
+    energy but `||rho_N||_H^-1` diverging like at least `sqrt(N)`, so the
+    positive `mu||Qphi||^2` term alone does not define the nonlinear Gauss map
+    continuously. Requiring one covariant derivative `D_A(Qphi)` is gauge
+    covariant and, by Kato plus Sobolev, gives
+    `||rho||_H^-1<=C||Qphi||_covH1||pi||_2`. On that topology the neutral
+    Gauss surface is closed, divergence has closed range onto `H^-1_0`, and
+    the bounded Coulomb solve yields an orthogonal positive electric-energy
+    split. Smooth common-core solutions propagate Gauss through Noether
+    continuity and retain nonlinear Abelian BRST nilpotency. Global propagation
+    of the repaired norm, closed KT/BV-BFV properness, source ownership and GU
+    physical cohomology remain absent. The 49-row census is thirty-three
+    satisfied, four conditional, eight excluded and four missing; K1145/K1150
+    remain 0/7 and protected statuses do not move.
+
     K1366--K1370 execute the simplest reverse-selected repair of K1364's
     charge-coercivity obstruction. Adding the repository-owned term
     `mu||Qphi||^2`, `mu>0`, is exactly local-circle-gauge and BRST invariant
@@ -14293,6 +14309,18 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1371 proves that K1366's charge-regularized energy can remain bounded while
+  the neutral nonlinear Gauss density diverges in `H^-1`; K1372--K1374 repair
+  the functional layer with one covariant derivative of `Qphi`, close the
+  neutral Gauss surface and Coulomb reduction, and prove smooth conditional
+  constraint propagation. Which global coupled estimate now propagates this
+  mixed covariant charge-Sobolev norm together with Maxwell energy and Gauss,
+  so that a closed nonlinear KT resolution and proper positive BV-BFV quotient
+  can be constructed? Independently, which source/action-owned observed-
+  carrier selector fixes `Q` and its normalization while preserving that
+  domain? Do not transfer kinematic closedness or smooth conditional identities
+  to global nonlinear or GU physical closure.
+
   K1366--K1370 prove that the repository-owned positive regularizer
   `mu||Qphi||^2` repairs K1364's internal charge-coercivity obstruction,
   closes the free graph-domain operator and completes positive nonzero
@@ -16409,6 +16437,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1371--K1375's exact boundary. The original charge-regularized
+  energy is insufficient for the nonlinear Gauss functional; the repaired
+  covariant topology controls `D_A(Qphi)` and makes the neutral Gauss surface
+  closed with a bounded positive Coulomb reduction. Smooth common-core
+  solutions propagate the constraint, but no global estimate propagates the
+  repaired norm and no closed nonlinear KT/BV-BFV properness or positive GU
+  physical cohomology follows. Advance with a global coupled mixed-graph
+  estimate or a proved weaker sufficient topology, plus a source/action-owned
+  observed-carrier selector and normalization. Do not call the analytic repair
+  a source action term or a physical quotient.
+
   Preserve K1366--K1370's exact boundary. The repository term
   `mu||Qphi||^2` is a gauge-invariant coercive repair, its free form/operator
   is closed on the charge graph domain, and the vacuum-linearized BRST

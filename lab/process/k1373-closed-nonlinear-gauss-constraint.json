@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1373",
+  "title": "Closed nonlinear Gauss constraint and positive longitudinal reduction",
+  "pinned_inputs": {
+    "k1369": {"path": "lab/process/k1369-charge-regularized-linearized-brst-cohomology.json", "sha256": "620a6a1daa8c95d2d1f3003463c02304ae6c6504aac6ef1d9bdf26fdc174fbd4"},
+    "k1366": {"path": "lab/process/k1366-positive-charge-regularizer.json", "sha256": "72075a863129fee1dff04d931a02dd083bf01c6c2f20ed76cab940cdcec24a22"}
+  },
+  "constraint": {
+    "phase_topology": "E in L2; pi in L2; phi in the K1372 covariant charge-Sobolev topology",
+    "map": "G(E,phi,pi)=div E-e Im<Qphi,pi> in H^-1(T3)",
+    "neutral_sector": "integral Im<Qphi,pi>=0",
+    "continuity": "div is bounded L2 to H^-1 and the nonlinear density is continuous by K1372",
+    "closed_zero_set": "G^-1(0) is closed in the covariant phase topology"
+  },
+  "elliptic_reduction": {
+    "range": "div(L2(T3;R3))=H^-1_0(T3) with closed range",
+    "right_inverse": "R rho=-grad(-Delta)^-1 rho, with div R rho=rho",
+    "bound": "||R rho||_L2 <= ||rho||_H^-1 under the Fourier H^-1_0 norm",
+    "decomposition": "E=E_T+R rho, div E_T=0, and <E_T,R rho>_L2=0",
+    "positive_energy": "||E||^2=||E_T||^2+||R rho||^2"
+  },
+  "decision": {
+    "nonlinear_gauss_map_well_defined": true,
+    "constraint_surface_closed": true,
+    "divergence_range_closed": true,
+    "bounded_longitudinal_solve_constructed": true,
+    "positive_kinematic_reduction_constructed": true,
+    "nonlinear_KT_BV_BFV_properness_proved": false,
+    "global_solution_space_constructed": false,
+    "GU_physical_cohomology_constructed": false,
+    "protected_status_change": false
+  }
+}

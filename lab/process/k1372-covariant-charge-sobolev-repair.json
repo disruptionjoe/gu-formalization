@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1372",
+  "title": "Covariant first charge-Sobolev topology controls the nonlinear Gauss source",
+  "pinned_inputs": {
+    "k1366": {"path": "lab/process/k1366-positive-charge-regularizer.json", "sha256": "72075a863129fee1dff04d931a02dd083bf01c6c2f20ed76cab940cdcec24a22"},
+    "k1367": {"path": "lab/process/k1367-charge-regularized-free-operator.json", "sha256": "b6e4b86bed5271c3105ee6c0892fca208260467d64db87631df3da8631fc2c44"}
+  },
+  "repair": {
+    "space": "X_Q,A^1={phi: phi,Qphi,D_A phi,D_A(Qphi) in L2}",
+    "mixed_norm": "||phi||^2+||D_A phi||^2+||Qphi||^2+||D_A(Qphi)||^2",
+    "gauge_covariance": "D_(A+d alpha)(Q exp(i alpha Q)phi)=exp(i alpha Q)D_A(Qphi)",
+    "not_an_action_term": "the mixed norm is an analytic phase-space requirement; it is not added to or attributed to the source action",
+    "kato_bound": "|grad ||Qphi|| | <= ||D_A(Qphi)|| pointwise on the smooth core",
+    "sobolev_bound": "||Qphi||_L6 <= C(||Qphi||_L2+||D_A(Qphi)||_L2)"
+  },
+  "current_control": {
+    "density": "rho=e Im<Qphi,pi>",
+    "duality": "|<rho,f>| <= |e| ||Qphi||_L6 ||pi||_L2 ||f||_L3",
+    "hminus1_bound": "||rho||_H^-1 <= C|e| ||Qphi||_covH1 ||pi||_L2",
+    "dimension": "T3 spatial dimension three",
+    "sharp_boundary": "K1366 controls only Qphi in L2; one covariant spatial derivative of Qphi is the first proved sufficient repair"
+  },
+  "decision": {
+    "gauge_covariant_mixed_topology_constructed": true,
+    "gauss_density_continuous_to_hminus1": true,
+    "repair_selected_by_source": false,
+    "repair_selects_Q_or_normalization": false,
+    "mixed_topology_globally_propagated": false,
+    "global_nonlinear_evolution_proved": false,
+    "protected_status_change": false
+  }
+}

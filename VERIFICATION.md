@@ -7,6 +7,26 @@ updated_at: "2026-10-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1371--K1375 nonlinear Gauss charge-graph closure (2026-10-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K1366 energy continuously controls the nonlinear Gauss density in `H^-1` | K1371 neutral Fourier/charge countersequence with bounded energy and linearly divergent squared `H^-1` lower bound; `43/43`; `10/10` | false; exact functional-domain obstruction for the repository control |
+| One covariant derivative of `Qphi` is sufficient for the Gauss functional | K1372 gauge covariance, covariant Kato inequality, `H1 -> L6` and `H^-1` dual estimate; `20/20`; `10/10` | exact sufficient topology theorem; no source selection or global propagation |
+| The repaired neutral nonlinear Gauss constraint is closed and positively reducible | K1373 continuous Gauss map, closed zero set, closed divergence range, bounded Coulomb solve and orthogonal energy split; `26/26`; `10/10` | exact kinematic Hilbert-space reduction; no nonlinear KT/BV-BFV properness |
+| The nonlinear constraint propagates | K1374 Noether continuity, Maxwell divergence identity and BRST nilpotency; `21/21`; `10/10` | exact for smooth common-core solutions; not an existence or global mixed-graph theorem |
+| The advance closes GU physical admission | K1375 49-row bridge census; `26/26`; `10/10` | thirty-three satisfied, four conditional, eight excluded and four missing; source selection and global physical quotient remain open |
+
+The five producers pass `136/136` controls and five probes reject `50/50`
+hostile mutations. The nonlinear Gauss functional layer is now sharply typed:
+the old energy fails, the repaired topology closes the neutral constraint, and
+smooth propagation is conditional on an existing common-core solution. Global
+mixed-graph propagation, closed KT/BV-BFV properness and GU physical cohomology
+remain absent. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
+`0/7`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
+
 ## K1366--K1370 compact-charge regularized linearized quotient (2026-10-07)
 
 | Claim | Evidence | Honest grade |
