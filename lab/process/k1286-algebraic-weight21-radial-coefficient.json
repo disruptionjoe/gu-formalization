@@ -32,6 +32,14 @@
     "analytic_germ_at_I2_zero": false,
     "rational_in_invariant_generators": false
   },
+  "classification_theorem": {
+    "general_weight21_form": "epsilon=r^21 h(y4,y6,y7,y8,y10,y12)",
+    "outer_even_condition": "h(y4,y6,-y7,y8,y10,y12)=h(y4,y6,y7,y8,y10,y12)",
+    "selector_term": "r^21 h(y) p is outer-odd and weight 28",
+    "constant_shape_function": "h=lambda gives the minimal K1286 coefficient",
+    "coefficient_is_unique_or_canonical": false,
+    "remaining_shape_function_freedom": "infinite-dimensional before an action, boundary or Green law fixes h"
+  },
   "decision": {
     "algebraic_positive_radial_branch_evades_k1283_scope": true,
     "orientation_sign_imported_by_positive_radial_branch": false,
@@ -40,5 +48,5 @@
   },
   "source_and_ledger_effect": "SC-ACT-01_02_06_ASSERTS_UNCHANGED__SC-META-53_UNCERTAIN_UNCHANGED__LEDGER_UNCHANGED",
   "claim_ceiling": "Exact algebraic construction on I2>0. It is outside, not a refutation of, the polynomial, analytic-germ and regular-rational theorems; no source action, global boundary regularity or physical orientation follows.",
-  "controls": {"producer": "tests/channel-swings/k1286_algebraic_weight21_radial_coefficient.py", "probe": "tests/channel-swings/k1286_algebraic_weight21_radial_coefficient_probe.py", "controls_passed": 12, "hostile_mutations_rejected": 8}
+  "controls": {"producer": "tests/channel-swings/k1286_algebraic_weight21_radial_coefficient.py", "probe": "tests/channel-swings/k1286_algebraic_weight21_radial_coefficient_probe.py", "controls_passed": 14, "hostile_mutations_rejected": 10}
 }

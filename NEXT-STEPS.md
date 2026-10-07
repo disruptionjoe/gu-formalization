@@ -10,7 +10,9 @@ updated_at: "2026-10-06"
 > **2026-10-06 K1286--K1290 ALGEBRAIC RADIAL ORIENTATION SELECTOR.** The
 > regular positive-`I2` radius supplies `I2^(21/2)=r^21`, an outer-even
 > algebraic coefficient of weight 21, so `lambda r^21 p` is the required
-> weight-28 odd response. Its normalized K1273 strength is
+> weight-28 odd response. Every homogeneous escape is more generally
+> `r^21 h(shapes)` with `h` even in the orientation shape, leaving a
+> noncanonical infinite family. Its normalized K1273 strength is
 > `lambda/|c7|^3`, independent of scale. A radial barrier, five even-shape
 > locks and the tilted orientation fiber give a proper rank-seven selector
 > with one minimum on the open horn. This proves the K1283 obstruction sharp,

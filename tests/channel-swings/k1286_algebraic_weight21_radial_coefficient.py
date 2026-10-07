@@ -24,5 +24,8 @@ c("positive-horn analytic",D["construction"]["real_analytic_on_positive_horn"] i
 c("not polynomial",D["construction"]["polynomial_in_invariant_generators"] is False)
 c("not origin analytic",D["construction"]["analytic_germ_at_I2_zero"] is False)
 c("source withheld",D["decision"]["source_action_owner_supplied"] is False)
-assert n==12
-print("RESULT: PASS 12/12")
+h=lambda y4,y7: 1+y4*y4+y7*y7
+c("general shape function is outer even",h(3,5)==h(3,-5))
+c("general coefficient retains weight 21",(3*2)**21*h(4,5)==3**21*(2**21*h(4,5)))
+assert n==14
+print("RESULT: PASS 14/14")

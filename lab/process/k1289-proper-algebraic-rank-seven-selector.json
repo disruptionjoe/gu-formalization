@@ -9,7 +9,7 @@
   "scope": "A repository-constructed algebraic selector on the regular positive-I2 radial/shape chart, not the complete realized orbit image or a functional field space.",
   "pinned_inputs": {
     "k1251": {"path": "lab/process/k1251-source-epsilon-radial-shape-chart.json", "sha256": "bcadd150075787034815ee375b358ef8d3ecdf06dd79c4cf05a7c492afcafe63"},
-    "k1287": {"path": "lab/process/k1287-algebraic-orientation-threshold.json", "sha256": "f1a0c1ae97930ebb50c60a93740f8e9fe9f75170e98b3928c5baaf39d9c61f94"}
+    "k1287": {"path": "lab/process/k1287-algebraic-orientation-threshold.json", "sha256": "78987ed57be4b2141a17ad66349280b28930fe37520e36f579518140718ba15d"}
   },
   "construction": {
     "coordinates": "r>0 and y_d=I_d/r^d for d=4,6,7,8,10,12",

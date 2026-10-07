@@ -9,7 +9,7 @@
   "scope": "Regularity of I2^(21/2) and I2^(21/2)p at the boundary I2=0, separating formal quotient coordinates from the actual Cartan lift.",
   "pinned_inputs": {
     "k1284": {"path": "lab/process/k1284-orbit-cover-section-boundary.json", "sha256": "41526fc74e1bf189eb3e20b1c19b9cf4cce9a869d6db14528461675e8c06e3f0"},
-    "k1286": {"path": "lab/process/k1286-algebraic-weight21-radial-coefficient.json", "sha256": "1c991df6eac8b5f7b06ad1d6da81c47277179c2f345e4ef647c3ca099fac7ccc"}
+    "k1286": {"path": "lab/process/k1286-algebraic-weight21-radial-coefficient.json", "sha256": "19d74fadcc65cf55d1e94adc5981a6f999d62fb134af6af9fd862b9dd2d7a309"}
   },
   "regularity": {
     "coefficient_on_I2_positive": "real analytic",

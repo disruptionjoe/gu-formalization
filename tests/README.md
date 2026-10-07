@@ -6,8 +6,8 @@ the map: which directory/group supports which claim.
 
 ## K1286--K1290 algebraic radial orientation selector
 
-- K1286 constructs the positive-`I2` algebraic weight-21 coefficient and
-  checks its weight and outer parity (`12/12`; `8/8`).
+- K1286 classifies every positive-`I2` algebraic weight-21 coefficient as
+  `r^21 h(shapes)` and checks its weight and outer parity (`14/14`; `10/10`).
 - K1287 composes it with the K1273 quartic and proves the scale-independent
   threshold (`12/12`; `8/8`).
 - K1288 separates quotient-coordinate and Cartan-lift boundary regularity
@@ -17,7 +17,7 @@ the map: which directory/group supports which claim.
 - K1290 composes the thirty-two-row source and functional admission boundary
   (`13/13`; `8/8`).
 
-The five producers pass `61/61` controls and the probes reject `40/40`
+The five producers pass `63/63` controls and the probes reject `42/42`
 hostile mutations.
 
 ```bash

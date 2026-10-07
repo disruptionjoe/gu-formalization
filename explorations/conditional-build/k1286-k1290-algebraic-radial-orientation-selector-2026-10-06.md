@@ -53,6 +53,18 @@ polynomial in the invariant generators, not a convergent analytic germ at
 open positive horn. Choosing positive radius does not choose a `p` sheet: both
 orientation signs remain present at every `r>0`.
 
+More generally, every weight-21 homogeneous coefficient on this chart has the
+form
+
+```text
+epsilon = r^21 h(y4,y6,y7,y8,y10,y12).
+```
+
+It is outer-even exactly when `h` is even in `y7`; then `epsilon p` is
+weight 28 and outer-odd. The constant choice `h=lambda` is only the minimal
+example. The algebraic escape is therefore an infinite family until an
+action, boundary or Green law fixes the shape function; it is not canonical.
+
 ## K1287: the threshold becomes scale independent
 
 For the K1273 fiber scale `a=|c7|r^7`, the algebraic response gives
@@ -142,8 +154,8 @@ verdict moves.
 
 ## Verification and next exact input
 
-The five producers pass `61/61` declared controls and the five probes reject
-`40/40` hostile mutations. The next exact input is a released source action,
+The five producers pass `63/63` declared controls and the five probes reject
+`42/42` hostile mutations. The next exact input is a released source action,
 boundary or Green law that owns the algebraic radial term, `lambda`, the scale
 and all six shapes on the realized orbit image, together with the common
 K1145/K1150 domain, range/gap, causal generator and positive-cohomology packet.

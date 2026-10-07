@@ -39,7 +39,10 @@ current_result:
     On the regular `I2>0` horn, the canonical positive radius supplies the
     algebraic coefficient `I2^(21/2)=r^21`, which is outer-even and has the
     missing weight twenty-one; `lambda r^21 p` is therefore a weight-28 odd
-    response. For the K1273 fiber `a=|c7|r^7`, its normalized strength is
+    response. More generally every such coefficient is `r^21 h(shapes)` with
+    `h` even in the orientation shape, so the escape is noncanonical and
+    retains infinite shape-function freedom. For the K1273 fiber
+    `a=|c7|r^7`, its normalized strength is
     `lambda/|c7|^3`, so the exact one-critical-point threshold is uniform in
     scale. The coefficient is real analytic only on the open horn: it is C10
     but not C11 in the quotient coordinate at `I2=0`, while the Cartan lift is
@@ -14038,8 +14041,9 @@ current_result:
 current_question: >-
   K1286--K1290 construct the sharp algebraic escape left open by K1283. The
   positive radial branch `r=sqrt(I2)` is independent of the orientation sheet,
-  and `lambda r^21 p` supplies a scale-uniform odd response on every `r>0`
-  fiber. A proper rank-seven finite selector now exists on the regular horn,
+  and `r^21 h(shapes) p` supplies a noncanonical family of scale-uniform odd
+  responses on every `r>0` fiber. A proper rank-seven finite selector now
+  exists on the regular horn,
   but it imports `r0`, five even shapes, an orientation magnitude and
   `lambda`, is nonanalytic at the `I2=0` boundary, and supplies no source or
   functional owner. Which released action, boundary or Green law derives
