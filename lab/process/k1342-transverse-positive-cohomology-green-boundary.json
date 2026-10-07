@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1342-TRANSVERSE-POSITIVE-COHOMOLOGY-GREEN-BOUNDARY",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "NOT-A-KILL__INTERNAL-MAXWELL-CONTROL",
+  "scope": "Zero-mean physical Cauchy reduction of K1341's repository-owned free Maxwell control; not GU physical cohomology.",
+  "pinned_inputs": {
+    "k1338": {"path": "lab/process/k1338-causal-green-boundary-flux.json", "sha256": "596ee83c7e503070ce32a872cc35eef49b1b9ccc30bbae8fce61b0a3aa199d75"},
+    "k1341": {"path": "lab/process/k1341-hilbert-valued-maxwell-brst-complex.json", "sha256": "b9834c42599650a507dfd196db59ef836c7b18d8a0bb6e980c324410cc83d1fa"}
+  },
+  "physical_reduction": {
+    "mean_zero_hodge_split": "Omega1_0(T3;H_ps)=closure(im d) orthogonal_sum ker delta",
+    "closed_gauge_image": "d:H1_0(T3;H_ps)->L2_0(T3;T*T3 tensor H_ps) has closed range by the Poincare floor",
+    "coulomb_representative": "P_T A is the unique transverse representative of each zero-mean gauge class",
+    "physical_mode_fibre": "k^perp tensor H_ps for every nonzero k",
+    "polarization_count": 2,
+    "cohomology": "the reduced free solution space is nonzero and infinite-dimensional, with two transverse polarizations per nonzero spatial mode",
+    "energy": "E=1/2(||E_T||^2+||curl A_T||^2)",
+    "energy_floor": "E controls the zero-mean H1 direct_sum L2 norm with spatial gap one"
+  },
+  "green_boundary": {
+    "gauge_fixed_operator": "Box_1 tensor I_Hps",
+    "green_operators": "E_plus_minus_1 tensor I_Hps",
+    "causal_support": "supp(E_plus f) subset J_plus(supp f) and supp(E_minus f) subset J_minus(supp f)",
+    "constraint_propagation": "Lorenz constraint delta A=0 propagates because delta Box_1=Box_0 delta",
+    "cauchy_form": "Omega((A,E),(B,F))=<A,F>-<E,B>",
+    "descent": "on the Gauss-law surface the Cauchy form annihilates infinitesimal gauge directions and descends to transverse classes"
+  },
+  "decision": {
+    "closed_nontrivial_gauge_quotient_constructed": true,
+    "positive_nonzero_transverse_cohomology_constructed": true,
+    "causal_green_and_boundary_reduction_constructed": true,
+    "internal_G_equivariance_constructed": true,
+    "gu_physical_cohomology_constructed": false,
+    "interacting": false,
+    "source_owned": false
+  },
+  "claim_ceiling": "The internal Hilbert carrier admits a free nontrivial gauge quotient with closed gauge image, positive nonzero transverse modes, causal Green operators and a descended Cauchy form. This is repository-owned Maxwell cohomology, not the interacting GU physical quotient.",
+  "controls": {"producer": "tests/channel-swings/k1342_transverse_positive_cohomology_green_boundary.py", "probe": "tests/channel-swings/k1342_transverse_positive_cohomology_green_boundary_probe.py", "controls_passed": 22, "hostile_mutations_rejected": 10}
+}

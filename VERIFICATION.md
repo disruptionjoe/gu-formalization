@@ -7,6 +7,26 @@ updated_at: "2026-10-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1341--K1345 gauge, interaction and observation controls (2026-10-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The principal-series fibre admits a nontrivial free gauge complex | K1341 Maxwell detour identities, zero-mean Sobolev domain and transverse projectors; `23/23`; `10/10` | exact free abelian gauge control; not the GU action or interacting BV-BFV complex |
+| The free gauge quotient is closed, causal, positive and nonzero | K1342 Hodge split, Poincare floor, two transverse modes, Green/constraint propagation and boundary descent; `22/22`; `10/10` | exact zero-mean Maxwell reduction; not GU physical cohomology |
+| The carrier admits a positive local nonlinear evolution | K1343 radial cubic potential, vector-valued Sobolev control, conserved coercive energy and unitary equivariance; `26/26`; `10/10` | exact defocusing semilinear-wave control using standard energy-subcritical theory; unconstrained and source-unowned |
+| Bounded linear scalar exports have an exact symmetry cost | K1344 Riesz classification, covariance and irreducible invariant-vector boundary; `23/23`; `10/10` | exact for bounded linear maps to the trivial scalar representation; nonlinear, unbounded and nontrivial-target maps open |
+| Separate controls do not close joint physical admission | K1345 21-row census; `21/21`; `10/10` | fifteen satisfied, two repository-control conditionals and four source-owned rows missing; K1145/K1150 remain `0/7` |
+
+The five producers pass `115/115` controls and five probes reject `50/50`
+hostile mutations. The result excludes carrier-only obstructions to the
+declared free gauge reduction and separate defocusing interaction, while
+proving that nonzero bounded scalar export requires an internal covector
+choice. It does not construct one source-owned interacting GU constraint
+complex, GU physical cohomology or the observed-state map. SC-ACT-01/02/06
+remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`, and
+LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`. No source, ledger, canon, paper,
+prediction, confirmation or public status moves.
+
 ## K1336--K1340 principal-series Lorentzian free-field control (2026-10-07)
 
 | Claim | Evidence | Honest grade |

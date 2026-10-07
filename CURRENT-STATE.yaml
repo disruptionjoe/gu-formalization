@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 8bbd58543593bce31898dab8c77f978d421970a0
+revision_basis: 4f621c98c9bf3d3842b4f1ce012c7d85674ee38b
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1341--K1345 separate three physical-admission ingredients on the
+    completed principal-series carrier. The zero-mean Hilbert-valued Maxwell
+    detour/BRST complex has exact gauge and Noether identities, closed gauge
+    image, two positive transverse polarizations per nonzero mode, causal
+    gauge-fixed Green operators and a descended Cauchy form. A separate
+    defocusing cubic scalar interaction has coercive conserved energy, global
+    finite-energy evolution, finite propagation and internal unitary
+    equivariance. Every bounded linear scalar export is a Riesz functional;
+    full `Spin_0(7,7)` invariance forces it to vanish for the nontrivial
+    irreducible principal series, while a nonzero chosen covector breaks the
+    symmetry to its stabilizer. These are separate repository controls, not
+    one source-owned action. The 21-row census is fifteen satisfied, two
+    conditional and four missing; K1145/K1150 remain 0/7 and protected
+    statuses do not move.
+
     K1336--K1340 switch from the completed normalized-intertwiner arc to the
     carrier-level physical question. On the ultrastatic globally hyperbolic
     control `R x T3`, the internal spherical principal-series Hilbert fibre
@@ -14194,6 +14209,18 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1341--K1345 prove that the principal-series Hilbert carrier separately
+  supports a nontrivial free Maxwell gauge quotient with positive nonzero
+  transverse cohomology and a defocusing nonlinear positive causal scalar
+  evolution. They also prove that every nonzero bounded linear scalar export
+  requires a chosen internal covector and cannot preserve the full nontrivial
+  irreducible `Spin_0(7,7)` action. Which source-action-owned interacting
+  constraint/KT/BV-BFV complex now realizes these properties jointly on one
+  common Lorentzian domain, and which typed observed-state map owns the needed
+  symmetry reduction or evades the bounded scalar-linear theorem? Do not add
+  the separate Maxwell and scalar actions or call a chosen Riesz covector the
+  GU observation map.
+
   K1336--K1340 prove that the completed spherical principal-series Hilbert
   fibre is compatible with a free local Lorentzian, causal, positive and
   internally equivariant field control. Which source-action-owned nontrivial
@@ -16231,6 +16258,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1341--K1345's separation theorem. The internal carrier admits a
+  free nontrivial Maxwell detour/BRST complex with closed positive transverse
+  quotient and, separately, a defocusing nonlinear positive causal scalar
+  flow. A nonzero bounded linear scalar export necessarily selects an
+  internal covector and reduces full G symmetry. Advance physical admission
+  only with one source-action-owned interacting constraint complex on one
+  common Lorentzian domain, its positive nonzero physical cohomology, and a
+  typed source-owned observation map. The map must justify the selected
+  covector/symmetry reduction or use an explicitly nonlinear, unbounded or
+  nontrivial-target route outside K1344's theorem.
+
   Preserve K1336--K1340's free compatibility boundary. The positive
   principal-series Hilbert fibre admits a common-domain Hilbert-valued
   Klein--Gordon operator, positive unitary evolution, causal Green system,

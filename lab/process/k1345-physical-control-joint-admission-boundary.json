@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1345-PHYSICAL-CONTROL-JOINT-ADMISSION-BOUNDARY",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "scope": "Joint admission replay after independent repository-owned gauge, interaction and observation controls on the principal-series carrier.",
+  "pinned_inputs": {
+    "k1341": {"path": "lab/process/k1341-hilbert-valued-maxwell-brst-complex.json", "sha256": "b9834c42599650a507dfd196db59ef836c7b18d8a0bb6e980c324410cc83d1fa"},
+    "k1342": {"path": "lab/process/k1342-transverse-positive-cohomology-green-boundary.json", "sha256": "32b8570d0618b31f7d4f51217804129779b46f4a603e4fc8299554e7bcddfd94"},
+    "k1343": {"path": "lab/process/k1343-defocusing-principal-series-wave-interaction.json", "sha256": "c864c5c8040bf415c43ec38eb495aad03bf1107c06f356a6b03f393da4fcd2e4"},
+    "k1344": {"path": "lab/process/k1344-principal-series-observation-functional-boundary.json", "sha256": "5dfbc14fa770488602cbfc0a269e61e9a47791446cc3ead2074fb6786930c272"}
+  },
+  "joint_control_census": {
+    "row_count": 21,
+    "satisfied_count": 15,
+    "conditional_count": 2,
+    "missing_count": 4,
+    "satisfied_rows": [
+      "positive_internal_Hilbert_fibre",
+      "local_Lorentzian_free_scalar_operator",
+      "common_Sobolev_energy_domain",
+      "strict_positive_free_spatial_gap",
+      "skew_adjoint_unitary_free_evolution",
+      "advanced_retarded_causal_free_Green_system",
+      "conserved_free_Cauchy_boundary_form",
+      "internal_G_and_Weyl_equivariance",
+      "nonzero_free_solution_space",
+      "nontrivial_free_Maxwell_detour_BRST_complex",
+      "closed_zero_mean_gauge_image",
+      "causal_gauge_fixed_Green_and_constraint_propagation",
+      "descended_free_gauge_boundary_form",
+      "defocusing_local_nonlinear_positive_energy_causal_control",
+      "bounded_linear_scalar_export_classification"
+    ],
+    "conditional_rows": [
+      "positive_nonzero_cohomology_for_repository_owned_free_Maxwell_quotient_only",
+      "nonzero_bounded_scalar_export_after_choosing_eta_and_reducing_internal_symmetry"
+    ],
+    "missing_rows": [
+      "source_owned_charge_or_chamber_law",
+      "one_source_action_derived_interacting_constraint_KT_BV_BFV_complex_on_a_common_domain",
+      "positive_nonzero_cohomology_of_that_joint_GU_physical_quotient",
+      "source_owned_observed_state_and_export_map"
+    ]
+  },
+  "decision": {
+    "carrier_obstruction_to_nontrivial_free_gauge_reduction_excluded_for_this_control": true,
+    "carrier_obstruction_to_defocusing_nonlinear_positive_evolution_excluded_for_this_control": true,
+    "full_G_invariant_bounded_scalar_export_excluded": true,
+    "separate_controls_compose_to_one_action": false,
+    "source_owned_interacting_gu_constraint_complex_constructed": false,
+    "gu_physical_cohomology_constructed": false,
+    "gu_observed_state_map_constructed": false,
+    "k1145_k1150_candidate_counts_move": false,
+    "protected_status_change": false
+  },
+  "source_and_ledger_effect": "SC-ACT-01_02_06_ASSERTS_UNCHANGED__SC-META-53_UNCERTAIN_UNCHANGED__LT-SM8_LT-GR6b_RA-F1_AC-F1_NEEDS_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "The principal-series carrier separately supports a nontrivial free gauge quotient with positive transverse cohomology and a defocusing nonlinear positive causal evolution, while every bounded linear scalar export is classified and a nonzero fully G-invariant one is excluded. These separate repository controls do not form one source-action-owned interacting constrained theory and do not construct GU physical cohomology or observed export.",
+  "controls": {"producer": "tests/channel-swings/k1345_physical_control_joint_admission_boundary.py", "probe": "tests/channel-swings/k1345_physical_control_joint_admission_boundary_probe.py", "controls_passed": 21, "hostile_mutations_rejected": 10}
+}

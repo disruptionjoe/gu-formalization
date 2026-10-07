@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1341-HILBERT-VALUED-MAXWELL-BRST-COMPLEX",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "NOT-A-KILL__INTERNAL-MAXWELL-CONTROL",
+  "scope": "Repository-owned free abelian gauge control on R x T3, tensored with K1335's spherical principal-series Hilbert fibre; not the GU action or its constraint complex.",
+  "pinned_inputs": {
+    "k1336": {"path": "lab/process/k1336-hilbert-valued-klein-gordon-domain.json", "sha256": "80875a55d36bd7b87dcb3b2dc0147bd671157755fc9ddffe3935b98b00b29f4d"},
+    "k1338": {"path": "lab/process/k1338-causal-green-boundary-flux.json", "sha256": "596ee83c7e503070ce32a872cc35eef49b1b9ccc30bbae8fce61b0a3aa199d75"},
+    "k1339": {"path": "lab/process/k1339-principal-series-internal-equivariance.json", "sha256": "35ccb8af706e75dcaa7221ad24a63120b31b6af9f6de3f95cf2c12540dbd4316"}
+  },
+  "detour_complex": {
+    "spacetime": "M=R_t x T3_x with ultrastatic Lorentz metric",
+    "internal_fibre": "H_ps=L2(K/M)",
+    "sequence": "Omega0(M;H_ps) --d--> Omega1(M;H_ps) --delta_d--> Omega1(M;H_ps) --delta--> Omega0(M;H_ps)",
+    "identities": ["d_squared=0", "delta_squared=0", "delta_d_d=0", "delta_delta_d=0"],
+    "gauge_map": "A maps to A+d chi",
+    "euler_operator": "M1=delta d",
+    "gauge_fixed_operator": "M1+d delta=Box_1",
+    "brst_rule": "s A=d c and s c=0",
+    "common_core": "compactly time-supported smooth forms with finite spatial Fourier support and K-finite internal values",
+    "spatial_domain": "zero-mean H2(T3;H_ps)-valued one-forms with H1 form domain"
+  },
+  "mode_control": {
+    "nonzero_mode": "k in Z3 minus {0}",
+    "gradient_symbol": "i k",
+    "divergence_symbol": "-i k dot",
+    "transverse_projector": "P_T(k)=I-k k^T/|k|^2",
+    "projector_rank": 2,
+    "poincare_floor": 1,
+    "zero_mode_disposition": "excluded from the linear control to remove harmonic flat-potential degeneracy"
+  },
+  "decision": {
+    "nontrivial_gauge_detour_complex_constructed": true,
+    "brst_nilpotence_constructed": true,
+    "common_sobolev_domain_constructed": true,
+    "internal_principal_series_equivariance": true,
+    "gu_action_owned": false,
+    "interacting": false,
+    "gu_bv_bfv_complex_constructed": false
+  },
+  "claim_ceiling": "The positive principal-series Hilbert fibre admits a standard nontrivial free Maxwell detour/BRST control with exact gauge identities and a common zero-mean Sobolev domain. This is not the GU action, not interacting and not a source-derived BV-BFV complex.",
+  "controls": {"producer": "tests/channel-swings/k1341_hilbert_valued_maxwell_brst_complex.py", "probe": "tests/channel-swings/k1341_hilbert_valued_maxwell_brst_complex_probe.py", "controls_passed": 23, "hostile_mutations_rejected": 10}
+}

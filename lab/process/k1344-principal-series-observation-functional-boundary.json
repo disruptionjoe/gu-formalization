@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1344-PRINCIPAL-SERIES-OBSERVATION-FUNCTIONAL-BOUNDARY",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "scope": "Bounded linear scalar export from the supplied nontrivial irreducible regular-imaginary spherical principal-series Hilbert fibre; nonlinear, unbounded and nontrivial-target observation maps are outside the theorem.",
+  "pinned_inputs": {
+    "k1335": {"path": "lab/process/k1335-operator-intertwiner-admission-boundary.json", "sha256": "99f68437b43df42f1e49feb3b6b429cc410249cfff6c646ebd6af91e1f5909c9"},
+    "k1339": {"path": "lab/process/k1339-principal-series-internal-equivariance.json", "sha256": "35ccb8af706e75dcaa7221ad24a63120b31b6af9f6de3f95cf2c12540dbd4316"}
+  },
+  "functional_classification": {
+    "carrier": "H_ps=L2(K/M) with the supplied nontrivial irreducible regular-imaginary unitary principal series pi_lambda",
+    "riesz_form": "every bounded linear scalar export is O_eta(v)=<eta,v> for a unique eta in H_ps",
+    "norm": "||O_eta||=||eta||",
+    "covariance": "O_eta(pi(g)v)=O_(pi(g)^* eta)(v)",
+    "trivial_target_intertwiner_condition": "O_eta pi(g)=O_eta for all g iff pi(g)^* eta=eta for all g",
+    "invariant_vector_result": "a nontrivial irreducible unitary representation has no nonzero invariant vector",
+    "full_G_invariant_scalar_export": "zero only",
+    "chosen_export": "every nonzero eta defines a bounded scalar export but selects eta and preserves at most its stabilizer",
+    "spacetime_compatibility": "I_spacetime tensor O_eta commutes with scalar spacetime evolution while transforming eta under G"
+  },
+  "decision": {
+    "bounded_linear_scalar_exports_classified": true,
+    "nonzero_full_G_invariant_bounded_scalar_export_excluded": true,
+    "nonzero_symmetry_breaking_bounded_export_exists_after_choice": true,
+    "source_owned_observation_covector_selected": false,
+    "all_observation_maps_excluded": false,
+    "gu_observed_state_map_constructed": false,
+    "protected_status_change": false
+  },
+  "claim_ceiling": "A nonzero bounded linear export from the regular principal-series fibre to a scalar cannot preserve the full internal Spin_0(7,7) action; it requires a chosen covector and reduces symmetry to its stabilizer. This does not exclude nonlinear, unbounded or nontrivial-target observation maps and does not select the GU observation map.",
+  "controls": {"producer": "tests/channel-swings/k1344_principal_series_observation_functional_boundary.py", "probe": "tests/channel-swings/k1344_principal_series_observation_functional_boundary_probe.py", "controls_passed": 23, "hostile_mutations_rejected": 10}
+}

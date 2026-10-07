@@ -7,6 +7,20 @@ updated_at: "2026-10-07"
 
 # Next Steps For Contributors
 
+> **2026-10-07 K1341--K1345 GAUGE, INTERACTION AND OBSERVATION
+> CONTROLS.** The principal-series Hilbert fibre separately supports a
+> zero-mean Maxwell detour/BRST complex with closed gauge image, causal Green
+> and positive nonzero transverse quotient, and a defocusing cubic scalar
+> interaction with coercive global causal evolution. Every bounded linear
+> scalar export is a Riesz functional; a nonzero one cannot preserve the full
+> nontrivial irreducible `Spin_0(7,7)` action and must select an internal
+> covector. These are separate repository controls, not one GU action. Next
+> construct one source-action-owned interacting constraint/KT/BV-BFV complex
+> on a common Lorentzian domain and a typed observation map that owns the
+> symmetry reduction or lies outside the bounded scalar-linear theorem. Do
+> not add the Maxwell and scalar actions or promote free transverse
+> cohomology to GU physical cohomology.
+
 > **2026-10-07 K1336--K1340 PRINCIPAL-SERIES LORENTZIAN FREE-FIELD
 > CONTROL.** The completed spherical principal-series Hilbert fibre supports
 > an explicit free Hilbert-valued Klein--Gordon control on `R x T3`: common
