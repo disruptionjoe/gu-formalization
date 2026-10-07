@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1378",
+  "title": "Conditional coupled propagation estimate for the first charge lift",
+  "pinned_inputs": {
+    "k1374": {"path": "lab/process/k1374-smooth-constraint-propagation-brst.json", "sha256": "09757ddead39fc986abc8f9605bb5afaf8998fede4b2bc29be9ea2298e36a831"},
+    "k1377": {"path": "lab/process/k1377-free-charge-lift-energy.json", "sha256": "029218730bb2a0e6a08db8adb13b57742e4d00484e204dd22f22d2bdbb6de682"}
+  },
+  "coupled_identity": {
+    "lifted_variable": "psi=Qphi",
+    "equation": "D_mu D^mu psi+(m^2+mu Q^2+f(||phi||^2))psi=0",
+    "commutation": "Q commutes with D_mu and with the real radial multiplier f(||phi||^2)",
+    "lifted_current": "j_Q^a=e Im<Qpsi,D^a psi>",
+    "energy_exchange": "dE_Q,f/dt=integral E dot j_Q+(1/2)integral partial_t f ||psi||^2",
+    "pointwise_bound": "|integral E dot j_Q| <= |e| ||E||_infinity ||Qpsi||_2 ||Dpsi||_2",
+    "differential_inequality": "dE_Q,f/dt <= C_mu,m (|e| ||E||_infinity+||partial_t f||_infinity) E_Q,f",
+    "gronwall": "E_Q,f(t)<=E_Q,f(0) exp(C_mu,m integral_0^t (|e||||E||_infinity+||partial_t f||_infinity) ds)",
+    "assumptions": "smooth common-core solution; mu>0, m>0, f>=0; E and partial_t f integrable in time with values in L-infinity",
+    "uncancelled_exchange": "the original Maxwell energy cancels the matter current j_phi, not the lifted current j_Q"
+  },
+  "decision": {
+    "conditional_coupled_charge_lift_estimate": true,
+    "exact_coefficient_integrability_named": true,
+    "lifted_current_requires_Q2phi": true,
+    "base_energy_implies_coefficient_integrability": false,
+    "global_large_data_theorem_proved": false,
+    "nonlinear_KT_BV_BFV_properness_proved": false,
+    "protected_status_change": false
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1380",
+  "title": "Charge-lift propagation admission boundary",
+  "pinned_inputs": {
+    "k1375": {"path": "lab/process/k1375-nonlinear-gauss-admission-boundary.json", "sha256": "1e803adcf2f5aa5a5190a6c1e568c57e05868b3e2a93b35ab3a85a87f4c529b8"},
+    "k1379": {"path": "lab/process/k1379-base-energy-coefficient-obstruction.json", "sha256": "ae05327098cf62869a28f7047d04562eb45c0aaa59c17158c6e66ab0a3acc928"}
+  },
+  "bridge_census": {
+    "row_count": 53,
+    "satisfied_count": 34,
+    "conditional_count": 5,
+    "excluded_count": 10,
+    "missing_count": 4,
+    "new_satisfied_rows": ["exact_conserved_free_first_charge_lift_energy_and_invariant_phase_domain"],
+    "new_conditional_rows": ["coupled_first_charge_lift_propagation_under_integrable_Linfinity_coefficient_control"],
+    "new_excluded_rows": [
+      "K1372_one_sided_mixed_topology_is_invariant_under_the_free_charge_regularized_flow",
+      "base_Maxwell_matter_energy_and_Gauss_control_the_K1378_Linfinity_coefficient_norm"
+    ],
+    "missing_rows": [
+      "source_owned_selection_and_normalization_of_the_compact_charge_reduction_on_the_observed_carrier",
+      "identification_with_one_source_action_derived_interacting_constraint_complex",
+      "closed_fully_coupled_global_nonlinear_BV_BFV_quotient_with_positive_physical_Hilbert_cohomology",
+      "source_owned_observed_state_and_export_map"
+    ]
+  },
+  "distance_update": {
+    "closed": ["the exact free invariant completion of K1372 requires the first full charge lift Qpi and Q2phi"],
+    "conditional": ["the coupled lifted energy propagates when E and partial_t f are time_integrable in L_infinity"],
+    "excluded": [
+      "K1372 fixed_time Gauss continuity by itself defines an invariant free phase space",
+      "the original conserved energy closes the displayed coupled Gronwall estimate"
+    ],
+    "opened_or_sharpened": [
+      "prove a Strichartz_Morawetz_or_higher_regular_global estimate for the lifted charge hierarchy",
+      "construct the closed nonlinear KT resolution and proper BV_BFV quotient only on a genuinely propagated phase space"
+    ]
+  },
+  "decision": {
+    "free_invariant_charge_lift_constructed": true,
+    "one_sided_k1372_phase_space_rejected": true,
+    "conditional_coupled_estimate_constructed": true,
+    "base_energy_global_closure_constructed": false,
+    "fully_coupled_global_nonlinear_BV_BFV_domain_constructed": false,
+    "source_selected_reduction_constructed": false,
+    "positive_GU_physical_Hilbert_cohomology_constructed": false,
+    "k1145_k1150_candidate_counts_move": false,
+    "protected_status_change": false
+  },
+  "source_and_ledger_effect": "SOURCE_UNCHANGED; LEDGER_UNCHANGED; SC-ACT-01/02/06 ASSERTS; SC-META-53 UNCERTAIN; LT-SM8/LT-GR6b/RA-F1/AC-F1 NEEDS; K1145/K1150 0/7"
+}

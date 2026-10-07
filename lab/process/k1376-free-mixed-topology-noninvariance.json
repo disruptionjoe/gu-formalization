@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1376",
+  "title": "The K1372 one-sided mixed topology is not invariant under the free charge-regularized flow",
+  "pinned_inputs": {
+    "k1366": {"path": "lab/process/k1366-positive-charge-regularizer.json", "sha256": "72075a863129fee1dff04d931a02dd083bf01c6c2f20ed76cab940cdcec24a22"},
+    "k1372": {"path": "lab/process/k1372-covariant-charge-sobolev-repair.json", "sha256": "11a44fdd22d7260a0e6c35c76491e89180f5f60a811e7ceed677907d903d8ae0"}
+  },
+  "free_flow": {
+    "equation": "partial_t^2 phi+Omega^2 phi=0 with Omega^2=-Delta+m^2+mu Q^2, mu>0",
+    "k1372_phase_data": "Qphi_0 in H1 and pi_0 in L2; no Qpi_0 condition",
+    "mode": "phi_0=0; pi_0=exp(i k_N x)e_(4N); k_N=(4N,0,0); Qe_(4N)=4N e_(4N)",
+    "frequency": "omega_N=sqrt((4N)^2+m^2+mu(4N)^2)",
+    "test_time": "t_N=pi/(2 omega_N), so t_N tends to zero and sin(omega_N t_N)=1",
+    "output": "||grad Qphi(t_N)||_2=(4N)^2/omega_N",
+    "divergence": "(4N)^2/omega_N is asymptotic to 4N/sqrt(1+mu)"
+  },
+  "decision": {
+    "initial_k1372_topology_bounded": true,
+    "free_output_k1372_norm_unbounded": true,
+    "strong_continuity_on_one_sided_topology": false,
+    "momentum_charge_control_required_for_this_flow_space": true,
+    "global_nonlinear_evolution_proved": false,
+    "source_action_identified": false,
+    "protected_status_change": false
+  }
+}

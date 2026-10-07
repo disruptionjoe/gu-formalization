@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1379",
+  "title": "The base conserved energy does not control the K1378 coefficient norm",
+  "pinned_inputs": {
+    "k1371": {"path": "lab/process/k1371-gauss-source-hminus1-obstruction.json", "sha256": "fe6dbac406cdd22d7c85112b530acb44b14a8de7520a6ea0c374944f3c7f07c0"},
+    "k1378": {"path": "lab/process/k1378-coupled-charge-lift-gronwall.json", "sha256": "7edc07f1af8e2f49e0fe93fa9729e081199339df72732b2ecc04b1cb8a065b70"}
+  },
+  "concentration": {
+    "block": "u_N=(2N+1)^(-1) sum_{k2,k3=-N}^N exp(i(k2 x2+k3 x3)) is a real two-dimensional Dirichlet square; v_N=(2N+1)^(-3/2) sum_{k in {-N,...,N}^3} exp(i k dot x) is a real three-dimensional Dirichlet cube",
+    "l2": "||u_N||_2=||v_N||_2=1",
+    "linfinity": "||u_N||_infinity=2N+1 and ||v_N||_infinity=(2N+1)^(3/2)",
+    "electric_data": "E_N=u_N(x2,x3)e_1 is divergence-free with fixed L2 Maxwell energy and unbounded L-infinity norm",
+    "radial_data": "phi_N=e_4 and pi_N=v_N e_4 are real aligned charge-4 data",
+    "radial_energy": "matter momentum, mass and charge-regularizer terms are uniformly bounded",
+    "radial_derivative": "for f(s)=lambda s, partial_t f(||phi||^2)=2lambda Re<phi,pi>=2lambda v_N at t=0",
+    "neutrality": "Im<Qphi_N,pi_N>=0, so the Gauss density is zero",
+    "conclusion": "the base Maxwell-matter energy and Gauss constraint do not bound ||E||_infinity or ||partial_t f||_infinity"
+  },
+  "decision": {
+    "base_energy_uniformly_bounded": true,
+    "gauss_constraint_satisfied": true,
+    "required_coefficient_norm_unbounded": true,
+    "k1378_gronwall_closed_by_base_energy": false,
+    "weaker_spacetime_estimate_excluded": false,
+    "global_nonlinear_evolution_proved": false,
+    "protected_status_change": false
+  }
+}

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 7c268cde2e710a5b822c147db0cd70eb1da7d187
+revision_basis: e9557fa779354b1bbf23b9cf93039a3e71f01b9b
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1376--K1380 show that K1372's sufficient fixed-time Gauss topology is not
+    yet an invariant phase space. Free charge/momentum modes have bounded
+    initial one-sided data but `||grad Qphi(t_N)||_2` growing linearly at
+    times `t_N->0`. The exact invariant free completion is the first full
+    charge lift
+    `||Qpi||^2+||grad Qphi||^2+m^2||Qphi||^2+mu||Q^2phi||^2`.
+    For the coupled equation this lifted energy obeys a conditional Gronwall
+    estimate when `E` and `partial_t f` are time-integrable in `L-infinity`,
+    but neutral Fourier concentration shows that the original Maxwell--matter
+    energy controls neither coefficient. A weaker dispersive or higher-
+    regularity global closure remains open. The 53-row census is thirty-four
+    satisfied, five conditional, ten excluded and four missing; K1145/K1150
+    remain 0/7 and protected statuses do not move.
+
     K1371--K1375 locate and repair the first nonlinear Gauss functional seam.
     An explicit neutral Fourier/charge sequence has uniformly bounded K1366
     energy but `||rho_N||_H^-1` diverging like at least `sqrt(N)`, so the
@@ -14309,6 +14323,19 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1376 proves that K1372's one-sided fixed-time topology is not invariant even
+  under the free charge-regularized flow; K1377 supplies the exact conserved
+  first charge lift, while K1378 gives a coupled Gronwall estimate under
+  `L1_t L-infinity_x` control and K1379 proves that the base energy plus Gauss
+  does not supply that control. Which Strichartz, Morawetz, null-form or
+  higher-regularity estimate now propagates the lifted graph hierarchy, or
+  which weaker gauge-covariant topology both controls the Gauss source and is
+  dynamically closed? Only then can a closed nonlinear KT resolution and
+  proper positive BV-BFV quotient be attempted. Independently, which
+  source/action-owned observed-carrier selector fixes `Q` and its normalization
+  while preserving the propagated domain? Do not transfer free conservation
+  or conditional Gronwall control to global nonlinear or GU physical closure.
+
   K1371 proves that K1366's charge-regularized energy can remain bounded while
   the neutral nonlinear Gauss density diverges in `H^-1`; K1372--K1374 repair
   the functional layer with one covariant derivative of `Qphi`, close the
@@ -16437,6 +16464,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1376--K1380's propagation boundary. K1372 controls the nonlinear
+  Gauss functional at one time but its one-sided phase topology is not free-
+  flow invariant. The exact free repair requires both `Qpi` and `Q^2phi` in
+  the conserved first charge lift. In the coupled problem that lift propagates
+  conditionally under time-integrable `L-infinity` control of the electric
+  field and radial coefficient derivative, but the base energy and Gauss
+  constraint do not control those norms. Advance with a global dispersive or
+  higher-regularity lifted estimate, or a weaker sufficient invariant topology,
+  plus a source/action-owned selector and normalization. Do not call the free
+  graph hierarchy a source domain or the conditional estimate a physical
+  quotient.
+
   Preserve K1371--K1375's exact boundary. The original charge-regularized
   energy is insufficient for the nonlinear Gauss functional; the repaired
   covariant topology controls `D_A(Qphi)` and makes the neutral Gauss surface

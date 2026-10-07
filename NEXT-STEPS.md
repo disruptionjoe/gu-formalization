@@ -7,6 +7,21 @@ updated_at: "2026-10-07"
 
 # Next Steps For Contributors
 
+> **2026-10-07 K1376--K1380 CHARGE-LIFT PROPAGATION BOUNDARY.** K1372's
+> one-sided fixed-time topology is not invariant even under the free
+> charge-regularized flow: bounded initial data can develop
+> `||grad Qphi(t_N)||_2` growing linearly at `t_N->0`. The exact free phase
+> repair is the conserved first charge lift, which adds `Qpi` and `Q^2phi`.
+> In the coupled system it obeys a conditional Gronwall estimate under
+> time-integrable `L-infinity` control of `E` and `partial_t f`, but neutral
+> Fourier concentration proves that the base energy plus Gauss does not
+> control those coefficients. Next prove a dispersive or higher-regularity
+> global lifted estimate, or a weaker gauge-covariant topology that is both
+> Gauss-sufficient and flow-invariant; then construct the closed nonlinear
+> KT/BV-BFV quotient. Independently supply a source-owned observed-carrier
+> selector and normalization. Do not promote free graph conservation or the
+> conditional estimate to global GU physical closure.
+
 > **2026-10-07 K1371--K1375 NONLINEAR GAUSS CHARGE-GRAPH CLOSURE.** K1366's
 > positive charge regularizer does not by itself control the nonlinear Gauss
 > source: a neutral bounded-energy Fourier/charge sequence has divergent

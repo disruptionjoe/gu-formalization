@@ -7,6 +7,26 @@ updated_at: "2026-10-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1376--K1380 charge-lift propagation boundary (2026-10-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K1372's one-sided topology is invariant under the free charge-regularized flow | K1376 exact charge/momentum modes with bounded initial topology and linearly divergent output at `t_N->0`; `28/28`; `10/10` | false; exact free-flow phase-space obstruction |
+| The free flow has an invariant first charge lift | K1377 spectral energy with `Qpi`, `grad Qphi` and `Q^2phi`; `25/25`; `10/10` | exact conserved free graph energy; not a coupled or source-owned domain theorem |
+| The coupled first charge lift propagates | K1378 covariant lifted-current identity and Gronwall bound; `27/27`; `10/10` | conditional on time-integrable `L-infinity` coefficient control; no global large-data theorem |
+| The original energy closes the K1378 coefficient norm | K1379 neutral Fourier concentration with fixed `L2` energy and divergent `L-infinity` electric/radial coefficient; `30/30`; `10/10` | false for the displayed endpoint estimate; weaker dispersive norms remain open |
+| The advance closes GU physical admission | K1380 53-row bridge census; `26/26`; `10/10` | thirty-four satisfied, five conditional, ten excluded and four missing; source selection and global physical quotient remain open |
+
+The five producers pass `136/136` controls and five probes reject `50/50`
+hostile mutations. The free invariant graph hierarchy is now exact, and the
+coupled energy identity names a precise sufficient spacetime coefficient, but
+the base conserved energy does not provide it. Global lifted propagation,
+closed nonlinear KT/BV-BFV properness and GU physical cohomology remain absent.
+SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`,
+LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay `0/7`.
+No source, ledger, canon, paper, prediction, confirmation or public status
+moves.
+
 ## K1371--K1375 nonlinear Gauss charge-graph closure (2026-10-07)
 
 | Claim | Evidence | Honest grade |

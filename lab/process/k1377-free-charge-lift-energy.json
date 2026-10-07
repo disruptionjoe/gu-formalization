@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1377",
+  "title": "Exact conserved free first-charge-lift energy and invariant phase domain",
+  "pinned_inputs": {
+    "k1366": {"path": "lab/process/k1366-positive-charge-regularizer.json", "sha256": "72075a863129fee1dff04d931a02dd083bf01c6c2f20ed76cab940cdcec24a22"},
+    "k1376": {"path": "lab/process/k1376-free-mixed-topology-noninvariance.json", "sha256": "8a11d1a0a9a8eec14123381c5edc3f031e5e116d3a6f0cacd2485ee718e48df2"}
+  },
+  "lift": {
+    "variable": "psi=Qphi",
+    "equation": "partial_t^2 psi+(-Delta+m^2+mu Q^2)psi=0",
+    "energy": "E_Q=||Qpi||_2^2+||grad Qphi||_2^2+m^2||Qphi||_2^2+mu||Q^2phi||_2^2",
+    "phase_domain": "Qphi in H1 intersect L2(D(Q)); Qpi in L2",
+    "spectral_form": "E_Q=||Qpi||_2^2+||Omega Qphi||_2^2",
+    "conservation": "E_Q(t)=E_Q(0) mode by mode and by spectral calculus",
+    "topology_control": "E_Q controls the K1372 spatial mixed norm and the missing charged momentum",
+    "boundary": "this is the exact first free charge lift; it requires Q^2phi and Qpi and is not supplied by K1366 base energy"
+  },
+  "decision": {
+    "free_charge_lift_constructed": true,
+    "free_charge_lift_conserved": true,
+    "invariant_free_phase_domain_constructed": true,
+    "k1372_one_sided_phase_space_sufficient": false,
+    "coupled_nonlinear_propagation_proved": false,
+    "source_selected_domain": false,
+    "protected_status_change": false
+  }
+}
