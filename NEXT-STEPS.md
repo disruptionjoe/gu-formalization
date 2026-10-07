@@ -7,6 +7,19 @@ updated_at: "2026-10-07"
 
 # Next Steps For Contributors
 
+> **2026-10-07 K1336--K1340 PRINCIPAL-SERIES LORENTZIAN FREE-FIELD
+> CONTROL.** The completed spherical principal-series Hilbert fibre supports
+> an explicit free Hilbert-valued Klein--Gordon control on `R x T3`: common
+> `H2/H1` domains, positive gap, skew-adjoint energy generator, unitary
+> evolution, causal advanced/retarded Green operators, conserved Cauchy form
+> and internal `Spin_0(7,7)`/Weyl equivariance. This excludes a carrier-only
+> obstruction to free causal positive dynamics for the declared control, not
+> SC-META-53. Next supply a source-action-owned nontrivial
+> constraint/KT/BV-BFV complex on a common Lorentzian domain, with interacting
+> evolution, boundary reduction, positive nonzero physical cohomology and an
+> observed-state map. Do not promote the free mass or trivial complex to GU
+> physical ownership.
+
 > **2026-10-07 K1331--K1335 FULL KNAPP--STEIN OPERATOR DESCENT.** The complete
 > even simple-root spectrum is
 > `a_n(z)=product_(k=1)^|n| (2k-1-z)/(2k-1+z)` on the common K-finite

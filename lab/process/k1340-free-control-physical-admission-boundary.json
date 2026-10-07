@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1340-FREE-CONTROL-PHYSICAL-ADMISSION-BOUNDARY",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "scope": "Integrated free local Lorentzian control and physical-admission boundary after K1336--K1339.",
+  "pinned_inputs": {
+    "k1335": {"path": "lab/process/k1335-operator-intertwiner-admission-boundary.json", "sha256": "99f68437b43df42f1e49feb3b6b429cc410249cfff6c646ebd6af91e1f5909c9"},
+    "k1336": {"path": "lab/process/k1336-hilbert-valued-klein-gordon-domain.json", "sha256": "80875a55d36bd7b87dcb3b2dc0147bd671157755fc9ddffe3935b98b00b29f4d"},
+    "k1337": {"path": "lab/process/k1337-positive-energy-unitary-evolution.json", "sha256": "7eb50a6dfa1e602135404be3fae72ca04a0b06c40488839ef87922f052488465"},
+    "k1338": {"path": "lab/process/k1338-causal-green-boundary-flux.json", "sha256": "596ee83c7e503070ce32a872cc35eef49b1b9ccc30bbae8fce61b0a3aa199d75"},
+    "k1339": {"path": "lab/process/k1339-principal-series-internal-equivariance.json", "sha256": "35ccb8af706e75dcaa7221ad24a63120b31b6af9f6de3f95cf2c12540dbd4316"}
+  },
+  "free_control_census": {
+    "row_count": 14,
+    "satisfied_count": 9,
+    "conditional_count": 1,
+    "missing_count": 4,
+    "satisfied_rows": [
+      "positive_internal_Hilbert_fibre",
+      "local_Lorentzian_field_operator",
+      "common_Sobolev_energy_domain",
+      "strict_positive_spatial_gap",
+      "skew_adjoint_unitary_evolution",
+      "advanced_retarded_causal_Green_system",
+      "conserved_Cauchy_boundary_form",
+      "internal_G_and_Weyl_equivariance",
+      "nonzero_free_solution_space"
+    ],
+    "conditional_rows": ["positive_degree_zero_cohomology_for_the_trivial_constraint_complex_only"],
+    "missing_rows": [
+      "source_owned_charge_or_chamber_law",
+      "action_derived_interacting_constraint_KT_BV_BFV_complex",
+      "positive_nonzero_cohomology_of_the_nontrivial_GU_physical_quotient",
+      "source_owned_observed_state_and_export_map"
+    ]
+  },
+  "decision": {
+    "free_common_domain_positive_energy_causality_and_boundary_constructed": true,
+    "principal_series_internal_equivariance_constructed": true,
+    "carrier_only_obstruction_to_free_causal_positive_dynamics_excluded_for_this_control": true,
+    "source_charge_or_chamber_selected": false,
+    "interacting_gu_constraint_complex_constructed": false,
+    "nontrivial_gu_physical_cohomology_constructed": false,
+    "observed_state_map_constructed": false,
+    "k1145_k1150_candidate_counts_move": false,
+    "protected_status_change": false
+  },
+  "source_and_ledger_effect": "SC-ACT-01_02_06_ASSERTS_UNCHANGED__SC-META-53_UNCERTAIN_UNCHANGED__LT-SM8_LT-GR6b_RA-F1_AC-F1_NEEDS_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "The completed spherical principal-series Hilbert fibre is compatible with an explicit free local Lorentzian, causal, positive and internally equivariant field control. The remaining GU obstruction is not carrier-only at this free level; source ownership, interaction, nontrivial constraint/BV-BFV quotient, physical cohomology and observed export remain absent.",
+  "controls": {"producer": "tests/channel-swings/k1340_free_control_physical_admission_boundary.py", "probe": "tests/channel-swings/k1340_free_control_physical_admission_boundary_probe.py", "controls_passed": 20, "hostile_mutations_rejected": 10}
+}

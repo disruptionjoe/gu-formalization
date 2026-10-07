@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1339-PRINCIPAL-SERIES-INTERNAL-EQUIVARIANCE",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "scope": "Internal Spin_0(7,7) equivariance and chamber-blindness of K1336--K1338's free local tensor control.",
+  "pinned_inputs": {
+    "k1335": {"path": "lab/process/k1335-operator-intertwiner-admission-boundary.json", "sha256": "99f68437b43df42f1e49feb3b6b429cc410249cfff6c646ebd6af91e1f5909c9"},
+    "k1336": {"path": "lab/process/k1336-hilbert-valued-klein-gordon-domain.json", "sha256": "80875a55d36bd7b87dcb3b2dc0147bd671157755fc9ddffe3935b98b00b29f4d"},
+    "k1337": {"path": "lab/process/k1337-positive-energy-unitary-evolution.json", "sha256": "7eb50a6dfa1e602135404be3fae72ca04a0b06c40488839ef87922f052488465"},
+    "k1338": {"path": "lab/process/k1338-causal-green-boundary-flux.json", "sha256": "596ee83c7e503070ce32a872cc35eef49b1b9ccc30bbae8fce61b0a3aa199d75"}
+  },
+  "tensor_symmetry": {
+    "field_action": "U(g)=I_spacetime tensor pi_lambda(g)",
+    "field_operator": "P=P_spacetime tensor I_Hps",
+    "commutator": "[P,U(g)]=0",
+    "evolution_commutator": "[exp(tG),U(g) direct_sum U(g)]=0",
+    "green_commutator": "E_plus_minus U(g)=U(g) E_plus_minus",
+    "weyl_transport": "I_spacetime tensor R_w(lambda) intertwines every free operator between charge fibres",
+    "chamber_effect": "K1335's coherent chamber diagonal remains a free G-invariant field subspace"
+  },
+  "decision": {
+    "internal_G_equivariance_constructed": true,
+    "evolution_equivariance_constructed": true,
+    "green_equivariance_constructed": true,
+    "chamber_blind_free_dynamics_constructed": true,
+    "charge_selected": false,
+    "physical_observation_map_constructed": false
+  },
+  "claim_ceiling": "The scalar spacetime dynamics commutes with the completed principal-series internal action and its normalized Weyl transport. It therefore neither chooses a charge/chamber nor constructs the source observation map.",
+  "controls": {"producer": "tests/channel-swings/k1339_principal_series_internal_equivariance.py", "probe": "tests/channel-swings/k1339_principal_series_internal_equivariance_probe.py", "controls_passed": 23, "hostile_mutations_rejected": 9}
+}

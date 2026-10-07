@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1337-POSITIVE-ENERGY-UNITARY-EVOLUTION",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "scope": "First-order energy evolution of K1336's free Hilbert-valued Klein-Gordon control.",
+  "pinned_inputs": {
+    "k1336": {"path": "lab/process/k1336-hilbert-valued-klein-gordon-domain.json", "sha256": "80875a55d36bd7b87dcb3b2dc0147bd671157755fc9ddffe3935b98b00b29f4d"}
+  },
+  "energy_system": {
+    "energy_space": "E=D(A_m^(1/2)) direct_sum H",
+    "energy_pairing": "<(phi,pi),(psi,rho)>_E=<A_m^(1/2)phi,A_m^(1/2)psi>+<pi,rho>",
+    "generator": "G(phi,pi)=(pi,-A_m phi)",
+    "generator_domain": "D(G)=D(A_m) direct_sum D(A_m^(1/2))",
+    "mode_generator": "G_k=[[0,1],[-omega_k^2,0]]",
+    "mode_metric": "H_k=diag(omega_k^2,1)",
+    "skew_identity": "G_k^* H_k + H_k G_k=0",
+    "propagator": "[[cos(omega t),sin(omega t)/omega],[-omega sin(omega t),cos(omega t)]]"
+  },
+  "decision": {
+    "generator_skew_adjoint_on_energy_space": true,
+    "unitary_strongly_continuous_evolution": true,
+    "positive_conserved_energy": true,
+    "strict_frequency_gap": true,
+    "bounded_below_interacting_hamiltonian_constructed": false,
+    "gu_physical_time_evolution_constructed": false
+  },
+  "claim_ceiling": "K1336's free control has a positive conserved energy and a skew-adjoint first-order generator, hence unitary free evolution. This does not construct the interacting GU Hamiltonian or identify physical GU time evolution.",
+  "controls": {"producer": "tests/channel-swings/k1337_positive_energy_unitary_evolution.py", "probe": "tests/channel-swings/k1337_positive_energy_unitary_evolution_probe.py", "controls_passed": 21, "hostile_mutations_rejected": 9}
+}

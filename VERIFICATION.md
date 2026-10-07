@@ -7,6 +7,23 @@ updated_at: "2026-10-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1336--K1340 principal-series Lorentzian free-field control (2026-10-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The principal-series fibre admits a common local free field domain | K1336 tensor operator, Sobolev domains, Fourier spectrum and strict gap; `17/17`; `9/9` | exact free Hilbert-valued operator control; not the GU action |
+| The free energy generator is skew-adjoint and evolves unitarily | K1337 mode metric, energy conservation and spectral-theorem lift; `21/21`; `9/9` | exact free evolution theorem; no interacting Hamiltonian |
+| The control has causal Green and Cauchy-boundary structure | K1338 direct tensor Green lift, causal support, modal jump and symplectic conservation; `28/28`; `10/10` | exact standard free Green-hyperbolic control; not GU BFV reduction |
+| Spacetime dynamics commutes with the internal principal-series action | K1339 tensor commutators, unitary controls and normalized Weyl transport; `23/23`; `9/9` | exact internal equivariance for scalar tensor dynamics; no charge selection or observation map |
+| Free compatibility does not close physical admission | K1340 fourteen-row control census; `20/20`; `10/10` | nine satisfied, one trivial-complex conditional and four missing; native K1145/K1150 remain `0/7` |
+
+The five producers pass `109/109` controls and five probes reject `47/47`
+hostile mutations. The result excludes only a carrier-level obstruction to
+free causal positive dynamics for the declared control. SC-ACT-01/02/06 remain
+`ASSERTS`, SC-META-53 remains `UNCERTAIN`, and LT-SM8/LT-GR6b/RA-F1/AC-F1
+remain `NEEDS`. No source, ledger, canon, paper, prediction, confirmation or
+public status moves.
+
 ## K1331--K1335 full Knapp--Stein operator descent (2026-10-07)
 
 | Claim | Evidence | Honest grade |

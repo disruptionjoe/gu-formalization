@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1336-HILBERT-VALUED-KLEIN-GORDON-DOMAIN",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "scope": "Repository-owned free control on the ultrastatic spacetime R x T3 with K1335's spherical principal-series Hilbert space as an internal fibre.",
+  "pinned_inputs": {
+    "k1332": {"path": "lab/process/k1332-common-k-finite-core-unitarity.json", "sha256": "32fa48ab081e2f7f88db705776766e73ed557b171454da4328bd0b359995d48f"},
+    "k1335": {"path": "lab/process/k1335-operator-intertwiner-admission-boundary.json", "sha256": "99f68437b43df42f1e49feb3b6b429cc410249cfff6c646ebd6af91e1f5909c9"}
+  },
+  "construction": {
+    "spacetime": "R_t x T3_x with metric -dt^2+dx_1^2+dx_2^2+dx_3^2",
+    "internal_hilbert_space": "H_ps=L2(K/M) for the supplied spherical principal series",
+    "one_particle_space": "H=L2(T3;H_ps)",
+    "spatial_operator": "A_m=(-Delta_T3+m^2) tensor I_Hps",
+    "mass_condition": "m>0",
+    "operator_domain": "D(A_m)=H2(T3;H_ps)",
+    "form_domain": "D(A_m^(1/2))=H1(T3;H_ps)",
+    "common_core": "finite spatial Fourier sums tensor H_ps,K-finite",
+    "field_operator": "P=partial_t^2+A_m"
+  },
+  "spectrum": {
+    "mode_label": "k in Z3",
+    "eigenvalue": "omega_k^2=|k|^2+m^2",
+    "lower_bound": "A_m >= m^2 I",
+    "kernel_dimension": 0,
+    "self_adjoint": true,
+    "strictly_positive": true
+  },
+  "decision": {
+    "common_local_operator_domain_constructed": true,
+    "positive_self_adjoint_spatial_operator_constructed": true,
+    "principal_series_internal_fibre_preserved": true,
+    "gu_action_owned": false,
+    "interacting": false,
+    "physical_quotient_constructed": false
+  },
+  "claim_ceiling": "The positive spherical principal-series Hilbert fibre admits a standard local free Klein-Gordon tensor control with an explicit common Sobolev domain and positive spatial gap. This is neither the GU action nor a physical quotient.",
+  "controls": {"producer": "tests/channel-swings/k1336_hilbert_valued_klein_gordon_domain.py", "probe": "tests/channel-swings/k1336_hilbert_valued_klein_gordon_domain_probe.py", "controls_passed": 17, "hostile_mutations_rejected": 9}
+}

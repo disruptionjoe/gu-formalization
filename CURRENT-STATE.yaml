@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 78157494edb743eb7e3965a6333fdc55436796c8
+revision_basis: 8bbd58543593bce31898dab8c77f978d421970a0
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1336--K1340 switch from the completed normalized-intertwiner arc to the
+    carrier-level physical question. On the ultrastatic globally hyperbolic
+    control `R x T3`, the internal spherical principal-series Hilbert fibre
+    supports a local Hilbert-valued Klein--Gordon operator with common
+    `H2/H1` operator/form domains, strict positive spatial gap, skew-adjoint
+    energy generator, unitary evolution, advanced/retarded causal Green
+    operators and a conserved Cauchy symplectic form. The spacetime operator,
+    evolution and Green system commute with the internal `Spin_0(7,7)` action
+    and normalized Weyl transport. Thus the completed Hilbert carrier alone
+    does not obstruct free local causal positive dynamics in this control.
+    The model is repository-owned, free and has only the trivial constraint
+    complex; it derives no charge, interaction, GU quotient, physical
+    cohomology or observed-state map. K1145/K1150 remain 0/7 and protected
+    statuses do not move.
+
     K1331--K1335 close K1330's full mathematical intertwiner obligation for
     the supplied regular imaginary spherical D7 principal series. The complete
     simple-root rank-one spectrum on even compact-picture modes is
@@ -14179,6 +14194,15 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1336--K1340 prove that the completed spherical principal-series Hilbert
+  fibre is compatible with a free local Lorentzian, causal, positive and
+  internally equivariant field control. Which source-action-owned nontrivial
+  constraint/KT/BV-BFV complex can replace the scalar free operator on a
+  common Lorentzian domain, retain closed causal evolution and boundary data,
+  and produce positive nonzero physical cohomology with an observed-state
+  map? Do not treat the free mass, trivial complex or tensor-product symmetry
+  as GU action ownership or interacting physical positivity.
+
   K1331--K1335 construct the full normalized simple Knapp--Stein operators for
   the supplied regular imaginary spherical D7 principal series, including the
   common dense K-finite core, complete even rank-one K-type spectrum,
@@ -16207,6 +16231,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1336--K1340's free compatibility boundary. The positive
+  principal-series Hilbert fibre admits a common-domain Hilbert-valued
+  Klein--Gordon operator, positive unitary evolution, causal Green system,
+  conserved Cauchy form and internal G/Weyl equivariance. Advance physical
+  admission only by replacing the scalar free operator with a
+  source-action-owned nontrivial constraint/KT/BV-BFV complex on a common
+  Lorentzian domain and proving interacting evolution, boundary reduction,
+  positive nonzero physical cohomology and observed-state export. The trivial
+  constraint complex supplies no GU physical-cohomology credit.
+
   Preserve K1331--K1335's full mathematical operator closure. For the trivial-M
   spherical minimal principal series at supplied regular imaginary split
   charge, the normalized simple operators share the K-finite compact-picture
