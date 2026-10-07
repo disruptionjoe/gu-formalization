@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1365-CHARGE-DOMAIN-ADMISSION-BOUNDARY",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "scope": "Admission replay after completing the local gauge graph domain, radial nonlinear compatibility, separate global charge-regular causal flow and the coupled-energy noncoercivity theorem.",
+  "pinned_inputs": {
+    "k1360": {"path": "lab/process/k1360-compact-charge-bridge-admission-boundary.json", "sha256": "6290db9f49b9e2af050c80870abfde5fe4298deb6c05120a3ca546e663c2b3f9"},
+    "k1361": {"path": "lab/process/k1361-local-gauge-charge-graph-domain.json", "sha256": "404e1a0289a02ad96f6b870f93ed41ee67f93144ec63c49f1121fe3fe54b63a6"},
+    "k1362": {"path": "lab/process/k1362-radial-nonlinearity-charge-domain.json", "sha256": "ab6ff28e38e67da34d7af28e7701ef19b2c85ff9d3038f932b15a2310b8b7c54"},
+    "k1363": {"path": "lab/process/k1363-defocusing-charge-regularity-propagation.json", "sha256": "9efab6d556374ec77fadbff31dfbf609d1effc2b7f8829907beddd3f3d8ee250"},
+    "k1364": {"path": "lab/process/k1364-coupled-energy-charge-control-obstruction.json", "sha256": "ac3a10279de83007abf953f04d364fca80f46c16832cfbd1aae75188b7c036b4"}
+  },
+  "bridge_census": {
+    "row_count": 41,
+    "satisfied_count": 27,
+    "conditional_count": 4,
+    "excluded_count": 6,
+    "missing_count": 4,
+    "new_satisfied_rows": [
+      "completed_local_gauge_charge_graph_domain_with_dense_core",
+      "radial_nonlinearity_preserves_charge_graph_domain",
+      "global_defocusing_causal_flow_propagates_finite_charge_graph_orders"
+    ],
+    "new_excluded_rows": [
+      "ordinary_positive_coupled_energy_alone_controls_unbounded_charge_graph_norm"
+    ],
+    "conditional_rows": [
+      "positive_nonzero_cohomology_for_repository_owned_free_Maxwell_quotient_only",
+      "nonzero_bounded_linear_scalar_export_after_choosing_eta_and_reducing_internal_symmetry",
+      "positive_interacting_energy_and_nonzero_vacuum_linearized_BRST_cohomology_for_repository_control_only",
+      "nonzero_bounded_nonlinear_invariant_scalar_map_without_source_observation_semantics"
+    ],
+    "excluded_rows": [
+      "nontrivial_continuous_full_G_character_to_U1",
+      "nontrivial_internal_one_parameter_subgroup_acting_as_one_uniform_scalar_phase_on_H_ps",
+      "nonzero_internal_fixed_charge_sector_preserving_full_G_irreducibility",
+      "nonzero_pointwise_linear_equivariant_map_from_finite_source_fibre_to_H_ps",
+      "positive_definite_Ad_G_invariant_quadratic_gauge_kinetic_form_on_full_split_so_7_7",
+      "ordinary_positive_coupled_energy_alone_controls_unbounded_charge_graph_norm"
+    ],
+    "missing_rows": [
+      "source_owned_selection_and_normalization_of_the_compact_charge_reduction_on_the_observed_carrier",
+      "identification_with_one_source_action_derived_interacting_constraint_complex",
+      "closed_fully_coupled_global_nonlinear_BV_BFV_quotient_with_positive_physical_Hilbert_cohomology",
+      "source_owned_observed_state_and_export_map"
+    ]
+  },
+  "distance_update": {
+    "closed": [
+      "minimal completed graph domain for spacetime-dependent compact-circle gauge transformations",
+      "charge-domain compatibility of the radial scalar nonlinearity",
+      "global propagation of finite charge regularity for the separate defocusing causal flow"
+    ],
+    "excluded": [
+      "automatic charge-graph coercivity from K1359's ordinary positive coupled energy"
+    ],
+    "opened_or_sharpened": [
+      "fully coupled evolution now needs a separately proved graph-propagation estimate or action-owned positive Q regularizer",
+      "source selection and observed-carrier semantics remain prior to physical admission"
+    ]
+  },
+  "decision": {
+    "completed_local_gauge_graph_domain_constructed": true,
+    "radial_scalar_graph_domain_preserved": true,
+    "separate_global_causal_charge_regular_flow_constructed": true,
+    "ordinary_coupled_energy_graph_coercivity_excluded": true,
+    "source_selected_reduction_constructed": false,
+    "fully_coupled_global_BV_BFV_domain_constructed": false,
+    "positive_physical_Hilbert_cohomology_constructed": false,
+    "k1145_k1150_candidate_counts_move": false,
+    "protected_status_change": false
+  },
+  "source_and_ledger_effect": "SC-ACT-01_02_06_ASSERTS_UNCHANGED__SC-META-53_UNCERTAIN_UNCHANGED__LT-SM8_LT-GR6b_RA-F1_AC-F1_NEEDS_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "The compact-charge route now has a completed local-gauge graph domain and a global charge-regular causal scalar control, and it has an exact theorem showing that ordinary positive coupled energy does not control the unbounded charge graph norm. The source still does not select the reduction, and no fully coupled closed KT/BV-BFV quotient or positive physical Hilbert cohomology is constructed.",
+  "controls": {"producer": "tests/channel-swings/k1365_charge_domain_admission_boundary.py", "probe": "tests/channel-swings/k1365_charge_domain_admission_boundary_probe.py", "controls_passed": 29, "hostile_mutations_rejected": 10}
+}

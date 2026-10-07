@@ -7,6 +7,22 @@ updated_at: "2026-10-07"
 
 # Next Steps For Contributors
 
+> **2026-10-07 K1361--K1365 COMPACT-CHARGE GRAPH-DOMAIN CONTROL.** The
+> first completed-domain layer opened by K1360 is now exact. The minimal local
+> gauge domain is `H1(T3;H_ps) intersection L2(T3;D(Q))`; local circle gauge
+> multiplication is a bounded automorphism with its exact weak derivative,
+> while ordinary H1 alone is not invariant. Radial Hilbert nonlinearities
+> preserve `D(Q)`, and K1343's separate global defocusing causal wave
+> propagates every finite charge order for smooth graph-regular data. The
+> coupled gap remains real: zero-gauge fields
+> `phi_N=sum_(n<=N)n^-1 e_(4n)` have uniformly bounded ordinary energy but
+> `||Qphi_N||^2=16N`, so K1359 positivity is not charge coercivity. Next
+> derive both a source-owned selector/normalization on the observed carrier and
+> a fully coupled graph-propagation estimate, action-owned positive
+> `Q` regularizer, or equivalent coercive bound; then close the nonlinear
+> KT/BV-BFV quotient and physical cohomology. Do not transfer the separate
+> scalar theorem to the coupled gauge system.
+
 > **2026-10-07 K1356--K1360 MAXIMAL-COMPACT NONUNIFORM-CHARGE
 > CONTROL.** The compact escape left open by K1355 is now explicit. A
 > primitive circle in the first compact `Spin(7)` factor has a positive

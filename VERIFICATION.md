@@ -7,6 +7,24 @@ updated_at: "2026-10-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1361--K1365 compact-charge graph-domain control (2026-10-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Local compact-circle gauge transformations preserve a completed charge graph domain | K1361 `H1 intersection L2(D(Q))` theorem, weak derivative formula, dense smooth K-finite core and ordinary-H1 counterexample; `29/29`; `10/10` | exact abstract operator-domain theorem for the repository-selected circle; no source-selected domain |
+| The radial scalar nonlinearity is charge-domain compatible | K1362 exact `Q N_f(v)=f(||v||^2)Qv`, unitary/local-gauge equivariance and graph-local-Lipschitz estimate; `21/21`; `10/10` | exact nonlinear graph-domain theorem; no fully coupled gauge flow |
+| The separate defocusing causal flow propagates charge regularity globally | K1363 differentiated equation for every finite `Q` power and finite-interval energy propagation; `23/23`; `10/10` | global smooth graph-regular control for K1343 only; higher graph energy not claimed conserved |
+| K1359's ordinary positive coupled energy controls the charge graph norm | K1364 zero-gauge sequence with bounded mass/quartic energy and `||Qphi_N||^2=16N`; `27/27`; `10/10` | false; exact noncoercivity theorem, preserving augmented-action and graph-propagation repairs |
+| The analytic advance closes GU physical admission | K1365 41-row bridge census; `29/29`; `10/10` | twenty-seven satisfied, four conditional, six excluded and four missing; source selection, fully coupled quotient and physical cohomology remain open |
+
+The five producers pass `129/129` controls and five probes reject `50/50`
+hostile mutations. The radial scalar interaction is no longer the charge-domain
+obstruction, but ordinary positivity cannot supply the missing coupled graph
+estimate. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`,
+and LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`. K1145/K1150 stay `0/7`.
+No source, ledger, canon, paper, prediction, confirmation or public status
+moves.
+
 ## K1356--K1360 maximal-compact nonuniform-charge bridge control (2026-10-07)
 
 | Claim | Evidence | Honest grade |

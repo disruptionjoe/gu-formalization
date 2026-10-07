@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1362-RADIAL-NONLINEARITY-CHARGE-DOMAIN",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "NOT-A-GU-KILL:repository-owned compact-charge nonlinear control",
+  "scope": "Charge-domain and local graph-Lipschitz control for smooth radial Hilbert nonlinearities on H_ps, including K1343's defocusing cubic; not the GU interaction or the complete K1359 gauge-matter evolution.",
+  "pinned_inputs": {
+    "k1343": {"path": "lab/process/k1343-defocusing-principal-series-wave-interaction.json", "sha256": "c864c5c8040bf415c43ec38eb495aad03bf1107c06f356a6b03f393da4fcd2e4"},
+    "k1361": {"path": "lab/process/k1361-local-gauge-charge-graph-domain.json", "sha256": "404e1a0289a02ad96f6b870f93ed41ee67f93144ec63c49f1121fe3fe54b63a6"}
+  },
+  "radial_domain_theorem": {
+    "nonlinearity": "N_f(v)=f(||v||^2)v with f continuously differentiable and f,f_prime bounded on bounded intervals",
+    "domain_preservation": "v in D(Q) implies N_f(v) in D(Q)",
+    "charge_identity": "Q N_f(v)=f(||v||^2)Qv",
+    "unitary_equivariance": "N_f(Uv)=U N_f(v) for every unitary U on H_ps",
+    "local_gauge_equivariance": "N_f(G_alpha phi)=G_alpha N_f(phi) pointwise",
+    "graph_lipschitz": "On every D(Q) graph-norm ball, N_f is locally Lipschitz in ||v||+||Qv||; the difference estimate separates f(||v||^2)Q(v-w) from the scalar coefficient difference times Qw.",
+    "defocusing_instance": "f(r)=lambda r gives K1343's cubic and satisfies every identity exactly"
+  },
+  "decision": {
+    "radial_nonlinearity_preserves_D_Q": true,
+    "exact_charge_identity_proved": true,
+    "local_graph_lipschitz_control_proved": true,
+    "all_internal_unitaries_preserve_nonlinearity": true,
+    "local_circle_gauge_equivariance_proved": true,
+    "fully_coupled_gauge_flow_closed": false,
+    "source_action_identified": false,
+    "protected_status_change": false
+  },
+  "claim_ceiling": "The radial interaction already used in K1343 is compatible with K1358's unbounded charge domain: it preserves D(Q), obeys an exact Q identity and is locally Lipschitz in the graph norm. This removes the scalar nonlinearity itself as the domain obstruction, but it does not close K1359's coupled gauge evolution or supply source ownership.",
+  "controls": {"producer": "tests/channel-swings/k1362_radial_nonlinearity_charge_domain.py", "probe": "tests/channel-swings/k1362_radial_nonlinearity_charge_domain_probe.py", "controls_passed": 21, "hostile_mutations_rejected": 10}
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1361-LOCAL-GAUGE-CHARGE-GRAPH-DOMAIN",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "NOT-A-GU-KILL:repository-owned compact-charge domain control",
+  "scope": "The minimal completed first-order spacetime/charge graph domain for K1358's self-adjoint circle generator under spacetime-dependent circle gauge multiplication; not a source-selected domain, observed-carrier assignment or completed coupled BV quotient.",
+  "pinned_inputs": {
+    "k1358": {"path": "lab/process/k1358-principal-series-charge-generator-domain.json", "sha256": "c91feee049717eb6052116b92353e5c5660d606df629acb710d4042a136c9601"},
+    "k1359": {"path": "lab/process/k1359-nonuniform-charge-gauge-bv-core.json", "sha256": "6b9178661924c9a00324268c71c6d147b2bb0b744e6c31adc4360fc67b87e677"}
+  },
+  "graph_domain": {
+    "spatial_slice": "Sigma=T3",
+    "hilbert_carrier": "H_ps=direct_sum_(q in Z) H_q",
+    "charge_operator": "Q is self-adjoint with D(Q)={v=sum v_q:sum q^2||v_q||^2<infinity}",
+    "completed_domain": "X_Q^1={phi in H1(Sigma;H_ps):Q phi in L2(Sigma;H_ps)}",
+    "graph_norm": "||phi||_H1+||Q phi||_L2",
+    "density": "C^infinity(Sigma) algebraic_tensor H_Kfin is dense in X_Q^1 by joint spatial smoothing and finite charge truncation"
+  },
+  "local_gauge_theorem": {
+    "gauge_parameter": "real alpha in W1_infinity(Sigma)",
+    "action": "G_alpha phi(x)=exp(i alpha(x) Q) phi(x)",
+    "charge_commutation": "Q G_alpha phi=G_alpha Q phi",
+    "weak_derivative": "partial_j(G_alpha phi)=G_alpha(partial_j phi+i(partial_j alpha)Q phi)",
+    "bound": "||G_alpha phi||_X<=max(1,1+||grad alpha||_infinity)||phi||_X for the sum graph norm",
+    "inverse": "G_alpha inverse is G_minus_alpha on X_Q^1",
+    "ordinary_H1_failure": "For alpha(x)=sin(x1) and v=sum_(n>=1)n^-1 e_(4n), v lies in H_ps but not D(Q); the constant field phi(x)=v lies in ordinary H1 while G_alpha phi has infinite derivative norm."
+  },
+  "decision": {
+    "minimal_completed_first_order_graph_domain_constructed": true,
+    "local_circle_gauge_action_preserves_graph_domain": true,
+    "exact_weak_derivative_formula_proved": true,
+    "dense_K_finite_smooth_core_proved": true,
+    "ordinary_H1_preserved_for_all_H_ps_fields": false,
+    "source_selects_domain": false,
+    "coupled_global_BV_domain_constructed": false,
+    "protected_status_change": false
+  },
+  "claim_ceiling": "K1358's unbounded charge generator has a natural completed local-gauge domain: H1 spacetime regularity intersected with L2 charge-graph regularity. Spacetime-dependent circle gauge multiplication is a bounded automorphism of that domain with the exact covariant derivative formula. Ordinary H1 alone is not invariant. This is a repository control and does not establish source selection or a closed coupled physical quotient.",
+  "controls": {"producer": "tests/channel-swings/k1361_local_gauge_charge_graph_domain.py", "probe": "tests/channel-swings/k1361_local_gauge_charge_graph_domain_probe.py", "controls_passed": 29, "hostile_mutations_rejected": 10}
+}

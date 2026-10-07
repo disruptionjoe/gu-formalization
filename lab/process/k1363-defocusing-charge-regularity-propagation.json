@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1363-DEFOCUSING-CHARGE-REGULARITY-PROPAGATION",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "NOT-A-GU-KILL:repository-owned compact-charge causal control",
+  "scope": "Propagation of K1358 charge-graph regularity through K1343's already-global defocusing Hilbert-valued wave on R x T3; not the coupled Maxwell-Klein-Gordon flow, source action or physical BV quotient.",
+  "pinned_inputs": {
+    "k1343": {"path": "lab/process/k1343-defocusing-principal-series-wave-interaction.json", "sha256": "c864c5c8040bf415c43ec38eb495aad03bf1107c06f356a6b03f393da4fcd2e4"},
+    "k1362": {"path": "lab/process/k1362-radial-nonlinearity-charge-domain.json", "sha256": "ab6ff28e38e67da34d7af28e7701ef19b2c85ff9d3038f932b15a2310b8b7c54"}
+  },
+  "propagation_theorem": {
+    "equation": "u_tt-Delta_T3 u+m^2 u+lambda ||u||_Hps^2 u=0 with m>0 and lambda>0",
+    "base_result": "K1343 gives global finite-energy evolution and finite propagation speed",
+    "charge_commutation": "For every integer r>=1, Q^r(||u||^2u)=||u||^2 Q^r u because Q acts only on the internal output vector and the norm coefficient is scalar in H_ps.",
+    "differentiated_equation": "w_r=Q^r u solves (partial_t^2-Delta_T3+m^2+lambda||u||^2)w_r=0",
+    "graph_initial_data": "Q^r u(0) in H1(T3;H_ps) and Q^r u_t(0) in L2(T3;H_ps)",
+    "global_propagation": "For smooth base solutions, the linear energy estimate for w_r on every finite time interval and iteration over r preserve every admitted finite charge graph order for all real times.",
+    "causal_support": "The differentiated equation has the same wave principal part, so charge-regularity propagation respects the K1343 finite-speed cone.",
+    "energy_limit": "The higher charge energies satisfy finite-interval Gronwall bounds and are not claimed conserved."
+  },
+  "decision": {
+    "one_charge_graph_order_propagated_globally": true,
+    "every_finite_charge_graph_order_propagated_for_smooth_data": true,
+    "same_causal_cone_preserved": true,
+    "higher_charge_energy_conserved": false,
+    "coupled_gauge_matter_global_evolution_proved": false,
+    "closed_KT_BV_BFV_quotient_proved": false,
+    "source_action_identified": false,
+    "protected_status_change": false
+  },
+  "claim_ceiling": "K1343's repository-owned global defocusing causal flow preserves K1358 charge-graph regularity, including every finite Q power for smooth graph-regular initial data. The scalar radial interaction is therefore not the completed-domain obstruction. The theorem does not include a dynamical gauge field, Gauss constraint, KT/BV-BFV quotient, source action or physical Hilbert cohomology.",
+  "controls": {"producer": "tests/channel-swings/k1363_defocusing_charge_regularity_propagation.py", "probe": "tests/channel-swings/k1363_defocusing_charge_regularity_propagation_probe.py", "controls_passed": 23, "hostile_mutations_rejected": 10}
+}

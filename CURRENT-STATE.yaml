@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f0d80517de30bcc13007e6c6f4478f200bb944a1
+revision_basis: cd48c32965c848464d3c12783c5cef001e17ba47
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1361--K1365 complete the first analytic charge-domain layer opened by
+    K1360. The minimal local-gauge completion is
+    `X_Q^1=H1(T3;H_ps) intersection L2(T3;D(Q))`; spacetime-dependent circle
+    gauge multiplication is a bounded automorphism with exact weak derivative
+    `partial(G_alpha phi)=G_alpha(partial phi+i partial(alpha) Qphi)`, while
+    ordinary H1 alone fails. Smooth radial Hilbert nonlinearities preserve
+    `D(Q)`, and K1343's global defocusing causal wave propagates every admitted
+    finite charge-graph order for smooth data. But K1359's ordinary positive
+    coupled energy is not charge coercive: zero-gauge fields
+    `phi_N=sum_(n<=N)n^-1 e_(4n)` have uniformly bounded energy and
+    `||Qphi_N||^2=16N`. The 41-row census is twenty-seven satisfied, four
+    conditional, six excluded and four missing. Source selection,
+    observed-carrier semantics, fully coupled graph propagation, closed
+    KT/BV-BFV quotient and positive physical cohomology remain absent;
+    K1145/K1150 remain 0/7 and protected statuses do not move.
+
     K1356--K1360 construct the strongest mathematical maximal-compact escape
     left open by K1355. A primitive circle in the first compact `Spin(7)`
     factor has a positive one-dimensional kinetic form. The M-spherical
@@ -14260,6 +14276,21 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1361--K1365 identify the minimal completed graph domain preserved by local
+  compact-circle gauge transformations, prove that the radial nonlinearity is
+  charge-domain compatible, and propagate all finite charge orders through the
+  separate global defocusing causal flow. They also prove that K1359's
+  ordinary positive coupled energy does not control the unbounded charge graph
+  norm. Which source/action-owned reduction now selects and normalizes the
+  compact generator on the actual observed carrier and preserves this domain?
+  Independently, which fully coupled estimate propagates graph-regular data or
+  which action-derived positive `Q` regularizer supplies coercivity, so that a
+  closed nonlinear KT/BV-BFV quotient and positive nonzero physical Hilbert
+  cohomology can be constructed? Do not transfer the separate scalar theorem
+  to the gauge system or call positivity charge coercivity. The strongest
+  independent alternative remains a typed nonlinear or nonlocal map from
+  released source section spaces into the principal-series carrier.
+
   K1356--K1360 prove that a selected maximal-compact circle can carry a
   positive kinetic form, nonuniform integer charges in an actual spherical
   K-type, and an interacting gauge/BRST/BV-BFV algebra on the dense K-finite
@@ -16347,6 +16378,22 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1361--K1365's domain boundary. Local circle gauge transformations
+  act on the completed `H1 intersection L2(D(Q))` graph domain, the radial
+  cubic preserves it, and the separate defocusing wave propagates finite
+  charge regularity globally for smooth data. K1359's ordinary positive
+  coupled energy is not coercive in `Q`; the exact zero-gauge sequence has
+  bounded energy and `||Qphi_N||^2=16N`. Advance the compact route only with
+  both (1) a source/action-owned selector and normalization on the observed
+  carrier whose constraints and observation map preserve the graph domain and
+  (2) a fully coupled graph-propagation estimate, action-owned positive
+  `Q` regularizer, or equivalent coercive bound. Then close the nonlinear
+  KT/BV-BFV quotient and test positive nonzero physical Hilbert cohomology.
+  Alternatively, construct a typed nonlinear, differential, integral or
+  distributional source-section map with declared domain, equivariance
+  reduction, action owner and observed semantics. Do not promote the separate
+  scalar flow, repository circle or ordinary energy positivity.
+
   Preserve K1356--K1360's compact-control boundary. The selected spin-circle
   has a positive kinetic form; an actual M-spherical K-type has charges
   `-4,-2,0,2,4`; and the full self-adjoint generator has an exact dense

@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1364-COUPLED-ENERGY-CHARGE-CONTROL-OBSTRUCTION",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "NOT-A-GU-KILL:repository-owned compact-charge coercivity boundary",
+  "scope": "An exact noncoercivity theorem for K1359's ordinary positive scalar-electrodynamics energy relative to the unbounded charge graph norm; not a no-go for augmented energies, graph-regular initial data, another action or a source-selected compact reduction.",
+  "pinned_inputs": {
+    "k1358": {"path": "lab/process/k1358-principal-series-charge-generator-domain.json", "sha256": "c91feee049717eb6052116b92353e5c5660d606df629acb710d4042a136c9601"},
+    "k1359": {"path": "lab/process/k1359-nonuniform-charge-gauge-bv-core.json", "sha256": "6b9178661924c9a00324268c71c6d147b2bb0b744e6c31adc4360fc67b87e677"}
+  },
+  "counterexample": {
+    "charge_witnesses": "Choose orthonormal e_n in spherical K-types with Q e_n=4n e_n, supplied by K1358.",
+    "truncated_fields": "phi_N(x)=sum_(n=1)^N n^-1 e_n, constant on T3, with A=0, electric field=0, magnetic field=0 and matter momentum=0.",
+    "ordinary_norm": "||phi_N||^2=sum_(n=1)^N n^-2 is uniformly bounded by pi^2/6.",
+    "ordinary_energy": "The gradient term vanishes and the mass plus quartic energy is uniformly bounded in N for fixed m and lambda.",
+    "charge_graph_norm": "||Q phi_N||^2=sum_(n=1)^N (4n)^2 n^-2=16N, which diverges.",
+    "conclusion": "No constant C can bound ||Q phi|| by K1359's ordinary positive energy on its core, even in the zero-gauge-field sector."
+  },
+  "repair_boundary": {
+    "admissible_repairs": [
+      "supply graph-regular initial data and prove its propagation for the fully coupled equations",
+      "derive an action-owned positive charge regularizer such as mu||Q phi||^2",
+      "derive another coercive source-owned estimate that controls the complete charge graph norm"
+    ],
+    "nonrepairs": [
+      "positivity of the ordinary energy alone",
+      "the seagull term A^2||Q phi||^2 because A may vanish",
+      "finite K-type truncation without a uniform charge estimate"
+    ]
+  },
+  "decision": {
+    "ordinary_positive_energy_controls_charge_graph_norm": false,
+    "explicit_uniformly_energy_bounded_divergent_graph_sequence_constructed": true,
+    "zero_gauge_sector_already_exhibits_obstruction": true,
+    "seagull_term_supplies_uniform_charge_coercivity": false,
+    "augmented_action_or_graph_propagation_excluded": false,
+    "source_action_no_go_proved": false,
+    "protected_status_change": false
+  },
+  "claim_ceiling": "K1359's ordinary positive coupled energy is not coercive in the unbounded charge graph norm: a zero-gauge sequence has uniformly bounded energy and Q norm squared equal to 16N. A fully coupled completed-domain theorem therefore needs graph-regular initial data plus propagation, an action-owned positive Q regularizer, or another coercive source-owned estimate. This does not exclude such repairs or any source-selected alternative.",
+  "controls": {"producer": "tests/channel-swings/k1364_coupled_energy_charge_control_obstruction.py", "probe": "tests/channel-swings/k1364_coupled_energy_charge_control_obstruction_probe.py", "controls_passed": 27, "hostile_mutations_rejected": 10}
+}
