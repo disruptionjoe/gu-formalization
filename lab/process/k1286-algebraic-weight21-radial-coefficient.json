@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1286-ALGEBRAIC-WEIGHT21-RADIAL-COEFFICIENT",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "INTERNAL_TARGET:K1283_ALGEBRAIC_BRANCH_ESCAPE",
+  "scope": "The regular positive-I2 split-D7 quotient horn with r=sqrt(I2)>0 and outer reflection p to minus p.",
+  "gu_typed_objects": {
+    "carrier": "regular invariant coordinates (I2,I4,I6,p,I8,I10,I12) with I2>0 LAYER=source-print CHIRALITY=N/A",
+    "pairing": "scalar multiplication ON=regular_positive_I2_invariant_horn",
+    "real_structure": "positive radial branch r=sqrt(I2) and independent outer reflection p to minus p",
+    "grading": "I2 has weight 2, r has weight 1, r^21 has weight 21 and p has weight 7",
+    "action_owner": "repository algebraic construction only",
+    "target": "K1273 weight-21 coefficient MAP-TYPE=evaluation"
+  },
+  "pinned_inputs": {
+    "k1251": {"path": "lab/process/k1251-source-epsilon-radial-shape-chart.json", "sha256": "bcadd150075787034815ee375b358ef8d3ecdf06dd79c4cf05a7c492afcafe63"},
+    "k1283": {"path": "lab/process/k1283-analytic-rational-parity-extension.json", "sha256": "8e399496b66a67ae86c7783170bbd0155e3c741ddf8f63f6a51e0f3babf6779a"}
+  },
+  "construction": {
+    "radial_coordinate": "r=sqrt(I2)>0",
+    "coefficient": "epsilon_lambda=lambda r^21=lambda I2^(21/2)",
+    "weighted_scaling": "I2 to t^2 I2 implies epsilon_lambda to t^21 epsilon_lambda for t>0",
+    "outer_parity_of_coefficient": "even because epsilon_lambda is independent of p",
+    "selector_term": "lambda r^21 p",
+    "selector_weight": 28,
+    "selector_outer_parity": "odd",
+    "real_analytic_on_positive_horn": true,
+    "polynomial_in_invariant_generators": false,
+    "analytic_germ_at_I2_zero": false,
+    "rational_in_invariant_generators": false
+  },
+  "decision": {
+    "algebraic_positive_radial_branch_evades_k1283_scope": true,
+    "orientation_sign_imported_by_positive_radial_branch": false,
+    "source_action_owner_supplied": false,
+    "functional_domain_supplied": false
+  },
+  "source_and_ledger_effect": "SC-ACT-01_02_06_ASSERTS_UNCHANGED__SC-META-53_UNCERTAIN_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Exact algebraic construction on I2>0. It is outside, not a refutation of, the polynomial, analytic-germ and regular-rational theorems; no source action, global boundary regularity or physical orientation follows.",
+  "controls": {"producer": "tests/channel-swings/k1286_algebraic_weight21_radial_coefficient.py", "probe": "tests/channel-swings/k1286_algebraic_weight21_radial_coefficient_probe.py", "controls_passed": 12, "hostile_mutations_rejected": 8}
+}

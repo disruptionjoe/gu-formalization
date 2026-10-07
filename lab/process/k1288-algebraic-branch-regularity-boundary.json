@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1288-ALGEBRAIC-BRANCH-REGULARITY-BOUNDARY",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "INTERNAL_TARGET:K1286_BOUNDARY_REGULARITY",
+  "scope": "Regularity of I2^(21/2) and I2^(21/2)p at the boundary I2=0, separating formal quotient coordinates from the actual Cartan lift.",
+  "pinned_inputs": {
+    "k1284": {"path": "lab/process/k1284-orbit-cover-section-boundary.json", "sha256": "41526fc74e1bf189eb3e20b1c19b9cf4cce9a869d6db14528461675e8c06e3f0"},
+    "k1286": {"path": "lab/process/k1286-algebraic-weight21-radial-coefficient.json", "sha256": "1c991df6eac8b5f7b06ad1d6da81c47277179c2f345e4ef647c3ca099fac7ccc"}
+  },
+  "regularity": {
+    "coefficient_on_I2_positive": "real analytic",
+    "coefficient_extension_on_I2_nonnegative": "C10 but not C11 as a function of I2",
+    "eleventh_derivative_behavior": "nonzero constant times I2^(-1/2)",
+    "formal_quotient_selector_at_fixed_nonzero_p": "C10 but not C11 in I2",
+    "cartan_lift": "||x||^21 p7(x), homogeneous of ordinary degree 28",
+    "cartan_lift_extension": "C27 at the Cartan origin",
+    "cartan_lift_not_C28_witness": "on any ray x=s v with p7(v) nonzero it is a nonzero multiple of s^7 |s|^21",
+    "positive_radial_branch_selects_p_sheet": false,
+    "extension_is_real_analytic_at_origin": false
+  },
+  "decision": {
+    "finite_two_jet_available_on_closed_positive_horn": true,
+    "analytic_global_action_germ_available": false,
+    "quotient_and_cartan_boundary_regularities_must_not_be_conflated": true,
+    "source_boundary_condition_supplied": false
+  },
+  "claim_ceiling": "Exact finite regularity boundary for the algebraic coefficient and its Cartan lift. It supplies neither a source-owned branch condition nor a common functional domain.",
+  "controls": {"producer": "tests/channel-swings/k1288_algebraic_branch_regularity_boundary.py", "probe": "tests/channel-swings/k1288_algebraic_branch_regularity_boundary_probe.py", "controls_passed": 12, "hostile_mutations_rejected": 8}
+}

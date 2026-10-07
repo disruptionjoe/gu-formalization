@@ -4,6 +4,35 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1286--K1290 algebraic radial orientation selector
+
+- K1286 constructs the positive-`I2` algebraic weight-21 coefficient and
+  checks its weight and outer parity (`12/12`; `8/8`).
+- K1287 composes it with the K1273 quartic and proves the scale-independent
+  threshold (`12/12`; `8/8`).
+- K1288 separates quotient-coordinate and Cartan-lift boundary regularity
+  (`12/12`; `8/8`).
+- K1289 checks the radial barrier, unique orientation root, properness and
+  positive rank-seven Hessian (`12/12`; `8/8`).
+- K1290 composes the thirty-two-row source and functional admission boundary
+  (`13/13`; `8/8`).
+
+The five producers pass `61/61` controls and the probes reject `40/40`
+hostile mutations.
+
+```bash
+python3 tests/channel-swings/k1286_algebraic_weight21_radial_coefficient.py
+python3 tests/channel-swings/k1286_algebraic_weight21_radial_coefficient_probe.py
+python3 tests/channel-swings/k1287_algebraic_orientation_threshold.py
+python3 tests/channel-swings/k1287_algebraic_orientation_threshold_probe.py
+python3 tests/channel-swings/k1288_algebraic_branch_regularity_boundary.py
+python3 tests/channel-swings/k1288_algebraic_branch_regularity_boundary_probe.py
+python3 tests/channel-swings/k1289_proper_algebraic_rank_seven_selector.py
+python3 tests/channel-swings/k1289_proper_algebraic_rank_seven_selector_probe.py
+python3 tests/channel-swings/k1290_algebraic_orientation_admission_boundary.py
+python3 tests/channel-swings/k1290_algebraic_orientation_admission_boundary_probe.py
+```
+
 ## K1281--K1285 weighted orientation-spurion boundary
 
 - K1281 proves weighted degree and `p` exponent have the same parity

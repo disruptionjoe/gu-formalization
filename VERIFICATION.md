@@ -7,6 +7,20 @@ updated_at: "2026-10-06"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1286--K1290 algebraic radial orientation selector (2026-10-06)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The positive radial branch supplies an even weight-21 coefficient | K1286 exact scaling/parity controls for `I2^(21/2)`; `12/12`; `8/8` | exact algebraic theorem on `I2>0`; outside K1283's classes |
+| The K1273 threshold becomes uniform across scale | K1287 normalization `eta=lambda/|c7|^3` and cubic discriminant; `12/12`; `8/8` | exact conditional fiber theorem; lambda and c7 remain imported |
+| The algebraic escape has finite boundary regularity | K1288 derivative order and generic-ray controls; `12/12`; `8/8` | exact quotient/Cartan regularity boundary; no global analytic action germ |
+| A proper unique rank-seven selector exists on the open horn | K1289 barrier, unique cubic root and positive Hessian determinant; `12/12`; `8/8` | exact finite chart construction; not source, orbit-image or functional properness |
+| Functional admission remains absent | K1290 fifteen satisfied, six excluded, five conditional and six missing rows; `13/13`; `8/8` | K1145/K1150 `0/7`; no physical or protected-status movement |
+
+Five producers pass `61/61` declared controls and five probes reject `40/40`
+hostile mutations. SC-ACT-01/02/06, SC-META-53, the physics ledger and all
+protected verdicts remain unchanged.
+
 ## K1281--K1285 weighted orientation-spurion boundary (2026-10-06)
 
 | Claim | Evidence | Honest grade |

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: fd2aafddf8886dbf6fce42b36d48d992d734d98c
+revision_basis: ad1047372fc3baa44d18d8187d0d733fe975c0d7
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1286--K1290 prove that K1283's regular-function obstruction is sharp.
+    On the regular `I2>0` horn, the canonical positive radius supplies the
+    algebraic coefficient `I2^(21/2)=r^21`, which is outer-even and has the
+    missing weight twenty-one; `lambda r^21 p` is therefore a weight-28 odd
+    response. For the K1273 fiber `a=|c7|r^7`, its normalized strength is
+    `lambda/|c7|^3`, so the exact one-critical-point threshold is uniform in
+    scale. The coefficient is real analytic only on the open horn: it is C10
+    but not C11 in the quotient coordinate at `I2=0`, while the Cartan lift is
+    C27 but not C28 at the origin. A radial barrier plus five even-shape locks
+    and the tilted orientation fiber gives a proper finite rank-seven selector
+    with one minimum on the open horn. The construction imports its scale,
+    shapes and lambda, does not classify the full realized orbit image, and is
+    not source-owned or functionally admitted. K1145/K1150 remain `0/7` and no
+    protected status moves.
+
     K1281--K1285 prove that weighted homogeneity fixes outer parity in the
     connected split-D7 invariant ring: weight `W` has `p`-parity `(-1)^W`.
     The weight-21 coefficient required by K1273 is therefore odd whenever it
@@ -14021,6 +14036,19 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1286--K1290 construct the sharp algebraic escape left open by K1283. The
+  positive radial branch `r=sqrt(I2)` is independent of the orientation sheet,
+  and `lambda r^21 p` supplies a scale-uniform odd response on every `r>0`
+  fiber. A proper rank-seven finite selector now exists on the regular horn,
+  but it imports `r0`, five even shapes, an orientation magnitude and
+  `lambda`, is nonanalytic at the `I2=0` boundary, and supplies no source or
+  functional owner. Which released action, boundary or Green law derives
+  those data on the realized orbit image and places the selector on one common
+  closed BV-BFV domain with closed range, a positive quotient gap, causal
+  Green/maximal-generator data and positive nonzero cohomology? Do not promote
+  the repository algebraic branch to source parity breaking or global action
+  regularity.
+
   K1271--K1275 prove that nonzero odd dependence and stable uniform sign
   selection are distinct requirements. Any nonzero tilt of the canonical
   quartic fiber chooses one global sign, but removal of the opposite local
@@ -15990,6 +16018,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1286--K1290's sharp algebraic escape and ownership boundary.
+  `I2^(21/2)` supplies an even weight-21 coefficient on `I2>0`, the strict
+  threshold `|lambda|>4|c7|^3/(3sqrt(3))` gives one nondegenerate orientation
+  critical point at every scale, and a proper rank-seven selector exists on
+  the open radial/shape horn. Advance only with a released source action,
+  boundary or Green law deriving the algebraic radial term, `lambda`, the
+  scale and all six shape responses on the realized orbit image, together
+  with the common closed domain, closed range, positive gap, causal
+  Green/maximal generator and positive nonzero cohomology. Do not extend the
+  finite construction through `I2=0` analytically, erase its imported data or
+  count it as SC-ACT-06.
+
   Preserve K1271--K1275's response-magnitude, stability, scaling and symmetry
   boundary. A nonzero odd tilt selects one global sign, but a uniform
   nondegenerate one-critical-point selector requires a weight-twenty-one

@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1287-ALGEBRAIC-ORIENTATION-THRESHOLD",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "INTERNAL_TARGET:K1273_SCALE_UNIFORM_ODD_RESPONSE",
+  "scope": "Composition of K1286 with K1273's conditional quartic sign fiber on every r>0 positive-I2 radial slice.",
+  "pinned_inputs": {
+    "k1273": {"path": "lab/process/k1273-scale-covariant-single-basin-threshold.json", "sha256": "29cbb0fa2c8fdaab6c8f18514e989a9d84d35dc789eccd470dd24ee908316f41"},
+    "k1286": {"path": "lab/process/k1286-algebraic-weight21-radial-coefficient.json", "sha256": "1c991df6eac8b5f7b06ad1d6da81c47277179c2f345e4ef647c3ca099fac7ccc"}
+  },
+  "normalization": {
+    "fiber_scale": "a=|c7| r^7",
+    "algebraic_response": "epsilon=lambda r^21",
+    "normalized_strength": "eta=epsilon/a^3=lambda/|c7|^3",
+    "scale_independent_on_all_r_positive": true,
+    "metastable_free_condition": "|lambda| greater than or equal to 4 |c7|^3/(3 sqrt(3))",
+    "one_critical_point_condition": "|lambda| strictly greater than 4 |c7|^3/(3 sqrt(3))",
+    "threshold_equality": "one simple minimum plus one stationary inflection",
+    "selected_global_sign": "opposite sign(lambda)"
+  },
+  "decision": {
+    "algebraic_response_solves_conditional_scale_uniformity": true,
+    "strict_threshold_gives_one_nondegenerate_fiber_critical_point": true,
+    "dimensionless_lambda_source_derived": false,
+    "shape_magnitude_c7_source_derived": false,
+    "uniform_functional_gap_established": false
+  },
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Exact all-r positive-horn threshold for the conditional quartic fiber. It does not derive lambda, c7, a field-theory action or a uniform functional spectral gap.",
+  "controls": {"producer": "tests/channel-swings/k1287_algebraic_orientation_threshold.py", "probe": "tests/channel-swings/k1287_algebraic_orientation_threshold_probe.py", "controls_passed": 12, "hostile_mutations_rejected": 8}
+}

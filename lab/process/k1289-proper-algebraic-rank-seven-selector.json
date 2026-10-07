@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1289-PROPER-ALGEBRAIC-RANK-SEVEN-SELECTOR",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "INTERNAL_TARGET:K1263_UNIQUE_SIGN_SELECTOR",
+  "scope": "A repository-constructed algebraic selector on the regular positive-I2 radial/shape chart, not the complete realized orbit image or a functional field space.",
+  "pinned_inputs": {
+    "k1251": {"path": "lab/process/k1251-source-epsilon-radial-shape-chart.json", "sha256": "bcadd150075787034815ee375b358ef8d3ecdf06dd79c4cf05a7c492afcafe63"},
+    "k1287": {"path": "lab/process/k1287-algebraic-orientation-threshold.json", "sha256": "f1a0c1ae97930ebb50c60a93740f8e9fe9f75170e98b3928c5baaf39d9c61f94"}
+  },
+  "construction": {
+    "coordinates": "r>0 and y_d=I_d/r^d for d=4,6,7,8,10,12",
+    "inputs": "r0>0, five even shapes c4,c6,c8,c10,c12, orientation magnitude c>0 and lambda with |lambda|>4c^3/(3sqrt(3))",
+    "orientation_fiber": "f(y)=1/2(y^2-c^2)^2+lambda y",
+    "orientation_minimum": "unique critical point y_star, with f''(y_star)=6 y_star^2-2c^2>0",
+    "radial_barrier": "B=1/2(s-s^(-1))^2 with s=r/r0",
+    "potential": "U=B+1/2 sum_even (y_d-c_d)^2+r^28(f(y7)-f(y_star))",
+    "expanded_orientation_sector": "1/2(p^2-c^2 r^14)^2+lambda r^21 p-f(y_star) r^28",
+    "proper_on_open_horn_chart": true,
+    "unique_global_minimum": "r=r0, y_even=c_even, y7=y_star",
+    "hessian_diagonal_at_minimum": "(4/r0^2,1,1,1,1,1,r0^28 f''(y_star)) up to coordinate ordering",
+    "hessian_rank": 7,
+    "hessian_inertia": [7, 0, 0],
+    "hessian_determinant": "4 r0^26 f''(y_star)"
+  },
+  "decision": {
+    "finite_proper_unique_orientation_selector_exists_on_horn": true,
+    "six_shape_and_scale_data_eliminated": false,
+    "realized_orbit_image_classified": false,
+    "source_owned": false,
+    "functional_BV_BFV_properness_established": false
+  },
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Exact finite construction on the regular positive-I2 formal quotient chart. It imports scale, shapes and lambda and does not establish source ownership, realized-orbit coverage or functional properness.",
+  "controls": {"producer": "tests/channel-swings/k1289_proper_algebraic_rank_seven_selector.py", "probe": "tests/channel-swings/k1289_proper_algebraic_rank_seven_selector_probe.py", "controls_passed": 12, "hostile_mutations_rejected": 8}
+}

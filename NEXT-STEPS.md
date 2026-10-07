@@ -7,6 +7,18 @@ updated_at: "2026-10-06"
 
 # Next Steps For Contributors
 
+> **2026-10-06 K1286--K1290 ALGEBRAIC RADIAL ORIENTATION SELECTOR.** The
+> regular positive-`I2` radius supplies `I2^(21/2)=r^21`, an outer-even
+> algebraic coefficient of weight 21, so `lambda r^21 p` is the required
+> weight-28 odd response. Its normalized K1273 strength is
+> `lambda/|c7|^3`, independent of scale. A radial barrier, five even-shape
+> locks and the tilted orientation fiber give a proper rank-seven selector
+> with one minimum on the open horn. This proves the K1283 obstruction sharp,
+> but the term is nonanalytic at `I2=0`, imports scale, shapes and `lambda`, and
+> has no source or functional owner. Next derive those data from a released
+> action, boundary or Green law on the realized orbit image and pass the full
+> K1145/K1150 packet. Do not promote the algebraic construction to SC-ACT-06.
+
 > **2026-10-06 K1281--K1285 WEIGHTED ORIENTATION-SPURION BOUNDARY.** In
 > `R[e2,e4,e6,e8,e10,e12,p7]`, weighted degree and `p` exponent have the same
 > parity. An internally generated weight-21 coefficient is therefore odd, so
