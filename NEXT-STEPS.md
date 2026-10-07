@@ -7,6 +7,20 @@ updated_at: "2026-10-07"
 
 # Next Steps For Contributors
 
+> **2026-10-07 K1381--K1385 FINITE-`Lp` CHARGE-STAIRCASE BOUNDARY.** The
+> first direct weakening of K1378's endpoint estimate is now sharply resolved.
+> At charge-lift level `n`, finite spatial `L^p` control of the electric field
+> requires `H^(3/p)` regularity of `Q^(n+1)phi`. Diagonal modes on the actual
+> charge ladder with charge and spatial frequency both `4N` keep the `n`th lifted energy bounded while the
+> demanded mixed norm grows like `N^(3/p)`. Supplying that norm independently
+> gives an exact conditional square-root energy estimate, but any finite
+> rectangular charge--spatial hierarchy exposes another top corner under the
+> same bare Hölder induction. Next construct an action-compatible null form or
+> covariant spacetime estimate, a controlled diagonal weighted energy, or a
+> summable infinite hierarchy with a global bound; independently supply the
+> source-owned selector and normalization. Do not generalize the bare-Hölder
+> nonclosure theorem to all dispersive or invariant topologies.
+
 > **2026-10-07 K1376--K1380 CHARGE-LIFT PROPAGATION BOUNDARY.** K1372's
 > one-sided fixed-time topology is not invariant even under the free
 > charge-regularized flow: bounded initial data can develop

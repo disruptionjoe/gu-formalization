@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1385",
+  "title": "Finite-Lp charge-staircase admission boundary",
+  "pinned_inputs": {
+    "k1380": {"path": "lab/process/k1380-charge-lift-admission-boundary.json", "sha256": "73ff55e6feb6c4d2f9b12c750aef87b9d04d67c2dd9d441888f9faf72e987b9e"},
+    "k1384": {"path": "lab/process/k1384-finite-rectangle-nonclosure.json", "sha256": "fda5142e4960f4bf8efcddee3bd1f8d5c49ac1f30cfa82d8143dc5613cb9752e"}
+  },
+  "bridge_census": {
+    "row_count": 57,
+    "satisfied_count": 36,
+    "conditional_count": 6,
+    "excluded_count": 11,
+    "missing_count": 4,
+    "new_satisfied_rows": [
+      "sharp_finite_p_Holder_Sobolev_charge_spatial_trade_for_every_lift",
+      "diagonal_charge_frequency_obstruction_to_same_energy_finite_p_closure"
+    ],
+    "new_conditional_rows": ["finite_p_propagation_with_independently_controlled_mixed_staircase_norm"],
+    "new_excluded_rows": ["finite_rectangular_charge_spatial_hierarchy_closes_the_bare_finite_p_Holder_induction"],
+    "missing_rows": [
+      "source_owned_selection_and_normalization_of_the_compact_charge_reduction_on_the_observed_carrier",
+      "identification_with_one_source_action_derived_interacting_constraint_complex",
+      "closed_fully_coupled_global_nonlinear_BV_BFV_quotient_with_positive_physical_Hilbert_cohomology",
+      "source_owned_observed_state_and_export_map"
+    ]
+  },
+  "distance_update": {
+    "closed": [
+      "the exact finite_p Holder_Sobolev exponent trade is sigma_p=3/p",
+      "the same lifted energy cannot control that mixed norm for any finite p"
+    ],
+    "conditional": ["a supplied mixed norm M_(n,p) yields an exact square_root_energy propagation estimate"],
+    "excluded": ["any finite rectangular charge_spatial hierarchy closes the bare finite_p Holder induction"],
+    "opened_or_sharpened": [
+      "construct a null_form or covariant spacetime cancellation that avoids the next_charge spatial loss",
+      "construct a controlled diagonal anisotropic or summable infinite charge_spatial hierarchy"
+    ]
+  },
+  "decision": {
+    "sharp_finite_p_boundary_constructed": true,
+    "diagonal_obstruction_constructed": true,
+    "conditional_mixed_staircase_estimate_constructed": true,
+    "finite_rectangle_bare_holder_closure_constructed": false,
+    "global_null_form_or_weighted_hierarchy_constructed": false,
+    "fully_coupled_global_nonlinear_BV_BFV_domain_constructed": false,
+    "source_selected_reduction_constructed": false,
+    "positive_GU_physical_Hilbert_cohomology_constructed": false,
+    "k1145_k1150_candidate_counts_move": false,
+    "protected_status_change": false
+  },
+  "source_and_ledger_effect": "SOURCE_UNCHANGED; LEDGER_UNCHANGED; SC-ACT-01/02/06 ASSERTS; SC-META-53 UNCERTAIN; LT-SM8/LT-GR6b/RA-F1/AC-F1 NEEDS; K1145/K1150 0/7"
+}

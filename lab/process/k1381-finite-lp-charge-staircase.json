@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1381",
+  "title": "Finite spatial Lp control has a sharp mixed charge--Sobolev price",
+  "pinned_inputs": {
+    "k1378": {"path": "lab/process/k1378-coupled-charge-lift-gronwall.json", "sha256": "7edc07f1af8e2f49e0fe93fa9729e081199339df72732b2ecc04b1cb8a065b70"}
+  },
+  "holder_sobolev_trade": {
+    "lift": "psi_n=Q^n phi and j_n=e Im<Q psi_n,D psi_n>=e Im<Q^(n+1)phi,D Q^n phi>",
+    "range": "3<=p<=infinity; r_p=2p/(p-2); sigma_p=3/p; r_infinity=2 and sigma_infinity=0",
+    "holder": "|integral E dot j_n| <= |e| ||E||_p ||Q^(n+1)phi||_(r_p) ||D Q^n phi||_2",
+    "sobolev": "H^(sigma_p)(T3) embeds in L^(r_p)(T3) on the stated line",
+    "mixed_cost": "finite p requires ||Q^(n+1)phi||_(H^(3/p)); p=infinity requires only ||Q^(n+1)phi||_2 already in E_n",
+    "radial_term": "|integral partial_t f |psi_n|^2| <= ||partial_t f||_p ||psi_n||_(2p/(p-1))^2, controlled by H1 psi_n for p>=3",
+    "boundary": "the finite-p derivative loss is the charged electric-current factor in the bare Holder argument, not the radial multiplier"
+  },
+  "decision": {
+    "finite_p_trade_derived": true,
+    "sharp_exponents_named": true,
+    "endpoint_same_energy_closure": true,
+    "finite_p_same_energy_closure": false,
+    "null_form_or_strichartz_route_excluded": false,
+    "source_action_identified": false,
+    "protected_status_change": false
+  }
+}

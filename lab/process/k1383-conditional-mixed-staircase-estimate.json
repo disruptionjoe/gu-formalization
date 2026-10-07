@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1383",
+  "title": "Conditional finite-p propagation with an independently controlled mixed staircase norm",
+  "pinned_inputs": {
+    "k1378": {"path": "lab/process/k1378-coupled-charge-lift-gronwall.json", "sha256": "7edc07f1af8e2f49e0fe93fa9729e081199339df72732b2ecc04b1cb8a065b70"},
+    "k1382": {"path": "lab/process/k1382-diagonal-mode-mixed-norm-obstruction.json", "sha256": "d40ab7146a67806a0e441244e23eddfd62a7e0cf5ac726fdff8d145686bf0f42"}
+  },
+  "conditional_staircase": {
+    "mixed_norm": "M_(n,p)=||Q^(n+1)phi||_(H^(3/p)), 3<=p<infinity",
+    "electric_bound": "|integral E dot j_n| <= C_p |e| ||E||_p M_(n,p) E_n^(1/2)",
+    "radial_bound": "|integral partial_t f |psi_n|^2| <= C_p ||partial_t f||_p E_n",
+    "energy_inequality": "dE_n/dt <= C_p |e| ||E||_p M_(n,p) E_n^(1/2)+C_p ||partial_t f||_p E_n",
+    "square_root_form": "d sqrt(E_n)/dt <= C_p |e| ||E||_p M_(n,p)+C_p ||partial_t f||_p sqrt(E_n) wherever E_n>0",
+    "integrability": "propagation holds on intervals where ||E||_p M_(n,p) and ||partial_t f||_p are time-integrable",
+    "boundary": "the estimate assumes rather than derives M_(n,p), does not conserve an augmented hierarchy and does not prove global existence"
+  },
+  "decision": {
+    "conditional_finite_p_estimate": true,
+    "exact_missing_norm_named": true,
+    "radial_term_closes_at_same_level": true,
+    "mixed_norm_derived_from_E_n": false,
+    "augmented_hierarchy_conserved": false,
+    "global_large_data_theorem_proved": false,
+    "nonlinear_KT_BV_BFV_properness_proved": false,
+    "protected_status_change": false
+  }
+}

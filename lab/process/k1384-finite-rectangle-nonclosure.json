@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1384",
+  "title": "No finite rectangular charge--spatial hierarchy closes the bare finite-p Holder induction",
+  "pinned_inputs": {
+    "k1381": {"path": "lab/process/k1381-finite-lp-charge-staircase.json", "sha256": "dece4fbe5267d585e494aefd0b14dd8723ed4c0fe924d85c313e3115d55c46dd"},
+    "k1383": {"path": "lab/process/k1383-conditional-mixed-staircase-estimate.json", "sha256": "10dcf427bd661e3cd4b232f8573d962b5fefae1461075079cac7acd579d21716"}
+  },
+  "finite_rectangle": {
+    "assumed_hierarchy": "H^s_x D(Q^m) controlled only for 0<=s<=S and 0<=m<=N with finite S,N",
+    "top_corner": "the finite-p electric estimate at the top charge/spatial corner requires H^(S+3/p)_x D(Q^(N+1))",
+    "outside": "for every finite p, both the charge index and spatial exponent lie beyond the controlled rectangle",
+    "iteration": "raising either finite ceiling only moves the exposed corner and does not close the same bare Holder induction",
+    "witness": "the K1382 diagonal q_N=|k_N| modes make the missing top-corner control quantitative",
+    "method_boundary": "this excludes finite rectangular closure by bare Holder/Sobolev only",
+    "surviving_routes": "null-form cancellation, covariant spacetime estimates, a proved diagonal anisotropic energy, or a summable infinite analytic/Gevrey hierarchy remain open"
+  },
+  "decision": {
+    "finite_rectangle_bare_holder_closed": false,
+    "top_corner_loss_exact": true,
+    "diagonal_witness_available": true,
+    "null_form_closure_excluded": false,
+    "weighted_infinite_hierarchy_excluded": false,
+    "all_weaker_invariant_topologies_excluded": false,
+    "protected_status_change": false
+  }
+}

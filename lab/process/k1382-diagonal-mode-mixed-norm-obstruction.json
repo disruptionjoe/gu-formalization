@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1382",
+  "title": "Diagonal charge--frequency modes obstruct finite-p closure by the same lifted energy",
+  "pinned_inputs": {
+    "k1381": {"path": "lab/process/k1381-finite-lp-charge-staircase.json", "sha256": "dece4fbe5267d585e494aefd0b14dd8723ed4c0fe924d85c313e3115d55c46dd"}
+  },
+  "diagonal_modes": {
+    "mode": "Qe_(4N)=4N e_(4N); k_N=(4N,0,0); q_N=4N; phi_N=a_N exp(i k_N dot x)e_(4N)",
+    "amplitude": "a_N=q_N^(-n)(|k_N|^2+q_N^2)^(-1/2)",
+    "energy_normalization": "||grad Q^n phi_N||_2^2+||Q^(n+1)phi_N||_2^2=1 up to fixed Fourier normalization",
+    "mixed_norm": "||Q^(n+1)phi_N||_(H^(sigma))=q_N (1+|k_N|^2)^(sigma/2)/(|k_N|^2+q_N^2)^(1/2)=(1+(4N)^2)^(sigma/2)/sqrt(2), asymptotic to (4N)^sigma/sqrt(2)",
+    "finite_p": "sigma=3/p>0 for every finite p, so the demanded mixed norm diverges",
+    "endpoint": "p=infinity gives sigma=0 and a bounded next-charge L2 norm",
+    "jointness": "fixed charge or fixed spatial frequency misses the obstruction; both q_N and |k_N| grow on the actual 4N charge ladder"
+  },
+  "decision": {
+    "same_lifted_energy_uniformly_bounded": true,
+    "finite_p_mixed_norm_unbounded": true,
+    "same_energy_finite_p_bound_exists": false,
+    "endpoint_counterexample": false,
+    "all_dispersive_repairs_excluded": false,
+    "global_nonlinear_evolution_proved": false,
+    "protected_status_change": false
+  }
+}

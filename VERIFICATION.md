@@ -7,6 +7,26 @@ updated_at: "2026-10-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1381--K1385 finite-`Lp` charge-staircase boundary (2026-10-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Finite spatial `L^p` control closes the electric exchange at the same charge-lift level | K1381 exact Hölder exponents `r_p=2p/(p-2)`, `sigma_p=3/p`; `29/29`; `10/10` | false for finite `p` by bare Hölder/Sobolev; endpoint `p=infinity` retains same-energy closure |
+| The existing lifted energy controls the demanded mixed norm | K1382 diagonal `q_N=|k_N|=4N` modes; bounded energy and `N^(3/p)` mixed-norm growth; `27/27`; `10/10` | false for every finite `p`; exact joint charge/frequency obstruction |
+| A supplied mixed norm yields a finite-`p` propagation estimate | K1383 square-root energy inequality with `M_(n,p)=||Q^(n+1)phi||_H^(3/p)`; `25/25`; `10/10` | exact conditional estimate; the missing norm and global bound are not derived |
+| A finite rectangular charge--spatial hierarchy closes the bare induction | K1384 top-corner shift to `H^(S+3/p)D(Q^(N+1))`; `24/24`; `10/10` | false for this proof method; null forms, diagonal weights and summable infinite hierarchies remain open |
+| The advance closes GU physical admission | K1385 57-row bridge census; `27/27`; `10/10` | thirty-six satisfied, six conditional, eleven excluded and four missing; source selection and global physical quotient remain open |
+
+The five producers pass `132/132` controls and five probes reject `50/50`
+hostile mutations. The most immediate finite-`p` weakening is now exactly
+typed: it spends a positive spatial derivative at the next charge level and
+cannot close on the same energy or a finite rectangular hierarchy. This is a
+method-relative obstruction, not a no-go for null forms, covariant spacetime
+estimates or weighted infinite hierarchies. SC-ACT-01/02/06 remain `ASSERTS`,
+SC-META-53 remains `UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`,
+and K1145/K1150 stay `0/7`. No source, ledger, canon, paper, prediction,
+confirmation or public status moves.
+
 ## K1376--K1380 charge-lift propagation boundary (2026-10-07)
 
 | Claim | Evidence | Honest grade |
