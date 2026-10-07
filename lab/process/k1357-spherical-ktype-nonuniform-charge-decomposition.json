@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1357-SPHERICAL-KTYPE-NONUNIFORM-CHARGE-DECOMPOSITION",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "scope": "The restriction of one explicit M-spherical K-type in H_ps=L2(K/M) to K1356's selected compact circle; not a decomposition of released GU source fields or an observed Standard Model charge assignment.",
+  "pinned_inputs": {
+    "k1335": {"path": "lab/process/k1335-operator-intertwiner-admission-boundary.json", "sha256": "99f68437b43df42f1e49feb3b6b429cc410249cfff6c646ebd6af91e1f5909c9"},
+    "k1356": {"path": "lab/process/k1356-maximal-compact-circle-reduction.json", "sha256": "7cc6bd0d88e3db3b24f4e926682cb11e2a52f9eae40ebf5bce03545400137b10"}
+  },
+  "spherical_ktype": {
+    "compact_picture": "H_ps=L2(K/M) for the spherical principal series",
+    "candidate": "V=Sym^2_0(R^7_C) tensor 1, the trace-free quadratic representation of the first SO(7) factor",
+    "dimension": 27,
+    "M_action": "the split spherical M acts by simultaneous even sign changes; diagonal quadratic monomials are M-fixed",
+    "M_fixed_dimension": 6,
+    "occurrence": "Peter-Weyl and Frobenius reciprocity give multiplicity dim(V^M)=6 in L2(K/M)"
+  },
+  "charge_decomposition": {
+    "vector_weights": {"minus_2": 1, "zero": 5, "plus_2": 1},
+    "symmetric_square_before_trace": {"minus_4": 1, "minus_2": 5, "zero": 16, "plus_2": 5, "plus_4": 1},
+    "trace_free_weights": {"minus_4": 1, "minus_2": 5, "zero": 15, "plus_2": 5, "plus_4": 1},
+    "dimension_check": "1+5+15+5+1=27",
+    "nonuniformity": "the same irreducible K-type contains five distinct C charges, including neutral and nonzero sectors"
+  },
+  "decision": {
+    "M_spherical_K_type_occurs_in_H_ps": true,
+    "charge_decomposition_is_nonuniform": true,
+    "charge_set": [-4, -2, 0, 2, 4],
+    "single_nonzero_charge_sector_preserves_full_G": false,
+    "released_source_field_identified_with_V": false,
+    "observed_charge_assignment_constructed": false,
+    "protected_status_change": false
+  },
+  "claim_ceiling": "The selected compact circle acts nonuniformly on an explicit M-spherical 27-dimensional K-type that genuinely occurs in the completed principal-series Hilbert carrier, with multiplicities 1,5,15,5,1 at charges -4,-2,0,2,4. This is an internal mathematical weight decomposition, not a source or observed-particle charge assignment.",
+  "controls": {"producer": "tests/channel-swings/k1357_spherical_ktype_nonuniform_charge_decomposition.py", "probe": "tests/channel-swings/k1357_spherical_ktype_nonuniform_charge_decomposition_probe.py", "controls_passed": 21, "hostile_mutations_rejected": 10}
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1359-NONUNIFORM-CHARGE-GAUGE-BV-CORE",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "NOT-A-GU-KILL:repository-owned compact-charge interacting control",
+  "scope": "A repository-owned U(1) gauge-matter action on R x T3 with the unbounded internal charge generator Q from K1358, defined on the smooth spacetime/K-finite common core, together with formal classical BRST, BV and boundary BFV algebra; not a source action, closed nonlinear KT resolution, global solution theorem or quantum physical quotient.",
+  "pinned_inputs": {
+    "k1346": {"path": "lab/process/k1346-principal-series-scalar-electrodynamics-action.json", "sha256": "8e08d62d23d77832dd4022047f0fe74e72a3726f3d54ca7ba9f335ce01892127"},
+    "k1347": {"path": "lab/process/k1347-interacting-brst-bv-bfv-gauss-complex.json", "sha256": "a993f735eecdcb4574f4e40d2739d4da58102fd8d3489ff41211e47fa4cde613"},
+    "k1358": {"path": "lab/process/k1358-principal-series-charge-generator-domain.json", "sha256": "c91feee049717eb6052116b92353e5c5660d606df629acb710d4042a136c9601"}
+  },
+  "common_core": {
+    "spacetime": "M=R x T3 with Lorentzian product metric",
+    "matter_core": "C_c^infinity(R;C^infinity(T3)) algebraic_tensor H_Kfin",
+    "charge_action": "Q preserves H_Kfin and is bounded on every finite K-type summand, although unbounded on H_ps",
+    "field_policy": "matter fields, variations, ghosts and antifields are finite charge sums on the algebraic core",
+    "closure_limit": "no claim is made that the nonlinear equations preserve a completed graph domain globally in time"
+  },
+  "gauge_action": {
+    "covariant_derivative": "D_mu phi=partial_mu phi+i A_mu Q phi",
+    "local_transformation": "phi maps to exp(i alpha Q) phi and A maps to A-d alpha",
+    "covariance_identity": "D'_mu phi'=exp(i alpha Q) D_mu phi on the common core",
+    "curvature": "F=dA",
+    "action": "integral[-1/4 F_mu_nu F^mu_nu + <D_mu phi,D^mu phi> - m^2||phi||^2 - lambda/2 ||phi||^4]",
+    "nontrivial_interaction": "the current contains Im<phi,Q D_mu phi> and the seagull contains A_mu A^mu ||Q phi||^2",
+    "positive_energy": "for m^2>=0 and lambda>=0 the classical core energy is the sum of electric, magnetic, covariant-gradient, mass and quartic nonnegative terms"
+  },
+  "brst_bv_bfv": {
+    "brst_rules": "sA=dc, s phi=i c Q phi, s c=0 and s bar(phi)=-i c bar(phi) Q",
+    "nilpotence": "s^2=0 on the common core because Q commutes with itself, sc=0 and the odd ghost squares to zero",
+    "gauss_constraint": "div E minus the Q-weighted matter charge density vanishes",
+    "classical_bv": "the minimal BV antifield couplings A* dc + phi* i c Q phi + conjugate close the classical master equation formally on the core",
+    "boundary_bfv": "the boundary charge is the ghost paired with the Gauss constraint and is nilpotent under the induced BFV bracket",
+    "full_G_boundary": "the construction preserves the selected circle and its centralizer, not the full split G action on each fixed charge sector"
+  },
+  "decision": {
+    "operator_valued_charge_action_constructed": true,
+    "local_gauge_covariance_on_core": true,
+    "nonzero_current_and_seagull_interactions": true,
+    "positive_classical_core_energy": true,
+    "classical_BRST_nilpotent_on_core": true,
+    "formal_BV_BFV_algebra_constructed_on_core": true,
+    "completed_common_graph_domain_proved": false,
+    "global_nonlinear_causal_evolution_proved": false,
+    "closed_nonlinear_physical_hilbert_cohomology_proved": false,
+    "source_action_identified": false,
+    "source_observation_map_constructed": false,
+    "protected_status_change": false
+  },
+  "claim_ceiling": "The K1356 compact circle can replace K1346's uniform scalar charge by a genuinely nonuniform self-adjoint operator Q while retaining exact local gauge covariance, interacting current/seagull terms, positive classical energy and formal BRST/BV-BFV algebra on one dense invariant K-finite core. The unbounded charge makes completed-domain preservation a new obligation; source ownership, global nonlinear closure and positive physical Hilbert cohomology remain open.",
+  "controls": {"producer": "tests/channel-swings/k1359_nonuniform_charge_gauge_bv_core.py", "probe": "tests/channel-swings/k1359_nonuniform_charge_gauge_bv_core_probe.py", "controls_passed": 25, "hostile_mutations_rejected": 10}
+}

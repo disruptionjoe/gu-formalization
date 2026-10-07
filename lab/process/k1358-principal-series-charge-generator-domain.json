@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1358-PRINCIPAL-SERIES-CHARGE-GENERATOR-DOMAIN",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "scope": "The Stone generator of K1356's genuine compact-circle restriction on the complete unitary principal-series Hilbert space and its K-finite core; not a proof that the source action selects this domain or that the interacting nonlinear quotient closes on it.",
+  "pinned_inputs": {
+    "k1357": {"path": "lab/process/k1357-spherical-ktype-nonuniform-charge-decomposition.json", "sha256": "771b3bbc2357ff7c63282628d401938b4cf790cd319f67e353a8a1e715adb740"}
+  },
+  "stone_generator": {
+    "circle_action": "U(alpha)=pi([exp(alpha e1e2),1]) is a strongly continuous unitary representation of R/(2 pi Z)",
+    "generator": "U(alpha)=exp(i alpha Q) with Q self-adjoint by Stone's theorem",
+    "spectral_decomposition": "H_ps is the Hilbert direct sum of integer charge spaces H_q",
+    "operator_domain": "D(Q)={v=sum_q v_q: sum_q q^2 ||v_q||^2 is finite}",
+    "core": "the algebraic K-finite subspace H_Kfin is dense, C-invariant, a finite charge sum on each vector, and a core for Q",
+    "sector_boundary": "each H_q is C-invariant, while a nonzero fixed H_q is not invariant under full G by K1352"
+  },
+  "unboundedness_witness": {
+    "family": "for every n>=1, the M-spherical harmonic K-type Sym^(2n)_0(R^7_C) tensor 1 occurs in L2(K/M)",
+    "M_fixed_witness": "the harmonic projection of x1^(2n) is nonzero and M-fixed because every split-sign element changes x1 only by a sign",
+    "extreme_charges": "the selected spin-circle has charges plus_or_minus 4n on the highest and lowest two-plane monomials",
+    "conclusion": "the integer spectrum of Q is unbounded in both signs",
+    "domain_is_proper": "choosing normalized vectors at charges q_n=4n with coefficients 1/n gives a Hilbert vector because sum 1/n^2 converges but not a D(Q) vector because sum q_n^2/n^2 diverges"
+  },
+  "decision": {
+    "charge_generator_self_adjoint": true,
+    "charge_spectrum_integral": true,
+    "charge_spectrum_unbounded_above": true,
+    "charge_spectrum_unbounded_below": true,
+    "K_finite_core_dense_and_invariant": true,
+    "charge_generator_bounded_on_full_H_ps": false,
+    "operator_domain_equals_full_H_ps": false,
+    "source_selects_domain": false,
+    "protected_status_change": false
+  },
+  "claim_ceiling": "The selected compact circle has an honest self-adjoint integer charge generator on the completed principal series, with a dense invariant K-finite core and exact graph domain. Its spectrum is unbounded in both signs, so replacing K1346's scalar charge by Q creates a real common-domain obligation rather than a bounded relabeling.",
+  "controls": {"producer": "tests/channel-swings/k1358_principal_series_charge_generator_domain.py", "probe": "tests/channel-swings/k1358_principal_series_charge_generator_domain_probe.py", "controls_passed": 20, "hostile_mutations_rejected": 9}
+}

@@ -7,6 +7,24 @@ updated_at: "2026-10-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1356--K1360 maximal-compact nonuniform-charge bridge control (2026-10-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| An explicit compact circle evades the full-split kinetic obstruction | K1356 primitive spin-circle normalization, compact centralizer boundary and positive trace-form control; `20/20`; `9/9` | exact repository-selected compact reduction; no source selection or hypercharge identification |
+| A genuine spherical K-type carries nonuniform integer charges | K1357 M-fixed multiplicity six and trace-free quadratic weights `1,5,15,5,1` at charges `-4,-2,0,2,4`; `21/21`; `10/10` | exact K-type theorem inside `L2(K/M)`; no released-field or observed-particle assignment |
+| The full compact charge is self-adjoint but unbounded | K1358 Stone generator, integer spectral domain, dense K-finite core and `plus_or_minus 4n` spherical witnesses; `20/20`; `9/9` | exact operator-domain theorem; completed interacting graph-domain preservation remains open |
+| Nonuniform charge is compatible with interacting gauge/BV algebra on the core | K1359 operator-charge covariant derivative, current, seagull, positive energy and formal BRST/BV-BFV identities; `25/25`; `10/10` | exact classical algebra on the dense invariant core; no global nonlinear quotient or source action |
+| Compact feasibility does not close GU physical admission | K1360 37-row bridge census; `29/29`; `10/10` | twenty-four satisfied, four conditional, five excluded and four missing; K1145/K1150 remain `0/7` |
+
+The five producers pass `115/115` controls and five probes reject `48/48`
+hostile mutations. The maximal-compact escape left open by K1355 is therefore
+mathematically real, but it introduces an unbounded charge-domain obligation
+and retains explicit symmetry reduction. SC-ACT-01/02/06 remain `ASSERTS`,
+SC-META-53 remains `UNCERTAIN`, and LT-SM8/LT-GR6b/RA-F1/AC-F1 remain
+`NEEDS`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
+
 ## K1351--K1355 principal-series gauge-bridge obstructions (2026-10-07)
 
 | Claim | Evidence | Honest grade |

@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1356-MAXIMAL-COMPACT-CIRCLE-REDUCTION",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "scope": "One explicitly selected primitive circle in the first Spin(7) factor of the maximal compact subgroup K=(Spin(7)xSpin(7))/diagonal{plus_or_minus_one}, with its positive compact kinetic control; not a source-selected stabilizer, hypercharge identification or physical observation reduction.",
+  "pinned_inputs": {
+    "k1354": {"path": "lab/process/k1354-split-gauge-kinetic-positivity-boundary.json", "sha256": "0db132aac445ced91ccf18b8b9319b938bf9b9d6f810a318068184f1fd481a03"}
+  },
+  "compact_reduction": {
+    "split_group": "G=Spin_0(7,7)",
+    "maximal_compact": "K=(Spin(7)xSpin(7))/diagonal{plus_or_minus_one}",
+    "compact_algebra": "k=so(7)+so(7), dimension 42",
+    "selected_circle": "C={[exp(alpha e1e2),1]:alpha in R/(2 pi Z)} inside K",
+    "cover_normalization": "exp(alpha e1e2) rotates the first vector two-plane by angle 2 alpha; alpha=pi gives the nontrivial class [-1,1] and alpha=2 pi gives the identity",
+    "generator": "T=e1e2 in the first spin(7) factor, normalized so C has period 2 pi",
+    "centralizer_boundary": "selecting C preserves its compact centralizer rather than the full connected split group"
+  },
+  "positive_control": {
+    "full_split_obstruction": "K1354 excludes a positive Ad(G)-invariant quadratic form on all so(7,7)",
+    "compact_restriction": "-B is positive definite on k and in particular on R T",
+    "matrix_control": "the projected vector generator is J12=E12-E21 with Tr(J12^2)=-2",
+    "normalized_circle_norm": "-Tr(J12^2)/2=1",
+    "kinetic_conclusion": "a C-valued curvature has a positive one-dimensional quadratic kinetic form after this compact reduction"
+  },
+  "decision": {
+    "explicit_maximal_compact_circle_constructed": true,
+    "circle_is_compact": true,
+    "positive_circle_kinetic_control_exists": true,
+    "full_G_invariance_preserved": false,
+    "source_selects_this_circle": false,
+    "source_hypercharge_identified": false,
+    "observed_carrier_reduction_constructed": false,
+    "sc_meta_53_resolved": false,
+    "protected_status_change": false
+  },
+  "claim_ceiling": "A mathematically explicit compact circle inside the maximal compact subgroup evades K1354's full-split positivity obstruction and has a positive quadratic kinetic control. The coordinate-circle choice reduces symmetry and is repository-selected; the source does not select it, normalize it as hypercharge, or identify its weight spaces with observed fields.",
+  "controls": {"producer": "tests/channel-swings/k1356_maximal_compact_circle_reduction.py", "probe": "tests/channel-swings/k1356_maximal_compact_circle_reduction_probe.py", "controls_passed": 20, "hostile_mutations_rejected": 9}
+}

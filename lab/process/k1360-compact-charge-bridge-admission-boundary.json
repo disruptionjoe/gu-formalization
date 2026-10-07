@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1360-COMPACT-CHARGE-BRIDGE-ADMISSION-BOUNDARY",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "scope": "Admission replay after constructing a repository-selected maximal-compact circle, one exact spherical K-type charge decomposition, the full self-adjoint charge-generator domain and a nonuniform-charge interacting gauge/BRST/BV-BFV core.",
+  "pinned_inputs": {
+    "k1355": {"path": "lab/process/k1355-principal-series-gauge-bridge-admission-boundary.json", "sha256": "872adc98a88ed3e0ce5afdccceb9c7c4a000ded7fb198bea7a93c6055307f5a3"},
+    "k1356": {"path": "lab/process/k1356-maximal-compact-circle-reduction.json", "sha256": "7cc6bd0d88e3db3b24f4e926682cb11e2a52f9eae40ebf5bce03545400137b10"},
+    "k1357": {"path": "lab/process/k1357-spherical-ktype-nonuniform-charge-decomposition.json", "sha256": "771b3bbc2357ff7c63282628d401938b4cf790cd319f67e353a8a1e715adb740"},
+    "k1358": {"path": "lab/process/k1358-principal-series-charge-generator-domain.json", "sha256": "c91feee049717eb6052116b92353e5c5660d606df629acb710d4042a136c9601"},
+    "k1359": {"path": "lab/process/k1359-nonuniform-charge-gauge-bv-core.json", "sha256": "6b9178661924c9a00324268c71c6d147b2bb0b744e6c31adc4360fc67b87e677"}
+  },
+  "bridge_census": {
+    "row_count": 37,
+    "satisfied_count": 24,
+    "conditional_count": 4,
+    "excluded_count": 5,
+    "missing_count": 4,
+    "new_satisfied_rows": [
+      "explicit_repository_selected_maximal_compact_circle",
+      "positive_quadratic_circle_gauge_kinetic_control",
+      "M_spherical_K_type_with_nonuniform_integer_charge_weights",
+      "unbounded_self_adjoint_integer_charge_generator_on_H_ps",
+      "dense_invariant_K_finite_common_charge_core",
+      "repository_owned_Q_gauged_classical_BRST_BV_BFV_algebra_on_core"
+    ],
+    "conditional_rows": [
+      "positive_nonzero_cohomology_for_repository_owned_free_Maxwell_quotient_only",
+      "nonzero_bounded_linear_scalar_export_after_choosing_eta_and_reducing_internal_symmetry",
+      "positive_interacting_energy_and_nonzero_vacuum_linearized_BRST_cohomology_for_repository_control_only",
+      "nonzero_bounded_nonlinear_invariant_scalar_map_without_source_observation_semantics"
+    ],
+    "excluded_rows": [
+      "nontrivial_continuous_full_G_character_to_U1",
+      "nontrivial_internal_one_parameter_subgroup_acting_as_one_uniform_scalar_phase_on_H_ps",
+      "nonzero_internal_fixed_charge_sector_preserving_full_G_irreducibility",
+      "nonzero_pointwise_linear_equivariant_map_from_finite_source_fibre_to_H_ps",
+      "positive_definite_Ad_G_invariant_quadratic_gauge_kinetic_form_on_full_split_so_7_7"
+    ],
+    "missing_rows": [
+      "source_owned_selection_and_normalization_of_the_compact_charge_reduction_on_the_observed_carrier",
+      "identification_with_one_source_action_derived_interacting_constraint_complex",
+      "closed_global_nonlinear_BV_BFV_quotient_with_positive_physical_Hilbert_cohomology",
+      "source_owned_observed_state_and_export_map"
+    ]
+  },
+  "distance_update": {
+    "closed": [
+      "existence of a positive compact-circle control after explicit symmetry reduction",
+      "existence of nonuniform charge weights in an actual M-spherical K-type of H_ps",
+      "self-adjoint charge operator and exact graph domain on the complete Hilbert carrier",
+      "formal compatibility of that charge operator with one interacting gauge/BRST/BV-BFV core"
+    ],
+    "opened_or_sharpened": [
+      "the charge operator is unbounded, so completed-domain preservation cannot be inherited from K1346's bounded scalar charge",
+      "the coordinate circle and charge normalization remain repository choices",
+      "a fixed charge sector preserves only the circle centralizer, not full G"
+    ]
+  },
+  "decision": {
+    "maximal_compact_route_mathematically_constructed": true,
+    "nonuniform_charge_route_mathematically_constructed": true,
+    "operator_charge_interacting_core_constructed": true,
+    "source_selected_reduction_constructed": false,
+    "actual_observed_carrier_charge_map_constructed": false,
+    "completed_global_nonlinear_domain_constructed": false,
+    "positive_physical_Hilbert_cohomology_constructed": false,
+    "k1145_k1150_candidate_counts_move": false,
+    "protected_status_change": false
+  },
+  "source_and_ledger_effect": "SC-ACT-01_02_06_ASSERTS_UNCHANGED__SC-META-53_UNCERTAIN_UNCHANGED__LT-SM8_LT-GR6b_RA-F1_AC-F1_NEEDS_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "The strongest mathematical maximal-compact escape left by K1355 is real: an explicit compact circle has a positive kinetic control, nonuniform integer weights in an actual spherical K-type, an unbounded self-adjoint generator with exact dense core, and an interacting gauge/BRST/BV-BFV realization on that core. The result does not select the circle from GU, identify observed charges, preserve full G on fixed sectors, close the nonlinear domain or construct positive physical Hilbert cohomology.",
+  "controls": {"producer": "tests/channel-swings/k1360_compact_charge_bridge_admission_boundary.py", "probe": "tests/channel-swings/k1360_compact_charge_bridge_admission_boundary_probe.py", "controls_passed": 29, "hostile_mutations_rejected": 10}
+}

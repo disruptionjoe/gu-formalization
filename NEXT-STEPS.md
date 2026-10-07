@@ -7,6 +7,24 @@ updated_at: "2026-10-07"
 
 # Next Steps For Contributors
 
+> **2026-10-07 K1356--K1360 MAXIMAL-COMPACT NONUNIFORM-CHARGE
+> CONTROL.** The compact escape left open by K1355 is now explicit. A
+> primitive circle in the first compact `Spin(7)` factor has a positive
+> quadratic kinetic form; the M-spherical trace-free quadratic K-type occurs
+> in `L2(K/M)` and carries charges `-4,-2,0,2,4` with multiplicities
+> `1,5,15,5,1`. On the full principal series its charge generator is
+> self-adjoint with integer spectrum and dense K-finite core, but is unbounded
+> in both signs. Replacing K1346's scalar charge by this operator preserves
+> exact local gauge covariance, interacting current/seagull terms, positive
+> classical energy and formal BRST/BV-BFV algebra on that core. The circle,
+> normalization and observed assignment remain repository choices. Next
+> derive a source/action-owned compact or Cartan selector on the actual
+> observed carrier and prove that its constraint/observation maps preserve
+> `D(Q)`; then close the nonlinear graph domain, global causal evolution and
+> positive physical cohomology. The independent alternative remains a typed
+> nonlinear/nonlocal source-section observation map. Do not call the selected
+> circle hypercharge or promote core algebra to a closed physical quotient.
+
 > **2026-10-07 K1351--K1355 PRINCIPAL-SERIES GAUGE-BRIDGE
 > OBSTRUCTIONS.** The direct symmetry relabelings are now classified.
 > Connected `Spin_0(7,7)` has no nontrivial U(1) character; no internal

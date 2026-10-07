@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: fd864658f53f4716ccc5c19b2f0d2fb1617dce0d
+revision_basis: f0d80517de30bcc13007e6c6f4478f200bb944a1
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1356--K1360 construct the strongest mathematical maximal-compact escape
+    left open by K1355. A primitive circle in the first compact `Spin(7)`
+    factor has a positive one-dimensional kinetic form. The M-spherical
+    trace-free quadratic K-type occurs in `H_ps=L2(K/M)` with multiplicity six
+    and decomposes into charges `-4,-2,0,2,4` with multiplicities
+    `1,5,15,5,1`. On the full Hilbert carrier the circle generator is
+    self-adjoint with integer spectrum and a dense invariant K-finite core,
+    but spherical harmonic witnesses of charges `plus_or_minus 4n` make it
+    unbounded in both signs. Replacing K1346's scalar charge by this operator
+    gives exact local gauge covariance, nonzero current/seagull interactions,
+    positive classical energy and formal BRST/BV-BFV algebra on that common
+    core. The coordinate circle, normalization and observed assignment remain
+    repository choices; completed graph-domain preservation, global nonlinear
+    evolution, positive physical cohomology and the source observation map are
+    absent. The 37-row census has twenty-four satisfied, four conditional,
+    five excluded and four missing rows; K1145/K1150 remain 0/7 and protected
+    statuses do not move.
+
     K1351--K1355 classify the most direct source-to-K1346 gauge bridges.
     Connected `Spin_0(7,7)` has no nontrivial continuous U(1) character;
     no internal one-parameter subgroup acts by one nonzero scalar phase on
@@ -14242,6 +14260,20 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1356--K1360 prove that a selected maximal-compact circle can carry a
+  positive kinetic form, nonuniform integer charges in an actual spherical
+  K-type, and an interacting gauge/BRST/BV-BFV algebra on the dense K-finite
+  core. The full charge generator is self-adjoint but unbounded. Which
+  source/action-derived reduction on the actual observed carrier selects the
+  compact generator or Cartan majorant, fixes its normalization and proves
+  that the source constraint and observation maps preserve `D(Q)`? Then can
+  the operator-charge nonlinear flow be closed globally with causal evolution,
+  closed KT/BV-BFV quotient and positive nonzero physical Hilbert cohomology?
+  Do not identify the coordinate circle with hypercharge, its K-type weights
+  with observed particles, or core algebra with a completed quotient. The
+  strongest independent alternative is a typed nonlinear or nonlocal map from
+  released source section spaces into the principal-series carrier.
+
   K1351--K1355 exclude the obvious direct identifications between K1346's
   uniform U(1) phase and the full split-D7 symmetry: there is no full-group
   character, no nontrivial internal uniform phase, no full-G-invariant
@@ -16315,6 +16347,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1356--K1360's compact-control boundary. The selected spin-circle
+  has a positive kinetic form; an actual M-spherical K-type has charges
+  `-4,-2,0,2,4`; and the full self-adjoint generator has an exact dense
+  K-finite core but unbounded two-sided spectrum. Advance the compact route
+  only with a source/action-owned selector and normalization on the actual
+  observed carrier, plus proof that the source constraints and observation
+  maps preserve `D(Q)` and its charge decomposition. Then prove a completed
+  common graph domain, global causal nonlinear evolution, closed KT/BV-BFV
+  quotient and positive nonzero physical Hilbert cohomology. Alternatively,
+  construct a typed nonlinear, differential, integral or distributional
+  source-section map with declared domain, equivariance reduction, action
+  owner and observed semantics. Do not promote the repository-selected circle,
+  even charge normalization or formal core algebra to source ownership.
+
   Preserve K1351--K1355's direct bridge exclusions and their quantifiers.
   The connected split group has no nontrivial U(1) character; its nontrivial
   irreducible principal series admits neither a nonzero uniform internal phase
