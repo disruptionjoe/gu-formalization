@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1294-REALIZED-SELECTOR-TRANSFER",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "SC-ACT-06",
+  "scope": "Transfer of K1259's target-centered proper polynomial and K1289's horn selector to the realized regular split-D7 quotient under an explicit feasibility certificate.",
+  "gu_typed_objects": {
+    "carrier": "real split Cartan h=R7 and its regular connected D7 Weyl quotient",
+    "pairing": "positive residual-square pairing scaled by r0",
+    "real_structure": "real feasible invariant target with seven distinct nonnegative squared roots",
+    "grading": "inhomogeneous polynomial residual square across degrees 2,4,6,7,8,10,12",
+    "action_owner": "repository-constructed selector; target and coefficients are not source-owned",
+    "target": "SELECTOR-TYPE=realized_regular_D7_orbit"
+  },
+  "pinned_inputs": {
+    "k1259": {"path": "lab/process/k1259-global-proper-formal-selector-repair.json", "sha256": "cf2af44ba2a0a2a80fbed596a358a46a0c2a64e361a8c24a88924f0ebf4a318f"},
+    "k1289": {"path": "lab/process/k1289-proper-algebraic-rank-seven-selector.json", "sha256": "8ef9ad19bdfa8d9fd58bf7985bc69660f53525cabd266e27f9f9f93aca17cbc4"},
+    "k1291": {"path": "lab/process/k1291-realized-split-d7-invariant-image.json", "sha256": "3d21882f8724804f359924faec7335628421fbdf9a6ce9f10194c8d7b7d4d268"},
+    "k1293": {"path": "lab/process/k1293-regular-orbit-jacobian.json", "sha256": "75617adb383d651ef7d3588d338e25089f56cde8e366eba8920f23af921bbe26"}
+  },
+  "theorem": {
+    "feasibility_condition": "the K1291 polynomial has seven nonnegative real roots and the K1293 discriminant is nonzero",
+    "potential": "V(x)=1/2 sum_d ((I_d(x)-a_d)/r0^d)^2",
+    "degrees": [2, 4, 6, 7, 8, 10, 12],
+    "proper_on_Cartan": true,
+    "zero_set": "one W(D7) orbit when a is feasible",
+    "cartan_hessian": "dF_x^T diag(r0^(-2d)) dF_x at a realized zero",
+    "cartan_hessian_rank": 7,
+    "cartan_hessian_inertia": [7, 0, 0],
+    "cartan_hessian_determinant": "2^12*r0^-98*product_{i<j}(x_i^2-x_j^2)^2",
+    "infeasible_target_zero_set_empty": true,
+    "k1289_transfer": "its unique horn minimum transfers exactly when the six normalized target shapes lie in the K1292 regular image",
+    "imports_one_scale_and_six_shapes": true,
+    "source_owned": false,
+    "functional_BV_BFV_properness": false
+  },
+  "decision": {
+    "realized_orbit_gap_for_feasible_finite_targets_closed": true,
+    "all_formal_targets_transfer": false,
+    "finite_realization_reduces_imported_data": false,
+    "SC_ACT_06_proved_or_refuted": false,
+    "next_exact_input": "A released action, boundary or Green law must select a target that passes the root/discriminant feasibility test and must still supply the common functional packet."
+  },
+  "source_and_ledger_effect": "SC-ACT-01_02_06_ASSERTS_UNCHANGED__SC-META-53_UNCERTAIN_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Exact finite realized-target transfer theorem. It selects one mathematical Weyl orbit only after importing its complete invariant target and supplies no source action or functional physical theory.",
+  "controls": {"producer": "tests/channel-swings/k1294_realized_selector_transfer.py", "probe": "tests/channel-swings/k1294_realized_selector_transfer_probe.py", "controls_passed": 16, "hostile_mutations_rejected": 9}
+}

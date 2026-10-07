@@ -7,6 +7,21 @@ updated_at: "2026-10-06"
 
 # Next Steps For Contributors
 
+> **2026-10-06 K1291--K1295 REALIZED SPLIT-D7 INVARIANT IMAGE.** The complete
+> real invariant image is the root region where
+> `t^7-I2 t^6+I4 t^5-I6 t^4+I8 t^3-I10 t^2+I12 t-I7^2` has seven
+> nonnegative real roots. Its normalized shape image is a compact simplex
+> quotient, not all of `R6`. The connected-D7 Jacobian is `2^6` times the
+> Vandermonde in `x_i^2`, so regular `p=0` is smooth even though the outer
+> `p^2` quotient branches there. Opposite signs at fixed even invariants are
+> distinct orbits but are joined in the regular quotient by varying through
+> `p=0`. Every explicitly feasible regular target transfers K1259 to a proper
+> Cartan selector with one Weyl orbit of minima and positive rank-seven
+> Hessian. Next derive a target passing the root/discriminant tests, `lambda`
+> and all six shapes from a released action, boundary or Green law, then pass
+> K1145/K1150. Do not identify finite quotient realizability with source or
+> functional ownership.
+
 > **2026-10-06 K1286--K1290 ALGEBRAIC RADIAL ORIENTATION SELECTOR.** The
 > regular positive-`I2` radius supplies `I2^(21/2)=r^21`, an outer-even
 > algebraic coefficient of weight 21, so `lambda r^21 p` is the required

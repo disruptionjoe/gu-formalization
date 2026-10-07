@@ -7,6 +7,20 @@ updated_at: "2026-10-06"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1291--K1295 realized split-D7 invariant image (2026-10-06)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The complete real invariant image is a nonnegative-root region | K1291 Vieta reconstruction and connected-Weyl orbit test; `14/14`; `8/8` | exact finite split-Cartan invariant theorem; not a physical phase space |
+| The normalized shape image is compact and p sign is not a component label | K1292 simplex normalization, sharp Maclaurin bounds and regular sign-changing path; `16/16`; `9/9` | exact realized-shape theorem; path is not physical evolution or gauge identification |
+| The connected quotient is smooth exactly on the D7-regular locus | K1293 Vandermonde Jacobian and p-zero control; `13/13`; `8/8` | exact local quotient theorem; outer p-squared quotient alone branches at p=0 |
+| Feasible targets transfer the proper selector to actual Cartan orbits | K1294 zero-set, properness and positive Hessian determinant; `16/16`; `9/9` | exact finite transfer under root/discriminant feasibility; target remains imported |
+| Source and functional admission remain absent | K1295 nineteen satisfied, six excluded, four conditional and six missing rows; `15/15`; `9/9` | K1145/K1150 `0/7`; no physical or protected-status movement |
+
+Five producers pass `74/74` declared controls and five probes reject `43/43`
+hostile mutations. SC-ACT-01/02/06, SC-META-53, the physics ledger and all
+protected verdicts remain unchanged.
+
 ## K1286--K1290 algebraic radial orientation selector (2026-10-06)
 
 | Claim | Evidence | Honest grade |

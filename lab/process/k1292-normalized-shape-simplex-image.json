@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1292-NORMALIZED-SHAPE-SIMPLEX-IMAGE",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "SC-ACT-06",
+  "scope": "Normalized I2-positive realized split-D7 shape image and its orientation-sign topology.",
+  "gu_typed_objects": {
+    "carrier": "probability simplex Delta6 modulo permutations, lifted by the signed square root of its coordinate product",
+    "pairing": "ordinary finite coordinate pairing",
+    "real_structure": "q_i nonnegative with sum q_i=1 and real signed y7",
+    "grading": "six dilation-invariant shapes of weights 4,6,7,8,10,12",
+    "action_owner": "repository quotient theorem only; normalized target data remain imported",
+    "target": "IMAGE-TYPE=normalized_realized_shape_quotient"
+  },
+  "pinned_inputs": {
+    "k1291": {"path": "lab/process/k1291-realized-split-d7-invariant-image.json", "sha256": "3d21882f8724804f359924faec7335628421fbdf9a6ce9f10194c8d7b7d4d268"}
+  },
+  "theorem": {
+    "normalization": "q_i=x_i^2/I2, sum_i q_i=1",
+    "shape_coordinates": ["y4=e2(q)", "y6=e3(q)", "y7=p/I2^(7/2)", "y8=e4(q)", "y10=e5(q)", "y12=e6(q)"],
+    "orientation_relation": "y7^2=e7(q)=product_i q_i",
+    "shape_image": "continuous image of Delta6 times the allowed sign of y7, modulo S7",
+    "compact": true,
+    "maclaurin_upper_bounds": {
+      "y4": "21/7^2",
+      "y6": "35/7^3",
+      "y8": "35/7^4",
+      "y10": "21/7^5",
+      "y12": "7/7^6",
+      "abs_y7": "7^(-7/2)"
+    },
+    "upper_equality": "q1=...=q7=1/7, which lies on the singular collision locus",
+    "regular_locus": "q_i are pairwise distinct; q_i=0 is allowed when it occurs once",
+    "sign_path": "x(t)=(t,2,3,4,5,6,7), -1<=t<=1, stays D7-regular and changes p sign through p=0",
+    "opposite_sign_fixed_even_fibers_are_distinct_orbits": true,
+    "opposite_sign_regular_orbits_are_separate_connected_components": false
+  },
+  "decision": {
+    "ambient_R6_shape_chart_equals_realized_shape_image": false,
+    "realized_shape_image_is_compact": true,
+    "p_sign_is_a_global_component_label": false,
+    "source_orientation_selected": false,
+    "next_exact_input": "Compute the exact invariant-map Jacobian and distinguish the connected D7 quotient from the branched outer B7 quotient at p=0."
+  },
+  "source_and_ledger_effect": "SC-ACT-01_02_06_ASSERTS_UNCHANGED__SC-META-53_UNCERTAIN_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Exact normalized finite shape-image and topology theorem. The regular sign path is not a physical tunneling history, gauge identification or action-selected orientation.",
+  "controls": {"producer": "tests/channel-swings/k1292_normalized_shape_simplex_image.py", "probe": "tests/channel-swings/k1292_normalized_shape_simplex_image_probe.py", "controls_passed": 16, "hostile_mutations_rejected": 9}
+}

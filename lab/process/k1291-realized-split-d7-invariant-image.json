@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1291-REALIZED-SPLIT-D7-INVARIANT-IMAGE",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "SC-ACT-06",
+  "scope": "Complete real image of the connected split-D7 Cartan invariant map (e1(x^2),...,e6(x^2),p(x)).",
+  "gu_typed_objects": {
+    "carrier": "maximally split Cartan h=R7 with coordinates x1 through x7",
+    "pairing": "ordinary real polynomial coordinate pairing",
+    "real_structure": "real split Cartan and real-rooted monic polynomial",
+    "grading": "primitive invariant degrees 2,4,6,7,8,10,12",
+    "action_owner": "repository invariant theorem only; no source action owns a target value",
+    "target": "IMAGE-TYPE=connected_D7_Cartan_invariant_quotient"
+  },
+  "pinned_inputs": {
+    "k1269": {"path": "lab/process/k1269-d7-b7-invariant-quotient-boundary.json", "sha256": "20e082fb93c76b6bd229a09bc0cec1eff30cd9a633e6848de868d9c06c9affaa"}
+  },
+  "theorem": {
+    "invariant_map": "F(x)=(e1(z),e2(z),e3(z),e4(z),e5(z),e6(z),p), z_i=x_i^2, p=product_i x_i",
+    "characteristic_polynomial": "P_F(t)=t^7-I2*t^6+I4*t^5-I6*t^4+I8*t^3-I10*t^2+I12*t-I7^2",
+    "image_iff": "P_F has seven nonnegative real roots counted with multiplicity",
+    "reconstruction": "choose x_i=sqrt(z_i) and, when I7 is nonzero, choose one sign so product_i x_i=I7",
+    "constant_term_relation": "e7(z)=I7^2",
+    "complete_connected_weyl_orbit_invariant": true,
+    "zero_product_sign_rule": "when a coordinate is zero, an otherwise odd sign change is completed by flipping that zero coordinate, so equal F still means one W(D7) orbit",
+    "ambient_formal_base_equals_realized_image": false
+  },
+  "decision": {
+    "realized_image_is_exact_semialgebraic_root_region": true,
+    "arbitrary_formal_target_is_realized": false,
+    "source_target_selected": false,
+    "functional_phase_space_constructed": false,
+    "next_exact_input": "Normalize I2>0 to classify the compact shape image, its regular locus and the transfer conditions for K1259/K1289."
+  },
+  "source_and_ledger_effect": "SC-ACT-01_02_06_ASSERTS_UNCHANGED__SC-META-53_UNCERTAIN_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Exact finite split-Cartan invariant-image theorem. It is not a source action, a physical phase space, a global Lie-algebra orbit classification or a BV-BFV domain.",
+  "controls": {"producer": "tests/channel-swings/k1291_realized_split_d7_invariant_image.py", "probe": "tests/channel-swings/k1291_realized_split_d7_invariant_image_probe.py", "controls_passed": 14, "hostile_mutations_rejected": 8}
+}

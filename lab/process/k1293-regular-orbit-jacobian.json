@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1293-REGULAR-ORBIT-JACOBIAN",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "SC-ACT-06",
+  "scope": "Exact Jacobian of the connected split-D7 Cartan invariant map and the regular versus outer-quotient branch loci.",
+  "gu_typed_objects": {
+    "carrier": "real split-D7 Cartan and its connected Weyl quotient",
+    "pairing": "ordinary determinant pairing on tangent coordinates",
+    "real_structure": "real x_i and squared coordinates z_i=x_i^2",
+    "grading": "primitive D7 invariant degrees 2,4,6,7,8,10,12",
+    "action_owner": "repository differential invariant theorem only",
+    "target": "JACOBIAN-TYPE=connected_D7_invariant_map"
+  },
+  "pinned_inputs": {
+    "k1291": {"path": "lab/process/k1291-realized-split-d7-invariant-image.json", "sha256": "3d21882f8724804f359924faec7335628421fbdf9a6ce9f10194c8d7b7d4d268"},
+    "k1292": {"path": "lab/process/k1292-normalized-shape-simplex-image.json", "sha256": "df0cdb59e7113199f79289dd990b08e8c6587be34568fd25749c490757f3237b"}
+  },
+  "theorem": {
+    "absolute_jacobian": "abs(det dF_x)=2^6*product_{i<j} abs(x_i^2-x_j^2)",
+    "jacobian_square": "det(dF_x)^2=2^12*product_{i<j}(x_i^2-x_j^2)^2",
+    "nonzero_iff": "x_i^2 are pairwise distinct",
+    "matches_D7_regular_semisimple_locus": true,
+    "connected_quotient_local_diffeomorphism_on_regular_locus": true,
+    "p_zero_can_be_regular": "exactly one zero coordinate with all squared coordinates distinct",
+    "outer_B7_jacobian_relation": "det d(e1,...,e6,p^2)=2p*det d(e1,...,e6,p)",
+    "outer_B7_branches_at_p_zero": true,
+    "connected_D7_branches_at_p_zero": false
+  },
+  "decision": {
+    "regular_selector_transfer_may_use_ordinary_inverse_function_theorem": true,
+    "p_zero_is_a_D7_Weyl_wall": false,
+    "p_zero_is_an_outer_quotient_branch_locus": true,
+    "functional_Fredholm_or_Green_result": false,
+    "next_exact_input": "Transfer K1259 and K1289 only for a target satisfying the K1291 root criterion and K1293 regular discriminant."
+  },
+  "source_and_ledger_effect": "SC-ACT-01_02_06_ASSERTS_UNCHANGED__SC-META-53_UNCERTAIN_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Exact finite quotient Jacobian theorem. Local quotient regularity does not imply a closed functional domain, Fredholmness, causal propagation or physical reduction.",
+  "controls": {"producer": "tests/channel-swings/k1293_regular_orbit_jacobian.py", "probe": "tests/channel-swings/k1293_regular_orbit_jacobian_probe.py", "controls_passed": 13, "hostile_mutations_rejected": 8}
+}

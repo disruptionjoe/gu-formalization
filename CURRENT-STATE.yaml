@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: ad1047372fc3baa44d18d8187d0d733fe975c0d7
+revision_basis: 23f4ffb3aca2154a91c25efff4d4bc309a834d05
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1291--K1295 close the finite realized-orbit gap left by K1289. A real
+    connected-D7 invariant tuple is realized exactly when its associated monic
+    degree-seven polynomial has seven nonnegative real roots; these invariants
+    also separate W(D7) orbits. After I2 normalization, the shape image is the
+    compact probability-simplex quotient with y7 squared equal to the product
+    of the simplex coordinates, not all of R6. The exact Cartan Jacobian is
+    2^6 times the Vandermonde in the squared coordinates, so the connected
+    quotient is smooth at regular p=0 points while the outer p-squared quotient
+    branches there. Opposite p signs at fixed even invariants remain distinct
+    orbits, but p sign is not a connected-component label: the regular path
+    (t,2,3,4,5,6,7) crosses p=0. For every explicitly feasible regular target,
+    K1259's residual-square selector restricts to a proper Cartan polynomial
+    with one W(D7) orbit of minima and a positive rank-seven Hessian. The
+    transfer still imports one scale and six shapes and supplies no source or
+    functional owner. K1145/K1150 remain 0/7 and no protected status moves.
+
     K1286--K1290 prove that K1283's regular-function obstruction is sharp.
     On the regular `I2>0` horn, the canonical positive radius supplies the
     algebraic coefficient `I2^(21/2)=r^21`, which is outer-even and has the
@@ -14039,6 +14055,19 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1291--K1295 classify the realized split-D7 invariant image exactly. A
+  proposed invariant target is real precisely when its monic degree-seven
+  polynomial has seven nonnegative roots, and it is regular when those roots
+  are distinct. The normalized shape image is a compact simplex quotient, not
+  all of R6. Every feasible regular target transfers the formal residual-square
+  law to a proper Cartan selector with one W(D7) orbit of minima and positive
+  rank-seven Hessian. Which released action, boundary or Green law derives one
+  such feasible target, lambda and all six shape responses, and places them on
+  one common closed BV-BFV domain with closed range, positive quotient gap,
+  causal Green/maximal-generator data and positive nonzero cohomology? Do not
+  treat the regular path through p=0 as physical evolution or the mathematical
+  selector as source ownership.
+
   K1286--K1290 construct the sharp algebraic escape left open by K1283. The
   positive radial branch `r=sqrt(I2)` is independent of the orientation sheet,
   and `r^21 h(shapes) p` supplies a noncanonical family of scale-uniform odd
@@ -16022,17 +16051,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Preserve K1286--K1290's sharp algebraic escape and ownership boundary.
-  `I2^(21/2)` supplies an even weight-21 coefficient on `I2>0`, the strict
-  threshold `|lambda|>4|c7|^3/(3sqrt(3))` gives one nondegenerate orientation
-  critical point at every scale, and a proper rank-seven selector exists on
-  the open radial/shape horn. Advance only with a released source action,
-  boundary or Green law deriving the algebraic radial term, `lambda`, the
-  scale and all six shape responses on the realized orbit image, together
-  with the common closed domain, closed range, positive gap, causal
-  Green/maximal generator and positive nonzero cohomology. Do not extend the
-  finite construction through `I2=0` analytically, erase its imported data or
-  count it as SC-ACT-06.
+  Preserve K1291--K1295's exact realized-image and selector-transfer boundary.
+  A finite target is realized exactly when the associated monic polynomial has
+  seven nonnegative roots; regularity is the nonzero squared-root
+  discriminant. The normalized shape image is compact, connected-D7 quotient
+  coordinates remain smooth at regular p=0, and every feasible regular target
+  admits the proper positive-rank-seven Cartan selector. Advance only with a
+  released source action, boundary or Green law deriving a target that passes
+  those tests, lambda and all six shape responses, together with the common
+  closed domain, closed range, positive gap, causal Green/maximal generator and
+  positive nonzero cohomology. Do not promote finite orbit realizability, the
+  sign-changing regular path or the residual-square selector to source or
+  physical ownership.
 
   Preserve K1271--K1275's response-magnitude, stability, scaling and symmetry
   boundary. A nonzero odd tilt selects one global sign, but a uniform

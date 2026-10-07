@@ -4,6 +4,35 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1291--K1295 realized split-D7 invariant image
+
+- K1291 classifies the complete real invariant image by a seven-nonnegative-
+  root criterion and proves orbit completeness (`14/14`; `8/8`).
+- K1292 identifies the compact normalized simplex image, sharp shape bounds
+  and a regular path changing p sign through zero (`16/16`; `9/9`).
+- K1293 proves the exact Vandermonde Jacobian and separates the connected-D7
+  regular locus from the outer p-squared branch (`13/13`; `8/8`).
+- K1294 transfers the proper polynomial selector exactly for feasible regular
+  targets and computes its positive Cartan Hessian (`16/16`; `9/9`).
+- K1295 composes the thirty-five-row source and functional admission boundary
+  (`15/15`; `9/9`).
+
+The five producers pass `74/74` controls and the probes reject `43/43`
+hostile mutations.
+
+```bash
+python3 tests/channel-swings/k1291_realized_split_d7_invariant_image.py
+python3 tests/channel-swings/k1291_realized_split_d7_invariant_image_probe.py
+python3 tests/channel-swings/k1292_normalized_shape_simplex_image.py
+python3 tests/channel-swings/k1292_normalized_shape_simplex_image_probe.py
+python3 tests/channel-swings/k1293_regular_orbit_jacobian.py
+python3 tests/channel-swings/k1293_regular_orbit_jacobian_probe.py
+python3 tests/channel-swings/k1294_realized_selector_transfer.py
+python3 tests/channel-swings/k1294_realized_selector_transfer_probe.py
+python3 tests/channel-swings/k1295_realized_image_admission_boundary.py
+python3 tests/channel-swings/k1295_realized_image_admission_boundary_probe.py
+```
+
 ## K1286--K1290 algebraic radial orientation selector
 
 - K1286 classifies every positive-`I2` algebraic weight-21 coefficient as
