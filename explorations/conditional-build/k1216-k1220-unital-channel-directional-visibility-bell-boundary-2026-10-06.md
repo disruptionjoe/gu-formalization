@@ -1,6 +1,7 @@
 ---
 title: "K1216--K1220 general-unital directional visibility/Bell boundary"
 status: working_draft_verified
+operational_state: working_draft_verified
 doc_type: conditional_research_result
 created: "2026-10-06"
 classification: INTERNAL_CONDITIONAL_MATHEMATICS

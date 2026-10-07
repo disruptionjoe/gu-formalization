@@ -7,16 +7,32 @@ import copy
 import hashlib
 import json
 from pathlib import Path
+import re
 
 import yaml
 
 ROOT = Path(__file__).resolve().parents[2]
 CURRENT = ROOT / "CURRENT-STATE.yaml"
 REGISTRY = ROOT / "lab/process/current-frontier-semantic-currency.json"
+LATEST_AGENDA_RESULT = re.compile(
+    r"^latest_result_(\d{4})_(\d{2})_(\d{2})_k(\d+)(?:_k(\d+))?$"
+)
 
 
 def digest(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def latest_agenda_result_key(agenda: dict) -> str | None:
+    candidates = []
+    for key in agenda:
+        match = LATEST_AGENDA_RESULT.fullmatch(key)
+        if match:
+            year, month, day, first, last = match.groups()
+            candidates.append(
+                ((int(year), int(month), int(day), int(last or first), int(first)), key)
+            )
+    return max(candidates)[1] if candidates else None
 
 
 def load_inputs() -> dict:
@@ -922,10 +938,26 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
 
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
-    check(registry["latest_gu_formalization_result"] ==
-          "K926_K930_SC_ACT_06_PROJECTOR_REALIZATION_BOUNDARY_CURRENT",
-          "latest GU result pointer moved")
+    latest_key = latest_agenda_result_key(data["agenda"])
+    registered_latest_key = registry.get("latest_gu_formalization_result_key")
+    check(registered_latest_key == latest_key,
+          "latest GU result key is stale")
+    latest_match = LATEST_AGENDA_RESULT.fullmatch(registered_latest_key or "")
+    if latest_match:
+        first = latest_match.group(4)
+        last = latest_match.group(5) or first
+        latest_pointer = registry.get("latest_gu_formalization_result", "")
+        check(latest_pointer.startswith(f"K{first}_K{last}_") and
+              latest_pointer.endswith("_CURRENT"),
+              "latest GU result pointer disagrees with registered agenda key")
+    check(isinstance(data["agenda"].get(registered_latest_key), str) and
+          bool(data["agenda"].get(registered_latest_key, "").strip()),
+          "registered latest GU result is missing from agenda")
     if isinstance(live, str):
+        check("K1331--K1335's full mathematical operator closure" in live and
+              "K-finite compact-picture core" in live and
+              "exact D7 cocycle" in live,
+              "live K1331--K1335 operator closure missing")
         check("K926--K930 establish the complete rank-90,128 connection quotient bundle" in live and
               "classical pseudodifferential" in live and
               "no local order-zero differential realization" in live and
@@ -5945,6 +5977,8 @@ def selftest(base: dict) -> tuple[int, int]:
 
     add("latest-result-pointer", lambda d: d["registry"].__setitem__(
         "latest_gu_formalization_result", "K916_K920_SC_ACT_06_GRADED_NONZERO_FERMION_RECONCILIATION_CURRENT"))
+    add("latest-result-key", lambda d: d["registry"].__setitem__(
+        "latest_gu_formalization_result_key", "latest_result_2026_10_07_k1326_k1330"))
     add("k926-rank", lambda d: d["k926"]["composition"].__setitem__("cohomology_rank", 90127))
     add("k927-owner", lambda d: d["k927"]["decision"].__setitem__(
         "global_or_source_action_ownership_follows", True))
