@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1302-REGULAR-SHIFTED-REDUCTION",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-ACT-06",
+  "scope": "Smooth symplectic reduction of the K1301 shifted parent at the regular diagonal zero level.",
+  "pinned_inputs": {
+    "k1301": {
+      "path": "lab/process/k1301-nonzero-charge-shifting-parent.json",
+      "sha256": "432677cd8f94e12d9db60e6d14f4557cbd5db4e0b5354c3b2419f64f59fc5988"
+    },
+    "k946": {
+      "path": "lab/process/k946-source-epsilon-invariant-coordinate-chart.json",
+      "sha256": "2e003428733ae0ccd79806f36b5be7d04ae60f764a39c20a04273e4d1fcee13c"
+    }
+  },
+  "theorem": {
+    "constraint_surface": "C^-1(0)={(g,p,nu):nu=-Ad_g^* p and p in O_mu}",
+    "constraint_surface_dimension": 175,
+    "quotient_group_dimension": 91,
+    "reduced_dimension": 84,
+    "quotient_map": "[g,p,nu] maps to p",
+    "quotient_is_diffeomorphic_to": "O_mu",
+    "quotient_map_well_defined": true,
+    "quotient_map_bijective": true,
+    "quotient_smooth": true,
+    "reduced_form": "minus the KKS form on O_mu in the declared canonical-cotangent and O_-mu sign convention",
+    "reduced_form_nondegenerate": true,
+    "seven_invariants_constant_on_reduced_orbit": true,
+    "seven_invariant_values_derived": false
+  },
+  "decision": {
+    "k943_dimension_reproduced": true,
+    "nonzero_reduction_is_not_zero_reduction": true,
+    "shifting_changes_presentation_not_physical_selection": true,
+    "regular_charge_orbit_selected_by_source": false
+  },
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__AC-F1_LT-SM8_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Exact smooth finite reduction theorem with a convention-fixed KKS sign. The quotient is the imported regular coadjoint orbit, not a source-selected physical reduced phase space.",
+  "controls": {
+    "producer": "tests/channel-swings/k1302_regular_shifted_reduction.py",
+    "probe": "tests/channel-swings/k1302_regular_shifted_reduction_probe.py",
+    "controls_passed": 13,
+    "hostile_mutations_rejected": 8
+  }
+}

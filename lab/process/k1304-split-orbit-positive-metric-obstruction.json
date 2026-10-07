@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1304-SPLIT-ORBIT-POSITIVE-METRIC-OBSTRUCTION",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "scope": "Invariant positive-metric test on a regular split coadjoint orbit of Spin_0(7,7), independently of functional quantization or a chosen polarization.",
+  "pinned_inputs": {
+    "k1302": {
+      "path": "lab/process/k1302-regular-shifted-reduction.json",
+      "sha256": "9ceca564b8e76365ab31135222fd4e0d6f6ddf4db3a2bac07888c10ffdd84898"
+    },
+    "k1291": {
+      "path": "lab/process/k1291-realized-split-d7-invariant-image.json",
+      "sha256": "3d21882f8724804f359924faec7335628421fbdf9a6ce9f10194c8d7b7d4d268"
+    }
+  },
+  "theorem": {
+    "regular_split_stabilizer_dimension": 7,
+    "orbit_dimension": 84,
+    "positive_root_count": 42,
+    "tangent_root_spaces": "direct sum of g_alpha over all 84 D7 roots",
+    "split_torus_weight_law": "Ad_exp(H) v_alpha=exp(alpha(H)) v_alpha",
+    "nontrivial_real_weights_present": true,
+    "positive_inner_product_invariant_under_split_stabilizer": false,
+    "g_invariant_riemannian_metric_exists": false,
+    "g_invariant_positive_kahler_metric_from_kks_exists": false,
+    "kks_form_nondegenerate": true,
+    "kks_form_alone_is_positive_pairing": false
+  },
+  "proof": {
+    "one_root_argument": "If <,> were positive and A-invariant, a nonzero v_alpha would satisfy ||v_alpha||^2=||Ad_exp(H)v_alpha||^2=exp(2 alpha(H))||v_alpha||^2 for every H; regular split roots admit alpha(H) nonzero, a contradiction.",
+    "scope_limit": "This excludes G-invariant positive tangent metrics on the regular split orbit. It does not exclude noninvariant polarizations, unitary representation constructions, boundary-selected metrics or a separately owned physical Hilbert space."
+  },
+  "decision": {
+    "canonical_invariant_positive_state_metric_supplied": false,
+    "split_orbit_symplectic_reduction_implies_positivity": false,
+    "SC_META_53_resolved": false,
+    "physical_pairing_requires_extra_owner": true
+  },
+  "source_and_ledger_effect": "SC-META-53_UNCERTAIN_UNCHANGED__LT-SM8_LT-GR6b_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Exact homogeneous-space obstruction to a G-invariant positive metric on the regular split orbit. It is not a no-go for all quantizations, boundary choices or physical positive subspaces.",
+  "controls": {
+    "producer": "tests/channel-swings/k1304_split_orbit_positive_metric_obstruction.py",
+    "probe": "tests/channel-swings/k1304_split_orbit_positive_metric_obstruction_probe.py",
+    "controls_passed": 14,
+    "hostile_mutations_rejected": 9
+  }
+}

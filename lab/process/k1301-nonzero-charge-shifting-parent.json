@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1301-NONZERO-CHARGE-SHIFTING-PARENT",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-ACT-06",
+  "scope": "Finite-dimensional shifting construction for one imported regular nonzero charge on the action-owned source-epsilon cotangent parent T*Spin_0(7,7).",
+  "pinned_inputs": {
+    "k941": {
+      "path": "lab/process/k941-source-epsilon-cotangent-moment-map.json",
+      "sha256": "9c458f2a6851e8ece1389b5ac8b5c110d82846973b65c5a39362f95b87add8c3"
+    },
+    "k943": {
+      "path": "lab/process/k943-source-epsilon-orbit-reduction.json",
+      "sha256": "f9caa48599e05eb8098c9e35ca1a635e42a875599080f0ae4ec726c0da632d1a"
+    }
+  },
+  "construction": {
+    "group": "G=Spin_0(7,7)",
+    "group_dimension": 91,
+    "regular_charge": "mu in g* with seven-dimensional split-Cartan stabilizer",
+    "charge_orbit": "O_mu",
+    "charge_orbit_dimension": 84,
+    "shift_orbit": "O_-mu",
+    "parent": "M_shift=T*G x O_-mu",
+    "parent_dimension": 266,
+    "diagonal_action": "h.(g,p,nu)=(hg,p,Ad_h^* nu)",
+    "moment_map": "C(g,p,nu)=Ad_g^* p+nu",
+    "constraint_level": "C=0"
+  },
+  "theorem": {
+    "moment_map_equivariant": true,
+    "vertical_cotangent_derivative": "d_p C=Ad_g^*",
+    "vertical_cotangent_derivative_rank": 91,
+    "zero_is_regular_value": true,
+    "diagonal_action_free": true,
+    "constraint_surface_dimension": 175,
+    "expected_reduced_dimension": 84,
+    "constraint_is_first_class": true,
+    "charge_parameter_selected_by_construction": false
+  },
+  "decision": {
+    "regular_nonzero_charge_has_smooth_shifted_presentation": true,
+    "finite_properness_may_be_tested_at_zero_level": true,
+    "auxiliary_orbit_derives_mu": false,
+    "source_owned_boundary_law_constructed": false
+  },
+  "source_and_ledger_effect": "SC-ACT-01_02_06_ASSERTS_UNCHANGED__SC-META-53_UNCERTAIN_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Exact finite shifting-parent theorem conditional on an imported regular charge. Adding O_-mu relocates the charge datum; it does not derive or select mu from a released source action, boundary law or Green law.",
+  "controls": {
+    "producer": "tests/channel-swings/k1301_nonzero_charge_shifting_parent.py",
+    "probe": "tests/channel-swings/k1301_nonzero_charge_shifting_parent_probe.py",
+    "controls_passed": 14,
+    "hostile_mutations_rejected": 9
+  }
+}

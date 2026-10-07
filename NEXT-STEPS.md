@@ -7,6 +7,21 @@ updated_at: "2026-10-06"
 
 # Next Steps For Contributors
 
+> **2026-10-06 K1301--K1305 NONZERO-CHARGE SHIFTING AND BFV BOUNDARY.** A
+> supplied regular nonzero source-epsilon charge admits a smooth shifted
+> presentation on `T*Spin_0(7,7) x O_-mu`. Its diagonal zero constraint is a
+> rank-91 regular irreducible first-class system; reduction gives the
+> 84-dimensional orbit `O_mu`, and the minimal 91-ghost BFV complex is proper
+> with degree-zero observables `C-infinity(O_mu)`. This closes conditional
+> finite nonzero-charge properness, not charge selection: the auxiliary orbit
+> is defined by the same imported `mu`. The regular split orbit also admits no
+> fully `Spin_0(7,7)`-invariant positive tangent metric because the split
+> stabilizer acts with nonunit real root weights. Next derive the charge or
+> equivalent seven values from a released action/boundary/Green law and supply
+> an owned noninvariant positive pairing, local functional BV-BFV domain,
+> causal realization and observed state map. Do not count the shifting trick
+> as a source-selected boundary law or the KKS form as a positive state metric.
+
 > **2026-10-06 K1296--K1300 WEYL-ORBIT WITTEN FUNCTIONAL LIFT.** Every
 > imported feasible regular K1294 target admits a Weyl-covariant quadratic
 > normal family and finite orbit-sum Witten complex. On one common spectral

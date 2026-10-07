@@ -7,6 +7,21 @@ updated_at: "2026-10-06"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1301--K1305 nonzero-charge shifting and BFV boundary (2026-10-06)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A supplied regular nonzero charge has a smooth shifted zero-level presentation | K1301 diagonal moment map, rank-91 vertical derivative and free action; `14/14`; `9/9` | exact finite shifting theorem; the auxiliary orbit imports rather than derives the charge |
+| The shifted quotient is the 84-dimensional coadjoint orbit | K1302 constraint slice, quotient map and convention-fixed KKS form; `13/13`; `8/8` | exact smooth symplectic-reduction theorem; not a source-selected physical phase space |
+| The supplied nonzero charge admits a proper finite BFV complex | K1303 regular sequence, 91 ghosts, master equation and degree-zero orbit observables; `14/14`; `9/9` | exact finite formal feasibility; not a local functional BV-BFV or physical cohomology result |
+| The regular split orbit has no invariant positive tangent metric | K1304 split-root weight contradiction; `14/14`; `9/9` | exact homogeneous-space obstruction; noninvariant or boundary-owned positive structures remain open |
+| Finite properness does not close charge selection or physical admission | K1305 twelve-row composition; `15/15`; `10/10` | three satisfied, two satisfied-formal, one excluded and six missing; K1145/K1150 remain `0/7` |
+
+The five producers pass `70/70` controls and five probes reject `45/45`
+hostile mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, and LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`. No source,
+ledger, canon, paper, prediction, confirmation or public status moves.
+
 ## K1296--K1300 Weyl-orbit Witten functional lift (2026-10-06)
 
 | Claim | Evidence | Honest grade |

@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1303-NONZERO-CHARGE-BFV-COMPLEX",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-ACT-06",
+  "scope": "Regular finite Koszul/BFV complex of the shifted nonzero-charge constraint C=0 on T*Spin_0(7,7) x O_-mu.",
+  "pinned_inputs": {
+    "k1301": {
+      "path": "lab/process/k1301-nonzero-charge-shifting-parent.json",
+      "sha256": "432677cd8f94e12d9db60e6d14f4557cbd5db4e0b5354c3b2419f64f59fc5988"
+    },
+    "k1302": {
+      "path": "lab/process/k1302-regular-shifted-reduction.json",
+      "sha256": "9ceca564b8e76365ab31135222fd4e0d6f6ddf4db3a2bac07888c10ffdd84898"
+    },
+    "k944": {
+      "path": "lab/process/k944-source-epsilon-regular-bfv-boundary.json",
+      "sha256": "1e186687a0eeb82a0045d9217cd87d8f2e330e775e5b0a772d4a88cf26494b28"
+    }
+  },
+  "construction": {
+    "constraints": "C_a=J_a+nu_a",
+    "constraint_count": 91,
+    "constraint_rank": 91,
+    "constraint_bracket": "{C_a,C_b}=f_ab^c C_c",
+    "first_stage_reducibility": 0,
+    "minimal_ghost_count": 91,
+    "bfv_charge": "Omega=c^a C_a-(1/2)f_ab^c c^a c^b b_c"
+  },
+  "theorem": {
+    "regular_sequence_locally": true,
+    "koszul_tate_proper": true,
+    "master_equation_closes": true,
+    "degree_zero_reduced_observables": "C-infinity(O_mu)",
+    "degree_zero_reduced_observables_are_constants": false,
+    "zero_charge_k944_observable_algebra_reused": false,
+    "finite_nonzero_bfv_exists_conditionally": true,
+    "functional_local_bv_bfv_constructed": false,
+    "physical_cohomology_identified": false
+  },
+  "decision": {
+    "finite_nonzero_charge_properness_gap_closed": true,
+    "seven_lock_obviated_as_selection_law": false,
+    "shift_orbit_imports_same_charge_values": true,
+    "native_i1b_candidate_admitted": false
+  },
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__AC-F1_LT-SM8_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Exact finite regular BFV feasibility for a supplied nonzero charge. It does not produce the charge, a local field-space complex, a Green domain, physical cohomology or an observed state space.",
+  "controls": {
+    "producer": "tests/channel-swings/k1303_nonzero_charge_bfv_complex.py",
+    "probe": "tests/channel-swings/k1303_nonzero_charge_bfv_complex_probe.py",
+    "controls_passed": 14,
+    "hostile_mutations_rejected": 9
+  }
+}

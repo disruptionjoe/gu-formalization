@@ -4,6 +4,37 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1301--K1305 nonzero-charge shifting and BFV boundary
+
+- K1301 constructs the regular shifted parent for one supplied nonzero charge
+  and proves zero is a regular value of the diagonal moment map (`14/14`;
+  `9/9`).
+- K1302 identifies the smooth reduced space with the 84-dimensional supplied
+  coadjoint orbit and fixes the KKS sign convention (`13/13`; `8/8`).
+- K1303 constructs the proper 91-ghost finite BFV complex and identifies its
+  degree-zero reduced observables with functions on the orbit (`14/14`;
+  `9/9`).
+- K1304 proves that the regular split orbit admits no `Spin_0(7,7)`-invariant
+  positive tangent metric (`14/14`; `9/9`).
+- K1305 composes the finite properness, charge-selection, positivity and
+  physical-admission boundary (`15/15`; `10/10`).
+
+The five producers pass `70/70` controls and the probes reject `45/45`
+hostile mutations.
+
+```bash
+python3 tests/channel-swings/k1301_nonzero_charge_shifting_parent.py
+python3 tests/channel-swings/k1301_nonzero_charge_shifting_parent_probe.py
+python3 tests/channel-swings/k1302_regular_shifted_reduction.py
+python3 tests/channel-swings/k1302_regular_shifted_reduction_probe.py
+python3 tests/channel-swings/k1303_nonzero_charge_bfv_complex.py
+python3 tests/channel-swings/k1303_nonzero_charge_bfv_complex_probe.py
+python3 tests/channel-swings/k1304_split_orbit_positive_metric_obstruction.py
+python3 tests/channel-swings/k1304_split_orbit_positive_metric_obstruction_probe.py
+python3 tests/channel-swings/k1305_shifted_charge_admission_boundary.py
+python3 tests/channel-swings/k1305_shifted_charge_admission_boundary_probe.py
+```
+
 ## K1296--K1300 Weyl-orbit Witten functional lift
 
 - K1296 transports the positive K1294 Hessian over the complete regular Weyl

@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1305-SHIFTED-CHARGE-ADMISSION-BOUNDARY",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-ACT-06",
+  "scope": "Integrated source, finite-BFV, positivity and physical-admission boundary after K1301--K1304.",
+  "pinned_inputs": {
+    "k955": {
+      "path": "lab/process/k955-source-epsilon-singular-selector-disposition.json",
+      "sha256": "6334f500d0bec0e4f4f8abbd35918b330596c0f23f057aee1fad738011ea245e"
+    },
+    "k1300": {
+      "path": "lab/process/k1300-functional-lift-admission-boundary.json",
+      "sha256": "4b6f38cbc59d8680778aa2ebc31427f8a3a63e605cad95a64618aed510550954"
+    },
+    "k1301": {
+      "path": "lab/process/k1301-nonzero-charge-shifting-parent.json",
+      "sha256": "432677cd8f94e12d9db60e6d14f4557cbd5db4e0b5354c3b2419f64f59fc5988"
+    },
+    "k1302": {
+      "path": "lab/process/k1302-regular-shifted-reduction.json",
+      "sha256": "9ceca564b8e76365ab31135222fd4e0d6f6ddf4db3a2bac07888c10ffdd84898"
+    },
+    "k1303": {
+      "path": "lab/process/k1303-nonzero-charge-bfv-complex.json",
+      "sha256": "85f26a18812698a5a24094acc2947c59bb2709f8ede377f74112ca735b8b0ee9"
+    },
+    "k1304": {
+      "path": "lab/process/k1304-split-orbit-positive-metric-obstruction.json",
+      "sha256": "21113c7aeaac1f337146ddbe98c185598de593233de3d2b95714572a3d04bc0a"
+    }
+  },
+  "certificate": {
+    "row_count": 12,
+    "satisfied_count": 3,
+    "satisfied_formal_count": 2,
+    "excluded_count": 1,
+    "missing_count": 6,
+    "rows": [
+      {"row": "action_owned_cotangent_parent", "state": "satisfied"},
+      {"row": "smooth_regular_nonzero_orbit_reduction", "state": "satisfied"},
+      {"row": "split_orbit_invariant_positivity_test", "state": "satisfied"},
+      {"row": "proper_finite_nonzero_bfv", "state": "satisfied_formal"},
+      {"row": "degree_zero_reduced_observable_algebra", "state": "satisfied_formal"},
+      {"row": "g_invariant_positive_orbit_metric", "state": "excluded"},
+      {"row": "source_owned_shift_or_seven_lock", "state": "missing"},
+      {"row": "derived_seven_charge_values", "state": "missing"},
+      {"row": "functional_local_bv_bfv_domain", "state": "missing"},
+      {"row": "causal_green_or_boundary_law", "state": "missing"},
+      {"row": "positive_nonzero_physical_cohomology", "state": "missing"},
+      {"row": "observed_export_and_state_effect_meaning", "state": "missing"}
+    ]
+  },
+  "decision": {
+    "finite_nonzero_charge_bfv_feasible": true,
+    "finite_properness_requires_source_owned_seven_lock": false,
+    "charge_selection_requires_source_owned_values_or_equivalent_law": true,
+    "shifting_trick_selects_charge": false,
+    "canonical_invariant_positive_metric_exists": false,
+    "functional_physical_packet_constructed": false,
+    "k1300_native_k1145_k1150_pass_counts_move": false,
+    "protected_status_change": false,
+    "next_exact_input": "Derive the regular charge or equivalent seven values from a released action, boundary or Green law, and supply a noninvariant-but-owned positive physical pairing, common local BV-BFV domain, causal realization and observed state map."
+  },
+  "source_and_ledger_effect": "SC-ACT-01_02_06_ASSERTS_UNCHANGED__SC-META-53_UNCERTAIN_UNCHANGED__LT-SM8_LT-GR6b_RA-F1_AC-F1_NEEDS_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Exact conditional finite nonzero-charge BFV feasibility plus an invariant-positive-metric obstruction. The shift orbit imports the charge and does not construct a source-selected functional or physical sector.",
+  "controls": {
+    "producer": "tests/channel-swings/k1305_shifted_charge_admission_boundary.py",
+    "probe": "tests/channel-swings/k1305_shifted_charge_admission_boundary_probe.py",
+    "controls_passed": 15,
+    "hostile_mutations_rejected": 10
+  }
+}
