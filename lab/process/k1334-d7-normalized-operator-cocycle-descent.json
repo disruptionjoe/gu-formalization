@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1334-D7-NORMALIZED-OPERATOR-COCYCLE-DESCENT",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "INTERNAL:K1330-FULL-OPERATOR-COMPLETION",
+  "scope": "Composition of the seven normalized simple-root Knapp-Stein operators for regular imaginary spherical D7 principal series and the resulting G-equivariant chamber-average descent.",
+  "pinned_inputs": {
+    "k1317": {"path": "lab/process/k1317-chamber-average-equivariance-criterion.json", "sha256": "30c81be2f29e7654cc39fc70392d94051f538f58655909264c172584d9f20db9"},
+    "k1318": {"path": "lab/process/k1318-coxeter-flat-intertwiner-descent.json", "sha256": "498b6a0ae0d2361e25f4fd8f31bd1cf1e372d4bdcc77fea24ef43d82cb5e6b87"},
+    "k1332": {"path": "lab/process/k1332-common-k-finite-core-unitarity.json", "sha256": "32fa48ab081e2f7f88db705776766e73ed557b171454da4328bd0b359995d48f"},
+    "k1333": {"path": "lab/process/k1333-rank-one-reducibility-walls.json", "sha256": "d90b979f4d754e0f6520d4ac46222d6fabfd83aa4a498ebccd34f990645740af"}
+  },
+  "normalized_family": {
+    "simple_operator": "R_i(lambda):I(lambda)->I(s_i lambda)",
+    "common_core": "C[K/M]_K-finite",
+    "intertwining_law": "R_i(lambda) pi_lambda(g)=pi_(s_i lambda)(g) R_i(lambda)",
+    "cocycle": "R_(w1 w2)(lambda)=R_w1(w2 lambda) R_w2(lambda)",
+    "inverse": "R_i(s_i lambda) R_i(lambda)=I",
+    "nonadjacent_relation": "R_i(s_j lambda) R_j(lambda)=R_j(s_i lambda) R_i(lambda)",
+    "adjacent_relation": "the two length-three parameter-shifted products for i j i and j i j are equal",
+    "reduced_word_independence": true,
+    "regular_imaginary_extension": "all operators and products are unitary on L2(K/M)"
+  },
+  "d7_descent": {
+    "rank": 7,
+    "positive_roots": 42,
+    "weyl_chambers": 322560,
+    "all_simple_root_coordinates_regular": true,
+    "path_independent_G_intertwiners": true,
+    "transported_chamber_actions_coincide": true,
+    "average_projection_commutes_with_block_G_action": true,
+    "coherent_diagonal_is_G_subrepresentation": true,
+    "descended_representation": "one full spherical principal-series copy on L2(K/M), not a one-dimensional representation",
+    "single_chamber_selected": false
+  },
+  "decision": {
+    "full_normalized_simple_operator_family_constructed": true,
+    "operator_valued_coxeter_relations_constructed": true,
+    "G_equivariant_chamber_descent_constructed": true,
+    "canonical_physical_chamber_constructed": false,
+    "physical_GU_state_space_constructed": false,
+    "protected_status_change": false
+  },
+  "theorem_context": {
+    "reference": "A.W. Knapp and E.M. Stein, normalized intertwining operator cocycle and unitarity theorem",
+    "url": "https://www.math.stonybrook.edu/~aknapp/pdf-files/SING4.pdf",
+    "application": "the rank-one normalizer fixed by K1326 and the complete K1331 spectrum select the standard spherical normalization; the general cocycle then acts on the full compact picture"
+  },
+  "claim_ceiling": "For the supplied regular imaginary spherical D7 principal series, normalized simple Knapp-Stein operators give exact unitary G-intertwining Coxeter transport, so the K1316 coherent diagonal is a mathematical G-subrepresentation. No charge, chamber, action, constraint or physical state is source-selected by this descent."
+}

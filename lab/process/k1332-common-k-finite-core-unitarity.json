@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1332-COMMON-K-FINITE-CORE-UNITARITY",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "INTERNAL:K1330-FULL-OPERATOR-COMPLETION",
+  "scope": "Common domain, inverse law and Hilbert extension of the normalized simple-root operators for the spherical minimal principal series at regular imaginary split charge.",
+  "pinned_inputs": {
+    "k1331": {"path": "lab/process/k1331-rank-one-k-type-spectrum.json", "sha256": "810890446661ef068c6123cfdcce81606077e146e1e1fd2aee2cfe4515d34aa8"}
+  },
+  "common_domain": {
+    "compact_picture_hilbert_space": "H=L2(K/M,dk)",
+    "algebraic_core": "H_Kfin=C[K/M]_K-finite",
+    "parameter_independent": true,
+    "dense_in_H": true,
+    "preserved_by_every_simple_operator": true,
+    "rank_one_restriction": "each simple-root string is the even Fourier core from K1331",
+    "smooth_extension": "rapid K-type decay and moderate meromorphic eigenvalue growth extend the family to C-infinity(K/M)"
+  },
+  "regular_imaginary_axis": {
+    "parameter": "z=i t with t real",
+    "mode_modulus": "|a_n(i t)|=1 for every n in Z",
+    "adjoint_law": "R_z^*=R_(-z)",
+    "inverse_law": "R_(-z) R_z=I on H_Kfin",
+    "hilbert_extension": "unique bounded unitary operator H_lambda -> H_(s_alpha lambda)",
+    "operator_norm": 1,
+    "zero_parameter": "R_0=I on the spherical even principal series",
+    "regular_charge_consequence": "all 42 root coordinates are nonzero imaginary and every simple operator is bounded, unitary and invertible"
+  },
+  "decision": {
+    "common_dense_compact_picture_core_constructed": true,
+    "all_simple_operators_share_core": true,
+    "regular_imaginary_unitary_extension_constructed": true,
+    "regular_imaginary_operator_kernel_or_pole": false,
+    "physical_domain_constructed": false,
+    "protected_status_change": false
+  },
+  "theorem_context": {
+    "reference": "A.W. Knapp and E.M. Stein, Singular Integrals and the Principal Series IV, Proc. Natl. Acad. Sci. USA 72 (1975), 2459-2461",
+    "url": "https://www.math.stonybrook.edu/~aknapp/pdf-files/SING4.pdf",
+    "used_result": "normalized cocycle, adjoint and unitarity on imaginary parameters"
+  },
+  "claim_ceiling": "The mathematical spherical principal-series operators share the dense K-finite core and extend unitarily on regular imaginary charge. This is not a common closed domain for the interacting GU BV-BFV operators."
+}

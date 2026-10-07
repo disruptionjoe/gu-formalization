@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1331-RANK-ONE-K-TYPE-SPECTRUM",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "INTERNAL:K1330-FULL-OPERATOR-COMPLETION",
+  "scope": "The full standard simple-root intertwining operator for the spherical SL(2,R) rank-one reduction and its complete even K_alpha-type spectrum; higher-rank K multiplicity spaces are controlled by induction in stages rather than claimed to be scalar.",
+  "pinned_inputs": {
+    "k1326": {"path": "lab/process/k1326-rank-one-spherical-intertwiner-coefficient.json", "sha256": "4ab860406bc3d7ef97cf8100d457a46b98555522547385bf404c2bfafe8e5108"},
+    "k1330": {"path": "lab/process/k1330-spherical-intertwiner-admission-boundary.json", "sha256": "47004cd6483221d29f6dac9e01ed48bb1e3eacfcc7651af9d7f0e293042b71c9"}
+  },
+  "rank_one_operator": {
+    "group": "SL(2,R) simple-root subgroup",
+    "compact_picture": "K_alpha/M_alpha=SO(2)/{plus_or_minus 1}",
+    "common_algebraic_core": "span of e_(2n)(theta)=exp(2 i n theta), n in Z",
+    "raw_standard_integral": "(J_z f)(g)=integral_R f(g w_alpha n(x)) dx for Re(z)>0",
+    "meromorphic_continuation": "the K-finite Fourier coefficients continue meromorphically to every z",
+    "spherical_normalizer": "m(z)=sqrt(pi) Gamma(z/2)/Gamma((z+1)/2)",
+    "normalized_operator": "R_z=m(z)^(-1) J_z"
+  },
+  "complete_even_spectrum": {
+    "raw_eigenvalue": "c_(2n)(z)=(-1)^|n| pi Gamma(z)/(2^(z-1) Gamma((z+1)/2+|n|) Gamma((z+1)/2-|n|))",
+    "normalized_eigenvalue": "a_n(z)=product_(k=1)^|n| (2k-1-z)/(2k-1+z)",
+    "spherical_mode": "a_0(z)=1",
+    "recurrence": "a_(n+1)(z)/a_n(z)=(2n+1-z)/(2n+1+z) for n>=0",
+    "weight_symmetry": "a_(-n)(z)=a_n(z)",
+    "weyl_phase": "the (-1)^|n| factor from the Weyl representative makes R_0 the identity on every even K_alpha-type"
+  },
+  "decision": {
+    "full_rank_one_operator_kernel_constructed": true,
+    "all_even_rank_one_k_type_eigenvalues_constructed": true,
+    "spherical_formula_recovered_at_n_zero": true,
+    "higher_rank_irreducible_K_types_claimed_scalar": false,
+    "physical_intertwiner_constructed": false,
+    "protected_status_change": false
+  },
+  "literature_context": {
+    "rank_one_reference": "Bill Casselman, Representations of SL(2,R), sections 11-14",
+    "rank_one_url": "https://personal.math.ubc.ca/~cass/research/pdf/Irr.pdf",
+    "general_reference": "A.W. Knapp and E.M. Stein, Intertwining Operators for Semisimple Groups II, Invent. Math. 60 (1980), 9-84",
+    "general_url": "https://www.math.stonybrook.edu/~aknapp/pdf-files/int-ops2-1980.pdf",
+    "use": "the formulas are rederived by the compact-picture Fourier integral and recurrence; the references fix the standard normalization and higher-rank induction context"
+  },
+  "claim_ceiling": "Every simple split root has a full meromorphic rank-one standard operator on the even K_alpha-finite core with the displayed complete spectrum. This does not say an arbitrary irreducible Spin(7)xSpin(7) K-type is one-dimensional or that the operator is physical."
+}

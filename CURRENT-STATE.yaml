@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: bbcd4a5076a9b40f45909c28513b72d583feaeec
+revision_basis: f0dcc138f29d1315837ad6f61f39c0756c6a9ac1
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1331--K1335 close K1330's full mathematical intertwiner obligation for
+    the supplied regular imaginary spherical D7 principal series. The complete
+    simple-root rank-one spectrum on even compact-picture modes is
+    `a_n(z)=product_(k=1)^|n| (2k-1-z)/(2k-1+z)`. All normalized simple
+    operators share the dense K-finite core, extend unitarily on the imaginary
+    axis, and meet no kernel, pole or reducibility wall there. Their exact
+    Knapp--Stein cocycle gives operator-valued involution, commutation and braid
+    relations, so the coherent chamber diagonal is a G-subrepresentation and
+    removes the 322560-fold chamber multiplicity as mathematical Hilbert
+    redundancy. It is one full principal-series copy, not a one-dimensional
+    representation and not a physical GU state space. The twenty-row census is
+    now ten satisfied, three excluded, one conditional and six missing;
+    K1145/K1150 remain 0/7 and protected statuses do not move.
+
     K1326--K1330 construct the first analytic slice of K1325's normalized-
     intertwiner obligation. For every split multiplicity-one simple root, the
     spherical coefficient is the beta integral
@@ -14165,6 +14179,17 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1331--K1335 construct the full normalized simple Knapp--Stein operators for
+  the supplied regular imaginary spherical D7 principal series, including the
+  common dense K-finite core, complete even rank-one K-type spectrum,
+  normalized odd-integral reducibility walls and exact operator cocycle. The
+  chamber average is therefore a mathematical G-subrepresentation. Which
+  released source action, boundary or Green law now derives the split charge
+  or replaces the chamber construction, then transports it to one interacting
+  local BV-BFV complex with Lorentzian causal evolution, conserved positive
+  nonzero physical cohomology and an observed state map? Do not promote the
+  mathematical principal-series Hilbert space to GU physical positivity.
+
   K1326--K1330 prove exact meromorphic Coxeter-flat transport on the spherical
   lines of the regular imaginary split-D7 principal series. Which full
   normalized simple intertwiner kernels act on one common dense
@@ -16182,6 +16207,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1331--K1335's full mathematical operator closure. For the trivial-M
+  spherical minimal principal series at supplied regular imaginary split
+  charge, the normalized simple operators share the K-finite compact-picture
+  core, have unitary Hilbert extensions, avoid every odd-integral root wall and
+  satisfy the exact D7 cocycle. The coherent chamber diagonal is consequently
+  a G-subrepresentation isomorphic to one full principal-series copy. Advance
+  physical admission only with a released source action, boundary or Green law
+  deriving the charge or replacing the chamber construction together with the
+  interacting local constraint, domain, causal, cohomological and observed-
+  state packet. Singular charge and nonspherical M-types are separate branches.
+
   Preserve K1326--K1330's spherical analytic boundary. The rank-one beta/gamma
   coefficient, its punctured imaginary-axis regularity, D7 inversion-set
   factorization and exact scalar Coxeter normalization are established on the

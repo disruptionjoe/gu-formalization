@@ -7,6 +7,23 @@ updated_at: "2026-10-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1331--K1335 full Knapp--Stein operator descent (2026-10-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The full simple-root operator has the complete displayed even K-type spectrum | K1331 raw integral, gamma formula, recurrence and independent quadratures; `26/26`; `9/9` | exact spherical rank-one operator calculation; higher-rank K multiplicities use induction in stages |
+| All simple operators share one dense core and are unitary on imaginary charge | K1332 K-finite core, mode-modulus, inverse and Hilbert-extension controls; `20/20`; `9/9` | exact rank-one spectrum plus normalized Knapp--Stein unitarity theorem; not a GU interacting domain |
+| Normalized kernel, pole and reducibility walls are explicit | K1333 all finite-mode odd walls and regular-imaginary exclusion; `24/24`; `9/9` | exact for trivial-M spherical rank-one data; singular and nonspherical inducing data excluded |
+| D7 normalized operators satisfy the exact cocycle and give G descent | K1334 common-core, cocycle, D7 presentation and K1317 composition; `25/25`; `9/9` | full mathematical operator theorem; chamber diagonal is one principal-series copy, not a physical sector |
+| Operator closure does not close physical admission | K1335 twenty-row composition; `21/21`; `9/9` | ten satisfied, three excluded, one conditional and six missing; K1145/K1150 remain `0/7` |
+
+The five producers pass `116/116` controls and five probes reject `45/45`
+hostile mutations. The full operator-valued mathematical descent is now
+satisfied for supplied regular imaginary spherical D7 data. SC-ACT-01/02/06
+remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`, and
+LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`. No source, ledger, canon, paper,
+prediction, confirmation or public status moves.
+
 ## K1326--K1330 spherical intertwiner normalization boundary (2026-10-07)
 
 | Claim | Evidence | Honest grade |

@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1335-OPERATOR-INTERTWINER-ADMISSION-BOUNDARY",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "scope": "Integrated full mathematical normalized-intertwiner and physical-admission boundary after K1331--K1334.",
+  "pinned_inputs": {
+    "k1330": {"path": "lab/process/k1330-spherical-intertwiner-admission-boundary.json", "sha256": "47004cd6483221d29f6dac9e01ed48bb1e3eacfcc7651af9d7f0e293042b71c9"},
+    "k1331": {"path": "lab/process/k1331-rank-one-k-type-spectrum.json", "sha256": "810890446661ef068c6123cfdcce81606077e146e1e1fd2aee2cfe4515d34aa8"},
+    "k1332": {"path": "lab/process/k1332-common-k-finite-core-unitarity.json", "sha256": "32fa48ab081e2f7f88db705776766e73ed557b171454da4328bd0b359995d48f"},
+    "k1333": {"path": "lab/process/k1333-rank-one-reducibility-walls.json", "sha256": "d90b979f4d754e0f6520d4ac46222d6fabfd83aa4a498ebccd34f990645740af"},
+    "k1334": {"path": "lab/process/k1334-d7-normalized-operator-cocycle-descent.json", "sha256": "26db1cacfaee30f978dab1e1e39616962a16a06bb7f6669fcb5f83081f6b540f"}
+  },
+  "certificate": {
+    "row_count": 20,
+    "satisfied_count": 10,
+    "excluded_count": 3,
+    "conditional_count": 1,
+    "missing_count": 6,
+    "advanced_row": {"row": "full_operator_coxeter_flat_G_intertwiner_completion", "from": "conditional", "to": "satisfied"},
+    "retained_conditional_rows": ["finite_polarized_bfv_compatibility"],
+    "retained_missing_rows": ["source_owned_charge_and_chamber_selection", "action_derived_interacting_constraint_complex", "functional_local_bv_bfv_domain", "causal_green_or_boundary_law", "positive_nonzero_physical_cohomology", "observed_export_and_state_effect_meaning"]
+  },
+  "decision": {
+    "full_rank_one_kernel_and_even_k_spectrum_constructed": true,
+    "common_dense_k_finite_domain_constructed": true,
+    "regular_imaginary_unitarity_and_irreducibility_constructed": true,
+    "operator_valued_D7_coxeter_relations_constructed": true,
+    "G_equivariant_full_chamber_descent_constructed": true,
+    "source_charge_or_chamber_selected": false,
+    "positive_physical_pairing_constructed": false,
+    "k1145_k1150_candidate_counts_move": false,
+    "protected_status_change": false
+  },
+  "source_and_ledger_effect": "SC-ACT-01_02_06_ASSERTS_UNCHANGED__SC-META-53_UNCERTAIN_UNCHANGED__LT-SM8_LT-GR6b_RA-F1_AC-F1_NEEDS_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "The supplied regular imaginary spherical D7 principal series has full normalized simple Knapp-Stein operators on a common dense K-finite core, unitary Hilbert extensions, explicit rank-one mode walls and exact operator-valued Coxeter transport, making the chamber average a mathematical G-subrepresentation. Source ownership and every interacting physical BV-BFV admission row remain open.",
+  "controls": {"producer": "tests/channel-swings/k1335_operator_intertwiner_admission_boundary.py", "probe": "tests/channel-swings/k1335_operator_intertwiner_admission_boundary_probe.py", "controls_passed": 21, "hostile_mutations_rejected": 9}
+}

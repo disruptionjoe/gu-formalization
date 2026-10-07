@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1333-RANK-ONE-REDUCIBILITY-WALLS",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "INTERNAL:K1330-FULL-OPERATOR-COMPLETION",
+  "scope": "Zeros, poles, kernels and reducibility walls of the normalized spherical SL(2,R) simple-root operator, followed by the exact consequence for regular imaginary D7 charge.",
+  "pinned_inputs": {
+    "k1331": {"path": "lab/process/k1331-rank-one-k-type-spectrum.json", "sha256": "810890446661ef068c6123cfdcce81606077e146e1e1fd2aee2cfe4515d34aa8"},
+    "k1332": {"path": "lab/process/k1332-common-k-finite-core-unitarity.json", "sha256": "32fa48ab081e2f7f88db705776766e73ed557b171454da4328bd0b359995d48f"}
+  },
+  "normalized_divisor": {
+    "mode_n_zeros": "z=1,3,...,2|n|-1 for n!=0",
+    "mode_n_poles": "z=-1,-3,...,-(2|n|-1) for n!=0",
+    "positive_wall_kernel": "at z=2r+1, every even mode with |n|>=r+1 is killed while |n|<=r survives",
+    "negative_wall_pole": "at z=-(2r+1), every even mode with |n|>=r+1 has a simple normalized pole",
+    "inverse_pairing": "the positive-wall kernel and negative-wall pole are exchanged by z maps to -z",
+    "zero_parameter": "z=0 is regular and a_n(0)=1 for every n"
+  },
+  "reducibility": {
+    "rank_one_spherical_principal_series": "reducible exactly at nonzero odd integral z in this normalization",
+    "positive_odd_structure": "the normalized operator has the explicit high-even-mode kernel",
+    "negative_odd_structure": "the inverse meromorphic family has the corresponding pole and quotient structure",
+    "imaginary_axis": "no zero, pole or kernel for z in iR",
+    "regular_imaginary_d7": "no simple-root reducibility hyperplane is met and the Weyl stabilizer is trivial",
+    "d7_consequence": "the supplied regular imaginary spherical minimal principal series is irreducible and all normalized simple operators are unitary isomorphisms"
+  },
+  "normalization_boundary": {
+    "raw_spherical_divisor": "K1327's nonpositive-even poles and negative-odd zeros belong to m(z)",
+    "normalized_operator_divisor": "the odd K-type walls above are the operator-mode divisor after division by m(z)",
+    "warning": "a scalar c-function zero or pole is not by itself an operator kernel or reducibility statement"
+  },
+  "decision": {
+    "all_rank_one_normalized_mode_walls_classified": true,
+    "rank_one_kernel_and_pole_modes_classified": true,
+    "regular_imaginary_d7_reducibility_excluded": true,
+    "singular_or_nonspherical_M_type_classified": false,
+    "physical_reducibility_statement": false,
+    "protected_status_change": false
+  },
+  "claim_ceiling": "The trivial-M rank-one reducibility walls and their complete even-mode kernels are explicit, and the supplied regular imaginary D7 charge meets none of them. Nonspherical inducing data and physical GU constraints are outside this result."
+}

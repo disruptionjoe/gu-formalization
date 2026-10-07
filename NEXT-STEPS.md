@@ -7,6 +7,20 @@ updated_at: "2026-10-07"
 
 # Next Steps For Contributors
 
+> **2026-10-07 K1331--K1335 FULL KNAPP--STEIN OPERATOR DESCENT.** The complete
+> even simple-root spectrum is
+> `a_n(z)=product_(k=1)^|n| (2k-1-z)/(2k-1+z)` on the common K-finite
+> compact-picture core. The normalized operators are unitary on imaginary root
+> coordinates; their only rank-one reducibility walls are nonzero odd real
+> coordinates. Exact normalized cocycle relations now give full D7
+> operator-valued Coxeter transport, so the coherent chamber diagonal is a
+> mathematical G-subrepresentation isomorphic to one principal-series copy.
+> Next supply a released source action, boundary or Green law deriving the
+> charge or replacing the chamber construction, then build the interacting
+> local BV-BFV domain, causal evolution, positive nonzero physical cohomology
+> and observed-state map. Do not call the mathematical Hilbert control physical
+> GU positivity.
+
 > **2026-10-07 K1326--K1330 SPHERICAL INTERTWINER NORMALIZATION BOUNDARY.**
 > The split multiplicity-one rank-one spherical coefficient is exactly
 > `sqrt(pi) Gamma(z/2)/Gamma((z+1)/2)`, with poles at nonpositive even
