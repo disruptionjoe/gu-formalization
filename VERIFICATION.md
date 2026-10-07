@@ -7,6 +7,24 @@ updated_at: "2026-10-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1366--K1370 compact-charge regularized linearized quotient (2026-10-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A minimal positive `Q` regularizer is local-gauge invariant and charge coercive | K1366 exact commutation/BRST identities and `||Qphi||^2<=E_mu/mu`; K1364 witness penalty `16muN`; `27/27`; `10/10` | exact repository-owned form theorem; no source selection or global nonlinear evolution |
+| The charge-regularized free matter operator is closed and self-adjoint | K1367 closed form on `X_Q^1`, operator domain `H2 intersection L2(D(Q^2))`, mode spectrum and unitary generator; `29/29`; `10/10` | exact free operator theorem; positive floor but noncompact resolvent from infinite neutral multiplicity |
+| The regularizer selects the physical compact generator and normalization | K1368 `Q^2` commutant classification, Schur obstruction and `(Q,mu)~(cQ,mu/c^2)` plus sign degeneracy; `25/25`; `10/10` | false; exact nonselection theorem for this quadratic repair |
+| Positive nonzero vacuum-linearized BRST cohomology is completed on the graph domain | K1369 closed Maxwell image plus `X_Q^1` matter energy-space direct sum; `27/27`; `10/10` | exact vacuum-linearized repository control; no nonlinear properness or GU physical cohomology |
+| The regularized advance closes GU physical admission | K1370 45-row bridge census; `31/31`; `10/10` | thirty satisfied, four conditional, seven excluded and four missing; source selection and global nonlinear quotient remain open |
+
+The five producers pass `139/139` controls and five probes reject `50/50`
+hostile mutations. The compact route now has a completed charge-coercive free
+and vacuum-linearized control, but no source-owned generator, normalization,
+observed-carrier map or global nonlinear physical quotient. SC-ACT-01/02/06
+remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`, and LT-SM8/LT-GR6b/RA-F1/
+AC-F1 remain `NEEDS`. K1145/K1150 stay `0/7`. No source, ledger, canon,
+paper, prediction, confirmation or public status moves.
+
 ## K1361--K1365 compact-charge graph-domain control (2026-10-07)
 
 | Claim | Evidence | Honest grade |

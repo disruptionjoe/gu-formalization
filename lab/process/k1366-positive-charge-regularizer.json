@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1366-POSITIVE-CHARGE-REGULARIZER",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "NOT-A-GU-KILL:repository-owned compact-charge coercivity repair",
+  "scope": "The minimal positive quadratic Q-regularizer for K1359's repository-owned operator-charge scalar electrodynamics, selected backward from K1364's exact coercivity demand; not a source-selected action term, compact generator or observed charge law.",
+  "pinned_inputs": {
+    "k1359": {"path": "lab/process/k1359-nonuniform-charge-gauge-bv-core.json", "sha256": "6b9178661924c9a00324268c71c6d147b2bb0b744e6c31adc4360fc67b87e677"},
+    "k1364": {"path": "lab/process/k1364-coupled-energy-charge-control-obstruction.json", "sha256": "ac3a10279de83007abf953f04d364fca80f46c16832cfbd1aae75188b7c036b4"}
+  },
+  "regularized_action": {
+    "coefficient": "mu>0",
+    "added_potential": "V_Q(phi)=mu||Q phi||^2 on D(Q)",
+    "action_convention": "Add -mu||Q phi||^2 to the Lorentzian Lagrangian and +mu||Q phi||^2 to the conserved classical energy.",
+    "local_gauge_identity": "Q exp(i alpha Q)phi=exp(i alpha Q)Qphi",
+    "local_gauge_invariance": "V_Q(exp(i alpha Q)phi)=V_Q(phi) pointwise for every real local alpha.",
+    "euler_contribution": "The closed-form derivative contributes mu Q^2 phi to the strong matter equation on D(Q^2).",
+    "brst_invariance": "s V_Q=0 on the common core because s phi=i c Q phi, Q is self-adjoint and the infinitesimal circle action is unitary."
+  },
+  "coercivity": {
+    "energy": "E_mu=E_K1359+mu||Q phi||_L2^2",
+    "sharp_bound": "||Q phi||_L2^2<=E_mu/mu",
+    "k1364_sequence": "For phi_N=sum_(n<=N)n^-1 e_(4n), the added term equals 16 mu N and therefore removes the bounded-energy escape exactly.",
+    "spatial_limit": "The bound controls the internal charge graph term. Ordinary H1 control from the covariant gradient additionally requires an admissible gauge/spatial estimate; it is not inferred from this term alone."
+  },
+  "decision": {
+    "positive_charge_regularizer_constructed": true,
+    "local_circle_gauge_invariant": true,
+    "brst_invariant_on_common_core": true,
+    "charge_graph_coercive": true,
+    "k1364_counterexample_repaired_for_regularized_energy": true,
+    "ordinary_spatial_H1_control_from_regularizer_alone": false,
+    "source_action_identified": false,
+    "source_selects_Q_or_mu": false,
+    "global_nonlinear_coupled_evolution_proved": false,
+    "protected_status_change": false
+  },
+  "claim_ceiling": "Adding the repository-owned term mu||Q phi||^2 with mu>0 is exactly local-circle-gauge and BRST invariant on the common core and makes the classical energy coercive in the internal charge graph norm. It repairs K1364's counterexample but neither derives Q or mu from the source nor proves spatial H1 control or global nonlinear coupled evolution.",
+  "controls": {"producer": "tests/channel-swings/k1366_positive_charge_regularizer.py", "probe": "tests/channel-swings/k1366_positive_charge_regularizer_probe.py", "controls_passed": 27, "hostile_mutations_rejected": 10}
+}

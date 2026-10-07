@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1370-CHARGE-REGULARIZED-ADMISSION-BOUNDARY",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "scope": "Admission replay after constructing the minimal positive charge regularizer, its closed free graph-domain operator, its symmetry/normalization boundary and positive completed vacuum-linearized BRST cohomology.",
+  "pinned_inputs": {
+    "k1365": {"path": "lab/process/k1365-charge-domain-admission-boundary.json", "sha256": "af0504332bc06144a5ac81f5ea14bdaa8af10d1c825556f0757963a945324279"},
+    "k1366": {"path": "lab/process/k1366-positive-charge-regularizer.json", "sha256": "72075a863129fee1dff04d931a02dd083bf01c6c2f20ed76cab940cdcec24a22"},
+    "k1367": {"path": "lab/process/k1367-charge-regularized-free-operator.json", "sha256": "b6e4b86bed5271c3105ee6c0892fca208260467d64db87631df3da8631fc2c44"},
+    "k1368": {"path": "lab/process/k1368-regularizer-symmetry-normalization-boundary.json", "sha256": "2a22fdaf08540f1378dc358fdcce95cf40c67568b283da75dfc53326bca888fc"},
+    "k1369": {"path": "lab/process/k1369-charge-regularized-linearized-brst-cohomology.json", "sha256": "620a6a1daa8c95d2d1f3003463c02304ae6c6504aac6ef1d9bdf26fdc174fbd4"}
+  },
+  "bridge_census": {
+    "row_count": 45,
+    "satisfied_count": 30,
+    "conditional_count": 4,
+    "excluded_count": 7,
+    "missing_count": 4,
+    "new_satisfied_rows": [
+      "positive_local_gauge_invariant_Q_regularizer_controls_internal_charge_graph_norm",
+      "closed_self_adjoint_charge_regularized_free_operator_on_X_Q_1",
+      "exact_Q_squared_commutant_symmetry_classification"
+    ],
+    "strengthened_conditional_rows": [
+      "positive_nonzero_vacuum_linearized_BRST_cohomology_now_completed_on_the_charge_graph_energy_space_for_the_repository_control"
+    ],
+    "new_excluded_rows": [
+      "the_mu_Q_squared_regularizer_by_itself_selects_charge_sign_normalization_or_the_primitive_compact_generator"
+    ],
+    "conditional_rows": [
+      "positive_nonzero_cohomology_for_repository_owned_free_Maxwell_quotient_only",
+      "nonzero_bounded_linear_scalar_export_after_choosing_eta_and_reducing_internal_symmetry",
+      "positive_interacting_energy_and_completed_positive_nonzero_vacuum_linearized_BRST_cohomology_for_repository_control_only",
+      "nonzero_bounded_nonlinear_invariant_scalar_map_without_source_observation_semantics"
+    ],
+    "excluded_rows": [
+      "nontrivial_continuous_full_G_character_to_U1",
+      "nontrivial_internal_one_parameter_subgroup_acting_as_one_uniform_scalar_phase_on_H_ps",
+      "nonzero_internal_fixed_charge_sector_preserving_full_G_irreducibility",
+      "nonzero_pointwise_linear_equivariant_map_from_finite_source_fibre_to_H_ps",
+      "positive_definite_Ad_G_invariant_quadratic_gauge_kinetic_form_on_full_split_so_7_7",
+      "ordinary_positive_coupled_energy_alone_controls_unbounded_charge_graph_norm",
+      "the_mu_Q_squared_regularizer_by_itself_selects_charge_sign_normalization_or_the_primitive_compact_generator"
+    ],
+    "missing_rows": [
+      "source_owned_selection_and_normalization_of_the_compact_charge_reduction_on_the_observed_carrier",
+      "identification_with_one_source_action_derived_interacting_constraint_complex",
+      "closed_fully_coupled_global_nonlinear_BV_BFV_quotient_with_positive_physical_Hilbert_cohomology",
+      "source_owned_observed_state_and_export_map"
+    ]
+  },
+  "distance_update": {
+    "closed": [
+      "one explicit positive local-gauge-invariant repair of K1364's charge coercivity obstruction",
+      "closed free form and self-adjoint operator on the completed charge graph domain",
+      "positive nonzero vacuum-linearized BRST cohomology completed on the graph energy space"
+    ],
+    "excluded": [
+      "automatic source selection, charge orientation or normalization from the quadratic regularizer"
+    ],
+    "opened_or_sharpened": [
+      "global nonlinear Maxwell--matter graph estimates and closed nonlinear KT/BV-BFV range remain the next functional obligation",
+      "source action ownership and observed-carrier semantics remain prior to physical admission"
+    ]
+  },
+  "decision": {
+    "charge_coercive_repository_regularized_action_constructed": true,
+    "closed_free_graph_domain_operator_constructed": true,
+    "positive_completed_vacuum_linearized_BRST_cohomology_constructed": true,
+    "regularizer_selects_Q_sign_or_normalization": false,
+    "source_selected_reduction_constructed": false,
+    "fully_coupled_global_nonlinear_BV_BFV_domain_constructed": false,
+    "positive_GU_physical_Hilbert_cohomology_constructed": false,
+    "k1145_k1150_candidate_counts_move": false,
+    "protected_status_change": false
+  },
+  "source_and_ledger_effect": "SC-ACT-01_02_06_ASSERTS_UNCHANGED__SC-META-53_UNCERTAIN_UNCHANGED__LT-SM8_LT-GR6b_RA-F1_AC-F1_NEEDS_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "The compact-charge route now has one explicit repository-owned gauge-invariant coercive repair, a closed self-adjoint free graph-domain operator and positive nonzero completed vacuum-linearized BRST cohomology. The same term cannot select charge sign, normalization or the primitive compact generator; source ownership, global nonlinear coupled closure and GU physical cohomology remain missing.",
+  "controls": {"producer": "tests/channel-swings/k1370_charge_regularized_admission_boundary.py", "probe": "tests/channel-swings/k1370_charge_regularized_admission_boundary_probe.py", "controls_passed": 31, "hostile_mutations_rejected": 10}
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1368-REGULARIZER-SYMMETRY-NORMALIZATION-BOUNDARY",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "scope": "Exact symmetry and normalization price of K1366's repository-owned mu Q-squared regularizer; not a source-derived maximal-compact selector, hypercharge normalization or observed assignment.",
+  "pinned_inputs": {
+    "k1358": {"path": "lab/process/k1358-principal-series-charge-generator-domain.json", "sha256": "c91feee049717eb6052116b92353e5c5660d606df629acb710d4042a136c9601"},
+    "k1366": {"path": "lab/process/k1366-positive-charge-regularizer.json", "sha256": "72075a863129fee1dff04d931a02dd083bf01c6c2f20ed76cab940cdcec24a22"}
+  },
+  "symmetry_classification": {
+    "invariance_group": "The regularizer is invariant exactly under unitaries U preserving D(Q) and satisfying U*Q^2U=Q^2; this is the Q-squared commutant/normalizer and contains the selected circle and any charge-sign reversal.",
+    "full_G_test": "If Q^2 commuted with the full irreducible principal-series G action, every spectral projection of Q^2 would lie in the representation commutant and Schur irreducibility would force Q^2 to be scalar.",
+    "contradiction": "K1358 supplies unbounded charges plus_or_minus 4n and a neutral sector, so Q^2 is non-scalar and unbounded; full-G invariance is impossible.",
+    "symmetry_price": "The term makes the compact reduction dynamically operative only after Q is chosen; it preserves the Q-squared commutant, not the full split group."
+  },
+  "normalization_classification": {
+    "rescaling_degeneracy": "For every c nonzero, (Q,mu) maps to (cQ,mu/c^2) without changing mu Q^2 or the regularized free operator.",
+    "sign_degeneracy": "Q and -Q give the same regularizer and free spectrum.",
+    "selection_limit": "The action term presupposes a charge ray and coefficient product; it does not select the primitive generator, orientation, normalization or observed charge labels.",
+    "source_limit": "SC-META-53 remains UNCERTAIN and supplies no action coefficient or observed-carrier intertwiner fixing these choices."
+  },
+  "decision": {
+    "exact_Q_squared_invariance_group_classified": true,
+    "selected_circle_preserved": true,
+    "full_split_G_invariance": false,
+    "charge_sign_selected": false,
+    "charge_normalization_selected": false,
+    "primitive_compact_generator_source_selected": false,
+    "regularizer_reduces_canonicity_distance": false,
+    "protected_status_change": false
+  },
+  "claim_ceiling": "The positive regularizer has an exact symmetry price: it preserves the Q-squared commutant and cannot be invariant under the full irreducible split-G action. The product mu Q^2 is blind to charge sign and to reciprocal rescaling of Q and mu, so the repair cannot select the compact generator or its normalization. It is a conditional dynamical completion after a reduction is supplied, not the reduction law itself.",
+  "controls": {"producer": "tests/channel-swings/k1368_regularizer_symmetry_normalization_boundary.py", "probe": "tests/channel-swings/k1368_regularizer_symmetry_normalization_boundary_probe.py", "controls_passed": 25, "hostile_mutations_rejected": 10}
+}

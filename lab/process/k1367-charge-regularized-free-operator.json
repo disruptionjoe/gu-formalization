@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1367-CHARGE-REGULARIZED-FREE-OPERATOR",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "NOT-A-GU-KILL:repository-owned compact-charge operator closure",
+  "scope": "Closed quadratic-form and self-adjoint free matter operator supplied by K1366 on L2(T3;H_ps); not the nonlinear Maxwell--matter operator, a source action or a compact-resolvent theorem.",
+  "pinned_inputs": {
+    "k1361": {"path": "lab/process/k1361-local-gauge-charge-graph-domain.json", "sha256": "404e1a0289a02ad96f6b870f93ed41ee67f93144ec63c49f1121fe3fe54b63a6"},
+    "k1366": {"path": "lab/process/k1366-positive-charge-regularizer.json", "sha256": "72075a863129fee1dff04d931a02dd083bf01c6c2f20ed76cab940cdcec24a22"}
+  },
+  "closed_form": {
+    "hilbert_space": "H=L2(T3;H_ps)",
+    "form": "a_mu(phi)=||grad phi||^2+m^2||phi||^2+mu||Q phi||^2 with m>0 and mu>0",
+    "form_domain": "D(a_mu)=H1(T3;H_ps) intersection L2(T3;D(Q))=X_Q^1",
+    "closure": "The spatial H1 form and the Q graph form are nonnegative closed strongly commuting forms, so their sum is densely defined, closed and strictly positive.",
+    "associated_operator": "A_mu=-Delta_T3+m^2+mu Q^2",
+    "operator_domain": "D(A_mu)=H2(T3;H_ps) intersection L2(T3;D(Q^2))",
+    "domain_reason": "Fourier modes of -Delta and circle charge projections strongly commute; for nonnegative eigenvalues a,b, (a+b)^2 is equivalent to a^2+b^2."
+  },
+  "spectral_and_causal_control": {
+    "joint_mode": "On spatial Fourier momentum k and charge q, A_mu has value |k|^2+m^2+mu q^2.",
+    "sharp_floor": "A_mu>=m^2 I, with equality on the nonzero constant spatial neutral-charge sector.",
+    "energy_space": "E_mu=D(A_mu^(1/2)) direct_sum H=X_Q^1 direct_sum L2(T3;H_ps)",
+    "wave_generator": "G_mu=[[0,I],[-A_mu,0]] is skew-adjoint in the energy inner product and generates a unitary group.",
+    "causal_principal_part": "mu Q^2 is internal and zeroth order in spacetime, so the wave principal cone is unchanged on the common smooth graph core.",
+    "compact_resolvent_boundary": "Compact resolvent is false: the neutral charge sector is infinite dimensional across spherical K-types, so constant spatial neutral vectors give infinite multiplicity at eigenvalue m^2."
+  },
+  "decision": {
+    "closed_positive_form_on_X_Q_1": true,
+    "self_adjoint_free_operator_constructed": true,
+    "operator_domain_identified": true,
+    "strict_spectral_floor_m_squared": true,
+    "unitary_free_evolution_on_graph_energy_space": true,
+    "spacetime_causal_cone_unchanged": true,
+    "compact_resolvent": false,
+    "nonlinear_coupled_operator_closed": false,
+    "source_action_identified": false,
+    "protected_status_change": false
+  },
+  "claim_ceiling": "K1366's regularizer defines a closed strictly positive form exactly on K1361's charge graph-Sobolev domain and the self-adjoint free operator -Delta+m^2+mu Q^2 on H2 intersection D(Q^2). It has a sharp positive floor and unitary causal free evolution, but infinite neutral multiplicity prevents compact resolvent and no nonlinear coupled closure or source ownership follows.",
+  "controls": {"producer": "tests/channel-swings/k1367_charge_regularized_free_operator.py", "probe": "tests/channel-swings/k1367_charge_regularized_free_operator_probe.py", "controls_passed": 29, "hostile_mutations_rejected": 10}
+}

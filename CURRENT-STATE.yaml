@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: cd48c32965c848464d3c12783c5cef001e17ba47
+revision_basis: 2248f7146fc442f5a4eefdc9bb249f9dfc425f2d
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1366--K1370 execute the simplest reverse-selected repair of K1364's
+    charge-coercivity obstruction. Adding the repository-owned term
+    `mu||Qphi||^2`, `mu>0`, is exactly local-circle-gauge and BRST invariant
+    on the common core and gives `||Qphi||^2<=E_mu/mu`. Its closed form domain
+    is exactly `X_Q^1`; the associated self-adjoint free operator is
+    `-Delta+m^2+mu Q^2` on `H2 intersection L2(D(Q^2))`, with sharp floor
+    `m^2` and unitary causal free evolution. Infinite neutral-charge
+    multiplicity prevents compact resolvent. The regularizer preserves only
+    the `Q^2` commutant and is blind to `Q -> -Q` and
+    `(Q,mu)->(cQ,mu/c^2)`, so it selects no compact generator or normalization.
+    The positive nonzero vacuum-linearized BRST cohomology is now completed on
+    the graph energy space, but global nonlinear coupled evolution, closed
+    KT/BV-BFV properness, source ownership and GU physical cohomology remain
+    absent. The 45-row census is thirty satisfied, four conditional, seven
+    excluded and four missing; K1145/K1150 remain 0/7 and protected statuses
+    do not move.
+
     K1361--K1365 complete the first analytic charge-domain layer opened by
     K1360. The minimal local-gauge completion is
     `X_Q^1=H1(T3;H_ps) intersection L2(T3;D(Q))`; spacetime-dependent circle
@@ -14276,6 +14293,20 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1366--K1370 prove that the repository-owned positive regularizer
+  `mu||Qphi||^2` repairs K1364's internal charge-coercivity obstruction,
+  closes the free graph-domain operator and completes positive nonzero
+  vacuum-linearized BRST cohomology. They also prove the exact price: the term
+  preserves only the `Q^2` commutant, has noncompact resolvent through the
+  infinite neutral sector, and cannot select charge sign, normalization or the
+  primitive compact generator. Which source/action-owned reduction now fixes
+  those data on the actual observed carrier and preserves the graph domain?
+  Independently, which global nonlinear Maxwell--matter graph estimate closes
+  the Gauss/KT range and BV-BFV quotient with positive nonzero physical Hilbert
+  cohomology? Do not transfer free or vacuum-linearized closure to the
+  nonlinear physical theory. The strongest independent alternative remains a
+  typed nonlinear or nonlocal source-section observation map.
+
   K1361--K1365 identify the minimal completed graph domain preserved by local
   compact-circle gauge transformations, prove that the radial nonlinearity is
   charge-domain compatible, and propagate all finite charge orders through the
@@ -16378,6 +16409,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1366--K1370's exact boundary. The repository term
+  `mu||Qphi||^2` is a gauge-invariant coercive repair, its free form/operator
+  is closed on the charge graph domain, and the vacuum-linearized BRST
+  cohomology is positive and nonzero. It does not select `Q`, its sign or
+  normalization; `(Q,mu)` has the reciprocal rescaling degeneracy, full split
+  symmetry is broken to the `Q^2` commutant, and compact resolvent fails.
+  Advance the compact route only with both (1) a source/action-owned selector
+  and normalization on the actual observed carrier whose constraints and
+  observation map preserve the graph domain and (2) a global nonlinear
+  Maxwell--matter graph estimate with closed Gauss/KT range, proper BV-BFV
+  quotient and positive physical Hilbert cohomology. Alternatively construct
+  the typed nonlinear/nonlocal source-section map. Do not promote the free
+  generator or vacuum-linearized quotient to nonlinear GU physical closure.
+
   Preserve K1361--K1365's domain boundary. Local circle gauge transformations
   act on the completed `H1 intersection L2(D(Q))` graph domain, the radial
   cubic preserves it, and the separate defocusing wave propagates finite

@@ -7,6 +7,21 @@ updated_at: "2026-10-07"
 
 # Next Steps For Contributors
 
+> **2026-10-07 K1366--K1370 COMPACT-CHARGE REGULARIZED LINEARIZED
+> QUOTIENT.** The exact K1364 coercivity repair is now constructed as
+> repository-owned control mathematics. For `mu>0`, `mu||Qphi||^2` is local-
+> circle-gauge and BRST invariant, controls `||Qphi||`, closes the free form on
+> `X_Q^1`, and yields the self-adjoint operator `-Delta+m^2+mu Q^2` with
+> positive graph energy and unitary causal evolution. Vacuum-linearized BRST
+> cohomology is positive and nonzero on the completed graph domain. The same
+> theorem fences the remaining debt: infinite neutral multiplicity prevents
+> compact resolvent; the term preserves only the `Q^2` commutant and is blind
+> to charge sign and reciprocal `(Q,mu)` rescaling. Next derive a source-owned
+> observed-carrier selector/normalization and a global nonlinear Maxwell--
+> matter graph estimate with closed Gauss/KT range and proper positive BV-BFV
+> quotient. Do not promote the repository coefficient, free operator or
+> vacuum-linearized cohomology to source-owned nonlinear physical closure.
+
 > **2026-10-07 K1361--K1365 COMPACT-CHARGE GRAPH-DOMAIN CONTROL.** The
 > first completed-domain layer opened by K1360 is now exact. The minimal local
 > gauge domain is `H1(T3;H_ps) intersection L2(T3;D(Q))`; local circle gauge

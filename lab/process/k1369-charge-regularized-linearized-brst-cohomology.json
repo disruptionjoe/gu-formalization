@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1369-CHARGE-REGULARIZED-LINEARIZED-BRST-COHOMOLOGY",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "scope": "Vacuum-linearized BRST cohomology for the K1366-regularized repository scalar-electrodynamics control on the completed K1367 graph energy space; not nonlinear KT/BV-BFV properness, quantum cohomology or GU physical positivity.",
+  "pinned_inputs": {
+    "k1348": {"path": "lab/process/k1348-positive-constrained-energy-reduction.json", "sha256": "69d3f18d95e1f5c065641e2ed3d335c36400e4e7c2427a089487b2baf76bc972"},
+    "k1367": {"path": "lab/process/k1367-charge-regularized-free-operator.json", "sha256": "b6e4b86bed5271c3105ee6c0892fca208260467d64db87631df3da8631fc2c44"}
+  },
+  "linearized_complex": {
+    "vacuum": "A=0 and phi=0 in the zero-mean trivial-holonomy sector",
+    "brst_differential": "s_lin A=d c, s_lin c=0 and s_lin phi=0 because the infinitesimal matter gauge action i c Q phi vanishes at phi=0.",
+    "closed_gauge_image": "The zero-mean Maxwell gradient image is closed by the K1342/K1348 Fourier-mode Hodge decomposition.",
+    "matter_energy_space": "E_matter=X_Q^1 direct_sum L2(T3;H_ps)=D(A_mu^(1/2)) direct_sum H",
+    "matter_generator": "The K1367 skew-adjoint Klein--Gordon generator supplies unitary evolution and the positive graph energy.",
+    "cohomology": "H_BRST^0(linearized)=H_Maxwell_transverse direct_sum E_matter; matter is closed and not exact at the vacuum.",
+    "nonzero_classes": "Every nonzero transverse photon mode and every nonzero graph-regular matter datum defines a nonzero class.",
+    "positive_pairing": "The quadratic Hamiltonian is the positive transverse Maxwell energy plus ||Pi||^2+a_mu(phi), with floor m^2 on matter and no null class outside the removed gauge image."
+  },
+  "completion_boundary": {
+    "completed_gain": "Unlike K1359's algebraic K-finite core, the vacuum-linearized matter sector is now completed on X_Q^1 with a closed positive generator.",
+    "nonlinear_missing": "Away from phi=0 the BRST differential contains c Q phi, the Gauss constraint is nonlinear and the Maxwell current contains Q D phi. Closed nonlinear range, global evolution and quotient topology remain unproved.",
+    "physical_limit": "The construction is repository-owned and vacuum-linearized; it is not a source-owned observed physical Hilbert space."
+  },
+  "decision": {
+    "closed_linearized_brst_complex_on_graph_domain": true,
+    "closed_linearized_gauge_image": true,
+    "positive_nonzero_linearized_cohomology": true,
+    "transverse_photon_classes_present": true,
+    "graph_regular_matter_classes_present": true,
+    "nonlinear_KT_BV_BFV_properness": false,
+    "global_nonlinear_evolution": false,
+    "gu_physical_hilbert_cohomology": false,
+    "source_observation_map_constructed": false,
+    "protected_status_change": false
+  },
+  "claim_ceiling": "The positive vacuum-linearized BRST cohomology already present in K1348 extends to K1358's unbounded compact charge after K1366--K1367: the matter sector is completed on X_Q^1, the free generator is closed, and the direct-sum photon/matter cohomology is positive and nonzero. Nonlinear closed range, global coupled evolution, source ownership and GU physical cohomology remain open.",
+  "controls": {"producer": "tests/channel-swings/k1369_charge_regularized_linearized_brst_cohomology.py", "probe": "tests/channel-swings/k1369_charge_regularized_linearized_brst_cohomology_probe.py", "controls_passed": 27, "hostile_mutations_rejected": 10}
+}
