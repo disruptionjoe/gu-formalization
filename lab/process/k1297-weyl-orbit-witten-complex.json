@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1297-WEYL-ORBIT-WITTEN-COMPLEX",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "NONE-NOT-A-KILL",
+  "scope": "Finite Weyl-orbit sum of quadratic Witten-de Rham complexes on R7 built from K1296.",
+  "pinned_inputs": {
+    "k1296": {
+      "path": "lab/process/k1296-weyl-covariant-quadratic-model.json",
+      "sha256": "b2557dd7bbcfd7b91bdea45082efa9aa00aed4f5f0c016edf88a573dcb6b5cdb"
+    }
+  },
+  "construction": {
+    "hilbert_spaces": "H^k=direct_sum_(o in O) L2(R7;Lambda^k C7)",
+    "differential": "d_Phi=d+dPhi_o wedge on the o summand",
+    "initial_core": "direct_sum_(o in O) Schwartz(R7;Lambda^* C7)",
+    "nilpotent": true,
+    "closed_extension": true,
+    "weyl_action": "signed permutations act on x and exterior forms while permuting orbit summands",
+    "equivariant": true,
+    "witten_laplacian": "L=d_Phi d_Phi^*+d_Phi^* d_Phi",
+    "orbit_summands": 322560
+  },
+  "theorem": {
+    "each_summand_is_unitarily_equivalent": true,
+    "full_degree_zero_cohomology_dimension": 322560,
+    "full_positive_degree_cohomology_dimension": 0,
+    "weyl_invariant_degree_zero_cohomology_dimension": 1,
+    "weyl_invariant_positive_degree_cohomology_dimension": 0,
+    "invariant_ground_state": "normalized equal orbit sum of exp(-Phi_o)",
+    "finite_orbit_sum_only": true,
+    "source_bv_bfv_complex": false
+  },
+  "decision": {
+    "positive_nonzero_invariant_cohomology_constructed_conditionally": true,
+    "physical_cohomology_identified": false,
+    "connected_cartan_selector_replaced_by_source_complex": false
+  },
+  "claim_ceiling": "Exact repository-owned Weyl-equivariant Hilbert-complex control. The one-dimensional invariant Gaussian cohomology is mathematical and has no physical BV-BFV identification.",
+  "controls": {
+    "producer": "tests/channel-swings/k1297_weyl_orbit_witten_complex.py",
+    "probe": "tests/channel-swings/k1297_weyl_orbit_witten_complex_probe.py",
+    "controls_passed": 13,
+    "hostile_mutations_rejected": 8
+  }
+}

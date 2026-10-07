@@ -7,6 +7,21 @@ updated_at: "2026-10-06"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1296--K1300 Weyl-orbit Witten functional lift (2026-10-06)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A feasible regular K1294 target has one Weyl-covariant positive quadratic normal family | K1296 Hessian transport, common spectral floor and finite regular-orbit control; `12/12`; `8/8` | exact conditional normal-family theorem; not the global selector or a source action |
+| The orbit family closes to a Weyl-equivariant Witten Hilbert complex | K1297 nilpotence, closure, orbit cohomology and invariant-sector count; `13/13`; `8/8` | exact repository Hilbert-complex control; not physical BV-BFV cohomology |
+| One common graph domain has closed ranges, Hausdorff cohomology and gap `2 mu` | K1298 oscillator spectrum, compact resolvent, Hodge decomposition and invariant restriction; `14/14`; `9/9` | exact conditional functional theorem; positive L2 pairing is imported |
+| `G=-iL` is maximal skew-adjoint with the standard resolvent bound | K1299 spectral generator, domain preservation and reduced inverse; `13/13`; `8/8` | exact elliptic generator theorem; not a Lorentzian causal Green pair |
+| Functional feasibility advances while source ownership remains absent | K1300 K1145/K1150 replay and integrated census; `16/16`; `9/9` | nineteen satisfied, six excluded, seven conditional, three missing; native K1145/K1150 stay `0/7` |
+
+The five producers pass `68/68` controls and five probes reject `42/42`
+hostile mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, and LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`. No source,
+ledger, canon, paper, prediction, confirmation or public status moves.
+
 ## K1291--K1295 realized split-D7 invariant image (2026-10-06)
 
 | Claim | Evidence | Honest grade |

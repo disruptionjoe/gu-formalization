@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1298-CLOSED-RANGE-GAP-COHOMOLOGY",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "NONE-NOT-A-KILL",
+  "scope": "Closed-domain, range, spectral-gap and Hodge-cohomology theorem for the K1297 orbit Witten complex and its Weyl-invariant sector.",
+  "pinned_inputs": {
+    "k1297": {
+      "path": "lab/process/k1297-weyl-orbit-witten-complex.json",
+      "sha256": "4503cae3239b54324fd889373a0457660b0789a5e446398bb37ac94122615bee"
+    }
+  },
+  "theorem": {
+    "single_summand_spectrum": "sum_i 2 mu_i (n_i+epsilon_i), with n_i nonnegative integers and epsilon_i in {0,1}",
+    "uniform_positive_gap": "delta=2 mu where mu=min spectrum(B_o)>0",
+    "compact_resolvent": true,
+    "common_graph_domain": "D_common=D((1+L)^2), complete in norm ||(1+L)^2 u|| and contained in every domain needed for d_Phi,d_Phi^*,L,d_Phi L,L d_Phi",
+    "common_graph_domain_complete": true,
+    "smooth_core": "orbit-sum Schwartz forms are a common invariant core",
+    "differential_ranges_closed": true,
+    "cohomology_hausdorff": true,
+    "hodge_decomposition": "H=ker L orthogonal_sum closure(im d_Phi) orthogonal_sum closure(im d_Phi^*)",
+    "weyl_invariant_restriction_preserves_gap": true,
+    "weyl_invariant_cohomology_dimension": 1,
+    "cohomology_pairing": "ambient L2 pairing restricted to the one-dimensional invariant Gaussian class",
+    "cohomology_pairing_uniform_floor": "1 in the inherited quotient norm",
+    "physical_pairing_supplied": false
+  },
+  "decision": {
+    "k1146_common_graph_gate_mathematically_satisfied": true,
+    "k1147_closed_range_gate_mathematically_satisfied": true,
+    "k1148_uniform_gap_gate_mathematically_satisfied": true,
+    "k1145_positive_cohomology_gate_mathematically_satisfied": true,
+    "native_i1b_candidate_admitted": false
+  },
+  "claim_ceiling": "Exact functional-analysis control for the repository Witten lift. Its gap and cohomology do not identify a source state space, constraint quotient or physical inner product.",
+  "controls": {
+    "producer": "tests/channel-swings/k1298_closed_range_gap_cohomology.py",
+    "probe": "tests/channel-swings/k1298_closed_range_gap_cohomology_probe.py",
+    "controls_passed": 14,
+    "hostile_mutations_rejected": 9
+  }
+}

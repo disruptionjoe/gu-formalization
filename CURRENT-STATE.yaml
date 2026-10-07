@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 23f4ffb3aca2154a91c25efff4d4bc309a834d05
+revision_basis: 1b630972cd13e3f5d08484e8eb50082090cfc2a9
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1296--K1300 lift any imported feasible K1294 regular target to an exact
+    Weyl-equivariant quadratic Witten control. The positive selector Hessians
+    transport by signed-permutation conjugacy over the 322560-point regular
+    orbit. The finite orbit-sum Hilbert complex has closed differential,
+    compact-resolvent Witten Laplacian, one common D((1+L)^2) graph domain,
+    closed differential ranges and exact positive spectral gap 2 mu. Its full
+    degree-zero Gaussian cohomology has dimension 322560, while the transitive
+    Weyl-invariant sector has one positive nonzero class and no positive-degree
+    cohomology. G=-iL is maximal skew-adjoint, generates exp(-itL), and has the
+    standard resolvent bound; the boundaryless realization is not a Lorentzian
+    causal Green system. Four K1150 mathematical rows pass and one is
+    conditional for this repository control, but native K1145/K1150 candidate
+    counts remain 0/7 because no source-owned Q,d,G,H, causal-rank, boundary or
+    physical-state bridge exists. The integrated K1295 census is nineteen
+    satisfied, six excluded, seven conditional and three missing. Source, ledger
+    and protected statuses do not move.
+
     K1291--K1295 close the finite realized-orbit gap left by K1289. A real
     connected-D7 invariant tuple is realized exactly when its associated monic
     degree-seven polynomial has seven nonnegative real roots; these invariants

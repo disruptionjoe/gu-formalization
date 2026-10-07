@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1299-MAXIMAL-GENERATOR-RESOLVENT",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "NONE-NOT-A-KILL",
+  "scope": "Maximal skew-adjoint generator and resolvent theorem for the K1298 Weyl-invariant Witten Laplacian.",
+  "pinned_inputs": {
+    "k1298": {
+      "path": "lab/process/k1298-closed-range-gap-cohomology.json",
+      "sha256": "2f6088b643ce3e2cd02542c56ef269c2ca5f31a1c321d4035ad3cc2b2fd679ac"
+    }
+  },
+  "theorem": {
+    "generator": "G=-i L on D(L) in the complex Weyl-invariant Hilbert space",
+    "skew_adjoint": true,
+    "maximal": true,
+    "unitary_group": "U(t)=exp(-i t L)",
+    "preserves_common_spectral_domains": true,
+    "commutes_with_differential": true,
+    "resolvent_region": "Re z != 0",
+    "resolvent_bound": "||(z-G)^(-1)|| <= 1/|Re z|",
+    "reduced_zero_resolvent_bound": "||L^(-1)|| <= 1/(2 mu) on (ker L)^perp",
+    "boundary_form": "zero after closure on R7 because there is no geometric boundary and Schwartz integration by parts closes",
+    "boundaryless_trace_compatibility": true,
+    "hyperbolic_causal_green_operator": false
+  },
+  "decision": {
+    "k1149_maximal_generator_gate_mathematically_satisfied": true,
+    "k1150_boundary_trace_row_conditional_boundaryless": true,
+    "causal_hyperbolicity_proved": false,
+    "source_boundary_law_supplied": false
+  },
+  "claim_ceiling": "Exact maximal-generator and elliptic resolvent control. The unitary group and reduced inverse are not a Lorentzian causal Green pair or source boundary law.",
+  "controls": {
+    "producer": "tests/channel-swings/k1299_maximal_generator_resolvent.py",
+    "probe": "tests/channel-swings/k1299_maximal_generator_resolvent_probe.py",
+    "controls_passed": 13,
+    "hostile_mutations_rejected": 8
+  }
+}

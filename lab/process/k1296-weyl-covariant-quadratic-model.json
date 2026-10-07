@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1296-WEYL-COVARIANT-QUADRATIC-MODEL",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "NONE-NOT-A-KILL",
+  "scope": "Quadratic normal model attached to one imported K1294 feasible regular split-D7 target orbit.",
+  "pinned_inputs": {
+    "k1294": {
+      "path": "lab/process/k1294-realized-selector-transfer.json",
+      "sha256": "52be7df5618dc2724a287052d3255f17014b6cdaca27d141c02298e35e0d8c97"
+    }
+  },
+  "theorem": {
+    "regular_orbit_size": 322560,
+    "base_hessian": "B_o=(dF_o)^T diag(r0^(-2d)) dF_o",
+    "base_hessian_positive_definite": true,
+    "spectral_floor": "mu=min spectrum(B_o)>0",
+    "transport_law": "B_(w o)=w B_o w^T for every w in W(D7)",
+    "quadratic_superpotential": "Phi_o(x)=1/2 <x-o,B_o(x-o)>",
+    "quadratic_hessian_equals_selector_hessian": true,
+    "all_orbit_models_isospectral": true,
+    "finite_selector_equal_to_quadratic_model_globally": false,
+    "source_owned": false
+  },
+  "decision": {
+    "weyl_covariant_normal_family_exists": true,
+    "target_and_hessian_remain_imported": true,
+    "functional_lift_may_use_one_uniform_floor": true,
+    "physical_phase_space_identified": false
+  },
+  "claim_ceiling": "Exact Weyl-covariant quadratic normal-family theorem conditional on a feasible K1294 target. It is not the nonlinear selector away from the orbit and is not a released action or physical phase space.",
+  "controls": {
+    "producer": "tests/channel-swings/k1296_weyl_covariant_quadratic_model.py",
+    "probe": "tests/channel-swings/k1296_weyl_covariant_quadratic_model_probe.py",
+    "controls_passed": 12,
+    "hostile_mutations_rejected": 8
+  }
+}

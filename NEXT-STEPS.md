@@ -7,6 +7,20 @@ updated_at: "2026-10-06"
 
 # Next Steps For Contributors
 
+> **2026-10-06 K1296--K1300 WEYL-ORBIT WITTEN FUNCTIONAL LIFT.** Every
+> imported feasible regular K1294 target admits a Weyl-covariant quadratic
+> normal family and finite orbit-sum Witten complex. On one common spectral
+> graph domain it has closed differential ranges, compact resolvent, exact gap
+> `2 mu`, one Weyl-invariant Gaussian cohomology class and maximal
+> skew-adjoint generator `-iL`. This demonstrates joint functional feasibility,
+> not source or physical ownership: the model is repository-built, elliptic
+> and boundaryless, and supplies no native I1B `Q,d,G,H`, `6/6/4` causal ranks,
+> Lorentzian Green pair or physical-state bridge. Next derive the feasible
+> target, `lambda`, six shapes and native functional packet from a released
+> source action, boundary or Green law, then transport this construction to
+> that common carrier. Do not call the invariant Gaussian class physical
+> BV-BFV cohomology.
+
 > **2026-10-06 K1291--K1295 REALIZED SPLIT-D7 INVARIANT IMAGE.** The complete
 > real invariant image is the root region where
 > `t^7-I2 t^6+I4 t^5-I6 t^4+I8 t^3-I10 t^2+I12 t-I7^2` has seven

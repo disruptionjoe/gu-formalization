@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1300-FUNCTIONAL-LIFT-ADMISSION-BOUNDARY",
+  "created": "2026-10-06",
+  "status": "working_draft_verified",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-ACT-06",
+  "scope": "Integrated source and functional-admission boundary after the repository-owned K1296--K1299 Weyl-orbit Witten lift.",
+  "pinned_inputs": {
+    "k1145": {"path": "lab/process/k1145-i1b-dynamical-cohomology-admission-compiler.json", "sha256": "8defd4798333a15f1b5ead1503bfb41e888b6910e5828695edcc26f194a4c8c4"},
+    "k1150": {"path": "lab/process/k1150-i1b-functional-admission-compiler.json", "sha256": "442aa09e758b0651b80c0876618a71871e41418585226920aed0ffeef9d1d21d"},
+    "k1295": {"path": "lab/process/k1295-realized-image-admission-boundary.json", "sha256": "3855365af76e3cfc35f0c26af964e26a3c8a6f1866739d07222217fab94db201"},
+    "k1296": {"path": "lab/process/k1296-weyl-covariant-quadratic-model.json", "sha256": "b2557dd7bbcfd7b91bdea45082efa9aa00aed4f5f0c016edf88a573dcb6b5cdb"},
+    "k1297": {"path": "lab/process/k1297-weyl-orbit-witten-complex.json", "sha256": "4503cae3239b54324fd889373a0457660b0789a5e446398bb37ac94122615bee"},
+    "k1298": {"path": "lab/process/k1298-closed-range-gap-cohomology.json", "sha256": "2f6088b643ce3e2cd02542c56ef269c2ca5f31a1c321d4035ad3cc2b2fd679ac"},
+    "k1299": {"path": "lab/process/k1299-maximal-generator-resolvent.json", "sha256": "49d5cf03cbed7ab8b12a2d7db34667ede3aaec40ada83065cc3ab03564c41834"}
+  },
+  "k1145_control_replay": {
+    "mathematical_rows_satisfied": 3,
+    "mathematical_rows_missing": 4,
+    "native_candidate_pass_count": 0,
+    "reason": "nilpotent differential, positive invariant cohomology and common domain exist, but no source-owned Q,d,G,H packet or native 6/6/4 causal ranks exist"
+  },
+  "k1150_control_replay": {
+    "mathematical_rows_satisfied": 4,
+    "mathematical_rows_conditional": 1,
+    "mathematical_rows_missing": 2,
+    "native_candidate_pass_count": 0,
+    "rows": [
+      {"test": "source_action_owner", "state": "missing"},
+      {"test": "causal_algebraic_packet", "state": "missing"},
+      {"test": "common_graph_domain", "state": "satisfied"},
+      {"test": "closed_gauge_range", "state": "satisfied"},
+      {"test": "uniform_positive_gap", "state": "satisfied"},
+      {"test": "maximal_generator", "state": "satisfied"},
+      {"test": "boundary_trace_compatibility", "state": "conditional"}
+    ]
+  },
+  "integrated_k1295_boundary": {
+    "satisfied_count": 19,
+    "excluded_count": 6,
+    "conditional_count": 7,
+    "missing_count": 3,
+    "moved_to_conditional": [
+      "common closed functional domain",
+      "closed range and positive quotient gap",
+      "causal Green or maximal generator packet"
+    ],
+    "still_missing": [
+      "source-derived six-shape response law",
+      "source-derived lambda and physical orientation owner",
+      "positive nonzero physical cohomology"
+    ]
+  },
+  "decision": {
+    "functional_gate_joint_feasibility_demonstrated": true,
+    "source_selected_functional_packet_constructed": false,
+    "physical_bv_bfv_cohomology_constructed": false,
+    "hyperbolic_causal_green_constructed": false,
+    "protected_status_change": false,
+    "next_exact_input": "Derive the feasible target, lambda and six shapes together with a native Q,d,G,H and boundary packet from a released source action, boundary or Green law, then transport the K1296--K1299 domain/range/gap/generator construction to that common physical carrier."
+  },
+  "source_and_ledger_effect": "SC-ACT-01_02_06_ASSERTS_UNCHANGED__SC-META-53_UNCERTAIN_UNCHANGED__LT-SM8_LT-GR6b_RA-F1_AC-F1_NEEDS_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Exact conditional functional-feasibility construction only. The Witten lift is repository-owned, elliptic and boundaryless; it is not a GU source action, I1B BV-BFV complex, Lorentzian causal Green system or physical state space.",
+  "controls": {
+    "producer": "tests/channel-swings/k1300_functional_lift_admission_boundary.py",
+    "probe": "tests/channel-swings/k1300_functional_lift_admission_boundary_probe.py",
+    "controls_passed": 16,
+    "hostile_mutations_rejected": 9
+  }
+}

@@ -4,6 +4,35 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1296--K1300 Weyl-orbit Witten functional lift
+
+- K1296 transports the positive K1294 Hessian over the complete regular Weyl
+  orbit and freezes one uniform positive spectral floor (`12/12`; `8/8`).
+- K1297 constructs the finite orbit-sum Witten complex and computes its full
+  and Weyl-invariant cohomology (`13/13`; `8/8`).
+- K1298 proves one common graph domain, closed ranges, Hausdorff cohomology,
+  compact resolvent and exact gap `2 mu` (`14/14`; `9/9`).
+- K1299 proves maximal skew-adjoint generation, spectral-domain preservation
+  and resolvent bounds without claiming causal hyperbolicity (`13/13`; `8/8`).
+- K1300 replays K1145/K1150 and the integrated source/functional boundary
+  (`16/16`; `9/9`).
+
+The five producers pass `68/68` controls and the probes reject `42/42`
+hostile mutations.
+
+```bash
+python3 tests/channel-swings/k1296_weyl_covariant_quadratic_model.py
+python3 tests/channel-swings/k1296_weyl_covariant_quadratic_model_probe.py
+python3 tests/channel-swings/k1297_weyl_orbit_witten_complex.py
+python3 tests/channel-swings/k1297_weyl_orbit_witten_complex_probe.py
+python3 tests/channel-swings/k1298_closed_range_gap_cohomology.py
+python3 tests/channel-swings/k1298_closed_range_gap_cohomology_probe.py
+python3 tests/channel-swings/k1299_maximal_generator_resolvent.py
+python3 tests/channel-swings/k1299_maximal_generator_resolvent_probe.py
+python3 tests/channel-swings/k1300_functional_lift_admission_boundary.py
+python3 tests/channel-swings/k1300_functional_lift_admission_boundary_probe.py
+```
+
 ## K1291--K1295 realized split-D7 invariant image
 
 - K1291 classifies the complete real invariant image by a seven-nonnegative-
