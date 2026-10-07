@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1312-MINIMAL-PARABOLIC-POLARIZED-SECTIONS",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "scope": "Real-polarized sections for one supplied positive-root chamber on the prequantized regular split orbit.",
+  "pinned_inputs": {
+    "k1309": {"path": "lab/process/k1309-invariant-real-polarization-classification.json", "sha256": "d3b42aa432edc291b96def223046324bac94a030f2fa7fed5e9073b9f4fb683d"},
+    "k1311": {"path": "lab/process/k1311-split-charge-prequantum-character.json", "sha256": "5405bd260094fc9e99816066977f7cb583d993b3aa43910d242137085dd4af52"}
+  },
+  "construction": {
+    "root_system": "D7",
+    "positive_root_count": 42,
+    "nilradical_dimension": 42,
+    "split_rank": 7,
+    "minimal_parabolic": "P=MAN_plus",
+    "parabolic_dimension": 49,
+    "flag_dimension": 42,
+    "polarization": "P_plus is the G-translate of n_plus inside T(O_mu)",
+    "character_extension": "chi_mu extends from MA to P by acting trivially on N_plus",
+    "rho_vector_standard_chamber": [6,5,4,3,2,1,0],
+    "modular_character": "delta_P(exp H)=exp(2 rho(H))",
+    "normalized_equivariance": "f(gman)=delta_P(a)^(-1/2) chi_mu(a)^(-1) f(g)",
+    "smooth_polarized_control": "normalized spherical principal-series smooth vectors Ind_P^G(chi_mu)",
+    "half_density_correction_included": true
+  },
+  "decision": {
+    "finite_real_polarization_extends_to_closed_subgroup": true,
+    "normalized_induced_control_constructed": true,
+    "polarized_BFV_cohomology_constructed": false,
+    "GU_action_constraint_complex_constructed": false,
+    "source_or_physical_status_moves": false
+  },
+  "source_and_ledger_effect": "SC-META-53_UNCERTAIN_UNCHANGED__LT-SM8_LT-GR6b_RA-F1_AC-F1_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Exact minimal-parabolic normalized-induction control associated with one imported Weyl chamber and charge. It is not the polarized cohomology of the source-owned finite BFV complex or a GU functional BV-BFV quantization.",
+  "controls": {"producer": "tests/channel-swings/k1312_minimal_parabolic_polarized_sections.py", "probe": "tests/channel-swings/k1312_minimal_parabolic_polarized_sections_probe.py", "controls_passed": 16, "hostile_mutations_rejected": 9}
+}

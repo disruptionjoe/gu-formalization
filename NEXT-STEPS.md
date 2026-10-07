@@ -2,10 +2,24 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-10-06"
+updated_at: "2026-10-07"
 ---
 
 # Next Steps For Contributors
+
+> **2026-10-07 K1311--K1315 SPLIT-ORBIT PRINCIPAL-SERIES CONTROL.** Every
+> supplied regular split charge integrates to a unitary character of the
+> connected split stabilizer, so the orbit has a homogeneous prequantum line
+> with KKS curvature and no charge-integrality lattice. Each Weyl chamber
+> extends the real polarization to a minimal parabolic; the modular
+> half-density gives a normalized unitary principal series with positive
+> compact picture `L2(K/M)`. Thus neutral orbit-tangent geometry does not block
+> a positive mathematical Hilbert control. The charge remains imported and
+> continuous, no chamber is canonical or source-selected, and the Hilbert
+> control is not a GU physical quotient. Next derive the charge/chamber from a
+> released action, boundary or Green law and build the interacting local
+> BV-BFV domain, causal evolution, positive physical cohomology and observed
+> state map. Do not promote normalized induction to physical positivity.
 
 > **2026-10-06 K1306--K1310 SPLIT-ORBIT PARA-POLARIZATION BOUNDARY.** The
 > regular split orbit has no fully `Spin_0(7,7)`-invariant almost-complex

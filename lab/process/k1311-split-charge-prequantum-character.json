@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1311-SPLIT-CHARGE-PREQUANTUM-CHARACTER",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "scope": "Equivariant prequantization of the supplied regular split orbit Spin_0(7,7)/MA, with A the connected split Cartan and M its finite compact centralizer.",
+  "pinned_inputs": {
+    "k1302": {"path": "lab/process/k1302-regular-shifted-reduction.json", "sha256": "9ceca564b8e76365ab31135222fd4e0d6f6ddf4db3a2bac07888c10ffdd84898"},
+    "k1309": {"path": "lab/process/k1309-invariant-real-polarization-classification.json", "sha256": "d3b42aa432edc291b96def223046324bac94a030f2fa7fed5e9073b9f4fb683d"}
+  },
+  "construction": {
+    "group": "Spin_0(7,7)",
+    "group_dimension": 91,
+    "split_rank": 7,
+    "orbit_dimension": 84,
+    "stabilizer": "MA",
+    "A": "exp(a) isomorphic to R^7 as a Lie group",
+    "M": "finite compact centralizer of A",
+    "charge": "supplied regular mu in a*",
+    "unitary_character": "chi_mu(m exp H)=exp(i mu(H)), trivial on M",
+    "character_modulus_one": true,
+    "character_exists_for_every_real_mu": true,
+    "homogeneous_line": "L_mu=G x_(MA) C_chi_mu",
+    "invariant_connection_curvature": "minus i times the convention-signed KKS form",
+    "charge_integrality_lattice_required": false,
+    "reason_no_lattice": "The connected split torus A is exponential and noncompact; every real linear functional on a integrates to a unitary character through exp(i mu(H))."
+  },
+  "decision": {
+    "equivariant_prequantum_line_exists": true,
+    "prequantization_selects_mu": false,
+    "prequantization_discretizes_mu": false,
+    "finite_M_supplies_physical_sector": false,
+    "source_or_physical_status_moves": false
+  },
+  "source_and_ledger_effect": "SC-META-53_UNCERTAIN_UNCHANGED__LT-SM8_LT-GR6b_RA-F1_AC-F1_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Exact homogeneous prequantum-character construction for every supplied regular split charge. It imposes no charge lattice and supplies no source selection, polarization Hilbert completion or physical state space.",
+  "controls": {"producer": "tests/channel-swings/k1311_split_charge_prequantum_character.py", "probe": "tests/channel-swings/k1311_split_charge_prequantum_character_probe.py", "controls_passed": 14, "hostile_mutations_rejected": 9}
+}

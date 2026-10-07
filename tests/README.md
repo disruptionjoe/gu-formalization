@@ -4,6 +4,36 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1311--K1315 split-orbit principal-series control
+
+- K1311 integrates every supplied regular split charge to a unitary stabilizer
+  character and homogeneous prequantum line, with no charge lattice (`14/14`;
+  `9/9`).
+- K1312 extends one positive-root polarization to a minimal parabolic and
+  normalized half-density induction (`16/16`; `9/9`).
+- K1313 constructs the positive compact-picture Hilbert control `L2(K/M)`
+  while preserving the physical-pairing ceiling (`16/16`; `9/9`).
+- K1314 classifies the 322560 chamberwise controls and the unresolved
+  canonical/intertwiner boundary (`16/16`; `9/9`).
+- K1315 composes the mathematical and physical-admission boundary (`16/16`;
+  `9/9`).
+
+The five producers pass `78/78` controls and the probes reject `45/45`
+hostile mutations.
+
+```bash
+python3 tests/channel-swings/k1311_split_charge_prequantum_character.py
+python3 tests/channel-swings/k1311_split_charge_prequantum_character_probe.py
+python3 tests/channel-swings/k1312_minimal_parabolic_polarized_sections.py
+python3 tests/channel-swings/k1312_minimal_parabolic_polarized_sections_probe.py
+python3 tests/channel-swings/k1313_compact_picture_positive_hilbert_control.py
+python3 tests/channel-swings/k1313_compact_picture_positive_hilbert_control_probe.py
+python3 tests/channel-swings/k1314_weyl_chamber_quantization_boundary.py
+python3 tests/channel-swings/k1314_weyl_chamber_quantization_boundary_probe.py
+python3 tests/channel-swings/k1315_principal_series_admission_boundary.py
+python3 tests/channel-swings/k1315_principal_series_admission_boundary_probe.py
+```
+
 ## K1306--K1310 split-orbit para-polarization boundary
 
 - K1306 proves that the real one-dimensional split-root spaces exclude every

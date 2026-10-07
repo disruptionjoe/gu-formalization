@@ -2,10 +2,25 @@
 title: "Verification: What Is Proved, Computed, and Conjectural"
 status: process
 doc_type: verification-map
-updated_at: "2026-10-06"
+updated_at: "2026-10-07"
 ---
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
+
+## K1311--K1315 split-orbit principal-series control (2026-10-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Every supplied regular split charge has a homogeneous prequantum line | K1311 split-Cartan unitary character and KKS curvature; `14/14`; `9/9` | exact equivariant prequantum construction; imposes no charge lattice and selects no charge |
+| One chamber extends the real polarization to normalized minimal-parabolic induction | K1312 D7 root/rho calculation and modular half-density; `16/16`; `9/9` | exact representation-theoretic control; not polarized BFV cohomology |
+| The compact picture is a positive unitary Hilbert control | K1313 `L2(K/M)` positivity with unitary-axis character; `16/16`; `9/9` | exact normalized principal-series Hilbert space; not a physical GU pairing |
+| Every chamber admits a control but none is selected | K1314 Weyl-torsor and finite-direct-sum classification; `16/16`; `9/9` | exact chamberwise existence; normalized intertwiners and canonical physical choice remain open |
+| Mathematical unitarity does not close physical admission | K1315 seventeen-row composition; `16/16`; `9/9` | six satisfied, three excluded, two conditional and six missing; K1145/K1150 remain `0/7` |
+
+The five producers pass `78/78` controls and five probes reject `45/45`
+hostile mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, and LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`. No source,
+ledger, canon, paper, prediction, confirmation or public status moves.
 
 ## K1306--K1310 split-orbit para-polarization boundary (2026-10-06)
 

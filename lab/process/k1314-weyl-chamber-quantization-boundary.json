@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1314-WEYL-CHAMBER-QUANTIZATION-BOUNDARY",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "scope": "Dependence of the K1312--K1313 normalized principal-series control on the 322560 positive-root chambers classified by K1309.",
+  "pinned_inputs": {
+    "k1309": {"path": "lab/process/k1309-invariant-real-polarization-classification.json", "sha256": "d3b42aa432edc291b96def223046324bac94a030f2fa7fed5e9073b9f4fb683d"},
+    "k1312": {"path": "lab/process/k1312-minimal-parabolic-polarized-sections.json", "sha256": "4fb5457e968aa26980a02e5d3024c8bfffca2cd9d7800611b07e1ad769fa416c"},
+    "k1313": {"path": "lab/process/k1313-compact-picture-positive-hilbert-control.json", "sha256": "aff3d467101d0ce988777f040300fa5ac46078d5546ee2e291cc4f7273cab620"}
+  },
+  "classification_result": {
+    "weyl_group_order": 322560,
+    "chamber_count": 322560,
+    "weyl_action_on_chambers": "free and transitive",
+    "each_chamber_defines": "one conjugate minimal parabolic P_C=MAN_C and one positive compact-picture principal-series control",
+    "all_chambers_admit_positive_control": true,
+    "single_chamber_canonical": false,
+    "source_selected_chamber": false,
+    "finite_multichamber_sum": "direct sum over all chambers of L2(K/M)",
+    "finite_multichamber_sum_positive": true,
+    "finite_multichamber_multiplicity": 322560,
+    "normalized_weyl_intertwiner_family_constructed_here": false,
+    "chamber_blind_G_subrepresentation_constructed_here": false,
+    "reason_for_ceiling": "Positivity exists chamberwise, but identifying or averaging the G-actions requires normalized intertwiners and still cannot source-select a physical chamber."
+  },
+  "decision": {
+    "K1309_chamber_torsor_blocks_mathematical_Hilbert_control": false,
+    "K1309_chamber_torsor_still_blocks_canonical_single_choice": true,
+    "direct_sum_is_physical_sector": false,
+    "physical_chamber_selection_resolved": false,
+    "source_or_physical_status_moves": false
+  },
+  "source_and_ledger_effect": "SC-META-53_UNCERTAIN_UNCHANGED__LT-SM8_LT-GR6b_RA-F1_AC-F1_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Exact chamberwise existence and positive finite-direct-sum classification. No normalized Weyl-intertwiner system, canonical single polarization, source-selected chamber or physical sector is constructed.",
+  "controls": {"producer": "tests/channel-swings/k1314_weyl_chamber_quantization_boundary.py", "probe": "tests/channel-swings/k1314_weyl_chamber_quantization_boundary_probe.py", "controls_passed": 16, "hostile_mutations_rejected": 9}
+}

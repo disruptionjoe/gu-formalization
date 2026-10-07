@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K1313-COMPACT-PICTURE-POSITIVE-HILBERT-CONTROL",
+  "created": "2026-10-07",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "scope": "Positive Hilbert completion of the normalized spherical principal-series control associated with one supplied regular split charge and Weyl chamber.",
+  "pinned_inputs": {
+    "k1311": {"path": "lab/process/k1311-split-charge-prequantum-character.json", "sha256": "5405bd260094fc9e99816066977f7cb583d993b3aa43910d242137085dd4af52"},
+    "k1312": {"path": "lab/process/k1312-minimal-parabolic-polarized-sections.json", "sha256": "4fb5457e968aa26980a02e5d3024c8bfffca2cd9d7800611b07e1ad769fa416c"}
+  },
+  "construction": {
+    "maximal_compact": "K has Lie algebra so(7) plus so(7) and is a finite central quotient of Spin(7) x Spin(7)",
+    "K_dimension": 42,
+    "M_dimension": 0,
+    "compact_picture_base": "K/M",
+    "compact_picture_dimension": 42,
+    "hilbert_space": "H_mu=L2(K/M,dk)",
+    "inner_product": "integral_(K/M) conjugate(f(k)) g(k) dk",
+    "positive_definite": true,
+    "charge_parameter": "i mu on the unitary axis",
+    "normalized_principal_series_unitary": true,
+    "conserved_norm": true,
+    "tangent_para_kahler_signature": [42,42],
+    "hilbert_positivity_comes_from": "positive Haar measure and unitary normalized induction, not the neutral tangent metric"
+  },
+  "decision": {
+    "positive_mathematical_hilbert_control_exists": true,
+    "neutral_tangent_metric_blocks_unitary_induction": false,
+    "physical_pairing_constructed": false,
+    "causal_generator_or_Green_law_constructed": false,
+    "source_or_physical_status_moves": false
+  },
+  "source_and_ledger_effect": "SC-META-53_UNCERTAIN_UNCHANGED__LT-SM8_LT-GR6b_RA-F1_AC-F1_UNCHANGED__LEDGER_UNCHANGED",
+  "claim_ceiling": "Exact positive compact-picture Hilbert control for the normalized unitary principal series. The positivity is representation-theoretic and does not descend from a GU action-derived BV-BFV quotient, causal domain or observed-state pairing.",
+  "controls": {"producer": "tests/channel-swings/k1313_compact_picture_positive_hilbert_control.py", "probe": "tests/channel-swings/k1313_compact_picture_positive_hilbert_control_probe.py", "controls_passed": 16, "hostile_mutations_rejected": 9}
+}
