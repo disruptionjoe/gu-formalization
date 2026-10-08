@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1471",
+  "title": "Every finite cutoff composes the nonlinear Wick Hamiltonian with the closed Gaussian BRST complex",
+  "pinned_inputs": {
+    "k1429": {"path": "lab/process/k1429-continuum-gaussian-brst-cohomology.json", "sha256": "9b23018c22470a43f91daf2cec5aaba46b4a76d54a90bad8d2871cfc2250ab3e"},
+    "k1466": {"path": "lab/process/k1466-nonlinear-cutoff-form-domain.json", "sha256": "0e5b04e037e64580cf48bc6da77b4b8ececa0394600ec64fdba63650bc72f79b"}
+  },
+  "finite_cutoff_composition": {
+    "carrier": "At cutoff N take the residual-invariant reduced Gaussian/Fock factor carrying K1466's Friedrichs operator A_N, tensored with K1429's based-gauge Gaussian boson/ghost factor",
+    "brst_operator": "D_N=1 tensor d_gamma is the same densely defined closed nilpotent Gaussian differential; the interaction is reduced, residual-circle invariant and independent of based-gauge and ghost coordinates",
+    "hamiltonian": "mathbb H_N=A_N tensor 1 + 1 tensor Delta_BRST is the nonnegative self-adjoint operator from the sum of strongly commuting closed forms",
+    "commutation": "Delta_BRST commutes strongly with d_gamma and A_N acts on the other tensor factor, so mathbb H_N preserves Dom(D_N), commutes with D_N on the common core and descends to cohomology",
+    "cohomology": "The positive degree-zero cohomology is the residual-invariant reduced factor tensored with the gauge/ghost vacuum, and the induced interacting Hamiltonian is exactly A_N; higher cohomology remains zero",
+    "interpretation": "This closes finite-cutoff compatibility between the nonlinear Hamiltonian and a closed BRST Hilbert complex without deforming the BRST charge",
+    "ceiling": "The cutoff complex is repository Gaussian gauge fixing, not a source-derived interacting BRST charge. No common continuum form domain, cutoff-stable commutator, interacting BRST limit, Mosco/strong-resolvent limit or GU physical cohomology follows"
+  },
+  "decision": {
+    "finite_cutoff_closed_brst_operator_retained": true,
+    "finite_cutoff_interacting_hamiltonian_brst_compatible": true,
+    "positive_nonzero_degree_zero_interacting_cohomology": true,
+    "higher_cohomology_zero": true,
+    "continuum_interacting_brst_operator_constructed": false,
+    "source_physical_cohomology_identified": false,
+    "protected_status_change": false
+  }
+}

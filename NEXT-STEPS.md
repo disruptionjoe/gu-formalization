@@ -7,6 +7,21 @@ updated_at: "2026-10-08"
 
 # Next Steps For Contributors
 
+> **2026-10-08 K1468--K1472 NULL-ORDER, WICK-COCYCLE AND FINITE-CUTOFF BRST
+> BOUNDARY.** A spatial angular null factor remains one derivative short after
+> matter-energy normalization on the fixed-offset near-parallel ray; the full
+> Lorentz time--space numerator supplies the extra order. The nonnegative Wick
+> forms obey an exact scalar cutoff cocycle, and their free-vacuum interaction
+> concentrates at its `N^4` scale with relative L2 error `O(N^-3)`. At every
+> fixed cutoff the nonlinear Friedrichs Hamiltonian nevertheless composes with
+> the closed Gaussian BRST complex and induces a positive interacting
+> Hamiltonian on degree-zero cohomology. Next derive the full-current Lorentz
+> combination or an equivalent spacetime estimate, and prove or refute
+> Mosco/strong-resolvent convergence after explicit energy recentering before
+> attempting a continuum interacting BRST operator. Do not promote vacuum
+> concentration to operator nonconvergence or fixed-cutoff cohomology to GU
+> physical states.
+
 > **2026-10-08 K1461--K1467 NULL-FORM AND WICK CUTOFF-DOMAIN BOUNDARY.**
 > The exact Lorentz wave--Klein--Gordon numerator cancels the nonzero-mode
 > phase divisor, improving K1443's two-derivative loss to one derivative; its

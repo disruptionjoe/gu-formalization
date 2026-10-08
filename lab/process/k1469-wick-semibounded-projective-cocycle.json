@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1469",
+  "title": "The semibounded Wick cutoff forms have an exact divergent scalar projective cocycle",
+  "pinned_inputs": {
+    "k1431": {"path": "lab/process/k1431-quartic-wick-renormalization-boundary.json", "sha256": "2ba744136802675d4a480d25642532542595c782abfb94fda8642b9cff165f3f"},
+    "k1464": {"path": "lab/process/k1464-wick-cutoff-square-completion.json", "sha256": "6a194a81b2d61210253e88c81869a20f0db5885e9555221faffc8753869f4c68"}
+  },
+  "scalar_cocycle": {
+    "definitions": "On normalized T3 let V_N=integral :phi_N^4: dx and W_N=integral (phi_N^2-3C_N)^2 dx=V_N+6C_N^2",
+    "conditional_expectation": "For M>=N, E(V_M|F_N)=V_N and E(W_M|F_N)=W_N+6(C_M^2-C_N^2)",
+    "cocycle": "b_MN=6(C_M^2-C_N^2) obeys b_LN=b_LM+b_MN and is a scalar vacuum-energy cocycle",
+    "exact_martingale_recenter": "For W_N+a_N to be an exact martingale, a_N+6C_N^2 must be constant, so the recentered family is V_N plus one constant",
+    "semiboundedness_conflict": "The martingale recenter has lower bound constant-6C_N^2, which diverges to minus infinity; retaining the nonnegative square instead retains the divergent scalar cocycle",
+    "dynamics_note": "A scalar shift changes unitary evolution only by a phase, but changes spectral origins and resolvents; the cocycle therefore does not itself prove Hamiltonian convergence",
+    "ceiling": "The exact scalar conflict proves neither Mosco failure nor strong-resolvent failure after ground-energy recentering, and supplies no continuum domain, interacting BRST closure or source ownership"
+  },
+  "decision": {
+    "exact_semibounded_projective_cocycle_proved": true,
+    "cocycle_identity_proved": true,
+    "exact_martingale_and_uniform_lower_bound_achieved_by_scalar_recenter": false,
+    "beta_one_mosco_limit_constructed": false,
+    "beta_one_strong_resolvent_limit_constructed": false,
+    "protected_status_change": false
+  }
+}

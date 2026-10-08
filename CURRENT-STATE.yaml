@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 9add459e2b207682204447b2548c8fe9dc7cd05a
+revision_basis: 897ba9432967221478258097ed25e778bfa98e1a
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1468--K1472 sharpen the remaining null-form, cutoff-form and BRST
+    boundaries. On K1463's near-parallel ray, one spatial angular null factor
+    removes only one derivative after matter-energy normalization; the full
+    Lorentz time--space numerator supplies the extra order needed for a
+    same-tier multiplier. The nonnegative finite-cutoff Wick forms have an
+    exact scalar conditional-expectation cocycle
+    `6(C_M^2-C_N^2)`. Exact martingale recentering forfeits a uniform lower
+    bound, while retaining the square makes the free-vacuum interaction
+    concentrate at its `N^4` scale with relative L2 error `O(N^-3)`.
+    Nevertheless, at every fixed cutoff the nonlinear Friedrichs Hamiltonian
+    composes with the closed Gaussian BRST complex and induces a positive
+    interacting Hamiltonian on nonzero degree-zero cohomology. No full-current
+    K1413 decomposition, beta=1 Mosco/strong-resolvent limit, continuum
+    interacting BRST operator or source-owned theory follows. The 144-row
+    census is ninety satisfied, ten conditional, forty excluded and four
+    missing; K1145/K1150 remain 0/7 and protected statuses do not move.
+
     K1461--K1467 isolate the exact null structure needed to improve K1443 and
     construct the strongest finite-cutoff beta=1 form currently justified.
     The Lorentz wave--Klein--Gordon numerator cancels the nonzero-mode phase
@@ -16831,6 +16848,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1468--K1472's exact boundaries. A first-order spatial angular null
+  factor remains one derivative short on the fixed-offset near-parallel ray;
+  advance the PDE arc only by deriving the full time--space Lorentz numerator
+  from K1413's current/constraint system, adding a second cancellation, or
+  proving a spacetime/modified-energy estimate that also controls radial
+  leakage. The nonnegative Wick forms are projectively compatible only up to
+  the divergent scalar cocycle and concentrate at free-vacuum scale `N^4`.
+  Advance the quantum arc by controlling cutoff-dependent low-energy states
+  and nonlinear form domains strongly enough to prove or refute Mosco or
+  strong-resolvent convergence after an explicit energy recentering. Only on
+  such a limiting domain can K1471's finite-cutoff BRST compatibility become a
+  closed interacting continuum complex. Do not promote vacuum concentration
+  to operator nonconvergence or fixed-cutoff cohomology to GU physical states.
+
   Preserve K1439--K1444's exact route boundaries. Fixed nonzero coupling fails
   the unchanged-free-form-domain test even after deterministic mass and vacuum
   counterterms, and the vacuum-to-four-particle vector has sharp negative-scale

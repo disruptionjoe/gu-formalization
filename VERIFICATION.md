@@ -7,6 +7,22 @@ updated_at: "2026-10-08"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1468--K1472 null-order, Wick-cocycle and finite-cutoff BRST boundary (2026-10-08)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| One spatial angular null factor supplies the same-tier K1462 gain | K1468 exact near-parallel phase and numerator orders | false: after one matter-energy normalization it still loses one derivative; the Lorentz time--space numerator has the extra order |
+| The nonnegative Wick cutoff forms are exactly projective | K1469 conditional expectation | only up to the additive scalar cocycle `6(C_M^2-C_N^2)`; exact martingale recentering loses a uniform lower bound |
+| The large square-completion shift is only a mean artifact | K1470 Parseval upper bound plus K1433 cone lower bound | false under the free vacuum: the interaction concentrates at its `N^4` scale with relative L2 error `O(N^-3)` |
+| The nonlinear cutoff Hamiltonian is compatible with closed BRST cohomology | K1471 tensor-factor form sum and Hodge gap | true at every fixed cutoff with positive nonzero degree-zero cohomology; no continuum/source BRST operator follows |
+| The advance closes GU physical admission | K1472 144-row bridge census | ninety satisfied, ten conditional, forty excluded and four missing |
+
+The five producers pass `104/104` controls and five probes reject `70/70`
+hostile mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
+`0/7`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
+
 ## K1461--K1467 null-form and Wick cutoff-domain boundary (2026-10-08)
 
 | Claim | Evidence | Honest grade |

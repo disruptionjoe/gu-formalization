@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1470",
+  "title": "The nonnegative Wick square concentrates at its divergent free-vacuum scale",
+  "pinned_inputs": {
+    "k1433": {"path": "lab/process/k1433-three-dimensional-wick-chaos-obstruction.json", "sha256": "3c3f76b43e89c7917e9c66f2e74e2703ee36c4ac58f3a4bce41a665390fe1bd9"},
+    "k1469": {"path": "lab/process/k1469-wick-semibounded-projective-cocycle.json", "sha256": "85ab8ab825b536bf928be7bc99115a3fd63a2e74a6fd9d1b872709eb69b313fd"}
+  },
+  "free_vacuum_concentration": {
+    "mean": "For W_N=V_N+6C_N^2 on normalized T3, E(W_N)=6C_N^2=Theta(N^4)",
+    "variance": "Var(W_N)=Var(V_N)=24 integral C_N(z)^4 dz",
+    "upper_bound": "Since |C_N(z)|<=C_N(0), integral C_N(z)^4 dz<=C_N(0)^2 sum_k q_k^2; in d=3, C_N(0)=Theta(N^2) and sum_k q_k^2=O(N), so Var(W_N)=O(N^5)",
+    "sharp_order": "K1433 supplies the matching Omega(N^5) cone lower bound, hence Var(W_N)=Theta(N^5)",
+    "relative_concentration": "E|W_N/(6C_N^2)-1|^2=Var(W_N)/(36C_N^4)=O(N^-3), so the ratio converges to one in L2 and in probability under the free Gaussian vacuum",
+    "scalar_recentering": "The centered family V_N has L2 norm Theta(N^(5/2)); adding any scalar leaves its variance unchanged, so no scalar recentering makes the multiplication potentials L2 bounded",
+    "ceiling": "Free-vacuum concentration does not prove Mosco or strong-resolvent failure: cutoff-dependent states may move, localize or change representation, and kinetic/domain compactness still requires a separate theorem"
+  },
+  "decision": {
+    "shifted_wick_mean_order": "N^4",
+    "shifted_wick_variance_order": "N^5",
+    "relative_L2_error_order": "N^-3",
+    "free_vacuum_concentration_proved": true,
+    "scalar_recentering_makes_L2_potentials_bounded": false,
+    "mosco_or_strong_resolvent_failure_proved": false,
+    "protected_status_change": false
+  }
+}
