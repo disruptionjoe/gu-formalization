@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1406",
+  "title": "Only constant spectral weights give a universally conserved energy with the single Maxwell field",
+  "pinned_inputs": {
+    "k1403": {"path": "lab/process/k1403-charge-spectral-support-invariance.json", "sha256": "bae468bbfc682c14959165cc3d5a2e3ecd6ad1544e91a7e12f962278c7d684cd"},
+    "k1405": {"path": "lab/process/k1405-weighted-lifted-energy-exchange.json", "sha256": "e8b6deac4012aa6ebcf014970025728e9b5d794e6eeabc3ba0f2241d18a22941"}
+  },
+  "rigidity": {
+    "claim_class": "Time-independent functionals H_(w,c) of K1405: one quadratic matter energy weighted by w(Q), c times the existing Maxwell energy and c times the original quartic potential.",
+    "sufficiency": "If w=c on the active Q spectrum, H_(w,c)=c E_mu and is conserved.",
+    "current_test": "Choose smooth finite spectral support and initial electric/matter data with arbitrary nonzero charge-q current. Universal cancellation of integral E dot (j_w-c j_1) forces q(w(q)-c)=0 at every active q!=0.",
+    "radial_test": "Choose two finite charge components and Cauchy velocity with nonzero real radial pairing. Universal cancellation of the quartic defect forces w(q)=c also on neutral components and ties all active components to the same constant.",
+    "necessity": "Because the common core contains arbitrary finite spectral combinations, conservation for every smooth solution implies w(Q)=c I on the full active spectral support.",
+    "coercivity_consequence": "Every unbounded charge-coercive weight, including 1+Q^2 and finite positive polynomials in Q^2, is nonconstant and therefore is not conserved by this single-Maxwell-field quadratic reweighting construction.",
+    "reopeners": "A viable cutoff-uniform mechanism must use additional structure: a nonquadratic or time-dependent correction, a spacetime/null-form estimate, a coupled infinite hierarchy, extra dynamical fields, or another invariant outside H_(w,c).",
+    "boundary": "This is a sharp no-go for the declared functional class, not for all modified energies, normal forms, global completed flows or alternative actions."
+  },
+  "decision": {
+    "constant_weight_sufficient": true,
+    "constant_weight_necessary_for_universal_conservation": true,
+    "unbounded_charge_coercive_weight_in_declared_class_conserved": false,
+    "finite_polynomial_spectral_reweighting_route_excluded": true,
+    "nonlinear_or_time_dependent_modified_energy_excluded": false,
+    "spacetime_or_infinite_hierarchy_route_excluded": false,
+    "completed_unbounded_charge_global_flow_constructed": false,
+    "protected_status_change": false
+  }
+}

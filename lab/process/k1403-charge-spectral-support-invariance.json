@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1403",
+  "title": "Charge spectral support is invariant under the completed local and fixed-sector global flows",
+  "pinned_inputs": {
+    "k1391": {"path": "lab/process/k1391-bounded-charge-local-evolution.json", "sha256": "cc703445eba557b90c554b87b213b86884e2d04492ddeac0392d9c48d233a5fe"},
+    "k1397": {"path": "lab/process/k1397-bounded-charge-global-evolution.json", "sha256": "01effc47077c396d5cf7849fe23ecbe07aa510e63d014a8f529c7d2230f4ef47"}
+  },
+  "spectral_invariance": {
+    "projectors": "For every Borel set B in the spectrum of the self-adjoint compact generator Q, P_B=1_B(Q) commutes with Q, every spacetime derivative, D_A and the scalar multiplier f(||phi||^2).",
+    "projected_equation": "P_B phi solves the same linear covariant equation D_mu D^mu(P_B phi)+(m^2+mu Q^2+f(||phi||^2))P_B phi=0 in the common background A and scalar coefficient f.",
+    "zero_data_uniqueness": "If P_B phi and P_B pi vanish initially, uniqueness for the bounded-sector approximants and the K1392 completed local limit makes them vanish throughout the solution interval.",
+    "support_statement": "The essential Q-spectral support of the matter Cauchy pair is time invariant; the radial nonlinearity and the shared Maxwell field exchange energy but create no new charge labels.",
+    "cutoff_compatibility": "Every P_N sector is invariant, and if M<=N then the P_N solution from P_M-supported data equals the P_M solution by uniqueness.",
+    "gauge_compatibility": "Admissible gauge transformations exp(i alpha Q) commute with every P_B, so spectral support is independent of the admitted gauge representative.",
+    "boundary": "Support invariance is a kinematic decomposition theorem. It does not bound the energy carried at large charge, make the fixed-sector estimates cutoff uniform or select Q physically."
+  },
+  "decision": {
+    "borel_spectral_projectors_commute_with_dynamics": true,
+    "charge_spectral_support_invariant": true,
+    "radial_interaction_creates_new_charge_labels": false,
+    "cutoff_flows_form_compatible_nested_family": true,
+    "cutoff_uniform_completed_global_bound_constructed": false,
+    "source_generator_selected": false,
+    "protected_status_change": false
+  }
+}

@@ -7,6 +7,20 @@ updated_at: "2026-10-07"
 
 # Next Steps For Contributors
 
+> **2026-10-07 K1403--K1408 SPECTRAL CORE AND ENERGY RIGIDITY.** Arbitrary
+> Borel charge-spectral support is invariant, and independent spectral phases
+> give a finite signed conserved Noether measure. The compatible fixed-sector
+> global flows therefore glue to a global two-sided flow on the dense finite-
+> charge direct-limit core. The exact weighted-energy identity has Maxwell-
+> current and radial-weight defects; with the single Maxwell field and
+> original quartic potential, universal conservation forces the spectral
+> weight to be constant. Thus no growing finite polynomial reweighting is the
+> missing cutoff-uniform conserved energy. Next construct a mechanism outside
+> that class: a cutoff-uniform spacetime/null-form estimate, nonlinear or
+> time-dependent normal form, or coupled infinite hierarchy with a finite-tier
+> Cauchy consequence. Do not promote the dense core or signed Noether measure
+> to a completed global flow, positive physical energy or GU closure.
+
 > **2026-10-07 K1397--K1402 BOUNDED-CHARGE GLOBAL REDUCTION.** Every fixed
 > bounded-charge sector now has global large-data evolution by conserved
 > energy, Coulomb/Hodge control and energy-subcritical continuation; bounded

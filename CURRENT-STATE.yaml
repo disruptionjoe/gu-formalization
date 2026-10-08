@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 87e89f8149a1b55028fa8a9aa5da6ab9f931e6c6
+revision_basis: c19b6e3c166e044b22c19f6d7ed7e7d2ec11acba
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1403--K1408 prove that arbitrary Borel charge-spectral support is
+    invariant, construct a finite signed conserved spectral Noether measure,
+    and glue the compatible fixed-sector global flows into a global two-sided
+    flow on the dense finite-charge direct-limit core. For a time-independent
+    quadratic spectral weight `w(Q)`, the exact energy identity has separate
+    Maxwell-current and radial-weight defects. Universal conservation with
+    the single Maxwell field and original quartic potential holds only for
+    constant `w`, so every growing finite polynomial spectral reweighting is
+    excluded as the missing cutoff-uniform conserved energy. Nonlinear or
+    time-dependent normal forms, spacetime/null-form estimates and genuinely
+    coupled infinite hierarchies remain open. The 76-row census is fifty-two
+    satisfied, six conditional, fourteen excluded and four missing;
+    K1145/K1150 remain 0/7 and protected statuses do not move.
+
     K1397--K1402 prove global large-data evolution for every fixed bounded-
     charge sector of the repository scalar-electrodynamics control. The proof
     uses conserved energy, Coulomb/Hodge control and energy-subcritical
@@ -14381,6 +14395,21 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1403--K1408 construct the exact global dense finite-charge core and prove
+  that no nonconstant time-independent quadratic spectral weight can become a
+  universally conserved charge-coercive energy by coupling it only to the
+  existing Maxwell energy and quartic potential. Which mechanism outside that
+  rigid class now supplies cutoff-uniform control of one completed triangular
+  low tier: a gauge-covariant spacetime/null-form estimate, a nonlinear or
+  time-dependent normal-form energy, or a genuinely coupled infinite
+  hierarchy with a finite-tier Cauchy consequence? In parallel, which full
+  BV-BFV boundary and exactness data extend the proper classical quotient to
+  positive nonzero physical Hilbert cohomology? Independently, which
+  source/action-owned observed-carrier selector fixes `Q` and its
+  normalization? Do not transfer density of the direct-limit core, signed
+  Noether conservation or constant-weight rigidity to a completed global
+  flow, quantization or GU physical closure.
+
   K1397--K1402 prove that bounded recurrent coefficients are compatible with
   global large-data dynamics on every fixed charge sector and construct
   closed nonlinear gauge range, a global Coulomb slice, a proper residual
@@ -16561,6 +16590,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1403--K1408's positive and negative boundaries. The charge
+  spectrum is invariant; the signed spectral Noether measure is conserved;
+  and the fixed-sector flows glue globally on the dense finite-charge core.
+  A nonconstant time-independent quadratic spectral weight cannot be the
+  missing universally conserved coercive energy with only the existing
+  Maxwell field and quartic potential. Advance with a mechanism outside that
+  class: a cutoff-uniform spacetime/null-form estimate, nonlinear or
+  time-dependent normal-form correction, or coupled infinite hierarchy that
+  yields a finite-tier global bound and Cauchy estimate. Do not infer a
+  continuous completed flow from density or a positive energy from the signed
+  Noether measure.
+
   Preserve K1397--K1402's global and reduction boundaries. Every fixed
   bounded-charge sector has global large-data evolution and a continuous
   descended flow on the proper Coulomb quotient; the nonlinear gauge

@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1407",
+  "title": "The bounded-charge global flows glue to a dense invariant direct-limit core",
+  "pinned_inputs": {
+    "k1392": {"path": "lab/process/k1392-completed-triangular-local-flow.json", "sha256": "c73294acb0a8f2ef531588e18da90a920e7298d0b73d97817dac230b541b4ef5"},
+    "k1397": {"path": "lab/process/k1397-bounded-charge-global-evolution.json", "sha256": "01effc47077c396d5cf7849fe23ecbe07aa510e63d014a8f529c7d2230f4ef47"},
+    "k1403": {"path": "lab/process/k1403-charge-spectral-support-invariance.json", "sha256": "bae468bbfc682c14959165cc3d5a2e3ecd6ad1544e91a7e12f962278c7d684cd"},
+    "k1406": {"path": "lab/process/k1406-conserved-spectral-weight-rigidity.json", "sha256": "fdddabb07eb7ee8d8db45d90976d6ca909e6ace77846275e2a4059e428f94f20"}
+  },
+  "direct_limit_flow": {
+    "core": "For every finite triangular phase space X_R, define X_R^fin=union_(N<infinity) P_N X_R with the compatible Lorenz/Gauss constraints.",
+    "density": "Strong spectral convergence P_N to I in every finite Q-graph norm makes X_R^fin dense in X_R.",
+    "global_existence": "Every datum in X_R^fin lies in some bounded sector and therefore has the K1397 global large-data evolution with smooth persistence at its admitted tier.",
+    "compatibility": "K1403 and uniqueness imply S_N(t)x=S_M(t)x whenever x lies in P_M X_R and M<=N, so the sector flows glue without a choice of cutoff.",
+    "flow_law": "The glued maps S_fin(t) form a single global two-sided flow on X_R^fin and descend sectorwise through the K1400 proper classical quotient.",
+    "conserved_data": "The positive fixed-sector energy and K1404 signed spectral Noether measure are preserved on the direct-limit core.",
+    "completion_gap": "A flow on a dense union extends continuously to X_R only after a cutoff-uniform finite-time bound and Cauchy estimate. K1398 and K1406 show that neither the current base-energy restart nor a nonconstant quadratic spectral reweighting supplies that estimate.",
+    "boundary": "The theorem constructs a global dense invariant core, not a global flow on the completed unbounded-charge phase space and not a GU physical state space."
+  },
+  "decision": {
+    "finite_charge_core_dense": true,
+    "bounded_sector_flows_compatible": true,
+    "global_direct_limit_flow_constructed": true,
+    "direct_limit_flow_descends_sectorwise": true,
+    "continuous_extension_to_completed_phase_space_constructed": false,
+    "cutoff_uniform_completed_global_flow_constructed": false,
+    "positive_gu_physical_hilbert_cohomology_constructed": false,
+    "protected_status_change": false
+  }
+}

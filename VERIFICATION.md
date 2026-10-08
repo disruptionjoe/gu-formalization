@@ -7,6 +7,27 @@ updated_at: "2026-10-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1403--K1408 spectral core and conserved-weight rigidity (2026-10-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Charge spectral support is invariant | K1403 Borel projector commutation, projected equation and uniqueness; `22/22`; `9/9` | exact for the repository flow and admitted gauges; no control of high-charge energy |
+| The flow carries spectral conservation laws | K1404 independent spectral phases and countably additive Noether charge; `21/21`; `9/9` | exact finite signed conserved measure and graph-domain moments; not positive or coercive |
+| Spectral weighting supplies a modified conservation law | K1405 exact Maxwell-current and radial-weight defects; `24/24`; `10/10` | exact exchange identity; only the constant control cancels both defects automatically |
+| A growing quadratic spectral weight can be universally conserved with one Maxwell field | K1406 arbitrary finite-support current and radial tests; `20/20`; `10/10` | false for the declared time-independent quadratic functional class; nonlinear/time-dependent and spacetime routes remain open |
+| Fixed-sector global flows compose beyond one cutoff | K1407 spectral density, nested uniqueness and direct-limit gluing; `27/27`; `10/10` | exact global two-sided flow on a dense finite-charge core; no continuous extension to the completed phase space |
+| The advance closes GU physical admission | K1408 76-row bridge census; `31/31`; `10/10` | fifty-two satisfied, six conditional, fourteen excluded and four missing; completed global flow, source selection and physical Hilbert cohomology remain open |
+
+The six producers pass `145/145` controls and six probes reject `58/58`
+hostile mutations. The global finite-charge sector family now has an exact
+dense direct-limit home, while the most immediate charge-coercive modified-
+energy proposal is sharply excluded. The remaining cutoff-uniform mechanisms
+must use structure outside one time-independent quadratic spectral weight.
+SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`,
+LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay `0/7`.
+No source, ledger, canon, paper, prediction, confirmation or public status
+moves.
+
 ## K1397--K1402 bounded-charge global reduction (2026-10-07)
 
 | Claim | Evidence | Honest grade |

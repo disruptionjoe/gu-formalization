@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1408",
+  "title": "Spectral-core and conserved-weight admission boundary",
+  "pinned_inputs": {
+    "k1403": {"path": "lab/process/k1403-charge-spectral-support-invariance.json", "sha256": "bae468bbfc682c14959165cc3d5a2e3ecd6ad1544e91a7e12f962278c7d684cd"},
+    "k1404": {"path": "lab/process/k1404-spectral-noether-measure.json", "sha256": "7ed34ad386454f223e196b2cfbe275ee6579e33ad4a0bf9d81a30a65cef58182"},
+    "k1405": {"path": "lab/process/k1405-weighted-lifted-energy-exchange.json", "sha256": "e8b6deac4012aa6ebcf014970025728e9b5d794e6eeabc3ba0f2241d18a22941"},
+    "k1406": {"path": "lab/process/k1406-conserved-spectral-weight-rigidity.json", "sha256": "fdddabb07eb7ee8d8db45d90976d6ca909e6ace77846275e2a4059e428f94f20"},
+    "k1407": {"path": "lab/process/k1407-global-finite-charge-direct-limit.json", "sha256": "ae7dba09f24d31c959f986acba9f73c6bbaad35e8e326645b1860a3181e93a06"}
+  },
+  "bridge_census": {
+    "row_count": 76,
+    "satisfied_count": 52,
+    "conditional_count": 6,
+    "excluded_count": 14,
+    "missing_count": 4,
+    "new_satisfied_rows": [
+      "charge spectral support is invariant and cutoff flows are nested",
+      "the completed local flow carries a conserved signed spectral Noether measure",
+      "quadratic spectral reweighting has an exact Maxwell and radial exchange identity",
+      "the fixed-sector global flows glue to a dense global finite-charge direct-limit core"
+    ],
+    "new_excluded_rows": [
+      "cutoff-uniform coercivity from a nonconstant time-independent quadratic spectral weight coupled only to the single Maxwell energy"
+    ],
+    "missing_rows": [
+      "source-owned compact-generator selection and normalization on the observed carrier",
+      "identification with one source action",
+      "cutoff-uniform completed global BV-BFV flow with boundary data and positive physical Hilbert cohomology",
+      "source-owned observed-state/export map"
+    ]
+  },
+  "distance_update": {
+    "closed": [
+      "invariance of arbitrary Borel charge support and nested consistency of every cutoff flow",
+      "conserved signed spectral Noether data and all graph-domain charge moments",
+      "global evolution on the dense algebraic union of bounded charge sectors",
+      "classification of the time-independent quadratic spectral-weight conservation defect"
+    ],
+    "excluded": [
+      "a growing finite polynomial or other nonconstant spectral weight as a universally conserved energy using only the existing Maxwell field and quartic potential"
+    ],
+    "opened_or_sharpened": [
+      "a cutoff-uniform spacetime/null-form estimate, nonlinear or time-dependent normal form, or genuinely coupled infinite hierarchy",
+      "continuity of the dense direct-limit flow in one completed triangular topology",
+      "full BV-BFV boundary and exactness data beyond the proper classical quotient"
+    ],
+    "unchanged": [
+      "source selection and normalization",
+      "source action ownership",
+      "source observation/export ownership"
+    ]
+  },
+  "decision": {
+    "charge_spectral_support_invariant": true,
+    "spectral_noether_measure_constructed": true,
+    "global_dense_finite_charge_core_constructed": true,
+    "nonconstant_quadratic_spectral_weight_conservation_route_excluded": true,
+    "completed_unbounded_charge_global_flow_constructed": false,
+    "full_bv_bfv_boundary_theory_constructed": false,
+    "positive_gu_physical_hilbert_cohomology_constructed": false,
+    "source_selected_reduction_constructed": false,
+    "k1145_k1150_candidate_counts_move": false,
+    "protected_status_change": false
+  },
+  "source_and_ledger_effect": "SOURCE_REGISTER_UNCHANGED; LEDGER_UNCHANGED; SC-ACT-01/02/06 ASSERTS; SC-META-53 UNCERTAIN; LT-SM8/LT-GR6b/RA-F1/AC-F1 NEEDS; K1145/K1150 0/7"
+}

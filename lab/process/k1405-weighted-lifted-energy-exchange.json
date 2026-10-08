@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1405",
+  "title": "Spectral reweighting has an exact Maxwell and radial energy-exchange defect",
+  "pinned_inputs": {
+    "k1378": {"path": "lab/process/k1378-coupled-charge-lift-gronwall.json", "sha256": "7edc07f1af8e2f49e0fe93fa9729e081199339df72732b2ecc04b1cb8a065b70"},
+    "k1404": {"path": "lab/process/k1404-spectral-noether-measure.json", "sha256": "7ed34ad386454f223e196b2cfbe275ee6579e33ad4a0bf9d81a30a65cef58182"}
+  },
+  "weighted_exchange": {
+    "weight": "Let w(Q)>=0 be a Borel spectral weight on a smooth common core and let c>=0 be the coefficient assigned to the single Maxwell energy and original quartic potential.",
+    "functional": "H_(w,c)=c E_Maxwell + 1/2(||w(Q)^(1/2)pi||_2^2+||w(Q)^(1/2)D_x phi||_2^2+m^2||w(Q)^(1/2)phi||_2^2+mu||w(Q)^(1/2)Qphi||_2^2)+c lambda/4 integral ||phi||^4.",
+    "weighted_current": "j_w^a=e Im<w(Q)Qphi,D^a phi>; the physical Maxwell equation is sourced only by j_1^a=e Im<Qphi,D^a phi>.",
+    "exact_identity": "dH_(w,c)/dt=integral E dot (j_w-c j_1) dx + lambda integral ||phi||^2 Re<(w(Q)-c I)phi,pi> dx, up to the fixed repository sign convention shared by all three displayed terms.",
+    "constant_control": "For w=c I both defects vanish and H_(cI,c)=c E_mu is exactly the original conserved energy.",
+    "polynomial_lifts": "For w(q)=q^(2n), n>=1, the first defect is the uncancelled lifted current and the second is the radial spectral-weight defect; neither is canceled by the one Maxwell equation.",
+    "spectral_support": "K1403 permits testing the identity on arbitrary finite collections of charge eigenspaces without generating other charges.",
+    "boundary": "The identity classifies time-independent quadratic spectral reweightings of the existing energy. It does not cover nonlinear normal forms, spacetime estimates, time-dependent corrections or an infinite coupled hierarchy."
+  },
+  "decision": {
+    "exact_weighted_energy_exchange_derived": true,
+    "maxwell_current_defect_identified": true,
+    "radial_weight_defect_identified": true,
+    "constant_weight_recovers_conserved_energy": true,
+    "nonconstant_polynomial_weight_automatically_conserved": false,
+    "all_modified_energy_routes_excluded": false,
+    "source_action_identified": false,
+    "protected_status_change": false
+  }
+}

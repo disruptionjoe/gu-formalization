@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1404",
+  "title": "The charge decomposition carries a conserved signed spectral Noether measure",
+  "pinned_inputs": {
+    "k1403": {"path": "lab/process/k1403-charge-spectral-support-invariance.json", "sha256": "bae468bbfc682c14959165cc3d5a2e3ecd6ad1544e91a7e12f962278c7d684cd"}
+  },
+  "spectral_noether_measure": {
+    "symmetry": "For each Borel B, multiplying P_B phi by a constant phase while fixing P_(B^c)phi leaves Q, D_A, ||phi||^2 and the repository action invariant.",
+    "charge": "C(B)=integral_T3 Im<P_B phi,P_B pi> dx is the Noether charge of that independent spectral-subspace phase.",
+    "conservation": "The projected matter equation has a real self-adjoint spatial operator and real radial multiplier, so dC(B)/dt=0 for every B on every smooth solution and then by density on the admitted strong flow.",
+    "countable_additivity": "Orthogonality of disjoint spectral projectors makes C countably additive; C is a finite signed measure with total variation bounded by ||phi||_2 ||pi||_2.",
+    "moments": "Whenever phi and pi have the required Q-graph regularity, integral q^k dC(q)=integral_T3 Im<Q^k phi,pi> dx and is conserved.",
+    "gauge_invariance": "P_B commutes with exp(i alpha Q), and the transformed Cauchy pair is pointwise unitary, so C(B) descends through the K1400 gauge quotient.",
+    "boundary": "C is signed and symplectic rather than a positive energy measure. Its conservation neither controls high-charge norms nor selects the compact generator or observed charges."
+  },
+  "decision": {
+    "independent_spectral_phase_symmetries_constructed": true,
+    "conserved_spectral_noether_measure_constructed": true,
+    "measure_countably_additive_and_finite": true,
+    "charge_moments_conserved_on_graph_domains": true,
+    "measure_positive_or_coercive": false,
+    "cutoff_uniform_completed_global_bound_constructed": false,
+    "source_observed_charge_measure_identified": false,
+    "protected_status_change": false
+  }
+}
