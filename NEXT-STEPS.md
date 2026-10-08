@@ -7,6 +7,19 @@ updated_at: "2026-10-08"
 
 # Next Steps For Contributors
 
+> **2026-10-08 K1483--K1487 WICK THIRD-MOMENT AND RECENTERING-WINDOW
+> BOUNDARY.** The exact third moment of the cutoff fourth Wick chaos is the
+> unique triangle contraction with coefficient 1728. Young's inequality gives
+> `m3_N=O(N^6)` and `m3_N/sigma_N^2=O(N)`. The exact vacuum--chaos Ritz
+> compression then has lower eigenvalue `-g sigma_N+O(N)`, so every scalar
+> recentering above `6gC_N^2-g sigma_N+O(N)` fails uniform semiboundedness;
+> every fixed-fraction under-recentered window also fails fixed-Gaussian Mosco
+> weak liminf, including after harmonic BRST transfer. Next prove a matching
+> many-chaos ground-energy lower bound or direct ground-state compactness for
+> `a_N=E_N+O(1)`. Independently, construct the gauge/Maxwell-dependent
+> spacetime or nonlocal estimate still required for both K1413 PDE leakages.
+> Do not promote the Ritz upper bound to the true `E_N` asymptotic.
+
 > **2026-10-08 K1478--K1482 SCALAR-DENSITY AND WICK PROJECTIVE-RECENTERING
 > BOUNDARY.** Gauss-compatible plane-wave data make every ultralocal
 > charge-spectral matter density stationary while lifted electric-current work

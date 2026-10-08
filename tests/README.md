@@ -4,6 +4,22 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1483--K1487 Wick third-moment and recentering-window boundary
+
+- K1483 proves the exact 1728-weighted Wick triangle formula and the
+  `m3_N=O(N^6)` Young bound (`25/25`; `15/15`).
+- K1484 diagonalizes the exact vacuum--fourth-chaos compression and proves the
+  `-g sigma_N+O(N)` Ritz correction (`36/36`; `17/17`).
+- K1485 excludes every fixed-fraction under-recentered scalar window from
+  uniform semiboundedness and fixed-Gaussian Mosco weak liminf (`22/22`;
+  `13/13`).
+- K1486 transfers the full exclusion window through harmonic BRST compression
+  (`16/16`; `12/12`).
+- K1487 replays the 170-row census and protected ceilings (`26/26`; `20/20`).
+
+The five producers pass `125/125` controls and the probes reject `77/77`
+hostile mutations.
+
 ## K1478--K1482 scalar-density and Wick projective-recentering boundary
 
 - K1478 supplies the Gauss-compatible plane-wave counterexample to every

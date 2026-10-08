@@ -7,6 +7,22 @@ updated_at: "2026-10-08"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1483--K1487 Wick third-moment and recentering-window boundary (2026-10-08)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The third moment requires only a generic hypercontractive bound | K1483 exact normal-ordered contraction graph and Young inequality | sharpened: `m3_N=1728 integral integral C_N(x)^2C_N(y)^2C_N(x-y)^2`, so `0<=m3_N/sigma_N^2<=72S_N=O(N)` and `m3_N=O(N^6)` |
+| The vacuum--fourth-chaos compression has only an unspecified divergent gap | K1484 exact two-by-two diagonalization | false: its lower Ritz eigenvalue is `-g sigma_N+O(N)` and gives `E_N<=6gC_N^2-g sigma_N+O(N)`; no matching lower bound follows |
+| A smaller correction than `g sigma_N` can retain fixed-Gaussian semiboundedness | K1485 Ritz eigenvectors and weak fourth-chaos escape | false throughout every fixed-fraction under-recentered window; spectral bottoms tend to minus infinity and Mosco weak liminf fails |
+| The fixed BRST factor repairs that window | K1486 harmonic-vacuum tensor transfer | false: the bottom divergence, nonzero weak limit and Mosco failure transfer exactly |
+| The advance closes GU physical admission | K1487 170-row bridge census | 106 satisfied, ten conditional, 50 excluded and four missing |
+
+The five producers pass `125/125` controls and five probes reject `77/77`
+hostile mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
+`0/7`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
+
 ## K1478--K1482 scalar-density and Wick projective-recentering boundary (2026-10-08)
 
 | Claim | Evidence | Honest grade |

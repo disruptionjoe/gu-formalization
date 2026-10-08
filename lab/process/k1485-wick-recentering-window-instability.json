@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1485",
+  "title": "A full subleading scalar-recentering window remains unbounded below and fails Mosco weak liminf",
+  "pinned_inputs": {
+    "k1480": {
+      "path": "lab/process/k1480-projective-wick-recentering-instability.json",
+      "sha256": "d820b62de83e6e76f7fc50d7fed52776eb5e6e504362ec75e3ecdc35f6cea85d"
+    },
+    "k1484": {
+      "path": "lab/process/k1484-vacuum-fourth-chaos-ritz-asymptotic.json",
+      "sha256": "504cee87e1baaa97bf0f00dedc026a88120070706442031be637909a099eb031"
+    }
+  },
+  "recentering_window": {
+    "notation": "Let K_N(a)=H_N-a_N and let sigma_N=||V_N||_2=Theta(N^(5/2))",
+    "necessary_upper_location": "If inf spec(K_N(a)) is bounded below uniformly, then a_N<=E_N+O(1). K1484 therefore forces a_N<=6gC_N^2-g sigma_N+O(N)",
+    "excluded_window": "For any fixed epsilon>0, every scalar sequence satisfying a_N>=6gC_N^2-(g-epsilon)sigma_N eventually has inf spec(K_N(a))<=-epsilon sigma_N+O(N), hence tends to minus infinity",
+    "weak_trial": "The K1484 normalized Ritz eigenvectors converge weakly to the nonzero vacuum vector 1/sqrt(2)",
+    "mosco_failure": "On the same Ritz vectors the K_N(a) form values tend to minus infinity throughout the excluded window, contradicting weak Mosco liminf for every finite semibounded limiting form on the fixed Gaussian Hilbert space",
+    "projective_case": "The exact projective shift a_N=6gC_N^2 is the epsilon<g special case already excluded by K1480; the new result excludes every shift that recovers less than g sigma_N by a fixed positive fraction",
+    "ceiling": "The boundary is necessary and one-sided. It does not exclude a_N=E_N+O(1), shifts at or below 6gC_N^2-g sigma_N+O(N), singular dressings, non-Gaussian measures, changed representations or unbounded-below strong-resolvent behavior"
+  },
+  "decision": {
+    "uniform_semiboundedness_requires_subleading_negative_shift": true,
+    "necessary_negative_shift_leading_size": "g sigma_N",
+    "fixed_fraction_under_recentered_window_excluded": true,
+    "excluded_window_mosco_liminf_holds": false,
+    "ground_energy_recentered_mosco_limit_excluded": false,
+    "boundary_window_is_two_sided_ground_energy_asymptotic": false,
+    "protected_status_change": false
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1486",
+  "title": "The finite Gaussian BRST factor inherits the full scalar-recentering instability window",
+  "pinned_inputs": {
+    "k1481": {
+      "path": "lab/process/k1481-brst-projective-recentering-instability.json",
+      "sha256": "e0607724f5c4cb70b3397d60a9104e3ba5519b9da584c2012cbb959e0ba1aa7a"
+    },
+    "k1485": {
+      "path": "lab/process/k1485-wick-recentering-window-instability.json",
+      "sha256": "adb8dc5b84e8c1eaa705c16ab4487fb1d892d27fca1ba2ac01352e0f999ec955"
+    }
+  },
+  "brst_window_transfer": {
+    "full_family": "For every scalar a_N use mathbb K_N(a)=(H_N-a_N) tensor 1+1 tensor Delta_BRST on K1471's finite-cutoff tensor form domain",
+    "harmonic_vacuum": "The fixed BRST Laplacian has a normalized degree-zero harmonic vacuum eta with Delta_BRST eta=0",
+    "spectral_transfer": "Tensoring K1484's Ritz vector with eta gives exactly the matter recentered form value, so every K1485 excluded scalar window also has full BRST spectral bottom tending to minus infinity",
+    "weak_transfer": "u_N tensor eta converges weakly to (1/sqrt(2))1 tensor eta, a nonzero harmonic vector",
+    "mosco_transfer": "The full BRST forms and their degree-zero harmonic compression fail weak Mosco liminf throughout the same excluded scalar window",
+    "cohomology_boundary": "Closed nilpotence and finite-cutoff positive cohomology remain algebraically valid but neither selects the matter counterterm nor repairs its continuum energy origin",
+    "ceiling": "The transfer is conditional on the fixed Gaussian BRST tensor construction. It supplies no source-owned interacting BRST charge, common continuum domain, ground-energy lower bound or physical GU cohomology"
+  },
+  "decision": {
+    "excluded_scalar_window_transfers_to_full_brst": true,
+    "excluded_scalar_window_transfers_to_harmonic_compression": true,
+    "brst_window_weak_liminf_holds": false,
+    "finite_cutoff_nilpotence_invalidated": false,
+    "continuum_interacting_brst_constructed": false,
+    "protected_status_change": false
+  }
+}

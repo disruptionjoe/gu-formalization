@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1484",
+  "title": "The vacuum--fourth-chaos Ritz eigenvalue has leading correction minus g sigma_N",
+  "pinned_inputs": {
+    "k1479": {
+      "path": "lab/process/k1479-wick-vacuum-mixing-variational-gap.json",
+      "sha256": "a9ad2f0af7c9957ed6b7f365712c885107f74abb919a434c6a094fad8ab416b2"
+    },
+    "k1483": {
+      "path": "lab/process/k1483-wick-third-moment-triangle-bound.json",
+      "sha256": "5c42eb65ff38209861666652786eb3467a9ccee2c23b7c8765af23c20550d3f4"
+    }
+  },
+  "ritz_asymptotic": {
+    "basis": "Use the orthonormal basis e0=1 and e1=V_N/sigma_N in the two-dimensional form subspace",
+    "centered_matrix": "For K_N^proj=H_N-6gC_N^2=H0+gV_N the exact compression is [[0,g sigma_N],[g sigma_N,d_N]], where d_N=h_N/sigma_N^2+g m3_N/sigma_N^2",
+    "diagonal_order": "K1479 gives h_N/sigma_N^2<=4 omega_max(N)=O(N), while K1483 gives 0<=m3_N/sigma_N^2<=72S_N=O(N); hence 0<=d_N=O(N)",
+    "lower_eigenvalue": "lambda_N^-=(d_N-sqrt(d_N^2+4g^2 sigma_N^2))/2",
+    "leading_order": "Because sigma_N=Theta(N^(5/2)) and d_N=O(N), lambda_N^-=-g sigma_N+O(N), equivalently lambda_N^-/(g sigma_N)->-1",
+    "ground_energy_upper": "E_N<=6gC_N^2-g sigma_N+O(N)",
+    "eigenvector": "Choosing the normalized lower Ritz eigenvector u_N=alpha_N e0+beta_N e1 with alpha_N>0 gives beta_N/alpha_N=lambda_N^-/(g sigma_N)->-1 and alpha_N->1/sqrt(2), beta_N->-1/sqrt(2)",
+    "weak_limit": "K1480 gives e1 weakly to zero, so u_N converges weakly to the nonzero vacuum vector 1/sqrt(2)",
+    "ceiling": "This is the exact asymptotic of the two-dimensional Ritz value and an upper bound on E_N only. It supplies no matching lower bound, exact ground-state asymptotic, compactness, recovery sequence or common nonlinear continuum domain"
+  },
+  "decision": {
+    "exact_two_by_two_compression_constructed": true,
+    "ritz_lower_eigenvalue_ratio_limit": -1,
+    "ground_energy_upper_leading_correction": "-g sigma_N",
+    "ritz_eigenvector_has_nonzero_weak_vacuum_limit": true,
+    "matching_ground_energy_lower_bound_proved": false,
+    "ground_energy_asymptotic_determined": false,
+    "ground_energy_recentered_limit_constructed": false,
+    "protected_status_change": false
+  }
+}
