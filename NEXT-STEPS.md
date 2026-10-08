@@ -2,10 +2,23 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-10-07"
+updated_at: "2026-10-08"
 ---
 
 # Next Steps For Contributors
+
+> **2026-10-08 K1427--K1432 GAUSSIAN CONTINUUM BRST BOUNDARY.** The finite
+> Gaussian blocks now form an exact projective probability tower whose
+> cylinder L2 spaces complete to a continuum representation; residual Haar
+> projection commutes with refinement. The countable Gaussian/Fock BRST
+> complex is closed, gapped and has refinement-stable positive nonzero H0. A
+> positive free second-quantized Hamiltonian converges in strong resolvent
+> sense. The bare quartic does not commute with mode elimination: exact
+> quadratic and vacuum counterterms appear. Wick ordering repairs the
+> conditional-expectation law but proves no uniform lower bound or interacting
+> operator limit. Next construct those estimates, any further counterterms and
+> a closed interacting BRST charge. Do not promote this repository Gaussian
+> control or Wick martingale to a GU field measure or physical QFT.
 
 > **2026-10-07 K1421--K1426 FINITE-CYLINDRICAL QUANTUM BRST BOUNDARY.**
 > Finite Coulomb/Gauss-reduced blocks now carry positive residual-circle

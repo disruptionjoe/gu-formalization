@@ -2,10 +2,29 @@
 title: "Verification: What Is Proved, Computed, and Conjectural"
 status: process
 doc_type: verification-map
-updated_at: "2026-10-07"
+updated_at: "2026-10-08"
 ---
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
+
+## K1427--K1432 Gaussian continuum BRST boundary (2026-10-08)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Finite Gaussian blocks have a compatible continuum probability limit | K1427 projective marginals and martingale density; `27/27`; `9/9` | exact for the declared countable product; not a translation-invariant or source field measure |
+| Hilbert embeddings and compact reduction survive refinement | K1428 cylinder isometries, conditional expectations and Haar intertwiners; `26/26`; `9/9` | exact inductive L2 and residual-invariant sector; charge sequence remains selected by the repository |
+| The continuum Gaussian BRST complex has positive stable cohomology | K1429 Fock differential, number-operator gap and contracting homotopy; `30/30`; `10/10` | exact closed free gauge-fixed complex with positive nonzero H0; no interacting/source BRST charge |
+| A free continuum Hamiltonian is cutoff compatible | K1430 second quantization and resolvent controls; `29/29`; `10/10` | exact positive self-adjoint free operator preserving invariant cohomology; no interaction or nonlinear PDE theorem |
+| The bare quartic is cutoff compatible without renormalization | K1431 Gaussian conditional moment and Wick identity; `26/26`; `10/10` | false: mass and vacuum counterterms are forced; Wick ordering is a martingale candidate, not a limiting Hamiltonian |
+| The advance closes GU physical admission | K1432 97-row bridge census; `22/22`; `10/10` | sixty-eight satisfied, eight conditional, seventeen excluded and four missing; interacting QFT, full PDE, source selection and export remain open |
+
+The six producers pass `160/160` controls and six probes reject `58/58`
+hostile mutations. The result closes the compatible Gaussian continuum, free
+BRST and free Hamiltonian layers while locating the exact quartic
+renormalization debt. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
+`0/7`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
 
 ## K1421--K1426 finite-cylindrical quantum BRST boundary (2026-10-07)
 

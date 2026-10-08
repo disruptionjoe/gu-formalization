@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 8534e943165e26eab9aabf936f720d67fd13a7a8
+revision_basis: 4f562df8eada702f128e9f2a2af152e582acd305
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1427--K1432 construct a compatible countable product-Gaussian continuum
+    control from K1421--K1426's finite blocks. Coordinate projections give
+    exact finite marginals, cylinder pullbacks give an inductive L2 limit, and
+    residual Haar projection commutes with refinement. The countable
+    Gaussian/Fock BRST differential is closed; its total number Hodge operator
+    has unit gap, closed ranges and refinement-stable positive nonzero H0.
+    A positive free second-quantized Hamiltonian has strong cutoff resolvent
+    convergence and preserves the invariant cohomology. The interacting seam
+    remains open for a precise reason: integrating new Gaussian modes through
+    the bare quartic creates cutoff-dependent quadratic and vacuum terms.
+    Wick ordering gives an exact conditional-expectation martingale, but no
+    uniform lower bound, limiting closed form or interacting resolvent theorem.
+    The 97-row census is sixty-eight satisfied, eight conditional, seventeen
+    excluded and four missing; K1145/K1150 remain 0/7 and protected statuses
+    do not move.
+
     K1421--K1426 construct the first positive finite-cylindrical quantum
     control beyond the classical BFV algebra. Every finite reduced coordinate
     block has a positive residual-circle Schrödinger representation; compact
@@ -14441,6 +14457,19 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1427--K1432 close the compatible Gaussian representation, closed free BRST
+  and free continuum Hamiltonian layers. The naive quartic family is not
+  projectively compatible; Wick ordering supplies the exact mass/vacuum
+  subtraction and a martingale candidate but not a semibounded interacting
+  operator. Which uniform form bounds, further counterterms and convergence
+  mechanism construct a self-adjoint renormalized interacting Hamiltonian and
+  closed interacting BRST charge with stable positive cohomology?
+  Independently, which cutoff-uniform full-PDE mechanism controls both K1413
+  leakage terms and yields a finite-tier Cauchy consequence? A
+  source/action-owned observed-carrier selector must still fix `Q` and its
+  normalization. Do not identify product-Gaussian/Fock control with the GU
+  field measure or promote a Wick martingale to an interacting QFT.
+
   K1421--K1426 close the finite-cylindrical representation question and locate
   the noncompact gauge-volume boundary. Compact Haar projection is positive
   and stratum compatible; Gaussian gauge fixing gives a closed finite-block
@@ -16676,6 +16705,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1427--K1432's exact free continuum and interacting boundaries.
+  The product-Gaussian marginals, inductive L2 limit, residual Haar projector,
+  Gaussian BRST complex and free second-quantized Hamiltonian are compatible
+  under the declared countable cutoff tower. The unrenormalized quartic is
+  not: integrating new modes forces quadratic and vacuum counterterms. Advance
+  interacting closure only with uniform semiboundedness/closability, a proved
+  self-adjoint resolvent limit and a closed interacting BRST operator. Wick
+  martingale compatibility alone is insufficient and is not source-derived.
+
   Preserve K1421--K1426's finite-block quantum and continuum boundaries. Haar
   averaging does not require free residual action; bare noncompact-gauge L2
   invariants vanish; Gaussian gauge fixing gives a closed positive Hilbert

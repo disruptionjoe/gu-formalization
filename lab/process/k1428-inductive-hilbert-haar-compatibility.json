@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1428",
+  "title": "Cylinder embeddings and residual Haar projection are compatible through the Gaussian tower",
+  "pinned_inputs": {
+    "k1422": {"path": "lab/process/k1422-compact-haar-stratum-projection.json", "sha256": "fcf962decbec307e66c4f2fc96d7071fd51512f2dc69bab964bd59d68fad022f"},
+    "k1427": {"path": "lab/process/k1427-projective-gaussian-tower.json", "sha256": "f4764c67ce69c3b14890755133cd2f0eab28c26c4052dd6a9d032e605a191464"}
+  },
+  "hilbert_limit": {
+    "embedding": "J_NM f=f composed with pi_MN is an isometry from L2(gamma_N) to L2(gamma_M), and J_NL=J_ML J_NM",
+    "adjoint": "J_NM star is conditional expectation over the new coordinates; J_NM J_NM star is the orthogonal projection onto the first-N cylinder subspace",
+    "limit": "The completed inductive limit is canonically L2(gamma_infinity), because finite-coordinate cylinder functions are dense by martingale convergence",
+    "circle_action": "An integer charge on each complex coordinate plane defines a coordinatewise measure-preserving U(1) action; its L2 representation is strongly continuous because continuity holds on dense cylinders and the operators are unitary",
+    "haar_compatibility": "Charge-stable cutoffs intertwine U_N(theta), so J_NM P_N=P_M J_NM and E_N P_infinity=P_N E_N",
+    "boundary": "The construction quantizes the declared Gaussian cylinder algebra and residual compact projection only; it neither selects the charge sequence nor proves equivalence to a source physical representation"
+  },
+  "decision": {
+    "isometric_cylinder_embeddings_constructed": true,
+    "conditional_expectations_are_adjoints": true,
+    "inductive_limit_identified_with_continuum_L2": true,
+    "strongly_continuous_residual_circle_constructed": true,
+    "haar_projection_refinement_compatible": true,
+    "charge_sequence_selected_by_source": false,
+    "complete_observable_quantization_constructed": false,
+    "protected_status_change": false
+  }
+}

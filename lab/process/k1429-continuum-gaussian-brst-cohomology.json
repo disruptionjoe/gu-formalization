@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1429",
+  "title": "The countable Gaussian BRST complex is closed with stable positive degree-zero cohomology",
+  "pinned_inputs": {
+    "k1424": {"path": "lab/process/k1424-gaussian-gauge-fixed-brst-cohomology.json", "sha256": "c4d7d1be7dbf75318ae5e190ca403f3952e566feed03a5182e9dbe41ba50e21a"},
+    "k1428": {"path": "lab/process/k1428-inductive-hilbert-haar-compatibility.json", "sha256": "5e0f4b9d2c4f55a567ea03cddc0a27937c70f586c8ef908267a1727f06a4cb80"}
+  },
+  "continuum_complex": {
+    "carrier": "The based-gauge factor is symmetric Gaussian Fock over l2, tensored with fermionic exterior Fock over l2 and the K1428 residual-invariant reduced Hilbert space",
+    "core_and_differential": "On the algebraic finite-particle core, d is the sum of bosonic annihilation tensored with fermionic creation; d squared is zero and its closure is a densely defined closed operator",
+    "hodge_operator": "d d star plus d star d is the total boson-plus-fermion number operator, with kernel the joint vacuum and spectrum at least one on its orthogonal complement",
+    "closed_ranges": "The unit spectral gap makes every degreewise range closed; d star N inverse is a bounded contracting homotopy on the positive-number sector",
+    "cohomology": "After tensoring with the compatible compact-invariant reduced factor, H0 is the continuum residual-invariant reduced Hilbert space, Hk vanishes for k>0, and the H0 pairing is positive and nonzero",
+    "refinement": "Finite-particle block embeddings are chain maps and preserve harmonic representatives, so the positive degree-zero classes are stable under the declared refinement tower",
+    "boundary": "This is a continuum Gaussian gauge-fixed Hilbert complex, not a unitary representation of bare noncompact gauge translations, an interacting BRST charge, or source-derived GU physical cohomology"
+  },
+  "decision": {
+    "closed_continuum_gaussian_brst_operator_constructed": true,
+    "continuum_hodge_gap_positive": true,
+    "continuum_degreewise_ranges_closed": true,
+    "positive_nonzero_degree_zero_cohomology": true,
+    "higher_cohomology_zero": true,
+    "cohomology_refinement_stable": true,
+    "interacting_quantum_brst_constructed": false,
+    "source_physical_cohomology_identified": false,
+    "protected_status_change": false
+  }
+}

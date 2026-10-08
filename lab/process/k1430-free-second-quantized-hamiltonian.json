@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1430",
+  "title": "A positive free second-quantized Hamiltonian is compatible with the Gaussian cutoff tower",
+  "pinned_inputs": {
+    "k1425": {"path": "lab/process/k1425-finite-block-friedrichs-hamiltonian.json", "sha256": "02b753e1a8573a39a299c1586df5cf8577b14d94e8d990616bdd0d327ee9414f"},
+    "k1428": {"path": "lab/process/k1428-inductive-hilbert-haar-compatibility.json", "sha256": "5e0f4b9d2c4f55a567ea03cddc0a27937c70f586c8ef908267a1727f06a4cb80"},
+    "k1429": {"path": "lab/process/k1429-continuum-gaussian-brst-cohomology.json", "sha256": "9b23018c22470a43f91daf2cec5aaba46b4a76d54a90bad8d2871cfc2250ab3e"}
+  },
+  "free_hamiltonian": {
+    "one_particle_operator": "omega is a positive diagonal self-adjoint operator on l2 with frequencies omega_j>=omega_0>0 and charge-stable eigenspaces",
+    "second_quantization": "H_0=dGamma(omega) is positive self-adjoint on symmetric Fock, essentially self-adjoint on the finite-particle core, and has vacuum kernel with spectral gap omega_0",
+    "cutoff_compatibility": "For spectral projections p_N commuting with omega and the charge generator, H_M J_NM=J_NM H_N on the finite-particle core and the cutoff resolvents converge strongly to the continuum resolvent",
+    "compact_symmetry": "H_0 strongly commutes with the residual U(1) representation and Haar projection, so it restricts self-adjointly to the invariant sector and descends to K1429 degree-zero cohomology",
+    "brst_compatibility": "On the tensor product core H_0 acts on reduced modes and commutes with the Gaussian gauge differential acting on the separate based-gauge factor",
+    "boundary": "This is a free repository Hamiltonian. It does not contain K1425's quartic interaction, control the K1413 nonlinear PDE leakage, or define a source-owned interacting physical Hamiltonian"
+  },
+  "decision": {
+    "positive_self_adjoint_free_continuum_hamiltonian": true,
+    "finite_particle_core_essentially_self_adjoint": true,
+    "cutoff_resolvents_converge_strongly": true,
+    "residual_invariant_sector_preserved": true,
+    "gaussian_brst_cohomology_preserved": true,
+    "interacting_continuum_hamiltonian_constructed": false,
+    "full_pde_global_evolution_constructed": false,
+    "source_hamiltonian_identified": false,
+    "protected_status_change": false
+  }
+}

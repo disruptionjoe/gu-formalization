@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1427",
+  "title": "Finite Gaussian blocks form a compatible countable product probability tower",
+  "pinned_inputs": {
+    "k1421": {"path": "lab/process/k1421-cylindrical-schrodinger-representation.json", "sha256": "c9ccc43e9cea50be9591a3995608dfaedb58ea2b05e7d5f7759a10894c7f5b0a"},
+    "k1424": {"path": "lab/process/k1424-gaussian-gauge-fixed-brst-cohomology.json", "sha256": "c4d7d1be7dbf75318ae5e190ca403f3952e566feed03a5182e9dbe41ba50e21a"}
+  },
+  "projective_tower": {
+    "coordinates": "A countable sequence of real Gaussian coordinates, with charged complex coordinates represented by charge-stable real two-planes and based-gauge coordinates kept as a separate Gaussian factor",
+    "finite_measures": "gamma_N is the product of the first N normalized standard Gaussian coordinate measures",
+    "consistency": "For M>=N, coordinate projection pi_MN pushes gamma_M exactly to gamma_N and pi_LN=pi_MN composed with pi_LM",
+    "continuum_measure": "Kolmogorov product measure gamma_infinity exists on the countable product sigma-algebra and has every gamma_N as its finite marginal",
+    "martingale": "Conditional expectations E_N onto the first-N sigma-algebra are contractive orthogonal projections and E_N f converges to f in L2(gamma_infinity)",
+    "boundary": "The countable product is a repository-owned Gaussian probability control. It is not translation invariant along the Cameron-Martin space, a measure on a declared nonlinear field configuration space, or a source-derived path-integral measure"
+  },
+  "decision": {
+    "finite_marginals_projectively_consistent": true,
+    "countable_product_gaussian_measure_constructed": true,
+    "conditional_expectation_martingale_dense": true,
+    "translation_invariant_infinite_dimensional_measure": false,
+    "nonlinear_field_measure_constructed": false,
+    "source_measure_identified": false,
+    "protected_status_change": false
+  }
+}

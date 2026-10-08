@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1432",
+  "title": "Gaussian continuum quantum admission and interacting fence",
+  "pinned_inputs": {
+    "k1427": {"path": "lab/process/k1427-projective-gaussian-tower.json", "sha256": "f4764c67ce69c3b14890755133cd2f0eab28c26c4052dd6a9d032e605a191464"},
+    "k1428": {"path": "lab/process/k1428-inductive-hilbert-haar-compatibility.json", "sha256": "5e0f4b9d2c4f55a567ea03cddc0a27937c70f586c8ef908267a1727f06a4cb80"},
+    "k1429": {"path": "lab/process/k1429-continuum-gaussian-brst-cohomology.json", "sha256": "9b23018c22470a43f91daf2cec5aaba46b4a76d54a90bad8d2871cfc2250ab3e"},
+    "k1430": {"path": "lab/process/k1430-free-second-quantized-hamiltonian.json", "sha256": "395a7396357bafac863c9d76e104139a8eb543500befff95b1393f95ff404b01"},
+    "k1431": {"path": "lab/process/k1431-quartic-wick-renormalization-boundary.json", "sha256": "2ba744136802675d4a480d25642532542595c782abfb94fda8642b9cff165f3f"}
+  },
+  "bridge_census": {
+    "row_count": 97,
+    "satisfied_count": 68,
+    "conditional_count": 8,
+    "excluded_count": 17,
+    "missing_count": 4,
+    "new_satisfied_rows": [
+      "compatible countable product Gaussian probability and inductive L2 representation",
+      "closed continuum Gaussian gauge-fixed BRST complex with refinement-stable positive nonzero degree-zero cohomology",
+      "positive residual-invariant free second-quantized continuum Hamiltonian with strong cutoff resolvent convergence"
+    ],
+    "new_conditional_rows": ["Wick-ordered quartic martingale as a candidate interaction requiring uniform form and operator convergence"],
+    "new_excluded_rows": ["projectively compatible unrenormalized quartic interaction under Gaussian mode refinement"],
+    "missing_rows": [
+      "source-owned compact-generator selection and normalization on the observed carrier",
+      "identification with one source action",
+      "cutoff-uniform completed global PDE evolution and interacting continuum positive physical Hilbert cohomology",
+      "source-owned observed-state/export map"
+    ]
+  },
+  "decision": {
+    "compatible_continuum_gaussian_representation_constructed": true,
+    "closed_refinement_stable_continuum_brst_cohomology_constructed": true,
+    "positive_free_continuum_hamiltonian_constructed": true,
+    "naive_quartic_cutoff_compatibility_excluded": true,
+    "wick_interaction_candidate_constructed": true,
+    "renormalized_interacting_hamiltonian_constructed": false,
+    "completed_full_pde_global_flow_constructed": false,
+    "source_selected_reduction_constructed": false,
+    "k1145_k1150_candidate_counts_move": false,
+    "protected_status_change": false
+  },
+  "source_and_ledger_effect": "SOURCE_REGISTER_UNCHANGED; LEDGER_UNCHANGED; SC-ACT-01/02/06 ASSERTS; SC-META-53 UNCERTAIN; LT-SM8/LT-GR6b/RA-F1/AC-F1 NEEDS; K1145/K1150 0/7"
+}

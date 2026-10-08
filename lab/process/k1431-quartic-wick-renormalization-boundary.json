@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1431",
+  "title": "Naive quartic cutoff compatibility fails and Wick ordering gives only a martingale interaction candidate",
+  "pinned_inputs": {
+    "k1425": {"path": "lab/process/k1425-finite-block-friedrichs-hamiltonian.json", "sha256": "02b753e1a8573a39a299c1586df5cf8577b14d94e8d990616bdd0d327ee9414f"},
+    "k1427": {"path": "lab/process/k1427-projective-gaussian-tower.json", "sha256": "f4764c67ce69c3b14890755133cd2f0eab28c26c4052dd6a9d032e605a191464"},
+    "k1430": {"path": "lab/process/k1430-free-second-quantized-hamiltonian.json", "sha256": "395a7396357bafac863c9d76e104139a8eb543500befff95b1393f95ff404b01"}
+  },
+  "renormalization_boundary": {
+    "variance_growth": "For a three-dimensional massive free field cutoff, C_N=E(phi_N(x)^2) is a positive mode sum that diverges with N; hence E integral phi_N^4 equals 3 Vol C_N^2 and diverges",
+    "conditional_expectation": "Writing phi_M=phi_N+eta with new-mode variance Delta C, E(phi_M^4 conditional on F_N)=phi_N^4+6 Delta C phi_N^2+3 Delta C squared",
+    "obstruction": "The bare quartic multiplication forms are not projectively compatible: integrating out new modes generates cutoff-dependent quadratic and vacuum terms",
+    "wick_candidate": "The Hermite polynomial :phi_N^4:_{C_N}=phi_N^4-6 C_N phi_N^2+3 C_N squared satisfies the martingale identity E(:phi_M^4:_{C_M} conditional on F_N)=:phi_N^4:_{C_N}",
+    "operator_boundary": "Wick martingale compatibility does not make the cutoff forms nonnegative, semibounded uniformly, closable in the limit or convergent in resolvent sense. Those estimates and any further counterterms are separate constructive-field-theory obligations",
+    "pde_boundary": "The Wick identity is probabilistic cutoff algebra and supplies no estimate for K1413's electric-current or pointwise radial-coefficient leakage"
+  },
+  "decision": {
+    "naive_quartic_expectation_diverges": true,
+    "bare_quartic_projective_compatibility": false,
+    "mass_and_vacuum_counterterms_forced": true,
+    "wick_quartic_martingale_constructed": true,
+    "uniform_semibounded_interacting_forms_proved": false,
+    "interacting_resolvent_limit_constructed": false,
+    "renormalized_continuum_hamiltonian_constructed": false,
+    "global_nonlinear_pde_proved": false,
+    "protected_status_change": false
+  }
+}
