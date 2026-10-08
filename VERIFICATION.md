@@ -7,6 +7,23 @@ updated_at: "2026-10-08"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1528--K1532 all-Gaussian variational boundary (2026-10-08)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Off-diagonal Gaussian covariance has no exact Q-space cost formula | K1528 logarithmic-gradient matrix identity | false: the cost is one quarter of `m^T Omega m+Tr[Omega(S+S^(-1)-2I)]`, plus a nonnegative phase term |
+| Spatially varying variance can evade the stationary pointwise dichotomy by concentrating in spikes | K1529 exact one-point optimization | false: `F_C(h,v)>=6(sqrt(3)-1)Cv` pointwise |
+| The ultraviolet-shell argument requires covariance diagonality or stationarity | K1530 Frobenius factorization and shell Loewner bound | false: it applies to every positive covariance `S` without assuming commutation |
+| A nonstationary/off-diagonal Gaussian trial can match the unrestricted `Omega(N^2)` lower scale | K1531 all-Gaussian lower/upper comparison | false in the finite-cutoff Gaussian class: its variational bottom is `Theta_g(N^4)` |
+| The Gaussian `Theta(N^4)` result is the true ground-energy asymptotic or an operator resolvent theorem | K1531 scope audit | not established: genuinely non-Gaussian vectors and changed representations remain open |
+| The advance closes GU physical admission | K1532 240-row bridge census | 161 satisfied, ten conditional, 65 excluded and four missing |
+
+The five producers pass `160/160` controls and five hostile probes reject
+`77/77` mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
+`0/7`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
+
 ## K1523--K1527 quasi-free Gaussian variational boundary (2026-10-08)
 
 | Claim | Evidence | Honest grade |

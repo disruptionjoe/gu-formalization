@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1529",
+  "title": "Pointwise Wick-square coercivity for arbitrary Gaussian mean and local variance",
+  "pinned_inputs": {
+    "k1528": {"path": "lab/process/k1528-general-gaussian-q-space-formula.json", "sha256": "4cc6e8e412480fbea7bbc1b1d5c838fbb71bc5f5ebc027c564902ec6e72bf97f"}
+  },
+  "local_coercivity": {
+    "field_data": "For b_N(x)_j=sqrt(lambda_j)e_j(x), a Gaussian N(m,S) has pointwise field mean h(x)=b_N(x)^T m and local centered variance v(x)=b_N(x)^T S b_N(x)>=0, with vacuum variance C_N=|b_N(x)|^2 constant",
+    "exact_expectation": "At every x, E[(phi_N(x)^2-3C_N)^2]=F_C(h,v)=h^4+6h^2v+3v^2-6C(h^2+v)+9C^2",
+    "mean_optimization": "Minimizing over y=h^2>=0 gives f_C(v)=6v(2C-v) for 0<=v<=C and f_C(v)=3(v-C)^2+6C^2 for v>=C",
+    "uniform_coercivity": "For every v>=0, f_C(v)>=c_* C v with the sharp constant c_*=6(sqrt(3)-1); on 0<=v<=C use f_C/(Cv)=6(2-v/C), while on v>=C the minimum of 3(t-2+3/t) occurs at t=sqrt(3)",
+    "spike_guard": "The bound is pointwise and linear in v, so spatially varying covariance and arbitrarily concentrated local-variance spikes cannot evade it by averaging a concave branch",
+    "integrated_consequence": "Writing V_N=integral v(x)dx=Tr(Lambda S) in the orthonormal real Fourier basis, the interaction expectation is at least g c_* C_N V_N",
+    "scope_guard": "This is a Gaussian one-point-moment bound; it does not impose stationarity or diagonal covariance, but it does not extend to non-Gaussian fourth moments"
+  },
+  "decision": {
+    "arbitrary_mean_included": true,
+    "spatially_varying_variance_included": true,
+    "sharp_linear_coercivity_constant": "6(sqrt(3)-1)",
+    "variance_spike_escape_exists": false,
+    "nongaussian_moment_bound_proved": false,
+    "protected_status_change": false
+  }
+}

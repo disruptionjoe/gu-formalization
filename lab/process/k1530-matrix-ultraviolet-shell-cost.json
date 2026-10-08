@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1530",
+  "title": "Matrix ultraviolet-shell Cauchy bound for arbitrary Gaussian covariance",
+  "pinned_inputs": {
+    "k1525": {"path": "lab/process/k1525-ultraviolet-shell-squeezing-cost.json", "sha256": "0d960e2a765709043a7529ebdb8954d4ebd8d55b4510591b521cfea7cc54fa68"},
+    "k1528": {"path": "lab/process/k1528-general-gaussian-q-space-formula.json", "sha256": "4cc6e8e412480fbea7bbc1b1d5c838fbb71bc5f5ebc027c564902ec6e72bf97f"},
+    "k1529": {"path": "lab/process/k1529-local-gaussian-coercivity.json", "sha256": "0a54d82bc708e120d101a7f4ccb7ec78de0cfcc19c668216a9965c316f9c16c2"}
+  },
+  "matrix_shell_cost": {
+    "spectral_data": "Let Omega=diag(omega_j), Lambda=diag(lambda_j) with lambda_j=(2omega_j)^(-1), and let P_N be the fixed-ratio ultraviolet-shell projector from K1525; then C_(S,N)=Tr(P_N Lambda)>=kappa C_N and P_N commutes with Omega and Lambda",
+    "integrated_variance": "For arbitrary S>0, V_N=Tr(Lambda S)>=Tr(P_N Lambda S)>=0",
+    "low_variance_deficit": "If V_N<=(kappa/2)C_N, then delta_N=Tr[P_N Lambda(I-S)]>=kappa C_N/2=Theta(N^2)",
+    "frobenius_factorization": "Set A=Omega^(1/2)(I-S)S^(-1/2) and B=S^(1/2)P_N Lambda Omega^(-1/2); cyclicity gives Tr(AB)=delta_N",
+    "matrix_cauchy": "Frobenius Cauchy gives delta_N^2<=Tr[Omega(S+S^(-1)-2I)] Tr[P_N Lambda^2 Omega^(-1)P_N S]",
+    "dual_shell_bound": "On the shell, P_N Lambda^2 Omega^(-1)P_N<=cN^(-2)P_N Lambda in Loewner order, hence the second factor is at most cN^(-2)Tr(P_N Lambda S)<=cN^(-2)V_N=O(1)",
+    "free_cost_consequence": "The covariance part of K1528's q0 is one quarter of the first factor, so q0>=cN^4 in the low-integrated-variance branch",
+    "high_variance_consequence": "If V_N>(kappa/2)C_N, K1529 gives interaction expectation at least g c_* C_N V_N>=c_g C_N^2=c_gN^4",
+    "noncommutative_guard": "No step assumes that S commutes with Omega, Lambda or P_N; off-diagonal shell/complement correlations are retained in the positive matrix traces",
+    "scope_guard": "The dichotomy covers arbitrary positive Gaussian covariance at finite cutoff, not a non-Gaussian density or a cutoff-uniform continuum representation"
+  },
+  "decision": {
+    "matrix_shell_cauchy_proved": true,
+    "stationarity_required": false,
+    "covariance_diagonality_required": false,
+    "off_diagonal_escape_exists": false,
+    "nongaussian_lower_bound_proved": false,
+    "protected_status_change": false
+  }
+}

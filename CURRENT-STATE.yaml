@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d3049fd3c2fc0c4f4f14cc8c4ae8e1c65d709bbc
+revision_basis: 8f60ac21ab4acb42ba419ac7fb007a6891324fd2
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,26 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1528--K1532 close the full finite-cutoff Gaussian-wavefunction route left
+    open by K1527. If a normalized Gaussian has arbitrary mean `m`, positive
+    covariance `S` and a real linear-quadratic phase, its exact amplitude free
+    cost is one quarter of
+    `m^T Omega m+Tr[Omega(S+S^(-1)-2I)]`; the phase adds a nonnegative term.
+    Its spatially varying point variance `v(x)` obeys the sharp pointwise
+    Wick-square coercivity `F_C(h,v)>=6(sqrt(3)-1)Cv`. If the integrated
+    variance `Tr(Lambda S)` is large, the interaction already costs
+    `Omega_g(N^4)`. If it is small, a noncommutative Frobenius Cauchy identity
+    on the fixed-ratio ultraviolet shell forces `Omega(N^4)` covariance cost
+    without assuming stationarity, covariance diagonality or commutation with
+    the frequency operator. Thus the complete finite-cutoff Gaussian
+    variational bottom is `Theta_g(N^4)`. An order-`N^2` trial must be
+    genuinely non-Gaussian in the fixed Q-space representation or change the
+    admitted representation/domain. No unrestricted ground-energy asymptotic,
+    spectrum, resolvent, compactness, Mosco recovery, continuum interacting
+    BRST operator or source-owned GU Hamiltonian follows. The 240-row census
+    is 161 satisfied, ten conditional, 65 excluded and four missing;
+    protected statuses stay fixed.
+
     K1523--K1527 classify the immediate Gaussian route toward K1519's missing
     order-`N^2` upper trial. Every covariance-preserving coherent shift has
     exact energy `q_0+6gC_N^2+g int h^4`, so the vacuum is its exact minimizer.

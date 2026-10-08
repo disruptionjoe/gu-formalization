@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1531",
+  "title": "Every finite-cutoff Gaussian Q-space variational trial stays on the N^4 scale",
+  "pinned_inputs": {
+    "k1519": {"path": "lab/process/k1519-quadratic-kinetic-localization-lower-bound.json", "sha256": "502c594494366e6943879ec709af999a40141f4432d9b5f4341bffb2394a9858"},
+    "k1530": {"path": "lab/process/k1530-matrix-ultraviolet-shell-cost.json", "sha256": "1777c592b4a8b2b82fa80da71cd8b6b469570587c9b2ee2836490550a6a94504"},
+    "k1471": {"path": "lab/process/k1471-finite-cutoff-interacting-brst-composition.json", "sha256": "abac4797efb8dc9b2c66024a34196084abd7b7a07f4b483fb3db6a8c4099bcb1"}
+  },
+  "variational_boundary": {
+    "gaussian_class": "Let E_N^Gauss be the infimum over every normalized finite-cutoff Gaussian Q-space wavefunction whose modulus squared is N(m,S) with arbitrary m and S>0 and whose phase is real linear-quadratic",
+    "lower_boundary": "K1529--K1530 split on V_N=Tr(Lambda S): high integrated variance pays Omega_g(N^4) interaction energy and low integrated variance pays Omega(N^4) free covariance energy; mean and phase costs are nonnegative",
+    "vacuum_upper": "The vacuum belongs to the class and has Rayleigh quotient 6gC_N^2=O(N^4), hence E_N^Gauss=Theta_g(N^4) for every fixed g>0",
+    "route_decision": "No coherent, squeezed, nonstationary or off-diagonal finite-cutoff Gaussian wavefunction can match K1519's unrestricted order-N^2 lower scale",
+    "surviving_route": "Any order-N^2 upper trial must be genuinely non-Gaussian in the fixed Q-space representation, or change the representation/domain in a way that changes the admitted problem; none is constructed here",
+    "restricted_recentering": "Every a_N=o(N^4) leaves all Rayleigh quotients in the Gaussian trial class divergent to plus infinity, but this is not an operator spectral or resolvent bound because non-Gaussian vectors remain in the full form domain",
+    "brst_transfer": "Tensoring a classified Gaussian matter vector with a harmonic BRST vector preserves its Rayleigh quotient, so only the restricted Gaussian N^4 boundary transfers; no continuum interacting BRST charge, physical cohomology or GU state space is constructed",
+    "unrestricted_corridor": "The true ground energy still has only K1519's c_gN^2 lower bound and K1516's nonmatching one-sided upper descent from 6gC_N^2; its asymptotic, localization, compactness and Mosco recovery remain open"
+  },
+  "decision": {
+    "all_finite_cutoff_gaussian_scale": "N^4",
+    "stationary_or_diagonal_assumption_required": false,
+    "gaussian_order_N2_trial_exists": false,
+    "restricted_brst_transfer": true,
+    "unrestricted_ground_energy_asymptotic_proved": false,
+    "operator_resolvent_consequence_proved": false,
+    "protected_status_change": false
+  }
+}

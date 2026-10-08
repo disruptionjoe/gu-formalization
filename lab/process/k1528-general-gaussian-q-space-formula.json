@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1528",
+  "title": "Exact Q-space free form for arbitrary finite-cutoff Gaussian wavefunctions",
+  "pinned_inputs": {
+    "k1524": {"path": "lab/process/k1524-stationary-quasi-free-exact-formulas.json", "sha256": "14cbd2eaa0b14f1f587013fe1b1b5ac056872d075503d5112c316e583cf536df"}
+  },
+  "general_gaussian_formula": {
+    "trial_class": "In the real standard-Gaussian Q-space coordinates, let the modulus-squared density of a normalized Gaussian wavefunction be N(m,S), where m is arbitrary and S is any real symmetric positive-definite covariance; an arbitrary real linear-quadratic phase is allowed",
+    "density": "rho_(m,S)(xi)=det(S)^(-1/2) exp[-(1/2)((xi-m)^T S^(-1)(xi-m)-xi^T xi)] relative to the standard Gaussian measure, and the positive amplitude is psi=rho^(1/2)",
+    "logarithmic_gradient": "grad log psi=(1/2)[(I-S^(-1))xi+S^(-1)m]",
+    "exact_amplitude_cost": "For diagonal frequency matrix Omega, q0[psi]=(1/4){m^T Omega m+Tr[Omega(S+S^(-1)-2I)]}",
+    "matrix_positivity": "S+S^(-1)-2I=(I-S)S^(-1)(I-S) is positive semidefinite, so the covariance and mean terms are nonnegative without requiring [S,Omega]=0",
+    "phase_guard": "Multiplication by exp(i theta(xi)) adds int |grad theta|_Omega^2 rho with no cross term, so a real linear-quadratic Gaussian phase cannot lower the amplitude cost",
+    "diagonal_recovery": "When S=diag(s_j), the trace term is sum_j omega_j(s_j-1)^2/s_j and exactly recovers K1524",
+    "scope_guard": "This classifies finite-cutoff Gaussian Q-space wavefunctions with arbitrary mean, covariance and quadratic phase; it does not classify genuinely non-Gaussian vectors or construct a continuum Gaussian representation"
+  },
+  "decision": {
+    "arbitrary_positive_covariance_formula_proved": true,
+    "off_diagonal_covariance_included": true,
+    "nonstationary_covariance_included": true,
+    "gaussian_phase_can_lower_cost": false,
+    "nongaussian_classified": false,
+    "protected_status_change": false
+  }
+}

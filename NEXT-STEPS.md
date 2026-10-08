@@ -7,6 +7,20 @@ updated_at: "2026-10-08"
 
 # Next Steps For Contributors
 
+> **2026-10-08 K1528--K1532 ALL-GAUSSIAN VARIATIONAL BOUNDARY.** Every
+> normalized finite-cutoff Gaussian Q-space wavefunction with arbitrary mean,
+> positive covariance and real linear-quadratic phase has an exact matrix free
+> form. The optimized pointwise Wick-square expectation obeys
+> `F_C(h,v)>=6(sqrt(3)-1)Cv`, so spatial variance spikes do not evade the
+> interaction. A noncommutative Frobenius Cauchy factorization on the
+> fixed-ratio ultraviolet shell then shows that small integrated variance
+> costs `Omega(N^4)` in the free form, with no stationarity or covariance-
+> diagonality assumption. Hence the entire Gaussian variational bottom is
+> `Theta_g(N^4)`. Next construct or exclude a genuinely non-Gaussian normalized
+> order-`N^2` trial by computing both its Dirichlet and Wick-square costs. Do
+> not promote the Gaussian restriction to the true ground-energy asymptotic,
+> spectrum, resolvent or all form-domain vectors.
+
 > **2026-10-08 K1523--K1527 QUASI-FREE GAUSSIAN VARIATIONAL BOUNDARY.**
 > A covariance-preserving coherent shift has exact energy
 > `q_0+6gC_N^2+g int h^4`, so the vacuum is its exact minimizer. For
