@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1409",
+  "title": "The compatible-real homogeneous slice is an exact current-free invariant manifold",
+  "pinned_inputs": {
+    "k1358": {"path": "lab/process/k1358-principal-series-charge-generator-domain.json", "sha256": "c91feee049717eb6052116b92353e5c5660d606df629acb710d4042a136c9601"},
+    "k1395": {"path": "lab/process/k1395-compact-torus-coefficient-integrability-obstruction.json", "sha256": "6cb16e1eda470177a1c935fd6791fa8c3eed8b2235b4adddeeb8bb51e54162bf"}
+  },
+  "invariant_manifold": {
+    "real_structure": "Fix a conjugation C with C^2=I and CQ=QC; let H_R=Fix(C). This is a repository control, not a source-selected reality condition.",
+    "data": "On normalized T3 take A=E=0 and phi(t,x)=u(t), pi(t,x)=v(t) with u,v in H_R and the required Q graph domains.",
+    "spatial_current": "All spatial covariant derivatives vanish, so j^a=e Im<Q u,D^a u>=0.",
+    "charge_density": "The inner product of C-real vectors is real, so rho=e Im<Q u,v>=0.",
+    "reduced_equation": "u''+(m^2+mu Q^2)u+lambda||u||^2u=0.",
+    "invariance": "The Maxwell equations preserve A=E=0 and the reduced vector field commutes with C, so the homogeneous real slice is invariant.",
+    "spectral_scope": "The manifold permits arbitrary finite or infinite Q-spectral support subject to the declared graph domain.",
+    "boundary": "This is not a gauge fixing of every solution and carries no nonzero spatial Fourier mode or Maxwell radiation."
+  },
+  "decision": {
+    "homogeneous_real_slice_invariant": true,
+    "maxwell_current_vanishes": true,
+    "gauss_density_vanishes": true,
+    "arbitrary_charge_support_allowed": true,
+    "full_spatial_flow_constructed": false,
+    "source_reality_selected": false,
+    "protected_status_change": false
+  }
+}

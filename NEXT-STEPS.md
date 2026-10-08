@@ -7,6 +7,19 @@ updated_at: "2026-10-07"
 
 # Next Steps For Contributors
 
+> **2026-10-07 K1409--K1414 HOMOGENEOUS COMPLETED GRAPH FLOW.** Compatible-
+> real homogeneous data form an exact current-free invariant manifold with
+> arbitrary charge support. Conserved base energy bounds the recurrent radial
+> coefficient, and a nonlinear time-dependent graph energy gives cutoff-
+> independent exponential control of every fixed finite charge tier. Spectral
+> cutoffs therefore converge to a global two-sided completed homogeneous flow.
+> The full PDE identity restores lifted electric-current work and an
+> uncontrolled pointwise radial-coefficient term. Next control or cancel both
+> defects by a gauge-covariant spacetime/null-form estimate, nonlinear normal-
+> form correction or summable hierarchy with a finite-tier Cauchy consequence.
+> Do not promote the homogeneous completed flow to the full PDE, BV-BFV
+> physical cohomology or a source-owned GU result.
+
 > **2026-10-07 K1403--K1408 SPECTRAL CORE AND ENERGY RIGIDITY.** Arbitrary
 > Borel charge-spectral support is invariant, and independent spectral phases
 > give a finite signed conserved Noether measure. The compatible fixed-sector

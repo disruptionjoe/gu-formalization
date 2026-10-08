@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1414",
+  "title": "Homogeneous completed-flow admission boundary",
+  "pinned_inputs": {
+    "k1409": {"path": "lab/process/k1409-homogeneous-current-free-invariant-manifold.json", "sha256": "0032769c60d214d23ecf8cc48f16a19f3f9c4d5018f1fcf476018342527cc5a5"},
+    "k1410": {"path": "lab/process/k1410-homogeneous-base-energy-coefficient-control.json", "sha256": "e0eeaedaf00c73e50b46d43b9474e77605bea8f9d044aff7dd498398c22be1da"},
+    "k1411": {"path": "lab/process/k1411-time-dependent-graph-energy.json", "sha256": "b09d1652aa0f045f21279378de8531e3afc451b461e15ef74f239ef70e3366c2"},
+    "k1412": {"path": "lab/process/k1412-homogeneous-completed-graph-flow.json", "sha256": "9c8415a296403fd8167a13bd0706f017ca40e2d9521ee6995c57cb0eeaf41ba1"},
+    "k1413": {"path": "lab/process/k1413-full-pde-graph-energy-leakage.json", "sha256": "3d553dba3c237d737cfa8982ace7c2bba0239ab8b064ce78956334aef28dcc27"}
+  },
+  "bridge_census": {
+    "row_count": 81,
+    "satisfied_count": 56,
+    "conditional_count": 6,
+    "excluded_count": 15,
+    "missing_count": 4,
+    "new_satisfied_rows": [
+      "compatible-real homogeneous data form an exact current-free invariant manifold",
+      "conserved homogeneous base energy controls the recurrent radial coefficient independently of charge cutoff",
+      "a nonlinear time-dependent positive graph energy propagates every fixed finite charge tier globally",
+      "spectral cutoffs converge to a completed global homogeneous graph-tier flow"
+    ],
+    "new_excluded_rows": [
+      "direct promotion of the homogeneous graph energy to the full PDE without controlling lifted electric-current and pointwise radial-coefficient leakage"
+    ],
+    "missing_rows": [
+      "source-owned compact-generator selection and normalization on the observed carrier",
+      "identification with one source action",
+      "cutoff-uniform completed global BV-BFV PDE flow with boundary data and positive physical Hilbert cohomology",
+      "source-owned observed-state/export map"
+    ]
+  },
+  "distance_update": {
+    "closed": [
+      "global unbounded-charge graph propagation on the exact homogeneous current-free invariant manifold",
+      "finite-time spectral-cutoff Cauchy convergence on every fixed homogeneous graph tier",
+      "existence of a viable nonlinear time-dependent modified-energy mechanism outside K1406's rigid class"
+    ],
+    "excluded": [
+      "unchanged use of the homogeneous graph energy as a full spatial Maxwell-matter estimate"
+    ],
+    "opened_or_sharpened": [
+      "joint control or cancellation of the full-PDE lifted electric-current and pointwise radial-coefficient defects",
+      "a gauge-covariant spacetime/null-form estimate, nonlinear normal-form correction or summable hierarchy with a finite-tier Cauchy consequence"
+    ],
+    "unchanged": [
+      "full BV-BFV boundary exactness and positive physical Hilbert cohomology",
+      "source selection and normalization",
+      "source action and observation/export ownership"
+    ]
+  },
+  "decision": {
+    "homogeneous_completed_global_flow_constructed": true,
+    "nonlinear_time_dependent_mechanism_constructed": true,
+    "full_pde_leakage_classified": true,
+    "completed_full_pde_global_flow_constructed": false,
+    "full_bv_bfv_boundary_theory_constructed": false,
+    "positive_gu_physical_hilbert_cohomology_constructed": false,
+    "source_selected_reduction_constructed": false,
+    "k1145_k1150_candidate_counts_move": false,
+    "protected_status_change": false
+  },
+  "source_and_ledger_effect": "SOURCE_REGISTER_UNCHANGED; LEDGER_UNCHANGED; SC-ACT-01/02/06 ASSERTS; SC-META-53 UNCERTAIN; LT-SM8/LT-GR6b/RA-F1/AC-F1 NEEDS; K1145/K1150 0/7"
+}

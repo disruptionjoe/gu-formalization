@@ -7,6 +7,26 @@ updated_at: "2026-10-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1409--K1414 homogeneous completed graph flow (2026-10-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The compatible-real homogeneous slice is dynamically invariant | K1409 current, charge-density and conjugation checks; `23/23`; `9/9` | exact nonlinear current-free invariant manifold with arbitrary graph-admissible charge support; not a gauge fixing or spatial theory |
+| Base energy controls the recurrent radial coefficient | K1410 conserved oscillator energy and sharp Cauchy bounds; `25/25`; `8/8` | exact cutoff-independent pointwise bounds on `s` and `s'`; no global `L1_t` claim and no full-PDE `L-infinity_x` control |
+| A nonlinear time-dependent graph energy closes finite tiers | K1411 exact derivative and Gronwall estimate; `23/23`; `8/8` | exact global cutoff-uniform bound on every fixed homogeneous charge tier; outside K1406's time-independent quadratic class |
+| Spectral cutoffs converge on the completed graph tier | K1412 uniform bounds, difference equation and tail estimate; `23/23`; `9/9` | exact global two-sided completed homogeneous flow with nested tier compatibility; not the full spatial PDE |
+| The homogeneous energy closes the full Maxwell--matter PDE unchanged | K1413 exact lifted-current and pointwise radial-coefficient leakage; `24/24`; `9/9` | false; direct promotion is excluded, while null-form, normal-form and summable-hierarchy mechanisms remain open |
+| The advance closes GU physical admission | K1414 81-row bridge census; `24/24`; `10/10` | fifty-six satisfied, six conditional, fifteen excluded and four missing; full completed PDE flow, source selection and physical Hilbert cohomology remain open |
+
+The six producers pass `142/142` controls and six probes reject `53/53`
+hostile mutations. The result supplies a genuine nonlinear time-dependent
+cutoff-uniform mechanism and a completed unbounded-charge flow on one exact
+invariant manifold, then identifies the two full-PDE defects that still need
+spatial/gauge structure. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
+`0/7`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
+
 ## K1403--K1408 spectral core and conserved-weight rigidity (2026-10-07)
 
 | Claim | Evidence | Honest grade |

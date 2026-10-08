@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1410",
+  "title": "Conserved homogeneous base energy controls the recurrent radial coefficient",
+  "pinned_inputs": {
+    "k1409": {"path": "lab/process/k1409-homogeneous-current-free-invariant-manifold.json", "sha256": "0032769c60d214d23ecf8cc48f16a19f3f9c4d5018f1fcf476018342527cc5a5"}
+  },
+  "coefficient_control": {
+    "base_energy": "H_0=1/2||u'||^2+1/2||Omega u||^2+lambda/4||u||^4 with Omega^2=m^2+mu Q^2.",
+    "conservation": "Pairing the reduced equation with u' gives dH_0/dt=0.",
+    "position_bound": "For m>0, ||u(t)||<=sqrt(2H_0)/m for all t.",
+    "velocity_bound": "||u'(t)||<=sqrt(2H_0) for all t.",
+    "radial_derivative": "For s(t)=||u(t)||^2, |s'(t)|<=2||u||||u'||<=4H_0/m.",
+    "cutoff_uniformity": "The bounds use only H_0,m and lambda and contain no spectral cutoff or norm of Q_N.",
+    "recurrence_boundary": "The coefficient may be periodic or recurrent and need not belong to L1(R); pointwise boundedness is the input for finite-time Gronwall.",
+    "boundary": "This controls the spatially constant homogeneous coefficient, not partial_t||phi(t,x)||^2 in L-infinity_x for the full PDE."
+  },
+  "decision": {
+    "base_energy_conserved": true,
+    "radial_coefficient_globally_bounded": true,
+    "radial_derivative_globally_bounded": true,
+    "bound_cutoff_uniform": true,
+    "global_time_integrability_claimed": false,
+    "full_pde_pointwise_coefficient_controlled": false,
+    "protected_status_change": false
+  }
+}

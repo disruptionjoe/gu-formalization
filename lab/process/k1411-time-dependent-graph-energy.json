@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1411",
+  "title": "A nonlinear time-dependent energy propagates every homogeneous charge-graph tier",
+  "pinned_inputs": {
+    "k1410": {"path": "lab/process/k1410-homogeneous-base-energy-coefficient-control.json", "sha256": "e0eeaedaf00c73e50b46d43b9474e77605bea8f9d044aff7dd498398c22be1da"},
+    "k1406": {"path": "lab/process/k1406-conserved-spectral-weight-rigidity.json", "sha256": "fdddabb07eb7ee8d8db45d90976d6ca909e6ace77846275e2a4059e428f94f20"}
+  },
+  "graph_energy": {
+    "lifted_equation": "For integer n>=0, psi_n=Q^n u satisfies psi_n''+(Omega^2+lambda s(t))psi_n=0 because Q commutes with Omega and the scalar radial multiplier.",
+    "functional": "F_n(t)=1/2||Q^n u'||^2+1/2||Omega Q^n u||^2+lambda/2 s(t)||Q^n u||^2.",
+    "positivity": "F_n>=1/2||Q^n u'||^2+(m^2/2)||Q^n u||^2 and also controls ||Q^(n+1)u|| when mu>0.",
+    "exact_derivative": "F_n'=(lambda/2)s'||Q^n u||^2.",
+    "gronwall": "|F_n'|<=(4 lambda H_0/m^3)F_n, hence F_n(t)<=F_n(0)exp(4 lambda H_0|t|/m^3).",
+    "cutoff_uniformity": "The estimate is identical for every spectral cutoff P_N and contains no ||Q_N|| factor.",
+    "outside_rigidity_class": "F_n is nonlinear and time dependent through the actual solution coefficient s(t); K1406 classifies only time-independent quadratic spectral reweightings.",
+    "boundary": "The estimate is global on K1409's invariant manifold but does not control the electric-current and spatially dependent coefficient defects of the full PDE."
+  },
+  "decision": {
+    "nonlinear_time_dependent_graph_energy_constructed": true,
+    "exact_derivative_identity_proved": true,
+    "every_fixed_finite_graph_tier_globally_bounded": true,
+    "estimate_cutoff_uniform": true,
+    "k1406_contradicted": false,
+    "full_pde_global_bound_proved": false,
+    "protected_status_change": false
+  }
+}

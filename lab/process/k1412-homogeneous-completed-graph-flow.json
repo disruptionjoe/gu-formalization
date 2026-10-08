@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1412",
+  "title": "Spectral cutoffs converge to a global completed homogeneous graph-tier flow",
+  "pinned_inputs": {
+    "k1403": {"path": "lab/process/k1403-charge-spectral-support-invariance.json", "sha256": "bae468bbfc682c14959165cc3d5a2e3ecd6ad1544e91a7e12f962278c7d684cd"},
+    "k1411": {"path": "lab/process/k1411-time-dependent-graph-energy.json", "sha256": "b09d1652aa0f045f21279378de8531e3afc451b461e15ef74f239ef70e3366c2"}
+  },
+  "completed_flow": {
+    "tier": "G_n={(u,v): Omega Q^n u in H and Q^n v in H} for each fixed integer n>=0, restricted to the compatible-real homogeneous manifold.",
+    "uniform_cutoffs": "Every P_N-truncated solution obeys the same H_0 and F_n estimates with constants independent of N.",
+    "difference_equation": "delta=u_N-u_M satisfies delta''+Omega^2 delta+lambda s_N delta=-lambda(s_N-s_M)u_M.",
+    "coefficient_difference": "|s_N-s_M|<= (||u_N||+||u_M||)||delta||, so the base-energy bound makes the forcing locally Lipschitz uniformly on every finite interval.",
+    "cauchy_estimate": "A graph-energy estimate and Gronwall bound the finite-time G_n difference by the initial G_n spectral tails; strong P_N convergence makes those tails vanish.",
+    "global_limit": "The cutoff flows converge on every finite time interval to a unique continuous two-sided global flow S_n(t) on G_n.",
+    "nested_compatibility": "K1403 support invariance and uniqueness make S_(n+1) the restriction of S_n; data in every finite graph tier retain every tier.",
+    "boundary": "This is a completed global unbounded-charge flow only on the homogeneous current-free manifold, not on the spatially dependent Maxwell-matter phase space."
+  },
+  "decision": {
+    "cutoff_uniform_finite_time_bound_proved": true,
+    "spectral_cutoff_cauchy_convergence_proved": true,
+    "global_completed_homogeneous_graph_flow_constructed": true,
+    "all_finite_graph_tiers_compatible": true,
+    "full_completed_pde_flow_constructed": false,
+    "bv_bfv_physical_flow_constructed": false,
+    "protected_status_change": false
+  }
+}

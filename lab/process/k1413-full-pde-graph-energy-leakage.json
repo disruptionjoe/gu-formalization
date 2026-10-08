@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1413",
+  "title": "The full PDE graph energy retains electric-current and pointwise radial-coefficient leakage",
+  "pinned_inputs": {
+    "k1405": {"path": "lab/process/k1405-weighted-lifted-energy-exchange.json", "sha256": "e8b6deac4012aa6ebcf014970025728e9b5d794e6eeabc3ba0f2241d18a22941"},
+    "k1411": {"path": "lab/process/k1411-time-dependent-graph-energy.json", "sha256": "b09d1652aa0f045f21279378de8531e3afc451b461e15ef74f239ef70e3366c2"}
+  },
+  "leakage": {
+    "lifted_field": "For a smooth full solution psi_n=Q^n phi obeys the covariant matter equation with potential lambda||phi||^2 because Q commutes with D_mu and the radial scalar.",
+    "functional": "F_n^PDE is the covariant quadratic energy of psi_n plus (lambda/2) integral ||phi||^2||psi_n||^2.",
+    "exact_identity": "dF_n^PDE/dt=integral E dot j_n dx +(lambda/2)integral partial_t||phi||^2 ||Q^n phi||^2 dx.",
+    "lifted_current": "j_n^a=e Im<Q^(n+1)phi,D^a Q^n phi>.",
+    "homogeneous_restriction": "On K1409's slice E=j_n=0 and ||phi||^2 is spatially constant, so the identity reduces exactly to K1411.",
+    "first_full_pde_defect": "The single Maxwell equation cancels only the n=0 physical current; for n>0 the lifted electric-current work remains.",
+    "second_full_pde_defect": "Base energy does not bound partial_t||phi||^2 in L-infinity_x, so the pointwise radial coefficient cannot be inserted into K1411's scalar Gronwall unchanged.",
+    "boundary": "Direct promotion of K1411 is excluded, but gauge-covariant null forms, spacetime estimates, nonlinear normal-form corrections and summable infinite hierarchies remain open."
+  },
+  "decision": {
+    "full_pde_identity_derived": true,
+    "electric_current_leakage_present": true,
+    "pointwise_radial_coefficient_leakage_present": true,
+    "homogeneous_identity_recovered": true,
+    "direct_homogeneous_energy_promotion_valid": false,
+    "all_full_pde_mechanisms_excluded": false,
+    "completed_full_pde_flow_constructed": false,
+    "protected_status_change": false
+  }
+}
