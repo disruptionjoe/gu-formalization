@@ -7,6 +7,22 @@ updated_at: "2026-10-08"
 
 # Next Steps For Contributors
 
+> **2026-10-08 K1453--K1460 ANALYTIC-WEIGHT AND FOURTH-CHAOS BOUNDARY.**
+> K1450's additive radius law necessarily reaches zero in finite time, and no
+> fixed positive no-loss weight can both absorb the one-charge shift and stay
+> finite on an unbounded charge spectrum. Entire factorial-Gevrey weights
+> close under one radius only for `0<p<=1`, where the same collapse remains.
+> Independently, counterterms below fourth chaos cannot change the divergent
+> beta=1 vacuum column; a scalar quartic subtraction drives the net coupling
+> to zero as `O(N^-2)`, while a general repair must cancel the exact divergent
+> negative-form direction and bound its orthogonal remainder. Vacuum control
+> is not all-sector control: a single-mode Wick quartic grows quadratically in
+> particle number against linear free energy. Next seek a sign-sensitive
+> null-form/dispersive or modified-energy PDE mechanism, and a singular or
+> momentum-dependent beta=1 fourth-chaos cancellation with a semibounded
+> nonlinear form domain and closed interacting BRST operator. Do not promote
+> these diagonal-weight or free-form boundaries to universal no-goes.
+
 > **2026-10-08 K1445--K1452 DRESSING, HIERARCHY AND CHARGE-NORMALIZATION
 > BOUNDARY.** Regular graph-equivalent unitary dressings and every resolvent
 > vacuum column with `r<=5/2` fail for the original Wick vector. A coherent

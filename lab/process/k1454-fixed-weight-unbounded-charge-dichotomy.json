@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1454",
+  "title": "A fixed weight closes the one-charge shift exactly when it loses the unbounded charge carrier",
+  "pinned_inputs": {"k1450": {"path": "lab/process/k1450-charge-analytic-full-pde-hierarchy.json", "sha256": "1712cd639dcc5289a1212de673f836d2fd375efa923dc99d45867b1dd89d7a26"}},
+  "weight_dichotomy": {
+    "definitions": "For positive a_n set G_a=sum a_n F_n and S_a=sum a_n sqrt(F_n F_(n+1)) on finitely supported nonnegative sequences",
+    "sharp_condition": "S_a<=K G_a for some finite K and every F iff M=sup_n a_n/a_(n+1) is finite",
+    "sufficiency": "Weighted AM-GM gives K<=(1+M)/2",
+    "necessity": "On one adjacent pair the optimal quotient is (1/2)sqrt(a_n/a_(n+1)), so finite K forces the ratios uniformly bounded",
+    "spectral_cost": "If a_n/a_(n+1)<=M then a_n>=a_0 M^(-n), hence W_a(q)=sum a_n q^(2n) diverges whenever q^2>=M",
+    "conclusion": "No fixed positive no-loss weight both absorbs the one-step shift and is finite on every charge of an unbounded spectrum",
+    "ceiling": "Time-dependent weights, cancellations, coupled spacetime norms and non-diagonal energies remain outside the theorem"
+  },
+  "decision": {"sharp_ratio_criterion_proved": true, "fixed_weight_shift_closure_possible": true, "fixed_weight_finite_on_all_unbounded_charges": false, "joint_fixed_weight_solution_exists": false, "all_time_dependent_or_nondiagonal_weights_excluded": false, "protected_status_change": false}
+}

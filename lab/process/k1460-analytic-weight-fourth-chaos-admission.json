@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1460",
+  "title": "Analytic-weight and fourth-chaos admission boundary",
+  "pinned_inputs": {
+    "k1453": {"path": "lab/process/k1453-additive-analytic-radius-collapse.json", "sha256": "49f99a590ab0e7f9687a5814dfaee1a5db61523d1adcf0c6fcc6384afd48334b"},
+    "k1454": {"path": "lab/process/k1454-fixed-weight-unbounded-charge-dichotomy.json", "sha256": "82d7f931bd3f7570ece4be2b45103d244cc44c9432a72674439c546d621e2b1e"},
+    "k1455": {"path": "lab/process/k1455-factorial-gevrey-hierarchy-phase-boundary.json", "sha256": "e65c6a5cd3122e3fa8b8c07bc0d7086b86077b219a2533f5b643129fef32d884"},
+    "k1456": {"path": "lab/process/k1456-low-chaos-counterterm-orthogonality.json", "sha256": "83699c52d1d25dd15d8dbbd12d2ef90e29a5f7e49ddf2603ad72491085eceeee"},
+    "k1457": {"path": "lab/process/k1457-scalar-fourth-chaos-cancellation-threshold.json", "sha256": "5c653ebf262002b021f4b165f290d5d46548f8860690f7ec5e18d8a1fc0c08f9"},
+    "k1458": {"path": "lab/process/k1458-general-fourth-chaos-projection-criterion.json", "sha256": "1481e20dcfd05952ce70b688a748c8a18b0aa8171a304d5c003eae0ef4f366e4"},
+    "k1459": {"path": "lab/process/k1459-particle-sector-quartic-form-boundary.json", "sha256": "9c9ce195ef4658a5072e47742587ad0a0e805f7ab489957bfc78fb5c575dc8ec"}
+  },
+  "bridge_census": {
+    "row_count": 130,
+    "satisfied_count": 81,
+    "conditional_count": 10,
+    "excluded_count": 35,
+    "missing_count": 4,
+    "new_satisfied_rows": ["sharp fixed-weight shift criterion and factorial-Gevrey p=1 phase boundary", "general negative-form fourth-chaos projection criterion"],
+    "new_excluded_rows": ["global positivity of K1450's additive finite radius", "fixed no-loss weights on an unbounded charge carrier", "p>1 absorption by one scalar radius derivative", "low-chaos cancellation of the vacuum fourth-chaos column", "nonzero scalar local quartic coupling after unchanged-domain cancellation", "vacuum-column control as a substitute for all-particle-sector control", "uniform free-Hamiltonian form boundedness of the Wick quartic across particle number"],
+    "missing_rows": ["source-owned compact-generator selection and normalization on the observed carrier", "identification with one source action", "cutoff-uniform completed global PDE evolution and interacting continuum positive physical Hilbert cohomology", "source-owned observed-state/export map"]
+  },
+  "decision": {"k1450_prescription_globalized": false, "fixed_entire_no_loss_weight_constructed": false, "original_beta_one_hamiltonian_constructed": false, "fourth_chaos_necessary_conditions_sharpened": true, "all_particle_sector_domain_debt_exposed": true, "source_selected_reduction_constructed": false, "k1145_k1150_candidate_counts_move": false, "protected_status_change": false},
+  "source_and_ledger_effect": "SOURCE_REGISTER_UNCHANGED; LEDGER_UNCHANGED at 33 SAME / 22 DIFFERS / 31 NEEDS / 2 OVER-DETERMINED; SC-ACT-01/02/06 ASSERTS; SC-META-53 UNCERTAIN; LT-SM8/LT-GR6b/RA-F1/AC-F1 NEEDS; K1145/K1150 0/7"
+}

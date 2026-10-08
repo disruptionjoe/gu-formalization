@@ -7,6 +7,25 @@ updated_at: "2026-10-08"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1453--K1460 analytic-weight and fourth-chaos boundary (2026-10-08)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K1450's finite analytic radius can remain positive globally under its declared law | K1453 exact radius comparison | false: `R(t)<=R(0)-Ct`; this is a method obstruction, not PDE blow-up |
+| A fixed positive weight can absorb the one-charge shift on the full unbounded carrier | K1454 sharp adjacent-ratio criterion and spectral series comparison | false: no-loss shift closure forces a finite charge threshold |
+| Changing the factorial-Gevrey exponent repairs globalization | K1455 exact `n^p` shift moment | false within the family: `0<p<=1` is absorbable but collapses; `p>1` is not absorbed by one radius |
+| Vacuum, mass or other lower-chaos counterterms can cancel the beta=1 fourth-chaos column | K1456 orthogonal Wiener-chaos projection | false; fourth-chaos or genuinely changed constructions remain open |
+| A scalar local quartic counterterm retains nonzero coupling on the unchanged free domain | K1457 K1439 growth composition | false: the net coefficient must be `O(N^-2)` |
+| A general fourth-chaos repair has an exact necessary projection condition | K1458 negative-form orthogonal decomposition | true: cancel the divergent direction and bound the orthogonal remainder; not sufficient for a Hamiltonian |
+| Vacuum-column control supplies all-particle-sector free-form control | K1459 one-mode number-state expectation | false: quartic expectation is quadratic while free energy is linear; nonlinear form domains remain open |
+| The advance closes GU physical admission | K1460 130-row bridge census | eighty-one satisfied, ten conditional, thirty-five excluded and four missing |
+
+The eight producers pass `132/132` controls and eight probes reject `51/51`
+ceiling and status mutations. SC-ACT-01/02/06
+remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1
+remain `NEEDS`, and K1145/K1150 stay `0/7`. No source, ledger, canon, paper,
+prediction, confirmation or public status moves.
+
 ## K1445--K1452 dressing, hierarchy and charge-normalization boundary (2026-10-08)
 
 | Claim | Evidence | Honest grade |

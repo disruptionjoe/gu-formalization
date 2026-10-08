@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1455",
+  "title": "Factorial-Gevrey weights have a sharp one-radius absorption boundary at p equals one",
+  "pinned_inputs": {"k1450": {"path": "lab/process/k1450-charge-analytic-full-pde-hierarchy.json", "sha256": "1712cd639dcc5289a1212de673f836d2fd375efa923dc99d45867b1dd89d7a26"}, "k1453": {"path": "lab/process/k1453-additive-analytic-radius-collapse.json", "sha256": "49f99a590ab0e7f9687a5814dfaee1a5db61523d1adcf0c6fcc6384afd48334b"}},
+  "gevrey_boundary": {
+    "weights": "a_n(R,p)=R^n/(n!)^p for R>0 and p>0; the spectral multiplier is entire in q for every p>0",
+    "shift_moment": "a_(n-1)/a_n=n^p/R, so AM-GM bounds the shifted hierarchy by G/2+D_p/(2R), D_p=sum n^p a_n F_n",
+    "radius_derivative": "Differentiating R-dependent weights supplies (R'/R)D_1 and no higher moment",
+    "absorbable_range": "For 0<p<=1, n^p<=n permits absorption by one decreasing radius; for p>1, D_p/D_1 is unbounded on a single high tier",
+    "global_boundary": "Every absorbable p still needs an additive negative radius speed proportional to B, so B>=1 forces finite-time radius loss by K1453",
+    "ceiling": "The result classifies this diagonal entire one-parameter family only; it does not exclude sign-sensitive spacetime estimates, multiple radii or nonlinear modified energies"
+  },
+  "decision": {"entire_weight_for_every_positive_p": true, "one_radius_absorbs_for_p_at_most_one": true, "one_radius_absorbs_for_p_greater_than_one": false, "global_positive_radius_from_this_family": false, "all_hierarchy_methods_excluded": false, "protected_status_change": false}
+}

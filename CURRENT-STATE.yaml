@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: a9c40aa1062bd737b39bfe86344b1e677370c212
+revision_basis: 4f7d6b7da387e318b02fb339f932d25051164217
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,26 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1453--K1460 prove that K1450's absolute factorial hierarchy cannot
+    globalize by weight choice alone. Its additive radius law collapses every
+    finite radius in finite time because the coefficient contains a unit
+    floor. A fixed positive weight absorbs the one-charge shift exactly when
+    its adjacent ratios are bounded, but then its spectral multiplier diverges
+    above a finite charge threshold. Entire factorial-Gevrey weights
+    `R^n/(n!)^p` are absorbable by one radius only for `0<p<=1`, where the
+    same additive collapse remains; `p>1` demands a higher moment than one
+    radius derivative supplies. Independently, lower-chaos counterterms cannot
+    touch the beta=1 vacuum fourth-chaos column. A scalar quartic subtraction
+    must cancel the bare coupling to order `N^-2`, while a general quartic
+    counterterm must cancel the exact divergent negative-form direction and
+    keep its orthogonal remainder bounded. Even that is insufficient for the
+    full theory: on one fixed mode the Wick-quartic diagonal grows like
+    `n^2` while free energy grows like `n`, excluding uniform free-form control
+    across particle number and requiring a nonlinear form domain or genuinely
+    changed representation. The 130-row census is eighty-one satisfied, ten
+    conditional, thirty-five excluded and four missing; K1145/K1150 remain
+    0/7 and protected statuses do not move.
+
     K1445--K1452 sharpen three independent physical-admission boundaries.
     Uniformly graph-equivalent unitary dressings cannot repair K1439's fixed
     free-form obstruction, and a resolvent-dressed vacuum column converges

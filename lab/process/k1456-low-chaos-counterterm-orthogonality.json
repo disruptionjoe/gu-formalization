@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1456",
+  "title": "Counterterms below fourth Wiener chaos cannot change the divergent vacuum column",
+  "pinned_inputs": {"k1439": {"path": "lab/process/k1439-free-hamiltonian-form-domain-obstruction.json", "sha256": "abba12be4ee011fcd1f3a7655374b8165064722ff226f13fb58d2cf86fc677fb"}},
+  "chaos_boundary": {
+    "projection": "Let P_j be orthogonal Wiener-chaos projection and W_N=P_4 V_N Omega",
+    "low_counterterm": "Every deterministic vacuum, linear, quadratic or cubic counterterm C_N has P_4 C_N Omega=0",
+    "invariance": "P_4(gV_N+C_N)Omega=gW_N for fixed g",
+    "consequence": "The K1439 divergent fourth-chaos negative-form column is unchanged by every counterterm of chaos degree at most three",
+    "ceiling": "Fourth-chaos, field-strength, momentum-dependent, singular-domain and non-Gaussian repairs remain open"
+  },
+  "decision": {"low_chaos_changes_fourth_projection": false, "fourth_projection_invariant_under_low_chaos": true, "low_chaos_repairs_k1439": false, "fourth_chaos_repairs_excluded": false, "protected_status_change": false}
+}

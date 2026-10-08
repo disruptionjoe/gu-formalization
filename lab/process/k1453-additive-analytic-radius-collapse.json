@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1453",
+  "title": "K1450's additive analytic-radius law necessarily collapses in finite time",
+  "pinned_inputs": {"k1450": {"path": "lab/process/k1450-charge-analytic-full-pde-hierarchy.json", "sha256": "1712cd639dcc5289a1212de673f836d2fd375efa923dc99d45867b1dd89d7a26"}},
+  "radius_boundary": {
+    "law": "K1450 chooses R=rho^2 with R'(t)=-C B(t)",
+    "coefficient_floor": "B(t)=1+||E||_(H2)+||phi||_(H2)||D_t phi||_(H2) is at least one",
+    "comparison": "R(t)=R(0)-C integral_0^t B(s)ds <= R(0)-Ct",
+    "collapse_time": "Every finite positive initial R reaches zero no later than R(0)/C, including the zero-field control",
+    "conclusion": "The specific K1450 absolute-value shrinking-radius estimate cannot by itself give a global positive analytic radius",
+    "ceiling": "This is a proof-method obstruction, not PDE blow-up. Sign cancellation, null forms, dispersive decay, modified energies and other topologies remain open"
+  },
+  "decision": {"finite_radius_global_under_k1450_law": false, "finite_time_radius_collapse_proved": true, "pde_blowup_proved": false, "all_global_hierarchy_routes_excluded": false, "protected_status_change": false}
+}
