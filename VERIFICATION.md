@@ -7,6 +7,25 @@ updated_at: "2026-10-08"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1445--K1452 dressing, hierarchy and charge-normalization boundary (2026-10-08)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A regular cutoff-dependent unitary dressing repairs K1439 | K1445 graph-norm pullback; `12/12`; `9/9` | false for uniformly graph-equivalent dressings; singular and genuinely changed-domain routes remain open |
+| One free resolvent makes the Wick vacuum column converge | K1446 exact `S_(2r)` reduction; `15/15`; `10/10` | false: convergence holds exactly for `r>5/2` |
+| Coherent UV softening has no sharp threshold | K1447 cone/shell phase diagram; `19/19`; `9/9` | false: convergence is exactly `beta(s+4)>9` |
+| An interacting positive control exists beyond the obstruction | K1448 Wick lower bound and Gaussian Feynman--Kac limit; `18/18`; `12/12` | true for the changed `beta>3` representation with stated counterterms; no transfer to original `beta=1` |
+| The strict zero-harmonic sector is a generic nonlinear reduction | K1449 averaged Maxwell equation and plane-wave witness; `15/15`; `11/11` | false; special symmetry-restricted sectors remain open |
+| A summed hierarchy controls both K1413 defects | K1450 factorial shift and shrinking-radius estimate; `22/22`; `12/12` | conditionally true while the common `H2` coefficient is integrable and the analytic radius remains positive |
+| Local stationary data normalize `Q`, and K1357 supplies the observed carrier | K1451 action rescaling, circle-degree rigidity and lattice gcd test; `26/26`; `13/13` | false: a primitive global circle, kinetic coefficient and faithful physical intertwiner are required; only the fixed even-charge K-type is excluded |
+| The advance closes GU physical admission | K1452 121-row bridge census; `24/24`; `14/14` | seventy-nine satisfied, ten conditional, twenty-eight excluded and four missing |
+
+The eight producers pass `151/151` controls and eight probes reject `90/90`
+hostile mutations. SC-GRP-03/50 and SC-ACT-01/02/06 remain `ASSERTS`,
+SC-META-53 remains `UNCERTAIN`, LT-SM1b/LT-SM2/LT-SM8/LT-GR6b/RA-F1/AC-F1
+remain `NEEDS`, and K1145/K1150 stay `0/7`. No source, ledger, canon, paper,
+prediction, confirmation or public status moves.
+
 ## K1439--K1444 free-form and zero-mode phase boundary (2026-10-08)
 
 | Claim | Evidence | Honest grade |

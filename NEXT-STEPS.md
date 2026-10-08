@@ -7,6 +7,22 @@ updated_at: "2026-10-08"
 
 # Next Steps For Contributors
 
+> **2026-10-08 K1445--K1452 DRESSING, HIERARCHY AND CHARGE-NORMALIZATION
+> BOUNDARY.** Regular graph-equivalent unitary dressings and every resolvent
+> vacuum column with `r<=5/2` fail for the original Wick vector. A coherent
+> changed representation has threshold `beta(s+4)>9`; for `beta>3` its full
+> Wick potential, with explicit quadratic and vacuum counterterms, gives a
+> closed semibounded strong-resolvent interacting Hamiltonian. This does not
+> construct the original `beta=1` theory. Generic Gauss-compatible data
+> regenerate the harmonic electric mode. A shrinking factorial charge-analytic
+> hierarchy controls both K1413 leakages and makes fixed tiers cutoff Cauchy
+> while the common `H2` coefficient is integrable and the radius stays positive.
+> Next construct a singular/non-Gaussian original-theory renormalization or a
+> global spacetime estimate preserving the analytic radius. Source normalization
+> requires a primitive stationary circle, its kinetic coefficient, a physical
+> carrier and a faithful observed intertwiner; the even-charge K1357 K-type is
+> not the complete primitive observed carrier.
+
 > **2026-10-08 K1439--K1444 FREE-FORM AND ZERO-MODE PHASE BOUNDARY.** The
 > three-dimensional Wick fourth-particle vector has squared dual free-form
 > norm at least order `N^4`, excluding fixed nonzero-coupling KLMN convergence

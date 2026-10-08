@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1447",
+  "title": "Coherent ultraviolet dispersion has the sharp negative-scale phase boundary beta times s plus four equals nine",
+  "pinned_inputs": {
+    "k1440": {"path": "lab/process/k1440-wick-negative-hamiltonian-scale-threshold.json", "sha256": "78a2d16532c952c211352f72a92a402b8be33340fe29b72283a64b5fa743e597"},
+    "k1434": {"path": "lab/process/k1434-wick-dimensional-threshold-control.json", "sha256": "27d8b2ba82d759e89cfaae2ce66f88ffa47c09665def3f4edc18ee8ddac0ca9a"}
+  },
+  "coherent_model": {
+    "dispersion_and_covariance": "For beta>0 and smoothing exponent s>=0 use epsilon_beta(k)=omega_k^beta, q_beta(k)=(2 epsilon_beta(k))^(-1), H_beta=dGamma(epsilon_beta), and construct W_(beta,N) from that same Gaussian covariance",
+    "quantity": "S_(beta,s)(N)=||(H_beta+1)^(-s/2)W_(beta,N)||^2",
+    "lower_blocks": "Comparable three-free-momentum cone blocks of radius R contribute at least c R^(9-beta(s+4))",
+    "upper_shells": "Ordered dyadic shells L~N1~N2>=N3>=N4 contribute at most C L^(9-beta(s+4)) after summing the two smaller radii; equality produces a non-summable constant dyadic contribution",
+    "phase_boundary": "S_(beta,s)(N) converges exactly when beta(s+4)>9 and is unbounded when beta(s+4)<=9",
+    "checks": "beta=1 recovers K1440's s>5 threshold; s=0 requires beta>9/4; the form-dual exponent s=1 requires beta>9/5",
+    "ceiling": "Changing beta changes both the free dispersion and Gaussian representation. The phase diagram does not repair or describe the original beta=1 interaction"
+  },
+  "decision": {
+    "sharp_beta_s_phase_boundary_proved": true,
+    "beta_one_recovers_s_greater_than_five": true,
+    "l2_threshold_beta_greater_than_nine_fourths": true,
+    "form_dual_threshold_beta_greater_than_nine_fifths": true,
+    "original_beta_one_interaction_constructed": false,
+    "representations_silently_mixed": false,
+    "protected_status_change": false
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1445",
+  "title": "Uniformly graph-equivalent unitary dressing cannot repair the fixed-free-form obstruction",
+  "pinned_inputs": {
+    "k1439": {"path": "lab/process/k1439-free-hamiltonian-form-domain-obstruction.json", "sha256": "abba12be4ee011fcd1f3a7655374b8165064722ff226f13fb58d2cf86fc677fb"}
+  },
+  "dressing_boundary": {
+    "reference": "A=H_0+1 on K1430's Gaussian/Fock Hilbert space and B_N=g V_N+C_N with fixed g nonzero and C_N restricted to deterministic vacuum and quadratic counterterms",
+    "admitted_dressing": "U_N is unitary, preserves D(A^(1/2)), and both A^(1/2)U_NA^(-1/2) and A^(1/2)U_N^(-1)A^(-1/2) are bounded uniformly in N",
+    "pullback_argument": "A uniform A-form bound for b_N^U(psi,chi)=<U_N psi,B_N U_N chi> pulls back through U_N^(-1) to a uniform A-form bound for b_N, with only the two graph-equivalence constants changed",
+    "contradiction": "K1439's vacuum-to-four-particle dual norm grows at least as N^2 in norm, so the pulled-back uniform form bound is impossible",
+    "conclusion": "No cutoff-dependent unitary dressing uniformly equivalent to the free form graph repairs the fixed-domain obstruction",
+    "ceiling": "Singular dressings whose graph constants diverge, genuinely changed domains or representations, fourth-chaos or field-strength counterterms, and non-form strong-resolvent constructions remain outside the theorem"
+  },
+  "decision": {
+    "graph_equivalent_unitary_dressing_excluded": true,
+    "inverse_graph_bound_required": true,
+    "singular_dressing_excluded": false,
+    "all_changed_domain_routes_excluded": false,
+    "source_hamiltonian_identified": false,
+    "protected_status_change": false
+  }
+}

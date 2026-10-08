@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1452",
+  "title": "Dressing, hierarchy and charge-normalization admission boundary",
+  "pinned_inputs": {
+    "k1445": {"path": "lab/process/k1445-unitary-dressing-form-obstruction.json", "sha256": "c0f3515819396b356e5f9b6c9f88801ba83ec8defaf4b96d1961cd7c07344de5"},
+    "k1446": {"path": "lab/process/k1446-resolvent-dressed-vacuum-column-threshold.json", "sha256": "3f11f7fbe85e8f411d24fb2e0b443d1ab3f1bb41cae071afe65511c74b96a08f"},
+    "k1447": {"path": "lab/process/k1447-uv-dispersion-negative-scale-phase-diagram.json", "sha256": "45c8bcbbcbea8f6aeefe3a82df6b5f58652a10f3908b41e2a9b12fb2738193a2"},
+    "k1448": {"path": "lab/process/k1448-uv-softened-interacting-hamiltonian.json", "sha256": "3c8aba30b239a86bcfccbf02648dbf169ecaab311a66d8f490dc4745449b54c1"},
+    "k1449": {"path": "lab/process/k1449-zero-harmonic-regeneration-obstruction.json", "sha256": "6383680ef162ca3ebc16fae338c1a2bace0612819a26ba279df7588471fca1e6"},
+    "k1450": {"path": "lab/process/k1450-charge-analytic-full-pde-hierarchy.json", "sha256": "1712cd639dcc5289a1212de673f836d2fd375efa923dc99d45867b1dd89d7a26"},
+    "k1451": {"path": "lab/process/k1451-observed-charge-normalization-boundary.json", "sha256": "b3398420f1b1ada68fc30125c3fc06059ec80da542c629ecde4fef597de7d9a0"}
+  },
+  "bridge_census": {
+    "row_count": 121,
+    "satisfied_count": 79,
+    "conditional_count": 10,
+    "excluded_count": 28,
+    "missing_count": 4,
+    "new_satisfied_rows": [
+      "coherent beta(s+4)>9 negative-scale phase diagram",
+      "semibounded strong-resolvent Wick Hamiltonian in the beta>3 UV-softened representation",
+      "local action-rescaling and global primitive-circle charge-normalization boundary"
+    ],
+    "new_conditional_rows": [
+      "shrinking charge-analytic full-PDE hierarchy and fixed-tier cutoff Cauchy control while the H2 coefficient is integrable and the radius remains positive"
+    ],
+    "new_excluded_rows": [
+      "uniformly graph-equivalent unitary dressing as a repair of the original fixed-form obstruction",
+      "one-resolvent and every r<=5/2 vacuum-column dressing for the original Wick vector",
+      "generic nonlinear invariance of the strict zero-harmonic Maxwell sector",
+      "K1357's even-charge 27-dimensional K-type as the complete primitive observed charge carrier through a circle automorphism"
+    ],
+    "missing_rows": [
+      "source-owned compact-generator selection and normalization on the observed carrier",
+      "identification with one source action",
+      "cutoff-uniform completed global PDE evolution and interacting continuum positive physical Hilbert cohomology",
+      "source-owned observed-state/export map"
+    ]
+  },
+  "decision": {
+    "original_beta_one_interacting_hamiltonian_constructed": false,
+    "uv_softened_interacting_control_constructed": true,
+    "generic_zero_harmonic_sector_invariant": false,
+    "conditional_full_pde_hierarchy_constructed": true,
+    "completed_global_full_pde_flow_constructed": false,
+    "source_selected_reduction_constructed": false,
+    "source_normalization_dependency_sharpened": true,
+    "k1145_k1150_candidate_counts_move": false,
+    "protected_status_change": false
+  },
+  "source_and_ledger_effect": "SOURCE_REGISTER_UNCHANGED; LEDGER_UNCHANGED; SC-GRP-03/50 ASSERTS; SC-ACT-01/02/06 ASSERTS; SC-META-53 UNCERTAIN; LT-SM1b/LT-SM2/LT-SM8/LT-GR6b/RA-F1/AC-F1 NEEDS; K1145/K1150 0/7"
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1449",
+  "title": "The strict zero-harmonic Maxwell sector is not invariant for generic Gauss-compatible data",
+  "pinned_inputs": {
+    "k1413": {"path": "lab/process/k1413-full-pde-graph-energy-leakage.json", "sha256": "3d553dba3c237d737cfa8982ace7c2bba0239ab8b064ce78956334aef28dcc27"}
+  },
+  "regeneration": {
+    "averaged_maxwell_equation": "On normalized T3, spatially averaging Maxwell gives partial_t E_h=-bar(j), up to the fixed sign convention; Gauss constrains div E and total charge but not E_h",
+    "explicit_data": "Choose A=0, E=0, phi=a exp(i k dot x)v_q, pi=0 with q nonzero and k nonzero. The charge density is zero, so Gauss holds, while bar(j)=e q |a|^2 k is nonzero",
+    "consequence": "Although E_h(0)=0, partial_t E_h(0) is nonzero. The strict zero-harmonic sector therefore leaves itself immediately for this smooth finite-mode datum",
+    "relation_to_k1442": "K1442 remains correct for an externally restricted p!=0 phase. The new result says that restriction is not a generic invariant reduction of the nonlinear PDE",
+    "surviving_scope": "Special symmetry sectors forcing bar(j)=0 may be invariant and remain open, but they are nongeneric additional hypotheses"
+  },
+  "decision": {
+    "gauss_constrains_harmonic_electric_mode": false,
+    "gauss_compatible_regeneration_witness_constructed": true,
+    "generic_strict_zero_harmonic_sector_invariant": false,
+    "k1442_fixed_nonzero_mode_result_invalidated": false,
+    "all_symmetry_restricted_zero_mode_sectors_excluded": false,
+    "global_full_pde_flow_constructed": false,
+    "protected_status_change": false
+  }
+}

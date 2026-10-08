@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1451",
+  "title": "Local action data cannot normalize charge without a primitive global circle and faithful observed carrier",
+  "pinned_inputs": {
+    "k1357": {"path": "lab/process/k1357-spherical-ktype-nonuniform-charge-decomposition.json", "sha256": "771b3bbc2357ff7c63282628d401938b4cf790cd319f67e353a8a1e715adb740"},
+    "k1368": {"path": "lab/process/k1368-regularizer-symmetry-normalization-boundary.json", "sha256": "2a22fdaf08540f1378dc358fdcce95cf40c67568b283da75dfc53326bca888fc"},
+    "w222": {"path": "explorations/W222-falsify-sm-emergence-anomaly-hypercharge-2026-07-14.md", "sha256": "da757c2801fa4cd536e7f278eb6aa7f3afacd4ac3bb15a90e8955978ef896f8a"}
+  },
+  "normalization_boundary": {
+    "local_rescaling": "For c>0, Q maps to cQ, A maps to A/c, kappa maps to c^2 kappa, and mu maps to mu/c^2; the covariant derivative, kappa-weighted gauge kinetic term and mu||Qphi||^2 are unchanged after field and gauge-parameter/ghost redefinition",
+    "local_invariants": "Local Euler, Gauss, BRST and BFV data can depend on Q/sqrt(kappa), mu kappa, charge ratios and spectral subspaces, but cannot separately normalize Q",
+    "global_circle": "Every continuous U(1)-to-U(1) homomorphism has integer degree d and is an automorphism exactly for d=plus_or_minus 1. A primitive global circle fixes topological normalization only up to sign; the same-sector kinetic coefficient is still required for physical coupling normalization",
+    "required_selector_tuple": "An action-stationary primitive circle, its action-derived physical quotient or BRST carrier, a domain-preserving faithful observed intertwiner J satisfying QJ=plus_or_minus J Y_prim, and the same action's kinetic coefficient kappa",
+    "fixed_ktype_exclusion": "K1357's 27-dimensional K-type has charge set {-4,-2,0,2,4} with gcd 2 and exp(i pi Q)=1. W222's comparator-only primitive lattice 6Y={1,-4,2,-3,6,0} has gcd 1. The fixed K-type cannot be the complete primitive observed carrier through a circle automorphism",
+    "ceiling": "Only that fixed K-type is excluded. Other K-types in H_ps, another compact circle, nonlinear or nonlocal observation, and a future source-derived reduction remain open; W222 supplies relative comparator arithmetic, not source ownership"
+  },
+  "decision": {
+    "local_action_rescaling_equivalence_proved": true,
+    "local_stationarity_separately_normalizes_Q": false,
+    "circle_automorphism_degree_absolute_value_one": true,
+    "primitive_observed_intertwiner_required": true,
+    "k1357_fixed_ktype_complete_observed_carrier": false,
+    "all_H_ps_observed_carriers_excluded": false,
+    "source_selected_normalization_constructed": false,
+    "protected_status_change": false
+  },
+  "source_and_ledger_effect": "SOURCE_REGISTER_UNCHANGED; LEDGER_UNCHANGED; SC-GRP-03/50 ASSERTS; SC-ACT-01/02/06 ASSERTS; SC-META-53 UNCERTAIN; LT-SM1b/LT-SM2 NEEDS"
+}

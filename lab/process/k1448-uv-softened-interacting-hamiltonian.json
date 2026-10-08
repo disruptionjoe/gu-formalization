@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1448",
+  "title": "For beta greater than three the coherent Wick quartic gives a semibounded strong-resolvent interacting Hamiltonian",
+  "pinned_inputs": {
+    "k1431": {"path": "lab/process/k1431-quartic-wick-renormalization-boundary.json", "sha256": "2ba744136802675d4a480d25642532542595c782abfb94fda8642b9cff165f3f"},
+    "k1447": {"path": "lab/process/k1447-uv-dispersion-negative-scale-phase-diagram.json", "sha256": "45c8bcbbcbea8f6aeefe3a82df6b5f58652a10f3908b41e2a9b12fb2738193a2"}
+  },
+  "interacting_control": {
+    "regime": "beta>3, g>=0, normalized T3, with covariance q_beta and H_beta=dGamma(omega^beta) from K1447",
+    "finite_variance": "C_beta=sum_k (2 omega_k^beta)^(-1) is finite, and C_(beta,N) increases to C_beta",
+    "counterterms": "V_(beta,N)=integral(phi_N^4-6 C_(beta,N) phi_N^2+3 C_(beta,N)^2) dx; these are exactly the Wick quadratic and vacuum counterterms",
+    "uniform_lower_bound": "For every real x, x^4-6Cx^2+3C^2>=-6C^2, so V_(beta,N)>=-6 C_beta^2",
+    "limit": "K1447 at s=0 gives V_(beta,N) convergence in L2(mu_beta), hence in L1, to V_beta",
+    "closed_forms": "h_(beta,N)+g V_(beta,N) and h_beta+g V_beta on D(h_beta) intersect D((V_beta+6C_beta^2)^(1/2)) are densely defined, closed and bounded below by -6g C_beta^2",
+    "strong_resolvent": "In Gaussian Q-space the H_beta Ornstein--Uhlenbeck Feynman--Kac formula applies. Stationarity gives E integral_0^t |V_N-V|(X_tau)d tau=t||V_N-V||_1; the common lower bound dominates the exponentials, so semigroups and therefore resolvents converge strongly",
+    "ceiling": "This is a genuine full Wick-potential construction only in the explicitly UV-softened beta>3 representation. It is not the beta=1 theory, a GU-source Hamiltonian, an interacting BRST theorem, or physical-cohomology admission"
+  },
+  "decision": {
+    "all_counterterms_stated": true,
+    "uniform_semiboundedness_proved": true,
+    "closed_interacting_limit_form_constructed": true,
+    "strong_resolvent_convergence_constructed": true,
+    "original_beta_one_hamiltonian_constructed": false,
+    "interacting_brst_constructed": false,
+    "source_hamiltonian_identified": false,
+    "protected_status_change": false
+  }
+}

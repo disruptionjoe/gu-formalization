@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: dfb6a7a8a86a831e37214ab73de2bf03cd9aa0c8
+revision_basis: a9c40aa1062bd737b39bfe86344b1e677370c212
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,27 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1445--K1452 sharpen three independent physical-admission boundaries.
+    Uniformly graph-equivalent unitary dressings cannot repair K1439's fixed
+    free-form obstruction, and a resolvent-dressed vacuum column converges
+    exactly for exponent r>5/2, excluding the ordinary one-resolvent route.
+    In a coherently changed Gaussian representation the exact threshold is
+    beta(s+4)>9; for beta>3 the full Wick potential, with its stated quadratic
+    and vacuum counterterms, defines a closed semibounded interacting form and
+    a strong-resolvent limit. This is not the original beta=1 theory.
+    Independently, generic Gauss-compatible data regenerate the harmonic
+    electric mode, so strict zero-harmonic analysis is not a generic invariant
+    reduction. A factorially weighted charge hierarchy with shrinking analytic
+    radius controls both K1413 leakages and yields fixed-tier cutoff Cauchy
+    control while a common H2 coefficient is integrable and the radius remains
+    positive. Finally, local operator-charge action data are invariant under a
+    simultaneous Q/A/kappa/mu rescaling; only a primitive global circle,
+    same-sector kinetic coefficient and faithful physical observed intertwiner
+    can fix normalization. K1357's even-charge fixed K-type cannot be the
+    complete primitive observed carrier. The 121-row census is seventy-nine
+    satisfied, ten conditional, twenty-eight excluded and four missing;
+    K1145/K1150 remain 0/7 and protected statuses do not move.
+
     K1439--K1444 sharpen both surviving K1438 routes. In the declared
     Gaussian/Fock control, the Wick fourth-particle vector has squared dual
     free-form norm bounded below by order N^4, so fixed nonzero coupling is
@@ -14489,6 +14510,24 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1445--K1452 prove that the original beta=1 Wick theory cannot be repaired
+  by a uniformly graph-equivalent unitary dressing or an r<=5/2 resolvent
+  vacuum column. A genuine semibounded strong-resolvent Wick Hamiltonian exists
+  after the coherent ultraviolet change beta>3, but that changes the dispersion
+  and Gaussian representation. Which singular dressing, non-Gaussian reference
+  measure, field-strength/fourth-chaos counterterm or genuinely new domain
+  controls every particle-number sector of the original beta=1 interaction?
+  For the PDE, the strict zero-harmonic sector is generically regenerated, while
+  the shrinking charge-analytic hierarchy controls both K1413 leakages only as
+  long as its H2 coefficient is integrable and its radius remains positive.
+  Which conserved, spacetime/null-form or dispersive estimate keeps that radius
+  positive globally and completes the cutoff-uniform full flow? Source admission
+  now requires one action-owned tuple: a primitive stationary circle, its
+  kinetic normalization, an action-derived physical carrier and a faithful
+  domain-preserving observed intertwiner. Do not transfer the beta>3 Hamiltonian
+  to beta=1, call the conditional hierarchy global, or promote the fixed K-type
+  exclusion to all of H_ps.
+
   K1439--K1444 prove that K1433's Wick fourth-particle vector is not uniformly
   controlled on the unchanged free-Hamiltonian form domain at fixed nonzero
   coupling: its squared dual form norm grows at least as N^4, and its sharp

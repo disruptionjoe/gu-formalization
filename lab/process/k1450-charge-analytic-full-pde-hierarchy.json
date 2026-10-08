@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1450",
+  "title": "A shrinking charge-analytic radius controls both full-PDE leakage terms and yields finite-tier cutoff Cauchy control",
+  "pinned_inputs": {
+    "k1413": {"path": "lab/process/k1413-full-pde-graph-energy-leakage.json", "sha256": "3d553dba3c237d737cfa8982ace7c2bba0239ab8b064ce78956334aef28dcc27"},
+    "k1396": {"path": "lab/process/k1396-completed-flow-admission-boundary.json", "sha256": "1364dd80536dccfde0f10c392476c5faf34b737dd6432be4aa007e4121a5c161"}
+  },
+  "hierarchy": {
+    "coefficient": "For smooth cutoff solutions set B(t)=1+||E(t)||_(H2)+||phi(t)||_(H2)||D_t phi(t)||_(H2)",
+    "one_step_inequality": "Sobolev H2 embeds in L-infinity on T3. K1413 therefore gives |dF_n/dt|<=C B(t)(F_n+sqrt(F_n F_(n+1))) with C independent of the charge cutoff: the radial term uses ||partial_t||phi||^2||_infinity and the current uses ||E||_infinity",
+    "analytic_energy": "For rho>0 define G_rho=sum_(n>=0) rho^(2n) F_n/n! and D_rho=sum_(n>=1) n rho^(2n)F_n/n!",
+    "shift_identity": "sum_n a_n sqrt(F_nF_(n+1))<=G_rho/2+D_rho/(2rho^2), because a_(n-1)=n a_n/rho^2",
+    "shrinking_radius": "Choose R(t)=rho(t)^2 with R'(t)=-C B(t). While R(t)>0, the negative weight derivative absorbs D_rho/(rho^2) and G_(rho(t))(t)<=G_(rho(0))(0) exp(C integral_0^t B)",
+    "finite_tier_cauchy": "For every sigma<rho(t) and fixed charge tier n, the exponential spectral tail implied by sum exp(rho(t)^2 q^2) times the mode energy, together with K1396's local Lipschitz difference estimate, makes charge-spectral cutoff solutions Cauchy at tier n on the interval",
+    "ceiling": "This is cutoff-uniform nonlinear control conditional on a common integrable H2 coefficient and positive analytic radius. It neither proves those hypotheses globally nor constructs a global completed flow, null-form decay, source selector, or physical cohomology"
+  },
+  "decision": {
+    "both_k1413_leakages_controlled_in_hierarchy": true,
+    "cutoff_constant_independent_of_charge_cutoff": true,
+    "shrinking_charge_analytic_radius_constructed": true,
+    "fixed_tier_cutoff_cauchy_consequence": true,
+    "unconditional_global_radius_positive": false,
+    "completed_global_full_pde_flow_constructed": false,
+    "protected_status_change": false
+  }
+}
