@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1438",
+  "title": "Wick-chaos and same-tier PDE normal-form admission boundary",
+  "pinned_inputs": {
+    "k1433": {"path": "lab/process/k1433-three-dimensional-wick-chaos-obstruction.json", "sha256": "3c3f76b43e89c7917e9c66f2e74e2703ee36c4ac58f3a4bce41a665390fe1bd9"},
+    "k1434": {"path": "lab/process/k1434-wick-dimensional-threshold-control.json", "sha256": "27d8b2ba82d759e89cfaae2ce66f88ffa47c09665def3f4edc18ee8ddac0ca9a"},
+    "k1435": {"path": "lab/process/k1435-electric-harmonic-normal-form-resonance.json", "sha256": "6dd08aede757b5f117169ab8bd0e637e3418f4f4080df1dcf9ee77168a8a5f6a"},
+    "k1436": {"path": "lab/process/k1436-radial-charge-density-curl-obstruction.json", "sha256": "8c51f122725c00e9248abd3e2dba78848722fb3762a861130faa248fadc89b8b"},
+    "k1437": {"path": "lab/process/k1437-same-tier-normal-form-boundary.json", "sha256": "737e738c482ea5fd6824cd3ceae3e668ce5e0ce4b52913bdd8bbdd094f76a986"}
+  },
+  "bridge_census": {
+    "row_count": 106,
+    "satisfied_count": 72,
+    "conditional_count": 8,
+    "excluded_count": 22,
+    "missing_count": 4,
+    "new_satisfied_rows": [
+      "exact equal-time torus Fourier covariance and fourth-chaos variance identity",
+      "one-spatial-dimensional L2 Wick-quartic positive control and dimensional threshold",
+      "Gauss-compatible harmonic electric resonance for the lifted-current leakage",
+      "unequal-charge radial curl and two-spatial-derivative homological cost"
+    ],
+    "new_excluded_rows": [
+      "L2-bounded three-spatial-dimensional equal-time Wick quartic martingale",
+      "repair of fourth-chaos L2 divergence by deterministic quadratic and vacuum counterterms",
+      "bounded autonomous cubic cancellation of lifted-current work in the retained harmonic sector",
+      "derivative-free or same-tier bounded quartic normal form for unequal-charge radial leakage",
+      "one bounded same-tier time-local polynomial normal form controlling both K1413 defects"
+    ],
+    "missing_rows": [
+      "source-owned compact-generator selection and normalization on the observed carrier",
+      "identification with one source action",
+      "cutoff-uniform completed global PDE evolution and interacting continuum positive physical Hilbert cohomology",
+      "source-owned observed-state/export map"
+    ]
+  },
+  "decision": {
+    "three_dimensional_wick_L2_multiplication_limit_constructed": false,
+    "renormalized_interacting_form_or_resolvent_constructed": false,
+    "bounded_same_tier_normal_form_closes_full_pde": false,
+    "zero_harmonic_spacetime_and_hierarchy_routes_remain_open": true,
+    "completed_full_pde_global_flow_constructed": false,
+    "source_selected_reduction_constructed": false,
+    "k1145_k1150_candidate_counts_move": false,
+    "protected_status_change": false
+  },
+  "source_and_ledger_effect": "SOURCE_REGISTER_UNCHANGED; LEDGER_UNCHANGED; SC-ACT-01/02/06 ASSERTS; SC-META-53 UNCERTAIN; LT-SM8/LT-GR6b/RA-F1/AC-F1 NEEDS; K1145/K1150 0/7"
+}

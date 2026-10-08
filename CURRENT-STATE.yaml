@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 4f562df8eada702f128e9f2a2af152e582acd305
+revision_basis: 93dbeb1eee35cf371409c38b34c96717d136edf5
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1433--K1438 replace K1431's shell surrogate by an exact equal-time torus
+    Fourier field and independently narrow K1413's full-PDE repair class. The
+    integrated Wick quartic is a fourth-chaos martingale, but in three spatial
+    dimensions its variance has an explicit lower bound of order N^5.
+    Quadratic and vacuum counterterms live in lower chaoses and cannot produce
+    an L2 multiplication-potential limit. One spatial dimension is the
+    positive L2 control. For the PDE, a retained harmonic electric mode gives
+    a nonzero periodic lifted-current average, while the unequal-charge radial
+    one-form has nonzero curl and its homological divisor loses two spatial
+    derivatives. Bounded same-tier time-local polynomial normal forms are
+    therefore excluded as a joint repair, but zero-harmonic, spacetime,
+    higher-tier and summable-hierarchy routes remain open. The 106-row census
+    is seventy-two satisfied, eight conditional, twenty-two excluded and four
+    missing; K1145/K1150 remain 0/7 and protected statuses do not move.
+
     K1427--K1432 construct a compatible countable product-Gaussian continuum
     control from K1421--K1426's finite blocks. Coordinate projections give
     exact finite marginals, cylinder pullbacks give an inductive L2 limit, and
@@ -14457,6 +14472,21 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1433--K1438 prove that the exact equal-time three-spatial-dimensional Wick
+  quartic has no L2 multiplication-potential limit under deterministic mass
+  and vacuum counterterms, while one spatial dimension is the positive
+  control. Which free-Hamiltonian-relative form bound, additional
+  renormalization and convergence theorem construct a closed semibounded form
+  and self-adjoint resolvent limit without contradicting that fourth-chaos
+  boundary? Independently, K1413's harmonic electric resonance and unequal-
+  charge radial curl/two-derivative divisor exclude bounded same-tier
+  time-local polynomial normal forms. Which strict zero-harmonic nonzero-mode
+  null structure, spacetime estimate, deliberately higher-tier correction or
+  summable hierarchy yields a finite-tier Cauchy consequence? A source/action-
+  owned observed-carrier selector must still fix `Q` and its normalization.
+  Do not promote the L2 obstruction to an operator no-go or the normal-form
+  boundary to a global PDE no-go.
+
   K1427--K1432 close the compatible Gaussian representation, closed free BRST
   and free continuum Hamiltonian layers. The naive quartic family is not
   projectively compatible; Wick ordering supplies the exact mass/vacuum
@@ -16705,6 +16735,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1433--K1438's exact correction-class boundaries. The declared
+  equal-time covariance has divergent three-dimensional fourth-chaos variance,
+  and deterministic quadratic/vacuum counterterms cannot cancel it in L2;
+  advance the quantum arc only through a free-Hamiltonian-relative closed form,
+  additional renormalization and a proved self-adjoint resolvent limit. The
+  harmonic electric and radial curl/divisor results exclude only bounded
+  same-tier time-local polynomial normal forms. Advance the PDE arc through a
+  zero-harmonic nonzero-mode calculation, gauge-covariant spacetime estimate,
+  deliberately higher triangular tier or summable hierarchy with a finite-
+  tier Cauchy consequence.
+
   Preserve K1427--K1432's exact free continuum and interacting boundaries.
   The product-Gaussian marginals, inductive L2 limit, residual Haar projector,
   Gaussian BRST complex and free second-quantized Hamiltonian are compatible

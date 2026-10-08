@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1437",
+  "title": "K1413's two leakage terms exclude bounded same-tier time-local polynomial normal-form closure",
+  "pinned_inputs": {
+    "k1435": {"path": "lab/process/k1435-electric-harmonic-normal-form-resonance.json", "sha256": "6dd08aede757b5f117169ab8bd0e637e3418f4f4080df1dcf9ee77168a8a5f6a"},
+    "k1436": {"path": "lab/process/k1436-radial-charge-density-curl-obstruction.json", "sha256": "8c51f122725c00e9248abd3e2dba78848722fb3762a861130faa248fadc89b8b"}
+  },
+  "combined_boundary": {
+    "admitted_class": "bounded autonomous time-local polynomial normal-form corrections and coercively equivalent same-spatial-tier modified energies, with one charge-independent Maxwell-energy coefficient",
+    "electric_result": "K1435 supplies a nonzero periodic-orbit average in the retained harmonic Maxwell sector and incompatible q=4/q=8 Maxwell coefficients",
+    "radial_result": "K1436 supplies a nonclosed two-charge density one-form and a homological symbol growing like K^2",
+    "joint_conclusion": "No correction in the admitted class cancels or controls both K1413 leakage terms on the full multi-charge phase space while preserving the same spatial tier",
+    "surviving_routes": [
+      "strict zero-harmonic Maxwell sector followed by nonzero-mode null-form or small-divisor analysis",
+      "gauge-covariant spacetime or dispersive estimates",
+      "derivative-losing corrections with a deliberately higher triangular tier",
+      "a summable infinite hierarchy with an explicit finite-tier Cauchy consequence"
+    ],
+    "claim_ceiling": "This is a correction-class exclusion, not a no-go for cutoff-uniform global PDE evolution. It constructs no full-PDE flow, BV-BFV quotient, source selector or physical Hilbert cohomology"
+  },
+  "decision": {
+    "electric_and_radial_leakage_jointly_replayed": true,
+    "bounded_same_tier_time_local_polynomial_normal_form_closes_both": false,
+    "zero_harmonic_nonzero_mode_route_open": true,
+    "spacetime_and_hierarchy_routes_open": true,
+    "finite_tier_cauchy_consequence_constructed": false,
+    "completed_full_pde_flow_constructed": false,
+    "protected_status_change": false
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1433",
+  "title": "The exact three-spatial-dimensional equal-time Wick quartic has divergent fourth-chaos variance",
+  "pinned_inputs": {
+    "k1431": {
+      "path": "lab/process/k1431-quartic-wick-renormalization-boundary.json",
+      "sha256": "2ba744136802675d4a480d25642532542595c782abfb94fda8642b9cff165f3f"
+    }
+  },
+  "declared_model": {
+    "space": "normalized flat torus T^d",
+    "field": "real centered Gaussian scalar field with conjugate Fourier modes",
+    "cutoff": "nested boxes K_N={k in Z^d: ||k||_infinity<=N}",
+    "covariance": "q_k=(2 sqrt(m^2+|k|^2))^-1 with m>0; C_N(x-y)=sum_{k in K_N} q_k exp(ik dot (x-y))",
+    "interaction": "V_N=integral H_4(phi_N(x);C_N(0)) dx with H_4(u;C)=u^4-6Cu^2+3C^2",
+    "scope": "equal-time Hamiltonian Gaussian control, not the Euclidean covariance and not a source-selected GU field measure"
+  },
+  "fourth_chaos_obstruction": {
+    "martingale": "For M>=N, E(V_M conditional on F_N)=V_N and E(V_N)=0",
+    "variance_identity": "Var(V_N)=24 integral C_N(z)^4 dz=24 sum_{k1+...+k4=0, ki in K_N} product_i q_ki",
+    "cone": "For 8 dividing N choose k1,k2,k3 componentwise in [N/8,N/4] and k4=-(k1+k2+k3); all four lie in K_N",
+    "lower_bound": "Var(V_N)>=(3/2)(N/8+1)^(3d)/(m^2+d N^2)^2",
+    "d3_consequence": "In d=3 the lower bound grows at least as a positive constant times N^5, so the Wick martingale is not L2 bounded or L2 Cauchy",
+    "lower_chaos_counterterms": "For U_N=integral(phi_N^4+a_N phi_N^2+b_N), U_N-E U_N=V_N+(6C_N+a_N) integral :phi_N^2:, and orthogonality gives Var(U_N)>=Var(V_N)",
+    "operator_ceiling": "The result excludes an L2 multiplication-potential limit under deterministic local quadratic and vacuum counterterms. It does not exclude a renormalized closed quadratic form, free-Hamiltonian smoothing, coupling or field-strength renormalization, or an interacting resolvent construction"
+  },
+  "decision": {
+    "exact_equal_time_fourier_model_declared": true,
+    "wick_fourth_chaos_variance_identity_proved": true,
+    "three_dimensional_variance_lower_bound_order": "N^5",
+    "wick_martingale_L2_bounded": false,
+    "quadratic_and_vacuum_counterterms_cancel_fourth_chaos": false,
+    "L2_multiplication_potential_limit_constructed": false,
+    "renormalized_form_or_resolvent_nonexistence_proved": false,
+    "source_or_protected_status_change": false
+  }
+}

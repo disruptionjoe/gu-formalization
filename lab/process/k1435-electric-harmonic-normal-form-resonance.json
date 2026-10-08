@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1435",
+  "title": "A harmonic Maxwell mode gives an exact resonance obstruction to bounded cubic cancellation of lifted-current work",
+  "pinned_inputs": {
+    "k1413": {"path": "lab/process/k1413-full-pde-graph-energy-leakage.json", "sha256": "3d553dba3c237d737cfa8982ace7c2bba0239ab8b064ce78956334aef28dcc27"},
+    "k1358": {"path": "lab/process/k1358-principal-series-charge-generator-domain.json", "sha256": "c91feee049717eb6052116b92353e5c5660d606df629acb710d4042a136c9601"},
+    "k1397": {"path": "lab/process/k1397-bounded-charge-global-evolution.json", "sha256": "01effc47077c396d5cf7849fe23ecbe07aa510e63d014a8f529c7d2230f4ef47"}
+  },
+  "resonance": {
+    "free_orbit": "Linearize at vacuum on R x T3. Choose Qv_q=qv_q, phi_q=a cos(omega_q(k)t) exp(ik dot x)v_q, k nonzero, and a constant harmonic electric field E_h with E_h dot k nonzero",
+    "gauss": "The linear Gauss constraint holds because Im<Q phi,partial_t phi>=0 and div E_h=0",
+    "time_average": "The K1413 lifted work has average (e Vol/2) q^(2n+1) a^2 (E_h dot k), which is nonzero",
+    "bounded_normal_form_obstruction": "The time derivative of a bounded autonomous cubic functional has zero average on this periodic free orbit, so it cannot cancel the lifted-current work",
+    "maxwell_energy_composition": "Adding c times the single Maxwell energy cancels a charge-q lifted current only for c=q^(2n). The realized charges q=4 and q=8 require incompatible c for n>=1",
+    "scope": "The obstruction binds the sector retaining K1397's harmonic Maxwell mode. A strict zero-harmonic sector removes this witness and leaves nonzero-mode null-form and small-divisor routes open"
+  },
+  "decision": {
+    "gauss_compatible_periodic_resonance_constructed": true,
+    "nonzero_lifted_current_time_average_proved": true,
+    "bounded_autonomous_cubic_cancellation_possible": false,
+    "one_maxwell_energy_coefficient_cancels_all_charges": false,
+    "zero_harmonic_sector_excluded": false,
+    "all_spacetime_or_hierarchy_mechanisms_excluded": false,
+    "global_full_pde_flow_constructed": false,
+    "protected_status_change": false
+  }
+}

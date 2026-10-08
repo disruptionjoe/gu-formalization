@@ -7,6 +7,25 @@ updated_at: "2026-10-08"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1433--K1438 Wick-chaos and PDE normal-form boundary (2026-10-08)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The three-dimensional equal-time Wick quartic has an L2 limit | K1433 exact Fourier-chaos identity and cone bound; `28/28`; `11/11` | false for an L2 multiplication potential: variance grows at least as `N^5`, and quadratic/vacuum counterterms cannot cancel fourth chaos; no operator-level no-go |
+| Wick ordering fails in every dimension | K1434 Hausdorff--Young control and threshold; `23/23`; `10/10` | false: the same equal-time model converges in L2 in one spatial dimension; every integer dimension at least two diverges |
+| A bounded cubic normal form cancels lifted-current work | K1435 harmonic periodic orbit and charge-4/charge-8 composition; `18/18`; `13/13` | false in the retained harmonic sector; strict zero-harmonic and nonzero-mode routes remain open |
+| A derivative-free or same-tier quartic correction cancels radial leakage | K1436 charge-density curl and high-frequency divisor; `16/16`; `13/13` | false on unequal-charge support; the homological symbol loses two spatial derivatives |
+| The two obstructions exclude every full-PDE mechanism | K1437 correction-class replay; `21/21`; `13/13` | false: spacetime/null-form, zero-harmonic, higher-tier and summable-hierarchy routes remain open |
+| The advance closes GU physical admission | K1438 106-row bridge census; `20/20`; `11/11` | seventy-two satisfied, eight conditional, twenty-two excluded and four missing; interacting operator, completed PDE, source selection and export remain open |
+
+The six producers pass `126/126` controls and six probes reject `71/71`
+hostile mutations. The result replaces K1431's shell surrogate by an exact
+equal-time Fourier field, excludes one precise L2 interaction route, and
+narrows K1413's admissible normal-form class. SC-ACT-01/02/06 remain `ASSERTS`,
+SC-META-53 remains `UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`,
+and K1145/K1150 stay `0/7`. No source, ledger, canon, paper, prediction,
+confirmation or public status moves.
+
 ## K1427--K1432 Gaussian continuum BRST boundary (2026-10-08)
 
 | Claim | Evidence | Honest grade |

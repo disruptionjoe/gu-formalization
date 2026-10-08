@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1434",
+  "title": "The equal-time Wick quartic L2 threshold is dimension dependent and one spatial dimension is the positive control",
+  "pinned_inputs": {
+    "k1433": {
+      "path": "lab/process/k1433-three-dimensional-wick-chaos-obstruction.json",
+      "sha256": "3c3f76b43e89c7917e9c66f2e74e2703ee36c4ac58f3a4bce41a665390fe1bd9"
+    }
+  },
+  "threshold": {
+    "spectral_decay": "The equal-time covariance has q_k asymptotic to |k|^-1",
+    "positive_control": "In d=1, q belongs to ell^(4/3); Hausdorff-Young gives C_N to C in L4, hence Var(V_N)=24||C_N||_4^4 converges and the Wick martingale converges in L2",
+    "integer_threshold": "For every integer d>=2 the K1433 cone lower bound grows as N^(3d-4) and diverges",
+    "continuum_check": "The local equal-time kernel scales as |x|^(-(d-1)); its fourth power is locally integrable exactly when 4(d-1)<d, equivalently d<4/3",
+    "covariance_fence": "This threshold is for q_k=(2 sqrt(m^2+|k|^2))^-1. A Euclidean covariance (m^2+|k|^2)^-1 has different power counting",
+    "claim_ceiling": "The one-dimensional control proves that the obstruction is dimensional rather than a failure of Hermite martingale algebra. It supplies no three-dimensional interacting Hamiltonian, source measure or full-PDE estimate"
+  },
+  "decision": {
+    "d1_wick_quartic_L2_limit_constructed": true,
+    "all_integer_d_ge_2_L2_limit_excluded_for_declared_covariance": true,
+    "three_dimensional_obstruction_is_dimension_specific": true,
+    "euclidean_covariance_threshold_claimed": false,
+    "interacting_hamiltonian_constructed": false,
+    "protected_status_change": false
+  }
+}

@@ -7,6 +7,19 @@ updated_at: "2026-10-08"
 
 # Next Steps For Contributors
 
+> **2026-10-08 K1433--K1438 WICK-CHAOS AND PDE NORMAL-FORM BOUNDARY.**
+> The exact equal-time `T3` Wick quartic has fourth-chaos variance growing at
+> least as `N^5`; quadratic and vacuum counterterms cannot cancel that chaos,
+> so there is no L2 multiplication-potential limit. One spatial dimension is
+> the positive control. Independently, a harmonic Maxwell resonance and
+> unequal-charge radial curl/two-derivative divisor exclude bounded same-tier
+> time-local polynomial normal forms as a joint repair of K1413's two defects.
+> Next construct a free-Hamiltonian-based closed renormalized form/resolvent
+> limit, or test the strict zero-harmonic nonzero-mode null structure and a
+> higher-tier/summable hierarchy with an explicit finite-tier Cauchy result.
+> Do not promote the L2 obstruction to an operator no-go or the normal-form
+> exclusion to a global PDE no-go.
+
 > **2026-10-08 K1427--K1432 GAUSSIAN CONTINUUM BRST BOUNDARY.** The finite
 > Gaussian blocks now form an exact projective probability tower whose
 > cylinder L2 spaces complete to a continuum representation; residual Haar

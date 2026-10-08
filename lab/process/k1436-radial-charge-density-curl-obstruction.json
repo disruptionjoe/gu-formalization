@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1436",
+  "title": "The radial leakage one-form is nonclosed across unequal charges and its normal-form divisor loses two derivatives",
+  "pinned_inputs": {
+    "k1413": {"path": "lab/process/k1413-full-pde-graph-energy-leakage.json", "sha256": "3d553dba3c237d737cfa8982ace7c2bba0239ab8b064ce78956334aef28dcc27"},
+    "k1358": {"path": "lab/process/k1358-principal-series-charge-generator-domain.json", "sha256": "c91feee049717eb6052116b92353e5c5660d606df629acb710d4042a136c9601"}
+  },
+  "radial_obstruction": {
+    "two_charge_coordinates": "For charge sectors q,r with |q|!=|r| set x=|phi_q|^2, y=|phi_r|^2, M0=x+y and Mn=q^(2n)x+r^(2n)y",
+    "one_form": "A derivative-free quartic correction would require dV=(lambda/2) M0 dMn, equivalently dW=-(lambda/2) Mn dM0 after removing one total derivative",
+    "curl": "d(M0 dMn)=dM0 wedge dMn=(r^(2n)-q^(2n)) dx wedge dy, which is nonzero for n>=1 and unequal absolute charges",
+    "density_no_go": "No derivative-free gauge-invariant quartic density cancels the K1413 radial leakage on the full multi-charge support",
+    "small_divisor": "For free standing waves with omega_q(K)=sqrt(K^2+m^2+mu q^2), the antisymmetric homological divisor is omega_q-omega_r and (omega_q+omega_r)/(omega_q-omega_r) grows as 4K^2/(mu(q^2-r^2))",
+    "derivative_cost": "Any time-local quartic normal form solving this cross-charge homological equation loses two spatial derivatives and cannot be a bounded same-tier correction",
+    "scope": "The result leaves scalar-Q^(2n) support, derivative-losing higher tiers, spacetime estimates, null forms and summable hierarchies open"
+  },
+  "decision": {
+    "radial_one_form_nonclosed_on_unequal_charges": true,
+    "derivative_free_quartic_density_cancellation_possible": false,
+    "normal_form_symbol_same_tier_bounded": false,
+    "two_spatial_derivative_cost_proved": true,
+    "all_radial_mechanisms_excluded": false,
+    "global_full_pde_flow_constructed": false,
+    "protected_status_change": false
+  }
+}
