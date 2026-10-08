@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1525",
+  "title": "Ultraviolet shell makes an order-one point-variance deficit cost order N^4",
+  "pinned_inputs": {
+    "k1524": {"path": "lab/process/k1524-stationary-quasi-free-exact-formulas.json", "sha256": "14cbd2eaa0b14f1f587013fe1b1b5ac056872d075503d5112c316e583cf536df"}
+  },
+  "shell_cost": {
+    "shell": "For the standard three-dimensional torus cutoff, take the real-mode shell S_N={j:N/2<=|k_j|_infinity<=N}; it has Theta(N^3) modes, omega_j=Theta(N), lambda_j=(2omega_j)^(-1)=Theta(N^-1), and free covariance mass C_(S,N)=sum_(S_N)lambda_j>=kappa C_N for some cutoff-independent kappa>0 and all large N",
+    "low_variance_deficit": "If v_N=sum_j lambda_j s_j<=(kappa/2)C_N, then v_(S,N)<=v_N and delta_(S,N)=sum_(S_N)lambda_j(1-s_j)>=C_(S,N)-v_N>=kappa C_N/2=Theta(N^2)",
+    "weighted_cauchy": "Cauchy gives delta_(S,N)^2<=[sum_(S_N)omega_j(1-s_j)^2/s_j][sum_(S_N)lambda_j^2 s_j/omega_j]",
+    "dual_shell_bound": "On S_N, lambda_j/omega_j=O(N^-2), so sum_(S_N)lambda_j^2 s_j/omega_j<=O(N^-2)v_(S,N)=O(1)",
+    "free_cost_consequence": "The squeeze part of q0 is one quarter of the first Cauchy factor, hence q0[psi_(alpha,s)]>=cN^4 whenever v_N<=(kappa/2)C_N",
+    "high_variance_consequence": "If v_N>(kappa/2)C_N, K1524's optimized Wick expectation is at least c C_N^2=cN^4 whether v_N lies below or above C_N",
+    "scope_guard": "The shell proof uses stationary translation-invariant diagonal covariance and the native three-dimensional spectral cutoff; it is not a lower bound for arbitrary Gaussian or non-Gaussian states"
+  },
+  "decision": {
+    "order_one_variance_suppression_cost": "N^4",
+    "ultraviolet_shell_required": true,
+    "logarithmic_global_cauchy_loss_avoided": true,
+    "arbitrary_trial_lower_bound_proved": false,
+    "protected_status_change": false
+  }
+}

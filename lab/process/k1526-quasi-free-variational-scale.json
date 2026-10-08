@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1526",
+  "title": "Stationary diagonal quasi-free variational bottom stays on the N^4 scale",
+  "pinned_inputs": {
+    "k1519": {"path": "lab/process/k1519-quadratic-kinetic-localization-lower-bound.json", "sha256": "502c594494366e6943879ec709af999a40141f4432d9b5f4341bffb2394a9858"},
+    "k1523": {"path": "lab/process/k1523-coherent-wick-square-boundary.json", "sha256": "f80a3540de218a9418e08c0b42f274d044cea9a2bc3c8ae7eb2c30c71c176d33"},
+    "k1525": {"path": "lab/process/k1525-ultraviolet-shell-squeezing-cost.json", "sha256": "0d960e2a765709043a7529ebdb8954d4ebd8d55b4510591b521cfea7cc54fa68"},
+    "k1471": {"path": "lab/process/k1471-finite-cutoff-interacting-brst-composition.json", "sha256": "abac4797efb8dc9b2c66024a34196084abd7b7a07f4b483fb3db6a8c4099bcb1"}
+  },
+  "variational_boundary": {
+    "restricted_bottom": "Let E_N^qf be the infimum of q0+g int W_N over normalized stationary translation-invariant diagonal quasi-free Gaussian trials with constant mean. K1525 gives E_N^qf>=c_gN^4 for fixed g>0",
+    "vacuum_upper": "The vacuum is in the class and has Rayleigh quotient 6gC_N^2=O(N^4), hence E_N^qf=Theta_g(N^4)",
+    "route_decision": "The order-N^2 upper wake left by K1519 cannot be met by a covariance-preserving coherent shift or by this stationary diagonal quasi-free squeeze class",
+    "surviving_routes": "A matching trial, if it exists, must use structure outside the classified class, such as genuinely non-Gaussian correlations, a nonstationary or off-diagonal Gaussian covariance, or another nonlinear form-domain construction; none is constructed here",
+    "restricted_recentering": "Every a_N=o(N^4) leaves all Rayleigh quotients in the classified quasi-free class divergent to plus infinity, but this restricted statement is not an operator spectral or resolvent bound because the full form domain is larger",
+    "brst_transfer": "Tensoring a classified matter trial with a harmonic BRST vector preserves its Rayleigh quotient, so the same restricted N^4 trial-class boundary transfers to harmonic compression without constraining general BRST states or constructing a continuum charge",
+    "unrestricted_corridor": "The true unrestricted ground energy still obeys only K1519's c_gN^2 lower bound and the existing one-sided upper results; its asymptotic, localization, compactness and Mosco recovery remain open"
+  },
+  "decision": {
+    "stationary_diagonal_quasi_free_scale": "N^4",
+    "coherent_or_stationary_diagonal_quasi_free_N2_trial_exists": false,
+    "restricted_brst_transfer": true,
+    "unrestricted_ground_energy_asymptotic_proved": false,
+    "operator_resolvent_consequence_proved": false,
+    "protected_status_change": false
+  }
+}

@@ -7,6 +7,23 @@ updated_at: "2026-10-08"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1523--K1527 quasi-free Gaussian variational boundary (2026-10-08)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A coherent displacement toward `phi^2=3C_N` may lower the `N^4` vacuum scale | K1523 exact Q-space and Gaussian fourth-moment identity | false: the coherent-sector bottom is exactly `6gC_N^2=Theta(N^4)` |
+| Stationary diagonal squeezing has no exact finite-dimensional cost formula | K1524 product-Gaussian logarithmic derivative and one-point fourth moment | false: both the free cost and the constant-mean-optimized Wick expectation are explicit |
+| Suppressing an order-one fraction of point variance may cost only `N^2` | K1525 fixed-ratio ultraviolet-shell Cauchy estimate | false in the classified class: the free squeeze cost is `Omega(N^4)` |
+| The new unrestricted `Omega(N^2)` lower boundary can be matched by the obvious quasi-free trial | K1526 lower/upper comparison inside the stationary diagonal quasi-free class with constant mean | false in that class: its variational bottom is `Theta_g(N^4)` |
+| The `Theta(N^4)` result is the true ground-energy asymptotic or an operator resolvent theorem | K1526 scope audit | not established: nonstationary, off-diagonal and genuinely non-Gaussian states remain open |
+| The advance closes GU physical admission | K1527 234-row bridge census | 155 satisfied, ten conditional, 65 excluded and four missing |
+
+The five producers pass `130/130` controls and five hostile probes reject
+`59/59` mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
+`0/7`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
+
 ## K1518--K1522 quadratic-mass localization lower bound (2026-10-08)
 
 | Claim | Evidence | Honest grade |

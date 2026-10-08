@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1523",
+  "title": "Coherent shifts cannot lower the square-completed Wick energy below the free vacuum scale",
+  "pinned_inputs": {
+    "k1464": {"path": "lab/process/k1464-wick-cutoff-square-completion.json", "sha256": "6a194a81b2d61210253e88c81869a20f0db5885e9555221faffc8753869f4c68"}
+  },
+  "coherent_boundary": {
+    "q_space_trial": "In real standard Gaussian coordinates xi_j with field covariance weights lambda_j=(2 omega_j)^(-1), the normalized coherent trial is psi_alpha=exp(sum_j alpha_j xi_j/2-sum_j alpha_j^2/4), so |psi_alpha|^2 dmu is N(alpha,I)",
+    "free_cost": "For H0=dGamma(omega), q0[psi_alpha]=(1/4)sum_j omega_j alpha_j^2>=0",
+    "field_mean": "The shifted field has arbitrary cutoff Cameron-Martin mean h(x)=sum_j sqrt(lambda_j) alpha_j e_j(x) and unchanged point variance C_N",
+    "wick_expectation": "Pointwise Gaussian fourth moments give int E_alpha[(phi_N^2-3C_N)^2]dx=6C_N^2+int h(x)^4 dx on normalized T3",
+    "coherent_infimum": "Therefore every coherent Rayleigh quotient is at least 6gC_N^2, and the vacuum alpha=0 attains exactly 6gC_N^2",
+    "scale": "Since C_N=Theta(N^2), the coherent-sector variational bottom is exactly 6gC_N^2=Theta(N^4) for fixed g>0",
+    "scope_guard": "This concerns covariance-preserving coherent shifts only; covariance squeezing, off-diagonal Gaussian covariance and genuinely non-Gaussian states are not classified"
+  },
+  "decision": {
+    "coherent_sector_exact_bottom": "6gC_N^2",
+    "coherent_order_N2_trial_exists": false,
+    "arbitrary_gaussian_classified": false,
+    "full_ground_energy_asymptotic_proved": false,
+    "protected_status_change": false
+  }
+}

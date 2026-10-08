@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1524",
+  "title": "Exact Q-space and Wick-square formulas for stationary diagonal quasi-free trials",
+  "pinned_inputs": {
+    "k1523": {"path": "lab/process/k1523-coherent-wick-square-boundary.json", "sha256": "f80a3540de218a9418e08c0b42f274d044cea9a2bc3c8ae7eb2c30c71c176d33"}
+  },
+  "quasi_free_formulas": {
+    "trial_class": "Let |psi_(alpha,s)|^2 dmu be the product Gaussian N(alpha_j,s_j) in the real covariance eigenbasis, with s_j>0 and equal sine/cosine factors on each nonzero Fourier pair so the covariance is translation invariant; restrict the mean to the constant zero mode a",
+    "free_cost": "Direct logarithmic differentiation gives q0[psi_(alpha,s)]=(1/4)sum_j omega_j[alpha_j^2+(s_j-1)^2/s_j]",
+    "point_variance": "The stationary centered fluctuation has constant point variance v_N=sum_j lambda_j s_j, while the free vacuum has C_N=sum_j lambda_j",
+    "wick_expectation": "The exact normalized-torus expectation is F_C(a,v)=a^4+6a^2v+3v^2-6C(a^2+v)+9C^2",
+    "mean_optimization_low_variance": "For 0<=v<=C, minimization over a^2>=0 gives a^2=3(C-v) and min_a F_C(a,v)=6v(2C-v)",
+    "mean_optimization_high_variance": "For v>=C, the minimizer is a=0 and min_a F_C(a,v)=3(v-C)^2+6C^2",
+    "normalization_guard": "All coordinates are real; pair-degenerate mode factors enforce translation invariance and prevent double counting conjugate complex Fourier modes",
+    "scope_guard": "The formulas do not cover nonstationary or off-diagonal Gaussian covariance, nonconstant means beyond the coherent result, or non-Gaussian trial states"
+  },
+  "decision": {
+    "exact_free_cost_proved": true,
+    "exact_wick_expectation_proved": true,
+    "mean_optimization_proved": true,
+    "stationary_diagonal_scope_only": true,
+    "full_gaussian_classified": false,
+    "protected_status_change": false
+  }
+}

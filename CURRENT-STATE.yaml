@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 33bde790a37f5a26a78e3c20c839ac0d2cede899
+revision_basis: d3049fd3c2fc0c4f4f14cc8c4ae8e1c65d709bbc
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1523--K1527 classify the immediate Gaussian route toward K1519's missing
+    order-`N^2` upper trial. Every covariance-preserving coherent shift has
+    exact energy `q_0+6gC_N^2+g int h^4`, so the vacuum is its exact minimizer.
+    Stationary translation-invariant diagonal quasi-free trials with constant
+    mean have exact modewise free cost and optimized Wick expectation. A
+    fixed-ratio ultraviolet shell carries a positive fraction of `C_N`; if
+    point variance is suppressed by an order-one fraction, weighted Cauchy
+    forces `Omega(N^4)` free cost, while otherwise the Wick expectation is
+    already `Omega(N^4)`. Thus the classified quasi-free variational bottom is
+    `Theta_g(N^4)`, excluding an order-`N^2` trial only in that class.
+    Nonstationary, off-diagonal and genuinely non-Gaussian states remain open;
+    no unrestricted ground-energy asymptotic, spectrum, resolvent, compactness,
+    Mosco recovery, continuum interacting BRST operator or source-owned GU
+    Hamiltonian follows. The 234-row census is 155 satisfied, ten conditional,
+    65 excluded and four missing; protected statuses stay fixed.
+
     K1518--K1522 replace K1474's polynomial low-potential estimate by an
     exponential Gaussian quadratic-mass bound. Jensen forces
     `A_N={W_N<=3C_N^2}` into
@@ -14731,6 +14747,20 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1523--K1527 prove that the obvious coherent and stationary diagonal
+  quasi-free Gaussian trials remain on the `Theta(N^4)` scale: an order-one
+  suppression of point variance costs `Omega(N^4)` on the ultraviolet shell.
+  Can a genuinely non-Gaussian normalized trial reach energy comparable to
+  `N^2`, or can the shell argument be extended to nonstationary or off-diagonal
+  Gaussian covariance and thereby raise the unrestricted lower boundary?
+  Only after identifying the full `E_N` to bounded error should compactness
+  and Mosco liminf/recovery be tested on one common nonlinear domain. In
+  parallel, which gauge/Maxwell-dependent spacetime, secondary-null or
+  derivative/nonlocal estimate controls both K1413 leakages, and which
+  source-owned selector tuple can reopen physical admission? Do not promote
+  the restricted quasi-free `N^4` scale to the true ground-energy asymptotic,
+  spectrum, resolvent or all Gaussian states.
+
   K1518--K1522 prove the first many-chaos kinetic-localization lower boundary,
   `E_N>=c_gN^2`, while K1516 retains the upper bound
   `E_N<=6gC_N^2-(1-o(1))g sigma_N N^(1/14)/(1+log N)`. Can a normalized trial

@@ -7,6 +7,21 @@ updated_at: "2026-10-08"
 
 # Next Steps For Contributors
 
+> **2026-10-08 K1523--K1527 QUASI-FREE GAUSSIAN VARIATIONAL BOUNDARY.**
+> A covariance-preserving coherent shift has exact energy
+> `q_0+6gC_N^2+g int h^4`, so the vacuum is its exact minimizer. For
+> stationary translation-invariant diagonal quasi-free trials with constant mean, the exact
+> modewise free cost and constant-mean-optimized Wick expectation reduce the
+> problem to suppressing the point variance. A fixed-ratio ultraviolet shell
+> carries a positive fraction of `C_N`; weighted Cauchy proves that reducing
+> it by an order-one fraction costs `Omega(N^4)`. Hence the classified
+> quasi-free variational bottom is `Theta_g(N^4)`, and it cannot provide the
+> order-`N^2` trial left open by K1519. Next construct or exclude a genuinely
+> non-Gaussian trial, or extend the shell argument to a materially broader
+> nonstationary/off-diagonal class. Do not promote the restricted result to
+> the true ground-energy asymptotic, spectrum, resolvent or all Gaussian
+> states.
+
 > **2026-10-08 K1518--K1522 QUADRATIC-MASS LOCALIZATION LOWER BOUND.** Jensen
 > sends `A_N={W_N<=3C_N^2}` into the upper quadratic-mass event
 > `Q_N-C_N>=(2-sqrt(3))C_N`. In a real covariance eigenbasis the exact
