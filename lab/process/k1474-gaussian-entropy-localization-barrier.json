@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1474",
+  "title": "Gaussian entropy makes localization in the low Wick-square region cost logarithmically divergent free energy",
+  "pinned_inputs": {
+    "k1430": {"path": "lab/process/k1430-free-second-quantized-hamiltonian.json", "sha256": "395a7396357bafac863c9d76e104139a8eb543500befff95b1393f95ff404b01"},
+    "k1470": {"path": "lab/process/k1470-wick-shift-free-vacuum-concentration.json", "sha256": "aad9e2dfc9f94cb73ace7614473e80bd58b3eca1ab28a644ba27a9beaab9ff71"}
+  },
+  "entropy_localization": {
+    "low_potential_set": "Let A_N={W_N<=3 C_N^2}, half the free-vacuum mean. K1470 and Chebyshev give delta_N=mu(A_N)=O(N^-3)",
+    "binary_entropy_contraction": "For normalized psi, f=|psi|^2 and m_N=int_A_N f dmu, data processing of relative entropy gives Ent_mu(f)>=m_N log(1/delta_N)-log 2",
+    "gaussian_log_sobolev": "For H0=dGamma(omega) with omega>=omega0>0, Gross log-Sobolev gives Ent_mu(|psi|^2)<=c_LS q0[psi] with a cutoff-independent c_LS, for example c_LS=2/omega0 in the standard Q-space convention",
+    "mass_bound": "Combining the inequalities gives m_N<=(c_LS q0[psi]+log 2)/log(1/delta_N)",
+    "dichotomy": "For large N, either q0[psi]>=log(1/delta_N)/(4 c_LS), or m_N<=1/2 and int W_N |psi|^2 dmu >=(3/2) C_N^2",
+    "energy_consequence": "At every fixed g>0, q_N[psi]=q0[psi]+g int W_N|psi|^2 obeys inf q_N>=min(log(1/delta_N)/(4 c_LS),(3g/2)C_N^2)=Omega(log N)",
+    "ceiling": "The logarithmic lower bound concerns the unshifted nonnegative square-completed family in the fixed Gaussian representation. It does not determine the ground-energy asymptotic or exclude a ground-energy-recentered Mosco limit, singular dressing or changed representation"
+  },
+  "decision": {
+    "low_potential_probability_order": "N^-3",
+    "binary_entropy_localization_bound_proved": true,
+    "cutoff_uniform_log_sobolev_constant_available": true,
+    "normalized_low_potential_localization_has_divergent_cost": true,
+    "unshifted_ground_energy_lower_order": "log N",
+    "ground_energy_asymptotic_determined": false,
+    "recentered_mosco_limit_excluded": false,
+    "protected_status_change": false
+  }
+}

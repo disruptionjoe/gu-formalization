@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1475",
+  "title": "The unshifted nonnegative Wick Hamiltonians escape every finite spectral window",
+  "pinned_inputs": {
+    "k1466": {"path": "lab/process/k1466-nonlinear-cutoff-form-domain.json", "sha256": "0e5b04e037e64580cf48bc6da77b4b8ececa0394600ec64fdba63650bc72f79b"},
+    "k1474": {"path": "lab/process/k1474-gaussian-entropy-localization-barrier.json", "sha256": "6342a882aadf220870f9c899bfa19e69e2453b2bfdfd20fb2aa41d09dc2326c8"}
+  },
+  "resolvent_collapse": {
+    "ground_energy": "For fixed g>0 let E_N=inf spec(H_N), where H_N is K1466's operator for q0+g W_N. K1474 gives E_N=Omega(log N)",
+    "resolvent_bound": "For every lambda>0, ||(H_N+lambda)^(-1)||=1/(E_N+lambda), hence the resolvents converge to zero in operator norm",
+    "finite_limit_exclusion": "The zero operator cannot be the resolvent of a densely defined self-adjoint operator. Therefore the unshifted family has no finite self-adjoint strong-resolvent limit; it converges only to the generalized infinite operator",
+    "semibounded_recentering": "For K_N=H_N-a_N, a uniformly lower-bounded nontrivial norm-resolvent or semibounded Mosco limit requires E_N-a_N=O(1); equivalently the scalar counterterm must track the true interacting ground energy up to bounded error",
+    "martingale_shift_boundary": "The exact projective shift 6g C_N^2 is not known to track E_N. Establishing E_N-6g C_N^2=O(1), or selecting another a_N with recovery-sequence compactness, is a new theorem rather than a consequence of Wick martingality",
+    "ceiling": "This decides the unshifted nonnegative family only. It neither computes E_N sharply nor excludes a ground-energy-recentered limit, non-Gaussian reference measure, singular dressing or changed representation"
+  },
+  "decision": {
+    "unshifted_ground_energy_diverges": true,
+    "unshifted_resolvents_converge_to_zero_in_norm": true,
+    "unshifted_finite_self_adjoint_strong_resolvent_limit_exists": false,
+    "nontrivial_semibounded_limit_requires_ground_energy_tracking": true,
+    "martingale_shift_tracks_ground_energy_proved": false,
+    "ground_energy_recentered_limit_constructed": false,
+    "all_beta_one_renormalizations_excluded": false,
+    "protected_status_change": false
+  }
+}

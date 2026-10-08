@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1476",
+  "title": "The fixed-cutoff BRST tensor factor inherits the matter spectral collapse and cannot supply the missing recentering",
+  "pinned_inputs": {
+    "k1471": {"path": "lab/process/k1471-finite-cutoff-interacting-brst-composition.json", "sha256": "abac4797efb8dc9b2c66024a34196084abd7b7a07f4b483fb3db6a8c4099bcb1"},
+    "k1475": {"path": "lab/process/k1475-unshifted-wick-resolvent-collapse.json", "sha256": "7c4a4cb51b3b1c4992b1b226546f45a7af634f1767820b6ae659342a19854aab"}
+  },
+  "brst_spectral_boundary": {
+    "tensor_hamiltonian": "K1471 gives mathbb H_N=H_N tensor 1+1 tensor Delta_BRST with Delta_BRST>=0 and a zero-energy harmonic gauge/ghost vacuum",
+    "bottom_and_collapse": "inf spec(mathbb H_N)=inf spec(H_N)=E_N, so ||(mathbb H_N+lambda)^(-1)||=1/(E_N+lambda) tends to zero for every lambda>0",
+    "harmonic_compression": "If P_harm is the BRST harmonic-vacuum projection, then P_harm(mathbb H_N-a_N+lambda)^(-1)P_harm=(H_N-a_N+lambda)^(-1) tensor P_harm",
+    "necessary_reduction": "Any nontrivial uniformly semibounded continuum Hamiltonian on degree-zero BRST cohomology therefore requires a nontrivial recentered matter limit and the same ground-energy-tracking counterterm",
+    "differential_boundary": "The fixed differential 1 tensor d_gamma remains closed and nilpotent, but this algebraic stability does not produce convergence of H_N-a_N, one common nonlinear form domain or an interacting continuum Hamiltonian",
+    "ceiling": "The tensor-factor argument transfers the unshifted collapse and recentering necessity. It constructs neither the recentered matter limit nor a deformed/source-owned continuum BRST charge or GU physical cohomology"
+  },
+  "decision": {
+    "unshifted_full_brst_hamiltonian_resolvents_collapse": true,
+    "degree_zero_harmonic_compression_equals_matter_resolvent": true,
+    "brst_factor_removes_ground_energy_divergence": false,
+    "recentered_matter_limit_is_necessary_for_physical_sector_limit": true,
+    "continuum_interacting_brst_hamiltonian_constructed": false,
+    "source_physical_cohomology_identified": false,
+    "protected_status_change": false
+  }
+}

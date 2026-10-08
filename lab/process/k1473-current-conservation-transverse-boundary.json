@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1473",
+  "title": "Scalar-current conservation controls the longitudinal current but leaves the transverse near-parallel leakage unchanged",
+  "pinned_inputs": {
+    "k1463": {"path": "lab/process/k1463-transverse-current-null-form-mismatch.json", "sha256": "7360134bad3c5812e85967d8ff98abf8b596b28cd406d6cdd68fc2bb8c9874ad"},
+    "k1468": {"path": "lab/process/k1468-spatial-null-order-boundary.json", "sha256": "cf40131dd86d9bc43e60dd79e81a2e4b249c226e14f7f458901ff72548a3615b"}
+  },
+  "continuity_boundary": {
+    "bilinear_current": "For equal-mass positive-frequency scalar modes k and k+p, take J0=omega(k+p)+omega(k) and J=2k+p at transfer q=(omega(k+p)-omega(k),p)",
+    "exact_continuity": "q0 J0-p dot J=omega(k+p)^2-omega(k)^2-(|k+p|^2-|k|^2)=0",
+    "longitudinal_control": "The identity fixes only p dot J=(omega(k+p)-omega(k))J0; equivalently it determines the component of J parallel to p",
+    "transverse_projection": "For P_T(p)=I-p tensor p/|p|^2, continuity supplies no condition on P_T J. Every Coulomb polarization e with e dot p=0 obeys e dot P_T J=e dot J=2 e dot k",
+    "near_parallel_witness": "On p=(1,0,0), k=(K,1,0), e=(0,1,0), exact continuity holds while e dot J=2 and the K1468 phase is Theta(K^-2), so the transverse homological quotient remains Theta(K^2)",
+    "structural_consequence": "Adding the time component and the exact continuity identity does not by itself manufacture the Lorentz numerator in the Coulomb-transverse current; a repair must couple another bilinear component, exploit a spacetime estimate, or change the energy",
+    "ceiling": "This excludes continuity alone as the missing transverse cancellation. It is not a no-go for full bilinear decompositions, secondary null forms, spacetime estimates or nonlinear modified energies"
+  },
+  "decision": {
+    "exact_scalar_current_continuity_proved": true,
+    "continuity_controls_longitudinal_current": true,
+    "continuity_controls_transverse_current": false,
+    "k1463_transverse_witness_survives_continuity": true,
+    "continuity_alone_closes_k1413_leakage": false,
+    "all_spacetime_or_modified_energy_routes_excluded": false,
+    "global_full_pde_flow_constructed": false,
+    "protected_status_change": false
+  }
+}

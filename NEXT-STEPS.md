@@ -7,6 +7,21 @@ updated_at: "2026-10-08"
 
 # Next Steps For Contributors
 
+> **2026-10-08 K1473--K1477 CURRENT-CONTINUITY, WICK SPECTRAL-COLLAPSE AND
+> BRST BOUNDARY.** Exact scalar-current conservation determines only the
+> longitudinal current; the Coulomb-transverse K1463 witness survives with its
+> quadratic phase quotient. Independently, Gaussian entropy and log-Sobolev
+> localization force `E_N=Omega(log N)` for the unshifted nonnegative beta=1
+> Wick Hamiltonians, so their resolvents—and the BRST tensor-sum
+> resolvents—collapse to zero in norm. A nontrivial uniformly semibounded limit
+> must subtract the true interacting ground energy up to bounded error; the
+> exact Wick martingale shift is not yet known to do so. Next construct a
+> bilinear spacetime/secondary-null or modified-energy repair for both PDE
+> leakages, and prove the ground-energy asymptotic plus Mosco liminf/recovery
+> for an explicitly recentered matter family. Do not generalize continuity's
+> transverse failure to every spacetime route or the unshifted collapse to
+> every beta=1 renormalization.
+
 > **2026-10-08 K1468--K1472 NULL-ORDER, WICK-COCYCLE AND FINITE-CUTOFF BRST
 > BOUNDARY.** A spatial angular null factor remains one derivative short after
 > matter-energy normalization on the fixed-offset near-parallel ray; the full

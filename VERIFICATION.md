@@ -7,6 +7,22 @@ updated_at: "2026-10-08"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1473--K1477 current-continuity, Wick spectral-collapse and BRST boundary (2026-10-08)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Exact current conservation supplies the missing transverse null numerator | K1473 bilinear current identity and Coulomb projection | false: it determines only the longitudinal component; K1463's transverse witness survives exactly |
+| Low Wick-square states can evade the free-vacuum concentration at bounded cost | K1474 binary entropy contraction plus Gaussian log-Sobolev | false for normalized states in the fixed Gaussian representation: localization costs at least `Omega(log N)` free energy |
+| The unshifted nonnegative beta=1 Hamiltonians have a finite self-adjoint resolvent limit | K1475 ground-energy and resolvent bounds | false: `E_N=Omega(log N)` and the resolvents converge to zero in operator norm; a ground-energy-recentered limit remains open |
+| The fixed BRST tensor factor removes the spectral divergence | K1476 tensor bottom and harmonic compression | false: the full bottom is `E_N`, and degree-zero compression is exactly the matter resolvent |
+| The advance closes GU physical admission | K1477 152-row bridge census | ninety-five satisfied, ten conditional, forty-three excluded and four missing |
+
+The five producers pass `116/116` controls and five probes reject `74/74`
+hostile mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
+`0/7`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
+
 ## K1468--K1472 null-order, Wick-cocycle and finite-cutoff BRST boundary (2026-10-08)
 
 | Claim | Evidence | Honest grade |
