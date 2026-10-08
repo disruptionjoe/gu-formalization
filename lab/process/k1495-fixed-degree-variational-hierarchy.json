@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1495",
+  "title": "Every fixed Krylov degree gives a strictly stronger variational and scalar-recentering boundary",
+  "pinned_inputs": {
+    "k1484": {
+      "path": "lab/process/k1484-vacuum-fourth-chaos-ritz-asymptotic.json",
+      "sha256": "504cee87e1baaa97bf0f00dedc026a88120070706442031be637909a099eb031"
+    },
+    "k1494": {
+      "path": "lab/process/k1494-uniform-jacobi-tower.json",
+      "sha256": "6e72dbe9f855a10bc41bdc2e6934c45136eb7187b5d8c8f10b91bd32beb420ce"
+    }
+  },
+  "variational_hierarchy": {
+    "coefficients": "Let epsilon_d be K1494's uniform strict gap and define c_1=1, c_d=1+sum_(r=2)^d epsilon_r. Then c_d is strictly increasing in every finite d",
+    "multiplication_bottom": "K1484 gives lambda_min(J_(1,N))=-1+o(1), while K1494 gives lambda_min(J_(d,N))<=-c_d+o(1) for every fixed d",
+    "free_cost": "The degree-d polynomial Krylov space lies in Wiener degree at most 4d and cutoff frequencies at most N, so every normalized vector in it has H0 form value at most 4d omega_max(N)=O_d(N)",
+    "ground_energy_upper": "For every fixed d and g>0, E_N<=6gC_N^2-c_d g sigma_N+O_d(N)",
+    "necessary_recentering": "Uniform semiboundedness of H_N-a_N therefore requires a_N<=6gC_N^2-c_d g sigma_N+O_d(N) for every fixed d",
+    "explicit_divergent_window": "For fixed d and delta>0, any eventual a_N>=6gC_N^2-g(c_d-delta)sigma_N has inf spec(H_N-a_N)<=-g delta sigma_N+O_d(N)->-infinity",
+    "ceiling": "This is a family of one-sided fixed-degree upper bounds. It neither proves sup_d c_d=infinity nor supplies a matching lower bound, a weakly convergent trial family, Mosco recovery, ground-state compactness or a common nonlinear continuum domain"
+  },
+  "decision": {
+    "strictly_increasing_fixed_degree_coefficients": true,
+    "arbitrary_fixed_degree_variational_upper_bound": true,
+    "arbitrary_fixed_degree_recentering_necessity": true,
+    "every_finite_degree_is_terminal": false,
+    "coefficient_sequence_unbounded": false,
+    "matching_ground_energy_lower_bound_proved": false,
+    "mosco_recovery_proved": false,
+    "protected_status_change": false
+  }
+}

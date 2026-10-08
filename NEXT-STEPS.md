@@ -7,6 +7,21 @@ updated_at: "2026-10-08"
 
 # Next Steps For Contributors
 
+> **2026-10-08 K1493--K1497 POLYNOMIAL WICK-KRYLOV TOWER.** Every monic
+> degree-`j` Krylov residual retains a degree-`4j` top Wiener chaos with squared
+> norm at least one. Hypercontractivity bounds every fixed-degree residual, so
+> the associated Jacobi compression is uniformly irreducible and strict
+> interlacing has a positive cutoff-uniform gap at every fixed dimension.
+> Consequently a strictly increasing sequence `c_d` satisfies
+> `E_N<=6gC_N^2-c_d g sigma_N+O_d(N)`, and every fixed degree strengthens the
+> necessary scalar-recentering boundary. At fixed cutoff the full polynomial
+> tower reaches the exact multiplication endpoint
+> `-6C_N^2/sigma_N=-Theta(N^(3/2))`, but this does not commute degree with the
+> ultraviolet limit. Next prove a controlled moment/recurrence limit deciding
+> whether `sup_d c_d` is infinite, or obtain a many-chaos coercive/localization
+> lower bound for the true ground energy. Do not use the fixed-cutoff endpoint
+> as an interacting asymptotic or choose `d(N)` without uniform kinetic control.
+
 > **2026-10-08 K1488--K1492 WICK KRYLOV AND RECENTERING BOUNDARY.** The
 > orthogonalized quadratic Krylov vector contains an unavoidable eighth-chaos
 > component of normalized squared norm at least one. The prior

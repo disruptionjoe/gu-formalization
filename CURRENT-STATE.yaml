@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f16d659ae8e5ba192a070c61cd01f9ec848f45c2
+revision_basis: 40bf52658e227ffbcaa9bd2a4666b4180d871157
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1493--K1497 prove that the K1490 gain repeats at every fixed polynomial
+    degree. Each monic degree-j Krylov residual retains a degree-4j top Wiener
+    chaos with squared norm at least one, while hypercontractivity bounds its
+    fixed-degree norm. The resulting finite Jacobi matrices have off-diagonal
+    couplings uniformly bounded away from zero and bounded diagonals, so strict
+    interlacing has a positive cutoff-uniform gap at every fixed dimension.
+    Hence there is a strictly increasing sequence c_d with
+    `E_N<=6gC_N^2-c_d g sigma_N+O_d(N)`, and every fixed d supplies a stronger
+    necessary scalar-recentering boundary. At each fixed cutoff the full
+    polynomial tower decreases to the exact multiplication endpoint
+    `-6C_N^2/sigma_N=-Theta(N^(3/2))`. The degree and cutoff limits have not
+    been interchanged: unbounded c_d, a many-chaos ground-energy lower bound,
+    localization and a recentered continuum limit remain open. The 187-row
+    census is 117 satisfied, ten conditional, 56 excluded and four missing;
+    K1145/K1150 remain 0/7 and protected statuses do not move.
+
     K1488--K1492 prove that the first higher-chaos Krylov direction cannot be
     asymptotically discarded. After orthogonalizing `X_N^2` against
     `1,X_N`, its eighth-chaos projection has squared norm at least one. The
@@ -14629,6 +14645,19 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1493--K1497 prove that every fixed polynomial Krylov degree strictly lowers
+  the variational coefficient and that the full tower at fixed cutoff reaches
+  the exact multiplication endpoint `-6C_N^2/sigma_N`. Do the fixed-degree
+  coefficients `c_d` grow without bound after the ultraviolet limit—most
+  directly through a controlled fixed-order moment/recurrence limit—or can a
+  many-chaos coercive/localization estimate bracket the true `E_N` scale
+  without following the polynomial tower? Only then can a cutoff-dependent
+  degree or compactness plus Mosco liminf/recovery for `a_N=E_N+O(1)` be
+  justified. In parallel, which gauge/Maxwell-dependent spacetime or nonlocal
+  estimate controls both K1413 leakages? Do not commute the degree and cutoff
+  limits or promote multiplication-operator endpoints to interacting
+  ground-energy asymptotics.
+
   K1488--K1492 prove that K1484's coefficient one is not variationally sharp.
   The orthogonalized square of the normalized fourth chaos retains an
   eighth-chaos component of full normalized scale, making the two-dimensional
@@ -16941,6 +16970,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1493--K1497's order-of-limits boundary. Every fixed polynomial
+  degree supplies a strictly stronger coefficient and recentering necessity,
+  but the available interlacing gaps may decay summably. Prove a fixed-order
+  Gaussian moment/recurrence limit or another uniform-in-degree estimate that
+  decides whether `sup_d c_d` is infinite, or instead construct a many-chaos
+  coercive/localization lower bound for the actual Hamiltonian. Do not choose
+  `d=d(N)` until its moments and `H0` cost are controlled uniformly. Only then
+  test compactness and Mosco liminf/recovery for `a_N=E_N+O(1)` on one common
+  nonlinear domain. Independently, advance K1413 through a genuinely
+  gauge/Maxwell-dependent spacetime, secondary-null or derivative/nonlocal
+  estimate controlling both leakages.
+
   Preserve K1488--K1492's strict higher-chaos correction. The normalized
   quadratic Krylov direction has unavoidable eighth-chaos mass, the
   vacuum--fourth-chaos Ritz vector is not an `o(sigma_N)` quasimode, and one

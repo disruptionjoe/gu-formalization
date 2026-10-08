@@ -7,6 +7,23 @@ updated_at: "2026-10-08"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1493--K1497 polynomial Wick-Krylov tower (2026-10-08)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Gram--Schmidt can terminate the polynomial tower at a finite degree | K1493 top-chaos projection of every monic residual | false: `h_(j,N)>=1` for every fixed cutoff and degree |
+| The next finite Jacobi compression may become asymptotically reducible | K1494 recurrence bounds and compact strict interlacing | false at every fixed degree: the final coupling is uniformly positive and the bottom drops by `epsilon_d>0` |
+| A finite polynomial degree gives the terminal variational coefficient | K1495 fixed-degree hierarchy | false: `c_d>c_(d-1)` and `E_N<=6gC_N^2-c_d g sigma_N+O_d(N)` |
+| The full fixed-cutoff polynomial tower has an unknown multiplication endpoint | K1496 square completion, full support and Hardy determinacy | false: its bottoms decrease to `-6C_N^2/sigma_N=-Theta(N^(3/2))` |
+| The fixed-cutoff endpoint determines the ultraviolet ground-energy asymptotic | K1496 order-of-limits audit | not established: degree, Hardy constant and free-energy cost are cutoff dependent |
+| The advance closes GU physical admission | K1497 187-row bridge census | 117 satisfied, ten conditional, 56 excluded and four missing |
+
+The five producers pass their direct controls and five hostile probes reject
+the corresponding overclaim mutations. SC-ACT-01/02/06 remain `ASSERTS`,
+SC-META-53 remains `UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`,
+and K1145/K1150 stay `0/7`. No source, ledger, canon, paper, prediction,
+confirmation or public status moves.
+
 ## K1488--K1492 Wick Krylov and recentering boundary (2026-10-08)
 
 | Claim | Evidence | Honest grade |

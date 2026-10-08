@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1496",
+  "title": "At fixed cutoff the full polynomial Krylov tower reaches the exact Wick multiplication endpoint",
+  "pinned_inputs": {
+    "k1464": {
+      "path": "lab/process/k1464-wick-cutoff-square-completion.json",
+      "sha256": "6a194a81b2d61210253e88c81869a20f0db5885e9555221faffc8753869f4c68"
+    },
+    "k1495": {
+      "path": "lab/process/k1495-fixed-degree-variational-hierarchy.json",
+      "sha256": "b5b8bcf427100a39417bbafa50dac7352ef50229c7f1d6354fb603431d88c6da"
+    }
+  },
+  "finite_cutoff_endpoint": {
+    "square_completion": "At fixed N, W_N=V_N+6C_N^2=integral(phi_N(x)^2-3C_N)^2 dx>=0 and X_N=V_N/sigma_N is bounded below by -L_N with L_N=6C_N^2/sigma_N",
+    "exact_essential_infimum": "The finite Fourier Gaussian has full support. Constant configurations phi_N(x)=plus-or-minus sqrt(3C_N) lie in that support and make W_N zero, so ess inf X_N=-L_N",
+    "hardy_determinacy": "For Z_N=X_N+L_N=W_N/sigma_N>=0, finite-dimensional norm equivalence gives sqrt(Z_N)<=A_N(1+||G_N||^2). Hence E exp(c_N sqrt(Z_N))<infinity for some c_N>0, the Hardy criterion makes the Stieltjes moment problem determinate, and the associated Jacobi operator is essentially self-adjoint",
+    "tower_limit": "The nested finite Jacobi bottoms therefore satisfy lambda_min(J_(d,N)) decreasing to ess inf X_N=-6C_N^2/sigma_N as d tends to infinity for each fixed N",
+    "endpoint_scale": "Since C_N=Theta(N^2) and sigma_N=Theta(N^(5/2)), the fixed-cutoff endpoint magnitude L_N is Theta(N^(3/2))",
+    "noncommuting_limits": "The Hardy constant, polynomial degree needed for localization and free H0 cost are N-dependent. Fixed-N convergence does not prove that c_d is unbounded after N tends to infinity, does not control a degree d(N), and does not determine E_N",
+    "ceiling": "The endpoint belongs to multiplication by X_N. It is not the ground-energy correction of H0+gW_N and supplies no uniform ultraviolet localization or lower bound"
+  },
+  "decision": {
+    "exact_fixed_cutoff_multiplication_infimum": "-6C_N^2/sigma_N",
+    "fixed_cutoff_polynomial_tower_reaches_infimum": true,
+    "fixed_cutoff_endpoint_order": "N^(3/2)",
+    "degree_and_cutoff_limits_interchanged": false,
+    "degree_dependent_free_cost_controlled_uniformly": false,
+    "ground_energy_asymptotic_determined": false,
+    "protected_status_change": false
+  }
+}
