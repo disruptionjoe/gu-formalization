@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1500",
+  "title": "Hermite Jacobi fixed-degree limit",
+  "pinned_inputs": {
+    "k1499": {"path": "lab/process/k1499-gaussian-moment-limit.json", "sha256": "ad5f0c66866b8640657184ea52cef14c7e69aa156816edf05f97fec8fc34b4b2"}
+  },
+  "hermite_jacobi_limit": {
+    "fixed_degree": "d is fixed before N->infinity",
+    "moment_matrix": "H_(d,N)->H_d^G through moments 0,...,2d",
+    "positive_definiteness": "Gaussian Hankel moment matrix is positive definite",
+    "coefficient_continuity": "Cholesky and Gram-Schmidt coefficients are continuous on the positive-definite cone",
+    "jacobi_limit": "J_(d,N)->J_d^G",
+    "hermite_recurrence": "x phi_j=sqrt(j+1)phi_(j+1)+sqrt(j)phi_(j-1)",
+    "limiting_bottom": "lambda_min(J_(d,N))->lambda_min(J_d^G)=-c_d^G",
+    "two_coordinate_bound": "c_d^G>=sqrt(d)"
+  },
+  "decision": {
+    "every_fixed_jacobi_compression_converges": true,
+    "limiting_orthogonal_polynomials_are_hermite": true,
+    "fixed_degree_coefficient_sequence_unbounded": true,
+    "simultaneous_degree_cutoff_rate_proved": false,
+    "fixed_cutoff_endpoint_replaced": false,
+    "protected_status_change": false
+  }
+}

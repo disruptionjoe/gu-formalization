@@ -1,0 +1,10 @@
+#!/usr/bin/env python3
+"""Hostile mutations for K1499."""
+import copy,json
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[2];D=json.loads((ROOT/'lab/process/k1499-gaussian-moment-limit.json').read_text())
+def valid(d):
+ a,q=d['gaussian_limit'],d['decision'];return all([d['claim_id']=='K1499','E(X_N^2)=1' in a['normalized_variable'],'r=1,2,3' in a['criterion'],'fourth-moment theorem' in a['theorem'],'N(0,1)' in a['distribution_limit'],'->3' in a['fourth_moment_limit'],'(p-1)^2' in a['hypercontractive_bound'],'every fixed j' in a['moment_limit'],q['standard_gaussian_limit_proved'],q['all_fixed_moments_converge'],q['normalized_third_moment_vanishes'],not q['total_variation_rate_proved'],not q['growing_moment_order_controlled'],not q['protected_status_change']])
+mut=[('claim',lambda d:d.update(claim_id='bad')),('variance',lambda d:d['gaussian_limit'].update(normalized_variable='unknown')),('contractions',lambda d:d['gaussian_limit'].update(criterion='r=1')),('theorem',lambda d:d['gaussian_limit'].update(theorem='none')),('law',lambda d:d['gaussian_limit'].update(distribution_limit='unknown')),('fourth',lambda d:d['gaussian_limit'].update(fourth_moment_limit='unknown')),('Lp',lambda d:d['gaussian_limit'].update(hypercontractive_bound='unknown')),('moments',lambda d:d['gaussian_limit'].update(moment_limit='unknown')),('deny Gaussian',lambda d:d['decision'].update(standard_gaussian_limit_proved=False)),('deny moments',lambda d:d['decision'].update(all_fixed_moments_converge=False)),('deny third',lambda d:d['decision'].update(normalized_third_moment_vanishes=False)),('claim TV',lambda d:d['decision'].update(total_variation_rate_proved=True)),('claim growing',lambda d:d['decision'].update(growing_moment_order_controlled=True)),('move status',lambda d:d['decision'].update(protected_status_change=True))]
+for i,(label,f) in enumerate(mut,1):x=copy.deepcopy(D);f(x);assert not valid(x),label;print(f'PASS {i:02d}: rejected {label}')
+print(f'RESULT: PASS {len(mut)}/{len(mut)}')

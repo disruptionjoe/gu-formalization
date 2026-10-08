@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1499",
+  "title": "Gaussian and all-fixed-moment limit",
+  "pinned_inputs": {
+    "k1498": {"path": "lab/process/k1498-fourth-chaos-contraction-decay.json", "sha256": "2bea866f4cc42b8c18daf4223f3245ee66579eb70802c236fa8a537c9838e6ec"}
+  },
+  "gaussian_limit": {
+    "normalized_variable": "X_N=I_4(f_N)/sigma_N with E(X_N^2)=1",
+    "criterion": "all contractions r=1,2,3 vanish",
+    "theorem": "fixed Wiener-chaos fourth-moment theorem",
+    "distribution_limit": "X_N=>Z, Z~N(0,1)",
+    "fourth_moment_limit": "E(X_N^4)->3",
+    "hypercontractive_bound": "||X_N||_p<=(p-1)^2 for fixed p>=2",
+    "moment_limit": "E(X_N^j)->E(Z^j) for every fixed j"
+  },
+  "decision": {
+    "standard_gaussian_limit_proved": true,
+    "all_fixed_moments_converge": true,
+    "normalized_third_moment_vanishes": true,
+    "total_variation_rate_proved": false,
+    "growing_moment_order_controlled": false,
+    "protected_status_change": false
+  }
+}

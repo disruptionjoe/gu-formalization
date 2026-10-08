@@ -7,6 +7,21 @@ updated_at: "2026-10-08"
 
 # Next Steps For Contributors
 
+> **2026-10-08 K1498--K1502 GAUSSIAN KRYLOV ASYMPTOTIC.** The three
+> nontrivial fourth-chaos contractions have connected four-vertex,
+> eight-edge, five-loop graphs with `O(N^7 log^8 N)` weight against
+> `sigma_N^4=Theta(N^10)`, so the normalized quartic Wick coordinate converges
+> to a standard Gaussian with every fixed moment. Each fixed Jacobi compression
+> therefore converges to the Hermite compression, whose final two coordinates
+> give coefficient at least `sqrt(d)`. Thus the negative variational correction
+> dominates every fixed multiple of `g sigma_N`; uniform semiboundedness
+> requires `(6gC_N^2-a_N)/(g sigma_N)->infinity`, and every order-`sigma_N`
+> scalar window fails fixed-Gaussian Mosco weak liminf, including after
+> harmonic BRST transfer. Next prove growing-degree contraction/moment bounds
+> with their kinetic cost, or a many-chaos coercive/localization lower bound for
+> the true ground energy. Do not choose `d(N)`, infer a rate or claim Mosco
+> recovery from fixed-order convergence.
+
 > **2026-10-08 K1493--K1497 POLYNOMIAL WICK-KRYLOV TOWER.** Every monic
 > degree-`j` Krylov residual retains a degree-`4j` top Wiener chaos with squared
 > norm at least one. Hypercontractivity bounds every fixed-degree residual, so

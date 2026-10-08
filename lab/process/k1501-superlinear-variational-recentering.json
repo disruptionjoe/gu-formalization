@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1501",
+  "title": "Super-sigma variational and recentering boundary",
+  "pinned_inputs": {
+    "k1500": {"path": "lab/process/k1500-hermite-jacobi-limit.json", "sha256": "722d8972e6bf398c4828758f3a43781aa78f4fa425fd576ab7766259ca476200"},
+    "k1495": {"path": "lab/process/k1495-fixed-degree-variational-hierarchy.json", "sha256": "b5b8bcf427100a39417bbafa50dac7352ef50229c7f1d6354fb603431d88c6da"}
+  },
+  "superlinear_boundary": {
+    "degree_choice": "for fixed A choose fixed d with sqrt(d)>A+2, then take N->infinity",
+    "multiplication_trial": "lambda_min(J_(d,N))<-(A+1) eventually",
+    "free_cost": "4d omega_max(N)=O_d(N)=o(sigma_N)",
+    "arbitrary_fixed_coefficient": "E_N<=6gC_N^2-A g sigma_N eventually for every fixed A>0",
+    "ratio_limit": "(6gC_N^2-E_N)/(g sigma_N)->+infinity",
+    "necessary_recentering": "uniform semiboundedness requires (6gC_N^2-a_N)/(g sigma_N)->+infinity",
+    "excluded_window": "6gC_N^2-a_N=O(sigma_N)",
+    "mosco_boundary": "normalized fixed-degree trials have weakly convergent subsequences with form values tending to -infinity",
+    "brst_transfer": "tensor with the normalized degree-zero harmonic BRST vacuum"
+  },
+  "decision": {
+    "negative_correction_super_sigma": true,
+    "every_order_sigma_recentering_excluded": true,
+    "fixed_gaussian_mosco_weak_liminf_excluded_in_that_window": true,
+    "harmonic_brst_boundary_transferred": true,
+    "quantitative_divergence_rate_proved": false,
+    "cutoff_dependent_degree_constructed": false,
+    "matching_ground_energy_lower_bound_proved": false,
+    "ground_energy_recentering_excluded": false,
+    "mosco_recovery_proved": false,
+    "protected_status_change": false
+  }
+}

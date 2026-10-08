@@ -7,6 +7,23 @@ updated_at: "2026-10-08"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1498--K1502 Gaussian Krylov asymptotic (2026-10-08)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The nontrivial normalized fourth-chaos contractions retain ultraviolet mass | K1498 connected graph and Hepp-sector power count | false: every `r=1,2,3` contraction is `O(N^-3(1+log N)^8)` after normalization |
+| The normalized quartic Wick coordinate has an unresolved fixed-moment limit | K1499 fourth-moment theorem and Nelson hypercontractivity | false: it converges to `N(0,1)` in distribution and in every fixed moment |
+| The fixed-degree Jacobi coefficients may stay bounded | K1500 Gaussian moment matrices and Hermite recurrence | false: `J_(d,N)->J_d^G` and `-lambda_min(J_d^G)>=sqrt(d)` |
+| An order-`sigma_N` scalar counterterm can retain fixed-Gaussian semiboundedness | K1501 fixed-degree Ritz trials and weak compactness | false: `(6gC_N^2-E_N)/(g sigma_N)->infinity`, and every such recentering window loses semiboundedness and Mosco weak liminf |
+| The result supplies a quantitative ground-energy asymptotic or continuum limit | K1501 order-of-limits audit | not established: no `d(N)`, rate, matching lower bound, localization, compactness or Mosco recovery is proved |
+| The advance closes GU physical admission | K1502 196-row bridge census | 123 satisfied, ten conditional, 59 excluded and four missing |
+
+The five producers pass `158/158` controls and five hostile probes reject
+`87/87` mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
+`0/7`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
+
 ## K1493--K1497 polynomial Wick-Krylov tower (2026-10-08)
 
 | Claim | Evidence | Honest grade |
