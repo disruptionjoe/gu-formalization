@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: cf8bf4ee84feda680501d4093486702c787e6815
+revision_basis: c6fb89bf40b69f03d7472216c81b953403967b3f
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1513--K1517 replace K1510's square-root-logarithmic transfer boundary by
+    a polynomial moderate-deviation tilt. Normalizing K1498's contractions for
+    Schulte--Thale gives `K_N=O(N^-3/2(1+log N)^4)`, `alpha(4)=3/7` and
+    `Delta_N=Omega(N^(9/14)(1+log N)^(-12/7))`. The resulting relative
+    left-tail theorem transfers a truncated Gaussian likelihood-ratio tilt at
+    `R_N=N^(1/14)/(1+log N)`. Its multiplication quotient is
+    `-(1+o(1))R_N`; near-one Holder and third-chaos hypercontractivity bound
+    its normalized free cost by `O(N R_N^8)=o(sigma_N R_N)`. Therefore
+    `E_N<=6gC_N^2-(1-o(1))g sigma_N R_N`, and for every `beta<1/14` the
+    correction dominates every fixed multiple of `g sigma_N N^beta`.
+    Uniform semiboundedness and fixed-Gaussian Mosco weak liminf require
+    recentering at least at the selected polynomial scale, including after
+    harmonic BRST transfer. This remains one-sided and nonoptimal; no matching
+    many-chaos lower bound, density limit, localization, compactness, recovery
+    or changed-representation theorem follows. The 221-row census is 142
+    satisfied, ten conditional, 65 excluded and four missing; protected
+    statuses stay fixed.
+
     K1508--K1512 remove K1503's logarithmic-over-logarithmic loss. K1498's
     normalized contraction squares and the fixed-chaos Malliavin--Stein theorem
     give `d_TV(X_N,Z)=O(N^-3/2(1+log N)^4)`. A fixed-width bump at
@@ -14695,6 +14713,20 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1513--K1517 sharpen the one-sided variational correction to
+  `g sigma_N N^(1/14)/(1+log N)` by a relative fourth-chaos moderate-deviation
+  theorem and a truncated exponential tilt. Is this still only an interior
+  cumulant-method window, or can a model-specific cumulant expansion enlarge
+  the admissible tilt radius? More decisively, can a many-chaos
+  kinetic-localization or small-ball lower bound bracket the actual `E_N`
+  scale? Only after that bracket can true-ground-energy recentering,
+  compactness and Mosco liminf/recovery be tested on one common nonlinear
+  domain. In parallel, which gauge/Maxwell-dependent spacetime,
+  secondary-null or derivative/nonlocal estimate controls both K1413
+  leakages, and which source-owned selector tuple can reopen physical
+  admission? Do not call `1/14` optimal, infer a matching ground-energy
+  asymptotic, or transfer fixed-Gaussian failure to every representation.
+
   K1508--K1512 sharpen the one-sided variational correction to the square-root
   logarithmic scale: for every `c<sqrt(3)`,
   `E_N<=6gC_N^2-cg sigma_N sqrt(log N)` eventually. Is this the true scale and
@@ -17061,6 +17093,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1513--K1517's one-sided scope. The Schulte--Thale relative-tail
+  theorem and truncated exponential tilt prove
+  `E_N<=6gC_N^2-(1-o(1))g sigma_N N^(1/14)/(1+log N)`, but `1/14` is only the
+  strict interior exponent supplied by the general fixed-chaos cumulant
+  window. Construct a matching many-chaos kinetic-localization or small-ball
+  lower bound for the actual Hamiltonian, or prove a model-specific relative-
+  tail/cumulant estimate that safely enlarges the tilt window. Only after
+  bracketing `E_N` test ground-energy recentering, compactness and Mosco
+  liminf/recovery on one common nonlinear domain. Independently, advance K1413
+  through a genuinely gauge/Maxwell-dependent spacetime, secondary-null or
+  derivative/nonlocal estimate controlling both leakages, and supply the
+  source-owned selector tuple required by the admission frontier.
+
   Preserve K1508--K1512's one-sided scope. Total-variation transfer of a rare
   Gaussian bump proves every coefficient below `sqrt(3)` at the
   `g sigma_N sqrt(log N)` scale, but `sqrt(3)` is only the boundary of the

@@ -7,6 +7,23 @@ updated_at: "2026-10-08"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1513--K1517 moderate-deviation tilt rate (2026-10-08)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K1498's contractions give only absolute total-variation control | K1513 normalized Schulte--Thale Theorem 5(i) application | false: relative Gaussian left-tail control holds through every `R_N=o(Delta_N^(1/9))`, with `Delta_N=Omega(N^(9/14)(1+log N)^(-12/7))` |
+| A transferred trial cannot exceed the `sqrt(log N)` scale | K1514 truncated exponential likelihood-ratio tilt | false: at `R_N=N^(1/14)/(1+log N)` the norm is `1+o(1)` and the multiplication quotient is `-(1+o(1))R_N` |
+| The exponential tilt has unaffordable free cost | K1515 near-one Holder and Hilbert-valued third-chaos hypercontractivity | false: the normalized cost is `O(N R_N^8)=o(sigma_N R_N)` |
+| K1510's square-root-log descent is the best current rate | K1516 variational comparison | false: `E_N<=6gC_N^2-(1-o(1))g sigma_N R_N`; the correction dominates every `sigma_N N^beta`, `beta<1/14` |
+| `1/14` is optimal or the true ground-energy exponent | K1513--K1516 hostile scope audit | not established: it is an interior exponent from a general cumulant theorem, with no matching many-chaos lower bound, localization, compactness or Mosco recovery |
+| The advance closes GU physical admission | K1517 221-row bridge census | 142 satisfied, ten conditional, 65 excluded and four missing |
+
+The five producers and five hostile probes preserve the fixed-Gaussian,
+one-sided and non-endpoint scope. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53
+remains `UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and
+K1145/K1150 stay `0/7`. No source, ledger, canon, paper, prediction,
+confirmation or public status moves.
+
 ## K1508--K1512 total-variation bump rate (2026-10-08)
 
 | Claim | Evidence | Honest grade |

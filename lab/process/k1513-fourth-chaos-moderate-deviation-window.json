@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1513",
+  "title": "Fourth-chaos Cramer moderate-deviation window from the K1498 contractions",
+  "pinned_inputs": {
+    "k1498": {"path": "lab/process/k1498-fourth-chaos-contraction-decay.json", "sha256": "2bea866f4cc42b8c18daf4223f3245ee66579eb70802c236fa8a537c9838e6ec"}
+  },
+  "literature_theorem": {
+    "citation": "M. Schulte and C. Thale, Cumulants on Wiener chaos: moderate deviations and the fourth moment theorem, J. Funct. Anal. 270 (2016), 2223--2248, Theorem 5(i), doi:10.1016/j.jfa.2016.01.002",
+    "normalization": "Set h_N=sqrt(4!) g_N, so ||h_N||=1, F_N=I_4(h_N)=sqrt(4!) X_N and Var(F_N)=4!",
+    "contraction_modulus": "K_N=max_(1<=r<=3)||h_N tensor_r h_N||=O(N^(-3/2)(1+log N)^4)",
+    "graph_exponent": "alpha(4)=(4+2)/(3*4+2)=3/7",
+    "deviation_parameter": "Delta_N=(4^(3*4/2) K_N^alpha(4))^(-1)=Omega(N^(9/14)(1+log N)^(-12/7))",
+    "tail_ratio": "For 0<=z<=c Delta_N^(1/3), |log(P(X_N<=-z)/Phi(-z))|<=C(1+z^3)/Delta_N^(1/3)",
+    "uniform_window": "If R_N=o(Delta_N^(1/9)), the logarithmic tail-ratio error is o(1) uniformly for 0<=z<=2R_N"
+  },
+  "selected_scale": {
+    "radius": "R_N=N^(1/14)/(1+log N)",
+    "verification": "R_N=o(Delta_N^(1/9)) because Delta_N^(1/9)=Omega(N^(1/14)(1+log N)^(-4/21))",
+    "power_family": "Every fixed R_N=N^beta with 0<beta<1/14 also lies strictly inside the proved transfer window"
+  },
+  "decision": {
+    "relative_left_tail_window_proved": true,
+    "polynomial_moderate_deviation_radius_available": true,
+    "density_ratio_or_local_limit_proved": false,
+    "endpoint_one_fourteenth_optimal": false,
+    "protected_status_change": false
+  }
+}

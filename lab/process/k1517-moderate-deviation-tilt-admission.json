@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1517",
+  "title": "Moderate-deviation tilt admission replay",
+  "pinned_inputs": {
+    "k1513": {"path": "lab/process/k1513-fourth-chaos-moderate-deviation-window.json", "sha256": "b649d79c445290b124d4cbbcfcb5181e0a4368fb6b63ce17e17a49e2141c5bb1"},
+    "k1514": {"path": "lab/process/k1514-truncated-exponential-tilt-transfer.json", "sha256": "692eba512bd95041f3e2aafe893ae45f9720175aae89338097fe870c77f00bdd"},
+    "k1515": {"path": "lab/process/k1515-weighted-malliavin-tilt-cost.json", "sha256": "7312f1a455492e764284e93a2cfca648806f047bd933e079c7dda5ea5fc11a02"},
+    "k1516": {"path": "lab/process/k1516-polynomial-wick-recentering-boundary.json", "sha256": "b788415f3ef7ad3748fe9a02c438ef8b4a4d72ddddae9e4f4e14734fd346e8d7"}
+  },
+  "bridge_census": {
+    "row_count": 221,
+    "satisfied_count": 142,
+    "conditional_count": 10,
+    "excluded_count": 65,
+    "missing_count": 4,
+    "new_satisfied_rows": [
+      "K1498's contraction modulus satisfies the normalized fourth-chaos Cramer theorem with alpha(4)=3/7",
+      "uniform relative left-tail transfer holds throughout every radius o(Delta_N^(1/9))",
+      "the truncated exponential likelihood-ratio tilt transfers with order-one norm and mean -(1+o(1))R_N",
+      "a near-one Holder exponent controls the tilt-weighted third-chaos Malliavin gradient by O(R_N^6)",
+      "the normalized free cost is O(N R_N^8) and lower order at R_N=N^(1/14)/(1+log N)",
+      "the one-sided Wick variational correction reaches (1-o(1))g sigma_N R_N and dominates every sigma_N N^beta scale with beta<1/14",
+      "uniform semiboundedness, fixed-Gaussian Mosco weak liminf and harmonic-BRST compression require recentering at least at the selected polynomial scale"
+    ],
+    "new_excluded_rows": [
+      "the square-root-logarithmic rate as the strongest consequence of K1498's contraction estimate",
+      "every scalar recentering asymptotically below the selected polynomial boundary as a uniformly semibounded fixed-Gaussian or harmonic-BRST Mosco route"
+    ],
+    "missing_rows": [
+      "source-owned compact-generator selection and normalization on the observed carrier",
+      "identification with one source action",
+      "cutoff-uniform completed global PDE evolution and interacting continuum positive physical Hilbert cohomology",
+      "source-owned observed-state/export map"
+    ]
+  },
+  "decision": {
+    "moderate_deviation_window_proved": true,
+    "truncated_exponential_tilt_transferred": true,
+    "weighted_malliavin_cost_proved": true,
+    "polynomial_variational_rate_proved": true,
+    "polynomial_recentering_window_excluded": true,
+    "optimal_rate_or_endpoint_proved": false,
+    "many_chaos_ground_energy_lower_bound_constructed": false,
+    "ground_energy_recentered_limit_constructed": false,
+    "full_spacetime_pde_repair_constructed": false,
+    "source_selected_reduction_constructed": false,
+    "k1145_k1150_candidate_counts_move": false,
+    "protected_status_change": false
+  },
+  "source_and_ledger_effect": "SOURCE_REGISTER_UNCHANGED; LEDGER_UNCHANGED at 33 SAME / 22 DIFFERS / 31 NEEDS / 2 OVER-DETERMINED; SC-ACT-01/02/06 ASSERTS; SC-META-53 UNCERTAIN; LT-SM8/LT-GR6b/RA-F1/AC-F1 NEEDS; K1145/K1150 0/7"
+}

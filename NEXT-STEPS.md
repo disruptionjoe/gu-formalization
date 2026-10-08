@@ -7,6 +7,21 @@ updated_at: "2026-10-08"
 
 # Next Steps For Contributors
 
+> **2026-10-08 K1513--K1517 MODERATE-DEVIATION TILT RATE.** K1498's
+> normalized contractions satisfy Schulte--Thale's fourth-chaos Cramer theorem
+> with `alpha(4)=3/7` and
+> `Delta_N=Omega(N^(9/14)(1+log N)^(-12/7))`. Relative left-tail control
+> transfers a truncated Gaussian likelihood-ratio tilt at
+> `R_N=N^(1/14)/(1+log N)`. Its multiplication quotient is
+> `-(1+o(1))R_N`; near-one Holder and vector-valued hypercontractivity bound
+> its normalized free cost by `O(N R_N^8)=o(sigma_N R_N)`. Hence
+> `E_N<=6gC_N^2-(1-o(1))g sigma_N R_N`, and every scalar recentering window
+> asymptotically below that boundary fails fixed-Gaussian Mosco weak liminf,
+> including after harmonic BRST transfer. Next prove a many-chaos lower
+> boundary for the true ground energy or a model-specific cumulant theorem
+> enlarging the safe tilt window. Do not call `1/14` optimal or infer a
+> matching asymptotic from this one-sided trial.
+
 > **2026-10-08 K1508--K1512 TOTAL-VARIATION BUMP RATE.** K1498's normalized
 > contractions and the fixed-chaos Malliavin--Stein theorem give
 > `d_TV(X_N,Z)=O(N^-3/2(1+log N)^4)`. A compact bump centered at

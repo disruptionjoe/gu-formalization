@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1515",
+  "title": "Weighted Malliavin free cost for the moderate-deviation tilt",
+  "pinned_inputs": {
+    "k1514": {"path": "lab/process/k1514-truncated-exponential-tilt-transfer.json", "sha256": "692eba512bd95041f3e2aafe893ae45f9720175aae89338097fe870c77f00bdd"}
+  },
+  "weighted_cost": {
+    "chain_rule": "D u_N(X_N)=u_N'(X_N)D X_N; u_N' is the sum of -(R_N/2)u_N and the cutoff derivative R_N^(-1)exp(-R_N x/2-R_N^2/4)chi'(x/R_N)",
+    "cutoff_boundary": "The cutoff derivative is supported where the tilted coordinate is at least R_N/2 from its center; K1513's relative-tail bound makes its normalized weighted contribution exponentially negligible",
+    "holder_pair": "Take p_N=1+R_N^(-2) and conjugate q_N=p_N/(p_N-1)=R_N^2+1",
+    "gradient_chaos": "D X_N is Hilbert-valued third chaos and E||D X_N||^2=4",
+    "hypercontractivity": "For Y_N=||D X_N||^2, ||Y_N||_(q_N)<=4(2q_N-1)^3=O(R_N^6)",
+    "weighted_gradient": "Holder plus K1514 gives E[u_N(X_N)^2||D X_N||^2]/E[u_N(X_N)^2]=O(R_N^6)",
+    "normalized_malliavin_cost": "E||D u_N(X_N)||^2/E[u_N(X_N)^2]=O(R_N^8)",
+    "free_form_cost": "With omega_max(N)=O(N), q_0[u_N(X_N)]/E[u_N(X_N)^2]=O(N R_N^8)",
+    "dominance": "For R_N=N^(1/14)/(1+log N), N R_N^8/(sigma_N R_N)=O(N^(-1)(1+log N)^(-7)) tends to zero because sigma_N=Theta(N^(5/2))"
+  },
+  "decision": {
+    "weighted_malliavin_cost_proved": true,
+    "free_cost_lower_order_than_interaction_gain": true,
+    "pointwise_gradient_bound_claimed": false,
+    "sharp_weighted_cost_exponent_claimed": false,
+    "protected_status_change": false
+  }
+}
