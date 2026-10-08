@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 93dbeb1eee35cf371409c38b34c96717d136edf5
+revision_basis: dfb6a7a8a86a831e37214ab73de2bf03cd9aa0c8
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1439--K1444 sharpen both surviving K1438 routes. In the declared
+    Gaussian/Fock control, the Wick fourth-particle vector has squared dual
+    free-form norm bounded below by order N^4, so fixed nonzero coupling is
+    not uniformly KLMN-form-bounded on the unchanged free-Hamiltonian form
+    domain with only deterministic mass and vacuum counterterms. Its sharp
+    negative-Hamiltonian-scale threshold is s=5: convergence holds for s>5
+    and fails for s<=5. Fixed-domain control would require at least
+    |g_N|=O(N^-2), which does not construct a nontrivial limit. Independently,
+    every strict nonzero Maxwell mode has a positive massive three-wave phase,
+    so K1435's harmonic resonance disappears, but the inverse phase grows
+    quadratically along parallel high frequency. The fixed-mode homological
+    inverse therefore loses an optimal two spatial derivatives and yields
+    only a higher-tier scalar Cauchy implication, not a full nonlinear normal
+    form or global flow. The 113-row census is seventy-six satisfied, nine
+    conditional, twenty-four excluded and four missing; K1145/K1150 remain
+    0/7 and protected statuses do not move.
+
     K1433--K1438 replace K1431's shell surrogate by an exact equal-time torus
     Fourier field and independently narrow K1413's full-PDE repair class. The
     integrated Wick quartic is a fourth-chaos martingale, but in three spatial
@@ -14472,20 +14489,21 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K1433--K1438 prove that the exact equal-time three-spatial-dimensional Wick
-  quartic has no L2 multiplication-potential limit under deterministic mass
-  and vacuum counterterms, while one spatial dimension is the positive
-  control. Which free-Hamiltonian-relative form bound, additional
-  renormalization and convergence theorem construct a closed semibounded form
-  and self-adjoint resolvent limit without contradicting that fourth-chaos
-  boundary? Independently, K1413's harmonic electric resonance and unequal-
-  charge radial curl/two-derivative divisor exclude bounded same-tier
-  time-local polynomial normal forms. Which strict zero-harmonic nonzero-mode
-  null structure, spacetime estimate, deliberately higher-tier correction or
-  summable hierarchy yields a finite-tier Cauchy consequence? A source/action-
-  owned observed-carrier selector must still fix `Q` and its normalization.
-  Do not promote the L2 obstruction to an operator no-go or the normal-form
-  boundary to a global PDE no-go.
+  K1439--K1444 prove that K1433's Wick fourth-particle vector is not uniformly
+  controlled on the unchanged free-Hamiltonian form domain at fixed nonzero
+  coupling: its squared dual form norm grows at least as N^4, and its sharp
+  negative free-Hamiltonian scale threshold is s=5. Which genuinely dressed
+  or changed-domain renormalization, with every additional counterterm stated,
+  constructs a semibounded closed interacting form or self-adjoint resolvent
+  limit without mistaking |g_N|=O(N^-2) for a nontrivial theory?
+  Independently, the strict zero-harmonic massive phase is nonresonant but its
+  inverse loses an optimal two spatial derivatives. Which gauge-covariant
+  spacetime/null-form estimate or summed nonzero-mode higher-tier hierarchy
+  absorbs the differentiated current and yields cutoff-uniform nonlinear
+  Cauchy control? A source/action-owned observed-carrier selector must still
+  fix `Q` and its normalization. Do not promote the fixed-domain obstruction
+  to a universal operator no-go or the scalar fixed-mode inverse to a full PDE
+  normal form.
 
   K1427--K1432 close the compatible Gaussian representation, closed free BRST
   and free continuum Hamiltonian layers. The naive quartic family is not
@@ -16735,16 +16753,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Preserve K1433--K1438's exact correction-class boundaries. The declared
-  equal-time covariance has divergent three-dimensional fourth-chaos variance,
-  and deterministic quadratic/vacuum counterterms cannot cancel it in L2;
-  advance the quantum arc only through a free-Hamiltonian-relative closed form,
-  additional renormalization and a proved self-adjoint resolvent limit. The
-  harmonic electric and radial curl/divisor results exclude only bounded
-  same-tier time-local polynomial normal forms. Advance the PDE arc through a
-  zero-harmonic nonzero-mode calculation, gauge-covariant spacetime estimate,
-  deliberately higher triangular tier or summable hierarchy with a finite-
-  tier Cauchy consequence.
+  Preserve K1439--K1444's exact route boundaries. Fixed nonzero coupling fails
+  the unchanged-free-form-domain test even after deterministic mass and vacuum
+  counterterms, and the vacuum-to-four-particle vector has sharp negative-scale
+  threshold s=5. Advance the quantum arc only through a genuinely dressed or
+  changed-domain semibounded closed form, additional counterterms and a proved
+  self-adjoint resolvent limit; |g_N|=O(N^-2) is merely a necessary fixed-domain
+  escape. The strict zero-harmonic phase is positive, but its fixed-mode inverse
+  loses exactly two derivatives. Advance the PDE arc through a gauge-covariant
+  spacetime estimate or summed-mode higher-tier hierarchy controlling the
+  differentiated current with cutoff-uniform nonlinear Cauchy consequences.
 
   Preserve K1427--K1432's exact free continuum and interacting boundaries.
   The product-Gaussian marginals, inductive L2 limit, residual Haar projector,

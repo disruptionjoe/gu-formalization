@@ -7,6 +7,27 @@ updated_at: "2026-10-08"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1439--K1444 free-form and zero-mode phase boundary (2026-10-08)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Free-Hamiltonian smoothing makes the three-dimensional Wick quartic a uniform form on the unchanged free domain | K1439 exact vacuum-to-four-particle dual norm and cone bound; `17/17`; `13/13` | false at fixed nonzero coupling: the squared dual form norm grows at least as `N^4`; only the fixed-domain KLMN route is excluded |
+| The Wick fourth-particle vector exists in every negative free-Hamiltonian scale | K1440 lower cone blocks and upper ordered dyadic shells; `19/19`; `11/11` | false: the sharp squared-norm threshold is `s=5`, with convergence for `s>5` and divergence for `s<=5` |
+| Running the coupling repairs the fixed free domain without qualification | K1441 scaled K1439 lower bound; `15/15`; `10/10` | only conditionally: uniform control requires at least `|g_N|=O(N^-2)`, which does not prove a nontrivial limit |
+| K1435's exact resonance persists after strict zero-harmonic restriction | K1442 exact massive phase identity and parallel asymptotic; `24/24`; `13/13` | false for the declared sign branch: every `p!=0` phase is positive, but its infimum over matter frequency is zero |
+| Zero-harmonic nonresonance restores a same-tier normal form | K1443 inverse-phase bound and parallel sharpness; `23/23`; `14/14` | false: the fixed-mode inverse loses exactly two spatial derivatives; it gives a higher-tier scalar Cauchy implication, not the full current normal form |
+| The advance closes GU physical admission | K1444 113-row bridge census; `22/22`; `15/15` | seventy-six satisfied, nine conditional, twenty-four excluded and four missing; interacting operator, completed PDE, source selection and export remain open |
+
+The six producers pass `120/120` controls and six probes reject `76/76`
+hostile mutations. The quantum result closes one fixed-free-domain form route
+without excluding dressed-domain or broader resolvent constructions. The PDE
+result removes exact nonzero-mode resonance for one phase while proving that
+the surviving homological inversion is necessarily higher-tier.
+SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`,
+LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay `0/7`.
+No source, ledger, canon, paper, prediction, confirmation or public status
+moves.
+
 ## K1433--K1438 Wick-chaos and PDE normal-form boundary (2026-10-08)
 
 | Claim | Evidence | Honest grade |

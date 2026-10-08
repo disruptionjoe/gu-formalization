@@ -7,6 +7,21 @@ updated_at: "2026-10-08"
 
 # Next Steps For Contributors
 
+> **2026-10-08 K1439--K1444 FREE-FORM AND ZERO-MODE PHASE BOUNDARY.** The
+> three-dimensional Wick fourth-particle vector has squared dual free-form
+> norm at least order `N^4`, excluding fixed nonzero-coupling KLMN convergence
+> on the unchanged free-Hamiltonian form domain with only deterministic mass
+> and vacuum counterterms. Its sharp negative free-Hamiltonian scale threshold
+> is `s=5`; fixed-domain control requires at least `|g_N|=O(N^-2)` and does not
+> construct a nontrivial interaction. In the strict zero-harmonic sector the
+> declared massive three-wave phase is positive, but its inverse has an
+> optimal two-spatial-derivative loss. Next construct a genuinely dressed or
+> changed-domain renormalized form/resolvent limit, or a gauge-covariant
+> spacetime/summed-mode hierarchy controlling the differentiated current with
+> cutoff-uniform nonlinear Cauchy estimates. Do not promote the fixed-domain
+> obstruction to a universal operator no-go or the fixed-mode scalar inverse
+> to a full PDE normal form.
+
 > **2026-10-08 K1433--K1438 WICK-CHAOS AND PDE NORMAL-FORM BOUNDARY.**
 > The exact equal-time `T3` Wick quartic has fourth-chaos variance growing at
 > least as `N^5`; quadratic and vacuum counterterms cannot cancel that chaos,

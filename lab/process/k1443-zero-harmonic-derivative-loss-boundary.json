@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1443",
+  "title": "Zero-harmonic homological inversion is possible only with an optimal two-derivative cost",
+  "pinned_inputs": {
+    "k1442": {"path": "lab/process/k1442-zero-harmonic-phase-nonresonance.json", "sha256": "b57069b3937967f67eea00978e19fb7dd81ef197b51db697f3924b3e0af11aba"},
+    "k1436": {"path": "lab/process/k1436-radial-charge-density-curl-obstruction.json", "sha256": "8c51f122725c00e9248abd3e2dba78848722fb3762a861130faa248fadc89b8b"},
+    "k1437": {"path": "lab/process/k1437-same-tier-normal-form-boundary.json", "sha256": "737e738c482ea5fd6824cd3ceae3e668ce5e0ce4b52913bdd8bbdd094f76a986"}
+  },
+  "derivative_boundary": {
+    "homological_multiplier": "For fixed p!=0 define T_p by (T_p f)(k)=Phi_q(k,p)^(-1) f(k)",
+    "upper_bound": "The exact K1442 identity gives Phi_q(k,p)^(-1)<=C_(p,M_q)<k>^2, so T_p maps h^(s+2) continuously to h^s",
+    "optimality": "Along lattice-parallel k=j p, Phi_q(k,p)^(-1) is asymptotic to 2|k|^2/(M_q^2 |p|); no h^(s+alpha) to h^s bound with alpha<2 is possible",
+    "finite_tier_cauchy_consequence": "If cutoff forcing f_N is Cauchy in h^(s+2), then T_p f_N is Cauchy in h^s for each fixed nonzero Maxwell mode p",
+    "same_tier_boundary": "Strict zero-harmonic nonresonance removes K1435's exact resonance but does not restore a same-tier bounded normal form",
+    "full_pde_ceiling": "The scalar fixed-p multiplier does not include the differentiated current numerator, the sum over Maxwell modes, nonlinear composition, gauge constraints, semibounded energy, or a cutoff-uniform global flow"
+  },
+  "decision": {
+    "fixed_nonzero_mode_homological_inverse_constructed": true,
+    "two_derivative_mapping_bound_proved": true,
+    "two_derivative_loss_optimal": true,
+    "finite_tier_scalar_cauchy_implication_proved": true,
+    "same_tier_zero_harmonic_normal_form_bounded": false,
+    "full_nonlinear_zero_harmonic_normal_form_constructed": false,
+    "global_full_pde_flow_constructed": false,
+    "protected_status_change": false
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1440",
+  "title": "The Wick fourth-chaos vector has sharp negative free-Hamiltonian scale threshold five",
+  "pinned_inputs": {
+    "k1439": {"path": "lab/process/k1439-free-hamiltonian-form-domain-obstruction.json", "sha256": "abba12be4ee011fcd1f3a7655374b8165064722ff226f13fb58d2cf86fc677fb"}
+  },
+  "negative_scale": {
+    "quantity": "S_s(N)=||(H_0+1)^(-s/2)W_N||^2=24 sum_(k1+...+k4=0) product_i q_ki /(1+sum_i omega_ki)^s",
+    "lower_dyadic_blocks": "Disjoint comparable-momentum cone blocks of radius R contribute at least c R^(5-s); therefore S_s diverges for s<5 and has a non-summable constant contribution per dyadic block at s=5",
+    "upper_dyadic_blocks": "Order dyadic radii L~N1~N2>=N3>=N4, use momentum conservation to count by k1,k3,k4, and sum L^3 N3^3 N4^3 times L^-2 N3^-1 N4^-1; each largest-radius block is at most C L^5, so the weighted series converges for s>5",
+    "sharp_threshold": "W_N converges in the negative Hilbert scale D((H_0+1)^(-s/2)) for every s>5 and is unbounded there for every s<=5",
+    "interpretation": "Free-Hamiltonian smoothing exists only more than five powers below the Fock energy operator for this vacuum-to-four-particle vector; the ordinary form-dual exponent s=1 is far below threshold",
+    "scope": "This is a sharp statement for W_N Omega in the declared Gaussian/Fock control, not a construction of the full multiplication form on arbitrary states"
+  },
+  "decision": {
+    "negative_scale_identity_proved": true,
+    "sharp_squared_norm_threshold": 5,
+    "converges_for_every_s_greater_than_five": true,
+    "bounded_for_s_at_most_five": false,
+    "full_interaction_form_constructed": false,
+    "protected_status_change": false
+  }
+}

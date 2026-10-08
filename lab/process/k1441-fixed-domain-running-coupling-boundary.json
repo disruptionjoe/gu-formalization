@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1441",
+  "title": "Fixed-free-domain form control forces at least quadratic cutoff decay of the quartic coupling",
+  "pinned_inputs": {
+    "k1439": {"path": "lab/process/k1439-free-hamiltonian-form-domain-obstruction.json", "sha256": "abba12be4ee011fcd1f3a7655374b8165064722ff226f13fb58d2cf86fc677fb"}
+  },
+  "running_coupling_boundary": {
+    "scaled_interaction": "Use g_N V_N plus arbitrary deterministic vacuum and quadratic counterterms on the unchanged free form domain",
+    "necessary_bound": "K1439 gives ||(H_0+1)^(-1/2) g_N W_N||^2>=c |g_N|^2 N^4, so any cutoff-uniform form bound requires |g_N|=O(N^-2)",
+    "fixed_coupling_consequence": "Every fixed nonzero coupling, and every running coupling with N^2|g_N| unbounded, fails this necessary free-form-domain test",
+    "conditional_escape": "A coupling with |g_N|=O(N^-2) only removes this one vacuum-sector obstruction; it does not prove a nonzero interacting limit, semiboundedness, closability, convergence on other particle sectors, or source ownership",
+    "renormalization_ceiling": "The result says nothing against domain dressing, wavefunction or quartic-sector counterterms, non-Gaussian reference measures, or a strong-resolvent limit not obtained by fixed-domain KLMN convergence"
+  },
+  "decision": {
+    "quadratic_cutoff_decay_necessary_on_fixed_free_domain": true,
+    "fixed_nonzero_coupling_passes_free_form_test": false,
+    "quadratic_and_vacuum_counterterms_change_necessary_decay": false,
+    "vanishing_coupling_escape_constructs_nontrivial_interaction": false,
+    "all_renormalization_routes_excluded": false,
+    "protected_status_change": false
+  }
+}

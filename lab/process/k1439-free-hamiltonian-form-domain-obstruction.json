@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1439",
+  "title": "The three-dimensional Wick quartic is not uniformly controlled on the fixed free-Hamiltonian form domain",
+  "pinned_inputs": {
+    "k1430": {"path": "lab/process/k1430-free-second-quantized-hamiltonian.json", "sha256": "395a7396357bafac863c9d76e104139a8eb543500befff95b1393f95ff404b01"},
+    "k1433": {"path": "lab/process/k1433-three-dimensional-wick-chaos-obstruction.json", "sha256": "3c3f76b43e89c7917e9c66f2e74e2703ee36c4ac58f3a4bce41a665390fe1bd9"}
+  },
+  "declared_model": {
+    "representation": "K1430's symmetric Fock realization of the equal-time massive Gaussian field on normalized T^3",
+    "free_hamiltonian": "H_0=dGamma(omega), omega_k=sqrt(m^2+|k|^2), m>0",
+    "interaction_vector": "W_N=V_N Omega with V_N=integral :phi_N^4: dx and Omega the free vacuum",
+    "scope": "repository Gaussian/Fock control; not a released source Hamiltonian or a theorem about every renormalized representation"
+  },
+  "form_domain_obstruction": {
+    "dual_norm_identity": "||(H_0+1)^(-1/2)W_N||^2=24 sum_(k1+...+k4=0) product_i q_ki /(1+sum_i omega_ki), q_k=(2 omega_k)^(-1)",
+    "cone_lower_bound": "For 8|N and k1,k2,k3 componentwise in [N/8,N/4], k4=-(k1+k2+k3), the squared dual norm is bounded below by c_m N^4",
+    "necessary_form_test": "A cutoff-uniform sesquilinear form bound |<psi,V_N chi>|<=C||(H_0+1)^(1/2)psi||||(H_0+1)^(1/2)chi|| would make psi -> <psi,V_N Omega> uniformly continuous on the free form domain, contradicting the divergent dual norm",
+    "lower_chaos_counterterms": "Deterministic vacuum and quadratic counterterms occupy zeroth and second particle/chaos sectors and cannot cancel W_N's fourth-particle component",
+    "conclusion": "Fixed nonzero coupling Wick multiplication is not uniformly KLMN-form-bounded on D((H_0+1)^(1/2)) when only deterministic mass and vacuum counterterms are added",
+    "operator_ceiling": "This excludes the fixed-free-domain form route only; it does not exclude cutoff-dependent unitary dressing, field-strength or quartic counterterms, domain change, or a non-form strong-resolvent construction"
+  },
+  "decision": {
+    "free_form_dual_norm_identity_proved": true,
+    "three_dimensional_free_form_dual_lower_bound_order": "N^4",
+    "uniform_fixed_coupling_free_form_bound": false,
+    "quadratic_and_vacuum_counterterms_cancel_four_particle_sector": false,
+    "all_interacting_resolvent_limits_excluded": false,
+    "source_hamiltonian_identified": false,
+    "protected_status_change": false
+  }
+}
