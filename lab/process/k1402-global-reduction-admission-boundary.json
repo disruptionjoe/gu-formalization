@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1402",
+  "title": "Bounded-charge global reduction admission boundary",
+  "pinned_inputs": {
+    "k1397": {"path": "lab/process/k1397-bounded-charge-global-evolution.json", "sha256": "01effc47077c396d5cf7849fe23ecbe07aa510e63d014a8f529c7d2230f4ef47"},
+    "k1398": {"path": "lab/process/k1398-cutoff-uniform-global-boundary.json", "sha256": "f77f9061dca9ba40dea920c38edff295575c082f4c01469adc3d0dd1c0e0b85b"},
+    "k1399": {"path": "lab/process/k1399-closed-nonlinear-gauge-range.json", "sha256": "5640cb3e76f93baf8661e5a7385e8d456d5a851d1cbfee64240ee1386aa6d20c"},
+    "k1400": {"path": "lab/process/k1400-global-coulomb-slice-proper-quotient.json", "sha256": "d685705ac6ac98a654b14cbae344b13691b5b92505fbb2f69cc92b1d44e4e86a"},
+    "k1401": {"path": "lab/process/k1401-bounded-sector-reduced-global-flow.json", "sha256": "5366d37549a19b739dd54eaf18699cd10d915278c0570b77265063d10fa1bc24"}
+  },
+  "bridge_census": {
+    "row_count": 71,
+    "satisfied_count": 48,
+    "conditional_count": 6,
+    "excluded_count": 13,
+    "missing_count": 4,
+    "new_satisfied_rows": [
+      "every fixed bounded-charge sector has global large-data evolution",
+      "the nonlinear gauge generator has closed range on the triangular domain",
+      "the completed configuration space has a global Coulomb slice and proper residual compact quotient",
+      "each fixed-sector global flow descends to a continuous proper classical quotient"
+    ],
+    "new_excluded_rows": [
+      "cutoff-uniform global completion by the current base-energy-only restart argument"
+    ],
+    "missing_rows": [
+      "source-owned compact-generator selection and normalization on the observed carrier",
+      "identification with one source action",
+      "cutoff-uniform completed global BV-BFV flow with boundary data and positive physical Hilbert cohomology",
+      "source-owned observed-state/export map"
+    ]
+  },
+  "distance_update": {
+    "closed": [
+      "global large-data propagation on every fixed bounded-charge sector",
+      "closed nonlinear gauge-generator range on the completed triangular domain",
+      "global Coulomb slice, proper residual compact quotient and fixed-sector descended classical flow"
+    ],
+    "excluded": [
+      "the current base-energy-only fixed-sector argument as a cutoff-uniform completed global theorem"
+    ],
+    "opened_or_sharpened": [
+      "a cutoff-uniform invariant controlling the K1371 high-charge concentration",
+      "full BV-BFV boundary and exactness data beyond the proper classical quotient",
+      "positive nonzero physical Hilbert cohomology on a source-owned carrier"
+    ],
+    "unchanged": [
+      "source selection and normalization",
+      "source action ownership",
+      "source observation/export ownership"
+    ]
+  },
+  "decision": {
+    "fixed_sector_global_large_data_evolution_constructed": true,
+    "closed_nonlinear_gauge_range_constructed": true,
+    "proper_classical_coulomb_quotient_constructed": true,
+    "fixed_sector_global_reduced_flow_constructed": true,
+    "completed_unbounded_charge_global_flow_constructed": false,
+    "full_bv_bfv_boundary_theory_constructed": false,
+    "positive_gu_physical_hilbert_cohomology_constructed": false,
+    "source_selected_reduction_constructed": false,
+    "k1145_k1150_candidate_counts_move": false,
+    "protected_status_change": false
+  },
+  "source_and_ledger_effect": "SOURCE_REGISTER_UNCHANGED; LEDGER_UNCHANGED; SC-ACT-01/02/06 ASSERTS; SC-META-53 UNCERTAIN; LT-SM8/LT-GR6b/RA-F1/AC-F1 NEEDS; K1145/K1150 0/7"
+}

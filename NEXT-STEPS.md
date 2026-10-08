@@ -7,6 +7,20 @@ updated_at: "2026-10-07"
 
 # Next Steps For Contributors
 
+> **2026-10-07 K1397--K1402 BOUNDED-CHARGE GLOBAL REDUCTION.** Every fixed
+> bounded-charge sector now has global large-data evolution by conserved
+> energy, Coulomb/Hodge control and energy-subcritical continuation; bounded
+> recurrent coefficients are allowed. The result is not cutoff uniform:
+> `||Q_N||<=N` enters the restart bound, while K1371 blocks a base-energy-only
+> passage to the completed unbounded-charge flow. Independently, the nonlinear
+> gauge generator has closed range on the triangular domain, and the global
+> Coulomb slice leaves a proper compact residual quotient carrying a continuous
+> descended fixed-sector flow. Next construct a cutoff-uniform invariant
+> controlling the K1371 concentration and one completed low tier; separately
+> complete BV-BFV boundary/exactness data and positive physical Hilbert
+> cohomology. The source-owned selector and normalization remain independent.
+> Do not promote the proper classical quotient to GU quantum physical closure.
+
 > **2026-10-07 K1391--K1396 COMPLETED TRIANGULAR FLOW.** Charge spectral
 > cutoffs now construct bounded-sector local solutions and converge, using one
 > additional triangular tier, to a unique completed local strong flow with

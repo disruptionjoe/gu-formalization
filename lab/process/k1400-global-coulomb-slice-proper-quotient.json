@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1400",
+  "title": "The completed configuration space has a global Coulomb slice and proper residual quotient",
+  "pinned_inputs": {
+    "k1394": {
+      "path": "lab/process/k1394-admissible-gauge-continuation.json",
+      "sha256": "037862eaece6a0bf762c1ac427869121c9cc14d54a5a616b3ec4642571da3d09"
+    },
+    "k1399": {
+      "path": "lab/process/k1399-closed-nonlinear-gauge-range.json",
+      "sha256": "5640cb3e76f93baf8661e5a7385e8d456d5a851d1cbfee64240ee1386aa6d20c"
+    }
+  },
+  "coulomb_quotient": {
+    "bundle_scope": "The repository control uses the trivial Abelian bundle on T3 and the connected triangular-domain gauge group",
+    "hodge_solve": "For every spatial connection A, the unique mean-zero chi_0 solving Delta chi_0=-div A sends A to div A_C=0",
+    "based_uniqueness": "Two Coulomb representatives related by a mean-zero gauge function differ by harmonic chi_0, hence chi_0=0",
+    "residual_group": "The remaining transformations are constant compact U(1), acting strongly continuously by phi mapsto exp(i e c Q)phi while leaving A_C fixed",
+    "properness": "A continuous action of compact U(1) is proper; therefore the Coulomb slice modulo residual U(1) is Hausdorff and the orbit projection is closed",
+    "triangular_compatibility": "K1394's combined derivative-plus-charge estimate makes the slice change and residual action bounded automorphisms of every finite triangular tier",
+    "energy_descent": "The positive repository energy and closed Gauss surface are gauge invariant and descend to the classical quotient",
+    "boundary": "This is a global classical configuration/constraint quotient for the repository model, not a source-selected observed-state space, BFV boundary phase space or Hilbert cohomology"
+  },
+  "decision": {
+    "global_coulomb_slice_constructed": true,
+    "based_gauge_orbit_representative_unique": true,
+    "residual_compact_group_identified": true,
+    "residual_action_proper": true,
+    "classical_quotient_hausdorff": true,
+    "positive_classical_energy_descends": true,
+    "source_observed_state_space_identified": false,
+    "bfv_boundary_phase_space_constructed": false,
+    "protected_status_change": false
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1399",
+  "title": "The nonlinear gauge generator has closed range on the triangular domain",
+  "pinned_inputs": {
+    "k1373": {
+      "path": "lab/process/k1373-closed-nonlinear-gauss-constraint.json",
+      "sha256": "bbbd3f59c32fa7bf258aa96b306105af8734be76a146e1fe4a77512fe5394223"
+    },
+    "k1394": {
+      "path": "lab/process/k1394-admissible-gauge-continuation.json",
+      "sha256": "037862eaece6a0bf762c1ac427869121c9cc14d54a5a616b3ec4642571da3d09"
+    }
+  },
+  "closed_range": {
+    "generator": "At a triangular-domain configuration (A,phi), R_(A,phi) chi=(d chi,i e chi Qphi)",
+    "parameter_split": "H^(s+1)(T3;R)=R constants direct_sum H^(s+1)_0 mean-zero functions",
+    "based_lower_bound": "Poincare gives ||chi_0||_(H^(s+1))<=C||d chi_0||_(H^s), so the connection component alone makes the based generator bounded below",
+    "matter_continuity": "Triangular multiplication estimates make chi map to chi Qphi continuous at the declared finite tier; this term cannot destroy the derivative lower bound",
+    "constant_part": "Constants have at most one-dimensional image span{(0,i e Qphi)} and a closed kernel when Qphi=0",
+    "closed_sum": "The based image is closed and the constant image is finite dimensional; their sum is the full closed gauge-generator range",
+    "kt_effect": "The degree-minus-one nonlinear KT/gauge map has closed range at every admitted configuration, and its stabilizer is explicit",
+    "boundary": "Closed gauge range is not exactness of the full BV complex, a BFV boundary construction, quantization or positive physical Hilbert cohomology"
+  },
+  "decision": {
+    "based_gauge_generator_bounded_below": true,
+    "constant_gauge_image_closed": true,
+    "full_nonlinear_gauge_generator_range_closed": true,
+    "configuration_stabilizer_explicit": true,
+    "full_bv_complex_exactness_constructed": false,
+    "bfv_boundary_theory_constructed": false,
+    "positive_physical_hilbert_cohomology_constructed": false,
+    "protected_status_change": false
+  }
+}

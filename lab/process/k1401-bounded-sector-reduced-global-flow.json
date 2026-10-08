@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1401",
+  "title": "Fixed-sector global evolution descends to the proper classical quotient",
+  "pinned_inputs": {
+    "k1397": {
+      "path": "lab/process/k1397-bounded-charge-global-evolution.json",
+      "sha256": "01effc47077c396d5cf7849fe23ecbe07aa510e63d014a8f529c7d2230f4ef47"
+    },
+    "k1400": {
+      "path": "lab/process/k1400-global-coulomb-slice-proper-quotient.json",
+      "sha256": "d685705ac6ac98a654b14cbae344b13691b5b92505fbb2f69cc92b1d44e4e86a"
+    }
+  },
+  "reduced_flow": {
+    "constraint_surface": "Use K1373's closed neutral Gauss surface inside each fixed P_N phase space",
+    "equivariance": "The scalar-electrodynamics equations, Gauss constraint and conserved energy are equivariant under the admitted compact-circle gauge action",
+    "global_representative_flow": "K1397 supplies a global strong flow for smooth data and a global finite-energy flow on each fixed bounded-charge sector",
+    "descent": "Uniqueness and gauge equivariance identify gauge-related solution curves, so the representative flow descends to a single-valued global flow on the Coulomb quotient",
+    "continuity": "K1391 continuous dependence together with Coulomb projection and compact quotient topology gives a continuous reduced flow on every fixed sector",
+    "positive_invariant": "The nonnegative conserved classical energy is constant on gauge orbits and remains a coercive invariant on the reduced fixed-sector flow modulo harmonic connection motion",
+    "cutoff_boundary": "The family of reduced flows is defined for every finite N but no cutoff-uniform completed global reduced flow follows",
+    "physical_boundary": "A nonlinear classical reduced dynamical system is not a BV-BFV quantization or a positive nonzero GU physical Hilbert cohomology theorem"
+  },
+  "decision": {
+    "fixed_sector_global_flow_descends": true,
+    "reduced_flow_single_valued": true,
+    "reduced_flow_continuous": true,
+    "positive_conserved_classical_invariant_descends": true,
+    "cutoff_uniform_reduced_global_flow_constructed": false,
+    "positive_gu_physical_hilbert_cohomology_constructed": false,
+    "source_action_identified": false,
+    "protected_status_change": false
+  }
+}

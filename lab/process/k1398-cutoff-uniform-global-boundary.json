@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1398",
+  "title": "Fixed-sector globalization is not a cutoff-uniform completion theorem",
+  "pinned_inputs": {
+    "k1371": {
+      "path": "lab/process/k1371-gauss-source-hminus1-obstruction.json",
+      "sha256": "fe6dbac406cdd22d7c85112b530acb44b14a8de7520a6ea0c374944f3c7f07c0"
+    },
+    "k1392": {
+      "path": "lab/process/k1392-completed-triangular-local-flow.json",
+      "sha256": "c73294acb0a8f2ef531588e18da90a920e7298d0b73d97817dac230b541b4ef5"
+    },
+    "k1397": {
+      "path": "lab/process/k1397-bounded-charge-global-evolution.json",
+      "sha256": "01effc47077c396d5cf7849fe23ecbe07aa510e63d014a8f529c7d2230f4ef47"
+    }
+  },
+  "uniformity_audit": {
+    "bounded_generator_step": "K1397 converts covariant to ordinary low norms using ||Q_N||<=N, so its restart constant is explicitly cutoff dependent",
+    "energy_sequence": "K1371 supplies smooth neutral data with bounded K1366 energy but Gauss density unbounded in H^-1 as charge and spatial frequency rise together",
+    "local_completion": "K1392 removes cutoff dependence on one common interval only by assuming one additional completed triangular tier",
+    "iteration_gap": "No conserved or uniformly bounded completed triangular low norm has been constructed for arbitrary large data, so the local cutoff convergence cannot yet be iterated to every time",
+    "logical_effect": "The current energy-only fixed-sector globalization route is not cutoff uniform. This is a route boundary, not a counterexample to existence of a different global completed flow",
+    "reopeners": "A cutoff-uniform low triangular bound, modified conserved energy, resonant normal form, summable hierarchy or another invariant controlling the K1371 concentration reopens global completion",
+    "boundary": "N-dependent global existence for every cutoff and local convergence for the completed flow do not commute automatically with N to infinity and T to infinity"
+  },
+  "decision": {
+    "fixed_sector_global_theorem_preserved": true,
+    "current_restart_constant_cutoff_dependent": true,
+    "base_energy_uniform_completion_route_excluded": true,
+    "local_completed_flow_preserved": true,
+    "all_global_completed_flow_mechanisms_excluded": false,
+    "completed_unbounded_charge_global_flow_constructed": false,
+    "protected_status_change": false
+  }
+}

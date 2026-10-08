@@ -7,6 +7,26 @@ updated_at: "2026-10-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1397--K1402 bounded-charge global reduction (2026-10-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Every fixed bounded-charge sector is global | K1397 conserved-energy, Coulomb/Hodge and energy-subcritical continuation packet; `23/23`; `12/12` | exact large-data global evolution and smooth persistence for each fixed `N`; constants may depend on `N` |
+| The fixed-sector theorem completes the unbounded charge flow | K1398 cutoff-dependence and K1371 concentration composition; `21/21`; `11/11` | false for the present base-energy-only route; other cutoff-uniform mechanisms remain open |
+| The nonlinear gauge generator has closed range | K1399 Poincare lower bound plus finite-dimensional constant image; `24/24`; `11/11` | exact closed range on each admitted triangular tier; not full BV exactness |
+| The configuration quotient is globally proper | K1400 Hodge solve, unique based Coulomb representative and compact residual `U(1)`; `23/23`; `11/11` | exact proper Hausdorff classical quotient on the trivial Abelian bundle; no BFV boundary phase space |
+| Global dynamics descends | K1401 equivariance, uniqueness and quotient continuity; `22/22`; `12/12` | exact continuous descended global flow on each fixed sector with positive conserved classical energy |
+| The advance closes GU physical admission | K1402 71-row bridge census; `29/29`; `12/12` | forty-eight satisfied, six conditional, thirteen excluded and four missing; completed global flow, source selection and physical Hilbert cohomology remain open |
+
+The six producers pass `142/142` controls and six probes reject `69/69`
+hostile mutations. The compact-torus recurrence obstruction no longer blocks
+fixed-sector global evolution, and the nonlinear classical gauge quotient is
+now closed and proper. The exact remaining analytic seam is cutoff-uniform
+control of the completed charge hierarchy. SC-ACT-01/02/06 remain `ASSERTS`,
+SC-META-53 remains `UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`,
+and K1145/K1150 stay `0/7`. No source, ledger, canon, paper, prediction,
+confirmation or public status moves.
+
 ## K1391--K1396 completed triangular flow (2026-10-07)
 
 | Claim | Evidence | Honest grade |

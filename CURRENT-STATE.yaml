@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 62c5aaf749f3f30c4dcb0b7338f475df9f1cf7ef
+revision_basis: 87e89f8149a1b55028fa8a9aa5da6ab9f931e6c6
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1397--K1402 prove global large-data evolution for every fixed bounded-
+    charge sector of the repository scalar-electrodynamics control. The proof
+    uses conserved energy, Coulomb/Hodge control and energy-subcritical
+    continuation, so it permits bounded recurrent coefficients. It is not
+    cutoff uniform: the low-norm conversion uses `||Q_N||<=N`, and K1371's
+    concentration sequence prevents a base-energy-only passage to the
+    completed unbounded-charge flow. Independently, the nonlinear gauge
+    generator has closed range on the triangular domain; a global Coulomb
+    slice removes the based gauge group, leaves proper residual compact
+    `U(1)`, and supports a continuous descended global flow on every fixed
+    sector. This is a proper classical quotient, not full BV-BFV boundary
+    theory or GU physical Hilbert cohomology. The 71-row census is forty-eight
+    satisfied, six conditional, thirteen excluded and four missing;
+    K1145/K1150 remain 0/7 and protected statuses do not move.
+
     K1391--K1396 construct the completed finite-triangular local flow left open
     by K1390. Charge spectral cutoffs give bounded-generator local solutions;
     a uniform higher-tier estimate and one-tier difference inequality make
@@ -14366,6 +14381,20 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1397--K1402 prove that bounded recurrent coefficients are compatible with
+  global large-data dynamics on every fixed charge sector and construct
+  closed nonlinear gauge range, a global Coulomb slice, a proper residual
+  compact quotient and a descended fixed-sector flow. The exact remaining
+  analytic gate is cutoff uniformity: which modified conserved energy,
+  resonant normal form, summable hierarchy or other invariant controls the
+  K1371 high-charge/high-frequency concentration and propagates one completed
+  triangular low tier globally? In parallel, which full BV-BFV boundary and
+  exactness data extend the proper classical quotient to positive nonzero
+  physical Hilbert cohomology? Independently, which source/action-owned
+  observed-carrier selector fixes `Q` and its normalization? Do not transfer
+  fixed-sector globalization or compact properness to the unbounded completed
+  flow, quantization or GU physical closure.
+
   K1391--K1396 construct a unique completed triangular local strong flow,
   propagate Lorenz and Gauss constraints, and make the finite-time
   continuation alternative invariant under regular admissible gauge changes.
@@ -16532,6 +16561,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1397--K1402's global and reduction boundaries. Every fixed
+  bounded-charge sector has global large-data evolution and a continuous
+  descended flow on the proper Coulomb quotient; the nonlinear gauge
+  generator range is closed on the completed triangular domain. The proof is
+  not uniform in the charge cutoff and does not construct the completed
+  unbounded-charge global flow. Advance with a cutoff-uniform invariant that
+  controls the K1371 concentration and globally propagates one completed
+  triangular low tier. Separately construct the full BV-BFV boundary/exactness
+  packet and positive physical Hilbert cohomology, and derive a source-owned
+  selector and normalization. Do not call the classical quotient a
+  source-owned quantum physical state space.
+
   Preserve K1391--K1396's constructive and exclusion boundaries. The completed
   finite triangular flow is locally strong, unique, continuously dependent,
   constraint preserving and continuation invariant under regular admissible

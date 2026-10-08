@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1397",
+  "title": "Every fixed bounded-charge sector has global large-data evolution",
+  "pinned_inputs": {
+    "k1366": {
+      "path": "lab/process/k1366-positive-charge-regularizer.json",
+      "sha256": "72075a863129fee1dff04d931a02dd083bf01c6c2f20ed76cab940cdcec24a22"
+    },
+    "k1391": {
+      "path": "lab/process/k1391-bounded-charge-local-evolution.json",
+      "sha256": "cc703445eba557b90c554b87b213b86884e2d04492ddeac0392d9c48d233a5fe"
+    },
+    "k1395": {
+      "path": "lab/process/k1395-compact-torus-coefficient-integrability-obstruction.json",
+      "sha256": "6cb16e1eda470177a1c935fd6791fa8c3eed8b2235b4adddeeb8bb51e54162bf"
+    }
+  },
+  "bounded_sector_globalization": {
+    "sector": "P_N=1_[-N,N](Q) with fixed finite N; Q_N is bounded by N although ran(P_N) may have infinite internal multiplicity",
+    "gauge": "Use the global Coulomb representative on the trivial bundle over T3, separating the spatial harmonic connection mode from the zero-mean transverse mode",
+    "conserved_energy": "E_mu controls electric and magnetic L2 energy, covariant matter H1 energy, matter momentum, mass, quartic defocusing potential and mu||Q_N phi||_2^2",
+    "connection_control": "Hodge and Poincare control the zero-mean transverse A in H1 by curl A; the harmonic mode changes at a rate bounded by the electric L2 energy and is therefore finite on every finite interval",
+    "matter_control": "The diamagnetic inequality controls |phi| in H1; bounded Q_N and finite-interval connection control convert D_A phi to ordinary H1 control without a charge-domain loss",
+    "continuation": "The three-dimensional cubic Maxwell--matter system is energy subcritical. The K1391 local solution can be restarted from every finite time with a lifespan determined by the finite low norm on that interval",
+    "higher_regular_persistence": "Standard differentiated semilinear energy estimates on each fixed sector propagate every smooth Sobolev and finite triangular tier once the low solution exists globally",
+    "recurrent_compatibility": "The proof iterates finite intervals from a conserved/coercive low energy and permits bounded recurrent coefficients; it does not require any global L1_t coefficient",
+    "boundary": "Every estimate may depend on N and on the finite time horizon. This theorem does not construct the completed unbounded-charge global flow or a source-owned action"
+  },
+  "decision": {
+    "fixed_bounded_charge_global_large_data_evolution_constructed": true,
+    "finite_interval_low_norm_control_constructed": true,
+    "smooth_higher_regular_persistence_constructed": true,
+    "bounded_recurrent_coefficients_admitted": true,
+    "cutoff_uniform_global_bound_constructed": false,
+    "completed_unbounded_charge_global_flow_constructed": false,
+    "source_action_identified": false,
+    "protected_status_change": false
+  }
+}
