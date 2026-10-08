@@ -7,6 +7,23 @@ updated_at: "2026-10-08"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1508--K1512 total-variation bump rate (2026-10-08)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K1498's contraction decay has no quantitative distributional consequence | K1508 fixed-chaos Malliavin--Stein estimate | false: `d_TV(X_N,Z)=O(N^-3/2(1+log N)^4)` |
+| A transferred trial cannot reach the `sqrt(log N)` scale | K1509 fixed-width rare Gaussian bump | false: for every `alpha<3/2` its quotient is at most `-(1-o(1))sqrt(2 alpha log N)` |
+| K1505's `sqrt(log N/log log N)` descent is the best current rate | K1510 Malliavin chain-rule free-cost comparison | false: every `c<sqrt(3)` gives `E_N<=6gC_N^2-cg sigma_N sqrt(log N)` eventually |
+| A smaller scalar shift can retain fixed-Gaussian semibounded Mosco behavior | K1511 weak compactness and harmonic-vacuum tensor transfer | false when the normalized recentering limsup is strictly below `sqrt(3)` |
+| `sqrt(3)` is the optimal coefficient or the true ground-energy asymptotic | K1508--K1511 hostile scope audit | not established: it is the boundary of the current total-variation exponent, with no matching many-chaos lower bound, localization, compactness or Mosco recovery |
+| The advance closes GU physical admission | K1512 212-row bridge census | 135 satisfied, ten conditional, 63 excluded and four missing |
+
+The five producers pass `108/108` controls and five hostile probes reject
+`75/75` mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
+`0/7`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
+
 ## K1503--K1507 quantitative growing Krylov rate (2026-10-08)
 
 | Claim | Evidence | Honest grade |

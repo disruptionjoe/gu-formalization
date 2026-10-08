@@ -7,6 +7,21 @@ updated_at: "2026-10-08"
 
 # Next Steps For Contributors
 
+> **2026-10-08 K1508--K1512 TOTAL-VARIATION BUMP RATE.** K1498's normalized
+> contractions and the fixed-chaos Malliavin--Stein theorem give
+> `d_TV(X_N,Z)=O(N^-3/2(1+log N)^4)`. A compact bump centered at
+> `R_N=sqrt(2 alpha log N)`, for any `alpha<3/2`, has Gaussian mass
+> `N^-alpha-o(1)`, dominates that transfer error, and has multiplication
+> quotient `-(1-o(1))sqrt(2 alpha log N)`. The Malliavin chain rule bounds its
+> normalized free cost by `N^(1+alpha+o(1))`, which is lower order than
+> `sigma_N sqrt(log N)`. Hence every `c<sqrt(3)` satisfies
+> `E_N<=6gC_N^2-cg sigma_N sqrt(log N)` eventually, and every smaller scalar
+> recentering window fails fixed-Gaussian Mosco weak liminf, including after
+> harmonic BRST transfer. Next prove a matching many-chaos kinetic-localization
+> or small-ball lower boundary for the true ground energy, then address
+> ground-energy recentering, compactness and Mosco recovery. Do not call
+> `sqrt(3)` optimal or infer a matching asymptotic from this one-sided trial.
+
 > **2026-10-08 K1503--K1507 QUANTITATIVE GROWING KRYLOV RATE.** Every
 > non-Gaussian complete-pairing diagram contains a nontrivial normalized
 > fourth-chaos contraction, while all diagram and coefficient multiplicities

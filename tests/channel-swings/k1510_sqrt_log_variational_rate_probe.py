@@ -1,0 +1,10 @@
+#!/usr/bin/env python3
+"""Hostile mutations for K1510."""
+import copy,json
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[2];D=json.loads((ROOT/'lab/process/k1510-sqrt-log-variational-rate.json').read_text())
+def valid(d):
+ f,r,q=d['free_cost'],d['variational_rate'],d['decision'];return all([d['claim_id']=='K1510','D b_N(X_N)' in f['chain_rule'],'=4' in f['chain_rule'],'omega_max(N)=O(N)' in f['frequency_bound'],'N^(1+alpha+o(1))' in f['normalized_cost'],'N^(5/2)' in f['interaction_scale'],'alpha-3/2' in f['dominance'],'sqrt(2 alpha)' in r['alpha_form'],'c<sqrt(3)' in r['uniform_form'],'>=sqrt(3)' in r['ratio_form'],'not a claimed optimal' in r['constant_ceiling'],q['sqrt_log_variational_rate_proved'],q['log_log_loss_removed'],q['rate_is_one_sided_variational'],not q['sqrt_three_is_optimal_constant'],not q['matching_ground_energy_lower_bound_proved'],not q['protected_status_change']])
+mut=[('claim',lambda d:d.update(claim_id='bad')),('chain',lambda d:d['free_cost'].update(chain_rule='unknown')),('norm',lambda d:d['free_cost'].update(chain_rule='D b')),('frequency',lambda d:d['free_cost'].update(frequency_bound='unknown')),('cost',lambda d:d['free_cost'].update(normalized_cost='O(1)')),('interaction',lambda d:d['free_cost'].update(interaction_scale='unknown')),('dominance',lambda d:d['free_cost'].update(dominance='none')),('alpha',lambda d:d['variational_rate'].update(alpha_form='fixed')),('constant',lambda d:d['variational_rate'].update(uniform_form='c=4')),('liminf',lambda d:d['variational_rate'].update(ratio_form='unknown')),('ceiling',lambda d:d['variational_rate'].update(constant_ceiling='optimal')),('deny',lambda d:d['decision'].update(sqrt_log_variational_rate_proved=False)),('claim optimal',lambda d:d['decision'].update(sqrt_three_is_optimal_constant=True)),('claim lower',lambda d:d['decision'].update(matching_ground_energy_lower_bound_proved=True)),('status',lambda d:d['decision'].update(protected_status_change=True))]
+for i,(label,f) in enumerate(mut,1):x=copy.deepcopy(D);f(x);assert not valid(x),label;print(f'PASS {i:02d}: rejected {label}')
+print(f'RESULT: PASS {len(mut)}/{len(mut)}')

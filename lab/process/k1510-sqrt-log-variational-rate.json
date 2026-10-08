@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1510",
+  "title": "Square-root-logarithmic Wick variational rate from a Malliavin bump trial",
+  "pinned_inputs": {
+    "k1509": {"path": "lab/process/k1509-rare-gaussian-bump-transfer.json", "sha256": "afbd3610245d0917b391db44bf5bac3885de9c6f065e965e7469f04394573715"}
+  },
+  "free_cost": {
+    "chain_rule": "D b_N(X_N)=b_N'(X_N) D X_N and E||D X_N||^2=4",
+    "frequency_bound": "H0=dGamma(omega) and omega_max(N)=O(N), so q0[b_N(X_N)]<=4 ||b'||_infinity^2 omega_max(N)=O(N)",
+    "normalized_cost": "q0[b_N(X_N)]/E[b_N(X_N)^2]<=N^(1+alpha+o(1))",
+    "interaction_scale": "sigma_N R_N=Theta(N^(5/2) sqrt(log N))",
+    "dominance": "N^(1+alpha+o(1))/(sigma_N R_N)=N^(alpha-3/2+o(1))/sqrt(log N) tends to zero for alpha<3/2"
+  },
+  "variational_rate": {
+    "alpha_form": "For every fixed 0<alpha<3/2, E_N<=6gC_N^2-(sqrt(2 alpha)-o(1))g sigma_N sqrt(log N)",
+    "uniform_form": "For every c<sqrt(3), E_N<=6gC_N^2-c g sigma_N sqrt(log N) eventually",
+    "ratio_form": "liminf_N (6gC_N^2-E_N)/(g sigma_N sqrt(log N))>=sqrt(3)",
+    "constant_ceiling": "sqrt(3) is the boundary delivered by K1498's present total-variation exponent, not a claimed optimal ground-energy constant"
+  },
+  "decision": {
+    "sqrt_log_variational_rate_proved": true,
+    "log_log_loss_removed": true,
+    "rate_is_one_sided_variational": true,
+    "sqrt_three_is_optimal_constant": false,
+    "matching_ground_energy_lower_bound_proved": false,
+    "protected_status_change": false
+  }
+}

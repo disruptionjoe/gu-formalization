@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1511",
+  "title": "Square-root-logarithmic scalar recentering and harmonic-BRST boundary",
+  "pinned_inputs": {
+    "k1471": {"path": "lab/process/k1471-finite-cutoff-interacting-brst-composition.json", "sha256": "abac4797efb8dc9b2c66024a34196084abd7b7a07f4b483fb3db6a8c4099bcb1"},
+    "k1510": {"path": "lab/process/k1510-sqrt-log-variational-rate.json", "sha256": "86e2d0e5402046defe3898a5ecfff4a1212dbb4484684169992691461ea2393b"}
+  },
+  "recentering_boundary": {
+    "necessary_scale": "Uniform semiboundedness of H_N-a_N requires liminf (6gC_N^2-a_N)/(g sigma_N sqrt(log N))>=sqrt(3)",
+    "excluded_window": "Every scalar family with limsup (6gC_N^2-a_N)/(g sigma_N sqrt(log N))<sqrt(3) has bottoms tending to minus infinity",
+    "weak_compactness": "The normalized bump trials lie in the fixed Gaussian unit ball and therefore have weakly convergent subsequences; the weak limit may be zero",
+    "mosco_failure": "Along every excluded window the recentered form values tend to minus infinity, contradicting weak Mosco liminf for every finite semibounded candidate form",
+    "brst_transfer": "Tensoring with K1471's fixed normalized degree-zero harmonic BRST vacuum preserves the values, weak convergence and exclusion window"
+  },
+  "decision": {
+    "sqrt_log_recentering_necessity_proved": true,
+    "fixed_gaussian_mosco_weak_liminf_window_excluded": true,
+    "harmonic_brst_window_excluded": true,
+    "ground_energy_recentered_limit_constructed": false,
+    "mosco_recovery_proved": false,
+    "changed_representation_excluded": false,
+    "protected_status_change": false
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1509",
+  "title": "Rare negative Gaussian bump transfer below the total-variation exponent",
+  "pinned_inputs": {
+    "k1508": {"path": "lab/process/k1508-fourth-chaos-total-variation-rate.json", "sha256": "e8587c648d8de502fe01ba4193472db5a77490709755cf9407b7de7dad344bb6"}
+  },
+  "bump_trial": {
+    "profile": "Fix b in C_c^1(R), 0<=b<=1, supp(b) subset [-1,0], and b=1 on [-3/4,-1/4]",
+    "radius": "For fixed 0<alpha<3/2 let R_N=sqrt(2 alpha log N) and b_N(x)=b(x+R_N)",
+    "gaussian_mass": "p_N=E[b_N(Z)^2]>=c exp(-(R_N+1)^2/2)=N^(-alpha-o(1))",
+    "transfer_margin": "epsilon_N/p_N=N^(alpha-3/2+o(1))(1+log N)^4 tends to zero",
+    "cutoff_norm": "E[b_N(X_N)^2]=p_N(1+o(1))",
+    "cutoff_numerator": "E[X_N b_N(X_N)^2]<=-R_N p_N+O(R_N epsilon_N)",
+    "quotient": "E[X_N b_N(X_N)^2]/E[b_N(X_N)^2]<=-(1-o(1))sqrt(2 alpha log N)"
+  },
+  "decision": {
+    "rare_bump_mass_transferred": true,
+    "negative_sqrt_log_multiplication_quotient_proved": true,
+    "endpoint_alpha_three_halves_transferred": false,
+    "tail_or_moderate_deviation_asymptotic_proved": false,
+    "protected_status_change": false
+  }
+}
