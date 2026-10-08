@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1505",
+  "title": "Quantitative Wick-Krylov variational rate",
+  "pinned_inputs": {
+    "k1504": {"path": "lab/process/k1504-growing-hermite-trial.json", "sha256": "1b8f7dedbed7caad845fdd45e188bad9e63cc4861a668db729a6b36842a87bf7"}
+  },
+  "scale_comparison": {
+    "degree": "d_N=Theta(log N/log log N)",
+    "chaos_ceiling": "p_N(X_N) has Wiener chaos degree at most 4d_N",
+    "free_cost": "<p_N,H0 p_N>/||p_N||^2<=4d_N omega_max(N)=O(N d_N)",
+    "interaction_gain": "cutoff multiplication contribution<=-(g sigma_N/2)sqrt(d_N)",
+    "dominance": "N d_N/(sigma_N sqrt(d_N))=O(sqrt(d_N)/N^(3/2))->0 because sigma_N=Theta(N^(5/2))"
+  },
+  "variational_rate": {
+    "energy_bound": "E_N<=6gC_N^2-c g sigma_N sqrt(log N/log log N) for some universal c>0 and every fixed g>0 eventually",
+    "ratio_bound": "(6gC_N^2-E_N)/(g sigma_N)>=c sqrt(log N/log log N)"
+  },
+  "decision": {
+    "explicit_divergent_rate_proved": true,
+    "rate_is_one_sided_variational": true,
+    "rate_is_sharp": false,
+    "matching_ground_energy_lower_bound_proved": false,
+    "protected_status_change": false
+  }
+}

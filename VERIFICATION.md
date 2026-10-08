@@ -7,6 +7,23 @@ updated_at: "2026-10-08"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1503--K1507 quantitative growing Krylov rate (2026-10-08)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K1498's contraction decay has no controlled growing-moment consequence | K1503 complete-pairing partition and first nontrivial contraction cut | false: moments are uniformly Gaussian through `M_N=floor(eta log N/log log N)` for sufficiently small universal `eta` |
+| A cutoff-dependent Hermite degree still cannot be chosen | K1504 Hermite coefficient envelope and explicit last-two-coordinate trial | false in a nonoptimal window: `d_N=floor(M_N/3)` transfers with quotient at most `-sqrt(d_N)/2` |
+| The super-`sigma_N` variational correction has no explicit rate | K1505 chaos ceiling, free-cost estimate and interaction comparison | false: `(6gC_N^2-E_N)/(g sigma_N)>=c sqrt(log N/log log N)` for some `c>0` |
+| A smaller scalar shift can retain fixed-Gaussian semibounded Mosco behavior | K1506 weak compactness and harmonic-vacuum tensor transfer | false below the displayed growing scale; weak liminf fails even when the trial subsequence converges weakly to zero |
+| The rate is optimal or matches the true ground energy | K1503--K1506 hostile scope audit | not established: diagram constants are crude and no many-chaos lower bound, localization, compactness or Mosco recovery is proved |
+| The advance closes GU physical admission | K1507 204-row bridge census | 129 satisfied, ten conditional, 61 excluded and four missing |
+
+The five producers pass `126/126` controls and five hostile probes reject
+`78/78` mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
+`0/7`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
+
 ## K1498--K1502 Gaussian Krylov asymptotic (2026-10-08)
 
 | Claim | Evidence | Honest grade |

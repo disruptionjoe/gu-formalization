@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1503",
+  "title": "Growing Gaussian moment window from fourth-chaos contractions",
+  "pinned_inputs": {
+    "k1498": {"path": "lab/process/k1498-fourth-chaos-contraction-decay.json", "sha256": "2bea866f4cc42b8c18daf4223f3245ee66579eb70802c236fa8a537c9838e6ec"}
+  },
+  "contraction_defect": {
+    "definition": "delta_N=max_(1<=r<=3)||g_N tensor_r g_N|| for X_N=I_4(g_N), E X_N^2=1",
+    "bound": "delta_N=O(N^(-3/2)(1+log N)^4)"
+  },
+  "diagram_bound": {
+    "gaussian_subfamily": "components pairing two whole quartic vertices by four edges",
+    "residual_cut": "every non-Gaussian complete pairing contains a first nontrivial contraction of order r=1,2,3",
+    "pairing_count": "(4m-1)!!<=(4m)^(2m)",
+    "moment_error": "|E X_N^m-E Z^m|<=delta_N exp(C m log(m+1))"
+  },
+  "window": {
+    "definition": "M_N=floor(eta log N/log log N)",
+    "eta_condition": "eta>0 is universal and sufficiently small that C eta<3/2",
+    "conclusion": "max_(0<=m<=M_N)|E X_N^m-E Z^m|->0"
+  },
+  "decision": {
+    "growing_moment_window_proved": true,
+    "window_constant_optimized": false,
+    "total_variation_rate_proved": false,
+    "protected_status_change": false
+  }
+}

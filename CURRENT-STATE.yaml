@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d8a6612152caeff9b850d910849080c975e670a8
+revision_basis: a9885a7fe27c1367233362bd7884e9010b7fecc8
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1503--K1507 turn K1498's contraction decay into the first quantitative
+    simultaneous cutoff-degree result. Complete-pairing expansion bounds every
+    non-Gaussian moment diagram by one normalized nontrivial contraction times
+    `exp(Cm log(m+1))`, giving uniform Gaussian moments through
+    `M_N=floor(eta log N/log log N)` for sufficiently small universal `eta`.
+    The explicit normalized Hermite trial
+    `(phi_(d_N-1)-phi_(d_N))/sqrt(2)`, with `d_N=floor(M_N/3)`, transfers to
+    the cutoff law and has multiplication quotient at most `-sqrt(d_N)/2`.
+    Its free cost is only `O(Nd_N)`, hence
+    `E_N<=6gC_N^2-cg sigma_N sqrt(log N/log log N)` for some `c>0`. Uniform
+    semiboundedness and fixed-Gaussian Mosco weak liminf therefore require a
+    scalar descent at least on that growing scale, including after harmonic
+    BRST transfer. The rate is one-sided and nonoptimal: no matching
+    many-chaos lower bound, localization, compactness, Mosco recovery or
+    changed-representation theorem follows. The 204-row census is 129
+    satisfied, ten conditional, 61 excluded and four missing; K1145/K1150
+    remain 0/7 and protected statuses do not move.
+
     K1498--K1502 decide K1497's fixed-degree coefficient question. Every
     nontrivial contraction of the normalized fourth Wick chaos is a connected
     four-vertex, eight-edge, five-loop graph with `O(N^7 log^8 N)` weight
@@ -14662,6 +14680,19 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1503--K1507 prove a nonoptimal quantitative window: Gaussian moments and
+  one explicit Hermite trial transfer through degree
+  `Theta(log N/log log N)`, giving the one-sided variational rate
+  `(6gC_N^2-E_N)/(g sigma_N)>=c sqrt(log N/log log N)`. Can sharper diagram
+  control enlarge that window, or can a many-chaos kinetic-localization lower
+  bound match the true `E_N` scale? Only then can true-ground-energy
+  recentering, compactness and Mosco liminf/recovery be tested on one common
+  nonlinear domain. In parallel, which gauge/Maxwell-dependent spacetime,
+  secondary-null or derivative/nonlocal estimate controls both K1413
+  leakages? Do not call the current window optimal, promote the Ritz rate to a
+  ground-energy asymptotic, or transfer fixed-Gaussian failure to every
+  representation.
+
   K1498--K1502 prove that the normalized quartic Wick coordinate converges to
   a standard Gaussian at every fixed moment order, that the fixed-degree
   Krylov matrices converge to the Hermite Jacobi tower and that their

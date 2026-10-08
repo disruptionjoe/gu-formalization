@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1504",
+  "title": "Growing Hermite two-coordinate trial transfer",
+  "pinned_inputs": {
+    "k1503": {"path": "lab/process/k1503-growing-moment-window.json", "sha256": "033979489cb4dddcaf684be93f6e77abceae43c257e5ab319f718fee44111291"}
+  },
+  "hermite_control": {
+    "basis": "phi_j=He_j/sqrt(j!)",
+    "coefficient_bound": "||phi_j||_(coeff,1)<=exp(C_H j log(j+1))",
+    "trial": "p_N=(phi_(d_N-1)-phi_(d_N))/sqrt(2)",
+    "degree": "d_N=floor(M_N/3) after shrinking eta for the Hermite coefficient cost",
+    "moment_orders": "norm uses at most 2d_N and multiplication uses at most 2d_N+1, both <=M_N"
+  },
+  "transfer": {
+    "gaussian_norm": "E p_N(Z)^2=1",
+    "gaussian_quotient": "E[Z p_N(Z)^2]=-sqrt(d_N)",
+    "cutoff_norm": "E p_N(X_N)^2=1+o(1)",
+    "cutoff_quotient": "E[X_N p_N(X_N)^2]=-sqrt(d_N)+o(1)",
+    "eventual_bound": "normalized cutoff multiplication quotient<=-sqrt(d_N)/2"
+  },
+  "decision": {
+    "one_growing_hermite_trial_transferred": true,
+    "growing_jacobi_operator_norm_convergence_proved": false,
+    "largest_degree_window_proved": false,
+    "protected_status_change": false
+  }
+}

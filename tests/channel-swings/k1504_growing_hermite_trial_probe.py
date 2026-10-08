@@ -1,0 +1,10 @@
+#!/usr/bin/env python3
+"""Hostile mutations for K1504."""
+import copy,json
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[2];D=json.loads((ROOT/'lab/process/k1504-growing-hermite-trial.json').read_text())
+def valid(d):
+ h,t,q=d['hermite_control'],d['transfer'],d['decision'];return all([d['claim_id']=='K1504','sqrt(j!)' in h['basis'],'exp(C_H j log(j+1))' in h['coefficient_bound'],'phi_(d_N-1)-phi_(d_N)' in h['trial'],'M_N/3' in h['degree'],'2d_N+1' in h['moment_orders'],'<=M_N' in h['moment_orders'],'=1' in t['gaussian_norm'],'-sqrt(d_N)' in t['gaussian_quotient'],'1+o(1)' in t['cutoff_norm'],'-sqrt(d_N)+o(1)' in t['cutoff_quotient'],'-sqrt(d_N)/2' in t['eventual_bound'],q['one_growing_hermite_trial_transferred'],not q['growing_jacobi_operator_norm_convergence_proved'],not q['largest_degree_window_proved'],not q['protected_status_change']])
+mut=[('claim',lambda d:d.update(claim_id='bad')),('basis',lambda d:d['hermite_control'].update(basis='monomials')),('coefficients',lambda d:d['hermite_control'].update(coefficient_bound='none')),('trial',lambda d:d['hermite_control'].update(trial='unknown')),('degree',lambda d:d['hermite_control'].update(degree='d_N=N')),('orders',lambda d:d['hermite_control'].update(moment_orders='unbounded')),('Gaussian norm',lambda d:d['transfer'].update(gaussian_norm='unknown')),('Gaussian quotient',lambda d:d['transfer'].update(gaussian_quotient='zero')),('cutoff norm',lambda d:d['transfer'].update(cutoff_norm='unknown')),('cutoff quotient',lambda d:d['transfer'].update(cutoff_quotient='unknown')),('bound',lambda d:d['transfer'].update(eventual_bound='none')),('deny transfer',lambda d:d['decision'].update(one_growing_hermite_trial_transferred=False)),('claim operator',lambda d:d['decision'].update(growing_jacobi_operator_norm_convergence_proved=True)),('claim largest',lambda d:d['decision'].update(largest_degree_window_proved=True)),('move status',lambda d:d['decision'].update(protected_status_change=True))]
+for i,(label,f) in enumerate(mut,1):x=copy.deepcopy(D);f(x);assert not valid(x),label;print(f'PASS {i:02d}: rejected {label}')
+print(f'RESULT: PASS {len(mut)}/{len(mut)}')

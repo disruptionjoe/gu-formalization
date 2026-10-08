@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1506",
+  "title": "Growing-rate scalar recentering and BRST boundary",
+  "pinned_inputs": {
+    "k1505": {"path": "lab/process/k1505-quantitative-variational-rate.json", "sha256": "0d646e80c8c769ed4820bf7841c17fab4b29698c00e60f7f1ca403c7a15755f5"}
+  },
+  "recentering_boundary": {
+    "necessary_scale": "uniform semiboundedness requires 6gC_N^2-a_N>=c g sigma_N sqrt(log N/log log N)+O(1) after decreasing c",
+    "excluded_window": "6gC_N^2-a_N=o(g sigma_N sqrt(log N/log log N))",
+    "quantitative_failure": "every window at most (c-epsilon)g sigma_N sqrt(log N/log log N) has bottoms tending to -infinity"
+  },
+  "mosco_transfer": {
+    "weak_compactness": "normalized growing-degree trials have weakly convergent subsequences in the fixed Gaussian Hilbert space",
+    "weak_limit": "the weak limit may be zero; Mosco weak liminf still applies",
+    "failure": "trial form values tend to -infinity, contradicting every finite semibounded Mosco weak-liminf candidate",
+    "brst": "tensor with K1471's normalized degree-zero harmonic BRST vacuum to transfer the same obstruction to full forms and harmonic compression"
+  },
+  "decision": {
+    "growing_rate_recentering_necessity_proved": true,
+    "fixed_gaussian_mosco_weak_liminf_window_excluded": true,
+    "harmonic_brst_window_excluded": true,
+    "nonzero_weak_limit_proved": false,
+    "mosco_recovery_proved": false,
+    "ground_energy_recentered_limit_proved": false,
+    "protected_status_change": false
+  }
+}

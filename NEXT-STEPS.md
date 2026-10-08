@@ -7,6 +7,21 @@ updated_at: "2026-10-08"
 
 # Next Steps For Contributors
 
+> **2026-10-08 K1503--K1507 QUANTITATIVE GROWING KRYLOV RATE.** Every
+> non-Gaussian complete-pairing diagram contains a nontrivial normalized
+> fourth-chaos contraction, while all diagram and coefficient multiplicities
+> cost at most `exp(Cm log(m+1))`. K1498's contraction decay therefore gives
+> uniform Gaussian moments through a sufficiently small
+> `M_N=Theta(log N/log log N)` window. The explicit normalized Hermite trial
+> `(phi_(d_N-1)-phi_(d_N))/sqrt(2)` transfers for
+> `d_N=floor(M_N/3)`, has quotient at most `-sqrt(d_N)/2`, and costs only
+> `O(Nd_N)` in `H0`. Thus
+> `E_N<=6gC_N^2-cg sigma_N sqrt(log N/log log N)`, and every smaller scalar
+> recentering window fails fixed-Gaussian Mosco weak liminf, including after
+> harmonic BRST transfer. Next sharpen the diagram window or prove a matching
+> many-chaos kinetic-localization lower boundary. Do not call the rate optimal,
+> infer the true ground-energy asymptotic, or claim compactness/Mosco recovery.
+
 > **2026-10-08 K1498--K1502 GAUSSIAN KRYLOV ASYMPTOTIC.** The three
 > nontrivial fourth-chaos contractions have connected four-vertex,
 > eight-edge, five-loop graphs with `O(N^7 log^8 N)` weight against
