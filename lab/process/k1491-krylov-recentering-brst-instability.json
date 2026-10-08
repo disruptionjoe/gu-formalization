@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1491",
+  "title": "The higher-chaos Krylov correction enlarges the fixed-Gaussian scalar-recentering and harmonic BRST instability window",
+  "pinned_inputs": {
+    "k1471": {
+      "path": "lab/process/k1471-finite-cutoff-interacting-brst-composition.json",
+      "sha256": "abac4797efb8dc9b2c66024a34196084abd7b7a07f4b483fb3db6a8c4099bcb1"
+    },
+    "k1490": {
+      "path": "lab/process/k1490-three-dimensional-krylov-ritz-improvement.json",
+      "sha256": "82edc3266027010b8379cef7022801baaf5f8c1d218f488a1b32f68e0c525357"
+    }
+  },
+  "recentering_and_brst": {
+    "constant": "Let c_star=1/39372 and kappa=1+c_star",
+    "necessary_recentering": "Uniform semiboundedness of H_N-a_N requires a_N<=6gC_N^2-kappa g sigma_N+O(N)",
+    "explicit_window": "For every fixed epsilon with 0<epsilon<c_star, if a_N>=6gC_N^2-g(kappa-epsilon)sigma_N eventually, then inf spec(H_N-a_N)<=-g epsilon sigma_N+O(N)->-infinity",
+    "weak_limit": "The normalized fixed trial has vacuum coefficient 1/sqrt(2+t^2), while X_N and Y_N are orthogonal to the vacuum. Every weakly convergent subsequence therefore has a nonzero vacuum component",
+    "mosco_failure": "Weak compactness supplies such a subsequence, whose recentered form values tend to minus infinity; fixed-Gaussian Mosco weak liminf fails throughout the stated window for every finite semibounded limiting form",
+    "brst_transfer": "Tensor the trial with K1471's normalized degree-zero harmonic BRST vacuum. The tensor-sum form keeps the same matter value and nonzero harmonic vacuum component, so the full and harmonic-compressed forms inherit the spectral and Mosco failure",
+    "ceiling": "The result excludes only the explicit fixed-Gaussian scalar window. It does not determine E_N, exclude E_N+O(1) recentering, produce compactness, or bind singular dressings, non-Gaussian measures and changed representations"
+  },
+  "decision": {
+    "necessary_scalar_correction_coefficient_lower": "1+1/39372",
+    "old_coefficient_one_window_is_final": false,
+    "enlarged_fixed_fraction_window_spectral_bottom_diverges": true,
+    "enlarged_window_mosco_weak_liminf_holds": false,
+    "harmonic_brst_factor_repairs_window": false,
+    "true_ground_energy_recentering_excluded": false,
+    "changed_representation_excluded": false,
+    "protected_status_change": false
+  }
+}

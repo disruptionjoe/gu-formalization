@@ -7,6 +7,20 @@ updated_at: "2026-10-08"
 
 # Next Steps For Contributors
 
+> **2026-10-08 K1488--K1492 WICK KRYLOV AND RECENTERING BOUNDARY.** The
+> orthogonalized quadratic Krylov vector contains an unavoidable eighth-chaos
+> component of normalized squared norm at least one. The prior
+> vacuum--fourth-chaos Ritz vector consequently has residual at least
+> `g sigma_N/3` and is not an `o(sigma_N)` quasimode. A fixed
+> three-dimensional trial proves
+> `E_N<=6gC_N^2-(1+1/39372)g sigma_N+O(N)`, strictly improving coefficient
+> one. The enlarged under-recentered scalar window fails semiboundedness and
+> fixed-Gaussian Mosco weak liminf, including after harmonic BRST transfer.
+> Next extend the Krylov tower or obtain a many-chaos lower/localization bound
+> that brackets the true ground-energy scale, then address common-domain
+> compactness for `E_N+O(1)` recentering. Do not promote the crude strict
+> constant to the true asymptotic.
+
 > **2026-10-08 K1483--K1487 WICK THIRD-MOMENT AND RECENTERING-WINDOW
 > BOUNDARY.** The exact third moment of the cutoff fourth Wick chaos is the
 > unique triangle contraction with coefficient 1728. Young's inequality gives

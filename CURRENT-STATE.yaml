@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 88697cf85cfd51d6bc0f4f9a97d80c15baa17d2e
+revision_basis: f16d659ae8e5ba192a070c61cd01f9ec848f45c2
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1488--K1492 prove that the first higher-chaos Krylov direction cannot be
+    asymptotically discarded. After orthogonalizing `X_N^2` against
+    `1,X_N`, its eighth-chaos projection has squared norm at least one. The
+    K1484 two-dimensional Ritz vector therefore has residual at least
+    `g sigma_N/3` and is not an `o(sigma_N)` quasimode. A fixed
+    three-dimensional trial plus Nelson hypercontractivity gives
+    `E_N<=6gC_N^2-(1+1/39372)g sigma_N+O(N)`, so coefficient one is not
+    variationally sharp. The corresponding larger scalar-recentering window
+    fails uniform semiboundedness and fixed-Gaussian Mosco weak liminf, also
+    after harmonic BRST transfer. This is still an upper variational boundary,
+    not the true ground-energy asymptotic or a continuum-domain theorem. The
+    179-row census is 111 satisfied, ten conditional, 54 excluded and four
+    missing; K1145/K1150 remain 0/7 and protected statuses do not move.
+
     K1483--K1487 compute the exact third moment left as K1482's weakest
     analytic seam. The unique normal-ordered contraction graph has two edges
     between each pair of quartic vertices and coefficient 1728. Young's
@@ -14615,6 +14629,20 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1488--K1492 prove that K1484's coefficient one is not variationally sharp.
+  The orthogonalized square of the normalized fourth chaos retains an
+  eighth-chaos component of full normalized scale, making the two-dimensional
+  Ritz vector fail as an `o(sigma_N)` quasimode. One further Krylov direction
+  gives the strict upper correction
+  `-(1+1/39372)g sigma_N+O(N)`. Does the optimal fixed-degree coefficient grow
+  without bound as the polynomial Krylov tower expands, and what many-chaos
+  lower/localization estimate brackets the true `E_N` scale strongly enough
+  to test compactness plus Mosco liminf/recovery for `a_N=E_N+O(1)`? In
+  parallel, which gauge/Maxwell-dependent spacetime or nonlocal estimate
+  controls both K1413 leakages? Do not promote the crude strict constant to
+  an optimal asymptotic or the fixed-Gaussian exclusion to every beta-one
+  representation.
+
   K1483--K1487 prove that the exact Wick third moment is a 1728-weighted
   triangle graph with `m3_N=O(N^6)`, and that the vacuum--fourth-chaos Ritz
   value is `-g sigma_N+O(N)` below `6gC_N^2`. Every scalar recentering that
@@ -16913,6 +16941,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1488--K1492's strict higher-chaos correction. The normalized
+  quadratic Krylov direction has unavoidable eighth-chaos mass, the
+  vacuum--fourth-chaos Ritz vector is not an `o(sigma_N)` quasimode, and one
+  further direction lowers the variational coefficient beyond one by a
+  universal fixed amount. Extend the polynomial Krylov tower far enough to
+  identify the coefficient-growth regime, or prove a many-chaos coercive
+  lower bound/localization theorem that brackets the true `E_N` scale; only
+  then test compactness and Mosco liminf/recovery for `a_N=E_N+O(1)` on one
+  common nonlinear domain. Do not promote the crude constant to an optimal
+  asymptotic or infer failure of true-ground-energy recentering, singular
+  dressing, non-Gaussian measure or changed representation.
+
   Preserve K1483--K1487's one-sided boundary. The exact triangle estimate and
   two-dimensional Ritz compression force a negative scalar correction of at
   least `g sigma_N+O(N)` before uniform semiboundedness is possible, but do not

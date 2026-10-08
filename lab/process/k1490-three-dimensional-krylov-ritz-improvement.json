@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1490",
+  "title": "A fixed three-dimensional Krylov compression lowers the Wick variational coefficient strictly beyond minus one",
+  "pinned_inputs": {
+    "k1483": {
+      "path": "lab/process/k1483-wick-third-moment-triangle-bound.json",
+      "sha256": "5c42eb65ff38209861666652786eb3467a9ccee2c23b7c8765af23c20550d3f4"
+    },
+    "k1488": {
+      "path": "lab/process/k1488-wick-quadratic-krylov-direction.json",
+      "sha256": "edd01f7a7f6082202939524247e5f32bec704ea9fad4390d71ecf335bdaa5045"
+    },
+    "k1489": {
+      "path": "lab/process/k1489-two-dimensional-ritz-nonquasimode.json",
+      "sha256": "02825d8212ed3ad675b87f2bc8fc6571a8f629106c23d4c477cfa0a272a87de9"
+    }
+  },
+  "three_dimensional_ritz": {
+    "basis": "Use the orthonormal Krylov basis e0=1, e1=X_N=V_N/sigma_N and e2=Y_N from K1488",
+    "multiplication_matrix": "Compression of X_N is [[0,1,0],[1,mu_N,tau_N],[0,tau_N,eta_N]], with mu_N=E(X_N^3), tau_N>=1 and eta_N=E(X_N Y_N^2)",
+    "moment_bounds": "K1483 gives 0<=mu_N<=72S_N/sigma_N=o(1). Nelson hypercontractivity gives ||X_N||_4<=9 and ||Y_N||_4<=81, hence |eta_N|<=||Y_N||_4^2<=6561",
+    "fixed_trial": "For t=1/6562 use the coefficient vector (1,-1,t). Once mu_N<=1/(2*6562), its normalized X_N Rayleigh quotient is at most -1-c_star with c_star=1/39372",
+    "free_cost": "The trial has Wiener degree at most eight, so its normalized H0 form value is at most 8 omega_max(N)=O(N)",
+    "ground_energy_upper": "For every fixed g>0 and all sufficiently large N, E_N<=6gC_N^2-(1+c_star)g sigma_N+O(N), c_star=1/39372",
+    "strict_consequence": "The coefficient -1 from the vacuum--fourth-chaos compression is not the leading full variational coefficient; at least one higher-chaos direction lowers it by a cutoff-independent fraction",
+    "ceiling": "The universal constant is deliberately crude. This remains an upper bound and does not determine the true correction scale, a matching lower bound, ground-state localization or a continuum limit"
+  },
+  "decision": {
+    "three_dimensional_krylov_compression_constructed": true,
+    "hypercontractive_eta_absolute_upper": 6561,
+    "fixed_trial_t_denominator": 6562,
+    "strict_improvement_constant": "1/39372",
+    "ground_energy_upper_correction": "-(1+1/39372)g sigma_N+O(N)",
+    "two_dimensional_minus_one_coefficient_variationally_sharp": false,
+    "ground_energy_asymptotic_determined": false,
+    "protected_status_change": false
+  }
+}

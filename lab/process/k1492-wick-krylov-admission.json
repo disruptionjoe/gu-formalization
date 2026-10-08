@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1492",
+  "title": "Wick higher-chaos Krylov and recentering boundary admission replay",
+  "pinned_inputs": {
+    "k1488": {"path": "lab/process/k1488-wick-quadratic-krylov-direction.json", "sha256": "edd01f7a7f6082202939524247e5f32bec704ea9fad4390d71ecf335bdaa5045"},
+    "k1489": {"path": "lab/process/k1489-two-dimensional-ritz-nonquasimode.json", "sha256": "02825d8212ed3ad675b87f2bc8fc6571a8f629106c23d4c477cfa0a272a87de9"},
+    "k1490": {"path": "lab/process/k1490-three-dimensional-krylov-ritz-improvement.json", "sha256": "82edc3266027010b8379cef7022801baaf5f8c1d218f488a1b32f68e0c525357"},
+    "k1491": {"path": "lab/process/k1491-krylov-recentering-brst-instability.json", "sha256": "9ccdcd283b83cbf6296f05c2eb06268f8f9154a2140ca22c494f21ff3697f6c8"}
+  },
+  "bridge_census": {
+    "row_count": 179,
+    "satisfied_count": 111,
+    "conditional_count": 10,
+    "excluded_count": 54,
+    "missing_count": 4,
+    "new_satisfied_rows": [
+      "eighth-chaos projection lower bound for the orthogonalized quadratic Krylov direction",
+      "uniform order-one higher-chaos multiplication coupling",
+      "order-g-sigma_N residual of the two-dimensional Ritz vector",
+      "strict three-dimensional Krylov variational correction beyond coefficient one",
+      "harmonic BRST transfer of the enlarged recentering window"
+    ],
+    "new_excluded_rows": [
+      "the vacuum--fourth-chaos Ritz vector as an o(sigma_N) ground-state quasimode",
+      "the coefficient minus one as the sharp full variational correction",
+      "uniform semiboundedness throughout the enlarged scalar-recentering window",
+      "fixed-Gaussian semibounded Mosco weak liminf throughout that enlarged window"
+    ],
+    "missing_rows": [
+      "source-owned compact-generator selection and normalization on the observed carrier",
+      "identification with one source action",
+      "cutoff-uniform completed global PDE evolution and interacting continuum positive physical Hilbert cohomology",
+      "source-owned observed-state/export map"
+    ]
+  },
+  "decision": {
+    "higher_chaos_krylov_direction_constructed": true,
+    "two_dimensional_ritz_quasimode_excluded": true,
+    "strict_variational_improvement_proved": true,
+    "enlarged_scalar_and_brst_window_excluded": true,
+    "matching_ground_energy_lower_asymptotic_constructed": false,
+    "ground_energy_recentered_limit_constructed": false,
+    "full_spacetime_pde_repair_constructed": false,
+    "source_selected_reduction_constructed": false,
+    "k1145_k1150_candidate_counts_move": false,
+    "protected_status_change": false
+  },
+  "source_and_ledger_effect": "SOURCE_REGISTER_UNCHANGED; LEDGER_UNCHANGED at 33 SAME / 22 DIFFERS / 31 NEEDS / 2 OVER-DETERMINED; SC-ACT-01/02/06 ASSERTS; SC-META-53 UNCERTAIN; LT-SM8/LT-GR6b/RA-F1/AC-F1 NEEDS; K1145/K1150 0/7"
+}

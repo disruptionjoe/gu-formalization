@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1488",
+  "title": "The orthogonalized quadratic Wick Krylov direction has an unavoidable eighth-chaos component of full variance scale",
+  "pinned_inputs": {
+    "k1483": {
+      "path": "lab/process/k1483-wick-third-moment-triangle-bound.json",
+      "sha256": "5c42eb65ff38209861666652786eb3467a9ccee2c23b7c8765af23c20550d3f4"
+    }
+  },
+  "quadratic_krylov_direction": {
+    "notation": "Write V_N=I_4(f_N), sigma_N^2=4!||f_N||^2, X_N=V_N/sigma_N and mu_N=E(X_N^3)",
+    "product_formula": "V_N^2=sum_(r=0)^4 r! binom(4,r)^2 I_(8-2r)(sym(f_N tensor_r f_N))",
+    "orthogonal_residual": "R_N=X_N^2-1-mu_N X_N is orthogonal to both 1 and X_N; put tau_N^2=||R_N||_2^2 and Y_N=R_N/tau_N",
+    "top_chaos_survives": "Projection onto span{1,X_N} changes only chaos zero and one direction in chaos four, so P_8 R_N=P_8(X_N^2)",
+    "symmetrization_lower_bound": "8!||sym(f_N tensor f_N)||^2 >= (4!)^2||f_N||^4=sigma_N^4",
+    "normalized_lower_bound": "Therefore tau_N^2=E(X_N^4)-1-mu_N^2>=1 and the normalized direction Y_N exists for every cutoff",
+    "multiplication_coupling": "In the orthonormal basis {1,X_N,Y_N}, multiplication by X_N has entries <1,X_N X_N>=1 and <X_N,X_N Y_N>=tau_N>=1",
+    "ceiling": "This is a finite-cutoff Gaussian-chaos statement. It supplies a new variational direction but no lower bound on the full ground energy, compactness, continuum domain or source-owned field measure"
+  },
+  "decision": {
+    "quadratic_krylov_direction_constructed": true,
+    "eighth_chaos_projection_survives_orthogonalization": true,
+    "eighth_chaos_squared_norm_lower_scale": "sigma_N^4",
+    "normalized_residual_squared_norm_lower": 1,
+    "uniform_next_krylov_coupling_lower": 1,
+    "ground_energy_lower_bound_proved": false,
+    "protected_status_change": false
+  }
+}

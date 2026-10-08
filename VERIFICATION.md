@@ -7,6 +7,22 @@ updated_at: "2026-10-08"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1488--K1492 Wick Krylov and recentering boundary (2026-10-08)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Orthogonalizing `X_N^2` may remove the next substantial Krylov direction | K1488 fourth-chaos product formula and eighth-chaos projection | false: the residual has `tau_N^2>=1` and coupling `<X_N,X_NY_N>=tau_N>=1` |
+| K1484's two-dimensional Ritz vector approximates a full ground state at error `o(sigma_N)` | K1489 residual tested against `Y_N` | false: the residual norm is at least `g sigma_N/3` for all large cutoffs |
+| The coefficient `-1` is variationally sharp | K1490 fixed three-coordinate trial and Nelson hypercontractivity | false: `E_N<=6gC_N^2-(1+1/39372)g sigma_N+O(N)`; no matching lower bound follows |
+| Scalar shifts inside the enlarged fixed-fraction window retain fixed-Gaussian semibounded Mosco behavior | K1491 weak compactness and nonzero vacuum component | false: spectral bottoms and trial values tend to minus infinity, including after harmonic BRST transfer |
+| The advance closes GU physical admission | K1492 179-row bridge census | 111 satisfied, ten conditional, 54 excluded and four missing |
+
+The five producers pass `123/123` controls and five hostile probes reject
+`81/81` mutations. SC-ACT-01/02/06
+remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1
+remain `NEEDS`, and K1145/K1150 stay `0/7`. No source, ledger, canon, paper,
+prediction, confirmation or public status moves.
+
 ## K1483--K1487 Wick third-moment and recentering-window boundary (2026-10-08)
 
 | Claim | Evidence | Honest grade |

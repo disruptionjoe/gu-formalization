@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1489",
+  "title": "The vacuum--fourth-chaos Ritz vector has an order-sigma_N higher-chaos residual and is not a ground-state quasimode",
+  "pinned_inputs": {
+    "k1484": {
+      "path": "lab/process/k1484-vacuum-fourth-chaos-ritz-asymptotic.json",
+      "sha256": "504cee87e1baaa97bf0f00dedc026a88120070706442031be637909a099eb031"
+    },
+    "k1488": {
+      "path": "lab/process/k1488-wick-quadratic-krylov-direction.json",
+      "sha256": "edd01f7a7f6082202939524247e5f32bec704ea9fad4390d71ecf335bdaa5045"
+    }
+  },
+  "nonquasimode_boundary": {
+    "ritz_vector": "Let u_N=alpha_N 1+beta_N X_N be K1484's normalized lower Ritz vector, with alpha_N->1/sqrt(2), beta_N->-1/sqrt(2)",
+    "higher_chaos_test": "For K_N^proj=H0+g sigma_N X_N, test the residual against K1488's unit vector Y_N orthogonal to 1 and X_N",
+    "interaction_residual": "<Y_N,g sigma_N X_N u_N>=g sigma_N beta_N tau_N with tau_N>=1",
+    "free_residual": "X_N has chaos degree four and Y_N degree at most eight, so Cauchy--Schwarz and H0<=d omega_max on degree d give |<Y_N,H0 X_N>|=O(omega_max(N))=O(N)",
+    "residual_lower_bound": "Because sigma_N=Theta(N^(5/2)), ||(K_N^proj-lambda_N^-)u_N||>=g sigma_N/3 for all sufficiently large N",
+    "consequence": "The two-dimensional lower Ritz vector is not a quasimode at any error o(sigma_N), and its coefficient -1 cannot be promoted to the leading full ground-energy correction",
+    "ceiling": "The residual proves instability of the two-dimensional truncation, not a matching many-chaos lower bound, exact ground-energy scale or absence of a localized true ground state"
+  },
+  "decision": {
+    "higher_chaos_residual_constructed": true,
+    "interaction_residual_scale": "g sigma_N",
+    "free_residual_order_upper": "N",
+    "ritz_residual_lower_fraction": "g sigma_N/3",
+    "two_dimensional_ritz_vector_is_o_sigma_quasimode": false,
+    "minus_one_is_full_ground_energy_leading_coefficient": false,
+    "matching_ground_energy_lower_bound_proved": false,
+    "protected_status_change": false
+  }
+}
