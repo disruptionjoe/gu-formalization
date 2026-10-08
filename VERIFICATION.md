@@ -7,6 +7,26 @@ updated_at: "2026-10-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1415--K1420 split Gauss and classical BFV boundary (2026-10-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The neutral Gauss map is functionally regular | K1415 bounded right inverse, transverse projection and exact inverse coordinates; `20/20`; `8/8` | exact global split submersion on the declared completed triangular neutral phase space; not an evolution or source theorem |
+| The Koszul--Tate complex resolves the Gauss surface | K1416 finite cylindrical Euler contraction; `19/19`; `8/8` | exact on the declared smooth cylindrical/polynomial algebra; no unrestricted local-functional or quantum completion |
+| Based gauge BRST reduction is closed and exact | K1417 free mean-zero action, global Coulomb coordinate and BRST doublet; `21/21`; `8/8` | exact based reduction on admitted tiers; constant compact gauge transformations remain |
+| The residual compact quotient is globally free | K1418 charge-support stabilizer and gcd controls; `21/21`; `8/8` | false globally; the action is proper and the quotient Hausdorff but orbit-type stratified |
+| The boundary BFV package is classically exact | K1419 moment map, KT/BRST composition and residual invariants; `24/24`; `9/9` | exact classical `H^0` observable algebra with descended positive Hamiltonian; not quantized physical Hilbert cohomology |
+| The advance closes GU physical admission | K1420 86-row bridge census; `21/21`; `9/9` | sixty-one satisfied, six conditional, fifteen excluded and four missing; full-PDE completion, quantization, source selection and physical Hilbert cohomology remain open |
+
+The six producers pass `126/126` controls and six probes reject `50/50`
+hostile mutations. The repository control now has global classical Gauss
+regularity, functional cylindrical KT exactness, based BRST reduction and a
+proper stratified residual quotient. The result deliberately separates that
+classical closure from a quantum state representation. SC-ACT-01/02/06 remain
+`ASSERTS`, SC-META-53 remains `UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain
+`NEEDS`, and K1145/K1150 stay `0/7`. No source, ledger, canon, paper,
+prediction, confirmation or public status moves.
+
 ## K1409--K1414 homogeneous completed graph flow (2026-10-07)
 
 | Claim | Evidence | Honest grade |

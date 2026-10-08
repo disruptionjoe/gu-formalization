@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1415",
+  "title": "The neutral Gauss constraint is a global split coordinate",
+  "pinned_inputs": {
+    "k1373": {"path": "lab/process/k1373-closed-nonlinear-gauss-constraint.json", "sha256": "bbbd3f59c32fa7bf258aa96b306105af8734be76a146e1fe4a77512fe5394223"}
+  },
+  "split_coordinate": {
+    "phase_scope": "The completed triangular phase space of the repository scalar-electrodynamics control on the trivial bundle over T3, restricted to the neutral sector where rho=e Im<Qphi,pi> has zero spatial mean",
+    "constraint": "G(E,phi,pi)=div E-rho in H^-1_0(T3)",
+    "right_inverse": "R g=-grad(-Delta)^(-1)g is bounded H^-1_0 to L2 and satisfies div Rg=g",
+    "transverse_projection": "P_T E=E-R(div E), so div P_T E=0",
+    "coordinate_map": "(E,phi,pi) maps to (g=G(E,phi,pi), E_T=P_T E, phi, pi)",
+    "inverse_map": "(g,E_T,phi,pi) maps to E=E_T+R(g+rho(phi,pi))",
+    "global_identity": "The two maps are mutual inverses on the declared completed topology; the Gauss surface is exactly the hyperplane g=0 in split coordinates",
+    "submersion": "D_E G=div is split-surjective at every point with the same bounded right inverse R, so no field-dependent rank jump occurs in the based neutral Gauss constraint",
+    "boundary": "This is a global functional coordinate for the repository Gauss constraint, not a source GU constraint, an evolution theorem or a quantization"
+  },
+  "decision": {
+    "gauss_map_globally_split": true,
+    "bounded_right_inverse_constructed": true,
+    "gauss_surface_split_submanifold": true,
+    "field_dependent_rank_jump_present": false,
+    "global_unbounded_charge_evolution_constructed": false,
+    "source_gu_constraint_identified": false,
+    "protected_status_change": false
+  }
+}

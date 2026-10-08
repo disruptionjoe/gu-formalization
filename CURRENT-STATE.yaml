@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 0c5b207617597f766767f581482cdf0bebca765b
+revision_basis: b3b338c34cf74cace8ba3e016c6fa837a2212a08
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1415--K1420 complete the classical boundary reduction of the repository
+    scalar-electrodynamics control. The neutral Gauss map is a global split
+    submersion with an explicit bounded right inverse, so its cylindrical
+    Koszul--Tate algebra has a global contracting homotopy. The free based
+    gauge action contracts through the Coulomb slice; the residual constant
+    compact circle is proper and its charge-support stabilizers make the full
+    quotient orbit-type stratified rather than globally free. Classical BFV
+    degree-zero cohomology is therefore the gauge-invariant observable algebra
+    on the neutral Gauss quotient, and the positive repository Hamiltonian
+    descends there. This is not quantized positive physical Hilbert
+    cohomology, does not solve the full-PDE cutoff-uniform global estimate and
+    is not source-owned. The 86-row census is sixty-one satisfied, six
+    conditional, fifteen excluded and four missing; K1145/K1150 remain 0/7
+    and protected statuses do not move.
+
     K1409--K1414 construct the first cutoff-uniform nonlinear mechanism outside
     K1406's rigid quadratic-weight class. Compatible-real homogeneous data form
     an exact current-free invariant manifold with arbitrary charge support.
@@ -14409,6 +14424,19 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1415--K1420 complete global split Gauss regularity, exact cylindrical
+  Koszul--Tate contraction, based BRST/Coulomb reduction and the proper
+  residual compact orbit-type quotient for the repository control. Classical
+  BFV H0 is now identified with the reduced observable algebra carrying the
+  descended positive Hamiltonian. Which stratum-compatible quantum
+  representation, closed quantum BRST operator and positive Hilbert
+  completion turn that algebra into nonzero physical Hilbert cohomology?
+  Independently, which cutoff-uniform full-PDE spacetime/null-form,
+  normal-form or summable-hierarchy mechanism controls both K1413 leakage
+  terms and yields a finite-tier Cauchy consequence? A source/action-owned
+  observed-carrier selector must still fix `Q` and its normalization. Do not
+  call classical BFV H0 a quantum state space or erase residual stabilizers.
+
   K1409--K1414 prove global cutoff-uniform propagation and spectral-cutoff
   convergence on the exact homogeneous current-free completed graph tiers by
   a nonlinear time-dependent energy. They also prove why the same argument
@@ -16618,6 +16646,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1415--K1420's exact classical boundary and quantization boundary.
+  The neutral Gauss constraint is globally split, the declared cylindrical
+  Koszul--Tate and based BRST complexes contract, and the residual compact
+  quotient is proper and orbit-type stratified. Advance the boundary arc only
+  with a stratum-compatible representation, closed quantum BRST operator and
+  positive Hilbert completion. Classical BFV H0 and the descended positive
+  Hamiltonian are not positive physical Hilbert cohomology.
+
   Preserve K1409--K1414's positive and negative boundaries. A nonlinear
   time-dependent graph energy globally completes every fixed charge tier on
   the exact homogeneous current-free invariant manifold, and spectral cutoffs

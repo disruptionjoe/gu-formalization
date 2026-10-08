@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1416",
+  "title": "Split Gauss coordinates give an explicit Koszul--Tate contraction",
+  "pinned_inputs": {
+    "k1347": {"path": "lab/process/k1347-interacting-brst-bv-bfv-gauss-complex.json", "sha256": "a993f735eecdcb4574f4e40d2739d4da58102fd8d3489ff41211e47fa4cde613"},
+    "k1415": {"path": "lab/process/k1415-split-gauss-coordinate.json", "sha256": "fea8e8d10bc0809b5cd43e5381ccfa1027d89038d781b29d03c13f2479e42a16"}
+  },
+  "koszul_tate": {
+    "algebra": "Finite-rank smooth cylindrical functions that are polynomial in finitely many Gauss-coordinate components g_a and odd antighost components b_a, with arbitrary smooth dependence on the transverse and matter coordinates",
+    "differential": "delta b_a=g_a and delta g_a=0, extended as an odd derivation; delta^2=0",
+    "euler_operator": "N=sum_a(g_a partial_(g_a)+b_a partial_(b_a)) counts positive Gauss/antighost degree on each finite cylindrical block",
+    "homotopy": "h=N^(-1) sum_a b_a partial_(g_a) on positive N-degree and h=0 at N=0",
+    "contraction_identity": "delta h+h delta=id-iota pi, where pi sets g=b=0 and iota restores the resulting function on the Gauss surface",
+    "cohomology": "Positive antighost homology vanishes and degree-zero homology is the cylindrical function algebra on G^-1(0)",
+    "global_reason": "K1415 makes g a global linear constraint coordinate, so the contraction has no partition-of-unity or local-rank qualification",
+    "boundary": "Exactness is proved for the declared smooth cylindrical/polynomial Koszul algebra. It is not a theorem for every local functional completion, distributional observable algebra or quantum operator domain"
+  },
+  "decision": {
+    "koszul_tate_nilpotent": true,
+    "explicit_contracting_homotopy_constructed": true,
+    "positive_antighost_homology_zero": true,
+    "degree_zero_is_gauss_surface_functions": true,
+    "unrestricted_local_functional_exactness_claimed": false,
+    "quantum_cohomology_constructed": false,
+    "protected_status_change": false
+  }
+}

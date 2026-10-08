@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1418",
+  "title": "The residual compact quotient is proper and stratified by charge support",
+  "pinned_inputs": {
+    "k1400": {"path": "lab/process/k1400-global-coulomb-slice-proper-quotient.json", "sha256": "d685705ac6ac98a654b14cbae344b13691b5b92505fbb2f69cc92b1d44e4e86a"},
+    "k1417": {"path": "lab/process/k1417-based-gauge-brst-reduction.json", "sha256": "30c074cea0fd2d6a4ca70a3af860cfad7a3b6f3f0521c39afba41de4eb4483b4"}
+  },
+  "residual_strata": {
+    "group": "The residual constant compact circle U(1) leaves the Coulomb connection fixed and acts on matter charge q by multiplication with exp(i theta q)",
+    "support_stabilizer": "For nonzero occupied integer charges S, the stabilizer is {exp(i theta): exp(i theta q)=1 for every q in S}; it is the finite cyclic group determined by gcd(|q|:q in S)",
+    "neutral_stabilizer": "If the matter data have support only in ker Q, the full residual U(1) stabilizes them",
+    "free_stratum": "Charge support with gcd one has trivial residual stabilizer",
+    "properness": "Compactness makes the residual action proper on every completed triangular tier; the orbit space is Hausdorff and the orbit map is closed",
+    "stratification": "Changing occupied charge support can change the stabilizer, so the full quotient is a proper orbit-type stratified space rather than one globally free Hilbert manifold",
+    "energy": "The positive gauge-invariant Hamiltonian is constant on residual orbits and descends continuously to every stratum",
+    "boundary": "Proper stratification is classical quotient geometry. It neither selects the physical charge normalization nor constructs a Hilbert-space representation of observables"
+  },
+  "decision": {
+    "residual_group_compact": true,
+    "support_stabilizers_classified": true,
+    "residual_action_proper": true,
+    "quotient_hausdorff": true,
+    "global_free_action": false,
+    "single_smooth_manifold_quotient": false,
+    "physical_charge_normalization_selected": false,
+    "protected_status_change": false
+  }
+}

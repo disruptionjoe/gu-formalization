@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1419",
+  "title": "The repository control has an exact classical BFV boundary reduction",
+  "pinned_inputs": {
+    "k1347": {"path": "lab/process/k1347-interacting-brst-bv-bfv-gauss-complex.json", "sha256": "a993f735eecdcb4574f4e40d2739d4da58102fd8d3489ff41211e47fa4cde613"},
+    "k1348": {"path": "lab/process/k1348-positive-constrained-energy-reduction.json", "sha256": "69d3f18d95e1f5c065641e2ed3d335c36400e4e7c2427a089487b2baf76bc972"},
+    "k1415": {"path": "lab/process/k1415-split-gauss-coordinate.json", "sha256": "fea8e8d10bc0809b5cd43e5381ccfa1027d89038d781b29d03c13f2479e42a16"},
+    "k1416": {"path": "lab/process/k1416-koszul-tate-contraction.json", "sha256": "bbe9cf7f9ff8f6c24836f3d9de1bff4b377abdea70e7a27de3c326c635e8cfd3"},
+    "k1417": {"path": "lab/process/k1417-based-gauge-brst-reduction.json", "sha256": "30c074cea0fd2d6a4ca70a3af860cfad7a3b6f3f0521c39afba41de4eb4483b4"},
+    "k1418": {"path": "lab/process/k1418-residual-compact-stratification.json", "sha256": "88c9a0af37fb7031e89713f5f191d416ba7ab5bf68f685df814a06d7235a69e7"}
+  },
+  "classical_bfv": {
+    "boundary_phase_space": "Completed triangular Cauchy data (A,E,phi,pi) on T3 with canonical symplectic form, restricted to the neutral trivial-bundle sector",
+    "moment_map": "The based gauge Hamiltonian moment map is G=div E-e Im<Qphi,pi> in H^-1_0",
+    "bfv_charge": "Omega_BFV=integral_T3 c_0 G and {Omega_BFV,Omega_BFV}=0 for the abelian based gauge algebra",
+    "constraint_resolution": "K1415--K1416 identify G as a global split coordinate and contract the Koszul--Tate complex onto functions on G^-1(0)",
+    "gauge_resolution": "K1417 contracts the longitudinal/ghost doublet and identifies based degree-zero BRST cohomology with functions on the constrained Coulomb slice",
+    "residual_completion": "Full classical gauge reduction is obtained by taking residual compact U(1) invariants on the proper orbit-type stratified quotient classified by K1418",
+    "degree_zero_result": "On the declared cylindrical algebra, classical BFV H^0 is the algebra of gauge-invariant functions on the neutral Gauss quotient",
+    "positivity": "K1348's nonnegative Hamiltonian descends to the reduced stratified space and is nonzero on explicit physical classical classes",
+    "boundary": "Classical BFV H^0 is an observable algebra, not a quantized state Hilbert space. No representation, completion, Born pairing, interacting quantum BRST operator or positive GU physical Hilbert cohomology is constructed"
+  },
+  "decision": {
+    "boundary_moment_map_constructed": true,
+    "bfv_master_equation_constructed": true,
+    "functional_kt_resolution_on_declared_algebra_constructed": true,
+    "based_brst_reduction_constructed": true,
+    "classical_bfv_degree_zero_identified": true,
+    "positive_classical_hamiltonian_descends": true,
+    "quantum_physical_hilbert_cohomology_constructed": false,
+    "source_gu_bfv_complex_identified": false,
+    "protected_status_change": false
+  }
+}

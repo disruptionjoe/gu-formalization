@@ -7,6 +7,19 @@ updated_at: "2026-10-07"
 
 # Next Steps For Contributors
 
+> **2026-10-07 K1415--K1420 SPLIT GAUSS AND CLASSICAL BFV BOUNDARY.** The
+> neutral Gauss map is now a global split submersion with an explicit bounded
+> right inverse. Its declared cylindrical Koszul--Tate algebra contracts
+> globally, the free based gauge BRST complex contracts through Coulomb gauge,
+> and the residual constant compact circle has an exact proper orbit-type
+> stratification by occupied charge support. Classical BFV `H^0` is therefore
+> the reduced gauge-invariant observable algebra, and the positive repository
+> Hamiltonian descends to it. Next construct a stratum-compatible quantum
+> representation, closed quantum BRST operator and positive Hilbert
+> completion. In parallel, the K1413 full-PDE cutoff-uniform global estimate
+> remains open. Do not call classical BFV `H^0` a state Hilbert space, flatten
+> residual stabilizers, or attribute the repository complex to the source.
+
 > **2026-10-07 K1409--K1414 HOMOGENEOUS COMPLETED GRAPH FLOW.** Compatible-
 > real homogeneous data form an exact current-free invariant manifold with
 > arbitrary charge support. Conserved base energy bounds the recurrent radial
