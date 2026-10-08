@@ -7,6 +7,23 @@ updated_at: "2026-10-08"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1518--K1522 quadratic-mass localization lower bound (2026-10-08)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K1474's `O(N^-3)` Chebyshev estimate is the available low-Wick-square probability scale | K1518 Jensen reduction and exact weighted-chi-square Chernoff bound | false: `mu{W_N<=3C_N^2}<=exp(-cN^2)` |
+| The unshifted many-chaos lower boundary is only logarithmic | K1519 binary entropy contraction plus cutoff-uniform Gross log-Sobolev | false: `E_N>=c_gN^2` for every fixed `g>0` |
+| Unshifted resolvent collapse has no quantitative rate | K1520 spectral theorem | false as an upper bound: `||(H_N+lambda)^(-1)||=O(N^-2)`; no matching asymptotic is claimed |
+| A subquadratic scalar shift may produce a finite nontrivial limit | K1520 shifted spectral-bottom estimate | false: every `a_N=o(N^2)` still collapses to the generalized infinite operator |
+| The lower boundary matches K1516's upper variational result | K1521 two-sided comparison | not established: the surviving corridor is large and `E_N+O(1)` is unidentified |
+| The advance closes GU physical admission | K1522 228-row bridge census | 149 satisfied, ten conditional, 65 excluded and four missing |
+
+The five producers pass `122/122` controls and five hostile probes reject
+`42/42` mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
+`0/7`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
+
 ## K1513--K1517 moderate-deviation tilt rate (2026-10-08)
 
 | Claim | Evidence | Honest grade |

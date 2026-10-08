@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1521",
+  "title": "Two-sided scalar-recentering corridor and harmonic BRST transfer",
+  "pinned_inputs": {
+    "k1471": {"path": "lab/process/k1471-finite-cutoff-interacting-brst-composition.json", "sha256": "abac4797efb8dc9b2c66024a34196084abd7b7a07f4b483fb3db6a8c4099bcb1"},
+    "k1516": {"path": "lab/process/k1516-polynomial-wick-recentering-boundary.json", "sha256": "b788415f3ef7ad3748fe9a02c438ef8b4a4d72ddddae9e4f4e14734fd346e8d7"},
+    "k1519": {"path": "lab/process/k1519-quadratic-kinetic-localization-lower-bound.json", "sha256": "502c594494366e6943879ec709af999a40141f4432d9b5f4341bffb2394a9858"},
+    "k1520": {"path": "lab/process/k1520-quadratic-resolvent-collapse.json", "sha256": "5abf89a10fcb57566847d8a28910b6353020b57ac5ec0d2895f5d9af04ae2fc2"}
+  },
+  "recentering_corridor": {
+    "ground_energy_bracket": "c_g N^2<=E_N<=6gC_N^2-(1-o(1))g sigma_N R_N with R_N=N^(1/14)/(1+log N)",
+    "low_side": "Every a_N=o(N^2), and more generally every shift uniformly below the proved c_g N^2 boundary by a divergent margin, sends the spectral bottom to plus infinity",
+    "high_side": "Every shift whose descent below 6gC_N^2 is asymptotically smaller than g sigma_N R_N sends the spectral bottom to minus infinity along K1516's normalized tilt trials",
+    "surviving_corridor": "A nontrivial uniformly semibounded limit can only be sought inside the nonmatching corridor between the proved Omega(N^2) lower boundary and the K1516 variational upper boundary; the exact ground-energy shift E_N+O(1) remains unresolved",
+    "brst_transfer": "For mathbb H_N=H_N tensor 1+1 tensor Delta_BRST, inf spec(mathbb H_N)=E_N and harmonic compression is the matter resolvent tensored with P_harm, so both low-side collapse and high-side instability transfer without constructing a continuum interacting BRST charge"
+  },
+  "decision": {
+    "two_sided_recentering_corridor_proved": true,
+    "low_and_high_exclusion_mechanisms_distinct": true,
+    "harmonic_brst_transfer_proved": true,
+    "corridor_endpoints_match": false,
+    "ground_energy_shift_identified": false,
+    "mosco_compactness_or_recovery_proved": false,
+    "interacting_continuum_brst_constructed": false,
+    "protected_status_change": false
+  }
+}

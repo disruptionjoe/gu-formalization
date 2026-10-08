@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: c6fb89bf40b69f03d7472216c81b953403967b3f
+revision_basis: 33bde790a37f5a26a78e3c20c839ac0d2cede899
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1518--K1522 replace K1474's polynomial low-potential estimate by an
+    exponential Gaussian quadratic-mass bound. Jensen forces
+    `A_N={W_N<=3C_N^2}` into
+    `{Q_N-C_N>=(2-sqrt(3))C_N}`. In a real covariance eigenbasis,
+    `Q_N=sum lambda_j xi_j^2`, with `sum lambda_j=Theta(N^2)`,
+    `sum lambda_j^2=O(N)` and `max lambda_j=O(1)`; the exact product moment
+    generating function therefore gives `mu(A_N)<=exp(-cN^2)`. Binary entropy
+    contraction and cutoff-uniform Gross log-Sobolev yield the first
+    many-chaos lower boundary `E_N>=c_gN^2`. Consequently unshifted resolvents
+    are `O(N^-2)`, every subquadratic scalar shift still collapses to the
+    generalized infinite operator, and K1516 supplies the opposite
+    high-shift instability. The resulting recentering corridor is two-sided
+    but nonmatching and transfers through harmonic BRST compression. No true
+    ground-energy asymptotic, ground-state profile, compactness, Mosco
+    recovery, continuum interacting BRST operator or source-owned GU
+    Hamiltonian follows. The 228-row census is 149 satisfied, ten conditional,
+    65 excluded and four missing; protected statuses stay fixed.
+
     K1513--K1517 replace K1510's square-root-logarithmic transfer boundary by
     a polynomial moderate-deviation tilt. Normalizing K1498's contractions for
     Schulte--Thale gives `K_N=O(N^-3/2(1+log N)^4)`, `alpha(4)=3/7` and
@@ -14713,6 +14731,19 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1518--K1522 prove the first many-chaos kinetic-localization lower boundary,
+  `E_N>=c_gN^2`, while K1516 retains the upper bound
+  `E_N<=6gC_N^2-(1-o(1))g sigma_N N^(1/14)/(1+log N)`. Can a normalized trial
+  be constructed with energy comparable to `N^2`, or can the low-Wick-square
+  event geometry be sharpened beyond its quadratic-mass consequence, so the
+  wide recentering corridor begins to close? Only after identifying `E_N` to
+  bounded error should compactness and Mosco liminf/recovery be tested on one
+  common nonlinear domain. In parallel, which gauge/Maxwell-dependent
+  spacetime, secondary-null or derivative/nonlocal estimate controls both
+  K1413 leakages, and which source-owned selector tuple can reopen physical
+  admission? Do not promote the `N^2` lower boundary to an asymptotic or a
+  localization profile.
+
   K1513--K1517 sharpen the one-sided variational correction to
   `g sigma_N N^(1/14)/(1+log N)` by a relative fourth-chaos moderate-deviation
   theorem and a truncated exponential tilt. Is this still only an interior
@@ -17093,6 +17124,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1518--K1522's nonmatching two-sided scope. The Gaussian
+  quadratic-mass Chernoff bound and entropy localization prove
+  `E_N>=c_gN^2`, while K1516's truncated tilt supplies only the much larger
+  upper boundary near `6gC_N^2`. Construct a normalized order-`N^2` trial or
+  strengthen the low-Wick-square small-ball geometry beyond the Jensen mass
+  consequence. Only after identifying `E_N` to bounded error should
+  ground-state compactness and Mosco liminf/recovery be tested on one common
+  nonlinear domain. Independently, advance K1413 through a genuinely
+  gauge/Maxwell-dependent spacetime, secondary-null or derivative/nonlocal
+  estimate controlling both leakages, and supply the source-owned selector
+  tuple required by the admission frontier.
+
   Preserve K1513--K1517's one-sided scope. The Schulte--Thale relative-tail
   theorem and truncated exponential tilt prove
   `E_N<=6gC_N^2-(1-o(1))g sigma_N N^(1/14)/(1+log N)`, but `1/14` is only the

@@ -7,6 +7,21 @@ updated_at: "2026-10-08"
 
 # Next Steps For Contributors
 
+> **2026-10-08 K1518--K1522 QUADRATIC-MASS LOCALIZATION LOWER BOUND.** Jensen
+> sends `A_N={W_N<=3C_N^2}` into the upper quadratic-mass event
+> `Q_N-C_N>=(2-sqrt(3))C_N`. In a real covariance eigenbasis the exact
+> weighted-chi-square moment generating function, together with
+> `sum lambda_j=Theta(N^2)`, `sum lambda_j^2=O(N)` and
+> `max lambda_j=O(1)`, gives `mu(A_N)<=exp(-cN^2)`. Binary entropy contraction
+> plus cutoff-uniform Gross log-Sobolev upgrades the many-chaos ground-energy
+> lower boundary to `E_N>=c_gN^2`. Unshifted resolvents are therefore
+> `O(N^-2)`, subquadratic shifts still collapse, and K1516 supplies the
+> opposite high-shift instability, including after harmonic BRST compression.
+> Next construct an order-`N^2` upper trial or strengthen the low-event
+> geometry enough to close the nonmatching corridor. Do not infer the true
+> ground-energy asymptotic, a ground-state profile, compactness or Mosco
+> recovery from the lower boundary.
+
 > **2026-10-08 K1513--K1517 MODERATE-DEVIATION TILT RATE.** K1498's
 > normalized contractions satisfy Schulte--Thale's fourth-chaos Cramer theorem
 > with `alpha(4)=3/7` and

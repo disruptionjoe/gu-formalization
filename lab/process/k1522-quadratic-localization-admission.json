@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1522",
+  "title": "Quadratic localization lower-bound admission replay",
+  "pinned_inputs": {
+    "k1518": {"path": "lab/process/k1518-gaussian-quadratic-mass-chernoff.json", "sha256": "4b001799fab9796f7185351351c9ab0d6e86a1d2e19f5409915ea3439333d9b6"},
+    "k1519": {"path": "lab/process/k1519-quadratic-kinetic-localization-lower-bound.json", "sha256": "502c594494366e6943879ec709af999a40141f4432d9b5f4341bffb2394a9858"},
+    "k1520": {"path": "lab/process/k1520-quadratic-resolvent-collapse.json", "sha256": "5abf89a10fcb57566847d8a28910b6353020b57ac5ec0d2895f5d9af04ae2fc2"},
+    "k1521": {"path": "lab/process/k1521-two-sided-recentering-corridor.json", "sha256": "312ce6bedc915d3605b8733252532821ff71e1b520c16c4662525af24477b061"}
+  },
+  "bridge_census": {
+    "row_count": 228,
+    "satisfied_count": 149,
+    "conditional_count": 10,
+    "excluded_count": 65,
+    "missing_count": 4,
+    "new_satisfied_rows": [
+      "the low Wick-square event forces the Gaussian quadratic mass a fixed fraction above its mean",
+      "the real covariance-eigenbasis weighted chi-square product gives an exp(-cN^2) event bound",
+      "binary entropy plus cutoff-uniform Gross log-Sobolev upgrades the many-chaos ground-energy lower boundary to Omega(N^2)",
+      "the unshifted resolvent norm is O(N^-2)",
+      "every subquadratic scalar shift still collapses to the generalized infinite operator",
+      "the lower localization and upper tilt boundaries define a two-sided but nonmatching recentering corridor",
+      "the quadratic low-side collapse and polynomial high-side instability both transfer through harmonic BRST compression"
+    ],
+    "protected_missing_rows": [
+      "source-selected action",
+      "source-owned positive interacting physical state space",
+      "source-owned observed export",
+      "empirical prediction or confirmation bridge"
+    ]
+  },
+  "protected_state": {
+    "source_claims": "SC-ACT-01/02/06 remain ASSERTS; SC-META-53 remains UNCERTAIN",
+    "physics_ledger": "33 SAME / 22 DIFFERS / 31 NEEDS / 2 OVER-DETERMINED; LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS",
+    "candidate_counts": "K1145 and K1150 remain 0/7",
+    "untouched_surfaces": ["lab/sources/source-claim-register.yaml", "lab/process/conditional-physics-ledger-v0.263.json", "canon/", "papers/"],
+    "public_posture_change": false
+  },
+  "decision": {
+    "conditional_mathematical_advance": true,
+    "source_owned_gu_hamiltonian": false,
+    "positive_gu_physical_state_space": false,
+    "matching_ground_energy_asymptotic": false,
+    "prediction_or_confirmation": false,
+    "protected_status_change": false
+  }
+}

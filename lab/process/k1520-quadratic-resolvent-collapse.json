@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1520",
+  "title": "Quadratic unshifted resolvent collapse and low-shift exclusion",
+  "pinned_inputs": {
+    "k1475": {"path": "lab/process/k1475-unshifted-wick-resolvent-collapse.json", "sha256": "7c4a4cb51b3b1c4992b1b226546f45a7af634f1767820b6ae659342a19854aab"},
+    "k1519": {"path": "lab/process/k1519-quadratic-kinetic-localization-lower-bound.json", "sha256": "502c594494366e6943879ec709af999a40141f4432d9b5f4341bffb2394a9858"}
+  },
+  "spectral_consequence": {
+    "unshifted_resolvent": "For every fixed lambda>0, ||(H_N+lambda)^(-1)||=(E_N+lambda)^(-1)=O(N^-2)",
+    "general_low_shift": "If a_N<=c_g N^2-r_N with r_N tending to infinity, then inf spec(H_N-a_N)>=r_N and ||(H_N-a_N+lambda)^(-1)||<=1/(r_N+lambda) tends to zero",
+    "subquadratic_shift": "In particular every scalar recentering a_N=o(N^2) leaves the spectral bottom tending to plus infinity and the resolvent collapsing to zero in norm",
+    "operator_ceiling": "Zero is not the resolvent of a densely defined self-adjoint operator, so these low shifts cannot have a finite nontrivial self-adjoint strong-resolvent limit",
+    "rate_ceiling": "The O(N^-2) statement is an upper norm bound from a nonsharp energy lower constant; no matching resolvent asymptotic is claimed"
+  },
+  "decision": {
+    "unshifted_resolvent_norm_upper": "N^-2",
+    "subquadratic_recentering_excluded": true,
+    "finite_unshifted_strong_resolvent_limit": false,
+    "matching_resolvent_asymptotic_proved": false,
+    "protected_status_change": false
+  }
+}
