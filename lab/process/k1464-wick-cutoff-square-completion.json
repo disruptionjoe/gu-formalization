@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1464",
+  "title": "The finite-cutoff beta=1 Wick quartic has an exact nonnegative square completion after a vacuum shift",
+  "pinned_inputs": {
+    "k1459": {"path": "lab/process/k1459-particle-sector-quartic-form-boundary.json", "sha256": "9c9ce195ef4658a5072e47742587ad0a0e805f7ab489957bfc78fb5c575dc8ec"}
+  },
+  "square_completion": {
+    "polynomial": "P_C(x)=x^4-6 C x^2+3 C^2=(x^2-3C)^2-6C^2",
+    "cutoff_variance": "At every finite beta=1 cutoff N, C_N=sum_k (2 omega_k)^(-1) is finite",
+    "vacuum_shift": "On normalized T^3, adding 6 C_N^2 to the integrated Wick quartic gives integral (phi_N^2-3C_N)^2 dx, which is nonnegative",
+    "sector_consequence": "The shifted multiplication form is semibounded on every particle sector at fixed cutoff; K1459 excludes free-form domination, not this nonlinear-domain route",
+    "counterterm_accounting": "The additional term is a scalar cutoff-dependent vacuum-energy counterterm and must be retained explicitly",
+    "ceiling": "Square completion alone proves no ultraviolet convergence, bounded free-vacuum energy, nontrivial continuum interaction, source ownership or interacting BRST closure"
+  },
+  "decision": {
+    "exact_square_completion_proved": true,
+    "finite_cutoff_nonnegative_shift_constructed": true,
+    "fixed_cutoff_all_particle_sectors_semibounded": true,
+    "uniform_free_form_bound_constructed": false,
+    "beta_one_continuum_limit_constructed": false,
+    "protected_status_change": false
+  }
+}

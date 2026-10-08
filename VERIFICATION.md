@@ -7,6 +7,23 @@ updated_at: "2026-10-08"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1461--K1467 null-form and Wick cutoff-domain boundary (2026-10-08)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The Lorentz wave--Klein--Gordon null numerator improves K1443's phase inversion | K1461 exact rationalization and parallel sharpness | true for the declared sign branch: two derivatives improve to one; the actual lifted current is not identified with this numerator |
+| Energy/Riesz normalization removes the remaining derivative loss | K1462 triangle inequality and the nonzero torus gap | true as a uniform scalar multiplier; the normalization is nonlocal and no bilinear spacetime estimate follows |
+| Coulomb transversality already supplies the required null form | K1463 fixed-offset near-parallel ray | false: the transverse current quotient still grows quadratically |
+| The finite-cutoff beta=1 Wick polynomial has a semibounded nonlinear-domain realization | K1464 square completion and K1466 closed-form theorem | true at every fixed cutoff after the explicit vacuum shift; no ultraviolet limit follows |
+| A scalar shift can keep both the lower bound and free-vacuum expectation uniform | K1465 exact minimum, Gaussian moment and `C_N=Theta(N^2)` shell count | false: a uniform lower bound forces free-vacuum expectation of order at least `N^4` |
+| The advance closes GU physical admission | K1467 137-row bridge census | eighty-five satisfied, ten conditional, thirty-eight excluded and four missing |
+
+The seven producers pass `192/192` controls and seven probes reject `92/92`
+hostile mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
+`0/7`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
+
 ## K1453--K1460 analytic-weight and fourth-chaos boundary (2026-10-08)
 
 | Claim | Evidence | Honest grade |

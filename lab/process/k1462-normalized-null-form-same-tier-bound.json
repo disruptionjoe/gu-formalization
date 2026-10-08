@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1462",
+  "title": "Energy-normalized wave--Klein--Gordon null cancellation is same-tier on the nonzero torus modes",
+  "pinned_inputs": {
+    "k1461": {"path": "lab/process/k1461-wave-kg-null-form-phase-cancellation.json", "sha256": "81e660f47f2bb414652ad6900e79f83720e90c25bc74203c150451e0aa86c9a9"}
+  },
+  "normalized_bound": {
+    "multiplier": "M0=N0/(|p| omega(k) Phi)=(|p|+omega(k)+omega(k+p))/(2|p|omega(k))",
+    "triangle_bound": "omega(k+p)<=omega(k)+|p| gives M0<=1/|p|+1/omega(k)",
+    "torus_bound": "For p in Z^3 minus zero and M>0, |p|>=1 and omega(k)>=M, so M0<=1+1/M uniformly in p and k",
+    "interpretation": "The normalized null form removes the small divisor without derivative loss on the declared branch",
+    "nonlocal_price": "The normalization contains |nabla|^(-1) and omega(D)^(-1); it is not the local spatial current appearing in K1413",
+    "ceiling": "No bilinear spacetime estimate, nonlinear composition, charge summation, radial-leakage control or global flow is constructed"
+  },
+  "decision": {
+    "uniform_same_tier_scalar_bound_proved": true,
+    "nonzero_torus_gap_used": true,
+    "normalization_nonlocal": true,
+    "k1413_current_already_has_normalization": false,
+    "both_full_pde_leakages_closed": false,
+    "global_full_pde_flow_constructed": false,
+    "protected_status_change": false
+  }
+}

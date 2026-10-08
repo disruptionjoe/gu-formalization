@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1463",
+  "title": "Coulomb transversality alone does not supply the Lorentz null numerator on near-parallel rays",
+  "pinned_inputs": {
+    "k1413": {"path": "lab/process/k1413-full-pde-graph-energy-leakage.json", "sha256": "3d553dba3c237d737cfa8982ace7c2bba0239ab8b064ce78956334aef28dcc27"},
+    "k1461": {"path": "lab/process/k1461-wave-kg-null-form-phase-cancellation.json", "sha256": "81e660f47f2bb414652ad6900e79f83720e90c25bc74203c150451e0aa86c9a9"}
+  },
+  "current_mismatch": {
+    "transverse_symbol": "For a Coulomb polarization e dot p=0, the spatial current symbol contracts as e dot (2k+p)=2 e dot k",
+    "near_parallel_ray": "Take p=(1,0,0), e=(0,1,0), k=(K,1,0); the current numerator is exactly two",
+    "phase_asymptotic": "On this ray Phi is asymptotic to (M^2+1)/(2K^2)",
+    "quotient_asymptotic": "The transverse-current homological quotient is asymptotic to 4K^2/(M^2+1), retaining the two-derivative loss",
+    "interpretation": "Transversality kills the exactly parallel ray but not fixed-offset near-parallel rays and therefore does not reproduce N0",
+    "ceiling": "A full Lorentz null decomposition, normalized nonlocal form, spacetime estimate or modified energy may still repair the leakage"
+  },
+  "decision": {
+    "exact_parallel_current_cancelled_by_transversality": true,
+    "near_parallel_two_derivative_witness_constructed": true,
+    "coulomb_transversality_equals_lorentz_null_form": false,
+    "k1413_current_null_closed": false,
+    "all_spacetime_or_modified_energy_routes_excluded": false,
+    "global_full_pde_flow_constructed": false,
+    "protected_status_change": false
+  }
+}

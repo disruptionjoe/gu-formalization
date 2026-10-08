@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1466",
+  "title": "Every finite beta=1 cutoff has a closed nonnegative Wick Hamiltonian on a nonlinear form domain",
+  "pinned_inputs": {
+    "k1430": {"path": "lab/process/k1430-free-second-quantized-hamiltonian.json", "sha256": "395a7396357bafac863c9d76e104139a8eb543500befff95b1393f95ff404b01"},
+    "k1464": {"path": "lab/process/k1464-wick-cutoff-square-completion.json", "sha256": "6a194a81b2d61210253e88c81869a20f0db5885e9555221faffc8753869f4c68"},
+    "k1465": {"path": "lab/process/k1465-vacuum-normalization-semiboundedness-tension.json", "sha256": "1d01beb0e29031da826200b78c01c46eb34f9d09c3022c88cbf4acc854c5ffd8"}
+  },
+  "cutoff_form": {
+    "potential": "U_N(phi)=integral_(T3) (phi_N(x)^2-3C_N)^2 dx is a nonnegative finite-coordinate polynomial in Gaussian Q-space",
+    "multiplication_form": "q_U,N[Psi]=integral U_N |Psi|^2 dmu with domain D(U_N^(1/2)) is a dense closed nonnegative quadratic form",
+    "full_domain": "D(q_N)=D(H_0^(1/2)) intersection D(U_N^(1/2)) is dense for every finite N",
+    "closed_sum": "For g>=0, q_N=q_0+g q_U,N is closed and nonnegative, hence defines a self-adjoint Friedrichs Hamiltonian H_N>=0",
+    "relation_to_k1459": "The construction controls every particle sector at fixed cutoff by changing to a nonlinear form domain rather than bounding the quartic by H_0",
+    "continuum_debt": "The domains and potentials vary with N, the required scalar shift is order N^4 in free-vacuum expectation, and no Mosco, semigroup or resolvent convergence is proved",
+    "ceiling": "No nontrivial beta=1 continuum Hamiltonian, interacting BRST operator, positive physical cohomology or source-owned theory is constructed"
+  },
+  "decision": {
+    "finite_cutoff_dense_closed_form_constructed": true,
+    "finite_cutoff_self_adjoint_hamiltonian_constructed": true,
+    "every_particle_sector_in_fixed_cutoff_domain_controlled": true,
+    "uniform_free_form_domination_used": false,
+    "cutoff_consistent_form_convergence_proved": false,
+    "interacting_brst_closed": false,
+    "protected_status_change": false
+  }
+}

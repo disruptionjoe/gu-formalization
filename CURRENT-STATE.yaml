@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 9539c96ba2e3ddd83d28de4bb1624098454c9e05
+revision_basis: 9add459e2b207682204447b2548c8fe9dc7cd05a
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1461--K1467 isolate the exact null structure needed to improve K1443 and
+    construct the strongest finite-cutoff beta=1 form currently justified.
+    The Lorentz wave--Klein--Gordon numerator cancels the nonzero-mode phase
+    divisor exactly: unnormalized it has a sharp one-derivative cost, while
+    energy/Riesz normalization gives a uniform same-tier multiplier on the
+    nonzero torus modes. K1413's actual Coulomb-transverse spatial current does
+    not automatically carry this structure; fixed-offset near-parallel rays
+    retain the two-derivative loss. Independently, the finite-cutoff Wick
+    polynomial completes to `(phi_N^2-3C_N)^2-6C_N^2`. Adding the explicit
+    scalar vacuum shift gives a closed nonnegative Friedrichs form on the
+    nonlinear intersection domain and controls every particle sector at each
+    fixed cutoff. The price is not uniform vacuum normalization: since
+    `C_N=Theta(N^2)`, every scalar shift giving a uniform lower bound has
+    free-vacuum expectation at least order `N^4`. No cutoff convergence,
+    interacting BRST closure or source-owned theory follows. The 137-row
+    census is eighty-five satisfied, ten conditional, thirty-eight excluded
+    and four missing; K1145/K1150 remain 0/7 and protected statuses do not
+    move.
+
     K1453--K1460 prove that K1450's absolute factorial hierarchy cannot
     globalize by weight choice alone. Its additive radius law collapses every
     finite radius in finite time because the coefficient contains a unit

@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1465",
+  "title": "A scalar vacuum shift cannot keep both the beta=1 Wick lower bound and free-vacuum expectation uniform",
+  "pinned_inputs": {
+    "k1464": {"path": "lab/process/k1464-wick-cutoff-square-completion.json", "sha256": "6a194a81b2d61210253e88c81869a20f0db5885e9555221faffc8753869f4c68"}
+  },
+  "scalar_shift_tension": {
+    "shifted_polynomial": "For P_C+d, the exact lower bound is d-6C^2",
+    "vacuum_expectation": "For a centered Gaussian X with variance C, E[P_C(X)]=0, so E[P_C(X)+d]=d",
+    "uniform_lower_bound_price": "A lower bound at least -L independent of N requires d_N>=6C_N^2-L",
+    "covariance_growth": "For beta=1 on three-dimensional torus cutoffs, C_N=sum_(|k|<=N)(2 sqrt(m^2+|k|^2))^(-1)=Theta(N^2)",
+    "vacuum_growth": "Every scalar shift giving a cutoff-uniform lower bound therefore has free-vacuum expectation Omega(N^4)",
+    "zero_expectation_horn": "Choosing d_N=0 keeps the free-vacuum expectation zero but leaves the exact lower bound -6C_N^2",
+    "ceiling": "This is a scalar-shift tension, not a no-go for non-Gaussian measures, singular dressings, additional counterterms or renormalized resolvent limits"
+  },
+  "decision": {
+    "exact_lower_bound_and_expectation_identity_proved": true,
+    "three_dimensional_covariance_growth_order": "N^2",
+    "uniform_lower_bound_forces_vacuum_growth_order": "N^4",
+    "scalar_shift_achieves_bounded_lower_and_vacuum_energy": false,
+    "all_beta_one_renormalization_routes_excluded": false,
+    "protected_status_change": false
+  }
+}

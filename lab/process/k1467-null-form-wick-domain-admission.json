@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1467",
+  "title": "Null-form and Wick cutoff-domain admission boundary",
+  "pinned_inputs": {
+    "k1461": {"path": "lab/process/k1461-wave-kg-null-form-phase-cancellation.json", "sha256": "81e660f47f2bb414652ad6900e79f83720e90c25bc74203c150451e0aa86c9a9"},
+    "k1462": {"path": "lab/process/k1462-normalized-null-form-same-tier-bound.json", "sha256": "0dfeda4bae59ed44856d3ca6742c7281e6f49f62de96887e6e80ec4bc954cd8b"},
+    "k1463": {"path": "lab/process/k1463-transverse-current-null-form-mismatch.json", "sha256": "7360134bad3c5812e85967d8ff98abf8b596b28cd406d6cdd68fc2bb8c9874ad"},
+    "k1464": {"path": "lab/process/k1464-wick-cutoff-square-completion.json", "sha256": "6a194a81b2d61210253e88c81869a20f0db5885e9555221faffc8753869f4c68"},
+    "k1465": {"path": "lab/process/k1465-vacuum-normalization-semiboundedness-tension.json", "sha256": "1d01beb0e29031da826200b78c01c46eb34f9d09c3022c88cbf4acc854c5ffd8"},
+    "k1466": {"path": "lab/process/k1466-nonlinear-cutoff-form-domain.json", "sha256": "0e5b04e037e64580cf48bc6da77b4b8ececa0394600ec64fdba63650bc72f79b"}
+  },
+  "bridge_census": {
+    "row_count": 137,
+    "satisfied_count": 85,
+    "conditional_count": 10,
+    "excluded_count": 38,
+    "missing_count": 4,
+    "new_satisfied_rows": [
+      "exact Lorentz null-numerator phase cancellation with sharp one-derivative unnormalized cost",
+      "uniform same-tier bound for the energy-normalized nonzero-torus null multiplier",
+      "exact finite-cutoff Wick square completion and scalar-shift accounting",
+      "closed nonnegative finite-cutoff beta=1 Friedrichs form on the nonlinear domain"
+    ],
+    "new_excluded_rows": [
+      "Coulomb transversality alone as a substitute for the full Lorentz null numerator",
+      "scalar vacuum shift with both cutoff-uniform lower bound and bounded free-vacuum expectation",
+      "finite-cutoff nonlinear-domain self-adjointness as a substitute for beta=1 ultraviolet form convergence"
+    ],
+    "missing_rows": [
+      "source-owned compact-generator selection and normalization on the observed carrier",
+      "identification with one source action",
+      "cutoff-uniform completed global PDE evolution and interacting continuum positive physical Hilbert cohomology",
+      "source-owned observed-state/export map"
+    ]
+  },
+  "decision": {
+    "normalized_null_symbol_constructed": true,
+    "actual_lifted_current_null_closed": false,
+    "finite_cutoff_beta_one_hamiltonian_constructed": true,
+    "beta_one_continuum_hamiltonian_constructed": false,
+    "interacting_brst_closed": false,
+    "source_selected_reduction_constructed": false,
+    "k1145_k1150_candidate_counts_move": false,
+    "protected_status_change": false
+  },
+  "source_and_ledger_effect": "SOURCE_REGISTER_UNCHANGED; LEDGER_UNCHANGED at 33 SAME / 22 DIFFERS / 31 NEEDS / 2 OVER-DETERMINED; SC-ACT-01/02/06 ASSERTS; SC-META-53 UNCERTAIN; LT-SM8/LT-GR6b/RA-F1/AC-F1 NEEDS; K1145/K1150 0/7"
+}

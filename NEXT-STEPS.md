@@ -7,6 +7,22 @@ updated_at: "2026-10-08"
 
 # Next Steps For Contributors
 
+> **2026-10-08 K1461--K1467 NULL-FORM AND WICK CUTOFF-DOMAIN BOUNDARY.**
+> The exact Lorentz wave--Klein--Gordon numerator cancels the nonzero-mode
+> phase divisor, improving K1443's two-derivative loss to one derivative; its
+> energy/Riesz-normalized version is same-tier on nonzero torus modes. The
+> actual Coulomb-transverse lifted current is not that null form: fixed-offset
+> near-parallel rays retain quadratic growth. Independently, the finite-cutoff
+> beta=1 Wick polynomial becomes a nonnegative square after an explicit vacuum
+> shift and defines a closed Friedrichs form on a nonlinear domain controlling
+> every particle sector. But `C_N=Theta(N^2)`, so any scalar shift giving a
+> uniform lower bound forces free-vacuum energy of order `N^4`. Next derive the
+> full Lorentz/normalized null structure from the action or control the
+> near-parallel ray by a spacetime/modified energy, and prove cutoff convergence
+> of the nonlinear Wick forms with all counterterms stated. Do not promote the
+> scalar multiplier or fixed-cutoff Hamiltonians to a global PDE or continuum
+> interacting theory.
+
 > **2026-10-08 K1453--K1460 ANALYTIC-WEIGHT AND FOURTH-CHAOS BOUNDARY.**
 > K1450's additive radius law necessarily reaches zero in finite time, and no
 > fixed positive no-loss weight can both absorb the one-charge shift and stay

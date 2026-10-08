@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1461",
+  "title": "The wave--Klein--Gordon Lorentz null numerator cancels the nonzero-mode phase divisor",
+  "pinned_inputs": {
+    "k1442": {"path": "lab/process/k1442-zero-harmonic-phase-nonresonance.json", "sha256": "b57069b3937967f67eea00978e19fb7dd81ef197b51db697f3924b3e0af11aba"},
+    "k1443": {"path": "lab/process/k1443-zero-harmonic-derivative-loss-boundary.json", "sha256": "af035ed6b8c1b50e49cd6835c0466757e92e5d8fb8e6dd2b242627042a7d7721"}
+  },
+  "null_cancellation": {
+    "phase": "For p nonzero, omega(k)=sqrt(M^2+|k|^2) and Phi=|p|+omega(k)-omega(k+p)",
+    "null_numerator": "N0=|p| omega(k)-p dot k is the Lorentz wave--Klein--Gordon null numerator on the declared sign branch",
+    "exact_identity": "Phi=2 N0/(|p|+omega(k)+omega(k+p)), hence N0/Phi=(|p|+omega(k)+omega(k+p))/2",
+    "upper_order": "The quotient is bounded by |p|+omega(k), so the null-form homological multiplier loses at most one spatial derivative",
+    "sharpness": "For p=(1,0,0) and k=(K,0,0), N0/Phi is asymptotic to K; no same-tier bound holds for the unnormalized numerator",
+    "ceiling": "This is an exact scalar-symbol result for one sign branch, not a derivation of that numerator from K1413's lifted current or a global PDE estimate"
+  },
+  "decision": {
+    "exact_null_phase_cancellation_proved": true,
+    "two_derivative_loss_retained_after_null_numerator": false,
+    "one_derivative_upper_bound_proved": true,
+    "one_derivative_cost_sharp": true,
+    "same_tier_unnormalized_bound": false,
+    "actual_lifted_current_identified_with_null_form": false,
+    "global_full_pde_flow_constructed": false,
+    "protected_status_change": false
+  }
+}
