@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1425",
+  "title": "Each reduced cylindrical block has a positive invariant interacting Friedrichs Hamiltonian",
+  "pinned_inputs": {
+    "k1366": {"path": "lab/process/k1366-positive-charge-regularizer.json", "sha256": "72075a863129fee1dff04d931a02dd083bf01c6c2f20ed76cab940cdcec24a22"},
+    "k1422": {"path": "lab/process/k1422-compact-haar-stratum-projection.json", "sha256": "fcf962decbec307e66c4f2fc96d7071fd51512f2dc69bab964bd59d68fad022f"},
+    "k1424": {"path": "lab/process/k1424-gaussian-gauge-fixed-brst-cohomology.json", "sha256": "c4d7d1be7dbf75318ae5e190ca403f3952e566feed03a5182e9dbe41ba50e21a"}
+  },
+  "hamiltonian": {
+    "form": "h_N[Psi]=1/2||grad Psi||^2+integral V_N|Psi|^2 on a finite reduced coordinate block",
+    "potential": "V_N=m^2|y,z|^2+mu|Qz|^2+lambda|z|^4 with m,mu,lambda>0",
+    "closure": "The nonnegative coercive polynomial potential gives a densely defined closed semibounded quadratic form",
+    "operator": "The Friedrichs operator H_N is self-adjoint, bounded below and has compact resolvent because V_N tends to infinity in finite dimension",
+    "gauge_compatibility": "V_N is residual-circle invariant, so H_N strongly commutes with the Haar projector and restricts self-adjointly to H_N^U(1)",
+    "continuum_boundary": "Quartic mode projection changes effective lower-block interactions; no compatible infinite-dimensional Gaussian family, renormalized Hamiltonian or cutoff-stable BRST complex is supplied",
+    "pde_boundary": "K1413's lifted-current and radial-coefficient leakage terms are unchanged, so finite-block spectral positivity does not prove global nonlinear PDE evolution"
+  },
+  "decision": {
+    "closed_semibounded_finite_block_form": true,
+    "self_adjoint_friedrichs_hamiltonian": true,
+    "finite_block_compact_resolvent": true,
+    "compact_invariant_sector_preserved": true,
+    "positive_interacting_finite_block_control": true,
+    "cutoff_compatible_continuum_limit_constructed": false,
+    "renormalized_continuum_hamiltonian_constructed": false,
+    "global_nonlinear_pde_proved": false,
+    "source_hamiltonian_identified": false,
+    "protected_status_change": false
+  }
+}

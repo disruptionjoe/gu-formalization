@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1422",
+  "title": "Residual compact Haar averaging gives a stratum-compatible invariant Hilbert sector",
+  "pinned_inputs": {
+    "k1418": {"path": "lab/process/k1418-residual-compact-stratification.json", "sha256": "88c9a0af37fb7031e89713f5f191d416ba7ab5bf68f685df814a06d7235a69e7"},
+    "k1421": {"path": "lab/process/k1421-cylindrical-schrodinger-representation.json", "sha256": "c9ccc43e9cea50be9591a3995608dfaedb58ea2b05e7d5f7759a10894c7f5b0a"}
+  },
+  "haar_projection": {
+    "formula": "P0=(2pi)^(-1) integral_0^(2pi) U(theta)dtheta",
+    "operator_control": "P0 is self-adjoint, idempotent and norm one, with closed range H_N^U(1)",
+    "charge_rule": "A polynomial charge monomial survives exactly when its total integer charge is zero",
+    "orbit_types": "Support gcd d gives stabilizer Z_d, neutral support gives U(1), and gcd-one support is free; Haar projection requires compactness but not freeness",
+    "stratum_compatibility": "All orbit types contribute through invariant functions without identifying the classical quotient with one free smooth manifold",
+    "boundary": "Invariant projection does not select the charge generator or normalization and is not a continuum physical-state construction"
+  },
+  "decision": {
+    "orthogonal_haar_projection_constructed": true,
+    "invariant_subspace_closed": true,
+    "charge_zero_selection_exact": true,
+    "nonfree_orbit_types_retained": true,
+    "global_free_quotient_assumed": false,
+    "charge_normalization_selected": false,
+    "continuum_physical_sector_constructed": false,
+    "protected_status_change": false
+  }
+}

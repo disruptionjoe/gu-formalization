@@ -7,6 +7,19 @@ updated_at: "2026-10-07"
 
 # Next Steps For Contributors
 
+> **2026-10-07 K1421--K1426 FINITE-CYLINDRICAL QUANTUM BRST BOUNDARY.**
+> Finite Coulomb/Gauss-reduced blocks now carry positive residual-circle
+> Schrödinger representations. Compact Haar projection is orthogonal and
+> stratum compatible. Bare translation-invariant based-gauge BRST has zero
+> degree-zero `L2` state cohomology and nonclosed range; Gaussian gauge fixing
+> gives a closed Hilbert complex with unit Hodge gap and positive nonzero
+> `H^0`. A coercive circle-invariant quartic form gives a self-adjoint positive
+> finite-block Hamiltonian. Next construct compatible block embeddings or
+> projective data, a continuum measure/representation, a renormalized
+> Hamiltonian and a closed continuum BRST operator stable under refinement.
+> Do not promote Gaussian gauge fixing, finite-block compact resolvent or
+> positive cylindrical cohomology to source-derived GU physical closure.
+
 > **2026-10-07 K1415--K1420 SPLIT GAUSS AND CLASSICAL BFV BOUNDARY.** The
 > neutral Gauss map is now a global split submersion with an explicit bounded
 > right inverse. Its declared cylindrical Koszul--Tate algebra contracts

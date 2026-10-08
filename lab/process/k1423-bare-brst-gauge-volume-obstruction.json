@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1423",
+  "title": "Bare translation-invariant based-gauge BRST has zero L2 state cohomology and no gap",
+  "pinned_inputs": {
+    "k1417": {"path": "lab/process/k1417-based-gauge-brst-reduction.json", "sha256": "30c074cea0fd2d6a4ca70a3af860cfad7a3b6f3f0521c39afba41de4eb4483b4"}
+  },
+  "obstruction": {
+    "hilbert_factor": "L2(R^m,dchi) for finitely many based-gauge coordinates, tensored with a finite ghost exterior algebra",
+    "bare_differential": "d0=sum_j partial_(chi_j) wedge e_j on the Sobolev domain",
+    "degree_zero_kernel": "d0 Psi=0 makes Psi constant in every chi_j; the only constant in L2(R^m,dchi) is zero",
+    "spectral_sequence": "Normalized Fourier packets supported in |p|<=1/n obey ||p Psi_n||<=1/n, so zero lies in continuous spectrum and there is no positive BRST gap",
+    "range": "The derivative range is dense but not closed, since the multiplier p approaches zero without a zero eigenvector",
+    "meaning": "Naive invariant L2 vectors divide by an infinite noncompact gauge volume and cannot realize the nonzero reduced state space",
+    "boundary": "This excludes only the bare translation-invariant state representation, not reduced quantization, rigging maps, Gaussian gauge fixing or Krein BRST constructions"
+  },
+  "decision": {
+    "bare_degree_zero_L2_cohomology_nonzero": false,
+    "bare_brst_spectral_gap_positive": false,
+    "bare_brst_range_closed": false,
+    "noncompact_gauge_volume_obstruction": true,
+    "all_quantization_routes_excluded": false,
+    "protected_status_change": false
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1424",
+  "title": "Gaussian gauge fixing gives a closed positive finite-cylindrical BRST Hilbert complex",
+  "pinned_inputs": {
+    "k1422": {"path": "lab/process/k1422-compact-haar-stratum-projection.json", "sha256": "fcf962decbec307e66c4f2fc96d7071fd51512f2dc69bab964bd59d68fad022f"},
+    "k1423": {"path": "lab/process/k1423-bare-brst-gauge-volume-obstruction.json", "sha256": "0abbb9c1b276a2d27028db8e2824fa9f0fa714e82d3d1e83f09283d3f13be572"}
+  },
+  "gauge_fixed_complex": {
+    "gauge_factor": "L2(R^m,gamma_m) for normalized standard Gaussian measure, tensored with Lambda(C^m)",
+    "differential": "d_gamma=sum_j partial_(chi_j) wedge e_j on the Gaussian Sobolev domain is closed and nilpotent",
+    "adjoint": "d_gamma*=sum_j(-partial_(chi_j)+chi_j) contraction e_j",
+    "hodge_operator": "d_gamma d_gamma*+d_gamma* d_gamma is the Ornstein--Uhlenbeck number operator",
+    "gap_and_ranges": "Its kernel is the constants in degree zero and its spectrum is at least one on the orthogonal complement; all differential ranges are closed",
+    "cohomology": "After tensoring with the K1422 invariant reduced block, H0 equals H_N^U(1), higher cohomology vanishes, and the induced pairing is positive and nonzero",
+    "boundary": "Gaussian measure is not translation invariant. This is a gauge-fixed finite-cylindrical Hilbert complex, not a unitary bare gauge representation, source-derived Faddeev--Popov measure or continuum quantum BRST theorem"
+  },
+  "decision": {
+    "closed_nilpotent_gauge_fixed_differential": true,
+    "positive_hodge_gap": true,
+    "closed_ranges": true,
+    "degree_zero_cohomology_equals_compact_invariant_reduced_block": true,
+    "higher_cohomology_zero": true,
+    "positive_nonzero_finite_block_cohomology": true,
+    "translation_invariant_measure": false,
+    "continuum_quantum_brst_constructed": false,
+    "source_gauge_fixing_identified": false,
+    "protected_status_change": false
+  }
+}

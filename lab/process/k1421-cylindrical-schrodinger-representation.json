@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1421",
+  "title": "Finite reduced blocks admit a positive residual-circle Schrödinger representation",
+  "pinned_inputs": {
+    "k1415": {"path": "lab/process/k1415-split-gauss-coordinate.json", "sha256": "fea8e8d10bc0809b5cd43e5381ccfa1027d89038d781b29d03c13f2479e42a16"},
+    "k1419": {"path": "lab/process/k1419-classical-bfv-boundary-exactness.json", "sha256": "49b9766a197a52370905fce83b158b0a2425b1cb92f2c52920201ab121bb34c1"}
+  },
+  "representation": {
+    "block": "A finite set of Coulomb/Gauss-reduced real coordinates y and complex matter coordinates z_j carrying integer residual charges q_j",
+    "measure": "A centered finite-dimensional Gaussian measure whose covariance is block diagonal and scalar on every equal-charge subspace",
+    "hilbert_space": "H_N=L2(X_N,gamma_N), with positive Born pairing",
+    "circle_action": "(U(theta)Psi)(y,z)=Psi(y,exp(-i theta q)z) is a strongly continuous unitary U(1) representation",
+    "dense_core": "Polynomial cylinder functions are dense and invariant under the circle action and complex conjugation",
+    "observables": "Bounded residual-circle-invariant cylinder functions act as bounded multiplication operators",
+    "boundary": "The construction is blockwise and repository owned; it supplies neither a preferred continuum measure nor a quantization of the complete interacting observable algebra"
+  },
+  "decision": {
+    "positive_finite_cylindrical_representation": true,
+    "residual_circle_unitary": true,
+    "dense_invariant_polynomial_core": true,
+    "bounded_invariant_multipliers_represented": true,
+    "preferred_continuum_measure_constructed": false,
+    "complete_observable_algebra_quantized": false,
+    "source_representation_identified": false,
+    "protected_status_change": false
+  }
+}

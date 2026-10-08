@@ -7,6 +7,25 @@ updated_at: "2026-10-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1421--K1426 finite-cylindrical quantum BRST boundary (2026-10-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Finite reduced blocks have a positive quantum representation | K1421 invariant Gaussian Schrödinger control; `21/21`; `8/8` | exact for each declared finite block; no preferred continuum measure or complete observable quantization |
+| Residual compact reduction is compatible with stabilizer strata | K1422 Haar projector and charge-support controls; `23/23`; `8/8` | exact closed invariant Hilbert sector without a free-action assumption; no charge selection |
+| Bare based-gauge `L2` BRST yields physical states | K1423 constant-kernel and small-momentum sequence; `19/19`; `8/8` | false: degree-zero state cohomology is zero and the range is nonclosed because of noncompact gauge volume |
+| Gauge fixing gives a closed positive BRST Hilbert complex | K1424 Gaussian de Rham/Ornstein--Uhlenbeck complex; `22/22`; `8/8` | exact finite-cylindrical positive nonzero `H^0`; Gaussian measure is not translation invariant or source derived |
+| The interacting block Hamiltonian is positive and self-adjoint | K1425 coercive polynomial form and Friedrichs restriction; `25/25`; `8/8` | exact on every finite block with compact resolvent; no cutoff-compatible renormalized continuum Hamiltonian or PDE theorem |
+| The advance closes GU physical admission | K1426 92-row bridge census; `22/22`; `9/9` | sixty-five satisfied, seven conditional, sixteen excluded and four missing; continuum BRST/QFT, full-PDE completion, source selection and export remain open |
+
+The six producers pass `132/132` controls and six probes reject `49/49`
+hostile mutations. The result closes the finite-cylindrical representation and
+gauge-fixed Hilbert-complex layer while proving that naive noncompact gauge
+invariants vanish in the bare `L2` state representation. SC-ACT-01/02/06
+remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1
+remain `NEEDS`, and K1145/K1150 stay `0/7`. No source, ledger, canon, paper,
+prediction, confirmation or public status moves.
+
 ## K1415--K1420 split Gauss and classical BFV boundary (2026-10-07)
 
 | Claim | Evidence | Honest grade |

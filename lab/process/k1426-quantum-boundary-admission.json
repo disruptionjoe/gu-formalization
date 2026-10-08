@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1426",
+  "title": "Finite-cylindrical quantum boundary admission and continuum fence",
+  "pinned_inputs": {
+    "k1421": {"path": "lab/process/k1421-cylindrical-schrodinger-representation.json", "sha256": "c9ccc43e9cea50be9591a3995608dfaedb58ea2b05e7d5f7759a10894c7f5b0a"},
+    "k1422": {"path": "lab/process/k1422-compact-haar-stratum-projection.json", "sha256": "fcf962decbec307e66c4f2fc96d7071fd51512f2dc69bab964bd59d68fad022f"},
+    "k1423": {"path": "lab/process/k1423-bare-brst-gauge-volume-obstruction.json", "sha256": "0abbb9c1b276a2d27028db8e2824fa9f0fa714e82d3d1e83f09283d3f13be572"},
+    "k1424": {"path": "lab/process/k1424-gaussian-gauge-fixed-brst-cohomology.json", "sha256": "c4d7d1be7dbf75318ae5e190ca403f3952e566feed03a5182e9dbe41ba50e21a"},
+    "k1425": {"path": "lab/process/k1425-finite-block-friedrichs-hamiltonian.json", "sha256": "02b753e1a8573a39a299c1586df5cf8577b14d94e8d990616bdd0d327ee9414f"}
+  },
+  "bridge_census": {
+    "row_count": 92,
+    "satisfied_count": 65,
+    "conditional_count": 7,
+    "excluded_count": 16,
+    "missing_count": 4,
+    "new_satisfied_rows": [
+      "positive finite-cylindrical residual-circle Schrödinger representation",
+      "orthogonal compact Haar projection retaining residual orbit types",
+      "closed Gaussian gauge-fixed BRST Hilbert cohomology with positive nonzero degree zero",
+      "positive self-adjoint residual-invariant interacting Friedrichs Hamiltonian on every finite reduced block"
+    ],
+    "new_conditional_rows": ["cutoff-compatible continuum Hilbert representation, renormalized Hamiltonian and BRST complex"],
+    "new_excluded_rows": ["nonzero physical state cohomology from bare translation-invariant L2 vectors along the noncompact based-gauge coordinates"],
+    "missing_rows": [
+      "source-owned compact-generator selection and normalization on the observed carrier",
+      "identification with one source action",
+      "cutoff-uniform completed global PDE evolution and continuum positive physical Hilbert cohomology",
+      "source-owned observed-state/export map"
+    ]
+  },
+  "decision": {
+    "finite_cylindrical_positive_quantum_control_constructed": true,
+    "stratum_compatible_compact_projection_constructed": true,
+    "closed_gauge_fixed_brst_hilbert_complex_constructed": true,
+    "positive_interacting_finite_block_hamiltonian_constructed": true,
+    "bare_noncompact_gauge_volume_obstruction_proved": true,
+    "continuum_quantum_physical_hilbert_cohomology_constructed": false,
+    "completed_full_pde_global_flow_constructed": false,
+    "source_selected_reduction_constructed": false,
+    "k1145_k1150_candidate_counts_move": false,
+    "protected_status_change": false
+  },
+  "source_and_ledger_effect": "SOURCE_REGISTER_UNCHANGED; LEDGER_UNCHANGED; SC-ACT-01/02/06 ASSERTS; SC-META-53 UNCERTAIN; LT-SM8/LT-GR6b/RA-F1/AC-F1 NEEDS; K1145/K1150 0/7"
+}

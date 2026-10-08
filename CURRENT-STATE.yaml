@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: b3b338c34cf74cace8ba3e016c6fa837a2212a08
+revision_basis: 8534e943165e26eab9aabf936f720d67fd13a7a8
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1421--K1426 construct the first positive finite-cylindrical quantum
+    control beyond the classical BFV algebra. Every finite reduced coordinate
+    block has a positive residual-circle Schrödinger representation; compact
+    Haar averaging gives a closed invariant Hilbert sector without assuming
+    free orbit type. Bare translation-invariant based-gauge BRST has zero
+    degree-zero L2 state cohomology and nonclosed range because of infinite
+    gauge volume. A Gaussian gauge-fixed complex repairs this at finite block:
+    its Ornstein--Uhlenbeck Hodge operator has a unit gap, closed ranges and
+    positive nonzero degree-zero cohomology equal to the compact-invariant
+    reduced block. A coercive residual-invariant quartic form gives a positive
+    self-adjoint finite-block Friedrichs Hamiltonian. None of these blockwise
+    controls supplies a compatible continuum measure, renormalized
+    Hamiltonian, closed continuum BRST operator, full-PDE global evolution or
+    source ownership. The 92-row census is sixty-five satisfied, seven
+    conditional, sixteen excluded and four missing; K1145/K1150 remain 0/7
+    and protected statuses do not move.
+
     K1415--K1420 complete the classical boundary reduction of the repository
     scalar-electrodynamics control. The neutral Gauss map is a global split
     submersion with an explicit bounded right inverse, so its cylindrical
@@ -14424,6 +14441,19 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1421--K1426 close the finite-cylindrical representation question and locate
+  the noncompact gauge-volume boundary. Compact Haar projection is positive
+  and stratum compatible; Gaussian gauge fixing gives a closed finite-block
+  BRST Hilbert complex and a positive interacting Friedrichs Hamiltonian.
+  Which cutoff-consistent measure or representation, renormalized interacting
+  Hamiltonian and closed continuum quantum BRST operator preserve this
+  positive cohomology under block refinement? Independently, which
+  cutoff-uniform full-PDE mechanism controls both K1413 leakage terms and
+  yields a finite-tier Cauchy consequence? A source/action-owned
+  observed-carrier selector must still fix `Q` and its normalization. Do not
+  treat the Gaussian gauge-fixed measure as translation invariant or promote
+  finite-block compact resolvent to a continuum GU physical state space.
+
   K1415--K1420 complete global split Gauss regularity, exact cylindrical
   Koszul--Tate contraction, based BRST/Coulomb reduction and the proper
   residual compact orbit-type quotient for the repository control. Classical
@@ -16646,6 +16676,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1421--K1426's finite-block quantum and continuum boundaries. Haar
+  averaging does not require free residual action; bare noncompact-gauge L2
+  invariants vanish; Gaussian gauge fixing gives a closed positive Hilbert
+  complex only at declared finite-cylindrical scope; and the coercive quartic
+  Friedrichs operator is blockwise self-adjoint. Advance quantum closure only
+  with compatible block embeddings or projective data, a continuum measure or
+  representation, a renormalized interacting Hamiltonian and a closed
+  continuum BRST operator whose positive cohomology is stable under refinement.
+  Do not call the repository gauge fixing source-derived.
+
   Preserve K1415--K1420's exact classical boundary and quantization boundary.
   The neutral Gauss constraint is globally split, the declared cylindrical
   Koszul--Tate and based BRST complexes contract, and the residual compact
