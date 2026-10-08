@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1481",
+  "title": "The finite BRST tensor factor inherits projective-recentering instability and Mosco-liminf failure",
+  "pinned_inputs": {
+    "k1471": {
+      "path": "lab/process/k1471-finite-cutoff-interacting-brst-composition.json",
+      "sha256": "abac4797efb8dc9b2c66024a34196084abd7b7a07f4b483fb3db6a8c4099bcb1"
+    },
+    "k1480": {
+      "path": "lab/process/k1480-projective-wick-recentering-instability.json",
+      "sha256": "d820b62de83e6e76f7fc50d7fed52776eb5e6e504362ec75e3ecdc35f6cea85d"
+    }
+  },
+  "brst_projective_boundary": {
+    "recentered_tensor_hamiltonian": "For the exact projective scalar shift, mathbb K_N^proj=(H_N-6gC_N^2) tensor 1+1 tensor Delta_BRST",
+    "bottom_transfer": "Delta_BRST is nonnegative with a zero-energy harmonic vacuum, so inf spec(mathbb K_N^proj)=E_N-6gC_N^2 and tends to minus infinity at least as -cN^(5/2)",
+    "trial_transfer": "Tensoring K1480's normalized trial u_N with the fixed harmonic vacuum preserves its quadratic value and gives a nonzero weak limit",
+    "mosco_transfer": "The full projectively recentered forms therefore fail the weak Mosco-liminf inequality on the fixed matter--BRST Hilbert space, including after harmonic degree-zero compression",
+    "differential_boundary": "The closed nilpotent differential remains algebraically stable, but algebraic BRST stability neither restores a lower bound nor changes the matter counterterm required by harmonic compression",
+    "ceiling": "This transfers only the exact projective-shift instability. It constructs no E_N-recentered matter limit, deformed continuum BRST charge, common interacting domain, source physical quotient or GU positive cohomology"
+  },
+  "decision": {
+    "projectively_recentered_brst_bottom_tends_to_minus_infinity": true,
+    "harmonic_tensor_trial_preserves_matter_instability": true,
+    "projectively_recentered_brst_mosco_liminf_holds": false,
+    "brst_factor_repairs_projective_semiboundedness": false,
+    "ground_energy_recentered_brst_limit_excluded": false,
+    "source_physical_cohomology_identified": false,
+    "protected_status_change": false
+  }
+}

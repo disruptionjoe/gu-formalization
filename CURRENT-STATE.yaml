@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 1829f4a3235724a284bf4c48d539b0c800b10c74
+revision_basis: 4cf0ac2671bd33ff3554250dc45e3974d8a63bf8
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1478--K1482 close the first modified-energy and recentering discriminators
+    left by K1477. Gauss-compatible plane-wave data make every ultralocal
+    charge-spectral scalar density stationary while the lifted electric-current
+    work remains nonzero, excluding that correction class without touching
+    gauge-field-dependent, derivative or spacetime routes. Independently, the
+    normalized vacuum--fourth-chaos trial and hypercontractivity prove
+    `E_N-6gC_N^2<=-cN^(5/2)`. The exact Wick martingale shift therefore does
+    not track the interacting ground energy to bounded error. The normalized
+    fourth chaos converges weakly to zero, so the projectively recentered trial
+    has a nonzero weak limit while its quadratic value tends to minus infinity;
+    Mosco weak liminf fails on the fixed Gaussian matter space and after the
+    harmonic BRST tensor transfer. True-ground-energy recentering, singular
+    dressing and changed representations remain open. The 162-row census is
+    101 satisfied, ten conditional, 47 excluded and four missing; K1145/K1150
+    remain 0/7 and protected statuses do not move.
+
     K1473--K1477 close two exact continuations from K1472. Scalar-current
     conservation determines only the current component longitudinal to the
     transfer momentum; K1463's Coulomb-transverse near-parallel witness still
@@ -14584,21 +14600,21 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K1473--K1477 prove that exact scalar-current conservation controls only the
-  longitudinal current and leaves K1463's Coulomb-transverse quadratic phase
-  quotient unchanged. Which genuine bilinear spacetime/secondary-null estimate
-  or nonlinear modified energy controls that transverse leakage together with
-  the spatially varying radial coefficient and yields cutoff-uniform Cauchy
-  control? Independently, the unshifted nonnegative beta=1 Wick Hamiltonians
-  have `E_N=Omega(log N)` and resolvents collapsing to zero. What is the true
-  interacting ground-energy asymptotic, which explicit counterterm
-  `a_N=E_N+O(1)` yields a uniformly semibounded nontrivial family, and can its
-  forms satisfy Mosco liminf/recovery on one common domain? Only then can the
-  fixed-cutoff BRST composition have a nontrivial continuum Hamiltonian.
-  Source admission still requires an action-owned primitive circle, kinetic
-  normalization, physical carrier and faithful observed intertwiner. Do not
-  promote continuity failure to a no-go for spacetime estimates or unshifted
-  spectral collapse to failure of every recentered beta=1 construction.
+  K1478--K1482 prove that no modified energy built only from finitely many
+  ultralocal charge-spectral matter densities can cancel K1413's lifted-current
+  work on all constrained data. Which genuinely gauge-field-dependent bilinear
+  spacetime/secondary-null estimate or derivative/nonlocal modified energy now
+  controls that current together with the spatially varying radial coefficient
+  and yields cutoff-uniform Cauchy control? Independently, the exact projective
+  shift `6gC_N^2` misses the interacting ground energy by at least order
+  `N^(5/2)` and its fixed-Gaussian matter and BRST forms fail Mosco weak liminf.
+  What is the true asymptotic of `E_N`, which explicit `a_N=E_N+O(1)` produces
+  a uniformly semibounded nontrivial family, and can its forms satisfy Mosco
+  liminf/recovery plus compactness on one common domain? Source admission still
+  requires an action-owned primitive circle, kinetic normalization, physical
+  carrier and faithful observed intertwiner. Do not promote the ultralocal
+  counterexample to a spacetime no-go or projective-recentering failure to
+  failure of every recentered beta=1 construction.
 
   K1445--K1452 prove that the original beta=1 Wick theory cannot be repaired
   by a uniformly graph-equivalent unitary dressing or an r<=5/2 resolvent
@@ -16882,17 +16898,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Preserve K1473--K1477's exact boundaries. Current conservation is exhausted
-  only as a standalone repair of the Coulomb-transverse multiplier; advance the
-  PDE arc through an actual bilinear spacetime/secondary-null estimate or a
-  nonlinear modified energy that also controls the radial leakage. The
-  unshifted nonnegative beta=1 Hamiltonians escape every finite spectral window,
-  and the BRST tensor factor cannot repair that divergence. Advance the quantum
-  arc by proving the interacting ground-energy asymptotic, selecting an
-  explicit `a_N=E_N+O(1)`, and establishing Mosco liminf, recovery and domain
-  compactness for the recentered matter forms. Do not infer failure of a
-  ground-energy-recentered limit, singular dressing, non-Gaussian measure or
-  changed representation.
+  Preserve K1478--K1482's exact boundaries. Ultralocal charge-spectral matter
+  densities are exhausted as a universal modified-energy repair; advance the
+  PDE arc through a gauge/Maxwell-dependent bilinear spacetime or secondary-null
+  estimate, or a derivative/nonlocal modified energy controlling both K1413
+  leakages. The exact projective Wick shift is also exhausted as a uniformly
+  semibounded fixed-Gaussian Mosco route. Advance the quantum arc by determining
+  the true `E_N` asymptotic, selecting `a_N=E_N+O(1)`, and establishing compactness,
+  Mosco liminf and recovery on one common recentered domain. Do not infer failure
+  of true-ground-energy recentering, arbitrary unbounded-below strong-resolvent
+  behavior, singular dressing, non-Gaussian measure or changed representation.
 
   Preserve K1468--K1472's exact boundaries. A first-order spatial angular null
   factor remains one derivative short on the fixed-offset near-parallel ray;

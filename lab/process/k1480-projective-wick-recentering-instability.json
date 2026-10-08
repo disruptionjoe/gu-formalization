@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1480",
+  "title": "The exact projective Wick recentering is not uniformly semibounded and fails Mosco liminf",
+  "pinned_inputs": {
+    "k1469": {
+      "path": "lab/process/k1469-wick-semibounded-projective-cocycle.json",
+      "sha256": "85ab8ab825b536bf928be7bc99115a3fd63a2e74a6fd9d1b872709eb69b313fd"
+    },
+    "k1479": {
+      "path": "lab/process/k1479-wick-vacuum-mixing-variational-gap.json",
+      "sha256": "a9ad2f0af7c9957ed6b7f365712c885107f74abb919a434c6a094fad8ab416b2"
+    }
+  },
+  "projective_instability": {
+    "recentered_family": "Subtracting the exact scalar cocycle gives K_N^proj=H_N-6gC_N^2=H0+gV_N, whose interaction is the exact conditional-expectation martingale",
+    "bottom_divergence": "K1479 gives inf spec(K_N^proj)=E_N-6gC_N^2<=-c_g N^(5/2), so this projectively compatible family has no cutoff-uniform lower bound",
+    "weak_fourth_chaos_escape": "Let chi_N=V_N/sigma_N. For every fixed cutoff M, conditional expectation gives P_(F_M)chi_N=V_M/sigma_N, whose norm tends to zero because sigma_N=Theta(N^(5/2)); density of cylinder functions implies chi_N converges weakly to zero",
+    "weak_trial_limit": "The normalized K1479 trial u_N=(1-a chi_N)/sqrt(1+a^2) converges weakly to the nonzero vacuum vector 1/sqrt(1+a^2)",
+    "mosco_liminf_failure": "The projectively recentered quadratic values on u_N tend to minus infinity while u_N has a nonzero weak limit, contradicting the Mosco weak-liminf inequality for every finite semibounded limiting form on the fixed Gaussian Hilbert space",
+    "semibounded_consequence": "The exact martingale recentering cannot supply the uniformly semibounded nontrivial limit left open by K1475; any such scalar recentering must differ from 6gC_N^2 by a divergent amount consistent with the true E_N",
+    "ceiling": "This excludes the exact projective scalar recentering as a semibounded Mosco route on the fixed Gaussian representation. It does not exclude arbitrary strong-resolvent limits unbounded below, E_N+O(1) recentering, singular dressing, non-Gaussian measures or changed representations"
+  },
+  "decision": {
+    "projectively_recentered_bottom_tends_to_minus_infinity": true,
+    "normalized_fourth_chaos_converges_weakly_to_zero": true,
+    "trial_sequence_has_nonzero_weak_limit": true,
+    "projective_recentered_mosco_liminf_holds": false,
+    "projective_recentered_uniform_semiboundedness_holds": false,
+    "ground_energy_recentered_mosco_limit_excluded": false,
+    "arbitrary_unbounded_below_strong_resolvent_limit_excluded": false,
+    "protected_status_change": false
+  }
+}

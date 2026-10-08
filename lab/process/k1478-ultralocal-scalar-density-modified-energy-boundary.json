@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1478",
+  "title": "Ultralocal charge-spectral matter densities cannot cancel the lifted electric-current leakage",
+  "pinned_inputs": {
+    "k1413": {
+      "path": "lab/process/k1413-full-pde-graph-energy-leakage.json",
+      "sha256": "3d553dba3c237d737cfa8982ace7c2bba0239ab8b064ce78956334aef28dcc27"
+    },
+    "k1463": {
+      "path": "lab/process/k1463-transverse-current-null-form-mismatch.json",
+      "sha256": "7360134bad3c5812e85967d8ff98abf8b596b28cd406d6cdd68fc2bb8c9874ad"
+    }
+  },
+  "modified_energy_boundary": {
+    "initial_data": "On normalized T3 choose Qv=qv with q nonzero, phi(x)=r exp(i k dot x)v, pi=D_t phi=0, A=0 and a constant divergence-free electric field E0 with E0 dot k nonzero",
+    "constraint_check": "The charge density rho=e Im<Q phi,pi> vanishes and div E0=0, so the Gauss constraint holds at the testing time",
+    "stationary_scalar_densities": "Every ultralocal charge-spectral scalar S_ab=Re<Q^a phi,Q^b phi>=q^(a+b)r^2 is spatially constant and has zero time derivative because pi=0; the radial coefficient partial_t||phi||^2 also vanishes",
+    "live_current": "For every lifted tier n, j_n=e Im<Q^(n+1)phi,D Q^n phi> equals e q^(2n+1) k r^2 up to the fixed inner-product sign convention, hence integral E0 dot j_n is nonzero",
+    "no_go_class": "The time derivative of any differentiable correction integral F({S_ab}) dx built only from finitely many ultralocal charge-spectral matter densities is zero on these data and therefore cannot cancel K1413's nonzero electric-current work for all constrained solutions",
+    "required_escape": "A successful correction must leave this class by depending on the gauge or Maxwell fields, covariant/spatial derivatives, a nonlocal spacetime normal form, or a higher/summable hierarchy",
+    "ceiling": "This excludes only ultralocal matter-density corrections. It is not a no-go for gauge-field-dependent, derivative, bilinear spacetime, secondary-null, nonlocal or higher-tier modified energies"
+  },
+  "decision": {
+    "gauss_compatible_plane_wave_witness_constructed": true,
+    "all_ultralocal_charge_scalar_derivatives_vanish_on_witness": true,
+    "lifted_electric_current_work_nonzero_on_witness": true,
+    "ultralocal_scalar_density_correction_class_closes_k1413": false,
+    "gauge_field_or_derivative_dependent_repairs_excluded": false,
+    "global_full_pde_flow_constructed": false,
+    "protected_status_change": false
+  }
+}

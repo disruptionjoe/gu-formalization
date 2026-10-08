@@ -7,6 +7,21 @@ updated_at: "2026-10-08"
 
 # Next Steps For Contributors
 
+> **2026-10-08 K1478--K1482 SCALAR-DENSITY AND WICK PROJECTIVE-RECENTERING
+> BOUNDARY.** Gauss-compatible plane-wave data make every ultralocal
+> charge-spectral matter density stationary while lifted electric-current work
+> remains nonzero, excluding that modified-energy class but not gauge-field,
+> derivative or spacetime repairs. Independently, a normalized
+> vacuum--fourth-chaos trial proves
+> `E_N-6gC_N^2<=-cN^(5/2)`. The exact projective Wick shift is therefore not a
+> bounded-error ground-energy counterterm. Its normalized fourth chaos escapes
+> weakly, so the projectively recentered matter and harmonic BRST forms fail
+> Mosco weak liminf on the fixed Gaussian representation. Next construct a
+> gauge/Maxwell-dependent spacetime or nonlocal PDE repair, and determine the
+> true `E_N` asymptotic plus Mosco liminf/recovery for
+> `a_N=E_N+O(1)`. Do not promote either correction-class boundary to a universal
+> PDE or beta-one renormalization no-go.
+
 > **2026-10-08 K1473--K1477 CURRENT-CONTINUITY, WICK SPECTRAL-COLLAPSE AND
 > BRST BOUNDARY.** Exact scalar-current conservation determines only the
 > longitudinal current; the Coulomb-transverse K1463 witness survives with its

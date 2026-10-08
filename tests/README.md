@@ -4,6 +4,21 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1478--K1482 scalar-density and Wick projective-recentering boundary
+
+- K1478 supplies the Gauss-compatible plane-wave counterexample to every
+  ultralocal charge-spectral scalar-density correction (`23/23`; `14/14`).
+- K1479 proves the normalized vacuum--fourth-chaos Rayleigh identity and the
+  divergent gap below `6gC_N^2` (`28/28`; `16/16`).
+- K1480 proves weak fourth-chaos escape, loss of uniform semiboundedness and
+  Mosco weak-liminf failure (`22/22`; `15/15`).
+- K1481 transfers projective-recentering instability through the harmonic BRST
+  tensor factor (`19/19`; `13/13`).
+- K1482 replays the 162-row census and protected ceilings (`20/20`; `18/18`).
+
+The five producers pass `112/112` controls and the probes reject `76/76`
+hostile mutations.
+
 ## K1473--K1477 current-continuity, Wick spectral-collapse and BRST boundary
 
 - K1473 proves exact scalar-current continuity while preserving K1463's

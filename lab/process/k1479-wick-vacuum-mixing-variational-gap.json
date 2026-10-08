@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1479",
+  "title": "Vacuum--fourth-chaos mixing creates a divergent gap below the exact projective Wick shift",
+  "pinned_inputs": {
+    "k1470": {
+      "path": "lab/process/k1470-wick-shift-free-vacuum-concentration.json",
+      "sha256": "aad9e2dfc9f94cb73ace7614473e80bd58b3eca1ab28a644ba27a9beaab9ff71"
+    },
+    "k1475": {
+      "path": "lab/process/k1475-unshifted-wick-resolvent-collapse.json",
+      "sha256": "7c4a4cb51b3b1c4992b1b226546f45a7af634f1767820b6ae659342a19854aab"
+    }
+  },
+  "variational_gap": {
+    "notation": "Let V_N=integral :phi_N^4: dx, sigma_N^2=E(V_N^2)=Theta(N^5), W_N=V_N+6C_N^2 and H_N=H0+gW_N for fixed g>0",
+    "trial_vector": "For fixed 0<a<=1/128 use psi_N=1-a V_N/sigma_N; its squared norm is exactly 1+a^2 because V_N is centered",
+    "exact_rayleigh_identity": "Writing h_N=<V_N,H0 V_N> and m3_N=E(V_N^3), the normalized Rayleigh quotient satisfies R_N-6gC_N^2=[a^2 h_N/sigma_N^2-2ga sigma_N+ga^2 m3_N/sigma_N^2]/(1+a^2)",
+    "free_energy_bound": "V_N is pure fourth Wiener chaos supported on frequencies at most N, so h_N<=4 omega_max(N) sigma_N^2 with omega_max(N)=O(N)",
+    "third_moment_bound": "Fourth-chaos hypercontractivity gives ||V_N||_3<=4||V_N||_2 and therefore |m3_N|<=64 sigma_N^3",
+    "gap": "For 0<a<=1/128 the linear and third-moment terms are at most -(3/2)ga sigma_N; since sigma_N=Theta(N^(5/2)) dominates omega_max(N), R_N<=6gC_N^2-c_(g,a)N^(5/2) for all sufficiently large N",
+    "ground_energy_consequence": "E_N-6gC_N^2<=-c_(g,a)N^(5/2), so the exact conditional-expectation shift does not track the interacting ground energy up to O(1)",
+    "ceiling": "The trial gives a one-sided divergent gap, not the sharp asymptotic of E_N. It does not exclude recentering by E_N+O(1), singular dressing, a non-Gaussian measure or a changed representation"
+  },
+  "decision": {
+    "normalized_vacuum_fourth_chaos_trial_constructed": true,
+    "exact_centered_rayleigh_identity_proved": true,
+    "fourth_chaos_hypercontractive_bound_used": true,
+    "projective_shift_ground_energy_gap_order_at_least": "N^(5/2)",
+    "projective_shift_tracks_ground_energy_to_bounded_error": false,
+    "true_ground_energy_asymptotic_determined": false,
+    "ground_energy_recentered_limit_excluded": false,
+    "protected_status_change": false
+  }
+}

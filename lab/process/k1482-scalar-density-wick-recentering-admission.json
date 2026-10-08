@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1482",
+  "title": "Scalar-density and projective Wick-recentering admission boundary",
+  "pinned_inputs": {
+    "k1478": {
+      "path": "lab/process/k1478-ultralocal-scalar-density-modified-energy-boundary.json",
+      "sha256": "433665dede9df5b207eaebf2a3fbf9005f0fbc7422d65cbfac66b15b723a6c7c"
+    },
+    "k1479": {
+      "path": "lab/process/k1479-wick-vacuum-mixing-variational-gap.json",
+      "sha256": "a9ad2f0af7c9957ed6b7f365712c885107f74abb919a434c6a094fad8ab416b2"
+    },
+    "k1480": {
+      "path": "lab/process/k1480-projective-wick-recentering-instability.json",
+      "sha256": "d820b62de83e6e76f7fc50d7fed52776eb5e6e504362ec75e3ecdc35f6cea85d"
+    },
+    "k1481": {
+      "path": "lab/process/k1481-brst-projective-recentering-instability.json",
+      "sha256": "e0607724f5c4cb70b3397d60a9104e3ba5519b9da584c2012cbb959e0ba1aa7a"
+    }
+  },
+  "bridge_census": {
+    "row_count": 162,
+    "satisfied_count": 101,
+    "conditional_count": 10,
+    "excluded_count": 47,
+    "missing_count": 4,
+    "new_satisfied_rows": [
+      "Gauss-compatible plane-wave discriminator for ultralocal scalar-density corrections",
+      "exact normalized vacuum--fourth-chaos Rayleigh identity",
+      "divergent variational gap below the exact projective Wick shift",
+      "weak escape of the normalized fourth-chaos martingale increments",
+      "matter projective-recentering Mosco-liminf counterexample",
+      "harmonic BRST transfer of projective-recentering instability"
+    ],
+    "new_excluded_rows": [
+      "ultralocal charge-spectral scalar-density corrections as a universal cancellation of K1413 current leakage",
+      "the exact 6gC_N^2 projective scalar shift as an O(1) tracker of interacting ground energy",
+      "a semibounded fixed-Gaussian Mosco limit for the exactly projectively recentered matter forms",
+      "the fixed BRST tensor factor as a repair of projective-recentering instability"
+    ],
+    "missing_rows": [
+      "source-owned compact-generator selection and normalization on the observed carrier",
+      "identification with one source action",
+      "cutoff-uniform completed global PDE evolution and interacting continuum positive physical Hilbert cohomology",
+      "source-owned observed-state/export map"
+    ]
+  },
+  "decision": {
+    "ultralocal_scalar_density_modified_energy_route_excluded": true,
+    "projective_wick_shift_ground_energy_tracking_excluded": true,
+    "projective_fixed_gaussian_mosco_route_excluded": true,
+    "projective_brst_mosco_route_excluded": true,
+    "full_spacetime_pde_repair_constructed": false,
+    "ground_energy_recentered_limit_constructed": false,
+    "source_selected_reduction_constructed": false,
+    "k1145_k1150_candidate_counts_move": false,
+    "protected_status_change": false
+  },
+  "source_and_ledger_effect": "SOURCE_REGISTER_UNCHANGED; LEDGER_UNCHANGED at 33 SAME / 22 DIFFERS / 31 NEEDS / 2 OVER-DETERMINED; SC-ACT-01/02/06 ASSERTS; SC-META-53 UNCERTAIN; LT-SM8/LT-GR6b/RA-F1/AC-F1 NEEDS; K1145/K1150 0/7"
+}

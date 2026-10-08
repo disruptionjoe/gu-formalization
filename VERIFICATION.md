@@ -7,6 +7,22 @@ updated_at: "2026-10-08"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1478--K1482 scalar-density and Wick projective-recentering boundary (2026-10-08)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Ultralocal charge-spectral matter densities can cancel K1413's current leakage | K1478 Gauss-compatible plane-wave discriminator | false: every such density is stationary while lifted electric-current work is nonzero; gauge/derivative/spacetime corrections remain open |
+| The exact projective shift tracks the interacting ground energy to bounded error | K1479 normalized vacuum--fourth-chaos Rayleigh identity and hypercontractivity | false: `E_N-6gC_N^2<=-cN^(5/2)`; this is not the sharp `E_N` asymptotic |
+| Exact Wick martingality yields a semibounded fixed-Gaussian Mosco route | K1480 weak fourth-chaos escape and trial sequence | false: the trial has a nonzero weak limit and quadratic values tending to minus infinity, so weak liminf fails |
+| The fixed BRST factor repairs projective-recentering instability | K1481 harmonic-vacuum tensor transfer | false: the spectral bottom and Mosco-liminf counterexample transfer exactly |
+| The advance closes GU physical admission | K1482 162-row bridge census | 101 satisfied, ten conditional, 47 excluded and four missing |
+
+The five producers pass `112/112` controls and five probes reject `76/76`
+hostile mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
+`0/7`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
+
 ## K1473--K1477 current-continuity, Wick spectral-collapse and BRST boundary (2026-10-08)
 
 | Claim | Evidence | Honest grade |
