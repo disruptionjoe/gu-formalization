@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: dd7af1f832e456221ceaea6a3192a0d10942abf6
+revision_basis: 3c22af960b74f4a12d0e9dc85ca0fe6c3ad0e985
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1538--K1542 resolve the first structural layer of the endpoint-capacity
+    wake. The exact identity
+    `(|phi_N|-sqrt(3C_N))^2=(phi_N^2-3C_N)^2/(|phi_N|+sqrt(3C_N))^2`
+    shows that `E W_N=O(N^2)` freezes the field magnitude to order-one
+    squared `L2` error. Independently, the all-density Fisher/shell inequality
+    proves that every state with `q_0=o(N^4)` must retain
+    `Theta(C_N)` centered covariance in the fixed-ratio ultraviolet shell.
+    These conditions are incompatible on the union of the two global sign
+    cones: there `E W_N=O(N^2)` leaves only `O(1)` shell covariance and forces
+    `q_0=Omega(N^6)`. Therefore any order-`N^2` fixed-representation trial
+    must use amplitude-rigid configurations whose spatial sign fields retain
+    a nonvanishing ultraviolet-shell component. The endpoint
+    carre-du-champ bound improves from the crude `N^5` local prefactor to
+    `O(N^(9/2))`, but the relative transition-mass/capacity estimate remains
+    open. No order-`N^2` trial, superquadratic capacity lower bound or true
+    ground-energy asymptotic is proved. The 256-row census is 177 satisfied,
+    ten conditional, 65 excluded and four missing; protected statuses stay
+    fixed.
+
     K1533--K1537 extend the Gaussian shell obstruction to a materially
     non-Gaussian class without erasing the true escape. Gaussian integration
     by parts proves that
@@ -14787,6 +14806,22 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1538--K1542 show that the missing endpoint is not a random choice between
+  two constant wells. Low Wick square freezes `|phi_N|` near
+  `sqrt(3C_N)`, while subquartic free energy forces order-`C_N` centered
+  covariance to remain in the fixed-ratio ultraviolet shell. Global
+  sign-coherent states therefore pay `Omega(N^6)`. Does the amplitude-rigid
+  ultraviolet sign-texture tube admit a finite-Fisher likelihood with
+  `E W_N=O(N^2)` and total free cost `O(N^2)`, or does its Gaussian weighted
+  Dirichlet capacity grow superquadratically? The sharpened
+  `Gamma_Omega(W_N)=O(N^(9/2))` local bound does not control the relative
+  transition mass. Do not promote the global-sign exclusion to all two-well
+  or spatially sign-changing laws, or the necessary sign-texture condition to
+  a ground-energy asymptotic. In parallel, which gauge/Maxwell-dependent
+  spacetime, secondary-null or derivative/nonlocal estimate controls both
+  K1413 leakages, and which source-owned selector tuple can reopen physical
+  admission?
+
   K1533--K1537 prove `Theta_g(N^4)` for every fixed nonnegative-beta non-Gaussian moment-defect
   class `M_beta`, including broad symmetric positive-kurtosis and scale-mixture
   laws, while an exact smooth two-well counterexample shows why covariance
@@ -17196,6 +17231,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1538--K1542's exact split. An order-`N^2` trial must concentrate
+  on configurations with `O(1)` amplitude error around `sqrt(3C_N)` while
+  their spatial sign fields retain a nonvanishing fixed-ratio ultraviolet
+  component. Compute the Gaussian weighted Dirichlet capacity of that
+  sign-texture tube. Either construct a finite-Fisher likelihood with
+  `E W_N=O(N^2)`, `T_N=Theta(C_N)` and total free cost `O(N^2)`, or prove a
+  superquadratic capacity lower bound for every such law. Do not extend the
+  `Omega(N^6)` global-sign-cone theorem to spatially sign-changing states or
+  treat the improved local carre-du-champ bound as a normalized bump
+  quotient. Independently, advance K1413 through a genuinely
+  gauge/Maxwell-dependent spacetime, secondary-null or derivative/nonlocal
+  estimate controlling both leakages, and supply the source-owned selector
+  tuple required by the admission frontier.
+
   Preserve K1533--K1537's exact scope. Weighted Fisher information is sharply
   controlled by mean and covariance, but the Wick interaction contains the
   independent defect `4h mu_3+mu_4-3v^2`; the smooth two-well law proves that

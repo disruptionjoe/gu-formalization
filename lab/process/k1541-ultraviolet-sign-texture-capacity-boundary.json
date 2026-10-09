@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1541",
+  "title": "Ultraviolet sign-texture capacity boundary",
+  "pinned_inputs": {
+    "k1536": {"path": "lab/process/k1536-wick-dominant-nongaussian-variational-scale.json", "sha256": "5f5b640264b73ba5dc3fe34dd77f4acb5a0a98a11acfed9bbff7b5e3d6fa1da3"},
+    "k1538": {"path": "lab/process/k1538-low-wick-amplitude-rigidity.json", "sha256": "fa3ebfc447a3fbede97d4362181d81bedb30142e24731ca4f29bacb808dcc050"},
+    "k1539": {"path": "lab/process/k1539-subquartic-ultraviolet-shell-covariance.json", "sha256": "afc12eae855db6c2c76f027e26f76695f453c151dd6caac9d7252d80a8c1ea4a"},
+    "k1540": {"path": "lab/process/k1540-sign-coherent-endpoint-exclusion.json", "sha256": "048baa97f378bcd938966c9d220863fc357fe8e750abdb6d1284fd5f80a3c04b"}
+  },
+  "sign_texture_boundary": {
+    "order_N2_assumption": "For a normalized state with q0[psi]+gE_nu W_N<=K N^2, both q0[psi]<=K N^2 and E_nu W_N<=K N^2/g",
+    "amplitude_and_shell": "K1538 gives E_nu|||phi_N|-A_N||_2^2=O_g(1), while K1539 gives centered shell covariance T_N>=kappa C_N/2=Theta(N^2)",
+    "sign_factorization": "With s_phi=sgn(phi_N) and e_phi=|phi_N|-A_N, one has phi_N=A_N s_phi+s_phi e_phi and ||P_N(phi_N-A_Ns_phi)||_2<=||e_phi||_2",
+    "ultraviolet_sign_mass": "Because E||P_N phi_N||_2^2>=T_N and E||e_phi||_2^2=O_g(1), the inequality ||x||^2<=2||y||^2+2||x-y||^2 yields E_nu||P_N s_phi||_2^2>=kappa/12+o(1)",
+    "capacity_reduction": "An order-N2 upper trial in the fixed beta=1 representation must therefore localize on amplitude-rigid configurations whose spatial sign fields retain a nonvanishing fixed-ratio ultraviolet-shell component. The remaining question is the Gaussian weighted Dirichlet capacity of this sign-texture tube, not the union of two constant wells",
+    "carre_improvement": "Writing D_N=phi_N^2-3C_N, projection contraction gives Gamma_Omega(W_N)<=8int D_N^2 phi_N^2=8int(D_N^3+3C_ND_N^2). Since D_N is 2N-bandlimited, ||D_N||_infinity<=cN^(3/2)sqrt(W_N), so Gamma_Omega(W_N)<=c[N^(3/2)W_N^(3/2)+C_NW_N] and is O(N^(9/2)) on W_N=O(N^2)",
+    "scope_guard": "Neither the sign-shell condition nor the improved carre-du-champ bound supplies the relative transition-mass estimate needed for an O(N2) bump quotient; no order-N2 trial, superquadratic capacity lower bound or ground-energy asymptotic is proved"
+  },
+  "decision": {
+    "order_N2_requires_ultraviolet_sign_texture": true,
+    "constant_two_well_endpoint_sufficient": false,
+    "carre_prefactor_improved_from_crude_N5_to_N9over2": true,
+    "relative_transition_mass_control_proved": false,
+    "order_N2_trial_constructed": false,
+    "superquadratic_capacity_lower_bound_proved": false,
+    "protected_status_change": false
+  }
+}

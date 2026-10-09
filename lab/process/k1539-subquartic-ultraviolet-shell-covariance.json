@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1539",
+  "title": "Subquartic free energy requires ultraviolet-shell covariance",
+  "pinned_inputs": {
+    "k1530": {"path": "lab/process/k1530-matrix-ultraviolet-shell-cost.json", "sha256": "1777c592b4a8b2b82fa80da71cd8b6b469570587c9b2ee2836490550a6a94504"},
+    "k1533": {"path": "lab/process/k1533-relative-fisher-covariance-extremality.json", "sha256": "19ca4ef5d62a12111a2ebd678f1b7d7e8b82e2b0a0ee726852f5c6ae27d713cf"}
+  },
+  "shell_covariance": {
+    "data": "Let nu=rho mu have mean m and covariance S in real cutoff coordinates; put T_N=Tr(P_N Lambda S), C_sh,N=Tr(P_N Lambda)>=kappa C_N and P_N Lambda^2 Omega^(-1)P_N<=a_N P_N Lambda with a_N<=L N^(-2)",
+    "deficit": "If T_N<=C_sh,N/2, then delta_N=Tr[P_N Lambda(I-S)]=C_sh,N-T_N>=C_sh,N/2",
+    "matrix_bound": "K1530's Frobenius factorization and K1533 give q0[psi]>=delta_N^2/(4a_N T_N) for every finite-Fisher density and arbitrary phase; no Gaussian likelihood or covariance commutation is assumed",
+    "quartic_floor": "Since T_N<=C_sh,N/2=O(N^2), C_sh,N=Theta(N^2) and a_N=O(N^-2), the low-shell-covariance branch has q0[psi]>=cN^4",
+    "necessary_covariance": "Consequently q0[psi]=o(N^4), in particular q0[psi]=O(N^2), forces T_N>C_sh,N/2>=kappa C_N/2 for all sufficiently large N",
+    "mean_guard": "The requirement concerns centered shell covariance T_N; a large coherent mean or a random global plus/minus well in the constant mode cannot supply it",
+    "scope_guard": "The theorem is a necessary covariance condition for subquartic free energy, not a sufficient low-energy construction and not an interaction lower bound for all states"
+  },
+  "decision": {
+    "all_density_shell_fisher_bound_proved": true,
+    "subquartic_requires_order_CN_shell_covariance": true,
+    "gaussian_likelihood_required": false,
+    "coherent_constant_mode_can_supply_shell_covariance": false,
+    "order_N2_trial_constructed": false,
+    "protected_status_change": false
+  }
+}

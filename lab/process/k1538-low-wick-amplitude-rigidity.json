@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1538",
+  "title": "Exact low-Wick amplitude rigidity",
+  "pinned_inputs": {
+    "k1536": {"path": "lab/process/k1536-wick-dominant-nongaussian-variational-scale.json", "sha256": "5f5b640264b73ba5dc3fe34dd77f4acb5a0a98a11acfed9bbff7b5e3d6fa1da3"}
+  },
+  "amplitude_rigidity": {
+    "definitions": "Let A_N=sqrt(3C_N), D_N(phi)=phi_N^2-A_N^2 and W_N=||D_N(phi)||_2^2 on normalized T3",
+    "pointwise_identity": "(|phi_N|-A_N)^2=D_N(phi)^2/(|phi_N|+A_N)^2<=D_N(phi)^2/A_N^2",
+    "configuration_bound": "Every cutoff configuration satisfies |||phi_N|-A_N||_2^2<=W_N/(3C_N), with no Gaussian, sign, moment or likelihood assumption",
+    "state_bound": "For every probability law nu, E_nu |||phi_N|-A_N||_2^2<=E_nu W_N/(3C_N)",
+    "quadratic_endpoint": "If C_N>=c_C N^2 and E_nu W_N<=K N^2, the expected squared amplitude error is at most K/(3c_C)=O(1), whereas the target amplitude has squared norm A_N^2=Theta(N^2)",
+    "interpretation": "An order-N2 Wick expectation freezes amplitude but not sign: the surviving degree of freedom is the spatial sign field s_phi=sgn(phi_N), not an ordinary small covariance around one fixed well",
+    "scope_guard": "Amplitude rigidity alone gives neither a small-ball exponent nor a Dirichlet-capacity bound and does not exclude spatially sign-changing ultraviolet textures"
+  },
+  "decision": {
+    "exact_amplitude_identity_proved": true,
+    "all_configuration_bound_proved": true,
+    "quadratic_wick_implies_order_one_amplitude_error": true,
+    "global_sign_selected": false,
+    "endpoint_capacity_computed": false,
+    "protected_status_change": false
+  }
+}

@@ -7,6 +7,24 @@ updated_at: "2026-10-08"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1538--K1542 ultraviolet sign-texture capacity boundary (2026-10-08)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Low Wick square leaves arbitrary amplitude freedom | K1538 pointwise factorization | false: `E W_N=O(N^2)` leaves only `O(1)` expected squared amplitude error around `sqrt(3C_N)` |
+| A subquartic-free-energy state may discard the ultraviolet shell covariance | K1539 all-density Fisher/shell inequality | false: `q_0=o(N^4)` forces `T_N>=kappa C_N/2` eventually |
+| A random global plus/minus well can realize the endpoint at order `N^2` | K1540 global-sign projection bound | false for densities supported on the two global sign cones: `E W_N=O(N^2)` forces `q_0=Omega(N^6)` |
+| The exclusion covers every two-well or non-Gaussian state | K1540 scope audit | false: spatially sign-changing ultraviolet textures remain open |
+| The remaining fixed-representation escape has no sharper geometry | K1541 sign factorization and shell comparison | false: it must be amplitude-rigid with a nonvanishing ultraviolet component in its spatial sign field |
+| The sign-texture capacity or true ground-energy scale is determined | K1541 endpoint audit | not established: the local carre-du-champ improves to `O(N^(9/2))`, but relative transition mass and weighted capacity remain open |
+| The advance closes GU physical admission | K1542 256-row bridge census | 177 satisfied, ten conditional, 65 excluded and four missing |
+
+The five producers pass `131/131` controls and five hostile probes reject
+`75/75` mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
+`0/7`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
+
 ## K1533--K1537 Wick-dominant non-Gaussian boundary (2026-10-08)
 
 | Claim | Evidence | Honest grade |

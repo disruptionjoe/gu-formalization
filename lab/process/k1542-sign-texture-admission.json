@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1542",
+  "title": "Protected admission replay after the sign-texture reduction",
+  "pinned_inputs": {
+    "k1541": {"path": "lab/process/k1541-ultraviolet-sign-texture-capacity-boundary.json", "sha256": "5a006099ee77b6c499649efae76d260384b5a10a966f9f029393e8abe63208a9"},
+    "ledger": {"path": "lab/process/conditional-physics-ledger-v0.263.json", "sha256": "7c75c179c3af512084e50af19043a5d320b38e8c1e53325ee5ec2f97ad9c257b"}
+  },
+  "bridge_census": {
+    "row_count": 256,
+    "satisfied_count": 177,
+    "conditional_count": 10,
+    "excluded_count": 65,
+    "missing_count": 4,
+    "new_satisfied_rows": [
+      "exact all-configuration low-Wick amplitude-rigidity identity",
+      "quadratic-Wick order-one amplitude-error consequence",
+      "all-density shell Fisher/covariance inequality",
+      "subquartic-free-energy ultraviolet covariance necessity",
+      "global sign-cone shell-variance upper bound",
+      "sign-coherent N6 free-energy exclusion",
+      "ultraviolet sign-texture necessary condition",
+      "improved endpoint carre-du-champ bound"
+    ],
+    "protected_missing_rows": [
+      "source-owned primitive stationary circle",
+      "same-action kinetic normalization",
+      "action-derived physical carrier and positive domain",
+      "faithful domain-preserving observed intertwiner"
+    ]
+  },
+  "protected_state": {
+    "source_claims": "SC-ACT-01/02/06 remain ASSERTS and SC-META-53 remains UNCERTAIN",
+    "physics_ledger": "33 SAME / 22 DIFFERS / 31 NEEDS / 2 OVER-DETERMINED",
+    "candidate_counts": "K1145 and K1150 remain 0/7",
+    "untouched_surfaces": ["lab/sources/source-claim-register.yaml", "lab/process/conditional-physics-ledger-v0.263.json", "canon/", "papers/"],
+    "public_posture_change": false
+  },
+  "decision": {
+    "conditional_mathematical_advance": true,
+    "globally_sign_coherent_endpoint_excluded": true,
+    "ultraviolet_sign_texture_capacity_computed": false,
+    "order_N2_trial_constructed": false,
+    "source_owned_gu_hamiltonian": false,
+    "matching_ground_energy_asymptotic": false,
+    "prediction_or_confirmation": false,
+    "protected_status_change": false
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1540",
+  "title": "Sign-coherent endpoint exclusion",
+  "pinned_inputs": {
+    "k1538": {"path": "lab/process/k1538-low-wick-amplitude-rigidity.json", "sha256": "fa3ebfc447a3fbede97d4362181d81bedb30142e24731ca4f29bacb808dcc050"},
+    "k1539": {"path": "lab/process/k1539-subquartic-ultraviolet-shell-covariance.json", "sha256": "afc12eae855db6c2c76f027e26f76695f453c151dd6caac9d7252d80a8c1ea4a"}
+  },
+  "sign_coherent_exclusion": {
+    "class": "G_N is the union of the two global sign cones: every configuration phi in G_N is nonnegative almost everywhere or nonpositive almost everywhere; the sign may vary between configurations",
+    "projection_bound": "Choose sigma(phi) in {minus one,plus one} with sigma(phi)phi_N=|phi_N|. Since the constant sigma(phi)A_N has no P_N shell component, ||P_N phi_N||_2^2<=||phi_N-sigma(phi)A_N||_2^2<=W_N/(3C_N)",
+    "state_shell_bound": "If nu is supported on G_N, then T_N=Tr(P_N Lambda S)<=E_nu||P_N phi_N||_2^2<=E_nu W_N/(3C_N)",
+    "quadratic_consequence": "When E_nu W_N<=K N^2 and C_N>=c_C N^2, one has T_N=O(1), so the sharper K1539 matrix inequality gives q0[psi]>=cN^6",
+    "endpoint_exclusion": "No normalized fixed-representation wavefunction whose density is supported on G_N can have both q0[psi]=O(N^2) and E_nu W_N=O(N^2)",
+    "mixture_guard": "Randomizing the global plus/minus well changes the constant-mode covariance but not P_N shell covariance and therefore does not evade the exclusion",
+    "scope_guard": "The support hypothesis is load-bearing. The theorem does not exclude densities carried by configurations whose spatial sign changes on ultraviolet scales, nor does it promote K1534's smooth cat/squeeze estimate to every two-well likelihood"
+  },
+  "decision": {
+    "global_sign_cones_excluded_at_order_N2": true,
+    "sign_coherent_free_floor": "N^6",
+    "random_global_sign_evades_shell_test": false,
+    "spatially_sign_changing_states_excluded": false,
+    "unrestricted_ground_energy_asymptotic_proved": false,
+    "protected_status_change": false
+  }
+}

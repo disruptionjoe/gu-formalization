@@ -7,6 +7,20 @@ updated_at: "2026-10-08"
 
 # Next Steps For Contributors
 
+> **2026-10-08 K1538--K1542 ULTRAVIOLET SIGN-TEXTURE CAPACITY BOUNDARY.**
+> `E W_N=O(N^2)` forces the field magnitude to lie within order-one squared
+> `L2` error of `sqrt(3C_N)`, while every state with subquartic free energy
+> must retain `Theta(C_N)` centered covariance in the fixed-ratio ultraviolet
+> shell. A density supported on globally one-sign configurations has only
+> `O(1)` shell covariance and therefore pays `Omega(N^6)` free energy. The
+> remaining order-`N^2` route must use amplitude-rigid configurations whose
+> spatial sign fields carry nonvanishing ultraviolet-shell mass. Next compute
+> the Gaussian weighted Dirichlet capacity of that sign-texture tube: build a
+> finite-Fisher `O(N^2)` trial or prove a superquadratic capacity lower bound.
+> Do not extend the global-sign exclusion to spatially sign-changing laws or
+> treat the improved `O(N^(9/2))` local carre-du-champ bound as a normalized
+> capacity quotient.
+
 > **2026-10-08 K1533--K1537 WICK-DOMINANT NON-GAUSSIAN BOUNDARY.** Gaussian
 > densities sharply minimize weighted relative Fisher information at fixed
 > mean and covariance, but a general Wick expectation contains the exact
