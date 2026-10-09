@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1569",
+  "title": "The current normal form is controlled across two analytic radii but not at one radius",
+  "pinned_inputs": {
+    "k1450": {"path": "lab/process/k1450-charge-analytic-full-pde-hierarchy.json", "sha256": "1712cd639dcc5289a1212de673f836d2fd375efa923dc99d45867b1dd89d7a26"},
+    "k1568": {"path": "lab/process/k1568-differentiated-current-integration-by-parts.json", "sha256": "30e4094cadb824997701a5d7afb684c819587dabcb91c1d2f6bc6db3834795ff"}
+  },
+  "two_radius_bound": {
+    "analytic_energies": "For a_n(rho)=rho^(2n)/n! set G_rho=sum_(n>=0)a_n(rho)H_n and S_sigma=sum_(n>=0)a_n(sigma)sqrt(H_nH_(n+1)).",
+    "nested_radius_estimate": "For 0<sigma<rho, S_sigma<=(1/2)[1+rho^(-2)(1-(sigma/rho)^2)^(-2)]G_rho. Use sqrt(H_nH_(n+1))<=(H_n+H_(n+1))/2 and sum_(m>=1)m q^(m-1)=(1-q)^(-2).",
+    "modified_energy_control": "K1568 implies |sum_n a_n(sigma)M_n|<=C_m|e|||A||_infinity C_(sigma,rho)G_rho and |sum_n a_n(sigma)int A dot partial_t j_n|<=C_m B_A C_(sigma,rho)G_rho.",
+    "combined_identity": "Summing K1563's identity at the inner radius therefore bounds the radial term at the same tier and the differentiated-current term by the outer analytic energy, conditional on finite B_A and G_rho.",
+    "same_radius_obstruction": "No cutoff-independent constant bounds S_rho by G_rho at one radius. Taking only H_N=a_N(rho)^(-1) and H_(N+1)=a_(N+1)(rho)^(-1) nonzero keeps G_rho=2 while the nth cross contribution equals sqrt(N+1)/rho.",
+    "consequence": "The normal form removes the apparent spatial derivative loss and is bankable with an analytic-radius margin, but it does not create a same-radius coercive energy or repair K1450's finite radius loss.",
+    "scope_guard": "This conditional two-radius estimate does not prove global coefficient integrability, positivity of a limiting radius, a gauge-invariant completion, a closed completed-domain modified energy, or cutoff-uniform global flow."
+  },
+  "decision": {
+    "two_radius_cross_term_bound_proved": true,
+    "differentiated_current_analytic_sum_controlled_conditionally": true,
+    "single_radius_uniform_relative_bound_exists": false,
+    "k1450_radius_collapse_repaired": false,
+    "coercive_global_modified_energy_constructed": false,
+    "global_full_pde_flow_constructed": false,
+    "protected_status_change": false
+  }
+}

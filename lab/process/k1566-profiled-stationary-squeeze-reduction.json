@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1566",
+  "title": "The stationary diagonal squeeze problem reduces exactly to one variance parameter",
+  "pinned_inputs": {
+    "k1524": {"path": "lab/process/k1524-stationary-quasi-free-exact-formulas.json", "sha256": "14cbd2eaa0b14f1f587013fe1b1b5ac056872d075503d5112c316e583cf536df"},
+    "k1560": {"path": "lab/process/k1560-cutoff-weyl-coefficients.json", "sha256": "0d25c26e84613914acf41e687e972c6d35f6f72b9f4aae2af2ab288d3bbd9a67"}
+  },
+  "profile_reduction": {
+    "continuum_data": "On Q=[-1,1]^3 write r=|x| and c_C=(1/2)int_Q r^(-1)dx. For a positive squeeze profile s define A[s]=(1/2)int_Q s/r dx and F[s]=(1/4)int_Q r(s+s^(-1)-2)dx.",
+    "fixed_variance_minimizer": "For every 0<A<c_C there is a unique kappa>0 with A=A(kappa):=(1/2)int_Q(r^2+kappa)^(-1/2)dx, and the unique minimizer of F at A[s]=A is s_kappa(x)=r/sqrt(r^2+kappa).",
+    "proof": "The free integrand is strictly convex in s and the variance constraint is linear. Its Euler equation is r(1-s^(-2))/4+mu/(2r)=0, hence s=r/sqrt(r^2+2mu). Strict convexity gives the global minimizer; monotone convergence makes A(kappa) strictly decrease from c_C to 0.",
+    "reduced_derivative": "If F_*(A)=F[s_(kappa(A))], the envelope theorem gives F_*'(A)=-kappa(A)/2.",
+    "ratio_monotonicity": "With D(kappa)=c_C-A(kappa), R(kappa)=kappa/D(kappa) is strictly increasing from 0 to infinity. Indeed D+kappa A' is the integral of the positive pointwise function [2(1-(1+t)^(-1/2))-t(1+t)^(-3/2)]/(4r), t=kappa/r^2.",
+    "uniform_comparison": "At any fixed 0<A<c_C the uniform profile s=A/c_C is admissible but is not s_kappa almost everywhere, so strict convexity makes its free coefficient strictly larger while the optimized interaction coefficient is unchanged.",
+    "scope_guard": "This is a continuum leading-coefficient theorem for translation-invariant diagonal Gaussian Q-space trials. It is not an unrestricted lower bound, a non-Gaussian classification, a bounded-error lattice expansion, a ground-state profile theorem or a source-owned Hamiltonian."
+  },
+  "decision": {
+    "fixed_variance_profile_minimizer_proved": true,
+    "continuum_reduction_to_one_parameter_proved": true,
+    "profile_ratio_strictly_monotone": true,
+    "uniform_profile_strictly_suboptimal_at_fixed_nonvacuum_variance": true,
+    "unrestricted_ground_energy_coefficient_proved": false,
+    "bounded_error_recentering_proved": false,
+    "protected_status_change": false
+  }
+}

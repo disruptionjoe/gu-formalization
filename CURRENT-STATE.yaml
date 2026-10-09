@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 29b04b2c463c6876e45ae4537fb99a53fa6ca644
+revision_basis: 8387eb580ae195e421511b4715a5e3d004336892
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1566--K1570 optimize the full translation-invariant diagonal Gaussian
+    squeeze profile rather than forcing one uniform covariance factor. At
+    fixed leading point variance `A`, strict convexity gives the unique
+    profile `s_kappa(x)=|x|/sqrt(|x|^2+kappa)`. The self-consistency equation
+    `kappa_g=24g[c_C-A(kappa_g)]` has one positive solution for every `g>0`,
+    and its finite-cutoff recovery sequence proves an explicit unrestricted
+    limsup strictly below the vacuum coefficient for every positive coupling.
+    This removes K1562's threshold only inside the larger stationary diagonal
+    Gaussian class; no matching unrestricted lower coefficient, ratio
+    convergence or bounded-error recentering follows. On the PDE arc,
+    covariant integration by parts removes the apparent spatial derivative
+    loss from `int A dot partial_t j_n`, but an adjacent charge tier remains.
+    The correction and remainder are controlled from an outer analytic radius
+    to a smaller one, while a concentrated-tier witness excludes a uniform
+    same-radius relative bound. K1450's radius-collapse and global-flow debts
+    remain. The 285-row census is 206 satisfied, ten conditional, 65 excluded
+    and four missing; protected source, ledger, canon and public states do not
+    move.
+
     K1560--K1565 identify the exact leading cube-cutoff coefficients
     `c_C=12log((1+sqrt(3))/sqrt(2))-pi` and
     `c_Omega=2sqrt(3)+8log((1+sqrt(3))/sqrt(2))-pi/3`, including real-mode
@@ -14876,6 +14895,18 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1566--K1570 show that the stationary diagonal Gaussian coefficient is
+  governed by a unique frequency-dependent profile and beats the vacuum for
+  every `g>0`. Can one prove a matching lower coefficient over unrestricted
+  non-Gaussian states, or identify `E_N` to bounded error, without promoting
+  this trial profile to a ground-state theorem? The finite-cutoff recovery is
+  still one-sided. Independently, K1568--K1569 remove spatial derivative loss
+  from the differentiated-current remainder but prove that its one-charge
+  shift needs an analytic-radius margin. Can a genuinely spacetime/null-form
+  or gauge-fixed mechanism remove that shift or keep a positive outer radius
+  globally? The source-owned action/measure/Hamiltonian tuple remains a
+  separate gate.
+
   K1560--K1565 give an explicit uniform-squeeze upper coefficient and prove a
   family-only vacuum crossing above `g_c`. Can one prove the matching
   unrestricted lower coefficient, or instead identify `E_N` to bounded error,
@@ -17352,6 +17383,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1566--K1570's normalized torus, cube cutoff, fixed mass/coupling,
+  translation-invariant diagonal Gaussian scope and explicit profiled recovery
+  sequence. Prove a matching unrestricted quartic coefficient or bounded-error
+  recentering before claiming ratio convergence, localization, compactness or
+  Mosco recovery. Separately, retain K1568's covariant integration-by-parts
+  identity and K1569's exact one-radius obstruction: remove the adjacent charge
+  shift through a genuinely spacetime/null-form or gauge-fixed mechanism, or
+  prove an outer analytic radius remains positive globally. K1450 remains the
+  current conditional flow control. Supply the source-owned selector tuple
+  only from actual action, carrier and observation data.
+
   Preserve K1560--K1565's normalized torus, box cutoff, fixed mass/coupling,
   real-mode multiplicity and explicit uniform-squeeze family. Prove a matching
   unrestricted quartic coefficient or bounded-error recentering before

@@ -7,6 +7,21 @@ updated_at: "2026-10-09"
 
 # Next Steps For Contributors
 
+> **2026-10-09 K1566--K1570 PROFILED COEFFICIENT AND DIFFERENTIATED-CURRENT
+> BOUNDARY.** The full stationary diagonal Gaussian squeeze family reduces to
+> the profile `s_kappa(x)=|x|/sqrt(|x|^2+kappa)`. Its unique self-consistency
+> solution exists for every `g>0`, has an explicit finite-cutoff recovery, and
+> gives a strict limsup below the vacuum coefficient at every positive
+> coupling. This removes K1562's threshold only inside the larger Gaussian
+> family. Next prove a matching unrestricted lower coefficient or bounded-error
+> recentering. On the PDE arc, covariant integration by parts removes spatial
+> derivative loss from `int A dot partial_t j_n`, but one adjacent charge tier
+> survives. It is controlled across two analytic radii and is not uniformly
+> relatively bounded at one radius. Next remove that shift through a genuine
+> spacetime/null-form or gauge-fixed mechanism, or keep the outer radius
+> positive globally. Do not claim coefficient convergence, completed flow or a
+> source-owned GU Hamiltonian.
+
 > **2026-10-09 K1560--K1565 SQUEEZED COEFFICIENT AND RADIAL NORMAL FORM.**
 > The box cutoff has exact leading constants
 > `c_C=12log((1+sqrt(3))/sqrt(2))-pi` and

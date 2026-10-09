@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1568",
+  "title": "The differentiated lifted current has no spatial derivative loss after covariant integration by parts",
+  "pinned_inputs": {
+    "k1388": {"path": "lab/process/k1388-differentiated-maxwell-source-closure.json", "sha256": "86f5f519bc7939514fdef2891dbdac6e3f59c135364401ed185dc3dfd86da811"},
+    "k1563": {"path": "lab/process/k1563-radial-normal-form-exchange.json", "sha256": "45dbd1fda070ede168dc8524c0c97486d4302b1e764f8d02b75d99f2162a8dd6"}
+  },
+  "current_identity": {
+    "fields": "Set psi_n=Q^n phi, pi_n=D_t psi_n and j_n^a=e Im<psi_(n+1),D^a psi_n> on the smooth periodic core.",
+    "differentiation": "partial_t j_n^a=e Im<pi_(n+1),D^a psi_n>+e Im<psi_(n+1),D^a pi_n>+e Im<psi_(n+1),[D_t,D^a]psi_n>.",
+    "integration_by_parts": "For real periodic A, int A_a Im<psi_(n+1),D^a pi_n>=-int (partial^a A_a)Im<psi_(n+1),pi_n>-int A_a Im<D^a psi_(n+1),pi_n>.",
+    "commutator": "The last differentiated-current term is algebraic in the electric curvature because [D_t,D_a] is charge times F_(ta); it contains no derivative of pi_n.",
+    "tame_bound": "If H_n is K1563's positive quadratic covariant graph energy and m>0, then |int A dot partial_t j_n|<=C_m B_A(t)sqrt(H_n H_(n+1)), where B_A=|e|(||A||_infinity+||div A||_3)+e^2||A||_infinity||E||_infinity. Sobolev H1->L6 controls the divergence term.",
+    "normal_form_size": "The correction itself obeys |M_n|=|int A dot j_n|<=C_m|e|||A||_infinity sqrt(H_n H_(n+1)).",
+    "advance": "The K1558/K1563 differentiated-current remainder loses no spatial derivative after integration by parts, but both it and M_n retain one adjacent charge tier.",
+    "scope_guard": "This is a smooth-core tame estimate in the fixed temporal-gauge convention. It does not make M_n gauge invariant, remove the adjacent charge tier, prove same-tier coercivity, keep an analytic radius positive, or complete the full PDE flow."
+  },
+  "decision": {
+    "differentiated_current_identity_proved": true,
+    "covariant_integration_by_parts_proved": true,
+    "spatial_derivative_loss_removed": true,
+    "one_charge_shift_remains": true,
+    "single_tier_coercive_modified_energy_proved": false,
+    "global_full_pde_flow_constructed": false,
+    "protected_status_change": false
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1567",
+  "title": "The optimal stationary diagonal squeeze beats the vacuum coefficient at every positive coupling",
+  "pinned_inputs": {
+    "k1566": {"path": "lab/process/k1566-profiled-stationary-squeeze-reduction.json", "sha256": "be9c5066f24a16ba31171c42835cbc139f82205038f7186d6428f4a60efbfdef"},
+    "k1562": {"path": "lab/process/k1562-optimized-squeeze-ground-energy-upper.json", "sha256": "3bdc93cb1d8c622b4d2b595da126d9c264e5b1b482ae14f3466966f220892625"}
+  },
+  "profiled_upper": {
+    "reduced_functional": "After optimizing the constant mean on the active branch, J_g(A)=F_*(A)+6gA(2c_C-A), 0<A<=c_C. For A>=c_C, K1524's optimized interaction is at least 6g c_C^2 and the free cost is nonnegative, so no high-variance profile beats the vacuum.",
+    "self_consistency": "The unique interior minimizer is parametrized by the unique kappa_g>0 satisfying R(kappa_g)=24g, equivalently kappa_g=24g[c_C-A(kappa_g)].",
+    "all_coupling_strictness": "Because R rises strictly from 0 to infinity, kappa_g exists for every g>0. Since J_g'(A)=D(kappa)[24g-R(kappa)]/2, it is the unique global minimum and J_g(A(kappa_g))<J_g(c_C)=6g c_C^2.",
+    "origin_mechanism": "The positive solution at arbitrarily small g is enabled by D(kappa)/kappa tending to infinity at the three-dimensional cube origin; the effect is nonperturbatively small as g tends to zero but is strictly nonzero.",
+    "finite_cutoff_recovery": "Set s_(N,k)=omega_k/sqrt(omega_k^2+kappa_g N^2), use equal real sine/cosine factors, and choose y_N=[3(C_N-V_N)-m^2/(4g)]_+. Riemann sums give V_N/N^2->A(kappa_g), N^(-4)q0->F[s_(kappa_g)] and the optimized interaction coefficient ->6gA(kappa_g)[2c_C-A(kappa_g)].",
+    "unrestricted_limsup": "Therefore limsup_(N to infinity)E_N/N^4<=h_g^prof:=J_g(A(kappa_g))<6g c_C^2 for every fixed g>0.",
+    "uniform_family_comparison": "The profiled family strictly improves the best K1562 uniform-squeeze coefficient for every g>0: it beats the vacuum below K1562's threshold and strictly lowers the free cost at the same variance for every nonvacuum uniform optimizer above it.",
+    "scope_guard": "This is a stronger explicit Gaussian upper coefficient, not a matching unrestricted lower coefficient, ratio convergence, a full-theory phase transition, localization, compactness, Mosco recovery or bounded-error recentering."
+  },
+  "decision": {
+    "unique_profiled_minimizer_proved": true,
+    "finite_cutoff_recovery_sequence_constructed": true,
+    "vacuum_coefficient_beaten_for_every_positive_coupling": true,
+    "uniform_family_threshold_is_not_full_gaussian_threshold": true,
+    "explicit_unrestricted_limsup_improved": true,
+    "ground_energy_ratio_convergence_proved": false,
+    "bounded_error_recentering_proved": false,
+    "protected_status_change": false
+  }
+}

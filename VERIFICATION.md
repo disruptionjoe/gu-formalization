@@ -7,6 +7,24 @@ updated_at: "2026-10-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1566--K1570 profiled coefficient and current-normal-form boundary (2026-10-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Uniform squeezing is optimal among stationary diagonal Gaussian trials | K1566 strict fixed-variance convex minimization | false: the unique profile is `s_kappa(x)=|x|/sqrt(|x|^2+kappa)` |
+| The Gaussian vacuum remains coefficient-optimal below K1562's threshold | K1567 monotone self-consistency ratio and finite-cutoff recovery | false in the larger stationary diagonal class: the profiled limsup is strictly lower for every `g>0` |
+| The profiled limsup is the unrestricted ground-energy coefficient | K1567 scope audit | not established: no matching lower coefficient or ratio convergence is proved |
+| `int A dot partial_t j_n` necessarily loses a spatial derivative | K1568 covariant integration by parts | false on the smooth periodic core: it is bounded by an adjacent-charge energy product |
+| The current normal form is uniformly coercive at one analytic radius | K1569 concentrated-tier witness | false: the relative ratio grows as `sqrt(n+1)/rho` |
+| The two-radius estimate completes the global PDE flow | K1569 scope audit | not established: K1450's positive-radius and coefficient-integrability debts remain |
+| The advance closes GU physical admission | K1570 285-row bridge census | 206 satisfied, ten conditional, 65 excluded and four missing |
+
+The five producers pass `108/108` controls and five hostile probes reject
+`81/81` mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
+`0/7`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
+
 ## K1560--K1565 squeezed coefficient and radial normal-form boundary (2026-10-09)
 
 | Claim | Evidence | Honest grade |
