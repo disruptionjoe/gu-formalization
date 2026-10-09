@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1575",
+  "title": "Profiled coefficient asymptotics and moving-radius protected admission replay",
+  "pinned_inputs": {
+    "k1571": {"path": "lab/process/k1571-profiled-coefficient-coupling-asymptotics.json", "sha256": "d2cf5c6400796a9c0f39082a16ece006ed1a087b1e3590b0973253132ff03820"},
+    "k1572": {"path": "lab/process/k1572-finite-cutoff-profiled-gaussian-minimizer.json", "sha256": "dcdce3de0f59d4f41985e81f575774d499e4a646e8aabde771aeefd2b125db4b"},
+    "k1573": {"path": "lab/process/k1573-moving-radius-current-absorption.json", "sha256": "a76dfb050607516076b7d5ddbee2f14390b21169bf29e765a46da163a6387da9"},
+    "k1574": {"path": "lab/process/k1574-analytic-weight-shift-tradeoff.json", "sha256": "d562102621b78810877daf9bebc4a2df85fb91283ae9e386bbb4953a0204e57d"}
+  },
+  "bridge_census": {
+    "row_count": 290,
+    "satisfied_count": 211,
+    "conditional_count": 10,
+    "excluded_count": 65,
+    "missing_count": 4,
+    "new_satisfied_rows": [
+      "K1571 profiled coefficient weak/strong coupling asymptotics",
+      "K1572 exact finite-cutoff stationary diagonal Gaussian minimizer",
+      "K1573 moving-radius differentiated-current absorption",
+      "K1574 general analytic-weight adjacent-shift criterion",
+      "K1575 protected admission replay"
+    ],
+    "protected_missing_rows": [
+      "source-selected action/measure/Hamiltonian",
+      "interacting positive physical quotient",
+      "observed carrier/intertwiner",
+      "held-out prediction or confirmation"
+    ]
+  },
+  "protected_state": {
+    "source_claims": "SC-ACT-01/02/06 remain ASSERTS; SC-META-53 remains UNCERTAIN",
+    "physics_ledger": "33 SAME / 22 DIFFERS / 31 NEEDS / 2 OVER-DETERMINED",
+    "candidate_counts": "K1145 and K1150 remain 0/7",
+    "canon_change": false,
+    "paper_change": false,
+    "prediction_or_confirmation": false,
+    "public_posture_change": false
+  },
+  "decision": {
+    "conditional_mathematical_advance": true,
+    "profiled_gaussian_coupling_asymptotics_proved": true,
+    "stationary_diagonal_gaussian_coefficient_convergence_proved": true,
+    "moving_radius_current_absorption_proved": true,
+    "factorial_same_radius_reweighting_excluded": true,
+    "unrestricted_ground_energy_ratio_convergence": false,
+    "ground_energy_to_bounded_error": false,
+    "global_positive_analytic_radius": false,
+    "full_pde_leakages_closed": false,
+    "continuum_interacting_brst_operator": false,
+    "source_owned_gu_hamiltonian": false,
+    "protected_status_change": false
+  }
+}

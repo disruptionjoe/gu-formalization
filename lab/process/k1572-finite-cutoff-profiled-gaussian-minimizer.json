@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1572",
+  "title": "The exact finite-cutoff stationary diagonal Gaussian minimizer converges to the profiled coefficient",
+  "pinned_inputs": {
+    "k1524": {"path": "lab/process/k1524-stationary-quasi-free-exact-formulas.json", "sha256": "14cbd2eaa0b14f1f587013fe1b1b5ac056872d075503d5112c316e583cf536df"},
+    "k1567": {"path": "lab/process/k1567-profiled-squeeze-limsup.json", "sha256": "1c77684ec360c0f52e24f011d4a592950d646e93b79aecd4f9873777d6b62b16"}
+  },
+  "finite_cutoff_minimizer": {
+    "fixed_variance_problem": "For cutoff modes omega_k and prescribed point variance V, strict convexity minimizes sum_k omega_k(s_k+s_k^(-1)-2)/4 subject to V=sum_k s_k/(2omega_k). The unique profile is s_(N,k)=omega_k/sqrt(omega_k^2+kappa).",
+    "reduced_data": "Write A_N(kappa)=(1/2)sum_k(omega_k^2+kappa)^(-1/2), D_N(kappa)=C_N-A_N(kappa), and F_N^*(A_N(kappa)) for the minimized free cost. On the active-mean branch y_N=3D_N-m^2/(4g).",
+    "exact_euler_equation": "For all sufficiently large N the active branch has two critical parameters kappa_(g,N)^-<kappa_(g,N)^+ satisfying kappa+3m^2=24gD_N(kappa). The smaller is the finite-mass barrier near the vacuum endpoint; the larger is the minimizing profile.",
+    "uniqueness": "D_N is strictly increasing and strictly concave with D_N(0)=0, so f_N(kappa)=kappa+3m^2-24gD_N(kappa) is strictly convex. For large N its minimum is negative, giving exactly two roots. The reduced derivative makes the smaller root a local maximum and the larger root the unique active local minimum; K1567's strict coefficient gain makes the larger root the global stationary-diagonal minimizer over the vacuum and inactive branches.",
+    "coefficient_limit": "Riemann-sum convergence and the uniqueness of K1567's positive continuum solution imply kappa_(g,N)^+/N^2 tends to kappa_g while kappa_(g,N)^-/N^2 tends to zero. The minimizing s_(N,k) approaches |k|/sqrt(|k|^2+kappa_gN^2) at rescaled frequencies, and the exact stationary diagonal Gaussian minimum divided by N^4 tends to h_g^prof.",
+    "advance": "K1567's explicit recovery sequence is therefore asymptotically exact for the complete stationary translation-invariant diagonal Gaussian class, not merely one upper trial.",
+    "scope_guard": "This is a matching coefficient theorem only inside the stationary diagonal Gaussian class. It is not an unrestricted non-Gaussian lower bound, an O(1) expansion, a true ground-state profile, ground-energy ratio convergence or a source-owned GU Hamiltonian."
+  },
+  "decision": {
+    "finite_cutoff_fixed_variance_minimizer_proved": true,
+    "finite_cutoff_euler_equation_proved": true,
+    "finite_cutoff_two_critical_points_classified": true,
+    "finite_cutoff_gaussian_global_minimizer_unique_eventually": true,
+    "stationary_diagonal_gaussian_coefficient_convergence_proved": true,
+    "unrestricted_ground_energy_ratio_convergence_proved": false,
+    "bounded_error_recentering_proved": false,
+    "protected_status_change": false
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1573",
+  "title": "A moving analytic radius absorbs the differentiated-current charge shift with an explicit budget",
+  "pinned_inputs": {
+    "k1450": {"path": "lab/process/k1450-charge-analytic-full-pde-hierarchy.json", "sha256": "1712cd639dcc5289a1212de673f836d2fd375efa923dc99d45867b1dd89d7a26"},
+    "k1568": {"path": "lab/process/k1568-differentiated-current-integration-by-parts.json", "sha256": "30e4094cadb824997701a5d7afb684c819587dabcb91c1d2f6bc6db3834795ff"}
+  },
+  "moving_radius": {
+    "analytic_energy": "For X_n=a_n(rho)H_n with a_n(rho)=rho^(2n)/n!, G_rho=sum_n X_n and partial_rho G_rho=(2/rho)sum_n nX_n.",
+    "parameterized_shift_bound": "For every epsilon>0, S_rho=sum_n a_n(rho)sqrt(H_nH_(n+1)) <= (epsilon/4)partial_rho G_rho + (epsilon+epsilon^(-1))G_rho/(2rho).",
+    "proof": "Rewrite each term as rho^(-1)sqrt(n+1)sqrt(X_nX_(n+1)) and use 2uv<=epsilon u^2+epsilon^(-1)v^2 before summing and reindexing.",
+    "radius_absorption": "If dG_rho/dt<=L(t)G_rho+C_mB_A(t)S_rho on the smooth core and rho'(t)<0, choose epsilon(t)=-4rho'(t)/(C_mB_A(t)) where B_A>0. The weight derivative rho'partial_rho G absorbs the entire shifted derivative term.",
+    "optimized_budget": "The remaining coefficient is L(t)-2rho'(t)/rho(t)+C_m^2B_A(t)^2/[8rho(t)(-rho'(t))]. Choosing -rho'=C_mB_A/4 makes epsilon=1 and leaves L+C_mB_A/rho. Thus positivity of rho is guaranteed on every interval with (C_m/4)int B_A<rho(0).",
+    "relation_to_k1450": "This recovers a one-radius moving-energy formulation for the K1568 normal form and makes its radius expenditure explicit. It does not improve K1450's global hypothesis: an infinite B_A budget can still collapse rho.",
+    "scope_guard": "The estimate is conditional on smooth cutoff solutions, positivity of the moving radius and integrability of the displayed coefficients. It does not prove global coefficient integrability, a positive limiting radius, gauge-invariant coercivity or a completed global PDE flow."
+  },
+  "decision": {
+    "parameterized_same_radius_derivative_bound_proved": true,
+    "moving_radius_absorption_proved": true,
+    "explicit_radius_budget_proved": true,
+    "outer_radius_comparison_required_for_local_moving_estimate": false,
+    "global_positive_radius_proved": false,
+    "global_full_pde_flow_constructed": false,
+    "protected_status_change": false
+  }
+}

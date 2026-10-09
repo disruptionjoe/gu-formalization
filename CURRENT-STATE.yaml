@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 8387eb580ae195e421511b4715a5e3d004336892
+revision_basis: 6f189c52812ae52b321f6803e47de28fb0ae3943
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,27 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1571--K1575 finish the stationary diagonal Gaussian coefficient problem
+    at leading order without promoting it to the unrestricted theory. At weak
+    coupling the profiled parameter satisfies
+    `g log(1/kappa_g)->1/(12pi)` and the coefficient gain satisfies
+    `(6gc_C^2-h_g^prof)/kappa_g^2->pi/16`; at strong coupling
+    `h_g^prof=4sqrt(24c_Cg)-4/c_C-c_Omega/2+o(1)`. The exact finite-cutoff
+    Euler equation has two critical roots: a near-vacuum barrier and one
+    unique larger minimizing profile. The latter obeys
+    `kappa_(g,N)^+/N^2->kappa_g`, so the stationary diagonal Gaussian minimum
+    divided by `N^4` converges to `h_g^prof`. This remains class-scoped; no
+    unrestricted non-Gaussian coefficient or bounded-error recentering
+    follows. On the PDE arc, a parameterized adjacent-shift inequality is
+    absorbed by a decreasing analytic radius with explicit budget
+    `(C_m/4)int B_A<rho(0)`. A general weight theorem proves that fixed-radius
+    shift control is equivalent to bounded `sqrt(w_n/w_(n+1))`; factorial
+    weights fail while geometric weights require stronger charge tails.
+    Global coefficient integrability and positive limiting radius remain
+    open. The 290-row census is 211 satisfied, ten conditional, 65 excluded
+    and four missing; protected source, ledger, canon and public states do not
+    move.
+
     K1566--K1570 optimize the full translation-invariant diagonal Gaussian
     squeeze profile rather than forcing one uniform covariance factor. At
     fixed leading point variance `A`, strict convexity gives the unique
@@ -14895,6 +14916,17 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1571--K1575 prove the exact leading coefficient and minimizer profile only
+  inside the stationary diagonal Gaussian class. Can one now prove a matching
+  coefficient over unrestricted non-Gaussian states, or identify `E_N` to
+  bounded error, without treating Gaussian coefficient convergence as a true
+  ground-state theorem? Independently, K1573 absorbs the adjacent charge shift
+  by spending analytic radius and K1574 proves that factorial reweighting
+  cannot make that shift bounded at a fixed radius. Can one prove the global
+  `B_A` budget needed to retain positive radius, or find a gauge/spacetime
+  cancellation that removes the expenditure? The source-owned
+  action/measure/Hamiltonian tuple remains a separate gate.
+
   K1566--K1570 show that the stationary diagonal Gaussian coefficient is
   governed by a unique frequency-dependent profile and beats the vacuum for
   every `g>0`. Can one prove a matching lower coefficient over unrestricted
@@ -17383,6 +17415,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1571--K1575's normalized torus, cube cutoff, stationary diagonal
+  Gaussian class, finite-mass two-critical-point classification and explicit
+  weak/strong coupling asymptotics. Prove a matching unrestricted
+  non-Gaussian coefficient or bounded-error recentering before claiming true
+  ground-energy ratio convergence, localization, compactness or Mosco
+  recovery. Separately, retain K1573's exact moving-radius budget and K1574's
+  general weight-ratio criterion: prove the global `B_A` integrability needed
+  for positive limiting radius, strengthen the admitted charge-tail space
+  with full nonlinear closure, or supply a genuine gauge/spacetime
+  cancellation. Do not relabel factorial weights as a same-radius repair.
+  Supply the source-owned selector tuple only from actual action, carrier and
+  observation data.
+
   Preserve K1566--K1570's normalized torus, cube cutoff, fixed mass/coupling,
   translation-invariant diagonal Gaussian scope and explicit profiled recovery
   sequence. Prove a matching unrestricted quartic coefficient or bounded-error

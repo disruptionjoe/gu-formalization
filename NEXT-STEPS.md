@@ -7,6 +7,22 @@ updated_at: "2026-10-09"
 
 # Next Steps For Contributors
 
+> **2026-10-09 K1571--K1575 PROFILED COEFFICIENT ASYMPTOTICS AND
+> ANALYTIC-RADIUS BUDGET.** The stationary diagonal Gaussian coefficient gain
+> is exponentially small at weak coupling and grows on a square-root scale at
+> strong coupling. The exact finite-cutoff Euler equation has a near-vacuum
+> barrier and one larger minimizing root; the latter converges after `N^2`
+> scaling to `kappa_g`, so the complete stationary diagonal Gaussian minimum
+> has coefficient `h_g^prof`. This is not an unrestricted non-Gaussian ground-
+> energy theorem. Next prove a matching unrestricted coefficient or bounded-
+> error recentering. On the PDE arc, the adjacent shift is absorbed by a
+> moving radius with explicit `int B_A` budget. A general weight-ratio theorem
+> proves factorial weights cannot close it at one fixed radius; geometric
+> weights demand stronger charge tails. Next prove global coefficient
+> integrability, a closed stronger hierarchy, or a gauge/spacetime
+> cancellation. Do not claim a positive global radius, completed flow or
+> source-owned GU Hamiltonian.
+
 > **2026-10-09 K1566--K1570 PROFILED COEFFICIENT AND DIFFERENTIATED-CURRENT
 > BOUNDARY.** The full stationary diagonal Gaussian squeeze family reduces to
 > the profile `s_kappa(x)=|x|/sqrt(|x|^2+kappa)`. Its unique self-consistency

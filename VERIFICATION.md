@@ -7,6 +7,25 @@ updated_at: "2026-10-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1571--K1575 profiled asymptotics and analytic-radius budget (2026-10-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The all-positive-coupling Gaussian gain is perturbative near `g=0` | K1571 cube-origin asymptotics | false: `g log(1/kappa_g)->1/(12pi)` and the gain is exponentially small |
+| The profiled coefficient remains linear in `g` at strong coupling | K1571 large-`kappa` expansion | false: `h_g^prof=4sqrt(24c_Cg)-4/c_C-c_Omega/2+o(1)` |
+| K1567's finite-cutoff recovery is merely one trial inside the stationary diagonal class | K1572 strict convexity and exact discrete Euler equation | false at leading order: the unique larger minimizing root gives coefficient convergence to `h_g^prof` |
+| The discrete Euler equation has the continuum problem's single positive critical root | K1572 finite-mass convexity audit | false: it has a near-vacuum barrier root and a larger minimizing root for large cutoff |
+| The adjacent current shift always requires comparison with a separately fixed outer radius | K1573 parameterized shift inequality | false locally: a decreasing radius absorbs it with an explicit budget |
+| A different factorial normalization can make the adjacent shift bounded at one radius | K1574 general weight-ratio criterion | false: factorial ratios diverge; geometric weights impose stronger charge tails |
+| The moving-radius estimate proves a positive global radius and completed flow | K1573--K1574 scope audit | not established: global `B_A` integrability or a structural cancellation is still missing |
+| The advance closes GU physical admission | K1575 290-row bridge census | 211 satisfied, ten conditional, 65 excluded and four missing |
+
+The five producers pass `115/115` controls and five hostile probes reject
+`80/80` mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
+`0/7`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
+
 ## K1566--K1570 profiled coefficient and current-normal-form boundary (2026-10-09)
 
 | Claim | Evidence | Honest grade |

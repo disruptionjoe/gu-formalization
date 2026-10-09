@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1571",
+  "title": "The profiled Gaussian coefficient gain is nonperturbative at weak coupling and square-root at strong coupling",
+  "pinned_inputs": {
+    "k1566": {"path": "lab/process/k1566-profiled-stationary-squeeze-reduction.json", "sha256": "be9c5066f24a16ba31171c42835cbc139f82205038f7186d6428f4a60efbfdef"},
+    "k1567": {"path": "lab/process/k1567-profiled-squeeze-limsup.json", "sha256": "1c77684ec360c0f52e24f011d4a592950d646e93b79aecd4f9873777d6b62b16"}
+  },
+  "coupling_asymptotics": {
+    "notation": "Let D(kappa)=c_C-A(kappa), let kappa_g be the unique solution kappa_g=24gD(kappa_g), and let h_g^prof=J_g(A(kappa_g)).",
+    "cube_origin": "As kappa decreases to zero, D(kappa)/[kappa log(1/kappa)] tends to pi/2. The logarithmic coefficient is local and comes from the full solid angle at the interior cube origin.",
+    "weak_coupling_scale": "Consequently g log(1/kappa_g) tends to 1/(12pi) as g decreases to zero. The improvement is beyond every power of g.",
+    "weak_coupling_gap": "The exact stationary identity gives 6gc_C^2-h_g^prof=(1/2)int_0^(kappa_g)D(u)du-kappa_gD(kappa_g)/4, hence [6gc_C^2-h_g^prof]/kappa_g^2 tends to pi/16 and g log(1/[6gc_C^2-h_g^prof]) tends to 1/(6pi).",
+    "large_kappa_data": "As kappa tends to infinity, A(kappa)=4kappa^(-1/2)-2kappa^(-3/2)+O(kappa^(-5/2)) and F_*(A(kappa))=2sqrt(kappa)-c_Omega/2+3kappa^(-1/2)+O(kappa^(-3/2)).",
+    "strong_coupling_scale": "As g tends to infinity, sqrt(kappa_g)=sqrt(24c_C g)-2/c_C+o(1) and h_g^prof=4sqrt(24c_C g)-4/c_C-c_Omega/2+o(1).",
+    "scope_guard": "These are asymptotics of the optimized stationary diagonal Gaussian coefficient. They do not prove an unrestricted lower coefficient, ground-energy ratio convergence, bounded-error recentering, localization, compactness or a source-owned Hamiltonian."
+  },
+  "decision": {
+    "weak_coupling_exponential_scale_proved": true,
+    "weak_coupling_gap_constant_proved": true,
+    "strong_coupling_square_root_scale_proved": true,
+    "strong_coupling_constant_term_proved": true,
+    "unrestricted_ground_energy_coefficient_proved": false,
+    "bounded_error_recentering_proved": false,
+    "protected_status_change": false
+  }
+}

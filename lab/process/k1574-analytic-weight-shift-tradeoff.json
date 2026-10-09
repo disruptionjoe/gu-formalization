@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1574",
+  "title": "Same-radius adjacent-shift control is equivalent to a lower weight-ratio bound and excludes factorial weights",
+  "pinned_inputs": {
+    "k1450": {"path": "lab/process/k1450-charge-analytic-full-pde-hierarchy.json", "sha256": "1712cd639dcc5289a1212de673f836d2fd375efa923dc99d45867b1dd89d7a26"},
+    "k1569": {"path": "lab/process/k1569-two-radius-current-normal-form-boundary.json", "sha256": "beb47989bb9b82ec89ef6fa2fde95c1eb6068679eb959c135f3fabab296076d1"}
+  },
+  "weight_tradeoff": {
+    "general_energy": "For positive weights w_n define G_w=sum_n w_nH_n and S_w=sum_n w_nsqrt(H_nH_(n+1)).",
+    "criterion": "A cutoff-independent inequality S_w<=CG_w for every nonnegative sequence H holds if and only if q=sup_n sqrt(w_n/w_(n+1)) is finite. Weighted Cauchy and 2uv<=u^2+v^2 give C<=q; two-tier tests give the converse lower bound C>=q/2.",
+    "factorial_obstruction": "For w_n=rho^(2n)/n!, sqrt(w_n/w_(n+1))=sqrt(n+1)/rho, so the adjacent shift is unbounded at every fixed rho. This is the abstract form of K1569's concentrated-tier witness.",
+    "geometric_control": "For geometric weights w_n=rho^(2n), the ratio is 1/rho and same-radius shift control holds. But geometric weights are a strictly stronger charge-tail norm than factorial weights and do not inherit K1450's exponential-generating-function closure for free.",
+    "leibniz_tradeoff": "Any exact exponential-generating Leibniz normalization w_n^(1/2) proportional to rho^n/n! has ratio sqrt(w_n/w_(n+1))=(n+1)/rho and therefore fails the criterion even more strongly. A weight change cannot simultaneously preserve that exact factorial product bookkeeping and make the adjacent shift bounded at one fixed radius.",
+    "consequence": "Within the admitted analytic hierarchy, the honest routes are radius expenditure, additional charge-tail regularity, or a structural gauge/spacetime cancellation. Renaming the factorial weight cannot remove the shift.",
+    "scope_guard": "This is a sequence-space classification. It does not exclude all modified energies, nonlinear cancellations, dispersive estimates, gauge choices or global PDE mechanisms."
+  },
+  "decision": {
+    "general_weight_shift_criterion_proved": true,
+    "factorial_same_radius_shift_excluded": true,
+    "geometric_same_radius_shift_controlled": true,
+    "factorial_leibniz_and_bounded_shift_simultaneously_available": false,
+    "all_pde_repairs_excluded": false,
+    "global_full_pde_flow_constructed": false,
+    "protected_status_change": false
+  }
+}
