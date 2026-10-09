@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1625",
+  "status": "active_research",
+  "title": "Protected admission for common-floor covariance rigidity and BV atomic obstruction",
+  "pinned_inputs": {
+    "k1621": {"path": "lab/process/k1621-common-floor-covariance-reduction.json", "sha256": "d6f3e05b1c7cc457897896e62bac22ee5ec5d978ea0859e8c0d5cdcd7541dc50"},
+    "k1622": {"path": "lab/process/k1622-entropy-conditional-capacity-rigidity.json", "sha256": "dd9e0fb507d663b1010e0125972b1db817a0c25cd2e1e024f9509fddd8265e47"},
+    "k1623": {"path": "lab/process/k1623-effective-rank-covariance-rigidity.json", "sha256": "2c3c1424ec1345066fc469e3b7ae8499f7fa9b2450c61f34fabfd1e2c10af2f0"},
+    "k1624": {"path": "lab/process/k1624-bv-atomic-holonomy-obstruction.json", "sha256": "b8d7033d68c8a27dac599e1a4b6c596ca9736b2c2d390c2145c69c5db280632e"}
+  },
+  "census": {
+    "rows": 340,
+    "satisfied": 261,
+    "conditional": 10,
+    "excluded": 65,
+    "missing": 4,
+    "source_asserts": ["SC-ACT-01", "SC-ACT-02", "SC-ACT-06"],
+    "source_uncertain": ["SC-META-53"],
+    "physics_ledger": {"SAME": 33, "DIFFERS": 22, "NEEDS": 31, "OVER_DETERMINED": 2},
+    "k1145_k1150_scorable_rows": "0/7"
+  },
+  "protected_boundaries": {
+    "source_register_changed": false,
+    "physics_ledger_changed": false,
+    "canon_changed": false,
+    "paper_changed": false,
+    "prediction_or_confirmation_changed": false,
+    "public_posture_changed": false,
+    "unrestricted_coefficient_claimed": false,
+    "source_owned_flow_claimed": false
+  },
+  "next_wakes": [
+    "Control common-floor mixtures with order-N^3 conditional capacity or prove a genuinely non-Gaussian/nonstationary Fisher-defect theorem.",
+    "Derive an atom-free primitive measure with sufficient Fourier decay and integrable curvature/current/radial remainder from one source-owned nonlinear action and domain.",
+    "Supply the source-owned action/measure/Hamiltonian tuple."
+  ]
+}

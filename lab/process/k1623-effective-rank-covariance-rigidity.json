@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1623",
+  "status": "active_research",
+  "title": "Effective-rank and small-relative-excess covariance corollaries",
+  "pinned_inputs": {
+    "k1622": {
+      "path": "lab/process/k1622-entropy-conditional-capacity-rigidity.json",
+    "sha256": "dd9e0fb507d663b1010e0125972b1db817a0c25cd2e1e024f9509fddd8265e47"
+    }
+  },
+  "effective_rank_tests": {
+    "trace": "log det(I+A)<=Tr(A), so H(p_N)+(1/2)sum_z p_z Tr(A_(N,z))=o(N^3) is sufficient.",
+    "rank_norm": "log det(I+A)<=rank(A)log(1+||A||_op), so H(p_N)+(1/2)sum_z p_z rank(A_(N,z))log(1+||A_(N,z)||_op)=o(N^3) is sufficient.",
+    "small_excess": "If the cutoff dimension d_N=Theta(N^3), sup_z||A_(N,z)||_op=o(1), and H(p_N)=o(N^3), then the average log determinant is o(N^3).",
+    "low_rank": "Uniformly bounded relative covariance excess supported on weighted effective rank o(N^3) is coefficient-rigid even with label-dependent rotated eigenspaces and arbitrary translations.",
+    "scope_guard": "These are sufficient conditions, not necessary thresholds. Fixed order-one excess on a positive fraction of all cutoff modes can have order-N^3 capacity and remains unresolved by this theorem."
+  },
+  "decision": {
+    "trace_test_sufficient": true,
+    "rank_norm_test_sufficient": true,
+    "vanishing_relative_excess_sufficient": true,
+    "subextensive_effective_rank_sufficient": true,
+    "critical_capacity_resolved": false,
+    "protected_status_change": false
+  }
+}

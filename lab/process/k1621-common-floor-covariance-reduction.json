@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1621",
+  "status": "active_research",
+  "title": "Common-profile-floor reduction for label-dependent Gaussian covariances",
+  "pinned_inputs": {
+    "k1616": "lab/process/k1616-common-covariance-mmse-control.json",
+    "k1618": "lab/process/k1618-continuous-location-information-rigidity.json"
+  },
+  "common_floor_reduction": {
+    "hypothesis": "For every label z, S_(N,z)=S_(N,*)+C_(N,z) with C_(N,z)>=0, where the one common floor S_(N,*) is stationary diagonal and lies in a fixed relative K1572 profile band.",
+    "representation": "With W_N standard Gaussian and G_(N,*)~N(0,S_(N,*)) independent, M_N=m_(N,Z)+C_(N,Z)^(1/2)W_N and X_N=M_N+G_(N,*) satisfy Law(X_N|Z=z)=N(m_(N,z),S_(N,z)).",
+    "channel": "The heterogeneous Gaussian mixture is exactly a continuous location mixture over the one common channel covariance S_(N,*), even when the C_(N,z) have arbitrary eigenvectors.",
+    "energy_floor": "K1616 and K1572 give Q_N(Law(X_N))>=lambda_N^prof-(Lambda_(N,*)/2)I(M_N;X_N), with Lambda_(N,*)=||S_(N,*)^(-1/2)Omega_NS_(N,*)^(-1/2)||_op=O_g(N).",
+    "scope_guard": "A common stationary diagonal profiled Loewner floor is load-bearing. The reduction does not cover covariance families with no such floor, non-Gaussian component shapes, phases, textures, nonstationarity, or unrestricted states."
+  },
+  "decision": {
+    "label_dependent_covariances_reduced": true,
+    "shared_covariance_eigenvectors_required": false,
+    "common_profiled_floor_required": true,
+    "non_gaussian_components_controlled": false,
+    "unrestricted_state_theorem": false,
+    "protected_status_change": false
+  }
+}

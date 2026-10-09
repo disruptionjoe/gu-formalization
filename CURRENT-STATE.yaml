@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 7bb0b02d59dea2bec01473727ce369bb5e957f1a
+revision_basis: ba778b646b25a6f73c698a89f82c4e97c55dd210
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1621--K1625 extend K1618 from one common covariance to label-dependent
+    Gaussian covariances that share a stationary diagonal profiled Loewner
+    floor `S_*`: writing `S_z=S_*+C_z` realizes the mixture as the common
+    Gaussian channel `X=M+G_*`, with `M=m_Z+C_Z^(1/2)W`. The exact K1616
+    missing-information theorem then bounds the gain by
+    `(Lambda_*/2) I(M;X)`. Chain rule and the conditional Gaussian-channel
+    identity reduce this to label entropy plus
+    `(1/2) E log det(I+S_*^(-1/2)C_ZS_*^(-1/2))`; subextensive conditional
+    capacity, effective rank, trace, or uniformly small relative excess
+    therefore retain coefficient `h_g^prof`. No theorem is claimed without a
+    common profiled floor or for non-Gaussian components. Independently, any
+    compact BV primitive whose distributional derivative has a nonzero atom
+    has nonintegrable Fourier/holonomy `L1`, by Wiener's mean-square theorem;
+    atom-freedom is necessary but not sufficient. The 340-row census is 261
+    satisfied, ten conditional, 65 excluded and four missing; protected
+    source, ledger, canon and public states do not move.
+
     K1616--K1620 replace K1612's pair-summed Renyi-half threshold by an
     information-theoretic theorem for arbitrary-mode location mixtures over
     one common stationary diagonal covariance. The exact missing Fisher
@@ -15089,6 +15106,19 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1621--K1623 control label-dependent Gaussian covariances whenever they
+  share a stationary diagonal profiled Loewner floor and their label entropy
+  plus conditional Gaussian-channel capacity is `o(N^3)`. Can an order-`N^3`
+  capacity sector change the coefficient, or can a genuinely
+  non-Gaussian/nonstationary Fisher-defect theorem close the remaining
+  unrestricted sector? Only after the true `E_N+O(1)` shift is identified
+  should compactness and Mosco liminf/recovery be tested. Independently,
+  K1624 proves that every atom in the derivative measure of a compact BV
+  primitive forces nonintegrable holonomy `L1`. Can an atom-free primitive
+  with sufficient Fourier decay and integrable curvature/current/radial
+  remainder be derived from one source-owned nonlinear action/domain? The
+  source-owned action/measure/Hamiltonian tuple remains a separate gate.
+
   K1616--K1618 show that K1612's critical Renyi-half component count is not a
   coefficient threshold for shared-covariance translations: the relevant
   quantity is the Gaussian-channel mutual information, and every discrete
@@ -17711,6 +17741,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1621's common stationary diagonal profiled floor `S_*`, positive
+  covariance excesses `C_z`, and common-channel reduction. Preserve K1622's
+  combined label-entropy plus conditional-capacity condition and K1623's
+  sufficient trace/effective-rank/small-excess criteria. Do not transfer
+  coefficient rigidity to order-`N^3` conditional capacity, absence of a
+  common profiled floor, non-Gaussian laws, arbitrary phases, textures or
+  nonstationarity. Preserve K1624's compact BV hypothesis and its one-way
+  conclusion: atoms in `DG` obstruct Fourier/holonomy `L1`, but atom-freedom
+  alone does not provide decay. Next test the capacity boundary or leave the
+  Gaussian channel; for the PDE, derive an atom-free primitive and integrable
+  remainders from a source-owned nonlinear domain. Supply the source-owned
+  selector tuple only from actual action, carrier and observation data.
+
   Preserve K1611's stationary diagonal covariance basis, fixed relative band
   around the K1572 profile, exact Gaussian affinity, arbitrary translations,
   and `x exp(-x)` score-overlap tradeoff. Preserve K1612's Renyi-half

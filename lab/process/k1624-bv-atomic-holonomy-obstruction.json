@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1624",
+  "status": "active_research",
+  "title": "BV atomic-derivative obstruction to integrable holonomy",
+  "pinned_inputs": {
+    "k1619": "lab/process/k1619-endpoint-jump-holonomy-obstruction.json"
+  },
+  "atomic_obstruction": {
+    "hypothesis": "G is a compactly supported real scalar or finite-dimensional vector BV primitive on the frequency line and mu=DG is its finite distributional derivative measure.",
+    "fourier_identity": "For t nonzero, |widehat G(t)|=|widehat mu(t)|/|t| by distributional integration by parts.",
+    "wiener": "Wiener's theorem gives lim_(T->infinity)(1/(2T))int_(-T)^T|widehat mu(t)|^2dt=sum_a|mu({a})|^2.",
+    "mean": "If mu has a nonzero atom, boundedness |widehat mu|<=||mu||_TV converts the positive mean square into a positive Cesaro mean of |widehat mu|.",
+    "obstruction": "Partial integration of the Cesaro lower bound gives int_1^infinity |widehat mu(t)|/t dt=infinity, hence every nonzero atomic part of DG forces widehat G outside L1.",
+    "sharpness": "K1619's finitely many endpoint jumps are a special case. Atom-free DG is necessary for Fourier L1 in this BV class but is not sufficient.",
+    "scope_guard": "The theorem does not prove Fourier L1 for atom-free singular-continuous measures, electric-field L1, curvature/current control, nonlinear scattering, coercivity, a physical domain, or a source-owned flow."
+  },
+  "decision": {
+    "every_nonzero_derivative_atom_obstructs_L1": true,
+    "finite_jump_restriction_removed": true,
+    "atom_free_is_sufficient": false,
+    "electric_field_L1_proved": false,
+    "source_owned_flow": false,
+    "protected_status_change": false
+  }
+}

@@ -7,6 +7,24 @@ updated_at: "2026-10-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1621--K1625 common-floor covariance rigidity and BV atoms (2026-10-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Label-dependent Gaussian covariances are outside K1616's common-channel method | K1621 common-floor reduction | false when `S_z=S_*+C_z` for one stationary diagonal profiled floor: absorb `C_z` into the latent location `M=m_Z+C_Z^(1/2)W` |
+| The covariance labels require pairwise overlap counting | K1622 chain rule and conditional Gaussian-channel identity | false in the common-floor class: label entropy plus expected log-determinant capacity controls the missing information directly |
+| Full-rank covariance excess automatically changes the leading coefficient | K1623 trace/effective-rank bounds | false when weighted capacity is `o(N^3)`; low effective rank or uniformly small relative excess are sufficient, not necessary |
+| K1621--K1623 control mixtures without a common profiled floor or non-Gaussian components | scope audit | not established: the common additive Gaussian channel is load-bearing |
+| A compact BV primitive with an atomic derivative can have integrable Fourier transform through cancellation | K1624 Wiener mean-square obstruction | false after coincident atoms are merged: any nonzero derivative atom forces divergent Fourier/holonomy `L1` |
+| Atom-free derivative measure is sufficient for holonomy `L1` | K1624 scope audit | not established: singular-continuous measures can decay too slowly or not at all |
+| The advance closes GU physical admission | K1625 340-row bridge census | 261 satisfied, ten conditional, 65 excluded and four missing |
+
+The five producers pass `94/94` controls and five hostile probes reject
+`49/49` mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
+`0/7`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
+
 ## K1616--K1620 information rigidity and endpoint jumps (2026-10-09)
 
 | Claim | Evidence | Honest grade |

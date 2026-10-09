@@ -7,6 +7,21 @@ updated_at: "2026-10-09"
 
 # Next Steps For Contributors
 
+> **2026-10-09 K1621--K1625 COMMON-FLOOR COVARIANCE RIGIDITY AND BV ATOMIC
+> OBSTRUCTION.** Label-dependent Gaussian covariances with a common stationary
+> diagonal profiled Loewner floor reduce to one common Gaussian channel. The
+> gain is bounded by `(Lambda_*/2) I(M;X)`, and label entropy plus conditional
+> Gaussian-channel capacity gives the exact new sufficient criterion.
+> Subextensive effective rank, trace, or uniformly small relative covariance
+> excess retains coefficient `h_g^prof`. Next test the order-`N^3` capacity
+> boundary or leave the Gaussian/common-floor class. On the PDE arc, every
+> atom in the derivative measure of a compact BV primitive forces
+> nonintegrable Fourier/holonomy `L1`; atom-freedom is necessary but not
+> sufficient. Next derive sufficient atom-free Fourier decay and integrable
+> nonlinear remainders from a source-owned domain. Do not claim control
+> without a common profiled floor, a non-Gaussian theorem, electric-field
+> `L1`, a source-owned flow, or physical admission.
+
 > **2026-10-09 K1616--K1620 INFORMATION RIGIDITY AND ENDPOINT-JUMP
 > OBSTRUCTION.** For arbitrary-mode Gaussian location mixtures over one common
 > stationary diagonal covariance, the exact mixing gain is a weighted
