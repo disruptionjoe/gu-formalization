@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1533",
+  "title": "Gaussian extremality for weighted relative Fisher information at fixed mean and covariance",
+  "pinned_inputs": {
+    "k1528": {"path": "lab/process/k1528-general-gaussian-q-space-formula.json", "sha256": "4cc6e8e412480fbea7bbc1b1d5c838fbb71bc5f5ebc027c564902ec6e72bf97f"}
+  },
+  "fisher_extremality": {
+    "density_and_score": "Let mu=N(0,I_d), let nu=rho mu have mean m, positive covariance S and weak score u=grad log rho with finite weighted relative Fisher information I_Omega=E_nu[u^T Omega u]",
+    "score_identities": "Gaussian integration by parts gives E_nu u=m and E_nu[(X-m)(u-m)^T]=S-I",
+    "matrix_regression": "Matrix Cauchy, equivalently positivity of the residual after regressing u-m on X-m, gives Cov_nu(u)>=(S-I)S^(-1)(S-I)",
+    "sharp_bound": "I_Omega(nu|mu)>=m^T Omega m+Tr[Omega(S+S^(-1)-2I)] for every positive Omega",
+    "equality": "Equality holds exactly when u-m=(I-S^(-1))(X-m), whose normalized solution is the Gaussian N(m,S)",
+    "wavefunction": "For psi=sqrt(rho) exp(i theta), q0[psi]=(1/4)I_Omega(nu|mu)+int |grad theta|_Omega^2 dnu, so phase cannot lower the cost and the positive Gaussian amplitude is the unique fixed-moment minimizer up to constant phase",
+    "closure": "Smooth positive densities prove the identities directly; standard Gaussian convolution and lower semicontinuity extend the bound to finite-Fisher densities with positive covariance",
+    "scope_guard": "The theorem prices every non-Gaussian density by its first two moments but supplies no lower bound on its Wick-square expectation from those moments alone"
+  },
+  "decision": {
+    "all_density_fisher_covariance_bound_proved": true,
+    "gaussian_fixed_moment_extremizer": true,
+    "arbitrary_phase_can_lower_cost": false,
+    "universal_nongaussian_wick_coercivity_proved": false,
+    "protected_status_change": false
+  }
+}

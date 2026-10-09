@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1534",
+  "title": "Exact non-Gaussian Wick moment defect and smooth two-well boundary",
+  "pinned_inputs": {
+    "k1529": {"path": "lab/process/k1529-local-gaussian-coercivity.json", "sha256": "0a54d82bc708e120d101a7f4ccb7ec78de0cfcc19c668216a9965c316f9c16c2"}
+  },
+  "moment_defect": {
+    "central_data": "At each x write phi_N=h+Z with E Z=0, variance v, third central moment mu3 and fourth central moment mu4",
+    "exact_identity": "E[(phi_N^2-3C_N)^2]=F_C(h,v)+R_N(x), where R_N(x)=4h(x)mu3(x)+mu4(x)-3v(x)^2 and F_C is exactly K1529's Gaussian polynomial",
+    "wick_dominant_class": "For fixed 0<=beta<c_*=6(sqrt(3)-1), M_beta consists of finite-Fisher laws satisfying int R_N(x)dx>=-beta C_N V_N with V_N=int v(x)dx=Tr(Lambda S)",
+    "class_coercivity": "Every law in M_beta satisfies E W_N>=(c_*-beta)C_N V_N",
+    "non_gaussian_members": "M_0 includes arbitrary linear mixes of independent centered symmetric standardized coordinates with nonnegative fourth cumulants, including Laplace-type and finite-fourth-moment Student-type laws, and elliptical Gaussian scale mixtures with nonnegative projection cumulants",
+    "smooth_two_well_counterexample": "For Y=aR+epsilon Z with R uniform on {minus one,plus one}, Z standard Gaussian and independent, Var(Y)=a^2+epsilon^2 and kappa4(Y)=-2a^4; choosing Var(Y)=3C gives E[(Y^2-3C)^2]=4a^2 epsilon^2+2epsilon^4 tending to zero",
+    "cutoff_cat_squeeze": "Take the equal mixture of N(plus or minus a/sqrt(lambda_0)e_0,epsilon I) with a^2=3(1-epsilon)C_N. Its pointwise law is the smooth two-well mixture one half N(a,epsilon C_N) plus one half N(-a,epsilon C_N), and E W_N=6epsilon(2-epsilon)C_N^2",
+    "cat_squeeze_cost": "K1533 forces q0>=one quarter sum_(j not zero) omega_j(epsilon+epsilon^(-1)-2)=Theta(N^4/epsilon) as epsilon tends to zero; epsilon=Theta(N^-2) makes the interaction O(N^2) but the free cost Theta(N^6)",
+    "scope_guard": "Mean and covariance alone cannot extend K1529. Thin bimodal, platykurtic or sufficiently skew likelihoods lie outside a fixed M_beta and remain the live endpoint-capacity route"
+  },
+  "decision": {
+    "exact_nongaussian_moment_identity_proved": true,
+    "material_nongaussian_class_identified": true,
+    "variance_only_wick_coercivity_false": true,
+    "cat_squeeze_order_N2_trial_exists": false,
+    "all_nongaussian_states_classified": false,
+    "protected_status_change": false
+  }
+}

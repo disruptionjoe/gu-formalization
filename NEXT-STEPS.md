@@ -7,6 +7,20 @@ updated_at: "2026-10-08"
 
 # Next Steps For Contributors
 
+> **2026-10-08 K1533--K1537 WICK-DOMINANT NON-GAUSSIAN BOUNDARY.** Gaussian
+> densities sharply minimize weighted relative Fisher information at fixed
+> mean and covariance, but a general Wick expectation contains the exact
+> defect `4h mu_3+mu_4-3v^2`. Every fixed nonnegative-beta class whose integrated defect cannot
+> cancel all of K1529's coercivity retains a `Theta_g(N^4)` bottom by the
+> ultraviolet-shell argument; this includes broad symmetric positive-kurtosis
+> linear mixes and Gaussian scale mixtures. A smooth two-well law proves that
+> covariance alone is insufficient, while its exact cutoff cat/squeeze
+> realization still costs `Theta_g(N^4)`. Next determine the weighted capacity
+> of `{W_N<=Theta(N^2)}`: certify an `O(N^2)` smooth endpoint bump, or prove a
+> superquadratic small-ball/capacity lower bound. Do not promote the scoped
+> class theorem to all non-Gaussian states or the true ground-energy
+> asymptotic.
+
 > **2026-10-08 K1528--K1532 ALL-GAUSSIAN VARIATIONAL BOUNDARY.** Every
 > normalized finite-cutoff Gaussian Q-space wavefunction with arbitrary mean,
 > positive covariance and real linear-quadratic phase has an exact matrix free

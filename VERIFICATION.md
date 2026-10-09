@@ -7,6 +7,23 @@ updated_at: "2026-10-08"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1533--K1537 Wick-dominant non-Gaussian boundary (2026-10-08)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A non-Gaussian density can lower the free form below the Gaussian with the same mean and covariance | K1533 score identities and matrix regression | false: the Gaussian uniquely attains the sharp Fisher/covariance lower bound, up to constant phase |
+| Mean and covariance alone control the non-Gaussian Wick square | K1534 exact central-moment identity and smooth two-well law | false: the defect `4h mu_3+mu_4-3v^2` can cancel Gaussian coercivity |
+| No materially non-Gaussian class inherits the shell obstruction | K1534--K1535 defect budget and noncommutative shell factorization | false: every fixed `M_beta` with `0<=beta<c_*`, including broad positive-kurtosis mixes and Gaussian scale mixtures, pays `Omega_g(N^4)` |
+| The explicit cat/squeeze family can reduce total energy to `O(N^2)` | K1534 exact interaction and Fisher cost | false: interaction narrowing forces `Theta(N^4/epsilon)` free cost and the family optimizes only at `Theta_g(N^4)` |
+| The scoped theorem determines the unrestricted ground-energy scale | K1536 endpoint-capacity audit | not established: thin bimodal/platykurtic or skew laws remain open and require a sharp endpoint small-ball/capacity theorem |
+| The advance closes GU physical admission | K1537 248-row bridge census | 169 satisfied, ten conditional, 65 excluded and four missing |
+
+The five producers pass `159/159` controls and five hostile probes reject
+`79/79` mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
+`0/7`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
+
 ## K1528--K1532 all-Gaussian variational boundary (2026-10-08)
 
 | Claim | Evidence | Honest grade |

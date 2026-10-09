@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1535",
+  "title": "Low-Wick Fisher coercivity on the ultraviolet shell",
+  "pinned_inputs": {
+    "k1530": {"path": "lab/process/k1530-matrix-ultraviolet-shell-cost.json", "sha256": "1777c592b4a8b2b82fa80da71cd8b6b469570587c9b2ee2836490550a6a94504"},
+    "k1533": {"path": "lab/process/k1533-relative-fisher-covariance-extremality.json", "sha256": "19ca4ef5d62a12111a2ebd678f1b7d7e8b82e2b0a0ee726852f5c6ae27d713cf"},
+    "k1534": {"path": "lab/process/k1534-nongaussian-wick-moment-defect.json", "sha256": "bdaced8b3721438112c7a3eb8e65e06946a20526fd8b240feacf0afa06256053"}
+  },
+  "shell_coercivity": {
+    "shell_constants": "Let P_N be K1530's fixed-ratio shell, Tr(P_N Lambda)>=kappa C_N, and P_N Lambda^2 Omega^(-1)P_N<=a_N P_N Lambda with a_N<=L N^(-2)",
+    "low_wick_to_variance": "For 0<=beta<c_*, nu in M_beta and 0<eta<kappa, E_nu W_N<=(c_*-beta)eta C_N^2 implies V_N=Tr(Lambda S)<=eta C_N",
+    "shell_deficit": "delta_N=Tr[P_N Lambda(I-S)]>=(kappa-eta)C_N",
+    "frobenius_bound": "K1530's order-preserving factorization gives delta_N^2<=Tr[Omega(S+S^(-1)-2I)] Tr[P_N Lambda^2 Omega^(-1)P_N S]",
+    "dual_bound": "The second factor is at most a_N Tr(P_N Lambda S)<=a_N eta C_N",
+    "fisher_consequence": "K1533 therefore gives I_Omega(nu|mu)>=(kappa-eta)^2 C_N/(a_N eta), including arbitrary non-Gaussian densities and phases in M_beta",
+    "midpoint": "At eta=kappa/2, q0[psi]>=kappa C_N/(8a_N)=Omega(N^4)",
+    "scope_guard": "The theorem requires the integrated moment-defect budget defining M_beta; the smooth two-well counterexample proves that covariance and Fisher extremality alone do not supply it"
+  },
+  "decision": {
+    "low_wick_forces_high_fisher_in_M_beta": true,
+    "noncommutative_shell_order_preserved": true,
+    "stationarity_or_independent_modes_required": false,
+    "unrestricted_nongaussian_lower_bound_proved": false,
+    "protected_status_change": false
+  }
+}

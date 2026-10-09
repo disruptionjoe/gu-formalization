@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1537",
+  "title": "Wick-dominant non-Gaussian variational-boundary admission replay",
+  "pinned_inputs": {
+    "k1533": {"path": "lab/process/k1533-relative-fisher-covariance-extremality.json", "sha256": "19ca4ef5d62a12111a2ebd678f1b7d7e8b82e2b0a0ee726852f5c6ae27d713cf"},
+    "k1534": {"path": "lab/process/k1534-nongaussian-wick-moment-defect.json", "sha256": "bdaced8b3721438112c7a3eb8e65e06946a20526fd8b240feacf0afa06256053"},
+    "k1535": {"path": "lab/process/k1535-low-wick-fisher-shell-coercivity.json", "sha256": "b759b068fb0ce17fafc39dcfef9c6e1a3e38389c19b6df4c6889e34d580d3009"},
+    "k1536": {"path": "lab/process/k1536-wick-dominant-nongaussian-variational-scale.json", "sha256": "5f5b640264b73ba5dc3fe34dd77f4acb5a0a98a11acfed9bbff7b5e3d6fa1da3"}
+  },
+  "bridge_census": {
+    "row_count": 248,
+    "satisfied_count": 169,
+    "conditional_count": 10,
+    "excluded_count": 65,
+    "missing_count": 4,
+    "new_satisfied_rows": [
+      "Gaussian densities uniquely minimize weighted relative Fisher information at fixed mean and covariance",
+      "arbitrary complex phase cannot lower the fixed-density free form",
+      "the exact non-Gaussian Wick defect is the integrated skewness and fourth-cumulant remainder",
+      "a broad positive-kurtosis and Gaussian-scale-mixture class obeys the Gaussian Wick coercivity",
+      "a smooth two-well law proves that no variance-only non-Gaussian extension is valid",
+      "the explicit cat/squeeze family lowers interaction but cannot reach order N^2 total energy",
+      "the ultraviolet-shell Fisher argument gives a Theta(N^4) bottom for every fixed nonnegative-beta moment-defect class M_beta",
+      "an order-N^2 trial is reduced to a sharp endpoint small-ball and weighted boundary-capacity problem"
+    ],
+    "protected_missing_rows": [
+      "source-selected action",
+      "source-owned positive interacting physical state space",
+      "source-owned observed export",
+      "empirical prediction or confirmation bridge"
+    ]
+  },
+  "protected_state": {
+    "source_claims": "SC-ACT-01/02/06 remain ASSERTS; SC-META-53 remains UNCERTAIN",
+    "physics_ledger": "33 SAME / 22 DIFFERS / 31 NEEDS / 2 OVER-DETERMINED; LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS",
+    "candidate_counts": "K1145 and K1150 remain 0/7",
+    "untouched_surfaces": ["lab/sources/source-claim-register.yaml", "lab/process/conditional-physics-ledger-v0.263.json", "canon/", "papers/"],
+    "public_posture_change": false
+  },
+  "decision": {
+    "conditional_mathematical_advance": true,
+    "material_nongaussian_class_classified": true,
+    "all_nongaussian_states_classified": false,
+    "order_N2_trial_constructed": false,
+    "source_owned_gu_hamiltonian": false,
+    "matching_ground_energy_asymptotic": false,
+    "prediction_or_confirmation": false,
+    "protected_status_change": false
+  }
+}

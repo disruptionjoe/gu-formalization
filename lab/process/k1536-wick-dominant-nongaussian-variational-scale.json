@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1536",
+  "title": "Wick-dominant non-Gaussian variational scale and endpoint-capacity boundary",
+  "pinned_inputs": {
+    "k1519": {"path": "lab/process/k1519-quadratic-kinetic-localization-lower-bound.json", "sha256": "502c594494366e6943879ec709af999a40141f4432d9b5f4341bffb2394a9858"},
+    "k1534": {"path": "lab/process/k1534-nongaussian-wick-moment-defect.json", "sha256": "bdaced8b3721438112c7a3eb8e65e06946a20526fd8b240feacf0afa06256053"},
+    "k1535": {"path": "lab/process/k1535-low-wick-fisher-shell-coercivity.json", "sha256": "b759b068fb0ce17fafc39dcfef9c6e1a3e38389c19b6df4c6889e34d580d3009"},
+    "k1471": {"path": "lab/process/k1471-finite-cutoff-interacting-brst-composition.json", "sha256": "abac4797efb8dc9b2c66024a34196084abd7b7a07f4b483fb3db6a8c4099bcb1"}
+  },
+  "variational_boundary": {
+    "class_lower": "For every fixed 0<=beta<c_* and normalized psi with density in M_beta, q0[psi]+g E W_N>=min{kappa C_N/(8a_N),g(c_*-beta)kappa C_N^2/2}=Omega_g(N^4)",
+    "class_upper": "The vacuum lies in M_0 and has energy 6gC_N^2=O(N^4), so the M_beta variational bottom is Theta_g(N^4)",
+    "material_scope": "The result includes non-Gaussian linear mixes of symmetric independent positive-kurtosis coordinates, elliptical Gaussian scale mixtures and arbitrary phases; it is strictly broader than every Gaussian likelihood classified by K1531",
+    "cat_squeeze_boundary": "K1534's exact smooth cat/squeeze family lies outside fixed M_beta as epsilon tends to zero, but its interaction 6g epsilon(2-epsilon)C_N^2 and free lower bound Theta(N^4/epsilon) optimize only at Theta_g(N^4), never N^2",
+    "endpoint_necessity": "If a normalized trial has Rayleigh quotient at most K N^2, Markov gives at least one half of its mass on B_N={W_N<=2KN^2/g}; binary entropy plus Gross log-Sobolev then requires -log mu(B_N)=O(N^2)",
+    "endpoint_candidate": "For psi_(N,L)=chi(W_N/L)/||chi(W_N/L)|| with chi supported in [0,2] and equal to one on [0,1], the potential is at most 2gL and q0=L^(-2)E[chi'(W_N/L)^2 Gamma_Omega(W_N)]/E[chi(W_N/L)^2]",
+    "carré_du_champ": "Gamma_Omega(W_N)=8||Pi_N[(phi_N^2-3C_N)phi_N]||_2^2 in the exact real cutoff normalization, where Pi_N is the full cutoff projector and is distinct from the fixed-ratio shell P_N",
+    "remaining_gate": "At L=Theta(N^2), K1518 gives only the necessary lower exponent -log mu(B_N)>=cN^2; an O(N^2) trial requires a matching endpoint capacity and an O(N^2) weighted boundary quotient, while any superquadratic endpoint exponent excludes it",
+    "brst_transfer": "Tensoring a classified trial with a harmonic BRST vector preserves only the scoped Rayleigh statement; no continuum interacting charge, physical cohomology or source-owned GU state space follows",
+    "scope_guard": "The unrestricted ground energy still has only K1519's Omega(N^2) lower boundary and the existing nonmatching upper descent; no unrestricted N^4 theorem or O(N^2) trial is proved"
+  },
+  "decision": {
+    "wick_dominant_nongaussian_scale": "N^4",
+    "cat_squeeze_order_N2_escape": false,
+    "endpoint_capacity_gate_identified": true,
+    "unrestricted_ground_energy_asymptotic_proved": false,
+    "order_N2_trial_constructed": false,
+    "restricted_brst_transfer": true,
+    "protected_status_change": false
+  }
+}
