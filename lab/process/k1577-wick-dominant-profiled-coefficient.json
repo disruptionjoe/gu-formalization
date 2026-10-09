@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1577",
+  "title": "The stationary Wick-dominant non-Gaussian class has the profiled Gaussian coefficient and rigid minimizers",
+  "pinned_inputs": {
+    "k1572": {"path": "lab/process/k1572-finite-cutoff-profiled-gaussian-minimizer.json", "sha256": "dcdce3de0f59d4f41985e81f575774d499e4a646e8aabde771aeefd2b125db4b"},
+    "k1576": {"path": "lab/process/k1576-wick-dominant-stationary-reduction.json", "sha256": "c09cefd5c71e3d4ade80168447d46c1211bb1d9abb033f1bed6aef4cdd0fee30"}
+  },
+  "coefficient_theorem": {
+    "finite_cutoff_identity": "The infimum over T_N^+ equals the exact stationary diagonal Gaussian infimum at every cutoff because K1576 gives the lower reduction and Gaussian states supply equality.",
+    "coefficient_limit": "K1572 therefore implies inf_(psi in T_N^+) E_N[psi]/N^4 -> h_g^prof for every fixed positive coupling g.",
+    "coupling_asymptotics": "The class coefficient inherits K1571: g log(1/kappa_g)->1/(12pi), (6gc_C^2-h_g^prof)/kappa_g^2->pi/16, and h_g^prof=4sqrt(24c_Cg)-4/c_C-c_Omega/2+o(1) at strong coupling.",
+    "rigidity": "At finite cutoff, equality requires equality in both K1533 and the defect inequality: up to constant phase the density is the unique K1572 Gaussian minimizer and the integrated defect vanishes. Non-Gaussian members can approach only by closing both nonnegative gaps.",
+    "advance": "This is a matching leading coefficient over a genuinely non-Gaussian density class, stronger than a Gaussian upper trial but still not the unrestricted ground-energy coefficient.",
+    "scope_guard": "No bounded-error recentering, unrestricted ratio convergence, localization, compactness, Mosco recovery, continuum interacting BRST operator or source-owned Hamiltonian follows."
+  },
+  "decision": {
+    "finite_cutoff_class_infimum_identified": true,
+    "matching_class_coefficient_proved": true,
+    "minimizer_rigidity_proved": true,
+    "unrestricted_ground_energy_ratio_convergence": false,
+    "bounded_error_recentering": false,
+    "protected_status_change": false
+  }
+}

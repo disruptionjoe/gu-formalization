@@ -7,6 +7,21 @@ updated_at: "2026-10-09"
 
 # Next Steps For Contributors
 
+> **2026-10-09 K1576--K1580 WICK-DOMINANT COEFFICIENT AND FLAT-CONNECTION
+> BOUNDARY.** The exact profiled coefficient now holds over every
+> translation-invariant finite-Fisher density whose integrated non-Gaussian
+> Wick defect is nonnegative. Fixed-moment Fisher extremality reduces each
+> state to its stationary diagonal Gaussian, so the finite-cutoff infima agree,
+> the coefficient is `h_g^prof`, and equality is Gaussian-rigid. This is a
+> materially non-Gaussian class theorem, not an unrestricted result. Next
+> control negative Wick defect or remove stationarity, then seek bounded-error
+> recentering. On the PDE arc, a static flat connection makes raw `B_A`
+> nonintegrable while its background-adapted covariant charge hierarchy is
+> exactly conserved; generic flat holonomy is not periodically gauge
+> removable. Next split harmonic holonomy from the nonlinear oscillatory
+> remainder and prove integrability or cancellation there. Do not claim a
+> global positive radius, completed flow or source-owned GU Hamiltonian.
+
 > **2026-10-09 K1571--K1575 PROFILED COEFFICIENT ASYMPTOTICS AND
 > ANALYTIC-RADIUS BUDGET.** The stationary diagonal Gaussian coefficient gain
 > is exponentially small at weak coupling and grows on a square-root scale at

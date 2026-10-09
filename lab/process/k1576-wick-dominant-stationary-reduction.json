@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1576",
+  "title": "Every stationary Wick-dominant finite-Fisher state is bounded below by its moment-matched Gaussian",
+  "pinned_inputs": {
+    "k1533": {"path": "lab/process/k1533-relative-fisher-covariance-extremality.json", "sha256": "19ca4ef5d62a12111a2ebd678f1b7d7e8b82e2b0a0ee726852f5c6ae27d713cf"},
+    "k1534": {"path": "lab/process/k1534-nongaussian-wick-moment-defect.json", "sha256": "bdaced8b3721438112c7a3eb8e65e06946a20526fd8b240feacf0afa06256053"}
+  },
+  "stationary_reduction": {
+    "admitted_class": "At cutoff N, let T_N^+ contain translation-invariant finite-Fisher wavefunctions whose spatial mean h is constant, whose covariance S commutes with torus translations, and whose integrated non-Gaussian Wick defect int[4h mu3(x)+mu4(x)-3v(x)^2]dx is nonnegative.",
+    "material_nongaussian_members": "The class contains non-Gaussian stationary laws with symmetric centered fluctuations and nonnegative fourth cumulant, including translation-invariant linear images of independent symmetric positive-kurtosis coordinates and stationary Gaussian scale mixtures with finite Fisher information.",
+    "free_reduction": "K1533 gives q0[psi]>=(1/4){h^T Omega h+Tr[Omega(S+S^(-1)-2I)]}; equality requires the moment-matched Gaussian amplitude and a constant phase.",
+    "interaction_reduction": "K1534 gives E W_N=E_Gauss W_N+int[4h mu3+mu4-3v^2], so the admitted defect sign makes the interaction no smaller than that of the same-mean, same-covariance Gaussian.",
+    "stationary_diagonalization": "Translation invariance makes the covariance Fourier diagonal (with the real-mode conjugacy convention) and the mean a zero-mode constant, so the moment-matched Gaussian lies exactly in K1572's stationary diagonal class.",
+    "finite_cutoff_consequence": "For every psi in T_N^+, its Rayleigh quotient is at least the quotient of its moment-matched stationary diagonal Gaussian. Since every stationary diagonal Gaussian has zero defect and belongs to T_N^+, the two finite-cutoff variational infima are equal.",
+    "scope_guard": "The theorem does not cover nonstationary laws, negative integrated defect, thin bimodal likelihoods, arbitrary negative fourth cumulant, or an unrestricted non-Gaussian ground state."
+  },
+  "decision": {
+    "all_density_fixed_moment_reduction_used": true,
+    "wick_defect_sign_is_load_bearing": true,
+    "stationary_diagonal_gaussian_infimum_matches_class": true,
+    "material_nongaussian_class_included": true,
+    "unrestricted_nongaussian_lower_bound": false,
+    "protected_status_change": false
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1579",
+  "title": "Background-adapted covariant energy removes static flat-connection radius expenditure exactly",
+  "pinned_inputs": {
+    "k1578": {"path": "lab/process/k1578-flat-connection-radius-budget-obstruction.json", "sha256": "b77ca4417c193ff9e12ee983eacbbee9a119cfb12c75d4e289b91bb4cb61e323"}
+  },
+  "covariant_cancellation": {
+    "operator": "For fixed constant a define D_a=grad-i e a and H_a[phi]=(1/2)int(|partial_t phi|^2+|D_a phi|^2+m^2|phi|^2).",
+    "fourier_diagonalization": "On the torus, D_a sends Fourier mode k to i(k-ea); the mode frequency is omega_k(a)=sqrt(|k-ea|^2+m^2). Every mode solves an uncoupled oscillator and H_a is exactly conserved.",
+    "charge_hierarchy": "The global charge generator Q commutes with the fixed covariant operator. Hence the same conserved identity holds for Q^n phi at every charge tier, and every positive charge-analytic sum of the adapted tier energies is constant on its interval of finiteness.",
+    "radius_consequence": "The static flat mode consumes zero analytic radius in the background-adapted hierarchy even when generic holonomy prevents a periodic gauge removal. The |e|||A||_infinity contribution in raw B_A is therefore a Cauchy/absolute-value artifact on this sector.",
+    "next_required_structure": "A global nonlinear estimate must split harmonic flat connection from curvature-bearing and time-dependent modes, then prove integrability or cancellation only for the remainder while controlling the evolving holonomy separately.",
+    "scope_guard": "The exact cancellation is proved only for a fixed static flat background and linear charged matter. It does not control time-dependent harmonic electric modes, nonlinear current feedback, the radial term, or the full interacting flow."
+  },
+  "decision": {
+    "static_flat_covariant_energy_conserved": true,
+    "charge_tier_commutation_proved": true,
+    "static_flat_radius_expenditure_necessary": false,
+    "nonlinear_harmonic_split_closed": false,
+    "global_positive_analytic_radius": false,
+    "protected_status_change": false
+  }
+}

@@ -7,6 +7,25 @@ updated_at: "2026-10-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1576--K1580 non-Gaussian coefficient and flat-connection boundary (2026-10-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The profiled coefficient is confined to Gaussian densities | K1576 fixed-moment Fisher reduction plus exact Wick defect | false for the admitted class: every stationary nonnegative-defect finite-Fisher density is bounded below by its moment-matched Gaussian |
+| The enlarged class has only a one-sided Gaussian upper coefficient | K1577 finite-cutoff infimum identity and K1572 limit | false: its exact coefficient is `h_g^prof` and equality is Gaussian-rigid |
+| The class theorem gives the unrestricted ground-energy coefficient | K1576--K1577 scope audit | not established: negative-defect and nonstationary densities remain open |
+| Energy conservation can force raw `B_A` to be time-integrable | K1578 static flat connection | false: `B_A=|e||a|` while curvature energy is zero |
+| Every constant flat connection is a periodic pure gauge | K1578 torus holonomy condition | false: removal requires `e a_jL_j` in `2pi Z` for every period |
+| Divergent raw radius budget implies physical growth | K1579 covariant Fourier energy | false on the static flat sector: every charge tier and its analytic sum are conserved |
+| The flat-sector cancellation completes the nonlinear global flow | K1579 scope audit | not established: evolving holonomy, curvature modes, current feedback and the radial term remain open |
+| The advance closes GU physical admission | K1580 295-row bridge census | 216 satisfied, ten conditional, 65 excluded and four missing |
+
+The five producers pass `99/99` controls and five hostile probes reject
+`73/73` mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
+`0/7`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
+
 ## K1571--K1575 profiled asymptotics and analytic-radius budget (2026-10-09)
 
 | Claim | Evidence | Honest grade |

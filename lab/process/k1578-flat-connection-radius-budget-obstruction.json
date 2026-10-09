@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1578",
+  "title": "Static flat connections make the raw moving-radius budget diverge despite exact finite-energy dynamics",
+  "pinned_inputs": {
+    "k1573": {"path": "lab/process/k1573-moving-radius-current-absorption.json", "sha256": "a76dfb050607516076b7d5ddbee2f14390b21169bf29e765a46da163a6387da9"}
+  },
+  "flat_connection_test": {
+    "background": "On a periodic three-torus in temporal gauge take A(t,x)=a with nonzero constant vector a and E=-partial_t A=0. Then div A=0 and the K1573 coefficient is B_A=|e||a|.",
+    "budget_divergence": "For every nonzero a, int_0^T B_A dt=|e||a|T and int_0^infinity B_A dt=infinity. The transparent K1573 choice rho'=-(C_m/4)B_A therefore spends every finite initial radius in finite time.",
+    "finite_energy_control": "The background itself has zero Maxwell curvature and finite (indeed zero curvature) energy. Charged linear matter on it has a positive conserved covariant energy, so no physical growth or singularity is forced by the divergent raw budget.",
+    "global_gauge_boundary": "A constant a is removable by a periodic U(1) gauge exactly when its holonomies are integral: e a_j L_j belongs to 2pi Z for every torus period L_j. Generic a is a genuine flat holonomy and cannot be dismissed as a periodic pure gauge.",
+    "consequence": "Uniform Sobolev control or conservation alone cannot prove B_A in L1_t. The K1573 radius budget is sufficient but not necessary and is structurally non-sharp on the harmonic flat-connection sector.",
+    "scope_guard": "This counterexample does not disprove local moving-radius control, exclude an integrable oscillatory remainder, or settle the nonlinear Maxwell-scalar flow."
+  },
+  "decision": {
+    "raw_B_A_global_integrability_from_energy_excluded": true,
+    "finite_radius_survives_raw_budget_for_all_time": false,
+    "generic_flat_holonomy_periodically_gauge_removable": false,
+    "moving_radius_local_estimate_remains_valid": true,
+    "global_full_pde_flow_constructed": false,
+    "protected_status_change": false
+  }
+}

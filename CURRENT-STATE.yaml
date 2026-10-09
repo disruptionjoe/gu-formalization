@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 6f189c52812ae52b321f6803e47de28fb0ae3943
+revision_basis: c6bbfea8b4d90a32e7113d92298b78b80a61735f
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1576--K1580 extend the exact profiled coefficient beyond Gaussian
+    densities while preserving the unrestricted boundary. For every
+    translation-invariant finite-Fisher state whose integrated Wick defect
+    `int(4h mu_3+mu_4-3v^2)` is nonnegative, K1533's sharp fixed-moment Fisher
+    bound and K1534's exact defect identity reduce the full quotient to its
+    moment-matched stationary diagonal Gaussian. Hence the finite-cutoff
+    infimum over this genuinely non-Gaussian class equals K1572's Gaussian
+    infimum, and divided by `N^4` it converges to `h_g^prof`; equality is rigid
+    up to constant phase. Negative-defect and nonstationary states remain
+    open, so no unrestricted coefficient or bounded-error recentering follows.
+    On the PDE arc, a nonzero static flat connection has
+    `B_A=|e||a|`, so its raw radius budget diverges linearly even though the
+    exact background-adapted covariant energy and every charge tier are
+    conserved. Generic holonomy is not periodically gauge removable. Thus
+    K1573's raw budget is sufficient but not necessary; global work must split
+    harmonic holonomy from curvature-bearing and time-dependent modes. The
+    295-row census is 216 satisfied, ten conditional, 65 excluded and four
+    missing; protected source, ledger, canon and public states do not move.
+
     K1571--K1575 finish the stationary diagonal Gaussian coefficient problem
     at leading order without promoting it to the unrestricted theory. At weak
     coupling the profiled parameter satisfies
@@ -14916,6 +14935,17 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1576--K1580 identify the exact profiled coefficient for the
+  translation-invariant finite-Fisher class with nonnegative integrated Wick
+  defect, and prove Gaussian rigidity inside that class. Can the remaining
+  negative-defect sector be shown to pay a compensating Fisher cost, yielding
+  an unrestricted coefficient or bounded-error recentering, without assuming
+  stationarity? Independently, the static flat-connection control proves that
+  raw `B_A` integrability is not necessary. Can one split harmonic holonomy
+  from curvature-bearing/time-dependent modes in the nonlinear hierarchy and
+  keep a positive analytic radius for the remainder? The source-owned
+  action/measure/Hamiltonian tuple remains a separate gate.
+
   K1571--K1575 prove the exact leading coefficient and minimizer profile only
   inside the stationary diagonal Gaussian class. Can one now prove a matching
   coefficient over unrestricted non-Gaussian states, or identify `E_N` to
@@ -17415,6 +17445,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1576--K1580's finite cutoff, translation invariance, finite Fisher
+  information and nonnegative integrated Wick-defect hypothesis. Control the
+  negative-defect sector or remove stationarity before claiming an unrestricted
+  coefficient; obtain an `O(1)` expansion before claiming bounded-error
+  recentering, localization, compactness or Mosco recovery. Separately,
+  preserve the static-flat stress test and background-adapted conservation:
+  construct a nonlinear harmonic/oscillatory split, control evolving holonomy,
+  and prove integrability or structural cancellation for the remainder before
+  claiming a positive global radius or completed flow. Supply the source-owned
+  selector tuple only from actual action, carrier and observation data.
+
   Preserve K1571--K1575's normalized torus, cube cutoff, stationary diagonal
   Gaussian class, finite-mass two-critical-point classification and explicit
   weak/strong coupling asymptotics. Prove a matching unrestricted

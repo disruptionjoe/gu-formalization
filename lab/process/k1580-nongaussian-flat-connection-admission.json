@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1580",
+  "title": "Wick-dominant coefficient and flat-connection protected admission replay",
+  "pinned_inputs": {
+    "k1576": {"path": "lab/process/k1576-wick-dominant-stationary-reduction.json", "sha256": "c09cefd5c71e3d4ade80168447d46c1211bb1d9abb033f1bed6aef4cdd0fee30"},
+    "k1577": {"path": "lab/process/k1577-wick-dominant-profiled-coefficient.json", "sha256": "7c63f47ee2d29eb2295c50aafa37e1085dec0d3f4d8b3676b56c90348c099e27"},
+    "k1578": {"path": "lab/process/k1578-flat-connection-radius-budget-obstruction.json", "sha256": "b77ca4417c193ff9e12ee983eacbbee9a119cfb12c75d4e289b91bb4cb61e323"},
+    "k1579": {"path": "lab/process/k1579-flat-connection-covariant-energy-cancellation.json", "sha256": "d1e970bf11cce046a027968589014b69bda18443a30fb2f04c3f1b813fd38c1a"}
+  },
+  "bridge_census": {
+    "row_count": 295,
+    "satisfied_count": 216,
+    "conditional_count": 10,
+    "excluded_count": 65,
+    "missing_count": 4,
+    "new_satisfied_rows": [
+      "K1576 stationary Wick-dominant all-density Gaussian reduction",
+      "K1577 matching profiled coefficient and minimizer rigidity in that class",
+      "K1578 static-flat obstruction to raw B_A integrability",
+      "K1579 background-adapted covariant-energy cancellation",
+      "K1580 protected admission replay"
+    ],
+    "protected_missing_rows": [
+      "source-selected action/measure/Hamiltonian",
+      "interacting positive physical quotient",
+      "observed carrier/intertwiner",
+      "held-out prediction or confirmation"
+    ]
+  },
+  "protected_state": {
+    "source_claims": "SC-ACT-01/02/06 remain ASSERTS; SC-META-53 remains UNCERTAIN",
+    "physics_ledger": "33 SAME / 22 DIFFERS / 31 NEEDS / 2 OVER-DETERMINED",
+    "candidate_counts": "K1145 and K1150 remain 0/7",
+    "canon_change": false,
+    "paper_change": false,
+    "prediction_or_confirmation": false,
+    "public_posture_change": false
+  },
+  "decision": {
+    "conditional_mathematical_advance": true,
+    "wick_dominant_nongaussian_class_coefficient_proved": true,
+    "class_minimizer_rigidity_proved": true,
+    "raw_B_A_global_necessity_excluded": true,
+    "static_flat_covariant_cancellation_proved": true,
+    "unrestricted_ground_energy_ratio_convergence": false,
+    "ground_energy_to_bounded_error": false,
+    "global_positive_analytic_radius": false,
+    "nonlinear_harmonic_split_closed": false,
+    "continuum_interacting_brst_operator": false,
+    "source_owned_gu_hamiltonian": false,
+    "protected_status_change": false
+  }
+}
