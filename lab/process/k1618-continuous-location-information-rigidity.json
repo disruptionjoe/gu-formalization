@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1618",
+  "status": "active_research",
+  "title": "Continuous arbitrary-mode location rigidity under subextensive channel information",
+  "pinned_inputs": {
+    "k1616": {"path": "lab/process/k1616-common-covariance-mmse-control.json", "sha256": "a702c9cb5c01776af4a6d8c04585a2d8eb2f2dc3b626845ef9b9255d38b46730"}
+  },
+  "information_rigidity": {
+    "class": "Any square-integrable continuous, discrete or mixed location law M_N over one common stationary diagonal covariance S_N in a fixed relative K1572 profile band.",
+    "condition": "I(M_N;M_N+G_N)=o(N^3).",
+    "coefficient": "The K1616 gain is o(N^4), while K1572 supplies the component floor, so the class infimum coefficient is h_g^prof.",
+    "capacity_test": "With A_N=S_N^(-1/2)M_N, I(M_N;X_N)<=1/2 log det(I+Cov(A_N)); log det(I+Cov(A_N))=o(N^3) is sufficient.",
+    "advance": "This extends K1596 from an arbitrary zero-mode location law to arbitrary cutoff modes under an explicit information condition.",
+    "scope_guard": "The theorem remains Gaussian and common-covariance scoped; it does not control varying covariances, non-Gaussian components, phases, textures, nonstationarity, or unrestricted states."
+  },
+  "decision": {
+    "continuous_location_laws_admitted": true,
+    "arbitrary_mode_locations_admitted": true,
+    "mutual_information_subextensive_sufficient": true,
+    "capacity_sufficient_condition": true,
+    "non_gaussian_components_controlled": false,
+    "protected_status_change": false
+  }
+}

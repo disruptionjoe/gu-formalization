@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1617",
+  "status": "active_research",
+  "title": "Shannon-entropy rigidity for discrete shared-covariance location mixtures",
+  "pinned_inputs": {
+    "k1616": {"path": "lab/process/k1616-common-covariance-mmse-control.json", "sha256": "a702c9cb5c01776af4a6d8c04585a2d8eb2f2dc3b626845ef9b9255d38b46730"}
+  },
+  "entropy_rigidity": {
+    "data_processing": "For M_N=m_(N,Z_N), I(M_N;X_N)<=I(Z_N;X_N)<=H(p_N).",
+    "energy_floor": "K1572 and K1616 give lambda_N^prof-(Lambda_N/2)H(p_N)<=Q_N(Law(X_N)) with Lambda_N=O_g(N).",
+    "coefficient": "H(p_N)=o(N^3) implies coefficient h_g^prof for the shared-covariance arbitrary-mode translated Gaussian mixture class.",
+    "equal_weights": "For M_N equal weights, H(p_N)=log M_N; every M_N=exp(o(N^3)), including every polynomial critical or supercritical count, is coefficient-rigid.",
+    "comparison": "This crosses K1612's Renyi-half component-count boundary only for one common covariance; it does not improve the heterogeneous-covariance theorem.",
+    "scope_guard": "Shannon entropy does not control label-dependent covariance mixtures, non-Gaussian component shapes, phases, textures, nonstationarity, or unrestricted states."
+  },
+  "decision": {
+    "shannon_subextensive_sufficient": true,
+    "polynomial_component_counts_closed": true,
+    "k1612_heterogeneous_critical_regime_closed": false,
+    "class_coefficient_h_g_prof": true,
+    "unrestricted_leading_coefficient_identified": false,
+    "protected_status_change": false
+  }
+}

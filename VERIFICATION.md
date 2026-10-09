@@ -7,6 +7,24 @@ updated_at: "2026-10-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1616--K1620 information rigidity and endpoint jumps (2026-10-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K1612's Renyi-half count is the intrinsic shared-covariance mixture threshold | K1616 Gaussian-channel MMSE identity | false: the exact missing Fisher information is a weighted MMSE and the energy gain is bounded by `(Lambda_N/2) I(M_N;X_N)` |
+| Polynomially many equal-weight arbitrary-mode location components can cross the profiled coefficient | K1617 Shannon theorem plus K1572 | false for one common covariance: `H(p_N)=log M_N=o(N^3)` covers every fixed polynomial count and retains `h_g^prof` |
+| The location law must be discrete | K1618 mutual-information theorem | false: continuous, asymmetric, correlated and multimodal location laws are admitted when `I(M_N;X_N)=o(N^3)` |
+| K1616--K1618 control label-dependent covariances or non-Gaussian components | scope audit | not established: the common Gaussian additive covariance is load-bearing |
+| Nonzero primitive endpoint jumps can retain K1613's holonomy `L1` budget by cancellation | K1619 exponential-polynomial mean theorem | false in the finite piecewise-BV class after coincident endpoints are merged |
+| K1619 proves electric-field `L1` or a nonlinear source-owned flow | K1619 scope audit | not established: only the primitive holonomy obstruction is proved |
+| The advance closes GU physical admission | K1620 335-row bridge census | 256 satisfied, ten conditional, 65 excluded and four missing |
+
+The five producers pass `91/91` controls and five hostile probes reject
+`43/43` mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
+`0/7`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
+
 ## K1611--K1615 overlap/entropy rigidity and BV primitives (2026-10-09)
 
 | Claim | Evidence | Honest grade |

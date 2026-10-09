@@ -7,6 +7,24 @@ updated_at: "2026-10-09"
 
 # Next Steps For Contributors
 
+> **2026-10-09 K1616--K1620 INFORMATION RIGIDITY AND ENDPOINT-JUMP
+> OBSTRUCTION.** For arbitrary-mode Gaussian location mixtures over one common
+> stationary diagonal covariance, the exact mixing gain is a weighted
+> posterior MMSE, and the energy gain is bounded by
+> `(Lambda_N/2) I(M_N;X_N)`. Discrete
+> Shannon-subextensive and continuous mutual-information-subextensive laws
+> retain coefficient `h_g^prof`; equal-weight families may have
+> `M_N=exp(o(N^3))`, crossing every polynomial critical/supercritical count
+> left open by K1612. Next control label-dependent covariances or leave the
+> Gaussian class through a nonlinear Fisher-defect theorem. On the PDE arc,
+> every nonzero endpoint jump of a compact piecewise-BV primitive produces a
+> nonintegrable `t^-1` holonomy tail, so zero endpoint trace is sharp in that
+> class while first-derivative jumps remain allowed. Next derive the atom-free
+> zero-trace representation and integrable nonlinear remainder from a
+> source-owned domain. Do not claim heterogeneous-covariance control, an
+> unrestricted coefficient, electric-field `L1`, nonlinear scattering, a
+> source-owned flow, or physical admission.
+
 > **2026-10-09 K1611--K1615 OVERLAP/ENTROPY RIGIDITY AND BV PRIMITIVE
 > BUDGET.** In the fixed relative K1572 profile band, Gaussian affinity and
 > score mismatch obey a uniform `x exp(-x)` tradeoff. Every pair contributes

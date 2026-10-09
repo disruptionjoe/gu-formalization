@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1619",
+  "status": "active_research",
+  "title": "Endpoint jumps force a nonintegrable harmonic holonomy tail",
+  "pinned_inputs": {
+    "k1613": "lab/process/k1613-bv-spectral-primitive-budget.json",
+    "k1603": "lab/process/k1603-atomic-resonance-spectral-dispersion.json"
+  },
+  "endpoint_obstruction": {
+    "hypothesis": "A real compactly supported primitive G is W^{2,1} on finitely many intervals, its intervalwise first derivative has bounded variation, and its merged endpoint jumps are J_r at distinct a_r.",
+    "asymptotic": "widehat G(t)=-(it)^(-1)T(t)+O(t^(-2)), where T(t)=sum_r J_r exp(i t a_r).",
+    "mean": "If any J_r is nonzero then T is a nonzero finite exponential polynomial, M(|T|^2)=sum_r|J_r|^2>0, and M(|T|)>=M(|T|^2)/||T||_infinity>0.",
+    "obstruction": "Dyadic-shell averaging gives int_1^infinity|widehat G(t)|dt=infinity for every nonzero merged endpoint-jump vector.",
+    "sharpness": "K1613's zero endpoint trace is sharp in this finite piecewise-BV class; first-derivative jumps remain allowed because they enter at order t^(-2).",
+    "scope_guard": "The result does not derive the spectral representation, electric-field L1, nonlinear remainders, scattering, a physical domain, or a source-owned flow."
+  },
+  "decision": {
+    "nonzero_endpoint_jump_obstructs_holonomy_L1": true,
+    "distinct_jump_cancellation_can_restore_L1": false,
+    "first_derivative_jumps_still_allowed": true,
+    "electric_field_L1_proved": false,
+    "source_owned_flow": false,
+    "protected_status_change": false
+  }
+}

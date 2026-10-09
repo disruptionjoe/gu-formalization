@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1620",
+  "status": "active_research",
+  "title": "Protected admission for information rigidity and endpoint-jump obstruction",
+  "pinned_inputs": {
+    "k1616": {"path": "lab/process/k1616-common-covariance-mmse-control.json", "sha256": "a702c9cb5c01776af4a6d8c04585a2d8eb2f2dc3b626845ef9b9255d38b46730"},
+    "k1617": {"path": "lab/process/k1617-shannon-entropy-mixture-rigidity.json", "sha256": "3272617b8ede9be27486390ef744b7076d5f59f2bb4815cc0d36686d9300783e"},
+    "k1618": {"path": "lab/process/k1618-continuous-location-information-rigidity.json", "sha256": "86e40cd97d36b459b4eea815bb45ad199fd635ca8b258cd028c2c195c5a477f8"},
+    "k1619": {"path": "lab/process/k1619-endpoint-jump-holonomy-obstruction.json", "sha256": "b2aff75a440e9f840a20227d1ff02f15720c01755fdbeeb89a2abde107ddc886"}
+  },
+  "census": {
+    "rows": 335,
+    "satisfied": 256,
+    "conditional": 10,
+    "excluded": 65,
+    "missing": 4,
+    "source_asserts": ["SC-ACT-01", "SC-ACT-02", "SC-ACT-06"],
+    "source_uncertain": ["SC-META-53"],
+    "physics_ledger": {"SAME": 33, "DIFFERS": 22, "NEEDS": 31, "OVER_DETERMINED": 2},
+    "k1145_k1150_scorable_rows": "0/7"
+  },
+  "protected_boundaries": {
+    "source_register_changed": false,
+    "physics_ledger_changed": false,
+    "canon_changed": false,
+    "paper_changed": false,
+    "prediction_or_confirmation_changed": false,
+    "public_posture_changed": false,
+    "unrestricted_coefficient_claimed": false,
+    "source_owned_flow_claimed": false
+  },
+  "next_wakes": [
+    "Prove a valid information inequality for label-dependent covariances or genuinely non-Gaussian/nonstationary component laws.",
+    "Derive the atom-free zero-trace primitive measure and integrable curvature/current/radial remainder from a source-owned nonlinear action and domain.",
+    "Supply the source-owned action/measure/Hamiltonian tuple."
+  ]
+}

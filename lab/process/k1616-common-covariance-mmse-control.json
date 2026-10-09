@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1616",
+  "status": "active_research",
+  "title": "Common-covariance Gaussian missing information is a posterior MMSE",
+  "pinned_inputs": {
+    "k1606": "lab/process/k1606-gaussian-mixture-missing-information.json",
+    "k1572": "lab/process/k1572-finite-cutoff-profiled-gaussian-minimizer.json"
+  },
+  "mmse_control": {
+    "hypothesis": "X_N=M_N+G_N with square-integrable M_N, independent G_N~N(0,S_N), and one common stationary diagonal S_N in a fixed relative K1572 profile band.",
+    "whitening": "A_N=S_N^(-1/2)M_N, B_N=S_N^(-1/2)Omega_N S_N^(-1/2), Lambda_N=||B_N||_op=max_k omega_k/s_(N,k)=O_g(N).",
+    "identity": "D_N=E[(A_N-E[A_N|A_N+Z_N])^T B_N(A_N-E[A_N|A_N+Z_N])] is exactly the K1606 missing Fisher information; the mixture-energy gain is D_N/4.",
+    "i_mmse": "For Y_t=sqrt(t)A_N+Z_N, I(A_N;Y_1)=(1/2)int_0^1 mmse(A_N|Y_t)dt and monotonicity gives mmse(A_N|A_N+Z_N)<=2I(A_N;A_N+Z_N).",
+    "bound": "0<=E Q_N(N(M_N,S_N))-Q_N(Law(X_N))=D_N/4<=(Lambda_N/2)I(M_N;X_N).",
+    "scope_guard": "One common Gaussian covariance is load-bearing. The theorem does not control label-dependent covariances, non-Gaussian component shapes, phases, textures, nonstationarity, or unrestricted states."
+  },
+  "decision": {
+    "missing_information_is_weighted_mmse": true,
+    "mutual_information_bound": true,
+    "separation_required": false,
+    "discrete_label_required": false,
+    "varying_covariance_controlled": false,
+    "unrestricted_state_theorem": false,
+    "protected_status_change": false
+  }
+}
