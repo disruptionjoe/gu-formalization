@@ -1,0 +1,417 @@
+\section{The question and the historical record}
+\label{sec:argument}
+
+Nguyen and Polya's response is dated February 23, 2021. Its stated source
+is Weinstein's video presentation of the 2013 Oxford lecture with 2020
+follow-up material; the authors explicitly treat the proposal as
+pre-quantum classical theory \cite[pp.~1--2]{NP}. The Geometric Unity
+(GU) working draft is dated April 1, 2021 \cite{GU}. The later formulas
+can help evaluate the current mathematical question, but cannot be used
+to accuse the February response of overlooking text not yet released.
+
+The argument of \cite[\S3.1, pp.~5--6]{NP} has three steps.
+First, the authors interpret the proposed pure-trace Shiab contraction
+using an identification
+\[
+ \ad(P)\otimes\mathbb C \simeq
+ \Lambda^\bullet(T^*U)\otimes\mathbb C
+ \simeq \operatorname{End}_{\mathbb C} S(U).
+\]
+Second, they object that the required identification is not supplied on
+the stated real objects. Third, they infer that complexifying the
+connections and gauge group forces either nonunitarity or a Hamiltonian
+unbounded above and below, citing Witten's complex Chern--Simons paper
+\cite{Witten1991}. The introduction, p.~1, presents this as excluding a
+physically sensible quantum theory.
+
+We separate the real-structure question from the energy inference.
+Equal-dimensional real vector spaces certainly admit abstract linear
+isomorphisms; the relevant question is compatibility with the specified
+representations, real structures and operations, rather than dimension
+alone. We grant for this audit that a proposed real identification may
+need correction. Even then, using complexified bundles in an algebraic
+construction does not by itself declare every complex component to be an
+independent real physical field. That declaration requires a real slice,
+action, constraints and gauge transformations. The later GU draft
+explicitly uses degree-dependent factors of $i$ and the real group
+$U(64,64)$ inside complex matrices \cite[pp.~23--24, 42]{GU}.
+An indefinite unitary group, its complexification, and a positive physical
+Hilbert space are three different objects. The draft's notation does not
+identify them.
+
+There are two readings of the last step:
+\begin{enumerate}
+\item \emph{Literal universal reading:} complexifying the gauge group
+alone excludes positive unitary quantum dynamics with energy bounded below.
+\item \emph{Charitable dynamical reading:} the intended propagating gauge
+sector is an ordinary real Yang--Mills theory for the complexified group,
+with an indefinite invariant kinetic form and physical modes in its
+negative directions. Its standard quantization then has a positivity or
+energy problem.
+\end{enumerate}
+The second reading is plausible: the response discusses dynamical
+connections, and \S3.4, p.~8, explicitly invokes GU's promised recovery of
+Yang--Mills equations. It is not a premise written or proved in \S3.1.
+Indeed, the equation actually reproduced in \S2.3, p.~5, involves a Shiab
+contraction of curvature, augmented torsion and a Hodge term; it is not
+an ordinary curvature-square Yang--Mills action. Neither a literal-only
+rebuttal nor silent insertion of a conventional kinetic term settles the
+intended GU question.
+
+\section{The Yang--Mills obstruction with its hypotheses exposed}
+\label{sec:ym}
+
+Let $G$ be a connected Lie group whose real Lie algebra $\mathfrak g$
+has a nondegenerate, $\operatorname{Ad}(G)$-invariant symmetric bilinear
+form $\beta$. On
+$\mathbb R_t\times\mathbb T^d$, $d\geq2$, use the flat metric of signature
+$(-,+,\ldots,+)$, a trivial bundle, real connection components and
+\begin{equation}
+ S_{\YM}=-\frac1{4g^2}\int\beta(F_{\mu\nu},F^{\mu\nu})\,dt\,dx,
+ \qquad g^2>0. \label{eq:ym}
+\end{equation}
+With $E_i=F_{0i}$, the energy and Gauss constraint are
+\begin{align}
+ H&=\frac1{2g^2}\int_{\mathbb T^d}
+ \left(\sum_i\beta(E_i,E_i)+
+ \sum_{i<j}\beta(F_{ij},F_{ij})\right)dx, \label{eq:H}\\
+ D_iE_i&=0. \label{eq:Gauss}
+\end{align}
+Nondegeneracy of $\beta$ allows the usual identification of canonical
+momentum with $g^{-2}\beta(E,\cdot)$. All these assumptions belong to this
+comparator, not to GU by default.
+
+\begin{proposition}[Negative energy survives the ordinary Gauss constraint]
+\label{prop:negative}
+If some $X\in\mathfrak g$ has $\beta(X,X)<0$, the Hamiltonian
+\eqref{eq:H} is unbounded below on smooth Gauss-compatible initial data,
+even after ordinary gauge equivalence. If $\beta$ has both signs, the
+Hamiltonian is also unbounded above.
+\end{proposition}
+\begin{proof}
+Choose a nonzero smooth divergence-free real vector field $u$ on the
+torus and take
+\[
+ A_i=0,\qquad E_i=\lambda X u_i.
+\]
+Then $F_{ij}=0$ and $D_iE_i=\lambda X\partial_i u_i=0$, whereas
+\[
+ H=\frac{\lambda^2\beta(X,X)}{2g^2}
+       \int_{\mathbb T^d}|u|^2dx\longrightarrow-\infty.
+\]
+Gauge transformations preserve $H$ by invariance of $\beta$, so taking
+the gauge quotient cannot remove these values. Using a positive direction
+instead proves the assertion about the upper bound. For a nonconstant
+transverse example one may choose $u_1=\sin x^2$ and $u_i=0$ for $i\ne1$.
+\end{proof}
+
+This is an exact classical result, not a finite-difference instability
+or a proof about an unspecified quantum domain. It demonstrates why the
+negative internal direction is not merely the removable timelike
+polarization of ordinary compact Yang--Mills theory. On a one-color
+abelian subsector, $[X,X]=0$, so the negative sign is already visible in
+an ordinary transverse Maxwell mode.
+
+For example, if a complex Lie algebra carries a nondegenerate complex
+symmetric invariant form $b$, its underlying real vector space admits
+\[
+ \beta_c(X,Y)=\operatorname{Re}\bigl(c\,b(X,Y)\bigr),\qquad c\ne0.
+\]
+It is real nondegenerate: vanishing against both $Y$ and $iY$ forces
+$b(X,Y)=0$ for every $Y$. Moreover,
+$\beta_c(iX,iX)=-\beta_c(X,X)$, so its signature is split. This explains
+the kinetic-sign problem when this form and these real independent fields
+are actually used in \eqref{eq:ym}. It says nothing about a theory with
+a different action or physical reduction.
+
+The usual quantum alternative is equally concrete at the linear level.
+A negative transverse oscillator quantized on positive $L^2(\mathbb R)$
+has
+\[
+ \widehat H=-\tfrac12(\widehat p^{\,2}+\omega^2\widehat q^{\,2}),
+ \qquad \operatorname{spec}(\widehat H)
+ =\{-\omega(n+\tfrac12):n\geq0\}
+\]
+in units $\hbar=1$. It is self-adjoint and generates unitary time
+evolution, but is not bounded below. Exchanging the roles of annihilation
+and creation operators to reverse the ladder gives a negative one-particle
+norm if the same adjoint and canonical commutator are retained. This
+explains the conventional dilemma; it is not a classification of all
+possible contours, representations or constrained quantum theories.
+Witten's introductory comparison makes the corresponding action-dependent
+point \cite[report pp.~2--3]{WittenReport}.
+
+\section{What Witten's construction does and does not say}
+\label{sec:witten}
+
+Witten studies three-dimensional Chern--Simons theory for the
+complexification $G_{\mathbb C}$ of a compact group $G$, not a propagating
+Yang--Mills curvature-square theory. His action pairs a
+complex connection $\mathcal A$ with its complex conjugate in two
+Chern--Simons terms, with couplings $t=k+is$ and
+$\widetilde t=k-is$. In the real-$s$ branch relevant here, $k$ is
+quantized and $s$ is real, with $t,\widetilde t\ne0$ for the displayed
+connection formulas (for example $k=s=1$); the physical reality condition and the
+choice of polarization are part of the construction. No assertion about
+arbitrary complex couplings is needed. The alternative imaginary-$s$
+positive construction is explicit only in genus one with restricted
+parameters; no all-genus positivity assertion from that branch is used.
+
+In canonical quantization on $\Sigma\times\mathbb R$, with $\Sigma$
+a closed oriented surface, the time component of the connection imposes
+flatness. The phase space is a moduli space of flat complex connections,
+not the unconstrained space of transverse Yang--Mills waves. The
+Hamiltonian of this pure theory is a constraint and vanishes on reduced
+physical states. Thus the time evolution of this fixed, source-free
+closed-surface problem is the identity. A zero Hamiltonian is bounded
+below, but this does not imply that the state space is empty or that all
+topological observables are trivial. Boundary terms, puncture/source
+insertions and chosen boundary dynamics require a separate analysis;
+one may not export $H=0$ to those problems or to a propagating theory.
+
+The precise theorem used here concerns a \emph{connection on a Hilbert
+bundle over Teichm\"uller space}, the parameter space of auxiliary complex
+structures on $\Sigma$. The fiber is described as $L^2(\mathcal M,L^k)$,
+where $\mathcal M$ is the compact-group moduli space used in the chosen
+polarization and $L^k$ its quantization line bundle. For real $s$, the
+specified corrected connection $\delta^Q$ is unitary and projectively
+flat, with central curvature of type $(1,1).$ The pairing has the form
+$\int_{\mathcal M} H(\chi,\psi)\,d\mu$, where $H$ incorporates the
+regularized Laplacian determinant; conjugation by $H^{1/2}$ identifies it
+with the ordinary positive $L^2$ pairing. This is unitary
+\emph{parameter-space transport}, not a theorem identifying a
+four-dimensional physical-time Hamiltonian. Projective flatness also
+retains a scalar-phase issue; it is not literal flatness.
+
+There is a further rigor qualification. Witten gives heuristic reasoning
+for the quantum correction to the connection, then proves the stated
+properties of the selected formulas. Moduli-space singularities,
+noncompactness and the definition of general functional integrals are
+not thereby eliminated. In particular, the identification of the reduced
+state space uses the dense stable locus and the corresponding
+Narasimhan--Seshadri description; it is not an unrestricted assertion
+about every singular stratum. The paper supplies a mathematical construction
+and a substantive counterexample to the group-only slogan in its stated
+quantization setting; it is not a complete axiomatic construction of
+interacting QFT for every complex group. The positive pairing and the
+closed-surface zero-Hamiltonian argument are separate ingredients.
+Neither should be replaced by the bare word ``unitary.''
+
+All detailed formula locators in this paragraph refer to the
+44-page IASSNS-HEP-89/65 report: \S3, p.~8 (closed surface);
+\S4, pp.~19--21 (correction and theorem); \S4.1, pp.~22--23,
+Eqs.~(4.12) and (4.16) (pairings) \cite{WittenReport}.
+The journal bibliographic identity is verified, but its typesetting was
+not independently inspected; no journal page is used as a formula locator.
+
+\section{Testing both transfers against GU's displayed action}
+\label{sec:gu}
+
+\subsection{The relevant source-native objects}
+
+The April draft uses the fourteen-dimensional metric bundle
+$Y=\operatorname{Met}(X)$ over a four-dimensional base, a metric-dependent
+connection, an auxiliary gauge field $\varepsilon$, and an
+adjoint-valued one-form $T$ measuring displacement of one connection from
+a gauge-rotated reference connection $B$. This $T$ is not assumed to be
+ordinary spacetime torsion. The source's $(7,7)$ ambient metric and
+$U(64,64)$ spinor construction are its declared setting; we do not derive
+the ambient signature here or identify its multiple time directions with
+an observed Lorentzian Cauchy problem.
+
+Write $\mathcal S$ for the Shiab contraction. The first bosonic action
+is built from the pairing of $T$ with the Shiab image of a
+connection-path curvature combination, together with a Hodge quadratic
+term. Schematically, suppressing only the source's pairing/Hodge
+placement and bracket normalization, its structure is
+\begin{equation}
+ I_1^B\sim
+ \langle T,\mathcal S(F_B+\tfrac12D_BT+\tfrac13[T,T])\rangle
+ +\tfrac\kappa2\langle T,*T\rangle.
+ \label{eq:i1}
+\end{equation}
+The source gives the full formula in Eq.~(9.4), p.~44
+\cite{GU}. Equation~\eqref{eq:i1} is used only to identify its terms and
+derivative orders, not to derive numerical coefficients or field
+equations. It is first order in the distortion derivative when the other
+fields are held fixed, with a metric-dependent contraction and a quadratic
+term. It is not the action \eqref{eq:ym}; nor does the presence of
+Chern--Simons-like cubic terms make it pure three-dimensional
+Chern--Simons theory.
+
+The second bosonic action is displayed as
+\begin{equation}
+ I_2^B=\|\Upsilon^B\|^2,\qquad
+ \Upsilon^B=\mathcal S(F_A)+*\kappa T,
+ \label{eq:i2}
+\end{equation}
+with the source's norm and reality conventions. The associated second
+order term is labeled Yang--Mills-like, but contains
+$d_A^*\mathcal S^*\mathcal S F_A$ \cite[p.~45,
+Eqs.~(9.7), (9.11)--(9.15)]{GU}. The stars denoting Hodge operators
+and adjoints must not be silently equated, and the symbol $\|\cdot\|^2$
+on an indefinite carrier does not certify positivity. Also, the printed
+identification of $\Upsilon^B$ with the variation of $I_1^B$ is a claim
+to check for the chosen contraction, not permission to identify any two
+variational owners. We keep $I_1^B$, the printed residual, and its square
+separate.
+
+\subsection{Why neither kinetic sign follows from these formulas alone}
+
+For a twice continuously differentiable residual $R$ and a smoothly
+varying symmetric pairing $Q$,
+$S(\phi)=Q_\phi(R(\phi),R(\phi))$ has, at $R(\phi_0)=0$,
+\begin{equation}
+ D^2S_{\phi_0}(v,w)
+ =2Q_{\phi_0}(DR_{\phi_0}v,DR_{\phi_0}w).
+ \label{eq:residual}
+\end{equation}
+This follows by differentiating twice; every other term contains
+$R(\phi_0)$ and vanishes. Consequently the kinetic form of a squared
+residual depends on the image of its linearization. An indefinite
+ambient $Q$ need not be negative on that image, while writing a square
+does not make its restriction positive. If one freezes the Shiab,
+Hodge operator and reference structures in \eqref{eq:i2}, the
+connection variation contains $\mathcal S d_Aa+*\kappa\delta T$.
+Moving those structures introduces additional terms. Its principal
+form cannot be read off from the sign of an internal trace alone.
+Nor does a zero of this residual automatically give a stationary
+background for a different action or their sum.
+
+To apply \cref{prop:negative} or its local mode version to GU one must
+establish the following bridge:
+\begin{enumerate}
+\item A definite real action and an actual stationary background, together
+with the relevant real field variations and time direction.
+\item The reduced kinetic or canonical energy form, obtained by varying
+that action and imposing its constraints and gauge identifications,
+including the observation map to four dimensions.
+\item A nonzero negative-energy direction in the allowed physical domain,
+with a map identifying its energy with the Yang--Mills comparator (or a
+direct negative-mode proof for the native action).
+\end{enumerate}
+A negative finite matrix before reduction is insufficient. Conversely,
+absence of this bridge does not prove that the action avoids the
+obstruction. In the inspected source, the proposed deformation complex
+is discussed as a construction to obtain, and the four-dimensional
+observation and field interpretation remain separate steps
+\cite[\S\S10--11, pp.~47--51]{GU}. No common reduced physical Hamiltonian,
+positive state completion and invariant domain is constructed there.
+The required hypotheses are therefore \emph{unestablished}, not proved
+false.
+
+For the Chern--Simons transfer, the corresponding burden is stronger
+than a resemblance of action terms. One would need a source-derived
+constraint/reduction or a proved equivalence to a quantizable positive
+sector, with the real structure, symplectic form, measure, pairing and
+domain transported. One must then identify the generator of observed
+physical time and show that interactions preserve this sector. A pure
+closed-surface topological sector with $H=0$ cannot itself explain the
+propagating four-dimensional dynamics GU seeks. A coupled theory would
+need its own energy and unitarity argument. No such transfer follows
+from complexification or the Shiab terminology.
+
+\subsection{The maximal-compact proposal and the pairing trap}
+
+The draft itself acknowledges a difficulty. Page~29, footnote~5, recalls
+a Bar-Natan--Witten modification of the Hodge operator involving the
+noncompact complement, while saying the technique has not been
+reconstructed \cite{GU}. This is a genuine source pointer, not an
+implemented repair. Bar-Natan and Witten \cite{BNW} work in
+\emph{perturbative Chern--Simons theory}. Their compact reduction yields
+an involution $T_{\mathrm{BNW}}$, equal to $+1$ on the compact algebra
+and $-1$ on its complement, and a positive $*T_{\mathrm{BNW}}$-based
+pairing in their trace convention. This is their $T$ in Eq.~(4.4),
+not their separate form-grading operator $J$. They also change the gauge-fixing operators and
+analyze compensating local counterterms. Section~3 explains why keeping
+the old operators while changing only the pairing does not suffice.
+The inspected calculation is the leading, one-loop stationary-phase
+analysis about isolated irreducible flat connections (preprint \S2,
+pp.~5--6; \S4, pp.~14--23), not an all-orders physical unitarity theorem.
+Their analysis does not establish positivity of the Hamiltonian of GU's
+propagating fields.
+
+An elementary finite-dimensional control makes the missing step visible.
+\begin{lemma}[A positive replacement pairing need not be conserved]
+Let $\eta=\eta^*$ be invertible and let a real-time generator $A$ obey
+$A^*\eta+\eta A=0$. Suppose $W=\eta J$ is positive Hermitian. Then
+\[
+ A^*W+WA=\eta[J,A].
+\]
+Thus the new norm is conserved precisely when $[J,A]=0$.
+\end{lemma}
+\begin{proof}
+Substitute $A^*\eta=-\eta A$ and factor $\eta$.
+\end{proof}
+For example,
+\[
+ \eta=J=\begin{pmatrix}1&0\\0&-1\end{pmatrix},\qquad
+ A=\begin{pmatrix}0&1\\1&0\end{pmatrix},\qquad W=I
+\]
+preserves the indefinite form but not $W$; its eigenvalues are $1$ and
+$-1$. Choosing $W$ does not remove its growing solution. This matrix is
+a control on an inference, not a model of GU or of the Bar-Natan--Witten
+operators. In field theory, preservation of a common operator domain
+and compatibility with interactions add further requirements.
+Even conserved positivity alone does not imply a lower energy bound,
+as the negative oscillator already shows.
+
+\input{research-update}
+
+\section{Adjudication, contribution and next result}
+\label{sec:verdict}
+
+\paragraph{Established mathematics and imported construction.}
+The conventional indefinite Yang--Mills action has the explicit
+Gauss-compatible unbounded-energy family of \cref{prop:negative}.
+Witten's specified real-$s$ Hilbert-bundle connection has a preserved
+positive pairing and projective flatness; separately, pure closed-surface
+Chern--Simons evolution has zero physical bulk Hamiltonian. These
+statements concern distinct actions and notions of transport.
+
+\paragraph{Interpretation of the objection.}
+As a universal claim about complexification, the last paragraph of
+\S3.1 is too strong and its cited source explicitly distinguishes the
+relevant counterexample. As a warning about an ordinary propagating
+Yang--Mills sector with an indefinite kinetic form, it identifies a real
+conditional obstruction. The response does not establish that this
+sector, with a surviving negative physical mode, is the GU sector.
+Therefore \S3.1 does not establish the claimed GU energy/unitarity no-go.
+This is a failure of an applicability proof, not a finding that the
+underlying positivity concern is irrelevant.
+
+\paragraph{Correction to the proposed rebuttal.}
+The statement that complexification alone does not settle positivity
+survives. A claim that citing Witten thereby defeats the intended
+GU-specific objection does not survive a charitable reading. Witten's
+parameter-space theorem must not be presented as a theorem about
+nontrivial physical-time evolution, and the zero-Hamiltonian statement
+must retain its pure closed-surface setting. Neither a reference to
+Chern--Simons theory nor an auxiliary positive pairing constructs a
+positive, stable GU physical sector.
+
+\paragraph{Contribution and limits.}
+The contribution combines an expository reconstruction of premises, an explicit
+constrained Yang--Mills witness, separation of the two unitary notions,
+and an action-specific transfer audit with the conditional native-action
+research summary in \cref{sec:curved}. The quantization results belong to
+Witten and to Bar-Natan--Witten; the supporting calculations here are
+elementary and no novelty is claimed for them. A claim to have resolved
+GU-specific positivity would be premature. No proof assistant
+formalization of Witten's theory is claimed. Existing formal checks of
+conditional logical implications cannot supply the physical hypotheses
+or construct a quantum theory.
+
+\paragraph{The next discriminating result.}
+The selected reconstruction now has a constraint-compatible quadratic
+energy obstruction; another unconstrained sign scan is unnecessary.
+A proposed physical repair must specify an admissible sector and its
+map from the native fields, explain why the negative family is excluded,
+and prove compatibility with the remaining equations, interactions and
+observed energy on one domain. The conjugation-fixed real sector is a
+consistent candidate with an explicit pure-base Hessian and a surviving
+metric-acceleration block. Its transported boundary constraints must decide
+whether the conditional real-sector energy obstruction applies. Completing
+that reduction would test a proposed restriction; it would not remove the
+obstruction in the unrestricted action. Neither a positive pairing alone
+nor a group-theoretic designation supplies the missing energy theorem.

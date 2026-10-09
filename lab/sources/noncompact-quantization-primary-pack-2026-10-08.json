@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "artifact_type": "primary_source_custody_receipt",
+  "verified_at_utc": "2026-10-08T15:34:28.354265+00:00",
+  "sources": [
+    {
+      "path": "lab/sources/witten-complex-cs-iassns-hep-89-65-kekscan-90-09-085.pdf",
+      "title": "Quantization of Chern-Simons Gauge Theory with Complex Gauge Group",
+      "authors": "Edward Witten",
+      "version": "IASSNS-HEP-89/65, December 1989; report underlying CMP 137 (1991) 29-66",
+      "url": "https://lib-extopc.kek.jp/preprints/PDF/1990/9009/9009085.pdf",
+      "pdf_pages": 44,
+      "bytes": 1955757,
+      "sha256": "5cd3bd5dab08376767ebb612a6335d907ea3671e24a5e8df1644fd8334204f5f",
+      "inspected_locators": [
+        "Introduction pp2-3",
+        "Section 3 p8; Section 3.4 pp15-17",
+        "Theorem p21; Section 4.1 pp22-23"
+      ]
+    },
+    {
+      "path": "lab/sources/bar-natan-witten-noncompact-cs-cmp141-1991.pdf",
+      "title": "Perturbative Expansion of Chern-Simons Theory with Non-Compact Gauge Group",
+      "authors": "Dror Bar-Natan and Edward Witten",
+      "version": "IASSNS-HEP-91/4, January 1991; author preprint for CMP 141 (1991) 423-440",
+      "url": "https://www.math.toronto.edu/~drorbn/papers/NonCompact/NonCompact.pdf",
+      "pdf_pages": 29,
+      "bytes": 215877,
+      "sha256": "b88f0a842c7809f623ceaa4896c0c2fdb3c447f7b9a2ade6ba8b59130bd6790f",
+      "inspected_locators": [
+        "Section 3 pp11-13",
+        "Section 4 pp14-16, equations 4.1-4.6",
+        "pp22-23, equations 4.37-4.39"
+      ]
+    },
+    {
+      "path": "lab/sources/arxiv-2504.16367v1.pdf",
+      "title": "Hamiltonian quantization of complex Chern-Simons theory at level-k",
+      "authors": "Muxin Han",
+      "version": "arXiv:2504.16367v1",
+      "url": "https://arxiv.org/pdf/2504.16367v1",
+      "pdf_pages": 67,
+      "bytes": 1652189,
+      "sha256": "d321c95e3b1ecb1983750ef50ee8483f26f1881ed9df992f134f9ab2ace9aba8",
+      "inspected_locators": [
+        "Section 2.1; Section 3",
+        "Section 8.4, Theorems 8.4-8.5",
+        "Section 8.6, equations 8.83-8.89"
+      ]
+    },
+    {
+      "path": "lab/sources/arxiv-1001.2933v4.pdf",
+      "title": "Analytic Continuation Of Chern-Simons Theory",
+      "authors": "Edward Witten",
+      "version": "arXiv:1001.2933v4",
+      "url": "https://arxiv.org/pdf/1001.2933v4",
+      "pdf_pages": 127,
+      "bytes": 1164417,
+      "sha256": "d10e8d591b29284dcf029c2bde74b27bf76be98f957173eeb545d04e3f79cfd6",
+      "inspected_locators": [
+        "Section 2.7 pp20-21",
+        "Section 4.1 pp63-64"
+      ]
+    }
+  ],
+  "local_targets": [
+    {
+      "path": "Response_Geometric_Unity.pdf",
+      "bytes": 344394,
+      "sha256": "66c7caafce188744c7c7e6e085b40f849e0d1218a07ae675f8add187e82fc71f"
+    },
+    {
+      "path": "Geometric_Unity-Draft-April-1st-2021.pdf",
+      "bytes": 2087649,
+      "sha256": "3f28d742234a9841fc8e51ff172053200aa3eddf3ece38154a3328b9ebd186d4"
+    }
+  ],
+  "scope": "Source audit for the scoped section 3.1 rebuttal. These donors are not GU physical reductions.",
+  "custody": "PDFs are ignored local corpus assets; only this receipt is tracked. Witten 1991 locators refer to recovered report, not verified published typesetting."
+}

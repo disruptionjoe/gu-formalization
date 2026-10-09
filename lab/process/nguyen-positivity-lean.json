@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "artifact_type": "scoped_lean_verification_receipt",
+  "created_at_utc": "2026-10-08T16:14:27.213210+00:00",
+  "command": "lake build GUFormalization.NguyenPositivityKernels",
+  "exit_code": 0,
+  "stdout": "\u2139 [1156/1156] Built GUFormalization.NguyenPositivityKernels (8.7s)\ninfo: Lean/GUFormalization/NguyenPositivityKernels.lean:93:0: 'GUFormalization.NguyenPositivityKernels.witness_refutes_universal_failure' does not depend on any axioms\ninfo: Lean/GUFormalization/NguyenPositivityKernels.lean:94:0: 'GUFormalization.NguyenPositivityKernels.positive_conserved_form_excludes_growing_eigenvector' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\ninfo: Lean/GUFormalization/NguyenPositivityKernels.lean:95:0: 'GUFormalization.NguyenPositivityKernels.nonzero_even_difference_prevents_action_descent' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\ninfo: Lean/GUFormalization/NguyenPositivityKernels.lean:96:0: 'GUFormalization.NguyenPositivityKernels.canonical_three_block_no_solution' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\ninfo: Lean/GUFormalization/NguyenPositivityKernels.lean:97:0: 'GUFormalization.NguyenPositivityKernels.canonical_three_block_no_solution_zero_coupling' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\nBuild completed successfully (1156 jobs).\n",
+  "stderr": "",
+  "validation_scope": "Named target only; not a full repository build",
+  "host_serialization": "Linux flock on the repository host-local lean-build.lock convention",
+  "claim_ceiling": "Selected deductions only; Witten construction and action-to-polynomial derivation are not formalized.",
+  "theorem_axioms": {
+    "GUFormalization.NguyenPositivityKernels.witness_refutes_universal_failure": [],
+    "GUFormalization.NguyenPositivityKernels.positive_conserved_form_excludes_growing_eigenvector": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "GUFormalization.NguyenPositivityKernels.nonzero_even_difference_prevents_action_descent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "GUFormalization.NguyenPositivityKernels.canonical_three_block_no_solution": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "GUFormalization.NguyenPositivityKernels.canonical_three_block_no_solution_zero_coupling": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "lean_version": "Lean (version 4.32.0-rc1, x86_64-unknown-linux-gnu, commit b4812ae53eea93439ad5dce5a5c26591c31cb697, Release)",
+  "mathlib_revision": "96ec947e9b66a5e6059131fc9c6d13a14cef756e",
+  "base_revision": "2688bd692f6c2b41c5dcc80e249890bba6cf49f6",
+  "coefficient_probe": {
+    "command": "uv run --no-project --with sympy==1.14.0 python -B tests/channel-swings/nguyen_lean_coefficients_probe.py",
+    "result": {
+      "checks_passed": 5,
+      "checks": [
+        "direct action matches Lean necessary polynomial 1",
+        "direct action matches Lean necessary polynomial 2",
+        "direct action matches Lean necessary polynomial 3",
+        "direct action matches Lean necessary polynomial 4",
+        "direct action matches Lean necessary polynomial 5"
+      ],
+      "polynomials": [
+        "-a/2 + b/2",
+        "a/2 - c/2",
+        "12*a**2 + 108*a*b + 12*a*c + a*kappa + 144*b**2 + 36*b*c - 21/4",
+        "24*a**2 + 128*a*b + 16*a*c + 112*b**2 + 32*b*c + b*kappa - 15/4",
+        "24*a**2 + 144*a*b + 144*b**2 + c*kappa - 21/4"
+      ],
+      "coefficient_field": "exact rational coefficients; real variables",
+      "scope": "Five necessary full-distortion rows only. No Lean formalization of the curvature/Clifford derivation, Witten construction or physical GU domain."
+    },
+    "scope": "Exact independent action-to-polynomial check; not Lean verification of geometry or variational calculus."
+  },
+  "explicit_external_inputs": {
+    "witness_refutes_universal_failure": "Generic physical predicates and a witness satisfying them are supplied arguments. The theorem does not construct Witten theory or prove its hypotheses.",
+    "positive_conserved_form_excludes_growing_eigenvector": "The generator, positive bilinear form, conservation law, nonzero vector and positive real growth rate are hypotheses on one real carrier; GU physical domain membership is not established.",
+    "nonzero_even_difference_prevents_action_descent": "Equal observation images and a nonzero symmetric action difference are supplied; smooth bump support and Clifford parity are outside Lean.",
+    "canonical_three_block_no_solution": "The five explicit polynomial equations are definitions. Their geometric and action interpretation is independently checked in Python, not formalized in Lean."
+  },
+  "claim_boundaries": {
+    "end_to_end_Witten_counterexample_formalized": false,
+    "GU_consistency_proved": false,
+    "GU_inconsistency_proved": false,
+    "new_physics_postulates": false,
+    "full_repository_build_run": false
+  },
+  "dependency_sha256": {
+    "Lean/GUFormalization/NguyenPositivityKernels.lean": "0aadd5a41ef083bda26b90fe7f0282a819814ea9ccfbc46e887abeda267fd8b0",
+    "tests/channel-swings/nguyen_lean_coefficients_probe.py": "3eb7469146c2e004eabae5136becec5b3f209a56371d99e995a9433d658656db",
+    "tests/channel-swings/native_zorro_geometry_probe.py": "9aa7e7414056f13f45a4d4a47d16ce761c804a672585504d52fcdb14a2952367",
+    "tests/channel-swings/native_zorro_i1b_probe.py": "3c802d8d8a6063853ca1c1ff23213bf67d14fa41eb1e613225f01dcf4c143e40",
+    "tests/channel-swings/native_i1b_scalar_closure_probe.py": "7e1bfdfb4485710caa5b2696e81b0fff593ebdc62d6a04ae91ffaa634d703b38",
+    "tests/channel-swings/k77_exact_bank_api.py": "5f9ca5458e55669bce226bf65e82b11a54d81d7cffeb2d18a1fb4635f575cf5b",
+    "lean-toolchain": "72681913b978b3f7c2f48229836771f736f6e97d833917726b2263afbc6108ed",
+    "lake-manifest.json": "bec56f5d3bd033a5060fd2ec0e9b7a9457bb559395b8e562370dddf01caf6607",
+    "explorations/nguyen-gu-critique/section-3-1-end-to-end-assessment-2026-10-08.md": "2334ad1c5ef38ae16635d8151ab088f9d58a8ce16e9e4d70f23378b8817b7b1a"
+  },
+  "process_validation": {
+    "lean_certificate_surface_audit": {
+      "tests_passed": 8,
+      "scope": "registration, source placeholders and owner references; not a kernel proof"
+    },
+    "typed_carrier_declaration_audit": {
+      "red": 0,
+      "scope": "assessment owner; one explicit typed block"
+    },
+    "kill_target_claim_audit": {
+      "red": 0,
+      "affinity": "SC-META-53"
+    },
+    "owner_local_links": {
+      "checked": 20,
+      "failures": 0
+    },
+    "status_preservation": {
+      "modified_markdown_files": 4,
+      "status_changes": 0,
+      "new_markdown_documents": 0
+    },
+    "git_diff_check": "passed"
+  }
+}

@@ -7,6 +7,95 @@ updated_at: "2026-10-09"
 
 # Next Steps For Contributors
 
+The [positivity and curved I1B research map](explorations/nguyen-gu-critique/README.md)
+indexes the complete selected-action chain and its contribution path. The
+dated entries below retain earlier research questions for context. Later
+same-object results supersede those questions: the real compact-core energy
+is now two-sided, and K1557 establishes quartic cutoff ground-energy growth
+in the separate Wick control. Neither result constructs a source-owned
+physical quotient or closed evolution domain. The current native question
+is preserved admissibility excluding both real and imaginary witnesses;
+the current quantum/PDE questions are stated in K1596–K1600 below.
+
+> **2026-10-09 REAL COMPACT-CORE ENERGY.** The
+> [real energy theorem](explorations/conditional-build/native-zorro-real-energy-2026-10-09.md)
+> gives both unbounded signs with zero full homogeneous metric force and
+> every finite-order formal odd-Dirichlet compatibility condition. The
+> real-only restriction is not a compact-core positivity repair. Independently
+> verify the symmetry/locality proof, then require a concrete physical
+> admissibility or shielding construction excluding both packet families
+> and preserved by the intended dynamics. Global evolution is not supplied
+> by the formal jets. [Ledger v0.265](explorations/conditional-build/conditional-physics-ledger-v0.265.md)
+> books the stronger evidence with LT-SM8 and LT-GR6b still NEEDS.
+
+> **2026-10-08 BOUNDARY CONSTRAINTS AND LEDGER v0.264.** The
+> [boundary calculation](explorations/conditional-build/native-zorro-boundary-constraints-2026-10-08.md)
+> proves the homogeneous bulk identity throughout the positive-time patch
+> and derives the odd-Dirichlet compatibility chain. Its second condition
+> constrains five metric momenta at fixed distortion jets. Determine a
+> propagated coupled domain and its energy while allowing those boundary
+> jets to vary; do not apply the free-momentum argument to fixed boundary
+> data. The [ledger append](explorations/conditional-build/conditional-physics-ledger-v0.264.md)
+> books the native-action chain on LT-SM8 and LT-GR6b with both still NEEDS.
+> INHERITANCE_BRIDGE and source-owned physical selection remain open.
+
+> **2026-10-08 REAL METRIC HESSIAN AND BOUNDARY CONDITION.** The
+> [new calculation](explorations/conditional-build/native-zorro-real-metric-hessian-2026-10-08.md)
+> computes the pure-base Hessian and a nondegenerate five-polarization
+> metric-acceleration block after all distortion primary constraints.
+> Its homogeneous Hamiltonian consequence is conditional on the transported
+> boundary system admitting independent spin-two momenta. A permanent
+> distortion-free fibre collar instead forces their acceleration to vanish.
+> Derive and propagate the boundary/metric constraints for a definite
+> completion; do not equate compact test variations with an invariant
+> physical domain. Independently verify the curvature identity and wording.
+
+> **2026-10-08 REAL-PACKET REDUCTION AND PHYSICAL SELECTION.** The
+> [new result](explorations/conditional-build/native-zorro-real-packet-and-selection-2026-10-08.md)
+> solves all forty real-distortion primary-potential classes on both coupling
+> branches and derives the metric-coupled Schur action. The real restriction
+> is nonlinearly consistent but has no proved positive physical Hamiltonian
+> or source selection. An ambient compact-coefficient restriction fails an
+> explicit primary-recovery test; this is not the source Spin(6,4) mechanism.
+> Section germs and ordinary boundary conditions retaining the compact core
+> cannot repair its energy. A proposed physical repair must supply an actual
+> admissible sector and map; for the real-only candidate, use the now-computed
+> pure-base Hessian to finish the boundary/metric constraints, with fibre
+> integration and transported boundary data. Independently verify the
+> result and wording.
+
+> **2026-10-08 CURVED I1B CONSTRAINED ENERGY.** The
+> [new calculation](explorations/conditional-build/native-zorro-constrained-energy-2026-10-08.md)
+> solves the imaginary-packet primary constraints and proves quadratic energy
+> unbounded in both directions on either certified coupling branch. An
+> independent occupation-state Clifford implementation verifies both witness
+> coefficients. Bare section evaluation
+> cannot carry its Hamiltonian. Independently verify this result and its
+> wording, then determine the common evolution/completed observation domain
+> or a source-owned physical restriction excluding the exhibited family.
+> A quantum spectral theorem, positive conserved norm alone and global Cauchy evolution remain open;
+> do not generalize this selected-branch result to every GU completion.
+
+> **2026-10-08 CURVED I1B ALGEBRAIC REDUCTION.** The
+> [complete mixed derivative and even-sector elimination](explorations/conditional-build/native-zorro-algebraic-reduction-2026-10-08.md)
+> leave a second-order odd-distortion system coupled to the base metric.
+> Its conjugation-odd imaginary-grade packet now has the constraint and
+> energy result above; the real distortion primary equations are also solved.
+> Use the pure-base Hessian above to finish the coupled boundary constraints, then
+> establish propagation, observation reduction and energy on a common time/domain.
+> The even potential is invertible without a covector denominator; the
+> earlier leading compensator alone still fails the full even equation.
+> Transport boundary data through both changes of field variables.
+
+> **2026-10-08 CANONICAL I1B STATIONARY BRANCH.** The
+> [exact local construction](explorations/conditional-build/native-zorro-stationary-background-2026-10-08.md)
+> supplies a real nonzero curved equilibrium for the declared reconstruction.
+> Its mixed operator, pure-base Hessian and primary constraints are now
+> computed. Complete the physical observation reduction and propagated
+> boundary domain. The four background coefficients
+> do not define a proved closed perturbation sector; the flat growing mode
+> cannot be imported. Global finite-action and positive physical domains
+> remain open, and no protected claim status moves.
 > **2026-10-09 K1616--K1620 INFORMATION RIGIDITY AND ENDPOINT-JUMP
 > OBSTRUCTION.** For arbitrary-mode Gaussian location mixtures over one common
 > stationary diagonal covariance, the exact mixing gain is a weighted

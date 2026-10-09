@@ -1,0 +1,119 @@
+{
+  "artifact_type": "primary_source_download_receipt",
+  "created": "2026-10-07",
+  "papers": [
+    {
+      "arxiv_id": "2608.12210v1",
+      "pdf_url": "https://arxiv.org/pdf/2608.12210v1",
+      "resolved_pdf_url": "https://arxiv.org/pdf/2608.12210v1",
+      "pdf_path": "lab/sources/arxiv-2608.12210v1.pdf",
+      "sha256": "02e99d365cf6d170017909b645f7a6ac5ceb08d21bedcc7408153b3e13552969",
+      "bytes": 520394,
+      "retrieved_at_utc": "2026-10-08T03:11:18.813320+00:00",
+      "abstract_url": "https://arxiv.org/abs/2608.12210",
+      "html_url": "https://arxiv.org/html/2608.12210v1",
+      "title": "On divergences in a four-derivative scalar field theory",
+      "authors": [
+        "Anderson, Maegan",
+        "Bateman, Sam",
+        "Herzog, Franz",
+        "Turok, Neil"
+      ],
+      "submission_date": "2026-08-12",
+      "latest_version_checked": "v1",
+      "page_count": 28,
+      "tex_source_verification": {
+        "url": "https://arxiv.org/src/2608.12210v1",
+        "archive_sha256": "e3f1a65d9dbc2d98cb428e57ac4f54ae8443421fdf1491423c8a3316b904595a",
+        "archive_bytes": 40858,
+        "member": "main.tex",
+        "member_sha256": "54864f641887ed6f3b9a6ddcb76d447ed8c359792c717df67c2b63e9a195d5f1",
+        "retained_source_archive": false
+      },
+      "version_history_text": "Submission history From: Maegan Anderson [view email] [v1] Wed, 12 Aug 2026 16:03:38 UTC (40 KB) ",
+      "inspection": "relevant primary full-text equations, proofs and limitations; not independent verification of the complete paper",
+      "local_pdf_is_git_ignored": true
+    },
+    {
+      "arxiv_id": "2607.00096v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.00096v1",
+      "resolved_pdf_url": "https://arxiv.org/pdf/2607.00096v1",
+      "pdf_path": "lab/sources/arxiv-2607.00096v1.pdf",
+      "sha256": "c3a2cf3a6c408e199f6b8d2ea8c097f3f1e5b53384ad2d26a5cb8ea6d9504d90",
+      "bytes": 396501,
+      "retrieved_at_utc": "2026-10-08T03:11:18.899458+00:00",
+      "abstract_url": "https://arxiv.org/abs/2607.00096",
+      "html_url": "https://arxiv.org/html/2607.00096v1",
+      "title": "Escape from Ostrogradsky via Hidden Ghost Parity",
+      "authors": [
+        "Bateman, Sam",
+        "Turok, Neil"
+      ],
+      "submission_date": "2026-06-30",
+      "latest_version_checked": "v1",
+      "page_count": 6,
+      "version_history_text": "Submission history From: Sam Bateman [view email] [v1] Tue, 30 Jun 2026 19:35:23 UTC (16 KB) ",
+      "inspection": "relevant primary full-text equations, proofs and limitations; not independent verification of the complete paper",
+      "local_pdf_is_git_ignored": true
+    },
+    {
+      "arxiv_id": "2511.15283v1",
+      "pdf_url": "https://arxiv.org/pdf/2511.15283v1",
+      "resolved_pdf_url": "https://arxiv.org/pdf/2511.15283v1",
+      "pdf_path": "lab/sources/arxiv-2511.15283v1.pdf",
+      "sha256": "af3484ed10267ae917bf530a0bc215aefc929b1bfb8508a035c7b7ae4853575b",
+      "bytes": 411426,
+      "retrieved_at_utc": "2026-10-08T03:11:18.953949+00:00",
+      "abstract_url": "https://arxiv.org/abs/2511.15283",
+      "html_url": "https://arxiv.org/html/2511.15283v1",
+      "title": "Reflection positivity in a higher-derivative model with physical bound states of ghosts",
+      "authors": [
+        "Asorey, Manuel",
+        "Krein, Gastão",
+        "Pardina, Miguel",
+        "Shapiro, Ilya L."
+      ],
+      "submission_date": "2025-11-19",
+      "latest_version_checked": "v1",
+      "page_count": 16,
+      "version_history_text": "Submission history From: Miguel Pardina [view email] [v1] Wed, 19 Nov 2025 09:48:20 UTC (16 KB) ",
+      "inspection": "relevant primary full-text equations, proofs and limitations; not independent verification of the complete paper",
+      "local_pdf_is_git_ignored": true
+    },
+    {
+      "arxiv_id": "2605.16172v2",
+      "pdf_url": "https://arxiv.org/pdf/2605.16172v2",
+      "resolved_pdf_url": "https://arxiv.org/pdf/2605.16172v2",
+      "pdf_path": "lab/sources/arxiv-2605.16172v2.pdf",
+      "sha256": "392cb1da240531b80f72a0f13d2d7073c40d78a7f843a9a1cfc846c7446945e4",
+      "bytes": 464786,
+      "retrieved_at_utc": "2026-10-08T03:14:23.770046+00:00",
+      "abstract_url": "https://arxiv.org/abs/2605.16172",
+      "html_url": "https://arxiv.org/html/2605.16172v2",
+      "title": "Background-Equivariant BRST Observables and i-Particle Propagators from an Auxiliary Quartet in SU(3) Yang-Mills",
+      "authors": [
+        "Amaral, M. M.",
+        "Lemes, V. E. R."
+      ],
+      "submission_date": "2026-05-15",
+      "latest_version_checked": "v2",
+      "page_count": 33,
+      "version_date": "2026-10-05",
+      "version_history_text": "Submission history From: Vitor Emanuel Rodino Lemes [view email] [v1] Fri, 15 May 2026 16:51:08 UTC (20 KB) [v2] Mon, 5 Oct 2026 18:18:45 UTC (27 KB) ",
+      "inspection": "relevant primary full-text equations, proofs and limitations; not independent verification of the complete paper",
+      "local_pdf_is_git_ignored": true
+    }
+  ],
+  "note": "PDFs are local corpus assets ignored by the repository *.pdf rule; receipt and intake note are durable.",
+  "screened_not_intaken": [
+    {
+      "arxiv_id": "2510.02494v1",
+      "url": "https://arxiv.org/html/2510.02494v1",
+      "title": "On a Class of Time-Dependent Non-Hermitian Hamiltonians",
+      "scope": "Time-dependent unitary transformation to a fixed positive metric in a solvable one-particle model.",
+      "reason": "No additional native transport tool beyond the already-exact K117 form/grading compatibility and action-owner mismatch."
+    }
+  ],
+  "source_pack": "lab/sources/quantum-positivity-primary-pack-2026-10-07.md",
+  "claim_ceiling": "Primary literature and explicit transfer conditions only; no GU positivity, source claim, ledger or canon verdict movement."
+}

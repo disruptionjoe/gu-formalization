@@ -2,11 +2,284 @@
 title: "Research Status"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-10-04"
+updated_at: "2026-10-09"
 canon_sweep_at: "2026-07-25"
 ---
 
 # Research Status
+
+## 2026-10-09 — Curved I1B manuscript regenerated
+
+The [replacement draft](papers/drafts/complex-gauge-unitarity/README.md)
+integrates the recent corpus through real compact-core energy and all-order
+formal boundary compatibility, with the pure metric Hessian, prior momentum
+qualification, imaginary energy proof, corrected flat controls and distinct
+quantum/PDE frontier. The old technical note and appended update are replaced
+as current manuscript sources and remain in Git history.
+
+The [corpus manifest](papers/drafts/complex-gauge-unitarity/build/research-corpus.json)
+maps inputs to sections. The paper retains the selected-reconstruction,
+classical-quadratic and formal-jet ceiling. Its transverse torus control
+explicitly distinguishes commensurate-frequency periodic fields from the
+general quasiperiodic family; both retain the same energy/variation conclusion.
+No standing claim grade, source polarity, ledger verdict, canon or publication
+stage changes. This is a synthesis of the existing research, not independent
+analytic verification of it.
+
+## 2026-10-09 — Positivity corpus and current-scope reconciliation
+
+The [research map](explorations/nguyen-gu-critique/README.md) connects the
+source audit, observed two-field controls, corrected flat surrogate,
+curved stationary construction, coupled reductions, both compact-core energy
+proofs, formal deductions and ledger evidence. The source assessment now
+points to the computed pure-base Hessian and real energy successor; its
+earlier physical-domain qualifications remain binding. Upstream K1538–K1600
+quantum/PDE controls retain their distinct owners and do not quantize the
+selected I1B construction.
+
+| claim | prior status | current status | weakest dependency | stale wording searched | files updated |
+| --- | --- | --- | --- | --- | --- |
+| Selected curved I1B real energy; affinity SC-META-53/SA-U1 | Earlier assessment still requested the pure-base Hessian before assessing real positivity | Hessian and real compact-core obstruction supplied by their dated owners; physical admissibility/evolution remain open | Selected reconstruction, branches, compact core and formal boundary completion | “pure-base Hessian ... still need calculation”; “derive ... second variation” | Assessment, research map, CURRENT-STATE, NEXT-STEPS and this status history |
+| Quantum-control ground-energy scale | Historical entries sought an order-two trial | K1557 fixes the exponent at four in its declared control; unrestricted coefficient and bounded-error recentering remain open | K1554–K1557 spectral/Fisher estimates in the fixed cutoff representation | Historical order-two next steps retained with explicit supersession | Research map, CURRENT-STATE and NEXT-STEPS |
+
+No source polarity, standing row verdict, named condition, canon or
+publication status changes. Dated entries below describe their evidence at
+the time recorded; they do not reopen calculations completed by a linked
+successor. The manuscript remains its explicitly dated draft snapshot.
+
+## 2026-10-09 — Real compact-core energy and complete formal boundary compatibility
+
+The [new real energy owner](explorations/conditional-build/native-zorro-real-energy-2026-10-09.md)
+proves two-sided unbounded quadratic energy in the real packet on both
+stationary branches. Twenty-two exact checks include two Clifford engines,
+complete symbolic primary recovery, rational sign bounds and the finite
+reflection character absent from all ten homogeneous metric components.
+The analytic disjoint-support projection eliminates the full metric force
+and preserves the energy signs. Locality supplies every finite-order
+formal boundary compatibility condition with all metric jets zero.
+
+The predecessor's metric-momentum restriction remains correct. The new
+proof uses a different distortion sector and closes the real-only escape
+at the compact-core classical quadratic level. Global evolution, a closed
+physical domain retaining the core, nonlocal admissibility and actual source
+shielding remain open. [Ledger v0.265](explorations/conditional-build/conditional-physics-ledger-v0.265.md)
+adds the evidence without changing either NEEDS row, INHERITANCE_BRIDGE,
+SC-META-53, canon or any hypothesis vote.
+
+## 2026-10-08 — Boundary compatibility and standing-ledger evidence
+
+The [boundary owner](explorations/conditional-build/native-zorro-boundary-constraints-2026-10-08.md)
+extends the real homogeneous primary cancellation and acceleration formula
+across the positive-time fibre patch. Ten exact checks cover a complete
+37-generator carrier, 1,369 mixed Gram entries, the raw action Green form
+and a rank-five boundary-force block on both coupling branches. For the
+declared odd-Dirichlet completion, the second compatibility condition
+constrains metric momenta when distortion data are fixed. The earlier
+free-momentum energy argument therefore remains conditional. A propagated
+coupled domain and its real energy have not been established.
+
+[Ledger v0.264](explorations/conditional-build/conditional-physics-ledger-v0.264.md)
+appends this chain to LT-SM8 and LT-GR6b without changing their NEEDS verdicts
+or named conditions. It logs section-germ non-descent as a bounded firewall
+criterion-1 observation, without a hypothesis vote, source-owned candidate
+admission or stage-completion credit. The imaginary energy theorem remains
+intact, and SC-META-53 remains UNCERTAIN.
+
+## 2026-10-08 — Pure metric Hessian and conditional real energy obstruction
+
+The [new owner](explorations/conditional-build/native-zorro-real-metric-hessian-2026-10-08.md)
+derives the entire natural pure-base Hessian and the surviving acceleration
+matrix after third-time compensation and every real distortion primary
+constraint. Thirteen grouped exact checks cover five spatial traceless
+polarizations and their cross terms, independent matrix contractions,
+curvature identities, branch bounds and a background-generalization control.
+The matrix is nondegenerate on both coupling branches. A homogeneous
+completion admitting its independent canonical momenta has energy unbounded
+in both directions by the explicit canonical argument. The transported
+boundary constraints are still required to apply that conditional result.
+A permanent distortion-free fibre collar forces these metric accelerations
+to vanish, so the earlier compact variational tests do not supply that
+completion. The selected imaginary-packet energy theorem is unchanged;
+SC-META-53, canon and publication status remain unchanged.
+
+## 2026-10-08 — Real primary reduction and physical-selection boundary
+
+The [new owner](explorations/conditional-build/native-zorro-real-packet-and-selection-2026-10-08.md)
+certifies all forty real-packet primary potentials on both coupling branches
+and derives the exact formal Schur action with its metric source retained.
+Eleven grouped checks also include an independent matrix counterexample to
+naive ambient compact recovery and the nonzero `RJJ` cubic coefficient
+`-124/3`. Conjugation proves the real-only restriction is nonlinearly
+consistent, while its coupled physical energy remains open.
+
+The energy-descent obstruction extends to any smooth section-germ readout
+and any boundary completion retaining the compact interior phase core.
+The full selected reconstruction therefore retains its proved quadratic
+energy obstruction. A successful further sector is not supplied by the
+audited source; the consistent real-only candidate is not a positivity
+proof. The pure-base Hessian was subsequently computed above; the remaining
+coupled boundary constraints are open, not inferred source impossibilities. No canon
+promotion, claim polarity change or quantum spectral theorem follows.
+
+## 2026-10-08 — Two-sided energy and opposite coupling branch
+
+The [constrained-energy owner](explorations/conditional-build/native-zorro-constrained-energy-2026-10-08.md)
+now certifies the spatial companion with coefficient `+2/kappa` alongside
+the vertical coefficient `-2/kappa`. Compact constraint-compatible phase
+families give both signs without bound, for either stationary coupling
+root. The mirror changes `(a,c,kappa)` together; exact negative congruence
+preserves all forty primary-potential inverses. An independent occupation-
+state matrix implementation reproduces both witnesses without the sparse
+Clifford engine. Seventeen main and twelve matrix checks pass.
+
+This strengthens the earlier one-sided classical result below. It supports
+the energy concern for this declared reconstruction, not Nguyen's general
+complexification inference. It is not a quantum spectral theorem, a later
+independent research review, or a universal GU verdict. The metric-coupled
+real packet and any source-justified physical selection remain to be analyzed.
+
+## 2026-10-08 — Constraint-compatible curved I1B energy obstruction
+
+The [new derivation](explorations/conditional-build/native-zorro-constrained-energy-2026-10-08.md)
+solves every primary constraint in the closed imaginary-grade packet of the
+selected stationary branch. Forty potential classes are exactly nonsingular;
+a geometric kernel identity removes derivatives of the primary auxiliaries
+from their own constraint equations. The remaining time form is nondegenerate.
+The actual reduced Hamiltonian has principal spatial coefficient `-2/kappa`,
+with certified positive `kappa`, giving an analytically controlled compact
+negative-energy family after all these constraints are imposed.
+
+Some such fields have a nonzero horizontal section pullback. Others vanish
+near the section but retain negative energy, so bare section evaluation
+cannot carry a descended Hamiltonian. This is an obstruction on the stated
+smooth compact phase core and any completion retaining it. Global evolution,
+a positive conserved norm alone and additional source-owned physical
+selections remain open. No universal GU no-go or protected verdict moves.
+
+## 2026-10-08 — Full mixed coupling and algebraic distortion reduction
+
+The [new derivation](explorations/conditional-build/native-zorro-algebraic-reduction-2026-10-08.md)
+completes the metric-to-distortion operator across the fibre. Its only
+terms have base orders three and two and Clifford grade one; the latter
+is certified on 170 generators of a 154-dimensional connection-jet class.
+The full even Clifford potential is invertible at the algebraic background:
+14 representative determinants have 39 factors, each rigorously separated
+from zero. This eliminates the even distortion pointwise and leaves a
+second-order odd system coupled to the fibre-integrated metric equation.
+
+The action is real on the source phased slice, and the known bulk gauge
+redundancies have zero dressed distortion in the natural field coordinates.
+Coefficient conjugation isolates a closed imaginary-grade linearized packet
+with no metric coupling. Its constraints, compact-core energy and the failure
+of Hamiltonian descent through bare section evaluation were subsequently
+resolved by the results above. The pure-base Hessian is now computed;
+coupled boundary constraints and the completed physical domain remain open.
+A leading even compensator is not a complete mode;
+its nonzero potential requires an odd-field response. No canon or physical
+positivity status changes.
+
+## 2026-10-08 — Curved metric coupling and leading compensation
+
+The [perturbation calculation](explorations/conditional-build/native-zorro-metric-perturbation-2026-10-08.md)
+derives the highest observing-metric response of the stationary curved I1B
+branch. Its third-derivative coefficient cancels at the observing section;
+the next section coefficient is the signed ambient Einstein covector of
+the base Ricci variation. A null transverse-traceless metric test nevertheless
+has a nonzero off-section response. A geometric grade-two compensator cancels
+the leading source wherever the ambient covector is non-null, with an exact
+eight-component representative at the rational test point.
+
+The metric Euler equation is fibre-integrated because the observing metric
+lives on the base. Nineteen grouped checks include 30 complete second-jet
+polarizations and 90 transverse tracefree metric controls. Lower-order
+coupling, the pure-base Hessian, characteristic-fibre regularity and the
+physical domain remain open; no positive-energy or GU unitarity verdict moves.
+
+## 2026-10-08 — A real stationary curved I1B background
+
+The [new construction](explorations/conditional-build/native-zorro-stationary-background-2026-10-08.md)
+supplies a nonzero local stationary bosonic background for the same selected
+canonical connection metric and `comm/symi/symi` action. An intrinsic
+grade-two component mixing vertical trace and traceless directions allows
+the full distortion equations to close: all 27 nonzero receiver rows reduce
+to five polynomials. A real algebraic branch is certified by Sturm isolation,
+rational interval bounds and exact polynomial reduction. Epsilon stationarity
+follows from the action's dressing identity; observing-metric stationarity
+follows analytically on the stated product patch with compactly supported
+base variations. The focused probe passes 22 checks.
+
+The prior three-projector obstruction remains valid. The new result is a
+selected reconstructed local equilibrium, without a global finite-action or
+physical Hamiltonian domain. The next mathematical question is its coupled
+second variation, constraints and observation reduction. SA-U1/H59 remain
+open and SC-META-53 remains `UNCERTAIN`; no canon or source polarity changes.
+
+## 2026-10-08 — §3.1 charitable adjudication and technical-note draft
+
+The [revised assessment](explorations/nguyen-gu-critique/section-3-1-end-to-end-assessment-2026-10-08.md)
+and [compiled technical-note draft](papers/drafts/complex-gauge-unitarity/README.md)
+resolve the bounded inference question without claiming a GU physical
+resolution. Section 3.1 does not prove its claimed GU no-go: the universal
+complexification inference is too strong and the conventional Yang–Mills
+premise has no established GU physical bridge. **Our earlier rebuttal also
+needs narrowing:** the Chern–Simons exception does not defeat the strongest
+plausible propagating-Yang–Mills concern. The note proves an explicit
+Gauss-compatible unbounded-energy family for that comparator, then checks
+both transfers against the source-native first-order and residual-square
+actions.
+
+[Witten reinspection](lab/sources/witten-noncompact-quantization-source-audit-2026-10-08.md)
+separates the theorem about a projectively flat unitary connection over
+Teichmüller space from physical bulk `H=0` in the pure closed-surface theory.
+Heuristic quantization steps, stable-locus reduction and boundary limits
+remain explicit. Bar-Natan–Witten changes gauge fixing and counterterms at
+one loop; an auxiliary positive norm is not a GU energy theorem. Published
+metadata and inspected report locators remain distinct. The source and
+build [validation receipt](lab/process/nguyen-section-3-1-adjudication.json)
+records evidence and ceilings; compilation is not physics verification.
+
+| Claim | Earlier framing | Current framing | Weakest dependency | Updated live surfaces |
+| --- | --- | --- | --- | --- |
+| §3.1 rebuttal | Literal implication refuted; intended argument insufficiently reconstructed | Scope rebuttal only; conventional indefinite Yang–Mills concern survives conditionally | GU action-to-physical-mode bridge unconstructed | Assessment, banked-mathematics register, this status entry, verification map, technical note |
+| SA-U1/H59; SC-META-53 | Open; UNCERTAIN | Unchanged | Physical quadratic action and common physical domain | No source polarity, hypothesis vote or canon change |
+
+The most valuable next result is the physical quadratic action on one real
+stationary source-native background with its actual constraints, quotient,
+observation map and time/domain convention. The draft is an expository
+adjudication, not a paper claiming that this missing GU result exists.
+
+## 2026-10-08 — §3.1 inference rebuttal and canonical-geometry correction
+
+The [end-to-end Nguyen–Polya §3.1 assessment](explorations/nguyen-gu-critique/section-3-1-end-to-end-assessment-2026-10-08.md)
+separates the response's blanket complexification implication from the open
+GU positivity question. As qualified by the later same-day correction
+above, the cited Witten report challenges the universal implication in its
+specified quantization setting; it supplies no GU action transfer and does
+not dismiss the charitable Yang–Mills reading. SA-U1/H59 remain open
+and SC-META-53 remains UNCERTAIN.
+
+The selected flat scalar and constant-background calculations retain their
+exact algebraic results, with an explicit transfer correction: canonical
+Zorro geometry remains curved over a flat observing metric, and its fibre
+scaling is not an observing-metric variation. Ten exact geometry checks and
+sixteen exact action checks establish the full Ricci split, reject a natural
+three-coefficient curved background family, and support the analytic failure
+of bare section-jet observation to define an I1B action quotient on the
+smooth selected carrier. These are conditional research results, not a GU
+no-go or a completed physical reduction. No canon or source-claim polarity
+changes. The two affected owner notes and objection register carry the scope
+correction; earlier receipts are retained as historical run records.
+
+
+The same assessment now has a [focused Lean follow-up](Lean/GUFormalization/NguyenPositivityKernels.lean):
+five theorems check the conditional counterexample logic, positive-form growth
+obstruction, action-descent obstruction and incompatibility of the supplied
+canonical polynomial equations, including zero coupling. The named target
+passes on the pinned toolchain, and five coefficient rows match the exact
+Clifford calculation. Witten's construction, the geometric derivation and
+GU's physical realization remain outside Lean. The
+[receipt](lab/process/nguyen-positivity-lean.json) records the precise theorem
+assumptions and foundational dependencies; no physical verdict changes.
 
 ## 2026-10-04 — K1056--K1060 nonlinear detector-transfer boundary
 

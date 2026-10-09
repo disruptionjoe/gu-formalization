@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "artifact_type": "conditional_native_action_research_receipt",
+  "created_at_utc": "2026-10-08T14:41:45.077064+00:00",
+  "base_revision": "78ee135fa8ad8c24aa155e242460fb14630fe37b",
+  "upstream_revision": "f16d659ae8e5ba192a070c61cd01f9ec848f45c2",
+  "upstream_commits_integrated": 3,
+  "upstream_relevance": "K1473--K1487 refine external Gaussian/Wick/BRST controls; no native I1B background or physical bridge is supplied.",
+  "research_note": "explorations/conditional-build/native-i1b-constant-background-2026-10-08.md",
+  "command": "uv run --no-project --with sympy==1.14.0 python -B tests/channel-swings/native_i1b_constant_background_probe.py",
+  "dependency_sha256": {
+    "tests/channel-swings/native_i1b_constant_background_probe.py": "62125c8fa57a260f397cba91c9d1a2d455c682d9dc91ac115ed8e0da175700f4",
+    "tests/channel-swings/native_i1b_scalar_closure_probe.py": "7e1bfdfb4485710caa5b2696e81b0fff593ebdc62d6a04ae91ffaa634d703b38",
+    "tests/channel-swings/k77_exact_bank_api.py": "5f9ca5458e55669bce226bf65e82b11a54d81d7cffeb2d18a1fb4635f575cf5b",
+    "explorations/conditional-build/moving-gimmel-hodge-frame-owner-2026-08-06.md": "5f668b8c245da158e4059303b46efecc8970c060500cec26b281f4619a19b62b",
+    "explorations/conditional-build/selected-k77-direct-metric-euler-2026-08-09.md": "ae0e54b4a799da2dad2c62b92cd9631b12cbd494e1174e7a5a6e71a28d81cf10",
+    "explorations/conditional-build/selected-k77-sr1c-fixed-varpi-metric-stationarity-2026-08-14.md": "38add88b51063f1d0a067a7e76cf4d462a7c496ba442b06ebf1cf029c9de49b4"
+  },
+  "exact_result": {
+    "result_id": "NATIVE-I1B-CONSTANT-BACKGROUND",
+    "checks_passed": 26,
+    "sympy_version": "1.14.0",
+    "metric_density_row": [
+      -2,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      2,
+      0,
+      2
+    ],
+    "conformal_density_response": -8,
+    "radial_nonzero_root": "t=-kappa/312",
+    "radial_nonzero_action_density": "7*kappa^3/292032",
+    "radial_conformal_metric_response": "-7*kappa^3/36504",
+    "diagonal_grade_one_hodge_gram": "I_14",
+    "five_field_variables": [
+      "a",
+      "b",
+      "d",
+      "u",
+      "w"
+    ],
+    "five_field_cubic": "12*a*b^2+120*a*b*d+180*a*d^2-40*a*u*w-(140/3)*a*w^2+4*b^3+120*b^2*d+540*b*d^2-4*b*u^2-80*b*u*w-180*b*w^2+480*d^3-40*d*u^2-360*d*u*w-480*d*w^2",
+    "five_field_hodge_norm": "a^2+3*b^2+10*d^2-3*u^2-10*w^2",
+    "ideal_input": "Five derivatives of Q+N/2 together with N, over QQ[a,b,d,u,w]",
+    "groebner_order": "grevlex",
+    "reduced_groebner_basis": [
+      "a",
+      "b",
+      "d",
+      "u",
+      "w"
+    ],
+    "kappa_normalization": "T=kappa X sends each distortion equation to kappa^2 times its unit-coupling equation; kappa != 0 of either sign.",
+    "conclusion": "The only constant flat full stationary candidate in the declared five-field family at nonzero kappa is zero distortion."
+  },
+  "analytic_arguments": [
+    "Joint co-moving conformal variation of metric and distortion has algebraic variation -8L; derivative terms have constant coefficients and integrate to zero on compactly supported variations at the declared flat constant germ.",
+    "Distortion scaling gives 3Q+kappa N=0; the necessary metric condition L=0 then gives N=Q=0 for nonzero kappa.",
+    "Positive Hodge form on all fourteen diagonal grade-one directions excludes every nonzero real constant field in that subspace.",
+    "The five distortion derivatives are necessary full-action receiver equations. Their exact ideal with N excludes every nonzero amplitude without requiring nonlinear truncation closure."
+  ],
+  "controls": [
+    "DeWitt Gram and all ten density derivatives reconstructed directly; conformal scaling supplies a second density check.",
+    "Selected Clifford polarization reproduces the radial action and independent longitudinal-plus-bivector restriction.",
+    "Five derivatives are checked against direct full-action cubic variations at a rational field, separate from polarization.",
+    "Nonzero real Hodge-null vector demonstrates that positivity alone cannot exclude the enlarged family.",
+    "Removing the metric equation admits the rejected radial root.",
+    "A nonzero rank-one field satisfies the tested necessary equations at kappa=0; that stratum is excluded."
+  ],
+  "corroboration": "Exact Clifford arithmetic, symbolic DeWitt variation, analytic bulk variation, and exact rational Groebner elimination; no independent external review or canon promotion.",
+  "focused_validation": {
+    "typed_carrier_declaration_audit": {
+      "scope": "new note and edited Nguyen register",
+      "red": 0
+    },
+    "kill_target_claim_audit": {
+      "scope": "same two documents",
+      "red": 0,
+      "claim_affinity": "SC-META-53"
+    },
+    "source_native_comparator_routing_audit": {
+      "tests_passed": 6,
+      "failures": 0,
+      "existing_unclassified_baseline": 5,
+      "new_registry_rows_required": false
+    },
+    "local_links": {
+      "checked": 9,
+      "failures": 0
+    },
+    "dependency_hashes": {
+      "checked": 6,
+      "failures": 0
+    },
+    "git_diff_check": "PASS",
+    "frontmatter_status_schema_audit": {
+      "result": "PASS",
+      "existing_status_values_changed": 0,
+      "snapshot_change": "Appended exactly the new active_research note; removing it reproduces the merged protected digest and every prior count.",
+      "tracked_markdown": 4710,
+      "status_bearing": 3429
+    },
+    "upstream_merge_manifest_resolution": "The combined population reproduces each parent protected map and every population count when only the other parent's three new research/source notes are removed."
+  },
+  "scope": {
+    "action": "I1B only; repository-selected real K77 comm/symi/symi completion",
+    "background": "flat constant-coefficient local completion, not a source-global Observerse geometry",
+    "coupling": "real kappa != 0; both signs",
+    "excluded_families": [
+      "nonzero real constant diagonal grade-one distortion",
+      "nonzero constant five-field time/spatial/vertical grade-one and two-bivector-companion distortion"
+    ],
+    "not_excluded": [
+      "curved backgrounds",
+      "varying backgrounds",
+      "additional Clifford components",
+      "kappa=0",
+      "source-derived physical perturbation restrictions"
+    ],
+    "new_nonzero_background_admitted": false,
+    "new_stability_analysis_licensed": false,
+    "full_nonlinear_scalar_truncation_proved": false,
+    "physical_gu_positivity": "NOT_ESTABLISHED",
+    "source_or_physics_verdict_changes": [],
+    "canon_promotion": false
+  }
+}

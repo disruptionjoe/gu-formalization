@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "integration_cursor": "GU-LEDGER-KILL-TYPING-2026-08-23",
+  "integration_cursor": "GU-NATIVE-I1B-REAL-ENERGY-2026-10-09",
   "deltas": [
     {
       "delta_id": "GU-TW-COHERENCE-27-LENS-2026-08-14",
@@ -30,6 +30,16 @@
     {
       "delta_id": "GU-LEDGER-KILL-TYPING-2026-08-23",
       "path": "lab/process/conditional-evidence-deltas/gu-ledger-kill-typing-2026-08-23.json",
+      "status": "integrated"
+    },
+    {
+      "delta_id": "GU-NATIVE-I1B-BOUNDARY-EVIDENCE-2026-10-08",
+      "path": "lab/process/conditional-evidence-deltas/gu-native-i1b-boundary-evidence-2026-10-08.json",
+      "status": "integrated"
+    },
+    {
+      "delta_id": "GU-NATIVE-I1B-REAL-ENERGY-2026-10-09",
+      "path": "lab/process/conditional-evidence-deltas/gu-native-i1b-real-energy-2026-10-09.json",
       "status": "integrated"
     }
   ]

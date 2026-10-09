@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "artifact_type": "conditional_research_validation_receipt",
+  "created_at_utc": "2026-10-08T03:31:35.556222+00:00",
+  "base_revision": "23f4ffb3aca2154a91c25efff4d4bc309a834d05",
+  "branch": "main",
+  "research_note": "explorations/conditional-build/nguyen-static-pairing-and-energy-2026-10-07.md",
+  "source_pack": "lab/sources/quantum-positivity-primary-pack-2026-10-07.md",
+  "command_template": "uv run --no-project --with sympy==1.14.0 python -B <probe>",
+  "exact_certificates": [
+    {
+      "probe": "tests/channel-swings/nguyen_static_pairing_energy_probe.py",
+      "probe_sha256": "2af83625feafac8cb21e997873bfcdaccd042bee6e6c6a299e7a636088337758",
+      "result": {
+        "result_id": "NGUYEN-STATIC-PAIRING-ENERGY",
+        "checks_passed": 38,
+        "checks": [
+          "kinetic form stays nonsingular even at r=0",
+          "literal first derivative coefficient",
+          "stable constant-background sign is explicit",
+          "complete Hermitian transport system solved",
+          "integrated four-constant family obeys transport",
+          "mass equation forces imaginary part to vanish",
+          "general determinant independent of profile",
+          "remaining compatibility equation computed",
+          "positive-family determinant",
+          "positive-family lower minor",
+          "profile equation is sufficient for full formal symmetry",
+          "profile equation is necessary in positive family",
+          "changing beta does not repair a bad profile",
+          "planted arbitrary moving profile rejected",
+          "explicit positive factorization",
+          "similarity removes the first derivative",
+          "on-profile matrix potential is symmetric",
+          "constant rotation separates both scalar channels",
+          "every positive pairing gives constant positive channel weights",
+          "positive constant background has nonnegative potentials",
+          "negative constant background has negative first potential",
+          "profile first integral",
+          "nonconstant exact profile",
+          "soliton attractive channel",
+          "soliton second channel offset",
+          "exact even negative eigenmode",
+          "even eigenmode decays at both infinities",
+          "even mode is not identically zero",
+          "exact odd negative eigenmode",
+          "odd eigenmode decays at both infinities",
+          "odd mode is not identically zero",
+          "second channel zero mode",
+          "second channel positive bound mode",
+          "wave growth eigenvalue",
+          "all Hermitian phase metrics on the unstable mode solved",
+          "nondegenerate conserved phase metric is indefinite",
+          "positive complex phase metrics excluded by growth identity",
+          "attractive-channel cutoff bound is strictly negative"
+        ],
+        "sympy_version": "1.14.0",
+        "claim_ceiling": "exact algebra plus analytically proved bounded-profile theorem for the declared static observed two-field model",
+        "native_i1b_bridge": "NOT_CONSTRUCTED",
+        "physical_gu_positivity": "NOT_ESTABLISHED",
+        "profile_equation": "r''=b*(r^2-4*c^2)/2",
+        "soliton_negative_eigenvalues": [
+          "-4*k^2",
+          "-k^2"
+        ],
+        "scope": "b,c>0; whole spatial line; bounded smooth static r; unconstrained two-field wave equation; multiplication symmetrizers"
+      }
+    },
+    {
+      "probe": "tests/channel-swings/quantum_positivity_scalar_transfer_probe.py",
+      "probe_sha256": "77652611dc860db337bf793da4dff5e0f36446461e9492af92ae197e7f43f7fb",
+      "result": {
+        "result_id": "QUANTUM-POSITIVITY-SCALAR-TRANSFER",
+        "source": "arXiv:2608.12210v1",
+        "checks_passed": 14,
+        "checks": [
+          "complete square residue equals discriminant",
+          "paper perfect-square normalization",
+          "off-relation quartic term is retained",
+          "RG relation requires tangency",
+          "momentum-conserving cubic Gram cancellation",
+          "a soft cubic leg starts at quadratic order",
+          "auxiliary equation has stated unique solution",
+          "elimination yields three over two g",
+          "displayed coefficient differs by exactly factor three",
+          "derived normalization matches the scalar action",
+          "printed normalization gives one third of scalar action",
+          "restricted action can pass coefficient matching",
+          "same restricted action can have a nonzero normal equation",
+          "closure control vanishes only with its extra condition"
+        ],
+        "sympy_version": "1.14.0",
+        "assumptions": "a!=0; auxiliary elimination g!=0 and Omega!=0; auxiliary exponential substitution lambda!=0; polynomial PS identity also valid at lambda=0",
+        "claim_ceiling": "exact displayed-equation diagnostics and a finite-dimensional closure countercontrol; no loop calculation or native GU sector constructed"
+      }
+    }
+  ],
+  "analytic_proof": "Complete positive Hermitian multiplication classification; bounded convexity and whole-line quadratic-form trial proof in research note. Symbolic checks certify algebraic ingredients, not continuum enumeration.",
+  "independent_verification": {
+    "derivation_and_scope": "independently reviewed after construction, no substantive findings",
+    "static_probe": "38/38 checks reproduced with SymPy 1.14.0, including equivalence of signs for every allowed positive pairing",
+    "scalar_probe": "14/14 checks reproduced; lambda!=0 auxiliary-domain qualification incorporated",
+    "canon_promotion": false
+  },
+  "scope": {
+    "native_i1b_bridge": "NOT_CONSTRUCTED",
+    "physical_gu_positivity": "NOT_ESTABLISHED",
+    "source_claim_changes": [],
+    "claim_ceiling": "Conditional observed two-field wave theorem and external scalar transfer diagnostics only."
+  },
+  "baseline_limitations": [
+    {
+      "check": "frontmatter_status_schema_audit",
+      "status": "PRE_EXISTING_FAILURES",
+      "details": "Before adding these new documents to the index, tracked Markdown was 4670 versus frozen 4655; status-bearing was 3389 versus frozen 3374. Protected mapping already differed; K1216--K1220 had a new/changed non-role status without typed axis. New documents use active_research. The frozen manifest is not rebaselined to bless unrelated drift."
+    },
+    {
+      "check": "existing K117 probe",
+      "status": "ALGEBRA_PASSES_HISTORICAL_ROADMAP_ASSERTIONS_FAIL",
+      "details": "40/43 checks pass; three assertions about old CURRENT-STATE/NEXT-STEPS/context substrings fail. The new probe independently recomputes the operator identities and makes no full-suite-green claim.",
+      "probe": "tests/channel-swings/selected_k117_rsap_tt_symbol_order_custody_and_moving_hessian_gate_probe.py"
+    },
+    {
+      "check": "toolchains",
+      "status": "NOT_RUN",
+      "details": "Sage and Lean are not installed locally; these certificates require pinned SymPy only."
+    }
+  ],
+  "focused_validation": {
+    "typed_carrier_declaration_audit": {
+      "scope": "four added or edited Markdown documents",
+      "red": 0,
+      "typed_blocks": 2,
+      "triggered_results": 1,
+      "codomain": "match"
+    },
+    "kill_target_claim_audit": {
+      "scope": "same four documents",
+      "red": 0,
+      "registered_affinities": [
+        "SC-META-53"
+      ],
+      "claim_verdict_changes": []
+    },
+    "source_native_comparator_routing_audit": {
+      "tests_passed": 6,
+      "tests_failed": 0,
+      "existing_unclassified_baseline": 5,
+      "new_registry_rows_required": false
+    },
+    "custody_and_links": {
+      "new_note_local_links": "PASS",
+      "pdf_hashes_verified": 4,
+      "pdf_total_bytes": 1793107,
+      "probe_hashes_verified": 2
+    },
+    "new_frontmatter_roles": {
+      "added_documents": 2,
+      "status": "active_research",
+      "existing_status_values_changed": 0
+    },
+    "git_diff_check": "PASS"
+  }
+}

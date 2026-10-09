@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "artifact_type": "primary_source_reinspection_custody_receipt",
+  "verified_at_utc": "2026-10-08T16:52:53.281393+00:00",
+  "scope": "Precise claims and limitations of Witten and Bar-Natan–Witten for Nguyen–Polya section 3.1; no GU physical positivity verdict or theory transfer.",
+  "sources": [
+    {
+      "path": "lab/sources/witten-complex-cs-iassns-hep-89-65-kekscan-90-09-085.pdf",
+      "title": "Quantization of Chern-Simons Gauge Theory with Complex Gauge Group",
+      "authors": "Edward Witten",
+      "inspected_version": "IASSNS-HEP-89/65; December 1989",
+      "pdf_pages": 44,
+      "bytes": 1955757,
+      "sha256": "5cd3bd5dab08376767ebb612a6335d907ea3671e24a5e8df1644fd8334204f5f",
+      "retrieval_url": "https://lib-extopc.kek.jp/preprints/PDF/1990/9009/9009085.pdf",
+      "published_doi": "10.1007/BF02099116",
+      "published_metadata": "Communications in Mathematical Physics 137 (1991), 29–66",
+      "locator_convention": "All inspected page numbers are report page labels, equal to one-based local PDF page numbers; none are journal page locators.",
+      "inspected_locators": [
+        "Introduction pp2–4",
+        "Section 2 pp5–7",
+        "Section 3 pp8–9",
+        "Section 3.4 pp16–17",
+        "Section 4 pp18–29, theorem p21",
+        "Section 4.1 pp22–23, equations 4.12–4.18",
+        "Section 5.3 pp33–34, equations 5.13–5.19",
+        "Section 6.1 pp37–39",
+        "Section 6.3 pp40–42"
+      ]
+    },
+    {
+      "path": "lab/sources/bar-natan-witten-noncompact-cs-cmp141-1991.pdf",
+      "title": "Perturbative Expansion of Chern-Simons Theory with Non-Compact Gauge Group",
+      "authors": "Dror Bar-Natan and Edward Witten",
+      "inspected_version": "IASSNS-HEP-91/4; January 1991",
+      "pdf_pages": 29,
+      "bytes": 215877,
+      "sha256": "b88f0a842c7809f623ceaa4896c0c2fdb3c447f7b9a2ade6ba8b59130bd6790f",
+      "retrieval_url": "https://www.math.toronto.edu/~drorbn/papers/NonCompact/NonCompact.pdf",
+      "published_doi": "10.1007/BF02101513",
+      "published_metadata": "Communications in Mathematical Physics 141 (1991), 423–440",
+      "locator_convention": "All inspected page numbers are report page labels, equal to one-based local PDF page numbers; none are journal page locators.",
+      "inspected_locators": [
+        "Introduction pp2–4",
+        "Section 2 pp5–6",
+        "Section 3 pp11–13",
+        "Section 4 pp14–18, equations 4.1–4.11",
+        "Section 4 pp22–23, equations 4.37–4.39"
+      ]
+    }
+  ],
+  "published_version_audit": {
+    "witten": {
+      "metadata_verified_at": "https://link.springer.com/article/10.1007/BF02099116",
+      "journal_pdf_inspected": false,
+      "journal_pages_not_inferred": true,
+      "attempted_official_pdf_urls": [
+        "https://projecteuclid.org/download/pdf_1/euclid.cmp/1104202513",
+        "https://link.springer.com/content/pdf/10.1007/BF02099116.pdf"
+      ],
+      "observed_results": [
+        "Project Euclid security-check HTML, not PDF",
+        "Springer subscription HTML, not PDF"
+      ],
+      "limitation": "The journal typesetting was not recovered; the report alone supplies substantive locators."
+    },
+    "bar_natan_witten": {
+      "journal_pdf_inspected": false,
+      "journal_pages_not_inferred": true
+    }
+  },
+  "audit_path": "lab/sources/witten-noncompact-quantization-source-audit-2026-10-08.md",
+  "custody": "The two existing PDFs are ignored local corpus assets; this receipt and source audit are intended tracked research artifacts. No additional PDF was promoted."
+}

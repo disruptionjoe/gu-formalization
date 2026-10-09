@@ -1,0 +1,343 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-10-08",
+  "owner": "explorations/conditional-build/native-zorro-real-metric-hessian-2026-10-08.md",
+  "probe": "tests/channel-swings/native_zorro_real_metric_probe.py",
+  "classification": "SOURCE_NATIVE_ROUTE within the declared canonical comm/symi/symi bosonic I1B reconstruction",
+  "target_claim": "NONE-NOT-A-KILL",
+  "bears_on": [
+    "SC-ACT-06",
+    "SC-META-53"
+  ],
+  "canon_verdict_change": "none",
+  "result": {
+    "passed": 13,
+    "checks": [
+      "all 54 curvature variables give scalar correction minus one quarter F squared",
+      "all 54 curvature directions vanish in the natural first-order action density",
+      "18 independent coordinate quadratic jets verify scalar and radial Ricci identities",
+      "coordinate volume identity at diagonal [1, -1, -1, -1]",
+      "coordinate volume identity at diagonal [4, -1, -1, -1]",
+      "five spatial traceless metric polarizations have positive Frobenius Gram",
+      "horizontal second-time metric source is injective while the third-time source is mixed",
+      "full covariant compensator residual and all five potential columns annihilate every primary receiver",
+      "complete traceless acceleration potential has the exact mass and cubic Gram matrices",
+      "independent occupation-state matrices reproduce all three nonzero compensator Gram matrices",
+      "the lapse and all three shift polarizations have zero acceleration source at this fibre point",
+      "rational interval arithmetic certifies a nonzero acceleration coefficient on both coupling branches",
+      "an off-diagonal real grade-one background breaks the claimed universal zero-column identity"
+    ],
+    "coordinate_quadratic_controls": 18,
+    "primary_receiver_blocks": [
+      {
+        "label": 0,
+        "coefficients": 42,
+        "kernel": 12
+      },
+      {
+        "label": 6,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 10,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 12,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 130,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 132,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 136,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 258,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 260,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 264,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 384,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 514,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 516,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 520,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 640,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 768,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 2050,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 2052,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 2056,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 2176,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 2304,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 2560,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 4098,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 4100,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 4104,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 4224,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 4352,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 4608,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 6144,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 8194,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 8196,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 8200,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 8320,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 8448,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 8704,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 10240,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 12288,
+        "coefficients": 18,
+        "kernel": 14
+      }
+    ],
+    "spatial_traceless_gram": [
+      [
+        "2",
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "-1",
+        "2",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "2",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "2",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "2"
+      ]
+    ],
+    "natural_action_curvature_coefficient": "K=(11a+c)/2",
+    "acceleration_hessian_per_frobenius_norm": "-9/256*(kappa+8/3*(10*a+c))",
+    "primary_acceleration_correction": "zero at h=diag(4,-1,-1,-1)",
+    "positive_factor_interval": [
+      "34662589953650536126187691188594238572785950846128068565533787716400928574964543944548218991176103168232342897370676157708663179345787925172/11242436511027545746885090284912093060712024459310476702270654857338546059621276949291897691148080047084416626427007811047873668543311574277",
+      "427933209773008560702919411927645702827587871091242268399603802698818337572172217323363094303610400025430752632159777100076057682991222284/138795512127207487876968642815103683445581731018961067075339247833489467204010912255519263435475698012106015129817589292689317645290383019"
+    ],
+    "mirror_behavior": "acceleration Hessian changes sign and stays nondegenerate",
+    "background_control": {
+      "background": "e^0 gamma_1",
+      "receiver": "e^0 gamma_0 gamma_4 gamma_10",
+      "nonzero_primary_rows": [
+        [
+          0,
+          "-4/3"
+        ],
+        [
+          1,
+          "-4/3"
+        ]
+      ],
+      "stationary_claim": false
+    },
+    "scope": "pure-base Hessian and real local acceleration coefficient; conditional homogeneous Hamiltonian consequence only"
+  },
+  "analytic_results": [
+    "natural action metric dependence equals K h^ij Ric(g)_ij-K||F||^2/4 with fixed fibre density",
+    "complete pure-base Hessian has base derivative orders two and four",
+    "third-time compensation and all distortion primary recovery give the stated acceleration Schur coefficient",
+    "the five-polarization matrix remains nondegenerate after integration over a sufficiently small fibre neighbourhood",
+    "a homogeneous completion satisfying the explicit boundary and independent-momentum hypotheses has energy unbounded in both directions",
+    "a permanent distortion-free fibre collar forces homogeneous spatial traceless metric acceleration to vanish",
+    "the candidate standard matrix-current coupling need not preserve J=0; this is conditional on its pairing and field choices"
+  ],
+  "not_established": [
+    "a completed physical real-sector boundary domain admitting the independent spin-two momenta",
+    "the full metric/boundary constraint propagation or global Cauchy well-posedness",
+    "an unconditional physical real-packet energy theorem or quantum spectral theorem",
+    "background-independent energy signs, another stationary background, or failure of source Spin(6,4) shielding",
+    "closure or failure for every source-admitted fermion coupling",
+    "a universal GU verdict, later independent research review or publication readiness"
+  ],
+  "claim_status_consistency": {
+    "prior": "pure-base Hessian uncomputed; real primary reduction exact",
+    "current": "pure-base Hessian and reduced acceleration exact; homogeneous Hamiltonian consequence conditional",
+    "weakest_dependency": "selected reconstruction and uncompleted transported boundary domain",
+    "SC-META-53": "UNCERTAIN unchanged",
+    "SC-ACT-06": "ASSERTS unchanged; no physical positivity inferred from the moduli/Euclidean complex"
+  },
+  "validation": {
+    "sympy": "1.14.0",
+    "probe_passed": true,
+    "replay_command": "uv run --no-project --with sympy==1.14.0 python -B tests/channel-swings/native_zorro_real_metric_probe.py",
+    "outward_decimal_bounds": "verified against the exact rational interval",
+    "formatting": "AST equality checked after formatting the verified probe",
+    "predecessor_real_packet_replay": "11 grouped checks, all 40 class records identical to the prior receipt",
+    "typed_carrier_audit": "0 red; 4 files, 2 result triggers, 4 typed blocks",
+    "target_claim_audit": "0 red; SC-ACT-06 and SC-META-53 affinity preserved",
+    "frontmatter_status_audit": "0 failures; one new active_research owner, legacy population unchanged",
+    "tests_manifest_count_audit": "3 tests passed; 4055 Python and 93 Sage channel-swings files",
+    "source_native_comparator_routing_audit": "6 tests passed; five pre-existing unclassified artifacts unchanged",
+    "owner_and_draft_links": "28 resolved; YAML and JSON parsed",
+    "paper_build": "11 pages; offline build passed citation, glyph and layout checks; changed pages and bibliography visually reviewed",
+    "git_diff_check": "working tree and index checked before commit"
+  },
+  "dependencies_sha256": {
+    "explorations/conditional-build/native-zorro-real-metric-hessian-2026-10-08.md": "2287d8b67083f2c7650115e7cd2a47d2d2d74609af30ebe7a4259095dc1f4f89",
+    "tests/channel-swings/native_zorro_real_metric_probe.py": "bd0d7b1bbd8fea6d22e7538bcd8e93e784eceaad9289acf65cad9c99adec7dbe",
+    "lab/process/native-zorro-real-packet-and-selection.json": "9040238e2e641f93b8cf0b0b61ffaf184d192ab395449f0a6e30f87cf5d414ef",
+    "explorations/conditional-build/native-zorro-stationary-background-2026-10-08.md": "a6fc9a36ee2ae72d7cd563b753c884bd4cc68a8db9cce3984d943ed4f78dd983",
+    "explorations/conditional-build/native-zorro-algebraic-reduction-2026-10-08.md": "678d52703230091c166af28570696a472cfbc3902537b1583f31b76d1299c278",
+    "lab/process/native-zorro-constrained-energy.json": "89952240f41cd35791bd70e472bb9917e3844e5736e311a86e3fc8a59d448550",
+    "lab/sources/gu-2021-draft-s9-fermionic-operator-extraction-2026-08-04.md": "c250ce367774ff593255cd211e18ea793dd3eddcd843e0520437b6d645a2c31b",
+    "lab/sources/transcripts/toe-weinstein-gu-40-years.md": "e3af5cda82d7ff397e4cf6a283d560a01a930e11de942e51426f019b5dfe47b7",
+    "tests/channel-swings/native_zorro_geometry_probe.py": "9aa7e7414056f13f45a4d4a47d16ce761c804a672585504d52fcdb14a2952367",
+    "tests/channel-swings/native_zorro_i1b_probe.py": "3c802d8d8a6063853ca1c1ff23213bf67d14fa41eb1e613225f01dcf4c143e40",
+    "tests/channel-swings/native_zorro_metric_perturbation_probe.py": "22258c554d1043a2ade73c1527456985c0e5e109ab643d8a96028aec920ee30e",
+    "tests/channel-swings/native_zorro_stationary_background_probe.py": "5f9e096e58ad88bb8e5989eeccd5c01006c190db95ca1a5f0708555459012b91",
+    "tests/channel-swings/native_zorro_constrained_energy_probe.py": "8fbdb1b70398748fa44bd3cac16c7357d03e078666194838c57324994abfce47",
+    "tests/channel-swings/native_zorro_matrix_energy_probe.py": "dd31a118fe0aec8d34712469c5e9c25eda42a688946ae1b82b769cef93d970e1",
+    "tests/channel-swings/native_i1b_scalar_closure_probe.py": "7e1bfdfb4485710caa5b2696e81b0fff593ebdc62d6a04ae91ffaa634d703b38",
+    "tests/channel-swings/k77_exact_bank_api.py": "5f9ca5458e55669bce226bf65e82b11a54d81d7cffeb2d18a1fb4635f575cf5b"
+  },
+  "boundary_successor": {
+    "owner": "explorations/conditional-build/native-zorro-boundary-constraints-2026-10-08.md",
+    "qualification": "The declared odd-Dirichlet completion has a rank-five momentum compatibility condition at fixed distortion jets. The prior independent-momentum Hamiltonian theorem remains conditional.",
+    "replay": "13 grouped checks and all result fields identical after adding the optional homogeneous connection input."
+  }
+}

@@ -3050,7 +3050,7 @@ were sorted by reading each note's content.)
 |---|---|
 | [`c-mpr/`](c-mpr/) | redirected C_MPR, 9-tuple, and application-rigor syntheses |
 | [`ca-computational-irreducibility/`](ca-computational-irreducibility/) | cellular automata and computational-irreducibility tests |
-| [`nguyen-gu-critique/`](nguyen-gu-critique/) | synthesis and gap-assessment of the Nguyen-Polya GU critique |
+| [`nguyen-gu-critique/`](nguyen-gu-critique/README.md) | current source assessment and complete evidence map from positive pairings to curved I1B real/imaginary compact-core energy; historical critique syntheses retained |
 | [`layer-split/`](layer-split/) | propagation / decision / anomaly-class / coarse-graining split |
 | [`sorkin-causal-set/`](sorkin-causal-set/) | causal-set axis notes |
 | [`rg-universality/`](rg-universality/) | RG / universality axis notes |

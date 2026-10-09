@@ -83,6 +83,12 @@ EXECUTABLE_CERTIFICATE_OVERRIDES = frozenset({
     "tests/channel-swings/k619_k77_zero_form_moving_graph_common_action_module.py",
     "tests/channel-swings/k621_k77_full_action_commutant_seed_adapter_obstruction.py",
     "tests/channel-swings/k623_k77_constructed_orbit_pairing_defect.py",
+    "tests/channel-swings/native_i1b_scalar_closure_probe.py",
+    "tests/channel-swings/native_zorro_constrained_energy_probe.py",
+    "tests/channel-swings/native_zorro_geometry_probe.py",
+    "tests/channel-swings/native_zorro_i1b_probe.py",
+    "tests/channel-swings/native_zorro_matrix_energy_probe.py",
+    "tests/channel-swings/native_zorro_stationary_background_probe.py",
 })
 
 # The explicit allowlist. Must equal NAMED_LIBRARY_SEEDS union the modules

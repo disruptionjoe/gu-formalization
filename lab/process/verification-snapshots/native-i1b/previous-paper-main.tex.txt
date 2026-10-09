@@ -1,0 +1,58 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{microtype,needspace,xcolor}
+\definecolor{linkblue}{RGB}{28,65,105}
+\usepackage[colorlinks=true,allcolors=linkblue]{hyperref}
+\usepackage[nameinlink,noabbrev,capitalise]{cleveref}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}[proposition]{Lemma}
+\theoremstyle{remark}
+\newtheorem{remark}[proposition]{Remark}
+\newcommand{\Tr}{\operatorname{Tr}}
+\newcommand{\ad}{\operatorname{ad}}
+\newcommand{\YM}{\mathrm{YM}}
+\newcommand{\CS}{\mathrm{CS}}
+\title{Complex Gauge Groups and Energy Positivity:\\
+A Scope Analysis of the Nguyen--Polya Objection to Geometric Unity}
+\author{Technical note --- working draft}
+\date{October 8, 2026}
+\hypersetup{pdftitle={Complex Gauge Groups and Energy Positivity},
+ pdfsubject={Source-based adjudication; unpublished technical-note draft}}
+\begin{document}
+\maketitle
+\begin{abstract}
+Section 3.1 of Nguyen and Polya's response to Geometric Unity associates
+complexification of the connection and gauge group with nonunitarity or an
+energy spectrum unbounded in both directions. We distinguish its literal
+wording from a stronger contextual reading involving propagating
+Yang--Mills fields. The cited work of Witten explicitly separates ordinary
+Yang--Mills theory with an indefinite invariant kinetic form from complex
+Chern--Simons theory. We exhibit Gauss-compatible data with arbitrarily
+negative energy for the former, state the assumptions and limitations of
+the latter, and examine the source-native Geometric Unity actions.
+Neither the Yang--Mills obstruction nor the Chern--Simons construction has
+an established physical transfer to those actions. Thus the passage does
+not establish a Geometric Unity no-go, while a rebuttal based only on
+Chern--Simons theory does not discharge the physical concern. The
+note also summarizes a direct calculation in one selected curved
+first-order reconstruction: after its imaginary-packet primary constraints
+are solved, the classical quadratic energy is unbounded in both directions
+on a compact phase core, for either stationary coupling sign. The
+metric-coupled real packet admits a consistent nonlinear restriction,
+but an exact primary reduction leaves a nondegenerate metric-acceleration
+block. Its Hamiltonian consequence depends on the boundary completion;
+no positive physical completion is proved.
+These bounded results support the energy concern on that reconstruction;
+they are not a quantum spectral theorem or a universal GU no-go.
+\end{abstract}
+\input{content}
+\clearpage
+\begingroup
+\small
+\bibliographystyle{plain}
+\bibliography{references}
+\endgroup
+\end{document}

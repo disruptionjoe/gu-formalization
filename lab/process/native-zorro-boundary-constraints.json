@@ -1,0 +1,460 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-10-08",
+  "owner": "explorations/conditional-build/native-zorro-boundary-constraints-2026-10-08.md",
+  "probe": "tests/channel-swings/native_zorro_boundary_constraint_probe.py",
+  "classification": "SOURCE_NATIVE_ROUTE within the selected curved comm/symi/symi bosonic I1B reconstruction; declared odd-Dirichlet boundary polarization",
+  "target_claim": "NONE-NOT-A-KILL",
+  "bears_on": [
+    "SC-ACT-06",
+    "SC-META-53"
+  ],
+  "canon_verdict_change": "none",
+  "result": {
+    "passed": 10,
+    "checks": [
+      "37 generators exhaust the torsion-free closed-trace homogeneous connection carrier",
+      "every primary projection of A2 minus the full covariant compensator derivative vanishes",
+      "every primary projection of each of the five potential columns vanishes",
+      "the curvature Gram has rank 27 on the complete 37-dimensional carrier",
+      "all 1369 mixed mass Gram entries equal minus one sixteenth of the curvature Gram",
+      "all mixed cubic Gram entries have the stated universal coefficients",
+      "independent matrix elements distinguish the action boundary coefficient from the skew bulk coefficient",
+      "the even-force Gram is definite on all five spatial traceless polarizations on both branches",
+      "the independent metric acceleration matrix remains nondegenerate on both branches",
+      "the five-polarization force Gram has rank five and fixes the boundary compatibility rank"
+    ],
+    "connection_dimension": 37,
+    "curvature_gram_rank": 27,
+    "primary_blocks": [
+      {
+        "label": 0,
+        "coefficients": 42,
+        "kernel": 12
+      },
+      {
+        "label": 2,
+        "coefficients": 20,
+        "kernel": 14
+      },
+      {
+        "label": 4,
+        "coefficients": 20,
+        "kernel": 14
+      },
+      {
+        "label": 6,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 8,
+        "coefficients": 20,
+        "kernel": 14
+      },
+      {
+        "label": 10,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 12,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 18,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 20,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 24,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 34,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 36,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 40,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 66,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 68,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 72,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 130,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 132,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 136,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 144,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 160,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 192,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 258,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 260,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 264,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 272,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 288,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 320,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 384,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 514,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 516,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 520,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 528,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 544,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 576,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 640,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 768,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 2050,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 2052,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 2056,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 2064,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 2080,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 2112,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 2176,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 2304,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 2560,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 4098,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 4100,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 4104,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 4112,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 4128,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 4160,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 4224,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 4352,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 4608,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 6144,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 8194,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 8196,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 8200,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 8208,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 8224,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 8256,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 8320,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 8448,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 8704,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 10240,
+        "coefficients": 18,
+        "kernel": 14
+      },
+      {
+        "label": 12288,
+        "coefficients": 18,
+        "kernel": 14
+      }
+    ],
+    "universal_primary_source": "N^T(A2-D0*y)=N^T V*y=0",
+    "universal_acceleration": "-[kappa+8/3*(10a+c)] ||F1||^2/16",
+    "boundary_control": {
+      "normal": 4,
+      "odd": [
+        0,
+        [
+          0
+        ]
+      ],
+      "even": [
+        0,
+        [
+          0,
+          4
+        ]
+      ],
+      "K_odd_even": "0",
+      "K_even_odd": "-2",
+      "E_odd_even": "1"
+    },
+    "force_factor_interval": [
+      "-18510800919141944174718452274971624801849749126402359199251831005346887056310917535482270151355077001297443951296379954661755780000000000/46265170709069162625656214271701227815193910339653689025113082611163155734670304085173087811825232670702005043272529764229772548430127673",
+      "-4498124593952478821550048122251096212765381557802910347173649583202058457292699853810979000055974339842413625947060670148571312460000000000/11242436511027545746885090284912093060712024459310476702270654857338546059621276949291897691148080047084416626427007811047873668543311574277"
+    ],
+    "acceleration_factor_interval": [
+      "34662589953650536126187691188594238572785950846128068565533787716400928574964543944548218991176103168232342897370676157708663179345787925172/11242436511027545746885090284912093060712024459310476702270654857338546059621276949291897691148080047084416626427007811047873668543311574277",
+      "427933209773008560702919411927645702827587871091242268399603802698818337572172217323363094303610400025430752632159777100076057682991222284/138795512127207487876968642815103683445581731018961067075339247833489467204010912255519263435475698012106015129817589292689317645290383019"
+    ],
+    "boundary_compatibility_rank": 5,
+    "source_selection": "odd-Dirichlet polarization is a declared completion, not selected by the draft",
+    "scope": "exact bulk identity and boundary compatibility constraint; no completed positive or negative physical real-sector Hamiltonian"
+  },
+  "analytic_results": [
+    "Linearity, constant coordinate covariance and nonzero time rescaling extend the complete 37-generator identities across the positive-time patch.",
+    "The raw first-order Green form, with the declared polarization term, leaves Theta_pol=E^T E_EO(n) delta O.",
+    "After primary recovery, time differentiation of the odd boundary condition yields C0, C1 and C2 as stated in the owner.",
+    "The exact force Gram makes Bcal Ucal injective on the five spin-two metric accelerations near h0 on both branches.",
+    "C2 imposes five independent conditions on metric momenta at fixed distortion boundary jets; the predecessor free-momentum operation does not preserve this domain."
+  ],
+  "not_established": [
+    "A propagated closed real-sector domain or global Cauchy well-posedness",
+    "Positive energy or an unconditional real-sector negative-energy theorem after the full boundary compatibility chain",
+    "Source selection of this boundary completion, uniqueness of the action reconstruction, or action-root admission",
+    "The physical BV/BRST INHERITANCE_BRIDGE, a firewall necessity theorem, a universal GU verdict, or publication readiness"
+  ],
+  "ledger_effect": {
+    "version": "0.264",
+    "rows": [
+      "LT-SM8",
+      "LT-GR6b"
+    ],
+    "verdicts": "NEEDS unchanged",
+    "named_conditions_discharged": 0,
+    "firewall": "criterion 1 bounded observation; hypothesis OPEN unchanged; no independent double counting"
+  },
+  "validation": {
+    "replay_command": "uv run --no-project --with sympy==1.14.0 python -B tests/channel-swings/native_zorro_boundary_constraint_probe.py",
+    "sympy": "1.14.0",
+    "grouped_checks": 10,
+    "predecessor_replay": "13 grouped checks, all result fields identical",
+    "formatting": "AST equality checked after formatting both probes",
+    "ledger_schema": "v0.2 schema passed",
+    "ledger_preservation": "Only LT-SM8 and LT-GR6b rows differ; all protected fields, counts, residue, conditional hypotheses and prior migration history preserved; old evidence is a prefix.",
+    "conditional_evidence_delta_gate": "passed, seven files",
+    "learning_transport_contract_audit": "four tests passed",
+    "mint_context_projection_audit": "zero red, two touched rows with context",
+    "kill_target_claim_audit": "zero red for the three touched owners and v0.264 ledger",
+    "typed_carrier_declaration_audit": "zero red; three blocks, two result triggers",
+    "frontmatter_status_schema_audit": "zero failures; 4731 tracked Markdown, 3450 status-bearing, legacy population unchanged",
+    "tests_manifest_count_audit": "three tests passed; 4076 Python and 93 Sage channel-swings files",
+    "source_native_comparator_routing_audit": "six tests passed; five pre-existing unclassified artifacts unchanged",
+    "reverse_scaffold_direction_audit": "passed",
+    "current_state_absolute_currency_audit": "passed",
+    "owner_links": "16 relative links resolved; CURRENT-STATE YAML parsed",
+    "git_diff_check": "index and working-tree checks passed before commit"
+  },
+  "dependencies_sha256": {
+    "explorations/conditional-build/native-zorro-boundary-constraints-2026-10-08.md": "a9bf49d8755e98417b556f959ef4f3fdad5aea6b7663fc7c636064d957118ea6",
+    "tests/channel-swings/native_zorro_boundary_constraint_probe.py": "5ba84f6f5ed1915cc2a6f9c97dd2ccc8c6e3aa0850e337f3a6bb173bed83928e",
+    "explorations/conditional-build/conditional-physics-ledger-v0.264.md": "97be732b5de5f02d2153f6acdef2568c499853e95c5e0893bc2a776d88f4fe3c",
+    "lab/process/conditional-physics-ledger-v0.264.json": "71ac7d39169cce3fd053a7dad03c103b3a2674b98b9609b4b68029662d0c8655",
+    "lab/process/native-zorro-real-metric-hessian.json": "1309e602b51b407c40f0db8352c30eb551547485afcf15859de1d46a4010f071",
+    "tests/channel-swings/native_zorro_real_metric_probe.py": "bd0d7b1bbd8fea6d22e7538bcd8e93e784eceaad9289acf65cad9c99adec7dbe",
+    "lab/process/native-zorro-real-packet-and-selection.json": "9040238e2e641f93b8cf0b0b61ffaf184d192ab395449f0a6e30f87cf5d414ef",
+    "lab/process/native-zorro-constrained-energy.json": "89952240f41cd35791bd70e472bb9917e3844e5736e311a86e3fc8a59d448550",
+    "tests/channel-swings/native_zorro_matrix_energy_probe.py": "dd31a118fe0aec8d34712469c5e9c25eda42a688946ae1b82b769cef93d970e1",
+    "tests/channel-swings/native_zorro_algebraic_reduction_probe.py": "f115d4d74b8c4fa194a3a4905625ef149877786c6ee5bc0e145ef03db81ff5f8"
+  },
+  "real_energy_successor": {
+    "owner": "explorations/conditional-build/native-zorro-real-energy-2026-10-09.md",
+    "relation": "The rank-five fixed-distortion momentum constraint remains valid. A different real reflection character now gives two-sided compact-core energy with zero metric forcing and all-order formal boundary compatibility.",
+    "physical_domain_ceiling": "No closed physical evolution domain or nonlocal admissibility theorem is inferred."
+  }
+}

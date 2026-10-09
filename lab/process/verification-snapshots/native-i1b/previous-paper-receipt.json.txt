@@ -1,0 +1,27 @@
+{
+  "kind": "preprint_typesetting_receipt",
+  "compiler": "Tectonic 0.17.0",
+  "compiler_sha256": "a98aa59ad5c1df39a6c9e56cbfc5088f2b11d6c179c0130b97998e4bd46a46da",
+  "compiler_archive_url": "https://github.com/tectonic-typesetting/tectonic/releases/download/tectonic%400.17.0/tectonic-0.17.0-x86_64-unknown-linux-musl.tar.gz",
+  "compiler_archive_sha256": "8533d07f9ccbd7a65824b9e0459041bca34af1eb33daba48f59215593753a3b7",
+  "bundle_url": "https://data1.fullyjustified.net/tlextras-2022.0r0.tar",
+  "source_date_epoch": 946684800,
+  "offline": true,
+  "sources_sha256": {
+    "content.tex": "901d853a7cec56c83c81c38dbf145a88d2d25d9cf20fcc277375f6712c1548bf",
+    "main.tex": "e0368bc735975f7e242921629a7dd08c3d16ae1de18fbe6202409de3731b229e",
+    "references.bib": "50379536e00ef4fb1778f341c4267f44e21536924c243974da2ae68819309ac3",
+    "research-update.tex": "2931482b37f5a976a64d23d2bc15428b0c6073dd6012d253ba57306d3e153808"
+  },
+  "article_pdf_sha256": "b068a3e7fdb135d33486ceadeca9513c8fd57f806b8bbb2cc0a9c6e26b984c6a",
+  "source_zip_sha256": "b71673e19f0607c4e76b11cf78dc62b14496833519ec71dc4559ab1b53f69aea",
+  "checks": {
+    "tex_exit_zero": true,
+    "references_resolved": true,
+    "citations_resolved": true,
+    "no_missing_glyphs": true,
+    "no_overfull_boxes": true
+  },
+  "underfull_box_notices": 0,
+  "claim_scope": "Typesetting only; no mathematical verification or publication status."
+}

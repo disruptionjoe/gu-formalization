@@ -1,0 +1,58 @@
+@misc{NP,
+ author = {Nguyen, Timothy and Polya, Theo},
+ title = {A Response to Geometric Unity},
+ year = {2021},
+ howpublished = {\url{https://files.timothynguyen.org/geometric_unity.pdf}},
+ note = {February 23, 2021. Especially sections 2.3, 3.1 and 3.4, pp. 5--6, 8}
+}
+@misc{GU,
+ author = {Weinstein, Eric R.},
+ title = {Geometric Unity: Author's Working Draft, v. 1.0},
+ year = {2021},
+ howpublished = {\url{https://geometricunity.nyc3.digitaloceanspaces.com/Geometric_Unity-Draft-April-1st-2021.pdf}},
+ note = {April 1, 2021. Source-native formulas and proposals, not a completed quantum theory}
+}
+@misc{I1BResearch,
+ key = {GU Formalization companion research},
+ title = {Curved {I1B} Stationary Background, Constrained Energy, and Real Metric Hessian},
+ year = {2026},
+ note = {Unpublished companion records, October 8, in the GU Formalization
+ research repository: the native-zorro stationary-background,
+ constrained-energy, real-packet-and-selection, and real-metric-hessian derivations under
+ \url{explorations/conditional-build/}, with exact probes under
+ \url{tests/channel-swings/} and receipts under \url{lab/process/}.
+ Selected reconstruction and classical quadratic scope; no independent later review or canon promotion}
+}
+@article{Witten1991,
+ author = {Witten, Edward},
+ title = {Quantization of {Chern--Simons} Gauge Theory with Complex Gauge Group},
+ journal = {Communications in Mathematical Physics},
+ volume = {137},
+ year = {1991},
+ pages = {29--66},
+ doi = {10.1007/BF02099116},
+ note = {Journal bibliographic identity. Detailed inspected locators in this note refer to the separately listed report}
+}
+@techreport{WittenReport,
+ author = {Witten, Edward},
+ title = {Quantization of {Chern--Simons} Gauge Theory with Complex Gauge Group},
+ institution = {Institute for Advanced Study},
+ number = {IASSNS-HEP-89/65},
+ year = {1989},
+ month = dec,
+ note = {Inspected 44-page report, KEK scan 90-09-085.
+ \url{https://lib-extopc.kek.jp/preprints/PDF/1990/9009/9009085.pdf}.
+ Report page numbers are not journal page numbers}
+}
+@article{BNW,
+ author = {Bar-Natan, Dror and Witten, Edward},
+ title = {Perturbative Expansion of {Chern--Simons} Theory with Non-Compact Gauge Group},
+ journal = {Communications in Mathematical Physics},
+ volume = {141},
+ year = {1991},
+ pages = {423--440},
+ doi = {10.1007/BF02101513},
+ note = {Inspected author preprint IASSNS-HEP-91/4, January 1991, 29 pages.
+ \url{https://www.math.toronto.edu/~drorbn/papers/NonCompact/NonCompact.pdf}.
+ References to sections 2--4 and equations use this preprint}
+}

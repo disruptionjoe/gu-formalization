@@ -1,0 +1,621 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-10-08",
+  "owner": "explorations/conditional-build/native-zorro-constrained-energy-2026-10-08.md",
+  "probe": "tests/channel-swings/native_zorro_constrained_energy_probe.py",
+  "classification": "SOURCE_NATIVE_ROUTE within declared canonical comm/symi/symi I1B reconstruction",
+  "target_claim": "NONE-NOT-A-KILL",
+  "bears_on": [
+    "SC-ACT-06",
+    "SC-META-53"
+  ],
+  "canon_verdict_change": "none",
+  "result": {
+    "passed": 17,
+    "checks": [
+      "the selected stationary root defines the exact degree-ten number field and positive kappa squared",
+      "both coupling branches are stationary under simultaneous reversal of a c and kappa",
+      "forty symmetry classes cover every imaginary-packet coefficient and primary kernel",
+      "all forty primary-potential determinants are nonzero in the selected number field",
+      "all forty mirror potentials are negative congruences and remain invertible",
+      "the radial scalar one-form is a genuine dynamical direction",
+      "a nonzero time symplectic partner exists",
+      "axis 4: spatial derivative pairs primary kernel vectors to zero",
+      "axis 4: full primary source has exact single-row coefficient two",
+      "axis 4: induced auxiliary field has the explicit horizontal receiver",
+      "axis 4: primary direction has mass 1 and zero background cubic columns",
+      "axis 4: exact imaginary-slice reduced energy coefficient on both coupling branches",
+      "axis 1: spatial derivative pairs primary kernel vectors to zero",
+      "axis 1: full primary source has exact single-row coefficient two",
+      "axis 1: induced auxiliary field has the explicit horizontal receiver",
+      "axis 1: primary direction has mass -1 and zero background cubic columns",
+      "axis 1: exact imaginary-slice reduced energy coefficient on both coupling branches"
+    ],
+    "branch": {
+      "minimal_polynomial": "1078253165818470400*w**10 + 3877334434099568640*w**9 + 4643792466602204160*w**8 + 1707092071119812736*w**7 - 454780741544188128*w**6 - 354008474391384144*w**5 - 41983168422902724*w**4 + 1153971394741872*w**3 + 7933181509779615*w**2 + 1617316736755599*w - 494757479546640",
+      "root_index": 5,
+      "isolating_interval": [
+        "227427945967/1000000000000",
+        "227427945969/1000000000000"
+      ],
+      "kappa_branch": "both nonzero square roots of the certified kappa_squared"
+    },
+    "primary_potential_blocks": [
+      {
+        "horizontal_weight": 0,
+        "vertical_weight": 0,
+        "multiplicity": 1,
+        "coefficient_dimension": 14,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "86620077b47f27524023d0087a8c2d44d1ff981f1024f32e7f03c73305075d66",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 0,
+        "vertical_weight": 1,
+        "multiplicity": 9,
+        "coefficient_dimension": 36,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "dc048e6ce80264a0cda1013643569a3ef8feefbdb1b4f838e3b7a18795a6e01b",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 0,
+        "vertical_weight": 2,
+        "multiplicity": 36,
+        "coefficient_dimension": 38,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "b0bf6371004191838f69ad42e8803cd9fcaec98326a3ba2ba0edebe18ed8bc56",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 0,
+        "vertical_weight": 3,
+        "multiplicity": 84,
+        "coefficient_dimension": 24,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "61d1dc5ec66fa5b67a3699c16850ec78991a7b59cfc254916b87781584c18c47",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 0,
+        "vertical_weight": 4,
+        "multiplicity": 126,
+        "coefficient_dimension": 22,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "f2291bffa41460c09dfd2925b7f1266221bf5267d318efd559e151d36a187690",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 0,
+        "vertical_weight": 5,
+        "multiplicity": 126,
+        "coefficient_dimension": 28,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "eefadb6cf6f96a90669626980e76c26c58528817e160ae3d4a92562817f7184a",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 0,
+        "vertical_weight": 6,
+        "multiplicity": 84,
+        "coefficient_dimension": 30,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "f5534d2e35fcda86e707dbf9555b29d950b9229bafa862419672e9e35693d554",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 0,
+        "vertical_weight": 7,
+        "multiplicity": 36,
+        "coefficient_dimension": 32,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "967def083c8cf2c7e62f08978cfd48a41af35b33d8e1ff32f2e5e5f44cae6a3c",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 0,
+        "vertical_weight": 8,
+        "multiplicity": 9,
+        "coefficient_dimension": 30,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "c550234ea6d5c6722fade96f9aee8d5a5bdf63389ee4db9ad6917c57e38648d7",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 0,
+        "vertical_weight": 9,
+        "multiplicity": 1,
+        "coefficient_dimension": 20,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "70e617e6107f9810c7ab51640223418254932ac809f13dd38685a911c4639aef",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 1,
+        "vertical_weight": 0,
+        "multiplicity": 3,
+        "coefficient_dimension": 36,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "dc048e6ce80264a0cda1013643569a3ef8feefbdb1b4f838e3b7a18795a6e01b",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 1,
+        "vertical_weight": 1,
+        "multiplicity": 27,
+        "coefficient_dimension": 38,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "fa246da3868ae83326891947cb34ddcf07f6ec8d96b4a4ec7abcd0a13dea7352",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 1,
+        "vertical_weight": 2,
+        "multiplicity": 108,
+        "coefficient_dimension": 24,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "96aef10c11547682e86060abf5cc653475be6a999a2f3d124953d2437f05e695",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 1,
+        "vertical_weight": 3,
+        "multiplicity": 252,
+        "coefficient_dimension": 22,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "a2b0cea2d8e1c7f3113c7b5306f21d7664d0a03f8e20e713a6b3480e743c069d",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 1,
+        "vertical_weight": 4,
+        "multiplicity": 378,
+        "coefficient_dimension": 28,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "e81a35d928f1f66c5ab4fe2ca098aa59abcd4314d1cf2dadb9c12f63345ff330",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 1,
+        "vertical_weight": 5,
+        "multiplicity": 378,
+        "coefficient_dimension": 30,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "8836411c2f5b772fb382a01d70537f73a20ef5f69d02c921bacc87ced8a00a8c",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 1,
+        "vertical_weight": 6,
+        "multiplicity": 252,
+        "coefficient_dimension": 32,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "3af857f9824ec1c76581343b42f20caea04e895fb3b930a762be03ab29aa030b",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 1,
+        "vertical_weight": 7,
+        "multiplicity": 108,
+        "coefficient_dimension": 30,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "1c972118fb09444cfac2c5eb36e4636eefb5ef533f9698f2d0f6a24548ba0504",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 1,
+        "vertical_weight": 8,
+        "multiplicity": 27,
+        "coefficient_dimension": 20,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "06e2dd96e5a2b0522d4f17a9ac1fe0dc400da2c356440d44e79b13bfe7affddb",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 1,
+        "vertical_weight": 9,
+        "multiplicity": 3,
+        "coefficient_dimension": 22,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "d907aaa0b024d636331a14fbde85bd8e166b7ded334ab67532f8be51afa206c6",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 2,
+        "vertical_weight": 0,
+        "multiplicity": 3,
+        "coefficient_dimension": 38,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "ccfc3565ca2e6b44bbf1687813f9f7de3fa53a94ead647b6e41086e52f91fd8b",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 2,
+        "vertical_weight": 1,
+        "multiplicity": 27,
+        "coefficient_dimension": 24,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "96aef10c11547682e86060abf5cc653475be6a999a2f3d124953d2437f05e695",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 2,
+        "vertical_weight": 2,
+        "multiplicity": 108,
+        "coefficient_dimension": 22,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "0aa5963be24d7152f7cb689d7ebac5b8bcbac2bd798a3a5d72336abc0df5ddea",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 2,
+        "vertical_weight": 3,
+        "multiplicity": 252,
+        "coefficient_dimension": 28,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "de6b5ca5c48c6619691dc9117a3cef9b7dec4e1fcbc4dd60fa345c2158f170fb",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 2,
+        "vertical_weight": 4,
+        "multiplicity": 378,
+        "coefficient_dimension": 30,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "c3f8feef2dc4daf40beb35144a0e4eba9263eaa1c666599650ba260039c8c54c",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 2,
+        "vertical_weight": 5,
+        "multiplicity": 378,
+        "coefficient_dimension": 32,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "2f2a661536fa48c41a26a7b0f537d3f7ac8c08f328588eca2492569a2946291e",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 2,
+        "vertical_weight": 6,
+        "multiplicity": 252,
+        "coefficient_dimension": 30,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "c550234ea6d5c6722fade96f9aee8d5a5bdf63389ee4db9ad6917c57e38648d7",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 2,
+        "vertical_weight": 7,
+        "multiplicity": 108,
+        "coefficient_dimension": 20,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "2fdb3dc4c9c8f17e08f93dd5f5302f327ec5bd16e5c64315c5bb1e8693611e6c",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 2,
+        "vertical_weight": 8,
+        "multiplicity": 27,
+        "coefficient_dimension": 22,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "f6b61999a42b1efa15081b58d6fd13baa65f924d10642bc69e7e36eacabdb848",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 2,
+        "vertical_weight": 9,
+        "multiplicity": 3,
+        "coefficient_dimension": 40,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "d19b0413ace92f769e70fbc796ce2503d012d555671dc978da6c1ec6c839ada0",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 3,
+        "vertical_weight": 0,
+        "multiplicity": 1,
+        "coefficient_dimension": 24,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "61d1dc5ec66fa5b67a3699c16850ec78991a7b59cfc254916b87781584c18c47",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 3,
+        "vertical_weight": 1,
+        "multiplicity": 9,
+        "coefficient_dimension": 22,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "cf7b94de37ddfc1944cd8ceb803deb0b325dce916d85afa72e0ba72b65009b45",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 3,
+        "vertical_weight": 2,
+        "multiplicity": 36,
+        "coefficient_dimension": 28,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "de6b5ca5c48c6619691dc9117a3cef9b7dec4e1fcbc4dd60fa345c2158f170fb",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 3,
+        "vertical_weight": 3,
+        "multiplicity": 84,
+        "coefficient_dimension": 30,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "256b74e785dfb15228cbdfe02660818051e6d37b9cbcc11e4cf3e117d3dc9bdf",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 3,
+        "vertical_weight": 4,
+        "multiplicity": 126,
+        "coefficient_dimension": 32,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "221d170dd50dd8140d43a36562b807a1fe6c1af6ab9faeeeb712213850197b29",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 3,
+        "vertical_weight": 5,
+        "multiplicity": 126,
+        "coefficient_dimension": 30,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "2d6beafc80cff92208a4c5dd6c0d960bff0ed2e9d4f190eb9a0b2db66ed0b837",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 3,
+        "vertical_weight": 6,
+        "multiplicity": 84,
+        "coefficient_dimension": 20,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "12474ed1121b6136736f71785a5c22e074c8696fb5df82ca1585be700ef26cd0",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 3,
+        "vertical_weight": 7,
+        "multiplicity": 36,
+        "coefficient_dimension": 22,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "d907aaa0b024d636331a14fbde85bd8e166b7ded334ab67532f8be51afa206c6",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 3,
+        "vertical_weight": 8,
+        "multiplicity": 9,
+        "coefficient_dimension": 40,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "1835c8ddb5ba02588166eff6c95cb31cbff0e825c36b72527fda3df9a4512df1",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 3,
+        "vertical_weight": 9,
+        "multiplicity": 1,
+        "coefficient_dimension": 38,
+        "kernel_dimension": 14,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "30bc88e5bc948b417a2c45a04e54563b244fecf7e528f1c4c145db533476aa6a",
+        "nonzero_in_selected_number_field": true
+      }
+    ],
+    "raw_coefficient_dimension": 115584,
+    "primary_kernel_dimension": 49154,
+    "nondegenerate_time_form_dimension": 66430,
+    "dimension_ceiling": "coefficient and presymplectic ranks, not particle or physical state counts",
+    "mirror_equation_parities": [
+      1,
+      1,
+      1,
+      -1,
+      -1
+    ],
+    "mirror_primary_potential": "W_minus=-P W_plus P, P the Clifford parity on the primary kernel",
+    "energy_witnesses": [
+      {
+        "time_axis": 0,
+        "derivative_axis": 4,
+        "radial_axis": 10,
+        "free_field": [
+          10,
+          0
+        ],
+        "primary_receiver": [
+          0,
+          1041
+        ],
+        "all_fields_have_common_phase": "i",
+        "primary_source_coefficient": "2",
+        "primary_mass_sign": 1,
+        "primary_potential_column": "1 times kappa times the unit column",
+        "recovered_auxiliary_coefficient": "-2/kappa",
+        "reduced_principal_energy_coefficient": "-2/kappa"
+      },
+      {
+        "time_axis": 0,
+        "derivative_axis": 1,
+        "radial_axis": 10,
+        "free_field": [
+          10,
+          0
+        ],
+        "primary_receiver": [
+          0,
+          1027
+        ],
+        "all_fields_have_common_phase": "i",
+        "primary_source_coefficient": "2",
+        "primary_mass_sign": -1,
+        "primary_potential_column": "-1 times kappa times the unit column",
+        "recovered_auxiliary_coefficient": "2/kappa",
+        "reduced_principal_energy_coefficient": "2/kappa"
+      }
+    ],
+    "scope": "finite inputs for the owner's exact compact-core constrained-energy and observation obstruction"
+  },
+  "analytic_arguments": [
+    "the actual Hessian splits by coefficient conjugation at this real background",
+    "constant-rank skew pencil identities and closed time covector eliminate the primary-kernel derivative term exactly",
+    "forty stabilizer classes cover the primary potential on the complete imaginary-grade packet",
+    "algebraic recovery solves all primary constraints and leaves a nondegenerate time form on the smooth compact phase core",
+    "simultaneous reversal of a c and kappa preserves the stationary equations; exact negative congruence carries all forty primary inverses to the opposite coupling branch",
+    "the constraint-reduced source-imaginary Hamiltonian has exact vertical and spatial principal coefficients -2/kappa and +2/kappa",
+    "two compact oscillatory families have rigorously bounded O(n) remainders and energy tending to opposite infinities on either coupling branch",
+    "visible negative-energy fields have explicit horizontal section receivers; invisible negative-energy fields prevent Hamiltonian descent under bare section evaluation",
+    "an independent 128-state occupation-matrix realization and analytic Shiab expansion reproduce the decisive derivative, Hodge and cubic coefficients without the original sparse engine"
+  ],
+  "domain": {
+    "base_time": "x^0 on an open interval",
+    "initial_surface": "R^3 times a relatively compact fibre patch around h=eta with G_Y^-1(dt,dt)>0",
+    "core": "smooth compactly supported free complement fields, with all primary kernel components recovered locally",
+    "boundary": "zero flux for compact support; no new global Hamiltonian boundary completion asserted"
+  },
+  "claim_ceiling": [
+    "Classical quadratic energy unbounded in both directions on this constrained compact core, for either certified coupling sign and either overall action sign; no quantum spectral theorem follows.",
+    "The section map is a smooth field pullback, not an asserted quantum state map.",
+    "No global Cauchy well-posedness, conserved positive norm alone, or interacting quantum completion is proved or excluded.",
+    "No universal no-go for all GU actions, stationary branches or further source-owned physical selections.",
+    "No canon promotion or source polarity change; independent coefficient implementation is not an independent later research review."
+  ],
+  "validation": {
+    "sympy": "1.14.0",
+    "probe_passed": true,
+    "replay_command": "uv run --no-project --with sympy==1.14.0 python -B tests/channel-swings/native_zorro_constrained_energy_probe.py",
+    "typed_carrier_audit": "0 red",
+    "target_claim_audit": "0 red",
+    "tests_manifest_count_audit": "3 tests passed",
+    "frontmatter_status_audit": "passed on the actual indexed tracked population",
+    "owner_links_yaml_and_receipt_hashes": "passed",
+    "git_diff_check": "passed",
+    "independent_matrix_replay_command": "uv run --no-project --with sympy==1.14.0 python -B tests/channel-swings/native_zorro_matrix_energy_probe.py",
+    "independent_matrix_probe_passed": true,
+    "direct_action_sign_controls": [
+      {
+        "raw_cross_terms": [
+          "2",
+          "-2"
+        ],
+        "auxiliary_mass": "1",
+        "imaginary_slice_spatial_lagrangian": "-2 z p-kappa z^2/2",
+        "stationary_auxiliary": "z=-2 p/kappa",
+        "reduced_spatial_hamiltonian": "-2 p^2/kappa",
+        "axis": 4
+      },
+      {
+        "axis": 1,
+        "primary_source": "2",
+        "auxiliary_mass": "-1",
+        "imaginary_slice_spatial_lagrangian": "-2 z p+kappa z^2/2",
+        "stationary_auxiliary": "z=2 p/kappa",
+        "reduced_spatial_hamiltonian": "2 p^2/kappa"
+      }
+    ]
+  },
+  "dependencies_sha256": {
+    "explorations/conditional-build/native-zorro-constrained-energy-2026-10-08.md": "da5997809466e3c816f9212bcd6c5ee06d531d142834cb29d67639356c2fbf47",
+    "tests/channel-swings/native_zorro_constrained_energy_probe.py": "8fbdb1b70398748fa44bd3cac16c7357d03e078666194838c57324994abfce47",
+    "explorations/conditional-build/native-zorro-algebraic-reduction-2026-10-08.md": "678d52703230091c166af28570696a472cfbc3902537b1583f31b76d1299c278",
+    "tests/channel-swings/native_zorro_stationary_background_probe.py": "5f9e096e58ad88bb8e5989eeccd5c01006c190db95ca1a5f0708555459012b91",
+    "tests/channel-swings/native_zorro_i1b_probe.py": "3c802d8d8a6063853ca1c1ff23213bf67d14fa41eb1e613225f01dcf4c143e40",
+    "tests/channel-swings/native_zorro_geometry_probe.py": "9aa7e7414056f13f45a4d4a47d16ce761c804a672585504d52fcdb14a2952367",
+    "tests/channel-swings/native_i1b_scalar_closure_probe.py": "7e1bfdfb4485710caa5b2696e81b0fff593ebdc62d6a04ae91ffaa634d703b38",
+    "tests/channel-swings/k77_exact_bank_api.py": "5f9ca5458e55669bce226bf65e82b11a54d81d7cffeb2d18a1fb4635f575cf5b",
+    "tests/channel-swings/native_zorro_matrix_energy_probe.py": "dd31a118fe0aec8d34712469c5e9c25eda42a688946ae1b82b769cef93d970e1"
+  },
+  "independent_matrix_verification": {
+    "passed": 12,
+    "checks": [
+      "all 128-state gamma matrices satisfy every Clifford relation",
+      "normalized matrix trace has the declared scalar normalization",
+      "independent source time form is skew and the scalar is transverse to its kernel",
+      "independent scalar time symplectic partner has coefficient minus 48",
+      "axis 4: independent primary kernels have zero derivative pairing",
+      "axis 4: complete primary force is two on the explicit gamma receiver",
+      "axis 4: exact primary Hodge mass column has sign 1",
+      "axis 4: all four independent primary cubic columns vanish",
+      "axis 1: independent primary kernels have zero derivative pairing",
+      "axis 1: complete primary force is two on the explicit gamma receiver",
+      "axis 1: exact primary Hodge mass column has sign -1",
+      "axis 1: all four independent primary cubic columns vanish"
+    ],
+    "witnesses": [
+      {
+        "axis": 4,
+        "primary_source": "2",
+        "receiver": [
+          0,
+          [
+            0,
+            4,
+            10
+          ]
+        ],
+        "mass_sign": 1,
+        "reduced_energy": "-2/kappa",
+        "target_dimension": 36,
+        "kernel_dimension": 12
+      },
+      {
+        "axis": 1,
+        "primary_source": "2",
+        "receiver": [
+          0,
+          [
+            0,
+            1,
+            10
+          ]
+        ],
+        "mass_sign": -1,
+        "reduced_energy": "2/kappa",
+        "target_dimension": 36,
+        "kernel_dimension": 12
+      }
+    ],
+    "implementation": "128 occupation-state Clifford matrices; no sparse engine or coefficient-bank import",
+    "scope": "independent finite coefficients for the two imaginary-packet energy witnesses"
+  }
+}

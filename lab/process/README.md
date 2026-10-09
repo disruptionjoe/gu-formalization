@@ -7,14 +7,25 @@ updated_at: "2026-08-23"
 
 # Process
 
+The [positivity/I1B corpus integration receipt](native-i1b-corpus-integration.json)
+records focused reproduction, placement and historical dependency-pin checks
+for the [current research map](../../explorations/nguyen-gu-critique/README.md).
+It changes no scientific grade, standing ledger verdict or contribution rule.
+The [verification-history index](native-i1b-verification-history.json)
+preserves the exact historical text inputs cited by earlier receipts as
+tracked snapshots, independently of the original local commit identifiers.
+
 Current append-only progress surface:
-[`conditional-physics-ledger-v0.263.json`](conditional-physics-ledger-v0.263.json),
+[`conditional-physics-ledger-v0.265.json`](conditional-physics-ledger-v0.265.json),
 summarized in
-`../../explorations/conditional-build/conditional-physics-ledger-v0.262.md`.
-It preserves all 88 targets and retypes exactly AC-F3, LT-GR1b and RA-D2 from
-global falsification to bounded route kill, with no movement toward SAME and
-no change to their computations, evidence or reopening conditions. The
-digest-bound CT-2 history-repair registry is
+[the v0.265 evidence note](../../explorations/conditional-build/conditional-physics-ledger-v0.265.md).
+It appends selected real I1B compact-core energy evidence to LT-SM8 and
+LT-GR6b, both still NEEDS. All 88 active targets, verdicts and named
+conditions are preserved. Both packets now have proved two-sided quadratic
+energy families; the new real families have zero metric forcing and all-order
+formal local boundary compatibility. Global evolution and source-selected
+physical admissibility remain open. The v0.264 firewall observation is
+retained without a hypothesis vote. The CT-2 history-repair registry remains
 [`mint-context-history-repairs.json`](mint-context-history-repairs.json).
 
 Current research-direction contract:

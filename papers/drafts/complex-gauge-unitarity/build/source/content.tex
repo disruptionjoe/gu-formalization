@@ -1,0 +1,287 @@
+\section{Question, result, and mathematical ownership}
+\label{sec:scope}
+
+The question is whether a proposed positive physical sector can be obtained
+from an action with an indefinite ambient pairing. The answer depends on
+its real fields, stationary background, constraints, boundary data,
+observation map, and Hamiltonian domain. A gauge-group designation or a
+positive auxiliary norm does not determine these objects.
+
+The principal result of this manuscript is action-specific. We fix the
+connection metric on $Y=\operatorname{Met}_{1,3}(X)$ and the
+commutator/two-symmetrized-channel realization of the first bosonic action
+$I_1^B$ in Weinstein's draft \cite{GU}. The coordinate metric, signature
+convention, bracket normalization, and boundary polarization below are
+explicit reconstruction choices. They are not claimed to be uniquely
+selected by that source. The source's printed curvature residual, its
+square $I_2^B$, the observing metric, and the metric-fibre coordinate remain
+separate objects.
+
+\begin{theorem}[Main result; precise constructions below]
+\label{thm:main}
+For the action \eqref{eq:action}, the stationary branches specified in
+\cref{sec:background} have the following properties.
+\begin{enumerate}
+\item Their imaginary coefficient-conjugation packet has a smooth,
+compactly supported constraint-reduced phase core on which its quadratic
+Noether Hamiltonian takes values tending to both infinities.
+\item Their real packet has such families with zero metric perturbation
+and zero full linearized metric forcing. On a spatial torus and the
+reflection-invariant fibre patch of \cref{sec:real}, these families satisfy
+all finite-order formal compatibility conditions of the odd-Dirichlet
+polarization in \cref{sec:boundary}.
+\item Every completion containing the respective core and agreeing with
+its quadratic energy form inherits its two-sided unboundedness. Bare
+smooth section-germ observation does not make the imaginary-packet
+Hamiltonian descend to an observed quotient.
+\end{enumerate}
+\end{theorem}
+
+The proofs are given in \cref{sec:imaginary,sec:real,sec:selection}.
+The theorem neither presupposes nor constructs a global Cauchy evolution.
+In particular, compatible formal time jets need not converge. No
+Hilbert-space normalization, quantum spectral theorem, nonlinear runaway,
+or integrability of every linearized phase datum into nonlinear physical
+data is inferred. The two coupling branches are two selected values with
+opposite signs, not all prescribed couplings or all backgrounds.
+
+\begin{center}\small
+\begin{tabular}{p{0.21\linewidth}p{0.71\linewidth}}
+\toprule
+Object & Convention and role \\
+\midrule
+Carrier & Clifford-valued one-forms on $Y$, a base metric $g(x)$, and
+source gauge variables removed by exact dressing. \\
+Real structure & A phased anti-involution slice; its real and imaginary
+coefficient packets are defined in \eqref{eq:packets}. \\
+Pairings & Scalar Clifford trace and exterior top-degree action pairing;
+reduced time symplectic form and Noether energy are distinguished. \\
+Grading & Clifford grade, coefficient conjugation, primary time kernel,
+and differential order; no coefficient rank is a particle count. \\
+Domain & Local product patches with stated variations; compact phase
+cores and one explicit polarization, without a closed physical generator. \\
+Target & Semiboundedness of the selected quadratic energy and its
+observation descent, not every source mechanism. \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+The distinction between a mathematical reconstruction and a physical GU
+realization remains throughout. Ordinary Yang--Mills and external scalar
+models in \cref{sec:controls} bind their own actions. Transporting one of
+their conclusions would require a map of carriers and real structures,
+intertwining the actions, constraints, domains, and observable in question.
+The separate quantum/PDE controls of \cref{sec:quantum} provide no such
+identification. No literature-priority claim is made for this manuscript.
+
+\section{Canonical geometry and an exact stationary background}
+\label{sec:background}
+
+\subsection{The observing metric and the fibre metric}
+Let $X$ be a four-dimensional coordinate patch and let $h$ denote the
+Lorentzian symmetric matrix at a point of its metric bundle. The independent
+observing metric is $g$. Set
+\begin{align}
+ G_Y(g)&=h_{ij}\dd x^i\dd x^j+D_h(\theta,\theta),\label{eq:geometry}\\
+ D_h(A,B)&=\tr(h^{-1}Ah^{-1}B)
+       -\tfrac12\tr(h^{-1}A)\tr(h^{-1}B),\nonumber\\
+ \theta_{ab}&=\dd h_{ab}
+ -(\Gamma(g)^c{}_{ia}h_{cb}+\Gamma(g)^c{}_{ib}h_{ac})\dd x^i.
+ \nonumber
+\end{align}
+We use $g_*=\eta=\diag(1,-1,-1,-1)$ and the resulting $(7,7)$ ambient
+signature. This plus-first convention is fixed for the calculation; a
+source-convention bridge is not established merely by writing the same
+signature name. The coordinate density in symmetric fibre coordinates is
+\begin{equation}
+ \dd\mu_Y=\mu(h)\dd^4x\dd^{10}h,
+ \qquad \mu(h)=8|\det h|^{-2}.\label{eq:density}
+\end{equation}
+It is independent of $g$ at fixed $h$.
+
+Although $\Gamma(g_*)=0$, the coefficients depend on $h$.
+The Levi-Civita connection obtained from \eqref{eq:geometry} has
+\begin{equation}
+ \Ric_Y^\sharp=\tfrac14(P_H+P_r)-\tfrac54P_0,
+ \qquad \Scal(G_Y)=-10.\label{eq:ricci}
+\end{equation}
+Here $P_H$ is horizontal, $P_0$ is vertical traceless, and $P_r$ is the
+vertical trace projector. Their ranks are $4,9,1$. The vertical field
+$r=(0,h/2)$ satisfies
+\begin{equation}
+ G_Y(r,r)=-1,\qquad P_rz=-G_Y(r,z)r,
+ \qquad \nabla r=\tfrac14P_H.\label{eq:radial}
+\end{equation}
+The coordinate Koszul calculation checks torsion, metricity, Bianchi, and
+these contractions \cite{GeometryAssessment}. For example, a vertical
+traceless plane has sectional curvature $-1/2$. Thus setting the spin
+curvature to zero would change the geometry.
+
+Constant rescaling of $g$ leaves $\Gamma(g)$, and hence $G_Y$ at fixed
+$(x,h)$, unchanged. Moving $h\mapsto sh$ instead gives the familiar
+$-8$ logarithmic density derivative in fixed coordinates. That fibre
+motion is not an observing-metric Euler variation. This distinction
+corrects the interpretation of the flat controls in \cref{sec:flat}.
+
+\subsection{The selected action and its real slice}
+Let $B$ be the spin Levi-Civita connection of $G_Y$, $T$ its dressed
+connection displacement, and $\gamma$ Clifford multiplication with
+$\gamma_a\gamma_b+\gamma_b\gamma_a=2\eta_a\delta_{ab}$ in an
+orthonormal frame. The selected functional is
+\begin{equation}
+ I=\int_Y\Tr\left[
+ T\wedge\cS(F_B)+\tfrac12T\wedge\cS(D_BT)
+ +\tfrac13T\wedge\cS(T\wedge T)
+ +\tfrac\kappa2T\wedge *T\right].\label{eq:action}
+\end{equation}
+The exterior integral uses scalar Clifford trace, normalized by
+$\tr(1)=1$. The following contraction specifies the Shiab normalization
+completely by linearity. For $p<q$ and Clifford coefficients $C,D$,
+\begin{align}
+ &\frac{\Tr[e^\mu C\wedge\cS(e^p\wedge e^qD)]}{\operatorname{vol}_Y}
+   =\eta_p\eta_q\left(\delta_{\mu p}\tr(C[\gamma_q,D])
+       -\delta_{\mu q}\tr(C[\gamma_p,D])\right.\nonumber\\[-0.3em]
+ &\hspace{7em}\left.
+       -\frac{\eta_\mu}{2}\tr(C\{\gamma_\mu,\{\gamma_p\gamma_q,D\}\})
+       \right).\label{eq:shiab}
+\end{align}
+The last sign includes $*\operatorname{vol}_Y=-1$ and the two factors
+of $i$ in the symmetrized channels. Equation \eqref{eq:action} is
+motivated by source Eq.~(9.4), p.~44, but the source's displayed residual
+is not substituted for its Euler derivative.
+
+Define a conjugate-linear Clifford anti-involution $\mathfrak j$ by
+$\mathfrak j(\gamma_a)=-\gamma_a$ and
+$\mathfrak j(AB)=\mathfrak j(B)\mathfrak j(A)$. The source-phased real
+slice is $\mathcal U=\{Z:\mathfrak j(Z)=-Z\}$. Under ordinary coefficient
+conjugation it splits as
+\begin{align}
+ R&=\Lambda^1+\Lambda^2+\Lambda^5+\Lambda^6
+       +\Lambda^9+\Lambda^{10}+\Lambda^{13}+\Lambda^{14},\nonumber\\
+ J&=i(\Lambda^0+\Lambda^3+\Lambda^4+\Lambda^7
+                  +\Lambda^8+\Lambda^{11}+\Lambda^{12}).\label{eq:packets}
+\end{align}
+All grade spaces are real before the displayed $i$. Commutators and
+$i$ times anticommutators preserve $\mathcal U$; Hodge and the spin
+connection preserve its exterior extension. For $A,B\in\mathcal U$,
+$\overline{\tr(AB)}=\tr(\mathfrak j(AB))=\tr(BA)=\tr(AB)$.
+The action is real on this slice. This involution is not a positive
+Hilbert adjoint.
+
+\subsection{Stationarity before restriction}
+Consider the intrinsic field
+\begin{equation}
+ T_*(z)=a\gamma((P_H+P_0)z)+c\gamma(P_rz)
+ -\frac v8\gamma(r)\gamma(P_Hz)+w\gamma(r)\gamma(P_0z).
+ \label{eq:background}
+\end{equation}
+The last two terms have grade two. Vary \eqref{eq:action} in arbitrary
+one-form directions before inserting \eqref{eq:background}.
+For a test variation $U$, the derivative term contributes
+\begin{equation}
+ \frac12\sum_s\left\{
+ \langle U,\cS(e^s\wedge\nabla_sT)\rangle
+ -\langle\nabla_sT,\cS(e^s\wedge U)\rangle\right\};
+ \label{eq:formal-adjoint}
+\end{equation}
+the second summand is essential. The cubic derivative has both
+$\langle U,\cS(T\wedge T)\rangle/3$ and
+$\langle T,\cS(U\wedge T+T\wedge U)\rangle/3$.
+The complete distortion covector is zero exactly when the following
+five representative rows vanish:
+\begin{align}
+16E_H={}&4224a^2+768ac+16a\kappa+v^2-72vw-3v
+                   +768w^2+108w-84,\nonumber\\
+24E_0={}&6336a^2+1152ac+24a\kappa+3v^2-128vw-12v
+                   +896w^2+168w-90,\nonumber\\
+24E_r={}&7488a^2+24c\kappa+v^2-144vw-6v
+                   +864w^2+216w-126,\label{eq:stationary}\\
+24E_{Hr}={}&132av-3168aw+12a+4cv-288cw-12c+3\kappa v,
+ \nonumber\\
+3E_{0r}={}&22av-352aw+3a+2cv-24cw-3c-3\kappa w.\nonumber
+\end{align}
+There are respectively $4,9,1,4,9$ possibly nonzero rows.
+To see completeness, label $e^\mu\gamma_I$ by the XOR of its exterior
+index mask and its Clifford mask. The background has only labels $0$
+and $\{10\}$, where index $10$ denotes $r$.
+The Clifford/exterior trace selection rule leaves 28 candidate receivers;
+the scalar receiver $e^{10}1$ vanishes identically. Direct evaluation
+checks every remaining linear, mass, and curvature receiver. Thus these
+are full distortion equations, not four ansatz equations.
+
+The stationary construction \cite{Stationary} gives the exact algebraic branch, specified without decimal root finding.
+Put $a=\kappa\alpha$, $c=\kappa\beta$ and
+\begin{align}
+ D&=22v^2-220vw-15v-3168w^2+732w,\nonumber\\
+ \alpha&=-\frac{3(2v^2-20vw-3v-288w^2-12w)}{8D},\nonumber\\
+ \beta&=\frac{3(22v^2-220vw+3v-3168w^2+12w)}{8D}.
+ \label{eq:alphabeta}
+\end{align}
+The conic and coupling equations are
+\begin{align}
+ 3v^2-40vw-512w^2-15v+12w+72&=0,\nonumber\\
+ V_HR_0-V_rH_0&=0,\qquad \kappa^2=-V_H/H_0,\label{eq:conic}\\
+ H_0&=4224\alpha^2+768\alpha\beta+16\alpha,\nonumber\\
+ R_0&=7488\alpha^2+24\beta,\nonumber\\
+ V_H&=v^2-72vw-3v+768w^2+108w-84,\nonumber\\
+ V_r&=v^2-144vw-6v+864w^2+216w-126.\nonumber
+\end{align}
+For an explicit univariate specification let $w_*$ be the unique root in
+\begin{equation}
+ \frac{227427945967}{10^{12}}<w_*<\frac{227427945969}{10^{12}}
+ \label{eq:rootinterval}
+\end{equation}
+of $P(w)=\sum_{j=0}^{10}p_jw^j$, with coefficients listed in
+\cref{app:algebra}. There $v(w)$ is also given explicitly.
+Sturm counting certifies one root; rational intervals exclude every
+parameter denominator from zero and give
+$2.873978<\kappa_*^2<2.874152$.
+All five rows of \eqref{eq:stationary} reduce exactly to zero in
+$\QQ(w_*)$, with the square root handled by $a=\kappa\alpha$ and
+$c=\kappa\beta$. Take $\kappa=\kappa_*>0$ or its negative and the
+corresponding $a,c$. The map
+\begin{equation}
+ (a,c,\kappa)\longmapsto(-a,-c,-\kappa),\qquad (v,w)\longmapsto(v,w)
+ \label{eq:mirror}
+\end{equation}
+preserves the common zero set. Decimal values on the positive branch,
+for orientation only, are $(a,c,v,w,\kappa)\simeq
+(0.151945,-0.195077,3.79821,0.227428,1.69531)$.
+
+\begin{proposition}[Local source-variable stationarity]
+The fields \eqref{eq:background} with the certified parameters are stationary
+for the selected bulk functional on a local product patch, with compact
+base-metric variations and compact interior distortion and gauge variations.
+\end{proposition}
+\begin{proof}
+Translations of $x$ and simultaneous affine/congruence transformations of
+$(x,h)$ preserve \eqref{eq:geometry} at constant $g$. Congruence is transitive
+on the signature patch and transports the natural projectors and field.
+Consequently the exact distortion equations transport from one fibre point
+to the smooth patch, with local oriented spin lifts.
+
+For the source gauge field $\eps$, set
+$B_\eps=\eps^{-1}D_0\eps$ and
+$\tau=\eps\varpi\eps^{-1}-(D_0\eps)\eps^{-1}$, where $D_0$ is the
+reference spin connection. Conjugating curvature, covariant derivative,
+and Shiab, and using cyclic trace, gives
+$I(g,\eps,\varpi)=I(g,1,\tau)$ identically. The unrestricted distortion
+Euler covector is zero, so the gauge-field first variation is zero.
+
+Finally $g$ enters the local action only through $\Gamma(g)$ and its
+jets. At constant $g$ its variation contains at least one base derivative
+of $\delta g$; the coefficients depend on $h$ but not $x$.
+Integration by parts in $x$ against compact base tests gives zero.
+An induced variation of $T_*(g)$ contributes zero because its distortion
+Euler equation is already satisfied. The fixed relatively compact fibre
+patch makes the variational integrals finite. No integration over the
+entire noncompact fibre or moving fibre boundary is used.
+\end{proof}
+
+The coupling here is a selected background parameter, not a physical
+mass prediction. The failed smaller families remain informative: the
+three-projector grade-one ansatz forces $a=b=c=t$ and then requires both
+$312t^2+\kappa t=21/4$ and $312t^2+\kappa t=15/4$.
+In \eqref{eq:background}, setting $w=0$ instead gives
+$E_0-E_H=(v-5/2)^2/16+71/64>0$.
+Neither exclusion applies to the enlarged family just constructed.
