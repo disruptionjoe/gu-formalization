@@ -2,7 +2,7 @@
 """Controls for K1565's protected admission replay."""
 import hashlib,json
 from pathlib import Path
-ROOT=Path(__file__).resolve().parents[2];D=json.loads((ROOT/'lab/process/k1565-squeezed-coefficient-admission.json').read_text())
+ROOT=Path(__file__).resolve().parents[2];D=json.loads((ROOT/'lab/process/k1565-coefficient-normal-form-admission.json').read_text())
 def main():
  checks=[]
  for name,pin in D['pinned_inputs'].items():checks.append((f'{name} pin',hashlib.sha256((ROOT/pin['path']).read_bytes()).hexdigest()==pin['sha256']))
