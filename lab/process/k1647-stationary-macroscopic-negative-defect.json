@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1647",
+  "status": "active_research",
+  "title": "Stationary macroscopic Fourier orbit with leading negative defect",
+  "pinned_inputs": {
+    "k1646": "lab/process/k1646-multidimensional-rudin-shapiro-flatness.json",
+    "k1637": "lab/process/k1637-stationary-fisher-defect-gap-identity.json"
+  },
+  "orbit_law": {
+    "shell": "Choose ell_N a power of two with N/16<=ell_N<=N/8, d_N=ell_N^3, and monomial-translate the K1646 cube into one fixed positive-frequency shell.",
+    "field": "For independent uniform Y in T^3 and Theta in [0,2pi), M_N(x)=sqrt(2)A_N Re[e^(iTheta)R_N(x+Y)] with A_N^2=eta/N.",
+    "symmetries": "Uniform Y makes the law stationary; Theta shifted by pi makes it centrally symmetric.",
+    "moments": "At every x, v_(M,N)=A_N^2d_N and E M_N(x)^4=(3/2)A_N^4 int|R_N|^4.",
+    "defect": "D_(M,N)=(3/2)A_N^4[int|R_N|^4-2d_N^2]<=-(3/4)A_N^4d_N^2=-Theta(eta^2N^4).",
+    "coordinate_covariance": "Each selected real sine and cosine coordinate has added variance delta s_k=omega_k A_N^2=eta omega_k/N.",
+    "scope_guard": "The leading defect comes from one angularly coherent macroscopic block. It does not by itself control Fisher cost or prove energy descent."
+  },
+  "decision": {
+    "stationarity_proved": true,
+    "central_symmetry_proved": true,
+    "macroscopic_block_size": true,
+    "leading_negative_defect_constructed": true,
+    "energy_descent_proved": false,
+    "protected_status_change": false
+  }
+}

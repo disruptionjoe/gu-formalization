@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1646",
+  "status": "active_research",
+  "title": "Balanced multidimensional Rudin--Shapiro flatness",
+  "pinned_inputs": {
+    "k1642": "lab/process/k1642-submacroscopic-dependence-bound.json"
+  },
+  "flat_block": {
+    "recursion": "P_(n+1)=P_n+z^(v_n)Q_n and Q_(n+1)=P_n-z^(v_n)Q_n, with v_n doubling one rectangular support side and the axes cycled.",
+    "support": "Disjoint support gives d_n=2^n coefficients in {+1,-1}; at n=3r the support is a complete 2^r by 2^r by 2^r frequency cube.",
+    "complementarity": "Pointwise |P_n|^2+|Q_n|^2=2d_n.",
+    "fourth_recurrence": "For T_n=int(|P_n|^4+|Q_n|^4), the separated shift kills the doubled cross frequency and T_(n+1)=16d_n^2-2T_n.",
+    "exact_solution": "T_n/d_n^2=8/3-(2/3)(-1/2)^n.",
+    "selected_flatness": "At least one R_n in {P_n,Q_n} obeys int|R_n|^4/d_n^2<=4/3-(1/3)(-1/2)^n<=3/2 for n>=1.",
+    "shell_transfer": "A monomial frequency translation moves the complete cube into a fixed-ratio cutoff shell without changing any L2 or L4 identity."
+  },
+  "decision": {
+    "complete_macroscopic_cube_constructed": true,
+    "exact_fourth_recurrence_proved": true,
+    "uniform_subgaussian_fourth_ratio_proved": true,
+    "probabilistic_independence_claimed": false,
+    "protected_status_change": false
+  }
+}

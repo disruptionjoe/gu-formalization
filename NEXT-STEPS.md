@@ -7,6 +7,20 @@ updated_at: "2026-10-09"
 
 # Next Steps For Contributors
 
+> **2026-10-09 K1646--K1650 MACROSCOPIC FLAT-BLOCK ENDPOINT.** A balanced
+> three-dimensional Rudin--Shapiro cube, randomized by translation and global
+> phase, gives an explicit stationary centrally symmetric macroscopic Fourier
+> block with `D_N=-Theta(N^4)`. Independent Gaussian smoothing makes the law
+> positive, smooth and finite-Fisher while matching the exact K1572 covariance:
+> `A_N=0` and `R_(Omega,N)/4=O(N^4)`. This proves the required negative-defect
+> and positive-cost scales, not energy descent. Next compute the actual leading
+> posterior-score residual for this four-parameter channel or prove a matching
+> Fisher/defect coercivity theorem. Orthogonally invariant macroscopic blocks
+> have only `D_N>=-O(N)`, so retain the construction's angular anisotropy. Do
+> not replace the score residual by its convexity ceiling, infer the
+> unrestricted coefficient, or transfer the control to a source-owned action,
+> physical state, observation or prediction.
+
 > **2026-10-09 K1641--K1645 FOURIER-BLOCK RIGIDITY AND LOGARITHMIC HOLONOMY.**
 > Exact fourth-cumulant additivity and the three-dimensional
 > `sum omega_k^-2=O(N)` count give `D_N=O(b_N N)` for stationary centrally

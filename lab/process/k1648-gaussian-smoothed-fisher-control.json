@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1648",
+  "status": "active_research",
+  "title": "Gaussian-smoothed macroscopic orbit with profiled covariance and controlled Fisher scale",
+  "pinned_inputs": {
+    "k1572": "lab/process/k1572-finite-cutoff-profiled-gaussian-minimizer.json",
+    "k1637": "lab/process/k1637-stationary-fisher-defect-gap-identity.json",
+    "k1647": "lab/process/k1647-stationary-macroscopic-negative-defect.json"
+  },
+  "smoothed_law": {
+    "residual_covariance": "For fixed eta small enough on the selected shell, put s_(0,k)=s_(N,k)^*-delta s_k>0 on selected modes and s_(0,k)=s_(N,k)^* elsewhere.",
+    "law": "Let G_N be the independent stationary diagonal Gaussian with covariance S_0 and X_N=M_N+G_N.",
+    "regularity": "Nondegenerate finite-dimensional Gaussian convolution gives a normalized positive smooth density with finite weighted Fisher information and all finite moments.",
+    "matching": "Law(X_N) is stationary and centrally symmetric with exact covariance S_N^*, so K1637's Gaussian displacement A_N^(gap) is zero and the fourth cumulant remains D_(M,N).",
+    "fisher_ceiling": "Fisher convexity and exact translated-Gaussian algebra give R_(Omega,N)/4<=C_(F,N):=(1/2)sum_(k in K_N) omega_k delta s_k/[s_(0,k)s_(N,k)^*].",
+    "scale": "Fixed-shell profile bounds, delta s_k=eta omega_k/N and d_N=Theta(N^3) give C_(F,N)=O_(g,eta)(N^4).",
+    "gap_interval": "gD_(M,N)<=Q_N[Law(X_N)]-lambda_N^statG<=C_(F,N)+gD_(M,N).",
+    "scope_guard": "The convexity ceiling is not the actual posterior-score residual. Leading negative defect plus an O(N^4) positive ceiling does not prove descent or identify the unrestricted coefficient."
+  },
+  "decision": {
+    "normalized_positive_smooth_density": true,
+    "finite_fisher_and_fourth_moment": true,
+    "profiled_covariance_matched": true,
+    "gaussian_displacement_zero": true,
+    "positive_cost_order_N4": true,
+    "complete_gap_sign_decided": false,
+    "protected_status_change": false
+  }
+}

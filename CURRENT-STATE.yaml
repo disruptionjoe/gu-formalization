@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 51a33fe0e7c2319416047da1f1d6a1d793b0556c
+revision_basis: 5b96245d130e22a22ef91512c8ac3741c557bc9a
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1646--K1650 construct the first explicit macroscopic Fourier-correlation
+    family at K1638's required defect scale. A balanced three-dimensional
+    Rudin--Shapiro cube has `Theta(N^3)` modes and exact normalized fourth
+    ratio at most `3/2`. Random translation and global phase produce a real
+    stationary centrally symmetric field with `D_N=-Theta(N^4)`. Adding an
+    independent nondegenerate Gaussian residual gives a normalized positive
+    smooth finite-Fisher law whose covariance is exactly the K1572 profile,
+    so `A_N=0`; Fisher convexity bounds `R_(Omega,N)/4=O(N^4)`. This reduces
+    the endpoint to a leading-coefficient comparison but does not prove
+    descent. Orthogonally invariant macroscopic blocks satisfy the sharp
+    directional floor `kappa_4>=-6||u||^4/(d+2)` and hence only
+    `D_N>=-O(N)` when `d=Theta(N^3)`, proving angular anisotropy is
+    load-bearing. The 365-row census is 286 satisfied, ten conditional, 65
+    excluded and four missing; protected source, ledger, canon and public
+    states do not move.
+
     K1641--K1645 close every stationary centrally symmetric Fourier-block law
     with uniformly bounded covariance profile, uniformly bounded standardized
     fourth cumulants and submacroscopic dependence blocks. Exact cumulant
@@ -15175,6 +15191,20 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1646--K1648 construct a normalized stationary positive smooth finite-Fisher
+  macroscopic-block law with exact profiled covariance,
+  `D_N=-Theta(N^4)`, `A_N=0`, and `R_(Omega,N)/4=O(N^4)`. What is the exact
+  leading posterior-score residual of this translation/phase channel, and
+  does its coefficient dominate or lose to `-gD_N`? A matching coercivity
+  theorem would close the same endpoint. K1649 proves rotation-invariant
+  macroscopic blocks are coefficient-rigid, so the surviving calculation must
+  retain the Rudin--Shapiro angular anisotropy. Only after the true
+  `E_N+O(1)` shift is identified should compactness and Mosco
+  liminf/recovery be tested. Independently, can a source-owned nonlinear
+  action/domain produce the K1644 supercritical logarithmic or Besov budget
+  together with integrable curvature/current/radial remainders? The
+  source-owned action/measure/Hamiltonian tuple remains a separate gate.
+
   K1641--K1643 prove that stationary centrally symmetric profile-bounded laws
   with uniformly bounded standardized fourth cumulants and independent
   Fourier dependence blocks of size `b_N=o(N^3)` have `D_N=o(N^4)` and retain
@@ -17867,6 +17897,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1646's disjoint balanced rectangular recursion, exact complement
+  identity and fourth-moment recurrence; the selected member is angularly
+  coherent, not probabilistically independent. Preserve K1647's fixed-ratio
+  positive-frequency cube, uniform translation and global phase, amplitude
+  `A_N^2=eta/N`, and exact `D_N=-Theta(N^4)` calculation. Preserve K1648's
+  strictly positive Gaussian residual, exact K1572 covariance match,
+  `A_N=0`, finite Fisher/fourth moment and one-way convexity ceiling
+  `R_(Omega,N)/4<=C_(F,N)=O(N^4)`. Do not replace the actual score residual
+  by that ceiling or infer descent. Next calculate its leading coefficient or
+  prove coercivity. Preserve K1649's standardized orthogonal invariance and
+  class-only conclusion; do not transfer radial rigidity to anisotropic
+  macroscopic laws. No result supplies a source-owned Hamiltonian, physical
+  state, observation, prediction or admission.
+
   Preserve K1641's real uniformly bounded trigonometric coordinates,
   independent centered centrally symmetric standardized blocks and explicit
   stationarity premise. Preserve K1642's uniform directional fourth-cumulant

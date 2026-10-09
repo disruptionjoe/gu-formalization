@@ -7,6 +7,24 @@ updated_at: "2026-10-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1646--K1650 macroscopic flat-block endpoint (2026-10-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A macroscopic Fourier dependence block can realize K1638's required defect scale | K1646 exact multidimensional Rudin--Shapiro recurrence plus K1647 stationary translation/phase orbit | proved: `d_N=Theta(N^3)` and `D_N=-Theta(N^4)` |
+| The orbit can be made an admissible finite-Fisher law without losing the defect | K1648 nondegenerate Gaussian convolution | proved: normalized positive smooth finite-Fisher, exact K1572 covariance, `A_N=0`, same fourth cumulant |
+| The positive price is necessarily superleading | K1648 exact component-score algebra and Fisher convexity | false for the constructed family: `R_(Omega,N)/4<=C_(F,N)=O(N^4)` |
+| Leading negative defect plus an `O(N^4)` Fisher ceiling proves descent | scope audit | not established: the ceiling is not the actual posterior-score residual and the leading constants remain undecided |
+| Macroscopic block size alone supplies a leading negative defect | K1649 radial cumulant identity | false for standardized orthogonally invariant blocks: `D_N>=-O(N)` and the class coefficient remains `h_g^prof` |
+| Radial rigidity controls every anisotropic macroscopic law | K1647 countercontrol plus K1649 scope | false: angular anisotropy is load-bearing in the Rudin--Shapiro construction |
+| The advance closes GU physical admission | K1650 365-row bridge census | 286 satisfied, ten conditional, 65 excluded and four missing |
+
+The five producers pass `101/101` controls and five hostile probes reject
+`44/44` mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
+`0/7`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
+
 ## K1641--K1645 Fourier-block rigidity and logarithmic holonomy (2026-10-09)
 
 | Claim | Evidence | Honest grade |

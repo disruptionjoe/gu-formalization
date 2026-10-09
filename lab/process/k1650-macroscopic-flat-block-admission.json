@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1650",
+  "status": "active_research",
+  "title": "Macroscopic flat-block protected admission",
+  "pinned_inputs": {
+    "k1646": "lab/process/k1646-multidimensional-rudin-shapiro-flatness.json",
+    "k1647": "lab/process/k1647-stationary-macroscopic-negative-defect.json",
+    "k1648": "lab/process/k1648-gaussian-smoothed-fisher-control.json",
+    "k1649": "lab/process/k1649-radial-macroscopic-block-rigidity.json"
+  },
+  "protected_integration": {
+    "census": "365 rows: 286 satisfied, 10 conditional, 65 excluded and 4 missing.",
+    "source_status": "SC-ACT-01/02/06 remain ASSERTS and SC-META-53 remains UNCERTAIN.",
+    "ledger_status": "33 SAME / 22 DIFFERS / 31 NEEDS / 2 OVER-DETERMINED; LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS.",
+    "physical_admission": "K1145 and K1150 remain 0/7; no source-owned action, measure, Hamiltonian, physical state, observation or prediction is supplied.",
+    "advance": "An explicit stationary smooth finite-Fisher macroscopic law now has D_N=-Theta(N^4), exact profiled covariance and an O(N^4) Fisher ceiling; radial macroscopic blocks remain coefficient-rigid.",
+    "next_gate": "Compute the actual leading posterior-score residual for the translation/phase channel or prove a matching Fisher-versus-defect coercivity theorem.",
+    "scope_guard": "Do not replace the score residual by its convexity ceiling, infer descent from defect scale, or transfer radial rigidity to anisotropic laws."
+  },
+  "decision": {
+    "leading_defect_existence_closed": true,
+    "positive_cost_scale_closed": true,
+    "complete_gap_sign_open": true,
+    "source_or_ledger_status_moved": false,
+    "canon_or_public_status_moved": false,
+    "protected_status_change": false
+  }
+}

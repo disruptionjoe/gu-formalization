@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1649",
+  "status": "active_research",
+  "title": "Orthogonally invariant macroscopic blocks have dimension-suppressed negative defect",
+  "pinned_inputs": {
+    "k1637": "lab/process/k1637-stationary-fisher-defect-gap-identity.json",
+    "k1643": "lab/process/k1643-block-law-coefficient-rigidity.json"
+  },
+  "radial_rigidity": {
+    "law": "Let X=RU in R^d be centered, standardized and orthogonally invariant, with U uniform on the unit sphere, E R^2=d and finite E R^4.",
+    "exact_cumulant": "kappa4(<u,X>)=3{E[R^4]/[d(d+2)]-1}||u||^4.",
+    "negative_floor": "Jensen E[R^4]>=d^2 gives kappa4(<u,X>)>=-6||u||^4/(d+2), sharply attained by fixed radius.",
+    "fourier_bound": "For one d_N=Theta(N^3) block with bounded covariance profile and bounded trigonometric basis, int||a_N(x)||^4dx=O(N^4), so D_N>=-O(N).",
+    "coefficient": "K1637 yields Q_N>=lambda_N^statG-O(N); the profiled Gaussian is a radial member, so the class coefficient is h_g^prof.",
+    "scope_guard": "The theorem needs orthogonal invariance after standardization and does not control angularly anisotropic macroscopic laws such as K1647."
+  },
+  "decision": {
+    "exact_radial_cumulant_proved": true,
+    "sharp_dimension_suppression_proved": true,
+    "radial_macroscopic_coefficient_rigidity": true,
+    "all_macroscopic_blocks_controlled": false,
+    "angular_anisotropy_excluded": false,
+    "protected_status_change": false
+  }
+}
