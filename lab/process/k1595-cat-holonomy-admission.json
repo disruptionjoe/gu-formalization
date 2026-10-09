@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1595",
+  "title": "Profiled-cat rigidity and angular-holonomy cancellation protected admission replay",
+  "pinned_inputs": {
+    "k1591": {"path": "lab/process/k1591-symmetric-profiled-cat-fisher-sandwich.json", "sha256": "4de1bebd8f33a0c979e6fe2dcf6b3f2c5a709913fa2c94de0444076b6f712357"},
+    "k1592": {"path": "lab/process/k1592-negative-defect-cat-coefficient-rigidity.json", "sha256": "b4723767d188bd1b6cf05743107fd9767c293b0e10efc78b4e0e32caf5c615dd"},
+    "k1593": {"path": "lab/process/k1593-opposite-charge-angular-holonomy-cancellation.json", "sha256": "0131a8978adf0915f16a0608f7dcc15d905b38f2bfe2d5eb01a3d667af936cca"},
+    "k1594": {"path": "lab/process/k1594-constant-radius-charge-analytic-hierarchy.json", "sha256": "f3d13b89dc9e33e5816bb043af968898aa400e0760e0a65ff430dee1f24192d2"}
+  },
+  "bridge_census": {
+    "row_count": 310,
+    "satisfied_count": 231,
+    "conditional_count": 10,
+    "excluded_count": 65,
+    "missing_count": 4,
+    "new_satisfied_rows": [
+      "K1591 exact symmetric-cat Fisher sandwich",
+      "K1592 negative-defect cat coefficient rigidity",
+      "K1593 opposite-charge angular-holonomy cancellation",
+      "K1594 constant-radius charge-analytic hierarchy conservation",
+      "K1595 protected admission replay"
+    ],
+    "protected_missing_rows": [
+      "source-selected action/measure/Hamiltonian",
+      "interacting positive physical quotient",
+      "observed carrier/intertwiner",
+      "held-out prediction or confirmation"
+    ]
+  },
+  "protected_state": {
+    "source_claims": "SC-ACT-01/02/06 remain ASSERTS; SC-META-53 remains UNCERTAIN",
+    "physics_ledger": "33 SAME / 22 DIFFERS / 31 NEEDS / 2 OVER-DETERMINED",
+    "candidate_counts": "K1145 and K1150 remain 0/7",
+    "canon_change": false,
+    "paper_change": false,
+    "prediction_or_confirmation": false,
+    "public_posture_change": false
+  },
+  "decision": {
+    "conditional_mathematical_advance": true,
+    "profiled_cat_coefficient_rigid": true,
+    "angular_holonomy_cancellation_proved": true,
+    "unrestricted_leading_coefficient_identified": false,
+    "global_positive_radius_flow": false,
+    "source_owned_hamiltonian": false,
+    "protected_status_change": false
+  }
+}

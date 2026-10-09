@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1594",
+  "title": "The periodic harmonic orbit preserves every convergent positive charge-analytic tier sum",
+  "pinned_inputs": {
+    "k1593": {"path": "lab/process/k1593-opposite-charge-angular-holonomy-cancellation.json", "sha256": "0131a8978adf0915f16a0608f7dcc15d905b38f2bfe2d5eb01a3d667af936cca"},
+    "k1589": {"path": "lab/process/k1589-periodic-harmonic-electric-counterexample.json", "sha256": "e9b453d768125ff55fb115b5090eae31b787896970f3fbcae46b248cb059ae24"}
+  },
+  "charge_hierarchy": {
+    "orbit_data": "K1589 has only k=0 modes, equal species amplitudes, constant |a|=A and constant scalar amplitude R, while |dot a|=A Omega>0.",
+    "base_conservation": "K1593 applies for all time and gives H_+(t)+H_-(t)=constant although the angular holonomy total variation diverges linearly.",
+    "tier_lift": "The global charge generator has eigenvalues of equal absolute value on the two species. Applying Q^n multiplies the paired matter energies by the same even factor, so the angular cancellation holds at every charge tier.",
+    "analytic_sum": "Every convergent positive charge-analytic sum of the adapted tier energies is constant on the orbit.",
+    "interpretation": "K1589 rejects energy-only L1_t control of the harmonic electric field but does not obstruct every cancellation-based positive-radius mechanism; its own infinite-variation angular motion has zero signed hierarchy cost.",
+    "scope_guard": "This orbit theorem supplies no decay, unequal-mode stability, oscillatory Maxwell estimate, current/radial remainder bound or global nonlinear positive-radius flow."
+  },
+  "decision": {
+    "base_paired_energy_conserved": true,
+    "every_charge_tier_conserved": true,
+    "positive_analytic_sum_conserved": true,
+    "k1589_universal_cancellation_no_go": false,
+    "global_nonlinear_flow_proved": false,
+    "protected_status_change": false
+  }
+}

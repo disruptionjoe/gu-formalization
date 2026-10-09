@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1591",
+  "title": "The symmetric profiled-Gaussian cat has an exact rank-one Fisher sandwich",
+  "pinned_inputs": {
+    "k1533": {"path": "lab/process/k1533-relative-fisher-covariance-extremality.json", "sha256": "19ca4ef5d62a12111a2ebd678f1b7d7e8b82e2b0a0ee726852f5c6ae27d713cf"},
+    "k1572": {"path": "lab/process/k1572-finite-cutoff-profiled-gaussian-minimizer.json", "sha256": "dcdce3de0f59d4f41985e81f575774d499e4a646e8aabde771aeefd2b125db4b"}
+  },
+  "fisher_sandwich": {
+    "cat_law": "Let nu_cat=(N(m,S)+N(-m,S))/2 in the real covariance coordinates, with common positive profiled covariance S and constant zero-mode mean vector m.",
+    "convex_upper": "Weighted relative Fisher convexity gives I_Omega(nu_cat|mu)<=U=m^T Omega m+Tr[Omega(S+S^(-1)-2I)], the common component Fisher information.",
+    "moment_lower": "The cat has mean zero and covariance T=S+mm^T. K1533 gives I_Omega(nu_cat|mu)>=L=Tr[Omega(T+T^(-1)-2I)].",
+    "rank_one_width": "Sherman--Morrison and cancellation of the linear covariance/mean terms give U-L=Tr[Omega(S^(-1)-T^(-1))]=[m^T S^(-1) Omega S^(-1)m]/[1+m^T S^(-1)m].",
+    "profiled_scale": "Because m is the zero-mode eigenvector, U-I_Omega<=omega_0 |m|^2/[s_(N,0)(s_(N,0)+|m|^2)]<=omega_0/s_(N,0)=sqrt(omega_0^2+kappa_(g,N)^+)=Theta_g(N).",
+    "scope_guard": "This exact sandwich is for the symmetric two-component profiled cat. It does not control arbitrary multimodal, asymmetric, spatially textured or nonstationary negative-defect laws."
+  },
+  "decision": {
+    "fisher_convex_upper_proved": true,
+    "fixed_moment_lower_proved": true,
+    "rank_one_width_exact": true,
+    "profiled_cat_gain_at_most_order_N": true,
+    "arbitrary_negative_defect_controlled": false,
+    "protected_status_change": false
+  }
+}

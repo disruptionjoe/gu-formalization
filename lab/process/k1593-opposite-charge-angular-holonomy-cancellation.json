@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1593",
+  "title": "Equal-mode opposite charges cancel angular harmonic-holonomy work",
+  "pinned_inputs": {
+    "k1583": {"path": "lab/process/k1583-moving-holonomy-energy-identity.json", "sha256": "5d972c264a1dc89d5b880c7a5da4ba5f13e759c7f554ff67612de7fc45be3daa"},
+    "k1589": {"path": "lab/process/k1589-periodic-harmonic-electric-counterexample.json", "sha256": "e9b453d768125ff55fb115b5090eae31b787896970f3fbcae46b248cb059ae24"}
+  },
+  "angular_cancellation": {
+    "species_identity": "For charge q in {+e,-e}, H_q=(1/2)sum_k[|dot phi_(q,k)|^2+(m^2+|k-q a|^2)|phi_(q,k)|^2] obeys H_q'=-q dot(a) dot sum_k(k-q a)|phi_(q,k)|^2.",
+    "pairing_condition": "Assume equal same-k amplitudes |phi_(+,k)|^2=|phi_(-,k)|^2=w_k on the interval considered.",
+    "exact_sum": "The momentum-linear terms cancel and H_+'+H_-'=2e^2 dot(a) dot a sum_k w_k=e^2 d(|a|^2)/dt sum_k w_k.",
+    "angular_consequence": "If |a| is constant, the paired adapted energy is exactly conserved even when int|dot a| diverges. Angular holonomy variation is cost-free; only radial amplitude variation remains in this identity.",
+    "invariant_control": "The same-mode condition need not be invariant for general nonzero Fourier data. The homogeneous k=0 equal-species sector is invariant and includes K1589's exact orbit.",
+    "scope_guard": "Gauss neutrality alone does not imply the pairing condition. No unequal-mode, oscillatory-field, radial-remainder or global-flow cancellation is proved."
+  },
+  "decision": {
+    "signed_species_work_identity_proved": true,
+    "momentum_linear_terms_cancel": true,
+    "angular_holonomy_cost_zero": true,
+    "homogeneous_control_invariant": true,
+    "neutrality_alone_sufficient": false,
+    "global_positive_radius_proved": false,
+    "protected_status_change": false
+  }
+}

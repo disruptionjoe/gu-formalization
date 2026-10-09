@@ -7,6 +7,22 @@ updated_at: "2026-10-09"
 
 # Next Steps For Contributors
 
+> **2026-10-09 K1591--K1595 PROFILED CAT AND ANGULAR-HOLONOMY
+> CANCELLATION.** The symmetric mixture of the two sign-reflected K1572
+> profiled Gaussians has defect `-2h_N^4=-Theta_g(N^4)`, yet Fisher convexity,
+> K1533 extremality and Sherman--Morrison put its total energy only `O_g(N)`
+> below `lambda_N^prof`. Its leading coefficient remains `h_g^prof`, and it
+> cannot account for the `Theta_g(N^(5/2))` residual descent. Next test a
+> genuinely different multimodal, higher-chaos, nonstationary or spatial
+> sign-texture family, or prove a global nonlinear Fisher/defect theorem. On
+> the PDE arc, equal same-mode amplitudes of charges `+e` and `-e` cancel
+> angular harmonic work exactly; K1589's constant-radius orbit preserves every
+> charge tier and positive analytic sum despite infinite total variation.
+> Next stabilize that signed cancellation for unequal modes and control the
+> radial, curvature, current and oscillatory remainders. Do not generalize cat
+> rigidity to all negative-defect states, replace same-mode pairing by
+> neutrality, claim a global positive radius, or claim source ownership.
+
 > **2026-10-09 K1586--K1590 RESIDUAL RITZ SCALE AND HARMONIC ORBIT.** The
 > profiled Gaussian residual is exactly
 > `g int[:eta^4:+4h:eta^3:]`. Fourier convolution counting gives norm

@@ -7,6 +7,26 @@ updated_at: "2026-10-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1591--K1595 profiled cat and angular holonomy (2026-10-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A leading negative Wick defect necessarily lowers the leading coefficient | K1591 Fisher sandwich plus K1592 exact cat moments | false for the symmetric profiled cat: its defect is `-Theta_g(N^4)` but its coefficient remains `h_g^prof` |
+| Mixing the sign-reflected profiled components can explain K1587's residual descent | K1591 rank-one sandwich | false: the cat gains at most `O_g(N)`, versus `Theta_g(N^(5/2))` |
+| The cat result determines the unrestricted `N^4` coefficient | K1592 scope audit | not established: other multimodal, higher-chaos, nonstationary and spatially textured laws remain open |
+| Harmonic energy growth must spend full holonomy total variation | K1593 signed opposite-charge work identity | false on the equal-mode paired sector: constant-radius angular motion has zero cost |
+| K1589's periodic orbit obstructs every cancellation-based hierarchy | K1594 tier lift | false: every charge tier and every convergent positive analytic sum is constant on that orbit |
+| The angular cancellation proves a global positive-radius flow | K1593--K1594 scope audit | not established: unequal modes, radial variation, oscillatory fields and nonlinear remainders remain open |
+| The advance closes GU physical admission | K1595 310-row bridge census | 231 satisfied, ten conditional, 65 excluded and four missing |
+
+The five producers pass `113/113` controls and five hostile probes reject
+`69/69` mutations. The analytic Fisher, rank-one and signed-work identities
+carry the mathematical claims; the scripts check exact algebra, report
+consistency and hostile scope mutations. SC-ACT-01/02/06 remain `ASSERTS`,
+SC-META-53 remains `UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`,
+and K1145/K1150 stay `0/7`. No source, ledger, canon, paper, prediction,
+confirmation or public status moves.
+
 ## K1586--K1590 residual Ritz scale and harmonic orbit (2026-10-09)
 
 | Claim | Evidence | Honest grade |

@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1592",
+  "title": "The symmetric profiled cat has leading negative defect but the same profiled coefficient",
+  "pinned_inputs": {
+    "k1591": {"path": "lab/process/k1591-symmetric-profiled-cat-fisher-sandwich.json", "sha256": "4de1bebd8f33a0c979e6fe2dcf6b3f2c5a709913fa2c94de0444076b6f712357"},
+    "k1587": {"path": "lab/process/k1587-profiled-residual-ritz-scaling.json", "sha256": "0ddf9246d44b69c4fca15ea3adaf5d48678300e143b7b1bba110ac38ac8dde9c"}
+  },
+  "cat_coefficient": {
+    "point_law": "At each point the cat is the equal mixture N(+h_N,v_N) and N(-h_N,v_N), with mean zero, variance v_N+h_N^2 and fourth central moment h_N^4+6h_N^2v_N+3v_N^2.",
+    "negative_defect": "Relative to its moment-matched Gaussian the fourth-cumulant defect is exactly -2h_N^4=-Theta_g(N^4), so the cat lies outside K1577's nonnegative-defect class.",
+    "interaction_identity": "The Wick quartic is even and expectation is linear in the law, so the cat interaction expectation equals that of either sign-reflected profiled Gaussian exactly.",
+    "energy_sandwich": "If lambda_N^prof is the component energy, then lambda_N^prof-(1/4)sqrt(omega_0^2+kappa_(g,N)^+)<=Q_N^cat<=lambda_N^prof.",
+    "coefficient": "Therefore Q_N^cat/N^4->h_g^prof. The cat can improve the profiled value by at most O_g(N), far below K1587's Theta_g(N^(5/2)) residual Ritz descent.",
+    "route_consequence": "A leading negative moment defect alone does not imply a leading coefficient change. Any coefficient-changing construction must use a different multimodal, higher-chaos, nonstationary or spatially structured mechanism, or a global theorem must exclude those mechanisms.",
+    "scope_guard": "This is a coefficient-rigidity theorem for one exact nonperturbative cat family, not the unrestricted ground-energy coefficient or bounded-error recentering."
+  },
+  "decision": {
+    "leading_negative_defect_exact": true,
+    "cat_interaction_equals_component": true,
+    "profiled_cat_coefficient_rigid": true,
+    "cat_explains_residual_ritz_scale": false,
+    "unrestricted_leading_coefficient_identified": false,
+    "protected_status_change": false
+  }
+}

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: e919d59e7893f04aa811c1b3ee4468d34ff182e2
+revision_basis: a31d64bc3391d654936bf6d6e8e8fd73d338d80b
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1591--K1595 switch from local residual refinement to an exact global
+    negative-defect challenger and from absolute holonomy variation to signed
+    opposite-charge work. The symmetric mixture of the two sign-reflected
+    K1572 profiled Gaussians has pointwise fourth-cumulant defect
+    `-2h_N^4=-Theta_g(N^4)`. Fisher convexity, K1533 extremality and a
+    rank-one Sherman--Morrison identity nevertheless sandwich its Rayleigh
+    quotient within `O_g(N)` below `lambda_N^prof`; its `N^4` coefficient is
+    exactly `h_g^prof`, and it cannot explain K1587's
+    `Theta_g(N^(5/2))` descent. Other negative-defect families remain open.
+    Independently, equal same-mode amplitudes of charges `+e` and `-e`
+    cancel the momentum-linear harmonic work, leaving only
+    `e^2 d(|a|^2)/dt sum_k w_k`. Constant-radius angular holonomy therefore
+    costs no adapted energy. K1589's periodic orbit preserves every charge
+    tier and every convergent positive charge-analytic sum despite infinite
+    holonomy total variation. Unequal modes, radial variation, oscillatory
+    fields and global continuation remain open. The 310-row census is 231
+    satisfied, ten conditional, 65 excluded and four missing; protected
+    source, ledger, canon and public states do not move.
+
     K1586--K1590 quantify the profiled Gaussian residual and close one
     bounded-error interpretation without promoting the result to a leading
     coefficient theorem. Mean/covariance stationarity cancels chaos orders
@@ -14977,6 +14996,21 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1591--K1595 prove that the strongest explicit symmetric profiled-cat
+  challenger carries a leading negative defect but retains the exact
+  `h_g^prof` coefficient, with at most `O_g(N)` gain. Which genuinely
+  different multimodal, higher-chaos, nonstationary or spatial sign-texture
+  family can change the unrestricted `N^4` coefficient, or which global
+  nonlinear Fisher/defect inequality excludes all of them? Only after the
+  true `E_N+O(1)` shift is identified should compactness and Mosco
+  liminf/recovery be tested. Independently, equal-mode opposite charges make
+  constant-radius angular holonomy invisible to the full positive
+  charge-analytic hierarchy. Can that signed cancellation be stabilized for
+  unequal nonzero modes and composed with curvature, current and radial
+  remainders to keep a positive radius, or can dispersion exclude the
+  nondecaying sector? The source-owned action/measure/Hamiltonian tuple remains
+  a separate gate.
+
   K1586--K1590 prove that the profiled Gaussian sits
   `Theta_g(N^(5/2))` above an explicit unrestricted Ritz trial. The gap rules
   out bounded-error recentering by the Gaussian value but is too small to
@@ -17512,6 +17546,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1591--K1595's symmetric two-component mixture, common K1572
+  covariance, zero-mode rank-one update, equal same-mode opposite-charge
+  hypothesis and homogeneous invariant control. Do not extend cat coefficient
+  rigidity to arbitrary negative-defect laws or replace same-mode pairing by
+  Gauss neutrality. Test a genuinely different global non-Gaussian family or
+  prove a nonlinear Fisher/defect theorem before claiming the unrestricted
+  coefficient. For the PDE, build a stable signed normal form for unequal
+  nonzero modes and control radial, curvature, current and oscillatory
+  remainders before claiming a positive global radius. Supply the source-owned
+  selector tuple only from actual action, carrier and observation data.
+
   Preserve K1586--K1590's fixed positive coupling, larger-root stationary
   diagonal Gaussian, cube cutoff and two-species counterexample scope. Use a
   global nonlinear Fisher/negative-defect inequality or a new admissible trial
