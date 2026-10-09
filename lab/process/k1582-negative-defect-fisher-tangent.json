@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1582",
+  "title": "Negative Wick defect is first order while fixed-moment Fisher excess is second order near the profiled Gaussian",
+  "pinned_inputs": {
+    "k1533": {"path": "lab/process/k1533-relative-fisher-covariance-extremality.json", "sha256": "19ca4ef5d62a12111a2ebd678f1b7d7e8b82e2b0a0ee726852f5c6ae27d713cf"},
+    "k1534": {"path": "lab/process/k1534-nongaussian-wick-moment-defect.json", "sha256": "bdaced8b3721438112c7a3eb8e65e06946a20526fd8b240feacf0afa06256053"},
+    "k1581": {"path": "lab/process/k1581-profiled-gaussian-residual-descent.json", "sha256": "2c6fe1b97b721e09f94d02a2761118379de035d14909114af536bc26d42bd98a"}
+  },
+  "fixed_moment_tangent": {
+    "orthogonality": "At the interior K1572 Gaussian optimum, the Hamiltonian residual is orthogonal to normalization, mean and covariance Gaussian tangents because those parameters were already varied in the Gaussian minimization.",
+    "exact_moment_correction": "Project a bounded smooth approximation to the negative residual away from constant, linear and quadratic Gaussian statistics, then use the local Gaussian exponential family to restore normalization, mean and covariance exactly; the correction begins at second order.",
+    "fisher_order": "K1533 Gaussian extremality and smoothness on the exact fixed-moment manifold give F(rho_epsilon)-F(G_N)=O(epsilon^2).",
+    "defect_order": "The total first variation is strictly negative by K1581 and the free first variation vanishes, so K1534's integrated Wick defect equals -c_N epsilon+O(epsilon^2) with c_N>0.",
+    "excluded_linear_compensation": "No neighborhood admits F(rho)-F(G_N)>=c[-D(rho)]_+ with fixed c>0: the left side is quadratic and the right side linear along the constructed curve.",
+    "scope_guard": "This excludes only local linear Fisher compensation at fixed cutoff. It does not exclude quadratic, cutoff-dependent or global nonlinear compensation and supplies no unrestricted leading coefficient or bounded-error estimate."
+  },
+  "decision": {
+    "negative_defect_states_constructed_locally": true,
+    "fisher_excess_quadratic": true,
+    "interaction_gain_linear": true,
+    "linear_compensation_excluded": true,
+    "global_compensation_excluded": false,
+    "bounded_error_recentering": false,
+    "protected_status_change": false
+  }
+}

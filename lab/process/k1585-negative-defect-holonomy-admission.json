@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1585",
+  "title": "Negative-defect and evolving-holonomy protected admission replay",
+  "pinned_inputs": {
+    "k1581": {"path": "lab/process/k1581-profiled-gaussian-residual-descent.json", "sha256": "2c6fe1b97b721e09f94d02a2761118379de035d14909114af536bc26d42bd98a"},
+    "k1582": {"path": "lab/process/k1582-negative-defect-fisher-tangent.json", "sha256": "9a1543c853196e2d665ddd004a5d0254ab97288f2d3c874c85afa4fe9a344e6c"},
+    "k1583": {"path": "lab/process/k1583-moving-holonomy-energy-identity.json", "sha256": "5d972c264a1dc89d5b880c7a5da4ba5f13e759c7f554ff67612de7fc45be3daa"},
+    "k1584": {"path": "lab/process/k1584-harmonic-oscillatory-radius-budget.json", "sha256": "ebc8464e392748aa7c69021dfddfd1da24e338df8dd5f805919b4ade4fe606eb"}
+  },
+  "bridge_census": {
+    "row_count": 300,
+    "satisfied_count": 221,
+    "conditional_count": 10,
+    "excluded_count": 65,
+    "missing_count": 4,
+    "new_satisfied_rows": [
+      "K1581 profiled-Gaussian finite-cutoff residual descent",
+      "K1582 negative-defect/Fisher tangent-order separation",
+      "K1583 moving-holonomy total-variation energy identity",
+      "K1584 harmonic/oscillatory conditional radius budget",
+      "K1585 protected admission replay"
+    ],
+    "protected_missing_rows": [
+      "source-selected action/measure/Hamiltonian",
+      "interacting positive physical quotient",
+      "observed carrier/intertwiner",
+      "held-out prediction or confirmation"
+    ]
+  },
+  "protected_state": {
+    "source_claims": "SC-ACT-01/02/06 remain ASSERTS; SC-META-53 remains UNCERTAIN",
+    "physics_ledger": "33 SAME / 22 DIFFERS / 31 NEEDS / 2 OVER-DETERMINED",
+    "candidate_counts": "K1145 and K1150 remain 0/7",
+    "canon_change": false,
+    "paper_change": false,
+    "prediction_or_confirmation": false,
+    "public_posture_change": false
+  },
+  "decision": {
+    "conditional_mathematical_advance": true,
+    "strict_gaussian_descent_proved": true,
+    "linear_fisher_compensation_excluded": true,
+    "moving_holonomy_identity_proved": true,
+    "conditional_harmonic_radius_budget_proved": true,
+    "unrestricted_coefficient_identified": false,
+    "bounded_error_recentering": false,
+    "nonlinear_global_flow": false,
+    "source_owned_hamiltonian": false,
+    "protected_status_change": false
+  }
+}

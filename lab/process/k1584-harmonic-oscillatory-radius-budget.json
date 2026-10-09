@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1584",
+  "title": "Harmonic-adapted Hodge splitting replaces raw flat-holonomy radius cost by variation and curvature remainder",
+  "pinned_inputs": {
+    "k1573": {"path": "lab/process/k1573-moving-radius-current-absorption.json", "sha256": "a76dfb050607516076b7d5ddbee2f14390b21169bf29e765a46da163a6387da9"},
+    "k1583": {"path": "lab/process/k1583-moving-holonomy-energy-identity.json", "sha256": "5d972c264a1dc89d5b880c7a5da4ba5f13e759c7f554ff67612de7fc45be3daa"}
+  },
+  "harmonic_split": {
+    "decomposition": "In periodic Coulomb gauge write A=a+A_perp with a the spatial mean, mean(A_perp)=0 and div(A_perp)=0; use D_a in the principal charged energy.",
+    "hodge_control": "For the mean-zero divergence-free remainder, torus Hodge/Poincare gives ||A_perp||_(H^(s+1))<=C_s||curl A||_(H^s), while ||partial_t A_perp||_(H^s)<=||E_perp||_(H^s).",
+    "remainder_budget": "The adapted hierarchy replaces |e|||a|| by a schematic integrable coefficient C_s[(|e|/m)|dot a|+|e|||curl A||_(H^s)+|e|||E_perp||_(H^s)+controlled nonlinear current/radial terms].",
+    "conditional_radius": "If the adapted coercive hierarchy closes and the displayed remainder is L1_t with integral smaller than the available initial-radius margin, then rho(t) stays bounded below by a positive limit.",
+    "structural_advance": "Static flat holonomy consumes no radius; evolving holonomy is charged only through a continuous lift's total variation, and mean-zero potential size is replaced by curvature/electric control.",
+    "scope_guard": "No coupled estimate proves the harmonic electric variation, oscillatory curvature, current feedback or radial remainder integrable. The nonlinear global flow and positive limiting radius remain conditional."
+  },
+  "decision": {
+    "harmonic_oscillatory_split_constructed": true,
+    "raw_flat_amplitude_removed": true,
+    "hodge_remainder_typed": true,
+    "conditional_positive_radius": true,
+    "remainder_integrability_proved": false,
+    "nonlinear_global_flow": false,
+    "protected_status_change": false
+  }
+}

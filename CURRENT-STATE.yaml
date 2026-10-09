@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: c6bbfea8b4d90a32e7113d92298b78b80a61735f
+revision_basis: 5737cda4931ecb36184dfa655b67b15095387ecd
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,28 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1581--K1585 prove that the profiled stationary Gaussian is not the true
+    finite-cutoff translation-invariant minimizer and isolate the exact local
+    obstruction to extending K1577 by linear Fisher compensation. For every
+    positive coupling, a Gaussian's Hamiltonian residual is nonzero because
+    the free logarithmic quotient is at most quadratic while the interaction
+    retains a quartic homogeneous part. The exact two-dimensional residual
+    Ritz compression therefore descends strictly. At the interior profiled
+    optimum the residual is normal to the Gaussian mean/covariance tangent;
+    exact fixed-moment perturbations have Fisher excess `O(epsilon^2)` but
+    negative integrated Wick defect `-c_N epsilon+O(epsilon^2)`. Thus no local
+    positive linear Fisher payment controls negative defect. No cutoff-uniform
+    Ritz gap, unrestricted coefficient or bounded-error recentering follows.
+    On the PDE arc, a prescribed harmonic connection `a(t)` obeys the exact
+    adapted-energy bound `|H_a'|<=(|e|/m)|dot a|H_a`; charge tiers grow with
+    holonomy total variation, not flat-holonomy amplitude. Coulomb/Hodge
+    splitting replaces the raw harmonic term by harmonic-electric variation
+    plus curvature, oscillatory electric and nonlinear remainders. A positive
+    limiting radius is conditional on their `L1_t` budget; coupled
+    integrability and global flow remain open. The 300-row census is 221
+    satisfied, ten conditional, 65 excluded and four missing; protected
+    source, ledger, canon and public states do not move.
+
     K1576--K1580 extend the exact profiled coefficient beyond Gaussian
     densities while preserving the unrestricted boundary. For every
     translation-invariant finite-Fisher state whose integrated Wick defect
@@ -14935,6 +14957,18 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1581--K1585 prove strict non-Gaussian descent from every finite-cutoff
+  profiled Gaussian and exclude a local linear Fisher payment for negative
+  integrated Wick defect, but give no cutoff-uniform gap. Can the residual
+  Ritz matrix or a global nonlinear Fisher/defect inequality now determine
+  whether the unrestricted leading coefficient differs from `h_g^prof`, or
+  decide bounded-error recentering? Independently, the harmonic-adapted PDE
+  energy depends on holonomy total variation rather than flat-holonomy
+  amplitude. Can the coupled Maxwell-current system make the harmonic electric
+  variation and curvature/current remainder integrable, preserving a positive
+  analytic radius? The source-owned action/measure/Hamiltonian tuple remains a
+  separate gate.
+
   K1576--K1580 identify the exact profiled coefficient for the
   translation-invariant finite-Fisher class with nonnegative integrated Wick
   defect, and prove Gaussian rigidity inside that class. Can the remaining
@@ -17445,6 +17479,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1581--K1585's finite-cutoff and local-tangent ceilings. Estimate
+  both entries of the residual Ritz matrix uniformly, or prove a genuinely
+  global nonlinear Fisher/negative-defect inequality, before claiming an
+  unrestricted coefficient or bounded-error recentering. Separately, keep the
+  harmonic connection in the principal covariant energy and charge only a
+  continuous holonomy lift's total variation; prove `L1_t` control of the mean
+  electric, curvature, oscillatory electric, current and radial remainders
+  before claiming a positive global radius or completed flow. Supply the
+  source-owned selector tuple only from actual action, carrier and observation
+  data.
+
   Preserve K1576--K1580's finite cutoff, translation invariance, finite Fisher
   information and nonnegative integrated Wick-defect hypothesis. Control the
   negative-defect sector or remove stationarity before claiming an unrestricted

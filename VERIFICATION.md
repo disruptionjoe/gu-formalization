@@ -7,6 +7,25 @@ updated_at: "2026-10-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1581--K1585 negative defect and evolving holonomy (2026-10-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K1572's profiled Gaussian is the unrestricted finite-cutoff translation-invariant minimizer | K1581 nonzero quartic residual and exact Ritz compression | false: every such Gaussian has a strict translation-invariant non-Gaussian descent |
+| Strict finite-cutoff descent changes the unrestricted leading coefficient | K1581 scope audit | not established: no cutoff-uniform Ritz gap is proved |
+| Negative integrated Wick defect must pay a positive linear Fisher excess | K1582 exact fixed-moment tangent curve | false locally: Fisher excess is `O(epsilon^2)` while defect is `-c_N epsilon+O(epsilon^2)` |
+| The tangent construction excludes every global compensation mechanism | K1582 scope audit | not established: quadratic, cutoff-dependent and nonperturbative inequalities remain open |
+| A moving harmonic connection costs radius in proportion to its amplitude | K1583 adapted-energy derivative | false for the prescribed linear problem: growth is bounded by `(|e|/m)|dot a|` |
+| Static generic flat holonomy consumes analytic radius | K1583 with K1579 | false: its adapted energy and every charge tier are conserved |
+| Hodge splitting alone proves a positive global radius | K1584 conditional budget | not established: harmonic-electric, curvature, current and radial `L1_t` control remains open |
+| The advance closes GU physical admission | K1585 300-row bridge census | 221 satisfied, ten conditional, 65 excluded and four missing |
+
+The five producers pass `110/110` controls and five hostile probes reject
+`75/75` mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
+`0/7`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
+
 ## K1576--K1580 non-Gaussian coefficient and flat-connection boundary (2026-10-09)
 
 | Claim | Evidence | Honest grade |

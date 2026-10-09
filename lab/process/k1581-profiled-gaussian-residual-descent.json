@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1581",
+  "title": "Every profiled finite-cutoff Gaussian has a strict unrestricted quartic residual descent",
+  "pinned_inputs": {
+    "k1572": {"path": "lab/process/k1572-finite-cutoff-profiled-gaussian-minimizer.json", "sha256": "dcdce3de0f59d4f41985e81f575774d499e4a646e8aabde771aeefd2b125db4b"},
+    "k1577": {"path": "lab/process/k1577-wick-dominant-profiled-coefficient.json", "sha256": "7c63f47ee2d29eb2295c50aafa37e1085dec0d3f4d8b3676b56c90348c099e27"}
+  },
+  "residual_descent": {
+    "finite_cutoff_setting": "Fix N and g>0. Let G_N be a normalized nondegenerate real Gaussian and H_N=H_(0,N)+gW_N on the finite real Q-space.",
+    "nonzero_residual": "(H_(0,N)G_N)/G_N has degree at most two, while W_N has a nonzero quartic homogeneous part. Hence r_N=(H_N-<G_N,H_NG_N>)G_N is nonzero: no such Gaussian is an eigenfunction.",
+    "ritz_matrix": "With sigma_N=||r_N||>0 and u_N=r_N/sigma_N, the exact compression to span{G_N,u_N} is [[lambda_G,sigma_N],[sigma_N,mu_N]] and its lower eigenvalue is strictly below lambda_G.",
+    "symmetry": "For K1572's translation-invariant Gaussian, H_N commutes with translations, so r_N and the descending Ritz vector are translation invariant.",
+    "finite_cutoff_consequence": "K1572's exact stationary diagonal Gaussian minimum is strictly above the unrestricted translation-invariant finite-cutoff infimum.",
+    "scope_guard": "No cutoff-uniform lower bound on the Ritz gap is proved; the result does not change h_g^prof on K1577's class, determine the unrestricted coefficient, or decide bounded-error recentering."
+  },
+  "decision": {
+    "gaussian_eigenstate_excluded": true,
+    "strict_finite_cutoff_descent": true,
+    "translation_invariant_descent": true,
+    "uniform_asymptotic_gap": false,
+    "unrestricted_coefficient_identified": false,
+    "protected_status_change": false
+  }
+}

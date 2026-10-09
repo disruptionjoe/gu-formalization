@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1583",
+  "title": "Prescribed moving harmonic holonomy costs total variation rather than connection amplitude",
+  "pinned_inputs": {
+    "k1579": {"path": "lab/process/k1579-flat-connection-covariant-energy-cancellation.json", "sha256": "d1e970bf11cce046a027968589014b69bda18443a30fb2f04c3f1b813fd38c1a"}
+  },
+  "moving_holonomy": {
+    "equation": "For C1 a(t) on the torus, solve phi_tt+L_(a(t))phi=0 with L_a=-(grad-i e a)^2+m^2 and m>0.",
+    "exact_derivative": "For H_a=(1/2)(||phi_t||^2+<phi,L_a phi>), H_a'=-(e dot a) dot sum_k (k-ea)|phi_k|^2.",
+    "relative_bound": "The scalar inequality 2m|p|<=|p|^2+m^2 gives |H_a'|<=(|e|/m)|dot a|H_a and H_a(t)<=H_a(0)exp((|e|/m)TV(a)).",
+    "charge_hierarchy": "The global charge generator commutes with L_(a(t)) for every t, so the same bound holds at every charge tier and for positive analytic sums.",
+    "maxwell_interpretation": "In temporal gauge dot a=-mean(E); the cost is harmonic electric variation, while static generic flat holonomy has zero cost without requiring periodic gauge removal.",
+    "scope_guard": "The identity treats prescribed harmonic a(t) and positive mass. It does not prove coupled Maxwell-current control, finite total variation, radial control or global continuation."
+  },
+  "decision": {
+    "energy_derivative_exact": true,
+    "amplitude_cost_removed": true,
+    "total_variation_bound": true,
+    "charge_tiers_controlled": true,
+    "coupled_nonlinear_integrability": false,
+    "global_positive_radius": false,
+    "protected_status_change": false
+  }
+}

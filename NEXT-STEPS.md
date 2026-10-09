@@ -7,6 +7,21 @@ updated_at: "2026-10-09"
 
 # Next Steps For Contributors
 
+> **2026-10-09 K1581--K1585 NEGATIVE DEFECT AND EVOLVING HOLONOMY.** Every
+> nondegenerate profiled Gaussian has a nonzero quartic Hamiltonian residual,
+> so its exact residual Ritz compression strictly lowers the finite-cutoff
+> translation-invariant energy. At the optimized Gaussian, exact fixed-moment
+> perturbations pay only `O(epsilon^2)` Fisher excess while gaining
+> `c_N epsilon+O(epsilon^2)` through negative Wick defect. This excludes a
+> local positive linear Fisher-compensation inequality, not a cutoff-dependent
+> or global nonlinear one. Next estimate the residual Ritz matrix uniformly or
+> prove a global defect inequality before claiming an unrestricted coefficient
+> or bounded-error recentering. On the PDE arc, the harmonic-adapted energy
+> grows with `int|dot a|`, not `int|a|`; Hodge splitting charges the mean-zero
+> connection through curvature and electric remainders. Next prove those
+> coupled remainders integrable. Do not claim a positive global radius,
+> completed flow or source-owned GU Hamiltonian.
+
 > **2026-10-09 K1576--K1580 WICK-DOMINANT COEFFICIENT AND FLAT-CONNECTION
 > BOUNDARY.** The exact profiled coefficient now holds over every
 > translation-invariant finite-Fisher density whose integrated non-Gaussian
