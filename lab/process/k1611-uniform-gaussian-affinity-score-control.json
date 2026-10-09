@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1611",
+  "title": "Gaussian affinity times score mismatch is uniformly O(N) in a fixed relative profile band",
+  "pinned_inputs": {
+    "k1606": {"path": "lab/process/k1606-gaussian-mixture-missing-information.json", "sha256": "7a704e092ac1d6020756550bdf9aa2cffdcb47bb64629121f752008420b7ce5b"},
+    "k1572": {"path": "lab/process/k1572-finite-cutoff-profiled-gaussian-minimizer.json", "sha256": "dcdce3de0f59d4f41985e81f575774d499e4a646e8aabde771aeefd2b125db4b"}
+  },
+  "uniform_pair_control": {
+    "hypothesis": "Translated stationary diagonal Gaussian components have c_- S_N^*<=S_i,S_j<=c_+ S_N^* for fixed positive c_-,c_+; means are arbitrary.",
+    "affinity_exponent": "BC_ij=exp(-X_ij), X_ij=sum_k[(1/2)log cosh(r_k/2)+Delta_k^2/(4(s_(i,k)+s_(j,k)))], r_k=log(s_(i,k)/s_(j,k)).",
+    "score_split": "The exact K1606 polynomial is the covariance sum 2 omega_k(s_i-s_j)^2/[s_i s_j(s_i+s_j)] plus the mean sum 4 omega_k Delta_k^2/(s_i+s_j)^2.",
+    "mean_identity": "In the common diagonal basis B_ij h_ij+b_ij=2(S_i+S_j)^(-1)(m_i-m_j).",
+    "comparison": "Compact relative-band equivalence gives P_ij<=C_(c_-,c_+) Lambda_N X_ij, Lambda_N=max_k omega_k/s_(N,k)^*=O_g(N).",
+    "uniform_bound": "BC_ij P_ij<=C Lambda_N X_ij exp(-X_ij)<=C Lambda_N/e=O_g(N), uniformly without centeredness, separation, a mean bound, or a lower bound on X_ij.",
+    "scope_guard": "The theorem is for translated stationary diagonal Gaussian components in one fixed relative band. It does not control non-Gaussian components, phases, textures, nonstationarity, or arbitrary covariance eigenvectors."
+  },
+  "decision": {
+    "macroscopic_separation_required": false,
+    "centeredness_required": false,
+    "mean_bound_required": false,
+    "pair_affinity_score_O_N": true,
+    "unrestricted_state_theorem": false,
+    "protected_status_change": false
+  }
+}

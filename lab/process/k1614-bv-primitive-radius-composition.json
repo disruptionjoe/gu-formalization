@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1614",
+  "title": "The BV primitive budget composes with shifted holonomy energy and analytic radius",
+  "pinned_inputs": {
+    "k1609": {"path": "lab/process/k1609-primitive-radius-composition.json", "sha256": "23249e87a264fb0b0141719d6d97b50cb988bb2eedf2668c8e2a711eca39ca02"},
+    "k1613": {"path": "lab/process/k1613-bv-spectral-primitive-budget.json", "sha256": "d7842fec0e0c16d9f83dae6fa39b92bef9a161377085c5ef6b01ec757a909a85"}
+  },
+  "composition": {
+    "budgets": "Set B_a=B_0+B_BV and B_a2=B_0 B_a.",
+    "energy": "For arbitrary static a_infinity, E_infinity(t)<=E_infinity(0)exp[2|e|B_a+(e^2/m)B_a2].",
+    "hierarchy_hypothesis": "Assume B_A(t)<=|e||tilde a(t)|+R(t) with B_R=int_0^infinity R(t)dt finite.",
+    "radius": "rho_infinity>=rho_0-(C_m/4)(|e|B_a+B_R); strict expenditure below rho_0 preserves a positive limiting radius.",
+    "scope_guard": "The result remains conditional on the atom-free BV primitive representation, adapted hierarchy, integrable nonlinear remainder, coercivity, physical domain, and source-owned action."
+  },
+  "decision": {
+    "arbitrary_static_flat_holonomy_absorbed": true,
+    "bv_budget_composed": true,
+    "positive_radius_under_strict_budget": true,
+    "nonlinear_remainder_derived": false,
+    "source_owned_flow": false,
+    "protected_status_change": false
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1615",
+  "title": "Overlap-free mixture rigidity and BV primitive results preserve protected GU boundaries",
+  "pinned_inputs": {
+    "k1611": {"path": "lab/process/k1611-uniform-gaussian-affinity-score-control.json", "sha256": "3ce2b5c0da8f636d6b44268eaca280c671eb27f64bb02c7ef2260fc2921f5121"},
+    "k1612": {"path": "lab/process/k1612-growing-mixture-renyi-rigidity.json", "sha256": "e4bf7609346b6c195edabcb8e3d8de7064037220e8782b00262673f1d0b92310"},
+    "k1613": {"path": "lab/process/k1613-bv-spectral-primitive-budget.json", "sha256": "d7842fec0e0c16d9f83dae6fa39b92bef9a161377085c5ef6b01ec757a909a85"},
+    "k1614": {"path": "lab/process/k1614-bv-primitive-radius-composition.json", "sha256": "77ab64c05074cecee813eb2af8a6e1c6adbe3ea7f55647ef674965ccc6e2543b"}
+  },
+  "census": {
+    "rows": 330,
+    "satisfied": 251,
+    "conditional": 10,
+    "excluded": 65,
+    "missing": 4,
+    "source_asserts": ["SC-ACT-01", "SC-ACT-02", "SC-ACT-06"],
+    "source_uncertain": ["SC-META-53"],
+    "physics_ledger": {"SAME": 33, "DIFFERS": 22, "NEEDS": 31, "OVER_DETERMINED": 2},
+    "k1145_k1150_scorable_rows": "0/7"
+  },
+  "protected_boundaries": {
+    "source_register_changed": false,
+    "physics_ledger_changed": false,
+    "canon_changed": false,
+    "paper_changed": false,
+    "prediction_changed": false,
+    "confirmation_changed": false,
+    "public_posture_changed": false,
+    "unrestricted_ground_coefficient_identified": false,
+    "source_owned_action_measure_hamiltonian_supplied": false
+  },
+  "next_wakes": [
+    "genuinely non-Gaussian or nonstationary Fisher-defect control, or the critical/supercritical Renyi-half mixture regime",
+    "source-owned nonlinear derivation of the primitive spectral measure and integrable curvature/current/radial remainder",
+    "source-owned action, physical measure, Hamiltonian, carrier, quotient, and observation tuple"
+  ]
+}

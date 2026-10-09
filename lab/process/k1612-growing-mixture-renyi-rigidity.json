@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1612",
+  "title": "Renyi-half effective count controls growing translated Gaussian mixtures at the profiled coefficient",
+  "pinned_inputs": {
+    "k1606": {"path": "lab/process/k1606-gaussian-mixture-missing-information.json", "sha256": "7a704e092ac1d6020756550bdf9aa2cffdcb47bb64629121f752008420b7ce5b"},
+    "k1611": {"path": "lab/process/k1611-uniform-gaussian-affinity-score-control.json", "sha256": "3ce2b5c0da8f636d6b44268eaca280c671eb27f64bb02c7ef2260fc2921f5121"},
+    "k1572": {"path": "lab/process/k1572-finite-cutoff-profiled-gaussian-minimizer.json", "sha256": "dcdce3de0f59d4f41985e81f575774d499e4a64629121f752008420b7ce5b"}
+  },
+  "renyi_rigidity": {
+    "effective_count": "R_(1/2)(p_N)=(sum_i sqrt(p_(N,i)))^2 and sum_(i<j)sqrt(p_i p_j)=[R_(1/2)-1]/2.",
+    "mixing_gain": "K1606 and K1611 give 0<=sum_i p_i Q_N(nu_i)-Q_N(nu_N)<=C_g Lambda_N[R_(1/2)(p_N)-1], with Lambda_N=O_g(N).",
+    "component_floor": "K1572/K1602 bound every translated stationary diagonal Gaussian component in the fixed relative band below by lambda_N^prof.",
+    "coefficient": "If R_(1/2)(p_N)=o(N^3), then lambda_N^prof-o(N^4)<=Q_N(nu_N); since the class contains the profiled Gaussian, its infimum divided by N^4 converges to h_g^prof.",
+    "examples": "Every fixed mixture has O_g(N) gain. For equal weights R_(1/2)=M_N, so M_N=o(N^3) is sufficient. Nonuniform weights may support more nominal atoms when their effective count is subcubic.",
+    "scope_guard": "Critical or supercritical effective count, non-Gaussian components, arbitrary covariance eigenvectors, phases, textures, and nonstationarity remain open."
+  },
+  "decision": {
+    "fixed_finite_overlapping_translated_class_closed": true,
+    "growing_mixture_controlled": true,
+    "renyi_half_subcubic_required": true,
+    "class_coefficient_h_g_prof": true,
+    "critical_effective_count_closed": false,
+    "unrestricted_leading_coefficient_identified": false,
+    "protected_status_change": false
+  }
+}

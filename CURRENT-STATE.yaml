@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 87a37e47aa23d8ad959875204174929954b14af9
+revision_basis: 40548da9b80963d13a30731145fdcc201fbd64e2
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1611--K1615 remove K1607's macroscopic-separation and centeredness
+    restrictions inside the fixed order-one stationary diagonal Gaussian
+    profile band. The exact Bhattacharyya exponent controls the same covariance
+    and translation differences that enter the score polynomial, so every pair
+    obeys the uniform tradeoff `BC_ij P_ij=O_g(N)` through `x exp(-x)` even
+    when the components overlap macroscopically. K1606 then gives `O_g(N)`
+    gain for every fixed translated mixture and preserves coefficient
+    `h_g^prof` for growing mixtures whose Renyi-half effective count is
+    `o(N^3)`. Critical/supercritical effective count, non-Gaussian laws,
+    phases, textures and nonstationarity remain open. Independently, a finite
+    distributional second derivative of the zero-extended primitive density
+    gives the same integrable `t^-2` holonomy budget while allowing first-
+    derivative jumps. The background-adapted positive-radius result remains
+    conditional on the atom-free representation and integrable nonlinear
+    remainder. The 330-row census is 251 satisfied, ten conditional, 65
+    excluded and four missing; protected source, ledger, canon and public
+    states do not move.
+
     K1606--K1610 replace the coarse precision-Jensen gap by the exact missing
     Fisher information of a finite mixture: posterior component-score
     variance. A pairwise Bhattacharyya bound shows that any fixed finite family
@@ -15052,6 +15070,20 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1611--K1612 close every fixed finite translated stationary diagonal
+  Gaussian mixture in one fixed relative K1572 profile band at coefficient
+  `h_g^prof`, without macroscopic separation, and extend the conclusion to
+  growing mixtures with Renyi-half effective count `o(N^3)`. Can the
+  critical/supercritical effective-count regime change the coefficient, or
+  can a genuinely non-Gaussian/nonstationary Fisher-defect theorem close the
+  remaining unrestricted sector? Only after the true `E_N+O(1)` shift is
+  identified should compactness and Mosco liminf/recovery be tested.
+  Independently, K1613--K1614 replace primitive `W^{2,1}` by finite
+  distributional second derivative. Can that atom-free BV primitive and the
+  integrable curvature/current/radial remainder be derived from one
+  source-owned nonlinear action/domain? The source-owned
+  action/measure/Hamiltonian tuple remains a separate gate.
+
   K1606--K1607 prove that the exact gain from finite Gaussian mixing is
   posterior score variance and that it is exponentially small for a fixed
   finite family of macroscopically separated order-one covariance profiles.
@@ -17645,6 +17677,22 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1611's stationary diagonal covariance basis, fixed relative band
+  around the K1572 profile, exact Gaussian affinity, arbitrary translations,
+  and `x exp(-x)` score-overlap tradeoff. Preserve K1612's Renyi-half
+  effective-count condition `R_(1/2)=o(N^3)`; nominal atom count alone is not
+  the theorem. Do not transfer coefficient rigidity to critical or
+  supercritical effective count, non-Gaussian laws, arbitrary covariance
+  eigenvectors, phases, textures or nonstationarity. Preserve K1613's
+  atom-free support-away-from-zero representation, zero endpoint trace, and
+  finite distributional second derivative; derivative jumps are allowed but
+  density jumps and electric-field `L1` are not. Preserve K1614's adapted
+  hierarchy and integrable-remainder hypotheses. Next attack the genuinely
+  non-Gaussian/nonstationary sector or the critical effective-count regime;
+  for the PDE, derive the primitive spectrum and remainders from a source-owned
+  nonlinear domain. Supply the source-owned selector tuple only from actual
+  action, carrier and observation data.
+
   Preserve K1606's exact distinction between component-average Fisher
   information and posterior score missing information. Preserve K1607's fixed
   component count, centered stationary diagonal components, fixed relative

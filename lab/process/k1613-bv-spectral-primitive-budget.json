@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1613",
+  "title": "A spectral primitive with finite distributional second derivative has an integrable holonomy budget",
+  "pinned_inputs": {
+    "k1608": {"path": "lab/process/k1608-spectral-primitive-holonomy-budget.json", "sha256": "908710bceb9bd630e1986e92b5f200075875382e627869beb58dc4d8382e3ce1"}
+  },
+  "bv_primitive": {
+    "hypothesis": "The atom-free divided densities G_+,G_- are supported away from zero; their zero extensions lie in W^{1,1}(R) and have finite signed distributional second-derivative measures.",
+    "equivalent_piecewise_class": "On finitely many compact intervals, zero endpoint trace plus L1 first derivative and BV first derivative is sufficient; jumps of the first derivative are allowed and enter the measure norm.",
+    "decay": "With B_0=||G_+||_1+||G_-||_1 and B_BV=|D^2G_+|(R)+|D^2G_-|(R), the Fourier identity gives |tilde a(t)|<=min(B_0,t^(-2)B_BV).",
+    "budgets": "int_0^infinity|tilde a|<=B_0+B_BV and int_0^infinity|tilde a|^2<=B_0(B_0+B_BV).",
+    "strict_extension": "This includes K1608's zero-extended W^{2,1} class and also piecewise-smooth primitives with derivative jumps.",
+    "scope_guard": "Density endpoint jumps are not allowed, electric-field L1 is not proved, and the spectral representation is not derived from a nonlinear source-owned flow."
+  },
+  "decision": {
+    "distributional_second_derivative_measure_sufficient": true,
+    "first_derivative_jumps_allowed": true,
+    "density_endpoint_jumps_allowed": false,
+    "holonomy_L1": true,
+    "holonomy_L2": true,
+    "electric_field_L1": false,
+    "source_owned_flow": false,
+    "protected_status_change": false
+  }
+}

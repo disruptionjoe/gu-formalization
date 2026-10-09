@@ -7,6 +7,21 @@ updated_at: "2026-10-09"
 
 # Next Steps For Contributors
 
+> **2026-10-09 K1611--K1615 OVERLAP/ENTROPY RIGIDITY AND BV PRIMITIVE
+> BUDGET.** In the fixed relative K1572 profile band, Gaussian affinity and
+> score mismatch obey a uniform `x exp(-x)` tradeoff. Every pair contributes
+> only `O_g(N)`, without separation, centeredness or a mean bound. Thus every
+> fixed translated stationary diagonal Gaussian mixture retains coefficient
+> `h_g^prof`, and a growing mixture does too when its Renyi-half effective
+> count is `o(N^3)`. Next test the critical effective-count regime or leave the
+> Gaussian/stationary class through a nonlinear Fisher-defect theorem. On the
+> PDE arc, finite distributional second derivative of the zero-extended
+> primitive density gives the integrable `t^-2` holonomy budget and permits
+> first-derivative jumps. Next derive that atom-free BV representation and the
+> integrable nonlinear remainder from a source-owned domain. Do not claim an
+> unrestricted coefficient, density jumps, `E_h in L1`, nonlinear scattering,
+> a global source-owned flow, or physical admission.
+
 > **2026-10-09 K1606--K1610 SEPARATED MIXTURES AND PRIMITIVE HOLONOMY
 > BUDGET.** Finite-mixture Fisher convexity loses exactly the posterior
 > component-score variance. Pairwise Bhattacharyya overlap makes that loss

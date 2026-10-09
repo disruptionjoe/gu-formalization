@@ -7,6 +7,25 @@ updated_at: "2026-10-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1611--K1615 overlap/entropy rigidity and BV primitives (2026-10-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K1607's positive-density separation and centeredness are necessary | K1611 exact Gaussian affinity exponent and score split | false in the fixed relative stationary diagonal profile band: `BC_ij P_ij=O_g(N)` uniformly for arbitrary translations |
+| A fixed overlapping translated Gaussian mixture can change the profiled coefficient | K1606 plus K1611 and K1572 | false for this class: its total mixing gain is `O_g(N)` and its coefficient remains `h_g^prof` |
+| Growing component count automatically breaks coefficient rigidity | K1612 Renyi-half theorem | false below the effective-count boundary: `R_(1/2)(p_N)=o(N^3)` gives `o(N^4)` total mixing gain |
+| K1612 controls critical/supercritical mixtures or non-Gaussian states | K1612 scope audit | not established: `R_(1/2)` of order `N^3` or larger, non-Gaussianity, arbitrary covariance eigenvectors, phases, textures and nonstationarity remain open |
+| K1608 requires an absolutely continuous second derivative with vanishing derivative traces | K1613 distributional Fourier theorem | false: a finite distributional second-derivative measure suffices and admits first-derivative jumps |
+| K1613 permits density endpoint jumps or proves electric-field `L1` | K1613 scope audit | false: zero endpoint trace is required and only the holonomy primitive receives the `L1/L2` budgets |
+| The BV theorem constructs a nonlinear source-owned flow | K1614--K1615 | not established: the spectral representation, adapted hierarchy, remainders, coercivity, physical domain and source action remain inputs |
+| The advance closes GU physical admission | K1615 330-row bridge census | 251 satisfied, ten conditional, 65 excluded and four missing |
+
+The five producers pass `94/94` controls and five hostile probes reject
+`42/42` mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
+`0/7`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
+
 ## K1606--K1610 separated mixtures and primitive holonomy (2026-10-09)
 
 | Claim | Evidence | Honest grade |
