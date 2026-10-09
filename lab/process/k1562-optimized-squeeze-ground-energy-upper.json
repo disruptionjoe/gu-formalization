@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1562",
+  "title": "The optimized uniform squeeze gives an explicit ground-energy limsup and a vacuum-instability threshold",
+  "pinned_inputs": {
+    "k1557": {"path": "lab/process/k1557-quartic-ground-energy-scale.json", "sha256": "3ffca167b9e43abf4009c21a0cc1f8d92e345ed07ade39fe0e45f611e17c92ce"},
+    "k1561": {"path": "lab/process/k1561-uniform-squeeze-coefficient.json", "sha256": "ad16579b20eb3ed4b5052d3e2700012046f5af6a2a1ef48a153860ef460b9db8"}
+  },
+  "optimized_upper": {
+    "vacuum_difference": "e_g(s)-e_g(1)=(1-s)^2[c_Omega/(4s)-6g c_C^2]",
+    "threshold": "A squeezed member beats the vacuum coefficient iff g>g_c:=c_Omega/(24c_C^2), approximately 0.0141310864; for 0<g<=g_c the vacuum minimizes this one-parameter family",
+    "interior_minimizer": "For g>g_c, the unique interior minimizer is s_g=[c_Omega+sqrt(c_Omega^2+192g c_C^2 c_Omega)]/(96g c_C^2), equivalently 48g c_C^2 s_g^2=c_Omega(s_g+1)",
+    "optimized_coefficient": "For g>g_c the minimum is h_g=c_Omega(s_g^2-3s_g+4)/(8s_g)<6g c_C^2; for g<=g_c it is h_g=6g c_C^2",
+    "limsup": "The unrestricted cutoff ground energy obeys limsup_(N to infinity) E_N/N^4<=min_(0<s<=1)e_g(s), with strict inequality below 6g c_C^2 when g>g_c",
+    "composition": "Together with K1557 this gives a positive finite quartic coefficient corridor but no matching lower coefficient or convergence of E_N/N^4",
+    "scope_guard": "The threshold is a variational statement inside an explicit Gaussian trial family and a strict unrestricted upper bound relative to the vacuum when it fires; it is not a phase transition of the full theory, a leading asymptotic theorem, localization, compactness or Mosco recovery"
+  },
+  "decision": {
+    "vacuum_difference_factorized": true,
+    "family_threshold_proved": true,
+    "interior_minimizer_proved": true,
+    "explicit_ground_energy_limsup_proved": true,
+    "vacuum_coefficient_unrestricted_upper_sharp_for_large_g": false,
+    "ground_energy_ratio_convergence_proved": false,
+    "mosco_limit_constructed": false,
+    "protected_status_change": false
+  }
+}

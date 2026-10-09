@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1563",
+  "title": "Removing the lifted potential cross term exchanges the radial time derivative for a same-tier coefficient",
+  "pinned_inputs": {
+    "k1413": {"path": "lab/process/k1413-full-pde-graph-energy-leakage.json", "sha256": "3d553dba3c237d737cfa8982ace7c2bba0239ab8b064ce78956334aef28dcc27"}
+  },
+  "radial_exchange": {
+    "lifted_field": "Set psi_n=Q^n phi and let F_n^PDE be K1413's positive graph energy including (lambda/2)int|phi|^2|psi_n|^2",
+    "correction": "Define R_n=-(lambda/2)int|phi|^2|psi_n|^2 and H_n=F_n^PDE+R_n, the positive quadratic covariant graph energy",
+    "exact_identity": "H_n'=int E dot j_n-lambda Re int |phi|^2<psi_n,D_t psi_n>",
+    "same_tier_bound": "Because H_n controls ||D_t psi_n||_2^2/2+m^2||psi_n||_2^2/2, the new radial work is bounded by (|lambda|/m)||phi||_infinity^2 H_n for m>0",
+    "combined_k1558_identity": "With M_n=int A dot j_n in K1558's temporal-gauge convention, (H_n+M_n)'=-lambda Re int |phi|^2<psi_n,D_t psi_n>+int A dot partial_t j_n",
+    "advance": "The difficult pointwise coefficient partial_t|phi|^2 is removed from the full-PDE graph estimate without a charge-tier shift; the differentiated-current term and coercivity of H_n+M_n remain open",
+    "scope_guard": "This is an exact normal-form exchange and same-tier radial estimate for smooth cutoff solutions with m>0. M_n is indefinite and adjacent-tier, and this result is not a coercive gauge-invariant modified energy, global H2 bound, charge summation, replacement of K1450 or completed flow"
+  },
+  "decision": {
+    "radial_correction_constructed": true,
+    "radial_time_derivative_cancelled": true,
+    "same_tier_bound_proved": true,
+    "combined_normal_form_identity_proved": true,
+    "differentiated_current_controlled": false,
+    "coercive_modified_energy_constructed": false,
+    "global_full_pde_flow_constructed": false,
+    "protected_status_change": false
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1561",
+  "title": "A uniformly squeezed Gaussian has an exact quartic-scale coefficient functional",
+  "pinned_inputs": {
+    "k1524": {"path": "lab/process/k1524-stationary-quasi-free-exact-formulas.json", "sha256": "14cbd2eaa0b14f1f587013fe1b1b5ac056872d075503d5112c316e583cf536df"},
+    "k1560": {"path": "lab/process/k1560-cutoff-weyl-coefficients.json", "sha256": "0d25c26e84613914acf41e687e972c6d35f6f72b9f4aae2af2ab288d3bbd9a67"}
+  },
+  "uniform_squeeze": {
+    "trial": "For fixed 0<s<=1 set every real covariance eigenvalue s_j=s and optimize the constant physical mean y_N=a_N^2 over y_N>=0",
+    "finite_cutoff_optimizer": "Including the zero-mode coherent cost (m^2/2)y_N, the exact optimizer is y_N=[3C_N(1-s)-m^2/(4g)]_+ rather than the interaction-only optimizer",
+    "finite_cutoff_free_cost": "q0_N(s)=(Omega_N/4)(s+s^(-1)-2)+(m^2/2)y_N",
+    "finite_cutoff_interaction": "The exact K1524 Wick polynomial is y_N^2-6C_N(1-s)y_N+C_N^2(3s^2-6s+9)",
+    "finite_cutoff_total": "Writing B_N=Omega_N, the optimized total is (B_N/4)(s+s^(-1)-2)+gC_N^2(3s^2-6s+9)-[6gC_N(1-s)-m^2/2]_+^2/(4g)",
+    "active_branch_total": "When 6gC_N(1-s)>m^2/2, the same total is (B_N/4)(s+s^(-1)-2)+6gC_N^2s(2-s)+(3m^2/2)C_N(1-s)-m^4/(16g)",
+    "leading_functional": "For fixed g>0 and fixed 0<s<=1, y_N/C_N tends to 3(1-s) and N^(-4)Rayleigh_N(s) tends to e_g(s):=(c_Omega/4)(s+s^(-1)-2)+6g c_C^2 s(2-s)",
+    "endpoint": "At s=1 the trial is the vacuum and e_g(1)=6g c_C^2; as s tends to zero the squeeze term diverges",
+    "scope_guard": "The formula is exact only for the declared translation-invariant uniform-squeeze Gaussian family; it is an upper-trial coefficient, not the unrestricted ground-energy coefficient or an O(1) recentering"
+  },
+  "decision": {
+    "uniform_squeeze_trial_constructed": true,
+    "mean_optimized_at_finite_cutoff": true,
+    "zero_mode_mass_cost_included": true,
+    "leading_coefficient_functional_derived": true,
+    "vacuum_endpoint_recovered": true,
+    "unrestricted_ground_energy_coefficient_proved": false,
+    "bounded_error_recentering_proved": false,
+    "protected_status_change": false
+  }
+}

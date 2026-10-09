@@ -2,10 +2,27 @@
 title: "Verification: What Is Proved, Computed, and Conjectural"
 status: process
 doc_type: verification-map
-updated_at: "2026-10-08"
+updated_at: "2026-10-09"
 ---
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
+
+## K1560--K1565 squeezed coefficient and radial normal-form boundary (2026-10-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The K1433 cutoff has spherical `pi` Weyl coefficients | K1560 cube Riemann sums and real-mode count | false: the coefficients are `c_C=12log((1+sqrt(3))/sqrt(2))-pi` and `c_Omega=2sqrt(3)+8log((1+sqrt(3))/sqrt(2))-pi/3` |
+| Uniform squeezing has the interaction-only finite optimizer | K1561 zero-mode coherent cost and exact quadratic minimization | false: `y_N=[3C_N(1-s)-m^2/(4g)]_+` |
+| The vacuum is coefficient-optimal inside the uniform-squeeze family for every `g` | K1562 factorization and stationary equation | false above `g_c=c_Omega/(24c_C^2)` |
+| The trial determines the unrestricted ground-energy coefficient | K1562 scope audit | not established: only a limsup is proved |
+| Removing the radial potential term closes the PDE graph estimate | K1563 exact exchange | not established: the estimate is conditional on `||phi||_infinity^2` and differentiated-current/coercivity debts remain |
+| `int A dot j_n` is instantaneously residual-gauge invariant | K1564 lifted continuity | false: it changes by the time derivative `d/dt int chi rho_n` |
+| The advance closes GU physical admission | K1565 280-row bridge census | 201 satisfied, ten conditional, 65 excluded and four missing |
+
+SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`,
+LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay `0/7`.
+No source, ledger, canon, paper, prediction, confirmation or public status
+moves.
 
 ## K1554--K1559 spectral shell gap and gauge normal-form boundary (2026-10-08)
 

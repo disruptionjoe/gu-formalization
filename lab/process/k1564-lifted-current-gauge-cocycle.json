@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1564",
+  "title": "Lifted-current continuity makes the temporal-gauge normal form a residual-gauge boundary cocycle",
+  "pinned_inputs": {
+    "k1394": {"path": "lab/process/k1394-admissible-gauge-continuation.json", "sha256": "037862eaece6a0bf762c1ac427869121c9cc14d54a5a616b3ec4642571da3d09"},
+    "k1413": {"path": "lab/process/k1413-full-pde-graph-energy-leakage.json", "sha256": "3d553dba3c237d737cfa8982ace7c2bba0239ab8b064ce78956334aef28dcc27"},
+    "k1558": {"path": "lab/process/k1558-gauge-potential-normal-form-exchange.json", "sha256": "d682e3c04fd30262e1535e9e9b1d5fa1682c61dd8b351ca036c06a6a30ec5bea"}
+  },
+  "gauge_cocycle": {
+    "density": "For psi_n=Q^n phi define rho_n=e Im<Q psi_n,D_t psi_n> and j_n^a=e Im<Q psi_n,D^a psi_n>",
+    "continuity": "The real scalar potential and commuting charge imply partial_t rho_n+div j_n=0 for every smooth cutoff solution",
+    "residual_gauge": "Under a smooth periodic time-independent residual temporal-gauge transformation A maps to A+grad chi and psi_n maps by the matching charge phase, while rho_n and j_n are gauge invariant",
+    "boundary_cocycle": "On the closed torus M_n=int A dot j_n changes by int grad chi dot j_n=d/dt int chi rho_n; hence K1558's correction carries an exact time-boundary cocycle rather than instantaneous gauge invariance",
+    "consequence": "A coercive instantaneous estimate must fix the residual gauge or include a compatible charge-boundary convention; the identity points toward a spacetime/nonlocal completion rather than silently treating M_n as gauge invariant",
+    "scope_guard": "The cocycle classification is on the smooth periodic core and does not cover large non-single-valued gauge transformations or spatial boundary flux; it does not control int A dot partial_t j_n, prove coercivity, select a global gauge, pass to the completed domain or complete the PDE flow"
+  },
+  "decision": {
+    "lifted_current_continuity_proved": true,
+    "residual_gauge_cocycle_proved": true,
+    "instantaneous_gauge_invariance_proved": false,
+    "spacetime_boundary_completion_required": true,
+    "differentiated_current_controlled": false,
+    "global_gauge_fixed": false,
+    "global_full_pde_flow_constructed": false,
+    "protected_status_change": false
+  }
+}

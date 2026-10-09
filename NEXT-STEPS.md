@@ -2,10 +2,25 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-10-08"
+updated_at: "2026-10-09"
 ---
 
 # Next Steps For Contributors
+
+> **2026-10-09 K1560--K1565 SQUEEZED COEFFICIENT AND RADIAL NORMAL FORM.**
+> The box cutoff has exact leading constants
+> `c_C=12log((1+sqrt(3))/sqrt(2))-pi` and
+> `c_Omega=2sqrt(3)+8log((1+sqrt(3))/sqrt(2))-pi/3`. An exact uniform-squeeze
+> trial gives `e_g(s)=c_Omega(s+s^(-1)-2)/4+6g c_C^2s(2-s)` and, above
+> `g_c=c_Omega/(24c_C^2)`, a strict limsup below the vacuum coefficient. This
+> is family-scoped and one-sided. Next prove a matching unrestricted lower
+> coefficient or bounded-error recentering. On the PDE arc, the radial
+> correction replaces `partial_t|phi|^2` by a same-tier `L-infinity`
+> coefficient, while lifted continuity shows that `int A dot j_n` is a
+> residual-gauge time-boundary cocycle. Next control the differentiated
+> current in a coercive gauge-fixed or spacetime-completed hierarchy. Do not
+> claim a full-theory phase transition, completed flow or source-owned GU
+> Hamiltonian.
 
 > **2026-10-08 K1554--K1559 SPECTRAL SHELL GAP AND QUARTIC CUTOFF
 > SCALE.** Fixed sign-shell mass transfers to `f_N`, forces

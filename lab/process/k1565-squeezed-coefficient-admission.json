@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1565",
+  "title": "Squeezed coefficient and radial normal-form protected admission replay",
+  "pinned_inputs": {
+    "k1560": {"path": "lab/process/k1560-cutoff-weyl-coefficients.json", "sha256": "0d25c26e84613914acf41e687e972c6d35f6f72b9f4aae2af2ab288d3bbd9a67"},
+    "k1561": {"path": "lab/process/k1561-uniform-squeeze-coefficient.json", "sha256": "ad16579b20eb3ed4b5052d3e2700012046f5af6a2a1ef48a153860ef460b9db8"},
+    "k1562": {"path": "lab/process/k1562-optimized-squeeze-ground-energy-upper.json", "sha256": "3bdc93cb1d8c622b4d2b595da126d9c264e5b1b482ae14f3466966f220892625"},
+    "k1563": {"path": "lab/process/k1563-radial-normal-form-exchange.json", "sha256": "45dbd1fda070ede168dc8524c0c97486d4302b1e764f8d02b75d99f2162a8dd6"},
+    "k1564": {"path": "lab/process/k1564-lifted-current-gauge-cocycle.json", "sha256": "91224b4eeea0b5dce9ccd95bfe218e6ef18e730d59f3204425de10dc84598f3a"}
+  },
+  "bridge_census": {
+    "row_count": 280,
+    "satisfied_count": 201,
+    "conditional_count": 10,
+    "excluded_count": 65,
+    "missing_count": 4,
+    "new_satisfied_rows": [
+      "K1560 cube-cutoff covariance and frequency Weyl coefficients",
+      "K1561 exact finite-cutoff uniform-squeeze optimizer",
+      "K1562 optimized squeezed ground-energy limsup coefficient",
+      "K1563 same-charge-tier radial normal-form exchange",
+      "K1564 lifted-current residual-gauge boundary cocycle",
+      "K1565 protected admission replay"
+    ],
+    "protected_missing_rows": [
+      "source-selected action/measure/Hamiltonian",
+      "interacting positive physical quotient",
+      "observed carrier/intertwiner",
+      "held-out prediction or confirmation"
+    ]
+  },
+  "protected_state": {
+    "source_claims": "SC-ACT-01/02/06 remain ASSERTS; SC-META-53 remains UNCERTAIN",
+    "physics_ledger": "33 SAME / 22 DIFFERS / 31 NEEDS / 2 OVER-DETERMINED",
+    "candidate_counts": "K1145 and K1150 remain 0/7",
+    "canon_change": false,
+    "paper_change": false,
+    "prediction_or_confirmation": false,
+    "public_posture_change": false
+  },
+  "decision": {
+    "conditional_mathematical_advance": true,
+    "cube_coefficient_control_proved": true,
+    "squeezed_limsup_coefficient_proved": true,
+    "vacuum_coefficient_beaten_above_family_threshold": true,
+    "radial_leakage_same_tier_exchange_proved": true,
+    "residual_gauge_boundary_cocycle_proved": true,
+    "ground_energy_to_bounded_error": false,
+    "full_pde_leakages_closed": false,
+    "continuum_interacting_brst_operator": false,
+    "source_owned_gu_hamiltonian": false,
+    "protected_status_change": false
+  }
+}

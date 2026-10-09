@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 40bc54757fdafe40d16d8231fc3fe206f3fcec2e
+revision_basis: 29b04b2c463c6876e45ae4537fb99a53fa6ca644
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1560--K1565 identify the exact leading cube-cutoff coefficients
+    `c_C=12log((1+sqrt(3))/sqrt(2))-pi` and
+    `c_Omega=2sqrt(3)+8log((1+sqrt(3))/sqrt(2))-pi/3`, including real-mode
+    multiplicity and singular-cell control. Uniform covariance squeeze with a
+    physical constant mean has exact positive-part optimizer
+    `y_N=[3C_N(1-s)-m^2/(4g)]_+`; its leading family functional is
+    `e_g(s)=c_Omega(s+s^(-1)-2)/4+6g c_C^2s(2-s)`. Above
+    `g_c=c_Omega/(24c_C^2)` the unique squeezed minimizer gives a strict
+    unrestricted limsup below the vacuum coefficient, but no matching lower
+    coefficient, ratio convergence or bounded-error recentering. On the PDE
+    arc, subtracting the lifted scalar-potential term exchanges the radial
+    derivative for a same-charge-tier conditional coefficient, and lifted
+    continuity classifies `int A dot j_n` as a residual-gauge time-boundary
+    cocycle. Differentiated-current control, coercivity and global flow remain
+    open. The 280-row census is 201 satisfied, ten conditional, 65 excluded
+    and four missing; protected source, ledger, canon and public states do not
+    move.
+
     K1554--K1559 close the cutoff exponent left open by K1553. Fixed sign-shell
     mass transfers to the degree-`N` field and forces `Omega(N^2)` gradient
     energy. Splitting that energy at `{|f_N|<1/2}`, differentiating
@@ -14858,6 +14876,16 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1560--K1565 give an explicit uniform-squeeze upper coefficient and prove a
+  family-only vacuum crossing above `g_c`. Can one prove the matching
+  unrestricted lower coefficient, or instead identify `E_N` to bounded error,
+  without assuming stationarity, Gaussianity or uniform squeezing? Do not
+  promote the family threshold to a full-theory phase transition or the
+  limsup to convergence. Independently, can the differentiated-current term
+  in `(H_n+M_n)'` be controlled inside a coercive gauge-fixed or spacetime-
+  completed hierarchy while retaining the same-charge-tier radial bound? The
+  source-owned action/measure/Hamiltonian tuple remains a separate gate.
+
   K1554--K1559 prove that nonvanishing fixed-ratio sign-shell mass forces a
   cutoff-independent normalized defect and close the finite-cutoff nonlinear
   ground-energy exponent at `E_N=Theta_g(N^4)`. What is the leading constant
@@ -17324,6 +17352,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1560--K1565's normalized torus, box cutoff, fixed mass/coupling,
+  real-mode multiplicity and explicit uniform-squeeze family. Prove a matching
+  unrestricted quartic coefficient or bounded-error recentering before
+  claiming a ground-energy asymptotic, compactness or Mosco recovery.
+  Separately, control the differentiated current and the indefinite
+  residual-gauge cocycle in a coercive gauge-fixed or spacetime-completed
+  hierarchy; K1450 remains the current conditional flow control. Supply the
+  source-owned selector tuple only from actual action, carrier and observation
+  data.
+
   Preserve K1554--K1559's fixed-shell and fixed-representation hypotheses.
   Determine the quartic ground energy beyond exponent-only `Theta_g(N^4)`:
   obtain a matching coefficient or bounded-error recenter, then test
