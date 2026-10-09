@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1597",
+  "title": "The complete profiled common-covariance location-mixture class has coefficient h_g^prof",
+  "pinned_inputs": {
+    "k1572": {"path": "lab/process/k1572-finite-cutoff-profiled-gaussian-minimizer.json", "sha256": "dcdce3de0f59d4f41985e81f575774d499e4a646e8aabde771aeefd2b125db4b"},
+    "k1596": {"path": "lab/process/k1596-location-mixture-fisher-sandwich.json", "sha256": "f853eba4287952a1595ef576f59dcd90412b80dfe3f2ae4dcd5279aff1f6ffc9"}
+  },
+  "coefficient_rigidity": {
+    "mixture_energy": "Potential expectations are linear under mixing and q_0=I_Omega/4, so Q_N(pi)=E_pi E_N(A,S_N)-(U-I_Omega(nu_pi|mu))/4.",
+    "component_lower": "K1572's larger-root profiled Gaussian is the finite-cutoff global stationary diagonal Gaussian minimum, hence every component with mean A e_0 and common S_N has E_N(A,S_N)>=lambda_N^prof.",
+    "class_lower": "K1596 gives Q_N(pi)>=lambda_N^prof-(1/4)sqrt(omega_0^2+kappa_(g,N)^+) for every finite-second-moment location law pi.",
+    "class_upper": "K1591's symmetric profiled cat belongs to the class and has Q_N^cat<=lambda_N^prof.",
+    "coefficient": "Therefore lambda_N^prof-O_g(N)<=inf_pi Q_N(pi)<=lambda_N^prof and inf_pi Q_N(pi)/N^4->h_g^prof.",
+    "route_consequence": "Arbitrarily many zero-mode locations and arbitrarily negative fourth-cumulant defects inside this common-covariance class cannot lower the N^4 coefficient; a coefficient-changing route must leave the class.",
+    "scope_guard": "This is a class-infimum theorem, not an unrestricted ground-energy coefficient, a bounded-error recentering theorem, or control of heterogeneous covariances, spatial textures, phases or nonstationary laws."
+  },
+  "decision": {
+    "componentwise_profiled_lower_bound_used": true,
+    "location_mixture_class_coefficient_proved": true,
+    "arbitrary_atom_count_allowed": true,
+    "unrestricted_leading_coefficient_identified": false,
+    "bounded_error_recentering_proved": false,
+    "protected_status_change": false
+  }
+}

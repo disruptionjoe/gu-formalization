@@ -7,6 +7,26 @@ updated_at: "2026-10-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1596--K1600 location mixtures and transverse modes (2026-10-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K1591's `O_g(N)` Fisher-mixing ceiling requires a symmetric two-atom cat | K1596 arbitrary-location-law sandwich | false: it depends only on the location variance and holds for continuous, asymmetric and arbitrarily multimodal laws over the common profiled covariance |
+| A common-covariance zero-mode location mixture can lower the `N^4` coefficient below `h_g^prof` | K1597 componentwise K1572 lower bound plus K1596 | false for this complete class: its infimum is within `O_g(N)` of `lambda_N^prof` |
+| The location-mixture theorem determines the unrestricted coefficient | K1597 scope audit | not established: heterogeneous covariances, non-zero-mode translations, spatial textures, phases and nonstationary laws remain open |
+| Unequal opposite-charge modes necessarily spend harmonic-electric total variation | K1598 exact boundary correction | false for the linear harmonic sector: the corrected bare-energy derivative contains `D'` and `M'` but no `dot a` |
+| Excluding homogeneous matter modes removes K1589's nondecaying obstruction | K1599 transverse nonzero-mode periodic family | false: a nonzero lattice mode perpendicular to the rotating holonomy plane gives the same persistent harmonic electric field |
+| The transverse family excludes every dispersive positive-radius route | K1599 scope audit | not established: stronger localization, spectral, nonresonance and radiation hypotheses remain open |
+| The advance closes GU physical admission | K1600 315-row bridge census | 236 satisfied, ten conditional, 65 excluded and four missing |
+
+The five producers pass `121/121` controls and five hostile probes reject
+`76/76` mutations. The Fisher sandwich, finite-cutoff variational minimum,
+exact energy completion and coupled periodic solution carry the mathematical
+claims; the scripts check algebra, report consistency and hostile scope
+mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains `UNCERTAIN`,
+LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay `0/7`. No
+source, ledger, canon, paper, prediction, confirmation or public status moves.
+
 ## K1591--K1595 profiled cat and angular holonomy (2026-10-09)
 
 | Claim | Evidence | Honest grade |

@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1599",
+  "title": "A transverse nonzero Fourier mode extends the neutral periodic harmonic-electric family",
+  "pinned_inputs": {
+    "k1589": {"path": "lab/process/k1589-periodic-harmonic-electric-counterexample.json", "sha256": "e9b453d768125ff55fb115b5090eae31b787896970f3fbcae46b248cb059ae24"},
+    "k1598": {"path": "lab/process/k1598-unequal-mode-bare-energy-normal-form.json", "sha256": "0897e71746b7866da2d6a2e9012e6a80e7ca91c9f9688fba59e973f7a554a539"}
+  },
+  "transverse_periodic_family": {
+    "geometry": "On T^3 choose nonzero lattice k perpendicular to the rotating two-plane of a(t)=A(cos(Omega t),sin(Omega t),0).",
+    "solution": "Set phi_+(t,x)=phi_-(t,x)=R exp(i omega t) exp(i k dot x), Omega=sqrt(2)eR and omega=sqrt(m^2+|k|^2+e^2A^2).",
+    "scalar_equations": "Because k dot a(t)=0, both charged covariant frequencies equal the constant m^2+|k|^2+e^2A^2, so both scalar equations hold exactly.",
+    "maxwell_and_gauss": "Opposite Gauss densities cancel. The momentum current parts cancel between charges while the a-parts add to -2e^2R^2a, giving a''+2e^2R^2a=0.",
+    "normal_form_control": "Equal same-k amplitudes give D=0 and constant M=2R^2, so both K1598's E_0 and K1593's adapted energy are constant while |E_bar|=A Omega>0.",
+    "route_consequence": "The holonomy total variation diverges linearly although no homogeneous matter mode is present. Excluding only k=0 is insufficient; dispersion must exclude or control the full nondispersive transverse single-mode sector.",
+    "scope_guard": "This family does not exclude scattering under stronger localization, spectral, nonresonance or radiation hypotheses, and it does not disprove a cancellation-based positive-radius theorem."
+  },
+  "decision": {
+    "nonzero_mode_exact_solution": true,
+    "gauss_neutral": true,
+    "finite_conserved_energy": true,
+    "harmonic_electric_l1_infinite": true,
+    "homogeneous_mode_exclusion_sufficient": false,
+    "all_dispersive_closure_excluded": false,
+    "protected_status_change": false
+  }
+}

@@ -7,6 +7,21 @@ updated_at: "2026-10-09"
 
 # Next Steps For Contributors
 
+> **2026-10-09 K1596--K1600 LOCATION-MIXTURE RIGIDITY AND TRANSVERSE
+> MODES.** Every finite-second-moment zero-mode location mixture over the
+> common K1572 profiled covariance has Fisher-mixing gain at most `O_g(N)`;
+> K1572's componentwise minimum gives the complete class-infimum coefficient
+> `h_g^prof`. Next leave that class through controlled covariance heterogeneity,
+> non-zero-mode translation, spatial texture, phase or nonstationarity, or
+> prove a global Fisher/defect theorem. On the PDE arc, the exact corrected
+> bare energy removes `dot a` for unequal modes. A transverse nonzero Fourier
+> mode nevertheless extends K1589's neutral periodic family, so excluding only
+> homogeneous matter does not create dispersion. Next exclude every
+> nondispersive resonant sector or control `D'`, `M'`, curvature, current,
+> radial and oscillatory remainders without a nonintegrable coefficient. Do
+> not claim an unrestricted coefficient, universal dispersive no-go, global
+> positive radius, or source ownership.
+
 > **2026-10-09 K1591--K1595 PROFILED CAT AND ANGULAR-HOLONOMY
 > CANCELLATION.** The symmetric mixture of the two sign-reflected K1572
 > profiled Gaussians has defect `-2h_N^4=-Theta_g(N^4)`, yet Fisher convexity,

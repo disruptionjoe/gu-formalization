@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1600",
+  "title": "Location-mixture rigidity and transverse-mode cancellation protected admission replay",
+  "pinned_inputs": {
+    "k1596": {"path": "lab/process/k1596-location-mixture-fisher-sandwich.json", "sha256": "f853eba4287952a1595ef576f59dcd90412b80dfe3f2ae4dcd5279aff1f6ffc9"},
+    "k1597": {"path": "lab/process/k1597-location-mixture-coefficient-rigidity.json", "sha256": "c69b7f73028dab717cede084bf2581ab8b26603b63e7adcce4c47b1f7c1811cf"},
+    "k1598": {"path": "lab/process/k1598-unequal-mode-bare-energy-normal-form.json", "sha256": "0897e71746b7866da2d6a2e9012e6a80e7ca91c9f9688fba59e973f7a554a539"},
+    "k1599": {"path": "lab/process/k1599-transverse-nonzero-mode-periodic-family.json", "sha256": "2b4714783f5b527f12629a8f1693817eebbe167a88874f9414ead711ffcc9ee4"}
+  },
+  "bridge_census": {
+    "row_count": 315,
+    "satisfied_count": 236,
+    "conditional_count": 10,
+    "excluded_count": 65,
+    "missing_count": 4,
+    "new_satisfied_rows": [
+      "K1596 arbitrary location-mixture Fisher sandwich",
+      "K1597 common-covariance location-mixture coefficient rigidity",
+      "K1598 unequal-mode bare-energy normal form",
+      "K1599 transverse nonzero-mode periodic family",
+      "K1600 protected admission replay"
+    ],
+    "protected_missing_rows": [
+      "source-selected action/measure/Hamiltonian",
+      "interacting positive physical quotient",
+      "observed carrier/intertwiner",
+      "held-out prediction or confirmation"
+    ]
+  },
+  "protected_state": {
+    "source_claims": "SC-ACT-01/02/06 remain ASSERTS; SC-META-53 remains UNCERTAIN",
+    "physics_ledger": "33 SAME / 22 DIFFERS / 31 NEEDS / 2 OVER-DETERMINED",
+    "candidate_counts": "K1145 and K1150 remain 0/7",
+    "canon_change": false,
+    "paper_change": false,
+    "prediction_or_confirmation": false,
+    "public_posture_change": false
+  },
+  "decision": {
+    "conditional_mathematical_advance": true,
+    "location_mixture_class_coefficient_rigid": true,
+    "unequal_mode_normal_form_proved": true,
+    "transverse_nonzero_mode_family_proved": true,
+    "unrestricted_leading_coefficient_identified": false,
+    "global_positive_radius_flow": false,
+    "source_owned_hamiltonian": false,
+    "protected_status_change": false
+  }
+}

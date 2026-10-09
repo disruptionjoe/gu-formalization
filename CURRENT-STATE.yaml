@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: a31d64bc3391d654936bf6d6e8e8fd73d338d80b
+revision_basis: 8b72b7f17ed6b2e67debb03ec481a710541ef213
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,26 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1596--K1600 extend K1591's two-point cat to every finite-second-moment
+    zero-mode location law over the common K1572 profiled covariance. Fisher
+    convexity and K1533 reduce the full mixing benefit to the exact rank-one
+    width `omega_0 v/[s_(N,0)(s_(N,0)+v)]<=Theta_g(N)`. K1572's componentwise
+    stationary-Gaussian minimum then gives
+    `lambda_N^prof-O_g(N)<=inf_pi Q_N(pi)<=lambda_N^prof`, so this arbitrary-
+    atom common-covariance class has coefficient `h_g^prof`. Heterogeneous
+    covariances, non-zero-mode translations, spatial texture, phases and
+    nonstationarity remain open. Independently, unequal opposite-charge modes
+    obey the exact normal form
+    `E_0=H_a+e a dot D-(e^2/2)|a|^2M` and
+    `E_0'=e a dot D'-(e^2/2)|a|^2M'`, removing `dot a` and derivative loss.
+    A nonzero lattice mode perpendicular to the rotating holonomy plane extends
+    K1589 to an exact Gauss-neutral periodic family with constant energy and
+    nonintegrable harmonic electric variation. Excluding only the homogeneous
+    matter mode is insufficient; stronger dispersion or cancellation is still
+    required. The 315-row census is 236 satisfied, ten conditional, 65
+    excluded and four missing; protected source, ledger, canon and public
+    states do not move.
+
     K1591--K1595 switch from local residual refinement to an exact global
     negative-defect challenger and from absolute holonomy variation to signed
     opposite-charge work. The symmetric mixture of the two sign-reflected
@@ -14996,6 +15016,21 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1596--K1600 close the complete finite-second-moment zero-mode location-
+  mixture class over one common profiled covariance at coefficient
+  `h_g^prof`, but leave covariance heterogeneity, non-zero-mode translations,
+  spatial textures, phases and nonstationarity open. Can one of those genuinely
+  outside-class mechanisms change the unrestricted `N^4` coefficient, or can
+  a global nonlinear Fisher/defect theorem exclude them? Only after the true
+  `E_N+O(1)` shift is identified should compactness and Mosco liminf/recovery
+  be tested. Independently, the unequal-mode bare-energy normal form removes
+  harmonic-electric total variation, while a transverse nonzero Fourier
+  periodic family shows that excluding only `k=0` does not create dispersion.
+  Can one impose and prove a hypothesis excluding every nondispersive resonant
+  sector, or control `D'`, `M'`, curvature, current, radial and oscillatory
+  remainders without spending a nonintegrable coefficient? The source-owned
+  action/measure/Hamiltonian tuple remains a separate gate.
+
   K1591--K1595 prove that the strongest explicit symmetric profiled-cat
   challenger carries a leading negative defect but retains the exact
   `h_g^prof` coefficient, with at most `O_g(N)` gain. Which genuinely
@@ -17546,6 +17581,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1596--K1600's arbitrary finite-second-moment location law, common
+  K1572 profiled covariance, zero-mode support, exact `M,D` definitions,
+  transverse lattice momentum and nondispersive single-mode scope. Do not
+  extend the coefficient theorem to heterogeneous covariances, spatial
+  textures, phases or nonstationary laws. Do not claim that homogeneous-mode
+  exclusion supplies dispersion or that the transverse family rejects every
+  stronger scattering hypothesis. Next cross the common-covariance boundary
+  with a controlled trial or global Fisher/defect theorem; for the PDE, state
+  an exact resonant-sector exclusion or close the `D'`, `M'`, curvature,
+  current, radial and oscillatory budgets. Supply the source-owned selector
+  tuple only from actual action, carrier and observation data.
+
   Preserve K1591--K1595's symmetric two-component mixture, common K1572
   covariance, zero-mode rank-one update, equal same-mode opposite-charge
   hypothesis and homogeneous invariant control. Do not extend cat coefficient

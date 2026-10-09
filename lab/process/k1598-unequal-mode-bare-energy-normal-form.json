@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1598",
+  "title": "Unequal opposite-charge modes admit an exact bare-energy normal form without harmonic-electric variation",
+  "pinned_inputs": {
+    "k1593": {"path": "lab/process/k1593-opposite-charge-angular-holonomy-cancellation.json", "sha256": "0131a8978adf0915f16a0608f7dcc15d905b38f2bfe2d5eb01a3d667af936cca"}
+  },
+  "bare_energy_normal_form": {
+    "mode_moments": "Define M=sum_k(w_(+,k)+w_(-,k)) and D=sum_k k(w_(+,k)-w_(-,k)), with w_(sigma,k)=|phi_(sigma,k)|^2.",
+    "signed_work": "Without equal-amplitude pairing, the exact summed work is H_a'=-e dot(a) dot D+e^2 dot(a) dot a M.",
+    "energy_expansion": "Expanding |k minus_or_plus e a|^2 gives H_a=E_0-e a dot D+(e^2/2)|a|^2M, where E_0=(1/2)sum[|dot phi|^2+(m^2+|k|^2)|phi|^2].",
+    "normal_form": "Exactly E_0=H_a+e a dot D-(e^2/2)|a|^2M and E_0'=e a dot D'-(e^2/2)|a|^2M'; no dot(a) term remains.",
+    "same_tier_bound": "For m>0, |D'|<=2E_0 and |M'|<=2E_0/m, hence |E_0'|<=[2|e||a|+(e^2/m)|a|^2]E_0 with no spatial derivative loss.",
+    "scope_guard": "The exact correction removes harmonic-electric total variation but still spends holonomy amplitude. It supplies no global integrability, scattering, nonlinear curvature/current control or positive limiting analytic radius."
+  },
+  "decision": {
+    "unequal_modes_allowed": true,
+    "exact_boundary_correction": true,
+    "harmonic_electric_variation_removed": true,
+    "same_tier_no_derivative_loss": true,
+    "global_positive_radius_proved": false,
+    "protected_status_change": false
+  }
+}

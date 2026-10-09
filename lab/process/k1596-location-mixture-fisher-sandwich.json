@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1596",
+  "title": "Every profiled zero-mode location mixture has an exact rank-one Fisher sandwich",
+  "pinned_inputs": {
+    "k1533": {"path": "lab/process/k1533-relative-fisher-covariance-extremality.json", "sha256": "19ca4ef5d62a12111a2ebd678f1b7d7e8b82e2b0a0ee726852f5c6ae27d713cf"},
+    "k1591": {"path": "lab/process/k1591-symmetric-profiled-cat-fisher-sandwich.json", "sha256": "4de1bebd8f33a0c979e6fe2dcf6b3f2c5a709913fa2c94de0444076b6f712357"}
+  },
+  "location_mixture": {
+    "law": "Let nu_pi=int N(A e_0,S) pi(dA), where pi is any probability law with finite second moment, S is the common K1572 profiled covariance, and e_0 is its constant zero-mode eigenvector.",
+    "moments": "Writing alpha=E A and v=Var(A), the mixture mean is alpha e_0 and its covariance is T=S+v e_0 e_0^T.",
+    "convex_upper": "Fisher convexity gives I_Omega(nu_pi|mu)<=U=E[A^2] omega_0+Tr[Omega(S+S^(-1)-2I)].",
+    "moment_lower": "K1533 gives I_Omega(nu_pi|mu)>=L=alpha^2 omega_0+Tr[Omega(T+T^(-1)-2I)].",
+    "rank_one_width": "Because E[A^2]=alpha^2+v, the linear terms cancel and U-L=Tr[Omega(S^(-1)-T^(-1))]=omega_0 v/[s_(N,0)(s_(N,0)+v)].",
+    "profiled_scale": "The width is at most omega_0/s_(N,0)=sqrt(omega_0^2+kappa_(g,N)^+)=Theta_g(N), independently of atom count, asymmetry, multimodality or separation.",
+    "scope_guard": "The common profiled covariance and zero-mode-only location support are load-bearing. Heterogeneous covariances, non-zero-mode translations, spatial textures, phases and nonstationary laws are not controlled."
+  },
+  "decision": {
+    "arbitrary_location_law_controlled": true,
+    "exact_rank_one_width": true,
+    "mixing_gain_at_most_order_N": true,
+    "heterogeneous_covariances_controlled": false,
+    "unrestricted_negative_defect_controlled": false,
+    "protected_status_change": false
+  }
+}
