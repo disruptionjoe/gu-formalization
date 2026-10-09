@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1554",
+  "title": "Fixed sign-shell mass forces a cutoff-independent quartic defect gap",
+  "pinned_inputs": {
+    "k1548": {"path": "lab/process/k1548-sign-shell-phase-balance.json", "sha256": "af17a177525413f61a0964904d165237fa5406d1302fa1b75708062f45fe9b05"},
+    "k1549": {"path": "lab/process/k1549-coarea-nikolskii-sign-defect.json", "sha256": "7ad43e77ab1e9de27d61581b08629bcdcc37634e914e117fbdf82f30d93556fb"}
+  },
+  "spectral_gap": {
+    "hypothesis": "On normalized T3 let f_N be real with Fourier support |k|_2<=N, s_N=sgn(f_N), delta_N=int(f_N^2-1)^2 and H_(alpha,N)(s_N)>=eta for fixed alpha,eta>0",
+    "shell_transfer": "Because ||f_N-s_N||_2^2<=delta_N, if delta_N<=eta/4 then ||P_(alpha,N)f_N||_2>=sqrt(eta)/2",
+    "gradient_floor": "Plancherel on the shell gives ||grad f_N||_2^2>=alpha^2 eta N^2/4",
+    "transition_set": "For B_N={|f_N|<1/2}, mu(B_N)<=16delta_N/9 and the K1549 quartic identity gives ||f_N||_4^2<=1+sqrt(delta_N)",
+    "outer_gradient": "With g_N=f_N^2-1, degree(g_N)<=2N, ||grad g_N||_2<=2N sqrt(delta_N), and |grad f_N|^2<=|grad g_N|^2 on B_N^c, so int_(B_N^c)|grad f_N|^2<=4N^2 delta_N",
+    "inner_gradient": "L4 Bernstein and Holder give int_(B_N)|grad f_N|^2<=mu(B_N)^(1/2)||grad f_N||_4^2<=C N^2 sqrt(delta_N) when delta_N<=1",
+    "defect_gap": "Comparing the gradient floor with the inner-plus-outer upper bound gives alpha^2 eta/4<=4delta_N+C sqrt(delta_N), hence delta_N>=c_(alpha,eta)>0 uniformly in N; the complementary large-delta cases are immediate",
+    "scope_guard": "The cutoff-independent gap requires nonvanishing fixed-ratio shell mass of sgn(f_N); it does not apply to merely nonconstant, localized or vanishing-shell signs and does not compute Gaussian weighted capacity"
+  },
+  "decision": {
+    "sign_shell_transferred_to_field": true,
+    "order_N2_gradient_floor_proved": true,
+    "transition_and_complement_gradient_split_proved": true,
+    "cutoff_independent_defect_gap_proved": true,
+    "k1549_Nminus4over3_bound_sharp": false,
+    "weighted_capacity_computed": false,
+    "protected_status_change": false
+  }
+}

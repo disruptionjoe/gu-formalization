@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1559",
+  "title": "Quartic cutoff scale and gauge normal-form protected admission replay",
+  "pinned_inputs": {
+    "k1554": {"path": "lab/process/k1554-spectral-shell-defect-gap.json", "sha256": "d3dea4ce13b0b41c473de751e42b97d03cb1b27ea1f3b556727c3545e4de1ab6"},
+    "k1555": {"path": "lab/process/k1555-lamellar-sharpness-control.json", "sha256": "f289952468700f62c4614be2fad0dceb4626cbe413283855b23e13922e1a99d4"},
+    "k1556": {"path": "lab/process/k1556-expected-shell-quartic-lift.json", "sha256": "7f779452ae6b0a3f3078f6c10b9387f6cf7a00d60398e914248d6503ab7c5662"},
+    "k1557": {"path": "lab/process/k1557-quartic-ground-energy-scale.json", "sha256": "3ffca167b9e43abf4009c21a0cc1f8d92e345ed07ade39fe0e45f611e17c92ce"},
+    "k1558": {"path": "lab/process/k1558-gauge-potential-normal-form-exchange.json", "sha256": "d682e3c04fd30262e1535e9e9b1d5fa1682c61dd8b351ca036c06a6a30ec5bea"}
+  },
+  "bridge_census": {
+    "row_count": 274,
+    "satisfied_count": 195,
+    "conditional_count": 10,
+    "excluded_count": 65,
+    "missing_count": 4,
+    "new_satisfied_rows": [
+      "K1554 cutoff-independent fixed-shell defect gap",
+      "K1555 cutoff-exponent sharp lamellar control",
+      "K1556 expected-shell quartic Wick lift",
+      "K1557 quartic cutoff ground-energy scale",
+      "K1558 gauge-potential normal-form exchange",
+      "K1559 protected admission replay"
+    ],
+    "protected_missing_rows": [
+      "source-selected action/measure/Hamiltonian",
+      "interacting positive physical quotient",
+      "observed carrier/intertwiner",
+      "held-out prediction or confirmation"
+    ]
+  },
+  "protected_state": {
+    "source_claims": "SC-ACT-01/02/06 remain ASSERTS; SC-META-53 remains UNCERTAIN",
+    "physics_ledger": "33 SAME / 22 DIFFERS / 31 NEEDS / 2 OVER-DETERMINED",
+    "candidate_counts": "K1145 and K1150 remain 0/7",
+    "canon_change": false,
+    "paper_change": false,
+    "prediction_or_confirmation": false,
+    "public_posture_change": false
+  },
+  "decision": {
+    "conditional_mathematical_advance": true,
+    "fixed_shell_exponent_closed": true,
+    "cutoff_ground_energy_exponent_closed": true,
+    "k1413_first_gauge_normal_form_constructed": true,
+    "ground_energy_to_bounded_error": false,
+    "full_pde_leakages_closed": false,
+    "continuum_interacting_brst_operator": false,
+    "source_owned_gu_hamiltonian": false,
+    "protected_status_change": false
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1556",
+  "title": "Expected fixed-shell mass forces quartic Wick scale",
+  "pinned_inputs": {
+    "k1550": {"path": "lab/process/k1550-localized-fejer-sign-bubble.json", "sha256": "a8c516a0de2ba8a57103885dd4e5755867387cbbadbe7ac2b862cd736350443f"},
+    "k1554": {"path": "lab/process/k1554-spectral-shell-defect-gap.json", "sha256": "d3dea4ce13b0b41c473de751e42b97d03cb1b27ea1f3b556727c3545e4de1ab6"}
+  },
+  "expected_lift": {
+    "law": "Let nu_N be any probability law on real degree-N cutoff fields; write H_N for fixed-ratio shell mass of sgn(f_N) and delta_N=int(f_N^2-1)^2",
+    "threshold_probability": "Since 0<=H_N<=1, E_nu H_N>=eta implies nu{H_N>=eta/2}>=eta/(2-eta)>=eta/2",
+    "pointwise_input": "K1554 gives delta_N>=c_(alpha,eta)>0 on {H_N>=eta/2}, uniformly in N",
+    "expected_gap": "Therefore E_nu delta_N>=c'_(alpha,eta)>0 for every law with nonvanishing expected fixed-ratio sign-shell mass",
+    "wick_scale": "For h_N=sqrt(3C_N)f_N, E_nu W_N=9C_N^2 E_nu delta_N=Omega_(alpha,eta)(N^4) when C_N=Theta(N^2)",
+    "localized_boundary": "K1550 remains compatible because its product-Fejer bubble has both expected shell mass and defect of order N^-3 rather than a fixed positive shell expectation",
+    "scope_guard": "The lift is distribution-free after the pointwise theorem but still requires expected fixed-ratio shell mass; it is not a Fisher/capacity estimate or a statement about arbitrary nonconstant signs"
+  },
+  "decision": {
+    "threshold_probability_bound_proved": true,
+    "expected_defect_gap_proved": true,
+    "expected_interaction_floor_N4_proved": true,
+    "fisher_cost_used": false,
+    "all_nonconstant_sign_laws_excluded": false,
+    "protected_status_change": false
+  }
+}

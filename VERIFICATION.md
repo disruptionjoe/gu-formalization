@@ -7,6 +7,24 @@ updated_at: "2026-10-08"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1554--K1559 spectral shell gap and gauge normal-form boundary (2026-10-08)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A fixed-shell field can have defect tending to zero | K1554 shell transfer and transition/complement gradient split | false: `int(f_N^2-1)^2>=c_(alpha,eta)>0` uniformly in `N` |
+| The cutoff-independent exponent can be strengthened to growth in `N` under the same hypotheses | K1555 high-frequency lamella | false: shell mass is at least `8/pi^2` while the defect is exactly `3/8` |
+| Randomizing fixed-shell textures lowers the interaction exponent | K1556 threshold lift | false: expected defect stays positive and `E W_N=Omega(N^4)` |
+| The finite-cutoff nonlinear ground-energy exponent remains unknown | K1557 quantitative K1539--K1541 composition plus vacuum upper bound | false: `E_N=Theta_g(N^4)` for fixed `g>0` |
+| A gauge/Maxwell-dependent local correction cannot touch K1413's current leakage | K1558 temporal-gauge product rule | false: `int A dot j_n` exchanges it exactly for a differentiated-current remainder |
+| The K1558 exchange closes the full PDE estimate | K1558 remainder audit | not established: coercivity, `int A dot partial_t j_n`, radial leakage, charge summation and global flow remain open |
+| The advance closes GU physical admission | K1559 274-row bridge census | 195 satisfied, ten conditional, 65 excluded and four missing |
+
+The six producers pass `152/152` controls and six hostile probes reject
+`100/100` mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
+`0/7`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
+
 ## K1548--K1553 universal sign-shell obstruction (2026-10-08)
 
 | Claim | Evidence | Honest grade |

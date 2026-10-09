@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1557",
+  "title": "The finite-cutoff nonlinear ground energy has quartic scale",
+  "pinned_inputs": {
+    "k1539": {"path": "lab/process/k1539-subquartic-ultraviolet-shell-covariance.json", "sha256": "afc12eae855db6c2c76f027e26f76695f453c151dd6caac9d7252d80a8c1ea4a"},
+    "k1541": {"path": "lab/process/k1541-ultraviolet-sign-texture-capacity-boundary.json", "sha256": "5a006099ee77b6c499649efae76d260384b5a10a966f9f029393e8abe63208a9"},
+    "k1556": {"path": "lab/process/k1556-expected-shell-quartic-lift.json", "sha256": "7f779452ae6b0a3f3078f6c10b9387f6cf7a00d60398e914248d6503ab7c5662"},
+    "k1469": {"path": "lab/process/k1469-wick-semibounded-projective-cocycle.json", "sha256": "85ab8ab825b536bf928be7bc99115a3fd63a2e74a6fd9d1b872709eb69b313fd"}
+  },
+  "ground_energy": {
+    "bootstrap_assumption": "Suppose q0[psi]+gE_nu W_N<=epsilon N^4 for a normalized cutoff state and fixed g>0",
+    "quantitative_shell_covariance": "K1539 supplies c0>0 such that choosing epsilon<c0 forces T_N>C_sh,N/2>=kappa C_N/2; this uses its explicit low-shell Fisher floor rather than an o(N^4) limit",
+    "amplitude_error": "K1538 gives r_N=E_nu|||phi_N|-sqrt(3C_N)||_2^2<=E_nu W_N/(3C_N), hence r_N/C_N<=epsilon/(3g c_C^2) when C_N>=c_C N^2",
+    "sign_shell_release": "K1541's projection factorization yields E_nu H_N>=T_N/(6C_N)-r_N/(3C_N)>=kappa/12-epsilon/(9g c_C^2); for epsilon small this is at least kappa/24",
+    "interaction_contradiction": "K1556 then gives E_nu W_N>=c1 N^4; choosing epsilon<g c1 contradicts the bootstrap assumption",
+    "lower_and_upper": "Thus E_N>=c_g N^4 for all large N, while the vacuum has q0=0 and E W_N=6C_N^2=O(N^4), so E_N=Theta_g(N^4)",
+    "resolvent_consequence": "For fixed lambda>=0, ||(H_N+lambda)^(-1)||=O_g(N^-4), and every scalar recentering a_N=o(N^4) remains coercively divergent",
+    "scope_guard": "Theta_g(N^4) identifies only the cutoff exponent up to coupling-dependent constants; it does not determine E_N to O(1), a ground-state profile, compactness, Mosco recovery, a continuum interacting BRST operator or a source-owned GU Hamiltonian"
+  },
+  "decision": {
+    "quantitative_shell_bootstrap_proved": true,
+    "ground_energy_scale_N4_proved": true,
+    "vacuum_upper_scale_matches": true,
+    "sub_N4_recenterings_excluded": true,
+    "ground_energy_to_bounded_error_proved": false,
+    "continuum_operator_constructed": false,
+    "source_owned_gu_hamiltonian": false,
+    "protected_status_change": false
+  }
+}

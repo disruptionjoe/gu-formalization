@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1555",
+  "title": "A high-frequency lamella proves cutoff-exponent sharpness",
+  "pinned_inputs": {
+    "k1545": {"path": "lab/process/k1545-lamellar-ultraviolet-sign-mass.json", "sha256": "1b7f94ed16e8caa3cdb1017d0e511db2ffa443a0c302d4baea502f737ee25c83"},
+    "k1554": {"path": "lab/process/k1554-spectral-shell-defect-gap.json", "sha256": "d3dea4ce13b0b41c473de751e42b97d03cb1b27ea1f3b556727c3545e4de1ab6"}
+  },
+  "sharpness_control": {
+    "construction": "Fix 0<alpha<1 and choose integers M_N with alpha N<=M_N<=N; set f_N(x)=sin(M_N x_1) on normalized T3",
+    "bandlimit": "The only nonzero Fourier modes of f_N are plus/minus M_N e_1, so f_N is degree N",
+    "sign_shell": "sgn(sin(M_N x_1)) has Fourier mass 8/pi^2 in its fundamental pair plus/minus M_N e_1, hence H_(alpha,N)>=8/pi^2",
+    "phase_balance": "The positive and negative phases each have normalized volume one half",
+    "defect": "int(f_N^2-1)^2=int cos(M_N x_1)^4=3/8 for every N",
+    "sharpness": "K1554's N^0 cutoff exponent is attained up to constants by a fixed-shell family; no lower bound growing with N can hold under only the declared normalized hypotheses",
+    "scope_guard": "The example proves sharpness only in the cutoff exponent and does not identify the optimal c_(alpha,eta), a low-energy likelihood, Fisher cost or the ground-state profile"
+  },
+  "decision": {
+    "fixed_shell_lamellar_control_constructed": true,
+    "constant_defect_computed": true,
+    "cutoff_exponent_zero_sharp": true,
+    "optimal_eta_dependence_proved": false,
+    "low_energy_trial_constructed": false,
+    "protected_status_change": false
+  }
+}

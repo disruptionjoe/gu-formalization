@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1558",
+  "title": "A gauge-potential cross term exactly exchanges the lifted electric-current leakage",
+  "pinned_inputs": {
+    "k1413": {"path": "lab/process/k1413-full-pde-graph-energy-leakage.json", "sha256": "3d553dba3c237d737cfa8982ace7c2bba0239ab8b064ce78956334aef28dcc27"},
+    "k1478": {"path": "lab/process/k1478-ultralocal-scalar-density-modified-energy-boundary.json", "sha256": "433665dede9df5b207eaebf2a3fbf9005f0fbc7422d65cbfac66b15b723a6c7c"}
+  },
+  "normal_form_exchange": {
+    "gauge_convention": "In temporal gauge fix E=-partial_t A and retain K1413's lifted current j_n^a=e Im<Q^(n+1)phi,D^aQ^n phi>",
+    "cross_term": "Define M_n(t)=int_T3 A(t,x) dot j_n(t,x) dx",
+    "product_rule": "M_n'=-int E dot j_n dx+int A dot partial_t j_n dx",
+    "corrected_identity": "For G_n=F_n^PDE+M_n, K1413 gives G_n'=(lambda/2)int partial_t||phi||^2||Q^n phi||^2 dx+int A dot partial_t j_n dx",
+    "current_derivative": "partial_t j_n is the sum of e Im<Q^(n+1)pi,DQ^n phi>, e Im<Q^(n+1)phi,DQ^n pi> and e Im<Q^(n+1)phi,(partial_t D)Q^n phi>; it therefore introduces differentiated matter and gauge-field terms",
+    "k1478_escape": "On K1478's Gauss-compatible witness A=0 at the testing time, M_n=0 but M_n'=-int E dot j_n, so the gauge-dependent correction exactly cancels the live leakage that defeats every ultralocal matter-density correction",
+    "new_boundary": "The electric-current work is exchanged, not eliminated: same-tier coercivity of M_n, control of int A dot partial_t j_n, the pointwise radial leakage, charge summation and global Cauchy closure remain open",
+    "scope_guard": "This is an exact first normal-form/product-rule step in one fixed gauge, not a gauge-invariant energy, same-tier estimate, closed modified energy or completed full PDE flow"
+  },
+  "decision": {
+    "gauge_dependent_correction_constructed": true,
+    "electric_current_term_exactly_exchanged": true,
+    "k1478_ultralocal_no_go_escaped": true,
+    "differentiated_current_remainder_controlled": false,
+    "radial_leakage_controlled": false,
+    "same_tier_coercive_modified_energy_constructed": false,
+    "global_full_pde_flow_constructed": false,
+    "protected_status_change": false
+  }
+}

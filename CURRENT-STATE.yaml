@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 6bba7a22c9f4e3c0ccacb8170b9a440544f3542c
+revision_basis: 40bc54757fdafe40d16d8231fc3fe206f3fcec2e
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1554--K1559 close the cutoff exponent left open by K1553. Fixed sign-shell
+    mass transfers to the degree-`N` field and forces `Omega(N^2)` gradient
+    energy. Splitting that energy at `{|f_N|<1/2}`, differentiating
+    `f_N^2-1` off the transition set and using `L4` Bernstein on it prove the
+    cutoff-independent gap `int(f_N^2-1)^2>=c_(alpha,eta)>0`. The
+    high-frequency lamella `sin(M_Nx_1)` has shell mass at least `8/pi^2` and
+    defect exactly `3/8`, so exponent zero is sharp. The law-level lift gives
+    `E W_N=Omega(N^4)`; quantitative composition with K1539--K1541 and the
+    vacuum upper bound yields the true finite-cutoff scale
+    `E_N=Theta_g(N^4)`, unshifted resolvent norm `O_g(N^-4)`, and exclusion of
+    every sub-`N^4` scalar recentering. Independently, the temporal-gauge
+    correction `M_n=int A dot j_n` exactly exchanges K1413's electric-current
+    work for `int A dot partial_t j_n`, escaping K1478's ultralocal class while
+    leaving differentiated-current, radial, coercivity and global-flow debts
+    open. The 274-row census is 195 satisfied, ten conditional, 65 excluded
+    and four missing; protected source, ledger, canon and public states do not
+    move.
+
     K1548--K1553 close K1541's arbitrary three-dimensional fixed-shell
     endpoint at a new quantitative scale. For every real degree-`N` field,
     fixed-ratio sign-shell mass `H>=eta` forces both sign phases to occupy
@@ -14840,6 +14858,19 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1554--K1559 prove that nonvanishing fixed-ratio sign-shell mass forces a
+  cutoff-independent normalized defect and close the finite-cutoff nonlinear
+  ground-energy exponent at `E_N=Theta_g(N^4)`. What is the leading constant
+  or bounded-error asymptotic of `E_N`, and can one construct compactness plus
+  Mosco liminf/recovery after recentering by the true `E_N+O(1)` on one common
+  nonlinear domain? Do not treat exponent-only matching as an asymptotic
+  coefficient, ground-state profile, continuum operator or source-owned GU
+  Hamiltonian. Independently, K1558 trades K1413's electric-current leakage
+  for `int A dot partial_t j_n`; can that differentiated-current remainder and
+  the unchanged pointwise radial term be controlled in one coercive
+  gauge-covariant spacetime or summable hierarchy? The source-owned selector
+  tuple remains a separate admission requirement.
+
   K1548--K1553 exclude every arbitrary three-dimensional fixed-shell texture
   from an order-`N^2` trial and prove the first superquadratic ground-energy
   floor `E_N=Omega_g(N^(8/3))`. Can the `N^(-4/3)` transition-defect bound be
@@ -17293,6 +17324,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1554--K1559's fixed-shell and fixed-representation hypotheses.
+  Determine the quartic ground energy beyond exponent-only `Theta_g(N^4)`:
+  obtain a matching coefficient or bounded-error recenter, then test
+  compactness and Mosco liminf/recovery on one common nonlinear domain. Do not
+  infer that the vacuum coefficient is sharp or that a cutoff result supplies
+  a continuum interacting BRST operator or source-owned GU Hamiltonian.
+  Independently, bound `int A dot partial_t j_n` together with K1413's radial
+  leakage in a coercive gauge-covariant hierarchy, or prove the local
+  gauge-potential correction necessarily loses a tier and switch to a
+  spacetime/nonlocal mechanism. Supply the source-owned selector tuple only
+  from its actual action, carrier and observation data.
+
   Preserve K1548--K1553's exact hypotheses. Sharpen the phase-balanced
   fixed-shell transition inequality beyond the current coarea plus `L4`
   Bernstein exponent `N^(-4/3)`, or construct a fixed-shell texture proving a

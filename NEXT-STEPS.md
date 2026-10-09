@@ -7,6 +7,21 @@ updated_at: "2026-10-08"
 
 # Next Steps For Contributors
 
+> **2026-10-08 K1554--K1559 SPECTRAL SHELL GAP AND QUARTIC CUTOFF
+> SCALE.** Fixed sign-shell mass transfers to `f_N`, forces
+> `Omega(N^2)` gradient energy, and cannot be supported either on or off the
+> transition set when `int(f_N^2-1)^2` is small. Hence every fixed-shell
+> texture has a cutoff-independent defect gap. The high-frequency lamella
+> `sin(M_Nx_1)` has shell mass at least `8/pi^2` and defect `3/8`, so exponent
+> zero is sharp. The law lift and quantitative shell-covariance bootstrap give
+> `E_N=Theta_g(N^4)` and unshifted resolvent norm `O_g(N^-4)`. Independently,
+> `int A dot j_n` in temporal gauge exchanges K1413's current work for
+> `int A dot partial_t j_n`, without controlling that remainder or the radial
+> leakage. Next identify `E_N` to bounded error and test true-ground-energy
+> Mosco compactness, while controlling the two K1413 remainders in one
+> coercive gauge-covariant hierarchy. Do not promote the cutoff control to a
+> continuum or source-owned GU Hamiltonian.
+
 > **2026-10-08 K1548--K1553 UNIVERSAL SIGN-SHELL OBSTRUCTION.** Fixed
 > outer-shell mass in `sgn(f_N)` forces both sign phases to have macroscopic
 > volume. Coarea and the three-dimensional `L4` Bernstein bound then prove
