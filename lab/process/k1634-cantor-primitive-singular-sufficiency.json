@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1634",
+  "status": "active_research",
+  "title": "Compact singular-continuous Cantor primitive inside the positive holonomy class",
+  "pinned_inputs": {
+    "k1624": "lab/process/k1624-bv-atomic-holonomy-obstruction.json",
+    "k1633": "lab/process/k1633-fractional-holonomy-sufficiency.json"
+  },
+  "cantor_class": {
+    "construction": "For the middle-thirds Cantor distribution F_C and a>1, set G_a(x)=F_C(x)-F_C(x-a).",
+    "compact_bv": "G_a is compactly supported in [0,1+a], continuous, and of bounded variation.",
+    "derivative": "DG_a=mu_C-tau_a mu_C is atom-free and purely singular continuous with total mass zero.",
+    "holder": "F_C and G_a are Holder with alpha=log(2)/log(3).",
+    "fractional_membership": "Monotonicity and Holder continuity make the squared L2 increment O(|h|^(1+alpha)), so the difference-quotient characterization gives G_a in H^s(R) for every s<(1+log(2)/log(3))/2, including s=3/4.",
+    "holonomy": "K1633 therefore gives widehat G_a in L1 for an explicit compact primitive with singular-continuous derivative.",
+    "scope_guard": "This is a positive singular-continuous subclass. It does not prove that every atom-free singular derivative measure yields Fourier/holonomy L1."
+  },
+  "decision": {
+    "compact_continuous_BV": true,
+    "derivative_atom_free": true,
+    "derivative_singular_continuous": true,
+    "fractional_Hs_above_half": true,
+    "holonomy_L1": true,
+    "all_atom_free_singular_measures_closed": false,
+    "protected_status_change": false
+  }
+}

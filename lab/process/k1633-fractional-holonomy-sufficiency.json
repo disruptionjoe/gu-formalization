@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1633",
+  "status": "active_research",
+  "title": "Fractional Sobolev sufficiency for integrable holonomy amplitude",
+  "pinned_inputs": {
+    "k1628": "lab/process/k1628-l2-derivative-holonomy-sufficiency.json",
+    "k1629": "lab/process/k1629-quantitative-holonomy-l1-budget.json"
+  },
+  "fractional_sufficiency": {
+    "hypothesis": "G is scalar or finite-dimensional vector valued and belongs to H^s(R) for some s>1/2, with ||G||_(H^s)^2=(1/(2pi))int(1+t^2)^s|widehat G(t)|^2dt.",
+    "weighted_cauchy": "||widehat G||_1<=[int(1+t^2)^(-s)dt]^(1/2)[int(1+t^2)^s|widehat G(t)|^2dt]^(1/2).",
+    "constant": "C_s=[2pi sqrt(pi) Gamma(s-1/2)/Gamma(s)]^(1/2), so ||widehat G||_1<=C_s||G||_(H^s).",
+    "threshold": "The weight integral is finite exactly when s>1/2; this proves the theorem and the threshold of this Cauchy-Schwarz route.",
+    "advance": "K1628's H1 condition is sufficient but not necessary for this argument; every H^s primitive with s>1/2 has integrable Fourier/holonomy amplitude.",
+    "scope_guard": "The theorem does not assert endpoint H^(1/2) sufficiency, electric-field L1, nonlinear remainder control, or source ownership."
+  },
+  "decision": {
+    "fractional_Hs_sufficient_for_holonomy_L1": true,
+    "threshold_requires_s_strictly_greater_than_half": true,
+    "h1_necessary": false,
+    "endpoint_half_proved": false,
+    "source_owned_flow": false,
+    "protected_status_change": false
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1631",
+  "status": "active_research",
+  "title": "Exact full-energy Bregman identity for the critical shell channel",
+  "pinned_inputs": {
+    "k1572": "lab/process/k1572-finite-cutoff-profiled-gaussian-minimizer.json",
+    "k1626": "lab/process/k1626-critical-capacity-shell-channel.json"
+  },
+  "all_term_identity": {
+    "functional": "On the active optimized-mean branch J_g(s)=F(s)+6gA(s)(2c_C-A(s)), with A(s)=(1/2)int s/|x| and F(s)=(1/4)int |x|(s+s^(-1)-2).",
+    "profile": "The K1572 minimizer is s_*(x)=|x|/sqrt(|x|^2+kappa_g), with kappa_g=24g(c_C-A_*).",
+    "bregman": "J_g(s)-J_g(s_*)=(1/4)int |x|(s-s_*)^2/(s s_*^2)-6g(A(s)-A_*)^2 for every positive profile remaining on the active branch.",
+    "shell_inflation": "For s_rho=(1+rho)s_* on E and s_* off E, the exact difference is rho^2[W_E/(4(1+rho))-(3g/2)B_E^2], where W_E=int_E sqrt(|x|^2+kappa_g) and B_E=int_E 1/sqrt(|x|^2+kappa_g).",
+    "scope_guard": "This is the full leading coefficient identity for the stationary diagonal Gaussian shell output. It is not a global non-Gaussian or nonstationary coercivity theorem."
+  },
+  "decision": {
+    "full_free_plus_wick_balance_computed": true,
+    "missing_fisher_alone_used_as_energy_verdict": false,
+    "stationary_diagonal_scope_only": true,
+    "unrestricted_coefficient_proved": false,
+    "protected_status_change": false
+  }
+}

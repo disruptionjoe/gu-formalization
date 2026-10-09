@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1635",
+  "status": "active_research",
+  "title": "Protected admission for critical-shell balance and fractional singular holonomy sufficiency",
+  "pinned_inputs": {
+    "k1631": {"path": "lab/process/k1631-critical-shell-all-term-identity.json", "sha256": "2b13293f06141011f380aa078d1686f929220795ddc1fee4a10dab5d4a5abed3"},
+    "k1632": {"path": "lab/process/k1632-critical-shell-positive-penalty.json", "sha256": "513e0e0d0a466ac6a041b872f31a3d8606760a9e332a2478b33ddd361842f97a"},
+    "k1633": {"path": "lab/process/k1633-fractional-holonomy-sufficiency.json", "sha256": "80257189fe638a24f9a618c227ba623e17d75b7ed745719028d1911e21ba3e26"},
+    "k1634": {"path": "lab/process/k1634-cantor-primitive-singular-sufficiency.json", "sha256": "f03fdeb0dc6a803cc38d89e06e73471a610a6e6f6f398ca30396d7dfd8b165c7"}
+  },
+  "census": {
+    "rows": 350,
+    "satisfied": 271,
+    "conditional": 10,
+    "excluded": 65,
+    "missing": 4,
+    "source_asserts": ["SC-ACT-01", "SC-ACT-02", "SC-ACT-06"],
+    "source_uncertain": ["SC-META-53"],
+    "physics_ledger": {"SAME": 33, "DIFFERS": 22, "NEEDS": 31, "OVER_DETERMINED": 2},
+    "k1145_k1150_scorable_rows": "0/7"
+  },
+  "protected_boundaries": {
+    "source_register_changed": false,
+    "physics_ledger_changed": false,
+    "canon_changed": false,
+    "paper_changed": false,
+    "prediction_or_confirmation_changed": false,
+    "public_posture_changed": false,
+    "unrestricted_coefficient_claimed": false,
+    "all_atom_free_singular_measures_closed": false,
+    "source_owned_flow_claimed": false
+  },
+  "next_wakes": [
+    "Analyze a genuinely non-Gaussian/nonstationary all-term competitor or prove global Fisher/defect coercivity.",
+    "Derive fractional primitive regularity and integrable curvature/current/radial remainders from one source-owned nonlinear action and domain.",
+    "Supply the source-owned action/measure/Hamiltonian tuple."
+  ]
+}

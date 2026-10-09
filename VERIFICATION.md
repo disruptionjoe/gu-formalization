@@ -7,6 +7,24 @@ updated_at: "2026-10-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1631--K1635 critical-shell balance and fractional singular holonomy (2026-10-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K1626's leading missing-Fisher term lowers the full shell-channel energy | K1631 exact free-plus-Wick Bregman identity | false for the admitted thin shell: every term composes into an explicit coefficient difference |
+| Critical `Theta(N^3)` information and `Theta(N^4)` missing Fisher force a coefficient gain | K1632 positive shell bound | false for this realization: the full energy rises by `c_(g,rho,E)N^4+o(N^4)` |
+| K1632 settles every critical-capacity channel or the unrestricted coefficient | scope audit | not established: genuinely non-Gaussian and nonstationary laws remain open |
+| K1628's `H^1` primitive regularity is necessary for Fourier/holonomy `L1` | K1633 weighted Fourier Cauchy--Schwarz | false: every `H^s`, `s>1/2`, primitive is sufficient |
+| The fractional theorem has no explicit singular-continuous example | K1634 translated Cantor primitive | false: it is compact continuous BV, belongs to `H^(3/4)`, and has atom-free purely singular derivative |
+| K1633--K1634 prove endpoint `H^(1/2)`, arbitrary atom-free sufficiency, electric-field `L1` or nonlinear flow | scope audit | not established: those remain outside the theorem |
+| The advance closes GU physical admission | K1635 350-row bridge census | 271 satisfied, ten conditional, 65 excluded and four missing |
+
+The five producers pass `82/82` controls and five hostile probes reject
+`48/48` mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
+`0/7`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
+
 ## K1626--K1630 critical capacity and Sobolev holonomy (2026-10-09)
 
 | Claim | Evidence | Honest grade |

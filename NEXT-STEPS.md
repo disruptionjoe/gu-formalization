@@ -7,6 +7,20 @@ updated_at: "2026-10-09"
 
 # Next Steps For Contributors
 
+> **2026-10-09 K1631--K1635 CRITICAL-SHELL FULL BALANCE AND FRACTIONAL
+> SINGULAR HOLONOMY.** K1626's admitted thin fixed-ratio shell keeps
+> `Theta(N^3)` information and `Theta(N^4)` missing Fisher information, but
+> the exact free-plus-optimized-Wick identity gives a strict positive
+> `Theta(N^4)` full-energy penalty. This witness raises rather than lowers the
+> profiled coefficient. Next test a genuinely non-Gaussian/nonstationary
+> all-term competitor or prove global Fisher/defect coercivity. On the PDE
+> arc, every `H^s` primitive with `s>1/2` has Fourier/holonomy `L1`; a compact
+> translated Cantor primitive supplies an explicit continuous BV example with
+> atom-free purely singular derivative. Next derive fractional regularity and
+> integrable nonlinear remainders from a source-owned action/domain. Do not
+> claim endpoint `H^(1/2)`, arbitrary atom-free sufficiency, electric-field
+> `L1`, nonlinear scattering, or physical admission.
+
 > **2026-10-09 K1626--K1630 CRITICAL CAPACITY AND SOBOLEV HOLONOMY.** An
 > exact fixed-ratio ultraviolet-shell Gaussian channel realizes
 > `I(M_N;X_N)=Theta(N^3)` together with `Theta(N^4)` weighted missing Fisher

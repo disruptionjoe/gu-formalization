@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: efa0fc5f0f7740a2ef92fae6e4eaa83321a1808f
+revision_basis: 50f5c04ef78c53a99ad33d443ff03d08ae9fb850
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1631--K1635 close K1626's own full variational balance and enlarge the
+    positive holonomy class. The exact free-plus-optimized-Wick Bregman
+    identity shows that a sufficiently thin positive-measure fixed-ratio
+    shell retains `Theta(N^3)` Gaussian-channel information and `Theta(N^4)`
+    missing Fisher information while paying a strict positive
+    `c_(g,rho,E)N^4+o(N^4)` full-energy penalty. Thus the information method
+    remains sharp, but this critical witness raises rather than lowers the
+    profiled coefficient. Independently, every scalar or finite-dimensional
+    `H^s` primitive with `s>1/2` has Fourier/holonomy `L1` with an explicit
+    Gamma-function constant. A compact translated Cantor primitive lies in
+    that class, is continuous BV, and has an atom-free purely singular
+    derivative. Arbitrary atom-free singular measures, endpoint `H^(1/2)`,
+    electric-field `L1`, nonlinear remainders and source ownership remain
+    open. The 350-row census is 271 satisfied, ten conditional, 65 excluded
+    and four missing; protected source, ledger, canon and public states do not
+    move.
+
     K1626--K1630 resolve two boundaries left by K1621--K1625. An exact
     product Gaussian channel on `Theta(N^3)` fixed-ratio ultraviolet modes
     has `I(M_N;X_N)=Theta(N^3)` and weighted missing Fisher information
@@ -15121,6 +15138,20 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1631--K1632 prove that K1626's admitted thin critical-capacity Gaussian
+  shell pays a positive leading full-energy penalty despite its
+  `Theta(N^4)` missing Fisher term. Which genuinely non-Gaussian or
+  nonstationary all-term competitor can change the unrestricted coefficient,
+  or can a global Fisher/negative-defect coercivity theorem exclude that
+  sector? Only after the true `E_N+O(1)` shift is identified should
+  compactness and Mosco liminf/recovery be tested. Independently,
+  K1633--K1634 weaken the positive holonomy hypothesis from `H^1` to
+  fractional `H^s`, `s>1/2`, and exhibit a compact singular-continuous Cantor
+  primitive in the class. Can that fractional regularity and integrable
+  curvature/current/radial remainders be derived from one source-owned
+  nonlinear action/domain? The source-owned action/measure/Hamiltonian tuple
+  remains a separate gate.
+
   K1626--K1627 prove that order-`N^3` Gaussian-channel information can carry
   order-`N^4` missing Fisher information, making the subcritical hypothesis
   method-sharp but leaving the actual variational coefficient undecided. Can
@@ -17769,6 +17800,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1631's active-branch coefficient functional, exact Bregman
+  identity and stationary diagonal scope. Preserve K1632's thin symmetric
+  fixed-ratio shell, positive-volume condition and strict leading penalty;
+  do not transfer it to arbitrary critical channels or the unrestricted
+  coefficient. Next analyze a genuinely non-Gaussian/nonstationary all-term
+  competitor or prove global Fisher/defect coercivity. Preserve K1633's
+  strict `s>1/2` hypothesis and K1634's explicit translated Cantor primitive.
+  Do not promote the theorem to endpoint `H^(1/2)`, arbitrary atom-free
+  singular measures, electric-field `L1`, nonlinear remainders or a
+  source-owned flow. Derive those inputs from an actual source-owned action
+  and domain before physical admission.
+
   Preserve K1626's fixed-ratio ultraviolet shell, profile-band covariance,
   order-one relative Gaussian excess and exact tensor-product formulas.
   Preserve K1627's classification: critical capacity is sharp for the
