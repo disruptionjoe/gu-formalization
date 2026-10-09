@@ -10,6 +10,10 @@ ROOT = Path(__file__).resolve().parents[2]
 def reject(d):
     q, z = d["positive_penalty"], d["decision"]
     return (
+        "Jordan-measurable" in q["shell"]
+        and "boundary measure zero" in q["shell"]
+        and "Boundary-null Jordan measurability" in q["full_energy"]
+        and
         "does not classify arbitrary" in q["scope_guard"]
         and z["critical_information_retained"]
         and z["leading_missing_fisher_retained"]
@@ -37,6 +41,9 @@ def main():
     m = deepcopy(d)
     m["positive_penalty"]["scope_guard"] = "all channels"
     checks.append(("scope deletion", not reject(m)))
+    m = deepcopy(d)
+    m["positive_penalty"]["shell"] = "Choose an arbitrary measurable shell."
+    checks.append(("Riemann premise deletion", not reject(m)))
     for i, (label, ok) in enumerate(checks, 1):
         assert ok, label
         print(f"PASS {i:02d}: {label}")

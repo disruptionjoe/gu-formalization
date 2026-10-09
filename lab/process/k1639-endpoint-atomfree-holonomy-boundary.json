@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1639",
+  "status": "active_research",
+  "title": "Compact atom-free H^(1/2) holonomy counterexample and endpoint replacement",
+  "pinned_inputs": {
+    "k1628": "lab/process/k1628-l2-derivative-holonomy-sufficiency.json",
+    "k1633": "lab/process/k1633-fractional-holonomy-sufficiency.json"
+  },
+  "endpoint_boundary": {
+    "density": "epsilon_n=e^(-n), w_n=1/[n(n+1)], tau_epsilon(x)=epsilon^(-1)(1-|x|/epsilon)_+, and f=sum_(n>=1)w_n tau_(epsilon_n) is a compact L1 probability density.",
+    "positive_transform": "mu=f dx is atom-free and widehat mu(t)=sum_(n>=1)w_n sinc^2(epsilon_n t/2)>=0.",
+    "primitive": "For F(x)=mu((-infinity,x]) and G(x)=F(x)-F(x-1), G is nonnegative, compact, AC and BV, DG=[f(x)-f(x-1)]dx, and it widehat G(t)=(1-e^(-it))widehat mu(t).",
+    "annular_estimate": "On I_n=[e^n,e^(n+1)], c/(n+2)<=widehat mu(t)<=C/(n+1).",
+    "endpoint_result": "sum_n int_(I_n)t|widehat G(t)|^2dt<infinity but sum_n int_(I_n)|widehat G(t)|dt=infinity, so G belongs to H^(1/2) while widehat G does not belong to L1.",
+    "k1628_compatibility": "The multiscale density f is not in L2, so the example does not contradict K1628.",
+    "endpoint_sufficient": "Low-frequency L2 plus sum_j[int_(A_j)|t||widehat G(t)|^2dt]^(1/2)<infinity on dyadic annuli implies widehat G in L1 by shellwise Cauchy-Schwarz.",
+    "scope_guard": "The Besov-type endpoint condition is sufficient, not necessary, and no electric-field L1, nonlinear remainder, or source-owned flow follows."
+  },
+  "decision": {
+    "compact_ac_bv_counterexample": true,
+    "atom_free_ac_derivative": true,
+    "endpoint_h_half_insufficient": true,
+    "endpoint_besov_type_sufficient": true,
+    "endpoint_besov_type_necessary": false,
+    "electric_field_L1_proved": false,
+    "source_owned_flow": false,
+    "protected_status_change": false
+  }
+}

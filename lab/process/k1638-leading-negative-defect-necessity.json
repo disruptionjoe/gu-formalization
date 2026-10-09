@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1638",
+  "status": "active_research",
+  "title": "Leading negative Wick defect is necessary for stationary descent",
+  "pinned_inputs": {
+    "k1636": "lab/process/k1636-translation-haar-fisher-reduction.json",
+    "k1637": "lab/process/k1637-stationary-fisher-defect-gap-identity.json"
+  },
+  "necessity": {
+    "fixed_coupling": "Fix g>0 independently of the cutoff N.",
+    "descent_hypothesis": "Q_N[psi_N]<=lambda_N^statG-epsilon N^4 for fixed epsilon>0 along a cutoff subsequence.",
+    "exact_bound": "After K1636 stationarization, -gD_N>=epsilon N^4+A_N+(1/4)R_(Omega,N).",
+    "leading_scale": "For fixed g>0, every leading descent therefore requires D_N=-Omega(N^4).",
+    "positive_prices": "The negative defect must dominate both stationary-Gaussian displacement A_N and non-Gaussian score residual R_(Omega,N)/4.",
+    "scope_guard": "At fixed g>0, a negative defect, even of leading order, is necessary rather than sufficient; no realizing family or unrestricted coefficient is supplied."
+  },
+  "decision": {
+    "nonstationarity_independent_escape_closed": true,
+    "phase_independent_escape_closed": true,
+    "leading_negative_defect_necessary": true,
+    "leading_negative_defect_sufficient": false,
+    "realizing_family_constructed": false,
+    "unrestricted_coefficient_proved": false,
+    "protected_status_change": false
+  }
+}

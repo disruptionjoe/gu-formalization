@@ -7,6 +7,25 @@ updated_at: "2026-10-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1636--K1640 stationarization and endpoint holonomy boundary (2026-10-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Nonstationarity or phase can independently lower the finite-cutoff infimum | K1636 phase split plus translation-Haar Fisher convexity | false: every finite-full-energy finite-Fisher state reduces to a stationary positive-amplitude density without increasing full energy |
+| A stationary finite-full-energy non-Gaussian law is priced only by its mean and covariance | K1637 score Pythagoras and exact Wick defect | false on the finite fourth-moment/Wick domain: the exact gap is `A_N+R_(Omega,N)/4+gD_N` |
+| At fixed `g>0`, any leading descent can avoid a leading negative Wick defect | K1638 rearranged full-gap identity | false: descent by `epsilon N^4` requires `-gD_N>=epsilon N^4+A_N+R_(Omega,N)/4` |
+| K1638 constructs the descent or fixes the unrestricted coefficient | scope audit | not established: the leading defect target is necessary, not sufficient |
+| Compact AC/BV, atom-free AC derivative and `H^(1/2)` imply Fourier/holonomy `L1` | K1639 multiscale triangular density | false: the explicit primitive is `H^(1/2)` but its Fourier amplitude has harmonic annular divergence |
+| No useful endpoint sufficient condition remains | K1639 dyadic shell Cauchy--Schwarz | false: an annular `l1` square-function, of `B^(1/2)_(2,1)` type, is sufficient |
+| The advance closes GU physical admission | K1640 355-row bridge census | 276 satisfied, ten conditional, 65 excluded and four missing |
+
+The five producers pass `72/72` controls and five hostile probes reject
+`52/52` mutations. K1632's corrected producer passes `16/16` and its hostile
+probe rejects `9/9` mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53
+remains `UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and
+K1145/K1150 stay `0/7`. No source, ledger, canon, paper, prediction,
+confirmation or public status moves.
+
 ## K1631--K1635 critical-shell balance and fractional singular holonomy (2026-10-09)
 
 | Claim | Evidence | Honest grade |
@@ -19,8 +38,8 @@ updated_at: "2026-10-09"
 | K1633--K1634 prove endpoint `H^(1/2)`, arbitrary atom-free sufficiency, electric-field `L1` or nonlinear flow | scope audit | not established: those remain outside the theorem |
 | The advance closes GU physical admission | K1635 350-row bridge census | 271 satisfied, ten conditional, 65 excluded and four missing |
 
-The five producers pass `82/82` controls and five hostile probes reject
-`48/48` mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+The five producers pass `85/85` controls and five hostile probes reject
+`49/49` mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
 `UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
 `0/7`. No source, ledger, canon, paper, prediction, confirmation or public
 status moves.

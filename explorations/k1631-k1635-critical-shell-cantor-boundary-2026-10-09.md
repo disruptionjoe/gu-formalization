@@ -108,9 +108,10 @@ J_g(s_rho)-J_g(s_*)
 
 ## K1632 — critical information can coexist with a positive leading penalty
 
-Choose `0<a<b` and a symmetric positive-measure shell patch
-`E subset {a<=|x|<=b}`. Its volume can be made arbitrarily small while
-remaining fixed as `N` grows. The elementary bounds
+Choose `0<a<b` and a symmetric positive-measure Jordan-measurable shell patch
+`E subset {a<=|x|<=b}` whose boundary has Lebesgue measure zero (for example,
+a sufficiently thin symmetric annular patch). Its volume can be made
+arbitrarily small while remaining fixed as `N` grows. The elementary bounds
 
 ```text
 W_E >= sqrt(a^2+kappa_g)|E|,
@@ -134,7 +135,8 @@ Delta_N=[rho/(1+rho)]sum_(k in E_N)omega_k/s_(N,k)
        =Theta(N^4).                                  (10)
 ```
 
-Riemann-sum convergence applied to (7) gives
+Boundary-null Jordan measurability makes the lattice Riemann sums converge, so
+applying them to (7) gives
 
 ```text
 Q_N(Law(X_N))-lambda_N^prof

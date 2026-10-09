@@ -7,6 +7,21 @@ updated_at: "2026-10-09"
 
 # Next Steps For Contributors
 
+> **2026-10-09 K1636--K1640 STATIONARIZATION, DEFECT NECESSITY AND ENDPOINT
+> HOLONOMY.** Translation-Haar averaging closes nonstationarity and phase as
+> independent finite-cutoff variational escapes. On the finite-full-energy
+> domain the exact stationary gap is `A_N+R_(Omega,N)/4+gD_N`, so at fixed
+> `g>0` any leading descent requires
+> `D_N=-Omega(N^4)` dominating both positive costs. Next construct a
+> normalized stationary non-Gaussian family meeting that target or prove
+> coercivity; do not claim necessity is sufficiency or an unrestricted
+> coefficient. On the PDE arc, an explicit compact AC/BV primitive with
+> atom-free AC derivative lies in `H^(1/2)` but not Fourier `L1`; dyadic
+> `B^(1/2)_(2,1)`-type summability is sufficient. Next derive that budget and
+> integrable nonlinear remainders from a source-owned action/domain. Do not
+> claim endpoint Sobolev sufficiency, endpoint Besov necessity,
+> electric-field `L1`, nonlinear scattering, or physical admission.
+
 > **2026-10-09 K1631--K1635 CRITICAL-SHELL FULL BALANCE AND FRACTIONAL
 > SINGULAR HOLONOMY.** K1626's admitted thin fixed-ratio shell keeps
 > `Theta(N^3)` information and `Theta(N^4)` missing Fisher information, but

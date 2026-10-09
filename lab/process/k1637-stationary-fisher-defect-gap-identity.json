@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1637",
+  "status": "active_research",
+  "title": "Exact stationary Fisher and Wick-defect gap identity",
+  "pinned_inputs": {
+    "k1533": "lab/process/k1533-relative-fisher-covariance-extremality.json",
+    "k1534": "lab/process/k1534-nongaussian-wick-moment-defect.json",
+    "k1636": "lab/process/k1636-translation-haar-fisher-reduction.json"
+  },
+  "gap_identity": {
+    "matching_gaussian": "For stationary finite-Fisher bar rho of finite full energy, in particular finite fourth moment/Wick expectation, with mean m and positive covariance S, gamma=N(m,S) is stationary because m is translation fixed and S commutes with translations.",
+    "score_residual": "R_(Omega,N)=E_bar rho[(u-u_gamma)^T Omega_N(u-u_gamma)]>=0 and I_Omega(bar rho)=I_Omega(gamma)+R_(Omega,N).",
+    "moment_defect": "D_N=int_[T^3](4h mu3+mu4-3v^2)dx is the exact K1534 non-Gaussian Wick defect.",
+    "gaussian_gap": "A_N=Q_N(gamma)-lambda_N^statG>=0, where lambda_N^statG is the stationary-Gaussian infimum.",
+    "exact_full_gap": "Q_N[sqrt(bar rho)]-lambda_N^statG=A_N+(1/4)R_(Omega,N)+gD_N.",
+    "normalization": "The factor 1/4 multiplies only relative Fisher information; the Wick defect has coefficient g.",
+    "scope_guard": "Finite Fisher alone does not imply the finite fourth moment needed for D_N; on the stated finite-full-energy domain the identity has no sign for D_N and is not by itself a coercivity or unrestricted-coefficient theorem."
+  },
+  "decision": {
+    "stationary_matching_gaussian": true,
+    "weighted_score_pythagoras_exact": true,
+    "full_gap_identity_exact": true,
+    "wick_defect_nonnegative": false,
+    "global_coercivity_proved": false,
+    "unrestricted_coefficient_proved": false,
+    "protected_status_change": false
+  }
+}

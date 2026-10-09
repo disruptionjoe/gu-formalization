@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1640",
+  "status": "active_research",
+  "title": "Protected admission for stationarization, defect necessity, and endpoint holonomy boundary",
+  "pinned_inputs": {
+    "k1636": "lab/process/k1636-translation-haar-fisher-reduction.json",
+    "k1637": "lab/process/k1637-stationary-fisher-defect-gap-identity.json",
+    "k1638": "lab/process/k1638-leading-negative-defect-necessity.json",
+    "k1639": "lab/process/k1639-endpoint-atomfree-holonomy-boundary.json"
+  },
+  "census": {
+    "rows": 355,
+    "satisfied": 276,
+    "conditional": 10,
+    "excluded": 65,
+    "missing": 4,
+    "source_asserts": ["SC-ACT-01", "SC-ACT-02", "SC-ACT-06"],
+    "source_uncertain": ["SC-META-53"],
+    "physics_ledger": {"SAME": 33, "DIFFERS": 22, "NEEDS": 31, "OVER_DETERMINED": 2},
+    "k1145_k1150_scorable_rows": "0/7"
+  },
+  "protected_boundaries": {
+    "source_register_changed": false,
+    "physics_ledger_changed": false,
+    "canon_changed": false,
+    "paper_changed": false,
+    "prediction_or_confirmation_changed": false,
+    "public_posture_changed": false,
+    "unrestricted_coefficient_claimed": false,
+    "negative_defect_sufficiency_claimed": false,
+    "endpoint_besov_necessity_claimed": false,
+    "source_owned_flow_claimed": false
+  },
+  "scope_fences": {
+    "stationarization_domain": "normalized finite-full-energy finite-Fisher cutoff states",
+    "gap_domain": "stationary finite-Fisher laws with finite full energy, including finite fourth moment/Wick expectation",
+    "coupling": "fixed g>0 independently of N"
+  },
+  "next_wakes": [
+    "At fixed g>0, construct a normalized stationary finite-full-energy non-Gaussian family with D_N=-Omega(N^4) and controlled Gaussian-displacement plus score costs, or prove coercivity excluding it.",
+    "Derive endpoint primitive regularity and integrable curvature/current/radial remainders from one source-owned nonlinear action and domain.",
+    "Supply the source-owned action/measure/Hamiltonian tuple."
+  ]
+}

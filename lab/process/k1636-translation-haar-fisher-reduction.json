@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1636",
+  "status": "active_research",
+  "title": "Translation-Haar reduction to stationary positive-amplitude densities",
+  "pinned_inputs": {"k1533": "lab/process/k1533-relative-fisher-covariance-extremality.json"},
+  "haar_reduction": {
+    "setting": "Finite cutoff Q_N over the normalized spatial torus, with mu_N=N(0,I), positive Omega_N, orthogonal translations U_a commuting with Omega_N, and normalized finite-Fisher states of finite full energy.",
+    "phase": "q_0[sqrt(rho) exp(i theta)]=(1/4)I_Omega(rho|mu_N)+int |grad theta|_Omega^2 rho dmu_N, so phase removal cannot increase energy.",
+    "average": "rho_a(q)=rho(U_a^(-1)q) and bar rho=int_(T^3)rho_a da is normalized and stationary.",
+    "fisher": "Convexity of the perspective (p,v)->v^T Omega_N v/p and Haar invariance give I_Omega(bar rho|mu_N)<=I_Omega(rho|mu_N).",
+    "potential": "Translation invariance of the finite-cutoff Wick-square potential gives int W_N bar rho dmu_N=int W_N rho dmu_N exactly.",
+    "conclusion": "At every finite cutoff, the unrestricted finite-full-energy infimum equals the infimum over stationary positive-amplitude finite-full-energy finite-Fisher densities.",
+    "scope_guard": "This is a finite-cutoff reduction; it neither constructs an infinite-cutoff minimizer nor supplies a source-owned physical state."
+  },
+  "decision": {
+    "phase_removal_nonincreasing": true,
+    "haar_fisher_nonincreasing": true,
+    "wick_potential_preserved": true,
+    "stationary_positive_amplitude_reduction_exact": true,
+    "infinite_cutoff_minimizer_proved": false,
+    "source_owned_state": false,
+    "protected_status_change": false
+  }
+}

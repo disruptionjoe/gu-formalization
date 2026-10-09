@@ -8,10 +8,10 @@
     "k1631": "lab/process/k1631-critical-shell-all-term-identity.json"
   },
   "positive_penalty": {
-    "shell": "Choose a symmetric positive-measure fixed-ratio shell patch E inside a<=|x|<=b whose volume is smaller than (a^2+kappa_g)^(3/2)/[6g(1+rho)] and small enough to retain the active mean branch.",
+    "shell": "Choose a symmetric positive-measure Jordan-measurable fixed-ratio shell patch E inside a<=|x|<=b, with boundary measure zero, whose volume is smaller than (a^2+kappa_g)^(3/2)/[6g(1+rho)] and small enough to retain the active mean branch.",
     "lower_bound": "W_E>=sqrt(a^2+kappa_g)|E| and B_E<=|E|/sqrt(a^2+kappa_g), so K1631's exact difference is c_(g,rho,E)>0.",
     "critical_scales": "The lattice shell has d_N=Theta(N^3), I(M_N;X_N)=Theta(N^3), and weighted missing Fisher Delta_N=Theta(N^4).",
-    "full_energy": "Riemann-sum convergence gives Q_N(Law(X_N))-lambda_N^prof=c_(g,rho,E)N^4+o(N^4) with c_(g,rho,E)>0.",
+    "full_energy": "Boundary-null Jordan measurability gives lattice Riemann-sum convergence and Q_N(Law(X_N))-lambda_N^prof=c_(g,rho,E)N^4+o(N^4) with c_(g,rho,E)>0.",
     "interpretation": "K1626 remains method-sharp, but its admitted thin-shell realization raises rather than lowers the full leading variational coefficient.",
     "scope_guard": "The result does not classify arbitrary critical-capacity channels, genuinely non-Gaussian states, nonstationary states, or the unrestricted coefficient."
   },
