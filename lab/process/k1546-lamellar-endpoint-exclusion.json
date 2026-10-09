@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1546",
+  "title": "Lamellar endpoint exclusion",
+  "pinned_inputs": {
+    "k1541": {"path": "lab/process/k1541-ultraviolet-sign-texture-capacity-boundary.json", "sha256": "5a006099ee77b6c499649efae76d260384b5a10a966f9f029393e8abe63208a9"},
+    "k1544": {"path": "lab/process/k1544-lamellar-interaction-defect.json", "sha256": "e0c2f31ba4ac22b1e7371c3358c0579e0f9f77142bf51ba38a7501b355ba5215"},
+    "k1545": {"path": "lab/process/k1545-lamellar-ultraviolet-sign-mass.json", "sha256": "1b7f94ed16e8caa3cdb1017d0e511db2ffa443a0c302d4baea502f737ee25c83"}
+  },
+  "lamellar_exclusion": {
+    "quadratic_budget": "Every degree-N configuration with exact one-coordinate lamellar square-wave sign has W_N=Omega(N^3), so no likelihood supported on that class satisfies E W_N=O(N^2)",
+    "k1541_compatible_branch": "If a sequence or mixture in the class also satisfies K1541's nonvanishing expected fixed-ratio ultraviolet sign-shell condition, then E W_N=Omega(N^4)",
+    "capacity_position": "The family fails in the multiplication term before any relative-Fisher or Gaussian weighted boundary-capacity contribution is counted",
+    "surviving_route": "A surviving endpoint must use non-lamellar geometry or a likelihood distributed across textures in a way not represented by concentration near one Fourier-truncated square-wave center",
+    "scope_guard": "No arbitrary three-dimensional sign texture, universal endpoint capacity, unrestricted ground-energy asymptotic, continuum interacting BRST operator or source-owned GU Hamiltonian is decided"
+  },
+  "decision": {
+    "canonical_lamellar_order_N2_route_excluded": true,
+    "k1541_lamellar_branch_has_quartic_interaction": true,
+    "fisher_cost_needed_for_family_exclusion": false,
+    "all_sign_textures_excluded": false,
+    "unrestricted_ground_energy_asymptotic_proved": false,
+    "protected_status_change": false
+  }
+}

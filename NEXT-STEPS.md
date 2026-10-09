@@ -7,6 +7,18 @@ updated_at: "2026-10-08"
 
 # Next Steps For Contributors
 
+> **2026-10-08 K1543--K1547 LAMELLAR SIGN-TEXTURE OBSTRUCTION.** The
+> sign-preserving odd Fourier truncation of a square wave has exact `L2` tail
+> `Theta(1/R)`. At cutoff `N=(2R+1)M`, scaling this lamellar center to
+> `sqrt(3C_N)` gives the optimal exact-sign Wick scale `Theta(N^3M)`, so even its slowest interface
+> pair misses the order-`N^2` endpoint. Its fixed-ratio ultraviolet sign mass
+> is `Theta_alpha(M/N)`; retaining a nonzero amount forces order-`N^4`
+> interaction. Next prove an inverse approximation theorem for arbitrary
+> three-dimensional band-limited sign geometry, or construct a non-lamellar
+> counterexample with normalized defect `O(N^-2)` and nonvanishing sign-shell
+> mass, then compute the surviving tube's weighted capacity. Do not promote
+> the lamellar family obstruction to all textures or likelihoods.
+
 > **2026-10-08 K1538--K1542 ULTRAVIOLET SIGN-TEXTURE CAPACITY BOUNDARY.**
 > `E W_N=O(N^2)` forces the field magnitude to lie within order-one squared
 > `L2` error of `sqrt(3C_N)`, while every state with subquartic free energy

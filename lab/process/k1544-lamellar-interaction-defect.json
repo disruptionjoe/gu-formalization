@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1544",
+  "title": "Lamellar interaction-defect scale",
+  "pinned_inputs": {
+    "k1543": {"path": "lab/process/k1543-lamellar-square-wave-parseval.json", "sha256": "5ed1568eca310da9c94b22492925fe74c0b1be6187c6b0482c2ee5fbe0d1f0d1"}
+  },
+  "interaction_defect": {
+    "cutoff_family": "p_(M,R)(x)=p_R(Mx_1), N=(2R+1)M, h_N=A_N p_(M,R), A_N=sqrt(3C_N)",
+    "best_approximation": "For every real degree-N trigonometric polynomial f_N with sign s_M=sgn(sin(Mx_1)), int(f_N^2-1)^2>=||f_N-s_M||_2^2>=||s_M-P_<=N s_M||_2^2 by sign matching and Fourier best approximation",
+    "defect_comparison": "For the saturating partial sum, sgn(p_R)=s and T_R<=delta_R=int(p_R^2-1)^2<=(C_0+1)^2 T_R, so the lower bound is sharp up to a universal constant",
+    "wick_identity": "W_N(h_N)=A_N^4 delta_R=9C_N^2 delta_R",
+    "family_scale": "The omitted square-wave tail is Theta(M/N) for 1<=M<=N; with C_N=Theta(N^2), the optimal exact-lamellar-sign Wick scale is Theta(N^3 M)",
+    "cubic_floor": "Since M>=1, every degree-N configuration with exact lamellar square-wave sign has W_N=Omega(N^3) and therefore misses an order-N^2 interaction budget before Fisher cost is counted",
+    "scope_guard": "The multiplication bound applies to the exact one-coordinate lamellar sign class; it does not lower-bound likelihoods supported on non-lamellar or genuinely three-dimensional textures"
+  },
+  "decision": {
+    "fourier_best_approximation_bound_proved": true,
+    "optimal_wick_scaling_proved": true,
+    "lamellar_cubic_floor_proved": true,
+    "order_N2_lamellar_center_constructed": false,
+    "all_sign_textures_excluded": false,
+    "protected_status_change": false
+  }
+}

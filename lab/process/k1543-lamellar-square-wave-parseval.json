@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1543",
+  "title": "Lamellar square-wave Parseval tail",
+  "pinned_inputs": {
+    "k1541": {"path": "lab/process/k1541-ultraviolet-sign-texture-capacity-boundary.json", "sha256": "5a006099ee77b6c499649efae76d260384b5a10a966f9f029393e8abe63208a9"}
+  },
+  "lamellar_parseval": {
+    "definitions": "On normalized T1 let s(t)=sgn(sin t) and p_R(t)=(4/pi) sum_{r=0}^R sin((2r+1)t)/(2r+1)",
+    "sign_lemma": "The Dirichlet-integral positivity lemma gives sgn(p_R)=s almost everywhere; the derivative of the unscaled sum is sin(2(R+1)t)/(2sin t)",
+    "uniform_bound": "The same alternating Dirichlet-integral representation gives ||p_R||_infinity<=C_0 for one universal C_0 independent of R",
+    "exact_tail": "T_R=||p_R-s||_2^2=(8/pi^2) sum_{r=R+1}^infinity (2r+1)^(-2)",
+    "tail_scale": "Integral comparison gives T_R=Theta((R+1)^(-1))",
+    "scope_guard": "This is an exact approximation identity for the one-coordinate odd-harmonic family, not a Gaussian capacity estimate or a theorem for arbitrary three-dimensional sign textures"
+  },
+  "decision": {
+    "actual_center_sign_identified": true,
+    "parseval_tail_exact": true,
+    "uniform_partial_sum_bound": true,
+    "arbitrary_texture_controlled": false,
+    "protected_status_change": false
+  }
+}

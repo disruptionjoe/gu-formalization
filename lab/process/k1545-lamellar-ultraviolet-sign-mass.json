@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1545",
+  "title": "Lamellar ultraviolet sign-mass tradeoff",
+  "pinned_inputs": {
+    "k1543": {"path": "lab/process/k1543-lamellar-square-wave-parseval.json", "sha256": "5ed1568eca310da9c94b22492925fe74c0b1be6187c6b0482c2ee5fbe0d1f0d1"},
+    "k1544": {"path": "lab/process/k1544-lamellar-interaction-defect.json", "sha256": "e0c2f31ba4ac22b1e7371c3358c0579e0f9f77142bf51ba38a7501b355ba5215"}
+  },
+  "shell_tradeoff": {
+    "actual_sign": "The center's sign field is s_M(x)=sgn(sin(Mx_1))",
+    "exact_shell_mass": "For 0<alpha<1 and N=(2R+1)M, H_(alpha,M,R)=(8/pi^2) sum_{alpha(2R+1)<=2r+1<=2R+1}(2r+1)^(-2)",
+    "shell_scale": "For fixed alpha, H_(alpha,M,R)=Theta_alpha(1/(R+1))=Theta_alpha(M/N), with exact finite-sum interpretation when R is bounded",
+    "coupled_tradeoff": "Elementary comparison of the omitted tail above N with the fixed-ratio harmonic window below N gives int(f_N^2-1)^2>=c_alpha H_(alpha,M,R) for every degree-N f_N with exact sign s_M",
+    "fixed_shell_consequence": "If a sequence or mixture in the exact lamellar sign class has nonvanishing expected H_(alpha,M,R), then E W_N=Omega(C_N^2)=Omega(N^4)",
+    "scope_guard": "The relation is an inverse theorem for the exact one-coordinate lamellar square-wave sign class only; it is not an inverse theorem for arbitrary nodal geometry"
+  },
+  "decision": {
+    "outer_shell_mass_computed": true,
+    "interaction_shell_tradeoff_proved": true,
+    "fixed_shell_mass_forces_quartic_interaction": true,
+    "universal_inverse_theorem_proved": false,
+    "protected_status_change": false
+  }
+}

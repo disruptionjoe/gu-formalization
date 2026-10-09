@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1547",
+  "title": "Protected admission replay after lamellar exclusion",
+  "pinned_inputs": {
+    "k1546": {"path": "lab/process/k1546-lamellar-endpoint-exclusion.json", "sha256": "706e14ba7f446e9fc9c3ded70789154b87894e187420e1c036559c281e2200b6"},
+    "ledger": {"path": "lab/process/conditional-physics-ledger-v0.263.json", "sha256": "7c75c179c3af512084e50af19043a5d320b38e8c1e53325ee5ec2f97ad9c257b"}
+  },
+  "bridge_census": {
+    "row_count": 262,
+    "satisfied_count": 183,
+    "conditional_count": 10,
+    "excluded_count": 65,
+    "missing_count": 4,
+    "new_satisfied_rows": [
+      "sign-preserving odd square-wave Fourier truncation",
+      "exact lamellar Parseval tail",
+      "lamellar Wick-defect comparison",
+      "cubic minimum interaction scale",
+      "exact fixed-ratio lamellar sign-shell mass",
+      "quartic interaction under nonvanishing ultraviolet sign mass"
+    ],
+    "protected_missing_rows": [
+      "source-owned primitive stationary circle",
+      "same-action kinetic normalization",
+      "action-derived physical carrier and positive domain",
+      "faithful domain-preserving observed intertwiner"
+    ]
+  },
+  "protected_state": {
+    "source_claims": "SC-ACT-01/02/06 remain ASSERTS and SC-META-53 remains UNCERTAIN",
+    "physics_ledger": "33 SAME / 22 DIFFERS / 31 NEEDS / 2 OVER-DETERMINED",
+    "candidate_counts": "K1145 and K1150 remain 0/7",
+    "untouched_surfaces": ["lab/sources/source-claim-register.yaml", "lab/process/conditional-physics-ledger-v0.263.json", "CANON.md", "papers/"],
+    "public_posture_change": false
+  },
+  "decision": {
+    "conditional_mathematical_advance": true,
+    "canonical_lamellar_endpoint_excluded": true,
+    "universal_sign_texture_capacity_computed": false,
+    "order_N2_trial_constructed": false,
+    "source_owned_gu_hamiltonian": false,
+    "matching_ground_energy_asymptotic": false,
+    "prediction_or_confirmation": false,
+    "protected_status_change": false
+  }
+}

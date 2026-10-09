@@ -7,6 +7,24 @@ updated_at: "2026-10-08"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1543--K1547 lamellar sign-texture obstruction (2026-10-08)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Fourier truncation changes the square wave's spatial sign | K1543 Dirichlet-integral positivity lemma | false: the odd partial sum has sign `sgn(sin t)` almost everywhere |
+| The lamellar approximation error has no exact scale | K1543 Parseval identity | false: `T_R=(8/pi^2)sum_(r>R)(2r+1)^(-2)=Theta(1/R)` |
+| Sharpening one lamellar interface pair can reach an order-`N^2` Wick budget | K1544 defect comparison at `N=(2R+1)M` | false: the family costs `Theta(N^3M)`, hence at least `Omega(N^3)` |
+| A lamellar texture can retain fixed outer-shell sign mass while its Wick defect vanishes | K1545 exact harmonic-window sum | false: both scale as `Theta_alpha(1/R)`; fixed shell mass forces `Omega(N^4)` interaction |
+| The canonical lamellar construction realizes K1541's endpoint | K1546 family comparison | false: it fails in the multiplication term before Fisher/capacity cost is counted |
+| Every amplitude-rigid ultraviolet sign texture is excluded | K1546 scope audit | not established: non-lamellar, randomized and genuinely three-dimensional textures remain open |
+| The advance closes GU physical admission | K1547 262-row bridge census | 183 satisfied, ten conditional, 65 excluded and four missing |
+
+The five producers pass `111/111` controls and five hostile probes reject
+`67/67` mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
+`0/7`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
+
 ## K1538--K1542 ultraviolet sign-texture capacity boundary (2026-10-08)
 
 | Claim | Evidence | Honest grade |
