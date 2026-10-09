@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 8612aa99abc269a550cf951f1126b97de2ee50a6
+revision_basis: 51a33fe0e7c2319416047da1f1d6a1d793b0556c
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1641--K1645 close every stationary centrally symmetric Fourier-block law
+    with uniformly bounded covariance profile, uniformly bounded standardized
+    fourth cumulants and submacroscopic dependence blocks. Exact cumulant
+    additivity gives `D_N=O(b_N N)` for maximum block size `b_N`; hence
+    `b_N=o(N^3)` makes the defect `o(N^4)`, and K1637--K1638 force class
+    coefficient `h_g^prof`. A leading block-model competitor must therefore
+    use macroscopic `Omega(N^3)` dependence or leave another load-bearing
+    uniform hypothesis; this is necessary, not sufficient, and the
+    unrestricted coefficient remains open. Independently, a telescoping
+    triangular-density construction gives a compact AC/BV primitive with
+    atom-free AC derivative, finite
+    `int |t|log|t||hat G(t)|^2dt`, and divergent Fourier `L1`. Every
+    `log^(1+epsilon)` strengthening is sufficient by weighted
+    Cauchy--Schwarz, so exponent one is the sharp logarithmic boundary, not a
+    necessary characterization. The 360-row census is 281 satisfied, ten
+    conditional, 65 excluded and four missing; protected source, ledger,
+    canon and public states do not move.
+
     K1636--K1640 remove nonstationarity and phase as independent finite-cutoff
     variational escapes. Translation-Haar averaging preserves the Wick
     potential and lowers weighted relative Fisher information, so the
@@ -15157,6 +15175,21 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1641--K1643 prove that stationary centrally symmetric profile-bounded laws
+  with uniformly bounded standardized fourth cumulants and independent
+  Fourier dependence blocks of size `b_N=o(N^3)` have `D_N=o(N^4)` and retain
+  coefficient `h_g^prof`. Can an explicit normalized stationary macroscopic-
+  block family realize `D_N=-Omega(N^4)` while controlling
+  `A_N+R_(Omega,N)/4`, or can a coercivity theorem close that correlated
+  endpoint? Only after the true `E_N+O(1)` shift is identified should
+  compactness and Mosco liminf/recovery be tested. Independently, K1644 proves
+  that the critical logarithmic half-derivative energy still does not force
+  Fourier `L1`, while every `log^(1+epsilon)` strengthening does. Can a
+  source-owned nonlinear action/domain produce that supercritical logarithmic
+  or Besov budget together with integrable curvature/current/radial
+  remainders? The source-owned action/measure/Hamiltonian tuple remains a
+  separate gate.
+
   K1636 proves every normalized finite-full-energy finite-Fisher cutoff state
   can be replaced by a stationary positive-amplitude density without
   increasing energy, and K1637--K1638
@@ -17834,6 +17867,21 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1641's real uniformly bounded trigonometric coordinates,
+  independent centered centrally symmetric standardized blocks and explicit
+  stationarity premise. Preserve K1642's uniform directional fourth-cumulant
+  bound, covariance-profile bound and maximum block size: `D_N=O(b_N N)`
+  makes macroscopic `Omega(N^3)` dependence necessary inside this block model,
+  not sufficient for descent. Preserve K1643's fixed `g>0`, finite-Fisher and
+  finite-fourth-moment domain and class-only coefficient. Next construct a
+  normalized stationary macroscopic-block law with leading negative defect
+  and controlled positive costs, or prove correlated-endpoint coercivity.
+  Preserve K1644's compact AC/BV atom-free construction and distinguish the
+  insufficient critical `log` weight from the sufficient
+  `log^(1+epsilon)` family. Do not claim a necessary characterization,
+  electric-field `L1`, nonlinear remainders, a source-owned flow or physical
+  admission.
+
   Preserve K1636's normalized finite torus, translation-invariant Gaussian
   reference, commuting positive free multiplier and finite-cutoff scope.
   Preserve K1637's exact normalization `A_N+R_(Omega,N)/4+gD_N` and its

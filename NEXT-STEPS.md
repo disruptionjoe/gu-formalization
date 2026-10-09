@@ -7,6 +7,23 @@ updated_at: "2026-10-09"
 
 # Next Steps For Contributors
 
+> **2026-10-09 K1641--K1645 FOURIER-BLOCK RIGIDITY AND LOGARITHMIC HOLONOMY.**
+> Exact fourth-cumulant additivity and the three-dimensional
+> `sum omega_k^-2=O(N)` count give `D_N=O(b_N N)` for stationary centrally
+> symmetric, profile-bounded, uniformly bounded-kurtosis Fourier laws with
+> independent blocks of size at most `b_N`. Thus every `b_N=o(N^3)` class
+> retains coefficient `h_g^prof`; a leading block-model competitor needs
+> macroscopic dependence or failure of another uniform hypothesis. Next build
+> a normalized stationary macroscopic-block family with controlled Fisher and
+> Gaussian-displacement costs, or prove coercivity there. Do not claim that
+> macroscopic dependence is sufficient or that the unrestricted coefficient
+> is fixed. On the PDE arc, the critical logarithmic half-derivative weight
+> still permits divergent Fourier `L1`, while every
+> `log^(1+epsilon)` strengthening is sufficient. Next derive that stronger
+> budget and integrable nonlinear remainders from a source-owned action/domain.
+> Do not claim a necessary characterization, electric-field `L1`, nonlinear
+> scattering, source-owned flow, or physical admission.
+
 > **2026-10-09 K1636--K1640 STATIONARIZATION, DEFECT NECESSITY AND ENDPOINT
 > HOLONOMY.** Translation-Haar averaging closes nonstationarity and phase as
 > independent finite-cutoff variational escapes. On the finite-full-energy

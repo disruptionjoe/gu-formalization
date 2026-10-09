@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1643",
+  "status": "active_research",
+  "title": "Profiled coefficient rigidity for submacroscopic Fourier-block laws",
+  "pinned_inputs": {
+    "k1572": "lab/process/k1572-finite-cutoff-profiled-gaussian-minimizer.json",
+    "k1637": "lab/process/k1637-stationary-fisher-defect-gap-identity.json",
+    "k1638": "lab/process/k1638-leading-negative-defect-necessity.json",
+    "k1642": "lab/process/k1642-submacroscopic-dependence-bound.json"
+  },
+  "coefficient_theorem": {
+    "class": "Normalized stationary positive-amplitude finite-Fisher finite-fourth-moment laws with central symmetry, uniformly profile-bounded covariance, uniformly bounded standardized directional block cumulants and independent blocks of size b_N=o(N^3).",
+    "lower_bound": "K1637 and K1642 give Q_N-lambda_N^statG=A_N+R_(Omega,N)/4+gD_N>=-o(N^4) for every fixed g>0.",
+    "upper_bound": "The K1572 profiled Gaussian belongs to the class and supplies lambda_N^statG.",
+    "coefficient": "inf_(C_N^block)Q_N/N^4 -> h_g^prof.",
+    "remaining_endpoint": "A coefficient-changing block-law competitor must use a macroscopic Omega(N^3) dependence block or leave another load-bearing uniform hypothesis.",
+    "scope_guard": "The theorem does not control one macroscopic correlated block, identify the unrestricted coefficient, restore bounded-error Gaussian recentering or supply a source-owned Hamiltonian."
+  },
+  "decision": {
+    "submacroscopic_block_coefficient_proved": true,
+    "independent_mode_boundary_crossed": true,
+    "macroscopic_endpoint_closed": false,
+    "unrestricted_coefficient_proved": false,
+    "protected_status_change": false
+  }
+}

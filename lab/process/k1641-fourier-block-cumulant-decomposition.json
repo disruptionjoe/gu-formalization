@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1641",
+  "status": "active_research",
+  "title": "Exact Fourier-block fourth-cumulant decomposition",
+  "pinned_inputs": {
+    "k1637": "lab/process/k1637-stationary-fisher-defect-gap-identity.json"
+  },
+  "block_decomposition": {
+    "field": "Z_N(x)=sum_(B in P_N)<a_B(x),X_B> in a real uniformly bounded trigonometric basis, with independent centered centrally symmetric standardized blocks X_B.",
+    "coefficients": "a_j(x)=sqrt(lambda_j)e_j(x), lambda_j=s_j/(2omega_j).",
+    "third_moment": "Central symmetry makes mu3(x)=0 at every point.",
+    "pointwise_identity": "mu4(x)-3v(x)^2=sum_B kappa4(<a_B(x),X_B>) by additivity of joint cumulants over independent blocks.",
+    "integrated_defect": "D_N=sum_B int_[T^3] kappa4(<a_B(x),X_B>)dx exactly.",
+    "scope_guard": "Stationarity is an explicit class premise; arbitrary independent real sine/cosine coordinates need not be stationary, and the identity supplies no sign or unrestricted coercivity."
+  },
+  "decision": {
+    "block_cumulant_identity_exact": true,
+    "third_moment_vanishes_under_central_symmetry": true,
+    "defect_sign_fixed": false,
+    "arbitrary_stationary_laws_covered": false,
+    "protected_status_change": false
+  }
+}

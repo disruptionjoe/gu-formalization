@@ -7,6 +7,24 @@ updated_at: "2026-10-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1641--K1645 Fourier-block rigidity and logarithmic holonomy (2026-10-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Independent or locally blocked non-Gaussian Fourier modes can automatically supply a leading negative Wick defect | K1641 exact cumulant decomposition plus K1642 block bound | false under the declared symmetry/profile/cumulant hypotheses: `|D_N|=O(b_N N)` |
+| Submacroscopic dependence can change the profiled coefficient | K1642 plus K1637--K1638 | false for `b_N=o(N^3)`: the defect is `o(N^4)` and the class coefficient remains `h_g^prof` |
+| Macroscopic block size constructs a coefficient-changing state | K1642--K1643 scope audit | not established: `b_N=Omega(N^3)` is necessary inside the block model, not sufficient, and the positive costs remain |
+| The block theorem fixes the unrestricted coefficient | scope audit | not established: unbounded profiles/cumulants, broken central symmetry and non-block macroscopic correlations remain outside the class |
+| The critical logarithmic half-derivative energy implies Fourier/holonomy `L1` | K1644 telescoping triangular-density primitive | false: the compact AC/BV atom-free example has finite `int |t|log|t||hat G|^2` and divergent Fourier `L1` |
+| No logarithmic Sobolev strengthening suffices | K1644 weighted Cauchy--Schwarz | false: every `int |t|(log|t|)^(1+epsilon)|hat G|^2<infinity` with `epsilon>0` is sufficient |
+| The advance closes GU physical admission | K1645 360-row bridge census | 281 satisfied, ten conditional, 65 excluded and four missing |
+
+The five producers pass `87/87` controls and five hostile probes reject
+`45/45` mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
+`0/7`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
+
 ## K1636--K1640 stationarization and endpoint holonomy boundary (2026-10-09)
 
 | Claim | Evidence | Honest grade |

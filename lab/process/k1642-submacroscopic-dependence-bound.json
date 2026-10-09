@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1642",
+  "status": "active_research",
+  "title": "Submacroscopic Fourier dependence cannot carry a leading Wick defect",
+  "pinned_inputs": {
+    "k1641": "lab/process/k1641-fourier-block-cumulant-decomposition.json"
+  },
+  "dependence_bound": {
+    "directional_cumulant": "Every standardized block satisfies |kappa4(<u,X_B>)|<=K||u||_2^4.",
+    "block_size": "Every independent block contains at most b_N real Fourier coordinates.",
+    "finite_bound": "If ||e_j||_infinity<=C_e then |D_N|<=K C_e^4 sum_B(sum_(j in B)lambda_j)^2<=K C_e^4 b_N sum_j lambda_j^2.",
+    "profile_bound": "For 0<s_j<=S and omega_k=sqrt(m^2+|k|^2), sum_j lambda_j^2<=S^2 sum_k omega_k^(-2)/4=O_(m,S)(N) in three dimensions.",
+    "asymptotic_bound": "|D_N|=O_(m,S,K,C_e)(b_N N).",
+    "leading_threshold": "If b_N=o(N^3), then D_N=o(N^4); within this block model a leading defect requires b_N=Omega(N^3), the scale of the complete cutoff mode count.",
+    "scope_guard": "Macroscopic block size is necessary rather than sufficient; growing standardized cumulants, unbounded covariance profiles, broken central symmetry and non-block correlations remain outside the theorem."
+  },
+  "decision": {
+    "finite_block_bound_proved": true,
+    "three_dimensional_sum_order_N": true,
+    "submacroscopic_leading_defect_excluded": true,
+    "macroscopic_dependence_sufficient": false,
+    "unrestricted_defect_bound": false,
+    "protected_status_change": false
+  }
+}

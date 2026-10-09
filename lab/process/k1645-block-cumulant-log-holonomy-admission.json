@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1645",
+  "status": "active_research",
+  "title": "Protected admission after block-cumulant rigidity and logarithmic holonomy",
+  "pinned_inputs": {
+    "k1641": "lab/process/k1641-fourier-block-cumulant-decomposition.json",
+    "k1642": "lab/process/k1642-submacroscopic-dependence-bound.json",
+    "k1643": "lab/process/k1643-block-law-coefficient-rigidity.json",
+    "k1644": "lab/process/k1644-logarithmic-holonomy-endpoint.json"
+  },
+  "admission": {
+    "bridge_census": {"rows": 360, "satisfied": 281, "conditional": 10, "excluded": 65, "missing": 4},
+    "source_claims": {"SC-ACT-01": "ASSERTS", "SC-ACT-02": "ASSERTS", "SC-ACT-06": "ASSERTS", "SC-META-53": "UNCERTAIN"},
+    "physics_ledger": {"same": 33, "differs": 22, "needs": 31, "over_determined": 2},
+    "protected_rows": {"K1145": "0/7", "K1150": "0/7"},
+    "quantum_advance": "Submacroscopic independent Fourier-block dependence with bounded standardized fourth cumulants and bounded covariance profile retains coefficient h_g^prof; macroscopic dependence remains open.",
+    "holonomy_advance": "The critical log-weighted H^(1/2) endpoint fails in a compact atom-free AC/BV class, while every log^(1+epsilon) strengthening is sufficient.",
+    "scope_guard": "No source, standing-ledger, canon, paper, prediction, confirmation, public-posture or physical-admission state changes."
+  },
+  "decision": {
+    "conditional_block_coefficient_advance": true,
+    "logarithmic_endpoint_advance": true,
+    "macroscopic_correlated_endpoint_closed": false,
+    "source_owned_action_supplied": false,
+    "physical_admission_complete": false,
+    "protected_status_change": false
+  }
+}
