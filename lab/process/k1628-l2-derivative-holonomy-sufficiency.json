@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1628",
+  "status": "active_research",
+  "title": "Atom-free L2 derivative suffices for integrable holonomy amplitude",
+  "pinned_inputs": {
+    "k1624": "lab/process/k1624-bv-atomic-holonomy-obstruction.json"
+  },
+  "sobolev_sufficiency": {
+    "hypothesis": "G is compactly supported, absolutely continuous, scalar or finite-dimensional vector valued, with weak derivative g=G' in L2.",
+    "atom_free": "The distributional derivative is DG=g d omega and therefore has no atoms.",
+    "fourier_identity": "For t nonzero, widehat G(t)=widehat g(t)/(it).",
+    "low_time": "For R>0, int_(|t|<=R)|widehat G(t)|dt<=2R||G||_1.",
+    "tail": "Cauchy-Schwarz and Plancherel give int_(|t|>R)|widehat G(t)|dt<=2sqrt(pi/R)||g||_2.",
+    "conclusion": "widehat G belongs to L1, providing a sufficient atom-free subclass complementary to K1624's necessary condition.",
+    "scope_guard": "The theorem does not cover arbitrary atom-free singular-continuous derivative measures and does not prove electric-field L1 or nonlinear-flow remainder control."
+  },
+  "decision": {
+    "l2_density_sufficient_for_holonomy_L1": true,
+    "atom_free_alone_sufficient": false,
+    "singular_continuous_class_closed": false,
+    "electric_field_L1_proved": false,
+    "source_owned_flow": false,
+    "protected_status_change": false
+  }
+}

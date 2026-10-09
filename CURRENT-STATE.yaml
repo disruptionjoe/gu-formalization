@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: ba778b646b25a6f73c698a89f82c4e97c55dd210
+revision_basis: efa0fc5f0f7740a2ef92fae6e4eaa83321a1808f
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1626--K1630 resolve two boundaries left by K1621--K1625. An exact
+    product Gaussian channel on `Theta(N^3)` fixed-ratio ultraviolet modes
+    has `I(M_N;X_N)=Theta(N^3)` and weighted missing Fisher information
+    `Theta(N^4)`, so the K1616 information method is scale-sharp: critical
+    capacity alone cannot give coefficient rigidity. The witness does not
+    prove an actual coefficient change because all component and interaction
+    costs remain. Independently, every compact absolutely continuous
+    primitive with `G' in L2` has integrable Fourier/holonomy amplitude, with
+    the quantitative bound
+    `||hat G||_1<=3(2||G||_1)^(1/3)(sqrt(pi)||G'||_2)^(2/3)`.
+    Atom-free singular-continuous measures, electric-field `L1`, nonlinear
+    remainders and source ownership remain open. The 345-row census is 266
+    satisfied, ten conditional, 65 excluded and four missing; protected
+    source, ledger, canon and public states do not move.
+
     K1621--K1625 extend K1618 from one common covariance to label-dependent
     Gaussian covariances that share a stationary diagonal profiled Loewner
     floor `S_*`: writing `S_z=S_*+C_z` realizes the mixture as the common
@@ -15106,6 +15121,19 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1626--K1627 prove that order-`N^3` Gaussian-channel information can carry
+  order-`N^4` missing Fisher information, making the subcritical hypothesis
+  method-sharp but leaving the actual variational coefficient undecided. Can
+  a direct all-term non-Gaussian/nonstationary competitor change the
+  coefficient, or can a global Fisher/defect coercivity theorem exclude that
+  sector? Only after the true `E_N+O(1)` shift is identified should
+  compactness and Mosco liminf/recovery be tested. Independently,
+  K1628--K1629 prove holonomy `L1` when the compact primitive is absolutely
+  continuous with `L2` derivative. Can that regularity and integrable
+  curvature/current/radial remainders be derived from one source-owned
+  nonlinear action/domain? The source-owned action/measure/Hamiltonian tuple
+  remains a separate gate.
+
   K1621--K1623 control label-dependent Gaussian covariances whenever they
   share a stationary diagonal profiled Loewner floor and their label entropy
   plus conditional Gaussian-channel capacity is `o(N^3)`. Can an order-`N^3`
@@ -17741,6 +17769,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1626's fixed-ratio ultraviolet shell, profile-band covariance,
+  order-one relative Gaussian excess and exact tensor-product formulas.
+  Preserve K1627's classification: critical capacity is sharp for the
+  information method but does not prove an actual coefficient change because
+  component and quartic costs remain. Next perform direct all-term analysis
+  for a genuinely non-Gaussian/nonstationary competitor or prove global
+  Fisher/defect coercivity. Preserve K1628's compact absolute continuity and
+  `L2` derivative hypothesis, and K1629's Fourier-amplitude-only budget. Do
+  not transfer it to arbitrary atom-free singular measures, electric-field
+  `L1`, nonlinear remainders or a source-owned flow. Derive those inputs from
+  an actual source-owned action and domain before physical admission.
+
   Preserve K1621's common stationary diagonal profiled floor `S_*`, positive
   covariance excesses `C_z`, and common-channel reduction. Preserve K1622's
   combined label-entropy plus conditional-capacity condition and K1623's

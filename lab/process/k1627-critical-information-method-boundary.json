@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1627",
+  "status": "active_research",
+  "title": "Critical information boundary is method-sharp but variationally undecided",
+  "pinned_inputs": {
+    "k1626": {"path": "lab/process/k1626-critical-capacity-shell-channel.json", "sha256": "79c37778d1034c2a9b103691c01ef9d394cd0772d1478a759be71c917e027bdf"}
+  },
+  "method_boundary": {
+    "negative_result": "Allowing I(M_N;X_N)=Theta(N^3) cannot by itself make K1616's O(N) times information remainder o(N^4).",
+    "required_new_structure": "Critical capacity requires cancellation, a sharper averaged-frequency estimate, component coercivity, or direct all-term coefficient analysis.",
+    "variational_guard": "The K1626 output law is itself Gaussian with covariance S_N+C_N; component, translation, and quartic costs remain, and the profiled stationary-diagonal minimization is not overturned.",
+    "classification": "method-sharp but variationally undecided",
+    "scope_guard": "No lowering of the true ground energy, change of the unrestricted coefficient, bounded-error recentering, compactness, or continuum Hamiltonian follows."
+  },
+  "decision": {
+    "subcritical_information_hypothesis_scale_sharp": true,
+    "critical_rigidity_from_information_alone": false,
+    "actual_coefficient_change_proved": false,
+    "direct_all_term_analysis_still_required": true,
+    "protected_status_change": false
+  }
+}

@@ -7,6 +7,20 @@ updated_at: "2026-10-09"
 
 # Next Steps For Contributors
 
+> **2026-10-09 K1626--K1630 CRITICAL CAPACITY AND SOBOLEV HOLONOMY.** An
+> exact fixed-ratio ultraviolet-shell Gaussian channel realizes
+> `I(M_N;X_N)=Theta(N^3)` together with `Theta(N^4)` weighted missing Fisher
+> information. Thus K1616's information method is scale-sharp and cannot
+> prove rigidity at critical capacity without new all-term structure. This is
+> not an actual coefficient-changing trial: component and quartic costs remain.
+> Next perform a direct coefficient calculation for a genuinely
+> non-Gaussian/nonstationary competitor or prove global Fisher/defect
+> coercivity. On the PDE arc, compact absolutely continuous primitives with
+> `G' in L2` have Fourier/holonomy `L1`, with an explicit optimized norm
+> budget. Next derive that regularity and integrable nonlinear remainders from
+> a source-owned action/domain. Do not claim arbitrary atom-free sufficiency,
+> electric-field `L1`, nonlinear scattering, or physical admission.
+
 > **2026-10-09 K1621--K1625 COMMON-FLOOR COVARIANCE RIGIDITY AND BV ATOMIC
 > OBSTRUCTION.** Label-dependent Gaussian covariances with a common stationary
 > diagonal profiled Loewner floor reduce to one common Gaussian channel. The

@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1626",
+  "status": "active_research",
+  "title": "Exact critical-capacity Gaussian ultraviolet-shell channel",
+  "pinned_inputs": {
+    "k1616": "lab/process/k1616-common-covariance-mmse-control.json",
+    "k1622": "lab/process/k1622-entropy-conditional-capacity-rigidity.json"
+  },
+  "shell_channel": {
+    "hypothesis": "A fixed-ratio ultraviolet shell E_N has d_N=Theta(N^3), common profile-band covariance entries s_(N,k) bounded above and below, frequencies omega_(N,k)=Theta(N), and fixed relative excess C_(N,k)=r s_(N,k) with r>0.",
+    "channel": "Independent coordinates M_(N,k)~N(0,r s_(N,k)), G_(N,k)~N(0,s_(N,k)), X_N=M_N+G_N form one common-floor continuous Gaussian location channel.",
+    "information": "I(M_N;X_N)=(d_N/2)log(1+r)=Theta(N^3).",
+    "mmse": "For every shell coordinate, mmse(M_(N,k)|X_(N,k))=s_(N,k)r/(1+r).",
+    "missing_fisher": "Delta_N=[r/(1+r)]sum_(k in E_N)omega_(N,k)/s_(N,k)=Theta(N^4), so the K1606 one-quarter mixing term is Theta(N^4).",
+    "sharpness": "The K1616 scales Delta_N<=2 Lambda_N I(M_N;X_N) are simultaneously attained up to constants on this shell family.",
+    "scope_guard": "This is a method-sharpness witness. It does not prove that the full energy coefficient changes or that the missing-Fisher gain survives component and interaction costs."
+  },
+  "decision": {
+    "critical_information_realized": true,
+    "leading_missing_fisher_realized": true,
+    "information_method_scale_sharp": true,
+    "actual_coefficient_change_proved": false,
+    "unrestricted_state_theorem": false,
+    "protected_status_change": false
+  }
+}

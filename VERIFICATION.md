@@ -7,6 +7,24 @@ updated_at: "2026-10-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1626--K1630 critical capacity and Sobolev holonomy (2026-10-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Order-`N^3` Gaussian-channel information still forces an `o(N^4)` mixing remainder | K1626 exact ultraviolet-shell channel | false for the method: the same channel has `Theta(N^4)` weighted missing Fisher information |
+| K1626 proves the true variational coefficient changes | K1627 all-term scope audit | not established: component, translation and quartic costs remain, and the output law is itself Gaussian |
+| The `o(N^3)` information condition can be extended to `O(N^3)` without new structure | K1627 method boundary | false: critical capacity needs cancellation, averaged-frequency improvement, coercivity or direct coefficient analysis |
+| Atom-freedom has no useful positive sufficient subclass | K1628 Plancherel theorem | false: compact absolute continuity with `G' in L2` implies Fourier/holonomy `L1` |
+| The sufficient theorem is only qualitative | K1629 optimized split-frequency estimate | false: `||hat G||_1<=3(2||G||_1)^(1/3)(sqrt(pi)||G'||_2)^(2/3)` |
+| K1628--K1629 cover arbitrary atom-free singular measures, electric-field `L1` or nonlinear flow | scope audit | not established: those remain outside the theorem |
+| The advance closes GU physical admission | K1630 345-row bridge census | 266 satisfied, ten conditional, 65 excluded and four missing |
+
+The five producers pass `87/87` controls and five hostile probes reject
+`45/45` mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
+`0/7`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
+
 ## K1621--K1625 common-floor covariance rigidity and BV atoms (2026-10-09)
 
 | Claim | Evidence | Honest grade |

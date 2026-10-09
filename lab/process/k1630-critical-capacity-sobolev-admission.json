@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1630",
+  "status": "active_research",
+  "title": "Protected admission for critical-capacity sharpness and Sobolev holonomy sufficiency",
+  "pinned_inputs": {
+    "k1626": {"path": "lab/process/k1626-critical-capacity-shell-channel.json", "sha256": "79c37778d1034c2a9b103691c01ef9d394cd0772d1478a759be71c917e027bdf"},
+    "k1627": {"path": "lab/process/k1627-critical-information-method-boundary.json", "sha256": "77cf55bf83610c0fe9ce13516c6cbd4e1928a752973043c750f7f73f1e8a6184"},
+    "k1628": {"path": "lab/process/k1628-l2-derivative-holonomy-sufficiency.json", "sha256": "1de728c02d127b2dfeafa5532d4c7233ca2cfdec68b1c9f34ae90e1b0fe91c91"},
+    "k1629": {"path": "lab/process/k1629-quantitative-holonomy-l1-budget.json", "sha256": "c73a96082a97a54a2e7cfdeaead8c4626d9a6358cd692a96948d20b177d76e58"}
+  },
+  "census": {
+    "rows": 345,
+    "satisfied": 266,
+    "conditional": 10,
+    "excluded": 65,
+    "missing": 4,
+    "source_asserts": ["SC-ACT-01", "SC-ACT-02", "SC-ACT-06"],
+    "source_uncertain": ["SC-META-53"],
+    "physics_ledger": {"SAME": 33, "DIFFERS": 22, "NEEDS": 31, "OVER_DETERMINED": 2},
+    "k1145_k1150_scorable_rows": "0/7"
+  },
+  "protected_boundaries": {
+    "source_register_changed": false,
+    "physics_ledger_changed": false,
+    "canon_changed": false,
+    "paper_changed": false,
+    "prediction_or_confirmation_changed": false,
+    "public_posture_changed": false,
+    "actual_coefficient_change_claimed": false,
+    "source_owned_flow_claimed": false
+  },
+  "next_wakes": [
+    "Perform a direct all-term coefficient calculation for a genuinely non-Gaussian/nonstationary competitor or prove global Fisher/defect coercivity.",
+    "Derive an absolutely continuous L2 primitive derivative and integrable curvature/current/radial remainder from one source-owned nonlinear action and domain.",
+    "Supply the source-owned action/measure/Hamiltonian tuple."
+  ]
+}

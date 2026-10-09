@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1629",
+  "status": "active_research",
+  "title": "Quantitative split-frequency holonomy L1 budget",
+  "pinned_inputs": {
+    "k1628": {"path": "lab/process/k1628-l2-derivative-holonomy-sufficiency.json", "sha256": "1de728c02d127b2dfeafa5532d4c7233ca2cfdec68b1c9f34ae90e1b0fe91c91"}
+  },
+  "quantitative_budget": {
+    "all_scales": "For every R>0, ||widehat G||_1<=2R||G||_1+2sqrt(pi/R)||G'||_2.",
+    "optimizer": "When both norms are nonzero, R_*=[sqrt(pi)||G'||_2/(2||G||_1)]^(2/3).",
+    "optimized": "||widehat G||_1<=3(2||G||_1)^(1/3)(sqrt(pi)||G'||_2)^(2/3).",
+    "vector_extension": "The same estimates hold for finite-dimensional vector values with Euclidean norm by vector Plancherel and Cauchy-Schwarz.",
+    "use": "The bound is an explicit conditional budget for zero-limit holonomy amplitude.",
+    "scope_guard": "The budget does not control electric-field L1, curvature, differentiated current, radial remainders, nonlinear scattering, a physical domain, or a source-owned representation."
+  },
+  "decision": {
+    "explicit_budget_proved": true,
+    "optimized_scale_proved": true,
+    "finite_vector_extension_proved": true,
+    "nonlinear_remainders_controlled": false,
+    "protected_status_change": false
+  }
+}
