@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1604",
+  "title": "The atom-free spectral class yields an explicit conditional bare-energy and analytic-radius budget",
+  "pinned_inputs": {
+    "k1573": {"path": "lab/process/k1573-moving-radius-current-absorption.json", "sha256": "a76dfb050607516076b7d5ddbee2f14390b21169bf29e765a46da163a6387da9"},
+    "k1598": {"path": "lab/process/k1598-unequal-mode-bare-energy-normal-form.json", "sha256": "0897e71746b7866da2d6a2e9012e6a80e7ca91c9f9688fba59e973f7a554a539"},
+    "k1603": {"path": "lab/process/k1603-atomic-resonance-exclusion.json", "sha256": "4c2251cc742ff0caf915c16cc06a38e628df3342337fe8f08824414cb16bf140"}
+  },
+  "spectral_budget": {
+    "definitions": "Set B_E=B_0+B_3/2 and B_a=B_0/2+B_3 from K1603; then int|a|<=B_a, ||a||_infinity<=B_E and int|a|^2<=B_E B_a.",
+    "bare_energy": "K1598 gives E_0(t)<=E_0(0)exp(2|e|B_a+(e^2/m)B_E B_a), closing the declared D' and M' expenditure.",
+    "remainder": "Let R(t)>=0 collect separately estimated curvature, oscillatory-Maxwell, current, radial and other hierarchy coefficients, with B_R=int R<infinity, and suppose the K1573 inequality has B_A(t)<=|e||a(t)|+R(t).",
+    "radius": "Choosing -rho'=C_m B_A/4 gives rho_infinity>=rho_0-(C_m/4)(|e|B_a+B_R).",
+    "positive_budget": "The explicit sufficient condition (C_m/4)(|e|B_a+B_R)<rho_0 preserves a positive limiting analytic radius.",
+    "scope_guard": "This is conditional on the spectral representation, zero asymptotic holonomy, the declared integrable remainder and K1573 smooth-core hierarchy. It does not construct a nonlinear source-owned flow, quotient or Hamiltonian."
+  },
+  "decision": {
+    "d_prime_m_prime_budget_closed_conditionally": true,
+    "bare_energy_uniform_bound_proved_conditionally": true,
+    "positive_limiting_radius_proved_conditionally": true,
+    "curvature_current_remainders_derived": false,
+    "source_owned_global_flow_constructed": false,
+    "protected_status_change": false
+  }
+}

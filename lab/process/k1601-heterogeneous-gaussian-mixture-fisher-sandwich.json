@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1601",
+  "title": "Every translated heterogeneous Gaussian mixture has an exact precision-Jensen Fisher sandwich",
+  "pinned_inputs": {
+    "k1533": {"path": "lab/process/k1533-relative-fisher-covariance-extremality.json", "sha256": "19ca4ef5d62a12111a2ebd678f1b7d7e8b82e2b0a0ee726852f5c6ae27d713cf"},
+    "k1596": {"path": "lab/process/k1596-location-mixture-fisher-sandwich.json", "sha256": "f853eba4287952a1595ef576f59dcd90412b80dfe3f2ae4dcd5279aff1f6ffc9"}
+  },
+  "heterogeneous_mixture": {
+    "law": "Let nu=int N(m_z,S_z)pi(dz), with arbitrary positive covariances S_z, arbitrary cutoff-space means m_z and finite required moments.",
+    "moments": "Writing alpha=E m_z, C=Cov(m_z) and T=E S_z+C, the mixture mean is alpha and its covariance is T.",
+    "convex_upper": "Fisher convexity gives U=E[m_z^T Omega m_z+Tr Omega(S_z+S_z^(-1)-2I)] as an upper bound for I_Omega(nu|mu).",
+    "moment_lower": "K1533 gives L=alpha^T Omega alpha+Tr Omega(T+T^(-1)-2I) as a lower bound.",
+    "exact_width": "The mean-covariance terms cancel exactly, leaving U-L=Delta=Tr Omega(E S_z^(-1)-T^(-1)).",
+    "positivity": "Operator convexity gives E S_z^(-1)>=(E S_z)^(-1)>=T^(-1), so Delta is nonnegative.",
+    "scope_guard": "Delta is the exact sandwich width, not the exact mixture Fisher information. It can be order N^4 under order-one covariance or translation heterogeneity."
+  },
+  "decision": {
+    "heterogeneous_covariances_allowed": true,
+    "arbitrary_mode_translations_allowed": true,
+    "exact_precision_jensen_width": true,
+    "commutation_required": false,
+    "unrestricted_coefficient_identified": false,
+    "protected_status_change": false
+  }
+}

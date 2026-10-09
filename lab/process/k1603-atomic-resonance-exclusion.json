@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1603",
+  "title": "Removing pure-point harmonic spectrum and imposing W3,1 density gives integrable electric and holonomy amplitudes",
+  "pinned_inputs": {
+    "k1599": {"path": "lab/process/k1599-transverse-nonzero-mode-periodic-family.json", "sha256": "2b4714783f5b527f12629a8f1693817eebbe167a88874f9414ead711ffcc9ee4"}
+  },
+  "spectral_exclusion": {
+    "decomposition": "Decompose E_h into a finite pure-point trigonometric polynomial plus an absolutely continuous Fourier integral with densities F_+ and F_-.",
+    "atomic_obstruction": "Every nonzero finite pure-point trigonometric polynomial has positive mean absolute value and infinite time L1 norm; K1589 and K1599 are one-frequency instances.",
+    "exact_exclusion": "Impose P_pp E_h=0, so every declared nondispersive atomic resonant sector is excluded rather than only the homogeneous matter mode.",
+    "density_hypothesis": "Assume F_+,F_- are W^{3,1}, supported away from zero, with their values and first two derivatives zero at every support endpoint.",
+    "decay": "Three integrations by parts give |E_h(t)|<=t^(-3)B_3 for t>=1, where B_3=||F_+'''||_1+||F_-'''||_1.",
+    "budgets": "With B_0=||F_+||_1+||F_-||_1, int|E_h|<=B_0+B_3/2. If a(infinity)=0 and a(t)=int_t^infinity E_h(s)ds, then int|a|<=B_0/2+B_3 and ||a||_infinity<=B_0+B_3/2.",
+    "scope_guard": "The spectral and endpoint hypotheses are sufficient, not necessary, and are not derived here from the nonlinear Maxwell-matter equations or a source-owned action."
+  },
+  "decision": {
+    "pure_point_sector_excluded_by_hypothesis": true,
+    "transverse_periodic_family_excluded": true,
+    "electric_l1_proved_in_declared_class": true,
+    "holonomy_amplitude_l1_proved_with_zero_limit": true,
+    "nonlinear_scattering_proved": false,
+    "protected_status_change": false
+  }
+}

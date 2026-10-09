@@ -7,6 +7,22 @@ updated_at: "2026-10-09"
 
 # Next Steps For Contributors
 
+> **2026-10-09 K1601--K1605 HETEROGENEOUS MIXTURES AND SPECTRAL
+> DISPERSION.** An arbitrary translated heterogeneous Gaussian mixture has
+> Fisher sandwich width
+> `Delta=Tr Omega(E S_z^(-1)-T^(-1))`. A shrinking relative Loewner band
+> around the K1572 profile, including arbitrary-mode translation covariance,
+> makes that gap `o(N^4)` and retains coefficient `h_g^prof`. Next control
+> fixed order-one heterogeneity, build a coefficient-changing mixture, or
+> leave the Gaussian class through a global nonlinear Fisher/defect theorem.
+> On the PDE arc, excluding all pure-point harmonic-electric spectrum and
+> imposing atom-free `W^{3,1}` density gives integrable electric and holonomy
+> amplitudes; with integrable declared remainders, the analytic radius stays
+> positive below an explicit budget. Next derive those hypotheses from one
+> source-owned nonlinear domain or weaken them by a structural cancellation.
+> Do not claim an unrestricted coefficient, nonlinear scattering, a global
+> source-owned flow, or physical admission.
+
 > **2026-10-09 K1596--K1600 LOCATION-MIXTURE RIGIDITY AND TRANSVERSE
 > MODES.** Every finite-second-moment zero-mode location mixture over the
 > common K1572 profiled covariance has Fisher-mixing gain at most `O_g(N)`;

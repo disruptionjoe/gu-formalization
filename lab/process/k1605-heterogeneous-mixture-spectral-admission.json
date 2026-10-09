@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1605",
+  "title": "Heterogeneous-mixture stability and spectral-dispersion protected admission replay",
+  "pinned_inputs": {
+    "k1601": {"path": "lab/process/k1601-heterogeneous-gaussian-mixture-fisher-sandwich.json", "sha256": "3b1b2d1deabd36b90ae33482f406ad8977d3390ff45a7bf25ed30d5ddb9e6ad9"},
+    "k1602": {"path": "lab/process/k1602-relative-band-coefficient-stability.json", "sha256": "6bc467d5c60f94000db1e7871f7e80efcb811d0da3071e63dc87c09fa676bd32"},
+    "k1603": {"path": "lab/process/k1603-atomic-resonance-exclusion.json", "sha256": "4c2251cc742ff0caf915c16cc06a38e628df3342337fe8f08824414cb16bf140"},
+    "k1604": {"path": "lab/process/k1604-spectral-analytic-radius-budget.json", "sha256": "bcd3e2569372819ca9a789bddfb8b810e2af48389dab37933516d9c4f78b924f"}
+  },
+  "bridge_census": {
+    "row_count": 320,
+    "satisfied_count": 241,
+    "conditional_count": 10,
+    "excluded_count": 65,
+    "missing_count": 4,
+    "new_satisfied_rows": [
+      "K1601 heterogeneous Gaussian-mixture Fisher sandwich",
+      "K1602 relative-band coefficient stability",
+      "K1603 atomic-resonance exclusion",
+      "K1604 spectral analytic-radius budget",
+      "K1605 protected admission replay"
+    ],
+    "protected_missing_rows": [
+      "source-selected action/measure/Hamiltonian",
+      "interacting positive physical quotient",
+      "observed carrier/intertwiner",
+      "held-out prediction or confirmation"
+    ]
+  },
+  "protected_state": {
+    "source_claims": "SC-ACT-01/02/06 remain ASSERTS; SC-META-53 remains UNCERTAIN",
+    "physics_ledger": "33 SAME / 22 DIFFERS / 31 NEEDS / 2 OVER-DETERMINED",
+    "candidate_counts": "K1145 and K1150 remain 0/7",
+    "canon_change": false,
+    "paper_change": false,
+    "prediction_or_confirmation": false,
+    "public_posture_change": false
+  },
+  "decision": {
+    "conditional_mathematical_advance": true,
+    "heterogeneous_gaussian_sandwich_proved": true,
+    "shrinking_relative_band_coefficient_rigid": true,
+    "atomic_resonance_exclusion_proved": true,
+    "conditional_positive_radius_budget_proved": true,
+    "unrestricted_leading_coefficient_identified": false,
+    "source_owned_global_flow": false,
+    "source_owned_hamiltonian": false,
+    "protected_status_change": false
+  }
+}

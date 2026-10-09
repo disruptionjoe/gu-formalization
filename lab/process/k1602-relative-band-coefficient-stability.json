@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1602",
+  "title": "A shrinking relative band of heterogeneous profiled Gaussian mixtures retains coefficient h_g^prof",
+  "pinned_inputs": {
+    "k1572": {"path": "lab/process/k1572-finite-cutoff-profiled-gaussian-minimizer.json", "sha256": "dcdce3de0f59d4f41985e81f575774d499e4a646e8aabde771aeefd2b125db4b"},
+    "k1601": {"path": "lab/process/k1601-heterogeneous-gaussian-mixture-fisher-sandwich.json", "sha256": "3b1b2d1deabd36b90ae33482f406ad8977d3390ff45a7bf25ed30d5ddb9e6ad9"}
+  },
+  "relative_band": {
+    "hypothesis": "For the K1572 profile S_N^*, assume (1-epsilon_N)S_N^*<=S_z<=(1+epsilon_N)S_N^* and Cov(m_z)<=eta_N S_N^*, with 0<=epsilon_N<1.",
+    "loewner_bound": "Delta<=d_N Tr[Omega(S_N^*)^(-1)], where d_N=(1-epsilon_N)^(-1)-(1+epsilon_N+eta_N)^(-1).",
+    "trace_scale": "Because omega_k/s_(N,k)=sqrt(omega_k^2+kappa_(g,N)^+) over Theta(N^3) cutoff modes, Tr[Omega(S_N^*)^(-1)]=O_g(N^4).",
+    "energy_lower": "K1572 bounds every stationary diagonal Gaussian component below by lambda_N^prof, while potential linearity and q_0=I_Omega/4 give Q_N(nu)>=lambda_N^prof-Delta/4.",
+    "coefficient": "The class contains the profile itself. If epsilon_N+eta_N->0, then inf Q_N(nu)/N^4->h_g^prof.",
+    "scope_guard": "This closes a shrinking relative band with arbitrary-mode translations. Fixed order-one heterogeneity, non-Gaussian components, phases, spatial textures and nonstationary laws remain open."
+  },
+  "decision": {
+    "genuinely_heterogeneous_band_allowed": true,
+    "arbitrary_mode_translation_covariance_allowed": true,
+    "precision_gap_subleading_when_band_shrinks": true,
+    "class_coefficient_h_g_prof": true,
+    "order_one_heterogeneity_controlled": false,
+    "unrestricted_coefficient_identified": false,
+    "protected_status_change": false
+  }
+}

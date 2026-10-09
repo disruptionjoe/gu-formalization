@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 8b72b7f17ed6b2e67debb03ec481a710541ef213
+revision_basis: 7d64a84f739d8f95f39203a3325412963b370e92
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1601--K1605 cross the common-covariance and zero-mode-location boundary
+    for Gaussian mixtures. For arbitrary component covariances `S_z` and
+    means `m_z`, Fisher convexity and K1533 leave the exact sandwich width
+    `Delta=Tr Omega(E S_z^(-1)-T^(-1))`, with
+    `T=E S_z+Cov(m_z)`. A shrinking relative Loewner band around K1572's
+    profile, including arbitrary-mode translation covariance, has
+    `Delta=o_g(N^4)` and retains class coefficient `h_g^prof`. Fixed
+    order-one heterogeneity, non-Gaussian components, phases, textures and
+    nonstationarity remain open. Independently, removing all pure-point
+    harmonic-electric spectral mass and imposing an atom-free `W^{3,1}`
+    density gives `t^-3` decay, finite electric variation and, at zero
+    asymptotic holonomy, integrable connection amplitude. K1598 and K1573
+    then give an explicit conditional bare-energy bound and positive limiting
+    analytic-radius budget once curvature, current, radial and oscillatory
+    remainders are integrable. The spectral representation and remainder
+    bounds are not derived from a nonlinear source-owned flow. The 320-row
+    census is 241 satisfied, ten conditional, 65 excluded and four missing;
+    protected source, ledger, canon and public states do not move.
+
     K1596--K1600 extend K1591's two-point cat to every finite-second-moment
     zero-mode location law over the common K1572 profiled covariance. Fisher
     convexity and K1533 reduce the full mixing benefit to the exact rank-one
@@ -15016,6 +15035,20 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1601--K1602 identify the exact precision-Jensen gap for arbitrary
+  heterogeneous translated Gaussian mixtures and close only the shrinking
+  relative band at coefficient `h_g^prof`. Can one control order-one
+  covariance/translation heterogeneity at sub-`N^4` cost, construct a
+  coefficient-changing Gaussian mixture, or prove a genuinely non-Gaussian
+  and nonstationary Fisher/defect theorem? Only after the true `E_N+O(1)`
+  shift is identified should compactness and Mosco liminf/recovery be tested.
+  Independently, K1603--K1604 give exact sufficient atom-free spectral and
+  integrable-remainder hypotheses for a positive limiting analytic radius.
+  Can those hypotheses be derived from one source-owned nonlinear
+  action/domain, or can a normal-form cancellation weaken the `W^{3,1}` and
+  zero-asymptotic-holonomy requirements? The source-owned
+  action/measure/Hamiltonian tuple remains a separate gate.
+
   K1596--K1600 close the complete finite-second-moment zero-mode location-
   mixture class over one common profiled covariance at coefficient
   `h_g^prof`, but leave covariance heterogeneity, non-zero-mode translations,
@@ -17581,6 +17614,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1601's distinction between an exact Fisher sandwich width and the
+  unknown mixture Fisher information, and K1602's shrinking relative Loewner
+  band, stationary diagonal component class and `o(N^4)` conclusion. Do not
+  extend coefficient rigidity to fixed order-one heterogeneity, non-Gaussian
+  laws, phases, textures or nonstationarity. Preserve K1603's exclusion of
+  pure-point spectral mass, `W^{3,1}` endpoint conditions and zero asymptotic
+  holonomy, plus K1604's explicitly assumed integrable nonlinear remainder.
+  Next control the order-one precision gap or leave Gaussian mixtures; for the
+  PDE, derive the spectral/remainder hypotheses from a source-owned nonlinear
+  domain or find a weaker exact cancellation. Supply the source-owned selector
+  tuple only from actual action, carrier and observation data.
+
   Preserve K1596--K1600's arbitrary finite-second-moment location law, common
   K1572 profiled covariance, zero-mode support, exact `M,D` definitions,
   transverse lattice momentum and nondispersive single-mode scope. Do not

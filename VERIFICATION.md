@@ -7,6 +7,27 @@ updated_at: "2026-10-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1601--K1605 heterogeneous mixtures and spectral dispersion (2026-10-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K1597's Fisher sandwich requires a common covariance or zero-mode location law | K1601 mean/covariance cancellation plus operator convexity | false: arbitrary translated heterogeneous Gaussian components have exact sandwich width `Tr Omega(E S_z^(-1)-T^(-1))` |
+| Every heterogeneous Gaussian mixture retains coefficient `h_g^prof` | K1602 relative-band theorem | not established: the theorem requires covariance and translation heterogeneity to shrink relative to the K1572 profile; order-one heterogeneity can leave an order-`N^4` gap |
+| The shrinking relative heterogeneous band changes the profiled coefficient | K1602 K1572 component lower bound | false: its class infimum divided by `N^4` still tends to `h_g^prof` |
+| Excluding only homogeneous matter modes supplies dispersion | K1603 pure-point projector criterion | false: every declared atomic resonant sector must be removed; K1599 is one nonzero-mode atom |
+| Atom-free spectrum alone proves a global positive analytic radius | K1603--K1604 | false: `W^{3,1}` endpoint regularity, zero asymptotic holonomy, and an integrable nonlinear remainder budget are separately required |
+| The conditional spectral theorem constructs nonlinear/source-owned scattering | K1604 scope audit | not established: the spectral representation, curvature/current/radial/oscillatory bounds, coercivity and physical domain remain inputs |
+| The advance closes GU physical admission | K1605 320-row bridge census | 241 satisfied, ten conditional, 65 excluded and four missing |
+
+The five producers pass `103/103` controls and five hostile probes reject
+`76/76` mutations. The Fisher convexity, operator-order and Fourier
+integration-by-parts arguments carry the mathematical claims; the scripts
+check exact scalar identities, endpoint controls, budgets, report consistency
+and hostile scope mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53
+remains `UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and
+K1145/K1150 stay `0/7`. No source, ledger, canon, paper, prediction,
+confirmation or public status moves.
+
 ## K1596--K1600 location mixtures and transverse modes (2026-10-09)
 
 | Claim | Evidence | Honest grade |
