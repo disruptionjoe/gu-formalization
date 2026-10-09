@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1548",
+  "title": "Universal sign-shell phase balance",
+  "pinned_inputs": {
+    "k1541": {
+      "path": "lab/process/k1541-ultraviolet-sign-texture-capacity-boundary.json",
+      "sha256": "5a006099ee77b6c499649efae76d260384b5a10a966f9f029393e8abe63208a9"
+    },
+    "k1547": {
+      "path": "lab/process/k1547-lamellar-admission.json",
+      "sha256": "a2a2615c9a9b81e045f7b5449c611412e121aa9d6035b45dd3587209a682b983"
+    }
+  },
+  "phase_balance": {
+    "definitions": "On normalized T3 let f_N be a real trigonometric polynomial with Fourier support |k|_2<=N, s_N=sgn(f_N), delta_N=int(f_N^2-1)^2 and H_(alpha,N)=sum_(alpha N<=|k|_2<=N)|hat s_N(k)|^2 for fixed 0<alpha<1",
+    "tail_bridge": "The pointwise identity |s_N-f_N|=||f_N|-1| and |f_N|+1>=1 give ||s_N-f_N||_2^2<=delta_N; Fourier best approximation therefore gives sum_(|k|_2>N)|hat s_N(k)|^2<=delta_N",
+    "variance_bridge": "Writing p_N=mu{s_N=-1}, Parseval gives H_(alpha,N)<=sum_(k!=0)|hat s_N(k)|^2=1-|int s_N|^2=4p_N(1-p_N)",
+    "phase_floor": "If H_(alpha,N)>=eta>0 then min(p_N,1-p_N)>=eta/4, so both sign phases have macroscopic normalized volume",
+    "good_core": "On {|f_N|<1/2} the defect density is at least 9/16; if delta_N<=9eta/128, each core {f_N>=1/2} and {f_N<=-1/2} has volume at least eta/8",
+    "scope_guard": "Outer-shell mass supplies phase balance and an above-cutoff tail bound; it does not by itself estimate the thickness of the transition set, prove a sharp exponent or identify a Gaussian weighted capacity"
+  },
+  "decision": {
+    "universal_tail_bound_proved": true,
+    "shell_phase_balance_proved": true,
+    "macroscopic_core_phases_proved": true,
+    "transition_defect_exponent_proved": false,
+    "capacity_computed": false,
+    "protected_status_change": false
+  }
+}

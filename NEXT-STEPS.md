@@ -7,6 +7,18 @@ updated_at: "2026-10-08"
 
 # Next Steps For Contributors
 
+> **2026-10-08 K1548--K1553 UNIVERSAL SIGN-SHELL OBSTRUCTION.** Fixed
+> outer-shell mass in `sgn(f_N)` forces both sign phases to have macroscopic
+> volume. Coarea and the three-dimensional `L4` Bernstein bound then prove
+> `int(f_N^2-1)^2>=cN^(-4/3)` for every real degree-`N` texture in that
+> class. The distributional lift forces `E W_N=Omega(N^(8/3))`; composing it
+> with K1538--K1541 raises the finite-cutoff ground-energy floor to
+> `Omega_g(N^(8/3))`. A localized product-Fejer negative bubble has defect
+> `Theta(N^-3)` but vanishing shell mass, so phase balance is essential. Next
+> sharpen the transition exponent or construct a fixed-shell texture matching
+> a smaller one, then seek a comparably scaled upper trial. Do not call `8/3`
+> the true asymptotic or identify the cutoff control with a GU Hamiltonian.
+
 > **2026-10-08 K1543--K1547 LAMELLAR SIGN-TEXTURE OBSTRUCTION.** The
 > sign-preserving odd Fourier truncation of a square wave has exact `L2` tail
 > `Theta(1/R)`. At cutoff `N=(2R+1)M`, scaling this lamellar center to

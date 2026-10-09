@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1553",
+  "title": "Protected admission replay after universal sign-shell obstruction",
+  "pinned_inputs": {
+    "k1550": {
+      "path": "lab/process/k1550-localized-fejer-sign-bubble.json",
+      "sha256": "a8c516a0de2ba8a57103885dd4e5755867387cbbadbe7ac2b862cd736350443f"
+    },
+    "k1552": {
+      "path": "lab/process/k1552-superquadratic-ground-energy.json",
+      "sha256": "fcfb536e7810b52f473013acd9d964fadffd77fef8ad5a82fd77c97787d92e50"
+    },
+    "ledger": {
+      "path": "lab/process/conditional-physics-ledger-v0.263.json",
+      "sha256": "7c75c179c3af512084e50af19043a5d320b38e8c1e53325ee5ec2f97ad9c257b"
+    }
+  },
+  "bridge_census": {
+    "row_count": 268,
+    "satisfied_count": 189,
+    "conditional_count": 10,
+    "excluded_count": 65,
+    "missing_count": 4,
+    "new_satisfied_rows": [
+      "universal above-cutoff sign-tail bound and shell phase balance",
+      "three-dimensional coarea--L4 Bernstein sign-defect inverse theorem",
+      "localized non-lamellar Fejer sign-bubble sharpness control",
+      "expected-shell distribution lift",
+      "superquadratic N^(8/3) cutoff ground-energy lower boundary",
+      "sub-N^(8/3) scalar-recentering resolvent exclusion"
+    ],
+    "protected_missing_rows": [
+      "source-owned primitive stationary circle",
+      "same-action kinetic normalization",
+      "action-derived physical carrier and positive domain",
+      "faithful domain-preserving observed intertwiner"
+    ]
+  },
+  "protected_state": {
+    "source_claims": "SC-ACT-01/02/06 remain ASSERTS and SC-META-53 remains UNCERTAIN",
+    "physics_ledger": "33 SAME / 22 DIFFERS / 31 NEEDS / 2 OVER-DETERMINED",
+    "candidate_counts": "K1145 and K1150 remain 0/7",
+    "untouched_surfaces": [
+      "lab/sources/source-claim-register.yaml",
+      "lab/process/conditional-physics-ledger-v0.263.json",
+      "CANON.md",
+      "papers/"
+    ],
+    "public_posture_change": false
+  },
+  "decision": {
+    "conditional_mathematical_advance": true,
+    "arbitrary_fixed_shell_order_N2_route_excluded": true,
+    "ground_energy_lower_boundary_raised": true,
+    "matching_ground_energy_asymptotic": false,
+    "continuum_interacting_brst_operator": false,
+    "source_owned_gu_hamiltonian": false,
+    "prediction_or_confirmation": false,
+    "protected_status_change": false
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1552",
+  "title": "Eight-thirds cutoff ground-energy lower boundary",
+  "pinned_inputs": {
+    "k1538": {
+      "path": "lab/process/k1538-low-wick-amplitude-rigidity.json",
+      "sha256": "fa3ebfc447a3fbede97d4362181d81bedb30142e24731ca4f29bacb808dcc050"
+    },
+    "k1539": {
+      "path": "lab/process/k1539-subquartic-ultraviolet-shell-covariance.json",
+      "sha256": "afc12eae855db6c2c76f027e26f76695f453c151dd6caac9d7252d80a8c1ea4a"
+    },
+    "k1541": {
+      "path": "lab/process/k1541-ultraviolet-sign-texture-capacity-boundary.json",
+      "sha256": "5a006099ee77b6c499649efae76d260384b5a10a966f9f029393e8abe63208a9"
+    },
+    "k1551": {
+      "path": "lab/process/k1551-sign-shell-mixture-lift.json",
+      "sha256": "d9f13335b0d37a1f3d70c2e907420abec9e4f1f5c49385ae2cd3919ca2cb088a"
+    }
+  },
+  "ground_energy": {
+    "bootstrap_assumption": "For a normalized cutoff state suppose q0[psi]+gE_nu W_N<=epsilon N^(8/3), where nu=|psi|^2 mu and g>0 is fixed",
+    "shell_covariance": "Then q0=o(N^4), so K1539 retains Theta(C_N) covariance in the fixed-ratio ultraviolet shell",
+    "amplitude_error": "K1538 gives E_nu|||phi_N|-sqrt(3C_N)||_2^2<=E_nu W_N/(3C_N)=O_(g,epsilon)(N^(2/3))=o(C_N)",
+    "sign_shell_release": "K1541's projection factorization therefore yields E_nu H_N>=eta_g>0 eventually; its order-N2 derivation only used shell covariance plus amplitude error o(C_N), both available here",
+    "interaction_contradiction": "K1551 gives E_nu W_N>=c_g N^(8/3); choosing epsilon below g c_g contradicts the bootstrap assumption",
+    "variational_floor": "The cutoff nonlinear Hamiltonian ground energy satisfies E_N>=c_g N^(8/3) for all sufficiently large N",
+    "resolvent_consequence": "For fixed lambda>=0, ||(H_N+lambda)^(-1)||=O_g(N^(-8/3)); every scalar recentering a_N=o(N^(8/3)) remains coercively divergent and cannot yield a finite nontrivial fixed-representation strong-resolvent limit",
+    "scope_guard": "The exponent is a lower boundary, not a matching asymptotic: the known vacuum upper scale remains Theta_g(N^4), no compactness or Mosco recovery is proved, and no continuum interacting BRST operator or source-owned GU Hamiltonian follows"
+  },
+  "decision": {
+    "order_N2_trial_excluded": true,
+    "ground_energy_floor_N8over3_proved": true,
+    "sub_N8over3_recenterings_excluded": true,
+    "matching_ground_energy_asymptotic_proved": false,
+    "continuum_operator_constructed": false,
+    "source_owned_gu_hamiltonian": false,
+    "protected_status_change": false
+  }
+}

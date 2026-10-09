@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1549",
+  "title": "Coarea--L4 Bernstein sign-defect inverse theorem",
+  "pinned_inputs": {
+    "k1548": {
+      "path": "lab/process/k1548-sign-shell-phase-balance.json",
+      "sha256": "af17a177525413f61a0964904d165237fa5406d1302fa1b75708062f45fe9b05"
+    }
+  },
+  "inverse_theorem": {
+    "hypothesis": "For fixed 0<alpha<1 and eta>0, f_N is a real T3 trigonometric polynomial supported in |k|_2<=N and H_(alpha,N)(sgn f_N)>=eta",
+    "quartic_control": "With delta_N=int(f_N^2-1)^2 and q_N=int f_N^2, |q_N-1|<=sqrt(delta_N) and ||f_N||_4^4=delta_N+2q_N-1<=(1+sqrt(delta_N))^2",
+    "gradient_control": "For delta_N<=1, the L4 trigonometric Bernstein inequality gives ||grad f_N||_4<=C N||f_N||_4<=C N; this is stronger for transition volume than passing through the L-infinity Nikolskii bound",
+    "coarea_lower_bound": "K1548 gives both cores {f_N>=1/2} and {f_N<=-1/2} volume at least eta/8 when delta_N<=9eta/128; relative torus isoperimetry and coarea then give int_(|f_N|<1/2)|grad f_N|>=I_eta>0",
+    "transition_volume": "Holder on the transition set gives I_eta<=int_B|grad f_N|<=mu(B)^(3/4)||grad f_N||_4<=C N mu(B)^(3/4), hence mu(B)>=c_eta N^(-4/3); the defect density is at least 9/16 there",
+    "conclusion": "For every N>=1, delta_N>=c_(alpha,eta) N^(-4/3); the complementary cases delta_N>min(1,9eta/128) satisfy the same bound after reducing the constant",
+    "scope_guard": "The exponent 4/3 is a rigorous three-dimensional inverse bound from L4 defect control, coarea and L4 Bernstein, not a claimed sharp nodal exponent; it requires nonvanishing fixed-ratio sign-shell mass and does not apply to merely nonconstant localized signs"
+  },
+  "decision": {
+    "coarea_interface_bound_proved": true,
+    "l4_bernstein_gradient_bound_proved": true,
+    "universal_fixed_shell_defect_floor_proved": true,
+    "exponent_sharpness_proved": false,
+    "capacity_required_for_configuration_exclusion": false,
+    "protected_status_change": false
+  }
+}

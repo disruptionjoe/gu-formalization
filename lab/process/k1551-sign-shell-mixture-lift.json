@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1551",
+  "title": "Expected sign-shell mixture lift",
+  "pinned_inputs": {
+    "k1549": {
+      "path": "lab/process/k1549-coarea-nikolskii-sign-defect.json",
+      "sha256": "7ad43e77ab1e9de27d61581b08629bcdcc37634e914e117fbdf82f30d93556fb"
+    },
+    "k1550": {
+      "path": "lab/process/k1550-localized-fejer-sign-bubble.json",
+      "sha256": "a8c516a0de2ba8a57103885dd4e5755867387cbbadbe7ac2b862cd736350443f"
+    }
+  },
+  "mixture_lift": {
+    "law": "Let nu_N be any probability law on real T3 trigonometric polynomials supported in |k|_2<=N; write H_N for fixed-ratio shell mass of sgn(f_N) and delta_N=int(f_N^2-1)^2",
+    "threshold_probability": "Because 0<=H_N<=1, E_nu H_N>=eta implies nu{H_N>=eta/2}>=eta/(2-eta)>=eta/2",
+    "pointwise_input": "On {H_N>=eta/2}, K1549 gives delta_N>=c_(alpha,eta)N^(-4/3) with a constant independent of the sampled texture",
+    "expected_conclusion": "Therefore E_nu delta_N>=c'_(alpha,eta)N^(-4/3) for every law with nonvanishing expected fixed-ratio sign-shell mass",
+    "wick_scale": "After amplitude scaling h_N=sqrt(3C_N)f_N, E_nu W_N=9C_N^2 E_nu delta_N=Omega_(alpha,eta)(N^(8/3)) when C_N=Theta(N^2)",
+    "fejer_boundary": "K1550 shows why expected sign change is insufficient: a law supported on translated localized Fejer bubbles can be nonconstant while both expected shell mass and defect vanish at order N^(-3)",
+    "scope_guard": "The lift is distribution-free after the pointwise theorem but still requires expected fixed-ratio shell mass; it is an interaction lower bound, not a Fisher/capacity computation or a claim about arbitrary nonconstant-sign laws"
+  },
+  "decision": {
+    "threshold_probability_bound_proved": true,
+    "expected_defect_floor_proved": true,
+    "expected_interaction_floor_N8over3_proved": true,
+    "fisher_cost_used": false,
+    "all_nonconstant_sign_laws_excluded": false,
+    "protected_status_change": false
+  }
+}

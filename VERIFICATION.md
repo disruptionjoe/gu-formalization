@@ -7,6 +7,24 @@ updated_at: "2026-10-08"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1548--K1553 universal sign-shell obstruction (2026-10-08)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Fixed ultraviolet sign-shell mass can coexist with one vanishing-volume sign phase | K1548 Parseval variance identity | false: `H>=eta` forces both sign phases to have volume at least `eta/4` |
+| An arbitrary fixed-shell texture can have normalized defect `O(N^-2)` | K1549 coarea, torus isoperimetry and `L4` Bernstein | false: every such texture has defect at least `c_eta N^(-4/3)` |
+| Every nonconstant sign field obeys the `N^(-4/3)` bound | K1550 product-Fejer bubble | false: a localized non-lamellar sign bubble has defect `Theta(N^-3)` and vanishing shell mass |
+| Randomizing textures evades the pointwise inverse theorem | K1551 threshold-probability lift | false under nonvanishing expected shell mass: expected defect remains `Omega(N^-4/3)` and interaction `Omega(N^(8/3))` |
+| The true cutoff ground energy can remain order `N^2` | K1552 K1538--K1541 composition | false: `E_N>=c_gN^(8/3)` for fixed `g>0` |
+| The `8/3` exponent is the ground-energy asymptotic | K1552 scope audit | not established: the known upper scale remains order `N^4` and no matching trial is constructed |
+| The advance closes GU physical admission | K1553 268-row bridge census | 189 satisfied, ten conditional, 65 excluded and four missing |
+
+The six producers pass `154/154` controls and six hostile probes reject
+`78/78` mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
+`0/7`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
+
 ## K1543--K1547 lamellar sign-texture obstruction (2026-10-08)
 
 | Claim | Evidence | Honest grade |

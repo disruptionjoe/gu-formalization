@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 49ee4211066d8656559e70ad8d381b35c5e719fa
+revision_basis: 6bba7a22c9f4e3c0ccacb8170b9a440544f3542c
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1548--K1553 close K1541's arbitrary three-dimensional fixed-shell
+    endpoint at a new quantitative scale. For every real degree-`N` field,
+    fixed-ratio sign-shell mass `H>=eta` forces both sign phases to occupy
+    macroscopic volume. Coarea, torus isoperimetry and the three-dimensional
+    `L4` Bernstein bound then give
+    `int(f_N^2-1)^2>=c_eta N^(-4/3)`. The theorem lifts to arbitrary laws with
+    nonvanishing expected shell mass, so amplitude scaling by
+    `sqrt(3C_N)` forces `E W_N=Omega(N^(8/3))`. Composed with K1538--K1541,
+    this raises the true finite-cutoff ground-energy lower boundary to
+    `E_N=Omega_g(N^(8/3))` and excludes every sub-`N^(8/3)` scalar
+    recentering in the fixed representation. A localized non-lamellar product
+    Fejer bubble has defect `Theta(N^-3)` but vanishing shell mass, proving
+    that phase balance is essential and that the `4/3` exponent is not claimed
+    sharp. The 268-row census is 189 satisfied, ten conditional, 65 excluded
+    and four missing; protected source, ledger, canon and public states do not
+    move.
+
     K1543--K1547 classify the exact one-coordinate lamellar sign class inside
     K1541's sign-texture escape. The odd Fourier partial sum of
     `sgn(sin t)` preserves its sign, is uniformly bounded and has the exact
@@ -14823,6 +14840,20 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1548--K1553 exclude every arbitrary three-dimensional fixed-shell texture
+  from an order-`N^2` trial and prove the first superquadratic ground-energy
+  floor `E_N=Omega_g(N^(8/3))`. Can the `N^(-4/3)` transition-defect bound be
+  sharpened using a stronger band-limited interface inequality, or can one
+  construct a phase-balanced fixed-shell texture matching a smaller exponent?
+  Only after the true ground-energy scale is bracketed should compactness and
+  Mosco liminf/recovery be tested after recentering by `E_N+O(1)`. Do not
+  promote the lower exponent to a matching asymptotic, transfer the localized
+  Fejer bubble to the fixed-shell class, or identify the cutoff control with a
+  source-owned GU Hamiltonian. In parallel, which gauge/Maxwell-dependent
+  spacetime, secondary-null or derivative/nonlocal estimate controls both
+  K1413 leakages, and which source-owned selector tuple can reopen physical
+  admission?
+
   K1543--K1547 exclude the exact one-coordinate lamellar square-wave sign class:
   its best Wick defect is `Omega(N^3)`, while nonvanishing fixed-ratio
   ultraviolet sign mass raises the cost to `Omega(N^4)`. Does an arbitrary
@@ -17262,6 +17293,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1548--K1553's exact hypotheses. Sharpen the phase-balanced
+  fixed-shell transition inequality beyond the current coarea plus `L4`
+  Bernstein exponent `N^(-4/3)`, or construct a fixed-shell texture proving a
+  smaller exponent is attainable. Then combine the resulting lower boundary
+  with a comparably scaled upper trial; only a bracket on the actual `E_N`
+  licenses true-ground-energy recentering, compactness and Mosco
+  liminf/recovery. Do not treat the `Theta(N^-3)` localized Fejer sign bubble
+  as a counterexample: its total nonconstant sign energy and every outer-shell
+  mass vanish. Independently, advance K1413 through a genuinely
+  gauge/Maxwell-dependent spacetime, secondary-null or derivative/nonlocal
+  estimate controlling both leakages, and supply the source-owned selector
+  tuple required by the admission frontier.
+
   Preserve K1543--K1547's family scope. Prove a quantitative inverse theorem
   for arbitrary three-dimensional band-limited `f_N` that controls
   fixed-ratio shell mass of `sgn(f_N)` by the normalized defect
