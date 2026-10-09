@@ -7,6 +7,24 @@ updated_at: "2026-10-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1606--K1610 separated mixtures and primitive holonomy (2026-10-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K1601's precision-Jensen width is the exact gain from finite mixing | K1606 posterior-score variance identity | false: the exact gain is the missing Fisher information `E Var(u_Z|X)`, generally smaller than the moment-sandwich width |
+| Fixed finite order-one covariance heterogeneity can change the profiled coefficient when components are macroscopically separated | K1606 Bhattacharyya bound plus K1607 mode-product theorem | false: pairwise overlap is `exp(-cN^3)`, the score prefactor is `O_g(N^4)`, and the class coefficient remains `h_g^prof` |
+| K1607 controls every order-one heterogeneous Gaussian mixture | K1607 scope audit | not established: fixed component count, centered stationary diagonal components and positive-density pairwise log-variance separation are load-bearing |
+| K1603's `W^{3,1}` electric-field condition is necessary for the K1598 amplitude budget | K1608 spectral-primitive theorem | false: `G=F/(i omega)` in `W^{2,1}` with endpoint vanishing gives `t^-2` holonomy decay and finite amplitude budgets |
+| The asymptotic flat holonomy must vanish | K1579 plus K1609 shifted normal form | false inside the declared adapted linear hierarchy: arbitrary static `a_infinity` is absorbed into the reference covariant energy |
+| The primitive theorem proves electric-field `L1` or a nonlinear source-owned flow | K1608--K1609 scope audit | not established: atom-free spectral representation, adapted hierarchy, integrable nonlinear remainder, coercivity and physical domain remain inputs |
+| The advance closes GU physical admission | K1610 325-row bridge census | 246 satisfied, ten conditional, 65 excluded and four missing |
+
+The five producers pass `110/110` controls and five hostile probes reject
+`79/79` mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
+`0/7`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
+
 ## K1601--K1605 heterogeneous mixtures and spectral dispersion (2026-10-09)
 
 | Claim | Evidence | Honest grade |

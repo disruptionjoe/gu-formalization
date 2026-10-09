@@ -7,6 +7,22 @@ updated_at: "2026-10-09"
 
 # Next Steps For Contributors
 
+> **2026-10-09 K1606--K1610 SEPARATED MIXTURES AND PRIMITIVE HOLONOMY
+> BUDGET.** Finite-mixture Fisher convexity loses exactly the posterior
+> component-score variance. Pairwise Bhattacharyya overlap makes that loss
+> exponentially small for a fixed finite family of centered stationary
+> diagonal Gaussians whose order-one covariance profiles differ on a positive
+> fraction of cutoff modes; this separated class retains coefficient
+> `h_g^prof`. Next control overlapping order-one profiles, a growing mixture,
+> or leave the Gaussian class through a global nonlinear Fisher/defect theorem.
+> On the PDE arc, two derivatives of the divided spectral density
+> `G=F/(i omega)` give an integrable `t^-2` holonomy remainder, while arbitrary
+> static asymptotic flat holonomy is absorbed into the reference covariant
+> energy. Next derive that atom-free primitive representation and the
+> integrable nonlinear remainder from a source-owned domain. Do not claim an
+> unrestricted coefficient, `E_h in L1`, nonlinear scattering, global
+> source-owned flow, or physical admission.
+
 > **2026-10-09 K1601--K1605 HETEROGENEOUS MIXTURES AND SPECTRAL
 > DISPERSION.** An arbitrary translated heterogeneous Gaussian mixture has
 > Fisher sandwich width

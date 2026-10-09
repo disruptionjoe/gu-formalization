@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1606",
+  "title": "Finite Gaussian mixtures have an exact posterior-score missing-information identity and Bhattacharyya bound",
+  "pinned_inputs": {
+    "k1533": {"path": "lab/process/k1533-relative-fisher-covariance-extremality.json", "sha256": "19ca4ef5d62a12111a2ebd678f1b7d7e8b82e2b0a0ee726852f5c6ae27d713cf"},
+    "k1601": {"path": "lab/process/k1601-heterogeneous-gaussian-mixture-fisher-sandwich.json", "sha256": "3b1b2d1deabd36b90ae33482f406ad8977d3390ff45a7bf25ed30d5ddb9e6ad9"}
+  },
+  "missing_information": {
+    "mixture": "Let nu=sum_(i=1)^M p_i nu_i with positive fixed finite M, component densities f_i relative to mu=N(0,I), component scores u_i=grad log f_i, mixture density f=sum_i p_i f_i and posterior weights w_i=p_i f_i/f.",
+    "score_identity": "The mixture score is u=sum_i w_i u_i. Therefore U-I_Omega(nu|mu)=E_nu[sum_i w_i |u_i-u|_Omega^2]=(1/2)sum_(i,j)E_nu[w_i w_j |u_i-u_j|_Omega^2], where U=sum_i p_i I_Omega(nu_i|mu).",
+    "pairwise_bound": "Since f>=2 sqrt(p_i p_j f_i f_j), the exact missing information obeys U-I_Omega(nu|mu)<=(1/2)sum_(i<j)sqrt(p_i p_j) int sqrt(f_i f_j)|u_i-u_j|_Omega^2 dmu.",
+    "gaussian_formula": "For nu_i=N(m_i,S_i), set A_ij=(S_i^(-1)+S_j^(-1))/2, H_ij=A_ij^(-1), h_ij=H_ij(S_i^(-1)m_i+S_j^(-1)m_j)/2, B_ij=S_j^(-1)-S_i^(-1), and b_ij=S_i^(-1)m_i-S_j^(-1)m_j. The pair integral equals BC_ij{Tr[B_ij^T Omega B_ij H_ij]+|B_ij h_ij+b_ij|_Omega^2}, where BC_ij=int sqrt(dnu_i dnu_j) is the Gaussian Bhattacharyya coefficient.",
+    "energy_identity": "Because the quartic potential is linear in the law, Q_N(nu)=sum_i p_i Q_N(nu_i)-(U-I_Omega(nu|mu))/4 for positive amplitudes with constant phase.",
+    "scope_guard": "This is exact for a fixed finite mixture with finite weighted score moments. Small overlap makes mixing gain small; the identity does not make overlap small and does not control a growing number of components, non-Gaussian components, phases, textures or nonstationary laws."
+  },
+  "decision": {
+    "posterior_score_identity_proved": true,
+    "exact_missing_information_identity_proved": true,
+    "pairwise_bhattacharyya_bound_proved": true,
+    "gaussian_pair_integral_closed_form": true,
+    "all_order_one_mixtures_controlled": false,
+    "unrestricted_leading_coefficient_identified": false,
+    "protected_status_change": false
+  }
+}

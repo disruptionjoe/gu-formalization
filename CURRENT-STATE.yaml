@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 7d64a84f739d8f95f39203a3325412963b370e92
+revision_basis: 87a37e47aa23d8ad959875204174929954b14af9
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1606--K1610 replace the coarse precision-Jensen gap by the exact missing
+    Fisher information of a finite mixture: posterior component-score
+    variance. A pairwise Bhattacharyya bound shows that any fixed finite family
+    of centered stationary diagonal Gaussian components whose order-one
+    covariance profiles differ on a positive fraction of the Theta(N^3)
+    cutoff modes has exponentially small mixing gain. K1572 then gives this
+    macroscopically separated class the same coefficient h_g^prof, crossing
+    K1602's shrinking-band restriction without controlling overlapping or
+    growing mixtures. Independently, applying two integrations by parts to
+    the divided spectral density G=F/(i omega) gives an integrable t^-2
+    holonomy remainder under G in W^{2,1}; an arbitrary static asymptotic flat
+    holonomy is absorbed into the background-adapted reference energy. The
+    resulting bare-energy and positive-radius bounds remain conditional on an
+    atom-free representation and integrable nonlinear remainder. The 325-row
+    census is 246 satisfied, ten conditional, 65 excluded and four missing;
+    protected source, ledger, canon and public states do not move.
+
     K1601--K1605 cross the common-covariance and zero-mode-location boundary
     for Gaussian mixtures. For arbitrary component covariances `S_z` and
     means `m_z`, Fisher convexity and K1533 leave the exact sandwich width
@@ -15035,6 +15052,20 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1606--K1607 prove that the exact gain from finite Gaussian mixing is
+  posterior score variance and that it is exponentially small for a fixed
+  finite family of macroscopically separated order-one covariance profiles.
+  Can one control macroscopically overlapping order-one components, a growing
+  mixture through entropy/packing, or genuinely non-Gaussian and nonstationary
+  laws? Only after the true `E_N+O(1)` shift is identified should compactness
+  and Mosco liminf/recovery be tested. Independently, K1608--K1609 replace the
+  `W^{3,1}` electric-field hypothesis and zero asymptotic holonomy by a
+  `W^{2,1}` condition on the spectral primitive plus an arbitrary static flat
+  reference holonomy. Can that primitive representation and the integrable
+  curvature/current/radial remainder be derived from one source-owned
+  nonlinear action/domain? The source-owned action/measure/Hamiltonian tuple
+  remains a separate gate.
+
   K1601--K1602 identify the exact precision-Jensen gap for arbitrary
   heterogeneous translated Gaussian mixtures and close only the shrinking
   relative band at coefficient `h_g^prof`. Can one control order-one
@@ -17614,6 +17645,21 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1606's exact distinction between component-average Fisher
+  information and posterior score missing information. Preserve K1607's fixed
+  component count, centered stationary diagonal components, fixed relative
+  profile band and positive-density pairwise log-variance separation. Do not
+  transfer its coefficient rigidity to overlapping order-one profiles,
+  growing mixtures, translations with uncontrolled score moments,
+  non-Gaussian laws, phases, textures or nonstationarity. Preserve K1608's
+  pure-point exclusion, support away from zero, `W^{2,1}` endpoint conditions
+  on `G=F/(i omega)` and explicit refusal to claim `E_h in L1`. Preserve
+  K1609's background-adapted and integrable-remainder hypotheses. Next control
+  the overlapping/growing mixture regime or leave Gaussian mixtures; for the
+  PDE, derive the primitive spectrum and remainders from a source-owned
+  nonlinear domain. Supply the source-owned selector tuple only from actual
+  action, carrier and observation data.
+
   Preserve K1601's distinction between an exact Fisher sandwich width and the
   unknown mixture Fisher information, and K1602's shrinking relative Loewner
   band, stationary diagonal component class and `o(N^4)` conclusion. Do not

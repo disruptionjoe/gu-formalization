@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1608",
+  "title": "Two derivatives of the spectral primitive give an integrable decaying holonomy remainder",
+  "pinned_inputs": {
+    "k1579": {"path": "lab/process/k1579-flat-connection-covariant-energy-cancellation.json", "sha256": "d1e970bf11cce046a027968589014b69bda18443a30fb2f04c3f1b813fd38c1a"},
+    "k1603": {"path": "lab/process/k1603-atomic-resonance-exclusion.json", "sha256": "4c2251cc742ff0caf915c16cc06a38e628df3342337fe8f08824414cb16bf140"}
+  },
+  "primitive_budget": {
+    "spectral_primitive": "Assume the pure-point harmonic-electric sector is absent and F_+,F_- are supported away from omega=0. For arbitrary constant flat holonomy a_infinity, write a(t)=a_infinity+tilde a(t), with G_+=iF_+/omega, G_-=F_-/(i omega), and tilde a(t)=int[e^(it omega)G_+(omega)+e^(-it omega)G_-(omega)]domega, so -partial_t tilde a=E_h.",
+    "weaker_hypothesis": "Require G_+,G_- in W^{2,1}, with their values and first derivatives zero at every support endpoint. This is a condition on the divided spectral density F/omega, not K1603's W^{3,1} condition on F.",
+    "decay": "Two integrations by parts give |tilde a(t)|<=t^(-2)B_G2 for t>=1, where B_G2=||G_+''||_1+||G_-''||_1; directly |tilde a(t)|<=B_G0=||G_+||_1+||G_-||_1.",
+    "budgets": "Therefore ||tilde a||_infinity<=B_G0, int_0^infinity|tilde a|dt<=B_G0+B_G2, and int_0^infinity|tilde a|^2dt<=B_G0(B_G0+B_G2). The oscillatory remainder tends to zero while a_infinity may be nonzero.",
+    "scope_guard": "The theorem controls the holonomy primitive required by the K1598 normal form. It does not prove E_h in L1, derive the atom-free representation from nonlinear dynamics, control curvature/current/radial remainders, or construct a source-owned flow."
+  },
+  "decision": {
+    "pure_point_exclusion_retained": true,
+    "primitive_w21_sufficient": true,
+    "holonomy_remainder_l1_proved": true,
+    "nonzero_asymptotic_flat_holonomy_allowed": true,
+    "electric_field_l1_proved": false,
+    "nonlinear_scattering_proved": false,
+    "protected_status_change": false
+  }
+}

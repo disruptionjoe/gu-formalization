@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1607",
+  "title": "Fixed finite macroscopically separated order-one covariance mixtures retain the profiled coefficient",
+  "pinned_inputs": {
+    "k1572": {"path": "lab/process/k1572-finite-cutoff-profiled-gaussian-minimizer.json", "sha256": "dcdce3de0f59d4f41985e81f575774d499e4a646e8aabde771aeefd2b125db4b"},
+    "k1606": {"path": "lab/process/k1606-gaussian-mixture-missing-information.json", "sha256": "7a704e092ac1d6020756550bdf9aa2cffdcb47bb64629121f752008420b7ce5b"}
+  },
+  "separated_class": {
+    "hypothesis": "Fix M independent of N. Each centered component is a stationary diagonal Gaussian with c_- S_N^*<=S_(N,i)<=c_+ S_N^* for fixed 0<c_-<=c_+<infinity. For every distinct pair, at least delta d_N cutoff modes satisfy |log(s_(i,k)/s_(j,k))|>=kappa for fixed delta,kappa>0.",
+    "overlap_decay": "For centered commuting Gaussians, BC_ij=product_k[2 sqrt(s_(i,k)s_(j,k))/(s_(i,k)+s_(j,k))]^(1/2). Each separated mode contributes at most q_kappa=sqrt(sech(kappa/2))<1, hence BC_ij<=q_kappa^(delta d_N)=exp[-c_(delta,kappa)d_N].",
+    "prefactor": "The K1606 score-polynomial factor is Tr[Omega B_ij H_ij B_ij]=sum_k 2 omega_k(s_(i,k)-s_(j,k))^2/[s_(i,k)s_(j,k)(s_(i,k)+s_(j,k))]. The fixed relative band around S_N^* bounds it by C_(c_-,c_+)Tr[Omega(S_N^*)^(-1)]=O_g(N^4).",
+    "mixing_gain": "With M fixed, K1606 gives 0<=sum_i p_i Q_N(nu_i)-Q_N(nu)<=C_(g,M,c_-,c_+,delta,kappa)N^4 exp(-cN^3)=o(1), because d_N=Theta(N^3).",
+    "coefficient": "K1572 bounds every admitted stationary diagonal Gaussian component below by lambda_N^prof, while the class contains the profiled Gaussian. Therefore inf Q_N(nu)=lambda_N^prof-o(1) and inf Q_N(nu)/N^4->h_g^prof.",
+    "scope_guard": "This crosses the shrinking-band restriction only for fixed finite centered mixtures whose distinct covariance components are macroscopically separated. Overlapping order-one components, M growing with N, translations with uncontrolled score moments, non-Gaussian components, phases, textures and nonstationarity remain open."
+  },
+  "decision": {
+    "order_one_covariance_heterogeneity_allowed": true,
+    "macroscopic_pairwise_separation_required": true,
+    "fixed_component_count_required": true,
+    "mixing_gain_exponentially_small": true,
+    "class_coefficient_h_g_prof": true,
+    "overlapping_order_one_class_controlled": false,
+    "unrestricted_leading_coefficient_identified": false,
+    "protected_status_change": false
+  }
+}

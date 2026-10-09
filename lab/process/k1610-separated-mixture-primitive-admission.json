@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1610",
+  "title": "Separated-mixture and primitive-budget protected admission replay",
+  "pinned_inputs": {
+    "k1606": {"path": "lab/process/k1606-gaussian-mixture-missing-information.json", "sha256": "7a704e092ac1d6020756550bdf9aa2cffdcb47bb64629121f752008420b7ce5b"},
+    "k1607": {"path": "lab/process/k1607-separated-heterogeneity-coefficient-rigidity.json", "sha256": "9b0590f357c09e49394c593b5f777cea3c50fc655fbb387e52e7a8dca804a3f6"},
+    "k1608": {"path": "lab/process/k1608-spectral-primitive-holonomy-budget.json", "sha256": "908710bceb9bd630e1986e92b5f200075875382e627869beb58dc4d8382e3ce1"},
+    "k1609": {"path": "lab/process/k1609-primitive-radius-composition.json", "sha256": "23249e87a264fb0b0141719d6d97b50cb988bb2eedf2668c8e2a711eca39ca02"}
+  },
+  "bridge_census": {
+    "row_count": 325,
+    "satisfied_count": 246,
+    "conditional_count": 10,
+    "excluded_count": 65,
+    "missing_count": 4,
+    "new_satisfied_rows": [
+      "K1606 exact Gaussian-mixture missing-information identity and overlap bound",
+      "K1607 fixed finite separated order-one covariance coefficient rigidity",
+      "K1608 spectral-primitive holonomy budget with two derivatives",
+      "K1609 shifted bare-energy and adapted-radius composition",
+      "K1610 protected admission replay"
+    ],
+    "protected_missing_rows": [
+      "source-selected action/measure/Hamiltonian",
+      "interacting positive physical quotient",
+      "observed carrier/intertwiner",
+      "held-out prediction or confirmation"
+    ]
+  },
+  "protected_state": {
+    "source_claims": "SC-ACT-01/02/06 remain ASSERTS; SC-META-53 remains UNCERTAIN",
+    "physics_ledger": "33 SAME / 22 DIFFERS / 31 NEEDS / 2 OVER-DETERMINED",
+    "candidate_counts": "K1145 and K1150 remain 0/7",
+    "canon_change": false,
+    "paper_change": false,
+    "prediction_or_confirmation": false,
+    "public_posture_change": false
+  },
+  "decision": {
+    "conditional_mathematical_advance": true,
+    "missing_information_identity_proved": true,
+    "separated_order_one_mixture_coefficient_rigid": true,
+    "primitive_spectral_budget_weakened": true,
+    "nonzero_asymptotic_flat_holonomy_allowed": true,
+    "overlapping_or_growing_mixture_class_controlled": false,
+    "unrestricted_leading_coefficient_identified": false,
+    "electric_field_l1_proved_under_primitive_hypothesis": false,
+    "global_positive_radius_flow": false,
+    "source_owned_hamiltonian": false,
+    "protected_status_change": false
+  }
+}

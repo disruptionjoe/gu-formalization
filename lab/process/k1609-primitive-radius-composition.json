@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1609",
+  "title": "The shifted bare-energy normal form and adapted radius close under the primitive spectral budget",
+  "pinned_inputs": {
+    "k1579": {"path": "lab/process/k1579-flat-connection-covariant-energy-cancellation.json", "sha256": "d1e970bf11cce046a027968589014b69bda18443a30fb2f04c3f1b813fd38c1a"},
+    "k1598": {"path": "lab/process/k1598-unequal-mode-bare-energy-normal-form.json", "sha256": "0897e71746b7866da2d6a2e9012e6a80e7ca91c9f9688fba59e973f7a554a539"},
+    "k1608": {"path": "lab/process/k1608-spectral-primitive-holonomy-budget.json", "sha256": "908710bceb9bd630e1986e92b5f200075875382e627869beb58dc4d8382e3ce1"}
+  },
+  "primitive_composition": {
+    "shifted_normal_form": "Put q_(sigma,k)=k-sigma e a_infinity and define E_infinity with |q_(sigma,k)|^2. Repeating K1598 with tilde a=a-a_infinity gives exactly E_infinity=H_a+e tilde a dot D_infinity-(e^2/2)|tilde a|^2M and E_infinity'=e tilde a dot D_infinity'-(e^2/2)|tilde a|^2M'.",
+    "bare_energy": "The same mass estimate gives |E_infinity'|<=[2|e||tilde a|+(e^2/m)|tilde a|^2]E_infinity. With B_a=B_G0+B_G2 and B_a2=B_G0 B_a, E_infinity(t)<=E_infinity(0)exp(2|e|B_a+(e^2/m)B_a2).",
+    "adapted_radius": "Assume the harmonic-adapted hierarchy has B_A(t)<=|e||tilde a(t)|+R(t), with B_R=int R<infinity. K1573 then gives rho_infinity>=rho_0-(C_m/4)(|e|B_a+B_R).",
+    "positive_budget": "The explicit condition (C_m/4)(|e|(B_G0+B_G2)+B_R)<rho_0 preserves a positive limiting analytic radius while arbitrary static a_infinity is absorbed into the reference covariant energy.",
+    "scope_guard": "This is conditional on the atom-free primitive representation, the adapted hierarchy, and integrable nonlinear remainder R. It proves neither E_h in L1 nor nonlinear/source-owned global dynamics, coercivity, physical quotient or continuation."
+  },
+  "decision": {
+    "shifted_normal_form_proved": true,
+    "static_asymptotic_holonomy_absorbed": true,
+    "bare_energy_uniform_bound_proved_conditionally": true,
+    "positive_limiting_radius_proved_conditionally": true,
+    "electric_l1_required": false,
+    "curvature_current_remainders_derived": false,
+    "source_owned_global_flow_constructed": false,
+    "protected_status_change": false
+  }
+}
