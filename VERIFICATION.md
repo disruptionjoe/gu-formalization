@@ -7,6 +7,27 @@ updated_at: "2026-10-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1586--K1590 residual Ritz scale and harmonic orbit (2026-10-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K1581's residual has no quantitative cutoff scale | K1586 exact chaos identity plus K1587 positive Fourier convolution count | false: its norm is `Theta_g(N^(5/2))` |
+| The residual's second Ritz diagonal can destroy the quantitative descent | K1587 ground-state transform and degree-four hypercontractivity | false at the scale needed: `|delta_N|=O_g(N^(5/2))` |
+| The profiled Gaussian can recenter the unrestricted bottom to bounded error | K1588 translation-invariant Ritz trial | false: its gap above `E_N` is at least `c_gN^(5/2)` |
+| The Ritz result changes the unrestricted leading coefficient | K1587--K1588 scope audit | not established: `N^(5/2)=o(N^4)` |
+| The result decides compactness or Mosco limits after the true ground shift | K1588 scope audit | not established: `E_N+O(1)` remains unidentified |
+| Positive conserved energy and Gauss neutrality imply integrable harmonic electric field | K1589 exact two-species periodic orbit | false generically: `|E_bar|=A Omega>0` for all time |
+| The periodic orbit excludes every global positive-radius mechanism | K1589 scope audit | not established: dispersive, one-species and cancellation-based routes remain open |
+| The advance closes GU physical admission | K1590 305-row bridge census | 226 satisfied, ten conditional, 65 excluded and four missing |
+
+The five producers pass `111/111` controls and five hostile probes reject
+`70/70` mutations. The analytic chaos, convolution and exact-orbit arguments
+carry the mathematical claims; the scripts check formulas, report consistency
+and hostile ceiling mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53
+remains `UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and
+K1145/K1150 stay `0/7`. No source, ledger, canon, paper, prediction,
+confirmation or public status moves.
+
 ## K1581--K1585 negative defect and evolving holonomy (2026-10-09)
 
 | Claim | Evidence | Honest grade |

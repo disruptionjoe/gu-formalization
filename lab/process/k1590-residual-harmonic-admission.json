@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1590",
+  "title": "Residual-Ritz scaling and harmonic-orbit protected admission replay",
+  "pinned_inputs": {
+    "k1586": {"path": "lab/process/k1586-profiled-gaussian-residual-chaos.json", "sha256": "6fc2bbeaf178d5952612b88962b80c18f50db7627294bc79177f524d373c93d2"},
+    "k1587": {"path": "lab/process/k1587-profiled-residual-ritz-scaling.json", "sha256": "0ddf9246d44b69c4fca15ea3adaf5d48678300e143b7b1bba110ac38ac8dde9c"},
+    "k1588": {"path": "lab/process/k1588-profiled-bounded-recentering-exclusion.json", "sha256": "339ccb6e4f9e02516956870eff8dd922ead5f727c786166364d6c9b73fd7f445"},
+    "k1589": {"path": "lab/process/k1589-periodic-harmonic-electric-counterexample.json", "sha256": "e9b453d768125ff55fb115b5090eae31b787896970f3fbcae46b248cb059ae24"}
+  },
+  "bridge_census": {
+    "row_count": 305,
+    "satisfied_count": 226,
+    "conditional_count": 10,
+    "excluded_count": 65,
+    "missing_count": 4,
+    "new_satisfied_rows": [
+      "K1586 exact profiled third/fourth residual chaos",
+      "K1587 N^(5/2) residual and Ritz-gap scale",
+      "K1588 profiled-Gaussian bounded-recentering exclusion",
+      "K1589 energy-only harmonic-electric integrability exclusion",
+      "K1590 protected admission replay"
+    ],
+    "protected_missing_rows": [
+      "source-selected action/measure/Hamiltonian",
+      "interacting positive physical quotient",
+      "observed carrier/intertwiner",
+      "held-out prediction or confirmation"
+    ]
+  },
+  "protected_state": {
+    "source_claims": "SC-ACT-01/02/06 remain ASSERTS; SC-META-53 remains UNCERTAIN",
+    "physics_ledger": "33 SAME / 22 DIFFERS / 31 NEEDS / 2 OVER-DETERMINED",
+    "candidate_counts": "K1145 and K1150 remain 0/7",
+    "canon_change": false,
+    "paper_change": false,
+    "prediction_or_confirmation": false,
+    "public_posture_change": false
+  },
+  "decision": {
+    "conditional_mathematical_advance": true,
+    "residual_ritz_scale_proved": true,
+    "profiled_bounded_recentering_excluded": true,
+    "energy_only_harmonic_integrability_excluded": true,
+    "unrestricted_leading_coefficient_identified": false,
+    "true_ground_bounded_recentering_decided": false,
+    "nonlinear_global_flow": false,
+    "source_owned_hamiltonian": false,
+    "protected_status_change": false
+  }
+}

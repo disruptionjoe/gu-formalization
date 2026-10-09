@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1587",
+  "title": "The profiled residual Ritz descent is uniformly of order N to the five-halves",
+  "pinned_inputs": {
+    "k1586": {"path": "lab/process/k1586-profiled-gaussian-residual-chaos.json", "sha256": "6fc2bbeaf178d5952612b88962b80c18f50db7627294bc79177f524d373c93d2"},
+    "k1572": {"path": "lab/process/k1572-finite-cutoff-profiled-gaussian-minimizer.json", "sha256": "dcdce3de0f59d4f41985e81f575774d499e4a646e8aabde771aeefd2b125db4b"}
+  },
+  "ritz_scaling": {
+    "covariance_counting": "For fixed g>0, K1572 gives kappa_(g,N)^+/N^2->kappa_g>0 and h_N^2=Theta_g(N^2). The covariance coefficients a_(N,k)=[2 sqrt(omega_k^2+kappa_(g,N)^+)]^(-1) are Theta_g(N^(-1)) on a fixed positive fraction of cutoff modes and O_g(N^(-1)) uniformly.",
+    "convolution_scales": "Positive Fourier convolution counting gives int Gamma_N^3=Theta_g(N^3) and int Gamma_N^4=Theta_g(N^5): there are Theta(N^6) admissible triples and Theta(N^9) admissible quadruples in fixed interior mode boxes, with matching full-box upper counts.",
+    "residual_scale": "K1586 therefore yields sigma_N^2=Theta_g(N^5) and sigma_N=Theta_g(N^(5/2)).",
+    "second_diagonal": "For u_N=R_NG_N/sigma_N and delta_N=<u_N,(H_N-lambda_N)u_N>, the Gaussian ground-state transform bounds the degree-at-most-four Dirichlet part by O_g(N). Finite-chaos hypercontractivity gives |E(R_N^3)|/sigma_N^2<=C sigma_N. Hence |delta_N|=O_g(N^(5/2)).",
+    "ritz_gap": "The exact two-dimensional gap is Delta_N=[sqrt(delta_N^2+4 sigma_N^2)-delta_N]/2. Since sigma_N=Theta_g(N^(5/2)) and |delta_N|<=C_g sigma_N, Delta_N=Theta_g(N^(5/2)).",
+    "coefficient_ceiling": "The Ritz improvement diverges but is o(N^4). It proves a quantitative subleading descent from the profiled Gaussian and does not decide whether the unrestricted N^4 coefficient equals or lies below h_g^prof.",
+    "scope_guard": "Constants may depend on fixed positive g, mass, torus and cutoff convention. No unrestricted matching lower bound, exact subleading coefficient, localization, compactness or Mosco recovery is proved."
+  },
+  "decision": {
+    "covariance_convolution_scales_proved": true,
+    "residual_norm_n_five_halves": true,
+    "ritz_second_diagonal_controlled": true,
+    "ritz_gap_n_five_halves": true,
+    "leading_n_four_coefficient_changed": false,
+    "protected_status_change": false
+  }
+}

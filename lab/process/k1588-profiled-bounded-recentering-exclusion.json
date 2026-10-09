@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1588",
+  "title": "The profiled Gaussian energy cannot recenter the unrestricted bottom to bounded error",
+  "pinned_inputs": {
+    "k1577": {"path": "lab/process/k1577-wick-dominant-profiled-coefficient.json", "sha256": "7c63f47ee2d29eb2295c50aafa37e1085dec0d3f4d8b3676b56c90348c099e27"},
+    "k1587": {"path": "lab/process/k1587-profiled-residual-ritz-scaling.json", "sha256": "0ddf9246d44b69c4fca15ea3adaf5d48678300e143b7b1bba110ac38ac8dde9c"}
+  },
+  "bounded_recentering": {
+    "gaussian_bottom": "Let lambda_N^prof be K1572's exact finite-cutoff stationary diagonal Gaussian minimum and E_N the unrestricted translation-invariant bottom.",
+    "diverging_gap": "K1587 supplies an admissible translation-invariant Ritz vector with energy lambda_N^prof-Theta_g(N^(5/2)); therefore lambda_N^prof-E_N>=c_g N^(5/2) eventually.",
+    "recentering_exclusion": "For every a_N=lambda_N^prof+o(N^(5/2)), and in particular a_N=lambda_N^prof+O(1), inf spec(H_N-a_N)->-infinity. The profiled Gaussian energy is not a bounded-error recentering of the unrestricted theory.",
+    "class_compatibility": "K1577 remains exact on T_N^+: the Ritz vector necessarily exits the nonnegative integrated Wick-defect class opened by K1582. The new result separates exact class coefficient from unrestricted subleading behavior without contradicting class rigidity.",
+    "leading_limit_open": "Because N^(5/2)=o(N^4), the descent is compatible both with E_N/N^4->h_g^prof and with a strictly smaller unrestricted coefficient. The true-ground shift E_N+O(1), its compactness and Mosco liminf/recovery remain open.",
+    "scope_guard": "This excludes bounded-error recentering by the profiled Gaussian value, not bounded-error recentering by the unknown true E_N. It is not a spectrum, resolvent or continuum interacting-operator theorem."
+  },
+  "decision": {
+    "profiled_gaussian_gap_diverges": true,
+    "profiled_bounded_error_recentering_excluded": true,
+    "wick_dominant_class_theorem_preserved": true,
+    "unrestricted_leading_coefficient_identified": false,
+    "true_ground_bounded_recentering_decided": false,
+    "protected_status_change": false
+  }
+}

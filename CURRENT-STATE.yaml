@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 0df02de1625ec0efecdbd6f43c9266a006cdf3c9
+revision_basis: e919d59e7893f04aa811c1b3ee4468d34ff182e2
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,26 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1586--K1590 quantify the profiled Gaussian residual and close one
+    bounded-error interpretation without promoting the result to a leading
+    coefficient theorem. Mean/covariance stationarity cancels chaos orders
+    zero through two, leaving exactly
+    `g int[:eta^4:+4h:eta^3:]`. Positive Fourier convolution counting gives
+    residual norm `Theta_g(N^(5/2))`; a Gaussian ground-state transform and
+    finite-chaos hypercontractivity bound the second Ritz diagonal on the same
+    scale, so the exact Ritz descent is `Theta_g(N^(5/2))`. It diverges but is
+    `o(N^4)`: the unrestricted leading coefficient remains open, while every
+    profiled-Gaussian `+o(N^(5/2))` shift, including `O(1)`, has bottom tending
+    to minus infinity. Recentring by the unknown true `E_N+O(1)` remains open.
+    Independently, an exact Gauss-neutral two-species homogeneous
+    Maxwell--Klein--Gordon orbit has finite conserved energy and constant
+    nonzero harmonic-electric magnitude, so its holonomy total variation
+    diverges linearly. Energy and Gauss neutrality alone cannot prove K1584's
+    `L1_t` budget; dispersion, homogeneous-mode exclusion or a cancellation
+    not spending total variation is required. The 305-row census is 226
+    satisfied, ten conditional, 65 excluded and four missing; protected
+    source, ledger, canon and public states do not move.
+
     K1581--K1585 prove that the profiled stationary Gaussian is not the true
     finite-cutoff translation-invariant minimizer and isolate the exact local
     obstruction to extending K1577 by linear Fisher compensation. For every
@@ -14957,6 +14977,19 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1586--K1590 prove that the profiled Gaussian sits
+  `Theta_g(N^(5/2))` above an explicit unrestricted Ritz trial. The gap rules
+  out bounded-error recentering by the Gaussian value but is too small to
+  decide the `N^4` coefficient. Can a global nonlinear Fisher/negative-defect
+  lower bound match this subleading scale or a new construction change the
+  leading coefficient, and can compactness plus Mosco liminf/recovery be
+  proved only after recentering by the true `E_N+O(1)`? Independently, a
+  neutral periodic coupled orbit excludes energy-only `L1_t` control of the
+  harmonic electric field. Can dispersion or homogeneous-mode exclusion make
+  the remainder integrable, or can a normal-form/spacetime cancellation keep
+  positive analytic radius without spending total variation? The source-owned
+  action/measure/Hamiltonian tuple remains a separate gate.
+
   K1581--K1585 prove strict non-Gaussian descent from every finite-cutoff
   profiled Gaussian and exclude a local linear Fisher payment for negative
   integrated Wick defect, but give no cutoff-uniform gap. Can the residual
@@ -17479,6 +17512,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1586--K1590's fixed positive coupling, larger-root stationary
+  diagonal Gaussian, cube cutoff and two-species counterexample scope. Use a
+  global nonlinear Fisher/negative-defect inequality or a new admissible trial
+  to decide the unrestricted `N^4` coefficient; do not mistake the
+  `Theta_g(N^(5/2))` Ritz gap for a coefficient change or for true-ground
+  bounded-error recentering. Separately, do not seek `L1_t` harmonic-electric
+  control from conserved energy and Gauss neutrality alone. Add a dispersive
+  hypothesis that excludes the homogeneous periodic orbit, or construct a
+  cancellation-based hierarchy whose radius does not spend
+  `int|E_bar|`. Supply the source-owned selector tuple only from actual action,
+  carrier and observation data.
+
   Preserve K1581--K1585's finite-cutoff and local-tangent ceilings. Estimate
   both entries of the residual Ritz matrix uniformly, or prove a genuinely
   global nonlinear Fisher/negative-defect inequality, before claiming an

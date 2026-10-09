@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1589",
+  "title": "A neutral coupled periodic orbit excludes energy-only harmonic-electric integrability",
+  "pinned_inputs": {
+    "k1583": {"path": "lab/process/k1583-moving-holonomy-energy-identity.json", "sha256": "5d972c264a1dc89d5b880c7a5da4ba5f13e759c7f554ff67612de7fc45be3daa"},
+    "k1584": {"path": "lab/process/k1584-harmonic-oscillatory-radius-budget.json", "sha256": "ebc8464e392748aa7c69021dfddfd1da24e338df8dd5f805919b4ade4fe606eb"}
+  },
+  "periodic_orbit": {
+    "model": "Use the spatially homogeneous torus sector of Maxwell--Klein--Gordon with two equal-mass complex scalars phi_+ and phi_- of charges +e and -e, temporal gauge, and the symmetric half-normalized matter Lagrangian. The reduced equations are phi_sigma''+(m^2+e^2|a|^2)phi_sigma=0 and a''+e^2(|phi_+|^2+|phi_-|^2)a=0, with Gauss density e Im(conj(phi_+)phi_+')-e Im(conj(phi_-)phi_-').",
+    "exact_solution": "For A,R>0 set Omega=sqrt(2)eR, omega=sqrt(m^2+e^2A^2), a(t)=A(cos(Omega t),sin(Omega t),0), and phi_+(t)=phi_-(t)=R exp(i omega t). Then |a| and both scalar amplitudes are constant, and the displayed equations hold exactly.",
+    "gauss_neutrality": "The two scalar phases are identical while their charges are opposite, so their Gauss densities cancel pointwise. The spatial currents add and provide the centripetal Maxwell current required by a''=-2e^2R^2 a.",
+    "nonintegrable_harmonic_electric": "The harmonic electric field is E_bar=-a' and has constant magnitude A Omega>0. Thus int_0^T |E_bar(t)|dt=A Omega T and the holonomy total variation diverges linearly although the exact reduced Hamiltonian is constant and finite.",
+    "obstruction": "Positive conserved energy plus Gauss neutrality and the coupled Maxwell current structure do not imply the L1_t harmonic-electric hypothesis used in K1584. A global radius proof must use additional dispersion, exclusion of the homogeneous charged sector, damping/scattering, or a cancellation/normal form that does not spend total variation.",
+    "scope_guard": "This is a two-species charge-neutral counterexample to an energy-only generic implication. It does not prove failure for every one-species constrained model, exclude dispersive small-data results, or disprove a cancellation-based positive-radius theorem."
+  },
+  "decision": {
+    "exact_coupled_periodic_orbit": true,
+    "gauss_neutral": true,
+    "finite_conserved_energy": true,
+    "harmonic_electric_l1_infinite": true,
+    "energy_only_integrability_excluded": true,
+    "all_global_pde_closure_excluded": false,
+    "protected_status_change": false
+  }
+}

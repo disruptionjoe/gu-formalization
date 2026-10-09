@@ -7,6 +7,22 @@ updated_at: "2026-10-09"
 
 # Next Steps For Contributors
 
+> **2026-10-09 K1586--K1590 RESIDUAL RITZ SCALE AND HARMONIC ORBIT.** The
+> profiled Gaussian residual is exactly
+> `g int[:eta^4:+4h:eta^3:]`. Fourier convolution counting gives norm
+> `Theta_g(N^(5/2))`; the second Ritz diagonal is controlled on the same scale,
+> so the exact descent is also `Theta_g(N^(5/2))`. This excludes bounded-error
+> recentering by the profiled Gaussian value but is `o(N^4)` and does not decide
+> the unrestricted leading coefficient or true-ground `E_N+O(1)` behavior.
+> Next prove a global nonlinear Fisher/negative-defect lower bound or construct
+> a trial that changes the coefficient. On the PDE arc, an exact Gauss-neutral
+> two-species periodic Maxwell--Klein--Gordon orbit has finite conserved energy
+> and constant nonzero harmonic-electric magnitude. Energy and neutrality alone
+> cannot supply `L1_t` holonomy variation. Next add dispersion or homogeneous-
+> mode exclusion, or find a cancellation whose radius budget does not spend
+> total variation. Do not claim a universal one-species no-go, completed flow
+> or source-owned GU Hamiltonian.
+
 > **2026-10-09 K1581--K1585 NEGATIVE DEFECT AND EVOLVING HOLONOMY.** Every
 > nondegenerate profiled Gaussian has a nonzero quartic Hamiltonian residual,
 > so its exact residual Ritz compression strictly lowers the finite-cutoff

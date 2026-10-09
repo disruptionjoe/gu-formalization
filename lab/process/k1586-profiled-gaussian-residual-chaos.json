@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1586",
+  "title": "The profiled Gaussian Hamiltonian residual is exactly third plus fourth chaos",
+  "pinned_inputs": {
+    "k1572": {"path": "lab/process/k1572-finite-cutoff-profiled-gaussian-minimizer.json", "sha256": "dcdce3de0f59d4f41985e81f575774d499e4a646e8aabde771aeefd2b125db4b"},
+    "k1581": {"path": "lab/process/k1581-profiled-gaussian-residual-descent.json", "sha256": "2c6fe1b97b721e09f94d02a2761118379de035d14909114af536bc26d42bd98a"}
+  },
+  "residual_chaos": {
+    "setting": "Let G_N be K1572's larger-root stationary diagonal Gaussian, write phi=h_N+eta, let Gamma_N be eta's translation-invariant covariance and v_N=Gamma_N(0). Wick polynomials below are relative to this Gaussian covariance.",
+    "stationary_cancellation": "The free logarithmic quotient is affine-quadratic. Stationarity in h_N and every diagonal covariance parameter cancels the constant, first and second Gaussian-chaos projections of (H_N-lambda_N)G_N/G_N.",
+    "exact_residual": "The remaining normalized-density quotient is R_N=g int_T3 [:eta(x)^4:_(Gamma_N)+4 h_N :eta(x)^3:_(Gamma_N)] dx, and (H_N-lambda_N)G_N=R_N G_N.",
+    "orthogonal_norm": "Third and fourth Gaussian chaoses are orthogonal, so sigma_N^2=||R_N G_N||^2=g^2[96 h_N^2 int_T3 Gamma_N(z)^3 dz+24 int_T3 Gamma_N(z)^4 dz].",
+    "positivity": "The Fourier coefficients of Gamma_N are positive. Both convolution sums are nonnegative, the fourth-chaos term is strictly positive, and the residual is nonzero without appealing only to polynomial degree.",
+    "scope_guard": "This exact identity is for the finite-cutoff stationary diagonal profiled Gaussian. It does not identify the unrestricted ground state, prove a matching lower coefficient, or transfer to a source-owned Hamiltonian."
+  },
+  "decision": {
+    "low_chaos_projections_cancel": true,
+    "third_fourth_residual_exact": true,
+    "orthogonal_norm_identity": true,
+    "residual_nonzero": true,
+    "unrestricted_ground_state_identified": false,
+    "protected_status_change": false
+  }
+}
