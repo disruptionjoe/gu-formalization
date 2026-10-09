@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "artifact_type": "source_argument_adjudication_and_draft_validation_receipt",
+  "verified_at_utc": "2026-10-08T17:09:04.158141+00:00",
+  "base_revision": "be2d2978a11517e6b22068d9918aac88756fdf3d",
+  "upstream_evidence_review": {
+    "revision": "d8a6612152caeff9b850d910849080c975e670a8",
+    "scope": "K1493-K1497 polynomial Wick-Krylov tower; no source-native GU positivity transfer supplied."
+  },
+  "owner": "explorations/nguyen-gu-critique/section-3-1-end-to-end-assessment-2026-10-08.md",
+  "paper": "papers/drafts/complex-gauge-unitarity/README.md",
+  "adjudication": {
+    "literal_complexification_implication": "too strong in the cited Chern-Simons quantization setting",
+    "charitable_yang_mills_reading": "conditional unbounded-energy obstruction for the stated real ordinary Yang-Mills action; not rebutted by Chern-Simons",
+    "gu_application": "neither Yang-Mills negative-mode premise nor positive Chern-Simons physical transfer is established",
+    "rebuttal_correction": "scope correction survives; a complete answer to GU-specific positivity does not follow",
+    "next_substantive_result": "a specified physical sector and map excluding the negative family, with compatible dynamics, interactions, observed energy and common domain; real-only candidate still requires pure-base Hessian and remaining metric constraints",
+    "selected_native_action": "independent direct calculation proves two-sided classical quadratic energy on the selected curved I1B compact phase core, both coupling branches; no universal GU no-go"
+  },
+  "scientific_grades": {
+    "yang_mills_gauss_family": "elementary analytic proof for declared comparator",
+    "realified_complex_bilinear_form": "elementary analytic split-signature proof",
+    "positive_pairing_control": "elementary exact matrix identity and countercontrol",
+    "residual_square_hessian": "elementary second-variation identity at zero residual",
+    "witten_quantization": "imported primary-source construction; heuristic selection of formulas distinguished from the theorem for the defined parameter-space connection",
+    "gu_positivity": "unresolved; no physical Hamiltonian or interacting quantum construction",
+    "selected_curved_I1B": "conditional exact/analytic primary reduction and compact-core two-sided quadratic energy; coefficient witnesses independently implemented",
+    "real_only_candidate": "exact nonlinear bosonic fixed-set restriction and primary Schur action; physical energy and source selection unproved"
+  },
+  "primary_source_review": {
+    "response": "Response_Geometric_Unity.pdf, pp1-6 and 8-10; February 23, 2021",
+    "gu": "Geometric_Unity-Draft-April-1st-2021.pdf, pp23-24, 28-29, 41-51; equations 9.4, 9.7, 9.11-9.15; April 1, 2021",
+    "chronology": "Later GU formulas used for current applicability, not attributed to the earlier reviewed talk",
+    "witten_and_bar_natan_witten": "lab/sources/witten-noncompact-quantization-source-audit-2026-10-08.json",
+    "source_hashes": "All six original pack PDFs/targets plus both reinspection entries match recorded bytes and SHA256",
+    "journal_formula_locators_verified": false,
+    "journal_metadata_verified": true
+  },
+  "focused_runs": [
+    {
+      "command": "uv run --no-project --with sympy==1.14.0 python -B tests/channel-swings/native_zorro_geometry_probe.py",
+      "exit_code": 0,
+      "checks_passed": 10,
+      "checks": [
+        "connection is torsion free in every coordinate pair",
+        "connection is metric in all fourteen directions",
+        "curvature is metric-skew in all ninety-one two-planes",
+        "Ricci tensor is symmetric",
+        "full curvature satisfies every algebraic first Bianchi identity",
+        "rational frame has the selected K77 signature",
+        "constant rescaling cancels in the base Levi-Civita coefficient",
+        "moving the fibre point retains the separate minus-eight density derivative",
+        "vertical traceless plane has sectional curvature minus one half",
+        "horizontal and trace Ricci eigenvalue is one quarter, traceless is minus five quarters"
+      ],
+      "scope": "Canonical connection-metric reconstruction only; source uniqueness, stationary I1B background and physical domain not established."
+    },
+    {
+      "command": "uv run --no-project --with sympy==1.14.0 python -B tests/channel-swings/native_zorro_i1b_probe.py",
+      "exit_code": 0,
+      "checks_passed": 16,
+      "checks": [
+        "spin curvature induces every full tangent curvature matrix",
+        "complete I1B curvature forcing has only fourteen grade-one rows",
+        "direct Shiab contraction equals the separately computed negative Einstein endomorphism",
+        "zero distortion is not stationary on the canonical curved geometry",
+        "parallel radial distortion cannot cancel unequal curvature forcing",
+        "horizontal, vertical-traceless and vertical-trace projectors resolve identity",
+        "sum of the three fields is the covariantly parallel solder form",
+        "derivative Euler forcing is confined to Clifford grade two",
+        "derivative forcing annihilates the common radial coefficient",
+        "all invariant grade-one derivative equations force equal coefficients",
+        "two explicit normal equations independently have rank two",
+        "curvature, cubic and mass cannot cancel the two necessary bivector equations",
+        "every radial cubic normal row is 312 and every radial mass row is one",
+        "observation-invisible rank-one carriers have opposite Hodge norms",
+        "rank-one invisible fields have identically zero cubic term",
+        "grade-one derivative witnesses have even Clifford parity after Shiab"
+      ],
+      "scope": "Canonical reconstructed geometry; necessary full I1B distortion equations only; no physical-state or Hamiltonian construction."
+    },
+    {
+      "command": "uv run --no-project --with sympy==1.14.0 python -B tests/channel-swings/nguyen_lean_coefficients_probe.py",
+      "exit_code": 0,
+      "checks_passed": 5,
+      "checks": [
+        "direct action matches Lean necessary polynomial 1",
+        "direct action matches Lean necessary polynomial 2",
+        "direct action matches Lean necessary polynomial 3",
+        "direct action matches Lean necessary polynomial 4",
+        "direct action matches Lean necessary polynomial 5"
+      ],
+      "scope": "Five necessary full-distortion rows only. No Lean formalization of the curvature/Clifford derivation, Witten construction or physical GU domain."
+    },
+    {
+      "command": "lake build GUFormalization.NguyenPositivityKernels",
+      "exit_code": 0,
+      "target_behavior": "unchanged compiled target replayed successfully",
+      "stdout": "\u2139 [1156/1156] Replayed GUFormalization.NguyenPositivityKernels\ninfo: Lean/GUFormalization/NguyenPositivityKernels.lean:93:0: 'GUFormalization.NguyenPositivityKernels.witness_refutes_universal_failure' does not depend on any axioms\ninfo: Lean/GUFormalization/NguyenPositivityKernels.lean:94:0: 'GUFormalization.NguyenPositivityKernels.positive_conserved_form_excludes_growing_eigenvector' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\ninfo: Lean/GUFormalization/NguyenPositivityKernels.lean:95:0: 'GUFormalization.NguyenPositivityKernels.nonzero_even_difference_prevents_action_descent' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\ninfo: Lean/GUFormalization/NguyenPositivityKernels.lean:96:0: 'GUFormalization.NguyenPositivityKernels.canonical_three_block_no_solution' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\ninfo: Lean/GUFormalization/NguyenPositivityKernels.lean:97:0: 'GUFormalization.NguyenPositivityKernels.canonical_three_block_no_solution_zero_coupling' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\nBuild completed successfully (1156 jobs).\n",
+      "scope": "Five existing conditional deductions only; no Witten construction, new Yang-Mills proof or GU physical domain formalized."
+    }
+  ],
+  "paper_validation": {
+    "build_command": "python scripts/preprint.py build papers/drafts/complex-gauge-unitarity --offline",
+    "exit_code": 0,
+    "receipt": "papers/drafts/complex-gauge-unitarity/build/receipt.json",
+    "pages": 9,
+    "visual_review": "Updated abstract and revised pages 6-9 inspected; final changed pages 7-8 re-rendered. Legible equations/table/bibliography, no clipped content. Other pages retain the earlier review.",
+    "scope": "Typesetting, citations and artifact identity only; mathematical evidence remains in the named research owners."
+  },
+  "process_validation": {
+    "typed_carrier_declaration_audit": "focused owner/source/draft scan: zero red, two explicit typed blocks; metadata trigger does not inspect mathematical validity",
+    "kill_target_claim_audit": "focused owner/source/draft scan: zero red; SC-META-53 affinity retained",
+    "source_native_comparator_routing_audit": "6 tests passed; existing five unclassified baseline unchanged; new source audit and overview lie outside derived particle-comparator registry scope",
+    "lean_certificate_surface_audit": "8 tests passed; structural registration/placeholder checks only",
+    "git_diff_check": "passed",
+    "frontmatter_status_schema_audit": "zero failures; two new role-typed Markdown documents registered; all pre-existing status values unchanged",
+    "owner_local_links": {
+      "checked": 49,
+      "failures": [],
+      "scope": "new real-packet owner, revised assessment and draft overview"
+    },
+    "claim_status_consistency": "same-day native-action strengthening explicit in owner, current state, research status, verification, next steps and revised draft; targeted canon/derivation search has no conflicting current result; source polarities and canon unchanged"
+  },
+  "status_preservation": {
+    "SC-META-53": "UNCERTAIN",
+    "SA-U1_H59": "open",
+    "canon_change": false,
+    "physics_vote_change": false,
+    "paper_stage": "draft",
+    "new_lean_qft_formalization": false
+  },
+  "dependency_sha256": {
+    "explorations/nguyen-gu-critique/section-3-1-end-to-end-assessment-2026-10-08.md": "da7b60fe165f79480ee30655f1bc645bb9edafbedf807df5a87fd04fc9190fe2",
+    "lab/sources/witten-noncompact-quantization-source-audit-2026-10-08.md": "876524360b16bcd79affac361ea1d41e244231c73080d882cc837bd67cf56939",
+    "lab/sources/witten-noncompact-quantization-source-audit-2026-10-08.json": "15e94d390f85bbb01e6f82925ed69830101ec57f0dd570a6baa6f410ab65e91a",
+    "lab/sources/noncompact-quantization-primary-pack-2026-10-08.json": "5a0fabee78f9af51be860d63beb1828f0245eef246847e1b9c9a2f36918c4908",
+    "lab/process/nguyen-positivity-lean.json": "7b9ebf35319fa20c9b6c9c561a931507c9a281d3bb47e8314227345f72694854",
+    "Lean/GUFormalization/NguyenPositivityKernels.lean": "0aadd5a41ef083bda26b90fe7f0282a819814ea9ccfbc46e887abeda267fd8b0",
+    "papers/drafts/complex-gauge-unitarity/build/source/main.tex": "e0368bc735975f7e242921629a7dd08c3d16ae1de18fbe6202409de3731b229e",
+    "papers/drafts/complex-gauge-unitarity/build/source/content.tex": "901d853a7cec56c83c81c38dbf145a88d2d25d9cf20fcc277375f6712c1548bf",
+    "papers/drafts/complex-gauge-unitarity/build/source/references.bib": "50379536e00ef4fb1778f341c4267f44e21536924c243974da2ae68819309ac3",
+    "papers/drafts/complex-gauge-unitarity/build/receipt.json": "0357d0603fbde6fbcfea4de778808b9db9d55cb15a4300b80720d582d584cedf",
+    "papers/drafts/complex-gauge-unitarity/README.md": "477603425b79aa332fb7512f6d576d60f6edfa0115e7fbafb099e9bac9266c35",
+    "papers/drafts/complex-gauge-unitarity/build/source/research-update.tex": "2931482b37f5a976a64d23d2bc15428b0c6073dd6012d253ba57306d3e153808",
+    "lab/process/native-zorro-constrained-energy.json": "89952240f41cd35791bd70e472bb9917e3844e5736e311a86e3fc8a59d448550",
+    "lab/process/native-zorro-real-packet-and-selection.json": "9040238e2e641f93b8cf0b0b61ffaf184d192ab395449f0a6e30f87cf5d414ef",
+    "lab/process/native-zorro-real-metric-hessian.json": "1309e602b51b407c40f0db8352c30eb551547485afcf15859de1d46a4010f071"
+  },
+  "later_native_update": {
+    "updated_at_utc": "2026-10-08T23:35:08.586337+00:00",
+    "base_revision": "1aa8fd49",
+    "energy_receipt": "lab/process/native-zorro-constrained-energy.json",
+    "real_packet_receipt": "lab/process/native-zorro-real-packet-and-selection.json",
+    "earlier_next_condition": "physical quadratic action on one real stationary source-native background with actual constraints, gauge quotient, observation map and time/domain",
+    "validation_scope": "earlier source records retained; native energy, real primary and pure metric/acceleration results are owned by their three linked receipts",
+    "real_metric_receipt": "lab/process/native-zorro-real-metric-hessian.json"
+  },
+  "earlier_paper_validation": {
+    "build_command": "python scripts/preprint.py build papers/drafts/complex-gauge-unitarity --offline",
+    "exit_code": 0,
+    "receipt": "papers/drafts/complex-gauge-unitarity/build/receipt.json",
+    "pages": 7,
+    "visual_review": "All pages reviewed during drafting; changed final pages re-rendered and inspected; legible equations and bibliography, no clipped content or orphan bibliography page.",
+    "scope": "Typesetting, citation resolution and artifact identity only; analytic arguments separately reviewed from their stated hypotheses."
+  },
+  "real_metric_paper_update": {
+    "date": "2026-10-08",
+    "pages": 11,
+    "build_command": "python scripts/preprint.py build papers/drafts/complex-gauge-unitarity --offline",
+    "exit_code": 0,
+    "scope": "pure-base Hessian and reduced real acceleration added with explicit conditional Hamiltonian and transported-boundary limits; citation and layout checks passed; changed pages visually reviewed"
+  }
+}

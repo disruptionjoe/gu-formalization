@@ -1,0 +1,532 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-10-08",
+  "owner": "explorations/conditional-build/native-zorro-real-packet-and-selection-2026-10-08.md",
+  "probe": "tests/channel-swings/native_zorro_real_packet_probe.py",
+  "classification": "SOURCE_NATIVE_ROUTE within the declared canonical comm/symi/symi I1B reconstruction",
+  "target_claim": "NONE-NOT-A-KILL",
+  "bears_on": [
+    "SC-ACT-06",
+    "SC-META-53"
+  ],
+  "canon_verdict_change": "none",
+  "result": {
+    "passed": 11,
+    "checks": [
+      "forty classes exhaust the real-packet coefficient carrier",
+      "all forty real primary potentials are nonzero in the selected number field",
+      "all forty real mirror potentials obey negative parity congruence",
+      "real time kernel and quotient have the stated raw ranks",
+      "real and imaginary packets exhaust the full source one-form carrier",
+      "each occupation-state gamma has the declared Hilbert adjoint sign",
+      "scalar and vertical receiver are compact while the spatial receiver is noncompact",
+      "a compact scalar spatial derivative forces one noncompact primary receiver",
+      "this noncompact primary receiver cannot be removed by another primary potential column",
+      "the scalar is dynamical rather than a time-kernel coordinate",
+      "the actual cubic action has a nonzero real-imaginary-imaginary interaction"
+    ],
+    "branch": {
+      "minimal_polynomial": "1078253165818470400*w**10 + 3877334434099568640*w**9 + 4643792466602204160*w**8 + 1707092071119812736*w**7 - 454780741544188128*w**6 - 354008474391384144*w**5 - 41983168422902724*w**4 + 1153971394741872*w**3 + 7933181509779615*w**2 + 1617316736755599*w - 494757479546640",
+      "root_index": 5,
+      "isolating_interval": [
+        "227427945967/1000000000000",
+        "227427945969/1000000000000"
+      ],
+      "kappa_branch": "both nonzero square roots of the certified kappa_squared"
+    },
+    "primary_potential_blocks": [
+      {
+        "horizontal_weight": 0,
+        "vertical_weight": 0,
+        "multiplicity": 1,
+        "coefficient_dimension": 42,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "a3555f3f029658bee9ba46b7a10ea992940d2d71d046dfa2618903a5f482bd06",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 0,
+        "vertical_weight": 1,
+        "multiplicity": 9,
+        "coefficient_dimension": 20,
+        "kernel_dimension": 14,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "96138e948fff6146208d4ba0b30cae5354d982408ca798928287e1747a9eefab",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 0,
+        "vertical_weight": 2,
+        "multiplicity": 36,
+        "coefficient_dimension": 18,
+        "kernel_dimension": 14,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "a37c31a2463128e2b3dbcfccba2e9dbea425563aa27ca3f83a55d7575f757ea5",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 0,
+        "vertical_weight": 3,
+        "multiplicity": 84,
+        "coefficient_dimension": 32,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "cee0d4453c04cf0fc111156ac0ed3ab43502c8cac2826daa17029af87201c6cd",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 0,
+        "vertical_weight": 4,
+        "multiplicity": 126,
+        "coefficient_dimension": 34,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "d396f35f2b16dc156bf7b8a9077ae4926babda56e4c38a95dd551118470eb9ae",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 0,
+        "vertical_weight": 5,
+        "multiplicity": 126,
+        "coefficient_dimension": 28,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "9c73a5affe1717e9664f6ae42f1cb565608c91aa2e8e6327ecd779721fec8f88",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 0,
+        "vertical_weight": 6,
+        "multiplicity": 84,
+        "coefficient_dimension": 26,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "23ae281e7e8e58dc62838bac7b93c63fb6c20874c022ed7934945b77d02aad87",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 0,
+        "vertical_weight": 7,
+        "multiplicity": 36,
+        "coefficient_dimension": 24,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "9b0f8a1b3e5e445b2fac7b1799287e5b5443c19feef6bdb08638ec5ace432a2f",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 0,
+        "vertical_weight": 8,
+        "multiplicity": 9,
+        "coefficient_dimension": 26,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "b017659dc8e610afef5a85ffd7376a9530e77c6ca516799a238984e5e2bcd75e",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 0,
+        "vertical_weight": 9,
+        "multiplicity": 1,
+        "coefficient_dimension": 36,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "9dbe7042cc5039214fa2e64f93ff42d8460a685a75c4718d1db0cd9d46e5b51e",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 1,
+        "vertical_weight": 0,
+        "multiplicity": 3,
+        "coefficient_dimension": 20,
+        "kernel_dimension": 14,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "96138e948fff6146208d4ba0b30cae5354d982408ca798928287e1747a9eefab",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 1,
+        "vertical_weight": 1,
+        "multiplicity": 27,
+        "coefficient_dimension": 18,
+        "kernel_dimension": 14,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "fa1d9df6a9099cef473cbd56477b301d0f6d0bbff308ddcf928b29870ca442ca",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 1,
+        "vertical_weight": 2,
+        "multiplicity": 108,
+        "coefficient_dimension": 32,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "f628b6d490079cc9de89af51f2e445053ce0c316573e23338b8c6a38674c6449",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 1,
+        "vertical_weight": 3,
+        "multiplicity": 252,
+        "coefficient_dimension": 34,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "1557ca4155a5cc3897624a41aca5f092119d15724265bbd910654b57f88cab01",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 1,
+        "vertical_weight": 4,
+        "multiplicity": 378,
+        "coefficient_dimension": 28,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "4614964c87b1c1a657adf9b3801ab2a09cb37983fe4f3b8ccdbbaed8f655fb22",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 1,
+        "vertical_weight": 5,
+        "multiplicity": 378,
+        "coefficient_dimension": 26,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "974334d555db6351ca6e6b6f7b02dc877c1f3edeb65d868bdd735361fbf21ffc",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 1,
+        "vertical_weight": 6,
+        "multiplicity": 252,
+        "coefficient_dimension": 24,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "a7d1131ac1cf12f3953556ed3b946a04e6edaf176faa28eee1c29b7a155b48b6",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 1,
+        "vertical_weight": 7,
+        "multiplicity": 108,
+        "coefficient_dimension": 26,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "8e54e62383bb5275a435535fddd774321d10aeab3a842b5c6d050932df38868e",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 1,
+        "vertical_weight": 8,
+        "multiplicity": 27,
+        "coefficient_dimension": 36,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "9acafcc3fd486f5cab5c379184ef16a89140bc09efc92584156cfa3b7943f9a5",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 1,
+        "vertical_weight": 9,
+        "multiplicity": 3,
+        "coefficient_dimension": 34,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "55b71ce6df7543c397de792b752f31950d3c1365a4ff942694d274f3c17bc721",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 2,
+        "vertical_weight": 0,
+        "multiplicity": 3,
+        "coefficient_dimension": 18,
+        "kernel_dimension": 14,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "dad657ad77081219ca649911f036eaba0febf376d5c4189b81eb02745114a78f",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 2,
+        "vertical_weight": 1,
+        "multiplicity": 27,
+        "coefficient_dimension": 32,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "f628b6d490079cc9de89af51f2e445053ce0c316573e23338b8c6a38674c6449",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 2,
+        "vertical_weight": 2,
+        "multiplicity": 108,
+        "coefficient_dimension": 34,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "31b8adb5ef8aee65e9fe2f59baf53a8dba8a9d8614e6446608a5fc09d725f05f",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 2,
+        "vertical_weight": 3,
+        "multiplicity": 252,
+        "coefficient_dimension": 28,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "2130f8f31d6fcbeef7a2b8a45f23551930ff247bf3fc1c1f7b91c3eef7c6d6eb",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 2,
+        "vertical_weight": 4,
+        "multiplicity": 378,
+        "coefficient_dimension": 26,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "9da5691457fe202d60055b70715e027e6d35bb07316e133ebbb1cb25da78581a",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 2,
+        "vertical_weight": 5,
+        "multiplicity": 378,
+        "coefficient_dimension": 24,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "1bb04819293332ce94401e1b6f4b8c7fb2715de2320f0f998dafe58f6c7cb204",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 2,
+        "vertical_weight": 6,
+        "multiplicity": 252,
+        "coefficient_dimension": 26,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "b017659dc8e610afef5a85ffd7376a9530e77c6ca516799a238984e5e2bcd75e",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 2,
+        "vertical_weight": 7,
+        "multiplicity": 108,
+        "coefficient_dimension": 36,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "479c377a3fb2e6141ccbbef9f915ac6f562ba69f484ed21ddb72590125ea52c0",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 2,
+        "vertical_weight": 8,
+        "multiplicity": 27,
+        "coefficient_dimension": 34,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "9d542fdcd4e0613eeb0ac6d9853889f15994d359a658d2ba8d4cedcd2f4cd2bb",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 2,
+        "vertical_weight": 9,
+        "multiplicity": 3,
+        "coefficient_dimension": 16,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "e28adb20b777308baaa7e5e1b756c6e0f7704fb235377abb18dc9a5d01c0429c",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 3,
+        "vertical_weight": 0,
+        "multiplicity": 1,
+        "coefficient_dimension": 32,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "cee0d4453c04cf0fc111156ac0ed3ab43502c8cac2826daa17029af87201c6cd",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 3,
+        "vertical_weight": 1,
+        "multiplicity": 9,
+        "coefficient_dimension": 34,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "3c021d30904a2c4aaf4d24195a176e2650a579465aad619d80a09b808a5b4855",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 3,
+        "vertical_weight": 2,
+        "multiplicity": 36,
+        "coefficient_dimension": 28,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "2130f8f31d6fcbeef7a2b8a45f23551930ff247bf3fc1c1f7b91c3eef7c6d6eb",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 3,
+        "vertical_weight": 3,
+        "multiplicity": 84,
+        "coefficient_dimension": 26,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "47f11d0b7edbd37ad7b4e472331d91a503b5d33f40ed838f1e6e5d80d8fe55c7",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 3,
+        "vertical_weight": 4,
+        "multiplicity": 126,
+        "coefficient_dimension": 24,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "6ff41303f3db3c3b7753648b1478383b096c0cb85e59b9a26f48d857da6a8de9",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 3,
+        "vertical_weight": 5,
+        "multiplicity": 126,
+        "coefficient_dimension": 26,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "c855a5b5aece2c19184cdc387636531d4f5cf09b2b0a95523b68fea72849be02",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 3,
+        "vertical_weight": 6,
+        "multiplicity": 84,
+        "coefficient_dimension": 36,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "70b2fb7288cd108dbdef204952a09fe8b893fade28f28b0ccecf2baa273d4754",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 3,
+        "vertical_weight": 7,
+        "multiplicity": 36,
+        "coefficient_dimension": 34,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "55b71ce6df7543c397de792b752f31950d3c1365a4ff942694d274f3c17bc721",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 3,
+        "vertical_weight": 8,
+        "multiplicity": 9,
+        "coefficient_dimension": 16,
+        "kernel_dimension": 12,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "2980cb203798cc00e1113e61e6ee0425a865368f865dd44ad1b021e5ef45b437",
+        "nonzero_in_selected_number_field": true
+      },
+      {
+        "horizontal_weight": 3,
+        "vertical_weight": 9,
+        "multiplicity": 1,
+        "coefficient_dimension": 18,
+        "kernel_dimension": 14,
+        "degree_of_reduced_determinant": 9,
+        "determinant_coefficients_sha256": "e8c2a469b03d1a534a0542ff11071ad7b6e9bfb8b31c1aeb5b1c81840ec7c68c",
+        "nonzero_in_selected_number_field": true
+      }
+    ],
+    "raw_coefficient_dimension": 113792,
+    "primary_kernel_dimension": 49310,
+    "nondegenerate_distortion_time_form_dimension": 64482,
+    "mirror_primary_potential": "W_minus=-P W_plus P",
+    "compact_projection_witness": {
+      "scalar": [
+        10,
+        []
+      ],
+      "receiver": [
+        0,
+        [
+          0,
+          1,
+          10
+        ]
+      ],
+      "primary_source": "2 partial_1 f",
+      "primary_mass": "-kappa",
+      "leading_recovery": "2 partial_1 f/kappa",
+      "tested_group": "ambient occupation-adjoint compact/noncompact split",
+      "not_identified_with": "source Spin(6,4) maximal-compact shielding"
+    },
+    "interaction_witness": {
+      "real_direction": "F_a",
+      "imaginary_directions": [
+        [
+          0,
+          [
+            0,
+            4,
+            10
+          ]
+        ],
+        [
+          1,
+          [
+            1,
+            4,
+            10
+          ]
+        ]
+      ],
+      "cubic_third_variation": "-124/3"
+    },
+    "scope": "real distortion primary reduction and finite compact-projection control; not the full metric constraints or physical Hamiltonian"
+  },
+  "analytic_results": [
+    "coefficient conjugation makes J=0 an exact nonlinear bulk fixed-set restriction, subject to compatible boundary conditions",
+    "geometric primary-kernel identity gives z=-W_R^-1(F s+B u), retaining the metric source",
+    "formal Schur action and equations retain fibre integration in every adjoint ending on the base",
+    "any readout factoring through the smooth observing-section germ fails to carry the compact-core Hamiltonian",
+    "any energy extension retaining the compact interior phase core remains unbounded below",
+    "the real fixed-set candidate removes the exhibited imaginary family but is neither source-selected nor proved positive"
+  ],
+  "open_and_not_inferred": [
+    "pure-base Hessian M and remaining metric-coupled constraints, propagation and real-sector physical energy",
+    "successful source-owned physical selector, common global evolution domain and observed Hamiltonian",
+    "conserved positive physical pairing and a bounded-below quantum Hamiltonian",
+    "identification of the tested ambient compact split with source Spin(6,4) shielding",
+    "universal GU no-go or independent later research verification"
+  ],
+  "validation": {
+    "sympy": "1.14.0",
+    "probe_passed": true,
+    "replay_command": "uv run --no-project --with sympy==1.14.0 python -B tests/channel-swings/native_zorro_real_packet_probe.py",
+    "typed_carrier_audit": "0 red; new owner triggers the result check",
+    "target_claim_audit": "0 red; SC-ACT-06 and SC-META-53 affinity preserved",
+    "tests_manifest_count_audit": "3 tests passed",
+    "frontmatter_status_audit": "0 failures on indexed tracked population",
+    "source_native_comparator_routing_audit": "6 tests passed; five pre-existing unclassified artifacts unchanged",
+    "owner_draft_local_links": "49 resolved",
+    "yaml_and_json": "parsed",
+    "git_diff_check": "passed on working-tree contents; index checked again before commit"
+  },
+  "dependencies_sha256": {
+    "explorations/conditional-build/native-zorro-real-packet-and-selection-2026-10-08.md": "bb32acead117f80ee3c0a88d72b7cd0f26a09ee45f49d31598f5b63188ab04ee",
+    "tests/channel-swings/native_zorro_real_packet_probe.py": "c6a5324bbdd8c3840a004e13be1aa0a6e86c0a73c6d10f816e1e9e0658dff87d",
+    "lab/process/native-zorro-constrained-energy.json": "89952240f41cd35791bd70e472bb9917e3844e5736e311a86e3fc8a59d448550",
+    "explorations/conditional-build/native-zorro-algebraic-reduction-2026-10-08.md": "678d52703230091c166af28570696a472cfbc3902537b1583f31b76d1299c278",
+    "tests/channel-swings/native_zorro_constrained_energy_probe.py": "8fbdb1b70398748fa44bd3cac16c7357d03e078666194838c57324994abfce47",
+    "tests/channel-swings/native_zorro_matrix_energy_probe.py": "dd31a118fe0aec8d34712469c5e9c25eda42a688946ae1b82b769cef93d970e1",
+    "tests/channel-swings/native_zorro_stationary_background_probe.py": "5f9e096e58ad88bb8e5989eeccd5c01006c190db95ca1a5f0708555459012b91",
+    "tests/channel-swings/native_i1b_scalar_closure_probe.py": "7e1bfdfb4485710caa5b2696e81b0fff593ebdc62d6a04ae91ffaa634d703b38",
+    "tests/channel-swings/k77_exact_bank_api.py": "5f9ca5458e55669bce226bf65e82b11a54d81d7cffeb2d18a1fb4635f575cf5b",
+    "lab/sources/transcripts/toe-weinstein-gu-40-years.md": "e3af5cda82d7ff397e4cf6a283d560a01a930e11de942e51426f019b5dfe47b7",
+    "lab/sources/source-claim-register.yaml": "dc3ae173b4cc0eb2a0e343e3d92d5f110b8e4f6eef3e2852a1e897ab4371ade6"
+  },
+  "subsequent_metric_result": {
+    "owner": "explorations/conditional-build/native-zorro-real-metric-hessian-2026-10-08.md",
+    "receipt": "lab/process/native-zorro-real-metric-hessian.json",
+    "scope": "successor computes the pure-base Hessian; prior primary and selection certificates unchanged"
+  }
+}

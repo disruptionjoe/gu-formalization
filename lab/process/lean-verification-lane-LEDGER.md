@@ -4,7 +4,7 @@ status: canon
 doc_type: lane-ledger
 scope: repo-local
 created: 2026-07-07
-updated: 2026-09-01
+updated: 2026-10-08
 owner_surface: lab/methods/lean-verification.md
 ---
 
@@ -103,6 +103,7 @@ standard mathlib axioms `propext`, `Classical.choice`, `Quot.sound` reported.
 | `Lean/GUFormalization/ChiConjugationTraceParity.lean` | Finite ordinary/weighted matrix power-trace parity under involutory conjugation; physical orientation remains outside Lean | `LEAN-VERIFIED`; 2026-08-22 targeted and default-target serialized build |
 | `Lean/GUFormalization/InvolutionProjectorKernels.lean` | Inner-involution automorphism and commutator-parity core plus complementary projectors of a linear involution; carrier faithfulness, Cartan positivity, maximal-compact identification, dynamics, spectra and physical interpretation remain outside Lean | `LEAN-VERIFIED`; 2026-08-22 targeted and default-target serialized build |
 | `Lean/GUFormalization/PacketLocalPositiveCone.lean` | Sign-invariant pointed subsets are trivial; a raw linear-map range on a nontrivial carrier cannot itself be pointed and generating; and a phase-preserved cone whose phase map squares to negation has the same obstruction. The theorem does not exclude a quadratic, ray, dual-functional or otherwise extended positive carrier | `LEAN-VERIFIED`; 2026-09-01 focused and serialized default-target build; exact rational extension control `15/15`, hostile selftest `13/13`; no GU-native quotient, positive majorant, state, Born rule, action, prediction, confirmation or verdict |
+| `Lean/GUFormalization/NguyenPositivityKernels.lean` | Counterexample logic with an explicit witness premise; positive-form growth obstruction; necessary condition for action descent; no real solution of the supplied canonical three-block equations. Physical predicates, Chern–Simons quantization and the action-to-polynomial derivation remain external | `LEAN-VERIFIED`; 2026-10-08 named-target build on Lean 4.32.0-rc1; five theorems, with no proof placeholders or physics postulates. The logical theorem has no axioms; the others use only `propext`, `Classical.choice`, `Quot.sound`. Five action-coefficient rows independently agree. Receipt: `lab/process/nguyen-positivity-lean.json`. No GU physical or canon verdict moves |
 | `tests/big-swing/R4_TwoArena.lean` | Stable R4 compatibility entrypoint | imports the default-target proof-bearing module |
 
 The un-typechecked draft duplicate formerly at

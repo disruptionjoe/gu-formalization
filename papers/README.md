@@ -16,6 +16,10 @@ subfolders at a time, so its location always tells the truth about where it stan
 
 ## Currently
 
+- **Research draft:** [Two-Sided Quadratic Energy in a Curved I1B Reconstruction](drafts/complex-gauge-unitarity/)
+  — exact stationary background, constrained real and imaginary energy,
+  formal boundary compatibility, source applicability, and separate controls.
+  Selected classical reconstruction; physical domain and quantum completion open.
 - **Staged candidates:** inventory only; folder membership is the status signal, and publication still
   requires Joe confirmation. See the [candidate staging gate](candidates/README.md).
   - [Generation Number Boundary Odd Primary](candidates/generation-number-boundary-odd-primary/) - standalone

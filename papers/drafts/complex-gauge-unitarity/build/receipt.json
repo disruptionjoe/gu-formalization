@@ -1,0 +1,30 @@
+{
+  "kind": "preprint_typesetting_receipt",
+  "compiler": "Tectonic 0.17.0",
+  "compiler_sha256": "a98aa59ad5c1df39a6c9e56cbfc5088f2b11d6c179c0130b97998e4bd46a46da",
+  "compiler_archive_url": "https://github.com/tectonic-typesetting/tectonic/releases/download/tectonic%400.17.0/tectonic-0.17.0-x86_64-unknown-linux-musl.tar.gz",
+  "compiler_archive_sha256": "8533d07f9ccbd7a65824b9e0459041bca34af1eb33daba48f59215593753a3b7",
+  "bundle_url": "https://data1.fullyjustified.net/tlextras-2022.0r0.tar",
+  "source_date_epoch": 946684800,
+  "offline": true,
+  "sources_sha256": {
+    "content.tex": "41335032664e0563a763338412058d1dd7f18fc56af7142425fdf7efffe230a3",
+    "controls.tex": "39eb5cf179176be6929c447dd38bf04407f077db1db0e99d89ccce2aaa31c9d5",
+    "energy.tex": "64b127f3b99b0794374f4d04e8b04adae75407a6ac58e0fcc6e99f87f4fa7dde",
+    "main.tex": "af30edaa1ab85e6026bd0bebc8b622ef4617258fe8a0143b6ace6e7ba1c5f945",
+    "reduction.tex": "c4ce563e630ccbf3b4da04233c0e1162adec5a79b38ab15aa42599c474c49363",
+    "references.bib": "1d7ea8c00bc712637cd726c21a03f8e1cadb4c92a53603229c2c23daed4b478f",
+    "verification.tex": "25690157ac5daf3c194b728f716cd4609f8c91814c303f9b60f3b439d254f231"
+  },
+  "article_pdf_sha256": "c511de7108cb1742fa9587c3aab6218877436c23aacb3682e05b989fa085ede8",
+  "source_zip_sha256": "fdab8cc8068ef37ffba5c1de3f9c09f71ba1bdcf18d9c42acac4f94d6fe8a2cd",
+  "checks": {
+    "tex_exit_zero": true,
+    "references_resolved": true,
+    "citations_resolved": true,
+    "no_missing_glyphs": true,
+    "no_overfull_boxes": true
+  },
+  "underfull_box_notices": 0,
+  "claim_scope": "Typesetting only; no mathematical verification or publication status."
+}

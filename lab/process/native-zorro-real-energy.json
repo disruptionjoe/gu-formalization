@@ -1,0 +1,215 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-10-09",
+  "owner": "explorations/conditional-build/native-zorro-real-energy-2026-10-09.md",
+  "probe": "tests/channel-swings/native_zorro_real_energy_probe.py",
+  "classification": "SOURCE_NATIVE_ROUTE within selected curved comm/symi/symi bosonic I1B reconstruction",
+  "target_claim": "NONE-NOT-A-KILL",
+  "bears_on": [
+    "SC-ACT-06",
+    "SC-META-53"
+  ],
+  "canon_verdict_change": "none",
+  "result": {
+    "passed": 22,
+    "checks": [
+      "the real grade-14 source has a nonzero time symplectic partner",
+      "independent matrices reproduce the complete source time form",
+      "axis 4: exact complete primary source and kernel pairing",
+      "axis 4: independent matrix time form, kernel and derivative source agree",
+      "axis 4: all five complete primary potentials agree with independent matrices",
+      "axis 4: exact eleven-dimensional Schur component identities",
+      "axis 4: the exact secondary Schur contraction is minus eta times 2/33",
+      "axis 4: symbolic recovery solves every primary row",
+      "axis 4: the real Hamiltonian coefficient and mirror sign are exact",
+      "axis 11: exact complete primary source and kernel pairing",
+      "axis 11: independent matrix time form, kernel and derivative source agree",
+      "axis 11: all five complete primary potentials agree with independent matrices",
+      "axis 11: exact eleven-dimensional Schur component identities",
+      "axis 11: the exact secondary Schur contraction is minus eta times 2/33",
+      "axis 11: symbolic recovery solves every primary row",
+      "axis 11: the real Hamiltonian coefficient and mirror sign are exact",
+      "rational stationary-branch bounds certify the nonzero Schur numerator",
+      "both real energy signs have normalized magnitude strictly between 0.388 and 0.389",
+      "all eight base reflections preserve the induced ambient orientation",
+      "the triple-sign character is absent from all ten homogeneous metric components",
+      "a two-sign control retains a metric component",
+      "a Lorentzian nearby fibre fixture has eight distinct orbit points"
+    ],
+    "source": [
+      0,
+      16383
+    ],
+    "source_symplectic_contraction": -13,
+    "witnesses": [
+      {
+        "axis": 4,
+        "axis_square": 1,
+        "receiver": [
+          0,
+          16367
+        ],
+        "source_coefficient": 1,
+        "time_kernel_dimension": 12,
+        "schur_component_dimension": 11,
+        "schur_contraction": "-2/33",
+        "real_energy_coefficient": "(-1276*a - 44*c + 33*kappa)/(22*kappa*(116*a + 4*c - 3*kappa) + 4*(v + 8*w)**2)"
+      },
+      {
+        "axis": 11,
+        "axis_square": -1,
+        "receiver": [
+          0,
+          14335
+        ],
+        "source_coefficient": 1,
+        "time_kernel_dimension": 12,
+        "schur_component_dimension": 11,
+        "schur_contraction": "2/33",
+        "real_energy_coefficient": "(1276*a + 44*c - 33*kappa)/(22*kappa*(116*a + 4*c - 3*kappa) + 4*(v + 8*w)**2)"
+      }
+    ],
+    "normalized_magnitude": "11*kappa^2*(116*alpha+4*beta-3)/(2*(11*kappa^2*(116*alpha+4*beta-3)+2*(v+8*w)^2))",
+    "normalized_magnitude_interval": [
+      "2825308558641843768282390553788320551270767488721228930377165525415532314271512309100517450530786882439429584581527502822197076844847544299938059682690348501856248347610667985242635987952096806800774690343805879589766207207342549035870507031009851847187508505982205366380896390670533368162536996109302578257187127320871338309890143726520239976902292942435978808454474053337392657512136969525728367416057641813798846260323766439/7277168759878267585210460162859175215934342871046967331606169418141005855568772434305871211472256513890982554821735371101544113543274417576143490173950760323031966708064118625691912027965224733202354075808560414288638495743728877473634611809430961274494058938736646781732469380940467151046483743760365086414792839342825494569596185838242626761206963831855858920162934020109089207239942269243221268233142099503383661064761030478",
+      "2825403105704503940694387448237810152337871793107951231406978470786940853174885818478016572545220653786325389500551554663050367125863201868565916015227789517846031599393438513165249011350708706081392136716160958155259659440021221864675747713196703335520865700367901945853849954346198933719126084442132419400463109076447594285847750910994278128539014743371108687024234407659801267639226253385052482037710172798566830532380515239/7276972217133570680976213550818501947344630035155641483010110595434745205241808145362364688482001481584700131440550984998071224294137680937805204377914875359292951779446898281712975022416667086328878986333750024622963583485954680598909904321775799348985109168884589771983403050107649366523790684991052391812047692198695672156254262580799603903249255482690201168848791026060248888574958845599913605203357787533847692520647532878"
+    ],
+    "reflection_characters": [
+      {
+        "signs": [
+          -1,
+          -1,
+          -1
+        ],
+        "character": -1,
+        "ambient_orientation": 1
+      },
+      {
+        "signs": [
+          -1,
+          -1,
+          1
+        ],
+        "character": 1,
+        "ambient_orientation": 1
+      },
+      {
+        "signs": [
+          -1,
+          1,
+          -1
+        ],
+        "character": 1,
+        "ambient_orientation": 1
+      },
+      {
+        "signs": [
+          -1,
+          1,
+          1
+        ],
+        "character": -1,
+        "ambient_orientation": 1
+      },
+      {
+        "signs": [
+          1,
+          -1,
+          -1
+        ],
+        "character": 1,
+        "ambient_orientation": 1
+      },
+      {
+        "signs": [
+          1,
+          -1,
+          1
+        ],
+        "character": -1,
+        "ambient_orientation": 1
+      },
+      {
+        "signs": [
+          1,
+          1,
+          -1
+        ],
+        "character": -1,
+        "ambient_orientation": 1
+      },
+      {
+        "signs": [
+          1,
+          1,
+          1
+        ],
+        "character": 1,
+        "ambient_orientation": 1
+      }
+    ],
+    "homogeneous_metric_character_rank": 0,
+    "matrix_implementation": "128 occupation-state Clifford engine; complete primary matrices rebuilt independently of sparse entries",
+    "scope": "real compact-core two-sided energy with metric-decoupling character and all-order formal boundary compatibility proved in owner; no global evolution or physical-domain selection theorem"
+  },
+  "analytic_results": [
+    "The combined base/fibre reflection action preserves ambient orientation, time, the curved background and the selected action.",
+    "The triple-sign character is absent from the complete homogeneous base-metric carrier, so the full integrated metric source vanishes on that distortion character.",
+    "Equivariant primary recovery is a finite-order local differential operation and preserves compact support.",
+    "Eight disjoint translated supports give H(P_chi s)=H(s)/8 exactly.",
+    "The exact coefficients and bounded lower-order terms give two real families H=plus or minus c n^2+O(n) on both coupling branches.",
+    "The local reduced generator preserves the compact character core; all its formal time jets have zero boundary trace and zero metric forcing.",
+    "Any Hamiltonian completion retaining this core and the same quadratic form is unbounded above and below."
+  ],
+  "not_established": [
+    "A convergent formal time series, global Cauchy evolution, or a selected closed physical domain retaining the compact core",
+    "Nonlinear closure of the reflection character, fermionic closure, or a quantum spectral theorem",
+    "Failure of every further nonlocal admissibility selection or of the source actual Spin(6,4) shielding",
+    "The physical BV/BRST pairing INHERITANCE_BRIDGE, source-owned action-root admission, a universal GU no-go, or publication readiness"
+  ],
+  "ledger_effect": {
+    "version": "0.265",
+    "rows": [
+      "LT-SM8",
+      "LT-GR6b"
+    ],
+    "verdicts": "NEEDS unchanged",
+    "named_conditions_discharged": 0,
+    "prior_boundary_result": "rank-five metric-momentum compatibility at fixed distortion jets preserved",
+    "firewall": "prior bounded observation and OPEN hypothesis unchanged"
+  },
+  "validation": {
+    "replay_command": "uv run --no-project --with sympy==1.14.0 python -B tests/channel-swings/native_zorro_real_energy_probe.py",
+    "sympy": "1.14.0",
+    "grouped_checks": 22,
+    "formatting": "AST equality checked after formatting the verified probe",
+    "ledger_schema": "v0.2 schema passed",
+    "ledger_preservation": "Only LT-SM8 and LT-GR6b gain evidence; all protected row fields, contexts, active counts, residue, named conditions, hypotheses, prior firewall observation and migration history preserved.",
+    "conditional_evidence_delta_gate": "passed, eight files",
+    "learning_transport_contract_audit": "four tests passed",
+    "mint_context_projection_audit": "zero red, two touched rows with context",
+    "kill_target_claim_audit": "zero red for three touched owner/ledger notes and v0.265 ledger",
+    "typed_carrier_declaration_audit": "zero red; three blocks and two result triggers",
+    "frontmatter_status_schema_audit": "zero failures; 4733 tracked Markdown, 3452 status-bearing, protected legacy population unchanged",
+    "tests_manifest_count_audit": "three tests passed; 4077 Python and 93 Sage channel-swings files",
+    "source_native_comparator_routing_audit": "six tests passed; five pre-existing unclassified artifacts unchanged",
+    "reverse_scaffold_direction_audit": "passed",
+    "current_state_absolute_currency_audit": "passed",
+    "integrity": "97 dependency hashes and 25 relative links verified; CURRENT-STATE YAML parsed",
+    "git_diff_check": "index and working tree checked before commit"
+  },
+  "dependencies_sha256": {
+    "explorations/conditional-build/native-zorro-real-energy-2026-10-09.md": "ae4aba8795709836f8d87f5bac2179eca70bebab4b60df0200929b7d032d9eee",
+    "tests/channel-swings/native_zorro_real_energy_probe.py": "710295cee12d374769f5699fcbe10a2cc107ce501151840f1ccb95b6624f2e44",
+    "lab/process/native-zorro-real-packet-and-selection.json": "9040238e2e641f93b8cf0b0b61ffaf184d192ab395449f0a6e30f87cf5d414ef",
+    "lab/process/native-zorro-constrained-energy.json": "89952240f41cd35791bd70e472bb9917e3844e5736e311a86e3fc8a59d448550",
+    "lab/process/native-zorro-real-metric-hessian.json": "1309e602b51b407c40f0db8352c30eb551547485afcf15859de1d46a4010f071",
+    "lab/process/native-zorro-boundary-constraints.json": "03f77ef45ca7605484e1d3a430a3678efcf9e49e8dc985030b62d792bf809035",
+    "tests/channel-swings/native_zorro_real_metric_probe.py": "bd0d7b1bbd8fea6d22e7538bcd8e93e784eceaad9289acf65cad9c99adec7dbe",
+    "tests/channel-swings/native_zorro_matrix_energy_probe.py": "dd31a118fe0aec8d34712469c5e9c25eda42a688946ae1b82b769cef93d970e1",
+    "tests/channel-swings/native_zorro_constrained_energy_probe.py": "8fbdb1b70398748fa44bd3cac16c7357d03e078666194838c57324994abfce47",
+    "tests/channel-swings/native_zorro_geometry_probe.py": "9aa7e7414056f13f45a4d4a47d16ce761c804a672585504d52fcdb14a2952367",
+    "lab/process/conditional-physics-ledger-v0.265.json": "667105f552fd7c79f99d009c4bfa1f685329abdc060544058ef346a1cc380fa2",
+    "explorations/conditional-build/conditional-physics-ledger-v0.265.md": "bdab1446d3612fb38aa68310a495ed5b254bf9c366df824ac9ab9ca290ea5c46"
+  }
+}

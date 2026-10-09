@@ -1,0 +1,570 @@
+---
+title: "Nguyen–Polya §3.1: complexification, positive probabilities and stable energy"
+status: active_research
+claim_verdict: scope_rebuttal_with_conditional_native_action_energy_obstruction
+doc_type: source_action_positivity_assessment_and_conditional_theorems
+created: 2026-10-08
+target_claim: NONE-NOT-A-KILL
+bears_on: SC-META-53
+spec_row: SA-U1
+canon_verdict_change: none
+receipt: lab/process/nguyen-section-3-1-adjudication.json
+prior_assessment_receipt: lab/process/nguyen-section-3-1-assessment.json
+---
+
+# The strongest objection, assessed end to end
+
+**Nguyen–Polya §3.1 does not establish its claimed GU unitarity/energy
+no-go. Our rebuttal survives only as a scope correction, not as a complete
+answer to the strongest intended objection.** Witten separates complex
+Chern–Simons theory from ordinary Yang–Mills with an indefinite kinetic
+form. This defeats the group-only inference, but leaves a genuine
+conditional obstruction for propagating Yang–Mills modes. Neither that
+obstruction nor the Chern–Simons construction has an established transfer
+to GU's physical action and reduction. GU's positive, stable quantum
+physical sector remains unconstructed in the audited sources.
+
+**Same-day charitable-reading correction:** the earlier version led with
+“its inference from complexification alone is refuted.” It already reserved
+a possible additional Yang–Mills premise, but did not adequately develop
+that premise as the strongest contextual reading or distinguish the two
+notions of unitarity in the cited construction. The revised conclusion below explicitly preserves that objection.
+The [standalone technical-note draft](../../papers/drafts/complex-gauge-unitarity/README.md)
+gives its exact Gauss-compatible negative-energy witness, the source-native
+action comparison, and the evidence needed for either transfer. The
+[independent source reinspection](../../lab/sources/witten-noncompact-quantization-source-audit-2026-10-08.md)
+separates parameter-space transport, physical time, and the precise rigor
+and boundary qualifications. No GU claim polarity or canon verdict moves.
+
+The repository is useful for this task: it supplies source records, exact
+Clifford arithmetic and reproducible tests that distinguish a failed repair
+from a theorem about GU. It does not contain a completed quantum GU theory.
+The useful contribution of these tools is a checkable argument and a sharp
+boundary on what remains unproved.
+
+**Later same-day native-action result:** the
+[constrained-energy calculation](../conditional-build/native-zorro-constrained-energy-2026-10-08.md)
+now proves quadratic energy unbounded in both directions in a closed,
+constraint-reduced imaginary packet of one selected curved I1B realization,
+on either stationary coupling branch. Independent occupation-state Clifford
+matrices reproduce both witness coefficients. This directly realizes the
+energy concern on that declared action/core without importing ordinary
+Yang--Mills. The [real-packet follow-through](../conditional-build/native-zorro-real-packet-and-selection-2026-10-08.md)
+solves its real-distortion primary equations and isolates the remaining
+physical-selection question. The subsequent
+[metric Hessian calculation](../conditional-build/native-zorro-real-metric-hessian-2026-10-08.md)
+computes the pure-base operator and a nondegenerate real metric-acceleration
+block after primary reduction. Its Hamiltonian consequence is conditional
+on the stated boundary completion; a permanent distortion-free collar
+instead excludes those accelerations. The completed real-sector physical
+energy remains open. This strengthens the bound native-action conclusion;
+it does not validate §3.1's universal inference or change SC-META-53.
+
+> **GU-COMPARATOR-ROUTING — scope before inference.** This artifact contains or
+> borders a conventional particle-physics comparator. Any result about a
+> standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126`
+> Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-
+> mass route binds only that named model. It is not evidence for or against
+> Weinstein's source-native mechanism without an explicit typed bridge. Read
+> `lab/methods/source-native-comparator-routing.md` and follow its source-native
+> pointers before reusing this result.
+
+Classification: `BRIDGE_OR_SEMANTIC_BOUNDARY`. The new action calculations
+below are conditional results in the selected K77 reconstruction. The
+Chern–Simons constructions are external counterexamples to a universal
+inference, not substitutes for GU dynamics.
+
+```gu-typed-objects
+result: source applicability adjudication, conditional Yang-Mills energy witness, canonical-geometry scope correction, invariant-background obstruction and failure of bare observation descent
+carrier: selected real Omega1 Cl(7,7) distortion over the canonical connection metric on Y=Met(X); ordinary real Yang-Mills on R x T^d and external Chern-Simons carriers kept separate LAYER=ambient+source-print BRIDGE=declared_canonical_reconstruction CHIRALITY=N/A
+pairing: Clifford trace and Hodge form for I1B; indefinite invariant beta for ordinary Yang-Mills; donor physical Hilbert pairings used only in their own theories ON=each_declared_carrier
+real_structure: selected real Clifford packet with comm/symi/symi Shiab; donor conjugations stated by their sources
+grading: Clifford parity and horizontal/vertical trace splitting; neither is a GU physical ghost quotient
+action_owner: source-action -- I1B formula with repository-selected Shiab and geometry; comparator -- ordinary Yang-Mills and Witten and Han Chern-Simons actions
+target: SA-U1 and source uncertainty SC-META-53; necessary full distortion equations and observation-kernel action test MAP-TYPE=restriction
+```
+
+## 1. The actual objection and the standard for answering it
+
+Nguyen and Polya's February 23, 2021 response, §3.1, pp5–6, makes two
+arguments. First, the proposed identification of the adjoint bundle with
+real Clifford data needs additional real/complex structure. Second, p6
+asserts that complexifying connections and the gauge group forces either
+nonunitarity or a Hamiltonian unbounded in both directions, citing Witten
+[15]. The response predates the April 1 GU draft; explicit formulas in that
+later draft cannot be treated as omissions from the earlier talk it reviewed.
+
+The response's §2.3 already displays a Shiab curvature/augmented-torsion
+equation; §3.4 invokes intended Yang–Mills recovery. The strongest plausible
+implicit premise is therefore not merely a complex group: it is an
+ordinary real propagating Yang–Mills sector with an indefinite invariant
+kinetic form, plus negative directions that survive the constraints and
+physical reduction. This is a charitable reconstruction, not a premise
+proved in §3.1. The cited work supports that conditional concern.
+
+The real-form calculation has a definite target. The repository's
+[42-check certificates](../nguyen-c1c2-real-form-certificates-2026-08-12.md)
+bank exact facts on the full real Cl(7,7) carrier, its invariant form and
+commutant; they are not a certification of every sentence in §3.1 about
+the earlier Euclidean talk. Equal-dimensional real vector spaces admit
+abstract linear isomorphisms; the issue is compatibility with the chosen
+real structures, equivariance and operations. The certificates distinguish
+the complex structure available at the split layer. The April draft
+explicitly introduces complex factors and the real group `U(64,64)`
+(pp23–24, 42). Algebraic complexification does not itself require treating
+all complex connection components as independent real physical fields or
+gauging the full complexified group. The real slice and action must say so.
+Neither that algebraic question nor the later complex construction proves
+a statement about the physical Hamiltonian.
+
+The live question associated with **SA-U1/H59 and SC-META-53** is therefore:
+can the proposed theory have a nonzero physical state space with a positive
+probability pairing, unitary evolution and energy bounded below? All three
+properties must refer to the same action, constraints and domain. A positive
+matrix on auxiliary coefficients does not answer it. The source's own
+maximal-compact shielding uncertainty is preserved in the
+[source-custody record](../source-uncertainty-custody-wave-2026-08-27.md).
+
+This applies the [claim-indexed doctrine](../claim-indexed-verdict-doctrine-2026-08-12.md)
+and [banked-mathematics register](../nguyen-objection-banked-mathematics-register-2026-08-13.md):
+the blanket implication fails in the cited quantization setting; the
+conditional Yang–Mills concern survives; the exact real-form calculation on
+its named carrier remains banked; the GU positivity question remains open. No verdict
+on §3.2, §3.3 or the theory as a whole is inferred.
+
+## 2. The cited source does not prove the asserted implication
+
+The recovered **IASSNS-HEP-89/65** report underlying Witten's 1991 paper
+separates ordinary Yang–Mills with an indefinite invariant form from
+Chern–Simons theory. The former has unbounded energy in the conventional
+real bosonic canonical treatment. The latter has zero reduced bulk
+Hamiltonian for pure theory on `Sigma x R` with a **closed** oriented
+spatial surface (report §3, p8); boundaries, sources and asymptotic charges
+require separate treatment.
+
+The theorem following equations (4.9)–(4.11), report p21, concerns the
+specified **projectively flat connection over Teichmüller space**, with
+Hilbert fiber `L²(M,L^k)`. For real `s` it preserves the positive pairing in
+§4.1, pp22–23. Its formulas require nonzero `k+is` and `k-is`; `k=s=1` is
+one admissible choice. This is unitary **parameter-space transport**, not
+a theorem about nontrivial physical-time propagation. The physical
+closed-surface statement `H=0` is separate. The derivation of the corrected
+connection includes a heuristic anomaly ansatz; the stated theorem checks
+the selected formulas. Reduction uses the stable-locus moduli-space
+identification. This is not a full constructive-QFT theorem including every
+singular stratum, operator closure or boundary theory. We use only the
+real-`s` branch. All substantive locators are for the **44-page report**;
+the journal bibliographic identity was verified, but its published
+typesetting was not recovered. See the
+[precise source audit](../../lab/sources/witten-noncompact-quantization-source-audit-2026-10-08.md)
+and [primary report](https://lib-extopc.kek.jp/preprints/PDF/1990/9009/9009085.pdf).
+
+Thus Witten's specified quantization challenges the universal statement
+
+```text
+complexified gauge group ==> nonunitarity OR energy unbounded below.
+```
+
+It does **not** refute the action-specific Yang–Mills implication. The
+technical note proves the latter's classical core explicitly: on
+`R x T^d`, for ordinary real Yang–Mills with invariant kinetic form `beta`,
+choose `A_i=0`, `E_i=lambda X u_i`, where `div u=0` and `beta(X,X)<0`.
+These data satisfy Gauss exactly and have
+`H=lambda² beta(X,X) integral |u|²/(2g²) -> -infinity`.
+Gauge equivalence preserves the energy, so the ordinary gauge quotient
+cannot remove these values. The standard negative transverse oscillator
+has unitary positive-Hilbert-space evolution but spectrum unbounded below;
+reversing its creation/annihilation roles with the same adjoint sacrifices
+norm positivity. These are declared comparator results, not a theorem
+about every quantum representation or a GU mode.
+
+A recent explicit donor reinforces the distinction. **Han,
+[arXiv:2504.16367v1](https://arxiv.org/abs/2504.16367v1)**, constructs a
+physical multiplicity space and rigging-map quotient for complex
+`SL(2,C)` Chern–Simons theory on a punctured sphere (§§8.4, 8.6). Its
+assumptions include `k=2N>0`, `|b|=1`, `Re b, Im b>0`, and specified boundary
+labels. The spectral measure is a positive absolute square. Completeness
+uses the cited spectral theorem; it is not a new all-group result or a
+four-dimensional GU Hamiltonian. Versioned custody is in the
+[source receipt](../../lab/sources/noncompact-quantization-primary-pack-2026-10-08.json).
+
+## 3. GU's proposed escape has a real donor, but no established transfer
+
+GU p29 footnote 5 recalls a Bar-Natan–Witten modification involving the
+maximal compact subgroup and Hodge operator, while saying the construction
+was not reconstructed. The
+[author preprint](https://www.math.toronto.edu/~drorbn/papers/NonCompact/NonCompact.pdf)
+provides the missing reference: §4, pp14–16, defines a compact-reduction
+involution `T`, equal to `+1` on the compact algebra and `-1` on its
+complement, and uses `*T` to obtain a positive form. (`J` in that paper
+is a separate form-grading operator; the earlier version renamed `T`
+without saying so.) It derives new
+gauge-fixed operators; §3 explains why changing the pairing while retaining
+the old operators is insufficient. Equations 4.37–4.39 add a local
+counterterm to restore independence of the compact reduction at one loop.
+The calculation is about an isolated irreducible flat background in
+perturbative Chern–Simons theory, not an all-orders unitarity theorem or a
+positive-energy theorem for GU's propagating fields.
+
+The concrete GU transfer would have to derive the reduction, changed
+operators and any counterterms from its real action and constraints, and
+then establish physical energy separately. No equality between those
+operators and GU's I1B or I2B has been proved here or in the audited chain.
+The source footnote motivates this construction; it does not supply it.
+
+Likewise, complex coordinates do not specify a physical real integration
+cycle. Witten's [analytic-continuation paper, §2.7](https://arxiv.org/pdf/1001.2933v4)
+distinguishes real cycles inside the same complexified connection space.
+A convergent cycle alone is not a positive probability interpretation.
+The [earlier 2026 positivity intake](../../lab/sources/quantum-positivity-primary-pack-2026-10-07.md)
+also supplies no action-preserving GU transfer: tree amplitudes, selected
+composite correlators and off-shell renormalization have narrower claims.
+
+## 4. Source-to-physics chain: what is specified and what is not
+
+The source-native actions do not supply an automatic Yang–Mills premise.
+`I1B` in GU equation (9.4), p44, contains a first-order distortion term,
+Shiab contractions and a Hodge quadratic term. `I2B=||Upsilon||²` in
+(9.11), p45, has a composite kinetic form involving the linearization of
+the residual, not automatically the ordinary invariant trace form on all
+curvature components. At a zero of a residual `R`, the Hessian of
+`Q(R,R)` is `2 Q(DR v, DR w)`: an indefinite ambient `Q` need not be
+negative on `im DR`, and a square in an indefinite form is not positive.
+One must vary the chosen full action, including moving structures, and
+derive the physical constraints and domain. The printed residual,
+actual derivative of I1B, and residual-square action remain distinct
+owners under the source-reinspection correction. These observations do not
+prove a healthy sector; they identify the missing applicability theorem.
+
+Conversely, transferring Witten's construction requires an action-derived
+reduction with transported real structure, symplectic form, constraints,
+pairing, quantization and boundary/domain data, and a separately identified
+physical-time generator. A pure topological `H=0` sector alone cannot
+supply GU's intended propagating four-dimensional physics. For the compact
+involution proposal, even finite-dimensional conservation is additional:
+if `A* eta+eta A=0` and `W=eta J>0`, then
+`A*W+WA=eta[J,A]`. A new positive norm need not be conserved by the old
+generator. The note includes an exact two-dimensional countercontrol.
+
+| Link | Evidence and status | Consequence |
+| --- | --- | --- |
+| Carrier and geometry | GU pp18–24: metric bundle `Y`, observing metric, Zorro connection chain, explicit noncompact spinor structure | Source structure exists; K77 selection and a coordinate completion still need their stated conventions |
+| Action | GU pp41–46: Shiab candidates, I1B and I2B, alternative fermionic couplings | A selected formula can be varied; the printed residual is not automatically its Euler derivative |
+| Background and full equations | The later same-day [curved construction](../conditional-build/native-zorro-stationary-background-2026-10-08.md) gives one exact local stationary bosonic branch in the declared reconstruction | Its coupled physical perturbations and global domain remain unconstructed; the earlier flat surrogate is not transferred |
+| Observation | GU pp47–49: section observation and jets/sprays, proposed deformation/cohomological constructions | Pullback of values alone is insufficient; even all section jets do not identify an action quotient in the smooth carrier below |
+| Physical states, positive pairing and Hamiltonian domain | No completed common construction in the primary draft or audited owner chain | A quantum positivity or energy theorem has no specified physical operator/domain to evaluate |
+| Interactions and quantization | Proposed classical structures and research directions; no proved transfer from the external donors | Neither a linear repair nor a citation settles interacting unitarity |
+
+The [path-dependency registry](../../lab/process/path-dependencies.md) and
+branch-relative [current state](../../CURRENT-STATE.yaml) were checked before
+using these limits. Older observed-gravity, ghost-parity and fixed-matrix
+certificates refer to different owners; they cannot be joined into a GU
+physical theory by treating their same-named objects as identical.
+
+The integrated [K1488–K1492](../conditional-build/k1488-k1492-wick-krylov-and-recentering-boundary-2026-10-08.md)
+result at `40bf5265` supplies a variational boundary in a Gaussian/Wick/BRST
+control. The upstream result at `d8a66121` extends the polynomial Krylov
+tower (K1493–K1497) but still supplies no GU source reduction or common
+physical continuum Hamiltonian domain. Its changed variational bounds
+therefore do not establish either physical transfer considered here.
+
+## 5. Constructive tests, including a necessary correction to the flat route
+
+### What the earlier flat calculations actually establish
+
+The [flat scalar calculation](../conditional-build/native-i1b-scalar-closure-2026-10-08.md)
+finds a coupled growing mode of a declared constant-coefficient K77 I1B
+completion, satisfying every lifted linearized metric and distortion row:
+
+```text
+gamma² + |p|² = 17 kappa² / 113,     kappa != 0.
+```
+
+The native distortion gauge variation vanishes at `T=0`; treating it as
+`d chi` would incorrectly discard the mode. A positive conserved norm cannot
+retain an exponentially growing eigenvector: if `Av=gamma v`, `gamma>0`,
+then `A*W+WA=0` implies `2 gamma <v,Wv>=0`, contradicting `W>0`.
+Admissibility in a source-global physical domain was not established.
+The [constant replacement test](../conditional-build/native-i1b-constant-background-2026-10-08.md)
+rejects radial, diagonal and five-field repairs **of that same flat
+completion** for nonzero coupling. Its exact ideal remains valid there.
+
+**Scope correction:** a flat observing metric does not make the canonical
+fourteen-dimensional connection metric flat. Nor is moving a point in the
+metric fibre the same variation as changing the observing metric. These
+are essential distinctions, not small curvature corrections.
+
+### The actual reconstructed geometry over a flat observing metric
+
+Let `g` be the independent observing metric on `X`, and `h` the metric-fibre
+coordinate at a fixed ambient point `(x,h)`. The source-inspired canonical
+[Zorro reconstruction](../eric-curt-wave3d-b2c15p-source-epsilon-tangent-zorro-dewitt-2026-08-02.md)
+is
+
+```text
+G_Y(g) = h_ij dx^i dx^j + D_h(theta,theta),
+D_h(A,B) = tr(h^-1 A h^-1 B) - 1/2 tr(h^-1 A) tr(h^-1 B),
+theta_ab = dh_ab - (Gamma(g)^c_ia h_cb + Gamma(g)^c_ib h_ac) dx^i.
+```
+
+The explicit coordinate completion is repository-derived; source uniqueness
+is not asserted. The calculation selects the plus-first representative
+`h=diag(1,-1,-1,-1)`, giving K77 with this DeWitt form; it does not settle
+the source's signature-convention bridge. At constant flat `g`,
+`Gamma(g)=0`, but `h` still varies
+across `Y`. Conversely, `Gamma(sg)=Gamma(g)` for constant `s>0`, so
+`G_Y(sg)=G_Y(g)` at a **fixed fibre point**. Its density variation in this
+direction is zero. Moving the fibre point `h -> s h` instead gives the
+previous `-8` logarithmic density derivative. Therefore the prior `-8 L=0`
+metric equation is not transferred to the observing-metric variation of
+this canonical geometry. The owner notes now carry this correction.
+
+The new [geometry probe](../../tests/channel-swings/native_zorro_geometry_probe.py)
+derives the full connection by the Koszul formula, checks torsion,
+metricity and Bianchi, and obtains
+
+```text
+Ricci^sharp = (1/4) I on horizontal plus vertical-trace directions (5),
+             (-5/4) I on vertical-traceless directions (9),
+scalar curvature = -10.
+```
+
+A vertical traceless plane has sectional curvature `-1/2`. Thus setting
+`F_B=0` would discard nonzero curvature of this reconstruction even when
+the observed geometry is flat. The result agrees with the earlier
+[pure-vertical curvature obstruction](../conditional-build/selected-k77-zorro-dewitt-trace-curvature-obstruction-2026-08-14.md)
+and adds the horizontal and mixed connection terms.
+
+### Full distortion equations reject the simplest curved replacements
+
+Use the selected `comm/symi/symi` Shiab and the first bosonic action
+
+```text
+I1B = <T,S(F_B)> + 1/2<T,S(D_B T)> + 1/3<T,S(T wedge T)>
+      + kappa/2<T,*T>.
+```
+
+The [action probe](../../tests/channel-swings/native_zorro_i1b_probe.py)
+lifts the full tangent curvature to spin curvature, checks every
+commutator, and independently compares the direct Shiab contraction with
+the Einstein endomorphism. At `T=0`, the nonzero Euler forcing has fourteen
+grade-one rows:
+
+```text
+f_horizontal = f_trace = -21/4,     f_traceless = -15/4.
+```
+
+So zero distortion is not stationary here. Try the three intrinsic
+constant coefficients
+`T(v)=gamma(a P_H v + b P_V0 v + c P_trace v)`.
+Covariant differentiation of the projectors and the actual formal adjoint
+of the quadratic derivative term produce necessary bivector equations
+(the receivers are `e^0 gamma_0 gamma_4` and `e^0 gamma_0 gamma_10`)
+
+```text
+(-a+b)/2 = 0,       (a-c)/2 = 0.
+```
+
+The complete derivative matrix has rank two and kernel `(1,1,1)`.
+Curvature, mass and cubic terms cannot cancel these two equations: their
+contributions to these rows vanish, as checked by full quadratic
+polarization and Clifford parity. Hence `a=b=c=t` is necessary. The field
+then becomes the parallel solder form times `t`, and its grade-one equations
+are
+
+```text
+312 t² + kappa t - 21/4 = 0,
+312 t² + kappa t - 15/4 = 0.
+```
+
+Subtracting gives `-3/2=0`. **No member of this three-coefficient family
+solves the full distortion equations, for any real kappa.** Since necessary
+normal equations already fail, no assumption of nonlinear truncation or
+metric stationarity is needed. Other Clifford components, nonconstant
+coefficients, other observing backgrounds and the I2B fork are not excluded.
+This is an exact failed construction, not a no-go for GU.
+
+### Later same-day construction: a larger family succeeds
+
+The [stationary-background result](../conditional-build/native-zorro-stationary-background-2026-10-08.md)
+adds intrinsic grade-two terms mixing the unit vertical trace vector with
+horizontal and vertical-traceless directions. All distortion equations then
+reduce to five algebraic equations, and an exactly isolated real branch
+solves them. The source epsilon equation follows from a dressing identity;
+the observing-metric variation vanishes on the specified product patch by
+base translation invariance and derivative-only metric dependence. The
+22-check probe and analytic proofs establish local stationarity in the
+selected reconstruction, not a global finite-action or physical domain.
+The subsequent coupled variation, imaginary-packet energy theorem and
+real-primary reduction are linked in the later-result notice above. The
+smaller-family exclusions and the earlier action-descent test below retain
+their original scope; the stronger constrained-energy conclusion belongs
+to those later owners.
+
+## 6. Why observation cannot by itself finish the positivity argument
+
+There is a precise obstruction beyond an inventory of missing tasks.
+For fixed observing section `s_g`, let `P` record all smooth section jets.
+Choose a nonzero smooth compact bump `f` supported in a coordinate ball in
+`Y` disjoint from the section. Then `P(fU)=0` for every order of jet. In a
+local K77 orthonormal frame choose the two rank-one grade-one distortions
+
+```text
+U_+ = e^0 gamma_4,       U_- = e^0 gamma_10,
+< U_+, *U_+ > = +1,     < U_-, *U_- > = -1.
+```
+
+Their wedge squares vanish. Levi-Civita differentiation preserves Clifford
+parity, while this Shiab reverses it, so `<T,S(D_B T)>=0` for grade-one `T`.
+The cubic term vanishes for these rank-one fields; the curvature-linear
+term cancels between opposite amplitudes. Consequently
+
+```text
+I1B[epsilon f U_±] + I1B[-epsilon f U_±] - 2 I1B[0]
+    = ± kappa epsilon² integral_Y f² vol_G.
+```
+
+For nonzero `kappa` these nonzero values occur in the kernel of **all**
+section jets. The algebraic signs and parity witnesses are exact probe
+checks; bump support and parity give the analytic argument for varying
+frames. If `I1B` factored through `P` on this smooth field space, the left
+side would have to vanish. It does not. Bare observation is therefore not
+an action quotient on this selected completion.
+
+This is an off-shell failure of action descent. It is **not** a Hamiltonian
+instability proof, a claim about physical particles, or an exclusion of
+integrating out fields, solving constraints, or imposing another justified
+domain. Analytic fields would require a different support argument. A
+physical restriction must supply exactly the additional dynamics or domain
+that the bare observation map lacks; it cannot be inferred from visibility.
+
+This also explains the demonstrated underdetermination. The available
+classical and observational data do not specify a common tuple
+
+```text
+(admissible solutions, constraints/reduction, physical real structure,
+ physical state completion, positive pairing, self-adjoint H and its domain).
+```
+
+Replacing missing entries by a preferred positive norm changes the question;
+identifying the entire observation kernel with gauge directions contradicts
+the explicit action-descent test above. The external Chern–Simons and
+indefinite Yang–Mills examples show that group data alone permit opposite
+energy outcomes, but are not asserted to be two completions of the full GU
+action. The obstruction to a verdict is thus a definite unconstructed
+physical reduction and operator/domain, not a claim that all future GU
+quantizations are impossible. This is underdetermination of the specified
+physical object, not an undecidability theorem about the existence problem.
+
+## 7. Verdict and the evidence that would change it
+
+**Scoped adjudication:** §3.1 does not establish its claimed GU-specific
+no-go. Its literal group-only inference fails in the cited Chern–Simons
+setting. Its strongest plausible Yang–Mills reading has a valid conditional
+negative-energy calculation on the ordinary action, but no established GU
+applicability bridge. Citing Chern–Simons alone does not answer that reading.
+Our earlier “refuted” framing must not be read as dismissing the intended
+physical concern. This is not a wrong-target verdict on every reading of
+§3.1; SA-U1 is the same unresolved physical obligation.
+
+**Surviving obligation:** a source-supported GU physical sector satisfying
+all three positivity requirements remains unproved. The flat instability is
+conditional; its transfer to canonical Zorro geometry fails. The larger
+curved stationary family now supports a direct two-sided quadratic energy
+obstruction, and that energy fails to descend even through the smooth
+section germ. This identifies an unstable classical quadratic functional
+in the selected reconstruction. It does not identify a completed interacting
+physical GU Hamiltonian or prove that every possible selection fails.
+SC-META-53 stays `UNCERTAIN`; SA-U1/H59 stay open.
+
+The next discriminating object is an actual **admissible physical sector
+and map** excluding the exhibited constrained negative-energy family, with
+its remaining equations, interactions, observed Hamiltonian and common
+domain. The real-only restriction is nonlinearly consistent; its pure-base
+Hessian and remaining coupled metric constraints still need calculation
+before positivity can be assessed. A source-selected positive conserved
+pairing and lower energy bound must hold on the same sector. Neither a
+local observation projection nor the tested naive ambient compact
+restriction supplies this. The existence of every other completion remains
+outside the proved obstruction's scope.
+
+The source and applicability analysis is substantive enough for a
+[standalone expository technical-note draft](../../papers/drafts/complex-gauge-unitarity/README.md),
+with a compiled PDF and reproducible source. It claims no new Witten result,
+no universal GU physical verdict, and no novelty for its elementary
+comparator proofs. The PDF now includes the conditional native-action
+research summary. A paper claiming to discharge the GU-specific positivity
+obligation remains premature for the precise missing result above. The geometric
+probe results above are preserved in their existing scope but are not
+needed as load-bearing premises of the standalone note.
+
+## Reproduction and evidence limits
+
+Run the two new probes with SymPy 1.14.0:
+
+```bash
+uv run --no-project --with sympy==1.14.0 python -B tests/channel-swings/native_zorro_geometry_probe.py
+uv run --no-project --with sympy==1.14.0 python -B tests/channel-swings/native_zorro_i1b_probe.py
+```
+
+They perform 10 geometry and 16 action checks using exact rational/Clifford
+arithmetic. Koszul uniqueness, the independent Ricci contraction, spin
+commutator identities, normal-row polarization and analytic subtraction
+corroborate the decisive steps. The existing 29-check flat scalar and
+26-check constant-background receipts remain evidence for their declared
+surrogate. The original assessment did not include a Lean run; the follow-up
+below addresses selected deductions. No Sage run, independent later review,
+canon promotion, physical-domain certificate or full quantum calculation is
+claimed.
+
+The [original assessment receipt](../../lab/process/nguyen-section-3-1-assessment.json)
+records its historical dependencies, results and validation. The
+[current adjudication receipt](../../lab/process/nguyen-section-3-1-adjudication.json)
+records the revised owner, source audit, focused reruns and draft build. The
+[source receipt](../../lab/sources/noncompact-quantization-primary-pack-2026-10-08.json)
+records pinned URLs and hashes. Downloaded PDFs follow the repository's
+ignore rule; a fresh clone can retrieve them from that receipt.
+
+
+## Lean follow-up and confidence boundary (2026-10-08)
+
+After the charitable-reading correction above, confidence remains high in
+the narrow inference objection: the cited paper
+explicitly distinguishes its Chern–Simons construction from indefinite
+ordinary Yang–Mills. The appropriate conclusion is that **complexification
+alone does not establish GU inconsistency**. A counterexample in a different
+theory does not prove that a GU-specific no-go, with additional action and
+domain assumptions, would be false. No numerical confidence in GU's physical
+validity is inferred.
+
+Lean source is in
+[`GUFormalization.NguyenPositivityKernels`](../../Lean/GUFormalization/NguyenPositivityKernels.lean).
+**The named target passed Lean 4.32.0-rc1: all five theorems are checked.**
+The logical theorem uses no axioms; the other theorems use only the standard
+`propext`, `Classical.choice` and `Quot.sound` foundations, with no physics
+postulates or unfinished proofs. The exact build output and scope are in the
+[formalization receipt](../../lab/process/nguyen-positivity-lean.json).
+This is a focused module build, not a fresh build of every repository module.
+
+| Theorem | What is encoded | What remains outside Lean |
+| --- | --- | --- |
+| `witness_refutes_universal_failure` | A supplied unitary, bounded-energy complexified witness refutes a universal failure implication | Construction of the witness, the physical predicates and Witten's theory; this theorem is logical bookkeeping, not independent physics evidence |
+| `positive_conserved_form_excludes_growing_eigenvector` | A nonzero real growing eigenvector cannot belong to a strictly positive bilinear carrier with a form-preserving linear generator | GU's physical domain and the admission of the calculated mode |
+| `nonzero_even_difference_prevents_action_descent` | A nonzero symmetric action difference within one observation fibre excludes factorization of the action through observation | Smooth bump construction, Clifford parity and the GU interpretation of the maps |
+| `canonical_three_block_no_solution` | The five supplied necessary polynomial equations have no real solution for any coupling | The geometric and variational derivation of those equations |
+| `canonical_three_block_no_solution_zero_coupling` | The same incompatibility includes zero coupling | The same geometric bridge |
+
+The [coefficient probe](../../tests/channel-swings/nguyen_lean_coefficients_probe.py)
+reads the polynomial definition from the Lean source, reconstructs its
+coefficients independently using full spin curvature, covariant derivatives
+and Clifford polarization, and compares all five rows exactly. That bridge
+is Python/SymPy evidence; it is not relabeled a Lean proof. The named module
+can be checked with `lake build GUFormalization.NguyenPositivityKernels`;
+its printed theorem dependencies make the trust boundary inspectable.
+
+An end-to-end Lean proof of the imported physical construction would have
+to construct the relevant complex gauge theory, reduced state space,
+positive pairing, unitary transport and Hamiltonian, and prove their
+relationships. Passing Witten's conclusions as hypotheses proves only the
+conditional deduction above. No such full formalization is claimed here,
+and no physics claim is introduced as a new Lean postulate.

@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "delta_id": "GU-NATIVE-I1B-REAL-ENERGY-2026-10-09",
+  "status": "integrated",
+  "base": {
+    "ledger_ref": "lab/process/conditional-physics-ledger-v0.264.json",
+    "ledger_sha256": "71ac7d39169cce3fd053a7dad03c103b3a2674b98b9609b4b68029662d0c8655"
+  },
+  "affected_rows": [
+    "LT-SM8",
+    "LT-GR6b"
+  ],
+  "result_refs": [
+    "explorations/conditional-build/native-zorro-real-energy-2026-10-09.md",
+    "lab/process/native-zorro-real-energy.json"
+  ],
+  "source_disposition": "Selected bosonic reconstruction only; SC-META-53 remains UNCERTAIN and no source-owned action-root candidate is admitted.",
+  "claim_ceiling": "Real compact-core quadratic energy and all-order formal coupled boundary compatibility; no global evolution or source-selected physical domain.",
+  "proposed_effect": {
+    "summary": "Append real energy evidence to both NEEDS rows without changing any protected field or discharging INHERITANCE_BRIDGE.",
+    "requested_row_changes": [
+      "LT-SM8: append real compact-core energy evidence with exact metric decoupling",
+      "LT-GR6b: append all-order formal coupled boundary compatibility and the same bounded energy obstruction"
+    ]
+  },
+  "conflict_keys": [
+    "LT-SM8.NATIVE-I1B",
+    "LT-GR6b.NATIVE-I1B"
+  ],
+  "integration": {
+    "disposition": "incorporated",
+    "canonical_ledger_ref": "lab/process/conditional-physics-ledger-v0.265.json",
+    "reason": "All prior protected fields, active counts, named conditions and hypotheses preserved; new real-sector energy evidence has a compact-core/domain ceiling."
+  }
+}

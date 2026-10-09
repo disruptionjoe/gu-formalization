@@ -1,0 +1,472 @@
+{
+  "schema_version": 1,
+  "artifact_type": "manuscript_research_corpus",
+  "as_of": "2026-10-09",
+  "manuscript": "Two-Sided Quadratic Energy in a Curved I1B Reconstruction",
+  "status": "unpublished_draft",
+  "basis_revision": "f18b19f6",
+  "original_local_scientific_markdown_files_covered": 17,
+  "scope": "Full recent positivity/I1B corpus, with the separately owned merged quantum/PDE sequence through K1600. This manifest maps and pins research inputs; it is not independent mathematical verification.",
+  "inputs": [
+    {
+      "path": "Lean/GUFormalization/NguyenPositivityKernels.lean",
+      "sha256": "0aadd5a41ef083bda26b90fe7f0282a819814ea9ccfbc46e887abeda267fd8b0",
+      "manuscript_sections": [
+        "sec:verification"
+      ],
+      "role": "scoped_formal_deductions"
+    },
+    {
+      "path": "explorations/conditional-build/conditional-physics-ledger-v0.264.md",
+      "sha256": "97be732b5de5f02d2153f6acdef2568c499853e95c5e0893bc2a776d88f4fe3c",
+      "manuscript_sections": [
+        "sec:verification"
+      ],
+      "role": "standing_status_history_not_a_proof_premise"
+    },
+    {
+      "path": "explorations/conditional-build/conditional-physics-ledger-v0.265.md",
+      "sha256": "bdab1446d3612fb38aa68310a495ed5b254bf9c366df824ac9ab9ca290ea5c46",
+      "manuscript_sections": [
+        "sec:verification"
+      ],
+      "role": "standing_status_history_not_a_proof_premise"
+    },
+    {
+      "path": "explorations/conditional-build/k1538-k1542-ultraviolet-sign-texture-capacity-boundary-2026-10-08.md",
+      "sha256": "7dbb2b0510bfd09cd6cea62520f9e5aca43506088fab125b138ad43c9a0ce685",
+      "manuscript_sections": [
+        "sec:quantum",
+        "app:quantum-map"
+      ],
+      "role": "separate_repository_quantum_pde_control"
+    },
+    {
+      "path": "explorations/conditional-build/k1543-k1547-lamellar-sign-texture-obstruction-2026-10-08.md",
+      "sha256": "d236a495baeab8a6715246c37e22e9d7eb97b535e447a16effc291c569702423",
+      "manuscript_sections": [
+        "sec:quantum",
+        "app:quantum-map"
+      ],
+      "role": "separate_repository_quantum_pde_control"
+    },
+    {
+      "path": "explorations/conditional-build/k1548-k1553-universal-sign-shell-obstruction-2026-10-08.md",
+      "sha256": "7330ea6bc221f1533e292f8cb6ec6de72e124b840030c24dff499c45538fec93",
+      "manuscript_sections": [
+        "sec:quantum",
+        "app:quantum-map"
+      ],
+      "role": "separate_repository_quantum_pde_control"
+    },
+    {
+      "path": "explorations/conditional-build/k1554-k1559-spectral-shell-and-normal-form-boundary-2026-10-08.md",
+      "sha256": "f4359e096cdb14a115038a2b69d5c80a7db47d3171147143a593fb99f5dfa694",
+      "manuscript_sections": [
+        "sec:quantum",
+        "app:quantum-map"
+      ],
+      "role": "separate_repository_quantum_pde_control"
+    },
+    {
+      "path": "explorations/conditional-build/k1560-k1565-squeezed-coefficient-and-radial-normal-form-boundary-2026-10-09.md",
+      "sha256": "6953218134e8103c40afb314fd87633c4dd5f72856abc3e8c89e2cf30a778d95",
+      "manuscript_sections": [
+        "sec:quantum",
+        "app:quantum-map"
+      ],
+      "role": "separate_repository_quantum_pde_control"
+    },
+    {
+      "path": "explorations/conditional-build/native-i1b-constant-background-2026-10-08.md",
+      "sha256": "2f7cdcbbf33e238cc6f6490ffc4e6e1841487b3b8862975870782b02087d2777",
+      "manuscript_sections": [
+        "sec:flat"
+      ],
+      "role": "flat_surrogate_derivation_with_correction"
+    },
+    {
+      "path": "explorations/conditional-build/native-i1b-scalar-closure-2026-10-08.md",
+      "sha256": "c88ed4e6915b19f1283dd88303811fba76dfc70fd898276e1626557b68e5fc6d",
+      "manuscript_sections": [
+        "sec:flat"
+      ],
+      "role": "flat_surrogate_derivation_with_correction"
+    },
+    {
+      "path": "explorations/conditional-build/native-zorro-algebraic-reduction-2026-10-08.md",
+      "sha256": "678d52703230091c166af28570696a472cfbc3902537b1583f31b76d1299c278",
+      "manuscript_sections": [
+        "sec:reduction"
+      ],
+      "role": "derivation"
+    },
+    {
+      "path": "explorations/conditional-build/native-zorro-boundary-constraints-2026-10-08.md",
+      "sha256": "a9bf49d8755e98417b556f959ef4f3fdad5aea6b7663fc7c636064d957118ea6",
+      "manuscript_sections": [
+        "sec:boundary",
+        "sec:real"
+      ],
+      "role": "derivation"
+    },
+    {
+      "path": "explorations/conditional-build/native-zorro-constrained-energy-2026-10-08.md",
+      "sha256": "da5997809466e3c816f9212bcd6c5ee06d531d142834cb29d67639356c2fbf47",
+      "manuscript_sections": [
+        "sec:imaginary",
+        "sec:selection"
+      ],
+      "role": "derivation"
+    },
+    {
+      "path": "explorations/conditional-build/native-zorro-metric-perturbation-2026-10-08.md",
+      "sha256": "a805b0ec1537ce804911cc603e769de794f1859c086cbe26cf1dd30148b339ee",
+      "manuscript_sections": [
+        "sec:reduction"
+      ],
+      "role": "derivation"
+    },
+    {
+      "path": "explorations/conditional-build/native-zorro-real-energy-2026-10-09.md",
+      "sha256": "ae4aba8795709836f8d87f5bac2179eca70bebab4b60df0200929b7d032d9eee",
+      "manuscript_sections": [
+        "sec:real",
+        "sec:selection"
+      ],
+      "role": "derivation"
+    },
+    {
+      "path": "explorations/conditional-build/native-zorro-real-metric-hessian-2026-10-08.md",
+      "sha256": "2287d8b67083f2c7650115e7cd2a47d2d2d74609af30ebe7a4259095dc1f4f89",
+      "manuscript_sections": [
+        "sec:boundary"
+      ],
+      "role": "derivation"
+    },
+    {
+      "path": "explorations/conditional-build/native-zorro-real-packet-and-selection-2026-10-08.md",
+      "sha256": "bb32acead117f80ee3c0a88d72b7cd0f26a09ee45f49d31598f5b63188ab04ee",
+      "manuscript_sections": [
+        "sec:reduction",
+        "sec:selection"
+      ],
+      "role": "derivation"
+    },
+    {
+      "path": "explorations/conditional-build/native-zorro-stationary-background-2026-10-08.md",
+      "sha256": "a6fc9a36ee2ae72d7cd563b753c884bd4cc68a8db9cce3984d943ed4f78dd983",
+      "manuscript_sections": [
+        "sec:background",
+        "app:algebra"
+      ],
+      "role": "derivation"
+    },
+    {
+      "path": "explorations/conditional-build/nguyen-static-pairing-and-energy-2026-10-07.md",
+      "sha256": "6fa68291aed1362a8498916fcbbf528ab96f2037c9a4f7a1314a929d28569088",
+      "manuscript_sections": [
+        "sec:controls"
+      ],
+      "role": "derivation"
+    },
+    {
+      "path": "explorations/k1566-k1570-profile-current-boundary-2026-10-09.md",
+      "sha256": "c82daeea522bd64e20b5fcc0837b15d34496496cbf5584c484360269aa16ee5b",
+      "manuscript_sections": [
+        "sec:quantum",
+        "app:quantum-map"
+      ],
+      "role": "separate_repository_quantum_pde_control"
+    },
+    {
+      "path": "explorations/k1571-k1575-profile-asymptotic-radius-budget-2026-10-09.md",
+      "sha256": "44b0d080aacd7e67b7d676a71930710070dc870c8289fde21be22bfe40529753",
+      "manuscript_sections": [
+        "sec:quantum",
+        "app:quantum-map"
+      ],
+      "role": "separate_repository_quantum_pde_control"
+    },
+    {
+      "path": "explorations/k1576-k1580-nongaussian-coefficient-flat-connection-2026-10-09.md",
+      "sha256": "d2eeb58bbd447cb62ba2d988a58bf5140b34720bccb23c752f69a00e9fab8582",
+      "manuscript_sections": [
+        "sec:quantum",
+        "app:quantum-map"
+      ],
+      "role": "separate_repository_quantum_pde_control"
+    },
+    {
+      "path": "explorations/k1581-k1585-negative-defect-holonomy-split-2026-10-09.md",
+      "sha256": "3865b674ec781d32b9e8e6f9d0f7974537b678ea110a7c673e886af35ceed7fc",
+      "manuscript_sections": [
+        "sec:quantum",
+        "app:quantum-map"
+      ],
+      "role": "separate_repository_quantum_pde_control"
+    },
+    {
+      "path": "explorations/k1586-k1590-residual-ritz-harmonic-orbit-2026-10-09.md",
+      "sha256": "2f9634f1887a5a421fe3713c102bf726c2a156f6ef6fefb5b75316e34436e182",
+      "manuscript_sections": [
+        "sec:quantum",
+        "app:quantum-map"
+      ],
+      "role": "separate_repository_quantum_pde_control"
+    },
+    {
+      "path": "explorations/k1591-k1595-cat-mixture-angular-holonomy-2026-10-09.md",
+      "sha256": "895d636ef47505472651465aa8f33da00e8edc58db21391d2ae09838ff6dd90e",
+      "manuscript_sections": [
+        "sec:quantum",
+        "app:quantum-map"
+      ],
+      "role": "separate_repository_quantum_pde_control"
+    },
+    {
+      "path": "explorations/k1596-k1600-location-mixtures-transverse-modes-2026-10-09.md",
+      "sha256": "25418366f4499005a90f9b49ccbb9244f3e62672ef6f1a12679c002c87736c92",
+      "manuscript_sections": [
+        "sec:quantum",
+        "app:quantum-map"
+      ],
+      "role": "separate_repository_quantum_pde_control"
+    },
+    {
+      "path": "explorations/nguyen-gu-critique/section-3-1-end-to-end-assessment-2026-10-08.md",
+      "sha256": "8d4c332dc1fe659f6e7bcd8a2f87e7a0f77d68ecc6f16de2856f21be4b5a37de",
+      "manuscript_sections": [
+        "sec:scope",
+        "sec:background",
+        "sec:controls"
+      ],
+      "role": "source_applicability_and_geometry"
+    },
+    {
+      "path": "explorations/nguyen-objection-banked-mathematics-register-2026-08-13.md",
+      "sha256": "9657db54dc16b07cf141710c44f22c4fc8441f29b7eda483bdc91f93bd06b760",
+      "manuscript_sections": [
+        "sec:scope",
+        "sec:verification"
+      ],
+      "role": "claim_indexed_attribution_boundary"
+    },
+    {
+      "path": "lab/sources/noncompact-quantization-primary-pack-2026-10-08.json",
+      "sha256": "5a0fabee78f9af51be860d63beb1828f0245eef246847e1b9c9a2f36918c4908",
+      "manuscript_sections": [
+        "sec:ym",
+        "sec:witten"
+      ],
+      "role": "primary_source_custody"
+    },
+    {
+      "path": "lab/sources/quantum-positivity-primary-pack-2026-10-07.json",
+      "sha256": "34e4a2a845c4c1938f6f06634a04433c61886514179121cbdd8afe6c9fb4628d",
+      "manuscript_sections": [
+        "sec:controls"
+      ],
+      "role": "primary_source_intake_and_custody"
+    },
+    {
+      "path": "lab/sources/quantum-positivity-primary-pack-2026-10-07.md",
+      "sha256": "a4a9b9934699e27f0435b8cbff4b980fe7bee61268dae9c5003de3aab2209180",
+      "manuscript_sections": [
+        "sec:controls"
+      ],
+      "role": "primary_source_intake_and_custody"
+    },
+    {
+      "path": "lab/sources/witten-noncompact-quantization-source-audit-2026-10-08.json",
+      "sha256": "15e94d390f85bbb01e6f82925ed69830101ec57f0dd570a6baa6f410ab65e91a",
+      "manuscript_sections": [
+        "sec:witten"
+      ],
+      "role": "primary_source_audit_and_custody"
+    },
+    {
+      "path": "lab/sources/witten-noncompact-quantization-source-audit-2026-10-08.md",
+      "sha256": "876524360b16bcd79affac361ea1d41e244231c73080d882cc837bd67cf56939",
+      "manuscript_sections": [
+        "sec:witten"
+      ],
+      "role": "primary_source_audit_and_custody"
+    }
+  ],
+  "unchanged_python_certificates": [
+    {
+      "path": "tests/channel-swings/native_i1b_constant_background_probe.py",
+      "sha256": "62125c8fa57a260f397cba91c9d1a2d455c682d9dc91ac115ed8e0da175700f4",
+      "result": "PASS"
+    },
+    {
+      "path": "tests/channel-swings/native_i1b_scalar_closure_probe.py",
+      "sha256": "7e1bfdfb4485710caa5b2696e81b0fff593ebdc62d6a04ae91ffaa634d703b38",
+      "result": "PASS"
+    },
+    {
+      "path": "tests/channel-swings/native_zorro_algebraic_reduction_probe.py",
+      "sha256": "f115d4d74b8c4fa194a3a4905625ef149877786c6ee5bc0e145ef03db81ff5f8",
+      "result": "PASS"
+    },
+    {
+      "path": "tests/channel-swings/native_zorro_boundary_constraint_probe.py",
+      "sha256": "5ba84f6f5ed1915cc2a6f9c97dd2ccc8c6e3aa0850e337f3a6bb173bed83928e",
+      "result": "PASS"
+    },
+    {
+      "path": "tests/channel-swings/native_zorro_constrained_energy_probe.py",
+      "sha256": "8fbdb1b70398748fa44bd3cac16c7357d03e078666194838c57324994abfce47",
+      "result": "PASS"
+    },
+    {
+      "path": "tests/channel-swings/native_zorro_geometry_probe.py",
+      "sha256": "9aa7e7414056f13f45a4d4a47d16ce761c804a672585504d52fcdb14a2952367",
+      "result": "PASS"
+    },
+    {
+      "path": "tests/channel-swings/native_zorro_i1b_probe.py",
+      "sha256": "3c802d8d8a6063853ca1c1ff23213bf67d14fa41eb1e613225f01dcf4c143e40",
+      "result": "PASS"
+    },
+    {
+      "path": "tests/channel-swings/native_zorro_matrix_energy_probe.py",
+      "sha256": "dd31a118fe0aec8d34712469c5e9c25eda42a688946ae1b82b769cef93d970e1",
+      "result": "PASS"
+    },
+    {
+      "path": "tests/channel-swings/native_zorro_metric_perturbation_probe.py",
+      "sha256": "22258c554d1043a2ade73c1527456985c0e5e109ab643d8a96028aec920ee30e",
+      "result": "PASS"
+    },
+    {
+      "path": "tests/channel-swings/native_zorro_real_energy_probe.py",
+      "sha256": "710295cee12d374769f5699fcbe10a2cc107ce501151840f1ccb95b6624f2e44",
+      "result": "PASS"
+    },
+    {
+      "path": "tests/channel-swings/native_zorro_real_metric_probe.py",
+      "sha256": "bd0d7b1bbd8fea6d22e7538bcd8e93e784eceaad9289acf65cad9c99adec7dbe",
+      "result": "PASS"
+    },
+    {
+      "path": "tests/channel-swings/native_zorro_real_packet_probe.py",
+      "sha256": "c6a5324bbdd8c3840a004e13be1aa0a6e86c0a73c6d10f816e1e9e0658dff87d",
+      "result": "PASS"
+    },
+    {
+      "path": "tests/channel-swings/native_zorro_stationary_background_probe.py",
+      "sha256": "5f9e096e58ad88bb8e5989eeccd5c01006c190db95ca1a5f0708555459012b91",
+      "result": "PASS"
+    },
+    {
+      "path": "tests/channel-swings/nguyen_lean_coefficients_probe.py",
+      "sha256": "3eb7469146c2e004eabae5136becec5b3f209a56371d99e995a9433d658656db",
+      "result": "PASS"
+    },
+    {
+      "path": "tests/channel-swings/nguyen_static_pairing_energy_probe.py",
+      "sha256": "2af83625feafac8cb21e997873bfcdaccd042bee6e6c6a299e7a636088337758",
+      "result": "PASS"
+    },
+    {
+      "path": "tests/channel-swings/quantum_positivity_scalar_transfer_probe.py",
+      "sha256": "77652611dc860db337bf793da4dff5e0f36446461e9492af92ae197e7f43f7fb",
+      "result": "PASS"
+    }
+  ],
+  "prior_validation_receipt": "lab/process/native-i1b-corpus-integration.json",
+  "typesetting_receipt": "papers/drafts/complex-gauge-unitarity/build/receipt.json",
+  "replaced_manuscript": {
+    "previous_current_revision": "f18b19f6",
+    "removed_current_source": "papers/drafts/complex-gauge-unitarity/build/source/research-update.tex",
+    "historical_receipt": "lab/process/nguyen-section-3-1-adjudication.json",
+    "historical_pins": [
+      {
+        "path": "papers/drafts/complex-gauge-unitarity/build/source/main.tex",
+        "sha256": "e0368bc735975f7e242921629a7dd08c3d16ae1de18fbe6202409de3731b229e",
+        "verified_at_local_revision": "b6473c53a0d12ed0f620e0241648442d4be54e96",
+        "available_snapshot": "lab/process/verification-snapshots/native-i1b/previous-paper-main.tex.txt"
+      },
+      {
+        "path": "papers/drafts/complex-gauge-unitarity/build/source/content.tex",
+        "sha256": "901d853a7cec56c83c81c38dbf145a88d2d25d9cf20fcc277375f6712c1548bf",
+        "verified_at_local_revision": "b6473c53a0d12ed0f620e0241648442d4be54e96",
+        "available_snapshot": "lab/process/verification-snapshots/native-i1b/previous-paper-content.tex.txt"
+      },
+      {
+        "path": "papers/drafts/complex-gauge-unitarity/build/source/references.bib",
+        "sha256": "50379536e00ef4fb1778f341c4267f44e21536924c243974da2ae68819309ac3",
+        "verified_at_local_revision": "b6473c53a0d12ed0f620e0241648442d4be54e96",
+        "available_snapshot": "lab/process/verification-snapshots/native-i1b/previous-paper-references.bib.txt"
+      },
+      {
+        "path": "papers/drafts/complex-gauge-unitarity/build/receipt.json",
+        "sha256": "0357d0603fbde6fbcfea4de778808b9db9d55cb15a4300b80720d582d584cedf",
+        "verified_at_local_revision": "b6473c53a0d12ed0f620e0241648442d4be54e96",
+        "available_snapshot": "lab/process/verification-snapshots/native-i1b/previous-paper-receipt.json.txt"
+      },
+      {
+        "path": "papers/drafts/complex-gauge-unitarity/README.md",
+        "sha256": "477603425b79aa332fb7512f6d576d60f6edfa0115e7fbafb099e9bac9266c35",
+        "verified_at_local_revision": "ca53f49ed0beef2974958d7c09f29d2bac09717f",
+        "available_snapshot": "lab/process/verification-snapshots/native-i1b/previous-paper-README.md.txt"
+      },
+      {
+        "path": "papers/drafts/complex-gauge-unitarity/build/source/research-update.tex",
+        "sha256": "2931482b37f5a976a64d23d2bc15428b0c6073dd6012d253ba57306d3e153808",
+        "verified_at_local_revision": "b6473c53a0d12ed0f620e0241648442d4be54e96",
+        "available_snapshot": "lab/process/verification-snapshots/native-i1b/previous-paper-research-update.tex.txt"
+      }
+    ],
+    "policy": "Original local revision identifiers are verification-time provenance, not required public Git objects. Exact historical text inputs are preserved as hash-checked snapshots indexed in lab/process/native-i1b-verification-history.json. Earlier receipts retain their original claims, commands and hashes; current reproduction follows the current artifact instructions."
+  },
+  "scope_clarifications": [
+    "The real-energy proof uses metric-decoupled distortion witnesses, not freely variable metric momenta.",
+    "All-order formal boundary compatibility does not prove convergence or closed evolution.",
+    "The transverse torus family has periodic full fields for commensurate frequencies and is otherwise quasiperiodic; its energy and variation conclusions hold in either case."
+  ],
+  "claim_boundaries": {
+    "canon_promotion": false,
+    "publication_authorized_or_performed": false,
+    "independent_analytic_review_performed": false,
+    "source_owned_physical_domain_constructed": false,
+    "quantum_hamiltonian_constructed": false,
+    "standing_ledger_verdicts_changed": false
+  },
+  "delivery_validation": {
+    "source_archive_rebuild": "PASS",
+    "offline": true,
+    "pages": 28,
+    "sources_hashed": 7,
+    "pdf_text_identical": true,
+    "pdf_bytes_identical": true,
+    "text_blocks_within_page": true,
+    "build_checks": {
+      "tex_exit_zero": true,
+      "references_resolved": true,
+      "citations_resolved": true,
+      "no_missing_glyphs": true,
+      "no_overfull_boxes": true
+    },
+    "underfull_box_notices": 0,
+    "article_pdf_sha256": "c511de7108cb1742fa9587c3aab6218877436c23aacb3682e05b989fa085ede8",
+    "source_zip_sha256": "fdab8cc8068ef37ffba5c1de3f9c09f71ba1bdcf18d9c42acac4f94d6fe8a2cd",
+    "visual_review": "Sampled title, contents, theorem, coefficient equations, tables, and bibliography pages inspected; no overlap or clipping found.",
+    "scope": "Delivery and correspondence only; no independent analytic review."
+  },
+  "focused_process_validation": {
+    "papers_readme_lifecycle_map_audit": "PASS: 5 tests",
+    "source_native_comparator_routing_audit": "PASS: 6 tests; five pre-existing unclassified entries unchanged",
+    "reproduction_docs_consistency_audit": "PASS: 4 tests",
+    "current_frontier_semantic_currency_audit": "PASS",
+    "frontmatter_status_schema_audit": "PASS: 0 failures",
+    "public_path_hygiene_audit": "PASS: 2 tests",
+    "scoped_typed_carrier_declaration_audit": "PASS: 0 red across manuscript overview, corpus map and assessment",
+    "scoped_kill_target_claim_audit": "PASS: 0 red across the same three owners",
+    "changed_markdown_links": "PASS: 183 resolved",
+    "git_diff_check": "PASS"
+  },
+  "local_revision_provenance": "Original local revision identifiers are verification-time provenance, not required public Git objects. Exact historical text inputs are preserved as hash-checked snapshots indexed in lab/process/native-i1b-verification-history.json. Earlier receipts retain their original claims, commands and hashes; current reproduction follows the current artifact instructions."
+}

@@ -1,0 +1,525 @@
+\section{Earlier controls and external positivity proposals}
+\label{sec:controls}
+
+These results helped formulate the physical question, but each has its own
+action and domain. They are not alternative derivations of the curved
+energy theorem. In particular an instability proved for a flat surrogate
+is not a growing-mode theorem for the curved background.
+
+\subsection{Positive spatial pairings do not ensure stable wave energy}
+For two complex scalar components on $\RR$, fix $b>0$ and a smooth real
+static function $r(x)$. Define
+\begin{equation}
+ K=\begin{pmatrix}r&1\\1&0\end{pmatrix},\quad
+ B=\begin{pmatrix}0&0\\r'&0\end{pmatrix},\quad
+ U=\begin{pmatrix}0&-b\\0&br\end{pmatrix},\quad
+ D=-I\partial_x^2-B\partial_x+U.
+ \label{eq:twowave}
+\end{equation}
+The declared wave equation is $u_{tt}+Du=0$, from the action
+$\frac12\int(u_t^TKu_t-u_x^TKu_x+u^T\diag(0,b)u)$.
+This is the observed two-field model, without an I1B identification
+\cite{StaticPairing}.
+
+Formal symmetry in a Hermitian multiplication pairing $W$ requires
+$2W'=B^TW+WB$ and $WU-U^TW+W''-(B^TW)'=0$.
+Solving both equations, including an imaginary off-diagonal entry before
+it is forced to vanish, gives every positive solution:
+\begin{equation}
+ W=s\begin{pmatrix}
+ c^2+\beta r+r^2/4&\beta+r/2\\\beta+r/2&1
+ \end{pmatrix},\quad
+ s>0,\ c>0,\ |\beta|<c,\quad
+ r''=\frac b2(r^2-4c^2).\label{eq:pairingclass}
+\end{equation}
+For $s=1$, $\beta=0$, the factor
+$F=\bigl(\begin{smallmatrix}c&0\\r/2&1\end{smallmatrix}\bigr)$
+satisfies $W=F^TF$. Conjugating and applying a constant orthogonal
+rotation gives scalar channels
+\begin{equation}
+ D_-=-\partial_x^2+b(r/2-c),\qquad
+ D_+=-\partial_x^2+b(r/2+c).\label{eq:scalar-channels}
+\end{equation}
+Every other allowed pairing becomes a positive constant weight on these
+same channels. For bounded smooth $r$, the profile equation and its first
+integral bound the derivatives needed for this similarity, giving a
+closed realization from the scalar $H^2(\RR)$ domains.
+
+\begin{proposition}[Bounded-profile energy criterion]
+Within \eqref{eq:pairingclass} on the whole line, $D\ge0$ precisely when
+$r\equiv2c$.
+\end{proposition}
+\begin{proof}
+A bounded profile cannot exceed $2c$: on any component where it does,
+$r''>0$, and convexity contradicts either the endpoint values or
+boundedness on a half-line or the whole line. Thus $b(r/2-c)\le0$.
+Unless $r=2c$ identically, it is strictly negative on some interval with
+integral $-\delta<0$. A trial function equal to one there and tapering
+to zero over lengths $L$ has kinetic cost $2/L$ and potential at most
+$-\delta$. Large $L$ and smooth approximation give a negative form
+value. At $r=2c$ both scalar potentials are nonnegative.
+\end{proof}
+
+For $k^2=bc/2$, the exact nonconstant profile
+$r=2c-6c\sech^2(kx)$ still has uniformly positive $W$.
+Its $D_-$ eigenfunctions $\sech^2(kx)$ and
+$\sinh(kx)\sech^2(kx)$ have eigenvalues $-4k^2$ and $-k^2$.
+They give growing wave solutions with rates $2k$ and $k$ on the stated
+domain. A positive conserved phase-space pairing cannot contain a
+nonzero generator eigenvector with positive real growth rate: if
+$Av=\gamma v$ and $A^\dagger G+GA=0$, then
+$2\gamma v^\dagger Gv=0$. This is a wave statement, distinct from
+positivity of the spatial weight and from the original indefinite
+canonical action.
+
+\subsection{Flat I1B surrogates and their correction}
+\label{sec:flat}
+The flat constant-coefficient completion used the same selected Shiab
+but set the ambient connection and curvature to zero. On fixed flat
+geometry, the radial restriction $T=\phi(t)\Phi_1$ omits normal bivector
+equations requiring $\phi'=0$. Adding one isotropic bivector amplitude
+$v$ still gives necessary equations
+\begin{align}
+ \kappa\phi+312\phi^2-\tfrac{260}{3}v^2&=0,\nonumber\\
+ v'&=\tfrac4{33}v^2,\qquad
+ -11\phi'-(\kappa+\tfrac{568}{3}\phi)v=0.\label{eq:flatclosure}
+\end{align}
+On an interval with $v\ne0$, differentiating the first equation forces
+$118976\phi^2+816\kappa\phi+\kappa^2=0$.
+Continuity then makes $\phi$ constant, contradicting the $v'$ equation.
+Thus this small nonlinear restriction supplies no varying solution.
+
+A larger linearized metric/distortion sector does have a growing mode
+in that surrogate. With diagonal spatial metric amplitude $\psi$, let
+$(a,b,d)$ be time, horizontal-spatial, and vertical grade-one coefficients,
+and $(u,w)$ their two bivector companions. The metric condition is
+$(b+5d)''=0$, and the coupled characteristic determinant is
+\begin{equation}
+ 21600\kappa^2z^4(113z^2-17\kappa^2).
+ \label{eq:flatdet}
+\end{equation}
+For $\kappa\ne0$ an exact mode has
+\begin{equation}
+ d=e^{\gamma t},\quad b=-5d,\quad a=0,\quad
+ u=-5d'/\kappa,\quad w=7d'/\kappa,\quad
+ \psi=135d/(17\kappa),\quad
+ \gamma=|\kappa|\sqrt{17/113}.\label{eq:flatmode}
+\end{equation}
+The certificate checks all ten metric rows and all 28 distortion rows
+in the closed label block; trace selection excludes omitted receivers.
+On the zero-affine branch its reduced energy is
+$565(d')^2/(2\kappa)-85\kappa d^2/2$.
+The separate distortion-only exponent $\kappa/11$ is removed by metric
+coupling. Neither calculation is transferred to the curved equilibrium.
+
+The associated co-moving flat constant-background experiment also has
+an exact exclusion. Its metric condition $L=0$, together with distortion
+scaling $3Q+\kappa N=0$, forces $Q=N=0$ at nonzero $\kappa$.
+On diagonal grade-one fields $N=\sum t_\mu^2$.
+Adding the two bivector companions makes $N$ indefinite, but the exact
+necessary stationary ideal, rescaled to unit coupling, is
+\begin{equation}
+ \langle\partial_a(Q+N/2),\partial_b(Q+N/2),
+ \partial_d(Q+N/2),\partial_u(Q+N/2),\partial_w(Q+N/2),N\rangle
+ =\langle a,b,d,u,w\rangle.\label{eq:flatideal}
+\end{equation}
+This rejects that five-field nonzero constant family \cite{FlatConstant}.
+Its $-8L$ metric variation belongs to the declared co-moving completion;
+\cref{sec:background} explains why it is not the independent $g$
+variation of the canonical metric bundle. The constant-background
+exclusion and growing mode remain exact results on their named object,
+with no canonical-curved or physical GU conclusion \cite{FlatScalar}.
+
+\subsection{The scope of the original objection}
+Nguyen--Polya's response is dated February 23, 2021 and discusses the
+2013 lecture with 2020 follow-up material as a pre-quantum classical
+proposal \cite[pp.~1--2]{NP}. Weinstein's written draft is dated
+April 1, 2021 \cite{GU}; later formulas cannot be treated as text the
+February authors overlooked. The response's Section 3.1 combines a
+real-structure objection with an inference from complexification to
+nonunitarity or two-sided unbounded energy.
+An abstract real vector-space isomorphism is different from an
+identification preserving representation, real structure, and operations.
+Even if a real identification needs correction, complexifying notation
+does not itself declare all complex components independent real physical
+fields. The source-phased slice in \eqref{eq:packets} is one reason those
+steps must be distinguished.
+
+A charitable dynamical reading asks about a propagating Yang--Mills
+sector with an indefinite invariant kinetic form. That is a substantive
+conditional concern, but its action and physical modes need an
+applicability proof. The following comparator makes those assumptions
+explicit.
+
+\section{The Yang--Mills obstruction with its hypotheses exposed}
+\label{sec:ym}
+
+Let $G$ be a connected Lie group whose real Lie algebra $\mathfrak g$
+has a nondegenerate, $\operatorname{Ad}(G)$-invariant symmetric bilinear
+form $\beta$. On
+$\mathbb R_t\times\mathbb T^d$, $d\geq2$, use the flat metric of signature
+$(-,+,\ldots,+)$, a trivial bundle, real connection components and
+\begin{equation}
+ S_{\YM}=-\frac1{4g^2}\int\beta(F_{\mu\nu},F^{\mu\nu})\,dt\,dx,
+ \qquad g^2>0. \label{eq:ym}
+\end{equation}
+With $E_i=F_{0i}$, the energy and Gauss constraint are
+\begin{align}
+ H&=\frac1{2g^2}\int_{\mathbb T^d}
+ \left(\sum_i\beta(E_i,E_i)+
+ \sum_{i<j}\beta(F_{ij},F_{ij})\right)dx, \label{eq:H}\\
+ D_iE_i&=0. \label{eq:Gauss}
+\end{align}
+Nondegeneracy of $\beta$ allows the usual identification of canonical
+momentum with $g^{-2}\beta(E,\cdot)$. All these assumptions belong to this
+comparator, not to GU by default.
+
+\begin{proposition}[Negative energy survives the ordinary Gauss constraint]
+\label{prop:negative}
+If some $X\in\mathfrak g$ has $\beta(X,X)<0$, the Hamiltonian
+\eqref{eq:H} is unbounded below on smooth Gauss-compatible initial data,
+even after ordinary gauge equivalence. If $\beta$ has both signs, the
+Hamiltonian is also unbounded above.
+\end{proposition}
+\begin{proof}
+Choose a nonzero smooth divergence-free real vector field $u$ on the
+torus and take
+\[
+ A_i=0,\qquad E_i=\lambda X u_i.
+\]
+Then $F_{ij}=0$ and $D_iE_i=\lambda X\partial_i u_i=0$, whereas
+\[
+ H=\frac{\lambda^2\beta(X,X)}{2g^2}
+       \int_{\mathbb T^d}|u|^2dx\longrightarrow-\infty.
+\]
+Gauge transformations preserve $H$ by invariance of $\beta$, so taking
+the gauge quotient cannot remove these values. Using a positive direction
+instead proves the assertion about the upper bound. For a nonconstant
+transverse example one may choose $u_1=\sin x^2$ and $u_i=0$ for $i\ne1$.
+\end{proof}
+
+This is an exact classical result, not a finite-difference instability
+or a proof about an unspecified quantum domain. It demonstrates why the
+negative internal direction is not merely the removable timelike
+polarization of ordinary compact Yang--Mills theory. On a one-color
+abelian subsector, $[X,X]=0$, so the negative sign is already visible in
+an ordinary transverse Maxwell mode.
+
+For example, if a complex Lie algebra carries a nondegenerate complex
+symmetric invariant form $b$, its underlying real vector space admits
+\[
+ \beta_c(X,Y)=\operatorname{Re}\bigl(c\,b(X,Y)\bigr),\qquad c\ne0.
+\]
+It is real nondegenerate: vanishing against both $Y$ and $iY$ forces
+$b(X,Y)=0$ for every $Y$. Moreover,
+$\beta_c(iX,iX)=-\beta_c(X,X)$, so its signature is split. This explains
+the kinetic-sign problem when this form and these real independent fields
+are actually used in \eqref{eq:ym}. It says nothing about a theory with
+a different action or physical reduction.
+
+The usual quantum alternative is equally concrete at the linear level.
+A negative transverse oscillator quantized on positive $L^2(\mathbb R)$
+has
+\[
+ \widehat H=-\tfrac12(\widehat p^{\,2}+\omega^2\widehat q^{\,2}),
+ \qquad \operatorname{spec}(\widehat H)
+ =\{-\omega(n+\tfrac12):n\geq0\}
+\]
+in units $\hbar=1$. It is self-adjoint and generates unitary time
+evolution, but is not bounded below. Exchanging the roles of annihilation
+and creation operators to reverse the ladder gives a negative one-particle
+norm if the same adjoint and canonical commutator are retained. This
+explains the conventional dilemma; it is not a classification of all
+possible contours, representations or constrained quantum theories.
+Witten's introductory comparison makes the corresponding action-dependent
+point \cite[report pp.~2--3]{WittenReport}.
+
+\section{What Witten's construction does and does not say}
+\label{sec:witten}
+
+Witten studies three-dimensional Chern--Simons theory for the
+complexification $G_{\mathbb C}$ of a compact group $G$, not a propagating
+Yang--Mills curvature-square theory. His action pairs a
+complex connection $\mathcal A$ with its complex conjugate in two
+Chern--Simons terms, with couplings $t=k+is$ and
+$\widetilde t=k-is$. In the real-$s$ branch relevant here, $k$ is
+quantized and $s$ is real, with $t,\widetilde t\ne0$ for the displayed
+connection formulas (for example $k=s=1$); the physical reality condition and the
+choice of polarization are part of the construction. No assertion about
+arbitrary complex couplings is needed. The alternative imaginary-$s$
+positive construction is explicit only in genus one with restricted
+parameters; no all-genus positivity assertion from that branch is used.
+
+In canonical quantization on $\Sigma\times\mathbb R$, with $\Sigma$
+a closed oriented surface, the time component of the connection imposes
+flatness. The phase space is a moduli space of flat complex connections,
+not the unconstrained space of transverse Yang--Mills waves. The
+Hamiltonian of this pure theory is a constraint and vanishes on reduced
+physical states. Thus the time evolution of this fixed, source-free
+closed-surface problem is the identity. A zero Hamiltonian is bounded
+below, but this does not imply that the state space is empty or that all
+topological observables are trivial. Boundary terms, puncture/source
+insertions and chosen boundary dynamics require a separate analysis;
+one may not export $H=0$ to those problems or to a propagating theory.
+
+The journal identity is \cite{Witten1991}; the precise theorem used here concerns a \emph{connection on a Hilbert
+bundle over Teichm\"uller space}, the parameter space of auxiliary complex
+structures on $\Sigma$. The fiber is described as $L^2(\mathcal M,L^k)$,
+where $\mathcal M$ is the compact-group moduli space used in the chosen
+polarization and $L^k$ its quantization line bundle. For real $s$, the
+specified corrected connection $\delta^Q$ is unitary and projectively
+flat, with central curvature of type $(1,1).$ The pairing has the form
+$\int_{\mathcal M} H(\chi,\psi)\,d\mu$, where $H$ incorporates the
+regularized Laplacian determinant; conjugation by $H^{1/2}$ identifies it
+with the ordinary positive $L^2$ pairing. This is unitary
+\emph{parameter-space transport}, not a theorem identifying a
+four-dimensional physical-time Hamiltonian. Projective flatness also
+retains a scalar-phase issue; it is not literal flatness.
+
+There is a further rigor qualification. Witten gives heuristic reasoning
+for the quantum correction to the connection, then proves the stated
+properties of the selected formulas. Moduli-space singularities,
+noncompactness and the definition of general functional integrals are
+not thereby eliminated. In particular, the identification of the reduced
+state space uses the dense stable locus and the corresponding
+Narasimhan--Seshadri description; it is not an unrestricted assertion
+about every singular stratum. The paper supplies a mathematical construction
+and a substantive counterexample to the group-only slogan in its stated
+quantization setting; it is not a complete axiomatic construction of
+interacting QFT for every complex group. The positive pairing and the
+closed-surface zero-Hamiltonian argument are separate ingredients.
+Neither should be replaced by the bare word ``unitary.''
+
+All detailed formula locators in this paragraph refer to the
+44-page IASSNS-HEP-89/65 report: \S3, p.~8 (closed surface);
+\S4, pp.~19--21 (correction and theorem); \S4.1, pp.~22--23,
+Eqs.~(4.12) and (4.16) (pairings) \cite{WittenReport}.
+The journal bibliographic identity is verified, but its typesetting was
+not independently inspected; no journal page is used as a formula locator.
+
+
+\subsection{Perturbative noncompact Chern--Simons and the GU transfer}
+Bar-Natan--Witten study perturbation theory with a noncompact gauge group
+and a gauge-fixed kinetic construction using an auxiliary positive form
+\cite{BNW}. Its gauge fixing and operator are part of that construction;
+changing the pairing does not leave an arbitrary action and domain
+unchanged. Neither this perturbative result nor Witten's
+parameter-space theorem identifies an interacting four-dimensional GU
+Hamiltonian.
+
+In the source, $I_1^B$, its printed residual
+$\Upsilon^B=\cS(F_A)+*\kappa T$, and $I_2^B=\|\Upsilon^B\|^2$ are
+separate variational owners. For a residual-square functional
+$S(\phi)=Q_\phi(R(\phi),R(\phi))$ at $R(\phi_0)=0$,
+\[
+ D^2S_{\phi_0}(v,w)=2Q_{\phi_0}(DR_{\phi_0}v,DR_{\phi_0}w).
+\]
+An indefinite ambient form alone does not determine its restriction to
+the derivative image. Nor does the symbol $\|\cdot\|^2$ prove positivity.
+The direct I1B energy calculation in this paper differentiates its own
+action and solves its own primary equations; it requires neither
+comparator transfer.
+
+Accordingly the group-only inference does not establish the GU-specific
+energy conclusion. The ordinary Yang--Mills proposition establishes its
+conditional obstruction on \eqref{eq:ym}. The I1B result establishes a
+separate obstruction on \eqref{eq:action}. Citing complex Chern--Simons
+alone supplies no positive physical completion of either propagating
+model. These judgments bind the stated objects, not a critic or a theory
+as an undifferentiated whole.
+
+\subsection{Scalar and composite-observable donors}
+The dated source intake also inspected four-derivative scalar and
+composite-observable proposals \cite{ScalarIntake}. These are independent
+models. In the fixed scalar basis $Q=\Box\sigma$, $X=(\partial\sigma)^2$,
+a complete-square diagnostic for $aQ^2+bQX+cX^2$, $a\ne0$, is
+$4ac-b^2=0$. In the normalization
+$-Q^2/2+\lambda_3XQ+\lambda_4X^2$, it becomes
+$\lambda_4=-\lambda_3^2/2$, with RG tangency
+$\beta_4+\lambda_3\beta_3=0$ on the branch.
+Passing that test does not prove closure of a scalar embedding under
+normal Euler equations.
+
+Anderson--Bateman--Herzog--Turok's inspected version gives three-loop
+renormalization identities and a nonexceptional off-shell infrared
+argument \cite{ABHT}; its on-shell inclusive probability problem is
+separate. The cubic momentum polynomial reduces under conservation to
+$2(p\cdot q)^2-2p^2q^2$, providing the soft-momentum factors needed in
+that model. A transfer must retain that interaction grammar, not only
+a conformal resemblance.
+There is also a bounded displayed-coefficient correction: from
+\[
+ L=-\Upsilon\Box\Omega-\frac g6\Omega^2\Upsilon^2
+\]
+one obtains $\Upsilon=-3\Box\Omega/(g\Omega^2)$ and
+$L_{\mathrm{eff}}=3(\Box\Omega/\Omega)^2/(2g)$ for
+$g\Omega\ne0$. The inspected Eq.~(5.4) instead prints $1/(2g)$.
+The source intake checks the PDF, HTML, and original TeX identity.
+This discrepancy does not negate the separate loop calculation.
+Bateman--Turok's tree-level ghost-parity result \cite{BT} does not
+by itself establish loop positivity for a GU sector.
+
+Amaral--Lemes' inspected second version constructs a cocycle in an
+enlarged background-equivariant theory and a positive leading one-loop
+composite spectral density \cite{AL}. BRST closure and positivity of the
+full interacting operator are different conclusions.
+Asorey and collaborators analyze a subtracted composite spectral
+representation and a bubble-resummed bound-state correlator of
+conjugate-mass fields \cite{AKPS}. Continuum density, isolated pole
+residue, and contact subtractions must be checked separately; this is
+not positivity of every Schwinger function. These exact-version source
+records provide possible methods and tests, without a native GU transfer
+or a claim about newer literature.
+
+\section{Separate cutoff quantum and gauge--matter controls}
+\label{sec:quantum}
+
+The merged research corpus includes a distinct variational and PDE
+sequence. This section states its current yield with its own objects;
+none is used as a premise of \cref{thm:main}.
+Take the normalized three-torus, cube cutoff
+$K_N=\{k\in\mathbb Z^3:\|k\|_\infty\le N\}$, fixed $m,g>0$, and
+$\omega_k=(m^2+|k|^2)^{1/2}$.
+The positive Wick-square control has free Gaussian form $q_0$ and
+\begin{equation}
+ C_N=\sum_{k\in K_N}(2\omega_k)^{-1},\quad
+ W_N=\int_{\TT^3}(\phi_N^2-3C_N)^2,\quad
+ E_N=\inf_{\|\psi\|=1}\{q_0[\psi]+g\mathbb E_{|\psi|^2}W_N\}.
+ \label{eq:quantum-control}
+\end{equation}
+This positive shifted polynomial convention must not be confused with
+an unshifted normal-ordered quartic Hamiltonian.
+
+\subsection{From sign texture to the quartic exponent}
+For a real degree-$N$ field $f$, set
+$\delta=\int(f^2-1)^2$ and let a fixed-ratio Fourier shell of
+$\operatorname{sgn}f$ carry $L^2$ mass at least $\eta>0$.
+Since $\|f-\operatorname{sgn}f\|_2^2\le\delta$, a small defect forces
+$\|\nabla f\|_2^2\ge\alpha^2\eta N^2/4$.
+On $B=\{|f|<1/2\}$, its measure is at most $16\delta/9$ and
+Bernstein--H\"older gives gradient cost at most $CN^2\sqrt\delta$.
+On $B^c$, differentiating $f^2-1$ bounds it by $4N^2\delta$.
+After canceling $N^2$,
+\[
+ \alpha^2\eta/4\le C\sqrt\delta+4\delta.
+\]
+Thus the defect has a strictly positive cutoff-independent lower bound
+under the fixed-shell hypothesis. A high-frequency sine has defect
+$3/8$ and sign-shell mass $8/\pi^2$, so the exponent zero is sharp.
+The probability-level lifting of this estimate, combined with the
+low-shell Fisher bound, proves
+\begin{equation}
+ E_N=\Theta_g(N^4).\label{eq:N4}
+\end{equation}
+The vacuum supplies the matching upper bound $6gC_N^2$.
+The earlier lamellar exclusions and $N^{-4/3}$ defect estimate remain
+valid but are superseded, on the same fixed-shell problem, by this
+stronger result \cite{QuarticControl}.
+Equation \eqref{eq:N4} identifies an exponent, not the unrestricted
+coefficient or a bounded-error recentering.
+
+\subsection{A class coefficient and an unrestricted descent}
+The cube geometry matters:
+\[
+ C_N/N^2\longrightarrow c_C=12\log\frac{1+\sqrt3}{\sqrt2}-\pi.
+\]
+For a continuum squeeze profile $s$ on $Q=[-1,1]^3$, define
+\[
+ A[s]=\frac12\int_Q\frac{s(x)}{|x|}\dd x,\qquad
+ F[s]=\frac14\int_Q|x|(s+s^{-1}-2)\dd x.
+\]
+At fixed variance the unique free-cost minimizer is
+$s_\kappa(x)=|x|/\sqrt{|x|^2+\kappa}$.
+After optimizing the constant mean, the stationary diagonal Gaussian
+coefficient is the minimum of $F_*(A)+6gA(2c_C-A)$.
+Its positive parameter solves
+$\kappa_g=24g(c_C-A(\kappa_g))$.
+This improves the uniform-squeeze class for every $g>0$.
+Finite-cutoff profiling supplies a global minimum within that Gaussian
+class, denoted $\lambda_N^{\mathrm{prof}}$ \cite{ProfileControl}.
+Moment-matched Gaussian comparison extends the same minimum to the
+translation-invariant finite-Fisher class with nonnegative integrated
+Wick defect $\int(4h\mu_3+\mu_4-3v^2)\ge0$
+\cite{NonGaussianControl}.
+
+The sign condition is restrictive. At the Gaussian minimum, the residual
+has precisely third and fourth Gaussian chaos:
+\begin{align}
+ (H_N-\lambda_N^{\mathrm{prof}})G_N&=R_NG_N,\nonumber\\
+ R_N&=g\int\left[:\eta^4:_{\Gamma_N}
+                      +4h_N:\eta^3:_{\Gamma_N}\right],\nonumber\\
+ \sigma_N^2&=g^2\left(96h_N^2\int\Gamma_N^3
+                              +24\int\Gamma_N^4\right).
+ \label{eq:ritz}
+\end{align}
+Positive Fourier convolution counts give
+$\sigma_N=\Theta_g(N^{5/2})$.
+The two-dimensional Ritz matrix on $G_N$ and $R_NG_N/\sigma_N$ has
+energy drop
+\[
+ \Delta_N=\frac{\sqrt{\delta_N^2+4\sigma_N^2}-\delta_N}{2},
+ \qquad |\delta_N|\le C_g\sigma_N,
+ \qquad \Delta_N=\Theta_g(N^{5/2}).
+\]
+Thus the profiled Gaussian misses the unrestricted translation-invariant
+bottom by at least this divergent amount. Its value plus an
+$o(N^{5/2})$ shift cannot recenter that bottom to bounded error.
+The drop is still $o(N^4)$ and does not decide the unrestricted leading
+coefficient \cite{RitzControl}.
+
+The latest result covers every finite-second-moment location law $\pi$
+on the zero-mode coordinate with the same profiled covariance $S_N$.
+Fisher convexity and the moment lower bound have exact gap
+\[
+ U-L=\frac{\omega_0\operatorname{Var}_\pi A}
+ {s_{N,0}(s_{N,0}+\operatorname{Var}_\pi A)}
+ \le\frac{\omega_0}{s_{N,0}}=O_g(N).
+\]
+Linearity of potential expectation then yields
+\[
+ \lambda_N^{\mathrm{prof}}-O_g(N)
+ \le\inf_\pi Q_N(\pi)\le\lambda_N^{\mathrm{prof}}.
+\]
+Arbitrarily many zero-mode locations with this common covariance retain
+the same leading class coefficient. Covariance heterogeneity, spatial
+textures, and the Ritz direction above are outside the theorem
+\cite{MixtureControl}.
+
+\subsection{Exact cancellation without a global dispersive theorem}
+The separate temporal-gauge Maxwell--matter line studies opposite charges
+$\pm e$ on a torus. Let $a(t)$ be harmonic holonomy,
+$M=\sum_k(|\phi_{+,k}|^2+|\phi_{-,k}|^2)$, and
+$D=\sum_k k(|\phi_{+,k}|^2-|\phi_{-,k}|^2)$.
+The exact bare Fourier energy satisfies
+\begin{equation}
+ E_0=H_a+ea\cdot D-\tfrac12e^2|a|^2M,\qquad
+ E_0'=ea\cdot D'-\tfrac12e^2|a|^2M'.\label{eq:bareenergy}
+\end{equation}
+It removes $\dot a$ from this linear harmonic calculation, but for $m>0$
+the bound still spends $2|e||a|+(e^2/m)|a|^2$.
+Earlier current and radial normal forms, covariant integration by parts,
+and moving analytic radii must retain their remaining budgets.
+Static flat connections show that a raw potential-size radius cost is
+not always dynamically necessary. Time-dependent periodic controls show
+that positive conserved energy and Gauss neutrality alone need not make
+harmonic electric total variation finite.
+
+For a nonzero lattice vector $k$ perpendicular to the holonomy plane,
+\begin{equation}
+ a(t)=A(\cos\Omega t,\sin\Omega t,0),\qquad
+ \phi_+=\phi_-=R e^{i\omega t}e^{ik\cdot x},\label{eq:periodic}
+\end{equation}
+with $\Omega=\sqrt2eR$ and
+$\omega^2=m^2+|k|^2+e^2A^2$, solves the stated coupled control.
+Opposite Gauss densities cancel; the currents add to $-2e^2R^2a$.
+It has no homogeneous matter mode, but $|\dot a|$ is nonzero constant.
+Therefore excluding only $k=0$ does not produce dispersion. If the two
+frequencies are commensurate the full fields are periodic; in general
+the holonomy is periodic and the fields are bounded quasiperiodic.
+The energy and nonintegrable-variation conclusions hold in either case.
+This does not reject scattering under stronger localization or
+nonresonance hypotheses \cite{MixtureControl}.
+
+None of \eqref{eq:N4}--\eqref{eq:periodic} supplies a source-owned
+continuum Hamiltonian, interacting BRST closure, physical quotient,
+or a global evolution theorem for the curved I1B action.

@@ -7,6 +7,195 @@ updated_at: "2026-10-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+The [regenerated curved I1B manuscript](papers/drafts/complex-gauge-unitarity/README.md)
+has a separate [corpus manifest](papers/drafts/complex-gauge-unitarity/build/research-corpus.json)
+and [typesetting receipt](papers/drafts/complex-gauge-unitarity/build/receipt.json).
+Its main results reuse the focused mathematical evidence in the research map;
+PDF compilation, source-package replay and layout checks certify delivery only.
+Older paper hashes remain verification-time records of the replaced draft.
+The [verification-history index](lab/process/native-i1b-verification-history.json)
+supplies exact historical text snapshots for the published contribution;
+original local commit identifiers in dated receipts remain provenance.
+
+The [positivity corpus map](explorations/nguyen-gu-critique/README.md)
+distinguishes the source audits, scoped Lean deductions, selected curved
+I1B proofs and separate quantum/PDE controls. Each dated entry below states
+what that certificate established; a later result can settle a question
+that an earlier certificate left open. Current physical-domain limitations
+remain in CURRENT-STATE and the latest owner. Certificate registration and
+typesetting checks establish reproducibility or reporting consistency, not
+the analytic theorems.
+
+## Real I1B compact-core energy (2026-10-09)
+
+The [owner](explorations/conditional-build/native-zorro-real-energy-2026-10-09.md),
+[probe](tests/channel-swings/native_zorro_real_energy_probe.py) and
+[receipt](lab/process/native-zorro-real-energy.json) provide twenty-two
+exact checks. Sparse and independent occupation-state engines reproduce
+the full time, derivative and five primary-potential matrices for both
+witnesses. Symbolic recovery solves every primary row; rational intervals
+certify opposite nonzero energy signs on both branches. The eight geometric
+reflections preserve ambient orientation and have a character absent from
+every homogeneous metric component; a two-sign control retains one.
+
+Metric-source annihilation, disjoint-support energy preservation, the
+quadratic oscillatory bound and all-order formal boundary compatibility
+are proved analytically in the owner. The result excludes semiboundedness
+on the stated real compact core and completions retaining it. It does not
+certify convergent time evolution, nonlinear character closure, a source-owned
+physical domain or a quantum spectrum. All standing ledger verdicts remain
+unchanged.
+
+## Curved I1B boundary compatibility and universal bulk identity (2026-10-08)
+
+The [owner](explorations/conditional-build/native-zorro-boundary-constraints-2026-10-08.md),
+[probe](tests/channel-swings/native_zorro_boundary_constraint_probe.py) and
+[receipt](lab/process/native-zorro-boundary-constraints.json) provide ten
+grouped exact checks. All 37 closed-trace torsion-free homogeneous connection
+generators have zero projected primary acceleration source; all 1,369 mixed
+Gram entries give the universal acceleration identity. Independent matrix
+elements distinguish the raw action boundary coefficient from its skew
+bulk coefficient. Exact branch intervals and a five-polarization Gram
+certify the rank-five boundary-force map.
+
+The owner derives the polarized boundary one-form and compatibility chain
+analytically. At fixed distortion jets its second condition constrains the
+five metric momenta. These are necessary compatibility conditions, not a
+proof of a globally propagated domain or a positive/negative real-sector
+Hamiltonian. The existing thirteen-check metric probe replays unchanged.
+The ledger append preserves every verdict and named condition.
+
+## Curved I1B pure metric Hessian and real acceleration (2026-10-08)
+
+The [owner](explorations/conditional-build/native-zorro-real-metric-hessian-2026-10-08.md)
+and [probe](tests/channel-swings/native_zorro_real_metric_probe.py) supply
+thirteen grouped checks: the symbolic 54-component scalar identity,
+first-order density cancellation, 18 coordinate curvature controls,
+five-polarization primary cancellation with full covariant compensator
+jets, independent matrix Gram contractions, rank and exact branch bounds.
+The pure-base Hessian and the compact-collar obstruction are proved in the
+owner. Its Hamiltonian conclusion is conditional on the stated homogeneous
+boundary/constraint completion. Neither that physical completion nor global
+Cauchy evolution is certified. The
+[receipt](lab/process/native-zorro-real-metric-hessian.json) preserves these
+limits. The nonzero off-diagonal background control rules out a universal
+zero-column identity; it is not another stationary-solution theorem.
+
+## Curved I1B real packet and physical selection (2026-10-08)
+
+The [owner](explorations/conditional-build/native-zorro-real-packet-and-selection-2026-10-08.md)
+and [probe](tests/channel-swings/native_zorro_real_packet_probe.py) pass eleven
+grouped checks. Forty complete real primary potentials have exact nonzero
+determinants and mirror congruences, with raw coefficient/kernel/time-form
+ranks `113792/49310/64482`. The compact-recovery and nonzero `RJJ` interaction
+witnesses use the separate occupation-state implementation; the forty-class
+calculation shares the existing sparse action engine.
+
+The nonlinear real fixed-set restriction, exact formal metric-coupled Schur
+action and section-germ/boundary obstructions are proved analytically in the
+owner. The pure-base Hessian is supplied by the successor above. Remaining
+completed boundary constraints and unconditional physical real-packet energy
+are not certified by this earlier calculation. The
+[receipt](lab/process/native-zorro-real-packet-and-selection.json) preserves
+these limits and does not identify the tested ambient compact split with
+the source's Spin(6,4) shielding proposal.
+
+## Curved I1B constrained energy (2026-10-08)
+
+The [owner](explorations/conditional-build/native-zorro-constrained-energy-2026-10-08.md)
+and [probe](tests/channel-swings/native_zorro_constrained_energy_probe.py)
+certify forty primary-potential classes in the stationary degree-ten number
+field and the complete single-row spatial source used in the reduced-energy
+witnesses. Seventeen grouped checks include the nonzero time symplectic
+partner, opposite unit primary mass columns, vanishing cubic columns and
+exact `-2/kappa` and `+2/kappa` principal energy coefficients on the source
+imaginary slice. All forty mirror potentials are exact negative congruences.
+The [independent matrix probe](tests/channel-swings/native_zorro_matrix_energy_probe.py)
+passes twelve grouped checks using explicit 128-state creation/annihilation
+gamma matrices and a directly expanded Shiab contraction; it imports no
+sparse Clifford engine or coefficient bank.
+
+The owner separately proves the geometric kernel lemma, exact primary
+recovery, compact-support `+/-c n^2+O(n)` energy bounds, visible section receivers
+and failure of Hamiltonian descent for invisible constrained data. These
+analytic arguments do not assert global Cauchy well-posedness, a conserved
+positive norm alone or a quantum spectral/completion theorem. The
+[receipt](lab/process/native-zorro-constrained-energy.json) records the
+number-field determinants and this precise claim ceiling.
+
+## Curved I1B algebraic reduction (2026-10-08)
+
+The [derivation](explorations/conditional-build/native-zorro-algebraic-reduction-2026-10-08.md)
+and [focused probe](tests/channel-swings/native_zorro_algebraic_reduction_probe.py)
+certify the complete mixed operator using 170 spanning connection jets,
+six off-section controls and symbolic base gauge identities. All fourteen
+even-potential representatives preserve grade, and all 39 determinant
+factors exclude zero by rational interval arithmetic at the same stationary
+root. The source real-slice argument and exact formal elimination are
+spelled out separately from the finite coefficient checks. Conjugation
+symmetry proves that the imaginary-grade linearized packet has no metric
+coupling; this is not an assumed grade truncation.
+
+This gives a smooth algebraic inverse, including at ambient null covectors,
+and a reduced odd/base bulk system. It does not invert the full differential
+Hessian, establish a boundary domain, or assign a physical energy sign.
+The [receipt](lab/process/native-zorro-algebraic-reduction.json) records the
+complete determinant and interval certificates.
+
+## Curved I1B mixed perturbation map (2026-10-08)
+
+The [new owner](explorations/conditional-build/native-zorro-metric-perturbation-2026-10-08.md)
+and [probe](tests/channel-swings/native_zorro_metric_perturbation_probe.py)
+derive the third-order mixed metric response, its section cancellation and
+the full second-jet section curvature on 30 polarizations. Ninety transverse
+tracefree metric controls certify the coefficient identity used by a geometric
+principal compensator on the non-null locus. A separate sparse
+compensator satisfies every leading Clifford receiver at the declared
+rational fibre point. The unprojected connection control fails in four rows.
+
+These are 19 grouped exact checks and accompanying covariance/variation
+arguments. They do not establish a full mode, propagated constraints,
+regularity through the null fibre locus or a physical energy form. The
+fibre-integrated metric equation is derived from the source variable's base
+ownership, not replaced by pointwise ambient equations.
+
+## Selected curved I1B stationary background (2026-10-08)
+
+The [construction and proof](explorations/conditional-build/native-zorro-stationary-background-2026-10-08.md)
+and [exact probe](tests/channel-swings/native_zorro_stationary_background_probe.py)
+give a real nonzero local stationary background in the declared canonical
+reconstruction. Twenty-two checks derive every distortion receiver, verify
+the first-order adjoint separately, isolate the algebraic branch and certify
+positive real `kappa^2`. The owner separately proves open-patch transport,
+epsilon redundancy and observing-metric stationarity for its stated variation
+domain. Those analytic arguments are not formalized by the script.
+
+The [receipt](lab/process/native-zorro-stationary-background.json) records
+exact formulas, intervals and validation scope. A physical constrained
+quadratic action, observation quotient, conserved positive pairing and
+semibounded Hamiltonian remain open. This result has no independent later
+verification or canon promotion yet.
+
+## Nguyen–Polya §3.1 source and applicability adjudication (2026-10-08)
+
+The [technical-note draft](papers/drafts/complex-gauge-unitarity/README.md)
+and [revised assessment](explorations/nguyen-gu-critique/section-3-1-end-to-end-assessment-2026-10-08.md)
+separate four evidence kinds:
+
+| Claim | Evidence | Ceiling |
+| --- | --- | --- |
+| Ordinary indefinite Yang–Mills energy is unbounded below on its Gauss surface | Explicit analytic family `A=0`, `E=lambda X u`, `div u=0`, `beta(X,X)<0`; gauge-invariant energy | Exact comparator theorem, not a GU mode |
+| A replacement positive form need not be conserved | Exact identity `A*W+WA=eta[J,A]` and a two-by-two witness | Finite-dimensional inference control, not a field-theory repair |
+| Witten's real-s connection preserves a positive pairing; pure closed-surface bulk H vanishes | Primary report theorem and separate canonical constraint argument, audited with report locators | Imported construction; parameter-space transport is not nontrivial physical-time evolution; no full constructive-QFT or GU transfer claim |
+| Neither side establishes its GU-specific physical conclusion | Source-native action, residual and physical-domain applicability audit | Bounded adjudication: intended Yang–Mills concern survives conditionally; positive GU sector remains unconstructed |
+
+The existing 10 geometry, 16 action and five coefficient checks remain
+conditional supporting results of the owner assessment. The five existing
+Lean theorems have their same limited hypotheses; no new QFT formalization
+is claimed. The [validation receipt](lab/process/nguyen-section-3-1-adjudication.json)
+distinguishes these checks from source custody, analytic proof review,
+typesetting and process checks. SC-META-53 stays `UNCERTAIN`, SA-U1/H59 stay
+open, and no canon or publication status moves.
 ## K1616--K1620 information rigidity and endpoint jumps (2026-10-09)
 
 | Claim | Evidence | Honest grade |

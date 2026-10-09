@@ -1,0 +1,326 @@
+\section{Imaginary-packet energy and observation}
+\label{sec:imaginary}
+
+Let $t=i\psi$ in the $J$ packet, with real coefficients $\psi$.
+Work on $I_t\times\RR^3\times V$, with $V$ sufficiently small around
+$h=\eta$ that $\dd t$ has positive ambient square. Initial free data are
+smooth with compact support in $\Sigma=\RR^3\times V$.
+The packet is closed under the full Hessian by coefficient conjugation;
+its metric and real-packet linear sources vanish. This is a statement
+about the linearized equations, not nonlinear closure.
+
+In a stationary frame write $C_R=E^0\partial_t+C_{\mathrm{sp}}$,
+retaining all connection terms. For a complement representative $s$ set
+$f=N^TC_{\mathrm{sp}}s$ and recover
+\begin{equation}
+ \psi=s-NW^{-1}f.\label{eq:recoverJ}
+\end{equation}
+The primary-kernel lemma and exact invertibility prove this recovery
+satisfies every distortion primary equation. It is a finite-order local
+operator and preserves support. The reduced time form is nondegenerate.
+The factor $i$ reverses the quadratic action's sign:
+\begin{align}
+ L_J^{(2)}&=-\tfrac12\psi^TE^0\dot\psi
+                -\tfrac12\psi^TC_{\mathrm{sp}}\psi,\nonumber\\
+ H_{J,\mathrm{red}}^{(2)}[s]
+ &=\frac12\int_\Sigma
+       \left(s^TC_{\mathrm{sp}}s-f^TW^{-1}f\right)\dd\mu_\Sigma.
+ \label{eq:HJ}
+\end{align}
+This is the Noether Hamiltonian, not the sign of an unreduced mass matrix.
+Autonomy gives its conservation on any smooth solution with vanishing
+boundary flux; the unboundedness argument needs only phase data.
+
+\subsection{Two exact primary columns}
+Choose the free direction $s_0=e^{10}1$ in a rational orthonormal frame
+with radial index $10$. It has a nonzero time symplectic partner:
+$s_0^TE^0E^0s_0=-48$, and is transverse to the primary kernel.
+The complete primary sources and columns are
+\begin{center}
+\begin{tabular}{ccccc}
+\toprule
+Derivative & Primary receiver & Source & Potential & Energy coefficient\\
+\midrule
+$e^4$ & $e^0\gamma_0\gamma_4\gamma_{10}$ & $2$ & $+\kappa$ & $-2/\kappa$\\
+$e^1$ & $e^0\gamma_0\gamma_1\gamma_{10}$ & $2$ & $-\kappa$ & $+2/\kappa$\\
+\bottomrule
+\end{tabular}
+\end{center}
+Here $e^4$ is positive vertical traceless and $e^1$ horizontal spatial.
+Each of the four background cubic columns on these receivers is exactly
+zero, and XOR routing excludes additional primary receivers. Thus these
+are columns of the full inverse problem, not a truncated corner.
+For instance the relevant imaginary-slice terms
+$-2z\partial_4\psi_0-\kappa z^2/2$ give
+$z=-2\partial_4\psi_0/\kappa$ and Hamiltonian coefficient
+$-2/\kappa$. A separate 128-state Clifford representation reproduces
+both columns and all their source receivers \cite{ImaginaryEnergy}.
+
+\begin{lemma}[Compact oscillatory amplification]
+\label{lem:oscillation}
+Suppose the exactly reduced local quadratic form on a fixed compact
+support has principal amplitude term $Q(h,\dd\rho)(\partial_\rho a)^2$,
+with $Q$ of strict constant sign and $\dd\rho\ne0$ there, and all
+remaining terms have at most one derivative of the free amplitude.
+Then exact local recovery from $a_n=b\sin(n\rho)$, $b\ne0$ smooth and
+compactly supported, gives
+\begin{equation}
+ H[a_n]=\frac{n^2}{2}\int Q(h,\dd\rho)b^2\dd\mu+O(n).
+ \label{eq:oscillation}
+\end{equation}
+\end{lemma}
+\begin{proof}
+Recovery differentiates the amplitude at most once. Expanding the form
+leaves the displayed $n^2\cos^2(n\rho)$ term; cutoff derivatives and
+bounded smooth lower-order coefficients contribute at most $C_1n+C_0$.
+Use $\cos^2(n\rho)=(1+\cos(2n\rho))/2$.
+A vector field $X$ with $X\rho=1$ and integration by parts bound the
+oscillatory integral by $O(n^{-1})$ on the fixed support. Its contribution
+is therefore $O(n)$. The leading integral has the strict sign of $Q$.
+\end{proof}
+
+Choose a degree-zero fibre function
+$y(h)=\ell(h)/h_{00}$, with $\ell(\eta)=0$ and
+$\dd y|_\eta=e^4$. On a sufficiently small patch,
+$r(y)=0$ and $|\dd y|^2>0$. Set
+$s_n=s_0b\sin(ny)$ and use the complete curved recovery
+\eqref{eq:recoverJ}. Then
+\begin{equation}
+ H_J[s_n]=-\frac{n^2}{\kappa}
+       \int |\dd y|^2b^2\dd\mu_\Sigma+O(n).
+ \label{eq:Jnegative}
+\end{equation}
+For the companion use $s_n=s_0b\sin(nx^1)$. Continuity of the exact
+inverse preserves its opposite principal sign on a small patch, so its
+energy is $+c n^2+O(n)$ for $\kappa>0$, with $c>0$.
+The signs exchange on the mirror branch. This proves the imaginary part
+of \cref{thm:main}; reversing the action sign also only exchanges signs.
+No spectral cutoff, finite-difference inference, or global evolution
+assumption is used.
+
+\subsection{Section visibility and failure of energy descent}
+Let $j_*(x)=(x,\eta)$. For $\kappa>0$, choose $b$ nonzero on the section
+in the fibre-oscillating family. Its free field vanishes there, but exact
+recovery gives
+\begin{equation}
+ j_*^*(t_n)=-\frac{2in}{\kappa}b(x,\eta)\dd x^0
+                 \gamma_0\gamma_4\gamma_{10}.
+ \label{eq:visible}
+\end{equation}
+This is an allowed imaginary grade-three coefficient. On the negative
+coupling branch the spatial family supplies the analogous visible
+negative-energy data.
+
+Conversely choose the fibre support disjoint from the section. Local
+recovery preserves that property, so the entire smooth germ at the
+section vanishes while the energy is nonzero. The zero field has the
+same observed germ and zero energy. Hence no function of that germ can
+equal this Hamiltonian on the core. The nondegenerate reduced time form
+also prevents treating these data as its presymplectic null directions.
+This argument applies to smooth fields. It neither substitutes for a
+physical reduction nor excludes nonlocal observation, integrating out
+fields, or a narrower admissible domain.
+
+\section{Real-packet energy with full metric decoupling}
+\label{sec:real}
+
+The real construction \cite{RealEnergy} uses a flat spatial three-torus, time $x^0$, and a small fibre neighbourhood
+$V$ of $h_0=\diag(4,-1,-1,-1)$. Choose $V$ invariant under the three base
+spatial sign reflections and within the positive-time patch.
+The torus supplies finite volume for homogeneous base fields; compact
+support below is strictly inside $V$.
+
+\subsection{A character absent from the metric carrier}
+For $\epsilon_i\in\{\pm1\}$ put
+\begin{equation}
+ R_\epsilon=\diag(1,\epsilon_1,\epsilon_2,\epsilon_3),
+ \qquad h\mapsto R_\epsilon^ThR_\epsilon,
+ \qquad \chi(\epsilon)=\epsilon_1\epsilon_2\epsilon_3.
+ \label{eq:reflection}
+\end{equation}
+The group $G=(\mathbb Z/2)^3$ acts on the base, metric fibre, and Clifford
+bundle. Naturality of the DeWitt metric, radial field, projectors, and
+connection makes it a symmetry of the chosen background and action.
+Its combined ambient orientation is preserved:
+\begin{equation}
+ \det R_\epsilon\,\det(\operatorname{Sym}^2R_\epsilon)
+          =(\det R_\epsilon)^6=1.\label{eq:orientation}
+\end{equation}
+Thus Hodge, real structure, and time covector are preserved too.
+The ten homogeneous metric components transform by
+\begin{equation}
+ u_{00},u_{ii}:1;\qquad u_{0i}:\epsilon_i;\qquad
+ u_{ij}:\epsilon_i\epsilon_j\ (i\ne j).\label{eq:characters}
+\end{equation}
+None has character $\chi$.
+
+Let $P_\chi=\frac18\sum_{g\in G}\chi(g)U_g$ on distortions.
+The complete mixed operator, its fibre-integrated adjoint, and the
+primary recovery intertwine $G$. It follows that
+\begin{equation}
+ A^\dagger t=0\quad\hbox{whenever }P_\chi t=t
+ \label{eq:metriczero}
+\end{equation}
+for base-homogeneous fields with arbitrary time dependence.
+Translation invariance makes the metric Euler expression homogeneous,
+so the absence of homogeneous metric receivers proves vanishing against
+arbitrary base metric tests, including lapse and shift. Interior support
+kills the induced boundary contributions.
+The stationary distortion operator preserves this character. Hence
+$u=0$, with every time jet zero, satisfies the full linearized metric
+equation on this sector. This is exact decoupling, not omission of an
+equation. Products of two $\chi$ fields may source the trivial character,
+so no nonlinear truncation of this character is claimed.
+
+Choose an equivariant smooth complement to the time kernel; finite-group
+averaging of an auxiliary positive coordinate form provides one. This
+coordinate choice is not a physical norm. With $f=N^TC_{\mathrm{sp}}s$,
+\begin{equation}
+ t=s-NW^{-1}f,\qquad
+ H_{R,\mathrm{red}}^{(2)}[s]=-\frac12\int
+       \left(s^TC_{\mathrm{sp}}s-f^TW^{-1}f\right)\dd\mu_\Sigma.
+ \label{eq:HR}
+\end{equation}
+The sign differs from \eqref{eq:HJ} because these coefficients have no
+common factor $i$. The symplectic restriction to the real $\chi$
+character remains nondegenerate: distinct real characters are
+symplectically orthogonal and the total reduced form is nondegenerate.
+
+\subsection{The full primary inverse for two real witnesses}
+Let $\Gamma=\gamma_0\gamma_1\cdots\gamma_{13}$ and take
+$s_0=e^0\Gamma$. Its complete 18-coordinate time block satisfies
+$N^Ts_0=0$ and $s_0^TE^0E^0s_0=-13$.
+For derivatives along vertical traceless $e^b$, with $b=4,11$ and
+$\eta_4=1$, $\eta_{11}=-1$, the complete source has coefficient one
+on the kernel vector
+$r_b=e^0\gamma_{\{0,\ldots,13\}\setminus\{b\}}$.
+Of the twelve target kernel directions, eleven form its connected
+potential block; the remaining direction decouples.
+On that block the exact matrices have structure
+\begin{equation}
+ W_b=\begin{pmatrix}
+ \lambda G_b&(v+8w)h_b\\
+ (v+8w)h_b^T&-\eta_b\kappa
+ \end{pmatrix},\quad
+ \lambda=\kappa-\frac{116a+4c}{3},\quad
+ h_b^TG_b^{-1}h_b=-\eta_b\frac2{33}.
+ \label{eq:realblock}
+\end{equation}
+Both Clifford implementations rebuild the complete derivative blocks and
+all five potential matrices; symbolic recovery solves every row.
+A Schur complement with $\tau=116a+4c-3\kappa$ gives the real principal
+energy coefficient
+\begin{equation}
+ Q_b=\frac12 f^TW^{-1}f
+   =-\eta_b\frac{11\tau}{2[11\kappa\tau+2(v+8w)^2]}
+   =-\eta_b\frac{C}{\kappa},\label{eq:realQ}
+\end{equation}
+where
+\begin{equation}
+ C=\frac{11\kappa^2(116\alpha+4\beta-3)}
+ {2[11\kappa^2(116\alpha+4\beta-3)+2(v+8w)^2]},
+ \qquad 0.388<C<0.389.\label{eq:realC}
+\end{equation}
+The strict bounds are outward rational intervals on the exact root;
+numerator and denominator are separated from zero. Thus the two fibre
+directions have opposite signs. These coefficients depend on the
+background; the imaginary witness's zero cubic columns are not being
+generalized. On \eqref{eq:mirror} they exchange signs.
+
+\subsection{Character projection preserves the energy signs}
+Choose a generic point near $h_0$ with all three $h_{0i}$ nonzero.
+Its eight reflection translates are distinct. A small ball $B$ has eight
+disjoint translated closures within $V$. Such points approach $h_0$,
+so both strict coefficient signs persist in small neighbourhoods.
+For each sign choose a smooth phase $\rho$ whose differential equals
+the corresponding covector at the centre; shrink $B$ to keep it nonzero
+and its coefficient of strict sign. For a cutoff $b\in C_c^\infty(B)$
+put $s_n=s_0b\sin(n\rho)$, then project
+$\widetilde s_n=P_\chi s_n$ and recover with the full curved operator.
+On $B$, the projected field is $s_n/8$, hence is nonzero.
+Locality and disjoint supports give the exact identity
+\begin{equation}
+ H_R[\widetilde s_n]=\frac18H_R[s_n].\label{eq:disjoint}
+\end{equation}
+Indeed all cross terms vanish and action symmetry makes the eight
+unscaled diagonal terms equal. Recovery commutes with the same action.
+The free first-order term in \eqref{eq:HR} and all lower-order recovery
+terms meet \cref{lem:oscillation}. Hence
+\begin{equation}
+ H_R[\widetilde s_n^-]=-c_-n^2+O(n),\qquad
+ H_R[\widetilde s_n^+]=+c_+n^2+O(n),\qquad c_\pm>0.
+ \label{eq:real-asymptotic}
+\end{equation}
+Their complete metric force vanishes by \eqref{eq:metriczero}.
+
+\subsection{All finite-order formal boundary conditions}
+In this sector the boundary system \eqref{eq:generator} becomes
+$\dot s=\cT s$ and $\cB s=0$, with $u=0$.
+The reduced time-form inverse is pointwise and $W^{-1}$ is algebraic.
+Thus both $\cT$ and recovery $\cR$ are finite-order differential
+operators with smooth coefficients, preserving $\chi$.
+For every integer $j\ge0$, the field $\cT^j\widetilde s_n$ has support
+in the same compact union of balls. Consequently
+\begin{equation}
+ \cB\cT^j\widetilde s_n=0\quad(j\ge0),\qquad
+ \partial_t^j u=0.\label{eq:allorder}
+\end{equation}
+These formal time jets solve the differentiated coupled equations and
+all boundary compatibility conditions to each finite order. In particular
+they avoid the $C_1,C_2$ failure of the zero-distortion acceleration data
+in \cref{sec:boundary}. This completes the real assertion of
+\cref{thm:main}.
+
+A differential core and compatible jets do not select a closed generator
+or prove convergence of its time series. The ambient ultrahyperbolic
+domain problem remains. The conclusion is precisely that a completion
+retaining this core and agreeing with its quadratic energy cannot make
+that form semibounded. A nonlinear interacting Hamiltonian or quantum
+operator is a further object requiring its own construction.
+
+\section{What a physical selection must supply}
+\label{sec:selection}
+
+Ordinary conjugation gives the exact bosonic identity
+$I(g,R+J)=I(g,R-J)$. The derivative in every $J$ direction therefore
+vanishes at $J=0$, for arbitrary $g,R$.
+The real-only restriction is a consistent nonlinear bulk restriction
+when the boundary data respect it. Its energy is nevertheless indefinite
+on the core just constructed. No closure under added fermionic terms is
+asserted. Conversely the imaginary packet alone is not generally a
+nonlinear restriction: an independently checked $RJJ$ third variation
+on the specified background directions equals $-124/3$
+\cite{RealReduction}.
+
+A naive ambient compact-coefficient projection is a different proposal.
+In the positive occupation-state matrix adjoint, $i1$ is compact, but its
+spatial scalar profile forces a recovered
+$i\gamma_0\gamma_1\gamma_{10}$ component with leading coefficient
+$2\partial_1\phi/\kappa$, which is noncompact in that split.
+The projection is not preserved by the tested primary recovery.
+This tested ambient split is not the source's actual
+$\operatorname{Spin}(6,4)$ shielding construction.
+
+The observation obstruction in \cref{sec:imaginary} also has an off-shell
+counterpart. A smooth bump $f$ away from the section and the grade-one
+fields $U_+=e^0\gamma_4$, $U_-=e^0\gamma_{10}$ have zero full section
+germ. Their wedge squares vanish; parity kills their derivative density.
+The curvature-linear term cancels between opposite amplitudes, leaving
+\begin{equation}
+ I[\epsilon fU_\pm]+I[-\epsilon fU_\pm]-2I[0]
+      =\pm\kappa\epsilon^2\int f^2\operatorname{vol}_Y.
+ \label{eq:actiondescent}
+\end{equation}
+This proves failure of bare action descent on the smooth carrier.
+It is distinct from, and weaker than, the constrained energy argument.
+Neither result tests a proved nonlocal physical observable or an
+integrating-out procedure.
+
+A proposed physical completion must specify which fields and equations
+it retains, how its restriction is propagated, and how its observed
+energy and physical pairing are defined on one domain. A positive
+conserved norm could coexist with an unbounded Hamiltonian; a lower energy
+bound is an additional requirement. These calculations supply explicit
+witnesses against which that requirement can be tested. They do not show
+that every possible source completion, background, or physical quotient
+must retain the witnesses.

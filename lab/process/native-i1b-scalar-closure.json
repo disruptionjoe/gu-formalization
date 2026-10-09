@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "artifact_type": "conditional_native_action_research_receipt",
+  "created_at_utc": "2026-10-08T12:32:21.019762+00:00",
+  "base_revision": "1f6d254bae2e77947603ef161e8bf1204624aea5",
+  "upstream_revision": "1829f4a3235724a284bf4c48d539b0c800b10c74",
+  "upstream_commits_integrated": 35,
+  "research_note": "explorations/conditional-build/native-i1b-scalar-closure-2026-10-08.md",
+  "command": "uv run --no-project --with sympy==1.14.0 python -B tests/channel-swings/native_i1b_scalar_closure_probe.py",
+  "dependency_sha256": {
+    "tests/channel-swings/native_i1b_scalar_closure_probe.py": "7e1bfdfb4485710caa5b2696e81b0fff593ebdc62d6a04ae91ffaa634d703b38",
+    "tests/channel-swings/k77_exact_bank_api.py": "5f9ca5458e55669bce226bf65e82b11a54d81d7cffeb2d18a1fb4635f575cf5b",
+    "explorations/conditional-build/selected-k128-native-i1b-t0-coupled-hessian-and-schur-domain-gate-2026-08-16.md": "d6aa21dd583dd5db72d2242ef464e7973d35b7ae2fed36eab032b58bf612443d",
+    "explorations/conditional-build/selected-k132-native-i1b-t0-all-grade-noether-complex-2026-08-16.md": "134d4a06b414b5249ea2e4317abb5f37278b5954f38d4a67e0da4164143fa95a",
+    "tests/channel-swings/selected_k135_native_i1b_t0_coupled_shell_green_domain_probe.py": "922cf6c9278437a8437b88a89c76c30d5feb94d2f2b861d67cbcd7b8786269ce"
+  },
+  "exact_result": {
+    "result_id": "NATIVE-I1B-SCALAR-CLOSURE",
+    "checks_passed": 29,
+    "checks": [
+      "formal first-order Euler coefficient is skew",
+      "mass form is an involution on complete label block",
+      "a varying pure radial scalar excites omitted bivector equations",
+      "bivector derivative enters transverse but not longitudinal radial row",
+      "full nonlinear normal Euler row 1 differentiated from cubic action",
+      "full nonlinear normal Euler row 2 differentiated from cubic action",
+      "full nonlinear normal Euler row 3 differentiated from cubic action",
+      "radial plus single-vector nonlinear compatibility obstruction",
+      "five-field derivative matrix derived from Clifford action",
+      "five-field Hodge mass signs and multiplicities",
+      "scalar curvature image has no omitted Clifford rows",
+      "native metric coupling distinguishes horizontal and vertical scalars",
+      "all ten metric and twenty-eight distortion rows close on scalar ansatz",
+      "complete coupled scalar characteristic polynomial",
+      "uniform transverse distortion shell is removed by metric coupling",
+      "uniform transverse distortion-only mode fails the metric equation",
+      "growing mode satisfies every lifted row on its dispersion relation",
+      "characteristic mode is simple in six-field sector",
+      "new coupled root occurs with invertible five-field distortion block",
+      "mode has nonzero tensorial distortion, so is not T0 frame gauge",
+      "metric perturbation has nonzero flat linearized curvature",
+      "both eliminated bivectors satisfy their actual Euler equations",
+      "reduced zero-affine-branch action derived directly",
+      "independent Euler derivation gives the same growth rate",
+      "conserved reduced energy is indefinite",
+      "kappa zero is degenerate rather than a positive continuation",
+      "nonzero spatial frequency has exact dispersion",
+      "all distortion rows vanish for spatially varying growing mode",
+      "all ten metric rows vanish for spatially varying growing mode"
+    ],
+    "sympy_version": "1.14.0",
+    "base_signature": [
+      1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "selected_shiab": [
+      "comm",
+      "symi",
+      "symi"
+    ],
+    "coupled_scalar_determinant": "21600*kappa**2*z**4*(-17*kappa**2 + 113*z**2)",
+    "growing_dispersion": "gamma^2+|p|^2=17*kappa_1^2/113, kappa_1!=0",
+    "full_metric_and_distortion_rows_checked": true,
+    "nonlinear_consistent_truncation_proved": false,
+    "native_global_background_or_physical_domain_constructed": false,
+    "claim_ceiling": "Exact coupled linearized modes on the selected flat source-shaped K77 I1B germ; no GU quantum-consistency verdict."
+  },
+  "analytic_arguments": [
+    "Radial plus isotropic bivector compatibility polynomial has only constant solutions on the declared fixed flat one-coordinate ansatz.",
+    "XOR label selection closes the raw derivative and its transpose on the complete 28D time-axis distortion block.",
+    "All omitted linearized metric and distortion rows are checked, with a separate 56D nonzero-spatial-frequency check.",
+    "Lorentz covariance and polynomial continuation give horizontally square-integrable growing Fourier packets; vertical and physical domains remain open."
+  ],
+  "corroboration": "Direct Clifford coefficient derivation, action elimination, exact characteristic factorization and a separate spatial-frequency substitution; no independent external review.",
+  "focused_validation": {
+    "typed_carrier_declaration_audit": {
+      "scope": "new research note and edited Nguyen register",
+      "red": 0
+    },
+    "kill_target_claim_audit": {
+      "scope": "same two documents",
+      "red": 0,
+      "claim_affinity": "SC-META-53"
+    },
+    "source_native_comparator_routing_audit": {
+      "tests_passed": 6,
+      "failures": 0,
+      "existing_unclassified_baseline": 5,
+      "new_registry_rows_required": false
+    },
+    "local_links_and_git_diff_check": "PASS",
+    "frontmatter_status_schema_audit": {
+      "result": "PASS",
+      "existing_status_values_changed": 0,
+      "new_document_roles": "active_research",
+      "snapshot_change": "Appended exactly the three authorized research/source documents from this and the previous milestone. Removing those three reproduces the prior protected digest and every prior population count exactly.",
+      "tracked_markdown": 4706,
+      "status_bearing": 3425
+    }
+  },
+  "scope": {
+    "selected_action": "I1B only, selected real K77 comm/symi/symi completion",
+    "background": "flat local T=0 germ, not a constructed global Observerse background",
+    "nonlinear_scope": "necessary normal-equation obstruction for radial plus one isotropic bivector; enlarged coupled sector tested at linear order",
+    "kappa_nonzero_result": "explicit growing mode for both signs",
+    "kappa_zero_result": "degenerate rank-four six-field symbol at nonzero exponent, no positive-continuation claim",
+    "physical_gu_positivity": "NOT_ESTABLISHED",
+    "canon_promotion": false,
+    "source_or_physics_verdict_changes": []
+  }
+}

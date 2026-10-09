@@ -1,0 +1,91 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{microtype,needspace,xcolor,booktabs,longtable,array}
+\definecolor{linkblue}{RGB}{28,65,105}
+\usepackage[colorlinks=true,allcolors=linkblue]{hyperref}
+\usepackage{xurl}
+\usepackage[nameinlink,noabbrev,capitalise]{cleveref}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newcommand{\tr}{\operatorname{tr}}
+\newcommand{\Tr}{\operatorname{Tr}}
+\newcommand{\Ric}{\operatorname{Ric}}
+\newcommand{\Scal}{\operatorname{Scal}}
+\newcommand{\Cl}{\operatorname{Cl}}
+\newcommand{\cS}{\mathcal S}
+\newcommand{\cR}{\mathcal R}
+\newcommand{\cT}{\mathcal T}
+\newcommand{\cB}{\mathcal B}
+\newcommand{\dd}{\mathrm d}
+\newcommand{\RR}{\mathbb R}
+\newcommand{\TT}{\mathbb T}
+\newcommand{\QQ}{\mathbb Q}
+\newcommand{\eps}{\varepsilon}
+\newcommand{\supp}{\operatorname{supp}}
+\newcommand{\rank}{\operatorname{rank}}
+\newcommand{\diag}{\operatorname{diag}}
+\newcommand{\YM}{\mathrm{YM}}
+\newcommand{\CS}{\mathrm{CS}}
+\newcommand{\ad}{\operatorname{ad}}
+\newcommand{\sech}{\operatorname{sech}}
+\setlength{\emergencystretch}{1em}
+\title{Two-Sided Quadratic Energy\\in a Curved I1B Reconstruction\\[0.5em]
+\large Stationary backgrounds, constraint reduction, boundary compatibility,\\
+and the limits of positivity transfers}
+\author{Research manuscript --- unpublished working draft}
+\date{October 9, 2026}
+\hypersetup{pdftitle={Two-Sided Quadratic Energy in a Curved I1B Reconstruction},
+ pdfsubject={Selected classical reconstruction; constrained energy and physical-domain limits},
+ pdfauthor={Unpublished research draft; attribution not assigned}}
+\begin{document}
+\maketitle
+\begin{abstract}
+We study a specified bosonic realization of the first Geometric Unity action
+on the bundle of Lorentzian metrics over a four-dimensional base. The
+canonical connection metric remains curved when the observing metric is
+flat. An intrinsic grade-one/two distortion yields an exact real local
+stationary background on two certified opposite-coupling branches.
+Differentiating the action before restriction gives the complete mixed
+metric response, an algebraic distortion reduction, and the pure metric
+Hessian. On each branch the constraint-reduced quadratic Noether energy
+is unbounded above and below in both coefficient-conjugation packets.
+For the real packet, a finite reflection character annihilates the full
+fibre-integrated metric force. Compact oscillatory witnesses then satisfy
+every finite-order formal compatibility condition of an explicitly declared
+boundary polarization. This avoids the independent-metric-momentum
+hypothesis required by an earlier conditional acceleration argument.
+Bare observing-section evaluation, even augmented by the entire smooth
+section germ, does not carry the energy. We retain the preceding flat
+controls and distinguish these results from ordinary Yang--Mills,
+complex Chern--Simons, scalar positivity donors, and separate cutoff
+quantum/PDE controls. Exact coefficient calculations and five scoped Lean
+deductions support identified parts of the argument. The energy theorems
+concern a selected classical quadratic form and formal solution jets;
+they do not construct a closed physical evolution, a quantum spectrum,
+or a universal obstruction to every GU completion.
+\end{abstract}
+\clearpage
+\begingroup\small
+\tableofcontents
+\endgroup
+\clearpage
+\input{content}
+\input{reduction}
+\input{energy}
+\input{controls}
+\input{verification}
+\clearpage
+\begingroup\small\raggedright
+\bibliographystyle{plain}
+\bibliography{references}
+\endgroup
+\end{document}

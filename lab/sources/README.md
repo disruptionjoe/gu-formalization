@@ -2,13 +2,31 @@
 title: "Source and Media Index"
 status: canon
 doc_type: overview
-updated_at: "2026-08-26"
+updated_at: "2026-10-08"
 ---
 
 # Source and Media Index
 
 Additional source-custody and reinspection records retained by the native
 research boundary:
+
+## Quantum positivity primary papers
+
+- [Witten and Bar-Natan–Witten source reinspection](witten-noncompact-quantization-source-audit-2026-10-08.md)
+  distinguishes the inspected preprint results, real-parameter and boundary
+  assumptions, and parameter-space versus physical-time unitarity. See its
+  [custody receipt](witten-noncompact-quantization-source-audit-2026-10-08.json)
+  and the [draft adjudication](../../papers/drafts/complex-gauge-unitarity/README.md).
+  This index entry does not promote the audit to canon or transfer its
+  quantization results to GU.
+
+- [Primary papers for quantum positivity and scalar sector closure](quantum-positivity-primary-pack-2026-10-07.md)
+  records the August Bateman–Turok renormalization follow-up, the October 5
+  BRST revision, a composite spectral diagnostic and the June positivity
+  baseline. Exact local PDF custody is in the accompanying
+  [download receipt](quantum-positivity-primary-pack-2026-10-07.json).
+  The scalar coefficient and sector-closure tests remain conditional transfers;
+  no GU positivity or physics verdict changes.
 
 ## GU prior-art collision monitor — 2025–2026 public formalization attempts
 

@@ -2803,9 +2803,11 @@
   "extensions": {
     "operating_architecture": {
       "work_state_refs": [
-        "lab/process/conditional-physics-ledger-v0.263.json",
-        "explorations/conditional-build/conditional-physics-ledger-v0.263.md"
+        "lab/process/conditional-physics-ledger-v0.265.json",
+        "explorations/conditional-build/conditional-physics-ledger-v0.265.md"
       ]
     }
-  }
+  },
+  "latest_result_2026_10_08_native_i1b_boundary": "Selected I1B imaginary energy and germ-descent obstruction, complete real primary/metric coefficients, universal 37-jet cancellation and rank-five polarized boundary compatibility are booked on LT-SM8 and LT-GR6b in ledger v0.264. Both rows remain NEEDS; no INHERITANCE_BRIDGE discharge, source-owned action-root admission or unconditional real-sector energy verdict.",
+  "latest_result_2026_10_09_native_i1b_real_energy": "Exact real compact-core two-sided energy on both stationary branches, with reflection-character metric decoupling and every finite-order formal odd-Dirichlet compatibility condition. Ledger v0.265 books the evidence on LT-SM8 and LT-GR6b, both still NEEDS. Global evolution, nonlocal physical selection, source shielding and INHERITANCE_BRIDGE remain open."
 }

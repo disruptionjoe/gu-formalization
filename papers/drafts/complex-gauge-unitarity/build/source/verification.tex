@@ -1,0 +1,213 @@
+\section{Evidence, reproducibility, and remaining physical questions}
+\label{sec:verification}
+
+The derivations have three distinct forms of support. Exact finite
+calculations determine coefficient matrices, root isolation, determinant
+nonvanishing, and rational sign bounds. Analytic arguments use naturality,
+symmetry, compact support, integration by parts, and local differential
+recovery to obtain the continuum statements. A small Lean module proves
+five explicitly conditional deductions. These layers are complementary;
+a successful finite script is not itself a proof of a global domain theorem.
+
+The sparse Clifford implementation evaluates exterior/Clifford products
+and differentiated action rows. The independent implementation realizes
+fourteen gamma matrices on the 128 occupation states of seven fermionic
+modes: positive generators are creation plus annihilation, negative ones
+creation minus annihilation. It checks the Clifford relations on every
+state and uses normalized matrix trace. It imports neither the sparse
+engine nor a coefficient bank for the designated witness calculations.
+This corroborates the finite energy inputs and selected Gram entries;
+it is not an outside review of the analytic proofs.
+
+The module \path{Lean/GUFormalization/NguyenPositivityKernels.lean}
+proves: a witness refutes a universal failure predicate; a positive
+conserved form excludes a supplied growing eigenvector; equal observation
+images with a nonzero symmetric action difference prevent descent; and
+the specified necessary three-block polynomial system has no real solution,
+including its zero-coupling case. The first deduction has no axioms;
+the others report only \texttt{propext}, \texttt{Classical.choice}, and
+\texttt{Quot.sound}. An external exact probe checks the action-to-polynomial
+coefficients. Neither the full geometry and variational calculus nor
+Witten's construction nor the curved energy theorems have been formalized
+by that module.
+
+All sixteen local Python certificates and the named Lean build passed
+in the corpus integration at revision \texttt{f18b19f6}.
+That integration also reconciled the upstream quantum/PDE sequence and
+retained the existing contribution contracts. Earlier receipt hashes pin
+the text verified at their own dates; later scope updates do not
+retroactively change those runs. The evidence map and integration receipt
+are \path{explorations/nguyen-gu-critique/README.md} and
+\path{lab/process/native-i1b-corpus-integration.json}.
+The manuscript's typesetting receipt separately checks compilation,
+references, glyphs, and layout; it certifies no mathematics.
+
+\subsection{The physical question after the energy calculation}
+The direct result blocks semiboundedness of the specified quadratic form
+on any domain that retains the constructed cores. The real restriction,
+ordinary local boundary compatibility in the declared polarization,
+overall sign reversal, and bare smooth observation do not remove that
+result. The following objects remain unconstructed: a source-selected
+physical admissibility rule, its propagated coupled constraint domain,
+an observed energy map on that domain, and an interacting quantum
+Hamiltonian with its physical pairing.
+
+A future admissibility rule must identify precisely which witnesses it
+excludes and why the intended dynamics preserve that exclusion.
+A different background or source-supported action is a different
+mathematical problem, not a sign change of the present theorem.
+Fermionic closure, nonlinear evolution, and the source's actual shielding
+mechanism also require separate derivations. In repository terms,
+LT-SM8 and LT-GR6b remain \texttt{NEEDS}; the physical BV/BRST pairing
+condition \texttt{INHERITANCE\_BRIDGE} remains undischarged;
+SC-META-53 remains \texttt{UNCERTAIN}. These labels report scope, not
+additional hypotheses or proof steps. No canon, source polarity, prediction
+credit, or publication status is advanced by this manuscript.
+
+\appendix
+\section{Exact algebraic background specification}
+\label{app:algebra}
+The polynomial used in \eqref{eq:rootinterval} is specified by the
+following integer coefficients, in descending order. Together with
+\eqref{eq:alphabeta}--\eqref{eq:conic}, these make the background
+independent of rounded numerical constants.
+\begin{center}
+\begin{tabular}{rr}
+\toprule
+$j$ & $p_j$ in $P(w)=\sum p_jw^j$\\
+\midrule
+10 & 1078253165818470400\\
+9 & 3877334434099568640\\
+8 & 4643792466602204160\\
+7 & 1707092071119812736\\
+6 & -454780741544188128\\
+5 & -354008474391384144\\
+4 & -41983168422902724\\
+3 & 1153971394741872\\
+2 & 7933181509779615\\
+1 & 1617316736755599\\
+0 & -494757479546640\\
+\bottomrule
+\end{tabular}
+\end{center}
+The associated rational function is $v(w)=N_v(w)/D_v(w)$, where
+\begin{align*}
+ N_v(w)={}&-96471654400w^6-210114455040w^5-29233525248w^4\\
+          &+98962215264w^3+12067809624w^2-6319064340w-617509656,\\
+ D_v(w)={}&12058956800w^5+28525361280w^4+18854889984w^3\\
+          &+3709530864w^2+545539698w-749271789.
+\end{align*}
+The stationary certificate derives this linear-remainder formula,
+checks its denominators are coprime to $P$, isolates the root by Sturm
+counting, and reduces all five Euler equations exactly. The complete
+primary matrices in \cref{sec:reduction} are rebuilt from the action
+rather than inferred from their numerical eigenvalues.
+
+\section{Companion derivations and executable checks}
+\label{app:checks}
+The following filenames are relative to \path{tests/channel-swings/}.
+Each Python probe runs with SymPy 1.14.0; the exact mathematical scope
+belongs to its linked derivation and receipt, not to the count of checks.
+\begin{longtable}{>{\raggedright\arraybackslash}p{0.50\linewidth}>{\raggedright\arraybackslash}p{0.43\linewidth}}
+\toprule
+Certificate & Principal checked inputs\\
+\midrule\endfirsthead
+\toprule Certificate & Principal checked inputs\\\midrule\endhead
+\bottomrule\endfoot
+\path{quantum_positivity_scalar_transfer_probe.py} & Scalar discriminant,
+soft-momentum identity, auxiliary normalization, and closure countercontrol.\\
+\path{nguyen_static_pairing_energy_probe.py} & Full Hermitian symmetrizer,
+channel similarity, and exact growing modes.\\
+\path{native_i1b_scalar_closure_probe.py} & Flat normal equations,
+all-row coupled mode, and nonzero spatial momentum control.\\
+\path{native_i1b_constant_background_probe.py} & Co-moving density,
+full polynomial coefficients, and exact stationary ideal.\\
+\path{native_zorro_geometry_probe.py} & Koszul geometry, curvature,
+projectors, metricity, torsion, and Bianchi.\\
+\path{native_zorro_i1b_probe.py} & Spin-curvature/Shiab contraction,
+full action receiver equations, and failed three-block family.\\
+\path{native_zorro_stationary_background_probe.py} & Five full Euler
+rows, degree-ten branch, denominator bounds, and root isolation.\\
+\path{native_zorro_metric_perturbation_probe.py} & Mixed metric jets,
+section/off-section controls, and principal compensation.\\
+\path{native_zorro_algebraic_reduction_probe.py} & Complete mixed
+coefficient, gauge-symbol identities, and fourteen even potentials.\\
+\path{native_zorro_constrained_energy_probe.py} & Forty imaginary
+primary classes, mirror congruence, and both energy coefficients.\\
+\path{native_zorro_matrix_energy_probe.py} & Independent occupation-state
+Clifford algebra and complete imaginary witness blocks.\\
+\path{native_zorro_real_packet_probe.py} & Forty real primary classes,
+interaction witness, and ambient compact-recovery counterexample.\\
+\path{native_zorro_real_metric_probe.py} & Pure-base Hessian,
+compensator terms, and five-polarization acceleration matrix.\\
+\path{native_zorro_boundary_constraint_probe.py} & Complete homogeneous
+Gram identities, raw boundary form, and rank-five factors.\\
+\path{native_zorro_real_energy_probe.py} & Both real inverse blocks,
+rational signs, orientation, character absence, and eight-point orbit.\\
+\path{nguyen_lean_coefficients_probe.py} & Five action-to-polynomial
+coefficients supplied to the scoped Lean deductions.\\
+\end{longtable}
+
+From the repository root, the existing harness discovers the native
+certificates, including those reused as helpers:
+\begin{verbatim}
+uv run --no-project --with sympy==1.14.0 python -B \
+  scripts/reproduce_all.py --quick --tracked-only \
+  -k native_zorro --timeout 900
+\end{verbatim}
+Repeat with \texttt{-k native\_i1b} for the flat controls. The three
+remaining scalar/pairing/coefficient probes may be run directly under
+the same pinned environment. The formal target is
+\texttt{lake build GUFormalization.NguyenPositivityKernels}.
+No full repository test sweep is implied by these scoped commands.
+
+\section{Coverage of the related quantum/PDE sequence}
+\label{app:quantum-map}
+The following groups index the complete merged K1538--K1600 sequence.
+They share neither action ownership nor a physical domain with the main
+I1B theorem. Their dated derivations under \path{explorations/} and
+\path{explorations/conditional-build/}, exact receipts under
+\path{lab/process/}, and paired certificates under
+\path{tests/channel-swings/} remain their research owners.
+\begingroup\small
+\begin{longtable}{>{\raggedright\arraybackslash}p{0.17\linewidth}>{\raggedright\arraybackslash}p{0.76\linewidth}}
+\toprule
+Group & Contribution and retained limit\\\midrule\endfirsthead
+\toprule Group & Contribution and retained limit\\\midrule\endhead
+\bottomrule\endfoot
+K1538--1542 & Amplitude rigidity, ultraviolet shell covariance demand,
+exclusion of globally coherent sign cones, and the sign-texture boundary.
+An order-$N^2$ trial was still an open target at this stage.\\
+K1543--1547 & Exact square-wave truncation tails and lamellar
+interaction/shell estimates; exclusion is specific to that family.\\
+K1548--1553 & Phase balance, coarea/Bernstein defect bound,
+localized Fejer control, mixture lift, and superquadratic ground energy.
+The quantitative bound is strengthened by the next group.\\
+K1554--1559 & Fixed-shell positive defect gap, sharp sine control,
+quartic ground-energy exponent, and gauge-potential normal-form exchange;
+no unrestricted leading coefficient or continuum limit.\\
+K1560--1565 & Cube Weyl constants, optimized uniform squeezing,
+radial normal form, and residual-gauge current identity. The variational
+coefficient is class-specific.\\
+K1566--1570 & Profiled covariance improves the Gaussian coefficient;
+covariant integration by parts controls a differentiated-current term.
+Remaining analytic budgets persist.\\
+K1571--1575 & Coupling asymptotics, exact finite-cutoff Gaussian
+minimum, moving-radius absorption, and a weight-ratio limitation.\\
+K1576--1580 & Matching coefficient for nonnegative Wick-defect
+stationary laws; static flat-connection controls expose avoidable raw
+potential-size radius loss.\\
+K1581--1585 & Strict residual descent outside the Gaussian class,
+negative-defect Fisher direction, and harmonic/oscillatory holonomy split.
+Integrability remains conditional.\\
+K1586--1590 & Quantified $N^{5/2}$ Ritz drop and failure of Gaussian
+bounded-error recentering; periodic harmonic-electric control.\\
+K1591--1595 & Symmetric profiled-cat Fisher sandwich,
+coefficient rigidity, opposite-charge angular cancellation, and analytic-tier
+conservation on the chosen orbit.\\
+K1596--1600 & Arbitrary zero-mode location mixtures over one common
+covariance, unequal-mode bare-energy normal form, and transverse nonzero-mode
+bounded periodic/quasiperiodic controls. General mixing, continuum limits,
+and global scattering remain outside these results.\\
+\end{longtable}
+\endgroup

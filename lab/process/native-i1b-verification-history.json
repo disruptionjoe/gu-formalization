@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "artifact_type": "verification_time_text_snapshot_index",
+  "scope": "Original local revision identifiers are verification-time provenance, not required public Git objects. Exact historical text inputs are preserved as hash-checked snapshots indexed in lab/process/native-i1b-verification-history.json. Earlier receipts retain their original claims, commands and hashes; current reproduction follows the current artifact instructions.",
+  "snapshot_format": "Exact original bytes; .txt suffix keeps historical documents outside the current Markdown/status and TeX input populations. These are verification-time inputs, not parallel current claims.",
+  "snapshots": [
+    {
+      "original_path": "explorations/nguyen-gu-critique/section-3-1-end-to-end-assessment-2026-10-08.md",
+      "original_local_revision": "9cb46a6fffb78dba31cf1eeb479fb158e98ae2eb",
+      "snapshot_path": "lab/process/verification-snapshots/native-i1b/assessment-initial.md.txt",
+      "sha256": "2334ad1c5ef38ae16635d8151ab088f9d58a8ce16e9e4d70f23378b8817b7b1a"
+    },
+    {
+      "original_path": "explorations/nguyen-gu-critique/section-3-1-end-to-end-assessment-2026-10-08.md",
+      "original_local_revision": "b6473c53a0d12ed0f620e0241648442d4be54e96",
+      "snapshot_path": "lab/process/verification-snapshots/native-i1b/assessment-adjudicated.md.txt",
+      "sha256": "da7b60fe165f79480ee30655f1bc645bb9edafbedf807df5a87fd04fc9190fe2"
+    },
+    {
+      "original_path": "papers/drafts/complex-gauge-unitarity/build/source/main.tex",
+      "original_local_revision": "b6473c53a0d12ed0f620e0241648442d4be54e96",
+      "snapshot_path": "lab/process/verification-snapshots/native-i1b/previous-paper-main.tex.txt",
+      "sha256": "e0368bc735975f7e242921629a7dd08c3d16ae1de18fbe6202409de3731b229e"
+    },
+    {
+      "original_path": "papers/drafts/complex-gauge-unitarity/build/source/content.tex",
+      "original_local_revision": "b6473c53a0d12ed0f620e0241648442d4be54e96",
+      "snapshot_path": "lab/process/verification-snapshots/native-i1b/previous-paper-content.tex.txt",
+      "sha256": "901d853a7cec56c83c81c38dbf145a88d2d25d9cf20fcc277375f6712c1548bf"
+    },
+    {
+      "original_path": "papers/drafts/complex-gauge-unitarity/build/source/references.bib",
+      "original_local_revision": "b6473c53a0d12ed0f620e0241648442d4be54e96",
+      "snapshot_path": "lab/process/verification-snapshots/native-i1b/previous-paper-references.bib.txt",
+      "sha256": "50379536e00ef4fb1778f341c4267f44e21536924c243974da2ae68819309ac3"
+    },
+    {
+      "original_path": "papers/drafts/complex-gauge-unitarity/build/receipt.json",
+      "original_local_revision": "b6473c53a0d12ed0f620e0241648442d4be54e96",
+      "snapshot_path": "lab/process/verification-snapshots/native-i1b/previous-paper-receipt.json.txt",
+      "sha256": "0357d0603fbde6fbcfea4de778808b9db9d55cb15a4300b80720d582d584cedf"
+    },
+    {
+      "original_path": "papers/drafts/complex-gauge-unitarity/README.md",
+      "original_local_revision": "ca53f49ed0beef2974958d7c09f29d2bac09717f",
+      "snapshot_path": "lab/process/verification-snapshots/native-i1b/previous-paper-README.md.txt",
+      "sha256": "477603425b79aa332fb7512f6d576d60f6edfa0115e7fbafb099e9bac9266c35"
+    },
+    {
+      "original_path": "papers/drafts/complex-gauge-unitarity/build/source/research-update.tex",
+      "original_local_revision": "b6473c53a0d12ed0f620e0241648442d4be54e96",
+      "snapshot_path": "lab/process/verification-snapshots/native-i1b/previous-paper-research-update.tex.txt",
+      "sha256": "2931482b37f5a976a64d23d2bc15428b0c6073dd6012d253ba57306d3e153808"
+    }
+  ]
+}

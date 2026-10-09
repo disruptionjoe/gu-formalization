@@ -1,0 +1,337 @@
+{
+  "schema_version": 1,
+  "artifact_type": "scoped_corpus_integration_receipt",
+  "verified_on": "2026-10-09",
+  "scope": "Integration and focused reproducibility of the local positivity/I1B corpus with the named upstream research revision. This is not an independent analytic review or a new scientific result.",
+  "basis": {
+    "local_revision": "ca53f49ed0beef2974958d7c09f29d2bac09717f",
+    "upstream_revision": "7d64a84f739d8f95f39203a3325412963b370e92",
+    "local_delta_files": 86,
+    "placement_counts": {
+      "Lean": 3,
+      "explorations": 15,
+      "lab": 31,
+      "papers": 7,
+      "process_gates": 1,
+      "repository_root": 5,
+      "scripts": 7,
+      "tests": 17
+    }
+  },
+  "research_map": "explorations/nguyen-gu-critique/README.md",
+  "integration_repairs": [
+    "Preserve both parents\u2019 scientific contributions and resolve the five shared-surface conflicts.",
+    "Register six reused executable certificates in the existing executable override set.",
+    "Refresh the current-frontier pointer and merged research-agenda hash.",
+    "Refresh the test inventory and frontmatter population.",
+    "Mark completed Hessian/real-energy questions and the separate quartic cutoff exponent current while retaining dated history."
+  ],
+  "preserved_from_local_revision": {
+    "AGENTS.md": "89119701a392086f4567f50caec059bf85f812058b54bedd71fb7b5418df4205",
+    "CANON.md": "b8f09386104893f8aa58f45393e020f0190b27ef5b0228c3b3169293d0d6d0bb",
+    "CONTRIBUTING.md": "207245732cc09dbf2dafe843f41c8d6aaf86985ab1cd701e51885304eb11f776",
+    "RESEARCH-POSTURE.md": "61c060a1f9d297710c30db3d801c9ede160fa8a6013094729f6b1d4744191171",
+    "lab/process/reverse-scaffold-method-contract.json": "fe610f3cd4b4b21ed311abcf8fd8ae09c388257ecd5019e80eb136d5bce02397",
+    "lab/process/conditional-physics-ledger-v0.265.json": "667105f552fd7c79f99d009c4bfa1f685329abdc060544058ef346a1cc380fa2",
+    "scripts/reproduce_all.py": "3dd8cb4543f3810f409d5f0d922186e58f3913cbf6e44005b8f828d7a406bd29"
+  },
+  "focused_python_replay": {
+    "runner": "scripts/reproduce_all.py::run_cert",
+    "environment": "uv run --no-project --with sympy==1.14.0 python -B; normal per-certificate working directory",
+    "timeout_seconds_per_certificate": 900,
+    "results": [
+      {
+        "path": "tests/channel-swings/native_i1b_constant_background_probe.py",
+        "sha256": "62125c8fa57a260f397cba91c9d1a2d455c682d9dc91ac115ed8e0da175700f4",
+        "result": "PASS"
+      },
+      {
+        "path": "tests/channel-swings/native_i1b_scalar_closure_probe.py",
+        "sha256": "7e1bfdfb4485710caa5b2696e81b0fff593ebdc62d6a04ae91ffaa634d703b38",
+        "result": "PASS"
+      },
+      {
+        "path": "tests/channel-swings/native_zorro_algebraic_reduction_probe.py",
+        "sha256": "f115d4d74b8c4fa194a3a4905625ef149877786c6ee5bc0e145ef03db81ff5f8",
+        "result": "PASS"
+      },
+      {
+        "path": "tests/channel-swings/native_zorro_boundary_constraint_probe.py",
+        "sha256": "5ba84f6f5ed1915cc2a6f9c97dd2ccc8c6e3aa0850e337f3a6bb173bed83928e",
+        "result": "PASS"
+      },
+      {
+        "path": "tests/channel-swings/native_zorro_constrained_energy_probe.py",
+        "sha256": "8fbdb1b70398748fa44bd3cac16c7357d03e078666194838c57324994abfce47",
+        "result": "PASS"
+      },
+      {
+        "path": "tests/channel-swings/native_zorro_geometry_probe.py",
+        "sha256": "9aa7e7414056f13f45a4d4a47d16ce761c804a672585504d52fcdb14a2952367",
+        "result": "PASS"
+      },
+      {
+        "path": "tests/channel-swings/native_zorro_i1b_probe.py",
+        "sha256": "3c802d8d8a6063853ca1c1ff23213bf67d14fa41eb1e613225f01dcf4c143e40",
+        "result": "PASS"
+      },
+      {
+        "path": "tests/channel-swings/native_zorro_matrix_energy_probe.py",
+        "sha256": "dd31a118fe0aec8d34712469c5e9c25eda42a688946ae1b82b769cef93d970e1",
+        "result": "PASS"
+      },
+      {
+        "path": "tests/channel-swings/native_zorro_metric_perturbation_probe.py",
+        "sha256": "22258c554d1043a2ade73c1527456985c0e5e109ab643d8a96028aec920ee30e",
+        "result": "PASS"
+      },
+      {
+        "path": "tests/channel-swings/native_zorro_real_energy_probe.py",
+        "sha256": "710295cee12d374769f5699fcbe10a2cc107ce501151840f1ccb95b6624f2e44",
+        "result": "PASS"
+      },
+      {
+        "path": "tests/channel-swings/native_zorro_real_metric_probe.py",
+        "sha256": "bd0d7b1bbd8fea6d22e7538bcd8e93e784eceaad9289acf65cad9c99adec7dbe",
+        "result": "PASS"
+      },
+      {
+        "path": "tests/channel-swings/native_zorro_real_packet_probe.py",
+        "sha256": "c6a5324bbdd8c3840a004e13be1aa0a6e86c0a73c6d10f816e1e9e0658dff87d",
+        "result": "PASS"
+      },
+      {
+        "path": "tests/channel-swings/native_zorro_stationary_background_probe.py",
+        "sha256": "5f9e096e58ad88bb8e5989eeccd5c01006c190db95ca1a5f0708555459012b91",
+        "result": "PASS"
+      },
+      {
+        "path": "tests/channel-swings/nguyen_lean_coefficients_probe.py",
+        "sha256": "3eb7469146c2e004eabae5136becec5b3f209a56371d99e995a9433d658656db",
+        "result": "PASS"
+      },
+      {
+        "path": "tests/channel-swings/nguyen_static_pairing_energy_probe.py",
+        "sha256": "2af83625feafac8cb21e997873bfcdaccd042bee6e6c6a299e7a636088337758",
+        "result": "PASS"
+      },
+      {
+        "path": "tests/channel-swings/quantum_positivity_scalar_transfer_probe.py",
+        "sha256": "77652611dc860db337bf793da4dff5e0f36446461e9492af92ae197e7f43f7fb",
+        "result": "PASS"
+      }
+    ]
+  },
+  "lean_replay": {
+    "command": "lake build GUFormalization.NguyenPositivityKernels",
+    "result": "PASS",
+    "scope": "Five scoped deductions; does not formalize the full curved energy theorems.",
+    "module_sha256": "0aadd5a41ef083bda26b90fe7f0282a819814ea9ccfbc46e887abeda267fd8b0"
+  },
+  "integration_gates": [
+    {
+      "path": "process_gates/certificate_shape_audit.py",
+      "result": "PASS"
+    },
+    {
+      "path": "tests/channel-swings/current_frontier_semantic_currency_audit.py",
+      "result": "PASS"
+    },
+    {
+      "path": "process_gates/current_state_absolute_currency_audit.py",
+      "result": "PASS"
+    },
+    {
+      "path": "process_gates/reverse_scaffold_direction_audit.py",
+      "result": "PASS"
+    },
+    {
+      "path": "process_gates/conditional_evidence_delta_gate.py",
+      "result": "PASS"
+    },
+    {
+      "path": "process_gates/learning_transport_contract_audit.py",
+      "result": "PASS"
+    },
+    {
+      "path": "process_gates/source_native_comparator_routing_audit.py",
+      "result": "PASS"
+    },
+    {
+      "path": "process_gates/explorations_readme_surface_map_audit.py",
+      "result": "PASS"
+    },
+    {
+      "path": "process_gates/lean_certificate_surface_audit.py",
+      "result": "PASS"
+    },
+    {
+      "path": "process_gates/reproduction_docs_consistency_audit.py",
+      "result": "PASS"
+    },
+    {
+      "path": "process_gates/scripts_readme_surface_map_audit.py",
+      "result": "PASS"
+    },
+    {
+      "path": "process_gates/process_gate_readme_inventory_audit.py",
+      "result": "PASS"
+    },
+    {
+      "path": "process_gates/public_path_hygiene_audit.py",
+      "result": "PASS"
+    },
+    {
+      "path": "process_gates/frontmatter_status_schema_audit.py",
+      "result": "PASS"
+    },
+    {
+      "path": "process_gates/tests_manifest_count_audit.py",
+      "result": "PASS"
+    }
+  ],
+  "scoped_checks": {
+    "typed_carrier_declaration_red": 0,
+    "kill_target_claim_red": 0,
+    "local_markdown_links_resolved": 607,
+    "private_path_or_service_metadata_matches_in_local_delta": 0,
+    "dependency_checks": 125,
+    "current_dependency_matches": 122,
+    "historical_text_pins": 3,
+    "git_diff_check": "PASS"
+  },
+  "historical_owner_pins": [
+    {
+      "receipt": "lab/process/nguyen-positivity-lean.json",
+      "path": "explorations/nguyen-gu-critique/section-3-1-end-to-end-assessment-2026-10-08.md",
+      "sha256": "2334ad1c5ef38ae16635d8151ab088f9d58a8ce16e9e4d70f23378b8817b7b1a",
+      "verified_at_local_revision": "9cb46a6fffb78dba31cf1eeb479fb158e98ae2eb",
+      "available_snapshot": "lab/process/verification-snapshots/native-i1b/assessment-initial.md.txt"
+    },
+    {
+      "receipt": "lab/process/nguyen-section-3-1-assessment.json",
+      "path": "explorations/nguyen-gu-critique/section-3-1-end-to-end-assessment-2026-10-08.md",
+      "sha256": "2334ad1c5ef38ae16635d8151ab088f9d58a8ce16e9e4d70f23378b8817b7b1a",
+      "verified_at_local_revision": "9cb46a6fffb78dba31cf1eeb479fb158e98ae2eb",
+      "available_snapshot": "lab/process/verification-snapshots/native-i1b/assessment-initial.md.txt"
+    },
+    {
+      "receipt": "lab/process/nguyen-section-3-1-adjudication.json",
+      "path": "explorations/nguyen-gu-critique/section-3-1-end-to-end-assessment-2026-10-08.md",
+      "sha256": "da7b60fe165f79480ee30655f1bc645bb9edafbedf807df5a87fd04fc9190fe2",
+      "verified_at_local_revision": "b6473c53a0d12ed0f620e0241648442d4be54e96",
+      "available_snapshot": "lab/process/verification-snapshots/native-i1b/assessment-adjudicated.md.txt"
+    }
+  ],
+  "historical_pin_policy": "Original local revision identifiers are verification-time provenance, not required public Git objects. Exact historical text inputs are preserved as hash-checked snapshots indexed in lab/process/native-i1b-verification-history.json. Earlier receipts retain their original claims, commands and hashes; current reproduction follows the current artifact instructions.",
+  "claim_ceiling": {
+    "standing_ledger_rows": "LT-SM8 and LT-GR6b remain NEEDS; INHERITANCE_BRIDGE undischarged",
+    "SC-META-53": "UNCERTAIN",
+    "canon_promotion": false,
+    "source_owned_action_admission": false,
+    "physical_evolution_domain_constructed": false,
+    "independent_analytic_review_performed": false,
+    "paper": "Existing unpublished snapshot preserved; replacement remains separate."
+  },
+  "local_revision_provenance": "Original local revision identifiers are verification-time provenance, not required public Git objects. Exact historical text inputs are preserved as hash-checked snapshots indexed in lab/process/native-i1b-verification-history.json. Earlier receipts retain their original claims, commands and hashes; current reproduction follows the current artifact instructions.",
+  "contribution_validation": {
+    "verified_on": "2026-10-09",
+    "upstream_revision": "ba778b646b25a6f73c698a89f82c4e97c55dd210",
+    "scope": "Research integration, exact historical input availability, and focused reproducibility. No new mathematical result or independent analytic review.",
+    "prior_full_replay": "The sixteen PASS records above remain applicable: every probe and the named Lean module match their recorded SHA-256 hashes byte for byte.",
+    "repeated_python_checks": [
+      {
+        "path": "tests/channel-swings/native_zorro_real_energy_probe.py",
+        "result": "PASS",
+        "scope": "22 exact checks, including both Clifford witness implementations"
+      },
+      {
+        "path": "tests/channel-swings/nguyen_lean_coefficients_probe.py",
+        "result": "PASS",
+        "scope": "5 exact coefficient checks supporting the scoped Lean deductions"
+      }
+    ],
+    "repeated_lean_check": {
+      "command": "lake build GUFormalization.NguyenPositivityKernels",
+      "result": "PASS",
+      "scope": "Five conditional deductions; the full curved energy theorems are not formalized."
+    },
+    "direct_typesetting": {
+      "compiler": "Tectonic 0.17.0",
+      "offline": true,
+      "repository_specific_builder_required": false,
+      "pdf_byte_identical": true,
+      "pdf_sha256": "c511de7108cb1742fa9587c3aab6218877436c23aacb3682e05b989fa085ede8",
+      "pages": 28
+    },
+    "historical_text_snapshots": {
+      "index": "lab/process/native-i1b-verification-history.json",
+      "distinct_snapshots": 8,
+      "receipt_pins": 9,
+      "all_hashes_match": true
+    },
+    "repository_checks": [
+      {
+        "path": "process_gates/certificate_shape_audit.py",
+        "result": "PASS"
+      },
+      {
+        "path": "process_gates/conditional_evidence_delta_gate.py",
+        "result": "PASS"
+      },
+      {
+        "path": "process_gates/learning_transport_contract_audit.py",
+        "result": "PASS"
+      },
+      {
+        "path": "process_gates/scripts_readme_surface_map_audit.py",
+        "result": "PASS"
+      },
+      {
+        "path": "tests/channel-swings/current_frontier_semantic_currency_audit.py",
+        "result": "PASS"
+      },
+      {
+        "path": "process_gates/frontmatter_status_schema_audit.py",
+        "result": "PASS"
+      },
+      {
+        "path": "process_gates/reverse_scaffold_direction_audit.py",
+        "result": "PASS"
+      },
+      {
+        "path": "process_gates/source_native_comparator_routing_audit.py",
+        "result": "PASS"
+      },
+      {
+        "path": "process_gates/explorations_readme_surface_map_audit.py",
+        "result": "PASS"
+      },
+      {
+        "path": "process_gates/lean_certificate_surface_audit.py",
+        "result": "PASS"
+      },
+      {
+        "path": "process_gates/reproduction_docs_consistency_audit.py",
+        "result": "PASS"
+      },
+      {
+        "path": "process_gates/papers_readme_lifecycle_map_audit.py",
+        "result": "PASS"
+      },
+      {
+        "path": "process_gates/public_path_hygiene_audit.py",
+        "result": "PASS"
+      },
+      {
+        "path": "process_gates/tests_manifest_count_audit.py",
+        "result": "PASS"
+      }
+    ],
+    "dependency_hashes_checked": 469,
+    "markdown_links_checked": 822,
+    "private_path_or_token_pattern_matches": 0,
+    "claim_status_effect": "None. Existing physical verdicts and analytic claim ceilings are preserved.",
+    "link_scope": "All relative links in the changed current Markdown documents resolve inside the submitted Git tree. Four excluded downloaded-PDF links were replaced with their exact versioned primary-source URLs."
+  }
+}

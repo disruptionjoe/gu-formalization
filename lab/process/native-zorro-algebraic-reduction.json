@@ -1,0 +1,608 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-10-08",
+  "owner": "explorations/conditional-build/native-zorro-algebraic-reduction-2026-10-08.md",
+  "probe": "tests/channel-swings/native_zorro_algebraic_reduction_probe.py",
+  "classification": "SOURCE_NATIVE_ROUTE within declared canonical comm/symi/symi I1B reconstruction",
+  "background_owner": "explorations/conditional-build/native-zorro-stationary-background-2026-10-08.md",
+  "mixed_predecessor": "explorations/conditional-build/native-zorro-metric-perturbation-2026-10-08.md",
+  "target_claim": "NONE-NOT-A-KILL",
+  "bears_on": [
+    "SC-ACT-06",
+    "SC-META-53"
+  ],
+  "canon_verdict_change": "none",
+  "result": {
+    "passed": 10,
+    "checks": [
+      "170 generators certify the full 154-dimensional closed-trace torsion-free jet class",
+      "the derivative cancellation includes genuinely moving horizontal projectors",
+      "six anisotropic and sheared off-section controls retain the second-order identity",
+      "the second-order mixed coefficient kills every base diffeomorphism symbol",
+      "the connection lift of a base diffeomorphism is a pure ambient metric gauge symbol",
+      "fourteen representatives preserve grade and cover all even Clifford coefficient blocks",
+      "the fourteen determinant polynomials have exactly 39 distinct nonconstant factors",
+      "the same stationary algebraic root is isolated and kappa is nonzero",
+      "all 39 determinant factors exclude zero by rational interval arithmetic",
+      "all principal Clifford-grade transition types reverse parity and are real on the source slice"
+    ],
+    "mixed_jet_generators": 170,
+    "jet_space_dimension": 154,
+    "nonzero_projector_controls": 158,
+    "off_section_controls": [
+      {
+        "change": "Matrix([[2, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]])",
+        "q": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "change": "Matrix([[2, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]])",
+        "q": [
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "change": "Matrix([[2, 0, 0, 0], [0, 2, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1/2]])",
+        "q": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "change": "Matrix([[2, 0, 0, 0], [0, 2, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1/2]])",
+        "q": [
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "change": "Matrix([[1, 0, 1/2, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]])",
+        "q": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "change": "Matrix([[1, 0, 1/2, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]])",
+        "q": [
+          1,
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+    "even_coefficient_dimension": 114688,
+    "even_potential_blocks": [
+      {
+        "label_weight": 1,
+        "contains_radial": false,
+        "representative_label": 1,
+        "label_multiplicity": 13,
+        "determinant_real_clifford_basis": "-kappa*(52*a + 4*c - 3*kappa)**11*(31456*a**2 + 352*a*c - 1404*a*kappa - 132*c*kappa - 9*kappa**2)/1594323"
+      },
+      {
+        "label_weight": 1,
+        "contains_radial": true,
+        "representative_label": 1024,
+        "label_multiplicity": 1,
+        "determinant_real_clifford_basis": "-kappa*(44*a + 12*c - 3*kappa)**12*(528*a + 40*c + 3*kappa)/1594323"
+      },
+      {
+        "label_weight": 3,
+        "contains_radial": false,
+        "representative_label": 7,
+        "label_multiplicity": 286,
+        "determinant_real_clifford_basis": "-(52*a + 4*c - 3*kappa)**2*(68*a + 4*c - 3*kappa)**9*(104*a + 8*c + 3*kappa)*(3552*a**2 + 96*a*c - 116*a*kappa - 12*c*kappa - kappa**2)/531441"
+      },
+      {
+        "label_weight": 3,
+        "contains_radial": true,
+        "representative_label": 1027,
+        "label_multiplicity": 78,
+        "determinant_real_clifford_basis": "-(20*a + 4*c - kappa)**10*(44*a + 12*c - 3*kappa)*(424*a + 32*c + 3*kappa)*(6272*a**2 - 132*a*kappa - 36*c*kappa - 9*kappa**2)/81"
+      },
+      {
+        "label_weight": 5,
+        "contains_radial": false,
+        "representative_label": 31,
+        "label_multiplicity": 1287,
+        "determinant_real_clifford_basis": "-(68*a + 4*c - 3*kappa)**4*(84*a + 4*c - 3*kappa)**7*(272*a + 16*c + 3*kappa)*(29152*a**2 + 1120*a*c - 684*a*kappa - 84*c*kappa - 9*kappa**2)/4782969"
+      },
+      {
+        "label_weight": 5,
+        "contains_radial": true,
+        "representative_label": 1039,
+        "label_multiplicity": 715,
+        "determinant_real_clifford_basis": "-(20*a + 4*c - kappa)**3*(76*a + 12*c - 3*kappa)**8*(320*a + 24*c + 3*kappa)*(2304*a**2 - 60*a*kappa - 12*c*kappa - kappa**2)/19683"
+      },
+      {
+        "label_weight": 7,
+        "contains_radial": false,
+        "representative_label": 127,
+        "label_multiplicity": 1716,
+        "determinant_real_clifford_basis": "-(84*a + 4*c - 3*kappa)**6*(100*a + 4*c - 3*kappa)**5*(168*a + 8*c + kappa)*(23008*a**2 + 1120*a*c - 324*a*kappa - 60*c*kappa - 9*kappa**2)/1594323"
+      },
+      {
+        "label_weight": 7,
+        "contains_radial": true,
+        "representative_label": 1087,
+        "label_multiplicity": 1716,
+        "determinant_real_clifford_basis": "-(76*a + 12*c - 3*kappa)**5*(92*a + 12*c - 3*kappa)**6*(216*a + 16*c + 3*kappa)*(15488*a**2 - 380*a*kappa - 60*c*kappa - 3*kappa**2)/1594323"
+      },
+      {
+        "label_weight": 9,
+        "contains_radial": false,
+        "representative_label": 511,
+        "label_multiplicity": 715,
+        "determinant_real_clifford_basis": "-(100*a + 4*c - 3*kappa)**8*(116*a + 4*c - 3*kappa)**3*(800*a + 32*c + 3*kappa)*(1504*a**2 + 96*a*c + 4*a*kappa - 4*c*kappa - kappa**2)/531441"
+      },
+      {
+        "label_weight": 9,
+        "contains_radial": true,
+        "representative_label": 1279,
+        "label_multiplicity": 1287,
+        "determinant_real_clifford_basis": "-(36*a + 4*c - kappa)**4*(92*a + 12*c - 3*kappa)**7*(112*a + 8*c + 3*kappa)*(86528*a**2 - 1932*a*kappa - 252*c*kappa - 9*kappa**2)/59049"
+      },
+      {
+        "label_weight": 11,
+        "contains_radial": false,
+        "representative_label": 3071,
+        "label_multiplicity": 78,
+        "determinant_real_clifford_basis": "-(116*a + 4*c - 3*kappa)**10*(132*a + 4*c - 3*kappa)*(1160*a + 40*c + 3*kappa)*(736*a**2 + 352*a*c + 396*a*kappa - 12*c*kappa - 9*kappa**2)/4782969"
+      },
+      {
+        "label_weight": 11,
+        "contains_radial": true,
+        "representative_label": 2047,
+        "label_multiplicity": 286,
+        "determinant_real_clifford_basis": "-(8*a + 3*kappa)*(36*a + 4*c - kappa)**9*(124*a + 12*c - 3*kappa)**2*(16000*a**2 - 324*a*kappa - 36*c*kappa - kappa**2)/27"
+      },
+      {
+        "label_weight": 13,
+        "contains_radial": false,
+        "representative_label": 15359,
+        "label_multiplicity": 1,
+        "determinant_real_clifford_basis": "(104*a - 3*kappa)*(132*a + 4*c - 3*kappa)**12*(528*a + 16*c + kappa)/1594323"
+      },
+      {
+        "label_weight": 13,
+        "contains_radial": true,
+        "representative_label": 8191,
+        "label_multiplicity": 13,
+        "determinant_real_clifford_basis": "(96*a + 8*c - 3*kappa)*(124*a + 12*c - 3*kappa)**11*(73984*a**2 - 1364*a*kappa - 132*c*kappa - 3*kappa**2)/1594323"
+      }
+    ],
+    "nonzero_factor_certificates": [
+      {
+        "factor": "100*a + 4*c - 3*kappa",
+        "normalized_interval": [
+          "2751191/500000",
+          "5502383/1000000"
+        ]
+      },
+      {
+        "factor": "104*a + 8*c + 3*kappa",
+        "normalized_interval": [
+          "11400613/1000000",
+          "5700307/500000"
+        ]
+      },
+      {
+        "factor": "104*a - 3*kappa",
+        "normalized_interval": [
+          "6321163/1000000",
+          "1580291/250000"
+        ]
+      },
+      {
+        "factor": "112*a + 8*c + 3*kappa",
+        "normalized_interval": [
+          "6058813/500000",
+          "12117627/1000000"
+        ]
+      },
+      {
+        "factor": "116*a + 4*c - 3*kappa",
+        "normalized_interval": [
+          "6936407/1000000",
+          "867051/125000"
+        ]
+      },
+      {
+        "factor": "1160*a + 40*c + 3*kappa",
+        "normalized_interval": [
+          "102364077/1000000",
+          "51182039/500000"
+        ]
+      },
+      {
+        "factor": "124*a + 12*c - 3*kappa",
+        "normalized_interval": [
+          "673287/100000",
+          "6732871/1000000"
+        ]
+      },
+      {
+        "factor": "132*a + 4*c - 3*kappa",
+        "normalized_interval": [
+          "130788/15625",
+          "8370433/1000000"
+        ]
+      },
+      {
+        "factor": "1504*a**2 + 96*a*c + 4*a*kappa - 4*c*kappa - kappa**2",
+        "normalized_interval": [
+          "681889/62500",
+          "10910233/1000000"
+        ]
+      },
+      {
+        "factor": "15488*a**2 - 380*a*kappa - 60*c*kappa - 3*kappa**2",
+        "normalized_interval": [
+          "1472811/15625",
+          "94259979/1000000"
+        ]
+      },
+      {
+        "factor": "16000*a**2 - 324*a*kappa - 36*c*kappa - kappa**2",
+        "normalized_interval": [
+          "102630197/1000000",
+          "4105211/40000"
+        ]
+      },
+      {
+        "factor": "168*a + 8*c + kappa",
+        "normalized_interval": [
+          "7568357/500000",
+          "3027343/200000"
+        ]
+      },
+      {
+        "factor": "20*a + 4*c - kappa",
+        "normalized_interval": [
+          "10383/31250",
+          "332257/1000000"
+        ]
+      },
+      {
+        "factor": "216*a + 16*c + 3*kappa",
+        "normalized_interval": [
+          "128239/6250",
+          "20518241/1000000"
+        ]
+      },
+      {
+        "factor": "23008*a**2 + 1120*a*c - 324*a*kappa - 60*c*kappa - 9*kappa**2",
+        "normalized_interval": [
+          "17766969/125000",
+          "142135859/1000000"
+        ]
+      },
+      {
+        "factor": "2304*a**2 - 60*a*kappa - 12*c*kappa - kappa**2",
+        "normalized_interval": [
+          "337777/25000",
+          "3377773/250000"
+        ]
+      },
+      {
+        "factor": "272*a + 16*c + 3*kappa",
+        "normalized_interval": [
+          "1596083/62500",
+          "25537329/1000000"
+        ]
+      },
+      {
+        "factor": "29152*a**2 + 1120*a*c - 684*a*kappa - 84*c*kappa - 9*kappa**2",
+        "normalized_interval": [
+          "80993053/500000",
+          "161986231/1000000"
+        ]
+      },
+      {
+        "factor": "31456*a**2 + 352*a*c - 1404*a*kappa - 132*c*kappa - 9*kappa**2",
+        "normalized_interval": [
+          "25881337/200000",
+          "323517/2500"
+        ]
+      },
+      {
+        "factor": "320*a + 24*c + 3*kappa",
+        "normalized_interval": [
+          "28918853/1000000",
+          "14459427/500000"
+        ]
+      },
+      {
+        "factor": "3552*a**2 + 96*a*c - 116*a*kappa - 12*c*kappa - kappa**2",
+        "normalized_interval": [
+          "17527009/1000000",
+          "1095439/62500"
+        ]
+      },
+      {
+        "factor": "36*a + 4*c - kappa",
+        "normalized_interval": [
+          "1766281/1000000",
+          "883141/500000"
+        ]
+      },
+      {
+        "factor": "424*a + 32*c + 3*kappa",
+        "normalized_interval": [
+          "37319467/1000000",
+          "9329867/250000"
+        ]
+      },
+      {
+        "factor": "44*a + 12*c - 3*kappa",
+        "normalized_interval": [
+          "-54657/125000",
+          "-87451/200000"
+        ]
+      },
+      {
+        "factor": "52*a + 4*c - 3*kappa",
+        "normalized_interval": [
+          "600153/500000",
+          "1200307/1000000"
+        ]
+      },
+      {
+        "factor": "528*a + 16*c + kappa",
+        "normalized_interval": [
+          "46481731/1000000",
+          "11620433/250000"
+        ]
+      },
+      {
+        "factor": "528*a + 40*c + 3*kappa",
+        "normalized_interval": [
+          "45720081/1000000",
+          "22860041/500000"
+        ]
+      },
+      {
+        "factor": "6272*a**2 - 132*a*kappa - 36*c*kappa - 9*kappa**2",
+        "normalized_interval": [
+          "6738849/200000",
+          "33694279/1000000"
+        ]
+      },
+      {
+        "factor": "68*a + 4*c - 3*kappa",
+        "normalized_interval": [
+          "658583/250000",
+          "2634333/1000000"
+        ]
+      },
+      {
+        "factor": "736*a**2 + 352*a*c + 396*a*kappa - 12*c*kappa - 9*kappa**2",
+        "normalized_interval": [
+          "3015491/100000",
+          "6030989/200000"
+        ]
+      },
+      {
+        "factor": "73984*a**2 - 1364*a*kappa - 132*c*kappa - 3*kappa**2",
+        "normalized_interval": [
+          "121061509/250000",
+          "121061599/250000"
+        ]
+      },
+      {
+        "factor": "76*a + 12*c - 3*kappa",
+        "normalized_interval": [
+          "1215397/500000",
+          "486159/200000"
+        ]
+      },
+      {
+        "factor": "8*a + 3*kappa",
+        "normalized_interval": [
+          "929253/250000",
+          "3717013/1000000"
+        ]
+      },
+      {
+        "factor": "800*a + 32*c + 3*kappa",
+        "normalized_interval": [
+          "3550953/50000",
+          "71019061/1000000"
+        ]
+      },
+      {
+        "factor": "84*a + 4*c - 3*kappa",
+        "normalized_interval": [
+          "4068357/1000000",
+          "2034179/500000"
+        ]
+      },
+      {
+        "factor": "86528*a**2 - 1932*a*kappa - 252*c*kappa - 9*kappa**2",
+        "normalized_interval": [
+          "108382271/200000",
+          "67738971/125000"
+        ]
+      },
+      {
+        "factor": "92*a + 12*c - 3*kappa",
+        "normalized_interval": [
+          "3864819/1000000",
+          "193241/50000"
+        ]
+      },
+      {
+        "factor": "96*a + 8*c - 3*kappa",
+        "normalized_interval": [
+          "4683601/1000000",
+          "2341801/500000"
+        ]
+      },
+      {
+        "factor": "kappa",
+        "normalized_interval": [
+          "1",
+          "1"
+        ]
+      }
+    ],
+    "principal_grade_transitions": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        7,
+        4
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        7
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        9,
+        6
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        10,
+        9
+      ],
+      [
+        10,
+        13
+      ],
+      [
+        11,
+        8
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        12,
+        11
+      ],
+      [
+        13,
+        10
+      ],
+      [
+        13,
+        14
+      ],
+      [
+        14,
+        13
+      ]
+    ],
+    "scope": "formal local bulk elimination; no physical constraint quotient or energy theorem"
+  },
+  "analytic_arguments": [
+    "source phased anti-involution slice makes the selected action real",
+    "closed-trace torsion-free jet generators span dimension 154 and congruence extends the identity across the fibre",
+    "naturality and stationary background kill mixed metric orders zero and one",
+    "complex orthogonal signed permutations fixing the radial vector classify all even coefficient blocks",
+    "pointwise even inverse gives exact formal bulk elimination with transported boundary conditions",
+    "coefficient-conjugation symmetry makes imaginary-grade packet a closed metric-decoupled linearized sector"
+  ],
+  "claim_ceiling": [
+    "No physical state count is inferred from raw coefficient dimensions.",
+    "No inverse of the full differential Hessian, physical Hamiltonian domain, energy sign or GU unitarity verdict is proved.",
+    "Pure-base Hessian, remaining constraints, boundary conditions and observation reduction remain open.",
+    "No independent later verification or canon promotion."
+  ],
+  "validation": {
+    "python": "3.11",
+    "sympy": "1.14.0",
+    "probe_passed": true,
+    "replay_command": "uv run --no-project --with sympy==1.14.0 python -B tests/channel-swings/native_zorro_algebraic_reduction_probe.py",
+    "typed_carrier_audit": "0 red",
+    "target_claim_audit": "0 red",
+    "tests_manifest_count_audit": "3 tests passed",
+    "frontmatter_status_audit": "passed on the actual indexed tracked population",
+    "owner_links_yaml_and_receipt_hashes": "passed",
+    "git_diff_check": "passed"
+  },
+  "dependencies_sha256": {
+    "explorations/conditional-build/native-zorro-algebraic-reduction-2026-10-08.md": "678d52703230091c166af28570696a472cfbc3902537b1583f31b76d1299c278",
+    "tests/channel-swings/native_zorro_algebraic_reduction_probe.py": "f115d4d74b8c4fa194a3a4905625ef149877786c6ee5bc0e145ef03db81ff5f8",
+    "tests/channel-swings/native_zorro_geometry_probe.py": "9aa7e7414056f13f45a4d4a47d16ce761c804a672585504d52fcdb14a2952367",
+    "tests/channel-swings/native_zorro_i1b_probe.py": "3c802d8d8a6063853ca1c1ff23213bf67d14fa41eb1e613225f01dcf4c143e40",
+    "tests/channel-swings/native_zorro_stationary_background_probe.py": "5f9e096e58ad88bb8e5989eeccd5c01006c190db95ca1a5f0708555459012b91",
+    "tests/channel-swings/native_zorro_metric_perturbation_probe.py": "22258c554d1043a2ade73c1527456985c0e5e109ab643d8a96028aec920ee30e",
+    "tests/channel-swings/native_i1b_scalar_closure_probe.py": "7e1bfdfb4485710caa5b2696e81b0fff593ebdc62d6a04ae91ffaa634d703b38",
+    "tests/channel-swings/k77_exact_bank_api.py": "5f9ca5458e55669bce226bf65e82b11a54d81d7cffeb2d18a1fb4635f575cf5b"
+  }
+}

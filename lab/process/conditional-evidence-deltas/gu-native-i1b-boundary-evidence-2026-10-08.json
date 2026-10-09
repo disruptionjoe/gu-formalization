@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "delta_id": "GU-NATIVE-I1B-BOUNDARY-EVIDENCE-2026-10-08",
+  "status": "integrated",
+  "base": {
+    "ledger_ref": "lab/process/conditional-physics-ledger-v0.263.json",
+    "ledger_sha256": "7c75c179c3af512084e50af19043a5d320b38e8c1e53325ee5ec2f97ad9c257b"
+  },
+  "affected_rows": [
+    "LT-SM8",
+    "LT-GR6b"
+  ],
+  "result_refs": [
+    "explorations/conditional-build/native-zorro-constrained-energy-2026-10-08.md",
+    "explorations/conditional-build/native-zorro-real-packet-and-selection-2026-10-08.md",
+    "explorations/conditional-build/native-zorro-real-metric-hessian-2026-10-08.md",
+    "explorations/conditional-build/native-zorro-boundary-constraints-2026-10-08.md"
+  ],
+  "source_disposition": "Selected source-motivated bosonic action reconstruction; no source-owned action-root admission. SC-META-53 stays UNCERTAIN; no source polarity changes.",
+  "claim_ceiling": "Native-action selected-realization classical quadratic energy and local boundary compatibility only. Neither the physical quotient pairing inheritance nor a completed real-sector energy verdict is established.",
+  "proposed_effect": {
+    "summary": "Append scoped native evidence to two NEEDS rows and record the germ-descent observation against firewall criterion 1; preserve all verdicts, named conditions, distances and triggers.",
+    "requested_row_changes": [
+      "LT-SM8: append selected native-action evidence bearing on but not discharging INHERITANCE_BRIDGE",
+      "LT-GR6b: append the selected bulk energy and exact polarized boundary compatibility evidence"
+    ]
+  },
+  "conflict_keys": [
+    "LT-SM8.NATIVE-I1B",
+    "LT-GR6b.NATIVE-I1B"
+  ],
+  "integration": {
+    "disposition": "incorporated",
+    "canonical_ledger_ref": "lab/process/conditional-physics-ledger-v0.264.json",
+    "reason": "Evidence and typing only; exact preservation of every prior protected row field and active verdict count checked."
+  }
+}

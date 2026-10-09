@@ -1,0 +1,648 @@
+{
+  "schema_version": 1,
+  "artifact_type": "selected_source_action_local_stationary_background_certificate",
+  "verified_at_utc": "2026-10-08T18:22:57.853796+00:00",
+  "base_revision": "d87633966c6ef6eb6b1d94cf6c66c42b81af6a0e",
+  "owner": "explorations/conditional-build/native-zorro-stationary-background-2026-10-08.md",
+  "probe": "tests/channel-swings/native_zorro_stationary_background_probe.py",
+  "source_owner": {
+    "action": "GU April 1 draft equation 9.4, with declared normalization",
+    "operator": "repository-selected comm/symi/symi realization of equation 9.3",
+    "geometry": "canonical connection metric over flat observing metric, not flat ambient geometry",
+    "source_unique_selection_proved": false,
+    "printed_residual_identified_with_action_euler": false
+  },
+  "exact_certificate": {
+    "result_id": "NATIVE-ZORRO-STATIONARY-BACKGROUND",
+    "checks_passed": 22,
+    "checks": [
+      "unit trace vector and its covariant derivative computed from the coordinate connection",
+      "four intrinsic fields and their gradients are real",
+      "all five representative equations come from the differentiated action",
+      "complete distortion image consists of 27 rows and exactly five equations",
+      "the only possible scalar receiver is identically zero",
+      "no hidden linear receivers outside the declared image",
+      "independent integration-by-parts evaluation matches every derivative coefficient",
+      "ansatz mass pairing has the declared normalization",
+      "elimination gives a squarefree polynomial of degree ten",
+      "Sturm isolation certifies exactly one real root in the chosen rational interval",
+      "all rational branch denominators are coprime to the defining polynomial",
+      "the original linear solve and coupling formulas have nonzero denominators",
+      "rational interval arithmetic certifies a positive nonzero real coupling",
+      "the selected branch is separated from the omitted-component family",
+      "stationary equation 1 vanishes exactly in the algebraic number field",
+      "stationary equation 2 vanishes exactly in the algebraic number field",
+      "stationary equation 3 vanishes exactly in the algebraic number field",
+      "stationary equation 4 vanishes exactly in the algebraic number field",
+      "stationary equation 5 vanishes exactly in the algebraic number field",
+      "setting w to zero recovers a strictly positive obstruction",
+      "obstruction lower bound is 71/64 in the unscaled Euler difference",
+      "linearized observing Levi-Civita coefficients contain first base derivatives only"
+    ],
+    "selected_shiab": [
+      "comm",
+      "symi",
+      "symi"
+    ],
+    "sympy_version": "1.14.0",
+    "full_distortion_rows": 27,
+    "equations": [
+      "(4224*a**2 + 768*a*c + 16*a*kappa + v**2 - 72*v*w - 3*v + 768*w**2 + 108*w - 84)/16",
+      "(6336*a**2 + 1152*a*c + 24*a*kappa + 3*v**2 - 128*v*w - 12*v + 896*w**2 + 168*w - 90)/24",
+      "(7488*a**2 + 24*c*kappa + v**2 - 144*v*w - 6*v + 864*w**2 + 216*w - 126)/24",
+      "(132*a*v - 3168*a*w + 12*a + 4*c*v - 288*c*w - 12*c + 3*kappa*v)/24",
+      "(22*a*v - 352*a*w + 3*a + 2*c*v - 24*c*w - 3*c - 3*kappa*w)/3"
+    ],
+    "defining_polynomial": "1078253165818470400*w**10 + 3877334434099568640*w**9 + 4643792466602204160*w**8 + 1707092071119812736*w**7 - 454780741544188128*w**6 - 354008474391384144*w**5 - 41983168422902724*w**4 + 1153971394741872*w**3 + 7933181509779615*w**2 + 1617316736755599*w - 494757479546640",
+    "root_interval": [
+      "227427945967/1000000000000",
+      "227427945969/1000000000000"
+    ],
+    "rational_parameter_formulas": {
+      "v": "(-96471654400*w**6 - 210114455040*w**5 - 29233525248*w**4 + 98962215264*w**3 + 12067809624*w**2 - 6319064340*w - 617509656)/(12058956800*w**5 + 28525361280*w**4 + 18854889984*w**3 + 3709530864*w**2 + 545539698*w - 749271789)",
+      "alpha": "(-1199702122610196480000*w**11 - 11853744150173744332800*w**10 - 32588363308009886023680*w**9 - 35881510109928780810240*w**8 - 14338117561476499499520*w**7 + 924369514469900464896*w**6 + 1473053012358125662368*w**5 + 221140307982353669568*w**4 + 44082606148137733572*w**3 - 18179810328375562752*w**2 - 1696959838305836361*w - 78176417940150885)/(290836878208532480000*w**11 + 181287734750800006348800*w**10 + 639605986639675590574080*w**9 + 740721130612494637547520*w**8 + 243948408759212898299904*w**7 - 83060071757053120198656*w**6 - 44076962358827585853696*w**5 + 581586518200936196736*w**4 + 838058692131280270080*w**3 + 857399004776153363904*w**2 - 138295000651127979024*w - 482920461810941544)",
+      "beta": "(15814255252588953600000*w**11 + 141793110765634247884800*w**10 + 372382988649423789588480*w**9 + 391544182715850842757120*w**8 + 140140536601707322799616*w**7 - 21845234596926976646400*w**6 - 18520050391664695632864*w**5 - 1924348081310289919584*w**4 + 71719228601855354628*w**3 + 281203367795555862744*w**2 - 11228982379040601081*w - 1222130943699865893)/(290836878208532480000*w**11 + 181287734750800006348800*w**10 + 639605986639675590574080*w**9 + 740721130612494637547520*w**8 + 243948408759212898299904*w**7 - 83060071757053120198656*w**6 - 44076962358827585853696*w**5 + 581586518200936196736*w**4 + 838058692131280270080*w**3 + 857399004776153363904*w**2 - 138295000651127979024*w - 482920461810941544)",
+      "kappa_squared": "(135304148516907217937183914259196352769246369939456000000000000*w**34 + 169318748236034903264560642696138201542932500500625489920000000000*w**33 + 53965587222155916560335070472846361911397682527250559900057600000000*w**32 + 624568341557456624112171793706715164635184637483738287088599040000000*w**31 + 3282299002980470050965528676662195713848608436750761674737188864000000*w**30 + 10185492111634143847819226047796662008278057223055762289828089036800000*w**29 + 20516835001615783357611063291324883026385866998031152434508810158080000*w**28 + 27666081930918704787524460973536204999960487389316736417459374915584000*w**27 + 24455047954277992685578718949020686107775382258036214157865038695628800*w**26 + 12420450173569329404251002211401366578913966303091019560870077687398400*w**25 + 1023795416002096667250620711733005488454552646773296103198371275079680*w**24 - 3285456994983057904866632187967329180463050449377378842896254831165440*w**23 - 2271384069088841371778476609262897924134585005502863765999123041353728*w**22 - 472721445776116338718814363628041621857645477807195993146436532305920*w**21 + 206341042394632778879263798599080814957199522748479249587566983249920*w**20 + 168524003911151110479439587825183788876449499168513430212043796905984*w**19 + 37241447936526535003153902459205793279701701162920964886894957559808*w**18 - 8974161825819350624533679762602133611784696063166411133001857499136*w**17 - 7510116557038286754659437443497610137081627158920175746281208545280*w**16 - 1364466960340868797612230170678093948755756990496670690802655821824*w**15 + 318047291038136095489961215572080423572832850153934221894285656064*w**14 + 215508539310144991271727873351370543119454562971449074533069651968*w**13 + 27663842903909832713043777312261114864978811141713260383210119168*w**12 - 10428452876866543271352617348841824310356693342256369494511550464*w**11 - 3580104609095731702536164535768625200736839431376747036532936704*w**10 - 204997716980113357588533415940471141298853772907698588861380608*w**9 + 195495158471434325561250437775746202889158162765772765755495936*w**8 + 37423367973154748263184412283192397551525605647955708822389760*w**7 - 5779988947003672786637162108134957567829178744808260385568256*w**6 - 862740453997001842274306231084553394499606465124932367974016*w**5 - 278758514806676568773407335924101747514279006307859647620384*w**4 + 103056529023438152842128987085994741418647096497036679785728*w**3 - 6789589296602601693613490655487894187156294443592901271728*w**2 - 50096243695228424868147510010742767143395190424275393960*w - 87755225216364734243543590614568873177434341852762910)/(9653105345753099329705964882929539792880920705368064000000000000*w**32 + 225178965982400848294766332193025753311321813331832995840000000000*w**31 + 2243073552731708544726337818234905392907282478540156567552000000000*w**30 + 12767829340160883794002044670954585912447808745213649747968000000000*w**29 + 46958743790930840971254097490450322107439643891506066090885120000000*w**28 + 119113101067615034785046600453666890473890164919779922005721088000000*w**27 + 215998344162364545816833252662546124269908905767497113652323942400000*w**26 + 284642679059434765250008321709839651946389608691752845458758696960000*w**25 + 271999070050163695639917755107144043177975993334144331661841530880000*w**24 + 182713462604502851224193363942955051005814917799984706735760945971200*w**23 + 77105613419665933083514507044150058008524934680405134542120702443520*w**22 + 9694204008043974784177875371433112577486369073262975426317967687680*w**21 - 11478982881516954206614683797870781872653463663084188361244498984960*w**20 - 8796711150869972095994583030847599550882279523733970453879370809344*w**19 - 2652003325100161385059704487312778195398427425762248398613120024576*w**18 + 98109397842742772217103795221790143151891719982231686446837661696*w**17 + 403289209526867408733891792519757983129405079426067235742452547584*w**16 + 144662992766337694558644497986292982015524143745046123472293986304*w**15 + 8094992428040096345955928651348504020775285419742951656788066304*w**14 - 11230129384804031068936295429986230212350069700099063658807951360*w**13 - 3959763560829056725226340898114750271592364544598467453406609408*w**12 - 201859150461995002343400316717734880007355735613606590133180416*w**11 + 203415084260008325485183599799305207496425435208862611618235904*w**10 + 59254119852045769075340217655905568854954192692426883788308224*w**9 + 1566354449419540934139248377392846558670294321057936141508160*w**8 - 2606566558295611586042058058385194616447082281578926629138496*w**7 - 380223179602400339515426745116415995192128231892630106993808*w**6 - 9942922331248707363064836971228921452247107955252415765120*w**5 + 20970449570483987706988267062910684638527939802095686716732*w**4 + 469258593420094662862902295910592369420162007185465260148*w**3 - 156441892372661150108960086661532559430296272348224889765*w**2 - 15037176353338557485727580550679421317306209692780602141*w - 437702625298778539789386529950954337563523854588107760)"
+    },
+    "certified_intervals": {
+      "v": [
+        "2371703560197899014889394381806453549372306516081701516511555230073949028851/624426393891667907771908831373843504909617667122966234235473603625000000000",
+        "87840872604724039645715446043577906892120255319277047993486045270331445513/23126903475059572727794430543467302660222748449801025230847111125000000000"
+      ],
+      "alpha": [
+        "620074517689931897055081403401509809770023205642637209718225187396839867484429159575681383676890759331273823720850317621029394574334683207/6918422468324643536544670944561288037361245821114139509089633758362182190536170430333475502244972336667333308570466345260229949872807122632",
+        "99518132584798211140048537437233854091071532956356852285578556865344933731959118459492088277878977622812991671819233185444247916326996277/1110364097017659903015749142520829467564653848151688536602713982667915737632087298044154107483805584096848121038540714341514541162323064152"
+      ],
+      "beta": [
+        "-42589411395810051153852909343558613111959173565198518207103289099673469548301850295171044912153226288911881869965705069285712772894462245/370121365672553301005249714173609822521551282717229512200904660889305245877362432681384702494601861365616040346180238113838180387441021384",
+        "-796094374492094105942392107874756422055821629079851464901242849073370996432399005932835700163691188162928485474756417922683974406112706885/6918422468324643536544670944561288037361245821114139509089633758362182190536170430333475502244972336667333308570466345260229949872807122632"
+      ],
+      "kappa_squared": [
+        "23994400021304786284797552188503488535222675028980168228308992125440432205432112296852575063790252216022926738077723165943996112076910804000773762865436013145380129505845261565667419582857065748077248522121415274617966615859972519241016475816257773841614476347992974816905713692348207428516832467772656170641037213554217919684834743076364831491330087218450475607801077569764763292664074686899312997969843736136541562368493736443/8348845757226802417247028694749036621344952077278808458956409627323965070267529376741512707033427883971297485734311613689766417414473265199329703796664434006430670507091167457175457977935036712600307021846031309595849914048626256003437306607670968507934658701110147584176636790176340599345217310237462614119946545871772039905811691959845438674413635882083469669461159483304494114796492675045460390560760281250000000000000000000",
+        "7998537120793952031137562858154898659352138680232048966652127879873490604442143099716295810004446392602048742480818137420884788568403988912774068760265054270681112861180958490483723758388367378749631557038476960486475819503649937289245145914240336554811827245446501129658409431029348628215868315956210641385655812572399445481601067880689406133467557625948820119527672861787947685615714141410162031706326687765986905243469872681/2782921524592789716117907820191802631842707729254809582153232035852820657625857523745111261446691899297953425193593608934619752153602488252385774780039739900492120861034667323344114069954597807353304433389358055197157593258516526617716276824143131976109365940793217914947049206165686134499537758533885802667708755514185715882143755262633829792602446693268578741809017055171534526262854528472694877087422093750000000000000000000"
+      ]
+    },
+    "approximations_for_orientation_only": {
+      "w": "0.227427945968",
+      "v": "3.79821158040",
+      "alpha": "0.0896265762437",
+      "beta": "-0.115068772257",
+      "kappa_squared": "2.87406463754"
+    },
+    "analytic_obligations_in_owner": [
+      "XOR support completeness",
+      "affine isometry transport of the local solution",
+      "epsilon dressing identity",
+      "observing-metric first variation on the product patch"
+    ],
+    "claim_ceiling": "Selected reconstructed local stationary bosonic background; no global action domain, physical reduction, positive conserved pairing, semibounded Hamiltonian or quantum claim."
+  },
+  "focused_dependency_runs": [
+    {
+      "command": "uv run --no-project --with sympy==1.14.0 python -B tests/channel-swings/native_zorro_geometry_probe.py",
+      "exit_code": 0,
+      "result": {
+        "checks_passed": 10,
+        "checks": [
+          "connection is torsion free in every coordinate pair",
+          "connection is metric in all fourteen directions",
+          "curvature is metric-skew in all ninety-one two-planes",
+          "Ricci tensor is symmetric",
+          "full curvature satisfies every algebraic first Bianchi identity",
+          "rational frame has the selected K77 signature",
+          "constant rescaling cancels in the base Levi-Civita coefficient",
+          "moving the fibre point retains the separate minus-eight density derivative",
+          "vertical traceless plane has sectional curvature minus one half",
+          "horizontal and trace Ricci eigenvalue is one quarter, traceless is minus five quarters"
+        ],
+        "ricci_endomorphism": "Matrix([[1/4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1/4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 1/4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 1/4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, -5/4, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, -5/4, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, -5/4, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, -5/4, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, -5/4, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, -5/4, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1/4, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -5/4, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -5/4, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -5/4]])",
+        "ricci_eigenvalues": {
+          "1/4": 5,
+          "-5/4": 9
+        },
+        "scalar_curvature": "-10",
+        "vertical_sectional_curvature": "-1/2",
+        "claim_ceiling": "Canonical connection-metric reconstruction only; source uniqueness, stationary I1B background and physical domain not established."
+      }
+    },
+    {
+      "command": "uv run --no-project --with sympy==1.14.0 python -B tests/channel-swings/native_zorro_i1b_probe.py",
+      "exit_code": 0,
+      "result": {
+        "checks_passed": 16,
+        "checks": [
+          "spin curvature induces every full tangent curvature matrix",
+          "complete I1B curvature forcing has only fourteen grade-one rows",
+          "direct Shiab contraction equals the separately computed negative Einstein endomorphism",
+          "zero distortion is not stationary on the canonical curved geometry",
+          "parallel radial distortion cannot cancel unequal curvature forcing",
+          "horizontal, vertical-traceless and vertical-trace projectors resolve identity",
+          "sum of the three fields is the covariantly parallel solder form",
+          "derivative Euler forcing is confined to Clifford grade two",
+          "derivative forcing annihilates the common radial coefficient",
+          "all invariant grade-one derivative equations force equal coefficients",
+          "two explicit normal equations independently have rank two",
+          "curvature, cubic and mass cannot cancel the two necessary bivector equations",
+          "every radial cubic normal row is 312 and every radial mass row is one",
+          "observation-invisible rank-one carriers have opposite Hodge norms",
+          "rank-one invisible fields have identically zero cubic term",
+          "grade-one derivative witnesses have even Clifford parity after Shiab"
+        ],
+        "curvature_forcing": {
+          "horizontal_and_trace": "-21/4",
+          "vertical_traceless": "-15/4"
+        },
+        "first_order_rank": 2,
+        "first_order_nullspace": [
+          [
+            "1",
+            "1",
+            "1"
+          ]
+        ],
+        "invariant_grade_one_verdict": "No constant horizontal/traceless/trace coefficient triple solves the full distortion equations, for any real kappa.",
+        "observation_kernel_quadratic_action": "+kappa and -kappa times the same positive bump norm; not a Hamiltonian claim",
+        "first_order_rows": [
+          [
+            0,
+            17,
+            [
+              "-1/2",
+              "1/2",
+              "0"
+            ]
+          ],
+          [
+            0,
+            33,
+            [
+              "-1/2",
+              "1/2",
+              "0"
+            ]
+          ],
+          [
+            0,
+            65,
+            [
+              "-1/2",
+              "1/2",
+              "0"
+            ]
+          ],
+          [
+            0,
+            130,
+            [
+              "-1/4",
+              "1/4",
+              "0"
+            ]
+          ],
+          [
+            0,
+            260,
+            [
+              "-1/4",
+              "1/4",
+              "0"
+            ]
+          ],
+          [
+            0,
+            520,
+            [
+              "-1/4",
+              "1/4",
+              "0"
+            ]
+          ],
+          [
+            0,
+            1025,
+            [
+              "1/2",
+              "0",
+              "-1/2"
+            ]
+          ],
+          [
+            0,
+            2050,
+            [
+              "-3/4",
+              "3/4",
+              "0"
+            ]
+          ],
+          [
+            0,
+            4100,
+            [
+              "-3/4",
+              "3/4",
+              "0"
+            ]
+          ],
+          [
+            0,
+            8200,
+            [
+              "-3/4",
+              "3/4",
+              "0"
+            ]
+          ],
+          [
+            1,
+            18,
+            [
+              "-1/2",
+              "1/2",
+              "0"
+            ]
+          ],
+          [
+            1,
+            34,
+            [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          ],
+          [
+            1,
+            66,
+            [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          ],
+          [
+            1,
+            129,
+            [
+              "1/4",
+              "-1/4",
+              "0"
+            ]
+          ],
+          [
+            1,
+            132,
+            [
+              "3/4",
+              "-3/4",
+              "0"
+            ]
+          ],
+          [
+            1,
+            264,
+            [
+              "3/4",
+              "-3/4",
+              "0"
+            ]
+          ],
+          [
+            1,
+            1026,
+            [
+              "1/2",
+              "0",
+              "-1/2"
+            ]
+          ],
+          [
+            1,
+            2049,
+            [
+              "3/4",
+              "-3/4",
+              "0"
+            ]
+          ],
+          [
+            1,
+            2052,
+            [
+              "1/4",
+              "-1/4",
+              "0"
+            ]
+          ],
+          [
+            1,
+            4104,
+            [
+              "1/4",
+              "-1/4",
+              "0"
+            ]
+          ],
+          [
+            2,
+            20,
+            [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          ],
+          [
+            2,
+            36,
+            [
+              "-1/2",
+              "1/2",
+              "0"
+            ]
+          ],
+          [
+            2,
+            68,
+            [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          ],
+          [
+            2,
+            130,
+            [
+              "3/4",
+              "-3/4",
+              "0"
+            ]
+          ],
+          [
+            2,
+            257,
+            [
+              "1/4",
+              "-1/4",
+              "0"
+            ]
+          ],
+          [
+            2,
+            520,
+            [
+              "3/4",
+              "-3/4",
+              "0"
+            ]
+          ],
+          [
+            2,
+            1028,
+            [
+              "1/2",
+              "0",
+              "-1/2"
+            ]
+          ],
+          [
+            2,
+            2050,
+            [
+              "1/4",
+              "-1/4",
+              "0"
+            ]
+          ],
+          [
+            2,
+            4097,
+            [
+              "3/4",
+              "-3/4",
+              "0"
+            ]
+          ],
+          [
+            2,
+            8200,
+            [
+              "1/4",
+              "-1/4",
+              "0"
+            ]
+          ],
+          [
+            3,
+            24,
+            [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          ],
+          [
+            3,
+            40,
+            [
+              "1/2",
+              "-1/2",
+              "0"
+            ]
+          ],
+          [
+            3,
+            72,
+            [
+              "-1/2",
+              "1/2",
+              "0"
+            ]
+          ],
+          [
+            3,
+            258,
+            [
+              "3/4",
+              "-3/4",
+              "0"
+            ]
+          ],
+          [
+            3,
+            513,
+            [
+              "1/4",
+              "-1/4",
+              "0"
+            ]
+          ],
+          [
+            3,
+            516,
+            [
+              "3/4",
+              "-3/4",
+              "0"
+            ]
+          ],
+          [
+            3,
+            1032,
+            [
+              "1/2",
+              "0",
+              "-1/2"
+            ]
+          ],
+          [
+            3,
+            4098,
+            [
+              "1/4",
+              "-1/4",
+              "0"
+            ]
+          ],
+          [
+            3,
+            8193,
+            [
+              "3/4",
+              "-3/4",
+              "0"
+            ]
+          ],
+          [
+            3,
+            8196,
+            [
+              "1/4",
+              "-1/4",
+              "0"
+            ]
+          ],
+          [
+            4,
+            1040,
+            [
+              "1",
+              "0",
+              "-1"
+            ]
+          ],
+          [
+            5,
+            1056,
+            [
+              "1",
+              "0",
+              "-1"
+            ]
+          ],
+          [
+            6,
+            1088,
+            [
+              "1",
+              "0",
+              "-1"
+            ]
+          ],
+          [
+            7,
+            1152,
+            [
+              "1",
+              "0",
+              "-1"
+            ]
+          ],
+          [
+            8,
+            1280,
+            [
+              "1",
+              "0",
+              "-1"
+            ]
+          ],
+          [
+            9,
+            1536,
+            [
+              "1",
+              "0",
+              "-1"
+            ]
+          ],
+          [
+            11,
+            3072,
+            [
+              "-1",
+              "0",
+              "1"
+            ]
+          ],
+          [
+            12,
+            5120,
+            [
+              "-1",
+              "0",
+              "1"
+            ]
+          ],
+          [
+            13,
+            9216,
+            [
+              "-1",
+              "0",
+              "1"
+            ]
+          ]
+        ],
+        "claim_ceiling": "Canonical reconstructed geometry; necessary full I1B distortion equations only; no physical-state or Hamiltonian construction."
+      }
+    }
+  ],
+  "analytic_proofs": {
+    "full_receiver_support": "Clifford/exterior XOR label proof plus exhaustive coefficient evaluation in the allowed labels; curvature and derivative images checked separately",
+    "open_patch_solution": "affine translation and metric congruence isometry transport of the actual smooth tensor fields",
+    "epsilon": "exact identity I(g,epsilon,varpi)=I(g,1,epsilon*T_epsilon*epsilon^-1); no printed residual used",
+    "base_metric": "at constant g every metric variation term has at least one base derivative of delta_g with base-independent coefficients; compact support removes it by base integration by parts",
+    "domain": "local product of a base patch and relatively compact fixed fibre patch; base metric variations compact in base; epsilon and distortion variations compact in product interior",
+    "formalization_ceiling": "analytic arguments reviewed as stated; not Lean or a global variational/domain formalization"
+  },
+  "status_preservation": {
+    "SC_ACT_06": "ASSERTS",
+    "SC_META_53": "UNCERTAIN",
+    "SA_U1_H59": "open",
+    "canon_change": false,
+    "global_physical_domain_constructed": false,
+    "quantum_positivity_claim": false
+  },
+  "process_validation": {
+    "typed_carrier_declaration_audit": "three focused documents, zero red, three typed blocks",
+    "kill_target_claim_audit": "three focused documents, zero red, SC-ACT-06 and SC-META-53 affinity retained",
+    "source_native_comparator_routing_audit": "six tests passed, existing five-unclassified baseline unchanged; no new conventional comparator artifact",
+    "frontmatter_status_schema_audit": "zero failures; one new role-typed research owner; all old statuses unchanged",
+    "tests_manifest_count_audit": "three tests passed after count reconciliation: seven existing uncounted Python probes plus this new probe",
+    "owner_local_links": "39 links checked, no failures",
+    "current_state_yaml": "parsed; new local result and exact next condition present",
+    "git_diff_check": "passed",
+    "claim_status_consistency": "new local-background construction reflected in owner, assessment, register, current state, research status, verification, next steps and paper overview; historical flat claims remain bounded; no protected status changes"
+  },
+  "dependency_sha256": {
+    "explorations/conditional-build/native-zorro-stationary-background-2026-10-08.md": "a6fc9a36ee2ae72d7cd563b753c884bd4cc68a8db9cce3984d943ed4f78dd983",
+    "tests/channel-swings/native_zorro_stationary_background_probe.py": "5f9e096e58ad88bb8e5989eeccd5c01006c190db95ca1a5f0708555459012b91",
+    "tests/channel-swings/native_zorro_geometry_probe.py": "9aa7e7414056f13f45a4d4a47d16ce761c804a672585504d52fcdb14a2952367",
+    "tests/channel-swings/native_zorro_i1b_probe.py": "3c802d8d8a6063853ca1c1ff23213bf67d14fa41eb1e613225f01dcf4c143e40",
+    "tests/channel-swings/native_i1b_scalar_closure_probe.py": "7e1bfdfb4485710caa5b2696e81b0fff593ebdc62d6a04ae91ffaa634d703b38",
+    "tests/channel-swings/k77_exact_bank_api.py": "5f9ca5458e55669bce226bf65e82b11a54d81d7cffeb2d18a1fb4635f575cf5b",
+    "Geometric_Unity-Draft-April-1st-2021.pdf": "3f28d742234a9841fc8e51ff172053200aa3eddf3ece38154a3328b9ebd186d4"
+  }
+}

@@ -1,0 +1,219 @@
+\section{A direct obstruction in a selected curved I1B reconstruction}
+\label{sec:curved}
+
+Companion repository calculations now address the native action directly
+\cite{I1BResearch}. Their scope is one explicit realization of I1B:
+the canonical connection metric on the bundle of Lorentz metrics, ambient
+signature $(7,7)$, the selected commutator/two-symmetrized-channel Shiab
+operator, and a certified nonzero real stationary background over a flat
+observing metric. The ambient metric itself is curved. These choices
+are reconstruction data, not a claim that the printed source uniquely
+selects them. The result concerns a classical quadratic functional on a
+stated compact phase core, not a quantum spectrum.
+
+\subsection{Constraints and the two energy signs}
+
+The source's degree-dependent real slice decomposes under ordinary
+coefficient conjugation into
+\begin{align*}
+ R&=\Lambda^1+\Lambda^2+\Lambda^5+\Lambda^6+
+       \Lambda^9+\Lambda^{10}+\Lambda^{13}+\Lambda^{14},\\
+ J&=i(\Lambda^0+\Lambda^3+\Lambda^4+\Lambda^7+
+       \Lambda^8+\Lambda^{11}+\Lambda^{12}).
+\end{align*}
+The real background is fixed by conjugation. Consequently $J$ is a
+closed linearized packet with no mixed metric equation. For time $x^0$,
+the actual skew first-order action coefficient $E(q)$ has constant rank
+on the positive-norm time-covector patch. If $N$ spans its kernel,
+differentiating $E(q)N(q)=0$ and using $q=dt$ gives
+\[
+ N^T E^\mu \nabla_\mu N=0.
+\]
+Thus the primary auxiliary matrix is the algebraic potential $W=N^TVN$.
+All forty label classes of this potential have nonzero determinants in
+the stationary degree-ten number field. Writing the unphased field as
+$\psi=s+Nz$, the primary equation gives $z=-W^{-1}f$, where
+$f=N^TC_{\rm sp}s$. The reduced imaginary-packet Hamiltonian is
+\[
+ H_J^{(2)}=\frac12\int
+ \bigl(s^TC_{\rm sp}s-f^TW^{-1}f\bigr).
+\]
+The remaining time form is nondegenerate; the following directions are
+not unrecovered multipliers.
+
+For the free coefficient $s=e^{10}\phi$, two exact primary columns give
+\[
+\begin{array}{c|c|c|c}
+\text{derivative axis}&\text{receiver}&W\text{ column}
+        &H_J^{(2)}\text{ principal coefficient}\\ \hline
+e^4&e^0\gamma_0\gamma_4\gamma_{10}&+\kappa&-2/\kappa\\
+x^1&e^0\gamma_0\gamma_1\gamma_{10}&-\kappa&+2/\kappa
+\end{array}
+\]
+Both primary sources have coefficient $2$ and all four background cubic
+columns vanish on these receivers. A separate implementation with
+128-dimensional occupation-state Clifford matrices reproduces these
+coefficients without the original sparse Clifford engine. It is an
+independent implementation, not an independent later review.
+
+Choosing compact cutoffs and oscillatory profiles, and recovering the
+auxiliaries exactly, gives families with
+$H_J^{(2)}=\pm c n^2+O(n)$, $c>0$. The companion derivation controls the
+curved lower-order terms and integration remainder. Simultaneously
+reversing the stationary parameters $(a,c,\kappa)$ gives the other
+certified coupling branch; its primary potentials are negative parity
+congruences of the first. The energy signs interchange. Reversing the
+overall action sign also only interchanges them. Therefore the
+quadratic functional is unbounded in both directions on either branch.
+
+\subsection{What observation and a real restriction do}
+
+Some negative-energy data have a visible horizontal pullback. Other
+families are supported away from the observing section. The latter have
+zero smooth germ there, including every section jet, but nonzero negative
+energy. Hence this Hamiltonian cannot factor through any readout
+depending only on that germ. Postcomposing a compact projection does not
+change this conclusion. Boundary conditions retaining compact interior
+data also retain the obstruction. These statements do not exclude a
+nonlocal admissibility condition or a proved narrower physical sector
+that genuinely removes those data.
+
+The real packet merits a separate calculation. Conjugation symmetry
+implies $I(g,R+J)=I(g,R-J)$, so $J=0$ is a consistent nonlinear bulk
+restriction of the selected bosonic action when its boundary conditions
+respect it. No closure under additional fermionic couplings is claimed. The reverse
+restriction is not generally consistent: an explicit third variation
+with one real and two imaginary directions is $-124/3$ in the companion
+normalization. All forty real-distortion primary potentials are also
+invertible. With $t_R=\iota s+Nz$, their exact equation is
+\[
+ z=-W_R^{-1}(Fs+Bu),\qquad
+ F=N^TC_R\iota,\quad B=N^TA,
+\]
+where $u(x)$ is the base metric perturbation and $A$ its complete mixed
+operator. Completing the square leaves
+\[
+ I^{(2)}_{R,\rm red}
+ =\tfrac12\langle s,Ds\rangle+\langle s,J_Ru\rangle
+  +\tfrac12\langle u,Mu\rangle
+  -\tfrac12\langle Fs+Bu,W_R^{-1}(Fs+Bu)\rangle .
+\]
+Here $D=\iota^\dag C_R\iota$, $J_R=\iota^\dag A$, and $M$ is the
+pure-base Hessian. Adjoints into the base equation integrate over the
+fibre. The further calculation below evaluates $M$ and detects a surviving
+metric-acceleration term. The completed boundary constraints and physical
+real-packet Hamiltonian remain additional questions; the restriction is
+not asserted to be source-selected.
+
+A different, naive ambient compact-coefficient restriction already fails
+a primary test: in the occupation-state positive adjoint, $iI$ is compact
+but its spatial scalar profile forces the noncompact coefficient
+$i\gamma_0\gamma_1\gamma_{10}$ with recovered leading value
+$2\partial_1\phi/\kappa$. This tested ambient split is not identified with
+the source's narrower $\operatorname{Spin}(6,4)$ shielding proposal.
+
+\subsection{The pure metric Hessian and a conditional real-sector obstruction}
+
+Write the connection metric as
+\[
+ G_Y=h_{ij}dx^i dx^j+D_h(\theta,\theta),\qquad
+ D_h(A,B)=\operatorname{tr}(h^{-1}Ah^{-1}B)
+ -\tfrac12\operatorname{tr}(h^{-1}A)\operatorname{tr}(h^{-1}B),
+\]
+where $\theta=dh-(\Gamma(g)^Th+h\Gamma(g))dx$.
+Its density in symmetric fibre coordinates is
+$\mu(h)=8|\det h|^{-2}$, independent of $g$ at fixed $h$.
+Set $F_{ij}=R(g)_{ij}^Th+hR(g)_{ij}$ and
+$\|F\|^2=h^{ik}h^{jl}D_h(F_{ij},F_{kl})$; this is an indefinite
+contraction. With $K=(11a+c)/2$, the natural-field action satisfies
+\[
+ I(g,T_{\rm nat}(g))=\int\mu(h)
+ \left(C+K h^{ij}\operatorname{Ric}(g)_{ij}
+                  -\frac K4\|F\|^2\right)dx\,dh.                 \tag{*}
+\]
+Here $C$ is independent of $g$. To obtain this identity, the adapted
+Koszul connection gives
+$\operatorname{Scal}(G_Y)=-10+h^{ij}\operatorname{Ric}(g)_{ij}
+-\|F\|^2/4$ and $\operatorname{Ric}(G_Y)(r,r)=-1/4$.
+The grade-one curvature pairing is
+$K\operatorname{Scal}(G_Y)+(c-a)\operatorname{Ric}(G_Y)(r,r)$.
+The natural mass and cubic contractions are constant, and the possible
+curvature correction to the first-order density vanishes. The companion
+proof checks the quadratic scalar identity symbolically in all 54
+curvature components, with 18 independent coordinate-jet controls.
+
+Let $L_i=\delta\Gamma_i[u]$, let $F_1$ denote the corresponding linear
+$F$, and put $Q^{ij}=\int_V\mu h^{ij}dh$ for the fixed fibre patch.
+Integrating only base divergences in (*) gives the complete Hessian
+\[
+ M[u,u]=2K\int_X Q^{ij}
+       (L^a{}_{ab}L^b{}_{ij}-L^a{}_{jb}L^b{}_{ai})dx
+       -\frac K2\int_{X\times V}\mu\|F_1\|^2dx\,dh.
+\]
+It has orders two and four. A fixed fibre patch does not automatically
+carry the ordinary Einstein gauge and boundary constraints.
+
+For homogeneous time dependence, use the exact compensator and field change
+\[
+ A_3(dt)u=E(dt)y(h,u),\qquad t_R=t'-y(h,\ddot u).
+\]
+This invertible change removes third-time mixing. Define
+$D_0y=E^\mu\nabla_\mu y$ at zero coordinate-time derivative,
+retaining every connection term. The acceleration source in the
+primary equation and the reduced Hessian are
+\begin{align*}
+ b_N&=N^T(A_2-D_0y-Vy),\\
+ \mathcal K_{\rm acc}&=M_4+y^TVy-b_N^TW_R^{-1}b_N.
+\end{align*}
+At $h_0=\operatorname{diag}(4,-1,-1,-1)$, all five spatial traceless
+polarizations and their cross terms give $b_N=0$ exactly, including
+the full fibre derivative of $y$. With their Frobenius Gram matrix $G$,
+\[
+ \mathcal K_{\rm acc}
+ =-\frac9{256}\left[\kappa+\frac83(10a+c)\right]G.
+\]
+Independent occupation-state contractions reproduce the nonzero
+compensator Gram matrices. On the isolated stationary root,
+$3.083191968<1+\frac83(10a/\kappa+c/\kappa)<3.083191980$.
+The acceleration matrix stays nondegenerate on either coupling branch
+and, by continuity, after integration over a sufficiently small fibre
+neighbourhood.
+
+There is a precise conditional Hamiltonian consequence. Suppose a
+rotation-invariant homogeneous boundary completion admits these metric
+coordinates and velocities, permits the compensation and primary
+recovery, retains the nondegenerate distortion time form, and imposes
+no extra constraint on the metric momentum. The spin-two metric block
+decouples from scalar and vector metric constraints. Writing
+$Q=\dot u$, its Lagrangian has a nondegenerate quadratic term in
+$\dot Q$ and a first-order symplectic distortion term. The $Q$ momentum
+therefore determines $\dot Q$, while the Hamiltonian contains
+$P_u Q$ with $P_u$ unrestricted. At fixed nonzero $Q$ its energy is
+unbounded in both directions. Reversing the acceleration sign does not
+remove this canonical obstruction.
+
+These domain hypotheses have not been established for a completed GU
+sector. In particular, a base metric perturbation's compensator need
+not vanish on the fibre boundary, so compact distortion support is
+not preserved by the field change. Requiring a distortion-free open
+fibre collar for a time interval has a concrete consequence: there
+$A_3\dddot u+A_2\ddot u=0$. The first term has only mixed
+horizontal/vertical entries, whereas the horizontal second-order source
+is injective on spatial traceless tensors. Thus $\ddot u=0$ in this
+homogeneous class. Compact test variations alone do not define a free
+propagating real phase space. A transported boundary/constraint system
+must decide which of these metric data is actually admitted.
+
+Finally, the stationary imaginary witnesses' zero cubic columns do not
+prove background independence. The real background component
+$e^0\gamma_1$ gives two nonzero unphased primary entries, both $-4/3$, on
+the vertical witness column. This is an exact algebraic control, not a
+claim of another stationary solution.
+
+The resulting adjudication is precise. The selected full reconstruction
+has the classical quadratic energy problem that motivates the criticism.
+This strengthens that concern on a declared native-action realization;
+it neither validates a universal inference from complexification nor
+constructs a stable GU completion. A successful escape must supply an
+actual admissible sector and establish its interactions, observed
+Hamiltonian, conserved positive pairing and lower energy bound together.

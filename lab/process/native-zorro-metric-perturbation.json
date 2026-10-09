@@ -1,0 +1,196 @@
+{
+  "schema_version": 1,
+  "artifact_type": "source_action_mixed_perturbation_and_principal_compensation_certificate",
+  "verified_at_utc": "2026-10-08T18:56:35.512631+00:00",
+  "base_revision": "d382f2176e9d037600857940d6d72989f84146da",
+  "owner": "explorations/conditional-build/native-zorro-metric-perturbation-2026-10-08.md",
+  "probe": "tests/channel-swings/native_zorro_metric_perturbation_probe.py",
+  "background_owner": "explorations/conditional-build/native-zorro-stationary-background-2026-10-08.md",
+  "exact_certificate": {
+    "result_id": "NATIVE-ZORRO-METRIC-PERTURBATION",
+    "checks_passed": 19,
+    "checks": [
+      "observing-section connection lift is q_i times the polarization",
+      "third derivative Ricci response vanishes identically at observation",
+      "timelike: full curved second-jet Ricci, moving fields and Shiab response",
+      "spacelike: full curved second-jet Ricci, moving fields and Shiab response",
+      "null: full curved second-jet Ricci, moving fields and Shiab response",
+      "observed test wave is null, transverse, traceless and Ricci-flat to first order",
+      "the metric polarization is not a base diffeomorphism symbol",
+      "off-section cubic response is exactly the stated normal quadratic rational tensor",
+      "response is invisible to section value and this first normal derivative",
+      "off-section frame has the exact same K77 pairing",
+      "independent Christoffel curvature calculation matches the Ricci formula",
+      "actual Shiab gives eight nonzero grade-one cubic source rows",
+      "eight-component distortion compensator solves every leading source row",
+      "compensator is grade two and annihilates every grade-one metric source covector",
+      "full 90-dimensional transverse tracefree metric basis has a connection compensator",
+      "mixed metric lift admits the stated transverse tracefree projection",
+      "projected Levi-Civita symbol is a second exact leading compensator",
+      "omitting the transverse projection leaves four exact unwanted Euler rows",
+      "all four base-diffeomorphism polarizations have zero cubic response off section"
+    ],
+    "section_second_jet_controls": [
+      {
+        "orbit": "timelike",
+        "polarizations": 10
+      },
+      {
+        "orbit": "spacelike",
+        "polarizations": 10
+      },
+      {
+        "orbit": "null",
+        "polarizations": 10
+      }
+    ],
+    "selected_action": "same reconstructed comm/symi/symi I1B stationary branch",
+    "field_coordinates": "T=T_star(g)+t using the natural projector/radial tensor formula",
+    "off_section_family": "h=diag(1+rho,-1,-1,-1), rho>-1",
+    "observed_null_wave": {
+      "q": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "polarization": "diag(0,0,1,-1)"
+    },
+    "nonzero_cubic_ricci": "R_(2,02)=-rho^2/(2(1+rho)^2), R_(3,03)=+rho^2/(2(1+rho)^2), symmetric counterparts",
+    "rational_point": "rho=3",
+    "source_rows": [
+      [
+        2,
+        256,
+        "-9/64"
+      ],
+      [
+        2,
+        4096,
+        "-27/64"
+      ],
+      [
+        3,
+        512,
+        "9/64"
+      ],
+      [
+        3,
+        8192,
+        "27/64"
+      ],
+      [
+        8,
+        4,
+        "9/64"
+      ],
+      [
+        9,
+        8,
+        "-9/64"
+      ],
+      [
+        12,
+        4,
+        "-27/64"
+      ],
+      [
+        13,
+        8,
+        "27/64"
+      ]
+    ],
+    "compensator_rows": [
+      [
+        0,
+        260,
+        "9/32"
+      ],
+      [
+        2,
+        257,
+        "-9/32"
+      ],
+      [
+        0,
+        520,
+        "-9/32"
+      ],
+      [
+        3,
+        513,
+        "9/32"
+      ],
+      [
+        0,
+        4100,
+        "-27/32"
+      ],
+      [
+        2,
+        4097,
+        "27/32"
+      ],
+      [
+        0,
+        8200,
+        "27/32"
+      ],
+      [
+        3,
+        8193,
+        "-27/32"
+      ]
+    ],
+    "principal_identity": "E(q)y=A3(q)u; t=-z^2 y cancels z^3 A3(q)u",
+    "geometric_compensator": "For Q^2!=0, k_perp=k-(Q tensor div(k)+div(k) tensor Q)/Q^2; y is its symmetric-frame spin Levi-Civita symbol.",
+    "transverse_tracefree_basis_controls": 90,
+    "claim_ceiling": "Actual mixed highest-derivative response, exact observation-section second jet and one principal compensator; no completed coupled Hessian, mode, constraint propagation, physical quotient or energy theorem."
+  },
+  "run": {
+    "command": "uv run --no-project --with sympy==1.14.0 python -B tests/channel-swings/native_zorro_metric_perturbation_probe.py",
+    "exit_code": 0
+  },
+  "analytic_arguments": {
+    "highest_mixed_owner": "Only S(delta F_B) contributes three base derivatives; operator and first-jet field-coordinate variations have lower order.",
+    "section_extension": "Ten polarizations on each of three real Lorentz covector orbits, with linearity, homogeneity and covariance; polynomial continuation for complex notation.",
+    "geometric_compensator_extension": "Complete 90-dimensional transverse tracefree basis at a positive unit covector; equivariance and polynomial continuation after clearing rational projectors establish the non-null identity.",
+    "metric_equation_owner": "Base metric variations are independent of fibre position; their formal Euler equation integrates the ambient mixed adjoint over the fixed fibre patch.",
+    "scope": "Analytic arguments accompanying exact coefficient checks, not proof-assistant or domain formalization."
+  },
+  "failed_routes_preserved": {
+    "pure_natural_metric_lift": "Observed null Ricci polarization has nonzero third-order ambient response off section.",
+    "unprojected_spin_connection": "Four unwanted Euler rows remain; the formal adjoint cannot be replaced by raw curvature contraction."
+  },
+  "status_preservation": {
+    "SC_ACT_06": "ASSERTS",
+    "SC_META_53": "UNCERTAIN",
+    "SA_U1_H59": "open",
+    "canon_change": false,
+    "physical_mode_constructed": false,
+    "positive_energy_or_quantum_claim": false
+  },
+  "next_mathematical_condition": "Compute off-section second-order mixed coupling and pure-base Hessian; complete normal profiles and lower-order/fibre-integrated equations on a common domain, including characteristic-fibre regularity.",
+  "process_validation": {
+    "typed_carrier_declaration_audit": "one focused owner, zero red, one typed block",
+    "kill_target_claim_audit": "zero red; SC-ACT-06 and SC-META-53 affinity retained",
+    "frontmatter_status_schema_audit": "zero failures; one new role-typed research owner, prior statuses unchanged",
+    "tests_manifest_count_audit": "three tests passed; inventory increased by the one new producer",
+    "owner_local_links": "three checked, zero failures",
+    "current_state_yaml": "parsed with new result and next mathematical condition",
+    "git_diff_check": "passed",
+    "claim_status_consistency": "mixed-coefficient scope and open physical domain recorded in owner, current state, research status, verification and next steps; stationary branch and prior source verdicts unchanged",
+    "source_native_comparator_scope": "native action derivative only; no new conventional comparator or particle-mechanism registry entry"
+  },
+  "dependency_sha256": {
+    "explorations/conditional-build/native-zorro-metric-perturbation-2026-10-08.md": "a805b0ec1537ce804911cc603e769de794f1859c086cbe26cf1dd30148b339ee",
+    "tests/channel-swings/native_zorro_metric_perturbation_probe.py": "22258c554d1043a2ade73c1527456985c0e5e109ab643d8a96028aec920ee30e",
+    "tests/channel-swings/native_zorro_stationary_background_probe.py": "5f9e096e58ad88bb8e5989eeccd5c01006c190db95ca1a5f0708555459012b91",
+    "tests/channel-swings/native_zorro_geometry_probe.py": "9aa7e7414056f13f45a4d4a47d16ce761c804a672585504d52fcdb14a2952367",
+    "tests/channel-swings/native_zorro_i1b_probe.py": "3c802d8d8a6063853ca1c1ff23213bf67d14fa41eb1e613225f01dcf4c143e40",
+    "tests/channel-swings/native_i1b_scalar_closure_probe.py": "7e1bfdfb4485710caa5b2696e81b0fff593ebdc62d6a04ae91ffaa634d703b38",
+    "tests/channel-swings/k77_exact_bank_api.py": "5f9ca5458e55669bce226bf65e82b11a54d81d7cffeb2d18a1fb4635f575cf5b",
+    "explorations/conditional-build/native-zorro-stationary-background-2026-10-08.md": "a6fc9a36ee2ae72d7cd563b753c884bd4cc68a8db9cce3984d943ed4f78dd983",
+    "lab/process/native-zorro-stationary-background.json": "c0d45083c9578fd3b856b4960fb14ba4b113d82b8d1689f1da63df6764203299"
+  }
+}
