@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1674",
+  "status": "active_research",
+  "title": "The uniform residual margin implies the profile ceiling",
+  "pinned_inputs": {
+    "k1663": "lab/process/k1663-l2-profile-fisher-coercivity.json"
+  },
+  "ceiling": {
+    "inputs": "The selected shell has r_(N,k)>=sqrt(3)/4 and residual admissibility has t_(N,k)=eta rho_(N,k)r_(N,k)<=1-epsilon.",
+    "bound": "Every nonnegative profile entry satisfies rho_(N,k)<=4(1-epsilon)/(eta sqrt(3)), uniformly in N.",
+    "consequence": "For fixed eta and epsilon, K1671--K1673 need no separate bounded-profile assumption beyond the declared uniform residual margin.",
+    "scope_guard": "A vanishing margin, N-dependent eta, unknown coefficient family or different covariance shell is not covered."
+  },
+  "decision": {
+    "uniform_profile_ceiling_derived": true,
+    "separate_ceiling_assumption_required": false,
+    "vanishing_margin_classified": false,
+    "protected_status_change": false
+  }
+}

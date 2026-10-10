@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1673",
+  "status": "active_research",
+  "title": "Every bounded known profile in the fixed orbit class is leading-coefficient rigid",
+  "pinned_inputs": {
+    "k1637": "lab/process/k1637-stationary-fisher-defect-gap-identity.json",
+    "k1661": "lab/process/k1661-weighted-orbit-defect-floor.json",
+    "k1663": "lab/process/k1663-l2-profile-fisher-coercivity.json",
+    "k1672": "lab/process/k1672-anchor-free-score-localization.json"
+  },
+  "rigidity": {
+    "coercive_margin": "K1661/K1663 and the K1664 small-/large-g comparison give C_(F,N)+gD_(M,N)>=eta^2 m_g N B_N for B_N=sum rho_k^2 and fixed m_g>0.",
+    "full_gap": "K1637 and K1672 give Q_N-lambda_N^statG>=eta^2 m_g N B_N-CN log N>=-CN log N.",
+    "coefficient": "The normalized liminf of the full gap by N^4 is nonnegative for every bounded known nonnegative profile in the declared orbit class.",
+    "positive_regimes": "If B_N/log N tends to infinity the bound is eventually positive; if B_N>=bN^3 it is positive Theta(N^4).",
+    "scope_guard": "Profiles with B_N=O(log N) are coefficient-rigid but need not have a proved positive gap; unknown profiles, growing latent dimension, non-orbit laws and the unrestricted ground coefficient remain open."
+  },
+  "decision": {
+    "all_bounded_known_profiles_coefficient_rigid": true,
+    "extensive_anchor_free_sector_closed": true,
+    "uniform_positive_gap_for_tiny_profiles": false,
+    "unrestricted_coercivity_proved": false,
+    "protected_status_change": false
+  }
+}

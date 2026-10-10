@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1672",
+  "status": "active_research",
+  "title": "Arbitrary bounded known profiles have only O(N log N) posterior missing Fisher",
+  "pinned_inputs": {
+    "k1652": "lab/process/k1652-continuous-gaussian-channel-missing-information.json",
+    "k1671": "lab/process/k1671-finite-net-orbit-oracle.json"
+  },
+  "localization": {
+    "prediction_metric": "K1671 controls posterior covariance in the whitened S_0^(-1) mean metric by O(log N), without an anchor or latent identifiability.",
+    "score_weight": "On the fixed shell with uniform residual margin, the operator norm transfer from S_0^(-1) prediction loss to Omega S_0^(-2) score loss is O(N).",
+    "missing_fisher": "M_(F,N)=O(N log N), so R_(Omega,N)/4=C_(F,N)-O(N log N).",
+    "support_scope": "Zero, sparse, degenerating, checkerboard, arithmetic and arbitrary anchor-free bounded profiles are included.",
+    "scope_guard": "Known coefficients, a fixed four-dimensional orbit, fixed shell and uniform residual margin remain required; no efficient reconstruction algorithm or unknown-profile theorem is claimed."
+  },
+  "decision": {
+    "anchor_free_profiles_localized_in_prediction": true,
+    "posterior_missing_term_order_N_log_N": true,
+    "anchor_cube_required": false,
+    "unique_parameter_recovery_claimed": false,
+    "protected_status_change": false
+  }
+}

@@ -7,6 +7,19 @@ updated_at: "2026-10-09"
 
 # Next Steps For Contributors
 
+> **2026-10-09 K1671--K1675 ANCHOR-FREE KNOWN-PROFILE RIGIDITY.**
+> A polynomial finite net predicts the fixed translation/global-phase orbit
+> with `O(log N)` whitened mean risk without identifying a unique latent
+> parameter. The posterior missing Fisher is therefore only `O(N log N)` for
+> arbitrary zero, sparse, degenerating, checkerboard or anchor-free known
+> profiles. K1661/K1663 then give a uniform `-O(N log N)` full-gap lower bound,
+> fixing the `N^4` coefficient throughout the class; the residual margin itself
+> supplies the needed profile ceiling. Next test unknown profiles, growing
+> latent dimension, non-orbit dependence or unrestricted coercivity. Do not
+> turn prediction localization into unique parameter recovery, claim a
+> positive gap for every tiny profile, or infer a source-owned Hamiltonian,
+> physical state, observation or prediction.
+
 > **2026-10-09 K1666--K1670 SPARSE/ANCHOR PROFILE DICHOTOMY.**
 > Bounded known profiles with `sum rho_k^2=o(N^3)` cannot produce negative
 > order-`N^4` descent. One macroscopic complete subcube with a fixed positive

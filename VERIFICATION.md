@@ -7,6 +7,23 @@ updated_at: "2026-10-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1671--K1675 anchor-free known-profile rigidity (2026-10-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Arbitrary anchor-free support requires an additive-combinatorial classification before posterior control | K1671 finite prediction net | false for the fixed known orbit: a `C N^11` net gives `O(log N)` whitened mean risk while quotienting aliases |
+| Posterior uncertainty can cancel a leading fraction of the component Fisher price | K1672 K1652-weighted score transfer | false for every bounded known profile: `M_(F,N)=O(N log N)` |
+| An extensive anchor-free known profile can lower the leading coefficient | K1673 K1661/K1663 composition | false: the full gap is at least `eta^2m_gNB_N-CN log N>=-CN log N` |
+| K1673 proves a positive gap for every arbitrarily small profile | scope audit | not established: profiles with `B_N=O(log N)` are coefficient-rigid but need not have a proved positive gap |
+| A separate profile ceiling is needed in the admitted residual class | K1674 residual-margin algebra | false: `rho_k<=4(1-epsilon)/(eta sqrt(3))` |
+| The advance closes GU physical admission | K1675 390-row bridge census | 311 satisfied, ten conditional, 65 excluded and four missing |
+
+The five producers pass `100/100` controls and five hostile probes reject
+`52/52` mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
+`0/7`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
+
 ## K1666--K1670 sparse/anchor profile dichotomy (2026-10-09)
 
 | Claim | Evidence | Honest grade |

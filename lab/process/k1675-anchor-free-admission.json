@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1675",
+  "status": "active_research",
+  "title": "Anchor-free known-profile rigidity is integrated without protected-status movement",
+  "pinned_inputs": {
+    "k1671": "lab/process/k1671-finite-net-orbit-oracle.json",
+    "k1672": "lab/process/k1672-anchor-free-score-localization.json",
+    "k1673": "lab/process/k1673-known-profile-coefficient-rigidity.json",
+    "k1674": "lab/process/k1674-residual-margin-profile-ceiling.json"
+  },
+  "admission": {
+    "quantum_result": "Every admissible known nonnegative profile on the fixed four-parameter orbit has posterior missing Fisher O(N log N) and full gap at least -O(N log N), so no anchor-free support can lower the N^4 coefficient.",
+    "remaining_quantum_gate": "Unknown profiles, growing latent dimension, non-orbit correlations and unrestricted Fisher/negative-defect coercivity remain separate.",
+    "physical_admission": "K1145/K1150 remain 0/7; no source-owned action/measure/Hamiltonian, admissible domain, physical state or observation tuple is supplied.",
+    "bridge_census": "390 rows: 311 satisfied, ten conditional, 65 excluded and four missing.",
+    "protected_state": "SC-ACT-01/02/06 remain ASSERTS, SC-META-53 remains UNCERTAIN, and the standing ledger remains 33 SAME / 22 DIFFERS / 31 NEEDS / 2 OVER-DETERMINED.",
+    "scope_guard": "Do not promote prediction-space localization to unique latent recovery, unknown-profile control, a growing-latent entropy theorem, non-orbit or unrestricted coefficient convergence, a source-owned Hamiltonian, physical state, prediction, confirmation or GU verdict."
+  },
+  "decision": {
+    "known_profile_orbit_class_closed_at_leading_coefficient": true,
+    "extensive_anchor_free_sector_open": false,
+    "unknown_or_nonorbit_sector_open": true,
+    "source_status_changed": false,
+    "physics_ledger_changed": false,
+    "canon_or_public_status_changed": false
+  }
+}

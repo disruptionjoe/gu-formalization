@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1671",
+  "status": "active_research",
+  "title": "A finite-net Gaussian oracle predicts the known orbit without latent identifiability",
+  "pinned_inputs": {
+    "k1652": "lab/process/k1652-continuous-gaussian-channel-missing-information.json",
+    "k1669": "lab/process/k1669-profile-survivor-geometry.json"
+  },
+  "oracle": {
+    "channel": "In real selected-mode coordinates X=m_Z+xi with Z=(Theta,Y) in T^4, xi Gaussian with uniformly nondegenerate S_0, and known coefficients sqrt(rho_k)c_k.",
+    "lipschitz_bound": "For rho_k<=rho_+, d_N=Theta(N^3) and |k|=O(N), squared whitened mean distance is at most C[N^3|Delta Theta|^2+N^5|Delta Y|^2].",
+    "net": "Phase mesh N^(-2) and three translation meshes N^(-3) give at most C N^11 means and squared approximation error O(N^(-1)).",
+    "finite_model_risk": "Whitened least squares over the finite net and the Gaussian finite-model oracle inequality give expected mean-prediction loss O(log N).",
+    "posterior_transfer": "The posterior mean minimizes Bayes quadratic prediction risk, so E Tr[S_0^(-1)Cov(m_Z|X)]=O(log N).",
+    "scope_guard": "The theorem predicts the orbit mean and does not uniquely recover latent parameters; aliases and stabilizers are allowed, but unknown coefficients, growing latent dimension and non-orbit laws are not covered."
+  },
+  "decision": {
+    "finite_net_cardinality_polynomial": true,
+    "prediction_risk_logarithmic": true,
+    "latent_identifiability_required": false,
+    "support_geometry_required": false,
+    "unknown_or_growing_latent_classified": false,
+    "protected_status_change": false
+  }
+}
