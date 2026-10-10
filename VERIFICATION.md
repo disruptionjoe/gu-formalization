@@ -2,10 +2,28 @@
 title: "Verification: What Is Proved, Computed, and Conjectural"
 status: process
 doc_type: verification-map
-updated_at: "2026-10-09"
+updated_at: "2026-10-10"
 ---
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
+
+## K1676--K1680 non-orbit cardinal-product descent (2026-10-10)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A covariance-matched symmetric scalar perturbation must pay Fisher at the same order as its negative fourth cumulant | K1676 exact score and Hermite expansion | false: `j(t)=(2/3)t^4+O(t^5)` while `kappa_4=-2t^2` |
+| Localized cardinal coordinates lose macroscopic fourth mass after K1572 weighting | K1677 exact Dirichlet count plus multiplier stability | false on a sufficiently small fixed scaled cube: `L_N=Theta_g(N^4)` |
+| Product composition introduces a mean/covariance Bregman penalty | K1678 exact covariance match | false: `A_N=0` and the full gap is `(j(t)/4)T_N-2gt^2L_N` |
+| Stationarity destroys the negative defect or raises Fisher | K1679 translation-Haar averaging | false: the defect and covariance are preserved and Fisher cannot increase |
+| The profiled Gaussian is unrestrictedly minimal at leading order | K1679 fixed-g parameter selection | false: `Q_N<=lambda_N^statG-c_gN^4` for every fixed `g>0` |
+| The upper trial identifies the true coefficient, lower bound or minimizer | scope audit | not established; those and `E_N+O(1)` recentering remain open |
+| The advance closes GU physical admission | K1680 395-row bridge census | 316 satisfied, ten conditional, 65 excluded and four missing |
+
+The five producers pass `101/101` controls and five hostile probes reject
+`49/49` mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
+`0/7`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
 
 ## K1671--K1675 anchor-free known-profile rigidity (2026-10-09)
 

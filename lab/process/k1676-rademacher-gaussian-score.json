@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1676",
+  "status": "active_research",
+  "title": "The variance-matched Rademacher--Gaussian score has quartic Fisher cost",
+  "scalar_channel": {
+    "law": "Y_t=sqrt(t) epsilon+sqrt(1-t) Z with independent symmetric Rademacher epsilon and standard Gaussian Z, 0<t<1.",
+    "normalization": "E Y_t=0 and Var(Y_t)=1 exactly; its density is positive and smooth.",
+    "relative_score": "s_t(x)=[sqrt(t)tanh(sqrt(t)x/(1-t))-t x]/(1-t).",
+    "hermite_expansion": "p_t/phi=1-(t^2/12)H_4+O(t^3) and s_t=-(t^2/3)H_3+O(t^3) in Gaussian-weighted norms.",
+    "fisher": "j(t)=E s_t(Y_t)^2=(2/3)t^4+O(t^5); hence j(t)<=C t^4 for 0<t<=t_0.",
+    "fourth_cumulant": "kappa_4(Y_t)=-2t^2 exactly.",
+    "scope_guard": "This is a scalar channel identity; leading descent also requires the K1572-weighted block trace and cardinal-packet fourth-mass lower bound."
+  },
+  "decision": {
+    "mean_and_variance_matched": true,
+    "fisher_starts_at_order_t4": true,
+    "negative_cumulant_starts_at_order_t2": true,
+    "alone_proves_field_descent": false
+  }
+}

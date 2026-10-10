@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1679",
+  "status": "active_research",
+  "title": "Translation-Haar averaging yields a stationary non-orbit order-N4 descent",
+  "descent": {
+    "stationarization": "Translation-Haar averaging preserves the K1572 covariance and quartic defect and cannot increase weighted relative Fisher information.",
+    "bound": "Q_N-lambda_N^statG<=(C C_g/4)t^4N^4-2g c_g t^2N^4.",
+    "parameter_order": "Fix g>0, choose the packet fraction alpha_g first, then choose one sufficiently small fixed t_g>0, and finally take N large.",
+    "conclusion": "There is c_g'>0 with Q_N<=lambda_N^statG-c_g'N^4, hence limsup E_N/N^4<=h_g^prof-c_g'.",
+    "nonorbit": "The law independently perturbs Theta(N^3) cardinal coordinates and is not a fixed translation/global-phase orbit mixture.",
+    "scope_guard": "This is a strict unrestricted upper bound, not the true coefficient, a matching lower bound, a minimizer, a continuum state or an E_N+O(1) recentering."
+  },
+  "decision": {
+    "stationary_admissible_trial": true,
+    "profiled_gaussian_leading_rigidity_false": true,
+    "unrestricted_nonnegative_fisher_defect_coercivity_false": true,
+    "true_coefficient_identified": false,
+    "matching_lower_bound_proved": false
+  }
+}

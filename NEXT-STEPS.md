@@ -2,10 +2,23 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-10-09"
+updated_at: "2026-10-10"
 ---
 
 # Next Steps For Contributors
+
+> **2026-10-10 K1676--K1680 NON-ORBIT LEADING DESCENT.**
+> A variance-matched Rademacher--Gaussian coordinate pays Fisher only at
+> fourth order in `t` while contributing negative fourth cumulant at second
+> order. `Theta(N^3)` real cardinal packets on a small fixed Fourier cube
+> carry total K1572-weighted fourth mass `Theta_g(N^4)`. Their independent
+> product, followed by translation-Haar averaging, is stationary, exactly
+> covariance matched and satisfies
+> `Q_N<=lambda_N^statG-c_gN^4` for every fixed `g>0`. Next optimize/localize
+> this upper trial and seek the matching unrestricted lower bound or true
+> coefficient; unknown-profile/growing-latent entropy is a separate class
+> route. Do not claim the true coefficient, a minimizer, an `E_N+O(1)` shift,
+> a continuum state or a source-owned physical theory.
 
 > **2026-10-09 K1671--K1675 ANCHOR-FREE KNOWN-PROFILE RIGIDITY.**
 > A polynomial finite net predicts the fixed translation/global-phase orbit

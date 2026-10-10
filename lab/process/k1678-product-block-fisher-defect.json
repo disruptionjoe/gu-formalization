@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1678",
+  "status": "active_research",
+  "title": "The cardinal product block has exact covariance, Fisher and fourth-defect identities",
+  "composition": {
+    "trial": "Put independent K1676 coordinates on the K1677 whitened cardinal block, standard Gaussians on its orthogonal complement, then push forward by S_(g,N)^(1/2).",
+    "covariance": "The trial is centered with covariance exactly S_(g,N), hence the K1637 mean/covariance Bregman term A_N is zero.",
+    "fisher": "R_(Omega,N)/4=(j(t)/4)T_N with T_N=Tr_E[S^(-1/2)Omega_NS^(-1/2)]=Theta_g(N^4).",
+    "defect": "Cumulant tensorization gives D_N=-2t^2L_N exactly, where L_N is K1677's packet fourth-mass sum.",
+    "gap_identity": "Q_N-lambda_N^statG=(j(t)/4)T_N-2g t^2L_N.",
+    "scope_guard": "The identity is finite-cutoff and covariance matched; it does not assert stationarity before Haar averaging or identify the true variational coefficient."
+  },
+  "decision": {
+    "exact_covariance_match": true,
+    "bregman_term_zero": true,
+    "weighted_fisher_order_n4_times_j": true,
+    "negative_defect_order_n4_times_t2": true,
+    "stationarity_before_averaging": false
+  }
+}

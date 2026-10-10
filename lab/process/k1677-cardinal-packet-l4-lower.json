@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1677",
+  "status": "active_research",
+  "title": "Localized real cardinal packets retain order-N4 fourth mass after K1572 weighting",
+  "packet_bound": {
+    "block": "An odd symmetric three-dimensional Fourier cube of side n_N asymptotic to alpha N, with d_N=n_N^3 real cardinal packets.",
+    "exact_identity": "With normalized Haar measure, each normalized product cardinal packet satisfies int |D_j|^4=[(2n_N+n_N^(-1))/3]^3.",
+    "one_dimensional_count": "sum_s r_n(s)^2=(2n^3+n)/3, so the normalized one-dimensional fourth power is (2n+n^(-1))/3.",
+    "profile_transfer": "On a sufficiently small fixed scaled cube the K1572 covariance square-root multiplier has a_N^2=Theta_g(N^-1) and relative oscillation O_g(alpha^2).",
+    "lower_bound": "For alpha=alpha_g>0 small enough, L_N=sum_j int |psi_(j,N)|^4>=c_g N^4; also L_N<=C_g N^4.",
+    "scope_guard": "The multiplier is slowly varying, not constant; the result is a fixed-g finite-cutoff packet bound and does not supply a continuum basis."
+  },
+  "decision": {
+    "exact_cardinal_identity": true,
+    "real_coordinate_multiplicity_preserved": true,
+    "profile_weighted_fourth_mass_order_n4": true,
+    "constant_multiplier_claimed": false
+  }
+}

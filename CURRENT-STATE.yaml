@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 76c8ddacad9c715529a5907cd6b31f547a63bdf8
+revision_basis: 0ed08934650a35db8bc94961770a6a90dacea8c7
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1676--K1680 construct a genuinely non-orbit stationary law that lies
+    strictly below the profiled Gaussian at order `N^4`. A variance-matched
+    Rademacher--Gaussian scalar has relative Fisher `j(t)=(2/3)t^4+O(t^5)`
+    but fourth cumulant `-2t^2`. Real cardinal packets on a small fixed Fourier
+    cube retain total K1572-weighted fourth mass `Theta_g(N^4)`, while their
+    weighted Fisher trace is `Theta_g(N^4)`. Product composition, exact
+    covariance matching and translation-Haar averaging therefore give
+    `Q_N<=lambda_N^statG-c_gN^4` for every fixed `g>0`. Thus profiled-Gaussian
+    unrestricted leading minimality and any universal nonnegative
+    Fisher/defect coercivity are false. The true coefficient, matching lower
+    bound, minimizer, `E_N+O(1)` recentering and continuum state remain open.
+    The 395-row census is 316 satisfied, ten conditional, 65 excluded and four
+    missing; protected source, ledger, canon and public states do not move.
+
     K1671--K1675 close the entire admissible known-profile
     translation/global-phase orbit class at leading order without any support-
     geometry hypothesis. A phase mesh `N^-2` and three translation meshes
@@ -15262,6 +15276,16 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1676--K1679 prove that a stationary covariance-matched non-orbit cardinal
+  product descends below the profiled Gaussian by `c_gN^4` for every fixed
+  `g>0`. What is the optimized unrestricted upper coefficient, and can a
+  matching lower bound or localization theorem identify the true coefficient
+  and eventual `E_N+O(1)` recentering? Independently, how far does the
+  unknown-profile/growing-latent common-Gaussian-floor entropy method extend
+  beyond the now-refuted profiled-Gaussian baseline? Compactness and Mosco
+  liminf/recovery wait for the true shift. The source-owned
+  action/measure/Hamiltonian/domain/state/observation tuple remains separate.
+
   K1671--K1674 replace anchor geometry by a finite prediction-net theorem and
   close every admissible known nonnegative profile on the fixed four-parameter
   translation/global-phase orbit at leading order. Can an unknown modewise
@@ -18017,6 +18041,22 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1676's exact variance match, positive Gaussian smoothing,
+  relative-score formula, quartic Fisher onset and quadratic negative fourth
+  cumulant. Preserve K1677's real-coordinate cardinal multiplicity, small
+  fixed scaled Fourier cube and slowly varying K1572 multiplier; do not
+  replace the multiplier by a constant. Preserve K1678's exact covariance,
+  K1637 gap identity and finite-cutoff scope. Preserve K1679's parameter order:
+  fix `g`, then the cube fraction, then one small fixed `t`, then take `N`
+  large; Haar averaging may lower Fisher but does not turn the law into an
+  orbit mixture. The result is a strict unrestricted upper bound and a
+  counterexample to profiled-Gaussian leading minimality, not the true
+  coefficient, matching lower bound, minimizer, continuum state or bounded-
+  error recentering. Next optimize/localize the trial or prove the matching
+  lower theorem; treat unknown-profile entropy as a separate class result.
+  No result supplies a source-owned Hamiltonian, physical state, observation,
+  prediction or admission.
+
   Preserve K1671 as a mean-prediction theorem, not unique recovery of the
   latent translation and phase: aliases and stabilizers are deliberately
   quotiented by prediction loss. Preserve K1672's known coefficients, fixed

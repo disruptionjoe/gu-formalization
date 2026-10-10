@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1680",
+  "status": "active_research",
+  "title": "Non-orbit leading descent is integrated without physical or public-status promotion",
+  "pinned_inputs": {
+    "k1676": "lab/process/k1676-rademacher-gaussian-score.json",
+    "k1677": "lab/process/k1677-cardinal-packet-l4-lower.json",
+    "k1678": "lab/process/k1678-product-block-fisher-defect.json",
+    "k1679": "lab/process/k1679-stationary-nonorbit-leading-descent.json"
+  },
+  "admission": {
+    "quantum_result": "A stationary covariance-matched non-orbit cardinal-product law lies c_g N^4 below the profiled Gaussian for every fixed g>0.",
+    "remaining_quantum_gate": "Optimize or localize the trial and prove a matching unrestricted lower bound or true coefficient; unknown-profile and growing-latent entropy remain independent class questions.",
+    "physical_admission": "K1145/K1150 remain 0/7; no source-owned action/measure/Hamiltonian, admissible domain, physical state or observation tuple is supplied.",
+    "bridge_census": "395 rows: 316 satisfied, ten conditional, 65 excluded and four missing.",
+    "protected_state": "SC-ACT-01/02/06 remain ASSERTS, SC-META-53 remains UNCERTAIN, and the standing ledger remains 33 SAME / 22 DIFFERS / 31 NEEDS / 2 OVER-DETERMINED.",
+    "scope_guard": "Do not promote the upper trial to the true coefficient, matching lower bound, minimizer, continuum state, source-owned Hamiltonian, physical prediction, confirmation or GU verdict."
+  },
+  "decision": {
+    "profiled_gaussian_unrestricted_leading_minimality_closed_false": true,
+    "true_unrestricted_coefficient_open": true,
+    "source_status_changed": false,
+    "physics_ledger_changed": false,
+    "canon_or_public_status_changed": false
+  }
+}
