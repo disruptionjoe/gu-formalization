@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1688",
+  "status": "active_research",
+  "title": "A sixth-cumulant-canceling three-point seed locally beats Rademacher at matched negative fourth defect",
+  "comparison": {
+    "three_point_seed": "p_*=(15+sqrt(105))/60; X_*=0 with probability 1-p_* and X_*=+-p_*^(-1/2) with probability p_*/2 each.",
+    "three_point_cumulants": "kappa_4(X_*)=(9-sqrt(105))/2<0 and kappa_6(X_*)=0.",
+    "three_point_law": "At q=-kappa_4(X_*)t_*^2, j_*(q)=q^2/6+(1/4)q^3+O(q^(7/2)).",
+    "rademacher_law": "At q=2t_R^2, kappa_6(R)=16 and j_R(q)=q^2/6+(31/60)q^3+O(q^(7/2)).",
+    "strict_local_order": "j_R(q)-j_*(q)=(4/15)q^3+O(q^(7/2))>0 for every sufficiently small q>0.",
+    "scope_guard": "This is a pointwise weak-channel comparison at matched covariance and fourth defect. It neither proves a global finite-t seed optimizer nor strict inequality between the fully optimized field envelopes."
+  },
+  "decision": {
+    "sixth_cumulant_canceled": true,
+    "rademacher_local_scalar_optimality_false": true,
+    "k1682_fixed_t_extremality_preserved": true,
+    "global_scalar_optimizer_identified": false
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1689",
+  "status": "active_research",
+  "title": "Heterogeneous independent scalar channels collapse to one scalar infimum on a fixed cardinal block",
+  "envelope": {
+    "exchangeable_weights": "On one fixed K1683 cardinal block, translation covariance gives packet fourth mass L_N/d_N and diagonal whitened score weight T_N/d_N for every cardinal coordinate.",
+    "exact_gap": "Q_N-lambda_N^statG=(T_N/(4d_N))sum_j j_(X_j)(t_j)+(gL_N/d_N)sum_j kappa_4(X_j)t_j^2 before translation-Haar averaging.",
+    "heterogeneity_reduction": "The exact gap is an arithmetic mean of one scalar objective, so arbitrary coordinate heterogeneity cannot beat its scalar infimum; repeating one near-minimizer attains the same infimum.",
+    "widened_functional": "h_g^scalar-card-up=h_g^prof+inf_(C,X,t){(tau_g(C)/4)j_X(t)+g ell_g(C)kappa_4(X)t^2} over fixed K1683 blocks and bounded centered symmetric unit-variance seeds.",
+    "comparison": "Because Rademacher is admissible, h_g^scalar-card-up<=h_g^card-up<h_g^prof.",
+    "scope_guard": "The reduction binds independent coordinate channels on a fixed exchangeable rectangular cardinal block before Haar averaging; it does not cover correlated cumulant tensors, moving shapes or exact Haar Fisher savings."
+  },
+  "decision": {
+    "heterogeneous_independent_channels_reduced": true,
+    "scalar_seed_envelope_widened": true,
+    "pointwise_local_rademacher_dominance_refuted": true,
+    "strict_global_envelope_improvement_proved": false,
+    "unrestricted_coefficient_identified": false
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1686",
+  "status": "active_research",
+  "title": "Scalar Gaussian interpolation has an exact relative-Fisher/MMSE identity",
+  "identity": {
+    "channel": "For centered unit-variance X independent of Z~N(0,1), set Y_t=sqrt(t)X+sqrt(1-t)Z and gamma=t/(1-t).",
+    "relative_score": "u_t(y)=sqrt(t)/(1-t){E[X|Y_t=y]-sqrt(t)y}.",
+    "fisher_mmse": "j_X(t)=t/(1-t)^2{1-t-mmse_X(gamma)}=gamma{1-(1+gamma)mmse_X(gamma)}.",
+    "nonnegativity": "The identity is nonnegative because mmse_X(gamma)<=1/(1+gamma), with equality for a Gaussian seed.",
+    "cumulant_transport": "kappa_4(Y_t)=t^2 kappa_4(X) exactly.",
+    "scope_guard": "This exact scalar identity does not identify the finite-t seed minimizing Fisher at fixed fourth cumulant or the unrestricted field coefficient."
+  },
+  "decision": {
+    "exact_score_identified": true,
+    "exact_fisher_mmse_identified": true,
+    "exact_fourth_cumulant_transport": true,
+    "global_scalar_optimizer_identified": false
+  }
+}

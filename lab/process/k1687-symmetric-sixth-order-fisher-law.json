@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1687",
+  "status": "active_research",
+  "title": "The symmetric scalar Fisher expansion has no fifth-order term and an explicit sixth-order coefficient",
+  "expansion": {
+    "seed_class": "X is bounded, symmetric, centered and unit variance.",
+    "hermite_ratio": "p_t/phi=1+(kappa_4/24)t^2H_4+(kappa_6/720)t^3H_6+O_X(t^4).",
+    "hermite_integrals": "int H_5^2 phi=120 and int H_4 H_3^2 phi=216.",
+    "fisher_law": "j_X(t)=(kappa_4^2/6)t^4+(kappa_6^2/120-kappa_4^3/4)t^6+O_X(t^7); the t^5 coefficient vanishes.",
+    "matched_defect": "For kappa_4=-u<0 and q=u t^2, j_X(q)=q^2/6+[1/4+kappa_6^2/(120u^3)]q^3+O_X(q^(7/2)).",
+    "scope_guard": "The expansion is local at the Gaussian endpoint for one fixed bounded symmetric seed; it is not a uniform optimization over all seeds or finite t."
+  },
+  "decision": {
+    "fifth_order_coefficient_zero": true,
+    "sixth_order_coefficient_explicit": true,
+    "first_seed_dependent_matched_defect_penalty_is_kappa6": true,
+    "finite_t_global_ordering_proved": false
+  }
+}

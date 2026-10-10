@@ -7,6 +7,21 @@ updated_at: "2026-10-10"
 
 # Next Steps For Contributors
 
+> **2026-10-10 K1686--K1690 SCALAR-CHANNEL ENLARGEMENT.**
+> Scalar Gaussian interpolation obeys the exact Fisher/MMSE identity
+> `j_X(t)=gamma[1-(1+gamma)mmse_X(gamma)]`. For bounded symmetric seeds the
+> fifth-order coefficient vanishes and the sixth-order coefficient is
+> `kappa_6^2/120-kappa_4^3/4`. At matched negative fourth defect, the explicit
+> three-point seed with `p_*=(15+sqrt(105))/60` cancels `kappa_6` and locally
+> pays cubic coefficient `1/4`, below Rademacher's `31/60`. On one fixed
+> cardinal block, heterogeneous independent coordinates merely average the
+> scalar objective, giving
+> `h_g^scalar-card-up<=h_g^card-up<h_g^prof`. Next determine the exact finite-
+> `t` scalar infimum, test a correlated cumulant tensor or moving shape,
+> quantify Haar Fisher savings, or prove a lower bound against the widened
+> envelope. Do not claim a global scalar optimizer, strict globally optimized
+> improvement, true coefficient, physical state or source-owned theory.
+
 > **2026-10-10 K1681--K1685 LOCALIZED CARDINAL UPPER COEFFICIENT.**
 > Symmetric bounded unit-variance Gaussian channels obey the universal weak
 > law `j_X(t)=(kappa_4(X)^2/6)t^4+O_X(t^5)` and exact cumulant transport

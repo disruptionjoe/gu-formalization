@@ -7,6 +7,25 @@ updated_at: "2026-10-10"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1686--K1690 scalar-channel enlargement (2026-10-10)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Relative Fisher for scalar Gaussian interpolation lacks an exact posterior formula | K1686 score calculation | false: `j_X(t)=gamma[1-(1+gamma)mmse_X(gamma)]` exactly |
+| A bounded symmetric seed can contribute a fifth-order Fisher term | K1687 Hermite orthogonality | false: the `t^5` coefficient vanishes |
+| The first matched-defect seed penalty is uncontrolled | K1687 sixth-order expansion | false locally: it is `kappa_6^2/(120u^3)` above the universal cubic `1/4` |
+| Rademacher is locally Fisher-optimal at fixed small negative fourth defect | K1688 sixth-cumulant-canceling three-point seed | false: `j_R(q)-j_*(q)=(4/15)q^3+O(q^(7/2))>0` |
+| Different independent scalar channels across one fixed cardinal block can beat every constant channel | K1689 exchangeable-weight identity | false: the exact gap is an arithmetic mean of one scalar objective |
+| The wider class has an explicit upper functional | K1689 composition | proved: `h_g^scalar-card-up<=h_g^card-up<h_g^prof` |
+| The advance proves a global finite-`t` optimizer, strict fully optimized improvement or unrestricted coefficient | scope audit | not established; correlated tensors, moving shapes, Haar savings and the matching lower bound remain open |
+| The advance closes GU physical admission | K1690 405-row bridge census | 326 satisfied, ten conditional, 65 excluded and four missing |
+
+The five producers pass `115/115` controls and five hostile probes reject
+`54/54` mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
+`0/7`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
+
 ## K1681--K1685 localized cardinal upper coefficient (2026-10-10)
 
 | Claim | Evidence | Honest grade |

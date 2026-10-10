@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 2a6a8d84e3d82dc6803326dd0542a4715e01e8ad
+revision_basis: 65b4ae3a8d8cb6dc4b84e04c36d9a68d39793a28
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1686--K1690 widen K1684's scalar channel and close coordinate
+    heterogeneity on every fixed exchangeable cardinal block. For any centered
+    unit-variance seed, relative Fisher equals
+    `gamma[1-(1+gamma)mmse_X(gamma)]` exactly. For bounded symmetric seeds the
+    fifth-order term vanishes and
+    `j_X(t)=(kappa_4^2/6)t^4+(kappa_6^2/120-kappa_4^3/4)t^6+O_X(t^7)`.
+    At matched negative defect `q=-kappa_4t^2`, a three-point seed with
+    `p_*=(15+sqrt(105))/60` cancels `kappa_6` and has cubic Fisher coefficient
+    `1/4`, strictly below Rademacher's `31/60` locally. Different independent
+    channels across one fixed cardinal block average one scalar objective and
+    cannot beat its scalar infimum. Thus
+    `h_g^scalar-card-up<=h_g^card-up<h_g^prof`; strict inequality between the
+    fully optimized envelopes, the finite-`t` optimizer, moving shapes,
+    correlated tensors, Haar Fisher savings, the unrestricted coefficient and
+    a lower bound remain open. The 405-row census is 326 satisfied, ten
+    conditional, 65 excluded and four missing; protected source, ledger,
+    canon and public states do not move.
+
     K1681--K1685 replace K1679's opaque strict decrement by an explicit
     fixed-shape continuum upper functional. Every bounded symmetric
     unit-variance Gaussian channel has
@@ -15291,6 +15309,17 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1686--K1689 replace the fixed Rademacher scalar choice by
+  `h_g^scalar-card-up` and prove that coordinate heterogeneity gives no further
+  gain on one fixed exchangeable cardinal block. What is the exact finite-`t`
+  scalar infimum, and does it strictly lower the globally optimized K1684
+  envelope? Can a moving packet shape, non-product fourth-cumulant tensor, or
+  additional Fisher reduction under translation-Haar mixing lower it again,
+  or can arbitrary stationary laws be bounded below by the widened functional?
+  Only after the true coefficient and `E_N+O(1)` shift are identified should
+  compactness and Mosco liminf/recovery be tested. The unknown-profile/growing-
+  latent common-floor theorem and source-owned physical tuple remain separate.
+
   K1681--K1684 identify the explicit fixed-shape Rademacher-cardinal upper
   envelope `h_g^card-up<h_g^prof`. Can arbitrary stationary laws be bounded
   below by the same functional, or can an `N`-dependent packet shape,
@@ -18067,6 +18096,21 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1686's exact scalar score/MMSE identity and its centered
+  unit-variance hypothesis. Preserve K1687's bounded symmetric seed class,
+  Hermite normalization, vanished fifth-order coefficient and `O_X(t^7)`
+  remainder. Preserve K1688 as an equal-covariance, equal-fourth-defect local
+  comparison: the sixth-cumulant-canceling three-point seed beats Rademacher
+  for sufficiently small matched `q`, but is not a proved finite-`t` global
+  optimizer. Preserve K1689's fixed exchangeable rectangular cardinal block,
+  independent scalar coordinates and pre-Haar exact identity; coordinate
+  heterogeneity collapses to one scalar infimum, while correlated cumulant
+  tensors, moving shapes and exact Haar Fisher savings remain open. Next
+  determine the exact finite-`t` scalar infimum, test one correlated or moving-
+  shape enlargement, quantify Haar savings, or prove an unrestricted lower
+  bound against `h_g^scalar-card-up`. No result supplies a source-owned
+  Hamiltonian, physical state, observation, prediction or admission.
+
   Preserve K1681's bounded symmetric unit-variance seed class, Hermite
   normalization and weak-channel remainder; it does not prove finite-`t`
   global scalar optimality. Preserve K1682's sharp fourth-moment equality
