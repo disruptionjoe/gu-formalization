@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1670",
+  "status": "active_research",
+  "title": "Sparse and anchored degenerating profiles are integrated without protected-status movement",
+  "pinned_inputs": {
+    "k1666": "lab/process/k1666-subextensive-profile-scale.json",
+    "k1667": "lab/process/k1667-anchor-cube-localization.json",
+    "k1668": "lab/process/k1668-anchor-profile-positive-gap.json",
+    "k1669": "lab/process/k1669-profile-survivor-geometry.json"
+  },
+  "admission": {
+    "quantum_result": "Every bounded known profile with subextensive l2 mass is leading-descent inert, while every profile with one fixed macroscopic positive anchor cube has a positive Theta(N^4) gap even if it degenerates elsewhere.",
+    "remaining_quantum_gate": "The bounded known-profile survivor is extensive fixed-threshold but anchor-free support geometry; unknown profiles, growing latent dimension, non-orbit correlations and unrestricted coercivity remain separate.",
+    "physical_admission": "K1145/K1150 remain 0/7; no source-owned action/measure/Hamiltonian, admissible domain, physical state or observation tuple is supplied.",
+    "bridge_census": "385 rows: 306 satisfied, ten conditional, 65 excluded and four missing.",
+    "protected_state": "SC-ACT-01/02/06 remain ASSERTS, SC-META-53 remains UNCERTAIN, and the standing ledger remains 33 SAME / 22 DIFFERS / 31 NEEDS / 2 OVER-DETERMINED.",
+    "scope_guard": "Do not promote the one-sided sparse bound or anchor-cube theorem to arbitrary positive-density support, unknown-profile control, unrestricted coefficient convergence, a source-owned Hamiltonian, physical state, prediction, confirmation or GU verdict."
+  },
+  "decision": {
+    "subextensive_profile_descent_closed": true,
+    "anchored_degenerating_profile_class_closed": true,
+    "extensive_anchor_free_sector_open": true,
+    "source_status_changed": false,
+    "physics_ledger_changed": false,
+    "canon_or_public_status_changed": false
+  }
+}

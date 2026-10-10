@@ -7,6 +7,23 @@ updated_at: "2026-10-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1666--K1670 sparse/anchor profile dichotomy (2026-10-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Subextensive squared-amplitude mass can lower the leading coefficient | K1666 K1661/K1637 lower bound | false for bounded known profiles: `B_N=o(N^3)` gives `Q_N-lambda_N^statG>=-o(N^4)` |
+| K1666 proves the full gap is two-sided `o(N^4)` | scope audit | not established: a coherent profile may have a large positive fourth moment |
+| A global positive profile floor is necessary for posterior localization | K1667 anchor-cube estimator | false: one complete `Theta(N^3)` anchor cube gives `O(N^3)` missing Fisher |
+| Amplitudes degenerating outside the anchor can descend at leading order | K1668 l2 coercivity plus anchor mass | false: the anchored class has a positive `Theta(N^4)` gap |
+| A surviving bounded profile may be cardinality-sparse | K1669 support and threshold inequalities | false: it must have an extensive fixed-threshold set, but that set may remain anchor-free |
+| The advance closes GU physical admission | K1670 385-row bridge census | 306 satisfied, ten conditional, 65 excluded and four missing |
+
+The five producers pass `99/99` controls and five hostile probes reject
+`52/52` mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
+`0/7`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
+
 ## K1661--K1665 bounded-profile unequal-amplitude orbit rigidity (2026-10-09)
 
 | Claim | Evidence | Honest grade |

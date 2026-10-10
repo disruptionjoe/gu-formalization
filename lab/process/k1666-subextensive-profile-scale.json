@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1666",
+  "status": "active_research",
+  "title": "Subextensive squared-amplitude mass cannot lower the leading coefficient",
+  "pinned_inputs": {
+    "k1637": "lab/process/k1637-stationary-fisher-defect-gap-identity.json",
+    "k1661": "lab/process/k1661-weighted-orbit-defect-floor.json"
+  },
+  "scale_bound": {
+    "profile": "Known nonnegative weights satisfy 0<=rho_(N,k)<=rho_+ on the complete d_N=Theta(N^3) cube; put B_N=sum rho_k^2.",
+    "defect_floor": "K1661 and Cauchy give D_(M,N)>=-3eta^2 d_N B_N/N^2, including zero weights.",
+    "full_gap": "K1637 gives Q_N-lambda_N^statG=A_N+R_(Omega,N)/4+gD_(M,N), with A_N and R_(Omega,N) nonnegative.",
+    "coefficient_result": "If B_N=o(N^3), then Q_N-lambda_N^statG>=-o(N^4), so the family cannot produce a strict negative order-N^4 descent or lower the leading coefficient.",
+    "scope_guard": "This is one-sided coefficient-lowering inertia, not a two-sided o(N^4) gap estimate, positive gap, localization theorem or unrestricted coercivity theorem."
+  },
+  "decision": {
+    "zero_weights_admitted": true,
+    "subextensive_l2_descent_excluded": true,
+    "posterior_localization_required": false,
+    "two_sided_gap_control_proved": false,
+    "protected_status_change": false
+  }
+}

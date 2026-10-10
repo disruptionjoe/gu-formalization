@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1668",
+  "status": "active_research",
+  "title": "Anchored degenerating profiles have a positive leading gap",
+  "pinned_inputs": {
+    "k1661": "lab/process/k1661-weighted-orbit-defect-floor.json",
+    "k1663": "lab/process/k1663-l2-profile-fisher-coercivity.json",
+    "k1667": "lab/process/k1667-anchor-cube-localization.json"
+  },
+  "sign_classification": {
+    "nonnegative_profile_coercivity": "The pointwise K1663 inequality includes t=0 and combines with K1661 to give C_(F,N)+gD_(M,N)>=eta^2 N B_N m_g for fixed m_g>0.",
+    "anchor_mass": "The anchor hypothesis gives B_N=sum rho_k^2>=rho_-^2 q_N=Theta(N^3).",
+    "posterior_remainder": "K1667 removes only O(N^3), leaving Q_N-lambda_N^statG>=c_(g,eta,rho_-,alpha,epsilon)N^4 for all sufficiently large N.",
+    "advance": "A global positive profile floor is unnecessary: one fixed macroscopic observable anchor suffices even if every remaining amplitude vanishes or degenerates.",
+    "scope_guard": "The theorem does not cover extensive anchor-free supports, unknown profiles, growing latent dimension, non-orbit laws or unrestricted Fisher/defect coercivity."
+  },
+  "decision": {
+    "anchored_degenerating_profiles_classified": true,
+    "positive_leading_gap_proved": true,
+    "global_floor_removed": true,
+    "anchor_free_sector_classified": false,
+    "protected_status_change": false
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1667",
+  "status": "active_research",
+  "title": "One macroscopic positive anchor cube localizes the known orbit",
+  "pinned_inputs": {
+    "k1653": "lab/process/k1653-translation-phase-posterior-localization.json",
+    "k1662": "lab/process/k1662-bounded-profile-localization.json"
+  },
+  "localization": {
+    "anchor_hypothesis": "A complete lattice subcube Q_N has side lengths at least alpha N, q_N=Theta(N^3), and rho_(N,k)>=rho_->0 on Q_N; only 0<=rho_(N,k)<=rho_+ is required outside it.",
+    "normalization": "Known-phase demodulation and division by sqrt(rho_k) on Q_N give K1653's constant-signal channel with uniformly bounded circular noise.",
+    "anchor_risk": "Disjoint adjacent pairs inside Q_N give translation risk O(q_N^(-1))=O(N^(-3)) and a disjoint anchor subcube gives global-phase risk O(N^2/q_N)=O(N^(-1)).",
+    "full_prediction": "The global ceiling rho_+ extends the anchor parameter estimate across all d_N=Theta(N^3) selected modes, including zero or degenerating coefficients outside Q_N.",
+    "score_saturation": "The uniform residual margin gives M_(F,N)=O_(g,eta,rho_-,rho_+,alpha,epsilon)(N^3) and R_(Omega,N)/4=C_(F,N)-O(N^3).",
+    "scope_guard": "Arbitrary positive-density, checkerboard, arithmetic, fractal or otherwise anchor-free support is not asserted to contain a complete anchor cube."
+  },
+  "decision": {
+    "macroscopic_anchor_localizes": true,
+    "global_positive_floor_required": false,
+    "posterior_missing_term_order_N3": true,
+    "arbitrary_dense_support_classified": false,
+    "protected_status_change": false
+  }
+}

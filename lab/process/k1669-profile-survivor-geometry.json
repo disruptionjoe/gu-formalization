@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1669",
+  "status": "active_research",
+  "title": "Every surviving bounded profile is extensive but anchor-free",
+  "pinned_inputs": {
+    "k1666": "lab/process/k1666-subextensive-profile-scale.json",
+    "k1668": "lab/process/k1668-anchor-profile-positive-gap.json"
+  },
+  "survivor_geometry": {
+    "l2_necessity": "A possible negative order-N^4 descent must have B_N=Omega(N^3); K1666 excludes B_N=o(N^3).",
+    "support_floor": "Under rho_k<=rho_+, B_N<=rho_+^2|supp rho|, so support cardinality o(N^3) cannot survive.",
+    "threshold_lemma": "If B_N>=bN^3 and d_N<=c_1N^3, tau^2=b/(2c_1) gives |{k:rho_k>=tau}|>=bN^3/(2rho_+^2).",
+    "remaining_geometry": "K1668 removes threshold sets containing a macroscopic complete cube; the remaining known-profile orbit sector has extensive fixed-threshold support but no such anchor.",
+    "scope_guard": "This is a necessary survivor classification, not an existence claim, localization theorem, coefficient-changing construction or theorem for unknown/non-orbit laws."
+  },
+  "decision": {
+    "cardinality_sparse_profiles_excluded": true,
+    "positive_density_threshold_support_necessary": true,
+    "macroscopic_anchor_profiles_excluded": true,
+    "extensive_anchor_free_sector_open": true,
+    "protected_status_change": false
+  }
+}

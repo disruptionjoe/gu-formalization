@@ -7,6 +7,18 @@ updated_at: "2026-10-09"
 
 # Next Steps For Contributors
 
+> **2026-10-09 K1666--K1670 SPARSE/ANCHOR PROFILE DICHOTOMY.**
+> Bounded known profiles with `sum rho_k^2=o(N^3)` cannot produce negative
+> order-`N^4` descent. One macroscopic complete subcube with a fixed positive
+> profile floor is enough to localize the four translation/phase parameters
+> and restore a positive `Theta(N^4)` gap even if the profile vanishes
+> elsewhere. Any remaining bounded known-profile candidate must have an
+> extensive fixed-threshold support but avoid every macroscopic anchor cube.
+> Next decide that anchor-free geometry, then unknown profiles, growing latent
+> dimension, non-orbit laws or unrestricted coercivity. Do not turn the
+> one-sided sparse bound into a two-sided estimate or infer a source-owned
+> Hamiltonian, physical state, observation or prediction.
+
 > **2026-10-09 K1661--K1665 BOUNDED-PROFILE UNEQUAL-AMPLITUDE RIGIDITY.**
 > A weighted fourth-moment floor and Cauchy charge every bounded positive
 > unequal-amplitude defect to `sum rho_k^2`. Known profile normalization keeps

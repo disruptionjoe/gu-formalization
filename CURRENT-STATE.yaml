@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 14bca5663e074cfd2b0eacd9520b3b412b62121f
+revision_basis: 28ef2fbffa864992d3db9d0d84e702f4e7121609
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1666--K1670 classify two vanishing-floor known-profile regimes. If
+    `B_N=sum rho_k^2=o(N^3)`, K1661 and K1637 give a full-gap lower bound
+    `-o(N^4)`, so the profile cannot lower the leading coefficient without
+    any posterior localization. If one macroscopic complete subcube retains a
+    fixed positive profile floor, that anchor alone localizes translation and
+    global phase with `O(N^3)` missing Fisher; K1661/K1663 then leave a
+    positive `Theta(N^4)` gap even when all other amplitudes vanish or
+    degenerate. Any remaining bounded known-profile candidate must have an
+    extensive fixed-threshold support but no macroscopic anchor cube. Unknown
+    profiles, growing latent dimension, non-orbit laws and unrestricted
+    coercivity remain open. The 385-row census is 306 satisfied, ten
+    conditional, 65 excluded and four missing; protected source, ledger,
+    canon and public states do not move.
+
     K1661--K1665 close every known bounded positive unequal-amplitude profile
     on the complete-cube translation/global-phase orbit. The weighted fourth
     defect is bounded by `-3eta^2(sum rho_k)^2/N^2`, and Cauchy charges it to
@@ -15233,6 +15247,19 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1666 excludes every bounded known profile with subextensive
+  `sum rho_k^2` from negative order-`N^4` descent, and K1667--K1668 prove a
+  positive `Theta(N^4)` gap whenever one macroscopic complete subcube retains
+  a fixed positive profile floor, even if the remaining amplitudes vanish.
+  Can an extensive fixed-threshold but anchor-free support geometry defeat
+  posterior localization, or does an additive-combinatorial/statistical
+  theorem close every bounded known profile? Independently, can unknown
+  profiles, growing latent dimension or non-orbit dependence change the
+  unrestricted coefficient, or can global Fisher/negative-defect coercivity
+  close them? Only after the true `E_N+O(1)` shift is identified should
+  compactness and Mosco liminf/recovery be tested. The source-owned
+  action/measure/Hamiltonian tuple remains a separate gate.
+
   K1661--K1664 prove a positive `Theta(N^4)` gap for every fixed admissible
   known amplitude profile bounded above and away from zero, with arbitrary
   known phase pattern, on the complete four-parameter translation/global-
@@ -17965,6 +17992,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1666 as a one-sided leading-descent exclusion: it proves
+  `Q_N-lambda_N^statG>=-o(N^4)` when `sum rho_k^2=o(N^3)`, not a two-sided
+  `o(N^4)` gap or a positive gap. Preserve K1667's known profile, bounded
+  ceiling, fixed four-dimensional orbit, uniform residual margin and one
+  complete macroscopic positive anchor cube; arbitrary positive-density
+  support need not contain such an anchor. Preserve K1668's positive-gap
+  conclusion only for that anchored class. Preserve K1669 as a necessary
+  survivor classification: any bounded candidate has extensive
+  fixed-threshold support and no macroscopic anchor, but existence, descent
+  and localization remain open. Next decide that extensive anchor-free
+  geometry, then unknown profiles, growing latent dimension, non-orbit laws or
+  unrestricted coercivity. No result supplies a source-owned Hamiltonian,
+  physical state, observation, prediction or admission.
+
   Preserve K1661's known positive weights, complete cube, global-phase and
   translation averaging, and pattern-blind lower-bound status; the weighted
   defect floor is not an equality. Preserve K1662's uniform positive profile
