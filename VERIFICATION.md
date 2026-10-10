@@ -7,6 +7,23 @@ updated_at: "2026-10-10"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1696--K1700 uniform shape-optimized scalar envelope (2026-10-10)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K1691's expansion cannot be uniform over moving rectangles | K1696 exact Legendre factorization plus bounded `ell_g/tau_g` | false for K1683 rectangles and the two named discrete seeds |
+| Optimizing rectangles may collapse to a degenerate face | K1697 compactified shape ratios and zero boundary values | false for exact and `o(g^2)`-near minimizers at small coupling |
+| The fully shape-optimized named-seed envelope has no cubic expansion | K1698 compact variational lemma | false: `H_X=-6g^2M+432c_Xg^3S_*+o(g^3)` |
+| Shape optimization may erase the three-point advantage | K1699 coefficient subtraction and `S_*>0` | false: the Rademacher envelope is higher by `(576/5)S_*g^3+o(g^3)` |
+| The result identifies the all-seed scalar or unrestricted infimum | scope audit | not established |
+| The result supplies a physical state or GU prediction | K1700 protected admission | false; K1145/K1150 remain `0/7` |
+
+The five producers pass `87/87` controls and five hostile probes reject
+`50/50` mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
+`0/7`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
+
 ## K1691--K1695 small-coupling and Haar Fisher gap (2026-10-10)
 
 | Claim | Evidence | Honest grade |

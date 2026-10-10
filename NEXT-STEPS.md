@@ -7,6 +7,19 @@ updated_at: "2026-10-10"
 
 # Next Steps For Contributors
 
+> **2026-10-10 K1696--K1700 UNIFORM SHAPE-OPTIMIZED ENVELOPE.**
+> The scalar objective factors through a seed-only Legendre profile and two
+> rectangular-shape ratios. Those ratios extend continuously by zero on
+> degenerate rectangles, so small-coupling minimizers stay in a common compact
+> interior set. If `M=max R_0` and `S_*=min_(argmax R_0)S_0>0`, then
+> `H_X=-6g^2M+432c_Xg^3S_*+o(g^3)`. The fully channel-strength- and
+> rectangular-shape-optimized Rademacher envelope therefore exceeds the
+> three-point envelope by `(576/5)S_*g^3+o(g^3)>0`. Next solve the exact
+> finite-strength all-seed scalar infimum, quantify translation-Haar saving,
+> test a correlated tensor or nonrectangular moving packet, or prove the
+> unrestricted lower bound. Do not infer the true coefficient, minimizer,
+> continuum state or source-owned physical theory.
+
 > **2026-10-10 K1691--K1695 SMALL-COUPLING AND HAAR FISHER GAP.**
 > For every fixed K1683 packet shape and sufficiently small coupling, the
 > unique globally minimizing three-point scalar branch beats the unique

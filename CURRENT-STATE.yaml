@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 0e58ecf1caabc7346e3f1353494f5723dc3b1ed5
+revision_basis: d9a891ad8927bba005b89bc19dcd148f75fae67f
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1696--K1700 close K1692's moving-rectangle boundary. The named scalar
+    objectives factor through one seed-only Legendre profile and the shape
+    ratios `R_g=ell_g^2/tau_g`, `S_g=ell_g^3/tau_g^2`. These ratios extend
+    continuously to the compactified rectangle space and vanish on degenerate
+    faces; K1571's beyond-all-orders profile scale makes the zero-profile
+    limit uniform through cubic order. If `M=max R_0` and
+    `S_*=min_(argmax R_0)S_0>0`, then every named-seed envelope satisfies
+    `H_X=-6g^2M+432c_Xg^3S_*+o(g^3)`. Hence the fully channel-strength- and
+    rectangular-shape-optimized Rademacher envelope exceeds the three-point
+    envelope by `(576/5)S_*g^3+o(g^3)>0`. The exact finite-strength all-seed
+    infimum, Haar-saving scale, correlated tensors, nonrectangular moving
+    packets and unrestricted lower coefficient remain open. The 415-row
+    census is 336 satisfied, ten conditional, 65 excluded and four missing;
+    protected source, ledger, canon and public states do not move.
+
     K1691--K1695 convert K1688's pointwise weak-channel comparison into a
     global small-coupling theorem for every fixed K1683 packet shape. The
     unique Rademacher and three-point minimizing branches have common leading
@@ -15323,6 +15338,17 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1696--K1699 prove that optimizing K1683 rectangular shape does not erase
+  the K1688 three-point seed's small-coupling advantage: the global gap is
+  `(576/5)S_*g^3+o(g^3)>0`. What is the exact finite-strength scalar infimum
+  over all bounded symmetric seeds? Can a quantitative posterior-score
+  inequality determine the asymptotic translation-Haar saving, or can a
+  correlated fourth-cumulant tensor or nonrectangular moving packet lower the
+  trial coefficient again? Alternatively, can arbitrary stationary laws be
+  bounded below by the widened scalar-cardinal functional? Compactness, Mosco
+  liminf/recovery and `E_N+O(1)` recentering wait for the true coefficient and
+  shift. The source-owned physical tuple remains separate.
+
   K1686--K1689 replace the fixed Rademacher scalar choice by
   `h_g^scalar-card-up` and prove that coordinate heterogeneity gives no further
   gain on one fixed exchangeable cardinal block. What is the exact finite-`t`
@@ -18110,6 +18136,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1696's named discrete seeds, matched-defect coordinate and
+  seed-only endpoint coercivity. Preserve K1697's centered axis-aligned K1683
+  rectangles, zero-profile locally integrable weights and K1571
+  beyond-all-orders `kappa_g` scale; its compactness does not cover arbitrary
+  moving shapes. Preserve K1698's common leading maximizer set and secondary
+  minimum `S_*>0`; no unique optimizing rectangle is claimed. Preserve K1699
+  as a strict small-coupling comparison of two fully rectangular-shape-
+  optimized scalar-product trial families, not the all-seed infimum or true
+  unrestricted coefficient. Next solve the finite-strength scalar problem,
+  quantify Haar saving, construct one correlated tensor or nonrectangular
+  moving packet, or prove an unrestricted lower bound. No result supplies a
+  source-owned Hamiltonian, physical state, observation, prediction or
+  admission.
+
   Preserve K1691's fixed-shape and named-discrete-seed hypotheses: its global
   minimizer statement is for sufficiently small positive `g`, not uniform in
   moving `C` or all bounded seeds. Preserve K1692's distinction between

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1700",
+  "status": "active_research",
+  "title": "Uniform shape optimization is integrated without unrestricted or physical promotion",
+  "pinned_inputs": {
+    "k1696": "lab/process/k1696-uniform-scalar-legendre-profile.json",
+    "k1697": "lab/process/k1697-rectangular-shape-compactness.json",
+    "k1698": "lab/process/k1698-shape-optimized-cubic-envelope.json",
+    "k1699": "lab/process/k1699-global-three-point-rademacher-gap.json"
+  },
+  "admission": {
+    "quantum_result": "The K1688 three-point seed strictly lowers the fully channel-strength- and rectangular-shape-optimized Rademacher cardinal envelope by (576/5)S_*g^3+o(g^3) at sufficiently small positive coupling.",
+    "remaining_quantum_gate": "Solve the exact finite-strength all-seed scalar infimum, quantify the translation-Haar saving scale, test a correlated fourth-cumulant tensor or nonrectangular moving packet, or prove an unrestricted lower bound.",
+    "physical_admission": "K1145/K1150 remain 0/7; no source-owned action/measure/Hamiltonian, admissible domain, physical state or observation tuple is supplied.",
+    "bridge_census": "415 rows: 336 satisfied, ten conditional, 65 excluded and four missing.",
+    "protected_state": "SC-ACT-01/02/06 remain ASSERTS, SC-META-53 remains UNCERTAIN, and the standing ledger remains 33 SAME / 22 DIFFERS / 31 NEEDS / 2 OVER-DETERMINED.",
+    "scope_guard": "Do not promote a named-seed rectangular trial comparison to the all-seed scalar infimum, quantitative Haar gain, true unrestricted coefficient, lower bound, minimizer, bounded-error recentering, continuum state, source-owned Hamiltonian, physical prediction, confirmation or GU verdict."
+  },
+  "decision": {
+    "uniform_shape_boundary_closed": true,
+    "named_seed_global_gap_integrated": true,
+    "true_unrestricted_coefficient_open": true,
+    "source_status_changed": false,
+    "physics_ledger_changed": false,
+    "canon_or_public_status_changed": false
+  }
+}

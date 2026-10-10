@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1699",
+  "status": "active_research",
+  "title": "The three-point seed strictly beats Rademacher after full rectangular-shape optimization",
+  "comparison": {
+    "coefficient_difference": "c_R-c_*=31/60-1/4=4/15",
+    "envelope_difference": "H_R(g)-H_*(g)=(576/5)S_*g^3+o(g^3)",
+    "strictness": "S_*>0, hence H_*(g)<H_R(g) for all sufficiently small positive g.",
+    "chain": "h_g^(*-card-up)<h_g^(R-card-up)=h_g^card-up<h_g^prof"
+  },
+  "decision": {
+    "fixed_shape_only_boundary_closed": true,
+    "fully_rectangular_shape_optimized_strict": true,
+    "all_seed_scalar_infimum_identified": false,
+    "unrestricted_coefficient_identified": false
+  },
+  "scope_guard": "Strictness compares the named three-point and Rademacher scalar-product trial families at small coupling; correlated tensors, nonrectangular moving packets, Haar-saving scale and lower bounds remain open."
+}

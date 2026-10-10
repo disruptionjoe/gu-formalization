@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1697",
+  "status": "active_research",
+  "title": "Small-coupling optimizing rectangles stay in a common nondegenerate compact set",
+  "shape_space": {
+    "parameterization": "C_alpha=product_i[-alpha_i,alpha_i] inside [-1,1]^3, with 0<alpha_i<=1 and degenerate faces adjoined",
+    "zero_profile": "b_0(x)=|x| and a_0(x)=(2|x|)^(-1/2)",
+    "boundary": "R_0=ell_0^2/tau_0 and S_0=ell_0^3/tau_0^2 extend continuously by zero on every degenerate face",
+    "profile_rate": "K1571 gives g log(1/kappa_g)->1/(12pi), and the weighted integrals converge uniformly beyond every algebraic order needed for the cubic expansion."
+  },
+  "compactness": {
+    "leading_maximum": "M=max_C R_0(C)>0",
+    "maximizer_set": "Mset={C:R_0(C)=M} is compact and disjoint from the degenerate boundary",
+    "near_minimizers": "Every exact or o(g^2)-near scalar-envelope minimizer lies in one common compact interior neighborhood of Mset for sufficiently small g.",
+    "secondary_floor": "S_*>0, where S_*=min_(C in Mset)S_0(C)"
+  },
+  "scope_guard": "This compactness is for centered axis-aligned K1683 rectangles and the K1572 small-coupling profile; it does not cover arbitrary nonrectangular or cutoff-dependent packet geometries."
+}

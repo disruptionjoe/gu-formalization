@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1698",
+  "status": "active_research",
+  "title": "Each named fully rectangular-shape-optimized envelope has an explicit cubic expansion",
+  "variational_data": {
+    "leading_shape_functional": "R_0(C)=ell_0(C)^2/tau_0(C)",
+    "leading_maximum": "M=max_C R_0(C)",
+    "leading_maximizers": "Mset=argmax_C R_0(C)",
+    "secondary_shape_functional": "S_0(C)=ell_0(C)^3/tau_0(C)^2",
+    "secondary_minimum": "S_*=min_(C in Mset)S_0(C)>0"
+  },
+  "envelope": {
+    "definition": "H_X(g)=inf_C [tau_g(C)/4] Phi_X(4g ell_g(C)/tau_g(C))",
+    "expansion": "H_X(g)=-6g^2M+432c_Xg^3S_*+o(g^3)",
+    "optimizer_uniqueness_required": false,
+    "named_seed_coefficients": "c_*=1/4 and c_R=31/60"
+  },
+  "scope_guard": "The expansion optimizes channel strength and every K1683 rectangle for one named seed; it is not the all-seed scalar infimum or the unrestricted energy coefficient."
+}

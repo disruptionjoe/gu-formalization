@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1696",
+  "status": "active_research",
+  "title": "The named discrete scalar objectives have one shape-uniform small-coupling Legendre expansion",
+  "factorization": {
+    "profile": "Phi_X(r)=min_(0<=q<u)[j_X(q)-rq]",
+    "shape_objective": "F_X(C,g)=[tau_g(C)/4] Phi_X(4g ell_g(C)/tau_g(C))",
+    "seed_scope": "symmetric Rademacher and the K1688 sixth-cumulant-canceling three-point seed",
+    "global_branch": "For one seed-only r_0>0, the unique global minimizer for 0<=r<=r_0 solves j_X'(q)=r."
+  },
+  "uniform_expansion": {
+    "legendre": "Phi_X(r)=-(3/2)r^2+27c_Xr^3+O_X(r^(7/2))",
+    "shape_ratios": "R_g=ell_g^2/tau_g and S_g=ell_g^3/tau_g^2",
+    "objective": "F_X(C,g)=-6g^2R_g(C)+432c_Xg^3S_g(C)+O_X(g^(7/2)) uniformly over K1683 rectangles",
+    "reason": "ell_g/tau_g is bounded on the compactified rectangle space, so r=4g ell_g/tau_g is O(g) uniformly."
+  },
+  "scope_guard": "Uniformity covers moving K1683 rectangles for the two named discrete seeds near zero coupling; it does not classify every seed or finite interpolation strength."
+}
