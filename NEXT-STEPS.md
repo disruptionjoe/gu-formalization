@@ -7,6 +7,20 @@ updated_at: "2026-10-10"
 
 # Next Steps For Contributors
 
+> **2026-10-10 K1691--K1695 SMALL-COUPLING AND HAAR FISHER GAP.**
+> For every fixed K1683 packet shape and sufficiently small coupling, the
+> unique globally minimizing three-point scalar branch beats the unique
+> Rademacher branch by
+> `(576/5)g^3ell_g(C)^3/tau_g(C)^2+O_C(g^(7/2))`. Translation-Haar averaging
+> also loses exactly the posterior variance of translated scores, and nonzero
+> fourth cumulant plus genuine coordinate mixing make that finite-cutoff
+> saving strict for the cardinal product. Next establish uniform shape
+> control, solve the exact finite-strength scalar problem, determine the
+> asymptotic order of Haar saving, test a correlated tensor or moving shape,
+> or prove the unrestricted lower bound. Do not infer strict fully
+> shape-optimized improvement, an order-`N^4` Haar gain, the true coefficient,
+> a continuum state or source-owned physical theory.
+
 > **2026-10-10 K1686--K1690 SCALAR-CHANNEL ENLARGEMENT.**
 > Scalar Gaussian interpolation obeys the exact Fisher/MMSE identity
 > `j_X(t)=gamma[1-(1+gamma)mmse_X(gamma)]`. For bounded symmetric seeds the

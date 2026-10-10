@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1694",
+  "status": "active_research",
+  "title": "A genuinely mixed non-Gaussian cardinal product has strict finite-cutoff translation-Haar Fisher saving",
+  "witness": {
+    "active_coordinate_cumulant": "kappa_4(Y_t)=t^2 kappa_4(X) is nonzero",
+    "mixing_row": "sum_j v_j^2=1 with at least two nonzero entries, hence sum_j v_j^4<1",
+    "transformed_cumulant": "kappa_4'=kappa_4(Y_t) sum_j v_j^4 differs from kappa_4(Y_t)",
+    "noninvariance": true
+  },
+  "conclusion": {
+    "strict_finite_cutoff_fisher_saving": true,
+    "covariance_preserved": true,
+    "integrated_wick_defect_preserved": true,
+    "order_N4_saving_proved": false
+  },
+  "scope_guard": "Strict finite-cutoff saving does not determine its leading scale and does not extend to Gaussian channels, pure coordinate permutations, correlated cumulant tensors or moving shapes without a new argument."
+}

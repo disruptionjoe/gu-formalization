@@ -7,6 +7,24 @@ updated_at: "2026-10-10"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1691--K1695 small-coupling and Haar Fisher gap (2026-10-10)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K1688's pointwise ordering need not survive optimization over channel strength | K1691 discrete-channel coercivity plus implicit branch | false for each fixed shape at sufficiently small coupling: each named seed has a unique global minimizing branch |
+| The optimized Rademacher and three-point branches agree through the first distinguishing coupling term | K1692 substitution into the K1687 law | false: Rademacher is higher by `(576/5)g^3ell^3/tau^2+O_C(g^(7/2))` |
+| Translation-Haar Fisher convexity has no exact deficit formula | K1693 compact-mixture score calculation | false: the deficit is exactly posterior translated-score variance |
+| Haar averaging may be equality for the non-Gaussian cardinal product | K1694 fourth-cumulant mixing witness | false at each finite cutoff with genuine mixing and nonzero fourth cumulant |
+| Strict finite-cutoff Haar saving proves an order-`N^4` coefficient improvement | scope audit | not established; no asymptotic lower scale for the saving is proved |
+| Fixed-shape small-coupling dominance compares the fully shape-optimized envelopes | scope audit | not established; uniform control over moving shapes is open |
+| The advance closes GU physical admission | K1695 410-row bridge census | 331 satisfied, ten conditional, 65 excluded and four missing |
+
+The five producers pass `79/79` controls and five hostile probes reject
+`47/47` mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
+`0/7`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
+
 ## K1686--K1690 scalar-channel enlargement (2026-10-10)
 
 | Claim | Evidence | Honest grade |

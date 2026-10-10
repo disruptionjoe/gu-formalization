@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 65b4ae3a8d8cb6dc4b84e04c36d9a68d39793a28
+revision_basis: 0e58ecf1caabc7346e3f1353494f5723dc3b1ed5
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1691--K1695 convert K1688's pointwise weak-channel comparison into a
+    global small-coupling theorem for every fixed K1683 packet shape. The
+    unique Rademacher and three-point minimizing branches have common leading
+    value `-6g^2ell_g(C)^2/tau_g(C)`, while the three-point branch is lower by
+    `(576/5)g^3ell_g(C)^3/tau_g(C)^2+O_C(g^(7/2))`. Compact translation-Haar
+    averaging also has an exact posterior-score-variance Fisher deficit.
+    Nonzero fourth cumulant and one genuinely mixing translation prove strict
+    finite-cutoff Fisher saving for the cardinal product. Uniform shape
+    control, the exact finite-strength scalar optimizer, the asymptotic order
+    of Haar saving, correlated tensors, moving shapes, the unrestricted
+    coefficient and a lower bound remain open. The 410-row census is 331
+    satisfied, ten conditional, 65 excluded and four missing; protected
+    source, ledger, canon and public states do not move.
+
     K1686--K1690 widen K1684's scalar channel and close coordinate
     heterogeneity on every fixed exchangeable cardinal block. For any centered
     unit-variance seed, relative Fisher equals
@@ -18096,6 +18110,21 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1691's fixed-shape and named-discrete-seed hypotheses: its global
+  minimizer statement is for sufficiently small positive `g`, not uniform in
+  moving `C` or all bounded seeds. Preserve K1692's distinction between
+  channel-strength optimization at fixed shape and optimization over shapes;
+  the positive `(576/5)g^3ell^3/tau^2` gap does not yet compare the fully
+  shape-optimized envelopes. Preserve K1693's positive smooth finite-cutoff
+  density, compact invariant group action and commuting positive Fisher
+  weight. Preserve K1694's genuine coordinate-mixing and nonzero-fourth-
+  cumulant hypotheses; strict finite-cutoff Haar saving has no proved `N^4`
+  lower scale. Next establish uniform shape control, solve the exact finite-
+  strength scalar infimum, quantify the Haar saving scale, test a correlated
+  tensor or moving shape, or prove an unrestricted lower bound. No result
+  supplies a source-owned Hamiltonian, physical state, observation,
+  prediction or admission.
+
   Preserve K1686's exact scalar score/MMSE identity and its centered
   unit-variance hypothesis. Preserve K1687's bounded symmetric seed class,
   Hermite normalization, vanished fifth-order coefficient and `O_X(t^7)`

@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1692",
+  "status": "active_research",
+  "title": "The optimized three-point branch strictly beats the optimized Rademacher branch at every fixed shape for small coupling",
+  "coefficients": {
+    "three_point_c": "1/4",
+    "rademacher_c": "31/60",
+    "three_point_cubic": "108*g^3*ell^3/tau^2",
+    "rademacher_cubic": "(1116/5)*g^3*ell^3/tau^2",
+    "difference": "(576/5)*g^3*ell^3/tau^2+O_C(g^(7/2))"
+  },
+  "decision": {
+    "strict_for_each_fixed_shape_and_sufficiently_small_positive_g": true,
+    "strict_after_global_shape_optimization_proved": false,
+    "finite_strength_scalar_optimizer_identified": false
+  },
+  "scope_guard": "The fixed-shape remainder is not uniform over C; do not promote the result to strict inequality of the fully shape-optimized envelopes or the unrestricted coefficient."
+}

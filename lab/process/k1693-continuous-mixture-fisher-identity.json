@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1693",
+  "status": "active_research",
+  "title": "Compact-group averaging loses exactly posterior translated-score variance",
+  "setting": {
+    "group": "compact normalized Haar group acting orthogonally on one finite-dimensional cutoff",
+    "invariance": "The reference Gaussian and positive weight Omega are invariant and Omega commutes with the action.",
+    "posterior": "w_q(da)=rho_a(q) da/bar_rho(q)",
+    "mixture_score": "bar_u(q)=integral_G u_a(q) w_q(da)"
+  },
+  "identity": "I_Omega(rho|mu)-I_Omega(bar_rho|mu)=E_(bar_rho mu) integral_G |u_a-bar_u|_Omega^2 w_q(da)",
+  "equality": "For positive smooth normalized densities, equality holds exactly when rho is group invariant.",
+  "scope_guard": "This is an exact finite-dimensional Fisher identity; it does not supply a continuum limit or a lower bound on the asymptotic size of the saving."
+}

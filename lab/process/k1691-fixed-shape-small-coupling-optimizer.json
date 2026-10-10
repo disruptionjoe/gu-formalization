@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1691",
+  "status": "active_research",
+  "title": "Each named discrete scalar seed has a unique global fixed-shape small-coupling optimizer branch",
+  "inputs": {
+    "matched_defect_law": "j_X(q)=q^2/6+c_X q^3+O_X(q^(7/2)), c_X=1/4+kappa_6(X)^2/(120u^3)",
+    "fixed_shape_objective": "F_X,C,g(q)=A[j_X(q)-rq], A=tau_g(C)/4 and r=4g ell_g(C)/tau_g(C)",
+    "seed_scope": "symmetric Rademacher and the K1688 sixth-cumulant-canceling three-point seed"
+  },
+  "optimizer": {
+    "global_small_coupling": true,
+    "coercivity_reason": "For either discrete non-Gaussian seed j_X(q)>0 away from zero and j_X(q) diverges as q approaches u because discrete-channel MMSE decays while gamma diverges.",
+    "branch": "q_X(r)=3r-81c_X r^2+O_X(r^(5/2))",
+    "minimum": "min F=-6g^2 ell_g(C)^2/tau_g(C)+432c_X g^3 ell_g(C)^3/tau_g(C)^2+O_C,X(g^(7/2))"
+  },
+  "scope_guard": "Global means the one-dimensional objective for one fixed shape and one named discrete seed at sufficiently small g; it does not cover moving shapes, every bounded seed or finite-strength optimization."
+}
