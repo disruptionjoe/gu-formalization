@@ -7,6 +7,18 @@ updated_at: "2026-10-09"
 
 # Next Steps For Contributors
 
+> **2026-10-09 K1661--K1665 BOUNDED-PROFILE UNEQUAL-AMPLITUDE RIGIDITY.**
+> A weighted fourth-moment floor and Cauchy charge every bounded positive
+> unequal-amplitude defect to `sum rho_k^2`. Known profile normalization keeps
+> posterior missing Fisher at `O(N^3)`, while the exact K1572 component price
+> controls the same `l2` mass with a strictly larger cube-uniform coefficient.
+> Every fixed admissible bounded profile therefore has a positive
+> `Theta(N^4)` gap. Next test sparse or degenerating profiles, unknown
+> profiles, growing latent dimension or non-orbit dependence, or prove
+> unrestricted Fisher/negative-defect coercivity. Do not extend the theorem
+> beyond its bounded known-profile complete-cube orbit class or infer a
+> source-owned Hamiltonian, physical state, observation or prediction.
+
 > **2026-10-09 K1656--K1660 ALL-AMPLITUDE COMPLETE-CUBE ORBIT RIGIDITY.**
 > Known unit-modulus coefficient phases demodulate to the K1653 localization
 > channel, keeping posterior missing Fisher at `O(N^3)`. A pattern-blind fourth-

@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1662",
+  "status": "active_research",
+  "title": "Known bounded positive amplitude profiles preserve orbit localization",
+  "pinned_inputs": {
+    "k1652": "lab/process/k1652-continuous-gaussian-channel-missing-information.json",
+    "k1653": "lab/process/k1653-translation-phase-posterior-localization.json"
+  },
+  "localization": {
+    "profile_hypothesis": "Known weights satisfy 0<rho_-<=rho_(N,k)<=rho_+ and t_(N,k)<=1-epsilon on the complete cube, with fixed eta,rho_-,rho_+,epsilon.",
+    "normalization": "Multiplication by conjugate(c_k) and division by sqrt(rho_k) produce the K1653 channel with constant nonzero signal amplitude and circular Gaussian noise variances uniformly bounded above and below.",
+    "risk": "Translation risk is O(d_N^(-1)), global-phase risk is O(N^2/d_N)=O(N^(-1)), and normalized per-mode orbit prediction risk is O(N^(-1)).",
+    "score_saturation": "Bounded score weights and posterior optimality give M_(F,N)=O_(g,eta,rho_-,rho_+,epsilon)(N^3) and R_(Omega,N)/4=C_(F,N)-O(N^3).",
+    "scope_guard": "A vanishing profile floor, sparse support, unknown profile, growing latent dimension or non-orbit dependence is not covered."
+  },
+  "decision": {
+    "known_unequal_amplitudes_localized": true,
+    "posterior_missing_term_order_N3": true,
+    "uniform_profile_floor_load_bearing": true,
+    "degenerating_profiles_classified": false,
+    "protected_status_change": false
+  }
+}

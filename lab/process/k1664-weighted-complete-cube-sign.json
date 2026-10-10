@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1664",
+  "status": "active_research",
+  "title": "Every admissible bounded positive complete-cube amplitude profile has a positive leading gap",
+  "pinned_inputs": {
+    "k1637": "lab/process/k1637-stationary-fisher-defect-gap-identity.json",
+    "k1661": "lab/process/k1661-weighted-orbit-defect-floor.json",
+    "k1662": "lab/process/k1662-bounded-profile-localization.json",
+    "k1663": "lab/process/k1663-l2-profile-fisher-coercivity.json"
+  },
+  "sign_classification": {
+    "shared_scale": "K1661 and K1663 put both leading terms on eta^2 N sum_k rho_k^2, with bracket 2r_(N,k)^3-3g d_N/N^3.",
+    "small_coupling_margin": "For g<=8sqrt(3), the bracket is at least 3sqrt(3)/64 because d_N/N^3<=1/512.",
+    "large_coupling_margin": "For g>=8sqrt(3), the bracket is at least 2(g/2)^(3/2)-3g/512>0.",
+    "posterior_remainder": "K1662 subtracts only O(N^3); rho_k>=rho_->0 and d_N=Theta(N^3) make the remaining gap at least c_(g,eta,rho_-,epsilon)N^4.",
+    "scope_guard": "Sparse or degenerating profiles, unknown amplitudes or phases, growing latent dimension, non-orbit laws and unrestricted anisotropic laws remain open."
+  },
+  "decision": {
+    "bounded_positive_unequal_profiles_classified": true,
+    "positive_leading_gap_proved": true,
+    "equal_magnitude_hypothesis_removed": true,
+    "unrestricted_coefficient_identified": false,
+    "protected_status_change": false
+  }
+}

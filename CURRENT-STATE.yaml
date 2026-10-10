@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 5271eca4fbcf06bc7cca6e61cb179ebe40d6f31e
+revision_basis: 14bca5663e074cfd2b0eacd9520b3b412b62121f
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,19 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1661--K1665 close every known bounded positive unequal-amplitude profile
+    on the complete-cube translation/global-phase orbit. The weighted fourth
+    defect is bounded by `-3eta^2(sum rho_k)^2/N^2`, and Cauchy charges it to
+    `d_N sum rho_k^2`. Known profile normalization preserves K1653's
+    `O(N^3)` posterior missing term, while the exact K1572 component Fisher
+    price controls the same `sum rho_k^2` quantity. The small- and large-`g`
+    profile margins therefore leave a positive `Theta(N^4)` full gap for
+    every fixed admissible bounded profile. Sparse or degenerating profiles,
+    unknown profiles, growing latent dimension, non-orbit laws and
+    unrestricted coercivity remain open. The 380-row census is 301 satisfied,
+    ten conditional, 65 excluded and four missing; protected source, ledger,
+    canon and public states do not move.
+
     K1656--K1660 close every fixed admissible amplitude and every known
     unit-modulus angular pattern in the complete-cube translation/global-phase
     orbit class. Known phases demodulate to K1653, so the posterior missing
@@ -15220,6 +15233,19 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1661--K1664 prove a positive `Theta(N^4)` gap for every fixed admissible
+  known amplitude profile bounded above and away from zero, with arbitrary
+  known phase pattern, on the complete four-parameter translation/global-
+  phase orbit. Can a sparse or degenerating profile, unknown profile, growing
+  latent dimension or non-orbit dependence change the unrestricted
+  coefficient, or can a global Fisher/negative-defect coercivity theorem close
+  those sectors? Only after the true `E_N+O(1)` shift is identified should
+  compactness and Mosco liminf/recovery be tested. Independently, can a
+  source-owned nonlinear action/domain produce the K1644 supercritical
+  logarithmic or Besov budget together with integrable
+  curvature/current/radial remainders? The source-owned
+  action/measure/Hamiltonian tuple remains a separate gate.
+
   K1656--K1659 prove a positive `Theta(N^4)` gap for every fixed admissible
   amplitude and every known unit-modulus coefficient pattern on the complete
   four-parameter translation/global-phase orbit. Can a genuinely different
@@ -17939,6 +17965,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1661's known positive weights, complete cube, global-phase and
+  translation averaging, and pattern-blind lower-bound status; the weighted
+  defect floor is not an equality. Preserve K1662's uniform positive profile
+  floor and ceiling, known magnitudes and phases, fixed four-dimensional orbit
+  and uniform residual margin; its demodulation does not cover sparse,
+  degenerating or unknown profiles. Preserve K1663's exact K1572 profile and
+  component-Fisher scope; output-score saturation still uses K1662. Preserve
+  K1664 as a positive-gap theorem only for the declared bounded-profile
+  complete-cube orbit class. Next test a sparse or degenerating profile,
+  unknown profile, growing-latent or non-orbit anisotropic law, or prove
+  unrestricted Fisher/negative-defect coercivity. No result supplies a
+  source-owned Hamiltonian, physical state, observation, prediction or
+  admission.
+
   Preserve K1656's known deterministic unit-modulus phases, complete cube,
   fixed four-dimensional translation/global-phase orbit and Gaussian residual;
   demodulation does not cover unknown phases, unequal magnitudes, sparse

@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1661",
+  "status": "active_research",
+  "title": "Weighted complete-cube orbits have an l2-controlled fourth-defect floor",
+  "pinned_inputs": {
+    "k1657": "lab/process/k1657-complete-cube-defect-floor.json"
+  },
+  "weighted_floor": {
+    "profile": "Use known deterministic phases |c_(N,k)|=1 and positive weights rho_(N,k) on the complete cube, with R_N=sum sqrt(rho_(N,k))c_(N,k)e^(ikx) and A_N^2=eta/N.",
+    "moments": "Uniform translation and global phase give E M_N(x)^2=(eta/N)sum rho_k and E M_N(x)^4=(3eta^2/(2N^2))int|R_N|^4.",
+    "floor": "D_(M,N)>=-(3eta^2/N^2)(sum rho_k)^2 from int|R_N|^4>=0.",
+    "l2_conversion": "Cauchy gives (sum rho_k)^2<=d_N sum rho_k^2 and hence gD_(M,N)>=-3g eta^2(d_N/N^2)sum rho_k^2.",
+    "scope_guard": "The floor is not an equality or flatness claim and does not control an arbitrary non-orbit law."
+  },
+  "decision": {
+    "unequal_positive_weights_covered": true,
+    "weighted_defect_floor_proved": true,
+    "l1_to_l2_conversion_proved": true,
+    "unrestricted_defect_formula_proved": false,
+    "protected_status_change": false
+  }
+}

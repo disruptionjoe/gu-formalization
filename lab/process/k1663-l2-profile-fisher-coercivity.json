@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1663",
+  "status": "active_research",
+  "title": "The exact profile Fisher price is coercive in the amplitude l2 mass",
+  "pinned_inputs": {
+    "k1572": "lab/process/k1572-finite-cutoff-profiled-gaussian-minimizer.json",
+    "k1658": "lab/process/k1658-profile-fisher-amplitude-floor.json"
+  },
+  "fisher_coercivity": {
+    "variables": "Set r_(N,k)=sqrt(omega_k^2+kappa_N)/N and t_(N,k)=eta rho_(N,k)r_(N,k) in (0,1).",
+    "exact_term": "C_(F,N)=(N/2)sum_k r_(N,k)t_(N,k)/(1-t_(N,k)).",
+    "l2_floor": "The pointwise inequality t/(1-t)>=4t^2 gives C_(F,N)>=2eta^2N sum_k rho_(N,k)^2r_(N,k)^3.",
+    "small_coupling": "For 0<g<=8sqrt(3), r_(N,k)^3>=(sqrt(3)/4)^3=3sqrt(3)/64 on the selected shell.",
+    "large_coupling": "For g>=8sqrt(3), K1658 gives r_(N,k)^3>=(g/2)^(3/2) for all sufficiently large N.",
+    "scope_guard": "This controls the translated-component Fisher term; output-score coercivity still uses K1662 and the result is not unrestricted."
+  },
+  "decision": {
+    "exact_weighted_component_formula": true,
+    "l2_profile_floor_proved": true,
+    "all_admissible_profile_values_covered": true,
+    "unrestricted_output_fisher_bound_proved": false,
+    "protected_status_change": false
+  }
+}

@@ -7,6 +7,23 @@ updated_at: "2026-10-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1661--K1665 bounded-profile unequal-amplitude orbit rigidity (2026-10-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Unequal complete-cube amplitudes evade the fourth-defect floor | K1661 weighted moment identity and Cauchy | false for positive weights: `D_N>=-3eta^2(sum rho_k)^2/N^2>=-3eta^2d_N sum rho_k^2/N^2` |
+| Known unequal magnitudes obstruct K1653 localization | K1662 deterministic profile normalization | false under fixed positive upper/lower bounds and a uniform residual margin: posterior missing Fisher remains `O(N^3)` |
+| The exact profile Fisher price controls only equal amplitudes | K1663 modewise `t/(1-t)>=4t^2` | false: `C_(F,N)>=2eta^2N sum rho_k^2r_k^3` |
+| A bounded positive unequal-amplitude profile can descend at leading order | K1661--K1664 small/large-`g` coefficient comparison | false: every fixed admissible bounded profile has a positive `Theta(N^4)` gap |
+| The result fixes sparse, degenerating, unknown-profile or non-orbit laws | scope audit | not established: the uniform observability and fixed-orbit hypotheses are load-bearing |
+| The advance closes GU physical admission | K1665 380-row bridge census | 301 satisfied, ten conditional, 65 excluded and four missing |
+
+The five producers pass `99/99` controls and five hostile probes reject
+`52/52` mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
+`0/7`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
+
 ## K1656--K1660 all-amplitude complete-cube orbit rigidity (2026-10-09)
 
 | Claim | Evidence | Honest grade |
