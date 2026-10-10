@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1660",
+  "status": "active_research",
+  "title": "All-amplitude complete-cube orbit rigidity is integrated without protected-status movement",
+  "pinned_inputs": {
+    "k1656": "lab/process/k1656-known-phase-orbit-localization.json",
+    "k1657": "lab/process/k1657-complete-cube-defect-floor.json",
+    "k1658": "lab/process/k1658-profile-fisher-amplitude-floor.json",
+    "k1659": "lab/process/k1659-all-amplitude-complete-cube-sign.json"
+  },
+  "admission": {
+    "quantum_result": "Every fixed admissible amplitude and known unit-phase equal-magnitude complete-cube translation/global-phase orbit has a positive Theta(N^4) leading gap.",
+    "remaining_quantum_gate": "A coefficient-changing competitor must use unequal mode amplitudes, growing latent dimension, non-orbit macroscopic correlations, another covariance architecture, or satisfy an unrestricted Fisher/negative-defect coercivity theorem.",
+    "physical_admission": "K1145/K1150 remain 0/7; no source-owned action/measure/Hamiltonian, admissible domain or observation tuple is supplied.",
+    "bridge_census": "375 rows: 296 satisfied, ten conditional, 65 excluded and four missing.",
+    "protected_state": "SC-ACT-01/02/06 remain ASSERTS, SC-META-53 remains UNCERTAIN, and the standing ledger remains 33 SAME / 22 DIFFERS / 31 NEEDS / 2 OVER-DETERMINED.",
+    "scope_guard": "Do not promote orbit-class rigidity to unrestricted coefficient convergence, bounded-error recentering, a source-owned Hamiltonian, physical state, prediction, confirmation or GU verdict."
+  },
+  "decision": {
+    "complete_cube_orbit_class_closed": true,
+    "unrestricted_anisotropic_sector_open": true,
+    "source_status_changed": false,
+    "physics_ledger_changed": false,
+    "canon_or_public_status_changed": false
+  }
+}

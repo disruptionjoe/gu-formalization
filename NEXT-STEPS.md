@@ -7,6 +7,17 @@ updated_at: "2026-10-09"
 
 # Next Steps For Contributors
 
+> **2026-10-09 K1656--K1660 ALL-AMPLITUDE COMPLETE-CUBE ORBIT RIGIDITY.**
+> Known unit-modulus coefficient phases demodulate to the K1653 localization
+> channel, keeping posterior missing Fisher at `O(N^3)`. A pattern-blind fourth-
+> moment floor and the exact K1572 profile Fisher price then prove a positive
+> `Theta(N^4)` gap for every fixed admissible amplitude on the complete
+> translation/global-phase cube. Next test a genuinely different
+> unequal-amplitude, growing-latent, unknown-pattern or non-orbit anisotropic
+> law, or prove unrestricted Fisher/negative-defect coercivity. Do not extend
+> the theorem beyond its equal-magnitude complete-cube orbit class or infer a
+> source-owned Hamiltonian, physical state, observation or prediction.
+
 > **2026-10-09 K1651--K1655 SCORE SATURATION AND SMALL-AMPLITUDE SIGN.**
 > The individual Rudin--Shapiro fourth moments are equal and exact, so the
 > K1647 defect coefficient tends to `-1`. For the Gaussian-smoothed

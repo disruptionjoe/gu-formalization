@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1657",
+  "status": "active_research",
+  "title": "Every deterministic equal-magnitude cube orbit has a universal fourth-defect floor",
+  "pinned_inputs": {
+    "k1647": "lab/process/k1647-stationary-macroscopic-negative-defect.json"
+  },
+  "defect_floor": {
+    "pattern": "Let R_N have arbitrary deterministic unit-modulus coefficients on d_N complete-cube modes and I_(4,N)=int |R_N|^4>=0.",
+    "moments": "Uniform translation and global phase give E M_N(x)^2=A_N^2d_N and E M_N(x)^4=(3/2)A_N^4I_(4,N).",
+    "floor": "D_(M,N)=(3/2)A_N^4[I_(4,N)-2d_N^2]>=-3A_N^4d_N^2=-3eta^2d_N^2/N^2.",
+    "scope_guard": "Nonnegativity of I_4 is pattern-blind and proves neither flatness nor independence; unequal magnitudes and non-orbit laws remain outside the result."
+  },
+  "decision": {
+    "arbitrary_known_unit_phase_patterns_covered": true,
+    "universal_defect_floor_proved": true,
+    "rudin_shapiro_sharpness_claimed": false,
+    "unrestricted_defect_floor_proved": false,
+    "protected_status_change": false
+  }
+}

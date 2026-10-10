@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1658",
+  "status": "active_research",
+  "title": "The profiled component Fisher price controls every admissible amplitude",
+  "pinned_inputs": {
+    "k1572": "lab/process/k1572-finite-cutoff-profiled-gaussian-minimizer.json",
+    "k1648": "lab/process/k1648-gaussian-smoothed-fisher-control.json"
+  },
+  "fisher_floor": {
+    "shell": "Use b_N=(ceil(N/4),ceil(N/4),ceil(N/4)), N/16<=ell_N<=N/8 and d_N=ell_N^3; then omega_k/N>=sqrt(3)/4 and d_N/N^3<=1/512.",
+    "exact_term": "With r_(N,k)=sqrt(omega_k^2+kappa_N)/N and t_(N,k)=eta r_(N,k) in (0,1), C_(F,N)=(N/2)sum eta r_(N,k)^2/[1-eta r_(N,k)].",
+    "amplitude_inequality": "The identity (2t-1)^2>=0 gives t/(1-t)>=4t^2 and hence C_(F,N)>=2N eta^2 sum r_(N,k)^3 for every admissible amplitude.",
+    "small_coupling": "For 0<g<=8sqrt(3), C_(F,N)/N^4>=2eta^2(d_N/N^3)(sqrt(3)/4)^3.",
+    "profile_self_consistency": "For kappa_g=24gD(kappa_g), rationalization on [-1,1]^3 gives D(kappa)>=4kappa/[sqrt(3)sqrt(3+kappa)(sqrt(3)+sqrt(3+kappa))], so g>=8sqrt(3) implies kappa_g>=16sqrt(3)g-3>=g.",
+    "large_coupling": "K1572 convergence kappa_N/N^2->kappa_g gives C_(F,N)/N^4>=2eta^2(d_N/N^3)(g/2)^(3/2) for all sufficiently large N.",
+    "scope_guard": "The theorem uses the exact K1572 profile, the explicit shell and positive residual covariance; it is not an unrestricted Fisher inequality."
+  },
+  "decision": {
+    "exact_component_formula_rewritten": true,
+    "all_admissible_amplitude_floor_proved": true,
+    "profile_large_coupling_bound_proved": true,
+    "unrestricted_fisher_bound_proved": false,
+    "protected_status_change": false
+  }
+}

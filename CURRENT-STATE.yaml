@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: ef18168b92a89c6dc45e2eb3c1098aac35f1f81e
+revision_basis: 5271eca4fbcf06bc7cca6e61cb179ebe40d6f31e
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,19 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1656--K1660 close every fixed admissible amplitude and every known
+    unit-modulus angular pattern in the complete-cube translation/global-phase
+    orbit class. Known phases demodulate to K1653, so the posterior missing
+    term remains `O(N^3)`. Nonnegativity of the fourth moment gives the
+    universal floor `D_N>=-3 eta^2 d_N^2/N^2`, while the exact K1572 profile
+    and `t/(1-t)>=4t^2` give a quadratic-uniform Fisher floor. Separate small-
+    and large-`g` estimates leave a strictly positive `Theta(N^4)` full gap
+    for every fixed admissible `eta>0`. Unequal amplitudes, growing latent
+    dimension, non-orbit laws and unrestricted Fisher/defect coercivity remain
+    open. The 375-row census is 296 satisfied, ten conditional, 65 excluded
+    and four missing; protected source, ledger, canon and public states do not
+    move.
+
     K1651--K1655 classify the small-amplitude K1648 translation/phase family.
     The two individual Rudin--Shapiro fourth moments are equal and exact,
     giving `D_(M,N)=-[1+(1/2)(-1/8)^r]A_N^4d_N^2` on cubic stages. The
@@ -15207,6 +15220,19 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1656--K1659 prove a positive `Theta(N^4)` gap for every fixed admissible
+  amplitude and every known unit-modulus coefficient pattern on the complete
+  four-parameter translation/global-phase orbit. Can a genuinely different
+  macroscopic anisotropic law with unequal amplitudes, growing latent
+  dimension, unknown pattern, or non-orbit dependence change the unrestricted
+  coefficient, or can a global Fisher/negative-defect coercivity theorem close
+  those sectors? Only after the true `E_N+O(1)` shift is identified should
+  compactness and Mosco liminf/recovery be tested. Independently, can a
+  source-owned nonlinear action/domain produce the K1644 supercritical
+  logarithmic or Besov budget together with integrable
+  curvature/current/radial remainders? The source-owned
+  action/measure/Hamiltonian tuple remains a separate gate.
+
   K1646--K1648 construct a normalized stationary positive smooth finite-Fisher
   macroscopic-block law with exact profiled covariance,
   `D_N=-Theta(N^4)`, `A_N=0`, and `R_(Omega,N)/4=O(N^4)`. What is the exact
@@ -17913,6 +17939,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1656's known deterministic unit-modulus phases, complete cube,
+  fixed four-dimensional translation/global-phase orbit and Gaussian residual;
+  demodulation does not cover unknown phases, unequal magnitudes, sparse
+  supports or growing latent dimension. Preserve K1657's pattern-blind fourth-
+  moment floor as a lower bound, not an exact defect formula. Preserve K1658's
+  exact K1572 profile, residual-positivity condition and separate small- and
+  large-`g` estimates. Preserve K1659 as a positive-gap theorem only for the
+  declared complete-cube orbit class. Next test a genuinely different
+  unequal-amplitude, growing-latent, or non-orbit anisotropic law, or prove
+  unrestricted Fisher/negative-defect coercivity. No result supplies a
+  source-owned Hamiltonian, physical state, observation, prediction or
+  admission.
+
   Preserve K1646's disjoint balanced rectangular recursion, exact complement
   identity and fourth-moment recurrence; the selected member is angularly
   coherent, not probabilistically independent. Preserve K1647's fixed-ratio

@@ -7,6 +7,23 @@ updated_at: "2026-10-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1656--K1660 all-amplitude complete-cube orbit rigidity (2026-10-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Known unit-modulus phases obstruct the K1653 localization argument | K1656 deterministic demodulation plus adjacent-pair estimator | false: the posterior missing term remains `O_(g,eta,R)(N^3)` |
+| A complete-cube angular pattern can have arbitrarily negative normalized fourth defect | K1657 nonnegative fourth-moment identity | false: `D_N>=-3 eta^2d_N^2/N^2` uniformly over the pattern |
+| The profile Fisher lower bound is only useful at small amplitude | K1658 exact profile formula and `t/(1-t)>=4t^2` | false: the floor is quadratic-uniform throughout residual positivity |
+| A larger admissible amplitude can make the complete-cube orbit descend | K1657--K1659 small/large-`g` coefficient comparison | false: every fixed admissible amplitude has a positive `Theta(N^4)` gap |
+| The result fixes arbitrary anisotropic laws or the unrestricted coefficient | scope audit | not established: unequal amplitudes, growing latent dimension, unknown patterns and non-orbit dependence remain open |
+| The advance closes GU physical admission | K1660 375-row bridge census | 296 satisfied, ten conditional, 65 excluded and four missing |
+
+The five producers pass `104/104` controls and five hostile probes reject
+`51/51` mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
+`0/7`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
+
 ## K1651--K1655 score saturation and small-amplitude sign (2026-10-09)
 
 | Claim | Evidence | Honest grade |

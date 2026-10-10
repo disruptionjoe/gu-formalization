@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1656",
+  "status": "active_research",
+  "title": "Known unit phases preserve complete-cube posterior localization",
+  "pinned_inputs": {
+    "k1648": "lab/process/k1648-gaussian-smoothed-fisher-control.json",
+    "k1653": "lab/process/k1653-translation-phase-posterior-localization.json"
+  },
+  "localization": {
+    "channel": "On the complete cube, coefficients have known unit phases c_k and the normalized observation is c_k^* W_k=a_k exp(i(Theta+k dot Y))+xi_k with shell amplitudes and circular Gaussian noise bounded above and below.",
+    "demodulation": "Known phase multiplication is unitary and preserves circular Gaussian noise, so K1653's disjoint adjacent-pair and residual-subcube estimators apply without estimating c_k.",
+    "risk": "Translation risk is O(d_N^(-1)), global-phase risk is O(N^2/d_N)=O(N^(-1)), and normalized per-mode orbit prediction risk is O(N^(-1)).",
+    "score_saturation": "Posterior optimality gives M_(F,N)=O_(g,eta,R)(N^3) and R_(Omega,N)/4=C_(F,N)-O_(g,eta,R)(N^3).",
+    "scope_guard": "This requires complete-cube support, known unit phases, equal covariance magnitudes, fixed positive amplitude and a fixed four-parameter orbit; it does not recover unknown coefficients or growing latent dimension."
+  },
+  "decision": {
+    "known_phase_demodulation_proved": true,
+    "posterior_missing_term_order_N3": true,
+    "arbitrary_unknown_pattern_localization_proved": false,
+    "unrestricted_coercivity_proved": false,
+    "protected_status_change": false
+  }
+}

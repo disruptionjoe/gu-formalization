@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1659",
+  "status": "active_research",
+  "title": "Every admissible known-phase equal-magnitude complete-cube orbit has a positive leading gap",
+  "pinned_inputs": {
+    "k1637": "lab/process/k1637-stationary-fisher-defect-gap-identity.json",
+    "k1656": "lab/process/k1656-known-phase-orbit-localization.json",
+    "k1657": "lab/process/k1657-complete-cube-defect-floor.json",
+    "k1658": "lab/process/k1658-profile-fisher-amplitude-floor.json"
+  },
+  "sign_classification": {
+    "negative_floor": "With c_N=d_N/N^3<=1/512, gD_(M,N)/N^4>=-3g eta^2 c_N^2.",
+    "small_coupling_margin": "For g<=8sqrt(3), 3gc_N<=3sqrt(3)/64 while the Fisher coefficient is at least 2eta^2c_N(3sqrt(3)/64).",
+    "large_coupling_margin": "For g>=8sqrt(3), the Fisher coefficient is at least 2eta^2c_N(g/2)^(3/2), which strictly dominates 3g eta^2c_N^2 because g>1 and c_N<=1/512.",
+    "posterior_remainder": "K1656 subtracts only O_(g,eta,R)(N^3), so the complete K1637 gap is at least c_(g,eta,R)N^4 for all sufficiently large N.",
+    "scope_guard": "This closes every fixed admissible amplitude and known unit-phase angular pattern only inside the equal-magnitude complete-cube four-parameter orbit class; unrestricted anisotropic laws remain open."
+  },
+  "decision": {
+    "all_fixed_admissible_amplitudes_classified": true,
+    "all_known_unit_phase_cube_patterns_classified": true,
+    "positive_leading_gap_proved": true,
+    "unrestricted_coefficient_identified": false,
+    "protected_status_change": false
+  }
+}
