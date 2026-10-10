@@ -7,6 +7,24 @@ updated_at: "2026-10-10"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1681--K1685 localized cardinal upper coefficient (2026-10-10)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Rademacher's quartic Fisher onset is an isolated scalar accident | K1681 Mehler/Hermite expansion | false for every bounded symmetric unit-variance seed: `j_X(t)=(kappa_4(X)^2/6)t^4+O_X(t^5)` |
+| A centered unit-variance seed can have fourth cumulant below `-2` | K1682 moment-square inequality | false; equality uniquely forces symmetric Rademacher |
+| The K1677 packet constants cannot be localized | K1683 weighted additive-energy Riemann limit | false for every fixed admissible rectangular block: `T_N/N^4->tau_g(C)` and `L_N/N^4->ell_g(C)` |
+| The relative-score trace density and physical field multiplier are the same profile | K1683 K1572 substitution | false: `b_g=sqrt(|xi|^2+kappa_g)` while `a_g=(2b_g)^(-1/2)` |
+| K1679 supplies only an unspecified decrement | K1684 continuum recovery | sharpened to `limsup E_N/N^4<=h_g^card-up<h_g^prof` |
+| `h_g^card-up` is the true coefficient or has a matching lower bound | scope audit | not established; moving shapes, non-product tensors, finite-`t` seeds and Haar Fisher reduction remain open |
+| The advance closes GU physical admission | K1685 400-row bridge census | 321 satisfied, ten conditional, 65 excluded and four missing |
+
+The five producers pass `96/96` controls and five hostile probes reject
+`52/52` mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
+`0/7`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
+
 ## K1676--K1680 non-orbit cardinal-product descent (2026-10-10)
 
 | Claim | Evidence | Honest grade |

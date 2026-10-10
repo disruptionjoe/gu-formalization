@@ -7,6 +7,20 @@ updated_at: "2026-10-10"
 
 # Next Steps For Contributors
 
+> **2026-10-10 K1681--K1685 LOCALIZED CARDINAL UPPER COEFFICIENT.**
+> Symmetric bounded unit-variance Gaussian channels obey the universal weak
+> law `j_X(t)=(kappa_4(X)^2/6)t^4+O_X(t^5)` and exact cumulant transport
+> `kappa_4(Y_t)=t^2kappa_4(X)`. Rademacher uniquely attains the sharp negative
+> floor `kappa_4=-2`. Fixed scaled cardinal blocks have explicit continuum
+> trace and weighted fourth-mass limits `tau_g(C),ell_g(C)`, yielding
+> `limsup E_N/N^4<=h_g^card-up<h_g^prof` with
+> `h_g^card-up=h_g^prof+inf_(C,t)[j_R(t)tau_g(C)/4-2gt^2ell_g(C)]`.
+> Next prove a matching unrestricted lower bound or test one wider typed trial
+> mechanism: moving packet shapes, non-product cumulant tensors, finite-`t`
+> scalar channels, or Fisher reduction under Haar mixing. Do not promote the
+> upper envelope to the true coefficient, minimizer, `E_N+O(1)` shift,
+> continuum state or source-owned physical theory.
+
 > **2026-10-10 K1676--K1680 NON-ORBIT LEADING DESCENT.**
 > A variance-matched Rademacher--Gaussian coordinate pays Fisher only at
 > fourth order in `t` while contributing negative fourth cumulant at second

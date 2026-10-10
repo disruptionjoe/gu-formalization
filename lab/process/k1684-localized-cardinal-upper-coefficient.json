@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1684",
+  "status": "active_research",
+  "title": "The stationary localized-cardinal family has an explicit strict upper-coefficient envelope",
+  "upper_coefficient": {
+    "scalar_input": "Let j_R(t) be K1676's exact Rademacher--Gaussian relative Fisher information.",
+    "functional": "Define h_g^card-up=h_g^prof+inf_(C,t){(j_R(t)/4)tau_g(C)-2g t^2 ell_g(C)}, over K1683 fixed admissible rectangular blocks C and 0<t<1.",
+    "finite_cutoff_recovery": "For each fixed C and t, the K1678 product trial and translation-Haar averaging give limsup_N [Q_N-lambda_N^statG]/N^4 <= (j_R(t)/4)tau_g(C)-2g t^2 ell_g(C).",
+    "strictness": "Because j_R(t)=(2/3)t^4+O(t^5) while ell_g(C)>0, every fixed admissible C has a sufficiently small t with a negative bracket. Therefore limsup_N E_N/N^4<=h_g^card-up<h_g^prof.",
+    "local_surrogate": "For fixed C the weak-channel surrogate is (tau_g(C)/6)t^4-2g ell_g(C)t^2; its formal interior optimizer has t^2=6g ell_g(C)/tau_g(C) and improvement -6g^2 ell_g(C)^2/tau_g(C), only when that optimizer lies in the controlled weak regime.",
+    "scope_guard": "The functional is an explicit variational upper envelope for fixed-shape Rademacher-cardinal trials. Haar averaging may lower Fisher further. This is not the true unrestricted coefficient, a matching lower bound, an optimal shape, a minimizer, an E_N+O(1) recentering or a continuum state."
+  },
+  "decision": {
+    "opaque_c_g_replaced_by_explicit_upper_functional": true,
+    "strict_improvement_over_profiled_gaussian": true,
+    "weak_local_surrogate_identified": true,
+    "true_unrestricted_coefficient_identified": false,
+    "matching_lower_bound_proved": false
+  }
+}

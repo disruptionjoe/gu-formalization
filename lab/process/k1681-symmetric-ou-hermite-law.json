@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1681",
+  "status": "active_research",
+  "title": "Bounded symmetric Gaussian channels have a universal fourth-chaos Fisher law",
+  "channel_law": {
+    "seed_class": "Let X be bounded, symmetric, centered and unit variance, let Z be an independent standard Gaussian, and set Y_t=sqrt(t)X+sqrt(1-t)Z for 0<t<1.",
+    "mehler_expansion": "Relative to the standard Gaussian phi, p_t/phi=1+sum_(n>=3) t^(n/2) E[H_n(X)]H_n/n!. Symmetry removes odd n, variance matching removes n=2, and E[H_4(X)]=kappa_4(X).",
+    "score_expansion": "The relative score satisfies grad log(p_t/phi)=(kappa_4(X)/6)t^2H_3+O_X(t^3) in Gaussian-weighted L2.",
+    "fisher_expansion": "j_X(t)=E[(grad log(p_t/phi))(Y_t)^2]=(kappa_4(X)^2/6)t^4+O_X(t^5).",
+    "cumulant_transport": "The fourth cumulant is exact: kappa_4(Y_t)=t^2 kappa_4(X).",
+    "scope_guard": "Boundedness supplies the controlled Hermite remainder. The statement is a scalar weak-channel law; it is not a global exact Fisher optimizer, a field lower bound or a variational coefficient theorem."
+  },
+  "decision": {
+    "mean_and_variance_match_exactly": true,
+    "fourth_hermite_coefficient_identified": true,
+    "fisher_leading_coefficient_identified": true,
+    "fourth_cumulant_transport_exact": true,
+    "global_scalar_optimizer_identified": false
+  }
+}

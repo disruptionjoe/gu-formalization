@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 0ed08934650a35db8bc94961770a6a90dacea8c7
+revision_basis: 2a6a8d84e3d82dc6803326dd0542a4715e01e8ad
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1681--K1685 replace K1679's opaque strict decrement by an explicit
+    fixed-shape continuum upper functional. Every bounded symmetric
+    unit-variance Gaussian channel has
+    `j_X(t)=(kappa_4(X)^2/6)t^4+O_X(t^5)` and exact transported cumulant
+    `t^2kappa_4(X)`. The sharp floor `kappa_4(X)>=-2` has the centered
+    Rademacher law as its unique equality case. For any fixed
+    conjugation-symmetric rectangular scaled packet block `C`, the K1572 weighted score
+    trace and physical packet fourth mass converge to explicit positive
+    functionals `tau_g(C)` and `ell_g(C)`. Consequently
+    `limsup E_N/N^4<=h_g^card-up<h_g^prof`, where `h_g^card-up` is the
+    infimum of `(j_R(t)/4)tau_g(C)-2gt^2ell_g(C)` over fixed `C,t`. This is an
+    upper envelope, not the true coefficient or a matching lower bound. The
+    400-row census is 321 satisfied, ten conditional, 65 excluded and four
+    missing; protected source, ledger, canon and public states do not move.
+
     K1676--K1680 construct a genuinely non-orbit stationary law that lies
     strictly below the profiled Gaussian at order `N^4`. A variance-matched
     Rademacher--Gaussian scalar has relative Fisher `j(t)=(2/3)t^4+O(t^5)`
@@ -15276,6 +15291,17 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1681--K1684 identify the explicit fixed-shape Rademacher-cardinal upper
+  envelope `h_g^card-up<h_g^prof`. Can arbitrary stationary laws be bounded
+  below by the same functional, or can an `N`-dependent packet shape,
+  non-product fourth-cumulant tensor, non-Rademacher finite-`t` channel, or
+  additional Fisher reduction under Haar mixing lower the coefficient again?
+  Only after the true coefficient and `E_N+O(1)` shift are identified should
+  compactness and Mosco liminf/recovery be tested. The unknown-profile/growing-
+  latent common-floor theorem remains a separate class result, and the
+  source-owned action/measure/Hamiltonian/domain/state/observation tuple
+  remains separate.
+
   K1676--K1679 prove that a stationary covariance-matched non-orbit cardinal
   product descends below the profiled Gaussian by `c_gN^4` for every fixed
   `g>0`. What is the optimized unrestricted upper coefficient, and can a
@@ -18041,6 +18067,21 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1681's bounded symmetric unit-variance seed class, Hermite
+  normalization and weak-channel remainder; it does not prove finite-`t`
+  global scalar optimality. Preserve K1682's sharp fourth-moment equality
+  case and treat its quadratic optimizer only as a controlled weak-channel
+  surrogate. Preserve K1683's distinction between the relative trace density
+  `b_g` and physical field multiplier `a_g`, its fixed conjugation-symmetric
+  rectangular block and normalized Haar/lattice convention. Preserve K1684 as an
+  explicit upper envelope after a one-way Fisher-convexity step, not an exact
+  family energy or the true coefficient. Next prove a matching unrestricted
+  lower bound against `h_g^card-up`, or widen the trial class by one precisely
+  typed mechanism and recompute both positive and negative terms. Treat
+  unknown-profile entropy as a separate class result. No result supplies a
+  source-owned Hamiltonian, physical state, observation, prediction or
+  admission.
+
   Preserve K1676's exact variance match, positive Gaussian smoothing,
   relative-score formula, quartic Fisher onset and quadratic negative fourth
   cumulant. Preserve K1677's real-coordinate cardinal multiplicity, small

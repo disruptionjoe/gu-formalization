@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1683",
+  "status": "active_research",
+  "title": "Fixed-shape K1572 cardinal blocks have explicit continuum trace and fourth-mass limits",
+  "continuum_limits": {
+    "block_class": "Fix a conjugation-symmetric axis-aligned rectangular box C of positive side lengths inside the scaled cutoff, choose odd lattice side counts, and take the product real cardinal block on modes k/N in C.",
+    "profile_functions": "If kappa_(g,N)^+/N^2 tends to kappa_g, set b_g(xi)=sqrt(|xi|^2+kappa_g) and a_g(xi)=[2b_g(xi)]^(-1/2). Here b_g is the relative-score trace density and a_g is the physical field-covariance square-root multiplier.",
+    "trace_limit": "T_N/N^4 tends to tau_g(C)=int_C b_g(xi) dxi.",
+    "fourth_mass_limit": "L_N/N^4 tends to ell_g(C)=|C|^(-1) int_(C^3) a_g(x)a_g(y)a_g(z)a_g(x+y-z) 1_C(x+y-z) dxdydz.",
+    "positivity": "For every admissible positive-volume C, 0<ell_g(C)<infinity and 0<tau_g(C)<infinity.",
+    "constant_cube_control": "If C is a cube of side alpha and a_g=A, b_g=B are constant, then tau=B alpha^3 and ell=(8/27)A^4 alpha^6, reproducing the three-dimensional cardinal additive-energy constant.",
+    "scope_guard": "The limits use the repository's normalized Haar and k/N lattice convention and one fixed rectangular C. They do not cover general shapes, N-dependent localization, identify the best box, or construct a continuum probability state."
+  },
+  "decision": {
+    "relative_trace_limit_explicit": true,
+    "physical_multiplier_distinguished": true,
+    "packet_fourth_mass_limit_explicit": true,
+    "constant_multiplier_control_recovered": true,
+    "optimal_packet_shape_identified": false
+  }
+}

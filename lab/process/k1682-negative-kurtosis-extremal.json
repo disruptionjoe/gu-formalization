@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1682",
+  "status": "active_research",
+  "title": "Rademacher is the sharp negative-kurtosis endpoint for weak symmetric channels",
+  "extremal_law": {
+    "moment_floor": "For every centered unit-variance X, E[X^4]>=(E[X^2])^2=1, hence kappa_4(X)>=-2.",
+    "equality_case": "Equality holds iff X^2=1 almost surely; centering then forces the symmetric Rademacher law.",
+    "weak_gap": "Writing u=-kappa_4(X) in [0,2], a block with limiting score weight tau and fourth-mass weight ell has local gap (u^2 tau/24)t^4-g u ell t^2+O_X(t^5).",
+    "effective_coordinate": "With q=u t^2, the universal quadratic surrogate is (tau/24)q^2-g ell q, minimized at q_*=12g ell/tau with value -6g^2 ell^2/tau when the weak-channel range contains q_*.",
+    "rademacher_role": "At fixed small t, Rademacher uniquely maximizes the reachable negative fourth-cumulant magnitude u t^2; it realizes u=2 and K1681's Fisher coefficient 2/3.",
+    "scope_guard": "This is sharp fourth-moment and weak-channel leading-order extremality only. Higher Hermite terms can affect finite-t optimization, so no exact global Fisher-defect optimality is claimed."
+  },
+  "decision": {
+    "negative_fourth_cumulant_floor_sharp": true,
+    "rademacher_unique_centered_equality_case": true,
+    "weak_surrogate_optimized": true,
+    "finite_t_global_optimality_proved": false,
+    "unrestricted_field_lower_bound_proved": false
+  }
+}
