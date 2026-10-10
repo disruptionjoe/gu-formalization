@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1655",
+  "status": "active_research",
+  "title": "Score-saturation flat-block protected admission",
+  "pinned_inputs": {
+    "k1651": "lab/process/k1651-rudin-shapiro-individual-fourth-moment.json",
+    "k1652": "lab/process/k1652-continuous-gaussian-channel-missing-information.json",
+    "k1653": "lab/process/k1653-translation-phase-posterior-localization.json",
+    "k1654": "lab/process/k1654-small-amplitude-flat-block-sign.json"
+  },
+  "admission": {
+    "quantum_result": "The K1648 translation/phase score residual equals its component ceiling up to O_(g,eta)(N^3), and every sufficiently small fixed admissible eta has a positive Theta(N^4) full gap.",
+    "remaining_quantum_gate": "Test larger admissible amplitudes or a genuinely different anisotropic macroscopic family; unrestricted Fisher/negative-defect coercivity remains open.",
+    "physical_admission": "K1145/K1150 remain 0/7; no source-owned action, measure, Hamiltonian, physical state, observation, prediction or confirmation is supplied.",
+    "bridge_census": "370 rows: 291 satisfied, 10 conditional, 65 excluded, 4 missing.",
+    "protected_state": "SC-ACT-01/02/06 remain ASSERTS, SC-META-53 remains UNCERTAIN, and the physics ledger remains 33 SAME / 22 DIFFERS / 31 NEEDS / 2 OVER-DETERMINED.",
+    "scope_guard": "Do not promote small-amplitude family loss to all amplitudes, all angular orbits, unrestricted coercivity, a true ground-energy coefficient, or a GU verdict."
+  },
+  "decision": {
+    "small_amplitude_family_classified": true,
+    "larger_amplitude_family_open": true,
+    "unrestricted_coefficient_open": true,
+    "source_status_changed": false,
+    "physics_ledger_changed": false,
+    "canon_or_public_status_changed": false
+  }
+}

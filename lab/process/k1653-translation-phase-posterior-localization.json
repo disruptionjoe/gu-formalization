@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1653",
+  "status": "active_research",
+  "title": "Translation/phase posterior localization makes the Fisher ceiling leading-order exact",
+  "pinned_inputs": {
+    "k1646": "lab/process/k1646-multidimensional-rudin-shapiro-flatness.json",
+    "k1648": "lab/process/k1648-gaussian-smoothed-fisher-control.json",
+    "k1652": "lab/process/k1652-continuous-gaussian-channel-missing-information.json"
+  },
+  "localization": {
+    "normalized_channel": "After known-sign demodulation, W_k=a exp(i(Theta+k dot Y))+xi_k on a complete d_N=Theta(N^3) cube, with fixed a>0 and independent Gaussian noise variances uniformly bounded above and below.",
+    "shift_estimator": "Disjoint adjacent-pair averages have means a^2 exp(iY_j), variance O(d_N^(-1)), and phase risk O(d_N^(-1)) for j=1,2,3.",
+    "phase_estimator": "A disjoint residual subcube, demodulated by Yhat, gives global-phase risk O(N^2/d_N)=O(N^(-1)).",
+    "prediction_bound": "The plug-in normalized per-mode risk is O(N^(-1)); posterior means minimize quadratic risk, so K1652's score-weighted missing term is O_(g,eta)(N^3).",
+    "score_saturation": "C_(F,N)-O_(g,eta)(N^3)<=R_(Omega,N)/4<=C_(F,N).",
+    "scope_guard": "The proof uses a complete cubical support, known nonzero equal-magnitude signs, fixed positive amplitude and fixed-shell residual-noise bounds. It is not unrestricted macroscopic-block coercivity."
+  },
+  "decision": {
+    "translation_estimator_constructed": true,
+    "global_phase_estimator_constructed": true,
+    "posterior_missing_term_order_N3": true,
+    "fisher_ceiling_leading_exact": true,
+    "unrestricted_coercivity_proved": false,
+    "protected_status_change": false
+  }
+}

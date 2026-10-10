@@ -7,6 +7,23 @@ updated_at: "2026-10-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1651--K1655 score saturation and small-amplitude sign (2026-10-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K1646 only bounds one selected individual fourth moment | K1651 disjoint-support difference identity plus K1646 sum recurrence | false: both individual moments equal `d_n^2[4/3-(1/3)(-1/2)^n]` |
+| K1648's component Fisher ceiling has no exact relation to the output score | K1652 continuous equal-covariance conditional-score identity | false: output residual equals component ceiling minus posterior covariance exactly |
+| Posterior uncertainty can cancel a leading fraction of the ceiling in the translation/phase family | K1653 disjoint adjacent-mode estimator | false on the complete fixed-amplitude cube: missing information is `O_(g,eta)(N^3)` while the ceiling is `Theta(N^4)` |
+| The sufficiently small fixed-amplitude K1648 family descends below the profiled Gaussian | K1651 plus K1653 and K1637 | false: its complete gap is positive `Theta(N^4)` |
+| The result classifies every admissible amplitude or anisotropic macroscopic law | scope audit | not established: larger amplitudes, other angular laws and unrestricted coercivity remain open |
+| The advance closes GU physical admission | K1655 370-row bridge census | 291 satisfied, ten conditional, 65 excluded and four missing |
+
+The five producers pass `111/111` controls and five hostile probes reject
+`46/46` mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
+`0/7`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
+
 ## K1646--K1650 macroscopic flat-block endpoint (2026-10-09)
 
 | Claim | Evidence | Honest grade |

@@ -7,6 +7,22 @@ updated_at: "2026-10-09"
 
 # Next Steps For Contributors
 
+> **2026-10-09 K1651--K1655 SCORE SATURATION AND SMALL-AMPLITUDE SIGN.**
+> The individual Rudin--Shapiro fourth moments are equal and exact, so the
+> K1647 defect coefficient tends to `-1`. For the Gaussian-smoothed
+> translation/phase orbit, conditional-score Pythagoras writes the actual
+> residual as the component Fisher ceiling minus posterior uncertainty.
+> Disjoint adjacent-mode correlations recover the four orbit parameters from
+> the complete cube and make that uncertainty only `O(N^3)`, hence
+> `R_(Omega,N)/4=C_(F,N)+O(N^3)`. The positive leading term is linear in
+> `eta`, while the negative defect is quadratic, so every sufficiently small
+> fixed admissible amplitude has a positive `Theta(N^4)` gap rather than
+> descent. Next test larger admissible amplitudes or a genuinely different
+> anisotropic macroscopic family, or prove unrestricted Fisher/defect
+> coercivity. Do not extend this result to all amplitudes, all macroscopic
+> laws, the unrestricted coefficient, bounded-error recentering, or a
+> source-owned physical Hamiltonian.
+
 > **2026-10-09 K1646--K1650 MACROSCOPIC FLAT-BLOCK ENDPOINT.** A balanced
 > three-dimensional Rudin--Shapiro cube, randomized by translation and global
 > phase, gives an explicit stationary centrally symmetric macroscopic Fourier

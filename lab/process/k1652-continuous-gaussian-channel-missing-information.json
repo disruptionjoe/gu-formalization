@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1652",
+  "status": "active_research",
+  "title": "Continuous equal-covariance Gaussian-channel missing-information identity",
+  "pinned_inputs": {
+    "k1606": "lab/process/k1606-gaussian-mixture-missing-information.json",
+    "k1648": "lab/process/k1648-gaussian-smoothed-fisher-control.json"
+  },
+  "missing_information": {
+    "channel": "Let X=m_Z+epsilon with arbitrary centered latent mean m_Z, covariance Delta, epsilon~N(0,S_0), and S_*=S_0+Delta; assume S_0,S_*,Delta,Omega commute and S_0>0.",
+    "score_identity": "For component, output and matched-Gaussian relative scores u_Z,u,u_*, one has u_Z-u_*=S_0^(-1)m_Z+(S_*^(-1)-S_0^(-1))X and u-u_*=E[u_Z-u_*|X].",
+    "pythagoras": "R_Omega=Tr[Omega Delta S_0^(-1)S_*^(-1)]-E Tr[Omega S_0^(-1)Cov(m_Z|X)S_0^(-1)].",
+    "k1648_conversion": "In K1648's real sine/cosine convention, including the universal quarter, R_(Omega,N)/4=C_(F,N)-M_(F,N) with 0<=M_(F,N)<=C_(F,N).",
+    "scope_guard": "This is the continuous equal-covariance specialization of K1606's score-variance mechanism, not a new finite-mixture theorem and not a posterior localization bound by itself."
+  },
+  "decision": {
+    "continuous_score_identity_proved": true,
+    "conditional_variance_identity_proved": true,
+    "k1648_missing_term_identified": true,
+    "posterior_term_subleading_proved": false,
+    "protected_status_change": false
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1651",
+  "status": "active_research",
+  "title": "Exact individual Rudin--Shapiro fourth moments and defect coefficient",
+  "pinned_inputs": {
+    "k1646": "lab/process/k1646-multidimensional-rudin-shapiro-flatness.json",
+    "k1647": "lab/process/k1647-stationary-macroscopic-negative-defect.json"
+  },
+  "individual_moment": {
+    "difference_identity": "The recursion gives |P_(n+1)|^4-|Q_(n+1)|^4=16d_n Re[z^(v_n)Q_n conjugate(P_n)].",
+    "orthogonality": "The integral vanishes because P_n and z^(v_n)Q_n have disjoint Fourier supports, so the two individual fourth moments are equal for every n>=1.",
+    "closed_form": "For either R_n=P_n or Q_n, int|R_n|^4=d_n^2[4/3-(1/3)(-1/2)^n].",
+    "cubic_defect": "At n=3r the K1647 field has D_(M,N)=-[1+(1/2)(-1/8)^r]A_N^4d_N^2, so its defect coefficient tends to -1.",
+    "scope_guard": "This sharpens the negative term only. It does not compare the posterior-score residual, prove descent, or identify the unrestricted coefficient."
+  },
+  "decision": {
+    "individual_fourth_moments_equal": true,
+    "individual_fourth_moment_closed_form": true,
+    "cubic_defect_coefficient_exact": true,
+    "energy_descent_proved": false,
+    "protected_status_change": false
+  }
+}

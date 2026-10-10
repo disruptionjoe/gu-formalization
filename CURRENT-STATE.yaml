@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 5b96245d130e22a22ef91512c8ac3741c557bc9a
+revision_basis: ef18168b92a89c6dc45e2eb3c1098aac35f1f81e
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1651--K1655 classify the small-amplitude K1648 translation/phase family.
+    The two individual Rudin--Shapiro fourth moments are equal and exact,
+    giving `D_(M,N)=-[1+(1/2)(-1/8)^r]A_N^4d_N^2` on cubic stages. The
+    continuous equal-covariance Gaussian channel obeys an exact
+    component-ceiling minus posterior-covariance identity. Disjoint
+    adjacent-mode correlations consistently estimate the three translations
+    and global phase from the complete `Theta(N^3)` cube, so the posterior
+    missing term is only `O_(g,eta)(N^3)` and
+    `R_(Omega,N)/4=C_(F,N)+O_(g,eta)(N^3)`. Since the positive ceiling is
+    linear in `eta` while the negative defect is quadratic, every sufficiently
+    small fixed admissible amplitude has a positive `Theta(N^4)` full gap.
+    Larger amplitudes, other anisotropic macroscopic laws and unrestricted
+    Fisher/defect coercivity remain open. The 370-row census is 291 satisfied,
+    ten conditional, 65 excluded and four missing; protected source, ledger,
+    canon and public states do not move.
+
     K1646--K1650 construct the first explicit macroscopic Fourier-correlation
     family at K1638's required defect scale. A balanced three-dimensional
     Rudin--Shapiro cube has `Theta(N^3)` modes and exact normalized fourth

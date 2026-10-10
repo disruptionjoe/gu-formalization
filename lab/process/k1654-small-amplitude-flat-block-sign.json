@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1654",
+  "status": "active_research",
+  "title": "The small-amplitude Gaussian-smoothed flat block has a positive leading gap",
+  "pinned_inputs": {
+    "k1637": "lab/process/k1637-stationary-fisher-defect-gap-identity.json",
+    "k1651": "lab/process/k1651-rudin-shapiro-individual-fourth-moment.json",
+    "k1653": "lab/process/k1653-translation-phase-posterior-localization.json"
+  },
+  "sign_classification": {
+    "shell_constants": "Assume a_0N<=omega_k<=a_1N and c_0N^3<=d_N<=c_1N^3 on the selected complete cube.",
+    "positive_lower": "Since 0<s_(N,k)^*<=1 and s_(0,k)<s_(N,k)^*, C_(F,N)>=(eta/(2N))sum omega_k^2>=(a_0^2c_0/2)eta N^4.",
+    "negative_upper": "K1651 gives gD_(M,N)>=-(3/2)g c_1^2 eta^2 N^4.",
+    "threshold": "For fixed eta below both covariance positivity and a_0^2c_0/(6gc_1^2), K1653 and K1637 give Q_N[Law(X_N)]-lambda_N^statG>=c_(g,eta)N^4 for all sufficiently large cubic stages.",
+    "scope_guard": "This classifies sufficiently small fixed amplitudes in the K1648 family only. Larger amplitudes, other angular laws, unrestricted coefficient convergence and bounded-error recentering remain open."
+  },
+  "decision": {
+    "positive_term_linear_in_eta": true,
+    "negative_term_quadratic_in_eta": true,
+    "small_amplitude_leading_gap_positive": true,
+    "all_admissible_amplitudes_classified": false,
+    "unrestricted_coefficient_identified": false,
+    "protected_status_change": false
+  }
+}
