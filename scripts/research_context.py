@@ -9,7 +9,8 @@ import yaml
 ROOT = Path(__file__).resolve().parents[1]
 NOTICE = (
     "PARTIAL ENTRY VIEW — fresh reads of CURRENT-STATE.yaml and VERIFICATION.md. "
-    "The summary history and wider frontier are omitted. This view does not select "
+    "Only the first nonempty line of current_question and next_condition is shown; "
+    "their remaining history and the wider frontier are omitted, not retired. This view does not select "
     "work, certify freshness, or replace the full state, remaining verification "
     "sections, source-routing rules, and exact artifacts required for a reused claim."
 )
@@ -53,11 +54,18 @@ def render_context(state, verification):
         "purpose": state["purpose"],
         "result_status": result.get("status"),
         "research_method_control": state.get("research_method_control"),
-        "current_question": state["current_question"],
+        "current_question_lead_partial": state["current_question"].strip().splitlines()[0],
         "next_condition_lead_partial": state["next_condition"].strip().splitlines()[0],
         "acceptance": state.get("acceptance"),
         "contribution_path": state.get("contribution_path"),
         "what_needs_joe": state.get("what_needs_joe"),
+        "expanded_reading": {
+            "full_questions_and_continuations": "CURRENT-STATE.yaml",
+            "wider_frontier": "NEXT-STEPS.md",
+            "source_routing": "GEOMETER-VS-PHYSICS-OBJECTS.md",
+            "physics_ledger_pointer": "lab/methods/research-evidence-contract-v1.0.json",
+            "full_verification": "VERIFICATION.md",
+        },
     }
     return (NOTICE + "\n\n```yaml\n" + yaml.safe_dump(entry, sort_keys=False, allow_unicode=True)
             + "```\n\nFirst VERIFICATION.md section in file order (not an inferred newest result):\n\n"

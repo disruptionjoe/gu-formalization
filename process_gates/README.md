@@ -1,5 +1,16 @@
 # process_gates
 
+## Partial research context reader
+
+`research_context_reader_audit.py` checks that the fresh entry view omits
+accumulated question history without deleting it, labels its leads as partial,
+preserves expansion paths and reads without writing. It tests retrieval, not
+scientific claims or permission to work.
+
+```bash
+python3 process_gates/research_context_reader_audit.py
+```
+
 ## Conditional evidence delta gate
 
 `conditional_evidence_delta_gate.py` validates the native versionless handoff
