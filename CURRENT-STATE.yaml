@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: cb81da480e810479ce0fe99e1ad21ccac5f1d8fd
+revision_basis: 0466da5b982fcfc71d393ec6cb4a56c0623ef71d
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1706--K1710 prove that the K1702 three-point seed is cubic-optimal but
+    not the exact finite weak-strength optimizer. The bounded-symmetric
+    Hermite law through `t^8` has a load-bearing seventh-order term
+    `-(7/36)kappa_4^2kappa_6t^7`. Across the complete negative-kurtosis
+    symmetric three-point family, the unique global small-reward branch moves
+    as `p(q)=p_*+beta sqrt(q)+O(q)` and has matched quartic coefficient
+    `D_*=1009/1512+5sqrt(105)/168`, exactly `245/216` below the fixed-`p_*`
+    branch. The Legendre gain is `(735/8)r^4+o(r^4)` and every fixed
+    nondegenerate K1683 packet gains
+    `5880g^4ell_g(C)^4/tau_g(C)^3+o(g^4)`; compact shape control preserves a
+    strict order-`g^4` optimized gap. The `p->1/3` vanishing-defect boundary
+    does not escape inside this family. Wider seed classes, nonperturbative
+    finite strength, quantitative Haar saving, correlated tensors,
+    nonrectangular packets, the unrestricted coefficient and a lower bound
+    remain open. The 425-row census is 346 satisfied, ten conditional, 65
+    excluded and four missing; protected source, ledger, canon and public
+    states do not move.
+
     K1701--K1705 identify the sharp weak-channel cubic envelope over every
     fixed compact family `S(B,u_0,u_1)` of bounded symmetric unit-variance
     seeds with negative fourth cumulant bounded away from zero. At matched
@@ -15354,6 +15372,20 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1706--K1709 prove that the cubic-equality three-point seed moves at finite
+  weak strength and uniquely controls the complete negative-kurtosis
+  three-point family, including `p->1/3`: the matched quartic coefficient
+  falls by `245/216`, and the scalar Legendre and K1683 packet objectives gain
+  strictly at order four. Does this moving branch remain optimal at
+  nonperturbative strength or against wider bounded and coupling-dependent
+  seed families? Can a quantitative posterior-score inequality determine the
+  translation-Haar saving, can a correlated fourth-cumulant tensor or
+  nonrectangular moving packet lower the trial coefficient again, or can
+  arbitrary stationary laws be bounded below by the widened scalar-cardinal
+  functional? Compactness, Mosco liminf/recovery and `E_N+O(1)` recentering
+  wait for the true coefficient and shift. The source-owned physical tuple
+  remains separate.
+
   K1701--K1704 prove that the K1688 three-point seed attains the sharp cubic
   coefficient over every fixed uniformly bounded negative-kurtosis scalar
   family and every moving K1683 rectangle. What is the exact finite-strength
@@ -18164,6 +18196,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1706's fixed bounded symmetric seed hypothesis and probabilists'
+  Hermite normalization; the `t^7` and `t^8` coefficients are weak-channel
+  asymptotics, not exact finite-strength ordering. Preserve K1707--K1709's
+  complete symmetric three-point scope and sufficiently small reward: the
+  moving branch excludes the `p->1/3` vanishing-defect escape only in that
+  family. Preserve K1708's K1683 scalar-product rectangular trial class; its
+  strict order-`g^4` shape-optimized gain does not identify the exact global
+  quartic shape constant or the unrestricted coefficient. Next test wider or
+  nonperturbative scalar seeds, quantify Haar saving, construct a correlated
+  tensor or nonrectangular packet, or prove an arbitrary-stationary lower
+  bound. No result supplies a source-owned Hamiltonian, physical state,
+  observation, prediction or admission.
+
   Preserve K1701's fixed-seed bounded symmetric negative-kurtosis hypotheses
   and matched coordinate `q=ut^2`; the coefficient floor is asymptotic, not a
   finite-strength ordering. Preserve K1702's uniqueness scope inside the

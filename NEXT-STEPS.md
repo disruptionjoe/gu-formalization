@@ -7,6 +7,21 @@ updated_at: "2026-10-12"
 
 # Next Steps For Contributors
 
+> **2026-10-12 K1706--K1710 MOVING THREE-POINT FINITE-STRENGTH ENVELOPE.**
+> Extending the symmetric Hermite law through `t^8` exposes a seventh-order
+> term linear in `kappa_6`. The K1702 seed remains the unique cubic equality
+> law, but the complete three-point optimizer moves as
+> `p(q)=p_*+beta sqrt(q)+O(q)` and lowers the matched quartic coefficient by
+> exactly `245/216`. This gives a `(735/8)r^4` Legendre gain and a
+> `5880g^4ell_g(C)^4/tau_g(C)^3` gain on every fixed nondegenerate K1683
+> packet; rectangular optimization preserves a strict order-`g^4` gap. The
+> `p->1/3` vanishing-defect boundary cannot escape inside the symmetric
+> three-point family. Next test wider or nonperturbative scalar seed classes,
+> quantify Haar saving, construct a correlated tensor or nonrectangular
+> packet, or prove an arbitrary-stationary lower bound. Do not infer an exact
+> all-seed optimizer, unrestricted coefficient, continuum state or
+> source-owned physical theory.
+
 > **2026-10-12 K1701--K1705 UNIVERSAL CONTROLLED CUBIC ENVELOPE.**
 > Every fixed bounded symmetric negative-kurtosis seed has matched-defect
 > coefficient `c_X=1/4+kappa_6(X)^2/(120u^3)>=1/4`. The K1688 three-point

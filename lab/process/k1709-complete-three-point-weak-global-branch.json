@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1709",
+  "status": "active_research",
+  "title": "The moving branch is the unique weak-reward global minimizer over every negative-kurtosis symmetric three-point seed",
+  "global_branch": {
+    "parameter_space": "The closed family p in [1/3,1] has support bounded by sqrt(3); negative fourth cumulant is 1/3<p<=1.",
+    "strong_channel_exclusion": "For fixed t>0 every member is non-Gaussian after convolution and has positive relative Fisher; separated discrete components prevent t->1 minimizers.",
+    "vanishing_defect_exclusion": "At p=1/3, u=0 but kappa_6=-6; the positive kappa_6^2 t^6/120 term makes every p->1/3 branch larger than the interior p_* branch at its first distinguishing scale.",
+    "interior_selection": "Away from p_*, K1702's nonnegative cubic square is strict; every global minimizer therefore converges to p_*.",
+    "uniqueness": "The positive scaled Hessian at p_* and the K1707 implicit branch give a unique global branch and one minimizer for every sufficiently small positive reward."
+  },
+  "decision": {
+    "complete_negative_kurtosis_three_point_family_controlled": true,
+    "vanishing_fourth_defect_escape_excluded_in_family": true,
+    "unique_small_reward_global_branch": true,
+    "general_vanishing_defect_seed_families_controlled": false
+  },
+  "scope_guard": "Completeness refers only to the symmetric three-point family; other bounded seeds with vanishing defect or support changing with coupling remain outside the theorem."
+}

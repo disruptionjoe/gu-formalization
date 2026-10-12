@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1708",
+  "status": "active_research",
+  "title": "The moving three-point seed gives a strict quartic Legendre and rectangular-packet gain",
+  "transfer": {
+    "generic_legendre": "If j(q)=q^2/6+q^3/4+Dq^4+O(q^(9/2)), then Phi_D(r)=-(3/2)r^2+(27/4)r^3+(81D-2187/32)r^4+O(r^(9/2)).",
+    "profile_gap": "Phi_moving(r)=Phi_p*(r)-(735/8)r^4+o(r^4).",
+    "packet_factorization": "F(C,g)=[tau_g(C)/4]Phi(4g ell_g(C)/tau_g(C)).",
+    "fixed_packet_gap": "F_moving(C,g)=F_p*(C,g)-5880g^4ell_g(C)^4/tau_g(C)^3+o_C(g^4).",
+    "optimized_shape_consequence": "H_moving(g)<=H_p*(g)-c_*g^4+o(g^4) for some c_*>0 over K1683 rectangles."
+  },
+  "decision": {
+    "legendre_quartic_gain_exact": true,
+    "fixed_packet_quartic_gain_exact": true,
+    "fully_rectangular_optimized_strict_gain": true,
+    "exact_global_quartic_shape_coefficient_identified": false,
+    "unrestricted_coefficient_identified": false
+  },
+  "scope_guard": "The packet transfer is for the K1683 scalar-product rectangular trial near g=0; shape motion prevents claiming an exact optimized quartic constant, and no unrestricted lower bound follows."
+}

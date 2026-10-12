@@ -7,6 +7,26 @@ updated_at: "2026-10-12"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1706--K1710 moving three-point finite-strength envelope (2026-10-12)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K1687's next nonzero Fisher term starts only at `t^8` | K1706 Hermite contractions | false in general: the `t^7` coefficient is `-(7/36)kappa_4^2kappa_6` |
+| The K1702 cubic equality seed stays optimal at every sufficiently small finite strength | K1707 scaled implicit branch | false: `p(q)=p_*+beta sqrt(q)+O(q)` with `beta>0` |
+| Moving the seed changes the cubic coefficient | K1707 coefficient comparison | false: the cubic `1/4` remains sharp; the first gain is quartic |
+| The moving branch has no exact improvement coefficient | K1707 exact algebra | false: it lowers the matched quartic coefficient by exactly `245/216` |
+| The scalar improvement disappears under the Legendre transform or fixed-packet composition | K1708 exact substitution | false: gains are `(735/8)r^4` and `5880g^4ell_g(C)^4/tau_g(C)^3` |
+| Rectangular shape optimization may erase the quartic gain | K1708 compact interior comparison | false: a strict `c_*g^4+o(g^4)` gain survives, though the exact global quartic shape constant is open |
+| A three-point seed with vanishing fourth defect can escape the weak branch | K1709 uniform boundary comparison | false within the complete family because `kappa_6(1/3)=-6` supplies a positive competing term |
+| The result identifies the exact all-seed finite-strength or unrestricted infimum | scope audit | not established |
+| The result supplies a physical state or GU prediction | K1710 protected admission | false; K1145/K1150 remain `0/7` |
+
+The five producers pass `101/101` controls and five hostile probes reject
+`58/58` mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
+`0/7`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
+
 ## K1701--K1705 universal controlled cubic envelope (2026-10-12)
 
 | Claim | Evidence | Honest grade |

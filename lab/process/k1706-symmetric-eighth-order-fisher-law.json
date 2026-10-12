@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1706",
+  "status": "active_research",
+  "title": "Bounded symmetric scalar Gaussian channels have an exact eighth-order relative-Fisher expansion",
+  "hermite_law": {
+    "scope": "X is one bounded symmetric centered unit-variance real seed.",
+    "moments": "kappa_4=E H_4(X), kappa_6=E H_6(X), h_8=E H_8(X).",
+    "density_ratio": "p_t/phi=1+(kappa_4/24)t^2H_4+(kappa_6/720)t^3H_6+(h_8/40320)t^4H_8+O_X(t^5).",
+    "fisher": "j_X(t)=(kappa_4^2/6)t^4+(kappa_6^2/120-kappa_4^3/4)t^6-(7/36)kappa_4^2kappa_6 t^7+[h_8^2/5040-kappa_4kappa_6^2/12-kappa_4^2h_8/72+71kappa_4^4/48]t^8+O_X(t^9).",
+    "load_bearing_contractions": "E[H_4H_3H_5]=1440; E[H_6H_3^2]=720; E[H_4H_5^2]=14400; E[H_4H_3H_7]=5040; E[H_6H_3H_5]=10800; E[H_8H_3^2]=0; E[H_4^2H_3^2]=30672."
+  },
+  "decision": {
+    "seventh_order_term_identified": true,
+    "eighth_order_term_identified": true,
+    "bounded_symmetric_scope_only": true,
+    "all_seed_finite_strength_optimizer_identified": false
+  },
+  "scope_guard": "The expansion is a fixed bounded symmetric seed theorem near t=0; it is not a uniform theorem for growing support and does not order exact finite-strength channels."
+}
