@@ -2,10 +2,28 @@
 title: "Verification: What Is Proved, Computed, and Conjectural"
 status: process
 doc_type: verification-map
-updated_at: "2026-10-10"
+updated_at: "2026-10-12"
 ---
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
+
+## K1701--K1705 universal controlled cubic envelope (2026-10-12)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The matched-defect cubic coefficient can fall below `1/4` for a fixed bounded symmetric negative-kurtosis seed | K1701 exact K1687 substitution | false: `c_X=1/4+kappa_6^2/(120u^3)>=1/4` |
+| The K1688 three-point equality seed is one of several negative-kurtosis roots in that family | K1702 exact moment polynomial and sign classification | false: `p_*=(15+sqrt(105))/60` is unique in the negative-kurtosis three-point horn |
+| Pointwise seed asymptotics automatically control coupling-dependent seeds | scope audit | false in general; K1703 requires fixed support ceiling `B` and defect floor `u_0>0` |
+| A distant channel-strength branch can beat the uniform weak branch inside the controlled family | K1703 score/Hermite identity and Cauchy coercivity | false for sufficiently small reward `r` |
+| The sharp controlled all-seed coefficient survives moving rectangular-shape optimization | K1704 uniform composition with K1697--K1698 | proved: `H_S=-6g^2M+108g^3S_*+o(g^3)` |
+| The result identifies the exact finite-strength or unrestricted infimum | scope audit | not established |
+| The result supplies a physical state or GU prediction | K1705 protected admission | false; K1145/K1150 remain `0/7` |
+
+The five producers pass `95/95` controls and five hostile probes reject
+`53/53` mutations. SC-ACT-01/02/06 remain `ASSERTS`, SC-META-53 remains
+`UNCERTAIN`, LT-SM8/LT-GR6b/RA-F1/AC-F1 remain `NEEDS`, and K1145/K1150 stay
+`0/7`. No source, ledger, canon, paper, prediction, confirmation or public
+status moves.
 
 ## K1696--K1700 uniform shape-optimized scalar envelope (2026-10-10)
 

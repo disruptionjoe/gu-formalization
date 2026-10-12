@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1702",
+  "status": "active_research",
+  "title": "The K1688 law is the unique negative-kurtosis symmetric three-point equality seed",
+  "family": {
+    "law": "P(X=0)=1-p and P(X=+-p^(-1/2))=p/2, with 0<p<=1.",
+    "moments": "E X^2=1, E X^4=1/p and E X^6=1/p^2.",
+    "cumulants": "kappa_4=1/p-3 and kappa_6=1/p^2-15/p+30.",
+    "negative_kurtosis": "kappa_4<0 if and only if p>1/3."
+  },
+  "classification": {
+    "root_equation": "With y=1/p, kappa_6=0 is y^2-15y+30=0.",
+    "algebraic_roots": "p=(15-sqrt(105))/60 or p=(15+sqrt(105))/60.",
+    "admissible_root": "p_*=(15+sqrt(105))/60 is the unique root with p>1/3.",
+    "matched_defect": "u_*=(sqrt(105)-9)/2 and kappa_4(X_*)=(9-sqrt(105))/2.",
+    "consequence": "X_* attains K1701's coefficient c_*=1/4; the other algebraic root has positive fourth cumulant and is outside the descent class."
+  },
+  "decision": {
+    "three_point_negative_kurtosis_equality_unique": true,
+    "k1688_seed_recovered": true,
+    "all_distribution_equality_unique": false,
+    "finite_strength_optimizer_identified": false
+  },
+  "scope_guard": "Uniqueness is only inside the symmetric three-point family with negative fourth cumulant. Other bounded symmetric laws may also have kappa_6=0, and no finite-strength ordering follows."
+}

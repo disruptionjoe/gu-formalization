@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1704",
+  "status": "active_research",
+  "title": "The three-point seed attains the sharp controlled all-seed cubic envelope after rectangular-shape optimization",
+  "inputs": {
+    "seed_family": "S(B,u_0,u_1) from K1703, with B>=p_*^(-1/2) and 0<u_0<=u_*<=u_1<=2 so X_* is included.",
+    "shape_space": "The compactified centered axis-aligned K1683 rectangles from K1697.",
+    "shape_data": "M=max_C R_0(C) and S_*=min_(C in argmax R_0)S_0(C)>0."
+  },
+  "envelope": {
+    "definition": "H_S(g)=inf_(X in S) inf_C [tau_g(C)/4]Phi_X(4g ell_g(C)/tau_g(C)).",
+    "uniform_lower": "H_S(g)>=-6g^2M+108g^3S_*+o(g^3).",
+    "matching_upper": "Choosing the K1702 seed X_* gives H_S(g)<=-6g^2M+108g^3S_*+o(g^3).",
+    "sharp_expansion": "H_S(g)=-6g^2M+108g^3S_*+o(g^3).",
+    "comparison": "The controlled all-seed cubic envelope is below the Rademacher envelope by (576/5)S_*g^3+o(g^3)."
+  },
+  "decision": {
+    "controlled_all_seed_cubic_envelope_identified": true,
+    "three_point_cubic_attainment": true,
+    "fully_rectangular_shape_optimized": true,
+    "exact_finite_strength_infimum_identified": false,
+    "unrestricted_coefficient_identified": false
+  },
+  "scope_guard": "All-seed means the controlled family S(B,u_0,u_1), not every bounded seed with coupling-dependent support or vanishing defect. The result remains a scalar-product rectangular trial upper envelope, not an unrestricted lower bound or true coefficient."
+}

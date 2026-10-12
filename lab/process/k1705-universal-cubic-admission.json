@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1705",
+  "status": "active_research",
+  "title": "Protected admission for the universal controlled cubic envelope",
+  "admission": {
+    "new_rows": ["K1701", "K1702", "K1703", "K1704", "K1705"],
+    "census": "420 rows: 341 satisfied, 10 conditional, 65 excluded and 4 missing.",
+    "source_claims": "unchanged; SC-ACT-01/02/06 remain ASSERTS and SC-META-53 remains UNCERTAIN.",
+    "physics_ledger": "unchanged at 33 SAME / 22 DIFFERS / 31 NEEDS / 2 OVER-DETERMINED.",
+    "apparatus": "K1145/K1150 remain 0/7.",
+    "protected_surfaces": "source register, standing ledger, canon, papers, predictions, confirmations and public posture unchanged."
+  },
+  "open_frontier": {
+    "finite_strength": "Optimize the exact scalar Fisher/MMSE objective beyond the weak-channel expansion.",
+    "uncontrolled_seeds": "Classify coupling-dependent seeds with growing support or vanishing negative defect.",
+    "haar": "Determine a cutoff-uniform asymptotic lower scale for translation-Haar Fisher saving.",
+    "correlated_geometry": "Test a correlated fourth-cumulant tensor or nonrectangular moving packet.",
+    "lower_bound": "Prove an arbitrary-stationary lower bound against the widened scalar-cardinal functional.",
+    "physical": "Supply the source-owned action/domain/state/observation tuple separately."
+  },
+  "decision": {
+    "scientific_claim_effect": "controlled scalar cubic envelope sharpened",
+    "source_or_ledger_verdict_moved": false,
+    "canon_or_public_posture_moved": false,
+    "physical_admission_closed": false
+  },
+  "scope_guard": "K1701--K1704 identify a sharp controlled weak-channel cubic trial envelope only; they do not solve finite strength, unrestricted stationarity, continuum compactness or GU physics."
+}

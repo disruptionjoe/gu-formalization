@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1703",
+  "status": "active_research",
+  "title": "The sharp cubic Legendre floor is uniform on controlled bounded seed families",
+  "seed_family": {
+    "definition": "S(B,u_0,u_1) consists of symmetric centered unit-variance laws with |X|<=B and u=-kappa_4(X) in [u_0,u_1], where 0<u_0<=u_1<=2.",
+    "compactness": "Uniform support and moment constraints make the family weakly compact; Gaussian interpolation is smooth for t<1.",
+    "uniform_remainder": "The K1687 Hermite expansion and its q-derivative have O_(B,u_0)(q^(7/2)) and O_(B,u_0)(q^(5/2)) remainders uniformly on the family."
+  },
+  "global_branch": {
+    "score_moment_identity": "For Y_t, E[(rho_Y(Y)+Y)H_3(Y)]=E H_4(Y)=kappa_4(Y)=-q.",
+    "coercive_bound": "Cauchy gives j_X(q)>=q^2/E[H_3(Y_t)^2]>=q^2/C_B, with C_B finite uniformly from |X|<=B.",
+    "consequence": "For one r_0(B,u_0)>0 every global minimizer of j_X(q)-rq lies on the uniform small-q branch."
+  },
+  "legendre": {
+    "definition": "Phi_X(r)=min_(0<=q<u)[j_X(q)-rq].",
+    "expansion": "Phi_X(r)=-(3/2)r^2+27c_Xr^3+O_(B,u_0)(r^(7/2)).",
+    "uniform_floor": "Phi_X(r)>=-(3/2)r^2+(27/4)r^3-O_(B,u_0)(r^(7/2)).",
+    "sharpness": "If S(B,u_0,u_1) contains X_*, the K1702 seed attains the cubic coefficient 27/4."
+  },
+  "decision": {
+    "uniform_global_small_branch": true,
+    "uniform_cubic_floor": true,
+    "g_dependent_escape_inside_controlled_family": false,
+    "uncontrolled_seed_escape_closed": false
+  },
+  "scope_guard": "The support ceiling B and defect floor u_0 are load-bearing. Seeds with B growing or u tending to zero with coupling, exact finite-strength optimization and non-product field laws remain open."
+}

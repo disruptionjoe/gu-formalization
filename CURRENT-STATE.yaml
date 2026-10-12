@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 7cf098af3a02f6cc09989730f388a3e1bf472653
+revision_basis: cb81da480e810479ce0fe99e1ad21ccac5f1d8fd
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1701--K1705 identify the sharp weak-channel cubic envelope over every
+    fixed compact family `S(B,u_0,u_1)` of bounded symmetric unit-variance
+    seeds with negative fourth cumulant bounded away from zero. At matched
+    defect `q=ut^2`, every fixed seed has cubic coefficient
+    `c_X=1/4+kappa_6(X)^2/(120u^3)>=1/4`. Inside the symmetric three-point
+    family the K1688 law `p_*=(15+sqrt(105))/60` is the unique
+    negative-kurtosis equality seed. Uniform Hermite remainders and the score
+    identity `E[(rho_Y+Y)H_3(Y)]=kappa_4(Y)` give a uniform global Legendre
+    branch. Composing with K1697--K1698 yields
+    `H_S=-6g^2M+108g^3S_*+o(g^3)`, attained by that seed. Exact finite
+    strength, seeds with growing support or vanishing defect, quantitative
+    Haar saving, correlated tensors, nonrectangular moving packets, the
+    unrestricted coefficient and a lower bound remain open. The 420-row
+    census is 341 satisfied, ten conditional, 65 excluded and four missing;
+    protected source, ledger, canon and public states do not move.
+
     K1696--K1700 close K1692's moving-rectangle boundary. The named scalar
     objectives factor through one seed-only Legendre profile and the shape
     ratios `R_g=ell_g^2/tau_g`, `S_g=ell_g^3/tau_g^2`. These ratios extend
@@ -15338,6 +15354,18 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1701--K1704 prove that the K1688 three-point seed attains the sharp cubic
+  coefficient over every fixed uniformly bounded negative-kurtosis scalar
+  family and every moving K1683 rectangle. What is the exact finite-strength
+  scalar infimum? Can a coupling-dependent seed with growing support or
+  vanishing defect escape the compact-family theorem, can a quantitative
+  posterior-score inequality determine the translation-Haar saving, or can a
+  correlated fourth-cumulant tensor or nonrectangular moving packet lower the
+  trial coefficient again? Alternatively, can arbitrary stationary laws be
+  bounded below by the widened scalar-cardinal functional? Compactness, Mosco
+  liminf/recovery and `E_N+O(1)` recentering wait for the true coefficient and
+  shift. The source-owned physical tuple remains separate.
+
   K1696--K1699 prove that optimizing K1683 rectangular shape does not erase
   the K1688 three-point seed's small-coupling advantage: the global gap is
   `(576/5)S_*g^3+o(g^3)>0`. What is the exact finite-strength scalar infimum
@@ -18136,6 +18164,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1701's fixed-seed bounded symmetric negative-kurtosis hypotheses
+  and matched coordinate `q=ut^2`; the coefficient floor is asymptotic, not a
+  finite-strength ordering. Preserve K1702's uniqueness scope inside the
+  symmetric three-point negative-kurtosis family; other laws may have
+  `kappa_6=0`. Preserve K1703's fixed support ceiling `B` and defect floor
+  `u_0>0`; these are load-bearing for uniformity over coupling-dependent
+  seeds. Preserve K1704's K1683 rectangular scalar-product class and
+  small-coupling limit: its controlled all-seed lower comparison is not an
+  unrestricted field-law lower bound. Next solve the finite-strength scalar
+  problem, classify escaping seed families, quantify Haar saving, construct a
+  correlated tensor or nonrectangular moving packet, or prove an unrestricted
+  lower bound. No result supplies a source-owned Hamiltonian, physical state,
+  observation, prediction or admission.
+
   Preserve K1696's named discrete seeds, matched-defect coordinate and
   seed-only endpoint coercivity. Preserve K1697's centered axis-aligned K1683
   rectangles, zero-profile locally integrable weights and K1571

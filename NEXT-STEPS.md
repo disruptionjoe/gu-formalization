@@ -2,10 +2,23 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-10-10"
+updated_at: "2026-10-12"
 ---
 
 # Next Steps For Contributors
+
+> **2026-10-12 K1701--K1705 UNIVERSAL CONTROLLED CUBIC ENVELOPE.**
+> Every fixed bounded symmetric negative-kurtosis seed has matched-defect
+> coefficient `c_X=1/4+kappa_6(X)^2/(120u^3)>=1/4`. The K1688 three-point
+> seed is the unique negative-kurtosis equality law inside its symmetric
+> three-point family. Uniform support and a negative-defect floor make the
+> Legendre expansion uniform over coupling-dependent seed choices, and the
+> fully rectangular-shape-optimized controlled envelope is
+> `H_S=-6g^2M+108g^3S_*+o(g^3)`. Next solve the exact finite-strength scalar
+> infimum, classify seeds outside fixed support/defect control, quantify Haar
+> saving, test a correlated tensor or nonrectangular moving packet, or prove
+> the arbitrary-stationary lower bound. Do not infer the unrestricted
+> coefficient, minimizer, continuum state or source-owned physical theory.
 
 > **2026-10-10 K1696--K1700 UNIFORM SHAPE-OPTIMIZED ENVELOPE.**
 > The scalar objective factors through a seed-only Legendre profile and two

@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1701",
+  "status": "active_research",
+  "title": "Every fixed bounded symmetric negative-kurtosis seed pays cubic matched-defect coefficient at least one quarter",
+  "inputs": {
+    "seed_class": "X is one fixed bounded symmetric centered unit-variance seed with kappa_4(X)=-u<0.",
+    "matched_coordinate": "q=u t^2, so kappa_4(Y_t)=-q exactly.",
+    "k1687_expansion": "j_X(t)=(kappa_4^2/6)t^4+(kappa_6^2/120-kappa_4^3/4)t^6+O_X(t^7)."
+  },
+  "coefficient": {
+    "matched_law": "j_X(q)=q^2/6+c_Xq^3+O_X(q^(7/2)).",
+    "formula": "c_X=1/4+kappa_6(X)^2/(120u^3).",
+    "sharp_floor": "c_X>=1/4.",
+    "equality": "c_X=1/4 if and only if kappa_6(X)=0."
+  },
+  "decision": {
+    "universal_fixed_seed_cubic_floor": true,
+    "sharp_coefficient": "1/4",
+    "equality_condition": "kappa_6=0",
+    "finite_strength_optimizer_identified": false
+  },
+  "scope_guard": "The theorem is a fixed-seed weak-channel asymptotic. It is not yet uniform over g-dependent seeds and does not order exact finite-strength MMSE curves, correlated tensors, Haar savings or unrestricted stationary laws."
+}
