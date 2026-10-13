@@ -7,6 +7,27 @@ updated_at: "2026-10-12"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1721--K1725 faithful diagonal compact circle (2026-10-12)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The full `K` action on `K/M` may have kernel larger than the center | K1721 normal-core theorem | false here: connected `K` and finite `M` give `core_K(M)=Z(K)={1,z}` |
+| Every compact circle on the same carrier inherits K1711's half-period kernel | K1722 diagonal quotient loop | false: the primitive diagonal circle `D` meets `Z(K)` only at the identity |
+| The different circle may still act nonfaithfully on the complete Hilbert carrier | K1723 quasi-regular kernel plus circle spectrum | false: `D` is faithful on `K/M` and `L2(K/M)` |
+| The complete `D` charge lattice may remain even | K1723 gcd/kernel equivalence | false: faithfulness forces gcd one and hence at least one odd charge |
+| `D` is only an automorphic relabeling of K1356's original circle `C` | K1724 kernel invariant | false: original-circle automorphisms preserve kernel order, while `C` has order-two kernel and `D` has none |
+| The bare generator norm fixes the physical gauge coupling | K1724 normalization fence | false: the control norm ratio is `1/2`, but source action ownership must choose circle, coefficient and normalization together |
+| The source selects `D` as hypercharge or a physical quotient | K1725 protected admission | not established |
+
+The five producers pass `83/83` exact provenance, normal-core,
+global-loop, center-intersection, charge-gcd, automorphism and normalization
+controls; five hostile probes reject `58/58` global-group, faithfulness,
+charge-lattice and physical-ownership mutations. `SC-META-53` remains
+`UNCERTAIN`, `SC-ACT-01/02/06` retain their source polarity, and
+`LT-SM1b/LT-SM2/LT-SM8/LT-GR6b/RA-F1/AC-F1` retain their ledger verdicts.
+No source, ledger, canon, paper, prediction, confirmation or public status
+moves.
+
 ## K1716--K1720 nonlinear circle-observation quotient closure (2026-10-12)
 
 | Claim | Evidence | Honest grade |

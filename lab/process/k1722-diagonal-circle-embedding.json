@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1722",
+  "status": "active_research",
+  "title": "A primitive diagonal compact circle embeds in K and misses its center",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "pinned_inputs": {
+    "k1721": {"path": "lab/process/k1721-homogeneous-action-kernel.json", "sha256": "f01eda5acd63b0feb21a2addddf03dc26e5949a6f985b132720571840b92a9a3"},
+    "k1356": {"path": "lab/process/k1356-maximal-compact-circle-reduction.json", "sha256": "7cc6bd0d88e3db3b24f4e926682cb11e2a52f9eae40ebf5bce03545400137b10"}
+  },
+  "diagonal_circle": {
+    "generators": "E=e1e2 in the first Spin(7) factor and F=e3e4 in the second, with E^2=F^2=-1.",
+    "definition": "D(beta)=[exp((beta/2)E),exp((beta/2)F)] for beta modulo 2 pi.",
+    "closure": "At beta+2 pi both lifted factors acquire -1, so the pair changes by diagonal(-1,-1) and defines a 2 pi-periodic loop in K.",
+    "embedding": "The class is the identity only when both lifted factors are the same scalar sign, which occurs only at beta=0 modulo 2 pi.",
+    "center_intersection": "A D point is central only when both lifted exponentials are scalar; the two endpoint lifts have equal signs and both represent the identity, so D intersection Z(K)={1}.",
+    "half_period": "D(pi) is noncentral and is not z=[-1,1]."
+  },
+  "decision": {
+    "well_defined_circle_in_quotient": true,
+    "primitive_embedding": true,
+    "trivial_center_intersection": true,
+    "half_period_is_noncentral": true,
+    "source_selects_diagonal_circle": false,
+    "protected_status_change": false
+  },
+  "claim_ceiling": "The explicitly defined diagonal loop is a primitive embedded circle in the repository control K and meets Z(K) trivially. No source or physical action selects it."
+}

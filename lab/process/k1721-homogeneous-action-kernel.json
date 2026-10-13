@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1721",
+  "status": "active_research",
+  "title": "The complete K action on K/M has kernel exactly Z(K)",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "pinned_inputs": {
+    "k1711": {"path": "lab/process/k1711-full-carrier-central-kernel.json", "sha256": "88e85023e9524cddc94b66a1179171b0273fbea8b49b9c1b109a14150892dda7"},
+    "k1313": {"path": "lab/process/k1313-compact-picture-positive-hilbert-control.json", "sha256": "aff3d467101d0ce988777f040300fa5ac46078d5546ee2e291cc4f7273cab620"}
+  },
+  "kernel_theorem": {
+    "group": "K=(Spin(7)xSpin(7))/diagonal{plus_or_minus_one} is connected.",
+    "subgroup": "M=Z_K(A) is finite for the split Cartan A.",
+    "homogeneous_kernel": "ker(K acting on K/M)=core_K(M)=intersection_k k M k^{-1}.",
+    "core_to_center": "The core is a finite normal subgroup of connected K, so every conjugacy orbit in the core is a singleton and core_K(M) is contained in Z(K).",
+    "center_to_core": "Every element of Z(K) centralizes A, lies in M and lies in every conjugate of M, so Z(K) is contained in core_K(M).",
+    "center": "Z(K)=(Z2 x Z2)/diagonal Z2={1,z} with z=[-1,1].",
+    "hilbert_kernel": "The quasi-regular representation on H_ps=L2(K/M) has the same kernel because a nontrivial continuous coset motion moves an open set of positive measure."
+  },
+  "decision": {
+    "homogeneous_kernel_equals_center": true,
+    "hilbert_kernel_equals_center": true,
+    "kernel_has_order_two": true,
+    "depends_on_connected_K_and_finite_M": true,
+    "physical_quotient_constructed": false,
+    "protected_status_change": false
+  },
+  "claim_ceiling": "The complete repository control K/M and L2(K/M) actions have kernel exactly the two-element center. This does not select a physical quotient or source action."
+}

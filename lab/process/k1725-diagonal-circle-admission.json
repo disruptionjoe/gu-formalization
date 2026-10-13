@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1725",
+  "status": "active_research",
+  "title": "Faithful diagonal-circle admission boundary",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "pinned_inputs": {
+    "k1721": {"path": "lab/process/k1721-homogeneous-action-kernel.json", "sha256": "f01eda5acd63b0feb21a2addddf03dc26e5949a6f985b132720571840b92a9a3"},
+    "k1722": {"path": "lab/process/k1722-diagonal-circle-embedding.json", "sha256": "4d1a788fdf79179134f256732a6e4fe4917ac29d885589d02fc66921d24160ed"},
+    "k1723": {"path": "lab/process/k1723-faithful-diagonal-charge-lattice.json", "sha256": "343b73b37dfdcc3e572b761bb942b38fdfdcba9465c34f1b5e1f1bf9c486de6f"},
+    "k1724": {"path": "lab/process/k1724-circle-inequivalence-normalization.json", "sha256": "e1b01d167c0e93ed1315e3d54c52062c1375c6193786211b84422946a858ea2e"}
+  },
+  "admission": {
+    "classification": "K1711's order-two parity obstruction is circle-specific: C has kernel {1,z}, while the explicit primitive diagonal circle D is faithful on the same K/M and H_ps carriers.",
+    "positive_result": "D has a gcd-one full-carrier charge lattice and at least one odd charge, so a different compact circle is an exact internal escape.",
+    "ownership_boundary": "The repository construction does not select D, identify hypercharge, supply a source action, or construct a physical carrier/domain, positive quotient or observed map.",
+    "source_effect": "SOURCE_REGISTER_UNCHANGED; SC-META-53 remains UNCERTAIN; SC-ACT-01/02/06 retain their polarity.",
+    "ledger_effect": "STANDING_LEDGER_UNCHANGED; LT-SM1b/LT-SM2/LT-SM8/LT-GR6b/RA-F1/AC-F1 retain existing verdicts and mapping grades.",
+    "public_effect": "CANON_PAPERS_PREDICTIONS_CONFIRMATIONS_PUBLIC_POSTURE_UNCHANGED",
+    "next_condition": "Supply source/action ownership choosing one global circle and its kinetic normalization on a physical carrier/domain, then construct the faithful observed map and positive quotient. Wider finite-strength scalar optimization remains the strongest independent mathematical alternative."
+  },
+  "decision": {
+    "different_circle_reopener_classified": true,
+    "original_parity_obstruction_is_not_all_circles": true,
+    "source_selects_diagonal_circle": false,
+    "physical_positive_quotient_constructed": false,
+    "source_register_changed": false,
+    "standing_ledger_changed": false,
+    "canon_or_public_posture_changed": false
+  },
+  "claim_ceiling": "K1721--K1724 exhibit one faithful compact-circle alternative on the same complete spherical carrier and prove the original parity obstruction is not universal across circles. They do not supply the source-owned physical selection or forward-certification chain."
+}

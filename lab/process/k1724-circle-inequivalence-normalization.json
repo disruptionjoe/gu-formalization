@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1724",
+  "status": "active_research",
+  "title": "The faithful diagonal circle is not an automorphic relabeling of the original circle",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "pinned_inputs": {
+    "k1712": {"path": "lab/process/k1712-even-charge-spectrum-effective-kernel.json", "sha256": "49fc92283d9db8cbc3dfce9eb52c5733da45243b3f6a9e059ef9e4cf2fef0708"},
+    "k1723": {"path": "lab/process/k1723-faithful-diagonal-charge-lattice.json", "sha256": "343b73b37dfdcc3e572b761bb942b38fdfdcba9465c34f1b5e1f1bf9c486de6f"}
+  },
+  "comparison": {
+    "original_kernel": "The K1356 one-factor circle C has full-carrier kernel {1,z} of order two.",
+    "diagonal_kernel": "The diagonal circle D has trivial full-carrier kernel.",
+    "automorphism_invariant": "Precomposition by either U(1) automorphism beta maps to plus_or_minus beta preserves the kernel order.",
+    "inequivalence": "No original-circle automorphism converts the C action into the D action; D is a genuinely different embedded circle.",
+    "generators": "T_C=(E,0) and T_D=(E/2,F/2).",
+    "norms": "For orthogonal unit one-factor bivectors, ||T_C||^2=1 and ||T_D||^2=1/2.",
+    "normalization_fence": "The bare norm ratio does not supply a physical gauge coupling; source action ownership must choose the circle, kinetic coefficient and normalization together."
+  },
+  "decision": {
+    "same_circle_automorphism_repair": false,
+    "different_embedded_circle": true,
+    "bare_norm_ratio_one_half": true,
+    "physical_gauge_coupling_derived": false,
+    "source_hypercharge_identified": false,
+    "protected_status_change": false
+  },
+  "claim_ceiling": "C and D are inequivalent as circle actions because their kernels differ; their primitive generators also have a one-half compact norm-squared ratio in the declared control convention. No physical coupling or hypercharge identification follows."
+}

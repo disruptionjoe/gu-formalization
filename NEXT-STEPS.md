@@ -7,6 +7,20 @@ updated_at: "2026-10-12"
 
 # Next Steps For Contributors
 
+> **2026-10-12 K1721--K1725 FAITHFUL DIAGONAL COMPACT CIRCLE.** For the same
+> `K/M` spherical carrier, connectedness of `K` and finiteness of `M` give the
+> exact full action kernel `core_K(M)=Z(K)={1,z}`. The primitive diagonal loop
+> `D(beta)=[exp((beta/2)e1e2),exp((beta/2)e3e4)]` closes through the diagonal
+> center and meets the surviving center trivially. It therefore acts
+> faithfully on `K/M` and `L2(K/M)`, forcing a gcd-one charge lattice with at
+> least one odd charge. This is a genuinely different circle from K1356's
+> one-factor `C`, not an original-circle automorphic relabeling; its primitive
+> control norm square is `1/2` versus `1` for `C`. Thus the K1711 parity
+> obstruction is circle-specific. Next supply a source/action-owned global
+> circle choice, kinetic normalization, physical carrier/domain, positive
+> quotient and faithful observed map. Do not identify `D` with hypercharge or
+> a physical GU quotient from this internal construction.
+
 > **2026-10-12 K1716--K1720 NONLINEAR CIRCLE-OBSERVATION QUOTIENT
 > CLOSURE.** K1711's result that `z=C(pi)` acts as the identity on
 > `H_ps=L2(K/M)` blocks more than linear intertwiners. Every `C`-equivariant
