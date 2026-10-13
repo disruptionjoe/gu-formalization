@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1718",
+  "status": "active_research",
+  "title": "No original-circle-equivariant observation into H_ps is injective on a faithful source action",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "pinned_inputs": {
+    "k1716": {"path": "lab/process/k1716-equivariant-half-period-blindness.json", "sha256": "cf4ea27a0be2971a5421c888512d3d56b5b54ec4dc2b95a423f31f852cb76f17"},
+    "k1717": {"path": "lab/process/k1717-effective-quotient-factorization.json", "sha256": "a28b1a69d9f795419c70ac7212baf8dabe0a6ee2b055636779fb89387eea7c53"}
+  },
+  "noninjectivity": {
+    "source_hypothesis": "The C-action on X is faithful.",
+    "witness": "Faithfulness implies z is not the identity transformation, so some x satisfies z.x!=x.",
+    "collision": "K1716 gives F(z.x)=F(x) for that distinct pair.",
+    "conclusion": "No C-equivariant set map F:X->H_ps is injective; linearity and primitive weight decompositions are unnecessary.",
+    "exact_reopener": "Injectivity requires at least one change: quotient the source by H, use a target on which z acts nontrivially, break original-circle equivariance, or add separately owned z-sensitive output data."
+  },
+  "decision": {
+    "faithful_source_supplies_nontrivial_z_orbit": true,
+    "all_equivariant_observations_noninjective": true,
+    "k1713_linearity_restriction_removed": true,
+    "all_nonfaithful_sources_excluded": false,
+    "all_other_compact_circles_excluded": false,
+    "source_claim_falsified": false,
+    "protected_status_change": false
+  },
+  "claim_ceiling": "K1713's linear primitive-intertwiner obstruction strengthens to arbitrary equivariant set maps on any faithful source C-action. It does not exclude nonfaithful physical sources, other circles, non-equivariant observations, or a source-selected effective quotient."
+}

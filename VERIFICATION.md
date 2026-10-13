@@ -7,6 +7,26 @@ updated_at: "2026-10-12"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1716--K1720 nonlinear circle-observation quotient closure (2026-10-12)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A nonlinear or nonlocal observation into `H_ps` may recover K1711's half-period bit | K1716 set-map equivariance identity | false under the same `C`-equivariance: `F(z.x)=F(x)` |
+| The blindness is only a pointwise coincidence | K1717 orbit universal property | false: every such map factors uniquely through `X/{1,z}` |
+| A faithful source action can still be observed injectively in `H_ps` | K1718 nontrivial-orbit witness | false: every equivariant deterministic observation identifies at least one pair `x,z.x` |
+| Several jointly recorded observations into `z`-trivial targets restore the bit | K1719 coordinatewise action | false for arbitrary indexed products |
+| Randomization restores the bit | K1719 pushforward equivariance | false for equivariant probability-valued or Markov observations into `z`-trivial outputs |
+| The source selects `X/{1,z}` as a physical quotient | K1720 protected admission | not established |
+
+The five producers pass `92/92` exact provenance, set-map, orbit-factor,
+faithfulness, product, Markov-kernel and protected-admission controls; five
+hostile probes reject `58/58` linearity smuggling, false injectivity,
+coordinate-combination, randomness and physical-ownership mutations.
+`SC-META-53` remains `UNCERTAIN`, `SC-ACT-01/02/06` retain their source
+polarity, and `LT-SM1b/LT-SM2/LT-SM8/LT-GR6b/RA-F1/AC-F1` retain their
+ledger verdicts. No source, ledger, canon, paper, prediction, confirmation or
+public status moves.
+
 ## K1711--K1715 full-carrier circle kernel and quotient (2026-10-12)
 
 | Claim | Evidence | Honest grade |

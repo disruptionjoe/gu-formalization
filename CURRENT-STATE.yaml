@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 4da9611f8a930adb81471ec4717c89c1ae1d7e4f
+revision_basis: 603ee8467b4e9d3d01d75950238c0b6e4e07f046
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1716--K1720 close the nonlinear-observation escape for K1711's selected
+    compact circle without adding regularity or linearity. For any source
+    `C`-set `X` and any `C`-equivariant set map `F:X->H_ps`, the target
+    fact that `z=C(pi)` acts as the identity forces `F(z.x)=F(x)`. Thus `F`
+    factors uniquely through `X/{1,z}`, and if the source action is faithful it cannot be
+    injective. Arbitrary indexed products of such observations and
+    equivariant probability-valued or Markov observations remain
+    `{1,z}`-blind. The only exact reopeners are a source/action-owned quotient,
+    a target with nontrivial `z` action, explicitly owned equivariance
+    breaking, or separately owned `z`-sensitive data. This does not select a
+    physical quotient, hypercharge, source action or observation. The source
+    register, standing physics ledger, canon, papers, predictions,
+    confirmations and public posture do not move.
+
     K1711--K1715 classify K1356's selected compact circle on the complete
     spherical carrier `H_ps=L2(K/M)`. The half-period element
     `z=C(pi)=[-1,1]` is the global central spin element, hence lies in
@@ -15389,6 +15403,17 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1716--K1719 show that nonlinear, joint and randomized equivariant
+  observations into the same `z`-trivial target cannot recover the missing
+  half-period bit: every deterministic observation factors through
+  `X/{1,z}`, faithful source actions force noninjectivity, and product or
+  Markov outputs remain blind. Which source/action-owned physical input, if
+  any, selects that quotient, supplies a target with nontrivial `z` action,
+  owns equivariance breaking or provides separate `z`-sensitive data?
+  Alternatively, test another compact circle. The wider finite-strength
+  scalar optimization and arbitrary-stationary lower-bound front remain an
+  independent high-value route.
+
   K1706--K1709 prove that the cubic-equality three-point seed moves at finite
   weak strength and uniquely controls the complete negative-kurtosis
   three-point family, including `p->1/3`: the matched quartic coefficient
@@ -18213,6 +18238,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve the original `C` action, the fact that `z=C(pi)` acts trivially on
+  the target, and exact `C`-equivariance in K1716--K1719. No continuity,
+  locality or linearity
+  is used for set-map blindness or algebraic quotient factorization;
+  faithfulness of the source action is required only for the noninjectivity
+  conclusion. A continuous factor is asserted only when `X/{1,z}` carries
+  the quotient topology, and the randomized statement uses pushforward
+  equivariance of probability kernels. Do not infer a source-selected
+  quotient, hypercharge, physical carrier or observation. Reopen only with a
+  source-owned action choice, nontrivial target `z` action, owned symmetry
+  breaking or independent `z`-sensitive data; otherwise test a different
+  compact circle.
+
   Preserve K1706's fixed bounded symmetric seed hypothesis and probabilists'
   Hermite normalization; the `t^7` and `t^8` coefficients are weak-channel
   asymptotics, not exact finite-strength ordering. Preserve K1707--K1709's

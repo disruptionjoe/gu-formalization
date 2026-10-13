@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1716",
+  "status": "active_research",
+  "title": "Original-circle equivariance forces half-period blindness for arbitrary observation maps",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "pinned_inputs": {
+    "k1711": {
+      "path": "lab/process/k1711-full-carrier-central-kernel.json",
+      "sha256": "88e85023e9524cddc94b66a1179171b0273fbea8b49b9c1b109a14150892dda7"
+    },
+    "formal_orbit_theorem": {
+      "path": "Lean/GUFormalization/GroupActionFixedPoints.lean",
+      "sha256": "bdbc175379ae3922410d3516ba6b6dc3499c970a1dbea6dda7b52e49b6c9b128"
+    }
+  },
+  "theorem": {
+    "source": "an arbitrary C-set X",
+    "target": "H_ps=L2(K/M) with the K1356 original-circle action",
+    "kernel_element": "z=C(pi)=[-1,1] acts identically on H_ps by K1711",
+    "hypothesis": "F:X->H_ps is C-equivariant as a set map",
+    "identity": "F(z.x)=z.F(x)=F(x) for every x in X",
+    "regularity": "No linearity, continuity, measurability, differentiability, locality or polynomial hypothesis is used.",
+    "formal_reuse": "Restrict the C-action to H=<z> and apply equivariantMapEquivOrbitValuation_of_trivial; this is a composition of a held theorem with K1711, not a new general group-action theorem."
+  },
+  "finite_control": {
+    "group": "C4 under addition modulo 4",
+    "source": "regular C4-set X=C4",
+    "target": "C2 with C4 action by reduction modulo 2",
+    "map": "F(x)=x modulo 2",
+    "half_period": 2
+  },
+  "decision": {
+    "arbitrary_equivariant_maps_are_z_orbit_constant": true,
+    "nonlinear_escape_under_same_equivariance": false,
+    "regularity_assumption_required": false,
+    "new_general_group_action_theorem_claimed": false,
+    "source_selects_observation": false,
+    "physical_quotient_constructed": false,
+    "protected_status_change": false
+  },
+  "claim_ceiling": "Every original-circle-equivariant observation into the selected complete spherical carrier is blind to the source half-period orbit. This is an internal representation/observation constraint; it does not establish that a source-native physical observation has these source and target actions."
+}

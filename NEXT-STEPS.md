@@ -7,6 +7,20 @@ updated_at: "2026-10-12"
 
 # Next Steps For Contributors
 
+> **2026-10-12 K1716--K1720 NONLINEAR CIRCLE-OBSERVATION QUOTIENT
+> CLOSURE.** K1711's result that `z=C(pi)` acts as the identity on
+> `H_ps=L2(K/M)` blocks more than linear intertwiners. Every `C`-equivariant
+> set map `F:X->H_ps` obeys
+> `F(z.x)=F(x)` and therefore factors uniquely through `X/{1,z}`. A faithful
+> source action makes every such observation noninjective; arbitrary indexed
+> products and equivariant probability-valued or Markov observations remain
+> blind to the same half-period orbit. Reopen this exact route only with a
+> source/action-owned quotient, a target on which `z` acts nontrivially,
+> explicitly owned equivariance breaking or separately owned `z`-sensitive
+> data. Otherwise test another compact circle. Do not identify this
+> classification with source hypercharge, a physical GU quotient or an
+> observation model.
+
 > **2026-10-12 K1711--K1715 FULL-CARRIER CIRCLE KERNEL AND EFFECTIVE
 > QUOTIENT.** On `H_ps=L2(K/M)`, K1356's half-period element
 > `z=C(pi)=[-1,1]` is central and lies in `M=Z_K(A)`, so it acts trivially

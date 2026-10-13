@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1720",
+  "status": "active_research",
+  "title": "Nonlinear circle-observation quotient admission boundary",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "pinned_inputs": {
+    "k1716": {"path": "lab/process/k1716-equivariant-half-period-blindness.json", "sha256": "cf4ea27a0be2971a5421c888512d3d56b5b54ec4dc2b95a423f31f852cb76f17"},
+    "k1717": {"path": "lab/process/k1717-effective-quotient-factorization.json", "sha256": "a28b1a69d9f795419c70ac7212baf8dabe0a6ee2b055636779fb89387eea7c53"},
+    "k1718": {"path": "lab/process/k1718-faithful-observation-noninjectivity.json", "sha256": "fa7293d35ee66a6afc42e02253058d0f519e0d4cd8d01ed01071e100eb573d77"},
+    "k1719": {"path": "lab/process/k1719-joint-randomized-observation-closure.json", "sha256": "8af8505306c6795216bc9a56121772a704bf936b1e2c9c24edb0e9238b0a002f"}
+  },
+  "admission": {
+    "obstruction": "Every deterministic, joint-product or randomized original-circle-equivariant observation into targets with trivial z action is constant on source {1,z} orbits.",
+    "factorization": "Every deterministic observation factors uniquely through X/{1,z} and is C_eff-equivariant.",
+    "faithful_source": "No such deterministic observation is injective when the source C-action is faithful.",
+    "exact_reopeners": [
+      "source/action selection of the effective quotient X/{1,z}",
+      "a target/output carrier on which z acts nontrivially",
+      "an explicitly owned breaking of original-circle equivariance",
+      "separately owned z-sensitive output data"
+    ],
+    "source_effect": "SOURCE_REGISTER_UNCHANGED; SC-META-53 remains UNCERTAIN; SC-ACT-01/02/06 retain ASSERTS polarity.",
+    "ledger_effect": "STANDING_LEDGER_UNCHANGED; LT-SM1b/LT-SM2/LT-SM8/LT-GR6b/RA-F1/AC-F1 retain existing verdicts and mapping grades.",
+    "public_effect": "CANON_PAPERS_PREDICTIONS_CONFIRMATIONS_PUBLIC_POSTURE_UNCHANGED",
+    "next_condition": "Supply one source/action-owned reopener on a physical carrier/domain; otherwise test a different compact circle. Wider finite-strength scalar optimization remains the strongest independent mathematical alternative."
+  },
+  "decision": {
+    "typed_nonlinear_alternative_classified": true,
+    "same_kernel_joint_and_randomized_escape_excluded": true,
+    "effective_quotient_selected_by_source": false,
+    "physical_positive_quotient_constructed": false,
+    "source_register_changed": false,
+    "standing_ledger_changed": false,
+    "canon_or_public_posture_changed": false
+  },
+  "claim_ceiling": "K1716--K1719 close the same-target equivariant nonlinear, joint and randomized observation escape by exact orbit-quotient factorization. They do not select a physical global group, construct a source action or state/domain, or identify hypercharge, generations or observed chirality."
+}

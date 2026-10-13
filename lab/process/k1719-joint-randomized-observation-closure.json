@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1719",
+  "status": "active_research",
+  "title": "Joint and randomized equivariant observations retain the half-period blindness",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "pinned_inputs": {
+    "k1716": {"path": "lab/process/k1716-equivariant-half-period-blindness.json", "sha256": "cf4ea27a0be2971a5421c888512d3d56b5b54ec4dc2b95a423f31f852cb76f17"},
+    "formal_orbit_theorem": {"path": "Lean/GUFormalization/GroupActionFixedPoints.lean", "sha256": "bdbc175379ae3922410d3516ba6b6dc3499c970a1dbea6dda7b52e49b6c9b128"}
+  },
+  "joint_observation": {
+    "family": "An arbitrary indexed family F_i:X->Y_i of C-equivariant maps with z acting trivially on every Y_i.",
+    "product_identity": "F_joint(z.x)=(F_i(z.x))_i=(F_i(x))_i=F_joint(x).",
+    "formal_reuse": "equivariantMapEquivPi identifies joint maps with component maps; componentwise z-triviality is preserved by products.",
+    "consequence": "No number of same-kernel observables restores injectivity."
+  },
+  "randomized_observation": {
+    "channel": "A C-equivariant Markov kernel K:X->Prob(Y), with C acting on probability laws by pushforward.",
+    "hypothesis": "z acts trivially on Y and hence on Prob(Y).",
+    "identity": "K(z.x)=z_*K(x)=K(x).",
+    "consequence": "Private randomness and outcome mixing do not restore the lost z-bit; a z-sensitive outcome action or explicit symmetry breaking is required."
+  },
+  "finite_control": {
+    "joint_maps": ["x modulo 2", "constant zero"],
+    "randomized_even_distribution": [0.75, 0.25],
+    "randomized_odd_distribution": [0.25, 0.75],
+    "half_period": 2
+  },
+  "decision": {
+    "indexed_products_preserve_blindness": true,
+    "randomized_channels_preserve_blindness": true,
+    "private_randomness_recovers_sign": false,
+    "z_sensitive_target_could_reopen": true,
+    "source_measurement_constructed": false,
+    "physical_observable_constructed": false,
+    "protected_status_change": false
+  },
+  "claim_ceiling": "The obstruction is closed under same-kernel observation products and equivariant probability-valued channels. It says nothing about a source-owned target with nontrivial z action, explicit symmetry breaking, or the physical interpretation of an outcome law."
+}
