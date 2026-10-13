@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1765",
+  "status": "active_research",
+  "title": "Hermite hierarchy is admitted without promoting the incomplete interval cover",
+  "inputs": ["K1760", "K1761", "K1762", "K1763", "K1764"],
+  "bridge_census": {"total": 465, "satisfied": 386, "conditional": 10, "excluded": 65, "missing": 4},
+  "protected_state": {
+    "source_claim_register_changed": false,
+    "standing_physics_ledger_changed": false,
+    "canon_changed": false,
+    "papers_changed": false,
+    "predictions_changed": false,
+    "confirmations_changed": false,
+    "public_posture_changed": false,
+    "k1145_score": "0/7",
+    "k1150_score": "0/7"
+  },
+  "decision": {
+    "finite_hermite_lower_hierarchy_admitted": true,
+    "candidate_absolute_arb_upper_admitted": true,
+    "naive_interval_cover_admitted_as_global_certificate": false,
+    "global_two_radius_optimizer_admitted": false,
+    "all_seed_or_physical_result_admitted": false
+  },
+  "next_gate": "Substitute c=2-q/t^2, cancel the optimized degree-5/7 projection rationally before interval evaluation, prove denominator positivity, and cover its sublevel set with a replayable exact partition; apply full Fisher interval Newton only to the surviving local tube.",
+  "scope_guard": "This wave supplies a reusable lower-bound hierarchy and removes a bad interval engine. It does not complete K1760's rectangle or supply an unrestricted field, source-owned, or physical minimum."
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1761",
+  "status": "active_research",
+  "title": "Finite odd-Hermite score projections give a monotone Fisher lower hierarchy",
+  "theorem": {
+    "score_moment": "E[(rho_Y(Y)+Y)H_n(Y)]=E[H_(n+1)(Y)]",
+    "gram_product": "H_m H_n=sum_(k=0)^min(m,n) k! binom(m,k) binom(n,k) H_(m+n-2k)",
+    "finite_test": "J(Y)>=2 alpha^T b-alpha^T G alpha for every real alpha",
+    "optimized_test": "J(Y)>=b^T G^(-1)b when G is positive definite",
+    "basis": "Any finite ordered set of odd probabilists' Hermite polynomials."
+  },
+  "decision": {
+    "nested_odd_degree_hierarchy_is_monotone": true,
+    "finite_projection_equals_full_fisher_in_general": false,
+    "two_radius_global_optimizer_proved": false
+  },
+  "scope_guard": "This is a universal finite-test lower bound. Equality with full relative Fisher requires the true relative score to lie in the selected polynomial span and is not asserted."
+}

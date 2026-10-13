@@ -7,6 +7,21 @@ updated_at: "2026-10-13"
 
 # Next Steps For Contributors
 
+> **2026-10-13 K1761--K1765 HERMITE PROJECTION WAVE.** Every finite odd
+> Hermite score test now gives an exact Fisher lower bound, with a monotone
+> optimized hierarchy. The two-radius chart closes the degree-nine data by an
+> exact central-moment recurrence, and Arb encloses the K1753 candidate at
+> `1.5917864530497714e-7` with radius at most `3.01e-24`. Degree escalation
+> prunes named controls, while the candidate survives degree nine. Exact
+> cancellation makes the optimized degree-five rare-face limit finite. A
+> one-million-leaf direct `(c,z)` interval pilot remained incomplete and is
+> not a scientific cover. Next substitute `c=2-q/t^2`, cancel the optimized
+> degree-5/7 rational before interval evaluation, prove denominator
+> positivity, and emit a replayable exact sublevel partition; use full Fisher
+> interval Newton only on the surviving local tube. Do not infer stationarity,
+> uniqueness, global scalar optimality, an unrestricted lower theorem, or
+> source-owned physics.
+
 > **2026-10-13 K1756--K1760 TWO-RADIUS BOUNDARY-COLLAR WAVE.** At
 > `q=1/1024`, Arb certifies that the Rademacher face lies more than `2.20e-10`
 > above K1753's rational candidate. A fixed Rademacher-score variational test

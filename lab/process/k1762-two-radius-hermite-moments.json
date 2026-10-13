@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1762",
+  "status": "active_research",
+  "title": "The two-radius chart closes the degree-nine Hermite hierarchy exactly",
+  "central_moment_recurrence": "mu_0=1, mu_1=0, mu_2=c, mu_r=(c/z-z)mu_(r-1)+c mu_(r-2)",
+  "raw_moment_conversion": "E[(X^2)^r]=sum_(k=0)^r binom(r,k) mu_k",
+  "closed_forms": {
+    "h4": "t^2*(c-2)",
+    "h6": "t^3*(c^2-c*z^2-12*c*z+16*z)/z",
+    "h8": "t^4*(c^3-c^2*z^2-24*c^2*z+c*z^4+24*c*z^3+132*c*z^2-132*z^2)/z^2",
+    "h10": "t^5*(c^4-c^3*z^2-40*c^3*z+c^2*z^4+40*c^2*z^3+460*c^2*z^2-c*z^6-40*c*z^5-460*c*z^4-1520*c*z^3+1216*z^3)/z^3"
+  },
+  "matched_defect": "With t^2=q/(2-c), h4=-q exactly.",
+  "decision": {
+    "degree_nine_gram_data_closed_exactly": true,
+    "moment_lower_bounds_require_density_quadrature": false,
+    "moments_determine_full_fisher_exactly": false
+  },
+  "scope_guard": "The recurrence removes density quadrature from finite Hermite lower bounds. It neither evaluates the full Fisher integral nor regularizes z=0 by substitution into a divergent raw-moment formula."
+}

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: a520377dc7a0cae65421c01329d5b06f0380917b
+revision_basis: 7bc73a68e39bc9d1e77981d0fe93f5e543359c88
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1761--K1765 replace the single uncontrolled sixth-moment denominator by
+    a monotone finite odd-Hermite score-projection hierarchy. For any selected
+    odd Hermite span, the score moments and Gram matrix give the rigorous lower
+    bound `J>=2 alpha^T b-alpha^T G alpha`, optimized as `b^T G^(-1)b` when
+    positive definite. The two-radius chart closes all required moments by the
+    exact recurrence `mu_r=(c/z-z)mu_(r-1)+c mu_(r-2)`, with `h4=-q` and
+    explicit `h6,h8,h10`. Arb certifies the K1753 candidate itself in a ball
+    centered at `1.5917864530497714e-7` with radius at most `3.01e-24`, and
+    proves degree escalation through nine at named controls. The optimized
+    degree-five rare-face limit is finite after exact cancellation. A
+    one-million-leaf direct `(c,z)` interval pilot remained incomplete and is
+    not admitted as a cover; it proves that independent-ball Gram elimination
+    is the wrong engine. The K1760 rectangle, stationarity, uniqueness and
+    global optimality remain open. The bridge census is 465 rows: 386
+    satisfied, ten conditional, 65 excluded and four missing. Protected
+    source, ledger, canon and public states do not move.
+
     K1756--K1760 prove quantitative exclusions of the two singular faces of
     the `q=1/1024` symmetric two-radius rectangle. Arb certifies that the
     `c=0` Rademacher face exceeds K1753's rational candidate by more than
@@ -15536,6 +15553,17 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1761--K1765 give a universal finite Hermite lower hierarchy, exact
+  two-radius moment closure, an absolute Arb upper bound for the incumbent,
+  and a finite rare-face degree-five limit. Can the optimized degree-5/7
+  rational bounds be cancelled in `(t,z)` coordinates, their denominators
+  proved positive, and their sublevel set covered by a replayable exact
+  partition before full Fisher interval Newton is applied only to the local
+  survivor tube? The direct independent-ball pilot is rejected and proves no
+  box cover. Quantitative Haar saving and a realizable correlated tensor remain
+  separate alternatives; no scalar trial law is a source-owned physical state
+  or unrestricted infimum.
+
   K1756--K1760 exclude an explicit rare-atom collar and a uniform zero-noise
   collar, including their joint corner, and reduce the `q=1/1024` global
   two-radius search to the closed rectangle `0<=c<=2-1/961`,
@@ -18441,6 +18469,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1761 as a finite-test lower hierarchy: every fixed coefficient
+  vector is legal and nested optimized spans are monotone, but finite degree
+  need not equal full Fisher. Preserve K1762's moment formulas only on `z>0`;
+  use exact cancellation before a rare-face limit rather than substituting
+  divergent raw moments at `z=0`. Preserve K1763 as an absolute Arb candidate
+  upper bound and named-point degree escalation, not a parameter-box cover.
+  Preserve K1764's million-leaf result as a fail-closed engineering rejection:
+  it emitted no replayable complete partition and proves no global exclusion.
+  Next substitute `c=2-q/t^2`, cancel the optimized degree-5/7 rational,
+  prove denominator positivity, cover its sublevel set exactly, and reserve
+  full Fisher interval Newton for the survivor tube. No stationarity,
+  uniqueness, global optimizer, source-owned Hamiltonian, physical state,
+  observation, prediction or admission follows.
+
   Preserve K1756 as an Arb-certified comparison between the Rademacher face
   and one named rational candidate at `q=1/1024`. Preserve K1757 only on
   `t<=31/32`: its explicit variational modulus is one-sided and is not a

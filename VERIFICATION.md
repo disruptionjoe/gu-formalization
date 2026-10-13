@@ -7,6 +7,29 @@ updated_at: "2026-10-13"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1761--K1765 Hermite projection wave (2026-10-13)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Finite odd-Hermite score tests lower relative Fisher | K1761 variational identity and Gram product | proved for every finite selected odd span |
+| Enlarging the span can weaken the lower bound | K1761 nested optimization | false: optimized lower bounds are monotone |
+| The two-radius degree-nine Gram data require density quadrature | K1762 exact central-moment recurrence | false: `h4,h6,h8,h10` close algebraically |
+| The K1753 candidate has a certified absolute Fisher upper bound | K1763 Arb compact cells plus analytic tail | certified ball centered at `1.5917864530497714e-7` with radius at most `3.01e-24` |
+| Degree escalation can separate named controls | K1763 degree-3/5/7/9 Arb projections | certified at Rademacher, interior and near controls; the candidate survives degree nine |
+| Divergent raw rare-face moments force the optimized degree-five lower bound to diverge | K1764 symbolic cancellation | false: the exact finite limit is `2t^4/(3-2q+2qt-5t^2+4t^3)` |
+| The million-leaf direct interval pilot completed the rectangle | K1764 fail-closed accounting | false: 282 leaves were unresolved or unvisited and no replayable complete partition was emitted |
+| The two-radius global optimizer is proved | K1765 protected integration | not established |
+
+The five producers pass `79/79` direct controls and the five hostile probes
+reject `34/34` mutations. They certify the universal projection hierarchy,
+exact moment closure, the absolute candidate upper bound, named degree
+escalation, the cancelled rare-face limit and the rejection of the naïve
+interval engine. They do not prove a global box cover, stationarity,
+uniqueness, global scalar optimality, an unrestricted field lower theorem or
+source-owned physics. The bridge census is 465 rows: 386 satisfied, ten
+conditional, 65 excluded and four missing. Source, ledger, canon and public
+states do not move.
+
 ## K1756--K1760 two-radius boundary-collar wave (2026-10-13)
 
 | Claim | Evidence | Honest grade |
