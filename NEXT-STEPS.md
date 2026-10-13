@@ -7,6 +7,21 @@ updated_at: "2026-10-13"
 
 # Next Steps For Contributors
 
+> **2026-10-13 K1801--K1805 LOCAL TAYLOR AND PROJECTION-COMPLEMENT WAVE.**
+> A reusable compact third-order Arb jet now preserves the local Fisher
+> cancellations. At K1788's exact slab-two KKT point, however, the exact
+> degree-thirteen Hermite projection is below threshold by
+> `4.7809637550115722874415605586016e-15`, while full Fisher exceeds that
+> projection by more than `2.5e-14`. The positive complement, not another raw
+> projection degree, is the decisive missing certificate. K1804 also reduces
+> 340 box-local face and corner incidences to 122 exposed atomic faces and 122
+> exposed boundary vertices, and proves that the seven slab-two leaves form
+> one exact rational rectangle. Next lower-bound the projection complement or
+> build a direct centered whole-line full-value enclosure on that rectangle,
+> then cover slab three and every exposed boundary. Do not promote the local
+> point comparison or geometry atlas to slab exclusion, complete uniqueness,
+> a global optimizer, an unrestricted theorem or source-owned physics.
+
 > **2026-10-13 K1796--K1800 DEGREE-ELEVEN RETAINED-BOX CONTRACTION WAVE.**
 > Fixed-cutoff fraction-free Gram inversion and a separable exact Bernstein
 > transform remove the prior degree-eleven resource block. Degree eleven now

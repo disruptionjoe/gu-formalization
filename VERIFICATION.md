@@ -7,6 +7,22 @@ updated_at: "2026-10-13"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1801--K1805 full-Fisher local Taylor and complement wave (2026-10-13)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A cancellation-preserving third-order compact parameter jet is unavailable | K1801 normalized bivariate Arb Taylor algebra and 352-cell replay | false at exact rational centers; a wide-box sixth-order remainder remained indeterminate |
+| Degree thirteen alone closes the slab-two KKT point | K1802 exact rational projection evaluation | false: it lies below threshold by `4.7809637550115722874415605586016e-15` |
+| The omitted full-Fisher complement is negligible there | K1802 full-Fisher comparison | false at the named point: the positive complement is greater than `2.5e-14` |
+| Seven slab-two leaves require seven separate geometric closures | K1804 exact atomic atlas | false: their union is one exact rational rectangle |
+| K1799's 340 face/corner incidences are unique boundary obligations | K1804 endpoint splitting and incidence count | false: 122 exposed atomic faces and 122 exposed boundary vertices remain |
+| Complete slab-two exclusion or a global optimizer follows | K1803/K1805 protected admission | not established |
+
+The bridge census is 505 rows: 426 satisfied, ten conditional, 65 excluded
+and four missing. The five producers pass `66/66` controls and the five
+hostile probes reject `27/27` mutations. Source, ledger, canon and public
+states do not move.
+
 ## K1796--K1800 degree-eleven retained-box contraction wave (2026-10-13)
 
 | Claim | Evidence | Honest grade |

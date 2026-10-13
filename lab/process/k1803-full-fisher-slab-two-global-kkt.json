@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1803",
+  "status": "active_research",
+  "title": "The slab-two KKT point remains locally isolated while global closure waits on the positive projection complement",
+  "inputs": ["K1788", "K1802"],
+  "certificate": {
+    "local_boundary_kkt_strictly_isolated": true,
+    "local_inward_t_gradient_strict": true,
+    "local_value_strictly_above_threshold": true,
+    "degree_thirteen_projection_below_threshold_at_same_point": true,
+    "full_minus_projection_gt_2_5e_minus_14": true,
+    "complete_slab_two_hessian_or_gradient_cover_available": false
+  },
+  "decision": {
+    "unique_local_slab_two_boundary_kkt_point": true,
+    "positive_unresolved_projection_complement_at_local_kkt": true,
+    "slab_two_globally_excluded": false,
+    "global_optimizer_proved": false
+  },
+  "scope_guard": "K1788's local boundary KKT certificate and strict value order remain valid. K1802 identifies why the exact degree-thirteen lower hierarchy cannot globalize that result: it misses a positive complement exceeding 2.5e-14 at the KKT point itself. Without a complete Hessian, directed-gradient or full-value cover on the residual rectangle, slab-two exclusion remains open."
+}

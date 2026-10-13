@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 9a2a6c862f7275da7471e4b1540bd0cd45c211b2
+revision_basis: 95bbf381cb95dd58076038d5dca0aba887b14458
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1801--K1805 build a reusable compact-window third-order Arb parameter
+    jet, then show exactly why finite Hermite-degree escalation cannot by
+    itself close the decisive slab-two point. At K1788's boundary KKT point,
+    the exact degree-thirteen projection is
+    `0.00000015917864052403624498842771255844`, below the comparison threshold
+    by `4.7809637550115722874415605586016e-15`, while rigorous full Fisher
+    exceeds that projection by more than `2.5e-14`. The missing positive
+    complement is therefore the next proof obligation. Exact geometry
+    deduplication reduces K1799's 340 face and 340 corner incidences to 231
+    atomic faces and 147 unique corner points: 122 exposed faces, 109 shared
+    internal faces, 122 exposed boundary vertices and 25 internal points. The
+    seven slab-two leaves are exactly one rational rectangle. A wide-box
+    sixth-order interval remainder became indeterminate and is not admitted
+    as evidence. Complete slab-two exclusion, complete slab-three uniqueness,
+    all exposed-boundary certificates and global optimality remain withheld.
+    The bridge census is 505 rows: 426 satisfied, ten conditional, 65 excluded
+    and four missing. Protected source, ledger, canon and public states do not
+    move.
+
     K1796--K1800 repair K1795's symbolic degree-eleven resource failure by
     specializing `q=1/1024` before fraction-free exact Gram inversion and by
     replacing the slow tensor expansion with a separable exact affine
@@ -15666,6 +15685,15 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1801--K1805 isolate the exact obstruction at the slab-two KKT point: the
+  degree-thirteen Hermite projection lies below threshold, but its positive
+  full-Fisher complement is larger than `2.5e-14` and changes the decision.
+  Can that complement be uniformly lower-bounded on K1804's single exact
+  slab-two rectangle, or can a centered whole-line Taylor/affine enclosure
+  certify the full value there, before the same method is applied to slab
+  three's 78 leaves and 122 exposed atomic faces and boundary vertices? No
+  scalar trial law is a source-owned physical state or unrestricted infimum.
+
   K1796--K1800 raise exact exclusion to `15019/15104` of the original
   full-Fisher input cover and reduce slab two to seven residual leaves and
   slab three to 78. Can cancellation-aware local Taylor models, directed
@@ -18592,6 +18620,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1801 as a point-centered compact third-order jet, not a uniform
+  parameter-box theorem. The attempted sixth-order interval remainder is
+  indeterminate and supplies no scientific bound. Preserve K1802's exact
+  degree-thirteen value as a projection lower bound below threshold, and its
+  positive full-Fisher complement only at the named K1788 point. Preserve
+  K1803 as a retained local KKT certificate, not complete slab-two exclusion.
+  Preserve K1804 as exact geometry deduplication: its 122 exposed faces and
+  122 exposed boundary vertices remain proof obligations. Next lower-bound
+  the positive complement beyond degree thirteen, or build a direct
+  whole-line centered Taylor/affine full-value enclosure, on the exact
+  slab-two rectangle; then apply the method to slab three and every exposed
+  boundary before global promotion. No source-owned Hamiltonian, physical
+  state, observation, prediction or admission follows.
+
   Preserve K1796 as an exact degree-eleven outer-cover contraction: retained
   leaves are not sublevel members, stationary components or optimizers.
   Preserve K1797 and K1798 as strict area contractions around local K1788 and

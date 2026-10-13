@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1804",
+  "status": "active_research",
+  "title": "The residual full-Fisher frontier has 231 exact atomic faces and 147 unique corner points",
+  "inputs": ["K1796"],
+  "certificate": {
+    "input_partition_digest": "0b327f8e6a74d5df3e1b24261d5bccdc24229162043494ad82aaaa7922c1d9c0",
+    "retained_boxes": 85,
+    "by_slab": {"2": 7, "3": 78},
+    "box_local_face_incidences": 340,
+    "box_local_corner_incidences": 340,
+    "unique_atomic_faces": 231,
+    "exposed_atomic_faces": 122,
+    "shared_internal_atomic_faces": 109,
+    "maximum_face_incidence": 2,
+    "unique_corner_points": 147,
+    "exposed_boundary_vertices": 122,
+    "internal_corner_points": 25,
+    "slab_two_union_rectangle": {
+      "t": ["56314519603/1099511627776", "887855469/17179869184"],
+      "z": ["589/1024", "1185/2048"],
+      "box_count": 7
+    },
+    "atlas_digest": "80c3c674d78df8af7c284b1ea400c4557aea7a01e4c1a6de55548490fceefda1"
+  },
+  "method": "Replay K1796's exact retained boxes, split every collinear face at every exact rational endpoint, count incident boxes on each atomic segment, and deduplicate all exact corner coordinates. Boundary vertices are the endpoints of incidence-one atomic faces.",
+  "decision": {
+    "box_local_boundary_incidences_deduplicated": true,
+    "slab_two_residual_union_is_one_exact_rectangle": true,
+    "all_exposed_faces_and_corners_certified": false,
+    "global_optimizer_proved": false
+  },
+  "scope_guard": "K1804 replaces K1799's conservative 340 face and 340 corner incidences by an exact geometry atlas: 122 exposed atomic faces, 109 shared internal atomic faces, 122 exposed boundary vertices and 25 internal corner points. Deduplication removes duplicate obligations; it does not certify any remaining boundary."
+}

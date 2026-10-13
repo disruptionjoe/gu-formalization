@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1805",
+  "status": "active_research",
+  "title": "Local method and boundary obligations sharpen while global optimizer admission remains withheld",
+  "inputs": ["K1801", "K1802", "K1803", "K1804"],
+  "bridge_census": {"total": 505, "satisfied": 426, "conditional": 10, "excluded": 65, "missing": 4},
+  "protected_state": {
+    "source_register_changed": false,
+    "standing_ledger_changed": false,
+    "canon_changed": false,
+    "paper_changed": false,
+    "prediction_changed": false,
+    "confirmation_changed": false,
+    "public_posture_changed": false,
+    "k1145_score": "0/7",
+    "k1150_score": "0/7"
+  },
+  "entry_state": {
+    "compact_third_order_parameter_jet_certified": true,
+    "degree_thirteen_projection_only_closure_rejected": true,
+    "positive_projection_complement_at_slab_two_kkt_gt_2_5e_minus_14": true,
+    "slab_two_residual_union_exact_rectangle": true,
+    "residual_exposed_atomic_faces": 122,
+    "residual_exposed_boundary_vertices": 122,
+    "slab_two_globally_excluded": false,
+    "complete_slab_three_stationary_classification": false,
+    "all_exposed_boundaries_certified": false
+  },
+  "decision": {
+    "global_optimizer_proved": false,
+    "source_owned_physical_theory": false
+  },
+  "next_gate": "Lower-bound the positive full-Fisher complement beyond degree thirteen, or build a direct whole-line centered Taylor/affine enclosure, on the exact slab-two rectangle; then apply the same certified full-value method to slab three's 78 leaves and K1804's 122 exposed atomic faces and boundary vertices.",
+  "scope_guard": "K1801 supplies a reusable compact third-order jet, K1802 proves that projection-only closure fails at the decisive slab-two KKT point, and K1804 removes duplicate boundary obligations. None supplies the complete whole-line Hessian/value cover still required for slab-two exclusion, slab-three uniqueness or a global optimizer theorem."
+}

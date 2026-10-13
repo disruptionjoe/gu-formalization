@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1802",
+  "status": "active_research",
+  "title": "The degree-thirteen projection misses a certified positive Fisher complement at the slab-two KKT point",
+  "inputs": ["K1788", "K1801"],
+  "certificate": {
+    "point": {"t": "887855469/17179869184", "z": "576161143609/1000000000000", "q": "1/1024"},
+    "odd_projection_degree": 13,
+    "odd_basis_dimension": 6,
+    "projection_value_decimal": "0.00000015917864052403624498842771255844",
+    "threshold_decimal": "0.00000015917864530500000000000000000000",
+    "threshold_minus_projection_decimal": "4.7809637550115722874415605586016e-15",
+    "projection_strictly_below_threshold": true,
+    "threshold_deficit_gt_1e_minus_15": true,
+    "full_fisher_minus_projection_lower_enclosure": "[2.531412818840723119931390705517060268903e-14 +/- 2.65e-23]",
+    "full_fisher_minus_projection_gt_2_5e_minus_14": true
+  },
+  "method": "Evaluate the exact degree-thirteen odd-Hermite Gram projection at K1788's rational slab-two KKT checkpoint, compare it exactly with the admitted threshold, then subtract it from K1788's Arb-certified full-Fisher value lower endpoint.",
+  "decision": {
+    "degree_thirteen_projection_only_closure_rejected": true,
+    "complete_whole_line_slab_two_taylor_bank_certified": false,
+    "slab_two_globally_excluded": false
+  },
+  "scope_guard": "The exact degree-thirteen projection lies more than 1e-15 below the threshold at the actual slab-two KKT point even though the full Fisher value lies above it. The missing positive complement exceeds 2.5e-14 there. Deeper Bernstein subdivision or raw finite-degree projection alone cannot certify the point; the next valid local method must lower-bound that complement or directly enclose the full Fisher functional."
+}
