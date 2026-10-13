@@ -7,6 +7,21 @@ updated_at: "2026-10-12"
 
 # Next Steps For Contributors
 
+> **2026-10-12 K1726--K1730 SHARP FOUR-POINT QUARTIC SEED ENVELOPE.** Every
+> regular compact uniformly bounded symmetric seed path with finite scaled
+> sixth and eighth cumulants obeys
+> `D=11/108+(a-35/3)^2/120+(x-35)^2/5040`. An exact symmetric four-point law,
+> determined by the unique `u in (0,1)` solving
+> `17u^3-38u^2+84u-24=0`, has `kappa_4=-u`, `kappa_6=0` and `h_8=35u^2`;
+> a local probability deformation realizes `a=35/3` and attains the floor.
+> This improves the moving three-point branch by exactly
+> `5(sqrt(105)+19)/168` at matched quartic order, with strict Legendre and
+> fixed-packet consequences. Next solve the exact finite-strength scalar
+> infimum, classify singular/growing-support or vanishing-defect paths,
+> quantify Haar saving, test correlated tensors or nonrectangular packets, or
+> prove an arbitrary-stationary lower bound. Do not infer an unrestricted
+> optimizer, continuum state or source-owned physical theory.
+
 > **2026-10-12 K1721--K1725 FAITHFUL DIAGONAL COMPACT CIRCLE.** For the same
 > `K/M` spherical carrier, connectedness of `K` and finiteness of `M` give the
 > exact full action kernel `core_K(M)=Z(K)={1,z}`. The primitive diagonal loop

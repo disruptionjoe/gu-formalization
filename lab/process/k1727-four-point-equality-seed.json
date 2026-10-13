@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1727",
+  "status": "active_research",
+  "title": "An exact symmetric four-point seed realizes the quartic equality moments",
+  "algebraic_seed": {
+    "u": "the unique real root in (0,1) of 17u^3-38u^2+84u-24=0",
+    "root_interval": "3270136791/10000000000 < u < 3270136792/10000000000",
+    "symmetric_data": "S=2(6-7u)/(2-u), R=S-(3-u), A=(S-sqrt(S^2-4R))/2, B=(S+sqrt(S^2-4R))/2, p=(B-1)/(B-A).",
+    "law": "P(X=+-sqrt(A))=p/2 and P(X=+-sqrt(B))=(1-p)/2.",
+    "order": "0<A<1<B, 0<p<1 and E[X^2]=1.",
+    "moments": "E[X^4]=3-u, E[X^6]=15-15u, E[X^8]=105-210u+35u^2.",
+    "hermite_moments": "kappa_4=-u<0, kappa_6=0 and h_8=35u^2.",
+    "numerical_orientation": "u=0.327013679166042..., A=0.441384393880459..., B=3.994879309683925..., p=0.842798253731782...."
+  },
+  "decision": {
+    "bounded_symmetric_unit_variance": true,
+    "negative_fourth_cumulant": true,
+    "sixth_hermite_zero": true,
+    "eighth_ratio_exact": "35",
+    "three_point_family": false
+  },
+  "scope_guard": "This is an exact four-atom scalar trial seed. Its moments do not supply a field-law minimizer, physical state, source-owned action or nonperturbative channel ordering."
+}

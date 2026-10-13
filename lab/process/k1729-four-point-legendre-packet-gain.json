@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1729",
+  "status": "active_research",
+  "title": "The moving four-point path yields an exact quartic Legendre and packet gain over the moving three-point branch",
+  "transfer": {
+    "coefficient_gap": "Delta_D=D_3-D_4=5(sqrt(105)+19)/168.",
+    "legendre_gap": "Phi_4pt(r)=Phi_3pt(r)-[135(sqrt(105)+19)/56]r^4+o(r^4).",
+    "packet_factorization": "F(C,g)=[tau_g(C)/4]Phi(4g ell_g(C)/tau_g(C)).",
+    "fixed_packet_gap": "F_4pt(C,g)=F_3pt(C,g)-[1080(sqrt(105)+19)/7]g^4 ell_g(C)^4/tau_g(C)^3+o_C(g^4).",
+    "optimized_shape_consequence": "On K1697's compact interior neighborhood of small-g rectangular minimizers, the moving four-point envelope is strictly lower than the moving three-point envelope by at least c_4g^4+o(g^4) for some c_4>0."
+  },
+  "decision": {
+    "legendre_gap_exact": true,
+    "fixed_packet_gap_exact": true,
+    "rectangular_shape_optimized_strict_gain": true,
+    "exact_global_quartic_shape_coefficient_identified": false,
+    "unrestricted_coefficient_identified": false
+  },
+  "scope_guard": "The transfer uses the K1683 scalar-product rectangular trial and the weak-reward expansion. Shape motion can change the exact optimized quartic constant, and no unrestricted lower bound follows."
+}

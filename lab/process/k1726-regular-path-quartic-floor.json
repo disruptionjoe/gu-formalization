@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1726",
+  "status": "active_research",
+  "title": "Regular bounded symmetric seed paths have a sharp completed-square quartic floor",
+  "regular_path": {
+    "scope": "X_q is a compact uniformly bounded family of symmetric centered unit-variance seeds with u_q=-kappa_4(X_q)->u_0>0, matched channel t_q=sqrt(q/u_q), kappa_6(X_q)/(u_q^(3/2)sqrt(q))->a and h_8(X_q)/u_q^2->x.",
+    "matched_law": "j_(X_q)(t_q)=q^2/6+q^3/4+D(a,x)q^4+o(q^4).",
+    "coefficient": "D(a,x)=a^2/120-7a/36+x^2/5040-x/72+71/48.",
+    "completed_squares": "D(a,x)=11/108+(a-35/3)^2/120+(x-35)^2/5040.",
+    "equality_conditions": "a=35/3 and x=35.",
+    "uniformity": "K1706's O_X(t^9) remainder is uniform on the compact bounded-support neighborhood used by the path, hence O(q^(9/2))=o(q^4)."
+  },
+  "decision": {
+    "regular_path_quartic_floor_exact": "11/108",
+    "two_square_defect_exact": true,
+    "fixed_seed_cubic_floor_preserved": true,
+    "all_seed_nonperturbative_optimizer_identified": false
+  },
+  "scope_guard": "The floor governs regular compact bounded symmetric weak-reward paths with u_0>0 and the stated scaled moment limits. It does not control growing support, vanishing negative defect, finite channel strength, correlated field laws or the unrestricted stationary coefficient."
+}

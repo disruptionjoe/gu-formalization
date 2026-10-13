@@ -7,6 +7,23 @@ updated_at: "2026-10-12"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1726--K1730 sharp four-point quartic seed envelope (2026-10-12)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The moving three-point branch is quartic-optimal over wider regular compact seed paths | K1726 completed-square law plus K1727 equality seed | false: every regular path has `D>=11/108`, and an exact symmetric four-point seed attains equality |
+| The lower floor is merely formal | K1727 algebraic seed and K1728 implicit moving branch | false: the four-point law has `kappa_4=-u`, `kappa_6=0`, `h_8=35u^2`, and a local path realizes the required scaled sixth cumulant |
+| The scalar gain disappears after optimization | K1729 Legendre and fixed-packet substitutions | false at quartic order for fixed nondegenerate K1683 packets |
+| The result solves exact finite strength or unrestricted field optimization | K1730 protected admission | not established |
+
+The five producers pass `106/106` exact algebra, root, moment, implicit-branch,
+Legendre, packet and protected-admission controls; five hostile probes reject
+`57/57` scope, coefficient, singular-path and ownership mutations. The exact
+gap from the moving three-point coefficient is
+`5(sqrt(105)+19)/168`. The bridge census is 430 rows: 351 satisfied, ten
+conditional, 65 excluded and four missing. Source, ledger, canon and public
+states do not move.
+
 ## K1721--K1725 faithful diagonal compact circle (2026-10-12)
 
 | Claim | Evidence | Honest grade |

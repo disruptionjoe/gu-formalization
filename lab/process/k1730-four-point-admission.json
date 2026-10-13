@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1730",
+  "status": "active_research",
+  "title": "Sharp wider-seed quartic admission boundary",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "bridge_census": {
+    "row_count": 430,
+    "satisfied_count": 351,
+    "conditional_count": 10,
+    "excluded_count": 65,
+    "missing_count": 4,
+    "new_satisfied_rows": ["K1726", "K1727", "K1728", "K1729", "K1730"],
+    "protected_missing_rows": ["SC-ACT-01", "SC-ACT-02", "SC-ACT-06", "SC-META-53"]
+  },
+  "protected_state": {
+    "source_claims": "SC-ACT-01/02/06 remain ASSERTS; SC-META-53 remains UNCERTAIN.",
+    "physics_ledger": "33 SAME / 22 DIFFERS / 31 NEEDS / 2 OVER-DETERMINED",
+    "candidate_counts": "K1145 and K1150 remain 0/7.",
+    "canon_change": false,
+    "paper_change": false,
+    "prediction_or_confirmation": false,
+    "public_posture_change": false
+  },
+  "decision": {
+    "conditional_mathematical_advance": true,
+    "regular_path_quartic_floor_proved": true,
+    "exact_four_point_equality_seed_constructed": true,
+    "moving_four_point_attainment_proved": true,
+    "moving_three_point_wider_class_optimality": false,
+    "rectangular_packet_quartic_gain_proved": true,
+    "all_seed_nonperturbative_optimizer_identified": false,
+    "unrestricted_stationary_lower_bound_proved": false,
+    "source_owned_physical_theory": false,
+    "protected_status_change": false
+  },
+  "next_condition": "Test the exact finite-strength scalar infimum or a wider singular path with growing support or vanishing defect; independently quantify translation-Haar saving, test correlated cumulant tensors or nonrectangular packets, or prove an unrestricted stationary lower bound. The physical source/action/carrier/domain/observation tuple remains separate."
+}

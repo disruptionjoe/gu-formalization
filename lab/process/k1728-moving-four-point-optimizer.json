@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1728",
+  "status": "active_research",
+  "title": "A normalized moving four-point path attains the regular-path quartic floor",
+  "moving_path": {
+    "base": "Use K1727's A,B,p_0 and vary the lower-radius total probability p; renormalize by v(p)=pA+(1-p)B so X_p has squared radii A/v(p), B/v(p) and unit variance.",
+    "sixth_derivative": "At p_0=(B-1)/(B-A), kappa_6'(p_0)=(A-B)T(u), where T(u)=2(7u^3-18u^2+84u-24)/(u-2)^2.",
+    "nonzero_certificate": "gcd(17u^3-38u^2+84u-24, 7u^3-18u^2+84u-24)=1 and the integer resultant is 589824000, so kappa_6'(p_0) is nonzero.",
+    "implicit_motion": "Apply the implicit-function theorem in s=sqrt(q). For all sufficiently small s>0 it gives a unique p(s)->p_0 with kappa_6(X_(p(s)))/u(p(s))^(3/2)=(35/3)s, equivalently (35/3)sqrt(q); write this path as p(q).",
+    "first_motion": "p(q)=p_0+beta sqrt(q)+O(q), beta=(35/3)u^(3/2)/kappa_6'(p_0)=-0.480253485638498... .",
+    "attainment": "Along t(q)=sqrt(q/u(p(q))), a=35/3 and h_8/u^2->35, hence j_4pt(q)=q^2/6+q^3/4+(11/108)q^4+o(q^4)."
+  },
+  "comparison": {
+    "moving_three_point_coefficient": "1009/1512+5sqrt(105)/168",
+    "moving_four_point_coefficient": "11/108",
+    "strict_gap": "5(sqrt(105)+19)/168",
+    "three_point_wider_class_quartic_optimality": false
+  },
+  "decision": {
+    "local_implicit_path_exists": true,
+    "regular_path_floor_attained": true,
+    "moving_three_point_strictly_beaten": true,
+    "exact_all_seed_finite_strength_optimizer_identified": false
+  },
+  "scope_guard": "The strict comparison is asymptotic at weak matched reward inside compact bounded symmetric scalar paths. It is not a finite-strength global ordering and does not address growing support or vanishing defect."
+}

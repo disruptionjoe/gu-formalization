@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: e69dc082601decc5bbcc98e24c94526846a481b4
+revision_basis: ed700dcb865ae8bff6d1daf5502d2802559e0e4c
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1726--K1730 prove the sharp matched quartic envelope over every regular
+    compact uniformly bounded symmetric seed path with finite scaled sixth and
+    eighth cumulants. Writing the scaled invariants as `a` and `x`, the exact
+    coefficient is
+    `D=11/108+(a-35/3)^2/120+(x-35)^2/5040`. A compact symmetric four-point
+    seed constructed from the unique root `u in (0,1)` of
+    `17u^3-38u^2+84u-24=0` has `kappa_4=-u`, `kappa_6=0` and `h_8=35u^2`;
+    a local probability deformation realizes `a=35/3` and attains the floor.
+    Thus the moving three-point branch is not quartic-optimal in the wider
+    regular class: its exact excess is `5(sqrt(105)+19)/168`. The gain survives
+    Legendre transformation and every fixed nondegenerate K1683 packet. Exact
+    finite strength, singular or growing-support paths, vanishing defect,
+    unrestricted field laws and the source-owned physical theory remain open.
+    The bridge census is 430 rows: 351 satisfied, ten conditional, 65 excluded
+    and four missing. Protected source, ledger, canon and public states do not
+    move.
+
     K1721--K1725 classify an explicit different compact circle on the same
     complete spherical carrier. For connected
     `K=(Spin(7)xSpin(7))/diagonal{plus_or_minus 1}` and finite
@@ -15420,6 +15437,16 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1726--K1729 identify and attain the sharp quartic floor `11/108` over
+  regular compact uniformly bounded symmetric seed paths, strictly improving
+  the moving three-point branch. What is the exact finite-strength scalar
+  infimum? Can singular or growing-support paths, vanishing negative defect,
+  correlated cumulant tensors or nonrectangular packets improve again, or can
+  arbitrary stationary field laws be bounded below by the widened
+  scalar-cardinal functional? Quantitative Haar saving, compactness, Mosco
+  liminf/recovery and `E_N+O(1)` recentering still await the true unrestricted
+  coefficient and shift. The source-owned physical tuple remains separate.
+
   K1721--K1724 show that K1711's parity obstruction is not shared by every
   compact circle on the same complete spherical carrier: the one-factor
   circle `C` has exact kernel `{1,z}`, while the primitive diagonal circle
@@ -18255,6 +18282,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1726's regular compact uniformly bounded symmetric path and finite
+  scaled-invariant hypotheses. The completed-square floor is a weak-channel
+  quartic theorem, not an exact finite-strength ordering. Preserve K1727--K1728's
+  local four-point probability deformation and sufficiently small matched
+  coordinate; it does not cover singular support growth or vanishing defect.
+  Preserve K1729's Legendre and fixed nondegenerate K1683 packet scope; no
+  unrestricted field-law or globally moving-shape optimum is certified. Next
+  solve finite strength, classify escaping seed paths, quantify Haar saving,
+  construct a correlated tensor or nonrectangular packet, or prove an
+  arbitrary-stationary lower bound. No result supplies a source-owned
+  Hamiltonian, physical state, observation, prediction or admission.
+
   Preserve the global-group distinction between `C` and `D`. The equality
   `core_K(M)=Z(K)` uses connected `K` and finite `M`; `D` is a genuine loop
   only because its `2 pi` endpoint is diagonal `(-1,-1)` in the quotient.
