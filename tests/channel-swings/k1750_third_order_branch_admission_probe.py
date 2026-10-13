@@ -5,7 +5,7 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-D = json.loads((ROOT / "lab/process/k1750-third-order-and-arb-integration.json").read_text())
+D = json.loads((ROOT / "lab/process/k1750-third-order-branch-admission.json").read_text())
 
 
 def accepts(x):
