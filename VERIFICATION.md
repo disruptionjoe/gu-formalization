@@ -7,6 +7,27 @@ updated_at: "2026-10-13"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1766--K1770 correlated Hermite sublevel wave (2026-10-13)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Matched `(t,z)` coordinates preserve the fixed defect and remove the independent-`c` wrapping | K1766 exact substitution and cancellation | proved for the finite degree-five and degree-seven threshold rationals |
+| Cross multiplication may reverse sign inside the regular chart | K1767 positive-density Gram theorem | false: every finite odd-Hermite Gram matrix is positive definite |
+| The degree-five partition has unresolved leaves | K1768 exact replay | false: 2,475 pruned, 1,828 retained, zero unresolved |
+| Every K1768 prune is only a floating interval decision | K1768 exact Bernstein confirmation | false: every pruned leaf has a positive exact rational Bernstein lower coefficient |
+| Degree seven fails to improve the outer cover | K1769 exact replay | false: it removes 1,768 of 1,828 degree-five survivors |
+| The remaining set is a finite replayable outer cover | K1769 cell-union digest | proved: one boundary strip plus 59 interior cells |
+| A retained cell contains a full-Fisher stationary point | K1769/K1770 scope controls | not established |
+| The two-radius global optimizer is proved | K1770 protected integration | not established |
+
+The five producers certify exact correlated cancellation, strict Gram
+positivity, a zero-unresolved degree-five partition, a 60-cell degree-seven
+outer cover and protected integration. They do not compute full Fisher on the
+survivors or prove stationarity, uniqueness, global scalar optimality, an
+unrestricted field lower theorem or source-owned physics. The bridge census is
+470 rows: 391 satisfied, ten conditional, 65 excluded and four missing.
+Source, ledger, canon and public states do not move.
+
 ## K1761--K1765 Hermite projection wave (2026-10-13)
 
 | Claim | Evidence | Honest grade |

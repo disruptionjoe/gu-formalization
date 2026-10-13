@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1768",
+  "status": "active_research",
+  "title": "A replayable exact Bernstein partition covers the degree-five sublevel set",
+  "partition": {
+    "degree": 5,
+    "threshold": "31835729061/200000000000000000",
+    "root_t": ["11863283/536870912", "31/32"],
+    "root_z": ["0", "1"],
+    "physical_t_lower_contained": true,
+    "max_depth": {"t": 7, "z": 7},
+    "polynomial_terms": 69,
+    "pruned_leaves": 2475,
+    "retained_leaves": 1828,
+    "unresolved_leaves": 0,
+    "partition_digest": "632911a0f1477a540ab6f1e6d42a4c6d82b9488dda0e780bae23aaa19f5debfc",
+    "retained_hull": ["11863283/536870912", "31/32", "0", "1"]
+  },
+  "certificate_method": "Exact rational Taylor screening followed by exact tensor-product Bernstein confirmation for every pruned leaf.",
+  "decision": {
+    "complete_partition_emitted": true,
+    "every_pruned_leaf_has_positive_bernstein_lower_bound": true,
+    "retained_leaf_means_below_threshold": false,
+    "global_optimizer_proved": false
+  },
+  "scope_guard": "Retained means not excluded by degree five at the declared depth, not that the full Fisher value is below the candidate."
+}

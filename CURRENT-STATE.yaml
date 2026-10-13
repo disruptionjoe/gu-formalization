@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 7bc73a68e39bc9d1e77981d0fe93f5e543359c88
+revision_basis: 68dac33133e9000599625b84fc91727481b47df7
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1766--K1770 replace K1764's incomplete independent-ball pilot by a
+    complete correlation-preserving exact outer cover. With `q=1/1024`, the
+    substitution `c=2-q/t^2` cancels the optimized degree-five and degree-seven
+    Hermite comparisons to exact threshold polynomials. Positive Gaussian
+    smoothing makes every finite odd-Hermite Gram matrix strictly positive
+    definite, so the normalized denominators have fixed positive sign on the
+    regular chart. An exact rational Taylor/Bernstein partition of a rational
+    rectangle containing the full physical domain has 2,475 degree-five
+    prunes, 1,828 retained cells and zero unresolved leaves. Degree seven then
+    prunes 1,768 of those cells and leaves a replayable 60-cell outer cover:
+    one lower-boundary strip plus a 59-cell interior tube. This is not a
+    full-Fisher, stationarity, uniqueness or global-optimizer theorem. The
+    bridge census is 470 rows: 391 satisfied, ten conditional, 65 excluded
+    and four missing. Protected source, ledger, canon and public states do not
+    move.
+
     K1761--K1765 replace the single uncontrolled sixth-moment denominator by
     a monotone finite odd-Hermite score-projection hierarchy. For any selected
     odd Hermite span, the score moments and Gram matrix give the rigorous lower

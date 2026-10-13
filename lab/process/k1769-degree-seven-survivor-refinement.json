@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1769",
+  "status": "active_research",
+  "title": "Degree seven contracts the exact Hermite survivor cover to sixty cells",
+  "refinement": {
+    "degree": 7,
+    "threshold": "31835729061/200000000000000000",
+    "input_partition_digest": "632911a0f1477a540ab6f1e6d42a4c6d82b9488dda0e780bae23aaa19f5debfc",
+    "input_retained_leaves": 1828,
+    "newly_pruned_leaves": 1768,
+    "retained_leaves": 60,
+    "unresolved_leaves": 0,
+    "polynomial_terms": 255,
+    "refinement_digest": "c9a1006ec9c1bfc4e607044d8275cca080e892f7105c87e4dfffc0ebfdd3091a",
+    "retained_hull": ["11863283/536870912", "4059652289/68719476736", "0", "1"],
+    "boundary_strip_leaves": 1,
+    "boundary_strip_hull": ["11863283/536870912", "2026730637/68719476736", "0", "1/128"],
+    "interior_retained_leaves": 59,
+    "interior_retained_hull": ["1267480525/34359738368", "4059652289/68719476736", "17/32", "1"]
+  },
+  "decision": {
+    "degree_seven_strictly_contracts_degree_five_cover": true,
+    "survivor_union_is_replayable": true,
+    "full_fisher_interval_newton_completed": false,
+    "stationarity_proved": false,
+    "global_optimizer_proved": false
+  },
+  "next_gate": "Apply full-Fisher Arb interval Newton and boundary-aware monotonicity to the one lower-boundary strip plus the 59-cell interior tube; then prove existence, uniqueness and comparison on every survivor component.",
+  "scope_guard": "The sixty cells are an outer cover for possible degree-seven sublevel points. They are not sixty full-Fisher competitors or evidence of sixty stationary points."
+}

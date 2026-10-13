@@ -7,6 +7,18 @@ updated_at: "2026-10-13"
 
 # Next Steps For Contributors
 
+> **2026-10-13 K1766--K1770 CORRELATED HERMITE SUBLEVEL WAVE.** The failed
+> independent-`(c,z)` interval engine has been replaced by exact matched
+> coordinates `c=2-q/t^2`, positive Gram denominators, and a replayable
+> rational Taylor/Bernstein partition. Degree five produces 2,475 certified
+> prunes and 1,828 retained cells with zero unresolved leaves; degree seven
+> contracts those survivors to exactly 60 cells, split into one lower-boundary
+> strip and a 59-cell interior tube. Next apply full-Fisher Arb interval Newton
+> and boundary-aware monotonicity on that exact cell union, then prove
+> componentwise existence, uniqueness and value comparison. Do not treat a
+> retained cell as a stationary point or infer global scalar, all-seed,
+> unrestricted-field, or source-owned physical optimality.
+
 > **2026-10-13 K1761--K1765 HERMITE PROJECTION WAVE.** Every finite odd
 > Hermite score test now gives an exact Fisher lower bound, with a monotone
 > optimized hierarchy. The two-radius chart closes the degree-nine data by an

@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1766",
+  "status": "active_research",
+  "title": "Matched (t,z) coordinates cancel the degree-five and degree-seven Hermite tests exactly",
+  "coordinate": {
+    "q": "1/1024",
+    "substitution": "c=2-q/t^2",
+    "physical_t_range": "sqrt(1/2048)<=t<=31/32",
+    "physical_z_range": "10^-34<=z<=1",
+    "rational_outer_t_lower": "11863283/536870912",
+    "outer_lower_proof": "(11863283/536870912)^2<1/2048"
+  },
+  "cancelled_tests": {
+    "degree_five_threshold_polynomial_terms": 69,
+    "degree_seven_threshold_polynomial_terms": 255,
+    "threshold": "31835729061/200000000000000000",
+    "threshold_exceeds_k1763_candidate_upper": true
+  },
+  "decision": {
+    "matched_coordinate_preserves_c_t_correlation": true,
+    "z_zero_is_removable_for_the_cancelled_threshold_polynomials": true,
+    "raw_moment_substitution_at_z_zero_is_allowed": false,
+    "full_fisher_computed_by_the_rational_tests": false
+  },
+  "scope_guard": "The cancelled polynomials encode finite Hermite lower tests against one rational upper threshold. They are not the full Fisher integral and do not prove a global optimizer."
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1770",
+  "status": "active_research",
+  "title": "The exact Hermite survivor cover is admitted without promoting global optimality",
+  "inputs": ["K1765", "K1766", "K1767", "K1768", "K1769"],
+  "bridge_census": {"total": 470, "satisfied": 391, "conditional": 10, "excluded": 65, "missing": 4},
+  "protected_state": {
+    "source_claim_register_changed": false,
+    "standing_physics_ledger_changed": false,
+    "canon_changed": false,
+    "papers_changed": false,
+    "predictions_changed": false,
+    "confirmations_changed": false,
+    "public_posture_changed": false,
+    "k1145_score": "0/7",
+    "k1150_score": "0/7"
+  },
+  "decision": {
+    "correlation_preserving_engine_admitted": true,
+    "zero_unresolved_partition_admitted": true,
+    "sixty_cell_degree_seven_outer_cover_admitted": true,
+    "full_fisher_stationarity_or_uniqueness_admitted": false,
+    "global_two_radius_optimizer_admitted": false,
+    "all_seed_or_physical_result_admitted": false
+  },
+  "next_gate": "Full-Fisher interval Newton and boundary-aware monotonicity on the one boundary strip and 59-cell interior tube, followed by componentwise existence, uniqueness and value comparison.",
+  "scope_guard": "This wave replaces the failed million-leaf engine by a complete exact outer cover. It does not finish the scalar optimization or supply an unrestricted field, source-owned, or physical minimum."
+}
