@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1746",
+  "status": "active_research",
+  "title": "Bounded symmetric scalar Gaussian channels have an exact fourteenth-order relative-Fisher expansion",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "scope": "One fixed bounded symmetric centered unit-variance real seed under the scalar Gaussian channel, with probabilists' Hermite normalization.",
+  "gu_typed_objects": {
+    "carrier": "a fixed bounded symmetric real probability law X with E X=0 and E X^2=1",
+    "map": "X -> sqrt(t) X + sqrt(1-t) G, followed by the density ratio against the standard Gaussian",
+    "coordinates": "kappa_4=E H_4(X), kappa_6=E H_6(X), h_8=E H_8(X), h_10=E H_10(X), h_12=E H_12(X), h_14=E H_14(X)",
+    "quantifiers": "for each fixed bounded symmetric seed as t tends to zero",
+    "owner": "repository-internal scalar-channel calculation; no source-owned state, action, observation or physical probability law"
+  },
+  "hermite_law": {
+    "density_ratio": "p_t/phi=1+(kappa_4/24)t^2H_4+(kappa_6/720)t^3H_6+(h_8/40320)t^4H_8+(h_10/3628800)t^5H_10+(h_12/479001600)t^6H_12+(h_14/87178291200)t^7H_14+O_X(t^8).",
+    "thirteenth_coefficient": "13[441485100kappa_4^5kappa_6-16895130kappa_4^2kappa_6^3-13524840kappa_4^3kappa_6h_8-508725kappa_4^4h_10+73206kappa_6^3h_8+92070kappa_4kappa_6h_8^2+36330kappa_4kappa_6^2h_10+16245kappa_4^2h_8h_10+1680kappa_4^2kappa_6h_12-63h_8^2h_10-30kappa_6h_10^2-18kappa_6h_8h_12-5kappa_4h_10h_12]t^13/5443200.",
+    "fourteenth_coefficient": "[h_14^2-2002kappa_4h_10h_14-6006kappa_6h_8h_14+420420kappa_4^2kappa_6h_14-6006kappa_4h_12^2-90090kappa_6h_10h_12-84084h_8^2h_12-210210h_8h_10^2+18078060kappa_4^2h_8h_12+26027001kappa_4^2h_10^2+37585548kappa_4kappa_6^2h_12+486137652kappa_4kappa_6h_8h_10+181621440kappa_4h_8^3+181621440kappa_6^3h_10+627810183kappa_6^2h_8^2-460359900kappa_4^4h_12-30603212640kappa_4^3kappa_6h_10-36786719970kappa_4^3h_8^2-259246947960kappa_4^2kappa_6^2h_8-103188977892kappa_4kappa_6^4+2083500619200kappa_4^5h_8+12723722681670kappa_4^4kappa_6^2-38476131794100kappa_4^7]t^14/6227020800.",
+    "derivation": "Expand integral phi (r_t')^2/r_t with the Mehler density ratio, invert r_t as a formal series, and evaluate every Gaussian Hermite contraction exactly.",
+    "normalization": "H_n is the probabilists' Hermite polynomial and E[H_n(G)^2]=n! for G standard Gaussian."
+  },
+  "decision": {
+    "thirteenth_order_term_identified": true,
+    "fourteenth_order_term_identified": true,
+    "h_14_absent_at_thirteenth_order": true,
+    "new_moment_first_enters_at_fourteenth_order": "h_14",
+    "bounded_symmetric_scope_only": true,
+    "uniform_remainder_for_moving_or_growing_seeds": false,
+    "finite_strength_optimizer_identified": false,
+    "source_or_physical_status_changed": false
+  },
+  "scope_guard": "The law is a fixed-seed local expansion. It is not uniform for moving laws, growing support, vanishing defect, singular chart boundaries or finite channel strength, and it supplies no complete branch, global optimizer, source-owned Hamiltonian, physical state, prediction or confirmation."
+}

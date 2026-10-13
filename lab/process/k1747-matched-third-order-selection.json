@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1747",
+  "status": "active_research",
+  "title": "The matched q^7 coefficient selects the remaining third-order two-radius chart motion",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "scope": "The regular matched path through K1727's isolated bounded symmetric two-radius equality seed after the K1738 and K1742 selections.",
+  "pre_flight": {
+    "question": "Re-derive the first coefficient after q^6 and determine without assuming its order whether it selects theta=x_3.",
+    "rederived_inputs": "Use the K1727 algebraic seed, K1731 two-radius moment recurrence, K1738 leading velocity and K1742 centers r_3=-80/3 and x_2=eta_*; K1747 is not assumed.",
+    "problem_matched_gate": "Extend the fixed-seed Fisher law only as far as needed, compose it with the exact two-radius recurrence, and reject any coefficient that is blind to theta.",
+    "anti_overclaim": "A selected finite invariant jet does not establish a complete analytic branch, finite-strength ordering, remote-boundary exclusion or a global optimizer."
+  },
+  "matched_coordinates": {
+    "seed_equation": "17u^3-38u^2+84u-24=0, with the unique u in (0,1).",
+    "path": "s=sqrt(q), r(s)=35s/3-80s^3/3+delta s^4+O(s^5), x(s)=35+eta_*s^2+theta s^3+O(s^4).",
+    "eta_star": "eta_*=5(8551u^2-16428u+22692)/144=633.133529791640596111297145796... .",
+    "higher_invariants": "y=h_10/u^(5/2), z=h_12/u^3 and w=h_14/u^(7/2) are not free: they are generated from M_0=M_1=1, M_2=3-u, M_3=u^(3/2)r+15-15u, S=(M_3-M_2)/(M_2-1), R=S-M_2 and M_n=SM_(n-1)-RM_(n-2), with x=h_8/u^2 determining u locally."
+  },
+  "matched_composition": {
+    "thirteen_halves": "[q^(13/2)]j=sqrt(u)[-1106156462305219/146242381824+(1199574446836877/358958573568)u-(3070510880607707/1754908581888)u^2]=-3807.466221006995255439173670616... .",
+    "thirteen_halves_selection": "The complete q^(13/2) coefficient is independent of delta=r_4 and theta=x_3, so it does not select the remaining third-order chart freedom.",
+    "seven_completed_square": "[q^7]j=C_7^*+(delta-delta_*)^2/120+(theta-theta_*)^2/5040.",
+    "delta_star": "delta_*=sqrt(u)[1445435/2016-(635045/2016)u+(3955475/24192)u^2]=361.098949224460002161412005611... .",
+    "theta_star": "theta_*=sqrt(u)[-115170985/5136+(154557365/15408)u-(329295185/61632)u^2]=-11274.2448324603782960206995042... .",
+    "selected_coefficient": "C_7^*=12332720769441440108771/615151615026364416-(1815428110971411518207/205050538342121472)u+(4893667392875414390381/1054545625759481856)u^2=17649.2758735076487445695516903... .",
+    "coercivity": "The delta and theta Hessian entries are exactly 1/60 and 1/2520, respectively."
+  },
+  "selection_boundary": {
+    "first_theta_selector": "q^7 is the first matched coefficient that depends coercively on theta=x_3; q^(13/2) is blind.",
+    "third_order": "Together with r_3=-80/3, theta=theta_* gives two invariant conditions for the two third-order (p,a) chart coefficients because det d(r,x)/d(p,a) is nonzero at the seed.",
+    "fourth_order": "The same q^7 coefficient selects r_4=delta_* but remains independent of x_4. One fourth-order chart degree of freedom therefore remains."
+  },
+  "decision": {
+    "q_thirteen_halves_selects_theta": false,
+    "q_seven_is_first_theta_selector": true,
+    "theta_selected_exactly": true,
+    "third_order_invariant_jet_unique": true,
+    "complete_local_analytic_branch_unique": false,
+    "finite_strength_branch_certified": false,
+    "remote_or_singular_boundaries_excluded": false,
+    "source_or_physical_status_changed": false
+  },
+  "post_flight": {
+    "overclaim_check": "Reject promotion from the q^7 jet to complete-branch existence, finite-strength optimality, whole-chart uniqueness or an all-seed lower bound.",
+    "counterexample_seam": "Arbitrary x_4 paths share the entire selected jet through q^7, so the calculation cannot identify a complete branch.",
+    "mistyping_check": "delta and theta multiply s^4 and s^3 directly; they are not factorial-normalized derivatives.",
+    "reproducibility_seam": "The exact certificate reconstructs the Hermite contractions and the two-radius moment recurrence in Q(u,sqrt(u)); the hostile probe rejects order, center and scope promotions."
+  },
+  "scope_guard": "This exact selector is local to regular bounded symmetric two-radius paths near the K1727 seed. It is not uniform at the u=q singular face, for moving or growing supports, at finite channel strength, or over remote branches, and it supplies no complete branch, global optimizer or source-owned physical conclusion."
+}

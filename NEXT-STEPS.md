@@ -7,6 +7,19 @@ updated_at: "2026-10-13"
 
 # Next Steps For Contributors
 
+> **2026-10-13 K1746--K1750 THIRD-ORDER FOUR-POINT AND ARB WAVE.** The exact
+> relative-Fisher law now extends through `t^14`. The matched `q^(13/2)` term
+> is blind, while `q^7` completes into strict squares centered at
+> `delta=361.098949224460002...` and `theta=-11274.244832460378296...`.
+> Exact chart transport uniquely fixes
+> `P3=2.5305736887297247...`, `A3=4.7486091917613829...`; one fourth-order
+> direction remains. At `q=1/1024`, Arb compact-cell and analytic-tail bounds
+> prove the selected linear section beats the K1728 section, while the
+> separate `u=q` face is a discrete non-density with extended Fisher value
+> `+infinity`. Next compare a domain-wide two-radius branch-and-bound with
+> quantitative Haar saving or an unrestricted lower principle. Do not infer
+> a complete branch, whole-chart optimizer or source-owned physical state.
+
 > **2026-10-13 K1741--K1745 SECOND-ORDER FOUR-POINT BRANCH.** The exact
 > relative-Fisher law now extends through `t^12`. The matched `q^(11/2)` term
 > is blind to K1738's remaining second-order freedom, while `q^6` completes

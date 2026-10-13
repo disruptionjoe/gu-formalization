@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1749",
+  "status": "active_research",
+  "title": "Arb-certified finite-strength two-path Fisher ordering with a separate singular boundary chart",
+  "backend": "python-flint==0.9.0",
+  "pre_flight": {
+    "problem_match": "Close K1744's named finite-strength seam at q=1/1024: compare the K1738 selected linear section with the K1728 fixed-raw-radii linear section by a whole-line interval proof, and type the u=q face separately.",
+    "current_state_rechecked": "K1744 certified the algebraic chart and a floating gap only. It explicitly withheld finite-strength ordering because neither the transcendental integral nor its tails had an interval enclosure.",
+    "dependency_and_formula_pin": "The run uses UV_CACHE_DIR=_local/uv-cache uv run --with python-flint==0.9.0. The cubic root, base chart, K1738 P,A direction, and K1728 beta direction are re-derived from K1744's exact formulas rather than imported from floating decimals.",
+    "scope": "One concrete q and two explicitly named interior linear sections; no parameter-domain branch-and-bound and no optimizer claim."
+  },
+  "method": {
+    "channel": "For a symmetric four-point law with squared radii a,b and total inner-radius mass p, t=sqrt(q/u), v=1-t, and u=3-[p a^2+(1-p)b^2].",
+    "positive_denominator_form": "With D=p exp(-t a/(2v)) cosh(sqrt(t a)y/v)+(1-p) exp(-t b/(2v)) cosh(sqrt(t b)y/v), N defined by replacing cosh with radius times sinh, the Fisher density is t exp(-y^2/(2v))(N-sqrt(t)yD)^2/[v^(5/2)sqrt(2pi)D]. On every interior channel D is strictly positive; Arb proves its denominator balls exclude zero.",
+    "compact_enclosure": "Split [-11,11] into 352 rational cells of width 1/16. On each cell integrate the midpoint Taylor polynomial through degree 10 and enclose the order-11 Taylor remainder with the order-11 coefficient ball evaluated over the entire cell.",
+    "tail_enclosure": "For |Y|>R, use |E[X|Y]|<=r_max and Y=sqrt(t)X+sqrt(v)Z. The implication |Z|>(R-sqrt(t)r_max)/sqrt(v), exact Gaussian first and second tail moments, and Mills' bound Phi_bar(L)<=phi(L)/L give a certified two-sided Gaussian tail upper bound for each channel.",
+    "comparison": "Integrate the difference density fixed minus selected on the compact interval, then enlarge it symmetrically by the sum of both nonnegative tail upper bounds."
+  },
+  "arb_certificate": {
+    "root": "[0.327013679166042374537267764453633975956582584 +/- 3.21e-46]",
+    "q": "1/1024",
+    "compact_radius": "11",
+    "cell_half_width": "1/16",
+    "taylor_order": 12,
+    "compact_cell_count": 352,
+    "selected": {
+      "p": "[0.839555813960041353064429261437736114033422555 +/- 2.91e-46]",
+      "a": "[0.437367987509020776821977165372949929675419954 +/- 9.01e-47]",
+      "b": "[3.94408285439024040486508517507353397481751011 +/- 4.71e-45]",
+      "u": "[0.343564738694232495026806191517693093009463826 +/- 5.91e-47]",
+      "t": "[0.0533145477491064741431006124812743687966986007 +/- 1.65e-47]",
+      "v": "[0.946685452250893525856899387518725631203301399 +/- 3.17e-46]"
+    },
+    "fixed": {
+      "p": "[0.827790332305577933424615288537421850823312100 +/- 2.01e-46]",
+      "a": "[0.417845111468961253804646445165821699813056639 +/- 1.15e-46]",
+      "b": "[3.79834573216608227611919537247776995330858343 +/- 2.94e-45]",
+      "u": "[0.370929352219546366116449761208226716122294386 +/- 2.22e-46]",
+      "t": "[0.0513102843158913032671682672932779631486809303 +/- 4.87e-47]",
+      "v": "[0.948689715684108696732831732706722036851319070 +/- 2.52e-46]"
+    },
+    "compact_gap_fixed_minus_selected": "[1.06286830731864596661560496230347195961855919e-13 +/- 5.75e-24]",
+    "selected_tail_upper": "[2.91944552981753410853057670373473493952100700e-27 +/- 1.81e-72]",
+    "fixed_tail_upper": "[2.51982078681956315113768525763808598614233692e-27 +/- 2.30e-73]",
+    "combined_tail_upper": "[5.43926631663709725966826196137282092566334392e-27 +/- 1.58e-72]",
+    "whole_line_gap_fixed_minus_selected": "[1.06286830731864596661560496230347195961855919e-13 +/- 5.75e-24]",
+    "maximum_cell_remainder": "[+/- 7.89e-26]",
+    "boundary": {
+      "p": "[0.839555813960041353064429261437736114033422555 +/- 2.91e-46]",
+      "a": "[0.381917925510269296744312948767776969405643773 +/- 1.59e-46]",
+      "b": "[4.23423622849818358803035532293678014554162462 +/- 2.45e-45]",
+      "u_minus_q": "[4.2984617775166855125873633694730954692757e-74 +/- 6.02e-65]",
+      "t": "1.00000000000000000000000000000000000000000000",
+      "v": "0"
+    }
+  },
+  "singular_boundary_chart": {
+    "chart": "At fixed selected p, solve u=q by a=1-sqrt((2-q)(1-p)/p), with b=(1-pa)/(1-p).",
+    "typed_boundary": "The exact chart has t=1 and v=0. The channel is the four-atom pushforward itself, not a Lebesgue density, so the positive-denominator interior formula is not evaluated there.",
+    "fisher_status": "+infinity (extended-value convention)",
+    "reason": "Relative Fisher information with respect to the standard Gaussian requires an absolutely continuous density. The v=0 discrete law is singular, so the extended-value convention assigns +infinity without evaluating the interior formula.",
+    "effect_on_comparison": "The singular face cannot supply a finite competitor to either certified interior value, but this does not exclude a separate remote interior branch with u>q."
+  },
+  "certified_conclusion": {
+    "whole_line_ordering": "At q=1/1024, the K1738 selected linear section has strictly smaller finite-strength relative Fisher information than the K1728 fixed-raw-radii linear section.",
+    "strict_gap": "J_fixed-J_selected is contained in the recorded positive Arb ball centered at 1.0628683073186459666e-13 with radius at most 5.75e-24.",
+    "tail_control": "The combined absolute effect of both omitted |y|>11 tails is at most the upper endpoint of 5.4392663166370973e-27.",
+    "boundary_control": "The nearest K1744 axis-frozen u=q intercept is handled as a distinct singular chart with extended Fisher value +infinity, never by substituting v=0 into the interior expression."
+  },
+  "decision": {
+    "positive_denominator_whole_line_integrand_derived": true,
+    "compact_arb_and_analytic_tails_certified": true,
+    "selected_beats_k1728_at_q_1_over_1024_proved": true,
+    "u_equals_q_singular_chart_explicitly_handled": true,
+    "whole_two_radius_chart_ordered": false,
+    "global_two_radius_optimizer_proved": false,
+    "all_seed_optimizer_proved": false,
+    "source_or_physical_status_change": false
+  },
+  "controls": {
+    "producer": "tests/channel-swings/k1749_arb_finite_channel_boundary.py",
+    "probe": "tests/channel-swings/k1749_arb_finite_channel_boundary_probe.py",
+    "producer_passes": 44,
+    "hostile_mutations_rejected": 20
+  },
+  "post_flight": {
+    "strongest_overclaim_attack": "Rejected: a certified ordering between two named q=1/1024 sections is not a branch-and-bound over the two-radius chart and does not prove either section globally optimal.",
+    "strongest_counterexample_seam": "A remote interior channel with u>q is untouched and could still beat the selected section; K1749 supplies no parameter-domain exclusion for it.",
+    "reproducibility_seam": "Replay requires exactly python-flint==0.9.0 through the pinned uv command. The compact proof, tail inequality, exact cubic isolation, and singular chart all replay without scipy, numpy, quadrature-order agreement, or binary-float promotion.",
+    "scope_guard": "No whole-chart optimizer, all-seed theorem, unrestricted stationary lower bound, source-owned action, physical prediction, or protected-state change follows."
+  }
+}

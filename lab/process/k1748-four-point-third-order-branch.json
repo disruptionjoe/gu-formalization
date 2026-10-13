@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1748",
+  "status": "active_research",
+  "title": "The selected symmetric two-radius chart has a unique third-order jet but one fourth-order freedom remains",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "pre_flight": {
+    "question": "Transport the first exact theta selector through the regular (p,a) chart and determine exactly what order of chart jet becomes unique.",
+    "rederived_inputs": "Use K1727's isolated algebraic seed, K1731's exact chart, the K1743 first- and second-order chart jet, and the independently replayed K1747 invariant centers; K1748 is not assumed.",
+    "problem_matched_gate": "Solve the two third-order chain-rule equations for r_3=-80/3 and x_3=theta_* through the same nonzero chart Jacobian.",
+    "anti_overclaim": "The transport decides a third-order jet only; it cannot create an x_4 condition, a complete branch, finite-strength ordering or global optimality."
+  },
+  "coefficient_convention": {
+    "chart_path": "p(s)=p_0+P s+P_2 s^2+P_3 s^3+O(s^4), a(s)=a_0+A s+A_2 s^2+A_3 s^3+O(s^4), with s=sqrt(q); coefficients do not include factorials.",
+    "invariant_path": "r(s)=35s/3+0s^2-80s^3/3+delta_*s^4+O(s^5), x(s)=35+0s+eta_*s^2+theta_*s^3+O(s^4)."
+  },
+  "third_order_chart_solution": {
+    "definitions": "Let v_i=(P_i,A_i), F=(r,x), J=DF(p_0,a_0), and D^kF denote exact chart derivatives at the K1727 point.",
+    "exact_equations": "Jv_3=(-80/3,theta_*)^T-D^2F[v_1,v_2]-D^3F[v_1,v_1,v_1]/6.",
+    "uniqueness": "det J is nonzero at the isolated K1727 seed, so the exact algebraic right-hand side determines v_3 uniquely.",
+    "prior_coefficients": "P=-0.1037580726956868180098412425..., A=-0.1285250038860326462269688806..., P_2=-0.7045917783886536388640680138..., A_2=-1.0469757447405592350794876880... .",
+    "reported_solution": "P_3=2.5305736887297247364270697280..., A_3=4.7486091917613828954999629940... .",
+    "replay": "Arbitrary-precision formal series in the exact moment chart reproduce r_3=-80/3 and x_3=theta_*; the displayed decimals are reports of the exact algebraic solution, not replacement definitions."
+  },
+  "remaining_freedom": {
+    "selected_fourth_invariant": "K1747 also fixes r_4=delta_*, supplying one affine equation for the two fourth-order chart coefficients.",
+    "dimension": "x_4 remains absent from the q^7 selector, so one fourth-order chart degree remains free.",
+    "honest_boundary": "K1748 proves a unique third-order chart jet, not a complete local analytic branch."
+  },
+  "decision": {
+    "third_order_chart_coefficients_unique": true,
+    "fourth_order_scaled_sixth_coefficient_selected": true,
+    "fourth_order_chart_coefficients_unique": false,
+    "complete_local_analytic_branch_unique": false,
+    "finite_strength_global_optimizer_identified": false,
+    "source_or_physical_status_changed": false
+  },
+  "post_flight": {
+    "overclaim_check": "Reject complete-branch, finite-strength, remote-boundary, all-seed and physical promotion.",
+    "counterexample_seam": "Distinct regular paths with the selected p,a coefficients through s^3 but different x_4 values agree with every condition proved here.",
+    "mistyping_check": "P_3 and A_3 multiply s^3 directly; treating them as third derivatives would introduce a factor of six.",
+    "reproducibility_seam": "The exact invariant centers are replayed in Q(u,sqrt(u)); an independent high-precision chart-series solve reproduces P_3 and A_3 and the hostile probe rejects promoted scope."
+  },
+  "scope_guard": "This exact finite-jet statement is local to the regular symmetric two-radius chart near the K1727 seed. It does not cover the u=q singular face, remote branches, moving or growing supports, unrestricted stationary field laws, a complete branch, a global optimizer or a source-owned physical GU state."
+}

@@ -7,6 +7,26 @@ updated_at: "2026-10-13"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1746--K1750 third-order branch and Arb wave (2026-10-13)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The `q^(13/2)` coefficient fixes the remaining third-order freedom | K1747 exact matched composition | false: it is independent of `delta` and `theta` |
+| A later local coefficient fixes the third-order invariant jet | K1747 `q^7` completion of squares | proved locally: `delta=delta*`, `theta=theta*` uniquely minimize the jet |
+| The invariant selector fixes the chart third-order coefficients | K1748 exact chart transport | proved locally: unique `P3,A3` because the chart Jacobian is nonzero |
+| The third-order jet determines a complete local branch | K1747/K1748 fourth-order boundary | not established: `x_4` and one fourth-order chart direction remain free |
+| The finite-channel ordering is interval certified | K1749 Arb compact/tail proof | proved only for the two named linear sections at `q=1/1024` |
+| The `u=q` face is a finite competing interior channel | K1749 singular chart | false: `t=1`, `v=0` gives a discrete non-density and extended Fisher value `+infinity` |
+| The named comparison proves a whole-chart or global optimizer | K1749/K1750 scope controls | not established; remote interior channels remain open |
+
+The five producers pass `166/166` direct controls and five hostile probes
+reject `78/78` mutations. The exact grades are a fixed-seed `t^14` law, local
+matched `q^7` selector, unique third-order chart jet, and an Arb-certified
+ordering between two named finite-channel sections with a separately typed
+singular face. The bridge census is 450 rows: 371 satisfied, ten conditional,
+65 excluded and four missing. Source, ledger, canon and public states do not
+move.
+
 ## K1741--K1745 four-point second-order branch wave (2026-10-13)
 
 | Claim | Evidence | Honest grade |

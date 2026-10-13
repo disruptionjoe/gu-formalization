@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1750",
+  "status": "active_research",
+  "title": "Third-order four-point selection and the named finite-channel Arb comparison are integrated without global or physical promotion",
+  "classification": "INTERNAL_STRUCTURAL_ONLY_WITH_LOCAL_EXACT_THIRD_ORDER_JET_AND_NAMED_FINITE_CHANNEL_ARB_CERTIFICATE",
+  "bridge_census": {
+    "row_count": 450,
+    "satisfied_count": 371,
+    "conditional_count": 10,
+    "excluded_count": 65,
+    "missing_count": 4,
+    "new_satisfied_rows": ["K1746", "K1747", "K1748", "K1749", "K1750"],
+    "protected_missing_rows": ["SC-ACT-01", "SC-ACT-02", "SC-ACT-06", "SC-META-53"]
+  },
+  "protected_state": {
+    "source_claims": "SC-ACT-01/02/06 remain ASSERTS; SC-META-53 remains UNCERTAIN.",
+    "physics_ledger": "33 SAME / 22 DIFFERS / 31 NEEDS / 2 OVER-DETERMINED",
+    "candidate_counts": "K1145 and K1150 remain 0/7.",
+    "canon_change": false,
+    "paper_change": false,
+    "prediction_or_confirmation": false,
+    "public_posture_change": false
+  },
+  "daily_review_2026_10_13": {
+    "what_changed": "K1736--K1740 selected the unique leading tangent, K1741--K1745 selected the second-order jet and located the u=q seam, and K1746--K1749 now select the third-order jet and certify one named finite-channel comparison with Arb.",
+    "what_survives": "Exact weak-channel expansions, controlled packet transfer, the new named finite-channel certificate, quantitative Haar saving, correlated and unrestricted alternatives, and every protected source, ledger, canon and public state retain their honest grades.",
+    "what_wins_next": "Compare domain-wide two-radius branch-and-bound against quantitative translation-Haar saving or an unrestricted lower principle; do not continue a blind coefficient ladder merely because a fourth-order coordinate remains.",
+    "what_follows_either_answer": "A local fourth-order selector would still be only a finite jet. A domain certificate would still be chart-scoped. A Haar or unrestricted result must retain its own hypotheses and cannot promote source ownership."
+  },
+  "decision": {
+    "fourteenth_order_fisher_law_proved": true,
+    "q_thirteen_halves_blindness_proved": true,
+    "q_seven_third_order_selector_proved": true,
+    "unique_third_order_chart_jet_proved": true,
+    "named_q_1_over_1024_finite_strength_ordering_arb_proved": true,
+    "u_equals_q_singular_face_typed": true,
+    "complete_local_branch_identified": false,
+    "whole_two_radius_chart_ordered": false,
+    "global_two_radius_optimizer_identified": false,
+    "unrestricted_stationary_lower_bound_proved": false,
+    "source_owned_physical_theory": false,
+    "protected_status_change": false
+  },
+  "next_condition": "The local coefficient ladder has selected the third-order chart jet but leaves one fourth-order coordinate; continue it only if that information changes the decision frontier. The higher-leverage alternatives are a certified parameter-domain branch-and-bound over the remaining two-radius interior, a quantitative translation-Haar saving theorem, or an unrestricted stationary lower principle. Keep remote interior channels, correlated tensors, global optimization and source-owned physical theory separate."
+}
