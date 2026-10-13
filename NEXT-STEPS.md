@@ -7,6 +7,20 @@ updated_at: "2026-10-13"
 
 # Next Steps For Contributors
 
+> **2026-10-13 K1786--K1790 FULL-FISHER STATIONARY-CERTIFICATE WAVE.**
+> Positive polynomial-Gaussian majorants now certify the complete omitted
+> value, gradient and Hessian tails of the full positive-denominator quotient
+> on named rational boxes. A whole-line Krawczyk operator isolates exactly one
+> stationary point in the slab-three box, while one-dimensional Krawczyk tests
+> isolate the directed slab-one lower-`z` and slab-two upper-`t` boundary KKT
+> points with strict inward signs. Their local values are rigorously ordered,
+> with the first two above the slab-three point by more than `3.95e-13` and
+> `2.05e-14`. Next cover the complements of all three boxes, every face and
+> every corner by directed gradients, interval-Newton rejection or value lower
+> bounds. Do not promote the local certificates to slab exclusion, complete
+> slab-three uniqueness, global scalar optimality, an all-seed theorem or
+> source-owned physics before that exhaustive cover closes.
+
 > **2026-10-13 K1781--K1785 FULL-FISHER INTERIOR-JET WAVE.** A reusable
 > second-order Arb dual-number engine now encloses compact-window value,
 > gradient and Hessian in the exact `(t,z)` chart with 352-cell order-12

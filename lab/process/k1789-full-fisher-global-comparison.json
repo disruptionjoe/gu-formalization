@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1789",
+  "status": "active_research",
+  "title": "The three certified local full-Fisher candidates are strictly ordered",
+  "certificate": {
+    "slab_three_candidate_value": "[1.5917864530497670077445861802075968567e-7 +/- 3.19e-24]",
+    "comparisons": [
+      {
+        "slab": 1,
+        "candidate_value": "[1.5917904119052770671053149500927849697e-7 +/- 1.88e-24]",
+        "lower_gap_above_slab_three_local_point": "[3.9588555095345944509054730842123603907e-13 +/- 3.43e-51]",
+        "strictly_above": true
+      },
+      {
+        "slab": 2,
+        "candidate_value": "[1.5917866583816442198940312103533692491e-7 +/- 2.92e-24]",
+        "lower_gap_above_slab_three_local_point": "[2.0533187672269992115128833809478692274e-14 +/- 1.58e-52]",
+        "strictly_above": true
+      }
+    ]
+  },
+  "decision": {
+    "three_local_candidates_strictly_ordered": true,
+    "local_order": "slab_one_boundary > slab_two_boundary > slab_three_interior",
+    "complementary_parameter_regions_excluded": false,
+    "global_optimizer_proved": false
+  },
+  "remaining_obligation": "Certify the complement of all three local boxes by adaptive outward-gradient, interval-Newton rejection, or value lower bounds, and close every slab face and corner before promoting the local order to a global theorem.",
+  "scope_guard": "The value gaps compare three rigorously isolated local candidates. They do not prove those candidates exhaust their slabs or the complete admissible domain."
+}

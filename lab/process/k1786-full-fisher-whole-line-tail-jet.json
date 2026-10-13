@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1786",
+  "status": "active_research",
+  "title": "Polynomial-Gaussian majorants certify the whole-line full-Fisher jet on a rational slab-three box",
+  "certificate": {
+    "parameter_box": {
+      "center": {
+        "t": "265664669701527/5000000000000000",
+        "z": "8805034043103/15625000000000"
+      },
+      "radius": {
+        "t": "1/100000000000",
+        "z": "1/10000000000"
+      }
+    },
+    "tail_start": "11",
+    "denominator_floor": "[0.97295201478245322215927144247786319195 +/- 8.00e-40]",
+    "gaussian_rate_floor": "[0.52805722990812860514217661617175636479 +/- 2.61e-39]",
+    "linear_exponent_ceiling": "[0.48292473749832058789112998469988813660 +/- 1.77e-39]",
+    "absolute_two_tail_bounds": {
+      "value": "[3.7552473209293150563441216955144809156e-25 +/- 1.94e-63]",
+      "gradient": {
+        "t": "[2.3621159657613156731130098045437969366e-21 +/- 1.57e-59]",
+        "z": "[2.5730290744296166618367202027752527681e-22 +/- 2.85e-60]"
+      },
+      "hessian": {
+        "tt": "[2.9157814327998528131130600286620280243e-17 +/- 3.04e-55]",
+        "tz": "[3.1990269106933766187044699624980574117e-18 +/- 1.88e-56]",
+        "zz": "[3.5115305148021564407201654455104086580e-19 +/- 1.52e-57]"
+      }
+    },
+    "term_counts": {
+      "value": 16,
+      "gradient_t": 112,
+      "gradient_z": 112,
+      "hessian_tt": 840,
+      "hessian_tz": 840,
+      "hessian_zz": 840
+    }
+  },
+  "method": {
+    "denominator": "lower-bound the real positive mixture denominator by wa+wb and majorize its parameter derivatives by positive polynomials times exp(C|y|)",
+    "quotient": "propagate value, gradient and Hessian majorants through the residual square and reciprocal, including both first-derivative cross terms and the reciprocal Hessian term 2 Di Dj / D^3",
+    "tails": "complete the square in every x^n exp(-a x^2+b x) term and integrate by the incomplete-Gaussian recurrence; double the positive half-tail by symmetry"
+  },
+  "decision": {
+    "whole_line_local_parameter_jet_certified": true,
+    "whole_slab_parameter_jet_certified": false,
+    "stationary_box_isolated": false,
+    "global_optimizer_proved": false
+  },
+  "scope_guard": "The tail bounds certify the complete value, gradient and Hessian only on the named rational slab-three box. They do not cover all three slabs, exclude any other stationary component, or prove global optimality."
+}

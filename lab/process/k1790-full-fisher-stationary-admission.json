@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1790",
+  "status": "active_research",
+  "title": "Whole-line local stationary certificates narrow the remaining global three-slab cover",
+  "inputs": ["K1785", "K1786", "K1787", "K1788", "K1789"],
+  "bridge_census": {"total": 490, "satisfied": 411, "conditional": 10, "excluded": 65, "missing": 4},
+  "protected_state": {
+    "source_register_changed": false,
+    "standing_ledger_changed": false,
+    "canon_changed": false,
+    "paper_changed": false,
+    "prediction_changed": false,
+    "confirmation_changed": false,
+    "public_posture_changed": false,
+    "k1145_score": "0/7",
+    "k1150_score": "0/7"
+  },
+  "entry_state": {
+    "whole_line_local_parameter_jet_available": true,
+    "slab_three_unique_local_stationary_point": true,
+    "slab_one_unique_local_boundary_kkt_point": true,
+    "slab_two_unique_local_boundary_kkt_point": true,
+    "three_local_candidates_strictly_ordered": true,
+    "complete_complement_cover_available": false
+  },
+  "decision": {
+    "slabs_one_and_two_globally_excluded": false,
+    "unique_stationary_point_on_complete_slab_three": false,
+    "global_optimizer_proved": false,
+    "source_owned_physical_theory": false
+  },
+  "next_gate": "Build an adaptive rational cover of the complements of the three isolated boxes, rejecting boxes by directed gradient signs, interval-Newton exclusion or certified value lower bounds; include every slab face and corner before promoting the strict local order to a global finite-strength optimizer theorem.",
+  "scope_guard": "K1786 closes the whole-line jet only on named local boxes. K1787 and K1788 isolate one interior and two boundary KKT points locally. K1789 orders those three points. No exhaustive slab cover or global optimizer theorem follows."
+}

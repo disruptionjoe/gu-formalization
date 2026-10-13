@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1787",
+  "status": "active_research",
+  "title": "A whole-line Krawczyk operator isolates one full-Fisher stationary point in a rational slab-three box",
+  "certificate": {
+    "parameter_box": {
+      "center": {
+        "t": "265664669701527/5000000000000000",
+        "z": "8805034043103/15625000000000"
+      },
+      "radius": {
+        "t": "1/100000000000",
+        "z": "1/10000000000"
+      }
+    },
+    "full_gradient_at_center": {
+      "t": "[-1.2609424919065216866002235642810818941e-19 +/- 2.65e-21]",
+      "z": "[-2.3669314356044993080862248230020049426e-20 +/- 2.70e-22]"
+    },
+    "full_hessian_tt_on_box": "[2.6152827598716026579911608002356619355e-6 +/- 1.01e-9]",
+    "full_hessian_determinant_on_box": "[9.0516804679881590537074940778018475214e-16 +/- 5.88e-17]",
+    "stationary_value_enclosure": "[1.5917864530497670077445861802075968567e-7 +/- 3.19e-24]",
+    "krawczyk_correction": {
+      "t": "[-2.8205843984868312563538303044080574877e-12 +/- 2.16e-13]",
+      "z": "[2.3056344177023399337582256494669868477e-11 +/- 1.73e-12]"
+    },
+    "krawczyk_residual_radius": {
+      "t": "[1.126812279243141781567391328486e-25 +/- 6.79e-13]",
+      "z": "[8.98520226744617801394746640322e-25 +/- 5.42e-12]"
+    },
+    "krawczyk_inclusion_radius": {
+      "t": "[2.8205843984869439375817546185862142268e-12 +/- 8.95e-13]",
+      "z": "[2.3056344177024297857809001112471263224e-11 +/- 7.14e-12]"
+    },
+    "strict_inclusion": {
+      "t": true,
+      "z": true
+    }
+  },
+  "method": "Use the point compact Hessian as an interval preconditioner, add K1786 symmetric whole-line gradient and Hessian tail enclosures, and prove K(X) is strictly contained in the interior of X in both coordinates.",
+  "decision": {
+    "unique_whole_line_stationary_point_in_named_box": true,
+    "whole_line_hessian_positive_definite_on_named_box": true,
+    "unique_stationary_point_on_complete_slab_three": false,
+    "slabs_one_and_two_excluded": false,
+    "global_optimizer_proved": false
+  },
+  "scope_guard": "Krawczyk existence and uniqueness are local to the named rational box. The certificate does not exclude another stationary component elsewhere in slab three, close its boundary KKT problem, exclude slabs one or two, or prove global optimality."
+}

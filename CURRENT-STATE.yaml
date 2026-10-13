@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f54cd0ab339d662ff1f0e869365ce38d82d5118f
+revision_basis: 3ede57b23da6cc2769c757eb80d95cb895139aca
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1786--K1790 compose rigorous analytic value, gradient and Hessian tails
+    for the complete positive-denominator full-Fisher quotient on named
+    rational boxes. Positive polynomial-Gaussian majorants pass through every
+    denominator, reciprocal and squared-residual derivative term; on the
+    slab-three box the two-tail bounds are below `3.76e-25`, `2.37e-21` and
+    `2.92e-17` at value, gradient and Hessian order. A whole-line Krawczyk
+    operator strictly contracts that box and proves exactly one stationary
+    point there, with positive Hessian. One-dimensional whole-line Krawczyk
+    tests also isolate the directed slab-one lower-`z` and slab-two upper-`t`
+    boundary KKT candidates with strict inward signs. Their certified values
+    are respectively more than `3.95e-13` and `2.05e-14` above the local
+    slab-three point. These are local certificates: the complements of all
+    three boxes, remaining faces and corners are not yet covered, so no slab
+    exclusion, complete slab-three uniqueness or global optimizer theorem is
+    claimed. The bridge census is 490 rows: 411 satisfied, ten conditional,
+    65 excluded and four missing. Protected source, ledger, canon and public
+    states do not move.
+
     K1781--K1785 build the first certified compact-window second-order
     full-Fisher evaluator in the exact `(t,z)` chart. At a rational slab-three
     checkpoint, 352-cell order-12 Arb Taylor quadrature encloses the value,
@@ -15614,16 +15632,16 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K1781--K1785 certify compact-window value, gradient and Hessian evaluation,
-  prove finite primitive chart-to-natural derivative bounds on every interior
-  slab and locate a positive-compact-Hessian rational checkpoint in slab
-  three. Can the complete positive-denominator quotient now receive rigorous
-  whole-line derivative tails, after which adaptive parameter boxes exclude
-  slabs one and two and interval Newton plus boundary KKT checks isolate and
-  order every slab-three stationary component? The computed slab ordering and
-  pointwise checkpoint are not those certificates. Quantitative Haar saving
-  and a realizable correlated tensor remain separate alternatives; no scalar
-  trial law is a source-owned physical state or unrestricted infimum.
+  K1786--K1790 certify whole-line value/gradient/Hessian tails on three named
+  local boxes, isolate one interior slab-three stationary point and the two
+  directed slab-one/two boundary KKT candidates, and prove a strict value
+  order among those local points. Can an adaptive rational complement cover
+  now reject every remaining parameter box by directed gradient signs,
+  interval-Newton exclusion or certified value lower bounds, including all
+  slab faces and corners, so the local order becomes a complete finite-strength
+  optimizer theorem? Quantitative Haar saving and a realizable correlated
+  tensor remain separate alternatives; no scalar trial law is a source-owned
+  physical state or unrestricted infimum.
 
   K1756--K1760 exclude an explicit rare-atom collar and a uniform zero-noise
   collar, including their joint corner, and reduce the `q=1/1024` global
@@ -18530,17 +18548,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Preserve K1781 as a compact observation-window certificate at exact rational
-  points, not a whole-line parameter-box enclosure. Preserve K1782 as finite
-  primitive chart and natural-parameter derivative bounds; it does not yet
-  compose derivatives of the full mixture quotient on the omitted tails.
-  Preserve K1783 as computed route-selection evidence only. Preserve K1784's
-  positive compact Hessian as a pointwise locator, not existence of a nearby
-  critical point. Next compose whole-line value/gradient/Hessian tails, then
-  certify outward signs or value lower bounds on slabs one and two and apply
-  interval Newton plus boundary KKT controls in slab three. No slab exclusion,
-  stationarity, uniqueness, global optimizer, source-owned Hamiltonian,
-  physical state, observation, prediction or admission follows.
+  Preserve K1786 only on its named rational parameter boxes; it is not a
+  whole-slab derivative bound. Preserve K1787 as existence and uniqueness of
+  one whole-line stationary point inside one slab-three box, not uniqueness on
+  the complete slab. Preserve K1788 as two local boundary KKT certificates;
+  strict inward signs do not exclude their complementary parameter regions.
+  Preserve K1789 as a strict order among three isolated local points, not a
+  global order. Next build an adaptive rational cover of every complement,
+  face and corner, rejecting boxes by directed gradients, interval-Newton
+  exclusion or value lower bounds before any global optimizer promotion. No
+  source-owned Hamiltonian, physical state, observation, prediction or
+  admission follows.
 
   Preserve K1756 as an Arb-certified comparison between the Rademacher face
   and one named rational candidate at `q=1/1024`. Preserve K1757 only on

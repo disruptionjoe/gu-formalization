@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1788",
+  "status": "active_research",
+  "title": "Whole-line one-dimensional Krawczyk tests isolate the directed slab-one and slab-two boundary KKT candidates",
+  "certificate": {
+    "boundary_boxes": [
+      {
+        "slab": 1,
+        "boundary": "z=91/128 lower boundary",
+        "center": {"t": "43983463391/1000000000000", "z": "91/128"},
+        "free_radius": "1/100000000000",
+        "free_axis": "t",
+        "full_free_gradient_at_center": "[-1.5753505703158999860319534980462394647e-17 +/- 3.45e-22]",
+        "full_free_hessian_on_box": "[4.2563872507419743267958276505337675021e-6 +/- 1.62e-9]",
+        "krawczyk_correction": "[3.7011448390127967000839959155200631358e-12 +/- 8.10e-17]",
+        "krawczyk_residual_radius": "[9.313225746154785156249999999999999999e-21 +/- 3.79e-15]",
+        "krawczyk_inclusion_radius": "[3.7011448483260224462387810717700631358e-12 +/- 3.87e-15]",
+        "strict_inclusion": true,
+        "full_inward_gradient_on_box": "[1.5504344622751643410245124569344180818e-12 +/- 9.41e-14]",
+        "strict_kkt_inward_sign": true,
+        "boundary_stationary_value_enclosure": "[1.5917904119052770671053149500927849697e-7 +/- 1.88e-24]",
+        "absolute_tail_value_bound": "[5.7167146108575889962245719704583021314e-26 +/- 9.38e-65]"
+      },
+      {
+        "slab": 2,
+        "boundary": "t=887855469/17179869184 upper boundary",
+        "center": {"t": "887855469/17179869184", "z": "576161143609/1000000000000"},
+        "free_radius": "1/100000000000",
+        "free_axis": "z",
+        "full_free_gradient_at_center": "[3.4074903343904081787625618740771032049e-21 +/- 1.84e-22]",
+        "full_free_hessian_on_box": "[3.0704861173016208451702386059001869432e-8 +/- 5.55e-14]",
+        "krawczyk_correction": "[-1.1097559812459523598954236334179768164e-13 +/- 5.97e-15]",
+        "krawczyk_residual_radius": "[9.3132257461547851562500000000000000000e-21 +/- 1.82e-17]",
+        "krawczyk_inclusion_radius": "[1.1097560743782098214432751959179768164e-13 +/- 5.98e-15]",
+        "strict_inclusion": true,
+        "full_inward_gradient_on_box": "[-2.6404163508307895861388954553711100143e-11 +/- 1.28e-13]",
+        "strict_kkt_inward_sign": true,
+        "boundary_stationary_value_enclosure": "[1.5917866583816442198940312103533692491e-7 +/- 2.92e-24]",
+        "absolute_tail_value_bound": "[2.9257280889454211480268283500946583559e-25 +/- 2.91e-63]"
+      }
+    ]
+  },
+  "decision": {
+    "unique_local_boundary_kkt_points": 2,
+    "slab_one_candidate_has_strict_inward_z_gradient": true,
+    "slab_two_candidate_has_strict_inward_negative_t_gradient": true,
+    "slabs_one_and_two_globally_excluded": false,
+    "complete_boundary_cover_certified": false
+  },
+  "remaining_obligation": "Cover the complements of the two local boundary boxes with outward-gradient or value lower bounds, including every other face and corner. Local KKT isolation does not prove either complete slab has no lower component.",
+  "scope_guard": "The two candidates are rigorous local whole-line KKT minima on their named boundary boxes. They are not global slab minima until the complementary parameter regions are excluded."
+}

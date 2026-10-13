@@ -7,6 +7,22 @@ updated_at: "2026-10-13"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1786--K1790 full-Fisher stationary-certificate wave (2026-10-13)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Omitted tails prevent a local whole-line parameter jet | K1786 polynomial-Gaussian quotient majorants | false on the named rational boxes through Hessian order |
+| The slab-three locator may have no nearby full-line critical point | K1787 whole-line Krawczyk inclusion | false in the named box: exactly one stationary point exists there and its Hessian is positive |
+| The directed slab-one/two boundary candidates remain floating pilots | K1788 one-dimensional whole-line Krawczyk and inward-gradient signs | false locally: each named boundary box contains exactly one strict KKT candidate |
+| The three rigorous local candidates may be unordered | K1789 interval value composition | false: slab one is above slab two, which is above slab three, with positive certified gaps |
+| The three local candidates exhaust all slabs | K1788--K1790 scope audit | not established: complementary boxes, faces and corners remain uncovered |
+| A global finite-strength scalar optimizer follows | K1790 protected admission | not established |
+
+The five producers pass `76/76` controls and the five hostile probes reject
+`33/33` mutations. The bridge census is 490 rows: 411 satisfied, ten
+conditional, 65 excluded and four missing. Source, ledger, canon and public
+states do not move.
+
 ## K1781--K1785 full-Fisher compact-jet and interior pilot (2026-10-13)
 
 | Claim | Evidence | Honest grade |
