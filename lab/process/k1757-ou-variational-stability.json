@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1757",
+  "status": "active_research",
+  "title": "OU variational testing gives an explicit rare-face stability modulus",
+  "setting": {
+    "channel": "Y=sqrt(t) X+sqrt(v) Z with v=1-t and Var(X)=1",
+    "rademacher_test_score": "f_t(y)=sqrt(t)/v tanh(sqrt(t)y/v)-t y/v",
+    "variational_identity": "J(Y)=sup_f E[2(Yf-f')-f^2]",
+    "rare_chart_coupling": "Couple each signed radius of X_(c,z) to the same-sign Rademacher atom.",
+    "wasserstein_bound": "W2(X_(c,z),R)^2<=z+z^2<=2z",
+    "parameter_range": "t<=31/32 and v>=1/32"
+  },
+  "derivative_envelope": {
+    "A_bound": 32,
+    "C_bound": 31,
+    "first_derivative_bound": 1056,
+    "second_derivative_bound": 65536,
+    "constant_term_bound": 198720,
+    "linear_term_bound": 67646,
+    "rounded_stability_constant": 400000
+  },
+  "theorem": "J(X_(c,z);t)>=J(R;t)-400000 sqrt(2z) whenever t<=31/32.",
+  "decision": {
+    "explicit_stability_modulus_proved": true,
+    "uniform_in_c_on_declared_t_range": true,
+    "uses_only_second_moments_after_test_selection": true,
+    "rare_atom_face_identified_with_pointwise_continuity": false,
+    "global_optimizer_proved": false
+  },
+  "scope_guard": "The estimate is a one-sided variational lower bound for the declared Gaussian channel. It does not assert Fisher continuity for arbitrary weakly convergent laws or an unrestricted stationary lower theorem."
+}

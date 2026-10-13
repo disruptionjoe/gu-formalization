@@ -7,6 +7,26 @@ updated_at: "2026-10-13"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1756--K1760 two-radius boundary-collar wave (2026-10-13)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The Rademacher face lies above the K1753 candidate | K1756 Arb compact cells plus analytic tails | certified gap greater than `2.20e-10` at `q=1/1024` |
+| Rare-atom weak convergence alone makes Fisher continuous | K1757 variational test | not used and not established; an explicit one-sided modulus is proved instead |
+| The zero-noise collar can hide below the candidate | K1758 entropy and Gaussian log-Sobolev bound | false for `c>=2-1/961`, uniformly in `z` |
+| The rare-atom/zero-noise corner needs a separate numerical limit | K1758 uniform cardinality bound | false: the same zero-noise estimate covers the joint corner |
+| The rare-atom face can escape below the candidate | K1756+K1757+OU monotonicity | false on the explicit collar `z<=10^-34` after composition with K1758 |
+| The remaining rectangle has been globally minimized | K1760 domain reduction | not established; adaptive interval branch-and-bound remains open |
+
+The five producers pass `79/79` direct controls and the five hostile probes
+reject `34/34` mutations. The exact grades are a certified Rademacher margin,
+an explicit OU variational stability theorem, a uniform zero-noise and joint
+corner exclusion, a conservative quantitative rare-atom collar, and a closed
+residual rectangle. They do not prove stationarity, uniqueness, compact-core
+completion or global optimality. The bridge census is 460 rows: 381 satisfied,
+ten conditional, 65 excluded and four missing. Source, ledger, canon and
+public states do not move.
+
 ## K1751--K1755 two-radius rectangular-domain wave (2026-10-13)
 
 | Claim | Evidence | Honest grade |

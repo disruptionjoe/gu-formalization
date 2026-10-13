@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1756",
+  "status": "active_research",
+  "title": "The Rademacher face is Arb-separated above the K1753 rational candidate",
+  "backend": "python-flint==0.9.0",
+  "comparison": {
+    "q": "1/1024",
+    "left": "relative Fisher of the c=0 Rademacher face at t=sqrt(q/2)",
+    "right": "relative Fisher of the K1753 exact rational candidate",
+    "compact_radius": "11",
+    "cell_half_width": "1/16",
+    "taylor_order": 12,
+    "compact_cell_count": 352,
+    "compact_gap": "[2.20120827506605499782313576950910736508427711e-10 +/- 3.51e-24]",
+    "combined_tail_upper": "[2.97414258803672850080984136186304892444448881e-27 +/- 1.95e-73]",
+    "whole_line_gap": "[2.20120827506605499782313576950910736508427711e-10 +/- 3.52e-24]",
+    "maximum_cell_remainder": "[+/- 4.85e-26]"
+  },
+  "decision": {
+    "rademacher_strictly_above_candidate": true,
+    "certified_gap_exceeds_2_20e_minus_10": true,
+    "rare_atom_collar_follows_without_stability_bound": false,
+    "global_optimizer_proved": false,
+    "source_or_physical_status_change": false
+  },
+  "scope_guard": "This is an Arb-certified ordering between the Rademacher face and one named candidate at q=1/1024. It is not by itself a uniform rare-atom collar, a whole-chart order, or a physical result."
+}

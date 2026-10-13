@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1758",
+  "status": "active_research",
+  "title": "A cardinality-entropy bound excludes a uniform zero-noise collar",
+  "entropy_argument": {
+    "mixture_entropy": "h(sqrt(t)X+sqrt(v)Z)<=H(X)+h(sqrt(v)Z)<=log(4)+(1/2)log(2 pi e v)",
+    "relative_entropy": "D(Y||gamma)>=-(1/2)log(v)-log(4)",
+    "gaussian_log_sobolev": "J(Y)>=2D(Y||gamma)>=-log(v)-2log(4)",
+    "collar_choice": "v<=1/32, equivalently t>=31/32 and u<=1024q/961",
+    "fixed_q_boundary": "At q=1/1024 the collar is c>=2-1/961, of width 63/984064 from c=2-q."
+  },
+  "candidate_control": {
+    "identity": "J(candidate)<=t_candidate/(1-t_candidate)",
+    "exact_check": "289q<u_candidate=691835097/2000000000",
+    "consequence": "t_candidate/(1-t_candidate)<1/16<1/2<log(2)"
+  },
+  "decision": {
+    "uniform_zero_noise_collar_excluded": true,
+    "all_z_in_0_1_covered": true,
+    "rare_atom_zero_noise_joint_corner_covered": true,
+    "uses_interior_density_at_v_zero": false,
+    "global_optimizer_proved": false
+  },
+  "scope_guard": "This excludes the declared zero-noise collar relative to the K1753 candidate. It does not order the rest of the rectangle or identify a global optimizer."
+}

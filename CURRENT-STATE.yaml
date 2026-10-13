@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: aa8d6ce212385d65723c78ad37dceb1bdad9e6b6
+revision_basis: 1cb18e87eb00f0e9e9b0e4336a5ebaa957a46b8a
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1756--K1760 prove quantitative exclusions of the two singular faces of
+    the `q=1/1024` symmetric two-radius rectangle. Arb certifies that the
+    `c=0` Rademacher face exceeds K1753's rational candidate by more than
+    `2.20e-10`. An exact OU variational test gives
+    `J(c,z)>=J_R(t)-400000 sqrt(2z)` for `t<=31/32`. Independently, the
+    four-atom entropy upper bound and Gaussian log-Sobolev exclude the full
+    zero-noise collar `c>=2-1/961` and its joint rare-atom corner. Combining
+    the two bounds excludes `z<=10^-34` over the remaining `c` range with a
+    residual gap above `2.14e-10`. The unresolved global search is therefore
+    the closed rectangle `0<=c<=2-1/961`, `10^-34<=z<=1`; interval
+    branch-and-bound, stationarity, uniqueness and global optimality remain
+    open. The bridge census is 460 rows: 381 satisfied, ten conditional, 65
+    excluded and four missing. Protected source, ledger, canon and public
+    states do not move.
+
     K1751--K1755 replace the remote regular fixed-`q` symmetric two-radius
     problem by the exact rectangle `0<c<2-q`, `0<z<1`, with inverse
     `p=c/(c+z^2)`, `a=1-z`, `b=1+c/z` and `u=2-c`. Its four faces are typed
@@ -15521,6 +15536,16 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1756--K1760 exclude an explicit rare-atom collar and a uniform zero-noise
+  collar, including their joint corner, and reduce the `q=1/1024` global
+  two-radius search to the closed rectangle `0<=c<=2-1/961`,
+  `10^-34<=z<=1`. Can adaptive interval branch-and-bound prune every box or
+  isolate one interval-Newton optimizer enclosure without using a uniform mesh
+  at the conservative rare-tail scale? Quantitative Haar saving and a
+  realizable correlated tensor remain separate alternatives; an unrestricted
+  lower principle still needs new tail or localization control. No scalar
+  trial law is a source-owned physical state or global infimum.
+
   K1751--K1754 put the complete regular fixed-`q` two-radius family on an
   exact rectangle and certify one strict interior improvement over K1749's
   selected linear section. Can quantitative rare-atom and zero-noise collars,
@@ -18416,6 +18441,21 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1756 as an Arb-certified comparison between the Rademacher face
+  and one named rational candidate at `q=1/1024`. Preserve K1757 only on
+  `t<=31/32`: its explicit variational modulus is one-sided and is not a
+  general Fisher-continuity theorem. Preserve K1758's zero-noise exclusion as
+  a four-atom entropy/log-Sobolev bound and do not evaluate the interior
+  density at `v=0`. Preserve K1759's `z<=10^-34` collar as conservative proof
+  of boundary exclusion, not a practical mesh width. Preserve K1760's closed
+  residual rectangle as the next branch-and-bound domain; no stationarity,
+  uniqueness or global optimizer is proved. Next construct an adaptive Arb
+  lower-bound engine with analytic rare-tail handling and certify every box.
+  Separately quantify Haar saving or test a realizable correlated tensor; do
+  not claim an unrestricted lower theorem without controlling the
+  sixth-moment tail seam. No result supplies a source-owned Hamiltonian,
+  physical state, observation, prediction or admission.
+
   Preserve K1751's exact bijection only on the regular open rectangle
   `0<c<2-q`, `0<z<1`. Preserve K1752 as boundary typing rather than collar
   exclusion, especially at the joint rare-atom/zero-noise corner. Preserve

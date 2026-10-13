@@ -7,6 +7,19 @@ updated_at: "2026-10-13"
 
 # Next Steps For Contributors
 
+> **2026-10-13 K1756--K1760 TWO-RADIUS BOUNDARY-COLLAR WAVE.** At
+> `q=1/1024`, Arb certifies that the Rademacher face lies more than `2.20e-10`
+> above K1753's rational candidate. A fixed Rademacher-score variational test
+> gives the uniform rare-face modulus
+> `J(c,z)>=J_R(t)-400000 sqrt(2z)` for `t<=31/32`. A separate four-atom
+> entropy plus Gaussian log-Sobolev argument excludes the full zero-noise
+> collar `c>=2-1/961`, including its joint rare-atom corner. Composition
+> excludes `z<=10^-34` over the remaining `c` range and leaves the closed
+> residual rectangle `0<=c<=2-1/961`, `10^-34<=z<=1`. Next build adaptive
+> interval branch-and-bound with analytic rare-tail handling; do not use the
+> conservative rare collar as a uniform mesh scale or infer stationarity,
+> uniqueness, global scalar optimality, or source-owned physics.
+
 > **2026-10-13 K1751--K1755 TWO-RADIUS RECTANGULAR-DOMAIN WAVE.** The
 > complete regular fixed-`q` symmetric two-radius family is exactly the open
 > rectangle `0<c<2-q`, `0<z<1`, with

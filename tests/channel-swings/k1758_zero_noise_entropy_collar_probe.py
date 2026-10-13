@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+"""Hostile mutations for K1758's zero-noise collar."""
+import copy,importlib.util,json
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[2];P=ROOT/"tests/channel-swings/k1758_zero_noise_entropy_collar.py"
+s=importlib.util.spec_from_file_location("m",P);m=importlib.util.module_from_spec(s);s.loader.exec_module(m);base=json.loads(m.ARTIFACT.read_text())
+mutations=[lambda d:d["entropy_argument"].__setitem__("mixture_entropy","no cardinality"),lambda d:d["entropy_argument"].__setitem__("gaussian_log_sobolev","reversed"),
+ lambda d:d["candidate_control"].__setitem__("consequence","candidate uncontrolled"),lambda d:d["decision"].__setitem__("uniform_zero_noise_collar_excluded",False),
+ lambda d:d["decision"].__setitem__("rare_atom_zero_noise_joint_corner_covered",False),lambda d:d["decision"].__setitem__("uses_interior_density_at_v_zero",True),
+ lambda d:d["decision"].__setitem__("global_optimizer_proved",True)]
+caught=0
+for i,mut in enumerate(mutations,1):
+ d=copy.deepcopy(base);mut(d);ok=all(v for _,v in m.validate(d));assert not ok,f"mutation {i} escaped";caught+=1;print(f"PASS {i:02d}: rejected mutation")
+print(f"RESULT: PASS {caught}/{len(mutations)}")

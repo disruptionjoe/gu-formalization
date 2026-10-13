@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1759",
+  "status": "active_research",
+  "title": "The rare-atom face has an explicit uniform collar",
+  "composition": {
+    "arb_input": "K1756 gives J(R;sqrt(q/2))-J(candidate)>2.20e-10.",
+    "ou_monotonicity": "Rademacher relative Fisher is nondecreasing in the signal parameter t under reverse OU time.",
+    "stability_input": "K1757 gives loss at most 400000 sqrt(2z) outside the K1758 zero-noise collar.",
+    "collar_choice": "0<z<=10^-34",
+    "loss_bound": "400000 sqrt(2z)<6e-12",
+    "residual_gap": "J(X_(c,z))-J(candidate)>2.14e-10 outside the zero-noise collar."
+  },
+  "coverage": {
+    "outside_zero_noise": "0<c<=2-1/961 and 0<z<=10^-34",
+    "inside_zero_noise": "covered for every z by K1758",
+    "joint_corner": "covered by K1758 without using the rare-face stability estimate"
+  },
+  "decision": {
+    "quantitative_rare_atom_collar_excluded": true,
+    "uniform_in_complete_c_range_after_composition": true,
+    "joint_corner_excluded": true,
+    "collar_is_practically_wide": false,
+    "global_optimizer_proved": false
+  },
+  "scope_guard": "The explicit collar is deliberately conservative and extremely thin. It proves absence of a boundary escape but is not a practical compact-core subdivision scale or a whole-chart optimizer theorem."
+}

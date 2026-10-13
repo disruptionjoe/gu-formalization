@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1760",
+  "status": "active_research",
+  "title": "Boundary collar composition leaves one explicit compact residual rectangle",
+  "inputs": ["K1751", "K1753", "K1754", "K1756", "K1757", "K1758", "K1759"],
+  "residual_domain": {
+    "q": "1/1024",
+    "rectangle": "0<=c<=2-1/961 and 10^-34<=z<=1",
+    "regularity": "The Gaussian variance is at least 1/32 and the outer radius is finite; c=0 is the Rademacher face and z=1 is the finite three-point face.",
+    "remaining_method": "Validated interval branch-and-bound on the closed residual rectangle, with every box pruned or included in a certified optimizer enclosure."
+  },
+  "bridge_census": {
+    "total": 460,
+    "satisfied": 381,
+    "conditional": 10,
+    "excluded": 65,
+    "missing": 4
+  },
+  "decision": {
+    "zero_noise_collar_completed": true,
+    "joint_rare_zero_corner_completed": true,
+    "quantitative_rare_atom_collar_completed": true,
+    "compact_residual_rectangle_frozen": true,
+    "compact_core_branch_and_bound_completed": false,
+    "stationarity_or_uniqueness_proved": false,
+    "global_optimizer_proved": false,
+    "source_ledger_canon_paper_prediction_confirmation_or_public_status_changed": false
+  },
+  "scope_guard": "This is boundary exclusion and domain reduction for one scalar trial family at q=1/1024. It supplies no unrestricted field infimum, continuum physical state, source-owned action, prediction, or confirmation."
+}
