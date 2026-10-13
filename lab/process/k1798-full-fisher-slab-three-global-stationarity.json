@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1798",
+  "status": "active_research",
+  "title": "Slab three contracts to seventy-eight degree-eleven leaves but complete uniqueness remains open",
+  "inputs": ["K1787", "K1794", "K1796"],
+  "certificate": {
+    "degree_eleven_partition_digest": "0b327f8e6a74d5df3e1b24261d5bccdc24229162043494ad82aaaa7922c1d9c0",
+    "input_leaves": 17,
+    "pruned_leaves": 51,
+    "retained_leaves": 78,
+    "retained_fraction_of_slab_input_area": "39/136",
+    "retained_fraction_of_original_input_area": "39/7552",
+    "named_local_stationary_box_strictly_isolated": true
+  },
+  "decision": {
+    "unique_whole_line_stationary_point_in_named_box": true,
+    "strict_outer_frontier_contraction": true,
+    "unique_stationary_point_on_complete_slab_three": false,
+    "every_slab_three_face_and_corner_closed": false,
+    "global_optimizer_proved": false
+  },
+  "next_gate": "Apply cancellation-aware interval Newton rejection and value bounds on the 78 retained leaves, composing any overlap with K1787's named stationary box and treating all residual boundary incidences explicitly.",
+  "scope_guard": "Degree eleven leaves 39/136 of K1791's slab-three frontier area. K1787 proves one local stationary point, not that the 78 residual leaves contain no other component."
+}

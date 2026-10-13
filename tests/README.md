@@ -4,8 +4,23 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
-Current exact channel-swings inventory: `4577 Python + 93 Sage`. This count
+Current exact channel-swings inventory: `4587 Python + 93 Sage`. This count
 supersedes the historical aggregate embedded in the long directory table.
+
+## K1796--K1800 degree-eleven retained-box contraction wave
+
+- K1796 fixed-cutoff degree-eleven exact enclosure-bank producer and hostile probe.
+- K1797 slab-two seven-leaf residual producer and hostile probe.
+- K1798 slab-three 78-leaf residual producer and hostile probe.
+- K1799 residual face/corner incidence census producer and hostile probe.
+- K1800 protected global-optimizer admission producer and hostile probe.
+
+The five producers certify a further exact `63/80` contraction of K1791's
+frontier and raise total original-input exclusion to `15019/15104`. They do
+not close the 85 residual leaves, their deduplicated faces and corners,
+complete slab-three uniqueness or a global optimizer, establish an
+unrestricted lower bound, or supply source-owned physics. The five producers
+pass `74/74` controls and the five hostile probes reject `41/41` mutations.
 
 ## K1791--K1795 degree-nine global-cover contraction wave
 

@@ -7,6 +7,19 @@ updated_at: "2026-10-13"
 
 # Next Steps For Contributors
 
+> **2026-10-13 K1796--K1800 DEGREE-ELEVEN RETAINED-BOX CONTRACTION WAVE.**
+> Fixed-cutoff fraction-free Gram inversion and a separable exact Bernstein
+> transform remove the prior degree-eleven resource block. Degree eleven now
+> excludes `63/80` of K1791's retained area, leaving `85/15104` of the
+> original input-cover area and raising total exact exclusion to
+> `15019/15104`. Slab two contracts to seven leaves and slab three to 78.
+> Degree thirteen retains the same exact area at this split depth, so next
+> build cancellation-aware local Taylor, directed-gradient or interval-Newton
+> certificates, beginning with slab two, and deduplicate then close every
+> geometric face and corner. Do not promote retained leaves to sublevel
+> membership, complete slab exclusion, stationary uniqueness, a global
+> optimizer, an all-seed theorem or source-owned physics.
+
 > **2026-10-13 K1791--K1795 DEGREE-NINE GLOBAL-COVER CONTRACTION WAVE.**
 > Exact rational degree-nine Bernstein refinement now prunes 128 of 153
 > terminal leaves, excludes `919/944` of the 59-cell input-cover area and

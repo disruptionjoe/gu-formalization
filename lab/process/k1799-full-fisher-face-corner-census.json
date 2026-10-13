@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1799",
+  "status": "active_research",
+  "title": "Residual face and corner obligations are enumerated without false closure",
+  "inputs": ["K1796", "K1797", "K1798"],
+  "census": {
+    "retained_terminal_leaves": 85,
+    "slab_two_leaves": 7,
+    "slab_three_leaves": 78,
+    "box_local_face_incidences": 340,
+    "box_local_corner_incidences": 340,
+    "face_incidences_closed_by_this_wave": 0,
+    "corner_incidences_closed_by_this_wave": 0,
+    "face_incidences_remaining": 340,
+    "corner_incidences_remaining": 340,
+    "incidence_count_is_unique_geometric_boundary_count": false
+  },
+  "decision": {
+    "complete_residual_boundary_census_emitted": true,
+    "all_residual_faces_closed": false,
+    "all_residual_corners_closed": false,
+    "global_optimizer_proved": false
+  },
+  "next_gate": "Deduplicate shared internal boundaries during local-model construction, but require a directed-gradient, interval-Newton or value certificate for every remaining geometric face and corner before admission.",
+  "scope_guard": "The 340+340 counts are conservative box-local incidences, not a claim of 340 unique geometric faces and corners. Enumeration prevents omission; it does not itself close an incidence."
+}

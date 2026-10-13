@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 3ede57b23da6cc2769c757eb80d95cb895139aca
+revision_basis: 9a2a6c862f7275da7471e4b1540bd0cd45c211b2
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1796--K1800 repair K1795's symbolic degree-eleven resource failure by
+    specializing `q=1/1024` before fraction-free exact Gram inversion and by
+    replacing the slow tensor expansion with a separable exact affine
+    power-to-Bernstein transform. On K1791's 25 retained boxes, degree eleven
+    emits 155 terminal leaves: 70 have strictly positive exact Bernstein lower
+    coefficients and 85 remain. Exact area contracts by `63/80` relative to
+    the K1791 frontier, leaving only `85/15104` of the original input-cover
+    area and raising total exact exclusion to `15019/15104`. Slab two leaves
+    seven children occupying `7/128` of its prior frontier; slab three leaves
+    78 occupying `39/136`. Degree thirteen completes exactly but retains the
+    same `17/80` area at this split depth, so raw degree escalation is not the
+    selected next method. The residual face and corner obligations remain
+    open, so complete slab-two exclusion, complete slab-three uniqueness and
+    global optimality are withheld. The bridge census is 500 rows: 421
+    satisfied, ten conditional, 65 excluded and four missing. Protected
+    source, ledger, canon and public states do not move.
+
     K1791--K1795 replay the degree-nine odd-Hermite projection as an exact
     rational Bernstein cover over all 59 K1771 interior cells. A deterministic
     four-level `t,z,t,z` subdivision emits 153 terminal leaves: 128 have
@@ -15649,6 +15666,16 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1796--K1800 raise exact exclusion to `15019/15104` of the original
+  full-Fisher input cover and reduce slab two to seven residual leaves and
+  slab three to 78. Can cancellation-aware local Taylor models, directed
+  gradients or interval-Newton rejection now close those 85 leaves and their
+  deduplicated geometric faces and corners, beginning with slab two, without
+  repeating coarse entrywise Hessian wrapping or unproductive raw degree
+  escalation? Quantitative Haar saving and a realizable correlated tensor
+  remain separate alternatives; no scalar trial law is a source-owned
+  physical state or unrestricted infimum.
+
   K1786--K1790 certify whole-line value/gradient/Hessian tails on three named
   local boxes, isolate one interior slab-three stationary point and the two
   directed slab-one/two boundary KKT candidates, and prove a strict value
@@ -18565,6 +18592,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1796 as an exact degree-eleven outer-cover contraction: retained
+  leaves are not sublevel members, stationary components or optimizers.
+  Preserve K1797 and K1798 as strict area contractions around local K1788 and
+  K1787 certificates, not complete slab theorems. Preserve K1799's 340 face
+  and 340 corner counts as conservative box-local incidences rather than
+  unique geometric-boundary counts or closures. Preserve K1800's global
+  admission as withheld. Next build cancellation-aware local Taylor,
+  directed-gradient or interval-Newton certificates on the 85 residual
+  leaves, starting with slab two's seven; deduplicate shared boundaries and
+  close every remaining geometric face and corner before promotion. No
+  source-owned Hamiltonian, physical state, observation, prediction or
+  admission follows.
+
   Preserve K1786 only on its named rational parameter boxes; it is not a
   whole-slab derivative bound. Preserve K1787 as existence and uniqueness of
   one whole-line stationary point inside one slab-three box, not uniqueness on

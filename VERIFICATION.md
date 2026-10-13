@@ -7,6 +7,24 @@ updated_at: "2026-10-13"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1796--K1800 degree-eleven retained-box contraction wave (2026-10-13)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Degree-eleven exact inversion remains resource-blocked | K1796 fixed-cutoff fraction-free replay | false: the five-dimensional exact solve completes and emits a 1,258-term threshold polynomial |
+| Leaf count alone measures contraction | K1796 exact area arithmetic | false: subdivision leaves 85 children but excludes exactly `63/80` of K1791's frontier area |
+| The original input-cover residual remains `25/944` | K1791+K1796 exact composition | false: it contracts to `85/15104`, with total exclusion `15019/15104` |
+| The local slab-two KKT box exhausts slab two | K1797 seven-leaf residual | not established |
+| The local slab-three stationary box exhausts slab three | K1798 78-leaf residual | not established |
+| The residual boundary has been silently omitted | K1799 conservative incidence census | false: 340 face and 340 corner incidences are carried explicitly, but none is declared closed |
+| Increasing to degree thirteen selects the next method | recorded exact exploration | false at the same split depth: it retains the same `17/80` area |
+| A global finite-strength scalar optimizer follows | K1800 protected admission | not established |
+
+The five producers pass `74/74` controls and the five hostile probes reject
+`41/41` mutations. The bridge census is 500 rows: 421 satisfied, ten
+conditional, 65 excluded and four missing. Source, ledger, canon and public
+states do not move.
+
 ## K1791--K1795 degree-nine global-cover contraction wave (2026-10-13)
 
 | Claim | Evidence | Honest grade |

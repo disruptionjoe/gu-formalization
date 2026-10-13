@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1800",
+  "status": "active_research",
+  "title": "Exact exclusion reaches 15019/15104 while global optimizer admission remains withheld",
+  "inputs": ["K1795", "K1796", "K1797", "K1798", "K1799"],
+  "bridge_census": {"total": 500, "satisfied": 421, "conditional": 10, "excluded": 65, "missing": 4},
+  "protected_state": {
+    "source_register_changed": false,
+    "standing_ledger_changed": false,
+    "canon_changed": false,
+    "paper_changed": false,
+    "prediction_changed": false,
+    "confirmation_changed": false,
+    "public_posture_changed": false,
+    "k1145_score": "0/7",
+    "k1150_score": "0/7"
+  },
+  "entry_state": {
+    "degree_eleven_exact_partition_replayed": true,
+    "fixed_cutoff_symbolic_resource_block_removed": true,
+    "excluded_fraction_of_original_input_area": "15019/15104",
+    "slab_one_complete_sublevel_excluded": true,
+    "slab_two_retained_leaves": 7,
+    "slab_three_retained_leaves": 78,
+    "complete_complement_cover_available": false
+  },
+  "decision": {
+    "slab_one_globally_excluded": true,
+    "slab_two_globally_excluded": false,
+    "unique_stationary_point_on_complete_slab_three": false,
+    "all_residual_faces_and_corners_closed": false,
+    "global_optimizer_proved": false,
+    "source_owned_physical_theory": false
+  },
+  "next_gate": "Build cancellation-aware local Taylor or interval-Newton certificates on the 85 residual leaves, beginning with slab two's seven leaves; deduplicate and close every geometric face and corner before global admission.",
+  "scope_guard": "K1796 removes the prior degree-eleven resource block and proves a further exact area contraction. Degree thirteen was explored and produced the same 17/80 retained area at this split depth, so degree escalation alone is not promoted as the next method. The residual frontier still blocks every global claim."
+}

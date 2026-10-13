@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1796",
+  "status": "active_research",
+  "title": "Fixed-cutoff degree-eleven Bernstein refinement removes sixty-three eightieths of the retained frontier",
+  "inputs": ["K1791"],
+  "enclosure": {
+    "cutoff_q": "1/1024",
+    "degree": 11,
+    "odd_basis_dimension": 5,
+    "threshold": "31835729061/200000000000000000",
+    "polynomial_terms": 1258,
+    "coefficient_digest": "21310c7437582e7526b81c8fb56fdd5753812f95956bf1d648fbf5e9b1ebb21e",
+    "input_partition_digest": "8ddb3e279c334e8df5141ed05bbca13e05965e6e62f26c4b514f173219434c59",
+    "input_retained_leaves": 25,
+    "adaptive_split_order": ["t", "z", "t", "z"],
+    "max_depth": 4,
+    "pruned_leaves": 70,
+    "retained_leaves": 85,
+    "terminal_leaves": 155,
+    "retained_fraction_of_k1791_area": "17/80",
+    "excluded_fraction_of_k1791_area": "63/80",
+    "retained_fraction_of_original_input_area": "85/15104",
+    "excluded_fraction_of_original_input_area": "15019/15104",
+    "by_slab": [
+      {"slab": 2, "input_leaves": 8, "pruned_leaves": 19, "retained_leaves": 7, "retained_fraction_of_slab_input_area": "7/128", "retained_fraction_of_original_input_area": "7/15104"},
+      {"slab": 3, "input_leaves": 17, "pruned_leaves": 51, "retained_leaves": 78, "retained_fraction_of_slab_input_area": "39/136", "retained_fraction_of_original_input_area": "39/7552"}
+    ],
+    "partition_digest": "0b327f8e6a74d5df3e1b24261d5bccdc24229162043494ad82aaaa7922c1d9c0"
+  },
+  "method": "Specialize q=1/1024 before fraction-free exact Gram inversion, cross-multiply the degree-eleven projection against the certified upper threshold, then apply a separable exact affine power-to-Bernstein transform on a deterministic t-z-t-z refinement of the 25 K1791 boxes.",
+  "decision": {
+    "fixed_cutoff_exact_inversion_completed": true,
+    "strict_retained_area_contraction": true,
+    "complete_retained_frontier_excluded": false,
+    "retained_leaf_means_below_threshold": false,
+    "global_optimizer_proved": false
+  },
+  "scope_guard": "The exact degree-eleven test excludes 63/80 of K1791's retained area and raises the total exact exclusion to 15019/15104 of the original input-cover area. The 85 retained child boxes are an outer frontier only; their survival is not membership, stationarity, uniqueness or optimality."
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1797",
+  "status": "active_research",
+  "title": "Slab two contracts to seven degree-eleven leaves but remains globally open",
+  "inputs": ["K1788", "K1793", "K1796"],
+  "certificate": {
+    "degree_eleven_partition_digest": "0b327f8e6a74d5df3e1b24261d5bccdc24229162043494ad82aaaa7922c1d9c0",
+    "input_leaves": 8,
+    "pruned_leaves": 19,
+    "retained_leaves": 7,
+    "retained_fraction_of_slab_input_area": "7/128",
+    "retained_fraction_of_original_input_area": "7/15104",
+    "local_boundary_kkt_value": "[1.5917866583816442198940312103533692491e-7 +/- 2.92e-24]"
+  },
+  "decision": {
+    "local_boundary_kkt_isolated": true,
+    "strict_outer_frontier_contraction": true,
+    "complete_slab_two_sublevel_excluded": false,
+    "every_slab_two_face_and_corner_closed": false,
+    "global_optimizer_proved": false
+  },
+  "next_gate": "Use cancellation-aware local Taylor models or directed gradients on the seven retained leaves and their boundary incidences; compare any surviving component with the isolated upper-t boundary KKT box.",
+  "scope_guard": "Degree eleven leaves only 7/128 of K1791's slab-two frontier area, but the seven retained leaves still prevent promotion of the local boundary KKT point to a complete slab-two theorem."
+}
