@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1753",
+  "status": "active_research",
+  "title": "A rational rectangular-chart point Arb-certifiably improves K1749's selected linear section",
+  "backend": "python-flint==0.9.0",
+  "pre_flight": {
+    "problem_match": "Test whether the rectangular-domain locator produces a rigorous finite-strength improvement beyond the local K1738 linear section at q=1/1024.",
+    "rederived_inputs": "Recompute K1749's selected section from the isolated cubic and chart Jacobian, then compare it with an exact rational c,z point.",
+    "scope": "One named q and two named interior channels; no interval Newton or parameter-domain exclusion."
+  },
+  "rational_candidate": {
+    "q": "1/1024",
+    "c": "3308164903/2000000000",
+    "z": "1127044207/2000000000",
+    "a": "872955793/2000000000",
+    "p": "0.8389375223046077950509880044837216959...",
+    "b": "3.9352574481579319275095657361379791911...",
+    "u": "0.3459175485",
+    "t": "0.0531329249638961748432221614500846818..."
+  },
+  "certificate": {
+    "compact_interval": "[-11,11] split into 352 rational cells",
+    "taylor_order": 12,
+    "comparison": "J_k1749_selected_linear-J_rational_candidate",
+    "whole_line_gap": "contained in [6.56767557e-15 +/- 6.60e-24]",
+    "strict_lower_bound": ">6.56e-15",
+    "combined_tail_upper": "<5.82e-27",
+    "maximum_cell_remainder": "<8.26e-26"
+  },
+  "decision": {
+    "rational_candidate_strictly_better": true,
+    "k1749_selected_linear_finite_strength_optimality": false,
+    "candidate_box_unique": false,
+    "whole_chart_global_optimizer_proved": false
+  },
+  "scope_guard": "The certificate orders two named channels only. It does not certify the numerical locator, a stationary point, uniqueness, a boundary collar, or a global minimum.",
+  "post_flight": {
+    "strongest_overclaim": "A strict rational-point improvement over the local selected jet is not a chart-global optimizer theorem.",
+    "strongest_counterexample_seam": "A different remote interior point or any unresolved boundary collar may still be lower.",
+    "reproducibility_seam": "Replay uses the existing local python-flint 0.9.0 environment, positive-denominator interval Taylor quadrature and analytic Gaussian tails."
+  }
+}

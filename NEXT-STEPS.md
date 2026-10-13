@@ -7,6 +7,20 @@ updated_at: "2026-10-13"
 
 # Next Steps For Contributors
 
+> **2026-10-13 K1751--K1755 TWO-RADIUS RECTANGULAR-DOMAIN WAVE.** The
+> complete regular fixed-`q` symmetric two-radius family is exactly the open
+> rectangle `0<c<2-q`, `0<z<1`, with
+> `p=c/(c+z^2)`, `a=1-z`, `b=1+c/z`, `u=2-c`. Its faces are now typed as
+> Rademacher/coalescence, the symmetric three-point family, rare-atom growing
+> support, and zero-noise singularity. At `q=1/1024`, Arb certifies that one
+> exact rational interior point beats K1749's selected linear section by a
+> positive gap centered at `6.56767557e-15`. A five-piece collar/core contract
+> and computed interior locator define the global task, but do not finish it.
+> Next prove the rare-atom and zero-noise collars, including their joint
+> corner, then run interval branch-and-bound on the compact core. Keep Haar
+> saving, correlated tensors, unrestricted lower bounds and physical source
+> ownership separate.
+
 > **2026-10-13 K1746--K1750 THIRD-ORDER FOUR-POINT AND ARB WAVE.** The exact
 > relative-Fisher law now extends through `t^14`. The matched `q^(13/2)` term
 > is blind, while `q^7` completes into strict squares centered at

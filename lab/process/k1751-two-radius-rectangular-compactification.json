@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1751",
+  "status": "active_research",
+  "title": "The complete regular two-radius chart is an exact open rectangle",
+  "pre_flight": {
+    "problem_match": "Replace the noncompact p-to-one, b-to-infinity presentation left by K1750 with coordinates that expose every remote and singular boundary before whole-domain certification.",
+    "rederived_inputs": "Use only K1731 variance normalization and u=3-m4; do not assume K1751 or a numerical optimizer.",
+    "collision_search": "K1731 gives the p,a chart and K1749 handles two named sections, but no K1726--K1750 artifact contains the c,z rectangularization."
+  },
+  "chart": {
+    "forward_definitions": "c=2-u and z=1-a",
+    "inverse": "p=c/(c+z^2), a=1-z, b=1+c/z, u=2-c",
+    "fixed_q_domain": "0<c<2-q and 0<z<1",
+    "round_trip": "For every regular symmetric unit-variance two-radius law, c=p(1-a)^2/(1-p)>0 and z=1-a recover p,a,b exactly.",
+    "moment_identity": "p a+(1-p)b=1 and p a^2+(1-p)b^2=1+c, hence u=2-c.",
+    "bijection": "The formulas give a bijection between the regular u>q two-radius chart and the open rectangle (0,2-q)x(0,1)."
+  },
+  "decision": {
+    "exact_rectangular_chart_proved": true,
+    "noncompact_p_a_face_resolved_as_coordinate_boundary": true,
+    "whole_domain_fisher_ordered": false,
+    "global_optimizer_proved": false
+  },
+  "scope_guard": "This is an exact chart theorem for symmetric unit-variance two-radius four-point laws. It is not a Fisher minimization, all-seed theorem, or physical result.",
+  "post_flight": {
+    "strongest_overclaim": "A compact rectangular parameter closure does not make the Fisher objective continuous on every boundary or certify a minimum.",
+    "strongest_counterexample_seam": "The z-to-zero rare-atom face and joint z-to-zero, c-to-(2-q) corner remain analytically nonuniform.",
+    "reproducibility_seam": "The producer replays both directions with exact rational arithmetic and checks variance and u identities independently."
+  }
+}

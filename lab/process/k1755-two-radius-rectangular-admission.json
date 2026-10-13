@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1755",
+  "status": "active_research",
+  "title": "Protected admission for the rectangular-domain and rational-improvement wave",
+  "bridge_census": {
+    "total": 455,
+    "satisfied": 376,
+    "conditional": 10,
+    "excluded": 65,
+    "missing": 4,
+    "new_satisfied_rows": ["K1751", "K1752", "K1753", "K1754", "K1755"]
+  },
+  "protected_state": {
+    "source_claim_register_changed": false,
+    "standing_physics_ledger_changed": false,
+    "canon_changed": false,
+    "papers_changed": false,
+    "predictions_changed": false,
+    "confirmations_changed": false,
+    "public_posture_changed": false,
+    "k1145_score": "0/7",
+    "k1150_score": "0/7"
+  },
+  "decision": {
+    "rectangular_chart_and_boundaries_admitted": true,
+    "named_rational_improvement_admitted": true,
+    "whole_chart_optimizer_admitted": false,
+    "all_seed_or_physical_result_admitted": false
+  },
+  "next_frontier": {
+    "incumbent": "Prove quantitative rare-atom and zero-noise collars, then interval branch-and-bound the compact rectangular core at q=1/1024.",
+    "strongest_alternative": "Prove translation-Haar saving is o(N^4) for the fixed-shape non-Gaussian cardinal product using an explicit posterior-concentration theorem.",
+    "high_confidence_outlier": "Test a realizable two-cell correlated fourth-cumulant tensor against the scalar-product Rayleigh quotient.",
+    "lower_principle_boundary": "A fourth-cumulant score bound alone is not unrestricted because rare-tail mixtures can make the sixth-moment denominator arbitrarily large."
+  },
+  "scope_guard": "K1751--K1754 are repository trial-functional mathematics. They move no source, ledger, canon, paper, prediction, confirmation, or public status."
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1754",
+  "status": "computed",
+  "title": "The rectangular chart yields a complete collar-core certification scaffold and a controlled interior locator",
+  "cover_contract": {
+    "domain": "D_q=(0,2-q)x(0,1) in (c,z)",
+    "partition": [
+      "c<=epsilon: Rademacher/coalescence collar",
+      "z>=1-epsilon: complete-three-point collar",
+      "z<=epsilon: rare-atom/growing-support collar",
+      "c>=2-q-epsilon: zero-noise singular collar",
+      "epsilon<=c<=2-q-epsilon and epsilon<=z<=1-epsilon: compact interior core"
+    ],
+    "corner_rule": "Overlapping collars, especially z<=epsilon with c>=2-q-epsilon, must be certified jointly; one-face limits cannot be multiplied into a corner theorem.",
+    "core_method": "Use K1749's positive-denominator Arb integrand. A candidate upper bound needs whole-line compact-plus-tail enclosure; pruning lower bounds may integrate a compact y interval only because the omitted Fisher density is nonnegative.",
+    "acceptance": "Every core box is either pruned against the candidate upper bound or belongs to one interval-Newton uniqueness enclosure, and every collar including overlaps has an explicit bound. Unresolved boxes make the global verdict false."
+  },
+  "computed_locator": {
+    "grade": "reproducible_numerical_evidence_not_interval_certification",
+    "q": 0.0009765625,
+    "orders": [120, 180],
+    "starts": [[1.654, 0.5635], [1.67, 0.56], [0.5, 0.8], [1.9, 0.3], [1.0, 0.5]],
+    "objective": 1.59178645304967e-7,
+    "c_range": [1.6540744, 1.6540860],
+    "z_range": [0.5635202, 0.5635270],
+    "p_range": [0.8389345, 0.8389388],
+    "a_range": [0.4364730, 0.4364799],
+    "optimized_three_point_control": 1.59179234359697e-7,
+    "rademacher_control": 1.59398766132490e-7
+  },
+  "decision": {
+    "complete_cover_contract_defined": true,
+    "interior_locator_reproduced_across_orders_and_starts": true,
+    "candidate_below_numerically_optimized_three_point_control": true,
+    "global_branch_and_bound_completed": false,
+    "boundary_collars_completed": false
+  },
+  "scope_guard": "The locator and boundary comparisons are computed evidence. Only K1753's two-point order is interval-certified; no global result follows until the cover acceptance rule passes."
+}

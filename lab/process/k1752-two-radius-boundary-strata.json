@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1752",
+  "status": "active_research",
+  "title": "The rectangular chart exposes four distinct boundary mechanisms",
+  "boundary_strata": {
+    "c_zero": {
+      "name": "radius_coalescence_rademacher",
+      "law": "p=0 in the effective law, b=1 and the a label carries zero mass; the distribution is symmetric Rademacher.",
+      "fisher_type": "finite Gaussian channel at t=sqrt(q/2)"
+    },
+    "z_one": {
+      "name": "complete_symmetric_three_point",
+      "law": "a=0, p=c/(c+1), b=1+c; the two inner atoms coalesce at zero.",
+      "fisher_type": "finite interior channel for 0<c<2-q"
+    },
+    "z_zero": {
+      "name": "rare_atom_growing_support",
+      "law": "p tends to one, a tends to one, b=1+c/z diverges and outer mass z^2/(c+z^2) vanishes.",
+      "moment_warning": "Variance stays one and m4=1+c, while every fixed moment above four diverges for fixed c>0; weak Rademacher convergence is not uniform moment convergence.",
+      "fisher_type": "requires a dedicated rare-atom collar bound"
+    },
+    "c_two_minus_q": {
+      "name": "zero_gaussian_noise_singular_face",
+      "law": "u=q, t=1 and v=0 for every 0<z<=1.",
+      "fisher_type": "+infinity in the extended relative-Fisher convention for the discrete pushforward"
+    },
+    "joint_corner": {
+      "name": "rare_atom_zero_noise_corner",
+      "warning": "The joint (c,z)->(2-q,0) limit is not licensed by either one-face statement and needs a two-parameter collar argument."
+    }
+  },
+  "decision": {
+    "all_four_rectangle_faces_typed": true,
+    "rare_atom_nonuniformity_exposed": true,
+    "singular_face_separated_from_interior_formula": true,
+    "all_boundary_collars_excluded": false
+  },
+  "scope_guard": "Boundary typing identifies the obligations of a global proof; it does not prove collar separation or continuity at the rare-atom corner."
+}

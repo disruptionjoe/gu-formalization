@@ -4,6 +4,26 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1751--K1755 two-radius rectangular-domain wave
+
+- K1751 exact rectangular chart producer: `31/31`; hostile probe: `5/5`
+  rejected.
+- K1752 boundary-strata producer: `15/15`; hostile probe: `5/5` rejected.
+- K1753 Arb rational interior improvement: `14/14`; hostile probe: `6/6`
+  rejected.
+- K1754 domain-certification scaffold and locator: `15/15`; hostile probe:
+  `7/7` rejected.
+- K1755 protected admission producer: `15/15`; hostile probe: `8/8`
+  rejected.
+
+The five producers pass `90/90` direct controls and the five hostile probes
+reject `31/31` mutations. They prove the complete regular rectangular chart,
+type all four boundary strata, and Arb-certify one strict rational interior
+improvement over K1749's selected linear section. They do not prove the
+boundary collars, finish the compact-core branch-and-bound, establish
+stationarity or uniqueness, or supply a global optimizer or source-owned
+physical theory.
+
 ## K1746--K1750 third-order branch and Arb wave
 
 - K1746 symmetric fourteenth-order Fisher-law producer: `28/28`; hostile

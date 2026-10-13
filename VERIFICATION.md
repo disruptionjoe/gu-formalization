@@ -7,6 +7,26 @@ updated_at: "2026-10-13"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1751--K1755 two-radius rectangular-domain wave (2026-10-13)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The complete regular fixed-`q` two-radius chart is an open rectangle | K1751 exact inverse formulas | proved: `(c,z)` ranges exactly over `(0,2-q)x(0,1)` |
+| The four rectangle faces have one common regular limit | K1752 boundary classification | false: coalescence, three-point, rare-atom and zero-noise mechanisms differ |
+| The K1749 selected linear section is finite-strength optimal | K1753 Arb whole-line comparison | false: one exact rational interior point beats it by a certified positive gap |
+| The rational point is stationary or globally optimal | K1753 named-point certificate | not established |
+| The numerical interior locator is a global certificate | K1754 two-order/five-start scout | computed evidence only |
+| Separate one-face limits settle the rare-atom/zero-noise corner | K1752/K1754 cover contract | false: a joint two-parameter collar is required |
+| A complete global proof now has a fail-closed decomposition | K1754 five-piece cover | scaffold proved; collar bounds and core branch-and-bound remain open |
+
+The five producers pass `90/90` direct controls and the five hostile probes
+reject `31/31` mutations. The exact grades are a complete regular rectangular
+chart, four typed boundary strata, and an Arb-certified ordering between two
+named finite-channel points. The locator and global certification surface do
+not prove stationarity, uniqueness or global optimality. The bridge census is
+455 rows: 376 satisfied, ten conditional, 65 excluded and four missing.
+Source, ledger, canon and public states do not move.
+
 ## K1746--K1750 third-order branch and Arb wave (2026-10-13)
 
 | Claim | Evidence | Honest grade |

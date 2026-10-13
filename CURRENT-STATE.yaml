@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: c853afb525d12d93b89c5a67fea445085a8caa27
+revision_basis: aa8d6ce212385d65723c78ad37dceb1bdad9e6b6
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1751--K1755 replace the remote regular fixed-`q` symmetric two-radius
+    problem by the exact rectangle `0<c<2-q`, `0<z<1`, with inverse
+    `p=c/(c+z^2)`, `a=1-z`, `b=1+c/z` and `u=2-c`. Its four faces are typed
+    separately as Rademacher/coalescence, the complete symmetric three-point
+    family, rare-atom growing support, and the zero-noise discrete singular
+    face. At `q=1/1024`, a rational interior point with
+    `(c,z)=(3308164903,1127044207)/2000000000` has an Arb-certified strict
+    improvement over K1749's selected linear section by a positive gap
+    centered at `6.56767557e-15`. A five-piece collar/core contract and a
+    reproducible numerical locator now specify the global certification
+    problem, but no collar or compact-core branch-and-bound is complete and
+    no global optimizer follows. The bridge census is 455 rows: 376
+    satisfied, ten conditional, 65 excluded and four missing. Protected
+    source, ledger, canon and public states do not move.
+
     K1746--K1750 select the third-order jet of K1743's symmetric two-radius
     branch and replace K1744's floating named-section comparison with an Arb
     certificate. The bounded symmetric relative-Fisher law now extends
@@ -15506,6 +15521,16 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1751--K1754 put the complete regular fixed-`q` two-radius family on an
+  exact rectangle and certify one strict interior improvement over K1749's
+  selected linear section. Can quantitative rare-atom and zero-noise collars,
+  including their joint corner, be proved and followed by an interval
+  branch-and-bound on the compact core? The numerical interior locator is a
+  search target, not a stationary or global theorem. Quantitative Haar saving
+  and a realizable correlated tensor remain separate alternatives; an
+  unrestricted lower principle needs new tail or localization control. No
+  scalar trial law is a source-owned physical state or global infimum.
+
   K1746--K1749 prove that `q^7`, not the blind `q^(13/2)` term, selects the
   remaining third-order coordinate and gives a unique third-order chart jet.
   They also Arb-certify one named finite-channel comparison at `q=1/1024`
@@ -18391,6 +18416,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1751's exact bijection only on the regular open rectangle
+  `0<c<2-q`, `0<z<1`. Preserve K1752 as boundary typing rather than collar
+  exclusion, especially at the joint rare-atom/zero-noise corner. Preserve
+  K1753 as an Arb-certified ordering between two named points at
+  `q=1/1024`; it disproves finite-strength optimality of K1749's selected
+  linear section but proves neither stationarity nor whole-chart optimality.
+  Preserve K1754's locator as computed evidence and its five-piece cover as a
+  fail-closed certification scaffold only. Next prove quantitative collars
+  and complete compact-core interval branch-and-bound. Separately quantify
+  Haar saving or test a realizable correlated tensor; do not claim an
+  unrestricted lower theorem without controlling the sixth-moment tail seam.
+  No result supplies a source-owned Hamiltonian, physical state, observation,
+  prediction or admission.
+
   Preserve K1746's fixed bounded symmetric seed scope: the `t^13` and `t^14`
   coefficients are exact local expansions without a uniform moving-seed
   remainder. Preserve K1747's regular matched equality path: `q^(13/2)` is
