@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1809",
+  "status": "active_research",
+  "title": "The complete slab-two full-Fisher sublevel is excluded above the slab-three threshold",
+  "inputs": ["K1792", "K1796", "K1804", "K1808"],
+  "certificate": {
+    "threshold": "31835729061/200000000000000000",
+    "prior_exact_pruned_fraction_of_original_input_area": "15019/15104",
+    "slab_two_retained_leaf_count": 7,
+    "slab_two_retained_union": {
+      "t": ["56314519603/1099511627776", "887855469/17179869184"],
+      "z": ["589/1024", "1185/2048"],
+      "box_count": 7
+    },
+    "whole_line_witness_margin_lower": "[3.0938112868622235862286580499108618303e-21 +/- 7.64e-60]",
+    "prior_complement_exactly_excluded": true,
+    "retained_rectangle_strictly_above_threshold": true,
+    "slab_one_already_excluded": true
+  },
+  "method": "K1796's exact odd-Hermite Bernstein bank excludes the slab-two complement of its seven retained leaves. K1804 proves those leaves are exactly one rectangle. K1808's whole-line Cauchy witness is strictly above the comparison threshold throughout that closed rectangle, so it covers interiors, faces and corners simultaneously.",
+  "decision": {
+    "slab_one_complete_sublevel_excluded": true,
+    "slab_two_complete_sublevel_excluded": true,
+    "all_slab_two_faces_and_corners_covered_by_uniform_value_bound": true,
+    "unique_stationary_point_on_complete_slab_three": false,
+    "global_optimizer_proved": false
+  },
+  "scope_guard": "This is a complete slab-two value exclusion, not an assertion that no stationary point exists there. Global optimizer promotion still requires complete slab-three uniqueness/value control and its exposed boundary."
+}

@@ -7,6 +7,22 @@ updated_at: "2026-10-13"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1806--K1810 anchored-score whole-line wave (2026-10-13)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The varying mixture denominator prevents a stable full-Fisher lower bound | K1806 fixed-score Cauchy algebra | false for the witness: it cancels from `A` and is linear in `B` |
+| The witness is only a numerical scout | K1807 sixth-order normalized Arb jets and absolute remainder | false: the compact cross margin is rigorously above `3.0938112974e-21` on the full exact rectangle |
+| Omitted observation tails can reverse the compact sign | K1808 Gaussian recurrence and tail Cauchy bound | false: the perturbation is below `1.064e-29` |
+| The seven slab-two leaves or their faces remain open | K1796+K1804+K1808+K1809 exact composition | false: the complete closed rectangle is strictly above threshold |
+| Slab two is globally excluded at the comparison threshold | K1809 protected composition | proved |
+| The global optimizer follows from two excluded slabs | K1810 protected admission | not established: slab three retains 78 leaves and only local uniqueness |
+
+The bridge census is 510 rows: 431 satisfied, ten conditional, 65 excluded
+and four missing. The five producers pass `62/62` controls and the five
+hostile probes reject `22/22` mutations. Source, ledger, canon and public
+states do not move.
+
 ## K1801--K1805 full-Fisher local Taylor and complement wave (2026-10-13)
 
 | Claim | Evidence | Honest grade |

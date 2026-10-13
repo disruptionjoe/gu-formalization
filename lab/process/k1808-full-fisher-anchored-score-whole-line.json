@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1808",
+  "status": "active_research",
+  "title": "Analytic omitted tails preserve the anchored-score margin on the complete slab-two rectangle",
+  "inputs": ["K1786", "K1806", "K1807"],
+  "certificate": {
+    "rectangle": {
+      "t": ["56314519603/1099511627776", "887855469/17179869184"],
+      "z": ["589/1024", "1185/2048"]
+    },
+    "tail_start": "11",
+    "anchor_denominator_floor": "[0.97369823937948721984375462283236528743 +/- 1.29e-39]",
+    "gaussian_rate_floor": "[0.52699131239160124096088111400604248047 +/- 1.25e-39]",
+    "linear_exponent_ceiling": "[0.46984103637237283649729973677148178839 +/- 1.29e-39]",
+    "b_tail_term_count": 32,
+    "absolute_two_tail_bounds": {
+      "J": "[3.1214253199219630231442531040839919408e-25 +/- 1.73e-63]",
+      "B": "[5.6264541821476035988995029618496139218e-23 +/- 8.1e-63]",
+      "A_by_cauchy": "[4.1907704000024089098433851214796279037e-24 +/- 4.22e-62]"
+    },
+    "compact_cross_margin_lower": "[3.0938112974946452920786941956604271275e-21 +/- 1.36e-59]",
+    "tail_perturbation_upper": "[1.0632421705850036145749565297178767950e-29 +/- 2.84e-67]",
+    "whole_line_cross_margin_lower": "[3.0938112868622235862286580499108618303e-21 +/- 7.64e-60]",
+    "whole_line_cross_margin_positive": true
+  },
+  "method": "Bound the full-Fisher tail J by K1786's positive polynomial-exponential majorant on the complete rectangle. Bound B directly using the fixed anchor score and the same Gaussian recurrence, then obtain |A_tail| <= sqrt(J_tail B_tail). Subtract the rigorous perturbation 2|A_compact||A_tail|+A_tail^2+T B_tail from K1807's compact cross margin.",
+  "decision": {
+    "complete_slab_two_whole_line_witness_certified": true,
+    "slab_two_globally_excluded": false,
+    "global_optimizer_proved": false
+  },
+  "scope_guard": "This proves the witness exceeds the admitted comparison threshold throughout the complete slab-two residual rectangle. Composition with the already excluded complement is still recorded separately in K1809."
+}

@@ -7,6 +7,19 @@ updated_at: "2026-10-13"
 
 # Next Steps For Contributors
 
+> **2026-10-13 K1806--K1810 ANCHORED-SCORE WHOLE-LINE WAVE.**
+> Fixing the K1788 boundary-KKT score converts full Fisher into the Cauchy
+> lower witness `A^2/B` and cancels the varying density denominator from `A`.
+> A centered sixth-order Arb model proves `A^2-TB` above `3.0938e-21` on the
+> complete exact slab-two rectangle over `[-11,11]`; analytic two-tail bounds
+> cost only `1.0633e-29`. K1809 therefore excludes the complete slab-two
+> sublevel, including its faces and corners. Slabs one and two are closed.
+> Next anchor the same witness at K1787's slab-three stationary score, certify
+> all 78 exact slab-three leaves and their exposed geometry, and combine the
+> value cover with interval Newton/Krawczyk uniqueness. Do not promote the
+> remaining local slab-three certificate to a global optimizer or to
+> source-owned physics.
+
 > **2026-10-13 K1801--K1805 LOCAL TAYLOR AND PROJECTION-COMPLEMENT WAVE.**
 > A reusable compact third-order Arb jet now preserves the local Fisher
 > cancellations. At K1788's exact slab-two KKT point, however, the exact

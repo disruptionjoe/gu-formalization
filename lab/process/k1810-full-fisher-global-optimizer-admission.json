@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1810",
+  "status": "active_research",
+  "title": "Two slabs are globally excluded and the optimizer theorem is withheld on the 78-leaf slab-three frontier",
+  "inputs": ["K1794", "K1804", "K1809"],
+  "certificate": {
+    "slab_one_excluded": true,
+    "slab_two_excluded": true,
+    "slab_three_retained_boxes": 78,
+    "slab_three_local_stationary_point_isolated": true,
+    "slab_three_complete_uniqueness": false,
+    "deduplicated_exposed_atomic_faces_total": 122,
+    "deduplicated_exposed_boundary_vertices_total": 122,
+    "transfer_method": "anchor at the K1787 slab-three stationary score; certify A^2-TB on each of the 78 exact leaves with the K1807 centered jet and K1808 tails; use the uniform closed-box value bounds to discharge each leaf face and vertex"
+  },
+  "decision": {
+    "slab_one_globally_excluded": true,
+    "slab_two_globally_excluded": true,
+    "unique_stationary_point_on_complete_slab_three": false,
+    "global_optimizer_proved": false,
+    "source_owned_physical_theory": false
+  },
+  "scope_guard": "K1806-K1809 remove the entire slab-two branch and its boundary obligations. The same variational method is transferable, but no uncomputed slab-three leaf, face or vertex is silently certified. Global and physical promotion remain withheld."
+}

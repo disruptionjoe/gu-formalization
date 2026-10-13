@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1807",
+  "status": "active_research",
+  "title": "A sixth-order centered Arb model proves the compact anchored-score margin on the complete slab-two rectangle",
+  "inputs": ["K1804", "K1806"],
+  "backend": "python-flint==0.9.0",
+  "certificate": {
+    "chart": {"q": "1/1024"},
+    "rectangle": {
+      "t": ["56314519603/1099511627776", "887855469/17179869184"],
+      "z": ["589/1024", "1185/2048"]
+    },
+    "center": {"t": "113137269619/2199023255552", "z": "2363/4096"},
+    "radius": {"t": "508230413/2199023255552", "z": "7/4096"},
+    "anchor": {"t": "887855469/17179869184", "z": "576161143609/1000000000000"},
+    "threshold": "31835729061/200000000000000000",
+    "window": "[-11,11]",
+    "cell_half_width": "1/16",
+    "observation_taylor_order": 12,
+    "parameter_taylor_order": 6,
+    "compact_cell_count": 352,
+    "compact_bounds": {
+      "a_lower": "[1.5917862253559315274716854271444048982e-7 +/- 3.88e-45]",
+      "b_upper": "[1.5917885651914292777198918925897311704e-7 +/- 3.52e-45]",
+      "cross_margin_lower": "[3.0938112974946452920786941956604271275e-21 +/- 1.36e-59]",
+      "a_positive": true,
+      "a_absolute_upper_lt_2e_minus_7": true,
+      "b_upper_positive": true,
+      "cross_margin_positive": true
+    },
+    "degree_six_remainder_bounds": {
+      "A": "[1.7504280849625953409563555842052124377e-17 +/- 3.79e-56]",
+      "B": "[4.3491410094924084156767840241340970200e-20 +/- 4.71e-58]",
+      "L": "[1.6313192450632280725752491490768106117e-22 +/- 3.56e-60]"
+    }
+  },
+  "method": "Integrate normalized bivariate parameter jets on 352 exact cells. Use midpoint coefficients through degree five and sixth-order coefficient enclosures over the whole rational rectangle. Lower-bound the polynomial and remainder by absolute coefficient sums, without interval division.",
+  "decision": {
+    "complete_slab_two_compact_witness_certified": true,
+    "complete_slab_two_whole_line_witness_certified": false,
+    "global_optimizer_proved": false
+  },
+  "scope_guard": "The strict 3.09e-21 margin covers the compact observation window only. Analytic omitted tails for J, A and B are required before whole-line or slab exclusion follows."
+}

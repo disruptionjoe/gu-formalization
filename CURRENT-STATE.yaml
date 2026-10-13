@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 95bbf381cb95dd58076038d5dca0aba887b14458
+revision_basis: 5de24838f73f2213d78afdc057592387fcd90448
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,24 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
-    K1801--K1805 build a reusable compact-window third-order Arb parameter
-    jet, then show exactly why finite Hermite-degree escalation cannot by
-    itself close the decisive slab-two point. At K1788's boundary KKT point,
-    the exact degree-thirteen projection is
-    `0.00000015917864052403624498842771255844`, below the comparison threshold
-    by `4.7809637550115722874415605586016e-15`, while rigorous full Fisher
-    exceeds that projection by more than `2.5e-14`. The missing positive
-    complement is therefore the next proof obligation. Exact geometry
-    deduplication reduces K1799's 340 face and 340 corner incidences to 231
-    atomic faces and 147 unique corner points: 122 exposed faces, 109 shared
-    internal faces, 122 exposed boundary vertices and 25 internal points. The
-    seven slab-two leaves are exactly one rational rectangle. A wide-box
-    sixth-order interval remainder became indeterminate and is not admitted
-    as evidence. Complete slab-two exclusion, complete slab-three uniqueness,
-    all exposed-boundary certificates and global optimality remain withheld.
-    The bridge census is 505 rows: 426 satisfied, ten conditional, 65 excluded
-    and four missing. Protected source, ledger, canon and public states do not
-    move.
+    K1806--K1810 turn K1805's positive full-Fisher complement into a complete
+    slab-two theorem. Fixing the K1788 score gives a Cauchy witness
+    `J B >= A^2`; the varying mixture denominator cancels from `A` and occurs
+    only linearly in `B`. A centered sixth-order Arb model on the exact K1804
+    rectangle proves the compact cross margin `A^2-TB` exceeds
+    `3.0938112974946452920786941956604271275e-21`. Analytic two-tail bounds
+    cost less than `1.064e-29`, leaving a whole-line margin above
+    `3.0938112868622235862286580499108618303e-21`. Composition with K1796's
+    exact pruned complement excludes the complete slab-two sublevel, including
+    every slab-two face and corner. Slabs one and two are now globally
+    excluded at the admitted threshold. The optimizer theorem remains
+    withheld on slab three's 78 exact leaves and its exposed boundary; the
+    transferable next method anchors the same witness at K1787's slab-three
+    stationary score. The bridge census is 510 rows: 431 satisfied, ten
+    conditional, 65 excluded and four missing. Protected source, ledger,
+    canon and public states do not move.
 
     K1796--K1800 repair K1795's symbolic degree-eleven resource failure by
     specializing `q=1/1024` before fraction-free exact Gram inversion and by
@@ -15685,14 +15683,14 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K1801--K1805 isolate the exact obstruction at the slab-two KKT point: the
-  degree-thirteen Hermite projection lies below threshold, but its positive
-  full-Fisher complement is larger than `2.5e-14` and changes the decision.
-  Can that complement be uniformly lower-bounded on K1804's single exact
-  slab-two rectangle, or can a centered whole-line Taylor/affine enclosure
-  certify the full value there, before the same method is applied to slab
-  three's 78 leaves and 122 exposed atomic faces and boundary vertices? No
-  scalar trial law is a source-owned physical state or unrestricted infimum.
+  K1806--K1810 exclude the complete slab-two full-Fisher sublevel by a fixed
+  K1788-score Cauchy witness, centered sixth-order compact Taylor certificate
+  and analytic whole-line tails. Can the same construction, now anchored at
+  K1787's interior slab-three stationary score, certify `A^2-TB>0` away from
+  the isolated local box on all 78 exact slab-three leaves and their exposed
+  faces and vertices, while an interval-Newton/Krawczyk cover proves that the
+  isolated point is the only stationary component? No scalar trial law is a
+  source-owned physical state or unrestricted infimum.
 
   K1796--K1800 raise exact exclusion to `15019/15104` of the original
   full-Fisher input cover and reduce slab two to seven residual leaves and
@@ -18620,19 +18618,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Preserve K1801 as a point-centered compact third-order jet, not a uniform
-  parameter-box theorem. The attempted sixth-order interval remainder is
-  indeterminate and supplies no scientific bound. Preserve K1802's exact
-  degree-thirteen value as a projection lower bound below threshold, and its
-  positive full-Fisher complement only at the named K1788 point. Preserve
-  K1803 as a retained local KKT certificate, not complete slab-two exclusion.
-  Preserve K1804 as exact geometry deduplication: its 122 exposed faces and
-  122 exposed boundary vertices remain proof obligations. Next lower-bound
-  the positive complement beyond degree thirteen, or build a direct
-  whole-line centered Taylor/affine full-value enclosure, on the exact
-  slab-two rectangle; then apply the method to slab three and every exposed
-  boundary before global promotion. No source-owned Hamiltonian, physical
-  state, observation, prediction or admission follows.
+  Preserve K1806 as a variational lower bound, not equality away from its
+  anchor. Preserve K1807's strict sixth-order result as a compact-window
+  rectangle theorem and K1808 as the required analytic whole-line tail
+  composition. K1809 now closes the complete slab-two value sublevel and all
+  of its faces and corners; do not continue carrying those as open. Preserve
+  K1810's protected boundary: slab three still has 78 exact retained leaves,
+  only one locally isolated stationary point, and unclosed exposed geometry.
+  Next anchor the fixed-score witness at K1787, run centered leafwise Taylor
+  certificates plus K1808-style tails, and compose them with a complete
+  slab-three Krawczyk/face cover before global promotion. No source-owned
+  Hamiltonian, physical state, observation, prediction or admission follows.
 
   Preserve K1796 as an exact degree-eleven outer-cover contraction: retained
   leaves are not sublevel members, stationary components or optimizers.

@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1806",
+  "status": "active_research",
+  "title": "A fixed K1788 score gives a cancellation-aware variational lower bound for full Fisher information",
+  "inputs": ["K1788", "K1804", "K1805"],
+  "certificate": {
+    "anchor": {"t": "887855469/17179869184", "z": "576161143609/1000000000000"},
+    "rectangle": {
+      "t": ["56314519603/1099511627776", "887855469/17179869184"],
+      "z": ["589/1024", "1185/2048"],
+      "box_count": 7
+    },
+    "varying_density_times_score_times_anchor": "g*h*k*r",
+    "varying_density_times_anchor_squared": "d*g*h**2",
+    "varying_denominator_cancels_from_A": true,
+    "varying_denominator_linear_in_B": true,
+    "cauchy_cross_multiplication": "J*B >= A^2; B>0; A^2-T*B>0 implies J>T"
+  },
+  "method": "Fix h to the exact K1788 boundary-KKT score. For every varying parameter theta, Cauchy in L2(p_theta) gives J(theta) B(theta) >= A(theta)^2. Expanding p_theta s_theta cancels the varying mixture denominator from A; B contains that denominator only linearly.",
+  "decision": {
+    "fixed_score_variational_witness_valid": true,
+    "witness_equals_full_fisher_off_anchor": false,
+    "global_optimizer_proved": false
+  },
+  "scope_guard": "This is a rigorous lower-bound mechanism. Equality holds at the anchor score and is not asserted elsewhere. Numerical or interval work must still prove A^2-threshold*B positive on the claimed parameter domain."
+}
