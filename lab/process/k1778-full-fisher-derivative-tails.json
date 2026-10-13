@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1778",
+  "status": "active_research",
+  "title": "Certified Gaussian tails for natural full-Fisher parameter derivatives",
+  "contract": {
+    "expectation": "E[phi(A+sigma*Z)]",
+    "natural_coordinates": ["A", "sigma"],
+    "compact_window": "[-11,11]",
+    "maximum_total_derivative_order": 3,
+    "identity": "partial_A^i partial_sigma^j E[phi(A+sigma Z)]=E[Z^j phi^(i+j)(A+sigma Z)]",
+    "gaussian_tail_moment_uppers": {
+      "M0": "[3.85239864274427917903976045827552052457246396e-28 +/- 1.02e-73]",
+      "M1": "[4.23763850701870709694373650410307257702971036e-27 +/- 2.89e-72]",
+      "M2": "[4.69992634414802059842850775909613503997840603e-26 +/- 2.44e-71]",
+      "M3": "[5.21229536363300972924079590004677926974654374e-25 +/- 7.52e-71]"
+    },
+    "derivative_sup_uppers": {
+      "tanh": ["1", "1", "77/100", "2"],
+      "tanh_squared": ["1", "77/100", "2", "41/10"]
+    },
+    "largest_admitted_tail": "[2.13704109908953398898872631902e-24 +/- 8.21e-55]"
+  },
+  "decision": {
+    "value_gradient_hessian_and_third_natural_derivative_tails_certified": true,
+    "compact_window_derivative_evaluator_completed": false,
+    "three_slab_interval_newton_completed": false
+  },
+  "scope_guard": "These are analytic omitted-tail budgets in the natural shift/scale coordinates. Chain-rule composition and compact-window interval evaluation in (t,z) remain required before interval Newton."
+}

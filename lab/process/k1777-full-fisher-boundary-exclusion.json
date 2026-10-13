@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1777",
+  "status": "active_research",
+  "title": "Both microscopic K1772 boundary cells are excluded by full Fisher",
+  "certificate": {
+    "input_partition_digest": "47baa0129103870922824844ebfcda1304730ea0c46e4446959f57ecd526a15b",
+    "physical_cell_count": 2,
+    "q": "1/1024",
+    "t_upper": "49758723570445/2251799813685248",
+    "z_upper": "1/8388608",
+    "c_upper": "100985578396518158499154/2475930571359958808877498025",
+    "beta_upper": "[0.0225966371807579840672897893813248191066478995 +/- 3.14e-47]",
+    "semiconvexity_modulus_upper": "[0.000300789382081292002543298220717608490172382731 +/- 5.15e-50]",
+    "full_fisher_penalty_upper": "[1.41742984701745977449900965102657856902810682e-10 +/- 3.67e-55]",
+    "k1756_rademacher_gap": "[2.20120827506605499782313576950910736508427711e-10 +/- 3.53e-24]",
+    "threshold_above_k1763_candidate": "[2.28585739725779364356291039569520000000000000e-20 +/- 3.02e-24]",
+    "residual_gap_lower": "[7.83778427820009483598346754126237756486650294e-11 +/- 6.54e-24]",
+    "monotonicity": "OU relative Fisher is nondecreasing in t from t0=sqrt(q/2) across the physical cell intersection"
+  },
+  "decision": {
+    "both_boundary_cells_excluded": true,
+    "boundary_piece_count_remaining": 0,
+    "interior_slab_count_remaining": 3,
+    "full_fisher_interval_newton_completed": false,
+    "global_optimizer_proved": false
+  },
+  "scope_guard": "The exclusion applies only to the physical c>=0 intersections of K1772's two cells. It leaves all three K1771 interior slabs and every stationarity, uniqueness and global-minimum obligation open."
+}

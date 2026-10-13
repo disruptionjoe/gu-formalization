@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1780",
+  "status": "active_research",
+  "title": "Boundary closure and a strict rational descent open the three-slab full-Fisher entry problem",
+  "inputs": ["K1775", "K1776", "K1777", "K1778", "K1779"],
+  "bridge_census": {
+    "total": 480,
+    "satisfied": 401,
+    "conditional": 10,
+    "excluded": 65,
+    "missing": 4
+  },
+  "protected_state": {
+    "source_register_changed": false,
+    "standing_ledger_changed": false,
+    "canon_changed": false,
+    "paper_changed": false,
+    "prediction_changed": false,
+    "confirmation_changed": false,
+    "public_posture_changed": false,
+    "k1145_score": "0/7",
+    "k1150_score": "0/7"
+  },
+  "rational_descent": {
+    "q": "1/1024",
+    "old_candidate": {
+      "c": "3308164903/2000000000",
+      "z": "1127044207/2000000000"
+    },
+    "new_candidate": {
+      "c": "827040678413/500000000000",
+      "z": "281761482867/500000000000"
+    },
+    "comparison": "J_old-J_new",
+    "compact_cell_count": 352,
+    "whole_line_gap": "[3.02630208660862907652909056282096541722705908e-22 +/- 6.00e-24]",
+    "strict_lower_bound": ">2.96e-22"
+  },
+  "entry_state": {
+    "boundary_cells_remaining": 0,
+    "interior_slabs_remaining": 3,
+    "derivative_tail_order_available": 3,
+    "z1_atom_chart_available": true,
+    "compact_window_value_gradient_hessian_evaluator_available": false,
+    "full_fisher_interval_newton_completed": false
+  },
+  "decision": {
+    "k1753_candidate_locally_optimal": false,
+    "strict_rational_descent_certified": true,
+    "boundary_cells_excluded": true,
+    "stationary_point_proved": false,
+    "unique_component_proved": false,
+    "global_optimizer_proved": false
+  },
+  "next_gate": "Build a directed compact-window value/gradient/Hessian evaluator, then adaptively exclude slabs one and two and isolate every stationary box in slab three before certified value comparison.",
+  "scope_guard": "The strict comparison orders two named rational channels and proves the old point is not optimal. It neither certifies the numerical locator nor proves existence, stationarity, uniqueness or global minimality."
+}

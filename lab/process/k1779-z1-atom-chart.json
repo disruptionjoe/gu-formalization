@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1779",
+  "status": "active_research",
+  "title": "The z=1 face has a regular atom-plus-two-points full-Fisher chart",
+  "chart": {
+    "q": "1/1024",
+    "coordinate": "c",
+    "law": "P(X=0)=c/(1+c), P(X=+sqrt(1+c))=P(X=-sqrt(1+c))=1/[2(1+c)]",
+    "variance": "E[X^2]=1",
+    "t": "sqrt(q/(2-c))",
+    "positive_denominator": "d(y)=p+(1-p)exp[-t(1+c)/(2(1-t))]cosh(sqrt(t(1+c))*y/(1-t))>=p",
+    "first_slab_c_interval": [
+      "2060092257901704274/1606506881254275625",
+      "13910342542524772834/9261014280476080369"
+    ],
+    "first_slab_p_lower": "2060092257901704274/3666599139155979899"
+  },
+  "decision": {
+    "z1_chart_regularized": true,
+    "raw_b_or_c_over_z_required": false,
+    "z1_edge_excluded": false,
+    "global_optimizer_proved": false
+  },
+  "scope_guard": "The chart removes a coordinate singularity and supplies a strictly positive density denominator on the first slab. It does not certify the z=1 edge above the incumbent or complete a KKT boundary test."
+}

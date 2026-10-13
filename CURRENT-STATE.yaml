@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f03576166bedf75644b48e0f9d83a136c55bd274
+revision_basis: f1b91d08ef80f2edf57a8fa4453aaa377f9c78f4
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1776--K1780 close K1772's two microscopic boundary cells without raw
+    rare-radius interval arithmetic. A global semiconvexity theorem for the
+    Rademacher-score functional composes exact variance matching with K1756's
+    Arb Rademacher margin; the maximum boundary penalty is below `1.418e-10`
+    and the certified residual gap remains above `7.83e-11`. Certified
+    Gaussian tails now cover value and natural parameter derivatives through
+    total order three, and the `z=1` face has a regular atom-plus-two-points
+    chart. A new exact rational point Arb-certifiably improves K1753 by more
+    than `2.96e-22`, so the old named candidate is not optimal. The remaining
+    full-Fisher domain is exactly three interior slabs; compact-window
+    value/gradient/Hessian evaluation, interval Newton, stationarity,
+    uniqueness and global optimality remain open. The bridge census is 480
+    rows: 401 satisfied, ten conditional, 65 excluded and four missing.
+    Protected source, ledger, canon and public states do not move.
+
     K1771--K1775 precondition K1769's exact degree-seven survivor cover before
     full-Fisher interval work. The 59 interior cells replay as exactly three
     rational slabs with contiguous z sections of 37, 16 and six cells.
@@ -15583,16 +15598,15 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K1761--K1765 give a universal finite Hermite lower hierarchy, exact
-  two-radius moment closure, an absolute Arb upper bound for the incumbent,
-  and a finite rare-face degree-five limit. Can the optimized degree-5/7
-  rational bounds be cancelled in `(t,z)` coordinates, their denominators
-  proved positive, and their sublevel set covered by a replayable exact
-  partition before full Fisher interval Newton is applied only to the local
-  survivor tube? The direct independent-ball pilot is rejected and proves no
-  box cover. Quantitative Haar saving and a realizable correlated tensor remain
-  separate alternatives; no scalar trial law is a source-owned physical state
-  or unrestricted infimum.
+  K1776--K1780 exclude both microscopic boundary cells, certify natural
+  Gaussian derivative tails through order three, regularize the `z=1` atom
+  chart and prove a strict rational descent from K1753. Can a directed
+  compact-window value/gradient/Hessian evaluator now adaptively exclude
+  slabs one and two, isolate every stationary box in slab three and certify
+  their value ordering? The new rational point is not itself a stationary or
+  global theorem. Quantitative Haar saving and a realizable correlated tensor
+  remain separate alternatives; no scalar trial law is a source-owned
+  physical state or unrestricted infimum.
 
   K1756--K1760 exclude an explicit rare-atom collar and a uniform zero-noise
   collar, including their joint corner, and reduce the `q=1/1024` global
@@ -18499,19 +18513,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Preserve K1761 as a finite-test lower hierarchy: every fixed coefficient
-  vector is legal and nested optimized spans are monotone, but finite degree
-  need not equal full Fisher. Preserve K1762's moment formulas only on `z>0`;
-  use exact cancellation before a rare-face limit rather than substituting
-  divergent raw moments at `z=0`. Preserve K1763 as an absolute Arb candidate
-  upper bound and named-point degree escalation, not a parameter-box cover.
-  Preserve K1764's million-leaf result as a fail-closed engineering rejection:
-  it emitted no replayable complete partition and proves no global exclusion.
-  Next substitute `c=2-q/t^2`, cancel the optimized degree-5/7 rational,
-  prove denominator positivity, cover its sublevel set exactly, and reserve
-  full Fisher interval Newton for the survivor tube. No stationarity,
-  uniqueness, global optimizer, source-owned Hamiltonian, physical state,
-  observation, prediction or admission follows.
+  Preserve K1776's semiconvexity theorem as a lower bound for the legal
+  Rademacher-score functional, not equality with full Fisher away from the
+  Rademacher law. Preserve K1777 only on the physical intersections of the
+  two K1772 cells. Preserve K1778's derivative tails in natural `(A,sigma)`
+  coordinates; compact-window chain-rule evaluation in `(t,z)` is still
+  required. Preserve K1779 as a regular chart, not a certified `z=1` edge
+  exclusion. Preserve K1780 as a strict comparison between two named rational
+  channels, not a stationary point. Next build the directed compact-window
+  value/gradient/Hessian evaluator, exclude slabs one and two, isolate every
+  stationary box in slab three and compare values. No uniqueness, global
+  optimizer, source-owned Hamiltonian, physical state, observation,
+  prediction or admission follows.
 
   Preserve K1756 as an Arb-certified comparison between the Rademacher face
   and one named rational candidate at `q=1/1024`. Preserve K1757 only on

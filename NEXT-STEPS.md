@@ -7,6 +7,19 @@ updated_at: "2026-10-13"
 
 # Next Steps For Contributors
 
+> **2026-10-13 K1776--K1780 FULL-FISHER BOUNDARY AND INTERIOR-ENTRY WAVE.**
+> A global semiconvexity theorem for K1773's Rademacher-score functional uses
+> `E[S]=1` and `E[(S-1)^2]=c` to avoid the singular rare radius. Its maximum
+> penalty on K1772's two physical cells is below `1.418e-10`, leaving a
+> certified gap above `7.83e-11`; both cells are excluded. Natural Gaussian
+> derivative tails are certified through order three and the `z=1` atom face
+> now has a regular chart. A new exact rational point improves K1753 by more
+> than `2.96e-22`, so the old point is not optimal. Next build the directed
+> compact-window value/gradient/Hessian evaluator, exclude slabs one and two,
+> isolate every stationary box in slab three and compare certified values.
+> Do not infer stationarity, uniqueness, global scalar optimality, an all-seed
+> theorem, or source-owned physics.
+
 > **2026-10-13 K1771--K1775 FULL-FISHER PRECONDITIONER WAVE.** K1769's 59
 > interior survivor cells are exactly three rational slabs. Exact adaptive
 > degree-seven Bernstein refinement contracts its lower strip to two cells

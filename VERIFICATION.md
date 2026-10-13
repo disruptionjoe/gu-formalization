@@ -7,6 +7,24 @@ updated_at: "2026-10-13"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1776--K1780 full-Fisher boundary and interior-entry wave (2026-10-13)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The rare-radius corner requires direct singular Arb quadrature | K1776 semiconvexity and exact radius-moment identities | false for the boundary cells: the legal lower functional has a global variance-matched penalty bound |
+| The two K1772 cells may contain a full-Fisher sublevel point | K1777 Arb composition with K1756 | false on their physical intersections; residual gap is above `7.83e-11` |
+| Gaussian tails obstruct parameter derivatives | K1778 analytic moment recursion and derivative envelopes | false through total natural derivative order three; compact-window chain-rule evaluation remains open |
+| The `z=1` face is singular | K1779 atom-plus-two-points chart | false as a density chart on the first slab; edge exclusion is not established |
+| K1753's rational point is locally optimal | K1780 whole-line Arb comparison | false: a second exact rational point improves it by more than `2.96e-22` |
+| Full-Fisher stationarity, uniqueness or a global optimizer follows | K1780 scope controls | not established |
+
+The five producers pass `72/72` controls and the five hostile probes reject
+`44/44` mutations. The admitted result removes the boundary pieces, supplies
+derivative-tail and atom-chart infrastructure, and proves a strict two-point
+descent. Three interior slabs remain. The bridge census is 480 rows: 401
+satisfied, ten conditional, 65 excluded and four missing. Source, ledger,
+canon and public states do not move.
+
 ## K1771--K1775 full-Fisher preconditioner wave (2026-10-13)
 
 | Claim | Evidence | Honest grade |

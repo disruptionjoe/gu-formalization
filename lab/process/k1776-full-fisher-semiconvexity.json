@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1776",
+  "status": "active_research",
+  "title": "A global semiconvex lower bound for the Rademacher-score functional",
+  "theorem": {
+    "channel": "Y=sqrt(t)X+sqrt(1-t)Z",
+    "beta": "t/(1-t)",
+    "h_t(r)": "E[tanh(beta*r+sqrt(beta)*Z)]",
+    "k_t(r)": "E[tanh(beta*r+sqrt(beta)*Z)^2]",
+    "F_t(s)": "2*sqrt(s)*h_t(sqrt(s))-k_t(sqrt(s))",
+    "derivative_bounds": {
+      "sup_abs_tanh_second": "77/100",
+      "sup_abs_tanh_square_third": "41/10"
+    },
+    "semiconvexity": "F_t''(s)>=-[(231/400)beta^2+(41/80)beta^3]/sqrt(s)",
+    "mixture_corollary": "If S>=a>0, E[S]=1 and E[(S-1)^2]=c, then E[F_t(S)]>=F_t(1)-c*((231/400)beta^2+(41/80)beta^3)/(2*sqrt(a))."
+  },
+  "two_radius_identity": {
+    "support_squared_radii": ["1-z", "1+c/z"],
+    "weights": ["c/(c+z^2)", "z^2/(c+z^2)"],
+    "mean": "E[S]=1",
+    "centered_second_moment": "E[(S-1)^2]=c"
+  },
+  "decision": {
+    "global_semiconvexity_proved": true,
+    "raw_c_over_z_required": false,
+    "full_fisher_global_optimizer_proved": false
+  },
+  "scope_guard": "This is a lower bound for K1773's legal Rademacher-score variational functional. It is not equality with full Fisher away from the Rademacher law and does not prove stationarity, uniqueness or global optimality."
+}
