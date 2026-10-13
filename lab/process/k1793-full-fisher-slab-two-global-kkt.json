@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1793",
+  "status": "active_research",
+  "title": "Slab two contracts to eight exact terminal boxes but remains globally open",
+  "inputs": ["K1788", "K1791", "K1792"],
+  "certificate": {
+    "degree_nine_partition_digest": "8ddb3e279c334e8df5141ed05bbca13e05965e6e62f26c4b514f173219434c59",
+    "pruned_leaves": 40,
+    "retained_leaves": 8,
+    "retained_input_cells": [1, 2, 3],
+    "retained_hull": {
+      "t": ["13697457091/274877906944", "887855469/17179869184"],
+      "z": ["147/256", "151/256"]
+    },
+    "local_boundary_kkt_value": "[1.5917866583816442198940312103533692491e-7 +/- 2.92e-24]"
+  },
+  "decision": {
+    "local_boundary_kkt_isolated": true,
+    "complete_slab_two_sublevel_excluded": false,
+    "every_slab_two_face_and_corner_closed": false,
+    "global_optimizer_proved": false
+  },
+  "next_gate": "On the eight retained boxes, use a cancellation-preserving exact or interval Taylor model of the full Fisher objective and close all exposed faces and corners around the isolated slab-two boundary KKT point.",
+  "scope_guard": "The eight boxes are an outer frontier, not eight competitors. Their survival prevents promotion of the local KKT certificate to a complete slab-two theorem."
+}

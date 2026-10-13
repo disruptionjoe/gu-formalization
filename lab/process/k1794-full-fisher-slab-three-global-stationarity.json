@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1794",
+  "status": "active_research",
+  "title": "Slab three contracts to seventeen exact terminal boxes but remains globally open",
+  "inputs": ["K1787", "K1791", "K1793"],
+  "certificate": {
+    "degree_nine_partition_digest": "8ddb3e279c334e8df5141ed05bbca13e05965e6e62f26c4b514f173219434c59",
+    "pruned_leaves": 16,
+    "retained_leaves": 17,
+    "retained_input_cells": [3, 4, 5, 6],
+    "retained_hull": {
+      "t": ["887855469/17179869184", "7611074165/137438953472"],
+      "z": ["281/512", "37/64"]
+    },
+    "local_interior_stationary_value": "[1.5917864530497670077445861802075968567e-7 +/- 3.19e-24]"
+  },
+  "decision": {
+    "local_interior_stationary_point_isolated": true,
+    "unique_stationary_point_on_complete_slab_three": false,
+    "every_slab_three_face_and_corner_closed": false,
+    "global_optimizer_proved": false
+  },
+  "next_gate": "On the seventeen retained boxes, use cancellation-preserving gradient or value enclosures and an exhaustive face/corner census to connect the local Krawczyk box to a complete slab-three uniqueness theorem.",
+  "scope_guard": "The seventeen boxes are the degree-nine unresolved frontier. They neither create additional stationary points nor prove that the isolated local point exhausts slab three."
+}

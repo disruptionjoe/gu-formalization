@@ -7,6 +7,19 @@ updated_at: "2026-10-13"
 
 # Next Steps For Contributors
 
+> **2026-10-13 K1791--K1795 DEGREE-NINE GLOBAL-COVER CONTRACTION WAVE.**
+> Exact rational degree-nine Bernstein refinement now prunes 128 of 153
+> terminal leaves, excludes `919/944` of the 59-cell input-cover area and
+> closes slab one completely. The remaining exact frontier is eight boxes in
+> slab two and seventeen in slab three. Next evaluate those 25 boxes with a
+> cancellation-preserving Taylor or exact rational full-Fisher enclosure and
+> close every exposed face and corner. Do not use coarse entrywise Hessian
+> intervals, whose wrapping destroys the small Fisher cancellations, and do
+> not retry raw symbolic degree-eleven Gram inversion without a cached
+> recurrence or fraction-free factorization. Do not promote the contraction
+> to slab-two exclusion, complete slab-three uniqueness, a global scalar
+> optimizer, an all-seed theorem or source-owned physics.
+
 > **2026-10-13 K1786--K1790 FULL-FISHER STATIONARY-CERTIFICATE WAVE.**
 > Positive polynomial-Gaussian majorants now certify the complete omitted
 > value, gradient and Hessian tails of the full positive-denominator quotient

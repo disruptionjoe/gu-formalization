@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1791--K1795 replay the degree-nine odd-Hermite projection as an exact
+    rational Bernstein cover over all 59 K1771 interior cells. A deterministic
+    four-level `t,z,t,z` subdivision emits 153 terminal leaves: 128 have
+    strictly positive Bernstein lower coefficients and 25 remain. The exact
+    contraction excludes `919/944` of the input-cover area. Slab one closes
+    completely with 72 pruned and zero retained leaves, so composition with
+    K1769's outer cover and K1777's lower-boundary exclusion removes slab one
+    from the declared sublevel. Slab two retains eight boxes and slab three
+    retains seventeen; those boxes, their exposed faces and corners still
+    prevent complete slab-two exclusion, complete slab-three uniqueness and a
+    global optimizer theorem. Direct coarse Hessian intervals lost the small
+    Fisher cancellations, while an attempted degree-eleven symbolic Gram
+    inversion exceeded the measured resource budget; neither failed route is
+    promoted to evidence. The bridge census is 495 rows: 416 satisfied, ten
+    conditional, 65 excluded and four missing. Protected source, ledger,
+    canon and public states do not move.
+
     K1786--K1790 compose rigorous analytic value, gradient and Hessian tails
     for the complete positive-denominator full-Fisher quotient on named
     rational boxes. Positive polynomial-Gaussian majorants pass through every

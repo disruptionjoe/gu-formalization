@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1791",
+  "status": "active_research",
+  "title": "Degree-nine exact Bernstein refinement contracts the three-slab tail cover",
+  "partition": {
+    "degree": 9,
+    "threshold": "31835729061/200000000000000000",
+    "input_topology_digest": "1bc7d38ea621f0de11d1b33012c0ee2962f387e6a9fef01d39932a07e48a933b",
+    "input_interior_cells": 59,
+    "polynomial_terms": 625,
+    "adaptive_split_order": ["t", "z", "t", "z"],
+    "max_depth": 4,
+    "pruned_leaves": 128,
+    "retained_leaves": 25,
+    "terminal_leaves": 153,
+    "unresolved_leaves": 0,
+    "retained_fraction_of_input_area": "25/944",
+    "excluded_fraction_of_input_area": "919/944",
+    "by_slab": [
+      {
+        "slab": 1,
+        "pruned_leaves": 72,
+        "retained_leaves": 0,
+        "retained_input_cells": [],
+        "retained_hull": null
+      },
+      {
+        "slab": 2,
+        "pruned_leaves": 40,
+        "retained_leaves": 8,
+        "retained_input_cells": [1, 2, 3],
+        "retained_hull": {
+          "t": ["13697457091/274877906944", "887855469/17179869184"],
+          "z": ["147/256", "151/256"]
+        }
+      },
+      {
+        "slab": 3,
+        "pruned_leaves": 16,
+        "retained_leaves": 17,
+        "retained_input_cells": [3, 4, 5, 6],
+        "retained_hull": {
+          "t": ["887855469/17179869184", "7611074165/137438953472"],
+          "z": ["281/512", "37/64"]
+        }
+      }
+    ],
+    "partition_digest": "8ddb3e279c334e8df5141ed05bbca13e05965e6e62f26c4b514f173219434c59"
+  },
+  "certificate_method": "Exact rational degree-nine Hermite projection, followed by tensor-product Bernstein lower bounds on a deterministic t-z-t-z subdivision of every K1771 cell.",
+  "decision": {
+    "complete_adaptive_partition_emitted": true,
+    "every_pruned_leaf_has_positive_bernstein_lower_bound": true,
+    "retained_leaf_means_below_threshold": false,
+    "slab_one_tail_cover_excluded": true,
+    "complete_full_fisher_complement_excluded": false,
+    "global_optimizer_proved": false
+  },
+  "scope_guard": "The 128 pruned leaves are exactly excluded from the degree-nine sublevel and therefore from the full-Fisher sublevel. The 25 retained leaves mean only that degree nine did not exclude them; they do not establish membership, stationarity or optimality."
+}

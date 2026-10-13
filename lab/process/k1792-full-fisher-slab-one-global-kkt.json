@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1792",
+  "status": "active_research",
+  "title": "The complete slab-one sublevel cover is excluded above the slab-three threshold",
+  "inputs": ["K1769", "K1771", "K1777", "K1788", "K1791"],
+  "certificate": {
+    "threshold": "31835729061/200000000000000000",
+    "degree_seven_interior_cells": 59,
+    "lower_boundary_pieces_remaining": 0,
+    "slab_one_input_cells": 37,
+    "slab_one_pruned_leaves": 72,
+    "slab_one_retained_leaves": 0,
+    "degree_nine_partition_digest": "8ddb3e279c334e8df5141ed05bbca13e05965e6e62f26c4b514f173219434c59",
+    "local_boundary_kkt_value": "[1.5917904119052770671053149500927849697e-7 +/- 1.88e-24]"
+  },
+  "decision": {
+    "slab_one_complete_sublevel_excluded": true,
+    "slab_one_local_boundary_kkt_is_global_optimizer": false,
+    "slab_two_complete_sublevel_excluded": false,
+    "slab_three_complete_sublevel_excluded": false,
+    "global_optimizer_proved": false
+  },
+  "scope_guard": "K1769 covers every possible degree-seven competitor, K1777 closes the only lower-boundary strip, and K1791 removes all 37 slab-one interior cells at degree nine. The result excludes slab one at the declared threshold but says nothing global about the 25 retained leaves in slabs two and three."
+}

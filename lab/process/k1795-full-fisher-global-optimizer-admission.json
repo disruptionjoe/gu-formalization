@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1795",
+  "status": "active_research",
+  "title": "One slab is globally excluded and the optimizer theorem remains withheld on twenty-five boxes",
+  "inputs": ["K1790", "K1791", "K1792", "K1793", "K1794"],
+  "bridge_census": {"total": 495, "satisfied": 416, "conditional": 10, "excluded": 65, "missing": 4},
+  "protected_state": {
+    "source_register_changed": false,
+    "standing_ledger_changed": false,
+    "canon_changed": false,
+    "paper_changed": false,
+    "prediction_changed": false,
+    "confirmation_changed": false,
+    "public_posture_changed": false,
+    "k1145_score": "0/7",
+    "k1150_score": "0/7"
+  },
+  "entry_state": {
+    "degree_nine_exact_partition_replayed": true,
+    "excluded_fraction_of_input_area": "919/944",
+    "slab_one_complete_sublevel_excluded": true,
+    "slab_two_retained_boxes": 8,
+    "slab_three_retained_boxes": 17,
+    "complete_complement_cover_available": false
+  },
+  "decision": {
+    "slab_one_globally_excluded": true,
+    "slab_two_globally_excluded": false,
+    "unique_stationary_point_on_complete_slab_three": false,
+    "global_optimizer_proved": false,
+    "source_owned_physical_theory": false
+  },
+  "next_gate": "Replace coarse Hessian boxes with cancellation-preserving Taylor or exact rational enclosures on the 25 retained boxes; close the eight slab-two and seventeen slab-three boxes, including every exposed face and corner, before global optimizer admission.",
+  "scope_guard": "K1791-K1794 prove a large exact contraction and complete slab-one exclusion. Coarse direct Hessian intervals were too wide to preserve Fisher cancellations, degree eleven exceeded the measured symbolic inversion budget, and neither limit is evidence for the global theorem."
+}

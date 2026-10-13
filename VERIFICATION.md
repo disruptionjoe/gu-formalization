@@ -7,6 +7,23 @@ updated_at: "2026-10-13"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1791--K1795 degree-nine global-cover contraction wave (2026-10-13)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Degree nine fails to improve the 59-cell interior cover | K1791 exact rational Bernstein replay | false: 128 terminal leaves prune and 25 remain |
+| The contraction is only a floating area estimate | K1791 exact rational areas and partition digest | false: exactly `919/944` of the input-cover area is excluded |
+| Slab one may still contain a point at or below the declared threshold | K1769+K1777+K1791 cover composition | false: its 37 input cells refine to 72 pruned and zero retained leaves, with the separate lower strip already closed |
+| The local slab-two KKT box exhausts slab two | K1793 retained frontier | not established: eight exact boxes remain |
+| The local slab-three stationary box exhausts slab three | K1794 retained frontier | not established: seventeen exact boxes remain |
+| Coarse Hessian intervals or an unfinished degree-eleven inversion prove the global result | K1795 fail-closed admission | false: both are measured method limits, not certificates |
+| A global finite-strength scalar optimizer follows | K1795 protected admission | not established |
+
+The five producers pass `65/65` controls and the five hostile probes reject
+`36/36` mutations. The bridge census is 495 rows: 416 satisfied, ten
+conditional, 65 excluded and four missing. Source, ledger, canon and public
+states do not move.
+
 ## K1786--K1790 full-Fisher stationary-certificate wave (2026-10-13)
 
 | Claim | Evidence | Honest grade |
