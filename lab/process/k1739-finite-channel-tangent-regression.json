@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1739",
+  "status": "computed",
+  "title": "Controlled finite-channel minimizers regress toward the selected analytic tangent",
+  "regression": {
+    "q_grid": [0.001, 0.0015, 0.002],
+    "quadrature_orders": [120, 180],
+    "optimizer_starts": 4,
+    "order_180_minimizers": [
+      {"q": 0.001, "p": 0.8388837537562869, "a": 0.4364083753914766, "j": 1.6691677146057824e-7},
+      {"q": 0.0015, "p": 0.8378518370167849, "a": 0.4350814918374595, "j": 3.7584428590332235e-7},
+      {"q": 0.002, "p": 0.8369448832895625, "a": 0.4339155928161955, "j": 6.686683751879963e-7}
+    ],
+    "quadratic_ratio_extrapolation": "Fit (p-p0)/sqrt(q) and (a-a0)/sqrt(q) quadratically in sqrt(q). Order 180 gives (-0.1040829661,-0.1291471442); order 120 gives (-0.1023667741,-0.1263107838). Both lie within 0.0023 of the analytic tangent componentwise.",
+    "controls": "Orders 120 and 180 agree in objective below 6e-21 on the grid; every four-start spread is below 8e-21. Coordinate flatness is retained as a numerical-conditioning caveat rather than hidden."
+  },
+  "grade": "reproducible_numerical_regression_not_interval_certification",
+  "decision": {
+    "analytic_tangent_numerically_supported": true,
+    "analytic_tangent_proved_by_regression": false,
+    "complete_branch_certified": false,
+    "global_two_radius_optimizer_proved": false
+  },
+  "scope_guard": "The regression is a controlled consistency check for the exact local tangent theorem. It is not an interval proof, a unique finite-strength branch certificate or a whole-chart optimization theorem."
+}

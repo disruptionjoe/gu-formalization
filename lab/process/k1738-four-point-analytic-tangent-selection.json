@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1738",
+  "status": "active_research",
+  "title": "The q^5 square law selects one leading analytic tangent in the symmetric two-radius chart",
+  "base_seed": {
+    "u": "the unique root in (0,1) of 17u^3-38u^2+84u-24=0",
+    "h_10": "-730u^2+840u-120",
+    "scaled_y_0": "h_10/u^(5/2)=1253.042586099042...",
+    "unconstrained_q5_floor": "139/432+y_0^2/362880=4.648577277826763..."
+  },
+  "selection": {
+    "chart_path": "p(s)=p_0+P s+O(s^2), a(s)=a_0+A s+O(s^2)",
+    "first_condition": "kappa6_p P+kappa6_a A=(35/3)u_0^(3/2)",
+    "second_condition": "x_p P+x_a A=0 for x=h_8/u^2",
+    "jacobian": "J=det d(kappa_6,x)/d(p,a)=97048.7740746550... is nonzero at the isolated K1727 seed",
+    "solution": "P=-0.1037580726956868..., A=-0.1285250038860326...",
+    "uniqueness": "The nonzero Jacobian makes these two affine first-order conditions uniquely solvable. Every other quartic-optimal tangent has xi!=0 and pays the strict q^5 excess xi^2/5040.",
+    "second_order_boundary": "beta=0 imposes one affine condition on the two second-order chart coefficients. The remaining second-order freedom and all higher coefficients require later orders; K1738 selects only the leading tangent."
+  },
+  "decision": {
+    "leading_analytic_tangent_unique": true,
+    "k1728_fixed_raw_radii_tangent_selected": false,
+    "complete_local_analytic_branch_unique": false,
+    "finite_strength_global_optimizer_identified": false
+  },
+  "scope_guard": "Uniqueness is for the first chart velocity among regular quartic-optimal paths. It does not imply unique second-order continuation, remote-branch exclusion or an all-seed optimizer."
+}

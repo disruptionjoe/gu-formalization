@@ -4,6 +4,27 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1736--K1740 four-point analytic tangent selection wave
+
+- K1736 symmetric tenth-order Fisher-law producer: `24/24`; hostile probe:
+  `8/8` rejected.
+- K1737 matched half-order cancellation producer: `20/20`; hostile probe:
+  `8/8` rejected.
+- K1738 unique leading analytic tangent producer: `23/23`; hostile probe:
+  `8/8` rejected.
+- K1739 finite-channel tangent regression: `30/30`; hostile probe: `8/8`
+  rejected.
+- K1740 protected admission producer: `24/24`; hostile probe: `10/10`
+  rejected.
+
+The five producers pass `121/121` direct controls and the five hostile probes
+reject `42/42` mutations. They prove the exact fixed-seed law through `t^10`,
+the complete matched `q^(9/2)` cancellation, the `q^5` square law and the
+unique leading chart tangent, then check that tangent by separately graded
+finite-channel regression. They do not identify a complete local branch,
+interval-certify finite strength, exclude remote or singular seeds, prove an
+unrestricted lower bound, or supply a source-owned physical theory.
+
 ## K1731--K1735 four-point finite-strength tangent wave
 
 - K1731 exact two-radius chart producer: `23/23`; hostile probe: `6/6`

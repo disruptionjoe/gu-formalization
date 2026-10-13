@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1740",
+  "status": "active_research",
+  "title": "Leading four-point analytic tangent selection is integrated without global or physical promotion",
+  "classification": "INTERNAL_STRUCTURAL_ONLY_WITH_SEPARATE_NUMERICAL_REGRESSION",
+  "bridge_census": {
+    "row_count": 440,
+    "satisfied_count": 361,
+    "conditional_count": 10,
+    "excluded_count": 65,
+    "missing_count": 4,
+    "new_satisfied_rows": ["K1736", "K1737", "K1738", "K1739", "K1740"],
+    "protected_missing_rows": ["SC-ACT-01", "SC-ACT-02", "SC-ACT-06", "SC-META-53"]
+  },
+  "protected_state": {
+    "source_claims": "SC-ACT-01/02/06 remain ASSERTS; SC-META-53 remains UNCERTAIN.",
+    "physics_ledger": "33 SAME / 22 DIFFERS / 31 NEEDS / 2 OVER-DETERMINED",
+    "candidate_counts": "K1145 and K1150 remain 0/7.",
+    "canon_change": false,
+    "paper_change": false,
+    "prediction_or_confirmation": false,
+    "public_posture_change": false
+  },
+  "decision": {
+    "tenth_order_fisher_law_proved": true,
+    "q_nine_halves_cancellation_proved": true,
+    "unique_leading_chart_tangent_proved": true,
+    "finite_channel_regression_computed": true,
+    "complete_local_branch_identified": false,
+    "exact_finite_strength_optimizer_identified": false,
+    "unrestricted_stationary_lower_bound_proved": false,
+    "source_owned_physical_theory": false,
+    "protected_status_change": false
+  },
+  "next_condition": "Extend the selected tangent through the first order that resolves the remaining second-order chart freedom and compare the resulting local branch with interval-controlled finite strength; separately classify remote or singular chart boundaries, quantify Haar saving, test correlated tensors or prove an unrestricted stationary lower bound."
+}

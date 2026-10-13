@@ -2,10 +2,25 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-10-12"
+updated_at: "2026-10-13"
 ---
 
 # Next Steps For Contributors
+
+> **2026-10-13 K1736--K1740 FOUR-POINT ANALYTIC TANGENT SELECTION.** The
+> bounded symmetric relative-Fisher law now extends exactly through `t^10`.
+> At K1727's quartic-equality seed, matched composition cancels the complete
+> `q^(9/2)` coefficient; the first tangent-varying term is the `q^5` square
+> `beta^2/120+xi^2/5040` above a fixed seed constant. The condition `xi=0`
+> combines with K1732's affine constraint through a nonzero chart Jacobian and
+> uniquely selects the leading motion
+> `(P,A)=(-0.1037580726956868...,-0.1285250038860326...)`. A controlled
+> two-order/four-start finite-channel regression approaches that tangent, but
+> remains numerical evidence. Next compute the first later coefficient that
+> resolves the remaining second-order chart freedom and pair the resulting
+> local branch with interval-controlled finite strength. Keep remote/singular
+> seeds, Haar saving, correlated tensors, unrestricted lower bounds and
+> physical source ownership separate.
 
 > **2026-10-12 K1731--K1735 FOUR-POINT FINITE-STRENGTH TANGENT WAVE.** The
 > complete symmetric two-radius four-point family has an exact unit-variance

@@ -2,10 +2,28 @@
 title: "Verification: What Is Proved, Computed, and Conjectural"
 status: process
 doc_type: verification-map
-updated_at: "2026-10-12"
+updated_at: "2026-10-13"
 ---
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
+
+## K1736--K1740 four-point analytic tangent selection wave (2026-10-13)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The first coefficient after K1726's quartic law is unavailable | K1736 exact Hermite contraction | false: the bounded symmetric relative-Fisher law is explicit through `t^10` |
+| The expected `q^(9/2)` term selects K1732's null tangent | K1737 matched composition | false: it cancels identically at `alpha=35/3`, `x=35` |
+| Quartic equality remains flat at the next full order | K1737 `q^5` completion of squares | false: the tangent pays `xi^2/5040` after the second-order optimum `beta=0` |
+| More than one leading two-radius tangent attains the `q^5` floor | K1738 nonzero chart Jacobian | false: the unique velocity is `(-0.1037580726956868...,-0.1285250038860326...)` |
+| The leading tangent determines a complete analytic or finite-strength branch | K1738 second-order boundary | not established; one second-order chart freedom remains |
+| K1739 proves the branch by numerical fitting | two-order, four-start regression | false: it is a computed consistency check, not interval certification |
+
+The five producers pass `121/121` contraction, matched-composition, root,
+Jacobian, tangent, quadrature, multistart and protected-state controls; five
+hostile probes reject `42/42` coefficient, half-order, uniqueness, numerical-
+promotion and physical-promotion mutations. The bridge census is 440 rows:
+361 satisfied, ten conditional, 65 excluded and four missing. Source, ledger,
+canon and public states do not move.
 
 ## K1731--K1735 four-point finite-strength tangent wave (2026-10-12)
 

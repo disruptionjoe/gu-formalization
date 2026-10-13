@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1736",
+  "status": "active_research",
+  "title": "Bounded symmetric scalar Gaussian channels have an exact tenth-order relative-Fisher expansion",
+  "hermite_law": {
+    "scope": "X is one bounded symmetric centered unit-variance real seed.",
+    "moments": "kappa_4=E H_4(X), kappa_6=E H_6(X), h_8=E H_8(X), h_10=E H_10(X).",
+    "density_ratio": "p_t/phi=1+(kappa_4/24)t^2H_4+(kappa_6/720)t^3H_6+(h_8/40320)t^4H_8+(h_10/3628800)t^5H_10+O_X(t^6).",
+    "ninth_coefficient": "-[kappa_6(9h_8kappa_4-855kappa_4^3+5kappa_6^2)/360]t^9.",
+    "tenth_coefficient": "[h_10^2-420h_10kappa_4kappa_6-1260h_8^2kappa_4+138600h_8kappa_4^3-3150h_8kappa_6^2-5658660kappa_4^5+680190kappa_4^2kappa_6^2]t^10/362880.",
+    "derivation": "Expand integral phi (r_t')^2/r_t with the Mehler density ratio and evaluate every Gaussian Hermite contraction exactly."
+  },
+  "decision": {
+    "ninth_order_term_identified": true,
+    "tenth_order_term_identified": true,
+    "new_moment_first_enters_at_tenth_order": "h_10",
+    "bounded_symmetric_scope_only": true,
+    "all_seed_finite_strength_optimizer_identified": false
+  },
+  "scope_guard": "The expansion is a fixed bounded symmetric seed theorem near t=0. It is not uniform for growing support, vanishing defect, singular chart boundaries or finite channel strength."
+}

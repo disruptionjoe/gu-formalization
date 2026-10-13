@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d7774d6fc5c8683bd91af33db6326a49b85033ba
+revision_basis: e839d820ebf9b7a498c80014ea3943a87eac0d44
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1736--K1740 resolve K1734's first analytic tangent-selection gate.
+    The bounded symmetric relative-Fisher law extends exactly through `t^10`.
+    After matched-path composition at the K1727 equality seed, the complete
+    `q^(9/2)` coefficient cancels and the first tangent-varying term is
+    `[139/432+y_0^2/362880+beta^2/120+xi^2/5040]q^5`, where `beta` is the
+    second scaled-sixth coefficient and `xi` is the first derivative of
+    `h_8/u^2`. Choosing `beta=0` and minimizing the remaining square gives
+    `xi=0`. The chart Jacobian is nonzero, so the unique leading velocity is
+    `(P,A)=(-0.1037580726956868...,-0.1285250038860326...)`; K1728's
+    fixed-raw-radii motion is not selected. A separate two-order/four-start
+    regression at `q=0.001,0.0015,0.002` approaches this tangent at computed
+    grade. The theorem selects only first-order chart motion, not a complete
+    local branch or finite-strength/global optimizer. The bridge census is
+    440 rows: 361 satisfied, ten conditional, 65 excluded and four missing.
+    Protected source, ledger, canon and public states do not move.
+
     K1731--K1735 expose the first exact finite-strength seam inside the
     K1727 four-point construction. Every symmetric unit-variance two-radius
     four-point law has a unique `(p,a)` chart with
@@ -15455,6 +15471,17 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1736--K1739 prove that quartic equality cancels the complete `q^(9/2)`
+  path term and that the first tangent-varying `q^5` coefficient uniquely
+  selects the leading two-radius chart velocity. Which later coefficient
+  resolves the remaining second-order chart freedom, and does the resulting
+  local analytic branch admit interval-controlled comparison with the exact
+  finite-strength channel? Can remote chart boundaries, growing support or
+  vanishing defect improve again, or can correlated tensors, Haar saving and
+  arbitrary stationary laws be controlled by a matching lower principle?
+  No selected scalar tangent is a source-owned physical state or global
+  infimum.
+
   K1731--K1734 prove that the K1726 quartic floor does not select a unique
   finite-strength tangent inside the complete symmetric two-radius four-point
   chart. Which first post-`t^8` Fisher/path coefficient varies along the null
@@ -18309,6 +18336,21 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1736's fixed bounded symmetric seed scope and exact Hermite
+  normalization; the `t^9` and `t^10` coefficients are local expansions, not
+  finite-strength or growing-support control. Preserve K1737's regular matched
+  path and equality hypotheses: `q^(9/2)` vanishes there, while the `q^5`
+  square law does not control remote chart boundaries. Preserve K1738 as a
+  unique first chart velocity only; `beta=0` leaves one second-order chart
+  degree of freedom, and higher orders must resolve it. Preserve K1739 as
+  reproducible numerical regression rather than interval certification.
+  Next extend the selected tangent to the first coefficient that fixes the
+  remaining second-order freedom and compare that local branch with
+  interval-controlled finite strength. Separately classify singular
+  boundaries, quantify Haar saving, test correlated tensors or prove an
+  unrestricted stationary lower bound. No result supplies a source-owned
+  Hamiltonian, physical state, observation, prediction or admission.
+
   Preserve K1731's symmetric two-radius four-point scope and exact chart.
   Preserve K1732's local first-order `sqrt(q)` tangent statement: the affine
   line proves non-identification by quartic data, not global continuation of

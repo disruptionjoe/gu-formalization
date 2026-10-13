@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1737",
+  "status": "active_research",
+  "title": "Quartic equality cancels the complete matched q^(9/2) coefficient and exposes a q^5 sum of squares",
+  "matched_path": {
+    "coordinate": "s=sqrt(q), t=s/sqrt(u(s)), u(s)=-kappa_4(X_s)",
+    "scaled_invariants": "r(s)=kappa_6/u^(3/2)=alpha s+beta s^2+O(s^3), x(s)=h_8/u^2=35+xi s+O(s^2), y_0=h_10(X_0)/u_0^(5/2)",
+    "quartic_equality": "alpha=35/3 and x(0)=35",
+    "law": "j(q)=q^2/6+q^3/4+(11/108)q^4+0*q^(9/2)+[139/432+y_0^2/362880+beta^2/120+xi^2/5040]q^5+o(q^5).",
+    "cancellation": "The second-order scaled-sixth coordinate and all third-order path freedom cancel from q^(9/2) because alpha/60-7/36=0 at alpha=35/3; stationarity at x=35 removes the first eighth-coordinate variation there as well.",
+    "first_tangent_varying_term": "q^5 through xi^2/5040, after the freely selectable second-order condition beta=0."
+  },
+  "decision": {
+    "q_nine_halves_selects_tangent": false,
+    "q_nine_halves_coefficient_exactly_zero": true,
+    "q_five_is_first_tangent_varying_order": true,
+    "q_five_coefficient_is_coercive_in_xi": true,
+    "second_order_scaled_sixth_optimum": "beta=0"
+  },
+  "scope_guard": "This is a local regular matched-path theorem through the K1727 equality seed. It does not certify a global branch, a whole-chart minimum or a uniform boundary remainder."
+}
