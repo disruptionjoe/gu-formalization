@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1732",
+  "status": "active_research",
+  "title": "Quartic-optimal motions through the K1727 seed form an affine one-dimensional tangent family",
+  "tangent": {
+    "path": "p(q)=p0+P sqrt(q)+O(q), a(q)=a0+A sqrt(q)+O(q)",
+    "constraint": "kappa6_p(p0,a0) P+kappa6_a(p0,a0) A=(35/3)u0^(3/2)",
+    "reason": "K1726 requires the scaled sixth-Hermite coordinate to equal 35/3; the base point already has h8/u^2=35, whose first motion does not change the quartic coefficient because the completed square is stationary there.",
+    "rank": "The kappa6 gradient is nonzero, so one nontrivial affine equation in (P,A) leaves one free tangent parameter.",
+    "null_direction": "(kappa6_a,-kappa6_p) spans the homogeneous tangent freedom.",
+    "minimum_norm_representative": "v_min=[(35/3)u0^(3/2)/|grad kappa6|^2] grad kappa6."
+  },
+  "k1728_representative": {
+    "description": "Holding the unnormalized radii A0,B0 fixed and varying their lower-radius probability gives one chart tangent, not the unique quartic optimizer motion.",
+    "coordinates": "P=beta and A=beta*a0*(b0-a0), with beta=-0.480253485638498...",
+    "constraint_satisfied": true
+  },
+  "decision": {
+    "k1728_attainment_preserved": true,
+    "quartic_optimal_tangent_unique": false,
+    "finite_strength_optimizer_identified": false,
+    "next_order_required_to_select_tangent": true
+  },
+  "scope_guard": "The affine family is a first-order path statement through the K1727 seed. It neither proves that every member continues globally nor selects the exact finite-strength minimizer."
+}

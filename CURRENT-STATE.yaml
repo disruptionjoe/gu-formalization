@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: ed700dcb865ae8bff6d1daf5502d2802559e0e4c
+revision_basis: d7774d6fc5c8683bd91af33db6326a49b85033ba
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1731--K1735 expose the first exact finite-strength seam inside the
+    K1727 four-point construction. Every symmetric unit-variance two-radius
+    four-point law has a unique `(p,a)` chart with
+    `b=(1-pa)/(1-p)`, and its even Hermite coordinates are exact rational
+    functions of that chart. At the K1727 equality seed, quartic-optimal paths
+    satisfy one nontrivial affine equation in the two `sqrt(q)` velocities.
+    Their tangent set is therefore one-dimensional: K1728's fixed-raw-radii
+    probability deformation is one representative, not a uniquely selected
+    finite-strength direction. A reproducible Gauss-Hermite/multistart
+    benchmark at `q=0.003,0.01,0.03` finds an interior joint radius-probability
+    branch below both that representative and the optimized complete
+    three-point family. This is computed evidence, not interval certification
+    or a global optimizer theorem. The exact next gate is the first
+    post-`t^8` Fisher/path coefficient that varies along the null tangent.
+    The bridge census is 435 rows: 356 satisfied, ten conditional, 65 excluded
+    and four missing. Protected source, ledger, canon and public states do not
+    move.
+
     K1726--K1730 prove the sharp matched quartic envelope over every regular
     compact uniformly bounded symmetric seed path with finite scaled sixth and
     eighth cumulants. Writing the scaled invariants as `a` and `x`, the exact
@@ -15437,6 +15455,15 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1731--K1734 prove that the K1726 quartic floor does not select a unique
+  finite-strength tangent inside the complete symmetric two-radius four-point
+  chart. Which first post-`t^8` Fisher/path coefficient varies along the null
+  tangent, and does its selected analytic branch reproduce K1733's interior
+  finite-channel benchmark? Can remote chart boundaries, growing support or
+  vanishing defect improve again, or can correlated tensors, Haar saving and
+  arbitrary stationary laws be controlled by a matching lower principle?
+  No benchmark point is a source-owned physical state or a global infimum.
+
   K1726--K1729 identify and attain the sharp quartic floor `11/108` over
   regular compact uniformly bounded symmetric seed paths, strictly improving
   the moving three-point branch. What is the exact finite-strength scalar
@@ -18282,6 +18309,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1731's symmetric two-radius four-point scope and exact chart.
+  Preserve K1732's local first-order `sqrt(q)` tangent statement: the affine
+  line proves non-identification by quartic data, not global continuation of
+  every tangent. Preserve K1733 as reproducible quadrature and multistart
+  evidence only; it is not interval-certified and does not exclude remote
+  branches. Next extend the symmetric relative-Fisher law beyond `t^8`,
+  compose second-order chart motion and identify the first coefficient that
+  varies along the null tangent. Separately classify singular boundaries,
+  quantify Haar saving, test correlated tensors or prove an unrestricted
+  stationary lower bound. No result supplies a source-owned Hamiltonian,
+  physical state, observation, prediction or admission.
+
   Preserve K1726's regular compact uniformly bounded symmetric path and finite
   scaled-invariant hypotheses. The completed-square floor is a weak-channel
   quartic theorem, not an exact finite-strength ordering. Preserve K1727--K1728's

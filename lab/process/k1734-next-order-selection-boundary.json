@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1734",
+  "status": "active_research",
+  "title": "Quartic data cannot select the finite-strength four-point tangent",
+  "boundary": {
+    "rank_defect": "The K1726 quartic coefficient imposes one affine constraint on the two first-order chart velocities and is constant along the remaining null direction.",
+    "consequence": "Neither the sharp floor 11/108 nor K1728's fixed-support construction determines the exact finite-strength tangent.",
+    "required_next_calculation": "Extend the symmetric relative-Fisher expansion beyond t^8, compose it with second-order motion in the two-radius chart, and identify the first coefficient that varies along the null tangent before claiming a selected analytic branch.",
+    "finite_grid_role": "K1733 locates and regression-tests a candidate branch and suggests which next coefficient to check; it is not the coefficient proof."
+  },
+  "excluded_promotions": [
+    "exact finite-strength optimizer",
+    "global two-radius uniqueness",
+    "all-seed infimum",
+    "growing-support or vanishing-defect exclusion",
+    "unrestricted stationary lower bound",
+    "source-owned physical state"
+  ],
+  "scope_guard": "This is an identifiability boundary for the existing quartic expansion, not a no-go theorem against an exact finite-strength solution."
+}

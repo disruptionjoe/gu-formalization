@@ -4,6 +4,26 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K1731--K1735 four-point finite-strength tangent wave
+
+- K1731 exact two-radius chart producer: `23/23`; hostile probe: `6/6`
+  rejected.
+- K1732 quartic-optimal tangent-family producer: `16/16`; hostile probe:
+  `8/8` rejected.
+- K1733 finite-strength continuation benchmark: `33/33`; hostile probe:
+  `8/8` rejected.
+- K1734 next-order selection boundary: `16/16`; hostile probe: `6/6`
+  rejected.
+- K1735 protected admission producer: `24/24`; hostile probe: `10/10`
+  rejected.
+
+The five producers pass `112/112` direct controls and the five hostile probes
+reject `38/38` mutations. They prove the exact two-radius chart and the
+one-dimensional quartic-optimal tangent family, then compute a controlled
+finite-channel candidate branch. They do not interval-certify a global
+optimizer, exclude remote or singular seeds, prove an unrestricted lower
+bound, or supply a source-owned physical theory.
+
 ## K1726--K1730 sharp four-point quartic seed envelope
 
 - K1726 regular-path quartic floor producer: `19/19`; hostile probe: `10/10`

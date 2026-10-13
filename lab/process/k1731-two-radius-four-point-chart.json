@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1731",
+  "status": "active_research",
+  "title": "The complete symmetric two-radius four-point family has an exact unit-variance moment chart",
+  "chart": {
+    "parameters": "0<p<1 and 0<a<1, with b=(1-pa)/(1-p)>1",
+    "law": "P(X=+-sqrt(a))=p/2 and P(X=+-sqrt(b))=(1-p)/2",
+    "variance": "E[X^2]=pa+(1-p)b=1",
+    "even_moments": "m_(2r)=p a^r+(1-p)b^r",
+    "hermite_coordinates": "u=3-m4=-kappa4, kappa6=m6-15m4+30, h8=m8-28m6+210m4-315",
+    "completeness": "Every symmetric four-point unit-variance law with two distinct positive radii and nonzero mass on both radii has exactly one chart representative after naming the lower squared radius a."
+  },
+  "k1727_point": {
+    "u_polynomial": "17u^3-38u^2+84u-24=0 with u in (0,1)",
+    "coordinates": "p0=0.842798253731782..., a0=0.441384393880459..., b0=3.994879309683925...",
+    "moments": "u0=0.327013679166042..., kappa6=0 and h8=35u0^2"
+  },
+  "scope_guard": "This chart classifies two-radius symmetric four-point seeds only. It is not a classification of arbitrary bounded, continuous, growing-support, asymmetric or field-valued laws."
+}

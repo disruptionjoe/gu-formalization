@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1733",
+  "status": "computed",
+  "title": "A reproducible finite-channel benchmark selects joint probability-radius motion inside the two-radius chart",
+  "benchmark": {
+    "objective": "Exact discrete Gaussian-mixture relative Fisher information evaluated at t=sqrt(q/u(p,a)).",
+    "quadrature": "Probabilists' Gauss-Hermite orders 120 and 180, normalized to the standard Gaussian.",
+    "optimization": "Nelder-Mead from the K1727 point, the asymptotic interior seed and two separated chart starts; all accepted starts agree in objective.",
+    "q_grid": [0.003, 0.01, 0.03],
+    "order_180_minimizers": [
+      {"q": 0.003, "p": 0.83535035, "a": 0.43186943, "j": 0.000001506758775923619},
+      {"q": 0.01, "p": 0.82724280, "a": 0.42164966, "j": 0.000016917813175661875},
+      {"q": 0.03, "p": 0.81171974, "a": 0.40327566, "j": 0.00015684890163419253}
+    ],
+    "strict_grid_comparisons": "At every listed q the optimized chart value is below both K1728's fixed-unnormalized-radii path and the optimized complete symmetric three-point family.",
+    "controls": "Orders 120 and 180 agree in objective to below 1e-15; separated starts agree to below 1e-15; the reported optimizer is interior and has u>q."
+  },
+  "grade": "reproducible_numerical_evidence_not_interval_certification",
+  "decision": {
+    "joint_radius_probability_motion_observed": true,
+    "k1728_path_exact_finite_strength_optimality_supported": false,
+    "two_radius_global_optimizer_proved": false,
+    "all_seed_optimizer_proved": false
+  },
+  "scope_guard": "Passing quadrature-order and multistart controls do not prove a whole-domain global minimum, exclude remote chart branches, certify quadrature error by intervals, or control arbitrary seed laws."
+}

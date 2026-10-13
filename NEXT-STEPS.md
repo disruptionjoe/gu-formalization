@@ -7,6 +7,21 @@ updated_at: "2026-10-12"
 
 # Next Steps For Contributors
 
+> **2026-10-12 K1731--K1735 FOUR-POINT FINITE-STRENGTH TANGENT WAVE.** The
+> complete symmetric two-radius four-point family has an exact unit-variance
+> chart `b=(1-pa)/(1-p)`. At the K1727 equality seed, quartic-optimal
+> `sqrt(q)` motions obey one affine constraint in the two probability/radius
+> velocities, leaving a one-dimensional null tangent. K1728's fixed-raw-radii
+> deformation is one representative, not a uniquely selected finite-strength
+> branch. A controlled Gauss-Hermite/multistart benchmark at
+> `q=0.003,0.01,0.03` finds an interior joint motion below that representative
+> and the optimized three-point family, but this is numerical evidence rather
+> than interval certification or a global theorem. Next compute the first
+> post-`t^8` coefficient that varies along the null tangent, compose
+> second-order chart motion, and certify the resulting analytic branch. Keep
+> remote/singular seeds, Haar saving, correlated tensors, unrestricted lower
+> bounds and physical source ownership separate.
+
 > **2026-10-12 K1726--K1730 SHARP FOUR-POINT QUARTIC SEED ENVELOPE.** Every
 > regular compact uniformly bounded symmetric seed path with finite scaled
 > sixth and eighth cumulants obeys

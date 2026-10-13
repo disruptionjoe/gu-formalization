@@ -7,6 +7,22 @@ updated_at: "2026-10-12"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1731--K1735 four-point finite-strength tangent wave (2026-10-12)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The symmetric two-radius four-point family lacks a complete exact chart | K1731 variance normalization and moment identities | false: `(p,a)` uniquely determines `b=(1-pa)/(1-p)` and every even moment |
+| K1728's attainment path is the unique quartic-optimal tangent | K1732 derivative-rank calculation | false: one affine constraint on two velocities leaves a one-dimensional tangent family |
+| Finite-channel optimization stays on K1728's fixed-raw-radii representative | K1733 two-order, four-start benchmark | false on the declared grid at computed grade: an interior joint radius/probability motion is lower |
+| The benchmark proves the exact finite-strength or all-seed optimizer | K1733 scope controls and K1734 boundary | not established; quadrature is not interval certification and remote branches remain open |
+| The quartic theorem already contains enough information to select the analytic branch | K1734 rank defect | false: the first post-`t^8` coefficient varying along the null tangent is required |
+
+The five producers pass `112/112` chart, moment, derivative-rank,
+finite-channel, quadrature-order, multistart and protected-state controls; five
+hostile probes reject `38/38` scope and theorem-promotion mutations. The bridge
+census is 435 rows: 356 satisfied, ten conditional, 65 excluded and four
+missing. Source, ledger, canon and public states do not move.
+
 ## K1726--K1730 sharp four-point quartic seed envelope (2026-10-12)
 
 | Claim | Evidence | Honest grade |
