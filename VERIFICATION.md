@@ -7,6 +7,26 @@ updated_at: "2026-10-12"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1711--K1715 full-carrier circle kernel and quotient (2026-10-12)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K1451's even-charge obstruction may be peculiar to one 27-dimensional K-type | K1711 central homogeneous-space action | false: `z=C(pi)` lies in `M=Z_K(A)` and acts trivially on all of `L2(K/M)` |
+| The original K1356 circle may act faithfully elsewhere in the spherical carrier | K1712 parity plus occurring charge-two witness | false: every charge is even and the exact kernel is `{1,z}` |
+| A primitive faithful observed carrier may intertwine onto full `H_ps` through an original-circle automorphism | K1713 weight-space law | false for linear equivariant maps: degree `plus_or_minus one` preserves parity and every odd source sector maps to zero |
+| The parity obstruction excludes every compact reduction | K1714 effective quotient | false: `C_eff=C/{1,z}` acts faithfully and makes K1357's weights `{-2,-1,0,1,2}` |
+| Passing to `C_eff` is only an automorphism/relabeling of the original circle | K1714 global topology and normalization | false: the quotient map has degree two; `Q_eff=Q/2` and the primitive kinetic norm is one quarter |
+| The effective quotient is source-selected hypercharge or a physical GU quotient | K1715 protected admission | false: source/action ownership, physical carrier/domain and observed intertwiner remain absent |
+
+The five producers pass `95/95` exact provenance, central-coset, character,
+charge-lattice, quotient and normalization controls; five hostile probes reject
+`63/63` central-membership, sample-only, parity, automorphism, global-no-go and
+protected-status mutations. `SC-META-53` remains `UNCERTAIN`,
+`SC-ACT-01/02/06` retain their source polarity, and
+`LT-SM1b/LT-SM2/LT-SM8/LT-GR6b/RA-F1/AC-F1` retain their ledger verdicts.
+No source, ledger, canon, paper, prediction, confirmation or public status
+moves.
+
 ## K1706--K1710 moving three-point finite-strength envelope (2026-10-12)
 
 | Claim | Evidence | Honest grade |

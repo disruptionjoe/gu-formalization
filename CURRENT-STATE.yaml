@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 0466da5b982fcfc71d393ec6cb4a56c0623ef71d
+revision_basis: 4da9611f8a930adb81471ec4717c89c1ae1d7e4f
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1711--K1715 classify K1356's selected compact circle on the complete
+    spherical carrier `H_ps=L2(K/M)`. The half-period element
+    `z=C(pi)=[-1,1]` is the global central spin element, hence lies in
+    `M=Z_K(A)` and acts trivially on every coset. Therefore every
+    original-circle charge is even. K1357's occurring charge-two vector
+    proves the kernel is exactly `{1,z}`, so K1451's fixed-K-type parity
+    exclusion extends to the full carrier: no faithful primitive linear
+    observed carrier can intertwine onto `H_ps` through an automorphism of
+    the original circle. The exact escape is the changed global group
+    `C_eff=C/{1,z}`. It acts faithfully, turns K1357's weights into
+    `{-2,-1,0,1,2}`, and carries the exact local normalization
+    `Q_eff=Q/2`, `A_eff=2A`, `kappa_eff=kappa/4`, `mu_eff=4mu`. This does
+    not select the quotient, identify source hypercharge or construct an
+    action-owned physical quotient. The source register, standing physics
+    ledger, canon, papers, predictions, confirmations and public posture do
+    not move.
+
     K1706--K1710 prove that the K1702 three-point seed is cubic-optimal but
     not the exact finite weak-strength optimizer. The bounded-symmetric
     Hermite law through `t^8` has a load-bearing seventh-order term

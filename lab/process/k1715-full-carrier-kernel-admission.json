@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1715",
+  "status": "active_research",
+  "title": "Full-carrier circle-kernel and effective-quotient admission boundary",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "pinned_inputs": {
+    "k1711": {"path": "lab/process/k1711-full-carrier-central-kernel.json", "sha256": "88e85023e9524cddc94b66a1179171b0273fbea8b49b9c1b109a14150892dda7"},
+    "k1712": {"path": "lab/process/k1712-even-charge-spectrum-effective-kernel.json", "sha256": "49fc92283d9db8cbc3dfce9eb52c5733da45243b3f6a9e059ef9e4cf2fef0708"},
+    "k1713": {"path": "lab/process/k1713-primitive-observed-intertwiner-obstruction.json", "sha256": "c291485e979393379e194a1de034c452b1a6f5da03faf03cd01f22273b330c76"},
+    "k1714": {"path": "lab/process/k1714-effective-quotient-reprimitiveization.json", "sha256": "d6f9b3556d4d99d5b8c2b60b2ffa921826cb8deb7350d7dbf952fb7beaa94da3"}
+  },
+  "admission": {
+    "original_circle_result": "The full H_ps carrier has exact kernel {1,z}, only even original-circle charges, and no faithful primitive linear observed intertwiner through an original-circle automorphism.",
+    "effective_quotient_result": "The effective quotient C_eff=C/{1,z} acts faithfully, makes the K1357 lattice primitive and carries the exact c=1/2 normalization map.",
+    "source_effect": "SOURCE_REGISTER_UNCHANGED; SC-META-53 remains UNCERTAIN; SC-GRP-03/50 and SC-ACT-01/02/06 retain their recorded source polarity.",
+    "ledger_effect": "STANDING_LEDGER_UNCHANGED; LT-SM1b/LT-SM2/LT-SM8/LT-GR6b/RA-F1/AC-F1 retain their existing verdicts and mapping grades.",
+    "public_effect": "CANON_PAPERS_PREDICTIONS_CONFIRMATIONS_PUBLIC_POSTURE_UNCHANGED",
+    "next_condition": "Supply a source/action-owned choice between the original circle and its effective quotient, the same action's kinetic normalization, a physical carrier/domain and a faithful observed intertwiner; otherwise test another compact circle or a typed nonlinear observation map."
+  },
+  "decision": {
+    "full_carrier_original_circle_kernel_classified": true,
+    "primitive_original_circle_route_excluded": true,
+    "effective_quotient_escape_constructed": true,
+    "source_selection_constructed": false,
+    "physical_positive_quotient_constructed": false,
+    "source_register_changed": false,
+    "standing_ledger_changed": false,
+    "canon_or_public_posture_changed": false
+  },
+  "claim_ceiling": "K1711--K1714 replace a fixed-K-type parity observation by a complete-carrier theorem and its exact effective-quotient escape. They do not decide which global group the source action selects, construct a physical quotient, or identify observed hypercharge."
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1712",
+  "status": "active_research",
+  "title": "The complete spherical carrier has even charges and exact circle kernel of order two",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "pinned_inputs": {
+    "k1711": {
+      "path": "lab/process/k1711-full-carrier-central-kernel.json",
+      "sha256": "88e85023e9524cddc94b66a1179171b0273fbea8b49b9c1b109a14150892dda7"
+    },
+    "k1357": {
+      "path": "lab/process/k1357-spherical-ktype-nonuniform-charge-decomposition.json",
+      "sha256": "771b3bbc2357ff7c63282628d401938b4cf790cd319f67e353a8a1e715adb740"
+    }
+  },
+  "spectral_kernel": {
+    "integer_spectrum": "The 2 pi-periodic unitary circle representation decomposes H_ps into integer charge spaces H_q.",
+    "parity": "U(pi)=I implies exp(i pi q)=1 on every nonzero H_q, hence q is even throughout the complete carrier.",
+    "nontrivial_witness": "K1357 places charge q=2 in an M-spherical K-type that occurs in H_ps.",
+    "exactness": "Any circle-kernel angle alpha must satisfy exp(2 i alpha)=1 on the q=2 witness, so alpha is 0 or pi modulo 2 pi; K1711 shows both occur.",
+    "kernel": "ker(C action on H_ps)={C(0),C(pi)}={1,z}."
+  },
+  "decision": {
+    "all_full_carrier_charges_even": true,
+    "charge_two_occurs": true,
+    "circle_kernel_exactly_order_two": true,
+    "original_circle_action_faithful": false,
+    "statement_is_full_Hilbert_carrier": true,
+    "source_charge_assignment_constructed": false,
+    "protected_status_change": false
+  },
+  "claim_ceiling": "Every original-circle Fourier charge on H_ps is even and the complete action kernel is exactly the central half-period subgroup. This classifies the repository control representation only; it does not assign observed particle charges."
+}

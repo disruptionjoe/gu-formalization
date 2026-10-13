@@ -7,6 +7,21 @@ updated_at: "2026-10-12"
 
 # Next Steps For Contributors
 
+> **2026-10-12 K1711--K1715 FULL-CARRIER CIRCLE KERNEL AND EFFECTIVE
+> QUOTIENT.** On `H_ps=L2(K/M)`, K1356's half-period element
+> `z=C(pi)=[-1,1]` is central and lies in `M=Z_K(A)`, so it acts trivially
+> on the complete carrier. Every original-circle charge is even, and K1357's
+> actual charge-two sector makes the kernel exactly `{1,z}`. Thus the
+> primitive original-circle faithful-intertwiner route is excluded globally,
+> not merely on the fixed 27-dimensional K-type. The effective quotient
+> `C_eff=C/{1,z}` acts faithfully and makes that K-type primitive with weights
+> `{-2,-1,0,1,2}`, while changing the global group and rescaling the primitive
+> generator and kinetic normalization by the exact `c=1/2` law. Next supply a
+> source/action-owned choice of global circle, kinetic coefficient, physical
+> carrier/domain and faithful observed intertwiner, or test another compact
+> circle or typed nonlinear observation map. Do not identify this repository
+> control with hypercharge or a physical GU quotient.
+
 > **2026-10-12 K1706--K1710 MOVING THREE-POINT FINITE-STRENGTH ENVELOPE.**
 > Extending the symmetric Hermite law through `t^8` exposes a seventh-order
 > term linear in `kappa_6`. The K1702 seed remains the unique cubic equality

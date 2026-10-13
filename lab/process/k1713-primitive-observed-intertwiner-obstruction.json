@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1713",
+  "status": "active_research",
+  "title": "No faithful primitive original-circle carrier intertwines onto the complete spherical carrier",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "pinned_inputs": {
+    "k1712": {
+      "path": "lab/process/k1712-even-charge-spectrum-effective-kernel.json",
+      "sha256": "49fc92283d9db8cbc3dfce9eb52c5733da45243b3f6a9e059ef9e4cf2fef0708"
+    },
+    "k1451": {
+      "path": "lab/process/k1451-observed-charge-normalization-boundary.json",
+      "sha256": "b3398420f1b1ada68fc30125c3fc06059ec80da542c629ecde4fef597de7d9a0"
+    }
+  },
+  "intertwiner_obstruction": {
+    "target_support": "The original C action on H_ps has only even integer weights and kernel {1,z}.",
+    "primitive_source": "A faithful primitive U(1) carrier has weight lattice of gcd one and therefore contains at least one odd charge after either sign automorphism.",
+    "automorphisms": "The only circle automorphisms have degree plus_or_minus one, so they preserve charge parity.",
+    "weight_space_law": "For a linear C-intertwiner J, a source weight-r vector maps into target weight plus_or_minus r under an automorphism of degree plus_or_minus one.",
+    "obstruction": "Every odd source weight maps to zero because H_ps has no odd target weight. Hence no injective or faithful complete-carrier intertwiner exists from a primitive original-circle carrier onto H_ps.",
+    "scope": "This excludes the stated linear domain-preserving original-circle automorphism route. It does not exclude passage to an effective quotient, another circle, nonlinear or nonlocal observation, or a source-owned reduction."
+  },
+  "decision": {
+    "fixed_ktype_exclusion_extends_to_full_H_ps": true,
+    "original_circle_automorphism_preserves_parity": true,
+    "faithful_primitive_linear_intertwiner_to_full_H_ps_exists": false,
+    "effective_quotient_escape_remains_open": true,
+    "all_observation_maps_excluded": false,
+    "source_hypercharge_falsified": false,
+    "protected_status_change": false
+  },
+  "claim_ceiling": "The complete K1356 spherical carrier cannot be the faithful image of a primitive charge carrier through a linear intertwiner and an automorphism of the original circle. The result is an internal global-group obstruction, not a falsification of source hypercharge or of nonlinear, quotient, or differently selected reductions."
+}

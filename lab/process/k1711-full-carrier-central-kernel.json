@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1711",
+  "status": "active_research",
+  "title": "The half-period compact-circle element acts trivially on the complete spherical carrier",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "pinned_inputs": {
+    "k1311_k1315": {
+      "path": "explorations/conditional-build/k1311-k1315-split-orbit-principal-series-control-2026-10-07.md",
+      "sha256": "94e2c49cc0174844e4dc741f37ef7ab900808e69f0057c10b515afa697f62a10"
+    },
+    "k1356": {
+      "path": "lab/process/k1356-maximal-compact-circle-reduction.json",
+      "sha256": "7cc6bd0d88e3db3b24f4e926682cb11e2a52f9eae40ebf5bce03545400137b10"
+    }
+  },
+  "global_kernel": {
+    "compact_group": "K=(Spin(7)xSpin(7))/diagonal{plus_or_minus_one}",
+    "circle": "C(alpha)=[exp(alpha e1e2),1] with alpha modulo 2 pi",
+    "half_period": "z=C(pi)=[-1,1], the nontrivial global central spin element of order two",
+    "spherical_subgroup": "M=Z_K(A) for the split Cartan A",
+    "membership": "Because z is central in the connected spin group, z centralizes A and therefore z lies in M=Z_K(A).",
+    "homogeneous_action": "On K/M, left translation gives z k M=k z M=k M for every k because z is central and z lies in M.",
+    "hilbert_action": "The quasi-regular action on H_ps=L2(K/M) therefore satisfies U(pi)=I on the complete Hilbert carrier, not only on one K-type."
+  },
+  "decision": {
+    "half_period_element_is_global_central": true,
+    "half_period_element_lies_in_M": true,
+    "left_action_on_K_over_M_is_identity": true,
+    "U_pi_is_identity_on_full_H_ps": true,
+    "source_selects_circle": false,
+    "physical_GU_quotient_constructed": false,
+    "protected_status_change": false
+  },
+  "claim_ceiling": "The repository-selected K1356 circle has a nontrivial order-two kernel on the entire spherical compact picture. This is a theorem about the internal homogeneous representation; it does not select the circle, identify hypercharge, or construct an action-derived physical quotient."
+}

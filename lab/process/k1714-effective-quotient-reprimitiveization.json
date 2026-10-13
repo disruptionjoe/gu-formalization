@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1714",
+  "status": "active_research",
+  "title": "The effective circle acts faithfully and reprimitiveizes the spherical charges",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "direction": "observed_to_native",
+  "target_claim": "SC-META-53",
+  "pinned_inputs": {
+    "k1713": {
+      "path": "lab/process/k1713-primitive-observed-intertwiner-obstruction.json",
+      "sha256": "c291485e979393379e194a1de034c452b1a6f5da03faf03cd01f22273b330c76"
+    },
+    "k1356": {
+      "path": "lab/process/k1356-maximal-compact-circle-reduction.json",
+      "sha256": "7cc6bd0d88e3db3b24f4e926682cb11e2a52f9eae40ebf5bce03545400137b10"
+    },
+    "k1451": {
+      "path": "lab/process/k1451-observed-charge-normalization-boundary.json",
+      "sha256": "b3398420f1b1ada68fc30125c3fc06059ec80da542c629ecde4fef597de7d9a0"
+    }
+  },
+  "effective_quotient": {
+    "definition": "C_eff=C/{1,z}, with quotient coordinate beta=2 alpha modulo 2 pi.",
+    "faithfulness": "K1712 proves {1,z} is the exact original action kernel, so the descended C_eff action on H_ps is faithful.",
+    "generator": "U(alpha)=exp(i alpha Q)=exp(i beta Q_eff) with Q_eff=Q/2.",
+    "ktype_weights": "K1357's weights {-4,-2,0,2,4} become {-2,-1,0,1,2}; their gcd is one.",
+    "topology": "The projection C to C_eff has degree two and is not an automorphism of the original circle.",
+    "kinetic_normalization": "The primitive effective generator is T_eff=T/2, so K1356's normalized quadratic norm becomes 1/4.",
+    "local_equivalence": "K1451's rescaling with c=1/2 gives Q_eff=Q/2, A_eff=2A, kappa_eff=kappa/4 and mu_eff=4mu, preserving the local covariant derivative, kinetic and regularizer terms.",
+    "physical_ceiling": "The quotient removes the internal parity obstruction but changes the global gauge group and normalization. Source/action ownership, physical carrier, observed intertwiner and kinetic coefficient remain absent."
+  },
+  "decision": {
+    "effective_circle_action_faithful": true,
+    "effective_charge_lattice_primitive": true,
+    "fixed_ktype_parity_obstruction_removed_after_quotient": true,
+    "quotient_is_original_circle_automorphism": false,
+    "local_rescaling_equivalent": true,
+    "source_selects_effective_quotient": false,
+    "physical_observed_intertwiner_constructed": false,
+    "protected_status_change": false
+  },
+  "claim_ceiling": "Passing to the exact effective quotient repairs the internal charge-lattice parity obstruction and yields a faithful primitive representation with a precisely rescaled kinetic normalization. It is a changed global group, not an automorphism of the original circle, and remains repository-selected rather than source- or action-owned."
+}
