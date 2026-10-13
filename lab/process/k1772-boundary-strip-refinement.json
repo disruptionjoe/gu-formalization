@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1772",
+  "status": "active_research",
+  "title": "Adaptive exact Bernstein refinement contracts the lower strip to two microscopic cells",
+  "refinement": {
+    "degree": 7,
+    "threshold": "31835729061/200000000000000000",
+    "local_depth_t": 16,
+    "local_depth_z": 16,
+    "input_boundary_strip": ["11863283/536870912", "2026730637/68719476736", "0", "1/128"],
+    "pruned_leaves": 44,
+    "retained_leaves": 2,
+    "unresolved_leaves": 0,
+    "retained_cells": [
+      ["11863283/536870912", "99516938910477/4503599627370496", "0", "1/8388608"],
+      ["99516938910477/4503599627370496", "49758723570445/2251799813685248", "0", "1/8388608"]
+    ],
+    "retained_hull": ["11863283/536870912", "49758723570445/2251799813685248", "0", "1/8388608"],
+    "partition_digest": "47baa0129103870922824844ebfcda1304730ea0c46e4446959f57ecd526a15b"
+  },
+  "decision": {"exact_boundary_refinement_completed": true, "full_fisher_exclusion_proved": false, "global_optimizer_proved": false},
+  "scope_guard": "The forty-four pruned leaves fail the degree-seven sublevel test. The two retained cells still require a full-Fisher lower certificate."
+}

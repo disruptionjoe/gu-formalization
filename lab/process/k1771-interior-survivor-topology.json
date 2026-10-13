@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1771",
+  "status": "active_research",
+  "title": "The fifty-nine interior degree-seven survivors are exactly three rational slabs",
+  "topology": {
+    "input_refinement_digest": "c9a1006ec9c1bfc4e607044d8275cca080e892f7105c87e4dfffc0ebfdd3091a",
+    "input_interior_cells": 59,
+    "slab_count": 3,
+    "slabs": [
+      {"t": ["1267480525/34359738368", "3043191463/68719476736"], "z": ["91/128", "1"], "cell_count": 37, "z_contiguous": true},
+      {"t": ["3043191463/68719476736", "887855469/17179869184"], "z": ["73/128", "89/128"], "cell_count": 16, "z_contiguous": true},
+      {"t": ["887855469/17179869184", "4059652289/68719476736"], "z": ["17/32", "37/64"], "cell_count": 6, "z_contiguous": true}
+    ],
+    "all_z_intervals_contiguous": true,
+    "cell_count_conserved": true,
+    "topology_digest": "1bc7d38ea621f0de11d1b33012c0ee2962f387e6a9fef01d39932a07e48a933b"
+  },
+  "decision": {"exact_slab_union_proved": true, "full_fisher_exclusion_proved": false, "stationarity_proved": false},
+  "scope_guard": "This is exact topology of the degree-seven outer cover, not topology of the full-Fisher sublevel or stationary set."
+}

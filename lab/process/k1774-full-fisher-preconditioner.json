@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1774",
+  "status": "active_research",
+  "title": "Exact five-piece preconditioner for the full-Fisher search",
+  "preconditioner": {
+    "input_coarse_cells": 60,
+    "interior_cells": 59,
+    "interior_slabs": 3,
+    "boundary_input_cells": 1,
+    "boundary_pruned_leaves": 44,
+    "boundary_retained_cells": 2,
+    "effective_search_pieces": 5,
+    "interior_topology_digest": "1bc7d38ea621f0de11d1b33012c0ee2962f387e6a9fef01d39932a07e48a933b",
+    "boundary_partition_digest": "47baa0129103870922824844ebfcda1304730ea0c46e4446959f57ecd526a15b"
+  },
+  "decision": {"geometric_preconditioner_completed": true, "boundary_strip_excluded": false, "full_fisher_interval_newton_completed": false, "global_optimizer_proved": false},
+  "next_gate": "First certify the two boundary cells by K1773, then run full-Fisher interval Newton on the three interior slabs with parameter-derivative tail bounds and a regular z=1 atom chart.",
+  "scope_guard": "The five pieces are exact cover geometry, not five full-Fisher components or stationary branches."
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1773",
+  "status": "active_research",
+  "title": "Boundary-safe Rademacher-score variational contract for full Fisher",
+  "contract": {
+    "q": "1/1024",
+    "channel": "Y=sqrt(t)X+sqrt(1-t)Z",
+    "estimator": "eta_t(y)=tanh(sqrt(t)y/(1-t))",
+    "functionals": {"B": "E[X eta_t(Y)]", "C": "E[eta_t(Y)^2]", "V": "t/(1-t)^2*(2B-C-t)"},
+    "inequality_direction": "J>=V",
+    "identity_ref": "K1686 relative-Fisher/MMSE identity with mmse<=E[(X-eta_t(Y))^2]",
+    "boundary_sectors": [
+      {"region": "c<=z^2", "coordinate": "lambda=c/z^2", "regular_form": "p=lambda/(1+lambda), b=1+lambda*z"},
+      {"region": "c>=z^2", "coordinate": "lambda=z^2/c", "regular_form": "p=1/(1+lambda), z=sqrt(lambda*c)", "singular_rule": "bound the lambda-to-zero rare component with |tanh|<=1"}
+    ],
+    "compact_gaussian_window": "[-11,11]",
+    "tail_control": "3*P(|Z|>11)",
+    "required_backend": "python-flint Arb Taylor integration with directed lower rounding",
+    "required_controls": ["reverse-MMSE mutation", "candidate-U mutation", "missing Mills tail", "raw z=0 division", "partition digest mutation"]
+  },
+  "decision": {"legal_full_fisher_lower_functional_derived": true, "sectorized_arb_cover_completed": false, "boundary_strip_excluded": false},
+  "next_gate": "Implement the two sector charts and certify V>U on both K1772 retained cells, anchored at the K1756 Rademacher face.",
+  "scope_guard": "A proof contract is not an interval certificate; no lower-bound value or boundary exclusion is admitted here."
+}

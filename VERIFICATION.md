@@ -7,6 +7,24 @@ updated_at: "2026-10-13"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1771--K1775 full-Fisher preconditioner wave (2026-10-13)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The 59 interior survivors form an opaque cell cloud | K1771 exact replay and topology digest | false: their union is exactly three rational slabs with 37, 16 and six cells |
+| The K1769 lower strip must be carried unchanged | K1772 adaptive exact Bernstein replay | false: 44 leaves prune and two `z<=2^-23` cells remain, with zero unresolved |
+| The two boundary cells are excluded by full Fisher | K1772/K1773 claim ceiling | not established; the Hermite refinement retains them |
+| A legal boundary-aware full-Fisher lower functional is available | K1773 MMSE/Rademacher-score contract | derived; its sectorized Arb cover is not yet implemented |
+| The full-Fisher search geometry is preconditioned | K1774 exact composition | proved: three interior slabs plus two microscopic boundary cells |
+| Full-Fisher stationarity, uniqueness or a global optimizer follows | K1774/K1775 scope controls | not established |
+
+The five producers admit exact cover topology, exact boundary refinement, a
+legal next-certificate contract, the resulting five-piece geometric
+preconditioner and protected integration. They do not exclude the boundary
+cells or complete full-Fisher interval Newton. The bridge census is 475 rows:
+396 satisfied, ten conditional, 65 excluded and four missing. Source, ledger,
+canon and public states do not move.
+
 ## K1766--K1770 correlated Hermite sublevel wave (2026-10-13)
 
 | Claim | Evidence | Honest grade |

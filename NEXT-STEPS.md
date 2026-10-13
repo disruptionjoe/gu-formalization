@@ -7,6 +7,17 @@ updated_at: "2026-10-13"
 
 # Next Steps For Contributors
 
+> **2026-10-13 K1771--K1775 FULL-FISHER PRECONDITIONER WAVE.** K1769's 59
+> interior survivor cells are exactly three rational slabs. Exact adaptive
+> degree-seven Bernstein refinement contracts its lower strip to two cells
+> with `z<=2^-23`, after pruning 44 leaves with zero unresolved. The complete
+> search cover is therefore three interior slabs plus two microscopic boundary
+> cells. Next implement K1773's sectorized Arb Rademacher-score lower bound on
+> the two boundary cells, then run derivative-safe full-Fisher interval Newton
+> on the three slabs with a regular `z=1` atom chart. Do not report boundary
+> exclusion, stationarity, uniqueness, global scalar optimality, an all-seed
+> theorem, or source-owned physics until those certificates exist.
+
 > **2026-10-13 K1766--K1770 CORRELATED HERMITE SUBLEVEL WAVE.** The failed
 > independent-`(c,z)` interval engine has been replaced by exact matched
 > coordinates `c=2-q/t^2`, positive Gram denominators, and a replayable

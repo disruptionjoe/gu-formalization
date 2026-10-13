@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1775",
+  "status": "active_research",
+  "title": "Protected admission of the full-Fisher geometric preconditioner",
+  "inputs": ["K1770", "K1771", "K1772", "K1773", "K1774"],
+  "bridge_census": {"total": 475, "satisfied": 396, "conditional": 10, "excluded": 65, "missing": 4},
+  "protected_state": {"source_register_changed": false, "standing_ledger_changed": false, "canon_changed": false, "paper_changed": false, "prediction_changed": false, "confirmation_changed": false, "public_posture_changed": false, "k1145_score": "0/7", "k1150_score": "0/7"},
+  "decision": {"five_piece_geometric_preconditioner_admitted": true, "full_fisher_variational_contract_admitted": true, "boundary_strip_exclusion_admitted": false, "full_fisher_interval_newton_admitted": false, "global_two_radius_optimizer_admitted": false, "all_seed_or_physical_result_admitted": false},
+  "next_gate": "Certify K1773 on the two microscopic boundary cells; separately implement derivative-safe Arb interval Newton on the three exact interior slabs.",
+  "scope_guard": "Only exact cover contraction and a legal next-certificate contract are admitted."
+}

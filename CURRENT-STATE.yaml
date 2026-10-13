@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 68dac33133e9000599625b84fc91727481b47df7
+revision_basis: f03576166bedf75644b48e0f9d83a136c55bd274
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1771--K1775 precondition K1769's exact degree-seven survivor cover before
+    full-Fisher interval work. The 59 interior cells replay as exactly three
+    rational slabs with contiguous z sections of 37, 16 and six cells.
+    Adaptive exact degree-seven Bernstein refinement of the one lower strip
+    prunes 44 leaves and leaves only two microscopic cells, both with
+    z<=2^-23, with zero unresolved leaves. The K1686 MMSE identity supplies a
+    legal Rademacher-score full-Fisher lower functional and two boundary-safe
+    sector charts, but the sectorized Arb lower cover is not yet implemented.
+    The admitted search preconditioner is therefore three exact interior
+    slabs plus two boundary cells, not a boundary exclusion, interval-Newton,
+    stationarity, uniqueness or global-optimizer theorem. The bridge census is
+    475 rows: 396 satisfied, ten conditional, 65 excluded and four missing.
+    Protected source, ledger, canon and public states do not move.
+
     K1766--K1770 replace K1764's incomplete independent-ball pilot by a
     complete correlation-preserving exact outer cover. With `q=1/1024`, the
     substitution `c=2-q/t^2` cancels the optimized degree-five and degree-seven
