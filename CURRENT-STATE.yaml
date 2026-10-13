@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: e839d820ebf9b7a498c80014ea3943a87eac0d44
+revision_basis: 7a0edec4a043686e92bd96a50ff5f04c974ab78f
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1741--K1745 resolve the remaining second-order freedom in K1738's local
+    symmetric two-radius branch. The bounded symmetric relative-Fisher law now
+    extends exactly through `t^12`. The complete `q^(11/2)` term is blind to
+    the unresolved second-order variables, while the `q^6` coefficient is
+    `C6*+(gamma+80/3)^2/120+(eta-eta*)^2/5040`, with
+    `eta*=5(8551u^2-16428u+22692)/144=633.133529791640596...` at the K1727
+    cubic seed. Transport through the nonzero chart Jacobian gives the unique
+    second-order coefficients `P2=-0.7045917783886536...` and
+    `A2=-1.0469757447405592...`. One third-order chart freedom remains.
+    A rational interval certificate at `q=1/1024` proves the K1738 velocity
+    enclosure and K1728's strict asymptotic excess, and identifies the
+    axis-frozen `u=q` singular face as the nearest tested chart seam. It does
+    not interval-certify the transcendental finite-channel integral. The
+    bridge census is 445 rows: 366 satisfied, ten conditional, 65 excluded
+    and four missing. Protected source, ledger, canon and public states do not
+    move.
+
     K1736--K1740 resolve K1734's first analytic tangent-selection gate.
     The bounded symmetric relative-Fisher law extends exactly through `t^10`.
     After matched-path composition at the K1727 equality seed, the complete
@@ -15471,6 +15488,15 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1741--K1744 prove that the first later selector is the matched `q^6`
+  coefficient and uniquely fix the second-order two-radius chart jet. Which
+  next coefficient selects the remaining third-order coordinate `theta=x_3`?
+  Can Arb-backed compact/tail interval quadrature plus a dedicated `u=q`
+  boundary chart certify finite-strength ordering or expose a competing
+  singular branch? Can quantitative Haar saving, correlated tensors or an
+  unrestricted stationary lower principle control the wider field problem?
+  No local scalar jet is a source-owned physical state or global infimum.
+
   K1736--K1739 prove that quartic equality cancels the complete `q^(9/2)`
   path term and that the first tangent-varying `q^5` coefficient uniquely
   selects the leading two-radius chart velocity. Which later coefficient
@@ -18336,6 +18362,21 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1741's fixed bounded symmetric seed scope: the `t^11` and `t^12`
+  coefficients are local expansions without a uniform moving-seed remainder.
+  Preserve K1742's regular matched equality path: `q^(11/2)` is blind and
+  `q^6` selects `gamma=-80/3` and `eta=eta*`, but not `theta=x_3`.
+  Preserve K1743 as a unique second-order chart jet only; one third-order
+  chart degree and every later coefficient remain open. Preserve K1744's
+  dependency-free rational interval statements and separately graded floating
+  regression: no full Fisher interval or global boundary theorem follows.
+  Next compute the first coefficient selecting `theta`. For finite strength,
+  add the optional Arb backend, a positive-denominator integrand, compact/tail
+  interval bounds and a dedicated `u=q` singular chart. Separately quantify
+  Haar saving, test correlated tensors or prove an unrestricted stationary
+  lower bound. No result supplies a source-owned Hamiltonian, physical state,
+  observation, prediction or admission.
+
   Preserve K1736's fixed bounded symmetric seed scope and exact Hermite
   normalization; the `t^9` and `t^10` coefficients are local expansions, not
   finite-strength or growing-support control. Preserve K1737's regular matched

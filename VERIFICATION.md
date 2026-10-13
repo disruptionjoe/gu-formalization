@@ -7,6 +7,25 @@ updated_at: "2026-10-13"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1741--K1745 four-point second-order branch wave (2026-10-13)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The `q^(11/2)` coefficient fixes K1738's remaining second-order freedom | K1742 exact matched composition | false: it is independent of `eta` and `gamma` |
+| A later local coefficient fixes the second-order invariant jet | K1742 `q^6` completion of squares | proved locally: `gamma=-80/3`, `eta=eta*` uniquely minimize the jet |
+| The invariant selector fixes the chart second-order coefficients | K1743 rational interval chart transport | proved locally: unique `P2,A2` because the chart Jacobian excludes zero |
+| The second-order jet determines a complete local branch | K1742/K1743 third-order boundary | not established: `theta=x_3` and one third-order chart direction remain free |
+| The finite-channel ordering is interval certified | K1744 proof partition | false: rational chart/boundary facts are certified, but the transcendental whole-line Fisher integral remains floating regression |
+| Remote `p -> 1` is the first chart boundary to treat | K1744 axis-frozen discriminator | false on the certified slice: the `u=q` singular face is closer |
+
+The five producers pass `158/158` direct controls and five hostile probes
+reject `67/67` mutations. The exact grades are fixed-seed `t^12` law, local
+matched `q^6` selector, rational-interval second-order chart jet, and a
+rational axis-frozen boundary discriminator with separately graded floating
+comparison. The bridge census is 445 rows: 366 satisfied, ten conditional,
+65 excluded and four missing. Source, ledger, canon and public states do not
+move.
+
 ## K1736--K1740 four-point analytic tangent selection wave (2026-10-13)
 
 | Claim | Evidence | Honest grade |

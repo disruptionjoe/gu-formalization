@@ -7,6 +7,19 @@ updated_at: "2026-10-13"
 
 # Next Steps For Contributors
 
+> **2026-10-13 K1741--K1745 SECOND-ORDER FOUR-POINT BRANCH.** The exact
+> relative-Fisher law now extends through `t^12`. The matched `q^(11/2)` term
+> is blind to K1738's remaining second-order freedom, while `q^6` completes
+> into strict squares centered at `gamma=-80/3` and
+> `eta=633.133529791640596...`. This uniquely fixes the chart coefficients
+> `P2=-0.7045917783886536...`, `A2=-1.0469757447405592...`; one third-order
+> direction remains. A rational interval certificate identifies the nearby
+> axis-frozen `u=q` singular face but does not certify the whole-line Fisher
+> integral. Next select `theta=x_3` at the first decisive later coefficient,
+> and separately build Arb-backed compact/tail interval quadrature with a
+> dedicated singular-boundary chart. Keep global optimization, Haar saving,
+> correlated tensors and physical source ownership separate.
+
 > **2026-10-13 K1736--K1740 FOUR-POINT ANALYTIC TANGENT SELECTION.** The
 > bounded symmetric relative-Fisher law now extends exactly through `t^10`.
 > At K1727's quartic-equality seed, matched composition cancels the complete

@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1743",
+  "status": "active_research",
+  "title": "The selected symmetric two-radius chart has unique second-order coefficients but one third-order freedom remains",
+  "pre_flight": {
+    "question": "K1738 fixes the leading chart velocity but leaves one second-order chart direction after beta=r_2=0; determine exactly whether the first later matched coefficient fixes that direction.",
+    "rederived_inputs": "Use only the K1731 exact (p,a) chart, the K1727 isolated algebraic seed, and the K1736--K1738 matched scaled invariants. K1739 is a numerical consistency check and K1742 is not assumed.",
+    "problem_matched_gate": "Expand the matched relative-Fisher objective through q^6 in the local invariant coordinates r=kappa_6/u^(3/2), x=h_8/u^2, y=h_10/u^(5/2), then transport the selected invariant coefficients through the nonzero chart Jacobian.",
+    "anti_overclaim": "The gate can identify a finite jet only; it cannot certify a complete analytic branch, a finite-strength minimum, or a global two-radius optimizer."
+  },
+  "coefficient_convention": {
+    "chart_path": "p(s)=p_0+P s+P_2 s^2+P_3 s^3+O(s^4), a(s)=a_0+A s+A_2 s^2+A_3 s^3+O(s^4), with s=sqrt(q); coefficients do not include factorials.",
+    "selected_leading_velocity": "P=-0.1037580726956868180098412425..., A=-0.1285250038860326462269688806...",
+    "scaled_paths": "r(s)=(35/3)s+0*s^2+gamma*s^3+O(s^4), x(s)=35+0*s+eta*s^2+O(s^3)."
+  },
+  "q6_selection": {
+    "relevant_coefficient": "After r_2=x_1=0, the q^6 coefficient contains gamma^2/120+4gamma/9+eta^2/5040+11eta/72+y_0 y_2/181440 plus terms independent of gamma and eta.",
+    "chart_chain_rule": "In local (r,x) coordinates, y_2=y_x eta+(1/2)y_rr(35/3)^2, where y_x=(partial y/partial x)|_r at the seed.",
+    "exact_stationarity": "gamma=-80/3 and eta=-385-y_0 y_x/72.",
+    "seed_values": "y_0=1253.0425860990422142016364899... and y_x=-58.50209319159081323903843556..., hence eta=633.1335297916405961112971458....",
+    "coercivity": "The gamma and eta Hessian entries are exactly 1/60 and 1/2520, so the selected invariant coefficients are strict local minima of the q^6 jet."
+  },
+  "second_order_chart_solution": {
+    "definitions": "Let v_1=(P,A), v_2=(P_2,A_2), J=d(r,x)/d(p,a), and H_r,H_x be the chart Hessians at (p_0,a_0).",
+    "exact_equations": "J v_2=(-v_1^T H_r v_1/2, eta-v_1^T H_x v_1/2)^T.",
+    "uniqueness": "det J is nonzero at the isolated K1727 seed, so r_2=0 and x_2=eta fix v_2 uniquely.",
+    "certified_intervals": {
+      "P_2": "[-0.704591778388654,-0.704591778388653]",
+      "A_2": "[-1.046975744740560,-1.046975744740558]"
+    },
+    "reported_values": "P_2=-0.7045917783886536388640680138..., A_2=-1.0469757447405592350794876880....",
+    "certification": "Exact rational interval arithmetic isolates u, encloses the chart square root, propagates two-variable second jets, proves det J excludes zero, and encloses both solved coefficients."
+  },
+  "remaining_freedom": {
+    "third_order_condition": "The selected gamma=-80/3 condition is one affine equation in (P_3,A_3): grad(r).v_3+v_1^T H_r v_2+D^3r[v_1,v_1,v_1]/6=-80/3.",
+    "dimension": "One third-order chart degree remains free because q^6 does not select x_3.",
+    "honest_boundary": "K1743 proves a unique second-order chart jet and one selected third-order invariant combination, not a unique third-order chart jet or a complete local analytic branch."
+  },
+  "decision": {
+    "second_order_chart_coefficients_unique": true,
+    "third_order_scaled_sixth_coefficient_selected": true,
+    "third_order_chart_coefficients_unique": false,
+    "complete_local_analytic_branch_unique": false,
+    "finite_strength_global_optimizer_identified": false
+  },
+  "post_flight": {
+    "overclaim_check": "Reject any promotion from the certified finite jet to complete-branch existence, finite-strength optimality, whole-chart uniqueness, or an all-seed lower bound.",
+    "contrary_route_check": "K1728's fixed-raw-radii motion remains a valid quartic-attaining representative but has the wrong K1738 leading tangent; K1739 remains numerical evidence and cannot replace this exact chart calculation.",
+    "mistyping_check": "The stored P_2 and A_2 multiply s^2 directly; reading them as second derivatives would introduce an erroneous factor of two.",
+    "reproducibility_seam": "Run tests/channel-swings/k1743_four_point_second_order_branch.py and its hostile probe; both reconstruct the algebraic seed and selected coefficients from the chart formulas."
+  },
+  "scope_guard": "This exact and interval-certified statement is local to the regular symmetric two-radius chart near the K1727 seed. It does not cover singular chart faces, remote branches, growing support, unrestricted stationary field laws, or a source-owned physical GU state."
+}

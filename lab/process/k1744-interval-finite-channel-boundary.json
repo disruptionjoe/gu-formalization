@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1744",
+  "status": "active_research",
+  "title": "Rational interval tangent certificate and nearest axis-frozen finite-channel boundary discriminator",
+  "pre_flight": {
+    "problem_match": "Reopen K1738 at one exact nonzero channel section q=1/1024, distinguish proof from regression, and test the nearest singular/remote chart seams before attempting a global optimizer claim.",
+    "current_state_rechecked": "K1738 proves only the leading analytic velocity; K1739 and K1733 are ordinary quadrature regressions; remote chart branches, singular u down to q, unique continuation and all-seed optimization remain open.",
+    "dependency_check": "The active Python environment has scipy and numpy but does not have flint/python-flint, mpmath or another outward transcendental interval package.",
+    "route_choice": "Use dependency-free Fraction intervals for algebraic and chart-boundary facts. Keep scipy Gauss-Hermite values in a disjoint ordinary-floating section. Do not call them interval proof."
+  },
+  "proof_partition": {
+    "interval_proof": "dependency-free rational outward intervals",
+    "exact_algebra": "K1738 chart/Jacobian and q^5 tangent discrimination; exact coefficient law, not finite-strength Fisher ordering",
+    "ordinary_floating_regression": "orders 120/180 Gauss-Hermite at q=1/1024; reproducible but not interval certified"
+  },
+  "certified_domain": {
+    "base_seed": "u is the unique root of 17u^3-38u^2+84u-24 in the recorded rational interval; uniqueness follows because 51u^2-76u+84 has negative discriminant and positive leading coefficient.",
+    "chart": "0<p<1, 0<a<1, b=(1-pa)/(1-p), u=3-[pa^2+(1-p)b^2]",
+    "section": "The first-order K1738 truncation p*=p0+P/32, a*=a0+A/32 at s=1/32 and q=s^2=1/1024.",
+    "boundary_slice": "Axis-frozen vertical slice p=p*. On this slice u=q has lower intercept a_sing=1-sqrt((2-q)(1-p*)/p*)."
+  },
+  "exact_rational_interval_certificate": {
+    "u": ["0.327013679166041", "0.327013679166043"],
+    "p0": ["0.842798253731", "0.842798253732"],
+    "a0": ["0.441384393880", "0.441384393881"],
+    "b0": ["3.994879309683", "3.994879309684"],
+    "jacobian": ["97048.774041", "97048.774108"],
+    "P": ["-0.103758072735", "-0.103758072656"],
+    "A": ["-0.128525003938", "-0.128525003834"],
+    "k1728_beta": ["-0.480253485683", "-0.480253485594"],
+    "k1728_xi": ["730.941507691374", "730.941509424213"],
+    "k1728_q5_excess": ["106.007041203", "106.007041707"],
+    "q": "1/1024",
+    "p_star": ["0.839555813958", "0.839555813962"],
+    "a_star": ["0.437367987507", "0.437367987511"],
+    "u_star": ["0.343564738620", "0.343564738768"],
+    "a_singular_at_fixed_p": ["0.381917925507", "0.381917925514"],
+    "singular_vertical_gap": ["0.055450061994", "0.055450062004"],
+    "face_gaps": {
+      "p=0": ["0.839555813958", "0.839555813962"],
+      "p=1": ["0.160444186038", "0.160444186042"],
+      "a=0": ["0.437367987507", "0.437367987511"],
+      "a=1": ["0.562632012489", "0.562632012493"]
+    }
+  },
+  "certified_conclusion": {
+    "leading_velocity": "The K1738 Jacobian is strictly positive on the isolated seed box and its selected P,A boxes are replayed by outward rational arithmetic.",
+    "exact_tangent_comparison": "The K1728 fixed-raw-radii tangent has xi in [730.941507691374,730.941509424213], hence pays exact q^5 coefficient excess xi^2/5040 in [106.007041203,106.007041707]. This is an asymptotic coefficient theorem, not a finite-q integral ordering.",
+    "finite_channel_boundary": "At q=1/1024 the K1738 linear truncation has u*>q. Holding p=p*, its lower u=q intercept is only 0.055450061994..0.055450062004 below a*, strictly closer in that same axis-frozen comparison than every rectangular chart face; the next closest listed face is p=1 at gap 0.160444186038..0.160444186042.",
+    "route_change": "A future whole-chart certificate must treat the u=q singular face explicitly before remote p=1 support escape; a compact interior box around the K1738 branch alone cannot exclude the nearest axis-frozen competitor seam."
+  },
+  "ordinary_floating_regression": {
+    "q": 0.0009765625,
+    "selected_linear": {
+      "order_120": 1.5917865187265276e-07,
+      "order_180": 1.5917865187265197e-07
+    },
+    "k1728_linear": {
+      "order_120": 1.5917875815948052e-07,
+      "order_180": 1.5917875815948018e-07
+    },
+    "observed_order_180_gap_k1728_minus_selected": 1.0628682821329752e-13,
+    "grade": "ordinary_floating_regression_only",
+    "interpretation": "The two quadrature orders reproduce the expected ordering, but agreement between floating orders does not bound quadrature error and does not prove the finite-strength ordering."
+  },
+  "finite_strength_interval_boundary": {
+    "full_fisher_interval_status": "not_proved",
+    "why": "The Fisher objective contains exponentials, posterior ratios and a whole-line Gaussian integral. Fraction arithmetic certifies the algebraic chart but cannot enclose those transcendental integrals or their tails.",
+    "missing_dependency": "python-flint==0.9.0 (Arb), plus an implemented certified whole-line quadrature and Gaussian-tail enclosure",
+    "next_exact_input": "Install the repository-pinned optional Arb backend, derive a positive-denominator integrand form, split a compact y interval from two analytic Gaussian tails, and interval-branch the compact two-radius domain with a dedicated u=q boundary chart."
+  },
+  "decision": {
+    "k1738_leading_velocity_rational_interval_certified": true,
+    "k1728_strict_q5_coefficient_excess_interval_certified": true,
+    "axis_frozen_singular_boundary_discriminator_proved": true,
+    "finite_strength_fisher_ordering_interval_proved": false,
+    "global_two_radius_optimizer_proved": false,
+    "all_seed_optimizer_proved": false,
+    "source_or_physical_status_change": false
+  },
+  "post_flight": {
+    "overclaim_attack": "Rejected: the 1.06e-13 floating objective gap is not relabeled as a theorem, and the exact xi^2/5040 result is not relabeled as finite-strength ordering.",
+    "contrary_construction_or_mistyping_attack": "The certificate derives the K1728 beta from its chart direction rather than trusting the printed decimal; hostile tests reject zero Jacobian, zero excess, swapped proof grades, false global decisions and an enlarged singular gap.",
+    "reproducibility_seam": "All proof-grade endpoints replay with the standard-library Fraction backend. Floating values replay through the pre-existing K1733 scipy backend and remain separately graded. The exact missing optional dependency and tail construction are named for continuation."
+  },
+  "scope_guard": "The boundary statement is axis-frozen at p=p* and compares a vertical singular intercept with rectangular coordinate-face gaps. It is not a global Euclidean nearest-boundary theorem. The linear truncation is not a proved continuation branch. No finite-strength Fisher interval ordering, whole-chart exclusion, global two-radius optimizer, all-seed result, growing-support exclusion, source-owned action, physical state, prediction or confirmation follows."
+}

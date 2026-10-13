@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1742",
+  "status": "active_research",
+  "title": "The matched q^6 coefficient uniquely selects the remaining second-order two-radius chart motion",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "scope": "The regular matched path through K1727's isolated bounded symmetric two-radius equality seed, after K1738's unique first chart velocity and beta=0 condition.",
+  "gu_typed_objects": {
+    "carrier": "the symmetric four-atom law on plus-or-minus sqrt(a) and plus-or-minus sqrt(b), with weights p/2 and (1-p)/2 and b=(1-pa)/(1-p)",
+    "map": "the local analytic chart (p,a) -> (r,x) with r=kappa_6/u^(3/2), x=h_8/u^2 and u=-kappa_4",
+    "path_coordinates": "r(s)=35s/3+gamma s^3+O(s^4), x(s)=35+eta s^2+theta s^3+O(s^4), y=h_10/u^(5/2), z=h_12/u^3, s=sqrt(q)",
+    "quantifiers": "regular analytic chart paths sufficiently near the K1727 equality seed",
+    "owner": "repository-internal scalar-channel construction; no source-owned physical state or global variational problem"
+  },
+  "matched_composition": {
+    "eleven_halves": "[q^(11/2)]j = y_0(y_1+2450)/181440 = -5(122111u^2-219948u+558420)/(62208 sqrt(u)) = -70.2136845714227781980523344... .",
+    "eleven_halves_selection": "This coefficient is independent of eta and gamma, so q^(11/2) cannot resolve K1738's remaining second-order chart freedom.",
+    "six_before_chart_reduction": "[q^6]j=[23760eta^2+18295200eta+997920gamma^2+53222400gamma+8910y_0^2+660y_0y_2+330y_1^2+1617000y_1+3z_0^2+34650z_0+6173349875]/119750400.",
+    "seed_equation": "17u^3-38u^2+84u-24=0, with the unique u in (0,1).",
+    "two_atom_recurrence": "M_0=M_1=1, M_2=3-u, M_3=kappa_6+15-15u, S=(M_3-M_2)/(M_2-1), R=S-M_2, M_n=SM_(n-1)-RM_(n-2).",
+    "local_y_jet": "y_1=-35(4097u^2-7764u+19404)/48 and y_2=Y_x eta+(1225/18)Y_rr, where Y_x=-(17u^2+132)/(4sqrt(u)) and Y_rr=sqrt(u)(2375597u^2-4247556u+9012540)/34240.",
+    "z_base": "z_0=-5(21199u^2-40620u+88224)/4.",
+    "completed_square": "[q^6]j=C_6^*+(gamma+80/3)^2/120+(eta-eta_*)^2/5040.",
+    "selected_centers": "gamma_*=-80/3 and eta_*=-385-y_0Y_x/72=5(8551u^2-16428u+22692)/144=633.133529791640596111297146... .",
+    "selected_coefficient": "C_6^*=(1319167228301u^2-2519891655876u+5754743605564)/8200507392=618.470706254850014084939900... ."
+  },
+  "chart_selection": {
+    "first_velocity": "K1738 fixes r_1=35/3 and x_1=0, equivalently the unique (P,A) chart velocity.",
+    "second_order": "K1737 fixes r_2=beta=0; K1742 fixes x_2=eta_*. Because det d(kappa_6,x)/d(p,a) is nonzero at the seed, these two exact invariant conditions determine the two second-order chart coefficients uniquely.",
+    "third_order_boundary": "The q^6 law also fixes r_3=gamma_* but is independent of x_3=theta. One third-order chart degree of freedom therefore remains; no complete analytic branch is selected."
+  },
+  "decision": {
+    "q_eleven_halves_selects_second_order_chart": false,
+    "q_six_is_first_later_second_order_selector": true,
+    "remaining_second_order_chart_motion_unique": true,
+    "third_order_chart_motion_unique": false,
+    "complete_local_analytic_branch_unique": false,
+    "finite_strength_branch_certified": false,
+    "remote_or_singular_boundaries_excluded": false,
+    "source_or_physical_status_changed": false
+  },
+  "scope_guard": "The selector is exact only for regular local two-radius paths at the K1727 equality seed. It does not give a uniform moving-seed remainder, interval-controlled finite-strength comparison, remote-boundary exclusion, an all-seed optimizer, or any source-owned physical conclusion."
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1741",
+  "status": "active_research",
+  "title": "Bounded symmetric scalar Gaussian channels have an exact twelfth-order relative-Fisher expansion",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "scope": "One fixed bounded symmetric centered unit-variance real seed under the scalar Gaussian channel, with probabilists' Hermite normalization.",
+  "gu_typed_objects": {
+    "carrier": "a fixed bounded symmetric real probability law X with E X=0 and E X^2=1",
+    "map": "X -> sqrt(t) X + sqrt(1-t) G, followed by the density ratio against the standard Gaussian",
+    "coordinates": "kappa_4=E H_4(X), kappa_6=E H_6(X), h_8=E H_8(X), h_10=E H_10(X), h_12=E H_12(X)",
+    "quantifiers": "for each fixed bounded symmetric seed as t tends to zero",
+    "owner": "repository-internal scalar-channel calculation; no source-owned state, action, observation or physical probability law"
+  },
+  "hermite_law": {
+    "density_ratio": "p_t/phi=1+(kappa_4/24)t^2H_4+(kappa_6/720)t^3H_6+(h_8/40320)t^4H_8+(h_10/3628800)t^5H_10+(h_12/479001600)t^6H_12+O_X(t^7).",
+    "eleventh_coefficient": "-11[20h_10h_8kappa_4-700h_10kappa_4^3+21h_10kappa_6^2+70h_8^2kappa_6-22960h_8kappa_4^2kappa_6+1162350kappa_4^4kappa_6-21210kappa_4kappa_6^3]t^11/302400.",
+    "twelfth_coefficient": "[h_12^2-990h_12h_8kappa_4+23100h_12kappa_4^3-924h_12kappa_6^2-2970h_10^2kappa_4-27720h_10h_8kappa_6+3437280h_10kappa_4^2kappa_6-11550h_8^3+5174235h_8^2kappa_4^2-406340550h_8kappa_4^4+25391520h_8kappa_4kappa_6^2+10313399250kappa_4^6-2184571620kappa_4^3kappa_6^2+5416026kappa_6^4]t^12/39916800.",
+    "derivation": "Expand integral phi (r_t')^2/r_t with the Mehler density ratio, invert r_t as a formal series, and evaluate every Gaussian Hermite contraction exactly.",
+    "normalization": "H_n is the probabilists' Hermite polynomial and E[H_n(G)^2]=n! for G standard Gaussian."
+  },
+  "decision": {
+    "eleventh_order_term_identified": true,
+    "twelfth_order_term_identified": true,
+    "new_moment_first_enters_at_twelfth_order": "h_12",
+    "bounded_symmetric_scope_only": true,
+    "uniform_remainder_for_moving_or_growing_seeds": false,
+    "finite_strength_optimizer_identified": false,
+    "source_or_physical_status_changed": false
+  },
+  "scope_guard": "The law is a fixed-seed local expansion. It is not uniform for moving laws, growing support, vanishing defect, singular chart boundaries or finite channel strength, and it supplies no source-owned Hamiltonian, state, observation, prediction or confirmation."
+}

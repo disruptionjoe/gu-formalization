@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1745",
+  "status": "active_research",
+  "title": "Second-order four-point branch selection is integrated without finite-strength or physical promotion",
+  "classification": "INTERNAL_STRUCTURAL_ONLY_WITH_RATIONAL_INTERVAL_BOUNDARY_CERTIFICATE_AND_SEPARATE_FLOATING_REGRESSION",
+  "bridge_census": {
+    "row_count": 445,
+    "satisfied_count": 366,
+    "conditional_count": 10,
+    "excluded_count": 65,
+    "missing_count": 4,
+    "new_satisfied_rows": ["K1741", "K1742", "K1743", "K1744", "K1745"],
+    "protected_missing_rows": ["SC-ACT-01", "SC-ACT-02", "SC-ACT-06", "SC-META-53"]
+  },
+  "protected_state": {
+    "source_claims": "SC-ACT-01/02/06 remain ASSERTS; SC-META-53 remains UNCERTAIN.",
+    "physics_ledger": "33 SAME / 22 DIFFERS / 31 NEEDS / 2 OVER-DETERMINED",
+    "candidate_counts": "K1145 and K1150 remain 0/7.",
+    "canon_change": false,
+    "paper_change": false,
+    "prediction_or_confirmation": false,
+    "public_posture_change": false
+  },
+  "decision": {
+    "twelfth_order_fisher_law_proved": true,
+    "q_eleven_halves_blindness_proved": true,
+    "q_six_second_order_selector_proved": true,
+    "unique_second_order_chart_jet_proved": true,
+    "rational_interval_boundary_discriminator_proved": true,
+    "complete_local_branch_identified": false,
+    "finite_strength_fisher_interval_proved": false,
+    "global_two_radius_optimizer_identified": false,
+    "unrestricted_stationary_lower_bound_proved": false,
+    "source_owned_physical_theory": false,
+    "protected_status_change": false
+  },
+  "next_condition": "Resolve the remaining third-order chart freedom with the next exact matched coefficient. For finite strength, add the optional Arb backend, a positive-denominator integrand, compact/tail interval decomposition and a dedicated u=q singular-boundary chart before any whole-chart optimizer claim. Separately quantify Haar saving, test correlated tensors or prove an unrestricted stationary lower bound."
+}
