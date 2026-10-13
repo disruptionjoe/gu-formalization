@@ -7,6 +7,21 @@ updated_at: "2026-10-13"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1781--K1785 full-Fisher compact-jet and interior pilot (2026-10-13)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Compact-window value, gradient and Hessian lack a directed interval evaluator | K1781 second-order Arb dual numbers plus interval Taylor quadrature | false at exact rational chart points: all six jet components replay with positive-denominator assertions |
+| The exact interior slabs retain a primitive chart singularity | K1782 interval chart-to-natural derivative bounds | false: mixture weights, variance and first/second primitive derivative bounds remain finite on all three slabs |
+| Computed candidate minima are not directionally separated | K1783 seeded compact-window scout | false as computed evidence: the sampled order is slab one above slab two above slab three; no rigorous exclusion follows |
+| The slab-three locator has an indefinite compact Hessian | K1784 Arb checkpoint | false at the named point: `H_tt>0` and `det(H)>9.05e-16` on the compact window |
+| A pointwise compact Hessian proves a stationary component or global optimizer | K1784--K1785 scope audit | not established: whole-line quotient tails, parameter boxes, interval Newton and boundary KKT controls remain open |
+
+The five producers pass `84/84` controls and the five hostile probes reject
+`28/28` mutations. The bridge census is 485 rows: 406 satisfied, ten
+conditional, 65 excluded and four missing. Source, ledger, canon and public
+states do not move.
+
 ## K1776--K1780 full-Fisher boundary and interior-entry wave (2026-10-13)
 
 | Claim | Evidence | Honest grade |

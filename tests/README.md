@@ -4,8 +4,24 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
-Current exact channel-swings inventory: `4547 Python + 93 Sage`. This count
+Current exact channel-swings inventory: `4557 Python + 93 Sage`. This count
 supersedes the historical aggregate embedded in the long directory table.
+
+## K1781--K1785 full-Fisher compact-jet and interior pilot wave
+
+- K1781 compact-window second-order Arb jet producer and hostile probe.
+- K1782 chart-to-natural derivative-bound producer and hostile probe.
+- K1783 deterministic three-slab computed scout and hostile probe.
+- K1784 rational slab-three Hessian checkpoint producer and hostile probe.
+- K1785 protected interior-admission producer and hostile probe.
+
+The five producers certify compact-window value/gradient/Hessian evaluation,
+finite primitive chain-rule bounds and a positive compact Hessian at one
+rational slab-three locator. They do not compose whole-line quotient tails,
+exclude slabs, isolate a stationary box, prove uniqueness or a global
+optimizer, establish an unrestricted lower bound, or supply source-owned
+physics. The five producers pass `84/84` controls and the five hostile probes
+reject `28/28` mutations.
 
 ## K1776--K1780 full-Fisher boundary and interior-entry wave
 

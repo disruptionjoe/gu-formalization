@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1785",
+  "status": "active_research",
+  "title": "Compact second-order Fisher jets and directed pilots narrow the three-slab certificate route",
+  "inputs": ["K1780", "K1781", "K1782", "K1783", "K1784"],
+  "bridge_census": {"total": 485, "satisfied": 406, "conditional": 10, "excluded": 65, "missing": 4},
+  "protected_state": {
+    "source_register_changed": false,
+    "standing_ledger_changed": false,
+    "canon_changed": false,
+    "paper_changed": false,
+    "prediction_changed": false,
+    "confirmation_changed": false,
+    "public_posture_changed": false,
+    "k1145_score": "0/7",
+    "k1150_score": "0/7"
+  },
+  "entry_state": {
+    "boundary_cells_remaining": 0,
+    "interior_slabs_remaining": 3,
+    "compact_window_second_order_jet_available": true,
+    "three_slab_chart_chain_rule_finite": true,
+    "directed_slab_pilot_available": true,
+    "slab_three_rational_locator_available": true,
+    "whole_line_parameter_jet_available": false,
+    "three_slab_interval_newton_completed": false
+  },
+  "decision": {
+    "slabs_one_and_two_excluded": false,
+    "stationary_box_isolated": false,
+    "unique_stationary_component_proved": false,
+    "global_optimizer_proved": false,
+    "source_owned_physical_theory": false
+  },
+  "next_gate": "Compose rigorous whole-line value/gradient/Hessian tails for the full positive-denominator quotient; then certify outward signs or value lower bounds on slabs one and two and run interval Newton plus boundary KKT checks on slab three.",
+  "scope_guard": "K1781 is certified compact-window infrastructure. K1782 proves finite primitive chart bounds. K1783 is computed route selection. K1784 is a pointwise locator. None is a whole-line parameter-box certificate or global optimizer theorem."
+}

@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1782",
+  "status": "active_research",
+  "title": "The three interior slabs have finite chart-to-natural derivative bounds",
+  "chart_bounds": {
+    "slabs": [
+      {
+        "slab": 1,
+        "t": ["1267480525/34359738368", "3043191463/68719476736"],
+        "z": ["91/128", "1"],
+        "minimum_p": "[0.48578296481707935799629338724514582282 +/- 3.01e-39]",
+        "minimum_one_minus_p": "[0.13241365299483890067069880025485417718 +/- 3.01e-39]",
+        "minimum_a": "-4.6566128730773925781250000000000000000e-10",
+        "minimum_v": "0.95571573579945834353566169738769531250",
+        "maximum_first_derivative_magnitude": "[76.951014270383101902493993641823883306 +/- 4.95e-37]",
+        "maximum_second_derivative_magnitude": "[14708.345387854887940073574617203819122 +/- 4.17e-34]"
+      },
+      {
+        "slab": 2,
+        "t": ["3043191463/68719476736", "887855469/17179869184"],
+        "z": ["73/128", "89/128"],
+        "minimum_p": "[0.70036617723742353213214895113480906730 +/- 1.81e-39]",
+        "minimum_one_minus_p": "[0.098251765021292097445487767615190932702 +/- 1.93e-40]",
+        "minimum_a": "0.30468749976716935634613037109375000000",
+        "minimum_v": "0.94832000991300446912646293640136718750",
+        "maximum_first_derivative_magnitude": "[51.037911599222698178076127699824422903 +/- 6.16e-38]",
+        "maximum_second_derivative_magnitude": "[6352.3293931211034470995461611984308219 +/- 3.36e-35]"
+      },
+      {
+        "slab": 3,
+        "t": ["887855469/17179869184", "4059652289/68719476736"],
+        "z": ["17/32", "37/64"],
+        "minimum_p": "[0.79206904073451252700985292243274216162 +/- 1.93e-39]",
+        "minimum_one_minus_p": "[0.10018601719550250051318784905163283838 +/- 1.93e-40]",
+        "minimum_a": "0.42187499994179233908653259277343750000",
+        "minimum_v": "0.94092428402655059471726417541503906250",
+        "maximum_first_derivative_magnitude": "[32.760194867108446970902278558381592350 +/- 4.74e-37]",
+        "maximum_second_derivative_magnitude": "[3079.8698858298660590029623474978776556 +/- 1.02e-36]"
+      }
+    ],
+    "global_maximum_first_derivative_magnitude": "[76.951014270383101902493993641823883306 +/- 4.95e-37]",
+    "global_maximum_second_derivative_magnitude": "[14708.345387854887940073574617203819122 +/- 4.17e-34]"
+  },
+  "natural_coordinates": ["mu_a=sqrt(t a)", "mu_b=sqrt(t b)", "sigma=sqrt(1-t)", "alpha_a=mu_a/(1-t)", "alpha_b=mu_b/(1-t)"],
+  "remaining_tail_obligation": "Compose K1778-style Gaussian moment tails with every mixture-weight, positive-denominator quotient and chart derivative term through Hessian order; finite primitive chart bounds alone are not that quotient certificate.",
+  "decision": {
+    "chart_chain_rule_finite_on_three_slabs": true,
+    "natural_derivative_tails_available_through_order_three": true,
+    "whole_line_full_fisher_quotient_tail_composed": false,
+    "three_slab_interval_newton_completed": false
+  },
+  "scope_guard": "Finite chart and natural-parameter derivatives remove a singularity concern but do not by themselves bound derivatives of the complete Fisher quotient on omitted Gaussian tails."
+}

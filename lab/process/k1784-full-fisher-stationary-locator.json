@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1784",
+  "status": "active_research",
+  "title": "A rational slab-three checkpoint has a certified positive compact-window Hessian",
+  "checkpoint": {
+    "point": {"t": "332081/6250000", "z": "880503/1562500"},
+    "compact_value": "[1.5917864530497676141868159151892170707e-7 +/- 3.00e-24]",
+    "compact_gradient": {
+      "t": "[-1.6048910819834397425234338200129433178e-14 +/- 2.79e-22]",
+      "z": "[-2.0864690453893444541003361164606782227e-15 +/- 1.20e-23]"
+    },
+    "compact_hessian": {
+      "tt": "[2.6152768201145131463493174793738628839e-6 +/- 3.05e-20]",
+      "tz": "[3.2540842486543581060946378790702170895e-7 +/- 1.53e-21]",
+      "zz": "[4.0835409987964743303071464178455747046e-8 +/- 6.97e-23]",
+      "determinant": "[9.0525820799288026180389874723885212267e-16 +/- 2.42e-27]"
+    }
+  },
+  "decision": {
+    "reproducible_rational_locator_available": true,
+    "compact_hessian_positive_definite_at_checkpoint": true,
+    "stationary_box_isolated": false,
+    "unique_stationary_component_proved": false,
+    "global_optimizer_proved": false
+  },
+  "next_gate": "Subdivide a rational box around the checkpoint, compose whole-line derivative tails, and apply interval Newton or Krawczyk with boundary-gradient controls.",
+  "scope_guard": "Pointwise positive definiteness and a small nonzero gradient make a high-quality locator. They do not prove a zero exists in any box or exclude other stationary components."
+}

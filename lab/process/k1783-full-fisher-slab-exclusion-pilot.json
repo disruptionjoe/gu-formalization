@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1783",
+  "status": "active_research",
+  "title": "A directed computed scout orders candidate minima across the three full-Fisher slabs",
+  "computed_pilot": {
+    "method": "seeded differential evolution on compact-window double quadrature; computed evidence only",
+    "slabs": [
+      {"slab": 1, "point": ["0.043983495769402324", "0.71093813156802466"], "compact_value": "1.5917904119151334e-07", "on_t_boundary": false, "on_z_boundary": false},
+      {"slab": 2, "point": ["0.051679989508664356", "0.57616136161442344"], "compact_value": "1.5917866583818063e-07", "on_t_boundary": true, "on_z_boundary": false},
+      {"slab": 3, "point": ["0.053135029439711726", "0.56350717843854914"], "compact_value": "1.5917864530508537e-07", "on_t_boundary": false, "on_z_boundary": false}
+    ],
+    "observed_order": "slab_1 > slab_2 > slab_3",
+    "route_effect": "Prioritize outward gradient signs and value lower bounds on slabs one and two; prioritize interval Newton around the slab-three locator."
+  },
+  "decision": {
+    "directed_exclusion_route_identified": true,
+    "slabs_one_and_two_excluded": false,
+    "stationary_box_isolated": false,
+    "global_optimizer_proved": false
+  },
+  "scope_guard": "The pilot uses floating quadrature and optimization. It chooses the next certificate route but is not citable as a lower bound, an exhaustive search, stationarity, slab exclusion or global ordering."
+}

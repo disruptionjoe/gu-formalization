@@ -7,6 +7,19 @@ updated_at: "2026-10-13"
 
 # Next Steps For Contributors
 
+> **2026-10-13 K1781--K1785 FULL-FISHER INTERIOR-JET WAVE.** A reusable
+> second-order Arb dual-number engine now encloses compact-window value,
+> gradient and Hessian in the exact `(t,z)` chart with 352-cell order-12
+> Taylor quadrature and positive-denominator checks. Primitive chart-to-natural
+> derivatives are finite on all three exact slabs. A computed scout orders its
+> candidate minima slab one above slab two above slab three, and a rational
+> slab-three checkpoint has certified positive compact Hessian determinant
+> above `9.05e-16`. Next compose rigorous whole-line derivatives of the full
+> quotient, certify slab-one/two outward signs or value bounds, and run
+> interval Newton plus boundary KKT checks in slab three. Do not infer slab
+> exclusion, stationarity, uniqueness, global scalar optimality, an all-seed
+> theorem, or source-owned physics from the pilot or pointwise checkpoint.
+
 > **2026-10-13 K1776--K1780 FULL-FISHER BOUNDARY AND INTERIOR-ENTRY WAVE.**
 > A global semiconvexity theorem for K1773's Rademacher-score functional uses
 > `E[S]=1` and `E[(S-1)^2]=c` to avoid the singular rare radius. Its maximum

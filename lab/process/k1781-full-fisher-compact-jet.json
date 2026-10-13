@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1781",
+  "status": "active_research",
+  "title": "A second-order Arb jet certifies the compact full-Fisher window in the exact two-radius chart",
+  "backend": "python-flint==0.9.0",
+  "certificate": {
+    "chart": {"q": "1/1024", "t": "1062863/20000000", "z": "56344011/100000000"},
+    "window": "[-11,11]",
+    "cell_half_width": "1/16",
+    "taylor_order": 12,
+    "compact_cell_count": 352,
+    "value": "[1.5917864530614471531289733479924713018e-7 +/- 3.01e-24]",
+    "gradient": {
+      "t": "[-3.5419933407166305756312318192410396952e-15 +/- 2.79e-22]",
+      "z": "[-2.8935321974130853149592033646205562199e-14 +/- 1.20e-23]"
+    },
+    "hessian": {
+      "tt": "[2.6141651058866995373769237752500470756e-6 +/- 3.05e-20]",
+      "tz": "[3.2564893067524725576554122754064137607e-7 +/- 1.53e-21]",
+      "zz": "[4.0914680883620084642554507897953690409e-8 +/- 6.98e-23]"
+    }
+  },
+  "method": {
+    "parameters": "exact (t,z) chart with c=2-q/t^2, p=c/(c+z^2), a=1-z and b=1+c/z",
+    "differentiation": "second-order interval dual numbers carrying true gradient and Hessian",
+    "integration": "352-cell order-12 interval Taylor quadrature with a positive denominator assertion on every point and remainder cell"
+  },
+  "decision": {
+    "compact_window_value_gradient_hessian_certified": true,
+    "whole_line_parameter_jet_certified": false,
+    "three_slab_interval_newton_completed": false
+  },
+  "scope_guard": "The certificate encloses value, gradient and Hessian on the compact observation window at one exact rational chart point. It does not yet compose parameter derivatives of the omitted Gaussian tails, certify a parameter box, prove stationarity or exclude a slab."
+}
