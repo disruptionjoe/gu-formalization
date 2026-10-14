@@ -7,6 +7,17 @@ updated_at: "2026-10-13"
 
 # Next Steps For Contributors
 
+> **2026-10-13 K1816--K1820 SLAB-THREE LEAFWISE CALIBRATION WAVE.** Exact
+> fixed-score recentering succeeds on the first two K1796 leaves at parameter
+> order seven, with strict compact lower margins `6.2357805699e-25` and
+> `5.6871461288e-25`. Order eight also succeeds on leaf zero but remains
+> indeterminate on the complete first K1794 parent, proving that subdivision is
+> decisive. Resume the atomic order-seven bank from leaf two with the K1816
+> command; switch only a failed leaf to order eight. After all 78 leaves pass,
+> compose analytic tails, complete stationary/Krawczyk rejection and close all
+> 122 exposed faces and 122 vertices. Do not promote two positive leaves to a
+> complete cover, uniqueness, global optimality or source-owned physics.
+
 > **2026-10-13 K1811--K1815 SLAB-THREE METHOD-LIMIT WAVE.** A centered
 > sixth-order full-Fisher Taylor bank at K1787, with analytic whole-line tails
 > and seventeen exact K1794 parent derivative hulls, remains indeterminate on

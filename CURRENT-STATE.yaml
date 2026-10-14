@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1816--K1820 validate the exact route past the prior slab-three
+    sixth-order method limit without promoting a partial bank. Atomic,
+    digest-checked fixed-score checkpoints on the first K1796 leaf show a
+    sixth-order lower margin of `-7.7208260863e-23`, an order-seven strict
+    positive margin of `6.2357805699e-25` and an order-eight strict positive
+    margin of `1.9355631591e-24`. A second exact leaf is also positive at order
+    seven, with margin `5.6871461288e-25`. In contrast, order eight on the
+    complete first K1794 parent remains indeterminate at
+    `-2.5128123483e-20`; subdivision is decisive. Order seven is selected for
+    the production bank, with order eight as a per-leaf fallback. Two of 78
+    leaves are complete and 76 remain; measured throughput implies about 23
+    serial hours. Whole-line tail composition, stationary rejection, 122
+    exposed faces, 122 exposed vertices and global optimization remain open.
+    The bridge census remains 510 rows: 431 satisfied, ten conditional, 65
+    excluded and four missing. Protected source, ledger, canon and public
+    states do not move.
+
     K1811--K1815 test the complete slab-three continuation without promoting
     an interval failure into a scientific verdict. A centered sixth-order
     full-Fisher Taylor bank at K1787, with analytic whole-line tails and

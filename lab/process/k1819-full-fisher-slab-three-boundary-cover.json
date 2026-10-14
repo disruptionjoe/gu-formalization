@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1819",
+  "status": "active_research",
+  "title": "The calibrated leafwise route preserves every exposed slab-three boundary obligation",
+  "inputs": ["K1804", "K1818"],
+  "certificate": {
+    "input_partition_digest": "0b327f8e6a74d5df3e1b24261d5bccdc24229162043494ad82aaaa7922c1d9c0",
+    "retained_slab_three_leaves": 78,
+    "compact_value_certified_leaf_ids": [0, 1],
+    "compact_value_uncertified_leaf_count": 76,
+    "exposed_atomic_faces": 122,
+    "exposed_boundary_vertices": 122,
+    "certified_exposed_atomic_faces": 0,
+    "certified_exposed_boundary_vertices": 0
+  },
+  "decision": {
+    "complete_stationary_uniqueness_proved": false,
+    "all_slab_three_faces_and_vertices_certified": false,
+    "global_optimizer_proved": false
+  },
+  "scope_guard": "Compact value margins on two leaves do not certify their faces, vertices, stationary structure or the remaining frontier."
+}

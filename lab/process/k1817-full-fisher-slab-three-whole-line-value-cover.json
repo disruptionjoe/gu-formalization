@@ -1,0 +1,94 @@
+{
+  "backend": "python-flint==0.9.0",
+  "certificate": {
+    "completed_parent_count": 1,
+    "completed_parent_ids": [
+      0
+    ],
+    "input_partition_digest": "0b327f8e6a74d5df3e1b24261d5bccdc24229162043494ad82aaaa7922c1d9c0",
+    "order_eight_leaf_zero_compact_margin_positive": true,
+    "parent_count": 17,
+    "parent_zero": {
+      "box": [
+        "887855469/17179869184",
+        "14713917917/274877906944",
+        "73/128",
+        "293/512"
+      ],
+      "certificate": {
+        "anchor": {
+          "t": "265664669701527/5000000000000000",
+          "z": "8805034043103/15625000000000"
+        },
+        "cell_half_width": "1/16",
+        "center": {
+          "t": "28919605421/549755813888",
+          "z": "585/1024"
+        },
+        "compact_bounds": {
+          "a_absolute_upper_lt_2e_minus_7": true,
+          "a_lower": "[1.5917839760881281506866161591372999304e-7 +/- 2.69e-45]",
+          "a_positive": true,
+          "a_upper": "[1.5917876314893023929600503464956528360e-7 +/- 3.30e-46]",
+          "b_upper": "[1.5917887982459695060869771053166318077e-7 +/- 2.29e-45]",
+          "b_upper_positive": true,
+          "cross_margin_lower": "[-2.5128123482744345062666973651783252507e-20 +/- 2.77e-59]",
+          "cross_margin_positive": false
+        },
+        "compact_cell_count": 352,
+        "degree_eight_remainder_bounds": {
+          "A": "[5.8535878483069486988371928928986124249e-16 +/- 4.49e-55]",
+          "B": "[1.4671603840270212196403652993285082012e-18 +/- 1.31e-56]",
+          "L": "[2.5123146317904330128864507048996186683e-20 +/- 6.67e-59]"
+        },
+        "observation_taylor_order": 12,
+        "parameter_taylor_order": 8,
+        "radius": {
+          "t": "508230413/549755813888",
+          "z": "1/1024"
+        },
+        "rectangle": {
+          "t": [
+            "887855469/17179869184",
+            "14713917917/274877906944"
+          ],
+          "z": [
+            "73/128",
+            "293/512"
+          ]
+        },
+        "threshold": "7958932265249/50000000000000000000",
+        "window": "[-11,11]"
+      },
+      "checkpoint_digest": "6c1a0bd83949a684212cd461ed3bd99349b24d01eacc231dbecaf6bc642d8ef5",
+      "claim_id": "K1817",
+      "decision": {
+        "compact_cross_margin_positive": false,
+        "negative_margin_is_counterexample": false
+      },
+      "input_cell": 6,
+      "input_partition_digest": "0b327f8e6a74d5df3e1b24261d5bccdc24229162043494ad82aaaa7922c1d9c0",
+      "parent": 0,
+      "schema_version": "1.0"
+    }
+  },
+  "claim_id": "K1817",
+  "decision": {
+    "complete_whole_line_value_cover": false,
+    "global_optimizer_proved": false,
+    "leaf_subdivision_required": true,
+    "order_eight_parent_zero_compact_margin_positive": false,
+    "parent_scale_sufficient": false
+  },
+  "inputs": [
+    "K1787",
+    "K1794",
+    "K1806",
+    "K1813",
+    "K1816"
+  ],
+  "schema_version": "1.0",
+  "scope_guard": "Raising the order from six to eight reduces the parent remainder but does not certify the parent. The positive order-eight leaf scout in K1816 shows that subdivision, not order alone, is decisive.",
+  "status": "active_research",
+  "title": "Order-eight parent scout isolates subdivision as the decisive certificate scale"
+}

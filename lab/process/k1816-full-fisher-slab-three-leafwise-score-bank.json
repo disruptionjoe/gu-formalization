@@ -1,0 +1,294 @@
+{
+  "backend": "python-flint==0.9.0",
+  "certificate": {
+    "completed_order_seven_leaf_count": 2,
+    "completed_order_seven_leaf_ids": [
+      0,
+      1
+    ],
+    "estimated_remaining_serial_hours": "approximately 23",
+    "fallback_parameter_order": 8,
+    "input_partition_digest": "0b327f8e6a74d5df3e1b24261d5bccdc24229162043494ad82aaaa7922c1d9c0",
+    "leaf_count": 78,
+    "measured_minutes_per_order_seven_leaf": "approximately 18",
+    "order_eight_leaf_zero": {
+      "box": [
+        "887855469/17179869184",
+        "57330980429/1099511627776",
+        "1169/2048",
+        "585/1024"
+      ],
+      "certificate": {
+        "anchor": {
+          "t": "265664669701527/5000000000000000",
+          "z": "8805034043103/15625000000000"
+        },
+        "cell_half_width": "1/16",
+        "center": {
+          "t": "114153730445/2199023255552",
+          "z": "2339/4096"
+        },
+        "compact_bounds": {
+          "a_absolute_upper_lt_2e_minus_7": true,
+          "a_lower": "[1.5917865866533724378065050549268495595e-7 +/- 4.27e-45]",
+          "a_positive": true,
+          "a_upper": "[1.5917874451110909388629797222471663487e-7 +/- 4.50e-45]",
+          "b_upper": "[1.5917884368439824106331672383382228348e-7 +/- 6.02e-46]",
+          "b_upper_positive": true,
+          "cross_margin_lower": "[1.9355631590856617702553816848498834561e-24 +/- 1.45e-62]",
+          "cross_margin_positive": true
+        },
+        "compact_cell_count": 352,
+        "degree_8_remainder_bounds": {
+          "A": "[1.9358212480929991252708811994865509741e-21 +/- 8.99e-60]",
+          "B": "[4.9788888251990827248665279618439057624e-24 +/- 1.63e-62]",
+          "L": "[2.1555519979316907879296440459065876801e-26 +/- 4.60e-65]"
+        },
+        "observation_taylor_order": 12,
+        "parameter_taylor_order": 8,
+        "radius": {
+          "t": "508230413/2199023255552",
+          "z": "1/4096"
+        },
+        "rectangle": {
+          "t": [
+            "887855469/17179869184",
+            "57330980429/1099511627776"
+          ],
+          "z": [
+            "1169/2048",
+            "585/1024"
+          ]
+        },
+        "threshold": "7958932265249/50000000000000000000",
+        "window": "[-11,11]"
+      },
+      "checkpoint_digest": "3616ecbf54579f06c710a5d6fe0327e55557974ff19834bc75388b645dcad65a",
+      "claim_id": "K1816",
+      "decision": {
+        "compact_cross_margin_positive": true,
+        "negative_margin_is_counterexample": false
+      },
+      "input_cell": 6,
+      "input_partition_digest": "0b327f8e6a74d5df3e1b24261d5bccdc24229162043494ad82aaaa7922c1d9c0",
+      "leaf": 0,
+      "parameter_taylor_order": 8,
+      "schema_version": "1.0"
+    },
+    "order_seven_completed_leaves": [
+      {
+        "box": [
+          "887855469/17179869184",
+          "57330980429/1099511627776",
+          "1169/2048",
+          "585/1024"
+        ],
+        "certificate": {
+          "anchor": {
+            "t": "265664669701527/5000000000000000",
+            "z": "8805034043103/15625000000000"
+          },
+          "cell_half_width": "1/16",
+          "center": {
+            "t": "114153730445/2199023255552",
+            "z": "2339/4096"
+          },
+          "compact_bounds": {
+            "a_absolute_upper_lt_2e_minus_7": true,
+            "a_lower": "[1.5917865866519006649823442582011491639e-7 +/- 4.39e-45]",
+            "a_positive": true,
+            "a_upper": "[1.5917874451125627116871405189728667443e-7 +/- 4.17e-45]",
+            "b_upper": "[1.5917884368439862305500005015346994517e-7 +/- 2.56e-45]",
+            "b_upper_positive": true,
+            "cross_margin_lower": "[6.2357805698801135606132127653727497576e-25 +/- 2.98e-63]",
+            "cross_margin_positive": true
+          },
+          "compact_cell_count": 352,
+          "degree_7_remainder_bounds": {
+            "A": "[1.4911310368061560367382310465719830642e-19 +/- 3.55e-57]",
+            "B": "[3.8697060493286071008670567895598993583e-22 +/- 1.91e-60]",
+            "L": "[1.3335406220769896612676479061074926905e-24 +/- 2.97e-62]"
+          },
+          "observation_taylor_order": 12,
+          "parameter_taylor_order": 7,
+          "radius": {
+            "t": "508230413/2199023255552",
+            "z": "1/4096"
+          },
+          "rectangle": {
+            "t": [
+              "887855469/17179869184",
+              "57330980429/1099511627776"
+            ],
+            "z": [
+              "1169/2048",
+              "585/1024"
+            ]
+          },
+          "threshold": "7958932265249/50000000000000000000",
+          "window": "[-11,11]"
+        },
+        "checkpoint_digest": "d0d11c81b2d118974ac9b63a1a98792ff8cc5b4ce8f52ba284d84c7c49437f52",
+        "claim_id": "K1816",
+        "decision": {
+          "compact_cross_margin_positive": true,
+          "negative_margin_is_counterexample": false
+        },
+        "input_cell": 6,
+        "input_partition_digest": "0b327f8e6a74d5df3e1b24261d5bccdc24229162043494ad82aaaa7922c1d9c0",
+        "leaf": 0,
+        "parameter_taylor_order": 7,
+        "schema_version": "1.0"
+      },
+      {
+        "box": [
+          "887855469/17179869184",
+          "57330980429/1099511627776",
+          "585/1024",
+          "1171/2048"
+        ],
+        "certificate": {
+          "anchor": {
+            "t": "265664669701527/5000000000000000",
+            "z": "8805034043103/15625000000000"
+          },
+          "cell_half_width": "1/16",
+          "center": {
+            "t": "114153730445/2199023255552",
+            "z": "2341/4096"
+          },
+          "compact_bounds": {
+            "a_absolute_upper_lt_2e_minus_7": true,
+            "a_lower": "[1.5917864960235072349203065752905294242e-7 +/- 2.81e-45]",
+            "a_positive": true,
+            "a_upper": "[1.5917873573960823298239742505323169068e-7 +/- 2.17e-45]",
+            "b_upper": "[1.5917882614164075549902587242556135618e-7 +/- 3.74e-45]",
+            "b_upper_positive": true,
+            "cross_margin_lower": "[5.6871461287666443403458298396854315003e-25 +/- 3.26e-63]",
+            "cross_margin_positive": true
+          },
+          "compact_cell_count": 352,
+          "degree_7_remainder_bounds": {
+            "A": "[1.4894300985506603569261063751138592730e-19 +/- 3.50e-57]",
+            "B": "[3.8662004040321172568581485615594746044e-22 +/- 3.06e-60]",
+            "L": "[1.3309315190020255300738280897282515205e-24 +/- 3.61e-62]"
+          },
+          "observation_taylor_order": 12,
+          "parameter_taylor_order": 7,
+          "radius": {
+            "t": "508230413/2199023255552",
+            "z": "1/4096"
+          },
+          "rectangle": {
+            "t": [
+              "887855469/17179869184",
+              "57330980429/1099511627776"
+            ],
+            "z": [
+              "585/1024",
+              "1171/2048"
+            ]
+          },
+          "threshold": "7958932265249/50000000000000000000",
+          "window": "[-11,11]"
+        },
+        "checkpoint_digest": "13a9e0a23cd517b37e09f5f617edc29b79e2a41294791c6b84163c24854235d6",
+        "claim_id": "K1816",
+        "decision": {
+          "compact_cross_margin_positive": true,
+          "negative_margin_is_counterexample": false
+        },
+        "input_cell": 6,
+        "input_partition_digest": "0b327f8e6a74d5df3e1b24261d5bccdc24229162043494ad82aaaa7922c1d9c0",
+        "leaf": 1,
+        "parameter_taylor_order": 7,
+        "schema_version": "1.0"
+      }
+    ],
+    "order_six_leaf_zero": {
+      "box": [
+        "887855469/17179869184",
+        "57330980429/1099511627776",
+        "1169/2048",
+        "585/1024"
+      ],
+      "certificate": {
+        "anchor": {
+          "t": "265664669701527/5000000000000000",
+          "z": "8805034043103/15625000000000"
+        },
+        "cell_half_width": "1/16",
+        "center": {
+          "t": "114153730445/2199023255552",
+          "z": "2339/4096"
+        },
+        "compact_bounds": {
+          "a_absolute_upper_lt_2e_minus_7": true,
+          "a_lower": "[1.5917865865412424170035937576647563538e-7 +/- 3.93e-45]",
+          "a_positive": true,
+          "a_upper": "[1.5917874452232209596658910195092595544e-7 +/- 4.15e-45]",
+          "b_upper": "[1.5917884368442764744976525054008495336e-7 +/- 3.80e-45]",
+          "b_upper_positive": true,
+          "cross_margin_lower": "[-7.7208260862578932347487708104429673384e-23 +/- 9.7e-63]",
+          "cross_margin_positive": false
+        },
+        "compact_cell_count": 352,
+        "degree_six_remainder_bounds": {
+          "A": "[1.1214937905304445542959359608615876104e-17 +/- 4.23e-55]",
+          "B": "[2.9411372935609755434694121509107256591e-20 +/- 1.46e-58]",
+          "L": "[7.9165379541664459328366067261496859462e-23 +/- 6.93e-62]"
+        },
+        "observation_taylor_order": 12,
+        "parameter_taylor_order": 6,
+        "radius": {
+          "t": "508230413/2199023255552",
+          "z": "1/4096"
+        },
+        "rectangle": {
+          "t": [
+            "887855469/17179869184",
+            "57330980429/1099511627776"
+          ],
+          "z": [
+            "1169/2048",
+            "585/1024"
+          ]
+        },
+        "threshold": "7958932265249/50000000000000000000",
+        "window": "[-11,11]"
+      },
+      "checkpoint_digest": "cab52f7ae64eb698a22861ecb97d52432a7007b847785035c99dac4dfac1b69c",
+      "claim_id": "K1816",
+      "decision": {
+        "compact_cross_margin_positive": false,
+        "negative_margin_is_counterexample": false
+      },
+      "input_cell": 6,
+      "input_partition_digest": "0b327f8e6a74d5df3e1b24261d5bccdc24229162043494ad82aaaa7922c1d9c0",
+      "leaf": 0,
+      "schema_version": "1.0"
+    },
+    "resume_command": "UV_CACHE_DIR=/private/tmp/uv-cache-gu-science uv run --offline --with python-flint==0.9.0 --with sympy==1.14.0 python tests/channel-swings/k1816_full_fisher_slab_three_leafwise_score_bank.py --resume-bank --parameter-order 7 --summary",
+    "selected_parameter_order": 7
+  },
+  "claim_id": "K1816",
+  "decision": {
+    "complete_compact_leaf_bank_computed": false,
+    "global_optimizer_proved": false,
+    "leafwise_recentering_validated": true,
+    "order_eight_fallback_validated": true,
+    "order_seven_selected_for_production": true,
+    "retained_leaf_means_counterexample": false,
+    "whole_line_composition_separate": true
+  },
+  "inputs": [
+    "K1787",
+    "K1796",
+    "K1806",
+    "K1813"
+  ],
+  "schema_version": "1.0",
+  "scope_guard": "The first two order-seven leaves have strict compact margins. The remaining 76 leaves, whole-line tails, stationary rejection and exposed boundary still require completion before any global promotion.",
+  "status": "active_research",
+  "title": "Leafwise order-seven fixed-score calibration on the slab-three frontier"
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1818",
+  "status": "active_research",
+  "title": "Leafwise order seven is the selected restart-safe slab-three production route",
+  "inputs": ["K1816", "K1817"],
+  "certificate": {
+    "input_partition_digest": "0b327f8e6a74d5df3e1b24261d5bccdc24229162043494ad82aaaa7922c1d9c0",
+    "leaf_count": 78,
+    "selected_parameter_order": 7,
+    "fallback_parameter_order": 8,
+    "completed_leaf_ids": [0, 1],
+    "remaining_leaf_count": 76,
+    "order_seven_margin_lowers": [
+      "[6.2357805698801135606132127653727497576e-25 +/- 2.98e-63]",
+      "[5.6871461287666443403458298396854315003e-25 +/- 3.26e-63]"
+    ],
+    "order_eight_parent_zero_positive": false,
+    "order_eight_leaf_zero_positive": true,
+    "resume_command": "UV_CACHE_DIR=/private/tmp/uv-cache-gu-science uv run --offline --with python-flint==0.9.0 --with sympy==1.14.0 python tests/channel-swings/k1816_full_fisher_slab_three_leafwise_score_bank.py --resume-bank --parameter-order 7 --summary"
+  },
+  "decision": {
+    "leafwise_order_seven_route_selected": true,
+    "order_eight_is_per_leaf_fallback": true,
+    "complete_compact_leaf_bank": false,
+    "analytic_whole_line_tails_composed": false,
+    "complete_stationary_cover": false,
+    "global_optimizer_proved": false
+  },
+  "scope_guard": "Two positive compact leaves validate the route but do not cover the other 76 leaves, compose omitted tails, reject extra stationary points or certify uniqueness."
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1820",
+  "status": "active_research",
+  "title": "Global optimizer promotion remains withheld after successful route calibration",
+  "inputs": ["K1809", "K1819"],
+  "certificate": {
+    "slab_one_excluded": true,
+    "slab_two_excluded": true,
+    "slab_three_retained_leaves": 78,
+    "slab_three_compact_value_certified_leaves": 2,
+    "slab_three_complete_stationary_cover": false,
+    "slab_three_complete_boundary_cover": false
+  },
+  "decision": {
+    "global_optimizer_proved": false,
+    "source_owned_physical_theory": false
+  },
+  "scope_guard": "A positive method calibration is not the complete leaf bank, whole-line composition, stationary/boundary cover or global optimizer theorem."
+}

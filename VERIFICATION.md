@@ -7,6 +7,22 @@ updated_at: "2026-10-13"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1816--K1820 slab-three leafwise calibration wave (2026-10-13)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Sixth-order leafwise recentering closes leaf zero | K1816 normalized Arb jet | false for this order: lower margin `-7.7208261e-23` |
+| Exact leafwise recentering can recover a strict compact sign | K1816 order-seven leaves zero/one and order-eight leaf zero | proved on those two exact leaves |
+| Raising order alone closes a complete K1794 parent | K1817 order-eight parent scout | false for this scale: lower margin `-2.5128123e-20` |
+| The complete 78-leaf compact bank follows from two scouts | K1818 protected composition | not established: 76 leaves remain |
+| Whole-line stationary and exposed-boundary closure follows | K1819 exact composition | not established: tails, 122 faces and 122 vertices remain open |
+| The global optimizer follows | K1820 protected admission | not established |
+
+The selected restart-safe route is order seven per leaf with order eight as a
+local fallback. The committed artifact embeds the first two successful
+certificates and exact resume command. Source, ledger, canon and public states
+do not move.
+
 ## K1811--K1815 slab-three method-limit wave (2026-10-13)
 
 | Claim | Evidence | Honest grade |
