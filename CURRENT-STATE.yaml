@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 5de24838f73f2213d78afdc057592387fcd90448
+revision_basis: 705d506c3878c4fac4353bcff62dc787c8370f42
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1811--K1815 test the complete slab-three continuation without promoting
+    an interval failure into a scientific verdict. A centered sixth-order
+    full-Fisher Taylor bank at K1787, with analytic whole-line tails and
+    separate derivative enclosures on all seventeen exact K1794 parents,
+    rejects zero of K1796's 78 leaves by gradient, certifies convexity on zero
+    and separates zero by value. The structurally better fixed-score Cauchy
+    witness is then tested on the first exact parent at a safe upper threshold
+    for K1787's stationary value. Its compact `A` remains positive, but the
+    cross-margin lower endpoint is `-5.4987565384e-18`, explained almost
+    entirely by the `5.4987515613e-18` absolute sixth-order remainder. These
+    are method limits, not counterexamples. All 78 leaves, 122 exposed atomic
+    faces and 122 exposed boundary vertices remain open; global optimization
+    stays withheld. The next exact route is restart-safe leafwise recentering
+    or higher parameter order, retaining analytic tails and the exact atlas.
+    The bridge census remains 510 rows: 431 satisfied, ten conditional, 65
+    excluded and four missing. Protected source, ledger, canon and public
+    states do not move.
+
     K1806--K1810 turn K1805's positive full-Fisher complement into a complete
     slab-two theorem. Fixing the K1788 score gives a Cauchy witness
     `J B >= A^2`; the varying mixture denominator cancels from `A` and occurs
@@ -15683,6 +15701,16 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K1811--K1815 show that both a direct centered sixth-order full-Fisher bank on
+  all seventeen exact slab-three parents and the straightforward sixth-order
+  K1787-score witness on the first parent are interval-indeterminate. Can
+  restart-safe leafwise recentering or a higher parameter order reduce the
+  fixed-score remainder enough to certify the 78 leaves and their exposed
+  geometry, while a complete interval-Newton/Krawczyk cover proves that
+  K1787's isolated point is the only stationary component? The negative lower
+  endpoint is a method limit, not a counterexample. No scalar trial law is a
+  source-owned physical state or unrestricted infimum.
+
   K1806--K1810 exclude the complete slab-two full-Fisher sublevel by a fixed
   K1788-score Cauchy witness, centered sixth-order compact Taylor certificate
   and analytic whole-line tails. Can the same construction, now anchored at
@@ -18618,6 +18646,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve K1811 and K1812 as complete negative results about one direct
+  sixth-order certificate method, not evidence for additional stationary
+  points. Preserve K1813's negative lower endpoint as an absolute-remainder
+  failure, not a negative true margin. Preserve K1814's full 78-leaf and
+  exposed-boundary obligations and K1815's withheld global admission. Next
+  recenter the fixed K1787-score witness leafwise with restart-safe
+  checkpoints, or raise parameter order on exact parents, compose every
+  compact result with analytic whole-line tails, and combine the value bank
+  with complete Krawczyk/face coverage before promotion. No source-owned
+  Hamiltonian, physical state, observation, prediction or admission follows.
+
   Preserve K1806 as a variational lower bound, not equality away from its
   anchor. Preserve K1807's strict sixth-order result as a compact-window
   rectangle theorem and K1808 as the required analytic whole-line tail

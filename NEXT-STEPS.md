@@ -7,6 +7,20 @@ updated_at: "2026-10-13"
 
 # Next Steps For Contributors
 
+> **2026-10-13 K1811--K1815 SLAB-THREE METHOD-LIMIT WAVE.** A centered
+> sixth-order full-Fisher Taylor bank at K1787, with analytic whole-line tails
+> and seventeen exact K1794 parent derivative hulls, remains indeterminate on
+> all 78 slab-three leaves for gradient rejection, convexity and value
+> separation. The cancellation-aware fixed-score witness on the first parent
+> also remains indeterminate: its cross-margin lower endpoint is
+> `-5.4987565384e-18`, almost exactly the `5.4987515613e-18` absolute
+> sixth-order remainder. These are method limits, not counterexamples. Next
+> recenter the fixed-score jet leafwise with restart-safe checkpoints or raise
+> parameter order on exact parents, retaining the analytic tail composition
+> and exact exposed-boundary atlas. Do not promote the negative enclosure to
+> another stationary point, a failed optimizer conjecture or source-owned
+> physics.
+
 > **2026-10-13 K1806--K1810 ANCHORED-SCORE WHOLE-LINE WAVE.**
 > Fixing the K1788 boundary-KKT score converts full Fisher into the Cauchy
 > lower witness `A^2/B` and cancels the varying density denominator from `A`.

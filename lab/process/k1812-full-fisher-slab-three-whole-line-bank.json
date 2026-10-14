@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1812",
+  "status": "active_research",
+  "title": "The complete sixth-order whole-line stationary bank retains every slab-three leaf",
+  "inputs": ["K1811"],
+  "certificate": {
+    "input_partition_digest": "0b327f8e6a74d5df3e1b24261d5bccdc24229162043494ad82aaaa7922c1d9c0",
+    "leaf_count": 78,
+    "rejected_leaf_count": 0,
+    "retained_leaf_count": 78,
+    "retained_leaf_range": "0-77",
+    "analytic_whole_line_tails_composed": true,
+    "method_limit": "The centered sixth-order full-Fisher Taylor bank is interval-indeterminate on all 78 leaves even after narrowing sixth-derivative domains to the seventeen exact K1794 parents."
+  },
+  "decision": {
+    "retained_leaf_means_additional_stationary_point": false,
+    "complete_stationary_uniqueness_proved": false,
+    "global_optimizer_proved": false
+  },
+  "scope_guard": "The bank closes one proposed direct method, not the underlying stationary-uniqueness question."
+}

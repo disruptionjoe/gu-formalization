@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1811",
+  "status": "active_research",
+  "title": "A sixth-order full-Fisher Taylor bank remains indeterminate on all 78 slab-three leaves",
+  "inputs": ["K1781", "K1786", "K1787", "K1796", "K1804"],
+  "certificate": {
+    "input_partition_digest": "0b327f8e6a74d5df3e1b24261d5bccdc24229162043494ad82aaaa7922c1d9c0",
+    "leaf_count": 78,
+    "anchor": {"t": "265664669701527/5000000000000000", "z": "8805034043103/15625000000000"},
+    "stationary_value_upper_threshold": "7958932265249/50000000000000000000",
+    "hull": {"t": ["887855469/17179869184", "60380362907/1099511627776"], "z": ["283/512", "591/1024"]},
+    "parameter_taylor_order": 6,
+    "k1794_parent_count": 17,
+    "whole_line_tail_method": "one K1786 analytic value-gradient-Hessian tail ball on the complete slab-three hull",
+    "rejected_leaf_count": 0,
+    "convex_leaf_count": 0,
+    "value_separated_leaf_count": 0,
+    "retained_leaf_count": 78,
+    "nonconvex_leaf_count": 78,
+    "value_unseparated_leaf_count": 78,
+    "method_limit": "The centered sixth-order full-Fisher Taylor bank is interval-indeterminate on all 78 leaves even after narrowing sixth-derivative domains to the seventeen exact K1794 parents."
+  },
+  "decision": {
+    "analytic_whole_line_tails_composed": true,
+    "retained_leaf_means_additional_stationary_point": false,
+    "complete_stationary_uniqueness_proved": false,
+    "global_optimizer_proved": false
+  },
+  "scope_guard": "Indeterminacy is a certificate-method limit, not evidence for another stationary component or against the optimizer."
+}

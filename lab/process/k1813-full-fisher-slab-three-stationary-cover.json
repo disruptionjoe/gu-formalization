@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1813",
+  "status": "active_research",
+  "title": "The K1787 fixed-score sixth-order parent certificate is quantitatively indeterminate",
+  "inputs": ["K1787", "K1806", "K1807"],
+  "certificate": {
+    "rectangle": {"t": ["887855469/17179869184", "14713917917/274877906944"], "z": ["73/128", "293/512"]},
+    "anchor": {"t": "265664669701527/5000000000000000", "z": "8805034043103/15625000000000"},
+    "threshold": "7958932265249/50000000000000000000",
+    "compact_bounds": {
+      "a_lower": "[1.5917819585556994847851084852064214750e-7 +/- 4.22e-45]",
+      "a_upper": "[1.5917896490217310588615580204265312914e-7 +/- 1.21e-45]",
+      "b_upper": "[1.5917888034127954190224252558162688233e-7 +/- 2.32e-45]",
+      "cross_margin_lower": "[-5.4987565384168118926758439860591802634e-18 +/- 3.41e-56]",
+      "a_positive": true,
+      "a_absolute_upper_lt_2e_minus_7": true,
+      "b_upper_positive": true,
+      "cross_margin_positive": false
+    },
+    "degree_six_remainder_bounds": {
+      "A": "[2.0233860166569534520610129885403379437e-13 +/- 3.21e-51]",
+      "B": "[5.1814978051243914983470567392191252639e-16 +/- 1.44e-54]",
+      "L": "[5.4987515612520550854815467691322387091e-18 +/- 4.44e-56]"
+    }
+  },
+  "decision": {
+    "sixth_order_parent_certificate_indeterminate": true,
+    "negative_margin_is_counterexample": false,
+    "leafwise_recentering_or_higher_order_required": true,
+    "global_optimizer_proved": false
+  },
+  "scope_guard": "The negative lower endpoint is created by the absolute sixth-order remainder. It does not prove a negative true margin."
+}

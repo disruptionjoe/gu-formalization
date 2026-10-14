@@ -7,6 +7,22 @@ updated_at: "2026-10-13"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1811--K1815 slab-three method-limit wave (2026-10-13)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A direct sixth-order full-Fisher Taylor bank closes the 78 leaves | K1811 seventeen-parent Arb bank plus K1786 tails | false for this method: zero leaves are rejected, convexity-certified or value-separated |
+| A retained interval leaf proves another stationary point | K1811/K1812 protected interpretation | false: retention is only interval indeterminacy |
+| The K1787 fixed-score witness closes a whole K1794 parent at sixth order | K1813 normalized Arb jet | not established: lower margin `-5.4987565e-18` |
+| The negative endpoint is a counterexample | K1813 remainder audit | false: the absolute sixth-order remainder is `5.4987516e-18` |
+| Slab-three stationary and exposed-boundary closure follows | K1814 exact composition | not established: 78 leaves, 122 exposed faces and 122 exposed vertices remain |
+| The global optimizer follows | K1815 protected admission | not established |
+
+The bridge census remains 510 rows: 431 satisfied, ten conditional, 65
+excluded and four missing. Source, ledger, canon and public states do not move.
+The five producers pass `38/38` controls and the five hostile probes reject
+`15/15` mutations.
+
 ## K1806--K1810 anchored-score whole-line wave (2026-10-13)
 
 | Claim | Evidence | Honest grade |

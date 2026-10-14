@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1814",
+  "status": "active_research",
+  "title": "Slab-three stationary and exposed-boundary closure remains open at sixth order",
+  "inputs": ["K1804", "K1812", "K1813"],
+  "certificate": {
+    "slab_three_leaf_count": 78,
+    "stationary_rejected_leaves": 0,
+    "retained_leaves": 78,
+    "deduplicated_exposed_atomic_faces_total": 122,
+    "deduplicated_exposed_boundary_vertices_total": 122,
+    "first_parent_fixed_score_margin_lower": "[-5.4987565384168118926758439860591802634e-18 +/- 3.41e-56]",
+    "first_parent_margin_certified_positive": false
+  },
+  "decision": {
+    "complete_stationary_uniqueness_proved": false,
+    "all_slab_three_faces_and_vertices_certified": false,
+    "negative_margin_is_counterexample": false,
+    "global_optimizer_proved": false
+  },
+  "next_gate": "Recenter fixed-score jets leafwise or raise parameter order with restart-safe per-parent checkpoints; then reuse the same whole-line tail and exact atlas composition.",
+  "scope_guard": "No retained leaf, face or vertex is silently certified by an indeterminate parent bound."
+}

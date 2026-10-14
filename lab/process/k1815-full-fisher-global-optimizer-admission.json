@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1815",
+  "status": "active_research",
+  "title": "Global optimizer promotion remains withheld after the slab-three sixth-order method test",
+  "inputs": ["K1809", "K1814"],
+  "certificate": {
+    "slab_one_excluded": true,
+    "slab_two_excluded": true,
+    "slab_three_retained_leaves": 78,
+    "slab_three_complete_stationary_uniqueness": false,
+    "slab_three_complete_boundary_cover": false
+  },
+  "decision": {
+    "global_optimizer_proved": false,
+    "source_owned_physical_theory": false
+  },
+  "scope_guard": "A failed certificate method is neither a failed optimizer conjecture nor permission to promote it."
+}
