@@ -15,13 +15,17 @@ supersedes the historical aggregate embedded in the long directory table.
 - K1819 exposed-boundary status composition and hostile probe.
 - K1820 protected global-optimizer admission and hostile probe.
 
-K1816 proves strict compact fixed-score margins on the first two exact leaves
-at order seven and validates order eight as a per-leaf fallback. K1817 proves
-that order eight on the complete first parent remains interval-indeterminate,
-so exact subdivision is decisive. The remaining 76 leaves, whole-line tails,
-stationary rejection, exposed boundary and global theorem stay open. K1816 and
-K1817 use `uv run --with python-flint==0.9.0 --with sympy==1.14.0 python`;
-the three compositions use standard Python.
+K1816 now embeds the complete uniform order-eight bank: 26 exact leaves have
+strict positive compact fixed-score margins and the contiguous block `13--64`
+is method-indeterminate with zero counterexample flags. Configuration-bound
+fallback scouts show that higher observation order and targeted t/z
+subdivision approach zero but are ill-conditioned; the exact leaf-53
+lower-t/mid-z point remains strictly positive by `8.2260790157e-29`. K1817
+also proves that order eight on the complete first parent remains
+interval-indeterminate. Whole-line tails, stationary/gradient rejection,
+exposed boundary and the global theorem stay open. K1816 and K1817 use
+`uv run --with python-flint==0.9.0 --with sympy==1.14.0 python`; the three
+compositions use standard Python.
 
 ## K1811--K1815 slab-three method-limit wave
 

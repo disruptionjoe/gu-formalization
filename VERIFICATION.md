@@ -2,26 +2,28 @@
 title: "Verification: What Is Proved, Computed, and Conjectural"
 status: process
 doc_type: verification-map
-updated_at: "2026-10-13"
+updated_at: "2026-10-14"
 ---
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
-## K1816--K1820 slab-three leafwise calibration wave (2026-10-13)
+## K1816--K1820 slab-three leafwise calibration wave (2026-10-14)
 
 | Claim | Evidence | Honest grade |
 | --- | --- | --- |
 | Sixth-order leafwise recentering closes leaf zero | K1816 normalized Arb jet | false for this order: lower margin `-7.7208261e-23` |
-| Exact leafwise recentering can recover a strict compact sign | K1816 order-seven leaves zero/one and order-eight leaf zero | proved on those two exact leaves |
+| Exact leafwise recentering can recover a strict compact sign | K1816 complete uniform order-eight bank | proved on 26 exact leaves: `0--12` and `65--77` |
 | Raising order alone closes a complete K1794 parent | K1817 order-eight parent scout | false for this scale: lower margin `-2.5128123e-20` |
-| The complete 78-leaf compact bank follows from two scouts | K1818 protected composition | not established: 76 leaves remain |
-| Whole-line stationary and exposed-boundary closure follows | K1819 exact composition | not established: tails, 122 faces and 122 vertices remain open |
+| The complete 78-leaf uniform bank is computed | K1816 atomic configuration-bound checkpoints and tracked artifact | proved; leaves `13--64` are method-indeterminate, not counterexamples |
+| Higher observation order or shallow t/z subdivision closes worst leaf 53 | K1816 fallback scouts | false for the tested configurations; the exact lower-t/mid-z point is nevertheless positive by `8.2260790e-29` |
+| The complete compact value cover follows from the bank | K1818 protected composition | not established: 52 leaves require another route |
+| Whole-line stationary and exposed-boundary closure follows | K1819 exact composition | not established: tail composition, stationary/gradient rejection, 122 faces and 122 vertices remain open |
 | The global optimizer follows | K1820 protected admission | not established |
 
-The selected restart-safe route is order seven per leaf with order eight as a
-local fallback. The committed artifact embeds the first two successful
-certificates and exact resume command. Source, ledger, canon and public states
-do not move.
+The committed artifact embeds every uniform certificate and digest plus the
+leaf-53 fallback scouts. The selected next route composes analytic tails and
+prioritizes stationary/gradient rejection over deeper fixed-witness value
+subdivision. Source, ledger, canon and public states do not move.
 
 ## K1811--K1815 slab-three method-limit wave (2026-10-13)
 

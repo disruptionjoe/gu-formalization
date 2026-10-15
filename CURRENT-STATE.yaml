@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 705d506c3878c4fac4353bcff62dc787c8370f42
+revision_basis: 83d7905d37664fcfc5017f6ff53b365795f68968
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,18 +35,16 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
-    K1816--K1820 validate the exact route past the prior slab-three
-    sixth-order method limit without promoting a partial bank. Atomic,
-    digest-checked fixed-score checkpoints on the first K1796 leaf show a
-    sixth-order lower margin of `-7.7208260863e-23`, an order-seven strict
-    positive margin of `6.2357805699e-25` and an order-eight strict positive
-    margin of `1.9355631591e-24`. A second exact leaf is also positive at order
-    seven, with margin `5.6871461288e-25`. In contrast, order eight on the
-    complete first K1794 parent remains indeterminate at
-    `-2.5128123483e-20`; subdivision is decisive. Order seven is selected for
-    the production bank, with order eight as a per-leaf fallback. Two of 78
-    leaves are complete and 76 remain; measured throughput implies about 23
-    serial hours. Whole-line tail composition, stationary rejection, 122
+    K1816 completes the uniform order-eight, observation-order-fourteen,
+    88-cell fixed-score bank on all 78 exact slab-three leaves. Exactly 26
+    leaves (`0--12`, `65--77`) have strict positive compact margins; leaves
+    `13--64` are method-indeterminate with zero counterexample flags. Leaf 53
+    is worst at `-9.2561445289e-25`. Observation order sixteen and targeted
+    t/z subdivisions approach zero without closing the box, while the exact
+    lower-t/mid-z rational point is strictly positive by only
+    `8.2260790157e-29`. The fixed witness is viable but ill-conditioned for
+    deeper value subdivision, so analytic-tail composition and
+    stationary/gradient rejection now dominate. Whole-line closure, 122
     exposed faces, 122 exposed vertices and global optimization remain open.
     The bridge census remains 510 rows: 431 satisfied, ten conditional, 65
     excluded and four missing. Protected source, ledger, canon and public

@@ -2,48 +2,45 @@
 title: "K1816--K1820 full-Fisher slab-three leafwise calibration wave"
 status: active_research
 doc_type: exploration
-updated_at: "2026-10-13"
+updated_at: "2026-10-14"
 ---
 
-# K1816--K1820: leafwise recentering restores a strict compact margin
+# K1816--K1820: the complete leafwise bank isolates a fixed-witness method limit
 
 ## Result
 
-K1816 implements atomic, digest-checked checkpoints for the fixed K1787-score
-Cauchy witness on each of K1796's 78 exact slab-three leaves. On leaf zero,
-sixth order remains indeterminate: its compact cross-margin lower endpoint is
-`-7.7208260863e-23`, with an absolute degree-six remainder
-`7.9165379542e-23`. Raising the same leaf to order eight proves a strict
-positive compact margin `1.9355631591e-24`; its degree-eight remainder is only
-`2.1555519979e-26`.
+K1816 now contains the complete atomic, digest-checked fixed K1787-score bank
+on all 78 exact K1796 slab-three leaves. The selected uniform configuration is
+parameter order eight, observation order fourteen and 88 rational observation
+cells of half-width `1/4`. It proves strict compact margins on exactly 26
+leaves: `0--12` and `65--77`. The contiguous block `13--64` is
+method-indeterminate, with zero counterexample flags. The worst uniform lower
+endpoint occurs on leaf 53 at `-9.2561445289e-25`.
 
-The cheaper order-seven route also succeeds. Leaves zero and one have strict
-compact lower margins `6.2357805699e-25` and `5.6871461288e-25`, with
-degree-seven remainders `1.3335406221e-24` and `1.3309315190e-24`. K1817's
-independent order-eight test on the complete first K1794 parent remains
-indeterminate at `-2.5128123483e-20`, so higher order without subdivision is
-not enough. The decisive scale change is exact leafwise recentering.
+The completed bank changes the route. Raising leaf 53 to observation order
+sixteen improves its lower endpoint to `-4.1152250086e-25` but does not close
+it. Exact t-only, z-only, depth-two, depth-three and targeted t-by-z scouts
+drive the enclosure toward zero while remaining indeterminate. At the exact
+rational lower-t/mid-z point, however, the same fixed witness has a strictly
+positive margin `8.2260790157e-29`. Thus the negative box endpoints are still
+certificate-method limits, not counterexamples, but the vanishingly small
+point margin makes deeper value subdivision computationally dominated.
 
-K1818 therefore selects order seven for the restart-safe production bank and
-reserves order eight as a per-leaf fallback. The serial backend measured about
-18 minutes per order-seven leaf. Two leaves are complete and 76 remain, an
-estimated 23 serial hours. The ignored local checkpoints survive interruption;
-the committed K1816 artifact embeds every completed certificate and digest.
-
-This is a successful method calibration, not a complete value cover. Analytic
-whole-line tails have not yet been composed with all leaves; complete
-interval-Newton/Krawczyk rejection and K1804's 122 exposed atomic faces and 122
-exposed vertices remain open. K1819 and K1820 preserve those obligations and
-withhold stationary uniqueness, global optimality, unrestricted scope and
-source-owned physics.
+The tracked K1816 artifact embeds all 78 uniform certificates and digests plus
+the configuration-bound leaf-53 route scouts. The next useful route is to
+compose the existing analytic whole-line tails and prioritize complete
+stationary/gradient rejection of the 52-leaf block before spending further on
+fixed-witness value subdivision. K1804's 122 exposed atomic faces and 122
+exposed vertices remain open. Stationary uniqueness, global optimality,
+unrestricted scope and source-owned physics remain withheld.
 
 ## Exact resume
 
 ```bash
-UV_CACHE_DIR=/private/tmp/uv-cache-gu-science uv run --offline --with python-flint==0.9.0 --with sympy==1.14.0 python tests/channel-swings/k1816_full_fisher_slab_three_leafwise_score_bank.py --resume-bank --parameter-order 7 --summary
+UV_CACHE_DIR=/private/tmp/uv-cache-gu-science uv run --offline --with python-flint==0.9.0 --with sympy==1.14.0 python tests/channel-swings/k1816_full_fisher_slab_three_leafwise_score_bank.py --resume-bank --parameter-order 8 --cell-half-width 1/4 --observation-order 14 --summary
 ```
 
-Any order-seven leaf without a strict positive margin switches locally to
-order eight. Completion of the compact bank then wakes analytic tail
-composition, stationary rejection outside K1787's local box, exposed-boundary
-closure and only then protected global admission.
+The bank is complete and reuses every configuration-bound checkpoint. The
+52-leaf indeterminate block now wakes analytic tail composition and
+stationary/gradient rejection outside K1787's local box. Exposed-boundary
+closure and protected global admission remain downstream.

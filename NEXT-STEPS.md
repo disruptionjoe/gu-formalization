@@ -2,21 +2,23 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-10-13"
+updated_at: "2026-10-14"
 ---
 
 # Next Steps For Contributors
 
-> **2026-10-13 K1816--K1820 SLAB-THREE LEAFWISE CALIBRATION WAVE.** Exact
-> fixed-score recentering succeeds on the first two K1796 leaves at parameter
-> order seven, with strict compact lower margins `6.2357805699e-25` and
-> `5.6871461288e-25`. Order eight also succeeds on leaf zero but remains
-> indeterminate on the complete first K1794 parent, proving that subdivision is
-> decisive. Resume the atomic order-seven bank from leaf two with the K1816
-> command; switch only a failed leaf to order eight. After all 78 leaves pass,
-> compose analytic tails, complete stationary/Krawczyk rejection and close all
-> 122 exposed faces and 122 vertices. Do not promote two positive leaves to a
-> complete cover, uniqueness, global optimality or source-owned physics.
+> **2026-10-14 K1816 COMPLETE LEAFWISE BANK AND FALLBACK DISCRIMINATORS.**
+> The uniform order-eight, observation-order-fourteen, 88-cell bank is complete
+> on all 78 K1796 leaves. Exactly 26 leaves (`0--12`, `65--77`) have strict
+> positive compact fixed-score margins; leaves `13--64` remain
+> method-indeterminate and are not counterexamples. Leaf 53 is worst at
+> `-9.2561445289e-25`; observation order sixteen, dyadic t/z subdivisions and
+> targeted grids remain indeterminate, while the exact lower-t/mid-z point is
+> strictly positive by only `8.2260790157e-29`. Deeper fixed-witness value
+> subdivision is therefore dominated. Next compose the existing analytic tails
+> and execute stationary/gradient rejection on the 52-leaf block, then close
+> all 122 exposed faces and 122 vertices. Do not promote the complete bank to a
+> complete value cover, uniqueness, global optimality or source-owned physics.
 
 > **2026-10-13 K1811--K1815 SLAB-THREE METHOD-LIMIT WAVE.** A centered
 > sixth-order full-Fisher Taylor bank at K1787, with analytic whole-line tails
