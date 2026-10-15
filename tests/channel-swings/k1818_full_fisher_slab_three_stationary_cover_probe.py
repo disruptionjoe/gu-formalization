@@ -20,8 +20,11 @@ mutations = [
         lambda data: data["certificate"].__setitem__("invalidated_checkpoint_count", 0),
     ),
     (
-        "reuse withdrawn exclusions",
-        lambda data: data["decision"].__setitem__("stationary_rejected_leaf_count", 10),
+        "misstate stationary exclusions",
+        lambda data: data["decision"].__setitem__(
+            "stationary_rejected_leaf_count",
+            data["decision"]["stationary_rejected_leaf_count"] + 1,
+        ),
     ),
     (
         "invent stationary cover",

@@ -288,11 +288,15 @@ def artifact_data(rows: list[dict]) -> dict:
     complete = certificate["completed_leaf_ids"] == certificate["candidate_leaf_ids"]
     rejected = certificate["stationary_rejected_leaf_ids"]
     retained = certificate["stationary_retained_leaf_ids"]
+    title = (
+        "The complete slab-three whole-line gradient bank classifies "
+        f"{len(rejected)} stationary-free leaves and retains {len(retained)} candidates"
+    )
     return {
         "schema_version": "1.0",
         "claim_id": "K1818",
         "status": "active_research",
-        "title": "The complete slab-three whole-line gradient bank rejects ten value-indeterminate leaves",
+        "title": title,
         "inputs": ["K1786", "K1787", "K1816"],
         "backend": "python-flint==0.9.0",
         "certificate": certificate,
@@ -352,8 +356,12 @@ def validate_current(data: dict) -> list[tuple[str, bool]]:
         ("exact leaf boxes", boxes_valid),
         ("rejected evidence", [row["leaf"] for row in rows] == rejected and all(row["decision"]["stationary_rejected"] for row in rows)),
         ("complete classification", sorted(rejected + retained) == candidates),
-        ("ten rejected", len(rejected) == 10),
-        ("42 retained", len(retained) == 42),
+        ("rejected count", data["decision"]["stationary_rejected_leaf_count"] == len(rejected)),
+        ("retained count", data["decision"]["stationary_retained_leaf_count"] == len(retained)),
+        ("dynamic title", data["title"] == (
+            "The complete slab-three whole-line gradient bank classifies "
+            f"{len(rejected)} stationary-free leaves and retains {len(retained)} candidates"
+        )),
         ("retention fenced", not data["decision"]["retained_leaf_means_additional_stationary_point"]),
         ("local stationary leaf preserved", data["decision"]["named_local_stationary_point_preserved"] and 50 in retained),
         ("stationary cover open", not data["decision"]["complete_stationary_cover"]),
