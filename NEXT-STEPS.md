@@ -7,18 +7,17 @@ updated_at: "2026-10-14"
 
 # Next Steps For Contributors
 
-> **2026-10-14 K1816 COMPLETE LEAFWISE BANK AND FALLBACK DISCRIMINATORS.**
-> The uniform order-eight, observation-order-fourteen, 88-cell bank is complete
-> on all 78 K1796 leaves. Exactly 26 leaves (`0--12`, `65--77`) have strict
-> positive compact fixed-score margins; leaves `13--64` remain
-> method-indeterminate and are not counterexamples. Leaf 53 is worst at
-> `-9.2561445289e-25`; observation order sixteen, dyadic t/z subdivisions and
-> targeted grids remain indeterminate, while the exact lower-t/mid-z point is
-> strictly positive by only `8.2260790157e-29`. Deeper fixed-witness value
-> subdivision is therefore dominated. Next compose the existing analytic tails
-> and execute stationary/gradient rejection on the 52-leaf block, then close
-> all 122 exposed faces and 122 vertices. Do not promote the complete bank to a
-> complete value cover, uniqueness, global optimality or source-owned physics.
+> **2026-10-14 K1816--K1818 COMPLETE VALUE AND GRADIENT BANKS.**
+> K1816 certifies strict compact fixed-score margins on 26 of 78 exact leaves.
+> K1818 composes K1786 analytic gradient/Hessian tails on all 52 remaining
+> leaves and rigorously rejects stationarity on ten: `13`, `27--28`, `39--42`,
+> `52--53`, and `64`. Forty-two leaves remain method-indeterminate; retained
+> leaf 50 contains K1787's known local stationary box. Next adaptively
+> subdivide the retained gradient boxes or apply cancellation-aware interval
+> Newton/Krawczyk, composing the unique local box explicitly. Then close all
+> 122 exposed faces and 122 vertices. Do not promote retention to another
+> stationary point, complete uniqueness, global optimality or source-owned
+> physics.
 
 > **2026-10-13 K1811--K1815 SLAB-THREE METHOD-LIMIT WAVE.** A centered
 > sixth-order full-Fisher Taylor bank at K1787, with analytic whole-line tails

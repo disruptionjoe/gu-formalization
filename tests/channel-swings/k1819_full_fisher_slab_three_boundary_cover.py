@@ -14,11 +14,18 @@ def load(name):
 def compute():
     atlas = load("k1804-full-fisher-deduplicated-boundary-atlas")
     cover = load("k1818-full-fisher-slab-three-stationary-cover")
+    certificate = cover["certificate"]
+    all_leaf_ids = list(range(atlas["certificate"]["by_slab"]["3"]))
+    value_certified = [
+        leaf_id for leaf_id in all_leaf_ids
+        if leaf_id not in certificate["candidate_leaf_ids"]
+    ]
     return {
         "input_partition_digest": atlas["certificate"]["input_partition_digest"],
         "retained_slab_three_leaves": atlas["certificate"]["by_slab"]["3"],
-        "compact_value_certified_leaf_ids": cover["certificate"]["completed_leaf_ids"],
-        "compact_value_uncertified_leaf_count": cover["certificate"]["remaining_leaf_count"],
+        "compact_value_certified_leaf_ids": value_certified,
+        "whole_line_stationary_rejected_leaf_ids": certificate["stationary_rejected_leaf_ids"],
+        "whole_line_stationary_retained_leaf_ids": certificate["stationary_retained_leaf_ids"],
         "exposed_atomic_faces": atlas["certificate"]["exposed_atomic_faces"],
         "exposed_boundary_vertices": atlas["certificate"]["exposed_boundary_vertices"],
         "certified_exposed_atomic_faces": 0,
@@ -34,6 +41,9 @@ def validate(data, got=None):
         ("exact replay", data["certificate"] == got),
         ("78 leaves", got["retained_slab_three_leaves"] == 78),
         ("boundary census", got["exposed_atomic_faces"] == 122 and got["exposed_boundary_vertices"] == 122),
+        ("26 value leaves", len(got["compact_value_certified_leaf_ids"]) == 26),
+        ("ten stationary rejections", len(got["whole_line_stationary_rejected_leaf_ids"]) == 10),
+        ("42 stationary retained", len(got["whole_line_stationary_retained_leaf_ids"]) == 42),
         ("no invented boundary closure", got["certified_exposed_atomic_faces"] == 0 and got["certified_exposed_boundary_vertices"] == 0),
         ("boundary open", not data["decision"]["all_slab_three_faces_and_vertices_certified"]),
         ("global withheld", not data["decision"]["global_optimizer_proved"]),

@@ -11,8 +11,8 @@ supersedes the historical aggregate embedded in the long directory table.
 
 - K1816 restart-safe order-six/seven/eight leaf calibration and hostile probe.
 - K1817 order-eight exact-parent scale scout and hostile probe.
-- K1818 production-route composition and hostile probe.
-- K1819 exposed-boundary status composition and hostile probe.
+- K1818 complete whole-line gradient/Hessian-tail bank and hostile probe.
+- K1819 residual stationary and exposed-boundary status composition and hostile probe.
 - K1820 protected global-optimizer admission and hostile probe.
 
 K1816 now embeds the complete uniform order-eight bank: 26 exact leaves have
@@ -22,10 +22,11 @@ fallback scouts show that higher observation order and targeted t/z
 subdivision approach zero but are ill-conditioned; the exact leaf-53
 lower-t/mid-z point remains strictly positive by `8.2260790157e-29`. K1817
 also proves that order eight on the complete first parent remains
-interval-indeterminate. Whole-line tails, stationary/gradient rejection,
-exposed boundary and the global theorem stay open. K1816 and K1817 use
-`uv run --with python-flint==0.9.0 --with sympy==1.14.0 python`; the three
-compositions use standard Python.
+interval-indeterminate. K1818 composes analytic whole-line derivative tails on
+all 52 value-indeterminate leaves, rejects stationarity on ten and retains 42
+as method-indeterminate. Exposed boundary, complete uniqueness and the global
+theorem stay open. K1816--K1818 use `uv run --with python-flint==0.9.0 --with
+sympy==1.14.0 python`; K1819--K1820 use standard Python.
 
 ## K1811--K1815 slab-three method-limit wave
 

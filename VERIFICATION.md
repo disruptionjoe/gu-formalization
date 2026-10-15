@@ -16,14 +16,17 @@ updated_at: "2026-10-14"
 | Raising order alone closes a complete K1794 parent | K1817 order-eight parent scout | false for this scale: lower margin `-2.5128123e-20` |
 | The complete 78-leaf uniform bank is computed | K1816 atomic configuration-bound checkpoints and tracked artifact | proved; leaves `13--64` are method-indeterminate, not counterexamples |
 | Higher observation order or shallow t/z subdivision closes worst leaf 53 | K1816 fallback scouts | false for the tested configurations; the exact lower-t/mid-z point is nevertheless positive by `8.2260790e-29` |
-| The complete compact value cover follows from the bank | K1818 protected composition | not established: 52 leaves require another route |
-| Whole-line stationary and exposed-boundary closure follows | K1819 exact composition | not established: tail composition, stationary/gradient rejection, 122 faces and 122 vertices remain open |
+| The complete compact value cover follows from the bank | K1816 fallback discriminators | not established: 52 leaves require another route |
+| The complete whole-line gradient bank is computed | K1818 atomic checkpoints plus K1786 analytic tails | proved; ten leaves are stationary-free and 42 remain method-indeterminate |
+| A retained gradient leaf proves another stationary point | K1818 protected interpretation | false; retained leaf 50 contains the known K1787 local box, and every other retention is method indeterminacy only |
+| Whole-line stationary and exposed-boundary closure follows | K1819 exact composition | not established: 42 gradient boxes, 122 faces and 122 vertices remain open |
 | The global optimizer follows | K1820 protected admission | not established |
 
-The committed artifact embeds every uniform certificate and digest plus the
-leaf-53 fallback scouts. The selected next route composes analytic tails and
-prioritizes stationary/gradient rejection over deeper fixed-witness value
-subdivision. Source, ledger, canon and public states do not move.
+The committed artifacts preserve the complete value bank, its fallback scouts,
+all 52 stationary-checkpoint digests and the full ten-leaf rejection evidence.
+The selected next route adaptively subdivides the 42 retained gradient boxes or
+applies interval Newton while composing K1787's local box. Source, ledger,
+canon and public states do not move.
 
 ## K1811--K1815 slab-three method-limit wave (2026-10-13)
 

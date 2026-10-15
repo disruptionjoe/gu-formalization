@@ -19,7 +19,9 @@ def compute():
         "slab_two_excluded": two["decision"]["slab_two_complete_sublevel_excluded"],
         "slab_three_retained_leaves": three["certificate"]["retained_slab_three_leaves"],
         "slab_three_compact_value_certified_leaves": len(three["certificate"]["compact_value_certified_leaf_ids"]),
-        "slab_three_complete_stationary_cover": False,
+        "slab_three_stationary_rejected_leaves": len(three["certificate"]["whole_line_stationary_rejected_leaf_ids"]),
+        "slab_three_stationary_retained_leaves": len(three["certificate"]["whole_line_stationary_retained_leaf_ids"]),
+        "slab_three_complete_stationary_cover": three["decision"]["complete_stationary_uniqueness_proved"],
         "slab_three_complete_boundary_cover": three["decision"]["all_slab_three_faces_and_vertices_certified"],
     }
 
@@ -31,7 +33,8 @@ def validate(data, got=None):
         ("claim", data["claim_id"] == "K1820"),
         ("exact replay", data["certificate"] == got),
         ("two slabs closed", got["slab_one_excluded"] and got["slab_two_excluded"]),
-        ("two leaves calibrated", got["slab_three_compact_value_certified_leaves"] == 2),
+        ("26 value leaves certified", got["slab_three_compact_value_certified_leaves"] == 26),
+        ("stationary bank partial", got["slab_three_stationary_rejected_leaves"] == 10 and got["slab_three_stationary_retained_leaves"] == 42),
         ("slab three open", not got["slab_three_complete_stationary_cover"] and not got["slab_three_complete_boundary_cover"]),
         ("global withheld", not data["decision"]["global_optimizer_proved"]),
         ("physical withheld", not data["decision"]["source_owned_physical_theory"]),

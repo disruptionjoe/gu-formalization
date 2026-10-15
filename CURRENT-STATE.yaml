@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 83d7905d37664fcfc5017f6ff53b365795f68968
+revision_basis: a1ffe33fd0a7134622279273f0f3c0176976f37a
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,17 +35,16 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
-    K1816 completes the uniform order-eight, observation-order-fourteen,
-    88-cell fixed-score bank on all 78 exact slab-three leaves. Exactly 26
-    leaves (`0--12`, `65--77`) have strict positive compact margins; leaves
-    `13--64` are method-indeterminate with zero counterexample flags. Leaf 53
-    is worst at `-9.2561445289e-25`. Observation order sixteen and targeted
-    t/z subdivisions approach zero without closing the box, while the exact
-    lower-t/mid-z rational point is strictly positive by only
-    `8.2260790157e-29`. The fixed witness is viable but ill-conditioned for
-    deeper value subdivision, so analytic-tail composition and
-    stationary/gradient rejection now dominate. Whole-line closure, 122
-    exposed faces, 122 exposed vertices and global optimization remain open.
+    K1818 completes the order-eight full-objective whole-line gradient bank on
+    all 52 K1816 value-indeterminate slab-three leaves. K1786 analytic
+    gradient and Hessian tails are composed on every exact box. Ten leaves
+    (`13`, `27--28`, `39--42`, `52--53`, `64`) are rigorously stationary-free;
+    42 remain method-indeterminate and never evidence another stationary
+    point. The known K1787 local stationary box lies inside retained leaf 50.
+    Combined with K1816, 26 leaves are strictly above threshold by value and
+    ten more are stationary-free. Adaptive subdivision or cancellation-aware
+    interval Newton now dominates on the 42 retained leaves. The 122 exposed
+    faces, 122 exposed vertices and global optimization remain open.
     The bridge census remains 510 rows: 431 satisfied, ten conditional, 65
     excluded and four missing. Protected source, ledger, canon and public
     states do not move.
