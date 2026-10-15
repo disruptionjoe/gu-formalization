@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: a1ffe33fd0a7134622279273f0f3c0176976f37a
+revision_basis: e6078f8e5621a5794649cbab75e6525058a59df5
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,16 +35,16 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
-    K1818 completes the order-eight full-objective whole-line gradient bank on
-    all 52 K1816 value-indeterminate slab-three leaves. K1786 analytic
-    gradient and Hessian tails are composed on every exact box. Ten leaves
-    (`13`, `27--28`, `39--42`, `52--53`, `64`) are rigorously stationary-free;
-    42 remain method-indeterminate and never evidence another stationary
-    point. The known K1787 local stationary box lies inside retained leaf 50.
-    Combined with K1816, 26 leaves are strictly above threshold by value and
-    ten more are stationary-free. Adaptive subdivision or cancellation-aware
-    interval Newton now dominates on the 42 retained leaves. The 122 exposed
-    faces, 122 exposed vertices and global optimization remain open.
+    K1818's first order-eight full-objective gradient bank is withdrawn before
+    downstream use. Its Taylor polynomial was centered at K1787, but the
+    degree-eight derivative enclosure covered only each target leaf; Taylor's
+    intermediate-point remainder requires the complete anchor-to-leaf hull.
+    The ten apparent stationary exclusions therefore carry no scientific
+    effect. Configuration-distinct corrected checkpoints now use the full
+    axis-aligned hull. K1816's 26 strict compact value leaves and K1787's named
+    local stationary point remain unchanged. All 52 value-indeterminate
+    leaves, 122 exposed faces, 122 exposed vertices and global optimization
+    remain open pending corrected replay.
     The bridge census remains 510 rows: 431 satisfied, ten conditional, 65
     excluded and four missing. Protected source, ledger, canon and public
     states do not move.

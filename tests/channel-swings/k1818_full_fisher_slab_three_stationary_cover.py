@@ -115,7 +115,7 @@ def checkpoint_path(leaf_id: int) -> Path:
     return CHECKPOINT_DIR / (
         f"leaf-{leaf_id:03d}-order-{PARAMETER_ORDER:02d}"
         f"-cell-{CELL_HALF_WIDTH.numerator}-{CELL_HALF_WIDTH.denominator}"
-        f"-observation-{OBSERVATION_ORDER:02d}.json"
+        f"-observation-{OBSERVATION_ORDER:02d}-remainder-anchor-hull.json"
     )
 
 
@@ -139,7 +139,13 @@ def compute_leaf(leaf_id: int) -> dict:
         flush=True,
     )
     center = point_jet()
-    derivative_jet = base.compact_jet(t_lo, t_hi, z_lo, z_hi)
+    derivative_hull = (
+        min(t_lo, base.ANCHOR_T),
+        max(t_hi, base.ANCHOR_T),
+        min(z_lo, base.ANCHOR_Z),
+        max(z_hi, base.ANCHOR_Z),
+    )
+    derivative_jet = base.compact_jet(*derivative_hull)
     base.tails.CENTER_T = (t_lo + t_hi) / 2
     base.tails.RADIUS_T = (t_hi - t_lo) / 2
     base.tails.CENTER_Z = (z_lo + z_hi) / 2
@@ -185,6 +191,8 @@ def compute_leaf(leaf_id: int) -> dict:
             "cell_half_width": str(CELL_HALF_WIDTH),
             "observation_taylor_order": OBSERVATION_ORDER,
             "compact_cell_count": 2 * int(base.m.RADIUS / CELL_HALF_WIDTH),
+            "parameter_remainder_domain": "axis-aligned hull of the K1787 anchor and exact target leaf",
+            "parameter_remainder_hull": [str(value) for value in derivative_hull],
             "whole_line_tail_method": "K1786 analytic value-gradient-Hessian majorant on the exact leaf",
         },
         "certificate": {
@@ -228,6 +236,14 @@ def load_checkpoint(leaf_id: int) -> dict | None:
         raise ValueError(f"checkpoint partition mismatch: {path}")
     if data["input_k1816_checkpoint_digest"] != input_rows()[leaf_id]["checkpoint_digest"]:
         raise ValueError(f"checkpoint K1816 provenance mismatch: {path}")
+    hull = (
+        min(box[0], base.ANCHOR_T),
+        max(box[1], base.ANCHOR_T),
+        min(box[2], base.ANCHOR_Z),
+        max(box[3], base.ANCHOR_Z),
+    )
+    if data["configuration"].get("parameter_remainder_hull") != [str(value) for value in hull]:
+        raise ValueError(f"checkpoint remainder hull mismatch: {path}")
     return data
 
 
@@ -358,6 +374,22 @@ def validate_legacy(data: dict) -> list[tuple[str, bool]]:
     ]
 
 
+def validate_correction(data: dict) -> list[tuple[str, bool]]:
+    certificate = data["certificate"]
+    return [
+        ("schema", data["schema_version"] == "1.0"),
+        ("claim", data["claim_id"] == "K1818"),
+        ("partition", certificate["input_partition_digest"] == partition_digest()),
+        ("invalidated bank", certificate["invalidated_checkpoint_count"] == 52),
+        ("invalidated exclusions", certificate["invalidated_stationary_rejected_leaf_ids"] == [13, 27, 28, 39, 40, 41, 42, 52, 53, 64]),
+        ("corrected domain", certificate["corrected_parameter_remainder_domain"] == "axis-aligned hull of the K1787 anchor and exact target leaf"),
+        ("no stationary exclusions", data["decision"]["stationary_rejected_leaf_count"] == 0),
+        ("all candidates reopened", data["decision"]["stationary_retained_leaf_count"] == 52),
+        ("stationary cover open", not data["decision"]["complete_stationary_cover"]),
+        ("global withheld", not data["decision"]["global_optimizer_proved"]),
+    ]
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--leaf", type=int, action="append", default=[])
@@ -370,7 +402,12 @@ def main() -> None:
 
     if not args.leaf and not args.resume_bank:
         stored = json.loads(ARTIFACT.read_text())
-        checks = validate_current(stored) if "stationary_rejection_evidence" in stored["certificate"] else validate_legacy(stored)
+        if "remainder_correction" in stored:
+            checks = validate_correction(stored)
+        elif "stationary_rejection_evidence" in stored["certificate"]:
+            checks = validate_current(stored)
+        else:
+            checks = validate_legacy(stored)
         for index, (label, ok) in enumerate(checks, 1):
             assert ok, label
             print(f"PASS {index:02d}: {label}")

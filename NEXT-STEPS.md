@@ -7,17 +7,16 @@ updated_at: "2026-10-14"
 
 # Next Steps For Contributors
 
-> **2026-10-14 K1816--K1818 COMPLETE VALUE AND GRADIENT BANKS.**
-> K1816 certifies strict compact fixed-score margins on 26 of 78 exact leaves.
-> K1818 composes K1786 analytic gradient/Hessian tails on all 52 remaining
-> leaves and rigorously rejects stationarity on ten: `13`, `27--28`, `39--42`,
-> `52--53`, and `64`. Forty-two leaves remain method-indeterminate; retained
-> leaf 50 contains K1787's known local stationary box. Next adaptively
-> subdivide the retained gradient boxes or apply cancellation-aware interval
-> Newton/Krawczyk, composing the unique local box explicitly. Then close all
-> 122 exposed faces and 122 vertices. Do not promote retention to another
-> stationary point, complete uniqueness, global optimality or source-owned
-> physics.
+> **2026-10-14 K1818 ANCHOR-HULL CORRECTION.** K1818's first gradient bank is
+> invalidated before downstream use. The expansion was centered at K1787, but
+> its order-eight derivative enclosure covered only each target leaf instead
+> of the complete anchor-to-leaf remainder hull. Withdraw all ten apparent
+> stationary exclusions. Replay the 52 candidates with configuration-distinct
+> axis-aligned anchor-hull checkpoints, then choose leaf-centered recentering
+> or interval Newton only from the corrected result. K1816's 26 compact value
+> leaves and K1787's local stationary box remain valid. Do not promote the
+> invalidated bank to stationary uniqueness, boundary closure, global
+> optimality or source-owned physics.
 
 > **2026-10-13 K1811--K1815 SLAB-THREE METHOD-LIMIT WAVE.** A centered
 > sixth-order full-Fisher Taylor bank at K1787, with analytic whole-line tails

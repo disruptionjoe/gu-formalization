@@ -2,14 +2,14 @@
   "schema_version": "1.0",
   "claim_id": "K1819",
   "status": "active_research",
-  "title": "The complete gradient bank narrows stationarity while preserving every exposed boundary obligation",
+  "title": "The anchor-hull correction reopens every stationary and exposed-boundary obligation",
   "inputs": ["K1804", "K1818"],
   "certificate": {
     "input_partition_digest": "0b327f8e6a74d5df3e1b24261d5bccdc24229162043494ad82aaaa7922c1d9c0",
     "retained_slab_three_leaves": 78,
     "compact_value_certified_leaf_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77],
-    "whole_line_stationary_rejected_leaf_ids": [13, 27, 28, 39, 40, 41, 42, 52, 53, 64],
-    "whole_line_stationary_retained_leaf_ids": [14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 43, 44, 45, 46, 47, 48, 49, 50, 51, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63],
+    "whole_line_stationary_rejected_leaf_ids": [],
+    "whole_line_stationary_retained_leaf_ids": [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64],
     "exposed_atomic_faces": 122,
     "exposed_boundary_vertices": 122,
     "certified_exposed_atomic_faces": 0,
@@ -20,5 +20,5 @@
     "all_slab_three_faces_and_vertices_certified": false,
     "global_optimizer_proved": false
   },
-  "scope_guard": "Twenty-six leaves have strict compact value margins and ten further leaves are stationary-free. The 42 retained gradient boxes, 122 exposed atomic faces and 122 exposed vertices remain open; retention is not evidence of another stationary point."
+  "scope_guard": "K1816 still proves strict compact value margins on 26 leaves. K1818's first gradient bank is withdrawn because its Taylor remainder domain omitted the anchor-to-leaf hull; all 52 candidate leaves, 122 exposed atomic faces and 122 exposed vertices remain open."
 }

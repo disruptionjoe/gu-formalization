@@ -5,7 +5,7 @@ doc_type: exploration
 updated_at: "2026-10-14"
 ---
 
-# K1816--K1820: complete value and gradient banks narrow the stationary frontier
+# K1816--K1820: the value bank stands; the first gradient bank is withdrawn
 
 ## Result
 
@@ -26,20 +26,20 @@ positive margin `8.2260790157e-29`. Thus the negative box endpoints are still
 certificate-method limits, not counterexamples, but the vanishingly small
 point margin makes deeper value subdivision computationally dominated.
 
-K1818 then composes K1786's analytic whole-line gradient and Hessian tails with
-an order-eight full-objective Taylor jet on all 52 value-indeterminate leaves.
-It rigorously rejects stationarity on ten leaves: `13`, `27--28`, `39--42`,
-`52--53`, and `64`. The other 42 leaves remain method-indeterminate and do not
-evidence another stationary point. K1787's known local stationary box lies
-inside retained leaf 50, as required. The tracked K1818 artifact indexes all
-52 atomic checkpoint digests and embeds the complete evidence for every
-stationary rejection.
+K1818's first full-objective gradient bank exposed a remainder-domain defect
+during hostile review. The Taylor polynomial is centered at K1787, but the
+degree-eight derivative enclosure was evaluated only on each target leaf. For
+every leaf outside the anchor, Taylor's intermediate point can lie on the
+segment between the anchor and leaf, so the derivative enclosure must cover
+the complete anchor-to-leaf hull. The ten apparent stationary exclusions are
+therefore withdrawn before downstream use. They do not change K1816's value
+bank or K1787's local stationary certificate.
 
-The next useful route is adaptive subdivision or cancellation-aware interval
-Newton on those 42 leaves, explicitly composing the K1787 local box. K1804's
-122 exposed atomic faces and 122 exposed vertices remain open. Stationary
-uniqueness, global optimality, unrestricted scope and source-owned physics
-remain withheld.
+The corrected producer uses configuration-distinct checkpoints and the exact
+axis-aligned hull of K1787's anchor with each target leaf. All 52 candidates
+are reopened until that bank completes. K1804's 122 exposed atomic faces and
+122 exposed vertices remain open. Stationary uniqueness, global optimality,
+unrestricted scope and source-owned physics remain withheld.
 
 ## Exact resume
 
@@ -47,6 +47,6 @@ remain withheld.
 UV_CACHE_DIR=/private/tmp/uv-cache-gu-science uv run --offline --with python-flint==0.9.0 --with sympy==1.14.0 python tests/channel-swings/k1818_full_fisher_slab_three_stationary_cover.py --resume-bank --summary
 ```
 
-Both banks are complete and reuse every configuration-bound checkpoint. The
-42-leaf residual now wakes adaptive stationary exclusion outside K1787's local
-box. Exposed-boundary closure and protected global admission remain downstream.
+The command reuses only corrected anchor-hull checkpoints; the invalidated
+leaf-only files have distinct names and are ineligible. Exposed-boundary
+closure and protected global admission remain downstream.

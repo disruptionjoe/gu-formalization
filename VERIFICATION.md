@@ -17,16 +17,16 @@ updated_at: "2026-10-14"
 | The complete 78-leaf uniform bank is computed | K1816 atomic configuration-bound checkpoints and tracked artifact | proved; leaves `13--64` are method-indeterminate, not counterexamples |
 | Higher observation order or shallow t/z subdivision closes worst leaf 53 | K1816 fallback scouts | false for the tested configurations; the exact lower-t/mid-z point is nevertheless positive by `8.2260790e-29` |
 | The complete compact value cover follows from the bank | K1816 fallback discriminators | not established: 52 leaves require another route |
-| The complete whole-line gradient bank is computed | K1818 atomic checkpoints plus K1786 analytic tails | proved; ten leaves are stationary-free and 42 remain method-indeterminate |
-| A retained gradient leaf proves another stationary point | K1818 protected interpretation | false; retained leaf 50 contains the known K1787 local box, and every other retention is method indeterminacy only |
-| Whole-line stationary and exposed-boundary closure follows | K1819 exact composition | not established: 42 gradient boxes, 122 faces and 122 vertices remain open |
+| The first whole-line gradient bank has a valid Taylor remainder domain | K1818 hostile remainder audit | false: the derivative enclosure covered each target leaf but omitted the anchor-to-leaf hull |
+| The ten apparent gradient exclusions are admissible | K1818 correction record | false; all ten are withdrawn before downstream use |
+| Whole-line stationary and exposed-boundary closure follows | K1819 exact composition | not established: 52 gradient candidates, 122 faces and 122 vertices remain open |
 | The global optimizer follows | K1820 protected admission | not established |
 
-The committed artifacts preserve the complete value bank, its fallback scouts,
-all 52 stationary-checkpoint digests and the full ten-leaf rejection evidence.
-The selected next route adaptively subdivides the 42 retained gradient boxes or
-applies interval Newton while composing K1787's local box. Source, ledger,
-canon and public states do not move.
+The complete K1816 value bank and its fallback scouts remain valid. K1818 now
+records the exact defect and rejects reuse of the invalidated checkpoints by
+configuration identity. The selected next route replays all 52 candidates on
+the full anchor-to-leaf remainder hull before any subdivision or interval
+Newton claim. Source, ledger, canon and public states do not move.
 
 ## K1811--K1815 slab-three method-limit wave (2026-10-13)
 

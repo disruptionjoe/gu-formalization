@@ -34,7 +34,7 @@ def validate(data, got=None):
         ("exact replay", data["certificate"] == got),
         ("two slabs closed", got["slab_one_excluded"] and got["slab_two_excluded"]),
         ("26 value leaves certified", got["slab_three_compact_value_certified_leaves"] == 26),
-        ("stationary bank partial", got["slab_three_stationary_rejected_leaves"] == 10 and got["slab_three_stationary_retained_leaves"] == 42),
+        ("stationary bank withdrawn", got["slab_three_stationary_rejected_leaves"] == 0 and got["slab_three_stationary_retained_leaves"] == 52),
         ("slab three open", not got["slab_three_complete_stationary_cover"] and not got["slab_three_complete_boundary_cover"]),
         ("global withheld", not data["decision"]["global_optimizer_proved"]),
         ("physical withheld", not data["decision"]["source_owned_physical_theory"]),
