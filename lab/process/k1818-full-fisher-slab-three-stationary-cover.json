@@ -2,33 +2,686 @@
   "schema_version": "1.0",
   "claim_id": "K1818",
   "status": "active_research",
-  "title": "The first whole-line gradient bank is invalidated pending anchor-hull replay",
-  "inputs": ["K1786", "K1787", "K1816"],
+  "title": "The complete slab-three whole-line gradient bank classifies 9 stationary-free leaves and retains 43 candidates",
+  "inputs": [
+    "K1786",
+    "K1787",
+    "K1816"
+  ],
   "backend": "python-flint==0.9.0",
-  "remainder_correction": {
-    "status": "invalidated_before_downstream_use",
-    "finding": "The order-eight Taylor polynomial was centered at K1787, but the degree-eight derivative enclosure covered only each target leaf. Taylor's intermediate-point remainder requires the complete anchor-to-leaf hull whenever the anchor is outside the leaf.",
-    "effect": "All ten reported stationary exclusions are withdrawn. The completed bytes remain method-development evidence only and cannot support K1819 or K1820.",
-    "repair": "Recompute every candidate with the derivative enclosure on the axis-aligned hull of the K1787 anchor and the exact target leaf, using configuration-distinct checkpoints."
-  },
   "certificate": {
     "input_partition_digest": "0b327f8e6a74d5df3e1b24261d5bccdc24229162043494ad82aaaa7922c1d9c0",
     "candidate_leaf_count": 52,
-    "candidate_leaf_ids": [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64],
-    "invalidated_checkpoint_count": 52,
-    "invalidated_stationary_rejected_leaf_ids": [13, 27, 28, 39, 40, 41, 42, 52, 53, 64],
-    "corrected_parameter_remainder_domain": "axis-aligned hull of the K1787 anchor and exact target leaf",
-    "corrected_completed_leaf_ids": []
+    "candidate_leaf_ids": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64
+    ],
+    "completed_leaf_count": 52,
+    "completed_leaf_ids": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64
+    ],
+    "stationary_rejected_leaf_ids": [
+      27,
+      28,
+      39,
+      40,
+      41,
+      42,
+      52,
+      53,
+      64
+    ],
+    "stationary_retained_leaf_ids": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63
+    ],
+    "checkpoint_digests": {
+      "13": "d1dc0debc332fd72b010a101b6b7f6a98b7fa14ab445246afdb8861db83b7fbe",
+      "14": "0d3721363012dea9c82b78222ebededf88eaa0795a9818ef5be8e7108c817478",
+      "15": "c54cbf4aedec3be25287c8b4eb1ea01740938c207554499f60055ca86a394690",
+      "16": "5789c7c73ad2e5a6e8c3d08a04db0b88b290b7c2492f3c20188e5d0a3889d03c",
+      "17": "5371bc6449b1362130bd182a475633caf482adcecf08bc1dae098320c3d54f82",
+      "18": "fc1a7eae31b3a072b522f5c55d6df1722fd3363b28e5a1f15f18d18575f4e250",
+      "19": "62a9c4431300daae54f872f92b15ad8c7888d9d030a110b378871694e675c075",
+      "20": "ad40c57da1accd583faf2f049fe5d748c22f621ceb466204e2eba312f0899b37",
+      "21": "4f3f94fd1d09628e96f49664db460eeb6b37c31505d26224202a29a4ff1135ff",
+      "22": "8e1d3a140abe3d84bc67906323744b9fa26911aeec25e42c02b386be12cee73d",
+      "23": "c4a11c35f7cb2face347d24ad83f35cb345d93819374d0ce1eddc8899cbce22c",
+      "24": "cf48506bbae2f281022164c7b5c99345ef0cf68db15f0a468eef986d83192ae3",
+      "25": "8a9802580c1b8ea69a4b3eeac00cd48d9d5de5f00ce077422ac6643f6aef9558",
+      "26": "7b7ba67ab86e0eab4916825ed5d9f404f617e76cb0baa57a67f29706e1b98e4d",
+      "27": "0ecdce199e823f3e38bb49027a4d3474f097d9851fab88b16c07210b6c1aa207",
+      "28": "3dac04965562b59cc498c2dea4a0d0c1135d93755afeef8b33381d10e4233058",
+      "29": "fbf2a9d21268eddd02302ba86041ca4f5dfe3be1653b23e5f5885a2fba69917d",
+      "30": "a0892314b551f3d40dc631045b2f35e45ff4bca7a3227b8e8e786346ff5e4ad5",
+      "31": "336a9fd18fee1ddfbde9937145d557a1f75d8b10edee9c836f6876aa1ec38feb",
+      "32": "553dc887fdb7873418947ce2430cced3202cb207a773dded25abe822a198c0a4",
+      "33": "017e546deb2d5eda7483224745ff50a749155f22a9c40dab87e2d076788ec6a5",
+      "34": "b799e3b05636b1d98757d396f33c27456d5fe61ecfd5a2e6a964f97f19208ea6",
+      "35": "3df585a7268b30706582b9deac885ad1b4b124d94c3a79e2f41e750a92de34ef",
+      "36": "569587172a5ec106c53f1cc41d0c3269ffc4a29ea9a02b7a49b8b745c2458165",
+      "37": "ad97f619a5137910adc86295dd74c2c2544a9fcce17bc47b97cf4c842581493f",
+      "38": "876d23de9fb70ad68969970806878763adfe8de7e58cbfd4464b2ada1201d5e8",
+      "39": "5436555d6ee898ae65201eadf43290020ba1deca70bf078d45a72ed2124d63f4",
+      "40": "bfac6add3ce3137b47b9aba674197e9b39117eb11e0b95a445c6596857b14a96",
+      "41": "355fb6a312ad1058e3238b10fa94f2803a3ff4a957462a2cda6b3e270ba832c0",
+      "42": "272b0f4cdfa0947def3d9d9c1b65dbcba77490e2b69b4538b33aaea127b2af6d",
+      "43": "b02ef5923e999bec4e3bfd2973ef5e99e96433cf8c134386185efcb15dcff2b9",
+      "44": "eae69f28dea58452e44ae620dffb6f4a782b148846c39f0bf25f2a0fa6768e79",
+      "45": "3de1a3dc1bd6d55eb83a029cf6920dff7bc9a97cc79c07f5fd5c5a9a85a50041",
+      "46": "4d83cf637d54c8d21b1fccaa6ceed1fb778592109e9fc5442d14d519dc823b72",
+      "47": "bdf6155f76d4254da2fa5440b289109d696f725770080ed96b42af7ac8978189",
+      "48": "07e095a574cf36aa0c3f6b4cfee2997bbae4b5bd14050993c8b0945befca6310",
+      "49": "7905bad73ec68062d89dee332d2c082b277e49ac6cd81449e9d62e4af4079022",
+      "50": "a40be0e74ca7cef37f6ac1547fa89f4dbc6a7a4e5af7ed1c818874938adada84",
+      "51": "72bf41eddd074c43d975ddedd82323b661d07a8ae0c973523d8492039032d954",
+      "52": "68c6152e537c03f15a4e09eb2eb395578b285fcba948f5ea58a4ee1bceedc164",
+      "53": "c16fa37338027f08d280ad6e8d83839c61ead977ac02d7c3d6b0b81023661bbe",
+      "54": "e4030854c9dc7fb33da284d65d77018415fa66e27281f21cf89c335d08d77824",
+      "55": "827b0395912d1379284b324e607308d661399692d6adfe2b3437e7d2aa951dd5",
+      "56": "438daa3b85c051799d1179afe15f2a360b2ce1f0091b48addbb8435a812b3d26",
+      "57": "462914d3c6cdb795f904736876ea768e8e1ea8c71069327d7ed10ff500e8e435",
+      "58": "19c316b37b6c67afa97f3500d1b9c5b85eab89c054948576bfd58ea38f6f9ed1",
+      "59": "78963ed89958163e96b0a88230b1026f20bffd3ee417ceefadc2064539e44d80",
+      "60": "e2626610b9f11b80c5a936414eed1da13b2376a52fde1490911621c4de4839cc",
+      "61": "252ce6094e005ecfe1597509eb754059163854c0ace148f8642079b975dbeb7f",
+      "62": "70e3c0634ce53f3ab281cc3a48ab62cbb56254a16a946ccb553f7dad56cbbd28",
+      "63": "fa2e6195c8fce391ecab50dfcfa4a525ddaeb2f62dce62e1dc5820ccc73215e2",
+      "64": "6b1cc13c33ea84b46ded22959bd49f9003cd2f31157188d62e6de9c70040f3ea"
+    },
+    "stationary_rejection_evidence": [
+      {
+        "box": [
+          "28919605421/549755813888",
+          "58347441255/1099511627776",
+          "9/16",
+          "1153/2048"
+        ],
+        "certificate": {
+          "whole_line_gradient": {
+            "t": "[-9.9789058371348362600651529128192724706e-10 +/- 7.47e-10]",
+            "z": "[-1.2479373935521793883474205110417057882e-10 +/- 9.30e-11]"
+          },
+          "whole_line_hessian": {
+            "determinant": "[5.2727438822909272094094048700886171042e-15 +/- 2.00e-14]",
+            "tt": "[2.4524617610594521042711732638739587000e-6 +/- 1.52e-7]",
+            "tz": "[3.0339787730469599480587617659488439535e-7 +/- 1.70e-8]",
+            "zz": "[3.9683805627714741955238544130066045118e-8 +/- 1.29e-9]"
+          }
+        },
+        "checkpoint_digest": "0ecdce199e823f3e38bb49027a4d3474f097d9851fab88b16c07210b6c1aa207",
+        "claim_id": "K1818",
+        "configuration": {
+          "cell_half_width": "1/4",
+          "compact_cell_count": 88,
+          "observation_taylor_order": 14,
+          "parameter_remainder_domain": "axis-aligned hull of the K1787 anchor and exact target leaf",
+          "parameter_remainder_hull": [
+            "28919605421/549755813888",
+            "265664669701527/5000000000000000",
+            "9/16",
+            "8805034043103/15625000000000"
+          ],
+          "parameter_taylor_order": 8,
+          "whole_line_tail_method": "K1786 analytic value-gradient-Hessian majorant on the exact leaf"
+        },
+        "decision": {
+          "rejected_by": [
+            "t",
+            "z"
+          ],
+          "retained_leaf_means_additional_stationary_point": false,
+          "stationary_rejected": true,
+          "strictly_convex": false
+        },
+        "input_k1816_checkpoint_digest": "3db0846b031776a122098e90e0c255325ac05867db437ffb3921ac59ccb86d74",
+        "input_partition_digest": "0b327f8e6a74d5df3e1b24261d5bccdc24229162043494ad82aaaa7922c1d9c0",
+        "leaf": 27,
+        "schema_version": "1.0"
+      },
+      {
+        "box": [
+          "28919605421/549755813888",
+          "58347441255/1099511627776",
+          "1153/2048",
+          "577/1024"
+        ],
+        "certificate": {
+          "whole_line_gradient": {
+            "t": "[-8.4918128791197588872846369380505379642e-10 +/- 7.39e-10]",
+            "z": "[-1.0545873898515639347429679174223916694e-10 +/- 9.24e-11]"
+          },
+          "whole_line_hessian": {
+            "determinant": "[4.6068421844197776103312514200285278024e-15 +/- 1.98e-14]",
+            "tt": "[2.4819397824142474770435575457248273759e-6 +/- 1.48e-7]",
+            "tz": "[3.0571357973502749170256879756700421347e-7 +/- 1.69e-8]",
+            "zz": "[3.9512495715521287289764637744970493330e-8 +/- 1.28e-9]"
+          }
+        },
+        "checkpoint_digest": "3dac04965562b59cc498c2dea4a0d0c1135d93755afeef8b33381d10e4233058",
+        "claim_id": "K1818",
+        "configuration": {
+          "cell_half_width": "1/4",
+          "compact_cell_count": 88,
+          "observation_taylor_order": 14,
+          "parameter_remainder_domain": "axis-aligned hull of the K1787 anchor and exact target leaf",
+          "parameter_remainder_hull": [
+            "28919605421/549755813888",
+            "265664669701527/5000000000000000",
+            "1153/2048",
+            "8805034043103/15625000000000"
+          ],
+          "parameter_taylor_order": 8,
+          "whole_line_tail_method": "K1786 analytic value-gradient-Hessian majorant on the exact leaf"
+        },
+        "decision": {
+          "rejected_by": [
+            "t",
+            "z"
+          ],
+          "retained_leaf_means_additional_stationary_point": false,
+          "stationary_rejected": true,
+          "strictly_convex": false
+        },
+        "input_k1816_checkpoint_digest": "7c3d46a8b8f6c54f0ebb9865206d92ed5239081190d22493c84f8e070cb34344",
+        "input_partition_digest": "0b327f8e6a74d5df3e1b24261d5bccdc24229162043494ad82aaaa7922c1d9c0",
+        "leaf": 28,
+        "schema_version": "1.0"
+      },
+      {
+        "box": [
+          "28919605421/549755813888",
+          "58347441255/1099511627776",
+          "291/512",
+          "1165/2048"
+        ],
+        "certificate": {
+          "whole_line_gradient": {
+            "t": "[8.5991949078414480886254521095877521369e-10 +/- 8.23e-10]",
+            "z": "[1.0180753776098119631371454510379173728e-10 +/- 9.87e-11]"
+          },
+          "whole_line_hessian": {
+            "determinant": "[-3.1981067941419784678338718493133006346e-15 +/- 2.42e-14]",
+            "tt": "[2.8134929431843670166193396801796394146e-6 +/- 2.02e-7]",
+            "tz": "[3.3047991008120806181555243006740598188e-7 +/- 1.84e-8]",
+            "zz": "[3.7682292550251481331705707481927698881e-8 +/- 1.37e-9]"
+          }
+        },
+        "checkpoint_digest": "5436555d6ee898ae65201eadf43290020ba1deca70bf078d45a72ed2124d63f4",
+        "claim_id": "K1818",
+        "configuration": {
+          "cell_half_width": "1/4",
+          "compact_cell_count": 88,
+          "observation_taylor_order": 14,
+          "parameter_remainder_domain": "axis-aligned hull of the K1787 anchor and exact target leaf",
+          "parameter_remainder_hull": [
+            "28919605421/549755813888",
+            "265664669701527/5000000000000000",
+            "8805034043103/15625000000000",
+            "1165/2048"
+          ],
+          "parameter_taylor_order": 8,
+          "whole_line_tail_method": "K1786 analytic value-gradient-Hessian majorant on the exact leaf"
+        },
+        "decision": {
+          "rejected_by": [
+            "t",
+            "z"
+          ],
+          "retained_leaf_means_additional_stationary_point": false,
+          "stationary_rejected": true,
+          "strictly_convex": false
+        },
+        "input_k1816_checkpoint_digest": "030b7817824021f0c52e766abd60e85e955563dbe7d01769cb15e0c4828fce8b",
+        "input_partition_digest": "0b327f8e6a74d5df3e1b24261d5bccdc24229162043494ad82aaaa7922c1d9c0",
+        "leaf": 39,
+        "schema_version": "1.0"
+      },
+      {
+        "box": [
+          "28919605421/549755813888",
+          "58347441255/1099511627776",
+          "1165/2048",
+          "583/1024"
+        ],
+        "certificate": {
+          "whole_line_gradient": {
+            "t": "[1.0218213920023775765650206074692493012e-9 +/- 8.32e-10]",
+            "z": "[1.2016761650720480542756480720942112215e-10 +/- 9.94e-11]"
+          },
+          "whole_line_hessian": {
+            "determinant": "[-3.9488313321335210592164478157763706890e-15 +/- 2.49e-14]",
+            "tt": "[2.8442828646046014854672968383605906231e-6 +/- 2.11e-7]",
+            "tz": "[3.3266856558460138956843835375050399137e-7 +/- 1.87e-8]",
+            "zz": "[3.7520720784857082867722391806910835007e-8 +/- 1.39e-9]"
+          }
+        },
+        "checkpoint_digest": "bfac6add3ce3137b47b9aba674197e9b39117eb11e0b95a445c6596857b14a96",
+        "claim_id": "K1818",
+        "configuration": {
+          "cell_half_width": "1/4",
+          "compact_cell_count": 88,
+          "observation_taylor_order": 14,
+          "parameter_remainder_domain": "axis-aligned hull of the K1787 anchor and exact target leaf",
+          "parameter_remainder_hull": [
+            "28919605421/549755813888",
+            "265664669701527/5000000000000000",
+            "8805034043103/15625000000000",
+            "583/1024"
+          ],
+          "parameter_taylor_order": 8,
+          "whole_line_tail_method": "K1786 analytic value-gradient-Hessian majorant on the exact leaf"
+        },
+        "decision": {
+          "rejected_by": [
+            "t",
+            "z"
+          ],
+          "retained_leaf_means_additional_stationary_point": false,
+          "stationary_rejected": true,
+          "strictly_convex": false
+        },
+        "input_k1816_checkpoint_digest": "6ffa094e1e85ee533f799ec898480debe24b4e5e179b9de1bcc30d10f37579f9",
+        "input_partition_digest": "0b327f8e6a74d5df3e1b24261d5bccdc24229162043494ad82aaaa7922c1d9c0",
+        "leaf": 40,
+        "schema_version": "1.0"
+      },
+      {
+        "box": [
+          "58347441255/1099511627776",
+          "14713917917/274877906944",
+          "1145/2048",
+          "573/1024"
+        ],
+        "certificate": {
+          "whole_line_gradient": {
+            "t": "[-9.2849644323161195449126117467258506652e-10 +/- 7.86e-10]",
+            "z": "[-1.2353565720836409219322777861336059929e-10 +/- 9.52e-11]"
+          },
+          "whole_line_hessian": {
+            "determinant": "[5.4879453964498571011041514845123086136e-15 +/- 1.98e-14]",
+            "tt": "[2.4174374613872396919884790118896799782e-6 +/- 1.28e-7]",
+            "tz": "[3.1467506696897874106000517729611118665e-7 +/- 1.69e-8]",
+            "zz": "[4.3231043134579909119542123344239263627e-8 +/- 1.31e-9]"
+          }
+        },
+        "checkpoint_digest": "355fb6a312ad1058e3238b10fa94f2803a3ff4a957462a2cda6b3e270ba832c0",
+        "claim_id": "K1818",
+        "configuration": {
+          "cell_half_width": "1/4",
+          "compact_cell_count": 88,
+          "observation_taylor_order": 14,
+          "parameter_remainder_domain": "axis-aligned hull of the K1787 anchor and exact target leaf",
+          "parameter_remainder_hull": [
+            "58347441255/1099511627776",
+            "14713917917/274877906944",
+            "1145/2048",
+            "8805034043103/15625000000000"
+          ],
+          "parameter_taylor_order": 8,
+          "whole_line_tail_method": "K1786 analytic value-gradient-Hessian majorant on the exact leaf"
+        },
+        "decision": {
+          "rejected_by": [
+            "t",
+            "z"
+          ],
+          "retained_leaf_means_additional_stationary_point": false,
+          "stationary_rejected": true,
+          "strictly_convex": false
+        },
+        "input_k1816_checkpoint_digest": "58d5ea69c128b7fd206e600d4a5629ba762c547b7bc374bc0132fcb87fd1a864",
+        "input_partition_digest": "0b327f8e6a74d5df3e1b24261d5bccdc24229162043494ad82aaaa7922c1d9c0",
+        "leaf": 41,
+        "schema_version": "1.0"
+      },
+      {
+        "box": [
+          "58347441255/1099511627776",
+          "14713917917/274877906944",
+          "573/1024",
+          "1147/2048"
+        ],
+        "certificate": {
+          "whole_line_gradient": {
+            "t": "[-7.7423418620322127193850517705062319909e-10 +/- 7.78e-10]",
+            "z": "[-1.0247275208205203880560241131184227174e-10 +/- 9.46e-11]"
+          },
+          "whole_line_hessian": {
+            "determinant": "[4.7482714480829213388700801312947777829e-15 +/- 1.97e-14]",
+            "tt": "[2.4476156131333735488027412096291811055e-6 +/- 1.26e-7]",
+            "tz": "[3.1718115781926150652539226603834440694e-7 +/- 1.68e-8]",
+            "zz": "[4.3042770996537775779632391534359483442e-8 +/- 1.30e-9]"
+          }
+        },
+        "checkpoint_digest": "272b0f4cdfa0947def3d9d9c1b65dbcba77490e2b69b4538b33aaea127b2af6d",
+        "claim_id": "K1818",
+        "configuration": {
+          "cell_half_width": "1/4",
+          "compact_cell_count": 88,
+          "observation_taylor_order": 14,
+          "parameter_remainder_domain": "axis-aligned hull of the K1787 anchor and exact target leaf",
+          "parameter_remainder_hull": [
+            "58347441255/1099511627776",
+            "14713917917/274877906944",
+            "573/1024",
+            "8805034043103/15625000000000"
+          ],
+          "parameter_taylor_order": 8,
+          "whole_line_tail_method": "K1786 analytic value-gradient-Hessian majorant on the exact leaf"
+        },
+        "decision": {
+          "rejected_by": [
+            "z"
+          ],
+          "retained_leaf_means_additional_stationary_point": false,
+          "stationary_rejected": true,
+          "strictly_convex": false
+        },
+        "input_k1816_checkpoint_digest": "bc1d6e51b0bfb64e1d50a12ff2c27323da36bcd0aaaad9a435d808f9add11b47",
+        "input_partition_digest": "0b327f8e6a74d5df3e1b24261d5bccdc24229162043494ad82aaaa7922c1d9c0",
+        "leaf": 42,
+        "schema_version": "1.0"
+      },
+      {
+        "box": [
+          "58347441255/1099511627776",
+          "14713917917/274877906944",
+          "289/512",
+          "1157/2048"
+        ],
+        "certificate": {
+          "whole_line_gradient": {
+            "t": "[8.3458869528270790763884365358191925708e-10 +/- 7.36e-10]",
+            "z": "[1.0318615761758155089221334810372316907e-10 +/- 9.13e-11]"
+          },
+          "whole_line_hessian": {
+            "determinant": "[-3.1177769428990426171097660652901571560e-15 +/- 1.99e-14]",
+            "tt": "[2.7559461713244930189740703604241907358e-6 +/- 1.17e-7]",
+            "tz": "[3.4160014044620848492863876585165100986e-7 +/- 1.64e-8]",
+            "zz": "[4.1210122386166853183518085629119586527e-8 +/- 1.27e-9]"
+          }
+        },
+        "checkpoint_digest": "68c6152e537c03f15a4e09eb2eb395578b285fcba948f5ea58a4ee1bceedc164",
+        "claim_id": "K1818",
+        "configuration": {
+          "cell_half_width": "1/4",
+          "compact_cell_count": 88,
+          "observation_taylor_order": 14,
+          "parameter_remainder_domain": "axis-aligned hull of the K1787 anchor and exact target leaf",
+          "parameter_remainder_hull": [
+            "58347441255/1099511627776",
+            "14713917917/274877906944",
+            "8805034043103/15625000000000",
+            "1157/2048"
+          ],
+          "parameter_taylor_order": 8,
+          "whole_line_tail_method": "K1786 analytic value-gradient-Hessian majorant on the exact leaf"
+        },
+        "decision": {
+          "rejected_by": [
+            "t",
+            "z"
+          ],
+          "retained_leaf_means_additional_stationary_point": false,
+          "stationary_rejected": true,
+          "strictly_convex": false
+        },
+        "input_k1816_checkpoint_digest": "e713fcc2284acc5c20de7ea71de641db2ba438dbe7a7b7d17cf876b125c6c6d1",
+        "input_partition_digest": "0b327f8e6a74d5df3e1b24261d5bccdc24229162043494ad82aaaa7922c1d9c0",
+        "leaf": 52,
+        "schema_version": "1.0"
+      },
+      {
+        "box": [
+          "58347441255/1099511627776",
+          "14713917917/274877906944",
+          "1157/2048",
+          "579/1024"
+        ],
+        "certificate": {
+          "whole_line_gradient": {
+            "t": "[1.0019669055132833809411134527340796784e-9 +/- 7.44e-10]",
+            "z": "[1.2326470514854148103568524121770589465e-10 +/- 9.19e-11]"
+          },
+          "whole_line_hessian": {
+            "determinant": "[-3.9488775582495662965624274251705540667e-15 +/- 2.02e-14]",
+            "tt": "[2.7874209123482055570673296405751815774e-6 +/- 1.18e-7]",
+            "tz": "[3.4397913616990055503447614734867418982e-7 +/- 1.65e-8]",
+            "zz": "[4.1031753781882345762710210298511671946e-8 +/- 1.27e-9]"
+          }
+        },
+        "checkpoint_digest": "c16fa37338027f08d280ad6e8d83839c61ead977ac02d7c3d6b0b81023661bbe",
+        "claim_id": "K1818",
+        "configuration": {
+          "cell_half_width": "1/4",
+          "compact_cell_count": 88,
+          "observation_taylor_order": 14,
+          "parameter_remainder_domain": "axis-aligned hull of the K1787 anchor and exact target leaf",
+          "parameter_remainder_hull": [
+            "58347441255/1099511627776",
+            "14713917917/274877906944",
+            "8805034043103/15625000000000",
+            "579/1024"
+          ],
+          "parameter_taylor_order": 8,
+          "whole_line_tail_method": "K1786 analytic value-gradient-Hessian majorant on the exact leaf"
+        },
+        "decision": {
+          "rejected_by": [
+            "t",
+            "z"
+          ],
+          "retained_leaf_means_additional_stationary_point": false,
+          "stationary_rejected": true,
+          "strictly_convex": false
+        },
+        "input_k1816_checkpoint_digest": "a6582a70ea09e8268e134ca8465ca2b0bf47723d4e5be1978cf71e84c5564be0",
+        "input_partition_digest": "0b327f8e6a74d5df3e1b24261d5bccdc24229162043494ad82aaaa7922c1d9c0",
+        "leaf": 53,
+        "schema_version": "1.0"
+      },
+      {
+        "box": [
+          "14713917917/274877906944",
+          "59363902081/1099511627776",
+          "1149/2048",
+          "575/1024"
+        ],
+        "certificate": {
+          "whole_line_gradient": {
+            "t": "[9.1090294630194772201641431114892282062e-10 +/- 1.06e-9]",
+            "z": "[1.1702956667529286854058023270867164698e-10 +/- 1.04e-10]"
+          },
+          "whole_line_hessian": {
+            "determinant": "[-3.5247146795522852793727007384095822514e-15 +/- 1.31e-13]",
+            "tt": "[2.7195191282963444852052778151667584981e-6 +/- 2.07e-6]",
+            "tz": "[3.5433309308057304049717063171476524628e-7 +/- 3.97e-8]",
+            "zz": "[4.4870883570117883774039123759705786937e-8 +/- 1.74e-9]"
+          }
+        },
+        "checkpoint_digest": "6b1cc13c33ea84b46ded22959bd49f9003cd2f31157188d62e6de9c70040f3ea",
+        "claim_id": "K1818",
+        "configuration": {
+          "cell_half_width": "1/4",
+          "compact_cell_count": 88,
+          "observation_taylor_order": 14,
+          "parameter_remainder_domain": "axis-aligned hull of the K1787 anchor and exact target leaf",
+          "parameter_remainder_hull": [
+            "265664669701527/5000000000000000",
+            "59363902081/1099511627776",
+            "1149/2048",
+            "8805034043103/15625000000000"
+          ],
+          "parameter_taylor_order": 8,
+          "whole_line_tail_method": "K1786 analytic value-gradient-Hessian majorant on the exact leaf"
+        },
+        "decision": {
+          "rejected_by": [
+            "z"
+          ],
+          "retained_leaf_means_additional_stationary_point": false,
+          "stationary_rejected": true,
+          "strictly_convex": false
+        },
+        "input_k1816_checkpoint_digest": "a210c2f61c1229d5f6002fd0052a09437b1f3fe1a5e588ccb124c27f26221fc8",
+        "input_partition_digest": "0b327f8e6a74d5df3e1b24261d5bccdc24229162043494ad82aaaa7922c1d9c0",
+        "leaf": 64,
+        "schema_version": "1.0"
+      }
+    ]
   },
   "decision": {
-    "complete_candidate_leaf_bank_computed": false,
-    "analytic_whole_line_gradient_and_hessian_tails_composed": false,
-    "stationary_rejected_leaf_count": 0,
-    "stationary_retained_leaf_count": 52,
+    "complete_candidate_leaf_bank_computed": true,
+    "analytic_whole_line_gradient_and_hessian_tails_composed": true,
+    "stationary_rejected_leaf_count": 9,
+    "stationary_retained_leaf_count": 43,
     "retained_leaf_means_additional_stationary_point": false,
     "named_local_stationary_point_preserved": true,
     "complete_stationary_cover": false,
     "global_optimizer_proved": false
   },
-  "scope_guard": "No stationary exclusion from the invalidated leaf-only remainder bank is admissible. K1816's 26 compact value certificates and K1787's named local stationary point remain unchanged; all 52 candidate leaves, the exposed boundary and global admission remain open."
+  "scope_guard": "Gradient exclusion closes only the named rejected leaves. Retention is interval-method indeterminacy, not evidence of another stationary point; the K1787 local stationary box lies inside retained leaf 50. The residual leaves, exposed boundary and global optimizer admission remain open."
 }

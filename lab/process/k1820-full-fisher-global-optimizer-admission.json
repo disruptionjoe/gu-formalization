@@ -2,15 +2,15 @@
   "schema_version": "1.0",
   "claim_id": "K1820",
   "status": "active_research",
-  "title": "Global optimizer promotion remains withheld after the gradient-bank correction",
+  "title": "Global optimizer promotion remains withheld after the corrected gradient bank",
   "inputs": ["K1809", "K1819"],
   "certificate": {
     "slab_one_excluded": true,
     "slab_two_excluded": true,
     "slab_three_retained_leaves": 78,
     "slab_three_compact_value_certified_leaves": 26,
-    "slab_three_stationary_rejected_leaves": 0,
-    "slab_three_stationary_retained_leaves": 52,
+    "slab_three_stationary_rejected_leaves": 9,
+    "slab_three_stationary_retained_leaves": 43,
     "slab_three_complete_stationary_cover": false,
     "slab_three_complete_boundary_cover": false
   },
@@ -18,5 +18,5 @@
     "global_optimizer_proved": false,
     "source_owned_physical_theory": false
   },
-  "scope_guard": "K1818's first gradient bank is withdrawn pending anchor-hull replay; all 52 stationary candidates, the exposed boundary and global optimizer admission remain open."
+  "scope_guard": "Corrected K1818 excludes nine leaves by whole-line gradient and retains 43 as method-indeterminate, including K1787's named stationary leaf. The exposed boundary, complete stationary cover and global optimizer admission remain open."
 }

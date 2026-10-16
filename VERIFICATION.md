@@ -2,12 +2,12 @@
 title: "Verification: What Is Proved, Computed, and Conjectural"
 status: process
 doc_type: verification-map
-updated_at: "2026-10-14"
+updated_at: "2026-10-16"
 ---
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
-## K1816--K1820 slab-three leafwise calibration wave (2026-10-14)
+## K1816--K1820 slab-three leafwise calibration wave (2026-10-16)
 
 | Claim | Evidence | Honest grade |
 | --- | --- | --- |
@@ -19,14 +19,16 @@ updated_at: "2026-10-14"
 | The complete compact value cover follows from the bank | K1816 fallback discriminators | not established: 52 leaves require another route |
 | The first whole-line gradient bank has a valid Taylor remainder domain | K1818 hostile remainder audit | false: the derivative enclosure covered each target leaf but omitted the anchor-to-leaf hull |
 | The ten apparent gradient exclusions are admissible | K1818 correction record | false; all ten are withdrawn before downstream use |
-| Whole-line stationary and exposed-boundary closure follows | K1819 exact composition | not established: 52 gradient candidates, 122 faces and 122 vertices remain open |
+| The corrected anchor-hull bank is complete | K1818 52 atomic checkpoints with K1816 provenance and exact remainder hulls | proved; nine leaves are stationary-free and 43 are method-indeterminate |
+| Whole-line stationary and exposed-boundary closure follows | K1819 exact composition | not established: 43 gradient candidates, 122 faces and 122 vertices remain open |
 | The global optimizer follows | K1820 protected admission | not established |
 
-The complete K1816 value bank and its fallback scouts remain valid. K1818 now
-records the exact defect and rejects reuse of the invalidated checkpoints by
-configuration identity. The selected next route replays all 52 candidates on
-the full anchor-to-leaf remainder hull before any subdivision or interval
-Newton claim. Source, ledger, canon and public states do not move.
+The complete K1816 value bank and its fallback scouts remain valid. K1818
+records the defect, rejects reuse of invalidated checkpoints by configuration
+identity, and completes the corrected full anchor-to-leaf replay. The nine
+excluded leaves are `27`, `28`, `39--42`, `52`, `53`, and `64`; the named
+K1787 stationary box remains inside retained leaf 50. Source, ledger, canon
+and public states do not move.
 
 ## K1811--K1815 slab-three method-limit wave (2026-10-13)
 

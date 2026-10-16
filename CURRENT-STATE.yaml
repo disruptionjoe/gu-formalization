@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: e6078f8e5621a5794649cbab75e6525058a59df5
+revision_basis: 317b4fefde1cf1db865ade223d1d7fa591dcb412
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,16 +35,15 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
-    K1818's first order-eight full-objective gradient bank is withdrawn before
-    downstream use. Its Taylor polynomial was centered at K1787, but the
-    degree-eight derivative enclosure covered only each target leaf; Taylor's
-    intermediate-point remainder requires the complete anchor-to-leaf hull.
-    The ten apparent stationary exclusions therefore carry no scientific
-    effect. Configuration-distinct corrected checkpoints now use the full
-    axis-aligned hull. K1816's 26 strict compact value leaves and K1787's named
-    local stationary point remain unchanged. All 52 value-indeterminate
-    leaves, 122 exposed faces, 122 exposed vertices and global optimization
-    remain open pending corrected replay.
+    K1818's complete corrected order-eight full-objective gradient bank uses
+    configuration-distinct checkpoints and the exact axis-aligned hull of the
+    K1787 anchor with each target leaf. It rigorously excludes nine of K1816's
+    52 value-indeterminate leaves: 27, 28, 39--42, 52, 53 and 64. The other 43
+    leaves remain method-indeterminate, not evidence of additional stationary
+    points; K1787's named local stationary box remains inside retained leaf 50.
+    K1816's 26 strict compact value leaves remain unchanged. Complete
+    stationary uniqueness, all 122 exposed faces, all 122 exposed vertices and
+    global optimization remain open.
     The bridge census remains 510 rows: 431 satisfied, ten conditional, 65
     excluded and four missing. Protected source, ledger, canon and public
     states do not move.
@@ -15715,14 +15714,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K1811--K1815 show that both a direct centered sixth-order full-Fisher bank on
-  all seventeen exact slab-three parents and the straightforward sixth-order
-  K1787-score witness on the first parent are interval-indeterminate. Can
-  restart-safe leafwise recentering or a higher parameter order reduce the
-  fixed-score remainder enough to certify the 78 leaves and their exposed
-  geometry, while a complete interval-Newton/Krawczyk cover proves that
-  K1787's isolated point is the only stationary component? The negative lower
-  endpoint is a method limit, not a counterexample. No scalar trial law is a
+  K1816--K1820 combine 26 strict compact value leaves with a corrected
+  anchor-hull whole-line gradient bank that excludes nine more leaves and
+  retains 43 as method-indeterminate, including K1787's named stationary leaf.
+  Can a complete interval-Newton/Krawczyk cover now reject the other 42
+  nonlocal retained leaves, isolate the named stationary component, and close
+  all 122 exposed faces and 122 exposed vertices? A retained interval leaf is
+  not evidence of another stationary point. No scalar trial law is a
   source-owned physical state or unrestricted infimum.
 
   K1806--K1810 exclude the complete slab-two full-Fisher sublevel by a fixed
@@ -18660,16 +18658,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Preserve K1811 and K1812 as complete negative results about one direct
-  sixth-order certificate method, not evidence for additional stationary
-  points. Preserve K1813's negative lower endpoint as an absolute-remainder
-  failure, not a negative true margin. Preserve K1814's full 78-leaf and
-  exposed-boundary obligations and K1815's withheld global admission. Next
-  recenter the fixed K1787-score witness leafwise with restart-safe
-  checkpoints, or raise parameter order on exact parents, compose every
-  compact result with analytic whole-line tails, and combine the value bank
-  with complete Krawczyk/face coverage before promotion. No source-owned
-  Hamiltonian, physical state, observation, prediction or admission follows.
+  Preserve K1816's 26 strict compact value certificates and K1818's nine
+  corrected whole-line gradient exclusions on leaves 27, 28, 39--42, 52, 53
+  and 64. Preserve the other 43 leaves as method-indeterminate and K1787's
+  named stationary box inside leaf 50. Next construct a complete
+  interval-Newton/Krawczyk cover for the 42 nonlocal retained leaves and the
+  named box, then certify every exposed face and vertex before K1820 global
+  promotion. No source-owned Hamiltonian, physical state, observation,
+  prediction or admission follows.
 
   Preserve K1806 as a variational lower bound, not equality away from its
   anchor. Preserve K1807's strict sixth-order result as a compact-window

@@ -332,6 +332,7 @@ def validate_current(data: dict) -> list[tuple[str, bool]]:
     digests_valid = True
     provenance_valid = True
     boxes_valid = True
+    gradient_exclusions_valid = True
     for row in rows:
         canonical = dict(row)
         digest = canonical.pop("checkpoint_digest")
@@ -342,6 +343,16 @@ def validate_current(data: dict) -> list[tuple[str, bool]]:
             == k1816_rows[row["leaf"]]["checkpoint_digest"]
         )
         boxes_valid &= row["box"] == [str(value) for value in leaf_boxes()[row["leaf"]][1]]
+        excluded_axes = [
+            axis
+            for axis in ("t", "z")
+            if not arb(row["certificate"]["whole_line_gradient"][axis]).contains(0)
+        ]
+        gradient_exclusions_valid &= (
+            row["decision"]["stationary_rejected"]
+            and row["decision"]["rejected_by"] == excluded_axes
+            and bool(excluded_axes)
+        )
     rejected = certificate["stationary_rejected_leaf_ids"]
     retained = certificate["stationary_retained_leaf_ids"]
     return [
@@ -354,6 +365,7 @@ def validate_current(data: dict) -> list[tuple[str, bool]]:
         ("embedded checkpoint digests", digests_valid),
         ("K1816 provenance", provenance_valid),
         ("exact leaf boxes", boxes_valid),
+        ("gradient exclusions semantic", gradient_exclusions_valid),
         ("rejected evidence", [row["leaf"] for row in rows] == rejected and all(row["decision"]["stationary_rejected"] for row in rows)),
         ("complete classification", sorted(rejected + retained) == candidates),
         ("rejected count", data["decision"]["stationary_rejected_leaf_count"] == len(rejected)),
