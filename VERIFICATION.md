@@ -7,6 +7,24 @@ updated_at: "2026-10-19"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1820 exact interior derivative transport (2026-10-19)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Saved whole-line derivatives can exclude more regions without quadrature | Exact edge integration and affine corner inequalities | proved by composition; leaves 13, 14, 29 added |
+| Only nine leaves are stationary-free | K1818 direct bank plus K1820 transport | superseded for composed coverage: twelve excluded, forty retained |
+| All retained points remain possible stationary locations | Rational halfplane intersection | false: feasible polygons occupy 17.105628% of prior candidate area |
+| J_z has at most one zero on each covered contiguous vertical fiber | Positive J_zz on every candidate leaf | proved; any interior zero graph is locally decreasing since J_tz>0 |
+| The profile is certified convex | Exact Schur-complement interval on each retained leaf | not established on any of the forty retained leaves |
+| Nonempty polygons prove roots, uniqueness or global optimality | Protected admission | false |
+
+All 52 corrected input checkpoints are embedded and authenticated. The consumer
+uses standard Python exact rationals; accepted quadrature is reused, not
+recomputed. Seven mathematical/semantic controls test the actual algorithm;
+nine hostile mutations test provenance and reporting after a clean baseline.
+The exploration states the continuum proof and distinguishes empty polygons
+from zero-area sets. Native status rollup and final wave acceptance remain pending.
+
 ## K1819 complete slab-three boundary composition (2026-10-19)
 
 | Claim | Evidence | Honest grade |

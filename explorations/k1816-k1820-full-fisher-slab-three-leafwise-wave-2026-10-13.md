@@ -7,28 +7,121 @@ updated_at: "2026-10-19"
 
 # K1816--K1820: complete boundary closure; interior uniqueness remains open
 
+## October 19 exact interior derivative transport
+
+K1820 now composes the **already-complete corrected K1818 bank**, without
+consuming the unfinished Bernstein replacement or performing new quadrature.
+The resulting exact transport excludes 12 of the 52 value-indeterminate
+leaves, adding **13, 14 and 29** to K1818's nine direct gradient exclusions.
+The other 40 leaves have nonempty root-feasible polygons. Their total area is
+approximately **17.105628%** of the original 52-leaf candidate area; this is
+location uncertainty, not a probability or a count of stationary points.
+The artifact stores the exact rational polygons and area fraction.
+
+The scalar objective, positive density, unrenormalized measure, real carrier
+and claim ceiling in the typed-object block below are unchanged. The target
+here is the zero set of `(J_t,J_z)` on the same closed rectangles. Source and
+physics ledger rows do not move. This is independent mathematical composition
+of accepted derivative bounds, not source-owned physics or a new GU test.
+
+### Proof of transport and contraction
+
+Let `g=(J_t,J_z)` and `H=Dg`. The 52 corrected, digest-authenticated
+checkpoints enclose `g` and `H` on their whole closed leaves, including the
+analytic whole-line tails. All 52 full payloads are embedded in K1820 and
+checked against the published K1818 digest map and K1816 partition/provenance.
+Their original quadrature is reused; this calculation does not independently
+re-integrate it.
+
+Form the grid from the leaf endpoints and the exact K1787 center coordinates.
+Retain only covered vertices. An edge exists only if a single closed leaf
+contains both endpoints, hence the entire segment by convexity. There are
+110 vertices and 177 undirected edges. For an edge parallel to coordinate `j`
+of length `h>0`, the fundamental theorem of calculus gives
+
+```text
+g_i(v)-g_i(u) in h * H_ij(edge).
+```
+
+Intersect all valid incident-leaf enclosures. Each vertex begins with its
+incident gradient intervals; the anchor also carries K1787's certified
+**nonzero gradient at its rational center**. It is not replaced by zero or
+identified with the stationary point. Forward and reverse difference bounds
+then propagate by exact rational interval intersections. At most `N-1`
+Bellman-Ford sweeps cover all simple paths; a further tightening or an empty
+intersection is rejected as inconsistent input rather than banked as a proof.
+
+For a corner `q` of a leaf, travel first horizontally and then vertically to
+`p` in that leaf. Both legs stay in the certified rectangle. Their lengths
+have fixed signs, so the corresponding Hessian endpoints give affine lower
+and upper bounds for each `g_i(p)`. Every stationary point must satisfy
+`lower_i(p)<=0<=upper_i(p)`. Intersect the rectangle with these halfplanes
+from all four corners using exact rational clipping. An **empty** polygon
+excludes a stationary point; a line or singleton is retained. Combining the
+three new exclusions with the original nine leaves exactly 40 candidates.
+This proves neither that the retained polygons contain roots nor that every
+point outside them has objective value above the comparison threshold.
+
+### Outcome-contingent structural follow-through
+
+Every corrected leaf also has `J_zz>0` and `J_tz>0`. On any covered contiguous
+vertical fiber, `J_z` has at most one zero. Where such a zero is interior, the
+implicit-function theorem gives a locally smooth curve with
+`z'(t)=-J_tz/J_zz<0`. This does not prove a globally existing or connected
+zero graph across the stepped cover.
+
+On that curve, the derivative of `J_t` is
+`J_tt-J_tz^2/J_zz`. K1820 now computes its exact enclosure from the saved
+Hessian intervals on every leaf. **None of the 40 retained leaves has a
+certified positive lower bound.** Thus the existing independent component
+bounds cannot establish the required profile curvature. The next meaningful
+numerical target is the contracted zero tube and its Schur complement,
+with interval-Newton/profile continuation as an alternative; another full
+uncontracted value bank is not justified by these results. Existing K1787
+local existence and all 114 K1819 boundary certificates survive unchanged.
+
+### Controls and acceptance boundary
+
+The consumer replays in standard Python with rational arithmetic. Four exact
+quadratic controls exercise a nonzero anchor gradient, a saddle, a root on
+shared boundaries and an outside-domain root. Additional controls preserve
+zero-area lines/points, forbid edges across uncovered gaps and reject an
+inconsistent derivative. A clean baseline is checked before nine hostile
+mutations of input certificates or reported conclusions. These controls test
+the actual transport and clipping machinery; the global/physics mutations
+separately test reporting discipline. The proof above supplies the continuum
+transfer. Independent code review and the independently derived transport
+calculation are recorded with this provisional checkpoint. An independent
+nonlinear quartic control with variable Hessian bounds also excluded 15 of 16
+boxes while preserving its known root; this is a finite algorithm control,
+not independent quadrature of the Fisher objective.
+
+Complete stationary uniqueness and global admission remain unproved. The
+native status-rollup obligation described below remains pending for a safe
+successor admission; this is not final wave acceptance or canon promotion.
+
 ## October 19 structural completion
 
 K1819 now closes **all 114 exposed atomic faces and all 114 vertices of
 the slab-three retained union**. K1804's earlier 122/122 census describes
 the union across both slabs two and three; it was incorrectly carried as a
 slab-three-only obligation. The original atlas remains valid in its own scope.
-The complete corrected K1818 bank still has nine gradient exclusions and
-43 method-indeterminate leaves. Its incomplete Bernstein replacement is not
-used here. Complete stationary uniqueness and global optimality remain open.
+The complete corrected K1818 bank has nine direct gradient exclusions and
+43 method-indeterminate leaves before the K1820 transport composition above.
+Its incomplete Bernstein replacement is not used here. Complete stationary uniqueness and global optimality remain open.
 
 Classification: `INTERNAL_STRUCTURAL_ONLY`. This result is independent scalar
 variational mathematics and conveys no source-owned physical state, observable,
 prediction, confirmation or unrestricted-infimum claim.
 
 ```gu-typed-objects
-result: K1819 compact-support value transfer and finite-closed-cover boundary theorem
+result: K1819 boundary theorem and K1820 exact derivative transport of stationary candidates
 carrier: real scalar functions of observation y and rational parameter rectangles (t,z); LAYER=toy; CHIRALITY=N/A
 pairing: integral rho_theta(y) f(y) g(y) dy ON=real scalar functions in L2(rho_theta)
 real_structure: ordinary real conjugation
 grading: N/A
 action_owner: repository-construction
-target: full Fisher objective J(theta) and boundary of retained slab-three union; MAP-TYPE=not-a-map
+target: full Fisher objective J(theta), its gradient zero set and boundary of retained slab-three union; MAP-TYPE=not-a-map
 ```
 
 ### Compact support removes the tail obligation for this lower witness
