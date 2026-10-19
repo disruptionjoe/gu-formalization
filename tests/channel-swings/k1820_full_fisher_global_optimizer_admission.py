@@ -23,6 +23,9 @@ def compute():
         "slab_three_stationary_retained_leaves": len(three["certificate"]["whole_line_stationary_retained_leaf_ids"]),
         "slab_three_complete_stationary_cover": three["decision"]["complete_stationary_uniqueness_proved"],
         "slab_three_complete_boundary_cover": three["decision"]["all_slab_three_faces_and_vertices_certified"],
+        "slab_three_whole_line_value_certified_leaves": len(three["certificate"]["whole_line_value_certified_leaf_ids"]),
+        "slab_three_certified_boundary_faces": three["certificate"]["certified_exposed_atomic_faces"],
+        "slab_three_certified_boundary_vertices": three["certificate"]["certified_exposed_boundary_vertices"],
     }
 
 
@@ -35,7 +38,9 @@ def validate(data, got=None):
         ("two slabs closed", got["slab_one_excluded"] and got["slab_two_excluded"]),
         ("26 value leaves certified", got["slab_three_compact_value_certified_leaves"] == 26),
         ("corrected stationary bank partial", got["slab_three_stationary_rejected_leaves"] == 9 and got["slab_three_stationary_retained_leaves"] == 43),
-        ("slab three open", not got["slab_three_complete_stationary_cover"] and not got["slab_three_complete_boundary_cover"]),
+        ("whole-line value transfer", got["slab_three_whole_line_value_certified_leaves"] == 26),
+        ("boundary closed", got["slab_three_complete_boundary_cover"] and got["slab_three_certified_boundary_faces"] == got["slab_three_certified_boundary_vertices"] == 114),
+        ("stationary uniqueness remains open", not got["slab_three_complete_stationary_cover"]),
         ("global withheld", not data["decision"]["global_optimizer_proved"]),
         ("physical withheld", not data["decision"]["source_owned_physical_theory"]),
     ]

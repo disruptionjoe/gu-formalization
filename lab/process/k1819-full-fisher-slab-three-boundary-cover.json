@@ -2,23 +2,2667 @@
   "schema_version": "1.0",
   "claim_id": "K1819",
   "status": "active_research",
-  "title": "The corrected anchor-hull bank excludes nine leaves while the exposed boundary remains open",
-  "inputs": ["K1804", "K1818"],
+  "publication_status": "provisional wave checkpoint; mathematical composition checked; native RESEARCH-STATUS rollup pending",
+  "title": "Compact-support Cauchy witnesses and finite closed pruning certify the complete slab-three boundary",
+  "inputs": [
+    "K1771",
+    "K1791",
+    "K1796",
+    "K1804",
+    "K1816",
+    "K1818"
+  ],
   "certificate": {
     "input_partition_digest": "0b327f8e6a74d5df3e1b24261d5bccdc24229162043494ad82aaaa7922c1d9c0",
     "retained_slab_three_leaves": 78,
-    "compact_value_certified_leaf_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77],
-    "whole_line_stationary_rejected_leaf_ids": [27, 28, 39, 40, 41, 42, 52, 53, 64],
-    "whole_line_stationary_retained_leaf_ids": [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 43, 44, 45, 46, 47, 48, 49, 50, 51, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63],
-    "exposed_atomic_faces": 122,
-    "exposed_boundary_vertices": 122,
-    "certified_exposed_atomic_faces": 0,
-    "certified_exposed_boundary_vertices": 0
+    "compact_value_certified_leaf_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77
+    ],
+    "whole_line_stationary_rejected_leaf_ids": [
+      27,
+      28,
+      39,
+      40,
+      41,
+      42,
+      52,
+      53,
+      64
+    ],
+    "whole_line_stationary_retained_leaf_ids": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63
+    ],
+    "whole_line_value_certified_leaf_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77
+    ],
+    "whole_line_value_threshold": "7958932265249/50000000000000000000",
+    "value_transfer": "J_full >= A_C^2/B_C for H=1_[-11,11]*h_K1787; no derivative of H",
+    "value_evidence": {
+      "0": {
+        "checkpoint_digest": "dd4a5c6bbdeae5e56f9f724a198c3f1a86fd605285a748f1cca2069847421be8",
+        "compact_cross_margin_lower": "[1.4375759170668107571712748025836761807e-24 +/- 4.68e-62]"
+      },
+      "1": {
+        "checkpoint_digest": "ede51e1a325c39ebd0e818f38bd69254e2e9f210c63f9a594b74551f5f601e91",
+        "compact_cross_margin_lower": "[1.3801254767848773844588485531077185843e-24 +/- 2.60e-62]"
+      },
+      "2": {
+        "checkpoint_digest": "24b852b10679015d2d89dfa98de33de92091e0dd0eae06f5f5781d739609f9ee",
+        "compact_cross_margin_lower": "[1.3232454548843758323261282164099750551e-24 +/- 4.31e-62]"
+      },
+      "3": {
+        "checkpoint_digest": "e5b09cecb9c94e202d9e693cb52c0eba05d379b9d1128316831ae9f154caf693",
+        "compact_cross_margin_lower": "[1.2669310602093001406412722112987439423e-24 +/- 4.47e-62]"
+      },
+      "4": {
+        "checkpoint_digest": "ea991326f25ca9788fad34fc049428fb4796f433a9c324d692cf6451249548b8",
+        "compact_cross_margin_lower": "[1.2111775218982185311033098841979846486e-24 +/- 8.64e-63]"
+      },
+      "5": {
+        "checkpoint_digest": "3636d6e91aae471ef5b895c48a338482969b1507aec585528d0154f96f223052",
+        "compact_cross_margin_lower": "[1.1559801159158452852662594755533453576e-24 +/- 3.78e-62]"
+      },
+      "6": {
+        "checkpoint_digest": "c24431f1bdc1600612dbafa8a1ac4dbe0859d09ce617142879bb1049f5c18db2",
+        "compact_cross_margin_lower": "[1.1013341482257293818291323067178767934e-24 +/- 4.02e-62]"
+      },
+      "7": {
+        "checkpoint_digest": "0649d499b5c65f836a3195c7bfc27d0d20a883673d312b03a0bf5e5c550006f7",
+        "compact_cross_margin_lower": "[1.0472349443335439827561540679911119043e-24 +/- 1.56e-62]"
+      },
+      "8": {
+        "checkpoint_digest": "4223a6f5850022098e1b6f4404c2e043922531c30e34f6d7d17577d5a0802721",
+        "compact_cross_margin_lower": "[9.9367787079004679580549759406064926104e-25 +/- 3.21e-63]"
+      },
+      "9": {
+        "checkpoint_digest": "5db1dc48fbd75841553eef5f8675a9dd2e8adca8fab717bc1b73036d807b52fd",
+        "compact_cross_margin_lower": "[9.4065832601245681957834106839942242144e-25 +/- 4.12e-64]"
+      },
+      "10": {
+        "checkpoint_digest": "48038351ea6a4d2eebff45faeaf7b95b3f8d72d03b67dd296a5a6f7a101231b6",
+        "compact_cross_margin_lower": "[8.8817173645403824706700511803823182904e-25 +/- 2.04e-63]"
+      },
+      "11": {
+        "checkpoint_digest": "422b5ebab74dcd02413d313f3a2c0649d4e2dc0321e55140ba37e28074b20b6b",
+        "compact_cross_margin_lower": "[8.3621354860820540540784160952955723200e-25 +/- 3.05e-63]"
+      },
+      "12": {
+        "checkpoint_digest": "21e25b4a115bdedc2fb9ffff2385964cafb573727c50e55af9ac518a2dac4169",
+        "compact_cross_margin_lower": "[7.8477926132806975400698140614135689222e-25 +/- 3.30e-63]"
+      },
+      "65": {
+        "checkpoint_digest": "fd936da41f53fc2f843ea19b9302012ecbd64d0532d3875f2465863a9096c967",
+        "compact_cross_margin_lower": "[4.6962009353243936578390594561033853574e-25 +/- 4.35e-64]"
+      },
+      "66": {
+        "checkpoint_digest": "ba60d4a6865b2d16539d62bdbda8b6331201346257fee8f4339aaa9186c15c47",
+        "compact_cross_margin_lower": "[5.2366552107850060143041839414936693937e-25 +/- 6.64e-64]"
+      },
+      "67": {
+        "checkpoint_digest": "45a982ac488b986861f25e02e59dbbcacc5e048b1a1259978795085e5d25893f",
+        "compact_cross_margin_lower": "[5.7803932226598156327793935374666125687e-25 +/- 2.16e-64]"
+      },
+      "68": {
+        "checkpoint_digest": "b3d6c490c76b112b5ac56ef646dd586a0237c6984302f9deb240080696b73499",
+        "compact_cross_margin_lower": "[6.3273621094195725610633233689414999620e-25 +/- 2.93e-63]"
+      },
+      "69": {
+        "checkpoint_digest": "0b2b870db57e7f48239fbf547415b11709d2e3293afb9fc577ed21caaab44ee3",
+        "compact_cross_margin_lower": "[6.8775092448188215832631538677626692604e-25 +/- 4.56e-63]"
+      },
+      "70": {
+        "checkpoint_digest": "5b3937aae737b0c66a15bb65fa73f408910952258475047af872d67486db8a28",
+        "compact_cross_margin_lower": "[7.4307825093636725876183472795981232978e-25 +/- 2.57e-63]"
+      },
+      "71": {
+        "checkpoint_digest": "4d1cf8cba754fcd7be6072c356e14edb185ecbbc9c0ce099bdf0763947313f89",
+        "compact_cross_margin_lower": "[7.9871300928997055554992721535143926211e-25 +/- 4.70e-63]"
+      },
+      "72": {
+        "checkpoint_digest": "985d9a72ce444955c3f60dbcb2e25d046165c97d2127e658f38b74b38ea8842a",
+        "compact_cross_margin_lower": "[8.5465006438299136682896611378358129344e-25 +/- 1.16e-63]"
+      },
+      "73": {
+        "checkpoint_digest": "0b825510a7de33c9f0e61924bc1a3444697bebe9d5e84829bdbdf91155a773b5",
+        "compact_cross_margin_lower": "[9.1088431942072951522093513229352489239e-25 +/- 3.33e-63]"
+      },
+      "74": {
+        "checkpoint_digest": "31097da6fe98547bded65d22682a247b870fcdfc7d6eba3941c87504f90b1d7a",
+        "compact_cross_margin_lower": "[9.6741072545453161035438924761324543237e-25 +/- 4.55e-63]"
+      },
+      "75": {
+        "checkpoint_digest": "f80f4c6e8affcd4cf4ebd421d3e3b8faaaee2bc9287c1f144e817c57dcc10794",
+        "compact_cross_margin_lower": "[3.3809102138307181472203133452068010796e-24 +/- 1.45e-62]"
+      },
+      "76": {
+        "checkpoint_digest": "77858a1ee3b80f6ecc5efcbb87c0f5802a4a31e2663c7017794f071efd91ff45",
+        "compact_cross_margin_lower": "[3.4698222865638230221230988521011170934e-24 +/- 4.43e-63]"
+      },
+      "77": {
+        "checkpoint_digest": "820d42b33dd0605ea014c73be8cd5843bf0c1187cce6f14c22fc33c37efc1e50",
+        "compact_cross_margin_lower": "[3.5589370261079510507241979955180215108e-24 +/- 1.59e-62]"
+      }
+    },
+    "closed_partition_composition": {
+      "original_slab_three_domain": {
+        "t": [
+          "887855469/17179869184",
+          "4059652289/68719476736"
+        ],
+        "z": [
+          "17/32",
+          "37/64"
+        ]
+      },
+      "input_topology_digest": "1bc7d38ea621f0de11d1b33012c0ee2962f387e6a9fef01d39932a07e48a933b",
+      "first_partition_digest": "8ddb3e279c334e8df5141ed05bbca13e05965e6e62f26c4b514f173219434c59",
+      "second_partition_digest": "0b327f8e6a74d5df3e1b24261d5bccdc24229162043494ad82aaaa7922c1d9c0",
+      "strict_pruning_threshold": "31835729061/200000000000000000",
+      "threshold_slack": "1/50000000000000000000",
+      "proof": "boundary(R) intersect interior(D) is contained in P when D=P union R and P is finite closed",
+      "evidence_kind": "composition of accepted K1791/K1796 finite closed strict partitions; numerical predicates reused"
+    },
+    "ancestor_two_slab_atlas_counts": {
+      "faces": 122,
+      "vertices": 122
+    },
+    "boundary_scope": "boundary of the 78 closed slab-three retained boxes only",
+    "exposed_atomic_faces": 114,
+    "exposed_boundary_vertices": 114,
+    "direct_value_certified_faces": 45,
+    "direct_value_certified_vertices": 47,
+    "certified_exposed_atomic_faces": 114,
+    "certified_exposed_boundary_vertices": 114,
+    "faces": [
+      {
+        "face": [
+          "h",
+          "283/512",
+          "29936066247/549755813888",
+          "60380362907/1099511627776"
+        ],
+        "incident_leaf": 75,
+        "value_witness_leaves": [
+          75
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "h",
+          "1133/2048",
+          "59363902081/1099511627776",
+          "29936066247/549755813888"
+        ],
+        "incident_leaf": 65,
+        "value_witness_leaves": [
+          65
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "h",
+          "1135/2048",
+          "29936066247/549755813888",
+          "60380362907/1099511627776"
+        ],
+        "incident_leaf": 77,
+        "value_witness_leaves": [
+          77
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "h",
+          "1139/2048",
+          "14713917917/274877906944",
+          "59363902081/1099511627776"
+        ],
+        "incident_leaf": 54,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "h",
+          "1143/2048",
+          "59363902081/1099511627776",
+          "29936066247/549755813888"
+        ],
+        "incident_leaf": 74,
+        "value_witness_leaves": [
+          74
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "h",
+          "1145/2048",
+          "58347441255/1099511627776",
+          "14713917917/274877906944"
+        ],
+        "incident_leaf": 41,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "h",
+          "575/1024",
+          "14713917917/274877906944",
+          "59363902081/1099511627776"
+        ],
+        "incident_leaf": 64,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "h",
+          "9/16",
+          "28919605421/549755813888",
+          "58347441255/1099511627776"
+        ],
+        "incident_leaf": 27,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "h",
+          "579/1024",
+          "58347441255/1099511627776",
+          "14713917917/274877906944"
+        ],
+        "incident_leaf": 53,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "h",
+          "145/256",
+          "57330980429/1099511627776",
+          "28919605421/549755813888"
+        ],
+        "incident_leaf": 13,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "h",
+          "583/1024",
+          "28919605421/549755813888",
+          "58347441255/1099511627776"
+        ],
+        "incident_leaf": 40,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "h",
+          "1169/2048",
+          "887855469/17179869184",
+          "57330980429/1099511627776"
+        ],
+        "incident_leaf": 0,
+        "value_witness_leaves": [
+          0
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "h",
+          "587/1024",
+          "57330980429/1099511627776",
+          "28919605421/549755813888"
+        ],
+        "incident_leaf": 26,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "h",
+          "591/1024",
+          "887855469/17179869184",
+          "57330980429/1099511627776"
+        ],
+        "incident_leaf": 12,
+        "value_witness_leaves": [
+          12
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "v",
+          "887855469/17179869184",
+          "1169/2048",
+          "585/1024"
+        ],
+        "incident_leaf": 0,
+        "value_witness_leaves": [
+          0
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "v",
+          "887855469/17179869184",
+          "585/1024",
+          "1171/2048"
+        ],
+        "incident_leaf": 1,
+        "value_witness_leaves": [
+          1
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "v",
+          "887855469/17179869184",
+          "1171/2048",
+          "293/512"
+        ],
+        "incident_leaf": 2,
+        "value_witness_leaves": [
+          2
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "v",
+          "887855469/17179869184",
+          "293/512",
+          "1173/2048"
+        ],
+        "incident_leaf": 3,
+        "value_witness_leaves": [
+          3
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "v",
+          "887855469/17179869184",
+          "1173/2048",
+          "587/1024"
+        ],
+        "incident_leaf": 4,
+        "value_witness_leaves": [
+          4
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "v",
+          "887855469/17179869184",
+          "587/1024",
+          "1175/2048"
+        ],
+        "incident_leaf": 5,
+        "value_witness_leaves": [
+          5
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "v",
+          "887855469/17179869184",
+          "1175/2048",
+          "147/256"
+        ],
+        "incident_leaf": 6,
+        "value_witness_leaves": [
+          6
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "v",
+          "887855469/17179869184",
+          "147/256",
+          "1177/2048"
+        ],
+        "incident_leaf": 7,
+        "value_witness_leaves": [
+          7
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "v",
+          "887855469/17179869184",
+          "1177/2048",
+          "589/1024"
+        ],
+        "incident_leaf": 8,
+        "value_witness_leaves": [
+          8
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "v",
+          "887855469/17179869184",
+          "589/1024",
+          "1179/2048"
+        ],
+        "incident_leaf": 9,
+        "value_witness_leaves": [
+          9
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "v",
+          "887855469/17179869184",
+          "1179/2048",
+          "295/512"
+        ],
+        "incident_leaf": 10,
+        "value_witness_leaves": [
+          10
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "v",
+          "887855469/17179869184",
+          "295/512",
+          "1181/2048"
+        ],
+        "incident_leaf": 11,
+        "value_witness_leaves": [
+          11
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "v",
+          "887855469/17179869184",
+          "1181/2048",
+          "591/1024"
+        ],
+        "incident_leaf": 12,
+        "value_witness_leaves": [
+          12
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "v",
+          "57330980429/1099511627776",
+          "145/256",
+          "1161/2048"
+        ],
+        "incident_leaf": 13,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "57330980429/1099511627776",
+          "1161/2048",
+          "581/1024"
+        ],
+        "incident_leaf": 14,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "57330980429/1099511627776",
+          "581/1024",
+          "1163/2048"
+        ],
+        "incident_leaf": 15,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "57330980429/1099511627776",
+          "1163/2048",
+          "291/512"
+        ],
+        "incident_leaf": 16,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "57330980429/1099511627776",
+          "291/512",
+          "1165/2048"
+        ],
+        "incident_leaf": 17,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "57330980429/1099511627776",
+          "1165/2048",
+          "583/1024"
+        ],
+        "incident_leaf": 18,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "57330980429/1099511627776",
+          "583/1024",
+          "1167/2048"
+        ],
+        "incident_leaf": 19,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "57330980429/1099511627776",
+          "1167/2048",
+          "73/128"
+        ],
+        "incident_leaf": 20,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "57330980429/1099511627776",
+          "73/128",
+          "1169/2048"
+        ],
+        "incident_leaf": 21,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "57330980429/1099511627776",
+          "587/1024",
+          "1175/2048"
+        ],
+        "incident_leaf": 5,
+        "value_witness_leaves": [
+          5
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "v",
+          "57330980429/1099511627776",
+          "1175/2048",
+          "147/256"
+        ],
+        "incident_leaf": 6,
+        "value_witness_leaves": [
+          6
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "v",
+          "57330980429/1099511627776",
+          "147/256",
+          "1177/2048"
+        ],
+        "incident_leaf": 7,
+        "value_witness_leaves": [
+          7
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "v",
+          "57330980429/1099511627776",
+          "1177/2048",
+          "589/1024"
+        ],
+        "incident_leaf": 8,
+        "value_witness_leaves": [
+          8
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "v",
+          "57330980429/1099511627776",
+          "589/1024",
+          "1179/2048"
+        ],
+        "incident_leaf": 9,
+        "value_witness_leaves": [
+          9
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "v",
+          "57330980429/1099511627776",
+          "1179/2048",
+          "295/512"
+        ],
+        "incident_leaf": 10,
+        "value_witness_leaves": [
+          10
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "v",
+          "57330980429/1099511627776",
+          "295/512",
+          "1181/2048"
+        ],
+        "incident_leaf": 11,
+        "value_witness_leaves": [
+          11
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "v",
+          "57330980429/1099511627776",
+          "1181/2048",
+          "591/1024"
+        ],
+        "incident_leaf": 12,
+        "value_witness_leaves": [
+          12
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "v",
+          "28919605421/549755813888",
+          "9/16",
+          "1153/2048"
+        ],
+        "incident_leaf": 27,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "28919605421/549755813888",
+          "1153/2048",
+          "577/1024"
+        ],
+        "incident_leaf": 28,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "28919605421/549755813888",
+          "577/1024",
+          "1155/2048"
+        ],
+        "incident_leaf": 29,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "28919605421/549755813888",
+          "1155/2048",
+          "289/512"
+        ],
+        "incident_leaf": 30,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "28919605421/549755813888",
+          "289/512",
+          "1157/2048"
+        ],
+        "incident_leaf": 31,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "28919605421/549755813888",
+          "1157/2048",
+          "579/1024"
+        ],
+        "incident_leaf": 32,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "28919605421/549755813888",
+          "579/1024",
+          "1159/2048"
+        ],
+        "incident_leaf": 33,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "28919605421/549755813888",
+          "1159/2048",
+          "145/256"
+        ],
+        "incident_leaf": 34,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "28919605421/549755813888",
+          "583/1024",
+          "1167/2048"
+        ],
+        "incident_leaf": 19,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "28919605421/549755813888",
+          "1167/2048",
+          "73/128"
+        ],
+        "incident_leaf": 20,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "28919605421/549755813888",
+          "73/128",
+          "1169/2048"
+        ],
+        "incident_leaf": 21,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "28919605421/549755813888",
+          "1169/2048",
+          "585/1024"
+        ],
+        "incident_leaf": 22,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "28919605421/549755813888",
+          "585/1024",
+          "1171/2048"
+        ],
+        "incident_leaf": 23,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "28919605421/549755813888",
+          "1171/2048",
+          "293/512"
+        ],
+        "incident_leaf": 24,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "28919605421/549755813888",
+          "293/512",
+          "1173/2048"
+        ],
+        "incident_leaf": 25,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "28919605421/549755813888",
+          "1173/2048",
+          "587/1024"
+        ],
+        "incident_leaf": 26,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "58347441255/1099511627776",
+          "1145/2048",
+          "573/1024"
+        ],
+        "incident_leaf": 41,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "58347441255/1099511627776",
+          "573/1024",
+          "1147/2048"
+        ],
+        "incident_leaf": 42,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "58347441255/1099511627776",
+          "1147/2048",
+          "287/512"
+        ],
+        "incident_leaf": 43,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "58347441255/1099511627776",
+          "287/512",
+          "1149/2048"
+        ],
+        "incident_leaf": 44,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "58347441255/1099511627776",
+          "1149/2048",
+          "575/1024"
+        ],
+        "incident_leaf": 45,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "58347441255/1099511627776",
+          "575/1024",
+          "1151/2048"
+        ],
+        "incident_leaf": 46,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "58347441255/1099511627776",
+          "1151/2048",
+          "9/16"
+        ],
+        "incident_leaf": 47,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "58347441255/1099511627776",
+          "579/1024",
+          "1159/2048"
+        ],
+        "incident_leaf": 33,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "58347441255/1099511627776",
+          "1159/2048",
+          "145/256"
+        ],
+        "incident_leaf": 34,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "58347441255/1099511627776",
+          "145/256",
+          "1161/2048"
+        ],
+        "incident_leaf": 35,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "58347441255/1099511627776",
+          "1161/2048",
+          "581/1024"
+        ],
+        "incident_leaf": 36,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "58347441255/1099511627776",
+          "581/1024",
+          "1163/2048"
+        ],
+        "incident_leaf": 37,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "58347441255/1099511627776",
+          "1163/2048",
+          "291/512"
+        ],
+        "incident_leaf": 38,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "58347441255/1099511627776",
+          "291/512",
+          "1165/2048"
+        ],
+        "incident_leaf": 39,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "58347441255/1099511627776",
+          "1165/2048",
+          "583/1024"
+        ],
+        "incident_leaf": 40,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "14713917917/274877906944",
+          "1139/2048",
+          "285/512"
+        ],
+        "incident_leaf": 54,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "14713917917/274877906944",
+          "285/512",
+          "1141/2048"
+        ],
+        "incident_leaf": 55,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "14713917917/274877906944",
+          "1141/2048",
+          "571/1024"
+        ],
+        "incident_leaf": 56,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "14713917917/274877906944",
+          "571/1024",
+          "1143/2048"
+        ],
+        "incident_leaf": 57,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "14713917917/274877906944",
+          "1143/2048",
+          "143/256"
+        ],
+        "incident_leaf": 58,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "14713917917/274877906944",
+          "143/256",
+          "1145/2048"
+        ],
+        "incident_leaf": 59,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "14713917917/274877906944",
+          "575/1024",
+          "1151/2048"
+        ],
+        "incident_leaf": 46,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "14713917917/274877906944",
+          "1151/2048",
+          "9/16"
+        ],
+        "incident_leaf": 47,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "14713917917/274877906944",
+          "9/16",
+          "1153/2048"
+        ],
+        "incident_leaf": 48,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "14713917917/274877906944",
+          "1153/2048",
+          "577/1024"
+        ],
+        "incident_leaf": 49,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "14713917917/274877906944",
+          "577/1024",
+          "1155/2048"
+        ],
+        "incident_leaf": 50,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "14713917917/274877906944",
+          "1155/2048",
+          "289/512"
+        ],
+        "incident_leaf": 51,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "14713917917/274877906944",
+          "289/512",
+          "1157/2048"
+        ],
+        "incident_leaf": 52,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "14713917917/274877906944",
+          "1157/2048",
+          "579/1024"
+        ],
+        "incident_leaf": 53,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "59363902081/1099511627776",
+          "1133/2048",
+          "567/1024"
+        ],
+        "incident_leaf": 65,
+        "value_witness_leaves": [
+          65
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "v",
+          "59363902081/1099511627776",
+          "567/1024",
+          "1135/2048"
+        ],
+        "incident_leaf": 66,
+        "value_witness_leaves": [
+          66
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "v",
+          "59363902081/1099511627776",
+          "1135/2048",
+          "71/128"
+        ],
+        "incident_leaf": 67,
+        "value_witness_leaves": [
+          67
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "v",
+          "59363902081/1099511627776",
+          "71/128",
+          "1137/2048"
+        ],
+        "incident_leaf": 68,
+        "value_witness_leaves": [
+          68
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "v",
+          "59363902081/1099511627776",
+          "1137/2048",
+          "569/1024"
+        ],
+        "incident_leaf": 69,
+        "value_witness_leaves": [
+          69
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "v",
+          "59363902081/1099511627776",
+          "569/1024",
+          "1139/2048"
+        ],
+        "incident_leaf": 70,
+        "value_witness_leaves": [
+          70
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "v",
+          "59363902081/1099511627776",
+          "1143/2048",
+          "143/256"
+        ],
+        "incident_leaf": 58,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "59363902081/1099511627776",
+          "143/256",
+          "1145/2048"
+        ],
+        "incident_leaf": 59,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "59363902081/1099511627776",
+          "1145/2048",
+          "573/1024"
+        ],
+        "incident_leaf": 60,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "59363902081/1099511627776",
+          "573/1024",
+          "1147/2048"
+        ],
+        "incident_leaf": 61,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "59363902081/1099511627776",
+          "1147/2048",
+          "287/512"
+        ],
+        "incident_leaf": 62,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "59363902081/1099511627776",
+          "287/512",
+          "1149/2048"
+        ],
+        "incident_leaf": 63,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "59363902081/1099511627776",
+          "1149/2048",
+          "575/1024"
+        ],
+        "incident_leaf": 64,
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "face": [
+          "v",
+          "29936066247/549755813888",
+          "283/512",
+          "1133/2048"
+        ],
+        "incident_leaf": 75,
+        "value_witness_leaves": [
+          75
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "v",
+          "29936066247/549755813888",
+          "1135/2048",
+          "71/128"
+        ],
+        "incident_leaf": 67,
+        "value_witness_leaves": [
+          67
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "v",
+          "29936066247/549755813888",
+          "71/128",
+          "1137/2048"
+        ],
+        "incident_leaf": 68,
+        "value_witness_leaves": [
+          68
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "v",
+          "29936066247/549755813888",
+          "1137/2048",
+          "569/1024"
+        ],
+        "incident_leaf": 69,
+        "value_witness_leaves": [
+          69
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "v",
+          "29936066247/549755813888",
+          "569/1024",
+          "1139/2048"
+        ],
+        "incident_leaf": 70,
+        "value_witness_leaves": [
+          70
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "v",
+          "29936066247/549755813888",
+          "1139/2048",
+          "285/512"
+        ],
+        "incident_leaf": 71,
+        "value_witness_leaves": [
+          71
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "v",
+          "29936066247/549755813888",
+          "285/512",
+          "1141/2048"
+        ],
+        "incident_leaf": 72,
+        "value_witness_leaves": [
+          72
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "v",
+          "29936066247/549755813888",
+          "1141/2048",
+          "571/1024"
+        ],
+        "incident_leaf": 73,
+        "value_witness_leaves": [
+          73
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "v",
+          "29936066247/549755813888",
+          "571/1024",
+          "1143/2048"
+        ],
+        "incident_leaf": 74,
+        "value_witness_leaves": [
+          74
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "v",
+          "60380362907/1099511627776",
+          "283/512",
+          "1133/2048"
+        ],
+        "incident_leaf": 75,
+        "value_witness_leaves": [
+          75
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "v",
+          "60380362907/1099511627776",
+          "1133/2048",
+          "567/1024"
+        ],
+        "incident_leaf": 76,
+        "value_witness_leaves": [
+          76
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "face": [
+          "v",
+          "60380362907/1099511627776",
+          "567/1024",
+          "1135/2048"
+        ],
+        "incident_leaf": 77,
+        "value_witness_leaves": [
+          77
+        ],
+        "closure": "compact_support_value"
+      }
+    ],
+    "vertices": [
+      {
+        "vertex": [
+          "887855469/17179869184",
+          "1169/2048"
+        ],
+        "value_witness_leaves": [
+          0
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "887855469/17179869184",
+          "585/1024"
+        ],
+        "value_witness_leaves": [
+          0,
+          1
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "887855469/17179869184",
+          "1171/2048"
+        ],
+        "value_witness_leaves": [
+          1,
+          2
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "887855469/17179869184",
+          "293/512"
+        ],
+        "value_witness_leaves": [
+          2,
+          3
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "887855469/17179869184",
+          "1173/2048"
+        ],
+        "value_witness_leaves": [
+          3,
+          4
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "887855469/17179869184",
+          "587/1024"
+        ],
+        "value_witness_leaves": [
+          4,
+          5
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "887855469/17179869184",
+          "1175/2048"
+        ],
+        "value_witness_leaves": [
+          5,
+          6
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "887855469/17179869184",
+          "147/256"
+        ],
+        "value_witness_leaves": [
+          6,
+          7
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "887855469/17179869184",
+          "1177/2048"
+        ],
+        "value_witness_leaves": [
+          7,
+          8
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "887855469/17179869184",
+          "589/1024"
+        ],
+        "value_witness_leaves": [
+          8,
+          9
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "887855469/17179869184",
+          "1179/2048"
+        ],
+        "value_witness_leaves": [
+          9,
+          10
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "887855469/17179869184",
+          "295/512"
+        ],
+        "value_witness_leaves": [
+          10,
+          11
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "887855469/17179869184",
+          "1181/2048"
+        ],
+        "value_witness_leaves": [
+          11,
+          12
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "887855469/17179869184",
+          "591/1024"
+        ],
+        "value_witness_leaves": [
+          12
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "57330980429/1099511627776",
+          "145/256"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "57330980429/1099511627776",
+          "1161/2048"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "57330980429/1099511627776",
+          "581/1024"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "57330980429/1099511627776",
+          "1163/2048"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "57330980429/1099511627776",
+          "291/512"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "57330980429/1099511627776",
+          "1165/2048"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "57330980429/1099511627776",
+          "583/1024"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "57330980429/1099511627776",
+          "1167/2048"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "57330980429/1099511627776",
+          "73/128"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "57330980429/1099511627776",
+          "1169/2048"
+        ],
+        "value_witness_leaves": [
+          0
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "57330980429/1099511627776",
+          "587/1024"
+        ],
+        "value_witness_leaves": [
+          4,
+          5
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "57330980429/1099511627776",
+          "1175/2048"
+        ],
+        "value_witness_leaves": [
+          5,
+          6
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "57330980429/1099511627776",
+          "147/256"
+        ],
+        "value_witness_leaves": [
+          6,
+          7
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "57330980429/1099511627776",
+          "1177/2048"
+        ],
+        "value_witness_leaves": [
+          7,
+          8
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "57330980429/1099511627776",
+          "589/1024"
+        ],
+        "value_witness_leaves": [
+          8,
+          9
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "57330980429/1099511627776",
+          "1179/2048"
+        ],
+        "value_witness_leaves": [
+          9,
+          10
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "57330980429/1099511627776",
+          "295/512"
+        ],
+        "value_witness_leaves": [
+          10,
+          11
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "57330980429/1099511627776",
+          "1181/2048"
+        ],
+        "value_witness_leaves": [
+          11,
+          12
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "57330980429/1099511627776",
+          "591/1024"
+        ],
+        "value_witness_leaves": [
+          12
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "28919605421/549755813888",
+          "9/16"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "28919605421/549755813888",
+          "1153/2048"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "28919605421/549755813888",
+          "577/1024"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "28919605421/549755813888",
+          "1155/2048"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "28919605421/549755813888",
+          "289/512"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "28919605421/549755813888",
+          "1157/2048"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "28919605421/549755813888",
+          "579/1024"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "28919605421/549755813888",
+          "1159/2048"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "28919605421/549755813888",
+          "145/256"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "28919605421/549755813888",
+          "583/1024"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "28919605421/549755813888",
+          "1167/2048"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "28919605421/549755813888",
+          "73/128"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "28919605421/549755813888",
+          "1169/2048"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "28919605421/549755813888",
+          "585/1024"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "28919605421/549755813888",
+          "1171/2048"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "28919605421/549755813888",
+          "293/512"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "28919605421/549755813888",
+          "1173/2048"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "28919605421/549755813888",
+          "587/1024"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "58347441255/1099511627776",
+          "1145/2048"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "58347441255/1099511627776",
+          "573/1024"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "58347441255/1099511627776",
+          "1147/2048"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "58347441255/1099511627776",
+          "287/512"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "58347441255/1099511627776",
+          "1149/2048"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "58347441255/1099511627776",
+          "575/1024"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "58347441255/1099511627776",
+          "1151/2048"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "58347441255/1099511627776",
+          "9/16"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "58347441255/1099511627776",
+          "579/1024"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "58347441255/1099511627776",
+          "1159/2048"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "58347441255/1099511627776",
+          "145/256"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "58347441255/1099511627776",
+          "1161/2048"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "58347441255/1099511627776",
+          "581/1024"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "58347441255/1099511627776",
+          "1163/2048"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "58347441255/1099511627776",
+          "291/512"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "58347441255/1099511627776",
+          "1165/2048"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "58347441255/1099511627776",
+          "583/1024"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "14713917917/274877906944",
+          "1139/2048"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "14713917917/274877906944",
+          "285/512"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "14713917917/274877906944",
+          "1141/2048"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "14713917917/274877906944",
+          "571/1024"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "14713917917/274877906944",
+          "1143/2048"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "14713917917/274877906944",
+          "143/256"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "14713917917/274877906944",
+          "1145/2048"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "14713917917/274877906944",
+          "575/1024"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "14713917917/274877906944",
+          "1151/2048"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "14713917917/274877906944",
+          "9/16"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "14713917917/274877906944",
+          "1153/2048"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "14713917917/274877906944",
+          "577/1024"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "14713917917/274877906944",
+          "1155/2048"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "14713917917/274877906944",
+          "289/512"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "14713917917/274877906944",
+          "1157/2048"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "14713917917/274877906944",
+          "579/1024"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "59363902081/1099511627776",
+          "1133/2048"
+        ],
+        "value_witness_leaves": [
+          65
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "59363902081/1099511627776",
+          "567/1024"
+        ],
+        "value_witness_leaves": [
+          65,
+          66
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "59363902081/1099511627776",
+          "1135/2048"
+        ],
+        "value_witness_leaves": [
+          66,
+          67
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "59363902081/1099511627776",
+          "71/128"
+        ],
+        "value_witness_leaves": [
+          67,
+          68
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "59363902081/1099511627776",
+          "1137/2048"
+        ],
+        "value_witness_leaves": [
+          68,
+          69
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "59363902081/1099511627776",
+          "569/1024"
+        ],
+        "value_witness_leaves": [
+          69,
+          70
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "59363902081/1099511627776",
+          "1139/2048"
+        ],
+        "value_witness_leaves": [
+          70,
+          71
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "59363902081/1099511627776",
+          "1143/2048"
+        ],
+        "value_witness_leaves": [
+          74
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "59363902081/1099511627776",
+          "143/256"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "59363902081/1099511627776",
+          "1145/2048"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "59363902081/1099511627776",
+          "573/1024"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "59363902081/1099511627776",
+          "1147/2048"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "59363902081/1099511627776",
+          "287/512"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "59363902081/1099511627776",
+          "1149/2048"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "59363902081/1099511627776",
+          "575/1024"
+        ],
+        "value_witness_leaves": [],
+        "closure": "finite_closed_pruned_cover"
+      },
+      {
+        "vertex": [
+          "29936066247/549755813888",
+          "283/512"
+        ],
+        "value_witness_leaves": [
+          75
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "29936066247/549755813888",
+          "1133/2048"
+        ],
+        "value_witness_leaves": [
+          65,
+          75,
+          76
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "29936066247/549755813888",
+          "1135/2048"
+        ],
+        "value_witness_leaves": [
+          66,
+          67,
+          77
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "29936066247/549755813888",
+          "71/128"
+        ],
+        "value_witness_leaves": [
+          67,
+          68
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "29936066247/549755813888",
+          "1137/2048"
+        ],
+        "value_witness_leaves": [
+          68,
+          69
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "29936066247/549755813888",
+          "569/1024"
+        ],
+        "value_witness_leaves": [
+          69,
+          70
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "29936066247/549755813888",
+          "1139/2048"
+        ],
+        "value_witness_leaves": [
+          70,
+          71
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "29936066247/549755813888",
+          "285/512"
+        ],
+        "value_witness_leaves": [
+          71,
+          72
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "29936066247/549755813888",
+          "1141/2048"
+        ],
+        "value_witness_leaves": [
+          72,
+          73
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "29936066247/549755813888",
+          "571/1024"
+        ],
+        "value_witness_leaves": [
+          73,
+          74
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "29936066247/549755813888",
+          "1143/2048"
+        ],
+        "value_witness_leaves": [
+          74
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "60380362907/1099511627776",
+          "283/512"
+        ],
+        "value_witness_leaves": [
+          75
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "60380362907/1099511627776",
+          "1133/2048"
+        ],
+        "value_witness_leaves": [
+          75,
+          76
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "60380362907/1099511627776",
+          "567/1024"
+        ],
+        "value_witness_leaves": [
+          76,
+          77
+        ],
+        "closure": "compact_support_value"
+      },
+      {
+        "vertex": [
+          "60380362907/1099511627776",
+          "1135/2048"
+        ],
+        "value_witness_leaves": [
+          77
+        ],
+        "closure": "compact_support_value"
+      }
+    ]
   },
   "decision": {
     "complete_stationary_uniqueness_proved": false,
-    "all_slab_three_faces_and_vertices_certified": false,
+    "all_slab_three_faces_and_vertices_certified": true,
     "global_optimizer_proved": false
   },
-  "scope_guard": "K1816 proves strict compact value margins on 26 leaves and corrected K1818 gradient exclusion closes nine more leaves. The 43 retained leaves are interval-method indeterminacy, not evidence of additional stationary points. All 122 exposed atomic faces and 122 exposed vertices remain open."
+  "scope_guard": "The support-truncated K1787 witness transfers 26 positive compact margins to whole-line value bounds. Of 114 slab-three atomic boundary faces and 114 vertices, 45 faces and 47 vertices inherit direct closed-box bounds; the remaining 69 faces and 67 vertices inherit strict bounds from the accepted finite closed K1791/K1796 pruned cover. All outer-domain pieces have direct witnesses. K1804 counts 122 faces and 122 vertices across both slabs. Complete stationary uniqueness, the global optimizer and physical theory remain unproved; no untruncated witness margin is inferred."
 }

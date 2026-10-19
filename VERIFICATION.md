@@ -2,10 +2,27 @@
 title: "Verification: What Is Proved, Computed, and Conjectural"
 status: process
 doc_type: verification-map
-updated_at: "2026-10-16"
+updated_at: "2026-10-19"
 ---
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
+
+## K1819 complete slab-three boundary composition (2026-10-19)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The compact fixed-score witness needs tails to lower-bound full Fisher | Support-truncated L2 Cauchy proof | false for this lower witness; the untruncated witness is a different quantity |
+| K1816 positive compact margins certify full-line values | 26 existing digest-checked leaf certificates | proved by composition, no new quadrature |
+| The 122/122 atlas describes slab three alone | Exact retained-box geometry | false: K1804 spans both slabs; slab three has 114/114 |
+| Every slab-three exposed face and vertex is excluded | 45/47 direct witnesses plus 69/67 finite-closed-pruning inheritance | proved from accepted K1791/K1796 partitions |
+| Interior uniqueness and global optimality follow | K1820 protected composition | not established |
+
+Independent proof review checked score scaling, unrenormalized measure,
+cutoff regularity, strict thresholds and finite closed-cover hypotheses.
+K1819/K1820 direct controls pass 15/11; probes pass 18/3 including exact
+Cauchy and geometry controls and hostile mutations. Accepted quadrature and
+Bernstein pruning are reused, not counted as fresh independent verification.
+Earlier open-boundary statements below are historical and superseded here.
 
 ## K1816--K1820 slab-three leafwise calibration wave (2026-10-16)
 

@@ -2,10 +2,18 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-10-16"
+updated_at: "2026-10-19"
 ---
 
 # Next Steps For Contributors
+
+> **2026-10-19 K1819 BOUNDARY CLOSED.** Compact-support Cauchy witnesses and
+> finite closed pruning certify all 114 slab-three faces and all 114 vertices.
+> K1804's 122/122 counts span both slabs. No separate boundary quadrature
+> remains. Finish the Bernstein gradient replay, preserve method-indeterminate
+> leaves honestly, and close complete interior stationary uniqueness before
+> global admission. See the K1816--K1820 exploration for the two structural
+> arguments and exact dependencies. Older boundary obligations below are historical.
 
 > **2026-10-16 K1818 CORRECTED BANK.** The complete configuration-distinct
 > anchor-hull replay excludes nine of K1816's 52 value-indeterminate leaves by

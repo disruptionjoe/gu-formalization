@@ -2,8 +2,12 @@
   "schema_version": "1.0",
   "claim_id": "K1820",
   "status": "active_research",
-  "title": "Global optimizer promotion remains withheld after the corrected gradient bank",
-  "inputs": ["K1809", "K1819"],
+  "publication_status": "provisional wave checkpoint; complete stationary uniqueness and native status rollup pending",
+  "title": "Complete boundary closure leaves stationary uniqueness as the live global optimizer obligation",
+  "inputs": [
+    "K1809",
+    "K1819"
+  ],
   "certificate": {
     "slab_one_excluded": true,
     "slab_two_excluded": true,
@@ -12,11 +16,14 @@
     "slab_three_stationary_rejected_leaves": 9,
     "slab_three_stationary_retained_leaves": 43,
     "slab_three_complete_stationary_cover": false,
-    "slab_three_complete_boundary_cover": false
+    "slab_three_complete_boundary_cover": true,
+    "slab_three_whole_line_value_certified_leaves": 26,
+    "slab_three_certified_boundary_faces": 114,
+    "slab_three_certified_boundary_vertices": 114
   },
   "decision": {
     "global_optimizer_proved": false,
     "source_owned_physical_theory": false
   },
-  "scope_guard": "Corrected K1818 excludes nine leaves by whole-line gradient and retains 43 as method-indeterminate, including K1787's named stationary leaf. The exposed boundary, complete stationary cover and global optimizer admission remain open."
+  "scope_guard": "K1819 closes all 114 slab-three boundary faces and 114 vertices, composing compact-support Cauchy witnesses with accepted finite closed pruning. Corrected K1818 excludes nine leaves by whole-line gradient and retains 43 as method-indeterminate, including K1787's named stationary leaf. Complete stationary uniqueness and global optimizer admission remain open; the unfinished Bernstein replay is not promoted."
 }

@@ -12,7 +12,7 @@ supersedes the historical aggregate embedded in the long directory table.
 - K1816 restart-safe order-six/seven/eight leaf calibration and hostile probe.
 - K1817 order-eight exact-parent scale scout and hostile probe.
 - K1818 corrected anchor-hull whole-line gradient/Hessian-tail bank and hostile probe.
-- K1819 residual stationary and exposed-boundary status composition and hostile probe.
+- K1819 compact-support Cauchy and finite closed-cover boundary composition and hostile probe.
 - K1820 protected global-optimizer admission and hostile probe.
 
 K1816 now embeds the complete uniform order-eight bank: 26 exact leaves have
@@ -25,7 +25,9 @@ also proves that order eight on the complete first parent remains
 interval-indeterminate. K1818's first gradient bank is withdrawn because its
 Taylor remainder derivative enclosure omitted the K1787-anchor-to-leaf hull.
 The corrected complete replay excludes nine leaves and retains 43 as
-method-indeterminate. Exposed boundary, complete uniqueness and the global
+method-indeterminate. K1819 now closes all 114 slab-three faces and 114
+vertices by compact-support Cauchy plus finite closed pruning, reusing accepted
+certificates without new quadrature. Complete interior uniqueness and the global
 theorem stay open. K1816--K1818 use `uv
 run --with python-flint==0.9.0 --with sympy==1.14.0 python`; K1819--K1820 use
 standard Python.

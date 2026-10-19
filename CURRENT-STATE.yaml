@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 317b4fefde1cf1db865ade223d1d7fa591dcb412
+revision_basis: 81c54817a07d4545db4a83d0b2e757a853b56aa1
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,19 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    Provisional checkpoint: K1819 closes the complete slab-three exposed boundary without new
+    quadrature. The fixed K1787 score restricted to [-11,11] is an L2 Cauchy
+    witness, so K1816's 26 positive compact margins already certify whole-line
+    value bounds. Exact geometry gives 114 slab-three faces and 114 vertices;
+    45 faces and 47 vertices inherit direct closed-box bounds, and the remaining
+    69 faces and 67 vertices inherit the accepted finite closed K1791/K1796
+    pruned-cover bounds. K1804's 122/122 census covers both slabs, not slab three
+    alone. Complete interior stationary uniqueness and global optimization
+    remain unproved. The incomplete Bernstein replacement bank is not promoted.
+    Native RESEARCH-STATUS promotion rollup remains pending under a successor
+    scope; this checkpoint does not assert final wave acceptance.
+
+    Historical through October 16 (open-boundary wording superseded above):
     K1818's complete corrected order-eight full-objective gradient bank uses
     configuration-distinct checkpoints and the exact axis-aligned hull of the
     K1787 anchor with each target leaf. It rigorously excludes nine of K1816's
@@ -15714,14 +15727,15 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K1816--K1820 combine 26 strict compact value leaves with a corrected
-  anchor-hull whole-line gradient bank that excludes nine more leaves and
-  retains 43 as method-indeterminate, including K1787's named stationary leaf.
-  Can a complete interval-Newton/Krawczyk cover now reject the other 42
-  nonlocal retained leaves, isolate the named stationary component, and close
-  all 122 exposed faces and 122 exposed vertices? A retained interval leaf is
-  not evidence of another stationary point. No scalar trial law is a
-  source-owned physical state or unrestricted infimum.
+  K1819 now closes all 114 slab-three boundary faces and all 114 vertices by
+  compact-support Cauchy and finite closed pruning. Can a complete
+  interval-Newton/Krawczyk cover reject the 42 nonlocal candidates in K1818's
+  published corrected bank and isolate K1787's named stationary component?
+  The incomplete Bernstein replacement bank is still provisional. A retained
+  interval leaf is not evidence of another stationary point. No scalar trial
+  law is a source-owned physical state or unrestricted infimum.
+
+  Historical prior continuation (boundary work is superseded by K1819):
 
   K1806--K1810 exclude the complete slab-two full-Fisher sublevel by a fixed
   K1788-score Cauchy witness, centered sixth-order compact Taylor certificate
@@ -18658,14 +18672,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Preserve K1816's 26 strict compact value certificates and K1818's nine
-  corrected whole-line gradient exclusions on leaves 27, 28, 39--42, 52, 53
-  and 64. Preserve the other 43 leaves as method-indeterminate and K1787's
-  named stationary box inside leaf 50. Next construct a complete
-  interval-Newton/Krawczyk cover for the 42 nonlocal retained leaves and the
-  named box, then certify every exposed face and vertex before K1820 global
-  promotion. No source-owned Hamiltonian, physical state, observation,
-  prediction or admission follows.
+  Preserve K1819's complete 114-face/114-vertex boundary certificate and
+  K1816's 26 compact-support whole-line value bounds. Preserve the published
+  K1818 nine corrected gradient exclusions and 43 method-indeterminate leaves,
+  including K1787's named box in leaf 50. Finish and independently review the
+  Bernstein replacement bank, then close complete interior stationary
+  uniqueness before K1820 global promotion. No separate exposed-boundary
+  quadrature remains. No physical state, observation or prediction follows.
+
+  Historical prior continuation (its boundary obligation is now closed):
 
   Preserve K1806 as a variational lower bound, not equality away from its
   anchor. Preserve K1807's strict sixth-order result as a compact-window
