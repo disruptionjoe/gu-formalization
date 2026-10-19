@@ -20,6 +20,7 @@ import os
 import sys
 from functools import cache
 from fractions import Fraction as F
+from math import comb, factorial
 from pathlib import Path
 
 from flint import arb
@@ -119,11 +120,105 @@ def checkpoint_path(leaf_id: int) -> Path:
     )
 
 
+def bernstein_checkpoint_path(leaf_id: int) -> Path:
+    return CHECKPOINT_DIR / (
+        f"leaf-{leaf_id:03d}-order-{PARAMETER_ORDER:02d}"
+        f"-cell-{CELL_HALF_WIDTH.numerator}-{CELL_HALF_WIDTH.denominator}"
+        f"-observation-{OBSERVATION_ORDER:02d}-remainder-anchor-hull-bernstein.json"
+    )
+
+
 def atomic_json(path: Path, data: dict) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     temporary = path.with_name(f".{path.name}.{os.getpid()}.tmp")
     temporary.write_text(json.dumps(data, indent=2, sort_keys=True) + "\n")
     os.replace(temporary, path)
+
+
+def affine_power_to_bernstein_range(
+    coefficients: dict[tuple[int, int], arb],
+    x_lo: arb,
+    x_hi: arb,
+    y_lo: arb,
+    y_hi: arb,
+    degree: int,
+) -> arb:
+    """Enclose a bivariate power polynomial by tensor Bernstein coefficients."""
+    transformed: dict[tuple[int, int], arb] = {}
+    for (i, j), coefficient in coefficients.items():
+        for k in range(i + 1):
+            for ell in range(j + 1):
+                key = (k, ell)
+                transformed[key] = transformed.get(key, arb(0)) + (
+                    coefficient
+                    * arb(comb(i, k))
+                    * x_lo ** (i - k)
+                    * (x_hi - x_lo) ** k
+                    * arb(comb(j, ell))
+                    * y_lo ** (j - ell)
+                    * (y_hi - y_lo) ** ell
+                )
+    bernstein = []
+    for i in range(degree + 1):
+        for j in range(degree + 1):
+            value = arb(0)
+            for k in range(i + 1):
+                for ell in range(j + 1):
+                    value += (
+                        transformed.get((k, ell), arb(0))
+                        * arb(comb(i, k))
+                        / arb(comb(degree, k))
+                        * arb(comb(j, ell))
+                        / arb(comb(degree, ell))
+                    )
+            bernstein.append(value)
+    lower = min(value.lower() for value in bernstein)
+    upper = max(value.upper() for value in bernstein)
+    return arb((lower + upper) / 2, (upper - lower) / 2)
+
+
+def derivative_polynomial_bernstein(
+    point,
+    derivative_jet,
+    dt_lo: F,
+    dt_hi: F,
+    dz_lo: F,
+    dz_hi: F,
+    axis_counts: tuple[int, int],
+) -> arb:
+    """Range the anchored Taylor polynomial without repeated-variable wrapping."""
+    at, az = axis_counts
+    maximum_degree = PARAMETER_ORDER - at - az - 1
+    coefficients = {}
+    for (i, j), coefficient in point.c.items():
+        if i < at or j < az or (i - at) + (j - az) > maximum_degree:
+            continue
+        factor = factorial(i) // factorial(i - at)
+        factor *= factorial(j) // factorial(j - az)
+        coefficients[(i - at, j - az)] = arb(factor) * coefficient
+    aq = base.m.aq
+    polynomial = affine_power_to_bernstein_range(
+        coefficients,
+        aq(dt_lo),
+        aq(dt_hi),
+        aq(dz_lo),
+        aq(dz_hi),
+        maximum_degree,
+    )
+    remainder = arb(0)
+    for (i, j), coefficient in derivative_jet.c.items():
+        if i < at or j < az or i + j != PARAMETER_ORDER:
+            continue
+        factor = factorial(i) // factorial(i - at)
+        factor *= factorial(j) // factorial(j - az)
+        term = (
+            arb(factor)
+            * abs(coefficient)
+            * max(abs(base.m.aq(dt_lo)), abs(base.m.aq(dt_hi))) ** (i - at)
+            * max(abs(base.m.aq(dz_lo)), abs(base.m.aq(dz_hi))) ** (j - az)
+        )
+        remainder += arb(term.upper())
+    return polynomial + arb(0, remainder)
 
 
 def compute_leaf(leaf_id: int) -> dict:
@@ -219,6 +314,107 @@ def compute_leaf(leaf_id: int) -> dict:
     return payload
 
 
+def compute_leaf_bernstein(leaf_id: int) -> dict:
+    """Re-evaluate one corrected leaf with Bernstein-ranged Taylor polynomials."""
+    configure()
+    candidates = candidate_leaf_ids()
+    if leaf_id not in candidates:
+        raise ValueError(f"leaf {leaf_id} is not a K1816 value-indeterminate candidate")
+    _, box = leaf_boxes()[leaf_id]
+    t_lo, t_hi, z_lo, z_hi = box
+    print(
+        f"K1818 candidate leaf {leaf_id:02d}: anchor-hull Bernstein range",
+        file=sys.stderr,
+        flush=True,
+    )
+    center = point_jet()
+    derivative_hull = (
+        min(t_lo, base.ANCHOR_T),
+        max(t_hi, base.ANCHOR_T),
+        min(z_lo, base.ANCHOR_Z),
+        max(z_hi, base.ANCHOR_Z),
+    )
+    derivative_jet = base.compact_jet(*derivative_hull)
+    base.tails.CENTER_T = (t_lo + t_hi) / 2
+    base.tails.RADIUS_T = (t_hi - t_lo) / 2
+    base.tails.CENTER_Z = (z_lo + z_hi) / 2
+    base.tails.RADIUS_Z = (z_hi - z_lo) / 2
+    tails = base.tails.compute()["absolute_two_tail_bounds"]
+    dt_lo, dt_hi = t_lo - base.ANCHOR_T, t_hi - base.ANCHOR_T
+    dz_lo, dz_hi = z_lo - base.ANCHOR_Z, z_hi - base.ANCHOR_Z
+
+    def bounded(axis_counts: tuple[int, int], tail: str) -> arb:
+        return derivative_polynomial_bernstein(
+            center,
+            derivative_jet,
+            dt_lo,
+            dt_hi,
+            dz_lo,
+            dz_hi,
+            axis_counts,
+        ) + symmetric_ball(tail)
+
+    gradient = [
+        bounded((1, 0), tails["gradient"]["t"]),
+        bounded((0, 1), tails["gradient"]["z"]),
+    ]
+    hessian = [
+        [
+            bounded((2, 0), tails["hessian"]["tt"]),
+            bounded((1, 1), tails["hessian"]["tz"]),
+        ],
+        [
+            bounded((1, 1), tails["hessian"]["tz"]),
+            bounded((0, 2), tails["hessian"]["zz"]),
+        ],
+    ]
+    determinant = hessian[0][0] * hessian[1][1] - hessian[0][1] ** 2
+    rejected_by = [
+        axis
+        for axis, value in zip(("t", "z"), gradient)
+        if not value.contains(0)
+    ]
+    payload = {
+        "schema_version": "1.0",
+        "claim_id": "K1818",
+        "leaf": leaf_id,
+        "input_partition_digest": partition_digest(),
+        "input_k1816_checkpoint_digest": input_rows()[leaf_id]["checkpoint_digest"],
+        "box": [str(value) for value in box],
+        "configuration": {
+            "parameter_taylor_order": PARAMETER_ORDER,
+            "cell_half_width": str(CELL_HALF_WIDTH),
+            "observation_taylor_order": OBSERVATION_ORDER,
+            "compact_cell_count": 2 * int(base.m.RADIUS / CELL_HALF_WIDTH),
+            "parameter_remainder_domain": "axis-aligned hull of the K1787 anchor and exact target leaf",
+            "parameter_remainder_hull": [str(value) for value in derivative_hull],
+            "polynomial_range_method": "tensor Bernstein coefficients after exact affine substitution",
+            "whole_line_tail_method": "K1786 analytic value-gradient-Hessian majorant on the exact leaf",
+        },
+        "certificate": {
+            "whole_line_gradient": {
+                "t": base.m.enc(gradient[0]),
+                "z": base.m.enc(gradient[1]),
+            },
+            "whole_line_hessian": {
+                "tt": base.m.enc(hessian[0][0]),
+                "tz": base.m.enc(hessian[0][1]),
+                "zz": base.m.enc(hessian[1][1]),
+                "determinant": base.m.enc(determinant),
+            },
+        },
+        "decision": {
+            "stationary_rejected": bool(rejected_by),
+            "rejected_by": rejected_by,
+            "strictly_convex": bool(hessian[0][0] > 0 and determinant > 0),
+            "retained_leaf_means_additional_stationary_point": False,
+        },
+    }
+    canonical = json.dumps(payload, sort_keys=True, separators=(",", ":")).encode()
+    payload["checkpoint_digest"] = hashlib.sha256(canonical).hexdigest()
+    return payload
+
+
 def load_checkpoint(leaf_id: int) -> dict | None:
     path = checkpoint_path(leaf_id)
     if not path.exists():
@@ -247,6 +443,38 @@ def load_checkpoint(leaf_id: int) -> dict | None:
     return data
 
 
+def load_bernstein_checkpoint(leaf_id: int) -> dict | None:
+    path = bernstein_checkpoint_path(leaf_id)
+    if not path.exists():
+        return None
+    data = json.loads(path.read_text())
+    canonical = dict(data)
+    digest = canonical.pop("checkpoint_digest")
+    encoded = json.dumps(canonical, sort_keys=True, separators=(",", ":")).encode()
+    if hashlib.sha256(encoded).hexdigest() != digest:
+        raise ValueError(f"checkpoint digest mismatch: {path}")
+    _, box = leaf_boxes()[leaf_id]
+    if data["leaf"] != leaf_id or data["box"] != [str(value) for value in box]:
+        raise ValueError(f"checkpoint identity mismatch: {path}")
+    if data["input_partition_digest"] != partition_digest():
+        raise ValueError(f"checkpoint partition mismatch: {path}")
+    if data["input_k1816_checkpoint_digest"] != input_rows()[leaf_id]["checkpoint_digest"]:
+        raise ValueError(f"checkpoint K1816 provenance mismatch: {path}")
+    hull = (
+        min(box[0], base.ANCHOR_T),
+        max(box[1], base.ANCHOR_T),
+        min(box[2], base.ANCHOR_Z),
+        max(box[3], base.ANCHOR_Z),
+    )
+    if data["configuration"].get("parameter_remainder_hull") != [str(value) for value in hull]:
+        raise ValueError(f"checkpoint remainder hull mismatch: {path}")
+    if data["configuration"].get("polynomial_range_method") != (
+        "tensor Bernstein coefficients after exact affine substitution"
+    ):
+        raise ValueError(f"checkpoint polynomial range mismatch: {path}")
+    return data
+
+
 def ensure_leaf(leaf_id: int, replay: bool) -> dict:
     cached = load_checkpoint(leaf_id)
     if cached is not None and not replay:
@@ -254,6 +482,16 @@ def ensure_leaf(leaf_id: int, replay: bool) -> dict:
         return cached
     computed = compute_leaf(leaf_id)
     atomic_json(checkpoint_path(leaf_id), computed)
+    return computed
+
+
+def ensure_bernstein_leaf(leaf_id: int, replay: bool) -> dict:
+    cached = load_bernstein_checkpoint(leaf_id)
+    if cached is not None and not replay:
+        print(f"K1818 candidate leaf {leaf_id:02d}: Bernstein checkpoint reused", file=sys.stderr)
+        return cached
+    computed = compute_leaf_bernstein(leaf_id)
+    atomic_json(bernstein_checkpoint_path(leaf_id), computed)
     return computed
 
 
@@ -410,17 +648,48 @@ def validate_correction(data: dict) -> list[tuple[str, bool]]:
     ]
 
 
+def validate_bernstein_kernel() -> list[tuple[str, bool]]:
+    bilinear = affine_power_to_bernstein_range(
+        {(0, 0): arb(1), (1, 0): arb(2), (0, 1): arb(3), (1, 1): arb(4)},
+        arb(0),
+        arb(1),
+        arb(0),
+        arb(1),
+        6,
+    )
+    signed = affine_power_to_bernstein_range(
+        {(1, 0): arb(1), (0, 1): arb(-1)},
+        arb(-1),
+        arb(2),
+        arb(-3),
+        arb(4),
+        5,
+    )
+    return [
+        ("Bernstein bilinear lower endpoint", bilinear.contains(arb(1)) and bilinear > 0),
+        ("Bernstein bilinear upper endpoint", bilinear.contains(arb(10)) and bilinear < 11),
+        ("Bernstein signed rectangle", signed.contains(arb(-5)) and signed.contains(arb(5))),
+    ]
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--leaf", type=int, action="append", default=[])
+    parser.add_argument("--bernstein-leaf", type=int, action="append", default=[])
     parser.add_argument("--resume-bank", action="store_true")
+    parser.add_argument("--resume-bernstein-bank", action="store_true")
     parser.add_argument("--max-new", type=int)
     parser.add_argument("--replay", action="store_true")
     parser.add_argument("--summary", action="store_true")
     parser.add_argument("--print-artifact", action="store_true")
     args = parser.parse_args()
 
-    if not args.leaf and not args.resume_bank:
+    if (
+        not args.leaf
+        and not args.bernstein_leaf
+        and not args.resume_bank
+        and not args.resume_bernstein_bank
+    ):
         stored = json.loads(ARTIFACT.read_text())
         if "remainder_correction" in stored:
             checks = validate_correction(stored)
@@ -428,27 +697,43 @@ def main() -> None:
             checks = validate_current(stored)
         else:
             checks = validate_legacy(stored)
+        checks += validate_bernstein_kernel()
         for index, (label, ok) in enumerate(checks, 1):
             assert ok, label
             print(f"PASS {index:02d}: {label}")
         print(f"RESULT: PASS {len(checks)}/{len(checks)}")
         return
 
-    selected = args.leaf or candidate_leaf_ids()
+    use_bernstein = bool(args.bernstein_leaf or args.resume_bernstein_bank)
+    selected = args.bernstein_leaf or args.leaf or candidate_leaf_ids()
     rows = []
     new_count = 0
     for leaf_id in selected:
-        cached = load_checkpoint(leaf_id)
+        cached = (
+            load_bernstein_checkpoint(leaf_id)
+            if use_bernstein
+            else load_checkpoint(leaf_id)
+        )
         if cached is None or args.replay:
             if args.max_new is not None and new_count >= args.max_new:
                 continue
             new_count += 1
-        rows.append(ensure_leaf(leaf_id, args.replay))
+        rows.append(
+            ensure_bernstein_leaf(leaf_id, args.replay)
+            if use_bernstein
+            else ensure_leaf(leaf_id, args.replay)
+        )
     if args.resume_bank:
         rows = [
             row
             for leaf_id in candidate_leaf_ids()
             if (row := load_checkpoint(leaf_id)) is not None
+        ]
+    if args.resume_bernstein_bank:
+        rows = [
+            row
+            for leaf_id in candidate_leaf_ids()
+            if (row := load_bernstein_checkpoint(leaf_id)) is not None
         ]
     data = artifact_data(rows) if args.print_artifact else combined(rows)
     if args.summary:
