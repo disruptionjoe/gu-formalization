@@ -11,7 +11,7 @@ supersedes the historical aggregate embedded in the long directory table.
 
 - K1816 restart-safe order-six/seven/eight leaf calibration and hostile probe.
 - K1817 order-eight exact-parent scale scout and hostile probe.
-- K1818 corrected anchor-hull whole-line gradient/Hessian-tail bank and hostile probe.
+- K1818 corrected anchor-hull whole-line gradient/Hessian-tail bank, exact saved-bound assembly with original discrepancy evidence, and hostile probe.
 - K1819 compact-support Cauchy and finite closed-cover boundary composition and hostile probe.
 - K1820 exact derivative transport, rational root-feasible polygons, profile-curvature discriminator and protected global admission.
 

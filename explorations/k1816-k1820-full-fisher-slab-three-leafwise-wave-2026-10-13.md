@@ -19,15 +19,48 @@ although `decision.rejected_by` says `z`. Outward display rounding can erase
 a strict sign available to the in-memory Arb value. The saved enclosure is
 still usable as an enclosure; its flag is not a reproducible exclusion.
 
-K1818's existing `gradient exclusions semantic` validation rejects this
-discrepancy. Recheck every replacement decision against its serialized bounds
-at assembly. Retain leaf 38 as method-indeterminate unless a replay supplies
+K1818's `gradient exclusions semantic` validation rejects treating this
+flag as a proved exclusion. Recheck every replacement decision against its
+serialized bounds at assembly. Retain leaf 38 as method-indeterminate unless a replay supplies
 a sufficiently precise outward enclosure that independently excludes zero.
 Do not change its recorded digest, infer a tighter radius from the flag, or
 discard its otherwise valid derivative bounds. The complete published
 52-checkpoint bank has no such gradient/decision discrepancy; K1820's twelve
 accepted exclusions and forty retained polygons are unchanged. This finding
 does not claim the in-memory calculation was wrong or that another root exists.
+
+### Conservative assembly without numerical replay
+
+K1818 now derives the rejected axes from the exact rational endpoints of each
+saved decimal enclosure. An endpoint equal to zero is retained. The assembler
+never edits a checkpoint or manufactures a tighter bound. It embeds all saved
+gradient evidence in new artifacts and separately records every disagreement
+with the original in-memory decision, including the unchanged original payload
+and digest. The validator authenticates these rows against the digest map and
+K1816 provenance, recomputes the complete classification and discrepancy list,
+and rejects missing evidence or an unsupported exclusion. Older accepted
+artifacts retain their existing evidence format and semantic checks.
+
+Thus leaf 38 needs no replay merely to participate conservatively in a complete
+bank: its saved gradient enclosure retains the leaf. Establishing a strict
+sign still requires a tighter certified enclosure. This removes a recovery
+cost without increasing scientific coverage. The numerical functions,
+remainder hulls, quadrature parameters and checkpoint files are unchanged;
+full replacement-bank review remains necessary before acceptance.
+
+A read-only audit of existing atomic checkpoints, which computes no missing
+leaf, is available with the pinned Python dependencies:
+
+```bash
+uv run --with python-flint==0.9.0 --with sympy==1.14.0 python tests/channel-swings/k1818_full_fisher_slab_three_stationary_cover.py --resume-bernstein-bank --max-new 0 --summary
+```
+
+The hostile probe plants both directions of a flag disagreement. Seven exact
+endpoint cases include positive, negative, zero-contact and the actual leaf-38
+rounding values; four malformed intervals are rejected. Eleven hostile
+mutations test false exclusions, altered digests, missing discrepancy/leaf
+evidence, and unsupported global claims. These are exact serialization and
+reporting controls, not an independent quadrature replay or a global theorem.
 
 ## October 19 exact interior derivative transport
 

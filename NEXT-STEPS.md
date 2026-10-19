@@ -10,9 +10,11 @@ updated_at: "2026-10-19"
 > **2026-10-19 K1818 SERIALIZATION FINDING.** Before accepting the Bernstein
 > replacement, compare every exclusion flag with its saved interval. Leaf 38's
 > saved `z` bound contains zero despite its exclusion flag; retain it unless
-> tighter outward serialization or replay proves the sign. The existing K1818
-> semantic validator catches this. Continue the numerical bank; its derivative
-> enclosures remain usable. Published K1820 coverage is unchanged.
+> tighter outward serialization or replay proves the sign. K1818 assembly now
+> derives exact saved-bound decisions, preserves conflicting original payloads
+> and digests, and validates complete evidence. No replay is needed just to
+> retain leaf 38 safely. Continue the numerical bank and its complete review;
+> published K1820 coverage is unchanged.
 
 > **2026-10-19 K1820 INTERIOR CONTRACTION.** Exact transport of the existing
 > whole-line Hessian bounds adds three exclusions (13, 14, 29), leaving 40

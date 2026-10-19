@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: a1799a4384eada37fd1c992d6b39c5fcee6c5c00
+revision_basis: a9f61be76e8f8b6c02e5519e8a65505136027364
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -44,9 +44,11 @@ current_result:
     The unfinished Bernstein bank is not consumed by this composition.
     Replacement checkpoint leaf 38 reports a z-gradient exclusion not
     supported by its saved outward-rounded interval, which contains zero.
-    The existing semantic validator rejects that flag. Retain the leaf unless
-    tighter outward serialization or replay proves the sign; accepted
-    coverage remains unchanged.
+    Assembly now derives classifications from exact saved endpoints and preserves
+    every conflicting original payload/digest in a discrepancy record. Leaf 38
+    is retained without requiring a replay merely to assemble the bank safely.
+    A tighter enclosure is still required to prove its sign; accepted coverage
+    remains unchanged until complete replacement review.
 
     Provisional checkpoint: K1819 closes the complete slab-three exposed boundary without new
     quadrature. The fixed K1787 score restricted to [-11,11] is an L2 Cauchy

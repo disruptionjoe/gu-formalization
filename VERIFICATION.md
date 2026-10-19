@@ -11,11 +11,19 @@ updated_at: "2026-10-19"
 
 The unfinished Bernstein checkpoint for leaf 38 reports a `z`-gradient
 exclusion that its saved outward-rounded interval does not reproduce: the
-interval contains zero. K1818's existing semantic validator rejects this
-flag at assembly. Retain the leaf unless tighter outward serialization or a
-replay proves the sign. All 52 published corrected checkpoints have matching
-gradient decisions; accepted K1820 coverage is unchanged. The K1816--K1820
-exploration records the exact interval, digest and recovery condition.
+interval contains zero. K1818 assembly now uses exact rational saved endpoints,
+retains leaf 38, and preserves the conflicting original payload/digest. New
+assembled artifacts embed all gradient evidence; validation recomputes the
+partition and complete discrepancy list. A replay is optional for proving a
+tighter sign, not required for conservative assembly. All 52 published
+corrected checkpoints have matching decisions; accepted K1820 coverage is
+unchanged. Numerical routines and checkpoints are unchanged.
+
+Focused validation includes seven independently specified exact endpoint
+cases, four malformed-interval rejections, both directions of flag disagreement,
+checkpoint immutability, and eleven hostile mutations including omitted
+evidence and digest-consistent forged exclusions. These are serialization and
+reporting checks; the original quadrature proof is reused, not reverified.
 
 ## K1820 exact interior derivative transport (2026-10-19)
 

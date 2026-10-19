@@ -17,6 +17,7 @@ import hashlib
 import importlib.util
 import json
 import os
+import re
 import sys
 from functools import cache
 from fractions import Fraction as F
@@ -495,6 +496,37 @@ def ensure_bernstein_leaf(leaf_id: int, replay: bool) -> dict:
     return computed
 
 
+def saved_gradient_exclusions(row: dict) -> list[str]:
+    """Classify the saved outward enclosures, not pre-serialization flags.
+
+    Decimal display can widen an Arb radius across zero. Exact rational
+    endpoint comparisons preserve that loss of information without rerunning
+    quadrature or modifying the original checkpoint and its digest.
+    """
+    rejected = []
+    for axis in ("t", "z"):
+        text = row["certificate"]["whole_line_gradient"][axis]
+        match = re.fullmatch(r"\[([^\[\]]+) \+/- ([^\[\]]+)\]", text)
+        if match:
+            midpoint, radius = map(F, match.groups())
+            if radius < 0:
+                raise ValueError("negative saved gradient radius")
+        else:
+            midpoint, radius = F(text), F(0)
+        if midpoint - radius > 0 or midpoint + radius < 0:
+            rejected.append(axis)
+    return rejected
+
+
+def saved_decision_discrepancies(rows: list[dict]) -> list[dict]:
+    return [
+        {"checkpoint": row, "saved_rejected_by": saved_gradient_exclusions(row)}
+        for row in rows
+        if (row["decision"]["rejected_by"] != saved_gradient_exclusions(row)
+            or row["decision"]["stationary_rejected"] != bool(saved_gradient_exclusions(row)))
+    ]
+
+
 def combined(rows: list[dict]) -> dict:
     rows = sorted(rows, key=lambda row: row["leaf"])
     candidates = candidate_leaf_ids()
@@ -505,23 +537,25 @@ def combined(rows: list[dict]) -> dict:
         "completed_leaf_count": len(rows),
         "completed_leaf_ids": [row["leaf"] for row in rows],
         "stationary_rejected_leaf_ids": [
-            row["leaf"] for row in rows if row["decision"]["stationary_rejected"]
+            row["leaf"] for row in rows if saved_gradient_exclusions(row)
         ],
         "stationary_retained_leaf_ids": [
-            row["leaf"] for row in rows if not row["decision"]["stationary_rejected"]
+            row["leaf"] for row in rows if not saved_gradient_exclusions(row)
         ],
         "checkpoint_digests": {
             str(row["leaf"]): row["checkpoint_digest"] for row in rows
         },
         "leaves": rows,
+        "saved_decision_discrepancies": saved_decision_discrepancies(rows),
     }
 
 
 def artifact_data(rows: list[dict]) -> dict:
     complete_bank = combined(rows)
     certificate = {key: value for key, value in complete_bank.items() if key != "leaves"}
+    certificate["saved_gradient_evidence"] = complete_bank["leaves"]
     certificate["stationary_rejection_evidence"] = [
-        row for row in complete_bank["leaves"] if row["decision"]["stationary_rejected"]
+        row for row in complete_bank["leaves"] if saved_gradient_exclusions(row)
     ]
     complete = certificate["completed_leaf_ids"] == certificate["candidate_leaf_ids"]
     rejected = certificate["stationary_rejected_leaf_ids"]
@@ -560,6 +594,9 @@ def artifact_data(rows: list[dict]) -> dict:
 def validate_current(data: dict) -> list[tuple[str, bool]]:
     certificate = data["certificate"]
     rows = certificate["stationary_rejection_evidence"]
+    saved_rows = certificate.get("saved_gradient_evidence")
+    discrepancies = certificate.get("saved_decision_discrepancies", [])
+    discrepancy_rows = [entry["checkpoint"] for entry in discrepancies]
     k1816 = json.loads(leaf_bank.ARTIFACT.read_text())["certificate"]
     k1816_rows = {row["leaf"]: row for row in k1816["leaves"]}
     candidates = [
@@ -571,28 +608,38 @@ def validate_current(data: dict) -> list[tuple[str, bool]]:
     provenance_valid = True
     boxes_valid = True
     gradient_exclusions_valid = True
-    for row in rows:
+    digest_map_valid = True
+    for row in rows + discrepancy_rows + (saved_rows or []):
         canonical = dict(row)
         digest = canonical.pop("checkpoint_digest")
         encoded = json.dumps(canonical, sort_keys=True, separators=(",", ":")).encode()
         digests_valid &= hashlib.sha256(encoded).hexdigest() == digest
+        digest_map_valid &= certificate["checkpoint_digests"].get(str(row["leaf"])) == digest
         provenance_valid &= (
             row["input_k1816_checkpoint_digest"]
             == k1816_rows[row["leaf"]]["checkpoint_digest"]
         )
         boxes_valid &= row["box"] == [str(value) for value in leaf_boxes()[row["leaf"]][1]]
-        excluded_axes = [
-            axis
-            for axis in ("t", "z")
-            if not arb(row["certificate"]["whole_line_gradient"][axis]).contains(0)
-        ]
-        gradient_exclusions_valid &= (
-            row["decision"]["stationary_rejected"]
-            and row["decision"]["rejected_by"] == excluded_axes
-            and bool(excluded_axes)
-        )
+    for row in rows:
+        excluded_axes = saved_gradient_exclusions(row)
+        gradient_exclusions_valid &= bool(excluded_axes)
+        if saved_decision_discrepancies([row]):
+            gradient_exclusions_valid &= row in discrepancy_rows
     rejected = certificate["stationary_rejected_leaf_ids"]
     retained = certificate["stationary_retained_leaf_ids"]
+    discrepancies_valid = (
+        len({row["leaf"] for row in discrepancy_rows}) == len(discrepancy_rows)
+        and saved_decision_discrepancies(discrepancy_rows) == discrepancies
+        and all((row["leaf"] in rejected) == bool(saved_gradient_exclusions(row))
+                for row in discrepancy_rows)
+    )
+    complete_saved_evidence_valid = saved_rows is None or (
+        [row["leaf"] for row in saved_rows] == candidates
+        and [row["leaf"] for row in saved_rows if saved_gradient_exclusions(row)] == rejected
+        and [row["leaf"] for row in saved_rows if not saved_gradient_exclusions(row)] == retained
+        and saved_decision_discrepancies(saved_rows) == discrepancies
+        and [row for row in saved_rows if saved_gradient_exclusions(row)] == rows
+    )
     return [
         ("schema", data["schema_version"] == "1.0"),
         ("claim", data["claim_id"] == "K1818"),
@@ -601,10 +648,13 @@ def validate_current(data: dict) -> list[tuple[str, bool]]:
         ("52 candidates", candidates == list(range(13, 65))),
         ("complete candidate ids", certificate["completed_leaf_ids"] == candidates),
         ("embedded checkpoint digests", digests_valid),
+        ("embedded checkpoints match digest map", digest_map_valid),
         ("K1816 provenance", provenance_valid),
         ("exact leaf boxes", boxes_valid),
         ("gradient exclusions semantic", gradient_exclusions_valid),
-        ("rejected evidence", [row["leaf"] for row in rows] == rejected and all(row["decision"]["stationary_rejected"] for row in rows)),
+        ("rejected evidence", [row["leaf"] for row in rows] == rejected),
+        ("saved decision discrepancies authenticated", discrepancies_valid),
+        ("complete saved gradient evidence", complete_saved_evidence_valid),
         ("complete classification", sorted(rejected + retained) == candidates),
         ("rejected count", data["decision"]["stationary_rejected_leaf_count"] == len(rejected)),
         ("retained count", data["decision"]["stationary_retained_leaf_count"] == len(retained)),
@@ -740,7 +790,7 @@ def main() -> None:
         if args.print_artifact:
             data["certificate"] = {
                 key: value for key, value in data["certificate"].items()
-                if key != "stationary_rejection_evidence"
+                if key not in ("stationary_rejection_evidence", "saved_gradient_evidence")
             }
         else:
             data = {key: value for key, value in data.items() if key != "leaves"}
