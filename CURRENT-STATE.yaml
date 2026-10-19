@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: a9f61be76e8f8b6c02e5519e8a65505136027364
+revision_basis: d267bbd2331ab22abd0e8ee041db0db678e64715
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,20 +35,17 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
-    K1820 exact Hessian transport adds three stationary exclusions (13, 14, 29)
-    to the nine direct K1818 exclusions without new quadrature. Forty root-feasible
-    polygons retain about 17.105628 percent of the original 52-leaf candidate
-    area. Positive J_zz and J_tz give locally decreasing J_z-zero curves; none
-    of the 40 retained leaves has certified positive profile curvature from
-    existing independent Hessian bounds. Global uniqueness remains unproved.
-    The unfinished Bernstein bank is not consumed by this composition.
-    Replacement checkpoint leaf 38 reports a z-gradient exclusion not
-    supported by its saved outward-rounded interval, which contains zero.
-    Assembly now derives classifications from exact saved endpoints and preserves
-    every conflicting original payload/digest in a discrepancy record. Leaf 38
-    is retained without requiring a replay merely to assemble the bank safely.
-    A tighter enclosure is still required to prove its sign; accepted coverage
-    remains unchanged until complete replacement review.
+    K1818 now covers all 52 candidates with 46 completed Bernstein checkpoints
+    and six corrected power-range fallbacks. Exact saved gradients exclude 13
+    leaves and retain 39; the original leaf-38 flag remains unsupported and is
+    retained with its unchanged payload/digest. K1820 transports this complete
+    mixed-method bank to exclude 14 leaves, adding leaf 63 to the direct 13.
+    Compared with the prior composed result, leaves 54 and 63 are newly excluded.
+    Thirty-eight root-feasible polygons occupy about 13.036706 percent of the
+    original candidate area, down from 17.105628 percent. None of the retained
+    leaves has certified positive profile curvature. Complete interior
+    uniqueness and global optimization remain unproved. The six replacement
+    calculations still running are not declared complete or consumed early.
 
     Provisional checkpoint: K1819 closes the complete slab-three exposed boundary without new
     quadrature. The fixed K1787 score restricted to [-11,11] is an L2 Cauchy
@@ -58,7 +55,7 @@ current_result:
     69 faces and 67 vertices inherit the accepted finite closed K1791/K1796
     pruned-cover bounds. K1804's 122/122 census covers both slabs, not slab three
     alone. Complete interior stationary uniqueness and global optimization
-    remain unproved. The incomplete Bernstein replacement bank is not promoted.
+    remain unproved. Complete mixed-method coverage does not imply complete Bernstein replacement.
     Native RESEARCH-STATUS promotion rollup remains pending under a successor
     scope; this checkpoint does not assert final wave acceptance.
 
@@ -15743,11 +15740,11 @@ current_result:
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
   Can certified profile curvature or interval-Newton continuation on K1820's
-  contracted stationary tube close interior uniqueness? Exact derivative
-  transport excludes 12 leaves and leaves 40 nonempty root-feasible polygons
-  occupying about 17.105628 percent of the prior candidate area. All 114
-  boundary faces and vertices are already closed. A nonempty polygon does not
-  prove a root; no scalar trial law is a source-owned physical state.
+  contracted stationary tube close interior uniqueness? The complete mixed-method
+  derivative bank excludes 14 leaves and leaves 38 nonempty root-feasible polygons
+  occupying about 13.036706 percent of the original candidate area. All 114 boundary
+  faces and vertices are closed. Nonempty polygons do not prove roots and no
+  scalar trial law is a source-owned physical state.
 
   Historical prior continuation (boundary work is superseded by K1819):
 
@@ -18687,12 +18684,12 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Preserve K1820's exact derivative-transport polygons and K1819's complete
-  boundary cover. Finish and independently review the live Bernstein replay,
-  then use its evidence on the contracted tube to test the profile Schur
-  complement J_tt-J_tz^2/J_zz or an interval-Newton cover. Current component
-  bounds certify positive profile curvature on none of the 40 retained leaves.
-  Preserve K1787 local existence; require complete interior uniqueness before
-  global promotion. No separate exposed-boundary quadrature remains.
+  boundary cover. Finish the remaining six Bernstein replacements (59--64),
+  reassemble with --assemble-available-bank and independently review the completed
+  bank. Then test profile Schur curvature or interval-Newton on the contracted
+  tube. Current component intervals certify positive curvature on none of the
+  38 retained leaves. Preserve K1787 local existence; complete interior uniqueness
+  remains necessary for global admission. No separate boundary quadrature remains.
 
   Historical prior continuation (its boundary obligation is now closed):
 

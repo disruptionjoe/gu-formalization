@@ -5,7 +5,12 @@ import hashlib
 import importlib.util
 import json
 import sys
+from fractions import Fraction as F
+from math import comb
 from pathlib import Path
+
+from flint import arb
+from sympy import Matrix, Rational
 
 ROOT = Path(__file__).resolve().parents[2]
 PRODUCER = ROOT / "tests/channel-swings/k1818_full_fisher_slab_three_stationary_cover.py"
@@ -47,6 +52,32 @@ for text in ("[1 +/- -1]", "nan", "[+/- inf]", "[1 +/- 2] trailing"):
         raise AssertionError(f"malformed enclosure accepted: {text}")
 print("PASS: seven exact endpoint controls and four malformed intervals")
 
+# Recover Bernstein coefficients by exact interpolation, independently of
+# the producer's affine/binomial coefficient transform. Compare its enclosure
+# against every coefficient on shifted, nonsymmetric rectangles.
+degree = 6
+nodes = [Rational(i, degree) for i in range(degree + 1)]
+evaluation = Matrix([[comb(degree, j) * x**j * (1-x)**(degree-j)
+                      for j in range(degree + 1)] for x in nodes])
+inverse = evaluation.inv()
+for coefficients in [
+    {(6, 0): F(1), (0, 6): F(1), (3, 3): F(-2)},
+    {(0, 0): F(2, 3), (4, 2): F(-7, 5), (1, 5): F(3, 7), (2, 1): F(-4)},
+]:
+    for a, b, c, d in [(F(-2), F(3), F(-4), F(1)),
+                       (F(1, 3), F(2, 3), F(-1, 5), F(4, 5))]:
+        values = Matrix([[sum(Rational(v.numerator, v.denominator)
+                              * (a + (b-a)*x)**i * (c + (d-c)*y)**j
+                              for (i, j), v in coefficients.items())
+                          for y in nodes] for x in nodes])
+        independently_recovered = inverse * values * inverse.T
+        got = module.affine_power_to_bernstein_range(
+            {k: arb(str(v)) for k, v in coefficients.items()},
+            *[arb(str(v)) for v in (a, b, c, d)], degree)
+        assert all(got.contains(arb(str(v))) for v in independently_recovered), (
+            coefficients, (a, b, c, d), got)
+print("PASS: four exact degree-six tensor interpolation controls")
+
 # A planted checkpoint with the observed rounding discrepancy must retain
 # the leaf while keeping its original payload/digest as auditable evidence.
 transport = json.loads((ROOT / "lab/process/k1820-full-fisher-global-optimizer-admission.json").read_text())
@@ -75,6 +106,7 @@ for name, change in [
     ("break checkpoint digest map", lambda d: d["certificate"]["checkpoint_digests"].__setitem__("38", "0"*64)),
     ("hide retained discrepancy", lambda d: d["certificate"].__setitem__("saved_decision_discrepancies", [])),
     ("omit saved leaf", lambda d: d["certificate"]["saved_gradient_evidence"].pop()),
+    ("misreport replacement coverage", lambda d: d["certificate"].__setitem__("bernstein_leaf_ids", [])),
 ]:
     mutated = copy.deepcopy(assembled)
     change(mutated)

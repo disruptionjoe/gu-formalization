@@ -7,6 +7,25 @@ updated_at: "2026-10-19"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1818/K1820 mixed-method derivative coverage (2026-10-19)
+
+A complete 52-leaf bank uses 46 completed Bernstein rows and six accepted
+corrected fallbacks, with exact per-method IDs and unchanged payload digests.
+Saved gradients exclude 13 leaves; exact derivative transport excludes 14,
+leaving 38 polygons with 13.036706% of the original candidate area. Leaves 54
+and 63 are newly excluded relative to prior composed coverage. Leaf 38 remains
+retained despite its original advisory flag. No retained leaf has certified
+positive profile curvature; uniqueness, global optimality and physics remain open.
+
+Four exact degree-six interpolation controls independently recover Bernstein
+coefficients on shifted rectangles. Existing endpoint, malformed-interval,
+discrepancy and transport controls test the changed composition; required
+native probes authenticate every embedded row and reject misreported method
+coverage. The quadrature and whole-line tail proofs are reused. Complete bank
+coverage does not mean the remaining six Bernstein computations are complete.
+Earlier counts below are historical; the exploration gives the current proof,
+reproduction command and pending native status-rollup boundary.
+
 ## K1818 replacement serialization finding (2026-10-19)
 
 The unfinished Bernstein checkpoint for leaf 38 reports a `z`-gradient

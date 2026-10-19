@@ -7,6 +7,16 @@ the map: which directory/group supports which claim.
 Current exact channel-swings inventory: `4630 Python + 93 Sage`. This count
 supersedes the historical aggregate embedded in the long directory table.
 
+## K1818/K1820 completed-checkpoint composition (2026-10-19)
+
+K1818 `--assemble-available-bank` reads completed Bernstein rows with corrected
+fallbacks and refuses incomplete total coverage; it never starts quadrature.
+The current artifact freezes 46 replacements and six fallbacks. Its probe
+adds four exact degree-six interpolation controls and a rejected method-coverage
+mutation. K1819 and K1820 consume the same frozen bank: 13 direct and 14
+composed exclusions, 38 retained polygons, no uniqueness or physics promotion.
+
+
 ## K1816--K1820 slab-three leafwise calibration wave
 
 - K1816 restart-safe order-six/seven/eight leaf calibration and hostile probe.

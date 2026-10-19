@@ -7,6 +7,63 @@ updated_at: "2026-10-19"
 
 # K1816--K1820: complete boundary closure; interior uniqueness remains open
 
+## October 19 complete mixed-method bank and composition
+
+All 52 candidate rectangles are covered by a complete derivative bank: **46
+completed Bernstein rows (13--58)** and **six accepted corrected power-range
+fallbacks (59--64)**. This is not a declaration that the Bernstein replay has
+finished. Each row keeps its original method, interval bounds, payload and
+digest. Both methods enclose derivatives of the same scalar objective on the
+same exact box with the same full anchor-to-leaf remainder hull and whole-line
+tails; selecting either valid row for each box therefore preserves coverage.
+The artifact records both method-specific leaf lists and embeds every row.
+
+Exact saved gradients exclude **13 leaves**: 13, 14, 27, 28, 29, 39--42,
+52--54 and 64. Leaf 38 remains retained; its conflicting advisory flag and
+original digest remain visible. K1820's exact transport additionally excludes
+**leaf 63**, for **14 exclusions and 38 retained polygons**. Leaves 54 and 63
+are new relative to the previous 12-leaf composed exclusion. The feasible area
+is **13.036706%** of the original candidate area, versus **17.105628%** before.
+This is a necessary location enclosure, not a root count or probability.
+
+The follow-through recomputes every local profile Schur interval. None of the
+38 retained leaves has certified positive profile curvature. Thus the new
+bounds improve localization but still do not establish global convexity,
+stationary uniqueness or optimality. K1787 local existence and K1819's complete
+114-face/114-vertex boundary cover survive unchanged. Physics, source, ledger,
+canon and public-posture conclusions do not move. This remains a provisional
+scientific checkpoint with the previously identified native status rollup
+pending a separately admitted footprint.
+
+### Reproduction and proof review
+
+`--assemble-available-bank` reads validated completed Bernstein checkpoints and uses
+an accepted corrected checkpoint wherever a replacement is absent. It refuses
+missing coverage and conflicts with numerical replay flags; it never computes
+a new leaf. Its full output can replace the K1818 artifact only after review.
+Recompute K1819 and K1820 from that exact frozen bank, not a changing scratch
+folder. Later arriving checkpoints do not change the tracked result implicitly.
+
+The Taylor/Bernstein transfer was checked on the actual formulas: affine
+substitution maps each exact rectangle to the unit square; tensor Bernstein
+basis functions are nonnegative and sum to one. Their coefficient extrema
+bound the polynomial. The differentiated degree-eight remainder uses the full
+anchor-to-leaf hull, factorial derivative factors and maximum absolute offsets;
+analytic K1786 tails complete the whole-line enclosure. The compact quadrature
+proof is reused, not presented as a fresh independent integration.
+
+Four independent exact degree-six tensor interpolation controls recover
+Bernstein coefficients by rational matrix inversion on shifted nonsymmetric
+rectangles and check containment in the producer's range. They exercise mixed
+terms and both coordinate shifts without reusing its binomial conversion.
+Endpoint/discrepancy controls, the replacement-coverage mutation and existing
+transport quadratic, clipping, domain-gap and consistency controls remain
+required. Their finite test coverage does not replace the continuum proof.
+
+**Historical sections below:** the earlier nine-direct/twelve-composed counts
+and 40-polygon area are superseded by this complete mixed-method checkpoint.
+The original serialization finding and proof history remain preserved.
+
 ## October 19 replacement-checkpoint serialization finding
 
 The unfinished Bernstein replacement has a **non-bankable exclusion flag**

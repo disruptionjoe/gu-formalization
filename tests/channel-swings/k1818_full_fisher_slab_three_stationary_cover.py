@@ -547,6 +547,10 @@ def combined(rows: list[dict]) -> dict:
         },
         "leaves": rows,
         "saved_decision_discrepancies": saved_decision_discrepancies(rows),
+        "bernstein_leaf_ids": [row["leaf"] for row in rows
+                               if "polynomial_range_method" in row["configuration"]],
+        "power_range_leaf_ids": [row["leaf"] for row in rows
+                                 if "polynomial_range_method" not in row["configuration"]],
     }
 
 
@@ -585,8 +589,10 @@ def artifact_data(rows: list[dict]) -> dict:
         "scope_guard": (
             "Gradient exclusion closes only the named rejected leaves. Retention is interval-method "
             "indeterminacy, not evidence of another stationary point; the K1787 local stationary "
-            "box lies inside retained leaf 50. The residual leaves, exposed boundary and global "
-            "optimizer admission remain open."
+            "box lies inside retained leaf 50. Residual interior uniqueness and global "
+            "optimizer admission remain open; K1819 separately closes the exposed boundary. "
+            "The bank may mix completed Bernstein and corrected power-range checkpoints; "
+            "its per-method leaf lists state the exact replacement coverage."
         ),
     }
 
@@ -655,6 +661,11 @@ def validate_current(data: dict) -> list[tuple[str, bool]]:
         ("rejected evidence", [row["leaf"] for row in rows] == rejected),
         ("saved decision discrepancies authenticated", discrepancies_valid),
         ("complete saved gradient evidence", complete_saved_evidence_valid),
+        ("per-method coverage", saved_rows is None or (
+            certificate.get("bernstein_leaf_ids") == [row["leaf"] for row in saved_rows
+                if "polynomial_range_method" in row["configuration"]]
+            and certificate.get("power_range_leaf_ids") == [row["leaf"] for row in saved_rows
+                if "polynomial_range_method" not in row["configuration"]])),
         ("complete classification", sorted(rejected + retained) == candidates),
         ("rejected count", data["decision"]["stationary_rejected_leaf_count"] == len(rejected)),
         ("retained count", data["decision"]["stationary_retained_leaf_count"] == len(retained)),
@@ -728,11 +739,27 @@ def main() -> None:
     parser.add_argument("--bernstein-leaf", type=int, action="append", default=[])
     parser.add_argument("--resume-bank", action="store_true")
     parser.add_argument("--resume-bernstein-bank", action="store_true")
+    parser.add_argument("--assemble-available-bank", action="store_true",
+                        help="Read completed Bernstein rows with corrected fallback; never compute")
     parser.add_argument("--max-new", type=int)
     parser.add_argument("--replay", action="store_true")
     parser.add_argument("--summary", action="store_true")
     parser.add_argument("--print-artifact", action="store_true")
     args = parser.parse_args()
+
+    if args.assemble_available_bank:
+        if args.replay or args.leaf or args.bernstein_leaf or args.resume_bank or args.resume_bernstein_bank:
+            parser.error("--assemble-available-bank cannot be combined with numerical work")
+        rows = [load_bernstein_checkpoint(i) or load_checkpoint(i) for i in candidate_leaf_ids()]
+        if any(row is None for row in rows):
+            raise ValueError("complete corrected or Bernstein coverage is required for assembly")
+        data = artifact_data(rows)
+        assert all(ok for _, ok in validate_current(data)), "assembled bank validation"
+        if args.summary:
+            for key in ("stationary_rejection_evidence", "saved_gradient_evidence"):
+                data["certificate"].pop(key)
+        print(json.dumps(data, indent=2))
+        return
 
     if (
         not args.leaf

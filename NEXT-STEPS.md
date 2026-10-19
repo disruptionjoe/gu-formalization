@@ -7,6 +7,14 @@ updated_at: "2026-10-19"
 
 # Next Steps For Contributors
 
+> **2026-10-19 MIXED-METHOD COMPOSITION.** All 52 candidates have certified
+> derivative coverage using 46 completed Bernstein rows plus six corrected
+> fallbacks. Direct gradients exclude 13; K1820 transport excludes 14 and
+> retains 38 polygons at 13.036706% of prior area. Finish replacements 59--64,
+> reassemble the frozen bank, then test curvature/interval-Newton on the tube.
+> No retained leaf yet has certified positive profile curvature. Leaf 38's
+> unsupported advisory exclusion stays retained. Earlier counts below are historical.
+
 > **2026-10-19 K1818 SERIALIZATION FINDING.** Before accepting the Bernstein
 > replacement, compare every exclusion flag with its saved interval. Leaf 38's
 > saved `z` bound contains zero despite its exclusion flag; retain it unless
