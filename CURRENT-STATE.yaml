@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 400b4539b3fa9d0aaeab75eb1b68566ce7a88a49
+revision_basis: a1799a4384eada37fd1c992d6b39c5fcee6c5c00
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -42,6 +42,11 @@ current_result:
     of the 40 retained leaves has certified positive profile curvature from
     existing independent Hessian bounds. Global uniqueness remains unproved.
     The unfinished Bernstein bank is not consumed by this composition.
+    Replacement checkpoint leaf 38 reports a z-gradient exclusion not
+    supported by its saved outward-rounded interval, which contains zero.
+    The existing semantic validator rejects that flag. Retain the leaf unless
+    tighter outward serialization or replay proves the sign; accepted
+    coverage remains unchanged.
 
     Provisional checkpoint: K1819 closes the complete slab-three exposed boundary without new
     quadrature. The fixed K1787 score restricted to [-11,11] is an L2 Cauchy

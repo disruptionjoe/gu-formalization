@@ -7,6 +7,13 @@ updated_at: "2026-10-19"
 
 # Next Steps For Contributors
 
+> **2026-10-19 K1818 SERIALIZATION FINDING.** Before accepting the Bernstein
+> replacement, compare every exclusion flag with its saved interval. Leaf 38's
+> saved `z` bound contains zero despite its exclusion flag; retain it unless
+> tighter outward serialization or replay proves the sign. The existing K1818
+> semantic validator catches this. Continue the numerical bank; its derivative
+> enclosures remain usable. Published K1820 coverage is unchanged.
+
 > **2026-10-19 K1820 INTERIOR CONTRACTION.** Exact transport of the existing
 > whole-line Hessian bounds adds three exclusions (13, 14, 29), leaving 40
 > root-feasible polygons with 17.105628% of the prior candidate area. Test

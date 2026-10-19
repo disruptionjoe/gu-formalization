@@ -7,6 +7,16 @@ updated_at: "2026-10-19"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1818 replacement serialization finding (2026-10-19)
+
+The unfinished Bernstein checkpoint for leaf 38 reports a `z`-gradient
+exclusion that its saved outward-rounded interval does not reproduce: the
+interval contains zero. K1818's existing semantic validator rejects this
+flag at assembly. Retain the leaf unless tighter outward serialization or a
+replay proves the sign. All 52 published corrected checkpoints have matching
+gradient decisions; accepted K1820 coverage is unchanged. The K1816--K1820
+exploration records the exact interval, digest and recovery condition.
+
 ## K1820 exact interior derivative transport (2026-10-19)
 
 | Claim | Evidence | Honest grade |

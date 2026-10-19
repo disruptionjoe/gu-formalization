@@ -7,6 +7,28 @@ updated_at: "2026-10-19"
 
 # K1816--K1820: complete boundary closure; interior uniqueness remains open
 
+## October 19 replacement-checkpoint serialization finding
+
+The unfinished Bernstein replacement has a **non-bankable exclusion flag**
+on leaf 38. Its checkpoint digest is
+`deb7b6552262fdc0d750098f7cd727bffaf10b8fe13dcdd876df487ba8aa73a3`.
+The saved whole-line `z` gradient is
+`[8.5288594933649714996656707604440415459e-11 +/- 8.53e-11]`.
+Its exact decimal lower endpoint is negative and its upper endpoint positive,
+although `decision.rejected_by` says `z`. Outward display rounding can erase
+a strict sign available to the in-memory Arb value. The saved enclosure is
+still usable as an enclosure; its flag is not a reproducible exclusion.
+
+K1818's existing `gradient exclusions semantic` validation rejects this
+discrepancy. Recheck every replacement decision against its serialized bounds
+at assembly. Retain leaf 38 as method-indeterminate unless a replay supplies
+a sufficiently precise outward enclosure that independently excludes zero.
+Do not change its recorded digest, infer a tighter radius from the flag, or
+discard its otherwise valid derivative bounds. The complete published
+52-checkpoint bank has no such gradient/decision discrepancy; K1820's twelve
+accepted exclusions and forty retained polygons are unchanged. This finding
+does not claim the in-memory calculation was wrong or that another root exists.
+
 ## October 19 exact interior derivative transport
 
 K1820 now composes the **already-complete corrected K1818 bank**, without
