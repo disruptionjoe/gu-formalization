@@ -9,6 +9,9 @@ updated_at: "2026-08-23"
 
 ## October 20 research evidence
 
+- `k1856-fisher-tail-phase.json`: tail mixture identities, phase scope and moment-cap constants.
+- `k1857-fisher-gaussian-profile.json`: Gaussian profile/distance constants and exact contamination inputs.
+
 - `k1854-fisher-concentration-endpoint.json`: clipped-score constants, raw moments and concentration scope.
 - `k1855-fisher-gaussian-endpoint.json`: exact rational dual, Hermite trial, finite window and cubic/budget coefficients.
 

@@ -2,6 +2,9 @@
 
 ## October 20 research evidence
 
+- `k1856_fisher_tail_phase.py` and `_probe.py`: exact tail construction and independent rational controls/input faults.
+- `k1857_fisher_gaussian_profile.py` and `_probe.py`: dual/Hermite identities, profile constants, exact contamination and input faults.
+
 - `k1854_fisher_concentration_endpoint.py` and `_probe.py`: piecewise identities, exact moments, transport/budget controls and input faults.
 - `k1855_fisher_gaussian_endpoint.py` and `_probe.py`: whole-line residual, Gaussian moments, whole-window polynomial bounds and cubic/inversion identities.
 

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 20177b9d8d4add84751e0503574222571f5e3424
+revision_basis: 1b80b790018f0a18f9cf7a26dd9bb112cd63b1d2
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,17 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1856 completes the unrestricted Fisher moment phase diagram: for k>3,
+    F(k)=1 is unattained, with an exactly feasible escaping Gaussian-tail sequence.
+    Every minimizing sequence tends to the Gaussian in TV and Gaussian square-root
+    H1 but loses fourth moment; a sixth-moment cap gives explicit positive excess.
+    K1857 proves (sqrt(p/phi)-1)/q -> -H4/48 strongly in Gaussian H1 for every
+    leading-optimal family at fourth moment3-q. Sharp Hellinger/TV, uniform CDF,
+    characteristic-function and interior-quantile response follow. An exact-moment
+    near-optimal family has divergent sixth moment: no unbounded-moment transfer,
+    quartic value coefficient, source/physics inference or novelty is claimed.
+
+    Historical predecessor results at their original scope:
     K1854 proves the unrestricted concentration endpoint: delta*F(1+delta)->4,
     with explicit global lower/upper bounds, W2 concentration and finite high-budget
     brackets. K1855 proves the Gaussian endpoint F(3-q)-1=q²/6+q³/4+o(q³),
@@ -15296,6 +15307,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/k1856-fisher-tail-phase-2026-10-20.md
+    - lab/process/k1856-fisher-tail-phase.json
+    - explorations/k1857-fisher-gaussian-profile-2026-10-20.md
+    - lab/process/k1857-fisher-gaussian-profile.json
     - explorations/k1854-fisher-concentration-endpoint-2026-10-20.md
     - lab/process/k1854-fisher-concentration-endpoint.json
     - explorations/k1855-fisher-gaussian-endpoint-2026-10-20.md
@@ -16039,6 +16054,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which source-owned metric/observation variation or uniform two-well endpoint
+  estimate has the best next payoff? K1856 closes the above-Gaussian value and
+  nonattainment phase; K1857 closes the first Gaussian density response and its
+  bounded-observable consumers. Exact optimizer higher-tail response remains
+  separate from leading-optimal shape, as the sixth-moment counterexample shows.
+
+  Historical predecessor question/condition; completed scopes updated above:
   Which same-action source metric/observation adapter most directly tests vacuum
   response, or what uniform all-density next-order concentration argument beats
   the completed endpoint laws? K1854 closes leading k1 and K1855 closes Gaussian
@@ -19131,6 +19153,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Compare actual torsion/Shiab metric-response and observation data with uniform
+  k1 localization or an optimizer-specific second Gaussian response. Do not
+  repeat the complete k>3 phase or first-order Gaussian profile. For a quartic
+  value coefficient, control actual optimizer high moments and the second score
+  response; generic near-optimal Gaussian H1 convergence cannot supply them.
+  Restricted-k2 quantitative separation still needs a global restricted bound.
+
+  Historical predecessor question/condition; completed scopes updated above:
   Compare the actual source torsion/Shiab metric-variation and observation
   adapter with a uniform k1 subleading/blow-up theorem or a certified restricted
   k2 lower bound. Gaussian quartic order needs a quantitative residual/score

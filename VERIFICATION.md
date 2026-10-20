@@ -7,6 +7,36 @@ updated_at: "2026-10-20"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-20: Fisher tail phase and universal Gaussian tangent
+
+[K1856](explorations/k1856-fisher-tail-phase-2026-10-20.md) proves F(k)=1
+without attainment for every k>3 by an exactly moment-matched two-variance
+Gaussian mixture. Together with K1843 this completes the moment phase diagram.
+Every minimizing sequence converges in TV and Gaussian square-root H1 while
+fourth-moment excess escapes. A sixth-moment cap M restores the explicit gap
+I-1>=|k-3|^6/[64(M+15)^4].
+
+[K1857](explorations/k1857-fisher-gaussian-profile-2026-10-20.md) proves
+(sqrt(p/phi)-1)/q -> -H4/48 strongly in Gaussian H1 for any leading-optimal
+raw-second1/fourth3-q family, including asymmetric competitors. It gives
+sharp Hellinger and TV coefficients, bounded-observable response and uniform
+CDF/Fourier plus interior-quantile expansions. An exactly feasible near-optimal
+family with sixth moment at least15/q² prevents an unbounded-moment inference.
+The exact optimizer is not asserted to have those escaping tails.
+
+Validation: K1856 has10 exact algebra/limit groups and92 separate rational
+controls, with5 mathematical-input faults and2 reporting faults detected.
+K1857 has19 exact identity/limit groups and28 separate polynomial/rational
+controls, with8 input faults and2 reporting faults detected. Clean baselines
+precede faults; detection means a failed assertion, never a crash. The written
+weak-score, Poincare, norm-saturation and tail arguments own the continuum
+proofs. No independent-person, formal-proof, novelty or GU-physics claim.
+Source SC-COS-50/51/54 and SC-ACT-01/02 remain ASSERTS; SC-META-53 UNCERTAIN.
+Ledger/canon verdicts unchanged. Earlier requests for first-order Gaussian
+shape are answered here; quartic value and exact-optimizer higher-tail response
+remain open, as do actual source metric/observation and k1 subleading questions.
+
+
 ## 2026-10-20: unrestricted Fisher endpoint laws and effective budgets
 
 [K1854](explorations/k1854-fisher-concentration-endpoint-2026-10-20.md)

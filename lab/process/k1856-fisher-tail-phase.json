@@ -1,0 +1,25 @@
+{
+  "artifact": "K1856_FISHER_TAIL_PHASE",
+  "status": "RESEARCH_RESULT",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "note": "explorations/k1856-fisher-tail-phase-2026-10-20.md",
+  "dependencies": {
+    "explorations/k1843-unrestricted-fisher-variational-gap-2026-10-20.md": "4dd0b02b04005af66c6b33b384d7e86ac0f3a028a0f3fa312ba6b503aa4fb307",
+    "explorations/k1855-fisher-gaussian-endpoint-2026-10-20.md": "f6bd0f81bd2a6f75871355c5d3105cc571374e3504f31f73f3d06d38ff8c853d",
+    "explorations/k1851-fisher-parity-stability-2026-10-20.md": "a4bbb7cf3817f34c50f5bac3128a17400bac88914a1bb3603fa0c55d7df1fc82"
+  },
+  "scope": {
+    "gu_physics": false,
+    "novelty_claim": false,
+    "formal_verification": false,
+    "continuum_proof": "written note; arithmetic controls do not certify functional analysis"
+  },
+  "constants": {
+    "gaussian_fourth": 3,
+    "gaussian_sixth": 15,
+    "sixth_cap_denominator": 64,
+    "tail_variance_coefficient": 1,
+    "tail_weight_power": 2
+  }
+}

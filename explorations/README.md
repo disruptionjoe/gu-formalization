@@ -9,6 +9,9 @@ updated_at: "2026-08-21"
 
 ## October 20 research evidence
 
+- [K1856 Fisher tail phase](k1856-fisher-tail-phase-2026-10-20.md): complete moment phase, nonattainment, escaping tails and moment-cap gap.
+- [K1857 Gaussian tangent](k1857-fisher-gaussian-profile-2026-10-20.md): strong first-order profile, sharp response and higher-moment counterexample.
+
 - [K1854 unrestricted concentration](k1854-fisher-concentration-endpoint-2026-10-20.md): sharp leading k1 cost, transport and budget bounds.
 - [K1855 Gaussian endpoint](k1855-fisher-gaussian-endpoint-2026-10-20.md): rational dual, sharp cubic law, effective brackets and low-budget correction.
 
