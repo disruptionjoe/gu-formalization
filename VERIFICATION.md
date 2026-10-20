@@ -7,6 +7,28 @@ updated_at: "2026-10-20"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-20: rational carrier and parameter-family continuation
+
+[K1822](explorations/conditional-build/k1822-k77-rational-corrected-carrier-2026-10-20.md) proves the frozen corrected-carrier identities over rational
+numbers, including the four real eigenspace dimensions `192,192,64,64`.
+Exact invariant-graph and projector checks close the real-lift premise left
+conditional in K1821. The restricted base-map tensor R[A] algebra therefore
+has arrow ranks and homology dimensions divisible by 64 over the reals.
+This supplies no new action coefficient, interacting differential, physical
+state or Euclidean ellipticity result. Source SC-ACT-01/02/06 remain ASSERTS
+and SC-META-53 UNCERTAIN; the physics-ledger rows remain unchanged.
+
+[K1823](explorations/k1823-uniform-q-collar-2026-10-20.md) proves uniform boundary control for
+`|q-1/1024|<=10^-13` and a common compactified two-radius domain. The minimum
+on that boundary-inclusive domain, equivalently the infimum on the open
+chart, is strictly increasing and has an explicit conservative Lipschitz
+bound. Combining common compactness with K1820's unique interior minimum
+and positive Hessian proves a unique smooth global optimizer for some
+smaller open neighborhood. Its radius is not computed; uniqueness or
+open-chart attainment throughout the entire explicit interval is not claimed.
+The proof reuses the fixed-q numerical certificates and adds no quadrature.
+These are active-research results, with no canon or physical promotion.
+
 ## 2026-10-20 — K1821 finite rank-loss boundary and K1820 independent replay
 
 [K1821](explorations/conditional-build/k1821-k590-nonfactorized-rank-strata-2026-10-20.md)

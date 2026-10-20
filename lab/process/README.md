@@ -9,6 +9,8 @@ updated_at: "2026-08-23"
 
 ## October 20 research evidence
 
+- [K1822 rational spectrum](k1822-k77-rational-corrected-carrier.json).
+- [K1823 uniform-q constants and scope](k1823-uniform-q-collar.json).
 - [K1821 exact construction](k1821-k590-rank-strata.json).
 - [K1820 independent audit](k1820-independent-certificate-audit.json).
 These are active-research evidence, not canon acceptance.

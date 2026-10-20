@@ -7,13 +7,26 @@ updated_at: "2026-10-20"
 
 # Next Steps For Contributors
 
+> **2026-10-20 RATIONAL AND PARAMETER DEPENDENCIES CLOSED.** K1822 proves
+> the corrected-carrier spectrum over QQ/R, so repeating two-prime checks or
+> seeking the same real lift is unnecessary. Action-derived degeneracy
+> resolution still needs the same-background mixed variation, typed Riesz
+> return and common domain identified by K631/K637; an arbitrary seed is not
+> that input. K1823 supplies uniform collars/common compactness and a
+> qualitative unique-global-optimizer neighborhood. Quantifying that smaller
+> uniqueness interval requires an exterior gap and uniform local derivative
+> bounds; no new fixed-q bank is needed. Compare this effective-continuation
+> calculation with the actual coupled action construction before proceeding.
+> The explicit `10^-13` interval certifies compactification and value
+> monotonicity, not uniqueness throughout that interval. See Research Status.
+
 > **2026-10-20 NONFACTORIZED FINITE BOUNDARY.** K1821 gives the complete
 > homology budget `(u,u+v,v)` for K590's fixed spaces. Nonzero H0 plus higher
 > acyclicity needs a changed complex and an action-derived relation. The
 > entangled one-mode witness is supplied, not selected by the current R[A]
 > algebra. Derive the actual degeneracy-resolving action block; do not repeat
 > covariance, factorized lifting or small-perturbation contraction. Compare
-> that task with uniform-q collar/sublevel construction and the coupled A/R
+> that task with effective uniform-q uniqueness bounds and the coupled A/R
 > action route. K1820's separate exact audit supports its new correlated
 > certificate but reuses upstream numerics; full canon review remains open.
 > See the K1821 result and K1820 independent review linked in Research Status.

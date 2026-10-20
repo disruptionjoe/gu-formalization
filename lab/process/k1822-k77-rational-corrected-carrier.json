@@ -1,0 +1,143 @@
+{
+  "algebra_consequences": {
+    "base_map_tensor_polynomial_arrow_rank_divisor": 64,
+    "carrier": "im(P), dimension 512, with identity P; not the full observed 640-space",
+    "characteristic_polynomial": "(x^2-1)^192 (x^2-1/576)^64",
+    "corrected_incoming_outgoing_ranks": [
+      256,
+      256
+    ],
+    "minimal_polynomial": "(x^2-1)(x^2-1/576)",
+    "minimum_nonzero_idempotent_rank": 64,
+    "real_polynomial_algebra_dimension": 4
+  },
+  "certificate": {
+    "checks": {
+      "all_Clifford_relations": true,
+      "all_words_in_graph": true,
+      "chirality_weights_inverse": true,
+      "four_projectors_eigenvalue_equations": true,
+      "four_projectors_idempotent_orthogonal": true,
+      "four_projectors_sum": true,
+      "gamma_trace_split": true,
+      "good_reduction_rank_lower_640": true,
+      "historical_fixture_digests_1009": true,
+      "historical_fixture_digests_1013": true,
+      "observation_lift_identity": true,
+      "planted_two_prime_invisible_error_rejected": true,
+      "planted_wrong_graph_rejected": true,
+      "rank_witness_denominators_invertible": true,
+      "rational_compressed_endomorphism": true,
+      "rational_corrected_projector": true,
+      "rational_graph_invariant_7": true,
+      "rational_graph_invariant_8": true,
+      "rational_graph_invariant_9": true,
+      "rational_observed_normal_involution": true,
+      "rational_quartic": true,
+      "rational_sign_cubic": true,
+      "rational_sign_involution": true,
+      "rational_spectral_multiplicities": true,
+      "rational_split_half_ranks": true,
+      "rational_time_left_inverse": true,
+      "rational_time_right_inverse": true,
+      "rational_word_span_rank_640": true,
+      "seed_in_graph": true
+    },
+    "corrected_lift_equals_coordinate_lift": false,
+    "historical_fixture_digests": {
+      "1009": {
+        "ambient_inverse_lift": "sha256:e3c6fabfd7270236a8062b10eaca08e39dcf878c2920252d99f45520e35cb307",
+        "compressed_symbol": "sha256:a6e49f196af2cad583f37f6a4f656497285776b155930901c9dd449e577430f5",
+        "fast_projector": "sha256:971f616a52a0f0ad8d93e77868bbb97d8650b8affb659218feb609c4729ff41b",
+        "slow_projector": "sha256:7eca593ca8e208f744e1ce3f7bbbcd60e1d1ad55d3afa1df6ac491f0bfab0147"
+      },
+      "1013": {
+        "ambient_inverse_lift": "sha256:de3fc0da5034da860c9931f36996f05e3541da31f253b9b2c5752912208cc243",
+        "compressed_symbol": "sha256:069d75c74e5d5ef47fd86afab7b6bbef2bb074dc232e730e3447440e3f6d0bbb",
+        "fast_projector": "sha256:9d5b373a3cdb96c0d584f50a2d84829dea57378ed8aebbb4f0fceacfcc4ce074",
+        "slow_projector": "sha256:bbf39e5239875dad881298638f19735847c80e682e18668dece0b93fb8fd8842"
+      }
+    },
+    "observed_inverse_blocks": {
+      "count": 256,
+      "largest": 4
+    },
+    "rank_lower_bound": {
+      "argument": "good reduction nonzero minor plus rational invariant graph upper bound",
+      "denominator_lcm": 24,
+      "prime": 1009,
+      "rank": 640
+    },
+    "rational_matrices": {
+      "A": {
+        "digest": "sha256:ef8ea4442167ac2ed16259295a0833c029b78903533847f1c9368b6d508add72",
+        "nnz": 3072,
+        "shape": [
+          640,
+          640
+        ]
+      },
+      "P": {
+        "digest": "sha256:22b5e42b45ed6f4c1ad48277a291a1c13fcacefaa731dc0458f02b4280e5158a",
+        "nnz": 2176,
+        "shape": [
+          640,
+          640
+        ]
+      },
+      "fast": {
+        "digest": "sha256:01ee3909c7c7f833724ef6c073846dfb009c2211dfee21f6a2e59df3ee658955",
+        "nnz": 2944,
+        "shape": [
+          640,
+          640
+        ]
+      },
+      "lift": {
+        "digest": "sha256:4f1ce3b40296cdcd9e7657e2809bc9d90a13211563fa346daf7db6a1a96ff1ab",
+        "nnz": 5760,
+        "shape": [
+          1920,
+          640
+        ]
+      },
+      "sign": {
+        "digest": "sha256:6798873c8a7d636dcc0ac10e85a7b5faeb3b0f35a98d02bcb41d40ee3d626704",
+        "nnz": 3072,
+        "shape": [
+          640,
+          640
+        ]
+      },
+      "slow": {
+        "digest": "sha256:880ebadd2cb061ea6a49547e1014351938d638a68812a7e768cf8c362ab45660",
+        "nnz": 3200,
+        "shape": [
+          640,
+          640
+        ]
+      }
+    },
+    "rational_spectral_multiplicities": [
+      192,
+      192,
+      64,
+      64
+    ]
+  },
+  "claim_boundary": {
+    "Euclidean_ellipticity": false,
+    "canon_effect": "none",
+    "ledger_effect": "none",
+    "new_source_action_coefficients": false,
+    "nonfactorized_KT_differential": false,
+    "physical_state": false
+  },
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-10-20",
+  "result_id": "K1822-K77-RATIONAL-CORRECTED-CARRIER",
+  "schema_version": "1.0",
+  "scope": "Exact rational coefficient lift of the conditional K435-K439 principal fixture; no functional or physical completion.",
+  "status": "active_research",
+  "target_claim": "NONE-NOT-A-KILL"
+}

@@ -9,6 +9,8 @@ updated_at: "2026-08-21"
 
 ## October 20 research evidence
 
+- [K1822 rational corrected carrier](conditional-build/k1822-k77-rational-corrected-carrier-2026-10-20.md): exact coefficient spectrum, no physical completion.
+- [K1823 uniform-q continuation](k1823-uniform-q-collar-2026-10-20.md): explicit compactification interval and qualitative unique-global branch.
 - [K1821 finite rank strata](conditional-build/k1821-k590-nonfactorized-rank-strata-2026-10-20.md) — active research, finite-model scope.
 - [K1820 independent exact review](k1820-independent-certificate-review-2026-10-20.md) — upstream numerical evidence reused.
 

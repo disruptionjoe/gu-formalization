@@ -2,6 +2,8 @@
 
 ## October 20 research evidence
 
+- `k1822_k77_rational_corrected_carrier.py --check` and `_probe.py`: Sage QQ full-fixture reconstruction and independent small-matrix controls.
+- `k1823_uniform_q_collar.py` and `_probe.py`: standard-library rational bounds and analytic-counterexample controls; no quadrature.
 - `k1821_k590_rank_strata.py` and `_probe.py`: standard-library finite construction, rank and mutation checks.
 - `k1820_independent_certificate_audit.py --selftest`: independent rational terminal replay; no numerical quadrature.
 

@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1823",
+  "status": "active_research",
+  "scope": "symmetric unit-variance two-radius scalar Gaussian channels, including continuous Rademacher and three-point faces",
+  "input_sha256": {
+    "lab/process/k1753-arb-rational-interior-improvement.json": "559ae2a4133bbe7f2e2a2841e1b67d375aa8de9979abc5a18f83b6252f2a6cf1",
+    "lab/process/k1756-rademacher-arb-gap.json": "9d87dc579f1e5d1051333972ebe613792ec7e867752f3e89919c5818f54fc2c0",
+    "lab/process/k1757-ou-variational-stability.json": "68c60398d9b01575fcf713f863047a50f83fade157ec87daa09e3c251e44f457",
+    "lab/process/k1758-zero-noise-entropy-collar.json": "0af3e39854c2e3654e44ddceafba9b7e6fe45a86db18c9a57dba3868da721b25",
+    "lab/process/k1759-rare-atom-quantitative-collar.json": "31f79084107854403eb8beabcf1b3c4becd094f65c04b325a2ef1e2447193133",
+    "lab/process/k1820-full-fisher-global-optimizer-admission.json": "ae1b3f3edba77ba6872178f890eb1a9b6876c46f99bf818c0ccb2f3bae1c0dc5",
+    "lab/process/k1820-independent-certificate-audit.json": "abb27463dd66e1e6f2120e9d12a9db6f490f50290fdc7a3004a6718129d9d026"
+  },
+  "constants": {
+    "q0": "1/1024",
+    "half_width": "1/10000000000000",
+    "q_min": "9765624999/10000000000000",
+    "q_max": "9765625001/10000000000000",
+    "candidate_u": "691835097/2000000000",
+    "candidate_c": "3308164903/2000000000",
+    "candidate_z": "1127044207/2000000000",
+    "comparison_derivative_bound": "1490944/16875",
+    "comparison_derivative_rounded": "89",
+    "inherited_gap_floor": "11/50000000000",
+    "uniform_comparison_gap_floor": "1011/5000000000000",
+    "rare_loss_upper": "3/500000000000",
+    "uniform_rare_gap_floor": "981/5000000000000",
+    "common_z_min": "1/10000000000000000000000000000000000",
+    "common_c_max": "18759765625001/9384765625000",
+    "common_noise_lower": "1/33",
+    "value_lipschitz_constant": "5577440000000000000/3255208333"
+  },
+  "inherited_gap_lower_endpoint": "220120827506601979782313576950910736508427711/1000000000000000000000000000000000000000000000000000000",
+  "identities": {
+    "signal": "t=sqrt(q/(2-c)); v=1-t",
+    "relative_score_derivative": "r'=-t/v+t Var(X|Y)/v^2",
+    "q_derivative": "dJ/dq=(J+E[(r')^2])/(2q)",
+    "moment_bound": "E[Var(X|Y)^2]<=E[X^4]=1+c<=3",
+    "output_fourth_cumulant": "-q"
+  },
+  "explicit_interval_results": {
+    "common_compact_minimizer_domain": true,
+    "uniform_boundary_escape_exclusion": true,
+    "boundary_inclusive_minimum_attained": true,
+    "equals_regular_open_chart_infimum": true,
+    "regular_open_chart_attainment_on_entire_interval": false,
+    "value_continuous_and_lipschitz": true,
+    "value_strictly_increasing": true,
+    "unique_minimizer_on_entire_explicit_interval": false
+  },
+  "qualitative_neighborhood_result": {
+    "there_exists_positive_delta": true,
+    "delta_upper_bound": "1/10000000000000",
+    "delta_value": null,
+    "unique_smooth_global_minimizer": true,
+    "uses_fixed_q_unique_global_minimum": true,
+    "uses_compact_exterior_gap": true,
+    "uses_positive_local_hessian": true
+  },
+  "verification_boundary": {
+    "new_numeric_integration": false,
+    "inherited_certificates_recomputed": false,
+    "upstream_quadrature_and_global_cover_reused": true,
+    "new_analytic_proof_in_companion_note": true,
+    "new_exact_rational_inequalities": 13
+  },
+  "claim_boundary": {
+    "arbitrary_channel_optimizer": false,
+    "source_action_or_physical_state": false,
+    "source_or_physics_ledger_change": false,
+    "canon_promotion": false
+  }
+}

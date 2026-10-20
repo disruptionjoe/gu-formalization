@@ -146,6 +146,15 @@ one. Neither construction has physical status.
 
 ## Actual action-data attempt and the first missing datum
 
+**Subsequent evidence, 2026-10-20:**
+[K1822](k1822-k77-rational-corrected-carrier-2026-10-20.md) now proves the
+frozen corrected-carrier polynomial and multiplicities over QQ/R. The
+real-lift qualification in the original paragraph below records the evidence
+available when K1821 was written; that specific dependency is now discharged.
+The restricted-algebra divisibility conclusion holds for this exact real
+fixture. Action ownership, physical cohomology and the additional relation
+remain open; stronger coefficient evidence supplies none of them.
+
 K438/K439 and K607 serialize a corrected-carrier operator A with four spectral
 multiplicities `192,192,64,64`. K610's available closure acts by the identity
 inside each degeneracy space. The following divisibility conclusion is conditional
