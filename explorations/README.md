@@ -9,6 +9,9 @@ updated_at: "2026-08-21"
 
 ## October 20 research evidence
 
+- [K1840 conservative variable observation](conditional-build/k1840-k77-conservative-variable-observation-2026-10-20.md): complete conservative first-order class, arbitrary one-coordinate mass repair, dimensional limit and wall observability.
+- [K1841 global Fisher scaling](k1841-fisher-global-scaling-2026-10-20.md): uniform tightness, eventual global uniqueness, sharp value, inverse budget and local stability.
+
 - [K1838 variable Dirac observation](conditional-build/k1838-k77-variable-dirac-observation-2026-10-20.md): full gradient restriction, invisible fields and two local frame repairs.
 - [K1839 global Fisher merging](k1839-fisher-global-merging-coercivity-2026-10-20.md): unbounded-separation exclusion, uniform skew constraint and score saturation.
 

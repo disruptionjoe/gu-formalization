@@ -7,6 +7,19 @@ updated_at: "2026-10-20"
 
 # Next Steps For Contributors
 
+> **2026-10-20 GLOBAL ENDPOINT AND VARIABLE-MASS REPAIR.** K1841 proves
+> eventual global optimizer uniqueness and sharp endpoint scales/value in the
+> two-radius family. Effective onset/error constants and behavior away from
+> the endpoint are the remaining scalar questions; do not repeat scale escape
+> exclusions or fixed-family jets. K1840 supplies exact conservative variable
+> mass profiles and isolates a genuine observation zero-mode loss, repaired globally in target L2 by
+> a constant second mass. Next test general multidimensional
+> conservative compatibility and the actual source coefficient/pairing bridge;
+> conditional profile freedom is not physical source selection. Earlier global
+> endpoint-open and restricted-ansatz recommendations are historical. Source,
+> ledger and canon unchanged.
+
+
 > **2026-10-20 GLOBAL MERGING AND VARIABLE-OBSERVATION REPAIRS.** K1839 closes
 > the last noise-scale escape and fixes c(z-r)/delta²->1/2 globally. Next test
 > fourth/higher-cumulant cost uniformly as r/z approaches0 or1 to establish

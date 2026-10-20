@@ -2,6 +2,9 @@
 
 ## October 20 research evidence
 
+- `k1840_k77_conservative_variable_observation.py` and `_probe.py`: exact conservative kernels, profile/observation-square identities and independent controls.
+- `k1841_fisher_global_scaling.py` and `_probe.py`: exact score-Gram, cumulant and coercivity identities, with independent rational moment checks.
+
 - `k1838_k77_variable_dirac_observation.py` and `_probe.py`: all target jets, complete zeroth correction and polynomial-field frame repairs.
 - `k1839_fisher_global_merging_coercivity.py` and `_probe.py`: exact score-Gram/moment identities and independent rational controls.
 

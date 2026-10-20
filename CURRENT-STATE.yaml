@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 1da4f8a5e4adb7395c0567b3827b9080b86bd478
+revision_basis: 25f604a3f98734ef4d13eb4ec8d160ce65c8808e
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1840 proves the full conservative first-order observation space has
+    dimension44 on each real16 module and constructs arbitrary static two-component mass profiles
+    along one coordinate with fixed positive energies and leading observation.
+    The same arbitrary-profile factorized ansatz in two coordinates has no
+    target mass. The exact observation square excludes target wall zero modes
+    from the L2 source image; a second constant mass gaps the wall band and
+    permits bounded recovery on the full target L2 space. Full multidimensional compatibility and source
+    coefficient/physical-domain ownership remain separate.
+    K1841 proves uniform global endpoint scale tightness, eventual unique
+    two-radius optimizer, c/delta^(4/3)->1/2 and
+    z/delta^(2/3)->(1+sqrt(3))/2. The global value is
+    4/delta-2+(3/8)delta^(2/3)-(6/5)delta+O(delta^(4/3)); parameter corrections,
+    inverse budget and local anisotropic stability follow. No effective onset,
+    all-q uniqueness or larger-mixture optimality. Source/ledger/canon unchanged.
+
+    Previous results retained; their compactness/global-endpoint questions
+    are superseded by K1841, and restricted variable-mass obstructions do not
+    extend to K1840's conservative correction class:
     K1838 derives necessary and sufficient variable-coefficient conditions
     for K1836's fixed local observation: pointwise lifts force spatially
     constant target B but allow time dependence and invisible source fields.
@@ -15201,6 +15219,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1840-k77-conservative-variable-observation-2026-10-20.md
+    - lab/process/k1840-k77-conservative-variable-observation.json
+    - explorations/k1841-fisher-global-scaling-2026-10-20.md
+    - lab/process/k1841-fisher-global-scaling.json
     - explorations/conditional-build/k1838-k77-variable-dirac-observation-2026-10-20.md
     - lab/process/k1838-k77-variable-dirac-observation.json
     - explorations/k1839-fisher-global-merging-coercivity-2026-10-20.md
@@ -15916,6 +15938,15 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can a multidimensional conservative observation repair or an actual
+  source-owned coefficient/pairing packet extend K1840's arbitrary-profile
+  construction without hiding the observation zero-mode loss? Compare that
+  concrete compatibility test with effective endpoint constants or finite-q
+  transitions in the scalar problem. K1841 has settled qualitative global
+  endpoint scaling and eventual uniqueness, so another compactness proof or
+  fixed-family coefficient is not the next question.
+
+  Previous question, resolved at the stated endpoint and one-coordinate scope:
   Can uniform fourth/higher-cumulant bounds, now that all minimizers merge
   and satisfy c(z-r)/delta²->1/2, force compact K1835 scales against its sharper
   upper bound? Compare a non-frame solution of K1838's full variable-observation
@@ -18942,6 +18973,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Solve the remaining nonlinear compatibility conditions in the full
+  conservative44 space per real16 module for genuinely multidimensional mass data, or test a
+  source-owned stationary coefficient/Riesz packet against the exact repair.
+  Preserve the two-coordinate obstruction's factorized-ansatz scope and the
+  target/source zero-mode distinction. On the scalar side derive explicit
+  remainder/onset constants or identify a finite-q transition; qualitative
+  endpoint powers, next coefficients and eventual shape uniqueness are now
+  proved by K1841. No physical source, ledger or canon verdict is selected.
+
+  Previous continuation retained as historical where K1840/K1841 resolve it:
   Control the next Fisher cost uniformly as r/z approaches0 or1 and scaled
   z/delta^(2/3) escapes, without using compact-window remainders there. Reuse
   K1839's global skew constraint and exact score projections. On the operator

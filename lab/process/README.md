@@ -9,6 +9,9 @@ updated_at: "2026-08-23"
 
 ## October 20 research evidence
 
+- `k1840-k77-conservative-variable-observation.json`: complete conservative class and exact arbitrary-profile repair with observation limits.
+- `k1841-fisher-global-scaling.json`: global endpoint scaling/value/uniqueness and analytic proof dependencies.
+
 - `k1838-k77-variable-dirac-observation.json`: variable-coefficient rigidity, relaxed first-order dimension and frame repair controls.
 - `k1839-fisher-global-merging-coercivity.json`: global merging/skew constraints with explicit next-order limits.
 

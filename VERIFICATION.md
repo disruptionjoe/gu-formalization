@@ -7,6 +7,48 @@ updated_at: "2026-10-20"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-20: conservative variable mass and global Fisher optimizer
+
+[K1840](explorations/conditional-build/k1840-k77-conservative-variable-observation-2026-10-20.md)
+classifies the full conservative first-order observation equations on each
+real16 module in dimension44.
+The simple connection-and-mass subclass is smaller and cannot support spatially
+varying mass modulus, but extra correction directions supply exact arbitrary
+static two-component mass profiles along one coordinate, preserving the fixed
+positive energies and leading differential observation. In the same factorized
+ansatz, requiring arbitrary dependence on two coordinates leaves only invisible
+coefficients and no target mass. The exact observation/target-square identity
+separates target wall states from their source lifts: zero modes are absent
+from the L2 observation image; a constant second mass opens a full target
+spectral gap and restores bounded recovery on all target L2 states. These are conditional fixture results,
+not a source-selected mass field, physical chirality count or global GU domain.
+SC-OP-04/MAS-01/CHI-02 ASSERTS and SC-OP-05/META-53 UNCERTAIN remain unchanged.
+
+[K1841](explorations/k1841-fisher-global-scaling-2026-10-20.md)
+closes global scale tightness for the symmetric two-radius Gaussian family.
+Uniform cubic score coercivity forces c/delta^(4/3)->1/2 and
+z/delta^(2/3)->(1+sqrt(3))/2 for every global minimizer. K1835's existing
+compact-window theorem then proves eventual global uniqueness and
+V(2-delta)=4/delta-2+(3/8)delta^(2/3)-(6/5)delta+O(delta^(4/3)).
+Optimizer weight/noise corrections, inverse-budget coefficients and a local
+value-to-shape stability bound follow. The onset remains non-effective;
+all-q uniqueness and larger-mixture optimality are not claimed.
+
+Separate mathematical review checks the decisive analytic and operator
+transfers. Exact algebra and independent rational controls support them;
+reporting mutations are separate and are not mathematical proofs. No external
+acceptance, novelty claim, source/physics-ledger change or canon promotion.
+Earlier endpoint-global open statements and any broad variable-mass obstruction
+below are historical or limited by these explicitly scoped results.
+
+K1840: 101 exact producer groups and 252 independent mathematical controls,
+including raw-entry modular rank checks and polynomial operator compositions;
+six reporting mutations rejected. K1841: 41 exact algebraic identities and
+498 independent rational controls across 36 fixtures; eight reporting faults
+rejected. These finite checks support the written arguments and do not replace
+the uniform analytic proof or operator-domain reasoning.
+
+
 ## 2026-10-20: variable observation repairs and global Fisher merging
 
 [K1838](explorations/conditional-build/k1838-k77-variable-dirac-observation-2026-10-20.md)
