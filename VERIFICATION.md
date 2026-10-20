@@ -7,6 +7,39 @@ updated_at: "2026-10-20"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-20: characteristic locality and a compact-window Fisher optimizer
+
+[K1834](explorations/conditional-build/k1834-k77-characteristic-cones-2026-10-20.md)
+classifies the corrected compressed characteristic determinant as two cones,
+with speeds1 and1/24 and factor multiplicities192 and64. Common cone-preserving
+coordinates admit rotations and scale, but no boosts. This is a conditional
+fixture test, not a physical GU Lorentz verdict. Exact Fourier projectors have
+ranks384/128; no nonzero constant first-order invariant field sector carries
+only one speed. Local differential extraction loses invertibility through the
+Laplacian. All constant speed-compatible coefficients have dimension20,480;
+10,208 are skew for the chosen common energy, including coefficients that do
+not commute with the full principal operator. Source dynamics remain unselected.
+
+[K1835](explorations/k1835-fisher-next-endpoint-coefficient-2026-10-20.md)
+proves the next coefficient3/8 at order delta^(2/3) within every fixed compact
+positive scaling window a=c/delta^(4/3),b=z/delta^(2/3) containing the limiting
+parameters. A unique minimizing branch exists there for small delta; its
+value is4/delta-2+(3/8)delta^(2/3)-(6/5)delta+O(delta^(4/3)). An explicit
+moving-parameter witness attains that expansion and improves the previous
+fixed family, whose delta coefficient is+3/10. This is a global upper bound.
+Unrestricted minimizing scales may escape the window: neither the next global
+coefficient nor global shape uniqueness or rates are proved. No effective onset.
+
+Exact rational/modular operator controls and two distinct exact Gaussian
+series derivations support written proofs of locality, uniform remainders
+and compact-window uniqueness. Reporting faults are checked separately.
+Both remain active research; inline hostile review, no separate-agent review,
+source/physics-ledger/canon change or novelty claim. SC-OP-04/ACT-01/02/06
+ASSERTS and SC-OP-05/META-53 UNCERTAIN remain unchanged. Earlier unsolved
+next-coefficient statements below remain open globally, with this window now
+resolved. No old fixed-q numerical bank was replayed.
+
+
 ## 2026-10-20: common principal energy and sharp additive Fisher endpoint
 
 [K1832](explorations/conditional-build/k1832-k77-common-energy-form-2026-10-20.md)

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 2f588dfd9d1d3b07ccad7a70d6bd26e3b900ab59
+revision_basis: 6402d9a97d44da657e62f8dfc65d0086b2194902
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1834 derives the two-cone characteristic determinant, no common boosts
+    and no constant pure-speed first-order field sector for the corrected E512
+    fixture. Fourier sectors are exact but nonlocal; local derivative extraction
+    needs inverse-Laplacian recovery. The full constant speed-compatible
+    coefficient space has dimension20480 and energy-skew subspace10208.
+    These conditional mathematical choices are not source or physical data.
+    K1835 proves the sharp next coefficient3/8 in nondegenerate compact scaling
+    windows and a unique window-minimizing branch. Its value and an explicit
+    improving witness have expansion4/delta-2+(3/8)delta^(2/3)-(6/5)delta
+    +O(delta^(4/3)). The earlier fixed family has delta coefficient+3/10.
+    Global minimizers may escape the scaling window; no next global coefficient,
+    global rate/uniqueness or effective onset is proved. Source and ledger unchanged.
+
+    Previous common-energy and additive-endpoint results retained:
     K1832 constructs a rational common positive symmetrizer for all three
     corrected compressed spatial symbols on E512. All positive energies
     correspond to positive Hermitian32-by32 multiplicity forms; the frozen
@@ -15155,6 +15169,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1834-k77-characteristic-cones-2026-10-20.md
+    - lab/process/k1834-k77-characteristic-cones.json
+    - explorations/k1835-fisher-next-endpoint-coefficient-2026-10-20.md
+    - lab/process/k1835-fisher-next-endpoint-coefficient.json
     - explorations/conditional-build/k1832-k77-common-energy-form-2026-10-20.md
     - lab/process/k1832-k77-common-energy-form.json
     - explorations/k1833-fisher-merging-radius-subleading-2026-10-20.md
@@ -15858,6 +15876,15 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can unrestricted endpoint Fisher minimizers escape the compact positive
+  scaling window a=c/delta^(4/3),b=z/delta^(2/3) while matching the new upper
+  bound? K1835 now solves the window branch; a uniform noncompact lower bound
+  is the next global premise. Compare this with an actual source-owned
+  observation/constraint reduction or same-background coefficient tested against
+  K1834's two-cone and locality conditions. Fitted potentials and common energy
+  do not select a physical operator or remove its conditional compression.
+
+  Previous question, partially resolved at the compact-window/locality scope:
   Which actual stationary-background coefficient and Riesz/reality relation
   are compatible with K1832's common energy and the source constraints?
   Energy availability is now settled for the compressed frozen fixture,
@@ -18858,6 +18885,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Test rare or merging atom scales outside compact a,b with a uniform score
+  lower bound or a rigorous escaping-scale competitor. Reuse K1835's local
+  unique branch and expansion rather than computing more fixed-family terms.
+  For the source route, supply actual stationary-background variation and
+  observation/constraint descent, then test the two characteristic cones and
+  the exact constant coefficient commutator equations. K1834 allows nonlocal
+  speed splitting and nontrivial compatible energy-skew terms; neither is a
+  selected physical field decomposition. Effective q0 uniqueness still needs
+  exterior gap and uniform q-Hessian data. SC-OP-04/ACT-01/02/06 ASSERTS,
+  SC-OP-05/META-53 UNCERTAIN unchanged; no physical or canon promotion.
+
+  Previous continuation, with compact-window and local-sector questions resolved:
   Reuse K1832's rational energy and multiplicity-form classification. Supply
   actual same-background source coefficients, constraint descent and Riesz
   relation before treating the mathematical Cauchy energy as physical.

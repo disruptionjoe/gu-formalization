@@ -9,6 +9,9 @@ updated_at: "2026-08-21"
 
 ## October 20 research evidence
 
+- [K1834 characteristic locality](conditional-build/k1834-k77-characteristic-cones-2026-10-20.md): two cones, nonlocal sectors and all compatible constant coefficients.
+- [K1835 endpoint window optimizer](k1835-fisher-next-endpoint-coefficient-2026-10-20.md): uniform next coefficient, unique window branch and strict improved witness.
+
 - [K1832 common principal energy](conditional-build/k1832-k77-common-energy-form-2026-10-20.md): exact positive energy, constant-coefficient evolution and nilpotent-damping boundary.
 - [K1833 sharp additive Fisher endpoint](k1833-fisher-merging-radius-subleading-2026-10-20.md): constant -2, merging/interior minimizers, score and inverse-budget consequences.
 

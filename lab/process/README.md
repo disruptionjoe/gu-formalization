@@ -9,6 +9,9 @@ updated_at: "2026-08-23"
 
 ## October 20 research evidence
 
+- `k1834-k77-characteristic-cones.json`: two cones, exact coefficient basis and energy-skew controls.
+- `k1835-fisher-next-endpoint-coefficient.json`: uniform-window next coefficient and explicit improving witness.
+
 - `k1832-k77-common-energy-form.json`: rational common energy, four exact module types and scoped evolution consequences.
 - `k1833-fisher-merging-radius-subleading.json`: exact chart/cumulant controls for the sharp additive asymptotic and refined family.
 

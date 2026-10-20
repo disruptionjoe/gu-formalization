@@ -1,0 +1,87 @@
+{
+  "result_id": "K1835",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "results": {
+    "fixed_witness": "4/delta-2+(3/8)delta^(2/3)+(3/10)delta+O(delta^(4/3))",
+    "refined_witness": "4/delta-2+(3/8)delta^(2/3)-(6/5)delta+O(delta^(4/3))",
+    "refined_parameters": "a=(1-e^2)/2, h=-1/(1-e^2), b=(-h+sqrt(h^2+4a))/2, c=a e^8, z=b e^4, delta=e^6",
+    "compact_scaling_window_coefficient": "3/8",
+    "compact_window_unique_minimizer": true,
+    "window_branch": "x+1/2=e^4+O(e^6), y=(3/2)e^2+O(e^4)",
+    "fixed_witness_eventually_nonminimal": true,
+    "global_next_coefficient_proved": false,
+    "global_minimizer_rates_proved": false,
+    "effective_onset": false,
+    "physical_or_canon_promotion": false
+  },
+  "general_C4": "1/6*a^2*h^6 - 23/3*a^3*h^4 + 62/3*a^4*h^2 - 3*a^2*h^3 - 5/4*a*h^2 - 1/2*a^2",
+  "fixed_D_coefficients": {
+    "6": "1/8",
+    "8": "0",
+    "10": "9/32",
+    "12": "-1/20"
+  },
+  "refined_D_coefficients": {
+    "6": "1/8",
+    "8": "0",
+    "10": "9/32",
+    "12": "-53/160"
+  },
+  "checks": {
+    "fixed_J_-6": true,
+    "fixed_J_0": true,
+    "fixed_J_2": true,
+    "fixed_J_4": true,
+    "fixed_J_6": true,
+    "fixed_odd_terms_zero": true,
+    "fixed_density_normalized": true,
+    "refined_J_-6": true,
+    "refined_J_0": true,
+    "refined_J_2": true,
+    "refined_J_4": true,
+    "refined_J_6": true,
+    "refined_odd_terms_zero": true,
+    "refined_density_normalized": true,
+    "fixed_D6": true,
+    "fixed_D10": true,
+    "fixed_D12": true,
+    "refined_x_exact": true,
+    "refined_y_leading": true,
+    "general_constant_1": true,
+    "general_e2_1": true,
+    "general_e4_1": true,
+    "general_constant_1/3": true,
+    "general_e2_1/3": true,
+    "general_e4_1/3": true,
+    "general_constant_3/4": true,
+    "general_e2_3/4": true,
+    "general_e4_3/4": true,
+    "local_coordinate_jacobian": true,
+    "scaled_stationarity_jacobian": true,
+    "gradient_x_y": true,
+    "refinement_square": true
+  },
+  "rational_controls": [
+    [
+      "1",
+      "5/4",
+      "434208347/128000000"
+    ],
+    [
+      "1/3",
+      "2/3",
+      "-147935/2519424"
+    ],
+    [
+      "3/4",
+      "3/2",
+      "495/128"
+    ]
+  ],
+  "inputs": {
+    "lab/process/k1833-fisher-merging-radius-subleading.json": "0732a1b2bbf48a452cf0391f0598212abdca7ff4ac4c0a3fb4944dda248bdfb5",
+    "explorations/k1833-fisher-merging-radius-subleading-2026-10-20.md": "f4b9a20ac9b3c77ebbffe5d9113be5184236e192d5607d5e77205b070fac8f8e"
+  }
+}

@@ -7,6 +7,17 @@ updated_at: "2026-10-20"
 
 # Next Steps For Contributors
 
+> **2026-10-20 CHARACTERISTIC LOCALITY AND WINDOW OPTIMIZER.** K1834 resolves
+> the two-cone/local-sector distinction and all constant speed-compatible
+> coefficients. Test an actual source-owned reduction or stationary coefficient,
+> preserving the compressed-fixture ceiling. K1835 supplies the unique
+> compact-window endpoint optimizer and a better explicit global upper bound.
+> Next test escaping a,b scales with a uniform Fisher lower bound at order
+> delta^(2/3); fixed-family expansion alone cannot prove global tightness.
+> Do not repeat speed projectors, another fitted potential, or fixed-q banks.
+> Global shape uniqueness, minimizing scales and effective onset remain open.
+
+
 > **2026-10-20 COMMON ENERGY AND SHARP ENDPOINT.** K1832 supplies a positive
 > common energy for the compressed constant-coefficient system and classifies
 > its energy/boundary choices; source pairing and actual lower-order dynamics

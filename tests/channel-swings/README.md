@@ -2,6 +2,9 @@
 
 ## October 20 research evidence
 
+- `k1834_k77_characteristic_cones.py` and `_probe.py`: rational and modular all-direction coefficient, locality and cone controls.
+- `k1835_fisher_next_endpoint_coefficient.py` and `_probe.py`: independent shifted-Gaussian and rational moment score jets.
+
 - `k1832_k77_common_energy_form.py` and `_probe.py`: full rational common-energy construction and separate symmetric-coordinate/positivity controls.
 - `k1833_fisher_merging_radius_subleading.py` and `_probe.py`: exact series plus independent two-atom/Hermite/score-jump controls.
 
