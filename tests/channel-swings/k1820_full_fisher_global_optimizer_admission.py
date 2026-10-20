@@ -65,6 +65,25 @@ def area(polygon):
                    for p, q in zip(polygon, polygon[1:]+polygon[:1]))) / 2
 
 
+def singular_hessian_witness(tt, tz, zz):
+    """Find an exact rank-one matrix in a component interval box, if possible.
+
+    This is an obstruction to certifying every matrix in that box as regular,
+    not an assertion that the actual function has a singular Hessian.
+    Failure of this sufficient search has no mathematical implication.
+    """
+    if tz[0] <= 0 or zz[0] <= 0:
+        return None
+    ratio = sum(tz) / sum(zz)
+    lo = max(zz[0], tz[0]/ratio, tt[0]/ratio**2)
+    hi = min(zz[1], tz[1]/ratio, tt[1]/ratio**2)
+    if lo > hi:
+        return None
+    scale = (lo+hi)/2
+    return {"tt": str(ratio**2*scale), "tz": str(ratio*scale),
+            "zz": str(scale), "kernel_vector": ["1", str(-ratio)]}
+
+
 def transport(rows, anchor, anchor_gradient):
     """Bound gradient potentials on covered edges, then constrain every zero.
 
@@ -163,6 +182,8 @@ def transport(rows, anchor, anchor_gradient):
             schur = (aa[0]-square_max/cc[0], aa[1]-square_min/cc[1])
             results[-1]["profile_schur_interval"] = list(map(str, schur))
             results[-1]["positive_profile_curvature_certified"] = schur[0] > 0
+        results[-1]["component_box_singular_witness"] = singular_hessian_witness(
+            hessian[0][0], hessian[0][1], hessian[1][1])
     input_area = sum((b[1]-b[0])*(b[3]-b[2]) for b in boxes)
     retained_area = sum(area([tuple(map(F, p)) for p in r["root_feasible_polygon"]]) for r in results)
     return {"vertex_count": len(nodes), "edge_count": len(edges),
@@ -177,6 +198,10 @@ def transport(rows, anchor, anchor_gradient):
             "retained_leaves_with_positive_profile_curvature": [
                 r["leaf"] for r in results
                 if not r["stationary_excluded"] and r.get("positive_profile_curvature_certified", False)],
+            "retained_leaves_with_component_box_singular_witness": [
+                r["leaf"] for r in results
+                if not r["stationary_excluded"] and r["component_box_singular_witness"] is not None],
+            "singular_witness_is_actual_hessian": False,
             "retained_polygon_proves_existence": False,
             "complete_stationary_uniqueness_proved": False}
 
@@ -255,6 +280,8 @@ def validate(data, got=None):
         ("polygons do not prove roots", not profile["retained_polygon_proves_existence"]),
         ("transport does not prove uniqueness", not profile["complete_stationary_uniqueness_proved"]),
         ("profile curvature still unresolved", profile["retained_leaves_with_positive_profile_curvature"] == []),
+        ("component boxes cannot certify uniform regularity", profile["retained_leaves_with_component_box_singular_witness"] == profile["retained_leaf_ids"]),
+        ("no actual singularity inferred", not profile["singular_witness_is_actual_hessian"]),
         ("global withheld", not data["decision"]["global_optimizer_proved"]),
         ("physical withheld", not data["decision"]["source_owned_physical_theory"]),
     ]

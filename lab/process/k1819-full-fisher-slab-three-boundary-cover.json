@@ -56,6 +56,7 @@
       52,
       53,
       54,
+      63,
       64
     ],
     "whole_line_stationary_retained_leaf_ids": [
@@ -96,8 +97,7 @@
       59,
       60,
       61,
-      62,
-      63
+      62
     ],
     "whole_line_value_certified_leaf_ids": [
       0,

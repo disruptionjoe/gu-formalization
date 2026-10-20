@@ -7,6 +7,14 @@ updated_at: "2026-10-19"
 
 # Next Steps For Contributors
 
+> **2026-10-19 COMPLETE BERNSTEIN BANK.** All 52 replacements are frozen.
+> Fourteen leaves are excluded; 38 polygons retain 12.782892% of prior area.
+> Every retained component Hessian box admits an exact singular matrix, so
+> those boxes alone cannot certify uniform regularity/strict convexity.
+> This is a method limit, not actual Hessian singularity. Compare correlated
+> bounds on the contracted tube with the typed action/observation successor.
+> No numerical worker remains. Older bank/replay instructions below are historical.
+
 > **2026-10-19 MIXED-METHOD COMPOSITION.** All 52 candidates have certified
 > derivative coverage using 46 completed Bernstein rows plus six corrected
 > fallbacks. Direct gradients exclude 13; K1820 transport excludes 14 and

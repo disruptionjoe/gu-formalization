@@ -7,6 +7,43 @@ updated_at: "2026-10-19"
 
 # K1816--K1820: complete boundary closure; interior uniqueness remains open
 
+## Complete Bernstein bank and component-bound limit (2026-10-19)
+
+All **52 Bernstein replacements** are complete, with no power-range fallback.
+Exact saved gradients exclude **14 leaves**; exact derivative transport retains
+**38 root-feasible polygons**, occupying **12.782892%** of the original candidate
+area (previous mixed bank: 13.036706%). Leaf 63 is now directly excluded as well
+as excluded by transport; no new composed leaf exclusion follows. Leaf 38 stays
+retained with its original contradictory advisory flag and unchanged digest.
+The complete bank is frozen in K1818 and every input is embedded in K1820.
+
+A useful method limit is now exact: every retained leaf's *independent component
+Hessian box* contains a rational singular rank-one matrix. Write its entries as
+`(tt,tz,zz)=(r*r*c,r*c,c)` with `c>0`; `(1,-r)` is a nonzero kernel vector.
+The producer chooses a rational `r` and verifies the nonempty intersection
+`[zz] intersect [tz]/r intersect [tt]/r^2` before selecting `c`. The probe checks
+each recorded entry against its saved interval and multiplies the matrix by
+its kernel independently. This proves that these component boxes alone cannot
+certify uniform Hessian invertibility or strict positive definiteness, even
+with a fixed nonsingular preconditioner. It does **not** prove that the actual
+Hessian is singular, that another root exists, or that no other uniqueness
+argument can work. Correlations, tighter bounds on the contracted tube, or an
+independent global argument can remove this obstruction.
+
+K1787 local existence and all 114 exposed faces/vertices remain certified.
+Global optimizer admission stays withheld: none of the 38 profile Schur
+intervals is positive. Further repetition of this completed bank is not the
+next proof step. Compare a correlated directional/interval-Newton certificate
+with the same-carrier action/observation construction before more quadrature.
+No source claim, physics ledger, canon, prediction or public posture changes.
+
+Validation distinguishes exact proof from controls: 38 rational matrix witnesses
+and three rank-one/positive-definite/indefinite fixtures check the new limit;
+the existing polynomial interpolation, endpoint and transport controls remain.
+The quadrature, whole-line tails, full anchor-hull remainder and boundary proofs
+are reused. The earlier mixed-method counts below are historical. The native
+status rollup remains pending the already identified successor footprint.
+
 ## October 19 complete mixed-method bank and composition
 
 All 52 candidate rectangles are covered by a complete derivative bank: **46

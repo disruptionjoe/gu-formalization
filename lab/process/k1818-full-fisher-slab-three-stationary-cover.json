@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "claim_id": "K1818",
   "status": "active_research",
-  "title": "The complete slab-three whole-line gradient bank classifies 13 stationary-free leaves and retains 39 candidates",
+  "title": "The complete slab-three whole-line gradient bank classifies 14 stationary-free leaves and retains 38 candidates",
   "inputs": [
     "K1786",
     "K1787",
@@ -134,6 +134,7 @@
       52,
       53,
       54,
+      63,
       64
     ],
     "stationary_retained_leaf_ids": [
@@ -174,8 +175,7 @@
       59,
       60,
       61,
-      62,
-      63
+      62
     ],
     "checkpoint_digests": {
       "13": "4ce2c900245756a25ff78522c655121be69c04069678f06464df0db18f4014c1",
@@ -224,12 +224,12 @@
       "56": "46c7cd5eef8428ce727220e72177e76a0a6464767f9166d9f608c16e435eabd7",
       "57": "831425240a60b531fe4d3c5d3b2a9c637f739b504779b9be4944478fee442ba4",
       "58": "f711bcab578f09532b260e45e35caa58f9e6796193e4c5bcfecac0aee0fe55b6",
-      "59": "78963ed89958163e96b0a88230b1026f20bffd3ee417ceefadc2064539e44d80",
-      "60": "e2626610b9f11b80c5a936414eed1da13b2376a52fde1490911621c4de4839cc",
-      "61": "252ce6094e005ecfe1597509eb754059163854c0ace148f8642079b975dbeb7f",
-      "62": "70e3c0634ce53f3ab281cc3a48ab62cbb56254a16a946ccb553f7dad56cbbd28",
-      "63": "fa2e6195c8fce391ecab50dfcfa4a525ddaeb2f62dce62e1dc5820ccc73215e2",
-      "64": "6b1cc13c33ea84b46ded22959bd49f9003cd2f31157188d62e6de9c70040f3ea"
+      "59": "720f4fb3828ceec2f75ae06e591d36d421e72489dc84321e6c1a74018669929b",
+      "60": "0c1d3044ba1bcc2f8b530403b43aedbf54adc5d64113b0395573a182b7e02138",
+      "61": "e612166c5569e4670a78f58d2153c2df42249b1d15752ac3a68ab086ba989e11",
+      "62": "285427653b7648d991b975b5cb4fea9deb9ad211b6d035355c22a1236c94e1a2",
+      "63": "bfae032f7b0df354b3dffbb8de86ecafc3ac5a06dac8fdb7725f169aa4e3f50a",
+      "64": "cd4b316dd9290ba4eb3d82f343bf5cf217bc7dd29859ecfc0c1998a3bba4423f"
     },
     "saved_decision_discrepancies": [
       {
@@ -331,9 +331,7 @@
       55,
       56,
       57,
-      58
-    ],
-    "power_range_leaf_ids": [
+      58,
       59,
       60,
       61,
@@ -341,6 +339,7 @@
       63,
       64
     ],
+    "power_range_leaf_ids": [],
     "saved_gradient_evidence": [
       {
         "box": [
@@ -2548,17 +2547,17 @@
         ],
         "certificate": {
           "whole_line_gradient": {
-            "t": "[6.1702597013612823854568646997251076651e-11 +/- 1.19e-9]",
-            "z": "[6.2730017299316186932992215270524112159e-12 +/- 1.09e-10]"
+            "t": "[7.5679448787976885431930884004593909432e-11 +/- 1.01e-9]",
+            "z": "[8.2912578365258501651179359152782761964e-12 +/- 9.48e-11]"
           },
           "whole_line_hessian": {
-            "determinant": "[9.5341228558898160181951489736849478351e-16 +/- 1.71e-13]",
-            "tt": "[2.5602434407566378437540111457465617401e-6 +/- 2.66e-6]",
-            "tz": "[3.4128010993303054889500643769858031799e-7 +/- 5.14e-8]",
-            "zz": "[4.5864984498031646300165487849986098979e-8 +/- 2.09e-9]"
+            "determinant": "[9.0664783752869011178312702232225667375e-16 +/- 1.69e-13]",
+            "tt": "[2.5614467004417949728097438920584239417e-6 +/- 2.64e-6]",
+            "tz": "[3.4149431887084629057699776872774755954e-7 +/- 5.00e-8]",
+            "zz": "[4.5882281149290115575779928009988792038e-8 +/- 2.08e-9]"
           }
         },
-        "checkpoint_digest": "78963ed89958163e96b0a88230b1026f20bffd3ee417ceefadc2064539e44d80",
+        "checkpoint_digest": "720f4fb3828ceec2f75ae06e591d36d421e72489dc84321e6c1a74018669929b",
         "claim_id": "K1818",
         "configuration": {
           "cell_half_width": "1/4",
@@ -2572,6 +2571,7 @@
             "8805034043103/15625000000000"
           ],
           "parameter_taylor_order": 8,
+          "polynomial_range_method": "tensor Bernstein coefficients after exact affine substitution",
           "whole_line_tail_method": "K1786 analytic value-gradient-Hessian majorant on the exact leaf"
         },
         "decision": {
@@ -2594,17 +2594,17 @@
         ],
         "certificate": {
           "whole_line_gradient": {
-            "t": "[2.2898721542053662279580705075300110388e-10 +/- 1.16e-9]",
-            "z": "[2.8618952558826203993915059632180990910e-11 +/- 1.08e-10]"
+            "t": "[2.4306876022488472290806472527042068568e-10 +/- 9.97e-10]",
+            "z": "[3.0642734182008290189406664275774468105e-11 +/- 9.49e-11]"
           },
           "whole_line_hessian": {
-            "determinant": "[7.6701991726893792064679016768394665367e-17 +/- 1.62e-13]",
-            "tt": "[2.5918476917391688821047953422684355718e-6 +/- 2.53e-6]",
-            "tz": "[3.4391559696990755696778049638389758298e-7 +/- 4.85e-8]",
-            "zz": "[4.5664195549807571387486935335655865124e-8 +/- 2.00e-9]"
+            "determinant": "[2.8940062050287708972260771373471965913e-17 +/- 1.60e-13]",
+            "tt": "[2.5930582570851997569865696639547930285e-6 +/- 2.51e-6]",
+            "tz": "[3.4413021048357301769161529120071656894e-7 +/- 4.73e-8]",
+            "zz": "[4.5681403996943255594804331269679540700e-8 +/- 1.99e-9]"
           }
         },
-        "checkpoint_digest": "e2626610b9f11b80c5a936414eed1da13b2376a52fde1490911621c4de4839cc",
+        "checkpoint_digest": "0c1d3044ba1bcc2f8b530403b43aedbf54adc5d64113b0395573a182b7e02138",
         "claim_id": "K1818",
         "configuration": {
           "cell_half_width": "1/4",
@@ -2618,6 +2618,7 @@
             "8805034043103/15625000000000"
           ],
           "parameter_taylor_order": 8,
+          "polynomial_range_method": "tensor Bernstein coefficients after exact affine substitution",
           "whole_line_tail_method": "K1786 analytic value-gradient-Hessian majorant on the exact leaf"
         },
         "decision": {
@@ -2640,17 +2641,17 @@
         ],
         "certificate": {
           "whole_line_gradient": {
-            "t": "[3.9755563627136720914995125323408948726e-10 +/- 1.13e-9]",
-            "z": "[5.0867103816875849684399813894691035830e-11 +/- 1.07e-10]"
+            "t": "[4.1174207111969479390520234028560201852e-10 +/- 9.87e-10]",
+            "z": "[5.2896382746014987794544358894869715997e-11 +/- 9.51e-11]"
           },
           "whole_line_hessian": {
-            "determinant": "[-8.0959248846757973862835639853921461427e-16 +/- 1.53e-13]",
-            "tt": "[2.6235780269489691489615971388387507651e-6 +/- 2.40e-6]",
-            "tz": "[3.4653857537488044657206379674764539857e-7 +/- 4.60e-8]",
-            "zz": "[4.5464396526104997657641528701887756896e-8 +/- 1.92e-9]"
+            "determinant": "[-8.5835271968287869462974445586200823206e-16 +/- 1.51e-13]",
+            "tt": "[2.6247959084421207805144633900584760124e-6 +/- 2.39e-6]",
+            "tz": "[3.4675359128286573054082411578124684219e-7 +/- 4.49e-8]",
+            "zz": "[4.5481517234891046682571061534757068284e-8 +/- 1.91e-9]"
           }
         },
-        "checkpoint_digest": "252ce6094e005ecfe1597509eb754059163854c0ace148f8642079b975dbeb7f",
+        "checkpoint_digest": "e612166c5569e4670a78f58d2153c2df42249b1d15752ac3a68ab086ba989e11",
         "claim_id": "K1818",
         "configuration": {
           "cell_half_width": "1/4",
@@ -2664,6 +2665,7 @@
             "8805034043103/15625000000000"
           ],
           "parameter_taylor_order": 8,
+          "polynomial_range_method": "tensor Bernstein coefficients after exact affine substitution",
           "whole_line_tail_method": "K1786 analytic value-gradient-Hessian majorant on the exact leaf"
         },
         "decision": {
@@ -2686,17 +2688,17 @@
         ],
         "certificate": {
           "whole_line_gradient": {
-            "t": "[5.6740176737983217700154789024437558072e-10 +/- 1.11e-9]",
-            "z": "[7.3017937506610329087965093127282226553e-11 +/- 1.06e-10]"
+            "t": "[5.8169328822346318730700022206906972169e-10 +/- 9.77e-10]",
+            "z": "[7.5052685674231472265994839739241133846e-11 +/- 9.53e-11]"
           },
           "whole_line_hessian": {
-            "determinant": "[-1.7053439113990010084884219221805222298e-15 +/- 1.45e-13]",
-            "tt": "[2.6554338037562658376701695331670795286e-6 +/- 2.28e-6]",
-            "tz": "[3.4914910875644998282436366153936087300e-7 +/- 4.37e-8]",
-            "zz": "[4.5265581866132297584370911515365544109e-8 +/- 1.86e-9]"
+            "determinant": "[-1.7551032343939457653123062974762264197e-15 +/- 1.44e-13]",
+            "tt": "[2.6566590118282590712519184808645431202e-6 +/- 2.27e-6]",
+            "tz": "[3.4936452488758672907941279059102479906e-7 +/- 4.27e-8]",
+            "zz": "[4.5282615299863759729406552429074281858e-8 +/- 1.84e-9]"
           }
         },
-        "checkpoint_digest": "70e3c0634ce53f3ab281cc3a48ab62cbb56254a16a946ccb553f7dad56cbbd28",
+        "checkpoint_digest": "285427653b7648d991b975b5cb4fea9deb9ad211b6d035355c22a1236c94e1a2",
         "claim_id": "K1818",
         "configuration": {
           "cell_half_width": "1/4",
@@ -2710,6 +2712,7 @@
             "8805034043103/15625000000000"
           ],
           "parameter_taylor_order": 8,
+          "polynomial_range_method": "tensor Bernstein coefficients after exact affine substitution",
           "whole_line_tail_method": "K1786 analytic value-gradient-Hessian majorant on the exact leaf"
         },
         "decision": {
@@ -2732,17 +2735,17 @@
         ],
         "certificate": {
           "whole_line_gradient": {
-            "t": "[7.3851954753028386571297874377506251255e-10 +/- 1.08e-9]",
-            "z": "[9.5071932923938197767607851769792109632e-11 +/- 1.05e-10]"
+            "t": "[7.5291634926292946491900650131048454321e-10 +/- 9.69e-10]",
+            "z": "[9.7112122404991613784481640887290720664e-11 +/- 9.55e-11]"
           },
           "whole_line_hessian": {
-            "determinant": "[-2.6104262494394138242624396377334277461e-15 +/- 1.38e-13]",
-            "tt": "[2.6874143828652019119457747716135729454e-6 +/- 2.17e-6]",
-            "tz": "[3.5174726036214016205101622587363905226e-7 +/- 4.16e-8]",
-            "zz": "[4.5067746044323694378833403282886347419e-8 +/- 1.79e-9]"
+            "determinant": "[-2.6611854250625364929553084678276626099e-15 +/- 1.37e-13]",
+            "tt": "[2.6886469278932313612524885912764294638e-6 +/- 2.16e-6]",
+            "tz": "[3.5196307455562153785455377569257339809e-7 +/- 4.07e-8]",
+            "zz": "[4.5084692663817515561722695105851879296e-8 +/- 1.78e-9]"
           }
         },
-        "checkpoint_digest": "fa2e6195c8fce391ecab50dfcfa4a525ddaeb2f62dce62e1dc5820ccc73215e2",
+        "checkpoint_digest": "bfae032f7b0df354b3dffbb8de86ecafc3ac5a06dac8fdb7725f169aa4e3f50a",
         "claim_id": "K1818",
         "configuration": {
           "cell_half_width": "1/4",
@@ -2756,12 +2759,15 @@
             "8805034043103/15625000000000"
           ],
           "parameter_taylor_order": 8,
+          "polynomial_range_method": "tensor Bernstein coefficients after exact affine substitution",
           "whole_line_tail_method": "K1786 analytic value-gradient-Hessian majorant on the exact leaf"
         },
         "decision": {
-          "rejected_by": [],
+          "rejected_by": [
+            "z"
+          ],
           "retained_leaf_means_additional_stationary_point": false,
-          "stationary_rejected": false,
+          "stationary_rejected": true,
           "strictly_convex": false
         },
         "input_k1816_checkpoint_digest": "405eb01d3a3dc2687a95eb3e11fd626871a7f2ffb8df283c3d66caf95eac46de",
@@ -2778,17 +2784,17 @@
         ],
         "certificate": {
           "whole_line_gradient": {
-            "t": "[9.1090294630194772201641431114892282062e-10 +/- 1.06e-9]",
-            "z": "[1.1702956667529286854058023270867164698e-10 +/- 1.04e-10]"
+            "t": "[9.2540522276476585074122706854213667200e-10 +/- 9.63e-10]",
+            "z": "[1.1907516968642361442992689093174768076e-10 +/- 9.58e-11]"
           },
           "whole_line_hessian": {
-            "determinant": "[-3.5247146795522852793727007384095822514e-15 +/- 1.31e-13]",
-            "tt": "[2.7195191282963444852052778151667584981e-6 +/- 2.07e-6]",
-            "tz": "[3.5433309308057304049717063171476524628e-7 +/- 3.97e-8]",
-            "zz": "[4.4870883570117883774039123759705786937e-8 +/- 1.74e-9]"
+            "determinant": "[-3.5764744395507394846955907150600182597e-15 +/- 1.30e-13]",
+            "tt": "[2.7207590206030786910900077010072601294e-6 +/- 2.06e-6]",
+            "tz": "[3.5454930318595375291276111374049330996e-7 +/- 3.89e-8]",
+            "zz": "[4.4887743833712908070620457954693469565e-8 +/- 1.72e-9]"
           }
         },
-        "checkpoint_digest": "6b1cc13c33ea84b46ded22959bd49f9003cd2f31157188d62e6de9c70040f3ea",
+        "checkpoint_digest": "cd4b316dd9290ba4eb3d82f343bf5cf217bc7dd29859ecfc0c1998a3bba4423f",
         "claim_id": "K1818",
         "configuration": {
           "cell_half_width": "1/4",
@@ -2802,6 +2808,7 @@
             "8805034043103/15625000000000"
           ],
           "parameter_taylor_order": 8,
+          "polynomial_range_method": "tensor Bernstein coefficients after exact affine substitution",
           "whole_line_tail_method": "K1786 analytic value-gradient-Hessian majorant on the exact leaf"
         },
         "decision": {
@@ -3420,22 +3427,71 @@
         "box": [
           "14713917917/274877906944",
           "59363902081/1099511627776",
+          "287/512",
+          "1149/2048"
+        ],
+        "certificate": {
+          "whole_line_gradient": {
+            "t": "[7.5291634926292946491900650131048454321e-10 +/- 9.69e-10]",
+            "z": "[9.7112122404991613784481640887290720664e-11 +/- 9.55e-11]"
+          },
+          "whole_line_hessian": {
+            "determinant": "[-2.6611854250625364929553084678276626099e-15 +/- 1.37e-13]",
+            "tt": "[2.6886469278932313612524885912764294638e-6 +/- 2.16e-6]",
+            "tz": "[3.5196307455562153785455377569257339809e-7 +/- 4.07e-8]",
+            "zz": "[4.5084692663817515561722695105851879296e-8 +/- 1.78e-9]"
+          }
+        },
+        "checkpoint_digest": "bfae032f7b0df354b3dffbb8de86ecafc3ac5a06dac8fdb7725f169aa4e3f50a",
+        "claim_id": "K1818",
+        "configuration": {
+          "cell_half_width": "1/4",
+          "compact_cell_count": 88,
+          "observation_taylor_order": 14,
+          "parameter_remainder_domain": "axis-aligned hull of the K1787 anchor and exact target leaf",
+          "parameter_remainder_hull": [
+            "265664669701527/5000000000000000",
+            "59363902081/1099511627776",
+            "287/512",
+            "8805034043103/15625000000000"
+          ],
+          "parameter_taylor_order": 8,
+          "polynomial_range_method": "tensor Bernstein coefficients after exact affine substitution",
+          "whole_line_tail_method": "K1786 analytic value-gradient-Hessian majorant on the exact leaf"
+        },
+        "decision": {
+          "rejected_by": [
+            "z"
+          ],
+          "retained_leaf_means_additional_stationary_point": false,
+          "stationary_rejected": true,
+          "strictly_convex": false
+        },
+        "input_k1816_checkpoint_digest": "405eb01d3a3dc2687a95eb3e11fd626871a7f2ffb8df283c3d66caf95eac46de",
+        "input_partition_digest": "0b327f8e6a74d5df3e1b24261d5bccdc24229162043494ad82aaaa7922c1d9c0",
+        "leaf": 63,
+        "schema_version": "1.0"
+      },
+      {
+        "box": [
+          "14713917917/274877906944",
+          "59363902081/1099511627776",
           "1149/2048",
           "575/1024"
         ],
         "certificate": {
           "whole_line_gradient": {
-            "t": "[9.1090294630194772201641431114892282062e-10 +/- 1.06e-9]",
-            "z": "[1.1702956667529286854058023270867164698e-10 +/- 1.04e-10]"
+            "t": "[9.2540522276476585074122706854213667200e-10 +/- 9.63e-10]",
+            "z": "[1.1907516968642361442992689093174768076e-10 +/- 9.58e-11]"
           },
           "whole_line_hessian": {
-            "determinant": "[-3.5247146795522852793727007384095822514e-15 +/- 1.31e-13]",
-            "tt": "[2.7195191282963444852052778151667584981e-6 +/- 2.07e-6]",
-            "tz": "[3.5433309308057304049717063171476524628e-7 +/- 3.97e-8]",
-            "zz": "[4.4870883570117883774039123759705786937e-8 +/- 1.74e-9]"
+            "determinant": "[-3.5764744395507394846955907150600182597e-15 +/- 1.30e-13]",
+            "tt": "[2.7207590206030786910900077010072601294e-6 +/- 2.06e-6]",
+            "tz": "[3.5454930318595375291276111374049330996e-7 +/- 3.89e-8]",
+            "zz": "[4.4887743833712908070620457954693469565e-8 +/- 1.72e-9]"
           }
         },
-        "checkpoint_digest": "6b1cc13c33ea84b46ded22959bd49f9003cd2f31157188d62e6de9c70040f3ea",
+        "checkpoint_digest": "cd4b316dd9290ba4eb3d82f343bf5cf217bc7dd29859ecfc0c1998a3bba4423f",
         "claim_id": "K1818",
         "configuration": {
           "cell_half_width": "1/4",
@@ -3449,6 +3505,7 @@
             "8805034043103/15625000000000"
           ],
           "parameter_taylor_order": 8,
+          "polynomial_range_method": "tensor Bernstein coefficients after exact affine substitution",
           "whole_line_tail_method": "K1786 analytic value-gradient-Hessian majorant on the exact leaf"
         },
         "decision": {
@@ -3469,8 +3526,8 @@
   "decision": {
     "complete_candidate_leaf_bank_computed": true,
     "analytic_whole_line_gradient_and_hessian_tails_composed": true,
-    "stationary_rejected_leaf_count": 13,
-    "stationary_retained_leaf_count": 39,
+    "stationary_rejected_leaf_count": 14,
+    "stationary_retained_leaf_count": 38,
     "retained_leaf_means_additional_stationary_point": false,
     "named_local_stationary_point_preserved": true,
     "complete_stationary_cover": false,

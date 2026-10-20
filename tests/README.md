@@ -15351,3 +15351,11 @@ python3 tests/channel-swings/k1350_joint_interacting_control_admission_boundary_
   strictly negative without evaluating orders 2--12.
 - The corresponding probes reject weakened norms, incomplete monomial counts,
   invented cancellation, sign overreach and downstream floor/K152 promotion.
+
+
+### K1820 completed-bank method limit (2026-10-19)
+
+The K1820 probe independently checks 38 rational singular matrices inside the
+retained component Hessian boxes, three exact witness controls and eleven hostile
+mutations. This limits inference from independent component bounds, not the
+actual Hessian or global uniqueness. K1818 now embeds all 52 Bernstein rows.

@@ -7,6 +7,21 @@ updated_at: "2026-10-19"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## Complete Bernstein bank and component-bound limit (2026-10-19)
+
+K1818 embeds all 52 Bernstein rows. Fourteen leaves are excluded; K1820's
+38 retained polygons occupy 12.782892% of prior area. Every retained component
+Hessian box contains an exact rational singular matrix, independently checked
+by interval membership, determinant and a nonzero kernel vector. These boxes
+alone cannot prove uniform regularity or strict convexity; this does not assert
+actual Hessian singularity. No retained profile has certified positive curvature.
+Boundary closure/local existence survive and global admission stays withheld.
+
+K1820 adds three exact rank-one/positive/indefinite controls, 38 witness checks
+and two hostile mutations (eleven total). Existing numerical and boundary proofs
+are reused, not replayed. The exploration records the proof, method switch and
+pending native status rollup. Older partial-bank counts below are historical.
+
 ## K1818/K1820 mixed-method derivative coverage (2026-10-19)
 
 A complete 52-leaf bank uses 46 completed Bernstein rows and six accepted
