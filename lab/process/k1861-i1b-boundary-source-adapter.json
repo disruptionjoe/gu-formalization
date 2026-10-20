@@ -1,0 +1,64 @@
+{
+  "artifact": "K1861_I1B_BOUNDARY_SOURCE_ADAPTER",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "scope": "horizontal_equation_dual_control",
+  "dimension": 4,
+  "symbol_scale": "1",
+  "trace_reversal_coefficient": "1/2",
+  "nonnull_rank": 6,
+  "null_rank": 4,
+  "null_inverse_metric_coefficient": "1",
+  "box_quadratic_coefficient": "1/24",
+  "green_current_factor": "4",
+  "scale_flux_per_volume": "-4",
+  "euclidean_sobolev_constant": 2,
+  "full_native_dual_injection_constructed": false,
+  "companion_row_solved": false,
+  "lorentzian_global_inverse_claimed": false,
+  "claim_ceiling": "Complete flat horizontal equation-dual metric-row range; full native distortion injection, companion equation, ambient geometry, observation and boundary action remain unconstructed.",
+  "euclidean_periodic_range": [
+    "zero mean componentwise",
+    "divergence-free symmetric source"
+  ],
+  "lorentzian_null_range": "k tensor w + w tensor k - eta (k dot w), dimension four; two extra transverse traceless source conditions",
+  "pure_volume_source": "Conservation forces rho constant; periodic zero mean then forces rho zero.",
+  "bounded_domain": "t=(eta(x,x)/24)eta solves At=-eta/2; scale current=-x and flux=-4Volume; only metric row solved.",
+  "source_polarities": {
+    "SC-ACT-01": "ASSERTS",
+    "SC-ACT-02": "ASSERTS",
+    "SC-COS-50": "ASSERTS",
+    "SC-COS-51": "ASSERTS",
+    "SC-COS-54": "ASSERTS",
+    "SC-META-53": "UNCERTAIN"
+  },
+  "ledger_effect": "none; 88 active targets/91 stored records and LT-GR1b/2c/2d/6b, LT-SM8 unchanged",
+  "preflight_bookend": {
+    "alternatives": "Actual global ambient action adapter; full C inverse; exact necessary metric-row range.",
+    "selection": "Range and boundary analysis resolve compatibility before any expensive inverse; global source adapter remains the eventual consumer.",
+    "retrieval": "K127-K129, K1860, global-projector branch and correction index retain their original scopes."
+  },
+  "postflight_bookend": {
+    "overclaim": "t is equation-dual, not an authenticated native distortion. Passing one row is not a full stationary solution.",
+    "contrary_routes": "Explicit boundary-flux witness; conserved non-pure-volume Euclidean source; Lorentzian conserved null source outside range.",
+    "reproducibility": "Rational symbol/curvature identities plus written Fourier proof; no proof-assistant, novelty or external-expert claim."
+  },
+  "dependencies": [
+    {
+      "path": "explorations/conditional-build/selected-k127-native-i1b-ricci-flat-weyl-tt-closure-gate-2026-08-16.md",
+      "sha256": "7dd10ef75c09c4cf538d092d850a167303254770e4ffb4b316633901c7bada25"
+    },
+    {
+      "path": "explorations/conditional-build/selected-k128-native-i1b-t0-coupled-hessian-and-schur-domain-gate-2026-08-16.md",
+      "sha256": "d6aa21dd583dd5db72d2242ef464e7973d35b7ae2fed36eab032b58bf612443d"
+    },
+    {
+      "path": "explorations/conditional-build/selected-k129-native-i1b-t0-ac-kernel-and-domain-classification-2026-08-16.md",
+      "sha256": "6c31e88db0da1b6cf498d75f00ad1d518bc0494c092c252da829515cdcd9a437"
+    },
+    {
+      "path": "explorations/conditional-build/k1860-i1b-vacuum-zero-mode-2026-10-20.md",
+      "sha256": "1446c27ad468a1c0226791de460be9f33d2c0ca331281027f5090f63874ad5ed"
+    }
+  ]
+}

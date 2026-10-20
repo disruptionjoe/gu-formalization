@@ -7,6 +7,16 @@ updated_at: "2026-10-20"
 
 # Next Steps For Contributors
 
+> **2026-10-20: SECOND DENSITY RESPONSE AND CONSTRAINED SCREENING TEST CLOSED.**
+> K1862 supplies weighted exact-optimizer second response, robust unweighted
+> near-optimal response and its higher-moment counterexample. K1861 provides
+> horizontal source-range and boundary controls, with native dual injection/full
+> I1B closure still open. K1863 tests global screening with conserved zero-charge
+> tensor sources and full tidal readout; its causal trace repair does not screen
+> eternal vacuum. Next compare concrete native/matter adapters with effective
+> mathematical error bounds. Prior requests below are retained as history.
+
+
 > **2026-10-20 CONSTANT, QUARTIC AND PROFILE SUCCESSORS CLOSED.**
 > K1858 closes the unrestricted two-well local profiles and constant term;
 > K1859 closes actual-optimizer Gaussian tails, polynomial first response,

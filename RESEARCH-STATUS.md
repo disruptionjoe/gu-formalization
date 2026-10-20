@@ -8,6 +8,48 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-20: boundary source ranges, second Fisher response and conserved screening
+
+[K1861](explorations/conditional-build/k1861-i1b-boundary-source-adapter-2026-10-20.md)
+classifies the horizontal metric-row source range on flat periodic controls:
+zero mean and conservation suffice in the Euclidean case; Lorentzian null modes
+have additional transverse-traceless range conditions. An exact box witness
+realizes the scale Green flux. The symmetric equation-dual is an adapter target,
+not a constructed full source-distortion injection or a global ambient I1B model.
+
+[K1862](explorations/k1862-fisher-second-density-response-2026-10-20.md)
+proves the second exact-optimizer density term
+`phi*(7 H6/432 + H8/1152)` after the first term `-q phi H4/24`.
+The remainder is o(q²) in every polynomial-weight L1. A uniform oscillator gap
+transfers unweighted second response to feasible competitors with excess o(q4).
+An exact-moment competitor with excess at most9q5 but divergent sixth moment
+shows why this robustness does not imply polynomial-moment response.
+For q<=1/100, the gap gives the finite certificate TV<=sqrt(5D/6),
+where D is true excess; D<=3/25000 guarantees TV<=1/100.
+
+[K1863](explorations/conditional-build/k1863-conserved-screening-causality-2026-10-20.md)
+constructs conserved, zero-Killing-charge signed tensor sources for which global
+spatial mean subtraction produces gauge-invariant retarded curvature outside
+the original causal future. Its full six-component tidal map is invertible;
+trace-only or Weyl-only observations each miss a complementary sector. A causal
+conserved trace-removal projector on past-compact tensors is an explicit repair
+of causality, but eternal vacuum screening, action ownership and positive matter
+realization are not supplied.
+
+Validation: K1861 has92 exact and115 independent controls, with7 mathematical,
+3 reference-metadata and4 reporting faults detected. K1862 has44 exact and108
+independent controls, with19 mathematical and5 reporting faults. K1863 has14
+exact tensor groups and88 independent controls, with10 mathematical and7
+reporting faults. Every mutation follows a clean baseline and fails an assertion.
+
+Written proofs and independent analytic review support the continuum claims;
+exact arithmetic and planted input faults check the finite formulas separately.
+No proof-assistant verification, external peer acceptance or novelty is claimed.
+SC-ACT-01/02 and SC-COS-50/51/54 remain ASSERTS; SC-META-53 UNCERTAIN.
+Ledger/canon unchanged. Older second-profile requests are historical; full native
+geometry/domain, physical matter and effective-error questions remain open.
+
+
 ## 2026-10-20: unrestricted Fisher refinements and conditional scale compatibility
 
 [K1858](explorations/k1858-fisher-two-well-profile-2026-10-20.md) proves universal

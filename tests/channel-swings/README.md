@@ -2,6 +2,10 @@
 
 ## October 20 research evidence
 
+- `k1861_i1b_boundary_source_adapter.py` and `_probe.py`: source symbol, range and boundary controls.
+- `k1862_fisher_second_density_response.py` and `_probe.py`: exact Hermite/quasimode, moments and tail controls.
+- `k1863_conserved_screening_causality.py` and `_probe.py`: conservation, curvature and causal projector controls.
+
 - `k1858_fisher_two_well_profile.py` and `_probe.py`: exact scaling, barrier constants, budget and contamination controls.
 - `k1859_fisher_optimizer_tail_response.py` and `_probe.py`: Hermite jets, rational residual, projection and inverse budget.
 - `k1860_i1b_vacuum_zero_mode.py` and `_probe.py`: scale/block identities, boundary sign and nonsmooth response controls.

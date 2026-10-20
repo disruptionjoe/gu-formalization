@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 0a0e17442cf2e4c62985d76eaca1e02018554eb3
+revision_basis: 3a69ad8a7be7d49699ecc4f26fbe2843dbc7499a
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1861 constructs the exact periodic source range and boundary flux of the
+    horizontal -2Gprime metric-row control. Its symmetric equation-dual is not
+    identified with the full native distortion field: full I1B and ambient adapters
+    remain open. K1862 proves the exact Fisher optimizer second density response
+    in every polynomial-weight L1, using a quasimode and uniform spectral gap.
+    For q<=1/100, excess D gives TV<=sqrt(5D/6) to the true optimizer.
+    Competitors with excess o(q4) inherit its unweighted second profile, while an
+    exact-moment tail example with excess at most9q5 has diverging sixth moment.
+    K1863 shows that global spatial screening still produces a full six-component
+    gauge-invariant tidal response outside the original source causal future for
+    explicit conserved, zero-charge signed stresses. A causal conserved trace
+    projector survives on past-compact sources but does not screen eternal vacuum.
+    No source-claim polarity, physics-ledger verdict, canon or novelty claim moves.
+
+    Historical predecessor results at their original scope:
     K1858 proves the unrestricted two-well Gaussian blowup, sign/profile independence,
     W2 and cutoff square-root H1 convergence for all leading-optimal densities.
     An exact-optimizer central barrier closes F(1+delta)=4/delta-1+o(1), the
@@ -15320,6 +15335,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1861-i1b-boundary-source-adapter-2026-10-20.md
+    - lab/process/k1861-i1b-boundary-source-adapter.json
+    - explorations/k1862-fisher-second-density-response-2026-10-20.md
+    - lab/process/k1862-fisher-second-density-response.json
+    - explorations/conditional-build/k1863-conserved-screening-causality-2026-10-20.md
+    - lab/process/k1863-conserved-screening-causality.json
     - explorations/k1858-fisher-two-well-profile-2026-10-20.md
     - lab/process/k1858-fisher-two-well-profile.json
     - explorations/k1859-fisher-optimizer-tail-response-2026-10-20.md
@@ -16073,6 +16094,12 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which actual native dual injection and full coupled domain can realize the
+  horizontal source conditions, and can a specified physical matter/response
+  construction evade the conserved screening witness? The Fisher second profile
+  is now established; an effective error at a named precision remains distinct.
+
+  Historical predecessor question/condition; completed scopes updated above:
   Which actual observation/domain construction can test the I1B stationary-scale
   compatibility condition, and which uniform endpoint remainder has a useful consumer?
   K1858 closes unrestricted k1 constant and local profiles; K1859 closes Gaussian
@@ -19179,6 +19206,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Construct the native equation-dual injection and test full C-block closure
+  before treating K1861 as an I1B source response. For screening, identify actual
+  matter/background/readout and a source-owned causal response; K1863 uses signed
+  linearized stresses on a flat compact-slice comparator, not a GU realization.
+  Reuse K1862 second response and its robust near-optimal scope; do not transfer
+  polynomial moments to generic competitors. Compare a quantitative Fisher
+  remainder or restricted-k2 full lower certificate against these concrete adapters.
+
+  Historical predecessor question/condition; completed scopes updated above:
   Construct an actual same-action observed-volume/domain adapter and evaluate its
   stationary scale tangent and boundary pairing; K1860 states the exact test and
   its unproved global hypotheses. Compare that with a quantitative two-well

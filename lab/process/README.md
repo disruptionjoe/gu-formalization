@@ -9,6 +9,10 @@ updated_at: "2026-08-23"
 
 ## October 20 research evidence
 
+- `k1861-i1b-boundary-source-adapter.json`: exact horizontal source ranges, boundary flux and native scope.
+- `k1862-fisher-second-density-response.json`: multiplier/quasimode jets, weighted response and contamination.
+- `k1863-conserved-screening-causality.json`: conserved stress, tidal map and causal trace repair.
+
 - `k1858-fisher-two-well-profile.json`: profile, constant, barrier, budget and tail scope.
 - `k1859-fisher-optimizer-tail-response.json`: optimizer envelope, Hermite trial and quartic/projection constants.
 - `k1860-i1b-vacuum-zero-mode.json`: conditional scale compatibility and exact countercontrol inputs.

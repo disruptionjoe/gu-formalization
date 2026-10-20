@@ -1,0 +1,34 @@
+{
+  "artifact": "K1863_CONSERVED_SCREENING_CAUSALITY",
+  "status": "conditional_exact_tensor_and_response_result",
+  "analytic_proof": "explorations/conditional-build/k1863-conserved-screening-causality-2026-10-20.md",
+  "stress_cross_factor": "1",
+  "stress_spatial_factor": "1",
+  "wave_factor": "2",
+  "trace_reverse_factor": "1/2",
+  "tidal_trace_factor": "1/2",
+  "inverse_factor": "1",
+  "scalar_factor": "1",
+  "weyl_factor": "1/2",
+  "transverse_factor": "1",
+  "trace_projector_factor": "1/3",
+  "conserved_projector_rank": 5,
+  "signed_source_class": true,
+  "zero_killing_charges": true,
+  "GU_adapter": false,
+  "positive_matter_realization": false,
+  "constant_vacuum_in_retarded_domain": false,
+  "nonlinear_integrability": false,
+  "retarded_projector_action_derived": false,
+  "dependencies": [
+    {
+      "path": "lab/process/k1842-screening-causal-response.json",
+      "sha256": "448908170c2401976e8b15f24779a27493beaa456c7a62cc4226295b3883c12a"
+    },
+    {
+      "path": "explorations/conditional-build/selected-k77-global-projector-amplitude-layer0-2026-08-10.md",
+      "sha256": "58580061b04b11a800eee9898472366ee2574c7b89367051fa87cbe8553cf439"
+    }
+  ],
+  "scope": "Declared conserved signed stress tangents and local linearized curvature on a flat Lorentzian cylinder; causal trace removal on a zero-past domain. No constant-vacuum, positive-matter, nonlinear or GU realization."
+}

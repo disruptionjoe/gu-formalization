@@ -9,6 +9,10 @@ updated_at: "2026-08-21"
 
 ## October 20 research evidence
 
+- [K1861 boundary/source adapter](conditional-build/k1861-i1b-boundary-source-adapter-2026-10-20.md): horizontal metric-row periodic ranges and exact boundary flux; full native injection open.
+- [K1862 second density response](k1862-fisher-second-density-response-2026-10-20.md): weighted optimizer response, near-optimal robustness and rare-tail counterexample.
+- [K1863 conserved screening](conditional-build/k1863-conserved-screening-causality-2026-10-20.md): constrained retarded tidal witness and causal trace-projector scope.
+
 - [K1858 two-well profiles](k1858-fisher-two-well-profile-2026-10-20.md): unrestricted Gaussian blowup, sharp constant, budget and tail counterexample.
 - [K1859 optimizer tail response](k1859-fisher-optimizer-tail-response-2026-10-20.md): exact-optimizer Gaussian envelope, polynomial response, sharp quartic value and score profile.
 - [K1860 scale compatibility](conditional-build/k1860-i1b-vacuum-zero-mode-2026-10-20.md): conditional I1B vacuum-response requirement and boundary/nonsmooth countercontrols.
