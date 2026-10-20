@@ -1,0 +1,110 @@
+{
+  "result_id": "K1830",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "results": {
+    "all_completed_columns_reduce_paired_action": true,
+    "fixed_SE_all_B_rank128_square_zero_completion": true,
+    "homology_dimension": 256,
+    "paired_homology_signature": [
+      256,
+      256
+    ],
+    "source_action_selected": false,
+    "Hessian_identified_with_differential": false,
+    "physical_or_canon_promotion": false
+  },
+  "cases": {
+    "zero": {
+      "rank": 128,
+      "homology_on_E512": 256,
+      "doubled_homology": 512
+    },
+    "identity": {
+      "rank": 128,
+      "homology_on_E512": 256,
+      "doubled_homology": 512
+    },
+    "rank_one": {
+      "rank": 128,
+      "homology_on_E512": 256,
+      "doubled_homology": 512
+    },
+    "nonsymmetric": {
+      "rank": 128,
+      "homology_on_E512": 256,
+      "doubled_homology": 512
+    },
+    "chirality_half": {
+      "rank": 128,
+      "homology_on_E512": 256,
+      "doubled_homology": 512
+    },
+    "gamma": {
+      "rank": 128,
+      "homology_on_E512": 256,
+      "doubled_homology": 512
+    }
+  },
+  "checks": {
+    "left_inverse": true,
+    "projector_rank": true,
+    "ambient_retract": true,
+    "input_survives_retract": true,
+    "raw_return_on_corrected": true,
+    "zero_corrected": true,
+    "zero_square_zero_column": true,
+    "zero_left_right_retract": true,
+    "zero_raw_southeast": true,
+    "zero_nilpotent": true,
+    "zero_rank128": true,
+    "zero_dual_invariance": true,
+    "identity_corrected": true,
+    "identity_square_zero_column": true,
+    "identity_left_right_retract": true,
+    "identity_raw_southeast": true,
+    "identity_nilpotent": true,
+    "identity_rank128": true,
+    "identity_dual_invariance": true,
+    "rank_one_corrected": true,
+    "rank_one_square_zero_column": true,
+    "rank_one_left_right_retract": true,
+    "rank_one_raw_southeast": true,
+    "rank_one_nilpotent": true,
+    "rank_one_rank128": true,
+    "rank_one_dual_invariance": true,
+    "nonsymmetric_corrected": true,
+    "nonsymmetric_square_zero_column": true,
+    "nonsymmetric_left_right_retract": true,
+    "nonsymmetric_raw_southeast": true,
+    "nonsymmetric_nilpotent": true,
+    "nonsymmetric_rank128": true,
+    "nonsymmetric_dual_invariance": true,
+    "chirality_half_corrected": true,
+    "chirality_half_square_zero_column": true,
+    "chirality_half_left_right_retract": true,
+    "chirality_half_raw_southeast": true,
+    "chirality_half_nilpotent": true,
+    "chirality_half_rank128": true,
+    "chirality_half_dual_invariance": true,
+    "gamma_corrected": true,
+    "gamma_square_zero_column": true,
+    "gamma_left_right_retract": true,
+    "gamma_raw_southeast": true,
+    "gamma_nilpotent": true,
+    "gamma_rank128": true,
+    "gamma_dual_invariance": true,
+    "nonsymmetric_allowed": true,
+    "nonsymmetric_reduced": true,
+    "generic_completion_not_complex": true,
+    "minimal_invertible_SE_not_nilpotent": true,
+    "bilinear_hessian_symmetric": true,
+    "hessian_not_differential": true,
+    "dual_differential_skew": true
+  },
+  "inputs": {
+    "lab/process/k1822-k77-rational-corrected-carrier.json": "16581ca0a559fac6d0f536dddb27f1e53fff4f1094d5ce61a60ae0522c4eccc2",
+    "lab/process/k1828-k77-raw-zero-form-completion.json": "392a0a58cc54c735c850a2f93330e7890708e541b71d769e607176f7d8558545"
+  }
+}

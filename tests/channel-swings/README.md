@@ -2,6 +2,9 @@
 
 ## October 20 research evidence
 
+- `k1830_k77_paired_action_nilpotent_completion.py` and `_probe.py`: exact rational retract/nilpotent class and independent split models.
+- `k1831_fisher_endpoint_gaussian_blowup.py` and `_probe.py`: symbolic chart/profile identities and independent rational moment controls.
+
 - `k1828_k77_raw_zero_form_completion.py` and `_probe.py`: Sage exact raw normalization, graph defects and complete column parametrization.
 - `k1829_effective_fisher_face_instability.py` and `_probe.py`: rational whole-interval bounds and Gaussian first/second variation controls.
 

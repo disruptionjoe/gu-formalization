@@ -9,6 +9,9 @@ updated_at: "2026-08-23"
 
 ## October 20 research evidence
 
+- `k1830-k77-paired-action-nilpotent-completion.json`: conditional dual reduction, universal nilpotent completions and homology.
+- `k1831-fisher-endpoint-gaussian-blowup.json`: leading shape criterion, explicit limiting gap and Gaussian-profile proof controls.
+
 - `k1828-k77-raw-zero-form-completion.json`: conditional raw-column completion and exact fixture checks.
 - `k1829-effective-fisher-face-instability.json`: effective overlap, direction and boundary-curvature witnesses.
 

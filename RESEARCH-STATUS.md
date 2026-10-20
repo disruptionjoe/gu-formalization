@@ -8,6 +8,46 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-20: paired coefficient reduction and endpoint shape rigidity
+
+[K1830](explorations/conditional-build/k1830-k77-paired-action-nilpotent-completion-2026-10-20.md)
+constructs a finite independent-dual bilinear action for every K1828 completed
+column. The actual retract obeys C=RCR; the raw dual pulls back by D0 inverse
+transpose. Every prescribed southeast B admits an all-column square-zero
+rank128 completion, with minimal homology dimension256 in this class. Its
+dual-paired homology has signature(256,256). The bilinear Hessian is not the
+square-zero differential. This is conditional finite algebra, not source
+selection, a physical quotient, a differential operator or positivity.
+SC-OP-04 ASSERTS, SC-OP-05 UNCERTAIN, SC-ACT-01/02/06 ASSERTS and SC-META-53
+UNCERTAIN remain unchanged; no ledger grade moves.
+
+[K1831](explorations/k1831-fisher-endpoint-gaussian-blowup-2026-10-20.md)
+proves a necessary and sufficient leading-order endpoint criterion for every
+moving two-radius shape: delta J tends to4 if and only if c/delta tends to0,
+where delta=2-q. Then v/delta tends to1/4 and 2(|Y|-1)/sqrt(delta) tends to
+a standard Gaussian in W2. Every global minimizer obeys this, while K1829
+still proves c>0 sufficiently near2. Positive limiting c/delta=lambda has
+liminf delta J/4 at least1+lambda^4/231; the uniform exclusion onset is
+existential. Rare atoms, lost moments and vanishing noise are included.
+No subleading constant, optimal displacement scale, selected z or uniqueness
+is proved. No fixed-q numerical bank is rerun.
+
+Released follow-through on z=1 also distinguishes leading from additive
+optimality: c=kappa delta² has constant4kappa-3/2, while c=delta^(3/2)
+has a divergent additive error despite an optimal value ratio. Any global
+minimizer on that face must eventually satisfy c<=192 exp(-1/(32v0)),
+v0=1-sqrt(1-delta/2). Face membership, true exponential scale and the
+onset remain unproved. This uses an exact posterior-variance/affinity bound.
+
+Exact fixture checks and separate small split-retract models support K1830;
+symbolic and independent rational moment controls support K1831's written
+compact-test/weak-limit proof. Reporting mutations check reporting only.
+Both are active research, with inline hostile review and no separate-agent
+review or canon promotion. The earlier open leading-shape question is now
+resolved at this scale; subleading selection and actual source variation
+remain open.
+
+
 ## 2026-10-20: raw coefficient completion and effective Fisher boundary
 
 [K1828](explorations/conditional-build/k1828-k77-raw-zero-form-completion-2026-10-20.md)

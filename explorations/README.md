@@ -9,6 +9,9 @@ updated_at: "2026-08-21"
 
 ## October 20 research evidence
 
+- [K1830 paired action and nilpotent completion](conditional-build/k1830-k77-paired-action-nilpotent-completion-2026-10-20.md): dual retract, all-B rank128 complex and neutral homology.
+- [K1831 endpoint Gaussian blowup](k1831-fisher-endpoint-gaussian-blowup-2026-10-20.md): complete leading-optimality criterion, limiting gap and W2 profile.
+
 - [K1828 raw zero-form completion](conditional-build/k1828-k77-raw-zero-form-completion-2026-10-20.md): exact leakage, minimal repair and full affine completion.
 - [K1829 effective Fisher boundary](k1829-effective-fisher-face-instability-2026-10-20.md): explicit instability interval, direction ordering, curvature and finite descent.
 

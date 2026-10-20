@@ -7,6 +7,20 @@ updated_at: "2026-10-20"
 
 # Next Steps For Contributors
 
+> **2026-10-20 PAIRED REDUCTION AND ENDPOINT SHAPE.** K1830 supplies the
+> independent-dual finite action and universal all-B nilpotent completion,
+> with homology256 and neutral paired form; physical action/domain selection
+> is still unowned. K1831 characterizes leading optimality exactly by
+> c=o(2-q) and proves Gaussian local profiles for all near-optimal sequences.
+> Next test actual supplied pairing/reality and derivative coefficients, or
+> derive the subleading Fisher functional inside c=o(2-q). Do not repeat
+> arbitrary nilpotent seeds, the leading shape criterion or old numeric banks.
+> A central-face posterior bound now gives a conditional exponential constraint
+> and additive counterexamples. It does not select the face or true rate.
+> An explicit limiting gap does not compute its uniform onset. See Research
+> Status for evidence and scope; earlier leading-shape uncertainty is historical.
+
+
 > **2026-10-20 RAW COMPLETION AND EFFECTIVE BOUNDARY.** K1828 classifies
 > raw zero-form column completions and tests the minimal two-cell repair;
 > a southeast permission alone does not select it. K1829 gives a certified

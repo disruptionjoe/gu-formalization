@@ -1,0 +1,47 @@
+{
+  "result_id": "K1831",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "results": {
+    "ratio_optimal_iff": "c/(2-q) -> 0",
+    "noise_ratio_limit": "v/(2-q) -> 1/4",
+    "rescaled_absolute_output": "2(|Y|-1)/sqrt(2-q) -> N(0,1) in W2",
+    "positive_lambda_liminf_gap": "liminf (2-q) J /4 >= 1+lambda^4/231",
+    "minimizer_c_positive_for_sufficiently_high_q": true,
+    "central_face_additive_constant": "4*kappa-3/2 for c=kappa*delta^2",
+    "central_face_minimizer_necessary_bound": "c <= 192 exp(-1/(32 v0)), eventually; face membership not asserted",
+    "sharp_subleading_constant_known": false,
+    "optimal_displacement_scale_known": false,
+    "physical_or_canon_promotion": false
+  },
+  "checks": {
+    "mean_zero": true,
+    "latent_variance": true,
+    "output_variance": true,
+    "third_moment": true,
+    "fourth_cumulant": true,
+    "skew_square_k": true,
+    "fourth_k": true,
+    "25_rational_profile_gap_controls": true,
+    "native_second_moment": true,
+    "native_fourth_moment": true,
+    "inner_rescaled_mean": true,
+    "outer_rescaled_mean": true,
+    "rescaled_noise_variance": true,
+    "limiting_weight": true,
+    "two_lobe_scaling_1/2": true,
+    "two_lobe_scaling_2/3": true,
+    "two_lobe_scaling_3/2": true,
+    "central_face_additive_constant": true,
+    "leading_optimal_additive_divergence": true,
+    "gaussian_affinity_square": true,
+    "face_bound_constant": true
+  },
+  "moment_cases": 25,
+  "inputs": {
+    "lab/process/k1825-global-q-fisher-transfer.json": "e11168df8cbba5d228b0c5ef00675c7f7eb08c1f4641719d2ce153cae5edf73e",
+    "lab/process/k1827-endpoint-fisher-asymptotic.json": "98079fba340dccc9db94719046d16f8df9dd2a8143a40baa747e2e6d358cc9a8",
+    "lab/process/k1829-effective-fisher-face-instability.json": "affed0a2ff6845ae50d5ec342707f608418f40b005ac81166ff089bbf2fd886b"
+  }
+}
