@@ -8,6 +8,38 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-20: conservative continuum screening and Fisher density stability
+
+[K1846](explorations/conditional-build/k1846-continuum-screening-dephasing-2026-10-20.md)
+constructs a positive-energy local continuum of massive scalar fields with a
+causal cross-readout whose homogeneous step response decays as O(1/t).
+The fluctuation energy stays constant: the decay is dephasing. A conjugate
+source contact also admits late decay, while a finite grouped positive-mass
+spectrum cannot produce nontrivial ordinary late screening. Readout
+perturbations leave an explicit residual, so cancellation is not protected.
+This is a conditional scalar model, not GU's connection or cosmological
+observable. SC-COS-50/51/54 and SC-ACT-01/02 remain ASSERTS; SC-META-53 UNCERTAIN.
+
+[K1847](explorations/k1847-fisher-density-stability-2026-10-20.md)
+converts the previous exact score certificate into total-variation control.
+Every feasible even variance1/fourth-moment2 density with Fisher energy
+at most1.752673 lies within637/4800 (<0.133) of an explicit rational-score
+reference law. Two such densities are within637/2400 (<0.266), including
+comparison with the exact minimizer. The reference's moments are not asserted
+to be feasible. The separate quartic spectral argument proves
+TV(p,p*) <= sqrt((I(p)-F(k))/gamma_k) and strong square-root Sobolev
+convergence for every fixed k in(1,3). The positive even-sector gap gamma_k
+is not yet numerically enclosed; the quantitative restricted gap stays open. K1845's value bracket is unchanged.
+
+K1846:20 exact symbolic groups and83 independent rational controls, including
+5 certificate-input and3 separate reporting faults. K1847:24 exact groups and
+206 independent controls, including7 input and3 separate reporting faults.
+Written causal-domain, spectral and weak Stein proofs are distinct from these
+finite checks; no independent-agent, formal-proof or external acceptance.
+The density-control request below is now answered at the stated conservative
+constant. K1844's finite-field oscillation result survives unchanged. Source,
+physics ledger, canon and public posture remain unchanged.
+
 ## 2026-10-20: positive response and certified unrestricted Fisher bounds
 
 [K1844](explorations/conditional-build/k1844-screening-positive-response-2026-10-20.md)

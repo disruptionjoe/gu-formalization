@@ -2,6 +2,9 @@
 
 ## October 20 research evidence
 
+- `k1846_continuum_screening_dephasing.py` and `_probe.py`: continuum-response identities and independent rational spectral controls.
+- `k1847_fisher_density_stability.py` and `_probe.py`: exact tail/Stein certificate and independent rational score controls.
+
 - `k1844_screening_positive_response.py` and `_probe.py`: exact action/response identities and independent rational matrix controls.
 - `k1845_fisher_certified_moment_bounds.py` and `_probe.py`: whole-line Sturm lower bound and exact Gaussian-moment upper bound, independently replayed.
 

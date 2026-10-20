@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 9d4c2ecf14997c43c9068813652bf25597b38a38
+revision_basis: 4e40b3178583df6a38f6e159bbc5013194317808
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,17 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1846 constructs a causal positive-energy continuum with late screened
+    cross-readout O(1/t), conserved fluctuation energy, finite-spectrum
+    nondecay theorem and a conjugate-contact repair. Readout tuning remains
+    explicit; no source GU response is supplied. K1847 converts the certified
+    Fisher score bound to total variation below637/4800 (<0.133) against an
+    explicit reference density, and below637/2400 between feasible densities
+    of energy<=1.752673. The reference is not asserted to be moment feasible
+    or the exact optimizer. True-optimum stability follows with an unevaluated positive
+    quartic spectral gap; its effective constant and the restricted gap remain open. Source/ledger/canon unchanged.
+
+    Retained predecessor results in their original scopes:
     K1844 derives conditional positive scalar action responses: nonzero
     contact-free source-conjugate susceptibility cannot vanish statically.
     Healthy cross-readouts and direct source contacts provide exact causal
@@ -15247,6 +15258,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1846-continuum-screening-dephasing-2026-10-20.md
+    - explorations/k1847-fisher-density-stability-2026-10-20.md
+    - lab/process/k1846-continuum-screening-dephasing.json
+    - lab/process/k1847-fisher-density-stability.json
     - explorations/conditional-build/k1842-screening-causal-response-2026-10-20.md
     - lab/process/k1842-screening-causal-response.json
     - explorations/k1843-unrestricted-fisher-variational-gap-2026-10-20.md
@@ -15970,6 +15985,14 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can a derived constraint or interaction protect the conditional continuum
+  screening cancellation, or can the actual GU intervention/readout/contact/domain
+  be typed? Compare that against an effective lower bound on the true quartic Fisher spectral gap, a quantitative restricted k2 gap, or uniform unrestricted endpoint
+  asymptotics. K1846 closes conservative late decay; K1847 closes coarse density
+  control. Additional mass discretizations or tighter display constants alone
+  do not settle the remaining questions.
+
+  Historical predecessor question, with coarse density control now answered:
   Can a source-owned response packet specify the actual intervention,
   physical readout, contact terms and common domain needed to apply K1844?
   Compare that construction with a certified restricted optimum at k=2 for a
@@ -19021,6 +19044,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  For screening, derive the symmetry/constraint protecting the zero static
+  cross integral or identify the same-action physical response packet; the
+  continuum construction is conditional and its cancellation changes by epsilon/2
+  under a specified readout perturbation. For Fisher, use the explicit reference
+  TV bound only within its scope. The true-optimum modulus now follows from its positive spectral gap;
+  an effective constant needs a certified gap enclosure, while restricted-family quantitative gain
+  needs a certified restricted lower bound at k2. Source/ledger/canon unchanged.
+
+  Historical predecessor question, with coarse density control now answered:
   For screening, identify the same-action source/readout/contact/domain
   data and test conjugacy before using positive spectral constraints; signed
   cross-residues alone imply no ghost. For scalar work, K1845 gives F(2) and

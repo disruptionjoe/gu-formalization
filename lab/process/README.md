@@ -9,6 +9,9 @@ updated_at: "2026-08-23"
 
 ## October 20 research evidence
 
+- `k1846-continuum-screening-dephasing.json`: exact continuum response, energy, contact and robustness inputs.
+- `k1847-fisher-density-stability.json`: exact rational shape/tail, Stein-factor and density-distance certificate.
+
 - `k1844-screening-positive-response.json`: positive action/readout scope and exact controls.
 - `k1845-fisher-certified-moment-bounds.json`: exact rational coefficients, isolating interval and dual/primal certificates.
 

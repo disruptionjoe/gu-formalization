@@ -7,6 +7,18 @@ updated_at: "2026-10-20"
 
 # Next Steps For Contributors
 
+> **2026-10-20 CONTINUUM RESPONSE AND DENSITY CONTROL.** K1846 supplies
+> conservative causal late screening through a continuous mass spectrum,
+> with a finite-spectrum obstruction, contact repair and explicit tuning cost.
+> Next test a protecting constraint or interaction, or the actual source-owned
+> intervention/readout/domain; another finite mass grid does not settle these.
+> K1847 turns K1845's score bound into total-variation error below0.133 against
+> an explicit reference, with a below0.266 near-minimizer diameter. An implicit vanishing
+> true-optimum modulus also follows from the positive quartic spectral gap;
+> its numerical constant, quantitative restricted k2 gap and unrestricted
+> endpoint remain distinct questions. Earlier generic density-distance requests
+> are answered at this scope; source/physics ledger/canon remain unchanged.
+
 > **2026-10-20 POSITIVE RESPONSE AND CERTIFIED FISHER.** K1844 identifies
 > the precise positive conjugate contact-free screening obstruction, with
 > healthy cross-readout and direct-contact repairs. Next derive the actual

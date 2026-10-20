@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "id": "K1846",
+  "status": "internal_structural_only",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "source_claim_effect": "none",
+  "physics_ledger_effect": "none",
+  "canon_promotion": false,
+  "independent_agent_review": false,
+  "proof_assistant_checked": false,
+  "mass_interval": [
+    "1",
+    "2"
+  ],
+  "cross_weight": [
+    "-3/2",
+    "1"
+  ],
+  "contact": "-1/2",
+  "static_cross": "0",
+  "high_frequency_cross": "1/4",
+  "equilibrium_fluctuation_energy_per_J_squared": "1/4",
+  "cross_decay_coefficients": [
+    "1",
+    "2"
+  ],
+  "contact_decay_coefficient": "2",
+  "inverse_mass_source_norm_squared": "7/24",
+  "mathematical_checks": {
+    "forced Euler equation": true,
+    "zero initial position": true,
+    "zero initial velocity": true,
+    "static cross zero": true,
+    "high frequency cross coefficient": true,
+    "cross oscillatory integral": true,
+    "short time coefficient": true,
+    "static conjugate": true,
+    "fluctuation energy pointwise": true,
+    "integrated fluctuation energy": true,
+    "cross decay endpoint coefficient": true,
+    "cross decay integral coefficient": true,
+    "contact decay endpoint and variation": true,
+    "contact coefficient": true,
+    "readout perturbation static residual": true,
+    "inverse mass source norm": true,
+    "source readout independent": true,
+    "finite fixture cancellation": true,
+    "finite fixture nondecay": true,
+    "finite contact nondecay": true
+  },
+  "source_readout_gram": [
+    [
+      "1",
+      "1/4"
+    ],
+    [
+      "1/4",
+      "83/140"
+    ]
+  ]
+}

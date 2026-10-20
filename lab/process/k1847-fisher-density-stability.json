@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "id": "K1847",
+  "status": "internal_structural_only",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "source_claim_effect": "none",
+  "physics_ledger_effect": "none",
+  "canon_promotion": false,
+  "independent_agent_review": false,
+  "proof_assistant_checked": false,
+  "score": [
+    "-26379/25000",
+    "12003/10000",
+    "137193/500000",
+    "266879/500000",
+    "43447/2000000"
+  ],
+  "dependency": {
+    "path": "lab/process/k1845-fisher-certified-moment-bounds.json",
+    "sha256": "cdb0a7d064ed81a64a951671526dc2059013c21c09b890dc8e69abead8eb652f"
+  },
+  "R": "3/2",
+  "depth": "11/20",
+  "exponential_upper": "7/4",
+  "stein_factor": "91/24",
+  "score_budget": "243/200000",
+  "tv_upper": "637/4800",
+  "pair_tv_upper": "637/2400",
+  "reference_moment_feasibility": "not_asserted",
+  "reference_is_optimizer": false,
+  "mathematical_checks": {
+    "positive denominator": true,
+    "negative origin": true,
+    "one positive sign crossing": true,
+    "global lower slope coefficients": true,
+    "tail lower slope coefficients": true,
+    "chosen tail radius": true,
+    "maximum depth bound": true,
+    "positive geometric remainder ratio": true,
+    "rational exponential majorant": true,
+    "Stein factor": true,
+    "score bound": true,
+    "total variation bound": true,
+    "pair bound": true,
+    "display bound": true,
+    "tail linear slope": true,
+    "not log concave": true,
+    "weak score integration identity": true,
+    "Gaussian score difference": true,
+    "reference dependency": true,
+    "fixed moment energy cancellation": true,
+    "TV product identity": true,
+    "Hellinger factor": true,
+    "quartic form lower bound": true,
+    "optimizer theorem dependency": true
+  },
+  "lower_slope_polynomial": [
+    "1121/25000",
+    "8937169/5000000",
+    "5965637/20000000"
+  ],
+  "shifted_tail_polynomial": [
+    "23157229/32000000",
+    "7214093/4000000",
+    "20213/80000"
+  ],
+  "exp_upper_rational": "3043173878237727251/1755758592000000000",
+  "optimizer_stability": {
+    "scope": "fixed k in (1,3), exact even moment class",
+    "bound": "TV(p,p*) <= min(1,sqrt((I(p)-F(k))/gamma_k))",
+    "gamma_k": "positive even-sector spectral gap of actual moment-selected quartic",
+    "numerical_gap_lower_bound": null,
+    "strong_H1_and_weighted_L2_convergence": true,
+    "dependency": {
+      "path": "explorations/k1843-unrestricted-fisher-variational-gap-2026-10-20.md",
+      "sha256": "4dd0b02b04005af66c6b33b384d7e86ac0f3a028a0f3fa312ba6b503aa4fb307"
+    }
+  }
+}

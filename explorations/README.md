@@ -9,6 +9,9 @@ updated_at: "2026-08-21"
 
 ## October 20 research evidence
 
+- [K1846 continuum screening](conditional-build/k1846-continuum-screening-dephasing-2026-10-20.md): causal late decay with positive conserved energy, finite-spectrum boundary and contact repair.
+- [K1847 Fisher density stability](k1847-fisher-density-stability-2026-10-20.md): explicit Stein tail certificate, total variation and near-minimizer diameter.
+
 - [K1844 positive response](conditional-build/k1844-screening-positive-response-2026-10-20.md): action-derived conditional obstruction, healthy cross-readout and contact repairs.
 - [K1845 certified Fisher bounds](k1845-fisher-certified-moment-bounds-2026-10-20.md): unrestricted F(2) rational bracket, exact feasible density and score bound.
 
