@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 6d59f72152f1487db0b6ca83da405481e9a0b465
+revision_basis: c79f46c35fbfea64e40c87d3232dcfc9c97ab322
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -53,7 +53,7 @@ current_result:
     exclude 37 of those regions. Every old independent component Hessian box
     still contains a singular matrix: that method limit survives even though
     stronger correlated bounds settle the selected optimizer problem.
-    Native RESEARCH-STATUS rollup is pending the required successor scope.
+    The current RESEARCH-STATUS rollup records this theorem and its scope.
     Earlier global-open statements below are historical and superseded by
     the current K1820 certificate; protected source and physics grades stay.
 

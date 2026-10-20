@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "claim_id": "K1820",
   "status": "active_research",
-  "publication_status": "active-research computed theorem; no canon promotion; native status rollup follows separate admission",
+  "publication_status": "active-research computed theorem; native research-status rollup recorded; no canon promotion",
   "title": "Correlated whole-line derivatives isolate one stationary candidate and certify the fixed-q two-radius global minimizer",
   "inputs": [
     "K1760",

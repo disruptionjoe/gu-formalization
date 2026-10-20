@@ -2,11 +2,53 @@
 title: "Research Status"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-10-04"
+updated_at: "2026-10-20"
 canon_sweep_at: "2026-07-25"
 ---
 
 # Research Status
+
+## 2026-10-20 — K1820 fixed-q two-radius global minimizer
+
+K1820 certifies a **unique global minimizer at q=1/1024** in the symmetric,
+unit-variance two-radius scalar family under Gaussian interpolation. Its Fisher
+value is enclosed by
+`[1.5917864530497670077445861802075968567e-7 +/- 3.19e-24]`.
+This is a repository-derived active-research theorem, not canon or a statement
+about all possible channel laws.
+
+The complete K1818 Bernstein bank excludes 14 stationary leaves. Four new
+correlated local point/hull jets and exact closed-box subdivisions exclude the
+other 37 alternatives. Their rational replay contains 79 signed-gradient
+terminals, one positive-Hessian terminal and zero unresolved terminals.
+The sole remaining necessary-root rectangle in leaf50 has positive Hessian
+throughout, so its gradient is injective. K1787 supplies the stationary point.
+Accepted boundary collars, outer sublevel partitions, first-two-slab exclusions,
+26 value-excluded leaves and all 114 slab-three faces and vertices complete the
+global minimum argument. Value-excluded regions may still contain higher
+stationary points; uniqueness on the entire slab is not asserted.
+
+The old independent component Hessian boxes still admit exact singular
+matrices. That method limitation was overcome by preserving derivative
+correlations before interval ranging. Leaf38's unsupported original exclusion
+flag remains intact; its new exclusion has separate correlated evidence.
+The connected Jz-zero graph is an additional result, and is not needed by the
+simpler final single-convex-box proof.
+
+Evidence and reproduction: the
+[K1816--K1820 account](explorations/k1816-k1820-full-fisher-slab-three-leafwise-wave-2026-10-13.md),
+[K1820 certificate](lab/process/k1820-full-fisher-global-optimizer-admission.json),
+and [verification map](VERIFICATION.md) contain the exact scope, proof,
+inputs, controls and reproduction commands. The focused producer/probe passed
+2/2. Numerical integration, exact replay, analytic controls and reused
+predecessor proofs are distinguished in that account.
+
+A later independent verification must check the result and wording before any
+canon promotion. No GU action, physical state or observed map, prediction,
+confirmation, unrestricted channel optimum, source-register or physics-ledger
+grade follows from this scalar theorem. Older global-open statements for this
+same fixed-q problem are superseded by K1820; their negative method results
+remain historical evidence.
 
 ## 2026-10-04 — K1056--K1060 nonlinear detector-transfer boundary
 

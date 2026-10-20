@@ -54,7 +54,9 @@ This is a computed, repository-derived active-research theorem. It is not an
 optimizer over arbitrary channel laws, a GU action or physical state, a
 prediction or confirmation, or a canon promotion. The earlier method failures,
 component-box singular witnesses and partial counts remain valid historical
-evidence. Native status propagation and any later canon review are separate.
+evidence. The current [Research Status](../RESEARCH-STATUS.md) records this
+result; any canon review remains a later independent step. Earlier pending
+status-rollup notes below are historical.
 
 ## Correlated local jets and a connected candidate graph (2026-10-20)
 
