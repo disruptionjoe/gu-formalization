@@ -2,6 +2,9 @@
 
 ## October 20 research evidence
 
+- `k1832_k77_common_energy_form.py` and `_probe.py`: full rational common-energy construction and separate symmetric-coordinate/positivity controls.
+- `k1833_fisher_merging_radius_subleading.py` and `_probe.py`: exact series plus independent two-atom/Hermite/score-jump controls.
+
 - `k1830_k77_paired_action_nilpotent_completion.py` and `_probe.py`: exact rational retract/nilpotent class and independent split models.
 - `k1831_fisher_endpoint_gaussian_blowup.py` and `_probe.py`: symbolic chart/profile identities and independent rational moment controls.
 

@@ -9,6 +9,9 @@ updated_at: "2026-08-23"
 
 ## October 20 research evidence
 
+- `k1832-k77-common-energy-form.json`: rational common energy, four exact module types and scoped evolution consequences.
+- `k1833-fisher-merging-radius-subleading.json`: exact chart/cumulant controls for the sharp additive asymptotic and refined family.
+
 - `k1830-k77-paired-action-nilpotent-completion.json`: conditional dual reduction, universal nilpotent completions and homology.
 - `k1831-fisher-endpoint-gaussian-blowup.json`: leading shape criterion, explicit limiting gap and Gaussian-profile proof controls.
 

@@ -7,6 +7,18 @@ updated_at: "2026-10-20"
 
 # Next Steps For Contributors
 
+> **2026-10-20 COMMON ENERGY AND SHARP ENDPOINT.** K1832 supplies a positive
+> common energy for the compressed constant-coefficient system and classifies
+> its energy/boundary choices; source pairing and actual lower-order dynamics
+> remain unselected. K1833 proves V=4/(2-q)-2+o(1), z->0 and eventual interior
+> minimizers, then removes the first fixed-family remainder penalty.
+> Next compare actual stationary-background coefficient/Riesz compatibility
+> with uniform next-order shape selection around the improved merging family.
+> Exact minimizing rates, uniqueness and effective onset remain open. Earlier
+> unknown additive-constant and central-face-membership statements are historical.
+> Do not repeat arbitrary nilpotents, fixed-q banks or leading-profile checks.
+
+
 > **2026-10-20 PAIRED REDUCTION AND ENDPOINT SHAPE.** K1830 supplies the
 > independent-dual finite action and universal all-B nilpotent completion,
 > with homology256 and neutral paired form; physical action/domain selection

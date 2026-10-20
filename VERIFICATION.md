@@ -7,6 +7,42 @@ updated_at: "2026-10-20"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-20: common principal energy and sharp additive Fisher endpoint
+
+[K1832](explorations/conditional-build/k1832-k77-common-energy-form-2026-10-20.md)
+constructs a rational positive energy symmetrizing all three corrected
+compressed spatial matrices. All32 real16 modules are covered; common
+positive forms correspond to positive Hermitian32-by32 multiplicity matrices.
+The constant-coefficient Cauchy system has conserved H energy and propagation
+speed at most1 in fixture units. Boundary flux has inertia(256,256), with
+maximal nonnegative subspaces parametrized by weighted contractions.
+No nonzero nilpotent zero-order coefficient is dissipative in any positive
+norm; K1830's auxiliary complex cannot silently become such a time generator.
+This is a compressed conditional system, not uncompressed descent, a physical
+pairing, source action or a variable-background/domain theorem.
+
+[K1833](explorations/k1833-fisher-merging-radius-subleading-2026-10-20.md)
+proves V(2-delta)=4/delta-2+o(1). An explicit merging-radius family supplies
+the upper bound; uniform separated-face exclusion and a score test with the
+necessary density-at-zero term supply the matching lower bound. Every global
+minimizer has z->0 and eventually lies in the regular interior. Its score
+approaches the stated signed quadratic test in L2(rho), and the inverse budget
+has 2-q_B=4/B-8/B²+o(B^-2). Fixed-family refinement gives a nonnegative
+quartic-cumulant cost at order delta^(1/3); c=delta^(4/3)/2 and
+z=(1+sqrt(3))delta^(2/3)/2 eliminate that cost. These are sufficient candidate
+rates, not a theorem selecting exact minimizer rates or a unique shape.
+No effective onset, finite-budget error or next global coefficient is claimed.
+
+Exact matrix/series checks, separate symmetric-equation and rational/Hermite
+controls, and written analytic proofs have distinct evidence roles. A small
+high-precision diagnostic agrees with the expansion but is not a certificate.
+No fixed-q numerical bank was repeated, no separate-agent review occurred,
+and both results remain active research. SC-OP-04/ACT-01/02/06 ASSERTS,
+SC-OP-05/META-53 UNCERTAIN, source adherence, physics ledger and canon are
+unchanged. Earlier open subleading-constant and z=1 statements below are
+historical at this endpoint scope; exact optimizer rates remain open.
+
+
 ## 2026-10-20: paired coefficient reduction and endpoint shape rigidity
 
 [K1830](explorations/conditional-build/k1830-k77-paired-action-nilpotent-completion-2026-10-20.md)

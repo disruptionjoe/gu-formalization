@@ -9,6 +9,9 @@ updated_at: "2026-08-21"
 
 ## October 20 research evidence
 
+- [K1832 common principal energy](conditional-build/k1832-k77-common-energy-form-2026-10-20.md): exact positive energy, constant-coefficient evolution and nilpotent-damping boundary.
+- [K1833 sharp additive Fisher endpoint](k1833-fisher-merging-radius-subleading-2026-10-20.md): constant -2, merging/interior minimizers, score and inverse-budget consequences.
+
 - [K1830 paired action and nilpotent completion](conditional-build/k1830-k77-paired-action-nilpotent-completion-2026-10-20.md): dual retract, all-B rank128 complex and neutral homology.
 - [K1831 endpoint Gaussian blowup](k1831-fisher-endpoint-gaussian-blowup-2026-10-20.md): complete leading-optimality criterion, limiting gap and W2 profile.
 

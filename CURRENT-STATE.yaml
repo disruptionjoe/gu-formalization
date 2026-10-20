@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 045bd493b70dc24f9abc0dac6d913bb36b8b3028
+revision_basis: 2f588dfd9d1d3b07ccad7a70d6bd26e3b900ab59
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1832 constructs a rational common positive symmetrizer for all three
+    corrected compressed spatial symbols on E512. All positive energies
+    correspond to positive Hermitian32-by32 multiplicity forms; the frozen
+    constant-coefficient system has conserved energy and speed at most1.
+    Its boundary flux has inertia256,256 and weighted-contraction boundary
+    choices. Nonzero nilpotent zero-order maps cannot be dissipative in any
+    positive real-evolution norm. No source pairing or uncompressed descent.
+    K1833 proves V(2-delta)=4/delta-2+o(1), every minimizer z->0 and eventual
+    regular-interior attainment. A signed quadratic score test, including its
+    density-at-zero term, matches the explicit merging-family upper bound.
+    The inverse budget is 2-q_B=4/B-8/B²+o(B^-2). The fixed-family quartic
+    penalty is removed by c=delta^(4/3)/2, z=(1+sqrt(3))delta^(2/3)/2;
+    these sufficient rates are not proved necessary for exact minimizers.
+    Unique shape, effective onset and next global coefficient remain open.
+    Source, physics ledger and canon unchanged.
+
+    Previous paired-action and leading-shape results retained; their open
+    additive-constant and central-face questions are now superseded by K1833:
     K1830 constructs the independent-dual finite bilinear reduction for every
     K1828 completed column. Every prescribed southeast block has an all-column
     square-zero rank128 completion; homology256 is minimal in this input-column
@@ -15137,6 +15155,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1832-k77-common-energy-form-2026-10-20.md
+    - lab/process/k1832-k77-common-energy-form.json
+    - explorations/k1833-fisher-merging-radius-subleading-2026-10-20.md
+    - lab/process/k1833-fisher-merging-radius-subleading.json
     - explorations/conditional-build/k1830-k77-paired-action-nilpotent-completion-2026-10-20.md
     - lab/process/k1830-k77-paired-action-nilpotent-completion.json
     - explorations/k1831-fisher-endpoint-gaussian-blowup-2026-10-20.md
@@ -15836,6 +15858,16 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which actual stationary-background coefficient and Riesz/reality relation
+  are compatible with K1832's common energy and the source constraints?
+  Energy availability is now settled for the compressed frozen fixture,
+  while uncompressed descent and physical selection remain open. For the
+  scalar family, which uniform next-order variational problem selects exact
+  minimizing c,z rates among merging configurations? K1833 fixes the global
+  additive constant and rejects fixed-family quartic penalties; it does not
+  prove the improved witness gives the unique or rate-selected minimizer.
+
+  Previous question, now resolved at common-energy and additive-value scope:
   Which supplied same-background pairing/reality and derivative coefficients
   preserve K1830's primal/dual retracts and yield an actual variational degree
   relation? Independent-dual finite bilinear existence and all-B nilpotent
@@ -18826,6 +18858,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Reuse K1832's rational energy and multiplicity-form classification. Supply
+  actual same-background source coefficients, constraint descent and Riesz
+  relation before treating the mathematical Cauchy energy as physical.
+  A nonzero nilpotent auxiliary map cannot be dissipative as a real time
+  generator in any positive norm. Reuse K1833's sharp global constant,
+  merging/interior theorem and score saturation; compare uniform competing
+  scales and the next correction around a=1/2,b=(1+sqrt(3))/2. The fixed
+  powers4/3 and2/3 remain sufficient, not necessary. Effective onset, unique
+  shape, quantitative q0 uniqueness and full source action remain open.
+  Source OP04/ACT01,02,06 ASSERTS and OP05/META53 UNCERTAIN unchanged.
+
+  Previous continuation, with common energy and sharp additive endpoint closed:
   Reuse K1830's retract identity C=RCR, inverse-transpose raw dual and universal
   rank128 square-zero completion; do not mistake the paired Hessian for its
   auxiliary differential or neutral homology for physical positivity. Supply
