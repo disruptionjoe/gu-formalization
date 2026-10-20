@@ -9,6 +9,9 @@ updated_at: "2026-08-23"
 
 ## October 20 research evidence
 
+- `k1836-k77-differential-dirac-quotient.json`: local observations, exact lifts and conservative coefficient basis.
+- `k1837-fisher-rare-component-boundary.json`: rare-orientation constants and scoped endpoint exclusion.
+
 - `k1834-k77-characteristic-cones.json`: two cones, exact coefficient basis and energy-skew controls.
 - `k1835-fisher-next-endpoint-coefficient.json`: uniform-window next coefficient and explicit improving witness.
 

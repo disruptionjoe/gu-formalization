@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 6402d9a97d44da657e62f8dfc65d0086b2194902
+revision_basis: 82db6657cf802fbf7b5f7a3f29afedf6cbf5e36c
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1836 constructs complete degree-one local Dirac observations for the
+    corrected compressed fixture: two-dimensional map space per real16 module,
+    rank4 at every nonzero frequency; no constant observation. Exact lift and
+    fast kernel use inverse-Laplacian recovery. Conservative lifts supply two
+    Dirac mass directions without selecting source or physical coefficients.
+    K1837 proves a strict Fisher additive gap for finite positive noise-scaled
+    rare-radius separation and excludes unbounded amplitude escape there.
+    Opposite rare orientation also loses. Global minimizing z/sqrt(delta)
+    and (c/z)/sqrt(delta) have no finite positive accumulation values.
+    An all-domain variance bound further proves r-z<c/2 eventually and
+    r=c/z=o(sqrt(delta)), excluding every outward unbounded-separation regime.
+    Unbounded inward separation and noncompact finer merging scales remain open;
+    no global next coefficient, optimizing powers, uniqueness or effective onset.
+    Source, physics ledger and canon unchanged.
+
+    Previous cone and compact-window results retained:
     K1834 derives the two-cone characteristic determinant, no common boosts
     and no constant pure-speed first-order field sector for the corrected E512
     fixture. Fourier sectors are exact but nonlocal; local derivative extraction
@@ -15169,6 +15185,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1836-k77-differential-dirac-quotient-2026-10-20.md
+    - lab/process/k1836-k77-differential-dirac-quotient.json
+    - explorations/k1837-fisher-rare-component-boundary-2026-10-20.md
+    - lab/process/k1837-fisher-rare-component-boundary.json
     - explorations/conditional-build/k1834-k77-characteristic-cones-2026-10-20.md
     - lab/process/k1834-k77-characteristic-cones.json
     - explorations/k1835-fisher-next-endpoint-coefficient-2026-10-20.md
@@ -15876,6 +15896,15 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can polynomial-score bounds exclude the remaining inward unbounded-separation
+  Fisher regime, and can uniform cumulant coercivity confine finer merging
+  minimizers to K1835's scaling window? K1837 removes finite noise-scaled
+  separation, not those two limits. Compare a source-owned realization of
+  K1836's differential Dirac observation with its variable-background and
+  lower-order compatibility conditions. Conditional local maps and supplied
+  conservative mass coefficients are not physical selection.
+
+  Previous question, partly resolved by the rare-scale and differential tests:
   Can unrestricted endpoint Fisher minimizers escape the compact positive
   scaling window a=c/delta^(4/3),b=z/delta^(2/3) while matching the new upper
   bound? K1835 now solves the window branch; a uniform noncompact lower bound
@@ -18885,6 +18914,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Build a Fisher lower bound uniform at unbounded rare separation, or a
+  small-displacement cumulant bound uniform outside compact a,b. Do not use
+  K1837's exponentially growing remainder there. For the source route,
+  test actual observation and same-background variation against the full
+  differential intertwining and coefficient equations, including variable
+  coefficients, pairing and domain. K1836's inverse is nonlocal with zero-mode
+  limits; its supplied mass parameters do not recover a physical spectrum.
+  Global rates/uniqueness/next coefficient, effective onset and source descent
+  remain open. Source and ledger unchanged.
+
+  Previous continuation retained with the finite-separation regime resolved:
   Test rare or merging atom scales outside compact a,b with a uniform score
   lower bound or a rigorous escaping-scale competitor. Reuse K1835's local
   unique branch and expansion rather than computing more fixed-family terms.

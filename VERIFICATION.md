@@ -7,6 +7,39 @@ updated_at: "2026-10-20"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-20: local Dirac observation and rare-component scale exclusion
+
+[K1836](explorations/conditional-build/k1836-k77-differential-dirac-quotient-2026-10-20.md)
+constructs a first-order differential observation from each corrected real16
+module onto a real4 Dirac system at speed1/24. The full homogeneous degree-one
+solution space has dimension2; every nonzero solution is surjective for every
+nonzero spatial frequency. Constant observations remain impossible. Exact
+lifting identifies the fast kernel and slow image, with inverse-Laplacian
+recovery and explicit zero-mode/derivative limits. Every target constant B has
+a local lift; the conservative pair space has dimension9, target image3.
+Two target generators anticommute with all spatial Dirac matrices and yield
+conservative supplied mass parameters. This remains a conditional compressed
+fixture, not source-owned observation, physical mass or physical quotient.
+
+[K1837](explorations/k1837-fisher-rare-component-boundary-2026-10-20.md)
+resolves the rare-component regime z=b sqrt(delta),c=k delta^(3/2): the
+constant is-3/2-2bk+4H(b)k², H=(exp(b²)-1-b²)/b². Its optimized value
+is strictly above-2 for every finite b>0. Uniform amplitude coercivity closes
+the unbounded-k loophole on compact positive b intervals. The opposite rare
+orientation has+2bk and minimum-3/2. Neither z/sqrt(delta) nor(c/z)/sqrt(delta)
+can have a finite positive accumulation value along global minimizers.
+An exact all-domain variance bound further gives r-z<c/2 eventually and
+r=c/z=o(sqrt(delta)); it removes unbounded outward separation.
+Unbounded inward separation and finer merging scales remain open; no global next
+coefficient, optimizing powers, uniqueness or effective onset is claimed.
+
+Rational coefficient/Gram/mass identities, modular rank controls and distinct
+Gaussian likelihood/binomial derivations support the written continuum and
+uniformity arguments. Reporting faults are separately counted. Inline hostile
+review; no separate-agent review, novelty claim, source/ledger/canon change.
+SC-OP-04/ACT-01/02/06 ASSERTS, SC-OP-05/META-53 UNCERTAIN unchanged.
+
+
 ## 2026-10-20: characteristic locality and a compact-window Fisher optimizer
 
 [K1834](explorations/conditional-build/k1834-k77-characteristic-cones-2026-10-20.md)

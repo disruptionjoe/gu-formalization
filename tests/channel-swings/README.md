@@ -2,6 +2,9 @@
 
 ## October 20 research evidence
 
+- `k1836_k77_differential_dirac_quotient.py` and `_probe.py`: rational polynomial observations, modular ranks and conservative mass controls.
+- `k1837_fisher_rare_component_boundary.py` and `_probe.py`: constrained chart, likelihood integral and uniform-gap controls.
+
 - `k1834_k77_characteristic_cones.py` and `_probe.py`: rational and modular all-direction coefficient, locality and cone controls.
 - `k1835_fisher_next_endpoint_coefficient.py` and `_probe.py`: independent shifted-Gaussian and rational moment score jets.
 

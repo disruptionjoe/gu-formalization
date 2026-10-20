@@ -1,0 +1,48 @@
+{
+  "result_id": "K1837",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "results": {
+    "inward_constant": "-3/2 - 2*b*k + 4*k^2*(exp(b^2)-1-b^2)/b^2",
+    "outward_constant": "-3/2 + 2*b*k + 4*k^2*(exp(b^2)-1-b^2)/b^2",
+    "inward_optimal_k": "b^3/[4*(exp(b^2)-1-b^2)]",
+    "inward_minimum": "-3/2-b^4/[4*(exp(b^2)-1-b^2)] > -2",
+    "finite_positive_noise_scaled_radius_excluded": true,
+    "upper_displacement_o_sqrt_delta": true,
+    "global_scaling_compactness_proved": false,
+    "global_shape_uniqueness_proved": false
+  },
+  "checks": {
+    "inward_rare_weight": true,
+    "inward_noise_gap": true,
+    "inward_pole": true,
+    "inward_base_constant": true,
+    "inward_likelihood_prefactor": true,
+    "inward_rational_1/2_1/3": true,
+    "inward_rational_1_2": true,
+    "inward_rational_2_3/2": true,
+    "inward_rational_3_0": true,
+    "outward_rare_weight": true,
+    "outward_noise_gap": true,
+    "outward_pole": true,
+    "outward_base_constant": true,
+    "outward_likelihood_prefactor": true,
+    "outward_rational_1/2_1/3": true,
+    "outward_rational_1_2": true,
+    "outward_rational_2_3/2": true,
+    "outward_rational_3_0": true,
+    "exp_strict_quartic_remainder": true,
+    "exact_first_remainder": true,
+    "completed_square": true,
+    "variance_threshold_identity": true,
+    "variance_comparison_square": true,
+    "outward_variance_control_5/4": true,
+    "outward_variance_control_2": true,
+    "outward_variance_control_10": true
+  },
+  "inputs": {
+    "explorations/k1833-fisher-merging-radius-subleading-2026-10-20.md": "f4b9a20ac9b3c77ebbffe5d9113be5184236e192d5607d5e77205b070fac8f8e",
+    "explorations/k1835-fisher-next-endpoint-coefficient-2026-10-20.md": "fe21f6b9d20da518a3c5c8d7836efdf8dec10d1d8f8407cb51d122cb18d318cc"
+  }
+}

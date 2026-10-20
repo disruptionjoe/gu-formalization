@@ -9,6 +9,9 @@ updated_at: "2026-08-21"
 
 ## October 20 research evidence
 
+- [K1836 differential Dirac quotient](conditional-build/k1836-k77-differential-dirac-quotient-2026-10-20.md): all-direction local observation, inverse limits and conservative mass lifts.
+- [K1837 rare-component endpoint boundary](k1837-fisher-rare-component-boundary-2026-10-20.md): uniform amplitude exclusion and both rare orientations.
+
 - [K1834 characteristic locality](conditional-build/k1834-k77-characteristic-cones-2026-10-20.md): two cones, nonlocal sectors and all compatible constant coefficients.
 - [K1835 endpoint window optimizer](k1835-fisher-next-endpoint-coefficient-2026-10-20.md): uniform next coefficient, unique window branch and strict improved witness.
 

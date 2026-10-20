@@ -7,6 +7,18 @@ updated_at: "2026-10-20"
 
 # Next Steps For Contributors
 
+> **2026-10-20 DIFFERENTIAL QUOTIENT AND RARE-SCALE RESULT.** K1836 supplies
+> a local derivative Dirac observation and conservative mass lifts on the
+> compressed fixture; test actual source observation/coefficient identification
+> and variable-background commutators before physical use. K1837 excludes
+> finite positive noise-scaled radius limits, even with unbounded amplitudes.
+> Its exact variance bound also forces the upper displacement c/z=o(sqrt(delta)).
+> Next compare inward unbounded-separation score bounds with uniform cumulant bounds
+> when both radii merge faster than sqrt(delta). K1835's global scale tightness
+> and next coefficient remain open. Do not repeat constant maps or fixed-family
+> jets; no source, physical mass, global rate or uniqueness is selected.
+
+
 > **2026-10-20 CHARACTERISTIC LOCALITY AND WINDOW OPTIMIZER.** K1834 resolves
 > the two-cone/local-sector distinction and all constant speed-compatible
 > coefficients. Test an actual source-owned reduction or stationary coefficient,
