@@ -7,6 +7,18 @@ updated_at: "2026-10-20"
 
 # Next Steps For Contributors
 
+> **2026-10-20 JOINT SYMBOL AND GLOBAL VALUE RESULTS.** K1824 shows that
+> all three corrected observed spatial symbols still generate a rank-64-divisible
+> algebra, M8(C) repeated 32 times. A source-selected lower-order coefficient,
+> changed carrier or domain must supply a genuine escape; arbitrary seeds do
+> not. K1825 proves scalar minimum existence and strict normalized value
+> monotonicity for every 0<q<2, with exactly one parameter per positive Fisher
+> budget. All-q minimizing-shape uniqueness and interior attainment remain
+> open. Compare actual same-carrier action data with quantitative shape or
+> effective-uniqueness work; do not replay the completed algebra or compactness
+> arguments. See the new Research Status entries for exact scope and evidence.
+
+
 > **2026-10-20 RATIONAL AND PARAMETER DEPENDENCIES CLOSED.** K1822 proves
 > the corrected-carrier spectrum over QQ/R, so repeating two-prime checks or
 > seeking the same real lift is unnecessary. Action-derived degeneracy

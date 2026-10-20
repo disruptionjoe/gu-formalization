@@ -1,0 +1,213 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1825",
+  "status": "active_research",
+  "scope": "centered unit-variance symmetric two-radius scalar Gaussian channels; Rademacher and three-point faces included; 0<q<2",
+  "input_sha256": {
+    "lab/process/k1757-ou-variational-stability.json": "68c60398d9b01575fcf713f863047a50f83fade157ec87daa09e3c251e44f457",
+    "lab/process/k1758-zero-noise-entropy-collar.json": "0af3e39854c2e3654e44ddceafba9b7e6fe45a86db18c9a57dba3868da721b25",
+    "lab/process/k1787-full-fisher-stationary-krawczyk.json": "73858310bae0a5e996563e1947c8712d3d78ed1e2e86e217f8877db5a19a919f",
+    "lab/process/k1820-full-fisher-global-optimizer-admission.json": "ae1b3f3edba77ba6872178f890eb1a9b6876c46f99bf818c0ccb2f3bae1c0dc5",
+    "lab/process/k1823-uniform-q-collar.json": "e30fbbf498318dda2325be2a2ffd7aefbfa750b5789824b8e6618234591f5673"
+  },
+  "fixed_q": {
+    "q0": "1/1024",
+    "value_lower": "15917864530497669758445861802075968567/100000000000000000000000000000000000000000000",
+    "value_upper": "15917864530497670396445861802075968567/100000000000000000000000000000000000000000000"
+  },
+  "identities": {
+    "shape_domain": "0<=c<2-q, 0<z<=1; c=0 is Rademacher",
+    "signal": "t=sqrt(q/(2-c)); v=1-t",
+    "variational_fisher": "J(mu)=sup_{f in C_c^infty} integral(2*y*f-2*fprime-f^2) dmu",
+    "score_mean_derivative": "E[rprime]=-J for centered unit-variance outputs",
+    "strict_derivative": "J_q>J*(1+J)/(2*q) for every finite-mixture shape with q>0",
+    "normalized_value": "W(q)=V(q)/(1+V(q))/sqrt(q) is strictly increasing on (0,2)",
+    "transfer": "T_lambda(x)=lambda*x/(1+(1-lambda)*x)",
+    "weak_boundary": "W2(X_(c,z),R)^2<=2*z; z=0 compactification is Rademacher at t(c)",
+    "entropy_collar": "B=4/(2-q); N=ceil(2*B+10); epsilon=2^-N; C=2-q/(1-epsilon)^2"
+  },
+  "global_results": {
+    "boundary_inclusive_minimum_attained_for_every_q_in_0_2": true,
+    "equals_regular_open_chart_infimum": true,
+    "value_positive_continuous_locally_lipschitz": true,
+    "normalized_value_strictly_increasing": true,
+    "a_e_value_derivative_lower": "Vprime>=V*(1+V)/(2*q)",
+    "all_q_regular_open_chart_attainment": false,
+    "all_q_uniqueness_or_smooth_optimizer_branch": false,
+    "effective_uniqueness_radius": null,
+    "endpoint_q_zero_or_two_included": false,
+    "value_limit_at_q_zero": "0",
+    "value_limit_at_q_two": "+infinity",
+    "unique_parameter_for_every_positive_fisher_budget": true,
+    "inverse_value_continuous_strictly_increasing": true,
+    "universal_inverse_bracket": "2*(B/(1+B))^2<=q_B<=2*(1-exp(-B)/16)^2"
+  },
+  "compact_constant_controls": [
+    {
+      "q": "1/1000000",
+      "candidate_upper": "4000000/1999999",
+      "noise_exponent": 15,
+      "noise_floor": "1/32768",
+      "compact_c_max": "33552367254034/16776192015625",
+      "entropy_floor": "11/2"
+    },
+    {
+      "q": "1/1024",
+      "candidate_upper": "4096/2047",
+      "noise_exponent": 15,
+      "noise_floor": "1/32768",
+      "compact_c_max": "2146304002/1073676289",
+      "entropy_floor": "11/2"
+    },
+    {
+      "q": "1/64",
+      "candidate_upper": "256/127",
+      "noise_exponent": 15,
+      "noise_floor": "1/32768",
+      "compact_c_max": "2130575362/1073676289",
+      "entropy_floor": "11/2"
+    },
+    {
+      "q": "1/4",
+      "candidate_upper": "16/7",
+      "noise_exponent": 15,
+      "noise_floor": "1/32768",
+      "compact_c_max": "1878917122/1073676289",
+      "entropy_floor": "11/2"
+    },
+    {
+      "q": "1",
+      "candidate_upper": "4",
+      "noise_exponent": 18,
+      "noise_floor": "1/262144",
+      "compact_c_max": "68718428162/68718952449",
+      "entropy_floor": "7"
+    },
+    {
+      "q": "3/2",
+      "candidate_upper": "8",
+      "noise_exponent": 26,
+      "noise_floor": "1/67108864",
+      "compact_c_max": "750599848416598/1501199831050923",
+      "entropy_floor": "11"
+    },
+    {
+      "q": "15/8",
+      "candidate_upper": "32",
+      "noise_exponent": 74,
+      "noise_floor": "1/18889465931478580854784",
+      "compact_c_max": "14867163465687082094331959560523602896180566/118937307725496656754844571143503608977992363",
+      "entropy_floor": "35"
+    }
+  ],
+  "inherited_value_transfers": {
+    "higher_q_strict_lower": [
+      {
+        "q": "1/256",
+        "scale": "2",
+        "strict_lower": "31835729060995339516891723604151937134/99999984082135469502330241554138197924031433"
+      },
+      {
+        "q": "1/64",
+        "scale": "4",
+        "strict_lower": "63671458121990679033783447208303874268/99999952246406408506990724662414593772094299"
+      },
+      {
+        "q": "1/16",
+        "scale": "8",
+        "strict_lower": "127342916243981358067566894416607748536/99999888574948286516311690878967385468220031"
+      },
+      {
+        "q": "1/4",
+        "scale": "16",
+        "strict_lower": "254685832487962716135133788833215497072/99999761232032042534953623312072968860471495"
+      },
+      {
+        "q": "1",
+        "scale": "32",
+        "strict_lower": "509371664975925432270267577666430994144/99999506546199554572237488178284135644974423"
+      },
+      {
+        "q": "2025/1024",
+        "scale": "45",
+        "strict_lower": "716303903872395139130063781093418585515/99999299613960658102530628382080708657383052"
+      }
+    ],
+    "lower_q_strict_upper": [
+      {
+        "q": "1/4096",
+        "scale": "1/2",
+        "strict_upper": "15917864530497670396445861802075968567/200000015917864530497670396445861802075968567"
+      },
+      {
+        "q": "1/16384",
+        "scale": "1/4",
+        "strict_upper": "15917864530497670396445861802075968567/400000047753593591493011189337585406227905701"
+      },
+      {
+        "q": "1/65536",
+        "scale": "1/8",
+        "strict_upper": "15917864530497670396445861802075968567/800000111425051713483692775121032614531779969"
+      },
+      {
+        "q": "1/262144",
+        "scale": "1/16",
+        "strict_upper": "15917864530497670396445861802075968567/1600000238767967957465055946687927031139528505"
+      },
+      {
+        "q": "1/1048576",
+        "scale": "1/32",
+        "strict_upper": "15917864530497670396445861802075968567/3200000493453800445427782289821715864355025577"
+      },
+      {
+        "q": "1/4194304",
+        "scale": "1/64",
+        "strict_upper": "15917864530497670396445861802075968567/6400001002825465421353234976089293530786019721"
+      }
+    ],
+    "inverse_budget_exclusions": [
+      {
+        "budget": "15917864530497669758445861802075968567/100000000000000000000000000000000000000000000",
+        "q_cap": "1/1024",
+        "meaning": "q>q0 and V(q)<=budget imply q<q_cap; q=q0 handled separately"
+      },
+      {
+        "budget": "15917864530497669758445861802075968567/50000000000000000000000000000000000000000000",
+        "q_cap": "10000003183573159477945162964972851900971910965443270568432115259423740361726691172033489/2560001629989587382454463611275951814016055567813909062074486025649910130408131760162292736",
+        "meaning": "q>q0 and V(q)<=budget imply q<q_cap; q=q0 handled separately"
+      },
+      {
+        "budget": "1/1000000",
+        "q_cap": "10000003183573159477945162964972851900971910965443270568432115259423740361726691172033489/259460011999592039889201189856884043959964199624083684035916254042486556221192345634292736",
+        "meaning": "q>q0 and V(q)<=budget imply q<q_cap; q=q0 handled separately"
+      }
+    ],
+    "lower_budget_inverse_strict_lower": [
+      {
+        "budget": "15917864530497670396445861802075968567/200000000000000000000000000000000000000000000",
+        "strict_q_lower": "10000003183573159477945290564993163096112825992462091488091564195315232361726691172033489/40960006519957571151338874730665496075577896337881181683805761736002797938408131760162292736"
+      },
+      {
+        "budget": "15917864530497670396445861802075968567/400000000000000000000000000000000000000000000",
+        "strict_q_lower": "1111111464841462164216143396110351455123647332495787943121284910590581373525187908003721/18204445893323875871464963234987832245099402375675686853756195748444755326489792417795810304"
+      },
+      {
+        "budget": "1/100000000",
+        "strict_q_lower": "10000003183573159477945290564993163096112825992462091488091564195315232361726691172033489/2594594982695363280548233792448439548021035465248802362010390402641286047217800590307362292736"
+      }
+    ]
+  },
+  "verification_boundary": {
+    "new_numeric_integration": false,
+    "fixed_q_certificate_recomputed": false,
+    "inherited_quadrature_tails_and_global_cover_reused": true,
+    "continuum_proof_in_companion_note": true,
+    "prior_art": "Gaussian OU dissipation and Stam Fisher inequality specialized to nested two-radius domains; no novelty claim"
+  },
+  "claim_boundary": {
+    "arbitrary_channel_optimizer": false,
+    "physical_claim": false,
+    "source_or_physics_ledger_change": false,
+    "canon_promotion": false
+  }
+}

@@ -9,6 +9,9 @@ updated_at: "2026-08-23"
 
 ## October 20 research evidence
 
+- [K1824 joint symbol algebra](k1824-k77-joint-observed-symbol-algebra.json).
+- [K1825 global-q Fisher transfer](k1825-global-q-fisher-transfer.json).
+
 - [K1822 rational spectrum](k1822-k77-rational-corrected-carrier.json).
 - [K1823 uniform-q constants and scope](k1823-uniform-q-collar.json).
 - [K1821 exact construction](k1821-k590-rank-strata.json).

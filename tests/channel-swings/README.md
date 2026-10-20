@@ -2,6 +2,9 @@
 
 ## October 20 research evidence
 
+- `k1824_k77_joint_observed_symbol_algebra.py --check` and `_probe.py`: Sage QQ joint-algebra certificate and independent small-algebra controls.
+- `k1825_global_q_fisher_transfer.py` and `_probe.py`: rational transfer/budget controls and analytic all-q proof, no quadrature.
+
 - `k1822_k77_rational_corrected_carrier.py --check` and `_probe.py`: Sage QQ full-fixture reconstruction and independent small-matrix controls.
 - `k1823_uniform_q_collar.py` and `_probe.py`: standard-library rational bounds and analytic-counterexample controls; no quadrature.
 - `k1821_k590_rank_strata.py` and `_probe.py`: standard-library finite construction, rank and mutation checks.

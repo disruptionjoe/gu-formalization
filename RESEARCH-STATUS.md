@@ -8,6 +8,35 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-20: full observed algebra and global scalar value
+
+[K1824](explorations/conditional-build/k1824-k77-joint-observed-symbol-algebra-2026-10-20.md) enlarges the single-direction algebra to all three corrected
+observed spatial symbols. Exact rational support decomposition and word
+closure give M8(C), represented on 32 equivalent real 16-dimensional modules. Every
+base-map amplification has real rank divisible by 64; an exact rank 64
+idempotent makes the bound sharp. The fixed-split subalgebra is M4(C) plus
+M4(C) and retains that minimum. A coefficientwise spatial quartic proves the
+directional statement without sampling. These are conditional principal
+symbol results, with no selected interaction, physical state or Euclidean
+ellipticity claim. Source SC-ACT-01/02/06 remain ASSERTS, SC-META-53 UNCERTAIN;
+RA-F1, AC-F1 and LT-SM8 remain NEEDS.
+
+[K1825](explorations/k1825-global-q-fisher-transfer-2026-10-20.md) proves an attained boundary-inclusive minimum for every
+0<q<2 in the symmetric unit-variance two-radius Gaussian-channel family.
+Weak lower semicontinuity handles the disappearing-atom face; entropy
+excludes zero noise. The value V is locally Lipschitz and
+V/(1+V)/sqrt(q) is strictly increasing. Limits 0 and infinity at the two
+endpoints imply exactly one parameter for every positive Fisher budget.
+This does not imply a unique minimizing shape, all-q open-chart attainment,
+or an explicit uniqueness radius. K1820 supplies exact global value
+transfers; for example a budget 10^-6 requires q<0.0385416. No new quadrature,
+arbitrary-channel result, physical interpretation or canon promotion occurs.
+
+The exact arithmetic, analytic proofs and reporting controls have distinct
+roles. Existing rational source reconstruction and fixed-q numerical
+quadrature/tails/covers are reused. These results remain active research;
+source and physics-ledger statuses are unchanged.
+
 ## 2026-10-20: rational carrier and parameter-family continuation
 
 [K1822](explorations/conditional-build/k1822-k77-rational-corrected-carrier-2026-10-20.md) proves the frozen corrected-carrier identities over rational
