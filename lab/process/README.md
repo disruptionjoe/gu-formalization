@@ -9,6 +9,9 @@ updated_at: "2026-08-23"
 
 ## October 20 research evidence
 
+- `k1844-screening-positive-response.json`: positive action/readout scope and exact controls.
+- `k1845-fisher-certified-moment-bounds.json`: exact rational coefficients, isolating interval and dual/primal certificates.
+
 - `k1842-screening-causal-response.json`: conditional continuum screening scope and exact algebra controls.
 - `k1843-unrestricted-fisher-variational-gap.json`: unrestricted variational theorem scope and exact algebra controls.
 

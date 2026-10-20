@@ -8,6 +8,36 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-20: positive response and certified unrestricted Fisher bounds
+
+[K1844](explorations/conditional-build/k1844-screening-positive-response-2026-10-20.md)
+derives causal response from a positive quadratic scalar action. Its nonzero
+contact-free source-conjugate response has positive or infinite static
+susceptibility. A different local readout of two positive-energy fields cancels
+statically, and a direct source contact term permits cancellation even for a
+source-conjugate observable. Both repairs are causal; their conservative step
+responses keep oscillating. Signed cross-residues are not evidence of ghosts.
+This supplies conditional response requirements, not a source-owned GU model.
+SC-COS-50/51/54 and SC-ACT-01/02 remain ASSERTS; SC-META-53 UNCERTAIN.
+
+[K1845](explorations/k1845-fisher-certified-moment-bounds-2026-10-20.md)
+certifies **1.751458 < F(2) < 1.752673** for the unrestricted even-density
+Fisher problem with variance1/fourth moment2. A rational whole-line score
+minorant and exactly feasible polynomial-Gaussian density are checked with
+independent rational Sturm and interval arithmetic. The certificate also
+bounds the optimal weighted score error by0.035 and supplies an affine dual
+bound for other fourth moments. It does not quantify the gap from two-radius
+mixtures, determine unrestricted endpoint asymptotics or establish GU physics.
+
+K1844 passes22 symbolic groups and127 independent rational checks, including
+3 mathematical and5 reporting fault controls. K1845 passes17 exact groups and31
+independent rational controls, including5 mathematical and3 reporting faults.
+Written domain/support/variational proofs remain distinct from finite checks.
+Inline hostile review only; no independent-agent or external acceptance.
+Source register, physics ledger, canon and restricted results are unchanged.
+The earlier named-k certificate request below is now answered at k=2; its
+quantitative restricted-gap and unrestricted endpoint questions remain open.
+
 ## 2026-10-20: causal screening and unrestricted Fisher optimizer
 
 [K1842](explorations/conditional-build/k1842-screening-causal-response-2026-10-20.md)

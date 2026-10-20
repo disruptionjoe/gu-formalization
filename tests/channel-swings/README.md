@@ -2,6 +2,9 @@
 
 ## October 20 research evidence
 
+- `k1844_screening_positive_response.py` and `_probe.py`: exact action/response identities and independent rational matrix controls.
+- `k1845_fisher_certified_moment_bounds.py` and `_probe.py`: whole-line Sturm lower bound and exact Gaussian-moment upper bound, independently replayed.
+
 - `k1842_screening_causal_response.py` and `_probe.py`: screening/ODE/filter identities and separate rational controls.
 - `k1843_unrestricted_fisher_variational_gap.py` and `_probe.py`: Fisher variation/moment identities and separate rational controls.
 

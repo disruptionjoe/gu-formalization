@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f29cf6a8d0c8097f10b24b872014bebf457f91f9
+revision_basis: 9d4c2ecf14997c43c9068813652bf25597b38a38
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,18 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1844 derives conditional positive scalar action responses: nonzero
+    contact-free source-conjugate susceptibility cannot vanish statically.
+    Healthy cross-readouts and direct source contacts provide exact causal
+    cancellations, with persistent conservative oscillations. No GU action,
+    physical readout or positive quotient is supplied. K1845 certifies the
+    unrestricted even-density Fisher value at variance1/fourth moment2:
+    1.751458 < F(2) < 1.752673, with exact rational whole-line and feasible
+    Gaussian-polynomial certificates. Optimal weighted score error is below
+    0.035. The restricted-family quantitative gap and unrestricted endpoint
+    remain open; source/physics ledger/canon unchanged.
+
+    Retained predecessor results:
     K1842 gives a continuum distant-response counterexample to the
     conditional instantaneous spatial-mean screening implementation with
     unconstrained scalar sources and a value readout. Mean-zero sources and
@@ -15958,6 +15970,14 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can a source-owned response packet specify the actual intervention,
+  physical readout, contact terms and common domain needed to apply K1844?
+  Compare that construction with a certified restricted optimum at k=2 for a
+  quantitative enlargement gap, or a new unrestricted endpoint/stability
+  theorem. K1845 has answered the named-k unrestricted value question; more
+  decimals alone do not supply those distinct results.
+
+  Previous question, now partially answered by K1844/K1845:
   Can the conditional screening response criterion be evaluated on an
   actual action-derived admissible source, gauge-invariant readout and common
   causal domain? Compare that concrete input construction with a certified
@@ -19001,6 +19021,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  For screening, identify the same-action source/readout/contact/domain
+  data and test conjugacy before using positive spectral constraints; signed
+  cross-residues alone imply no ghost. For scalar work, K1845 gives F(2) and
+  its affine dual/weighted score certificate. A quantitative two-radius gap
+  requires a certified restricted value at the same k; density distance needs
+  a separate stability inequality, and endpoint asymptotics need a uniform
+  variational argument. Do not repeat the completed named-k enclosure.
+
+  Earlier continuation retained with these supersessions:
   For screening, derive the actual source restriction and observed
   response before testing whether the projected homogeneous term is visible
   outside the readout past; scalar freedom is not a GU constraint theorem.

@@ -9,6 +9,9 @@ updated_at: "2026-08-21"
 
 ## October 20 research evidence
 
+- [K1844 positive response](conditional-build/k1844-screening-positive-response-2026-10-20.md): action-derived conditional obstruction, healthy cross-readout and contact repairs.
+- [K1845 certified Fisher bounds](k1845-fisher-certified-moment-bounds-2026-10-20.md): unrestricted F(2) rational bracket, exact feasible density and score bound.
+
 - [K1842 causal screening](conditional-build/k1842-screening-causal-response-2026-10-20.md): typed continuum response test, source/readout repairs and causal memory.
 - [K1843 unrestricted Fisher](k1843-unrestricted-fisher-variational-gap-2026-10-20.md): unique quartic minimizer, compact descent, strict two-radius gap and budget ordering.
 

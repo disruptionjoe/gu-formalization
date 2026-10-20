@@ -1,0 +1,75 @@
+{
+  "artifact": "K1845_FISHER_CERTIFICATE",
+  "scope": "unrestricted_even_density_variance1_fourth2",
+  "certificate": {
+    "score": [
+      "-26379/25000",
+      "12003/10000",
+      "137193/500000",
+      "266879/500000",
+      "43447/2000000"
+    ],
+    "minorant": [
+      "-84469/40000",
+      "9487187/1000000",
+      "-1406001/500000"
+    ],
+    "primal": [
+      "1",
+      "t",
+      "713/20000",
+      "63623/20000000",
+      "58657/1000000000",
+      "75509/10000000000"
+    ],
+    "root_interval": [
+      "522063/1765921",
+      "313828/1061549"
+    ]
+  },
+  "lower": "875729/500000",
+  "upper": "1752673/1000000",
+  "physical_claim": false,
+  "restricted_gap_quantified": false,
+  "novelty_claim": false,
+  "mathematical_checks": {
+    "rational score identity": true,
+    "positive denominator coefficients": true,
+    "positive residual at zero": true,
+    "no positive residual root": true,
+    "exact lower value": true,
+    "positive root interval": true,
+    "root existence": true,
+    "unique root in bracket": true,
+    "trial polynomial positive": true,
+    "normalization and variance positive": true,
+    "certified upper": true,
+    "nonempty interval": true,
+    "width": true,
+    "confining dual": true,
+    "completed square identity": true,
+    "trial quartic tail absent": true,
+    "trial quadratic tail": true
+  },
+  "residual_polynomial_low_to_high": [
+    "281/200000",
+    "-902460897/50000000000",
+    "733987487174629/10000000000000000",
+    "-49665576022693809/500000000000000000",
+    "230091322477253189/4000000000000000000",
+    "-2328629824747307/160000000000000000",
+    "2654026271095809/2000000000000000000"
+  ],
+  "moment_polynomial_low_to_high": [
+    "581364857435644147756088945812573284169/16000000000000000000000000000000000000",
+    "-55687429065533067728596424481/2000000000000000000000000000",
+    "-86649614007814013097/400000000000000000",
+    "-31504379397/100000000",
+    "-135"
+  ],
+  "trial_value_interval": [
+    "4423819994174892685673697380806422984367985773754606598991569875948068596594985998586329/2524042508948646423211743841087493140256466095006518470994693342195502566057031000598649",
+    "4423819994190908780277746849507286936017224743029614208348344289307438029199177998586329/2524042508944292148730117085792471461351525535755896974984462070639919247129615000598649"
+  ],
+  "strict_bounds": true
+}

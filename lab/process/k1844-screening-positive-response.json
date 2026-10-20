@@ -1,0 +1,48 @@
+{
+  "artifact": "K1844_POSITIVE_RESPONSE",
+  "scope": "conditional_positive_quadratic_scalar_action",
+  "mathematical_checks": {
+    "Euler kinetic Hessian": true,
+    "Euler mass Hessian": true,
+    "Euler source derivative": true,
+    "positive kinetic and mass minors": true,
+    "cross-response symmetry": true,
+    "positive matrix determinant": true,
+    "conjugate DC": true,
+    "two-field cancellation": true,
+    "DC zero": true,
+    "nontrivial response": true,
+    "general cancellation": true,
+    "equal mass triviality": true,
+    "readout drift": true,
+    "step equation one": true,
+    "step equation two": true,
+    "zero initial data": true,
+    "readout oscillation": true,
+    "nonconvergence subsequences": true,
+    "source contact derivative": true,
+    "contact transfer": true,
+    "forcing versus field": true,
+    "derivative contact decomposition": true
+  },
+  "conjugate_contact_free_DC_positive": true,
+  "cross_readout_fixture": {
+    "masses_squared": [
+      1,
+      4
+    ],
+    "source": [
+      1,
+      1
+    ],
+    "readout": [
+      1,
+      -4
+    ]
+  },
+  "static_is_late_limit": false,
+  "signed_cross_residue_is_ghost": false,
+  "source_owned": false,
+  "all_screening_excluded": false,
+  "ledger_changes": false
+}

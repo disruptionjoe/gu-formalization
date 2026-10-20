@@ -7,6 +7,18 @@ updated_at: "2026-10-20"
 
 # Next Steps For Contributors
 
+> **2026-10-20 POSITIVE RESPONSE AND CERTIFIED FISHER.** K1844 identifies
+> the precise positive conjugate contact-free screening obstruction, with
+> healthy cross-readout and direct-contact repairs. Next derive the actual
+> source/readout/contact/domain packet before applying it to GU. K1845 now
+> certifies unrestricted F(2) in (1.751458,1.752673), plus a weighted score
+> error bound. If a quantitative enlargement gain is needed, certify the
+> restricted optimum at the same k; more unrestricted decimal precision alone
+> does not provide that gap. Unrestricted endpoint/stability work remains open.
+> Earlier named-k certificate requests below are satisfied at k=2. Source,
+> physics ledger and canon unchanged; no physical or novelty claim.
+
+
 > **2026-10-20 CAUSAL SCREENING AND UNRESTRICTED FISHER.** K1842 supplies
 > the exact admissible-source/readout test for conditional mean screening and
 > a causal-memory replacement with explicit costs. Next identify an actual
