@@ -7,6 +7,16 @@ updated_at: "2026-10-20"
 
 # Next Steps For Contributors
 
+> **2026-10-20 CONSTANT, QUARTIC AND PROFILE SUCCESSORS CLOSED.**
+> K1858 closes the unrestricted two-well local profiles and constant term;
+> K1859 closes actual-optimizer Gaussian tails, polynomial first response,
+> quartic value and second score-defect profile. Budget consumers are executed.
+> K1860 supplies a conditional I1B scale compatibility test, with the actual
+> global domain and observed-volume coupling still open. Next test that adapter
+> or a quantitative endpoint remainder at a named precision. Older requests
+> below retain historical scope; no source/physics/canon verdict changed.
+
+
 > **2026-10-20 TAIL PHASE AND FIRST GAUSSIAN RESPONSE CLOSED.**
 > K1856 completes k>3 nonattainment and quantifies the higher-moment cap needed
 > to prevent vanishing-cost tail escape. K1857 proves the universal first-order

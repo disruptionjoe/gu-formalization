@@ -9,6 +9,10 @@ updated_at: "2026-08-23"
 
 ## October 20 research evidence
 
+- `k1858-fisher-two-well-profile.json`: profile, constant, barrier, budget and tail scope.
+- `k1859-fisher-optimizer-tail-response.json`: optimizer envelope, Hermite trial and quartic/projection constants.
+- `k1860-i1b-vacuum-zero-mode.json`: conditional scale compatibility and exact countercontrol inputs.
+
 - `k1856-fisher-tail-phase.json`: tail mixture identities, phase scope and moment-cap constants.
 - `k1857-fisher-gaussian-profile.json`: Gaussian profile/distance constants and exact contamination inputs.
 

@@ -1,0 +1,96 @@
+{
+  "id": "K1859",
+  "status": "active_research",
+  "constants": {
+    "q_window": "1/100",
+    "tail_exponent": "1/4",
+    "tail_prefactor_log": "9/4",
+    "quartic": "11/108",
+    "residual_quartic": "-197/288",
+    "square_quartic": "679/864",
+    "projection_x": "-1/4",
+    "projection_h3": "-25/12",
+    "inverse_b32": "317/48"
+  },
+  "u_hermite": {
+    "4": "-1/48"
+  },
+  "v_hermite": {
+    "0": "-1/192",
+    "2": "-1/48",
+    "4": "-1/64",
+    "6": "1/216",
+    "8": "1/4608"
+  },
+  "jets": {
+    "N": [
+      "1",
+      "0",
+      "0",
+      "1/64",
+      "7991/331776"
+    ],
+    "B": [
+      "1",
+      "0",
+      "0",
+      "13/576",
+      "93863/331776"
+    ],
+    "C": [
+      "3",
+      "-1",
+      "0",
+      "-173/144",
+      "604679/110592"
+    ],
+    "D": [
+      "0",
+      "0",
+      "1/24",
+      "1/16",
+      "919/6912"
+    ],
+    "q": [
+      "0",
+      "1",
+      "0",
+      "743/576",
+      "-8921/2304"
+    ],
+    "J": [
+      "0",
+      "0",
+      "1/6",
+      "1/4",
+      "919/1728"
+    ]
+  },
+  "scope": {
+    "exact_optimizer_only_for_tail_and_moment_response": true,
+    "quartic_value_asymptotic": true,
+    "finite_q_quartic_error_bound": false,
+    "second_density_profile": false,
+    "gu_physics": false,
+    "novelty": false,
+    "formal_proof": false,
+    "second_score_defect": true
+  },
+  "dependencies": {
+    "explorations/k1843-unrestricted-fisher-variational-gap-2026-10-20.md": "4dd0b02b04005af66c6b33b384d7e86ac0f3a028a0f3fa312ba6b503aa4fb307",
+    "explorations/k1855-fisher-gaussian-endpoint-2026-10-20.md": "f6bd0f81bd2a6f75871355c5d3105cc571374e3504f31f73f3d06d38ff8c853d",
+    "explorations/k1857-fisher-gaussian-profile-2026-10-20.md": "a36df6a98f2831e0133e3fa5936416ce09b5fc97882d3ba6b182564f4e7c41be",
+    "explorations/k1851-fisher-parity-stability-2026-10-20.md": "a4bbb7cf3817f34c50f5bac3128a17400bac88914a1bb3603fa0c55d7df1fc82"
+  },
+  "validation": {
+    "producer": "passed",
+    "exact_identity_jet_groups": 27,
+    "independent_fraction_groups": 20,
+    "mathematical_input_reference_faults_detected": 12,
+    "reporting_faults_detected": 4,
+    "baseline_before_mutation": true,
+    "analytic_review": "independent agent and integrating proof review; no blocking finding",
+    "formal_verification": false,
+    "external_peer_review": false
+  }
+}

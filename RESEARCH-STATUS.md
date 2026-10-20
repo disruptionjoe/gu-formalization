@@ -8,6 +8,51 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-20: unrestricted Fisher refinements and conditional scale compatibility
+
+[K1858](explorations/k1858-fisher-two-well-profile-2026-10-20.md) proves universal
+sign-resolved Gaussian local profiles, W2 and cutoff square-root H1 convergence.
+The actual optimizer's exponentially small central density closes
+F(1+delta)=4/delta-1+o(1), its score defect and high-budget second term.
+The restricted absolute gap is positive but tends to0. An exactly feasible
+leading-optimal family with divergent local fourth/original sixth moment
+prevents an unsupported high-moment transfer.
+
+[K1859](explorations/k1859-fisher-optimizer-tail-response-2026-10-20.md) proves
+an explicit uniform Gaussian envelope for exact minimizers near k=3, their
+polynomial first response, and F(3-q)-1=q²/6+q³/4+11q4/108+o(q4).
+The nonzero score-square projection is essential at fourth order. Saturation
+also fixes the second rational score-defect profile; exact feasible Hermite
+trials and the next low-budget coefficient complete the consumers. No second
+density profile, generic near-optimizer tail bound or effective quartic error
+is asserted.
+
+[K1860](explorations/conditional-build/k1860-i1b-vacuum-zero-mode-2026-10-20.md)
+uses the native I1B stationary Hessian structure to formulate a conditional
+global test: a legal stationary scale tangent and zero boundary pairing
+obstruct a C1 stationary response to an added observed-volume coefficient.
+The global family/domain/coupling remain unconstructed. An exact boundary
+flux requirement, fixed-volume escape and nonsmooth algebraic branch prevent
+a GU-wide or all-response exclusion.
+
+Validation: K1858 has13 exact control groups and90 independent rational
+controls,10 input and5 reporting fault detections. K1859 has27 exact identity/
+jet groups and20 independent polynomial/series groups,12 input and4 reporting
+fault detections. K1860 has50 exact controls and254 independent rational
+fixtures,9 input and4 reporting fault detections. Clean baselines precede
+mutations; only failed assertions count. Separate analytic review checked
+the written continuum proofs; arithmetic counts do not certify compactness,
+ODE comparison or global field-theory hypotheses. No formal proof, external
+peer acceptance or novelty is claimed.
+
+SC-ACT-01/02 and SC-COS-50/51/54 remain ASSERTS; SC-META-53 UNCERTAIN.
+Physics ledger/canon verdicts unchanged. Earlier constant/quartic and profile
+requests below are historical and answered at these scopes. Next compare an
+actual same-action global observation/domain adapter with a quantitative
+endpoint remainder tied to a concrete consumer; do not import the restricted
+fractional power or confuse a score-defect limit with a second density response.
+
+
 ## 2026-10-20: Fisher tail phase and universal Gaussian tangent
 
 [K1856](explorations/k1856-fisher-tail-phase-2026-10-20.md) proves F(k)=1

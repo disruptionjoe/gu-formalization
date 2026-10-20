@@ -9,6 +9,10 @@ updated_at: "2026-08-21"
 
 ## October 20 research evidence
 
+- [K1858 two-well profiles](k1858-fisher-two-well-profile-2026-10-20.md): unrestricted Gaussian blowup, sharp constant, budget and tail counterexample.
+- [K1859 optimizer tail response](k1859-fisher-optimizer-tail-response-2026-10-20.md): exact-optimizer Gaussian envelope, polynomial response, sharp quartic value and score profile.
+- [K1860 scale compatibility](conditional-build/k1860-i1b-vacuum-zero-mode-2026-10-20.md): conditional I1B vacuum-response requirement and boundary/nonsmooth countercontrols.
+
 - [K1856 Fisher tail phase](k1856-fisher-tail-phase-2026-10-20.md): complete moment phase, nonattainment, escaping tails and moment-cap gap.
 - [K1857 Gaussian tangent](k1857-fisher-gaussian-profile-2026-10-20.md): strong first-order profile, sharp response and higher-moment counterexample.
 

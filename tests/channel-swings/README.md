@@ -2,6 +2,10 @@
 
 ## October 20 research evidence
 
+- `k1858_fisher_two_well_profile.py` and `_probe.py`: exact scaling, barrier constants, budget and contamination controls.
+- `k1859_fisher_optimizer_tail_response.py` and `_probe.py`: Hermite jets, rational residual, projection and inverse budget.
+- `k1860_i1b_vacuum_zero_mode.py` and `_probe.py`: scale/block identities, boundary sign and nonsmooth response controls.
+
 - `k1856_fisher_tail_phase.py` and `_probe.py`: exact tail construction and independent rational controls/input faults.
 - `k1857_fisher_gaussian_profile.py` and `_probe.py`: dual/Hermite identities, profile constants, exact contamination and input faults.
 

@@ -1,0 +1,58 @@
+{
+  "id": "K1858",
+  "status": "PROVED-IN-DECLARED-SCOPE",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "artifact": "explorations/k1858-fisher-two-well-profile-2026-10-20.md",
+  "domain": "real densities; integral p=1; raw second1; fourth1+delta; sqrt p in H1",
+  "results": {
+    "profile": "delta I ->4 implies sign-resolved Gaussian local TV, marginal W2 and cutoff square-root H1",
+    "fisher_constant": -1,
+    "relative_fisher_constant": -2,
+    "budget_second_coefficient": -8,
+    "optimizer_barrier": "p(0)=O(delta^-1/2 exp(-1/(2delta))) for sufficiently small delta; onset unspecified",
+    "restricted_absolute_gap": "strictly positive at each delta and o(1) at endpoint",
+    "counterexample": "exact moments and leading optimality with local fourth and original sixth divergent"
+  },
+  "scope_flags": {
+    "all_density_profile": true,
+    "constant_requires_exact_optimizer": true,
+    "balanced_signs_without_extra_assumption": false,
+    "unconditional_zero_extension_H1": false,
+    "uniform_high_moment_transfer": false,
+    "effective_onset": false,
+    "next_coefficient": false,
+    "gu_physics": false,
+    "formal_proof": false,
+    "novelty": false
+  },
+  "dependencies": [
+    {
+      "path": "explorations/k1843-unrestricted-fisher-variational-gap-2026-10-20.md",
+      "sha256": "4dd0b02b04005af66c6b33b384d7e86ac0f3a028a0f3fa312ba6b503aa4fb307"
+    },
+    {
+      "path": "explorations/k1854-fisher-concentration-endpoint-2026-10-20.md",
+      "sha256": "49719d330e439bcf139e063c30bba0016d7a7974830de055b3ed113ac8db5278"
+    },
+    {
+      "path": "explorations/k1833-fisher-merging-radius-subleading-2026-10-20.md",
+      "sha256": "f4b9a20ac9b3c77ebbffe5d9113be5184236e192d5607d5e77205b070fac8f8e"
+    },
+    {
+      "path": "explorations/k1841-fisher-global-scaling-2026-10-20.md",
+      "sha256": "b99b2bd4c3b502369bb87f05171f71d1fe82d6606967b67d5a0a6b7a41a14cad"
+    }
+  ],
+  "validation": {
+    "producer": "tests/channel-swings/k1858_fisher_two_well_profile.py",
+    "independent_probe": "tests/channel-swings/k1858_fisher_two_well_profile_probe.py",
+    "continuum_proof": "artifact sections2-7; algebra controls do not certify compactness or ODE limits",
+    "status": "passed",
+    "exact_groups": 13,
+    "independent_rational_controls": 90,
+    "mathematical_input_faults_detected": 10,
+    "reporting_faults_detected": 5,
+    "review": "Two independent analytic reviews found no blocking defect; printed assertion details were added and the serialized probe rerun passed. No external acceptance or formal proof claimed."
+  }
+}

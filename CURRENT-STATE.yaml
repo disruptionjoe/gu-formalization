@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 1b80b790018f0a18f9cf7a26dd9bb112cd63b1d2
+revision_basis: 0a0e17442cf2e4c62985d76eaca1e02018554eb3
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,19 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1858 proves the unrestricted two-well Gaussian blowup, sign/profile independence,
+    W2 and cutoff square-root H1 convergence for all leading-optimal densities.
+    An exact-optimizer central barrier closes F(1+delta)=4/delta-1+o(1), the
+    high-budget correction and vanishing restricted absolute gap. K1859 derives
+    a uniform Gaussian envelope for exact optimizers, polynomial first response,
+    and F(3-q)-1=q²/6+q³/4+11q4/108+o(q4), with saturated second score-defect
+    profile and the next low-budget term. Generic high-moment transfer remains false.
+    K1860 supplies a conditional stationary-scale compatibility test for a proposed
+    I1B volume-source response: admissible scale zero mode plus zero boundary pairing
+    exclude C1 response, while fixed-volume, boundary and nonsmooth alternatives
+    remain distinct. No global GU adapter, source/physics verdict or novelty follows.
+
+    Historical predecessor results at their original scope:
     K1856 completes the unrestricted Fisher moment phase diagram: for k>3,
     F(k)=1 is unattained, with an exactly feasible escaping Gaussian-tail sequence.
     Every minimizing sequence tends to the Gaussian in TV and Gaussian square-root
@@ -15307,6 +15320,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/k1858-fisher-two-well-profile-2026-10-20.md
+    - lab/process/k1858-fisher-two-well-profile.json
+    - explorations/k1859-fisher-optimizer-tail-response-2026-10-20.md
+    - lab/process/k1859-fisher-optimizer-tail-response.json
+    - explorations/conditional-build/k1860-i1b-vacuum-zero-mode-2026-10-20.md
+    - lab/process/k1860-i1b-vacuum-zero-mode.json
     - explorations/k1856-fisher-tail-phase-2026-10-20.md
     - lab/process/k1856-fisher-tail-phase.json
     - explorations/k1857-fisher-gaussian-profile-2026-10-20.md
@@ -16054,6 +16073,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which actual observation/domain construction can test the I1B stationary-scale
+  compatibility condition, and which uniform endpoint remainder has a useful consumer?
+  K1858 closes unrestricted k1 constant and local profiles; K1859 closes Gaussian
+  quartic value and exact-optimizer polynomial first response. Neither supplies
+  a global GU realization, effective next-order error or a second density profile.
+
+  Historical predecessor question/condition; completed scopes updated above:
   Which source-owned metric/observation variation or uniform two-well endpoint
   estimate has the best next payoff? K1856 closes the above-Gaussian value and
   nonattainment phase; K1857 closes the first Gaussian density response and its
@@ -19153,6 +19179,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Construct an actual same-action observed-volume/domain adapter and evaluate its
+  stationary scale tangent and boundary pairing; K1860 states the exact test and
+  its unproved global hypotheses. Compare that with a quantitative two-well
+  optimizer remainder or an effective Gaussian quartic error at a named precision.
+  Do not repeat completed constant/quartic/profile/score/budget results or transfer
+  higher moments from generic near-optimal densities. A restricted-k2 quantitative
+  gap still needs its full restricted parameter-domain lower certificate.
+
+  Historical predecessor question/condition; completed scopes updated above:
   Compare actual torsion/Shiab metric-response and observation data with uniform
   k1 localization or an optimizer-specific second Gaussian response. Do not
   repeat the complete k>3 phase or first-order Gaussian profile. For a quartic
