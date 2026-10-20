@@ -7,6 +7,38 @@ updated_at: "2026-10-20"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-20: causal screening and unrestricted Fisher optimizer
+
+[K1842](explorations/conditional-build/k1842-screening-causal-response-2026-10-20.md)
+tests the conditional instantaneous spatial-mean screening implementation on a
+flat scalar wave cylinder. An admissible localized source produces a nonzero
+spacelike value response, despite exact constant screening and the derived
+mean-zero constraint. The exact response criterion identifies genuine repairs:
+mean-zero source restrictions or readouts that annihilate homogeneous fields.
+A local damped auxiliary field gives causal late-forcing screening, loses exact
+idempotence and retains response memory. These are explicit conditional models;
+no GU source action, physical readout or constrained source space is supplied.
+SC-COS-50/51/54 and SC-ACT-01/02 remain ASSERTS; ledger/canon unchanged.
+
+[K1843](explorations/k1843-unrestricted-fisher-variational-gap-2026-10-20.md)
+proves existence and uniqueness of the even all-density Fisher minimizer at
+variance1 and fourth moment k in (1,3). Its square root is a positive confining
+quartic-oscillator ground state. Every feasible finite common-variance Gaussian
+mixture has an exactly moment-preserving compact descent direction. K1825's
+all-q attainment then proves a strict gap from the restricted two-radius
+minimum for every q in (0,2). The unrestricted value is continuous, strictly
+convex and strictly decreasing from infinity to1; every positive relative
+Fisher budget permits strictly larger q than the two-radius optimum.
+K1820/K1841 retain their restricted results. No numerical gap, unrestricted
+endpoint expansion, physical inference or novelty claim follows.
+
+K1842 passes18 exact groups and99 independent rational controls; K1843 passes21
+exact groups and114 independent rational controls. Eleven reporting mutations
+are counted separately. Inline hostile proof review checks support/admissibility,
+repair memory, fourth-moment compactness, multiplier sign and strict gap of
+attained minima. No separate-agent, proof-assistant or external review.
+
+
 ## 2026-10-20: conservative variable mass and global Fisher optimizer
 
 [K1840](explorations/conditional-build/k1840-k77-conservative-variable-observation-2026-10-20.md)

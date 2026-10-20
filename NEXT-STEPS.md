@@ -7,6 +7,18 @@ updated_at: "2026-10-20"
 
 # Next Steps For Contributors
 
+> **2026-10-20 CAUSAL SCREENING AND UNRESTRICTED FISHER.** K1842 supplies
+> the exact admissible-source/readout test for conditional mean screening and
+> a causal-memory replacement with explicit costs. Next identify an actual
+> action-derived source/readout/domain packet before transferring its scalar
+> counterexample to GU. K1843 proves the unrestricted moment-constrained
+> optimizer is a unique quartic ground-state density and strictly beats every
+> attained two-radius optimum. Next certify a named-k dual/primal spectral gap
+> or analyze the unrestricted endpoint, rather than treating restricted
+> onset constants as an unrestricted optimum. K1820/K1841 and K1840 remain
+> valid in their stated classes. No source, ledger or canon verdict changes.
+
+
 > **2026-10-20 GLOBAL ENDPOINT AND VARIABLE-MASS REPAIR.** K1841 proves
 > eventual global optimizer uniqueness and sharp endpoint scales/value in the
 > two-radius family. Effective onset/error constants and behavior away from

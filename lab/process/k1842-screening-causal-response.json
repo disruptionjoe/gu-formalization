@@ -1,0 +1,31 @@
+{
+  "artifact": "K1842",
+  "scope": "conditional_scalar_response_only",
+  "mathematical_checks": {
+    "projector": true,
+    "constant_annihilation": true,
+    "mean_constraint": true,
+    "difference_readout": true,
+    "zero_mean_intervention": true,
+    "remote_algebraic_response": true,
+    "retarded_zero_mode_ode": true,
+    "zero_data": true,
+    "pulse_response": true,
+    "critical_damping": true,
+    "auxiliary_zero_data": true,
+    "late_forcing": true,
+    "velocity_memory": true,
+    "not_projection": true,
+    "dc_zero": true,
+    "high_frequency_pass": true,
+    "static_spatial_response": true,
+    "exact_projection_roots": true
+  },
+  "analytic_proof": "explorations/conditional-build/k1842-screening-causal-response-2026-10-20.md",
+  "continuum_support_proved_by": "finite propagation plus positive zero-mode integral, not finite matrix",
+  "source_owned": false,
+  "all_nonlocal_theories_excluded": false,
+  "causal_repair_exact_projector": false,
+  "causal_repair_erases_history": false,
+  "ledger_changes": false
+}

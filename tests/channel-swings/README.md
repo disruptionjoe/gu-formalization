@@ -2,6 +2,9 @@
 
 ## October 20 research evidence
 
+- `k1842_screening_causal_response.py` and `_probe.py`: screening/ODE/filter identities and separate rational controls.
+- `k1843_unrestricted_fisher_variational_gap.py` and `_probe.py`: Fisher variation/moment identities and separate rational controls.
+
 - `k1840_k77_conservative_variable_observation.py` and `_probe.py`: exact conservative kernels, profile/observation-square identities and independent controls.
 - `k1841_fisher_global_scaling.py` and `_probe.py`: exact score-Gram, cumulant and coercivity identities, with independent rational moment checks.
 

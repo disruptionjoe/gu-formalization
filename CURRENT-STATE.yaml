@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: fa77b3def1e38f04ed42869e7f7c7423adc789df
+revision_basis: f29cf6a8d0c8097f10b24b872014bebf457f91f9
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1842 gives a continuum distant-response counterexample to the
+    conditional instantaneous spatial-mean screening implementation with
+    unconstrained scalar sources and a value readout. Mean-zero sources and
+    homogeneous-blind readouts repair it; a causal local memory filter screens
+    late constant forcing but is not a projector and retains response history.
+    No source-owned GU causal response or physical contradiction is established.
+    K1843 proves the even unrestricted moment-constrained Fisher minimizer
+    exists uniquely as a positive quartic ground-state density for every
+    fourth moment k in (1,3), variance1. Compact exact moment-preserving descent
+    strictly improves any non-Gaussian finite common-variance mixture. With
+    K1825 attainment this strictly improves the two-radius value at every q,
+    and the inverse Fisher-budget frontier. The unrestricted value is strictly
+    convex, decreasing and continuous. No effective gap or unrestricted
+    endpoint expansion is certified. Source, ledger and canon unchanged.
+
+    Previous results remain valid within their declared restricted classes:
     K1840 proves the full conservative first-order observation space has
     dimension44 on each real16 module and constructs arbitrary static two-component mass profiles
     along one coordinate with fixed positive energies and leading observation.
@@ -15219,6 +15235,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1842-screening-causal-response-2026-10-20.md
+    - lab/process/k1842-screening-causal-response.json
+    - explorations/k1843-unrestricted-fisher-variational-gap-2026-10-20.md
+    - lab/process/k1843-unrestricted-fisher-variational-gap.json
     - explorations/conditional-build/k1840-k77-conservative-variable-observation-2026-10-20.md
     - lab/process/k1840-k77-conservative-variable-observation.json
     - explorations/k1841-fisher-global-scaling-2026-10-20.md
@@ -15938,6 +15958,14 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can the conditional screening response criterion be evaluated on an
+  actual action-derived admissible source, gauge-invariant readout and common
+  causal domain? Compare that concrete input construction with a certified
+  quartic ground-state dual/primal enclosure for the unrestricted Fisher
+  problem. K1843 changes the optimization class: more two-radius endpoint
+  precision cannot establish unrestricted optimality.
+
+  Earlier question retained with its scope limits:
   Can a multidimensional conservative observation repair or an actual
   source-owned coefficient/pairing packet extend K1840's arbitrary-profile
   construction without hiding the observation zero-mode loss? Compare that
@@ -18973,6 +19001,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  For screening, derive the actual source restriction and observed
+  response before testing whether the projected homogeneous term is visible
+  outside the readout past; scalar freedom is not a GU constraint theorem.
+  For independent Fisher work, construct a rigorous ground-state enclosure
+  with moment constraints and matching dual/primal bounds at a named k,
+  or analyze the new quartic endpoint with explicit errors. Preserve all
+  restricted certificates and the lack of a quantitative unrestricted gap.
+  K1840 multidimensional and source-pairing questions remain alternatives.
+
+  Previous continuation retained as a restricted-family alternative:
   Solve the remaining nonlinear compatibility conditions in the full
   conservative44 space per real16 module for genuinely multidimensional mass data, or test a
   source-owned stationary coefficient/Riesz packet against the exact repair.

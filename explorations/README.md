@@ -9,6 +9,9 @@ updated_at: "2026-08-21"
 
 ## October 20 research evidence
 
+- [K1842 causal screening](conditional-build/k1842-screening-causal-response-2026-10-20.md): typed continuum response test, source/readout repairs and causal memory.
+- [K1843 unrestricted Fisher](k1843-unrestricted-fisher-variational-gap-2026-10-20.md): unique quartic minimizer, compact descent, strict two-radius gap and budget ordering.
+
 - [K1840 conservative variable observation](conditional-build/k1840-k77-conservative-variable-observation-2026-10-20.md): complete conservative first-order class, arbitrary one-coordinate mass repair, dimensional limit and wall observability.
 - [K1841 global Fisher scaling](k1841-fisher-global-scaling-2026-10-20.md): uniform tightness, eventual global uniqueness, sharp value, inverse budget and local stability.
 

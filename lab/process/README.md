@@ -9,6 +9,9 @@ updated_at: "2026-08-23"
 
 ## October 20 research evidence
 
+- `k1842-screening-causal-response.json`: conditional continuum screening scope and exact algebra controls.
+- `k1843-unrestricted-fisher-variational-gap.json`: unrestricted variational theorem scope and exact algebra controls.
+
 - `k1840-k77-conservative-variable-observation.json`: complete conservative class and exact arbitrary-profile repair with observation limits.
 - `k1841-fisher-global-scaling.json`: global endpoint scaling/value/uniqueness and analytic proof dependencies.
 
