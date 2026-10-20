@@ -2,10 +2,20 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-10-19"
+updated_at: "2026-10-20"
 ---
 
 # Next Steps For Contributors
+
+> **2026-10-20 FIXED-Q TWO-RADIUS OPTIMIZER CERTIFIED.** K1820 excludes all
+> alternative stationary candidates and proves positive Hessian on the sole
+> remaining root rectangle. Together with the accepted global domain, value
+> and boundary cover, this proves a unique minimizer at q=1/1024 in the
+> stated scalar family. Reproduce and independently review the composition;
+> any canon promotion requires a later pass. Compare parameter-family work
+> with the nonfactorized same-carrier action/observation successor. No new
+> fixed-q bank or boundary quadrature is needed. No unrestricted or physical
+> result follows. **All earlier open-global instructions below are historical.**
 
 > **2026-10-19 COMPLETE BERNSTEIN BANK.** All 52 replacements are frozen.
 > Fourteen leaves are excluded; 38 polygons retain 12.782892% of prior area.

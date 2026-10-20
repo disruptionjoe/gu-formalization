@@ -2,10 +2,39 @@
 title: "Verification: What Is Proved, Computed, and Conjectural"
 status: process
 doc_type: verification-map
-updated_at: "2026-10-19"
+updated_at: "2026-10-20"
 ---
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
+
+## K1820 fixed-q two-radius global theorem (2026-10-20)
+
+The complete rational replay has **79 gradient-excluded terminals, one
+positive-Hessian terminal, zero unresolved**. The earlier 14 leaf exclusions
+plus 37 correlated exclusions leave only leaf50. On its convex necessary-root
+rectangle, transformed Hessian A has lower bound above 3.15e-9 and determinant
+above 1.18e-16. A positive Hessian on a convex rectangle makes the gradient
+injective; K1787 supplies a root inside that rectangle. The accepted outer
+collars, sublevel covers, first-two-slab exclusions, 26 value leaves and all
+114 boundary faces/vertices prove this is the unique global minimizer in the
+fixed-q two-radius chart. This is not a theorem of stationary uniqueness on
+the whole slab or minimization over arbitrary channel laws.
+
+New numerical evidence is four local point/hull order-eight jets, serialized
+outward with exact rational endpoints, plus gradient/Hessian tail enclosures.
+The underlying K1811 quadrature and K1786 analytic-tail methods are reused.
+New mathematical controls include three exact quadratics, highest-degree
+remainders, a shifted mixed eighth-degree polynomial, tail-triangle errors,
+positive/saddle/exclusion cases and an analytic two-root counterexample to
+uniqueness from graph geometry alone. Rehashed malformed packet controls and
+reporting mutations check the saved evidence boundary; they are not an
+independent numerical integration. Accepted outer-cover, value, local-root and
+boundary proofs are composed, not recomputed. The exploration gives the
+compactness/convexity proof and the separate connected-graph result.
+
+The theorem remains active research. Canon requires a later independent review
+of both mathematics and wording. Source, ledger, prediction and physical grades
+are unchanged. Older open-global statements below are historical.
 
 ## Complete Bernstein bank and component-bound limit (2026-10-19)
 

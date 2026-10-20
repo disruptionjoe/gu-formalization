@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: e76664ecea7810b8b7a2d27dc5e3f6afe5a3a09f
+revision_basis: 6d59f72152f1487db0b6ca83da405481e9a0b465
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,29 +35,27 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
-    K1818 now covers all 52 candidates with 46 completed Bernstein checkpoints
-    and six corrected power-range fallbacks. Exact saved gradients exclude 13
-    leaves and retain 39; the original leaf-38 flag remains unsupported and is
-    retained with its unchanged payload/digest. K1820 transports this complete
-    mixed-method bank to exclude 14 leaves, adding leaf 63 to the direct 13.
-    Compared with the prior composed result, leaves 54 and 63 are newly excluded.
-    Thirty-eight root-feasible polygons occupy about 13.036706 percent of the
-    original candidate area, down from 17.105628 percent. None of the retained
-    leaves has certified positive profile curvature. Complete interior
-    uniqueness and global optimization remain unproved. The six replacement
-    calculations still running are not declared complete or consumed early.
+    K1820 certifies one global minimizer in the fixed q=1/1024 symmetric,
+    unit-variance two-radius scalar chart. Four correlated order-eight local
+    jet packets give 79 signed-gradient terminals, one positive-Hessian
+    terminal and zero unresolved terminals. Combined with the earlier bank,
+    51 of 52 candidate leaves exclude stationary points. Leaf50's necessary
+    root rectangle has positive Hessian throughout; K1787 supplies existence.
+    Accepted boundary collars, outer sublevel partitions, first-two-slab
+    exclusions, 26 value leaves and all 114 exposed faces/vertices complete
+    the minimum argument. The certified value is approximately
+    1.591786453049767e-7. No unrestricted channel optimum, source-owned physics,
+    prediction, confirmation or canon promotion follows. Higher stationary
+    points in value-excluded regions are not ruled out.
 
-    Provisional checkpoint: K1819 closes the complete slab-three exposed boundary without new
-    quadrature. The fixed K1787 score restricted to [-11,11] is an L2 Cauchy
-    witness, so K1816's 26 positive compact margins already certify whole-line
-    value bounds. Exact geometry gives 114 slab-three faces and 114 vertices;
-    45 faces and 47 vertices inherit direct closed-box bounds, and the remaining
-    69 faces and 67 vertices inherit the accepted finite closed K1791/K1796
-    pruned-cover bounds. K1804's 122/122 census covers both slabs, not slab three
-    alone. Complete interior stationary uniqueness and global optimization
-    remain unproved. Complete mixed-method coverage does not imply complete Bernstein replacement.
-    Native RESEARCH-STATUS promotion rollup remains pending under a successor
-    scope; this checkpoint does not assert final wave acceptance.
+    All 52 Bernstein replacements remain complete. Their original 38 root
+    polygons retain 12.782892 percent of prior area; the new correlated data
+    exclude 37 of those regions. Every old independent component Hessian box
+    still contains a singular matrix: that method limit survives even though
+    stronger correlated bounds settle the selected optimizer problem.
+    Native RESEARCH-STATUS rollup is pending the required successor scope.
+    Earlier global-open statements below are historical and superseded by
+    the current K1820 certificate; protected source and physics grades stay.
 
     Historical through October 16 (open-boundary wording superseded above):
     K1818's complete corrected order-eight full-objective gradient bank uses
@@ -15739,14 +15737,12 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can correlated profile bounds on K1820's contracted tube close interior
-  uniqueness, or does the typed action/observation construction offer the more
-  decisive next test? All 52 Bernstein replacements are complete. Fourteen leaves
-  are excluded; 38 root-feasible polygons retain 12.782892 percent of candidate
-  area. Each retained component Hessian box contains an exact singular matrix;
-  independent component bounds alone cannot certify uniform regularity. This
-  does not assert actual singularity or additional roots. All 114 boundary
-  faces and vertices are closed; global optimizer admission remains withheld.
+  The fixed-q two-radius optimizer is now certified by K1820. The next review
+  should challenge its correlated remainder, exact closed-box coverage,
+  single convex root rectangle and transitive global-domain composition.
+  What source-faithful same-carrier action/observation construction adds a
+  genuinely new discriminator beyond the already known factorized acyclic
+  complex? Preserve the distinction between this scalar theorem and GU physics.
 
   Historical prior continuation (boundary work is superseded by K1819):
 
@@ -18685,13 +18681,12 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Preserve the completed 52-row Bernstein bank, K1820's 38 exact polygons,
-  K1787 local existence and K1819 boundary closure. Reusing the same independent
-  component bounds cannot certify uniform Hessian regularity: every retained
-  interval box admits a rational singular matrix. Compare correlated directional
-  bounds or refined interval-Newton on the tube against the typed same-carrier
-  action/observation construction. Global uniqueness remains unproved; no new
-  boundary quadrature or replacement replay is needed.
+  Reproduce and independently review the K1820 fixed-q two-radius theorem,
+  then compare a parameter-family theorem with the nonfactorized same-carrier
+  action/observation successor. No further slab-three quadrature or repeated
+  Bernstein bank is required for this fixed-q result. Any canon promotion
+  needs a later independent verification of the result and wording. Do not
+  infer an unrestricted channel optimum or move source/physics grades.
 
 
   Historical prior continuation (its boundary obligation is now closed):

@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "claim_id": "K1819",
   "status": "active_research",
-  "publication_status": "provisional wave checkpoint; mathematical composition checked; native RESEARCH-STATUS rollup pending",
+  "publication_status": "boundary composition checked; the later K1820 derivative/global theorem is a separate consumer",
   "title": "Compact-support Cauchy witnesses and finite closed pruning certify the complete slab-three boundary",
   "inputs": [
     "K1771",
@@ -2664,5 +2664,5 @@
     "all_slab_three_faces_and_vertices_certified": true,
     "global_optimizer_proved": false
   },
-  "scope_guard": "The support-truncated K1787 witness transfers 26 positive compact margins to whole-line value bounds. Of 114 slab-three atomic boundary faces and 114 vertices, 45 faces and 47 vertices inherit direct closed-box bounds; the remaining 69 faces and 67 vertices inherit strict bounds from the accepted finite closed K1791/K1796 pruned cover. All outer-domain pieces have direct witnesses. K1804 counts 122 faces and 122 vertices across both slabs. Complete stationary uniqueness, the global optimizer and physical theory remain unproved; no untruncated witness margin is inferred."
+  "scope_guard": "The support-truncated K1787 witness transfers 26 positive compact margins to whole-line value bounds. Of 114 slab-three atomic boundary faces and 114 vertices, 45 faces and 47 vertices inherit direct closed-box bounds; the remaining 69 faces and 67 vertices inherit strict bounds from the accepted finite closed K1791/K1796 pruned cover. All outer-domain pieces have direct witnesses. K1804 counts 122 faces and 122 vertices across both slabs. This boundary certificate alone does not prove stationary uniqueness or a global optimizer. K1820 supplies the later fixed-q global composition. No untruncated witness margin or physical theory is inferred."
 }

@@ -3533,5 +3533,5 @@
     "complete_stationary_cover": false,
     "global_optimizer_proved": false
   },
-  "scope_guard": "Gradient exclusion closes only the named rejected leaves. Retention is interval-method indeterminacy, not evidence of another stationary point; the K1787 local stationary box lies inside retained leaf 50. Residual interior uniqueness and global optimizer admission remain open; K1819 separately closes the exposed boundary. The bank may mix completed Bernstein and corrected power-range checkpoints; its per-method leaf lists state the exact replacement coverage."
+  "scope_guard": "This complete 52-row Bernstein bank excludes fourteen stationary leaves. Its retained leaves are method-indeterminate, not proved roots. It does not by itself prove uniqueness or global optimality. K1820 adds separately computed correlated local jets, excludes thirty-seven more leaves, certifies the remaining convex root rectangle and composes the fixed-q global theorem. Original checkpoint payloads and the leaf38 advisory discrepancy remain unchanged."
 }

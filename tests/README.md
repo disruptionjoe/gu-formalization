@@ -7,6 +7,26 @@ the map: which directory/group supports which claim.
 Current exact channel-swings inventory: `4630 Python + 93 Sage`. This count
 supersedes the historical aggregate embedded in the long directory table.
 
+## K1820 correlated local-jet replay (2026-10-20)
+
+The normal K1820 producer replays the embedded exact rational point/hull jets,
+whole-line tails, correlated derivative bounds and closed binary partitions.
+It does not run numerical quadrature. The probe adds analytic mixed-polynomial,
+remainder, tail-sign, saddle, graph-connectivity and hostile packet controls.
+An explicit new numerical replay uses the pinned python-flint 0.9.0 / SymPy
+1.14 environment and K1818 `--compute-profile-packet --profile-column N`,
+sequentially for N=0,1,2,3. This is an expensive opt-in command; each packet
+contains its exact expansion point, full remainder hull, leaf boxes, bounds,
+configuration and canonical digest. No stationary condition is assumed at a
+local expansion point. The exploration states the mathematical transfer.
+
+The complete earlier bank has 52 Bernstein rows, no fallback, 14 direct
+exclusions and 38 root-feasible polygons at 12.782892% of original candidate
+area. The mixed-bank counts below are historical. Correlated partitions are
+additional evidence: 79 gradient-excluded terminals and one positive-Hessian
+terminal, with zero unresolved. K1820 now composes the fixed-q global theorem;
+any unrestricted-channel or physical conclusion remains excluded.
+
 ## K1818/K1820 completed-checkpoint composition (2026-10-19)
 
 K1818 `--assemble-available-bank` reads completed Bernstein rows with corrected

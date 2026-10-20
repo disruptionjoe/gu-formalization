@@ -733,6 +733,56 @@ def validate_bernstein_kernel() -> list[tuple[str, bool]]:
     ]
 
 
+def profile_jet_packet(column: int | None = None) -> dict:
+    """Compute one shared remainder hull for the frozen K1820 root boxes.
+
+    This is an explicit heavy computation. Normal validation only replays the
+    saved rational packet in K1820 and never calls this function.
+    """
+    configure()
+    profile = json.loads((ROOT / 'lab/process/k1820-full-fisher-global-optimizer-admission.json').read_text())['certificate']['stationary_derivative_transport']
+    polygons = {row['leaf']:[tuple(map(F,p)) for p in row['root_feasible_polygon']]
+                for row in profile['leaf_results'] if not row['stationary_excluded']}
+    if column is not None:
+        t_intervals = sorted({tuple(map(F,input_rows()[leaf]['box'][:2])) for leaf in polygons})
+        if column < 0 or column >= len(t_intervals):
+            raise ValueError('profile column outside retained cover')
+        polygons = {leaf:p for leaf,p in polygons.items()
+                    if tuple(map(F,input_rows()[leaf]['box'][:2])) == t_intervals[column]}
+        local_points = [p for polygon in polygons.values() for p in polygon]
+        anchor = tuple((min(p[i] for p in local_points)+max(p[i] for p in local_points))/2 for i in (0,1))
+    else:
+        anchor = (base.ANCHOR_T,base.ANCHOR_Z)
+    points = [p for polygon in polygons.values() for p in polygon] + [anchor]
+    hull = (min(p[0] for p in points),max(p[0] for p in points),
+            min(p[1] for p in points),max(p[1] for p in points))
+    def serialize_jet(jet):
+        # A documented outward display roundtrip matches durable scout jets;
+        # the final certificate uses exact dyadic endpoints, never sign flags.
+        return {f'{i},{j}':[str(arb(v.str(80)).lower().fmpq()),str(arb(v.str(80)).upper().fmpq())]
+                for (i,j),v in jet.c.items()}
+    point = serialize_jet(point_jet() if column is None else base.compact_jet(anchor[0],anchor[0],anchor[1],anchor[1]))
+    derivative = serialize_jet(base.compact_jet(*hull))
+    leaves = []
+    for leaf,polygon in polygons.items():
+        ta,tb,za,zb = (min(p[0] for p in polygon),max(p[0] for p in polygon),
+                       min(p[1] for p in polygon),max(p[1] for p in polygon))
+        base.tails.CENTER_T=(ta+tb)/2; base.tails.RADIUS_T=(tb-ta)/2
+        base.tails.CENTER_Z=(za+zb)/2; base.tails.RADIUS_Z=(zb-za)/2
+        tail_groups = base.tails.compute()['absolute_two_tail_bounds']
+        tails = dict(tail_groups['hessian'], **tail_groups['gradient'])
+        leaves.append({'leaf':leaf,'box':list(map(str,(ta,tb,za,zb))),
+                       'tail_upper':{k:str(arb(v).upper().fmpq()) for k,v in tails.items()}})
+    payload = {'parameter_order':8,'observation_order':14,'cell_half_width':'1/4',
+               'anchor':list(map(str,anchor)),'hull':list(map(str,hull)),
+               'point_jet':point,'hull_jet':derivative,'leaf_inputs':leaves,'direction_ratio':'8',
+               'leaf_ids':list(polygons),'anchor_role':'expansion point only; no stationary condition assumed',
+               'method':'K1811 compact normalized jets on [-11,11]; full anchor-to-root-box hull; K1786 whole-line gradient and Hessian tails',
+               'serialization':'outward str(80) roundtrip followed by exact dyadic endpoints'}
+    payload['digest'] = hashlib.sha256(json.dumps(payload,sort_keys=True,separators=(',',':')).encode()).hexdigest()
+    return payload
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--leaf", type=int, action="append", default=[])
@@ -745,7 +795,19 @@ def main() -> None:
     parser.add_argument("--replay", action="store_true")
     parser.add_argument("--summary", action="store_true")
     parser.add_argument("--print-artifact", action="store_true")
+    parser.add_argument("--compute-profile-packet", action="store_true",
+                        help="Explicit heavy shared-hull computation for K1820 correlated profile")
+    parser.add_argument("--profile-column", type=int,
+                        help="Recenter the profile packet on one retained t-column")
     args = parser.parse_args()
+
+    if args.compute_profile_packet:
+        if args.assemble_available_bank or args.replay or args.leaf or args.bernstein_leaf or args.resume_bank or args.resume_bernstein_bank or args.max_new is not None or args.summary or args.print_artifact:
+            parser.error('--compute-profile-packet cannot be combined with bank operations')
+        print(json.dumps(profile_jet_packet(args.profile_column),indent=2))
+        return
+    if args.profile_column is not None:
+        parser.error('--profile-column requires --compute-profile-packet')
 
     if args.assemble_available_bank:
         if args.replay or args.leaf or args.bernstein_leaf or args.resume_bank or args.resume_bernstein_bank:

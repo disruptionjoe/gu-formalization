@@ -2,10 +2,142 @@
 title: "K1816--K1820 full-Fisher slab-three leafwise calibration wave"
 status: active_research
 doc_type: exploration
-updated_at: "2026-10-19"
+updated_at: "2026-10-20"
 ---
 
-# K1816--K1820: complete boundary closure; interior uniqueness remains open
+# K1816--K1820: fixed-q two-radius global minimizer certified
+
+## Fixed-q global composition (2026-10-20)
+
+The four complete local packets resolve every necessary root box. Their exact
+closed partitions contain **79 gradient-excluded terminals, one positive-Hessian
+terminal and zero unresolved terminals**. The new data exclude all 37 candidate
+leaves other than leaf50. With the original 14 exclusions, 51 of 52 stationary
+candidate leaves are now excluded. Leaf38's original unsupported flag remains
+preserved; its new exclusion comes from this distinct correlated certificate.
+
+The entire necessary-root bounding rectangle in leaf50 has transformed Hessian
+`A > 3.1587695861e-9` and `det(H) > 1.1883377946e-16`. These are conservative
+rounded lower bounds of the exact rational endpoints in K1820. Strict positive
+definiteness on a convex rectangle makes the gradient strictly monotone:
+for different x,y, integrate `(x-y)^T H(y+s(x-y))(x-y)>0` over s in [0,1].
+Thus there is at most one stationary point there. K1787's whole-line Krawczyk
+box lies inside original leaf50, and its root must lie in the necessary-root
+rectangle by the exact derivative transport. Existence plus injectivity proves
+one stationary point in the entire 52-leaf candidate union. The connected-graph
+argument below is an additional structural result; the final proof does not
+need it because only one convex root rectangle survives.
+
+Let R be K1816's compact union of 78 closed retained boxes. Its boundary has
+value strictly above `T=7958932265249/50000000000000000000` by K1819; 26 of its
+boxes have the same strict value exclusion. K1787 encloses the surviving
+stationary value in
+`[1.5917864530497670077445861802075968567e-7 +/- 3.19e-24]`, strictly below T.
+A continuous objective attains its minimum on R. That minimizer cannot lie on
+the exposed boundary or a value-excluded box, and hence is an interior
+stationary point in the 52-leaf candidate union. It must be the unique point
+just certified. This proves a unique minimum on R, without asserting that
+value-excluded regions have no higher stationary points.
+
+The global-domain bridge is the already accepted chain: K1760 excludes the
+zero-noise/rare-atom collars; K1763's compact candidate lower bound is above
+the K1787 value upper bound, so those incumbent-relative exclusions still
+apply. K1769 covers every possible remaining Hermite sublevel competitor;
+K1777 closes its lower boundary strip; K1792 and K1809 exclude slabs one and
+two. K1791/K1796 prune the slab-three complement of R at
+`T0=31835729061/200000000000000000 > T`. Thus every admissible point outside R
+has value above the certified local point. No boundary escape or missing
+stationary component remains in this **fixed q=1/1024 symmetric unit-variance
+two-radius scalar chart**. Its unique global minimizer is the K1787 point.
+
+This is a computed, repository-derived active-research theorem. It is not an
+optimizer over arbitrary channel laws, a GU action or physical state, a
+prediction or confirmation, or a canon promotion. The earlier method failures,
+component-box singular witnesses and partial counts remain valid historical
+evidence. Native status propagation and any later canon review are separate.
+
+## Correlated local jets and a connected candidate graph (2026-10-20)
+
+This continuation uses the same fixed-q, symmetric, unit-variance two-radius
+scalar Fisher objective, its positive chart, whole-line measure and exact
+candidate cover. It is repository-derived variational mathematics. It supplies
+no GU action, physical carrier, state/observable map, prediction or confirmation.
+The component-box obstruction below remains true; the new instrument preserves
+correlations before interval ranging.
+
+### Correlated Taylor transfer
+
+Four local expansion points are the exact midpoints of the retained root-box
+unions in the four existing t-columns. They are ordinary expansion points;
+**their gradients are not assumed zero**. For each column, save the normalized
+compact objective jet through total degree eight at the point and on the entire
+point-to-root-box hull. K1811's observation quadrature uses order fourteen,
+the existing `cell_half_width=1/4` configuration and window [-11,11].
+In that implementation each observation cell has width 1/4 and local radius
+1/8; the configuration name is retained for reproduction. K1786 supplies whole-line absolute gradient
+and Hessian tail bounds on each original root box. All saved endpoints are
+outward rational enclosures, with canonical payload digests.
+
+For a constant-coefficient derivative combination of order d=1 or 2, combine
+normalized jet coefficients *before* bounding them. The point polynomial has
+total degree 7-d. Its integral Taylor remainder has degree 8-d and a common
+segment/kernel for all terms of that derivative order. A coefficient from
+normalized objective jet (i+a,j+b) receives factor
+`(i+a)!/i! * (j+b)!/j!` for derivative (a,b). Bound the combined highest-degree
+coefficient on the entire hull, then sum absolute coefficient bounds times
+maximum coordinate offsets. Range the point polynomial with tensor Bernstein
+coefficients on the target rectangle. Add absolute whole-line tail errors with
+the triangle inequality, including the absolute directional weights. No
+cancellation of unknown tail errors is assumed.
+
+The transformed Hessian uses basis (1,-8),(0,1):
+`A=Jtt-16 Jtz+64 Jzz`, `B=Jtz-8 Jzz`, `C=Jzz`.
+Its determinant `A*C-B^2` equals the original determinant. Positive lower
+bounds for A and this determinant certify a positive Hessian. A negative or
+zero-containing bound is not a failure of the objective or a second root.
+Indeed, column zero's leaf26 has a negative transformed determinant, while its
+new gradient bounds exclude stationarity. Requiring convexity everywhere would
+be stronger than the needed root-local condition.
+
+Rational replay bisects a closed rectangle only when neither a signed gradient
+component/directional combination nor positive Hessian has been certified.
+Children share the splitting boundary and cover their parent exactly. Every
+child retains its parent's tail bound and the full column remainder hull.
+Depth-eight unresolved terminals remain explicit; they cannot support a
+uniqueness claim. The partition is a certificate on necessary root boxes,
+not an assertion that any retained box contains a root.
+
+### Connected vertical zero graph
+
+The original 52 candidate leaves form four contiguous vertical stacks over
+adjacent closed t-intervals. Existing exact whole-leaf bounds prove Jzz>0 and
+Jtz>0 everywhere in those stacks. Each bottom has Jz<0; the last three tops
+have Jz>0. At every shared t endpoint the overlapping vertical interval has
+negative bottom and positive top signs. Thus both adjacent stacks contain the
+same unique Jz-zero at a join.
+
+In the first stack, the top's Jz is strictly increasing with t because
+Jtz>0. Its value at the right endpoint is positive: the second stack's top
+is lower and already has positive Jz there. Consequently the first stack's
+root-existence set is an interval ending at its right endpoint, even though
+its whole-top interval is not sign-definite. The union of all Jz-zero points
+is therefore one connected graph z(t), differentiable through the joins by
+the implicit-function theorem. This conclusion uses the exact join signs,
+not merely local monotonicity or a picture of neighboring boxes.
+
+On that graph, `g(t)=Jt(t,z(t))` has derivative
+`g'=Jtt-Jtz^2/Jzz=det(H)/Jzz` at every point. If a complete root-box cover proves
+positive Hessian at every possible full-gradient zero, every zero of g is a
+strict upward crossing. Two such zeros would force an intervening zero with
+nonpositive derivative (take the first return from positive to nonpositive),
+a contradiction. This is the remaining conditional bridge to at-most-one
+stationary point in the candidate union. Graph geometry alone does not prove
+it. The 26 value-excluded leaves may contain higher stationary points; this
+argument must never be described as uniqueness on the entire slab.
+
+The same-jet gradient/curvature partition, exact packet results and remaining
+obligations are recorded in K1820. Canon and protected physical grades remain
+unchanged. Earlier counts and method limitations below are historical evidence.
 
 ## Complete Bernstein bank and component-bound limit (2026-10-19)
 
