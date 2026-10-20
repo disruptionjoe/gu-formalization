@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 916b4b0a0e147b949db9585c0ecf9f4c0b2963ad
+revision_basis: 1da4f8a5e4adb7395c0567b3827b9080b86bd478
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1838 derives necessary and sufficient variable-coefficient conditions
+    for K1836's fixed local observation: pointwise lifts force spatially
+    constant target B but allow time dependence and invisible source fields.
+    Zeroth-order repair requires relaxing the pointwise lift equations;
+    their general first-order solution space has dimension144. Moving-frame
+    and simultaneous scalar-conjugation repairs are exact, with connection
+    terms and pairing transport explicit. No physical mass or source descent.
+    K1839 excludes the remaining inward rare escape and proves every global
+    minimizer has z,r=c/z=o(sqrt(delta)), c(z-r)/delta²->1/2, and positive-lobe
+    Fisher excess1/2 with L2 quadratic-score saturation. One-sided scale
+    bounds do not establish compact optimizing powers, global next coefficient,
+    uniqueness or effective onset. A degree-four score Gram bound supplies the
+    next all-domain fifth-cumulant instrument. Source/physics ledger/canon unchanged.
+
+    Previous differential and rare-separation results retained; their open
+    inward-separation condition is superseded by K1839:
     K1836 constructs complete degree-one local Dirac observations for the
     corrected compressed fixture: two-dimensional map space per real16 module,
     rank4 at every nonzero frequency; no constant observation. Exact lift and
@@ -15185,6 +15201,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1838-k77-variable-dirac-observation-2026-10-20.md
+    - lab/process/k1838-k77-variable-dirac-observation.json
+    - explorations/k1839-fisher-global-merging-coercivity-2026-10-20.md
+    - lab/process/k1839-fisher-global-merging-coercivity.json
     - explorations/conditional-build/k1836-k77-differential-dirac-quotient-2026-10-20.md
     - lab/process/k1836-k77-differential-dirac-quotient.json
     - explorations/k1837-fisher-rare-component-boundary-2026-10-20.md
@@ -15896,6 +15916,14 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can uniform fourth/higher-cumulant bounds, now that all minimizers merge
+  and satisfy c(z-r)/delta²->1/2, force compact K1835 scales against its sharper
+  upper bound? Compare a non-frame solution of K1838's full variable-observation
+  equations with an actual source-owned coefficient and pairing packet.
+  Fixed-observation rigidity and frame repairs are complete conditional results;
+  neither selects a physical variable mass magnitude.
+
+  Previous question, with all noise-scale separation now resolved:
   Can polynomial-score bounds exclude the remaining inward unbounded-separation
   Fisher regime, and can uniform cumulant coercivity confine finer merging
   minimizers to K1835's scaling window? K1837 removes finite noise-scaled
@@ -18914,6 +18942,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Control the next Fisher cost uniformly as r/z approaches0 or1 and scaled
+  z/delta^(2/3) escapes, without using compact-window remainders there. Reuse
+  K1839's global skew constraint and exact score projections. On the operator
+  side, solve non-frame differential compatibility with a supplied actual
+  source packet; neither an arbitrary mass nor a pure-frame connection is
+  source selection. Global optimizing powers, next coefficient, uniqueness,
+  effective onset, physical observation and domain remain open. No source or
+  ledger verdict changes; do not repeat the excluded rare regimes or frame repairs.
+
+  Previous continuation retained as historical where K1838/K1839 resolve it:
   Build a Fisher lower bound uniform at unbounded rare separation, or a
   small-displacement cumulant bound uniform outside compact a,b. Do not use
   K1837's exponentially growing remainder there. For the source route,

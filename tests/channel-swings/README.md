@@ -2,6 +2,9 @@
 
 ## October 20 research evidence
 
+- `k1838_k77_variable_dirac_observation.py` and `_probe.py`: all target jets, complete zeroth correction and polynomial-field frame repairs.
+- `k1839_fisher_global_merging_coercivity.py` and `_probe.py`: exact score-Gram/moment identities and independent rational controls.
+
 - `k1836_k77_differential_dirac_quotient.py` and `_probe.py`: rational polynomial observations, modular ranks and conservative mass controls.
 - `k1837_fisher_rare_component_boundary.py` and `_probe.py`: constrained chart, likelihood integral and uniform-gap controls.
 

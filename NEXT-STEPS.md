@@ -7,6 +7,17 @@ updated_at: "2026-10-20"
 
 # Next Steps For Contributors
 
+> **2026-10-20 GLOBAL MERGING AND VARIABLE-OBSERVATION REPAIRS.** K1839 closes
+> the last noise-scale escape and fixes c(z-r)/delta²->1/2 globally. Next test
+> fourth/higher-cumulant cost uniformly as r/z approaches0 or1 to establish
+> compact optimizing scales; K1835's next global coefficient remains open.
+> K1838 gives the full fixed-observation variable-potential restriction and
+> two exact frame repairs. Test a non-frame solution with a source-owned
+> coefficient/observation packet; supplied phase rotations do not select a
+> physical mass magnitude. Prior rare-separation recommendations below are
+> historical and superseded by K1839. Source, ledger and canon unchanged.
+
+
 > **2026-10-20 DIFFERENTIAL QUOTIENT AND RARE-SCALE RESULT.** K1836 supplies
 > a local derivative Dirac observation and conservative mass lifts on the
 > compressed fixture; test actual source observation/coefficient identification

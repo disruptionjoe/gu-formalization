@@ -1,0 +1,92 @@
+{
+  "result_id": "K1839",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "results": {
+    "global_minimizers_z_over_sqrt_delta_tends_zero": true,
+    "global_minimizers_r_over_sqrt_delta_tends_zero": true,
+    "global_skew_c_times_z_minus_r_over_delta_squared": "1/2",
+    "positive_lobe_score_excess_limit": "1/2",
+    "compact_K1835_scaling_proved": false,
+    "global_next_coefficient_proved": false,
+    "global_uniqueness_proved": false,
+    "effective_onset_proved": false
+  },
+  "degree4_Gram_polynomials": [
+    [
+      "-p^2*a^2 + p*a^2 + v",
+      "-2*p^3*a^3 + 3*p^2*a^3 - p*a^3",
+      "-6*p^4*a^4 + 12*p^3*a^4 - 7*p^2*a^4 + p*a^4",
+      "-24*p^5*a^5 + 60*p^4*a^5 - 50*p^3*a^5 + 15*p^2*a^5 - p*a^5"
+    ],
+    [
+      "-2*p^3*a^3 + 3*p^2*a^3 - p*a^3",
+      "-4*p^4*a^4 + 8*p^3*a^4 - 5*p^2*a^4 + p*a^4 - 4*p^2*a^2*v + 4*p*a^2*v + 2*v^2",
+      "-12*p^5*a^5 + 30*p^4*a^5 - 26*p^3*a^5 + 9*p^2*a^5 - 12*p^3*a^3*v - p*a^5 + 18*p^2*a^3*v - 6*p*a^3*v",
+      "-48*p^6*a^6 + 144*p^5*a^6 - 160*p^4*a^6 + 80*p^3*a^6 - 48*p^4*a^4*v - 17*p^2*a^6 + 96*p^3*a^4*v + p*a^6 - 56*p^2*a^4*v + 8*p*a^4*v"
+    ],
+    [
+      "-6*p^4*a^4 + 12*p^3*a^4 - 7*p^2*a^4 + p*a^4",
+      "-12*p^5*a^5 + 30*p^4*a^5 - 26*p^3*a^5 + 9*p^2*a^5 - 12*p^3*a^3*v - p*a^5 + 18*p^2*a^3*v - 6*p*a^3*v",
+      "-36*p^6*a^6 + 108*p^5*a^6 - 120*p^4*a^6 + 60*p^3*a^6 - 36*p^4*a^4*v - 13*p^2*a^6 + 72*p^3*a^4*v + p*a^6 - 45*p^2*a^4*v + 9*p*a^4*v - 18*p^2*a^2*v^2 + 18*p*a^2*v^2 + 6*v^3",
+      "-144*p^7*a^7 + 504*p^6*a^7 - 684*p^5*a^7 + 450*p^4*a^7 - 144*p^5*a^5*v - 146*p^3*a^7 + 360*p^4*a^5*v + 21*p^2*a^7 - 312*p^3*a^5*v - p*a^7 + 108*p^2*a^5*v - 72*p^3*a^3*v^2 - 12*p*a^5*v + 108*p^2*a^3*v^2 - 36*p*a^3*v^2"
+    ],
+    [
+      "-24*p^5*a^5 + 60*p^4*a^5 - 50*p^3*a^5 + 15*p^2*a^5 - p*a^5",
+      "-48*p^6*a^6 + 144*p^5*a^6 - 160*p^4*a^6 + 80*p^3*a^6 - 48*p^4*a^4*v - 17*p^2*a^6 + 96*p^3*a^4*v + p*a^6 - 56*p^2*a^4*v + 8*p*a^4*v",
+      "-144*p^7*a^7 + 504*p^6*a^7 - 684*p^5*a^7 + 450*p^4*a^7 - 144*p^5*a^5*v - 146*p^3*a^7 + 360*p^4*a^5*v + 21*p^2*a^7 - 312*p^3*a^5*v - p*a^7 + 108*p^2*a^5*v - 72*p^3*a^3*v^2 - 12*p*a^5*v + 108*p^2*a^3*v^2 - 36*p*a^3*v^2",
+      "-576*p^8*a^8 + 2304*p^7*a^8 - 3696*p^6*a^8 + 3024*p^5*a^8 - 576*p^6*a^6*v - 1324*p^4*a^8 + 1728*p^5*a^6*v + 296*p^3*a^8 - 1920*p^4*a^6*v - 29*p^2*a^8 + 960*p^3*a^6*v - 288*p^4*a^4*v^2 + p*a^8 - 208*p^2*a^6*v + 576*p^3*a^4*v^2 + 16*p*a^6*v - 360*p^2*a^4*v^2 + 72*p*a^4*v^2 - 96*p^2*a^2*v^3 + 96*p*a^2*v^3 + 24*v^4"
+    ]
+  ],
+  "moment_polynomials": {
+    "0": "1.0",
+    "1": "0",
+    "2": "-p^2*a^2 + p*a^2 + v",
+    "3": "-2.0*p^3*a^3 + 3.0*p^2*a^3 - p*a^3",
+    "4": "-3.0*p^4*a^4 + 6.0*p^3*a^4 - 4.0*p^2*a^4 + p*a^4 - 6.0*p^2*a^2*v + 6.0*p*a^2*v + 3.0*v^2",
+    "5": "-4.0*p^5*a^5 + 10.0*p^4*a^5 - 10.0*p^3*a^5 + 5.0*p^2*a^5 - 20.0*p^3*a^3*v - p*a^5 + 30.0*p^2*a^3*v - 10.0*p*a^3*v",
+    "6": "-5.0*p^6*a^6 + 15.0*p^5*a^6 - 20.0*p^4*a^6 + 15.0*p^3*a^6 - 45.0*p^4*a^4*v - 6.0*p^2*a^6 + 90.0*p^3*a^4*v + p*a^6 - 60.0*p^2*a^4*v + 15.0*p*a^4*v - 45.0*p^2*a^2*v^2 + 45.0*p*a^2*v^2 + 15.0*v^3",
+    "7": "-6.0*p^7*a^7 + 21.0*p^6*a^7 - 35.0*p^5*a^7 + 35.0*p^4*a^7 - 84.0*p^5*a^5*v - 21.0*p^3*a^7 + 210.0*p^4*a^5*v + 7.0*p^2*a^7 - 210.0*p^3*a^5*v - p*a^7 + 105.0*p^2*a^5*v - 210.0*p^3*a^3*v^2 - 21.0*p*a^5*v + 315.0*p^2*a^3*v^2 - 105.0*p*a^3*v^2",
+    "8": "-7.0*p^8*a^8 + 28.0*p^7*a^8 - 56.0*p^6*a^8 + 70.0*p^5*a^8 - 140.0*p^6*a^6*v - 56.0*p^4*a^8 + 420.0*p^5*a^6*v + 28.0*p^3*a^8 - 560.0*p^4*a^6*v - 8.0*p^2*a^8 + 420.0*p^3*a^6*v - 630.0*p^4*a^4*v^2 + p*a^8 - 168.0*p^2*a^6*v + 1260.0*p^3*a^4*v^2 + 28.0*p*a^6*v - 840.0*p^2*a^4*v^2 + 210.0*p*a^4*v^2 - 420.0*p^2*a^2*v^3 + 420.0*p*a^2*v^3 + 105.0*v^4"
+  },
+  "cubic_test_norm": "-32.0*p^6*a^6 + 96.0*p^5*a^6 - 107.0*p^4*a^6 + 54.0*p^3*a^6 - 36.0*p^4*a^4*v - 12.0*p^2*a^6 + 72.0*p^3*a^4*v + p*a^6 - 45.0*p^2*a^4*v + 9.0*p*a^4*v - 18.0*p^2*a^2*v^2 + 18.0*p*a^2*v^2 + 6.0*v^3",
+  "checks": {
+    "centered": true,
+    "variance": true,
+    "third_cumulant": true,
+    "fourth_cumulant": true,
+    "quadratic_norm": true,
+    "cubic_covariance": true,
+    "strong_gram_inverse": true,
+    "coarse_gap_positive": true,
+    "sixth_moment": true,
+    "cubic_norm_expansion": true,
+    "centered_test_0": true,
+    "score_covariance_0": true,
+    "centered_test_1": true,
+    "score_covariance_1": true,
+    "centered_test_2": true,
+    "score_covariance_2": true,
+    "centered_test_3": true,
+    "score_covariance_3": true,
+    "fifth_cumulant_covariance": true,
+    "degree4_Gram_positive_control": true,
+    "degree4_improves_degree2_control": true,
+    "radius_mean_square": true,
+    "radius_variance": true,
+    "radius_third": true,
+    "radius_fourth_cumulant": true,
+    "variance_factor": true,
+    "variance_factor_at_c0": true,
+    "variance_linear_c_cancels": true,
+    "variance_mixed_coefficient": true,
+    "additive_square": true,
+    "escaping_penalty": true,
+    "no_global_next_coefficient_claim": true
+  },
+  "inputs": {
+    "lab/process/k1837-fisher-rare-component-boundary.json": "279189328f2de7843c7a1379608b45d29b8250b15dfd14b0bb7abff732ce17c4",
+    "lab/process/k1835-fisher-next-endpoint-coefficient.json": "a4514835395fcc4d50ad310fdcb386556dc958dbf649bab26a927e3320c48612"
+  }
+}

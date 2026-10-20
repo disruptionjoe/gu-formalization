@@ -7,6 +7,40 @@ updated_at: "2026-10-20"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-20: variable observation repairs and global Fisher merging
+
+[K1838](explorations/conditional-build/k1838-k77-variable-dirac-observation-2026-10-20.md)
+classifies full variable lower-order compatibility for K1836's fixed local
+observation. Pointwise lifts imply spatially constant target B; time-dependent
+B and arbitrary invisible source coefficients remain allowed. Invisible
+freedom and a zeroth-order observation cannot repair a gradient while those
+pointwise lift equations remain imposed. Relaxing them gives a144-dimensional
+pointwise first-order solution space and a remaining differential condition.
+Two exact repairs prevent a broader no-go: a moving orthogonal target frame
+with connection terms, and simultaneous scalar conjugation retaining the
+leading observation with a zeroth-order correction and transported positive
+energy. Neither supplies variable physical mass magnitude or source descent.
+SC-OP-04/MAS-01/CHI-02 ASSERTS, SC-OP-05/META-53 UNCERTAIN unchanged.
+
+[K1839](explorations/k1839-fisher-global-merging-coercivity-2026-10-20.md)
+uses a whole-line cubic score bound to exclude the remaining inward divergent
+rare separation. Every global minimizing shape has z,r=c/z=o(sqrt(delta)).
+A uniform quadratic score bound then proves c(z-r)/delta²->1/2 and positive-
+lobe Fisher excess I-1/S->1/2, with L2 quadratic-score saturation. It yields
+liminf z/delta^(2/3)>=cube_root(2) and c/delta^(3/2)->infinity. These are
+one-sided constraints; compact K1835 scaling, its next GLOBAL coefficient,
+global uniqueness and effective onset remain open. A serialized degree-four
+score Gram bound now supplies an exact all-domain fifth-cumulant instrument
+for that next uniform estimate.
+
+Exact matrix/moment identities and distinct polynomial-field/modular and
+Fraction controls support the written PDE and uniform analytic proofs.
+Reporting mutations are separate. Inline hostile review; no separate-agent
+review, external acceptance, novelty claim, source/ledger change or canon
+promotion. Earlier K1837 open-separation statements below are historical;
+the new global merging result supersedes that specific open condition.
+
+
 ## 2026-10-20: local Dirac observation and rare-component scale exclusion
 
 [K1836](explorations/conditional-build/k1836-k77-differential-dirac-quotient-2026-10-20.md)

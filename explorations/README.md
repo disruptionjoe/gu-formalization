@@ -9,6 +9,9 @@ updated_at: "2026-08-21"
 
 ## October 20 research evidence
 
+- [K1838 variable Dirac observation](conditional-build/k1838-k77-variable-dirac-observation-2026-10-20.md): full gradient restriction, invisible fields and two local frame repairs.
+- [K1839 global Fisher merging](k1839-fisher-global-merging-coercivity-2026-10-20.md): unbounded-separation exclusion, uniform skew constraint and score saturation.
+
 - [K1836 differential Dirac quotient](conditional-build/k1836-k77-differential-dirac-quotient-2026-10-20.md): all-direction local observation, inverse limits and conservative mass lifts.
 - [K1837 rare-component endpoint boundary](k1837-fisher-rare-component-boundary-2026-10-20.md): uniform amplitude exclusion and both rare orientations.
 

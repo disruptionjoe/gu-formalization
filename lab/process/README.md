@@ -9,6 +9,9 @@ updated_at: "2026-08-23"
 
 ## October 20 research evidence
 
+- `k1838-k77-variable-dirac-observation.json`: variable-coefficient rigidity, relaxed first-order dimension and frame repair controls.
+- `k1839-fisher-global-merging-coercivity.json`: global merging/skew constraints with explicit next-order limits.
+
 - `k1836-k77-differential-dirac-quotient.json`: local observations, exact lifts and conservative coefficient basis.
 - `k1837-fisher-rare-component-boundary.json`: rare-orientation constants and scoped endpoint exclusion.
 
