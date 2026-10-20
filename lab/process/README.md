@@ -7,6 +7,12 @@ updated_at: "2026-08-23"
 
 # Process
 
+## October 20 research evidence
+
+- [K1821 exact construction](k1821-k590-rank-strata.json).
+- [K1820 independent audit](k1820-independent-certificate-audit.json).
+These are active-research evidence, not canon acceptance.
+
 Current append-only progress surface:
 [`conditional-physics-ledger-v0.263.json`](conditional-physics-ledger-v0.263.json),
 summarized in

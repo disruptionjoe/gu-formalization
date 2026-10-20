@@ -1,0 +1,244 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1821",
+  "status": "active_research",
+  "target_claim": "NONE-NOT-A-KILL",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "input_sha256": {
+    "k590-k77-corrected-carrier-completion-squares.json": "6ee94f092beeb909d88a3e48ccf620df86034cbc2127081fb42405cbec95e65e",
+    "k446-k77-compatible-nilpotent-cohomology-obstruction.json": "8597fdb80e7dd2c5fd231b39c4fea241053a3bdff3ce93bef735f4f06f6d0815"
+  },
+  "dimensions": [
+    10752,
+    46592,
+    35840
+  ],
+  "full_strata": [
+    {
+      "deficits": [
+        0,
+        0
+      ],
+      "ranks": [
+        10752,
+        35840
+      ],
+      "homology": [
+        0,
+        0,
+        0
+      ],
+      "dimension": 1785462784,
+      "codimension": 0
+    },
+    {
+      "deficits": [
+        0,
+        1
+      ],
+      "ranks": [
+        10752,
+        35839
+      ],
+      "homology": [
+        0,
+        1,
+        1
+      ],
+      "dimension": 1785462783,
+      "codimension": 1
+    },
+    {
+      "deficits": [
+        1,
+        0
+      ],
+      "ranks": [
+        10751,
+        35840
+      ],
+      "homology": [
+        1,
+        1,
+        0
+      ],
+      "dimension": 1785462783,
+      "codimension": 1
+    },
+    {
+      "deficits": [
+        1,
+        1
+      ],
+      "ranks": [
+        10751,
+        35839
+      ],
+      "homology": [
+        1,
+        2,
+        1
+      ],
+      "dimension": 1785462781,
+      "codimension": 3
+    },
+    {
+      "deficits": [
+        0,
+        70
+      ],
+      "ranks": [
+        10752,
+        35770
+      ],
+      "homology": [
+        0,
+        70,
+        70
+      ],
+      "dimension": 1785457884,
+      "codimension": 4900
+    },
+    {
+      "deficits": [
+        21,
+        0
+      ],
+      "ranks": [
+        10731,
+        35840
+      ],
+      "homology": [
+        21,
+        21,
+        0
+      ],
+      "dimension": 1785462343,
+      "codimension": 441
+    }
+  ],
+  "one_projector_half_dimensions": [
+    5376,
+    23296,
+    17920
+  ],
+  "formula": {
+    "homology": "(u,u+v,v)",
+    "codimension": "u^2+u*v+v^2",
+    "boundary_split": "independent outgoing/incoming strata; dimensions and codimensions add"
+  },
+  "representative_controls": [
+    {
+      "s": "0",
+      "homology": [
+        0,
+        0,
+        0
+      ],
+      "high_rank": 3,
+      "low_rank": 6,
+      "both_projector_squares": true,
+      "perturbation_rank": 0
+    },
+    {
+      "s": "1/2",
+      "homology": [
+        0,
+        0,
+        0
+      ],
+      "high_rank": 3,
+      "low_rank": 6,
+      "both_projector_squares": true,
+      "perturbation_rank": 1
+    },
+    {
+      "s": "1",
+      "homology": [
+        0,
+        1,
+        1
+      ],
+      "high_rank": 3,
+      "low_rank": 5,
+      "both_projector_squares": true,
+      "perturbation_rank": 1
+    },
+    {
+      "s": "2",
+      "homology": [
+        0,
+        0,
+        0
+      ],
+      "high_rank": 3,
+      "low_rank": 6,
+      "both_projector_squares": true,
+      "perturbation_rank": 1
+    }
+  ],
+  "entangled_projector_rank": 1,
+  "operator_schmidt_rank": 4,
+  "pairing_controls": [
+    {
+      "sign": 1,
+      "annihilates_image": true,
+      "representative_norm": "2"
+    },
+    {
+      "sign": -1,
+      "annihilates_image": true,
+      "representative_norm": "-2"
+    },
+    {
+      "sign": 0,
+      "annihilates_image": true,
+      "representative_norm": "0"
+    }
+  ],
+  "full_size_rank_one_endpoint": {
+    "ranks": [
+      10752,
+      35839
+    ],
+    "homology": [
+      0,
+      1,
+      1
+    ]
+  },
+  "extra_relation_control": {
+    "dimensions": [
+      4,
+      9,
+      6
+    ],
+    "homology": [
+      0,
+      0,
+      1
+    ],
+    "source_action_selected": false,
+    "changes_carrier": true
+  },
+  "factorwise_algebra": {
+    "spectral_multiplicities": [
+      192,
+      192,
+      64,
+      64
+    ],
+    "rank_divisor": 64,
+    "rank_one_loss_in_algebra": false,
+    "conditional_on_declared_spectral_decomposition": true,
+    "real_lift_independently_proved": false
+  },
+  "claim_boundary": {
+    "source_action_selected": false,
+    "functional_domain_proved": false,
+    "physical_cohomology": false,
+    "physical_positivity": false,
+    "ledger_changed": false,
+    "novel_general_theorem": false
+  }
+}

@@ -7,11 +7,22 @@ updated_at: "2026-10-20"
 
 # Next Steps For Contributors
 
+> **2026-10-20 NONFACTORIZED FINITE BOUNDARY.** K1821 gives the complete
+> homology budget `(u,u+v,v)` for K590's fixed spaces. Nonzero H0 plus higher
+> acyclicity needs a changed complex and an action-derived relation. The
+> entangled one-mode witness is supplied, not selected by the current R[A]
+> algebra. Derive the actual degeneracy-resolving action block; do not repeat
+> covariance, factorized lifting or small-perturbation contraction. Compare
+> that task with uniform-q collar/sublevel construction and the coupled A/R
+> action route. K1820's separate exact audit supports its new correlated
+> certificate but reuses upstream numerics; full canon review remains open.
+> See the K1821 result and K1820 independent review linked in Research Status.
+
 > **2026-10-20 FIXED-Q TWO-RADIUS OPTIMIZER CERTIFIED.** K1820 excludes all
 > alternative stationary candidates and proves positive Hessian on the sole
 > remaining root rectangle. Together with the accepted global domain, value
 > and boundary cover, this proves a unique minimizer at q=1/1024 in the
-> stated scalar family. Reproduce and independently review the composition;
+> stated scalar family. The later exact independent replay is recorded above;
 > any canon promotion requires a later pass. Compare parameter-family work
 > with the nonfactorized same-carrier action/observation successor. No new
 > fixed-q bank or boundary quadrature is needed. No unrestricted or physical

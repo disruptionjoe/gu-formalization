@@ -7,6 +7,11 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+## October 20 research evidence
+
+- [K1821 finite rank strata](conditional-build/k1821-k590-nonfactorized-rank-strata-2026-10-20.md) — active research, finite-model scope.
+- [K1820 independent exact review](k1820-independent-certificate-review-2026-10-20.md) — upstream numerical evidence reused.
+
 Navigation for the two current integrity-focused exploration families:
 
 - [`hardening/`](hardening/) — exact certificate and reproducibility hardening.

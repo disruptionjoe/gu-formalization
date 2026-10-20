@@ -8,6 +8,28 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-20 — K1821 finite rank-loss boundary and K1820 independent replay
+
+[K1821](explorations/conditional-build/k1821-k590-nonfactorized-rank-strata-2026-10-20.md)
+classifies all finite nilpotent deformations on K590's fixed dimensions:
+`(H2,H1,H0)=(u,u+v,v)`, with rank-stratum codimension `u²+uv+v²`.
+Thus nonzero H0 and positive-degree acyclicity require a changed carrier.
+A genuinely nonfactorized one-mode defect gives `(0,1,1)`; adding one supplied
+relation gives `(0,0,1)` on a larger degree-two space. Neither is action-selected.
+The current base-map tensor R[A] algebra has ranks divisible by 64 and cannot
+select the one-mode defect. Positive, negative and zero forms on the same
+quotient show that rank loss alone does not establish physical positivity.
+SC-ACT-01/02/06 remain ASSERTS, SC-META-53 UNCERTAIN; LT-SM8, LT-GR6b,
+RA-F1 and AC-F1 remain NEEDS. No ledger/canon/physical grade moves.
+
+The [independent K1820 review](explorations/k1820-independent-certificate-review-2026-10-20.md)
+uses a separate exact interpolation evaluator, with no producer import, and
+supports 79 gradient terminals, one whole convex root rectangle and zero
+unresolved terminals. Upstream quadrature, tails, derivative transport and
+outer-cover proofs are reused. This is partial independent verification,
+not completion of the full canon review. The fixed-q theorem remains active
+research; no new numerical bank is needed.
+
 ## 2026-10-20 — K1820 fixed-q two-radius global minimizer
 
 K1820 certifies a **unique global minimizer at q=1/1024** in the symmetric,

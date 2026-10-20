@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+## October 20 research evidence
+
+- `k1821_k590_rank_strata.py` and `_probe.py`: standard-library finite construction, rank and mutation checks.
+- `k1820_independent_certificate_audit.py --selftest`: independent rational terminal replay; no numerical quadrature.
+
 This local index records the three pre-contract probes added on 2026-08-05.
 The repository-wide family inventory remains in `tests/README.md`.
 
