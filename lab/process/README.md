@@ -9,6 +9,9 @@ updated_at: "2026-08-23"
 
 ## October 20 research evidence
 
+- `k1854-fisher-concentration-endpoint.json`: clipped-score constants, raw moments and concentration scope.
+- `k1855-fisher-gaussian-endpoint.json`: exact rational dual, Hermite trial, finite window and cubic/budget coefficients.
+
 - `k1852-membrane-screening-junction.json`: conditional charge/junction coefficients and inference boundaries.
 - `k1853-fisher-practical-gap.json`: exact rational compact-density and true-gap certificate inputs.
 

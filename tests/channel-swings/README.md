@@ -2,6 +2,9 @@
 
 ## October 20 research evidence
 
+- `k1854_fisher_concentration_endpoint.py` and `_probe.py`: piecewise identities, exact moments, transport/budget controls and input faults.
+- `k1855_fisher_gaussian_endpoint.py` and `_probe.py`: whole-line residual, Gaussian moments, whole-window polynomial bounds and cubic/inversion identities.
+
 - `k1852_membrane_screening_junction.py` and `_probe.py`: charge/junction identities, graph/lattice and adverse-input controls.
 - `k1853_fisher_practical_gap.py` and `_probe.py`: rational whole-cell potential bounds, actual-density transfer and independent input faults.
 

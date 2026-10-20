@@ -7,6 +7,41 @@ updated_at: "2026-10-20"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-20: unrestricted Fisher endpoint laws and effective budgets
+
+[K1854](explorations/k1854-fisher-concentration-endpoint-2026-10-20.md)
+proves delta*F(1+delta)->4 for the full moment class, with explicit bounds,
+transport concentration and finite high-budget brackets. Restricted K1841
+optimizers are leading-efficient but remain strictly suboptimal at finite k.
+No subleading k1 or balanced nonsymmetric-limit claim follows.
+
+[K1855](explorations/k1855-fisher-gaussian-endpoint-2026-10-20.md)
+proves F(3-q)-1=q²/6+q³/4+o(q³), plus an effective q<=1/25 bracket.
+The lower certificate is a rational score with a nonnegative whole-line
+residual; the upper is an exactly moment-matched squared-Hermite density.
+Gaussian convergence plus compact localization of the residual proves the
+cubic term without a uniform eighth moment. Explicit low-budget brackets,
+q_B=sqrt(6B)-(9/2)B+o(B), and TV<=sqrt(I-1)/2 to the Gaussian follow.
+These are independent mathematics, not GU physics or a novelty claim.
+
+Validation: each producer checks18 exact identity/interval groups. K1854's
+separate implementation has417 rational controls and6 mathematical-input plus
+4reporting fault detections. K1855's separate implementation has38 polynomial/
+moment groups and16 mathematical-input plus3reporting fault detections.
+Clean baselines precede mutations; only printed assertion failures count.
+The written weak-score, compact-liminf, inverse-function and Poincare arguments
+own the continuum conclusions. No proof assistant, independent person or
+external expert verification is claimed. One exact-probe fixture initially
+used a Python float at delta1; it was corrected to an exact integer before the
+passing baseline. No failed baseline was counted as mutation evidence.
+
+The older endpoint requests below are historical and answered at these scopes.
+Actual source metric/constraint/observation ownership, a quantitative restricted
+k2 gap, k1 subleading behavior and Gaussian quartic order remain distinct.
+SC-COS-50/51/54 and SC-ACT-01/02 remain ASSERTS; SC-META-53 UNCERTAIN.
+Physics ledger and canon verdicts are unchanged.
+
+
 ## 2026-10-20: charged-wall matching and practical full-line Fisher stability
 
 [K1852](explorations/conditional-build/k1852-membrane-screening-junction-2026-10-20.md)

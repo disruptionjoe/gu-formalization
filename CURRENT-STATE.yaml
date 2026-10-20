@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 70244966156ed4aff18d1c0d3578b75050840d90
+revision_basis: 20177b9d8d4add84751e0503574222571f5e3424
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,17 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1854 proves the unrestricted concentration endpoint: delta*F(1+delta)->4,
+    with explicit global lower/upper bounds, W2 concentration and finite high-budget
+    brackets. K1855 proves the Gaussian endpoint F(3-q)-1=q²/6+q³/4+o(q³),
+    using a nonnegative whole-line rational-score residual and an exactly feasible
+    squared-Hermite trial. For q<=1/25 it also gives q²/[2(3-q)]<=F-1<=
+    q²(1+2q)/6. Low-budget q_B=sqrt(6B)-(9/2)B+o(B) and Gaussian TV control
+    follow. No higher-moment bound is assumed for the cubic liminf. No GU physics,
+    restricted finite-k gap, k1 subleading constant or quartic Gaussian coefficient.
+    Source/ledger/canon verdicts remain unchanged.
+
+    Historical predecessor results at their original scope:
     K1852 derives the charged-wall extension: q=alpha*[rho] cancels bulk
     curvature jumps, but tension requires a metric shell. Fixed charges retain
     only common region shifts; lattice and global-current constraints and an
@@ -15285,6 +15296,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/k1854-fisher-concentration-endpoint-2026-10-20.md
+    - lab/process/k1854-fisher-concentration-endpoint.json
+    - explorations/k1855-fisher-gaussian-endpoint-2026-10-20.md
+    - lab/process/k1855-fisher-gaussian-endpoint.json
     - explorations/conditional-build/k1852-membrane-screening-junction-2026-10-20.md
     - explorations/k1853-fisher-practical-gap-2026-10-20.md
     - lab/process/k1852-membrane-screening-junction.json
@@ -16024,6 +16039,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which same-action source metric/observation adapter most directly tests vacuum
+  response, or what uniform all-density next-order concentration argument beats
+  the completed endpoint laws? K1854 closes leading k1 and K1855 closes Gaussian
+  quadratic and cubic asymptotics with effective brackets. Do not rerun those
+  consumers or transplant K1841 restricted subleading powers.
+
+  Historical predecessor question/condition, now answered at the endpoint scopes:
   What uniform concentration or perturbation argument settles unrestricted
   Fisher endpoint behavior, or what actual source-owned metric/observation
   adapter supplies a useful test beyond conditional top-form constructions?
@@ -19109,6 +19131,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Compare the actual source torsion/Shiab metric-variation and observation
+  adapter with a uniform k1 subleading/blow-up theorem or a certified restricted
+  k2 lower bound. Gaussian quartic order needs a quantitative residual/score
+  response beyond TV convergence; the cubic coefficient is already closed.
+  Reuse both endpoint budgets and fixed-k K1853 stability. Preserve source,
+  ledger, canon and raw-moment versus centered-variance distinctions.
+
+  Historical predecessor question/condition, now answered at the endpoint scopes:
   Compare unrestricted Fisher endpoint estimates and same-k restricted global
   bounds against the cheapest actual source metric/constraint/observation
   adapter. Reuse K1853 full-line gap>1/47 and K1852 matching/junction/current

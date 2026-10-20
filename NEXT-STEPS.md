@@ -7,6 +7,16 @@ updated_at: "2026-10-20"
 
 # Next Steps For Contributors
 
+> **2026-10-20 UNRESTRICTED ENDPOINTS CLOSED AT STATED ORDERS.**
+> K1854 proves the all-density k1 leading cost4/(k-1), concentration and
+> high-budget brackets. K1855 proves the Gaussian quadratic/cubic law,
+> effective q<=1/25 bounds, low-budget correction and Gaussian shape control.
+> Compare a native metric/observation adapter with a uniform k1 subleading
+> theorem or restricted-k2 global lower bound. Gaussian quartic order needs
+> stronger residual/score control; another leading endpoint proof is duplicate.
+> Source/ledger/canon unchanged. Older endpoint requests below are historical.
+
+
 > **2026-10-20 CHARGED WALLS AND PRACTICAL VANISHING STABILITY.**
 > K1852 derives charge-matched bulk cancellation with a remaining metric
 > shell; fixed-charge local shifts, charge lattices and global-current periods

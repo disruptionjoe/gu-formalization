@@ -9,6 +9,9 @@ updated_at: "2026-08-21"
 
 ## October 20 research evidence
 
+- [K1854 unrestricted concentration](k1854-fisher-concentration-endpoint-2026-10-20.md): sharp leading k1 cost, transport and budget bounds.
+- [K1855 Gaussian endpoint](k1855-fisher-gaussian-endpoint-2026-10-20.md): rational dual, sharp cubic law, effective brackets and low-budget correction.
+
 - [K1852 charged-wall matching](conditional-build/k1852-membrane-screening-junction-2026-10-20.md): bulk compensation, wall stress, fixed-charge and global-current constraints.
 - [K1853 practical Fisher gap](k1853-fisher-practical-gap-2026-10-20.md): full-line gap>1/47, vanishing TV and moment/Sobolev error bounds.
 

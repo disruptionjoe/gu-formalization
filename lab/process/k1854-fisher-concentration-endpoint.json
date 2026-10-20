@@ -1,0 +1,25 @@
+{
+  "artifact": "K1854_FISHER_CONCENTRATION_ENDPOINT",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "clip_radius": 1,
+  "derivative_linear": 2,
+  "derivative_indicator": 1,
+  "lower_error": 3,
+  "upper_moment_coefficients": [
+    1,
+    4,
+    -2
+  ],
+  "leading_coefficient": 4,
+  "balanced_without_symmetry": false,
+  "tv_to_atomic": false,
+  "subleading_claim": false,
+  "novelty": false,
+  "dependencies": [
+    {
+      "path": "lab/process/k1843-unrestricted-fisher-variational-gap.json",
+      "sha256": "0e4e2db2e009236aed01d461b9b1847eb27ae34244465cad0624fe92ee8d58bb"
+    }
+  ]
+}
