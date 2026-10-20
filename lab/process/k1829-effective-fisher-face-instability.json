@@ -1,0 +1,50 @@
+{
+  "result_id": "K1829",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "constants": {
+    "overlap_constant": 168,
+    "exp_minus_32_upper": "122529844256906551386796875/680564733841876926926749214863536422912",
+    "single_direction_r": "1/2",
+    "uniform_direction_r_interval": [
+      "1/4",
+      "1/2"
+    ]
+  },
+  "interval_certificates": [
+    {
+      "inverse_v": 4096,
+      "exponent_coefficient": "1/128",
+      "scaled_error_upper": "2573126729395037579122734375/5070602400912917605986812821504",
+      "half_margin_lower": "7/144",
+      "q_lower": "16769025/8388608"
+    },
+    {
+      "inverse_v": 16384,
+      "exponent_coefficient": "1/512",
+      "scaled_error_upper": "2573126729395037579122734375/316912650057057350374175801344",
+      "half_margin_lower": "7/144",
+      "q_lower": "268402689/134217728"
+    }
+  ],
+  "results": {
+    "single_direction_derivative_upper": "-7t/(72v^2)",
+    "uniform_direction_derivative_upper": "-kappa(r)t/(2v^2)",
+    "kappa": "1/(1+r)^2-1/4",
+    "z_15_over_16_derivative_less_than_z_3_over_4_on_uniform_interval": true,
+    "boundary_second_variation_lower": "exp(1/(8v))/(1024*v^(3/2))-1706/v^6",
+    "boundary_second_variation_positive_for_v_le": "1/4096",
+    "true_transition_located": false,
+    "explicit_finite_descent_step": "7*v^4*exp(-32/v)/(288*10^12)",
+    "uniform_second_derivative_upper": "2*10^12*v^-6*exp(32/v)",
+    "minimizing_displacement_identified": false,
+    "global_shape_uniqueness": false,
+    "z_one_face_excluded": false,
+    "physical_or_canon_promotion": false
+  },
+  "inputs": {
+    "lab/process/k1827-endpoint-fisher-asymptotic.json": "98079fba340dccc9db94719046d16f8df9dd2a8143a40baa747e2e6d358cc9a8",
+    "lab/process/k1825-global-q-fisher-transfer.json": "e11168df8cbba5d228b0c5ef00675c7f7eb08c1f4641719d2ce153cae5edf73e"
+  }
+}

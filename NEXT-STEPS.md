@@ -7,6 +7,20 @@ updated_at: "2026-10-20"
 
 # Next Steps For Contributors
 
+> **2026-10-20 RAW COMPLETION AND EFFECTIVE BOUNDARY.** K1828 classifies
+> raw zero-form column completions and tests the minimal two-cell repair;
+> a southeast permission alone does not select it. K1829 gives a certified
+> high-q interval excluding c=0, improving-direction ordering, and a positive
+> pointwise second-variation bound, followed by a uniform interval bound and
+> explicit finite descent step. Next intersect the raw completion class with
+> an actual supplied mixed-action/barred return, or derive a sharp subleading
+> shape functional or near-optimal displacement bound.
+> Do not repeat arbitrary matrix plants, leading endpoint growth or boundary
+> signs. Earlier uncomputed-threshold instructions are historical: a
+> sufficient threshold is now known; the actual transition and minimizing
+> shape remain open. See Research Status for scope and verification.
+
+
 > **2026-10-20 COEFFICIENT CLASSES AND SHARP ENDPOINT CLOSED.** K1826
 > classifies equal-slot graph-preserving coefficients; their joint algebra
 > with principal maps has sharp rank unit 32. An independent zero-form

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: b4e69a9b88bf48d46860596a0aec326efe8fe72e
+revision_basis: 75083b7fb9931a3336d2ad0cab73a65def7c45cb
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1828 proves that a nonzero raw southeast-only block leaks from the fixed
+    H640 graph and E512 with rank(B) leakage, and constructs its unique
+    time-output companion within the two-cell support. The complete corrected
+    one-column affine completion space for prescribed B has dimension 49,152.
+    No coefficient is source-selected. K1829 supplies an explicit sufficient
+    Rademacher-instability interval 2(4095/4096)^2 <= q < 2, uniform improving
+    directions and exact derivative ordering on a smaller interval. At z=3/4
+    the actual second c variation has an explicit positive exponential lower
+    bound for v<=1/4096. A separate uniform bound on 0<=c<=v/4 supplies
+    explicit finite descent c=7v^4 exp(-32/v)/(288*10^12). This conservative
+    witness is not a minimizing scale, true transition, z=1 exclusion or shape
+    uniqueness.
+    Source, physics ledger and canon are unchanged.
+
+    Previous normalized-coefficient and leading-endpoint results, retained;
+    their uncomputed sufficient-threshold statement is superseded by K1829:
     K1826 classifies every identical-slot internal normalized coefficient
     preserving the actual H640 graph: B=aI+bOmega. With the principal maps,
     the enlarged algebra is M8(C) plus M8(C), each factor repeated sixteen
@@ -15104,6 +15120,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1828-k77-raw-zero-form-completion-2026-10-20.md
+    - lab/process/k1828-k77-raw-zero-form-completion.json
+    - explorations/k1829-effective-fisher-face-instability-2026-10-20.md
+    - lab/process/k1829-effective-fisher-face-instability.json
     - explorations/conditional-build/k1826-k77-graph-preserving-internal-coefficients-2026-10-20.md
     - lab/process/k1826-k77-graph-preserving-internal-coefficients.json
     - explorations/k1827-endpoint-fisher-asymptotic-2026-10-20.md
@@ -15795,6 +15815,17 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which actual same-background mixed-action coefficient and barred return
+  lies in K1828's now explicit corrected-compatible raw-column affine space?
+  A southeast-only block fails, but its two-cell repair exists; neither result
+  selects an action or physical quotient. Independently, can a sharp rescaled
+  functional or near-optimal displacement bound determine the minimizing
+  shape? K1829 certifies a sufficient high-q interval, direction ordering,
+  positive boundary curvature and an explicit conservative finite descent
+  witness. That step is not the optimizing scale; repeating the sign or
+  lowering the sufficient threshold does not select a shape.
+
+  Previous question, now partially resolved by K1828/K1829:
   Graph compatibility by itself no longer limits finite rank selection once
   the zero-form coefficient is independent. Which constrained same-background
   raw coefficient K=D0C actually comes from the coupled variation and respects
@@ -18765,6 +18796,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Reuse K1828's raw return T=gamma0 S, repair N=T^-1 B and complete affine
+  parametrization rather than constructing another unowned seed. Test actual
+  coupled variation/barred-adjoint data if supplied, preserving the fixed-graph
+  ceiling and all stationarity, relation and domain debts. For the scalar
+  family, derive a controlled subleading shape functional or a near-optimal
+  displacement bound. K1829's finite step uses its separate uniform
+  second-derivative estimate and is not a minimizing-scale theorem. The effective q0 uniqueness route still requires exterior gap
+  and uniform parameter-Hessian estimates. Source SC-OP-04/ACT-01/02/06
+  ASSERTS and SC-OP-05/META-53 UNCERTAIN; no physical or canon promotion.
+
+  Previous continuation, with the raw-column and sufficient-threshold gaps closed:
   Reuse K1826's exact graph commutant, two-sector rank-32 theorem and
   different-slot full M512(R) closure. Test a constrained raw mixed-action
   coefficient with its normalized return on the same background; the supplied

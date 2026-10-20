@@ -2,6 +2,9 @@
 
 ## October 20 research evidence
 
+- `k1828_k77_raw_zero_form_completion.py` and `_probe.py`: Sage exact raw normalization, graph defects and complete column parametrization.
+- `k1829_effective_fisher_face_instability.py` and `_probe.py`: rational whole-interval bounds and Gaussian first/second variation controls.
+
 - `k1826_k77_graph_preserving_internal_coefficients.py --check` and `_probe.py`: Sage rational graph classes, module separation and row/column cyclicity.
 - `k1827_endpoint_fisher_asymptotic.py` and `_probe.py`: clipped-score proof controls, endpoint/inverse bounds and exact contrary densities.
 

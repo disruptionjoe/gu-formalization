@@ -9,6 +9,9 @@ updated_at: "2026-08-21"
 
 ## October 20 research evidence
 
+- [K1828 raw zero-form completion](conditional-build/k1828-k77-raw-zero-form-completion-2026-10-20.md): exact leakage, minimal repair and full affine completion.
+- [K1829 effective Fisher boundary](k1829-effective-fisher-face-instability-2026-10-20.md): explicit instability interval, direction ordering, curvature and finite descent.
+
 - [K1826 graph-preserving coefficients](conditional-build/k1826-k77-graph-preserving-internal-coefficients-2026-10-20.md): complete conditional classes, sharp rank 32 and changed-slot full algebra.
 - [K1827 sharp Fisher endpoint](k1827-endpoint-fisher-asymptotic-2026-10-20.md): bounded-error 4/(2-q), inverse bounds and eventual Rademacher-face instability.
 

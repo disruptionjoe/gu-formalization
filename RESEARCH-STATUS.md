@@ -8,6 +8,39 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-20: raw coefficient completion and effective Fisher boundary
+
+[K1828](explorations/conditional-build/k1828-k77-raw-zero-form-completion-2026-10-20.md)
+distinguishes a raw southeast block from a normalized zero-form map. Every
+nonzero southeast-only B leaks from the fixed H640 graph and corrected E512,
+with rank(B) leakage. The unique repair in the time-output/zero-form-output
+support adds N=S^-1 gamma0 B, yielding a pure zero-form normalized map.
+All corrected-compatible one-column completions with prescribed B form an
+affine space of dimension 49,152. This is conditional compatibility, not
+source action ownership. SC-OP-04 remains ASSERTS, SC-OP-05 UNCERTAIN;
+SC-ACT-01/02/06 ASSERTS, SC-META-53 UNCERTAIN and physics grades are unchanged.
+
+[K1829](explorations/k1829-effective-fisher-face-instability-2026-10-20.md)
+proves Rademacher-face instability for 2(4095/4096)^2 <= q < 2 using an
+explicit overlap constant and exact rational exponential bounds. The lower
+endpoint is sufficient, not the true transition. For v<=1/16384, all
+z in [3/4,15/16] improve infinitesimally, with a strictly more negative
+derivative at 15/16 than at 3/4. At z=3/4 the actual second c derivative
+has lower bound exp(1/(8v))/(1024 v^(3/2))-1706/v^6>0 for v<=1/4096.
+This includes the nonlinear chart's second derivative. A separate uniform
+upper bound on 0<=c<=v/4 gives the explicit improving step
+c=7v^4 exp(-32/v)/(288*10^12). It is a conservative witness, not the
+minimizing scale or true transition. No minimizing displacement, z=1
+exclusion or all-q shape uniqueness is inferred. No numerical bank was rerun.
+
+Exact full-fixture checks, a separate small-model elimination and analytic
+Gaussian controls have different scopes; reporting mutations are not
+independent mathematical proof. No separate-agent review was performed.
+Both reports remain active research. The prior K1827 threshold language below
+is historical; K1829 now supplies a sufficient interval, pointwise second
+variation and finite descent, while the true onset and shape remain unresolved.
+
+
 ## 2026-10-20: complete internal-coefficient classes and sharp Fisher endpoint
 
 [K1826](explorations/conditional-build/k1826-k77-graph-preserving-internal-coefficients-2026-10-20.md) classifies all equal-slot internal normalized maps preserving

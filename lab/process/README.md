@@ -9,6 +9,9 @@ updated_at: "2026-08-23"
 
 ## October 20 research evidence
 
+- `k1828-k77-raw-zero-form-completion.json`: conditional raw-column completion and exact fixture checks.
+- `k1829-effective-fisher-face-instability.json`: effective overlap, direction and boundary-curvature witnesses.
+
 - [K1826 internal-coefficient classes](k1826-k77-graph-preserving-internal-coefficients.json).
 - [K1827 endpoint Fisher asymptotic](k1827-endpoint-fisher-asymptotic.json).
 
