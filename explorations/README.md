@@ -9,6 +9,9 @@ updated_at: "2026-08-21"
 
 ## October 20 research evidence
 
+- [K1852 charged-wall matching](conditional-build/k1852-membrane-screening-junction-2026-10-20.md): bulk compensation, wall stress, fixed-charge and global-current constraints.
+- [K1853 practical Fisher gap](k1853-fisher-practical-gap-2026-10-20.md): full-line gap>1/47, vanishing TV and moment/Sobolev error bounds.
+
 - [K1850 metric ensembles](conditional-build/k1850-metric-screening-ensembles-2026-10-20.md): fixed-flux shift covariance, fixed-multiplier contrast and on-shell sphere controls.
 - [K1851 parity stability](k1851-fisher-parity-stability-2026-10-20.md): true-optimizer TV below0.093, explicit moment and symmetry-error budgets.
 

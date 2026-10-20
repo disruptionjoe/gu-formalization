@@ -9,6 +9,9 @@ updated_at: "2026-08-23"
 
 ## October 20 research evidence
 
+- `k1852-membrane-screening-junction.json`: conditional charge/junction coefficients and inference boundaries.
+- `k1853-fisher-practical-gap.json`: exact rational compact-density and true-gap certificate inputs.
+
 - `k1850-metric-screening-ensembles.json`: exact boundary-ensemble, topology and sphere certificate.
 - `k1851-fisher-parity-stability.json`: rational half-line Stein, total-variation and robustness certificate.
 

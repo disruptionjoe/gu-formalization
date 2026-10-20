@@ -1,0 +1,46 @@
+{
+  "artifact": "K1853_FISHER_PRACTICAL_GAP",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "N": [
+    "-26379/25000",
+    "12003/10000",
+    "137193/500000"
+  ],
+  "D": [
+    "1",
+    "266879/500000",
+    "43447/2000000"
+  ],
+  "delta": "243/200000",
+  "grid_steps": 128,
+  "potential_lower": "-1/5",
+  "potential_upper": "2",
+  "reference_density_lower": "1/25",
+  "true_density_lower": "1681/78400",
+  "gap_denominator": 47,
+  "kinetic_coefficient": 4,
+  "second_moment": 1,
+  "fourth_moment": 2,
+  "full_line": true,
+  "optimizer_equals_reference": false,
+  "novelty": false,
+  "dependencies": [
+    {
+      "path": "lab/process/k1843-unrestricted-fisher-variational-gap.json",
+      "sha256": "0e4e2db2e009236aed01d461b9b1847eb27ae34244465cad0624fe92ee8d58bb"
+    },
+    {
+      "path": "lab/process/k1845-fisher-certified-moment-bounds.json",
+      "sha256": "cdb0a7d064ed81a64a951671526dc2059013c21c09b890dc8e69abead8eb652f"
+    },
+    {
+      "path": "lab/process/k1849-fisher-effective-gap.json",
+      "sha256": "f6ac691ee193558ef31aee6fb8f3d7bdb42ec5a4eea5ab6093d7d2d1bc3d15f1"
+    },
+    {
+      "path": "lab/process/k1851-fisher-parity-stability.json",
+      "sha256": "11f1c50f92e689823ff6aa586cc5878cb8f4cef6c7c7924ed2472019a14ef627"
+    }
+  ]
+}

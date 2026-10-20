@@ -1,0 +1,24 @@
+{
+  "artifact": "K1852_MEMBRANE_SCREENING_JUNCTION",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "multiplier_jump_charge_factor": "-1",
+  "metric_trace_factor": 4,
+  "wall_dimension": 3,
+  "israel_stress_factor": "-1",
+  "tension_jump_factor": "-1/2",
+  "angular_tension_factor": "1/2",
+  "opposite_radical_factor": "1/4",
+  "charge_update_factor": "1",
+  "global_current_exact": true,
+  "uniform_shift_survives": true,
+  "all_equal_curvature_walls_impossible": false,
+  "GU_adapter": false,
+  "nucleation_theorem": false,
+  "dependencies": [
+    {
+      "path": "lab/process/k1850-metric-screening-ensembles.json",
+      "sha256": "4fadf28120d622d7754fd50f380595eec9c1222b01c2a609fb88fc619a90b125"
+    }
+  ]
+}

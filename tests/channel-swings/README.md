@@ -2,6 +2,9 @@
 
 ## October 20 research evidence
 
+- `k1852_membrane_screening_junction.py` and `_probe.py`: charge/junction identities, graph/lattice and adverse-input controls.
+- `k1853_fisher_practical_gap.py` and `_probe.py`: rational whole-cell potential bounds, actual-density transfer and independent input faults.
+
 - `k1850_metric_screening_ensembles.py` and `_probe.py`: action/ensemble and sphere identities with independent rational controls.
 - `k1851_fisher_parity_stability.py` and `_probe.py`: exact polynomial/Stein constants and independent rational controls.
 

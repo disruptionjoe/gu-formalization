@@ -8,6 +8,41 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-20: charged-wall matching and practical full-line Fisher stability
+
+[K1852](explorations/conditional-build/k1852-membrane-screening-junction-2026-10-20.md)
+tests an explicitly charged membrane extension of the affine metric/top-form
+model. Charge matching cancels a bulk vacuum jump, but tension still gravitates.
+Fixed charges permit only common shifts across a connected region graph;
+charge lattices and exact-current topology add constraints. An opposite-normal
+equal-curvature wall is retained as a nontrivial control against overbroad
+nonexistence. No GU adapter, nucleation or relaxation theorem is supplied.
+SC-COS-50/51/54 and SC-ACT-01/02 remain ASSERTS; SC-META-53 UNCERTAIN.
+
+[K1853](explorations/k1853-fisher-practical-gap-2026-10-20.md)
+proves the true k2 optimizer's full-line quartic gap exceeds1/47, with
+TV<=sqrt(47*(I-F)) for all normalized densities with raw second moment1 and
+fourth moment2. This is a useful vanishing modulus without symmetry or a
+fitted optimizer Hamiltonian. Approximate-moment and square-root Sobolev
+bounds follow. The existing value interval gives TV<0.24 without symmetry;
+K1851 remains sharper at fixed precision for even densities. No endpoint,
+restricted quantitative gap or physics claim follows.
+
+Validation: K1852 has78 exact algebra controls and210 separately implemented
+rational controls, with8 mathematical input/reference faults and5 reporting faults.
+K1853 certifies monotone rational integration and transfer constants exactly;
+its separate implementation uses a finer whole-cell enclosure,10 Gaussian
+identity controls,11 mathematical input/reference faults and3 reporting faults.
+Dependency hashes reuse the preceding rigorous residual and actual-tail
+certificates. Inline analytic/hostile review owns the distributional and
+weighted-Hardy transfer; finite checks are not continuum or formal proofs.
+No separate-agent or external-expert verification or novelty is claimed.
+
+Earlier requests for a useful vanishing fixed-k modulus and a full-line
+symmetry-free extension are answered at this scope. Unrestricted endpoint
+asymptotics and same-k restricted improvement remain distinct. Source,
+physics ledger, canon and K1845's value bracket are unchanged.
+
 ## 2026-10-20: metric boundary ensembles and useful Fisher shape accuracy
 
 [K1850](explorations/conditional-build/k1850-metric-screening-ensembles-2026-10-20.md)
@@ -31,7 +66,7 @@ This meets the prior TV<0.1 consumer without computing a new optimizer spectrum.
 excess energy; K1849's separate effective-gap theorem remains valid.
 
 Validation: K1850 has36 exact algebra groups and295 independent rational
-controls, including10 mathematical input faults and7 separate reporting faults.
+controls, including10 mathematical input/reference faults and7 separate reporting faults.
 K1851 has34 exact groups and146 independent controls, including11 mathematical
 input faults and5 reporting faults. All four scripts pass. A separate reviewer
 checked the written analytic arguments; finite controls do not prove the

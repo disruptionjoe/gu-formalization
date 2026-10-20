@@ -7,6 +7,19 @@ updated_at: "2026-10-20"
 
 # Next Steps For Contributors
 
+> **2026-10-20 CHARGED WALLS AND PRACTICAL VANISHING STABILITY.**
+> K1852 derives charge-matched bulk cancellation with a remaining metric
+> shell; fixed-charge local shifts, charge lattices and global-current periods
+> are explicit constraints. A source-native adapter and physical transition
+> law remain separate. K1853 closes useful vanishing Fisher stability and
+> its nonsymmetric extension with a full-line gap>1/47. Do not rerun these
+> consumers or identify the score reference with the optimizer. Next compare
+> unrestricted endpoint analysis or same-k restricted quantitative gain
+> against an actual source metric/observation adapter. New membrane examples
+> without an identified physical consumer do not supply that adapter.
+> The older useful-modulus requests below are historical and now answered.
+
+
 > **2026-10-20 METRIC ENSEMBLES AND USEFUL SHAPE ACCURACY.**
 > K1850 classifies fixed-flux versus fixed-multiplier response, with a complete
 > sphere control and nonlinear failure. A source-native metric/constraint
