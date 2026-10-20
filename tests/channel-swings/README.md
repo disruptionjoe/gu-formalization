@@ -2,6 +2,9 @@
 
 ## October 20 research evidence
 
+- `k1826_k77_graph_preserving_internal_coefficients.py --check` and `_probe.py`: Sage rational graph classes, module separation and row/column cyclicity.
+- `k1827_endpoint_fisher_asymptotic.py` and `_probe.py`: clipped-score proof controls, endpoint/inverse bounds and exact contrary densities.
+
 - `k1824_k77_joint_observed_symbol_algebra.py --check` and `_probe.py`: Sage QQ joint-algebra certificate and independent small-algebra controls.
 - `k1825_global_q_fisher_transfer.py` and `_probe.py`: rational transfer/budget controls and analytic all-q proof, no quadrature.
 

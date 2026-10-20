@@ -8,6 +8,40 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-20: complete internal-coefficient classes and sharp Fisher endpoint
+
+[K1826](explorations/conditional-build/k1826-k77-graph-preserving-internal-coefficients-2026-10-20.md) classifies all equal-slot internal normalized maps preserving
+the actual H640 graph: B=aI+bOmega. Their joint algebra with the principal
+maps is M8(C) plus M8(C), each factor repeated sixteen times, with sharp rank
+unit 32. An independent zero-form coefficient gives a graph-preserving
+rank-one map; exact row and column cyclicity prove that this larger class
+and the principal maps generate M512(R). These are conditional algebra
+availability results. Raw K=D0C, source-selected interactions, barred adjoints,
+stationarity, physical relations and domains remain distinct obligations.
+SC-ACT-01/02/06 remain ASSERTS, SC-META-53 UNCERTAIN; the physics ledger is unchanged.
+
+[K1827](explorations/k1827-endpoint-fisher-asymptotic-2026-10-20.md) proves V(q)=4/(2-q)+O(1) uniformly over changing scalar
+shapes. The explicit bounds are 4/(2-q)-551/27 <= V(q) <= 4/(2-q)-3/2.
+For every positive budget B, its unique parameter satisfies
+4/(B+551/27) <= 2-q_B <= 2(1+2B)/(1+B)^2. The unrestricted centered
+unit-variance density infimum with the same fourth moment shares this sharp
+endpoint envelope; no finite-parameter attainment or optimizer is asserted
+for that larger class. Rademacher channels are asymptotically optimal in
+value ratio. A compact double-bump counterexample shows that convergence to
+Rademacher alone does not imply Fisher optimality. A further first-variation argument
+proves the Rademacher face is not a local minimum for all q sufficiently
+close to 2: at fixed z=3/4 its inward derivative has leading value
+-7t/(36v^2), with an exponentially small overlap remainder. No explicit
+transition parameter, minimizing displacement, z=1 exclusion or uniqueness
+is claimed. Thus ratio optimality and exact face minimization differ.
+
+The coefficient theorem uses exact rational reconstruction, complete signed
+Clifford-basis commutation and explicit module equivalences. The scalar
+proof uses a clipped weak-score test and exact moment controls, without any
+numerical bank. Independent proof review and mathematical contrary controls
+are distinct from manifest/reporting mutations. All findings remain active
+research; no source, physical, ledger, canon or novelty promotion occurs.
+
 ## 2026-10-20: full observed algebra and global scalar value
 
 [K1824](explorations/conditional-build/k1824-k77-joint-observed-symbol-algebra-2026-10-20.md) enlarges the single-direction algebra to all three corrected

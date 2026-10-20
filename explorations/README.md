@@ -9,6 +9,9 @@ updated_at: "2026-08-21"
 
 ## October 20 research evidence
 
+- [K1826 graph-preserving coefficients](conditional-build/k1826-k77-graph-preserving-internal-coefficients-2026-10-20.md): complete conditional classes, sharp rank 32 and changed-slot full algebra.
+- [K1827 sharp Fisher endpoint](k1827-endpoint-fisher-asymptotic-2026-10-20.md): bounded-error 4/(2-q), inverse bounds and eventual Rademacher-face instability.
+
 - [K1824 joint observed algebra](conditional-build/k1824-k77-joint-observed-symbol-algebra-2026-10-20.md): exact M8(C) with sharp rank64, no physical selection.
 - [K1825 global parameter value](k1825-global-q-fisher-transfer-2026-10-20.md): all-q boundary-inclusive attainment and unique Fisher-budget parameter.
 

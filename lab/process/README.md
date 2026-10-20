@@ -9,6 +9,9 @@ updated_at: "2026-08-23"
 
 ## October 20 research evidence
 
+- [K1826 internal-coefficient classes](k1826-k77-graph-preserving-internal-coefficients.json).
+- [K1827 endpoint Fisher asymptotic](k1827-endpoint-fisher-asymptotic.json).
+
 - [K1824 joint symbol algebra](k1824-k77-joint-observed-symbol-algebra.json).
 - [K1825 global-q Fisher transfer](k1825-global-q-fisher-transfer.json).
 

@@ -1,0 +1,156 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K1827",
+  "status": "active_research",
+  "scope": "uniform fourth-moment Fisher lower bound and endpoint envelopes; high-q Rademacher-face instability with existential threshold; no full optimizer characterization",
+  "input_sha256": {
+    "lab/process/k1825-global-q-fisher-transfer.json": "e11168df8cbba5d228b0c5ef00675c7f7eb08c1f4641719d2ce153cae5edf73e"
+  },
+  "constants": {
+    "A": "131/54",
+    "C": "551/27",
+    "clipped_threshold": "1/2",
+    "derivative_loss_max": "13/12",
+    "central_mass_factor": "16/9"
+  },
+  "identities": {
+    "moment": "E(Y^2-1)^2=delta=2-q",
+    "test": "f(y)=(y^2-1)*clip(2*y,-1,1)/2",
+    "derivative": "3*y^2-1 for abs(y)<1/2; abs(y) for abs(y)>1/2; a.e. only",
+    "weak_score": "E[s*f]=-E[fprime]",
+    "ordinary_relative": "J=I-1 for E[Y^2]=1",
+    "uniform_lower": "J>=max(0,4*max(0,1-A*delta)^2/delta-1)",
+    "additive_bounds": "4/delta-C<=V(2-delta)<=4/delta-3/2",
+    "inverse_bracket": "4/(B+C)<=2-q_B<=2*(1+2*B)/(1+B)^2"
+  },
+  "results": {
+    "sharp_endpoint_coefficient": "4",
+    "family_value": "V(q)=4/(2-q)+O(1)",
+    "unrestricted_density_infimum": "U(delta)=4/delta+O(1); centered second moment 1, fourth moment 1+delta, finite weak-score Fisher",
+    "inverse_rate": "2-q_B=4/B+O(B^-2)",
+    "rademacher_value_ratio_to_minimum_tends_to_one": true,
+    "all_admissible_symmetric_outputs_W2_squared_to_rademacher_at_most_delta": true,
+    "exact_rademacher_minimizer_at_finite_q": false,
+    "rademacher_face_excluded_for_all_sufficiently_high_q": true,
+    "explicit_qstar_or_uniform_c_descent_step": null,
+    "constant_term_asymptotic_identified": false,
+    "unrestricted_density_infimum_attainment_or_uniqueness": false,
+    "all_q_shape_uniqueness_or_interior_attainment": false,
+    "effective_uniqueness_radius": null
+  },
+  "endpoint_bounds": [
+    {
+      "delta": "1/2",
+      "q": "3/2",
+      "delta_value_lower": "0",
+      "delta_value_upper": "13/4"
+    },
+    {
+      "delta": "1/4",
+      "q": "7/4",
+      "delta_value_lower": "4309/11664",
+      "delta_value_upper": "29/8"
+    },
+    {
+      "delta": "1/8",
+      "q": "15/8",
+      "delta_value_lower": "84769/46656",
+      "delta_value_upper": "61/16"
+    },
+    {
+      "delta": "1/16",
+      "q": "31/16",
+      "delta_value_lower": "525625/186624",
+      "delta_value_upper": "125/32"
+    },
+    {
+      "delta": "1/64",
+      "q": "127/64",
+      "delta_value_lower": "11008969/2985984",
+      "delta_value_upper": "509/128"
+    },
+    {
+      "delta": "1/256",
+      "q": "511/256",
+      "delta_value_lower": "187311625/47775744",
+      "delta_value_upper": "2045/512"
+    },
+    {
+      "delta": "1/1024",
+      "q": "2047/1024",
+      "delta_value_lower": "3042430729/764411904",
+      "delta_value_upper": "8189/2048"
+    }
+  ],
+  "inverse_bounds": [
+    {
+      "budget": "1/1000",
+      "delta_lower": "108000/551027",
+      "delta_upper": "2004000/1002001",
+      "four_over_budget_error_upper": "2204000000/551027"
+    },
+    {
+      "budget": "1",
+      "delta_lower": "54/289",
+      "delta_upper": "3/2",
+      "four_over_budget_error_upper": "1102/289"
+    },
+    {
+      "budget": "10",
+      "delta_lower": "108/821",
+      "delta_upper": "42/121",
+      "four_over_budget_error_upper": "1102/4105"
+    },
+    {
+      "budget": "100",
+      "delta_lower": "108/3251",
+      "delta_upper": "402/10201",
+      "four_over_budget_error_upper": "551/81275"
+    },
+    {
+      "budget": "1000",
+      "delta_lower": "108/27551",
+      "delta_upper": "4002/1002001",
+      "four_over_budget_error_upper": "551/6887750"
+    },
+    {
+      "budget": "1000000",
+      "delta_lower": "108/27000551",
+      "delta_upper": "4000002/1000002000001",
+      "four_over_budget_error_upper": "551/6750137750000"
+    }
+  ],
+  "face_instability": {
+    "fixed_z": "3/4",
+    "inner_to_outer_mean_ratio": "1/2",
+    "weight_c_derivative": "16/9",
+    "outer_mean_c_derivative": "19*m/24",
+    "noise_c_derivative": "-t/4",
+    "isolated_lobe_fisher_c_derivative": "-7*t/(36*v^2)",
+    "overlap_identity": "G-Gplus=(T-1)*(2*m*y+m^2*(T+1))/v^2; T=tanh(m*y/v)",
+    "overlap_error": "O(v^-4*exp(-1/(256*v))) for m>=1/2 and v sufficiently small",
+    "full_fisher_c_derivative_negative_near_q_two": true,
+    "threshold_computed": false,
+    "other_boundary_z_one_excluded": false
+  },
+  "contrary_family": {
+    "definition": "Y=S*(1+h*Z)/sqrt(1+h^2*v), Z density proportional to (1-z^2)^m on (-1,1), m>=2, 0<h<1",
+    "v": "1/(2*m+3)",
+    "EZ4": "3/((2*m+3)*(2*m+5))",
+    "IZ": "m*(2*m+1)/(m-1)",
+    "limit_delta_I": "4*m*(2*m+1)/((m-1)*(2*m+3))>4",
+    "m2_limit": "40/7",
+    "meaning": "W2 convergence to Rademacher does not prove asymptotic Fisher optimality"
+  },
+  "verification_boundary": {
+    "new_quadrature": false,
+    "fixed_q_certificate_used": false,
+    "continuum_proof_in_companion_note": true,
+    "prior_art": "classical weak-score integration by parts and Cauchy-Schwarz; no novelty claim"
+  },
+  "claim_boundary": {
+    "physical_claim": false,
+    "source_or_physics_ledger_change": false,
+    "canon_promotion": false
+  }
+}
