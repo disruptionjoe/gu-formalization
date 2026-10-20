@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 93dd6c2510d8aa5c08b5daa02118358a822e4cb5
+revision_basis: e968ae83c598f7194cceeb809efb1c89d950f070
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,18 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1866 proves a sharp two-scale response bound for fixed massless tensor
+    plus positive scalar spectra and universal metric readout: trace removal at
+    a nonzero long-wavelength scale forces shorter-scale Fourier slip at most1/2.
+    Healthy cross-readout cancellation exits that hypothesis; neither result
+    identifies native GU or adjudicates constant vacuum or measured PPN.
+    K1867 proves small-q optimizer strong log concavity, KL<=D/sqrt2 and W2²<=2D
+    for exactly feasible Fisher competitors. K1865 trial has W2<13s3 and
+    quadratic-tail-loss error<26s3, with RMS quantile error<1.3e-8 at s1/1000.
+    Higher-moment and reverse-entropy transfer remain unclaimed.
+    Source/physics/canon verdicts unchanged.
+
+    Historical predecessor results at their original scope:
     K1864 realizes the causal trace projector with a supplied omega-zero
     scalar-tensor action. Its extra scalar is healthy on the positive branch,
     but weak-field gamma is1/2; kinetic/mass repairs change the projector.
@@ -15350,6 +15362,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1866-positive-scalar-screening-window-2026-10-20.md
+    - lab/process/k1866-positive-scalar-screening-window.json
+    - tests/channel-swings/k1866_positive_scalar_screening_window.py
+    - tests/channel-swings/k1866_positive_scalar_screening_window_probe.py
+    - explorations/k1867-fisher-transport-entropy-certificate-2026-10-20.md
+    - lab/process/k1867-fisher-transport-entropy-certificate.json
+    - tests/channel-swings/k1867_fisher_transport_entropy_certificate.py
+    - tests/channel-swings/k1867_fisher_transport_entropy_certificate_probe.py
     - explorations/conditional-build/k1864-causal-scalar-tensor-completion-2026-10-20.md
     - explorations/k1865-fisher-effective-trial-certificate-2026-10-20.md
     - explorations/conditional-build/k1861-i1b-boundary-source-adapter-2026-10-20.md
@@ -16111,6 +16131,9 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which actual native source/readout and coupled distortion construction meets the common response demands? Positive scalar mass fitting in the fixed-tensor universal-metric class is now constrained at all two-scale pairs. Small-q Fisher entropy/transport and quadratic-loss certificates are complete; a two-well consumer requires a different functional inequality.
+
+  Historical prior question/continuation at its original scope:
   Which actual native distortion/observation construction supplies the full I1B coupled response and global domain? The explicit scalar-tensor trace repair now has known matter-response and vacuum costs; the Fisher finite second-profile and fifth-value errors are certified, so a new mathematical extension needs a specified weighted or wider-window consumer.
 
   Historical predecessor question/condition; completed scopes updated above:
@@ -19226,6 +19249,9 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Construct the native pairing-preserving source/readout, full C row and common domain, or explicitly specify a nonlinear or tensor-changing realization before a new screening test. Reuse K1867 entropy/transport budgets; do not transfer strong log concavity to the two-well regime or demand arbitrary high-moment bounds from near optimality.
+
+  Historical prior question/continuation at its original scope:
   Construct the pairing-preserving native distortion injection and full C-row/observation/domain data before using K1861 as a native response. A different causal screening completion must identify traceful matter response and global positive initial/boundary data. Reuse K1865 finite density and fifth-value certificates; sixth order needs a stronger residual, and weighted near-optimizer transfer remains false without extra hypotheses. Compare these costs rather than repeating the completed finite-error or scalar-tensor tests.
 
   Historical predecessor question/condition; completed scopes updated above:

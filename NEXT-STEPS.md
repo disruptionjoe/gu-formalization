@@ -7,6 +7,15 @@ updated_at: "2026-10-20"
 
 # Next Steps For Contributors
 
+> **2026-10-20: SCALAR WINDOW AND FISHER TRANSPORT TESTS CLOSED.**
+> K1866 excludes the stated positive-diagonal-scalar mass-fit repair across two
+> Fourier scales; its healthy cross-readout control changes the measured object.
+> K1867 converts certified Fisher deficit into entropy, RMS quantile transport
+> and unbounded quadratic-loss errors on the small-q window. No native GU
+> identification or physical verdict follows. Next compare actual native
+> source/readout/full-C construction against a named two-well stability consumer;
+> previous scalar mass fitting and small-q transport requests are now answered.
+
 > **2026-10-20: CAUSAL ACTION AND EFFECTIVE FISHER ERROR TESTS CLOSED.**
 > K1864 supplies a conventional local scalar-tensor completion, then tests its
 > extra scalar, weak-field response and global positive-vacuum limits. It is not

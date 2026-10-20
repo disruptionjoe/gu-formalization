@@ -1,0 +1,31 @@
+{
+  "id": "K1867",
+  "status": "active_research",
+  "constants": {
+    "a_floor": "1/2",
+    "rho_squared_floor": "1/2",
+    "relative_information_factor": "4",
+    "entropy_coefficient_squared": "1/2",
+    "transport_squared_factor": "2",
+    "quadratic_loss_factor": "1",
+    "trial_transport_coefficient": "13",
+    "trial_entropy_coefficient": "55",
+    "trial_quadratic_coefficient": "26"
+  },
+  "scope": {
+    "exact_moments": true,
+    "forward_entropy": true,
+    "reverse_entropy": false,
+    "unbounded_sixth_moment_transfer": false,
+    "gu_verdict": false
+  },
+  "dependencies": {
+    "explorations/k1859-fisher-optimizer-tail-response-2026-10-20.md": "49f9fa6cd23223f7209076d37cd9bfa0445cc5e0484df6092afceaa04a5445e1",
+    "explorations/k1862-fisher-second-density-response-2026-10-20.md": "d2b3b85d25440756b3afaa277a6080fcafa0c4d738ecd155397ab4fa97682af4",
+    "explorations/k1865-fisher-effective-trial-certificate-2026-10-20.md": "f9c04fe5b0da4163f9d149b675b3b5dc165fb1de76f8f45ff729abd6e1a0880d"
+  },
+  "reproduce": [
+    "sage -python tests/channel-swings/k1867_fisher_transport_entropy_certificate.py",
+    "python tests/channel-swings/k1867_fisher_transport_entropy_certificate_probe.py"
+  ]
+}

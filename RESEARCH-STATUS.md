@@ -8,6 +8,38 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-20: positive scalar response windows and Fisher transport
+
+[K1866](explorations/conditional-build/k1866-positive-scalar-screening-window-2026-10-20.md)
+proves a two-scale tradeoff for a fixed massless tensor plus a finite positive
+scalar spectral measure with universal source/metric readout and no contacts.
+Trace attenuation |1-3f|<=delta at a nonzero long-wavelength Fourier scale forces
+shorter-scale slip gamma_F<=(2+delta)/(4-delta). Exact removal gives at most1/2.
+An explicit healthy two-field cross-readout evades the bound by leaving the
+universal metric hypothesis. Fourier slip is not an empirical PPN measurement;
+constant vacuum, nonlinear screening and massive tensor theories are outside
+this result. SC-ACT-01/02 and SC-COS-50/51/54 remain ASSERTS; SC-META-53 UNCERTAIN.
+
+[K1867](explorations/k1867-fisher-transport-entropy-certificate-2026-10-20.md)
+proves strong log concavity of the actual Fisher optimizer on0<q<=1/100.
+For exactly feasible competitors with excess D, KL(p|p_q)<=D/sqrt(2),
+W2²<=2D, and |f'|<=L|x| observables have error<=L sqrt(2D).
+K1865's exact trial therefore has W2<13s³ and tail-quadratic-loss error<26s³;
+at s=1/1000 the RMS quantile error is below1.3e-8. Forward entropy, finite
+competitor budgets and product-law bounds are included; no sixth-moment or
+reverse-entropy transfer is asserted. This is independent scalar mathematics.
+
+K1866:13 symbolic mathematical checks plus2 dependency pins; independent60
+controls with4 mathematical-input and6 scope faults detected. K1867:15
+symbolic checks plus3 pins; independent60 controls with9 mathematical/input
+and5 scope faults detected. Clean baselines precede assertion-based mutation
+checks. Written proofs and primary literature own the analytic statements;
+these are internal checks, not independent-human or proof-assistant acceptance.
+Source, physics-ledger and canon verdicts unchanged. Next construct native
+source/readout and full coupled distortion data, or specify a nonlinear/tensor
+scope exit; do not repeat scalar mass fitting or the now-certified small-q
+transport consumers. Two-well stability requires different functional estimates.
+
 ## 2026-10-20: causal scalar action and effective Fisher certificates
 
 [K1864](explorations/conditional-build/k1864-causal-scalar-tensor-completion-2026-10-20.md)

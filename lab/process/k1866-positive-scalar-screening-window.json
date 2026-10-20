@@ -1,0 +1,26 @@
+{
+  "id": "K1866",
+  "status": "active_research",
+  "constants": {
+    "trace_scalar_factor": "3",
+    "slip_scalar_factor": "1",
+    "example_epsilon": "1/100",
+    "example_delta_lower": "196/199"
+  },
+  "scope": {
+    "positive_diagonal_measure": true,
+    "fixed_massless_tensor": true,
+    "universal_metric": true,
+    "contacts": false,
+    "gu_verdict": false,
+    "empirical_ppn": false
+  },
+  "dependencies": {
+    "explorations/conditional-build/k1844-screening-positive-response-2026-10-20.md": "def47f267a4f7c6773304ec0964b07749011431fa8971e309fefe23d2bc76e6d",
+    "explorations/conditional-build/k1864-causal-scalar-tensor-completion-2026-10-20.md": "9946fb194cc28ac1248b26fec68ac738ad59a55557b4e75a6e96f135989655f4"
+  },
+  "reproduce": [
+    "sage -python tests/channel-swings/k1866_positive_scalar_screening_window.py",
+    "python tests/channel-swings/k1866_positive_scalar_screening_window_probe.py"
+  ]
+}

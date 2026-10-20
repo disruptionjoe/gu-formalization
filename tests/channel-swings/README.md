@@ -2,6 +2,9 @@
 
 ## October 20 research evidence
 
+- `k1866_positive_scalar_screening_window.py` and `_probe.py`: tensor trace, continuum integrand, two-scale bounds and cross-readout controls.
+- `k1867_fisher_transport_entropy_certificate.py` and `_probe.py`: Riccati identity, moment-corrected information, transport constants and exact budgets.
+
 - `k1864_causal_scalar_tensor_completion.py` and `_probe.py`: action-response, scalar, projector and global vacuum controls.
 - `k1865_fisher_effective_trial_certificate.py` and `_probe.py`: independent Gaussian polynomial, spectral-residual and interval certificates.
 

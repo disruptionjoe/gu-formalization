@@ -9,6 +9,9 @@ updated_at: "2026-08-23"
 
 ## October 20 research evidence
 
+- `k1866-positive-scalar-screening-window.json`: fixed-tensor spectral assumptions and finite-tolerance constants.
+- `k1867-fisher-transport-entropy-certificate.json`: small-q entropy/transport constants, dependency pins and scope.
+
 - `k1864-causal-scalar-tensor-completion.json`: exact action-response, scalar and vacuum control constants.
 - `k1865-fisher-effective-trial-certificate.json`: trial moments, residuals and whole-interval precision constants.
 

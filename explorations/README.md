@@ -9,6 +9,9 @@ updated_at: "2026-08-21"
 
 ## October 20 research evidence
 
+- [K1866 positive scalar response window](conditional-build/k1866-positive-scalar-screening-window-2026-10-20.md): sharp two-scale tradeoff and healthy cross-readout escape.
+- [K1867 Fisher transport and entropy](k1867-fisher-transport-entropy-certificate-2026-10-20.md): optimizer log concavity, exact deficit identity and finite quantile/quadratic-loss budgets.
+
 - [K1864 causal action completion](conditional-build/k1864-causal-scalar-tensor-completion-2026-10-20.md): scalar-tensor realization, weak-field cost and global vacuum limits.
 - [K1865 effective Fisher certificate](k1865-fisher-effective-trial-certificate-2026-10-20.md): finite trial/density errors and fifth value with explicit remainder.
 
