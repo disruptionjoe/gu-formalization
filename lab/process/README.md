@@ -9,6 +9,9 @@ updated_at: "2026-08-23"
 
 ## October 20 research evidence
 
+- `k1850-metric-screening-ensembles.json`: exact boundary-ensemble, topology and sphere certificate.
+- `k1851-fisher-parity-stability.json`: rational half-line Stein, total-variation and robustness certificate.
+
 - `k1848-screening-shift-protection.json`: same-action symmetry, response and source-promotion certificate.
 - `k1849-fisher-effective-gap.json`: true-quartic compact/tail and effective-stability constants.
 

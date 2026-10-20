@@ -2,6 +2,9 @@
 
 ## October 20 research evidence
 
+- `k1850_metric_screening_ensembles.py` and `_probe.py`: action/ensemble and sphere identities with independent rational controls.
+- `k1851_fisher_parity_stability.py` and `_probe.py`: exact polynomial/Stein constants and independent rational controls.
+
 - `k1848_screening_shift_protection.py` and `_probe.py`: nonlinear shift algebra and independent rational response controls.
 - `k1849_fisher_effective_gap.py` and `_probe.py`: exact ODE-bound inputs and independent interval/Hardy controls.
 

@@ -7,6 +7,43 @@ updated_at: "2026-10-20"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-20: metric boundary ensembles and useful Fisher shape accuracy
+
+[K1850](explorations/conditional-build/k1850-metric-screening-ensembles-2026-10-20.md)
+derives a conditional four-dimensional metric/top-form action at fixed flux.
+Arbitrary constant vacuum shifts preserve the stationary geometry precisely for
+affine top-form coupling on the stated connected branch; fixing the multiplier
+instead forbids the compensating shift. A round-sphere solution and nonlinear
+counterexample make the global-data dependence explicit. This is classical
+boundary-ensemble covariance, not causal relaxation, radiative sequestering,
+a source-owned GU metric equation or a prediction of vacuum magnitude.
+SC-COS-50/51/54 and SC-ACT-01/02 remain ASSERTS; SC-META-53 UNCERTAIN.
+
+[K1851](explorations/k1851-fisher-parity-stability-2026-10-20.md)
+uses even symmetry to prove a half-line Stein factor below4/3 for K1845's
+rational-score reference. Every even variance1/fourth-moment2 density with
+Fisher energy at most1.752673 is within total variation sqrt(27/3125)<0.093
+of the actual unique optimizer. Explicit energy/moment-error and asymmetry
+budgets give useful robustness. The same optimizer is also unique without
+assuming evenness when the constraints are raw second and fourth moments.
+This meets the prior TV<0.1 consumer without computing a new optimizer spectrum. The bound does not vanish with true
+excess energy; K1849's separate effective-gap theorem remains valid.
+
+Validation: K1850 has36 exact algebra groups and295 independent rational
+controls, including10 mathematical input faults and7 separate reporting faults.
+K1851 has34 exact groups and146 independent controls, including11 mathematical
+input faults and5 reporting faults. All four scripts pass. A separate reviewer
+checked the written analytic arguments; finite controls do not prove the
+continuum transfer. Dependency hashes reuse prior certificates without claiming
+new full replays.
+
+These are analytic arguments with exact arithmetic controls and independent
+adversarial review, not formal-proof, novelty or external-acceptance claims.
+K1845's value interval, the source register, physics ledger and canon remain
+unchanged. Historical requests for a useful TV<0.1 bound are answered at this
+scope; useful spectral constants, restricted quantitative gain and unrestricted
+endpoint asymptotics are distinct questions.
+
 ## 2026-10-20: protected response and effective true Fisher stability
 
 [K1848](explorations/conditional-build/k1848-screening-shift-protection-2026-10-20.md)

@@ -7,6 +7,18 @@ updated_at: "2026-10-20"
 
 # Next Steps For Contributors
 
+> **2026-10-20 METRIC ENSEMBLES AND USEFUL SHAPE ACCURACY.**
+> K1850 classifies fixed-flux versus fixed-multiplier response, with a complete
+> sphere control and nonlinear failure. A source-native metric/constraint
+> adapter remains unbuilt; this conditional action is not GU or causal
+> adjustment. K1851 now reaches true-optimizer TV<0.093 at the existing Fisher
+> certificate, with moment and asymmetry tolerances. The older TV<0.1
+> consuming target is satisfied without new spectral computation. Next compare
+> a genuinely vanishing useful stability modulus or unrestricted endpoint
+> against an actual source metric/constraint bridge; restricted same-k gain
+> remains distinct. Source/ledger/canon unchanged.
+
+
 > **2026-10-20 PROTECTED RESPONSE AND EFFECTIVE STABILITY.** K1848 supplies
 > a nonlinear affine source-shift identity and the exact stress counterexample:
 > an additive constant preserves response protection but changes gravity stress.

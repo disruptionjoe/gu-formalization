@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0",
+  "artifact": "K1851_FISHER_PARITY_STABILITY",
+  "status": "internal_structural_only",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "source_claim_effect": "none",
+  "physics_ledger_effect": "none",
+  "canon_promotion": false,
+  "physical_claim": false,
+  "proof_assistant_checked": false,
+  "novelty_claim": false,
+  "scope": "even normalized finite-Fisher densities with finite fourth moment; nonsymmetric extension pays measured asymmetry",
+  "score": [
+    "-26379/25000",
+    "12003/10000",
+    "137193/500000",
+    "266879/500000",
+    "43447/2000000"
+  ],
+  "minorant": [
+    "-84469/40000",
+    "9487187/1000000",
+    "-1406001/500000"
+  ],
+  "compact_slope": "1/2",
+  "tail_radius": "3/2",
+  "stein_factor": "4/3",
+  "compact_upper_polynomial": [
+    "-38879/25000",
+    "933421/1000000",
+    "1054097/4000000"
+  ],
+  "translated_tail_polynomial": [
+    "23157229/32000000",
+    "7214093/4000000",
+    "20213/80000"
+  ],
+  "tail_polynomial_meaning": "N(z+9/4)-D(z+9/4), polynomial translation, not multiplication",
+  "lower": "875729/500000",
+  "upper": "1752673/1000000",
+  "score_budget": "243/200000",
+  "score_sqrt_upper": "7/200",
+  "reference_tv_bound_squared": "27/12500",
+  "optimizer_tv_bound_squared": "27/3125",
+  "optimizer_tv_rational_upper": "7/75",
+  "moment_error_budget": "77/200000",
+  "moment_penalties": [
+    "9487187/1000000",
+    "1406001/500000"
+  ],
+  "asymmetry_budget": "1/150",
+  "asymmetry_definition": "TV(p,(p+p_reflected)/2)=one_quarter_integral_abs(p-p_reflected)",
+  "reference_is_optimizer": false,
+  "reference_moment_feasibility": "not_asserted",
+  "new_spectral_gap_claim": false,
+  "vanishing_excess_modulus": false,
+  "nonsymmetric_requires_asymmetry_defect": true,
+  "unrestricted_unique_optimizer_even": true,
+  "nonsymmetric_moments": "raw E X^2 and E X^4, not variance without centering",
+  "dependencies": [
+    {
+      "path": "lab/process/k1843-unrestricted-fisher-variational-gap.json",
+      "sha256": "0e4e2db2e009236aed01d461b9b1847eb27ae34244465cad0624fe92ee8d58bb"
+    },
+    {
+      "path": "lab/process/k1845-fisher-certified-moment-bounds.json",
+      "sha256": "cdb0a7d064ed81a64a951671526dc2059013c21c09b890dc8e69abead8eb652f"
+    },
+    {
+      "path": "lab/process/k1847-fisher-density-stability.json",
+      "sha256": "3f0e98be18dedc0606af1ac52f7adf6a8e3ec5bc7176cf6d90c50f311590dc9d"
+    },
+    {
+      "path": "lab/process/k1849-fisher-effective-gap.json",
+      "sha256": "f6ac691ee193558ef31aee6fb8f3d7bdb42ec5a4eea5ab6093d7d2d1bc3d15f1"
+    }
+  ],
+  "mathematical_checks": {
+    "positive denominator": true,
+    "compact upper monotonic coefficients": true,
+    "compact upper endpoint negative": true,
+    "compact upper exact coefficients": true,
+    "N increasing on nonnegative line": true,
+    "N positive at one": true,
+    "translated tail coefficients positive": true,
+    "translated tail exact coefficients": true,
+    "compact and tail constants": true,
+    "geometric exponential majorant": true,
+    "middle tail below Stein factor": true,
+    "exterior tail below Stein factor": true,
+    "fixed moment dual value": true,
+    "positive exact score budget": true,
+    "reference bound squared": true,
+    "pair bound squared": true,
+    "reference display threshold": true,
+    "optimizer display threshold": true,
+    "rational square-root majorant": true,
+    "rational pair bound": true,
+    "moment error budget": true,
+    "moment error TV target": true,
+    "moment penalty signs": true,
+    "asymmetry budget": true,
+    "moment residual signs": true,
+    "weak Stein integration sign": true,
+    "Fisher convexity exact deficit": true,
+    "all parity fixed moment form": true,
+    "dependency lab/process/k1843-unrestricted-fisher-variational-gap.json": true,
+    "dependency lab/process/k1845-fisher-certified-moment-bounds.json": true,
+    "dependency lab/process/k1847-fisher-density-stability.json": true,
+    "dependency lab/process/k1849-fisher-effective-gap.json": true,
+    "same pinned score and minorant": true,
+    "same pinned value bounds": true
+  }
+}

@@ -9,6 +9,9 @@ updated_at: "2026-08-21"
 
 ## October 20 research evidence
 
+- [K1850 metric ensembles](conditional-build/k1850-metric-screening-ensembles-2026-10-20.md): fixed-flux shift covariance, fixed-multiplier contrast and on-shell sphere controls.
+- [K1851 parity stability](k1851-fisher-parity-stability-2026-10-20.md): true-optimizer TV below0.093, explicit moment and symmetry-error budgets.
+
 - [K1848 shift protection](conditional-build/k1848-screening-shift-protection-2026-10-20.md): nonlinear static identity, dynamical massless mode and vacuum-stress nontransfer.
 - [K1849 effective Fisher gap](k1849-fisher-effective-gap-2026-10-20.md): true-optimizer multiplier bounds, conservative even gap, uniform and moment-error stability.
 

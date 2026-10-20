@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 2a20c1d1f693f58c1bffac73e76fc6f848e7fa3e
+revision_basis: 6c2440122b1a946de3569a0ab1a786afd161d1d6
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,18 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1850 classifies vacuum-shift covariance of a conditional metric/top-form
+    action by its boundary ensemble. Affine coupling screens constant shifts
+    at fixed flux; fixed multiplier and nonlinear coupling have different
+    responses. A complete sphere control exposes the supplied global-data
+    dependence; no source GU, real-time relaxation or radiative claim.
+    K1851 proves TV to the true Fisher optimizer below sqrt(27/3125)<0.093
+    for even feasible energy<=1.752673 using the existing rational-score
+    certificate and a half-line Stein factor below4/3. Moment-error and
+    asymmetry budgets are explicit. No new spectrum or vanishing true-excess
+    modulus is claimed. Source/ledger/canon unchanged.
+
+    Historical predecessor results retained at their declared scopes:
     K1848 distinguishes all-response symmetry silence from affine source/field
     shift protection. A same-action contact and nonlinear U(phi-Jv) protect static
     zero response; source promotion yields one physical massless mode. A constant
@@ -15269,6 +15281,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1850-metric-screening-ensembles-2026-10-20.md
+    - explorations/k1851-fisher-parity-stability-2026-10-20.md
+    - lab/process/k1850-metric-screening-ensembles.json
+    - lab/process/k1851-fisher-parity-stability.json
     - explorations/conditional-build/k1848-screening-shift-protection-2026-10-20.md
     - explorations/k1849-fisher-effective-gap-2026-10-20.md
     - lab/process/k1848-screening-shift-protection.json
@@ -16000,6 +16016,15 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can a source-native metric/constraint and boundary ensemble realize the
+  required vacuum response, or can the independent Fisher analysis supply a
+  useful vanishing true-excess modulus or unrestricted endpoint theorem?
+  K1850 already answers the conditional fixed-flux/fixed-multiplier
+  discriminator; K1851 already meets true-optimizer TV<0.1 without a new
+  spectrum. Do not repeat those consumers or identify the reference density
+  with the moment-selected optimizer.
+
+  Historical prior question, with its TV<0.1 consumer now satisfied:
   Can the source-native stress/constraint system protect an observable response
   against an additive vacuum-energy shift, or can a genuine interacting continuum
   relaxation theorem be constructed? Compare this with a useful-precision Fisher
@@ -19067,6 +19092,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  For metric response, supply the actual action, admissible metric variations,
+  boundary/flux ensemble and observation map before claiming GU transfer;
+  the affine top-form example preserves geometry only in its specified
+  ensemble and does not derive a magnitude independent of supplied flux.
+  For Fisher, reuse K1851 for fixed-precision shape accuracy and its robustness
+  budgets; a vanishing practical modulus, restricted k2 gap and unrestricted
+  endpoint need their distinct missing proofs. Preserve source/ledger/canon.
+
+  Historical prior conditions, retaining their scope beyond the completed consumer:
   For screening, type the metric variation and actual native observable before
   transferring the affine scalar symmetry; U->U+C is its exact stress reopener.
   Nonlinear late relaxation still needs an actual spectral/scattering argument.

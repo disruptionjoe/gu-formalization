@@ -1,0 +1,88 @@
+{
+  "artifact": "K1850_METRIC_SCREENING_ENSEMBLES",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "source_claim_effect": "none",
+  "action_coefficients": {
+    "matter_vacuum": "-1",
+    "multiplier": "-1",
+    "top_form": "1"
+  },
+  "geometry": {
+    "dimension": 4,
+    "ricci_factor": "3",
+    "scalar_factor": "12",
+    "sphere_volume_factor": "8*pi**2/3"
+  },
+  "affine": {
+    "alpha": "3/2",
+    "beta": "2/5",
+    "shift_action_flux_factor": "-3/2"
+  },
+  "rational_control": {
+    "s": "2",
+    "c": "3",
+    "K": "2",
+    "rho": "1",
+    "lambda": "2",
+    "affine_flux": "8",
+    "nonlinear_flux": "6",
+    "nonlinear_ds_drho": "-2/7",
+    "nonlinear_dR_drho": "6/7"
+  },
+  "coupling_class": "sigma_C2_nonzero_derivative_on_connected_interval",
+  "closed_domain": "fixed_nonexact_de_Rham_four_form_class_deltaF_exact",
+  "boundary_domain": "global_A_fixed_tangential_boundary_data",
+  "fixed_flux_arbitrary_shift_covariance": "iff_sigma_affine",
+  "fixed_lambda_shift_map_admissible": false,
+  "globally_exact_closed_positive_volume_possible": false,
+  "quantum_radiative_theorem": false,
+  "lorentzian_relaxation": false,
+  "GU_metric_adapter": false,
+  "magnitude_prediction_without_flux_data": false,
+  "source_top_form_identity": false,
+  "dependencies": [
+    {
+      "path": "lab/process/k1848-screening-shift-protection.json",
+      "sha256": "b3dae61373caa39d458274f532a5914759810d38785ed9ea2e8ac109eb53ee4b"
+    }
+  ],
+  "exact_algebra_checks": {
+    "matter vacuum volume sign": true,
+    "multiplier Euler volume sign": true,
+    "metric volume derivative": true,
+    "affine full action shift": true,
+    "affine shifted multiplier equation": true,
+    "affine shifted metric equation": true,
+    "nonzero affine slope fixture": true,
+    "action flux coefficient fixture": true,
+    "nonlinear action shift": true,
+    "nonlinear multiplier response": true,
+    "nonlinear auxiliary mismatch": true,
+    "polynomial all shift classification": true,
+    "isolated shift periodic control": true,
+    "periodic control not affine": true,
+    "Legendre boundary term": true,
+    "fixed multiplier does not admit shift": true,
+    "four dimensional trace": true,
+    "round sphere Einstein factor": true,
+    "constant curvature vacuum trace": true,
+    "fixed lambda curvature derivative": true,
+    "sphere volume coefficient": true,
+    "affine sphere volume equation": true,
+    "affine sphere metric equation": true,
+    "affine sphere shift leaves metric equation": true,
+    "affine radius inversion": true,
+    "nonlinear implicit differentiation": true,
+    "nonlinear curvature chain rule": true,
+    "nonlinear monotonic polynomial derivative": true,
+    "nonlinear positive derivative at nonnegative rho": true,
+    "rational nonlinear stationary equation": true,
+    "rational nonlinear multiplier": true,
+    "rational nonlinear radius response": true,
+    "rational nonlinear curvature response": true,
+    "rational affine volume fixture": true,
+    "rational Einstein vacuum fixture": true,
+    "dependency lab/process/k1848-screening-shift-protection.json": true
+  }
+}
