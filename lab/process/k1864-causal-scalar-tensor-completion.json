@@ -1,0 +1,34 @@
+{
+  "id": "K1864",
+  "status": "active_research",
+  "constants": {
+    "projector_c": "1/3",
+    "einstein_kinetic": "3/2",
+    "scalar_residue": "1/6",
+    "gamma": "1/2",
+    "vacuum_hessian": "-1/3",
+    "vacuum_quadratic": "-1/6",
+    "mass_trace_numerator": "-1"
+  },
+  "scope": {
+    "local_action": true,
+    "positive_branch_scalar": true,
+    "native_gu_adapter": false,
+    "pure_gr_matter_response": false,
+    "global_positive_flat_nonzero_vacuum": false,
+    "novelty": false,
+    "formal_proof": false
+  },
+  "dependencies": {
+    "explorations/conditional-build/k1863-conserved-screening-causality-2026-10-20.md": "8a7f975b8d3eab4096243f8b652a1e67a0b6c1cfe0fc4bfbcd390a1995670484"
+  },
+  "validation": {
+    "producer_math": 56,
+    "producer_reference": 1,
+    "probe_math": 142,
+    "probe_reference": 1,
+    "probe_reporting": 1,
+    "input_mutations": 7,
+    "report_mutations": 3
+  }
+}

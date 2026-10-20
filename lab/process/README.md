@@ -9,6 +9,9 @@ updated_at: "2026-08-23"
 
 ## October 20 research evidence
 
+- `k1864-causal-scalar-tensor-completion.json`: exact action-response, scalar and vacuum control constants.
+- `k1865-fisher-effective-trial-certificate.json`: trial moments, residuals and whole-interval precision constants.
+
 - `k1861-i1b-boundary-source-adapter.json`: exact horizontal source ranges, boundary flux and native scope.
 - `k1862-fisher-second-density-response.json`: multiplier/quasimode jets, weighted response and contamination.
 - `k1863-conserved-screening-causality.json`: conserved stress, tidal map and causal trace repair.

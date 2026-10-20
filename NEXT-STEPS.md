@@ -7,6 +7,17 @@ updated_at: "2026-10-20"
 
 # Next Steps For Contributors
 
+> **2026-10-20: CAUSAL ACTION AND EFFECTIVE FISHER ERROR TESTS CLOSED.**
+> K1864 supplies a conventional local scalar-tensor completion, then tests its
+> extra scalar, weak-field response and global positive-vacuum limits. It is not
+> the actual native I1B adapter. K1865 certifies an explicit feasible density,
+> second-density L1 error<22q³ and fifth-value error<80q6 for0<q<=1/200.
+> The same lower certificate supplies finite precision and energy-budget
+> consumers. Next price actual distortion/observation/full-domain construction
+> against a specified wider-window or weighted-error theorem. Old effective
+> error and fifth-order requests below are historical, not a fresh queue.
+
+
 > **2026-10-20: SECOND DENSITY RESPONSE AND CONSTRAINED SCREENING TEST CLOSED.**
 > K1862 supplies weighted exact-optimizer second response, robust unweighted
 > near-optimal response and its higher-moment counterexample. K1861 provides

@@ -7,6 +7,42 @@ updated_at: "2026-10-20"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-20: causal scalar action and effective Fisher certificates
+
+[K1864](explorations/conditional-build/k1864-causal-scalar-tensor-completion-2026-10-20.md)
+realizes K1863's causal trace projector as the zero-past linear response of a
+supplied omega-zero Brans-Dicke action. The positive scalar branch has a healthy
+extra scalar but weak-field gamma=1/2 for negligible-pressure matter. Kinetic
+and massive repairs change the projector. Exact flat constant-vacuum solutions
+are quadratic in the scalar: finite positive patches exist, but no nonzero
+vacuum branch stays positive on all Minkowski space or is spatially periodic.
+This conventional completion is not a native I1B/observation adapter or GU verdict.
+
+[K1865](explorations/k1865-fisher-effective-trial-certificate-2026-10-20.md)
+uses an auxiliary oscillator residual and a variational lower bound to certify
+the normalized/dilated Hermite trial: TV<8s³ for0<s<=1/200. At exact s=1/1000,
+q(s) is about0.001000001286058052 and certified TV is below1e-8. For all
+0<q<=1/200, the actual second density polynomial has L1 error<22q³, and
+F(3-q)-1=q²/6+q³/4+11q4/108+139q5/432 with absolute error<80q6.
+CDF/bounded-observable and finite competitor-energy budgets follow. The
+auxiliary oscillator is a dual certificate, not a fitted true optimizer.
+
+K1864 validation:56 symbolic mathematical checks plus1 dependency; independent
+probe142 arithmetic,1 dependency and1 reporting check, detecting7 mathematical
+input and3 reporting faults. K1865:54 symbolic arithmetic plus3 dependency;
+separate probe53 arithmetic,3 dependency and1 reporting check, detecting21
+mathematical input and4 reporting faults. Clean baselines precede failed-assertion
+detection. Inline analytic review supports the continuum arguments; no separate
+agent, external expert, formal proof-assistant certification or novelty claim.
+
+SC-ACT-01/02 and SC-COS-50/51/54 remain ASSERTS; SC-META-53 UNCERTAIN.
+Physics ledger/canon unchanged. Earlier requests for effective Gaussian second
+response and fifth value are answered at these scopes. Next compare actual
+native distortion/full coupled observation/domain data against a specified
+weighted-error or wider-window mathematical consumer; the sixth coefficient
+and general nonlinear physical screening remain separate.
+
+
 ## 2026-10-20: boundary source ranges, second Fisher response and conserved screening
 
 [K1861](explorations/conditional-build/k1861-i1b-boundary-source-adapter-2026-10-20.md)

@@ -2,6 +2,9 @@
 
 ## October 20 research evidence
 
+- `k1864_causal_scalar_tensor_completion.py` and `_probe.py`: action-response, scalar, projector and global vacuum controls.
+- `k1865_fisher_effective_trial_certificate.py` and `_probe.py`: independent Gaussian polynomial, spectral-residual and interval certificates.
+
 - `k1861_i1b_boundary_source_adapter.py` and `_probe.py`: source symbol, range and boundary controls.
 - `k1862_fisher_second_density_response.py` and `_probe.py`: exact Hermite/quasimode, moments and tail controls.
 - `k1863_conserved_screening_causality.py` and `_probe.py`: conservation, curvature and causal projector controls.

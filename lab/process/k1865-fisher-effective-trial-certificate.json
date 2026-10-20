@@ -1,0 +1,105 @@
+{
+  "id": "K1865",
+  "status": "active_research",
+  "trial": {
+    "u": {
+      "4": "-1/48"
+    },
+    "v": {
+      "0": "-1/192",
+      "2": "-1/48",
+      "4": "-1/64",
+      "6": "1/216",
+      "8": "1/4608"
+    }
+  },
+  "polynomials": {
+    "N": [
+      "1",
+      "0",
+      "0",
+      "1/64",
+      "7991/331776"
+    ],
+    "B": [
+      "1",
+      "0",
+      "0",
+      "13/576",
+      "93863/331776"
+    ],
+    "C": [
+      "3",
+      "-1",
+      "0",
+      "-173/144",
+      "604679/110592"
+    ],
+    "D": [
+      "0",
+      "0",
+      "1/24",
+      "1/16",
+      "919/6912"
+    ],
+    "R2": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "18165763/124416",
+      "167987027/248832",
+      "202282679/147456"
+    ],
+    "hr": [
+      "0",
+      "0",
+      "0",
+      "-1/2",
+      "11/108",
+      "139/432",
+      "6174095/1990656"
+    ]
+  },
+  "constants": {
+    "s_max": "1/200",
+    "gap_floor": "6/5",
+    "energy_cubic_upper": "6/25",
+    "tv_squared_cubic_upper": "1/5",
+    "example_s": "1/1000",
+    "example_tv": "1/100000000",
+    "residual_sixth_upper": "150",
+    "temple_denominator_floor": "2",
+    "trial_energy_sixth_upper": "384/5",
+    "trial_tv_cubic_upper": "8",
+    "density_l1_cubic_upper": "22",
+    "value_fifth_coefficient": "139/432",
+    "value_error_sixth_upper": "80"
+  },
+  "scope": {
+    "finite_parameter_certificate": true,
+    "effective_second_order_remainder": true,
+    "trial_equals_optimizer": false,
+    "arbitrary_moment_transfer": false,
+    "gu_physics": false,
+    "formal_proof": false,
+    "novelty": false,
+    "effective_fifth_value": true
+  },
+  "dependencies": {
+    "explorations/k1855-fisher-gaussian-endpoint-2026-10-20.md": "f6bd0f81bd2a6f75871355c5d3105cc571374e3504f31f73f3d06d38ff8c853d",
+    "explorations/k1859-fisher-optimizer-tail-response-2026-10-20.md": "49f9fa6cd23223f7209076d37cd9bfa0445cc5e0484df6092afceaa04a5445e1",
+    "explorations/k1862-fisher-second-density-response-2026-10-20.md": "d2b3b85d25440756b3afaa277a6080fcafa0c4d738ecd155397ab4fa97682af4"
+  },
+  "validation": {
+    "producer_math": 54,
+    "producer_reference": 3,
+    "probe_math": 53,
+    "probe_reference": 3,
+    "probe_reporting": 1,
+    "input_mutations": 21,
+    "report_mutations": 4
+  }
+}

@@ -9,6 +9,9 @@ updated_at: "2026-08-21"
 
 ## October 20 research evidence
 
+- [K1864 causal action completion](conditional-build/k1864-causal-scalar-tensor-completion-2026-10-20.md): scalar-tensor realization, weak-field cost and global vacuum limits.
+- [K1865 effective Fisher certificate](k1865-fisher-effective-trial-certificate-2026-10-20.md): finite trial/density errors and fifth value with explicit remainder.
+
 - [K1861 boundary/source adapter](conditional-build/k1861-i1b-boundary-source-adapter-2026-10-20.md): horizontal metric-row periodic ranges and exact boundary flux; full native injection open.
 - [K1862 second density response](k1862-fisher-second-density-response-2026-10-20.md): weighted optimizer response, near-optimal robustness and rare-tail counterexample.
 - [K1863 conserved screening](conditional-build/k1863-conserved-screening-causality-2026-10-20.md): constrained retarded tidal witness and causal trace-projector scope.
