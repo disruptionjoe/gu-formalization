@@ -9,6 +9,9 @@ updated_at: "2026-08-21"
 
 ## October 20 research evidence
 
+- [K1848 shift protection](conditional-build/k1848-screening-shift-protection-2026-10-20.md): nonlinear static identity, dynamical massless mode and vacuum-stress nontransfer.
+- [K1849 effective Fisher gap](k1849-fisher-effective-gap-2026-10-20.md): true-optimizer multiplier bounds, conservative even gap, uniform and moment-error stability.
+
 - [K1846 continuum screening](conditional-build/k1846-continuum-screening-dephasing-2026-10-20.md): causal late decay with positive conserved energy, finite-spectrum boundary and contact repair.
 - [K1847 Fisher density stability](k1847-fisher-density-stability-2026-10-20.md): explicit Stein tail certificate, total variation and near-minimizer diameter.
 

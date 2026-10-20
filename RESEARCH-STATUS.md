@@ -8,6 +8,34 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-20: protected response and effective true Fisher stability
+
+[K1848](explorations/conditional-build/k1848-screening-shift-protection-2026-10-20.md)
+shows that invariant-sector separation kills the whole response, while a
+simultaneous external-source/field shift permits nonzero dynamic response with
+protected static cancellation. The same-action contact, nonlinear potential
+identity and positive dynamical-source completion are explicit. Promotion adds
+one massless mode. An allowed constant potential shift changes gravity stress
+without changing the response symmetry. This is not GU or vacuum-energy
+screening. SC-COS-50/51/54 and SC-ACT-01/02 remain ASSERTS; SC-META-53 UNCERTAIN.
+
+[K1849](explorations/k1849-fisher-effective-gap-2026-10-20.md)
+bounds the actual optimizer multipliers and proves gamma2>exp(-36) for the
+even quartic spectral gap. TV<=exp(18)*sqrt(I-F) and explicit moment-error
+and square-root Sobolev bounds follow. A uniform gamma_k>exp(-400) holds on
+7/4<=k<=17/8. The constants are conservative and vacuous at the current value
+bracket's uncertainty; K1847's reference-distance bound remains useful there.
+No fitted Hamiltonian is substituted, no odd-sector gap is certified, and no
+restricted quantitative gain or unrestricted endpoint is inferred.
+
+K1848:26 exact algebra groups and219 independent rational controls, including
+6 input faults and3 separate reporting faults. K1849:35 exact groups and170
+independent controls, including10 input faults and4 reporting faults. Written
+operator, ODE, weighted-Hardy and nonlinear proofs remain distinct from finite
+controls. No independent-agent, formal-proof, novelty or external acceptance
+claim. Earlier unevaluated-gap and unprotected-static-response statements are
+superseded only within these declared scopes. Source/ledger/canon unchanged.
+
 ## 2026-10-20: conservative continuum screening and Fisher density stability
 
 [K1846](explorations/conditional-build/k1846-continuum-screening-dephasing-2026-10-20.md)

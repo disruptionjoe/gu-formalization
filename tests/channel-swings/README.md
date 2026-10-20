@@ -2,6 +2,9 @@
 
 ## October 20 research evidence
 
+- `k1848_screening_shift_protection.py` and `_probe.py`: nonlinear shift algebra and independent rational response controls.
+- `k1849_fisher_effective_gap.py` and `_probe.py`: exact ODE-bound inputs and independent interval/Hardy controls.
+
 - `k1846_continuum_screening_dephasing.py` and `_probe.py`: continuum-response identities and independent rational spectral controls.
 - `k1847_fisher_density_stability.py` and `_probe.py`: exact tail/Stein certificate and independent rational score controls.
 

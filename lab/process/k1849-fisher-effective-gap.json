@@ -1,0 +1,92 @@
+{
+  "artifact": "K1849_EFFECTIVE_TRUE_GAP",
+  "k2": {
+    "F_lower": "7/4",
+    "F_upper": "2",
+    "b_lower": "3/4",
+    "b_upper": "13",
+    "R": "2",
+    "L0": "17/8",
+    "kappa": "4",
+    "compact_Q_upper": "251085/16384",
+    "gap_exponent": "36",
+    "tv_exponent": "18",
+    "moment_penalties": [
+      "52",
+      "13"
+    ],
+    "sobolev_x4_coefficient": "3/8",
+    "sobolev_multiplier": "216"
+  },
+  "uniform": {
+    "k_interval": [
+      "7/4",
+      "17/8"
+    ],
+    "F_lower": "21/16",
+    "F_upper": "8",
+    "b_lower": "1/4",
+    "b_upper": "28",
+    "R": "3",
+    "L0": "25/8",
+    "kappa": "33",
+    "gap_exponent": "400",
+    "tv_exponent": "200"
+  },
+  "scope": "actual_optimizer_even_sector",
+  "practical_sharpness": false,
+  "full_line_odd_gap": false,
+  "restricted_gap_quantified": false,
+  "physical_claim": false,
+  "dependencies": [
+    {
+      "path": "lab/process/k1843-unrestricted-fisher-variational-gap.json",
+      "sha256": "0e4e2db2e009236aed01d461b9b1847eb27ae34244465cad0624fe92ee8d58bb"
+    },
+    {
+      "path": "lab/process/k1845-fisher-certified-moment-bounds.json",
+      "sha256": "cdb0a7d064ed81a64a951671526dc2059013c21c09b890dc8e69abead8eb652f"
+    },
+    {
+      "path": "lab/process/k1847-fisher-density-stability.json",
+      "sha256": "3f0e98be18dedc0606af1ac52f7adf6a8e3ec5bc7176cf6d90c50f311590dc9d"
+    }
+  ],
+  "exact_algebra_checks": {
+    "correlated quartic equation": true,
+    "moment error identity": true,
+    "Gaussian mixture fourth moment": true,
+    "trial moment": true,
+    "trial Fisher bound": true,
+    "trial bound below8": true,
+    "F bracket": true,
+    "lower multiplier": true,
+    "upper multiplier": true,
+    "compact extrema": true,
+    "compact absolute maximum": true,
+    "compact Q certificate": true,
+    "tail all positive coefficients": true,
+    "moment penalties": true,
+    "Sobolev weighted coefficient": true,
+    "Sobolev energy coefficient": true,
+    "k2 exponential denominator": true,
+    "k2 exponential prefactor": true,
+    "k2 TV factor": true,
+    "uniform exponential denominator": true,
+    "uniform exponential prefactor": true,
+    "uniform TV factor": true,
+    "uniform affine lower": true,
+    "uniform multiplier lower": true,
+    "uniform multiplier upper": true,
+    "uniform tail polynomial": true,
+    "uniform compact y range": true,
+    "uniform compact polynomial": true,
+    "uniform compact Q": true,
+    "TV spectral factor": true,
+    "Gaussian ground state": true,
+    "Gaussian even excitation": true,
+    "dependency lab/process/k1843-unrestricted-fisher-variational-gap.json": true,
+    "dependency lab/process/k1845-fisher-certified-moment-bounds.json": true,
+    "dependency lab/process/k1847-fisher-density-stability.json": true
+  }
+}

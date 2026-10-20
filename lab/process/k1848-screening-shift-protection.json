@@ -1,0 +1,76 @@
+{
+  "artifact": "K1848_SHIFT_PROTECTION",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "source_claim_effect": "none",
+  "fixture": {
+    "A": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "4"
+      ]
+    ],
+    "v": [
+      "1",
+      "2"
+    ],
+    "c": [
+      "1",
+      "8"
+    ],
+    "h": "17",
+    "Z": "3"
+  },
+  "continuum": {
+    "mass_band": [
+      "1",
+      "2"
+    ],
+    "v": "1",
+    "late_bound_coefficient": "8",
+    "energy_coefficient": "7/6"
+  },
+  "internal_symmetry_result": "all_response_zero_under_sector_hypotheses",
+  "nonlinear_static_protection": true,
+  "quantum_protection": false,
+  "nonlinear_late_decay": false,
+  "vacuum_energy_screening": false,
+  "dynamical_massless_modes": 1,
+  "dependencies": [
+    {
+      "path": "lab/process/k1846-continuum-screening-dephasing.json",
+      "sha256": "33e7a26039fdb2576bc2a4ce997689e27b0a02ba763cc3b1352e611ff9ba484f"
+    }
+  ],
+  "exact_algebra_checks": {
+    "source coefficient": true,
+    "contact coefficient": true,
+    "positive mass": true,
+    "nonlinear affine invariance": true,
+    "same action readout": true,
+    "full stationary solution": true,
+    "positive Hessian decomposition": true,
+    "minimum linearization": true,
+    "protected resolvent": true,
+    "zero static": true,
+    "nonzero response": true,
+    "low frequency inertia": true,
+    "one dynamical flat mode": true,
+    "positive potential square": true,
+    "Schur kernel": true,
+    "Schur inertial coefficient": true,
+    "generalized mass determinant": true,
+    "broken symmetry static residual": true,
+    "constant potential leaves response": true,
+    "constant potential changes vacuum energy": true,
+    "continuum oscillatory primitive": true,
+    "continuum boundary variation bound": true,
+    "continuum energy": true,
+    "internal sector commutation": true,
+    "internal all-frequency silence": true,
+    "dependency lab/process/k1846-continuum-screening-dephasing.json": true
+  }
+}

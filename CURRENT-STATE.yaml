@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 4e40b3178583df6a38f6e159bbc5013194317808
+revision_basis: 2a20c1d1f693f58c1bffac73e76fc6f848e7fa3e
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,17 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1848 distinguishes all-response symmetry silence from affine source/field
+    shift protection. A same-action contact and nonlinear U(phi-Jv) protect static
+    zero response; source promotion yields one physical massless mode. A constant
+    potential shift preserves that symmetry but changes gravity stress, so no GU
+    or vacuum-energy screening follows. K1849 proves the actual moment-selected
+    Fisher even gap gamma2>exp(-36), plus gamma_k>exp(-400) uniformly for
+    7/4<=k<=17/8. TV, square-root Sobolev and approximate-moment bounds are now
+    effective but very conservative. K1847's coarse reference bound remains more
+    useful at current numerical precision. Source/ledger/canon unchanged.
+
+    Retained predecessor results at their original scope:
     K1846 constructs a causal positive-energy continuum with late screened
     cross-readout O(1/t), conserved fluctuation energy, finite-spectrum
     nondecay theorem and a conjugate-contact repair. Readout tuning remains
@@ -15258,6 +15269,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1848-screening-shift-protection-2026-10-20.md
+    - explorations/k1849-fisher-effective-gap-2026-10-20.md
+    - lab/process/k1848-screening-shift-protection.json
+    - lab/process/k1849-fisher-effective-gap.json
     - explorations/conditional-build/k1846-continuum-screening-dephasing-2026-10-20.md
     - explorations/k1847-fisher-density-stability-2026-10-20.md
     - lab/process/k1846-continuum-screening-dephasing.json
@@ -15985,6 +16000,14 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can the source-native stress/constraint system protect an observable response
+  against an additive vacuum-energy shift, or can a genuine interacting continuum
+  relaxation theorem be constructed? Compare this with a useful-precision Fisher
+  gap for a named error target, a quantitative restricted k2 gap, or unrestricted
+  endpoint asymptotics. K1848 supplies a conditional static symmetry and its
+  stress counterexample; K1849 already closes mere effective gap existence.
+
+  Earlier questions below are retained history where superseded above:
   Can a derived constraint or interaction protect the conditional continuum
   screening cancellation, or can the actual GU intervention/readout/contact/domain
   be typed? Compare that against an effective lower bound on the true quartic Fisher spectral gap, a quantitative restricted k2 gap, or uniform unrestricted endpoint
@@ -19044,6 +19067,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  For screening, type the metric variation and actual native observable before
+  transferring the affine scalar symmetry; U->U+C is its exact stress reopener.
+  Nonlinear late relaxation still needs an actual spectral/scattering argument.
+  For Fisher, reuse the proved true gap and moment-error inequalities; choose a
+  consuming precision before tightening the conservative constants. A restricted
+  k2 gain still needs a full-domain lower bound at the same moment. No source,
+  ledger or canon verdict changes.
+
+  Earlier questions below are retained history where superseded above:
   For screening, derive the symmetry/constraint protecting the zero static
   cross integral or identify the same-action physical response packet; the
   continuum construction is conditional and its cancellation changes by epsilon/2

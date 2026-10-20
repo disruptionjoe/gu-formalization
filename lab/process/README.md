@@ -9,6 +9,9 @@ updated_at: "2026-08-23"
 
 ## October 20 research evidence
 
+- `k1848-screening-shift-protection.json`: same-action symmetry, response and source-promotion certificate.
+- `k1849-fisher-effective-gap.json`: true-quartic compact/tail and effective-stability constants.
+
 - `k1846-continuum-screening-dephasing.json`: exact continuum response, energy, contact and robustness inputs.
 - `k1847-fisher-density-stability.json`: exact rational shape/tail, Stein-factor and density-distance certificate.
 

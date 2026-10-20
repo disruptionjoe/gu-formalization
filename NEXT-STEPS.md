@@ -7,6 +7,18 @@ updated_at: "2026-10-20"
 
 # Next Steps For Contributors
 
+> **2026-10-20 PROTECTED RESPONSE AND EFFECTIVE STABILITY.** K1848 supplies
+> a nonlinear affine source-shift identity and the exact stress counterexample:
+> an additive constant preserves response protection but changes gravity stress.
+> Next construct the actual native metric-response/constraint bridge or prove
+> nonlinear relaxation; scalar static symmetry alone supplies neither.
+> K1849 makes true-optimizer Fisher stability effective, including moment
+> errors and a compact k interval. Its constants are very conservative. Next
+> fix a useful consuming precision before spectral refinement, or pursue the
+> distinct restricted k2 quantitative gap or unrestricted endpoint. Earlier
+> generic effective-gap requests are answered; source/ledger/canon unchanged.
+
+
 > **2026-10-20 CONTINUUM RESPONSE AND DENSITY CONTROL.** K1846 supplies
 > conservative causal late screening through a continuous mass spectrum,
 > with a finite-spectrum obstruction, contact repair and explicit tuning cost.
