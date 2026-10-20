@@ -8,63 +8,65 @@ source_return: EXTERNAL_LITERATURE
 
 # Ultrahyperbolic well-posedness — a literature note for the Build path
 
-Written to support the active K77 Build line (Ward closure → `K_loc` formal
-adjoint → Green identity → action Euler/Noether → presymplectic). **Every one of
-those gates presupposes a domain on which the ambient operator is well-posed.**
-This note reports what the literature actually provides for that, because the
-repository has a filed premise gap here (`M-S5`, 2026-08-08) and the gap is real.
+Written to support the K77 Build line (Ward closure → `K_loc` formal adjoint →
+Green identity → action Euler/Noether → presymplectic). A global analytic or
+physical realization needs its operator/domain hypotheses checked; formal
+identities and local algebra do not themselves require a completed global
+well-posedness theorem. The recorded premise gap is `M-S5` (2026-08-08).
+
+**Correction, 2026-10-20:** the original note conflated elliptic/Riemannian
+boundary theory with Lorentzian evolution and overstated the transfer of a
+scalar ultrahyperbolic result to every ambient system. This correction retains
+the missing domain bridge, not a universal ill-posedness verdict. No GU source,
+physics-ledger or canon status is changed.
 
 ## The gap, confirmed
 
-`M-H10` rests on "Bär–Ballmann does this generically." **Bär–Ballmann is a theory
-of boundary value problems for Dirac-type operators in RIEMANNIAN and LORENTZIAN
-settings.** A survey of the current well-posedness literature — Cauchy problems
-for Dirac operators on globally hyperbolic manifolds, MIT and APS boundary
-conditions, spatially non-compact Cauchy hypersurfaces — is uniformly about
-**one time direction**.
+`M-H10` relies on “Bär–Ballmann does this generically,” but the cited settings
+must be separated:
 
-**GU's ambient is not that.** `(7,7)` and `(9,5)` are ultrahyperbolic: many time
-directions. The standard theory does not extend to it, and no amount of
-"generically" bridges that.
+- [Christian Bär and Werner Ballmann, 1101.1196](https://arxiv.org/abs/1101.1196)
+  study first-order **elliptic** boundary problems with compact boundary and
+  a specified principal-symbol symmetry.
+- Their [Dirac boundary guide, 1307.3021](https://arxiv.org/abs/1307.3021)
+  concerns complete **Riemannian** manifolds with compact boundary, including
+  local elliptic and APS boundary conditions.
+- Globally hyperbolic **Lorentzian** Cauchy theory concerns a different
+  evolution problem. A boundary-condition name such as APS or MIT is not,
+  by itself, a theorem fixing signature, operator or admissible domain.
+
+None automatically supplies the proposed noncompact ambient `(7,7)`/`(9,5)`
+realization. A transfer needs matching hypotheses or a justified reduction;
+the label “Dirac-type” alone does not provide either.
 
 ## What IS known about ultrahyperbolic equations, and it is sharp
 
-**Craig & Weinstein (arXiv:0812.0210, 2009), the load-bearing result:**
+[Walter Craig and Steven Weinstein, 0812.0210](https://arxiv.org/abs/0812.0210)
+analyze a specified linear ultrahyperbolic wave equation. For their
+codimension-one problem, an explicit nonlocal restriction on Cauchy data yields
+Sobolev well-posedness; unrestricted data do not inherit that guarantee. For
+their higher-codimension problem, prescribing finitely many normal derivatives
+still allows nonuniqueness.
 
-> The Cauchy problem for the ultrahyperbolic equation is **ill-posed in general**,
-> but **well-posed on Sobolev spaces `H^m` if an explicit NONLOCAL CONSTRAINT is
-> imposed on the Cauchy data.**
-
-Two consequences the Build path should absorb:
-
-1. **Ill-posedness is the default, not a pathology to be discovered later.** For
-   an ultrahyperbolic operator, generic initial data does not give a
-   well-posed evolution. Any GU construction that assumes a domain exists
-   "as usual" is assuming something the literature says is false in this
-   signature class.
-2. **There is a known remedy, and it is NONLOCAL.** Well-posedness is recovered
-   on codimension-one hypersurfaces under an explicit nonlocal constraint on the
-   data. That is a *specific*, citable object — not a hope — and it is the
-   natural thing for `U13`/`U14` to be compared against.
-
-**And a second result that bounds the remedy:** the initial value problem on
-**higher-codimension** hypersurfaces remains **ill-posed**, at least when
-specifying finitely many derivatives of the data, through failure of uniqueness.
-So the nonlocal-constraint rescue does not generalise freely.
+This supplies both an obstruction example and a constructive constrained-data
+example. It neither supplies GU's first-order domain nor proves that every
+multi-time constrained system or observed reduction is ill-posed. Any proposed
+use for `U13`/`U14` must identify the equation, data space and transfer map.
 
 ## Why this matters to the specific gates now open
 
 - **`U13`/`U14` (the domain question).** `C1` established the deck-fixed
   admissible set is a positive-dimensional moduli (max real dimension 346,112)
   with no canonical selector at filed symmetry. That is a *section-level*
-  statement. The **ambient** question — deficiency indices for a first-order
-  ultrahyperbolic operator on a non-compact 14-manifold — is the one this
-  literature speaks to, and it says the default is ill-posed.
+  statement. Deficiency indices for a chosen first-order ambient realization
+  are a distinct operator/domain question, not answered by the scalar Cauchy
+  theorem or by the section-level moduli count.
 - **Green identity and formal adjoint.** A Green identity is an integration-by-
-  parts statement on a domain. If the domain is not well-posed, the identity is
-  formal in the pejorative sense.
+  parts statement on specified test fields or a domain. It can be valid before
+  a well-posed evolution is proved; it does not establish that evolution.
 - **Presymplectic reduction.** Covariant phase space presupposes a solution
-  space. Ill-posedness undermines the object being reduced.
+  space. Its global analytic properties need separate justification; a local
+  presymplectic calculation does not automatically supply them.
 
 **None of this says the Build is wrong.** It says the Build should *declare*
 which well-posedness it is assuming, and that "Bär–Ballmann generically" is not
@@ -89,14 +91,18 @@ by surname alone.**
 
 ## Method limit
 
-Two targeted web searches. **Not a systematic review.** This note establishes
-that (a) the standard Dirac boundary-value theory is Lorentzian, and (b) a
-specific, citable ultrahyperbolic well-posedness result exists with a stated
-constraint. It does **not** establish that Craig–Weinstein is the strongest or
-most recent such result, and a Build step that leans on it should check that.
+The original two targeted searches were **not a systematic review**. The
+October 20 primary-source check corrects the theorem taxonomy and limits the
+Craig–Steven Weinstein transfer to its stated model. It does not establish the
+strongest or newest applicable result. Missing analytic input remains a
+construction question, not a GU falsification or a bar to other research.
 
 ## Sources
 
+- Boundary Value Problems for Elliptic Differential Operators of First Order
+  (Christian Bär and Werner Ballmann): <https://arxiv.org/abs/1101.1196>
+- Guide to Boundary Value Problems for Dirac-Type Operators (Christian Bär and
+  Werner Ballmann): <https://arxiv.org/abs/1307.3021>
 - On determinism and well-posedness in multiple time dimensions (Craig &
   Weinstein): <https://arxiv.org/abs/0812.0210>
 - Multiple Time Dimensions (S. Weinstein): <https://arxiv.org/pdf/0812.3869>

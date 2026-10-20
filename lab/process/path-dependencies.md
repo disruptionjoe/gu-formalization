@@ -94,17 +94,17 @@ graph TD
   PD_ULTRAHYPERBOLIC_DOMAIN["PD-ULTRAHYPERBOLIC-DOMAIN"]
   PD_ULTRAHYPERBOLIC_DOMAIN_s0["EXACT: GU's ambient operator is first-order ULTRAHYPERBOLIC on a non-compact 14-ma..."]
   PD_ULTRAHYPERBOLIC_DOMAIN --> PD_ULTRAHYPERBOLIC_DOMAIN_s0
-  PD_ULTRAHYPERBOLIC_DOMAIN_s1["THEOREM: The standard Dirac boundary-value literature (Baer-Ballmann, APS, MIT, glob..."]
+  PD_ULTRAHYPERBOLIC_DOMAIN_s1["THEOREM: Bär–Ballmann 1101.1196 treats first-order elliptic boundary problems; 1307...."]
   PD_ULTRAHYPERBOLIC_DOMAIN_s0 --> PD_ULTRAHYPERBOLIC_DOMAIN_s1
-  PD_ULTRAHYPERBOLIC_DOMAIN_s2["THEOREM: For the ultrahyperbolic equation the Cauchy problem is ILL-POSED IN GENERAL..."]
+  PD_ULTRAHYPERBOLIC_DOMAIN_s2["THEOREM: Walter Craig and Steven Weinstein 0812.0210 analyze a specified linear ultr..."]
   PD_ULTRAHYPERBOLIC_DOMAIN_s1 --> PD_ULTRAHYPERBOLIC_DOMAIN_s2
-  PD_ULTRAHYPERBOLIC_DOMAIN_s3["THEOREM: A citable remedy exists and is NONLOCAL: well-posed on H^m under an explici..."]
+  PD_ULTRAHYPERBOLIC_DOMAIN_s3["THEOREM: For that model, an explicit nonlocal constraint gives a well-posed Sobolev ..."]
   PD_ULTRAHYPERBOLIC_DOMAIN_s2 --> PD_ULTRAHYPERBOLIC_DOMAIN_s3
-  PD_ULTRAHYPERBOLIC_DOMAIN_s4["THEOREM: The remedy does not generalise: higher-codimension initial surfaces stay il..."]
+  PD_ULTRAHYPERBOLIC_DOMAIN_s4["THEOREM: For the paper's higher-codimension data problem, prescribing finitely many ..."]
   PD_ULTRAHYPERBOLIC_DOMAIN_s3 --> PD_ULTRAHYPERBOLIC_DOMAIN_s4
   PD_ULTRAHYPERBOLIC_DOMAIN_s5["EXACT: C1's 346,112-dimensional admissible moduli is a SECTION-level result at fil..."]
   PD_ULTRAHYPERBOLIC_DOMAIN_s4 --> PD_ULTRAHYPERBOLIC_DOMAIN_s5
-  PD_ULTRAHYPERBOLIC_DOMAIN_chk{"CHECK: State which well-posedness you are assuming and for which operator"}
+  PD_ULTRAHYPERBOLIC_DOMAIN_chk{"CHECK: State which well-posedness is claimed, for which operator, domain, data cla..."}
   PD_ULTRAHYPERBOLIC_DOMAIN_s5 --> PD_ULTRAHYPERBOLIC_DOMAIN_chk
   PD_ULTRAHYPERBOLIC_DOMAIN_t0("TRAP 2026-08-08")
   PD_ULTRAHYPERBOLIC_DOMAIN_chk -.-> PD_ULTRAHYPERBOLIC_DOMAIN_t0
@@ -293,29 +293,29 @@ graph TD
 
 ## PD-ULTRAHYPERBOLIC-DOMAIN
 
-**Lorentzian well-posedness is not ultrahyperbolic well-posedness. For GU's ambient the Cauchy problem is ILL-POSED BY DEFAULT, so a domain is something you must SUPPLY, not something you may assume and check later.**
+**Elliptic/Riemannian boundary theory and Lorentzian Cauchy theory do not automatically supply an ultrahyperbolic realization. Declare the operator, domain and data class before claiming well-posedness; signature alone does not prove a universal GU no-go.**
 
 - **Trigger:** Any work on the operator domain, deficiency indices, formal adjoint, Green identity, presymplectic/covariant phase space, or that cites Baer-Ballmann, APS, MIT boundary conditions or "globally hyperbolic" results for the AMBIENT Y^14 operator.
-- **Naive reading:** "Boundary value problems for Dirac-type operators are standard; the domain exists generically and can be pinned later." That standard theory is uniformly about ONE TIME DIRECTION. GU's ambient (7,7)/(9,5) has many.
+- **Naive reading:** "Boundary value problems for Dirac-type operators are standard; the domain exists generically and can be pinned later." The cited elliptic/Riemannian and Lorentzian results have distinct hypotheses; neither transfers merely because the ambient operator is also called Dirac-type.
 
 | # | evidence | fact | receipt |
 |---|---|---|---|
 | 1 | `EXACT` | GU's ambient operator is first-order ULTRAHYPERBOLIC on a non-compact 14-manifold -- (7,7) or (9,5), many time directions. | `explorations/c1-domain-moduli-result-2026-08-08.md` |
-| 2 | `THEOREM` | The standard Dirac boundary-value literature (Baer-Ballmann, APS, MIT, globally hyperbolic, spatially non-compact Cauchy data) is uniformly LORENTZIAN -- one time direction. | `lab/sources/literature-ultrahyperbolic-wellposedness-2026-08-08.md` |
-| 3 | `THEOREM` | For the ultrahyperbolic equation the Cauchy problem is ILL-POSED IN GENERAL (Craig & Weinstein 2009, arXiv:0812.0210). | `lab/sources/literature-ultrahyperbolic-wellposedness-2026-08-08.md` |
-| 4 | `THEOREM` | A citable remedy exists and is NONLOCAL: well-posed on H^m under an explicit nonlocal constraint on the Cauchy data, on codimension-one hypersurfaces only. | `lab/sources/literature-ultrahyperbolic-wellposedness-2026-08-08.md` |
-| 5 | `THEOREM` | The remedy does not generalise: higher-codimension initial surfaces stay ill-posed through failure of uniqueness. | `lab/sources/literature-ultrahyperbolic-wellposedness-2026-08-08.md` |
+| 2 | `THEOREM` | Bär–Ballmann 1101.1196 treats first-order elliptic boundary problems; 1307.3021 treats Dirac-type operators on complete Riemannian manifolds with compact boundary, including APS conditions. Globally hyperbolic Lorentzian Cauchy results are a different setting. | `lab/sources/literature-ultrahyperbolic-wellposedness-2026-08-08.md` |
+| 3 | `THEOREM` | Walter Craig and Steven Weinstein 0812.0210 analyze a specified linear ultrahyperbolic wave equation: unconstrained Cauchy data need not give a well-posed problem. This is not a theorem for every first-order ambient GU system. | `lab/sources/literature-ultrahyperbolic-wellposedness-2026-08-08.md` |
+| 4 | `THEOREM` | For that model, an explicit nonlocal constraint gives a well-posed Sobolev problem on codimension-one hypersurfaces under the paper's hypotheses. No GU domain is thereby supplied. | `lab/sources/literature-ultrahyperbolic-wellposedness-2026-08-08.md` |
+| 5 | `THEOREM` | For the paper's higher-codimension data problem, prescribing finitely many normal derivatives does not ensure uniqueness. Do not extrapolate this to every constrained system or reduction. | `lab/sources/literature-ultrahyperbolic-wellposedness-2026-08-08.md` |
 | 6 | `EXACT` | C1's 346,112-dimensional admissible moduli is a SECTION-level result at filed symmetry; it does not answer the ambient deficiency-index question. | `explorations/c1-domain-moduli-result-2026-08-08.md` |
 
-**CHECK.** State which well-posedness you are assuming and for which operator. If the claim is about the AMBIENT operator, "Baer-Ballmann generically" is NOT available -- say instead what supplies the domain, and compare it against the nonlocal-constraint remedy. Never let a section-level domain result stand in for the ambient one.
+**CHECK.** State which well-posedness is claimed, for which operator, domain, data class and estimates. For an AMBIENT claim, “Bär–Ballmann generically” is not a transfer proof; compare hypotheses explicitly, including any proposed nonlocal constraint. Never let a section-level domain result stand in for the ambient one. Formal Green identities and local algebra can still be studied before a global well-posedness theorem; they do not certify it.
 
 **Traps that actually happened:**
 
-- **2026-08-08** — M-H10 was found to rest on "Baer-Ballmann does this generically", which does not cover ultrahyperbolic signature. Worse than a scope slip: the literature says ill-posedness is the DEFAULT there, so the premise was not merely unstated for this setting but pointed the wrong way. The gap was recorded only inside an artifact about a DIFFERENT question (C1's domain moduli), where no one leaning on M-H10 would meet it.
+- **2026-08-08** — M-H10 relied on “Bär–Ballmann does this generically” without a theorem matching the ambient problem. Scope corrected 2026-10-20: the original warning also overgeneralized the scalar ill-posedness result; the retained finding is a missing theorem/domain bridge, not automatic ill-posedness of every GU realization. The gap had been recorded only inside an artifact about a DIFFERENT question (C1's domain moduli), where a consumer of M-H10 could miss it.
   - *Cost:* A premise gap on a live blocker, invisible from the row that needs it, until filed as M-S5.
   - *Receipt:* `lab/process/improvement-register-2026-08-03.md`
 
-**Invalidates if:** A signature-appropriate well-posedness theorem covering first-order ultrahyperbolic operators on non-compact manifolds is found, or GU's ambient problem is re-typed so that it is not ultrahyperbolic.
+**Invalidates if:** The domain gap is discharged by a theorem whose checked hypotheses cover the specific proposed ambient operator/domain/data, or by a justified reduction supplying the relevant different problem. A general theorem for every ultrahyperbolic operator is not required. The distinction among the three theorem settings remains.
 
 ## PD-STRUCTURE-TRANSPORT
 
