@@ -7,6 +7,10 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [K1884 hard-cell Fisher entropy](k1884-hard-cell-fisher-entropy.json): exact inputs, controls and claim ceiling.
+- [K1885 travelling phase rigidity](k1885-traveling-phase-rigidity-and-frame-reduction.json): exact inputs, controls and claim ceiling.
+- [K1886 support-bounded observation approximation](k1886-support-bounded-observation-approximation.json): exact inputs, controls and claim ceiling.
+
 - [K1882 rescaled transport](k1882-effective-fisher-rescaled-transport.json): exact error budgets and transfer controls.
 - [K1883 compact range](k1883-compact-support-observation-range.json): actual matrix factorization and compact preparation coefficients.
 

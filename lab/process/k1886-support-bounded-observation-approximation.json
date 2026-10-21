@@ -1,0 +1,44 @@
+{
+  "result_id": "K1886",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "formula": {
+    "cube_gram_prefactor": 4,
+    "cube_gram_exponent": 2,
+    "massless_volume_factor": 8,
+    "massive_squared_error_prefactor": "1/2",
+    "massive_tail_exponent": 4,
+    "optimal_squared_error": "q^T G^-1 q"
+  },
+  "scope": {
+    "infimum_over_Cc_sources": true,
+    "nonzero_charge_smooth_target_attained": false,
+    "fixed_support_floor": true,
+    "source_energy_bound": false,
+    "native_GU": false,
+    "rotating_requires_repaired_map": true
+  },
+  "checks": {
+    "full_primitive_right_inverse_0": true,
+    "actual_charge_adjoint_0": true,
+    "full_primitive_right_inverse_1": true,
+    "actual_charge_adjoint_1": true,
+    "full_primitive_right_inverse_2": true,
+    "actual_charge_adjoint_2": true,
+    "full_primitive_right_inverse_3": true,
+    "actual_charge_adjoint_3": true,
+    "Gram_integral": true,
+    "opposite_charge_equal_norm": true,
+    "massless_limit": true,
+    "mass_sign_independent": true,
+    "translated_Gram": true,
+    "squared_error_factorization": true,
+    "strict_monotonicity_formula": true
+  },
+  "inputs": {
+    "lab/process/k1883-compact-support-observation-range.json": "856554ab89d2d5ec1ffdae6a036f43b527f1fffaa86f5c3b771fb370b9f192c2",
+    "lab/process/k1836-k77-differential-dirac-quotient.json": "dc6c770abbbc55acdbe104e27a4441bbecb19493c18f7c319a2ae5ccfa564d7a",
+    "lab/process/k1840-k77-conservative-variable-observation.json": "5c5d0b4ed4e52f51389f6f22fbb9197beec29d0f530232aa2e736b92c989d1dd"
+  }
+}

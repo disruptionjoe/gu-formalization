@@ -1,0 +1,235 @@
+{
+  "result_id": "K1885",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "identities": {
+    "angular_trace_coefficient": 96,
+    "angular_radial_remainder": "4*(24*a1*v+b)*(m*m_prime+n*n_prime)",
+    "phase_second_derivative": 0,
+    "uniform_phase_only": true,
+    "frame_target": "R*B1+(v*omega/2)*J-(omega/48)*D1*J",
+    "line_bands": "s*b +/- sqrt((p+s*a)^2+R^2)",
+    "line_gap": "max(0,abs(R)-abs(omega)/48)",
+    "tangent_normalization_omega": 2,
+    "tangent_dual_rhs": "v"
+  },
+  "tangent_dual_witnesses": [
+    [
+      [
+        4,
+        "-v/2"
+      ],
+      [
+        7,
+        "11/192 - v/4"
+      ],
+      [
+        8,
+        "v/4 + 11/192"
+      ],
+      [
+        11,
+        "1/16"
+      ],
+      [
+        12,
+        "-1/16"
+      ],
+      [
+        18,
+        "1/16"
+      ],
+      [
+        21,
+        "1/16"
+      ],
+      [
+        39,
+        "25/192"
+      ],
+      [
+        40,
+        "-25/192"
+      ]
+    ],
+    [
+      [
+        4,
+        "-v/2"
+      ],
+      [
+        7,
+        "11/192 - v/4"
+      ],
+      [
+        8,
+        "v/4 + 11/192"
+      ],
+      [
+        11,
+        "1/16"
+      ],
+      [
+        12,
+        "-1/16"
+      ],
+      [
+        18,
+        "1/8"
+      ],
+      [
+        21,
+        "1/8"
+      ],
+      [
+        39,
+        "25/192"
+      ],
+      [
+        40,
+        "-25/192"
+      ]
+    ],
+    [
+      [
+        4,
+        "-v/2"
+      ],
+      [
+        7,
+        "v/4 - 11/192"
+      ],
+      [
+        8,
+        "-v/4 - 11/192"
+      ],
+      [
+        11,
+        "-1/16"
+      ],
+      [
+        12,
+        "1/16"
+      ],
+      [
+        18,
+        "-1/8"
+      ],
+      [
+        21,
+        "-1/8"
+      ],
+      [
+        39,
+        "-25/192"
+      ],
+      [
+        40,
+        "25/192"
+      ]
+    ],
+    [
+      [
+        4,
+        "-v/2"
+      ],
+      [
+        7,
+        "v/4 - 11/192"
+      ],
+      [
+        8,
+        "-v/4 - 11/192"
+      ],
+      [
+        11,
+        "-1/16"
+      ],
+      [
+        12,
+        "1/16"
+      ],
+      [
+        18,
+        "-1/16"
+      ],
+      [
+        21,
+        "-1/16"
+      ],
+      [
+        39,
+        "-25/192"
+      ],
+      [
+        40,
+        "25/192"
+      ]
+    ]
+  ],
+  "scope": {
+    "fixed_positive_symbols_and_leading_observation": true,
+    "nonzero_travelling_speed": true,
+    "nonzero_amplitude_for_phase": true,
+    "canonical_massless_base_no_differentiable_constant_frame_mass_branch": true,
+    "general_constant_frame_lift_excluded": false,
+    "general_rotating_lift_excluded": false,
+    "source_native_identification": false,
+    "band_formula_one_spatial_dimension_only": true,
+    "rotating_frame_gap_is_Floquet_gap": false,
+    "odd_winding_changes_periodic_domain": true
+  },
+  "checks": {
+    "Clifford_mass_algebra": true,
+    "reused_complete_Gram_bank": true,
+    "full_angular_trace": true,
+    "phase_acceleration_trace": true,
+    "constant_phase_projection_0": true,
+    "constant_phase_projection_1": true,
+    "constant_phase_projection_2": true,
+    "circular_positive_Gram_survives": true,
+    "frame_leading_0": true,
+    "frame_conservation_0": true,
+    "massless_base_first_0": true,
+    "massless_base_zero_0": true,
+    "all_speed_tangent_annihilator_0": true,
+    "all_speed_tangent_contradiction_0": true,
+    "static_tangent_control_0": true,
+    "frame_leading_1": true,
+    "frame_conservation_1": true,
+    "massless_base_first_1": true,
+    "massless_base_zero_1": true,
+    "all_speed_tangent_annihilator_1": true,
+    "all_speed_tangent_contradiction_1": true,
+    "static_tangent_control_1": true,
+    "frame_leading_2": true,
+    "frame_conservation_2": true,
+    "massless_base_first_2": true,
+    "massless_base_zero_2": true,
+    "all_speed_tangent_annihilator_2": true,
+    "all_speed_tangent_contradiction_2": true,
+    "static_tangent_control_2": true,
+    "frame_leading_3": true,
+    "frame_conservation_3": true,
+    "massless_base_first_3": true,
+    "massless_base_zero_3": true,
+    "all_speed_tangent_annihilator_3": true,
+    "all_speed_tangent_contradiction_3": true,
+    "static_tangent_control_3": true,
+    "spectral_involution": true,
+    "spectral_commutant": true,
+    "band_projector_-1": true,
+    "band_square_-1": true,
+    "band_projector_1": true,
+    "band_square_1": true,
+    "band_characteristic_polynomial": true
+  },
+  "inputs": {
+    "lab/process/k1832-k77-common-energy-form.json": "50521381c0281b5e3327a4bc938367f38f982761823b6c5950e4f0a4ef950993",
+    "lab/process/k1836-k77-differential-dirac-quotient.json": "dc6c770abbbc55acdbe104e27a4441bbecb19493c18f7c319a2ae5ccfa564d7a",
+    "lab/process/k1840-k77-conservative-variable-observation.json": "5c5d0b4ed4e52f51389f6f22fbb9197beec29d0f530232aa2e736b92c989d1dd",
+    "lab/process/k1877-traveling-gram-amplitude-rigidity.json": "465e52915c88d83342929904fab79f74349d364ee918e0db250dde0e14fd9fa7",
+    "lab/process/k1879-rotating-observation-connection-repair.json": "914ff634b60aa0d81b85b58843cedeb349f38c22f8049598235726bdc193f554"
+  }
+}

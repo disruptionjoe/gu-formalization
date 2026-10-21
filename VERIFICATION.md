@@ -7,6 +7,40 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-21: hard-cell entropy, travelling phase and support bounds
+
+[K1884](explorations/k1884-hard-cell-fisher-entropy-2026-10-21.md)
+proves forward relative entropy bounds for the actual conditioned three-well
+profiles, including weighted KL<0.00255 in the existing k4 example. Density-height
+and residual-moment control bridge the hard-cell boundary. Gaussian mixtures,
+independent products, an explicit differential-entropy asymptotic and infinite
+reverse-cell-KL countercontrols follow. No sextic gap or optimizer-relative KL.
+
+[K1885](explorations/conditional-build/k1885-traveling-phase-rigidity-and-frame-reduction-2026-10-21.md)
+forces uniform phase for nonzero-amplitude travelling masses. Full-bank polynomial
+dual witnesses exclude a differentiable constant-frame mass branch from the
+canonical massless rotating base at every nonzero speed. This does not exclude
+all rotating lifts. Exact one-dimensional target bands distinguish rotating-frame
+gaps from time-Floquet gaps and preserve odd-winding domain twists.
+
+[K1886](explorations/conditional-build/k1886-support-bounded-observation-approximation-2026-10-21.md)
+gives the exact infimum target L2 error under fixed compact source support:
+four charge functionals determine the optimal projection. Smooth nonzero-charge
+targets never attain that infimum with compact sources. Expanding-box accuracy,
+translations, and repaired rotating frames are explicit; no source-energy bound.
+
+Analytic proofs carry the continuum claims. Exact coefficient and arithmetic
+controls, planted faults, and a separate read-only mathematical review supplement
+them. These are research results, without external expert or proof-assistant
+acceptance, novelty, or native GU physics credit. Source and physics-ledger
+verdicts and scientific canon remain unchanged.
+
+Next compare the actual native adapter with noncanonical/variable-frame uniform
+rotation; scalar work needs actual spectral or sharp next-order information;
+simultaneous support and energy control needs a bounded-domain inverse.
+Earlier pending hard-cell entropy, accelerated phase and fixed-support-error
+questions below are historical at their original scopes.
+
 ## 2026-10-21: rescaled Fisher transport and compact observation range
 
 [K1882](explorations/k1882-effective-fisher-rescaled-transport-2026-10-21.md)

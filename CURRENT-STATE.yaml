@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: e1301bd6d56da2d6aa29e763f1e92b1d5a64119c
+revision_basis: 3a3df6393f36865c7a52ef54f65f27b43aeb5829
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,18 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1884 bounds forward entropy of the actual three-well conditional profiles,
+    transfers it to Gaussian mixtures, and proves an explicit differential-entropy
+    asymptotic. Its k4 finite weighted KL bound is 0.00255. K1885 forces a
+    nonzero-amplitude travelling mass phase to rotate uniformly; exact polynomial
+    witnesses exclude differentiable constant-frame mass switch-on from the
+    canonical massless rotating base. General rotating lifts remain open.
+    One-dimensional rotating-frame bands and Floquet/domain distinctions are explicit.
+    K1886 gives the sharp target L2 approximation floor for fixed source support,
+    with nonattainment, support-growth and repaired-frame consequences.
+    Independent/conditional mathematics only; source/ledger/canon verdicts unchanged.
+
+    Historical predecessor results at their original scopes:
     K1882 proves effective rescaled three-well Wasserstein bounds for every
     feasible sixth-cap density with a proved Fisher upper bound. Tail allocation,
     rare-cell masses, means, widths and a uniform-integrability modulus are explicit;
@@ -15462,6 +15474,18 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/k1884-hard-cell-fisher-entropy-2026-10-21.md
+    - lab/process/k1884-hard-cell-fisher-entropy.json
+    - tests/channel-swings/k1884_hard_cell_fisher_entropy.py
+    - tests/channel-swings/k1884_hard_cell_fisher_entropy_probe.py
+    - explorations/conditional-build/k1885-traveling-phase-rigidity-and-frame-reduction-2026-10-21.md
+    - lab/process/k1885-traveling-phase-rigidity-and-frame-reduction.json
+    - tests/channel-swings/k1885_traveling_phase_rigidity_and_frame_reduction.py
+    - tests/channel-swings/k1885_traveling_phase_rigidity_and_frame_reduction_probe.py
+    - explorations/conditional-build/k1886-support-bounded-observation-approximation-2026-10-21.md
+    - lab/process/k1886-support-bounded-observation-approximation.json
+    - tests/channel-swings/k1886_support_bounded_observation_approximation.py
+    - tests/channel-swings/k1886_support_bounded_observation_approximation_probe.py
     - explorations/k1882-effective-fisher-rescaled-transport-2026-10-21.md
     - lab/process/k1882-effective-fisher-rescaled-transport.json
     - tests/channel-swings/k1882_effective_fisher_rescaled_transport.py
@@ -16271,6 +16295,14 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Compare actual native fullC/injection/pairing/domain identification with
+  noncanonical or variable-frame pure-mass uniform rotation. K1885 closes
+  accelerated phases and the canonical massless constant-frame switch-on, not
+  all rotating lifts. Scalar hard-cell entropy and fixed-support error are now
+  answered; actual sextic spectrum/sharp correction and simultaneous support-energy
+  recovery require new analytic input.
+
+  Historical continuations at their original scopes:
   Compare actual native fullC/injection/pairing/domain identification with
   pure-mass nonlinear rotating factorization. K1883 settles compact range for
   the fixed observation, not a new native map. K1882 settles effective rescaled
@@ -19423,6 +19455,13 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  A native claim needs the actual typed coefficient/domain adapter. A remaining
+  rotating lift must solve full conservative factorization beyond K1885's excluded
+  canonical branch; a positive Gram alone is insufficient. Scalar optimizer-relative
+  entropy or spectral-gap claims need actual sextic data. Fixed-box approximation
+  alone supplies no source-energy bound or attained compact minimizer.
+
+  Historical continuations at their original scopes:
   Native credit needs an actual typed coefficient/domain adapter. Pure-mass
   rotation must solve the full conservative equations without the extra
   connection. Compact recovery must preserve all four weighted charges;

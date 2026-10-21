@@ -1,5 +1,9 @@
 # Pre-contract wave probes
 
+- K1884: [producer](k1884_hard_cell_fisher_entropy.py), [independent probe](k1884_hard_cell_fisher_entropy_probe.py).
+- K1885: [producer](k1885_traveling_phase_rigidity_and_frame_reduction.py), [independent probe](k1885_traveling_phase_rigidity_and_frame_reduction_probe.py).
+- K1886: [producer](k1886_support_bounded_observation_approximation.py), [independent probe](k1886_support_bounded_observation_approximation_probe.py).
+
 - K1882: [producer](k1882_effective_fisher_rescaled_transport.py), [independent probe](k1882_effective_fisher_rescaled_transport_probe.py).
 - K1883: [producer](k1883_compact_support_observation_range.py), [independent probe](k1883_compact_support_observation_range_probe.py).
 

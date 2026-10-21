@@ -7,6 +7,10 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [K1884 hard-cell Fisher entropy](k1884-hard-cell-fisher-entropy-2026-10-21.md).
+- [K1885 travelling phase rigidity](conditional-build/k1885-traveling-phase-rigidity-and-frame-reduction-2026-10-21.md).
+- [K1886 support-bounded observation approximation](conditional-build/k1886-support-bounded-observation-approximation-2026-10-21.md).
+
 - [K1882 effective rescaled Fisher transport](k1882-effective-fisher-rescaled-transport-2026-10-21.md): finite conditional W2, tail and moment bounds.
 - [K1883 compact observation range](conditional-build/k1883-compact-support-observation-range-2026-10-21.md): four charges, constructive compact lifts and local-recovery obstruction.
 

@@ -1,0 +1,77 @@
+{
+  "result_id": "K1884",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "constants": {
+    "height": "1/2",
+    "local_entropy": "1/2",
+    "residual_entropy": "16/9",
+    "label_count": 3,
+    "entropy_log_scale": "1/2",
+    "entropy_chain_sqrt": 2,
+    "entropy_chain_quadratic": 1
+  },
+  "formula": "E/(2*k*A)+16*A*D/(9*k)+T*log(Cplus/T)",
+  "formula_inputs": {
+    "T": "min(1,tau)",
+    "Cplus": "max(exp(1),(3/2)*sqrt(2*pi*U/(k*A)))"
+  },
+  "budget": {
+    "E": "101875892234921/5758128152100000",
+    "D": "9169775215267926171911/12963110400000000000000000",
+    "B": "93341939658076246203032348172959/746432509330202918400000000000000000",
+    "tau": "1/22500",
+    "H_rational_upper": "95080212187178355146552348172959/37321625466510145920000000000000000",
+    "central_mass_lower": "2999999/4000000",
+    "outer_mass_lower": "999999/8000000",
+    "even_label_divergence_upper": "1/3000000000000",
+    "exp12_partial_lower": "10189980031250253667/62628675484375",
+    "whole_entropy_error_upper": "1419128779983737480834792348172959/18660812733255072960000000000000000"
+  },
+  "bounds": {
+    "weighted_KL": "51/20000",
+    "central_KL": "7/2000",
+    "outer_KL": "21/1000",
+    "whole_entropy_expansion_error": "77/1000"
+  },
+  "scope": {
+    "actual_hard_cells": true,
+    "all_feasible_valid_U": true,
+    "rare_cell_mass_required": true,
+    "forward_entropy_only": true,
+    "actual_weight_mixture": true,
+    "fixed_weights_require_evenness": true,
+    "differential_entropy_expansion": true,
+    "reverse_KL_finite": false,
+    "sharp_rate": false,
+    "sextic_gap": false,
+    "native_GU": false
+  },
+  "evidence_kind": {
+    "checks": "exact rational budgets and coefficient identities; not continuum proof",
+    "continuum": "explorations/k1884-hard-cell-fisher-entropy-2026-10-21.md"
+  },
+  "checks": {
+    "positive_allocation_and_cutoff": true,
+    "positive_entropy_and_transport": true,
+    "tail_mass": true,
+    "Gaussian_normalizer_below_five": true,
+    "positive_exp_series_certifies_log_bound": true,
+    "weighted_KL_00255": true,
+    "central_KL_0035": true,
+    "outer_KL_0021": true,
+    "even_fixed_weight_entropy_00255": true,
+    "entropy_moment_square_root_0071": true,
+    "whole_entropy_chain_error_0077": true,
+    "Laplace_height_constant": true,
+    "residual_quadratic_coefficient": true,
+    "label_chisquare_coefficient": true,
+    "entropy_second_moment_coefficient": true,
+    "rate_cutoff_mass_exponent": true
+  },
+  "inputs": {
+    "lab/process/k1882-effective-fisher-rescaled-transport.json": "fd4147763adee59a3d7bab1de842d47ddd04a570896fc5a9d054c6fa9cda4471",
+    "lab/process/k1880-effective-fisher-well-localization.json": "d926da595f8aaa681991257a3c6e4dc163bf3cef0ed53476e6421c44064229d2"
+  }
+}

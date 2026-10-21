@@ -7,6 +7,16 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-21: ENTROPY, PHASE AND SUPPORT BOUNDS ESTABLISHED.**
+> K1884 closes actual hard-cell forward entropy and its mixture/entropy consumers.
+> K1885 forces uniform travelling rotation and excludes the canonical massless
+> constant-frame mass switch-on, while leaving broader rotating lifts open.
+> K1886 gives the sharp fixed-support approximation floor and support-growth law.
+> Next test actual native adapters or noncanonical/variable-frame rotating lifts;
+> scalar spectral/next-order and simultaneous support-energy questions remain.
+> Source and physics verdicts are unchanged. Earlier requests below are historical.
+
+
 > **2026-10-21: RESCALED TRANSPORT AND COMPACT RECOVERY CLASSIFIED.**
 > K1882 gives finite rescaled W2 bounds with actual tails and cell weights.
 > K1883 gives four exact compact-preparation charge constraints, constructive
