@@ -7,6 +7,17 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-21: COUPLED SLAB SPECTRUM AND BOUNDARY REPAIR ESTABLISHED.**
+> K1889 gives exact surface/bulk preparation bands, sharp budgets and a massive
+> finite-energy obstruction when normal support is fixed and the transverse
+> plane is infinite. K1890 separates preparation support from source unitarity
+> and constructs the minimum observed-trace relaxation for modewise conservative
+> evolution. The massless normal dynamical repair is solved with two missing
+> constant target modes. Next needs a massive/tangential domain intertwiner
+> or native fullC/pairing/domain adapter. Neither the slab nor a repaired source
+> boundary solves the three-wall box or supplies a physical GU quotient.
+> Earlier continuations below remain historical at their original scopes.
+
 > **2026-10-21: BOUNDED ROTATION AND SUPPORT-ENERGY QUESTIONS ADVANCED.**
 > K1887 excludes bounded canonical-base perturbative rotating branches even with
 > variable frames and gives nonlinear distance, finite-interval and residual bounds.

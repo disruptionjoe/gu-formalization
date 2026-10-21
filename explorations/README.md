@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [K1889 exact slab preparation spectrum, budgets and infrared range](conditional-build/k1889-coupled-slab-observation-spectrum-2026-10-21.md).
+- [K1890 modewise boundary incompatibility and sharp conservative repair](conditional-build/k1890-preparation-evolution-boundary-incompatibility-2026-10-21.md).
+
 - [K1887 Bounded variable-frame rotation](conditional-build/k1887-bounded-variable-frame-rotation-2026-10-21.md).
 - [K1888 Bounded-support energy inverse](conditional-build/k1888-bounded-support-energy-inverse-2026-10-21.md).
 

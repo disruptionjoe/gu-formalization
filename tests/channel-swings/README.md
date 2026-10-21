@@ -1,5 +1,8 @@
 # Pre-contract wave probes
 
+- K1889: [producer](k1889_coupled_slab_observation_spectrum.py), [probe](k1889_coupled_slab_observation_spectrum_probe.py).
+- K1890: [producer](k1890_preparation_evolution_boundary_incompatibility.py), [probe](k1890_preparation_evolution_boundary_incompatibility_probe.py).
+
 - K1887: [producer](k1887_bounded_variable_frame_rotation.py), [independent probe](k1887_bounded_variable_frame_rotation_probe.py).
 - K1888: [producer](k1888_bounded_support_energy_inverse.py), [independent probe](k1888_bounded_support_energy_inverse_probe.py).
 

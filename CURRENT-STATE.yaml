@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: c22fb0f5039fbe5d2d4ccf1da2ee44d31dddba85
+revision_basis: 05a0a41451ff4e1f7752b7c2d8a24db93737d088
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,19 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1889 solves the actual coupled preparation spectrum on a periodic transverse
+    slab, including mass-independent surface bands, sharp energy budgets and
+    the infinite-plane infrared obstruction at fixed normal support. Its Gaussian
+    surface-target energy/error law is explicit. This does not solve the box.
+    K1890 proves zero-observation-flux traces cannot support unitary source
+    evolution in the finite-interval/modewise class. The sharp repair allows
+    two observed directions per separated face; characteristic reflection
+    realizes it. The massless normal subsystem has a compatible target domain
+    and dynamical minimum-energy inverse, excluding two constant target modes.
+    Arbitrary tangentially mixing boundaries are not classified.
+    Native GU identification and source/physics-ledger/canon verdicts unchanged.
+
+    Historical predecessor results at their original scopes:
     K1887 extends the canonical rotating-base obstruction to bounded variable-frame
     coefficients: a dual-flux identity imposes an explicit nonlinear distance bound,
     excludes bounded perturbative O(R) branches, and supplies finite-interval and
@@ -15486,6 +15499,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1889-coupled-slab-observation-spectrum-2026-10-21.md
+    - lab/process/k1889-coupled-slab-observation-spectrum.json
+    - tests/channel-swings/k1889_coupled_slab_observation_spectrum.py
+    - tests/channel-swings/k1889_coupled_slab_observation_spectrum_probe.py
+    - explorations/conditional-build/k1890-preparation-evolution-boundary-incompatibility-2026-10-21.md
+    - lab/process/k1890-preparation-evolution-boundary-incompatibility.json
+    - tests/channel-swings/k1890_preparation_evolution_boundary_incompatibility.py
+    - tests/channel-swings/k1890_preparation_evolution_boundary_incompatibility_probe.py
     - explorations/conditional-build/k1887-bounded-variable-frame-rotation-2026-10-21.md
     - lab/process/k1887-bounded-variable-frame-rotation.json
     - tests/channel-swings/k1887_bounded_variable_frame_rotation.py
@@ -16315,6 +16336,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Compare the actual native fullC/injection/pairing/domain adapter with a
+  massive/tangential source/target evolution-domain pair for the repaired boundary.
+  The slab preparation spectrum is exact, but source unitarity alone does not
+  establish an observed dynamical quotient. Noncanonical rotating existence,
+  the three-wall box spectrum and scalar sextic questions remain alternatives.
+
+  Historical continuations at their original scopes:
   Compare a genuinely noncanonical or finite-amplitude rotating factorization
   with the actual native fullC/injection/pairing/domain adapter. Bounded O(R)
   perturbation of the canonical base is now excluded even with variable frames.
@@ -19483,6 +19511,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Extend the proved massless normal repair to actual massive/tangential
+  source and target evolution domains and prove observation maps
+  an invariant core with closure control. Zero observation flux cannot be
+  retained in a modewise unitary realization of the full source space.
+  A native result separately needs the actual typed fullC/pairing adapter.
+  Do not reuse slab bands as a box spectrum or as physical particle bands.
+
+  Historical continuations at their original scopes:
   A rotating construction must evade K1887's explicit nonlinear distance bound,
   solve all conservative equations, and supply its global bounded or periodic domain.
   A native physics claim still needs the actual typed adapter. Numerical support-energy

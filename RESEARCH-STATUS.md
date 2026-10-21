@@ -8,6 +8,40 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-21: exact slab preparation spectrum and evolution boundary repair
+
+[K1889](explorations/conditional-build/k1889-coupled-slab-observation-spectrum-2026-10-21.md)
+solves the actual coupled preparation spectrum on a transversely periodic slab.
+Its four surface bands have eigenvalue c|p|^2, c=1403424/359375, independent
+of mass. Sharp gap and finite energy budgets follow. On an infinite transverse
+plane, fixed normal support restores an infrared obstruction even at nonzero
+mass; a Gaussian surface target has an exact energy/error curve and logarithmic
+energy divergence. This is a slab result, not the three-wall box spectrum.
+
+[K1890](explorations/conditional-build/k1890-preparation-evolution-boundary-incompatibility-2026-10-21.md)
+proves that zero observation flux leaves a (6,6) source-energy trace form.
+It cannot be a unitary evolution boundary, even after additional modewise
+endpoint constraints. A conservative repair must allow at least two observed
+trace directions per separated face; an explicit characteristic reflection
+attains that bound. Paired endpoints require at least four total directions.
+Arbitrary tangentially mixing nonlocal conditions are not classified.
+The massless normal subsystem now has an explicit compatible target boundary,
+a dynamical minimum-energy inverse and exactly two missing constant target modes.
+
+Each producer checks40 exact groups and3 pins. Separate probes check K1889
+123 exact controls,6 numerical radial integrals,8 reporting/pin checks and
+reject7 faults; K1890 100 exact controls,8 reporting/pin checks and reject5
+faults. Analytic arguments carry continuum/domain claims. Inline hostile
+review narrowed the boundary theorem to its actual modewise scope.
+No independent-agent/external-expert review, formal proof or novelty is claimed.
+Source, physics-ledger and canon verdicts remain unchanged.
+
+Next compare a native fullC/injection/pairing/domain adapter with an actual
+massive/tangential intertwining pair of repaired evolution domains. A source unitary boundary
+alone does not preserve the old preparation spectrum or establish a dynamical
+observed quotient. Noncanonical rotating existence, the box spectrum and
+scalar sextic/optimizer-relative work remain distinct alternatives.
+
 ## 2026-10-21: bounded rotation and support-energy reconstruction
 
 [K1887](explorations/conditional-build/k1887-bounded-variable-frame-rotation-2026-10-21.md)

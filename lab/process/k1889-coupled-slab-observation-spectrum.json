@@ -1,0 +1,290 @@
+{
+  "result_id": "K1889",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "alpha": "138/25",
+  "beta": "1866/625",
+  "rho": "311/575",
+  "surface_coefficient": "1403424/359375",
+  "blocks": [
+    {
+      "J2": [
+        [
+          "0",
+          "0",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "-1"
+        ],
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0"
+        ]
+      ],
+      "J3": [
+        [
+          "0",
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "0",
+          "-1",
+          "0"
+        ]
+      ]
+    },
+    {
+      "J2": [
+        [
+          "0",
+          "0",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "-1"
+        ],
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0"
+        ]
+      ],
+      "J3": [
+        [
+          "0",
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "0",
+          "-1",
+          "0"
+        ]
+      ]
+    },
+    {
+      "J2": [
+        [
+          "0",
+          "0",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "-1"
+        ],
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0"
+        ]
+      ],
+      "J3": [
+        [
+          "0",
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "0",
+          "-1",
+          "0"
+        ]
+      ]
+    },
+    {
+      "J2": [
+        [
+          "0",
+          "0",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "-1"
+        ],
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0"
+        ]
+      ],
+      "J3": [
+        [
+          "0",
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "0",
+          "-1",
+          "0"
+        ]
+      ]
+    }
+  ],
+  "formulas": {
+    "surface": "c*|p|^2, multiplicity4 for each p",
+    "bulk": "alpha*(kappa^2+|p|^2+(n*pi/(2L))^2), multiplicity4, n>=1",
+    "torus_gap": "min(c*p_min^2,alpha*(kappa^2+pi^2/(4L^2)))",
+    "plane_gaussian_energy": "((1+a)*exp(a)*E1(a)-1)/c",
+    "plane_gaussian_error_squared": "a-a^2*exp(a)*E1(a)",
+    "a": "t/c"
+  },
+  "scope": {
+    "periodic_transverse_slab": true,
+    "rectangular_box_spectrum": false,
+    "preparation_operator_not_evolution": true,
+    "plane_massive_uniform_inverse": false,
+    "native_GU": false
+  },
+  "checks": {
+    "actual_gram_0": true,
+    "normal_block_0": true,
+    "Clifford_0": true,
+    "drift_anticommutators_0": true,
+    "Hermitian_Robin_0": true,
+    "Robin_square_0": true,
+    "boundary_sign_0": true,
+    "surface_eigenvalue_0": true,
+    "actual_gram_1": true,
+    "normal_block_1": true,
+    "Clifford_1": true,
+    "drift_anticommutators_1": true,
+    "Hermitian_Robin_1": true,
+    "Robin_square_1": true,
+    "boundary_sign_1": true,
+    "surface_eigenvalue_1": true,
+    "actual_gram_2": true,
+    "normal_block_2": true,
+    "Clifford_2": true,
+    "drift_anticommutators_2": true,
+    "Hermitian_Robin_2": true,
+    "Robin_square_2": true,
+    "boundary_sign_2": true,
+    "surface_eigenvalue_2": true,
+    "actual_gram_3": true,
+    "normal_block_3": true,
+    "Clifford_3": true,
+    "drift_anticommutators_3": true,
+    "Hermitian_Robin_3": true,
+    "Robin_square_3": true,
+    "boundary_sign_3": true,
+    "surface_eigenvalue_3": true,
+    "strict_surface_coefficient": true,
+    "bulk_ODE": true,
+    "left_endpoint": true,
+    "endpoint_determinant": true,
+    "surface_ODE": true,
+    "surface_normalization": true,
+    "two_mode_energy": true,
+    "two_mode_error": true
+  },
+  "inputs": {
+    "lab/process/k1832-k77-common-energy-form.json": "50521381c0281b5e3327a4bc938367f38f982761823b6c5950e4f0a4ef950993",
+    "lab/process/k1836-k77-differential-dirac-quotient.json": "dc6c770abbbc55acdbe104e27a4441bbecb19493c18f7c319a2ae5ccfa564d7a",
+    "lab/process/k1888-bounded-support-energy-inverse.json": "0fc59c406d69b7c82ac08a8202ac451fcab59e6d3cb03067742ebdd7666bdb36"
+  }
+}

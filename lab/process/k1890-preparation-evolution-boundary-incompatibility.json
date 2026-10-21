@@ -1,0 +1,1422 @@
+{
+  "result_id": "K1890",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "blocks": [
+    {
+      "kernel_basis": {
+        "rows": 16,
+        "columns": 12,
+        "entries": [
+          [
+            0,
+            0,
+            "-21/25"
+          ],
+          [
+            0,
+            7,
+            "23/25"
+          ],
+          [
+            0,
+            10,
+            "-4/25"
+          ],
+          [
+            1,
+            1,
+            "-21/25"
+          ],
+          [
+            1,
+            6,
+            "-23/25"
+          ],
+          [
+            1,
+            11,
+            "-4/25"
+          ],
+          [
+            2,
+            2,
+            "21/25"
+          ],
+          [
+            2,
+            5,
+            "-23/25"
+          ],
+          [
+            2,
+            8,
+            "-4/25"
+          ],
+          [
+            3,
+            3,
+            "21/25"
+          ],
+          [
+            3,
+            4,
+            "23/25"
+          ],
+          [
+            3,
+            9,
+            "-4/25"
+          ],
+          [
+            4,
+            0,
+            "1"
+          ],
+          [
+            5,
+            1,
+            "1"
+          ],
+          [
+            6,
+            2,
+            "1"
+          ],
+          [
+            7,
+            3,
+            "1"
+          ],
+          [
+            8,
+            4,
+            "1"
+          ],
+          [
+            9,
+            5,
+            "1"
+          ],
+          [
+            10,
+            6,
+            "1"
+          ],
+          [
+            11,
+            7,
+            "1"
+          ],
+          [
+            12,
+            8,
+            "1"
+          ],
+          [
+            13,
+            9,
+            "1"
+          ],
+          [
+            14,
+            10,
+            "1"
+          ],
+          [
+            15,
+            11,
+            "1"
+          ]
+        ]
+      },
+      "complement_basis": {
+        "rows": 16,
+        "columns": 4,
+        "entries": [
+          [
+            0,
+            0,
+            "1224/25"
+          ],
+          [
+            0,
+            2,
+            "1224/25"
+          ],
+          [
+            1,
+            1,
+            "1224/25"
+          ],
+          [
+            1,
+            3,
+            "1224/25"
+          ],
+          [
+            2,
+            1,
+            "-1224/25"
+          ],
+          [
+            2,
+            3,
+            "1224/25"
+          ],
+          [
+            3,
+            0,
+            "1224/25"
+          ],
+          [
+            3,
+            2,
+            "-1224/25"
+          ],
+          [
+            4,
+            0,
+            "432/25"
+          ],
+          [
+            4,
+            2,
+            "432/25"
+          ],
+          [
+            5,
+            1,
+            "432/25"
+          ],
+          [
+            5,
+            3,
+            "432/25"
+          ],
+          [
+            6,
+            1,
+            "432/25"
+          ],
+          [
+            6,
+            3,
+            "-432/25"
+          ],
+          [
+            7,
+            0,
+            "-432/25"
+          ],
+          [
+            7,
+            2,
+            "432/25"
+          ],
+          [
+            12,
+            1,
+            "-432/25"
+          ],
+          [
+            12,
+            3,
+            "432/25"
+          ],
+          [
+            13,
+            0,
+            "432/25"
+          ],
+          [
+            13,
+            2,
+            "-432/25"
+          ],
+          [
+            14,
+            0,
+            "432/25"
+          ],
+          [
+            14,
+            2,
+            "432/25"
+          ],
+          [
+            15,
+            1,
+            "432/25"
+          ],
+          [
+            15,
+            3,
+            "432/25"
+          ]
+        ]
+      },
+      "complement_flux": {
+        "rows": 4,
+        "columns": 4,
+        "entries": [
+          [
+            0,
+            2,
+            "3312/25"
+          ],
+          [
+            1,
+            3,
+            "3312/25"
+          ],
+          [
+            2,
+            0,
+            "3312/25"
+          ],
+          [
+            3,
+            1,
+            "3312/25"
+          ]
+        ]
+      },
+      "positive_invisible_witness": {
+        "rows": 16,
+        "columns": 1,
+        "entries": [
+          [
+            1,
+            0,
+            "-1/2"
+          ],
+          [
+            5,
+            0,
+            "-1/2"
+          ],
+          [
+            10,
+            0,
+            "1"
+          ]
+        ]
+      },
+      "negative_invisible_witness": {
+        "rows": 16,
+        "columns": 1,
+        "entries": [
+          [
+            3,
+            0,
+            "1/2"
+          ],
+          [
+            7,
+            0,
+            "-1/2"
+          ],
+          [
+            8,
+            0,
+            "1"
+          ]
+        ]
+      },
+      "kernel_inertia": [
+        6,
+        6,
+        0
+      ],
+      "whole_inertia": [
+        8,
+        8,
+        0
+      ],
+      "complement_inertia": [
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "kernel_basis": {
+        "rows": 16,
+        "columns": 12,
+        "entries": [
+          [
+            0,
+            0,
+            "-21/25"
+          ],
+          [
+            0,
+            7,
+            "23/25"
+          ],
+          [
+            0,
+            10,
+            "-2/25"
+          ],
+          [
+            1,
+            1,
+            "-21/25"
+          ],
+          [
+            1,
+            6,
+            "-23/25"
+          ],
+          [
+            1,
+            11,
+            "-2/25"
+          ],
+          [
+            2,
+            2,
+            "21/25"
+          ],
+          [
+            2,
+            5,
+            "-23/25"
+          ],
+          [
+            2,
+            8,
+            "-2/25"
+          ],
+          [
+            3,
+            3,
+            "21/25"
+          ],
+          [
+            3,
+            4,
+            "23/25"
+          ],
+          [
+            3,
+            9,
+            "-2/25"
+          ],
+          [
+            4,
+            0,
+            "1"
+          ],
+          [
+            5,
+            1,
+            "1"
+          ],
+          [
+            6,
+            2,
+            "1"
+          ],
+          [
+            7,
+            3,
+            "1"
+          ],
+          [
+            8,
+            4,
+            "1"
+          ],
+          [
+            9,
+            5,
+            "1"
+          ],
+          [
+            10,
+            6,
+            "1"
+          ],
+          [
+            11,
+            7,
+            "1"
+          ],
+          [
+            12,
+            8,
+            "1"
+          ],
+          [
+            13,
+            9,
+            "1"
+          ],
+          [
+            14,
+            10,
+            "1"
+          ],
+          [
+            15,
+            11,
+            "1"
+          ]
+        ]
+      },
+      "complement_basis": {
+        "rows": 16,
+        "columns": 4,
+        "entries": [
+          [
+            0,
+            0,
+            "1224/25"
+          ],
+          [
+            0,
+            2,
+            "1224/25"
+          ],
+          [
+            1,
+            1,
+            "1224/25"
+          ],
+          [
+            1,
+            3,
+            "1224/25"
+          ],
+          [
+            2,
+            1,
+            "-1224/25"
+          ],
+          [
+            2,
+            3,
+            "1224/25"
+          ],
+          [
+            3,
+            0,
+            "1224/25"
+          ],
+          [
+            3,
+            2,
+            "-1224/25"
+          ],
+          [
+            4,
+            0,
+            "432/25"
+          ],
+          [
+            4,
+            2,
+            "432/25"
+          ],
+          [
+            5,
+            1,
+            "432/25"
+          ],
+          [
+            5,
+            3,
+            "432/25"
+          ],
+          [
+            6,
+            1,
+            "432/25"
+          ],
+          [
+            6,
+            3,
+            "-432/25"
+          ],
+          [
+            7,
+            0,
+            "-432/25"
+          ],
+          [
+            7,
+            2,
+            "432/25"
+          ],
+          [
+            12,
+            1,
+            "-864/25"
+          ],
+          [
+            12,
+            3,
+            "864/25"
+          ],
+          [
+            13,
+            0,
+            "864/25"
+          ],
+          [
+            13,
+            2,
+            "-864/25"
+          ],
+          [
+            14,
+            0,
+            "864/25"
+          ],
+          [
+            14,
+            2,
+            "864/25"
+          ],
+          [
+            15,
+            1,
+            "864/25"
+          ],
+          [
+            15,
+            3,
+            "864/25"
+          ]
+        ]
+      },
+      "complement_flux": {
+        "rows": 4,
+        "columns": 4,
+        "entries": [
+          [
+            0,
+            2,
+            "3312/25"
+          ],
+          [
+            1,
+            3,
+            "3312/25"
+          ],
+          [
+            2,
+            0,
+            "3312/25"
+          ],
+          [
+            3,
+            1,
+            "3312/25"
+          ]
+        ]
+      },
+      "positive_invisible_witness": {
+        "rows": 16,
+        "columns": 1,
+        "entries": [
+          [
+            1,
+            0,
+            "-1/2"
+          ],
+          [
+            5,
+            0,
+            "-1/2"
+          ],
+          [
+            10,
+            0,
+            "1"
+          ]
+        ]
+      },
+      "negative_invisible_witness": {
+        "rows": 16,
+        "columns": 1,
+        "entries": [
+          [
+            3,
+            0,
+            "1/2"
+          ],
+          [
+            7,
+            0,
+            "-1/2"
+          ],
+          [
+            8,
+            0,
+            "1"
+          ]
+        ]
+      },
+      "kernel_inertia": [
+        6,
+        6,
+        0
+      ],
+      "whole_inertia": [
+        8,
+        8,
+        0
+      ],
+      "complement_inertia": [
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "kernel_basis": {
+        "rows": 16,
+        "columns": 12,
+        "entries": [
+          [
+            0,
+            0,
+            "-21/25"
+          ],
+          [
+            0,
+            7,
+            "23/25"
+          ],
+          [
+            0,
+            10,
+            "-2/25"
+          ],
+          [
+            1,
+            1,
+            "-21/25"
+          ],
+          [
+            1,
+            6,
+            "-23/25"
+          ],
+          [
+            1,
+            11,
+            "-2/25"
+          ],
+          [
+            2,
+            2,
+            "21/25"
+          ],
+          [
+            2,
+            5,
+            "-23/25"
+          ],
+          [
+            2,
+            8,
+            "-2/25"
+          ],
+          [
+            3,
+            3,
+            "21/25"
+          ],
+          [
+            3,
+            4,
+            "23/25"
+          ],
+          [
+            3,
+            9,
+            "-2/25"
+          ],
+          [
+            4,
+            0,
+            "1"
+          ],
+          [
+            5,
+            1,
+            "1"
+          ],
+          [
+            6,
+            2,
+            "1"
+          ],
+          [
+            7,
+            3,
+            "1"
+          ],
+          [
+            8,
+            4,
+            "1"
+          ],
+          [
+            9,
+            5,
+            "1"
+          ],
+          [
+            10,
+            6,
+            "1"
+          ],
+          [
+            11,
+            7,
+            "1"
+          ],
+          [
+            12,
+            8,
+            "1"
+          ],
+          [
+            13,
+            9,
+            "1"
+          ],
+          [
+            14,
+            10,
+            "1"
+          ],
+          [
+            15,
+            11,
+            "1"
+          ]
+        ]
+      },
+      "complement_basis": {
+        "rows": 16,
+        "columns": 4,
+        "entries": [
+          [
+            0,
+            0,
+            "1224/25"
+          ],
+          [
+            0,
+            2,
+            "1224/25"
+          ],
+          [
+            1,
+            1,
+            "-1224/25"
+          ],
+          [
+            1,
+            3,
+            "-1224/25"
+          ],
+          [
+            2,
+            1,
+            "1224/25"
+          ],
+          [
+            2,
+            3,
+            "-1224/25"
+          ],
+          [
+            3,
+            0,
+            "1224/25"
+          ],
+          [
+            3,
+            2,
+            "-1224/25"
+          ],
+          [
+            4,
+            0,
+            "432/25"
+          ],
+          [
+            4,
+            2,
+            "432/25"
+          ],
+          [
+            5,
+            1,
+            "-432/25"
+          ],
+          [
+            5,
+            3,
+            "-432/25"
+          ],
+          [
+            6,
+            1,
+            "-432/25"
+          ],
+          [
+            6,
+            3,
+            "432/25"
+          ],
+          [
+            7,
+            0,
+            "-432/25"
+          ],
+          [
+            7,
+            2,
+            "432/25"
+          ],
+          [
+            12,
+            1,
+            "864/25"
+          ],
+          [
+            12,
+            3,
+            "-864/25"
+          ],
+          [
+            13,
+            0,
+            "864/25"
+          ],
+          [
+            13,
+            2,
+            "-864/25"
+          ],
+          [
+            14,
+            0,
+            "864/25"
+          ],
+          [
+            14,
+            2,
+            "864/25"
+          ],
+          [
+            15,
+            1,
+            "-864/25"
+          ],
+          [
+            15,
+            3,
+            "-864/25"
+          ]
+        ]
+      },
+      "complement_flux": {
+        "rows": 4,
+        "columns": 4,
+        "entries": [
+          [
+            0,
+            2,
+            "3312/25"
+          ],
+          [
+            1,
+            3,
+            "3312/25"
+          ],
+          [
+            2,
+            0,
+            "3312/25"
+          ],
+          [
+            3,
+            1,
+            "3312/25"
+          ]
+        ]
+      },
+      "positive_invisible_witness": {
+        "rows": 16,
+        "columns": 1,
+        "entries": [
+          [
+            1,
+            0,
+            "-1/2"
+          ],
+          [
+            5,
+            0,
+            "-1/2"
+          ],
+          [
+            10,
+            0,
+            "1"
+          ]
+        ]
+      },
+      "negative_invisible_witness": {
+        "rows": 16,
+        "columns": 1,
+        "entries": [
+          [
+            3,
+            0,
+            "1/2"
+          ],
+          [
+            7,
+            0,
+            "-1/2"
+          ],
+          [
+            8,
+            0,
+            "1"
+          ]
+        ]
+      },
+      "kernel_inertia": [
+        6,
+        6,
+        0
+      ],
+      "whole_inertia": [
+        8,
+        8,
+        0
+      ],
+      "complement_inertia": [
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "kernel_basis": {
+        "rows": 16,
+        "columns": 12,
+        "entries": [
+          [
+            0,
+            0,
+            "-21/25"
+          ],
+          [
+            0,
+            7,
+            "23/25"
+          ],
+          [
+            0,
+            10,
+            "-4/25"
+          ],
+          [
+            1,
+            1,
+            "-21/25"
+          ],
+          [
+            1,
+            6,
+            "-23/25"
+          ],
+          [
+            1,
+            11,
+            "-4/25"
+          ],
+          [
+            2,
+            2,
+            "21/25"
+          ],
+          [
+            2,
+            5,
+            "-23/25"
+          ],
+          [
+            2,
+            8,
+            "-4/25"
+          ],
+          [
+            3,
+            3,
+            "21/25"
+          ],
+          [
+            3,
+            4,
+            "23/25"
+          ],
+          [
+            3,
+            9,
+            "-4/25"
+          ],
+          [
+            4,
+            0,
+            "1"
+          ],
+          [
+            5,
+            1,
+            "1"
+          ],
+          [
+            6,
+            2,
+            "1"
+          ],
+          [
+            7,
+            3,
+            "1"
+          ],
+          [
+            8,
+            4,
+            "1"
+          ],
+          [
+            9,
+            5,
+            "1"
+          ],
+          [
+            10,
+            6,
+            "1"
+          ],
+          [
+            11,
+            7,
+            "1"
+          ],
+          [
+            12,
+            8,
+            "1"
+          ],
+          [
+            13,
+            9,
+            "1"
+          ],
+          [
+            14,
+            10,
+            "1"
+          ],
+          [
+            15,
+            11,
+            "1"
+          ]
+        ]
+      },
+      "complement_basis": {
+        "rows": 16,
+        "columns": 4,
+        "entries": [
+          [
+            0,
+            0,
+            "1224/25"
+          ],
+          [
+            0,
+            2,
+            "1224/25"
+          ],
+          [
+            1,
+            1,
+            "-1224/25"
+          ],
+          [
+            1,
+            3,
+            "-1224/25"
+          ],
+          [
+            2,
+            1,
+            "1224/25"
+          ],
+          [
+            2,
+            3,
+            "-1224/25"
+          ],
+          [
+            3,
+            0,
+            "1224/25"
+          ],
+          [
+            3,
+            2,
+            "-1224/25"
+          ],
+          [
+            4,
+            0,
+            "432/25"
+          ],
+          [
+            4,
+            2,
+            "432/25"
+          ],
+          [
+            5,
+            1,
+            "-432/25"
+          ],
+          [
+            5,
+            3,
+            "-432/25"
+          ],
+          [
+            6,
+            1,
+            "-432/25"
+          ],
+          [
+            6,
+            3,
+            "432/25"
+          ],
+          [
+            7,
+            0,
+            "-432/25"
+          ],
+          [
+            7,
+            2,
+            "432/25"
+          ],
+          [
+            12,
+            1,
+            "432/25"
+          ],
+          [
+            12,
+            3,
+            "-432/25"
+          ],
+          [
+            13,
+            0,
+            "432/25"
+          ],
+          [
+            13,
+            2,
+            "-432/25"
+          ],
+          [
+            14,
+            0,
+            "432/25"
+          ],
+          [
+            14,
+            2,
+            "432/25"
+          ],
+          [
+            15,
+            1,
+            "-432/25"
+          ],
+          [
+            15,
+            3,
+            "-432/25"
+          ]
+        ]
+      },
+      "complement_flux": {
+        "rows": 4,
+        "columns": 4,
+        "entries": [
+          [
+            0,
+            2,
+            "3312/25"
+          ],
+          [
+            1,
+            3,
+            "3312/25"
+          ],
+          [
+            2,
+            0,
+            "3312/25"
+          ],
+          [
+            3,
+            1,
+            "3312/25"
+          ]
+        ]
+      },
+      "positive_invisible_witness": {
+        "rows": 16,
+        "columns": 1,
+        "entries": [
+          [
+            1,
+            0,
+            "-1/2"
+          ],
+          [
+            5,
+            0,
+            "-1/2"
+          ],
+          [
+            10,
+            0,
+            "1"
+          ]
+        ]
+      },
+      "negative_invisible_witness": {
+        "rows": 16,
+        "columns": 1,
+        "entries": [
+          [
+            3,
+            0,
+            "1/2"
+          ],
+          [
+            7,
+            0,
+            "-1/2"
+          ],
+          [
+            8,
+            0,
+            "1"
+          ]
+        ]
+      },
+      "kernel_inertia": [
+        6,
+        6,
+        0
+      ],
+      "whole_inertia": [
+        8,
+        8,
+        0
+      ],
+      "complement_inertia": [
+        2,
+        2,
+        0
+      ]
+    }
+  ],
+  "dimensions": {
+    "zero_flux_trace": 12,
+    "largest_isotropic_zero_flux_trace": 6,
+    "required_separated_selfadjoint_trace": 8,
+    "minimum_observed_boundary_rank": 2,
+    "paired_endpoint_zero_flux_max_isotropic": 12,
+    "paired_endpoint_required": 16,
+    "minimum_total_observed_boundary_rank": 4
+  },
+  "scope": {
+    "conditional_constant_source_system": true,
+    "preparation_domain_can_be_unitary_evolution_domain": false,
+    "no_modewise_unitary_extension_contained_in_zero_flux": true,
+    "all_boundary_conditions_excluded": false,
+    "reflection_repair_constructed_algebraically": true,
+    "massless_normal_repaired_domain_intertwining": true,
+    "massive_or_tangential_repaired_domain_intertwining": false,
+    "native_GU": false
+  },
+  "checks": {
+    "symmetrized_flux_0": true,
+    "source_inertia_0": true,
+    "actual_principal_observation_0": true,
+    "normal_observation_gram_0": true,
+    "flux_complement_0": true,
+    "kernel_dimension_0": true,
+    "orthogonal_direct_sum_0": true,
+    "invisible_characteristic_spaces_0": true,
+    "opposite_flux_witnesses_0": true,
+    "visible_slow_spaces_0": true,
+    "symmetrized_flux_1": true,
+    "source_inertia_1": true,
+    "actual_principal_observation_1": true,
+    "normal_observation_gram_1": true,
+    "flux_complement_1": true,
+    "kernel_dimension_1": true,
+    "orthogonal_direct_sum_1": true,
+    "invisible_characteristic_spaces_1": true,
+    "opposite_flux_witnesses_1": true,
+    "visible_slow_spaces_1": true,
+    "symmetrized_flux_2": true,
+    "source_inertia_2": true,
+    "actual_principal_observation_2": true,
+    "normal_observation_gram_2": true,
+    "flux_complement_2": true,
+    "kernel_dimension_2": true,
+    "orthogonal_direct_sum_2": true,
+    "invisible_characteristic_spaces_2": true,
+    "opposite_flux_witnesses_2": true,
+    "visible_slow_spaces_2": true,
+    "symmetrized_flux_3": true,
+    "source_inertia_3": true,
+    "actual_principal_observation_3": true,
+    "normal_observation_gram_3": true,
+    "flux_complement_3": true,
+    "kernel_dimension_3": true,
+    "orthogonal_direct_sum_3": true,
+    "invisible_characteristic_spaces_3": true,
+    "opposite_flux_witnesses_3": true,
+    "visible_slow_spaces_3": true
+  },
+  "inputs": {
+    "lab/process/k1832-k77-common-energy-form.json": "50521381c0281b5e3327a4bc938367f38f982761823b6c5950e4f0a4ef950993",
+    "lab/process/k1836-k77-differential-dirac-quotient.json": "dc6c770abbbc55acdbe104e27a4441bbecb19493c18f7c319a2ae5ccfa564d7a",
+    "lab/process/k1888-bounded-support-energy-inverse.json": "0fc59c406d69b7c82ac08a8202ac451fcab59e6d3cb03067742ebdd7666bdb36"
+  }
+}
