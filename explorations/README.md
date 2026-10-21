@@ -9,6 +9,9 @@ updated_at: "2026-08-21"
 
 ## October 20 research evidence
 
+- [K1870 effective balanced two-well accuracy](k1870-fisher-effective-two-well-stability-2026-10-20.md): explicit TV/local-Gaussian bounds and finite product budgets.
+- [K1871 separated mass observations](conditional-build/k1871-separated-mass-observation-2026-10-20.md): two-axis compatibility, line localization, range and gap threshold.
+
 - [K1868 Fisher two-well instability](k1868-fisher-two-well-instability-2026-10-20.md): exact sign tilts, exponentially small absolute excess and transport/spectral consequences.
 - [K1869 finite-energy wall range](conditional-build/k1869-wall-observation-finite-energy-range-2026-10-20.md): localized-packet obstruction, cancellation/gap repairs and optimal approximation budget.
 

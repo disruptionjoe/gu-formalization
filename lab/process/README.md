@@ -9,6 +9,9 @@ updated_at: "2026-08-23"
 
 ## October 20 research evidence
 
+- `k1870-fisher-effective-two-well-stability.json`: explicit endpoint constants, finite accuracy and claim ceilings.
+- `k1871-separated-mass-observation.json`: all coordinate-type repairs, cross residuals and line projectors.
+
 - `k1868-fisher-two-well-instability.json`: interval barrier, exact-tilt constants and statistical/spectral scope.
 - `k1869-wall-observation-finite-energy-range.json`: closed-range spectral consumers and Gaussian budget constants.
 

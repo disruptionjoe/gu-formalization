@@ -2,6 +2,9 @@
 
 ## October 20 research evidence
 
+- `k1870_fisher_effective_two_well_stability.py` and `_probe.py`: cutoff/oscillator constants, rational error budgets and input faults.
+- `k1871_separated_mass_observation.py` and `_probe.py`: full axis repairs/cross residuals, independent jets, line and budget controls.
+
 - `k1868_fisher_two_well_instability.py` and `_probe.py`: paired-density, exact moment, barrier, transport and spectral checks.
 - `k1869_wall_observation_finite_energy_range.py` and `_probe.py`: range-consumer integrals, cancellation and optimal budget checks.
 

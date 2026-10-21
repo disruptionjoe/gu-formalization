@@ -7,7 +7,37 @@ updated_at: "2026-10-20"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
-## 2026-10-20: two-well instability and finite-energy wall observation
+## 2026-10-20: effective balanced-well accuracy and separated mass observations
+
+[K1870](explorations/k1870-fisher-effective-two-well-stability-2026-10-20.md)
+gives a finite endpoint TV bound to the actual Fisher optimizer: mean-zero
+competitors obey21delta^(1/6)+sqrt(max(0,delta I-4)/2), capped at1; even
+competitors improve21 to20. Local Gaussian, approximate-mean, bounded-observable
+and product error budgets follow. No fixed-delta gap, entropy modulus or sharp
+rate is inferred. This is independent scalar mathematics.
+
+[K1871](explorations/conditional-build/k1871-separated-mass-observation-2026-10-20.md)
+constructs conservative two-axis profiles with orthogonal mass directions and
+classifies the additive separated class. Double kinks support a conditional
+real line mode, whose zero frequency is unobserved. A line Gaussian has no
+finite-energy massless lift; optimal squared error is asymptotic pi/(4alpha B).
+Small constant profile shifts preserve the line; a shift beyond wall height
+gaps the entire target and gives a bounded right inverse. No source-selected
+coefficients, physical chirality, index or family count is supplied.
+SC-OP-04/MAS-01/CHI-02 remain ASSERTS at candidate/stylized scope;
+SC-OP-05/META-53 remain UNCERTAIN. Source, physics ledger and canon unchanged.
+
+K1870:15 symbolic mathematical checks+2pins,208 rational controls+8reporting/pins,
+8mathematical-input+5reporting faults. K1871:305 exact matrix groups+3pins,
+392 independent mathematical groups+11reporting/pins,9mathematical-input+
+4reporting faults. Analytic arguments own continuum conclusions; internal
+checks are not external acceptance, formal proof or novelty evidence.
+Next compare actual native adapter construction with genuinely nonseparable
+compatibility or a fixed-delta constrained Fisher modulus. The new endpoint
+estimate has additive error and does not discharge that different theorem.
+
+
+## Historical 2026-10-20: two-well instability and finite-energy wall observation
 
 [K1868](explorations/k1868-fisher-two-well-instability-2026-10-20.md)
 constructs exactly feasible sign tilts of the actual two-well Fisher optimizer.

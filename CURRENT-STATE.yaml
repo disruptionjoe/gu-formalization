@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 550f8ce4eafa3dcc91028fb7e69934aede572361
+revision_basis: 824cb6d4db346bd348c9f689cc6197c7f24382ad
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1870 gives a fully explicit balanced two-well TV bound, at most
+    21delta^(1/6)+sqrt(max(0,delta I-4)/2) for mean-zero densities; even
+    densities improve21 to20. This is an endpoint estimate with an additive
+    delta error, not a fixed-delta spectral gap or entropy modulus.
+    K1871 builds exact conservative separated two-axis mass observations:
+    orthogonal mass directions are compatible, same directions have a rank4
+    cross defect. Double kinks carry a supplied line mode; zero frequency
+    and a localized Gaussian lack finite-energy massless lifts. The exact
+    optimal line budget has error squared asymptotic pi/(4alpha B).
+    A constant shift beyond a wall height gaps the full target; small shifts
+    preserve the line. Independent mathematics/conditional interface only;
+    source, physics-ledger and canon verdicts unchanged.
+
+    Historical predecessor results at their original scopes:
     K1868 constructs exact even-moment-preserving sign tilts with exponentially
     small absolute Fisher excess but nonzero limiting TV, entropy and W2;
     the actual oscillator gap has an exponential upper bound. No effective
@@ -15374,6 +15388,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/k1870-fisher-effective-two-well-stability-2026-10-20.md
+    - lab/process/k1870-fisher-effective-two-well-stability.json
+    - tests/channel-swings/k1870_fisher_effective_two_well_stability.py
+    - tests/channel-swings/k1870_fisher_effective_two_well_stability_probe.py
+    - explorations/conditional-build/k1871-separated-mass-observation-2026-10-20.md
+    - lab/process/k1871-separated-mass-observation.json
+    - tests/channel-swings/k1871_separated_mass_observation.py
+    - tests/channel-swings/k1871_separated_mass_observation_probe.py
     - explorations/conditional-build/k1866-positive-scalar-screening-window-2026-10-20.md
     - lab/process/k1866-positive-scalar-screening-window.json
     - tests/channel-swings/k1866_positive_scalar_screening_window.py
@@ -16143,6 +16165,9 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Construct the actual native pairing/coefficient/observation-domain adapter or a genuinely nonseparable solution of the full44-dimensional compatibility equation. K1870 now supplies an explicit balanced endpoint TV rate and K1871 solves the separated orthogonal-mass class with its line-range and gap consumers; do not repeat those questions. A fixed-delta balanced Fisher modulus remains distinct from the new additive endpoint estimate.
+
+  Historical predecessor question/condition at its original scope:
   Construct actual native coefficients/observation and full coupled distortion
   data on one geometry, or quantify mean-zero/even two-well Fisher stability.
   K1868 and K1869 close unrestricted uniform endpoint stability and the exact
@@ -19266,6 +19291,9 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  For new GU credit, type the native map and domain before importing the compressed interface. For a nonseparable conditional profile, construct new S/C dependence and check every derivative and quadratic residual; six fixed axis repairs do not allow three independent mass directions. For fixed-delta Fisher accuracy, prove constrained within-well coercivity; the K1870 additive delta term cannot vanish with deficit alone. Compare these concrete inputs with the native full-C and restricted-k2 global-certificate alternatives.
+
+  Historical predecessor question/condition at its original scope:
   Compare a pairing-preserving native adapter with a quantitative mean-zero/even
   two-well certificate; the former needs owned full coefficients and domain,
   the latter an effective within-well gap or global signed dual. Reuse K1868

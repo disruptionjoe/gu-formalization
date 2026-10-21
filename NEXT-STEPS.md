@@ -7,6 +7,15 @@ updated_at: "2026-10-20"
 
 # Next Steps For Contributors
 
+> **2026-10-20: BALANCED ENDPOINT ACCURACY AND TWO-AXIS OBSERVATION COMPLETE.**
+> K1870 supplies explicit TV/local-profile/product bounds; K1871 builds
+> separated orthogonal-mass observations, line modes, exact source-energy
+> budgets and a thresholded gap repair. These retain conditional/independent
+> scope. Next construct actual native coefficients/pairing/domain or solve
+> a genuinely nonseparable compatibility equation; a fixed-delta balanced
+> Fisher modulus still needs constrained coercivity. Earlier requests below
+> are historical at their original scope; no repeated endpoint or line-packet tests.
+
 > **2026-10-20: TWO-WELL AND WALL-RANGE TESTS CLOSED AT DECLARED SCOPES.**
 > K1868 rules out uniform unrestricted endpoint stability even at exponentially
 > small absolute Fisher excess, while preserving all even observables. K1869
