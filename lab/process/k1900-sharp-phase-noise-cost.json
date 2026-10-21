@@ -1,0 +1,37 @@
+{
+  "result_id": "K1900",
+  "coefficients": {
+    "arbitrary_law_cost": "acos(eta)**2",
+    "one_channel_factor": "1/2",
+    "three_mode_factor": "1/8",
+    "three_history_ratio": "32/27"
+  },
+  "optimal_increment_probabilities": [
+    "1/4",
+    "1/4",
+    "1/4",
+    "1/4"
+  ],
+  "three_mode_gram": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "checks": 17,
+  "source_pins": {
+    "lab/process/k1898-stochastic-pulse-energy-coherence.json": "3115358b241ff3b99b21e4274ec30fe89a89b92f3f5d8d09d8b12610faa076e2"
+  },
+  "scope": "sharp scalar spacetime-potential infimum with unrestricted support/amplitude; zero-integral correction and characteristic construction"
+}

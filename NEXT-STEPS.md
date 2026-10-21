@@ -7,6 +7,15 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-21: ACTIVE ENERGY AND SHARP NOISE COSTS.** K1899 resolves
+> the raw free-energy domain during smooth massive scalar pulses; it does not
+> identify physical detector energy. K1900 gives sharp arbitrary-law phase-noise
+> costs, multi-mode controls and exact scalar one-direction steering in 1D.
+> Next compare native full20/K-C/accessibility construction with a specified
+> physical energy observable or fixed-support/amplitude noise budget. Source,
+> ledger and canon verdicts unchanged; earlier active-energy/optimality questions
+> below are historical. Noncanonical rotation, three-wall and sextic debts remain.
+
 > **2026-10-21: FINITE POST-PULSE ENERGY AND COHERENCE COMPOSED.**
 > K1897 proves all-order final excitation-energy finiteness for smooth massive
 > 3D pulses and exact plateau-based neutral decoherence in that same model.

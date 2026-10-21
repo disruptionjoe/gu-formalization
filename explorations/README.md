@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [K1899 active-pulse free-energy domain](conditional-build/k1899-active-pulse-energy-2026-10-21.md).
+- [K1900 sharp noise cost and scalar steering](conditional-build/k1900-sharp-phase-noise-cost-2026-10-21.md).
+
 - [K1897 all-order post-pulse energy and exact 3D decoherence](conditional-build/k1897-smooth-pulse-energy-2026-10-21.md).
 - [K1898 stochastic coherence, heating and energy costs](conditional-build/k1898-stochastic-pulse-energy-coherence-2026-10-21.md).
 

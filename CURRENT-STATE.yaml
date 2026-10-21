@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 0f9228ca26d816785bc9c33cd5b97c4e184ea7a4
+revision_basis: 285fce8b4b92dcf92839dbd028db0d1b0a45af21
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,15 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1899 resolves active-time free excitation energy in the massive scalar
+    target: finite particle count but a positive logarithmic energy divergence
+    for nonconstant V(t). All-time finite raw energy forces a trivial compact
+    scalar pulse; finite final energy and nonunique dressed observables remain
+    distinct. K1900 gives sharp arbitrary-law 1D coherence costs, exact bounded
+    multi-mode dephasing, and scalar finite-duration one-direction steering
+    after a zero-integral adjustment. Fixed-support/amplitude budgets and a
+    physical energy measurement remain open; no native GU or ledger verdict move.
+    Historical preceding results at their original scopes:
     K1897 proves weighted all-order post-pulse one-particle excitation moment
     finiteness for the massive 3D Dirac target. A compact smooth plateau pulse
     exactly dephases neutral modes while retaining causal propagation and finite
@@ -15544,6 +15553,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1899-active-pulse-energy-2026-10-21.md
+    - lab/process/k1899-active-pulse-energy.json
+    - tests/channel-swings/k1899_active_pulse_energy.py
+    - tests/channel-swings/k1899_active_pulse_energy_probe.py
+    - explorations/conditional-build/k1900-sharp-phase-noise-cost-2026-10-21.md
+    - lab/process/k1900-sharp-phase-noise-cost.json
+    - tests/channel-swings/k1900_sharp_phase_noise_cost.py
+    - tests/channel-swings/k1900_sharp_phase_noise_cost_probe.py
     - explorations/conditional-build/k1897-smooth-pulse-energy-2026-10-21.md
     - lab/process/k1897-smooth-pulse-energy.json
     - tests/channel-swings/k1897_smooth_pulse_energy.py
@@ -16413,6 +16430,12 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Compare native full20/injection/K-C/accessibility construction with a
+  specified physical energy observable or constrained scalar noise budget.
+  Raw active-time free energy and unrestricted 1D phase-noise costs are now
+  answered; neither selects a physical vacuum, detector or bath.
+
+  Historical completed predecessor continuation:
   Compare actual native full20/injection/K-C/accessibility construction
   with an evaluated 3D pulse energy budget or active-pulse energy test.
   Post-pulse finite energy and exact neutral decoherence now coexist in one
@@ -19615,6 +19638,13 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Freeze the detector/energy measurement or support/amplitude constraints
+  before a new quantitative noise calculation. Reuse K1899 active-time
+  endpoint analysis and K1900 arbitrary-law optimum and scalar steering.
+  Native full20/K-C/accessibility remains the source-facing challenger;
+  retain noncanonical rotation, three-wall and scalar sextic alternatives.
+
+  Historical completed predecessor continuation:
   For a quantitative 3D noise budget, specify actual smooth pulse profiles
   and bound the regularized weighted norm or determine the active-time free
   energy behavior. Do not repeat post-pulse finiteness or infer a 3D white-noise

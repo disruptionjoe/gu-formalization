@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [K1899 producer](k1899_active_pulse_energy.py).
+- [K1899 independent probe](k1899_active_pulse_energy_probe.py).
+- [K1900 producer](k1900_sharp_phase_noise_cost.py).
+- [K1900 independent probe](k1900_sharp_phase_noise_cost_probe.py).
+
 - [K1897 all-order post-pulse energy and exact 3D decoherence](k1897_smooth_pulse_energy.py).
 - [K1898 stochastic coherence, heating and energy costs](k1898_stochastic_pulse_energy_coherence.py).
 

@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [K1899 active-pulse coefficient controls](k1899-active-pulse-energy.json).
+- [K1900 sharp noise cost and multi-coherence controls](k1900-sharp-phase-noise-cost.json).
+
 - [K1897 all-order post-pulse energy and exact 3D decoherence](k1897-smooth-pulse-energy.json).
 - [K1898 stochastic coherence, heating and energy costs](k1898-stochastic-pulse-energy-coherence.json).
 

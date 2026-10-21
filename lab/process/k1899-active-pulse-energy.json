@@ -1,0 +1,18 @@
+{
+  "result_id": "K1899",
+  "coefficients": {
+    "symbol_trace_factor": 1,
+    "angular_factor": "8/3",
+    "log_factor": "1/12",
+    "gaussian_factor": "1/8",
+    "threshold": 1,
+    "raw_remainder": "O(sqrt(log L))"
+  },
+  "checks": 14,
+  "source_pins": {
+    "lab/process/k1836-k77-differential-dirac-quotient.json": "dc6c770abbbc55acdbe104e27a4441bbecb19493c18f7c319a2ae5ccfa564d7a",
+    "lab/process/k1840-k77-conservative-variable-observation.json": "5c5d0b4ed4e52f51389f6f22fbb9197beec29d0f530232aa2e736b92c989d1dd",
+    "lab/process/k1897-smooth-pulse-energy.json": "5d88307e473c40f4eadc50cc7b0e3f6c8359ecc1ca76872d6b4bfda8540d1a8f"
+  },
+  "scope": "fixed free sea, outgoing momentum cutoff; continuum proof in note; not renormalized stress energy"
+}

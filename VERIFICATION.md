@@ -7,6 +7,39 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-21: active-time energy and sharp noise costs
+
+[K1899](explorations/conditional-build/k1899-active-pulse-energy-2026-10-21.md)
+retains the endpoint normal form in the massive scalar-pulse evolution. Particle
+count is finite, but positive free excitation energy grows as
+`log(Lambda) ||grad V(t)||_2^2/(12 pi^2 c)` at nonconstant active profiles.
+This all-order conditional argument uses a weighted Hilbert--Schmidt remainder;
+an independent Born calculation checks its coefficient. Finite energy at every
+time in this compact scalar class forces a trivial pulse. The final energy
+remains finite after switch-off, consistently with K1897. Dressed measurements
+can have finite moments but are nonunique and generally nonlocal; raw free
+energy is not renormalized stress energy or a GU observable.
+
+[K1900](explorations/conditional-build/k1900-sharp-phase-noise-cost-2026-10-21.md)
+proves the arbitrary-law bound `E X^2 >= acos(|E exp(iX)|)^2` and sharp
+one-dimensional energy infima for bounded plateau-mode coherences. Independent
+sign increments simultaneously achieve adjacent bounds; four histories fully
+dephase three modes at the sharp phase-law cost, whereas binary noise cannot.
+An exact smooth SCALAR spacetime-potential construction isolates one transport
+direction after the pulse. Its zero-integral constraint is met by an arbitrarily
+cheap remote bump, preserving sharpness without channel-specific controls.
+Fixed support/amplitude and separable temporal-spatial controls are separate.
+
+Analytic symbol/convexity/characteristic proofs carry continuum scope. Exact
+producer/probe checks and deliberate faults test coefficients and finite controls;
+they are not formal proof or external acceptance. Source/physics-ledger/canon
+verdicts remain unchanged. Next compare native full20/K-C/accessibility data
+with a specified physical energy measurement or constrained noise-control budget.
+Prior active-time/optimality wording below is historical at its original scope.
+Do not repeat solved post-pulse existence, raw active-time divergence, unconstrained
+noise-law costs or scalar one-direction steering. Retain noncanonical rotation,
+three-wall domains and scalar sextic/optimizer-relative alternatives.
+
 ## 2026-10-21: finite post-pulse energy and exact stochastic coherence
 
 [K1897](explorations/conditional-build/k1897-smooth-pulse-energy-2026-10-21.md)
