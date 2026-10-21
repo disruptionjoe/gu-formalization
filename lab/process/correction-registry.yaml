@@ -680,3 +680,34 @@ canonical_source_corrections:
       known_synonyms_outside_signature:
         - "'four corners' bare -- excluded because it also names the unchanged frozen declaration map"
         - "'invariance-selection' -- excluded because it is legitimate axis vocabulary and does not itself assert product support"
+  - id: CC-16-ULTRAHYPERBOLIC-THEOREM-SCOPE
+    entry_class: canonical_source_correction
+    register_item: 16
+    canonical_since: '2026-10-20'
+    owner: lab/sources/literature-ultrahyperbolic-wellposedness-2026-08-08.md
+    co_owners:
+      - lab/process/path-dependencies.md
+      - lab/process/path-dependencies.yaml
+    superseded_reading: >-
+      That ultrahyperbolic signature alone makes the ambient GU Cauchy problem
+      ill-posed by default or in general, or that the Craig--Weinstein scalar
+      theorem automatically governs GU's first-order operator and every
+      higher-codimension data problem. The cited paper proves scoped results
+      for a specified linear ultrahyperbolic wave equation and data classes;
+      GU still lacks a matched operator/domain theorem, but signature alone
+      does not prove a universal no-go.
+    signature:
+      match: all_families
+      token_families:
+        - ["ill-posed by default", "ill posed by default", "ill-posed in general", "ill posed in general"]
+        - ["ultrahyperbolic", "ambient"]
+      blindness: >-
+        A file can transfer the scalar result using only a domain label, a
+        generic multi-time warning, or a theorem citation without the old
+        default/general wording. The signature also cannot distinguish an
+        operative overclaim from a quoted-and-rejected historical phrase;
+        recorded adjudication remains authoritative.
+      known_synonyms_outside_signature:
+        - "'well-posedness is not inherited' -- may be a correct missing-domain statement and is not itself the superseded transfer"
+        - "'Cauchy problem is problematic' -- too broad to distinguish the superseded theorem transfer"
+        - "'Craig-Weinstein remedy' -- may correctly name the comparator without claiming universal transfer"

@@ -62,10 +62,13 @@ The horizon clause inherits the T-4 certificate unchanged: causal-boundary
 objects exist only post-observation.
 
 **R3 (evolution structure, frozen).** A well-posed hyperbolic initial-value
-reduction of the observed vacuum sector (the ambient operator is
-ultrahyperbolic and ill-posed by default — PD-ULTRAHYPERBOLIC-DOMAIN — so
-hyperbolicity of the observed reduction is a demand, never an inheritance),
-plus linear mode stability of the stationary family.
+reduction of the observed vacuum sector. **CC-16 correction (2026-10-21):**
+the old phrase “ultrahyperbolic and ill-posed by default” is superseded. The
+ambient first-order ultrahyperbolic operator has no matched well-posed domain
+theorem, and Craig--Weinstein's scoped scalar comparator does not transfer
+automatically. Hyperbolicity of the observed reduction therefore remains a
+demand, never an inheritance (`PD-ULTRAHYPERBOLIC-DOMAIN`), together with
+linear mode stability of the stationary family.
 
 **R2/R1 interface (Descent A).**
 - SF-1: an effective observed vacuum equation reducing to Ricci-flatness at

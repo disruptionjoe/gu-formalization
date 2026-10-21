@@ -73,8 +73,10 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     check("O(M^2/r^4)" in descents["EXT-GR-STRONGFIELD"]["r5_frozen"]["comparison_observable"],
           "W225 residual order priced")
     check("T-4" in descents["EXT-GR-STRONGFIELD"]["r4_frozen"]["horizon"], "T-4 inherited")
-    check("ill-posed by default" in descents["EXT-GR-STRONGFIELD"]["r3_frozen"]["evolution"],
-          "hyperbolicity demanded not inherited")
+    evolution = descents["EXT-GR-STRONGFIELD"]["r3_frozen"]["evolution"]
+    check("no matched well-posed domain theorem" in evolution
+          and "does not transfer automatically" in evolution,
+          "hyperbolicity demanded without universal theorem transfer")
     check("D1 recurs" in descents["EXT-GR-PPN"]["r3_frozen"]["constraints"], "D1 recurrence recorded")
     check("W220" in descents["EXT-GR-PPN"]["r5_frozen"]["comparison_observable"], "W220 bounds bound")
     check("H49" in descents["EXT-GR-ROTATION"]["r5_frozen"]["comparison_observable"], "H49 killer frozen")

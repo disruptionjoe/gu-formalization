@@ -785,6 +785,38 @@ checks:
       forbids transfer to interacting K77 positivity; observed-quotient
       positivity remains source-open.
 
+# Lane A 2026-10-21 ultrahyperbolic theorem-scope reconciliation. Each dated
+# consumer retains the old phrase only inside an explicit CC-16 correction
+# banner, while its operative claim now requires a matched operator/domain/data
+# theorem and forbids automatic transfer from the scalar comparator.
+  - file: explorations/conditional-build/ext-gr-anchors-reverse-track-descents-r5-to-r3-2026-08-23.md
+    correction_id: CC-16-ULTRAHYPERBOLIC-THEOREM-SCOPE
+    verdict: CLEARED-CONSISTENT
+    date: '2026-10-21'
+    by: RUN-20261021-094600-gu-ultrahyperbolic-scope-stewardship
+    note: >-
+      The frozen observed hyperbolicity demand remains, but the ambient premise
+      now states only that no matched well-posed domain is inherited from
+      signature and that the scalar comparator does not transfer automatically.
+  - file: explorations/conditional-build/selected-k77-ltgr8-observed-boundary-carrier-typing-2026-08-22.md
+    correction_id: CC-16-ULTRAHYPERBOLIC-THEOREM-SCOPE
+    verdict: CLEARED-CONSISTENT
+    date: '2026-10-21'
+    by: RUN-20261021-094600-gu-ultrahyperbolic-scope-stewardship
+    note: >-
+      The metric-only typing result now separates the missing GU domain theorem
+      from Craig--Weinstein's scoped scalar equation and retains no universal
+      signature-based ill-posedness claim.
+  - file: lab/process/improvement-register-2026-08-03.md
+    correction_id: CC-16-ULTRAHYPERBOLIC-THEOREM-SCOPE
+    verdict: CLEARED-CONSISTENT
+    date: '2026-10-21'
+    by: RUN-20261021-094600-gu-ultrahyperbolic-scope-stewardship
+    note: >-
+      M-S5 now preserves the Bär--Ballmann premise gap and missing-domain burden
+      while limiting the Craig--Weinstein result to its specified scalar model
+      and stated data classes.
+
 # -------------------------------------------------------------------------
 # RATCHET BASELINE.  Per correction: the dirty count measured when the
 # correction's 7-day grace period is armed.  The gate is RED if the dirty count
@@ -802,6 +834,7 @@ ratchet:
   grace_days: 7
   baseline_measured_on: '2026-08-17'
   extension_measured_on: '2026-08-25'
+  cc16_baseline_measured_on: '2026-10-21'
   baseline:
     CC-01-MET-X-ARGUMENT: 22
     CC-02-OBSERVED-POSITIVITY-OPEN: 11
@@ -818,3 +851,4 @@ ratchet:
     CC-13-SG4-IMPORTED-AXIS-CARDINALITY: 0
     CC-14-SG4-OBSERVED-EPOCH-BINNING: 0
     CC-15-SG4-ONE-WAY-CONSISTENCY-PRICE: 0
+    CC-16-ULTRAHYPERBOLIC-THEOREM-SCOPE: 0

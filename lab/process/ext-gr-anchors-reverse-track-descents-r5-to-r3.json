@@ -25,13 +25,13 @@
       },
       "r3_frozen": {
         "comparator_driven": true,
-        "evolution": "well-posed hyperbolic initial-value reduction of the observed vacuum sector (demand, not inheritance: ambient is ultrahyperbolic and ill-posed by default)",
+        "evolution": "well-posed hyperbolic initial-value reduction of the observed vacuum sector (demand, not inheritance: the ambient first-order ultrahyperbolic operator has no matched well-posed domain theorem, and the scoped scalar comparator does not transfer automatically)",
         "stability": "linear mode stability of the stationary family"
       },
       "interface": [
         {"id": "SF-1", "demand": "effective observed vacuum equation reducing to Ricci-flatness at tested orders", "lands_on": "W225 OPEN E_s^theta operator and alpha_W coupling (OQ2-A branch-fixed source action)", "owner": "OWNER-A"},
         {"id": "SF-2", "demand": "minimal matter-coupling/geodesic-motion owner", "lands_on": "no released owner", "owner": "OWNER-E"},
-        {"id": "SF-3", "demand": "hyperbolic well-posed observed reduction owner", "lands_on": "PD-ULTRAHYPERBOLIC-DOMAIN default ill-posedness", "owner": "OWNER-D"},
+        {"id": "SF-3", "demand": "hyperbolic well-posed observed reduction owner", "lands_on": "PD-ULTRAHYPERBOLIC-DOMAIN missing matched operator/domain/data theorem", "owner": "OWNER-D"},
         {"id": "SF-4", "demand": "stationary horizon-bearing background", "lands_on": "CBRS-1 parked; W229 branch-local BOUNDED_NO_GO stands", "owner": "OWNER-B"},
         {"id": "SF-5", "demand": "second-variation/perturbation operator on that background", "lands_on": "blocked behind SF-4 and the action owner", "owner": "OWNER-B"}
       ]

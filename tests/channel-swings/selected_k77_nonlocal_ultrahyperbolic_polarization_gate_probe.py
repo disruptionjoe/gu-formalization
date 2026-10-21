@@ -60,12 +60,16 @@ literature = read("lab/sources/literature-ultrahyperbolic-wellposedness-2026-08-
 domain_chain = read("lab/process/path-dependencies.md")
 source = read("lab/sources/gu-2021-draft-s9-fermionic-operator-extraction-2026-08-04.md")
 check("regression", "the complete v0.169 predecessor replay passes", prior["FAILURES"] == [])
-check("source", "Craig and Steven Weinstein supply a scalar nonlocal Cauchy-data constraint",
-      "explicit nonlocal constraint" in literature and "codimension-one" in literature)
+check("source", "Craig and Steven Weinstein supply a scoped scalar nonlocal Cauchy-data restriction",
+      "explicit nonlocal restriction" in literature
+      and "codimension-one" in literature
+      and "specified linear ultrahyperbolic wave equation" in literature)
 check("source", "Eric Weinstein supplies no analytic domain for the GU operator",
       "SOURCE-SILENT" in source and "common variational domain" in source)
 check("prior_art", "the ultrahyperbolic-domain trap is registered",
-      "PD-ULTRAHYPERBOLIC-DOMAIN" in domain_chain and "ILL-POSED BY DEFAULT" in domain_chain)
+      "PD-ULTRAHYPERBOLIC-DOMAIN" in domain_chain
+      and "specified linear ultrahyperbolic wave equation" in domain_chain
+      and "not a theorem for every first-order ambient GU system" in domain_chain)
 for label in (
     "scalar Fourier-support cone versus matrix polarization",
     "two-sided center data versus one-sided stable or unstable data",

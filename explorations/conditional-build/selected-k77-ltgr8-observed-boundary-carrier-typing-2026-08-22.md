@@ -94,9 +94,12 @@ source/action owner; the released-source census supplies none (K104).
   `s^*: Omega^1(Y) -> Omega^1(X)` — a contraction, not a projection, and
   surjective onto `T^*X` (`MD-1`, 67/67;
   `lab/active-research/joe-directed/four-d-mode-decomposition/md1-form-leg-survives-ad-leg-is-untyped-2026-08-14.md`).
-- Analytic domain: the ambient operator is first-order ultrahyperbolic; the
-  Cauchy problem is ill-posed by default and any domain must be supplied, not
-  assumed (`PD-ULTRAHYPERBOLIC-DOMAIN`).
+- Analytic domain: the ambient operator is first-order ultrahyperbolic.
+  **CC-16 correction (2026-10-21):** the old phrase “ill-posed by default” is
+  superseded. No matched well-posed domain theorem is inherited from the
+  signature, and Craig--Weinstein's scoped scalar result does not transfer
+  automatically to this first-order operator; the operator, domain, data class
+  and transfer hypotheses must be supplied (`PD-ULTRAHYPERBOLIC-DOMAIN`).
 
 ## Boundary-type census (the W151 separations, typed)
 
@@ -108,7 +111,7 @@ typing:
 | local Rindler horizon | causal: null hypersurface + future/past choice + boost flow | conormal lifts (T-2); orientation does not (T-4): POST-OBSERVATION ONLY | needs an observed background; instantiation blocked on CBRS-1 |
 | cosmological horizon | causal, global | same as above, plus global observed structure | same |
 | York / quasilocal ensemble boundary | imposed timelike boundary + ensemble | not causal-native; an imposed-boundary system is a different system (source pack) | action boundary term MISSING — released source supplies no physical boundary law (K104) |
-| analytic operator-domain boundary | n/a (ambient object) | ambient-native NEED: nonlocal-constraint remedy class, codimension-one only | distinct from every causal type; do not identify (PD-ULTRAHYPERBOLIC-DOMAIN) |
+| analytic operator-domain boundary | n/a (ambient object) | ambient-native NEED: a matched operator/domain/data theorem; the Craig--Weinstein nonlocal codimension-one construction is a scoped comparator, not an inherited remedy | distinct from every causal type; do not identify (PD-ULTRAHYPERBOLIC-DOMAIN) |
 | BV--BFV boundary | action-owned boundary data | boundary law unowned; full-G equivariance cannot select the fixed balanced zero level (K104, K103 routes unselected) | MISSING OWNER |
 | capability / measurement boundary | records/measurement object (W151) | proposed typed bridge only; identity with any causal horizon outruns evidence (W151 correction) | UNPROVED BRIDGE |
 

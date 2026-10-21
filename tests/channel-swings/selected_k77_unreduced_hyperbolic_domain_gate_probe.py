@@ -73,7 +73,8 @@ check("prior_art", "the old Jordan result is a comparator rather than silently t
       prior_jordan["computed_jordan_obstruction"]["positive_symmetrizer_cone"] == "EMPTY_BY_NONDIAGONALIZABLE_SPATIAL_GENERATOR")
 check("analytic", "the ambient problem is explicitly typed as ultrahyperbolic",
       "PD-ULTRAHYPERBOLIC-DOMAIN" in domain_chain
-      and "ILL-POSED BY DEFAULT" in domain_chain)
+      and "specified linear ultrahyperbolic wave equation" in domain_chain
+      and "not a theorem for every first-order ambient GU system" in domain_chain)
 for label in (
     "actual K77 rolled operator versus isolated W131 carrier",
     "positive Hilbert symmetrizer versus indefinite Krein pairing",
