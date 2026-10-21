@@ -7,6 +7,11 @@ updated_at: "2026-08-23"
 
 # Process
 
+## October 21 research evidence
+
+- `k1878-fisher-three-well-profile-rigidity.json`: localization/allocation identities and precise asymptotic scope.
+- `k1879-rotating-observation-connection-repair.json`: source complex transports, full jets, connection cost and Gram gap.
+
 ## October 20 research evidence
 
 - `k1876-fisher-atomic-boundary-cost.json`: score inequality, unequal-width exact trials and rational value bounds.

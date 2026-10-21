@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 14587a98bbad334b79c87703f05700305d7342d2
+revision_basis: f387e918e6c8f1c82667b78960b51eeda694c276
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1878 proves TV/W2 Gaussian profiles at all positive-mass wells for every
+    asymptotically optimal tight-cap Fisher sequence. Rescaled variances are
+    1/[k(k+1)] centrally and1/[2k(k+1)] outside; the exact even optimizer
+    has equal outer weights. Asymmetric near-minimizers are explicit.
+    Slack/leading energy cannot escape; general simple-well transfer and a
+    qualitative modulus follow, without effective rate or spectral data.
+    K1879 constructs an exact rotating observation with fixed symbols and
+    leading map using all four source complex structures. The added target
+    connection is non-mass and nonzero for every nonconstant phase. Common
+    domains, conserved propagators, massive right inverse and circle holonomy
+    are explicit. Pure-mass rotating lift and native source identification
+    remain open. Source/physics-ledger/canon verdicts unchanged.
+
+    Historical predecessor results at their original scopes:
     K1876 proves the sharp tight-cap Fisher law (M-k²)V->(k+1)² for
     k>3, with an explicit finite-slack lower bound, exactly matched unequal-width
     Gaussian trials, optimal leading width ratio2 and general-moment scaling.
@@ -15426,6 +15440,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/k1878-fisher-three-well-profile-rigidity-2026-10-21.md
+    - lab/process/k1878-fisher-three-well-profile-rigidity.json
+    - tests/channel-swings/k1878_fisher_three_well_profile_rigidity.py
+    - tests/channel-swings/k1878_fisher_three_well_profile_rigidity_probe.py
+    - explorations/conditional-build/k1879-rotating-observation-connection-repair-2026-10-21.md
+    - lab/process/k1879-rotating-observation-connection-repair.json
+    - tests/channel-swings/k1879_rotating_observation_connection_repair.py
+    - tests/channel-swings/k1879_rotating_observation_connection_repair_probe.py
     - explorations/k1876-fisher-atomic-boundary-cost-2026-10-20.md
     - lab/process/k1876-fisher-atomic-boundary-cost.json
     - tests/channel-swings/k1876_fisher_atomic_boundary_cost.py
@@ -16211,6 +16233,9 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Compare an actual native fullC/pairing/observation-domain adapter with a pure-mass rotating fixed-T nonlinear lift. K1879 solves the changed class with a non-mass connection; automatic frame covariance is no longer pending. K1878 supplies actual three-well Gaussian shape at optimal Fisher cost; effective rates or sextic spectrum remain different questions.
+
+  Historical continuations at their original scopes:
   Compare an actual native fullC/pairing/observation-domain adapter with a full fixed-T lift of the constant-amplitude rotating mass. K1877 closes changing-amplitude travelling coefficients including general affine offsets, but positive Gram compatibility alone does not construct a rotating lift. K1876 closes sharp atomic-boundary cost and a finite value bracket; scalar continuation must target actual coefficient/gap or second-order/shape information.
 
   Historical predecessor question/condition at its original scope:
@@ -19346,6 +19371,9 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  A source-facing result needs the actual native map and domain. A pure rotating target must solve full conservative equations without K1879's added connection; no general lift is claimed. Effective scalar profile accuracy requires a quantitative deficit/localization estimate, and TV/W2 compactness alone supplies no finite rate or gap.
+
+  Historical continuations at their original scopes:
   A rotating lift must solve the full conservative first-order and zeroth-order intertwining equations with the fixed T_i; the simple S0=J T1/2 offset and every massless offset of the saved static pair fail. Target connections outside the mass plane or changed symbols are different classes. Native credit still needs the actual fullC/injection/domain adapter. The finite Fisher value bracket does not supply sextic multipliers, a gap or optimizer shape.
 
   Historical predecessor question/condition at its original scope:

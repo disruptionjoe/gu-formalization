@@ -2,11 +2,44 @@
 title: "Research Status"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-10-20"
+updated_at: "2026-10-21"
 canon_sweep_at: "2026-07-25"
 ---
 
 # Research Status
+
+## 2026-10-21: three-well Fisher profiles and rotating connection repair
+
+[K1878](explorations/k1878-fisher-three-well-profile-rigidity-2026-10-21.md)
+proves that every tight-cap sequence attaining the sharp leading Fisher cost
+has centered Gaussian profiles in TV and W2 at each positive-mass atom.
+The central/outer rescaled variances are1/[k(k+1)] and1/[2k(k+1)].
+The exact even optimizer has equal outer weights; asymmetric near-minimizers
+show that even-moment constraints alone do not impose that symmetry.
+Slack and leading energy cannot escape. The general simple-well transfer
+and qualitative stability modulus have no effective rate or spectral claim.
+
+[K1879](explorations/conditional-build/k1879-rotating-observation-connection-repair-2026-10-21.md)
+constructs a conservative rotating differential observation using the actual
+source complex structures in all four types. Principal symbols and leading
+observation stay fixed; the target gains an explicit non-mass connection.
+Full coefficient/jet equations, positive energies, common H1 domains,
+propagators and massive L2 right inverses are supplied. Odd circle winding
+changes periodic to antiperiodic domains. This is a changed-class repair,
+not a pure mass-plane rotating lift or source-selected GU mechanism.
+
+K1878:17 symbolic groups+2pins; independent230 rational controls,
+4 mathematical and4 reporting faults. K1879:67 exact algebra groups+3pins;
+independent72 operator/Gram controls,5 mathematical and4 reporting faults.
+Separate reporting/pin checks5 and6. Analytic compactness and unitary-domain
+arguments carry continuum claims; no proof assistant, external expert or
+novelty claim. Source/physics-ledger/canon verdicts unchanged.
+
+Next compare actual native fullC/pairing/observation-domain identification
+with a genuinely pure-mass rotating nonlinear lift. Scalar successors need
+effective three-well error or coefficient/gap enclosures, not another
+leading profile theorem. Earlier shape and rotating requests below remain
+historical at their original scopes.
 
 ## 2026-10-20: travelling amplitude rigidity and sharp atomic Fisher cost
 

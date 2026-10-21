@@ -2,10 +2,20 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-10-20"
+updated_at: "2026-10-21"
 ---
 
 # Next Steps For Contributors
+
+> **2026-10-21: THREE-WELL PROFILES AND CONNECTION REPAIR COMPLETE.**
+> K1878 proves TV/W2 Gaussian well profiles at sharp Fisher cost, including
+> the exact even optimizer and asymmetric near-minimizer controls. No effective
+> rate or spectrum follows. K1879 builds a full rotating observation with an
+> explicit non-mass connection, common domains and range/holonomy controls.
+> Next test actual native coefficient/domain identification or the distinct
+> pure-mass rotating nonlinear class; do not repeat automatic frame covariance.
+> Scalar work now needs effective profile accuracy or actual sextic spectral data.
+> Earlier leading-profile and rotating requests below are historical at their scopes.
 
 > **2026-10-20: TRAVELLING AMPLITUDE AND ATOMIC FISHER COST SETTLED AT THEIR SCOPES.**
 > K1877 closes all smooth changing-amplitude travelling coefficients in the

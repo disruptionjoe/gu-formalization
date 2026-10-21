@@ -7,6 +7,11 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+## October 21 research evidence
+
+- [K1878 three-well Fisher profiles](k1878-fisher-three-well-profile-rigidity-2026-10-21.md): actual Gaussian well shape, allocation and asymmetric controls.
+- [K1879 rotating connection repair](conditional-build/k1879-rotating-observation-connection-repair-2026-10-21.md): full conservative lift, connection cost, domains, range and holonomy.
+
 ## October 20 research evidence
 
 - [K1876 atomic Fisher cost](k1876-fisher-atomic-boundary-cost-2026-10-20.md): sharp tight-cap coefficient and finite minimum-value bracket.

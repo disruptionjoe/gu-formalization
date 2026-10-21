@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+## October 21 research evidence
+
+- `k1878_fisher_three_well_profile_rigidity.py` and `_probe.py`: exact scalar identities and independent allocation/distance faults.
+- `k1879_rotating_observation_connection_repair.py` and `_probe.py`: full matrix jet equations and independent operator-action faults.
+
 ## October 20 research evidence
 
 - `k1876_fisher_atomic_boundary_cost.py` and `_probe.py`: exact moment/score identities and independent rational bounds/faults.

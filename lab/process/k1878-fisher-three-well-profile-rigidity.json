@@ -1,0 +1,47 @@
+{
+  "result_id": "K1878",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "constants": {
+    "distance_square_lower": "9*k^2/16",
+    "central_variance": "1/(k*(k+1))",
+    "outer_variance": "1/(2*k*(k+1))",
+    "sharp_scaled_energy": "(k+1)^2",
+    "central_mass": "1-1/k",
+    "total_outer_mass": "1/k"
+  },
+  "scope": {
+    "all_asymptotically_optimal_densities": true,
+    "positive_mass_cells_TV_and_W2": true,
+    "vanishing_cells_profile_unconstrained": true,
+    "even_optimizer_equal_outer_weights": true,
+    "all_near_minimizers_even": false,
+    "effective_rate": false,
+    "sextic_multiplier_or_gap": false,
+    "native_GU_claim": false
+  },
+  "checks": {
+    "slack_polynomial": true,
+    "central_blowup": true,
+    "outer_blowup": true,
+    "atomic_mass": true,
+    "weighted_abs_slope": true,
+    "budget_saturation": true,
+    "Fisher_saturation": true,
+    "variance_ratio": true,
+    "allocation_gap": true,
+    "central_distance_factor": true,
+    "outer_distance_factor": true,
+    "global_distance_constant": true,
+    "k4_profile_variances": true,
+    "asymmetric_even_moment_2": true,
+    "asymmetric_even_moment_4": true,
+    "asymmetric_even_moment_6": true,
+    "asymmetric_fisher_upper": true
+  },
+  "inputs": {
+    "explorations/k1876-fisher-atomic-boundary-cost-2026-10-20.md": "1ee51da98f1c05f3bd07636e896cc0ff5b5c95fa74d9ab86d02039bc24ba6614",
+    "lab/process/k1876-fisher-atomic-boundary-cost.json": "c7df5ad5c57dcf9fdc2e24714a6ae9ba1594e0af8214e83be88b3d4de1ff6828"
+  }
+}
