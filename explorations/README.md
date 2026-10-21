@@ -9,6 +9,9 @@ updated_at: "2026-08-21"
 
 ## October 20 research evidence
 
+- [K1876 atomic Fisher cost](k1876-fisher-atomic-boundary-cost-2026-10-20.md): sharp tight-cap coefficient and finite minimum-value bracket.
+- [K1877 travelling amplitude rigidity](conditional-build/k1877-traveling-gram-amplitude-rigidity-2026-10-20.md): full Gram obstruction, affine-kink closure and circular control.
+
 - [K1874 sixth-moment Fisher cap](k1874-fisher-sixth-moment-cap-2026-10-20.md): attained unique sextic minimum and sharp tail-budget cost.
 - [K1875 nonlinear moving zeros](conditional-build/k1875-nonlinear-moving-zero-obstruction-2026-10-20.md): mass-local zero/tail obstruction and full-offset Gram countercontrol.
 

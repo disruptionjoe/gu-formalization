@@ -9,6 +9,9 @@ updated_at: "2026-08-23"
 
 ## October 20 research evidence
 
+- `k1876-fisher-atomic-boundary-cost.json`: score inequality, unequal-width exact trials and rational value bounds.
+- `k1877-traveling-gram-amplitude-rigidity.json`: full-bank Gram identities, amplitude traces and circular non-lift control.
+
 - `k1874-fisher-sixth-moment-cap.json`: exact cap/moment constants, optimizer scope and dependency pins.
 - `k1875-nonlinear-moving-zero-obstruction.json`: nonlinear residual, Gram countercontrol and precise obstruction scope.
 

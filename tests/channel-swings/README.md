@@ -2,6 +2,9 @@
 
 ## October 20 research evidence
 
+- `k1876_fisher_atomic_boundary_cost.py` and `_probe.py`: exact moment/score identities and independent rational bounds/faults.
+- `k1877_traveling_gram_amplitude_rigidity.py` and `_probe.py`: universal Gram traces, independently reconstructed bank and operator-action faults.
+
 - `k1874_fisher_sixth_moment_cap.py` and `_probe.py`: exact moments, score projection, budget constants and input faults.
 - `k1875_nonlinear_moving_zero_obstruction.py` and `_probe.py`: nonlinear residuals, full-bank/Gram reconstruction and profile controls.
 

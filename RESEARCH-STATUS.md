@@ -8,7 +8,44 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-## 2026-10-20: sharp finite-tail Fisher cost and nonlinear moving zeros
+## 2026-10-20: travelling amplitude rigidity and sharp atomic Fisher cost
+
+[K1876](explorations/k1876-fisher-atomic-boundary-cost-2026-10-20.md)
+proves `(M-k²)V(k,M)->(k+1)²` at the tight sixth-cap boundary for k>3.
+A finite-slack score bound and exactly moment-matched unequal-width Gaussian
+trial give the actual value bracket `24.99500025<10^-12 V(4,16+10^-12)<25.002`.
+The optimal leading trial variance ratio is2; scaling and inverse-budget
+consumers are explicit. This is independent scalar mathematics, with no
+computed sextic coefficients, spectral gap, shape theorem or novelty claim.
+
+[K1877](explorations/conditional-build/k1877-traveling-gram-amplitude-rigidity-2026-10-20.md)
+uses all four full-bank Gram derivative freedoms to prove constant amplitude
+for any smooth conservative fixed-symbol travelling mass-plane profile at
+nonzero speed. Fixed-direction mass is constant. This closes K1875's general
+affine-offset kink and covers derivative-dependent ansatzes that remain smooth
+functions of the same travelling coordinate. Static and changed-symbol repairs
+survive. A circular positive Gram control is exact, but its simplest offset
+fails the full first-order bank; every massless offset of the saved static pair
+also fails the harmonic equations by exact dual witnesses. A general rotating
+observation lift is not constructed.
+No native source identification or all-moving-background exclusion follows.
+
+K1876:19 symbolic/rational groups+2pins; independent157 rational controls,
+6 mathematical faults and4 reporting faults. K1877:48 matrix/polynomial
+groups+4pins; independent56 differential/positive and712 reconstructed-bank
+controls,6 mathematical faults and5 reporting faults. Reporting/pins are
+separate6 and12 checks. Analytic score/IFT and formal-adjoint/connected-domain
+arguments own continuum transfer; no proof assistant or external expert.
+SC-OP-04/MAS-01/CHI-02 ASSERTS candidate/stylized; SC-OP-05/META-53 UNCERTAIN.
+Source, physics-ledger and canon verdicts unchanged.
+
+Next compare the actual native coefficient/pairing/domain adapter with a full
+constant-amplitude rotating fixed-T lift or a specified non-mass target
+connection. Do not repeat the now-excluded affine changing-amplitude solve.
+Scalar successors need actual coefficient/gap, second-order or shape evidence;
+the completed value bounds alone do not provide it.
+
+## Historical 2026-10-20: sharp finite-tail Fisher cost and nonlinear moving zeros
 
 [K1874](explorations/k1874-fisher-sixth-moment-cap-2026-10-20.md) proves
 that for raw second moment1, fourth moment k>3 and sixth cap M, feasibility

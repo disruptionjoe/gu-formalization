@@ -7,6 +7,15 @@ updated_at: "2026-10-20"
 
 # Next Steps For Contributors
 
+> **2026-10-20: TRAVELLING AMPLITUDE AND ATOMIC FISHER COST SETTLED AT THEIR SCOPES.**
+> K1877 closes all smooth changing-amplitude travelling coefficients in the
+> fixed-symbol positive conservative mass-plane class, including affine offsets.
+> Next test a full rotating fixed-T lift or actual native coefficient/domain
+> identification; positive circular Gram compatibility is not a lift.
+> K1876 gives the sharp tight-cap coefficient and a finite actual-value bracket.
+> Further scalar work must add coefficient/gap, second-order or shape information.
+> Earlier affine-kink and tight-cap requests below are historical at their scopes.
+
 > **2026-10-20: CAPPED FISHER OPTIMIZER AND NONLINEAR ZERO TEST COMPLETE.**
 > K1874 gives attained unique sextic optimization, sharp large-cap cost and
 > finite accuracy budgets above Gaussian kurtosis. K1875 excludes moving

@@ -1,0 +1,53 @@
+{
+  "result_id": "K1876",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "coefficients": {
+    "atomic_cost": "(k+1)^2",
+    "slack_derivative": "k*(k+1)",
+    "variance_ratio": 2,
+    "remainder_bound": "(5*a+3*k)/((a+k)*sqrt(a))"
+  },
+  "finite_example": {
+    "k": "4",
+    "slack": "1/1000000000000",
+    "t": "1/20001000000000",
+    "scaled_value_lower": "99980001/4000000",
+    "scaled_value_upper": "12501/500"
+  },
+  "scope": {
+    "k_gt_3": true,
+    "raw_second_one": true,
+    "sixth_inequality": true,
+    "continuum_proof": "analytic note, not certified by symbolic pass count",
+    "exact_optimizer_coefficients_computed": false,
+    "native_GU_verdict": false,
+    "novelty_claim": false
+  },
+  "checks": {
+    "test_remainder": true,
+    "test_square_domination": true,
+    "R_majorant": true,
+    "sqrt_bound_square": true,
+    "atomic_expectation": true,
+    "second_moment": true,
+    "fourth_constraint": true,
+    "implicit_jacobian": true,
+    "root_derivative": true,
+    "sixth_slack_derivative": true,
+    "cost_leading": true,
+    "allocation_identity": true,
+    "root_left": true,
+    "root_right": true,
+    "root_monotone": true,
+    "weights": true,
+    "budget_feasible": true,
+    "scaled_upper": true,
+    "scaled_lower": true
+  },
+  "inputs": {
+    "explorations/k1874-fisher-sixth-moment-cap-2026-10-20.md": "006effce8e834e3c6677f88134eb4e6dcc2d87e7eb05f682513b73344f6021ae",
+    "lab/process/k1874-fisher-sixth-moment-cap.json": "b34a8535661697eb4ef8c3da9f6771108d85d1cf9ab9d0c487143e280ffa9c0e"
+  }
+}

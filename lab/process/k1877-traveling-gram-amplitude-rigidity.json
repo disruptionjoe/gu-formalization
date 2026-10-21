@@ -1,0 +1,239 @@
+{
+  "result_id": "K1877",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "identities": {
+    "Gram_span_dimension": 4,
+    "V_derivative_coefficient": -24,
+    "V_mass_coefficient": -24,
+    "trace_u_coefficient": -4,
+    "trace_D1_u_coefficient": "1/6",
+    "trace_mass_radial_coefficient": -192,
+    "circular_G1": "-alpha*omega*J",
+    "circular_positive_threshold": "alpha*omega^2/4"
+  },
+  "scope": {
+    "fixed_positive_pairings": true,
+    "fixed_symbols_and_leading_observation": true,
+    "smooth_travelling_C_S": true,
+    "nonzero_speed": true,
+    "target_two_mass_plane": true,
+    "amplitude_constant": true,
+    "fixed_direction_profile_constant": true,
+    "arbitrary_offsets_allowed": true,
+    "all_moving_backgrounds_excluded": false,
+    "rotating_observation_lift_constructed": false,
+    "native_GU_verdict": false
+  },
+  "offset_dual_witnesses": [
+    [
+      [
+        1,
+        "-7575463675/2001788591616"
+      ],
+      [
+        2,
+        "-59605120325/2001788591616"
+      ],
+      [
+        5,
+        "-7574112325/667262863872"
+      ],
+      [
+        9,
+        "25/50688"
+      ],
+      [
+        12,
+        "-2175/183632"
+      ],
+      [
+        16,
+        "211225/174417408"
+      ],
+      [
+        19,
+        "-164375/174417408"
+      ],
+      [
+        20,
+        "18175/58139136"
+      ],
+      [
+        24,
+        "25/50688"
+      ]
+    ],
+    [
+      [
+        1,
+        "-7575463675/2001788591616"
+      ],
+      [
+        2,
+        "-59605120325/2001788591616"
+      ],
+      [
+        5,
+        "-7574112325/667262863872"
+      ],
+      [
+        9,
+        "25/50688"
+      ],
+      [
+        12,
+        "-2175/91816"
+      ],
+      [
+        16,
+        "211225/174417408"
+      ],
+      [
+        19,
+        "-164375/174417408"
+      ],
+      [
+        20,
+        "18175/58139136"
+      ],
+      [
+        24,
+        "25/50688"
+      ]
+    ],
+    [
+      [
+        1,
+        "7575463675/2001788591616"
+      ],
+      [
+        2,
+        "59605120325/2001788591616"
+      ],
+      [
+        5,
+        "7574112325/667262863872"
+      ],
+      [
+        9,
+        "-25/50688"
+      ],
+      [
+        12,
+        "2175/91816"
+      ],
+      [
+        16,
+        "211225/174417408"
+      ],
+      [
+        19,
+        "-164375/174417408"
+      ],
+      [
+        20,
+        "18175/58139136"
+      ],
+      [
+        24,
+        "25/50688"
+      ]
+    ],
+    [
+      [
+        1,
+        "7575463675/2001788591616"
+      ],
+      [
+        2,
+        "59605120325/2001788591616"
+      ],
+      [
+        5,
+        "7574112325/667262863872"
+      ],
+      [
+        9,
+        "-25/50688"
+      ],
+      [
+        12,
+        "2175/183632"
+      ],
+      [
+        16,
+        "211225/174417408"
+      ],
+      [
+        19,
+        "-164375/174417408"
+      ],
+      [
+        20,
+        "18175/58139136"
+      ],
+      [
+        24,
+        "25/50688"
+      ]
+    ]
+  ],
+  "checks": {
+    "Clifford": true,
+    "central_J": true,
+    "mass_plane": true,
+    "bank_rank_0": true,
+    "full_Gram_span_0": true,
+    "principal_Gram_0": true,
+    "positive_alpha_0": true,
+    "simple_circular_offset_no_lift_0": true,
+    "all_static_rotating_offsets_inconsistent_0": true,
+    "offset_dual_witness_0": true,
+    "bank_rank_1": true,
+    "full_Gram_span_1": true,
+    "principal_Gram_1": true,
+    "positive_alpha_1": true,
+    "simple_circular_offset_no_lift_1": true,
+    "all_static_rotating_offsets_inconsistent_1": true,
+    "offset_dual_witness_1": true,
+    "bank_rank_2": true,
+    "full_Gram_span_2": true,
+    "principal_Gram_2": true,
+    "positive_alpha_2": true,
+    "simple_circular_offset_no_lift_2": true,
+    "all_static_rotating_offsets_inconsistent_2": true,
+    "offset_dual_witness_2": true,
+    "bank_rank_3": true,
+    "full_Gram_span_3": true,
+    "principal_Gram_3": true,
+    "positive_alpha_3": true,
+    "simple_circular_offset_no_lift_3": true,
+    "all_static_rotating_offsets_inconsistent_3": true,
+    "offset_dual_witness_3": true,
+    "J_projection_0": true,
+    "DJ_projection_0": true,
+    "J_projection_1": true,
+    "DJ_projection_1": true,
+    "J_projection_2": true,
+    "DJ_projection_2": true,
+    "V_symmetric": true,
+    "first_order_0": true,
+    "first_order_1": true,
+    "first_order_2": true,
+    "symmetric_commutant_rank9": true,
+    "trace_identity": true,
+    "D1_trace_identity": true,
+    "fixed_direction_acceleration": true,
+    "circular_Gram_lax": true,
+    "circular_constant_V": true,
+    "positive_Gram_completion": true
+  },
+  "inputs": {
+    "lab/process/k1832-k77-common-energy-form.json": "50521381c0281b5e3327a4bc938367f38f982761823b6c5950e4f0a4ef950993",
+    "lab/process/k1836-k77-differential-dirac-quotient.json": "dc6c770abbbc55acdbe104e27a4441bbecb19493c18f7c319a2ae5ccfa564d7a",
+    "lab/process/k1840-k77-conservative-variable-observation.json": "5c5d0b4ed4e52f51389f6f22fbb9197beec29d0f530232aa2e736b92c989d1dd",
+    "explorations/conditional-build/k1875-nonlinear-moving-zero-obstruction-2026-10-20.md": "325608a0f8523b24620ee121869f98714586e07f1949f5b874f976fffe3ffa9a"
+  }
+}
