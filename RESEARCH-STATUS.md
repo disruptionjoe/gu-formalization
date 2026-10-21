@@ -8,6 +8,40 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-21: massive observation domains and causal field algebra
+
+[K1891](explorations/conditional-build/k1891-massive-boundary-observation-2026-10-21.md)
+constructs rational source boundaries compatible with the actual massive/tangential
+observation and a target conservative domain, including smooth static normal mass
+profiles. The closed Gram equals576 alpha times the target Hamiltonian square.
+Exact constant-mass surface/bulk spectra and a profile gap bound give dynamical
+minimum-energy inverses. Two normal surface modes remain unobservable at zero
+transverse momentum; mass localization does not remove the plane infrared cost.
+
+[K1892](explorations/conditional-build/k1892-causal-observation-algebra-2026-10-21.md)
+adds an explicitly conditional CAR quantization on whole space. Observed even
+algebras and raw differential observations respect the target speed1/24 cone,
+while normalized reconstruction is not source-local. All target quasifree
+covariances extend with arbitrary hidden occupations; no vacuum is selected.
+An actual invisible fast-channel leakage has nonzero speed1 covariance at every
+nonzero coupling, so exact shielding is not robust to arbitrary observation error.
+A local scalar-potential test isolates the closure defect; an explicit four-dimensional
+invisible sector admits protected local skew couplings and a global classical
+nonlinear mild flow with the exact same observed equation. No interacting CAR
+quantization of that nonlinear flow is asserted.
+
+Analytic domain/support proofs carry the continuum claims. Exact producers and
+separate trace/ODE/resolvent/CAR controls with planted faults supplement them.
+No independent-agent, external-expert, formal-proof or novelty claim. These are
+conditional mathematical results; source/physics-ledger/canon verdicts unchanged.
+
+Next compare a typed native fullC/injection/pairing adapter with admissible nonlinear
+quantum interactions or native local-observable identification beyond the solved
+classical invisible-sector coupling. A physical selection of
+accessible observables remains missing. Noncanonical rotation, the three-wall
+box and scalar sextic/optimizer-relative results remain independent alternatives.
+Earlier pending massive/tangential-domain statements are historical at their scopes.
+
 ## 2026-10-21: exact slab preparation spectrum and evolution boundary repair
 
 [K1889](explorations/conditional-build/k1889-coupled-slab-observation-spectrum-2026-10-21.md)

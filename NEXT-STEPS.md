@@ -7,6 +7,17 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-21: MASSIVE DOMAINS AND OBSERVED CAUSALITY RESOLVED CONDITIONALLY.**
+> K1891 solves compatible slab domains, exact constant-mass spectra, profile
+> gap bounds and dynamical recovery. K1892 gives a conditional target-local CAR
+> algebra, nonlocal source-embedding limits and an exact fast-leakage control.
+> Protected local invisible-sector couplings and a classical nonlinear flow
+> now preserve observation. Next compare the native adapter with a specified
+> quantum interaction; nonlinear one-particle flow is not a CAR automorphism. No physical
+> vacuum, interacting positive quotient or GU identification follows.
+> Prior massive/tangential-domain continuation is completed at the selected scope;
+> noncanonical rotation, box spectra and scalar sextic questions remain distinct.
+
 > **2026-10-21: COUPLED SLAB SPECTRUM AND BOUNDARY REPAIR ESTABLISHED.**
 > K1889 gives exact surface/bulk preparation bands, sharp budgets and a massive
 > finite-energy obstruction when normal support is fixed and the transverse

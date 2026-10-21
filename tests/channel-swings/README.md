@@ -1,5 +1,8 @@
 # Pre-contract wave probes
 
+- [K1891 massive slab domains, profile bounds and dynamical spectrum](k1891_massive_boundary_observation.py).
+- [K1892 conditional causal algebra, state extensions and fast leakage](k1892_causal_observation_algebra.py).
+
 - K1889: [producer](k1889_coupled_slab_observation_spectrum.py), [probe](k1889_coupled_slab_observation_spectrum_probe.py).
 - K1890: [producer](k1890_preparation_evolution_boundary_incompatibility.py), [probe](k1890_preparation_evolution_boundary_incompatibility_probe.py).
 

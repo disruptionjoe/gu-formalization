@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [K1891 massive slab domains, profile bounds and dynamical spectrum](k1891-massive-boundary-observation.json).
+- [K1892 conditional causal algebra, state extensions and fast leakage](k1892-causal-observation-algebra.json).
+
 - [K1889 exact slab preparation spectrum, budgets and infrared range](k1889-coupled-slab-observation-spectrum.json).
 - [K1890 modewise boundary incompatibility and sharp conservative repair](k1890-preparation-evolution-boundary-incompatibility.json).
 

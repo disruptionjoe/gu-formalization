@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [K1891 massive slab domains, profile bounds and dynamical spectrum](conditional-build/k1891-massive-boundary-observation-2026-10-21.md).
+- [K1892 conditional causal algebra, state extensions and fast leakage](conditional-build/k1892-causal-observation-algebra-2026-10-21.md).
+
 - [K1889 exact slab preparation spectrum, budgets and infrared range](conditional-build/k1889-coupled-slab-observation-spectrum-2026-10-21.md).
 - [K1890 modewise boundary incompatibility and sharp conservative repair](conditional-build/k1890-preparation-evolution-boundary-incompatibility-2026-10-21.md).
 
