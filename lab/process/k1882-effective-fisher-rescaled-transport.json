@@ -1,0 +1,56 @@
+{
+  "result_id": "K1882",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "constants": {
+    "tail_coercivity": "16/9",
+    "cutoff": 40,
+    "transport_factor": 1,
+    "tail_mass_factor": 1,
+    "tail_modulus": 24
+  },
+  "budget": {
+    "e": "1/3000000",
+    "epsilon": "13/80000",
+    "tau": "1/22500",
+    "E": "101875892234921/5758128152100000",
+    "Kcap": "12503/500",
+    "Splus": "44996791/9000000",
+    "D": "9169775215267926171911/12963110400000000000000000",
+    "B": "93341939658076246203032348172959/746432509330202918400000000000000000",
+    "central_mass_lower": "2999999/4000000",
+    "outer_mass_lower": "999999/8000000"
+  },
+  "bounds": {
+    "weighted_W2": "7/625",
+    "central_W2": "13/1000",
+    "outer_W2": "4/125"
+  },
+  "scope": {
+    "actual_hard_cells": true,
+    "all_feasible_valid_U": true,
+    "rare_cell_mass_required": true,
+    "hard_cell_entropy": false,
+    "sharp_rate": false,
+    "sextic_gap": false,
+    "native_GU": false
+  },
+  "checks": {
+    "valid_parameters": true,
+    "positive_budgets": true,
+    "weighted_transport_0112": true,
+    "central_013": true,
+    "outer_032": true,
+    "allocation_cauchy": true,
+    "Gaussian_transport_inequality": true,
+    "shifted_Gaussian_equality": true,
+    "residual_product_cost": true,
+    "tail_fourth_constant": true,
+    "rate_balance": true
+  },
+  "inputs": {
+    "lab/process/k1880-effective-fisher-well-localization.json": "d926da595f8aaa681991257a3c6e4dc163bf3cef0ed53476e6421c44064229d2",
+    "lab/process/k1876-fisher-atomic-boundary-cost.json": "c7df5ad5c57dcf9fdc2e24714a6ae9ba1594e0af8214e83be88b3d4de1ff6828"
+  }
+}

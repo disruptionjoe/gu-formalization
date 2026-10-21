@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [K1882 rescaled transport](k1882-effective-fisher-rescaled-transport.json): exact error budgets and transfer controls.
+- [K1883 compact range](k1883-compact-support-observation-range.json): actual matrix factorization and compact preparation coefficients.
+
 - [K1880 effective Fisher localization](k1880-effective-fisher-well-localization.json): exact finite accuracy constants and controls.
 - [K1881 dynamical observation lift](k1881-dynamical-minimum-energy-observation-lift.json): four-type Fourier, projection and evolution checks.
 

@@ -1,5 +1,8 @@
 # Pre-contract wave probes
 
+- K1882: [producer](k1882_effective_fisher_rescaled_transport.py), [independent probe](k1882_effective_fisher_rescaled_transport_probe.py).
+- K1883: [producer](k1883_compact_support_observation_range.py), [independent probe](k1883_compact_support_observation_range_probe.py).
+
 - K1880: [producer](k1880_effective_fisher_well_localization.py), [independent probe](k1880_effective_fisher_well_localization_probe.py).
 - K1881: [producer](k1881_dynamical_minimum_energy_observation_lift.py), [independent probe](k1881_dynamical_minimum_energy_observation_lift_probe.py).
 

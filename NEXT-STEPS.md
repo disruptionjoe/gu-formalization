@@ -7,6 +7,16 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-21: RESCALED TRANSPORT AND COMPACT RECOVERY CLASSIFIED.**
+> K1882 gives finite rescaled W2 bounds with actual tails and cell weights.
+> K1883 gives four exact compact-preparation charge constraints, constructive
+> charge-zero lifts and an all-target local-inverse obstruction. Massive L2
+> surjectivity survives. Next compare actual native coefficient/domain adapters
+> with the full pure-mass rotating nonlinear class; scalar continuation needs
+> spectral/entropy or sharper asymptotic data. These are conditional and
+> independent mathematical results; physics verdicts remain unchanged.
+> Earlier pending W2/local-recovery questions below are historical.
+
 > **2026-10-21: FINITE FISHER PROFILE ERROR AND DYNAMICAL LIFT ESTABLISHED.**
 > K1880 supplies explicit three-well TV accuracy, including a0.022 bound for
 > the named exact even optimizer. Effective rescaled W2 and sextic spectrum

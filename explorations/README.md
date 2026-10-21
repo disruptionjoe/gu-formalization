@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [K1882 effective rescaled Fisher transport](k1882-effective-fisher-rescaled-transport-2026-10-21.md): finite conditional W2, tail and moment bounds.
+- [K1883 compact observation range](conditional-build/k1883-compact-support-observation-range-2026-10-21.md): four charges, constructive compact lifts and local-recovery obstruction.
+
 - [K1880 effective Fisher localization](k1880-effective-fisher-well-localization-2026-10-21.md): finite three-well TV error and rare-well bounds.
 - [K1881 dynamical observation lift](conditional-build/k1881-dynamical-minimum-energy-observation-lift-2026-10-21.md): minimum-energy dynamics, quotient norm and domain limits.
 

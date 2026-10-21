@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 0f2d7c5cc9c15409c5df54d68e0617b749696725
+revision_basis: e1301bd6d56da2d6aa29e763f1e92b1d5a64119c
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,17 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1882 proves effective rescaled three-well Wasserstein bounds for every
+    feasible sixth-cap density with a proved Fisher upper bound. Tail allocation,
+    rare-cell masses, means, widths and a uniform-integrability modulus are explicit;
+    the named k4 example has weighted W2<0.0112. K1883 factors all four actual
+    observation types as a weighted divergence: compact smooth range is exactly
+    four exponential-charge constraints, with constructive charge-zero lifts.
+    All-target compact/local recovery is impossible despite massive L2
+    surjectivity. Compact compatible dynamics and rotated charges are explicit.
+    Independent/conditional mathematics only; source/ledger/canon verdicts unchanged.
+
+    Historical predecessor results at their original scopes:
     K1880 gives explicit finite TV accuracy for the tight sixth-cap three-well
     Fisher problem, including0.022 for the exact even optimizer at k=4 and
     slack10^-12. Unequal slopes, asymmetric weights, rare-well conditioning
@@ -15451,6 +15462,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/k1882-effective-fisher-rescaled-transport-2026-10-21.md
+    - lab/process/k1882-effective-fisher-rescaled-transport.json
+    - tests/channel-swings/k1882_effective_fisher_rescaled_transport.py
+    - tests/channel-swings/k1882_effective_fisher_rescaled_transport_probe.py
+    - explorations/conditional-build/k1883-compact-support-observation-range-2026-10-21.md
+    - lab/process/k1883-compact-support-observation-range.json
+    - tests/channel-swings/k1883_compact_support_observation_range.py
+    - tests/channel-swings/k1883_compact_support_observation_range_probe.py
     - explorations/k1880-effective-fisher-well-localization-2026-10-21.md
     - lab/process/k1880-effective-fisher-well-localization.json
     - tests/channel-swings/k1880_effective_fisher_well_localization.py
@@ -16252,6 +16271,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Compare actual native fullC/injection/pairing/domain identification with
+  pure-mass nonlinear rotating factorization. K1883 settles compact range for
+  the fixed observation, not a new native map. K1882 settles effective rescaled
+  W2; scalar successors require actual spectral/entropy or sharper asymptotic
+  evidence. Support/energy tradeoffs on other domains remain distinct.
+
+  Historical continuations at their original scopes:
   Compare actual native fullC/injection/pairing/observation-domain identification
   with a pure mass-plane rotating nonlinear lift. K1881 closes the dynamical
   quotient for the changed-connection class but supplies neither native data
@@ -19397,6 +19423,13 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Native credit needs an actual typed coefficient/domain adapter. Pure-mass
+  rotation must solve the full conservative equations without the extra
+  connection. Compact recovery must preserve all four weighted charges;
+  L2 surjectivity is insufficient. Scalar hard-cell entropy or sextic-gap
+  claims need new functional/spectral evidence, not finite TV/W2 alone.
+
+  Historical continuations at their original scopes:
   A native result needs an actual typed coefficient and domain adapter.
   Pure rotating mass must satisfy the full conservative equations without
   K1879's non-mass connection. Raw L2 observation energy is not the inherited

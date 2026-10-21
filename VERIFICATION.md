@@ -7,6 +7,41 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-21: rescaled Fisher transport and compact observation range
+
+[K1882](explorations/k1882-effective-fisher-rescaled-transport-2026-10-21.md)
+controls the actual rescaled conditional profiles in quadratic Wasserstein
+distance. Energy allocation bounds the discarded second moment; Gaussian
+transport and residual coupling then give finite all-density bounds. At
+k=4,slack10^-12,U=25.002, weighted W2<0.0112; even central<0.013 and
+outer<0.032. Rare-cell denominators, means, widths, tail modulus and
+competitor comparisons are explicit. No sharp rate or sextic gap claim.
+
+[K1883](explorations/conditional-build/k1883-compact-support-observation-range-2026-10-21.md)
+factors the actual four-type observation as a weighted divergence. Its
+compact smooth range is exactly four exponential-charge constraints,
+with an explicit compact lift when they vanish. No all-target compact or
+finite-order local right inverse exists, despite massive L2 surjectivity.
+Charge conservation, compatible compact dynamical lifting, rotating-frame
+charges and the massless/infrared distinction are explicit. This is a
+conditional preparation theorem, not a native GU or physical-causality verdict.
+
+K1882:11 symbolic/budget groups+2pins; separate358 mathematical controls,
+13budget checks,4actual inequality faults,5serialized arithmetic faults,
+6report/pin faults. K1883:44matrix groups+3pins; separate98operator/primitive/
+frame controls,9actual false-identity/noncompact controls,8matrix faults,
+5report/pin faults. Analytic transport/localization and compact primitive
+proofs carry the continuum claims; finite checks alone do not. No external
+expert, independent agent, proof assistant or novelty claim. Source,
+physics-ledger and scientific canon verdicts unchanged.
+
+Next compare native fullC/injection/pairing/domain identification with the
+full pure-mass rotating nonlinear factorization. Scalar successors need
+actual sextic spectral/entropy information or a sharper asymptotic correction;
+finite rescaled W2 is now answered. Compact range on different domains and
+quantitative support/energy preparation tradeoffs remain distinct questions.
+Earlier requests below are historical at their original scopes.
+
 ## 2026-10-21: effective Fisher profiles and dynamical observation lifting
 
 [K1880](explorations/k1880-effective-fisher-well-localization-2026-10-21.md)
