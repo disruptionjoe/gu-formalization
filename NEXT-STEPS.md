@@ -7,6 +7,15 @@ updated_at: "2026-10-20"
 
 # Next Steps For Contributors
 
+> **2026-10-20: TWO-WELL AND WALL-RANGE TESTS CLOSED AT DECLARED SCOPES.**
+> K1868 rules out uniform unrestricted endpoint stability even at exponentially
+> small absolute Fisher excess, while preserving all even observables. K1869
+> gives the closed planar-wall finite-energy range, cancellation/gap repairs
+> and optimal Gaussian approximation budget. Neither changes GU physics.
+> Next construct actual native observation/coefficient data or a quantitative
+> mean-zero/even two-well stability bound; no repeated unbalanced-well or
+> individual nonzero-frequency lift tests. Earlier requests below are historical.
+
 > **2026-10-20: SCALAR WINDOW AND FISHER TRANSPORT TESTS CLOSED.**
 > K1866 excludes the stated positive-diagonal-scalar mass-fit repair across two
 > Fourier scales; its healthy cross-readout control changes the measured object.

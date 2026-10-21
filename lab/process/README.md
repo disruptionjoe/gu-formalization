@@ -9,6 +9,9 @@ updated_at: "2026-08-23"
 
 ## October 20 research evidence
 
+- `k1868-fisher-two-well-instability.json`: interval barrier, exact-tilt constants and statistical/spectral scope.
+- `k1869-wall-observation-finite-energy-range.json`: closed-range spectral consumers and Gaussian budget constants.
+
 - `k1866-positive-scalar-screening-window.json`: fixed-tensor spectral assumptions and finite-tolerance constants.
 - `k1867-fisher-transport-entropy-certificate.json`: small-q entropy/transport constants, dependency pins and scope.
 

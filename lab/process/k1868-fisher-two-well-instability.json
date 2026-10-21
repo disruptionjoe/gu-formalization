@@ -1,0 +1,31 @@
+{
+  "id": "K1868",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "grade": "analytic derivation with exact arithmetic controls; no formal or external acceptance",
+  "constants": {
+    "half_width": "1/4",
+    "barrier_mass_factor": "2",
+    "barrier_exponent": "1/4",
+    "deficit_pi2_factor": "4",
+    "spectral_pi2_factor": "16",
+    "tv_factor": "1/2",
+    "mean_sign_factor": "1/2",
+    "atom_transport_factor": "2",
+    "collapse_error_factor": "2"
+  },
+  "scope": {
+    "all_even_moments": true,
+    "absolute_excess": true,
+    "endpoint_theta_allowed": true,
+    "effective_onset": false,
+    "sharp_tunneling_exponent": false,
+    "gu_verdict": false,
+    "mean_zero_effective_tv_rate": false,
+    "mean_zero_qualitative_tv": true
+  },
+  "dependencies": {
+    "explorations/k1843-unrestricted-fisher-variational-gap-2026-10-20.md": "4dd0b02b04005af66c6b33b384d7e86ac0f3a028a0f3fa312ba6b503aa4fb307",
+    "explorations/k1858-fisher-two-well-profile-2026-10-20.md": "3dd436c331837d4cf0ceff6794d91d0bfbf6fd812dd97b7055776ca049d2413d"
+  }
+}

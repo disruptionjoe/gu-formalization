@@ -7,6 +7,40 @@ updated_at: "2026-10-20"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-20: two-well instability and finite-energy wall observation
+
+[K1868](explorations/k1868-fisher-two-well-instability-2026-10-20.md)
+constructs exactly feasible sign tilts of the actual two-well Fisher optimizer.
+Their absolute Fisher excess is exponentially small, but TV tends to
+|theta|/2, forward entropy to binary imbalance entropy, and W2 squared to
+2|theta|. Every even observable is exactly preserved. The oscillator gap has
+an exponential upper bound. K1858 also gives qualitative TV stability after
+adding mean zero; moment collapse supplies a finite transport bound. No sharp
+tunneling rate, effective onset or finite mean-zero TV modulus is claimed.
+This is independent scalar mathematics.
+
+[K1869](explorations/conditional-build/k1869-wall-observation-finite-energy-range-2026-10-20.md)
+classifies the actual closed K1840 planar-wall observation range. A localized
+Gaussian has no finite-energy massless lift despite the absence of an L2 wall
+zero mode. Schwartz zero-mean packets do lift. Gap and spectral-cutoff repairs,
+minimum lift energy and the exact optimal energy-versus-error curve are
+explicit. This is a conditional compressed interface, not a source-selected
+GU wall or physical chirality/count result. SC-OP-04, SC-MAS-01 and SC-CHI-02
+remain ASSERTS at their candidate/stylized scopes; SC-OP-05 and SC-META-53
+remain UNCERTAIN. Source/physics-ledger/canon verdicts unchanged.
+
+K1868:14 symbolic mathematical checks and2 dependency pins; independent180
+rational checks and8 reporting checks;9 mathematical-input and8 reporting
+faults assertion-detected. K1869:10 symbolic checks and1 dependency pin;
+independent67 exact checks and7 reporting checks;8 mathematical-input and7
+reporting faults detected, plus6 numerical integral consistency checks.
+Written analytic proofs own the continuum conclusions; these are internal
+checks, not formal proofs or independent human acceptance. No novelty claim.
+Next compare actual native coefficient/observation/full-C construction against
+a mean-zero/even two-well certificate with a genuine quantitative barrier.
+Unrestricted uniform stability and the planar Gaussian lifting question are
+answered; they are not the next open tests.
+
 ## 2026-10-20: positive scalar response windows and Fisher transport
 
 [K1866](explorations/conditional-build/k1866-positive-scalar-screening-window-2026-10-20.md)

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: e968ae83c598f7194cceeb809efb1c89d950f070
+revision_basis: 550f8ce4eafa3dcc91028fb7e69934aede572361
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,18 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1868 constructs exact even-moment-preserving sign tilts with exponentially
+    small absolute Fisher excess but nonzero limiting TV, entropy and W2;
+    the actual oscillator gap has an exponential upper bound. No effective
+    onset, sharp tunneling law or effective mean-zero TV rate is claimed.
+    Mean-zero leading-optimal families do converge to the optimizer in TV.
+    K1869 classifies finite-energy planar-wall observation: a localized Gaussian
+    has no massless L2 lift despite no L2 wall zero mode. Exact cancellation,
+    gap and cutoff repairs and optimal approximation budgets are supplied.
+    These are independent mathematics and a conditional K1840 interface;
+    source, physics-ledger and canon verdicts unchanged.
+
+    Historical predecessor results at their original scope:
     K1866 proves a sharp two-scale response bound for fixed massless tensor
     plus positive scalar spectra and universal metric readout: trace removal at
     a nonzero long-wavelength scale forces shorter-scale Fourier slip at most1/2.
@@ -16131,6 +16143,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Construct actual native coefficients/observation and full coupled distortion
+  data on one geometry, or quantify mean-zero/even two-well Fisher stability.
+  K1868 and K1869 close unrestricted uniform endpoint stability and the exact
+  planar-wall finite-energy range, including their useful consumers.
+  Historical predecessor questions retained at their original scope:
   Which actual native source/readout and coupled distortion construction meets the common response demands? Positive scalar mass fitting in the fixed-tensor universal-metric class is now constrained at all two-scale pairs. Small-q Fisher entropy/transport and quadratic-loss certificates are complete; a two-well consumer requires a different functional inequality.
 
   Historical prior question/continuation at its original scope:
@@ -19249,6 +19266,12 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Compare a pairing-preserving native adapter with a quantitative mean-zero/even
+  two-well certificate; the former needs owned full coefficients and domain,
+  the latter an effective within-well gap or global signed dual. Reuse K1868
+  imbalance and K1869 range/budget proofs rather than repeat them. No new
+  source-selected wall, full GU physical quotient or sharp tunneling rate follows.
+  Historical predecessor conditions retained at their original scope:
   Construct the native pairing-preserving source/readout, full C row and common domain, or explicitly specify a nonlinear or tensor-changing realization before a new screening test. Reuse K1867 entropy/transport budgets; do not transfer strong log concavity to the two-well regime or demand arbitrary high-moment bounds from near optimality.
 
   Historical prior question/continuation at its original scope:

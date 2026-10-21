@@ -9,6 +9,9 @@ updated_at: "2026-08-21"
 
 ## October 20 research evidence
 
+- [K1868 Fisher two-well instability](k1868-fisher-two-well-instability-2026-10-20.md): exact sign tilts, exponentially small absolute excess and transport/spectral consequences.
+- [K1869 finite-energy wall range](conditional-build/k1869-wall-observation-finite-energy-range-2026-10-20.md): localized-packet obstruction, cancellation/gap repairs and optimal approximation budget.
+
 - [K1866 positive scalar response window](conditional-build/k1866-positive-scalar-screening-window-2026-10-20.md): sharp two-scale tradeoff and healthy cross-readout escape.
 - [K1867 Fisher transport and entropy](k1867-fisher-transport-entropy-certificate-2026-10-20.md): optimizer log concavity, exact deficit identity and finite quantile/quadratic-loss budgets.
 

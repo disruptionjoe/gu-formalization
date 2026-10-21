@@ -1,0 +1,28 @@
+{
+  "id": "K1869",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "grade": "analytic derivation with exact arithmetic controls; no formal or external acceptance",
+  "constants": {
+    "normal_factor": "12",
+    "speed_inverse": "24",
+    "mass_square_factor": "576",
+    "fourier_gaussian_norm_squared": "1",
+    "budget_J_coefficient": "1",
+    "budget_constant": "-1",
+    "error_linear": "1",
+    "error_J_coefficient": "-1"
+  },
+  "scope": {
+    "conditional_fixture": true,
+    "dense_proper_massless_range": true,
+    "gaussian_massless_finite_lift": false,
+    "schwartz_zero_mean_criterion": true,
+    "general_l2_zero_mean_sufficient": false,
+    "native_gu_wall": false,
+    "physical_chirality": false
+  },
+  "dependencies": {
+    "explorations/conditional-build/k1840-k77-conservative-variable-observation-2026-10-20.md": "4011ac324bda506d0aaab560689a26f80a9576764c5362aa3ea233c727c51873"
+  }
+}

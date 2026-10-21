@@ -2,6 +2,9 @@
 
 ## October 20 research evidence
 
+- `k1868_fisher_two_well_instability.py` and `_probe.py`: paired-density, exact moment, barrier, transport and spectral checks.
+- `k1869_wall_observation_finite_energy_range.py` and `_probe.py`: range-consumer integrals, cancellation and optimal budget checks.
+
 - `k1866_positive_scalar_screening_window.py` and `_probe.py`: tensor trace, continuum integrand, two-scale bounds and cross-readout controls.
 - `k1867_fisher_transport_entropy_certificate.py` and `_probe.py`: Riccati identity, moment-corrected information, transport constants and exact budgets.
 
