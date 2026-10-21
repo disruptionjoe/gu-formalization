@@ -8,6 +8,31 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-21: bounded rotation and support-energy reconstruction
+
+[K1887](explorations/conditional-build/k1887-bounded-variable-frame-rotation-2026-10-21.md)
+proves a dual-flux obstruction for bounded variable-frame solutions near the
+canonical rotating base. It excludes bounded O(R) branches and gives an explicit
+square-root-scale necessary departure, finite-interval growth and residual floors.
+It does not exclude distant bases, large nonlinear departures or local solutions.
+
+[K1888](explorations/conditional-build/k1888-bounded-support-energy-inverse-2026-10-21.md)
+uses the actual flux Gram and coupled conormal boundary to construct a bounded
+minimum-energy inverse on the four-charge complement. Exact compact lifts
+approach its minimum energy. The fixed-support error floor is approachable at
+finite energy; the full budget/error law and mass-independent cube inverse
+bounds follow. Whole-space scalar Fourier boundaries cannot be substituted.
+
+Analytic arguments carry the continuum claims; exact producer/probe controls and
+independent hostile review supplement them. These are active research results,
+without native GU identification, physical box dynamics, external expert acceptance,
+proof-assistant certification or novelty. Source/ledger/canon verdicts are unchanged.
+
+Next compare actual native adapters with noncanonical or finite-amplitude rotation;
+concrete support-energy numbers need the coupled-boundary spectrum. Scalar sextic
+spectral/next-order questions remain open. Earlier pending variable-frame tangent
+and support-energy questions below are historical at their stated scopes.
+
 ## 2026-10-21: hard-cell entropy, travelling phase and support bounds
 
 [K1884](explorations/k1884-hard-cell-fisher-entropy-2026-10-21.md)

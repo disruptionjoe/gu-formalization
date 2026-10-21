@@ -7,6 +7,16 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-21: BOUNDED ROTATION AND SUPPORT-ENERGY QUESTIONS ADVANCED.**
+> K1887 excludes bounded canonical-base perturbative rotating branches even with
+> variable frames and gives nonlinear distance, finite-interval and residual bounds.
+> K1888 supplies the actual bounded-support minimum-energy inverse, finite-budget
+> approximation law and coupled-boundary controls. Next compare noncanonical or
+> finite-amplitude rotation with native coefficient/domain adapters; concrete budget
+> values need coupled spectral data. Scalar sextic/next-order work remains distinct.
+> No physics verdict moves. Earlier requests below are historical at their scopes.
+
+
 > **2026-10-21: ENTROPY, PHASE AND SUPPORT BOUNDS ESTABLISHED.**
 > K1884 closes actual hard-cell forward entropy and its mixture/entropy consumers.
 > K1885 forces uniform travelling rotation and excludes the canonical massless

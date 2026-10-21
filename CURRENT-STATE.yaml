@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 70eff673589105083592e5e765c36d662421c947
+revision_basis: c22fb0f5039fbe5d2d4ccf1da2ee44d31dddba85
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,18 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1887 extends the canonical rotating-base obstruction to bounded variable-frame
+    coefficients: a dual-flux identity imposes an explicit nonlinear distance bound,
+    excludes bounded perturbative O(R) branches, and supplies finite-interval and
+    approximate-residual bounds. Distant or sufficiently large nonlinear branches
+    remain open. K1888 constructs the bounded-support minimum-energy inverse on the
+    four-charge complement with its actual coupled conormal boundary. Exact compact
+    lifts approach the graph-domain energy minimum; the fixed-support error floor
+    can be approached at finite source energy. Its full budget/error law and
+    mass-independent worst-case cube bounds are explicit. These are conditional
+    mathematical results, without native GU identification or changed physics verdicts.
+
+    Historical predecessor statements at their original scopes:
     K1884 bounds forward entropy of the actual three-well conditional profiles,
     transfers it to Gaussian mixtures, and proves an explicit differential-entropy
     asymptotic. Its k4 finite weighted KL bound is 0.00255. K1885 forces a
@@ -15474,6 +15486,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1887-bounded-variable-frame-rotation-2026-10-21.md
+    - lab/process/k1887-bounded-variable-frame-rotation.json
+    - tests/channel-swings/k1887_bounded_variable_frame_rotation.py
+    - tests/channel-swings/k1887_bounded_variable_frame_rotation_probe.py
+    - explorations/conditional-build/k1888-bounded-support-energy-inverse-2026-10-21.md
+    - lab/process/k1888-bounded-support-energy-inverse.json
+    - tests/channel-swings/k1888_bounded_support_energy_inverse.py
+    - tests/channel-swings/k1888_bounded_support_energy_inverse_probe.py
     - explorations/k1884-hard-cell-fisher-entropy-2026-10-21.md
     - lab/process/k1884-hard-cell-fisher-entropy.json
     - tests/channel-swings/k1884_hard_cell_fisher_entropy.py
@@ -16295,6 +16315,14 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Compare a genuinely noncanonical or finite-amplitude rotating factorization
+  with the actual native fullC/injection/pairing/domain adapter. Bounded O(R)
+  perturbation of the canonical base is now excluded even with variable frames.
+  The support-energy variational law is established; evaluating a concrete target
+  requires the actual coupled-boundary spectrum. Scalar sextic spectral or sharp
+  next-order questions remain separate.
+
+  Historical predecessor statements at their original scopes:
   Compare actual native fullC/injection/pairing/domain identification with
   noncanonical or variable-frame pure-mass uniform rotation. K1885 closes
   accelerated phases and the canonical massless constant-frame switch-on, not
@@ -19455,6 +19483,13 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  A rotating construction must evade K1887's explicit nonlinear distance bound,
+  solve all conservative equations, and supply its global bounded or periodic domain.
+  A native physics claim still needs the actual typed adapter. Numerical support-energy
+  budgets require the coupled conormal spectrum, not the auxiliary scalar Robin gap;
+  K1888's instantaneous preparation domain does not establish box evolution invariance.
+
+  Historical predecessor statements at their original scopes:
   A native claim needs the actual typed coefficient/domain adapter. A remaining
   rotating lift must solve full conservative factorization beyond K1885's excluded
   canonical branch; a positive Gram alone is insufficient. Scalar optimizer-relative

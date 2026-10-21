@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [K1887 Bounded variable-frame rotation](conditional-build/k1887-bounded-variable-frame-rotation-2026-10-21.md).
+- [K1888 Bounded-support energy inverse](conditional-build/k1888-bounded-support-energy-inverse-2026-10-21.md).
+
 - [K1884 hard-cell Fisher entropy](k1884-hard-cell-fisher-entropy-2026-10-21.md).
 - [K1885 travelling phase rigidity](conditional-build/k1885-traveling-phase-rigidity-and-frame-reduction-2026-10-21.md).
 - [K1886 support-bounded observation approximation](conditional-build/k1886-support-bounded-observation-approximation-2026-10-21.md).

@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [K1887 Bounded variable-frame rotation](k1887-bounded-variable-frame-rotation.json): exact inputs, controls and scope.
+- [K1888 Bounded-support energy inverse](k1888-bounded-support-energy-inverse.json): exact inputs, controls and scope.
+
 - [K1884 hard-cell Fisher entropy](k1884-hard-cell-fisher-entropy.json): exact inputs, controls and claim ceiling.
 - [K1885 travelling phase rigidity](k1885-traveling-phase-rigidity-and-frame-reduction.json): exact inputs, controls and claim ceiling.
 - [K1886 support-bounded observation approximation](k1886-support-bounded-observation-approximation.json): exact inputs, controls and claim ceiling.

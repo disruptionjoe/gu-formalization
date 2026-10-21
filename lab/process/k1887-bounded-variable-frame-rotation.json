@@ -1,0 +1,245 @@
+{
+  "result_id": "K1887",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "identities": {
+    "h": "omega/2",
+    "flux": "lambda_prime = h*R*v - <Y,s*c-R*B1*s>",
+    "nonlinear_distance": "abs(h*R*v) <= N_v*epsilon_s*(epsilon_c+abs(R))",
+    "equal_norm_floor": "(sqrt(R^2+4*abs(h*R*v)/N_v)-abs(R))/2",
+    "tangent_flux": "lambda_1_prime=h*v",
+    "finite_interval": "abs(h*R*v) <= 2*N_v*(t*epsilon_c+(abs(v)+1/24)*epsilon_s)/ell+N_v*epsilon_s*(epsilon_c+abs(R))",
+    "residual_floor": "max(0,abs(h*R*v)/N_v-epsilon_s*(epsilon_c+abs(R)))"
+  },
+  "blocks": [
+    {
+      "type": 0,
+      "dual_entries": [
+        [
+          4,
+          "-v/2"
+        ],
+        [
+          7,
+          "11/192 - v/4"
+        ],
+        [
+          8,
+          "v/4 + 11/192"
+        ],
+        [
+          11,
+          "1/16"
+        ],
+        [
+          12,
+          "-1/16"
+        ],
+        [
+          18,
+          "1/16"
+        ],
+        [
+          21,
+          "1/16"
+        ],
+        [
+          39,
+          "25/192"
+        ],
+        [
+          40,
+          "-25/192"
+        ]
+      ],
+      "dual_norm_squared": "(1152*v**2 + 517)/9216",
+      "T1_Frobenius_squared": "12888/625"
+    },
+    {
+      "type": 1,
+      "dual_entries": [
+        [
+          4,
+          "-v/2"
+        ],
+        [
+          7,
+          "11/192 - v/4"
+        ],
+        [
+          8,
+          "v/4 + 11/192"
+        ],
+        [
+          11,
+          "1/16"
+        ],
+        [
+          12,
+          "-1/16"
+        ],
+        [
+          18,
+          "1/8"
+        ],
+        [
+          21,
+          "1/8"
+        ],
+        [
+          39,
+          "25/192"
+        ],
+        [
+          40,
+          "-25/192"
+        ]
+      ],
+      "dual_norm_squared": "(1152*v**2 + 733)/9216",
+      "T1_Frobenius_squared": "12792/625"
+    },
+    {
+      "type": 2,
+      "dual_entries": [
+        [
+          4,
+          "-v/2"
+        ],
+        [
+          7,
+          "v/4 - 11/192"
+        ],
+        [
+          8,
+          "-v/4 - 11/192"
+        ],
+        [
+          11,
+          "-1/16"
+        ],
+        [
+          12,
+          "1/16"
+        ],
+        [
+          18,
+          "-1/8"
+        ],
+        [
+          21,
+          "-1/8"
+        ],
+        [
+          39,
+          "-25/192"
+        ],
+        [
+          40,
+          "25/192"
+        ]
+      ],
+      "dual_norm_squared": "(1152*v**2 + 733)/9216",
+      "T1_Frobenius_squared": "12792/625"
+    },
+    {
+      "type": 3,
+      "dual_entries": [
+        [
+          4,
+          "-v/2"
+        ],
+        [
+          7,
+          "v/4 - 11/192"
+        ],
+        [
+          8,
+          "-v/4 - 11/192"
+        ],
+        [
+          11,
+          "-1/16"
+        ],
+        [
+          12,
+          "1/16"
+        ],
+        [
+          18,
+          "-1/16"
+        ],
+        [
+          21,
+          "-1/16"
+        ],
+        [
+          39,
+          "-25/192"
+        ],
+        [
+          40,
+          "25/192"
+        ]
+      ],
+      "dual_norm_squared": "(1152*v**2 + 517)/9216",
+      "T1_Frobenius_squared": "12888/625"
+    }
+  ],
+  "scope": {
+    "fixed_pointwise_bank": true,
+    "bounded_whole_line_or_periodic": true,
+    "canonical_base": true,
+    "variable_frame_coefficients_allowed": true,
+    "no_bounded_differentiable_mass_branch": true,
+    "nonlinear_distance_is_necessary_only": true,
+    "local_lifts_excluded": false,
+    "all_rotating_lifts_excluded": false,
+    "square_root_branch_constructed": false,
+    "native_GU_identification": false,
+    "approximate_first_order_bank_covered": false
+  },
+  "checks": {
+    "all_direction_dual_0": true,
+    "all_speed_forcing_0": true,
+    "mass_operator_norm_one_0": true,
+    "dual_norm_0": true,
+    "leading_norm_0": true,
+    "static_repair_nonlinear_control_0": true,
+    "actual_static_slope_defect_0": true,
+    "scaled_bank_identity_0": true,
+    "all_direction_dual_1": true,
+    "all_speed_forcing_1": true,
+    "mass_operator_norm_one_1": true,
+    "dual_norm_1": true,
+    "leading_norm_1": true,
+    "static_repair_nonlinear_control_1": true,
+    "actual_static_slope_defect_1": true,
+    "scaled_bank_identity_1": true,
+    "all_direction_dual_2": true,
+    "all_speed_forcing_2": true,
+    "mass_operator_norm_one_2": true,
+    "dual_norm_2": true,
+    "leading_norm_2": true,
+    "static_repair_nonlinear_control_2": true,
+    "actual_static_slope_defect_2": true,
+    "scaled_bank_identity_2": true,
+    "all_direction_dual_3": true,
+    "all_speed_forcing_3": true,
+    "mass_operator_norm_one_3": true,
+    "dual_norm_3": true,
+    "leading_norm_3": true,
+    "static_repair_nonlinear_control_3": true,
+    "actual_static_slope_defect_3": true,
+    "scaled_bank_identity_3": true,
+    "quadratic_distance_root": true,
+    "positive_rationalized_distance_root": true
+  },
+  "inputs": {
+    "lab/process/k1832-k77-common-energy-form.json": "50521381c0281b5e3327a4bc938367f38f982761823b6c5950e4f0a4ef950993",
+    "lab/process/k1836-k77-differential-dirac-quotient.json": "dc6c770abbbc55acdbe104e27a4441bbecb19493c18f7c319a2ae5ccfa564d7a",
+    "lab/process/k1840-k77-conservative-variable-observation.json": "5c5d0b4ed4e52f51389f6f22fbb9197beec29d0f530232aa2e736b92c989d1dd",
+    "lab/process/k1885-traveling-phase-rigidity-and-frame-reduction.json": "b02054120094b6ca6870fcbfa530758a0a3b96357c4da1e5dea575ddfea4852f",
+    "tests/channel-swings/k1885_traveling_phase_rigidity_and_frame_reduction.py": "52fb7794090c3cca1f7a4bd11dbc952d189419fea7e66882653e62ac5c9e25bc"
+  }
+}
