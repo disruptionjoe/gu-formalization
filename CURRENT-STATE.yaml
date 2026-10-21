@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 70a132c5e561c1887d807bd76913ac3de11ce923
+revision_basis: c63c846f7f619301f2373e7ef05a51545e8ffc87
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,19 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1893 classifies full versus even finite CAR Hamiltonian shielding and
+    constructs genuine bounded hidden quartic CAR dynamics in the actual K1892
+    continuum split, preserving observed fields exactly. K1894 independently
+    constructs a finite quantum cascade with one-way all-state autonomy,
+    entanglement and parity-correct encoding; exact unitary full-factor autonomy
+    forces split generators. A quantitative noise bound and informative
+    center-only readout distinguish quantum coherence from classical protection.
+    Bounded continuum CAR dynamics extend the cascade, but a remote even-pair
+    countercontrol proves a nonlocal jump violates the target causal cone;
+    subsystem autonomy is weaker than spacetime locality.
+    These are conditional imported quantum structures, not native full20,
+    physical positive-energy vacuum or continuum dissipative GU dynamics.
+    Source/physics-ledger/canon verdicts unchanged. Historical preceding results:
     K1891 constructs compatible massive/tangential slab evolution boundaries
     and the closed observation Gram, including static normal mass profiles.
     Exact constant-mass spectra, profile gap bounds and dynamical inverses follow;
@@ -15511,6 +15524,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1893-quantum-hamiltonian-shielding-2026-10-21.md
+    - lab/process/k1893-quantum-hamiltonian-shielding.json
+    - tests/channel-swings/k1893_quantum_hamiltonian_shielding.py
+    - tests/channel-swings/k1893_quantum_hamiltonian_shielding_probe.py
+    - explorations/conditional-build/k1894-semicausal-quantum-dynamics-2026-10-21.md
+    - lab/process/k1894-semicausal-quantum-dynamics.json
+    - tests/channel-swings/k1894_semicausal_quantum_dynamics.py
+    - tests/channel-swings/k1894_semicausal_quantum_dynamics_probe.py
     - explorations/conditional-build/k1891-massive-boundary-observation-2026-10-21.md
     - lab/process/k1891-massive-boundary-observation.json
     - tests/channel-swings/k1891_massive_boundary_observation.py
@@ -16356,6 +16377,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Compare actual native full20/injection/K-C pairing and accessible-observable
+  data with a spatially local continuum quantum interaction that changes the
+  observed dynamics, with its operational noise and causal domain specified.
+  Finite Hamiltonian/full-even and GKLS unitary-autonomy questions are now
+  resolved; bounded hidden continuum CAR interactions preserve the target law.
+
+  Historical completed predecessor continuation:
   Compare a typed native fullC/injection/pairing/observable adapter with concrete
   nonlinear quantum interactions beyond the solved invisible-sector classical
   coupling, or a native identification of accessible local observables.
@@ -19539,6 +19567,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Specify the observable algebra, actual interaction and domain before
+  transferring the finite cascade to a continuum source model. Distinguish
+  exact unitary shielding, noisy quantum autonomy and classical-center readout;
+  positive CAR state transport is not a positive-energy vacuum theorem. Native
+  attribution still needs the full20/injection/K-C/accessibility adapter.
+  Retain noncanonical rotation, three-wall spectra and scalar sextic alternatives.
+
+  Historical completed predecessor continuation:
   Test a specified quantum interaction that couples visible and hidden sectors,
   or construct the native fullC/injection/pairing and accessible-observable adapter.
   Do not reuse a classical nonlinear one-particle flow as a CAR automorphism.

@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [K1893 Hamiltonian shielding and hidden quartic CAR dynamics](conditional-build/k1893-quantum-hamiltonian-shielding-2026-10-21.md).
+- [K1894 one-way quantum dynamics and the noise boundary](conditional-build/k1894-semicausal-quantum-dynamics-2026-10-21.md).
+
 - [K1891 massive slab domains, profile bounds and dynamical spectrum](conditional-build/k1891-massive-boundary-observation-2026-10-21.md).
 - [K1892 conditional causal algebra, state extensions and fast leakage](conditional-build/k1892-causal-observation-algebra-2026-10-21.md).
 

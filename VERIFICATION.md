@@ -7,6 +7,36 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-21: quantum shielding and one-way quantum dynamics
+
+[K1893](explorations/conditional-build/k1893-quantum-hamiltonian-shielding-2026-10-21.md)
+classifies finite Hamiltonians preserving a full versus even observed CAR algebra.
+The full algebra forces a split Hamiltonian; the even algebra admits parity-controlled
+hidden interactions. A genuine bounded hidden quartic CAR perturbation also exists
+in K1892's actual continuum Hilbert splitting and preserves the entire observed
+field evolution and its causal cone. This is distinct from the earlier classical
+nonlinear flow; positive algebraic states do not establish positive energy.
+
+[K1894](explorations/conditional-build/k1894-semicausal-quantum-dynamics-2026-10-21.md)
+constructs an exactly solved one-way GKLS cascade with a noisy autonomous quantum
+marginal and entanglement, including a parity-correct dual-rail CAR realization.
+An exactly unitary autonomous full factor instead forces split generators. A
+uniform near-unitarity assumption bounds dissipative noncommutation; an informative
+classical-center readout preserves Z while damping X/Y and saturates the bound.
+All-state identities include correlated inputs. A bounded continuum CAR extension
+also exists, but an explicit even-pair intervention exposes instantaneous response
+for a nonlocal finite-rank jump. Subsystem autonomy therefore does not establish
+spacetime locality. No local continuum GU interaction or derived bath is supplied.
+
+Analytic commutant, bounded-cocycle and positive-dissipation proofs carry the general
+claims; exact producers and independent matrix-unit/partial-trace probes supplement
+them. No novelty, external-expert, proof-assistant or native GU credit is claimed.
+Source/physics-ledger/canon verdicts remain unchanged. Next compare a typed native
+full20/injection/pairing/accessibility adapter with a spatially local continuum
+interaction that changes the observed dynamics, specifying its operational noise
+and causal domain. Global parity, arbitrary unbounded interactions, positive energy,
+noncanonical rotation, three-wall domains and scalar sextic results remain open.
+
 ## 2026-10-21: massive observation domains and causal field algebra
 
 [K1891](explorations/conditional-build/k1891-massive-boundary-observation-2026-10-21.md)

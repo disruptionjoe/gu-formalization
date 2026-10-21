@@ -1,5 +1,8 @@
 # Pre-contract wave probes
 
+- [K1893 Hamiltonian shielding and hidden quartic CAR dynamics](k1893_quantum_hamiltonian_shielding.py).
+- [K1894 one-way quantum dynamics and the noise boundary](k1894_semicausal_quantum_dynamics.py).
+
 - [K1891 massive slab domains, profile bounds and dynamical spectrum](k1891_massive_boundary_observation.py).
 - [K1892 conditional causal algebra, state extensions and fast leakage](k1892_causal_observation_algebra.py).
 

@@ -1,0 +1,131 @@
+{
+  "result_id": "K1894",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "cascade": {
+    "H": {
+      "rows": 4,
+      "columns": 4,
+      "entries": [
+        [
+          1,
+          2,
+          "-I/2"
+        ],
+        [
+          2,
+          1,
+          "I/2"
+        ]
+      ]
+    },
+    "L": {
+      "rows": 4,
+      "columns": 4,
+      "entries": [
+        [
+          0,
+          1,
+          "1"
+        ],
+        [
+          0,
+          2,
+          "1"
+        ],
+        [
+          1,
+          3,
+          "1"
+        ],
+        [
+          2,
+          3,
+          "1"
+        ]
+      ]
+    },
+    "rho": "exp(-t)(|10>-t|01>)(<10|-t<01|)+(1-(1+t^2)exp(-t))|00><00|",
+    "visible_excitation": "exp(-t)",
+    "hidden_excitation": "t**2*exp(-t)",
+    "partial_transpose_minor": "-t^2 exp(-2t)",
+    "source_to_hidden": true,
+    "hidden_to_source": false
+  },
+  "rigidity": {
+    "unitary_factor_marginal": "all jumps in factor commutant; Hamiltonian splits",
+    "approximate": "sum ||[Lk,U]psi||^2 <= 2 epsilon for observed unitary U and unit psi under uniform generator error epsilon",
+    "center_exception": "Z observable unchanged; X,Y decay at rate2; hidden X derivative -2 for Z+ and +2 for Z-"
+  },
+  "fermionic_encoding": {
+    "rows": 16,
+    "columns": 4,
+    "entries": [
+      [
+        5,
+        3,
+        "1"
+      ],
+      [
+        6,
+        2,
+        "1"
+      ],
+      [
+        9,
+        1,
+        "1"
+      ],
+      [
+        10,
+        0,
+        "1"
+      ]
+    ]
+  },
+  "scope": {
+    "GKLS_imported": true,
+    "finite_factor": true,
+    "bounded_nonlocal_continuum_extension": true,
+    "local_spacetime_interacting_model": false,
+    "native_GU": false
+  },
+  "checks": {
+    "Hermitian_H": true,
+    "all_matrix_units_autonomous_00": true,
+    "positive_dissipation_00": true,
+    "all_matrix_units_autonomous_01": true,
+    "positive_dissipation_01": true,
+    "all_matrix_units_autonomous_10": true,
+    "positive_dissipation_10": true,
+    "all_matrix_units_autonomous_11": true,
+    "positive_dissipation_11": true,
+    "wrong_sign_detected": true,
+    "dissipator_alone_not_cascade": true,
+    "exact_cascade_master_solution": true,
+    "initial_excited_visible": true,
+    "trace_one": true,
+    "positive_ground_weight_derivative": true,
+    "visible_decay": true,
+    "transfer_peak": true,
+    "hidden_transfer": true,
+    "entanglement_PT_minor": true,
+    "center_protected": true,
+    "coherence_cost": true,
+    "forward_readout_nonzero": true,
+    "disturbance_bound_saturated": true,
+    "dualrail_isometry": true,
+    "dualrail_exact_jump": true,
+    "dualrail_exact_H": true,
+    "CAR_even": true,
+    "dualrail_reducing": true,
+    "nonlocal_jump_rate": true,
+    "even_pair_remote_signal": true,
+    "nonlocal_jump_even": true
+  },
+  "inputs": {
+    "lab/process/k1892-causal-observation-algebra.json": "4baeb40c972f10872a93a1e985abdfc6eac5e10502577282db173ffb492ec1ce",
+    "explorations/conditional-build/k115-k114-feed-forward-nonequilibrium-detector-wave-2026-09-03.md": "4161ccec8481fa6915c91c3f3a3bc3512c96551ed85fc4a2069b6a3fe840a573"
+  }
+}

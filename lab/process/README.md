@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [K1893 Hamiltonian shielding and hidden quartic CAR dynamics](k1893-quantum-hamiltonian-shielding.json).
+- [K1894 one-way quantum dynamics and the noise boundary](k1894-semicausal-quantum-dynamics.json).
+
 - [K1891 massive slab domains, profile bounds and dynamical spectrum](k1891-massive-boundary-observation.json).
 - [K1892 conditional causal algebra, state extensions and fast leakage](k1892-causal-observation-algebra.json).
 

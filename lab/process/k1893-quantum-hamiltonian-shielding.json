@@ -1,0 +1,136 @@
+{
+  "result_id": "K1893",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "dimensions": {
+    "full": 16,
+    "even": 32,
+    "full_total_even": 8,
+    "even_total_even": 16
+  },
+  "finite_modes": {
+    "visible": 2,
+    "hidden": 2
+  },
+  "witnesses": {
+    "hidden_quartic": {
+      "rows": 16,
+      "columns": 16,
+      "entries": [
+        [
+          3,
+          3,
+          "1"
+        ],
+        [
+          7,
+          7,
+          "1"
+        ],
+        [
+          11,
+          11,
+          "1"
+        ],
+        [
+          15,
+          15,
+          "1"
+        ]
+      ]
+    },
+    "parity_controlled_quartic": {
+      "rows": 16,
+      "columns": 16,
+      "entries": [
+        [
+          3,
+          3,
+          "1"
+        ],
+        [
+          7,
+          7,
+          "-1"
+        ],
+        [
+          11,
+          11,
+          "-1"
+        ],
+        [
+          15,
+          15,
+          "1"
+        ]
+      ]
+    },
+    "density_leak_commutator": {
+      "rows": 16,
+      "columns": 16,
+      "entries": [
+        [
+          10,
+          6,
+          "1"
+        ],
+        [
+          11,
+          7,
+          "1"
+        ]
+      ]
+    }
+  },
+  "theorems": {
+    "full": "H-Hv tensor I = I tensor Kh",
+    "even": "H-Hv tensor I = Pplus tensor Kplus + Pminus tensor Kminus; Kplus/minus even under total parity",
+    "continuum": "Every bounded even hidden CAR perturbation preserves the entire K1892 target evolution; no bounded-below energy asserted"
+  },
+  "scope": {
+    "finite_classification": true,
+    "continuum_hidden_bounded_construction": true,
+    "all_interacting_GU": false,
+    "global_visible_parity_in_quasilocal_CAR": false
+  },
+  "checks": {
+    "CAR_0_0": true,
+    "CAR_0_1": true,
+    "CAR_0_2": true,
+    "CAR_0_3": true,
+    "CAR_1_0": true,
+    "CAR_1_1": true,
+    "CAR_1_2": true,
+    "CAR_1_3": true,
+    "CAR_2_0": true,
+    "CAR_2_1": true,
+    "CAR_2_2": true,
+    "CAR_2_3": true,
+    "CAR_3_0": true,
+    "CAR_3_1": true,
+    "CAR_3_2": true,
+    "CAR_3_3": true,
+    "hidden_quartic_commutes_full_0": true,
+    "hidden_quartic_commutes_full_1": true,
+    "hidden_quartic_not_quadratic": true,
+    "quartic_projection": true,
+    "parity_coupling_even_only": true,
+    "density_interaction_breaks_even": true,
+    "total_number_not_even_shield": true,
+    "all_test_interactions_total_even": true,
+    "commutant_dimensions": true,
+    "parity_odd_rotation": true,
+    "logical_readout_even": true,
+    "parity_readout_distinguishes": true,
+    "perfect_parity_readout": true,
+    "parity_products_not_norm_Cauchy": true,
+    "actual_local_hidden_basis_0": true,
+    "actual_local_hidden_basis_1": true,
+    "actual_local_hidden_basis_2": true,
+    "actual_local_hidden_basis_3": true
+  },
+  "inputs": {
+    "lab/process/k1892-causal-observation-algebra.json": "4baeb40c972f10872a93a1e985abdfc6eac5e10502577282db173ffb492ec1ce"
+  }
+}
