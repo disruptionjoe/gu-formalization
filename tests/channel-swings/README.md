@@ -2,6 +2,9 @@
 
 ## October 20 research evidence
 
+- `k1874_fisher_sixth_moment_cap.py` and `_probe.py`: exact moments, score projection, budget constants and input faults.
+- `k1875_nonlinear_moving_zero_obstruction.py` and `_probe.py`: nonlinear residuals, full-bank/Gram reconstruction and profile controls.
+
 - `k1870_fisher_effective_two_well_stability.py` and `_probe.py`: cutoff/oscillator constants, rational error budgets and input faults.
 - `k1871_separated_mass_observation.py` and `_probe.py`: full axis repairs/cross residuals, independent jets, line and budget controls.
 

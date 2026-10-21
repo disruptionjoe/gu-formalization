@@ -7,6 +7,16 @@ updated_at: "2026-10-20"
 
 # Next Steps For Contributors
 
+> **2026-10-20: CAPPED FISHER OPTIMIZER AND NONLINEAR ZERO TEST COMPLETE.**
+> K1874 gives attained unique sextic optimization, sharp large-cap cost and
+> finite accuracy budgets above Gaussian kurtosis. K1875 excludes moving
+> zero crossings in the C1 zero-normalized mass-local class, including
+> individual profiles; offsets and derivative dependence remain distinct.
+> Next test a specified affine-offset kink with the full Gram freedoms or
+> an actual native coefficient/pairing/domain adapter. A scalar successor
+> needs a certified practical sextic value/gap, not another existence proof.
+> Earlier broader nonlinear requests below are historical at their scopes.
+
 > **2026-10-20: FIXED-PARAMETER ACCURACY AND MOVING-PROFILE TEST COMPLETE.**
 > K1872 gives an explicit full-line Fisher deficit modulus for every1<k<3,
 > including unbalanced competitors; its exponential constants are conservative.

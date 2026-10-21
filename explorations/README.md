@@ -9,6 +9,9 @@ updated_at: "2026-08-21"
 
 ## October 20 research evidence
 
+- [K1874 sixth-moment Fisher cap](k1874-fisher-sixth-moment-cap-2026-10-20.md): attained unique sextic minimum and sharp tail-budget cost.
+- [K1875 nonlinear moving zeros](conditional-build/k1875-nonlinear-moving-zero-obstruction-2026-10-20.md): mass-local zero/tail obstruction and full-offset Gram countercontrol.
+
 - [K1870 effective balanced two-well accuracy](k1870-fisher-effective-two-well-stability-2026-10-20.md): explicit TV/local-Gaussian bounds and finite product budgets.
 - [K1871 separated mass observations](conditional-build/k1871-separated-mass-observation-2026-10-20.md): two-axis compatibility, line localization, range and gap threshold.
 

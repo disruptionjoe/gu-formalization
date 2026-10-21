@@ -8,7 +8,46 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-## 2026-10-20: full-line Fisher accuracy and traveling-profile compatibility
+## 2026-10-20: sharp finite-tail Fisher cost and nonlinear moving zeros
+
+[K1874](explorations/k1874-fisher-sixth-moment-cap-2026-10-20.md) proves
+that for raw second moment1, fourth moment k>3 and sixth cap M, feasibility
+is exactly M>k². The minimum is attained by a unique positive even sextic
+ground-state density, every minimizer saturates the cap, and
+`1+(k-3)²/(M-k²)<V(k,M)<=1/(1-t)` with an exact monotone trial budget M(t).
+Thus M(V-1) tends(k-3)². Executed rational accuracy brackets, sharp budget
+scaling, atomic/Gaussian limits, cap-slack and actual-optimizer spectral
+accuracy formulas. The sextic multiplier is strictly positive; its numerical
+value and spectral gap remain uncomputed. No novelty or GU physics claim.
+
+[K1875](explorations/conditional-build/k1875-nonlinear-moving-zero-obstruction-2026-10-20.md)
+uses the full conservative tangent bank to show that C1 mass-local coefficient
+curves vanishing at mass0, with nonzero target mass-plane tangent and nonzero
+speed, force |m'|<=K m² near0. Individual nonconstant profiles cannot reach0
+at finite coordinates or have faster-than-reciprocal zero tails. Static and
+constant controls survive. Constant-triple Riccati profiles are either constant
+or have a finite pole; no nonconstant full-line solution in that subclass.
+All affine offsets with a static-compatible slope also fail for a kink;
+the general affine case reduces to192 quadratic equations in76 free coordinates.
+General offsets, derivative dependence and changed symbols remain open. A
+full-bank Gram shortcut fails: even B=0 permits four independent first-
+derivative coefficients, so a scalar Schrödinger Gram form cannot be assumed.
+
+K1874:24 symbolic groups+2pins; separate201 rational controls,8 mathematical
+input/reference faults and4 reporting faults. K1875:70 exact groups+5pins;
+separate60 new controls,5 mathematical faults and4 reporting faults; upstream
+K1873's188 coefficientwise groups/7 mathematical+4 reporting faults replayed.
+Analytic compactness/multiplier/ODE arguments own the continuum transfer;
+no proof-assistant or external-expert verification claimed. SC-OP-04/MAS-01/
+CHI-02 ASSERTS candidate/stylized; SC-OP-05/META-53 UNCERTAIN. Source,
+physics-ledger and canon verdicts unchanged.
+
+Next compare an actual native coefficient/pairing/domain adapter with a
+specified affine-offset fixed-symbol kink, preserving the four Gram freedoms.
+For scalar continuation, certify an actual sextic value/gap at a stated
+accuracy rather than repeat existence or infer a numerical gap from uniqueness.
+
+## Historical 2026-10-20: full-line Fisher accuracy and traveling-profile compatibility
 
 [K1872](explorations/k1872-fisher-global-deficit-modulus-2026-10-20.md)
 proves gamma_full>exp(-488/delta), delta=k-1 in(0,2), for the ACTUAL

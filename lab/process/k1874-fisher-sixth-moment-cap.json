@@ -1,0 +1,63 @@
+{
+  "result_id": "K1874",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "formula": {
+    "delta": "k-3",
+    "cap_coefficients": [
+      "1",
+      "15",
+      "15",
+      "-9",
+      "-6"
+    ],
+    "moment_shift": 3,
+    "projection_coefficient": "k",
+    "lower_denominator": "M-k^2",
+    "sharp_large_cap_coefficient": "(k-3)^2"
+  },
+  "scope": {
+    "k_gt_3": true,
+    "raw_moments": true,
+    "sixth_constraint": "inequality",
+    "attained": true,
+    "all_minimizers_saturate_cap": true,
+    "even_minimizer_exists": true,
+    "uniqueness_proved": true,
+    "positive_sextic_multiplier": true,
+    "computed_gap": false,
+    "mixture_fisher_is_exact": false,
+    "GU_physics": false
+  },
+  "checks": {
+    "second_moment": true,
+    "fourth_moment": true,
+    "sixth_moment": true,
+    "cap_derivative": true,
+    "endpoint_atomic_cap": true,
+    "sharp_upper_limit": true,
+    "sharp_lower_limit": true,
+    "projected_score_norm": true,
+    "projected_score_pairing": true,
+    "weight_complement": true,
+    "fisher_excess_upper": true,
+    "accuracy_trial": true,
+    "budget_sharp_limit": true,
+    "k4_M100_trial": true,
+    "k4_M100_upper_excess": true,
+    "k4_M100_lower_excess": true,
+    "k4_one_percent_trial": true,
+    "k4_one_percent_necessary": true,
+    "equality_score": true,
+    "atomic_outer_weight": true,
+    "atomic_fourth": true,
+    "atomic_sixth": true,
+    "cap_energy_excess": true,
+    "ground_state_identity": true
+  },
+  "inputs": {
+    "explorations/k1856-fisher-tail-phase-2026-10-20.md": "6ad99b6c1731393e7c3880f34103a2209b58f416fec418b34789b030a88a1adc",
+    "explorations/k1855-fisher-gaussian-endpoint-2026-10-20.md": "f6bd0f81bd2a6f75871355c5d3105cc571374e3504f31f73f3d06d38ff8c853d"
+  }
+}

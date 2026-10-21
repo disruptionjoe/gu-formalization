@@ -9,6 +9,9 @@ updated_at: "2026-08-23"
 
 ## October 20 research evidence
 
+- `k1874-fisher-sixth-moment-cap.json`: exact cap/moment constants, optimizer scope and dependency pins.
+- `k1875-nonlinear-moving-zero-obstruction.json`: nonlinear residual, Gram countercontrol and precise obstruction scope.
+
 - `k1870-fisher-effective-two-well-stability.json`: explicit endpoint constants, finite accuracy and claim ceilings.
 - `k1871-separated-mass-observation.json`: all coordinate-type repairs, cross residuals and line projectors.
 
