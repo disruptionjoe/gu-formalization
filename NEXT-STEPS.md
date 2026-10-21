@@ -7,6 +7,16 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-21: FRESH CELLS AND THERMAL PREPARATION.** K1911 closes an explicit
+> repeated-cell process construction with operational error, finite-circuit
+> nonclassicality and separate drive/energy costs. K1912 closes exact extreme
+> endpoint support feasibility and supplies thermal error/cooling bounds with
+> constructive repairs. Native full20/K/C/accessibility, actual spatial coupling
+> and sharp scalar amplitude control now compete with a sharp thermal optimizer.
+> Do not repeat pure-bath endpoint energy or the new support theorem; neither
+> provides physical preparation, clock, transport or reset. Source/ledger/canon
+> unchanged. Earlier continuation wording below is historical at these scopes.
+
 > **2026-10-21: POISSON CLASSICALITY AND BATH RESOURCE LIMITS.** K1909
 > certifies a nonclassical early Poisson interval and an explicit noisy repair.
 > K1910 solves finite pure-bath endpoint energy and worst-input qubit design,

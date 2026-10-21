@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 01a783481d9f4e3a03c4cb369fd7740777e05016
+revision_basis: 995901c205686831c88994ef34e61f1ef7bde895
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,19 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1911 constructs exact three-state fresh-cell steps, proves diamond error
+    at most 2*t*h for the Poisson semigroup, and gives a finite fifteen-cell
+    nonclassical circuit. The required drive scales as h^(-1/2), while emitted
+    endpoint energy remains finite; clock, preparation and reset are not priced.
+    K1912 proves d >= rank(C)*rank(rho) exactly characterizes controlled bath
+    support for an extreme correlation endpoint. Faithful finite baths cannot
+    realize the rank-two target exactly. A quantitative thermal-bandwidth floor,
+    nonfaithful mixed-state saturation, faithful nonclassical repair and finite
+    thirty-cell thermal-plus-pure-flag circuit are explicit. No native GU,
+    spatial field, sharp thermal optimum or total thermodynamic-cost claim.
+    Source, physics-ledger and canon verdicts remain unchanged.
+
+    Historical predecessor result/continuation:
     K1909 certifies nonclassicality of the four-mode Poisson collision semigroup
     for0<t<1/55 by an exact rational polynomial Gram certificate, with a bounded
     observable margin and explicit sufficiently noisy all-time classical repair.
@@ -15597,6 +15610,8 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1911-fresh-cell-dephasing-dynamics-2026-10-21.md
+    - explorations/conditional-build/k1912-faithful-bath-dephasing-boundary-2026-10-21.md
     - explorations/conditional-build/k1909-poisson-phase-classification-2026-10-21.md
     - lab/process/k1909-poisson-phase-classification.json
     - explorations/conditional-build/k1910-minimal-dephasing-bath-energy-2026-10-21.md
@@ -16510,6 +16525,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Compare an actual native full20/K/C/accessibility or spatial coupling
+  construction with sharp amplitude-constrained scalar control. Fresh-cell
+  Markov approximation and faithful finite-bath endpoint feasibility now have
+  explicit resource theorems; further finite-bath work should address a sharp
+  thermal approximation optimum or a specified field/transport model.
+
+  Historical predecessor question:
   Compare a genuine native full20 injection with separate K/C and accessible
   algebra against a specified local bath or fresh-cell dilation with explicit
   control/energy accounting. The old Poisson early-time question and the
@@ -19745,6 +19767,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  A native interpretation still needs the full20 injection, separate K/C
+  and accessible-algebra map. For a physical bath realization supply spatial
+  transport, preparation, clock and reset costs beyond the finite collision
+  controls. A sharp thermal approximation requires an optimizer matching the
+  witness floor; current necessary and sufficient bounds do not coincide.
+  Sharp joint spacetime scalar reachability remains an independent alternative.
+  Retain phase-aware complex distance, rotation, three-wall, sextic/optimizer,
+  mirror/full-II and normal-jet debts; no automatic reuse of solved gates.
+
+  Historical predecessor condition:
   For an exact dynamical bath realization, supply its actual reservoir/time
   structure: finite pure-bath endpoints need four dimensions, bounded smooth
   start is excluded, and autonomous finite-bath recurrence forbids all-time

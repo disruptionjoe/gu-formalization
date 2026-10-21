@@ -7,6 +7,35 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+
+## 2026-10-21: Fresh-cell dynamics and faithful-bath limits
+
+[K1911](explorations/conditional-build/k1911-fresh-cell-dephasing-dynamics-2026-10-21.md)
+constructs exact qutrit collision steps and proves diamond error at most
+2*t*h from the Poisson semigroup. Fifteen finite cells give a certified
+nonclassical output. Drive amplitude diverges as h^(-1/2) in the continuous
+limit, but emitted endpoint energy stays finite; preparation, clock and
+reset are separate resources. Uniform-input optimized energy flux reuses
+K1910's coefficient (11-3sqrt2)/16.
+
+[K1912](explorations/conditional-build/k1912-faithful-bath-dephasing-boundary-2026-10-21.md)
+proves the exact support criterion d>=rank(C)*rank(rho) for an extreme
+correlation endpoint and rules out faithful finite-bath exact realization
+of this rank-two target. It derives an explicit thermal-bandwidth error
+floor, supplies a mixed nonfaithful saturating construction, and exhibits
+faithful nonclassical approximants. A finite thirty-cell construction uses
+thermal qubits PLUS explicitly pure flags. The support condition needs
+extremality: a maximally mixed qubit with Pauli operations produces I4.
+
+Analytic proofs carry general scope; exact producers and independent finite
+probes test matrices, bounds and real input faults. No novelty, external
+review, formal proof, native GU, spatial bath or total-cost claim. Source,
+physics-ledger and canon verdicts are unchanged. Next compare actual native
+or spatial coupling data and sharp scalar amplitude control with a sharp
+thermal approximation optimizer. Older fresh-cell/faithful-bath questions
+below are historical; phase, geometry and scalar debts remain.
+
+
 ## 2026-10-21: certified Poisson phase boundary and optimal bath resources
 
 [K1909](explorations/conditional-build/k1909-poisson-phase-classification-2026-10-21.md)

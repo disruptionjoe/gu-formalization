@@ -1,0 +1,17 @@
+{
+  "target_rank": 2,
+  "support_dimension_condition": "d>=rank(C)*rank(rho)",
+  "faithful_finite_exact_realization": false,
+  "tracial_witness_minimum": "6-4*sqrt(2)",
+  "thermal_entry_error_floor": "d*lambda_min(rho)*(6-4*sqrt(2))/(10*sqrt(2))",
+  "bandwidth_floor": "exp(-beta*Delta)*(6-4*sqrt(2))/(10*sqrt(2))",
+  "thermal_repair_witness": "4*q",
+  "thermal_nonclassical_sufficient": "q<(6-4*sqrt(2))/4",
+  "process_diamond_error": "2*t*q",
+  "thirty_cell_trace_distance_margin": "7/4646400",
+  "math_checks": 23,
+  "dependency_sha256": {
+    "explorations/conditional-build/k1903-quantum-dephasing-witness-2026-10-21.md": "9efc2a21d020821a02f813d36d3dfd53f82e21db2ebe50c3e64b87c9409feea4",
+    "explorations/conditional-build/k1909-poisson-phase-classification-2026-10-21.md": "ef4ecaa731086274f241cb6bf15d0fa1c5e5cf51c5d9d06b24d5c68c1e72555c"
+  }
+}

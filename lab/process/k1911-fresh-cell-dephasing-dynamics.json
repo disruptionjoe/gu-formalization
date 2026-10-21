@@ -1,0 +1,15 @@
+{
+  "cell_dimension": 3,
+  "step_correlation": "(1-h)*J+h*C",
+  "diamond_error": "2*t*h",
+  "fifteen_cell_h": "1/1650",
+  "fifteen_cell_trace_distance_margin": "1/5808000",
+  "simple_energy_flux_over_gap": 1,
+  "uniform_optimized_energy_flux_over_gap": "(11-3*sqrt(2))/16",
+  "control_scaling": "h^(-1/2); prefactor not optimized",
+  "math_checks": 33,
+  "dependency_sha256": {
+    "explorations/conditional-build/k1909-poisson-phase-classification-2026-10-21.md": "ef4ecaa731086274f241cb6bf15d0fa1c5e5cf51c5d9d06b24d5c68c1e72555c",
+    "explorations/conditional-build/k1910-minimal-dephasing-bath-energy-2026-10-21.md": "8cbbc2e97620bcfb0a3e3b88281ae8b3f2a3f9a2457e0f331f219def7c470513"
+  }
+}

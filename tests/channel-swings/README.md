@@ -1,5 +1,7 @@
 # Pre-contract wave probes
 
+- K1911/K1912: `k1911_fresh_cell_dephasing_dynamics{,_probe}.py` and `k1912_faithful_bath_dephasing_boundary{,_probe}.py` check exact collision, support and thermal controls. General proofs live in their research notes.
+
 - [K1909 producer](k1909_poisson_phase_classification.py).
 - [K1909 independent probe](k1909_poisson_phase_classification_probe.py).
 - [K1910 producer](k1910_minimal_dephasing_bath_energy.py).

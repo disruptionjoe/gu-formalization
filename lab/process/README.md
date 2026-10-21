@@ -7,6 +7,8 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [K1911 exact report](k1911-fresh-cell-dephasing-dynamics.json) and [K1912 exact report](k1912-faithful-bath-dephasing-boundary.json): reproducibility evidence for the matching conditional research notes.
+
 - [K1909 exact evidence](k1909-poisson-phase-classification.json).
 - [K1910 exact evidence](k1910-minimal-dephasing-bath-energy.json).
 
