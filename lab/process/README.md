@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [K1895 causal continuum phase noise and coherence](k1895-causal-local-phase-noise.json).
+- [K1896 phase-kick vacuum boundary and smooth-pulse repair](k1896-local-phase-vacuum-boundary.json).
+
 - [K1893 Hamiltonian shielding and hidden quartic CAR dynamics](k1893-quantum-hamiltonian-shielding.json).
 - [K1894 one-way quantum dynamics and the noise boundary](k1894-semicausal-quantum-dynamics.json).
 

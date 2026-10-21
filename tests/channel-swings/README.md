@@ -1,5 +1,8 @@
 # Pre-contract wave probes
 
+- [K1895 causal continuum phase noise and coherence](k1895_causal_local_phase_noise.py).
+- [K1896 phase-kick vacuum boundary and smooth-pulse repair](k1896_local_phase_vacuum_boundary.py).
+
 - [K1893 Hamiltonian shielding and hidden quartic CAR dynamics](k1893_quantum_hamiltonian_shielding.py).
 - [K1894 one-way quantum dynamics and the noise boundary](k1894_semicausal_quantum_dynamics.py).
 

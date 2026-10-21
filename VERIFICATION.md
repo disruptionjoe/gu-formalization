@@ -7,6 +7,35 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-21: causal phase noise and its vacuum boundary
+
+[K1895](explorations/conditional-build/k1895-causal-local-phase-noise-2026-10-21.md)
+constructs an actual continuum CAR phase-noise semigroup preserving the target
+speed1/24 cone. It gives neutral even-coherence damping, common versus independent
+noise controls and exact massless1D covariance transport. Its explicit source lift
+uses the nonlocal observation embedding; target locality is not source locality.
+Finite Poisson formulas reuse K987. The clock, probabilities and accessible algebra
+are supplied, and the averaged channel is not an automorphism or generally quasifree.
+
+[K1896](explorations/conditional-build/k1896-local-phase-vacuum-boundary-2026-10-21.md)
+shows a nonconstant smooth compact phase kick fails the chosen 3D Dirac-sea
+implementability test at every constant mass. Excitation count diverges linearly
+with momentum cutoff; a declared energy-weighted diagnostic diverges quadratically.
+It supplies a finite-energy massless1D control and a smooth temporal Born repair.
+A checked application of the massive external-field polarization theorem then gives
+all-order implementability for smooth scalar pulses. An explicit binary pulse
+mixture is causal and sea-normal but generally non-Markovian; all-order finite
+energy and microscopic bath remain open.
+
+Continuum proofs and the cited theorem carry universal scope; exact finite CAR,
+actual Clifford, Fourier and independent Pauli/momentum probes are supplementary.
+No native GU, physical vacuum selection, novelty or canon promotion is claimed.
+Source/physics-ledger/canon verdicts remain unchanged. Next compare native
+full20/injection/K-C/accessibility data with a quantitative finite-energy smooth
+pulse and specified operational noise demand; do not repeat the instantaneous
+kick or equate normality with finite energy. Noncanonical rotation, three-wall
+domains and scalar sextic/optimizer-relative questions remain distinct alternatives.
+
 ## 2026-10-21: quantum shielding and one-way quantum dynamics
 
 [K1893](explorations/conditional-build/k1893-quantum-hamiltonian-shielding-2026-10-21.md)

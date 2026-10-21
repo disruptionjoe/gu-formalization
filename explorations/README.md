@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [K1895 causal continuum phase noise and coherence](conditional-build/k1895-causal-local-phase-noise-2026-10-21.md).
+- [K1896 phase-kick vacuum boundary and smooth-pulse repair](conditional-build/k1896-local-phase-vacuum-boundary-2026-10-21.md).
+
 - [K1893 Hamiltonian shielding and hidden quartic CAR dynamics](conditional-build/k1893-quantum-hamiltonian-shielding-2026-10-21.md).
 - [K1894 one-way quantum dynamics and the noise boundary](conditional-build/k1894-semicausal-quantum-dynamics-2026-10-21.md).
 

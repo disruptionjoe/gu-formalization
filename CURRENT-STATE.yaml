@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: c63c846f7f619301f2373e7ef05a51545e8ffc87
+revision_basis: 8d271ebf87b2456df91fd252506005bf36ec061b
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,15 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1895 constructs a target-causal continuum CAR phase-noise semigroup,
+    neutral even-coherence laws, correlated-clock controls and exact 1D transport.
+    K1896 shows nonconstant instantaneous smooth phase kicks fail the chosen
+    3D Dirac-sea implementability test with linear excitation and quadratic
+    energy-weighted cutoff growth. Exact finite-energy 1D and temporal Born
+    controls lead to a theorem-based all-order massive smooth-pulse repair.
+    Its binary mixture is causal and sea-normal, generally non-Markovian;
+    all-order finite energy, native source locality and physical bath are open.
+    Source/physics-ledger/canon verdicts unchanged. Historical preceding results:
     K1893 classifies full versus even finite CAR Hamiltonian shielding and
     constructs genuine bounded hidden quartic CAR dynamics in the actual K1892
     continuum split, preserving observed fields exactly. K1894 independently
@@ -15524,6 +15533,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1895-causal-local-phase-noise-2026-10-21.md
+    - lab/process/k1895-causal-local-phase-noise.json
+    - tests/channel-swings/k1895_causal_local_phase_noise.py
+    - tests/channel-swings/k1895_causal_local_phase_noise_probe.py
+    - explorations/conditional-build/k1896-local-phase-vacuum-boundary-2026-10-21.md
+    - lab/process/k1896-local-phase-vacuum-boundary.json
+    - tests/channel-swings/k1896_local_phase_vacuum_boundary.py
+    - tests/channel-swings/k1896_local_phase_vacuum_boundary_probe.py
     - explorations/conditional-build/k1893-quantum-hamiltonian-shielding-2026-10-21.md
     - lab/process/k1893-quantum-hamiltonian-shielding.json
     - tests/channel-swings/k1893_quantum_hamiltonian_shielding.py
@@ -16377,6 +16394,12 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Compare a quantitative finite-energy smooth-pulse noise law with actual
+  native full20/injection/K-C/accessibility data. Target-causal instantaneous
+  noise and massive sea-normal smooth pulses now have distinct rigorous scopes;
+  neither supplies a microscopic bath or selected physical vacuum.
+
+  Historical completed predecessor continuation:
   Compare actual native full20/injection/K-C pairing and accessible-observable
   data with a spatially local continuum quantum interaction that changes the
   observed dynamics, with its operational noise and causal domain specified.
@@ -19567,6 +19590,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Establish all-order excitation-energy bounds and operational coherence
+  for a specified smooth pulse law before claiming a finite-energy noise model.
+  A massive external-field theorem already establishes sea implementability;
+  do not repeat it or promote the Born energy estimate. Native identification
+  still needs the full20/injection/K-C/accessibility adapter. Retain noncanonical
+  rotation, three-wall and scalar sextic/optimizer-relative alternatives.
+
+  Historical completed predecessor continuation:
   Specify the observable algebra, actual interaction and domain before
   transferring the finite cascade to a continuum source model. Distinguish
   exact unitary shielding, noisy quantum autonomy and classical-center readout;

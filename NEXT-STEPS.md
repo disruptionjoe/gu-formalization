@@ -7,6 +7,17 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-21: CAUSAL NOISE AND VACUUM REQUIREMENTS SEPARATED.**
+> K1895 supplies target-causal continuum phase noise and even-coherence laws.
+> K1896 excludes its nonconstant instantaneous kicks from the chosen 3D sea
+> representation, supplies an exact finite-energy1D control, and obtains an
+> all-order sea-normal massive smooth-pulse repair using an established theorem.
+> The explicit binary pulse mixture is generally non-Markovian; its all-order
+> energy cost and microscopic bath remain open. Normality is not finite energy.
+> Next compare quantitative smooth-pulse energy/noise with native full20,
+> injection, K/C pairing and accessibility data. No GU physics verdict moved.
+> Preserve noncanonical rotation, three-wall and scalar sextic alternatives.
+
 > **2026-10-21: QUANTUM INTERACTION AND SHIELDING CONDITIONS RESOLVED AT STATED SCOPES.**
 > K1893 proves full/even finite CAR Hamiltonian conditions and constructs a
 > bounded hidden continuum quartic interaction preserving the exact target law.
