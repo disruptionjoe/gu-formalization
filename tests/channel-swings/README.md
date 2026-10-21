@@ -1,5 +1,12 @@
 # Pre-contract wave probes
 
+- [k1904-spacelike-dephasing-locality](k1904_spacelike_dephasing_locality.py).
+- [k1904-spacelike-dephasing-locality independent probe](k1904_spacelike_dephasing_locality_probe.py).
+- [k1905-causal-quantum-memory-realization](k1905_causal_quantum_memory_realization.py).
+- [k1905-causal-quantum-memory-realization independent probe](k1905_causal_quantum_memory_realization_probe.py).
+- [k1906-dephasing-divisibility-boundary](k1906_dephasing_divisibility_boundary.py).
+- [k1906-dephasing-divisibility-boundary independent probe](k1906_dephasing_divisibility_boundary_probe.py).
+
 - [K1901 three history dephasing cost](k1901_three_history_dephasing_cost.py).
 - [K1902 fixed support scalar noise](k1902_fixed_support_scalar_noise.py).
 - [K1903 quantum dephasing witness](k1903_quantum_dephasing_witness.py).

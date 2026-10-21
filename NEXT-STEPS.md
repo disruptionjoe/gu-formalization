@@ -7,6 +7,17 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-21: LOCALITY AND MEMORY CONDITIONS RESOLVED.** K1904 excludes
+> the target from commuting local bath layers even with entangled environments.
+> K1905 realizes it with explicit timed qubit transport, bounded controls and
+> finite memory-energy accounting. K1906 classifies rank-two continuous
+> CP-divisible dephasing endpoints and supplies a robust regular-dynamics
+> distance bound. No continuum bath or native GU identification follows.
+> Next compare an actual spatial field/environment model, sharp channel-distance
+> construction or amplitude-constrained scalar control with native full20/K-C/
+> accessibility. Reuse these finite results; older proposed finite-interface
+> questions below are historical. Source/ledger/canon verdicts stay unchanged.
+
 > **2026-10-21: RESOURCE AND CHANNEL CONSTRAINTS RESOLVED.**
 > K1901 proves the exact32/27 three-history energy penalty; K1902 solves
 > symmetric and asymmetric fixed-support scalar phase energy with a necessary/

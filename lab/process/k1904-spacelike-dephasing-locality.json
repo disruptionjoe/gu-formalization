@@ -1,0 +1,11 @@
+{
+  "classical_delta": "6 - 4*sqrt(2)",
+  "commuting_distance_floor": "-1/5 + 3*sqrt(2)/20",
+  "signal_expectations": [
+    1,
+    -1
+  ],
+  "entangled_control_witness": "10 - 2*sqrt(2)",
+  "math_checks": 17,
+  "dependency_sha256": "9efc2a21d020821a02f813d36d3dfd53f82e21db2ebe50c3e64b87c9409feea4"
+}

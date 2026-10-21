@@ -7,6 +7,43 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-21: local bath boundary, causal memory and dephasing divisibility
+
+[K1904](explorations/conditional-build/k1904-spacelike-dephasing-locality-2026-10-21.md)
+proves that mutually commuting local occupation-controlled environment
+couplings give a classical phase mixture on the one-particle sector, even
+for entangled bath states. K1903's channel is excluded from that class.
+The proof includes vacuum-relative operations, a converse, a norm-distance
+robustness bound and an explicit even-logical-qubit forward-signalling control.
+It does not equate all no-signalling channels with localizable operations.
+
+[K1905](explorations/conditional-build/k1905-causal-quantum-memory-realization-2026-10-21.md)
+constructs the target with a transported qubit and smooth, ordered occupation
+controls on the full32-dimensional Fock-memory space. It supplies an explicit
+causal circuit schedule, integrated control norm3pi/2, memory energy
+omega[p2+(p3+p4)/2], and a conservative witness error budget. Transport and
+preparation are imported; this is no continuum field or sea-energy theorem.
+
+[K1906](explorations/conditional-build/k1906-dephasing-divisibility-boundary-2026-10-21.md)
+excludes every continuous CP-divisible population-fixing path to the target,
+including singular-rate paths. The released general classification says a
+rank-two correlation endpoint is continuously reachable in that class exactly
+when its Gram vectors occupy at most two distinct rays. For regular diagonal
+GKSL dynamics a Hilbert-distance inequality gives the entrywise lower bound
+e_* defined by e_*=(1/sqrt2-e_*)^4, with1/10<e_*<3/25; this is not the
+optimal four-mode distance. Explicit two-ray and compound-Poisson controls
+separate single-time classicality, divisibility and finite-time realization.
+
+Self-contained analytic proofs carry the general claims; exact producer and
+independently derived finite probes test matrices, controls and coefficients.
+No novelty, external review or formal proof is claimed. Source, physics-ledger
+and canon verdicts remain unchanged. Next compare a genuinely spatial quantum
+field/environment interface or exact closest-divisible-channel construction
+with native full20/K-C/accessibility and sharp amplitude-constrained scalar
+control. Reuse the solved commuting-layer, finite-memory and rank-two results.
+Noncanonical rotation, three-wall, scalar sextic/optimizer-relative and
+mirror/full-II/normal-jet debts remain; prior next-step wording is historical.
+
 ## 2026-10-21: constrained noise costs and a quantum channel witness
 
 [K1901](explorations/conditional-build/k1901-three-history-dephasing-cost-2026-10-21.md)

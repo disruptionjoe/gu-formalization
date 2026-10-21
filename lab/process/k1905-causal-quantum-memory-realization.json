@@ -1,0 +1,14 @@
+{
+  "integrated_norm": "3*pi/2",
+  "memory_energy_coefficients": [
+    "0",
+    "1",
+    "1/2",
+    "1/2"
+  ],
+  "uniform_memory_energy_over_omega": "1/2",
+  "error_budget": "(6 - 4*sqrt(2))/(8*sqrt(2) + 32)",
+  "fock_dimension": 32,
+  "math_checks": 35,
+  "dependency_sha256": "9efc2a21d020821a02f813d36d3dfd53f82e21db2ebe50c3e64b87c9409feea4"
+}

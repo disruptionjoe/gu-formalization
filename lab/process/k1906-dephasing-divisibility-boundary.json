@@ -1,0 +1,11 @@
+{
+  "root_equation": "e=(1/sqrt(2)-e)^4",
+  "root_lower_bound": "1/10",
+  "root_upper_bound": "3/25",
+  "metric_control12": "1/4",
+  "cp_divisible_continuous_target": "excluded",
+  "rank_two_continuous_criterion": "at_most_two_Gram_rays",
+  "poisson12": "exp(-t)",
+  "math_checks": 48,
+  "dependency_sha256": "9efc2a21d020821a02f813d36d3dfd53f82e21db2ebe50c3e64b87c9409feea4"
+}

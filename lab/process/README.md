@@ -7,6 +7,10 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k1904-spacelike-dephasing-locality](k1904-spacelike-dephasing-locality.json).
+- [k1905-causal-quantum-memory-realization](k1905-causal-quantum-memory-realization.json).
+- [k1906-dephasing-divisibility-boundary](k1906-dephasing-divisibility-boundary.json).
+
 - [K1901 three history dephasing cost](k1901-three-history-dephasing-cost.json).
 - [K1902 fixed support scalar noise](k1902-fixed-support-scalar-noise.json).
 - [K1903 quantum dephasing witness](k1903-quantum-dephasing-witness.json).

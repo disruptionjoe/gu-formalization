@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 8a1cce8d1e3c44e25e8936f03c681f7f0c41e5f2
+revision_basis: 3eaedb922d7f04ecf47dec12058ff518d5d6b250
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,16 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1904 proves the commuting-local-environment classical-phase boundary,
+    including entangled states, robust approximation and an explicit forward
+    signal control. K1905 supplies timed quantum-memory gates on full Fock
+    space with bounded controls, causal circuit ordering and specified finite
+    memory energy. K1906 excludes the target from continuous CP-divisible
+    dephasing and classifies all rank-two endpoints by their Gram rays, with
+    a quantitative regular-dynamics distance bound and positive controls.
+    These are supplied finite/environment models, not a continuum bath or
+    native GU identification; source/physics-ledger/canon verdicts unchanged.
+    Historical preceding results at their original scopes:
     K1901 proves the exact 32/27 energy penalty for complete three-mode
     dephasing with three classical phase histories. K1902 solves fixed-support
     two-plateau scalar noise energy, including asymmetric zero-area cost, and
@@ -15563,6 +15573,18 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1904-spacelike-dephasing-locality-2026-10-21.md
+    - lab/process/k1904-spacelike-dephasing-locality.json
+    - tests/channel-swings/k1904_spacelike_dephasing_locality.py
+    - tests/channel-swings/k1904_spacelike_dephasing_locality_probe.py
+    - explorations/conditional-build/k1905-causal-quantum-memory-realization-2026-10-21.md
+    - lab/process/k1905-causal-quantum-memory-realization.json
+    - tests/channel-swings/k1905_causal_quantum_memory_realization.py
+    - tests/channel-swings/k1905_causal_quantum_memory_realization_probe.py
+    - explorations/conditional-build/k1906-dephasing-divisibility-boundary-2026-10-21.md
+    - lab/process/k1906-dephasing-divisibility-boundary.json
+    - tests/channel-swings/k1906_dephasing_divisibility_boundary.py
+    - tests/channel-swings/k1906_dephasing_divisibility_boundary_probe.py
     - explorations/conditional-build/k1901-three-history-dephasing-cost-2026-10-21.md
     - lab/process/k1901-three-history-dephasing-cost.json
     - tests/channel-swings/k1901_three_history_dephasing_cost.py
@@ -16452,6 +16474,12 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Compare actual native full20/K-C/accessibility construction with a spatial
+  quantum field/environment interface or sharp distance-to-divisible-channel
+  calculation. Commuting bath layers, finite timed-memory realization and
+  rank-two continuous dephasing reachability are now answered conditionally.
+
+  Historical completed predecessor continuation:
   Compare native full20/K-C/accessibility construction with a specified
   quantum bath/locality/energy interface or exact amplitude-constrained scalar
   control. Fixed-support spatial energy, three-history costs and the four-mode
@@ -19666,6 +19694,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Freeze a spatial local field coupling and energy observable before extending
+  K1905 beyond its transported-memory circuit. Alternatively construct a
+  four-mode CP-divisible approximant and compare its exact error to K1906's
+  necessary metric bound, or solve K1902's amplitude-constrained control.
+  Retain native full20/K-C/accessibility, noncanonical rotation, three-wall,
+  scalar sextic/optimizer-relative and mirror/full-II/normal-jet contenders.
+
+  Historical completed predecessor continuation:
   Freeze an actual quantum environment generator and spatial coupling before
   transferring the finite-mode channel witness to continuum causality or energy.
   Alternatively solve the remaining amplitude-constrained scalar control problem

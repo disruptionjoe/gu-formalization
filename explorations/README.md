@@ -7,6 +7,10 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k1904-spacelike-dephasing-locality](conditional-build/k1904-spacelike-dephasing-locality-2026-10-21.md).
+- [k1905-causal-quantum-memory-realization](conditional-build/k1905-causal-quantum-memory-realization-2026-10-21.md).
+- [k1906-dephasing-divisibility-boundary](conditional-build/k1906-dephasing-divisibility-boundary-2026-10-21.md).
+
 - [K1901 three history dephasing cost](conditional-build/k1901-three-history-dephasing-cost-2026-10-21.md).
 - [K1902 fixed support scalar noise](conditional-build/k1902-fixed-support-scalar-noise-2026-10-21.md).
 - [K1903 quantum dephasing witness](conditional-build/k1903-quantum-dephasing-witness-2026-10-21.md).
