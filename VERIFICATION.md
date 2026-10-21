@@ -14,14 +14,17 @@ improves the regular dephasing approximation lower bound to the unique root
 of e(1/sqrt(2)+e)=(1/sqrt(2)-e)^4, between0.13 and0.14. A real Gaussian
 model attains the modulus-only optimum, but a phase-cycle argument rules out
 saturation for the complex target. One explicit complex diagonal Lindblad
-operator attains entry error1/sqrt(2)-exp(-pi/4), about0.25117. The exact
+operator at time log2 attains entry error exactly1/4. The earlier valid
+0.25117 construction is retained; the exact
 complex optimum remains open. Pair-input distinguishability supplies an
 operational lower bound without identifying a native GU measurement.
 
 [K1908](explorations/conditional-build/k1908-quantum-markov-phase-noise-2026-10-21.md)
 gives a global phase inequality and finite-time witness for a CP-divisible
 four-level dephasing semigroup: no classical phase law represents its channels
-for0<t<1/33. At1/66 the witness is at most-1/132. An explicit81-history
+for0<t<1/12. The sharp phase-inequality constant is2, with an explicit
+saturating vector. At1/24 the witness is at most-1/48, and the normalized
+output trace-distance bound is1/2304. An explicit81-history
 Fourier construction gives classical endpoint laws for all t>=2log7. It also
 establishes late-time classicality of K1906's compound-Poisson model for
 t>=log12/(1-1/sqrt(2)); its earlier times remain unclassified. Classical

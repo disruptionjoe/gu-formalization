@@ -34,17 +34,24 @@ def math(fault=None):
  for j,k,phase in [(0,2,0),(0,3,0),(1,2,0),(1,3,2),(2,3,1)]:eq(s.im(A[j,k]),phase,'scaled endpoint phase')
  scale=s.Rational(1,4) if fault!='scale' else s.Rational(1,8)
  eq(s.re(A[0,1])*scale,-s.Rational(1,2),'endpoint long pair exponent')
+ # New exact quarter endpoint, verified by directed complex intervals.
+ tt=arb(2).log()*(arb(1)/2 if fault=='quarter_time' else 1);quarter=arb(1)/4
+ ck((-2*tt).exp().contains(quarter),'quarter attained long pair')
+ d24=(acb(0,2*tt)).exp()/2
+ ck(abs(d24-acb(0,a))<quarter,'quarter complex phase control')
+ ck(abs(acb(a)*acb(0,tt).exp()-acb(a)*acb(0,pi/4).exp())<quarter,'quarter other phase')
+ ck(a-arb(1)/2<quarter,'quarter real arm')
  # Pair-input output difference eigenvalues give its trace norm exactly.
  r=s.symbols('r',positive=True);B=s.Matrix([[0,r/2],[r/2,0]]);ck(set(B.eigenvals())=={-r/2,r/2},'two-mode operational norm')
  return N
 
 def verify(d):
  ck(d['lower_equation']=='e*(1/sqrt(2)+e)=(1/sqrt(2)-e)**4','equation report')
- ck(d['exact_complex_optimum_claimed'] is False,'no false optimum')
+ ck(d['exact_complex_optimum_claimed'] is False,'no false optimum');ck(d['upper']=='1/4','quarter upper report')
  ck(d['dependency_sha256']==pin('explorations/conditional-build/k1906-dephasing-divisibility-boundary-2026-10-21.md'),'dependency pin')
 if __name__=='__main__':
  n=math();d=json.loads((ROOT/'lab/process/k1907-four-mode-dephasing-distance.json').read_text());verify(d);print('PASS',n,'independent exact/rigorous-interval controls; reporting and pin baseline')
- for f in ['orientation','scale']:
+ for f in ['orientation','scale','quarter_time']:
   try:math(f)
   except AssertionError as e:print('[FAIL expected input]',f,e)
   else:raise AssertionError('uncaught '+f)
@@ -55,4 +62,4 @@ if __name__=='__main__':
   try:verify(bad)
   except AssertionError as e:print('[FAIL expected reporting/provenance]',f,e)
   else:raise AssertionError('uncaught '+f)
- print('PASS 2 input, 1 report, 1 pin faults')
+ print('PASS 3 input, 1 report, 1 pin faults')

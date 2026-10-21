@@ -5,41 +5,41 @@
     "0",
     "-I"
   ],
-  "classical_phase_witness_weight": 6,
+  "classical_phase_witness_weight": 2,
   "derivative": -1,
-  "certified_time_interval": "0<t<1/33",
-  "time": "1/66",
-  "witness_upper": "-1/132",
-  "output_trace_distance_lower": "1/16896",
+  "certified_time_interval": "0<t<1/12",
+  "time": "1/24",
+  "witness_upper": "-1/48",
+  "output_trace_distance_lower": "1/2304",
   "old_poisson_classification": "classical for t>=log(12)/(1-1/sqrt(2)); earlier times not decided",
   "late_classical_threshold": "2*log(7)",
   "late_phase_histories": 81,
   "W": [
     [
-      "17/4",
-      "7/4 - 3*I",
-      "-3",
-      "-3 + 3*I"
+      "5/4",
+      "3/4 - I",
+      "-1",
+      "-1 + I"
     ],
     [
-      "7/4 + 3*I",
-      "17/4",
-      "-3",
-      "-3 - 3*I"
+      "3/4 + I",
+      "5/4",
+      "-1",
+      "-1 - I"
     ],
     [
-      "-3",
-      "-3",
-      "6",
+      "-1",
+      "-1",
+      "2",
       "0"
     ],
     [
-      "-3 - 3*I",
-      "-3 + 3*I",
+      "-1 - I",
+      "-1 + I",
       "0",
-      "6"
+      "2"
     ]
   ],
-  "math_checks": 18,
+  "math_checks": 21,
   "dependency_sha256": "533e5f0ae6fbdf97d24a00cdd3e9f610107fff7e9171165523e7169b0442cb07"
 }

@@ -32,7 +32,11 @@ def calculate(rate=s.Rational(1,2),phase=1):
  want={(0,1):-s.pi/2,(0,2):-s.pi/8,(1,2):-s.pi/8,(0,3):-s.pi/4,(1,3):-s.pi/4+s.I*s.pi/2,(2,3):-s.pi/8+s.I*s.pi/4}
  for pair,value in want.items():eq(G[pair[0],pair[1]],value,'actual generator entry '+str(pair))
  for j in range(4):eq(G[j,j],0,'population conservation')
- return {'lower_equation':'e*(1/sqrt(2)+e)=(1/sqrt(2)-e)**4','root_bracket':['13/100','14/100'],'upper':'1/sqrt(2)-exp(-pi/4)','modulus_optimum_attained':True,'complex_lower_equality_attained':False,'exact_complex_optimum_claimed':False,'math_checks':N}
+ eq(s.exp(-2*s.log(2)),s.Rational(1,4),'quarter long-pair attainment')
+ eq(s.exp(-s.log(2)/2),a,'exact target arms')
+ ck(s.Rational(56,81)>s.Rational(69,100) and s.Rational(25,36)<s.Rational(7,10),'logarithm rational brackets')
+ ck(s.Rational(49,50)>11*s.sqrt(2)/16,'phase cosine rational margin')
+ return {'lower_equation':'e*(1/sqrt(2)+e)=(1/sqrt(2)-e)**4','root_bracket':['13/100','14/100'],'upper':'1/4','previous_valid_upper':'1/sqrt(2)-exp(-pi/4)','modulus_optimum_attained':True,'complex_lower_equality_attained':False,'exact_complex_optimum_claimed':False,'math_checks':N}
 if __name__=='__main__':
  ap=argparse.ArgumentParser();ap.add_argument('--write-report',action='store_true');args=ap.parse_args();d=calculate();d['dependency_sha256']=pin('explorations/conditional-build/k1906-dephasing-divisibility-boundary-2026-10-21.md')
  if args.write_report:(ROOT/'lab/process/k1907-four-mode-dephasing-distance.json').write_text(json.dumps(d,indent=2)+'\n')

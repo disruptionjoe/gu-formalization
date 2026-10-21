@@ -40,10 +40,11 @@ For K1903's correlation matrix C, put a=1/sqrt(2). Among endpoints of
 finite-integrated-rate, time-local diagonal GKSL evolution, the maximum
 complex entry error satisfies
 
-    e4 <= inf_D max_jk |D_jk-C_jk| <= a-exp(-pi/4),
+    e4 <= inf_D max_jk |D_jk-C_jk| <= 1/4,
     e4(a+e4)=(a-e4)^4,                 13/100<e4<14/100.       (1)
 
-The upper bound is about 0.25117. The lower bound improves K1906's
+The upper bound is exactly 1/4. The earlier valid construction below gives
+about 0.25117; the logarithmic-time construction improves it. The lower bound improves K1906's
 three-mode bound. It is exactly sharp for the separate problem of matching
 entry MODULI; it cannot be attained while also matching the required complex
 phases at error e4. No exact optimum or numerical positive gap above e4 for
@@ -72,7 +73,7 @@ entry error is at most e<a and a+e<1, then
     |D12|<=e, |D34|<=a+e, |D13|,|D14|,|D23|,|D24|>=a-e.
 
 Exponentiating(3) proves e(a+e)>=(a-e)^4. The difference has
-strictly positive derivative a+2e+4(a-e)^3 on[0,a], hence one root.
+strictly positive derivative a+2e+4(a-e)^3 on [0,a], hence one root.
 Exact substitution at13/100 and14/100 brackets it. Errors outside the
 stated range already exceed the root.
 
@@ -104,7 +105,7 @@ For this parallelogram its generator phase has absolute value at most
 
 To verify the strict comparison without a decimal solver, e4>13/100
 and a>7/10 imply the two logarithms are less than21/10 and1/5;
-their product is below21/50<9/16 and pi>3. The logarithmic bounds follow
+their product is below 21/50<9/16 and pi>3. The logarithmic bounds follow
 from exp(7/10)>2 and exp(1/5)>100/83 by their positive Taylor terms.
 No phase branch helps: any real angle congruent to pi/4 modulo 2pi has
 absolute value at least pi/4. The Cauchy-Schwarz bound holds also for
@@ -134,6 +135,29 @@ Lindblad operator and an explicit Hamiltonian, not just a positive candidate
 correlation matrix. It preserves all populations and reaches its endpoint
 in finite time. K1908 separately tests whether such generators have
 classical noise representations; that question is not CP divisibility.
+
+## Same-day strengthening: exact quarter-error attainment
+
+Retain the lower bound and its phase nonattainment. Use unscaled
+l=(-1,1,0,-i), h=(0,0,0,1), and T=log2. The same generator yields
+
+    D12=1/4, D13=D23=a, D14=1/2,
+    D24=exp(2i log2)/2, D34=a exp(i log2).                   (6)
+
+Every other entry error is strictly less than 1/4, so the maximum is exactly
+1/4. Here is a non-numerical phase check. The positive artanh series gives
+56/81<log2<25/36; with 3<pi<22/7, delta=pi/2-2log2 lies in(0,1/5).
+Thus sin(2log2)=cos(delta)>49/50>11sqrt(2)/16, and
+
+    |D24-i a|²=3/4-a sin(2log2)<1/16.
+
+Also |D34-a exp(i pi/4)|<=a delta/2<a/10<1/4,
+and |D14-a|=a-1/2<1/4. The series lower bound keeps its first two
+terms; for the upper bound replace every denominator2n+1 for n>=1 by3,
+then sum the geometric tail. This proves an exact admissible quarter-error
+upper bound without solving the global complex-distance minimization.
+The previous pi/4 construction remains valid historical evidence, not a
+withdrawn result. The new construction releases no claim that 1/4 is optimal.
 
 ## Released operational consumer
 

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 706227abac11db8c9ba56a53a9ba8b6e068b34d1
+revision_basis: f1b0953d8b9f19360476f739164c10fd798f5ab7
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -36,9 +36,10 @@ current_result:
   status: conditional_research_front
   summary: >-
     K1907 gives a stronger four-mode regular-dephasing distance lower bound,
-    exact modulus-only optimizer, phase nonattainment and explicit finite-rate
-    upper construction. K1908 gives a rigorous nonclassical short-time
-    Markov semigroup, an observable margin and explicit late-time classical
+    exact modulus-only optimizer, phase nonattainment and an exact quarter-error
+    finite-rate construction. K1908 sharpens its phase-inequality constant to2
+    and gives a rigorous nonclassical short-time
+    Markov interval0<t<1/12, observable margin at1/24 and explicit late-time classical
     phase laws, including a late-time construction for the prior Poisson
     model. Exact complex distance and earlier Poisson times remain open.
     These are supplied positive-Hilbert quantum models, not native GU

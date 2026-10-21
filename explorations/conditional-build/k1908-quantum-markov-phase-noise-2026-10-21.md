@@ -45,7 +45,7 @@ four-level system take
     F_jk(t)=exp(t G_jk).                                    (1)
 
 The phase witness below proves F(t) is outside every classical random-phase
-mixture for every 0<t<1/33. At t=1/66 its expectation is at most-1/132,
+mixture for every 0<t<1/12. At t=1/24 its expectation is at most-1/48,
 where every classical phase law gives a nonnegative value. This supplies
 a finite-time observable distinction, not merely an unavailable classical
 Markov dilation. K1907 uses this coefficient geometry, rescaled and with a
@@ -59,25 +59,31 @@ For arbitrary complex unit phases z1,...,z4 define
     a=(z1+z2)/2, b=(z2-z1)/2,
     r=z3-a, s=z4-a+i b.
 
-Then |a|²+|b|²=1 and Re(a conjugate(b))=0. We claim
+Then |a|²+|b|²=1 and Re(a conjugate(b))=0. The sharp inequality is
 
-    |b|² <= 6(|r|²+|s|²).                                  (2)
+    |b|² <= 2(|r|²+|s|²).                                  (2)
 
-If |b|²>=1/2, reverse triangle gives |r|>=1-|a|, so
-|b|²/|r|² <=3+2sqrt(2)<6. If |b|²<=1/2, then |a|>=1/sqrt(2).
-Moreover ||a-i b|²-1|=2|a||b|, because a conjugate(b) is purely
-imaginary. Reverse triangle and |a-i b|<=sqrt(2) give
+Write c=|a|, d=|b|. A common phase makes a=c and b=+/-i d, so
+|a-i b| is either c+d or |c-d|. Since c²+d²=1 and c,d>=0,
+c+d>=1 and c+d-1<=1-|c-d|. Reverse triangle therefore gives
 
-    2|a||b| <= (1+sqrt(2)) |s|,
-    |b|² <= (3+2sqrt(2))|s|²/2 < 3|s|².
+    |r|²+|s|² >= (1-c)²+(c+d-1)².
 
-The b=0 and equality split cases are included. No phase grid, distribution
-restriction or finite-support assumption is used. With row vectors
+Set u=d/(1+c), in [0,1]; then c=(1-u²)/(1+u²), d=2u/(1+u²), and
+
+    2[(1-c)²+(c+d-1)²]-d²
+       =4u²(2u-1)²/(1+u²)² >=0.
+
+The constant 2 is sharp: take z1=(3-4i)/5, z2=(3+4i)/5,
+z3=z4=1. Then |b|²=16/25 and |r|²+|s|²=8/25. This includes the
+zero and endpoint cases; no phase grid or distribution restriction is used.
+The initially published conservative constant 6 remains valid, but is
+superseded here by this exact extremal calculation. With row vectors
 
     bvec=(-1/2,1/2,0,0),
     R=[(-1/2,-1/2,1,0);
        (-(1+i)/2,(-1+i)/2,0,1)],
-    W=6 R*R-bvec*bvec,                                    (3)
+    W=2 R*R-bvec*bvec,                                    (3)
 
 where stars mean conjugate transpose, (2) says z*Wz>=0. Consequently
 Tr(W Cclass)>=0 for every classical phase correlation Cclass=E[zz*].
@@ -97,15 +103,15 @@ For Re w<=0 the integral Taylor remainder obeys
 
     Tr(W F(t)) <= -t+B t²,
     B=(1/2) sum_jk |W_kj| |G_jk|²
-     =3/2+sqrt(193)+12sqrt(2) <33.                          (5)
+     =11/2+4sqrt(2) <12.                          (5)
 
-This proves the stated interval and the 1/66 margin. For a simple exact
-upper bound use sqrt(193)<14 and sqrt(2)<17/12, giving B<65/2<33.
+This proves the stated interval and the 1/24 margin. For a simple exact
+upper bound use sqrt(2)<13/8, giving B<12.
 The output of the normalized equal superposition is F(t)/4, so measuring
-W gives expectation at most-1/528 at 1/66. The same input under classical
-phase noise has nonnegative expectation. Since ||W||<=||W||F<16,
+W gives expectation at most-1/192 at 1/24. The same input under classical
+phase noise has nonnegative expectation. Since ||W||<=||W||F<6,
 its trace distance (half trace norm) from every classical output is at least
-1/16896. The bound is conservative, with no optimal robustness claim.
+1/2304. The bound is conservative, with no optimal robustness claim.
 A depolarized classical phase mixture is still subject to (2); arbitrary
 measurement noise needs a separate bound and is not silently covered.
 
@@ -139,7 +145,7 @@ K1906 constructs exp[t(Phi_C-id)] for K1903's nonclassical collision
 channel. That remains an exact CPTP semigroup. Nonclassicality of one
 collision does not by itself establish nonclassicality of the Poisson
 mixture. The present witness has initial derivative
-Tr(W(C-J))=41/2-12sqrt(2)>0, so its small-time proof does not settle that
+Tr(W(C-J))=13/2-4sqrt(2)>0, so its small-time proof does not settle that
 specific mixture. This is an explicitly inconclusive discriminator, not a
 proof of classicality. The nonclassical endpoint established here uses(1).
 The strongest useful resolved alternative is thus an explicit single-Lindblad
@@ -171,8 +177,8 @@ For (1), the six off-diagonal magnitudes sum to
 
 At t=2log7 this is 1128/2401, so twice the sum is 2256/2401<1.
 Every later time also satisfies(6). Thus the SAME semigroup has provably
-nonclassical channels for 0<t<1/33 and explicit classical endpoint laws
-for all t>=2log7. The intermediate interval is unclassified; no unique
+nonclassical channels for 0<t<1/12 and explicit classical endpoint laws
+for all t >=2log7. The intermediate interval is unclassified; no unique
 transition, optimal threshold or classical process representation follows.
 A family of endpoint phase laws need not assemble into one stationary-
 independent-increment law or reproduce interventions across times.

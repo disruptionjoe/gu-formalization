@@ -9,7 +9,8 @@ updated_at: "2026-10-21"
 
 > **2026-10-21: FOUR-MODE AND MARKOV-NOISE DISCRIMINATORS.** K1907
 > supplies a stronger four-mode lower bound, exact modulus optimizer,
-> phase nonattainment and a finite-rate complex approximant. K1908 supplies
+> phase nonattainment and an exact quarter-error finite-rate approximant.
+> K1908 supplies a sharp constant2 phase inequality and strengthened
 > a nonclassical short-time semigroup and explicit late-time classical laws,
 > including a late-time result for the old Poisson model. Exact complex
 > optimum and intermediate/short-time classifications remain open. Compare
