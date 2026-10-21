@@ -7,6 +7,40 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-21: effective Fisher profiles and dynamical observation lifting
+
+[K1880](explorations/k1880-effective-fisher-well-localization-2026-10-21.md)
+gives an explicit finite TV bound for every sixth-cap density with a valid
+Fisher-energy upper bound. It uses three local oscillator estimates with
+unequal slopes, preserves asymmetric cell weights, and controls rare wells
+with an explicit mass denominator. At k=4 and cap slack10^-12, the exact
+even optimizer is within0.022 TV of the stated three-Gaussian mixture.
+The proved upper rate is O_k(delta^(1/6)); sharpness, effective rescaled W2
+and the actual sextic gap remain open.
+
+[K1881](explorations/conditional-build/k1881-dynamical-minimum-energy-observation-lift-2026-10-21.md)
+proves that K1879's minimum-energy right inverse intertwines evolution.
+It constructs the normalized unitary quotient and transported kernel,
+including forced solutions. Raw observation inherits an H^-1 energy,
+not an L2 isometry. The massless R3 raw range is proper despite a valid
+normalized coisometry; odd torus winding has an explicit gap only with
+the corresponding domain change. No local or native physical quotient is claimed.
+
+K1880:12 exact algebra/budget groups and2 pins; independent407 mathematical
+controls and8 rational budget checks. Seven certificate coefficient/budget
+faults,3 actual inequality faults and5 reporting/pin faults are rejected; these are not independent
+continuum proofs. K1881:66 matrix/polynomial groups and4 pins; independent
+103 operator/domain controls,36 actual operator faults and5 reporting/pin
+faults. The analytic localization, Poincare and closed-Fourier-domain
+arguments carry the continuum claims. No external expert, proof assistant
+or novelty claim. Source, physics-ledger and canon verdicts unchanged.
+
+Next compare native fullC/injection/pairing/domain identification with a
+pure mass-plane rotating nonlinear lift. The latter cannot import K1879's
+non-mass connection. Scalar successors must add effective rescaled W2,
+sharper bounds or actual sextic spectral information. Earlier effective-TV
+and instantaneous-lift requests below are historical at their stated scopes.
+
 ## 2026-10-21: three-well Fisher profiles and rotating connection repair
 
 [K1878](explorations/k1878-fisher-three-well-profile-rigidity-2026-10-21.md)

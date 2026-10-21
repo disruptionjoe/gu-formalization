@@ -1,0 +1,47 @@
+{
+  "result_id": "K1880",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "constants": {
+    "cutoff": 40,
+    "slope": "13/4",
+    "oscillator_gap": "4*a*A",
+    "TV_denominator": "2*k*A"
+  },
+  "budget": {
+    "e": "1/3000000",
+    "epsilon": "13/80000",
+    "tau": "1/22500",
+    "E": "101875892234921/5758128152100000",
+    "denominator": "40",
+    "weight": "1/4000000",
+    "leak": "1/20000000000000"
+  },
+  "finite_even_TV_strict_upper": "11/500",
+  "scope": {
+    "all_feasible_densities_with_valid_energy_upper": true,
+    "fixed_weights_require_evenness": true,
+    "effective_rescaled_W2": false,
+    "global_sextic_gap": false,
+    "native_GU": false
+  },
+  "checks": {
+    "root_expansion": true,
+    "slope_constant": true,
+    "oscillator_groundstate": true,
+    "oscillator_first_gap": true,
+    "cutoff_partition": true,
+    "cutoff_derivative_cost": true,
+    "projection_conversion": true,
+    "tail_mass": true,
+    "finite_budget_positive": true,
+    "finite_even_TV_below_022": true,
+    "conditional_leak": true,
+    "rate_balance": true
+  },
+  "inputs": {
+    "explorations/k1878-fisher-three-well-profile-rigidity-2026-10-21.md": "bb61a2210d4a0cdc11135e0bde8910702b00a7521bd8c6df2900982bb5f26667",
+    "explorations/k1876-fisher-atomic-boundary-cost-2026-10-20.md": "1ee51da98f1c05f3bd07636e896cc0ff5b5c95fa74d9ab86d02039bc24ba6614"
+  }
+}

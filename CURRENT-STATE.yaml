@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f387e918e6c8f1c82667b78960b51eeda694c276
+revision_basis: 0f2d7c5cc9c15409c5df54d68e0617b749696725
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,17 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1880 gives explicit finite TV accuracy for the tight sixth-cap three-well
+    Fisher problem, including0.022 for the exact even optimizer at k=4 and
+    slack10^-12. Unequal slopes, asymmetric weights, rare-well conditioning
+    and finite error consumers are explicit; no effective rescaled W2 or
+    sextic spectral gap is claimed. K1881 proves dynamical minimum-energy
+    observation lifting, a normalized unitary quotient, raw H^-1 energy,
+    forced dynamics and massless/twisted-domain boundaries. The raw inverse
+    is nonlocal; no physical quotient or native GU map is supplied.
+    Source/physics-ledger/canon verdicts unchanged.
+
+    Historical predecessor results at their original scopes:
     K1878 proves TV/W2 Gaussian profiles at all positive-mass wells for every
     asymptotically optimal tight-cap Fisher sequence. Rescaled variances are
     1/[k(k+1)] centrally and1/[2k(k+1)] outside; the exact even optimizer
@@ -15440,6 +15451,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/k1880-effective-fisher-well-localization-2026-10-21.md
+    - lab/process/k1880-effective-fisher-well-localization.json
+    - tests/channel-swings/k1880_effective_fisher_well_localization.py
+    - tests/channel-swings/k1880_effective_fisher_well_localization_probe.py
+    - explorations/conditional-build/k1881-dynamical-minimum-energy-observation-lift-2026-10-21.md
+    - lab/process/k1881-dynamical-minimum-energy-observation-lift.json
+    - tests/channel-swings/k1881_dynamical_minimum_energy_observation_lift.py
+    - tests/channel-swings/k1881_dynamical_minimum_energy_observation_lift_probe.py
     - explorations/k1878-fisher-three-well-profile-rigidity-2026-10-21.md
     - lab/process/k1878-fisher-three-well-profile-rigidity.json
     - tests/channel-swings/k1878_fisher_three_well_profile_rigidity.py
@@ -16233,6 +16252,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Compare actual native fullC/injection/pairing/observation-domain identification
+  with a pure mass-plane rotating nonlinear lift. K1881 closes the dynamical
+  quotient for the changed-connection class but supplies neither native data
+  nor a pure-mass lift. K1880 closes explicit three-well TV accuracy; scalar
+  successors need effective rescaled W2, sharper estimates or sextic spectrum.
+
+  Historical continuations at their original scopes:
   Compare an actual native fullC/pairing/observation-domain adapter with a pure-mass rotating fixed-T nonlinear lift. K1879 solves the changed class with a non-mass connection; automatic frame covariance is no longer pending. K1878 supplies actual three-well Gaussian shape at optimal Fisher cost; effective rates or sextic spectrum remain different questions.
 
   Historical continuations at their original scopes:
@@ -19371,6 +19397,13 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  A native result needs an actual typed coefficient and domain adapter.
+  Pure rotating mass must satisfy the full conservative equations without
+  K1879's non-mass connection. Raw L2 observation energy is not the inherited
+  source norm. Scalar rescaled W2 or entropy claims need tail/functional
+  bounds beyond TV; the local oscillator gap is not the sextic spectral gap.
+
+  Historical continuations at their original scopes:
   A source-facing result needs the actual native map and domain. A pure rotating target must solve full conservative equations without K1879's added connection; no general lift is claimed. Effective scalar profile accuracy requires a quantitative deficit/localization estimate, and TV/W2 compactness alone supplies no finite rate or gap.
 
   Historical continuations at their original scopes:

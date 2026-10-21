@@ -1,5 +1,8 @@
 # Pre-contract wave probes
 
+- K1880: [producer](k1880_effective_fisher_well_localization.py), [independent probe](k1880_effective_fisher_well_localization_probe.py).
+- K1881: [producer](k1881_dynamical_minimum_energy_observation_lift.py), [independent probe](k1881_dynamical_minimum_energy_observation_lift_probe.py).
+
 ## October 21 research evidence
 
 - `k1878_fisher_three_well_profile_rigidity.py` and `_probe.py`: exact scalar identities and independent allocation/distance faults.

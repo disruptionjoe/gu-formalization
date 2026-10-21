@@ -7,6 +7,16 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-21: FINITE FISHER PROFILE ERROR AND DYNAMICAL LIFT ESTABLISHED.**
+> K1880 supplies explicit three-well TV accuracy, including a0.022 bound for
+> the named exact even optimizer. Effective rescaled W2 and sextic spectrum
+> remain distinct. K1881 proves minimum-energy evolution-compatible lifting,
+> normalized quotient, raw H^-1 energy and massless/twisted-domain limits.
+> Next compare actual native fullC/pairing/domain identification with a pure
+> mass-plane nonlinear rotating lift. Neither Hilbert normalization nor an
+> added frame connection supplies that map. Earlier requests below remain
+> historical at their original scopes.
+
 > **2026-10-21: THREE-WELL PROFILES AND CONNECTION REPAIR COMPLETE.**
 > K1878 proves TV/W2 Gaussian well profiles at sharp Fisher cost, including
 > the exact even optimizer and asymmetric near-minimizer controls. No effective

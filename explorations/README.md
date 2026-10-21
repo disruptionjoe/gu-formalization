@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [K1880 effective Fisher localization](k1880-effective-fisher-well-localization-2026-10-21.md): finite three-well TV error and rare-well bounds.
+- [K1881 dynamical observation lift](conditional-build/k1881-dynamical-minimum-energy-observation-lift-2026-10-21.md): minimum-energy dynamics, quotient norm and domain limits.
+
 ## October 21 research evidence
 
 - [K1878 three-well Fisher profiles](k1878-fisher-three-well-profile-rigidity-2026-10-21.md): actual Gaussian well shape, allocation and asymmetric controls.
