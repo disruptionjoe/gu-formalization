@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [K1909 poisson phase classification](conditional-build/k1909-poisson-phase-classification-2026-10-21.md).
+- [K1910 minimal dephasing bath energy](conditional-build/k1910-minimal-dephasing-bath-energy-2026-10-21.md).
+
 - [k1907-four-mode-dephasing-distance](conditional-build/k1907-four-mode-dephasing-distance-2026-10-21.md).
 - [k1908-quantum-markov-phase-noise](conditional-build/k1908-quantum-markov-phase-noise-2026-10-21.md).
 

@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [K1909 producer](k1909_poisson_phase_classification.py).
+- [K1909 independent probe](k1909_poisson_phase_classification_probe.py).
+- [K1910 producer](k1910_minimal_dephasing_bath_energy.py).
+- [K1910 independent probe](k1910_minimal_dephasing_bath_energy_probe.py).
+
 - [k1907-four-mode-dephasing-distance](k1907_four_mode_dephasing_distance.py).
 - [k1907-four-mode-dephasing-distance independent probe](k1907_four_mode_dephasing_distance_probe.py).
 - [k1908-quantum-markov-phase-noise](k1908_quantum_markov_phase_noise.py).

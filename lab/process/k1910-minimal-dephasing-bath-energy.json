@@ -1,0 +1,20 @@
+{
+  "uniform_energy_over_gap": "1/2-sqrt(2)/8",
+  "worst_population_energy_over_gap": "1/2",
+  "recovered_energy_over_gap": "sqrt(2)/8",
+  "population_formula": "(1-sqrt((p1-p2)**2+p3**2+p4**2))/2",
+  "robust_uniform_lower": "max(0,1/2-sqrt(2)/8-3*delta/4)",
+  "branch_energies_over_gap": [
+    "1/2",
+    "1/2",
+    "1/2 - sqrt(2)/4",
+    "1/2 - sqrt(2)/4"
+  ],
+  "reset_unitary_only_for_rank_one": true,
+  "poisson_endpoint_bath_dimension": 4,
+  "poisson_initial_energy_slope": "(11-3*sqrt(2))/16",
+  "bounded_control_regular_start": false,
+  "math_checks": 26,
+  "dependency_sha256": "14de97ab7493517cbb3fbd65a782f975b08668c1d8e7155d4241201c85b09d29",
+  "poisson_dependency_sha256": "ef4ecaa731086274f241cb6bf15d0fa1c5e5cf51c5d9d06b24d5c68c1e72555c"
+}

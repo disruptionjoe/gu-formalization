@@ -7,6 +7,16 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-21: POISSON CLASSICALITY AND BATH RESOURCE LIMITS.** K1909
+> certifies a nonclassical early Poisson interval and an explicit noisy repair.
+> K1910 solves finite pure-bath endpoint energy and worst-input qubit design,
+> then proves four-state endpoint memory, a linear initial cost and exact
+> regular-start/autonomous finite-bath limits. Compare an actual reservoir,
+> control and energy interface with native full20/K/C/accessibility and sharp
+> scalar amplitude control. No sharp intermediate-time or native GU verdict.
+> Prior short-time Poisson and unconstrained energy questions are superseded;
+> retain phase-aware complex distance and the other scientific alternatives.
+
 > **2026-10-21: FOUR-MODE AND MARKOV-NOISE DISCRIMINATORS.** K1907
 > supplies a stronger four-mode lower bound, exact modulus optimizer,
 > phase nonattainment and an exact quarter-error finite-rate approximant.

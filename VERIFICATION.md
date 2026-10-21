@@ -7,6 +7,36 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-21: certified Poisson phase boundary and optimal bath resources
+
+[K1909](explorations/conditional-build/k1909-poisson-phase-classification-2026-10-21.md)
+resolves the previously open early-time Poisson regime: an exact rational
+half-angle polynomial Gram certificate excludes every classical phase law
+for0<t<1/55. At1/110 the witness is below-1/11000 and normalized output
+trace-distance exceeds1/176000. The earlier late-time classical law remains;
+a sufficient noisy-collision repair yields an all-time classical jump process.
+Neither the intermediate interval nor the sharp noise threshold is claimed.
+
+[K1910](explorations/conditional-build/k1910-minimal-dephasing-bath-energy-2026-10-21.md)
+applies passive spectral rearrangement to prescribed dephasing Gram data.
+It supplies the exact fixed-spectrum pure-bath energy minimum, an explicit
+qubit rotation attaining omega(1/2-sqrt2/8) for uniform input, a simultaneous
+worst-population optimum omega/2, tolerance bounds and a pure-reset boundary.
+Composition proves four pure-bath dimensions are needed for every positive
+Poisson time, with initial minimum energy slope omega(11-3sqrt2)/16.
+Bounded regular-start controls and finite autonomous baths cannot implement
+the exact entire semigroup. Endpoint minima exclude reset/transport/apparatus
+costs; this is no continuum or native GU identification.
+
+Analytic proofs carry arbitrary-phase, time, spectral and dynamical claims;
+exact producer/probe checks certify finite identities with real input faults.
+No source/ledger/canon verdict, novelty, expert review or formal proof claim.
+Next compare actual reservoir/control and native full20/K/C/accessibility
+constructions with sharp spacetime amplitude control; keep complex-distance
+and the retained scalar/geometry alternatives. Older open Poisson and
+protocol-energy statements below are historical and superseded at these scopes.
+
+
 ## 2026-10-21: four-mode distance and quantum Markov phase noise
 
 [K1907](explorations/conditional-build/k1907-four-mode-dephasing-distance-2026-10-21.md)

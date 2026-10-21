@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f1b0953d8b9f19360476f739164c10fd798f5ab7
+revision_basis: 01a783481d9f4e3a03c4cb369fd7740777e05016
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1909 certifies nonclassicality of the four-mode Poisson collision semigroup
+    for0<t<1/55 by an exact rational polynomial Gram certificate, with a bounded
+    observable margin and explicit sufficiently noisy all-time classical repair.
+    K1910 solves arbitrary fixed-spectrum pure-bath endpoint excitation by weighted
+    Gram eigenvalues. For the qubit target, uniform optimum is omega(1/2-sqrt2/8)
+    and one fixed design attains worst-population omega/2. The composed Poisson
+    endpoint needs four pure-bath dimensions for every t>0 and has a positive
+    linear initial energy slope; bounded regular-start controls and a finite
+    bath with time-independent total Hamiltonian cannot realize the exact entire
+    semigroup. These are conditional finite quantum results, not native GU,
+    a sharp temporal threshold or full physical implementation cost. Source,
+    physics-ledger and canon verdicts remain unchanged.
+
+    Historical predecessor result/continuation:
     K1907 gives a stronger four-mode regular-dephasing distance lower bound,
     exact modulus-only optimizer, phase nonattainment and an exact quarter-error
     finite-rate construction. K1908 sharpens its phase-inequality constant to2
@@ -15583,6 +15597,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1909-poisson-phase-classification-2026-10-21.md
+    - lab/process/k1909-poisson-phase-classification.json
+    - explorations/conditional-build/k1910-minimal-dephasing-bath-energy-2026-10-21.md
+    - lab/process/k1910-minimal-dephasing-bath-energy.json
     - explorations/conditional-build/k1907-four-mode-dephasing-distance-2026-10-21.md
     - lab/process/k1907-four-mode-dephasing-distance.json
     - tests/channel-swings/k1907_four_mode_dephasing_distance.py
@@ -16492,6 +16510,14 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Compare a genuine native full20 injection with separate K/C and accessible
+  algebra against a specified local bath or fresh-cell dilation with explicit
+  control/energy accounting. The old Poisson early-time question and the
+  unrestricted finite endpoint energy optimization are now resolved at their
+  stated scopes. Exact phase-aware channel distance and scalar amplitude
+  control remain distinct alternatives.
+
+  Historical predecessor result/continuation:
   Compare the actual native full20/K-C/accessibility construction and sharp
   scalar amplitude control against a certified phase-aware channel-distance
   optimum or the remaining short-time compound-Poisson classicality question.
@@ -19719,6 +19745,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  For an exact dynamical bath realization, supply its actual reservoir/time
+  structure: finite pure-bath endpoints need four dimensions, bounded smooth
+  start is excluded, and autonomous finite-bath recurrence forbids all-time
+  exponential decay. Endpoint spectral minima do not supply that structure.
+  A native full20/K/C/accessibility adapter or a sharp spacetime amplitude
+  certificate remains a competing construction; retain complex-distance,
+  rotation, three-wall, sextic/optimizer, mirror/full-II and normal-jet debts.
+  Intermediate Poisson times and the sharp noisy-classicality threshold need a
+  new separator or actual phase law, not more unsupported phase samples.
+
+  Historical predecessor result/continuation:
   A sharp complex-distance result must enforce the integrated positive
   generator and all phase cycles; the modulus optimizer cannot saturate it.
   For the old Poisson model, supply an actual early-time witness or phase

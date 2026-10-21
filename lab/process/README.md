@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [K1909 exact evidence](k1909-poisson-phase-classification.json).
+- [K1910 exact evidence](k1910-minimal-dephasing-bath-energy.json).
+
 - [k1907-four-mode-dephasing-distance](k1907-four-mode-dephasing-distance.json).
 - [k1908-quantum-markov-phase-noise](k1908-quantum-markov-phase-noise.json).
 
