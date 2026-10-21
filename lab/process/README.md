@@ -2041,3 +2041,8 @@ consistency workflow.
 - `hostile-reviews/2026-08-12-selected-k77-i2b-observer-associated-basicness-review.md` — enforces the inverse-form adjoint, adapted `(0,7,8,9)` Lorentz plane, source-half/group/connection fence and analytic/symplectic scope.
 - `conditional-physics-ledger-v0.217.json` / `selected-k77-i2b-observer-inverse-adjoint-correction.json` — append-only correction of v0.216's fixed-field blocks to `-328/9,+8,+8,+8`, preserving naturality and failed basicness while composing RB4--RB7 and retiring a duplicate `SO(3)` successor.
 - `hostile-reviews/2026-08-12-selected-k77-i2b-observer-inverse-adjoint-correction-review.md` — identifies the inherited involutive-adjoint defect, separates family existence from ownership, and routes the current selected action to constrained-`u` variation.
+
+## 2026-10-20: fixed-parameter accuracy and moving observations
+
+- `k1872-fisher-global-deficit-modulus.json`: exact arithmetic and scope for the all-parameter deficit modulus.
+- `k1873-traveling-mass-compatibility.json`: polynomial and exceptional-speed dual witnesses for fixed-symbol traveling mass.

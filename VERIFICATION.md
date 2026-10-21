@@ -7,7 +7,39 @@ updated_at: "2026-10-20"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
-## 2026-10-20: effective balanced-well accuracy and separated mass observations
+## 2026-10-20: full-line Fisher accuracy and traveling-profile compatibility
+
+[K1872](explorations/k1872-fisher-global-deficit-modulus-2026-10-20.md)
+proves gamma_full>exp(-488/delta), delta=k-1 in(0,2), for the ACTUAL
+moment-selected Fisher oscillator. Every exactly feasible density obeys
+TV<=min(1,exp(244/delta)sqrt(D)), without evenness or mean-zero balance.
+Moment-error, product/observable, weighted square-root and semigroup consumers
+follow. Constants are conservative and collapse at the two-well endpoint;
+no sharp tunneling, entropy or practical precision claim. K1853's k2 bound
+and K1867's near-Gaussian estimates remain stronger in their respective scopes.
+
+[K1873](explorations/conditional-build/k1873-traveling-mass-compatibility-2026-10-20.md)
+excludes a constant conservative triple supporting EVERY profile m(x1-vt)
+with nonzero mass and v!=0, for the fixed leading observation and symbols.
+Polynomial dual witnesses cover all real speeds, with separate exact controls
+at the exceptional source speeds. A supplied common drift of both principal
+operators permits even accelerating translations and preserves positive norms,
+closed domains and the translated observation range. This changes the stated
+symbols; it neither solves the original fixed-symbol problem nor restores
+missing wall/line modes. General nonlinear or profile-specific C/S remains open.
+
+K1872:17 algebraic checks+4pins; separate82 mathematical,4pin and7scope
+controls;10input+7reporting faults. K1873:228 exact matrix/polynomial groups
++3pins; separate188 mathematical groups+3pins+scope check;7input+4reporting
+faults. Analytic reasoning owns continuum/domain transfers; no proof assistant,
+external acceptance or novelty claimed. Source SC-OP-04/MAS-01/CHI-02 ASSERTS
+candidate/stylized, SC-OP-05/META-53 UNCERTAIN; source, physics ledger and canon
+verdicts unchanged. Next compare an actual native coefficient/pairing/domain
+adapter with a specific nonlinear fixed-symbol profile or a practical
+balanced-well accuracy target. Generic fixed-delta gap existence and uniform
+traveling constant-triple tests are now answered.
+
+## Historical 2026-10-20: effective balanced-well accuracy and separated mass observations
 
 [K1870](explorations/k1870-fisher-effective-two-well-stability-2026-10-20.md)
 gives a finite endpoint TV bound to the actual Fisher optimizer: mean-zero

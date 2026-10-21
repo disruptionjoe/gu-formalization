@@ -462,3 +462,8 @@ the ledger probe uses the standard Python interpreter.
   balanced orbit, the global zero-charge equivariance obstruction, and the
   source-physical `4+1+9` Lorentz commutant obstruction. Run with
   `python3 <path>`; `29/29` pass.
+
+## 2026-10-20: fixed-parameter accuracy and moving observations
+
+- K1872: `k1872_fisher_global_deficit_modulus.py` and `_probe.py`: actual-optimizer coefficient bounds and independent exact controls.
+- K1873: `k1873_traveling_mass_compatibility.py` (Sage) and `_probe.py` (Sympy): all-speed polynomial witnesses and drift repair.

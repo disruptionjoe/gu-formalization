@@ -7,13 +7,24 @@ updated_at: "2026-10-20"
 
 # Next Steps For Contributors
 
+> **2026-10-20: FIXED-PARAMETER ACCURACY AND MOVING-PROFILE TEST COMPLETE.**
+> K1872 gives an explicit full-line Fisher deficit modulus for every1<k<3,
+> including unbalanced competitors; its exponential constants are conservative.
+> K1873 settles the arbitrary traveling constant-triple class at every nonzero
+> speed and supplies an explicit changed-symbol common-drift repair. Next build
+> actual native coefficient/pairing/observation data, a specific nonlinear
+> fixed-symbol moving profile, or a practical balanced-well accuracy certificate.
+> Earlier requests for generic fixed-delta effectiveness or uniform traveling
+> triples are historical and should not be repeated. Physics verdicts unchanged.
+
+
 > **2026-10-20: BALANCED ENDPOINT ACCURACY AND TWO-AXIS OBSERVATION COMPLETE.**
 > K1870 supplies explicit TV/local-profile/product bounds; K1871 builds
 > separated orthogonal-mass observations, line modes, exact source-energy
 > budgets and a thresholded gap repair. These retain conditional/independent
 > scope. Next construct actual native coefficients/pairing/domain or solve
-> a genuinely nonseparable compatibility equation; a fixed-delta balanced
-> Fisher modulus still needs constrained coercivity. Earlier requests below
+> a genuinely nonseparable compatibility equation. The former fixed-delta
+> modulus request is answered by K1872; practical coercivity remains open. Earlier requests below
 > are historical at their original scope; no repeated endpoint or line-packet tests.
 
 > **2026-10-20: TWO-WELL AND WALL-RANGE TESTS CLOSED AT DECLARED SCOPES.**

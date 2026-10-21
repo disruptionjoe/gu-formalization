@@ -1,0 +1,56 @@
+{
+  "result_id": "K1872",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "parameters": {
+    "delta_open_interval": [
+      "0",
+      "2"
+    ],
+    "F_upper_numerator": 4,
+    "b_upper_numerator": 16,
+    "R": 3,
+    "L": 4,
+    "kappa_numerator": 40,
+    "gap_exponent_numerator": 488,
+    "TV_exponent_numerator": 244,
+    "a_error_numerator": 104,
+    "b_error_numerator": 16,
+    "Sobolev_numerator": 608
+  },
+  "claims": {
+    "all_parities": true,
+    "balance_required": false,
+    "fixed_delta_vanishing_deficit": true,
+    "uniform_positive_endpoint_gap": false,
+    "practical_tunneling_constant": false,
+    "entropy_bound": false,
+    "native_GU_credit": false
+  },
+  "checks": {
+    "virial_Q": true,
+    "secant_bound": true,
+    "mixture_moment": true,
+    "mixture_inverse": true,
+    "tail_polynomial_at_9": true,
+    "tail_translation": true,
+    "compact_absolute_polynomial": true,
+    "compact_absolute_linear": true,
+    "compact_Q_constants": true,
+    "compact_kappa": true,
+    "B_prefactor": true,
+    "exponential_margin": true,
+    "gap_exponent": true,
+    "TV_exponent": true,
+    "a_error_bound": true,
+    "sobolev_constant": true,
+    "sobolev_distance_factor": true
+  },
+  "inputs": {
+    "explorations/k1843-unrestricted-fisher-variational-gap-2026-10-20.md": "4dd0b02b04005af66c6b33b384d7e86ac0f3a028a0f3fa312ba6b503aa4fb307",
+    "explorations/k1849-fisher-effective-gap-2026-10-20.md": "18f9961acffa9c9b33cf7ed7f9f730cd4dcce5741ccbb4e9b5b7b4613ff1cd61",
+    "explorations/k1853-fisher-practical-gap-2026-10-20.md": "a404af1e03b9c081eb33596fd9f1fac9f40559247d0486dd1dd68e15648646a8",
+    "explorations/k1868-fisher-two-well-instability-2026-10-20.md": "874cda8e57f3ee0b4b8e30c91451b20c8c091cb64cd81643b249a969d739bd03"
+  }
+}

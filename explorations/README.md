@@ -3723,3 +3723,8 @@ reduction/support/BV/domain gate.
 constructs that global full labelled Clifford frame on the admitted K77
 branch, selects the source-guided bulk-plus-independent-`X` support horn, and
 keeps the `lambda_def` alias, nonlinear BV and null/Green domain explicit.
+
+## 2026-10-20: fixed-parameter accuracy and moving observations
+
+- [K1872: all-parameter Fisher deficit modulus](k1872-fisher-global-deficit-modulus-2026-10-20.md).
+- [K1873: traveling mass compatibility](conditional-build/k1873-traveling-mass-compatibility-2026-10-20.md).
