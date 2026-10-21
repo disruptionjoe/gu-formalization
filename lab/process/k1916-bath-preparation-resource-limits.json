@@ -1,0 +1,15 @@
+{
+  "math_checks": 20,
+  "d": 4,
+  "target_rank": 2,
+  "support_rank": 2,
+  "retained_Gibbs_mass": "4/5",
+  "minimum_relative_entropy": "log(5/4)",
+  "minimum_trace_distance": "1/5",
+  "exact_preparation_scope": "state-resource optimum; no finite-time or total-work claim",
+  "rate_scope": "finite-dimensional regular GKSL with finite integrated ||sum L*L||",
+  "dependency_sha256": {
+    "explorations/conditional-build/k1912-faithful-bath-dephasing-boundary-2026-10-21.md": "de080a5d2f640ffb8e9cf15913b05b192b13c3fe975675d0513a03f4283d516a",
+    "explorations/conditional-build/k1913-leakage-robust-bath-bound-2026-10-21.md": "d4919498865448c9132dcb1e815049a1165b8c031bd29adc54a4f4ee3283add1"
+  }
+}

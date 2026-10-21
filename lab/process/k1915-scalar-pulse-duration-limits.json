@@ -1,0 +1,11 @@
+{
+  "math_checks": 24,
+  "polynomial_energy": "1024/35",
+  "polynomial_peak": "96*sqrt(5)/125",
+  "short_constant": "2*||F||_infinity/c",
+  "long_constant": "||phi||_infinity",
+  "scope": "fixed smooth zero-area phase; infima, not smooth threshold attainment",
+  "dependency_sha256": {
+    "explorations/conditional-build/k1914-scalar-control-transport-cuts-2026-10-21.md": "45c6baca4c153733384175926f0a25379d0337284855c78bcfba12bb318489a5"
+  }
+}

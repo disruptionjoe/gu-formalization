@@ -7,6 +7,8 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [K1915: sharp scalar duration limits](conditional-build/k1915-scalar-pulse-duration-limits-2026-10-21.md) and [K1916: bath preparation resources](conditional-build/k1916-bath-preparation-resource-limits-2026-10-21.md): phase/energy tradeoff, spectral costs, finite-rate limits and collective savings.
+
 - [K1913: leakage-robust bath limits](conditional-build/k1913-leakage-robust-bath-bound-2026-10-21.md) and [K1914: exact scalar control cuts](conditional-build/k1914-scalar-control-transport-cuts-2026-10-21.md): full-channel thermal floor, transport cuts and smooth strict-slack realization.
 
 - [K1911: fresh-cell dynamics](conditional-build/k1911-fresh-cell-dephasing-dynamics-2026-10-21.md) and [K1912: faithful bath limits](conditional-build/k1912-faithful-bath-dephasing-boundary-2026-10-21.md): explicit finite circuits, operational errors and thermal support bounds; conditional models only.

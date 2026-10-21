@@ -7,6 +7,8 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [K1915 duration controls](k1915-scalar-pulse-duration-limits.json) and [K1916 preparation controls](k1916-bath-preparation-resource-limits.json): exact finite evidence for the scoped analytic theorems.
+
 - [K1913 bath bound](k1913-leakage-robust-bath-bound.json) and [K1914 scalar cuts](k1914-scalar-control-transport-cuts.json): exact finite evidence with explicit analytic and regularity scope.
 
 - [K1911 exact report](k1911-fresh-cell-dephasing-dynamics.json) and [K1912 exact report](k1912-faithful-bath-dephasing-boundary.json): reproducibility evidence for the matching conditional research notes.

@@ -7,6 +7,14 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-21: SHARP DURATION AND PREPARATION COSTS.** K1915 closes
+> fixed-profile duration limits and the phase-only short-time plateau optimum,
+> exposing its conflict with bounded gradient energy. K1916 closes exact
+> spectral preparation costs and finite-rate limits, including collective
+> savings. Next compare native/spatial construction with a finite-energy
+> amplitude tradeoff or sharp unchanged-bath channel optimizer. Static cost
+> is not a physical reset protocol. Older continuation wording is historical.
+
 > **2026-10-21: ROBUST BATH LIMITS AND EXACT CONTROL CUTS.** K1913 closes
 > the population-leakage loophole with a full-channel thermal floor. K1914
 > supplies the complete measurable cut criterion and smooth exact endpoints

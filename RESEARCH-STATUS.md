@@ -8,6 +8,33 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-21: Sharp pulse limits and bath preparation resources
+
+[K1915](explorations/conditional-build/k1915-scalar-pulse-duration-limits-2026-10-21.md)
+proves sharp short- and long-duration peak-control limits for any fixed smooth
+zero-area phase, with exact controls and duration brackets. The released
+phase-optimized plateau limit improves the energy-minimizing profile's peak
+cost; approaching its best primitive norm forces gradient energy to diverge.
+A four-transition inequality gives a quantitative finite-energy amplitude floor
+for centered plateaux. The full finite-duration/energy Pareto optimum remains open.
+
+[K1916](explorations/conditional-build/k1916-bath-preparation-resource-limits-2026-10-21.md)
+solves the minimum free energy and trace-distance change needed to prepare
+an exact extreme-channel bath, over all state orientations. Truncated Gibbs
+states attain the optima. Regular finite-rate preparation retains full rank;
+spectral-tail and channel-error lower bounds compose with exact damping
+controls. Collective preparation can save free energy, including an explicit
+log2 dimensionless saving for two flat qutrit baths. These are state-resource
+optima and a specified dynamical limit, not total-work protocols.
+
+Analytic proofs carry the general claims. Exact producers and separately
+written probes check characteristic identities, truncated cuts, spectral
+orientation, support, tensor extremality and damping, with real input faults.
+No native GU identification, novelty, external expert review or formal proof.
+Source/physics-ledger/canon verdicts unchanged. Older open preparation and
+leading-duration statements below are historical at these new scopes.
+
+
 ## 2026-10-21: Leakage robustness and exact scalar control cuts
 
 [K1913](explorations/conditional-build/k1913-leakage-robust-bath-bound-2026-10-21.md)
