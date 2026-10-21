@@ -166,6 +166,8 @@ the ledger probe uses the standard Python interpreter.
 
 # Selected-Shiab observed-receiver probes
 
+- K1913 leakage-robust bath bound and K1914 scalar-control transport cuts: matching producers and independent `_probe.py` files; exact finite math and input faults, universal scope in the analytic notes.
+
 - `full_domain_shiab_observed_einstein_receiver_probe.py` proves the complete
   rank-ten kernel obstruction and checks the canonical Riemann/Gauss repair,
   exact first variation, equation dual and planted scope failures.

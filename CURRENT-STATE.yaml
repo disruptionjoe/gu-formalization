@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 995901c205686831c88994ef34e61f1ef7bde895
+revision_basis: de468b7bb48aeb50d226ca9f2a20e08645489c10
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1913 proves a leakage-robust finite-bath bound for arbitrary joint
+    unitaries: sqrt(Choi trace-distance)+sqrt(mean population leakage)
+    is at least sqrt(d*lambda_min*delta/(4*h)). Half-diamond error is at least
+    d*lambda_min*delta/(16*h), with delta=6-4sqrt2 and h=4+sqrt2.
+    The Gibbs and finite faithful-cell consequences do not assume exact population
+    preservation. K1914 characterizes bounded scalar reachability by all
+    characteristic transport cuts, supplies a sharp continuous pulse and a finite
+    primal/dual control, and proves the same infimum for fixed smooth compact
+    phases with exact endpoints at every strict amplitude slack. A short-time
+    T^-2 lower bound sharpens the former bracket. Thermal global sharpness,
+    smooth equality attainment and joint phase/energy optimization remain open.
+    These are supplied models; no native GU or source/physics/canon verdict changes.
+
+    Historical predecessor result:
     K1911 constructs exact three-state fresh-cell steps, proves diamond error
     at most 2*t*h for the Poisson semigroup, and gives a finite fifteen-cell
     nonclassical circuit. The required drive scales as h^(-1/2), while emitted
@@ -15610,6 +15624,8 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1913-leakage-robust-bath-bound-2026-10-21.md
+    - explorations/conditional-build/k1914-scalar-control-transport-cuts-2026-10-21.md
     - explorations/conditional-build/k1911-fresh-cell-dephasing-dynamics-2026-10-21.md
     - explorations/conditional-build/k1912-faithful-bath-dephasing-boundary-2026-10-21.md
     - explorations/conditional-build/k1909-poisson-phase-classification-2026-10-21.md
@@ -16525,6 +16541,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Compare an actual native full20/K/C/accessibility or spatial coupling
+  construction with evaluating the scalar all-cut optimizer for fixed smooth
+  plateaux and joint energy budgets. The measurable and smooth strict-slack
+  reachability criterion is now proved; do not repeat bump-only brackets.
+  A sharp fixed-spectrum thermal optimizer remains an independent alternative.
+
+  Historical predecessor current question:
   Compare an actual native full20/K/C/accessibility or spatial coupling
   construction with sharp amplitude-constrained scalar control. Fresh-cell
   Markov approximation and faithful finite-bath endpoint feasibility now have
@@ -19767,6 +19790,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  For scalar work evaluate the supremum over measurable cuts and supply
+  an attaining phase/control or a global dual certificate; threshold equality,
+  joint phase/energy optimization and bandwidth constraints remain separate.
+  For bath work match a full-channel thermal lower bound by a constructive
+  optimizer, or specify a spatial reservoir and its resource accounting.
+  Native full20 injection, separate K/C and accessible-algebra maps remain
+  construction candidates. Retain phase-aware distance, rotation, three-wall,
+  sextic/optimizer, mirror/full-II and normal-jet debts.
+
+  Historical predecessor next condition:
   A native interpretation still needs the full20 injection, separate K/C
   and accessible-algebra map. For a physical bath realization supply spatial
   transport, preparation, clock and reset costs beyond the finite collision

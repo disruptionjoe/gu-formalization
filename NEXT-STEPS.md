@@ -7,6 +7,14 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-21: ROBUST BATH LIMITS AND EXACT CONTROL CUTS.** K1913 closes
+> the population-leakage loophole with a full-channel thermal floor. K1914
+> supplies the complete measurable cut criterion and smooth exact endpoints
+> at every strict amplitude slack. Next compare a native/spatial construction
+> with the fixed-profile all-cut optimizer or joint phase/energy problem.
+> Thermal sharpness and smooth threshold attainment remain open. Do not repeat
+> solved support or bump-bracket tests. Older next-step wording is historical.
+
 > **2026-10-21: FRESH CELLS AND THERMAL PREPARATION.** K1911 closes an explicit
 > repeated-cell process construction with operational error, finite-circuit
 > nonclassicality and separate drive/energy costs. K1912 closes exact extreme

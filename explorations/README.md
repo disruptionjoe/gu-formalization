@@ -7,6 +7,8 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [K1913: leakage-robust bath limits](conditional-build/k1913-leakage-robust-bath-bound-2026-10-21.md) and [K1914: exact scalar control cuts](conditional-build/k1914-scalar-control-transport-cuts-2026-10-21.md): full-channel thermal floor, transport cuts and smooth strict-slack realization.
+
 - [K1911: fresh-cell dynamics](conditional-build/k1911-fresh-cell-dephasing-dynamics-2026-10-21.md) and [K1912: faithful bath limits](conditional-build/k1912-faithful-bath-dephasing-boundary-2026-10-21.md): explicit finite circuits, operational errors and thermal support bounds; conditional models only.
 
 - [K1909 poisson phase classification](conditional-build/k1909-poisson-phase-classification-2026-10-21.md).

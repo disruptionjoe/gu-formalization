@@ -8,6 +8,29 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-21: Leakage robustness and exact scalar control cuts
+
+[K1913](explorations/conditional-build/k1913-leakage-robust-bath-bound-2026-10-21.md)
+extends the thermal approximation floor to arbitrary joint unitaries with
+population leakage, using a positive Choi witness and weighted polar bounds.
+It gives an explicit full-channel Gibbs floor and finite faithful-cell network
+consumer; the global thermal optimum remains open.
+
+[K1914](explorations/conditional-build/k1914-scalar-control-transport-cuts-2026-10-21.md)
+proves necessary and sufficient capacity cuts for bounded measurable scalar
+pulses. For fixed smooth compact phases, these also give the smooth infimum,
+with exact endpoints at every strict amplitude slack. An explicit continuous
+saturating family, finite primal/dual certificate and short-time T^-2 bound
+follow. Threshold attainment and joint phase/energy optimization are separate.
+
+Analytic arguments carry universal scope. Exact producers and independently
+written probes check matrices, integrals, cuts and real input faults; report
+and pin checks are separate. No novelty, external expert acceptance, formal
+proof or native GU attribution. Source, physics ledger and canon unchanged.
+Previous K1912 leakage and K1902 reachability gaps below are historical at the
+new scopes; the native bridge, spatial reservoir and sharp optimizers remain.
+
+
 
 ## 2026-10-21: Fresh-cell dynamics and faithful-bath limits
 

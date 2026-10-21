@@ -1,0 +1,14 @@
+{
+  "dimension": 4,
+  "witness_norm": "sqrt(2) + 4",
+  "tracial_gap": "6 - 4*sqrt(2)",
+  "mean_leakage": "200/10201",
+  "choi_witness": "10039/102010",
+  "robust_half_diamond_floor": "d*lambda_min(rho)*(6-4*sqrt(2))/(16*(4+sqrt(2)))",
+  "gibbs_floor": "exp(-beta*Delta)*(6-4*sqrt(2))/(16*(4+sqrt(2)))",
+  "sharpness": "not claimed",
+  "math_checks": 15,
+  "dependency_sha256": {
+    "explorations/conditional-build/k1912-faithful-bath-dephasing-boundary-2026-10-21.md": "de080a5d2f640ffb8e9cf15913b05b192b13c3fe975675d0513a03f4283d516a"
+  }
+}
