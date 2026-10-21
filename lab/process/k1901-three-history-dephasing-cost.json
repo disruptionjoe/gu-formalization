@@ -1,0 +1,12 @@
+{
+  "phase_second_moment": "8*pi**2/27",
+  "energy_factor": "4*pi/27",
+  "unrestricted_ratio": "32/27",
+  "probabilities": [
+    "1/3",
+    "1/3",
+    "1/3"
+  ],
+  "math_checks": 10,
+  "dependency_sha256": "a96400ded74e5fe2473fc9ea4c5eee6bc1666081da650070702a58c7d7db861e"
+}

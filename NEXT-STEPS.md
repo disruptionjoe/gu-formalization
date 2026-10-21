@@ -7,6 +7,18 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-21: RESOURCE AND CHANNEL CONSTRAINTS RESOLVED.**
+> K1901 proves the exact32/27 three-history energy penalty; K1902 solves
+> symmetric and asymmetric fixed-support scalar phase energy with a necessary/
+> sufficient amplitude bracket; K1903 gives a robust four-mode witness separating
+> every classical phase law from an explicit quantum dilation. Next compare the
+> native full20/K-C/accessibility construction with a specified quantum bath,
+> locality and energy interface, or exact amplitude-constrained control.
+> Finite quantum realization does not imply a causal continuum bath. Reuse
+> completed scalar spatial optima and phase-law tests; source/ledger/canon
+> verdicts remain unchanged. Earlier next-step statements are historical;
+> noncanonical rotation, three-wall and scalar sextic alternatives remain.
+
 > **2026-10-21: ACTIVE ENERGY AND SHARP NOISE COSTS.** K1899 resolves
 > the raw free-energy domain during smooth massive scalar pulses; it does not
 > identify physical detector energy. K1900 gives sharp arbitrary-law phase-noise

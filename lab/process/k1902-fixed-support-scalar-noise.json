@@ -1,0 +1,10 @@
+{
+  "kappa": "1/(2*a)+1/(2*(L-b))",
+  "support_penalty": "1+a/(L-b)",
+  "f_norm_factor": "(L+b-a)/(8*c)",
+  "necessary_MT_factor": "1/2",
+  "example_energy": "pi/288",
+  "asymmetric_example": "155/102",
+  "math_checks": 14,
+  "dependency_sha256": "a96400ded74e5fe2473fc9ea4c5eee6bc1666081da650070702a58c7d7db861e"
+}

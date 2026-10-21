@@ -7,6 +7,10 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [K1901 three history dephasing cost](conditional-build/k1901-three-history-dephasing-cost-2026-10-21.md).
+- [K1902 fixed support scalar noise](conditional-build/k1902-fixed-support-scalar-noise-2026-10-21.md).
+- [K1903 quantum dephasing witness](conditional-build/k1903-quantum-dephasing-witness-2026-10-21.md).
+
 - [K1899 active-pulse free-energy domain](conditional-build/k1899-active-pulse-energy-2026-10-21.md).
 - [K1900 sharp noise cost and scalar steering](conditional-build/k1900-sharp-phase-noise-cost-2026-10-21.md).
 

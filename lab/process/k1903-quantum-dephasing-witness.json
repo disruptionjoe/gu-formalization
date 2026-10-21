@@ -1,0 +1,61 @@
+{
+  "delta": "6-4*sqrt(2)",
+  "witness_norm": "4+sqrt(2)",
+  "offdiag_error_factor": "10*sqrt(2)",
+  "noise_exclusion_threshold": "(3-2*sqrt(2))/4",
+  "rank": 2,
+  "C": [
+    [
+      "1",
+      "0",
+      "sqrt(2)/2",
+      "sqrt(2)/2"
+    ],
+    [
+      "0",
+      "1",
+      "sqrt(2)/2",
+      "sqrt(2)*I/2"
+    ],
+    [
+      "sqrt(2)/2",
+      "sqrt(2)/2",
+      "1",
+      "1/2 + I/2"
+    ],
+    [
+      "sqrt(2)/2",
+      "-sqrt(2)*I/2",
+      "1/2 - I/2",
+      "1"
+    ]
+  ],
+  "H": [
+    [
+      "2",
+      "1 - I",
+      "-sqrt(2)",
+      "-sqrt(2)"
+    ],
+    [
+      "1 + I",
+      "2",
+      "-sqrt(2)",
+      "-sqrt(2)*I"
+    ],
+    [
+      "-sqrt(2)",
+      "-sqrt(2)",
+      "2",
+      "0"
+    ],
+    [
+      "-sqrt(2)",
+      "sqrt(2)*I",
+      "0",
+      "2"
+    ]
+  ],
+  "math_checks": 20,
+  "dependency_sha256": "a96400ded74e5fe2473fc9ea4c5eee6bc1666081da650070702a58c7d7db861e"
+}

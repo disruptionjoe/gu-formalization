@@ -7,6 +7,42 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-21: constrained noise costs and a quantum channel witness
+
+[K1901](explorations/conditional-build/k1901-three-history-dephasing-cost-2026-10-21.md)
+proves that complete three-mode dephasing using exactly three classical phase
+histories costs **32/27** of the unrestricted four-history optimum, for any
+positive adjacent gaps. Square-unitary row norms force equal probabilities;
+equilateral relative phases fix the exact cost. Smooth common scalar pulses
+approach the infimum without adding histories, with unrestricted support.
+
+[K1902](explorations/conditional-build/k1902-fixed-support-scalar-noise-2026-10-21.md)
+solves fixed-support energy for two plateau modes, including the scalar
+zero-integral constraint. Symmetric geometry has penalty `1+a/(L-b)`;
+asymmetric geometry has an exact quadratic/Schur formula with a genuine area
+cost. It supplies finite-duration scalar realizations and necessary versus
+sufficient amplitude bounds. The amplitude optimum is not claimed.
+
+[K1903](explorations/conditional-build/k1903-quantum-dephasing-witness-2026-10-21.md)
+constructs a rank-two four-mode quantum dephasing channel with witness value
+zero, while every classical phase mixture has value at least `6-4 sqrt(2)`.
+It includes a sharp witness, robustness/tolerance bounds, an explicit qubit
+ancilla and a bounded neutral-mode test. The dimension-three/four distinction
+is established prior art; this is a reproducible operational control, not a
+novelty claim. The finite quantum dilation has no inferred continuum locality
+or sea-energy guarantee.
+
+Analytic variational, convex and matrix proofs carry scope; exact producers and
+separate probes test their coefficients and finite constructions. No formal
+proof or external acceptance is claimed. Source, physics-ledger and canon
+verdicts remain unchanged. Next compare the native full20/K-C/accessibility
+construction against a specified quantum bath/locality/energy interface or
+sharp amplitude-constrained scalar control. Do not repeat the completed
+finite-history, fixed-support spatial or classical-phase feasibility results.
+Noncanonical rotation, three-wall, scalar sextic/optimizer-relative and
+joint mirror/full-II/normal-jet debts remain. Earlier open statements below
+are historical at their original scope.
+
 ## 2026-10-21: active-time energy and sharp noise costs
 
 [K1899](explorations/conditional-build/k1899-active-pulse-energy-2026-10-21.md)

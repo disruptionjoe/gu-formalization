@@ -1,5 +1,9 @@
 # Pre-contract wave probes
 
+- [K1901 three history dephasing cost](k1901_three_history_dephasing_cost.py).
+- [K1902 fixed support scalar noise](k1902_fixed_support_scalar_noise.py).
+- [K1903 quantum dephasing witness](k1903_quantum_dephasing_witness.py).
+
 - [K1899 producer](k1899_active_pulse_energy.py).
 - [K1899 independent probe](k1899_active_pulse_energy_probe.py).
 - [K1900 producer](k1900_sharp_phase_noise_cost.py).

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 285fce8b4b92dcf92839dbd028db0d1b0a45af21
+revision_basis: 8a1cce8d1e3c44e25e8936f03c681f7f0c41e5f2
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,16 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1901 proves the exact 32/27 energy penalty for complete three-mode
+    dephasing with three classical phase histories. K1902 solves fixed-support
+    two-plateau scalar noise energy, including asymmetric zero-area cost, and
+    gives necessary/sufficient amplitude-duration bounds. K1903 constructs a
+    robust four-mode witness excluding every classical phase mixture while
+    admitting a rank-two quantum dilation and bounded neutral-mode test.
+    Its dimension threshold is established prior art. No quantum continuum
+    locality, bath energy or native GU identification is inferred. Source,
+    physics-ledger and canon verdicts are unchanged.
+    Historical preceding results and their original open conditions:
     K1899 resolves active-time free excitation energy in the massive scalar
     target: finite particle count but a positive logarithmic energy divergence
     for nonconstant V(t). All-time finite raw energy forces a trivial compact
@@ -15553,6 +15563,18 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1901-three-history-dephasing-cost-2026-10-21.md
+    - lab/process/k1901-three-history-dephasing-cost.json
+    - tests/channel-swings/k1901_three_history_dephasing_cost.py
+    - tests/channel-swings/k1901_three_history_dephasing_cost_probe.py
+    - explorations/conditional-build/k1902-fixed-support-scalar-noise-2026-10-21.md
+    - lab/process/k1902-fixed-support-scalar-noise.json
+    - tests/channel-swings/k1902_fixed_support_scalar_noise.py
+    - tests/channel-swings/k1902_fixed_support_scalar_noise_probe.py
+    - explorations/conditional-build/k1903-quantum-dephasing-witness-2026-10-21.md
+    - lab/process/k1903-quantum-dephasing-witness.json
+    - tests/channel-swings/k1903_quantum_dephasing_witness.py
+    - tests/channel-swings/k1903_quantum_dephasing_witness_probe.py
     - explorations/conditional-build/k1899-active-pulse-energy-2026-10-21.md
     - lab/process/k1899-active-pulse-energy.json
     - tests/channel-swings/k1899_active_pulse_energy.py
@@ -16430,6 +16452,12 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Compare native full20/K-C/accessibility construction with a specified
+  quantum bath/locality/energy interface or exact amplitude-constrained scalar
+  control. Fixed-support spatial energy, three-history costs and the four-mode
+  classical-phase obstruction are answered at their conditional scope.
+
+  Historical completed predecessor continuation:
   Compare native full20/injection/K-C/accessibility construction with a
   specified physical energy observable or constrained scalar noise budget.
   Raw active-time free energy and unrestricted 1D phase-noise costs are now
@@ -19638,6 +19666,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Freeze an actual quantum environment generator and spatial coupling before
+  transferring the finite-mode channel witness to continuum causality or energy.
+  Alternatively solve the remaining amplitude-constrained scalar control problem
+  using the exact spatial coefficient and feasibility bracket, not another
+  unconstrained phase-law calculation. Retain native full20/K-C/accessibility,
+  noncanonical rotation, three-wall and scalar sextic/optimizer-relative contenders.
+
+  Historical completed predecessor continuation:
   Freeze the detector/energy measurement or support/amplitude constraints
   before a new quantitative noise calculation. Reuse K1899 active-time
   endpoint analysis and K1900 arbitrary-law optimum and scalar steering.

@@ -7,6 +7,10 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [K1901 three history dephasing cost](k1901-three-history-dephasing-cost.json).
+- [K1902 fixed support scalar noise](k1902-fixed-support-scalar-noise.json).
+- [K1903 quantum dephasing witness](k1903-quantum-dephasing-witness.json).
+
 - [K1899 active-pulse coefficient controls](k1899-active-pulse-energy.json).
 - [K1900 sharp noise cost and multi-coherence controls](k1900-sharp-phase-noise-cost.json).
 
