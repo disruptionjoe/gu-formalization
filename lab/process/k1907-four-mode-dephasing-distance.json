@@ -1,0 +1,13 @@
+{
+  "lower_equation": "e*(1/sqrt(2)+e)=(1/sqrt(2)-e)**4",
+  "root_bracket": [
+    "13/100",
+    "14/100"
+  ],
+  "upper": "1/sqrt(2)-exp(-pi/4)",
+  "modulus_optimum_attained": true,
+  "complex_lower_equality_attained": false,
+  "exact_complex_optimum_claimed": false,
+  "math_checks": 20,
+  "dependency_sha256": "533e5f0ae6fbdf97d24a00cdd3e9f610107fff7e9171165523e7169b0442cb07"
+}

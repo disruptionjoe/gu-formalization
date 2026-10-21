@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k1907-four-mode-dephasing-distance](k1907_four_mode_dephasing_distance.py).
+- [k1907-four-mode-dephasing-distance independent probe](k1907_four_mode_dephasing_distance_probe.py).
+- [k1908-quantum-markov-phase-noise](k1908_quantum_markov_phase_noise.py).
+- [k1908-quantum-markov-phase-noise independent probe](k1908_quantum_markov_phase_noise_probe.py).
+
 - [k1904-spacelike-dephasing-locality](k1904_spacelike_dephasing_locality.py).
 - [k1904-spacelike-dephasing-locality independent probe](k1904_spacelike_dephasing_locality_probe.py).
 - [k1905-causal-quantum-memory-realization](k1905_causal_quantum_memory_realization.py).

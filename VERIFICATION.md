@@ -7,6 +7,38 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-21: four-mode distance and quantum Markov phase noise
+
+[K1907](explorations/conditional-build/k1907-four-mode-dephasing-distance-2026-10-21.md)
+improves the regular dephasing approximation lower bound to the unique root
+of e(1/sqrt(2)+e)=(1/sqrt(2)-e)^4, between0.13 and0.14. A real Gaussian
+model attains the modulus-only optimum, but a phase-cycle argument rules out
+saturation for the complex target. One explicit complex diagonal Lindblad
+operator attains entry error1/sqrt(2)-exp(-pi/4), about0.25117. The exact
+complex optimum remains open. Pair-input distinguishability supplies an
+operational lower bound without identifying a native GU measurement.
+
+[K1908](explorations/conditional-build/k1908-quantum-markov-phase-noise-2026-10-21.md)
+gives a global phase inequality and finite-time witness for a CP-divisible
+four-level dephasing semigroup: no classical phase law represents its channels
+for0<t<1/33. At1/66 the witness is at most-1/132. An explicit81-history
+Fourier construction gives classical endpoint laws for all t>=2log7. It also
+establishes late-time classicality of K1906's compound-Poisson model for
+t>=log12/(1-1/sqrt(2)); its earlier times remain unclassified. Classical
+endpoint laws do not establish a common classical Markov process. The known
+line-or-circle generator criterion is cited and specialized, with no novelty
+claim.
+
+Analytic arguments carry the general claims; exact and directed-interval
+probes check finite coefficients, controls and faults. No source/physics-ledger
+or canon verdict changes, GU identification, external review or formal proof.
+Next compare the actual native full20/K-C/accessibility construction and sharp
+scalar amplitude control with a phase-aware certified complex-distance optimum
+or a witness/classical representation for the remaining short-time Poisson
+regime. A spatial field bath still needs its coupling, propagation and energy
+interface. Retain rotation, three-wall, sextic/optimizer, mirror/full-II and
+normal-jet debts; prior next-step wording is historical.
+
 ## 2026-10-21: local bath boundary, causal memory and dephasing divisibility
 
 [K1904](explorations/conditional-build/k1904-spacelike-dephasing-locality-2026-10-21.md)

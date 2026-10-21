@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k1907-four-mode-dephasing-distance](conditional-build/k1907-four-mode-dephasing-distance-2026-10-21.md).
+- [k1908-quantum-markov-phase-noise](conditional-build/k1908-quantum-markov-phase-noise-2026-10-21.md).
+
 - [k1904-spacelike-dephasing-locality](conditional-build/k1904-spacelike-dephasing-locality-2026-10-21.md).
 - [k1905-causal-quantum-memory-realization](conditional-build/k1905-causal-quantum-memory-realization-2026-10-21.md).
 - [k1906-dephasing-divisibility-boundary](conditional-build/k1906-dephasing-divisibility-boundary-2026-10-21.md).

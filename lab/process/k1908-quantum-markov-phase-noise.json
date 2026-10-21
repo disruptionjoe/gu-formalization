@@ -1,0 +1,45 @@
+{
+  "generator": [
+    "-1",
+    "1",
+    "0",
+    "-I"
+  ],
+  "classical_phase_witness_weight": 6,
+  "derivative": -1,
+  "certified_time_interval": "0<t<1/33",
+  "time": "1/66",
+  "witness_upper": "-1/132",
+  "output_trace_distance_lower": "1/16896",
+  "old_poisson_classification": "classical for t>=log(12)/(1-1/sqrt(2)); earlier times not decided",
+  "late_classical_threshold": "2*log(7)",
+  "late_phase_histories": 81,
+  "W": [
+    [
+      "17/4",
+      "7/4 - 3*I",
+      "-3",
+      "-3 + 3*I"
+    ],
+    [
+      "7/4 + 3*I",
+      "17/4",
+      "-3",
+      "-3 - 3*I"
+    ],
+    [
+      "-3",
+      "-3",
+      "6",
+      "0"
+    ],
+    [
+      "-3 - 3*I",
+      "-3 + 3*I",
+      "0",
+      "6"
+    ]
+  ],
+  "math_checks": 18,
+  "dependency_sha256": "533e5f0ae6fbdf97d24a00cdd3e9f610107fff7e9171165523e7169b0442cb07"
+}

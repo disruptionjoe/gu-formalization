@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k1907-four-mode-dephasing-distance](k1907-four-mode-dephasing-distance.json).
+- [k1908-quantum-markov-phase-noise](k1908-quantum-markov-phase-noise.json).
+
 - [k1904-spacelike-dephasing-locality](k1904-spacelike-dephasing-locality.json).
 - [k1905-causal-quantum-memory-realization](k1905-causal-quantum-memory-realization.json).
 - [k1906-dephasing-divisibility-boundary](k1906-dephasing-divisibility-boundary.json).

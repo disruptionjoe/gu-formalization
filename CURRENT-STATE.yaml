@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 3eaedb922d7f04ecf47dec12058ff518d5d6b250
+revision_basis: 706227abac11db8c9ba56a53a9ba8b6e068b34d1
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,15 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1907 gives a stronger four-mode regular-dephasing distance lower bound,
+    exact modulus-only optimizer, phase nonattainment and explicit finite-rate
+    upper construction. K1908 gives a rigorous nonclassical short-time
+    Markov semigroup, an observable margin and explicit late-time classical
+    phase laws, including a late-time construction for the prior Poisson
+    model. Exact complex distance and earlier Poisson times remain open.
+    These are supplied positive-Hilbert quantum models, not native GU
+    identifications; source/physics-ledger/canon verdicts remain unchanged.
+    Historical preceding results at their original scopes:
     K1904 proves the commuting-local-environment classical-phase boundary,
     including entangled states, robust approximation and an explicit forward
     signal control. K1905 supplies timed quantum-memory gates on full Fock
@@ -15573,6 +15582,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1907-four-mode-dephasing-distance-2026-10-21.md
+    - lab/process/k1907-four-mode-dephasing-distance.json
+    - tests/channel-swings/k1907_four_mode_dephasing_distance.py
+    - tests/channel-swings/k1907_four_mode_dephasing_distance_probe.py
+    - explorations/conditional-build/k1908-quantum-markov-phase-noise-2026-10-21.md
+    - lab/process/k1908-quantum-markov-phase-noise.json
+    - tests/channel-swings/k1908_quantum_markov_phase_noise.py
+    - tests/channel-swings/k1908_quantum_markov_phase_noise_probe.py
     - explorations/conditional-build/k1904-spacelike-dephasing-locality-2026-10-21.md
     - lab/process/k1904-spacelike-dephasing-locality.json
     - tests/channel-swings/k1904_spacelike_dephasing_locality.py
@@ -16474,6 +16491,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Compare the actual native full20/K-C/accessibility construction and sharp
+  scalar amplitude control against a certified phase-aware channel-distance
+  optimum or the remaining short-time compound-Poisson classicality question.
+  Four-mode modulus geometry and an explicit early-nonclassical/late-classical
+  Markov semigroup are now resolved at their stated scopes.
+
+  Historical completed predecessor continuation:
   Compare actual native full20/K-C/accessibility construction with a spatial
   quantum field/environment interface or sharp distance-to-divisible-channel
   calculation. Commuting bath layers, finite timed-memory realization and
@@ -19694,6 +19718,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  A sharp complex-distance result must enforce the integrated positive
+  generator and all phase cycles; the modulus optimizer cannot saturate it.
+  For the old Poisson model, supply an actual early-time witness or phase
+  representation; its quantum collision and the present inconclusive witness
+  do not decide that interval. Compare these with native full20/K-C/accessibility,
+  amplitude-constrained scalar control and a specified spatial bath/energy
+  interface. Retain rotation, three-wall, sextic/optimizer, mirror/full-II and
+  normal-jet contenders.
+
+  Historical completed predecessor continuation:
   Freeze a spatial local field coupling and energy observable before extending
   K1905 beyond its transported-memory circuit. Alternatively construct a
   four-mode CP-divisible approximant and compare its exact error to K1906's
