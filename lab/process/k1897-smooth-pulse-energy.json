@@ -1,0 +1,18 @@
+{
+  "artifact": "K1897",
+  "coefficients": {
+    "normal_form_denominator": 8,
+    "commutator_energy_factor": "1/4",
+    "dimension": 3,
+    "strict_threshold_offset": "3/2",
+    "energy_iteration_order": 3,
+    "rational_unitary_energy": "112/25",
+    "plateau_visibility_phase": "pi/2",
+    "plateau_visibility": 0
+  },
+  "evidence_kind": "14 exact finite/analytic controls; continuum proof in exploration uses imported regularization and weighted Duhamel",
+  "source_pins": {
+    "lab/process/k1896-local-phase-vacuum-boundary.json": "5dc97ea7ccbc63a818eda9aac9f3626e4a4bd31e01fe9d42105f738931caed37"
+  },
+  "scope": "post-pulse one-particle excitation moments; no active-time or total-many-body-moment theorem"
+}

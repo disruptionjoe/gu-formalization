@@ -7,6 +7,37 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-21: finite post-pulse energy and exact stochastic coherence
+
+[K1897](explorations/conditional-build/k1897-smooth-pulse-energy-2026-10-21.md)
+extends the established finite-order Dirac regularization by a weighted
+Hilbert--Schmidt/Duhamel bound. Every finite one-particle excitation-energy
+moment is finite after a smooth compact massive 3D pulse ends. This is not a
+proof of active-pulse energy or moments of total many-body energy. A plateau
+construction gives exact complete neutral two-mode decoherence, causal
+finite-duration evolution and finite final sea energy in the same 3D model.
+Finite and compact-amplitude mixtures work; arbitrary noise laws need integrability.
+Strong convergence to the instantaneous kick proves particle count and final
+energy diverge as a fixed nonconstant phase pulse is compressed to zero duration.
+
+[K1898](explorations/conditional-build/k1898-stochastic-pulse-energy-coherence-2026-10-21.md)
+independently solves massless 1D stochastic characteristics. It gives exact
+colored/binary coherence and mean energy, a normal heavy-tail mixture with
+infinite mean energy, and a causal white-noise CAR semigroup with linear
+vacuum heating. Energy-versus-coherence bounds and Gaussian pulse controls
+separate persistent-sign saturation from white-noise heating. This is not a
+3D white-noise limit or a microscopic bath.
+
+Analytic proofs carry continuum scope; finite symbolic/Fourier tests and
+independent probes check coefficients, controls and reporting. No novelty,
+external expert acceptance or native GU identification is claimed. Source,
+physics-ledger and canon verdicts remain unchanged. Next compare actual
+full20/injection/K-C/accessibility data with an explicit quantitative 3D pulse
+budget or active-pulse energy calculation; the conditional post-pulse
+existence/neutral-coherence question is now answered. Earlier open energy
+phrases below are historical at their original scope. Noncanonical rotation,
+three-wall domains and scalar sextic/optimizer-relative debts remain distinct.
+
 ## 2026-10-21: causal phase noise and its vacuum boundary
 
 [K1895](explorations/conditional-build/k1895-causal-local-phase-noise-2026-10-21.md)

@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [K1897 all-order post-pulse energy and exact 3D decoherence](k1897-smooth-pulse-energy.json).
+- [K1898 stochastic coherence, heating and energy costs](k1898-stochastic-pulse-energy-coherence.json).
+
 - [K1895 causal continuum phase noise and coherence](k1895-causal-local-phase-noise.json).
 - [K1896 phase-kick vacuum boundary and smooth-pulse repair](k1896-local-phase-vacuum-boundary.json).
 

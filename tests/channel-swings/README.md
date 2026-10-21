@@ -1,5 +1,8 @@
 # Pre-contract wave probes
 
+- [K1897 all-order post-pulse energy and exact 3D decoherence](k1897_smooth_pulse_energy.py).
+- [K1898 stochastic coherence, heating and energy costs](k1898_stochastic_pulse_energy_coherence.py).
+
 - [K1895 causal continuum phase noise and coherence](k1895_causal_local_phase_noise.py).
 - [K1896 phase-kick vacuum boundary and smooth-pulse repair](k1896_local_phase_vacuum_boundary.py).
 

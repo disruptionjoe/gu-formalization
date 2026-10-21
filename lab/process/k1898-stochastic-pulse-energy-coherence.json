@@ -1,0 +1,18 @@
+{
+  "artifact": "K1898",
+  "coefficients": {
+    "per_direction_energy": "1/2",
+    "both_white_energy": 1,
+    "binary_gaussian_prefactor": 2,
+    "gaussian_exponent_denominator": 4,
+    "gaussian_budget_factor": 1,
+    "white_budget_factor": 2,
+    "heavy_tail_sign_probability": 3,
+    "covariance_test_variance": 7
+  },
+  "evidence_kind": "16 exact analytic/symbolic controls; full stochastic proof in exploration",
+  "source_pins": {
+    "lab/process/k1896-local-phase-vacuum-boundary.json": "5dc97ea7ccbc63a818eda9aac9f3626e4a4bd31e01fe9d42105f738931caed37"
+  },
+  "scope": "massless rank-four R1 control; mean excitation energy, not 3D noise limit"
+}

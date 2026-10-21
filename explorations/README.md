@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [K1897 all-order post-pulse energy and exact 3D decoherence](conditional-build/k1897-smooth-pulse-energy-2026-10-21.md).
+- [K1898 stochastic coherence, heating and energy costs](conditional-build/k1898-stochastic-pulse-energy-coherence-2026-10-21.md).
+
 - [K1895 causal continuum phase noise and coherence](conditional-build/k1895-causal-local-phase-noise-2026-10-21.md).
 - [K1896 phase-kick vacuum boundary and smooth-pulse repair](conditional-build/k1896-local-phase-vacuum-boundary-2026-10-21.md).
 

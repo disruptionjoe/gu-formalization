@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 8d271ebf87b2456df91fd252506005bf36ec061b
+revision_basis: 0f9228ca26d816785bc9c33cd5b97c4e184ea7a4
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,17 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1897 proves weighted all-order post-pulse one-particle excitation moment
+    finiteness for the massive 3D Dirac target. A compact smooth plateau pulse
+    exactly dephases neutral modes while retaining causal propagation and finite
+    final sea energy. A fixed nonconstant phase has divergent particle count
+    and energy as pulse duration tends to zero, by strong-limit semicontinuity.
+    Active-time energy and evaluated 3D budgets remain open.
+    K1898 independently solves massless 1D stochastic pulse energy/coherence,
+    including causal white-noise linear heating, operational lower bounds and
+    a normal heavy-tail mixture with infinite mean energy. No 3D white-noise
+    transfer, native GU identification or source/physics-ledger/canon change.
+    Historical preceding results and their original open conditions:
     K1895 constructs a target-causal continuum CAR phase-noise semigroup,
     neutral even-coherence laws, correlated-clock controls and exact 1D transport.
     K1896 shows nonconstant instantaneous smooth phase kicks fail the chosen
@@ -15533,6 +15544,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1897-smooth-pulse-energy-2026-10-21.md
+    - lab/process/k1897-smooth-pulse-energy.json
+    - tests/channel-swings/k1897_smooth_pulse_energy.py
+    - tests/channel-swings/k1897_smooth_pulse_energy_probe.py
+    - explorations/conditional-build/k1898-stochastic-pulse-energy-coherence-2026-10-21.md
+    - lab/process/k1898-stochastic-pulse-energy-coherence.json
+    - tests/channel-swings/k1898_stochastic_pulse_energy_coherence.py
+    - tests/channel-swings/k1898_stochastic_pulse_energy_coherence_probe.py
     - explorations/conditional-build/k1895-causal-local-phase-noise-2026-10-21.md
     - lab/process/k1895-causal-local-phase-noise.json
     - tests/channel-swings/k1895_causal_local_phase_noise.py
@@ -16394,6 +16413,12 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Compare actual native full20/injection/K-C/accessibility construction
+  with an evaluated 3D pulse energy budget or active-pulse energy test.
+  Post-pulse finite energy and exact neutral decoherence now coexist in one
+  conditional massive model; imported noise and vacuum remain unselected.
+
+  Historical completed predecessor continuation:
   Compare a quantitative finite-energy smooth-pulse noise law with actual
   native full20/injection/K-C/accessibility data. Target-causal instantaneous
   noise and massive sea-normal smooth pulses now have distinct rigorous scopes;
@@ -19590,6 +19615,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  For a quantitative 3D noise budget, specify actual smooth pulse profiles
+  and bound the regularized weighted norm or determine the active-time free
+  energy behavior. Do not repeat post-pulse finiteness or infer a 3D white-noise
+  limit from the exact 1D model. The native full20/injection/K-C/accessibility
+  adapter remains the strongest source-facing challenger; retain noncanonical
+  rotation, three-wall and scalar sextic/optimizer-relative alternatives.
+
+  Historical completed predecessor continuation:
   Establish all-order excitation-energy bounds and operational coherence
   for a specified smooth pulse law before claiming a finite-energy noise model.
   A massive external-field theorem already establishes sea implementability;

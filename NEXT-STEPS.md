@@ -7,6 +7,17 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-21: FINITE POST-PULSE ENERGY AND COHERENCE COMPOSED.**
+> K1897 proves all-order final excitation-energy finiteness for smooth massive
+> 3D pulses and exact plateau-based neutral decoherence in that same model.
+> K1898 gives exact 1D stochastic energy/coherence laws, including white-noise
+> heating and a pathwise-finite but mean-infinite ensemble. Next compare native
+> full20/injection/K-C/accessibility construction with a quantitative 3D pulse
+> budget or active-time energy calculation. Do not repeat post-pulse existence
+> or transfer the 1D white-noise theorem to 3D. Historical open-energy wording
+> below predates these results; source/physics/canon verdicts are unchanged.
+> Retain noncanonical rotation, three-wall and scalar sextic alternatives.
+
 > **2026-10-21: CAUSAL NOISE AND VACUUM REQUIREMENTS SEPARATED.**
 > K1895 supplies target-causal continuum phase noise and even-coherence laws.
 > K1896 excludes its nonconstant instantaneous kicks from the chosen 3D sea
