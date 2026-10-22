@@ -7,6 +7,10 @@ updated_at: "2026-08-23"
 
 # Process
 
+- `k1945-energy-compatible-raw-columns.json`: actual K77 matrices, cross-copy kernels and shared rational positive functional.
+- `k1946-quantitative-smooth-pulse.json`: exact smoothing parameters, phase knots, seed pin and resource inequalities.
+
+
 - `k1943-arbitrary-preparation-catalyst-energy.json`: rational primal/dual/Farkas certificates and full physical shell witnesses.
 - `k1944-optimized-scalar-pulse-certificate.json`: lossless rational pulse, exact continuum marginals, energy and budget consumers.
 

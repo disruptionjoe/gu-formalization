@@ -7,6 +7,10 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [K1945: fixed-energy raw completions](conditional-build/k1945-energy-compatible-raw-columns-2026-10-22.md): complete cone and full32-copy constant observation obstruction.
+- [K1946: quantitative smooth pulse](conditional-build/k1946-quantitative-smooth-pulse-2026-10-22.md): explicit smooth construction, exact plateaux and resource bounds.
+
+
 - [K1943: catalyst mean-energy frontier](conditional-build/k1943-arbitrary-preparation-catalyst-energy-2026-10-22.md): sharp diagonal return, exact finite programs, nondegenerate mixtures and global convergence.
 - [K1944: optimized scalar pulse](conditional-build/k1944-optimized-scalar-pulse-certificate-2026-10-22.md): exact4.01 feasibility, smooth-infimum equality and phase-error bounds.
 

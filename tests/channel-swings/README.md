@@ -1,5 +1,9 @@
 # Pre-contract wave probes
 
+- `k1945_energy_compatible_raw_columns{,_probe}.py`: full fixed-energy class and independently reconstructed constant-observation obstruction.
+- `k1946_quantitative_smooth_pulse{,_probe}.py`: explicit rational regularization and independent characteristic/energy controls.
+
+
 - `k1943_arbitrary_preparation_catalyst_energy{,_probe}.py`: sharp diagonal return, finite energy programs, physical mixtures and independent resource controls.
 - `k1944_optimized_scalar_pulse_certificate{,_probe}.py`: rational continuum pulse and independently integrated marginals, amplitude and energy.
 

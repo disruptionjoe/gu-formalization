@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 50ba950216c12216d8a1d9b89ebc4680d4262421
+revision_basis: 79c2a2823cf045998f896fcd2d68b2f2c0b7bba8
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,19 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1945 classifies all fixed-energy dissipative raw one-column completions
+    and their unique prescribed-southeast return. Nonzero conservative examples
+    exist, but the same leading differential observation has no nonzero REAL
+    constant conservative completion, even with arbitrary mixing of all32 copies
+    and a zero-order observation correction. One rational positive functional
+    eliminates all2080 first-order directions. This is a fixed conditional
+    support/pairing obstruction, not native GU falsification. K1946 constructs an
+    explicit integral-defined smooth compact pulse with exact plateaux and zero
+    opposite phase, amplitude below0.229975419 and energy below4.005271623;
+    finite derivative bounds are certified. Source, physics-ledger and canon
+    verdicts remain unchanged.
+
+    Historical predecessor result:
     K1943 proves sharp all-input return for every admissible energy-diagonal
     preparation and a convergent finite-program hierarchy for the global
     mean-energy infimum, including coherent candidates through pinching.
@@ -15821,6 +15834,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1945-energy-compatible-raw-columns-2026-10-22.md
+    - lab/process/k1945-energy-compatible-raw-columns.json
+    - tests/channel-swings/k1945_energy_compatible_raw_columns.py
+    - tests/channel-swings/k1945_energy_compatible_raw_columns_probe.py
+    - explorations/conditional-build/k1946-quantitative-smooth-pulse-2026-10-22.md
+    - lab/process/k1946-quantitative-smooth-pulse.json
+    - tests/channel-swings/k1946_quantitative_smooth_pulse.py
+    - tests/channel-swings/k1946_quantitative_smooth_pulse_probe.py
     - explorations/conditional-build/k1943-arbitrary-preparation-catalyst-energy-2026-10-22.md
     - lab/process/k1943-arbitrary-preparation-catalyst-energy.json
     - tests/channel-swings/k1943_arbitrary_preparation_catalyst_energy.py
@@ -16820,6 +16841,15 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which smallest additional raw input support realizes a conservative
+  mass/observation pair on the SAME K77 background, or can a genuinely variable
+  coefficient evade the constant full-carrier obstruction? Compare that exact
+  construction with a matching global scalar pulse/cut or sharp mean-energy
+  certificate. Constant cross-copy mixing and smooth0.23/4.01 realization are
+  now settled at their stated conditional scopes; neither supplies native K/C
+  ownership, the full20 injection or physical accessibility.
+
+  Historical predecessor question:
   Compare construction of an actual same-background native paired full20
   K/C/domain/accessibility adapter with a structural solution of the remaining
   scalar pulse/cut gap or a practical sharp mean-energy catalyst frontier.
@@ -20184,6 +20214,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Reuse K1945's fixed-energy cone, invertible raw return and all32-copy
+  constant observation obstruction. Test the minimum additional raw INPUT
+  columns needed by the existing K1840 mass lifts, or a specified nonconstant
+  same-background solution; do not repeat constant cross-copy repair. K1946
+  now specifies an exact smooth pulse by finite data and integrals with explicit
+  amplitude, energy and derivative bounds. A tighter derivative frontier or
+  matching global scalar primal/dual certificate is new work; smooth existence
+  alone is not. Preserve K1943's global energy hierarchy without treating finite
+  cutoffs as exact optima. Native full20/K-C/domain/accessibility and phase-aware,
+  rotation, three-wall, sextic/optimizer, mirror/full-II and normal-jet debts remain.
+
+  Historical predecessor continuation:
   Reuse K1943 for diagonal-preparation return and the global energy hierarchy;
   finite-cutoff values are not exact unrestricted optima. Seek a structural
   active-cut/pulse match or sharper global energy certificate only when it

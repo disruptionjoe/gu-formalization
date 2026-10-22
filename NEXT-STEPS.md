@@ -7,6 +7,20 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-22: FULL-CARRIER CONSTANT OBSTRUCTION AND EXPLICIT SMOOTH PULSE.**
+> Reuse K1945's fixed-energy cone, invertible raw return and all32-copy
+> constant observation obstruction. Test the minimum additional raw INPUT
+> columns needed by the existing K1840 mass lifts, or a specified nonconstant
+> same-background solution; do not repeat constant cross-copy repair. K1946
+> now specifies an exact smooth pulse by finite data and integrals with explicit
+> amplitude, energy and derivative bounds. A tighter derivative frontier or
+> matching global scalar primal/dual certificate is new work; smooth existence
+> alone is not. Preserve K1943's global energy hierarchy without treating finite
+> cutoffs as exact optima. Native full20/K-C/domain/accessibility and phase-aware,
+> rotation, three-wall, sextic/optimizer, mirror/full-II and normal-jet debts remain.
+
+> Earlier dated banners below are historical continuations; this banner supersedes their closed tasks.
+
 > **2026-10-22: MEAN-ENERGY HIERARCHY AND CERTIFIED4.01 PULSE.**
 > Reuse K1943 for diagonal-preparation return and the global energy hierarchy;
 > finite-cutoff values are not exact unrestricted optima. Seek a structural

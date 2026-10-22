@@ -8,6 +8,23 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-22: Fixed-energy raw obstruction and explicit smooth control
+
+[K1945](explorations/conditional-build/k1945-energy-compatible-raw-columns-2026-10-22.md) and [K1946](explorations/conditional-build/k1946-quantitative-smooth-pulse-2026-10-22.md)
+
+K1945 classifies all fixed-energy dissipative raw one-column completions
+and their unique prescribed-southeast return. Nonzero conservative examples
+exist, but the same leading differential observation has no nonzero REAL
+constant conservative completion, even with arbitrary mixing of all32 copies
+and a zero-order observation correction. One rational positive functional
+eliminates all2080 first-order directions. This is a fixed conditional
+support/pairing obstruction, not native GU falsification. K1946 constructs an
+explicit integral-defined smooth compact pulse with exact plateaux and zero
+opposite phase, amplitude below0.229975419 and energy below4.005271623;
+finite derivative bounds are certified. Source, physics-ledger and canon
+verdicts remain unchanged.
+
+
 ## 2026-10-22: Mean-energy catalysts and an optimized scalar pulse
 
 [K1943](explorations/conditional-build/k1943-arbitrary-preparation-catalyst-energy-2026-10-22.md) and [K1944](explorations/conditional-build/k1944-optimized-scalar-pulse-certificate-2026-10-22.md)
