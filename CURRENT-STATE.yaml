@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 865cfd13de33d5f1efa349151912b068ecc55b5a
+revision_basis: 483565e9dc42b8fe28e4ff2576ea06715e64e369
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,19 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1931 proves a dimension-uniform finite-error thermal-qubit catalyst return
+    bound tending to1/2 as channel error vanishes at fixed temperature, allowing
+    coherent preparations and population leakage. Weighted support rounding also
+    yields approximate preparation and resonance lower bounds. K1932 constructs
+    exact nondegenerate four-level thermal channels with return7/20, proves the
+    fixed-uniform-preparation optimum, then extends
+    to4l bath levels with explicit finite return and vanishing-return families
+    at fixed positive energy spacing. Bath bandwidth and catalyst energy and
+    preparation cost grow; no optimum over all preparations or product-return claim.
+    These are independent finite positive-Hilbert results; source, physics
+    ledger and canon verdicts remain unchanged.
+
+    Historical predecessor result:
     K1929 classifies exact rank2 extreme-channel simulation by a thermal qubit
     and a nondegenerate catalyst spectrum through internal independent sets of
     its energy-resonance chains. It globally optimizes preparation over coherent
@@ -16689,6 +16702,14 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Compare the actual paired full20/K-C/domain/accessibility adapter and
+  finite-T scalar active-cut dual with a four-level bath return optimum
+  over all preparations or an energy-constrained optimum. K1931 settles conservative
+  qubit finite-error stability and K1932 supplies the occupied-rank2 escape
+  and a priced nonzero-gap growing-bath construction. Do not repeat these
+  existence and continuity endpoints or generic dimension-only embezzling.
+
+  Historical predecessor continuation:
   Compare a same-background full20/K/C/accessibility construction and
   finite-duration scalar cuts with a quantitative approximate-channel extension
   of the fixed-small-bath return bottleneck or a specified rank-two occupied-shell
@@ -19998,6 +20019,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  For fixed four-level bath optimality, prove a global spectral/transport
+  lower certificate allowing arbitrary coherent catalyst preparations and
+  conserving joint unitaries, or produce a strict improvement over K1932.
+  The uniform-preparation four-level minimum is now proved; optimizing over
+  unequal/coherent preparations is a distinct open problem. An energy
+  resource optimum needs matching lower bounds, and local control requires
+  a specified interaction model. Compare these constructions with the native
+  paired adapter and scalar finite-T dual; retain phase-aware, rotation,
+  three-wall, sextic/optimizer, mirror/full-II and normal-jet debts.
+
+  Historical predecessor continuation:
   A finite-error ladder theorem must replace discontinuous shell support
   ranks by a quantitative physical-support or channel-distance inequality. A
   small-return conserving construction must leave the occupied-rank-one shell

@@ -7,6 +7,10 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [K1931: thermal-qubit stability](conditional-build/k1931-thermal-qubit-channel-stability-2026-10-22.md): conservative finite-error return/preparation bounds.
+- [K1932: nondegenerate thermal escape](conditional-build/k1932-four-level-bath-catalyst-return-2026-10-22.md): exact4l-level constructions and resource scaling.
+
+
 - [K1929: resonant ladder preparation](conditional-build/k1929-resonant-ladder-preparation-2026-10-22.md): exact support and Gibbs optimizer.
 - [K1930: shell catalyst disturbance](conditional-build/k1930-energy-shell-catalyst-disturbance-2026-10-22.md): sharp uniform return1/2 and qutrit extension.
 

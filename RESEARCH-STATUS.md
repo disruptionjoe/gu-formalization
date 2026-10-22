@@ -8,6 +8,25 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-22: Stable obstruction and thermal bath escape
+
+[K1931](explorations/conditional-build/k1931-thermal-qubit-channel-stability-2026-10-22.md) and [K1932](explorations/conditional-build/k1932-four-level-bath-catalyst-return-2026-10-22.md)
+
+K1931 gives a conservative qubit return bound tending to1/2 at small
+channel error, plus preparation/resonance consumers, including coherent
+states and population leakage. K1932 realizes the exact channel with return7/20 and a matching
+fixed-uniform-preparation optimum
+using four thermal levels and nondegenerate energies. A4l-level construction
+allows vanishing return at fixed positive spacing while dimensions, energy
+and preparation resources grow. No sharp finite-error, optimum over all preparations,
+product-return, local-control or native GU claim. Earlier limitations below
+remain historical at their stated scopes; source/ledger/canon unchanged.
+
+Validation:6541+1284 producer controls;744+104 independently reconstructed
+controls. Seven mathematical input faults plus2report/2pin faults rejected
+after green baselines. Universal scope is analytic; no expert or formal proof.
+An initially unavailable temporary SymPy environment was replaced before tests.
+
 ## 2026-10-22: Fixed-small-bath catalyst tradeoff
 
 [K1929](explorations/conditional-build/k1929-resonant-ladder-preparation-2026-10-22.md) and [K1930](explorations/conditional-build/k1930-energy-shell-catalyst-disturbance-2026-10-22.md)

@@ -1,0 +1,59 @@
+{
+  "exact_checks": 1284,
+  "examples": [
+    {
+      "bath_levels": 4,
+      "occupied_levels": 1,
+      "return": "3/5"
+    },
+    {
+      "bath_levels": 4,
+      "occupied_levels": 2,
+      "return": "2/5"
+    },
+    {
+      "bath_levels": 4,
+      "occupied_levels": 5,
+      "return": "7/25"
+    },
+    {
+      "bath_levels": 8,
+      "occupied_levels": 2,
+      "return": "33/85"
+    },
+    {
+      "bath_levels": 8,
+      "occupied_levels": 4,
+      "return": "19/85"
+    },
+    {
+      "bath_levels": 8,
+      "occupied_levels": 10,
+      "return": "53/425"
+    }
+  ],
+  "refined_four_level_examples": [
+    {
+      "occupied_levels": 1,
+      "minimax_return": "1/2"
+    },
+    {
+      "occupied_levels": 2,
+      "minimax_return": "7/20"
+    },
+    {
+      "occupied_levels": 3,
+      "minimax_return": "3/10"
+    },
+    {
+      "occupied_levels": 6,
+      "minimax_return": "1/4"
+    }
+  ],
+  "fixed_uniform_preparation_minimax": "t^2/(1+t^2)+(1/2-t^2/(1+t^2))/N",
+  "formula": "t^(2l)/(1+t^(2l)) + sum_a[(t^(2a)+t^(2a+1))/Z_B]*(a+1/2)/N",
+  "assumptions": "m=4l,N>=l,0<t<1, nondegenerate equally spaced energies, uniform odd-level catalyst, marginal return",
+  "global_optimum_claimed": false,
+  "evidence_kind": "exact finite shell matrices and rational controls; analytic proof carries all l,N,t",
+  "script_sha256": "aa5dda54c96373d070373774d86f134d5d8c7b43b3d629bbdee2e3d7edd2752b"
+}

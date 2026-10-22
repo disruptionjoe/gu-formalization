@@ -1,0 +1,11 @@
+{
+  "exact_checks": 6541,
+  "rounding_cases": 3258,
+  "half_diamond_error": "epsilon",
+  "bound": "max(0,1/2-2*(1+sqrt(2))*sqrt((4+sqrt(2))*epsilon)-5*epsilon-(5/2)*min(1,epsilon/(q*c0)))",
+  "c0": "(6-4*sqrt(2))/(16*(4+sqrt(2)))",
+  "fixed_input": "(|1><1|+|2><2|)/2",
+  "scope": "finite faithful thermal qubit; nondegenerate catalyst; exact additive conservation; arbitrary coherent preparation",
+  "universal_proof": "analytic; finite controls are supplementary",
+  "script_sha256": "8886dc13dfb6b4d104151fb5ec7fd9afbc3bc92f4f41d2abb9110fbacb504b3a"
+}

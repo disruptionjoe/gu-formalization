@@ -7,6 +7,14 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-22: STABLE QUBIT FLOOR; LARGER-BATH ESCAPE.** K1931
+> controls approximate-channel error; K1932 constructs exact nondegenerate
+> four-level and growing-bath returns with priced resources. Compare native
+> paired inputs and finite-T scalar cuts against fixed-bath or energy-constrained
+> optimality. These new lower certificates remain distinct from the solved
+> existence endpoints; no product-return or local-control claim.
+
+
 > **2026-10-22: RESONANT LADDER AND SHARP RETURN.** Exact
 > preparation and uniform return1/2 are settled for the specified qubit/qutrit
 > bath model. Compare quantitative approximate-channel stability, occupied-rank2

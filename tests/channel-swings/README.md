@@ -1,5 +1,9 @@
 # Pre-contract wave probes
 
+- [K1931 producer](k1931_thermal_qubit_channel_stability.py) and [probe](k1931_thermal_qubit_channel_stability_probe.py): weighted support, complex witness and coherence controls.
+- [K1932 producer](k1932_four_level_bath_catalyst_return.py) and [probe](k1932_four_level_bath_catalyst_return_probe.py): exact shell unitary and independent rational transport.
+
+
 - `k1929_resonant_ladder_preparation{,_probe}.py`: exact shell/support optimizer and independent enumeration.
 - `k1930_energy_shell_catalyst_disturbance{,_probe}.py`: exact conserving complex channels, coherent support measurement and return optimum.
 

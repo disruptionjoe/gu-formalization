@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [K1931 controls](k1931-thermal-qubit-channel-stability.json) and [K1932 controls](k1932-four-level-bath-catalyst-return.json): finite exact evidence; analytic proofs carry universal scope.
+
+
 - `k1929-resonant-ladder-preparation.json`: finite exact preparation checks.
 - `k1930-energy-shell-catalyst-disturbance.json`: finite exact shell-return checks.
 
