@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: a850e4e293398ae379698496924e3c663b3be929
+revision_basis: 0520ad3dc139e6c714a9e6ac42c48b8d4c24fa0d
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,19 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1935 proves the global fixed-four-level-thermal-bath return infimum
+    t^2/(1+t^2)^2 over arbitrary finite nondegenerate catalyst spectra,
+    preparations and exact conserving implementations. Every finite catalyst is
+    strictly above it; the K1934 sequence approaches it. A sharp two-occupied-energy
+    support transition nevertheless improves finite return: adjacent levels win
+    when 2t^3+t-1>0, with143/434 instead of17/50 at t=3/4. K1936 combines a
+    bounded-jump energy estimate and entropy continuity with physical-channel
+    consumption, giving a dimension-independent fixed-mean-energy return bound,
+    an approximate-channel extension and necessary inverse-error energy growth.
+    These are internal analytic results for supplied positive quantum models;
+    source, physics-ledger and canon verdicts are unchanged.
+
+    Historical predecessor result:
     K1933 proves that energy pinching the initial catalyst cannot worsen
     covariant-target diamond error, all-input marginal return or product-return
     error for the same conserving unitary and invariant bath; mean energy and
@@ -15765,6 +15778,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1935-arbitrary-support-thermal-return-2026-10-22.md
+    - lab/process/k1935-arbitrary-support-thermal-return.json
+    - tests/channel-swings/k1935_arbitrary_support_thermal_return.py
+    - tests/channel-swings/k1935_arbitrary_support_thermal_return_probe.py
+    - explorations/conditional-build/k1936-bounded-energy-catalyst-return-2026-10-22.md
+    - lab/process/k1936-bounded-energy-catalyst-return.json
+    - tests/channel-swings/k1936_bounded_energy_catalyst_return.py
+    - tests/channel-swings/k1936_bounded_energy_catalyst_return_probe.py
     - explorations/conditional-build/k1933-covariant-catalyst-dephasing-reduction-2026-10-22.md
     - lab/process/k1933-covariant-catalyst-dephasing-reduction.json
     - tests/channel-swings/k1933_covariant_catalyst_dephasing_reduction.py
@@ -16724,6 +16745,14 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Compare a finite-duration active-cut certificate for the fixed scalar
+  plateau profile with one actual same-background paired full20/K-C/domain adapter.
+  K1935 closes arbitrary-support exact return for the fixed four-level bath and
+  optimizes two occupied levels; K1936 supplies necessary mean-energy and
+  approximate-channel bounds. Further catalyst work needs a genuinely new sharp
+  finite-energy or stable shell certificate, not more consecutive-odd examples.
+
+  Historical predecessor question:
   Compare one concrete paired full20/K-C/domain/accessibility adapter
   and the finite-T scalar active-cut dual with arbitrary catalyst support or
   a fixed-energy return optimum. K1933 removes energy coherence from the
@@ -20049,6 +20078,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  For the scalar contender, identify the maximizing all-set cut and
+  matching pulse for the fixed odd plateau profile at intermediate duration;
+  the two limiting constants and general cut theorem are already proved.
+  Native construction must pair actual full20 coefficients with K/C and the
+  physical domain/accessibility on one background. Catalyst successors require
+  a matching constrained energy certificate or quantitative replacement for
+  exact shell rank at nonzero channel error. Preserve phase-aware, rotation,
+  three-wall, sextic/optimizer, mirror/full-II and normal-jet debts.
+
+  Historical predecessor continuation:
   A broader thermal return theorem must allow new support patterns and
   their changed shell graphs, or supply a strict counterarchitecture. Energy
   budgets need a matched constrained certificate; approximate channels need

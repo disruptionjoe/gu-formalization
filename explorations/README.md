@@ -7,6 +7,10 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [K1935: arbitrary-support thermal return](conditional-build/k1935-arbitrary-support-thermal-return-2026-10-22.md): global infimum and finite support transition.
+- [K1936: bounded-energy return](conditional-build/k1936-bounded-energy-catalyst-return-2026-10-22.md): dimension-independent necessary bounds and energy growth.
+
+
 - [K1933: covariant preparation reduction](conditional-build/k1933-covariant-catalyst-dephasing-reduction-2026-10-22.md).
 - [K1934: all-unitary fixed-support optimum](conditional-build/k1934-nonuniform-four-level-catalyst-optimization-2026-10-22.md).
 

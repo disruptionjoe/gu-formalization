@@ -8,6 +8,19 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-22: Arbitrary catalyst support and energy constraints
+
+[K1935](explorations/conditional-build/k1935-arbitrary-support-thermal-return-2026-10-22.md) and [K1936](explorations/conditional-build/k1936-bounded-energy-catalyst-return-2026-10-22.md)
+
+The fixed four-level thermal bath has global exact return infimum
+t^2/(1+t^2)^2 even over arbitrary nondegenerate catalyst spectra and coherent
+preparations. Finite support still matters: adjacent occupied levels improve
+the sharp two-level result at warmer temperatures. A separate bounded-energy
+transport argument gives dimension-independent necessary return bounds and
+an approximate-channel extension. No native GU or optimal energy protocol is
+claimed; source, ledger and canon remain unchanged.
+
+
 ## 2026-10-22: Covariant reduction and optimal fixed-support return
 
 [K1933](explorations/conditional-build/k1933-covariant-catalyst-dephasing-reduction-2026-10-22.md) and [K1934](explorations/conditional-build/k1934-nonuniform-four-level-catalyst-optimization-2026-10-22.md)

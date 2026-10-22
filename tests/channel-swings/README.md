@@ -1,5 +1,9 @@
 # Pre-contract wave probes
 
+- `k1935_arbitrary_support_thermal_return{,_probe}.py`: exact Bellman identities, shell paths and full complex attaining channels.
+- `k1936_bounded_energy_catalyst_return{,_probe}.py`: exact bounded-jump transport and independent cutoff controls; numerical entropy illustrations are labeled.
+
+
 - [K1933 producer](k1933_covariant_catalyst_dephasing_reduction.py) and [probe](k1933_covariant_catalyst_dephasing_reduction_probe.py): covariance and countercontrols.
 - [K1934 producer](k1934_nonuniform_four_level_catalyst_optimization.py) and [probe](k1934_nonuniform_four_level_catalyst_optimization_probe.py): exact shell matrices and independently reconstructed orientation dual.
 

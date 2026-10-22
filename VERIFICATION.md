@@ -7,6 +7,27 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-22: Global fixed-bath and bounded-energy return limits
+
+[K1935](explorations/conditional-build/k1935-arbitrary-support-thermal-return-2026-10-22.md) and [K1936](explorations/conditional-build/k1936-bounded-energy-catalyst-return-2026-10-22.md)
+
+The fixed four-level thermal bath has global exact return infimum
+t^2/(1+t^2)^2 even over arbitrary nondegenerate catalyst spectra and coherent
+preparations. Finite support still matters: adjacent occupied levels improve
+the sharp two-level result at warmer temperatures. A separate bounded-energy
+transport argument gives dimension-independent necessary return bounds and
+an approximate-channel extension. No native GU or optimal energy protocol is
+claimed; source, ledger and canon remain unchanged.
+
+Validation: K1935 has1559 exact symbolic/full-complex-unitary controls
+and22332 independently reconstructed rational path/shell controls. K1936
+has2300 exact transport/coupling controls,896 independent exact controls,
+and506 numerical entropy illustrations. Seven actual mathematical-input
+faults plus two report/two pin faults are rejected after green baselines.
+Universal claims rely on explicit analytic proofs; internal independent
+review is not external expert acceptance or formal verification.
+
+
 ## 2026-10-22: Covariant reduction and optimal fixed-support return
 
 [K1933](explorations/conditional-build/k1933-covariant-catalyst-dephasing-reduction-2026-10-22.md) and [K1934](explorations/conditional-build/k1934-nonuniform-four-level-catalyst-optimization-2026-10-22.md)

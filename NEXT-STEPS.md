@@ -7,6 +7,16 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-22: GLOBAL FIXED-BATH RETURN AND ENERGY BOUNDS.**
+> K1935 closes the arbitrary nondegenerate-support exact fixed-four-level-bath
+> infimum and supplies a sharp two-occupied-level support transition. K1936
+> adds necessary mean-energy/approximate-channel constraints. Compare the
+> finite-T active-cut/matching-pulse problem for the fixed scalar plateau
+> profile with a concrete native paired full20/K-C/domain adapter. A catalyst
+> continuation needs a new sharp energy or stable-shell certificate. Earlier
+> unrestricted-support questions are historical at their original scope.
+
+
 > **2026-10-22: FIXED-SUPPORT RETURN OPTIMUM.** K1933 removes energy
 > coherence from covariant channel/return optimization. K1934 solves the
 > consecutive-odd support family over all conserving unitaries, including

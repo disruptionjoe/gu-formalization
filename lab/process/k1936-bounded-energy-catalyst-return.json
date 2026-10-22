@@ -1,0 +1,15 @@
+{
+  "claim": "K1936",
+  "evidence_kind": "finite exact rational controls plus numerical entropy illustrations; analytic theorem in note",
+  "exact_controls": 2300,
+  "numerical_entropy_controls": 506,
+  "certified_example": {
+    "E": 10,
+    "W": 3,
+    "Delta": 1,
+    "beta": "ln2",
+    "return_strictly_greater_than": "1/10000"
+  },
+  "mean_energy_growth_lower_coefficient": "(ln2)^2/(4 beta^2 W)",
+  "source_sha256": "05c8c98346fc7eaffbc9f2cc9035c97c4b865f5910d83bacc9998698ab016e79"
+}

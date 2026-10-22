@@ -1,0 +1,33 @@
+{
+  "claim": "K1935",
+  "evidence_kind": "exact symbolic identities and finite full complex unitary controls; analytic universal proof in note",
+  "exact_controls": 1559,
+  "t_three_quarters": [
+    {
+      "gap": 1,
+      "weights": [
+        "74/217",
+        "143/217"
+      ],
+      "return": "143/434"
+    },
+    {
+      "gap": 2,
+      "weights": [
+        "8/25",
+        "17/25"
+      ],
+      "return": "17/50"
+    },
+    {
+      "gap": 3,
+      "weights": [
+        "32/133",
+        "101/133"
+      ],
+      "return": "101/266"
+    }
+  ],
+  "global_infimum": "t^2/(1+t^2)^2",
+  "source_sha256": "6c1f68547eed08b576c3c9a91ffeb4e26ff27bf38b7273d222199b2b471c1538"
+}
