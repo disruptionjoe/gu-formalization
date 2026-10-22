@@ -7,6 +7,29 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-22: Channel information consumption and catalyst return
+
+[K1925](explorations/conditional-build/k1925-extreme-channel-information-consumption-2026-10-22.md)
+derives the exact physical-environment ensemble and a thermal free-energy
+consumption identity. It supplies tensor-use limits, finite return bounds and
+an explicit harmonic-spectrum construction whose single-average return
+distance vanishes despite log2 consumption. All-input return remains distinct.
+[K1926](explorations/conditional-build/k1926-approximate-catalyst-return-bound-2026-10-22.md)
+proves a relative-entropy/spectral-separation bound for approximate channels
+and catalyst return, including population leakage. Exact-return unital
+channels keep the error floor even for nonfaithful catalysts.
+
+K1925:71 exact producer controls and45 separately reconstructed finite controls.
+K1926:17 exact producer controls and66 separately reconstructed finite controls.
+Four real mathematical-input faults and separate2report/2pin faults are caught
+after green baselines. Universal statements are analytic, not inferred from
+pass counts. General catalytic obstructions and harmonic-spectrum ideas are
+credited to prior art; no novelty, external expert or formal-proof claim.
+These are supplied positive finite models, not native GU identifications.
+Source/physics-ledger/canon verdicts unchanged. Earlier catalytic exclusions
+remain historical limits of those older notes; sharp approximate all-input
+resource optimization, native paired inputs and finite-T scalar cuts remain open.
+
 ## 2026-10-22: Exact energy-shell resources and imperfect conservation
 
 [K1923](explorations/conditional-build/k1923-energy-shell-preparation-cost-2026-10-22.md) proves the exact shellwise preparation criterion and optimal

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 1c6c7e50e7ad1ceecedce3e02794f4c67494b4e3
+revision_basis: bebb12b2ab541eef8304e1951ef9efe636594836
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1925 identifies the physical-environment ensemble of an exact extreme Schur
+    channel and proves its information/thermal free-energy consumption identity.
+    Returned finite catalysts cannot realize the target exactly; tensor uses
+    consume additive information. An explicit harmonic-spectrum construction
+    has vanishing single-average return distance while consuming log2, whereas
+    all-input environmental return has a dimension-independent pairwise limit.
+    K1926 proves a full-channel error bound from joint-state relative entropy
+    and relative spectral separation, with approximate catalyst-return and
+    system-energy consumers. Exact-return unital channels retain the thermal
+    floor even for nonfaithful catalysts. Approximate bounds depend on spectrum;
+    no sharp global tradeoff, total-work protocol or native GU claim.
+    Source, physics-ledger and canon verdicts remain unchanged.
+
+    Historical predecessor result:
     K1923 proves the exact shellwise support criterion for an extreme rank-k
     channel under additive energy conservation, allowing coherent initial bath
     states. The optimal Gibbs-relative entropy is -log p with shellwise retained
@@ -15697,6 +15711,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1925-extreme-channel-information-consumption-2026-10-22.md
+    - lab/process/k1925-extreme-channel-information-consumption.json
+    - tests/channel-swings/k1925_extreme_channel_information_consumption.py
+    - tests/channel-swings/k1925_extreme_channel_information_consumption_probe.py
+    - explorations/conditional-build/k1926-approximate-catalyst-return-bound-2026-10-22.md
+    - lab/process/k1926-approximate-catalyst-return-bound.json
+    - tests/channel-swings/k1926_approximate_catalyst_return_bound.py
+    - tests/channel-swings/k1926_approximate_catalyst_return_bound_probe.py
     - explorations/conditional-build/k1923-energy-shell-preparation-cost-2026-10-22.md
     - explorations/conditional-build/k1924-conservation-defect-channel-bound-2026-10-22.md
     - explorations/conditional-build/k1921-scalar-lower-contact-global-solution-2026-10-22.md
@@ -16624,6 +16646,14 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Compare a same-background full20/K/C/accessibility construction with a
+  dimension- or energy-constrained approximate catalytic channel optimizer,
+  or finite-duration scalar capacity cuts. The exact information/consumption
+  law and spectral-dependent catalyst-return bound are now established.
+  Distinguish return on one average input from uniform return on every input;
+  harmonic spectra show why the former alone cannot certify reusable catalysis.
+
+  Historical predecessor current question:
   Compare an actual same-background full20/K/C/accessibility adapter with
   a robust approximate shell-rank/resource bound and a finite-duration scalar
   capacity optimizer. Exact shell preparation and quantified conservation
@@ -19909,6 +19939,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  For the channel continuation, construct a matching approximate-channel
+  return protocol or a robust all-input information lower bound without an
+  artificial state-spectrum gap; specify finite dimension/energy constraints.
+  Do not transfer the exact extreme-support theorem to approximate channels
+  or the harmonic single-average example to all inputs. Compare that new
+  stability/construction burden against an actual paired full20/K-C/accessibility
+  adapter and finite-T scalar extremal cuts or intermediate unequal-gap contacts.
+  Reuse K1925-K1926 and retain phase-aware distance, rotation, three-wall,
+  sextic/optimizer, mirror/full-II and normal-jet debts.
+
+  Historical predecessor next condition:
   For the thermal continuation construct a robust approximate analogue of
   the extreme shell-support theorem or matching joint preparation/control
   optimizer; exact rank discontinuity cannot be treated as a robust bound.

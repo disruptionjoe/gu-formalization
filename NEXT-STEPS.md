@@ -7,6 +7,14 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-22: INFORMATION COST AND CATALYST RETURN.** K1925 closes the
+> exact physical-environment information/consumption law and constructs
+> vanishing single-average disturbance at fixed entropy cost. K1926 quantifies
+> approximate return with a state-spectrum separation. Next compare a native
+> paired-input construction, a robust all-input approximate-channel bound or
+> matching protocol, and finite-duration scalar cuts. Average return alone is
+> not reusable catalysis; do not repeat the exact obstruction as new work.
+
 > **2026-10-22: EXACT SHELL RESOURCES; ROBUST CONSERVATION BOUND.**
 > K1923 closes exact preparation costs, including coherent bath states; K1924
 > quantifies imperfect-conservation and preparation-error requirements.

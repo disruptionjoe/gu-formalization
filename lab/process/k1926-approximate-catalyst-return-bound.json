@@ -1,0 +1,33 @@
+{
+  "result_id": "K1926",
+  "evidence_kind": "analytic spectral/Hellinger proof and finite exact identities",
+  "mathematical_controls": [
+    "P normalization",
+    "Q normalization",
+    "Hellinger commutator identity",
+    "square-root state commutator",
+    "relative entropy orientation",
+    "weighted off-spectrum mass",
+    "asymmetric weighted matrix entry",
+    "ordered relative separation",
+    "spectral transfer",
+    "degenerate energy return identity",
+    "return trace distance",
+    "noncontrolled exact conservation",
+    "energy exchange",
+    "nonunital entropy identity",
+    "nonunital countercontrol",
+    "single spectral block",
+    "exact-return quadratic root"
+  ],
+  "kappa": "1/4",
+  "Q": "4/25",
+  "commutator_square": "8/125",
+  "relative_entropy": "12*log(4)/125",
+  "return_distance": "3/25",
+  "dependencies": {
+    "explorations/conditional-build/k1912-faithful-bath-dephasing-boundary-2026-10-21.md": "de080a5d2f640ffb8e9cf15913b05b192b13c3fe975675d0513a03f4283d516a",
+    "explorations/conditional-build/k1913-leakage-robust-bath-bound-2026-10-21.md": "d4919498865448c9132dcb1e815049a1165b8c031bd29adc54a4f4ee3283add1",
+    "explorations/conditional-build/k1924-conservation-defect-channel-bound-2026-10-22.md": "1f7798e10e1d211bdaef02357c5f0ab3420dcb6f5601020d380c5115882c08b4"
+  }
+}
