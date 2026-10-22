@@ -7,6 +7,10 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [K1929: resonant ladder preparation](conditional-build/k1929-resonant-ladder-preparation-2026-10-22.md): exact support and Gibbs optimizer.
+- [K1930: shell catalyst disturbance](conditional-build/k1930-energy-shell-catalyst-disturbance-2026-10-22.md): sharp uniform return1/2 and qutrit extension.
+
+
 - [K1927: robust physical information](conditional-build/k1927-robust-physical-environment-information-2026-10-22.md) and [K1928: uniform catalytic simulation](conditional-build/k1928-uniform-catalytic-channel-embezzling-2026-10-22.md): spectrum-free bounds, all-input constructions and matching leading dimension cost.
 
 - [K1925: extreme-channel information and consumption](conditional-build/k1925-extreme-channel-information-consumption-2026-10-22.md) and [K1926: approximate catalyst return](conditional-build/k1926-approximate-catalyst-return-bound-2026-10-22.md): exact thermodynamic accounting, finite constructions and scoped quantitative bounds.

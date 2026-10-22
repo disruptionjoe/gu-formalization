@@ -7,6 +7,24 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-22: Exact nondegenerate catalyst resources
+
+[K1929](explorations/conditional-build/k1929-resonant-ladder-preparation-2026-10-22.md) and [K1930](explorations/conditional-build/k1930-energy-shell-catalyst-disturbance-2026-10-22.md)
+
+K1929 closes exact resonant-ladder preparation, including coherence and
+Gibbs optimization. K1930 proves and attains worst-case marginal return1/2,
+independent of ladder length, for thermal qubit/qutrit baths. Higher-rank tensor
+and resonance constraints follow. Exact conservation and exact channel are
+essential; no robust finite-error bound or native GU claim.
+
+Validation:228+156 finite exact producer controls and34+46 separately
+reconstructed controls;6 real mathematical-input faults plus2 report and2 pin
+faults rejected after green baselines. Analytic arguments establish universal
+scope; finite controls are not formal proof or independent expert acceptance.
+A matrix-equality helper error and an immutable-matrix mutation crash were
+repaired before final green replay; neither was counted as fault detection.
+
+
 ## 2026-10-22: Robust information and uniform catalytic simulation
 
 [K1927](explorations/conditional-build/k1927-robust-physical-environment-information-2026-10-22.md)

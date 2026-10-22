@@ -7,6 +7,10 @@ updated_at: "2026-08-23"
 
 # Process
 
+- `k1929-resonant-ladder-preparation.json`: finite exact preparation checks.
+- `k1930-energy-shell-catalyst-disturbance.json`: finite exact shell-return checks.
+
+
 - [K1927 controls](k1927-robust-physical-environment-information.json) and [K1928 controls](k1928-uniform-catalytic-channel-embezzling.json): exact finite evidence; analytic arguments carry universal scope.
 
 - [K1925 controls](k1925-extreme-channel-information-consumption.json) and [K1926 controls](k1926-approximate-catalyst-return-bound.json): exact finite evidence; general scope rests on the analytic research notes.

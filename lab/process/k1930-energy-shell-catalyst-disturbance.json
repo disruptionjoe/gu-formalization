@@ -1,0 +1,14 @@
+{
+  "exact_checks": 156,
+  "optimal_uniform_return": "1/2",
+  "qubit_example_displaced_state": [
+    "8/15",
+    "0",
+    "2/5",
+    "0",
+    "1/15"
+  ],
+  "finite_error_bound_claimed": false,
+  "evidence_kind": "finite exact complex matrices and rational enumeration; universal scope is analytic",
+  "script_sha256": "44b763cdce86aefaf280f7b22f88bac9fcd2e6dc864d3ac6c94af9e936d354cf"
+}

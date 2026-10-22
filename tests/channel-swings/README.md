@@ -1,5 +1,9 @@
 # Pre-contract wave probes
 
+- `k1929_resonant_ladder_preparation{,_probe}.py`: exact shell/support optimizer and independent enumeration.
+- `k1930_energy_shell_catalyst_disturbance{,_probe}.py`: exact conserving complex channels, coherent support measurement and return optimum.
+
+
 - [K1927 producer](k1927_robust_physical_environment_information.py), [separate probe](k1927_robust_physical_environment_information_probe.py); [K1928 producer](k1928_uniform_catalytic_channel_embezzling.py), [separate probe](k1928_uniform_catalytic_channel_embezzling_probe.py): tomography, physical recovery, full complex channel, spectra and reuse controls.
 
 - [K1925 producer](k1925_extreme_channel_information_consumption.py), [independent probe](k1925_extreme_channel_information_consumption_probe.py); [K1926 producer](k1926_approximate_catalyst_return_bound.py), [independent probe](k1926_approximate_catalyst_return_bound_probe.py): physical environment, harmonic spectra, relative entropy and catalyst-return controls.

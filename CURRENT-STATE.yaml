@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 70b2dabf1c8c4e60f53c54c1dc4a99f450358f8a
+revision_basis: 865cfd13de33d5f1efa349151912b068ecc55b5a
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,19 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1929 classifies exact rank2 extreme-channel simulation by a thermal qubit
+    and a nondegenerate catalyst spectrum through internal independent sets of
+    its energy-resonance chains. It globally optimizes preparation over coherent
+    states; the equal-ladder Gibbs mass is t(1-t^(2L))/((1+t)(1-t^d)). K1930 proves
+    the sharp uniform marginal catalyst-return distance1/2 for this exact model,
+    with an explicit conserving construction. The rank-one-shell proof extends
+    to a thermal qutrit; exact higher-rank/tensor, detuning and preparation
+    consequences are resolved. Dimension alone cannot release small return in
+    this model. Approximate-channel robustness, larger-shell resources and local
+    control remain open. These are independent supplied positive Hilbert models;
+    source, physics-ledger and canon verdicts are unchanged.
+
+    Historical predecessor result:
     K1927 proves dimension- and spectrum-independent physical-environment
     information and entropy-consumption lower bounds for approximate realizations
     of the four-state extreme Schur channel. It handles mixed and nonfaithful
@@ -15725,6 +15738,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1929-resonant-ladder-preparation-2026-10-22.md
+    - lab/process/k1929-resonant-ladder-preparation.json
+    - tests/channel-swings/k1929_resonant_ladder_preparation.py
+    - tests/channel-swings/k1929_resonant_ladder_preparation_probe.py
+    - explorations/conditional-build/k1930-energy-shell-catalyst-disturbance-2026-10-22.md
+    - lab/process/k1930-energy-shell-catalyst-disturbance.json
+    - tests/channel-swings/k1930_energy_shell_catalyst_disturbance.py
+    - tests/channel-swings/k1930_energy_shell_catalyst_disturbance_probe.py
     - explorations/conditional-build/k1927-robust-physical-environment-information-2026-10-22.md
     - lab/process/k1927-robust-physical-environment-information.json
     - tests/channel-swings/k1927_robust_physical_environment_information.py
@@ -16668,6 +16689,14 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Compare a same-background full20/K/C/accessibility construction and
+  finite-duration scalar cuts with a quantitative approximate-channel extension
+  of the fixed-small-bath return bottleneck or a specified rank-two occupied-shell
+  escape. K1929-K1930 settle exact nondegenerate ladder preparation and sharp
+  uniform return1/2 for thermal qubit/qutrit baths. Do not repeat dimension-only
+  embezzling or exact ladder feasibility as new research.
+
+  Historical predecessor question:
   Compare a same-background full20/K/C/accessibility construction and
   finite-duration scalar capacity cuts with the now harder finite-error catalytic
   optimization or a nondegenerate-energy implementation. K1927-K1928 close the
@@ -19969,6 +19998,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  A finite-error ladder theorem must replace discontinuous shell support
+  ranks by a quantitative physical-support or channel-distance inequality. A
+  small-return conserving construction must leave the occupied-rank-one shell
+  class, with its bath and catalyst spectra explicitly priced. Compare these
+  new certificates with an actual paired full20/K-C/domain/accessibility adapter
+  or finite-T scalar active-cut dual. Preserve phase-aware distance, rotation,
+  three-wall, sextic/optimizer, mirror/full-II and normal-jet debts.
+
+  Historical predecessor continuation:
   For a further channel advance, derive a finite-error optimum or constrain
   one specified nonzero Hamiltonian/local control model. The leading r ln d
   coefficient and uniform-return existence are settled in the zero-bandwidth

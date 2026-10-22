@@ -7,6 +7,14 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-22: RESONANT LADDER AND SHARP RETURN.** Exact
+> preparation and uniform return1/2 are settled for the specified qubit/qutrit
+> bath model. Compare quantitative approximate-channel stability, occupied-rank2
+> shell constructions, native paired inputs and finite-T scalar cuts. Earlier
+> generic nonzero-energy questions are narrowed by K1929-K1930; local control
+> and finite-error claims remain open.
+
+
 > **2026-10-22: UNIFORM RETURN AND DIMENSION COST.** K1927 removes the
 > bath spectral-gap dependency for robust physical information/consumption.
 > K1928 supplies all-input product catalyst return with an exact full channel

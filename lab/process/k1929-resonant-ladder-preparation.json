@@ -1,0 +1,8 @@
+{
+  "exact_checks": 228,
+  "example_mass": "10/31",
+  "example_trace_distance": "21/31",
+  "rank3_possible": false,
+  "evidence_kind": "finite exact rational controls; universal statements use analytic proof",
+  "script_sha256": "5ec2f837e5674607a1647da73b8778a54dc9fe16637d14ba07102e15f2648e2a"
+}
