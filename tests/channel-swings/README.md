@@ -1,5 +1,8 @@
 # Pre-contract wave probes
 
+- `k1941_finite_dimension_catalyst_optimizer{,_probe}.py`: shell completion, global finite-D optimizer, exhaustive covers and independent orientations.
+- `k1942_complete_scalar_energy_duality{,_probe}.py`: exact finite-cut duals and separate differential Green reconstruction.
+
 - `k1939_physical_catalyst_resource_frontier{,_probe}.py`: actual shell completions, exact resource optimizer and independent physical-spectrum census.
 - `k1940_joint_scalar_amplitude_energy_cuts{,_probe}.py`: affine continuum pulse reconstruction and independently integrated Green certificates.
 

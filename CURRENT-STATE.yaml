@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 407cfab9afe0598852a658b0cb3651e2891118c7
+revision_basis: 299b968705e2c588154340887315319e8a9f01a0
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,16 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1941 closes the arbitrary finite physical-dimension catalyst-return
+    problem through minimum shell completion and an exact finite optimizer,
+    including attaining full unitaries. K1942 proves a complete countable cut
+    energy dual and strong convergence of relaxed phases, and strengthens the
+    scalar joint energy lower bound at amplitude23/100 to
+    1730979348830867/432645592385000, with upper30/7 unchanged.
+    A rational missed-cut counterexample prevents treating the finite-cut
+    minimizer as globally feasible. Native GU, source, ledger and canon remain unchanged.
+
+    Historical predecessor result:
     K1939 proves the sharp physical catalyst dimension2N+1 and the exact
     mean-energy constrained return frontier with at most two occupied energies;
     small Hilbert dimensions3 through6 have explicit return optima. K1940 proves
@@ -15799,6 +15809,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1941-finite-dimension-catalyst-optimizer-2026-10-22.md
+    - lab/process/k1941-finite-dimension-catalyst-optimizer.json
+    - tests/channel-swings/k1941_finite_dimension_catalyst_optimizer.py
+    - tests/channel-swings/k1941_finite_dimension_catalyst_optimizer_probe.py
+    - explorations/conditional-build/k1942-complete-scalar-energy-duality-2026-10-22.md
+    - lab/process/k1942-complete-scalar-energy-duality.json
+    - tests/channel-swings/k1942_complete_scalar_energy_duality.py
+    - tests/channel-swings/k1942_complete_scalar_energy_duality_probe.py
     - explorations/conditional-build/k1939-physical-catalyst-resource-frontier-2026-10-22.md
     - lab/process/k1939-physical-catalyst-resource-frontier.json
     - tests/channel-swings/k1939_physical_catalyst_resource_frontier.py
@@ -16782,6 +16800,14 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Compare an actual native paired full20/K-C/domain/accessibility
+  construction with a matching global scalar energy pulse/cut solution or
+  higher-support energy-constrained catalytic return. Finite physical dimension
+  and completeness of the scalar cut hierarchy are now settled at their stated
+  scope; a closed numerical joint optimum and native physical identification
+  remain open.
+
+  Historical predecessor question:
   Compare a native paired full20/K-C/domain/accessibility construction
   with the scalar joint amplitude-energy optimizer or a higher-support
   energy-constrained catalyst certificate. K1939 closes physical dimension
@@ -20130,6 +20156,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  For scalar joint optimization construct a feasible optimized pulse
+  and a matching all-cut certificate; halfcuts alone are not proved complete.
+  Use the K1942 full rational-union hierarchy and dual gap for rigorous phase
+  error, retaining the exact missed-cut counterexample. Catalyst work now needs
+  N>=3 mean-energy constraints or quantitative approximate-shell stability;
+  reuse K1941 for arbitrary finite-D return rather than reopening D>=7.
+  Native paired full20/K-C/domain/accessibility remains a construction candidate.
+  Retain phase-aware, rotation, three-wall, sextic/optimizer, mirror/full-II
+  and normal-jet debts.
+
+  Historical predecessor continuation:
   For scalar joint optimization use projected Green cut multipliers
   and an actual exact-marginal pulse; a one-cut minimizer is only a relaxation.
   At budget0.23 the true energy lies strictly above4 and at most30/7.

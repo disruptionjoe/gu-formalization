@@ -8,6 +8,20 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-22: Finite physical dimension and complete scalar energy duality
+
+[K1941](explorations/conditional-build/k1941-finite-dimension-catalyst-optimizer-2026-10-22.md) and [K1942](explorations/conditional-build/k1942-complete-scalar-energy-duality-2026-10-22.md)
+
+K1941 closes the arbitrary finite physical-dimension catalyst-return
+problem through minimum shell completion and an exact finite optimizer,
+including attaining full unitaries. K1942 proves a complete countable cut
+energy dual and strong convergence of relaxed phases, and strengthens the
+scalar joint energy lower bound at amplitude23/100 to
+1730979348830867/432645592385000, with upper30/7 unchanged.
+A rational missed-cut counterexample prevents treating the finite-cut
+minimizer as globally feasible. Native GU, source, ledger and canon remain unchanged.
+
+
 ## 2026-10-22: Physical catalyst resources and joint pulse energy
 
 [K1939](explorations/conditional-build/k1939-physical-catalyst-resource-frontier-2026-10-22.md) and [K1940](explorations/conditional-build/k1940-joint-scalar-amplitude-energy-cuts-2026-10-22.md)

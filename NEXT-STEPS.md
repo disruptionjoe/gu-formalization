@@ -7,6 +7,18 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-22: EXACT DIMENSION AND COMPLETE CUT DUAL.**
+> For scalar joint optimization construct a feasible optimized pulse
+> and a matching all-cut certificate; halfcuts alone are not proved complete.
+> Use the K1942 full rational-union hierarchy and dual gap for rigorous phase
+> error, retaining the exact missed-cut counterexample. Catalyst work now needs
+> N>=3 mean-energy constraints or quantitative approximate-shell stability;
+> reuse K1941 for arbitrary finite-D return rather than reopening D>=7.
+> Native paired full20/K-C/domain/accessibility remains a construction candidate.
+> Retain phase-aware, rotation, three-wall, sextic/optimizer, mirror/full-II
+> and normal-jet debts.
+
+
 > **2026-10-22: PHYSICAL RESOURCES AND JOINT PULSE COST.**
 > For scalar joint optimization use projected Green cut multipliers
 > and an actual exact-marginal pulse; a one-cut minimizer is only a relaxation.

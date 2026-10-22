@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- `k1941-finite-dimension-catalyst-optimizer.json`: exact minimum completions and finite-D optima/witnesses.
+- `k1942-complete-scalar-energy-duality.json`: exact multi-cut KKT, missed-cut and phase-error certificates.
+
 - `k1939-physical-catalyst-resource-frontier.json`: exact physical resource decisions.
 - `k1940-joint-scalar-amplitude-energy-cuts.json`: full affine pulse flows and rational energy lower certificate.
 

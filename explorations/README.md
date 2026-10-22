@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [K1941: finite dimension catalyst optimizer](conditional-build/k1941-finite-dimension-catalyst-optimizer-2026-10-22.md): minimum physical shell completion and global finite-D return.
+- [K1942: complete scalar energy duality](conditional-build/k1942-complete-scalar-energy-duality-2026-10-22.md): convergent cut hierarchy, exact missed cut and phase-error certificates.
+
 - [K1939: physical catalyst resources](conditional-build/k1939-physical-catalyst-resource-frontier-2026-10-22.md): sharp dimension, small-dimension return and two-support energy frontier.
 - [K1940: joint scalar amplitude-energy cuts](conditional-build/k1940-joint-scalar-amplitude-energy-cuts-2026-10-22.md): strict energy penalty and exact lower-amplitude pulse.
 
