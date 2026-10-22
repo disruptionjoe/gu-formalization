@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 9f375691cb66210c528ee4c8a8406f056d9a200b
+revision_basis: 9b7c3abcf14c89f6f76066cf13abfbfeef06cb4c
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1917 removes the common plateau phase by exact reflection at every duration,
+    proves the global sharp high-energy primitive correction 2theta^3/(9E),
+    and constructs all transitions and outer compensators in finite gaps.
+    It supplies a unique relaxed convex obstacle minimizer, a fixed-energy
+    short-time law and a smooth finite-budget bracket. K1918 proves a collective
+    Gibbs support threshold at entropy log(d/k), including critical total cost
+    log2, exact qutrit shell formula and binary-relative-entropy exponents.
+    At q=1/21,N=300 the certified whole-block channel error is below1/10000
+    and preparation relative entropy below1/9999 versus independent cost above14.
+    Finite-copy concentration and Renyi converses give further resource bounds.
+    These require unrestricted collective endpoint unitaries, not local cooling
+    or total-work protocols. No native GU, source/physics-ledger or canon change.
+
+    Historical predecessor result:
     K1915 proves sharp fixed-profile scalar pulse asymptotics: T^2 Mstar
     converges to 2||F||/c as T tends to zero, and T Mstar converges to ||phi||
     as T grows. Explicit exact controls give duration brackets. Optimizing the
@@ -15641,6 +15655,8 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1917-scalar-energy-primitive-frontier-2026-10-22.md
+    - explorations/conditional-build/k1918-collective-thermal-preparation-threshold-2026-10-22.md
     - explorations/conditional-build/k1915-scalar-pulse-duration-limits-2026-10-21.md
     - explorations/conditional-build/k1916-bath-preparation-resource-limits-2026-10-21.md
     - explorations/conditional-build/k1913-leakage-robust-bath-bound-2026-10-21.md
@@ -16560,6 +16576,14 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Compare an actual same-background full20/K/C/accessibility or spatial
+  reservoir construction with the finite-budget scalar obstacle contact set
+  and exact finite-duration control optimizer. Collective thermal spectral
+  cost and its entropy transition are now solved at the stated scope;
+  local/sequential implementation and sharp fixed-spectrum channel distance
+  remain independent questions.
+
+  Historical predecessor current question:
   Compare actual native full20/K/C/accessibility or spatial reservoir
   construction with the amplitude-energy Pareto problem for fixed plateau
   contrast, now that both unconstrained asymptotic peak and energy optima
@@ -19816,6 +19840,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Solve the scalar finite-A contact and matching conditions with a global
+  variational certificate, or construct a finite-range/sequential bath circuit
+  and price its preparation/control resources. Native paired coefficients,
+  full20/domain/accessibility remain construction candidates. Reuse reflection,
+  sharp high-energy constant, entropy threshold, exact qutrit shells and finite
+  copy bounds; do not reprove them. Retain phase-aware distance, rotation,
+  three-wall, sextic/optimizer, mirror/full-II and normal-jet debts.
+
+  Historical predecessor next condition:
   For scalar work impose a finite phase-gradient energy budget and
   construct a sharp primitive-norm/energy certificate or exact finite-duration
   cut optimizer. For bath work supply a matching fixed-spectrum channel

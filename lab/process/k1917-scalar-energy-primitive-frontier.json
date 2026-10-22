@@ -1,0 +1,43 @@
+{
+  "result_id": "K1917",
+  "status": "active_research",
+  "evidence_kind": "analytic proof plus exact finite symbolic controls; no formal proof",
+  "mathematical_controls": [
+    "rising area",
+    "falling area",
+    "rising energy",
+    "falling energy",
+    "rise starts zero",
+    "rise ends h",
+    "fall starts h",
+    "fall ends zero",
+    "connector area",
+    "connector energy",
+    "zero-area perturbation",
+    "connector variational orthogonality",
+    "reflection derivative sign",
+    "reflected endpoint",
+    "strict reflection energy contraction",
+    "sharp leading energy constant",
+    "free cubic Euler equation",
+    "contrary quartic"
+  ],
+  "dependencies": {
+    "explorations/conditional-build/k1915-scalar-pulse-duration-limits-2026-10-21.md": "729dbd370e52313239cb4ffe0c697229dc9fc41156987cb91bb8ee9dd40fbd86"
+  },
+  "formulas": {
+    "A0": "theta*ell/4",
+    "C": "2*theta**3/9",
+    "construction": "C/epsilon+24*(A0+epsilon)**2/(g-3*epsilon/h)**3",
+    "joint_limit": "4*theta**3/(9*c)"
+  },
+  "scope": "symmetric interval and symmetric equal-length plateaux, arbitrary common real phase; smooth infimum asymptotics; relaxed finite-budget characterization",
+  "not_claimed": [
+    "all-budget explicit optimum",
+    "finite-duration exact peak optimum",
+    "native GU",
+    "novelty",
+    "external expert review",
+    "formal proof"
+  ]
+}

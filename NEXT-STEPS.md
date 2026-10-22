@@ -7,6 +7,13 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-22: ENERGY AND COLLECTIVE SUPPORT.** K1917 closes global
+> centering and the sharp high-energy scalar tradeoff; K1918 closes collective
+> spectral cost, entropy threshold and exact qutrit exponents. Next compare
+> native/spatial construction with finite-A contact-set certificates or a
+> local/sequential bath implementation. Exact fixed-spectrum channel distance
+> remains separate. Older continuation wording is historical at these scopes.
+
 > **2026-10-21: SHARP DURATION AND PREPARATION COSTS.** K1915 closes
 > fixed-profile duration limits and the phase-only short-time plateau optimum,
 > exposing its conflict with bounded gradient energy. K1916 closes exact

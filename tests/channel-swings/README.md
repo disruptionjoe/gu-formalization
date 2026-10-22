@@ -166,6 +166,8 @@ the ledger probe uses the standard Python interpreter.
 
 # Selected-Shiab observed-receiver probes
 
+- K1917 scalar energy and K1918 collective thermal support: exact producers and separately written `_probe.py` controls; analytic proofs carry universal scope, with mathematical, report and pin faults separated.
+
 - K1915 scalar duration and K1916 bath preparation: matching exact producers and independent `_probe.py` checks; general claims rest on analytic proofs, with mathematical-input and report/pin faults distinguished.
 
 - K1913 leakage-robust bath bound and K1914 scalar-control transport cuts: matching producers and independent `_probe.py` files; exact finite math and input faults, universal scope in the analytic notes.

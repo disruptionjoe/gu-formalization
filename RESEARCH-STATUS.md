@@ -8,6 +8,32 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-22: Sharp energy tradeoff and collective thermal threshold
+
+[K1917](explorations/conditional-build/k1917-scalar-energy-primitive-frontier-2026-10-22.md)
+proves global reflection reduction, including fixed-duration pulse cost, and
+matches the sharp high-energy primitive correction with explicit finite-gap
+connectors. It characterizes the unique relaxed convex obstacle minimizer,
+proves the fixed-energy short-time law and supplies an exact finite-budget
+bracket. The contact-set solution and finite-duration optimum remain open.
+
+[K1918](explorations/conditional-build/k1918-collective-thermal-preparation-threshold-2026-10-22.md)
+proves the entropy threshold for collective bath support, including critical
+cost log2, exact qutrit shell counts and sharp exponential regimes. A rational
+300-cell example has whole-block half-diamond error below1/10000 and total
+preparation relative entropy below1/9999, versus independent cost above14.
+Finite-copy concentration and spectral Renyi converses extend the resource
+bounds. These permit unrestricted collective unitaries; they do not supply
+local implementation, finite-rate exact cooling or a total-work protocol.
+
+Analytic proofs carry continuum/asymptotic scope; exact producers and separately
+written probes check polynomial constructions, shell enumeration and actual
+input faults. No native GU identification, novelty, expert review or formal
+proof. Source/physics-ledger/canon verdicts unchanged. Older open centering,
+high-energy sharpness and collective spectral-cost statements below are
+historical at these scopes; all-budget/local implementation debts remain.
+
+
 ## 2026-10-21: Sharp pulse limits and bath preparation resources
 
 [K1915](explorations/conditional-build/k1915-scalar-pulse-duration-limits-2026-10-21.md)
