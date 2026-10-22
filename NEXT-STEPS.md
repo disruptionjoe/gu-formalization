@@ -7,6 +7,15 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-22: EXACT SHELL RESOURCES; ROBUST CONSERVATION BOUND.**
+> K1923 closes exact preparation costs, including coherent bath states; K1924
+> quantifies imperfect-conservation and preparation-error requirements.
+> Next compare native paired input construction, robust approximate shell-rank
+> tradeoffs and finite-duration scalar cuts. Exact rank costs do not establish
+> an approximate-channel optimum. Earlier exact-preparation/conservation
+> wording below is historical at these resolved scopes.
+
+
 > **2026-10-22: COMPLETE EQUAL-GAP FRONTIER; THERMAL FLOOR.** K1921
 > closes all equal-gap energy budgets and certifies unequal-gap high budgets.
 > K1922 proves strict thermal operations cannot beat a uniform error floor.

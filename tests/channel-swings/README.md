@@ -1,5 +1,7 @@
 # Pre-contract wave probes
 
+- [K1923 producer](k1923_energy_shell_preparation_cost.py), [independent probe](k1923_energy_shell_preparation_cost_probe.py); [K1924 producer](k1924_conservation_defect_channel_bound.py), [independent probe](k1924_conservation_defect_channel_bound_probe.py): exact shell support, coherent-state and weighted-defect controls.
+
 - [K1921 producer](k1921_scalar_lower_contact_global_solution.py), [independent probe](k1921_scalar_lower_contact_global_solution_probe.py); [K1922 producer](k1922_energy_conserving_thermal_channel_floor.py), [independent probe](k1922_energy_conserving_thermal_channel_floor_probe.py): exact spline and energy-shell controls.
 
 - K1911/K1912: `k1911_fresh_cell_dephasing_dynamics{,_probe}.py` and `k1912_faithful_bath_dephasing_boundary{,_probe}.py` check exact collision, support and thermal controls. General proofs live in their research notes.

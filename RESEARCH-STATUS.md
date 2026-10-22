@@ -8,6 +8,26 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-22: Exact energy-shell resources and imperfect conservation
+
+[K1923](explorations/conditional-build/k1923-energy-shell-preparation-cost-2026-10-22.md) proves the exact shellwise preparation criterion and optimal
+relative-entropy/trace-distance costs, even allowing initial energy coherence.
+Tensor targets retain an extensive exact cost; identical thermal cells give
+an exact binomial-parity law. [K1924](explorations/conditional-build/k1924-conservation-defect-channel-bound-2026-10-22.md) quantifies the full-channel floor
+under imperfect conservation, with energy-gap, finite-control-time and
+preparation-error consequences. Both concern supplied positive finite models.
+No native GU identification, source/ledger/canon change, novelty or work protocol.
+
+K1923: 161 exact producer controls and 67 separately reconstructed finite
+controls. K1924: 22 exact producer controls and 16 separately reconstructed
+controls. Four mathematical-input faults, two reporting faults and two pin
+faults are caught after green baselines. Universal claims are analytic;
+finite tests are neither external expert review nor formal proof.
+Previous exact-conservation/exact-preparation open wording is historical at
+these resolved scopes. Sharp approximate tradeoffs, native paired inputs,
+finite-duration scalar cuts and intermediate unequal-gap contacts remain open.
+
+
 ## 2026-10-22: Complete equal-gap frontier and strict thermal-operation floor
 
 [K1921](explorations/conditional-build/k1921-scalar-lower-contact-global-solution-2026-10-22.md)

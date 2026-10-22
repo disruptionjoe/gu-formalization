@@ -7,6 +7,8 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [K1923: exact energy-shell preparation](conditional-build/k1923-energy-shell-preparation-cost-2026-10-22.md) and [K1924: imperfect conservation](conditional-build/k1924-conservation-defect-channel-bound-2026-10-22.md): exact resource costs and robust channel bounds.
+
 - [K1921: complete equal-gap scalar frontier](conditional-build/k1921-scalar-lower-contact-global-solution-2026-10-22.md) and [K1922: strict thermal-operation floor](conditional-build/k1922-energy-conserving-thermal-channel-floor-2026-10-22.md): global contact and resource certificates.
 
 - [K1919: exact finite-energy contact solution](conditional-build/k1919-scalar-finite-budget-contact-solution-2026-10-22.md) and [K1920: local thermal circuits](conditional-build/k1920-local-block-thermal-channel-construction-2026-10-22.md): global variational certificates and explicit resource bounds.

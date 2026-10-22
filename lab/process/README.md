@@ -7,6 +7,8 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [K1923 controls](k1923-energy-shell-preparation-cost.json) and [K1924 controls](k1924-conservation-defect-channel-bound.json): exact finite checks; general scope proved in the research notes.
+
 - [K1921 exact controls](k1921-scalar-lower-contact-global-solution.json) and [K1922 exact controls](k1922-energy-conserving-thermal-channel-floor.json): analytic proof scope with reproducible finite checks.
 
 - [K1919 finite-energy controls](k1919-scalar-finite-budget-contact-solution.json) and [K1920 block-circuit controls](k1920-local-block-thermal-channel-construction.json): exact finite controls with analytic scope boundaries.
