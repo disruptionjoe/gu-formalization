@@ -7,6 +7,14 @@ updated_at: "2026-08-23"
 
 # Process
 
+## Latest conditional successors: K1951 and K1952
+
+- [K1951: coordinated SE0 principal carrier, split positive quotient and mass lift](../../explorations/conditional-build/k1951-coordinated-zero-southeast-principal-2026-10-22.md).
+- [K1952: collapsed-tail global certificates, sharp energy frontier through675/181 and nonattainment](../../explorations/conditional-build/k1952-catalyst-path-energy-extension-2026-10-22.md).
+
+Both remain active research with unchanged source, physics-ledger and canon verdicts.
+
+
 - `k1949-southeast-zero-mass-compatibility.json`: exact raw maps, unique repairs and quartic residual identities.
 - `k1950-global-catalyst-energy-certificates.json`: complete finite dual cells, equality preparations and actual physical approximations.
 

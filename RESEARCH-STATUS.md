@@ -8,6 +8,36 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-22: K1951/K1952 conditional successors
+
+[K1951](explorations/conditional-build/k1951-coordinated-zero-southeast-principal-2026-10-22.md)
+constructs an actual all-covector SE0 raw invariant carrier: cyclic640 with a
+Jordan obstruction, sharp one-derivative Fourier loss, and maximal positive128
+submodule and quotient with an invariant splitting. A nonzero conservative mass
+has an explicit raw lift with zero added southeast cell. Other source cells,
+barred pairings and physical quotient identification remain unproved. This also
+makes explicit the inherited K1832 compression versus raw-restriction distinction
+in K1949's principal-surgery reasoning; no compressed lower-order result is promoted.
+
+[K1952](explorations/conditional-build/k1952-catalyst-path-energy-extension-2026-10-22.md)
+uses a first-crossing collapsed-tail relaxation and11645 exact orientation-cell
+certificates to extend the global t=1/2 catalyst frontier from19/8 to675/181.
+The first two new segments attain finite protocols throughout. On the final
+segment only the endpoints attain; every strict interior has explicit physical
+finite approximations. This is the fixed exact Schur-channel, marginal-return,
+finite nondegenerate-spectrum model, including coherent lower bounds by pinching.
+
+| Claim | Prior | Current | Weakest dependency | Consistency effect |
+|---|---|---|---|---|
+| Coordinated SE0 stable carrier and mass | open construction | conditional exact result, active_research | changed raw symbol and supplied Fourier geometry | current summaries updated; other source cells remain open |
+| Catalyst energy beyond19/8 | unevaluated | three sharp conditional segments through675/181 | inherited exact channel/path theorem | old frontier marked historical |
+| K1832/K1949 compressed/raw equality | inherited unjustified formula | compression only; raw H640 proof required | K1832 explicit compression definition | K1951 correction and current summary; separate owner-artifact repair required |
+
+No source-register polarity, physics-ledger verdict, canon acceptance or novelty
+claim changes. LT-SM8, LT-GR6b and AC-F1 remain NEEDS. Earlier entries are historical
+where these explicit conditional successors settle their construction questions.
+
+
 ## 2026-10-22: Raw source-cell boundary and sharp global energy costs
 
 [K1949](explorations/conditional-build/k1949-southeast-zero-mass-compatibility-2026-10-22.md) and [K1950](explorations/conditional-build/k1950-global-catalyst-energy-certificates-2026-10-22.md)

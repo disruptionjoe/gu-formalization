@@ -7,6 +7,21 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-22: SPLIT SE0 CARRIER AND EXTENDED ENERGY FRONTIER.**
+> Reuse K1951's actual invariant cyclic640, maximal positive128 quotient/submodule,
+> invariant section and nonzero zero-cell mass lift. Impose the remaining raw
+> source-cell and same-background barred-pairing constraints on these actual
+> matrices. K1832's E512 is a compression; do not assume raw intertwining.
+> K1952 settles the global catalyst frontier through675/181, including attained
+> first segments and a nonattained connecting interior with physical approximants.
+> Compare new higher-energy active paths against an independent scalar primal/cut
+> match; do not repeat finite-tail globality or the evaluated segments. Retain
+> native full20/K-C/physical quotient, phase-aware, rotation, three-wall,
+> sextic/optimizer, mirror/full-II and normal-jet debts.
+
+> Earlier dated banners below are historical; this banner supersedes their closed tasks.
+
+
 > **2026-10-22: PRINCIPAL SOURCE-CELL BOUNDARY AND GLOBAL ENERGY FRONTIER.**
 > Reuse K1949's unique zero added-cell repair, real two-input constant
 > obstruction and rank128 principal-surgery leakage. The next source-facing

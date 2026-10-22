@@ -216,6 +216,14 @@ the ledger probe uses the standard Python interpreter.
 
 # Selected-Shiab observed-receiver probes
 
+## Latest conditional successors: K1951 and K1952
+
+- [K1951: coordinated SE0 principal carrier, split positive quotient and mass lift](../../explorations/conditional-build/k1951-coordinated-zero-southeast-principal-2026-10-22.md).
+- [K1952: collapsed-tail global certificates, sharp energy frontier through675/181 and nonattainment](../../explorations/conditional-build/k1952-catalyst-path-energy-extension-2026-10-22.md).
+
+Both remain active research with unchanged source, physics-ledger and canon verdicts.
+
+
 - K1919 finite-energy contact and K1920 local thermal circuits: exact producers and independent `_probe.py` polynomial, spectrum, support and routing controls. Mathematical faults are separate from report/pin checks.
 
 - K1917 scalar energy and K1918 collective thermal support: exact producers and separately written `_probe.py` controls; analytic proofs carry universal scope, with mathematical, report and pin faults separated.

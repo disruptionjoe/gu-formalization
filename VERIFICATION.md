@@ -7,6 +7,27 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1951/K1952 exact verification, 2026-10-22
+
+K1951 reconstructs all raw matrices and all32 cyclic blocks, every coefficient
+of the quartic identity, maximal stable consumers, positive forms, invariant
+sections and a conservative zero-cell mass lift. A separate bit-flip Clifford
+implementation checks direct raw intertwining without the producer inverse.
+K1952 verifies all11645 complete and first-crossing orientation cells with exact
+rational primal/dual inequalities; independent subset enumeration and bath-label
+coefficients replay the census. Equality faces and actual complex shell unitaries
+check attainment, nonattainment and finite approximants.
+
+Both independent green baselines precede four genuine mathematical-input faults
+per arc; identity and input-pin controls are separate. Polynomial/domain and
+arbitrary-spectrum arguments are stated in the linked explorations, not inferred
+from a finite sample. This is internal exact and analytic verification, not
+formal proof-assistant certification or external expert acceptance.
+
+- [K1951 proof and scope](explorations/conditional-build/k1951-coordinated-zero-southeast-principal-2026-10-22.md)
+- [K1952 proof and scope](explorations/conditional-build/k1952-catalyst-path-energy-extension-2026-10-22.md)
+
+
 ## 2026-10-22: Raw source-cell boundary and sharp global energy costs
 
 [K1949](explorations/conditional-build/k1949-southeast-zero-mass-compatibility-2026-10-22.md) and [K1950](explorations/conditional-build/k1950-global-catalyst-energy-certificates-2026-10-22.md)
