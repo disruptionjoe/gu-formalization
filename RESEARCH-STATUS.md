@@ -8,6 +8,19 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-22: Exact support optimization and finite pulse budgets
+
+[K1937](explorations/conditional-build/k1937-finite-support-thermal-optimizer-2026-10-22.md) and [K1938](explorations/conditional-build/k1938-certified-finite-duration-scalar-control-2026-10-22.md)
+
+K1937 proves and attains the sharp return optimum at each finite occupied
+energy-support size for the fixed four-level thermal bath, with an exact
+support optimizer and budget inversion. K1938 converts finite rational primal
+and dual matrices into certified continuum pulse bounds and proves convergence.
+For its fixed odd plateau at T=9/2, amplitude0.23 is impossible while0.25 is
+achievable. Smooth exact realization of that nonsmooth target is not claimed.
+Neither result identifies native GU physics or changes source, ledger or canon.
+
+
 ## 2026-10-22: Arbitrary catalyst support and energy constraints
 
 [K1935](explorations/conditional-build/k1935-arbitrary-support-thermal-return-2026-10-22.md) and [K1936](explorations/conditional-build/k1936-bounded-energy-catalyst-return-2026-10-22.md)

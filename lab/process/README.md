@@ -7,6 +7,10 @@ updated_at: "2026-08-23"
 
 # Process
 
+- `k1937-finite-support-thermal-optimizer.json`: exact support optimizers and resource budgets.
+- `k1938-certified-finite-duration-scalar-control.json`: full rational pulse matrices and dual potentials.
+
+
 - `k1935-arbitrary-support-thermal-return.json`: exact symbolic and full complex finite controls.
 - `k1936-bounded-energy-catalyst-return.json`: exact transport certificates and separately labeled entropy illustrations.
 

@@ -7,6 +7,16 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-22: FINITE SUPPORT AND FINITE DURATION.**
+> K1937 solves exact occupied-support thermal return through an attaining path
+> construction and dynamic program. K1938 supplies convergent continuum pulse
+> enclosures and a shifted-cut budget exclusion. Compare native paired full20/
+> K-C/domain/accessibility with an exact all-set pulse certificate or constrained
+> energy optimizer. Do not requeue solved finite-support subcases. Exact all-T,
+> approximate-shell and fixed-energy claims remain separate. Earlier continuation
+> prose is historical; source, ledger and canon remain unchanged.
+
+
 > **2026-10-22: GLOBAL FIXED-BATH RETURN AND ENERGY BOUNDS.**
 > K1935 closes the arbitrary nondegenerate-support exact fixed-four-level-bath
 > infimum and supplies a sharp two-occupied-level support transition. K1936

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 0520ad3dc139e6c714a9e6ac42c48b8d4c24fa0d
+revision_basis: 6620f25e386850087bbae3b6983c3e2c821b2a71
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,17 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1937 closes the finite occupied-support thermal return problem for the
+    fixed four-level bath: every admissible rooted path attains its lower bound
+    with a full conserving channel, and a dynamic program optimizes arbitrary
+    nondegenerate support at fixed occupied-energy count. This count is not
+    Hilbert dimension or pre-pinching state rank. K1938 gives convergent rational
+    continuum pulse enclosures with explicit endpoint correction. For its fixed
+    odd plateau at T=9/2, budget0.23 is impossible and0.25 is achievable by a
+    bounded measurable pulse. No exact finite-T optimum, fixed-energy catalyst
+    optimum, native GU identification or source/physics-ledger/canon change.
+
+    Historical predecessor result:
     K1935 proves the global fixed-four-level-thermal-bath return infimum
     t^2/(1+t^2)^2 over arbitrary finite nondegenerate catalyst spectra,
     preparations and exact conserving implementations. Every finite catalyst is
@@ -15778,6 +15789,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1937-finite-support-thermal-optimizer-2026-10-22.md
+    - lab/process/k1937-finite-support-thermal-optimizer.json
+    - tests/channel-swings/k1937_finite_support_thermal_optimizer.py
+    - tests/channel-swings/k1937_finite_support_thermal_optimizer_probe.py
+    - explorations/conditional-build/k1938-certified-finite-duration-scalar-control-2026-10-22.md
+    - lab/process/k1938-certified-finite-duration-scalar-control.json
+    - tests/channel-swings/k1938_certified_finite_duration_scalar_control.py
+    - tests/channel-swings/k1938_certified_finite_duration_scalar_control_probe.py
     - explorations/conditional-build/k1935-arbitrary-support-thermal-return-2026-10-22.md
     - lab/process/k1935-arbitrary-support-thermal-return.json
     - tests/channel-swings/k1935_arbitrary_support_thermal_return.py
@@ -16745,6 +16764,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Compare a source-native paired full20/K-C/domain/accessibility
+  construction with a matching all-set scalar cut/primal theorem or a genuinely
+  energy-constrained catalyst optimizer. Finite occupied-support exact return
+  and certified finite-duration pulse decisions are now executable. Neither
+  substitutes for native physics or an exact all-duration pulse formula.
+
+  Historical predecessor question:
   Compare a finite-duration active-cut certificate for the fixed scalar
   plateau profile with one actual same-background paired full20/K-C/domain adapter.
   K1935 closes arbitrary-support exact return for the fixed four-level bath and
@@ -20078,6 +20104,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Use K1937 dynamic programming for fixed-support budgets rather than
+  re-solving small paths; new catalyst claims must impose energy, physical
+  dimension, degeneracy or approximate-channel constraints explicitly. K1938
+  requires a matching continuum pulse or proof that its candidate cut family
+  exhausts all measurable sets to claim an exact finite-T optimum. The native
+  challenger needs actual paired full20 coefficients with K/C, physical domain
+  and accessibility on one background. Preserve phase-aware, rotation,
+  three-wall, sextic/optimizer, mirror/full-II and normal-jet debts.
+
+  Historical predecessor continuation:
   For the scalar contender, identify the maximizing all-set cut and
   matching pulse for the fixed odd plateau profile at intermediate duration;
   the two limiting constants and general cut theorem are already proved.

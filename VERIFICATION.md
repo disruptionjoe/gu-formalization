@@ -7,6 +7,28 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-22: Finite-support optimum and certified finite-duration pulses
+
+[K1937](explorations/conditional-build/k1937-finite-support-thermal-optimizer-2026-10-22.md) and [K1938](explorations/conditional-build/k1938-certified-finite-duration-scalar-control-2026-10-22.md)
+
+K1937 proves and attains the sharp return optimum at each finite occupied
+energy-support size for the fixed four-level thermal bath, with an exact
+support optimizer and budget inversion. K1938 converts finite rational primal
+and dual matrices into certified continuum pulse bounds and proves convergence.
+For its fixed odd plateau at T=9/2, amplitude0.23 is impossible while0.25 is
+achievable. Smooth exact realization of that nonsmooth target is not claimed.
+Neither result identifies native GU physics or changes source, ledger or canon.
+
+Validation: K1937 has1833 exact rational/full-complex controls and13016
+independent exhaustive path/orientation/shell controls. K1938 has50272 rational
+certificate checks and50065 independent polygon/marginal checks. Seven actual
+mathematical-input faults plus two report/two pin faults are detected after
+green baselines. Floating LP only discovers candidates; rational certificates
+establish the finite bounds and analytic proofs carry universal scope.
+Internal hostile reasoning and independent algorithms are not independent
+expert review or formal verification.
+
+
 ## 2026-10-22: Global fixed-bath and bounded-energy return limits
 
 [K1935](explorations/conditional-build/k1935-arbitrary-support-thermal-return-2026-10-22.md) and [K1936](explorations/conditional-build/k1936-bounded-energy-catalyst-return-2026-10-22.md)

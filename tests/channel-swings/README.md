@@ -1,5 +1,9 @@
 # Pre-contract wave probes
 
+- `k1937_finite_support_thermal_optimizer{,_probe}.py`: exact DP, full complex channels and independent exhaustive orientation checks.
+- `k1938_certified_finite_duration_scalar_control{,_probe}.py`: floating discovery, rational certification and independent polygon/marginal verification.
+
+
 - `k1935_arbitrary_support_thermal_return{,_probe}.py`: exact Bellman identities, shell paths and full complex attaining channels.
 - `k1936_bounded_energy_catalyst_return{,_probe}.py`: exact bounded-jump transport and independent cutoff controls; numerical entropy illustrations are labeled.
 

@@ -7,6 +7,10 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [K1937: finite-support thermal optimizer](conditional-build/k1937-finite-support-thermal-optimizer-2026-10-22.md): sharp support optimum and attaining channels.
+- [K1938: finite-duration scalar control](conditional-build/k1938-certified-finite-duration-scalar-control-2026-10-22.md): rational continuum enclosures and actual endpoint pulses.
+
+
 - [K1935: arbitrary-support thermal return](conditional-build/k1935-arbitrary-support-thermal-return-2026-10-22.md): global infimum and finite support transition.
 - [K1936: bounded-energy return](conditional-build/k1936-bounded-energy-catalyst-return-2026-10-22.md): dimension-independent necessary bounds and energy growth.
 
