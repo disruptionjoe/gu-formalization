@@ -7,6 +7,8 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [K1927: robust physical information](conditional-build/k1927-robust-physical-environment-information-2026-10-22.md) and [K1928: uniform catalytic simulation](conditional-build/k1928-uniform-catalytic-channel-embezzling-2026-10-22.md): spectrum-free bounds, all-input constructions and matching leading dimension cost.
+
 - [K1925: extreme-channel information and consumption](conditional-build/k1925-extreme-channel-information-consumption-2026-10-22.md) and [K1926: approximate catalyst return](conditional-build/k1926-approximate-catalyst-return-bound-2026-10-22.md): exact thermodynamic accounting, finite constructions and scoped quantitative bounds.
 
 - [K1923: exact energy-shell preparation](conditional-build/k1923-energy-shell-preparation-cost-2026-10-22.md) and [K1924: imperfect conservation](conditional-build/k1924-conservation-defect-channel-bound-2026-10-22.md): exact resource costs and robust channel bounds.

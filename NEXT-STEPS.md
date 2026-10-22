@@ -7,6 +7,14 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-22: UNIFORM RETURN AND DIMENSION COST.** K1927 removes the
+> bath spectral-gap dependency for robust physical information/consumption.
+> K1928 supplies all-input product catalyst return with an exact full channel
+> via known staircase spectra, plus a faithful approximate family. Leading
+> r ln d cost ln2 is matched; entropy is consumed. Next compare native paired
+> inputs or finite-T scalar cuts with finite-error/nonzero-energy catalytic
+> optimization. Do not repeat generic embezzling or exact-return exclusions.
+
 > **2026-10-22: INFORMATION COST AND CATALYST RETURN.** K1925 closes the
 > exact physical-environment information/consumption law and constructs
 > vanishing single-average disturbance at fixed entropy cost. K1926 quantifies

@@ -8,6 +8,31 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-22: Robust information and uniform catalytic simulation
+
+[K1927](explorations/conditional-build/k1927-robust-physical-environment-information-2026-10-22.md)
+uses four-projector tomography, two Stinespring transfers and conditional
+entropy to prove physical information and thermal consumption bounds without
+a bath spectral gap, including nonfaithful states and population leakage.
+[K1928](explorations/conditional-build/k1928-uniform-catalytic-channel-embezzling-2026-10-22.md)
+applies known staircase spectra to an EXACT full channel with a changed,
+input-independent product catalyst; a faithful harmonic alternative has both
+errors tending to zero. Together the results establish the leading catalyst
+dimension cost r ln d -> ln2 for the rank2 target at zero energy bandwidth.
+Small trace change still consumes ln2; repeated-use error accumulates.
+
+K1927:20 exact producer and16 separately reconstructed controls.
+K1928:68 exact producer and73 separately reconstructed controls.
+Five real mathematical-input faults plus2report/2pin faults rejected after
+green baselines. Floating entropy examples are illustrative; universal scope
+rests on analytic arguments and cited KSW/Winter theorems. Ng et al's
+staircase and established embezzling ideas explicitly credited; no novelty,
+expert or formal-proof claim. These are supplied finite positive models,
+not native GU identifications. Source/physics-ledger/canon unchanged.
+Earlier all-input and gap limitations describe those predecessor results;
+finite-error optimum, nonzero energies/locality, native paired inputs and
+finite-duration scalar cuts remain open.
+
 ## 2026-10-22: Channel information consumption and catalyst return
 
 [K1925](explorations/conditional-build/k1925-extreme-channel-information-consumption-2026-10-22.md)

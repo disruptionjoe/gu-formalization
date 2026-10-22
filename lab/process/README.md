@@ -7,6 +7,8 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [K1927 controls](k1927-robust-physical-environment-information.json) and [K1928 controls](k1928-uniform-catalytic-channel-embezzling.json): exact finite evidence; analytic arguments carry universal scope.
+
 - [K1925 controls](k1925-extreme-channel-information-consumption.json) and [K1926 controls](k1926-approximate-catalyst-return-bound.json): exact finite evidence; general scope rests on the analytic research notes.
 
 - [K1923 controls](k1923-energy-shell-preparation-cost.json) and [K1924 controls](k1924-conservation-defect-channel-bound.json): exact finite checks; general scope proved in the research notes.

@@ -1,0 +1,132 @@
+{
+  "result_id": "K1928",
+  "evidence_kind": "exact finite spectral constructions; analytic universal proof; floating entropy illustrations separate",
+  "mathematical_controls": [
+    "normalization 2,1",
+    "spectral equality 2,1",
+    "permutation bijection 2,1",
+    "actual permutation state 2,1",
+    "exact return 2,1",
+    "normalization 2,2",
+    "spectral equality 2,2",
+    "permutation bijection 2,2",
+    "actual permutation state 2,2",
+    "exact return 2,2",
+    "normalization 2,3",
+    "spectral equality 2,3",
+    "permutation bijection 2,3",
+    "actual permutation state 2,3",
+    "exact return 2,3",
+    "normalization 2,5",
+    "spectral equality 2,5",
+    "permutation bijection 2,5",
+    "actual permutation state 2,5",
+    "exact return 2,5",
+    "normalization 3,1",
+    "spectral equality 3,1",
+    "permutation bijection 3,1",
+    "actual permutation state 3,1",
+    "exact return 3,1",
+    "normalization 3,2",
+    "spectral equality 3,2",
+    "permutation bijection 3,2",
+    "actual permutation state 3,2",
+    "exact return 3,2",
+    "normalization 3,3",
+    "spectral equality 3,3",
+    "permutation bijection 3,3",
+    "actual permutation state 3,3",
+    "exact return 3,3",
+    "normalization 4,2",
+    "spectral equality 4,2",
+    "permutation bijection 4,2",
+    "actual permutation state 4,2",
+    "exact return 4,2",
+    "harmonic normalization 2,2",
+    "harmonic joint error 2,2",
+    "harmonic catalyst contraction 2,2",
+    "harmonic bath purity 2,2",
+    "harmonic normalization 2,4",
+    "harmonic joint error 2,4",
+    "harmonic catalyst contraction 2,4",
+    "harmonic bath purity 2,4",
+    "harmonic normalization 2,6",
+    "harmonic joint error 2,6",
+    "harmonic catalyst contraction 2,6",
+    "harmonic bath purity 2,6",
+    "harmonic normalization 2,16",
+    "harmonic joint error 2,16",
+    "harmonic catalyst contraction 2,16",
+    "harmonic bath purity 2,16",
+    "harmonic normalization 3,3",
+    "harmonic joint error 3,3",
+    "harmonic catalyst contraction 3,3",
+    "harmonic bath purity 3,3",
+    "harmonic normalization 3,9",
+    "harmonic joint error 3,9",
+    "harmonic catalyst contraction 3,9",
+    "harmonic bath purity 3,9",
+    "harmonic normalization 4,12",
+    "harmonic joint error 4,12",
+    "harmonic catalyst contraction 4,12",
+    "harmonic bath purity 4,12"
+  ],
+  "staircase_examples": [
+    {
+      "k": 2,
+      "a": 1,
+      "d": 2,
+      "r": "1/2"
+    },
+    {
+      "k": 2,
+      "a": 2,
+      "d": 4,
+      "r": "1/3"
+    },
+    {
+      "k": 2,
+      "a": 3,
+      "d": 8,
+      "r": "1/4"
+    },
+    {
+      "k": 2,
+      "a": 5,
+      "d": 32,
+      "r": "1/6"
+    },
+    {
+      "k": 3,
+      "a": 1,
+      "d": 3,
+      "r": "2/3"
+    },
+    {
+      "k": 3,
+      "a": 2,
+      "d": 9,
+      "r": "2/5"
+    },
+    {
+      "k": 3,
+      "a": 3,
+      "d": 27,
+      "r": "2/7"
+    },
+    {
+      "k": 4,
+      "a": 2,
+      "d": 16,
+      "r": "3/7"
+    }
+  ],
+  "exact_channel_error": 0,
+  "rank2_return": "1/(a+1)",
+  "asymptotic_return_log_dimension": "ln(2)",
+  "prior_art": "Ng et al arXiv:1405.3039 equations2-3",
+  "dependencies": {
+    "explorations/conditional-build/k1925-extreme-channel-information-consumption-2026-10-22.md": "02a7465ee4737efc14c8515e3a66b5680f59c8ad5bd478b309644c37cdb24baf",
+    "explorations/conditional-build/k1927-robust-physical-environment-information-2026-10-22.md": "26880c0ffefb11bdecc6d582b89c8a4fa2235c29233ec2beddfec5512a9e0ebc"
+  }
+}

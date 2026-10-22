@@ -1,0 +1,33 @@
+{
+  "result_id": "K1927",
+  "evidence_kind": "analytic KSW and entropy continuity proof; finite exact controls only",
+  "mathematical_controls": [
+    "X tomography",
+    "Y tomography",
+    "offdiagonal tomography",
+    "four projector informational completeness",
+    "physical recovery 0",
+    "physical recovery 1",
+    "physical recovery 2",
+    "physical recovery 3",
+    "orthogonal physical outputs",
+    "nonextreme dephasing Gram",
+    "nonextreme no physical leakage 0",
+    "nonextreme no physical leakage 1",
+    "nonextreme no physical leakage 2",
+    "nonextreme no physical leakage 3",
+    "gentle normalized projection 1/100",
+    "marginal conditioning 1/100",
+    "gentle normalized projection 1/5",
+    "marginal conditioning 1/5",
+    "gentle normalized projection 1/2",
+    "marginal conditioning 1/2"
+  ],
+  "tomography_diamond_coefficient": 10,
+  "recovery_full_diamond_coefficient": 2,
+  "asymptotic_return_log_dimension": "ln(2)",
+  "dependencies": {
+    "explorations/conditional-build/k1925-extreme-channel-information-consumption-2026-10-22.md": "02a7465ee4737efc14c8515e3a66b5680f59c8ad5bd478b309644c37cdb24baf",
+    "explorations/conditional-build/k1926-approximate-catalyst-return-bound-2026-10-22.md": "ac3ccb817b19f50b640841e1c8d211ce376dd6ae00e92e0833f3e3c16e62c851"
+  }
+}

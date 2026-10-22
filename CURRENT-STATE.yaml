@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: bebb12b2ab541eef8304e1951ef9efe636594836
+revision_basis: 70b2dabf1c8c4e60f53c54c1dc4a99f450358f8a
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1927 proves dimension- and spectrum-independent physical-environment
+    information and entropy-consumption lower bounds for approximate realizations
+    of the four-state extreme Schur channel. It handles mixed and nonfaithful
+    baths and population leakage by tomography, recovery and conditional entropy.
+    K1928 applies known staircase thermal-embezzling spectra to an exact full
+    channel with input-independent product catalyst return, constructs a faithful
+    harmonic approximate alternative, and prices entropy consumption and reuse.
+    For zero bandwidth and vanishing channel/return errors, the optimal leading
+    catalyst dimension law is liminf r ln d >= ln2, with matching constructions.
+    Finite-error optimality, practical locality and nonzero-Hamiltonian protocols
+    remain open. These are supplied models, not native GU results; source,
+    physics-ledger and canon verdicts are unchanged.
+
+    Historical predecessor result:
     K1925 identifies the physical-environment ensemble of an exact extreme Schur
     channel and proves its information/thermal free-energy consumption identity.
     Returned finite catalysts cannot realize the target exactly; tensor uses
@@ -15711,6 +15725,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1927-robust-physical-environment-information-2026-10-22.md
+    - lab/process/k1927-robust-physical-environment-information.json
+    - tests/channel-swings/k1927_robust_physical_environment_information.py
+    - tests/channel-swings/k1927_robust_physical_environment_information_probe.py
+    - explorations/conditional-build/k1928-uniform-catalytic-channel-embezzling-2026-10-22.md
+    - lab/process/k1928-uniform-catalytic-channel-embezzling.json
+    - tests/channel-swings/k1928_uniform_catalytic_channel_embezzling.py
+    - tests/channel-swings/k1928_uniform_catalytic_channel_embezzling_probe.py
     - explorations/conditional-build/k1925-extreme-channel-information-consumption-2026-10-22.md
     - lab/process/k1925-extreme-channel-information-consumption.json
     - tests/channel-swings/k1925_extreme_channel_information_consumption.py
@@ -16646,6 +16668,14 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Compare a same-background full20/K/C/accessibility construction and
+  finite-duration scalar capacity cuts with the now harder finite-error catalytic
+  optimization or a nondegenerate-energy implementation. K1927-K1928 close the
+  spectrum-free information bound, all-input approximate catalyst construction
+  and leading dimension law. Do not repeat exact-return exclusions or general
+  embezzling existence as new research.
+
+  Historical predecessor current question:
   Compare a same-background full20/K/C/accessibility construction with a
   dimension- or energy-constrained approximate catalytic channel optimizer,
   or finite-duration scalar capacity cuts. The exact information/consumption
@@ -19939,6 +19969,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  For a further channel advance, derive a finite-error optimum or constrain
+  one specified nonzero Hamiltonian/local control model. The leading r ln d
+  coefficient and uniform-return existence are settled in the zero-bandwidth
+  class; stronger finite claims need a new global extremal certificate.
+  Compare that burden with a real paired full20/K-C/domain/accessibility
+  adapter, finite-T scalar cut matching or intermediate unequal-gap contacts.
+  Retain phase-aware distance, rotation, three-wall, sextic/optimizer,
+  mirror/full-II and normal-jet debts.
+
+  Historical predecessor next condition:
   For the channel continuation, construct a matching approximate-channel
   return protocol or a robust all-input information lower bound without an
   artificial state-spectrum gap; specify finite dimension/energy constraints.

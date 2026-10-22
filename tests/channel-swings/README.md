@@ -1,5 +1,7 @@
 # Pre-contract wave probes
 
+- [K1927 producer](k1927_robust_physical_environment_information.py), [separate probe](k1927_robust_physical_environment_information_probe.py); [K1928 producer](k1928_uniform_catalytic_channel_embezzling.py), [separate probe](k1928_uniform_catalytic_channel_embezzling_probe.py): tomography, physical recovery, full complex channel, spectra and reuse controls.
+
 - [K1925 producer](k1925_extreme_channel_information_consumption.py), [independent probe](k1925_extreme_channel_information_consumption_probe.py); [K1926 producer](k1926_approximate_catalyst_return_bound.py), [independent probe](k1926_approximate_catalyst_return_bound_probe.py): physical environment, harmonic spectra, relative entropy and catalyst-return controls.
 
 - [K1923 producer](k1923_energy_shell_preparation_cost.py), [independent probe](k1923_energy_shell_preparation_cost_probe.py); [K1924 producer](k1924_conservation_defect_channel_bound.py), [independent probe](k1924_conservation_defect_channel_bound_probe.py): exact shell support, coherent-state and weighted-defect controls.
