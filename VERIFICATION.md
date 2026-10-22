@@ -7,6 +7,29 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1955/K1956 exact verification, 2026-10-22
+
+K1955 checks actual raw grade-one connection leakage, exact rank56 minors and
+rational inverse witnesses for stable-subspace and cyclic-parent preservation.
+An independently reconstructed Clifford probe challenges the mathematical inputs.
+Parity and moving-frame consequences are analytic arguments with explicit
+intertwining controls, not an assertion from dimensions alone. Auxiliary-input
+surjectivity and a direct-sum inverse check the changed-support quotient/core
+consequences on all32 blocks.
+
+K1956's universal theorem uses a root-energy resolvent deficit and Jensen's
+inequality. Its producer passes3430 exact supporting controls and1260 full
+complex shell controls. The independent bath recurrence checks16581 finite
+supporting identities, rejects five mathematical faults and separates five
+reporting controls plus identity/pin faults. Independent final-draft review found
+no mathematical defect. The universal proof, finite arithmetic and reporting
+checks have distinct roles; neither result is externally accepted or formally
+certified by a proof assistant.
+
+- [K1955 proof and scope](explorations/conditional-build/k1955-grade-one-connection-2026-10-22.md).
+- [K1956 proof and scope](explorations/conditional-build/k1956-finite-energy-thermal-gap-2026-10-22.md).
+
+
 ## K1953/K1954 exact verification, 2026-10-22
 
 K1953 supplies a364-square leakage inverse and a359-square tensor-system minor

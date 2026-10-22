@@ -8,6 +8,38 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-22: Grade-one carrier obstruction and finite-energy thermal gap
+
+K1955 tests the source-motivated grade-one connection on the actual fixed
+K1951 raw carrier. Exact rank56 excludes all observed four-direction grade-one
+coefficients from preserving the positive128 subspace; a second rank56 certificate
+already excludes preservation of its cyclic640 parent. Chirality separates odd
+and even leakage, so mixed grade-one/bivector coefficients cannot cancel this
+obstruction. Moving rank128 positive invariant images inside the SAME fixed
+cyclic640 equal the unique positive core, so frame derivatives cannot repair
+leakage. This does not exclude changed raw carriers, geometry, full fourteen-direction
+source operators or physical quotient constructions. Auxiliary-only support
+can preserve the parent but has zero action if it descends to the quotient.
+Its observed four-direction span is disjoint from the stable core, so no
+nonzero coefficient matrices in that placement preserve the core.
+
+K1956 proves the uniform bound R_star(E)>=4/25+(652/34375)(2/3)^(25E/16)
+for every finite mean energy E>=1 in the fixed exact-channel/four-level-bath
+model. Explicit finite shell constructions give logarithmic mean-energy growth
+in inverse excess return above the thermal floor. The global exponent and
+constants are not sharp. Source, physics-ledger and canon verdicts stay unchanged.
+
+- [K1955 proof, source scope and exact certificates](explorations/conditional-build/k1955-grade-one-connection-2026-10-22.md).
+- [K1956 uniform gap, physical construction and resource bounds](explorations/conditional-build/k1956-finite-energy-thermal-gap-2026-10-22.md).
+
+| Claim | Prior | Current | Weakest dependency | Consistency effect |
+|---|---|---|---|---|
+| Grade-one realization in fixed carrier | untested conditional class | two exact rank56 exclusions and mixed-parity consequence | selected raw principal system and observation | excludes this class only |
+| Moving positive image in fixed cyclic640 | unique maximal core known | pointwise rank128 image is fixed; no derivative leakage repair | positive principal symmetrizer and fixed carrier | changed geometry remains open |
+| Finite mean energy above thermal floor | each finite catalyst strictly above floor | uniform positive gap and logarithmic resource order | exact channel/path/pinching bridge | sharp exponent remains open |
+| Native source/physics/canon | unchanged | unchanged | unbuilt source action, bars and physical quotient | no promotion |
+
+
 ## 2026-10-22: K1953/K1954 connection and thermal boundaries
 
 [K1953](explorations/conditional-build/k1953-spin-connection-stable-mass-2026-10-22.md) proves full leakage rank364 for the common spinor-only

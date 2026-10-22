@@ -1,0 +1,122 @@
+{
+  "result_id": "K1956",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "constants": {
+    "q": "2/3",
+    "p": "1/9",
+    "W": "25/8",
+    "c": "163/440",
+    "C": "652/34375",
+    "lower_exponent": "25/16",
+    "upper_C": "17/50",
+    "upper_energy_offset": "41/32"
+  },
+  "inputs": {
+    "lab/process/k1934-nonuniform-four-level-catalyst-optimization.json": "9df943db73d3fdd08696a398150453a40adfc666f1a37e82b461d2107dbe352d",
+    "lab/process/k1935-arbitrary-support-thermal-return.json": "1277f6d282ae67b2dfdf04124c39d9a629946bfec9ebe805d5d9a2a4816d8be1",
+    "lab/process/k1943-arbitrary-preparation-catalyst-energy.json": "7f70fe160e477b4cae816185bb86b34edfc39b64127e6508794161c4a767ba9b"
+  },
+  "exact_controls": 3430,
+  "physical_controls": 1260,
+  "families": [
+    {
+      "n": 0,
+      "energy": "1",
+      "return_cost": "1/2",
+      "normalization": "1"
+    },
+    {
+      "n": 1,
+      "energy": "19/8",
+      "return_cost": "9/32",
+      "normalization": "16/9"
+    },
+    {
+      "n": 2,
+      "energy": "675/181",
+      "return_cost": "81/362",
+      "normalization": "181/81"
+    },
+    {
+      "n": 3,
+      "energy": "4781/923",
+      "return_cost": "729/3692",
+      "normalization": "1846/729"
+    },
+    {
+      "n": 4,
+      "energy": "120599/17911",
+      "return_cost": "6561/35822",
+      "normalization": "17911/6561"
+    },
+    {
+      "n": 5,
+      "energy": "707793/84488",
+      "return_cost": "59049/337952",
+      "normalization": "168976/59049"
+    },
+    {
+      "n": 6,
+      "energy": "15828523/1567441",
+      "return_cost": "531441/3134882",
+      "normalization": "1567441/531441"
+    },
+    {
+      "n": 7,
+      "energy": "85475305/7193453",
+      "return_cost": "4782969/28773812",
+      "normalization": "14386906/4782969"
+    },
+    {
+      "n": 8,
+      "energy": "1799199447/131161771",
+      "return_cost": "43046721/262323542",
+      "normalization": "131161771/43046721"
+    },
+    {
+      "n": 9,
+      "energy": "9281892317/595266818",
+      "return_cost": "387420489/2381067272",
+      "normalization": "1190533636/387420489"
+    },
+    {
+      "n": 10,
+      "energy": "188564133371/10775268901",
+      "return_cost": "3486784401/21550537802",
+      "normalization": "10775268901/3486784401"
+    },
+    {
+      "n": 11,
+      "energy": "945697418829/48670108583",
+      "return_cost": "31381059609/194680434332",
+      "normalization": "97340217166/31381059609"
+    },
+    {
+      "n": 12,
+      "energy": "18776854230295/878238736831",
+      "return_cost": "282429536481/1756477473662",
+      "normalization": "878238736831/282429536481"
+    },
+    {
+      "n": 13,
+      "energy": "92406523014841/3958604662748",
+      "return_cost": "2541865828329/15834418650992",
+      "normalization": "7917209325496/2541865828329"
+    },
+    {
+      "n": 14,
+      "energy": "1805905546290219/71333248093561",
+      "return_cost": "22876792454961/142666496187122",
+      "normalization": "71333248093561/22876792454961"
+    },
+    {
+      "n": 15,
+      "energy": "8768809283640353/321234708913313",
+      "return_cost": "205891132094649/1284938835653252",
+      "normalization": "642469417826626/205891132094649"
+    }
+  ],
+  "scope": "Fixed t=1/2 exact extreme channel, arbitrary finite nondegenerate catalyst spectra and bounded mean energy. Universal gap proof analytic; logarithmic resource order, not sharp constants or native GU."
+}

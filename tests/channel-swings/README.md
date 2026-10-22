@@ -1,5 +1,9 @@
 # Pre-contract wave probes
 
+- `k1955_grade_one_connection{,_probe}.py`: raw grade-one minor certificates and independent Clifford fault tests.
+- `k1956_finite_energy_thermal_gap{,_probe}.py`: exact reward/energy controls, physical shell consumers and independent recurrence faults.
+
+
 - `k1953_spin_connection_stable_mass{,_probe}.py`: raw connection minors, complete tensor kernel and independent mathematical faults.
 - `k1954_higher_energy_catalyst_frontier{,_probe}.py`: priced-tail exact duals, affine interval and physical counterexample consumers.
 

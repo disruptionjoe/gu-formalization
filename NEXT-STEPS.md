@@ -7,6 +7,18 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-22: GRADE-ONE CARRIER TEST AND UNIFORM ENERGY GAP.**
+> Reuse K1955's two rank56 exclusions, mixed-parity separation and moving-positive
+> frame theorem inside fixed cyclic640. A changed carrier, geometry or complete
+> fourteen-direction source map needs actual new input; source-motivated grade-one
+> coefficients are not source-selected physical mass. K1956 settles logarithmic
+> energy growth toward the positive thermal floor, uniformly over finite spectra.
+> Compare a sharp energy-weighted Bellman dual with source-carrier construction
+> and scalar primal/cut matching. No sharp exponent or full frontier is claimed.
+
+> Earlier dated banners are historical; this banner supersedes their closed tasks.
+
+
 > **2026-10-22: CONNECTION REALIZATION LIMITS AND PRICED THERMAL TAIL.**
 > K1953 rules out nonzero spinor-only connections preserving the fixed positive
 > carrier; its tensorial extension has only zero reduced mass under the combined

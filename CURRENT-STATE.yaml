@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: a8909553f4e66e5efc0f74e7e6d22ed69d411423
+revision_basis: defe0ca1ec003bebb666ee53bf5afcf897066540
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1955 tests the source-motivated grade-one connection on the actual fixed
+    K1951 raw carrier. Exact rank56 excludes all observed four-direction grade-one
+    coefficients from preserving the positive128 subspace; a second rank56 certificate
+    already excludes preservation of its cyclic640 parent. Chirality separates odd
+    and even leakage, so mixed grade-one/bivector coefficients cannot cancel this
+    obstruction. Moving rank128 positive invariant images inside the SAME fixed
+    cyclic640 equal the unique positive core, so frame derivatives cannot repair
+    leakage. This does not exclude changed raw carriers, geometry, full fourteen-direction
+    source operators or physical quotient constructions. Changed auxiliary-only
+    support descends only with zero quotient action; its observed four-direction
+    span is disjoint from the stable core, excluding core preservation for any
+    nonzero coefficient matrices in that placement.
+    K1956 proves the uniform bound R_star(E)>=4/25+(652/34375)(2/3)^(25E/16)
+    for every finite mean energy E>=1 in the fixed exact-channel/four-level-bath
+    model. Explicit finite shell constructions give logarithmic mean-energy growth
+    in inverse excess return above the thermal floor. The global exponent and
+    constants are not sharp. Source, physics-ledger and canon verdicts stay unchanged.
+
+    Historical predecessor result:
     K1953 tests actual connection realizations on K1951's fixed positive128
     subspace. All364 spinor-only Spin(7,7) coefficients are excluded by exact
     leakage rank; a rational inverse supplies a residual bound and pointwise
@@ -15895,6 +15914,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1955-grade-one-connection-2026-10-22.md
+    - lab/process/k1955-grade-one-connection.json
+    - tests/channel-swings/k1955_grade_one_connection.py
+    - tests/channel-swings/k1955_grade_one_connection_probe.py
+    - explorations/conditional-build/k1956-finite-energy-thermal-gap-2026-10-22.md
+    - lab/process/k1956-finite-energy-thermal-gap.json
+    - tests/channel-swings/k1956_finite_energy_thermal_gap.py
+    - tests/channel-swings/k1956_finite_energy_thermal_gap_probe.py
     - explorations/conditional-build/k1953-spin-connection-stable-mass-2026-10-22.md
     - lab/process/k1953-spin-connection-stable-mass.json
     - tests/channel-swings/k1953_spin_connection_stable_mass.py
@@ -16934,6 +16961,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can a changed source-typed carrier or full fourteen-direction grade-one operator
+  escape K1955's fixed observed-carrier exclusions? Compare that construction
+  with a sharp energy-weighted Bellman certificate for the catalyst excess-error
+  exponent, or the independent scalar primal/cut match. K1956 settles logarithmic
+  resource order, not its sharp exponent or the full finite-energy frontier.
+
+  Historical predecessor question:
   Which changed geometry, invariant carrier or explicitly owned source-cell
   action can realize a nonzero mass beyond K1953's two fixed-background connection
   classes? Reuse its exact leakage and zero-image certificates. Compare a scalar
@@ -20339,6 +20373,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Construct actual new source maps outside the proved fixed-carrier class, or
+  a global energy-weighted certificate sharpening the gap above4/25. Reuse K1955's
+  grade-one and cyclic-parent rank56, parity separation and moving-frame theorem;
+  do not repeat them as open tasks. Retain K1954's rejected finite-window secant
+  and all previously established low-energy segments. Native full20/K-C, source
+  bars, physical quotient and sharp scalar matching remain separate debts.
+
+  Historical predecessor condition:
   Supply a source-typed construction outside the proved fixed-background classes,
   or a matching scalar primal/dual or structural higher-energy catalyst certificate.
   Do not repeat the364-direction spinor-only leakage, tensor five-kernel/zero-mass

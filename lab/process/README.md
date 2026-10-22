@@ -7,6 +7,14 @@ updated_at: "2026-08-23"
 
 # Process
 
+## Latest conditional results: K1955 and K1956
+
+- [K1955: grade-one carrier leakage, mixed parity and moving-frame boundary](../../explorations/conditional-build/k1955-grade-one-connection-2026-10-22.md).
+- [K1956: uniform finite-energy thermal gap and logarithmic resource order](../../explorations/conditional-build/k1956-finite-energy-thermal-gap-2026-10-22.md).
+
+Active research; source, physics-ledger and canon verdicts unchanged.
+
+
 ## Latest conditional results: K1953 and K1954
 
 - [K1953: fixed connection leakage and tensor zero-mass certificate](../../explorations/conditional-build/k1953-spin-connection-stable-mass-2026-10-22.md).
