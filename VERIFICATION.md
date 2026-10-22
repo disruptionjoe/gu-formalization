@@ -7,6 +7,34 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-22: Sharp raw support and local variable-coefficient rigidity
+
+[K1947](explorations/conditional-build/k1947-minimal-raw-input-support-2026-10-22.md) and [K1948](explorations/conditional-build/k1948-variable-observation-rigidity-2026-10-22.md)
+
+K1947 proves a sharp four-slot raw-input minimum for the existing universal
+static-profile mass observation, with34 ambient minimal supports. A changed
+correction admits an exact real quadratic-field constant-mass witness using
+only time plus auxiliary input, on all32 copies. Its scalar positive
+observation Gram gives a global bounded right inverse and conservative
+quotient for every nonzero constant mass-plane vector. K1948 excludes every
+real spacetime-dependent conservative one-auxiliary-column repair with the
+same fixed energy and leading observation, including arbitrary cross-copy
+mixing. Its derivative-annihilating rational functional proves local/weak
+rigidity and a residual bound. These conditional constructions do not identify
+GU's full20 action, barred maps or physical observables; source, physics-ledger
+and canon verdicts remain unchanged.
+
+Validation: K1947 passes298 exact producer controls and941 independently
+assembled controls, plus a complete32767-subset ambient-support census.
+The constant witness is verified by independent rational-pair arithmetic;
+its scalar Gram and positive gap prove the all-frequency consumer analytically.
+K1948 passes64 exact producer controls,189 new independent controls and119
+reused upstream completeness controls. Ten actual mathematical-input faults
+and four report/pin faults are rejected after green baselines. Universal,
+local, weak and global claims use the stated analytic proofs; this is internal
+verification, not external expert acceptance or formal proof.
+
+
 ## 2026-10-22: Fixed-energy raw obstruction and explicit smooth control
 
 [K1945](explorations/conditional-build/k1945-energy-compatible-raw-columns-2026-10-22.md) and [K1946](explorations/conditional-build/k1946-quantitative-smooth-pulse-2026-10-22.md)

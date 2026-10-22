@@ -7,6 +7,21 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-22: SHARP RAW SUPPORT AND LOCAL VARIABLE RIGIDITY.**
+> Reuse K1947's four-slot universal-profile theorem, exact two-slot constant
+> counterexample and positive full-frequency Gram/right inverse. Do not requeue
+> constant-mass accessibility or treat the four-slot bound as universal across
+> observations. K1948 closes all real variable one-auxiliary-column conservative
+> repairs with the fixed leading observation. Next impose source cell/barred-map
+> constraints on these actual lifts, or test a specified nonfactorized variable
+> profile on the two-slot branch. Compare the global scalar primal/cut match
+> and sharp unrestricted mean-energy dual; smooth0.23/4.01 and finite-cutoff
+> feasibility are settled. Preserve native full20/K-C/physical-accessibility,
+> phase-aware, rotation, three-wall, sextic/optimizer, mirror/full-II and
+> normal-jet debts.
+
+> Earlier dated banners below are historical continuations; this banner supersedes their closed tasks.
+
 > **2026-10-22: FULL-CARRIER CONSTANT OBSTRUCTION AND EXPLICIT SMOOTH PULSE.**
 > Reuse K1945's fixed-energy cone, invertible raw return and all32-copy
 > constant observation obstruction. Test the minimum additional raw INPUT

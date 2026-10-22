@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 79c2a2823cf045998f896fcd2d68b2f2c0b7bba8
+revision_basis: 79923d31a06ec84b8b232b8b5f763f6c877d7ce6
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1947 proves a sharp four-slot raw-input minimum for the existing universal
+    static-profile mass observation, with34 ambient minimal supports. A changed
+    correction admits an exact real quadratic-field constant-mass witness using
+    only time plus auxiliary input, on all32 copies. Its scalar positive
+    observation Gram gives a global bounded right inverse and conservative
+    quotient for every nonzero constant mass-plane vector. K1948 excludes every
+    real spacetime-dependent conservative one-auxiliary-column repair with the
+    same fixed energy and leading observation, including arbitrary cross-copy
+    mixing. Its derivative-annihilating rational functional proves local/weak
+    rigidity and a residual bound. These conditional constructions do not identify
+    GU's full20 action, barred maps or physical observables; source, physics-ledger
+    and canon verdicts remain unchanged.
+
+    Historical predecessor result:
     K1945 classifies all fixed-energy dissipative raw one-column completions
     and their unique prescribed-southeast return. Nonzero conservative examples
     exist, but the same leading differential observation has no nonzero REAL
@@ -15834,6 +15848,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1947-minimal-raw-input-support-2026-10-22.md
+    - lab/process/k1947-minimal-raw-input-support.json
+    - tests/channel-swings/k1947_minimal_raw_input_support.py
+    - tests/channel-swings/k1947_minimal_raw_input_support_probe.py
+    - explorations/conditional-build/k1948-variable-observation-rigidity-2026-10-22.md
+    - lab/process/k1948-variable-observation-rigidity.json
+    - tests/channel-swings/k1948_variable_observation_rigidity.py
+    - tests/channel-swings/k1948_variable_observation_rigidity_probe.py
     - explorations/conditional-build/k1945-energy-compatible-raw-columns-2026-10-22.md
     - lab/process/k1945-energy-compatible-raw-columns.json
     - tests/channel-swings/k1945_energy_compatible_raw_columns.py
@@ -16841,6 +16863,15 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can the explicit raw two-slot constant-mass or four-slot universal-profile
+  lifts satisfy the actual source cell and barred K/C restrictions on the same
+  background? Alternatively, which specified nonfactorized variable profile can
+  retain a positive global observation Gram? Compare those constructions with a
+  matching scalar pulse/cut or sharp unrestricted mean-energy dual. Constant
+  full-frequency accessibility, universal-profile support and arbitrary-variable
+  one-auxiliary-column rigidity are settled at their conditional scopes.
+
+  Historical predecessor question:
   Which smallest additional raw input support realizes a conservative
   mass/observation pair on the SAME K77 background, or can a genuinely variable
   coefficient evade the constant full-carrier obstruction? Compare that exact
@@ -20214,6 +20245,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Reuse K1947's four-slot universal-profile theorem, exact two-slot constant
+  counterexample and positive full-frequency Gram/right inverse. Do not requeue
+  constant-mass accessibility or treat the four-slot bound as universal across
+  observations. K1948 closes all real variable one-auxiliary-column conservative
+  repairs with the fixed leading observation. Next impose source cell/barred-map
+  constraints on these actual lifts, or test a specified nonfactorized variable
+  profile on the two-slot branch. Compare the global scalar primal/cut match
+  and sharp unrestricted mean-energy dual; smooth0.23/4.01 and finite-cutoff
+  feasibility are settled. Preserve native full20/K-C/physical-accessibility,
+  phase-aware, rotation, three-wall, sextic/optimizer, mirror/full-II and
+  normal-jet debts.
+
+  Historical predecessor continuation:
   Reuse K1945's fixed-energy cone, invertible raw return and all32-copy
   constant observation obstruction. Test the minimum additional raw INPUT
   columns needed by the existing K1840 mass lifts, or a specified nonconstant

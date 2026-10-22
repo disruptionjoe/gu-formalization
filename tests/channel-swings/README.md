@@ -1,5 +1,9 @@
 # Pre-contract wave probes
 
+- `k1947_minimal_raw_input_support{,_probe}.py`: sharp raw support and independent kernel/dual/Clifford verification.
+- `k1948_variable_observation_rigidity{,_probe}.py`: variable-coefficient rigidity and independently recomputed derivative/product controls.
+
+
 - `k1945_energy_compatible_raw_columns{,_probe}.py`: full fixed-energy class and independently reconstructed constant-observation obstruction.
 - `k1946_quantitative_smooth_pulse{,_probe}.py`: explicit rational regularization and independent characteristic/energy controls.
 

@@ -8,6 +8,24 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-22: Sharp raw support and local variable-coefficient rigidity
+
+[K1947](explorations/conditional-build/k1947-minimal-raw-input-support-2026-10-22.md) and [K1948](explorations/conditional-build/k1948-variable-observation-rigidity-2026-10-22.md)
+
+K1947 proves a sharp four-slot raw-input minimum for the existing universal
+static-profile mass observation, with34 ambient minimal supports. A changed
+correction admits an exact real quadratic-field constant-mass witness using
+only time plus auxiliary input, on all32 copies. Its scalar positive
+observation Gram gives a global bounded right inverse and conservative
+quotient for every nonzero constant mass-plane vector. K1948 excludes every
+real spacetime-dependent conservative one-auxiliary-column repair with the
+same fixed energy and leading observation, including arbitrary cross-copy
+mixing. Its derivative-annihilating rational functional proves local/weak
+rigidity and a residual bound. These conditional constructions do not identify
+GU's full20 action, barred maps or physical observables; source, physics-ledger
+and canon verdicts remain unchanged.
+
+
 ## 2026-10-22: Fixed-energy raw obstruction and explicit smooth control
 
 [K1945](explorations/conditional-build/k1945-energy-compatible-raw-columns-2026-10-22.md) and [K1946](explorations/conditional-build/k1946-quantitative-smooth-pulse-2026-10-22.md)

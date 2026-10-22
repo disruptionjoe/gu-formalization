@@ -7,6 +7,10 @@ updated_at: "2026-08-23"
 
 # Process
 
+- `k1947-minimal-raw-input-support.json`: complete support duals, actual global inverses and hidden-slot transports.
+- `k1948-variable-observation-rigidity.json`: local annihilator, exact positive coefficients and residual constant.
+
+
 - `k1945-energy-compatible-raw-columns.json`: actual K77 matrices, cross-copy kernels and shared rational positive functional.
 - `k1946-quantitative-smooth-pulse.json`: exact smoothing parameters, phase knots, seed pin and resource inequalities.
 

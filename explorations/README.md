@@ -7,6 +7,10 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [K1947: minimal raw input support](conditional-build/k1947-minimal-raw-input-support-2026-10-22.md): four-slot universal profiles, two-slot constant counterexample and exact global observation access.
+- [K1948: local variable rigidity](conditional-build/k1948-variable-observation-rigidity-2026-10-22.md): derivative-annihilating all-copy positivity, weak extension and residual bound.
+
+
 - [K1945: fixed-energy raw completions](conditional-build/k1945-energy-compatible-raw-columns-2026-10-22.md): complete cone and full32-copy constant observation obstruction.
 - [K1946: quantitative smooth pulse](conditional-build/k1946-quantitative-smooth-pulse-2026-10-22.md): explicit smooth construction, exact plateaux and resource bounds.
 
