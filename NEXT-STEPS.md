@@ -7,6 +7,19 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-22: MEAN-ENERGY HIERARCHY AND CERTIFIED4.01 PULSE.**
+> Reuse K1943 for diagonal-preparation return and the global energy hierarchy;
+> finite-cutoff values are not exact unrestricted optima. Seek a structural
+> active-cut/pulse match or sharper global energy certificate only when it
+> changes a resource decision. K1944 already establishes measurable and smooth
+> scalar feasibility at amplitude0.23 and energy below4.01; it does not serialize
+> a smooth witness or prove optimality. Compare native same-background paired
+> full20/K-C/domain/accessibility construction against those remaining resource
+> questions; quantitative approximate-shell stability is a distinct alternative.
+> Retain phase-aware, rotation, three-wall, sextic/optimizer, mirror/full-II
+> and normal-jet debts.
+
+
 > **2026-10-22: EXACT DIMENSION AND COMPLETE CUT DUAL.**
 > For scalar joint optimization construct a feasible optimized pulse
 > and a matching all-cut certificate; halfcuts alone are not proved complete.

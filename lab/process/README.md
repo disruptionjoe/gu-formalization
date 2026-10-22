@@ -7,6 +7,10 @@ updated_at: "2026-08-23"
 
 # Process
 
+- `k1943-arbitrary-preparation-catalyst-energy.json`: rational primal/dual/Farkas certificates and full physical shell witnesses.
+- `k1944-optimized-scalar-pulse-certificate.json`: lossless rational pulse, exact continuum marginals, energy and budget consumers.
+
+
 - `k1941-finite-dimension-catalyst-optimizer.json`: exact minimum completions and finite-D optima/witnesses.
 - `k1942-complete-scalar-energy-duality.json`: exact multi-cut KKT, missed-cut and phase-error certificates.
 

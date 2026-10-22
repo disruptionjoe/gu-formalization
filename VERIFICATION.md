@@ -7,6 +7,31 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-22: Mean-energy catalysts and an optimized scalar pulse
+
+[K1943](explorations/conditional-build/k1943-arbitrary-preparation-catalyst-energy-2026-10-22.md) and [K1944](explorations/conditional-build/k1944-optimized-scalar-pulse-certificate-2026-10-22.md)
+
+K1943 proves sharp all-input return for every admissible energy-diagonal
+preparation and a convergent finite-program hierarchy for the global
+mean-energy infimum, including coherent candidates through pinching.
+Disconnected fractional components improve the energy frontier; explicit
+finite protocols and near-minimum-energy bounds are certified. K1944 supplies
+an exact continuum pulse at amplitude below0.23 and energy below4.01,
+reducing the joint energy enclosure to approximately[4.000918,4.005269].
+Strict amplitude slack also proves equality of smooth and measurable energy
+infima and smooth feasibility below4.01. No evaluated exact global optimizer,
+native GU identification, source, physics-ledger or canon change is claimed.
+
+Validation: K1943 passes5182 producer and530 independent exact controls;
+K1944 passes111081 producer and56360 independent exact integration controls.
+Seven actual mathematical-input faults and two report/two pin controls are
+rejected after green baselines. Finite controls verify rational LP/Farkas,
+physical shell matrices and actual continuum marginals; the universal
+statements rely on analytic proofs. Fixed coherent-state attainment is not
+claimed. Independent algorithms and internal review are not external expert
+acceptance or formal verification.
+
+
 ## 2026-10-22: Finite physical dimension and complete scalar energy duality
 
 [K1941](explorations/conditional-build/k1941-finite-dimension-catalyst-optimizer-2026-10-22.md) and [K1942](explorations/conditional-build/k1942-complete-scalar-energy-duality-2026-10-22.md)

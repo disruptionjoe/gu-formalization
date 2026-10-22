@@ -1,5 +1,9 @@
 # Pre-contract wave probes
 
+- `k1943_arbitrary_preparation_catalyst_energy{,_probe}.py`: sharp diagonal return, finite energy programs, physical mixtures and independent resource controls.
+- `k1944_optimized_scalar_pulse_certificate{,_probe}.py`: rational continuum pulse and independently integrated marginals, amplitude and energy.
+
+
 - `k1941_finite_dimension_catalyst_optimizer{,_probe}.py`: shell completion, global finite-D optimizer, exhaustive covers and independent orientations.
 - `k1942_complete_scalar_energy_duality{,_probe}.py`: exact finite-cut duals and separate differential Green reconstruction.
 

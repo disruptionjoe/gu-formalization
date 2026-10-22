@@ -7,6 +7,10 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [K1943: catalyst mean-energy frontier](conditional-build/k1943-arbitrary-preparation-catalyst-energy-2026-10-22.md): sharp diagonal return, exact finite programs, nondegenerate mixtures and global convergence.
+- [K1944: optimized scalar pulse](conditional-build/k1944-optimized-scalar-pulse-certificate-2026-10-22.md): exact4.01 feasibility, smooth-infimum equality and phase-error bounds.
+
+
 - [K1941: finite dimension catalyst optimizer](conditional-build/k1941-finite-dimension-catalyst-optimizer-2026-10-22.md): minimum physical shell completion and global finite-D return.
 - [K1942: complete scalar energy duality](conditional-build/k1942-complete-scalar-energy-duality-2026-10-22.md): convergent cut hierarchy, exact missed cut and phase-error certificates.
 

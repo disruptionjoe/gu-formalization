@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 299b968705e2c588154340887315319e8a9f01a0
+revision_basis: 50ba950216c12216d8a1d9b89ebc4680d4262421
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,18 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1943 proves sharp all-input return for every admissible energy-diagonal
+    preparation and a convergent finite-program hierarchy for the global
+    mean-energy infimum, including coherent candidates through pinching.
+    Disconnected fractional components improve the energy frontier; explicit
+    finite protocols and near-minimum-energy bounds are certified. K1944 supplies
+    an exact continuum pulse at amplitude below0.23 and energy below4.01,
+    reducing the joint energy enclosure to approximately[4.000918,4.005269].
+    Strict amplitude slack also proves equality of smooth and measurable energy
+    infima and smooth feasibility below4.01. No evaluated exact global optimizer,
+    native GU identification, source, physics-ledger or canon change is claimed.
+
+    Historical predecessor result:
     K1941 closes the arbitrary finite physical-dimension catalyst-return
     problem through minimum shell completion and an exact finite optimizer,
     including attaining full unitaries. K1942 proves a complete countable cut
@@ -15809,6 +15821,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1943-arbitrary-preparation-catalyst-energy-2026-10-22.md
+    - lab/process/k1943-arbitrary-preparation-catalyst-energy.json
+    - tests/channel-swings/k1943_arbitrary_preparation_catalyst_energy.py
+    - tests/channel-swings/k1943_arbitrary_preparation_catalyst_energy_probe.py
+    - explorations/conditional-build/k1944-optimized-scalar-pulse-certificate-2026-10-22.md
+    - lab/process/k1944-optimized-scalar-pulse-certificate.json
+    - tests/channel-swings/k1944_optimized_scalar_pulse_certificate.py
+    - tests/channel-swings/k1944_optimized_scalar_pulse_certificate_probe.py
     - explorations/conditional-build/k1941-finite-dimension-catalyst-optimizer-2026-10-22.md
     - lab/process/k1941-finite-dimension-catalyst-optimizer.json
     - tests/channel-swings/k1941_finite_dimension_catalyst_optimizer.py
@@ -16800,6 +16820,14 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Compare construction of an actual same-background native paired full20
+  K/C/domain/accessibility adapter with a structural solution of the remaining
+  scalar pulse/cut gap or a practical sharp mean-energy catalyst frontier.
+  Fixed diagonal-preparation return, computability of the global energy infimum,
+  and the scalar4.01 feasibility decision are now settled at their stated scope.
+  A prescribed coherent state is not silently replaced by its diagonal.
+
+  Historical predecessor question:
   Compare an actual native paired full20/K-C/domain/accessibility
   construction with a matching global scalar energy pulse/cut solution or
   higher-support energy-constrained catalytic return. Finite physical dimension
@@ -20156,6 +20184,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Reuse K1943 for diagonal-preparation return and the global energy hierarchy;
+  finite-cutoff values are not exact unrestricted optima. Seek a structural
+  active-cut/pulse match or sharper global energy certificate only when it
+  changes a resource decision. K1944 already establishes measurable and smooth
+  scalar feasibility at amplitude0.23 and energy below4.01; it does not serialize
+  a smooth witness or prove optimality. Compare native same-background paired
+  full20/K-C/domain/accessibility construction against those remaining resource
+  questions; quantitative approximate-shell stability is a distinct alternative.
+  Retain phase-aware, rotation, three-wall, sextic/optimizer, mirror/full-II
+  and normal-jet debts.
+
+  Historical predecessor continuation:
   For scalar joint optimization construct a feasible optimized pulse
   and a matching all-cut certificate; halfcuts alone are not proved complete.
   Use the K1942 full rational-union hierarchy and dual gap for rigorous phase
