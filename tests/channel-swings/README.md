@@ -1,5 +1,9 @@
 # Pre-contract wave probes
 
+- [K1933 producer](k1933_covariant_catalyst_dephasing_reduction.py) and [probe](k1933_covariant_catalyst_dephasing_reduction_probe.py): covariance and countercontrols.
+- [K1934 producer](k1934_nonuniform_four_level_catalyst_optimization.py) and [probe](k1934_nonuniform_four_level_catalyst_optimization_probe.py): exact shell matrices and independently reconstructed orientation dual.
+
+
 - [K1931 producer](k1931_thermal_qubit_channel_stability.py) and [probe](k1931_thermal_qubit_channel_stability_probe.py): weighted support, complex witness and coherence controls.
 - [K1932 producer](k1932_four_level_bath_catalyst_return.py) and [probe](k1932_four_level_bath_catalyst_return_probe.py): exact shell unitary and independent rational transport.
 

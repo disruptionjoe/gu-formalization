@@ -7,6 +7,26 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-22: Covariant reduction and optimal fixed-support return
+
+[K1933](explorations/conditional-build/k1933-covariant-catalyst-dephasing-reduction-2026-10-22.md) and [K1934](explorations/conditional-build/k1934-nonuniform-four-level-catalyst-optimization-2026-10-22.md)
+
+Energy pinching cannot worsen covariant-target channel/return errors,
+with the same conserving unitary and invariant bath. The four-level bath
+problem is now solved over all preparations and all conserving unitaries
+on the fixed consecutive-odd support: a peaked geometric distribution and
+matching shell-spectral bound give3/10 instead of7/20 on two sites at t=1/2.
+An interior root improves the endpoint protocol from N=7; the fixed-support
+large-N optimum tends to t^2/(1+t^2)^2 while mean energy grows. Arbitrary
+support patterns, energy-constrained/approximate-channel optima, product-return
+construction and native GU identification remain open. Older claims below
+are historical at their stated scopes; no source/ledger/canon change.
+
+Validation:54 and5536 exact producer controls;38 and1252 separately
+reconstructed controls (finite evidence). Seven actual input faults plus two
+report/two pin faults fail after green baselines. Universal claims use the
+analytic proofs; no external expert or formal proof acceptance is claimed.
+
 ## 2026-10-22: Stable obstruction and thermal bath escape
 
 [K1931](explorations/conditional-build/k1931-thermal-qubit-channel-stability-2026-10-22.md) and [K1932](explorations/conditional-build/k1932-four-level-bath-catalyst-return-2026-10-22.md)

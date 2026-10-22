@@ -7,6 +7,10 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [K1933: covariant preparation reduction](conditional-build/k1933-covariant-catalyst-dephasing-reduction-2026-10-22.md).
+- [K1934: all-unitary fixed-support optimum](conditional-build/k1934-nonuniform-four-level-catalyst-optimization-2026-10-22.md).
+
+
 - [K1931: thermal-qubit stability](conditional-build/k1931-thermal-qubit-channel-stability-2026-10-22.md): conservative finite-error return/preparation bounds.
 - [K1932: nondegenerate thermal escape](conditional-build/k1932-four-level-bath-catalyst-return-2026-10-22.md): exact4l-level constructions and resource scaling.
 

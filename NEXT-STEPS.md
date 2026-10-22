@@ -7,6 +7,14 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-22: FIXED-SUPPORT RETURN OPTIMUM.** K1933 removes energy
+> coherence from covariant channel/return optimization. K1934 solves the
+> consecutive-odd support family over all conserving unitaries, including
+> interior-root improvements. Compare native paired inputs and finite-T cuts
+> against arbitrary-support or energy-constrained constructions; the solved
+> family is evidence to reuse, not a global fixed-bath answer.
+
+
 > **2026-10-22: STABLE QUBIT FLOOR; LARGER-BATH ESCAPE.** K1931
 > controls approximate-channel error; K1932 constructs exact nondegenerate
 > four-level and growing-bath returns with priced resources. Compare native

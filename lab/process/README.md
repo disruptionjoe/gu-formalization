@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [K1933 evidence](k1933-covariant-catalyst-dephasing-reduction.json) and [K1934 evidence](k1934-nonuniform-four-level-catalyst-optimization.json): finite exact controls supporting the linked analytic proofs.
+
+
 - [K1931 controls](k1931-thermal-qubit-channel-stability.json) and [K1932 controls](k1932-four-level-bath-catalyst-return.json): finite exact evidence; analytic proofs carry universal scope.
 
 

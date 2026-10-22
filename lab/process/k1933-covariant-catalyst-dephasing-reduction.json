@@ -1,0 +1,9 @@
+{
+  "exact_checks": 54,
+  "exact_covariant_example": "dephasing via CZ: coherent plus return 1, pinched return 0",
+  "noncovariant_counterexample": "SWAP reset plus changes to reset I/2",
+  "theorem": "same unitary, pinched catalyst, no larger covariant-target diamond error or worst-case marginal/product-return error",
+  "scope": "finite systems; invariant bath; conserving unitary; convex invariant feasible preparation set",
+  "script_sha256": "06b9e685795c6db515eac14f894a6470362ca6a38327696c02554aa02f14e6b1",
+  "evidence_kind": "finite matrix controls; analytic convexity/covariance proof carries generality"
+}

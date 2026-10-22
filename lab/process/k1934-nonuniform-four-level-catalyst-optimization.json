@@ -1,0 +1,81 @@
+{
+  "exact_checks": 5536,
+  "cases": [
+    {
+      "N": 1,
+      "weights": [
+        "1"
+      ],
+      "return": "1/2",
+      "uniform_return": "1/2"
+    },
+    {
+      "N": 2,
+      "weights": [
+        "2/5",
+        "3/5"
+      ],
+      "return": "3/10",
+      "uniform_return": "7/20"
+    },
+    {
+      "N": 3,
+      "weights": [
+        "4/19",
+        "6/19",
+        "9/19"
+      ],
+      "return": "9/38",
+      "uniform_return": "3/10"
+    },
+    {
+      "N": 5,
+      "weights": [
+        "16/211",
+        "24/211",
+        "36/211",
+        "54/211",
+        "81/211"
+      ],
+      "return": "81/422",
+      "uniform_return": "13/50"
+    }
+  ],
+  "all_unitary_rooted_cases": [
+    {
+      "N": 1,
+      "root_index_zero_based": 0,
+      "return": "1/2"
+    },
+    {
+      "N": 2,
+      "root_index_zero_based": 1,
+      "return": "3/10"
+    },
+    {
+      "N": 3,
+      "root_index_zero_based": 2,
+      "return": "9/38"
+    },
+    {
+      "N": 5,
+      "root_index_zero_based": 4,
+      "return": "81/422"
+    },
+    {
+      "N": 7,
+      "root_index_zero_based": 5,
+      "return": "243/1384"
+    }
+  ],
+  "all_unitary_fixed_support_optimum": "1/(2 max_{a+b=N-1} [1+sum_{k=1}^a q^k+sum_{k=1}^b p^k]); q=1/(1+2u),p=u/(2+u)",
+  "all_unitary_fixed_support_limit": "u/(1+u)^2",
+  "optimum": "1/(2 sum_{k=0}^{N-1}(1+2t^2)^(-k))",
+  "limiting_return": "t^2/(1+2t^2)",
+  "scope": "fixed boundary-repaired K1932 protocol and odd support; all preparation states on that support via K1933",
+  "all_unitaries_optimum_claimed": "all N for fixed consecutive odd support and fixed bath/spectra; not arbitrary supports",
+  "two_site_global_optimum": "(1+2t^2)/(4(1+t^2))",
+  "script_sha256": "872bbe8571b94bf3383b636236beede6d160fac5f5a796c768baf523b4228e66",
+  "dependency_sha256": "aa5dda54c96373d070373774d86f134d5d8c7b43b3d629bbdee2e3d7edd2752b",
+  "evidence_kind": "finite exact matrices/rationals; universal theorem in linked note"
+}
