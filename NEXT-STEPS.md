@@ -7,6 +7,13 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-22: FINITE ENERGY AND LOCAL CIRCUITS.** K1919 closes the first
+> finite-energy contact regimes, including A_18=1 in the stated example.
+> K1920 supplies generic block-local thermal circuits and full-channel error.
+> Next compare restricted Hamiltonian/native input construction with the
+> scalar lower-contact regime and efficient specific gate synthesis.
+> Earlier contact/locality debts are historical only at the proved scopes.
+
 > **2026-10-22: ENERGY AND COLLECTIVE SUPPORT.** K1917 closes global
 > centering and the sharp high-energy scalar tradeoff; K1918 closes collective
 > spectral cost, entropy threshold and exact qutrit exponents. Next compare

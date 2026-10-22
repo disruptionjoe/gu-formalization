@@ -7,6 +7,8 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [K1919: exact finite-energy contact solution](conditional-build/k1919-scalar-finite-budget-contact-solution-2026-10-22.md) and [K1920: local thermal circuits](conditional-build/k1920-local-block-thermal-channel-construction-2026-10-22.md): global variational certificates and explicit resource bounds.
+
 - [K1917: scalar energy and primitive frontier](conditional-build/k1917-scalar-energy-primitive-frontier-2026-10-22.md) and [K1918: collective thermal threshold](conditional-build/k1918-collective-thermal-preparation-threshold-2026-10-22.md): sharp limits, finite constructions and operational consumers.
 
 - [K1915: sharp scalar duration limits](conditional-build/k1915-scalar-pulse-duration-limits-2026-10-21.md) and [K1916: bath preparation resources](conditional-build/k1916-bath-preparation-resource-limits-2026-10-21.md): phase/energy tradeoff, spectral costs, finite-rate limits and collective savings.

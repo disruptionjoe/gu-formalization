@@ -1,0 +1,73 @@
+{
+  "result_id": "K1919",
+  "status": "active_research",
+  "evidence_kind": "analytic variational inequality plus exact symbolic controls",
+  "mathematical_controls": [
+    "outer initial value",
+    "outer final value",
+    "outer initial slope",
+    "outer final slope",
+    "outer energy",
+    "inner initial value",
+    "inner final value",
+    "inner initial slope",
+    "inner final slope",
+    "inner energy",
+    "allocation",
+    "outer shear",
+    "matching shear",
+    "global energy",
+    "outer sign factor",
+    "inner sign factor",
+    "candidate interval",
+    "candidate interval",
+    "candidate interval",
+    "contact interval energy",
+    "contact rise",
+    "contact shear match",
+    "contact full energy",
+    "outer negative minimum",
+    "energy18 example"
+  ],
+  "cases": [
+    {
+      "a": "1",
+      "g": "1",
+      "h": "1",
+      "ell": "1",
+      "delta": "1/4",
+      "A": "7/4",
+      "energy": "19/4"
+    },
+    {
+      "a": "1",
+      "g": "2",
+      "h": "1",
+      "ell": "1",
+      "delta": "3/8",
+      "A": "17/8",
+      "energy": "27/8"
+    },
+    {
+      "a": "2",
+      "g": "1",
+      "h": "2",
+      "ell": "3",
+      "delta": "1/4",
+      "A": "35/4",
+      "energy": "73/6"
+    }
+  ],
+  "energy_formula": "E0+24*(Ac-A)^2/(a^3+g^3)",
+  "smooth_budget": "E0<E<=E1; equal-gap continuation through first lower contact; E<=E0 empty",
+  "dependencies": {
+    "explorations/conditional-build/k1917-scalar-energy-primitive-frontier-2026-10-22.md": "fbe47e700f37c002792d3f46be15e4bdec8855013b9381710c2127c1253d216d"
+  },
+  "not_claimed": [
+    "all-budget contact classification",
+    "finite-duration optimum",
+    "native GU",
+    "novelty",
+    "formal proof"
+  ]
+}

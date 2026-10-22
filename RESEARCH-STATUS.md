@@ -8,6 +8,34 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-22: Exact finite-energy branches and local thermal circuits
+
+[K1919](explorations/conditional-build/k1919-scalar-finite-budget-contact-solution-2026-10-22.md)
+proves an unequal-gap single-contact optimizer by a global variational
+inequality, its exact energy inverse and the smooth feasibility threshold.
+The released equal-gap continuation grows a central contact interval through
+first lower contact. For a=g=h=ell=1, A_18=1 exactly. Smooth infima and
+short-time pulse coefficients are proved; full lower-contact and finite-duration
+optimization remain open.
+
+[K1920](explorations/conditional-build/k1920-local-block-thermal-channel-construction-2026-10-22.md)
+constructs finite-block nearest-neighbor thermal channel approximation with
+no pure ancilla. Below the entropy threshold, logarithmic blocks yield small
+whole-channel error and a polynomial, potentially enormous generic gate count.
+Strength/time and gate-accuracy costs are explicit. The600000-site example
+has certified error below1/100000. Controls are arbitrary U(12)/U(144), not
+energy-conserving, fixed-depth, practical or source-derived.
+
+K1919:25 exact symbolic controls and15 independent rational profiles.
+K1920:31 finite controls,15 independent enumerated spectra,256 Gram-pair
+identities and81 routing basis cases. Six mathematical-input faults and
+separate report/pin faults are rejected after clean baselines. Analytic proofs
+carry universal scope; cited qudit synthesis supplies the circuit algorithm.
+No novelty, expert review, formal proof or native GU claim. Source/ledger/canon
+unchanged. Older open contact/locality wording below is historical at these
+resolved scopes; stricter Hamiltonians and remaining contact regimes stay open.
+
+
 ## 2026-10-22: Sharp energy tradeoff and collective thermal threshold
 
 [K1917](explorations/conditional-build/k1917-scalar-energy-primitive-frontier-2026-10-22.md)
