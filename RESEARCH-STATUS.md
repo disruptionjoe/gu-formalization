@@ -31,7 +31,7 @@ finite nondegenerate-spectrum model, including coherent lower bounds by pinching
 |---|---|---|---|---|
 | Coordinated SE0 stable carrier and mass | open construction | conditional exact result, active_research | changed raw symbol and supplied Fourier geometry | current summaries updated; other source cells remain open |
 | Catalyst energy beyond19/8 | unevaluated | three sharp conditional segments through675/181 | inherited exact channel/path theorem | old frontier marked historical |
-| K1832/K1949 compressed/raw equality | inherited unjustified formula | compression only; raw H640 proof required | K1832 explicit compression definition | K1951 correction and current summary; separate owner-artifact repair required |
+| K1832/K1949 compressed/raw equality | inherited unjustified formula | compression only; raw H640 proof required | K1832 explicit compression definition | K1949 section5 corrected on its owner artifact using uncompressed H640; K1951 and current summaries agree |
 
 No source-register polarity, physics-ledger verdict, canon acceptance or novelty
 claim changes. LT-SM8, LT-GR6b and AC-F1 remain NEEDS. Earlier entries are historical

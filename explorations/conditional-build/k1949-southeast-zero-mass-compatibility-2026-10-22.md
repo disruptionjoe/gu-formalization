@@ -200,18 +200,34 @@ D0 e0=-e_nu and Qnu e0=0 gives an exact inverse:
     D0new=D0(I+e0 Traw Qnu),
     D0new^-1=(I-e0 Traw Qnu)D0^-1.                       (5)
 
-However, this surgery destroys the existing corrected graph. For each of
-the three actual observed spatial coefficients, D0^-1 Dj J=J A_j, so
+**Correction, 2026-10-22:** the earlier version used the unjustified equality
+`D0^-1 Dj J=J A_j`. K1832 defines A_j by compression, not by proving the
+corrected512 subspace invariant. Use the uncompressed H640 graph instead.
+Let L lift its observed coordinates, O L=I, P be the corrected projector,
+and Q select the auxiliary128 coordinates. Put
 
-    D0new^-1 Dj J=J A_j-e0 Traw Qnu J A_j.               (6)
+    F_j=O D0^-1 Dj L, A_j=P F_j P, Q P=Q.
 
-The graph defect of e0 has an invertible128-by128 block in any hidden
-one-form output, namely eta_r gamma_r gamma0/20. Traw is invertible, and
-the actual Qnu J A_j has rank128: all32 physical copies have independently
-checked auxiliary rank4. Thus the graph leakage in(6) has EXACT rank128,
-for each observed spatial axis. In particular the corrected512 carrier is
-not invariant under the changed evolution. Since a corrected input already
-leaves H640, the old H640 carrier is not invariant either.
+K1824 verifies the RAW graph identity `D0^-1 Dj L=L F_j`.
+On corrected inputs x=P x, equation(5) therefore gives the true formula
+
+    D0new^-1 Dj L P=L F_j P-e0 Traw Q F_j P.             (6)
+
+The first term lies in H640. The defect of e0 modulo H640 has an
+invertible128-by128 hidden-output block, eta_r gamma_r gamma0/20.
+Traw is invertible. Moreover `Q F_j P=Q P F_j P=Q A_j`, so the existing
+exact auxiliary rank128 computation still applies: all32 copies have rank4.
+Consequently(6) leaks EXACTLY rank128 outside H640 on each spatial axis.
+This proves H640, and hence its corrected input subspace, cannot be an
+invariant carrier of the changed evolution. It does not assume that the
+corrected512 subspace was invariant before surgery. Its old positive system
+was the explicitly declared compression.
+
+The correction changes the raw-intertwining premise and proof, not the
+compressed lower-order identities(1)--(4), the actual rank data or any source,
+physics-ledger or canon verdict. [K1951](k1951-coordinated-zero-southeast-principal-2026-10-22.md)
+constructs an actual invariant carrier for a different, coordinated all-axis
+SE0 principal symbol and must not be identified with this old compression.
 
 Equation(5) rules out blaming this failure on an uninvertible time matrix.
 Equations(5)--(6) identify the real dependency: a zero-SE principal candidate
