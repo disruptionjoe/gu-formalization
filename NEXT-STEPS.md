@@ -7,6 +7,16 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-22: FULL-DIRECTION EXCLUSION AND SHARP ENERGY EXPONENT.**
+> Reuse K1957's rank196, parity and all-direction auxiliary-support direct sum;
+> adding normal grade-one directions or cross-copy auxiliary matrices is settled.
+> Compare a source-typed changed carrier/other-input placement or all-direction
+> even connection with scalar pulse/cut matching. K1958 settles the sharp
+> leading logarithmic energy coefficient2/log(3/2); the bounded remainder,
+> possible asymptotic modulation and full finite-energy frontier remain open.
+> Earlier banners are historical, not instructions to repeat these closed tests.
+
+
 > **2026-10-22: GRADE-ONE CARRIER TEST AND UNIFORM ENERGY GAP.**
 > Reuse K1955's two rank56 exclusions, mixed-parity separation and moving-positive
 > frame theorem inside fixed cyclic640. A changed carrier, geometry or complete

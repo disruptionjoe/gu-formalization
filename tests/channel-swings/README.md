@@ -1,5 +1,14 @@
 # Pre-contract wave probes
 
+## Latest conditional results: K1957 and K1958
+
+- [K1957: full-direction grade-one and auxiliary-support boundary](../../explorations/conditional-build/k1957-full-direction-grade-one-2026-10-22.md).
+- [K1958: sharp logarithmic thermal energy coefficient](../../explorations/conditional-build/k1958-sharp-thermal-energy-rate-2026-10-22.md).
+
+Active research; source, physics-ledger and canon verdicts unchanged.
+
+
+
 - `k1955_grade_one_connection{,_probe}.py`: raw grade-one minor certificates and independent Clifford fault tests.
 - `k1956_finite_energy_thermal_gap{,_probe}.py`: exact reward/energy controls, physical shell consumers and independent recurrence faults.
 

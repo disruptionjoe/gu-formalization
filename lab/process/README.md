@@ -7,6 +7,14 @@ updated_at: "2026-08-23"
 
 # Process
 
+## Latest conditional results: K1957 and K1958
+
+- [K1957: full-direction grade-one and auxiliary-support boundary](../../explorations/conditional-build/k1957-full-direction-grade-one-2026-10-22.md).
+- [K1958: sharp logarithmic thermal energy coefficient](../../explorations/conditional-build/k1958-sharp-thermal-energy-rate-2026-10-22.md).
+
+Active research; source, physics-ledger and canon verdicts unchanged.
+
+
 ## Latest conditional results: K1955 and K1956
 
 - [K1955: grade-one carrier leakage, mixed parity and moving-frame boundary](../../explorations/conditional-build/k1955-grade-one-connection-2026-10-22.md).

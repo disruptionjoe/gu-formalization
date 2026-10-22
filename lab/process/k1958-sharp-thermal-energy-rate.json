@@ -1,0 +1,56 @@
+{
+  "result_id": "K1958",
+  "status": "active_research",
+  "scope": "Fixed t=1/2 exact channel, independent registers, finite nondegenerate nonnegative catalyst spectrum; worst-input marginal return.",
+  "constants": {
+    "W": "25/8",
+    "q": "2/3",
+    "c": "163/440",
+    "displacement_bound": "36",
+    "sharp_log_coefficient": "2/log(3/2)"
+  },
+  "exact_controls": 23030,
+  "largest_sample_displacement": "524/81",
+  "families": [
+    {
+      "n": 1,
+      "energy": "19/8",
+      "excess": "97/800"
+    },
+    {
+      "n": 2,
+      "energy": "675/181",
+      "excess": "577/9050"
+    },
+    {
+      "n": 4,
+      "energy": "120599/17911",
+      "excess": "20737/895550"
+    },
+    {
+      "n": 8,
+      "energy": "1799199447/131161771",
+      "excess": "26873857/6558088550"
+    },
+    {
+      "n": 16,
+      "energy": "169405837736313143/5785045870347091",
+      "excess": "45137758519297/289252293517354550"
+    },
+    {
+      "n": 32,
+      "energy": "657228623314474817230550271164535/10730246021091881621754009620131",
+      "excess": "127338577759142414150270977/536512301054594081087700481006550"
+    },
+    {
+      "n": 64,
+      "energy": "4614751932381125722344721376189305256857580624905314898725763319/36844326805306391837676781136501796256350787452642210542271811",
+      "excess": "1013444586607572443298596591148990185758343389249537/1842216340265319591883839056825089812817539372632110527113590550"
+    }
+  ],
+  "inputs": {
+    "lab/process/k1935-arbitrary-support-thermal-return.json": "1277f6d282ae67b2dfdf04124c39d9a629946bfec9ebe805d5d9a2a4816d8be1",
+    "lab/process/k1943-arbitrary-preparation-catalyst-energy.json": "7f70fe160e477b4cae816185bb86b34edfc39b64127e6508794161c4a767ba9b",
+    "lab/process/k1956-finite-energy-thermal-gap.json": "b1084cf82b59ef4ac3ee3ac3eeab348e692df5d064fbf5b289ce4be74480f899"
+  }
+}

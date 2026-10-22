@@ -7,6 +7,35 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-22: Full-direction carrier boundary and sharp thermal energy rate
+
+K1957 extends the fixed-core grade-one test to all fourteen covector directions:
+all196 common coefficients have independent raw leakage. A separate direct-sum
+certificate excludes every auxiliary-only input potential with arbitrary
+cross-copy matrices in all fourteen directions (229376 real parameters).
+Pointwise and parity consequences preserve the fixed-carrier scope; changed
+geometry, other raw input support and source-owned barred maps remain open.
+
+K1958 proves the sharp resource law
+E_min(delta)=[2/log(3/2)]log(1/delta)+O(1) above the fixed thermal floor4/25,
+and equivalently R_star(E)-4/25=Theta((2/3)^(E/2)). The proof retains the negative
+population deficit through capped-energy resolvent moments. It closes the
+leading exponent, not the additive constant or exact finite-energy frontier.
+Both are conditional mathematics; source/physics-ledger/canon verdicts unchanged.
+
+- [K1957 proof and exact certificate](explorations/conditional-build/k1957-full-direction-grade-one-2026-10-22.md).
+- [K1958 proof and exact controls](explorations/conditional-build/k1958-sharp-thermal-energy-rate-2026-10-22.md).
+
+Earlier dated entries retain historical results; their now-closed successor questions are superseded here.
+
+Verification: K1957 rational rank196 and auxiliary complement are replayed by
+an independent signed-bit Clifford assembly; five mathematical faults and two
+metadata faults. K1958 producer23030 and independent DAG12234 exact supporting
+controls pass, with four mathematical and two metadata faults. Universal,
+pointwise and asymptotic arguments are analytic proofs, separate from finite
+controls; no external expert or formal proof-assistant certification.
+
+
 ## K1955/K1956 exact verification, 2026-10-22
 
 K1955 checks actual raw grade-one connection leakage, exact rank56 minors and
