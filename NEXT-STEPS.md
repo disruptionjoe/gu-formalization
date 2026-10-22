@@ -7,6 +7,22 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-22: PRINCIPAL SOURCE-CELL BOUNDARY AND GLOBAL ENERGY FRONTIER.**
+> Reuse K1949's unique zero added-cell repair, real two-input constant
+> obstruction and rank128 principal-surgery leakage. The next source-facing
+> construction needs a new invariant carrier for the displayed SE0 principal
+> operator, or an explicitly typed nonzero-SE rival with owned barred maps;
+> do not repeat lower-order repair or assume the old graph survives. K1950
+> settles the global catalyst frontier throughE19/8, including finite
+> nonattainment and explicit near-minimizers. For higher energies, compare
+> structural path compression with smaller-slope finite duals before exponential
+> enumeration. Scalar primal/cut matching remains independent. Three-input or
+> cross-copy free-observation zero-cell, native full20/K-C/physical quotient,
+> phase-aware, rotation, three-wall, sextic/optimizer, mirror/full-II and normal-jet
+> debts remain scoped successors, not authority exclusions.
+
+> Earlier dated banners below are historical continuations; this banner supersedes their closed tasks.
+
 > **2026-10-22: SHARP RAW SUPPORT AND LOCAL VARIABLE RIGIDITY.**
 > Reuse K1947's four-slot universal-profile theorem, exact two-slot constant
 > counterexample and positive full-frequency Gram/right inverse. Do not requeue

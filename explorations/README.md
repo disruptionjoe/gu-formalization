@@ -7,6 +7,10 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [K1949: raw zero-cell compatibility](conditional-build/k1949-southeast-zero-mass-compatibility-2026-10-22.md): unique conservative repair, quartic obstruction and principal-surgery carrier leakage.
+- [K1950: global catalyst energy certificates](conditional-build/k1950-global-catalyst-energy-certificates-2026-10-22.md): finite exact global duals, sharp segments and nonattainment.
+
+
 - [K1947: minimal raw input support](conditional-build/k1947-minimal-raw-input-support-2026-10-22.md): four-slot universal profiles, two-slot constant counterexample and exact global observation access.
 - [K1948: local variable rigidity](conditional-build/k1948-variable-observation-rigidity-2026-10-22.md): derivative-annihilating all-copy positivity, weak extension and residual bound.
 

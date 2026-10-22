@@ -7,6 +7,10 @@ updated_at: "2026-08-23"
 
 # Process
 
+- `k1949-southeast-zero-mass-compatibility.json`: exact raw maps, unique repairs and quartic residual identities.
+- `k1950-global-catalyst-energy-certificates.json`: complete finite dual cells, equality preparations and actual physical approximations.
+
+
 - `k1947-minimal-raw-input-support.json`: complete support duals, actual global inverses and hidden-slot transports.
 - `k1948-variable-observation-rigidity.json`: local annihilator, exact positive coefficients and residual constant.
 

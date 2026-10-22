@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 79923d31a06ec84b8b232b8b5f763f6c877d7ce6
+revision_basis: eb7fd4a5288604f19684feb2b22746f5f86c3a75
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1949 constructs the unique full32-copy conservative repair with zero added
+    raw southeast cell for the fixed mass observation, retaining arbitrary
+    one-coordinate profiles and four-input minimality. A quartic certificate
+    excludes constant real two-input masses in the single-copy/free-observation
+    zero-cell class. The fixed southeast derivative coefficient still prevents
+    matching the displayed source operator; deleting it alone preserves time
+    invertibility but causes rank128 leakage from the old graph on each spatial
+    axis. K1950 turns finite energy-penalty programs into exact global catalyst
+    bounds. At bath t=1/2 the sharp return is3/4-E/4 for1<=E<=6/5,
+    63/100-3E/20 for6/5<=E<=11/5, and15/28-3E/28 for11/5<=E<=19/8.
+    The middle interior infimum is not attained by any finite nondegenerate
+    catalyst; exact physical approximations are built. The first and third
+    segments are attained throughout by explicit finite shell protocols.
+    These are conditional mathematical results. Source, physics-ledger and canon
+    verdicts remain unchanged.
+
+    Historical predecessor result:
     K1947 proves a sharp four-slot raw-input minimum for the existing universal
     static-profile mass observation, with34 ambient minimal supports. A changed
     correction admits an exact real quadratic-field constant-mass witness using
@@ -15848,6 +15865,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1949-southeast-zero-mass-compatibility-2026-10-22.md
+    - lab/process/k1949-southeast-zero-mass-compatibility.json
+    - tests/channel-swings/k1949_southeast_zero_mass_compatibility.py
+    - tests/channel-swings/k1949_southeast_zero_mass_compatibility_probe.py
+    - explorations/conditional-build/k1950-global-catalyst-energy-certificates-2026-10-22.md
+    - lab/process/k1950-global-catalyst-energy-certificates.json
+    - tests/channel-swings/k1950_global_catalyst_energy_certificates.py
+    - tests/channel-swings/k1950_global_catalyst_energy_certificates_probe.py
     - explorations/conditional-build/k1947-minimal-raw-input-support-2026-10-22.md
     - lab/process/k1947-minimal-raw-input-support.json
     - tests/channel-swings/k1947_minimal_raw_input_support.py
@@ -16863,6 +16888,15 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can a source-displayed southeast-zero PRINCIPAL operator admit a new
+  invariant observed carrier and positive conservative quotient, or can an
+  explicit nonzero-SE rival supply the same-background barred-map bridge?
+  Lower-order repairs cannot fix the existing principal mismatch, and simply
+  removing its SE derivative loses the old graph. Compare that new construction
+  with compressed-path certificates for the energy frontier beyond19/8 or an
+  exact scalar pulse/cut match; low-energy global bounds are now settled.
+
+  Historical predecessor question:
   Can the explicit raw two-slot constant-mass or four-slot universal-profile
   lifts satisfy the actual source cell and barred K/C restrictions on the same
   background? Alternatively, which specified nonfactorized variable profile can
@@ -20245,6 +20279,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Reuse K1949's unique zero added-cell repair, real two-input constant
+  obstruction and rank128 principal-surgery leakage. The next source-facing
+  construction needs a new invariant carrier for the displayed SE0 principal
+  operator, or an explicitly typed nonzero-SE rival with owned barred maps;
+  do not repeat lower-order repair or assume the old graph survives. K1950
+  settles the global catalyst frontier throughE19/8, including finite
+  nonattainment and explicit near-minimizers. For higher energies, compare
+  structural path compression with smaller-slope finite duals before exponential
+  enumeration. Scalar primal/cut matching remains independent. Three-input or
+  cross-copy free-observation zero-cell, native full20/K-C/physical quotient,
+  phase-aware, rotation, three-wall, sextic/optimizer, mirror/full-II and normal-jet
+  debts remain scoped successors, not authority exclusions.
+
+  Historical predecessor continuation:
   Reuse K1947's four-slot universal-profile theorem, exact two-slot constant
   counterexample and positive full-frequency Gram/right inverse. Do not requeue
   constant-mass accessibility or treat the four-slot bound as universal across

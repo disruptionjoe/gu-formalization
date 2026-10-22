@@ -8,6 +8,27 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-22: Raw source-cell boundary and sharp global energy costs
+
+[K1949](explorations/conditional-build/k1949-southeast-zero-mass-compatibility-2026-10-22.md) and [K1950](explorations/conditional-build/k1950-global-catalyst-energy-certificates-2026-10-22.md)
+
+K1949 constructs the unique full32-copy conservative repair with zero added
+raw southeast cell for the fixed mass observation, retaining arbitrary
+one-coordinate profiles and four-input minimality. A quartic certificate
+excludes constant real two-input masses in the single-copy/free-observation
+zero-cell class. The fixed southeast derivative coefficient still prevents
+matching the displayed source operator; deleting it alone preserves time
+invertibility but causes rank128 leakage from the old graph on each spatial
+axis. K1950 turns finite energy-penalty programs into exact global catalyst
+bounds. At bath t=1/2 the sharp return is3/4-E/4 for1<=E<=6/5,
+63/100-3E/20 for6/5<=E<=11/5, and15/28-3E/28 for11/5<=E<=19/8.
+The middle interior infimum is not attained by any finite nondegenerate
+catalyst; exact physical approximations are built. The first and third
+segments are attained throughout by explicit finite shell protocols.
+These are conditional mathematical results. Source, physics-ledger and canon
+verdicts remain unchanged.
+
+
 ## 2026-10-22: Sharp raw support and local variable-coefficient rigidity
 
 [K1947](explorations/conditional-build/k1947-minimal-raw-input-support-2026-10-22.md) and [K1948](explorations/conditional-build/k1948-variable-observation-rigidity-2026-10-22.md)
