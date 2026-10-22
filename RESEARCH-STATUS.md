@@ -8,6 +8,27 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-22: Even-connection boundary and thermal convexification
+
+K1959 excludes all1274 full-direction common spinor-only bivector coefficients
+from preserving the fixed raw positive128 core. Combined with K1957 parity,
+all1470 grade-one/bivector coefficients in that placement vanish. The full14
+tensorial repair has leakage rank1131, preserving kernel143 and induced image91;
+its52-dimensional mass/energy solution space has zero induced action. Nonzero
+spacetime pure-gauge potentials survive with an explicit H1-domain unitary
+conjugacy. This is not a physical GU mass exclusion.
+K1960 proves the fixed thermal energy-return frontier is continuous and convex
+on E>=1, with an exact global priced-dual representation. Finite shifted shell
+protocols realize infimal chords of explicit asymmetric-root vertices. Their
+periodic asymptotic UPPER envelope sharpens the constructive bounded remainder;
+no global asymptotic equality, modulation, additive optimum or finite attainment
+is claimed. Source, physics-ledger and canon verdicts remain unchanged.
+
+- [K1959: full-direction even connection and tensorial repair](explorations/conditional-build/k1959-full-direction-even-connection-2026-10-22.md).
+- [K1960: thermal convexification and upper remainder envelope](explorations/conditional-build/k1960-thermal-frontier-convexification-2026-10-22.md).
+
+Earlier dated entries are historical where these results close their questions.
+
 ## 2026-10-22: Full-direction carrier boundary and sharp thermal energy rate
 
 K1957 extends the fixed-core grade-one test to all fourteen covector directions:

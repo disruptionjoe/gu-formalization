@@ -1,0 +1,181 @@
+{
+  "result_id": "K1960",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "exact_controls": 768,
+  "physical_shell_controls": 1026,
+  "vertices": [
+    {
+      "n": 0,
+      "energy": "5/4",
+      "return_cost": "4/9",
+      "next_slope": "-32/225"
+    },
+    {
+      "n": 1,
+      "energy": "415/172",
+      "return_cost": "12/43",
+      "next_slope": "-64/1525"
+    },
+    {
+      "n": 2,
+      "energy": "2405/644",
+      "return_cost": "36/161",
+      "next_slope": "-128/7075"
+    },
+    {
+      "n": 3,
+      "energy": "11335/2188",
+      "return_cost": "108/547",
+      "next_slope": "-256/27825"
+    },
+    {
+      "n": 4,
+      "energy": "47645/7076",
+      "return_cost": "324/1769",
+      "next_slope": "-512/99875"
+    },
+    {
+      "n": 5,
+      "energy": "186415/22252",
+      "return_cost": "972/5563",
+      "next_slope": "-1024/338825"
+    },
+    {
+      "n": 6,
+      "energy": "694805/68804",
+      "return_cost": "2916/17201",
+      "next_slope": "-2048/1107675"
+    },
+    {
+      "n": 7,
+      "energy": "2501335/210508",
+      "return_cost": "8748/52627",
+      "next_slope": "-4096/3531025"
+    },
+    {
+      "n": 8,
+      "energy": "8775245/639716",
+      "return_cost": "26244/159929",
+      "next_slope": "-8192/11060275"
+    },
+    {
+      "n": 9,
+      "energy": "30180415/1935532",
+      "return_cost": "78732/483883",
+      "next_slope": "-16384/34217625"
+    },
+    {
+      "n": 10,
+      "energy": "102187205/5839364",
+      "return_cost": "236196/1459841",
+      "next_slope": "-32768/104931275"
+    },
+    {
+      "n": 11,
+      "energy": "341663335/17583628",
+      "return_cost": "708588/4395907",
+      "next_slope": "-65536/319760225"
+    },
+    {
+      "n": 12,
+      "energy": "1130622845/52881956",
+      "return_cost": "2125764/13220489",
+      "next_slope": "-131072/970032675"
+    },
+    {
+      "n": 13,
+      "energy": "3709422415/158908012",
+      "return_cost": "6377292/39727003",
+      "next_slope": "-262144/2933240425"
+    },
+    {
+      "n": 14,
+      "energy": "12082239605/477248324",
+      "return_cost": "19131876/119312081",
+      "next_slope": "-524288/8849282875"
+    },
+    {
+      "n": 15,
+      "energy": "39111257335/1432793548",
+      "return_cost": "57395628/358198387",
+      "next_slope": "-1048576/26653525425"
+    },
+    {
+      "n": 16,
+      "energy": "125932630445/4300477796",
+      "return_cost": "172186884/1075119449",
+      "next_slope": "-2097152/80185037075"
+    },
+    {
+      "n": 17,
+      "energy": "403604952415/12905627692",
+      "return_cost": "516560652/3226406923",
+      "next_slope": "-4194304/241030247225"
+    },
+    {
+      "n": 18,
+      "energy": "1288257012005/38725271684",
+      "return_cost": "1549681956/9681317921",
+      "next_slope": "-8388608/724093442475"
+    },
+    {
+      "n": 19,
+      "energy": "4097139443335/116192592268",
+      "return_cost": "4649045868/29048148067",
+      "next_slope": "-16777216/2174390586625"
+    },
+    {
+      "n": 20,
+      "energy": "12988607438045/348611331236",
+      "return_cost": "13947137604/87152832809",
+      "next_slope": "-33554432/6527601993475"
+    }
+  ],
+  "mixtures": [
+    {
+      "left": [
+        0,
+        1
+      ],
+      "right": [
+        1,
+        1
+      ],
+      "weight": "2/5",
+      "shift": "1/100",
+      "energy": "1911/1000",
+      "return_cost": "279/800"
+    },
+    {
+      "left": [
+        1,
+        2
+      ],
+      "right": [
+        2,
+        1
+      ],
+      "weight": "3/7",
+      "shift": "1/1000",
+      "energy": "159679/50750",
+      "return_cost": "36/145"
+    }
+  ],
+  "constants": {
+    "q": "2/3",
+    "p": "1/9",
+    "W": "25/8",
+    "energy_offset": "-11/4",
+    "excess_coefficient": "64/625",
+    "upper_envelope": "(64/625)*(2/3)^(11/8-theta)*(1-theta/3)",
+    "theta_max": "3-1/log(3/2)",
+    "scope": "upper envelope only; not a global asymptotic equality"
+  },
+  "inputs": {
+    "lab/process/k1956-finite-energy-thermal-gap.json": "b1084cf82b59ef4ac3ee3ac3eeab348e692df5d064fbf5b289ce4be74480f899",
+    "lab/process/k1958-sharp-thermal-energy-rate.json": "e3b97a095706556aea9c7acf2068df75331a5a06cc887709dfc3e33502acc9ed",
+    "lab/process/k1954-higher-energy-catalyst-frontier.json": "15206ef2dd5ec1be79bc3eb94b272f6134d914b335fcc4e4231895c7b297efe0"
+  }
+}

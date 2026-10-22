@@ -7,6 +7,19 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-22: FULL EVEN CLASS AND GLOBAL THERMAL DUAL.**
+> Compare a typed changed source carrier/other-input placement with a scalar
+> primal/all-cut match. Full14 common spinor-only grade1/bivector and the stated
+> tensorial conservative Dirac-mass class are settled on the fixed core by
+> K1957/K1959. K1960 supplies the global thermal priced dual and a constructive
+> upper envelope; a matching all-spectrum lower coefficient remains open.
+> Supply the actual changed raw map before its source/physical consumer, or
+> construct a scalar pulse with a matching complete-cut certificate. For the
+> independent thermal arc, certify b(lambda) over all finite spectra or exhibit
+> a better physical boundary motif; do not infer global modulation from K1960's
+> upper polygon. Preserve full20/barred/K-C/domain and rejected-secant debts.
+> Older banners are historical; do not repeat these closed coefficient classes.
+
 > **2026-10-22: FULL-DIRECTION EXCLUSION AND SHARP ENERGY EXPONENT.**
 > Reuse K1957's rank196, parity and all-direction auxiliary-support direct sum;
 > adding normal grade-one directions or cross-copy auxiliary matrices is settled.

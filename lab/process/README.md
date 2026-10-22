@@ -7,6 +7,14 @@ updated_at: "2026-08-23"
 
 # Process
 
+## Latest conditional results: K1959 and K1960
+
+- [K1959: full-direction even connections and tensorial repair](../../explorations/conditional-build/k1959-full-direction-even-connection-2026-10-22.md).
+- [K1960: physical thermal convexification and remainder upper envelope](../../explorations/conditional-build/k1960-thermal-frontier-convexification-2026-10-22.md).
+
+Active research; source, physics-ledger and canon verdicts unchanged.
+
+
 ## Latest conditional results: K1957 and K1958
 
 - [K1957: full-direction grade-one and auxiliary-support boundary](../../explorations/conditional-build/k1957-full-direction-grade-one-2026-10-22.md).
