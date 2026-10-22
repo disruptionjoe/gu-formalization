@@ -7,6 +7,18 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-22: CONNECTION REALIZATION LIMITS AND PRICED THERMAL TAIL.**
+> K1953 rules out nonzero spinor-only connections preserving the fixed positive
+> carrier; its tensorial extension has only zero reduced mass under the combined
+> constraints. A moving geometry, changed carrier or owned source action needs
+> a new typed construction. K1954 settles the global thermal frontier through
+> 54787/14671 and physically refutes a finite-window secant beyond it. Compare
+> structural higher-energy certificates with an independent scalar primal/cut
+> match; do not requeue the settled classes or infer globality from a finite hull.
+> Source bars, native full20, physical quotient and retained debts stay open.
+
+> Earlier dated banners are historical; this banner supersedes their closed tasks.
+
 > **2026-10-22: SPLIT SE0 CARRIER AND EXTENDED ENERGY FRONTIER.**
 > Reuse K1951's actual invariant cyclic640, maximal positive128 quotient/submodule,
 > invariant section and nonzero zero-cell mass lift. Impose the remaining raw

@@ -8,6 +8,31 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-22: K1953/K1954 connection and thermal boundaries
+
+[K1953](explorations/conditional-build/k1953-spin-connection-stable-mass-2026-10-22.md) proves full leakage rank364 for the common spinor-only
+connection on the fixed K1951 positive128 subspace. The covector-spinor extension
+has rank359 for the combined invariance, energy and mass system; its five
+independent solutions all act as zero on the stable fields. The spinor-only
+inverse gives a coordinate residual bound and pointwise variable-coefficient
+consequence. A temporal tensor connection supplies a nonzero conservative
+internal rotation, commuting with the principal matrices and removable for an
+arbitrary time-only coefficient. Moving geometry and different carriers remain
+outside the mass exclusions.
+
+[K1954](explorations/conditional-build/k1954-higher-energy-catalyst-frontier-2026-10-22.md) prices omitted thermal population using the known homogeneous
+return floor. Complete rational prefix certificates extend the sharp global
+frontier through54787/14671 with finite attainment throughout. A physical
+eight-site catalyst disproves the next secant of a cutoff14 finite hull; no
+third line or later attainment transition is claimed.
+
+| Claim | Prior | Current | Weakest dependency | Consistency effect |
+|---|---|---|---|---|
+| Fixed stable connection realization | free mass lift known; realization open | two specified classes cannot give nonzero mass | conditional raw symbol and fixed section | closes these classes only |
+| Higher energy catalyst return | global through675/181 | global through54787/14671; later secant refuted | fixed exact channel and inherited path/pinching bridge | two segments added; later frontier remains open |
+| Native GU source and physical claims | unchanged | unchanged | source-owned action, bars and observables absent | no source/ledger/canon promotion |
+
+
 ## 2026-10-22: K1951/K1952 conditional successors
 
 [K1951](explorations/conditional-build/k1951-coordinated-zero-southeast-principal-2026-10-22.md)

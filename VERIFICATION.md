@@ -7,6 +7,30 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K1953/K1954 exact verification, 2026-10-22
+
+K1953 supplies a364-square leakage inverse and a359-square tensor-system minor
+plus five independent zero-action kernel vectors. An independent signed-bit
+Clifford implementation reconstructs raw coefficients, sections, time inverse,
+selected minors, actual kernel actions and a nonzero conservative internal
+rotation with square minus identity and commuting principal matrices. Universal
+and pointwise claims are
+analytic consequences of these identities, not sampled coefficient tests.
+
+K1954 checks81662 complete orientation-cell rational dual certificates at
+cutoffs14 and16. The producer also checks4611 physical shell obligations.
+The independent verifier enumerates subsets and derives coefficients from bath
+labels. A proved tail inequality supplies arbitrary finite-spectrum scope.
+Affine sign compatibility proves whole-interval attainment; full complex shell
+unitaries verify actual endpoints/interiors and the rejected-secant counterexample.
+Both arcs use four mathematical fault inputs after green independent baselines;
+identity and pin checks are separate. No external acceptance, novelty or formal
+proof-assistant certification is claimed.
+
+- [K1953 proof and scope](explorations/conditional-build/k1953-spin-connection-stable-mass-2026-10-22.md).
+- [K1954 proof and scope](explorations/conditional-build/k1954-higher-energy-catalyst-frontier-2026-10-22.md).
+
+
 ## K1951/K1952 exact verification, 2026-10-22
 
 K1951 reconstructs all raw matrices and all32 cyclic blocks, every coefficient

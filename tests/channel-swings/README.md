@@ -1,5 +1,8 @@
 # Pre-contract wave probes
 
+- `k1953_spin_connection_stable_mass{,_probe}.py`: raw connection minors, complete tensor kernel and independent mathematical faults.
+- `k1954_higher_energy_catalyst_frontier{,_probe}.py`: priced-tail exact duals, affine interval and physical counterexample consumers.
+
 - `k1949_southeast_zero_mass_compatibility{,_probe}.py`: raw-cell, kernel, profile and polynomial certificate replay.
 - `k1950_global_catalyst_energy_certificates{,_probe}.py`: global affine certificates and independent bath-label/equality-face verification.
 

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 33775a601163e75dace53bbaeaf0096191a99b07
+revision_basis: a8909553f4e66e5efc0f74e7e6d22ed69d411423
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1953 tests actual connection realizations on K1951's fixed positive128
+    subspace. All364 spinor-only Spin(7,7) coefficients are excluded by exact
+    leakage rank; a rational inverse supplies a residual bound and pointwise
+    extension. The tensorial covector-spinor repair has a five-dimensional kernel
+    of the combined invariance, energy and mass equations, but every solution
+    has zero reduced mass. A nonzero conservative internal-rotation potential
+    survives and is explicitly removable when its coefficient depends only on time.
+    Neither result excludes moving geometry or another carrier. K1954 proves a thermally priced collapsed-tail inequality and two
+    new sharp global catalyst-energy segments through54787/14671, attained
+    throughout. An actual eight-site physical catalyst disproves a tempting
+    higher-energy secant inferred from the cutoff14 hull. That rejected line is
+    not promoted; the higher frontier remains open. Source, physics-ledger and
+    canon verdicts remain unchanged.
+
+    Historical predecessor result:
     K1951 coordinates zero southeast principal coefficients on all observed
     covectors. Its actual raw invariant cyclic640 carrier has Jordan growth
     and exactly one derivative loss. The maximal positive submodule and quotient
@@ -15880,6 +15895,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1953-spin-connection-stable-mass-2026-10-22.md
+    - lab/process/k1953-spin-connection-stable-mass.json
+    - tests/channel-swings/k1953_spin_connection_stable_mass.py
+    - tests/channel-swings/k1953_spin_connection_stable_mass_probe.py
+    - explorations/conditional-build/k1954-higher-energy-catalyst-frontier-2026-10-22.md
+    - lab/process/k1954-higher-energy-catalyst-frontier.json
+    - tests/channel-swings/k1954_higher_energy_catalyst_frontier.py
+    - tests/channel-swings/k1954_higher_energy_catalyst_frontier_probe.py
     - explorations/conditional-build/k1951-coordinated-zero-southeast-principal-2026-10-22.md
     - lab/process/k1951-coordinated-zero-southeast-principal.json
     - tests/channel-swings/k1951_coordinated_zero_southeast_principal.py
@@ -16911,6 +16934,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which changed geometry, invariant carrier or explicitly owned source-cell
+  action can realize a nonzero mass beyond K1953's two fixed-background connection
+  classes? Reuse its exact leakage and zero-image certificates. Compare a scalar
+  primal/cut match with a structural higher-energy catalyst proof beyond54787/14671;
+  the cutoff14 secant to4781/923 is false by an actual eight-site protocol.
+
+  Historical predecessor question:
   Can the actual K1951 stable mass lift satisfy the remaining raw source cells
   and same-background barred pairing, without identifying compression with a raw
   restriction? Compare a structural scalar primal/cut match with genuinely new
@@ -20309,6 +20339,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Supply a source-typed construction outside the proved fixed-background classes,
+  or a matching scalar primal/dual or structural higher-energy catalyst certificate.
+  Do not repeat the364-direction spinor-only leakage, tensor five-kernel/zero-mass
+  result, priced-tail theorem or evaluated frontier at or below54787/14671.
+  A finite path hull is not a global frontier: retain the eight-site counterexample.
+  Native full20/K-C, barred pairing, physical quotient and retained debts stay open.
+
+  Historical predecessor condition:
   Advance from the supplied K1951 matrices by an actual source-cell/barred-map
   certificate, or produce a new matching scalar primal/dual or higher-energy
   path certificate. Do not requeue SE0 cyclic closure, positive quotient existence,
