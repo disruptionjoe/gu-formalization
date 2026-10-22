@@ -1,5 +1,8 @@
 # Pre-contract wave probes
 
+- `k1939_physical_catalyst_resource_frontier{,_probe}.py`: actual shell completions, exact resource optimizer and independent physical-spectrum census.
+- `k1940_joint_scalar_amplitude_energy_cuts{,_probe}.py`: affine continuum pulse reconstruction and independently integrated Green certificates.
+
 - `k1937_finite_support_thermal_optimizer{,_probe}.py`: exact DP, full complex channels and independent exhaustive orientation checks.
 - `k1938_certified_finite_duration_scalar_control{,_probe}.py`: floating discovery, rational certification and independent polygon/marginal verification.
 

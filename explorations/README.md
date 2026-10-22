@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [K1939: physical catalyst resources](conditional-build/k1939-physical-catalyst-resource-frontier-2026-10-22.md): sharp dimension, small-dimension return and two-support energy frontier.
+- [K1940: joint scalar amplitude-energy cuts](conditional-build/k1940-joint-scalar-amplitude-energy-cuts-2026-10-22.md): strict energy penalty and exact lower-amplitude pulse.
+
 - [K1937: finite-support thermal optimizer](conditional-build/k1937-finite-support-thermal-optimizer-2026-10-22.md): sharp support optimum and attaining channels.
 - [K1938: finite-duration scalar control](conditional-build/k1938-certified-finite-duration-scalar-control-2026-10-22.md): rational continuum enclosures and actual endpoint pulses.
 

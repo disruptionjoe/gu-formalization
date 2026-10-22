@@ -1,0 +1,225 @@
+{
+  "claim": "K1939",
+  "evidence_kind": "exact rational resource optimization and full complex shell matrices; universal proofs in note",
+  "exact_controls": 2341,
+  "dimension": "D_min=2N+1",
+  "examples": [
+    {
+      "t": "1/4",
+      "E": "1",
+      "return_cost": "1/2",
+      "gap": null,
+      "lower_weight": "1",
+      "mean_energy": "1"
+    },
+    {
+      "t": "1/4",
+      "E": "21/20",
+      "return_cost": "39/80",
+      "gap": 2,
+      "lower_weight": "39/40",
+      "mean_energy": "21/20"
+    },
+    {
+      "t": "1/4",
+      "E": "11/10",
+      "return_cost": "33/68",
+      "gap": 2,
+      "lower_weight": "33/34",
+      "mean_energy": "18/17"
+    },
+    {
+      "t": "1/4",
+      "E": "5/4",
+      "return_cost": "127/272",
+      "gap": 2,
+      "lower_weight": "7/8",
+      "mean_energy": "5/4"
+    },
+    {
+      "t": "1/4",
+      "E": "3/2",
+      "return_cost": "55/136",
+      "gap": 2,
+      "lower_weight": "3/4",
+      "mean_energy": "3/2"
+    },
+    {
+      "t": "1/4",
+      "E": "2",
+      "return_cost": "19/68",
+      "gap": 2,
+      "lower_weight": "1/2",
+      "mean_energy": "2"
+    },
+    {
+      "t": "1/4",
+      "E": "5/2",
+      "return_cost": "9/34",
+      "gap": 2,
+      "lower_weight": "8/17",
+      "mean_energy": "35/17"
+    },
+    {
+      "t": "1/4",
+      "E": "3",
+      "return_cost": "9/34",
+      "gap": 2,
+      "lower_weight": "8/17",
+      "mean_energy": "35/17"
+    },
+    {
+      "t": "1/4",
+      "E": "4",
+      "return_cost": "9/34",
+      "gap": 2,
+      "lower_weight": "8/17",
+      "mean_energy": "35/17"
+    },
+    {
+      "t": "1/2",
+      "E": "1",
+      "return_cost": "1/2",
+      "gap": null,
+      "lower_weight": "1",
+      "mean_energy": "1"
+    },
+    {
+      "t": "1/2",
+      "E": "21/20",
+      "return_cost": "39/80",
+      "gap": 2,
+      "lower_weight": "39/40",
+      "mean_energy": "21/20"
+    },
+    {
+      "t": "1/2",
+      "E": "11/10",
+      "return_cost": "19/40",
+      "gap": 2,
+      "lower_weight": "19/20",
+      "mean_energy": "11/10"
+    },
+    {
+      "t": "1/2",
+      "E": "5/4",
+      "return_cost": "9/20",
+      "gap": 2,
+      "lower_weight": "9/10",
+      "mean_energy": "6/5"
+    },
+    {
+      "t": "1/2",
+      "E": "3/2",
+      "return_cost": "9/20",
+      "gap": 2,
+      "lower_weight": "9/10",
+      "mean_energy": "6/5"
+    },
+    {
+      "t": "1/2",
+      "E": "2",
+      "return_cost": "7/20",
+      "gap": 2,
+      "lower_weight": "1/2",
+      "mean_energy": "2"
+    },
+    {
+      "t": "1/2",
+      "E": "5/2",
+      "return_cost": "3/10",
+      "gap": 2,
+      "lower_weight": "2/5",
+      "mean_energy": "11/5"
+    },
+    {
+      "t": "1/2",
+      "E": "3",
+      "return_cost": "3/10",
+      "gap": 2,
+      "lower_weight": "2/5",
+      "mean_energy": "11/5"
+    },
+    {
+      "t": "1/2",
+      "E": "4",
+      "return_cost": "3/10",
+      "gap": 2,
+      "lower_weight": "2/5",
+      "mean_energy": "11/5"
+    },
+    {
+      "t": "3/4",
+      "E": "1",
+      "return_cost": "1/2",
+      "gap": null,
+      "lower_weight": "1",
+      "mean_energy": "1"
+    },
+    {
+      "t": "3/4",
+      "E": "21/20",
+      "return_cost": "39/80",
+      "gap": 2,
+      "lower_weight": "39/40",
+      "mean_energy": "21/20"
+    },
+    {
+      "t": "3/4",
+      "E": "11/10",
+      "return_cost": "19/40",
+      "gap": 2,
+      "lower_weight": "19/20",
+      "mean_energy": "11/10"
+    },
+    {
+      "t": "3/4",
+      "E": "5/4",
+      "return_cost": "7/16",
+      "gap": 2,
+      "lower_weight": "7/8",
+      "mean_energy": "5/4"
+    },
+    {
+      "t": "3/4",
+      "E": "3/2",
+      "return_cost": "41/100",
+      "gap": 2,
+      "lower_weight": "41/50",
+      "mean_energy": "34/25"
+    },
+    {
+      "t": "3/4",
+      "E": "2",
+      "return_cost": "41/100",
+      "gap": 2,
+      "lower_weight": "41/50",
+      "mean_energy": "34/25"
+    },
+    {
+      "t": "3/4",
+      "E": "5/2",
+      "return_cost": "17/50",
+      "gap": 2,
+      "lower_weight": "8/25",
+      "mean_energy": "59/25"
+    },
+    {
+      "t": "3/4",
+      "E": "3",
+      "return_cost": "143/434",
+      "gap": 1,
+      "lower_weight": "74/217",
+      "mean_energy": "577/217"
+    },
+    {
+      "t": "3/4",
+      "E": "4",
+      "return_cost": "143/434",
+      "gap": 1,
+      "lower_weight": "74/217",
+      "mean_energy": "577/217"
+    }
+  ],
+  "source_sha256": "99b216483b2d6059f3ce7ec4c7a647b1a508a2112d980189054ee03a678bac2b"
+}

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 6620f25e386850087bbae3b6983c3e2c821b2a71
+revision_basis: 407cfab9afe0598852a658b0cb3651e2891118c7
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,16 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1939 proves the sharp physical catalyst dimension2N+1 and the exact
+    mean-energy constrained return frontier with at most two occupied energies;
+    small Hilbert dimensions3 through6 have explicit return optima. K1940 proves
+    that the scalar plateau budget0.23 is feasible only above gradient energy4,
+    and supplies an exact pulse of amplitude472/2071 with energy30/7. A rational
+    cut bounds its true optimal energy below by5838358027/1459334590. This is
+    an enclosure, not an exact joint optimum. Native GU, source, ledger and canon
+    verdicts remain unchanged.
+
+    Historical predecessor result:
     K1937 closes the finite occupied-support thermal return problem for the
     fixed four-level bath: every admissible rooted path attains its lower bound
     with a full conserving channel, and a dynamic program optimizes arbitrary
@@ -15789,6 +15799,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1939-physical-catalyst-resource-frontier-2026-10-22.md
+    - lab/process/k1939-physical-catalyst-resource-frontier.json
+    - tests/channel-swings/k1939_physical_catalyst_resource_frontier.py
+    - tests/channel-swings/k1939_physical_catalyst_resource_frontier_probe.py
+    - explorations/conditional-build/k1940-joint-scalar-amplitude-energy-cuts-2026-10-22.md
+    - lab/process/k1940-joint-scalar-amplitude-energy-cuts.json
+    - tests/channel-swings/k1940_joint_scalar_amplitude_energy_cuts.py
+    - tests/channel-swings/k1940_joint_scalar_amplitude_energy_cuts_probe.py
     - explorations/conditional-build/k1937-finite-support-thermal-optimizer-2026-10-22.md
     - lab/process/k1937-finite-support-thermal-optimizer.json
     - tests/channel-swings/k1937_finite_support_thermal_optimizer.py
@@ -16764,6 +16782,14 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Compare a native paired full20/K-C/domain/accessibility construction
+  with the scalar joint amplitude-energy optimizer or a higher-support
+  energy-constrained catalyst certificate. K1939 closes physical dimension
+  feasibility and two-support energy optimization; K1940 supplies a genuine
+  joint-resource feasible interval. Neither determines the remaining global
+  resource optimizer or identifies native physical data.
+
+  Historical predecessor question:
   Compare a source-native paired full20/K-C/domain/accessibility
   construction with a matching all-set scalar cut/primal theorem or a genuinely
   energy-constrained catalyst optimizer. Finite occupied-support exact return
@@ -20104,6 +20130,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  For scalar joint optimization use projected Green cut multipliers
+  and an actual exact-marginal pulse; a one-cut minimizer is only a relaxation.
+  At budget0.23 the true energy lies strictly above4 and at most30/7.
+  Catalyst successors need N>=3 energy constraints, D>=7 return optimality,
+  or quantitative approximate-shell bounds. Reuse solved N<=2 and D<=6
+  results. Native work still needs actual same-background paired full20/K-C,
+  physical domain and accessibility. Retain phase-aware, rotation, three-wall,
+  sextic/optimizer, mirror/full-II and normal-jet debts.
+
+  Historical predecessor continuation:
   Use K1937 dynamic programming for fixed-support budgets rather than
   re-solving small paths; new catalyst claims must impose energy, physical
   dimension, degeneracy or approximate-channel constraints explicitly. K1938

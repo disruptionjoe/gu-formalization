@@ -7,6 +7,17 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-22: PHYSICAL RESOURCES AND JOINT PULSE COST.**
+> For scalar joint optimization use projected Green cut multipliers
+> and an actual exact-marginal pulse; a one-cut minimizer is only a relaxation.
+> At budget0.23 the true energy lies strictly above4 and at most30/7.
+> Catalyst successors need N>=3 energy constraints, D>=7 return optimality,
+> or quantitative approximate-shell bounds. Reuse solved N<=2 and D<=6
+> results. Native work still needs actual same-background paired full20/K-C,
+> physical domain and accessibility. Retain phase-aware, rotation, three-wall,
+> sextic/optimizer, mirror/full-II and normal-jet debts.
+
+
 > **2026-10-22: FINITE SUPPORT AND FINITE DURATION.**
 > K1937 solves exact occupied-support thermal return through an attaining path
 > construction and dynamic program. K1938 supplies convergent continuum pulse

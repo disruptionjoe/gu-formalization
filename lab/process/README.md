@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- `k1939-physical-catalyst-resource-frontier.json`: exact physical resource decisions.
+- `k1940-joint-scalar-amplitude-energy-cuts.json`: full affine pulse flows and rational energy lower certificate.
+
 - `k1937-finite-support-thermal-optimizer.json`: exact support optimizers and resource budgets.
 - `k1938-certified-finite-duration-scalar-control.json`: full rational pulse matrices and dual potentials.
 

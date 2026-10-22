@@ -7,6 +7,27 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-22: Physical catalyst resources and joint pulse energy
+
+[K1939](explorations/conditional-build/k1939-physical-catalyst-resource-frontier-2026-10-22.md) and [K1940](explorations/conditional-build/k1940-joint-scalar-amplitude-energy-cuts-2026-10-22.md)
+
+K1939 proves the sharp physical catalyst dimension2N+1 and the exact
+mean-energy constrained return frontier with at most two occupied energies;
+small Hilbert dimensions3 through6 have explicit return optima. K1940 proves
+that the scalar plateau budget0.23 is feasible only above gradient energy4,
+and supplies an exact pulse of amplitude472/2071 with energy30/7. A rational
+cut bounds its true optimal energy below by5838358027/1459334590. This is
+an enclosure, not an exact joint optimum. Native GU, source, ledger and canon
+verdicts remain unchanged.
+
+Validation: K1939 has2341 producer and2166 independent exact controls; K1940
+has7036 producer and3464 independent rational/polynomial controls. Six actual
+mathematical-input faults and two report/two pin controls are detected after
+green baselines. Analytic proofs carry universal scope; full complex shells
+and actual affine continuum marginals are independently reconstructed.
+Internal review is not external expert review or formal proof.
+
+
 ## 2026-10-22: Finite-support optimum and certified finite-duration pulses
 
 [K1937](explorations/conditional-build/k1937-finite-support-thermal-optimizer-2026-10-22.md) and [K1938](explorations/conditional-build/k1938-certified-finite-duration-scalar-control-2026-10-22.md)
