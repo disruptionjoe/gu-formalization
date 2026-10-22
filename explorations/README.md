@@ -7,6 +7,8 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [K1921: complete equal-gap scalar frontier](conditional-build/k1921-scalar-lower-contact-global-solution-2026-10-22.md) and [K1922: strict thermal-operation floor](conditional-build/k1922-energy-conserving-thermal-channel-floor-2026-10-22.md): global contact and resource certificates.
+
 - [K1919: exact finite-energy contact solution](conditional-build/k1919-scalar-finite-budget-contact-solution-2026-10-22.md) and [K1920: local thermal circuits](conditional-build/k1920-local-block-thermal-channel-construction-2026-10-22.md): global variational certificates and explicit resource bounds.
 
 - [K1917: scalar energy and primitive frontier](conditional-build/k1917-scalar-energy-primitive-frontier-2026-10-22.md) and [K1918: collective thermal threshold](conditional-build/k1918-collective-thermal-preparation-threshold-2026-10-22.md): sharp limits, finite constructions and operational consumers.

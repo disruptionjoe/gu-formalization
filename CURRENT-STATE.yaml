@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 9ff0e239f8d9bea54c4230a41d5fcdd1dacaf04a
+revision_basis: ad220da8682cfcf74373bb63ac5cb2d3f30ac296
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1921 completes the equal-gap scalar energy frontier beyond first lower
+    contact, with a global signed-reaction certificate, unique all-budget inversion
+    and the fixed-energy short-time pulse coefficient. Its high-energy branch also
+    works for arbitrary unequal gaps when the central transition fits; intermediate
+    unequal-gap topology and finite-duration optimization remain open.
+    K1922 proves a bath-size and temperature independent half-diamond error floor
+    (6-4sqrt2)/(16(4+sqrt2)) for strict finite energy-conserving thermal operations,
+    including population leakage, same-temperature cell sequences and tensor targets.
+    Near-thermal preparation and channel-error bounds, plus a nonthermal purity
+    escape, distinguish the required resource. No sharp distance, catalytic,
+    infinite-reservoir, total-work or native GU result is claimed.
+    Source, physics-ledger and canon verdicts remain unchanged.
+
+    Historical predecessor result:
     K1919 solves a globally certified finite-energy scalar obstacle branch for
     unequal gaps, with exact energy inversion and the smooth feasibility threshold.
     It continues through the equal-gap central-contact interval up to first lower
@@ -15670,6 +15684,8 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1921-scalar-lower-contact-global-solution-2026-10-22.md
+    - explorations/conditional-build/k1922-energy-conserving-thermal-channel-floor-2026-10-22.md
     - explorations/conditional-build/k1919-scalar-finite-budget-contact-solution-2026-10-22.md
     - explorations/conditional-build/k1920-local-block-thermal-channel-construction-2026-10-22.md
     - explorations/conditional-build/k1917-scalar-energy-primitive-frontier-2026-10-22.md
@@ -16593,6 +16609,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Compare a native same-background full20/K/C/accessibility construction
+  with the sharp nonthermal-resource tradeoff for the supplied channel and the
+  finite-duration scalar capacity-cut optimizer. Equal-gap all-budget energy
+  and strict thermal-operation obstruction are solved at their stated scopes.
+  The general unequal-gap intermediate contact regime remains a separate option.
+
+  Historical predecessor current question:
   Compare an actual same-background full20/K/C/accessibility or specified
   energy-conserving spatial reservoir with structure-exploiting local circuit
   synthesis and the remaining scalar lower-contact obstacle branch. Generic
@@ -19864,6 +19887,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  For thermal work supply a matching nonthermal-purity versus channel-error
+  certificate or a specified work/catalyst model; strict same-temperature energy
+  conservation alone now has a uniform obstruction. For scalar work solve the
+  finite-duration transport cuts or intervening unequal-gap topology. Native
+  paired coefficient, K/C and accessible-algebra construction remains eligible.
+  Reuse equal-gap full contact solution, high-budget unequal-gap branch and
+  energy-shell witness. Retain phase-aware distance, rotation, three-wall,
+  sextic/optimizer, mirror/full-II and normal-jet debts.
+
+  Historical predecessor next condition:
   Construct a circuit for the supplied channel under a specific restricted
   Hamiltonian and prove its full-channel/control bound, or solve the scalar
   lower-obstacle matching and global variational inequality after first contact.

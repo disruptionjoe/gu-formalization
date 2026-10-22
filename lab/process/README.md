@@ -7,6 +7,8 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [K1921 exact controls](k1921-scalar-lower-contact-global-solution.json) and [K1922 exact controls](k1922-energy-conserving-thermal-channel-floor.json): analytic proof scope with reproducible finite checks.
+
 - [K1919 finite-energy controls](k1919-scalar-finite-budget-contact-solution.json) and [K1920 block-circuit controls](k1920-local-block-thermal-channel-construction.json): exact finite controls with analytic scope boundaries.
 
 - [K1917 energy/primitive controls](k1917-scalar-energy-primitive-frontier.json) and [K1918 collective thermal controls](k1918-collective-thermal-preparation-threshold.json): exact finite evidence and scoped analytic results.

@@ -1,0 +1,36 @@
+{
+  "result_id": "K1921",
+  "evidence_kind": "analytic global proof plus exact polynomial identities",
+  "mathematical_controls": [
+    "clamp value",
+    "clamp slope",
+    "lower contact",
+    "contact slope",
+    "contact moment",
+    "left energy",
+    "right energy",
+    "inner energy",
+    "plateau slope",
+    "matching equation",
+    "positive root and multiplier bound",
+    "lower reaction",
+    "unrestricted derivative cancellation",
+    "rational plateau",
+    "rational cap",
+    "rational energy",
+    "rational reaction"
+  ],
+  "example": {
+    "s": "1",
+    "h": "1",
+    "ell": "133/1152",
+    "x": "3/4",
+    "w": "1/4",
+    "A": "21/128",
+    "E": "147/8"
+  },
+  "scope": "complete equal-gap frontier; unequal-gap and finite-duration optimum open",
+  "dependencies": {
+    "explorations/conditional-build/k1919-scalar-finite-budget-contact-solution-2026-10-22.md": "66ddfc0c948794e3326db73d8085aa157fa2275f9ac514648c26a2dcc927ef00"
+  }
+}

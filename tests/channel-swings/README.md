@@ -1,5 +1,7 @@
 # Pre-contract wave probes
 
+- [K1921 producer](k1921_scalar_lower_contact_global_solution.py), [independent probe](k1921_scalar_lower_contact_global_solution_probe.py); [K1922 producer](k1922_energy_conserving_thermal_channel_floor.py), [independent probe](k1922_energy_conserving_thermal_channel_floor_probe.py): exact spline and energy-shell controls.
+
 - K1911/K1912: `k1911_fresh_cell_dephasing_dynamics{,_probe}.py` and `k1912_faithful_bath_dephasing_boundary{,_probe}.py` check exact collision, support and thermal controls. General proofs live in their research notes.
 
 - [K1909 producer](k1909_poisson_phase_classification.py).

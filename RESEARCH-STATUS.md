@@ -8,6 +8,35 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-22: Complete equal-gap frontier and strict thermal-operation floor
+
+[K1921](explorations/conditional-build/k1921-scalar-lower-contact-global-solution-2026-10-22.md)
+solves the remaining lower-contact branch with a global variational inequality.
+Together with K1919 this gives every equal-gap energy budget E>E0, including
+smooth infima and short-time pulse coefficients. The high-budget construction
+also works for unequal gaps with a fitting central transition. The exact
+example has ell=133/1152, cap21/128 and energy147/8. Intermediate unequal-gap
+and finite-duration optimizers remain open.
+
+[K1922](explorations/conditional-build/k1922-energy-conserving-thermal-channel-floor-2026-10-22.md)
+proves half-diamond error at least (6-4sqrt2)/(16(4+sqrt2))>0.0039 for finite
+strict energy-conserving Gibbs-bath realizations. It allows population mixing
+and any finite bath size/temperature. Same-temperature sequences and tensor
+targets obey the floor; near-thermal resource bounds and an explicit nonthermal
+purity escape follow. This narrows K1920's possible conservative implementations;
+its arbitrary driven circuits remain valid. No sharp optimum or catalytic claim.
+
+K1921 has17 exact symbolic controls and separately reconstructed rational
+profiles with36 counted boundary/energy checks plus an unequal-gap fit check.
+K1922 has18 exact matrix controls and24 independently reconstructed checks.
+Four genuine mathematical-input faults and separate2report/2pin faults are
+rejected after green baselines. Universal claims are analytic, not established
+by finite pass counts. No novelty, external expert review, formal proof or
+native GU credit. Source/physics-ledger/canon verdicts unchanged. Earlier open
+lower-contact and energy-conservation wording below is historical at these
+resolved scopes; remaining restricted resource and finite-duration debts persist.
+
+
 ## 2026-10-22: Exact finite-energy branches and local thermal circuits
 
 [K1919](explorations/conditional-build/k1919-scalar-finite-budget-contact-solution-2026-10-22.md)

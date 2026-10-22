@@ -7,6 +7,13 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-22: COMPLETE EQUAL-GAP FRONTIER; THERMAL FLOOR.** K1921
+> closes all equal-gap energy budgets and certifies unequal-gap high budgets.
+> K1922 proves strict thermal operations cannot beat a uniform error floor.
+> Next compare native paired inputs with a sharp nonthermal-resource tradeoff,
+> finite-duration scalar cuts or intermediate unequal-gap contact topology.
+> Earlier open lower-contact/conservation wording is historical at these scopes.
+
 > **2026-10-22: FINITE ENERGY AND LOCAL CIRCUITS.** K1919 closes the first
 > finite-energy contact regimes, including A_18=1 in the stated example.
 > K1920 supplies generic block-local thermal circuits and full-channel error.
