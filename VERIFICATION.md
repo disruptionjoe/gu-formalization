@@ -7,6 +7,23 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-22: Effective scalar cut certificates and global thermal price law
+
+K1963 proves a quantitative transfer from all grid-union scalar cuts to every
+measurable cut, repairs amplitude with a strict feasible pulse and gives an explicit
+energy convergence bound. An exact graph now separates all grid unions in polynomial
+size; a 96-cell certificate covers 2^96 unions. A conservative repaired existence
+bound slightly improves the previous pulse energy upper. K1964 supplies explicit
+all-spectrum exponential envelopes, the global small-price lambda-log law and
+uniform localization of every price-near-optimal finite thermal protocol. The
+non-rooted finite-window scout found no improvement and proves no completeness.
+Source, physics-ledger and canon verdicts remain unchanged.
+
+- [K1963: effective all-cut certificates and exact graph separation](explorations/conditional-build/k1963-effective-scalar-cut-certificates-2026-10-22.md).
+- [K1964: global thermal price law and near-optimal localization](explorations/conditional-build/k1964-nonrooted-thermal-price-test-2026-10-22.md).
+
+Earlier entries are historical where these results close their questions.
+
 ## 2026-10-22: Curved core connections and finite-tail thermal improvement
 
 K1961 constructs three actual noncommuting tensorial rotations on the fixed raw

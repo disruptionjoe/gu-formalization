@@ -247,6 +247,12 @@ the ledger probe uses the standard Python interpreter.
 
 # Selected-Shiab observed-receiver probes
 
+## 2026-10-22: Scalar certificates and thermal pricing
+
+- K1963: `k1963_effective_scalar_cut_certificates.py` and `_probe.py`: exhaustive unions, exact mincut, separate ODE/transport/quadrature and fault controls.
+- K1964: `k1964_nonrooted_thermal_price_test.py` and `_probe.py`: explicit constants, full shell controls, separate price minimization; optional `--scout` is floating search only.
+
+
 ## Latest conditional successors: K1951 and K1952
 
 - [K1951: coordinated SE0 principal carrier, split positive quotient and mass lift](../../explorations/conditional-build/k1951-coordinated-zero-southeast-principal-2026-10-22.md).

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 502b0bc806228519cdde382ef76425d26944ed93
+revision_basis: 1e28fb9371865cfc3d21df48f3d22f5dee031244
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,17 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1963 proves a quantitative transfer from all grid-union scalar cuts to every
+    measurable cut, repairs amplitude with a strict feasible pulse and gives an explicit
+    energy convergence bound. An exact graph now separates all grid unions in polynomial
+    size; a 96-cell certificate covers 2^96 unions. A conservative repaired existence
+    bound slightly improves the previous pulse energy upper. K1964 supplies explicit
+    all-spectrum exponential envelopes, the global small-price lambda-log law and
+    uniform localization of every price-near-optimal finite thermal protocol. The
+    non-rooted finite-window scout found no improvement and proves no completeness.
+    Source, physics-ledger and canon verdicts remain unchanged.
+
+    Historical predecessor result:
     K1961 constructs three actual noncommuting tensorial rotations on the fixed raw
     positive128 core. Their nonzero-curvature connection preserves positive energy
     and admits causal unitary evolution on a common H1 domain. Its constant curved
@@ -15940,6 +15951,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1963-effective-scalar-cut-certificates-2026-10-22.md
+    - lab/process/k1963-effective-scalar-cut-certificates.json
+    - tests/channel-swings/k1963_effective_scalar_cut_certificates.py
+    - tests/channel-swings/k1963_effective_scalar_cut_certificates_probe.py
+    - explorations/conditional-build/k1964-nonrooted-thermal-price-test-2026-10-22.md
+    - lab/process/k1964-nonrooted-thermal-price-test.json
+    - tests/channel-swings/k1964_nonrooted_thermal_price_test.py
+    - tests/channel-swings/k1964_nonrooted_thermal_price_test_probe.py
     - explorations/conditional-build/k1961-curved-core-connections-2026-10-22.md
     - lab/process/k1961-curved-core-connections.json
     - tests/channel-swings/k1961_curved_core_connections.py
@@ -17003,6 +17022,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Compare a matching continuum scalar certificate using exact graph separation
+  against an actual source-compatible changed connection/input map. Finite scalar
+  separation and an effective continuum error bound are now available; exact optimality
+  remains open. Thermal leading price scaling and near-minimizer energy are settled;
+  a sharp subleading global bound or a non-rooted physical improvement remains open.
+
+  Historical predecessor lead:
   Compare an actual source-compatible changed connection/input map with scalar
   primal/all-cut matching. K1961 settles existence of curved conservative core
   connections, not their source selection; more freely chosen examples add no
@@ -20436,6 +20462,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Construct a continuum primal/dual match or a sharper scalar transfer bound,
+  using the exact finite graph rather than assuming halfcuts suffice. For thermal
+  work, target the O(lambda) coefficient or a concrete non-rooted physical improvement,
+  not the settled leading logarithmic price law. Source-facing work still needs the
+  actual compatible raw map and physical consumer; preserve full20/barred/K-C/domain,
+  mirror/full-II/normal-jet and rejected-secant debts.
+
+  Historical predecessor lead:
   Supply the source-compatible raw map and its physical consumer, or a scalar
   pulse with a matching complete-cut certificate. For the thermal model, compare
   an all-spectrum priced lower bound against K1962 exact rooted-family optima or

@@ -7,6 +7,12 @@ updated_at: "2026-08-23"
 
 # Process
 
+## 2026-10-22: Scalar certificates and thermal pricing
+
+- [K1963 exact finite certificates](k1963-effective-scalar-cut-certificates.json).
+- [K1964 explicit global price constants and physical controls](k1964-nonrooted-thermal-price-test.json).
+
+
 ## Latest conditional results: K1961 and K1962
 
 - [K1961: curved core connections and global domains](../../explorations/conditional-build/k1961-curved-core-connections-2026-10-22.md).

@@ -1,0 +1,184 @@
+{
+  "result_id": "K1963",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "exact_controls": 4147,
+  "graph_certificates": [
+    {
+      "h": "1",
+      "nodes": 24,
+      "directed_arcs": 114,
+      "minimum_deficit": "0",
+      "chosen_cells": [],
+      "phase_energy": "5601/1400",
+      "active_halfcut": "1/2"
+    },
+    {
+      "h": "1/2",
+      "nodes": 45,
+      "directed_arcs": 444,
+      "minimum_deficit": "0",
+      "chosen_cells": [],
+      "phase_energy": "5601/1400",
+      "active_halfcut": "1/2"
+    },
+    {
+      "h": "1/4",
+      "nodes": 87,
+      "directed_arcs": 1752,
+      "minimum_deficit": "0",
+      "chosen_cells": [],
+      "phase_energy": "5601/1400",
+      "active_halfcut": "1/2"
+    },
+    {
+      "h": "1/16",
+      "nodes": 339,
+      "directed_arcs": 27744,
+      "minimum_deficit": "0",
+      "chosen_cells": [],
+      "phase_energy": "1850592923/462545000",
+      "active_halfcut": "7/16"
+    }
+  ],
+  "baseline_violated_cut": {
+    "h": "1/2",
+    "nodes": 45,
+    "directed_arcs": 444,
+    "minimum_deficit": "-1/160",
+    "chosen_cells": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "grid": {
+    "h": "1/2",
+    "M": "23/100",
+    "cuts": [
+      "-1/2",
+      "1/2"
+    ],
+    "multipliers": [
+      "2/35",
+      "2/35"
+    ],
+    "energy": "5601/1400",
+    "union_count": 4096
+  },
+  "fractional_controls": [
+    {
+      "k": 1,
+      "capacity": "1130/49",
+      "averaged_capacity": "22",
+      "layer_cake": "62/7",
+      "mass": "3"
+    },
+    {
+      "k": 2,
+      "capacity": "1264/49",
+      "averaged_capacity": "892/35",
+      "layer_cake": "76/7",
+      "mass": "3"
+    },
+    {
+      "k": 3,
+      "capacity": "1214/49",
+      "averaged_capacity": "898/35",
+      "layer_cake": "78/7",
+      "mass": "3"
+    },
+    {
+      "k": 4,
+      "capacity": "1250/49",
+      "averaged_capacity": "898/35",
+      "layer_cake": "78/7",
+      "mass": "3"
+    },
+    {
+      "k": 5,
+      "capacity": "1200/49",
+      "averaged_capacity": "892/35",
+      "layer_cake": "76/7",
+      "mass": "3"
+    },
+    {
+      "k": 6,
+      "capacity": "146/7",
+      "averaged_capacity": "22",
+      "layer_cake": "62/7",
+      "mass": "3"
+    },
+    {
+      "k": 7,
+      "capacity": "0",
+      "averaged_capacity": "0",
+      "layer_cake": "0",
+      "mass": "0"
+    },
+    {
+      "k": 8,
+      "capacity": "1130/49",
+      "averaged_capacity": "22",
+      "layer_cake": "62/7",
+      "mass": "3"
+    },
+    {
+      "k": 9,
+      "capacity": "1264/49",
+      "averaged_capacity": "892/35",
+      "layer_cake": "76/7",
+      "mass": "3"
+    },
+    {
+      "k": 10,
+      "capacity": "1214/49",
+      "averaged_capacity": "898/35",
+      "layer_cake": "78/7",
+      "mass": "3"
+    },
+    {
+      "k": 11,
+      "capacity": "1250/49",
+      "averaged_capacity": "898/35",
+      "layer_cake": "78/7",
+      "mass": "3"
+    },
+    {
+      "k": 12,
+      "capacity": "1200/49",
+      "averaged_capacity": "892/35",
+      "layer_cake": "76/7",
+      "mass": "3"
+    },
+    {
+      "k": 13,
+      "capacity": "146/7",
+      "averaged_capacity": "22",
+      "layer_cake": "62/7",
+      "mass": "3"
+    },
+    {
+      "k": 14,
+      "capacity": "0",
+      "averaged_capacity": "0",
+      "layer_cake": "0",
+      "mass": "0"
+    },
+    {
+      "k": 15,
+      "capacity": "1130/49",
+      "averaged_capacity": "22",
+      "layer_cake": "62/7",
+      "mass": "3"
+    }
+  ],
+  "inputs": {
+    "lab/process/k1942-complete-scalar-energy-duality.json": "869b9e2d8121a2b006d812611420a8f8c6594b6aac1ed1987f13c2ff53980d3a",
+    "lab/process/k1944-optimized-scalar-pulse-certificate.json": "e9e6f7b2ba637f73113a9fb387da2f8ec8c258a98c75e4df90e28c47ee6095ef"
+  },
+  "scope": "Finite ALL-grid-union certificate plus proved amplitude inflation and strict-slack energy convergence; no exact optimum or practical complexity claim."
+}

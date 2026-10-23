@@ -7,6 +7,12 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+## 2026-10-22: Scalar certificates and thermal pricing
+
+- [K1963 all-cut transfer and exact graph](conditional-build/k1963-effective-scalar-cut-certificates-2026-10-22.md).
+- [K1964 global price law](conditional-build/k1964-nonrooted-thermal-price-test-2026-10-22.md).
+
+
 ## Latest conditional results: K1961 and K1962
 
 - [K1961: curved core connections and global domains](conditional-build/k1961-curved-core-connections-2026-10-22.md).

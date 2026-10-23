@@ -1,0 +1,105 @@
+{
+  "result_id": "K1964",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "exact_controls": 128,
+  "physical_shell_controls": 1167,
+  "constants": {
+    "Cminus": "1/419904",
+    "Cplus": "1",
+    "floor": "4/25",
+    "a": "log(3/2)/2",
+    "eps0": "163/5500",
+    "B0": "2913/326"
+  },
+  "physical": [
+    {
+      "support": [
+        1,
+        3,
+        5
+      ],
+      "weights": [
+        "3/8",
+        "9/16",
+        "1/16"
+      ],
+      "energy": "19/8",
+      "return_cost": "9/32"
+    },
+    {
+      "support": [
+        1,
+        3,
+        5,
+        7,
+        9
+      ],
+      "weights": [
+        "36/181",
+        "54/181",
+        "81/181",
+        "9/181",
+        "1/181"
+      ],
+      "energy": "675/181",
+      "return_cost": "81/362"
+    },
+    {
+      "support": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13
+      ],
+      "weights": [
+        "108/923",
+        "162/923",
+        "243/923",
+        "729/1846",
+        "81/1846",
+        "9/1846",
+        "1/1846"
+      ],
+      "energy": "4781/923",
+      "return_cost": "729/3692"
+    }
+  ],
+  "examples": [
+    {
+      "n": 0,
+      "energy": "1",
+      "return_cost": "1/2"
+    },
+    {
+      "n": 1,
+      "energy": "19/8",
+      "return_cost": "9/32"
+    },
+    {
+      "n": 2,
+      "energy": "675/181",
+      "return_cost": "81/362"
+    },
+    {
+      "n": 3,
+      "energy": "4781/923",
+      "return_cost": "729/3692"
+    },
+    {
+      "n": 4,
+      "energy": "120599/17911",
+      "return_cost": "6561/35822"
+    }
+  ],
+  "inputs": {
+    "lab/process/k1958-sharp-thermal-energy-rate.json": "e3b97a095706556aea9c7acf2068df75331a5a06cc887709dfc3e33502acc9ed",
+    "lab/process/k1960-thermal-frontier-convexification.json": "682b3475b10c66e94a1ea10f7a55b814c084748f145673fb4a70bca73b2b4229",
+    "lab/process/k1962-finite-tail-thermal-improvement.json": "22a7aaa997e83a595127b469bfa4351e308c25cbac9d568a5e7edc3cccabdd7f"
+  },
+  "scope": "All finite spectra global priced logarithmic law and localization of price-near-optimal physical protocols; no sharp O(lambda) constant or rooted completeness."
+}
