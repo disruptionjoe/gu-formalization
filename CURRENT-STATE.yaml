@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 1f8cef672f4628bd34ec37edd891896c0434401e
+revision_basis: 502b0bc806228519cdde382ef76425d26944ed93
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,17 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1961 constructs three actual noncommuting tensorial rotations on the fixed raw
+    positive128 core. Their nonzero-curvature connection preserves positive energy
+    and admits causal unitary evolution on a common H1 domain. Its constant curved
+    example has64 zero-frequency modes, while a flat torus connection has a holonomy
+    gap; neither is a source-selected Dirac mass. K1962 proves every limiting rooted
+    thermal chord has strict finite-tail improvements and gives an exact finite
+    priced optimizer over all rooted families, with a fixed-root small-price tail
+    law. This restricted optimum is not an all-spectrum dual lower bound. Source,
+    physics-ledger and canon verdicts remain unchanged.
+
+    Historical predecessor result:
     K1959 excludes all1274 full-direction common spinor-only bivector coefficients
     from preserving the fixed raw positive128 core. Combined with K1957 parity,
     all1470 grade-one/bivector coefficients in that placement vanish. The full14
@@ -15929,6 +15940,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1961-curved-core-connections-2026-10-22.md
+    - lab/process/k1961-curved-core-connections.json
+    - tests/channel-swings/k1961_curved_core_connections.py
+    - tests/channel-swings/k1961_curved_core_connections_probe.py
+    - explorations/conditional-build/k1962-finite-tail-thermal-improvement-2026-10-22.md
+    - lab/process/k1962-finite-tail-thermal-improvement.json
+    - tests/channel-swings/k1962_finite_tail_thermal_improvement.py
+    - tests/channel-swings/k1962_finite_tail_thermal_improvement_probe.py
     - explorations/conditional-build/k1959-full-direction-even-connection-2026-10-22.md
     - lab/process/k1959-full-direction-even-connection.json
     - tests/channel-swings/k1959_full_direction_even_connection.py
@@ -16984,6 +17003,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Compare an actual source-compatible changed connection/input map with scalar
+  primal/all-cut matching. K1961 settles existence of curved conservative core
+  connections, not their source selection; more freely chosen examples add no
+  selection evidence. K1962 settles rooted-family priced optimization; a global
+  all-spectrum lower certificate or non-rooted physical improvement remains open.
+
+  Historical predecessor lead:
   Compare a typed changed source carrier/other-input placement with a scalar
   primal/all-cut match. Full14 common spinor-only grade1/bivector and the stated
   tensorial conservative Dirac-mass class are settled on the fixed core by
@@ -20410,6 +20436,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Supply the source-compatible raw map and its physical consumer, or a scalar
+  pulse with a matching complete-cut certificate. For the thermal model, compare
+  an all-spectrum priced lower bound against K1962 exact rooted-family optima or
+  construct a better non-rooted motif. Do not repeat finite-tail examples or infer
+  global asymptotic modulation. Preserve full20/barred/K-C/quotient/source-domain
+  and rejected-secant debts.
+
+  Historical predecessor lead:
   Supply the actual changed raw map before its source/physical consumer, or
   construct a scalar pulse with a matching complete-cut certificate. For the
   independent thermal arc, certify b(lambda) over all finite spectra or exhibit

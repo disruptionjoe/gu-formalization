@@ -7,6 +7,20 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-22: CURVATURE, HOLONOMY AND FINITE-TAIL IMPROVEMENT.**
+> Compare an actual source-compatible changed connection/input map with scalar
+> primal/all-cut matching. K1961 settles existence of curved conservative core
+> connections, not their source selection; more freely chosen examples add no
+> selection evidence. K1962 settles rooted-family priced optimization; a global
+> all-spectrum lower certificate or non-rooted physical improvement remains open.
+> Supply the source-compatible raw map and its physical consumer, or a scalar
+> pulse with a matching complete-cut certificate. For the thermal model, compare
+> an all-spectrum priced lower bound against K1962 exact rooted-family optima or
+> construct a better non-rooted motif. Do not repeat finite-tail examples or infer
+> global asymptotic modulation. Preserve full20/barred/K-C/quotient/source-domain
+> and rejected-secant debts.
+> Earlier banners are historical; preserve their scoped results.
+
 > **2026-10-22: FULL EVEN CLASS AND GLOBAL THERMAL DUAL.**
 > Compare a typed changed source carrier/other-input placement with a scalar
 > primal/all-cut match. Full14 common spinor-only grade1/bivector and the stated

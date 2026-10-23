@@ -8,6 +8,23 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-22: Curved core connections and finite-tail thermal improvement
+
+K1961 constructs three actual noncommuting tensorial rotations on the fixed raw
+positive128 core. Their nonzero-curvature connection preserves positive energy
+and admits causal unitary evolution on a common H1 domain. Its constant curved
+example has64 zero-frequency modes, while a flat torus connection has a holonomy
+gap; neither is a source-selected Dirac mass. K1962 proves every limiting rooted
+thermal chord has strict finite-tail improvements and gives an exact finite
+priced optimizer over all rooted families, with a fixed-root small-price tail
+law. This restricted optimum is not an all-spectrum dual lower bound. Source,
+physics-ledger and canon verdicts remain unchanged.
+
+- [K1961: curved core connections and global domains](explorations/conditional-build/k1961-curved-core-connections-2026-10-22.md).
+- [K1962: finite-tail improvement and priced rooted optimizer](explorations/conditional-build/k1962-finite-tail-thermal-improvement-2026-10-22.md).
+
+Earlier dated entries are historical where these results close their questions.
+
 ## 2026-10-22: Even-connection boundary and thermal convexification
 
 K1959 excludes all1274 full-direction common spinor-only bivector coefficients

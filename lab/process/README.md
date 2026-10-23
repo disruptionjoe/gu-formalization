@@ -7,6 +7,13 @@ updated_at: "2026-08-23"
 
 # Process
 
+## Latest conditional results: K1961 and K1962
+
+- [K1961: curved core connections and global domains](../../explorations/conditional-build/k1961-curved-core-connections-2026-10-22.md).
+- [K1962: finite-tail improvement and priced rooted optimizer](../../explorations/conditional-build/k1962-finite-tail-thermal-improvement-2026-10-22.md).
+
+Active research; source, physics-ledger and canon verdicts unchanged.
+
 ## Latest conditional results: K1959 and K1960
 
 - [K1959: full-direction even connections and tensorial repair](../../explorations/conditional-build/k1959-full-direction-even-connection-2026-10-22.md).
