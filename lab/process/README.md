@@ -7,6 +7,8 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [K1967 exact raw-core certificates](k1967-paired-raw-coefficient-observation.json), [K1968 finite thermal frontier](k1968-joint-thermal-finite-dimension-program.json), and [K1969 continuum separation controls](k1969-scalar-continuum-separation.json): conditional proofs with reproducible exact checks.
+
 ## 2026-10-22: Scalar regularity and exact thermal dimension
 
 - [K1965 exact certificates](k1965-scalar-uniform-lipschitz-certificates.json).

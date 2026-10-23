@@ -7,6 +7,8 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [K1967: paired raw coefficients and conditional mass](conditional-build/k1967-paired-raw-coefficient-observation-2026-10-22.md), [K1968: finite joint thermal programs](conditional-build/k1968-joint-thermal-finite-dimension-program-2026-10-22.md), and [K1969: continuum halfcuts and arbitrary-cut separation](conditional-build/k1969-scalar-continuum-separation-2026-10-22.md).
+
 ## 2026-10-22: Scalar regularity and exact thermal dimension
 
 - [K1965 linear mesh certificates](conditional-build/k1965-scalar-uniform-lipschitz-certificates-2026-10-22.md).

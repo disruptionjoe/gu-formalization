@@ -7,6 +7,14 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-22: PAIRED RAW MASS; JOINT THERMAL PROGRAM; HALFCUT LIMIT.**
+> K1967 supplies a conditional mixed-grade raw-core mass and isolates the source
+> bar/reality debt. K1968 solves fixed-dimension completeness and the full d<=8
+> energy curves, including an unattained sharp infimum. K1969 solves all halfcuts
+> but proves that class cannot certify arbitrary cuts. Next compare the actual
+> source completion, a global scalar path certificate and structural thermal
+> laws beyond finite enumeration. Earlier open wording is historical at these scopes.
+
 > **2026-10-22: SCALAR REGULARITY AND EXACT THERMAL DIMENSION.**
 > Compare an actual source-compatible raw coefficient and observation with a
 > matching scalar continuum certificate. Scalar uniform regularity and linear

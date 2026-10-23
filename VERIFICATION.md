@@ -7,6 +7,44 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-22: Paired raw coefficients, joint thermal resources and continuum cut separation
+
+[K1967](explorations/conditional-build/k1967-paired-raw-coefficient-observation-2026-10-22.md)
+proves the complete common grade1 upper-row map has rank196 and no nonzero
+invariant coefficient, even with arbitrary independent barred return. A supplied
+grade1/grade13 pair and independent barred completion instead yield an exact
+H-skew mass with square-I and Clifford anticommutation on the actual raw1920
+positive128 section. Bounded observation on that section, unitary evolution
+and rank64 wall modes follow. Source selection and the source bar/reality map
+remain unproved; grade13 itself was already inventoried in DS-1.
+
+[K1968](explorations/conditional-build/k1968-joint-thermal-finite-dimension-program-2026-10-22.md)
+proves that every fixed physical dimension admits a complete finite exact
+joint energy-return program, including arbitrary spectra and coherent initial
+preparations. Curves through d8 are explicit. F8(3/2)=5/12 is a sharp infimum
+with no attaining nondegenerate protocol; an eight-level conserving sequence
+approaches it at exactly the energy budget. The infimum can be nonconvex in
+energy under a dimension cap. Independent rational LP certificates cover
+38,088 obligations and1,494 physical shell controls; five mathematical faults
+are rejected. An attempted global secant bound failed and was replaced by
+the actual tagged programs before acceptance.
+
+[K1969](explorations/conditional-build/k1969-scalar-continuum-separation-2026-10-22.md)
+solves the all-halfcut continuum relaxation by a quartic contact equation and
+global halfcut/KKT certificate. It gives a same-model profile passing EVERY
+halfcut but violating a measurable cut, and identifies a missing continuum
+halfcut in the prior finite96-cell phase. The full arbitrary-cut problem reduces
+exactly to bounded-slope path separation, with a sufficient HJB certificate
+condition. No all-cut feasibility or optimality of the unperturbed halfcut
+minimizer is claimed. The scalar producer has271 exact controls and its
+independent probe has17 controls plus five mathematical faults.
+
+All three results are internal analytic mathematics with reproducible finite
+controls, not formal proof, external expert certification or novelty claims.
+Source, physics-ledger and canon verdicts remain unchanged. Historical open
+wording below is superseded only at these explicitly solved scopes.
+
+
 ## 2026-10-22: Scalar regularity and exact thermal dimension frontier
 
 K1965 proves uniform Lipschitz regularity of every finite-cut scalar minimizer

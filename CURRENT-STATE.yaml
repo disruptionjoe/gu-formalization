@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 3bb02706bc6353b7d6418edcf7929ffa9a3779e0
+revision_basis: ae81b8222a7af10c0b526405b0a95980d0375f7b
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1967 excludes the complete common grade1 upper placement on the fixed raw1920
+    positive128 core, even with arbitrary barred return, and constructs an exact
+    mixed grade1/grade13 repair with an independent barred completion. Its bounded
+    observation, unitary massive evolution and rank64 wall modes are conditional;
+    the source does not select that coefficient/reality completion.
+    K1968 reduces joint thermal mean-energy and physical-dimension optimization
+    at every fixed dimension to finitely many exact programs. Complete curves
+    through eight levels include a sharp eight-level infimum5/12 at energy3/2
+    that no finite nondegenerate eight-level protocol attains.
+    K1969 solves the continuum all-halfcut scalar relaxation, proves by an explicit
+    counterexample that it is insufficient for all measurable cuts, and derives
+    an exact path separation problem plus a sufficient HJB certificate target.
+    Source, physics-ledger and canon verdicts are unchanged.
+
+    Historical predecessor result:
     K1965 proves uniform Lipschitz regularity of every finite-cut scalar minimizer
     and the continuum optimum, piecewise BV derivative control and O(h) energy
     certificates. The actual 96-cell phase gives a sharper original-budget upper.
@@ -15961,6 +15976,9 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1967-paired-raw-coefficient-observation-2026-10-22.md
+    - explorations/conditional-build/k1968-joint-thermal-finite-dimension-program-2026-10-22.md
+    - explorations/conditional-build/k1969-scalar-continuum-separation-2026-10-22.md
     - explorations/conditional-build/k1965-scalar-uniform-lipschitz-certificates-2026-10-22.md
     - lab/process/k1965-scalar-uniform-lipschitz-certificates.json
     - tests/channel-swings/k1965_scalar_uniform_lipschitz_certificates.py
@@ -17040,6 +17058,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Compare the actual source bar/reality completion for the raw-core mass repair,
+  the full measurable-cut scalar path optimizer, and structural closed-form
+  joint thermal dimension/energy laws beyond the finite exact algorithm.
+  Raw grade1 impossibility, fixed-dimension finite completeness, and the
+  continuum halfcut relaxation are resolved at their stated scopes.
+
+  Historical predecessor current question:
   Compare an actual source-compatible raw coefficient and observation with a
   matching scalar continuum certificate. Scalar uniform regularity and linear
   mesh convergence are settled; use them rather than repeat a rate proof.
@@ -20488,6 +20513,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  For source work supply the actual paired bar/reality relation or a declared
+  coefficient-class change and test it against raw invariance and conservative
+  mass; independent lower returns do not confer source selection. For scalar
+  work construct a global all-cut path/HJB certificate or a violating cut of the
+  unperturbed halfcut minimizer. For thermal work use the complete finite program
+  to prove a structural law beyond d8, with physical dimensions and attainment
+  tracked. Retain K/C/accessibility, mirror/full-II, normal-jet, phase-aware
+  distance, rotation, three-wall and remaining scalar/geometry alternatives.
+
+  Historical predecessor next condition:
   Construct the actual changed source input and its conservative raw interface,
   or use exact scalar active cuts with the linear repair bound toward a continuum
   primal/dual match. For thermal work, add mean-energy constraints to the now
