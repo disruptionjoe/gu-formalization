@@ -8,6 +8,23 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-23: Logarithmic rank and differential trace certificates
+
+K2001 sharpens the universal capped-pulse residual floor to an exponential-in-rank
+bound, giving a logarithmic necessary rank; it also derives the complete Gram spectrum
+and sharp unrestricted rank-error asymptotic for the elementary exact central pulse
+only. K2002 constructs exact degree-four differential trace certificates for both signs
+of the unchanged raw-pairing equation. Every symmetric distributional solution has zero
+trace; nonzero positive or negative semidefinite fields are excluded on every open
+domain. This settles the formerly open positive multicoordinate pairing construction for
+this fixed conditional model, without a GU source or physics-ledger verdict.
+
+- [K2001](explorations/conditional-build/k2001-geometric-pulse-rank-bounds-2026-10-23.md).
+- [K2002](explorations/conditional-build/k2002-clifford-pairing-integrability-2026-10-23.md).
+
+The scalar producer checks12002 exact rational band/error identities; its separate probe checks70 integral, spectral and geometric identities and detects four mathematical corruptions. The pairing producer solves exact rational coefficient systems; the independent raw implementation expands the full14-variable polynomial certificate and checks every coefficient for both signs, with four mathematical corruptions. Independent internal review checks the proof transfers. These are scoped analytic/exact results, not external acceptance, novelty or proof-assistant certification.
+
+
 ## 2026-10-23: Effective pulse rank and algebraic pairing obstruction
 
 K1999 turns the finite-rank pulse obstruction into an explicit basis-independent

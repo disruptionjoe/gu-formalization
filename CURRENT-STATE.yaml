@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 09d9d5a5cf7e5e8bdb729bd3feca56b67193fbcd
+revision_basis: a407fc4b1fae500cbe6f4deb6f811f4d6d090298
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,16 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2001 sharpens the universal capped-pulse residual floor to an exponential-in-rank
+    bound, giving a logarithmic necessary rank; it also derives the complete Gram spectrum
+    and sharp unrestricted rank-error asymptotic for the elementary exact central pulse
+    only. K2002 constructs exact degree-four differential trace certificates for both signs
+    of the unchanged raw-pairing equation. Every symmetric distributional solution has zero
+    trace; nonzero positive or negative semidefinite fields are excluded on every open
+    domain. This settles the formerly open positive multicoordinate pairing construction for
+    this fixed conditional model, without a GU source or physics-ledger verdict.
+
+    Historical predecessor (not live):
     K1999 turns the finite-rank pulse obstruction into an explicit basis-independent
     marginal-residual bound and a stronger lower bound for arbitrary uncapped low-rank
     approximation to every exact central pulse. The rates are conservative and nonsharp.
@@ -16136,6 +16146,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k2001-geometric-pulse-rank-bounds-2026-10-23.md
+    - lab/process/k2001-geometric-pulse-rank-bounds.json
+    - tests/channel-swings/k2001_geometric_pulse_rank_bounds.py
+    - tests/channel-swings/k2001_geometric_pulse_rank_bounds_probe.py
+    - explorations/conditional-build/k2002-clifford-pairing-integrability-2026-10-23.md
+    - lab/process/k2002-clifford-pairing-integrability.json
+    - tests/channel-swings/k2002_clifford_pairing_integrability.py
+    - tests/channel-swings/k2002_clifford_pairing_integrability_probe.py
     - explorations/conditional-build/k1999-effective-rank-residual-bound-2026-10-23.md
     - lab/process/k1999-effective-rank-residual-bound.json
     - tests/channel-swings/k1999_effective_rank_residual_bound.py
@@ -17274,6 +17292,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  The fixed raw-pairing positive-field route is now excluded by a differential trace
+  identity, including multicoordinate transcendental fields. Compare an explicitly changed
+  source-compatible coefficient/core or pairing relation with exact cap-preserving
+  continuum pulse construction. Universal pulse-rank lower bounds remain nonsharp; the
+  elementary pulse spectrum is settled.
+
+  Historical predecessor (not live):
   Compare a convergent genuinely multicoordinate transcendental raw-pairing construction
   with exact infinite-series capped wings or central optimization. Algebraic pairing
   formulas and one-scalar dependence near identity are now excluded. Pulse rank barriers
@@ -20793,6 +20818,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Retire all positive symmetric pairing searches on the unchanged raw J/Omega/T equation,
+  including higher Taylor jets, analytic sums and multicoordinate transcendental fields. A
+  successor must specify and justify an actual changed coefficient/core, barred pairing
+  relation or physical quotient, then test the same independent requirements; no arbitrary
+  alteration earns source credit. Independent alternatives: exact cap-preserving
+  wings/central optimizer, matching universal rank/error construction, or certified
+  thermal global spacing threshold. Do not repeat K2001 elementary-pulse spectral fits or
+  rank-only exclusion. Retain full20, source bar, K/C/accessibility, mirror/full-II,
+  normal-jets and interacting physical quotient debts.
+
+  Historical predecessor (not live):
   For raw pairing, use the full invertible zero-order operator with the two first-symbol
   compatibility conditions to seek a convergent multicoordinate symmetric construction, or
   a genuine all-order obstruction; retain positive first/second jets as necessary data

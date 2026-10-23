@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2001-geometric-pulse-rank-bounds](k2001-geometric-pulse-rank-bounds.json).
+- [k2002-clifford-pairing-integrability](k2002-clifford-pairing-integrability.json).
+
 - [k1999-effective-rank-residual-bound](k1999-effective-rank-residual-bound.json).
 - [k2000-raw-pairing-polynomial-structure](k2000-raw-pairing-polynomial-structure.json).
 

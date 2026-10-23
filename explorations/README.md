@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2001-geometric-pulse-rank-bounds](conditional-build/k2001-geometric-pulse-rank-bounds-2026-10-23.md).
+- [k2002-clifford-pairing-integrability](conditional-build/k2002-clifford-pairing-integrability-2026-10-23.md).
+
 - [k1999-effective-rank-residual-bound](conditional-build/k1999-effective-rank-residual-bound-2026-10-23.md).
 - [k2000-raw-pairing-polynomial-structure](conditional-build/k2000-raw-pairing-polynomial-structure-2026-10-23.md).
 

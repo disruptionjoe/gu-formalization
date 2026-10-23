@@ -1,0 +1,130 @@
+{
+  "result_id": "K2001",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "rho": "1/768",
+  "residual_formula": "J(q)>1/(9437184*768^(3*(r+1)))",
+  "strong_formula": "||q_star-w||^2 >=3/(6400*768^(2*(r+1)))",
+  "certificates": [
+    {
+      "rank": 0,
+      "n": 2,
+      "residual_squared_lower_bound": "1/4274901208793088",
+      "strong_error_squared_lower_bound": "1/1258291200",
+      "structural_row_column_bound": "144/767",
+      "error_row_column_bound": "27/208",
+      "approximate_compression_sigma_lower_bound": "1/8",
+      "exact_compression_sigma_lower_bound": "3/10",
+      "rational_entry_checks": 8
+    },
+    {
+      "rank": 1,
+      "n": 3,
+      "residual_squared_lower_bound": "1/1936465405881733890441216",
+      "strong_error_squared_lower_bound": "1/742170348748800",
+      "structural_row_column_bound": "144/767",
+      "error_row_column_bound": "27/208",
+      "approximate_compression_sigma_lower_bound": "1/8",
+      "exact_compression_sigma_lower_bound": "3/10",
+      "rational_entry_checks": 18
+    },
+    {
+      "rank": 2,
+      "n": 4,
+      "residual_squared_lower_bound": "1/877189456557149038230220635635712",
+      "strong_error_squared_lower_bound": "1/437749883780412211200",
+      "structural_row_column_bound": "144/767",
+      "error_row_column_bound": "27/208",
+      "approximate_compression_sigma_lower_bound": "1/8",
+      "exact_compression_sigma_lower_bound": "3/10",
+      "rational_entry_checks": 32
+    },
+    {
+      "rank": 4,
+      "n": 6,
+      "residual_squared_lower_bound": "1/179995116872482002061843420503242990410327274815488",
+      "strong_error_squared_lower_bound": "1/152289836207838374692746638131200",
+      "structural_row_column_bound": "144/767",
+      "error_row_column_bound": "27/208",
+      "approximate_compression_sigma_lower_bound": "1/8",
+      "exact_compression_sigma_lower_bound": "3/10",
+      "rational_entry_checks": 72
+    },
+    {
+      "rank": 8,
+      "n": 10,
+      "residual_squared_lower_bound": "1/7578711300111024720482823106905413736568688975917666121743719858533526130674408357888",
+      "strong_error_squared_lower_bound": "1/18431499967742157011132766259532082218017512941105971200",
+      "structural_row_column_bound": "144/767",
+      "error_row_column_bound": "27/208",
+      "approximate_compression_sigma_lower_bound": "1/8",
+      "exact_compression_sigma_lower_bound": "3/10",
+      "rational_entry_checks": 200
+    },
+    {
+      "rank": 16,
+      "n": 18,
+      "residual_squared_lower_bound": "1/13435834459118742640169987057619388274341607366089904971830143380406872019317123634183286932880590472666585645923322233530515536099248005789114961062002688",
+      "strong_error_squared_lower_bound": "1/269985350816153792494102793470654562803389025396954185124295775656833693830701927631208439203705651200",
+      "structural_row_column_bound": "144/767",
+      "error_row_column_bound": "27/208",
+      "approximate_compression_sigma_lower_bound": "1/8",
+      "exact_compression_sigma_lower_bound": "3/10",
+      "rational_entry_checks": 648
+    },
+    {
+      "rank": 32,
+      "n": 34,
+      "residual_squared_lower_bound": "1/42228261846502046197179063430852360631103314783979052734138924876734287903239785143156166119161647960720978155924075114162833082502309633887678458564874303650865095888596835769011421872884896804513962352363162769984746866455909932828398668198816264064767744284837721451363645526012553003532288",
+      "strong_error_squared_lower_bound": "1/57929428144551623111408904603967487841457231235179625771462977714067049188712305575211994621315562510363302330295609371435481045068146416893343357425492998476622338388059065531013854628361011200",
+      "structural_row_column_bound": "144/767",
+      "error_row_column_bound": "27/208",
+      "approximate_compression_sigma_lower_bound": "1/8",
+      "exact_compression_sigma_lower_bound": "3/10",
+      "rational_entry_checks": 2312
+    },
+    {
+      "rank": 64,
+      "n": 66,
+      "residual_squared_lower_bound": "1/417138551625194147558289526792626276337562852251008130957113392201953560568343676252636413351067905524276687506540224694262471251928917985567710285465553876494019583166812044566049617206322674794201274196315046123613551441311616723104888407596329622360711048228140478562951593785176448257955195789589448243250883329601820640666868698820972978664485711810754524489993236034138396772610204800929382988367045791295421074035817466954798314172890840814288417163080998733455379421349214332761217978954524400278949487819649056034115340527149212885573305438241055815596127551488",
+      "strong_error_squared_lower_bound": "1/2666965043667769199630552911576915716511752941069702645563853110466917034108662928042860652887886610122837291236659819489110673035338705666483663368234245457603246058768933710062310822169679962682205903339253313785824735329951714864704978027524814391786097585946754152740813341257101695732523226054510736676136871575656404091772253453024157783152955855908381718935105113895731200",
+      "structural_row_column_bound": "144/767",
+      "error_row_column_bound": "27/208",
+      "approximate_compression_sigma_lower_bound": "1/8",
+      "exact_compression_sigma_lower_bound": "3/10",
+      "rational_entry_checks": 8712
+    }
+  ],
+  "precision_consumers": [
+    {
+      "residual_norm_at_most": "1e-10",
+      "required_rank_at_least": 1
+    },
+    {
+      "residual_norm_at_most": "1e-50",
+      "required_rank_at_least": 10
+    },
+    {
+      "residual_norm_at_most": "1e-100",
+      "required_rank_at_least": 22
+    },
+    {
+      "residual_norm_at_most": "1e-250",
+      "required_rank_at_least": 56
+    }
+  ],
+  "elementary_pulse_spectrum": {
+    "gram_kernel": "alpha*(1-|x-y|)+(1-alpha)*x*y with dx/2",
+    "even": "alpha/((n+1/2)*pi)^2, n>=0",
+    "odd": "alpha/k_n^2, k_n*cot(k_n)=1-alpha; n*pi<k_n<n*pi+pi/2",
+    "ordered": "odd0,even0,odd1,even1,...",
+    "best_rank_squared_error_asymptotic": "4*alpha/(pi^2*r)",
+    "scope": "Unrestricted best rank-r L2 approximation to K1991 elementary q0 only; not every exact pulse and not cap/marginal-preserving spectral truncation"
+  },
+  "scope": "Actual central rectangle and cap, approximate BOTH marginals. Universal logarithmic necessary rank is nonsharp. No wings, global minimum norm, source or ledger verdict.",
+  "inputs": {
+    "explorations/conditional-build/k1999-effective-rank-residual-bound-2026-10-23.md": "aacf6a3e8c8bedbbceee148e8f59cd68f98c137379511d5f9bb3ca22bb2780f6",
+    "explorations/conditional-build/k1997-finite-rank-pulse-obstruction-2026-10-23.md": "a178bfe24a397f90ecf740d9b3ea8d83684ff1bcf1e67c7cb92d442ba4d6e62d"
+  }
+}

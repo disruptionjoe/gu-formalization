@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2001_geometric_pulse_rank_bounds](k2001_geometric_pulse_rank_bounds.py).
+- [k2001_geometric_pulse_rank_bounds_probe](k2001_geometric_pulse_rank_bounds_probe.py).
+- [k2002_clifford_pairing_integrability](k2002_clifford_pairing_integrability.py).
+- [k2002_clifford_pairing_integrability_probe](k2002_clifford_pairing_integrability_probe.py).
+
 - [k1999_effective_rank_residual_bound](k1999_effective_rank_residual_bound.py).
 - [k1999_effective_rank_residual_bound_probe](k1999_effective_rank_residual_bound_probe.py).
 - [k2000_raw_pairing_polynomial_structure](k2000_raw_pairing_polynomial_structure.py).
