@@ -7,6 +7,29 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-23: Exact central pulse and complete eight-level spacing reduction
+
+K1991 factors every exact optimal-phase capped pulse into forced values, two reflected
+wing problems and a central rectangle. An explicit central formula has exact marginals
+and improves the certified whole-pulse squared-norm upper bound to2.7547213641 and
+distance to the existing dual witness to0.636648, using prior wing existence. It is not
+an explicit whole pulse or minimum-norm formula. K1992 proves all-temperature spacing
+independence through dimension8 for1/2<delta<=1 and closes the finite reduction for
+every positive spacing through8. At t1/2,E18/11 the exact value159/374 at delta1/2 jumps
+to97/220 on its right, gap59/3740. Six complete rational-temperature budget curves are
+executed. These are internal conditional mathematical results, with source, physics-
+ledger and canon unchanged.
+
+- [K1991](explorations/conditional-build/k1991-tight-cut-pulse-factorization-2026-10-23.md).
+- [K1992](explorations/conditional-build/k1992-wide-spacing-eight-level-rigidity-2026-10-23.md).
+
+Separate probes verify central contact/marginals symbolically, independent log bounds
+and forced geometry, plus actual thermal dominance and18 independent exact budget
+optima; eight mathematical faults are rejected after green baselines. Universal claims
+rely on the written structural arguments. Same-author separate implementations are
+internal verification, not external certification.
+
+
 ## 2026-10-23: Necessary pairing mixing, capped dual and sharp spacing benefit
 
 K1988 proves that every coordinate-diagonal C1 pairing field on the unchanged

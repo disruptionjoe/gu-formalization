@@ -1,0 +1,477 @@
+{
+  "result_id": "K1992",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "three_level_types": [
+    {
+      "spectrum": [
+        0,
+        1,
+        2
+      ],
+      "occupied": 1
+    },
+    {
+      "spectrum": [
+        0,
+        1,
+        3
+      ],
+      "occupied": 1
+    },
+    {
+      "spectrum": [
+        0,
+        1,
+        4
+      ],
+      "occupied": 1
+    },
+    {
+      "spectrum": [
+        0,
+        2,
+        3
+      ],
+      "occupied": 2
+    },
+    {
+      "spectrum": [
+        0,
+        2,
+        4
+      ],
+      "occupied": 2
+    },
+    {
+      "spectrum": [
+        0,
+        3,
+        4
+      ],
+      "occupied": 3
+    }
+  ],
+  "dominance_controls": 1701,
+  "curves": [
+    {
+      "temperature": "1/3",
+      "spacing": "1/2",
+      "pieces": [
+        {
+          "lo": "1",
+          "hi": "11/10",
+          "slope": "-1/4",
+          "intercept": "3/4"
+        },
+        {
+          "lo": "11/10",
+          "hi": "141/127",
+          "slope": "-19/156",
+          "intercept": "95/156"
+        },
+        {
+          "lo": "141/127",
+          "hi": "881/762",
+          "slope": "0",
+          "intercept": "361/762"
+        },
+        {
+          "lo": "881/762",
+          "hi": "193/161",
+          "slope": "-1/25",
+          "intercept": "13/25"
+        },
+        {
+          "lo": "193/161",
+          "hi": "51/35",
+          "slope": "-9/64",
+          "intercept": "41/64"
+        },
+        {
+          "lo": "51/35",
+          "hi": "21/10",
+          "slope": "-1/4",
+          "intercept": "4/5"
+        },
+        {
+          "lo": "21/10",
+          "hi": "853/391",
+          "slope": "-11/116",
+          "intercept": "55/116"
+        },
+        {
+          "lo": "853/391",
+          "hi": "98913/39491",
+          "slope": "0",
+          "intercept": "209/782"
+        },
+        {
+          "lo": "98913/39491",
+          "hi": "983/301",
+          "slope": "-101/1160",
+          "intercept": "563/1160"
+        },
+        {
+          "lo": "983/301",
+          "hi": null,
+          "slope": "0",
+          "intercept": "121/602"
+        }
+      ],
+      "census": {
+        "patterns": 60,
+        "cells": 690,
+        "vertices": 1022
+      }
+    },
+    {
+      "temperature": "1/3",
+      "spacing": "3/4",
+      "pieces": [
+        {
+          "lo": "1",
+          "hi": "11/10",
+          "slope": "-1/4",
+          "intercept": "3/4"
+        },
+        {
+          "lo": "11/10",
+          "hi": "141/127",
+          "slope": "-19/156",
+          "intercept": "95/156"
+        },
+        {
+          "lo": "141/127",
+          "hi": "881/762",
+          "slope": "0",
+          "intercept": "361/762"
+        },
+        {
+          "lo": "881/762",
+          "hi": "4/3",
+          "slope": "-1/25",
+          "intercept": "13/25"
+        },
+        {
+          "lo": "4/3",
+          "hi": "21/10",
+          "slope": "-1/4",
+          "intercept": "4/5"
+        },
+        {
+          "lo": "21/10",
+          "hi": "853/391",
+          "slope": "-11/116",
+          "intercept": "55/116"
+        },
+        {
+          "lo": "853/391",
+          "hi": "98913/39491",
+          "slope": "0",
+          "intercept": "209/782"
+        },
+        {
+          "lo": "98913/39491",
+          "hi": "983/301",
+          "slope": "-101/1160",
+          "intercept": "563/1160"
+        },
+        {
+          "lo": "983/301",
+          "hi": null,
+          "slope": "0",
+          "intercept": "121/602"
+        }
+      ],
+      "census": {
+        "patterns": 60,
+        "cells": 690,
+        "vertices": 1022
+      }
+    },
+    {
+      "temperature": "1/2",
+      "spacing": "1/2",
+      "pieces": [
+        {
+          "lo": "1",
+          "hi": "6/5",
+          "slope": "-1/4",
+          "intercept": "3/4"
+        },
+        {
+          "lo": "6/5",
+          "hi": "113/91",
+          "slope": "-9/76",
+          "intercept": "45/76"
+        },
+        {
+          "lo": "113/91",
+          "hi": "267/182",
+          "slope": "0",
+          "intercept": "81/182"
+        },
+        {
+          "lo": "267/182",
+          "hi": "79/45",
+          "slope": "-2/17",
+          "intercept": "21/34"
+        },
+        {
+          "lo": "79/45",
+          "hi": "11/5",
+          "slope": "-1/4",
+          "intercept": "17/20"
+        },
+        {
+          "lo": "11/5",
+          "hi": "19/8",
+          "slope": "-3/28",
+          "intercept": "15/28"
+        },
+        {
+          "lo": "19/8",
+          "hi": "317/104",
+          "slope": "0",
+          "intercept": "9/32"
+        },
+        {
+          "lo": "317/104",
+          "hi": "67/19",
+          "slope": "-13/140",
+          "intercept": "79/140"
+        },
+        {
+          "lo": "67/19",
+          "hi": null,
+          "slope": "0",
+          "intercept": "9/38"
+        }
+      ],
+      "census": {
+        "patterns": 60,
+        "cells": 690,
+        "vertices": 1022
+      }
+    },
+    {
+      "temperature": "1/2",
+      "spacing": "3/4",
+      "pieces": [
+        {
+          "lo": "1",
+          "hi": "6/5",
+          "slope": "-1/4",
+          "intercept": "3/4"
+        },
+        {
+          "lo": "6/5",
+          "hi": "113/91",
+          "slope": "-9/76",
+          "intercept": "45/76"
+        },
+        {
+          "lo": "113/91",
+          "hi": "409/273",
+          "slope": "0",
+          "intercept": "81/182"
+        },
+        {
+          "lo": "409/273",
+          "hi": "18/11",
+          "slope": "-3/100",
+          "intercept": "49/100"
+        },
+        {
+          "lo": "18/11",
+          "hi": "11/5",
+          "slope": "-1/4",
+          "intercept": "17/20"
+        },
+        {
+          "lo": "11/5",
+          "hi": "19/8",
+          "slope": "-3/28",
+          "intercept": "15/28"
+        },
+        {
+          "lo": "19/8",
+          "hi": "317/104",
+          "slope": "0",
+          "intercept": "9/32"
+        },
+        {
+          "lo": "317/104",
+          "hi": "67/19",
+          "slope": "-13/140",
+          "intercept": "79/140"
+        },
+        {
+          "lo": "67/19",
+          "hi": null,
+          "slope": "0",
+          "intercept": "9/38"
+        }
+      ],
+      "census": {
+        "patterns": 60,
+        "cells": 690,
+        "vertices": 1022
+      }
+    },
+    {
+      "temperature": "2/3",
+      "spacing": "1/2",
+      "pieces": [
+        {
+          "lo": "1",
+          "hi": "17/13",
+          "slope": "-1/4",
+          "intercept": "3/4"
+        },
+        {
+          "lo": "17/13",
+          "hi": "69/49",
+          "slope": "-11/96",
+          "intercept": "55/96"
+        },
+        {
+          "lo": "69/49",
+          "hi": "241/126",
+          "slope": "0",
+          "intercept": "121/294"
+        },
+        {
+          "lo": "241/126",
+          "hi": "30/13",
+          "slope": "-3/14",
+          "intercept": "23/28"
+        },
+        {
+          "lo": "30/13",
+          "hi": "83/32",
+          "slope": "-17/140",
+          "intercept": "17/28"
+        },
+        {
+          "lo": "83/32",
+          "hi": "21543/5920",
+          "slope": "0",
+          "intercept": "187/640"
+        },
+        {
+          "lo": "21543/5920",
+          "hi": "1985/523",
+          "slope": "-37/364",
+          "intercept": "241/364"
+        },
+        {
+          "lo": "1985/523",
+          "hi": null,
+          "slope": "0",
+          "intercept": "289/1046"
+        }
+      ],
+      "census": {
+        "patterns": 60,
+        "cells": 690,
+        "vertices": 1022
+      }
+    },
+    {
+      "temperature": "2/3",
+      "spacing": "3/4",
+      "pieces": [
+        {
+          "lo": "1",
+          "hi": "17/13",
+          "slope": "-1/4",
+          "intercept": "3/4"
+        },
+        {
+          "lo": "17/13",
+          "hi": "69/49",
+          "slope": "-11/96",
+          "intercept": "55/96"
+        },
+        {
+          "lo": "69/49",
+          "hi": "3763/1911",
+          "slope": "0",
+          "intercept": "121/294"
+        },
+        {
+          "lo": "3763/1911",
+          "hi": "30/13",
+          "slope": "-1/4",
+          "intercept": "47/52"
+        },
+        {
+          "lo": "30/13",
+          "hi": "83/32",
+          "slope": "-17/140",
+          "intercept": "17/28"
+        },
+        {
+          "lo": "83/32",
+          "hi": "21543/5920",
+          "slope": "0",
+          "intercept": "187/640"
+        },
+        {
+          "lo": "21543/5920",
+          "hi": "1985/523",
+          "slope": "-37/364",
+          "intercept": "241/364"
+        },
+        {
+          "lo": "1985/523",
+          "hi": null,
+          "slope": "0",
+          "intercept": "289/1046"
+        }
+      ],
+      "census": {
+        "patterns": 60,
+        "cells": 690,
+        "vertices": 1022
+      }
+    }
+  ],
+  "sharp_boundary_witness": {
+    "temperature": "1/2",
+    "spacing": "1/2",
+    "budget": "18/11",
+    "spectrum": [
+      "0",
+      "1/2",
+      "1",
+      "3/2",
+      "2",
+      "5/2",
+      "7/2",
+      "9/2"
+    ],
+    "support": [
+      "1",
+      "3/2",
+      "7/2"
+    ],
+    "weights": [
+      "117/187",
+      "28/187",
+      "42/187"
+    ],
+    "optimum": "159/374",
+    "right_limit": "97/220",
+    "right_jump": "59/3740"
+  },
+  "scope": "For every0<t<1, E>=1 and1/2<delta<=1, F8(delta,E,t)=F8(1,E,t). At t1/2,E18/11, delta1/2 optimum159/374 has exact right jump59/3740. Together with K1990 low-spacing templates and K1981 wide spacing, this gives a finite exact program for every d<=8, positive spacing, temperature and budget in the known feasible domain. Rational inputs have attained rational optima. No all-d or symbolic-temperature closed formula claim.",
+  "inputs": {
+    "lab/process/k1990-small-dimension-thermal-frontier.json": "0d86270f24f379e7a8bc61d2d328de1c725191b290af10fa6496a0f9bef21849",
+    "tests/channel-swings/k1968_joint_thermal_finite_dimension_program.py": "2106a175c4c4b8bca5d4ec05b2e331ef2b7ea4fabf1216222793dd81de66a92f",
+    "explorations/conditional-build/k1984-commensurate-spectral-rounding-2026-10-23.md": "7fa50cd200f2af2d3a5c2630d069c5d746eb22250012debb2d21778af6a439e8"
+  }
+}

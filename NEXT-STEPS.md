@@ -7,6 +7,11 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-23: EXACT CENTRAL PULSE AND COMPLETE EIGHT-LEVEL SPACING REDUCTION.**
+> The scalar wing in K1991 has explicit triangular-domain marginals; its central region is solved feasibly, but the whole pulse is not explicit and regional minimum norms remain open. The concave interval-mixture wing family is excluded by the actual positive outer curvature, so a new transport family must retain that shape. Compare this construction with a genuinely non-diagonal local pairing mechanism, retaining full20/source bar/K-C/accessibility/mirror/full-II/normal-jets/physical quotient debts. Thermal dimension8 all-spacing finite reduction and its half-spacing jump are closed; next investigate dimension9/new component types or symbolic-temperature formulas only when their endpoint payoff beats wing recovery.
+> Earlier banners retain historical questions at their original scope.
+
+
 > **2026-10-23: PAIRING MIXING, CAPPED DUAL, SHARP DIMENSION8 SPACING BENEFIT.**
 > Prioritize a constructive capped primal or sharper certified feasible norm upper bound against the dimension8 symbolic-temperature and wide-spacing template problem. The finite dual witness is not exactly feasible; small residuals do not settle that gap. A source-shaped pairing successor must construct or obstruct genuinely non-diagonal local fields on the unchanged core, not repeat diagonal weights or finite jet survival. Thermal spacing rigidity through7, the t=1/2,E=7/5 spacing curve and full t=1/2,delta1/20 budget curve are closed; larger-d and other-temperature closed formulas remain open. Retain full20/source bar, K/C/accessibility, mirror/full-II, normal-jets and physical quotient alternatives.
 > Earlier banners retain historical questions at their original scope.

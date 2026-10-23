@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k1991_tight_cut_pulse_factorization](k1991_tight_cut_pulse_factorization.py).
+- [k1991_tight_cut_pulse_factorization_probe](k1991_tight_cut_pulse_factorization_probe.py).
+- [k1992_wide_spacing_eight_level_rigidity](k1992_wide_spacing_eight_level_rigidity.py).
+- [k1992_wide_spacing_eight_level_rigidity_probe](k1992_wide_spacing_eight_level_rigidity_probe.py).
+
 - [k1988_diagonal_pairing_structural_test](k1988_diagonal_pairing_structural_test.py).
 - [k1988_diagonal_pairing_structural_test_probe](k1988_diagonal_pairing_structural_test_probe.py).
 - [k1989_capped_pulse_dual_certificates](k1989_capped_pulse_dual_certificates.py).

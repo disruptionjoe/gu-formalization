@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 620ea8684d090e4380b63f905817c2e316f8f74b
+revision_basis: 63c60b96eac3719e3d274a1a533161ecc3ebf78b
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,18 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1991 factors every exact optimal-phase capped pulse into forced values, two reflected
+    wing problems and a central rectangle. An explicit central formula has exact marginals
+    and improves the certified whole-pulse squared-norm upper bound to2.7547213641 and
+    distance to the existing dual witness to0.636648, using prior wing existence. It is not
+    an explicit whole pulse or minimum-norm formula. K1992 proves all-temperature spacing
+    independence through dimension8 for1/2<delta<=1 and closes the finite reduction for
+    every positive spacing through8. At t1/2,E18/11 the exact value159/374 at delta1/2 jumps
+    to97/220 on its right, gap59/3740. Six complete rational-temperature budget curves are
+    executed. These are internal conditional mathematical results, with source, physics-
+    ledger and canon unchanged.
+
+    Historical predecessor (not live):
     K1988 proves that every coordinate-diagonal C1 pairing field on the unchanged
     raw128/14-coordinate equation is zero, both signs, and gives quantitative off-diagonal
     value/derivative requirements. General symmetric local existence remains open. K1989
@@ -17184,6 +17196,12 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Construct the actual nonconcave wing transport left by the tight-cut factorization,
+  compare its endpoint payoff with a genuinely non-diagonal local raw pairing ansatz, and
+  retain higher-dimensional thermal classification as an independent contender. The
+  complete dimension8 all-spacing finite reduction is now settled.
+
+  Historical predecessor (not live):
   Compare a genuinely non-diagonal local pairing construction with exact-marginal capped
   pulse recovery and the newly explicit dimension8 thermal template programs. The complete
   diagonal class is excluded, finite capped dual certificates now exist, and the first
@@ -20670,6 +20688,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  The scalar wing in K1991 has explicit triangular-domain marginals; its central region is
+  solved feasibly, but the whole pulse is not explicit and regional minimum norms remain
+  open. The concave interval-mixture wing family is excluded by the actual positive outer
+  curvature, so a new transport family must retain that shape. Compare this construction
+  with a genuinely non-diagonal local pairing mechanism, retaining full20/source
+  bar/K-C/accessibility/mirror/full-II/normal-jets/physical quotient debts. Thermal
+  dimension8 all-spacing finite reduction and its half-spacing jump are closed; next
+  investigate dimension9/new component types or symbolic-temperature formulas only when
+  their endpoint payoff beats wing recovery.
+
+  Historical predecessor (not live):
   Prioritize a constructive capped primal or sharper certified feasible norm upper bound
   against the dimension8 symbolic-temperature and wide-spacing template problem. The
   finite dual witness is not exactly feasible; small residuals do not settle that gap. A

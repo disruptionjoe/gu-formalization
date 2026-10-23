@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k1991-tight-cut-pulse-factorization](conditional-build/k1991-tight-cut-pulse-factorization-2026-10-23.md).
+- [k1992-wide-spacing-eight-level-rigidity](conditional-build/k1992-wide-spacing-eight-level-rigidity-2026-10-23.md).
+
 - [k1988-diagonal-pairing-structural-test](conditional-build/k1988-diagonal-pairing-structural-test-2026-10-23.md).
 - [k1989-capped-pulse-dual-certificates](conditional-build/k1989-capped-pulse-dual-certificates-2026-10-23.md).
 - [k1990-small-dimension-thermal-frontier](conditional-build/k1990-small-dimension-thermal-frontier-2026-10-23.md).
