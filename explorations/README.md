@@ -7,6 +7,12 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+## 2026-10-22: Scalar regularity and exact thermal dimension
+
+- [K1965 linear mesh certificates](conditional-build/k1965-scalar-uniform-lipschitz-certificates-2026-10-22.md).
+- [K1966 sharp support and dimension](conditional-build/k1966-sharp-thermal-support-size-2026-10-22.md).
+
+
 ## 2026-10-22: Scalar certificates and thermal pricing
 
 - [K1963 all-cut transfer and exact graph](conditional-build/k1963-effective-scalar-cut-certificates-2026-10-22.md).

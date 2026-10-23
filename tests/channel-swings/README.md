@@ -1,5 +1,11 @@
 # Pre-contract wave probes
 
+## 2026-10-22: Scalar regularity and exact thermal dimension
+
+- [K1965 linear mesh certificates](../../explorations/conditional-build/k1965-scalar-uniform-lipschitz-certificates-2026-10-22.md).
+- [K1966 sharp support and dimension](../../explorations/conditional-build/k1966-sharp-thermal-support-size-2026-10-22.md).
+
+
 ## Latest conditional results: K1961 and K1962
 
 - [K1961: curved core connections and global domains](../../explorations/conditional-build/k1961-curved-core-connections-2026-10-22.md).

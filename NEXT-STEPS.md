@@ -7,6 +7,22 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-22: SCALAR REGULARITY AND EXACT THERMAL DIMENSION.**
+> Compare an actual source-compatible raw coefficient and observation with a
+> matching scalar continuum certificate. Scalar uniform regularity and linear
+> mesh convergence are settled; use them rather than repeat a rate proof.
+> Thermal fixed-support and fixed-dimension optima are settled at t=1/2;
+> the joint mean-energy/dimension frontier or sharp global energy-price remainder
+> remains a distinct question.
+> Construct the actual changed source input and its conservative raw interface,
+> or use exact scalar active cuts with the linear repair bound toward a continuum
+> primal/dual match. For thermal work, add mean-energy constraints to the now
+> known support/dimension frontier; do not infer energy completeness from support
+> optimality. Preserve full20/barred/K-C/domain, mirror/full-II/normal-jet and
+> rejected-secant debts.
+> Older banners retain historical scope; their closed questions are not requeued.
+
+
 > **2026-10-22: CURVATURE, HOLONOMY AND FINITE-TAIL IMPROVEMENT.**
 > Compare an actual source-compatible changed connection/input map with scalar
 > primal/all-cut matching. K1961 settles existence of curved conservative core

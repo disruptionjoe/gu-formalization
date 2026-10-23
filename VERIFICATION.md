@@ -7,6 +7,22 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-22: Scalar regularity and exact thermal dimension frontier
+
+K1965 proves uniform Lipschitz regularity of every finite-cut scalar minimizer
+and the continuum optimum, piecewise BV derivative control and O(h) energy
+certificates. The actual 96-cell phase gives a sharper original-budget upper.
+K1966 determines the exact thermal return for every occupied support size and
+every physical dimension d>=3 at bath t=1/2, with minimal padding and a sharp
+logarithmic dimension coefficient. For N>=7 it also fixes the least mean energy
+needed to attain the support optimum. Support completeness does not solve the
+mean-energy frontier. Source, physics-ledger and canon verdicts are unchanged.
+
+- [K1965: scalar regularity and linear certificates](explorations/conditional-build/k1965-scalar-uniform-lipschitz-certificates-2026-10-22.md).
+- [K1966: exact thermal support and dimension frontier](explorations/conditional-build/k1966-sharp-thermal-support-size-2026-10-22.md).
+
+Earlier entries are historical where these results close their questions.
+
 ## 2026-10-22: Effective scalar cut certificates and global thermal price law
 
 K1963 proves a quantitative transfer from all grid-union scalar cuts to every

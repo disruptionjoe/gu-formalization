@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 1e28fb9371865cfc3d21df48f3d22f5dee031244
+revision_basis: 3bb02706bc6353b7d6418edcf7929ffa9a3779e0
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,16 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1965 proves uniform Lipschitz regularity of every finite-cut scalar minimizer
+    and the continuum optimum, piecewise BV derivative control and O(h) energy
+    certificates. The actual 96-cell phase gives a sharper original-budget upper.
+    K1966 determines the exact thermal return for every occupied support size and
+    every physical dimension d>=3 at bath t=1/2, with minimal padding and a sharp
+    logarithmic dimension coefficient. For N>=7 it also fixes the least mean energy
+    needed to attain the support optimum. Support completeness does not solve the
+    mean-energy frontier. Source, physics-ledger and canon verdicts are unchanged.
+
+    Historical predecessor result:
     K1963 proves a quantitative transfer from all grid-union scalar cuts to every
     measurable cut, repairs amplitude with a strict feasible pulse and gives an explicit
     energy convergence bound. An exact graph now separates all grid unions in polynomial
@@ -15951,6 +15961,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1965-scalar-uniform-lipschitz-certificates-2026-10-22.md
+    - lab/process/k1965-scalar-uniform-lipschitz-certificates.json
+    - tests/channel-swings/k1965_scalar_uniform_lipschitz_certificates.py
+    - tests/channel-swings/k1965_scalar_uniform_lipschitz_certificates_probe.py
+    - explorations/conditional-build/k1966-sharp-thermal-support-size-2026-10-22.md
+    - lab/process/k1966-sharp-thermal-support-size.json
+    - tests/channel-swings/k1966_sharp_thermal_support_size.py
+    - tests/channel-swings/k1966_sharp_thermal_support_size_probe.py
     - explorations/conditional-build/k1963-effective-scalar-cut-certificates-2026-10-22.md
     - lab/process/k1963-effective-scalar-cut-certificates.json
     - tests/channel-swings/k1963_effective_scalar_cut_certificates.py
@@ -17022,6 +17040,14 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Compare an actual source-compatible raw coefficient and observation with a
+  matching scalar continuum certificate. Scalar uniform regularity and linear
+  mesh convergence are settled; use them rather than repeat a rate proof.
+  Thermal fixed-support and fixed-dimension optima are settled at t=1/2;
+  the joint mean-energy/dimension frontier or sharp global energy-price remainder
+  remains a distinct question.
+
+  Historical predecessor lead:
   Compare a matching continuum scalar certificate using exact graph separation
   against an actual source-compatible changed connection/input map. Finite scalar
   separation and an effective continuum error bound are now available; exact optimality
@@ -20462,6 +20488,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Construct the actual changed source input and its conservative raw interface,
+  or use exact scalar active cuts with the linear repair bound toward a continuum
+  primal/dual match. For thermal work, add mean-energy constraints to the now
+  known support/dimension frontier; do not infer energy completeness from support
+  optimality. Preserve full20/barred/K-C/domain, mirror/full-II/normal-jet and
+  rejected-secant debts.
+
+  Historical predecessor lead:
   Construct a continuum primal/dual match or a sharper scalar transfer bound,
   using the exact finite graph rather than assuming halfcuts suffice. For thermal
   work, target the O(lambda) coefficient or a concrete non-rooted physical improvement,

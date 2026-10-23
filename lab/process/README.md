@@ -7,6 +7,12 @@ updated_at: "2026-08-23"
 
 # Process
 
+## 2026-10-22: Scalar regularity and exact thermal dimension
+
+- [K1965 exact certificates](k1965-scalar-uniform-lipschitz-certificates.json).
+- [K1966 exact support optimizer and physical shells](k1966-sharp-thermal-support-size.json).
+
+
 ## 2026-10-22: Scalar certificates and thermal pricing
 
 - [K1963 exact finite certificates](k1963-effective-scalar-cut-certificates.json).

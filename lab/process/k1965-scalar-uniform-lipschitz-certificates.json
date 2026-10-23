@@ -1,0 +1,60 @@
+{
+  "result_id": "K1965",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "exact_controls": 16,
+  "constants": {
+    "M": "23/100",
+    "M0": "22451259/97656250",
+    "U0": "78227902689379/19531250000000",
+    "Delta": "19357/195312500",
+    "multiplier_mass": "102902689379/3871400000",
+    "uniform_slope": "110161564379/7258875000",
+    "linear_amplitude_coefficient": "111831105629/10888312500"
+  },
+  "certificates": [
+    {
+      "h": "1/2",
+      "halfcut": "1/2",
+      "energy": "5601/1400",
+      "slope": "36/35",
+      "amplitude_allowance": "881/2100",
+      "mixing": "1720703125/1721109622",
+      "upper": "68935045052892899/17211096220000000",
+      "improvement": "36158638430745363/33615422304687500000000",
+      "normalized_multiplier_mass": "13/7",
+      "graph": {
+        "h": "1/2",
+        "nodes": 45,
+        "directed_arcs": 444,
+        "minimum_deficit": "0",
+        "chosen_cells": []
+      }
+    },
+    {
+      "h": "1/16",
+      "halfcut": "7/16",
+      "energy": "1850592923/462545000",
+      "slope": "2383957/2312725",
+      "amplitude_allowance": "777569/14801440",
+      "mixing": "584111328125/585213295333",
+      "upper": "4687863248719336527/1170426590666000000",
+      "improvement": "11772695745864735479/1428743396809082031250000",
+      "normalized_multiplier_mass": "4700199/2312725",
+      "graph": {
+        "h": "1/16",
+        "nodes": 339,
+        "directed_arcs": 27744,
+        "minimum_deficit": "0",
+        "chosen_cells": []
+      }
+    }
+  ],
+  "inputs": {
+    "lab/process/k1942-complete-scalar-energy-duality.json": "869b9e2d8121a2b006d812611420a8f8c6594b6aac1ed1987f13c2ff53980d3a",
+    "lab/process/k1944-optimized-scalar-pulse-certificate.json": "e9e6f7b2ba637f73113a9fb387da2f8ec8c258a98c75e4df90e28c47ee6095ef",
+    "lab/process/k1963-effective-scalar-cut-certificates.json": "a46ca5a82d1dd2c537eea2ce4ea98f5ba8a10b0c51680dd01cae2333a343956c"
+  },
+  "scope": "Uniform Lipschitz finite minimizers and continuum phase; O(h) energy-gap certificate. No exact continuum optimum or explicit new pulse bytes."
+}
