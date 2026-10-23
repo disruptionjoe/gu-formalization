@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k1999_effective_rank_residual_bound](k1999_effective_rank_residual_bound.py).
+- [k1999_effective_rank_residual_bound_probe](k1999_effective_rank_residual_bound_probe.py).
+- [k2000_raw_pairing_polynomial_structure](k2000_raw_pairing_polynomial_structure.py).
+- [k2000_raw_pairing_polynomial_structure_probe](k2000_raw_pairing_polynomial_structure_probe.py).
+
 - [k1997_finite_rank_pulse_obstruction](k1997_finite_rank_pulse_obstruction.py).
 - [k1997_finite_rank_pulse_obstruction_probe](k1997_finite_rank_pulse_obstruction_probe.py).
 - [k1998_uniform_small_spacing_transfer](k1998_uniform_small_spacing_transfer.py).

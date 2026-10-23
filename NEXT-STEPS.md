@@ -7,6 +7,11 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-23: EFFECTIVE PULSE RANK AND ALGEBRAIC PAIRING OBSTRUCTION.**
+> For raw pairing, use the full invertible zero-order operator with the two first-symbol compatibility conditions to seek a convergent multicoordinate symmetric construction, or a genuine all-order obstruction; retain positive first/second jets as necessary data only. Do not search polynomial, rational or algebraic fields, or one-scalar fields near identity, on this unchanged core. Pulse alternatives are an exact cap-preserving infinite-series wing/central optimizer or substantially sharper rank/error asymptotics; K1999 already supplies explicit rank-only residual and unrestricted approximation bounds. K1998 thermal global validity thresholds/full-spacing and growing-d limits remain independent contenders. Full20/source bar/K-C/accessibility/mirror/full-II/normal-jets/physical quotient remain open.
+> Prior banners preserve history; source, ledger and canon remain unchanged.
+
+
 > **2026-10-23: INFINITE PULSE RANK AND SHARP SPACING COST.**
 > K1997 excludes every finite separated exact pulse and fixed-rank vanishing-residual approximation, but its positive rank-only residual floor is not quantified. Prioritize explicit infinite-series cap-preserving exact wings or a true central optimizer; finite grids have stated residuals only. Compare a concrete invariant non-diagonal raw-pairing coefficient space rather than another finite jet. K1998 closes all-fixed-d uniform spacing transfer, flat-or-linear onset, and the sharp exposed-face leading coefficient for every fixed d>=10. The eventual exact two-ladder curve and its second-order coefficient are closed too. Remaining thermal candidates are an explicit validity threshold/full-spacing curve or a joint growing-d limit; do not repeat local coefficients or temperature samples. Full20/source bar/K-C/accessibility/mirror/full-II/normal-jets/physical quotient remain open.
 > Prior banners preserve history; source, ledger and canon remain unchanged.

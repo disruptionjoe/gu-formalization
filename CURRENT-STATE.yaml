@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 5514aa8f39b2acdda8e808a7613a5145f3487c38
+revision_basis: 09d9d5a5cf7e5e8bdb729bd3feca56b67193fbcd
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,17 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1999 turns the finite-rank pulse obstruction into an explicit basis-independent
+    marginal-residual bound and a stronger lower bound for arbitrary uncapped low-rank
+    approximation to every exact central pulse. The rates are conservative and nonsharp.
+    K2000 proves the full raw zero-order matrix operator invertible for both signs. Leading-
+    degree and Newton-Puiseux arguments exclude every nonzero algebraic matrix-field germ
+    solving that fixed equation, with an elementary rational proof. Symmetric dependence
+    through one scalar phase is excluded through identity and in an explicit neighborhood.
+    General multicoordinate transcendental positive pairings and exact pulse optimizers
+    remain open; source, physics-ledger and canon verdicts are unchanged.
+
+    Historical predecessor (not live):
     K1997 proves every exact optimal-phase capped pulse has infinite separation rank, even
     with discontinuous factors. Every fixed rank has a positive marginal-residual floor; a
     conditioning-dependent lower bound and explicit growing-rank central approximations have
@@ -16125,6 +16136,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1999-effective-rank-residual-bound-2026-10-23.md
+    - lab/process/k1999-effective-rank-residual-bound.json
+    - tests/channel-swings/k1999_effective_rank_residual_bound.py
+    - tests/channel-swings/k1999_effective_rank_residual_bound_probe.py
+    - explorations/conditional-build/k2000-raw-pairing-polynomial-structure-2026-10-23.md
+    - lab/process/k2000-raw-pairing-polynomial-structure.json
+    - tests/channel-swings/k2000_raw_pairing_polynomial_structure.py
+    - tests/channel-swings/k2000_raw_pairing_polynomial_structure_probe.py
     - explorations/conditional-build/k1997-finite-rank-pulse-obstruction-2026-10-23.md
     - lab/process/k1997-finite-rank-pulse-obstruction.json
     - tests/channel-swings/k1997_finite_rank_pulse_obstruction.py
@@ -17255,6 +17274,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Compare a convergent genuinely multicoordinate transcendental raw-pairing construction
+  with exact infinite-series capped wings or central optimization. Algebraic pairing
+  formulas and one-scalar dependence near identity are now excluded. Pulse rank barriers
+  are explicit but nonsharp; mere finite-rank exclusion or another finite Taylor jet is
+  settled groundwork.
+
+  Historical predecessor (not live):
   Compare an infinite-series exact-marginal wing or central optimizer construction with a
   genuine non-diagonal local raw pairing ansatz. Finite separated pulse formulas are
   excluded even without smoothness. The thermal leading small-spacing coefficient is now
@@ -20767,6 +20793,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  For raw pairing, use the full invertible zero-order operator with the two first-symbol
+  compatibility conditions to seek a convergent multicoordinate symmetric construction, or
+  a genuine all-order obstruction; retain positive first/second jets as necessary data
+  only. Do not search polynomial, rational or algebraic fields, or one-scalar fields near
+  identity, on this unchanged core. Pulse alternatives are an exact cap-preserving
+  infinite-series wing/central optimizer or substantially sharper rank/error asymptotics;
+  K1999 already supplies explicit rank-only residual and unrestricted approximation
+  bounds. K1998 thermal global validity thresholds/full-spacing and growing-d limits
+  remain independent contenders. Full20/source bar/K-C/accessibility/mirror/full-
+  II/normal-jets/physical quotient remain open.
+
+  Historical predecessor (not live):
   K1997 excludes every finite separated exact pulse and fixed-rank vanishing-residual
   approximation, but its positive rank-only residual floor is not quantified. Prioritize
   explicit infinite-series cap-preserving exact wings or a true central optimizer; finite

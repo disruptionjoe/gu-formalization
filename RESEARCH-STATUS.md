@@ -8,6 +8,31 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-23: Effective pulse rank and algebraic pairing obstruction
+
+K1999 turns the finite-rank pulse obstruction into an explicit basis-independent
+marginal-residual bound and a stronger lower bound for arbitrary uncapped low-rank
+approximation to every exact central pulse. The rates are conservative and nonsharp.
+K2000 proves the full raw zero-order matrix operator invertible for both signs. Leading-
+degree and Newton-Puiseux arguments exclude every nonzero algebraic matrix-field germ
+solving that fixed equation, with an elementary rational proof. Symmetric dependence
+through one scalar phase is excluded through identity and in an explicit neighborhood.
+General multicoordinate transcendental positive pairings and exact pulse optimizers
+remain open; source, physics-ledger and canon verdicts are unchanged.
+
+- [K1999](explorations/conditional-build/k1999-effective-rank-residual-bound-2026-10-23.md).
+- [K2000](explorations/conditional-build/k2000-raw-pairing-polynomial-structure-2026-10-23.md).
+
+The scalar producer checks4935 exact rational inequalities; its separate probe checks1738
+integral/matrix/approximation identities. The raw-pairing producer verifies128 complete
+256-dimensional modular blocks plus two14-dimensional phase minors; a separate direct
+raw reconstruction checks full rank at a second prime and436 phase/contrary identities.
+Nine genuine mathematical faults are rejected after green baselines. Continuum/PDE
+claims rely on written proofs; the algebraic extension uses Newton-Puiseux explicitly.
+These are same-author internal checks, not external review, proof-assistant certification
+or evidence of novelty.
+
+
 ## 2026-10-23: Infinite pulse rank and sharp small-spacing cost
 
 K1997 proves every exact optimal-phase capped pulse has infinite separation rank, even

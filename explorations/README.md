@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k1999-effective-rank-residual-bound](conditional-build/k1999-effective-rank-residual-bound-2026-10-23.md).
+- [k2000-raw-pairing-polynomial-structure](conditional-build/k2000-raw-pairing-polynomial-structure-2026-10-23.md).
+
 - [k1997-finite-rank-pulse-obstruction](conditional-build/k1997-finite-rank-pulse-obstruction-2026-10-23.md).
 - [k1998-uniform-small-spacing-transfer](conditional-build/k1998-uniform-small-spacing-transfer-2026-10-23.md).
 

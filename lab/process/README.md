@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k1999-effective-rank-residual-bound](k1999-effective-rank-residual-bound.json).
+- [k2000-raw-pairing-polynomial-structure](k2000-raw-pairing-polynomial-structure.json).
+
 - [k1997-finite-rank-pulse-obstruction](k1997-finite-rank-pulse-obstruction.json).
 - [k1998-uniform-small-spacing-transfer](k1998-uniform-small-spacing-transfer.json).
 
