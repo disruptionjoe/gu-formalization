@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2003-exact-central-pulse-optimizer](k2003-exact-central-pulse-optimizer.json).
+- [k2004-ten-level-spacing-frontier](k2004-ten-level-spacing-frontier.json).
+
 - [k2001-geometric-pulse-rank-bounds](k2001-geometric-pulse-rank-bounds.json).
 - [k2002-clifford-pairing-integrability](k2002-clifford-pairing-integrability.json).
 

@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2003-exact-central-pulse-optimizer](conditional-build/k2003-exact-central-pulse-optimizer-2026-10-23.md).
+- [k2004-ten-level-spacing-frontier](conditional-build/k2004-ten-level-spacing-frontier-2026-10-23.md).
+
 - [k2001-geometric-pulse-rank-bounds](conditional-build/k2001-geometric-pulse-rank-bounds-2026-10-23.md).
 - [k2002-clifford-pairing-integrability](conditional-build/k2002-clifford-pairing-integrability-2026-10-23.md).
 

@@ -7,6 +7,11 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-23: EXACT CENTRAL PULSE AND TEN-LEVEL SPACING FRONTIER.**
+> Use K2003 to remove the central optimizer, strong approximation and common-monotone extension from the open queue. Attempt coupled wing potentials directly: the clipped-log boundary model matches only restricted leading traces, and chi(s)=s+(eta/kappa)s² matches rows but fails columns. Do not assume dual attainment or active-set regularity. Use K2004 complete ten-level spacing reductions and exact thresholds rather than repeating finite-spectrum scans; higher-dimensional claims need new connected-support cases; pure-component merging postpones the first potentially useful three-component family to dimension13. Recompare these marginal opportunities with an actual source-compatible changed bar/common coefficient or physical quotient; arbitrary coefficient changes do not identify source physics.
+> Prior banners preserve history; source, ledger and canon remain unchanged.
+
+
 > **2026-10-23: UNIVERSAL PULSE RANK AND RAW PAIRING TRACE OBSTRUCTION.**
 > Retire all positive symmetric pairing searches on the unchanged raw J/Omega/T equation, including higher Taylor jets, analytic sums and multicoordinate transcendental fields. A successor must specify and justify an actual changed coefficient/core, barred pairing relation or physical quotient, then test the same independent requirements; no arbitrary alteration earns source credit. Independent alternatives: exact cap-preserving wings/central optimizer, matching universal rank/error construction, or certified thermal global spacing threshold. Do not repeat K2001 elementary-pulse spectral fits or rank-only exclusion. Retain full20, source bar, K/C/accessibility, mirror/full-II, normal-jets and interacting physical quotient debts.
 > Prior banners preserve history; source, ledger and canon remain unchanged.

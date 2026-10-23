@@ -8,6 +8,29 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-23: Exact central pulse and ten-level thermal spacing
+
+K2003 constructs the unique exact central capped minimum-norm pulse through convolution
+renewal and inverse CDFs, with central squared norm approximately0.11439655863919339 and
+whole-pulse upper bound below2.739952052817663. It proves geometric strong
+approximation, excludes a common monotone wing extension, constructs a restricted
+logarithmic corner boundary model and shows a row-only quadratic repair fails columns.
+K2004 reduces the actual ten-level thermal problem at every positive spacing and
+temperature to finite programs:18 connected templates, nine small-spacing templates,
+and1285 wide placements with isolated-only aggregation. At t=1/2 it computes complete
+connected and spacing1/20 budget curves. At E=3/2 the small-spacing formula holds
+through delta=1/2 and has right jump23/1100; at E=2 its exact threshold is2/5 inclusive,
+followed by7/20. A dimension-uniform pure-component merging lemma leaves at most two
+useful components through dimension12; no frontier beyond ten is claimed. These are
+conditional internal mathematical results; source, physics-ledger and canon verdicts
+remain unchanged.
+
+- [K2003](explorations/conditional-build/k2003-exact-central-pulse-optimizer-2026-10-23.md).
+- [K2004](explorations/conditional-build/k2004-ten-level-spacing-frontier-2026-10-23.md).
+
+K2003 producer186/probe285 plus four genuine mathematical corruptions pass. K2004 full exact production and independent probe12477 plus six mathematical corruptions pass; no separate full producer replay is claimed. Both decisive transfers received independent internal review. Native schema, typing, public-path, frontdoor and state/semantic currency checks are recorded in the run receipt; no external expert acceptance or proof-assistant claim.
+
+
 ## 2026-10-23: Logarithmic rank and differential trace certificates
 
 K2001 sharpens the universal capped-pulse residual floor to an exponential-in-rank

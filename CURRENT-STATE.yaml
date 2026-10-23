@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: a407fc4b1fae500cbe6f4deb6f811f4d6d090298
+revision_basis: b2f5f0c9fc2c03114199f10c6fb58b1c71686d77
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2003 constructs the unique exact central capped minimum-norm pulse through convolution
+    renewal and inverse CDFs, with central squared norm approximately0.11439655863919339 and
+    whole-pulse upper bound below2.739952052817663. It proves geometric strong
+    approximation, excludes a common monotone wing extension, constructs a restricted
+    logarithmic corner boundary model and shows a row-only quadratic repair fails columns.
+    K2004 reduces the actual ten-level thermal problem at every positive spacing and
+    temperature to finite programs:18 connected templates, nine small-spacing templates,
+    and1285 wide placements with isolated-only aggregation. At t=1/2 it computes complete
+    connected and spacing1/20 budget curves. At E=3/2 the small-spacing formula holds
+    through delta=1/2 and has right jump23/1100; at E=2 its exact threshold is2/5 inclusive,
+    followed by7/20. A dimension-uniform pure-component merging lemma leaves at most two
+    useful components through dimension12; no frontier beyond ten is claimed. These are
+    conditional internal mathematical results; source, physics-ledger and canon verdicts
+    remain unchanged.
+
+    Historical predecessor (not live):
     K2001 sharpens the universal capped-pulse residual floor to an exponential-in-rank
     bound, giving a logarithmic necessary rank; it also derives the complete Gram spectrum
     and sharp unrestricted rank-error asymptotic for the elementary exact central pulse
@@ -16146,6 +16162,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k2003-exact-central-pulse-optimizer-2026-10-23.md
+    - lab/process/k2003-exact-central-pulse-optimizer.json
+    - tests/channel-swings/k2003_exact_central_pulse_optimizer.py
+    - tests/channel-swings/k2003_exact_central_pulse_optimizer_probe.py
+    - explorations/conditional-build/k2004-ten-level-spacing-frontier-2026-10-23.md
+    - lab/process/k2004-ten-level-spacing-frontier.json
+    - tests/channel-swings/k2004_ten_level_spacing_frontier.py
+    - tests/channel-swings/k2004_ten_level_spacing_frontier_probe.py
     - explorations/conditional-build/k2001-geometric-pulse-rank-bounds-2026-10-23.md
     - lab/process/k2001-geometric-pulse-rank-bounds.json
     - tests/channel-swings/k2001_geometric_pulse_rank_bounds.py
@@ -17292,6 +17316,15 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can coupled nonmonotone wing potentials satisfy both actual triangular marginal
+  equations, including the quadratic corner row term and terminal column deficit, with
+  certified endpoint behavior and dual integrability? Compare that concrete construction
+  against a source-compatible changed barred pairing/common coefficient or physical
+  quotient and higher thermal connected-support regimes and the first potentially useful
+  three-component regime at dimension13; unchanged raw positive symmetric coefficient
+  searches remain closed by K2002.
+
+  Historical predecessor (not live):
   The fixed raw-pairing positive-field route is now excluded by a differential trace
   identity, including multicoordinate transcendental fields. Compare an explicitly changed
   source-compatible coefficient/core or pairing relation with exact cap-preserving
@@ -20818,6 +20851,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Use K2003 to remove the central optimizer, strong approximation and common-monotone
+  extension from the open queue. Attempt coupled wing potentials directly: the clipped-log
+  boundary model matches only restricted leading traces, and chi(s)=s+(eta/kappa)s²
+  matches rows but fails columns. Do not assume dual attainment or active-set regularity.
+  Use K2004 complete ten-level spacing reductions and exact thresholds rather than
+  repeating finite-spectrum scans; higher-dimensional claims need new connected-support
+  cases; pure-component merging postpones the first potentially useful three-component
+  family to dimension13. Recompare these marginal opportunities with an actual source-
+  compatible changed bar/common coefficient or physical quotient; arbitrary coefficient
+  changes do not identify source physics.
+
+  Historical predecessor (not live):
   Retire all positive symmetric pairing searches on the unchanged raw J/Omega/T equation,
   including higher Taylor jets, analytic sums and multicoordinate transcendental fields. A
   successor must specify and justify an actual changed coefficient/core, barred pairing

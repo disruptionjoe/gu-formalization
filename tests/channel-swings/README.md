@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2003_exact_central_pulse_optimizer](k2003_exact_central_pulse_optimizer.py).
+- [k2003_exact_central_pulse_optimizer_probe](k2003_exact_central_pulse_optimizer_probe.py).
+- [k2004_ten_level_spacing_frontier](k2004_ten_level_spacing_frontier.py).
+- [k2004_ten_level_spacing_frontier_probe](k2004_ten_level_spacing_frontier_probe.py).
+
 - [k2001_geometric_pulse_rank_bounds](k2001_geometric_pulse_rank_bounds.py).
 - [k2001_geometric_pulse_rank_bounds_probe](k2001_geometric_pulse_rank_bounds_probe.py).
 - [k2002_clifford_pairing_integrability](k2002_clifford_pairing_integrability.py).

@@ -1,0 +1,87 @@
+{
+  "result_id": "K2003",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "root_interval": [
+    "112304936525659198245382067857/247588007857076054979824844800",
+    "143750318752843773754089046857/316912650057057350374175801344"
+  ],
+  "alpha_interval": [
+    "112304936525659198245382067857/297995942418466239480250701457",
+    "47916772917614591251363015619/127144935431878928844906965955"
+  ],
+  "normalized_central_minimum_squared_norm_interval": [
+    "4951278033313548534959037/10000000000000000000000000",
+    "495127803331354853636239/1000000000000000000000000"
+  ],
+  "central_minimum_squared_norm_interval": [
+    "571982793195966973206211/5000000000000000000000000",
+    "57198279319596697336833/500000000000000000000000"
+  ],
+  "central_cap_cost_squared_norm_interval": [
+    "16714695349934145687287/2000000000000000000000000",
+    "41786738374835364380337/5000000000000000000000000"
+  ],
+  "nondecreasing_wing_necessary_inequality_excess_upper": "-4935099614732384081952123586311/11389048361425498529071942860800",
+  "wing_extension_scope": "Excludes a common nondecreasing column direction for all rows, and separately a common nonincreasing direction. Does not exclude mixed row orientations, nonmonotone potentials or feasible wings.",
+  "leading_corner_model": {
+    "kappa_interval": [
+      "254289870863757857689813931910/47916772917614591251363015619",
+      "595991884836932478960501402914/112304936525659198245382067857"
+    ],
+    "c_bracket": [
+      "1/4",
+      "1/3"
+    ],
+    "defining_equation": "4*c^2*sinh(1/(2*c))^2=kappa/2",
+    "formula": "h(s,delta)=clip_[0,1](d+c*log(s/delta)); d=(1+c*log(2*kappa))/2",
+    "cutoffs": "Row kappa*s only when b*s<height; column deficit delta/2 only when delta/a<width. On wing row height=L+s and column width=L.",
+    "row_only_quadratic_repair": "chi(s)=s+(eta/kappa)*s^2 matches exact inner-row H but gives strictly insufficient column deficit, since ds/dr=1/sqrt(1+4*(eta/kappa)*r)<1 for r>0.",
+    "scope": "Leading half-plane boundary model / restricted inner traces only; does not match eta*s^2, all rows and columns of one finite rectangle, or global wing. No gluing or global dual certificate."
+  },
+  "whole_pulse_squared_norm_upper_bound": "27399520528176617440591777/10000000000000000000000000",
+  "inherited_squared_norm_lower_bound": "597450250452254304511414039276121543997854142920510760834777520988505246055763897571544961918710752609774629259113782227690162788523168451005509624006149134922729910959655414384985385391157035615870409719456031289535078270133594916199810131769027166519214530483067148835763736860359/254298884806080874247344334219880126253929861974755757025754998244418513285769324872986774835296876172229799389464932716076538337609058517645840450086375707927331536599919944915931338037362378167490669546599673881640741969081104933354328210680198629012617014301163520000000000000000",
+  "whole_pulse_distance_to_k1989_squared_upper_bound": "193977541018377106686318432378378701102174194867559230019782353041500479515937945139819986662388870048469962866225034055435697909111676428927217318340819965349171804722229271360643108689869333749766443810537537806015564503855721252597903057505597775232861831171004297073167097693808289917/496677509386876707514344402773203371589706761669444837940927730946129908761268212642552294600189211273886326932548696711086988940642692417277032129074952554545569407421718642413928394604223394858380213958202488050079574158361533072957672286484762947290267606056960000000000000000000000000",
+  "convolution_terms": 48,
+  "norm_series_tail_upper": "280661/2000000000000000000000000",
+  "first_clipped_moments": [
+    "1/3",
+    "8/15",
+    "391/630",
+    "3049/4536",
+    "705697/997920",
+    "40748729/55598400",
+    "2930107441/3891888000",
+    "2848989059311/3705077376000"
+  ],
+  "approximation_consumers": [
+    {
+      "stopping_index": 4,
+      "row_uniform_error_upper": "152045116589605656261259/10000000000000000000000000",
+      "normalized_strong_error_squared_upper": "410521814791935271905397/10000000000000000000000000"
+    },
+    {
+      "stopping_index": 8,
+      "row_uniform_error_upper": "191693098600707267897/625000000000000000000000",
+      "normalized_strong_error_squared_upper": "8281141859550553973151/10000000000000000000000000"
+    },
+    {
+      "stopping_index": 16,
+      "row_uniform_error_upper": "624028511807072249/5000000000000000000000000",
+      "normalized_strong_error_squared_upper": "3369753963758190143/10000000000000000000000000"
+    },
+    {
+      "stopping_index": 32,
+      "row_uniform_error_upper": "20665711663/1000000000000000000000000",
+      "normalized_strong_error_squared_upper": "557974214899/10000000000000000000000000"
+    }
+  ],
+  "exact_rational_controls": 186,
+  "scope": "Exact unique central minimum-norm pulse by geometric convolution densities, inverse CDFs and clipping, with exact continuum marginals, attained dual potentials, finite-convolution cap-preserving approximants with exact columns and explicit row/strong errors. A common monotone column direction cannot extend this construction to the actual wing. Whole-pulse upper uses inherited wing existence; no explicit wings, full minimum norm, phase-energy change, novelty or GU verdict.",
+  "inputs": {
+    "tests/channel-swings/k1969_scalar_continuum_separation.py": "aa59adb6e36531029f64eb533a99fd2be93c011fcb3bd6530252651e99ffea0b",
+    "explorations/conditional-build/k1991-tight-cut-pulse-factorization-2026-10-23.md": "f39b4be479d55a76d2fa2da3200166afcbbeace3084199f48d3a0088231391ef",
+    "lab/process/k1989-capped-pulse-dual-certificates.json": "cabe528c098412dcd64fdccad0e0991b516106f1171de2e556543bc6bcc66f91"
+  }
+}
