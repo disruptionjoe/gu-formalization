@@ -7,6 +7,10 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k1988-diagonal-pairing-structural-test](conditional-build/k1988-diagonal-pairing-structural-test-2026-10-23.md).
+- [k1989-capped-pulse-dual-certificates](conditional-build/k1989-capped-pulse-dual-certificates-2026-10-23.md).
+- [k1990-small-dimension-thermal-frontier](conditional-build/k1990-small-dimension-thermal-frontier-2026-10-23.md).
+
 - [k1985-symmetric-second-jet-compatibility-2026-10-23](conditional-build/k1985-symmetric-second-jet-compatibility-2026-10-23.md).
 - [k1986-pulse-primal-dual-certificates-2026-10-23](conditional-build/k1986-pulse-primal-dual-certificates-2026-10-23.md).
 - [k1987-thermal-spacing-parametric-frontier-2026-10-23](conditional-build/k1987-thermal-spacing-parametric-frontier-2026-10-23.md).

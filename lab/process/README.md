@@ -7,6 +7,10 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k1988-diagonal-pairing-structural-test](k1988-diagonal-pairing-structural-test.json).
+- [k1989-capped-pulse-dual-certificates](k1989-capped-pulse-dual-certificates.json).
+- [k1990-small-dimension-thermal-frontier](k1990-small-dimension-thermal-frontier.json).
+
 - [k1985-symmetric-second-jet-compatibility](k1985-symmetric-second-jet-compatibility.json).
 - [k1986-pulse-primal-dual-certificates](k1986-pulse-primal-dual-certificates.json).
 - [k1987-thermal-spacing-parametric-frontier](k1987-thermal-spacing-parametric-frontier.json).

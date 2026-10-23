@@ -7,6 +7,33 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-23: Necessary pairing mixing, capped dual and sharp spacing benefit
+
+K1988 proves that every coordinate-diagonal C1 pairing field on the unchanged
+raw128/14-coordinate equation is zero, both signs, and gives quantitative off-diagonal
+value/derivative requirements. General symmetric local existence remains open. K1989
+proves the genuine capped pulse dual has no gap, certifies squared minimum norm
+above2.34940177149 and whole-strip distance below0.712179 for an explicit clipped
+witness, whose exact column residual remains nonzero. This is not an exactly feasible
+pulse or a phase-energy bound. K1990 proves spacing below1 cannot improve thermal optima
+through dimension7; dimension8 is sharp. At t=1/2,E=7/5 the complete spacing curve has
+transition32/125 and value109/250 at spacing1/20. Two actual shifted5+3 templates give a
+complete all-temperature dimension8 reduction for spacing<=1/2, and its full
+t=1/2,spacing1/20 budget curve is executed. These are conditional internal mathematical
+results; source, physics-ledger and canon verdicts remain unchanged, with no source-
+selected GU realization, novelty or external certification.
+
+- [K1988](explorations/conditional-build/k1988-diagonal-pairing-structural-test-2026-10-23.md).
+- [K1989](explorations/conditional-build/k1989-capped-pulse-dual-certificates-2026-10-23.md).
+- [K1990](explorations/conditional-build/k1990-small-dimension-thermal-frontier-2026-10-23.md).
+
+Separate probes pass1282 raw pairing/inverse/jet obligations,1475 exact scalar
+polygon/conjugate controls and515 thermal coverage/optimization/witness controls; each
+rejects four mathematical faults after a green baseline. Universal claims rely on the
+written structural proofs; separate implementations by one author are internal
+verification.
+
+
 ## 2026-10-23: Coupled second jets, strict pulse penalty and complete thermal feasibility
 
 K1985 constructs exact coupled symmetric second jets for both mass signs on the fixed

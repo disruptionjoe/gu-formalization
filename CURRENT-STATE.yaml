@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 59cb9b45667ef1967268bafbb5ae4e5cd86d9d42
+revision_basis: 620ea8684d090e4380b63f905817c2e316f8f74b
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1988 proves that every coordinate-diagonal C1 pairing field on the unchanged
+    raw128/14-coordinate equation is zero, both signs, and gives quantitative off-diagonal
+    value/derivative requirements. General symmetric local existence remains open. K1989
+    proves the genuine capped pulse dual has no gap, certifies squared minimum norm
+    above2.34940177149 and whole-strip distance below0.712179 for an explicit clipped
+    witness, whose exact column residual remains nonzero. This is not an exactly feasible
+    pulse or a phase-energy bound. K1990 proves spacing below1 cannot improve thermal optima
+    through dimension7; dimension8 is sharp. At t=1/2,E=7/5 the complete spacing curve has
+    transition32/125 and value109/250 at spacing1/20. Two actual shifted5+3 templates give a
+    complete all-temperature dimension8 reduction for spacing<=1/2, and its full
+    t=1/2,spacing1/20 budget curve is executed. These are conditional internal mathematical
+    results; source, physics-ledger and canon verdicts remain unchanged, with no source-
+    selected GU realization, novelty or external certification.
+
+    Historical predecessor (not live):
     K1985 constructs exact coupled symmetric second jets for both mass signs on the fixed
     raw pairing equation, with a positive Taylor neighborhood and explicit nonzero quadratic
     residual; all 420 necessary next-order value constraints pass, but local existence
@@ -16063,6 +16078,18 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1988-diagonal-pairing-structural-test-2026-10-23.md
+    - lab/process/k1988-diagonal-pairing-structural-test.json
+    - tests/channel-swings/k1988_diagonal_pairing_structural_test.py
+    - tests/channel-swings/k1988_diagonal_pairing_structural_test_probe.py
+    - explorations/conditional-build/k1989-capped-pulse-dual-certificates-2026-10-23.md
+    - lab/process/k1989-capped-pulse-dual-certificates.json
+    - tests/channel-swings/k1989_capped_pulse_dual_certificates.py
+    - tests/channel-swings/k1989_capped_pulse_dual_certificates_probe.py
+    - explorations/conditional-build/k1990-small-dimension-thermal-frontier-2026-10-23.md
+    - lab/process/k1990-small-dimension-thermal-frontier.json
+    - tests/channel-swings/k1990_small_dimension_thermal_frontier.py
+    - tests/channel-swings/k1990_small_dimension_thermal_frontier_probe.py
     - explorations/conditional-build/k1982-positive-pairing-flux-obstruction-2026-10-23.md
     - explorations/conditional-build/k1983-certified-continuum-pulse-evaluation-2026-10-23.md
     - explorations/conditional-build/k1984-commensurate-spectral-rounding-2026-10-23.md
@@ -17157,6 +17184,12 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Compare a genuinely non-diagonal local pairing construction with exact-marginal capped
+  pulse recovery and the newly explicit dimension8 thermal template programs. The complete
+  diagonal class is excluded, finite capped dual certificates now exist, and the first
+  physical small-spacing advantage has a matched exact curve.
+
+  Historical predecessor (not live):
   Compare a structural higher-order/local pairing argument with the genuine capped scalar
   optimization and matching small-spacing thermal return bounds. Second-order
   compatibility, an uncapped exact-marginal solution with a strict amplitude penalty, and
@@ -20637,6 +20670,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Prioritize a constructive capped primal or sharper certified feasible norm upper bound
+  against the dimension8 symbolic-temperature and wide-spacing template problem. The
+  finite dual witness is not exactly feasible; small residuals do not settle that gap. A
+  source-shaped pairing successor must construct or obstruct genuinely non-diagonal local
+  fields on the unchanged core, not repeat diagonal weights or finite jet survival.
+  Thermal spacing rigidity through7, the t=1/2,E=7/5 spacing curve and full
+  t=1/2,delta1/20 budget curve are closed; larger-d and other-temperature closed formulas
+  remain open. Retain full20/source bar, K/C/accessibility, mirror/full-II, normal-jets
+  and physical quotient alternatives.
+
+  Historical predecessor (not live):
   Seek a structural all-order or local-existence argument for the unchanged symmetric
   pairing equation, or an actual higher obstruction; second jets and 420 necessary next-
   order constraints now pass, but the Taylor residual is nonzero. Scalar work should solve

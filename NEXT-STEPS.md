@@ -7,6 +7,11 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-23: PAIRING MIXING, CAPPED DUAL, SHARP DIMENSION8 SPACING BENEFIT.**
+> Prioritize a constructive capped primal or sharper certified feasible norm upper bound against the dimension8 symbolic-temperature and wide-spacing template problem. The finite dual witness is not exactly feasible; small residuals do not settle that gap. A source-shaped pairing successor must construct or obstruct genuinely non-diagonal local fields on the unchanged core, not repeat diagonal weights or finite jet survival. Thermal spacing rigidity through7, the t=1/2,E=7/5 spacing curve and full t=1/2,delta1/20 budget curve are closed; larger-d and other-temperature closed formulas remain open. Retain full20/source bar, K/C/accessibility, mirror/full-II, normal-jets and physical quotient alternatives.
+> Earlier banners retain historical questions at their original scope.
+
+
 > **2026-10-23: SECOND JETS, AMPLITUDE PENALTY, COMPLETE THERMAL FEASIBILITY.**
 > Seek a structural all-order or local-existence argument for the unchanged symmetric pairing equation, or an actual higher obstruction; second jets and 420 necessary next-order constraints now pass, but the Taylor residual is nonzero. Scalar work should solve the genuine capped active-set or dual-feasibility problem using the new uncapped solution and strict norm penalty; uncapped exact marginals cannot stand in for a capped optimum. Thermal work should seek matching small-spacing or larger-d optimal-return bounds on the now-complete feasible domain, respecting left-continuity in spacing and its possible right jumps. Retain source-owned pairing/core, full20, barred reality, K/C/accessibility, mirror/full-II, normal-jets and physical quotient alternatives.
 > Prior banners preserve history; source, ledger and canon verdicts remain unchanged.

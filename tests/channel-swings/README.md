@@ -1,5 +1,12 @@
 # Pre-contract wave probes
 
+- [k1988_diagonal_pairing_structural_test](k1988_diagonal_pairing_structural_test.py).
+- [k1988_diagonal_pairing_structural_test_probe](k1988_diagonal_pairing_structural_test_probe.py).
+- [k1989_capped_pulse_dual_certificates](k1989_capped_pulse_dual_certificates.py).
+- [k1989_capped_pulse_dual_certificates_probe](k1989_capped_pulse_dual_certificates_probe.py).
+- [k1990_small_dimension_thermal_frontier](k1990_small_dimension_thermal_frontier.py).
+- [k1990_small_dimension_thermal_frontier_probe](k1990_small_dimension_thermal_frontier_probe.py).
+
 - [k1985_symmetric_second_jet_compatibility](k1985_symmetric_second_jet_compatibility.py).
 - [k1985_symmetric_second_jet_compatibility_probe](k1985_symmetric_second_jet_compatibility_probe.py).
 - [k1986_pulse_primal_dual_certificates](k1986_pulse_primal_dual_certificates.py).
