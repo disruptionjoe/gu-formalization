@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k1997_finite_rank_pulse_obstruction](k1997_finite_rank_pulse_obstruction.py).
+- [k1997_finite_rank_pulse_obstruction_probe](k1997_finite_rank_pulse_obstruction_probe.py).
+- [k1998_uniform_small_spacing_transfer](k1998_uniform_small_spacing_transfer.py).
+- [k1998_uniform_small_spacing_transfer_probe](k1998_uniform_small_spacing_transfer_probe.py).
+
 - [k1995_central_marginal_cycle_improvement](k1995_central_marginal_cycle_improvement.py).
 - [k1995_central_marginal_cycle_improvement_probe](k1995_central_marginal_cycle_improvement_probe.py).
 - [k1996_positive_spacing_finite_program](k1996_positive_spacing_finite_program.py).

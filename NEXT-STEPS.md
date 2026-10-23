@@ -7,6 +7,11 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-23: INFINITE PULSE RANK AND SHARP SPACING COST.**
+> K1997 excludes every finite separated exact pulse and fixed-rank vanishing-residual approximation, but its positive rank-only residual floor is not quantified. Prioritize explicit infinite-series cap-preserving exact wings or a true central optimizer; finite grids have stated residuals only. Compare a concrete invariant non-diagonal raw-pairing coefficient space rather than another finite jet. K1998 closes all-fixed-d uniform spacing transfer, flat-or-linear onset, and the sharp exposed-face leading coefficient for every fixed d>=10. The eventual exact two-ladder curve and its second-order coefficient are closed too. Remaining thermal candidates are an explicit validity threshold/full-spacing curve or a joint growing-d limit; do not repeat local coefficients or temperature samples. Full20/source bar/K-C/accessibility/mirror/full-II/normal-jets/physical quotient remain open.
+> Prior banners preserve history; source, ledger and canon remain unchanged.
+
+
 > **2026-10-23: EXACT CENTRAL CIRCULATION AND FINITE THERMAL PROGRAM.**
 > K1995 leaves explicit wings and the true central minimum open; do not mistake a fixed-cycle optimum or the small norm improvement for either endpoint. Construct the exact nonconcave wing, or derive a certified central primal-dual solution preserving both marginals. Compare a concrete non-diagonal local pairing ansatz against those costs. K1996 closes nine-level ALL-positive-spacing finite reduction and wide-spacing rigidity, plus general rational-parameter finite solvability; do not repeat those or only add temperature samples. Strong independent alternative is a matching quantitative small-spacing lower bound or an actually new dimension10 component/placement law using the finite reduction. Full20/source bar/K-C/accessibility/mirror/full-II/normal-jets/physical quotient remain open.
 > Prior banners preserve history; source, ledger and canon remain unchanged.

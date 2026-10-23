@@ -8,6 +8,33 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-23: Infinite pulse rank and sharp small-spacing cost
+
+K1997 proves every exact optimal-phase capped pulse has infinite separation rank, even
+with discontinuous factors. Every fixed rank has a positive marginal-residual floor; a
+conditioning-dependent lower bound and explicit growing-rank central approximations have
+exact continuum errors. K1998 proves uniform O(delta) spacing transfer at every fixed
+dimension and an eventually fractional-linear, flat-or-linear onset law. On the entire
+t1/2 exposed energy face, every fixed d>=10 has sharp leading gap coefficient
+(3/20)min(E-6/5,11/5-E); a finite-ray follow-through proves the better of two ten-level
+placements is exactly optimal at all sufficiently small spacings, at each fixed
+dimension and interior budget. The validity threshold is not computed. These are
+conditional independent mathematical results; source, physics-ledger and canon verdicts
+are unchanged.
+
+- [K1997](explorations/conditional-build/k1997-finite-rank-pulse-obstruction-2026-10-23.md).
+- [K1998](explorations/conditional-build/k1998-uniform-small-spacing-transfer-2026-10-23.md).
+
+The scalar producer checks598 exact rational controls; its separate probe checks101
+integration/algebra/contrary cases. Thermal execution includes54 actual component
+transfers,36 exposed-face placements,6 whole-curve modulus consumers and6 sharpness
+controls; its separate probe checks386 physical/curve identities,6 symbolic matrix
+pencils and12 complete four-population programs. Nine corrupted mathematical inputs are rejected after green baselines.
+Continuum and all-d statements rely on the written proofs, not finite controls.
+These are same-author internal checks, not external review, proof-assistant certification
+or evidence of novelty.
+
+
 ## 2026-10-23: Central pulse improvement and complete nine-level spacing program
 
 K1995 constructs an exact cap-respecting central circulation preserving both marginals,

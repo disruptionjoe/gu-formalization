@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k1997-finite-rank-pulse-obstruction](k1997-finite-rank-pulse-obstruction.json).
+- [k1998-uniform-small-spacing-transfer](k1998-uniform-small-spacing-transfer.json).
+
 - [k1995-central-marginal-cycle-improvement](k1995-central-marginal-cycle-improvement.json).
 - [k1996-positive-spacing-finite-program](k1996-positive-spacing-finite-program.json).
 

@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k1997-finite-rank-pulse-obstruction](conditional-build/k1997-finite-rank-pulse-obstruction-2026-10-23.md).
+- [k1998-uniform-small-spacing-transfer](conditional-build/k1998-uniform-small-spacing-transfer-2026-10-23.md).
+
 - [k1995-central-marginal-cycle-improvement](conditional-build/k1995-central-marginal-cycle-improvement-2026-10-23.md).
 - [k1996-positive-spacing-finite-program](conditional-build/k1996-positive-spacing-finite-program-2026-10-23.md).
 

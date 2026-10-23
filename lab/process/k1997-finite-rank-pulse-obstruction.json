@@ -1,0 +1,226 @@
+{
+  "result_id": "K1997",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "coarse_pulses": [
+    {
+      "n": 2,
+      "t": "9/20",
+      "alpha": "3/8",
+      "row_residual_squared": "1/12",
+      "column_residual_squared": "1/32",
+      "combined_residual_squared": "11/96",
+      "elementary_pulse_distance_squared": "23/96",
+      "rank_upper": 2
+    },
+    {
+      "n": 2,
+      "t": "23/50",
+      "alpha": "46/121",
+      "row_residual_squared": "1/12",
+      "column_residual_squared": "23/726",
+      "combined_residual_squared": "167/1452",
+      "elementary_pulse_distance_squared": "117/484",
+      "rank_upper": 2
+    },
+    {
+      "n": 2,
+      "t": "1/2",
+      "alpha": "2/5",
+      "row_residual_squared": "1/12",
+      "column_residual_squared": "1/30",
+      "combined_residual_squared": "7/60",
+      "elementary_pulse_distance_squared": "1/4",
+      "rank_upper": 2
+    },
+    {
+      "n": 4,
+      "t": "9/20",
+      "alpha": "3/8",
+      "row_residual_squared": "1/48",
+      "column_residual_squared": "1/128",
+      "combined_residual_squared": "11/384",
+      "elementary_pulse_distance_squared": "41/384",
+      "rank_upper": 4
+    },
+    {
+      "n": 4,
+      "t": "23/50",
+      "alpha": "46/121",
+      "row_residual_squared": "1/48",
+      "column_residual_squared": "23/2904",
+      "combined_residual_squared": "167/5808",
+      "elementary_pulse_distance_squared": "19/176",
+      "rank_upper": 4
+    },
+    {
+      "n": 4,
+      "t": "1/2",
+      "alpha": "2/5",
+      "row_residual_squared": "1/48",
+      "column_residual_squared": "1/120",
+      "combined_residual_squared": "7/240",
+      "elementary_pulse_distance_squared": "9/80",
+      "rank_upper": 4
+    },
+    {
+      "n": 8,
+      "t": "9/20",
+      "alpha": "3/8",
+      "row_residual_squared": "1/192",
+      "column_residual_squared": "1/512",
+      "combined_residual_squared": "11/1536",
+      "elementary_pulse_distance_squared": "77/1536",
+      "rank_upper": 8
+    },
+    {
+      "n": 8,
+      "t": "23/50",
+      "alpha": "46/121",
+      "row_residual_squared": "1/192",
+      "column_residual_squared": "23/11616",
+      "combined_residual_squared": "167/23232",
+      "elementary_pulse_distance_squared": "393/7744",
+      "rank_upper": 8
+    },
+    {
+      "n": 8,
+      "t": "1/2",
+      "alpha": "2/5",
+      "row_residual_squared": "1/192",
+      "column_residual_squared": "1/480",
+      "combined_residual_squared": "7/960",
+      "elementary_pulse_distance_squared": "17/320",
+      "rank_upper": 8
+    },
+    {
+      "n": 16,
+      "t": "9/20",
+      "alpha": "3/8",
+      "row_residual_squared": "1/768",
+      "column_residual_squared": "1/2048",
+      "combined_residual_squared": "11/6144",
+      "elementary_pulse_distance_squared": "149/6144",
+      "rank_upper": 16
+    },
+    {
+      "n": 16,
+      "t": "23/50",
+      "alpha": "46/121",
+      "row_residual_squared": "1/768",
+      "column_residual_squared": "23/46464",
+      "combined_residual_squared": "167/92928",
+      "elementary_pulse_distance_squared": "761/30976",
+      "rank_upper": 16
+    },
+    {
+      "n": 16,
+      "t": "1/2",
+      "alpha": "2/5",
+      "row_residual_squared": "1/768",
+      "column_residual_squared": "1/1920",
+      "combined_residual_squared": "7/3840",
+      "elementary_pulse_distance_squared": "33/1280",
+      "rank_upper": 16
+    },
+    {
+      "n": 32,
+      "t": "9/20",
+      "alpha": "3/8",
+      "row_residual_squared": "1/3072",
+      "column_residual_squared": "1/8192",
+      "combined_residual_squared": "11/24576",
+      "elementary_pulse_distance_squared": "293/24576",
+      "rank_upper": 32
+    },
+    {
+      "n": 32,
+      "t": "23/50",
+      "alpha": "46/121",
+      "row_residual_squared": "1/3072",
+      "column_residual_squared": "23/185856",
+      "combined_residual_squared": "167/371712",
+      "elementary_pulse_distance_squared": "1497/123904",
+      "rank_upper": 32
+    },
+    {
+      "n": 32,
+      "t": "1/2",
+      "alpha": "2/5",
+      "row_residual_squared": "1/3072",
+      "column_residual_squared": "1/7680",
+      "combined_residual_squared": "7/15360",
+      "elementary_pulse_distance_squared": "13/1024",
+      "rank_upper": 32
+    }
+  ],
+  "conditioning": [
+    {
+      "C": "1",
+      "t": "9/20",
+      "h_column_ceiling": "1/2",
+      "q_column_residual_lower_squared": "1/16"
+    },
+    {
+      "C": "1",
+      "t": "23/50",
+      "h_column_ceiling": "1/2",
+      "q_column_residual_lower_squared": "23/363"
+    },
+    {
+      "C": "2",
+      "t": "9/20",
+      "h_column_ceiling": "3/4",
+      "q_column_residual_lower_squared": "1/128"
+    },
+    {
+      "C": "2",
+      "t": "23/50",
+      "h_column_ceiling": "3/4",
+      "q_column_residual_lower_squared": "23/2904"
+    },
+    {
+      "C": "5",
+      "t": "9/20",
+      "h_column_ceiling": "9/10",
+      "q_column_residual_lower_squared": "1/2000"
+    },
+    {
+      "C": "5",
+      "t": "23/50",
+      "h_column_ceiling": "9/10",
+      "q_column_residual_lower_squared": "23/45375"
+    },
+    {
+      "C": "10",
+      "t": "9/20",
+      "h_column_ceiling": "19/20",
+      "q_column_residual_lower_squared": "1/16000"
+    },
+    {
+      "C": "10",
+      "t": "23/50",
+      "h_column_ceiling": "19/20",
+      "q_column_residual_lower_squared": "23/363000"
+    },
+    {
+      "C": "100",
+      "t": "9/20",
+      "h_column_ceiling": "199/200",
+      "q_column_residual_lower_squared": "1/16000000"
+    },
+    {
+      "C": "100",
+      "t": "23/50",
+      "h_column_ceiling": "199/200",
+      "q_column_residual_lower_squared": "23/363000000"
+    }
+  ],
+  "exact_rational_controls": 598,
+  "scope": "Every capped pulse with the actual optimal central marginals has infinite separation rank, even for measurable discontinuous factors. Every fixed-rank capped class has a strictly positive combined marginal-residual floor (not quantified by rank here). Explicit rank-at-most-n coarse pulses have exact residual squared (1+alpha)/(3n^2) and converge to the elementary feasible pulse, not the minimum-norm pulse.",
+  "inputs": {
+    "explorations/conditional-build/k1991-tight-cut-pulse-factorization-2026-10-23.md": "f39b4be479d55a76d2fa2da3200166afcbbeace3084199f48d3a0088231391ef",
+    "explorations/conditional-build/k1993-pulse-sobolev-corner-obstruction-2026-10-23.md": "4798682f4d2550bc9e40bf012a2d1cd86ba535c06d4aebc59a83d3a7cc9edd83"
+  }
+}
