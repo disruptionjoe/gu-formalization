@@ -1,0 +1,37 @@
+{
+  "result_id": "K1970",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "families": [
+    {
+      "family": "coordinate",
+      "positive_ratio": "-1041/11584",
+      "negative_ratio": "-3303/1448",
+      "product": "3438423/16773632",
+      "obstruction": "-13335209/16773632",
+      "free_positive_multiplier": "-11584/1041",
+      "free_negative_multiplier": "-1448/3303",
+      "required_rescaling_squared": "16773632/3438423",
+      "minimum_residual_rank": 64
+    },
+    {
+      "family": "spin_invariant",
+      "positive_ratio": "-2995/2896",
+      "negative_ratio": "-1349/1448",
+      "product": "4040255/4193408",
+      "obstruction": "-153153/4193408",
+      "free_positive_multiplier": "-2896/2995",
+      "free_negative_multiplier": "-1448/1349",
+      "required_rescaling_squared": "4193408/4040255",
+      "minimum_residual_rank": 64
+    }
+  ],
+  "exact_controls": 50,
+  "inputs": {
+    "lab/process/k1951-coordinated-zero-southeast-principal.json": "58ed2f1f9538cc3b47eb58322c61fa681521deb5298f20bdbd5acd6b932e7547",
+    "lab/process/k1967-paired-raw-coefficient-observation.json": "1c0d2057ec2942308c260f811a6b9f4c08a74dcec6d0c19cb25b5bc73eef8886",
+    "tests/channel-swings/k1967_paired_raw_coefficient_observation_probe.py": "ad8b90bfaab03accb392657c72a4ea48f15a29fa637da2fecde8926870145739"
+  },
+  "scope": "All nonzero complex chiral weights in two declared constant bilinear-adjoint classes and both overall signs. Fixed core and conservative scalar line only; no source-star identification."
+}

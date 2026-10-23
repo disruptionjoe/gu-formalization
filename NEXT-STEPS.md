@@ -7,6 +7,14 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-22: WEIGHTED ADJOINT LIMIT; INTERVAL CUTS; TWO COMPONENTS.**
+> K1970 closes chiral-weighted bilinear repair of the fixed raw mass line.
+> K1971 closes every interval/complement cut but leaves larger disconnected
+> cuts open. K1972 removes arbitrary thermal component partitions and gives
+> a full d8 nonattainment interval. Next test actual source differential-adjoint
+> data, global scalar path separation, or structural larger-d thermal laws.
+> Prior open wording is historical only at these resolved scopes.
+
 > **2026-10-22: PAIRED RAW MASS; JOINT THERMAL PROGRAM; HALFCUT LIMIT.**
 > K1967 supplies a conditional mixed-grade raw-core mass and isolates the source
 > bar/reality debt. K1968 solves fixed-dimension completeness and the full d<=8

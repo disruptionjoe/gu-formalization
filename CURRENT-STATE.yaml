@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: ae81b8222a7af10c0b526405b0a95980d0375f7b
+revision_basis: 3e4d7932422326c96a3a4ed67e27d60dcd6fff08
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1970 excludes every nonzero chiral-weighted coordinate and Spin-invariant
+    bilinear-adjoint completion of the fixed conservative raw mass line, with
+    residual rank at least64 and quantified non-adjoint repair data. It does not
+    identify or exclude the unspecified source differential adjoint.
+    K1971 proves the algebraic scalar halfcut minimizer passes every interval and
+    complement interval, and every measurable cut of smaller-side mass<=7/23.
+    Larger genuinely disconnected cuts and the full-cut optimum remain open.
+    K1972 proves every finite physical thermal protocol is dominated by one with
+    at most two populated resonance components at no greater energy or dimension.
+    Connected-cell vertices and dimension-charged chords recover d3-8 curves and
+    prove nonattainment throughout121/91<E<11/5 at d8, with an exact-budget
+    approaching family. Source, physics-ledger and canon verdicts remain unchanged.
+
+    Historical predecessor result:
     K1967 excludes the complete common grade1 upper placement on the fixed raw1920
     positive128 core, even with arbitrary barred return, and constructs an exact
     mixed grade1/grade13 repair with an independent barred completion. Its bounded
@@ -15976,6 +15990,9 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1970-weighted-adjoint-mass-completion-2026-10-22.md
+    - explorations/conditional-build/k1971-scalar-all-cut-optimizer-2026-10-22.md
+    - explorations/conditional-build/k1972-thermal-two-component-reduction-2026-10-22.md
     - explorations/conditional-build/k1967-paired-raw-coefficient-observation-2026-10-22.md
     - explorations/conditional-build/k1968-joint-thermal-finite-dimension-program-2026-10-22.md
     - explorations/conditional-build/k1969-scalar-continuum-separation-2026-10-22.md
@@ -17058,6 +17075,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Compare actual source differential-adjoint or changed raw-coefficient input,
+  a genuinely disconnected scalar violating cut or global path certificate,
+  and larger-d joint thermal laws using the complete two-component reduction.
+  Chiral-weighted bilinear repair, scalar single-interval separation and arbitrary
+  thermal component-count complexity are now resolved at their stated scopes.
+
+  Historical predecessor current question:
   Compare the actual source bar/reality completion for the raw-core mass repair,
   the full measurable-cut scalar path optimizer, and structural closed-form
   joint thermal dimension/energy laws beyond the finite exact algorithm.
@@ -20513,6 +20537,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  For source work construct the actual density/reality/differential-adjoint
+  terms or a changed coefficient/core class; reweighting the two fixed bilinear
+  families is exhausted. For scalar work search disconnected non-exterior-tail
+  cuts with smaller-side mass>7/23 or build a full path certificate; finite grid
+  survival and all-interval feasibility are not full-cut optimality. For thermal
+  work use connected-cell vertices with additive physical dimension costs to
+  seek a new larger-d interior law or the sharp global subleading price term.
+  Retain full20, K/C/accessibility, mirror/full-II, normal-jet and physical-quotient debts.
+
+  Historical predecessor next condition:
   For source work supply the actual paired bar/reality relation or a declared
   coefficient-class change and test it against raw invariance and conservative
   mass; independent lower returns do not confer source selection. For scalar

@@ -7,6 +7,39 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-22: Weighted adjoints, complete interval cuts and two-component thermal structure
+
+[K1970](explorations/conditional-build/k1970-weighted-adjoint-mass-completion-2026-10-22.md)
+excludes all nonzero complex chiral weights in two declared bilinear-adjoint
+families for the conservative raw mass line. Exact opposite-sector ratios
+have product different from1; the minimum residual rank is64. Independent
+raw-matrix reconstruction verifies256 entries and four mathematical faults.
+The source differential adjoint remains unspecified; a changed lower coupling
+is explicitly distinct from reweighting the same pairing.
+
+[K1971](explorations/conditional-build/k1971-scalar-all-cut-optimizer-2026-10-22.md)
+proves every interval and complement-interval cut passes for the K1969
+algebraic phase. A path-excursion bound also covers every measurable cut
+with smaller-side mass<=7/23. Producer317 exact algebra/capacity/finite-grid
+controls and independent491 controls plus four mathematical faults pass.
+Finite grid scouts concern a rational surrogate only. Larger disconnected
+cuts, actual pulse realization at that energy and full-cut optimality remain open.
+
+[K1972](explorations/conditional-build/k1972-thermal-two-component-reduction-2026-10-22.md)
+proves exact physical dominance by at most two populated resonance components
+under joint dimension and mean-energy limits. Connected cells plus dimension-
+charged vertex chords recover every d3-8 frontier and extend d8 nonattainment
+to the whole open interval121/91<E<11/5. An eight-level family approaches each
+infimum at the exact budget. Producer690 connected cells/136 vertices and
+15 whole-frontier/sign controls; independent730 rational controls and four
+mathematical faults pass. The all-d statement rests on the analytic proof.
+
+These are internal conditional mathematical results, not external expert or
+formal certification, source identification or novelty claims. No source,
+physics-ledger or canon verdict moves. Historical open wording is superseded
+only at the explicitly solved scopes.
+
+
 ## 2026-10-22: Paired raw coefficients, joint thermal resources and continuum cut separation
 
 [K1967](explorations/conditional-build/k1967-paired-raw-coefficient-observation-2026-10-22.md)

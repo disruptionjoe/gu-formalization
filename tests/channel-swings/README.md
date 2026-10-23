@@ -1,5 +1,7 @@
 # Pre-contract wave probes
 
+- [K1970 producer](k1970_weighted_adjoint_mass_completion.py) and [independent probe](k1970_weighted_adjoint_mass_completion_probe.py); [K1971 producer](k1971_scalar_all_cut_optimizer.py) and [independent probe](k1971_scalar_all_cut_optimizer_probe.py); [K1972 producer](k1972_thermal_two_component_reduction.py) and [independent probe](k1972_thermal_two_component_reduction_probe.py).
+
 - [K1967 producer](k1967_paired_raw_coefficient_observation.py) and [independent probe](k1967_paired_raw_coefficient_observation_probe.py); [K1968 producer](k1968_joint_thermal_finite_dimension_program.py) and [independent probe](k1968_joint_thermal_finite_dimension_program_probe.py); [K1969 producer](k1969_scalar_continuum_separation.py) and [independent probe](k1969_scalar_continuum_separation_probe.py).
 
 ## 2026-10-22: Scalar regularity and exact thermal dimension

@@ -1,0 +1,416 @@
+{
+  "result_id": "K1972",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "connected_cell_count": 690,
+  "connected_vertex_count": 136,
+  "exact_controls": 15,
+  "frontiers": [
+    {
+      "d": 3,
+      "pieces": [
+        {
+          "lo": "1",
+          "hi": null,
+          "slope": "0",
+          "intercept": "1/2"
+        }
+      ],
+      "connected": [
+        {
+          "lo": "1",
+          "hi": null,
+          "slope": "0",
+          "intercept": "1/2"
+        }
+      ],
+      "chord_count": 0
+    },
+    {
+      "d": 4,
+      "pieces": [
+        {
+          "lo": "1",
+          "hi": null,
+          "slope": "0",
+          "intercept": "1/2"
+        }
+      ],
+      "connected": [
+        {
+          "lo": "1",
+          "hi": null,
+          "slope": "0",
+          "intercept": "1/2"
+        }
+      ],
+      "chord_count": 0
+    },
+    {
+      "d": 5,
+      "pieces": [
+        {
+          "lo": "1",
+          "hi": "6/5",
+          "slope": "-1/4",
+          "intercept": "3/4"
+        },
+        {
+          "lo": "6/5",
+          "hi": "8/5",
+          "slope": "0",
+          "intercept": "9/20"
+        },
+        {
+          "lo": "8/5",
+          "hi": "11/5",
+          "slope": "-1/4",
+          "intercept": "17/20"
+        },
+        {
+          "lo": "11/5",
+          "hi": null,
+          "slope": "0",
+          "intercept": "3/10"
+        }
+      ],
+      "connected": [
+        {
+          "lo": "1",
+          "hi": "6/5",
+          "slope": "-1/4",
+          "intercept": "3/4"
+        },
+        {
+          "lo": "6/5",
+          "hi": "8/5",
+          "slope": "0",
+          "intercept": "9/20"
+        },
+        {
+          "lo": "8/5",
+          "hi": "11/5",
+          "slope": "-1/4",
+          "intercept": "17/20"
+        },
+        {
+          "lo": "11/5",
+          "hi": null,
+          "slope": "0",
+          "intercept": "3/10"
+        }
+      ],
+      "chord_count": 0
+    },
+    {
+      "d": 6,
+      "pieces": [
+        {
+          "lo": "1",
+          "hi": "6/5",
+          "slope": "-1/4",
+          "intercept": "3/4"
+        },
+        {
+          "lo": "6/5",
+          "hi": "8/5",
+          "slope": "0",
+          "intercept": "9/20"
+        },
+        {
+          "lo": "8/5",
+          "hi": "11/5",
+          "slope": "-1/4",
+          "intercept": "17/20"
+        },
+        {
+          "lo": "11/5",
+          "hi": null,
+          "slope": "0",
+          "intercept": "3/10"
+        }
+      ],
+      "connected": [
+        {
+          "lo": "1",
+          "hi": "6/5",
+          "slope": "-1/4",
+          "intercept": "3/4"
+        },
+        {
+          "lo": "6/5",
+          "hi": "8/5",
+          "slope": "0",
+          "intercept": "9/20"
+        },
+        {
+          "lo": "8/5",
+          "hi": "11/5",
+          "slope": "-1/4",
+          "intercept": "17/20"
+        },
+        {
+          "lo": "11/5",
+          "hi": null,
+          "slope": "0",
+          "intercept": "3/10"
+        }
+      ],
+      "chord_count": 0
+    },
+    {
+      "d": 7,
+      "pieces": [
+        {
+          "lo": "1",
+          "hi": "6/5",
+          "slope": "-1/4",
+          "intercept": "3/4"
+        },
+        {
+          "lo": "6/5",
+          "hi": "113/91",
+          "slope": "-9/76",
+          "intercept": "45/76"
+        },
+        {
+          "lo": "113/91",
+          "hi": "409/273",
+          "slope": "0",
+          "intercept": "81/182"
+        },
+        {
+          "lo": "409/273",
+          "hi": "18/11",
+          "slope": "-3/100",
+          "intercept": "49/100"
+        },
+        {
+          "lo": "18/11",
+          "hi": "11/5",
+          "slope": "-1/4",
+          "intercept": "17/20"
+        },
+        {
+          "lo": "11/5",
+          "hi": "19/8",
+          "slope": "-3/28",
+          "intercept": "15/28"
+        },
+        {
+          "lo": "19/8",
+          "hi": "317/104",
+          "slope": "0",
+          "intercept": "9/32"
+        },
+        {
+          "lo": "317/104",
+          "hi": "67/19",
+          "slope": "-13/140",
+          "intercept": "79/140"
+        },
+        {
+          "lo": "67/19",
+          "hi": null,
+          "slope": "0",
+          "intercept": "9/38"
+        }
+      ],
+      "connected": [
+        {
+          "lo": "1",
+          "hi": "6/5",
+          "slope": "-1/4",
+          "intercept": "3/4"
+        },
+        {
+          "lo": "6/5",
+          "hi": "113/91",
+          "slope": "-9/76",
+          "intercept": "45/76"
+        },
+        {
+          "lo": "113/91",
+          "hi": "409/273",
+          "slope": "0",
+          "intercept": "81/182"
+        },
+        {
+          "lo": "409/273",
+          "hi": "18/11",
+          "slope": "-3/100",
+          "intercept": "49/100"
+        },
+        {
+          "lo": "18/11",
+          "hi": "11/5",
+          "slope": "-1/4",
+          "intercept": "17/20"
+        },
+        {
+          "lo": "11/5",
+          "hi": "19/8",
+          "slope": "-3/28",
+          "intercept": "15/28"
+        },
+        {
+          "lo": "19/8",
+          "hi": "317/104",
+          "slope": "0",
+          "intercept": "9/32"
+        },
+        {
+          "lo": "317/104",
+          "hi": "67/19",
+          "slope": "-13/140",
+          "intercept": "79/140"
+        },
+        {
+          "lo": "67/19",
+          "hi": null,
+          "slope": "0",
+          "intercept": "9/38"
+        }
+      ],
+      "chord_count": 0
+    },
+    {
+      "d": 8,
+      "pieces": [
+        {
+          "lo": "1",
+          "hi": "6/5",
+          "slope": "-1/4",
+          "intercept": "3/4"
+        },
+        {
+          "lo": "6/5",
+          "hi": "113/91",
+          "slope": "-9/76",
+          "intercept": "45/76"
+        },
+        {
+          "lo": "113/91",
+          "hi": "121/91",
+          "slope": "0",
+          "intercept": "81/182"
+        },
+        {
+          "lo": "121/91",
+          "hi": "11/5",
+          "slope": "-1/6",
+          "intercept": "2/3"
+        },
+        {
+          "lo": "11/5",
+          "hi": "19/8",
+          "slope": "-3/28",
+          "intercept": "15/28"
+        },
+        {
+          "lo": "19/8",
+          "hi": "317/104",
+          "slope": "0",
+          "intercept": "9/32"
+        },
+        {
+          "lo": "317/104",
+          "hi": "67/19",
+          "slope": "-13/140",
+          "intercept": "79/140"
+        },
+        {
+          "lo": "67/19",
+          "hi": null,
+          "slope": "0",
+          "intercept": "9/38"
+        }
+      ],
+      "connected": [
+        {
+          "lo": "1",
+          "hi": "6/5",
+          "slope": "-1/4",
+          "intercept": "3/4"
+        },
+        {
+          "lo": "6/5",
+          "hi": "113/91",
+          "slope": "-9/76",
+          "intercept": "45/76"
+        },
+        {
+          "lo": "113/91",
+          "hi": "409/273",
+          "slope": "0",
+          "intercept": "81/182"
+        },
+        {
+          "lo": "409/273",
+          "hi": "18/11",
+          "slope": "-3/100",
+          "intercept": "49/100"
+        },
+        {
+          "lo": "18/11",
+          "hi": "11/5",
+          "slope": "-1/4",
+          "intercept": "17/20"
+        },
+        {
+          "lo": "11/5",
+          "hi": "19/8",
+          "slope": "-3/28",
+          "intercept": "15/28"
+        },
+        {
+          "lo": "19/8",
+          "hi": "317/104",
+          "slope": "0",
+          "intercept": "9/32"
+        },
+        {
+          "lo": "317/104",
+          "hi": "67/19",
+          "slope": "-13/140",
+          "intercept": "79/140"
+        },
+        {
+          "lo": "67/19",
+          "hi": null,
+          "slope": "0",
+          "intercept": "9/38"
+        }
+      ],
+      "chord_count": 7
+    }
+  ],
+  "unattained_interval": {
+    "lo": "121/91",
+    "hi": "11/5",
+    "formula": "2/3-E/6",
+    "connected_gaps": [
+      {
+        "lo": "121/91",
+        "hi": "409/273",
+        "midpoint_gap": "23/1638"
+      },
+      {
+        "lo": "409/273",
+        "hi": "18/11",
+        "midpoint_gap": "13523/360360"
+      },
+      {
+        "lo": "18/11",
+        "hi": "11/5",
+        "midpoint_gap": "31/1320"
+      }
+    ]
+  },
+  "inputs": {
+    "lab/process/k1968-joint-thermal-finite-dimension-program.json": "80ca47172efb62ab70c80a32179afca630ccbab9699d99b0667b6c30ee24fad5",
+    "tests/channel-swings/k1968_joint_thermal_finite_dimension_program.py": "2106a175c4c4b8bca5d4ec05b2e331ef2b7ea4fabf1216222793dd81de66a92f"
+  },
+  "scope": "All-d at-most-two populated-component theorem; finite controls and full nonattainment interval only for d8,t=1/2. Coherent physical protocols dominated via pinching; no GU credit."
+}

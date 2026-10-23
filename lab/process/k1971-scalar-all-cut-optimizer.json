@@ -1,0 +1,40 @@
+{
+  "result_id": "K1971",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "exact_controls": 317,
+  "all_interval_status": "proved analytically, both signs, including complements",
+  "all_measurable_status": "OPEN; finite grid scouts are not a continuum certificate",
+  "small_mass_threshold": "7/23",
+  "surrogate_t": "7187515937642188687704452342849/15845632502852867518708790067200",
+  "finite_grid_scouts": [
+    {
+      "h": "1/8",
+      "nodes": 171,
+      "directed_arcs": 6960,
+      "minimum_deficit": "0",
+      "chosen_cells": []
+    },
+    {
+      "h": "1/16",
+      "nodes": 339,
+      "directed_arcs": 27744,
+      "minimum_deficit": "0",
+      "chosen_cells": []
+    },
+    {
+      "h": "1/32",
+      "nodes": 675,
+      "directed_arcs": 110784,
+      "minimum_deficit": "0",
+      "chosen_cells": []
+    }
+  ],
+  "inputs": {
+    "lab/process/k1969-scalar-continuum-separation.json": "58dfec992cf8cda0ac3048cd148d916914586f142bffb2cdf0bfb36e4cdc1f38",
+    "tests/channel-swings/k1969_scalar_continuum_separation.py": "aa59adb6e36531029f64eb533a99fd2be93c011fcb3bd6530252651e99ffea0b",
+    "tests/channel-swings/k1963_effective_scalar_cut_certificates.py": "083f9c3eb926734de6c659a942c683e00b2a5ab31dac67d77d4ff7b4d3ff7738",
+    "tests/channel-swings/k1942_complete_scalar_energy_duality.py": "b5af25eddbf6a2cd6af546dd86ebb8da3edb0b8b96232fecd3a0faa899ebb6ff"
+  }
+}
