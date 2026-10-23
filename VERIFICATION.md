@@ -7,6 +7,28 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-23: Pulse Sobolev obstruction and nine-level thermal reduction
+
+K1993 proves that every actual optimal capped scalar pulse fails H1 locally at an
+interior tight-cut corner. A quantitative corner-defect inequality yields a positive
+phase-energy gap under any fixed pulse-gradient budget; a local capped regularization
+has matching logarithmic cost order but does not preserve full marginals. K1994 gives a
+complete all-temperature nine-level thermal reduction for0<delta<=1/2 into connected
+integer spectra and six actual shifted templates. Its full t1/2,delta1/20 budget curve
+has15 pieces; a ninth level strictly helps at some budgets, including81/290 instead
+of9/32 at energy3, but not at7/5. These are internal conditional mathematical results;
+source, physics-ledger and canon verdicts are unchanged.
+
+- [K1993](explorations/conditional-build/k1993-pulse-sobolev-corner-obstruction-2026-10-23.md).
+- [K1994](explorations/conditional-build/k1994-nine-level-thermal-reduction-2026-10-23.md).
+
+Separate probes pass21 symbolic/geometry and576 exact coverage/physical/optimization
+obligations, rejecting eight mathematical faults after green baselines. Universal
+scalar statements rely on the written proof; thermal coverage uses exhaustive exact
+census and cell optimization. These are same-author internal checks, not external
+review, proof-assistant certification or evidence of novelty.
+
+
 ## 2026-10-23: Exact central pulse and complete eight-level spacing reduction
 
 K1991 factors every exact optimal-phase capped pulse into forced values, two reflected

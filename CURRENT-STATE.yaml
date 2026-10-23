@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 63c60b96eac3719e3d274a1a533161ecc3ebf78b
+revision_basis: a9a1a33d95c987b2c5097b711a10660b0143a27b
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,17 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1993 proves that every actual optimal capped scalar pulse fails H1 locally at an
+    interior tight-cut corner. A quantitative corner-defect inequality yields a positive
+    phase-energy gap under any fixed pulse-gradient budget; a local capped regularization
+    has matching logarithmic cost order but does not preserve full marginals. K1994 gives a
+    complete all-temperature nine-level thermal reduction for0<delta<=1/2 into connected
+    integer spectra and six actual shifted templates. Its full t1/2,delta1/20 budget curve
+    has15 pieces; a ninth level strictly helps at some budgets, including81/290 instead
+    of9/32 at energy3, but not at7/5. These are internal conditional mathematical results;
+    source, physics-ledger and canon verdicts are unchanged.
+
+    Historical predecessor (not live):
     K1991 factors every exact optimal-phase capped pulse into forced values, two reflected
     wing problems and a central rectangle. An explicit central formula has exact marginals
     and improves the certified whole-pulse squared-norm upper bound to2.7547213641 and
@@ -16090,6 +16101,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1993-pulse-sobolev-corner-obstruction-2026-10-23.md
+    - lab/process/k1993-pulse-sobolev-corner-obstruction.json
+    - tests/channel-swings/k1993_pulse_sobolev_corner_obstruction.py
+    - tests/channel-swings/k1993_pulse_sobolev_corner_obstruction_probe.py
+    - explorations/conditional-build/k1994-nine-level-thermal-reduction-2026-10-23.md
+    - lab/process/k1994-nine-level-thermal-reduction.json
+    - tests/channel-swings/k1994_nine_level_thermal_reduction.py
+    - tests/channel-swings/k1994_nine_level_thermal_reduction_probe.py
     - explorations/conditional-build/k1988-diagonal-pairing-structural-test-2026-10-23.md
     - lab/process/k1988-diagonal-pairing-structural-test.json
     - tests/channel-swings/k1988_diagonal_pairing_structural_test.py
@@ -17196,6 +17215,12 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Compare constructive exact-marginal wing transport and finite-gradient near-optimal
+  pulse approximation with a genuinely non-diagonal local raw pairing ansatz. The optimal
+  measurable pulse cannot be locally H1, while dimension9 small-spacing thermal
+  optimization is now a finite exact program.
+
+  Historical predecessor (not live):
   Construct the actual nonconcave wing transport left by the tight-cut factorization,
   compare its endpoint payoff with a genuinely non-diagonal local raw pairing ansatz, and
   retain higher-dimensional thermal classification as an independent contender. The
@@ -20688,6 +20713,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Scalar exact attainment is excluded in H1 by the actual tight-cut corner, and fixed
+  gradient-energy budgets have a positive phase-energy gap. Do not repeat C1/H1
+  nonattainment or unconstrained corner smoothing: construct a capped near-optimal pulse
+  with BOTH exact marginals and plateaux, or the explicit nonconcave measurable wing,
+  while preserving the now-known singularity. Compare this with a genuinely non-diagonal
+  local raw pairing mechanism; finite jets still do not supply local integrability.
+  Thermal dimension9 small-spacing reduction and the t1/2,delta1/20 full budget curve are
+  closed; delta>1/2 needs a new placement argument covering noncontiguous six-level
+  components. Retain full20/source bar/K-C/accessibility/mirror/full-II/normal-
+  jets/physical quotient and all prior counterexamples.
+
+  Historical predecessor (not live):
   The scalar wing in K1991 has explicit triangular-domain marginals; its central region is
   solved feasibly, but the whole pulse is not explicit and regional minimum norms remain
   open. The concave interval-mixture wing family is excluded by the actual positive outer

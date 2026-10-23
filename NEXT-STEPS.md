@@ -7,6 +7,11 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-23: SOBOLEV CORNER AND NINE-LEVEL THERMAL PROGRAM.**
+> Scalar exact attainment is excluded in H1 by the actual tight-cut corner, and fixed gradient-energy budgets have a positive phase-energy gap. Do not repeat C1/H1 nonattainment or unconstrained corner smoothing: construct a capped near-optimal pulse with BOTH exact marginals and plateaux, or the explicit nonconcave measurable wing, while preserving the now-known singularity. Compare this with a genuinely non-diagonal local raw pairing mechanism; finite jets still do not supply local integrability. Thermal dimension9 small-spacing reduction and the t1/2,delta1/20 full budget curve are closed; delta>1/2 needs a new placement argument covering noncontiguous six-level components. Retain full20/source bar/K-C/accessibility/mirror/full-II/normal-jets/physical quotient and all prior counterexamples.
+> Prior banners preserve history; source, ledger and canon remain unchanged.
+
+
 > **2026-10-23: EXACT CENTRAL PULSE AND COMPLETE EIGHT-LEVEL SPACING REDUCTION.**
 > The scalar wing in K1991 has explicit triangular-domain marginals; its central region is solved feasibly, but the whole pulse is not explicit and regional minimum norms remain open. The concave interval-mixture wing family is excluded by the actual positive outer curvature, so a new transport family must retain that shape. Compare this construction with a genuinely non-diagonal local pairing mechanism, retaining full20/source bar/K-C/accessibility/mirror/full-II/normal-jets/physical quotient debts. Thermal dimension8 all-spacing finite reduction and its half-spacing jump are closed; next investigate dimension9/new component types or symbolic-temperature formulas only when their endpoint payoff beats wing recovery.
 > Earlier banners retain historical questions at their original scope.

@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k1993-pulse-sobolev-corner-obstruction](conditional-build/k1993-pulse-sobolev-corner-obstruction-2026-10-23.md).
+- [k1994-nine-level-thermal-reduction](conditional-build/k1994-nine-level-thermal-reduction-2026-10-23.md).
+
 - [k1991-tight-cut-pulse-factorization](conditional-build/k1991-tight-cut-pulse-factorization-2026-10-23.md).
 - [k1992-wide-spacing-eight-level-rigidity](conditional-build/k1992-wide-spacing-eight-level-rigidity-2026-10-23.md).
 

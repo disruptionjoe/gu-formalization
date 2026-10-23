@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k1993-pulse-sobolev-corner-obstruction](k1993-pulse-sobolev-corner-obstruction.json).
+- [k1994-nine-level-thermal-reduction](k1994-nine-level-thermal-reduction.json).
+
 - [k1991-tight-cut-pulse-factorization](k1991-tight-cut-pulse-factorization.json).
 - [k1992-wide-spacing-eight-level-rigidity](k1992-wide-spacing-eight-level-rigidity.json).
 

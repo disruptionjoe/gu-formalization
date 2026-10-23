@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k1993_pulse_sobolev_corner_obstruction](k1993_pulse_sobolev_corner_obstruction.py).
+- [k1993_pulse_sobolev_corner_obstruction_probe](k1993_pulse_sobolev_corner_obstruction_probe.py).
+- [k1994_nine_level_thermal_reduction](k1994_nine_level_thermal_reduction.py).
+- [k1994_nine_level_thermal_reduction_probe](k1994_nine_level_thermal_reduction_probe.py).
+
 - [k1991_tight_cut_pulse_factorization](k1991_tight_cut_pulse_factorization.py).
 - [k1991_tight_cut_pulse_factorization_probe](k1991_tight_cut_pulse_factorization_probe.py).
 - [k1992_wide_spacing_eight_level_rigidity](k1992_wide_spacing_eight_level_rigidity.py).

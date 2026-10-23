@@ -1,0 +1,30 @@
+{
+  "result_id": "K1993",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "root_interval": [
+    "112304936525659198245382067857/247588007857076054979824844800",
+    "143750318752843773754089046857/316912650057057350374175801344"
+  ],
+  "radius": "1/4",
+  "amplitude": "23/100",
+  "annular_energy_coefficient_over_pi": "529/625",
+  "defect_prefactor_times_pi": "23/6400",
+  "defect_exponent_coefficient_over_pi": "80000/529",
+  "phase_gap_prefactor_times_pi_squared": "529/532684800",
+  "phase_gap_exponent_coefficient_over_pi": "160000/529",
+  "rational_controls": 324,
+  "regularized_corner": {
+    "defect_coefficient_times_pi": "23/600",
+    "log_energy_coefficient_over_pi": "529/625",
+    "core_energy_coefficient_times_pi": "529/15000",
+    "core_energy_coefficient_over_pi": "529/1250"
+  },
+  "scope": "No H1_loc optimal pulse near the interior tight-cut corner. Exact saturated quadrants cost at least16 M^2/pi log(R/r). A capped H1 pulse with local gradient energy H has corner defect D >= (pi M R^2/4) exp(-1-8H/(pi M^2)). Exact zero column marginals and feasible phase give phase gap >= pi^2*phase_prefactor*exp(-2-16H/(pi M^2)). Geometry alone has W1p representatives for1<=p<2; no full feasible W1p pulse constructed. No source or GU inference.",
+  "inputs": {
+    "explorations/conditional-build/k1991-tight-cut-pulse-factorization-2026-10-23.md": "f39b4be479d55a76d2fa2da3200166afcbbeace3084199f48d3a0088231391ef",
+    "explorations/conditional-build/k1974-scalar-excursion-separation-2026-10-23.md": "c2e0df73944e238fba47f75e0cd77b78c750265e6bc4a7d401aaad85b4386e29",
+    "tests/channel-swings/k1969_scalar_continuum_separation.py": "aa59adb6e36531029f64eb533a99fd2be93c011fcb3bd6530252651e99ffea0b"
+  }
+}
