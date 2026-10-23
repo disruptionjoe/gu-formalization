@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 3defb6ddf8991c3ab57ee695e29f96fa5507d3ba
+revision_basis: 312ca9a499b884d14635dd2a79af5256dda100be
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1982 proves an exact trace-divergence identity on the unchanged raw
+    pairing equation. Nonzero periodic PSD pairings are impossible; any global
+    PSD solution has exponentially growing trace volume, excluding bounded and
+    polynomial-growth fields. All56 differentiated value constraints pass on the
+    stored positive first jets; local second-order integrability remains open.
+    K1983 implements certified actual-continuum pulse evaluation, exact first-two
+    iterate formulas, a clipped third-iterate formula and arbitrary finite-iterate
+    uniform error bounds. Finite iterates still do not certify exact endpoints or
+    phase energy. K1984 proves protocol-preserving spectral lattice reduction for
+    spacing h=1/m and the complete all-temperature spacing1 five-level frontier.
+    General small-spacing resource laws and larger-d optimization remain open.
+    Source, physics-ledger and canon verdicts are unchanged.
+
+    Historical predecessor result (superseded only at the scopes above):
     K1979 computes the complete multicoordinate symmetric first-jet symbol:
     rank16382, two compatibility constraints, and explicit identity-value jets.
     Every nonzero symmetric field in the earlier small algebra is excluded even
@@ -16035,6 +16049,9 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1982-positive-pairing-flux-obstruction-2026-10-23.md
+    - explorations/conditional-build/k1983-certified-continuum-pulse-evaluation-2026-10-23.md
+    - explorations/conditional-build/k1984-commensurate-spectral-rounding-2026-10-23.md
     - explorations/conditional-build/k1979-multicoordinate-symmetric-pairing-2026-10-23.md
     - explorations/conditional-build/k1980-constructive-minimum-norm-pulse-2026-10-23.md
     - explorations/conditional-build/k1981-wide-spacing-thermal-frontier-2026-10-23.md
@@ -17126,6 +17143,9 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Compare full coupled local second-order pairing prolongation with an efficient certified scalar pulse solver and matching small-spacing thermal bounds. Bounded global completion of the frozen positive pairing model is now excluded; actual continuum pulse evaluation and commensurate real-to-lattice spectral reduction are available.
+
+  Historical predecessor continuation (superseded only at these scopes):
   Compare full symmetric-pairing PDE prolongation outside the excluded small algebra with certified continuum pulse integration and the thermal small-spacing optimum. A full positive first jet exists but is not a metric field; the canonical measurable pulse now has an analytic convergent construction, and spacing greater than1 has a complete thermal frontier.
 
   Historical predecessor continuation (superseded only at these scopes):
@@ -20597,6 +20617,9 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Solve the coupled symmetric mixed-second-derivative equations on the existing first jets; their56 differentiated value constraints already pass, while the global trace-flux identity excludes bounded and periodic PSD completion. Scalar work should accelerate the certified evaluator or obtain a strong error-to-limit or exact-marginal construction, not repeat generic convergence or confuse finite point enclosures with exact endpoints. Thermal work should reuse the h=1/m lattice theorem to seek matching small-spacing or larger-d bounds; the spacing1 at-most-five-level frontier is closed for all0<t<1. Retain source-owned pairing/core, full20, barred reality, K/C/accessibility, mirror/full-II, normal-jets and physical quotient alternatives.
+
+  Historical predecessor continuation (superseded only at these scopes):
   Use K1979 explicit first jets and two cokernel constraints to test full symmetric-field integrability, or supply a source-owned changed pairing. For K1980 implement certified moving-strip integrations or derive a closed pulse formula; marginal L2 convergence does not certify finite exact plateaux, phase energy or smooth approximation. Thermal quantitative optimization now focuses on0<delta<=1; do not repeat the complete wide-spacing frontier or identity first-jet compatibility. Retain full20, K/C/accessibility, barred reality, mirror/full-II, normal-jets, physical quotient and all-spectrum price alternatives.
 
   Historical predecessor continuation (superseded only at these scopes):

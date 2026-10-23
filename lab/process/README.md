@@ -7,6 +7,11 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k1982-positive-pairing-flux-obstruction](k1982-positive-pairing-flux-obstruction.json).
+- [k1983-certified-continuum-pulse-evaluation](k1983-certified-continuum-pulse-evaluation.json).
+- [k1984-commensurate-spectral-rounding](k1984-commensurate-spectral-rounding.json).
+
+
 - [k1979-multicoordinate-symmetric-pairing](k1979-multicoordinate-symmetric-pairing.json).
 - [k1980-constructive-minimum-norm-pulse](k1980-constructive-minimum-norm-pulse.json).
 - [k1981-wide-spacing-thermal-frontier](k1981-wide-spacing-thermal-frontier.json).

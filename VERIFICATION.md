@@ -7,6 +7,27 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-23: Global pairing flux, certified pulse evaluation and exact spectral rounding
+
+K1982 proves an exact trace-divergence identity on the unchanged raw
+pairing equation. Nonzero periodic PSD pairings are impossible; any global
+PSD solution has exponentially growing trace volume, excluding bounded and
+polynomial-growth fields. All56 differentiated value constraints pass on the
+stored positive first jets; local second-order integrability remains open.
+K1983 implements certified actual-continuum pulse evaluation, exact first-two
+iterate formulas, a clipped third-iterate formula and arbitrary finite-iterate
+uniform error bounds. Finite iterates still do not certify exact endpoints or
+phase energy. K1984 proves protocol-preserving spectral lattice reduction for
+spacing h=1/m and the complete all-temperature spacing1 five-level frontier.
+General small-spacing resource laws and larger-d optimization remain open.
+Source, physics-ledger and canon verdicts are unchanged.
+
+- [k1982-positive-pairing-flux-obstruction-2026-10-23](explorations/conditional-build/k1982-positive-pairing-flux-obstruction-2026-10-23.md).
+- [k1983-certified-continuum-pulse-evaluation-2026-10-23](explorations/conditional-build/k1983-certified-continuum-pulse-evaluation-2026-10-23.md).
+- [k1984-commensurate-spectral-rounding-2026-10-23](explorations/conditional-build/k1984-commensurate-spectral-rounding-2026-10-23.md).
+
+Analytic scoped results and exact controls; no external expert, formal certification or novelty claim. Prior open wording is historical only where these exact scopes are now settled.
+
 ## 2026-10-23: Full symmetric jets, constructive pulse and wide-spacing frontier
 
 K1979 computes the complete multicoordinate symmetric first-jet symbol:

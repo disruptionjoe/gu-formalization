@@ -1,5 +1,13 @@
 # Pre-contract wave probes
 
+- [k1982_positive_pairing_flux_obstruction](k1982_positive_pairing_flux_obstruction.py).
+- [k1982_positive_pairing_flux_obstruction_probe](k1982_positive_pairing_flux_obstruction_probe.py).
+- [k1983_certified_continuum_pulse_evaluation](k1983_certified_continuum_pulse_evaluation.py).
+- [k1983_certified_continuum_pulse_evaluation_probe](k1983_certified_continuum_pulse_evaluation_probe.py).
+- [k1984_commensurate_spectral_rounding](k1984_commensurate_spectral_rounding.py).
+- [k1984_commensurate_spectral_rounding_probe](k1984_commensurate_spectral_rounding_probe.py).
+
+
 - [k1979_multicoordinate_symmetric_pairing](k1979_multicoordinate_symmetric_pairing.py).
 - [k1979_multicoordinate_symmetric_pairing_probe](k1979_multicoordinate_symmetric_pairing_probe.py).
 - [k1980_constructive_minimum_norm_pulse](k1980_constructive_minimum_norm_pulse.py).

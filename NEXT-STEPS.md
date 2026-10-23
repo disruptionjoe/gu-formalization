@@ -7,6 +7,10 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-23: GLOBAL PAIRING FLUX, CERTIFIED PULSE, SPECTRAL ROUNDING.**
+> Solve the coupled symmetric mixed-second-derivative equations on the existing first jets; their56 differentiated value constraints already pass, while the global trace-flux identity excludes bounded and periodic PSD completion. Scalar work should accelerate the certified evaluator or obtain a strong error-to-limit or exact-marginal construction, not repeat generic convergence or confuse finite point enclosures with exact endpoints. Thermal work should reuse the h=1/m lattice theorem to seek matching small-spacing or larger-d bounds; the spacing1 at-most-five-level frontier is closed for all0<t<1. Retain source-owned pairing/core, full20, barred reality, K/C/accessibility, mirror/full-II, normal-jets and physical quotient alternatives.
+> Prior banners preserve history; source, ledger and canon verdicts remain unchanged.
+
 > **2026-10-23: SYMMETRIC JETS, CONSTRUCTIVE PULSE, WIDE SPACING.**
 > Use K1979 explicit first jets and two cokernel constraints to test full symmetric-field integrability, or supply a source-owned changed pairing. For K1980 implement certified moving-strip integrations or derive a closed pulse formula; marginal L2 convergence does not certify finite exact plateaux, phase energy or smooth approximation. Thermal quantitative optimization now focuses on0<delta<=1; do not repeat the complete wide-spacing frontier or identity first-jet compatibility. Retain full20, K/C/accessibility, barred reality, mirror/full-II, normal-jets, physical quotient and all-spectrum price alternatives.
 > Prior banners preserve history; source, ledger and canon verdicts remain unchanged.
