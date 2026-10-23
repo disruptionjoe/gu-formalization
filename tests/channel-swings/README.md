@@ -1,5 +1,13 @@
 # Pre-contract wave probes
 
+- [k1979_multicoordinate_symmetric_pairing](k1979_multicoordinate_symmetric_pairing.py).
+- [k1979_multicoordinate_symmetric_pairing_probe](k1979_multicoordinate_symmetric_pairing_probe.py).
+- [k1980_constructive_minimum_norm_pulse](k1980_constructive_minimum_norm_pulse.py).
+- [k1980_constructive_minimum_norm_pulse_probe](k1980_constructive_minimum_norm_pulse_probe.py).
+- [k1981_wide_spacing_thermal_frontier](k1981_wide_spacing_thermal_frontier.py).
+- [k1981_wide_spacing_thermal_frontier_probe](k1981_wide_spacing_thermal_frontier_probe.py).
+
+
 - [k1976_general_pairing_transport](k1976_general_pairing_transport.py).
 - [k1976_general_pairing_transport_probe](k1976_general_pairing_transport_probe.py).
 - [k1977_scalar_smooth_attainment](k1977_scalar_smooth_attainment.py).

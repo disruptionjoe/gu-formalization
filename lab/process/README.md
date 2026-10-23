@@ -7,6 +7,11 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k1979-multicoordinate-symmetric-pairing](k1979-multicoordinate-symmetric-pairing.json).
+- [k1980-constructive-minimum-norm-pulse](k1980-constructive-minimum-norm-pulse.json).
+- [k1981-wide-spacing-thermal-frontier](k1981-wide-spacing-thermal-frontier.json).
+
+
 - [k1976-general-pairing-transport](k1976-general-pairing-transport.json).
 - [k1977-scalar-smooth-attainment](k1977-scalar-smooth-attainment.json).
 - [k1978-thermal-spectral-spacing](k1978-thermal-spectral-spacing.json).

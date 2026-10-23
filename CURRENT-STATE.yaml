@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 4f2c771124aa1e2255aee563a5c24274cdd5232e
+revision_basis: 3defb6ddf8991c3ab57ee695e29f96fa5507d3ba
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1979 computes the complete multicoordinate symmetric first-jet symbol:
+    rank16382, two compatibility constraints, and explicit identity-value jets.
+    Every nonzero symmetric field in the earlier small algebra is excluded even
+    with14 coordinates; the positive affine extension of the full jet fails the PDE.
+    Full symmetric-field integrability remains open. K1980 defines a unique minimum-L2
+    optimal measurable scalar pulse through a strongly convergent clipped integral
+    iteration, with explicit marginal residual and integration-error bounds.
+    Finite iterates are not exact endpoint or Dirichlet-energy certificates.
+    K1981 closes the complete wide-spacing thermal frontier: for every0<t<1,
+    1<delta<=2,d>=3,E>=2 the optimum is1/2; otherwise infeasible in this regime.
+    A spacing1, dimension5, mean2 witness proves a strict right discontinuity.
+    No source, physics-ledger or canon verdict changes.
+
+    Historical predecessor result (superseded only at the scopes above):
     K1976 constructs a local general bilinear solution of the specified raw lower-return
     ODE. Its exact four-dimensional matrix algebra has no nonzero symmetric trajectory;
     the identity-initialized positive-sign solution becomes singular before coordinate1.
@@ -16021,6 +16035,9 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1979-multicoordinate-symmetric-pairing-2026-10-23.md
+    - explorations/conditional-build/k1980-constructive-minimum-norm-pulse-2026-10-23.md
+    - explorations/conditional-build/k1981-wide-spacing-thermal-frontier-2026-10-23.md
     - explorations/conditional-build/k1976-general-pairing-transport-2026-10-23.md
     - explorations/conditional-build/k1977-scalar-smooth-attainment-2026-10-23.md
     - explorations/conditional-build/k1978-thermal-spectral-spacing-2026-10-23.md
@@ -17109,6 +17126,9 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Compare full symmetric-pairing PDE prolongation outside the excluded small algebra with certified continuum pulse integration and the thermal small-spacing optimum. A full positive first jet exists but is not a metric field; the canonical measurable pulse now has an analytic convergent construction, and spacing greater than1 has a complete thermal frontier.
+
+  Historical predecessor continuation (superseded only at these scopes):
   Compare multi-coordinate symmetric pairing transport or actual source-selected reality input with explicit optimal measurable scalar disintegration and the quantitative thermal spacing-constrained frontier. The four-dimensional symmetric pairing family, smooth scalar attainment at the measurable minimum, and unrestricted fixed-spacing compactness are settled at their stated scopes.
 
   Historical predecessor continuation (superseded only at these scopes):
@@ -20577,6 +20597,9 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Use K1979 explicit first jets and two cokernel constraints to test full symmetric-field integrability, or supply a source-owned changed pairing. For K1980 implement certified moving-strip integrations or derive a closed pulse formula; marginal L2 convergence does not certify finite exact plateaux, phase energy or smooth approximation. Thermal quantitative optimization now focuses on0<delta<=1; do not repeat the complete wide-spacing frontier or identity first-jet compatibility. Retain full20, K/C/accessibility, barred reality, mirror/full-II, normal-jets, physical quotient and all-spectrum price alternatives.
+
+  Historical predecessor continuation (superseded only at these scopes):
   Use K1976 reduced transport as an exact boundary: test multi-coordinate symmetry/integrability or a source-owned changed input, without calling a nonsymmetric lower-row solution a physical adjoint. Scalar next is explicit measurable pulse construction or exact-endpoint smoothing with unbounded curvature; no C1 pulse attains the known minimum. Thermal next is a quantitative fixed-spacing gap/optimal family beyond the compactness theorem and sharp spacing2 feasibility edge. Retain full20, K/C/accessibility, barred reality, mirror/full-II, normal-jet, physical quotient and sharp all-spectrum price alternatives.
 
   Historical predecessor continuation (superseded only at these scopes):

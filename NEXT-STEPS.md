@@ -7,6 +7,10 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-23: SYMMETRIC JETS, CONSTRUCTIVE PULSE, WIDE SPACING.**
+> Use K1979 explicit first jets and two cokernel constraints to test full symmetric-field integrability, or supply a source-owned changed pairing. For K1980 implement certified moving-strip integrations or derive a closed pulse formula; marginal L2 convergence does not certify finite exact plateaux, phase energy or smooth approximation. Thermal quantitative optimization now focuses on0<delta<=1; do not repeat the complete wide-spacing frontier or identity first-jet compatibility. Retain full20, K/C/accessibility, barred reality, mirror/full-II, normal-jets, physical quotient and all-spectrum price alternatives.
+> Prior banners preserve history; source, ledger and canon verdicts remain unchanged.
+
 > **2026-10-23: PAIRING TRANSPORT, SMOOTH NONATTAINMENT, SPACING.**
 > Use K1976 reduced transport as an exact boundary: test multi-coordinate symmetry/integrability or a source-owned changed input, without calling a nonsymmetric lower-row solution a physical adjoint. Scalar next is explicit measurable pulse construction or exact-endpoint smoothing with unbounded curvature; no C1 pulse attains the known minimum. Thermal next is a quantitative fixed-spacing gap/optimal family beyond the compactness theorem and sharp spacing2 feasibility edge. Retain full20, K/C/accessibility, barred reality, mirror/full-II, normal-jet, physical quotient and sharp all-spectrum price alternatives.
 > Prior banners preserve history; no source, ledger or canon verdict changes.

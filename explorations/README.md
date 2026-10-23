@@ -7,6 +7,11 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k1979-multicoordinate-symmetric-pairing-2026-10-23](conditional-build/k1979-multicoordinate-symmetric-pairing-2026-10-23.md).
+- [k1980-constructive-minimum-norm-pulse-2026-10-23](conditional-build/k1980-constructive-minimum-norm-pulse-2026-10-23.md).
+- [k1981-wide-spacing-thermal-frontier-2026-10-23](conditional-build/k1981-wide-spacing-thermal-frontier-2026-10-23.md).
+
+
 - [k1976-general-pairing-transport-2026-10-23](conditional-build/k1976-general-pairing-transport-2026-10-23.md).
 - [k1977-scalar-smooth-attainment-2026-10-23](conditional-build/k1977-scalar-smooth-attainment-2026-10-23.md).
 - [k1978-thermal-spectral-spacing-2026-10-23](conditional-build/k1978-thermal-spectral-spacing-2026-10-23.md).

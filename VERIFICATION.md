@@ -7,6 +7,27 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-23: Full symmetric jets, constructive pulse and wide-spacing frontier
+
+K1979 computes the complete multicoordinate symmetric first-jet symbol:
+rank16382, two compatibility constraints, and explicit identity-value jets.
+Every nonzero symmetric field in the earlier small algebra is excluded even
+with14 coordinates; the positive affine extension of the full jet fails the PDE.
+Full symmetric-field integrability remains open. K1980 defines a unique minimum-L2
+optimal measurable scalar pulse through a strongly convergent clipped integral
+iteration, with explicit marginal residual and integration-error bounds.
+Finite iterates are not exact endpoint or Dirichlet-energy certificates.
+K1981 closes the complete wide-spacing thermal frontier: for every0<t<1,
+1<delta<=2,d>=3,E>=2 the optimum is1/2; otherwise infeasible in this regime.
+A spacing1, dimension5, mean2 witness proves a strict right discontinuity.
+No source, physics-ledger or canon verdict changes.
+
+- [k1979-multicoordinate-symmetric-pairing-2026-10-23](explorations/conditional-build/k1979-multicoordinate-symmetric-pairing-2026-10-23.md).
+- [k1980-constructive-minimum-norm-pulse-2026-10-23](explorations/conditional-build/k1980-constructive-minimum-norm-pulse-2026-10-23.md).
+- [k1981-wide-spacing-thermal-frontier-2026-10-23](explorations/conditional-build/k1981-wide-spacing-thermal-frontier-2026-10-23.md).
+
+Analytic scoped results and exact controls; no external expert, formal certification or novelty claim. Prior open wording is historical only where these exact scopes are now settled.
+
 ## 2026-10-23: Pairing transport, smooth nonattainment and spectral spacing
 
 K1976 constructs a local general bilinear solution of the specified raw lower-return
