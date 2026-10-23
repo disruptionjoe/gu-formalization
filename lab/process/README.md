@@ -7,6 +7,11 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k1976-general-pairing-transport](k1976-general-pairing-transport.json).
+- [k1977-scalar-smooth-attainment](k1977-scalar-smooth-attainment.json).
+- [k1978-thermal-spectral-spacing](k1978-thermal-spectral-spacing.json).
+
+
 - [k1973-differential-adjoint-density](k1973-differential-adjoint-density.json).
 - [k1974-scalar-excursion-separation](k1974-scalar-excursion-separation.json).
 - [k1975-thermal-sharp-dimension-threshold](k1975-thermal-sharp-dimension-threshold.json).

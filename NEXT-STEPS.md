@@ -7,6 +7,10 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-23: PAIRING TRANSPORT, SMOOTH NONATTAINMENT, SPACING.**
+> Use K1976 reduced transport as an exact boundary: test multi-coordinate symmetry/integrability or a source-owned changed input, without calling a nonsymmetric lower-row solution a physical adjoint. Scalar next is explicit measurable pulse construction or exact-endpoint smoothing with unbounded curvature; no C1 pulse attains the known minimum. Thermal next is a quantitative fixed-spacing gap/optimal family beyond the compactness theorem and sharp spacing2 feasibility edge. Retain full20, K/C/accessibility, barred reality, mirror/full-II, normal-jet, physical quotient and sharp all-spectrum price alternatives.
+> Prior banners preserve history; no source, ledger or canon verdict changes.
+
 > **2026-10-23: FULL SCALAR OPTIMUM; DENSITY BOUNDARY; TEN-LEVEL THRESHOLD.**
 > Reuse K1974 full-cut feasibility and exact optimal phase; do not requeue halfcut, interval or arbitrary-cut certification at M=23/100. Construct an explicit optimal measurable pulse with the forced saturated regions, or test a genuinely changed source coefficient/core/non-chiral adjoint input beyond K1973. Thermal alternatives are the sharp all-spectrum price remainder or a specified minimum-spacing model; ten-level approximation at the exposed chord is closed. Preserve full20, barred reality, K/C/accessibility, mirror/full-II, normal-jet and physical-quotient debts.
 > Source and physics-ledger verdicts remain unchanged. Earlier open wording is

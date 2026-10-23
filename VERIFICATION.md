@@ -7,6 +7,28 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-23: Pairing transport, smooth nonattainment and spectral spacing
+
+K1976 constructs a local general bilinear solution of the specified raw lower-return
+ODE. Its exact four-dimensional matrix algebra has no nonzero symmetric trajectory;
+the identity-initialized positive-sign solution becomes singular before coordinate1.
+A separately verified Frobenius-adjoint transfer rules out every positive-definite
+symmetric full-matrix solution depending only on x0. No source star or global domain is claimed.
+K1977 proves no C1 pulse attains the known scalar measurable optimum, and gives
+an explicit positive energy penalty at fixed phase/pulse spatial-curvature bound.
+Equality of the unrestricted smooth infimum remains open.
+K1978 proves fixed positive spacing and dimension restore thermal attainment when
+feasible, with a strict compact-uniform interior chord gap. Spacing above2 forbids
+exact simulation; spacing in(1,2] has minimum feasible energy2 and exact return1/2
+there. A ten-level family gives an O(spacing) upper gap as spacing tends to0.
+Source, physics-ledger and canon verdicts remain unchanged.
+
+- [k1976-general-pairing-transport-2026-10-23](explorations/conditional-build/k1976-general-pairing-transport-2026-10-23.md).
+- [k1977-scalar-smooth-attainment-2026-10-23](explorations/conditional-build/k1977-scalar-smooth-attainment-2026-10-23.md).
+- [k1978-thermal-spectral-spacing-2026-10-23](explorations/conditional-build/k1978-thermal-spectral-spacing-2026-10-23.md).
+
+Internal analytic results and exact controls; no external specialist or formal certification or novelty claim. Earlier open wording is historical only where these results settle its exact scope.
+
 ## 2026-10-23: Full scalar optimum, differential density and sharp thermal dimension
 
 K1973 includes all smooth chiral-diagonal density/pairing first jets in the

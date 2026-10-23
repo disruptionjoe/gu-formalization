@@ -1,5 +1,13 @@
 # Pre-contract wave probes
 
+- [k1976_general_pairing_transport](k1976_general_pairing_transport.py).
+- [k1976_general_pairing_transport_probe](k1976_general_pairing_transport_probe.py).
+- [k1977_scalar_smooth_attainment](k1977_scalar_smooth_attainment.py).
+- [k1977_scalar_smooth_attainment_probe](k1977_scalar_smooth_attainment_probe.py).
+- [k1978_thermal_spectral_spacing](k1978_thermal_spectral_spacing.py).
+- [k1978_thermal_spectral_spacing_probe](k1978_thermal_spectral_spacing_probe.py).
+
+
 - [k1973_differential_adjoint_density](k1973_differential_adjoint_density.py).
 - [k1973_differential_adjoint_density_probe](k1973_differential_adjoint_density_probe.py).
 - [k1974_scalar_excursion_separation](k1974_scalar_excursion_separation.py).

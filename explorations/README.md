@@ -7,6 +7,11 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k1976-general-pairing-transport-2026-10-23](conditional-build/k1976-general-pairing-transport-2026-10-23.md).
+- [k1977-scalar-smooth-attainment-2026-10-23](conditional-build/k1977-scalar-smooth-attainment-2026-10-23.md).
+- [k1978-thermal-spectral-spacing-2026-10-23](conditional-build/k1978-thermal-spectral-spacing-2026-10-23.md).
+
+
 - [k1973-differential-adjoint-density-2026-10-23](conditional-build/k1973-differential-adjoint-density-2026-10-23.md).
 - [k1974-scalar-excursion-separation-2026-10-23](conditional-build/k1974-scalar-excursion-separation-2026-10-23.md).
 - [k1975-thermal-sharp-dimension-threshold-2026-10-23](conditional-build/k1975-thermal-sharp-dimension-threshold-2026-10-23.md).

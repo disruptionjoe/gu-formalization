@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: c762b2fee202c638c281c11a0d0c04199e91ea02
+revision_basis: 4f2c771124aa1e2255aee563a5c24274cdd5232e
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1976 constructs a local general bilinear solution of the specified raw lower-return
+    ODE. Its exact four-dimensional matrix algebra has no nonzero symmetric trajectory;
+    the identity-initialized positive-sign solution becomes singular before coordinate1.
+    A separately verified Frobenius-adjoint transfer rules out every positive-definite
+    symmetric full-matrix solution depending only on x0. No source star or global domain is claimed.
+    K1977 proves no C1 pulse attains the known scalar measurable optimum, and gives
+    an explicit positive energy penalty at fixed phase/pulse spatial-curvature bound.
+    Equality of the unrestricted smooth infimum remains open.
+    K1978 proves fixed positive spacing and dimension restore thermal attainment when
+    feasible, with a strict compact-uniform interior chord gap. Spacing above2 forbids
+    exact simulation; spacing in(1,2] has minimum feasible energy2 and exact return1/2
+    there. A ten-level family gives an O(spacing) upper gap as spacing tends to0.
+    Source, physics-ledger and canon verdicts remain unchanged.
+
+    Historical predecessor result (superseded only at the scopes above):
     K1973 includes all smooth chiral-diagonal density/pairing first jets in the
     fixed raw mass test. Their rank28 correction image is disjoint from all128
     required mass coordinates, so the earlier incompatible ratio product survives.
@@ -16006,6 +16021,9 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k1976-general-pairing-transport-2026-10-23.md
+    - explorations/conditional-build/k1977-scalar-smooth-attainment-2026-10-23.md
+    - explorations/conditional-build/k1978-thermal-spectral-spacing-2026-10-23.md
     - explorations/conditional-build/k1970-weighted-adjoint-mass-completion-2026-10-22.md
     - explorations/conditional-build/k1971-scalar-all-cut-optimizer-2026-10-22.md
     - explorations/conditional-build/k1972-thermal-two-component-reduction-2026-10-22.md
@@ -17091,6 +17109,9 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Compare multi-coordinate symmetric pairing transport or actual source-selected reality input with explicit optimal measurable scalar disintegration and the quantitative thermal spacing-constrained frontier. The four-dimensional symmetric pairing family, smooth scalar attainment at the measurable minimum, and unrestricted fixed-spacing compactness are settled at their stated scopes.
+
+  Historical predecessor continuation (superseded only at these scopes):
   Compare an actual changed source coefficient/core or non-chiral pairing input, explicit construction of the now-proved optimal measurable scalar pulse, and thermal sharp subleading price or spacing-constrained resource laws. The full scalar all-cut optimum and thermal interior dimension threshold are now settled at their fixed scopes.
 
   Historical predecessor continuation (superseded only at these scopes):
@@ -20556,6 +20577,9 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Use K1976 reduced transport as an exact boundary: test multi-coordinate symmetry/integrability or a source-owned changed input, without calling a nonsymmetric lower-row solution a physical adjoint. Scalar next is explicit measurable pulse construction or exact-endpoint smoothing with unbounded curvature; no C1 pulse attains the known minimum. Thermal next is a quantitative fixed-spacing gap/optimal family beyond the compactness theorem and sharp spacing2 feasibility edge. Retain full20, K/C/accessibility, barred reality, mirror/full-II, normal-jet, physical quotient and sharp all-spectrum price alternatives.
+
+  Historical predecessor continuation (superseded only at these scopes):
   Reuse K1974 full-cut feasibility and exact optimal phase; do not requeue halfcut, interval or arbitrary-cut certification at M=23/100. Construct an explicit optimal measurable pulse with the forced saturated regions, or test a genuinely changed source coefficient/core/non-chiral adjoint input beyond K1973. Thermal alternatives are the sharp all-spectrum price remainder or a specified minimum-spacing model; ten-level approximation at the exposed chord is closed. Preserve full20, barred reality, K/C/accessibility, mirror/full-II, normal-jet and physical-quotient debts.
 
   Historical predecessor continuation (superseded only at these scopes):
