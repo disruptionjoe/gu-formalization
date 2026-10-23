@@ -7,6 +7,10 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k1985-symmetric-second-jet-compatibility](k1985-symmetric-second-jet-compatibility.json).
+- [k1986-pulse-primal-dual-certificates](k1986-pulse-primal-dual-certificates.json).
+- [k1987-thermal-spacing-parametric-frontier](k1987-thermal-spacing-parametric-frontier.json).
+
 - [k1982-positive-pairing-flux-obstruction](k1982-positive-pairing-flux-obstruction.json).
 - [k1983-certified-continuum-pulse-evaluation](k1983-certified-continuum-pulse-evaluation.json).
 - [k1984-commensurate-spectral-rounding](k1984-commensurate-spectral-rounding.json).

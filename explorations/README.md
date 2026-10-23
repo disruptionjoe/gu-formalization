@@ -7,6 +7,10 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k1985-symmetric-second-jet-compatibility-2026-10-23](conditional-build/k1985-symmetric-second-jet-compatibility-2026-10-23.md).
+- [k1986-pulse-primal-dual-certificates-2026-10-23](conditional-build/k1986-pulse-primal-dual-certificates-2026-10-23.md).
+- [k1987-thermal-spacing-parametric-frontier-2026-10-23](conditional-build/k1987-thermal-spacing-parametric-frontier-2026-10-23.md).
+
 - [k1982-positive-pairing-flux-obstruction-2026-10-23](conditional-build/k1982-positive-pairing-flux-obstruction-2026-10-23.md).
 - [k1983-certified-continuum-pulse-evaluation-2026-10-23](conditional-build/k1983-certified-continuum-pulse-evaluation-2026-10-23.md).
 - [k1984-commensurate-spectral-rounding-2026-10-23](conditional-build/k1984-commensurate-spectral-rounding-2026-10-23.md).

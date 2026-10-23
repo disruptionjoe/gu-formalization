@@ -7,6 +7,28 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-23: Coupled second jets, strict pulse penalty and complete thermal feasibility
+
+K1985 constructs exact coupled symmetric second jets for both mass signs on the fixed
+raw pairing equation, with a positive Taylor neighborhood and explicit nonzero quadratic
+residual; all 420 necessary next-order value constraints pass, but local existence
+remains open. K1986 constructs the unique uncapped exact-marginal pulse with uniform
+geometric convergence, independently certifies amplitude violation, and proves every
+capped feasible pulse pays at least 81/326720 extra squared L2 norm. This does not
+construct the capped optimizer or change phase energy. K1987 proves lower semicontinuity
+and semialgebraic parameter structure, the complete all-temperature
+spacing/budget/dimension feasibility domain, and the sharp return 1/2 for every feasible
+three-level catalyst. Larger-d optimal returns remain open. These are conditional
+mathematical results; source, physics-ledger and canon verdicts remain unchanged, with
+no source-selected GU realization, novelty, formal proof or external acceptance.
+
+- [K1985](explorations/conditional-build/k1985-symmetric-second-jet-compatibility-2026-10-23.md).
+- [K1986](explorations/conditional-build/k1986-pulse-primal-dual-certificates-2026-10-23.md).
+- [K1987](explorations/conditional-build/k1987-thermal-spacing-parametric-frontier-2026-10-23.md).
+
+Independent probes pass 454 pairing obligations, 481 scalar log-integral rows with a whole-interval Lipschitz argument, and 573 thermal controls; each rejects four mathematical mutations. Analytic proofs establish the universal statements. Separate implementations by the same author are internal checks, not external verification.
+
+
 ## 2026-10-23: Global pairing flux, certified pulse evaluation and exact spectral rounding
 
 K1982 proves an exact trace-divergence identity on the unchanged raw

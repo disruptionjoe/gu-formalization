@@ -1,5 +1,12 @@
 # Pre-contract wave probes
 
+- [k1985_symmetric_second_jet_compatibility](k1985_symmetric_second_jet_compatibility.py).
+- [k1985_symmetric_second_jet_compatibility_probe](k1985_symmetric_second_jet_compatibility_probe.py).
+- [k1986_pulse_primal_dual_certificates](k1986_pulse_primal_dual_certificates.py).
+- [k1986_pulse_primal_dual_certificates_probe](k1986_pulse_primal_dual_certificates_probe.py).
+- [k1987_thermal_spacing_parametric_frontier](k1987_thermal_spacing_parametric_frontier.py).
+- [k1987_thermal_spacing_parametric_frontier_probe](k1987_thermal_spacing_parametric_frontier_probe.py).
+
 - [k1982_positive_pairing_flux_obstruction](k1982_positive_pairing_flux_obstruction.py).
 - [k1982_positive_pairing_flux_obstruction_probe](k1982_positive_pairing_flux_obstruction_probe.py).
 - [k1983_certified_continuum_pulse_evaluation](k1983_certified_continuum_pulse_evaluation.py).

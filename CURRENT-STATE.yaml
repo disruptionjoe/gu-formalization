@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 792fbc376d3c48627cbb4142417b0f7cf085a5f5
+revision_basis: 59cb9b45667ef1967268bafbb5ae4e5cd86d9d42
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K1985 constructs exact coupled symmetric second jets for both mass signs on the fixed
+    raw pairing equation, with a positive Taylor neighborhood and explicit nonzero quadratic
+    residual; all 420 necessary next-order value constraints pass, but local existence
+    remains open. K1986 constructs the unique uncapped exact-marginal pulse with uniform
+    geometric convergence, independently certifies amplitude violation, and proves every
+    capped feasible pulse pays at least 81/326720 extra squared L2 norm. This does not
+    construct the capped optimizer or change phase energy. K1987 proves lower semicontinuity
+    and semialgebraic parameter structure, the complete all-temperature
+    spacing/budget/dimension feasibility domain, and the sharp return 1/2 for every feasible
+    three-level catalyst. Larger-d optimal returns remain open. These are conditional
+    mathematical results; source, physics-ledger and canon verdicts remain unchanged, with
+    no source-selected GU realization, novelty, formal proof or external acceptance.
+
+    Historical predecessor (not live):
     K1982 proves an exact trace-divergence identity on the unchanged raw
     pairing equation. Nonzero periodic PSD pairings are impossible; any global
     PSD solution has exponentially growing trace volume, excluding bounded and
@@ -17143,6 +17157,12 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Compare a structural higher-order/local pairing argument with the genuine capped scalar
+  optimization and matching small-spacing thermal return bounds. Second-order
+  compatibility, an uncapped exact-marginal solution with a strict amplitude penalty, and
+  complete thermal feasibility are now available.
+
+  Historical predecessor (not live):
   Compare full coupled local second-order pairing prolongation with an efficient certified scalar pulse solver and matching small-spacing thermal bounds. Bounded global completion of the frozen positive pairing model is now excluded; actual continuum pulse evaluation and commensurate real-to-lattice spectral reduction are available.
 
   Historical predecessor continuation (superseded only at these scopes):
@@ -20617,6 +20637,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Seek a structural all-order or local-existence argument for the unchanged symmetric
+  pairing equation, or an actual higher obstruction; second jets and 420 necessary next-
+  order constraints now pass, but the Taylor residual is nonzero. Scalar work should solve
+  the genuine capped active-set or dual-feasibility problem using the new uncapped
+  solution and strict norm penalty; uncapped exact marginals cannot stand in for a capped
+  optimum. Thermal work should seek matching small-spacing or larger-d optimal-return
+  bounds on the now-complete feasible domain, respecting left-continuity in spacing and
+  its possible right jumps. Retain source-owned pairing/core, full20, barred reality,
+  K/C/accessibility, mirror/full-II, normal-jets and physical quotient alternatives.
+
+  Historical predecessor (not live):
   Solve the coupled symmetric mixed-second-derivative equations on the existing first jets; their56 differentiated value constraints already pass, while the global trace-flux identity excludes bounded and periodic PSD completion. Scalar work should accelerate the certified evaluator or obtain a strong error-to-limit or exact-marginal construction, not repeat generic convergence or confuse finite point enclosures with exact endpoints. Thermal work should reuse the h=1/m lattice theorem to seek matching small-spacing or larger-d bounds; the spacing1 at-most-five-level frontier is closed for all0<t<1. Retain source-owned pairing/core, full20, barred reality, K/C/accessibility, mirror/full-II, normal-jets and physical quotient alternatives.
 
   Historical predecessor continuation (superseded only at these scopes):

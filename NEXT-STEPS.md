@@ -7,6 +7,11 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-23: SECOND JETS, AMPLITUDE PENALTY, COMPLETE THERMAL FEASIBILITY.**
+> Seek a structural all-order or local-existence argument for the unchanged symmetric pairing equation, or an actual higher obstruction; second jets and 420 necessary next-order constraints now pass, but the Taylor residual is nonzero. Scalar work should solve the genuine capped active-set or dual-feasibility problem using the new uncapped solution and strict norm penalty; uncapped exact marginals cannot stand in for a capped optimum. Thermal work should seek matching small-spacing or larger-d optimal-return bounds on the now-complete feasible domain, respecting left-continuity in spacing and its possible right jumps. Retain source-owned pairing/core, full20, barred reality, K/C/accessibility, mirror/full-II, normal-jets and physical quotient alternatives.
+> Prior banners preserve history; source, ledger and canon verdicts remain unchanged.
+
+
 > **2026-10-23: GLOBAL PAIRING FLUX, CERTIFIED PULSE, SPECTRAL ROUNDING.**
 > Solve the coupled symmetric mixed-second-derivative equations on the existing first jets; their56 differentiated value constraints already pass, while the global trace-flux identity excludes bounded and periodic PSD completion. Scalar work should accelerate the certified evaluator or obtain a strong error-to-limit or exact-marginal construction, not repeat generic convergence or confuse finite point enclosures with exact endpoints. Thermal work should reuse the h=1/m lattice theorem to seek matching small-spacing or larger-d bounds; the spacing1 at-most-five-level frontier is closed for all0<t<1. Retain source-owned pairing/core, full20, barred reality, K/C/accessibility, mirror/full-II, normal-jets and physical quotient alternatives.
 > Prior banners preserve history; source, ledger and canon verdicts remain unchanged.

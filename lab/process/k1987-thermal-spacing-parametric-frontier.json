@@ -1,0 +1,1860 @@
+{
+  "result_id": "K1987",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "three_level_spectra": [
+    {
+      "spectrum": [
+        "0",
+        "1",
+        "2"
+      ],
+      "occupied": "1",
+      "maximum_spacing": "1",
+      "minimum_budget": "1"
+    },
+    {
+      "spectrum": [
+        "0",
+        "1",
+        "3"
+      ],
+      "occupied": "1",
+      "maximum_spacing": "1",
+      "minimum_budget": "1"
+    },
+    {
+      "spectrum": [
+        "0",
+        "1",
+        "4"
+      ],
+      "occupied": "1",
+      "maximum_spacing": "1",
+      "minimum_budget": "1"
+    },
+    {
+      "spectrum": [
+        "0",
+        "2",
+        "3"
+      ],
+      "occupied": "2",
+      "maximum_spacing": "1",
+      "minimum_budget": "2"
+    },
+    {
+      "spectrum": [
+        "0",
+        "2",
+        "4"
+      ],
+      "occupied": "2",
+      "maximum_spacing": "2",
+      "minimum_budget": "2"
+    },
+    {
+      "spectrum": [
+        "0",
+        "3",
+        "4"
+      ],
+      "occupied": "3",
+      "maximum_spacing": "1",
+      "minimum_budget": "3"
+    }
+  ],
+  "feasibility_controls": [
+    {
+      "dimension": 1,
+      "spacing": "1/10",
+      "budget": "9/10",
+      "feasible": false
+    },
+    {
+      "dimension": 1,
+      "spacing": "1/10",
+      "budget": "1",
+      "feasible": false
+    },
+    {
+      "dimension": 1,
+      "spacing": "1/10",
+      "budget": "3/2",
+      "feasible": false
+    },
+    {
+      "dimension": 1,
+      "spacing": "1/10",
+      "budget": "1999/1000",
+      "feasible": false
+    },
+    {
+      "dimension": 1,
+      "spacing": "1/10",
+      "budget": "2",
+      "feasible": false
+    },
+    {
+      "dimension": 1,
+      "spacing": "1/10",
+      "budget": "10",
+      "feasible": false
+    },
+    {
+      "dimension": 1,
+      "spacing": "1/2",
+      "budget": "9/10",
+      "feasible": false
+    },
+    {
+      "dimension": 1,
+      "spacing": "1/2",
+      "budget": "1",
+      "feasible": false
+    },
+    {
+      "dimension": 1,
+      "spacing": "1/2",
+      "budget": "3/2",
+      "feasible": false
+    },
+    {
+      "dimension": 1,
+      "spacing": "1/2",
+      "budget": "1999/1000",
+      "feasible": false
+    },
+    {
+      "dimension": 1,
+      "spacing": "1/2",
+      "budget": "2",
+      "feasible": false
+    },
+    {
+      "dimension": 1,
+      "spacing": "1/2",
+      "budget": "10",
+      "feasible": false
+    },
+    {
+      "dimension": 1,
+      "spacing": "1",
+      "budget": "9/10",
+      "feasible": false
+    },
+    {
+      "dimension": 1,
+      "spacing": "1",
+      "budget": "1",
+      "feasible": false
+    },
+    {
+      "dimension": 1,
+      "spacing": "1",
+      "budget": "3/2",
+      "feasible": false
+    },
+    {
+      "dimension": 1,
+      "spacing": "1",
+      "budget": "1999/1000",
+      "feasible": false
+    },
+    {
+      "dimension": 1,
+      "spacing": "1",
+      "budget": "2",
+      "feasible": false
+    },
+    {
+      "dimension": 1,
+      "spacing": "1",
+      "budget": "10",
+      "feasible": false
+    },
+    {
+      "dimension": 1,
+      "spacing": "1001/1000",
+      "budget": "9/10",
+      "feasible": false
+    },
+    {
+      "dimension": 1,
+      "spacing": "1001/1000",
+      "budget": "1",
+      "feasible": false
+    },
+    {
+      "dimension": 1,
+      "spacing": "1001/1000",
+      "budget": "3/2",
+      "feasible": false
+    },
+    {
+      "dimension": 1,
+      "spacing": "1001/1000",
+      "budget": "1999/1000",
+      "feasible": false
+    },
+    {
+      "dimension": 1,
+      "spacing": "1001/1000",
+      "budget": "2",
+      "feasible": false
+    },
+    {
+      "dimension": 1,
+      "spacing": "1001/1000",
+      "budget": "10",
+      "feasible": false
+    },
+    {
+      "dimension": 1,
+      "spacing": "3/2",
+      "budget": "9/10",
+      "feasible": false
+    },
+    {
+      "dimension": 1,
+      "spacing": "3/2",
+      "budget": "1",
+      "feasible": false
+    },
+    {
+      "dimension": 1,
+      "spacing": "3/2",
+      "budget": "3/2",
+      "feasible": false
+    },
+    {
+      "dimension": 1,
+      "spacing": "3/2",
+      "budget": "1999/1000",
+      "feasible": false
+    },
+    {
+      "dimension": 1,
+      "spacing": "3/2",
+      "budget": "2",
+      "feasible": false
+    },
+    {
+      "dimension": 1,
+      "spacing": "3/2",
+      "budget": "10",
+      "feasible": false
+    },
+    {
+      "dimension": 1,
+      "spacing": "2",
+      "budget": "9/10",
+      "feasible": false
+    },
+    {
+      "dimension": 1,
+      "spacing": "2",
+      "budget": "1",
+      "feasible": false
+    },
+    {
+      "dimension": 1,
+      "spacing": "2",
+      "budget": "3/2",
+      "feasible": false
+    },
+    {
+      "dimension": 1,
+      "spacing": "2",
+      "budget": "1999/1000",
+      "feasible": false
+    },
+    {
+      "dimension": 1,
+      "spacing": "2",
+      "budget": "2",
+      "feasible": false
+    },
+    {
+      "dimension": 1,
+      "spacing": "2",
+      "budget": "10",
+      "feasible": false
+    },
+    {
+      "dimension": 1,
+      "spacing": "2001/1000",
+      "budget": "9/10",
+      "feasible": false
+    },
+    {
+      "dimension": 1,
+      "spacing": "2001/1000",
+      "budget": "1",
+      "feasible": false
+    },
+    {
+      "dimension": 1,
+      "spacing": "2001/1000",
+      "budget": "3/2",
+      "feasible": false
+    },
+    {
+      "dimension": 1,
+      "spacing": "2001/1000",
+      "budget": "1999/1000",
+      "feasible": false
+    },
+    {
+      "dimension": 1,
+      "spacing": "2001/1000",
+      "budget": "2",
+      "feasible": false
+    },
+    {
+      "dimension": 1,
+      "spacing": "2001/1000",
+      "budget": "10",
+      "feasible": false
+    },
+    {
+      "dimension": 2,
+      "spacing": "1/10",
+      "budget": "9/10",
+      "feasible": false
+    },
+    {
+      "dimension": 2,
+      "spacing": "1/10",
+      "budget": "1",
+      "feasible": false
+    },
+    {
+      "dimension": 2,
+      "spacing": "1/10",
+      "budget": "3/2",
+      "feasible": false
+    },
+    {
+      "dimension": 2,
+      "spacing": "1/10",
+      "budget": "1999/1000",
+      "feasible": false
+    },
+    {
+      "dimension": 2,
+      "spacing": "1/10",
+      "budget": "2",
+      "feasible": false
+    },
+    {
+      "dimension": 2,
+      "spacing": "1/10",
+      "budget": "10",
+      "feasible": false
+    },
+    {
+      "dimension": 2,
+      "spacing": "1/2",
+      "budget": "9/10",
+      "feasible": false
+    },
+    {
+      "dimension": 2,
+      "spacing": "1/2",
+      "budget": "1",
+      "feasible": false
+    },
+    {
+      "dimension": 2,
+      "spacing": "1/2",
+      "budget": "3/2",
+      "feasible": false
+    },
+    {
+      "dimension": 2,
+      "spacing": "1/2",
+      "budget": "1999/1000",
+      "feasible": false
+    },
+    {
+      "dimension": 2,
+      "spacing": "1/2",
+      "budget": "2",
+      "feasible": false
+    },
+    {
+      "dimension": 2,
+      "spacing": "1/2",
+      "budget": "10",
+      "feasible": false
+    },
+    {
+      "dimension": 2,
+      "spacing": "1",
+      "budget": "9/10",
+      "feasible": false
+    },
+    {
+      "dimension": 2,
+      "spacing": "1",
+      "budget": "1",
+      "feasible": false
+    },
+    {
+      "dimension": 2,
+      "spacing": "1",
+      "budget": "3/2",
+      "feasible": false
+    },
+    {
+      "dimension": 2,
+      "spacing": "1",
+      "budget": "1999/1000",
+      "feasible": false
+    },
+    {
+      "dimension": 2,
+      "spacing": "1",
+      "budget": "2",
+      "feasible": false
+    },
+    {
+      "dimension": 2,
+      "spacing": "1",
+      "budget": "10",
+      "feasible": false
+    },
+    {
+      "dimension": 2,
+      "spacing": "1001/1000",
+      "budget": "9/10",
+      "feasible": false
+    },
+    {
+      "dimension": 2,
+      "spacing": "1001/1000",
+      "budget": "1",
+      "feasible": false
+    },
+    {
+      "dimension": 2,
+      "spacing": "1001/1000",
+      "budget": "3/2",
+      "feasible": false
+    },
+    {
+      "dimension": 2,
+      "spacing": "1001/1000",
+      "budget": "1999/1000",
+      "feasible": false
+    },
+    {
+      "dimension": 2,
+      "spacing": "1001/1000",
+      "budget": "2",
+      "feasible": false
+    },
+    {
+      "dimension": 2,
+      "spacing": "1001/1000",
+      "budget": "10",
+      "feasible": false
+    },
+    {
+      "dimension": 2,
+      "spacing": "3/2",
+      "budget": "9/10",
+      "feasible": false
+    },
+    {
+      "dimension": 2,
+      "spacing": "3/2",
+      "budget": "1",
+      "feasible": false
+    },
+    {
+      "dimension": 2,
+      "spacing": "3/2",
+      "budget": "3/2",
+      "feasible": false
+    },
+    {
+      "dimension": 2,
+      "spacing": "3/2",
+      "budget": "1999/1000",
+      "feasible": false
+    },
+    {
+      "dimension": 2,
+      "spacing": "3/2",
+      "budget": "2",
+      "feasible": false
+    },
+    {
+      "dimension": 2,
+      "spacing": "3/2",
+      "budget": "10",
+      "feasible": false
+    },
+    {
+      "dimension": 2,
+      "spacing": "2",
+      "budget": "9/10",
+      "feasible": false
+    },
+    {
+      "dimension": 2,
+      "spacing": "2",
+      "budget": "1",
+      "feasible": false
+    },
+    {
+      "dimension": 2,
+      "spacing": "2",
+      "budget": "3/2",
+      "feasible": false
+    },
+    {
+      "dimension": 2,
+      "spacing": "2",
+      "budget": "1999/1000",
+      "feasible": false
+    },
+    {
+      "dimension": 2,
+      "spacing": "2",
+      "budget": "2",
+      "feasible": false
+    },
+    {
+      "dimension": 2,
+      "spacing": "2",
+      "budget": "10",
+      "feasible": false
+    },
+    {
+      "dimension": 2,
+      "spacing": "2001/1000",
+      "budget": "9/10",
+      "feasible": false
+    },
+    {
+      "dimension": 2,
+      "spacing": "2001/1000",
+      "budget": "1",
+      "feasible": false
+    },
+    {
+      "dimension": 2,
+      "spacing": "2001/1000",
+      "budget": "3/2",
+      "feasible": false
+    },
+    {
+      "dimension": 2,
+      "spacing": "2001/1000",
+      "budget": "1999/1000",
+      "feasible": false
+    },
+    {
+      "dimension": 2,
+      "spacing": "2001/1000",
+      "budget": "2",
+      "feasible": false
+    },
+    {
+      "dimension": 2,
+      "spacing": "2001/1000",
+      "budget": "10",
+      "feasible": false
+    },
+    {
+      "dimension": 3,
+      "spacing": "1/10",
+      "budget": "9/10",
+      "feasible": false
+    },
+    {
+      "dimension": 3,
+      "spacing": "1/10",
+      "budget": "1",
+      "feasible": true
+    },
+    {
+      "dimension": 3,
+      "spacing": "1/10",
+      "budget": "3/2",
+      "feasible": true
+    },
+    {
+      "dimension": 3,
+      "spacing": "1/10",
+      "budget": "1999/1000",
+      "feasible": true
+    },
+    {
+      "dimension": 3,
+      "spacing": "1/10",
+      "budget": "2",
+      "feasible": true
+    },
+    {
+      "dimension": 3,
+      "spacing": "1/10",
+      "budget": "10",
+      "feasible": true
+    },
+    {
+      "dimension": 3,
+      "spacing": "1/2",
+      "budget": "9/10",
+      "feasible": false
+    },
+    {
+      "dimension": 3,
+      "spacing": "1/2",
+      "budget": "1",
+      "feasible": true
+    },
+    {
+      "dimension": 3,
+      "spacing": "1/2",
+      "budget": "3/2",
+      "feasible": true
+    },
+    {
+      "dimension": 3,
+      "spacing": "1/2",
+      "budget": "1999/1000",
+      "feasible": true
+    },
+    {
+      "dimension": 3,
+      "spacing": "1/2",
+      "budget": "2",
+      "feasible": true
+    },
+    {
+      "dimension": 3,
+      "spacing": "1/2",
+      "budget": "10",
+      "feasible": true
+    },
+    {
+      "dimension": 3,
+      "spacing": "1",
+      "budget": "9/10",
+      "feasible": false
+    },
+    {
+      "dimension": 3,
+      "spacing": "1",
+      "budget": "1",
+      "feasible": true
+    },
+    {
+      "dimension": 3,
+      "spacing": "1",
+      "budget": "3/2",
+      "feasible": true
+    },
+    {
+      "dimension": 3,
+      "spacing": "1",
+      "budget": "1999/1000",
+      "feasible": true
+    },
+    {
+      "dimension": 3,
+      "spacing": "1",
+      "budget": "2",
+      "feasible": true
+    },
+    {
+      "dimension": 3,
+      "spacing": "1",
+      "budget": "10",
+      "feasible": true
+    },
+    {
+      "dimension": 3,
+      "spacing": "1001/1000",
+      "budget": "9/10",
+      "feasible": false
+    },
+    {
+      "dimension": 3,
+      "spacing": "1001/1000",
+      "budget": "1",
+      "feasible": false
+    },
+    {
+      "dimension": 3,
+      "spacing": "1001/1000",
+      "budget": "3/2",
+      "feasible": false
+    },
+    {
+      "dimension": 3,
+      "spacing": "1001/1000",
+      "budget": "1999/1000",
+      "feasible": false
+    },
+    {
+      "dimension": 3,
+      "spacing": "1001/1000",
+      "budget": "2",
+      "feasible": true
+    },
+    {
+      "dimension": 3,
+      "spacing": "1001/1000",
+      "budget": "10",
+      "feasible": true
+    },
+    {
+      "dimension": 3,
+      "spacing": "3/2",
+      "budget": "9/10",
+      "feasible": false
+    },
+    {
+      "dimension": 3,
+      "spacing": "3/2",
+      "budget": "1",
+      "feasible": false
+    },
+    {
+      "dimension": 3,
+      "spacing": "3/2",
+      "budget": "3/2",
+      "feasible": false
+    },
+    {
+      "dimension": 3,
+      "spacing": "3/2",
+      "budget": "1999/1000",
+      "feasible": false
+    },
+    {
+      "dimension": 3,
+      "spacing": "3/2",
+      "budget": "2",
+      "feasible": true
+    },
+    {
+      "dimension": 3,
+      "spacing": "3/2",
+      "budget": "10",
+      "feasible": true
+    },
+    {
+      "dimension": 3,
+      "spacing": "2",
+      "budget": "9/10",
+      "feasible": false
+    },
+    {
+      "dimension": 3,
+      "spacing": "2",
+      "budget": "1",
+      "feasible": false
+    },
+    {
+      "dimension": 3,
+      "spacing": "2",
+      "budget": "3/2",
+      "feasible": false
+    },
+    {
+      "dimension": 3,
+      "spacing": "2",
+      "budget": "1999/1000",
+      "feasible": false
+    },
+    {
+      "dimension": 3,
+      "spacing": "2",
+      "budget": "2",
+      "feasible": true
+    },
+    {
+      "dimension": 3,
+      "spacing": "2",
+      "budget": "10",
+      "feasible": true
+    },
+    {
+      "dimension": 3,
+      "spacing": "2001/1000",
+      "budget": "9/10",
+      "feasible": false
+    },
+    {
+      "dimension": 3,
+      "spacing": "2001/1000",
+      "budget": "1",
+      "feasible": false
+    },
+    {
+      "dimension": 3,
+      "spacing": "2001/1000",
+      "budget": "3/2",
+      "feasible": false
+    },
+    {
+      "dimension": 3,
+      "spacing": "2001/1000",
+      "budget": "1999/1000",
+      "feasible": false
+    },
+    {
+      "dimension": 3,
+      "spacing": "2001/1000",
+      "budget": "2",
+      "feasible": false
+    },
+    {
+      "dimension": 3,
+      "spacing": "2001/1000",
+      "budget": "10",
+      "feasible": false
+    },
+    {
+      "dimension": 4,
+      "spacing": "1/10",
+      "budget": "9/10",
+      "feasible": false
+    },
+    {
+      "dimension": 4,
+      "spacing": "1/10",
+      "budget": "1",
+      "feasible": true
+    },
+    {
+      "dimension": 4,
+      "spacing": "1/10",
+      "budget": "3/2",
+      "feasible": true
+    },
+    {
+      "dimension": 4,
+      "spacing": "1/10",
+      "budget": "1999/1000",
+      "feasible": true
+    },
+    {
+      "dimension": 4,
+      "spacing": "1/10",
+      "budget": "2",
+      "feasible": true
+    },
+    {
+      "dimension": 4,
+      "spacing": "1/10",
+      "budget": "10",
+      "feasible": true
+    },
+    {
+      "dimension": 4,
+      "spacing": "1/2",
+      "budget": "9/10",
+      "feasible": false
+    },
+    {
+      "dimension": 4,
+      "spacing": "1/2",
+      "budget": "1",
+      "feasible": true
+    },
+    {
+      "dimension": 4,
+      "spacing": "1/2",
+      "budget": "3/2",
+      "feasible": true
+    },
+    {
+      "dimension": 4,
+      "spacing": "1/2",
+      "budget": "1999/1000",
+      "feasible": true
+    },
+    {
+      "dimension": 4,
+      "spacing": "1/2",
+      "budget": "2",
+      "feasible": true
+    },
+    {
+      "dimension": 4,
+      "spacing": "1/2",
+      "budget": "10",
+      "feasible": true
+    },
+    {
+      "dimension": 4,
+      "spacing": "1",
+      "budget": "9/10",
+      "feasible": false
+    },
+    {
+      "dimension": 4,
+      "spacing": "1",
+      "budget": "1",
+      "feasible": true
+    },
+    {
+      "dimension": 4,
+      "spacing": "1",
+      "budget": "3/2",
+      "feasible": true
+    },
+    {
+      "dimension": 4,
+      "spacing": "1",
+      "budget": "1999/1000",
+      "feasible": true
+    },
+    {
+      "dimension": 4,
+      "spacing": "1",
+      "budget": "2",
+      "feasible": true
+    },
+    {
+      "dimension": 4,
+      "spacing": "1",
+      "budget": "10",
+      "feasible": true
+    },
+    {
+      "dimension": 4,
+      "spacing": "1001/1000",
+      "budget": "9/10",
+      "feasible": false
+    },
+    {
+      "dimension": 4,
+      "spacing": "1001/1000",
+      "budget": "1",
+      "feasible": false
+    },
+    {
+      "dimension": 4,
+      "spacing": "1001/1000",
+      "budget": "3/2",
+      "feasible": false
+    },
+    {
+      "dimension": 4,
+      "spacing": "1001/1000",
+      "budget": "1999/1000",
+      "feasible": false
+    },
+    {
+      "dimension": 4,
+      "spacing": "1001/1000",
+      "budget": "2",
+      "feasible": true
+    },
+    {
+      "dimension": 4,
+      "spacing": "1001/1000",
+      "budget": "10",
+      "feasible": true
+    },
+    {
+      "dimension": 4,
+      "spacing": "3/2",
+      "budget": "9/10",
+      "feasible": false
+    },
+    {
+      "dimension": 4,
+      "spacing": "3/2",
+      "budget": "1",
+      "feasible": false
+    },
+    {
+      "dimension": 4,
+      "spacing": "3/2",
+      "budget": "3/2",
+      "feasible": false
+    },
+    {
+      "dimension": 4,
+      "spacing": "3/2",
+      "budget": "1999/1000",
+      "feasible": false
+    },
+    {
+      "dimension": 4,
+      "spacing": "3/2",
+      "budget": "2",
+      "feasible": true
+    },
+    {
+      "dimension": 4,
+      "spacing": "3/2",
+      "budget": "10",
+      "feasible": true
+    },
+    {
+      "dimension": 4,
+      "spacing": "2",
+      "budget": "9/10",
+      "feasible": false
+    },
+    {
+      "dimension": 4,
+      "spacing": "2",
+      "budget": "1",
+      "feasible": false
+    },
+    {
+      "dimension": 4,
+      "spacing": "2",
+      "budget": "3/2",
+      "feasible": false
+    },
+    {
+      "dimension": 4,
+      "spacing": "2",
+      "budget": "1999/1000",
+      "feasible": false
+    },
+    {
+      "dimension": 4,
+      "spacing": "2",
+      "budget": "2",
+      "feasible": true
+    },
+    {
+      "dimension": 4,
+      "spacing": "2",
+      "budget": "10",
+      "feasible": true
+    },
+    {
+      "dimension": 4,
+      "spacing": "2001/1000",
+      "budget": "9/10",
+      "feasible": false
+    },
+    {
+      "dimension": 4,
+      "spacing": "2001/1000",
+      "budget": "1",
+      "feasible": false
+    },
+    {
+      "dimension": 4,
+      "spacing": "2001/1000",
+      "budget": "3/2",
+      "feasible": false
+    },
+    {
+      "dimension": 4,
+      "spacing": "2001/1000",
+      "budget": "1999/1000",
+      "feasible": false
+    },
+    {
+      "dimension": 4,
+      "spacing": "2001/1000",
+      "budget": "2",
+      "feasible": false
+    },
+    {
+      "dimension": 4,
+      "spacing": "2001/1000",
+      "budget": "10",
+      "feasible": false
+    },
+    {
+      "dimension": 5,
+      "spacing": "1/10",
+      "budget": "9/10",
+      "feasible": false
+    },
+    {
+      "dimension": 5,
+      "spacing": "1/10",
+      "budget": "1",
+      "feasible": true
+    },
+    {
+      "dimension": 5,
+      "spacing": "1/10",
+      "budget": "3/2",
+      "feasible": true
+    },
+    {
+      "dimension": 5,
+      "spacing": "1/10",
+      "budget": "1999/1000",
+      "feasible": true
+    },
+    {
+      "dimension": 5,
+      "spacing": "1/10",
+      "budget": "2",
+      "feasible": true
+    },
+    {
+      "dimension": 5,
+      "spacing": "1/10",
+      "budget": "10",
+      "feasible": true
+    },
+    {
+      "dimension": 5,
+      "spacing": "1/2",
+      "budget": "9/10",
+      "feasible": false
+    },
+    {
+      "dimension": 5,
+      "spacing": "1/2",
+      "budget": "1",
+      "feasible": true
+    },
+    {
+      "dimension": 5,
+      "spacing": "1/2",
+      "budget": "3/2",
+      "feasible": true
+    },
+    {
+      "dimension": 5,
+      "spacing": "1/2",
+      "budget": "1999/1000",
+      "feasible": true
+    },
+    {
+      "dimension": 5,
+      "spacing": "1/2",
+      "budget": "2",
+      "feasible": true
+    },
+    {
+      "dimension": 5,
+      "spacing": "1/2",
+      "budget": "10",
+      "feasible": true
+    },
+    {
+      "dimension": 5,
+      "spacing": "1",
+      "budget": "9/10",
+      "feasible": false
+    },
+    {
+      "dimension": 5,
+      "spacing": "1",
+      "budget": "1",
+      "feasible": true
+    },
+    {
+      "dimension": 5,
+      "spacing": "1",
+      "budget": "3/2",
+      "feasible": true
+    },
+    {
+      "dimension": 5,
+      "spacing": "1",
+      "budget": "1999/1000",
+      "feasible": true
+    },
+    {
+      "dimension": 5,
+      "spacing": "1",
+      "budget": "2",
+      "feasible": true
+    },
+    {
+      "dimension": 5,
+      "spacing": "1",
+      "budget": "10",
+      "feasible": true
+    },
+    {
+      "dimension": 5,
+      "spacing": "1001/1000",
+      "budget": "9/10",
+      "feasible": false
+    },
+    {
+      "dimension": 5,
+      "spacing": "1001/1000",
+      "budget": "1",
+      "feasible": false
+    },
+    {
+      "dimension": 5,
+      "spacing": "1001/1000",
+      "budget": "3/2",
+      "feasible": false
+    },
+    {
+      "dimension": 5,
+      "spacing": "1001/1000",
+      "budget": "1999/1000",
+      "feasible": false
+    },
+    {
+      "dimension": 5,
+      "spacing": "1001/1000",
+      "budget": "2",
+      "feasible": true
+    },
+    {
+      "dimension": 5,
+      "spacing": "1001/1000",
+      "budget": "10",
+      "feasible": true
+    },
+    {
+      "dimension": 5,
+      "spacing": "3/2",
+      "budget": "9/10",
+      "feasible": false
+    },
+    {
+      "dimension": 5,
+      "spacing": "3/2",
+      "budget": "1",
+      "feasible": false
+    },
+    {
+      "dimension": 5,
+      "spacing": "3/2",
+      "budget": "3/2",
+      "feasible": false
+    },
+    {
+      "dimension": 5,
+      "spacing": "3/2",
+      "budget": "1999/1000",
+      "feasible": false
+    },
+    {
+      "dimension": 5,
+      "spacing": "3/2",
+      "budget": "2",
+      "feasible": true
+    },
+    {
+      "dimension": 5,
+      "spacing": "3/2",
+      "budget": "10",
+      "feasible": true
+    },
+    {
+      "dimension": 5,
+      "spacing": "2",
+      "budget": "9/10",
+      "feasible": false
+    },
+    {
+      "dimension": 5,
+      "spacing": "2",
+      "budget": "1",
+      "feasible": false
+    },
+    {
+      "dimension": 5,
+      "spacing": "2",
+      "budget": "3/2",
+      "feasible": false
+    },
+    {
+      "dimension": 5,
+      "spacing": "2",
+      "budget": "1999/1000",
+      "feasible": false
+    },
+    {
+      "dimension": 5,
+      "spacing": "2",
+      "budget": "2",
+      "feasible": true
+    },
+    {
+      "dimension": 5,
+      "spacing": "2",
+      "budget": "10",
+      "feasible": true
+    },
+    {
+      "dimension": 5,
+      "spacing": "2001/1000",
+      "budget": "9/10",
+      "feasible": false
+    },
+    {
+      "dimension": 5,
+      "spacing": "2001/1000",
+      "budget": "1",
+      "feasible": false
+    },
+    {
+      "dimension": 5,
+      "spacing": "2001/1000",
+      "budget": "3/2",
+      "feasible": false
+    },
+    {
+      "dimension": 5,
+      "spacing": "2001/1000",
+      "budget": "1999/1000",
+      "feasible": false
+    },
+    {
+      "dimension": 5,
+      "spacing": "2001/1000",
+      "budget": "2",
+      "feasible": false
+    },
+    {
+      "dimension": 5,
+      "spacing": "2001/1000",
+      "budget": "10",
+      "feasible": false
+    },
+    {
+      "dimension": 10,
+      "spacing": "1/10",
+      "budget": "9/10",
+      "feasible": false
+    },
+    {
+      "dimension": 10,
+      "spacing": "1/10",
+      "budget": "1",
+      "feasible": true
+    },
+    {
+      "dimension": 10,
+      "spacing": "1/10",
+      "budget": "3/2",
+      "feasible": true
+    },
+    {
+      "dimension": 10,
+      "spacing": "1/10",
+      "budget": "1999/1000",
+      "feasible": true
+    },
+    {
+      "dimension": 10,
+      "spacing": "1/10",
+      "budget": "2",
+      "feasible": true
+    },
+    {
+      "dimension": 10,
+      "spacing": "1/10",
+      "budget": "10",
+      "feasible": true
+    },
+    {
+      "dimension": 10,
+      "spacing": "1/2",
+      "budget": "9/10",
+      "feasible": false
+    },
+    {
+      "dimension": 10,
+      "spacing": "1/2",
+      "budget": "1",
+      "feasible": true
+    },
+    {
+      "dimension": 10,
+      "spacing": "1/2",
+      "budget": "3/2",
+      "feasible": true
+    },
+    {
+      "dimension": 10,
+      "spacing": "1/2",
+      "budget": "1999/1000",
+      "feasible": true
+    },
+    {
+      "dimension": 10,
+      "spacing": "1/2",
+      "budget": "2",
+      "feasible": true
+    },
+    {
+      "dimension": 10,
+      "spacing": "1/2",
+      "budget": "10",
+      "feasible": true
+    },
+    {
+      "dimension": 10,
+      "spacing": "1",
+      "budget": "9/10",
+      "feasible": false
+    },
+    {
+      "dimension": 10,
+      "spacing": "1",
+      "budget": "1",
+      "feasible": true
+    },
+    {
+      "dimension": 10,
+      "spacing": "1",
+      "budget": "3/2",
+      "feasible": true
+    },
+    {
+      "dimension": 10,
+      "spacing": "1",
+      "budget": "1999/1000",
+      "feasible": true
+    },
+    {
+      "dimension": 10,
+      "spacing": "1",
+      "budget": "2",
+      "feasible": true
+    },
+    {
+      "dimension": 10,
+      "spacing": "1",
+      "budget": "10",
+      "feasible": true
+    },
+    {
+      "dimension": 10,
+      "spacing": "1001/1000",
+      "budget": "9/10",
+      "feasible": false
+    },
+    {
+      "dimension": 10,
+      "spacing": "1001/1000",
+      "budget": "1",
+      "feasible": false
+    },
+    {
+      "dimension": 10,
+      "spacing": "1001/1000",
+      "budget": "3/2",
+      "feasible": false
+    },
+    {
+      "dimension": 10,
+      "spacing": "1001/1000",
+      "budget": "1999/1000",
+      "feasible": false
+    },
+    {
+      "dimension": 10,
+      "spacing": "1001/1000",
+      "budget": "2",
+      "feasible": true
+    },
+    {
+      "dimension": 10,
+      "spacing": "1001/1000",
+      "budget": "10",
+      "feasible": true
+    },
+    {
+      "dimension": 10,
+      "spacing": "3/2",
+      "budget": "9/10",
+      "feasible": false
+    },
+    {
+      "dimension": 10,
+      "spacing": "3/2",
+      "budget": "1",
+      "feasible": false
+    },
+    {
+      "dimension": 10,
+      "spacing": "3/2",
+      "budget": "3/2",
+      "feasible": false
+    },
+    {
+      "dimension": 10,
+      "spacing": "3/2",
+      "budget": "1999/1000",
+      "feasible": false
+    },
+    {
+      "dimension": 10,
+      "spacing": "3/2",
+      "budget": "2",
+      "feasible": true
+    },
+    {
+      "dimension": 10,
+      "spacing": "3/2",
+      "budget": "10",
+      "feasible": true
+    },
+    {
+      "dimension": 10,
+      "spacing": "2",
+      "budget": "9/10",
+      "feasible": false
+    },
+    {
+      "dimension": 10,
+      "spacing": "2",
+      "budget": "1",
+      "feasible": false
+    },
+    {
+      "dimension": 10,
+      "spacing": "2",
+      "budget": "3/2",
+      "feasible": false
+    },
+    {
+      "dimension": 10,
+      "spacing": "2",
+      "budget": "1999/1000",
+      "feasible": false
+    },
+    {
+      "dimension": 10,
+      "spacing": "2",
+      "budget": "2",
+      "feasible": true
+    },
+    {
+      "dimension": 10,
+      "spacing": "2",
+      "budget": "10",
+      "feasible": true
+    },
+    {
+      "dimension": 10,
+      "spacing": "2001/1000",
+      "budget": "9/10",
+      "feasible": false
+    },
+    {
+      "dimension": 10,
+      "spacing": "2001/1000",
+      "budget": "1",
+      "feasible": false
+    },
+    {
+      "dimension": 10,
+      "spacing": "2001/1000",
+      "budget": "3/2",
+      "feasible": false
+    },
+    {
+      "dimension": 10,
+      "spacing": "2001/1000",
+      "budget": "1999/1000",
+      "feasible": false
+    },
+    {
+      "dimension": 10,
+      "spacing": "2001/1000",
+      "budget": "2",
+      "feasible": false
+    },
+    {
+      "dimension": 10,
+      "spacing": "2001/1000",
+      "budget": "10",
+      "feasible": false
+    }
+  ],
+  "three_level_returns": [
+    {
+      "t": "1/10",
+      "spectrum": [
+        "0",
+        "1",
+        "2"
+      ],
+      "return_error": "1/2"
+    },
+    {
+      "t": "1/10",
+      "spectrum": [
+        "0",
+        "1",
+        "3"
+      ],
+      "return_error": "1/2"
+    },
+    {
+      "t": "1/10",
+      "spectrum": [
+        "0",
+        "1",
+        "4"
+      ],
+      "return_error": "1/2"
+    },
+    {
+      "t": "1/10",
+      "spectrum": [
+        "0",
+        "2",
+        "3"
+      ],
+      "return_error": "1/2"
+    },
+    {
+      "t": "1/10",
+      "spectrum": [
+        "0",
+        "2",
+        "4"
+      ],
+      "return_error": "1/2"
+    },
+    {
+      "t": "1/10",
+      "spectrum": [
+        "0",
+        "3",
+        "4"
+      ],
+      "return_error": "1/2"
+    },
+    {
+      "t": "1/4",
+      "spectrum": [
+        "0",
+        "1",
+        "2"
+      ],
+      "return_error": "1/2"
+    },
+    {
+      "t": "1/4",
+      "spectrum": [
+        "0",
+        "1",
+        "3"
+      ],
+      "return_error": "1/2"
+    },
+    {
+      "t": "1/4",
+      "spectrum": [
+        "0",
+        "1",
+        "4"
+      ],
+      "return_error": "1/2"
+    },
+    {
+      "t": "1/4",
+      "spectrum": [
+        "0",
+        "2",
+        "3"
+      ],
+      "return_error": "1/2"
+    },
+    {
+      "t": "1/4",
+      "spectrum": [
+        "0",
+        "2",
+        "4"
+      ],
+      "return_error": "1/2"
+    },
+    {
+      "t": "1/4",
+      "spectrum": [
+        "0",
+        "3",
+        "4"
+      ],
+      "return_error": "1/2"
+    },
+    {
+      "t": "1/2",
+      "spectrum": [
+        "0",
+        "1",
+        "2"
+      ],
+      "return_error": "1/2"
+    },
+    {
+      "t": "1/2",
+      "spectrum": [
+        "0",
+        "1",
+        "3"
+      ],
+      "return_error": "1/2"
+    },
+    {
+      "t": "1/2",
+      "spectrum": [
+        "0",
+        "1",
+        "4"
+      ],
+      "return_error": "1/2"
+    },
+    {
+      "t": "1/2",
+      "spectrum": [
+        "0",
+        "2",
+        "3"
+      ],
+      "return_error": "1/2"
+    },
+    {
+      "t": "1/2",
+      "spectrum": [
+        "0",
+        "2",
+        "4"
+      ],
+      "return_error": "1/2"
+    },
+    {
+      "t": "1/2",
+      "spectrum": [
+        "0",
+        "3",
+        "4"
+      ],
+      "return_error": "1/2"
+    },
+    {
+      "t": "3/4",
+      "spectrum": [
+        "0",
+        "1",
+        "2"
+      ],
+      "return_error": "1/2"
+    },
+    {
+      "t": "3/4",
+      "spectrum": [
+        "0",
+        "1",
+        "3"
+      ],
+      "return_error": "1/2"
+    },
+    {
+      "t": "3/4",
+      "spectrum": [
+        "0",
+        "1",
+        "4"
+      ],
+      "return_error": "1/2"
+    },
+    {
+      "t": "3/4",
+      "spectrum": [
+        "0",
+        "2",
+        "3"
+      ],
+      "return_error": "1/2"
+    },
+    {
+      "t": "3/4",
+      "spectrum": [
+        "0",
+        "2",
+        "4"
+      ],
+      "return_error": "1/2"
+    },
+    {
+      "t": "3/4",
+      "spectrum": [
+        "0",
+        "3",
+        "4"
+      ],
+      "return_error": "1/2"
+    },
+    {
+      "t": "9/10",
+      "spectrum": [
+        "0",
+        "1",
+        "2"
+      ],
+      "return_error": "1/2"
+    },
+    {
+      "t": "9/10",
+      "spectrum": [
+        "0",
+        "1",
+        "3"
+      ],
+      "return_error": "1/2"
+    },
+    {
+      "t": "9/10",
+      "spectrum": [
+        "0",
+        "1",
+        "4"
+      ],
+      "return_error": "1/2"
+    },
+    {
+      "t": "9/10",
+      "spectrum": [
+        "0",
+        "2",
+        "3"
+      ],
+      "return_error": "1/2"
+    },
+    {
+      "t": "9/10",
+      "spectrum": [
+        "0",
+        "2",
+        "4"
+      ],
+      "return_error": "1/2"
+    },
+    {
+      "t": "9/10",
+      "spectrum": [
+        "0",
+        "3",
+        "4"
+      ],
+      "return_error": "1/2"
+    }
+  ],
+  "scope": "At fixed finite dimension, exact positive-spacing budget optimum is lower semicontinuous, left-continuous in spacing and right-continuous in budget on its feasible domain; semialgebraic with finitely many one-parameter jumps. Complete all-temperature feasibility domain and all three-level return1/2. No general higher-dimensional optimum, continuous-from-right spacing claim, rationality at arbitrary spacing, or uniform small-spacing modulus.",
+  "inputs": {
+    "explorations/conditional-build/k1978-thermal-spectral-spacing-2026-10-23.md": "9f091d237c77d0e48e62b1d66952ae68413a48d630bdbf1550fb2249eccf85fe",
+    "explorations/conditional-build/k1981-wide-spacing-thermal-frontier-2026-10-23.md": "a13efd3d70b457bbe4498e4b6f7cc3e023a63a589e4fb01e55f90a9bb634452b",
+    "tests/channel-swings/k1981_wide_spacing_thermal_frontier.py": "fbea98f443b36163d43a6e3b50ab00f3eb2bd40b49b5976fd1273c192b633d54"
+  }
+}
