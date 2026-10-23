@@ -7,6 +7,11 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-23: FULL SCALAR OPTIMUM; DENSITY BOUNDARY; TEN-LEVEL THRESHOLD.**
+> Reuse K1974 full-cut feasibility and exact optimal phase; do not requeue halfcut, interval or arbitrary-cut certification at M=23/100. Construct an explicit optimal measurable pulse with the forced saturated regions, or test a genuinely changed source coefficient/core/non-chiral adjoint input beyond K1973. Thermal alternatives are the sharp all-spectrum price remainder or a specified minimum-spacing model; ten-level approximation at the exposed chord is closed. Preserve full20, barred reality, K/C/accessibility, mirror/full-II, normal-jet and physical-quotient debts.
+> Source and physics-ledger verdicts remain unchanged. Earlier open wording is
+> historical at these resolved scopes; no general halfcut-sufficiency claim.
+
 > **2026-10-22: WEIGHTED ADJOINT LIMIT; INTERVAL CUTS; TWO COMPONENTS.**
 > K1970 closes chiral-weighted bilinear repair of the fixed raw mass line.
 > K1971 closes every interval/complement cut but leaves larger disconnected

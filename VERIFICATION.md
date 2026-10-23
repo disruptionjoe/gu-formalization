@@ -7,6 +7,32 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-23: Full scalar optimum, differential density and sharp thermal dimension
+
+K1973 includes all smooth chiral-diagonal density/pairing first jets in the
+fixed raw mass test. Their rank28 correction image is disjoint from all128
+required mass coordinates, so the earlier incompatible ratio product survives.
+This excludes that variable class, not the unspecified source adjoint.
+K1974 proves every measurable scalar cut reduces, by submodular paired-point
+removal, convex reflection folding and unimodal subgradient replacement, to
+a left interval. The full measurable-pulse minimum is exactly4+2D(t)^2/K(t),
+approximately4.000917578239, with K1969's unique phase. Pulse existence and
+mandatory saturated regions follow; explicit pulse bytes and smooth attainment
+are not claimed. K1975 proves exactly10 physical levels are necessary and
+sufficient to approach the global thermal chord for6/5<E<11/5. Every fixed
+d<=9 has a strict gap; all finite nondegenerate interior protocols remain
+nonattaining. An exact-budget ten-level family has an explicit approximation
+error. Source, physics-ledger and canon verdicts remain unchanged.
+
+- [k1973-differential-adjoint-density](explorations/conditional-build/k1973-differential-adjoint-density-2026-10-23.md).
+- [k1974-scalar-excursion-separation](explorations/conditional-build/k1974-scalar-excursion-separation-2026-10-23.md).
+- [k1975-thermal-sharp-dimension-threshold](explorations/conditional-build/k1975-thermal-sharp-dimension-threshold-2026-10-23.md).
+
+These are internal analytic results with exact rational/symbolic controls, not
+external expert or formal certification or novelty claims. Prior open wording
+is historical at these explicitly settled scopes; the earlier perturbed-phase
+counterexample and source/physical-quotient limits remain valid.
+
 ## 2026-10-22: Weighted adjoints, complete interval cuts and two-component thermal structure
 
 [K1970](explorations/conditional-build/k1970-weighted-adjoint-mass-completion-2026-10-22.md)

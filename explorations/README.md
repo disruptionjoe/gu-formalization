@@ -7,6 +7,11 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k1973-differential-adjoint-density-2026-10-23](conditional-build/k1973-differential-adjoint-density-2026-10-23.md).
+- [k1974-scalar-excursion-separation-2026-10-23](conditional-build/k1974-scalar-excursion-separation-2026-10-23.md).
+- [k1975-thermal-sharp-dimension-threshold-2026-10-23](conditional-build/k1975-thermal-sharp-dimension-threshold-2026-10-23.md).
+
+
 - [K1970: weighted adjoint completion](conditional-build/k1970-weighted-adjoint-mass-completion-2026-10-22.md), [K1971: all interval cuts](conditional-build/k1971-scalar-all-cut-optimizer-2026-10-22.md), and [K1972: two-component thermal reduction](conditional-build/k1972-thermal-two-component-reduction-2026-10-22.md).
 
 - [K1967: paired raw coefficients and conditional mass](conditional-build/k1967-paired-raw-coefficient-observation-2026-10-22.md), [K1968: finite joint thermal programs](conditional-build/k1968-joint-thermal-finite-dimension-program-2026-10-22.md), and [K1969: continuum halfcuts and arbitrary-cut separation](conditional-build/k1969-scalar-continuum-separation-2026-10-22.md).

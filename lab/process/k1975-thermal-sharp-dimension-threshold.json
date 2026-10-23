@@ -1,0 +1,499 @@
+{
+  "result_id": "K1975",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "dimension_threshold": 10,
+  "open_energy_interval": [
+    "6/5",
+    "11/5"
+  ],
+  "exposed_faces": [
+    [
+      [
+        1,
+        "2/5"
+      ],
+      [
+        3,
+        "3/5"
+      ]
+    ],
+    [
+      [
+        1,
+        "9/10"
+      ],
+      [
+        3,
+        "1/10"
+      ]
+    ]
+  ],
+  "physical_controls": 57,
+  "consumers": [
+    {
+      "energy": "5/4",
+      "epsilon": "1/7",
+      "B_weight": "7/160",
+      "return_error": "1419/3200",
+      "global_infimum": "177/400",
+      "gap": "3/3200"
+    },
+    {
+      "energy": "5/4",
+      "epsilon": "1/100",
+      "B_weight": "5/101",
+      "return_error": "447/1010",
+      "global_infimum": "177/400",
+      "gap": "3/40400"
+    },
+    {
+      "energy": "5/4",
+      "epsilon": "1/10000",
+      "B_weight": "500/10001",
+      "return_error": "88509/200020",
+      "global_infimum": "177/400",
+      "gap": "3/4000400"
+    },
+    {
+      "energy": "13/10",
+      "epsilon": "1/7",
+      "B_weight": "7/80",
+      "return_error": "699/1600",
+      "global_infimum": "87/200",
+      "gap": "3/1600"
+    },
+    {
+      "energy": "13/10",
+      "epsilon": "1/100",
+      "B_weight": "10/101",
+      "return_error": "879/2020",
+      "global_infimum": "87/200",
+      "gap": "3/20200"
+    },
+    {
+      "energy": "13/10",
+      "epsilon": "1/10000",
+      "B_weight": "1000/10001",
+      "return_error": "87009/200020",
+      "global_infimum": "87/200",
+      "gap": "3/2000200"
+    },
+    {
+      "energy": "27/20",
+      "epsilon": "1/7",
+      "B_weight": "21/160",
+      "return_error": "1377/3200",
+      "global_infimum": "171/400",
+      "gap": "9/3200"
+    },
+    {
+      "energy": "27/20",
+      "epsilon": "1/100",
+      "B_weight": "15/101",
+      "return_error": "216/505",
+      "global_infimum": "171/400",
+      "gap": "9/40400"
+    },
+    {
+      "energy": "27/20",
+      "epsilon": "1/10000",
+      "B_weight": "1500/10001",
+      "return_error": "85509/200020",
+      "global_infimum": "171/400",
+      "gap": "9/4000400"
+    },
+    {
+      "energy": "7/5",
+      "epsilon": "1/7",
+      "B_weight": "7/40",
+      "return_error": "339/800",
+      "global_infimum": "21/50",
+      "gap": "3/800"
+    },
+    {
+      "energy": "7/5",
+      "epsilon": "1/100",
+      "B_weight": "20/101",
+      "return_error": "849/2020",
+      "global_infimum": "21/50",
+      "gap": "3/10100"
+    },
+    {
+      "energy": "7/5",
+      "epsilon": "1/10000",
+      "B_weight": "2000/10001",
+      "return_error": "84009/200020",
+      "global_infimum": "21/50",
+      "gap": "3/1000100"
+    },
+    {
+      "energy": "29/20",
+      "epsilon": "1/7",
+      "B_weight": "7/32",
+      "return_error": "267/640",
+      "global_infimum": "33/80",
+      "gap": "3/640"
+    },
+    {
+      "energy": "29/20",
+      "epsilon": "1/100",
+      "B_weight": "25/101",
+      "return_error": "417/1010",
+      "global_infimum": "33/80",
+      "gap": "3/8080"
+    },
+    {
+      "energy": "29/20",
+      "epsilon": "1/10000",
+      "B_weight": "2500/10001",
+      "return_error": "82509/200020",
+      "global_infimum": "33/80",
+      "gap": "3/800080"
+    },
+    {
+      "energy": "3/2",
+      "epsilon": "1/7",
+      "B_weight": "21/80",
+      "return_error": "657/1600",
+      "global_infimum": "81/200",
+      "gap": "9/1600"
+    },
+    {
+      "energy": "3/2",
+      "epsilon": "1/100",
+      "B_weight": "30/101",
+      "return_error": "819/2020",
+      "global_infimum": "81/200",
+      "gap": "9/20200"
+    },
+    {
+      "energy": "3/2",
+      "epsilon": "1/10000",
+      "B_weight": "3000/10001",
+      "return_error": "81009/200020",
+      "global_infimum": "81/200",
+      "gap": "9/2000200"
+    },
+    {
+      "energy": "31/20",
+      "epsilon": "1/7",
+      "B_weight": "49/160",
+      "return_error": "1293/3200",
+      "global_infimum": "159/400",
+      "gap": "21/3200"
+    },
+    {
+      "energy": "31/20",
+      "epsilon": "1/100",
+      "B_weight": "35/101",
+      "return_error": "201/505",
+      "global_infimum": "159/400",
+      "gap": "21/40400"
+    },
+    {
+      "energy": "31/20",
+      "epsilon": "1/10000",
+      "B_weight": "3500/10001",
+      "return_error": "79509/200020",
+      "global_infimum": "159/400",
+      "gap": "21/4000400"
+    },
+    {
+      "energy": "8/5",
+      "epsilon": "1/7",
+      "B_weight": "7/20",
+      "return_error": "159/400",
+      "global_infimum": "39/100",
+      "gap": "3/400"
+    },
+    {
+      "energy": "8/5",
+      "epsilon": "1/100",
+      "B_weight": "40/101",
+      "return_error": "789/2020",
+      "global_infimum": "39/100",
+      "gap": "3/5050"
+    },
+    {
+      "energy": "8/5",
+      "epsilon": "1/10000",
+      "B_weight": "4000/10001",
+      "return_error": "78009/200020",
+      "global_infimum": "39/100",
+      "gap": "3/500050"
+    },
+    {
+      "energy": "33/20",
+      "epsilon": "1/7",
+      "B_weight": "63/160",
+      "return_error": "1251/3200",
+      "global_infimum": "153/400",
+      "gap": "27/3200"
+    },
+    {
+      "energy": "33/20",
+      "epsilon": "1/100",
+      "B_weight": "45/101",
+      "return_error": "387/1010",
+      "global_infimum": "153/400",
+      "gap": "27/40400"
+    },
+    {
+      "energy": "33/20",
+      "epsilon": "1/10000",
+      "B_weight": "4500/10001",
+      "return_error": "76509/200020",
+      "global_infimum": "153/400",
+      "gap": "27/4000400"
+    },
+    {
+      "energy": "17/10",
+      "epsilon": "1/7",
+      "B_weight": "7/16",
+      "return_error": "123/320",
+      "global_infimum": "3/8",
+      "gap": "3/320"
+    },
+    {
+      "energy": "17/10",
+      "epsilon": "1/100",
+      "B_weight": "50/101",
+      "return_error": "759/2020",
+      "global_infimum": "3/8",
+      "gap": "3/4040"
+    },
+    {
+      "energy": "17/10",
+      "epsilon": "1/10000",
+      "B_weight": "5000/10001",
+      "return_error": "75009/200020",
+      "global_infimum": "3/8",
+      "gap": "3/400040"
+    },
+    {
+      "energy": "7/4",
+      "epsilon": "1/7",
+      "B_weight": "77/160",
+      "return_error": "1209/3200",
+      "global_infimum": "147/400",
+      "gap": "33/3200"
+    },
+    {
+      "energy": "7/4",
+      "epsilon": "1/100",
+      "B_weight": "55/101",
+      "return_error": "186/505",
+      "global_infimum": "147/400",
+      "gap": "33/40400"
+    },
+    {
+      "energy": "7/4",
+      "epsilon": "1/10000",
+      "B_weight": "5500/10001",
+      "return_error": "73509/200020",
+      "global_infimum": "147/400",
+      "gap": "33/4000400"
+    },
+    {
+      "energy": "9/5",
+      "epsilon": "1/7",
+      "B_weight": "21/40",
+      "return_error": "297/800",
+      "global_infimum": "9/25",
+      "gap": "9/800"
+    },
+    {
+      "energy": "9/5",
+      "epsilon": "1/100",
+      "B_weight": "60/101",
+      "return_error": "729/2020",
+      "global_infimum": "9/25",
+      "gap": "9/10100"
+    },
+    {
+      "energy": "9/5",
+      "epsilon": "1/10000",
+      "B_weight": "6000/10001",
+      "return_error": "72009/200020",
+      "global_infimum": "9/25",
+      "gap": "9/1000100"
+    },
+    {
+      "energy": "37/20",
+      "epsilon": "1/7",
+      "B_weight": "91/160",
+      "return_error": "1167/3200",
+      "global_infimum": "141/400",
+      "gap": "39/3200"
+    },
+    {
+      "energy": "37/20",
+      "epsilon": "1/100",
+      "B_weight": "65/101",
+      "return_error": "357/1010",
+      "global_infimum": "141/400",
+      "gap": "39/40400"
+    },
+    {
+      "energy": "37/20",
+      "epsilon": "1/10000",
+      "B_weight": "6500/10001",
+      "return_error": "70509/200020",
+      "global_infimum": "141/400",
+      "gap": "39/4000400"
+    },
+    {
+      "energy": "19/10",
+      "epsilon": "1/7",
+      "B_weight": "49/80",
+      "return_error": "573/1600",
+      "global_infimum": "69/200",
+      "gap": "21/1600"
+    },
+    {
+      "energy": "19/10",
+      "epsilon": "1/100",
+      "B_weight": "70/101",
+      "return_error": "699/2020",
+      "global_infimum": "69/200",
+      "gap": "21/20200"
+    },
+    {
+      "energy": "19/10",
+      "epsilon": "1/10000",
+      "B_weight": "7000/10001",
+      "return_error": "69009/200020",
+      "global_infimum": "69/200",
+      "gap": "21/2000200"
+    },
+    {
+      "energy": "39/20",
+      "epsilon": "1/7",
+      "B_weight": "21/32",
+      "return_error": "45/128",
+      "global_infimum": "27/80",
+      "gap": "9/640"
+    },
+    {
+      "energy": "39/20",
+      "epsilon": "1/100",
+      "B_weight": "75/101",
+      "return_error": "171/505",
+      "global_infimum": "27/80",
+      "gap": "9/8080"
+    },
+    {
+      "energy": "39/20",
+      "epsilon": "1/10000",
+      "B_weight": "7500/10001",
+      "return_error": "67509/200020",
+      "global_infimum": "27/80",
+      "gap": "9/800080"
+    },
+    {
+      "energy": "2",
+      "epsilon": "1/7",
+      "B_weight": "7/10",
+      "return_error": "69/200",
+      "global_infimum": "33/100",
+      "gap": "3/200"
+    },
+    {
+      "energy": "2",
+      "epsilon": "1/100",
+      "B_weight": "80/101",
+      "return_error": "669/2020",
+      "global_infimum": "33/100",
+      "gap": "3/2525"
+    },
+    {
+      "energy": "2",
+      "epsilon": "1/10000",
+      "B_weight": "8000/10001",
+      "return_error": "66009/200020",
+      "global_infimum": "33/100",
+      "gap": "3/250025"
+    },
+    {
+      "energy": "41/20",
+      "epsilon": "1/7",
+      "B_weight": "119/160",
+      "return_error": "1083/3200",
+      "global_infimum": "129/400",
+      "gap": "51/3200"
+    },
+    {
+      "energy": "41/20",
+      "epsilon": "1/100",
+      "B_weight": "85/101",
+      "return_error": "327/1010",
+      "global_infimum": "129/400",
+      "gap": "51/40400"
+    },
+    {
+      "energy": "41/20",
+      "epsilon": "1/10000",
+      "B_weight": "8500/10001",
+      "return_error": "64509/200020",
+      "global_infimum": "129/400",
+      "gap": "51/4000400"
+    },
+    {
+      "energy": "21/10",
+      "epsilon": "1/7",
+      "B_weight": "63/80",
+      "return_error": "531/1600",
+      "global_infimum": "63/200",
+      "gap": "27/1600"
+    },
+    {
+      "energy": "21/10",
+      "epsilon": "1/100",
+      "B_weight": "90/101",
+      "return_error": "639/2020",
+      "global_infimum": "63/200",
+      "gap": "27/20200"
+    },
+    {
+      "energy": "21/10",
+      "epsilon": "1/10000",
+      "B_weight": "9000/10001",
+      "return_error": "63009/200020",
+      "global_infimum": "63/200",
+      "gap": "27/2000200"
+    },
+    {
+      "energy": "43/20",
+      "epsilon": "1/7",
+      "B_weight": "133/160",
+      "return_error": "1041/3200",
+      "global_infimum": "123/400",
+      "gap": "57/3200"
+    },
+    {
+      "energy": "43/20",
+      "epsilon": "1/100",
+      "B_weight": "95/101",
+      "return_error": "156/505",
+      "global_infimum": "123/400",
+      "gap": "57/40400"
+    },
+    {
+      "energy": "43/20",
+      "epsilon": "1/10000",
+      "B_weight": "9500/10001",
+      "return_error": "61509/200020",
+      "global_infimum": "123/400",
+      "gap": "57/4000400"
+    }
+  ],
+  "scope": "For every interior energy, d>=10 has global chord as infimum; every fixed d<=9 has a strict positive gap. Global interior remains unattained at any finite nondegenerate d. Endpoints need only5.",
+  "inputs": {
+    "lab/process/k1950-global-catalyst-energy-certificates.json": "c6a0f50bd6bc048f2915902ed6a6bfdc668eeca91838c62452f42676cd312b1d",
+    "lab/process/k1968-joint-thermal-finite-dimension-program.json": "80ca47172efb62ab70c80a32179afca630ccbab9699d99b0667b6c30ee24fad5",
+    "lab/process/k1972-thermal-two-component-reduction.json": "577606b1e546e09e531fa6fbd87afedc1d0fed69230afe64b37edf9c59b40f9b",
+    "tests/channel-swings/k1950_global_catalyst_energy_certificates_probe.py": "8e45b2657c4e956a95c89f4318d9dc3f95eef66d5a4eefe4b045eeeba72d1a09"
+  }
+}

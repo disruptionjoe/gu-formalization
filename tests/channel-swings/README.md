@@ -1,5 +1,13 @@
 # Pre-contract wave probes
 
+- [k1973_differential_adjoint_density](k1973_differential_adjoint_density.py).
+- [k1973_differential_adjoint_density_probe](k1973_differential_adjoint_density_probe.py).
+- [k1974_scalar_excursion_separation](k1974_scalar_excursion_separation.py).
+- [k1974_scalar_excursion_separation_probe](k1974_scalar_excursion_separation_probe.py).
+- [k1975_thermal_sharp_dimension_threshold](k1975_thermal_sharp_dimension_threshold.py).
+- [k1975_thermal_sharp_dimension_threshold_probe](k1975_thermal_sharp_dimension_threshold_probe.py).
+
+
 - [K1970 producer](k1970_weighted_adjoint_mass_completion.py) and [independent probe](k1970_weighted_adjoint_mass_completion_probe.py); [K1971 producer](k1971_scalar_all_cut_optimizer.py) and [independent probe](k1971_scalar_all_cut_optimizer_probe.py); [K1972 producer](k1972_thermal_two_component_reduction.py) and [independent probe](k1972_thermal_two_component_reduction_probe.py).
 
 - [K1967 producer](k1967_paired_raw_coefficient_observation.py) and [independent probe](k1967_paired_raw_coefficient_observation_probe.py); [K1968 producer](k1968_joint_thermal_finite_dimension_program.py) and [independent probe](k1968_joint_thermal_finite_dimension_program_probe.py); [K1969 producer](k1969_scalar_continuum_separation.py) and [independent probe](k1969_scalar_continuum_separation_probe.py).

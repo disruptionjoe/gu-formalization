@@ -7,6 +7,11 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k1973-differential-adjoint-density](k1973-differential-adjoint-density.json).
+- [k1974-scalar-excursion-separation](k1974-scalar-excursion-separation.json).
+- [k1975-thermal-sharp-dimension-threshold](k1975-thermal-sharp-dimension-threshold.json).
+
+
 - [K1970 weighted-adjoint certificates](k1970-weighted-adjoint-mass-completion.json), [K1971 interval-cut controls](k1971-scalar-all-cut-optimizer.json), and [K1972 connected thermal frontiers](k1972-thermal-two-component-reduction.json): exact controls and explicitly scoped analytic proofs.
 
 - [K1967 exact raw-core certificates](k1967-paired-raw-coefficient-observation.json), [K1968 finite thermal frontier](k1968-joint-thermal-finite-dimension-program.json), and [K1969 continuum separation controls](k1969-scalar-continuum-separation.json): conditional proofs with reproducible exact checks.

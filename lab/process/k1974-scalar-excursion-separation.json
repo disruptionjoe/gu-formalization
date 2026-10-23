@@ -1,0 +1,74 @@
+{
+  "result_id": "K1974",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "grid_count": 12,
+  "exact_grid_controls": 4096,
+  "full_grid_controls": 1024,
+  "energy_formula": "4+2D(t)^2/K(t)",
+  "energy_interval": [
+    "170590978032704435446564786901937881079250987012152395044050496985458655312306869808400815942715756814752327603136302994123/42637963591292913026383649024221021920144134310603244293762252207650531775671249426858412075362704498095832034383517420800",
+    "682363912130817741786259147607482535064881996186123946122392923124590455245626183472349111878666710673360480116878112737248/170551854365171652105534596096816372148484310250935477129476772003962731747103451303818642480131385487401443588183752078125"
+  ],
+  "surrogate_t": "7187515937642188687704452342849/15845632502852867518708790067200",
+  "surrogate_lambda": "5505281619958488358214401345328522549210181285121471081433260079545332256751485889189087739063971690616266691333607076659200/87322549434967885878033713201587317716239576958297204301958602311278909608557779865255439662491487914638450382025166661561597",
+  "interval_witnesses": {
+    "0": [],
+    "1": [
+      "-5/4",
+      "-1"
+    ],
+    "2": [
+      "-3/2",
+      "-1"
+    ],
+    "3": [
+      "-7/4",
+      "-1"
+    ],
+    "4": [
+      "-2",
+      "-1"
+    ],
+    "5": [
+      "-9/4",
+      "-1"
+    ],
+    "6": [
+      "-9/4",
+      "-3/4"
+    ],
+    "7": [
+      "-5/2",
+      "-3/4"
+    ],
+    "8": [
+      "-11/4",
+      "-3/4"
+    ],
+    "9": [
+      "-11/4",
+      "-1/2"
+    ],
+    "10": [
+      "-3",
+      "-1/2"
+    ],
+    "11": [
+      "-3",
+      "-1/4"
+    ],
+    "12": [
+      "-3",
+      "0"
+    ]
+  },
+  "scope": "All measurable cuts pass for exact K1969 phase by submodular removal, convex reflection folding and unimodal interval domination. Full measurable-pulse minimum equals the unique halfcut phase energy; pulse existence, not explicit smooth pulse bytes. Rational grids are controls only.",
+  "inputs": {
+    "lab/process/k1969-scalar-continuum-separation.json": "58dfec992cf8cda0ac3048cd148d916914586f142bffb2cdf0bfb36e4cdc1f38",
+    "lab/process/k1971-scalar-all-cut-optimizer.json": "c1d94b9bdfa72feb3b2fc23a6a6b3a8f733f3c099c5ebac6239e1e4823ad3aa4",
+    "tests/channel-swings/k1969_scalar_continuum_separation.py": "aa59adb6e36531029f64eb533a99fd2be93c011fcb3bd6530252651e99ffea0b",
+    "tests/channel-swings/k1963_effective_scalar_cut_certificates.py": "083f9c3eb926734de6c659a942c683e00b2a5ab31dac67d77d4ff7b4d3ff7738"
+  }
+}
