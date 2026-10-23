@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k1995-central-marginal-cycle-improvement](conditional-build/k1995-central-marginal-cycle-improvement-2026-10-23.md).
+- [k1996-positive-spacing-finite-program](conditional-build/k1996-positive-spacing-finite-program-2026-10-23.md).
+
 - [k1993-pulse-sobolev-corner-obstruction](conditional-build/k1993-pulse-sobolev-corner-obstruction-2026-10-23.md).
 - [k1994-nine-level-thermal-reduction](conditional-build/k1994-nine-level-thermal-reduction-2026-10-23.md).
 

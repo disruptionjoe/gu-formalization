@@ -1,0 +1,9229 @@
+{
+  "result_id": "K1996",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "dominance_witnesses": [
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        1,
+        2
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 4,
+      "half_right_pair_lower": "1",
+      "half_right_pure": "11/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        1,
+        2
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 2,
+      "half_right_pair_lower": "7/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        1,
+        3
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 4,
+      "half_right_pair_lower": "1",
+      "half_right_pure": "11/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        1,
+        3
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 3,
+      "half_right_pair_lower": "9/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        1,
+        4
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 4,
+      "half_right_pair_lower": "1",
+      "half_right_pure": "11/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        1,
+        4
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 4,
+      "half_right_pair_lower": "11/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        2,
+        3
+      ],
+      "pure": 2,
+      "shifted": "B",
+      "shift_integer": 4,
+      "half_right_pair_lower": "1",
+      "half_right_pure": "13/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        2,
+        3
+      ],
+      "pure": 2,
+      "shifted": "A",
+      "shift_integer": 3,
+      "half_right_pair_lower": "9/2",
+      "half_right_pure": "2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        2,
+        4
+      ],
+      "pure": 2,
+      "shifted": "B",
+      "shift_integer": 4,
+      "half_right_pair_lower": "1",
+      "half_right_pure": "13/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        2,
+        4
+      ],
+      "pure": 2,
+      "shifted": "A",
+      "shift_integer": 4,
+      "half_right_pair_lower": "11/2",
+      "half_right_pure": "2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        3,
+        4
+      ],
+      "pure": 3,
+      "shifted": "B",
+      "shift_integer": 4,
+      "half_right_pair_lower": "1",
+      "half_right_pure": "15/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        3,
+        4
+      ],
+      "pure": 3,
+      "shifted": "A",
+      "shift_integer": 4,
+      "half_right_pair_lower": "11/2",
+      "half_right_pure": "3",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        1,
+        2
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 5,
+      "half_right_pair_lower": "1",
+      "half_right_pure": "13/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        1,
+        2
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 2,
+      "half_right_pair_lower": "7/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        1,
+        3
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 5,
+      "half_right_pair_lower": "1",
+      "half_right_pure": "13/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        1,
+        3
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 3,
+      "half_right_pair_lower": "9/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        1,
+        4
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 5,
+      "half_right_pair_lower": "1",
+      "half_right_pure": "13/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        1,
+        4
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 4,
+      "half_right_pair_lower": "11/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        2,
+        3
+      ],
+      "pure": 2,
+      "shifted": "B",
+      "shift_integer": 5,
+      "half_right_pair_lower": "1",
+      "half_right_pure": "15/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        2,
+        3
+      ],
+      "pure": 2,
+      "shifted": "A",
+      "shift_integer": 3,
+      "half_right_pair_lower": "9/2",
+      "half_right_pure": "2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        2,
+        4
+      ],
+      "pure": 2,
+      "shifted": "B",
+      "shift_integer": 5,
+      "half_right_pair_lower": "1",
+      "half_right_pure": "15/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        2,
+        4
+      ],
+      "pure": 2,
+      "shifted": "A",
+      "shift_integer": 4,
+      "half_right_pair_lower": "11/2",
+      "half_right_pure": "2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        3,
+        4
+      ],
+      "pure": 3,
+      "shifted": "B",
+      "shift_integer": 5,
+      "half_right_pair_lower": "1",
+      "half_right_pure": "17/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        3,
+        4
+      ],
+      "pure": 3,
+      "shifted": "A",
+      "shift_integer": 4,
+      "half_right_pair_lower": "11/2",
+      "half_right_pure": "3",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        1,
+        4
+      ],
+      "B": [
+        0,
+        1,
+        2
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 5,
+      "half_right_pair_lower": "1",
+      "half_right_pure": "13/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        4,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        1,
+        4
+      ],
+      "B": [
+        0,
+        1,
+        2
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 2,
+      "half_right_pair_lower": "7/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        1,
+        4
+      ],
+      "B": [
+        0,
+        1,
+        3
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 5,
+      "half_right_pair_lower": "1",
+      "half_right_pure": "13/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        4,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        1,
+        4
+      ],
+      "B": [
+        0,
+        1,
+        3
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 3,
+      "half_right_pair_lower": "9/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        1,
+        4
+      ],
+      "B": [
+        0,
+        1,
+        4
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 5,
+      "half_right_pair_lower": "1",
+      "half_right_pure": "13/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        4,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        1,
+        4
+      ],
+      "B": [
+        0,
+        1,
+        4
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 4,
+      "half_right_pair_lower": "11/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        1,
+        4
+      ],
+      "B": [
+        0,
+        2,
+        3
+      ],
+      "pure": 2,
+      "shifted": "B",
+      "shift_integer": 5,
+      "half_right_pair_lower": "1",
+      "half_right_pure": "15/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        4,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        1,
+        4
+      ],
+      "B": [
+        0,
+        2,
+        3
+      ],
+      "pure": 2,
+      "shifted": "A",
+      "shift_integer": 3,
+      "half_right_pair_lower": "9/2",
+      "half_right_pure": "2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        1,
+        4
+      ],
+      "B": [
+        0,
+        2,
+        4
+      ],
+      "pure": 2,
+      "shifted": "B",
+      "shift_integer": 5,
+      "half_right_pair_lower": "1",
+      "half_right_pure": "15/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        4,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        1,
+        4
+      ],
+      "B": [
+        0,
+        2,
+        4
+      ],
+      "pure": 2,
+      "shifted": "A",
+      "shift_integer": 4,
+      "half_right_pair_lower": "11/2",
+      "half_right_pure": "2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        1,
+        4
+      ],
+      "B": [
+        0,
+        3,
+        4
+      ],
+      "pure": 3,
+      "shifted": "B",
+      "shift_integer": 5,
+      "half_right_pair_lower": "1",
+      "half_right_pure": "17/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        4,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        1,
+        4
+      ],
+      "B": [
+        0,
+        3,
+        4
+      ],
+      "pure": 3,
+      "shifted": "A",
+      "shift_integer": 4,
+      "half_right_pair_lower": "11/2",
+      "half_right_pure": "3",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        2,
+        3
+      ],
+      "B": [
+        0,
+        1,
+        2
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 5,
+      "half_right_pair_lower": "2",
+      "half_right_pure": "13/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        2,
+        3,
+        6
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        2,
+        3
+      ],
+      "B": [
+        0,
+        1,
+        2
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 2,
+      "half_right_pair_lower": "9/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        4,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        2,
+        3
+      ],
+      "B": [
+        0,
+        1,
+        3
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 5,
+      "half_right_pair_lower": "2",
+      "half_right_pure": "13/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        2,
+        3,
+        6
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        2,
+        3
+      ],
+      "B": [
+        0,
+        1,
+        3
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 3,
+      "half_right_pair_lower": "11/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        4,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        2,
+        3
+      ],
+      "B": [
+        0,
+        1,
+        4
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 5,
+      "half_right_pair_lower": "2",
+      "half_right_pure": "13/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        2,
+        3,
+        6
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        2,
+        3
+      ],
+      "B": [
+        0,
+        1,
+        4
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 4,
+      "half_right_pair_lower": "13/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        4,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        2,
+        3
+      ],
+      "B": [
+        0,
+        2,
+        3
+      ],
+      "pure": 2,
+      "shifted": "B",
+      "shift_integer": 5,
+      "half_right_pair_lower": "2",
+      "half_right_pure": "15/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        2,
+        3,
+        6
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        2,
+        3
+      ],
+      "B": [
+        0,
+        2,
+        3
+      ],
+      "pure": 2,
+      "shifted": "A",
+      "shift_integer": 3,
+      "half_right_pair_lower": "11/2",
+      "half_right_pure": "2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        4,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        2,
+        3
+      ],
+      "B": [
+        0,
+        2,
+        4
+      ],
+      "pure": 2,
+      "shifted": "B",
+      "shift_integer": 5,
+      "half_right_pair_lower": "2",
+      "half_right_pure": "15/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        2,
+        3,
+        6
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        2,
+        3
+      ],
+      "B": [
+        0,
+        2,
+        4
+      ],
+      "pure": 2,
+      "shifted": "A",
+      "shift_integer": 4,
+      "half_right_pair_lower": "13/2",
+      "half_right_pure": "2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        4,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        2,
+        3
+      ],
+      "B": [
+        0,
+        3,
+        4
+      ],
+      "pure": 3,
+      "shifted": "B",
+      "shift_integer": 5,
+      "half_right_pair_lower": "2",
+      "half_right_pure": "17/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        2,
+        3,
+        6
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        2,
+        3
+      ],
+      "B": [
+        0,
+        3,
+        4
+      ],
+      "pure": 3,
+      "shifted": "A",
+      "shift_integer": 4,
+      "half_right_pair_lower": "13/2",
+      "half_right_pure": "3",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        4,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        2,
+        4
+      ],
+      "B": [
+        0,
+        1,
+        2
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 5,
+      "half_right_pair_lower": "2",
+      "half_right_pure": "13/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        2,
+        4
+      ],
+      "B": [
+        0,
+        1,
+        2
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 2,
+      "half_right_pair_lower": "9/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        2,
+        4
+      ],
+      "B": [
+        0,
+        1,
+        3
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 5,
+      "half_right_pair_lower": "2",
+      "half_right_pure": "13/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        2,
+        4
+      ],
+      "B": [
+        0,
+        1,
+        3
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 3,
+      "half_right_pair_lower": "11/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        2,
+        4
+      ],
+      "B": [
+        0,
+        1,
+        4
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 5,
+      "half_right_pair_lower": "2",
+      "half_right_pure": "13/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        2,
+        4
+      ],
+      "B": [
+        0,
+        1,
+        4
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 4,
+      "half_right_pair_lower": "13/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        2,
+        4
+      ],
+      "B": [
+        0,
+        2,
+        3
+      ],
+      "pure": 2,
+      "shifted": "B",
+      "shift_integer": 5,
+      "half_right_pair_lower": "2",
+      "half_right_pure": "15/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        2,
+        4
+      ],
+      "B": [
+        0,
+        2,
+        3
+      ],
+      "pure": 2,
+      "shifted": "A",
+      "shift_integer": 3,
+      "half_right_pair_lower": "11/2",
+      "half_right_pure": "2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        2,
+        4
+      ],
+      "B": [
+        0,
+        2,
+        4
+      ],
+      "pure": 2,
+      "shifted": "B",
+      "shift_integer": 5,
+      "half_right_pair_lower": "2",
+      "half_right_pure": "15/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        2,
+        4
+      ],
+      "B": [
+        0,
+        2,
+        4
+      ],
+      "pure": 2,
+      "shifted": "A",
+      "shift_integer": 4,
+      "half_right_pair_lower": "13/2",
+      "half_right_pure": "2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        2,
+        4
+      ],
+      "B": [
+        0,
+        3,
+        4
+      ],
+      "pure": 3,
+      "shifted": "B",
+      "shift_integer": 5,
+      "half_right_pair_lower": "2",
+      "half_right_pure": "17/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": [
+        2,
+        4
+      ],
+      "B": [
+        0,
+        3,
+        4
+      ],
+      "pure": 3,
+      "shifted": "A",
+      "shift_integer": 4,
+      "half_right_pair_lower": "13/2",
+      "half_right_pure": "3",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        1,
+        2
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 6,
+      "half_right_pair_lower": "1",
+      "half_right_pure": "15/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        1,
+        2
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 2,
+      "half_right_pair_lower": "7/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        1,
+        3
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 6,
+      "half_right_pair_lower": "1",
+      "half_right_pure": "15/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        1,
+        3
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 3,
+      "half_right_pair_lower": "9/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        1,
+        4
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 6,
+      "half_right_pair_lower": "1",
+      "half_right_pure": "15/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        1,
+        4
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 4,
+      "half_right_pair_lower": "11/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        2,
+        3
+      ],
+      "pure": 2,
+      "shifted": "B",
+      "shift_integer": 4,
+      "half_right_pair_lower": "1",
+      "half_right_pure": "13/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        2,
+        3
+      ],
+      "pure": 2,
+      "shifted": "A",
+      "shift_integer": 3,
+      "half_right_pair_lower": "9/2",
+      "half_right_pure": "2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        2,
+        4
+      ],
+      "pure": 2,
+      "shifted": "B",
+      "shift_integer": 4,
+      "half_right_pair_lower": "1",
+      "half_right_pure": "13/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        2,
+        4
+      ],
+      "pure": 2,
+      "shifted": "A",
+      "shift_integer": 4,
+      "half_right_pair_lower": "11/2",
+      "half_right_pure": "2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        3,
+        4
+      ],
+      "pure": 3,
+      "shifted": "B",
+      "shift_integer": 4,
+      "half_right_pair_lower": "1",
+      "half_right_pure": "15/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        3,
+        4
+      ],
+      "pure": 3,
+      "shifted": "A",
+      "shift_integer": 4,
+      "half_right_pair_lower": "11/2",
+      "half_right_pure": "3",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "S": [
+        1,
+        4
+      ],
+      "B": [
+        0,
+        1,
+        2
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 6,
+      "half_right_pair_lower": "1",
+      "half_right_pure": "15/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        4,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "S": [
+        1,
+        4
+      ],
+      "B": [
+        0,
+        1,
+        2
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 2,
+      "half_right_pair_lower": "7/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "S": [
+        1,
+        4
+      ],
+      "B": [
+        0,
+        1,
+        3
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 6,
+      "half_right_pair_lower": "1",
+      "half_right_pure": "15/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        4,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "S": [
+        1,
+        4
+      ],
+      "B": [
+        0,
+        1,
+        3
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 3,
+      "half_right_pair_lower": "9/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "S": [
+        1,
+        4
+      ],
+      "B": [
+        0,
+        1,
+        4
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 6,
+      "half_right_pair_lower": "1",
+      "half_right_pure": "15/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        4,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "S": [
+        1,
+        4
+      ],
+      "B": [
+        0,
+        1,
+        4
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 4,
+      "half_right_pair_lower": "11/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "S": [
+        1,
+        4
+      ],
+      "B": [
+        0,
+        2,
+        3
+      ],
+      "pure": 2,
+      "shifted": "B",
+      "shift_integer": 4,
+      "half_right_pair_lower": "1",
+      "half_right_pure": "13/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        4,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "S": [
+        1,
+        4
+      ],
+      "B": [
+        0,
+        2,
+        3
+      ],
+      "pure": 2,
+      "shifted": "A",
+      "shift_integer": 3,
+      "half_right_pair_lower": "9/2",
+      "half_right_pure": "2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "S": [
+        1,
+        4
+      ],
+      "B": [
+        0,
+        2,
+        4
+      ],
+      "pure": 2,
+      "shifted": "B",
+      "shift_integer": 4,
+      "half_right_pair_lower": "1",
+      "half_right_pure": "13/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        4,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "S": [
+        1,
+        4
+      ],
+      "B": [
+        0,
+        2,
+        4
+      ],
+      "pure": 2,
+      "shifted": "A",
+      "shift_integer": 4,
+      "half_right_pair_lower": "11/2",
+      "half_right_pure": "2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "S": [
+        1,
+        4
+      ],
+      "B": [
+        0,
+        3,
+        4
+      ],
+      "pure": 3,
+      "shifted": "B",
+      "shift_integer": 4,
+      "half_right_pair_lower": "1",
+      "half_right_pure": "15/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        4,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "S": [
+        1,
+        4
+      ],
+      "B": [
+        0,
+        3,
+        4
+      ],
+      "pure": 3,
+      "shifted": "A",
+      "shift_integer": 4,
+      "half_right_pair_lower": "11/2",
+      "half_right_pure": "3",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        1,
+        2
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 7,
+      "half_right_pair_lower": "1",
+      "half_right_pure": "17/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        1,
+        2
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 2,
+      "half_right_pair_lower": "7/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        1,
+        3
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 4,
+      "half_right_pair_lower": "1",
+      "half_right_pure": "11/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        1,
+        3
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 3,
+      "half_right_pair_lower": "9/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        1,
+        4
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 4,
+      "half_right_pair_lower": "1",
+      "half_right_pure": "11/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        1,
+        4
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 4,
+      "half_right_pair_lower": "11/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        2,
+        3
+      ],
+      "pure": 2,
+      "shifted": "B",
+      "shift_integer": 5,
+      "half_right_pair_lower": "1",
+      "half_right_pure": "15/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        2,
+        3
+      ],
+      "pure": 2,
+      "shifted": "A",
+      "shift_integer": 3,
+      "half_right_pair_lower": "9/2",
+      "half_right_pure": "2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        2,
+        4
+      ],
+      "pure": 2,
+      "shifted": "B",
+      "shift_integer": 5,
+      "half_right_pair_lower": "1",
+      "half_right_pure": "15/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        2,
+        4
+      ],
+      "pure": 2,
+      "shifted": "A",
+      "shift_integer": 4,
+      "half_right_pair_lower": "11/2",
+      "half_right_pure": "2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        3,
+        4
+      ],
+      "pure": 3,
+      "shifted": "B",
+      "shift_integer": 4,
+      "half_right_pair_lower": "1",
+      "half_right_pure": "15/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "S": [
+        1,
+        3
+      ],
+      "B": [
+        0,
+        3,
+        4
+      ],
+      "pure": 3,
+      "shifted": "A",
+      "shift_integer": 4,
+      "half_right_pair_lower": "11/2",
+      "half_right_pure": "3",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "S": [
+        1,
+        4
+      ],
+      "B": [
+        0,
+        1,
+        2
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 7,
+      "half_right_pair_lower": "1",
+      "half_right_pure": "17/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        4,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "S": [
+        1,
+        4
+      ],
+      "B": [
+        0,
+        1,
+        2
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 2,
+      "half_right_pair_lower": "7/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "S": [
+        1,
+        4
+      ],
+      "B": [
+        0,
+        1,
+        3
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 4,
+      "half_right_pair_lower": "1",
+      "half_right_pure": "11/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        4,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "S": [
+        1,
+        4
+      ],
+      "B": [
+        0,
+        1,
+        3
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 3,
+      "half_right_pair_lower": "9/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "S": [
+        1,
+        4
+      ],
+      "B": [
+        0,
+        1,
+        4
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 4,
+      "half_right_pair_lower": "1",
+      "half_right_pure": "11/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        4,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "S": [
+        1,
+        4
+      ],
+      "B": [
+        0,
+        1,
+        4
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 4,
+      "half_right_pair_lower": "11/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "S": [
+        1,
+        4
+      ],
+      "B": [
+        0,
+        2,
+        3
+      ],
+      "pure": 2,
+      "shifted": "B",
+      "shift_integer": 5,
+      "half_right_pair_lower": "1",
+      "half_right_pure": "15/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        4,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "S": [
+        1,
+        4
+      ],
+      "B": [
+        0,
+        2,
+        3
+      ],
+      "pure": 2,
+      "shifted": "A",
+      "shift_integer": 3,
+      "half_right_pair_lower": "9/2",
+      "half_right_pure": "2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "S": [
+        1,
+        4
+      ],
+      "B": [
+        0,
+        2,
+        4
+      ],
+      "pure": 2,
+      "shifted": "B",
+      "shift_integer": 5,
+      "half_right_pair_lower": "1",
+      "half_right_pure": "15/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        4,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "S": [
+        1,
+        4
+      ],
+      "B": [
+        0,
+        2,
+        4
+      ],
+      "pure": 2,
+      "shifted": "A",
+      "shift_integer": 4,
+      "half_right_pair_lower": "11/2",
+      "half_right_pure": "2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "S": [
+        1,
+        4
+      ],
+      "B": [
+        0,
+        3,
+        4
+      ],
+      "pure": 3,
+      "shifted": "B",
+      "shift_integer": 4,
+      "half_right_pair_lower": "1",
+      "half_right_pure": "15/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        4,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "S": [
+        1,
+        4
+      ],
+      "B": [
+        0,
+        3,
+        4
+      ],
+      "pure": 3,
+      "shifted": "A",
+      "shift_integer": 4,
+      "half_right_pair_lower": "11/2",
+      "half_right_pure": "3",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "S": [
+        2,
+        5
+      ],
+      "B": [
+        0,
+        1,
+        2
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 6,
+      "half_right_pair_lower": "2",
+      "half_right_pure": "15/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        4,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "S": [
+        2,
+        5
+      ],
+      "B": [
+        0,
+        1,
+        2
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 2,
+      "half_right_pair_lower": "9/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "S": [
+        2,
+        5
+      ],
+      "B": [
+        0,
+        1,
+        3
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 6,
+      "half_right_pair_lower": "2",
+      "half_right_pure": "15/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        4,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "S": [
+        2,
+        5
+      ],
+      "B": [
+        0,
+        1,
+        3
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 1,
+      "half_right_pair_lower": "7/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "S": [
+        2,
+        5
+      ],
+      "B": [
+        0,
+        1,
+        4
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 6,
+      "half_right_pair_lower": "2",
+      "half_right_pure": "15/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        4,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "S": [
+        2,
+        5
+      ],
+      "B": [
+        0,
+        1,
+        4
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 2,
+      "half_right_pair_lower": "9/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "S": [
+        2,
+        5
+      ],
+      "B": [
+        0,
+        2,
+        3
+      ],
+      "pure": 2,
+      "shifted": "B",
+      "shift_integer": 6,
+      "half_right_pair_lower": "2",
+      "half_right_pure": "17/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        4,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "S": [
+        2,
+        5
+      ],
+      "B": [
+        0,
+        2,
+        3
+      ],
+      "pure": 2,
+      "shifted": "A",
+      "shift_integer": 3,
+      "half_right_pair_lower": "11/2",
+      "half_right_pure": "2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "S": [
+        2,
+        5
+      ],
+      "B": [
+        0,
+        2,
+        4
+      ],
+      "pure": 2,
+      "shifted": "B",
+      "shift_integer": 6,
+      "half_right_pair_lower": "2",
+      "half_right_pure": "17/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        4,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "S": [
+        2,
+        5
+      ],
+      "B": [
+        0,
+        2,
+        4
+      ],
+      "pure": 2,
+      "shifted": "A",
+      "shift_integer": 2,
+      "half_right_pair_lower": "9/2",
+      "half_right_pure": "2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "S": [
+        2,
+        5
+      ],
+      "B": [
+        0,
+        3,
+        4
+      ],
+      "pure": 3,
+      "shifted": "B",
+      "shift_integer": 6,
+      "half_right_pair_lower": "2",
+      "half_right_pure": "19/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        4,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "S": [
+        2,
+        5
+      ],
+      "B": [
+        0,
+        3,
+        4
+      ],
+      "pure": 3,
+      "shifted": "A",
+      "shift_integer": 4,
+      "half_right_pair_lower": "13/2",
+      "half_right_pure": "3",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "S": [
+        3,
+        5
+      ],
+      "B": [
+        0,
+        1,
+        2
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 6,
+      "half_right_pair_lower": "3",
+      "half_right_pure": "15/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "S": [
+        3,
+        5
+      ],
+      "B": [
+        0,
+        1,
+        2
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 2,
+      "half_right_pair_lower": "11/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "S": [
+        3,
+        5
+      ],
+      "B": [
+        0,
+        1,
+        3
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 6,
+      "half_right_pair_lower": "3",
+      "half_right_pure": "15/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "S": [
+        3,
+        5
+      ],
+      "B": [
+        0,
+        1,
+        3
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 1,
+      "half_right_pair_lower": "9/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "S": [
+        3,
+        5
+      ],
+      "B": [
+        0,
+        1,
+        4
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 6,
+      "half_right_pair_lower": "3",
+      "half_right_pure": "15/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "S": [
+        3,
+        5
+      ],
+      "B": [
+        0,
+        1,
+        4
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 2,
+      "half_right_pair_lower": "11/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "S": [
+        3,
+        5
+      ],
+      "B": [
+        0,
+        2,
+        3
+      ],
+      "pure": 2,
+      "shifted": "B",
+      "shift_integer": 6,
+      "half_right_pair_lower": "3",
+      "half_right_pure": "17/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "S": [
+        3,
+        5
+      ],
+      "B": [
+        0,
+        2,
+        3
+      ],
+      "pure": 2,
+      "shifted": "A",
+      "shift_integer": 3,
+      "half_right_pair_lower": "13/2",
+      "half_right_pure": "2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "S": [
+        3,
+        5
+      ],
+      "B": [
+        0,
+        2,
+        4
+      ],
+      "pure": 2,
+      "shifted": "B",
+      "shift_integer": 6,
+      "half_right_pair_lower": "3",
+      "half_right_pure": "17/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "S": [
+        3,
+        5
+      ],
+      "B": [
+        0,
+        2,
+        4
+      ],
+      "pure": 2,
+      "shifted": "A",
+      "shift_integer": 2,
+      "half_right_pair_lower": "11/2",
+      "half_right_pure": "2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "S": [
+        3,
+        5
+      ],
+      "B": [
+        0,
+        3,
+        4
+      ],
+      "pure": 3,
+      "shifted": "B",
+      "shift_integer": 6,
+      "half_right_pair_lower": "3",
+      "half_right_pure": "19/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "S": [
+        3,
+        5
+      ],
+      "B": [
+        0,
+        3,
+        4
+      ],
+      "pure": 3,
+      "shifted": "A",
+      "shift_integer": 4,
+      "half_right_pair_lower": "15/2",
+      "half_right_pure": "3",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "S": [
+        2,
+        5
+      ],
+      "B": [
+        0,
+        1,
+        2
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 7,
+      "half_right_pair_lower": "2",
+      "half_right_pure": "17/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        4,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "S": [
+        2,
+        5
+      ],
+      "B": [
+        0,
+        1,
+        2
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 2,
+      "half_right_pair_lower": "9/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "S": [
+        2,
+        5
+      ],
+      "B": [
+        0,
+        1,
+        3
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 7,
+      "half_right_pair_lower": "2",
+      "half_right_pure": "17/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        4,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "S": [
+        2,
+        5
+      ],
+      "B": [
+        0,
+        1,
+        3
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 1,
+      "half_right_pair_lower": "7/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "S": [
+        2,
+        5
+      ],
+      "B": [
+        0,
+        1,
+        4
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 7,
+      "half_right_pair_lower": "2",
+      "half_right_pure": "17/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        4,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "S": [
+        2,
+        5
+      ],
+      "B": [
+        0,
+        1,
+        4
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 2,
+      "half_right_pair_lower": "9/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "S": [
+        2,
+        5
+      ],
+      "B": [
+        0,
+        2,
+        3
+      ],
+      "pure": 2,
+      "shifted": "B",
+      "shift_integer": 5,
+      "half_right_pair_lower": "2",
+      "half_right_pure": "15/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        4,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "S": [
+        2,
+        5
+      ],
+      "B": [
+        0,
+        2,
+        3
+      ],
+      "pure": 2,
+      "shifted": "A",
+      "shift_integer": 3,
+      "half_right_pair_lower": "11/2",
+      "half_right_pure": "2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "S": [
+        2,
+        5
+      ],
+      "B": [
+        0,
+        2,
+        4
+      ],
+      "pure": 2,
+      "shifted": "B",
+      "shift_integer": 5,
+      "half_right_pair_lower": "2",
+      "half_right_pure": "15/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        4,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "S": [
+        2,
+        5
+      ],
+      "B": [
+        0,
+        2,
+        4
+      ],
+      "pure": 2,
+      "shifted": "A",
+      "shift_integer": 2,
+      "half_right_pair_lower": "9/2",
+      "half_right_pure": "2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "S": [
+        2,
+        5
+      ],
+      "B": [
+        0,
+        3,
+        4
+      ],
+      "pure": 3,
+      "shifted": "B",
+      "shift_integer": 5,
+      "half_right_pair_lower": "2",
+      "half_right_pure": "17/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        4,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "S": [
+        2,
+        5
+      ],
+      "B": [
+        0,
+        3,
+        4
+      ],
+      "pure": 3,
+      "shifted": "A",
+      "shift_integer": 4,
+      "half_right_pair_lower": "13/2",
+      "half_right_pure": "3",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "S": [
+        2,
+        5
+      ],
+      "B": [
+        0,
+        1,
+        2
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 8,
+      "half_right_pair_lower": "2",
+      "half_right_pure": "19/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        4,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "S": [
+        2,
+        5
+      ],
+      "B": [
+        0,
+        1,
+        2
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 2,
+      "half_right_pair_lower": "9/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "S": [
+        2,
+        5
+      ],
+      "B": [
+        0,
+        1,
+        3
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 5,
+      "half_right_pair_lower": "2",
+      "half_right_pure": "13/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        4,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "S": [
+        2,
+        5
+      ],
+      "B": [
+        0,
+        1,
+        3
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 1,
+      "half_right_pair_lower": "7/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "S": [
+        2,
+        5
+      ],
+      "B": [
+        0,
+        1,
+        4
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 5,
+      "half_right_pair_lower": "2",
+      "half_right_pure": "13/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        4,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "S": [
+        2,
+        5
+      ],
+      "B": [
+        0,
+        1,
+        4
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 2,
+      "half_right_pair_lower": "9/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "S": [
+        2,
+        5
+      ],
+      "B": [
+        0,
+        2,
+        3
+      ],
+      "pure": 2,
+      "shifted": "B",
+      "shift_integer": 6,
+      "half_right_pair_lower": "2",
+      "half_right_pure": "17/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        4,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "S": [
+        2,
+        5
+      ],
+      "B": [
+        0,
+        2,
+        3
+      ],
+      "pure": 2,
+      "shifted": "A",
+      "shift_integer": 3,
+      "half_right_pair_lower": "11/2",
+      "half_right_pure": "2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "S": [
+        2,
+        5
+      ],
+      "B": [
+        0,
+        2,
+        4
+      ],
+      "pure": 2,
+      "shifted": "B",
+      "shift_integer": 6,
+      "half_right_pair_lower": "2",
+      "half_right_pure": "17/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        4,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "S": [
+        2,
+        5
+      ],
+      "B": [
+        0,
+        2,
+        4
+      ],
+      "pure": 2,
+      "shifted": "A",
+      "shift_integer": 2,
+      "half_right_pair_lower": "9/2",
+      "half_right_pure": "2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "S": [
+        2,
+        5
+      ],
+      "B": [
+        0,
+        3,
+        4
+      ],
+      "pure": 3,
+      "shifted": "B",
+      "shift_integer": 5,
+      "half_right_pair_lower": "2",
+      "half_right_pure": "17/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        4,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "S": [
+        2,
+        5
+      ],
+      "B": [
+        0,
+        3,
+        4
+      ],
+      "pure": 3,
+      "shifted": "A",
+      "shift_integer": 4,
+      "half_right_pair_lower": "13/2",
+      "half_right_pure": "3",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "S": [
+        3,
+        6
+      ],
+      "B": [
+        0,
+        1,
+        2
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 7,
+      "half_right_pair_lower": "3",
+      "half_right_pure": "17/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "S": [
+        3,
+        6
+      ],
+      "B": [
+        0,
+        1,
+        2
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 2,
+      "half_right_pair_lower": "11/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "S": [
+        3,
+        6
+      ],
+      "B": [
+        0,
+        1,
+        3
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 7,
+      "half_right_pair_lower": "3",
+      "half_right_pure": "17/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "S": [
+        3,
+        6
+      ],
+      "B": [
+        0,
+        1,
+        3
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 1,
+      "half_right_pair_lower": "9/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "S": [
+        3,
+        6
+      ],
+      "B": [
+        0,
+        1,
+        4
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 7,
+      "half_right_pair_lower": "3",
+      "half_right_pure": "17/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "S": [
+        3,
+        6
+      ],
+      "B": [
+        0,
+        1,
+        4
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 1,
+      "half_right_pair_lower": "9/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "S": [
+        3,
+        6
+      ],
+      "B": [
+        0,
+        2,
+        3
+      ],
+      "pure": 2,
+      "shifted": "B",
+      "shift_integer": 7,
+      "half_right_pair_lower": "3",
+      "half_right_pure": "19/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "S": [
+        3,
+        6
+      ],
+      "B": [
+        0,
+        2,
+        3
+      ],
+      "pure": 2,
+      "shifted": "A",
+      "shift_integer": 0,
+      "half_right_pair_lower": "7/2",
+      "half_right_pure": "2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "S": [
+        3,
+        6
+      ],
+      "B": [
+        0,
+        2,
+        4
+      ],
+      "pure": 2,
+      "shifted": "B",
+      "shift_integer": 7,
+      "half_right_pair_lower": "3",
+      "half_right_pure": "19/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "S": [
+        3,
+        6
+      ],
+      "B": [
+        0,
+        2,
+        4
+      ],
+      "pure": 2,
+      "shifted": "A",
+      "shift_integer": 2,
+      "half_right_pair_lower": "11/2",
+      "half_right_pure": "2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "S": [
+        3,
+        6
+      ],
+      "B": [
+        0,
+        3,
+        4
+      ],
+      "pure": 3,
+      "shifted": "B",
+      "shift_integer": 7,
+      "half_right_pair_lower": "3",
+      "half_right_pure": "21/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "S": [
+        3,
+        6
+      ],
+      "B": [
+        0,
+        3,
+        4
+      ],
+      "pure": 3,
+      "shifted": "A",
+      "shift_integer": 1,
+      "half_right_pair_lower": "9/2",
+      "half_right_pure": "3",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "S": [
+        4,
+        6
+      ],
+      "B": [
+        0,
+        1,
+        2
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 7,
+      "half_right_pair_lower": "4",
+      "half_right_pure": "17/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "S": [
+        4,
+        6
+      ],
+      "B": [
+        0,
+        1,
+        2
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 2,
+      "half_right_pair_lower": "13/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "S": [
+        4,
+        6
+      ],
+      "B": [
+        0,
+        1,
+        3
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 7,
+      "half_right_pair_lower": "4",
+      "half_right_pure": "17/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "S": [
+        4,
+        6
+      ],
+      "B": [
+        0,
+        1,
+        3
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 1,
+      "half_right_pair_lower": "11/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "S": [
+        4,
+        6
+      ],
+      "B": [
+        0,
+        1,
+        4
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 7,
+      "half_right_pair_lower": "4",
+      "half_right_pure": "17/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "S": [
+        4,
+        6
+      ],
+      "B": [
+        0,
+        1,
+        4
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 1,
+      "half_right_pair_lower": "11/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "S": [
+        4,
+        6
+      ],
+      "B": [
+        0,
+        2,
+        3
+      ],
+      "pure": 2,
+      "shifted": "B",
+      "shift_integer": 7,
+      "half_right_pair_lower": "4",
+      "half_right_pure": "19/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "S": [
+        4,
+        6
+      ],
+      "B": [
+        0,
+        2,
+        3
+      ],
+      "pure": 2,
+      "shifted": "A",
+      "shift_integer": 0,
+      "half_right_pair_lower": "9/2",
+      "half_right_pure": "2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "S": [
+        4,
+        6
+      ],
+      "B": [
+        0,
+        2,
+        4
+      ],
+      "pure": 2,
+      "shifted": "B",
+      "shift_integer": 7,
+      "half_right_pair_lower": "4",
+      "half_right_pure": "19/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "S": [
+        4,
+        6
+      ],
+      "B": [
+        0,
+        2,
+        4
+      ],
+      "pure": 2,
+      "shifted": "A",
+      "shift_integer": 2,
+      "half_right_pair_lower": "13/2",
+      "half_right_pure": "2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "S": [
+        4,
+        6
+      ],
+      "B": [
+        0,
+        3,
+        4
+      ],
+      "pure": 3,
+      "shifted": "B",
+      "shift_integer": 7,
+      "half_right_pair_lower": "4",
+      "half_right_pure": "21/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pure_index": 2
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "S": [
+        4,
+        6
+      ],
+      "B": [
+        0,
+        3,
+        4
+      ],
+      "pure": 3,
+      "shifted": "A",
+      "shift_integer": 1,
+      "half_right_pair_lower": "11/2",
+      "half_right_pure": "3",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "target_support": [
+        1,
+        3,
+        5
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        8
+      ],
+      "S": [
+        3,
+        6
+      ],
+      "B": [
+        0,
+        1,
+        2
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 8,
+      "half_right_pair_lower": "3",
+      "half_right_pure": "19/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        8
+      ],
+      "S": [
+        3,
+        6
+      ],
+      "B": [
+        0,
+        1,
+        2
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 2,
+      "half_right_pair_lower": "11/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        8
+      ],
+      "S": [
+        3,
+        6
+      ],
+      "B": [
+        0,
+        1,
+        3
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 8,
+      "half_right_pair_lower": "3",
+      "half_right_pure": "19/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        8
+      ],
+      "S": [
+        3,
+        6
+      ],
+      "B": [
+        0,
+        1,
+        3
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 1,
+      "half_right_pair_lower": "9/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        8
+      ],
+      "S": [
+        3,
+        6
+      ],
+      "B": [
+        0,
+        1,
+        4
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 8,
+      "half_right_pair_lower": "3",
+      "half_right_pure": "19/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        8
+      ],
+      "S": [
+        3,
+        6
+      ],
+      "B": [
+        0,
+        1,
+        4
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 1,
+      "half_right_pair_lower": "9/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        8
+      ],
+      "S": [
+        3,
+        6
+      ],
+      "B": [
+        0,
+        2,
+        3
+      ],
+      "pure": 2,
+      "shifted": "B",
+      "shift_integer": 6,
+      "half_right_pair_lower": "3",
+      "half_right_pure": "17/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        8
+      ],
+      "S": [
+        3,
+        6
+      ],
+      "B": [
+        0,
+        2,
+        3
+      ],
+      "pure": 2,
+      "shifted": "A",
+      "shift_integer": 0,
+      "half_right_pair_lower": "7/2",
+      "half_right_pure": "2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        8
+      ],
+      "S": [
+        3,
+        6
+      ],
+      "B": [
+        0,
+        2,
+        4
+      ],
+      "pure": 2,
+      "shifted": "B",
+      "shift_integer": 6,
+      "half_right_pair_lower": "3",
+      "half_right_pure": "17/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        8
+      ],
+      "S": [
+        3,
+        6
+      ],
+      "B": [
+        0,
+        2,
+        4
+      ],
+      "pure": 2,
+      "shifted": "A",
+      "shift_integer": 2,
+      "half_right_pair_lower": "11/2",
+      "half_right_pure": "2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        8
+      ],
+      "S": [
+        3,
+        6
+      ],
+      "B": [
+        0,
+        3,
+        4
+      ],
+      "pure": 3,
+      "shifted": "B",
+      "shift_integer": 6,
+      "half_right_pair_lower": "3",
+      "half_right_pure": "19/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        8
+      ],
+      "S": [
+        3,
+        6
+      ],
+      "B": [
+        0,
+        3,
+        4
+      ],
+      "pure": 3,
+      "shifted": "A",
+      "shift_integer": 1,
+      "half_right_pair_lower": "9/2",
+      "half_right_pure": "3",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        9
+      ],
+      "S": [
+        3,
+        6
+      ],
+      "B": [
+        0,
+        1,
+        2
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 9,
+      "half_right_pair_lower": "3",
+      "half_right_pure": "21/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        9
+      ],
+      "S": [
+        3,
+        6
+      ],
+      "B": [
+        0,
+        1,
+        2
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 2,
+      "half_right_pair_lower": "11/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        9
+      ],
+      "S": [
+        3,
+        6
+      ],
+      "B": [
+        0,
+        1,
+        3
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 6,
+      "half_right_pair_lower": "3",
+      "half_right_pure": "15/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        9
+      ],
+      "S": [
+        3,
+        6
+      ],
+      "B": [
+        0,
+        1,
+        3
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 1,
+      "half_right_pair_lower": "9/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        9
+      ],
+      "S": [
+        3,
+        6
+      ],
+      "B": [
+        0,
+        1,
+        4
+      ],
+      "pure": 1,
+      "shifted": "B",
+      "shift_integer": 6,
+      "half_right_pair_lower": "3",
+      "half_right_pure": "15/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        9
+      ],
+      "S": [
+        3,
+        6
+      ],
+      "B": [
+        0,
+        1,
+        4
+      ],
+      "pure": 1,
+      "shifted": "A",
+      "shift_integer": 1,
+      "half_right_pair_lower": "9/2",
+      "half_right_pure": "1",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        9
+      ],
+      "S": [
+        3,
+        6
+      ],
+      "B": [
+        0,
+        2,
+        3
+      ],
+      "pure": 2,
+      "shifted": "B",
+      "shift_integer": 7,
+      "half_right_pair_lower": "3",
+      "half_right_pure": "19/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        9
+      ],
+      "S": [
+        3,
+        6
+      ],
+      "B": [
+        0,
+        2,
+        3
+      ],
+      "pure": 2,
+      "shifted": "A",
+      "shift_integer": 0,
+      "half_right_pair_lower": "7/2",
+      "half_right_pure": "2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        9
+      ],
+      "S": [
+        3,
+        6
+      ],
+      "B": [
+        0,
+        2,
+        4
+      ],
+      "pure": 2,
+      "shifted": "B",
+      "shift_integer": 7,
+      "half_right_pair_lower": "3",
+      "half_right_pure": "19/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        9
+      ],
+      "S": [
+        3,
+        6
+      ],
+      "B": [
+        0,
+        2,
+        4
+      ],
+      "pure": 2,
+      "shifted": "A",
+      "shift_integer": 2,
+      "half_right_pair_lower": "11/2",
+      "half_right_pure": "2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        9
+      ],
+      "S": [
+        3,
+        6
+      ],
+      "B": [
+        0,
+        3,
+        4
+      ],
+      "pure": 3,
+      "shifted": "B",
+      "shift_integer": 6,
+      "half_right_pair_lower": "3",
+      "half_right_pure": "19/2",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    },
+    {
+      "A": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        9
+      ],
+      "S": [
+        3,
+        6
+      ],
+      "B": [
+        0,
+        3,
+        4
+      ],
+      "pure": 3,
+      "shifted": "A",
+      "shift_integer": 1,
+      "half_right_pair_lower": "9/2",
+      "half_right_pure": "3",
+      "target_spectrum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "target_support": [
+        1,
+        3,
+        6
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pure_index": 0
+    }
+  ],
+  "physical_controls": 1020,
+  "temperature": "1/2",
+  "half_spacing_curve": [
+    {
+      "lo": "1",
+      "hi": "6/5",
+      "slope": "-1/4",
+      "intercept": "3/4"
+    },
+    {
+      "lo": "6/5",
+      "hi": "113/91",
+      "slope": "-9/76",
+      "intercept": "45/76"
+    },
+    {
+      "lo": "113/91",
+      "hi": "256/205",
+      "slope": "-81/1048",
+      "intercept": "567/1048"
+    },
+    {
+      "lo": "256/205",
+      "hi": "13307/10250",
+      "slope": "0",
+      "intercept": "729/1640"
+    },
+    {
+      "lo": "13307/10250",
+      "hi": "127/85",
+      "slope": "-25/1468",
+      "intercept": "685/1468"
+    },
+    {
+      "lo": "127/85",
+      "hi": "1117/743",
+      "slope": "-25/584",
+      "intercept": "295/584"
+    },
+    {
+      "lo": "1117/743",
+      "hi": "79/45",
+      "slope": "-2/17",
+      "intercept": "21/34"
+    },
+    {
+      "lo": "79/45",
+      "hi": "11/5",
+      "slope": "-1/4",
+      "intercept": "17/20"
+    },
+    {
+      "lo": "11/5",
+      "hi": "19/8",
+      "slope": "-3/28",
+      "intercept": "15/28"
+    },
+    {
+      "lo": "19/8",
+      "hi": "349/145",
+      "slope": "-9/148",
+      "intercept": "63/148"
+    },
+    {
+      "lo": "349/145",
+      "hi": "89/29",
+      "slope": "0",
+      "intercept": "81/290"
+    },
+    {
+      "lo": "89/29",
+      "hi": "67/19",
+      "slope": "-13/140",
+      "intercept": "79/140"
+    },
+    {
+      "lo": "67/19",
+      "hi": "37/10",
+      "slope": "-3/44",
+      "intercept": "21/44"
+    },
+    {
+      "lo": "37/10",
+      "hi": "65/14",
+      "slope": "0",
+      "intercept": "9/40"
+    },
+    {
+      "lo": "65/14",
+      "hi": "323/65",
+      "slope": "-7/132",
+      "intercept": "311/660"
+    },
+    {
+      "lo": "323/65",
+      "hi": null,
+      "slope": "0",
+      "intercept": "27/130"
+    }
+  ],
+  "wide_spacing_curve": [
+    {
+      "lo": "1",
+      "hi": "6/5",
+      "slope": "-1/4",
+      "intercept": "3/4"
+    },
+    {
+      "lo": "6/5",
+      "hi": "113/91",
+      "slope": "-9/76",
+      "intercept": "45/76"
+    },
+    {
+      "lo": "113/91",
+      "hi": "256/205",
+      "slope": "-81/1048",
+      "intercept": "567/1048"
+    },
+    {
+      "lo": "256/205",
+      "hi": "13307/10250",
+      "slope": "0",
+      "intercept": "729/1640"
+    },
+    {
+      "lo": "13307/10250",
+      "hi": "127/85",
+      "slope": "-25/1468",
+      "intercept": "685/1468"
+    },
+    {
+      "lo": "127/85",
+      "hi": "1007/605",
+      "slope": "-25/584",
+      "intercept": "295/584"
+    },
+    {
+      "lo": "1007/605",
+      "hi": "11/5",
+      "slope": "-1/4",
+      "intercept": "17/20"
+    },
+    {
+      "lo": "11/5",
+      "hi": "19/8",
+      "slope": "-3/28",
+      "intercept": "15/28"
+    },
+    {
+      "lo": "19/8",
+      "hi": "349/145",
+      "slope": "-9/148",
+      "intercept": "63/148"
+    },
+    {
+      "lo": "349/145",
+      "hi": "89/29",
+      "slope": "0",
+      "intercept": "81/290"
+    },
+    {
+      "lo": "89/29",
+      "hi": "67/19",
+      "slope": "-13/140",
+      "intercept": "79/140"
+    },
+    {
+      "lo": "67/19",
+      "hi": "37/10",
+      "slope": "-3/44",
+      "intercept": "21/44"
+    },
+    {
+      "lo": "37/10",
+      "hi": "65/14",
+      "slope": "0",
+      "intercept": "9/40"
+    },
+    {
+      "lo": "65/14",
+      "hi": "323/65",
+      "slope": "-7/132",
+      "intercept": "311/660"
+    },
+    {
+      "lo": "323/65",
+      "hi": null,
+      "slope": "0",
+      "intercept": "27/130"
+    }
+  ],
+  "half_right_jump": [
+    {
+      "lo": "1",
+      "hi": "6/5",
+      "jump_slope": "0",
+      "jump_intercept": "0"
+    },
+    {
+      "lo": "6/5",
+      "hi": "113/91",
+      "jump_slope": "0",
+      "jump_intercept": "0"
+    },
+    {
+      "lo": "113/91",
+      "hi": "256/205",
+      "jump_slope": "0",
+      "jump_intercept": "0"
+    },
+    {
+      "lo": "256/205",
+      "hi": "13307/10250",
+      "jump_slope": "0",
+      "jump_intercept": "0"
+    },
+    {
+      "lo": "13307/10250",
+      "hi": "127/85",
+      "jump_slope": "0",
+      "jump_intercept": "0"
+    },
+    {
+      "lo": "127/85",
+      "hi": "1117/743",
+      "jump_slope": "0",
+      "jump_intercept": "0"
+    },
+    {
+      "lo": "1117/743",
+      "hi": "1007/605",
+      "jump_slope": "743/9928",
+      "jump_intercept": "-1117/9928"
+    },
+    {
+      "lo": "1007/605",
+      "hi": "79/45",
+      "jump_slope": "-9/68",
+      "jump_intercept": "79/340"
+    },
+    {
+      "lo": "79/45",
+      "hi": "11/5",
+      "jump_slope": "0",
+      "jump_intercept": "0"
+    },
+    {
+      "lo": "11/5",
+      "hi": "19/8",
+      "jump_slope": "0",
+      "jump_intercept": "0"
+    },
+    {
+      "lo": "19/8",
+      "hi": "349/145",
+      "jump_slope": "0",
+      "jump_intercept": "0"
+    },
+    {
+      "lo": "349/145",
+      "hi": "89/29",
+      "jump_slope": "0",
+      "jump_intercept": "0"
+    },
+    {
+      "lo": "89/29",
+      "hi": "67/19",
+      "jump_slope": "0",
+      "jump_intercept": "0"
+    },
+    {
+      "lo": "67/19",
+      "hi": "37/10",
+      "jump_slope": "0",
+      "jump_intercept": "0"
+    },
+    {
+      "lo": "37/10",
+      "hi": "65/14",
+      "jump_slope": "0",
+      "jump_intercept": "0"
+    },
+    {
+      "lo": "65/14",
+      "hi": "323/65",
+      "jump_slope": "0",
+      "jump_intercept": "0"
+    },
+    {
+      "lo": "323/65",
+      "hi": null,
+      "jump_slope": "0",
+      "jump_intercept": "0"
+    }
+  ],
+  "budget_controls": [
+    {
+      "energy": "7/5",
+      "half": "325/734",
+      "wide": "325/734",
+      "jump": "0"
+    },
+    {
+      "energy": "18/11",
+      "half": "159/374",
+      "wide": "2795/6424",
+      "jump": "1087/109208"
+    },
+    {
+      "energy": "2",
+      "half": "7/20",
+      "wide": "7/20",
+      "jump": "0"
+    },
+    {
+      "energy": "3",
+      "half": "81/290",
+      "wide": "81/290",
+      "jump": "0"
+    },
+    {
+      "energy": "4",
+      "half": "9/40",
+      "wide": "9/40",
+      "jump": "0"
+    },
+    {
+      "energy": "5",
+      "half": "27/130",
+      "wide": "27/130",
+      "jump": "0"
+    }
+  ],
+  "scope": "For all0<t<1,E>=1,1/2<delta<=1, F9(delta,E,t)=F9(1,E,t), computed by connected integer spectra. General positive-spacing fixed-d finite actual-spectrum algorithm and rational optimal energy/populations/value at rational delta,E,t follow from reused K1978 potentials plus shell realization. No efficient complexity, all-d closed curve, rational unitary, GU or novelty claim.",
+  "inputs": {
+    "tests/channel-swings/k1968_joint_thermal_finite_dimension_program.py": "2106a175c4c4b8bca5d4ec05b2e331ef2b7ea4fabf1216222793dd81de66a92f",
+    "tests/channel-swings/k1994_nine_level_thermal_reduction.py": "a128fd20d7476f666fc8819da0a43003498fd12cd7424df7435670caa766da3e",
+    "lab/process/k1994-nine-level-thermal-reduction.json": "cc4163fed1fff5d6f9b9af47e0be6b970b4f6a22ce03d5b68fdd764eb03a72d4",
+    "explorations/conditional-build/k1978-thermal-spectral-spacing-2026-10-23.md": "9f091d237c77d0e48e62b1d66952ae68413a48d630bdbf1550fb2249eccf85fe"
+  }
+}

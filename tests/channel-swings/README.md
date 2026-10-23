@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k1995_central_marginal_cycle_improvement](k1995_central_marginal_cycle_improvement.py).
+- [k1995_central_marginal_cycle_improvement_probe](k1995_central_marginal_cycle_improvement_probe.py).
+- [k1996_positive_spacing_finite_program](k1996_positive_spacing_finite_program.py).
+- [k1996_positive_spacing_finite_program_probe](k1996_positive_spacing_finite_program_probe.py).
+
 - [k1993_pulse_sobolev_corner_obstruction](k1993_pulse_sobolev_corner_obstruction.py).
 - [k1993_pulse_sobolev_corner_obstruction_probe](k1993_pulse_sobolev_corner_obstruction_probe.py).
 - [k1994_nine_level_thermal_reduction](k1994_nine_level_thermal_reduction.py).

@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k1995-central-marginal-cycle-improvement](k1995-central-marginal-cycle-improvement.json).
+- [k1996-positive-spacing-finite-program](k1996-positive-spacing-finite-program.json).
+
 - [k1993-pulse-sobolev-corner-obstruction](k1993-pulse-sobolev-corner-obstruction.json).
 - [k1994-nine-level-thermal-reduction](k1994-nine-level-thermal-reduction.json).
 

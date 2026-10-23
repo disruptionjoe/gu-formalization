@@ -7,6 +7,28 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-23: Central pulse improvement and complete nine-level spacing program
+
+K1995 constructs an exact cap-respecting central circulation preserving both marginals,
+proves the previous explicit central pulse is not minimum-norm, and improves the
+feasible whole-pulse squared-norm upper bound to2.7541718523 using inherited wings.
+K1996 turns existing component compression into a finite actual-spectrum program at
+every fixed dimension and positive spacing, with rational optimal
+energies/populations/value at rational parameters. Its204 exact replacements prove all-
+temperature nine-level rigidity for1/2<delta<=1. The complete t1/2 right jump atdelta1/2
+is positive exactly for1117/743<E<79/45. These are conditional independent mathematical
+results; source, physics-ledger and canon verdicts are unchanged.
+
+- [K1995](explorations/conditional-build/k1995-central-marginal-cycle-improvement-2026-10-23.md).
+- [K1996](explorations/conditional-build/k1996-positive-spacing-finite-program-2026-10-23.md).
+
+Separate probes pass1157 scalar symbolic/interval/cycle obligations and2454 thermal
+coverage/physical/return/curve controls,228 placement checks and4 independent budget
+optimizations, rejecting seven mathematical faults after green baselines. Universal
+claims rely on the written arguments, not pass totals. These are same-author internal checks, not external
+review, proof-assistant certification or evidence of novelty.
+
+
 ## 2026-10-23: Pulse Sobolev obstruction and nine-level thermal reduction
 
 K1993 proves that every actual optimal capped scalar pulse fails H1 locally at an
