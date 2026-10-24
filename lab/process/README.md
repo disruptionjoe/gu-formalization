@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2019-posttransition-thermal-frontier](k2019-posttransition-thermal-frontier.json).
+- [k2020-posttransition-tail-and-resources](k2020-posttransition-tail-and-resources.json).
+
 - [k2017-sharp-unrestricted-thermal-transition](k2017-sharp-unrestricted-thermal-transition.json).
 - [k2018-thermal-optimizer-rigidity](k2018-thermal-optimizer-rigidity.json).
 

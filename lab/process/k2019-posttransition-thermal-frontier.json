@@ -1,0 +1,94 @@
+{
+  "result_id": "K2019",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "spacing_range": [
+    "4/15",
+    "1/2"
+  ],
+  "transitions": [
+    "36/91",
+    "2/5"
+  ],
+  "certificates": [
+    {
+      "interval": [
+        "4/15",
+        "36/91"
+      ],
+      "obligation_counts": {
+        "single_AC": 1396,
+        "single_CB": 1396,
+        "single_GA": 1396,
+        "sep": 262906,
+        "same": 5982
+      },
+      "accepted_subinterval_obligations": {
+        "single_CB": 301,
+        "single_AC": 18,
+        "single_GA": 81,
+        "sep": 187296,
+        "same": 4798
+      },
+      "accepted_leaves": 192692,
+      "discarded_leaves": 81079,
+      "max_bisection_depth": 10,
+      "obligation_digest": "472b3f6217311c05187389171c0192e182ccd675d5c8f50f422a117cb22e4aff"
+    },
+    {
+      "interval": [
+        "36/91",
+        "2/5"
+      ],
+      "obligation_counts": {
+        "single_AC": 1396,
+        "single_CB": 1396,
+        "single_GA": 1396,
+        "sep": 263750,
+        "same": 5982
+      },
+      "accepted_subinterval_obligations": {
+        "single_CB": 281,
+        "single_AC": 18,
+        "single_GA": 70,
+        "sep": 176694,
+        "same": 4718
+      },
+      "accepted_leaves": 181781,
+      "discarded_leaves": 92139,
+      "max_bisection_depth": 0,
+      "obligation_digest": "ee72a79344d3e035db185bebd18fae4e1fb074e9980003bd75773d5b7352b293"
+    },
+    {
+      "interval": [
+        "2/5",
+        "1/2"
+      ],
+      "obligation_counts": {
+        "single_AC": 1396,
+        "single_CB": 1396,
+        "single_GA": 1396,
+        "sep": 281896,
+        "same": 5982
+      },
+      "accepted_subinterval_obligations": {
+        "single_CB": 280,
+        "single_AC": 18,
+        "single_GA": 116,
+        "sep": 184828,
+        "same": 4752
+      },
+      "accepted_leaves": 190044,
+      "discarded_leaves": 102479,
+      "max_bisection_depth": 8,
+      "obligation_digest": "dc333d7226c7471c5de2013325d10e76102a0ac569615a3c3a1b81975b197a28"
+    }
+  ],
+  "scope": "Complete cutoff-nine physical frontier; unrestricted transfer belongs to K2020. No GU identification or novelty claim.",
+  "inputs": {
+    "lab/process/k2015-finite-thermal-ray-separation.json": "a53cb08734509f89acf2886a9cafd47779232d6175ee508498379bd5f900693b",
+    "explorations/conditional-build/k2015-finite-thermal-ray-separation-2026-10-24.md": "7370bde1161dfcea5264d6444a571aace534ed54ae9f9f2e16f875542272ad13",
+    "explorations/conditional-build/k2018-thermal-optimizer-rigidity-2026-10-24.md": "1798d4d26b7e069723514e92edd6a80ba3319fbd4853455fc02e1ee988607eca"
+  }
+}

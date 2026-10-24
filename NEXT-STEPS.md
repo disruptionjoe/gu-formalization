@@ -7,6 +7,11 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-24: COMPLETE THERMAL FRONTIER THROUGH ONE HALF.**
+> The entire0<delta<=1/2 thermal optimum at t1/2 and6/5<E<11/5 is now explicit; do not repeat old onset brackets or posttransition upper-bound status. Above1/2, offset-delta unions fail spacing and the least placement depends on full shape difference sets. For C/B shapes the shift becomes6+delta, and the resulting shallow slope does not give a positive cutoff-nine tail coefficient. A new finite program/transfer is needed; the current complete bank does not establish the wide regime. Exact minimal dimensions and optimal faces remain unclassified in the new strips. Preserve capped-wing feasibility and source-common-bar alternatives, full20,K/C/accessibility,mirror/fullII,normaljets,2+1 and observed-chirality debts.
+> Prior banners preserve history; source, ledger and canon remain unchanged.
+
+
 > **2026-10-24: SHARP THERMAL TRANSITION AND DIMENSION.**
 > The sharp uniform onset4/15 and its7/10 endpoint dimension partition are now settled; do not repeat the prior bracket, existential onset or local coefficients. Above4/15, seven/twelve-level physical competitors improve G for6/5<E<E_cross(delta), but their global optimality is unproved. A next exact frontier needs a complete compatible-ray certificate for the new pieces and a valid high-energy secant; the old G certificate cannot simply be relabeled. Preserve capped-wing feasibility and source-common-bar alternatives, full20,K/C/accessibility,mirror/fullII,normaljets,source2+1 and observed-chirality debts.
 > Prior banners preserve history; source, ledger and canon remain unchanged.

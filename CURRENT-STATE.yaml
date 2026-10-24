@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 8256c84a476861febd54f2b5bfab4ed93d7b0a11
+revision_basis: fd6110f5905ceb93d95584148cc2dc987e0dc4c3
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,18 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2019 certifies the full cutoff-nine posttransition thermal frontier for4/15<=delta<=1/2
+    and6/5<E<11/5, discovering exact additional branch transitions36/91 and2/5. K2020 proves
+    zero-loss unnormalized upper-tail erasure for every faithful thermal bath, then
+    establishes that frontier as the unrestricted finite/countable optimum at t=1/2. Every
+    exact optimizer saturates its budget and has no diagonal tail above9; near-optimal mass,
+    energy and budget bounds improve to100epsilon/33,300epsilon/11 and10epsilon. Actual
+    optimal constructions use7,12,14,10 or5 physical levels on the respective branches;
+    these are sufficient sizes, not new minimum-dimension claims. Together with K2017 this
+    settles all positive spacing through one half in the stated energy interval. No GU
+    physics verdict changes.
+
+    Historical predecessor (not live):
     K2017 proves the sharp unrestricted thermal spacing endpoint4/15 by a directed
     unnormalized tail-deletion bound, closing the prior[1/15,4/15] bracket. It controls
     high-energy population, high-energy expectation and budget slack for every near
@@ -16251,6 +16263,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k2019-posttransition-thermal-frontier-2026-10-24.md
+    - lab/process/k2019-posttransition-thermal-frontier.json
+    - tests/channel-swings/k2019_posttransition_thermal_frontier.py
+    - tests/channel-swings/k2019_posttransition_thermal_frontier_probe.py
+    - explorations/conditional-build/k2020-posttransition-tail-and-resources-2026-10-24.md
+    - lab/process/k2020-posttransition-tail-and-resources.json
+    - tests/channel-swings/k2020_posttransition_tail_and_resources.py
+    - tests/channel-swings/k2020_posttransition_tail_and_resources_probe.py
     - explorations/conditional-build/k2017-sharp-unrestricted-thermal-transition-2026-10-24.md
     - lab/process/k2017-sharp-unrestricted-thermal-transition.json
     - tests/channel-swings/k2017_sharp_unrestricted_thermal_transition.py
@@ -17461,6 +17481,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  What is the unrestricted thermal frontier above spacing1/2, where canonical component
+  placement changes, and which current optimal protocols have globally minimal physical
+  dimension? Compare the required new wide-spacing finite program and positive tail secant
+  with an explicit capped-pulse wing and a source-compatible common bar/observation
+  construction.
+
+  Historical predecessor (not live):
   What is the exact post-transition thermal frontier above delta4/15, and can its
   compatible low-support certificate and directed tail estimate be composed? Compare that
   new finite program with exact globally capped pulse construction and a concrete source-
@@ -21041,6 +21068,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  The entire0<delta<=1/2 thermal optimum at t1/2 and6/5<E<11/5 is now explicit; do not
+  repeat old onset brackets or posttransition upper-bound status. Above1/2, offset-delta
+  unions fail spacing and the least placement depends on full shape difference sets. For
+  C/B shapes the shift becomes6+delta, and the resulting shallow slope does not give a
+  positive cutoff-nine tail coefficient. A new finite program/transfer is needed; the
+  current complete bank does not establish the wide regime. Exact minimal dimensions and
+  optimal faces remain unclassified in the new strips. Preserve capped-wing feasibility
+  and source-common-bar alternatives,
+  full20,K/C/accessibility,mirror/fullII,normaljets,2+1 and observed-chirality debts.
+
+  Historical predecessor (not live):
   The sharp uniform onset4/15 and its7/10 endpoint dimension partition are now settled; do
   not repeat the prior bracket, existential onset or local coefficients. Above4/15,
   seven/twelve-level physical competitors improve G for6/5<E<E_cross(delta), but their

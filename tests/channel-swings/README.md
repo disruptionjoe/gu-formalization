@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2019_posttransition_thermal_frontier](k2019_posttransition_thermal_frontier.py).
+- [k2019_posttransition_thermal_frontier_probe](k2019_posttransition_thermal_frontier_probe.py).
+- [k2020_posttransition_tail_and_resources](k2020_posttransition_tail_and_resources.py).
+- [k2020_posttransition_tail_and_resources_probe](k2020_posttransition_tail_and_resources_probe.py).
+
 - [k2017_sharp_unrestricted_thermal_transition](k2017_sharp_unrestricted_thermal_transition.py).
 - [k2017_sharp_unrestricted_thermal_transition_probe](k2017_sharp_unrestricted_thermal_transition_probe.py).
 - [k2018_thermal_optimizer_rigidity](k2018_thermal_optimizer_rigidity.py).

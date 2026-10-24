@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2019-posttransition-thermal-frontier](conditional-build/k2019-posttransition-thermal-frontier-2026-10-24.md).
+- [k2020-posttransition-tail-and-resources](conditional-build/k2020-posttransition-tail-and-resources-2026-10-24.md).
+
 - [k2017-sharp-unrestricted-thermal-transition](conditional-build/k2017-sharp-unrestricted-thermal-transition-2026-10-24.md).
 - [k2018-thermal-optimizer-rigidity](conditional-build/k2018-thermal-optimizer-rigidity-2026-10-24.md).
 

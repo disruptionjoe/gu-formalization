@@ -7,6 +7,25 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-24: Complete thermal frontier through one half
+
+K2019 certifies the full cutoff-nine posttransition thermal frontier for4/15<=delta<=1/2
+and6/5<E<11/5, discovering exact additional branch transitions36/91 and2/5. K2020 proves
+zero-loss unnormalized upper-tail erasure for every faithful thermal bath, then
+establishes that frontier as the unrestricted finite/countable optimum at t=1/2. Every
+exact optimizer saturates its budget and has no diagonal tail above9; near-optimal mass,
+energy and budget bounds improve to100epsilon/33,300epsilon/11 and10epsilon. Actual
+optimal constructions use7,12,14,10 or5 physical levels on the respective branches;
+these are sufficient sizes, not new minimum-dimension claims. Together with K2017 this
+settles all positive spacing through one half in the stated energy interval. No GU
+physics verdict changes.
+
+- [K2019](explorations/conditional-build/k2019-posttransition-thermal-frontier-2026-10-24.md).
+- [K2020](explorations/conditional-build/k2020-posttransition-tail-and-resources-2026-10-24.md).
+
+K2019 producer and full replay certify all three rational parameter strips: each has1396 single rays per branch, respectively262906/263750/281896 separated chords and5982 compatible same-cone chords. A separate bath-label/interpolation/extremum implementation proves564517 non-discarded subintervals and rejects3 actual sign faults. K2020 producer/replay and separate physical checker pass183 tail deletions,81 terminal programs,49 actual optima and147 secant consumers, rejecting5 actual physical faults. Seven provenance hashes are separate. Universal conclusions use the full interval certificate and analytic tail proof; same-author checking is not external expert or proof-assistant acceptance.
+
+
 ## 2026-10-24: Sharp thermal transition and dimension
 
 K2017 proves the sharp unrestricted thermal spacing endpoint4/15 by a directed
