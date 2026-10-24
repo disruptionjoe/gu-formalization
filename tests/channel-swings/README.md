@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2015_finite_thermal_ray_separation](k2015_finite_thermal_ray_separation.py).
+- [k2015_finite_thermal_ray_separation_probe](k2015_finite_thermal_ray_separation_probe.py).
+- [k2016_explicit_unrestricted_thermal_window](k2016_explicit_unrestricted_thermal_window.py).
+- [k2016_explicit_unrestricted_thermal_window_probe](k2016_explicit_unrestricted_thermal_window_probe.py).
+
 - [k2013_energy_sensitive_thermal_cutoff](k2013_energy_sensitive_thermal_cutoff.py).
 - [k2013_energy_sensitive_thermal_cutoff_probe](k2013_energy_sensitive_thermal_cutoff_probe.py).
 - [k2014_unrestricted_ten_level_onset](k2014_unrestricted_ten_level_onset.py).

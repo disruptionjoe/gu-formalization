@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2015-finite-thermal-ray-separation](k2015-finite-thermal-ray-separation.json).
+- [k2016-explicit-unrestricted-thermal-window](k2016-explicit-unrestricted-thermal-window.json).
+
 - [k2013-energy-sensitive-thermal-cutoff](k2013-energy-sensitive-thermal-cutoff.json).
 - [k2014-unrestricted-ten-level-onset](k2014-unrestricted-ten-level-onset.json).
 

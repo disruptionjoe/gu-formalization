@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2015-finite-thermal-ray-separation](conditional-build/k2015-finite-thermal-ray-separation-2026-10-24.md).
+- [k2016-explicit-unrestricted-thermal-window](conditional-build/k2016-explicit-unrestricted-thermal-window-2026-10-24.md).
+
 - [k2013-energy-sensitive-thermal-cutoff](conditional-build/k2013-energy-sensitive-thermal-cutoff-2026-10-24.md).
 - [k2014-unrestricted-ten-level-onset](conditional-build/k2014-unrestricted-ten-level-onset-2026-10-24.md).
 

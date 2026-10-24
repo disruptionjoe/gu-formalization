@@ -7,6 +7,11 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-24: EXPLICIT UNRESTRICTED THERMAL WINDOW.**
+> Do not repeat existential onset, local coefficients or the now-certified uniform1/15 window. The cutoff-nine restricted onset is exactly4/15; unrestricted optimality is proved only through1/15 and a physical seven-level counterexample applies above4/15. Further progress needs control of high-energy tails or a genuine improving physical family in the bracket, retaining cone compatibility and paid offsets. Exact capped-pulse repair still needs global saturated-wing control; source-common-bar/physical quotient, full20,K/C/accessibility, mirror/fullII, normal jets,2+1 and observed-chirality debts remain.
+> Prior banners preserve history; source, ledger and canon remain unchanged.
+
+
 > **2026-10-24: UNRESTRICTED TEN-LEVEL THERMAL ONSET.**
 > Certify a useful explicit onset threshold or full-spacing thermal frontier using K2013 energy-sensitive cutoff and K2014 compact-budget finite-ray theorem. The cutoff9/25-level reduction avoids dimension-growing asymptotics, but no complete25-level threshold enumerator is implemented here; the21 executed programs cover only the two-ladder subproblem. Do not repeat local unrestricted coefficients, eventual ten-level attainment or duality failure. Capped-pulse exact repair still needs cap-preserving saturated-wing control; source-common-bar/physical quotient, full20, K/C, mirror/fullII, normal jets,2+1 and observed-chirality debts remain.
 > Prior banners preserve history; source, ledger and canon remain unchanged.

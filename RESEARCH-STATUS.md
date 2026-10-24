@@ -8,6 +8,23 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-24: Explicit unrestricted thermal window
+
+K2015 exactly enumerates all cutoff-nine return-cone vertices and certifies the complete
+compatible low-support spacing program through the sharp uniform endpoint4/15. K2016
+uses a branch-sensitive energy-preserving tail argument to prove the unrestricted
+finite-or-countable ten-level curve for every0<delta<=1/15 and6/5<E<11/5, with explicit
+near-optimizer tail and faithful-bath bounds. An actual seven-level state beats the
+curve above4/15, bracketing the unrestricted transition in[1/15,4/15]. Ten-level
+necessity is certified on the smaller0<delta<3/380 strip; no sharp unrestricted
+threshold or GU physics conclusion is claimed.
+
+- [K2015](explorations/conditional-build/k2015-finite-thermal-ray-separation-2026-10-24.md).
+- [K2016](explorations/conditional-build/k2016-explicit-unrestricted-thermal-window-2026-10-24.md).
+
+K2015 producer/replay:26 supports,183 orientation cells,37666 bases,3137 vertex records; complete interval certificate337/83 single-branch,194017 separated and4818 same-cone obligations. Separate subset/bath/Gaussian checker reproduces every vertex; independent interval event replay811 single,388034 separated and9636 same-cone evaluations. K2016:6232 ray inequalities,63 actual optimal protocols,189 near-optimal consumers,756 tail controls and3 actual larger-spacing comparisons. Separate physical shell replay includes16 small-completion exclusions and5 fault controls; K2015 has1 coverage and3 mathematical fault controls. Seven provenance hashes separate. Universal claims rely on written transfers plus exhaustive finite interval certificates; same-author implementations are not independent specialist or proof-assistant acceptance.
+
+
 ## 2026-10-24: Unrestricted ten-level thermal onset
 
 K2013 retains the energy saved by physical tail truncation and proves a local-slope
