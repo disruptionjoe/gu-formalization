@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2017-sharp-unrestricted-thermal-transition](conditional-build/k2017-sharp-unrestricted-thermal-transition-2026-10-24.md).
+- [k2018-thermal-optimizer-rigidity](conditional-build/k2018-thermal-optimizer-rigidity-2026-10-24.md).
+
 - [k2015-finite-thermal-ray-separation](conditional-build/k2015-finite-thermal-ray-separation-2026-10-24.md).
 - [k2016-explicit-unrestricted-thermal-window](conditional-build/k2016-explicit-unrestricted-thermal-window-2026-10-24.md).
 

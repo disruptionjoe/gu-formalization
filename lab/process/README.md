@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2017-sharp-unrestricted-thermal-transition](k2017-sharp-unrestricted-thermal-transition.json).
+- [k2018-thermal-optimizer-rigidity](k2018-thermal-optimizer-rigidity.json).
+
 - [k2015-finite-thermal-ray-separation](k2015-finite-thermal-ray-separation.json).
 - [k2016-explicit-unrestricted-thermal-window](k2016-explicit-unrestricted-thermal-window.json).
 

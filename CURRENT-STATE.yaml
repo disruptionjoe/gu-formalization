@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: cbb44e8ed19107508757c166cbd58dda2586694a
+revision_basis: 8256c84a476861febd54f2b5bfab4ed93d7b0a11
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,16 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2017 proves the sharp unrestricted thermal spacing endpoint4/15 by a directed
+    unnormalized tail-deletion bound, closing the prior[1/15,4/15] bracket. It controls
+    high-energy population, high-energy expectation and budget slack for every near
+    optimizer. K2018 exhausts optimal-ray equality events: minimum physical dimension is10
+    throughout the strict window, drops to7 at delta4/15 for6/5<E<=113/91, and is10 above
+    that budget. Physical seven/twelve-level competitors improve the old formula over an
+    explicit energy interval above the transition. No full post-transition optimum or GU
+    physics conclusion is claimed.
+
+    Historical predecessor (not live):
     K2015 exactly enumerates all cutoff-nine return-cone vertices and certifies the complete
     compatible low-support spacing program through the sharp uniform endpoint4/15. K2016
     uses a branch-sensitive energy-preserving tail argument to prove the unrestricted
@@ -16241,6 +16251,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k2017-sharp-unrestricted-thermal-transition-2026-10-24.md
+    - lab/process/k2017-sharp-unrestricted-thermal-transition.json
+    - tests/channel-swings/k2017_sharp_unrestricted_thermal_transition.py
+    - tests/channel-swings/k2017_sharp_unrestricted_thermal_transition_probe.py
+    - explorations/conditional-build/k2018-thermal-optimizer-rigidity-2026-10-24.md
+    - lab/process/k2018-thermal-optimizer-rigidity.json
+    - tests/channel-swings/k2018_thermal_optimizer_rigidity.py
+    - tests/channel-swings/k2018_thermal_optimizer_rigidity_probe.py
     - explorations/conditional-build/k2015-finite-thermal-ray-separation-2026-10-24.md
     - lab/process/k2015-finite-thermal-ray-separation.json
     - tests/channel-swings/k2015_finite_thermal_ray_separation.py
@@ -17443,6 +17461,12 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  What is the exact post-transition thermal frontier above delta4/15, and can its
+  compatible low-support certificate and directed tail estimate be composed? Compare that
+  new finite program with exact globally capped pulse construction and a concrete source-
+  compatible common bar/observation input.
+
+  Historical predecessor (not live):
   Where is the unrestricted thermal transition inside[1/15,4/15], and can a larger-cutoff
   or sharper physical tail certificate close that bracket? Compare this now-explicit
   endpoint question with a cap-preserving continuum primal repair and a concrete source-
@@ -21017,6 +21041,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  The sharp uniform onset4/15 and its7/10 endpoint dimension partition are now settled; do
+  not repeat the prior bracket, existential onset or local coefficients. Above4/15,
+  seven/twelve-level physical competitors improve G for6/5<E<E_cross(delta), but their
+  global optimality is unproved. A next exact frontier needs a complete compatible-ray
+  certificate for the new pieces and a valid high-energy secant; the old G certificate
+  cannot simply be relabeled. Preserve capped-wing feasibility and source-common-bar
+  alternatives, full20,K/C/accessibility,mirror/fullII,normaljets,source2+1 and observed-
+  chirality debts.
+
+  Historical predecessor (not live):
   Do not repeat existential onset, local coefficients or the now-certified uniform1/15
   window. The cutoff-nine restricted onset is exactly4/15; unrestricted optimality is
   proved only through1/15 and a physical seven-level counterexample applies above4/15.

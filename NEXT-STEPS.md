@@ -7,6 +7,11 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-24: SHARP THERMAL TRANSITION AND DIMENSION.**
+> The sharp uniform onset4/15 and its7/10 endpoint dimension partition are now settled; do not repeat the prior bracket, existential onset or local coefficients. Above4/15, seven/twelve-level physical competitors improve G for6/5<E<E_cross(delta), but their global optimality is unproved. A next exact frontier needs a complete compatible-ray certificate for the new pieces and a valid high-energy secant; the old G certificate cannot simply be relabeled. Preserve capped-wing feasibility and source-common-bar alternatives, full20,K/C/accessibility,mirror/fullII,normaljets,source2+1 and observed-chirality debts.
+> Prior banners preserve history; source, ledger and canon remain unchanged.
+
+
 > **2026-10-24: EXPLICIT UNRESTRICTED THERMAL WINDOW.**
 > Do not repeat existential onset, local coefficients or the now-certified uniform1/15 window. The cutoff-nine restricted onset is exactly4/15; unrestricted optimality is proved only through1/15 and a physical seven-level counterexample applies above4/15. Further progress needs control of high-energy tails or a genuine improving physical family in the bracket, retaining cone compatibility and paid offsets. Exact capped-pulse repair still needs global saturated-wing control; source-common-bar/physical quotient, full20,K/C/accessibility, mirror/fullII, normal jets,2+1 and observed-chirality debts remain.
 > Prior banners preserve history; source, ledger and canon remain unchanged.

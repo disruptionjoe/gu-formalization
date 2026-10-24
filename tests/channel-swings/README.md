@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2017_sharp_unrestricted_thermal_transition](k2017_sharp_unrestricted_thermal_transition.py).
+- [k2017_sharp_unrestricted_thermal_transition_probe](k2017_sharp_unrestricted_thermal_transition_probe.py).
+- [k2018_thermal_optimizer_rigidity](k2018_thermal_optimizer_rigidity.py).
+- [k2018_thermal_optimizer_rigidity_probe](k2018_thermal_optimizer_rigidity_probe.py).
+
 - [k2015_finite_thermal_ray_separation](k2015_finite_thermal_ray_separation.py).
 - [k2015_finite_thermal_ray_separation_probe](k2015_finite_thermal_ray_separation_probe.py).
 - [k2016_explicit_unrestricted_thermal_window](k2016_explicit_unrestricted_thermal_window.py).

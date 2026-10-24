@@ -7,6 +7,23 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-24: Sharp thermal transition and dimension
+
+K2017 proves the sharp unrestricted thermal spacing endpoint4/15 by a directed
+unnormalized tail-deletion bound, closing the prior[1/15,4/15] bracket. It controls
+high-energy population, high-energy expectation and budget slack for every near
+optimizer. K2018 exhausts optimal-ray equality events: minimum physical dimension is10
+throughout the strict window, drops to7 at delta4/15 for6/5<E<=113/91, and is10 above
+that budget. Physical seven/twelve-level competitors improve the old formula over an
+explicit energy interval above the transition. No full post-transition optimum or GU
+physics conclusion is claimed.
+
+- [K2017](explorations/conditional-build/k2017-sharp-unrestricted-thermal-transition-2026-10-24.md).
+- [K2018](explorations/conditional-build/k2018-thermal-optimizer-rigidity-2026-10-24.md).
+
+K2017 producer/replay and separate bath-label implementation check183 physical deletions,24 optimal witnesses and72 secant controls, with4 actual mathematical corruptions and4 provenance hashes. K2018 exhaustively replays337/83 single-branch,194017 separated and4818 same-cone equality intervals; separate parameter-event counts and completion checks are recorded in its scientific note and receipt. Twenty endpoint seven-level and20 post-transition physical witnesses are checked, with4 actual corruptions and2 hashes. Universal claims use written transfers and complete finite certificates; same-author checking is not independent specialist or proof-assistant acceptance.
+
+
 ## 2026-10-24: Explicit unrestricted thermal window
 
 K2015 exactly enumerates all cutoff-nine return-cone vertices and certifies the complete
