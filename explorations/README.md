@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2005-coupled-wing-potentials](conditional-build/k2005-coupled-wing-potentials-2026-10-24.md).
+- [k2006-uniform-two-component-spacing](conditional-build/k2006-uniform-two-component-spacing-2026-10-24.md).
+
 - [k2003-exact-central-pulse-optimizer](conditional-build/k2003-exact-central-pulse-optimizer-2026-10-23.md).
 - [k2004-ten-level-spacing-frontier](conditional-build/k2004-ten-level-spacing-frontier-2026-10-23.md).
 

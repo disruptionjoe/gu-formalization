@@ -7,6 +7,11 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-24: COUPLED CORNER AND UNIFORM THERMAL SPACING.**
+> Prioritize global nonmonotone wing matching from K2005's exact corner, checking actual full marginals and dual integrability before claiming gluing. Compare the complete K2006 two-shape program for larger connected supports and joint (E,delta,t) frontiers or wide-spacing rigidity against a concrete source-compatible common bar/reality construction. Do not re-enumerate a necessary third-component regime: K1972 plus K2006 eliminates it at every finite dimension. Retain full20, K/C/accessibility, mirror/fullII, normal jets, physical quotient, 2+1 and observed nonchirality debts; no source identification is inferred.
+> Prior banners preserve history; source, ledger and canon remain unchanged.
+
+
 > **2026-10-23: EXACT CENTRAL PULSE AND TEN-LEVEL SPACING FRONTIER.**
 > Use K2003 to remove the central optimizer, strong approximation and common-monotone extension from the open queue. Attempt coupled wing potentials directly: the clipped-log boundary model matches only restricted leading traces, and chi(s)=s+(eta/kappa)s² matches rows but fails columns. Do not assume dual attainment or active-set regularity. Use K2004 complete ten-level spacing reductions and exact thresholds rather than repeating finite-spectrum scans; higher-dimensional claims need new connected-support cases; pure-component merging postpones the first potentially useful three-component family to dimension13. Recompare these marginal opportunities with an actual source-compatible changed bar/common coefficient or physical quotient; arbitrary coefficient changes do not identify source physics.
 > Prior banners preserve history; source, ledger and canon remain unchanged.

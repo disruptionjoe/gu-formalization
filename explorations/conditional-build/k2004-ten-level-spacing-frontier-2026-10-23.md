@@ -276,6 +276,22 @@ dimensions are not inferred from either reduction.
 
 ## 5. Next mathematical boundary
 
+**2026-10-24 correction to the successor selection:** the pure-component
+merger below remains valid, but its dimension-thirteen/ fifteen counting
+thresholds do not identify a useful three-component optimization frontier.
+[K1972](k1972-thermal-two-component-reduction-2026-10-22.md), section 2,
+already dominates every finite physical protocol by at most two populated
+actual components. Reweighting, deleting whole zero-weight components and
+translating the surviving ground preserve minimum spacing. The stronger
+positive-spacing transfer and its finite-placement/continuity consumers are
+proved in [K2006](k2006-uniform-two-component-spacing-2026-10-24.md).
+No third populated component can improve this optimum at any finite dimension.
+The dimension-ten computations here remain valid. Higher-dimensional
+connected shapes and pairs remain open consumers of the complete reduction.
+The remainder of this section preserves the earlier, superseded successor
+reasoning; its suggestion to seek a useful three-component family is withdrawn.
+
+
 There is a useful dimension-uniform reduction before the next census:
 **at most one pure mass-carrying resonance component is needed.** Here pure
 means one occupied site. Choose the

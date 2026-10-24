@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: b2f5f0c9fc2c03114199f10c6fb58b1c71686d77
+revision_basis: 1d4c411f826a087d1d9780b8b534920e141e0e11
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2005 constructs exact nonlinear coupled wing-corner potentials from positive entire
+    inverse series, simultaneously matching actual row traces for s<1/55000 and terminal
+    columns for delta<1/2500. Finite approximants retain exact half-plane columns with a
+    quantified positive row defect; all feasible finite-a.e clipped-additive potentials must
+    diverge at the corner. The constructed global monotone restriction is provably
+    infeasible, so global wing matching and dual attainment remain open. K2006 transfers
+    K1972's existing two-component domination to every positive spacing and finite
+    dimension, derives complete canonical two-shape programs, a linear spectral box
+    [0,3(d-1)], and continuity away from spacing1/2 and1. Its lighter-component consumer
+    improves the small-spacing energy-transfer cost to delta/2 for delta<=1/2. The dated
+    K2004 correction withdraws the prospective three-component frontier, preserving its
+    computed ten-level results. These are conditional internal mathematics, with source,
+    ledger and canon unchanged.
+
+    Historical predecessor (not live):
     K2003 constructs the unique exact central capped minimum-norm pulse through convolution
     renewal and inverse CDFs, with central squared norm approximately0.11439655863919339 and
     whole-pulse upper bound below2.739952052817663. It proves geometric strong
@@ -16162,6 +16177,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k2005-coupled-wing-potentials-2026-10-24.md
+    - lab/process/k2005-coupled-wing-potentials.json
+    - tests/channel-swings/k2005_coupled_wing_potentials.py
+    - tests/channel-swings/k2005_coupled_wing_potentials_probe.py
+    - explorations/conditional-build/k2006-uniform-two-component-spacing-2026-10-24.md
+    - lab/process/k2006-uniform-two-component-spacing.json
+    - tests/channel-swings/k2006_uniform_two_component_spacing.py
+    - tests/channel-swings/k2006_uniform_two_component_spacing_probe.py
     - explorations/conditional-build/k2003-exact-central-pulse-optimizer-2026-10-23.md
     - lab/process/k2003-exact-central-pulse-optimizer.json
     - tests/channel-swings/k2003_exact_central_pulse_optimizer.py
@@ -17316,6 +17339,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can the exact coupled corner be matched to a globally feasible nonmonotone wing with
+  controlled endpoint pairing, or can the complete two-shape thermal program yield new
+  joint energy/spacing/temperature frontiers? Compare those against an actually specified
+  source-compatible common bar/reality input and remaining raw cells; unchanged positive
+  symmetric raw-pairing searches are closed by K2002.
+
+  Historical predecessor (not live):
   Can coupled nonmonotone wing potentials satisfy both actual triangular marginal
   equations, including the quadratic corner row term and terminal column deficit, with
   certified endpoint behavior and dual integrability? Compare that concrete construction
@@ -20851,6 +20881,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Prioritize global nonmonotone wing matching from K2005's exact corner, checking actual
+  full marginals and dual integrability before claiming gluing. Compare the complete K2006
+  two-shape program for larger connected supports and joint (E,delta,t) frontiers or wide-
+  spacing rigidity against a concrete source-compatible common bar/reality construction.
+  Do not re-enumerate a necessary third-component regime: K1972 plus K2006 eliminates it
+  at every finite dimension. Retain full20, K/C/accessibility, mirror/fullII, normal jets,
+  physical quotient, 2+1 and observed nonchirality debts; no source identification is
+  inferred.
+
+  Historical predecessor (not live):
   Use K2003 to remove the central optimizer, strong approximation and common-monotone
   extension from the open queue. Attempt coupled wing potentials directly: the clipped-log
   boundary model matches only restricted leading traces, and chi(s)=s+(eta/kappa)s²

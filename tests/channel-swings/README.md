@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2005_coupled_wing_potentials](k2005_coupled_wing_potentials.py).
+- [k2005_coupled_wing_potentials_probe](k2005_coupled_wing_potentials_probe.py).
+- [k2006_uniform_two_component_spacing](k2006_uniform_two_component_spacing.py).
+- [k2006_uniform_two_component_spacing_probe](k2006_uniform_two_component_spacing_probe.py).
+
 - [k2003_exact_central_pulse_optimizer](k2003_exact_central_pulse_optimizer.py).
 - [k2003_exact_central_pulse_optimizer_probe](k2003_exact_central_pulse_optimizer_probe.py).
 - [k2004_ten_level_spacing_frontier](k2004_ten_level_spacing_frontier.py).

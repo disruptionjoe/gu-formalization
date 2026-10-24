@@ -7,6 +7,28 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-24: Coupled corner potentials and uniform thermal spacing
+
+K2005 constructs exact nonlinear coupled wing-corner potentials from positive entire
+inverse series, simultaneously matching actual row traces for s<1/55000 and terminal
+columns for delta<1/2500. Finite approximants retain exact half-plane columns with a
+quantified positive row defect; all feasible finite-a.e clipped-additive potentials must
+diverge at the corner. The constructed global monotone restriction is provably
+infeasible, so global wing matching and dual attainment remain open. K2006 transfers
+K1972's existing two-component domination to every positive spacing and finite
+dimension, derives complete canonical two-shape programs, a linear spectral box
+[0,3(d-1)], and continuity away from spacing1/2 and1. Its lighter-component consumer
+improves the small-spacing energy-transfer cost to delta/2 for delta<=1/2. The dated
+K2004 correction withdraws the prospective three-component frontier, preserving its
+computed ten-level results. These are conditional internal mathematics, with source,
+ledger and canon unchanged.
+
+- [K2005](explorations/conditional-build/k2005-coupled-wing-potentials-2026-10-24.md).
+- [K2006](explorations/conditional-build/k2006-uniform-two-component-spacing-2026-10-24.md).
+
+K2005 producer and replay pass 208 exact controls; the independent probe passes 527 controls and detects four mathematical corruptions. K2006 producer/replay and independent geometry oracle pass 24,000 geometry obligations; its independent probe also passes 517 physical/consumer groups and detects eight mathematical corruptions. Independent internal proof review found no substantive theorem defect; finite checks do not replace the continuum proofs.
+
+
 ## 2026-10-23: Exact central pulse and ten-level thermal spacing
 
 K2003 constructs the unique exact central capped minimum-norm pulse through convolution
