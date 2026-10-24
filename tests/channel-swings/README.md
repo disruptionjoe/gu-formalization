@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2013_energy_sensitive_thermal_cutoff](k2013_energy_sensitive_thermal_cutoff.py).
+- [k2013_energy_sensitive_thermal_cutoff_probe](k2013_energy_sensitive_thermal_cutoff_probe.py).
+- [k2014_unrestricted_ten_level_onset](k2014_unrestricted_ten_level_onset.py).
+- [k2014_unrestricted_ten_level_onset_probe](k2014_unrestricted_ten_level_onset_probe.py).
+
 - [k2011_nested_capped_pulse_construction](k2011_nested_capped_pulse_construction.py).
 - [k2011_nested_capped_pulse_construction_probe](k2011_nested_capped_pulse_construction_probe.py).
 - [k2012_thermal_duality_gap_and_bath_stability](k2012_thermal_duality_gap_and_bath_stability.py).

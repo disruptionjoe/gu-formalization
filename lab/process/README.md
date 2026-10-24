@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2013-energy-sensitive-thermal-cutoff](k2013-energy-sensitive-thermal-cutoff.json).
+- [k2014-unrestricted-ten-level-onset](k2014-unrestricted-ten-level-onset.json).
+
 - [k2011-nested-capped-pulse-construction](k2011-nested-capped-pulse-construction.json).
 - [k2012-thermal-duality-gap-and-bath-stability](k2012-thermal-duality-gap-and-bath-stability.json).
 

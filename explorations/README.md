@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2013-energy-sensitive-thermal-cutoff](conditional-build/k2013-energy-sensitive-thermal-cutoff-2026-10-24.md).
+- [k2014-unrestricted-ten-level-onset](conditional-build/k2014-unrestricted-ten-level-onset-2026-10-24.md).
+
 - [k2011-nested-capped-pulse-construction](conditional-build/k2011-nested-capped-pulse-construction-2026-10-24.md).
 - [k2012-thermal-duality-gap-and-bath-stability](conditional-build/k2012-thermal-duality-gap-and-bath-stability-2026-10-24.md).
 

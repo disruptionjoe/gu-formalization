@@ -7,6 +7,24 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-24: Unrestricted ten-level thermal onset
+
+K2013 retains the energy saved by physical tail truncation and proves a local-slope
+criterion for hard-budget finite attainment, with a quantitative near-optimizer tail
+bound. K2014 proves compact-budget uniformity of the finite-ray onset and combines it
+with cutoff9/25 intermediate levels: at t=1/2 and every interior budget 6/5<E<11/5, the
+unrestricted finite-or-countable optimum is exactly the two-ladder ten-level curve for
+sufficiently small positive spacing. Ten levels are eventually necessary and sufficient;
+unrestricted first and second spacing coefficients, optimizer tail exclusion above9 and
+conditional faithful-bath robustness follow. No numerical onset threshold or full-
+spacing frontier was computed; source, physics-ledger and canon verdicts are unchanged.
+
+- [K2013](explorations/conditional-build/k2013-energy-sensitive-thermal-cutoff-2026-10-24.md).
+- [K2014](explorations/conditional-build/k2014-unrestricted-ten-level-onset-2026-10-24.md).
+
+K2013 producer/replay45 actual physical tail transfers and57 conditional tail consumers; separate bath-label checker reproduces them and rejects4 actual physical corruptions. K2014 producer/replay114 physical upper witnesses,19 coefficient identities,19 conditional window/bath consumers and570 secant controls; separate checker solves21 complete four-population programs and rejects4 mathematical corruptions. Eight input hashes are provenance only. Samples are upper witnesses, not certified points inside the global regime. Universal claims rest on written proofs and reused native theorems; checking is same-author, not independent specialist acceptance.
+
+
 ## 2026-10-24: Finite pulse certificates and thermal duality gap
 
 K2011 supplies a finite exact-cell capped moment hierarchy with strong convergence and

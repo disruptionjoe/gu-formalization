@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 485174074cca0a24d731113ac916c568235126ec
+revision_basis: e740eda83f66dc4f9ed6e717acbc082cf44a389a
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,17 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2013 retains the energy saved by physical tail truncation and proves a local-slope
+    criterion for hard-budget finite attainment, with a quantitative near-optimizer tail
+    bound. K2014 proves compact-budget uniformity of the finite-ray onset and combines it
+    with cutoff9/25 intermediate levels: at t=1/2 and every interior budget 6/5<E<11/5, the
+    unrestricted finite-or-countable optimum is exactly the two-ladder ten-level curve for
+    sufficiently small positive spacing. Ten levels are eventually necessary and sufficient;
+    unrestricted first and second spacing coefficients, optimizer tail exclusion above9 and
+    conditional faithful-bath robustness follow. No numerical onset threshold or full-
+    spacing frontier was computed; source, physics-ledger and canon verdicts are unchanged.
+
+    Historical predecessor (not live):
     K2011 supplies a finite exact-cell capped moment hierarchy with strong convergence and
     explicit continuum marginal error bounds, reusing K1980 existence. Three actual rational
     dual witnesses raise the squared-norm lower bound to 2.3897489868, with upper
@@ -16220,6 +16231,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k2013-energy-sensitive-thermal-cutoff-2026-10-24.md
+    - lab/process/k2013-energy-sensitive-thermal-cutoff.json
+    - tests/channel-swings/k2013_energy_sensitive_thermal_cutoff.py
+    - tests/channel-swings/k2013_energy_sensitive_thermal_cutoff_probe.py
+    - explorations/conditional-build/k2014-unrestricted-ten-level-onset-2026-10-24.md
+    - lab/process/k2014-unrestricted-ten-level-onset.json
+    - tests/channel-swings/k2014_unrestricted_ten_level_onset.py
+    - tests/channel-swings/k2014_unrestricted_ten_level_onset_probe.py
     - explorations/conditional-build/k2011-nested-capped-pulse-construction-2026-10-24.md
     - lab/process/k2011-nested-capped-pulse-construction.json
     - tests/channel-swings/k2011_nested_capped_pulse_construction.py
@@ -17406,6 +17425,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  What useful numerical spacing range admits the exact unrestricted ten-level thermal
+  optimum, and can the general energy-sensitive cutoff criterion settle larger-spacing
+  hard-budget finite attainment? Compare an exact finite-ray threshold certificate with
+  capped-pulse primal repair and a concrete source-compatible common barred-observation
+  input.
+
+  Historical predecessor (not live):
   Can the actual capped pulse receive a certified primal repair or effective strong-error
   modulus, and can the 23-level thermal gap program yield a useful explicit bound or sharp
   unrestricted spacing coefficient? Compare these with a concrete source-compatible common
@@ -20967,6 +20993,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Certify a useful explicit onset threshold or full-spacing thermal frontier using K2013
+  energy-sensitive cutoff and K2014 compact-budget finite-ray theorem. The
+  cutoff9/25-level reduction avoids dimension-growing asymptotics, but no complete25-level
+  threshold enumerator is implemented here; the21 executed programs cover only the two-
+  ladder subproblem. Do not repeat local unrestricted coefficients, eventual ten-level
+  attainment or duality failure. Capped-pulse exact repair still needs cap-preserving
+  saturated-wing control; source-common-bar/physical quotient, full20, K/C, mirror/fullII,
+  normal jets,2+1 and observed-chirality debts remain.
+
+  Historical predecessor (not live):
   Use K2011 exact-cell moment programs and continuum dual/error certificates to target
   cap-preserving exact repair or a strong-norm convergence modulus, not another existence
   proof. Use K2012 fixed 23-level multiplicative lower-gap reduction to evaluate a

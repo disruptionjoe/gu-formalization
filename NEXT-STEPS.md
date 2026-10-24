@@ -7,6 +7,11 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-24: UNRESTRICTED TEN-LEVEL THERMAL ONSET.**
+> Certify a useful explicit onset threshold or full-spacing thermal frontier using K2013 energy-sensitive cutoff and K2014 compact-budget finite-ray theorem. The cutoff9/25-level reduction avoids dimension-growing asymptotics, but no complete25-level threshold enumerator is implemented here; the21 executed programs cover only the two-ladder subproblem. Do not repeat local unrestricted coefficients, eventual ten-level attainment or duality failure. Capped-pulse exact repair still needs cap-preserving saturated-wing control; source-common-bar/physical quotient, full20, K/C, mirror/fullII, normal jets,2+1 and observed-chirality debts remain.
+> Prior banners preserve history; source, ledger and canon remain unchanged.
+
+
 > **2026-10-24: FINITE PULSE CERTIFICATES AND THERMAL DUALITY GAP.**
 > Use K2011 exact-cell moment programs and continuum dual/error certificates to target cap-preserving exact repair or a strong-norm convergence modulus, not another existence proof. Use K2012 fixed 23-level multiplicative lower-gap reduction to evaluate a quantitative thermal gap, or prove the sharp unrestricted linear coefficient. Supporting-price search cannot certify interior hard-budget optima because the full Lagrange dual has a strict gap. Hard-budget finite support still needs a direct proof. Preserve source-common-bar/physical-quotient, full20, K/C, mirror/fullII, normal-jets,2+1 and observed-chirality debts.
 > Prior banners preserve history; source, ledger and canon remain unchanged.
