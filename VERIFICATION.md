@@ -7,6 +7,26 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-24: Finite pulse certificates and thermal duality gap
+
+K2011 supplies a finite exact-cell capped moment hierarchy with strong convergence and
+explicit continuum marginal error bounds, reusing K1980 existence. Three actual rational
+dual witnesses raise the squared-norm lower bound to 2.3897489868, with upper
+2.739952052817663 unchanged; the 96-row array remains inexact in both marginals. K2012
+proves an exact Lagrange dual and strict positive physical duality gap on the exposed
+thermal interval, then dimension-uniform faithful-bath stability and persistence under
+bath perturbation. A released strict-tail argument bounds the unrestricted gap below by
+(8-E)/(108-E) times the 23-level gap, proving an all-dimension Theta(delta) small-
+spacing penalty. The 23-level optimization was not executed; sharp coefficient, hard-
+budget finite attainment and an exact capped pulse remain open. Source, physics-ledger
+and canon verdicts are unchanged.
+
+- [K2011](explorations/conditional-build/k2011-nested-capped-pulse-construction-2026-10-24.md).
+- [K2012](explorations/conditional-build/k2012-thermal-duality-gap-and-bath-stability-2026-10-24.md).
+
+K2011 producer/replay certifies three actual 24/48/96-row witnesses; the separate polygon/Boole probe checks 30240 cell areas, full continuum residual integrals and four mathematical faults. The 96-row floating scout reported unsuccessful termination; rational certificates do not rely on optimizer success. K2012 producer/replay checks 2 endpoints,19 chords,27 physical separated protocols,900 bath groups,9 tail transfers and19 rate coefficients; separate probe1049 groups,3 mathematical mutations and2 contrary controls. Nine provenance hashes are separate. Universal conclusions rely on written proofs and reused native theorems; same-author checks are not independent specialist acceptance.
+
+
 ## 2026-10-24: Robust pulse errors and countable thermal attainment
 
 K2009 proves continuum tight-cut stability with certified cap and marginal errors,

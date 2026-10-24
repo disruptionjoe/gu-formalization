@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2011_nested_capped_pulse_construction](k2011_nested_capped_pulse_construction.py).
+- [k2011_nested_capped_pulse_construction_probe](k2011_nested_capped_pulse_construction_probe.py).
+- [k2012_thermal_duality_gap_and_bath_stability](k2012_thermal_duality_gap_and_bath_stability.py).
+- [k2012_thermal_duality_gap_and_bath_stability_probe](k2012_thermal_duality_gap_and_bath_stability_probe.py).
+
 - [k2009_robust_tight_cut_pulse_certificates](k2009_robust_tight_cut_pulse_certificates.py).
 - [k2009_robust_tight_cut_pulse_certificates_probe](k2009_robust_tight_cut_pulse_certificates_probe.py).
 - [k2010_countable_thermal_attainment](k2010_countable_thermal_attainment.py).

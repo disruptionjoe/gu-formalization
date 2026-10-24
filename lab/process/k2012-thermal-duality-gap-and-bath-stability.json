@@ -1,0 +1,510 @@
+{
+  "result_id": "K2012",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "endpoints": {
+    "A": [
+      "6/5",
+      "9/20"
+    ],
+    "B": [
+      "11/5",
+      "3/10"
+    ],
+    "price": "3/20",
+    "value": "63/100"
+  },
+  "chords": [
+    {
+      "E": "5/4",
+      "line": "177/400"
+    },
+    {
+      "E": "13/10",
+      "line": "87/200"
+    },
+    {
+      "E": "27/20",
+      "line": "171/400"
+    },
+    {
+      "E": "7/5",
+      "line": "21/50"
+    },
+    {
+      "E": "29/20",
+      "line": "33/80"
+    },
+    {
+      "E": "3/2",
+      "line": "81/200"
+    },
+    {
+      "E": "31/20",
+      "line": "159/400"
+    },
+    {
+      "E": "8/5",
+      "line": "39/100"
+    },
+    {
+      "E": "33/20",
+      "line": "153/400"
+    },
+    {
+      "E": "17/10",
+      "line": "3/8"
+    },
+    {
+      "E": "7/4",
+      "line": "147/400"
+    },
+    {
+      "E": "9/5",
+      "line": "9/25"
+    },
+    {
+      "E": "37/20",
+      "line": "141/400"
+    },
+    {
+      "E": "19/10",
+      "line": "69/200"
+    },
+    {
+      "E": "39/20",
+      "line": "27/80"
+    },
+    {
+      "E": "2",
+      "line": "33/100"
+    },
+    {
+      "E": "41/20",
+      "line": "129/400"
+    },
+    {
+      "E": "21/10",
+      "line": "63/200"
+    },
+    {
+      "E": "43/20",
+      "line": "123/400"
+    }
+  ],
+  "physical_separation": [
+    {
+      "delta": "1/100",
+      "w": "1/10",
+      "energy": "1301/1000",
+      "return_value": "87/200",
+      "penalty": "3/20000"
+    },
+    {
+      "delta": "1/100",
+      "w": "1/5",
+      "energy": "701/500",
+      "return_value": "21/50",
+      "penalty": "3/10000"
+    },
+    {
+      "delta": "1/100",
+      "w": "3/10",
+      "energy": "1503/1000",
+      "return_value": "81/200",
+      "penalty": "9/20000"
+    },
+    {
+      "delta": "1/100",
+      "w": "2/5",
+      "energy": "401/250",
+      "return_value": "39/100",
+      "penalty": "3/5000"
+    },
+    {
+      "delta": "1/100",
+      "w": "1/2",
+      "energy": "341/200",
+      "return_value": "3/8",
+      "penalty": "3/4000"
+    },
+    {
+      "delta": "1/100",
+      "w": "3/5",
+      "energy": "903/500",
+      "return_value": "9/25",
+      "penalty": "9/10000"
+    },
+    {
+      "delta": "1/100",
+      "w": "7/10",
+      "energy": "1907/1000",
+      "return_value": "69/200",
+      "penalty": "21/20000"
+    },
+    {
+      "delta": "1/100",
+      "w": "4/5",
+      "energy": "251/125",
+      "return_value": "33/100",
+      "penalty": "3/2500"
+    },
+    {
+      "delta": "1/100",
+      "w": "9/10",
+      "energy": "2109/1000",
+      "return_value": "63/200",
+      "penalty": "27/20000"
+    },
+    {
+      "delta": "1/10",
+      "w": "1/10",
+      "energy": "131/100",
+      "return_value": "87/200",
+      "penalty": "3/2000"
+    },
+    {
+      "delta": "1/10",
+      "w": "1/5",
+      "energy": "71/50",
+      "return_value": "21/50",
+      "penalty": "3/1000"
+    },
+    {
+      "delta": "1/10",
+      "w": "3/10",
+      "energy": "153/100",
+      "return_value": "81/200",
+      "penalty": "9/2000"
+    },
+    {
+      "delta": "1/10",
+      "w": "2/5",
+      "energy": "41/25",
+      "return_value": "39/100",
+      "penalty": "3/500"
+    },
+    {
+      "delta": "1/10",
+      "w": "1/2",
+      "energy": "7/4",
+      "return_value": "3/8",
+      "penalty": "3/400"
+    },
+    {
+      "delta": "1/10",
+      "w": "3/5",
+      "energy": "93/50",
+      "return_value": "9/25",
+      "penalty": "9/1000"
+    },
+    {
+      "delta": "1/10",
+      "w": "7/10",
+      "energy": "197/100",
+      "return_value": "69/200",
+      "penalty": "21/2000"
+    },
+    {
+      "delta": "1/10",
+      "w": "4/5",
+      "energy": "52/25",
+      "return_value": "33/100",
+      "penalty": "3/250"
+    },
+    {
+      "delta": "1/10",
+      "w": "9/10",
+      "energy": "219/100",
+      "return_value": "63/200",
+      "penalty": "27/2000"
+    },
+    {
+      "delta": "1/2",
+      "w": "1/10",
+      "energy": "27/20",
+      "return_value": "87/200",
+      "penalty": "3/400"
+    },
+    {
+      "delta": "1/2",
+      "w": "1/5",
+      "energy": "3/2",
+      "return_value": "21/50",
+      "penalty": "3/200"
+    },
+    {
+      "delta": "1/2",
+      "w": "3/10",
+      "energy": "33/20",
+      "return_value": "81/200",
+      "penalty": "9/400"
+    },
+    {
+      "delta": "1/2",
+      "w": "2/5",
+      "energy": "9/5",
+      "return_value": "39/100",
+      "penalty": "3/100"
+    },
+    {
+      "delta": "1/2",
+      "w": "1/2",
+      "energy": "39/20",
+      "return_value": "3/8",
+      "penalty": "3/80"
+    },
+    {
+      "delta": "1/2",
+      "w": "3/5",
+      "energy": "21/10",
+      "return_value": "9/25",
+      "penalty": "9/200"
+    },
+    {
+      "delta": "1/2",
+      "w": "7/10",
+      "energy": "9/4",
+      "return_value": "69/200",
+      "penalty": "21/400"
+    },
+    {
+      "delta": "1/2",
+      "w": "4/5",
+      "energy": "12/5",
+      "return_value": "33/100",
+      "penalty": "3/50"
+    },
+    {
+      "delta": "1/2",
+      "w": "9/10",
+      "energy": "51/20",
+      "return_value": "63/200",
+      "penalty": "27/400"
+    }
+  ],
+  "temperature_controls": [
+    {
+      "t": "49/100",
+      "bath_TV": "218008/27716235",
+      "gap_loss_upper": "436016/27716235"
+    },
+    {
+      "t": "1/2",
+      "bath_TV": "0",
+      "gap_loss_upper": "0"
+    },
+    {
+      "t": "51/100",
+      "bath_TV": "222008/28541265",
+      "gap_loss_upper": "444016/28541265"
+    }
+  ],
+  "tail_transfers": [
+    {
+      "high": "10",
+      "tail": "1/10000",
+      "energy": "15011/12500",
+      "return_value": "90001/200000",
+      "gap": "137/1000000",
+      "normalized_low": "9/20"
+    },
+    {
+      "high": "10",
+      "tail": "1/1000",
+      "energy": "1511/1250",
+      "return_value": "9001/20000",
+      "gap": "137/100000",
+      "normalized_low": "9/20"
+    },
+    {
+      "high": "10",
+      "tail": "1/100",
+      "energy": "161/125",
+      "return_value": "901/2000",
+      "gap": "137/10000",
+      "normalized_low": "9/20"
+    },
+    {
+      "high": "20",
+      "tail": "1/10000",
+      "energy": "30047/25000",
+      "return_value": "90001/200000",
+      "gap": "287/1000000",
+      "normalized_low": "9/20"
+    },
+    {
+      "high": "20",
+      "tail": "1/1000",
+      "energy": "3047/2500",
+      "return_value": "9001/20000",
+      "gap": "287/100000",
+      "normalized_low": "9/20"
+    },
+    {
+      "high": "20",
+      "tail": "1/100",
+      "energy": "347/250",
+      "return_value": "901/2000",
+      "gap": "287/10000",
+      "normalized_low": "9/20"
+    },
+    {
+      "high": "50",
+      "tail": "1/10000",
+      "energy": "15061/12500",
+      "return_value": "90001/200000",
+      "gap": "737/1000000",
+      "normalized_low": "9/20"
+    },
+    {
+      "high": "50",
+      "tail": "1/1000",
+      "energy": "1561/1250",
+      "return_value": "9001/20000",
+      "gap": "737/100000",
+      "normalized_low": "9/20"
+    },
+    {
+      "high": "50",
+      "tail": "1/100",
+      "energy": "211/125",
+      "return_value": "901/2000",
+      "gap": "737/10000",
+      "normalized_low": "9/20"
+    }
+  ],
+  "linear_order_coefficients": [
+    {
+      "E": "5/4",
+      "factor": "27/427",
+      "liminf_lower": "81/170800",
+      "limsup_upper": "3/400"
+    },
+    {
+      "E": "13/10",
+      "factor": "67/1067",
+      "liminf_lower": "201/213400",
+      "limsup_upper": "3/200"
+    },
+    {
+      "E": "27/20",
+      "factor": "133/2133",
+      "liminf_lower": "133/94800",
+      "limsup_upper": "9/400"
+    },
+    {
+      "E": "7/5",
+      "factor": "33/533",
+      "liminf_lower": "99/53300",
+      "limsup_upper": "3/100"
+    },
+    {
+      "E": "29/20",
+      "factor": "131/2131",
+      "liminf_lower": "393/170480",
+      "limsup_upper": "3/80"
+    },
+    {
+      "E": "3/2",
+      "factor": "13/213",
+      "liminf_lower": "39/14200",
+      "limsup_upper": "9/200"
+    },
+    {
+      "E": "31/20",
+      "factor": "129/2129",
+      "liminf_lower": "2709/851600",
+      "limsup_upper": "21/400"
+    },
+    {
+      "E": "8/5",
+      "factor": "8/133",
+      "liminf_lower": "12/3325",
+      "limsup_upper": "3/50"
+    },
+    {
+      "E": "33/20",
+      "factor": "127/2127",
+      "liminf_lower": "1143/283600",
+      "limsup_upper": "27/400"
+    },
+    {
+      "E": "17/10",
+      "factor": "63/1063",
+      "liminf_lower": "189/42520",
+      "limsup_upper": "3/40"
+    },
+    {
+      "E": "7/4",
+      "factor": "1/17",
+      "liminf_lower": "27/6800",
+      "limsup_upper": "27/400"
+    },
+    {
+      "E": "9/5",
+      "factor": "31/531",
+      "liminf_lower": "31/8850",
+      "limsup_upper": "3/50"
+    },
+    {
+      "E": "37/20",
+      "factor": "123/2123",
+      "liminf_lower": "2583/849200",
+      "limsup_upper": "21/400"
+    },
+    {
+      "E": "19/10",
+      "factor": "61/1061",
+      "liminf_lower": "549/212200",
+      "limsup_upper": "9/200"
+    },
+    {
+      "E": "39/20",
+      "factor": "121/2121",
+      "liminf_lower": "121/56560",
+      "limsup_upper": "3/80"
+    },
+    {
+      "E": "2",
+      "factor": "3/53",
+      "liminf_lower": "9/5300",
+      "limsup_upper": "3/100"
+    },
+    {
+      "E": "41/20",
+      "factor": "119/2119",
+      "liminf_lower": "1071/847600",
+      "limsup_upper": "9/400"
+    },
+    {
+      "E": "21/10",
+      "factor": "59/1059",
+      "liminf_lower": "59/70600",
+      "limsup_upper": "3/200"
+    },
+    {
+      "E": "43/20",
+      "factor": "117/2117",
+      "liminf_lower": "351/846800",
+      "limsup_upper": "3/400"
+    }
+  ],
+  "counts": {
+    "endpoint_protocols": 2,
+    "budget_chords": 19,
+    "physical_separation_protocols": 27,
+    "bath_stability_groups": 900,
+    "tail_transfers": 9,
+    "coefficient_controls": 19
+  },
+  "scope": "Exact all-dimension Lagrange dual on the exposed interval with strict positive primal gap by K2010; dimension-uniform faithful-bath stability by trace contractivity. 23-level multiplicative gap reduction and unrestricted Theta(delta) rate by written proof. No hard-budget finite attainment, sharp coefficient or numerical unrestricted gap claimed. Bath endpoints with missing support are excluded.",
+  "inputs": {
+    "explorations/conditional-build/k2010-countable-thermal-attainment-2026-10-24.md": "183165378f00ccc0123c112105d7c8ab0488474646c25ae05124694357b49436",
+    "explorations/conditional-build/k1950-global-catalyst-energy-certificates-2026-10-22.md": "8660cfec104f56df5fb749f021f2b4da69837371f8174a08f1ff3730301b6e95",
+    "explorations/conditional-build/k2008-effective-thermal-dimension-approximation-2026-10-24.md": "a1807593d1fefcad33d87670551ef630036a0e8d0fad851bdc5681097994f25d",
+    "tests/channel-swings/k2010_countable_thermal_attainment.py": "5a7f956b25a51c0720a8679058ce6a64ff66105e5f2768b3af70c929b3cf05aa",
+    "explorations/conditional-build/k1998-uniform-small-spacing-transfer-2026-10-23.md": "faf0c9f8a05a29cb9f82a261c4c63c7c1c75aa9a54d427469264a221920ead86"
+  }
+}

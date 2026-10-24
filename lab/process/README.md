@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2011-nested-capped-pulse-construction](k2011-nested-capped-pulse-construction.json).
+- [k2012-thermal-duality-gap-and-bath-stability](k2012-thermal-duality-gap-and-bath-stability.json).
+
 - [k2009-robust-tight-cut-pulse-certificates](k2009-robust-tight-cut-pulse-certificates.json).
 - [k2010-countable-thermal-attainment](k2010-countable-thermal-attainment.json).
 

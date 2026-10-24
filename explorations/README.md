@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2011-nested-capped-pulse-construction](conditional-build/k2011-nested-capped-pulse-construction-2026-10-24.md).
+- [k2012-thermal-duality-gap-and-bath-stability](conditional-build/k2012-thermal-duality-gap-and-bath-stability-2026-10-24.md).
+
 - [k2009-robust-tight-cut-pulse-certificates](conditional-build/k2009-robust-tight-cut-pulse-certificates-2026-10-24.md).
 - [k2010-countable-thermal-attainment](conditional-build/k2010-countable-thermal-attainment-2026-10-24.md).
 
