@@ -7,6 +7,11 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-24: COMMON DEGREE DUALITY AND SHARP THERMAL DIMENSIONS.**
+> The0<delta<=1/2 thermal frontier and minimum physical dimensions for t1/2 and6/5<E<11/5 are explicit; do not repeat onset or sufficient-size arguments. Above1/2 the geometry and bank change, and the tested cutoff-nine tail secant is negative. The common degree-dual construction exists conditionally for supplied non-null q and density; its formal adjoint is indefinite, preserves full Jordan defects and cannot combine the complete four-scalar upper class with both this H and inherited positive-core conservation except at zero. A different coefficient/pairing class, or source-owned constraint selecting the transported positive core, is substantive new work. Capped-primal wings still need continuum-feasible slack. Preserve source uncertainty and full20,K/C/accessibility,mirror/fullII,normaljets,2+1 and observed-chirality debts.
+> Prior banners preserve history; source, ledger and canon remain unchanged.
+
+
 > **2026-10-24: COMPLETE THERMAL FRONTIER THROUGH ONE HALF.**
 > The entire0<delta<=1/2 thermal optimum at t1/2 and6/5<E<11/5 is now explicit; do not repeat old onset brackets or posttransition upper-bound status. Above1/2, offset-delta unions fail spacing and the least placement depends on full shape difference sets. For C/B shapes the shift becomes6+delta, and the resulting shallow slope does not give a positive cutoff-nine tail coefficient. A new finite program/transfer is needed; the current complete bank does not establish the wide regime. Exact minimal dimensions and optimal faces remain unclassified in the new strips. Preserve capped-wing feasibility and source-common-bar alternatives, full20,K/C/accessibility,mirror/fullII,normaljets,2+1 and observed-chirality debts.
 > Prior banners preserve history; source, ledger and canon remain unchanged.

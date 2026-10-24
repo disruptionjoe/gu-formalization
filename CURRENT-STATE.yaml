@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: fd6110f5905ceb93d95584148cc2dc987e0dc4c3
+revision_basis: 9655750c8db9f8c4530613ea6779d06ae1a00234
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,18 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2021 completes one explicit common degree-dual formal operator on the full1920 raw
+    carrier, including moving non-null covectors, positive densities, inverse maps and every
+    derivative term. K2022 proves that this completion preserves the full Jordan
+    obstruction, rejects the existing massive repair and yields a zero-only intersection
+    between full H-adjointness and inherited positive-core conservation in the complete
+    four-scalar upper-preserving class; the separate positive invariant128 core transports
+    intact. K2023 classifies exact optimal thermal contacts and promotes the previous
+    sufficient7/12/14/10/5 physical sizes to sharp minima, with the correct closed
+    transition and crossing choices. These are conditional internal mathematics, not source
+    selection, positive full physics or a GU verdict.
+
+    Historical predecessor (not live):
     K2019 certifies the full cutoff-nine posttransition thermal frontier for4/15<=delta<=1/2
     and6/5<E<11/5, discovering exact additional branch transitions36/91 and2/5. K2020 proves
     zero-loss unnormalized upper-tail erasure for every faithful thermal bath, then
@@ -16263,6 +16275,18 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k2021-common-degree-dual-operator-2026-10-24.md
+    - lab/process/k2021-common-degree-dual-operator.json
+    - tests/channel-swings/k2021_common_degree_dual_operator.py
+    - tests/channel-swings/k2021_common_degree_dual_operator_probe.py
+    - explorations/conditional-build/k2022-degree-dual-dynamics-boundary-2026-10-24.md
+    - lab/process/k2022-degree-dual-dynamics-boundary.json
+    - tests/channel-swings/k2022_degree_dual_dynamics_boundary.py
+    - tests/channel-swings/k2022_degree_dual_dynamics_boundary_probe.py
+    - explorations/conditional-build/k2023-thermal-optimal-dimension-2026-10-24.md
+    - lab/process/k2023-thermal-optimal-dimension.json
+    - tests/channel-swings/k2023_thermal_optimal_dimension.py
+    - tests/channel-swings/k2023_thermal_optimal_dimension_probe.py
     - explorations/conditional-build/k2019-posttransition-thermal-frontier-2026-10-24.md
     - lab/process/k2019-posttransition-thermal-frontier.json
     - tests/channel-swings/k2019_posttransition_thermal_frontier.py
@@ -17481,6 +17505,12 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can a genuinely different common pairing/coefficient class or an action-owned constraint
+  select a stable source-compatible carrier? Compare this with a new wide-spacing thermal
+  program and an explicit continuum-feasible capped-primal wing; changing q or density
+  alone cannot repair the established dynamics.
+
+  Historical predecessor (not live):
   What is the unrestricted thermal frontier above spacing1/2, where canonical component
   placement changes, and which current optimal protocols have globally minimal physical
   dimension? Compare the required new wide-spacing finite program and positive tail secant
@@ -21068,6 +21098,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  The0<delta<=1/2 thermal frontier and minimum physical dimensions for t1/2 and6/5<E<11/5
+  are explicit; do not repeat onset or sufficient-size arguments. Above1/2 the geometry
+  and bank change, and the tested cutoff-nine tail secant is negative. The common degree-
+  dual construction exists conditionally for supplied non-null q and density; its formal
+  adjoint is indefinite, preserves full Jordan defects and cannot combine the complete
+  four-scalar upper class with both this H and inherited positive-core conservation except
+  at zero. A different coefficient/pairing class, or source-owned constraint selecting the
+  transported positive core, is substantive new work. Capped-primal wings still need
+  continuum-feasible slack. Preserve source uncertainty and
+  full20,K/C/accessibility,mirror/fullII,normaljets,2+1 and observed-chirality debts.
+
+  Historical predecessor (not live):
   The entire0<delta<=1/2 thermal optimum at t1/2 and6/5<E<11/5 is now explicit; do not
   repeat old onset brackets or posttransition upper-bound status. Above1/2, offset-delta
   unions fail spacing and the least placement depends on full shape difference sets. For

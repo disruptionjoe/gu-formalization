@@ -1,5 +1,12 @@
 # Pre-contract wave probes
 
+- [k2021_common_degree_dual_operator](k2021_common_degree_dual_operator.py).
+- [k2021_common_degree_dual_operator_probe](k2021_common_degree_dual_operator_probe.py).
+- [k2022_degree_dual_dynamics_boundary](k2022_degree_dual_dynamics_boundary.py).
+- [k2022_degree_dual_dynamics_boundary_probe](k2022_degree_dual_dynamics_boundary_probe.py).
+- [k2023_thermal_optimal_dimension](k2023_thermal_optimal_dimension.py).
+- [k2023_thermal_optimal_dimension_probe](k2023_thermal_optimal_dimension_probe.py).
+
 - [k2019_posttransition_thermal_frontier](k2019_posttransition_thermal_frontier.py).
 - [k2019_posttransition_thermal_frontier_probe](k2019_posttransition_thermal_frontier_probe.py).
 - [k2020_posttransition_tail_and_resources](k2020_posttransition_tail_and_resources.py).

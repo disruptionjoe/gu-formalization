@@ -7,6 +7,10 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2021-common-degree-dual-operator](k2021-common-degree-dual-operator.json).
+- [k2022-degree-dual-dynamics-boundary](k2022-degree-dual-dynamics-boundary.json).
+- [k2023-thermal-optimal-dimension](k2023-thermal-optimal-dimension.json).
+
 - [k2019-posttransition-thermal-frontier](k2019-posttransition-thermal-frontier.json).
 - [k2020-posttransition-tail-and-resources](k2020-posttransition-tail-and-resources.json).
 

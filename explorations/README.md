@@ -7,6 +7,10 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2021-common-degree-dual-operator](conditional-build/k2021-common-degree-dual-operator-2026-10-24.md).
+- [k2022-degree-dual-dynamics-boundary](conditional-build/k2022-degree-dual-dynamics-boundary-2026-10-24.md).
+- [k2023-thermal-optimal-dimension](conditional-build/k2023-thermal-optimal-dimension-2026-10-24.md).
+
 - [k2019-posttransition-thermal-frontier](conditional-build/k2019-posttransition-thermal-frontier-2026-10-24.md).
 - [k2020-posttransition-tail-and-resources](conditional-build/k2020-posttransition-tail-and-resources-2026-10-24.md).
 

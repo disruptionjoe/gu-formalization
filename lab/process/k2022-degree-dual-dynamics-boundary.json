@@ -1,0 +1,264 @@
+{
+  "full_upper_preserving_scalar_class": {
+    "rank": 1,
+    "rows": [
+      [
+        [
+          0,
+          159
+        ],
+        [
+          "24",
+          "-4172/33"
+        ]
+      ]
+    ],
+    "upper_adjoint_survivor": [
+      "1043/198",
+      "1",
+      "-1043/594",
+      "-1/3"
+    ],
+    "inherited_positive_conservation_line": [
+      "589/66",
+      "1",
+      "-7559/594",
+      "-1/3"
+    ],
+    "intersection": "zero_only",
+    "constraint_difference": "-362/99",
+    "scope": "Complete K1967 upper-preserving four-scalar class, this fixed H and inherited core energy; arbitrary lower return cannot change the upper defect. Upper-adjoint survivor alone is not a claimed full completion."
+  },
+  "result_id": "K2022",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "mass_defect": {
+    "entries": 26880,
+    "upper_entries": 23296,
+    "witness": [
+      0,
+      159,
+      "-9/4"
+    ]
+  },
+  "moving_congruence": [
+    {
+      "x": "0",
+      "defect_nonzero_entries": 26880
+    },
+    {
+      "x": "1/3",
+      "defect_nonzero_entries": 26880
+    },
+    {
+      "x": "-2/5",
+      "defect_nonzero_entries": 26880
+    }
+  ],
+  "jordan_chains": [
+    {
+      "block": 0,
+      "dimension": 20,
+      "u_squared_norm": "2",
+      "v_squared_norm": "2"
+    },
+    {
+      "block": 1,
+      "dimension": 20,
+      "u_squared_norm": "2",
+      "v_squared_norm": "2"
+    },
+    {
+      "block": 2,
+      "dimension": 20,
+      "u_squared_norm": "2",
+      "v_squared_norm": "2"
+    },
+    {
+      "block": 3,
+      "dimension": 20,
+      "u_squared_norm": "2",
+      "v_squared_norm": "2"
+    },
+    {
+      "block": 4,
+      "dimension": 20,
+      "u_squared_norm": "2",
+      "v_squared_norm": "2"
+    },
+    {
+      "block": 5,
+      "dimension": 20,
+      "u_squared_norm": "2",
+      "v_squared_norm": "2"
+    },
+    {
+      "block": 6,
+      "dimension": 20,
+      "u_squared_norm": "2",
+      "v_squared_norm": "2"
+    },
+    {
+      "block": 7,
+      "dimension": 20,
+      "u_squared_norm": "2",
+      "v_squared_norm": "2"
+    },
+    {
+      "block": 8,
+      "dimension": 20,
+      "u_squared_norm": "2",
+      "v_squared_norm": "2"
+    },
+    {
+      "block": 9,
+      "dimension": 20,
+      "u_squared_norm": "2",
+      "v_squared_norm": "2"
+    },
+    {
+      "block": 10,
+      "dimension": 20,
+      "u_squared_norm": "2",
+      "v_squared_norm": "2"
+    },
+    {
+      "block": 11,
+      "dimension": 20,
+      "u_squared_norm": "2",
+      "v_squared_norm": "2"
+    },
+    {
+      "block": 12,
+      "dimension": 20,
+      "u_squared_norm": "2",
+      "v_squared_norm": "2"
+    },
+    {
+      "block": 13,
+      "dimension": 20,
+      "u_squared_norm": "2",
+      "v_squared_norm": "2"
+    },
+    {
+      "block": 14,
+      "dimension": 20,
+      "u_squared_norm": "2",
+      "v_squared_norm": "2"
+    },
+    {
+      "block": 15,
+      "dimension": 20,
+      "u_squared_norm": "2",
+      "v_squared_norm": "2"
+    },
+    {
+      "block": 16,
+      "dimension": 20,
+      "u_squared_norm": "2",
+      "v_squared_norm": "2"
+    },
+    {
+      "block": 17,
+      "dimension": 20,
+      "u_squared_norm": "2",
+      "v_squared_norm": "2"
+    },
+    {
+      "block": 18,
+      "dimension": 20,
+      "u_squared_norm": "2",
+      "v_squared_norm": "2"
+    },
+    {
+      "block": 19,
+      "dimension": 20,
+      "u_squared_norm": "2",
+      "v_squared_norm": "2"
+    },
+    {
+      "block": 20,
+      "dimension": 20,
+      "u_squared_norm": "2",
+      "v_squared_norm": "2"
+    },
+    {
+      "block": 21,
+      "dimension": 20,
+      "u_squared_norm": "2",
+      "v_squared_norm": "2"
+    },
+    {
+      "block": 22,
+      "dimension": 20,
+      "u_squared_norm": "2",
+      "v_squared_norm": "2"
+    },
+    {
+      "block": 23,
+      "dimension": 20,
+      "u_squared_norm": "2",
+      "v_squared_norm": "2"
+    },
+    {
+      "block": 24,
+      "dimension": 20,
+      "u_squared_norm": "2",
+      "v_squared_norm": "2"
+    },
+    {
+      "block": 25,
+      "dimension": 20,
+      "u_squared_norm": "2",
+      "v_squared_norm": "2"
+    },
+    {
+      "block": 26,
+      "dimension": 20,
+      "u_squared_norm": "2",
+      "v_squared_norm": "2"
+    },
+    {
+      "block": 27,
+      "dimension": 20,
+      "u_squared_norm": "2",
+      "v_squared_norm": "2"
+    },
+    {
+      "block": 28,
+      "dimension": 20,
+      "u_squared_norm": "2",
+      "v_squared_norm": "2"
+    },
+    {
+      "block": 29,
+      "dimension": 20,
+      "u_squared_norm": "2",
+      "v_squared_norm": "2"
+    },
+    {
+      "block": 30,
+      "dimension": 20,
+      "u_squared_norm": "2",
+      "v_squared_norm": "2"
+    },
+    {
+      "block": 31,
+      "dimension": 20,
+      "u_squared_norm": "2",
+      "v_squared_norm": "2"
+    }
+  ],
+  "inverse_derivative_controls": [
+    "0",
+    "1/3",
+    "-2/5"
+  ],
+  "scope": "New composition on the supplied degree-dual class; no positive full evolution, no common-form realization of the fixed K1967 mass, inherited positive invariant core survives with transported observation. No GU verdict.",
+  "inputs": {
+    "lab/process/k1951-coordinated-zero-southeast-principal.json": "58ed2f1f9538cc3b47eb58322c61fa681521deb5298f20bdbd5acd6b932e7547",
+    "lab/process/k1967-paired-raw-coefficient-observation.json": "1c0d2057ec2942308c260f811a6b9f4c08a74dcec6d0c19cb25b5bc73eef8886",
+    "lab/process/k2021-common-degree-dual-operator.json": "1d7e615a62bba89dd0a0a9dd3705ce63fb9e00d9a2e4e2d62d30c07cf2aa9c7f"
+  }
+}

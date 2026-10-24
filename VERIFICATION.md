@@ -7,6 +7,26 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-24: Common degree duality and sharp thermal dimensions
+
+K2021 completes one explicit common degree-dual formal operator on the full1920 raw
+carrier, including moving non-null covectors, positive densities, inverse maps and every
+derivative term. K2022 proves that this completion preserves the full Jordan
+obstruction, rejects the existing massive repair and yields a zero-only intersection
+between full H-adjointness and inherited positive-core conservation in the complete
+four-scalar upper-preserving class; the separate positive invariant128 core transports
+intact. K2023 classifies exact optimal thermal contacts and promotes the previous
+sufficient7/12/14/10/5 physical sizes to sharp minima, with the correct closed
+transition and crossing choices. These are conditional internal mathematics, not source
+selection, positive full physics or a GU verdict.
+
+- [K2021](explorations/conditional-build/k2021-common-degree-dual-operator-2026-10-24.md).
+- [K2022](explorations/conditional-build/k2022-degree-dual-dynamics-boundary-2026-10-24.md).
+- [K2023](explorations/conditional-build/k2023-thermal-optimal-dimension-2026-10-24.md).
+
+Exact original raw Clifford matrices and independent column-action reconstruction verify the common-form identities and moving derivative terms. Both full-mass reconstructions and32 stored Jordan chains verify the dynamics limits, including the complete scalar upper-defect rank. Exact thermal root/domain enumeration matches the entire earlier certified polynomial bank, with6 isolated and12 persistent contact records, exhaustive smaller completions and56 actual optimal physical witnesses. Internal same-author checks are not external expert or proof-assistant acceptance.
+
+
 ## 2026-10-24: Complete thermal frontier through one half
 
 K2019 certifies the full cutoff-nine posttransition thermal frontier for4/15<=delta<=1/2
