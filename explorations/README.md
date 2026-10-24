@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2028-all-grade-raw-common-form](conditional-build/k2028-all-grade-raw-common-form-2026-10-24.md).
+- [k2029-multicomponent-thermal-placement](conditional-build/k2029-multicomponent-thermal-placement-2026-10-24.md).
+
 - [k2026-compatible-mass-moduli](conditional-build/k2026-compatible-mass-moduli-2026-10-24.md).
 - [k2027-thermal-pattern-frontier](conditional-build/k2027-thermal-pattern-frontier-2026-10-24.md).
 

@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2028-all-grade-raw-common-form](k2028-all-grade-raw-common-form.json).
+- [k2029-multicomponent-thermal-placement](k2029-multicomponent-thermal-placement.json).
+
 - [k2026-compatible-mass-moduli](k2026-compatible-mass-moduli.json).
 - [k2027-thermal-pattern-frontier](k2027-thermal-pattern-frontier.json).
 

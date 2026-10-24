@@ -8,6 +8,25 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-24: All-grade coefficients and unrestricted thermal frontier
+
+K2028 exhausts all 229376 real raw connection coefficients: common H leaves 8388, upper
+core invariance leaves 1, and positive conservation forces 0. A rank 128 southeast
+repair restores invariance only. The complete complex Hermitian branch has 13 directions
+with 4 scalar/vector images and 9 invisible directions; constant images shift
+energy/momentum without a global mass gap, while smooth potentials retain local current
+conservation and gauge curvature. K2029 proves F(E)=(985095-61407E)/2040416 for
+unrestricted finite/countable catalysts with 1/2<delta<=1 and 7/5<=E<=8/5, including
+multiple occupied components. Exact placement and all-energy certificates yield the
+unique optimal diagonal, sharp 17 physical levels, component-population stability and a
+strict right spacing jump at1/2. Source/ledger/canon verdicts remain unchanged.
+
+- [K2028](explorations/conditional-build/k2028-all-grade-raw-common-form-2026-10-24.md).
+- [K2029](explorations/conditional-build/k2029-multicomponent-thermal-placement-2026-10-24.md).
+
+Exact producer and separate raw-action replay cover 8388 real and 8232 imaginary columns, all 255 row blocks, complete kernels and modular rank minors. The real survivor has rank 128 energy/lower defects and an explicit southeast repair; the complex image has exact rank 4. Thermal producer and independent bath-shell replay certify 9150 global duals and 13 short-placement duals, with 901 forced-prefix controls, 3 actual half-spacing counterexamples and physical 17-level attainment. Six exact polynomial gauge-curvature identities and a nonzero-curvature example also pass. Five source faults (including an omitted phase-connection term) and five thermal faults alter mathematics; 6 provenance hashes are separate. Same-author internal checks, no external specialist or proof-assistant certification.
+
+
 ## 2026-10-24: Complete mass space and connected thermal frontier
 
 K2026 completely classifies the fixed-core compatible mass space:256 real dimensions,

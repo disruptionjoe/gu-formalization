@@ -7,6 +7,11 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-24: ALL-GRADE COEFFICIENTS AND UNRESTRICTED THERMAL FRONTIER.**
+> Compare a changed common form/contraction or action-owned stable-core constraint against the surviving 13-dimensional complex raw family, whose 4 core images are supplied scalar/vector potentials and cannot produce a constant isotropic mass. Do not repeat higher-grade real searches or infer a physical GU gauge theory. Thermal work next needs new contacts/certificates outside E=[7/5,8/5] or another bath temperature; arbitrary component counts, equality and sharp 17 dimension in this rectangle are settled. Exact capped-wing continuum marginals, full 20/K-C/accessibility, mirror/fullII, normal jets,2+1 and observed chirality remain open.
+> Prior banners preserve history; source, ledger and canon remain unchanged.
+
+
 > **2026-10-24: COMPLETE MASS SPACE AND CONNECTED THERMAL FRONTIER.**
 > Compare a source-compatible common coefficient/constraint against the full256 mass space and gapped sign circle; do not infer protected wall modes or a GU mass from a free extension. For thermal budgets[7/5,8/5], test multiple occupied components with actual full-spectrum spacing and placement against the proven connected17-level frontier. Single-component lengthening, its countable tail, diagonal equality and minimum dimension are settled. Capped-wing continuum feasibility and full20/K-C/accessibility, mirror/fullII, normal jets,2+1 and observed chirality remain separate debts.
 > Prior banners preserve history; source, ledger and canon remain unchanged.

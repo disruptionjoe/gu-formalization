@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 571f4402e9e7966b8cdd2d83fcfe727c7bda8d2a
+revision_basis: a0c34a05add1f119365a80f819d1b6c1b8a886c0
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,18 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2028 exhausts all 229376 real raw connection coefficients: common H leaves 8388, upper
+    core invariance leaves 1, and positive conservation forces 0. A rank 128 southeast
+    repair restores invariance only. The complete complex Hermitian branch has 13 directions
+    with 4 scalar/vector images and 9 invisible directions; constant images shift
+    energy/momentum without a global mass gap, while smooth potentials retain local current
+    conservation and gauge curvature. K2029 proves F(E)=(985095-61407E)/2040416 for
+    unrestricted finite/countable catalysts with 1/2<delta<=1 and 7/5<=E<=8/5, including
+    multiple occupied components. Exact placement and all-energy certificates yield the
+    unique optimal diagonal, sharp 17 physical levels, component-population stability and a
+    strict right spacing jump at1/2. Source/ledger/canon verdicts remain unchanged.
+
+    Historical predecessor (not live):
     K2026 completely classifies the fixed-core compatible mass space:256 real dimensions,
     with128 further directions anticommuting with an explicit normalized mass. Two signed-
     permutation unit masses give exact gaps, full zero-southeast H-self-adjoint extensions
@@ -16299,6 +16311,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k2028-all-grade-raw-common-form-2026-10-24.md
+    - lab/process/k2028-all-grade-raw-common-form.json
+    - tests/channel-swings/k2028_all_grade_raw_common_form.py
+    - tests/channel-swings/k2028_all_grade_raw_common_form_probe.py
+    - explorations/conditional-build/k2029-multicomponent-thermal-placement-2026-10-24.md
+    - lab/process/k2029-multicomponent-thermal-placement.json
+    - tests/channel-swings/k2029_multicomponent_thermal_placement.py
+    - tests/channel-swings/k2029_multicomponent_thermal_placement_probe.py
     - explorations/conditional-build/k2026-compatible-mass-moduli-2026-10-24.md
     - lab/process/k2026-compatible-mass-moduli.json
     - tests/channel-swings/k2026_compatible_mass_moduli.py
@@ -17545,6 +17565,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which changed source input can select positive physical dynamics after the complete
+  fixed raw coefficient classification, and what new thermal phase follows outside the
+  now-solved unrestricted wide-spacing rectangle?
+
+  Historical predecessor (not live):
   Can the source raw common-connection tie or an action-owned physical selector realize
   the now-classified compatible mass space? Can multiple thermal occupied components beat
   the all-size connected frontier once their complete physical placement costs are
@@ -21151,6 +21176,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Compare a changed common form/contraction or action-owned stable-core constraint against
+  the surviving 13-dimensional complex raw family, whose 4 core images are supplied
+  scalar/vector potentials and cannot produce a constant isotropic mass. Do not repeat
+  higher-grade real searches or infer a physical GU gauge theory. Thermal work next needs
+  new contacts/certificates outside E=[7/5,8/5] or another bath temperature; arbitrary
+  component counts, equality and sharp 17 dimension in this rectangle are settled. Exact
+  capped-wing continuum marginals, full 20/K-C/accessibility, mirror/fullII, normal
+  jets,2+1 and observed chirality remain open.
+
+  Historical predecessor (not live):
   Compare a source-compatible common coefficient/constraint against the full256 mass space
   and gapped sign circle; do not infer protected wall modes or a GU mass from a free
   extension. For thermal budgets[7/5,8/5], test multiple occupied components with actual

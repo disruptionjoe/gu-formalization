@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2028_all_grade_raw_common_form](k2028_all_grade_raw_common_form.py).
+- [k2028_all_grade_raw_common_form_probe](k2028_all_grade_raw_common_form_probe.py).
+- [k2029_multicomponent_thermal_placement](k2029_multicomponent_thermal_placement.py).
+- [k2029_multicomponent_thermal_placement_probe](k2029_multicomponent_thermal_placement_probe.py).
+
 - [k2026_compatible_mass_moduli](k2026_compatible_mass_moduli.py).
 - [k2026_compatible_mass_moduli_probe](k2026_compatible_mass_moduli_probe.py).
 - [k2027_thermal_pattern_frontier](k2027_thermal_pattern_frontier.py).
