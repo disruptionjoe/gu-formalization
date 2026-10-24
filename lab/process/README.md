@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2009-robust-tight-cut-pulse-certificates](k2009-robust-tight-cut-pulse-certificates.json).
+- [k2010-countable-thermal-attainment](k2010-countable-thermal-attainment.json).
+
 - [k2007-analytic-wing-projection](k2007-analytic-wing-projection.json).
 - [k2008-effective-thermal-dimension-approximation](k2008-effective-thermal-dimension-approximation.json).
 

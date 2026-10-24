@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 8b1cae8cc36132df95181c4803f9872e131edb07
+revision_basis: 9ffc62628c7f8f683fdd7d5b0fc8d410cf8df7de
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2009 proves continuum tight-cut stability with certified cap and marginal errors,
+    propagates forced-support error into all three residual regions, and prices approximate
+    candidates with bounded Fenchel witnesses; the K1989 witness yields conditional squared
+    norm lower 2.349356658659544 at cap, row and column errors each 1e-6. It does not
+    construct an exactly feasible pulse. K2010 proves that the positive-spacing unrestricted
+    thermal infimum is attained by a finite or countably infinite catalyst with at most two
+    populated components. It proves unrestricted parameter lower semicontinuity and interior
+    spacing continuity, and a strictly positive spacing penalty uniform over dimension on
+    compact interior portions of the t=1/2 exposed energy interval (6/5,11/5). It also
+    proves finite attainment of every positive-energy-price problem with the explicit bound
+    2N+7 levels for integer N>1+1/lambda at spacing at most one. Hard-budget finite
+    attainment, an explicit optimizer, a numerical gap and sharp spacing/resource rates
+    remain open. Source, physics-ledger and canon verdicts are unchanged.
+
+    Historical predecessor (not live):
     K2007 solves every marginal of the actual full residual wing analytically when the cap
     is relaxed, reducing the minimum squared norm to a one-dimensional rational/log
     integral. Its positive-area cap penalty and scaled clipped dual are valid but weaker
@@ -16192,6 +16207,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k2009-robust-tight-cut-pulse-certificates-2026-10-24.md
+    - lab/process/k2009-robust-tight-cut-pulse-certificates.json
+    - tests/channel-swings/k2009_robust_tight_cut_pulse_certificates.py
+    - tests/channel-swings/k2009_robust_tight_cut_pulse_certificates_probe.py
+    - explorations/conditional-build/k2010-countable-thermal-attainment-2026-10-24.md
+    - lab/process/k2010-countable-thermal-attainment.json
+    - tests/channel-swings/k2010_countable_thermal_attainment.py
+    - tests/channel-swings/k2010_countable_thermal_attainment_probe.py
     - explorations/conditional-build/k2007-analytic-wing-projection-2026-10-24.md
     - lab/process/k2007-analytic-wing-projection.json
     - tests/channel-swings/k2007_analytic_wing_projection.py
@@ -17362,6 +17385,12 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can the attained countable positive-spacing thermal optimum be proved finite or assigned
+  a sharp spacing penalty, and can a globally capped nonmonotone wing construction satisfy
+  every marginal with certified errors? Compare these with a concretely specified source-
+  compatible common barred reality map and physical quotient.
+
+  Historical predecessor (not live):
   Can a nonmonotone capped full-wing construction match the exact K2005 corner while
   satisfying every marginal, and can the effective thermal dimension rate be matched by a
   nontrivial necessary lower bound or an exact positive-spacing frontier? Compare those
@@ -20911,6 +20940,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Use K2010 countable attainment and strict all-dimension spacing penalty to target finite
+  attainment, a constructive gap or sharp small-spacing rate; do not repeat
+  finite/countable infimum equality or optimizer existence. For pulses, K2009 gives
+  rigorous cap/marginal error budgets and forced-region diagnostics but no feasible
+  correction; compare an actual capped full-wing construction or cap-preserving repair
+  with all-dimension wide-spacing rigidity. Keep K2007 exact-feasible norm lower2.361527
+  distinct from approximate-candidate bounds and preserve source-common-bar/physical-
+  quotient, full20, K/C, mirror/fullII, normal-jet,2+1 and observed-chirality debts.
+
+  Historical predecessor (not live):
   Use K2007's exact full-wing projection and certified dual to discriminate a globally
   capped nonmonotone construction or sharpen the attainable primal-dual gap, respecting
   K2005's forced endpoint divergence and failed monotone continuation. For thermal work,

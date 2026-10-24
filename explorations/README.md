@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2009-robust-tight-cut-pulse-certificates](conditional-build/k2009-robust-tight-cut-pulse-certificates-2026-10-24.md).
+- [k2010-countable-thermal-attainment](conditional-build/k2010-countable-thermal-attainment-2026-10-24.md).
+
 - [k2007-analytic-wing-projection](conditional-build/k2007-analytic-wing-projection-2026-10-24.md).
 - [k2008-effective-thermal-dimension-approximation](conditional-build/k2008-effective-thermal-dimension-approximation-2026-10-24.md).
 

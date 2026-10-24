@@ -7,6 +7,11 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-24: ROBUST PULSE ERRORS AND COUNTABLE THERMAL ATTAINMENT.**
+> Use K2010 countable attainment and strict all-dimension spacing penalty to target finite attainment, a constructive gap or sharp small-spacing rate; do not repeat finite/countable infimum equality or optimizer existence. For pulses, K2009 gives rigorous cap/marginal error budgets and forced-region diagnostics but no feasible correction; compare an actual capped full-wing construction or cap-preserving repair with all-dimension wide-spacing rigidity. Keep K2007 exact-feasible norm lower2.361527 distinct from approximate-candidate bounds and preserve source-common-bar/physical-quotient, full20, K/C, mirror/fullII, normal-jet,2+1 and observed-chirality debts.
+> Prior banners preserve history; source, ledger and canon remain unchanged.
+
+
 > **2026-10-24: ANALYTIC WING BOUND AND EFFECTIVE THERMAL DIMENSION.**
 > Use K2007's exact full-wing projection and certified dual to discriminate a globally capped nonmonotone construction or sharpen the attainable primal-dual gap, respecting K2005's forced endpoint divergence and failed monotone continuation. For thermal work, compare a sharp necessary dimension/error rate or an exact all-dimension positive-spacing frontier with K2008's explicit sufficient rate and countable equality; do not repeat a three-component census or merely prove the same limits. Recompare an actual source-compatible common bar/reality construction while retaining full20, K/C/accessibility, mirror/fullII, normal-jets, physical-quotient,2+1 and observed-nonchirality debts.
 > Prior banners preserve history; source, ledger and canon remain unchanged.

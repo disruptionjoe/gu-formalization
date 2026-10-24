@@ -8,6 +8,28 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-24: Robust pulse errors and countable thermal attainment
+
+K2009 proves continuum tight-cut stability with certified cap and marginal errors,
+propagates forced-support error into all three residual regions, and prices approximate
+candidates with bounded Fenchel witnesses; the K1989 witness yields conditional squared
+norm lower 2.349356658659544 at cap, row and column errors each 1e-6. It does not
+construct an exactly feasible pulse. K2010 proves that the positive-spacing unrestricted
+thermal infimum is attained by a finite or countably infinite catalyst with at most two
+populated components. It proves unrestricted parameter lower semicontinuity and interior
+spacing continuity, and a strictly positive spacing penalty uniform over dimension on
+compact interior portions of the t=1/2 exposed energy interval (6/5,11/5). It also
+proves finite attainment of every positive-energy-price problem with the explicit bound
+2N+7 levels for integer N>1+1/lambda at spacing at most one. Hard-budget finite
+attainment, an explicit optimizer, a numerical gap and sharp spacing/resource rates
+remain open. Source, physics-ledger and canon verdicts are unchanged.
+
+- [K2009](explorations/conditional-build/k2009-robust-tight-cut-pulse-certificates-2026-10-24.md).
+- [K2010](explorations/conditional-build/k2010-countable-thermal-attainment-2026-10-24.md).
+
+K2009 producer/replay72 exact cut controls238 pointwise controls3 actual-model budgets; separate probe72 cut identities7 geometry integrals3 budgets and4 mathematical faults. K2010 producer/replay27 resonance mergers4 escaping sequences27 geometric prefixes4 tail margins and3 positive-price physical transfers; separate probe69 arithmetic groups and4 mathematical faults. Eight input hashes separately check provenance. Universal claims rest on the written proofs and cited predecessor results; these are same-author internal checks, without independent specialist or proof-assistant acceptance.
+
+
 ## 2026-10-24: Analytic wing bound and effective thermal dimension
 
 K2007 solves every marginal of the actual full residual wing analytically when the cap

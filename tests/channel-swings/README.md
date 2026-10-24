@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2009_robust_tight_cut_pulse_certificates](k2009_robust_tight_cut_pulse_certificates.py).
+- [k2009_robust_tight_cut_pulse_certificates_probe](k2009_robust_tight_cut_pulse_certificates_probe.py).
+- [k2010_countable_thermal_attainment](k2010_countable_thermal_attainment.py).
+- [k2010_countable_thermal_attainment_probe](k2010_countable_thermal_attainment_probe.py).
+
 - [k2007_analytic_wing_projection](k2007_analytic_wing_projection.py).
 - [k2007_analytic_wing_projection_probe](k2007_analytic_wing_projection_probe.py).
 - [k2008_effective_thermal_dimension_approximation](k2008_effective_thermal_dimension_approximation.py).

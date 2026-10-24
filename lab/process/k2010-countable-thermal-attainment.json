@@ -1,0 +1,505 @@
+{
+  "result_id": "K2010",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "resonance_mergers": [
+    {
+      "t": "1/3",
+      "w": "1/5",
+      "n": 2,
+      "old": "1/2",
+      "limit": "2/5"
+    },
+    {
+      "t": "1/3",
+      "w": "1/5",
+      "n": 5,
+      "old": "1/2",
+      "limit": "2/5"
+    },
+    {
+      "t": "1/3",
+      "w": "1/5",
+      "n": 11,
+      "old": "1/2",
+      "limit": "2/5"
+    },
+    {
+      "t": "1/3",
+      "w": "1/2",
+      "n": 2,
+      "old": "1/2",
+      "limit": "27/80"
+    },
+    {
+      "t": "1/3",
+      "w": "1/2",
+      "n": 5,
+      "old": "1/2",
+      "limit": "27/80"
+    },
+    {
+      "t": "1/3",
+      "w": "1/2",
+      "n": 11,
+      "old": "1/2",
+      "limit": "27/80"
+    },
+    {
+      "t": "1/3",
+      "w": "4/5",
+      "n": 2,
+      "old": "1/2",
+      "limit": "177/400"
+    },
+    {
+      "t": "1/3",
+      "w": "4/5",
+      "n": 5,
+      "old": "1/2",
+      "limit": "177/400"
+    },
+    {
+      "t": "1/3",
+      "w": "4/5",
+      "n": 11,
+      "old": "1/2",
+      "limit": "177/400"
+    },
+    {
+      "t": "1/2",
+      "w": "1/5",
+      "n": 2,
+      "old": "1/2",
+      "limit": "2/5"
+    },
+    {
+      "t": "1/2",
+      "w": "1/5",
+      "n": 5,
+      "old": "1/2",
+      "limit": "2/5"
+    },
+    {
+      "t": "1/2",
+      "w": "1/5",
+      "n": 11,
+      "old": "1/2",
+      "limit": "2/5"
+    },
+    {
+      "t": "1/2",
+      "w": "1/2",
+      "n": 2,
+      "old": "1/2",
+      "limit": "23/60"
+    },
+    {
+      "t": "1/2",
+      "w": "1/2",
+      "n": 5,
+      "old": "1/2",
+      "limit": "23/60"
+    },
+    {
+      "t": "1/2",
+      "w": "1/2",
+      "n": 11,
+      "old": "1/2",
+      "limit": "23/60"
+    },
+    {
+      "t": "1/2",
+      "w": "4/5",
+      "n": 2,
+      "old": "1/2",
+      "limit": "71/150"
+    },
+    {
+      "t": "1/2",
+      "w": "4/5",
+      "n": 5,
+      "old": "1/2",
+      "limit": "71/150"
+    },
+    {
+      "t": "1/2",
+      "w": "4/5",
+      "n": 11,
+      "old": "1/2",
+      "limit": "71/150"
+    },
+    {
+      "t": "3/4",
+      "w": "1/5",
+      "n": 2,
+      "old": "1/2",
+      "limit": "2/5"
+    },
+    {
+      "t": "3/4",
+      "w": "1/5",
+      "n": 5,
+      "old": "1/2",
+      "limit": "2/5"
+    },
+    {
+      "t": "3/4",
+      "w": "1/5",
+      "n": 11,
+      "old": "1/2",
+      "limit": "2/5"
+    },
+    {
+      "t": "3/4",
+      "w": "1/2",
+      "n": 2,
+      "old": "1/2",
+      "limit": "313/700"
+    },
+    {
+      "t": "3/4",
+      "w": "1/2",
+      "n": 5,
+      "old": "1/2",
+      "limit": "313/700"
+    },
+    {
+      "t": "3/4",
+      "w": "1/2",
+      "n": 11,
+      "old": "1/2",
+      "limit": "313/700"
+    },
+    {
+      "t": "3/4",
+      "w": "4/5",
+      "n": 2,
+      "old": "1/2",
+      "limit": "831/1750"
+    },
+    {
+      "t": "3/4",
+      "w": "4/5",
+      "n": 5,
+      "old": "1/2",
+      "limit": "831/1750"
+    },
+    {
+      "t": "3/4",
+      "w": "4/5",
+      "n": 11,
+      "old": "1/2",
+      "limit": "831/1750"
+    }
+  ],
+  "escaping_energy": [
+    {
+      "n": 4,
+      "tail": "1/4",
+      "mean": "11/4",
+      "l1_to_limit": "1/2"
+    },
+    {
+      "n": 8,
+      "tail": "1/8",
+      "mean": "19/8",
+      "l1_to_limit": "1/4"
+    },
+    {
+      "n": 16,
+      "tail": "1/16",
+      "mean": "35/16",
+      "l1_to_limit": "1/8"
+    },
+    {
+      "n": 32,
+      "tail": "1/32",
+      "mean": "67/32",
+      "l1_to_limit": "1/16"
+    }
+  ],
+  "geometric_limits": [
+    {
+      "t": "1/3",
+      "r": "1/4",
+      "k": 4,
+      "finite": "149/340",
+      "infinite": "7/16",
+      "tail": "1/256"
+    },
+    {
+      "t": "1/3",
+      "r": "1/4",
+      "k": 8,
+      "finite": "38229/87380",
+      "infinite": "7/16",
+      "tail": "1/65536"
+    },
+    {
+      "t": "1/3",
+      "r": "1/4",
+      "k": 12,
+      "finite": "9786709/22369620",
+      "infinite": "7/16",
+      "tail": "1/16777216"
+    },
+    {
+      "t": "1/3",
+      "r": "1/2",
+      "k": 4,
+      "finite": "101/300",
+      "infinite": "13/40",
+      "tail": "1/16"
+    },
+    {
+      "t": "1/3",
+      "r": "1/2",
+      "k": 8,
+      "finite": "1661/5100",
+      "infinite": "13/40",
+      "tail": "1/256"
+    },
+    {
+      "t": "1/3",
+      "r": "1/2",
+      "k": 12,
+      "finite": "3803/11700",
+      "infinite": "13/40",
+      "tail": "1/4096"
+    },
+    {
+      "t": "1/3",
+      "r": "3/4",
+      "k": 4,
+      "finite": "899/3500",
+      "infinite": "17/80",
+      "tail": "81/256"
+    },
+    {
+      "t": "1/3",
+      "r": "3/4",
+      "k": 8,
+      "finite": "263219/1179500",
+      "infinite": "17/80",
+      "tail": "6561/65536"
+    },
+    {
+      "t": "1/3",
+      "r": "3/4",
+      "k": 12,
+      "finite": "70063139/324915500",
+      "infinite": "17/80",
+      "tail": "531441/16777216"
+    },
+    {
+      "t": "1/2",
+      "r": "1/4",
+      "k": 4,
+      "finite": "1/2",
+      "infinite": "1/2",
+      "tail": "1/256"
+    },
+    {
+      "t": "1/2",
+      "r": "1/4",
+      "k": 8,
+      "finite": "1/2",
+      "infinite": "1/2",
+      "tail": "1/65536"
+    },
+    {
+      "t": "1/2",
+      "r": "1/4",
+      "k": 12,
+      "finite": "1/2",
+      "infinite": "1/2",
+      "tail": "1/16777216"
+    },
+    {
+      "t": "1/2",
+      "r": "1/2",
+      "k": 4,
+      "finite": "61/150",
+      "infinite": "2/5",
+      "tail": "1/16"
+    },
+    {
+      "t": "1/2",
+      "r": "1/2",
+      "k": 8,
+      "finite": "1021/2550",
+      "infinite": "2/5",
+      "tail": "1/256"
+    },
+    {
+      "t": "1/2",
+      "r": "1/2",
+      "k": 12,
+      "finite": "16381/40950",
+      "infinite": "2/5",
+      "tail": "1/4096"
+    },
+    {
+      "t": "1/2",
+      "r": "3/4",
+      "k": 4,
+      "finite": "579/1750",
+      "infinite": "3/10",
+      "tail": "81/256"
+    },
+    {
+      "t": "1/2",
+      "r": "3/4",
+      "k": 8,
+      "finite": "181299/589750",
+      "infinite": "3/10",
+      "tail": "6561/65536"
+    },
+    {
+      "t": "1/2",
+      "r": "3/4",
+      "k": 12,
+      "finite": "49091619/162457750",
+      "infinite": "3/10",
+      "tail": "531441/16777216"
+    },
+    {
+      "t": "3/4",
+      "r": "1/4",
+      "k": 4,
+      "finite": "341/850",
+      "infinite": "2/5",
+      "tail": "1/256"
+    },
+    {
+      "t": "3/4",
+      "r": "1/4",
+      "k": 8,
+      "finite": "87381/218450",
+      "infinite": "2/5",
+      "tail": "1/65536"
+    },
+    {
+      "t": "3/4",
+      "r": "1/4",
+      "k": 12,
+      "finite": "22369621/55924050",
+      "infinite": "2/5",
+      "tail": "1/16777216"
+    },
+    {
+      "t": "3/4",
+      "r": "1/2",
+      "k": 4,
+      "finite": "361/750",
+      "infinite": "12/25",
+      "tail": "1/16"
+    },
+    {
+      "t": "3/4",
+      "r": "1/2",
+      "k": 8,
+      "finite": "6121/12750",
+      "infinite": "12/25",
+      "tail": "1/256"
+    },
+    {
+      "t": "3/4",
+      "r": "1/2",
+      "k": 12,
+      "finite": "98281/204750",
+      "infinite": "12/25",
+      "tail": "1/4096"
+    },
+    {
+      "t": "3/4",
+      "r": "3/4",
+      "k": 4,
+      "finite": "3931/8750",
+      "infinite": "11/25",
+      "tail": "81/256"
+    },
+    {
+      "t": "3/4",
+      "r": "3/4",
+      "k": 8,
+      "finite": "1304011/2948750",
+      "infinite": "11/25",
+      "tail": "6561/65536"
+    },
+    {
+      "t": "3/4",
+      "r": "3/4",
+      "k": 12,
+      "finite": "357938491/812288750",
+      "infinite": "11/25",
+      "tail": "531441/16777216"
+    }
+  ],
+  "strict_tail_margins": [
+    {
+      "energy": "8",
+      "coefficient": "7/100"
+    },
+    {
+      "energy": "81/10",
+      "coefficient": "17/200"
+    },
+    {
+      "energy": "9",
+      "coefficient": "11/50"
+    },
+    {
+      "energy": "20",
+      "coefficient": "187/100"
+    }
+  ],
+  "positive_price_transfers": [
+    {
+      "price": "1/100",
+      "N": 102,
+      "remote_offset": "108",
+      "tail": "1/10000",
+      "before": "805317/2500000",
+      "after": "161/500",
+      "difference_upper": "-1/999900",
+      "dimension_bound": 211
+    },
+    {
+      "price": "1/20",
+      "N": 22,
+      "remote_offset": "28",
+      "tail": "1/10000",
+      "before": "205077/500000",
+      "after": "41/100",
+      "difference_upper": "-1/199980",
+      "dimension_bound": 51
+    },
+    {
+      "price": "3/20",
+      "N": 8,
+      "remote_offset": "14",
+      "tail": "1/10000",
+      "before": "157553/250000",
+      "after": "63/100",
+      "difference_upper": "-1/199980",
+      "dimension_bound": 23
+    }
+  ],
+  "counts": {
+    "merger_protocols": 27,
+    "escaping_sequences": 4,
+    "geometric_prefixes": 27,
+    "tail_coefficients": 4,
+    "positive_price_transfers": 3
+  },
+  "scope": "Proof-backed finite-or-countable attainment and strict all-dimension fixed-spacing exposed-line gap; finite arithmetic controls are not universal proofs; no finite optimizer, gap value, sharp rate or GU claim.",
+  "inputs": {
+    "explorations/conditional-build/k2008-effective-thermal-dimension-approximation-2026-10-24.md": "a1807593d1fefcad33d87670551ef630036a0e8d0fad851bdc5681097994f25d",
+    "explorations/conditional-build/k1950-global-catalyst-energy-certificates-2026-10-22.md": "8660cfec104f56df5fb749f021f2b4da69837371f8174a08f1ff3730301b6e95",
+    "lab/process/k1950-global-catalyst-energy-certificates.json": "c6a0f50bd6bc048f2915902ed6a6bfdc668eeca91838c62452f42676cd312b1d",
+    "explorations/conditional-build/k2006-uniform-two-component-spacing-2026-10-24.md": "3c2be7372ac49e84efd1acd6eaf333260b6ad6def9ba1cf22b266ae8beffb744"
+  }
+}
