@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 1d4c411f826a087d1d9780b8b534920e141e0e11
+revision_basis: 8b1cae8cc36132df95181c4803f9872e131edb07
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2007 solves every marginal of the actual full residual wing analytically when the cap
+    is relaxed, reducing the minimum squared norm to a one-dimensional rational/log
+    integral. Its positive-area cap penalty and scaled clipped dual are valid but weaker
+    than the inherited bound. Restricting K1989 potentials to the actual wing and replacing
+    forced/central regions by exact values certifies whole squared norm greater than
+    2.361527, improving 2.34940177149 with upper bound still below 2.739952052817663; a
+    weighted contraction bounds the marginal inverse operator norm by 2. K2008 proves an
+    explicit fixed-positive-spacing physical dimension approximation, with error at most
+    (E-1)/(N-E) using at most 2N+7 levels for integer N>E. The stated positive-gap trace-
+    class countable extension has the same infimum. A uniform energy-price bound yields
+    joint return error at most delta/2+(E-1)/(N-E). These are conditional internal results;
+    global capped wing feasibility, sharp dimension scaling and exact full positive-spacing
+    frontiers remain open. Source, ledger and canon verdicts are unchanged.
+
+    Historical predecessor (not live):
     K2005 constructs exact nonlinear coupled wing-corner potentials from positive entire
     inverse series, simultaneously matching actual row traces for s<1/55000 and terminal
     columns for delta<1/2500. Finite approximants retain exact half-plane columns with a
@@ -16177,6 +16192,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k2007-analytic-wing-projection-2026-10-24.md
+    - lab/process/k2007-analytic-wing-projection.json
+    - tests/channel-swings/k2007_analytic_wing_projection.py
+    - tests/channel-swings/k2007_analytic_wing_projection_probe.py
+    - explorations/conditional-build/k2008-effective-thermal-dimension-approximation-2026-10-24.md
+    - lab/process/k2008-effective-thermal-dimension-approximation.json
+    - tests/channel-swings/k2008_effective_thermal_dimension_approximation.py
+    - tests/channel-swings/k2008_effective_thermal_dimension_approximation_probe.py
     - explorations/conditional-build/k2005-coupled-wing-potentials-2026-10-24.md
     - lab/process/k2005-coupled-wing-potentials.json
     - tests/channel-swings/k2005_coupled_wing_potentials.py
@@ -17339,6 +17362,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can a nonmonotone capped full-wing construction match the exact K2005 corner while
+  satisfying every marginal, and can the effective thermal dimension rate be matched by a
+  nontrivial necessary lower bound or an exact positive-spacing frontier? Compare those
+  with a concretely specified source-compatible common barred reality map and physical
+  quotient.
+
+  Historical predecessor (not live):
   Can the exact coupled corner be matched to a globally feasible nonmonotone wing with
   controlled endpoint pairing, or can the complete two-shape thermal program yield new
   joint energy/spacing/temperature frontiers? Compare those against an actually specified
@@ -20881,6 +20911,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Use K2007's exact full-wing projection and certified dual to discriminate a globally
+  capped nonmonotone construction or sharpen the attainable primal-dual gap, respecting
+  K2005's forced endpoint divergence and failed monotone continuation. For thermal work,
+  compare a sharp necessary dimension/error rate or an exact all-dimension positive-
+  spacing frontier with K2008's explicit sufficient rate and countable equality; do not
+  repeat a three-component census or merely prove the same limits. Recompare an actual
+  source-compatible common bar/reality construction while retaining full20,
+  K/C/accessibility, mirror/fullII, normal-jets, physical-quotient,2+1 and observed-
+  nonchirality debts.
+
+  Historical predecessor (not live):
   Prioritize global nonmonotone wing matching from K2005's exact corner, checking actual
   full marginals and dual integrability before claiming gluing. Compare the complete K2006
   two-shape program for larger connected supports and joint (E,delta,t) frontiers or wide-

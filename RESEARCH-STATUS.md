@@ -8,6 +8,28 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-24: Analytic wing bound and effective thermal dimension
+
+K2007 solves every marginal of the actual full residual wing analytically when the cap
+is relaxed, reducing the minimum squared norm to a one-dimensional rational/log
+integral. Its positive-area cap penalty and scaled clipped dual are valid but weaker
+than the inherited bound. Restricting K1989 potentials to the actual wing and replacing
+forced/central regions by exact values certifies whole squared norm greater than
+2.361527, improving 2.34940177149 with upper bound still below 2.739952052817663; a
+weighted contraction bounds the marginal inverse operator norm by 2. K2008 proves an
+explicit fixed-positive-spacing physical dimension approximation, with error at most
+(E-1)/(N-E) using at most 2N+7 levels for integer N>E. The stated positive-gap trace-
+class countable extension has the same infimum. A uniform energy-price bound yields
+joint return error at most delta/2+(E-1)/(N-E). These are conditional internal results;
+global capped wing feasibility, sharp dimension scaling and exact full positive-spacing
+frontiers remain open. Source, ledger and canon verdicts are unchanged.
+
+- [K2007](explorations/conditional-build/k2007-analytic-wing-projection-2026-10-24.md).
+- [K2008](explorations/conditional-build/k2008-effective-thermal-dimension-approximation-2026-10-24.md).
+
+K2008 full producer and replay:84 physical cases,18 infinite-family controls,12 resource budgets; independent probe125 control groups and6 mathematical faults. K2007 exact producer, independent rational/log and geometric probe certify the common rounded lower2.361527; full executed counts and mathematical faults are in the linked note. Scoped native schema, typing, kill, population, public-path and currency checks accompany publication; no proof-assistant or external certification.
+
+
 ## 2026-10-24: Coupled corner potentials and uniform thermal spacing
 
 K2005 constructs exact nonlinear coupled wing-corner potentials from positive entire

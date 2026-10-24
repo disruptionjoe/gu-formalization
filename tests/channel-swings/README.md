@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2007_analytic_wing_projection](k2007_analytic_wing_projection.py).
+- [k2007_analytic_wing_projection_probe](k2007_analytic_wing_projection_probe.py).
+- [k2008_effective_thermal_dimension_approximation](k2008_effective_thermal_dimension_approximation.py).
+- [k2008_effective_thermal_dimension_approximation_probe](k2008_effective_thermal_dimension_approximation_probe.py).
+
 - [k2005_coupled_wing_potentials](k2005_coupled_wing_potentials.py).
 - [k2005_coupled_wing_potentials_probe](k2005_coupled_wing_potentials_probe.py).
 - [k2006_uniform_two_component_spacing](k2006_uniform_two_component_spacing.py).

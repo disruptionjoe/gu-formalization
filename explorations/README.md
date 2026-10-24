@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2007-analytic-wing-projection](conditional-build/k2007-analytic-wing-projection-2026-10-24.md).
+- [k2008-effective-thermal-dimension-approximation](conditional-build/k2008-effective-thermal-dimension-approximation-2026-10-24.md).
+
 - [k2005-coupled-wing-potentials](conditional-build/k2005-coupled-wing-potentials-2026-10-24.md).
 - [k2006-uniform-two-component-spacing](conditional-build/k2006-uniform-two-component-spacing-2026-10-24.md).
 

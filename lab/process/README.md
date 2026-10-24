@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2007-analytic-wing-projection](k2007-analytic-wing-projection.json).
+- [k2008-effective-thermal-dimension-approximation](k2008-effective-thermal-dimension-approximation.json).
+
 - [k2005-coupled-wing-potentials](k2005-coupled-wing-potentials.json).
 - [k2006-uniform-two-component-spacing](k2006-uniform-two-component-spacing.json).
 

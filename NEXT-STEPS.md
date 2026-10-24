@@ -7,6 +7,11 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-24: ANALYTIC WING BOUND AND EFFECTIVE THERMAL DIMENSION.**
+> Use K2007's exact full-wing projection and certified dual to discriminate a globally capped nonmonotone construction or sharpen the attainable primal-dual gap, respecting K2005's forced endpoint divergence and failed monotone continuation. For thermal work, compare a sharp necessary dimension/error rate or an exact all-dimension positive-spacing frontier with K2008's explicit sufficient rate and countable equality; do not repeat a three-component census or merely prove the same limits. Recompare an actual source-compatible common bar/reality construction while retaining full20, K/C/accessibility, mirror/fullII, normal-jets, physical-quotient,2+1 and observed-nonchirality debts.
+> Prior banners preserve history; source, ledger and canon remain unchanged.
+
+
 > **2026-10-24: COUPLED CORNER AND UNIFORM THERMAL SPACING.**
 > Prioritize global nonmonotone wing matching from K2005's exact corner, checking actual full marginals and dual integrability before claiming gluing. Compare the complete K2006 two-shape program for larger connected supports and joint (E,delta,t) frontiers or wide-spacing rigidity against a concrete source-compatible common bar/reality construction. Do not re-enumerate a necessary third-component regime: K1972 plus K2006 eliminates it at every finite dimension. Retain full20, K/C/accessibility, mirror/fullII, normal jets, physical quotient, 2+1 and observed nonchirality debts; no source identification is inferred.
 > Prior banners preserve history; source, ledger and canon remain unchanged.
