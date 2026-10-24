@@ -7,6 +7,11 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-24: COMPLETE MASS SPACE AND CONNECTED THERMAL FRONTIER.**
+> Compare a source-compatible common coefficient/constraint against the full256 mass space and gapped sign circle; do not infer protected wall modes or a GU mass from a free extension. For thermal budgets[7/5,8/5], test multiple occupied components with actual full-spectrum spacing and placement against the proven connected17-level frontier. Single-component lengthening, its countable tail, diagonal equality and minimum dimension are settled. Capped-wing continuum feasibility and full20/K-C/accessibility, mirror/fullII, normal jets,2+1 and observed chirality remain separate debts.
+> Prior banners preserve history; source, ledger and canon remain unchanged.
+
+
 > **2026-10-24: COMPLETE CONNECTION CLASS AND FINITE TAIL MINIMUM.**
 > Compare source-selected additional Clifford grades or stable physical constraints against the exact SM-symmetry extension criterion and raw-connection tie; do not relabel free blocks as a source connection. For thermal energies[7/5,8/5], seek a global lower certificate or a better complete physical spectrum against R17(E)=(985095-61407E)/2040416, allowing holed/larger/multiple components; an infinite geometric tail is already worse within the solved family. Capped-wing continuum feasibility, full20/K-C/accessibility, mirror/fullII, normal jets,2+1 and observed chirality remain separate open debts.
 > Prior banners preserve history; source, ledger and canon remain unchanged.

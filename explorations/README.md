@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2026-compatible-mass-moduli](conditional-build/k2026-compatible-mass-moduli-2026-10-24.md).
+- [k2027-thermal-pattern-frontier](conditional-build/k2027-thermal-pattern-frontier-2026-10-24.md).
+
 - [k2024-full-odd-connection-compatibility](conditional-build/k2024-full-odd-connection-compatibility-2026-10-24.md).
 - [k2025-wide-spacing-ladder-program](conditional-build/k2025-wide-spacing-ladder-program-2026-10-24.md).
 

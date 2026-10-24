@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2026_compatible_mass_moduli](k2026_compatible_mass_moduli.py).
+- [k2026_compatible_mass_moduli_probe](k2026_compatible_mass_moduli_probe.py).
+- [k2027_thermal_pattern_frontier](k2027_thermal_pattern_frontier.py).
+- [k2027_thermal_pattern_frontier_probe](k2027_thermal_pattern_frontier_probe.py).
+
 - [k2024_full_odd_connection_compatibility](k2024_full_odd_connection_compatibility.py).
 - [k2024_full_odd_connection_compatibility_probe](k2024_full_odd_connection_compatibility_probe.py).
 - [k2025_wide_spacing_ladder_program](k2025_wide_spacing_ladder_program.py).

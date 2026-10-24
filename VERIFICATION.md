@@ -7,6 +7,25 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-24: Complete mass space and connected thermal frontier
+
+K2026 completely classifies the fixed-core compatible mass space:256 real dimensions,
+with128 further directions anticommuting with an explicit normalized mass. Two signed-
+permutation unit masses give exact gaps, full zero-southeast H-self-adjoint extensions
+and a gapped circle between opposite signs. A64-dimensional wall subsystem is gapped by
+the second allowed mass. K2027 proves the exact connected-component thermal frontier
+F(E)=(985095-61407E)/2040416 for7/5<=E<=8/5, every0<delta<=1 and every finite/countable
+catalyst in that class. A complete cutoff20 dual bank plus zero-loss tail transfer
+yields unconditional energy/tail bounds. Eleven equality cells imply the unique optimal
+diagonal and exactly17 required physical levels. Multiple occupied components and
+source-selected physical dynamics remain open.
+
+- [K2026](explorations/conditional-build/k2026-compatible-mass-moduli-2026-10-24.md).
+- [K2027](explorations/conditional-build/k2027-thermal-pattern-frontier-2026-10-24.md).
+
+Exact producer and separately implemented same-author replays: complete256/128 mass spaces,384 basis directions, two full extensions, normalized circle and64-dimensional gappable wall; five actual matrix/basis faults. Thermal326658 rational dual certificates over163329 orientation cells,47329 infeasible sections, all11 equality systems, physical affine attainment, countable-tail argument and five actual certificate/physical faults. Five input provenance hashes are separate evidence. No external specialist, proof-assistant or novelty certification; source register, ledger v0.263 and canon unchanged.
+
+
 ## 2026-10-24: Complete connection class and finite tail minimum
 
 K2024 classifies all392 independent grade1/13 connection coefficients: upper invariance

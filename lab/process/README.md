@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2026-compatible-mass-moduli](k2026-compatible-mass-moduli.json).
+- [k2027-thermal-pattern-frontier](k2027-thermal-pattern-frontier.json).
+
 - [k2024-full-odd-connection-compatibility](k2024-full-odd-connection-compatibility.json).
 - [k2025-wide-spacing-ladder-program](k2025-wide-spacing-ladder-program.json).
 

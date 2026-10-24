@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: a309b5d50cc38329c2d7948d672150669fb1c5c3
+revision_basis: 571f4402e9e7966b8cdd2d83fcfe727c7bda8d2a
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,18 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2026 completely classifies the fixed-core compatible mass space:256 real dimensions,
+    with128 further directions anticommuting with an explicit normalized mass. Two signed-
+    permutation unit masses give exact gaps, full zero-southeast H-self-adjoint extensions
+    and a gapped circle between opposite signs. A64-dimensional wall subsystem is gapped by
+    the second allowed mass. K2027 proves the exact connected-component thermal frontier
+    F(E)=(985095-61407E)/2040416 for7/5<=E<=8/5, every0<delta<=1 and every finite/countable
+    catalyst in that class. A complete cutoff20 dual bank plus zero-loss tail transfer
+    yields unconditional energy/tail bounds. Eleven equality cells imply the unique optimal
+    diagonal and exactly17 required physical levels. Multiple occupied components and
+    source-selected physical dynamics remain open.
+
+    Historical predecessor (not live):
     K2024 classifies all392 independent grade1/13 connection coefficients: upper invariance
     rank381 leaves11, upper H-adjointness rank10 leaves1, and joint inherited positive-core
     conservation rank11 leaves0. A general extension criterion SM symmetric yields a
@@ -16287,6 +16299,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k2026-compatible-mass-moduli-2026-10-24.md
+    - lab/process/k2026-compatible-mass-moduli.json
+    - tests/channel-swings/k2026_compatible_mass_moduli.py
+    - tests/channel-swings/k2026_compatible_mass_moduli_probe.py
+    - explorations/conditional-build/k2027-thermal-pattern-frontier-2026-10-24.md
+    - lab/process/k2027-thermal-pattern-frontier.json
+    - tests/channel-swings/k2027_thermal_pattern_frontier.py
+    - tests/channel-swings/k2027_thermal_pattern_frontier_probe.py
     - explorations/conditional-build/k2024-full-odd-connection-compatibility-2026-10-24.md
     - lab/process/k2024-full-odd-connection-compatibility.json
     - tests/channel-swings/k2024_full_odd_connection_compatibility.py
@@ -17525,6 +17545,12 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can the source raw common-connection tie or an action-owned physical selector realize
+  the now-classified compatible mass space? Can multiple thermal occupied components beat
+  the all-size connected frontier once their complete physical placement costs are
+  included?
+
+  Historical predecessor (not live):
   Can a source-owned common connection or stable physical constraint realize the
   compatible positive gapped core, despite the complete392-class exclusion and both free-
   block repairs failing the raw tie? Can the17-level thermal family line be globally
@@ -21125,6 +21151,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Compare a source-compatible common coefficient/constraint against the full256 mass space
+  and gapped sign circle; do not infer protected wall modes or a GU mass from a free
+  extension. For thermal budgets[7/5,8/5], test multiple occupied components with actual
+  full-spectrum spacing and placement against the proven connected17-level frontier.
+  Single-component lengthening, its countable tail, diagonal equality and minimum
+  dimension are settled. Capped-wing continuum feasibility and full20/K-C/accessibility,
+  mirror/fullII, normal jets,2+1 and observed chirality remain separate debts.
+
+  Historical predecessor (not live):
   Compare source-selected additional Clifford grades or stable physical constraints
   against the exact SM-symmetry extension criterion and raw-connection tie; do not relabel
   free blocks as a source connection. For thermal energies[7/5,8/5], seek a global lower
