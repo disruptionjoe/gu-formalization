@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2024_full_odd_connection_compatibility](k2024_full_odd_connection_compatibility.py).
+- [k2024_full_odd_connection_compatibility_probe](k2024_full_odd_connection_compatibility_probe.py).
+- [k2025_wide_spacing_ladder_program](k2025_wide_spacing_ladder_program.py).
+- [k2025_wide_spacing_ladder_program_probe](k2025_wide_spacing_ladder_program_probe.py).
+
 - [k2021_common_degree_dual_operator](k2021_common_degree_dual_operator.py).
 - [k2021_common_degree_dual_operator_probe](k2021_common_degree_dual_operator_probe.py).
 - [k2022_degree_dual_dynamics_boundary](k2022_degree_dual_dynamics_boundary.py).

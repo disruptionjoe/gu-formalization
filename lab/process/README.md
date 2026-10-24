@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2024-full-odd-connection-compatibility](k2024-full-odd-connection-compatibility.json).
+- [k2025-wide-spacing-ladder-program](k2025-wide-spacing-ladder-program.json).
+
 - [k2021-common-degree-dual-operator](k2021-common-degree-dual-operator.json).
 - [k2022-degree-dual-dynamics-boundary](k2022-degree-dual-dynamics-boundary.json).
 - [k2023-thermal-optimal-dimension](k2023-thermal-optimal-dimension.json).

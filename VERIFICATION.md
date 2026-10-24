@@ -7,6 +7,25 @@ updated_at: "2026-10-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-24: Complete connection class and finite tail minimum
+
+K2024 classifies all392 independent grade1/13 connection coefficients: upper invariance
+rank381 leaves11, upper H-adjointness rank10 leaves1, and joint inherited positive-core
+conservation rank11 leaves0. A general extension criterion SM symmetric yields a
+different explicit conservative gapped mass and two full H-self-adjoint completions, one
+southeast-zero; both fail the original raw common-connection tie, and the full principal
+Jordan obstruction remains. K2025 gives an exact wide-spacing cutoff-nine consecutive-
+ladder program and whole-rectangle line, refuted as an unrestricted frontier by larger
+physical catalysts. Its geometric-tail family has a proved unique17-level minimum
+throughout energies[7/5,8/5], strictly below its countable limit; this is a family
+optimum, not the global thermal frontier.
+
+- [K2024](explorations/conditional-build/k2024-full-odd-connection-compatibility-2026-10-24.md).
+- [K2025](explorations/conditional-build/k2025-wide-spacing-ladder-program-2026-10-24.md).
+
+Exact producer and separately implemented same-author matrix/bath-shell replays; source ranks381/10/11, both full completions and tie failures, six actual algebra/coefficient fault controls,40 thermal physical witnesses,1078982 whole-rectangle corner inequalities, eight larger witnesses, two affine families and universal geometric-tail step-sign proof with18 finite controls. Four thermal physical faults and six input provenance hashes are distinct evidence categories. No external specialist or proof-assistant certification; source register, ledger v0.263 and canon unchanged.
+
+
 ## 2026-10-24: Common degree duality and sharp thermal dimensions
 
 K2021 completes one explicit common degree-dual formal operator on the full1920 raw

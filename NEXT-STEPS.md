@@ -7,6 +7,11 @@ updated_at: "2026-10-21"
 
 # Next Steps For Contributors
 
+> **2026-10-24: COMPLETE CONNECTION CLASS AND FINITE TAIL MINIMUM.**
+> Compare source-selected additional Clifford grades or stable physical constraints against the exact SM-symmetry extension criterion and raw-connection tie; do not relabel free blocks as a source connection. For thermal energies[7/5,8/5], seek a global lower certificate or a better complete physical spectrum against R17(E)=(985095-61407E)/2040416, allowing holed/larger/multiple components; an infinite geometric tail is already worse within the solved family. Capped-wing continuum feasibility, full20/K-C/accessibility, mirror/fullII, normal jets,2+1 and observed chirality remain separate open debts.
+> Prior banners preserve history; source, ledger and canon remain unchanged.
+
+
 > **2026-10-24: COMMON DEGREE DUALITY AND SHARP THERMAL DIMENSIONS.**
 > The0<delta<=1/2 thermal frontier and minimum physical dimensions for t1/2 and6/5<E<11/5 are explicit; do not repeat onset or sufficient-size arguments. Above1/2 the geometry and bank change, and the tested cutoff-nine tail secant is negative. The common degree-dual construction exists conditionally for supplied non-null q and density; its formal adjoint is indefinite, preserves full Jordan defects and cannot combine the complete four-scalar upper class with both this H and inherited positive-core conservation except at zero. A different coefficient/pairing class, or source-owned constraint selecting the transported positive core, is substantive new work. Capped-primal wings still need continuum-feasible slack. Preserve source uncertainty and full20,K/C/accessibility,mirror/fullII,normaljets,2+1 and observed-chirality debts.
 > Prior banners preserve history; source, ledger and canon remain unchanged.
