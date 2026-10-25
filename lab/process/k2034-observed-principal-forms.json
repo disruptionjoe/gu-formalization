@@ -1,0 +1,65 @@
+{
+  "result_id": "K2034",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "observed_directions": [
+    0,
+    7,
+    8,
+    9
+  ],
+  "transverse_directions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    10,
+    11,
+    12,
+    13
+  ],
+  "invariant_dimension": 1152,
+  "complement_dimension": 768,
+  "copy_symmetric_dimension": 45,
+  "form_inertia": [
+    960,
+    960
+  ],
+  "transverse_inertia": [
+    576,
+    576
+  ],
+  "form_examples": [
+    "2",
+    "-3"
+  ],
+  "observed_symbols_checked": 4,
+  "complement_scalar_dimension": 6,
+  "complement_defect_rank": 3,
+  "invariant_constraint_rank": 4,
+  "maximal_positive_dimension": 1408,
+  "cyclic_copy_dimensions": [
+    1,
+    4,
+    5
+  ],
+  "mass_square": 2,
+  "evolution_mass_square": -1,
+  "stable_dispersion": "omega^2=|p|^2+mu^2",
+  "scalar_mass_dispersion": "omega^2=|p|^2-mu^2/2",
+  "moving_connection": "(partial_k s/s) D_k P",
+  "actual_faults": [
+    "projector_entry",
+    "positive_triple_signature",
+    "omitted_connection"
+  ],
+  "scope": "Complete45-dimensional copy-scalar symmetric family, explicit observed invariant free massive sector; not full observed commutant, raw source common coefficient or physical selector.",
+  "inputs": {
+    "tests/channel-swings/k2021_common_degree_dual_operator.py": "61c172cba4507e91b32c26c61a5a76ef644cabb6c3a94f31c8f3755f41913560",
+    "lab/process/k2032-principal-form-rigidity.json": "feefdde39b9e0fc1437d5d3b75732f21587ec542f344ec692db303e929ba2020",
+    "lab/process/k1951-coordinated-zero-southeast-principal.json": "58ed2f1f9538cc3b47eb58322c61fa681521deb5298f20bdbd5acd6b932e7547"
+  }
+}

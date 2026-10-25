@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2034-observed-principal-forms](conditional-build/k2034-observed-principal-forms-2026-10-24.md).
+- [k2035-thermal-five-level-phase](conditional-build/k2035-thermal-five-level-phase-2026-10-24.md).
+
 - [k2032-principal-form-rigidity](conditional-build/k2032-principal-form-rigidity-2026-10-24.md).
 - [k2033-thermal-transition-completion](conditional-build/k2033-thermal-transition-completion-2026-10-24.md).
 

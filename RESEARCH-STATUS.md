@@ -8,6 +8,27 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-24: Maximal positive1408 and complete thermal5 phase
+
+K2034 resolves the four-observed-direction raw1920 operator into a new invariant1152
+sector and a complementary768 sector, constructs the complete45-parameter copy-scalar
+form family, and proves the sharp maximal positive invariant dimension1408 by an exact
+six-slot reduction. A mixed-sign transverse mass gives stable free massive dynamics
+on1152; a moving positive copy metric admits a genuinely curved compatible connection.
+These conditional coefficients do not supply a source-selected physical reduction. K2035
+proves the unrestricted finite/countable five-level thermal phase F5(E)=17/20-E/4 on
+[3746293/2243485,11/5], with unique interior/right-endpoint optimal diagonal and sharp
+minimum physical dimension5 throughout. An explicit seven-level successor has
+R7(E)=3(5-E)/28 on (11/5,19/8], refuting a plateau immediately after11/5. Its
+unrestricted optimality remains open. Source, ledger and canon verdicts remain
+unchanged.
+
+- [K2034](explorations/conditional-build/k2034-observed-principal-forms-2026-10-24.md).
+- [K2035](explorations/conditional-build/k2035-thermal-five-level-phase-2026-10-24.md).
+
+Full1920 exact producer checks the observed projector/forms/mass/Green identities and the full1920-by768 complementary embedding. Complete55-variable copy equations and6-slot defect/invariance/cyclic ranks establish45 parameters and maximal1408. Separate signed-bit algebra reconstructs480 raw blocks and independently checks the complement, mass and curved metric, rejecting five actual coefficient faults. Thermal primary and separate bath-label replay each cover383871 connected dual cells and25 placement cells; separate equality replay covers43350 contacts (43329 affine,21 lower-only). All three zero-margin placements force zero outside mass; physical shell completion forces5 levels. Whole-interval successor signs and two physical successor samples pass. Five thermal input faults are rejected; inherited banks are hash-pinned reuse, not newly replayed certificates. Internal separate implementations and an analytical specialist do not constitute external review, proof-assistant acceptance or novelty certification.
+
+
 ## 2026-10-24: Full-form rigidity and complete thermal17 phase
 
 K2032 proves that the common centralizer of all fourteen fixed raw principal matrices is

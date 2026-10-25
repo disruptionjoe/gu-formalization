@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2034-observed-principal-forms](k2034-observed-principal-forms.json).
+- [k2035-thermal-five-level-phase](k2035-thermal-five-level-phase.json).
+
 - [k2032-principal-form-rigidity](k2032-principal-form-rigidity.json).
 - [k2033-thermal-transition-completion](k2033-thermal-transition-completion.json).
 

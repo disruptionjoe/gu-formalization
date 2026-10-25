@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2034_observed_principal_forms](k2034_observed_principal_forms.py).
+- [k2034_observed_principal_forms_probe](k2034_observed_principal_forms_probe.py).
+- [k2035_thermal_five_level_phase](k2035_thermal_five_level_phase.py).
+- [k2035_thermal_five_level_phase_probe](k2035_thermal_five_level_phase_probe.py).
+
 - [k2032_principal_form_rigidity](k2032_principal_form_rigidity.py).
 - [k2032_principal_form_rigidity_probe](k2032_principal_form_rigidity_probe.py).
 - [k2033_thermal_transition_completion](k2033_thermal_transition_completion.py).

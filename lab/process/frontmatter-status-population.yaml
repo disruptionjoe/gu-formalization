@@ -1,11 +1,11 @@
 schema_version: '1.0'
 frozen_revision: 63c60b96eac3719e3d274a1a533161ecc3ebf78b
 scope: tracked Markdown files with a scalar top-level frontmatter status
-mapping_digest_sha256: e02afdb55842a73ab2319ce182b55152e0859be9e0f10c3d4871a1900ec58615
+mapping_digest_sha256: ea0ecb6d1ff8ec7ca61f22d5f1fa1933213163098e676cc541d153f6e48ebeb4
 counts:
-  tracked_markdown: 4986
-  status_bearing: 3705
-  document_role: 2224
+  tracked_markdown: 4988
+  status_bearing: 3707
+  document_role: 2226
   legacy_untyped: 1481
   distinct_values: 924
   distinct_legacy_values: 917
