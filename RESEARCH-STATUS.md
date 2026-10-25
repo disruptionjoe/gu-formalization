@@ -8,6 +8,25 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-25: Thermal rigidity and quantitative detector locality
+
+K2075 classifies the exact thermal optimum on the open K2074 energy interval: unique
+occupied population is the K2068 affine family on20 odd levels1 through39, and the
+minimum physical catalyst dimension is41. Strict high/root/tail slacks, the low two-
+vertex cone and a countable telescoping identity prove rigidity; weighted near-equality
+consequences follow. K2076 gives dimension/volume-independent exponential separated-
+detector bounds on the conditional massive1408 positive-energy carrier, consumed into
+specified unitary/Lueders disturbance and free unequal-time bounds with effective gap
+m*(d-|t-s|). Independent internal thermal and operator reviews accepted the proof
+transfers. No source, physics-ledger, canon, channel-uniqueness or exact microcausality
+conclusion changes.
+
+- [K2075](explorations/conditional-build/k2075-thermal-equality-rigidity-2026-10-25.md).
+- [K2076](explorations/conditional-build/k2076-separated-detector-locality-2026-10-25.md).
+
+K2075 exact759-vertex/329-ray equality census, all high/root/cap margins, Bellman finite support and20 affine population pairs; separate1481 raw-bath/Bellman/slack/affine controls with8 mathematical faults. K2076 written continuum Schur/Bessel and specified-instrument proofs,34 symbolic/rational controls,30 finite matrix scenarios and14 numerical kernel corroborations with6 faults. Numerical fixtures are corroboration, not universal proof; prior geometry/packing/countable results are pinned reuse. Two independent internal proof reviewers plus separate read-only construction specialists; root sole writer and serialized verifier. No external specialist or proof-assistant certification.
+
+
 ## 2026-10-25: Reviewed energy and repaired exact thermal interval
 
 Independent internal specialist review accepted K2073 prepared-state free-energy and

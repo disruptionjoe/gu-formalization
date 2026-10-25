@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2075_thermal_equality_rigidity](k2075_thermal_equality_rigidity.py).
+- [k2075_thermal_equality_rigidity_probe](k2075_thermal_equality_rigidity_probe.py).
+- [k2076_separated_detector_locality](k2076_separated_detector_locality.py).
+- [k2076_separated_detector_locality_probe](k2076_separated_detector_locality_probe.py).
+
 - [k2073_confined_pointer_energy](k2073_confined_pointer_energy.py).
 - [k2073_confined_pointer_energy_probe](k2073_confined_pointer_energy_probe.py).
 - [k2074_subdivided_incoming_thermal_bound](k2074_subdivided_incoming_thermal_bound.py).

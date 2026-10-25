@@ -7,6 +7,11 @@ updated_at: "2026-10-24"
 
 # Next Steps For Contributors
 
+> **2026-10-25: THERMAL RIGIDITY AND QUANTITATIVE DETECTOR LOCALITY.**
+> Thermal interior population rigidity and d_min41 are closed in the declared fixed-bath model; do not repeat the13-to41 bracket. Compare endpoint/other-energy equality cells using fresh global certificates against the concrete detector-instrument bridge. K2076 supplies free Heisenberg-effect bounds, not a physically local instrument implementation or controlled Hchi projector commutation; actual controlled/field detector dynamics is the next source-facing input. Preserve K2074 corrected188 coverage, countable and empty-level/channel limits, nonlattice phase-coercivity and exact cap-preserving continuum wings; retain full20/K-C/accessibility, mirror/fullII, normaljets,2+1/chirality and near5/4 debts.
+> Prior banners preserve history; source, ledger and canon remain unchanged.
+
+
 > **2026-10-25: REVIEWED ENERGY AND REPAIRED EXACT THERMAL INTERVAL.**
 > The repaired thermal bracket is closed in its declared regime: next derive high-component and tail equality conditions before uniqueness or a minimum-dimension verdict (currently13<=d_min<=41), or tackle genuinely different spacing/energy. Preserve the corrected cell188 endpoint11 and2222 path; do not reuse the superseded candidate certificate. K2073 controls prepared-particle free-energy moments, not apparatus/control-field energy or vacuum/Fock implementation; a source-facing continuation needs a concrete compatible detector algebra. Nonlattice phase coercivity and exact continuum wings still need their named analytic inputs. Retain full20/K-C/accessibility, mirror/fullII, normaljets,2+1/chirality and near5/4 debts.
 > Prior banners preserve history; source, ledger and canon remain unchanged.
