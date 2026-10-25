@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2046-large-data-characteristic-reduction](conditional-build/k2046-large-data-characteristic-reduction-2026-10-25.md).
+- [k2047-fifth-thermal-spacing-phase](conditional-build/k2047-fifth-thermal-spacing-phase-2026-10-25.md).
+
 - [k2044-arbitrary-phase-characteristic-control](conditional-build/k2044-arbitrary-phase-characteristic-control-2026-10-25.md).
 - [k2045-third-thermal-spacing-phase](conditional-build/k2045-third-thermal-spacing-phase-2026-10-25.md).
 

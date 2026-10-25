@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2046-large-data-characteristic-reduction](k2046-large-data-characteristic-reduction.json).
+- [k2047-fifth-thermal-spacing-phase](k2047-fifth-thermal-spacing-phase.json).
+
 - [k2044-arbitrary-phase-characteristic-control](k2044-arbitrary-phase-characteristic-control.json).
 - [k2045-third-thermal-spacing-phase](k2045-third-thermal-spacing-phase.json).
 

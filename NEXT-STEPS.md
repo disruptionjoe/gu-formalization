@@ -7,6 +7,11 @@ updated_at: "2026-10-24"
 
 # Next Steps For Contributors
 
+> **2026-10-25: LARGE DATA AND THE HALF-SPACING FRONTIER.**
+> Compare a genuine wide-spacing thermal packing program above1/2 with arbitrary-phase large-data control of the explicit phase-curvature defect. Compact phase-locked data and their sufficiently small fixed-support complex neighborhoods are now globally complete; repeating small-charge or fixed-phase proofs is unnecessary. Preserve source independent-dual/parity/observation, full20/K-C/accessibility, mirror/full-II, normal jets, 2+1/chirality, near5/4 resource necessity and exact capped continuum wings. The packing failure of old interlaced constructions is not a proof of the next optimum or a jump.
+> Prior banners preserve history; source, ledger and canon remain unchanged.
+
+
 > **2026-10-25: ARBITRARY PHASES AND TWO FURTHER THERMAL PHASES.**
 > Compare the physical low-Q/shifted-C thermal branch beyond 2/5, including the 67/19 contact and offset packing toward 1/2, with large-data arbitrary-phase characteristic continuation or a genuine transverse sextic test. The small-data line problem and third/fourth spacing phases are settled at their stated scope. Actual independent-dual/parity and physical observation remain separate construction debts; preserve near-5/4 resource necessity, exact capped continuum wings, full20/K-C/accessibility, mirror/full-II, normal jets, 2+1 and observed chirality.
 > Prior banners preserve history; source, ledger and canon remain unchanged.

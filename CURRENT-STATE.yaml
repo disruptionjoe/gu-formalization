@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 97c276dfe9d542709d471a0344dffe619656ce2f
+revision_basis: fb2a58e00b6f8083ced129d130014ac24da07150
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,18 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2046 proves global smooth two-sided continuation for all bounded smooth finite-charge
+    phase-locked sextic data, including zeros, by a repulsive reciprocal-density reduction.
+    Fixed-support small complex neighborhoods of every compact reference also have global
+    exact scattering, allowing arbitrarily large interacting complex data. A nonzero
+    admissible phase-jet defect prevents extending the scalar argument to all complex
+    profiles. K2047 proves fifth and sixth unrestricted finite/countable thermal phases
+    through spacing1/2, with sharp internal boundary5652/11755. Strict left-branch resources
+    change24 to26, right branch16; at spacing1/2 and energy7/2, the sharp minimum drops
+    to14. Wider spacing requires a new packing argument. Source, physics ledger and canon
+    remain unchanged.
+
+    Historical predecessor (not live):
     K2044 proves global smooth arbitrary-phase opposite-speed sextic evolution on the line
     under the scale-invariant sufficient condition 2 M ||w0||_infinity^2 < 1. Half-line
     charge gives stronger position-dependent forward and backward conditions. Compact
@@ -16430,6 +16442,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k2046-large-data-characteristic-reduction-2026-10-25.md
+    - lab/process/k2046-large-data-characteristic-reduction.json
+    - tests/channel-swings/k2046_large_data_characteristic_reduction.py
+    - tests/channel-swings/k2046_large_data_characteristic_reduction_probe.py
+    - explorations/conditional-build/k2047-fifth-thermal-spacing-phase-2026-10-25.md
+    - lab/process/k2047-fifth-thermal-spacing-phase.json
+    - tests/channel-swings/k2047_fifth_thermal_spacing_phase.py
+    - tests/channel-swings/k2047_fifth_thermal_spacing_phase_probe.py
     - explorations/conditional-build/k2044-arbitrary-phase-characteristic-control-2026-10-25.md
     - lab/process/k2044-arbitrary-phase-characteristic-control.json
     - tests/channel-swings/k2044_arbitrary_phase_characteristic_control.py
@@ -17748,6 +17768,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can phase-defect control extend large-data complex sextic continuation beyond fixed-
+  support neighborhoods, and what is the true thermal frontier beyond the half-spacing
+  packing boundary?
+
+  Historical predecessor (not live):
   What is the exact thermal phase beyond spacing 2/5, and can the explicit sextic admit
   large interacting data beyond the directional charge bounds or genuine transverse
   dynamics?
@@ -21398,6 +21423,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Compare a genuine wide-spacing thermal packing program above1/2 with arbitrary-phase
+  large-data control of the explicit phase-curvature defect. Compact phase-locked data and
+  their sufficiently small fixed-support complex neighborhoods are now globally complete;
+  repeating small-charge or fixed-phase proofs is unnecessary. Preserve source
+  independent-dual/parity/observation, full20/K-C/accessibility, mirror/full-II, normal
+  jets, 2+1/chirality, near5/4 resource necessity and exact capped continuum wings. The
+  packing failure of old interlaced constructions is not a proof of the next optimum or a
+  jump.
+
+  Historical predecessor (not live):
   Compare the physical low-Q/shifted-C thermal branch beyond 2/5, including the 67/19
   contact and offset packing toward 1/2, with large-data arbitrary-phase characteristic
   continuation or a genuine transverse sextic test. The small-data line problem and

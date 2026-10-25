@@ -7,6 +7,25 @@ updated_at: "2026-10-24"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-25: Large data and the half-spacing frontier
+
+K2046 proves global smooth two-sided continuation for all bounded smooth finite-charge
+phase-locked sextic data, including zeros, by a repulsive reciprocal-density reduction.
+Fixed-support small complex neighborhoods of every compact reference also have global
+exact scattering, allowing arbitrarily large interacting complex data. A nonzero
+admissible phase-jet defect prevents extending the scalar argument to all complex
+profiles. K2047 proves fifth and sixth unrestricted finite/countable thermal phases
+through spacing1/2, with sharp internal boundary5652/11755. Strict left-branch resources
+change24 to26, right branch16; at spacing1/2 and energy7/2, the sharp minimum drops
+to14. Wider spacing requires a new packing argument. Source, physics ledger and canon
+remain unchanged.
+
+- [K2046](explorations/conditional-build/k2046-large-data-characteristic-reduction-2026-10-25.md).
+- [K2047](explorations/conditional-build/k2047-fifth-thermal-spacing-phase-2026-10-25.md).
+
+Source symbolic reduction and separate Gaussian-rational force/jet replay pass ten force fixtures, three diagonal identities, three barrier controls and an admissible complex jet; five mathematical coefficient faults rejected. Thermal direct bath-label replay passes20975 vertex records,62 physical controls, four entire-chamber segment proofs,41 completion removals, one physical rival and two critical-cell incompatibilities; four faults rejected. Written proofs supply global PDE, fixed-support perturbation, whole-spacing, countable and minimum-resource claims. Unchanged complete arrangement enumeration, graph/action lift and erasure/ground proofs reused by hashes. Same-author internal checks; no external, proof-assistant or novelty certification.
+
+
 ## 2026-10-25: Arbitrary phases and two further thermal phases
 
 K2044 proves global smooth arbitrary-phase opposite-speed sextic evolution on the line
