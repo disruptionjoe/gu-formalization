@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2057_gap_aware_thermal_erasure](k2057_gap_aware_thermal_erasure.py).
+- [k2057_gap_aware_thermal_erasure_probe](k2057_gap_aware_thermal_erasure_probe.py).
+- [k2058_universal_positive_dynamics](k2058_universal_positive_dynamics.py).
+- [k2058_universal_positive_dynamics_probe](k2058_universal_positive_dynamics_probe.py).
+
 - [k2054_quantitative_terminal_erasure](k2054_quantitative_terminal_erasure.py).
 - [k2054_quantitative_terminal_erasure_probe](k2054_quantitative_terminal_erasure_probe.py).
 - [k2055_phase_colored_scattering](k2055_phase_colored_scattering.py).

@@ -7,6 +7,11 @@ updated_at: "2026-10-24"
 
 # Next Steps For Contributors
 
+> **2026-10-25: SHARP THERMAL TAILS AND UNIVERSAL POSITIVE DYNAMICS.**
+> Compare a thermal certificate enforcing component compatibility and tail-energy coupling, or improved physical support against a genuinely nonlattice higher-power complex continuation estimate, and source-selected independent dual/parity plus observed physical-state construction. K2057 already improves both bracket sides; its tail-loss rigidity is not optimum or dimension necessity. K2058 settles universal fixed-metric compatibility and bounded variable linear propagation, not positive Hamiltonian energy or nonlinear stability. Preserve full20/K-C/accessibility, mirror/fullII, normal jets,2+1/chirality, near5/4 resources and exact capped wings.
+> Prior banners preserve history; source, ledger and canon remain unchanged.
+
+
 > **2026-10-25: QUANTITATIVE TAILS, PHASE-COLORED SCATTERING AND DUALITY.**
 > Compare a sharper thermal attached-tail/cell certificate or improved physical witness against a genuinely nonlattice complex crossing estimate, and source selection of independent dual/parity plus an observed physical-state bridge. Do not requeue existence of R0/R1, already constructed in K2021, or infer unrestricted scattering from the phase-colored family. Preserve the full20/K-C/accessibility, mirror/fullII, normal-jet, 2+1/chirality, near5/4 resource and capped-wing alternatives.
 > Prior banners preserve history; source, ledger and canon remain unchanged.

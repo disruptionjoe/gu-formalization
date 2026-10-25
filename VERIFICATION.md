@@ -7,6 +7,29 @@ updated_at: "2026-10-24"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-25: Sharp thermal tails and universal positive dynamics
+
+K2057 proves sharp gap-aware thermal erasure q<=B+25Delta/4, near-saturation loss
+rigidity, and consumes it in a stronger finite/countable lower certificate. A
+released15-level witness and an invisible countable tail also improve the upper bound.
+At E=5/2 and1/2<delta<=1, the bracket is243396/878731 to67173/240731, with a
+whole-energy piecewise upper family. K2058 proves one fixed positive kinetic metric
+works across the entire existing169984-dimensional compatible generator class; it
+classifies all six-parameter Hermitian universal metrics and the unique real metric.
+Released consequences include free massive dynamics, measurable bounded-potential
+unitary L2 propagators, speed-one support and quantitative potential robustness, plus
+the explicit defect/changed connection for varying metrics. All results remain
+conditional internal mathematics; no source, physics-ledger or canon promotion.
+
+The exact three-contact dual proves the current affine thermal relaxation saturated
+at5/2. A stronger bound needs component compatibility or tail-energy coupling.
+
+- [K2057](explorations/conditional-build/k2057-gap-aware-thermal-erasure-2026-10-25.md).
+- [K2058](explorations/conditional-build/k2058-universal-positive-dynamics-2026-10-25.md).
+
+K2057 replays20975 actual bath vertices/214 support lines,292 tail and near-saturation controls, finite/countable witnesses and piecewise upper families; ten mathematical faults rejected. K2058 producer118 and separate probe70 exact obligations pass; six mathematical faults rejected. Written proofs supply sharpness, classification, countable transfer and analytic propagation. Inherited basis completeness/raw graph compression are hash-pinned reuse. Independent internal reviewers and exact controls are not external, proof-assistant or novelty certification.
+
+
 ## 2026-10-25: Quantitative tails, phase-colored scattering and duality
 
 K2054 proves quantitative attached-tail erasure and improves the certified thermal lower

@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2057-gap-aware-thermal-erasure](conditional-build/k2057-gap-aware-thermal-erasure-2026-10-25.md).
+- [k2058-universal-positive-dynamics](conditional-build/k2058-universal-positive-dynamics-2026-10-25.md).
+
 - [k2054-quantitative-terminal-erasure](conditional-build/k2054-quantitative-terminal-erasure-2026-10-25.md).
 - [k2055-phase-colored-scattering](conditional-build/k2055-phase-colored-scattering-2026-10-25.md).
 - [k2056-common-dual-successor](conditional-build/k2056-common-dual-successor-2026-10-25.md).

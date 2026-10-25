@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2057-gap-aware-thermal-erasure](k2057-gap-aware-thermal-erasure.json).
+- [k2058-universal-positive-dynamics](k2058-universal-positive-dynamics.json).
+
 - [k2054-quantitative-terminal-erasure](k2054-quantitative-terminal-erasure.json).
 - [k2055-phase-colored-scattering](k2055-phase-colored-scattering.json).
 - [k2056-common-dual-successor](k2056-common-dual-successor.json).

@@ -1,0 +1,254 @@
+{
+  "scope": "conditional observed graph changed coefficient class only",
+  "frequencies": [
+    "1",
+    "2",
+    "a",
+    "2a",
+    "b",
+    "2b"
+  ],
+  "unitary_multiplicities": [
+    288,
+    288,
+    32,
+    32,
+    32,
+    32
+  ],
+  "real_frequency_dimensions": [
+    576,
+    576,
+    64,
+    64,
+    64,
+    64
+  ],
+  "complexified_frequency_dimensions": [
+    576,
+    576,
+    64,
+    64,
+    64,
+    64
+  ],
+  "generator_dimension": 169984,
+  "universal_metric_parameters": 6,
+  "real_universal_metric": "Pstar unique",
+  "rows": [
+    [
+      "1",
+      "1",
+      "0"
+    ],
+    [
+      "1",
+      "5/4",
+      "3/4"
+    ],
+    [
+      "1",
+      "17/8",
+      "15/8"
+    ],
+    [
+      "2",
+      "1",
+      "0"
+    ],
+    [
+      "2",
+      "5/4",
+      "3/4"
+    ],
+    [
+      "2",
+      "17/8",
+      "15/8"
+    ],
+    [
+      "-19/2 + sqrt(641)/2",
+      "1",
+      "0"
+    ],
+    [
+      "-19/2 + sqrt(641)/2",
+      "5/4",
+      "3/4"
+    ],
+    [
+      "-19/2 + sqrt(641)/2",
+      "17/8",
+      "15/8"
+    ],
+    [
+      "-19 + sqrt(641)",
+      "1",
+      "0"
+    ],
+    [
+      "-19 + sqrt(641)",
+      "5/4",
+      "3/4"
+    ],
+    [
+      "-19 + sqrt(641)",
+      "17/8",
+      "15/8"
+    ],
+    [
+      "19/2 + sqrt(641)/2",
+      "1",
+      "0"
+    ],
+    [
+      "19/2 + sqrt(641)/2",
+      "5/4",
+      "3/4"
+    ],
+    [
+      "19/2 + sqrt(641)/2",
+      "17/8",
+      "15/8"
+    ],
+    [
+      "19 + sqrt(641)",
+      "1",
+      "0"
+    ],
+    [
+      "19 + sqrt(641)",
+      "5/4",
+      "3/4"
+    ],
+    [
+      "19 + sqrt(641)",
+      "17/8",
+      "15/8"
+    ]
+  ],
+  "checks": [
+    "actual_mass_skew",
+    "actual_mass_square",
+    "actual_mass_commutes_F",
+    "actual_mass_commutes_W",
+    "actual_C7_symmetric",
+    "actual_C7_square",
+    "actual_C7_commutes_F",
+    "actual_C7_anticommutes_mass",
+    "actual_C8_symmetric",
+    "actual_C8_square",
+    "actual_C8_commutes_F",
+    "actual_C8_anticommutes_mass",
+    "actual_C9_symmetric",
+    "actual_C9_square",
+    "actual_C9_commutes_F",
+    "actual_C9_anticommutes_mass",
+    "a_minimal_polynomial",
+    "six_disjoint_frequencies",
+    "real_dimension",
+    "generator_dimension",
+    "Hermitian",
+    "positive",
+    "kinetic",
+    "antisquare",
+    "conservation",
+    "Hermitian",
+    "positive",
+    "kinetic",
+    "antisquare",
+    "conservation",
+    "Hermitian",
+    "positive",
+    "kinetic",
+    "antisquare",
+    "conservation",
+    "Hermitian",
+    "positive",
+    "kinetic",
+    "antisquare",
+    "conservation",
+    "Hermitian",
+    "positive",
+    "kinetic",
+    "antisquare",
+    "conservation",
+    "Hermitian",
+    "positive",
+    "kinetic",
+    "antisquare",
+    "conservation",
+    "Hermitian",
+    "positive",
+    "kinetic",
+    "antisquare",
+    "conservation",
+    "Hermitian",
+    "positive",
+    "kinetic",
+    "antisquare",
+    "conservation",
+    "Hermitian",
+    "positive",
+    "kinetic",
+    "antisquare",
+    "conservation",
+    "Hermitian",
+    "positive",
+    "kinetic",
+    "antisquare",
+    "conservation",
+    "Hermitian",
+    "positive",
+    "kinetic",
+    "antisquare",
+    "conservation",
+    "Hermitian",
+    "positive",
+    "kinetic",
+    "antisquare",
+    "conservation",
+    "Hermitian",
+    "positive",
+    "kinetic",
+    "antisquare",
+    "conservation",
+    "Hermitian",
+    "positive",
+    "kinetic",
+    "antisquare",
+    "conservation",
+    "Hermitian",
+    "positive",
+    "kinetic",
+    "antisquare",
+    "conservation",
+    "Hermitian",
+    "positive",
+    "kinetic",
+    "antisquare",
+    "conservation",
+    "Hermitian",
+    "positive",
+    "kinetic",
+    "antisquare",
+    "conservation",
+    "Hermitian",
+    "positive",
+    "kinetic",
+    "antisquare",
+    "conservation",
+    "anisotropic_kinetic_survivor",
+    "anisotropic_fails_allowed_generator",
+    "arbitrary_skew_not_enough",
+    "spatial_Clifford_anticommutator",
+    "spatial_Clifford_anticommutator",
+    "spatial_Clifford_anticommutator",
+    "actual_Fourier_H_squared",
+    "actual_Fourier_cross_term"
+  ],
+  "inputs": {
+    "explorations/conditional-build/k2038-observed-action-compression-2026-10-24.md": "fd73ae69845af69c0b33dd7d59760b80071ede188fb4baa2a991eb13f207d8ab",
+    "explorations/conditional-build/k2056-common-dual-successor-2026-10-25.md": "7e75a4ea6d0218d5a98b98678d2b2cccb88a08c3b1b1b2a3ad6d643e943b16da"
+  }
+}
