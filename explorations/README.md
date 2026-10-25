@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2065-position-measurement-compatibility](conditional-build/k2065-position-measurement-compatibility-2026-10-25.md).
+- [k2066-thermal-terminal-response](conditional-build/k2066-thermal-terminal-response-2026-10-25.md).
+
 - [k2063-moving-sector-transport](conditional-build/k2063-moving-sector-transport-2026-10-25.md).
 - [k2064-mass-pulse-fock-boundary](conditional-build/k2064-mass-pulse-fock-boundary-2026-10-25.md).
 

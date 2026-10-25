@@ -7,6 +7,11 @@ updated_at: "2026-10-24"
 
 # Next Steps For Contributors
 
+> **2026-10-25: POSITION READOUT RESOURCES AND INCOMING-AWARE THERMAL TAILS.**
+> Scalar-position compatibility, its noncommuting and interference witnesses, robust CHSH resource bound and explicit multiplicity extension are established conditionally. Do not repeat common-POVM Bell locality or generic tensor no-signalling. A physical continuation needs actual real/dual/state/apparatus ownership or a concretely constrained setting control. The incoming-aware first-terminal thermal certificate now has cell164 deeper state(14,2) as bottleneck; next construct a joint two-terminal response or a better feasible population, rather than raise the sharp uniform loss coefficient. Compare nonlattice complex phase control and exact continuum wings; preserve full20/K-C/accessibility, mirror/fullII, normal jets,2+1/chirality and near5/4 resource debts.
+> Prior banners preserve history; source, ledger and canon remain unchanged.
+
+
 > **2026-10-25: MOVING-SECTOR TRANSPORT AND FIXED-SEA BOUNDARIES.**
 > Moving-sector transport, its bounded-local and translation-invariant differential obstructions, finite-range and slow-time bounds, and finite-mode polynomial repair are now explicit. Mass-pulse continuum volume and UV obstructions are distinct; C3 switching repairs finite-volume count/energy, while exact tracking only repairs the fixed-sea equal-mass endpoint. Do not requeue generic mixing, fixed-local rigidity or the general transitionless formula. A source-facing continuation must supply an independent state/observable and locality/resource criterion or a concrete different dynamical construction. Compare K2059 joint terminal-response inequalities or improved physical populations, K2055 nonlattice phase control, and continuum-feasible capped wings. Preserve full20/K-C/accessibility, mirror/fullII, normal jets,2+1/chirality and near5/4 resource debts.
 > Prior banners preserve history; source, ledger and canon remain unchanged.

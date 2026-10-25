@@ -1,0 +1,39 @@
+{
+  "id": "K2065",
+  "status": "conditional_research",
+  "scope": "Fixed positive massive1408 graph; scalar postprocessings of one position POVM; imported tensor products, Born rule and apparatus. No source verdict.",
+  "input_pins": {
+    "explorations/conditional-build/k2062-bounded-local-multiplier-rigidity-2026-10-25.md": "ec9b23eb2b0d81139a84465844f47a3b3c9f3a80bfd907432824f1fb145864e5"
+  },
+  "evidence_kinds": {
+    "written_proof": "parent POVM, universal Bell bound, continuous nonzero symbol and resource bound",
+    "exact_computation": "Clifford/shift algebra, interference and finite instrument controls",
+    "inherited": "K2062 actual graph and normalized POVM"
+  },
+  "claims": [
+    "common_parent_compatibility",
+    "noncommuting_compatible_effects",
+    "phase_sensitive_interference",
+    "CHSH_resource_lower_bound",
+    "instrument_scope_separation",
+    "multiplicity_Bell_extension",
+    "exact_half_distance_from_position_class",
+    "euclidean_CHSH_robustness"
+  ],
+  "ledger_rows": [
+    "LT-SM8",
+    "LT-GR6b"
+  ],
+  "ledger_change": "none; not a source-selected quotient",
+  "prior_art": [
+    "https://arxiv.org/abs/0905.2998",
+    "https://arxiv.org/abs/quant-ph/0509133"
+  ],
+  "validation": {
+    "producer_exact_controls": 57,
+    "producer_faults": 4,
+    "separate_finite_controls": 28,
+    "probe_faults": 3,
+    "proof_review": "independent internal review; not external/proof-assistant/novelty certification"
+  }
+}

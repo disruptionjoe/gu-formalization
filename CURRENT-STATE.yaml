@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f47a75629c2a2c0fc2299daea89dbbb5036b4b58
+revision_basis: 75741f22cfbed173cd8a972e460d70268fe30a0d
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,17 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2065 proves that scalar postprocessings of one compressed position POVM remain Bell-
+    local, even for explicit noncommuting effects on the conditional massive1408 graph.
+    Normalized torus states show interference; a robust CHSH bound quantifies departure from
+    that class. Internal multiplicity Pauli measurements provide a same-graph Bell extension
+    with exact distance1/2 from scalar-position effects. K2066 derives the exact incoming-
+    aware thermal terminal envelope and certifies five improved assignments across the
+    complete bank. At E5/2 and1/2<delta<=1, the lower bound rises to0.27820312894078675 with
+    unchanged upper0.27847627505663375, reducing the remaining gap25.10 percent. All source,
+    physics-ledger and canon conclusions remain unchanged.
+
+    Historical predecessor (not live):
     K2063 constructs every bounded correction transporting the instantaneous positive sector
     of the conditional massive1408 graph: its forced off-diagonal part is i[dotP,P], with
     sharp continuum norm |m_dot|/(4m). It excludes bounded local multipliers and
@@ -16544,6 +16555,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k2065-position-measurement-compatibility-2026-10-25.md
+    - lab/process/k2065-position-measurement-compatibility.json
+    - tests/channel-swings/k2065_position_measurement_compatibility.py
+    - tests/channel-swings/k2065_position_measurement_compatibility_probe.py
+    - explorations/conditional-build/k2066-thermal-terminal-response-2026-10-25.md
+    - lab/process/k2066-thermal-terminal-response.json
+    - tests/channel-swings/k2066_thermal_terminal_response.py
+    - tests/channel-swings/k2066_thermal_terminal_response_probe.py
     - explorations/conditional-build/k2063-moving-sector-transport-2026-10-25.md
     - lab/process/k2063-moving-sector-transport.json
     - tests/channel-swings/k2063_moving_sector_transport.py
@@ -17938,6 +17957,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which source-compatible apparatus or constrained setting-dependent control realizes the
+  extra measurement resource on the conditional graph, and can a joint two-terminal
+  thermal response tighten the remaining certified gap?
+
+  Historical predecessor (not live):
   Which independently justified physical-state, locality and resource criterion can
   connect the conditional massive graph to observations, given explicit moving-sector
   repairs and the separate fixed-sea representation boundary?
@@ -21632,6 +21656,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Scalar-position compatibility, its noncommuting and interference witnesses, robust CHSH
+  resource bound and explicit multiplicity extension are established conditionally. Do not
+  repeat common-POVM Bell locality or generic tensor no-signalling. A physical
+  continuation needs actual real/dual/state/apparatus ownership or a concretely
+  constrained setting control. The incoming-aware first-terminal thermal certificate now
+  has cell164 deeper state(14,2) as bottleneck; next construct a joint two-terminal
+  response or a better feasible population, rather than raise the sharp uniform loss
+  coefficient. Compare nonlattice complex phase control and exact continuum wings;
+  preserve full20/K-C/accessibility, mirror/fullII, normal jets,2+1/chirality and near5/4
+  resource debts.
+
+  Historical predecessor (not live):
   Moving-sector transport, its bounded-local and translation-invariant differential
   obstructions, finite-range and slow-time bounds, and finite-mode polynomial repair are
   now explicit. Mass-pulse continuum volume and UV obstructions are distinct; C3 switching

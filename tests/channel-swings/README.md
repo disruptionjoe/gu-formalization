@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2065_position_measurement_compatibility](k2065_position_measurement_compatibility.py).
+- [k2065_position_measurement_compatibility_probe](k2065_position_measurement_compatibility_probe.py).
+- [k2066_thermal_terminal_response](k2066_thermal_terminal_response.py).
+- [k2066_thermal_terminal_response_probe](k2066_thermal_terminal_response_probe.py).
+
 - [k2063_moving_sector_transport](k2063_moving_sector_transport.py).
 - [k2063_moving_sector_transport_probe](k2063_moving_sector_transport_probe.py).
 - [k2064_mass_pulse_fock_boundary](k2064_mass_pulse_fock_boundary.py).

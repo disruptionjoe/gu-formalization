@@ -7,6 +7,24 @@ updated_at: "2026-10-24"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-25: Position readout resources and incoming-aware thermal tails
+
+K2065 proves that scalar postprocessings of one compressed position POVM remain Bell-
+local, even for explicit noncommuting effects on the conditional massive1408 graph.
+Normalized torus states show interference; a robust CHSH bound quantifies departure from
+that class. Internal multiplicity Pauli measurements provide a same-graph Bell extension
+with exact distance1/2 from scalar-position effects. K2066 derives the exact incoming-
+aware thermal terminal envelope and certifies five improved assignments across the
+complete bank. At E5/2 and1/2<delta<=1, the lower bound rises to0.27820312894078675 with
+unchanged upper0.27847627505663375, reducing the remaining gap25.10 percent. All source,
+physics-ledger and canon conclusions remain unchanged.
+
+- [K2065](explorations/conditional-build/k2065-position-measurement-compatibility-2026-10-25.md).
+- [K2066](explorations/conditional-build/k2066-thermal-terminal-response-2026-10-25.md).
+
+K2065:57 exact algebra controls and28 separate finite POVM/instrument controls; seven mathematical faults detected. K2066:five fully certified replacement assignments,1692 raw-response controls,105150 low/high inequalities, all671 line/interval comparisons and five faults. Written proofs supply continuum and countable transfers; actual graph and prior bank/upper completeness are hash-pinned reuse. Two independent construction agents and a separate internal proof reviewer contributed; no external, proof-assistant or novelty certification.
+
+
 ## 2026-10-25: Moving-sector transport and fixed-sea boundaries
 
 K2063 constructs every bounded correction transporting the instantaneous positive sector
