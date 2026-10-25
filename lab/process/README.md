@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2063-moving-sector-transport](k2063-moving-sector-transport.json).
+- [k2064-mass-pulse-fock-boundary](k2064-mass-pulse-fock-boundary.json).
+
 - [k2061-common-asymptotic-sector](k2061-common-asymptotic-sector.json).
 - [k2062-bounded-local-multiplier-rigidity](k2062-bounded-local-multiplier-rigidity.json).
 

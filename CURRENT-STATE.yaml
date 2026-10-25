@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 870417610a4fc124844fa3c2a5133d8f5809898f
+revision_basis: f47a75629c2a2c0fc2299daea89dbbb5036b4b58
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2063 constructs every bounded correction transporting the instantaneous positive sector
+    of the conditional massive1408 graph: its forced off-diagonal part is i[dotP,P], with
+    sharp continuum norm |m_dot|/(4m). It excludes bounded local multipliers and
+    translation-invariant polynomial differential corrections during a positive-mass change,
+    derives the Yukawa kernel and finite-range leakage bound, and supplies a uniform C/T
+    slow-time estimate. Exact finite-mode polynomial interpolation gives a declared cutoff
+    repair. K2064 distinguishes infinite-volume CAR nonimplementation from ultraviolet
+    excitation density: rectangular pulses have exact linear number and quadratic pair-
+    energy divergences, while C3 flat switching gives O(r^-3) mixing and finite
+    number/energy densities and torus totals. Exact tracking repairs equal-mass endpoints
+    but fails fixed-sea implementation at intermediate unequal masses without a finite
+    cutoff. Conditional mathematics with imported sector/CAR criteria only; source, physics
+    ledger and canon unchanged.
+
+    Historical predecessor (not live):
     K2061 proves that every nonzero finite-duration rectangular mass pulse in the
     conditional massive1408 graph on R3 has no nonzero state positive at both free
     asymptotic ends. Leakage can nevertheless be arbitrarily small; its operator has dense
@@ -16529,6 +16544,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k2063-moving-sector-transport-2026-10-25.md
+    - lab/process/k2063-moving-sector-transport.json
+    - tests/channel-swings/k2063_moving_sector_transport.py
+    - tests/channel-swings/k2063_moving_sector_transport_probe.py
+    - explorations/conditional-build/k2064-mass-pulse-fock-boundary-2026-10-25.md
+    - lab/process/k2064-mass-pulse-fock-boundary.json
+    - tests/channel-swings/k2064_mass_pulse_fock_boundary.py
+    - tests/channel-swings/k2064_mass_pulse_fock_boundary_probe.py
     - explorations/conditional-build/k2061-common-asymptotic-sector-2026-10-25.md
     - lab/process/k2061-common-asymptotic-sector.json
     - tests/channel-swings/k2061_common_asymptotic_sector.py
@@ -17915,6 +17938,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which independently justified physical-state, locality and resource criterion can
+  connect the conditional massive graph to observations, given explicit moving-sector
+  repairs and the separate fixed-sea representation boundary?
+
+  Historical predecessor (not live):
   Which explicit physical-state and observable criterion can be supplied consistently with
   trivial exact common sectors under mass pulses and the complete bounded-local multiplier
   restriction?
@@ -21604,6 +21632,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Moving-sector transport, its bounded-local and translation-invariant differential
+  obstructions, finite-range and slow-time bounds, and finite-mode polynomial repair are
+  now explicit. Mass-pulse continuum volume and UV obstructions are distinct; C3 switching
+  repairs finite-volume count/energy, while exact tracking only repairs the fixed-sea
+  equal-mass endpoint. Do not requeue generic mixing, fixed-local rigidity or the general
+  transitionless formula. A source-facing continuation must supply an independent
+  state/observable and locality/resource criterion or a concrete different dynamical
+  construction. Compare K2059 joint terminal-response inequalities or improved physical
+  populations, K2055 nonlattice phase control, and continuum-feasible capped wings.
+  Preserve full20/K-C/accessibility, mirror/fullII, normal jets,2+1/chirality and near5/4
+  resource debts.
+
+  Historical predecessor (not live):
   Fixed-free-positive-sector local multiplier classification is complete for all bounded
   measurable coefficients on massive R3, and exact common positivity is excluded for the
   specified mass pulses, including constructed smooth examples. Do not requeue decay-class

@@ -7,6 +7,11 @@ updated_at: "2026-10-24"
 
 # Next Steps For Contributors
 
+> **2026-10-25: MOVING-SECTOR TRANSPORT AND FIXED-SEA BOUNDARIES.**
+> Moving-sector transport, its bounded-local and translation-invariant differential obstructions, finite-range and slow-time bounds, and finite-mode polynomial repair are now explicit. Mass-pulse continuum volume and UV obstructions are distinct; C3 switching repairs finite-volume count/energy, while exact tracking only repairs the fixed-sea equal-mass endpoint. Do not requeue generic mixing, fixed-local rigidity or the general transitionless formula. A source-facing continuation must supply an independent state/observable and locality/resource criterion or a concrete different dynamical construction. Compare K2059 joint terminal-response inequalities or improved physical populations, K2055 nonlattice phase control, and continuum-feasible capped wings. Preserve full20/K-C/accessibility, mirror/fullII, normal jets,2+1/chirality and near5/4 resource debts.
+> Prior banners preserve history; source, ledger and canon remain unchanged.
+
+
 > **2026-10-25: COMMON ASYMPTOTIC STATES AND BOUNDED LOCAL OBSERVABLES.**
 > Fixed-free-positive-sector local multiplier classification is complete for all bounded measurable coefficients on massive R3, and exact common positivity is excluded for the specified mass pulses, including constructed smooth examples. Do not requeue decay-class extensions or generic mixing. Approximate sectors and the compressed position POVM survive; selecting their physical meaning still requires a typed source-to-observed bridge. Compare a joint terminal-response thermal certificate or improved feasible population, nonlattice higher-power complex crossing, and continuum-feasible capped wings before another fixed-sector refinement. Thermal K2059 bounds remain unchanged. Preserve full20/K-C/accessibility, mirror/fullII, normal jets,2+1/chirality, near5/4 resources and independent dual/parity/state obligations.
 > Prior banners preserve history; source, ledger and canon remain unchanged.

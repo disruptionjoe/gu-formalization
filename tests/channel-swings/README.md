@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2063_moving_sector_transport](k2063_moving_sector_transport.py).
+- [k2063_moving_sector_transport_probe](k2063_moving_sector_transport_probe.py).
+- [k2064_mass_pulse_fock_boundary](k2064_mass_pulse_fock_boundary.py).
+- [k2064_mass_pulse_fock_boundary_probe](k2064_mass_pulse_fock_boundary_probe.py).
+
 - [k2061_common_asymptotic_sector](k2061_common_asymptotic_sector.py).
 - [k2061_common_asymptotic_sector_probe](k2061_common_asymptotic_sector_probe.py).
 - [k2062_bounded_local_multiplier_rigidity](k2062_bounded_local_multiplier_rigidity.py).

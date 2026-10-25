@@ -7,6 +7,28 @@ updated_at: "2026-10-24"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-25: Moving-sector transport and fixed-sea boundaries
+
+K2063 constructs every bounded correction transporting the instantaneous positive sector
+of the conditional massive1408 graph: its forced off-diagonal part is i[dotP,P], with
+sharp continuum norm |m_dot|/(4m). It excludes bounded local multipliers and
+translation-invariant polynomial differential corrections during a positive-mass change,
+derives the Yukawa kernel and finite-range leakage bound, and supplies a uniform C/T
+slow-time estimate. Exact finite-mode polynomial interpolation gives a declared cutoff
+repair. K2064 distinguishes infinite-volume CAR nonimplementation from ultraviolet
+excitation density: rectangular pulses have exact linear number and quadratic pair-
+energy divergences, while C3 flat switching gives O(r^-3) mixing and finite
+number/energy densities and torus totals. Exact tracking repairs equal-mass endpoints
+but fails fixed-sea implementation at intermediate unequal masses without a finite
+cutoff. Conditional mathematics with imported sector/CAR criteria only; source, physics
+ledger and canon unchanged.
+
+- [K2063](explorations/conditional-build/k2063-moving-sector-transport-2026-10-25.md).
+- [K2064](explorations/conditional-build/k2064-mass-pulse-fock-boundary-2026-10-25.md).
+
+K2063 producer66 exact Clifford/scalar/interpolation controls and separate Pauli/derivative probe8 controls pass; four real formula faults rejected. K2064 producer26 exact overlap/coefficient/bound controls and separate Pauli/series probe6 controls pass; five mathematical faults rejected. Written proofs supply functional-domain transport, arbitrary bounded-local and polynomial-order exclusions, spatial/adiabatic bounds, noncompactness, lattice convergence and smooth-time estimates. Actual1408 graph and prior scientific results are hash-pinned reuse. Same-author checking only; no independent specialist, external, proof-assistant or novelty certification.
+
+
 ## 2026-10-25: Common asymptotic states and bounded local observables
 
 K2061 proves that every nonzero finite-duration rectangular mass pulse in the

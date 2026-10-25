@@ -1,0 +1,119 @@
+{
+  "scope": "imported polarized CAR on conditional massive1408 graph; continuum density differs from total trace",
+  "checks": [
+    "change of mass overlap",
+    "projection difference square",
+    "both rank two",
+    "change of mass overlap",
+    "projection difference square",
+    "both rank two",
+    "change of mass overlap",
+    "projection difference square",
+    "both rank two",
+    "change of mass overlap",
+    "projection difference square",
+    "both rank two",
+    "change of mass overlap",
+    "projection difference square",
+    "both rank two",
+    "sudden UV coefficient",
+    "first division coefficient",
+    "second derivative coefficient",
+    "density oscillatory integral",
+    "energy oscillatory integral",
+    "density normalization",
+    "pair energy normalization",
+    "smooth remainder bound fixture",
+    "smooth remainder bound fixture",
+    "smooth remainder bound fixture",
+    "smooth remainder bound fixture"
+  ],
+  "fixtures": [
+    {
+      "p": [
+        3,
+        0,
+        0
+      ],
+      "masses": [
+        4,
+        12
+      ],
+      "nu": "1/2 - 19*sqrt(17)/170"
+    },
+    {
+      "p": [
+        0,
+        3,
+        4
+      ],
+      "masses": [
+        12,
+        5
+      ],
+      "nu": "1/2 - 17*sqrt(2)/52"
+    },
+    {
+      "p": [
+        0,
+        0,
+        0
+      ],
+      "masses": [
+        1,
+        2
+      ],
+      "nu": "0"
+    },
+    {
+      "p": [
+        1,
+        2,
+        2
+      ],
+      "masses": [
+        3,
+        3
+      ],
+      "nu": "0"
+    },
+    {
+      "p": [
+        0,
+        0,
+        3
+      ],
+      "masses": [
+        4,
+        2
+      ],
+      "nu": "1/2 - 17*sqrt(13)/130"
+    }
+  ],
+  "positive_fiber_dimension": 704,
+  "UV_coefficients": {
+    "number_density": "176*lambda^2/pi^2",
+    "pair_energy_density": "176*lambda^2/pi^2",
+    "sudden_overlap": "(a-b)^2/4"
+  },
+  "smooth_bound": {
+    "amplitude_order": -3,
+    "squared_order": -6,
+    "number_radial_order": -4,
+    "energy_radial_order": -3,
+    "moment_range": "0 <= q < 3"
+  },
+  "inputs": {
+    "lab/process/k2061-common-asymptotic-sector.json": "9fc33e2bc9a2fce0ba696defe181222455a8738d462b38eb552558630c928a02",
+    "explorations/conditional-build/k1896-local-phase-vacuum-boundary-2026-10-21.md": "7be78c1f4a7cd59c0cdd0b7bfa3402e580b203ce4614c8695be18555a2c7bb35",
+    "explorations/conditional-build/k1897-smooth-pulse-energy-2026-10-21.md": "76c648eff8672d993e30f390cebae9c8b6d65e9b17e3835dd030b07a6a6b293d"
+  },
+  "proof_only": [
+    "nonatomic multiplier noncompactness",
+    "thermodynamic density limit",
+    "oscillatory asymptotic remainder",
+    "lattice sums",
+    "feedback-aware smooth bound",
+    "fixed-sea intermediate-time obstruction"
+  ]
+}

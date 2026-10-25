@@ -1,0 +1,152 @@
+{
+  "scope": "conditional moving massive1408 spectral sector; added nonlocal dynamics",
+  "checks": [
+    "projector",
+    "derivative tangent",
+    "correction Hermitian",
+    "forced commutator",
+    "projector construction",
+    "offdiagonal",
+    "norm square",
+    "real field reality",
+    "diagonal freedom",
+    "projector",
+    "derivative tangent",
+    "correction Hermitian",
+    "forced commutator",
+    "projector construction",
+    "offdiagonal",
+    "norm square",
+    "real field reality",
+    "diagonal freedom",
+    "projector",
+    "derivative tangent",
+    "correction Hermitian",
+    "forced commutator",
+    "projector construction",
+    "offdiagonal",
+    "norm square",
+    "real field reality",
+    "diagonal freedom",
+    "projector",
+    "derivative tangent",
+    "correction Hermitian",
+    "forced commutator",
+    "projector construction",
+    "offdiagonal",
+    "norm square",
+    "real field reality",
+    "diagonal freedom",
+    "projector",
+    "derivative tangent",
+    "correction Hermitian",
+    "forced commutator",
+    "projector construction",
+    "offdiagonal",
+    "norm square",
+    "real field reality",
+    "diagonal freedom",
+    "projector",
+    "derivative tangent",
+    "correction Hermitian",
+    "forced commutator",
+    "projector construction",
+    "offdiagonal",
+    "norm square",
+    "real field reality",
+    "diagonal freedom",
+    "sharp stationary radius",
+    "sharp value",
+    "global upper exact remainder",
+    "Yukawa derivative",
+    "kernel radial tail antiderivative",
+    "complex characteristic obstruction",
+    "obstruction nonzero",
+    "finite-mode exact interpolation",
+    "finite-mode exact interpolation",
+    "finite-mode exact interpolation",
+    "finite-mode exact interpolation",
+    "discarded mode not silently tracked"
+  ],
+  "fixtures": [
+    {
+      "p": [
+        3,
+        0,
+        0
+      ],
+      "mass": 4,
+      "mass_derivative": 2,
+      "norm_squared": "9/625"
+    },
+    {
+      "p": [
+        0,
+        3,
+        0
+      ],
+      "mass": 4,
+      "mass_derivative": -2,
+      "norm_squared": "9/625"
+    },
+    {
+      "p": [
+        0,
+        0,
+        3
+      ],
+      "mass": 4,
+      "mass_derivative": 0,
+      "norm_squared": "0"
+    },
+    {
+      "p": [
+        0,
+        3,
+        4
+      ],
+      "mass": 12,
+      "mass_derivative": 3,
+      "norm_squared": "225/114244"
+    },
+    {
+      "p": [
+        0,
+        0,
+        0
+      ],
+      "mass": 2,
+      "mass_derivative": 7,
+      "norm_squared": "0"
+    },
+    {
+      "p": [
+        1,
+        2,
+        2
+      ],
+      "mass": 3,
+      "mass_derivative": 5,
+      "norm_squared": "25/144"
+    }
+  ],
+  "positive_fiber_dimension": 704,
+  "formulas": {
+    "correction": "i*m_dot*beta*A/(2*(r^2+m^2))",
+    "continuum_norm": "abs(m_dot)/(4*m)",
+    "kernel_tail": "abs(m_dot)*exp(-m*R)*(R+2/m)/2"
+  },
+  "inputs": {
+    "lab/process/k2058-universal-positive-dynamics.json": "5a22db6de23a7d30ad5c1133e5a68f4b040522b15e6bad4f789ae9d82b93423f",
+    "lab/process/k2061-common-asymptotic-sector.json": "9fc33e2bc9a2fce0ba696defe181222455a8738d462b38eb552558630c928a02",
+    "explorations/conditional-build/k2062-bounded-local-multiplier-rigidity-2026-10-25.md": "ec9b23eb2b0d81139a84465844f47a3b3c9f3a80bfd907432824f1fb145864e5"
+  },
+  "proof_only": [
+    "complete bounded operator classification",
+    "bounded measurable local impossibility",
+    "all polynomial differential orders",
+    "common H1 propagator",
+    "finite-range Duhamel bound",
+    "uniform slow-time estimate"
+  ]
+}
