@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2044_arbitrary_phase_characteristic_control](k2044_arbitrary_phase_characteristic_control.py).
+- [k2044_arbitrary_phase_characteristic_control_probe](k2044_arbitrary_phase_characteristic_control_probe.py).
+- [k2045_third_thermal_spacing_phase](k2045_third_thermal_spacing_phase.py).
+- [k2045_third_thermal_spacing_phase_probe](k2045_third_thermal_spacing_phase_probe.py).
+
 - [k2042_sextic_transport_instability](k2042_sextic_transport_instability.py).
 - [k2042_sextic_transport_instability_probe](k2042_sextic_transport_instability_probe.py).
 - [k2043_chamber_offset_frontier](k2043_chamber_offset_frontier.py).

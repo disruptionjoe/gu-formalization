@@ -7,6 +7,11 @@ updated_at: "2026-10-24"
 
 # Next Steps For Contributors
 
+> **2026-10-25: ARBITRARY PHASES AND TWO FURTHER THERMAL PHASES.**
+> Compare the physical low-Q/shifted-C thermal branch beyond 2/5, including the 67/19 contact and offset packing toward 1/2, with large-data arbitrary-phase characteristic continuation or a genuine transverse sextic test. The small-data line problem and third/fourth spacing phases are settled at their stated scope. Actual independent-dual/parity and physical observation remain separate construction debts; preserve near-5/4 resource necessity, exact capped continuum wings, full20/K-C/accessibility, mirror/full-II, normal jets, 2+1 and observed chirality.
+> Prior banners preserve history; source, ledger and canon remain unchanged.
+
+
 > **2026-10-25: SEXTIC DYNAMICS AND TWO THERMAL PHASES.**
 > Compare the next chamber-aware thermal phase beyond2/145 (including Q, the19/8 contact and shifted lower endpoints) with arbitrary-phase opposite-speed or transverse dynamics of the explicit sextic, near5/4 resource necessity and exact capped-wing continuum marginals. The first thermal transition is now sharp, and same-speed all-time and fixed-phase opposite-speed forward completeness do not imply arbitrary-phase/general3D existence or stability. Actual independent-dual/parity and physical-observation bridges remain open; preserve full20/K-C/accessibility, mirror/fullII, normal jets,2+1 and chirality debts.
 > Prior banners preserve history; source, ledger and canon remain unchanged.

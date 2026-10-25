@@ -7,6 +7,25 @@ updated_at: "2026-10-24"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-25: Arbitrary phases and two further thermal phases
+
+K2044 proves global smooth arbitrary-phase opposite-speed sextic evolution on the line
+under the scale-invariant sufficient condition 2 M ||w0||_infinity^2 < 1. Half-line
+charge gives stronger position-dependent forward and backward conditions. Compact
+profiles scatter exactly to free transport after finite interaction time. These
+conditional real commuting fields do not establish source fermionic parity or a physical
+quotient. K2045 proves the third unrestricted finite/countable thermal spacing phase
+through 628/1629 and a fourth through 2/5 on energy [1575/653,675/181]. A complete
+cutoff-eleven certificate replaces the provisional tail bound; physical rivals prove
+both boundaries sharp. New optimal branches need 18, 13 or 24 physical levels, with nine
+at Q and eleven above Q. Source, physics ledger and canon verdicts remain unchanged.
+
+- [K2044](explorations/conditional-build/k2044-arbitrary-phase-characteristic-control-2026-10-25.md).
+- [K2045](explorations/conditional-build/k2045-third-thermal-spacing-phase-2026-10-25.md).
+
+Source symbolic identities and separate rational directional differentiation passed 24 field fixtures, 96 derivative checks, three null-flux and three reciprocal-bound controls; four mathematical faults and one separate report corruption were rejected. Thermal cofactor enumeration and separate fraction-free elimination independently agree on all 626412 bases, 671 cells and 20975 vertices. Direct bath-label checks pass 64 physical controls, two entire-segment chamber proofs, two boundary rivals and 53 completion removals; four mathematical faults are rejected. Whole-domain, countable, PDE and resource claims use written proofs. Inherited raw graph, canonical support reduction and zero-loss erasure are pinned reuse. Same-author internal verification; no external, proof-assistant or novelty certification.
+
+
 ## 2026-10-25: Sextic dynamics and two thermal phases
 
 K2042 proves exponential and finite-amplitude instability of the fixed norm-preserving

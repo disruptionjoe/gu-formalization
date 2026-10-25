@@ -1,0 +1,38 @@
+{
+  "result_id": "K2044",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "potential": "u**4*x**2 - u**4*y**2 + 8*u**3*v*x*y - 6*u**2*v**2*x**2 + 6*u**2*v**2*y**2 - 8*u*v**3*x*y + v**4*x**2 - v**4*y**2",
+  "force": [
+    "2*u**4*y - 8*u**3*v*x - 12*u**2*v**2*y + 8*u*v**3*x + 2*v**4*y",
+    "2*u**4*x + 8*u**3*v*y - 12*u**2*v**2*x - 8*u*v**3*y + 2*v**4*x",
+    "-4*u**3*x*y + 6*u**2*v*x**2 - 6*u**2*v*y**2 + 12*u*v**2*x*y - 2*v**3*x**2 + 2*v**3*y**2",
+    "2*u**3*x**2 - 2*u**3*y**2 + 12*u**2*v*x*y - 6*u*v**2*x**2 + 6*u*v**2*y**2 - 4*v**3*x*y"
+  ],
+  "density_source": "8*u**4*x*y - 16*u**3*v*x**2 + 16*u**3*v*y**2 - 48*u**2*v**2*x*y + 16*u*v**3*x**2 - 16*u*v**3*y**2 + 8*v**4*x*y",
+  "opposite_source": "-8*u**4*x*y + 16*u**3*v*x**2 - 16*u**3*v*y**2 + 48*u**2*v**2*x*y - 16*u*v**3*x**2 + 16*u*v**3*y**2 - 8*v**4*x*y",
+  "identity": "source_a^2+16*Re(z^2*conj(w)^4)^2=16*a^2*b^4",
+  "flux_bound": "integral opposite density along either characteristic <= M/2",
+  "condition": "2*M*B < 1; B=||w0||_infinity^2; M=integral(|z0|^2+|w0|^2)",
+  "bounds": {
+    "w_squared": "B/(1-2*M*B)",
+    "z_squared": "A*exp(2*M*B/(1-2*M*B))",
+    "A": "||z0||_infinity^2"
+  },
+  "directional_conditions": {
+    "forward": "sup_y 2*|w0(y)|^2*M_left(y)<1",
+    "backward": "sup_y 2*|w0(y)|^2*M_right(y)<1",
+    "bound": "B/(1-eta) in each admitted direction"
+  },
+  "scaling": {
+    "amplitude_exponent": "1/4",
+    "mass_exponent": "-1/2",
+    "squared_sup_exponent": "1/2"
+  },
+  "compact_support": "Each component support translates at its own speed. If both initial supports lie in [l,r], interaction vanishes for |t|>(r-l)/2; outgoing and incoming profiles then translate exactly.",
+  "scope": "Smooth bounded finite-charge data on R (equivalently R x T2 per transverse volume), arbitrary phases, stated smallness; no arbitrary large-data or transverse PDE result. Sufficient condition, not sharp threshold.",
+  "inputs": {
+    "explorations/conditional-build/k2042-sextic-transport-instability-2026-10-25.md": "493520baada2315446dcd3345390190c344358ff564fac703dc280b66ceb3bf3"
+  }
+}

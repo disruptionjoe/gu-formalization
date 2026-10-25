@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2044-arbitrary-phase-characteristic-control](k2044-arbitrary-phase-characteristic-control.json).
+- [k2045-third-thermal-spacing-phase](k2045-third-thermal-spacing-phase.json).
+
 - [k2042-sextic-transport-instability](k2042-sextic-transport-instability.json).
 - [k2043-chamber-offset-frontier](k2043-chamber-offset-frontier.json).
 

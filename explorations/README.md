@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2044-arbitrary-phase-characteristic-control](conditional-build/k2044-arbitrary-phase-characteristic-control-2026-10-25.md).
+- [k2045-third-thermal-spacing-phase](conditional-build/k2045-third-thermal-spacing-phase-2026-10-25.md).
+
 - [k2042-sextic-transport-instability](conditional-build/k2042-sextic-transport-instability-2026-10-25.md).
 - [k2043-chamber-offset-frontier](conditional-build/k2043-chamber-offset-frontier-2026-10-25.md).
 
