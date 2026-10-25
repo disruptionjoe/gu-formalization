@@ -7,6 +7,11 @@ updated_at: "2026-10-24"
 
 # Next Steps For Contributors
 
+> **2026-10-25: CONTROLLED POINTERS AND FINITE THERMAL TAILS.**
+> K2067 settles bounded local exact-sector control blindness and supplies a positive-energy derivative-pointer alternative with explicit enlarged-cone cost. Do not mistake prepared-state accuracy for a uniform observable identity or tensor no-signalling for spacelike locality. A useful next apparatus must address the fixed causal cone and real/dual/state criteria. K2068 proves N20 is uniquely best in its two-deficit odd-ladder tail family; the tiny finite upper improvement does not materially close the global gap. Do not repeat that tail search or accept floating near-zero deficits. Compare a joint two-terminal lower response, a genuinely different feasible population, nonlattice complex phase control and exact continuum wings. Preserve full20/K-C/accessibility, mirror/fullII, normaljets,2+1/chirality and near5/4 debts.
+> Prior banners preserve history; source, ledger and canon remain unchanged.
+
+
 > **2026-10-25: POSITION READOUT RESOURCES AND INCOMING-AWARE THERMAL TAILS.**
 > Scalar-position compatibility, its noncommuting and interference witnesses, robust CHSH resource bound and explicit multiplicity extension are established conditionally. Do not repeat common-POVM Bell locality or generic tensor no-signalling. A physical continuation needs actual real/dual/state/apparatus ownership or a concretely constrained setting control. The incoming-aware first-terminal thermal certificate now has cell164 deeper state(14,2) as bottleneck; next construct a joint two-terminal response or a better feasible population, rather than raise the sharp uniform loss coefficient. Compare nonlattice complex phase control and exact continuum wings; preserve full20/K-C/accessibility, mirror/fullII, normal jets,2+1/chirality and near5/4 resource debts.
 > Prior banners preserve history; source, ledger and canon remain unchanged.

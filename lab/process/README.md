@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2067-sector-preserving-pointer-control](k2067-sector-preserving-pointer-control.json).
+- [k2068-thermal-population-construction](k2068-thermal-population-construction.json).
+
 - [k2065-position-measurement-compatibility](k2065-position-measurement-compatibility.json).
 - [k2066-thermal-terminal-response](k2066-thermal-terminal-response.json).
 

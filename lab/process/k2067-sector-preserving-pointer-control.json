@@ -1,0 +1,32 @@
+{
+  "id": "K2067",
+  "scope": "conditional complex massive graph; no GU physics or source apparatus",
+  "inputs": {
+    "lab/process/k2062-bounded-local-multiplier-rigidity.json": "a8400f5fce774d0eaf3726fa393957de35c46354061de5e1ef228249ffac9825",
+    "lab/process/k2065-position-measurement-compatibility.json": "ba5dc34ad9f357b2ba27b33a7e5001641262a009c62429b9c6174934302c2e89",
+    "explorations/conditional-build/k96-observed-infinite-pointer-hamiltonian-record-wave-2026-09-02.md": "7e0947f15b843ff4591826e88716bf18f4b237b852c45fea501d9890d9536a71"
+  },
+  "local_control_class": "bounded Hermitian multipliers; every intermediate two-sided propagator preserves sector; common final time",
+  "derivative_control": "H0+lambda D1 Z",
+  "H1_domain": "abs(lambda)<1",
+  "positive_edge": "m sqrt(1-lambda^2)",
+  "speed": "1+abs(lambda)",
+  "parameters": {
+    "s_over_m": "1",
+    "lambda_": "1/2",
+    "mT": "20",
+    "ma": "10"
+  },
+  "variance_bound": "17/(4*m^2)",
+  "error_bound": "17/400",
+  "visibility_lower": "183/200",
+  "chsh_lower": "2*sqrt(2)*(183/200)^2",
+  "mean_free_energy_upper": "2*m",
+  "uniform_effect_distance": "1",
+  "limitations": [
+    "source real/dual not selected",
+    "prepared-state restriction",
+    "speed-one cone not retained",
+    "no independent specialist or novelty certification"
+  ]
+}

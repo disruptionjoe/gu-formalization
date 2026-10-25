@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2067_sector_preserving_pointer_control](k2067_sector_preserving_pointer_control.py).
+- [k2067_sector_preserving_pointer_control_probe](k2067_sector_preserving_pointer_control_probe.py).
+- [k2068_thermal_population_construction](k2068_thermal_population_construction.py).
+- [k2068_thermal_population_construction_probe](k2068_thermal_population_construction_probe.py).
+
 - [k2065_position_measurement_compatibility](k2065_position_measurement_compatibility.py).
 - [k2065_position_measurement_compatibility_probe](k2065_position_measurement_compatibility_probe.py).
 - [k2066_thermal_terminal_response](k2066_thermal_terminal_response.py).

@@ -7,6 +7,25 @@ updated_at: "2026-10-24"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-25: Controlled pointers and finite thermal tails
+
+K2067 shows that bounded local controls preserving the fixed massive positive-energy
+sector throughout evolution leave scalar position readout Bell-local at a common time.
+It constructs a derivative pointer with a positive lower energy bound, finite prepared-
+state Bell violation and explicit speed3/2 cost, separating preparation accuracy from
+operator-norm distance. K2068 proves the unique N20 tail-length minimum throughout E
+in[249/100,251/100] within the explicit two-deficit thermal family and releases
+a41-level finite witness. Its exact upper improvement over the countable witness is
+only6939/289516035863067618208, about2.4e-17; the global lower bound and substantial gap
+remain unchanged. These are conditional mathematical results, with no source, physics-
+ledger or canon promotion.
+
+- [K2067](explorations/conditional-build/k2067-sector-preserving-pointer-control-2026-10-25.md).
+- [K2068](explorations/conditional-build/k2068-thermal-population-construction-2026-10-25.md).
+
+K2067:30 exact finite algebra/resource controls and18 separate pointer/probability controls, with5 real faults. K2068: exact symbolic family/difference and all-integer sign proof,168 uniform feasibility corners and117 separate direct bath/physical/affine controls, with3 real faults. Continuum proofs, numerical scouting and hash-pinned reuse are distinguished. Same-author checking only; no independent specialist, proof-assistant or novelty certification.
+
+
 ## 2026-10-25: Position readout resources and incoming-aware thermal tails
 
 K2065 proves that scalar postprocessings of one compressed position POVM remain Bell-

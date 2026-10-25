@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 75741f22cfbed173cd8a972e460d70268fe30a0d
+revision_basis: fdf4a87f1549b99360a64496bd243a4de1162eb5
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,18 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2067 shows that bounded local controls preserving the fixed massive positive-energy
+    sector throughout evolution leave scalar position readout Bell-local at a common time.
+    It constructs a derivative pointer with a positive lower energy bound, finite prepared-
+    state Bell violation and explicit speed3/2 cost, separating preparation accuracy from
+    operator-norm distance. K2068 proves the unique N20 tail-length minimum throughout E
+    in[249/100,251/100] within the explicit two-deficit thermal family and releases
+    a41-level finite witness. Its exact upper improvement over the countable witness is
+    only6939/289516035863067618208, about2.4e-17; the global lower bound and substantial gap
+    remain unchanged. These are conditional mathematical results, with no source, physics-
+    ledger or canon promotion.
+
+    Historical predecessor (not live):
     K2065 proves that scalar postprocessings of one compressed position POVM remain Bell-
     local, even for explicit noncommuting effects on the conditional massive1408 graph.
     Normalized torus states show interference; a robust CHSH bound quantifies departure from
@@ -16555,6 +16567,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k2067-sector-preserving-pointer-control-2026-10-25.md
+    - lab/process/k2067-sector-preserving-pointer-control.json
+    - tests/channel-swings/k2067_sector_preserving_pointer_control.py
+    - tests/channel-swings/k2067_sector_preserving_pointer_control_probe.py
+    - explorations/conditional-build/k2068-thermal-population-construction-2026-10-25.md
+    - lab/process/k2068-thermal-population-construction.json
+    - tests/channel-swings/k2068_thermal_population_construction.py
+    - tests/channel-swings/k2068_thermal_population_construction_probe.py
     - explorations/conditional-build/k2065-position-measurement-compatibility-2026-10-25.md
     - lab/process/k2065-position-measurement-compatibility.json
     - tests/channel-swings/k2065_position_measurement_compatibility.py
@@ -17957,6 +17977,12 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which constrained apparatus can access the conditional multiplicity readout while
+  retaining the original speed-one causal cone and justified real/dual/state ownership,
+  and can a joint two-terminal thermal lower certificate or genuinely different population
+  family resolve the remaining gap?
+
+  Historical predecessor (not live):
   Which source-compatible apparatus or constrained setting-dependent control realizes the
   extra measurement resource on the conditional graph, and can a joint two-terminal
   thermal response tighten the remaining certified gap?
@@ -21656,6 +21682,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K2067 settles bounded local exact-sector control blindness and supplies a positive-
+  energy derivative-pointer alternative with explicit enlarged-cone cost. Do not mistake
+  prepared-state accuracy for a uniform observable identity or tensor no-signalling for
+  spacelike locality. A useful next apparatus must address the fixed causal cone and
+  real/dual/state criteria. K2068 proves N20 is uniquely best in its two-deficit odd-
+  ladder tail family; the tiny finite upper improvement does not materially close the
+  global gap. Do not repeat that tail search or accept floating near-zero deficits.
+  Compare a joint two-terminal lower response, a genuinely different feasible population,
+  nonlattice complex phase control and exact continuum wings. Preserve
+  full20/K-C/accessibility, mirror/fullII, normaljets,2+1/chirality and near5/4 debts.
+
+  Historical predecessor (not live):
   Scalar-position compatibility, its noncommuting and interference witnesses, robust CHSH
   resource bound and explicit multiplicity extension are established conditionally. Do not
   repeat common-POVM Bell locality or generic tensor no-signalling. A physical

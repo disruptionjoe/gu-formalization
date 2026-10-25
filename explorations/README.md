@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2067-sector-preserving-pointer-control](conditional-build/k2067-sector-preserving-pointer-control-2026-10-25.md).
+- [k2068-thermal-population-construction](conditional-build/k2068-thermal-population-construction-2026-10-25.md).
+
 - [k2065-position-measurement-compatibility](conditional-build/k2065-position-measurement-compatibility-2026-10-25.md).
 - [k2066-thermal-terminal-response](conditional-build/k2066-thermal-terminal-response-2026-10-25.md).
 
