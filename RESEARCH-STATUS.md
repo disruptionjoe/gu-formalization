@@ -2,11 +2,33 @@
 title: "Research Status"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-10-21"
+updated_at: "2026-10-24"
 canon_sweep_at: "2026-07-25"
 ---
 
 # Research Status
+
+## 2026-10-24: Positive-metric boundary and thermal phases
+
+K2030 extends the fixed raw-coefficient classification to every constant positive
+Hermitian principal metric: all14 imaginary upper-preserving directions have image
+span(I,C1,C2,C3,N) with nine invisible directions, while any nonzero mixture of the real
+M and extra imaginary iN has an open Fourier instability band. The compatible metric
+cone has2048 real parameters, but no such metric rescues those directions; the13
+scalar/vector/invisible coefficient directions remain. K2031 derives exact physical
+phase competitors, solves an unbounded head/rise/tail family at11 energies, and proves
+the unrestricted finite/countable thermal optimum F21(E)=(15398019-761157E)/32499160
+for1/2<delta<=1 and13/10<=E<=E*=8283273393/6147208289. Complete all-pattern certificates
+and component placement give the unique optimal diagonal and sharp21 physical levels
+below E*, with a17-level endpoint witness that beats the21 line immediately above, together with
+stability and actual half-spacing counterexamples. The remaining phase diagram and
+near5/4 dimension law are open; source/ledger/canon verdicts do not change.
+
+- [K2030](explorations/conditional-build/k2030-positive-metric-rescue-2026-10-24.md).
+- [K2031](explorations/conditional-build/k2031-thermal-phase-boundaries-2026-10-24.md).
+
+Exact source reconstruction verifies14 full raw directions and210 returns; separate contraction, mixed Fourier and metric-projector checks include four actual faults and three provenance hashes. Thermal verification covers192 finite family controls,11 original-family and11 unbounded head/rise/tail optima,97 original and1514 generalized candidate evaluations, five symbolic identities and actual physical/certificate faults. Optimizer-free producer and separate bath-shell replay cover616194 connected,9150 all-energy component and25 short-placement duals, all equality contacts, physical21-level witnesses and two half-spacing counterexamples. Seven thermal provenance hashes are separate. Same-author internal checks; no external specialist, proof-assistant or novelty certification.
+
 
 ## 2026-10-24: All-grade coefficients and unrestricted thermal frontier
 

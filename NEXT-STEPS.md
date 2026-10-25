@@ -2,10 +2,15 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-10-21"
+updated_at: "2026-10-24"
 ---
 
 # Next Steps For Contributors
+
+> **2026-10-24: POSITIVE-METRIC BOUNDARY AND THERMAL PHASES.**
+> The fixed H/contraction/principal carrier has no conservative positive-metric rescue for the rejected raw directions, including mixed directions and uniformly bounded moving norms. A new source-adjacent branch must test a changed full form/contraction, principal carrier or actual physical constraint, retaining the existing13 coefficient directions and K1961 prescribed-potential domain results. Thermal work should resolve the optimal phase on(E*,7/5) after the now-proved exact21-phase edge E*=8283273393/6147208289, classify endpoint minimum dimension, or resolve the near5/4 accumulation region beyond geometric families. The newly proved21 phase interior and prior17 window, their arbitrary component counts and minimum dimensions are settled within stated bath/spacing assumptions. Exact capped-wing continuum marginals, full20/K-C/accessibility, mirror/fullII, normal jets,2+1 and observed chirality remain open.
+> Prior banners preserve history; source, ledger and canon remain unchanged.
+
 
 > **2026-10-24: ALL-GRADE COEFFICIENTS AND UNRESTRICTED THERMAL FRONTIER.**
 > Compare a changed common form/contraction or action-owned stable-core constraint against the surviving 13-dimensional complex raw family, whose 4 core images are supplied scalar/vector potentials and cannot produce a constant isotropic mass. Do not repeat higher-grade real searches or infer a physical GU gauge theory. Thermal work next needs new contacts/certificates outside E=[7/5,8/5] or another bath temperature; arbitrary component counts, equality and sharp 17 dimension in this rectangle are settled. Exact capped-wing continuum marginals, full 20/K-C/accessibility, mirror/fullII, normal jets,2+1 and observed chirality remain open.

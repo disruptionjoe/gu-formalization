@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2030_positive_metric_rescue](k2030_positive_metric_rescue.py).
+- [k2030_positive_metric_rescue_probe](k2030_positive_metric_rescue_probe.py).
+- [k2031_thermal_phase_boundaries](k2031_thermal_phase_boundaries.py).
+- [k2031_thermal_phase_boundaries_probe](k2031_thermal_phase_boundaries_probe.py).
+
 - [k2028_all_grade_raw_common_form](k2028_all_grade_raw_common_form.py).
 - [k2028_all_grade_raw_common_form_probe](k2028_all_grade_raw_common_form_probe.py).
 - [k2029_multicomponent_thermal_placement](k2029_multicomponent_thermal_placement.py).

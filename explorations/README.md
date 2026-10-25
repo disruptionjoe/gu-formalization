@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2030-positive-metric-rescue](conditional-build/k2030-positive-metric-rescue-2026-10-24.md).
+- [k2031-thermal-phase-boundaries](conditional-build/k2031-thermal-phase-boundaries-2026-10-24.md).
+
 - [k2028-all-grade-raw-common-form](conditional-build/k2028-all-grade-raw-common-form-2026-10-24.md).
 - [k2029-multicomponent-thermal-placement](conditional-build/k2029-multicomponent-thermal-placement-2026-10-24.md).
 
