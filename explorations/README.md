@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2032-principal-form-rigidity](conditional-build/k2032-principal-form-rigidity-2026-10-24.md).
+- [k2033-thermal-transition-completion](conditional-build/k2033-thermal-transition-completion-2026-10-24.md).
+
 - [k2030-positive-metric-rescue](conditional-build/k2030-positive-metric-rescue-2026-10-24.md).
 - [k2031-thermal-phase-boundaries](conditional-build/k2031-thermal-phase-boundaries-2026-10-24.md).
 

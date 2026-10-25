@@ -8,6 +8,27 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-24: Full-form rigidity and complete thermal17 phase
+
+K2032 proves that the common centralizer of all fourteen fixed raw principal matrices is
+the real scalars, so every compatible nondegenerate constant real symmetric full form is
+a scalar multiple of H with inertia (960,960). Every constant invertible spinor weight
+gives an equivalent principal pencil and retains the Jordan defect; singular weights
+admit explicit zero-initial-data nonunique solutions even modulo their algebraic common
+kernel. K2033 completes the unrestricted finite/countable thermal 17-level phase
+F17(E)=(985095-61407E)/2040416 on [L,U], where L=8283273393/6147208289 and
+U=3746293/2243485, for the stated bath and spacing 1/2<delta<=1. The interior optimal
+diagonal is unique with sharp dimension 17. Each endpoint has exactly two isolated
+optimal diagonals: 21/17 at L and 17/5 at U, giving exact minimum dimensions 17 and 5. A
+physical five-level competitor refutes the proposed 13-family crossing and proves the
+true right edge. Source, ledger and canon verdicts remain unchanged.
+
+- [K2032](explorations/conditional-build/k2032-principal-form-rigidity-2026-10-24.md).
+- [K2033](explorations/conditional-build/k2033-thermal-transition-completion-2026-10-24.md).
+
+Full1920 principal-polynomial checks and separate signed-bit replay cover all14 raw symbols and2184 transverse identities; complete16384 matrix-unit equations certify the centralizer. Actual weight, half-scalar, curl-sign and omitted-connection faults are separated from provenance checks. Two thermal implementations replay308097 connected certificates, with9150 inherited component certificates replayed by the primary checker and25 new placement cells reconstructed by both. All43352 contact cells are classified:21 interior affine cells and exactly two isolated endpoint diagonals on each side. Three short-placement endpoint contacts force zero outside mass. Physical shell completion proves5/17/21 resource counts; five actual thermal input faults are rejected. These are internal separate implementations, not external review, formal proof-assistant acceptance or a novelty claim.
+
+
 ## 2026-10-24: Positive-metric boundary and thermal phases
 
 K2030 extends the fixed raw-coefficient classification to every constant positive

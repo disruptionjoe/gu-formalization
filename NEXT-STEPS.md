@@ -7,6 +7,11 @@ updated_at: "2026-10-24"
 
 # Next Steps For Contributors
 
+> **2026-10-24: FULL-FORM RIGIDITY AND COMPLETE THERMAL17 PHASE.**
+> Full-form retuning under all fourteen principal adjoints and arbitrary constant invertible weights are now exhausted for the fixed raw construction. Source-adjacent progress requires a changed offdiagonal contraction/principal symbol, a supplied differential physical constraint with domain/action, or an observed-only form with a typed observation bridge. Thermal work should prove or refute the five-level line immediately above U=3746293/2243485; finite support searches at 7/4,9/5,2 found no counterexample but do not prove global optimality. Near-5/4 unrestricted accumulation and the left edge of the earlier 21 phase remain open. Exact capped-wing continuum marginals, full20/K-C/accessibility, mirror/fullII, normal jets, 2+1 and observed chirality remain distinct open alternatives.
+> Prior banners preserve history; source, ledger and canon remain unchanged.
+
+
 > **2026-10-24: POSITIVE-METRIC BOUNDARY AND THERMAL PHASES.**
 > The fixed H/contraction/principal carrier has no conservative positive-metric rescue for the rejected raw directions, including mixed directions and uniformly bounded moving norms. A new source-adjacent branch must test a changed full form/contraction, principal carrier or actual physical constraint, retaining the existing13 coefficient directions and K1961 prescribed-potential domain results. Thermal work should resolve the optimal phase on(E*,7/5) after the now-proved exact21-phase edge E*=8283273393/6147208289, classify endpoint minimum dimension, or resolve the near5/4 accumulation region beyond geometric families. The newly proved21 phase interior and prior17 window, their arbitrary component counts and minimum dimensions are settled within stated bath/spacing assumptions. Exact capped-wing continuum marginals, full20/K-C/accessibility, mirror/fullII, normal jets,2+1 and observed chirality remain open.
 > Prior banners preserve history; source, ledger and canon remain unchanged.

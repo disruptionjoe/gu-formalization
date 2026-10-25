@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2032-principal-form-rigidity](k2032-principal-form-rigidity.json).
+- [k2033-thermal-transition-completion](k2033-thermal-transition-completion.json).
+
 - [k2030-positive-metric-rescue](k2030-positive-metric-rescue.json).
 - [k2031-thermal-phase-boundaries](k2031-thermal-phase-boundaries.json).
 

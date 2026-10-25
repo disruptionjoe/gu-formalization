@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2032_principal_form_rigidity](k2032_principal_form_rigidity.py).
+- [k2032_principal_form_rigidity_probe](k2032_principal_form_rigidity_probe.py).
+- [k2033_thermal_transition_completion](k2033_thermal_transition_completion.py).
+- [k2033_thermal_transition_completion_probe](k2033_thermal_transition_completion_probe.py).
+
 - [k2030_positive_metric_rescue](k2030_positive_metric_rescue.py).
 - [k2030_positive_metric_rescue_probe](k2030_positive_metric_rescue_probe.py).
 - [k2031_thermal_phase_boundaries](k2031_thermal_phase_boundaries.py).

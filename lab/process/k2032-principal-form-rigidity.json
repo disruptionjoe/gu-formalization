@@ -1,0 +1,118 @@
+{
+  "result_id": "K2032",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "principal_projectors": 14,
+  "centralizer_even_dimension": 2,
+  "centralizer_full_dimension": 1,
+  "signed_orbit_coordinates": 16384,
+  "inconsistent_orbits": 254,
+  "even_generator_ratios": [
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      0,
+      2,
+      1,
+      3
+    ],
+    [
+      0,
+      3,
+      1,
+      2
+    ],
+    [
+      0,
+      4,
+      1,
+      2
+    ],
+    [
+      0,
+      5,
+      1,
+      2
+    ],
+    [
+      0,
+      6,
+      1,
+      2
+    ],
+    [
+      0,
+      7,
+      1,
+      2
+    ],
+    [
+      0,
+      8,
+      1,
+      2
+    ],
+    [
+      0,
+      9,
+      1,
+      2
+    ],
+    [
+      0,
+      10,
+      1,
+      2
+    ],
+    [
+      0,
+      11,
+      1,
+      2
+    ],
+    [
+      0,
+      12,
+      1,
+      2
+    ],
+    [
+      0,
+      13,
+      1,
+      2
+    ]
+  ],
+  "pencil_equivalence_controls": 12,
+  "singular_controls": [
+    {
+      "weight_rank": 0,
+      "time_rank": 256,
+      "common_kernel": 1280,
+      "spatial_curl_freedom": 256
+    },
+    {
+      "weight_rank": 64,
+      "time_rank": 1088,
+      "common_kernel": 640,
+      "spatial_curl_freedom": 128
+    }
+  ],
+  "full_form_inertia": [
+    960,
+    960
+  ],
+  "scope": "All constant real symmetric full forms for the fixed14 principal symbols; arbitrary constant invertible triple-gamma weights; singular descriptor nonuniqueness. No source-selected reality, physical gauge quotient or GU verdict.",
+  "inputs": {
+    "tests/channel-swings/k2021_common_degree_dual_operator.py": "61c172cba4507e91b32c26c61a5a76ef644cabb6c3a94f31c8f3755f41913560",
+    "lab/process/k1951-coordinated-zero-southeast-principal.json": "58ed2f1f9538cc3b47eb58322c61fa681521deb5298f20bdbd5acd6b932e7547",
+    "lab/process/k2028-all-grade-raw-common-form.json": "18c4532092a938fa523934394db7b4f4ab6e65b0b61a960e006c2e5a56db4243"
+  },
+  "raw_mutation_conditions": 2,
+  "contrary_input_controls": 2
+}

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 12be95f09ceab3de8e51e0ad5f60a86c67e2ea79
+revision_basis: b772b9579cac258d9c26d5d4941633d61362c845
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2032 proves that the common centralizer of all fourteen fixed raw principal matrices is
+    the real scalars, so every compatible nondegenerate constant real symmetric full form is
+    a scalar multiple of H with inertia (960,960). Every constant invertible spinor weight
+    gives an equivalent principal pencil and retains the Jordan defect; singular weights
+    admit explicit zero-initial-data nonunique solutions even modulo their algebraic common
+    kernel. K2033 completes the unrestricted finite/countable thermal 17-level phase
+    F17(E)=(985095-61407E)/2040416 on [L,U], where L=8283273393/6147208289 and
+    U=3746293/2243485, for the stated bath and spacing 1/2<delta<=1. The interior optimal
+    diagonal is unique with sharp dimension 17. Each endpoint has exactly two isolated
+    optimal diagonals: 21/17 at L and 17/5 at U, giving exact minimum dimensions 17 and 5. A
+    physical five-level competitor refutes the proposed 13-family crossing and proves the
+    true right edge. Source, ledger and canon verdicts remain unchanged.
+
+    Historical predecessor (not live):
     K2030 extends the fixed raw-coefficient classification to every constant positive
     Hermitian principal metric: all14 imaginary upper-preserving directions have image
     span(I,C1,C2,C3,N) with nine invisible directions, while any nonzero mixture of the real
@@ -16326,6 +16340,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k2032-principal-form-rigidity-2026-10-24.md
+    - lab/process/k2032-principal-form-rigidity.json
+    - tests/channel-swings/k2032_principal_form_rigidity.py
+    - tests/channel-swings/k2032_principal_form_rigidity_probe.py
+    - explorations/conditional-build/k2033-thermal-transition-completion-2026-10-24.md
+    - lab/process/k2033-thermal-transition-completion.json
+    - tests/channel-swings/k2033_thermal_transition_completion.py
+    - tests/channel-swings/k2033_thermal_transition_completion_probe.py
     - explorations/conditional-build/k2030-positive-metric-rescue-2026-10-24.md
     - lab/process/k2030-positive-metric-rescue.json
     - tests/channel-swings/k2030_positive_metric_rescue.py
@@ -17588,6 +17610,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which changed source input can support well-posed physical dynamics after full-form and
+  weight rigidity, and is the physical five-level line globally optimal above the exact
+  thermal17 phase edge?
+
+  Historical predecessor (not live):
   Which changed source input can select positive physical dynamics after exhausting all
   constant positive metrics, and what phase follows the exact right edge of the now-
   proved21-level thermal phase?
@@ -21204,6 +21231,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Full-form retuning under all fourteen principal adjoints and arbitrary constant
+  invertible weights are now exhausted for the fixed raw construction. Source-adjacent
+  progress requires a changed offdiagonal contraction/principal symbol, a supplied
+  differential physical constraint with domain/action, or an observed-only form with a
+  typed observation bridge. Thermal work should prove or refute the five-level line
+  immediately above U=3746293/2243485; finite support searches at 7/4,9/5,2 found no
+  counterexample but do not prove global optimality. Near-5/4 unrestricted accumulation
+  and the left edge of the earlier 21 phase remain open. Exact capped-wing continuum
+  marginals, full20/K-C/accessibility, mirror/fullII, normal jets, 2+1 and observed
+  chirality remain distinct open alternatives.
+
+  Historical predecessor (not live):
   The fixed H/contraction/principal carrier has no conservative positive-metric rescue for
   the rejected raw directions, including mixed directions and uniformly bounded moving
   norms. A new source-adjacent branch must test a changed full form/contraction, principal
