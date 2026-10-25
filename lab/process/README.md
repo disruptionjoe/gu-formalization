@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2036-maximal-graph-raw-couplings](k2036-maximal-graph-raw-couplings.json).
+- [k2037-thermal-seven-level-boundary](k2037-thermal-seven-level-boundary.json).
+
 - [k2034-observed-principal-forms](k2034-observed-principal-forms.json).
 - [k2035-thermal-five-level-phase](k2035-thermal-five-level-phase.json).
 

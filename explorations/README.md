@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2036-maximal-graph-raw-couplings](conditional-build/k2036-maximal-graph-raw-couplings-2026-10-24.md).
+- [k2037-thermal-seven-level-boundary](conditional-build/k2037-thermal-seven-level-boundary-2026-10-24.md).
+
 - [k2034-observed-principal-forms](conditional-build/k2034-observed-principal-forms-2026-10-24.md).
 - [k2035-thermal-five-level-phase](conditional-build/k2035-thermal-five-level-phase-2026-10-24.md).
 

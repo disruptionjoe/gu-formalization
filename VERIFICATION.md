@@ -7,6 +7,27 @@ updated_at: "2026-10-24"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-24: Raw graph couplings and three thermal phases
+
+K2036 completely tests the fixed common-form raw coefficients on the maximal
+observed1408 graph: real graph-preserving coefficients are zero; the complex Hermitian
+branch has14 invariant directions,13 preserving the fixed positive energy, image
+span(I,C7,C8,C9) and nine invisible directions. An explicit changed real coefficient
+preserves H and the zero southeast block while giving stable massive free evolution on
+all1408 dimensions; it violates the original raw tie. K2037 proves three unrestricted
+finite/countable thermal phases for every0<delta<=1:3(5-E)/28 on[11/5,19/8],9(7-E)/148
+on[19/8,349/145],and81(9-E)/1912 on[349/145,1575/653]. Optimal diagonals are unique,
+with sharp interior dimensions7,9,11 and smaller left-endpoint dimensions. A longer
+supporting chord fails physical interpolation; a genuine geometric-tail family
+approaches the feasible countable point(415/172,12/43), whose optimality remains open.
+Source, physics ledger and canon verdicts remain unchanged.
+
+- [K2036](explorations/conditional-build/k2036-maximal-graph-raw-couplings-2026-10-24.md).
+- [K2037](explorations/conditional-build/k2037-thermal-seven-level-boundary-2026-10-24.md).
+
+Exact common-form basis constraints and independent signed-bit/modular reconstruction cover8388 real and8232 imaginary columns, followed by all full1920-by1408 survivor equations. The massive completion, H identity, zero southeast, positive generator and dispersion are checked with actual matrix faults. Thermal complete cofactor and separate bath-label/nullspace replays cover15/55/183 orientation cells, all vertices, equality and whole-interval physical attainment; the short certificate transfers globally using positive tail margins and translation costs. The failed longer chord and feasible finite/countable tail family are retained. Common-form and shell/erasure predecessor proofs are hash-pinned reuse. Internal separate implementations, no external review or proof-assistant certification.
+
+
 ## 2026-10-24: Maximal positive1408 and complete thermal5 phase
 
 K2034 resolves the four-observed-direction raw1920 operator into a new invariant1152

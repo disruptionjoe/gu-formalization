@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2036_maximal_graph_raw_couplings](k2036_maximal_graph_raw_couplings.py).
+- [k2036_maximal_graph_raw_couplings_probe](k2036_maximal_graph_raw_couplings_probe.py).
+- [k2037_thermal_seven_level_boundary](k2037_thermal_seven_level_boundary.py).
+- [k2037_thermal_seven_level_boundary_probe](k2037_thermal_seven_level_boundary_probe.py).
+
 - [k2034_observed_principal_forms](k2034_observed_principal_forms.py).
 - [k2034_observed_principal_forms_probe](k2034_observed_principal_forms_probe.py).
 - [k2035_thermal_five_level_phase](k2035_thermal_five_level_phase.py).

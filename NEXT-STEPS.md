@@ -7,6 +7,11 @@ updated_at: "2026-10-24"
 
 # Next Steps For Contributors
 
+> **2026-10-24: RAW GRAPH COUPLINGS AND THREE THERMAL PHASES.**
+> Compare the actual nonconvex thermal frontier above1575/653 against the exact lower chord and geometric-tail upper family; do not interpolate different return cells as an optimum. Source work requires an explicitly changed contraction/lower map or action-owned observed constraint: the complete fixed common-form maximal1408 class adds no mass, while the changed-coefficient same-H massive extension is a control, not source selection. Near5/4 accumulation, earlier21-phase edges and exact capped-wing continuum marginals remain alternatives. Preserve full20/K-C/accessibility, mirror/fullII, normal jets,2+1 and observed chirality debts.
+> Prior banners preserve history; source, ledger and canon remain unchanged.
+
+
 > **2026-10-24: MAXIMAL POSITIVE1408 AND COMPLETE THERMAL5 PHASE.**
 > The source-adjacent incumbent is to classify which actual raw common-connection coefficients preserve the explicit maximal1408 graph and its positive energy; the added successful mass on1152 fails that raw source tie. Full observed commutant and interacting physical selection remain open. The thermal incumbent is a global seven-level successor proof or counterexample above11/5; finite support scouts at9/4 and19/8 found none through14 occupied support indices, which is discovery only. Near5/4 unrestricted accumulation and the earlier21-phase left edge are independent alternatives. Exact capped-wing continuum marginals, full20/K-C/accessibility, mirror/fullII, normal jets,2+1 and observed chirality remain distinct open debts.
 > Prior banners preserve history; source, ledger and canon remain unchanged.
