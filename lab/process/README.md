@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2059-energy-aware-thermal-tail](k2059-energy-aware-thermal-tail.json).
+- [k2060-positive-energy-localization](k2060-positive-energy-localization.json).
+
 - [k2057-gap-aware-thermal-erasure](k2057-gap-aware-thermal-erasure.json).
 - [k2058-universal-positive-dynamics](k2058-universal-positive-dynamics.json).
 

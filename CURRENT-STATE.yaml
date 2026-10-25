@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: dd763cd9d1243afc65ef9046173571594c4314ce
+revision_basis: 719818612fb48e0bf5974e32a021dc8c04636359
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,19 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2059 consumes inherited compulsory-ladder packing and new reachable energy-aware
+    Bellman tails in a stronger finite/countable thermal certificate. A new two-peak
+    finite21-level witness and countable geometric extension improve the upper bound. At
+    E=5/2 and1/2<delta<=1 the bracket is19063992615557/68547998140000 to11561805/41518097,
+    about82 percent narrower than K2057. K2060 classifies the10624-dimensional constant
+    subalgebra preserving the actual1408 graph fixed positive-energy sector, proves
+    periodic/decaying local-multiplier rigidity and the additional energy norm bound, and
+    constructs exact mass-pulse transfer. Released consequences include sharp leakage
+    control, massive compact-support obstruction and time-integrable-potential transported
+    scattering subspaces. Conditional internal mathematics only; no source, physics-ledger
+    or canon promotion.
+
+    Historical predecessor (not live):
     K2057 proves sharp gap-aware thermal erasure q<=B+25Delta/4, near-saturation loss
     rigidity, and consumes it in a stronger finite/countable lower certificate. A
     released15-level witness and an invisible countable tail also improve the upper bound.
@@ -16504,6 +16517,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k2059-energy-aware-thermal-tail-2026-10-25.md
+    - lab/process/k2059-energy-aware-thermal-tail.json
+    - tests/channel-swings/k2059_energy_aware_thermal_tail.py
+    - tests/channel-swings/k2059_energy_aware_thermal_tail_probe.py
+    - explorations/conditional-build/k2060-positive-energy-localization-2026-10-25.md
+    - lab/process/k2060-positive-energy-localization.json
+    - tests/channel-swings/k2060_positive_energy_localization.py
+    - tests/channel-swings/k2060_positive_energy_localization_probe.py
     - explorations/conditional-build/k2057-gap-aware-thermal-erasure-2026-10-25.md
     - lab/process/k2057-gap-aware-thermal-erasure.json
     - tests/channel-swings/k2057_gap_aware_thermal_erasure.py
@@ -17874,6 +17895,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can joint terminal-response constraints or a better feasible population close the
+  thermal gap, and can a source-selected physical state be reconciled with the proved
+  fixed-energy-sector restrictions?
+
+  Historical predecessor (not live):
   Can the remaining thermal certificate gap or an interacting physical-state bridge be
   resolved after sharp tail stability and complete universal fixed-metric compatibility?
 
@@ -21553,6 +21579,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Thermal priority: strengthen the joint terminal response beyond independent Bellman
+  excess costs, or construct a better feasible population; the new reachable energy-tail
+  certificate and two-peak upper leave a positive gap. Dynamics: fixed free positive-
+  energy preservation is now classified for constants and periodic/decaying local
+  coefficients; transported asymptotic sectors exist for time-integrable potentials but do
+  not select a common physical quotient. Compare genuinely nonlattice higher-power complex
+  control and exact feasible continuum wings before further same-family refinement.
+  Preserve full20/K-C/accessibility, mirror/fullII, normal jets,2+1/chirality, near5/4
+  resources and source-owned dual/parity/state obligations.
+
+  Historical predecessor (not live):
   Compare a thermal certificate enforcing component compatibility and tail-energy coupling, or improved physical support
   against a genuinely nonlattice higher-power complex continuation estimate, and source-
   selected independent dual/parity plus observed physical-state construction. K2057

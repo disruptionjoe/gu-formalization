@@ -7,6 +7,11 @@ updated_at: "2026-10-24"
 
 # Next Steps For Contributors
 
+> **2026-10-25: ENERGY-AWARE THERMAL BOUNDS AND POSITIVE-ENERGY SECTORS.**
+> Thermal priority: strengthen the joint terminal response beyond independent Bellman excess costs, or construct a better feasible population; the new reachable energy-tail certificate and two-peak upper leave a positive gap. Dynamics: fixed free positive-energy preservation is now classified for constants and periodic/decaying local coefficients; transported asymptotic sectors exist for time-integrable potentials but do not select a common physical quotient. Compare genuinely nonlattice higher-power complex control and exact feasible continuum wings before further same-family refinement. Preserve full20/K-C/accessibility, mirror/fullII, normal jets,2+1/chirality, near5/4 resources and source-owned dual/parity/state obligations.
+> Prior banners preserve history; source, ledger and canon remain unchanged.
+
+
 > **2026-10-25: SHARP THERMAL TAILS AND UNIVERSAL POSITIVE DYNAMICS.**
 > Compare a thermal certificate enforcing component compatibility and tail-energy coupling, or improved physical support against a genuinely nonlattice higher-power complex continuation estimate, and source-selected independent dual/parity plus observed physical-state construction. K2057 already improves both bracket sides; its tail-loss rigidity is not optimum or dimension necessity. K2058 settles universal fixed-metric compatibility and bounded variable linear propagation, not positive Hamiltonian energy or nonlinear stability. Preserve full20/K-C/accessibility, mirror/fullII, normal jets,2+1/chirality, near5/4 resources and exact capped wings.
 > Prior banners preserve history; source, ledger and canon remain unchanged.

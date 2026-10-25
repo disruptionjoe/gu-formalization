@@ -1,0 +1,132 @@
+{
+  "scope": "massive conditional 1408 graph; fixed free positive spectral subspace",
+  "mass_assumption": "mu > 0",
+  "real_blocks": [
+    576,
+    576,
+    64,
+    64,
+    64,
+    64
+  ],
+  "multiplicity_spaces": [
+    72,
+    72,
+    8,
+    8,
+    8,
+    8
+  ],
+  "preserving_dimension": 10624,
+  "full_allowed_dimension": 169984,
+  "excluded_dimensions": 159360,
+  "pulse_records": [
+    {
+      "p": [
+        "3",
+        "0",
+        "0"
+      ],
+      "mu": "4",
+      "mass_shift": "-8",
+      "transition_coefficient": "576/625"
+    },
+    {
+      "p": [
+        "0",
+        "3",
+        "4"
+      ],
+      "mu": "12",
+      "mass_shift": "0",
+      "transition_coefficient": "0"
+    },
+    {
+      "p": [
+        "1",
+        "0",
+        "0"
+      ],
+      "mu": "1",
+      "mass_shift": "-2",
+      "transition_coefficient": "1"
+    },
+    {
+      "p": [
+        "0",
+        "0",
+        "0"
+      ],
+      "mu": "2",
+      "mass_shift": "1",
+      "transition_coefficient": "0"
+    },
+    {
+      "p": [
+        "2",
+        "-3",
+        "6"
+      ],
+      "mu": "24",
+      "mass_shift": "1",
+      "transition_coefficient": "49/421250"
+    }
+  ],
+  "checks": [
+    "real transpose signature",
+    "Clifford square",
+    "real transpose signature",
+    "Clifford square",
+    "Clifford anticommutator",
+    "real transpose signature",
+    "Clifford square",
+    "Clifford anticommutator",
+    "Clifford anticommutator",
+    "real transpose signature",
+    "Clifford square",
+    "Clifford anticommutator",
+    "Clifford anticommutator",
+    "Clifford anticommutator",
+    "full real M4 algebra",
+    "real carrier unchanged",
+    "centralizer multiplicities",
+    "energy preserving class dimension",
+    "actual projector",
+    "positive spectral relation",
+    "off diagonal beta norm",
+    "exact mass pulse transition",
+    "actual projector",
+    "positive spectral relation",
+    "off diagonal beta norm",
+    "exact mass pulse transition",
+    "actual projector",
+    "positive spectral relation",
+    "off diagonal beta norm",
+    "exact mass pulse transition",
+    "actual projector",
+    "positive spectral relation",
+    "off diagonal beta norm",
+    "exact mass pulse transition",
+    "actual projector",
+    "positive spectral relation",
+    "off diagonal beta norm",
+    "exact mass pulse transition",
+    "complete transition",
+    "actual mass square",
+    "actual mass transpose",
+    "actual spatial symmetry",
+    "actual spatial square",
+    "actual mass anticommutes",
+    "actual spatial symmetry",
+    "actual spatial square",
+    "actual mass anticommutes",
+    "actual spatial symmetry",
+    "actual spatial square",
+    "actual mass anticommutes"
+  ],
+  "inputs": {
+    "explorations/conditional-build/k2058-universal-positive-dynamics-2026-10-25.md": "a8bfc6465994b4fc50380d618098898394ae3f6dc1219dd97eac1d9a6adb5825",
+    "explorations/conditional-build/k2038-observed-action-compression-2026-10-24.md": "fd73ae69845af69c0b33dd7d59760b80071ede188fb4baa2a991eb13f207d8ab",
+    "explorations/conditional-build/k1896-local-phase-vacuum-boundary-2026-10-21.md": "7be78c1f4a7cd59c0cdd0b7bfa3402e580b203ce4614c8695be18555a2c7bb35"
+  }
+}

@@ -7,6 +7,26 @@ updated_at: "2026-10-24"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-25: Energy-aware thermal bounds and positive-energy sectors
+
+K2059 consumes inherited compulsory-ladder packing and new reachable energy-aware
+Bellman tails in a stronger finite/countable thermal certificate. A new two-peak
+finite21-level witness and countable geometric extension improve the upper bound. At
+E=5/2 and1/2<delta<=1 the bracket is19063992615557/68547998140000 to11561805/41518097,
+about82 percent narrower than K2057. K2060 classifies the10624-dimensional constant
+subalgebra preserving the actual1408 graph fixed positive-energy sector, proves
+periodic/decaying local-multiplier rigidity and the additional energy norm bound, and
+constructs exact mass-pulse transfer. Released consequences include sharp leakage
+control, massive compact-support obstruction and time-integrable-potential transported
+scattering subspaces. Conditional internal mathematics only; no source, physics-ledger
+or canon promotion.
+
+- [K2059](explorations/conditional-build/k2059-energy-aware-thermal-tail-2026-10-25.md).
+- [K2060](explorations/conditional-build/k2060-positive-energy-localization-2026-10-25.md).
+
+K2059 checks all20975 actual bath vertices and544 distinct certificate lines,670 packing geometries,140 attached/whole-tail controls and21 finite/countable physical witness controls;12 deliberate mathematical faults rejected. K2060 producer50 and separate probe47 exact controls pass, with six faults rejected. Written proofs carry universal, countable and analytic claims; inherited bank completeness and raw graph compression are hash-pinned reuse. Same-author separate implementations and hostile proof review; no independent specialist, external, proof-assistant or novelty certification.
+
+
 ## 2026-10-25: Sharp thermal tails and universal positive dynamics
 
 K2057 proves sharp gap-aware thermal erasure q<=B+25Delta/4, near-saturation loss

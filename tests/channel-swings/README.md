@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2059_energy_aware_thermal_tail](k2059_energy_aware_thermal_tail.py).
+- [k2059_energy_aware_thermal_tail_probe](k2059_energy_aware_thermal_tail_probe.py).
+- [k2060_positive_energy_localization](k2060_positive_energy_localization.py).
+- [k2060_positive_energy_localization_probe](k2060_positive_energy_localization_probe.py).
+
 - [k2057_gap_aware_thermal_erasure](k2057_gap_aware_thermal_erasure.py).
 - [k2057_gap_aware_thermal_erasure_probe](k2057_gap_aware_thermal_erasure_probe.py).
 - [k2058_universal_positive_dynamics](k2058_universal_positive_dynamics.py).

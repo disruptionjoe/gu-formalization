@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2059-energy-aware-thermal-tail](conditional-build/k2059-energy-aware-thermal-tail-2026-10-25.md).
+- [k2060-positive-energy-localization](conditional-build/k2060-positive-energy-localization-2026-10-25.md).
+
 - [k2057-gap-aware-thermal-erasure](conditional-build/k2057-gap-aware-thermal-erasure-2026-10-25.md).
 - [k2058-universal-positive-dynamics](conditional-build/k2058-universal-positive-dynamics-2026-10-25.md).
 
