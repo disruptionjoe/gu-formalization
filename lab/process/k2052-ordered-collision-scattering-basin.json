@@ -1,0 +1,50 @@
+{
+  "result_id": "K2052",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "identity_records": [
+    {
+      "m": 2,
+      "gamma": "3/2",
+      "a_v": "4*p**4*x*y - 8*p**3*q*x**2 + 8*p**3*q*y**2 - 24*p**2*q**2*x*y + 8*p*q**3*x**2 - 8*p*q**3*y**2 + 4*q**4*x*y",
+      "b_u": "6*p**4*x*y - 12*p**3*q*x**2 + 12*p**3*q*y**2 - 36*p**2*q**2*x*y + 12*p*q**3*x**2 - 12*p*q**3*y**2 + 6*q**4*x*y"
+    },
+    {
+      "m": 3,
+      "gamma": "3/2",
+      "a_v": "4*p**6*x*y - 12*p**5*q*x**2 + 12*p**5*q*y**2 - 60*p**4*q**2*x*y + 40*p**3*q**3*x**2 - 40*p**3*q**3*y**2 + 60*p**2*q**4*x*y - 12*p*q**5*x**2 + 12*p*q**5*y**2 - 4*q**6*x*y",
+      "b_u": "6*p**6*x*y - 18*p**5*q*x**2 + 18*p**5*q*y**2 - 90*p**4*q**2*x*y + 60*p**3*q**3*x**2 - 60*p**3*q**3*y**2 + 90*p**2*q**4*x*y - 18*p*q**5*x**2 + 18*p*q**5*y**2 - 6*q**6*x*y"
+    },
+    {
+      "m": 4,
+      "gamma": "3/2",
+      "a_v": "4*p**8*x*y - 16*p**7*q*x**2 + 16*p**7*q*y**2 - 112*p**6*q**2*x*y + 112*p**5*q**3*x**2 - 112*p**5*q**3*y**2 + 280*p**4*q**4*x*y - 112*p**3*q**5*x**2 + 112*p**3*q**5*y**2 - 112*p**2*q**6*x*y + 16*p*q**7*x**2 - 16*p*q**7*y**2 + 4*q**8*x*y",
+      "b_u": "6*p**8*x*y - 24*p**7*q*x**2 + 24*p**7*q*y**2 - 168*p**6*q**2*x*y + 168*p**5*q**3*x**2 - 168*p**5*q**3*y**2 + 420*p**4*q**4*x*y - 168*p**3*q**5*x**2 + 168*p**3*q**5*y**2 - 168*p**2*q**6*x*y + 24*p*q**7*x**2 - 24*p*q**7*y**2 + 6*q**8*x*y"
+    }
+  ],
+  "coefficients": {
+    "density_bound": 2,
+    "reciprocal_factor": 2,
+    "envelope_exponent": 2,
+    "null_time_separation": 2,
+    "w_scattering_gamma_power": 2,
+    "full_line_tail_factor": 2
+  },
+  "criterion": "2 gamma (m-1) sup_v b0(v)^(m-1) integral_-infinity^v A_k < 1-k^(1-m)",
+  "envelope": "A_k(u)=a0(u) exp(2 k^m integral_u^infinity b0^m)",
+  "m_range": "integers m>=2",
+  "topology": "L2 intersect Linfinity within smooth finite-charge data with bounded derivatives",
+  "conclusions": [
+    "global future smooth solution",
+    "strong L2 outgoing scattering with explicit integral tail bounds",
+    "open two-sided scattering neighborhood of every compact reference surviving its finite collision interval",
+    "noncompact arbitrary-phase perturbations allowed"
+  ],
+  "scope": "Sufficient ordered criterion only; no unrestricted large complex data, m=1, transverse evolution, source physical quotient or novelty claim.",
+  "inputs": {
+    "explorations/conditional-build/k2044-arbitrary-phase-characteristic-control-2026-10-25.md": "94c8de234b98f878697894d87c4aa35047dc546fcc7250620f9120087d86540e",
+    "explorations/conditional-build/k2046-large-data-characteristic-reduction-2026-10-25.md": "937a75758875844acd9789d65c87ac57de5ac840a9dda7da248a97e1f6724f2e",
+    "explorations/conditional-build/k2050-local-conservation-classification-2026-10-25.md": "9dade7c1bff2fd78c4b761a2ba9dff4c168e6d12403af0f88fe698265c4d2df6"
+  }
+}

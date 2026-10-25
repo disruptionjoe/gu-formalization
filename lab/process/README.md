@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2052-ordered-collision-scattering-basin](k2052-ordered-collision-scattering-basin.json).
+- [k2053-zero-loss-effective-thermal-brackets](k2053-zero-loss-effective-thermal-brackets.json).
+
 - [k2050-local-conservation-classification](k2050-local-conservation-classification.json).
 - [k2051-composed-spacing-transitions](k2051-composed-spacing-transitions.json).
 

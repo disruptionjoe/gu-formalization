@@ -7,6 +7,26 @@ updated_at: "2026-10-24"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-25: Noncompact scattering and thermal brackets
+
+K2052 proves an ordered-overlap criterion for arbitrary-phase global evolution and
+strong L2 scattering in the positive even-power family m>=2. It releases open L2 plus
+Linfinity scattering neighborhoods of every compact reference surviving its finite
+collision interval, now allowing noncompact tails, with explicit algebraic-tail rates
+and continuous asymptotic profiles. K2053 composes zero-loss thermal erasure with the
+existing finite-dimension theorem: alpha_N F_(2N+7)<=F<=F_(2N+7), with error at
+most(E-1)/(2(N-1)). A new thirteen-level physical family and671 support certificates
+bracket the unrestricted above-half-spacing optimum
+throughout2843/1165<=E<=1951423/716722; atE5/2 the bounds are124659/450796
+and7671/27472. Neither the unrestricted complex large-data problem nor exact low-energy
+thermal frontier is solved. Source, physics ledger and canon remain unchanged.
+
+- [K2052](explorations/conditional-build/k2052-ordered-collision-scattering-basin-2026-10-25.md).
+- [K2053](explorations/conditional-build/k2053-zero-loss-effective-thermal-brackets-2026-10-25.md).
+
+PDE symbolic real-coordinate force/modulus identities for three powers and seven reciprocal identities; separate48 Gaussian-rational jets,6 reciprocal/log pairs,18 barriers,3 coordinate controls,2 ordered-support controls,5 small-data majorants and4 power-tail constants; six coefficient faults rejected. Written proofs supply global bootstrap, open topology, L2 convergence, rates and scattering-map continuity. Thermal direct bath-label replay20975 records,671 low cells/192 unique support lines,3 physical witnesses,whole-interval common-cell check,9 dimension controls,27 finite-solver interval identities and sharp normalization example; seven mathematical faults rejected.626412-basis completeness and whole-tail erasure reused by hash. Same-author internal checking, no expert/proof-assistant/novelty certification.
+
+
 ## 2026-10-25: Conservation classification and composed spacing
 
 K2050 classifies every autonomous real C2 field-only conservation law in the matched
