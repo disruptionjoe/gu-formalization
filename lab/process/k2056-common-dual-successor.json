@@ -1,0 +1,122 @@
+{
+  "result_id": "K2056",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "assumptions": [
+    "T real invertible skew",
+    "P Hermitian positive definite, not necessarily real",
+    "same-coordinate antilinear b=A conjugation",
+    "A^T T=i P"
+  ],
+  "identities": {
+    "A": "-i T^-1 conjugate(P)",
+    "bar_square": "T^-1 conjugate(P) T^-1 P",
+    "minus_one_criterion": "conjugate(P) T^-1 P=-T",
+    "negative_similarity": "P^(1/2) (A conjugate(A)) P^(-1/2)=-M M^dagger; M=P^(1/2) T^-1 conjugate(P^(1/2))",
+    "positive_control": "Pstar=sqrt(-T^2)",
+    "actual_positive_control": "|Ccopy| tensor Wbar",
+    "actual_Astar": "-i sign(Ccopy) tensor B gamma0",
+    "two_plane_square": "-det(P)/w^2 I for T=wJ"
+  },
+  "copy_data": {
+    "transverse_eigenvalue": -1,
+    "transverse_multiplicity": 9,
+    "other_polynomial": [
+      1,
+      -19,
+      -70
+    ],
+    "discriminant": 641,
+    "absolute_numerator": [
+      19,
+      140
+    ]
+  },
+  "half_controls": [
+    {
+      "Wbar": "1",
+      "P_I_bar_square": "-1",
+      "Pstar_bar_square": "-1"
+    },
+    {
+      "Wbar": "2",
+      "P_I_bar_square": "-1/4",
+      "Pstar_bar_square": "-1"
+    }
+  ],
+  "complex_controls": [
+    {
+      "Wbar": "1",
+      "P_over_Wbar": [
+        [
+          "2",
+          "i"
+        ],
+        [
+          "-i",
+          "1"
+        ]
+      ],
+      "leading_minor": "2",
+      "determinant": "1",
+      "bar_square": "-I"
+    },
+    {
+      "Wbar": "2",
+      "P_over_Wbar": [
+        [
+          "2",
+          "i"
+        ],
+        [
+          "-i",
+          "1"
+        ]
+      ],
+      "leading_minor": "4",
+      "determinant": "4",
+      "bar_square": "-I"
+    }
+  ],
+  "checks": [
+    "G_squared_minus_identity",
+    "G_skew",
+    "G_commutes_Wbar",
+    "F_squared_minus_Wbar_squared",
+    "both_ambient_halves_retained",
+    "copy_projection",
+    "transverse_copy_minus_identity",
+    "two_copy_minimal_polynomial",
+    "absolute_copy_radical_identity",
+    "orthogonal_copy_sectors",
+    "radical_positive_root_bracket",
+    "kinetic_sign_half_1",
+    "anti_square_half_1",
+    "P_I_square_half_1",
+    "compatibility_half_1",
+    "kinetic_sign_half_2",
+    "anti_square_half_2",
+    "P_I_square_half_2",
+    "compatibility_half_2",
+    "indefinite_kinetic_sign",
+    "indefinite_involution_survives",
+    "complex_P_Hermitian_1",
+    "complex_P_positive_minors_1",
+    "complex_kinetic_transpose_1",
+    "complex_bar_square_1",
+    "complex_compatibility_1",
+    "complex_P_Hermitian_2",
+    "complex_P_positive_minors_2",
+    "complex_kinetic_transpose_2",
+    "complex_bar_square_2",
+    "complex_compatibility_2"
+  ],
+  "scope": "Specified graph kinetic identification only; distinct inverse dual maps and indefinite P remain allowed. No source bar, physical quotient, statistics, quantum positivity, global domain or GU verdict.",
+  "universal_proof": "Written complex-skew Hermitian similarity argument, not finite fixtures.",
+  "inputs": {
+    "explorations/conditional-build/k2038-observed-action-compression-2026-10-24.md": "fd73ae69845af69c0b33dd7d59760b80071ede188fb4baa2a991eb13f207d8ab",
+    "tests/channel-swings/k2038_observed_action_compression_probe.py": "ba44f4a112539255574f7f165bf9cc29c6084c5c3d3bc5c28ce23816771d25b5",
+    "explorations/conditional-build/k2021-common-degree-dual-operator-2026-10-24.md": "06023c99126ddeb43e48a3d5fb83b95bf0bef025f60e341810011653aaad55ac"
+  }
+}

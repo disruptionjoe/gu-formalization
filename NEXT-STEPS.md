@@ -7,6 +7,11 @@ updated_at: "2026-10-24"
 
 # Next Steps For Contributors
 
+> **2026-10-25: QUANTITATIVE TAILS, PHASE-COLORED SCATTERING AND DUALITY.**
+> Compare a sharper thermal attached-tail/cell certificate or improved physical witness against a genuinely nonlattice complex crossing estimate, and source selection of independent dual/parity plus an observed physical-state bridge. Do not requeue existence of R0/R1, already constructed in K2021, or infer unrestricted scattering from the phase-colored family. Preserve the full20/K-C/accessibility, mirror/fullII, normal-jet, 2+1/chirality, near5/4 resource and capped-wing alternatives.
+> Prior banners preserve history; source, ledger and canon remain unchanged.
+
+
 > **2026-10-25: NONCOMPACT SCATTERING AND THERMAL BRACKETS.**
 > Reuse K2052 open noncompact-tail scattering basins and all m>=2 positive-power criteria; failure of its sufficient ordered-overlap condition does not imply blowup. Do not requeue fixed-support removal or the field-only density class. K2053 supplies the low-energy interval bracket and sharper finite-dimension accuracy certificate, not an exact optimum or minimal dimension. Next compare a genuine large-crossing estimate, attached-tail bound or physical improvement of the bracket against the concrete source R0/R1 common dual/parity/observation map. Thermal spacing above1 remains settled; preserve full20/K-C/accessibility, mirror/full-II, normal jets,2+1/chirality, near5/4 resources and exact capped wings.
 > Prior banners preserve history; source, ledger and canon remain unchanged.

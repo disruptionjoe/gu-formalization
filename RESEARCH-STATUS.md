@@ -8,6 +8,27 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-25: Quantitative tails, phase-colored scattering and duality
+
+K2054 proves quantitative attached-tail erasure and improves the certified thermal lower
+bound at E=5/2 to 439997389/1588579400, against retained upper 7671/27472, throughout
+1/2<delta<=1; a whole-energy affine certificate and countable transfer accompany it.
+K2055 proves complete scattering for finite phase-colored packet trains of arbitrary
+amplitude and all powers m>=2, with mixed-sign crossings and open noncompact complex
+neighborhoods; it does not settle unrestricted complex crossings. K2056 excludes same-
+coordinate positive-Hermitian kinetic involutions for every positive Hermitian P on the
+specified observed graph, constructs square-minus-one and inverse-dual alternatives, and
+corrects the stale missing-R0/R1 handoff: K2021 already supplied that map. These are
+conditional internal mathematical results, not source, physics-ledger or canon
+promotion.
+
+- [K2054](explorations/conditional-build/k2054-quantitative-terminal-erasure-2026-10-25.md).
+- [K2055](explorations/conditional-build/k2055-phase-colored-scattering-2026-10-25.md).
+- [K2056](explorations/conditional-build/k2056-common-dual-successor-2026-10-25.md).
+
+Written proofs supply universal claims. K2054 checks1344 terminal controls,12 sharp choices,263 physical tail controls,20975 direct bath vertices and215 support lines, rejecting six coefficient faults. K2055 checks nine barrier fixtures,27 reciprocal jets and a2x3 grid; its separate probe checks32 complex-force fixtures and seven mathematical faults. K2056 checks31 producer and44 independent-probe obligations with nine mathematical faults. Inherited exhaustive thermal basis and graph compression are hash-pinned reuse. Internal independent derivation/review and separate arithmetic probes do not constitute external, proof-assistant or novelty certification.
+
+
 ## 2026-10-25: Noncompact scattering and thermal brackets
 
 K2052 proves an ordered-overlap criterion for arbitrary-phase global evolution and

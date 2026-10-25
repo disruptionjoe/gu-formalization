@@ -7,6 +7,10 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2054-quantitative-terminal-erasure](k2054-quantitative-terminal-erasure.json).
+- [k2055-phase-colored-scattering](k2055-phase-colored-scattering.json).
+- [k2056-common-dual-successor](k2056-common-dual-successor.json).
+
 - [k2052-ordered-collision-scattering-basin](k2052-ordered-collision-scattering-basin.json).
 - [k2053-zero-loss-effective-thermal-brackets](k2053-zero-loss-effective-thermal-brackets.json).
 

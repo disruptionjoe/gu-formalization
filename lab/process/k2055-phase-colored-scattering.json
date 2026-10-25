@@ -1,0 +1,163 @@
+{
+  "result_id": "K2055",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "coefficients": {
+    "density_factor": 2,
+    "reverse_u_sign": -1,
+    "reciprocal_shift": 1
+  },
+  "phase_signs": [
+    [
+      1,
+      -1.0,
+      1.0
+    ],
+    [
+      -1,
+      1,
+      -1.0
+    ]
+  ],
+  "grid_order": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "barrier_controls": [
+    {
+      "m": 2,
+      "gamma": "1/2",
+      "A": "1",
+      "B": "1",
+      "L": "1",
+      "S": "1",
+      "h": "1/2",
+      "K_safe": "17/4",
+      "epsilon": "4/21"
+    },
+    {
+      "m": 2,
+      "gamma": "1",
+      "A": "1",
+      "B": "1",
+      "L": "1",
+      "S": "1",
+      "h": "1/2",
+      "K_safe": "33/4",
+      "epsilon": "4/37"
+    },
+    {
+      "m": 2,
+      "gamma": "3/2",
+      "A": "1",
+      "B": "1",
+      "L": "1",
+      "S": "1",
+      "h": "1/2",
+      "K_safe": "57/4",
+      "epsilon": "4/61"
+    },
+    {
+      "m": 3,
+      "gamma": "1/2",
+      "A": "1",
+      "B": "1",
+      "L": "1",
+      "S": "1",
+      "h": "1/2",
+      "K_safe": "33/2",
+      "epsilon": "16/1225"
+    },
+    {
+      "m": 3,
+      "gamma": "1",
+      "A": "1",
+      "B": "1",
+      "L": "1",
+      "S": "1",
+      "h": "1/2",
+      "K_safe": "89/2",
+      "epsilon": "16/8281"
+    },
+    {
+      "m": 3,
+      "gamma": "3/2",
+      "A": "1",
+      "B": "1",
+      "L": "1",
+      "S": "1",
+      "h": "1/2",
+      "K_safe": "177/2",
+      "epsilon": "16/32041"
+    },
+    {
+      "m": 4,
+      "gamma": "1/2",
+      "A": "1",
+      "B": "1",
+      "L": "1",
+      "S": "1",
+      "h": "1/2",
+      "K_safe": "171/4",
+      "epsilon": "1728/5359375"
+    },
+    {
+      "m": 4,
+      "gamma": "1",
+      "A": "1",
+      "B": "1",
+      "L": "1",
+      "S": "1",
+      "h": "1/2",
+      "K_safe": "531/4",
+      "epsilon": "1728/153130375"
+    },
+    {
+      "m": 4,
+      "gamma": "3/2",
+      "A": "1",
+      "B": "1",
+      "L": "1",
+      "S": "1",
+      "h": "1/2",
+      "K_safe": "1107/4",
+      "epsilon": "1728/1371330631"
+    }
+  ],
+  "criterion_failure": {
+    "m": 2,
+    "gamma": "1/2",
+    "amplitude": "2",
+    "bump_squared_integral": "1",
+    "point_b_squared": "1",
+    "eta_lower": "16"
+  },
+  "scope": "Finite fully incoming phase-lattice trains. Exact algebra controls; universal continuation and openness use written proof.",
+  "inputs": {
+    "explorations/conditional-build/k2050-local-conservation-classification-2026-10-25.md": "9dade7c1bff2fd78c4b761a2ba9dff4c168e6d12403af0f88fe698265c4d2df6",
+    "explorations/conditional-build/k2052-ordered-collision-scattering-basin-2026-10-25.md": "f0a5471134a72893f9b54dadeb5e7c505109c2d1f9c6c933ff5fdc83c9c60e35"
+  }
+}

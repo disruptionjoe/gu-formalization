@@ -1,5 +1,12 @@
 # Pre-contract wave probes
 
+- [k2054_quantitative_terminal_erasure](k2054_quantitative_terminal_erasure.py).
+- [k2054_quantitative_terminal_erasure_probe](k2054_quantitative_terminal_erasure_probe.py).
+- [k2055_phase_colored_scattering](k2055_phase_colored_scattering.py).
+- [k2055_phase_colored_scattering_probe](k2055_phase_colored_scattering_probe.py).
+- [k2056_common_dual_successor](k2056_common_dual_successor.py).
+- [k2056_common_dual_successor_probe](k2056_common_dual_successor_probe.py).
+
 - [k2052_ordered_collision_scattering_basin](k2052_ordered_collision_scattering_basin.py).
 - [k2052_ordered_collision_scattering_basin_probe](k2052_ordered_collision_scattering_basin_probe.py).
 - [k2053_zero_loss_effective_thermal_brackets](k2053_zero_loss_effective_thermal_brackets.py).

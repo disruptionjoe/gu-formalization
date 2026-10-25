@@ -7,6 +7,10 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2054-quantitative-terminal-erasure](conditional-build/k2054-quantitative-terminal-erasure-2026-10-25.md).
+- [k2055-phase-colored-scattering](conditional-build/k2055-phase-colored-scattering-2026-10-25.md).
+- [k2056-common-dual-successor](conditional-build/k2056-common-dual-successor-2026-10-25.md).
+
 - [k2052-ordered-collision-scattering-basin](conditional-build/k2052-ordered-collision-scattering-basin-2026-10-25.md).
 - [k2053-zero-loss-effective-thermal-brackets](conditional-build/k2053-zero-loss-effective-thermal-brackets-2026-10-25.md).
 

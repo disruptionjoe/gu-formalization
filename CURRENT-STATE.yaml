@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 9d802a4969504307c0574abc29d0d90a1840f5f1
+revision_basis: 39f536a0e1e543cf7b951db57870e7fbad73bb0e
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,19 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2054 proves quantitative attached-tail erasure and improves the certified thermal lower
+    bound at E=5/2 to 439997389/1588579400, against retained upper 7671/27472, throughout
+    1/2<delta<=1; a whole-energy affine certificate and countable transfer accompany it.
+    K2055 proves complete scattering for finite phase-colored packet trains of arbitrary
+    amplitude and all powers m>=2, with mixed-sign crossings and open noncompact complex
+    neighborhoods; it does not settle unrestricted complex crossings. K2056 excludes same-
+    coordinate positive-Hermitian kinetic involutions for every positive Hermitian P on the
+    specified observed graph, constructs square-minus-one and inverse-dual alternatives, and
+    corrects the stale missing-R0/R1 handoff: K2021 already supplied that map. These are
+    conditional internal mathematical results, not source, physics-ledger or canon
+    promotion.
+
+    Historical predecessor (not live):
     K2052 proves an ordered-overlap criterion for arbitrary-phase global evolution and
     strong L2 scattering in the positive even-power family m>=2. It releases open L2 plus
     Linfinity scattering neighborhoods of every compact reference surviving its finite
@@ -16478,6 +16491,18 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k2054-quantitative-terminal-erasure-2026-10-25.md
+    - lab/process/k2054-quantitative-terminal-erasure.json
+    - tests/channel-swings/k2054_quantitative_terminal_erasure.py
+    - tests/channel-swings/k2054_quantitative_terminal_erasure_probe.py
+    - explorations/conditional-build/k2055-phase-colored-scattering-2026-10-25.md
+    - lab/process/k2055-phase-colored-scattering.json
+    - tests/channel-swings/k2055_phase_colored_scattering.py
+    - tests/channel-swings/k2055_phase_colored_scattering_probe.py
+    - explorations/conditional-build/k2056-common-dual-successor-2026-10-25.md
+    - lab/process/k2056-common-dual-successor.json
+    - tests/channel-swings/k2056_common_dual_successor.py
+    - tests/channel-swings/k2056_common_dual_successor_probe.py
     - explorations/conditional-build/k2052-ordered-collision-scattering-basin-2026-10-25.md
     - lab/process/k2052-ordered-collision-scattering-basin.json
     - tests/channel-swings/k2052_ordered_collision_scattering_basin.py
@@ -17828,6 +17853,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can the remaining thermal gap, arbitrary-phase crossing continuation, or source-selected
+  independent-dual physical bridge be resolved without repeating already solved
+  constructions?
+
+  Historical predecessor (not live):
   Can a sharper causal estimate control genuinely large crossing complex data, and can an
   attached-tail estimate or physical construction narrow the new low-energy thermal
   interval?
@@ -21498,6 +21528,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Compare a sharper thermal attached-tail/cell certificate or improved physical witness
+  against a genuinely nonlattice complex crossing estimate, and source selection of
+  independent dual/parity plus an observed physical-state bridge. Do not requeue existence
+  of R0/R1, already constructed in K2021, or infer unrestricted scattering from the phase-
+  colored family. Preserve the full20/K-C/accessibility, mirror/fullII, normal-jet,
+  2+1/chirality, near5/4 resource and capped-wing alternatives.
+
+  Historical predecessor (not live):
   Reuse K2052 open noncompact-tail scattering basins and all m>=2 positive-power criteria;
   failure of its sufficient ordered-overlap condition does not imply blowup. Do not
   requeue fixed-support removal or the field-only density class. K2053 supplies the low-
