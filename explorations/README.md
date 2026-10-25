@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2040-nonlinear-resonance-selection](conditional-build/k2040-nonlinear-resonance-selection-2026-10-24.md).
+- [k2041-exact-small-spacing-frontier](conditional-build/k2041-exact-small-spacing-frontier-2026-10-24.md).
+
 - [k2038-observed-action-compression](conditional-build/k2038-observed-action-compression-2026-10-24.md).
 - [k2039-thermal-component-undercut](conditional-build/k2039-thermal-component-undercut-2026-10-24.md).
 

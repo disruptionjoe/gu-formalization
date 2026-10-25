@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2040_nonlinear_resonance_selection](k2040_nonlinear_resonance_selection.py).
+- [k2040_nonlinear_resonance_selection_probe](k2040_nonlinear_resonance_selection_probe.py).
+- [k2041_exact_small_spacing_frontier](k2041_exact_small_spacing_frontier.py).
+- [k2041_exact_small_spacing_frontier_probe](k2041_exact_small_spacing_frontier_probe.py).
+
 - [k2038_observed_action_compression](k2038_observed_action_compression.py).
 - [k2038_observed_action_compression_probe](k2038_observed_action_compression_probe.py).
 - [k2039_thermal_component_undercut](k2039_thermal_component_undercut.py).

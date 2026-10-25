@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2040-nonlinear-resonance-selection](k2040-nonlinear-resonance-selection.json).
+- [k2041-exact-small-spacing-frontier](k2041-exact-small-spacing-frontier.json).
+
 - [k2038-observed-action-compression](k2038-observed-action-compression.json).
 - [k2039-thermal-component-undercut](k2039-thermal-component-undercut.json).
 

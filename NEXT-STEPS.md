@@ -7,6 +7,11 @@ updated_at: "2026-10-24"
 
 # Next Steps For Contributors
 
+> **2026-10-25: POLYNOMIAL RESONANCE AND EXACT THERMAL SPACING.**
+> Compare chamber-aware low-offset thermal optimization beyond1/23508, including the explicit20-level rival above2/181, with near5/4 resource necessity and exact capped-wing continuum marginals. Do not treat a failing relaxed vertex coefficient as a physical transition. For the fixed classical action, quartic searches for sector-norm exchange are exhausted; test a specified sextic interaction on a genuine PDE domain or construct an actual independent-dual/parity and observation bridge. Preserve full20/K-C/accessibility, mirror/fullII, normal jets,2+1 and chirality debts.
+> Prior banners preserve history; source, ledger and canon remain unchanged.
+
+
 > **2026-10-24: NONLINEAR CLASSICAL ACTION AND THERMAL COMPONENT COUNTEREXAMPLE.**
 > Compare a complete offset-coupled contact perturbation program for the exact finite-spacing thermal optimum or second-order coefficient against near5/4 resource necessity and exact capped-wing continuum marginals. The first-order spacing coefficient is now sharp; more odd-tail endpoints or a merely qualitative gap no longer advance that question. Source-side changed-class nonlinear classical existence is explicit, so require a field/parity and observed-constraint bridge before physical interpretation; a specified independent-dual interaction or global nonlinear domain supplies a substantive next mathematical question. Preserve full20/K-C/accessibility, mirror/fullII, normal jets,2+1 and observed chirality debts.
 > Prior banners preserve history; source, ledger and canon remain unchanged.

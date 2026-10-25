@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f5529c694ec62531df5406847acf5257cabbb7ec
+revision_basis: 930e56c97822977b501f7658bf6a985e0dd4f55b
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2040 classifies the complete polynomial resonance lattice of the fixed real commuting
+    K2038 action. Every norm-preserving even potential through quartic degree has six
+    separate positive sector currents; sector transfer first occurs at degree6. Three
+    paired-sector currents survive below degree80, and an explicit degree80 interaction
+    transfers their norms while preserving the total. Exact homogeneous completeness is
+    proved, without a global nonlinear PDE or physical-fermion claim. K2041 determines the
+    unrestricted finite/countable thermal optimum on the full energy
+    interval[1575/653,675/181] for0<delta<=1/23508 as the minimum of two physically
+    separated endpoint rays. Below the spacing cutoff, strict-interior optimizers require22
+    physical levels and endpoints11. The exact moving switch gives a discontinuous pointwise
+    second-order coefficient and an explicit transition layer, so no uniform fixed second-
+    order coefficient exists. A separate20-level construction beats the A/B rays at
+    delta4/181; the sufficient certificate cutoff is not a proved phase boundary. Source,
+    physics ledger and canon verdicts remain unchanged.
+
+    Historical predecessor (not live):
     K2038 proves that the maximal observed1408 graph has a nondegenerate compressed kinetic
     form, classifies all169984 positive-norm induced generators with same-H zero-southeast
     extensions, and counts123072 invisible full-coefficient directions. An explicit real-
@@ -16388,6 +16404,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k2040-nonlinear-resonance-selection-2026-10-24.md
+    - lab/process/k2040-nonlinear-resonance-selection.json
+    - tests/channel-swings/k2040_nonlinear_resonance_selection.py
+    - tests/channel-swings/k2040_nonlinear_resonance_selection_probe.py
+    - explorations/conditional-build/k2041-exact-small-spacing-frontier-2026-10-24.md
+    - lab/process/k2041-exact-small-spacing-frontier.json
+    - tests/channel-swings/k2041_exact_small_spacing_frontier.py
+    - tests/channel-swings/k2041_exact_small_spacing_frontier_probe.py
     - explorations/conditional-build/k2038-observed-action-compression-2026-10-24.md
     - lab/process/k2038-observed-action-compression.json
     - tests/channel-swings/k2038_observed_action_compression.py
@@ -17682,6 +17706,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Where is the first true spacing transition beyond the exact small-spacing thermal phase,
+  and which source field/parity or global-domain input can consume the now classified
+  nonlinear norm-preserving action?
+
+  Historical predecessor (not live):
   Which separated-component thermal construction is optimal at fixed positive spacing, and
   what physical field/parity or domain input can consume the now explicit changed-class
   nonlinear observed action?
@@ -21317,6 +21346,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Compare chamber-aware low-offset thermal optimization beyond1/23508, including the
+  explicit20-level rival above2/181, with near5/4 resource necessity and exact capped-wing
+  continuum marginals. Do not treat a failing relaxed vertex coefficient as a physical
+  transition. For the fixed classical action, quartic searches for sector-norm exchange
+  are exhausted; test a specified sextic interaction on a genuine PDE domain or construct
+  an actual independent-dual/parity and observation bridge. Preserve
+  full20/K-C/accessibility, mirror/fullII, normal jets,2+1 and chirality debts.
+
+  Historical predecessor (not live):
   Compare a complete offset-coupled contact perturbation program for the exact finite-
   spacing thermal optimum or second-order coefficient against near5/4 resource necessity
   and exact capped-wing continuum marginals. The first-order spacing coefficient is now

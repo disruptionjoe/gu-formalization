@@ -1,0 +1,64 @@
+{
+  "result_id": "K2041",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "endpoint_A": [
+    "1575/653",
+    "729/2612"
+  ],
+  "endpoint_B": [
+    "675/181",
+    "81/362"
+  ],
+  "line": [
+    "1053/2768",
+    "2907/69200"
+  ],
+  "width": "155700/118193",
+  "certified_spacing": "1/23508",
+  "A_certificate_limit": [
+    "9/28417",
+    "37/10",
+    "9/40"
+  ],
+  "B_certificate_limit": [
+    "1/23508",
+    "349/145",
+    "81/290"
+  ],
+  "bank_records": 3137,
+  "frontier": "L(E)+min(C*delta*(E-EA)/(Delta+delta), C*delta*(EB-E)/(Delta-delta))",
+  "switch_energy": "(EA+EB+delta)/2",
+  "maximum_excess": "C*delta/2",
+  "dimension": {
+    "strict_interior": 22,
+    "endpoints": 11,
+    "scope": "0<delta<1/23508; diagonals classified up to unoccupied extra levels and channel freedom"
+  },
+  "second_order": {
+    "left": "-C*(E-EA)/Delta^2",
+    "midpoint": "-C/(2*Delta)",
+    "right": "C*(EB-E)/Delta^2",
+    "boundary_layer": "at E=(EA+EB)/2+theta*delta, normalized second-order defect tends to (C/Delta)*clamp(2*theta-1/2,-1/2,1/2)",
+    "uniform_fixed_coefficient": false
+  },
+  "successor_witness": {
+    "pairwise_threshold": "2/181",
+    "delta": "4/181",
+    "energy": "401850/118193",
+    "shifted_endpoint_energy": "349/145",
+    "shifted_endpoint_return": "81/290",
+    "shifted_mass": "5644125/22284278",
+    "return_value": "959265909/4033454318",
+    "old_return": "17212961943/72375719936",
+    "improvement": "3152925/6822911100928",
+    "dimension": 20
+  },
+  "inputs": {
+    "lab/process/k2037-thermal-seven-level-boundary.json": "58783f70b8791513f62d6a5cc789cd5cd25e152adae9d9a03e5c233a7f1686f9",
+    "lab/process/k2039-thermal-component-undercut.json": "8e30419fde459e50f42efe171377e67612ed8a8a0637a4c6eef2042dd534957c",
+    "explorations/conditional-build/k2039-thermal-component-undercut-2026-10-24.md": "bbd74c2445ac382b99092de5000dd66540bfec0e32e201b32072d2f25f77e0bb"
+  },
+  "scope": "Exact unrestricted finite/countable optimum on the stated small-spacing interval; no larger-spacing phase or GU claim."
+}

@@ -7,6 +7,29 @@ updated_at: "2026-10-24"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-25: Polynomial resonance and exact thermal spacing
+
+K2040 classifies the complete polynomial resonance lattice of the fixed real commuting
+K2038 action. Every norm-preserving even potential through quartic degree has six
+separate positive sector currents; sector transfer first occurs at degree6. Three
+paired-sector currents survive below degree80, and an explicit degree80 interaction
+transfers their norms while preserving the total. Exact homogeneous completeness is
+proved, without a global nonlinear PDE or physical-fermion claim. K2041 determines the
+unrestricted finite/countable thermal optimum on the full energy
+interval[1575/653,675/181] for0<delta<=1/23508 as the minimum of two physically
+separated endpoint rays. Below the spacing cutoff, strict-interior optimizers require22
+physical levels and endpoints11. The exact moving switch gives a discontinuous pointwise
+second-order coefficient and an explicit transition layer, so no uniform fixed second-
+order coefficient exists. A separate20-level construction beats the A/B rays at
+delta4/181; the sufficient certificate cutoff is not a proved phase boundary. Source,
+physics ledger and canon verdicts remain unchanged.
+
+- [K2040](explorations/conditional-build/k2040-nonlinear-resonance-selection-2026-10-24.md).
+- [K2041](explorations/conditional-build/k2041-exact-small-spacing-frontier-2026-10-24.md).
+
+Source integer-lattice producer and distinct Q[a] exponent/real-derivative probe passed, with explicit degree6/80 transfer witnesses and four faults; threshold mutations are reporting checks. Thermal producer and independent bath-shell replay verify all3137 inherited vertex records,18 physical mixtures,22 completion-necessity removals, exact remainder identities and the20-level rival, with four actual range/coefficient/population faults. All-degree and finite/countable claims rely on the written proofs; inherited raw compression and bank completeness are pinned reuse. Same-author review and distinct implementations are not external or proof-assistant certification.
+
+
 ## 2026-10-24: Nonlinear classical action and thermal component counterexample
 
 K2038 proves that the maximal observed1408 graph has a nondegenerate compressed kinetic
