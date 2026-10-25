@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2077-controlled-detector-response](k2077-controlled-detector-response.json).
+- [k2078-thermal-certificate-endpoints](k2078-thermal-certificate-endpoints.json).
+
 - [k2075-thermal-equality-rigidity](k2075-thermal-equality-rigidity.json).
 - [k2076-separated-detector-locality](k2076-separated-detector-locality.json).
 

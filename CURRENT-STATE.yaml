@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 93c1c3ddcdd293322c5e8f740b8d3d59619014b4
+revision_basis: f15430cbde7eff3dc2d4671639c5905be276806d
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,19 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2077 proves exponential remote-record response under bounded local controls without
+    positive-sector preservation, exact full-carrier causal response, and additive
+    postselection error epsilon+leakage. It then constructs a compact bounded ancilla
+    instrument on the same massive1408 carrier: the inherited prepared Gaussian gives record
+    error and sector leakage below1/62500 at control radius2002/m, duration1/m and potential
+    amplitude pi*m/2; two supplied tensor copies give all-outcome CHSH>43746/15625. This is
+    a declared complex-Hilbert/ancilla completion, not a source-real or local-field
+    detector. K2078 extends unique N20 occupied population and minimum physical dimension41
+    to BOTH endpoints of the K2074 interval: tied188/235 necessary equality rays have
+    incompatible energies. Those endpoints are certificate intersections, not proved phase
+    transitions. Source, physics ledger and canon remain unchanged.
+
+    Historical predecessor (not live):
     K2075 classifies the exact thermal optimum on the open K2074 energy interval: unique
     occupied population is the K2068 affine family on20 odd levels1 through39, and the
     minimum physical catalyst dimension is41. Strict high/root/tail slacks, the low two-
@@ -16618,6 +16631,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k2077-controlled-detector-response-2026-10-25.md
+    - lab/process/k2077-controlled-detector-response.json
+    - tests/channel-swings/k2077_controlled_detector_response.py
+    - tests/channel-swings/k2077_controlled_detector_response_probe.py
+    - explorations/conditional-build/k2078-thermal-certificate-endpoints-2026-10-25.md
+    - lab/process/k2078-thermal-certificate-endpoints.json
+    - tests/channel-swings/k2078_thermal_certificate_endpoints.py
+    - tests/channel-swings/k2078_thermal_certificate_endpoints_probe.py
     - explorations/conditional-build/k2075-thermal-equality-rigidity-2026-10-25.md
     - lab/process/k2075-thermal-equality-rigidity.json
     - tests/channel-swings/k2075_thermal_equality_rigidity.py
@@ -18060,6 +18081,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which quantitative thermal certificate extends the closed optimizer interval, and which
+  supplied field-local or source-real detector can realize the bounded ancilla
+  construction with a physical resource account?
+
+  Historical predecessor (not live):
   Which endpoint or different-energy thermal condition can extend the exact optimizer
   classification, and what actual detector implementation preserves the quantitative
   locality bound under controlled dynamics?
@@ -21786,6 +21812,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Thermal rigidity now covers the CLOSED K2074 interval; do not repeat endpoint
+  classification. A larger interval needs a quantitative strengthened188/235 certificate
+  or a new feasible population, not an inference from nonattainment. Bounded compact
+  ancilla measurement and its finite resource/Bell consumer are constructed; next physical
+  bridge is a specified field-local/source-real detector or control-field resource
+  account. K2071 unbounded derivative control is outside K2077 remote-response theorem.
+  Preserve conditional tensor/ancilla/Born imports, global sector-postselection
+  counterexample, full20/K-C/accessibility/mirror/fullII/normaljets/2+1/chirality/near5/4,
+  nonlattice phase-coercivity and exact cap-preserving continuum-wing debts.
+
+  Historical predecessor (not live):
   Thermal interior population rigidity and d_min41 are closed in the declared fixed-bath
   model; do not repeat the13-to41 bracket. Compare endpoint/other-energy equality cells
   using fresh global certificates against the concrete detector-instrument bridge. K2076

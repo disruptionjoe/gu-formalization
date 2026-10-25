@@ -7,6 +7,11 @@ updated_at: "2026-10-24"
 
 # Next Steps For Contributors
 
+> **2026-10-25: CONTROLLED DETECTOR INSTRUMENTS AND CLOSED THERMAL ENDPOINTS.**
+> Thermal rigidity now covers the CLOSED K2074 interval; do not repeat endpoint classification. A larger interval needs a quantitative strengthened188/235 certificate or a new feasible population, not an inference from nonattainment. Bounded compact ancilla measurement and its finite resource/Bell consumer are constructed; next physical bridge is a specified field-local/source-real detector or control-field resource account. K2071 unbounded derivative control is outside K2077 remote-response theorem. Preserve conditional tensor/ancilla/Born imports, global sector-postselection counterexample, full20/K-C/accessibility/mirror/fullII/normaljets/2+1/chirality/near5/4, nonlattice phase-coercivity and exact cap-preserving continuum-wing debts.
+> Prior banners preserve history; source, ledger and canon remain unchanged.
+
+
 > **2026-10-25: THERMAL RIGIDITY AND QUANTITATIVE DETECTOR LOCALITY.**
 > Thermal interior population rigidity and d_min41 are closed in the declared fixed-bath model; do not repeat the13-to41 bracket. Compare endpoint/other-energy equality cells using fresh global certificates against the concrete detector-instrument bridge. K2076 supplies free Heisenberg-effect bounds, not a physically local instrument implementation or controlled Hchi projector commutation; actual controlled/field detector dynamics is the next source-facing input. Preserve K2074 corrected188 coverage, countable and empty-level/channel limits, nonlattice phase-coercivity and exact cap-preserving continuum wings; retain full20/K-C/accessibility, mirror/fullII, normaljets,2+1/chirality and near5/4 debts.
 > Prior banners preserve history; source, ledger and canon remain unchanged.

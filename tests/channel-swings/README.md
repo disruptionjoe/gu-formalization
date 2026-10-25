@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2077_controlled_detector_response](k2077_controlled_detector_response.py).
+- [k2077_controlled_detector_response_probe](k2077_controlled_detector_response_probe.py).
+- [k2078_thermal_certificate_endpoints](k2078_thermal_certificate_endpoints.py).
+- [k2078_thermal_certificate_endpoints_probe](k2078_thermal_certificate_endpoints_probe.py).
+
 - [k2075_thermal_equality_rigidity](k2075_thermal_equality_rigidity.py).
 - [k2075_thermal_equality_rigidity_probe](k2075_thermal_equality_rigidity_probe.py).
 - [k2076_separated_detector_locality](k2076_separated_detector_locality.py).

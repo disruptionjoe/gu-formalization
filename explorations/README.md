@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2077-controlled-detector-response](conditional-build/k2077-controlled-detector-response-2026-10-25.md).
+- [k2078-thermal-certificate-endpoints](conditional-build/k2078-thermal-certificate-endpoints-2026-10-25.md).
+
 - [k2075-thermal-equality-rigidity](conditional-build/k2075-thermal-equality-rigidity-2026-10-25.md).
 - [k2076-separated-detector-locality](conditional-build/k2076-separated-detector-locality-2026-10-25.md).
 

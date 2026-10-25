@@ -7,6 +7,26 @@ updated_at: "2026-10-24"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-25: Controlled detector instruments and closed thermal endpoints
+
+K2077 proves exponential remote-record response under bounded local controls without
+positive-sector preservation, exact full-carrier causal response, and additive
+postselection error epsilon+leakage. It then constructs a compact bounded ancilla
+instrument on the same massive1408 carrier: the inherited prepared Gaussian gives record
+error and sector leakage below1/62500 at control radius2002/m, duration1/m and potential
+amplitude pi*m/2; two supplied tensor copies give all-outcome CHSH>43746/15625. This is
+a declared complex-Hilbert/ancilla completion, not a source-real or local-field
+detector. K2078 extends unique N20 occupied population and minimum physical dimension41
+to BOTH endpoints of the K2074 interval: tied188/235 necessary equality rays have
+incompatible energies. Those endpoints are certificate intersections, not proved phase
+transitions. Source, physics ledger and canon remain unchanged.
+
+- [K2077](explorations/conditional-build/k2077-controlled-detector-response-2026-10-25.md).
+- [K2078](explorations/conditional-build/k2078-thermal-certificate-endpoints-2026-10-25.md).
+
+K2077: written bounded-Dyson/Duhamel/support/conditioning/causal-tube proofs,16 rational remote-response rows, finite ancilla resources and two-copy Bell bound; separate225 matrix/rational controls reject10 real mathematical/scope faults. K2078: all671 endpoint comparisons,1217 tail vertices/547 rays, strict all-high/root margins, exact state-aware necessary paths; separate45080 raw-bath/policy/endpoint controls reject7 faults. Inherited geometry/packing/countable premises remain pinned reuse. Read-only internal operator and thermal specialists plus independent final proof review; root sole writer and serialized verifier. No external or proof-assistant certification.
+
+
 ## 2026-10-25: Thermal rigidity and quantitative detector locality
 
 K2075 classifies the exact thermal optimum on the open K2074 energy interval: unique
