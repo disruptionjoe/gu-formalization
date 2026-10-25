@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2073_confined_pointer_energy](k2073_confined_pointer_energy.py).
+- [k2073_confined_pointer_energy_probe](k2073_confined_pointer_energy_probe.py).
+- [k2074_subdivided_incoming_thermal_bound](k2074_subdivided_incoming_thermal_bound.py).
+- [k2074_subdivided_incoming_thermal_bound_probe](k2074_subdivided_incoming_thermal_bound_probe.py).
+
 - [k2071_confined_pointer_control](k2071_confined_pointer_control.py).
 - [k2071_confined_pointer_control_probe](k2071_confined_pointer_control_probe.py).
 - [k2072_compulsory_ladder_thermal_bound](k2072_compulsory_ladder_thermal_bound.py).

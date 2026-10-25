@@ -1,0 +1,88 @@
+{
+  "id": "K2073",
+  "inputs": {
+    "lab/process/k2071-confined-pointer-control.json": "4010eca7031cf1154afed2bcaa1a8ec183eadfb38f781e61fedc0512d061ea45",
+    "explorations/conditional-build/k2067-sector-preserving-pointer-control-2026-10-25.md": "c078954e7418622126cd9aabdb8ae07e12f110c139ba6cda8134e89ce7fea037"
+  },
+  "initial_rms_over_m": "2",
+  "relative_perturbation_bound": "2/3",
+  "graph_lower_coefficient": "1/3",
+  "cutoff_gradient_bound": "2/rho",
+  "free_rms_bound": "8*m+4/rho",
+  "negative_first_moment_bound": "eta*(16*m+8/rho)",
+  "mean_energy_change_bound": "eta*(20*m+8/rho)",
+  "explicit_resources": [
+    {
+      "rms_free_upper": "12",
+      "negative_energy_upper": "6/25",
+      "absolute_mean_change_upper": "7/25",
+      "sector_probability_upper": "1/2500",
+      "bell_lower": "202263/100000",
+      "eta": "1/100",
+      "radius": "2400",
+      "ramp_width": "1"
+    },
+    {
+      "rms_free_upper": "12",
+      "negative_energy_upper": "3/25",
+      "absolute_mean_change_upper": "7/50",
+      "sector_probability_upper": "1/10000",
+      "bell_lower": "218383/100000",
+      "eta": "1/200",
+      "radius": "4800",
+      "ramp_width": "1"
+    },
+    {
+      "rms_free_upper": "12",
+      "negative_energy_upper": "3/125",
+      "absolute_mean_change_upper": "7/250",
+      "sector_probability_upper": "1/250000",
+      "bell_lower": "1156107/500000",
+      "eta": "1/1000",
+      "radius": "24000",
+      "ramp_width": "1"
+    }
+  ],
+  "tolerance_resources": [
+    {
+      "epsilon": "1/4",
+      "eta": "1/100",
+      "initial_radius": "2400",
+      "negative_energy_upper": "6/25",
+      "bell_lower": "202263/100000"
+    },
+    {
+      "epsilon": "1/10",
+      "eta": "1/240",
+      "initial_radius": "5760",
+      "negative_energy_upper": "1/10",
+      "bell_lower": "1989557/900000"
+    },
+    {
+      "epsilon": "1/100",
+      "eta": "1/2400",
+      "initial_radius": "57600",
+      "negative_energy_upper": "1/100",
+      "bell_lower": "4195609/1800000"
+    },
+    {
+      "epsilon": "1/1000",
+      "eta": "1/24000",
+      "initial_radius": "576000",
+      "negative_energy_upper": "1/1000",
+      "bell_lower": "84344279/36000000"
+    }
+  ],
+  "optimized_resource": {
+    "epsilon": "1/100",
+    "initial_radius": "38592",
+    "ramp_width": "100",
+    "control_radius": "38822",
+    "detector_radius": "38622",
+    "strict_center_separation": "77674",
+    "eta": "1/1608",
+    "negative_energy_upper": "1/100",
+    "fixed_budget_envelope": "384/(sqrt(1+w)-1)^2"
+  },
+  "scope": "same one-particle prepared subspace; no field energy, Fock implementation, exact positive sector or source claim"
+}

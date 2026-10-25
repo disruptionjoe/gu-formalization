@@ -7,6 +7,11 @@ updated_at: "2026-10-24"
 
 # Next Steps For Contributors
 
+> **2026-10-25: CONFINED ENERGY AND CANDIDATE EXACT THERMAL INTERVAL.**
+> Complete independent specialist proof review of K2074 shared-tail convexity, complete removed-cap paths, inherited cell187 and the actual physical upper witness; preserve prior accepted bracket until that review. K2073 closes the same-preparation energy-expectation gap, but not source-real field detection, vacuum/Fock implementation or control-field energy. If equality passes, pursue equality rigidity/minimum physical dimension or a genuinely different spacing/energy regime; do not refine a closed bracket. Retain nonlattice phase coercivity, exact continuum wings and full20/K-C/accessibility, mirror/fullII, normaljets,2+1/chirality,near5/4 debts.
+> Prior banners preserve history; source, ledger and canon remain unchanged.
+
+
 > **2026-10-25: CONFINED CONTROL AND STRONGER THERMAL PLACEMENT.**
 > K2071 supplies a confined-control and finite-detector approximation with explicit all-outcome error and sector-leakage probability; do not requeue homogeneous slowdown or infer exact positive-sector dynamics, an energy-expectation bound or source-real field locality. Next apparatus work needs a concrete source-compatible detector algebra or physical preparation/resource criterion. K2072 removes the weak high174 placement contact and explicitly pays both fourth-terminal paths to(18,2); next compare an incoming-aware longer shared response against a genuinely new feasible thermal population. Do not independently raise a sharp terminal cap or repeat the solved N20 family. Nonlattice complex phase coercivity and exact continuum wings remain alternatives; preserve full20/K-C/accessibility, mirror/fullII, normaljets,2+1/chirality and near5/4 resource debts.
 > Prior banners preserve history; source, ledger and canon remain unchanged.

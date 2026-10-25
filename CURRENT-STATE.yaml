@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 92d354ccfa4dcfa685f226ead9fd3e3b38d3749f
+revision_basis: 61ed9417c629a3f7f6afe0183587be1573c76e77
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,17 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2073 proves a common H1 domain and uniform free-energy rms bound8m+4/rho for the same
+    confined pointer. Negative-energy expectation is at most eta*(16m+8/rho); mean-energy
+    change at most eta*(20m+8/rho). It composes with all-outcome Bell violation and explicit
+    energy/radius tolerances. K2074 replaces separately maximized incoming costs by a
+    shared-tail maximum, then covers every path to the new cap19,2 and refreshes all active
+    assignments. Its candidate global lower equals the K2068 physical
+    upper335946011010129/1206372108151072, with a matching affine energy interval;
+    independent specialist review is pending before an optimum verdict. Source, physics
+    ledger and canon remain unchanged.
+
+    Historical predecessor (not live):
     K2071 constructs compact spatial speed-one pointer controls and finite all-outcome
     detectors on the same conditional massive1408 preparation. Finite propagation bounds
     prepared-state error by2eta and fixed-sector leakage probability by4eta squared. At
@@ -16596,6 +16607,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k2073-confined-pointer-energy-2026-10-25.md
+    - lab/process/k2073-confined-pointer-energy.json
+    - tests/channel-swings/k2073_confined_pointer_energy.py
+    - tests/channel-swings/k2073_confined_pointer_energy_probe.py
+    - explorations/conditional-build/k2074-subdivided-incoming-thermal-bound-2026-10-25.md
+    - lab/process/k2074-subdivided-incoming-thermal-bound.json
+    - tests/channel-swings/k2074_subdivided_incoming_thermal_bound.py
+    - tests/channel-swings/k2074_subdivided_incoming_thermal_bound_probe.py
     - explorations/conditional-build/k2071-confined-pointer-control-2026-10-25.md
     - lab/process/k2071-confined-pointer-control.json
     - tests/channel-swings/k2071_confined_pointer_control.py
@@ -18022,6 +18041,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Does independent review validate the matching global thermal certificate, and what
+  energy/field or equality-resource constraint is now the strongest next question?
+
+  Historical predecessor (not live):
   Which source-compatible detector-field or preparation/resource criterion can sharpen the
   confined approximate-sector construction, and can an incoming-aware shared response
   beyond the active four-terminal thermal contact reduce the remaining global gap?
@@ -21738,6 +21761,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Complete independent specialist proof review of K2074 shared-tail convexity, complete
+  removed-cap paths, inherited cell187 and the actual physical upper witness; preserve
+  prior accepted bracket until that review. K2073 closes the same-preparation energy-
+  expectation gap, but not source-real field detection, vacuum/Fock implementation or
+  control-field energy. If equality passes, pursue equality rigidity/minimum physical
+  dimension or a genuinely different spacing/energy regime; do not refine a closed
+  bracket. Retain nonlattice phase coercivity, exact continuum wings and
+  full20/K-C/accessibility, mirror/fullII, normaljets,2+1/chirality,near5/4 debts.
+
+  Historical predecessor (not live):
   K2071 supplies a confined-control and finite-detector approximation with explicit all-
   outcome error and sector-leakage probability; do not requeue homogeneous slowdown or
   infer exact positive-sector dynamics, an energy-expectation bound or source-real field

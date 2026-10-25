@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2073-confined-pointer-energy](conditional-build/k2073-confined-pointer-energy-2026-10-25.md).
+- [k2074-subdivided-incoming-thermal-bound](conditional-build/k2074-subdivided-incoming-thermal-bound-2026-10-25.md).
+
 - [k2071-confined-pointer-control](conditional-build/k2071-confined-pointer-control-2026-10-25.md).
 - [k2072-compulsory-ladder-thermal-bound](conditional-build/k2072-compulsory-ladder-thermal-bound-2026-10-25.md).
 

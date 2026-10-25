@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2073-confined-pointer-energy](k2073-confined-pointer-energy.json).
+- [k2074-subdivided-incoming-thermal-bound](k2074-subdivided-incoming-thermal-bound.json).
+
 - [k2071-confined-pointer-control](k2071-confined-pointer-control.json).
 - [k2072-compulsory-ladder-thermal-bound](k2072-compulsory-ladder-thermal-bound.json).
 
