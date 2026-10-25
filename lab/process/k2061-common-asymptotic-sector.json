@@ -1,0 +1,162 @@
+{
+  "scope": "conditional massive one-particle graph; no source or CAR verdict",
+  "checks": [
+    "projector",
+    "full positive spin rank",
+    "both squared products positive",
+    "both squared products negative",
+    "unitary fixture",
+    "entire incoming fiber product",
+    "entire outgoing fiber product",
+    "unitary fixture",
+    "entire incoming fiber product",
+    "entire outgoing fiber product",
+    "unitary fixture",
+    "entire incoming fiber product",
+    "entire outgoing fiber product",
+    "projector",
+    "full positive spin rank",
+    "both squared products positive",
+    "both squared products negative",
+    "unitary fixture",
+    "entire incoming fiber product",
+    "entire outgoing fiber product",
+    "unitary fixture",
+    "entire incoming fiber product",
+    "entire outgoing fiber product",
+    "unitary fixture",
+    "entire incoming fiber product",
+    "entire outgoing fiber product",
+    "projector",
+    "full positive spin rank",
+    "both squared products positive",
+    "both squared products negative",
+    "unitary fixture",
+    "entire incoming fiber product",
+    "entire outgoing fiber product",
+    "unitary fixture",
+    "entire incoming fiber product",
+    "entire outgoing fiber product",
+    "unitary fixture",
+    "entire incoming fiber product",
+    "entire outgoing fiber product",
+    "projector",
+    "full positive spin rank",
+    "both squared products positive",
+    "both squared products negative",
+    "unitary fixture",
+    "entire incoming fiber product",
+    "entire outgoing fiber product",
+    "unitary fixture",
+    "entire incoming fiber product",
+    "entire outgoing fiber product",
+    "unitary fixture",
+    "entire incoming fiber product",
+    "entire outgoing fiber product",
+    "projector",
+    "full positive spin rank",
+    "both squared products positive",
+    "both squared products negative",
+    "unitary fixture",
+    "entire incoming fiber product",
+    "entire outgoing fiber product",
+    "unitary fixture",
+    "entire incoming fiber product",
+    "entire outgoing fiber product",
+    "unitary fixture",
+    "entire incoming fiber product",
+    "entire outgoing fiber product",
+    "projector",
+    "full positive spin rank",
+    "both squared products positive",
+    "both squared products negative",
+    "unitary fixture",
+    "entire incoming fiber product",
+    "entire outgoing fiber product",
+    "unitary fixture",
+    "entire incoming fiber product",
+    "entire outgoing fiber product",
+    "unitary fixture",
+    "entire incoming fiber product",
+    "entire outgoing fiber product",
+    "actual positive fiber dimension",
+    "removable sine quotient",
+    "spectral concentration bound",
+    "spectral concentration bound",
+    "spectral concentration bound"
+  ],
+  "fixtures": [
+    {
+      "p": [
+        3,
+        0,
+        0
+      ],
+      "mu": 4,
+      "shift": -8,
+      "beta_coefficient": "9/25"
+    },
+    {
+      "p": [
+        0,
+        3,
+        0
+      ],
+      "mu": 4,
+      "shift": -8,
+      "beta_coefficient": "9/25"
+    },
+    {
+      "p": [
+        0,
+        0,
+        3
+      ],
+      "mu": 4,
+      "shift": -8,
+      "beta_coefficient": "9/25"
+    },
+    {
+      "p": [
+        1,
+        0,
+        0
+      ],
+      "mu": 1,
+      "shift": -2,
+      "beta_coefficient": "1/2"
+    },
+    {
+      "p": [
+        0,
+        0,
+        0
+      ],
+      "mu": 1,
+      "shift": -1,
+      "beta_coefficient": "0"
+    },
+    {
+      "p": [
+        0,
+        3,
+        4
+      ],
+      "mu": 12,
+      "shift": 2,
+      "beta_coefficient": "25/169"
+    }
+  ],
+  "actual_positive_fiber_dimension": 704,
+  "inputs": {
+    "lab/process/k2060-positive-energy-localization.json": "187854f210e4b489cd951f408137e54d9329a3707c6c8776d27620bda42e964f",
+    "explorations/conditional-build/k2060-positive-energy-localization-2026-10-25.md": "50d277514c8756bcd64a1d46ebe4d4038c2aec37b23ef4e0afc3244edd6c5258",
+    "explorations/conditional-build/k2058-universal-positive-dynamics-2026-10-25.md": "a8bfc6465994b4fc50380d618098898394ae3f6dc1219dd97eac1d9a6adb5825"
+  },
+  "proof_only": [
+    "measure-zero resonances",
+    "smooth-pulse real analyticity",
+    "dense nonclosed range",
+    "torus direct sum"
+  ]
+}

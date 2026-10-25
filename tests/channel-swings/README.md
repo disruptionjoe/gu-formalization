@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2061_common_asymptotic_sector](k2061_common_asymptotic_sector.py).
+- [k2061_common_asymptotic_sector_probe](k2061_common_asymptotic_sector_probe.py).
+- [k2062_bounded_local_multiplier_rigidity](k2062_bounded_local_multiplier_rigidity.py).
+- [k2062_bounded_local_multiplier_rigidity_probe](k2062_bounded_local_multiplier_rigidity_probe.py).
+
 - [k2059_energy_aware_thermal_tail](k2059_energy_aware_thermal_tail.py).
 - [k2059_energy_aware_thermal_tail_probe](k2059_energy_aware_thermal_tail_probe.py).
 - [k2060_positive_energy_localization](k2060_positive_energy_localization.py).

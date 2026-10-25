@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2061-common-asymptotic-sector](conditional-build/k2061-common-asymptotic-sector-2026-10-25.md).
+- [k2062-bounded-local-multiplier-rigidity](conditional-build/k2062-bounded-local-multiplier-rigidity-2026-10-25.md).
+
 - [k2059-energy-aware-thermal-tail](conditional-build/k2059-energy-aware-thermal-tail-2026-10-25.md).
 - [k2060-positive-energy-localization](conditional-build/k2060-positive-energy-localization-2026-10-25.md).
 

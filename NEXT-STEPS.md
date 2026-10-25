@@ -7,6 +7,11 @@ updated_at: "2026-10-24"
 
 # Next Steps For Contributors
 
+> **2026-10-25: COMMON ASYMPTOTIC STATES AND BOUNDED LOCAL OBSERVABLES.**
+> Fixed-free-positive-sector local multiplier classification is complete for all bounded measurable coefficients on massive R3, and exact common positivity is excluded for the specified mass pulses, including constructed smooth examples. Do not requeue decay-class extensions or generic mixing. Approximate sectors and the compressed position POVM survive; selecting their physical meaning still requires a typed source-to-observed bridge. Compare a joint terminal-response thermal certificate or improved feasible population, nonlattice higher-power complex crossing, and continuum-feasible capped wings before another fixed-sector refinement. Thermal K2059 bounds remain unchanged. Preserve full20/K-C/accessibility, mirror/fullII, normal jets,2+1/chirality, near5/4 resources and independent dual/parity/state obligations.
+> Prior banners preserve history; source, ledger and canon remain unchanged.
+
+
 > **2026-10-25: ENERGY-AWARE THERMAL BOUNDS AND POSITIVE-ENERGY SECTORS.**
 > Thermal priority: strengthen the joint terminal response beyond independent Bellman excess costs, or construct a better feasible population; the new reachable energy-tail certificate and two-peak upper leave a positive gap. Dynamics: fixed free positive-energy preservation is now classified for constants and periodic/decaying local coefficients; transported asymptotic sectors exist for time-integrable potentials but do not select a common physical quotient. Compare genuinely nonlattice higher-power complex control and exact feasible continuum wings before further same-family refinement. Preserve full20/K-C/accessibility, mirror/fullII, normal jets,2+1/chirality, near5/4 resources and source-owned dual/parity/state obligations.
 > Prior banners preserve history; source, ledger and canon remain unchanged.

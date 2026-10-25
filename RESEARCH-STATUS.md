@@ -8,6 +8,25 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-25: Common asymptotic states and bounded local observables
+
+K2061 proves that every nonzero finite-duration rectangular mass pulse in the
+conditional massive1408 graph on R3 has no nonzero state positive at both free
+asymptotic ends. Leakage can nevertheless be arbitrarily small; its operator has dense
+nonclosed range. Exact torus resonance sectors and smooth compact-time examples
+distinguish the limits. K2062 classifies every bounded measurable local multiplier
+preserving the fixed positive sector: it is constant in the Clifford commutant. The
+inherited real-skew survivor dimension remains10624. Released consequences construct the
+compressed position POVM, prove every nontrivial region effect unsharp, give nonlocal
+block-diagonal repairs and an explicit exponentially decaying separated-region bound.
+Conditional one-particle mathematics only; no source, physics-ledger or canon promotion.
+
+- [K2061](explorations/conditional-build/k2061-common-asymptotic-sector-2026-10-25.md).
+- [K2062](explorations/conditional-build/k2062-bounded-local-multiplier-rigidity-2026-10-25.md).
+
+K2061 producer83 exact controls and separate Pauli probe41 controls pass; five faults rejected. K2062 producer35 exact controls, separate full finite-jet nullities1/2/3 for massive/massless/one-direction cases,15 projection/kernel controls and six fault discriminators pass. Written proofs supply measure-zero, smooth-pulse analyticity, dense/nonclosed range, H1 modulation, measurable convolution, universal region unsharpness and spatial decay statements. The actual1408 graph is hash-pinned reuse. Same-author separate implementations and hostile proof review only; no independent specialist, external, proof-assistant or novelty certification.
+
+
 ## 2026-10-25: Energy-aware thermal bounds and positive-energy sectors
 
 K2059 consumes inherited compulsory-ladder packing and new reachable energy-aware

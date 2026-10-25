@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2061-common-asymptotic-sector](k2061-common-asymptotic-sector.json).
+- [k2062-bounded-local-multiplier-rigidity](k2062-bounded-local-multiplier-rigidity.json).
+
 - [k2059-energy-aware-thermal-tail](k2059-energy-aware-thermal-tail.json).
 - [k2060-positive-energy-localization](k2060-positive-energy-localization.json).
 

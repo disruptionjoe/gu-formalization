@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 719818612fb48e0bf5974e32a021dc8c04636359
+revision_basis: 870417610a4fc124844fa3c2a5133d8f5809898f
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,18 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2061 proves that every nonzero finite-duration rectangular mass pulse in the
+    conditional massive1408 graph on R3 has no nonzero state positive at both free
+    asymptotic ends. Leakage can nevertheless be arbitrarily small; its operator has dense
+    nonclosed range. Exact torus resonance sectors and smooth compact-time examples
+    distinguish the limits. K2062 classifies every bounded measurable local multiplier
+    preserving the fixed positive sector: it is constant in the Clifford commutant. The
+    inherited real-skew survivor dimension remains10624. Released consequences construct the
+    compressed position POVM, prove every nontrivial region effect unsharp, give nonlocal
+    block-diagonal repairs and an explicit exponentially decaying separated-region bound.
+    Conditional one-particle mathematics only; no source, physics-ledger or canon promotion.
+
+    Historical predecessor (not live):
     K2059 consumes inherited compulsory-ladder packing and new reachable energy-aware
     Bellman tails in a stronger finite/countable thermal certificate. A new two-peak
     finite21-level witness and countable geometric extension improve the upper bound. At
@@ -16517,6 +16529,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k2061-common-asymptotic-sector-2026-10-25.md
+    - lab/process/k2061-common-asymptotic-sector.json
+    - tests/channel-swings/k2061_common_asymptotic_sector.py
+    - tests/channel-swings/k2061_common_asymptotic_sector_probe.py
+    - explorations/conditional-build/k2062-bounded-local-multiplier-rigidity-2026-10-25.md
+    - lab/process/k2062-bounded-local-multiplier-rigidity.json
+    - tests/channel-swings/k2062_bounded_local_multiplier_rigidity.py
+    - tests/channel-swings/k2062_bounded_local_multiplier_rigidity_probe.py
     - explorations/conditional-build/k2059-energy-aware-thermal-tail-2026-10-25.md
     - lab/process/k2059-energy-aware-thermal-tail.json
     - tests/channel-swings/k2059_energy_aware_thermal_tail.py
@@ -17895,6 +17915,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which explicit physical-state and observable criterion can be supplied consistently with
+  trivial exact common sectors under mass pulses and the complete bounded-local multiplier
+  restriction?
+
+  Historical predecessor (not live):
   Can joint terminal-response constraints or a better feasible population close the
   thermal gap, and can a source-selected physical state be reconciled with the proved
   fixed-energy-sector restrictions?
@@ -21579,6 +21604,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Fixed-free-positive-sector local multiplier classification is complete for all bounded
+  measurable coefficients on massive R3, and exact common positivity is excluded for the
+  specified mass pulses, including constructed smooth examples. Do not requeue decay-class
+  extensions or generic mixing. Approximate sectors and the compressed position POVM
+  survive; selecting their physical meaning still requires a typed source-to-observed
+  bridge. Compare a joint terminal-response thermal certificate or improved feasible
+  population, nonlattice higher-power complex crossing, and continuum-feasible capped
+  wings before another fixed-sector refinement. Thermal K2059 bounds remain unchanged.
+  Preserve full20/K-C/accessibility, mirror/fullII, normal jets,2+1/chirality, near5/4
+  resources and independent dual/parity/state obligations.
+
+  Historical predecessor (not live):
   Thermal priority: strengthen the joint terminal response beyond independent Bellman
   excess costs, or construct a better feasible population; the new reachable energy-tail
   certificate and two-peak upper leave a positive gap. Dynamics: fixed free positive-

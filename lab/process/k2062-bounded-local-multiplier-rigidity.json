@@ -1,0 +1,52 @@
+{
+  "scope": "bounded measurable matrix multipliers, massive R3 graph",
+  "checks": [
+    "Hermitian Clifford square",
+    "Hermitian Clifford square",
+    "Clifford anticommutator",
+    "Hermitian Clifford square",
+    "Clifford anticommutator",
+    "Clifford anticommutator",
+    "Hermitian Clifford square",
+    "Clifford anticommutator",
+    "Clifford anticommutator",
+    "Clifford anticommutator",
+    "volume commutes with spatial matrices",
+    "volume fails mass commutation",
+    "transverse derivative2 elimination",
+    "transverse derivative3 elimination",
+    "multiplicity commutant survives",
+    "multiplicity commutant survives",
+    "multiplicity commutant survives",
+    "multiplicity commutant survives",
+    "exact high-frequency first coefficient",
+    "exact high-frequency first coefficient",
+    "exact high-frequency first coefficient",
+    "position-projection fixture",
+    "compressed projection defect",
+    "repair removes off-block",
+    "repair is Hermitian",
+    "off-block squared product",
+    "position-projection fixture",
+    "compressed projection defect",
+    "repair removes off-block",
+    "repair is Hermitian",
+    "off-block squared product",
+    "kernel Frobenius cross trace cancels",
+    "heat substitution zeroth moment",
+    "heat substitution first moment",
+    "heat prefactor"
+  ],
+  "real_skew_surviving_dimension": 10624,
+  "inputs": {
+    "lab/process/k2060-positive-energy-localization.json": "187854f210e4b489cd951f408137e54d9329a3707c6c8776d27620bda42e964f",
+    "explorations/conditional-build/k2060-positive-energy-localization-2026-10-25.md": "50d277514c8756bcd64a1d46ebe4d4038c2aec37b23ef4e0afc3244edd6c5258"
+  },
+  "proof_only": [
+    "H1 dominated modulation limit",
+    "weak-integral mollification",
+    "Lebesgue point constancy",
+    "nonprojectivity of every nontrivial spatial region",
+    "separated-region Hilbert-Schmidt estimate"
+  ]
+}
