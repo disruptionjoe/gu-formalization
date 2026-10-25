@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 61ed9417c629a3f7f6afe0183587be1573c76e77
+revision_basis: ea91cb28c053e34795efd26499468b758747f1cb
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,15 +35,14 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
-    K2073 proves a common H1 domain and uniform free-energy rms bound8m+4/rho for the same
-    confined pointer. Negative-energy expectation is at most eta*(16m+8/rho); mean-energy
-    change at most eta*(20m+8/rho). It composes with all-outcome Bell violation and explicit
-    energy/radius tolerances. K2074 replaces separately maximized incoming costs by a
-    shared-tail maximum, then covers every path to the new cap19,2 and refreshes all active
-    assignments. Its candidate global lower equals the K2068 physical
-    upper335946011010129/1206372108151072, with a matching affine energy interval;
-    independent specialist review is pending before an optimum verdict. Source, physics
-    ledger and canon remain unchanged.
+    Independent internal specialist review accepted K2073 prepared-state free-energy and
+    radius bounds. K2074 review found and repaired an omitted cell188 tail2222; cell-
+    specific fourth-terminal response and exact affine shell chambers now verify the global
+    fixed-bath finite/countable optimum335946011010129/1206372108151072 at E5/2 and its
+    matching interval approximately[2.4800787763,2.5075721054]. On the open interval,
+    equality requires genuine low cell187, offset0, saturated energy and at least13 physical
+    levels;41 levels suffice. Uniqueness and minimum dimension remain open. No source,
+    physics-ledger, canon or field-energy conclusion changes.
 
     Historical predecessor (not live):
     K2071 constructs compact spatial speed-one pointer controls and finite all-outcome
@@ -18041,8 +18040,9 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Does independent review validate the matching global thermal certificate, and what
-  energy/field or equality-resource constraint is now the strongest next question?
+  Which equality condition can classify the thermal high/tail components or close
+  the13-to41 physical-dimension gap, and what concrete source-compatible detector
+  criterion justifies the next pointer extension?
 
   Historical predecessor (not live):
   Which source-compatible detector-field or preparation/resource criterion can sharpen the
@@ -21761,14 +21761,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Complete independent specialist proof review of K2074 shared-tail convexity, complete
-  removed-cap paths, inherited cell187 and the actual physical upper witness; preserve
-  prior accepted bracket until that review. K2073 closes the same-preparation energy-
-  expectation gap, but not source-real field detection, vacuum/Fock implementation or
-  control-field energy. If equality passes, pursue equality rigidity/minimum physical
-  dimension or a genuinely different spacing/energy regime; do not refine a closed
-  bracket. Retain nonlattice phase coercivity, exact continuum wings and
-  full20/K-C/accessibility, mirror/fullII, normaljets,2+1/chirality,near5/4 debts.
+  The repaired thermal bracket is closed in its declared regime: next derive high-
+  component and tail equality conditions before uniqueness or a minimum-dimension verdict
+  (currently13<=d_min<=41), or tackle genuinely different spacing/energy. Preserve the
+  corrected cell188 endpoint11 and2222 path; do not reuse the superseded candidate
+  certificate. K2073 controls prepared-particle free-energy moments, not
+  apparatus/control-field energy or vacuum/Fock implementation; a source-facing
+  continuation needs a concrete compatible detector algebra. Nonlattice phase coercivity
+  and exact continuum wings still need their named analytic inputs. Retain
+  full20/K-C/accessibility, mirror/fullII, normaljets,2+1/chirality and near5/4 debts.
 
   Historical predecessor (not live):
   K2071 supplies a confined-control and finite-detector approximation with explicit all-

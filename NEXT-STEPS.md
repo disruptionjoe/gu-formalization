@@ -7,8 +7,8 @@ updated_at: "2026-10-24"
 
 # Next Steps For Contributors
 
-> **2026-10-25: CONFINED ENERGY AND CANDIDATE EXACT THERMAL INTERVAL.**
-> Complete independent specialist proof review of K2074 shared-tail convexity, complete removed-cap paths, inherited cell187 and the actual physical upper witness; preserve prior accepted bracket until that review. K2073 closes the same-preparation energy-expectation gap, but not source-real field detection, vacuum/Fock implementation or control-field energy. If equality passes, pursue equality rigidity/minimum physical dimension or a genuinely different spacing/energy regime; do not refine a closed bracket. Retain nonlattice phase coercivity, exact continuum wings and full20/K-C/accessibility, mirror/fullII, normaljets,2+1/chirality,near5/4 debts.
+> **2026-10-25: REVIEWED ENERGY AND REPAIRED EXACT THERMAL INTERVAL.**
+> The repaired thermal bracket is closed in its declared regime: next derive high-component and tail equality conditions before uniqueness or a minimum-dimension verdict (currently13<=d_min<=41), or tackle genuinely different spacing/energy. Preserve the corrected cell188 endpoint11 and2222 path; do not reuse the superseded candidate certificate. K2073 controls prepared-particle free-energy moments, not apparatus/control-field energy or vacuum/Fock implementation; a source-facing continuation needs a concrete compatible detector algebra. Nonlattice phase coercivity and exact continuum wings still need their named analytic inputs. Retain full20/K-C/accessibility, mirror/fullII, normaljets,2+1/chirality and near5/4 debts.
 > Prior banners preserve history; source, ledger and canon remain unchanged.
 
 

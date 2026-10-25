@@ -1,5 +1,5 @@
 ---
-title: "K2074: Shared-tail response closes the candidate wide-spacing thermal bracket"
+title: "K2074: Shared-tail response closes the wide-spacing thermal bracket"
 status: active_research
 doc_type: exploration
 created: "2026-10-25"
@@ -11,7 +11,7 @@ scripts:
   - tests/channel-swings/k2074_subdivided_incoming_thermal_bound_probe.py
 ---
 
-# K2074: Shared-tail response closes the candidate wide-spacing thermal bracket
+# K2074: Shared-tail response closes the wide-spacing thermal bracket
 
 Classification: `INTERNAL_STRUCTURAL_ONLY`.
 
@@ -25,7 +25,7 @@ Classification: `INTERNAL_STRUCTURAL_ONLY`.
 > pointers before reusing this result.
 
 ```gu-typed-objects
-result: common-tail convex price and candidate matching global thermal certificate
+result: common-tail convex price and internally verified exact thermal interval
 carrier: fixed four-state bath and finite/countable nondegenerate catalyst LAYER=toy CHIRALITY=N/A
 pairing: classical marginal return and positive population mass ON=declared_bath_catalyst
 real_structure: real nonnegative populations with exact rational certificates
@@ -34,7 +34,7 @@ action_owner: repository-construction -- inherited exact shell-capacity model
 target: wide-spacing energy-constrained return MAP-TYPE=intertwiner
 ```
 
-[Candidate conditional theorem; independent specialist review pending.] The shared-tail
+[Internally verified conditional theorem; repaired after independent agent review.] The shared-tail
 price below removes an unnecessary independent maximization in K2070. After consuming
 that improvement and constructing the newly active fourth-terminal responses, the
 exact lower certificate matches K2068's41-level feasible upper witness:
@@ -42,12 +42,15 @@ exact lower certificate matches K2068's41-level feasible upper witness:
     F_delta(5/2) = 335946011010129/1206372108151072 = 0.27847627505663369,
     1/2 < delta <= 1.                                 (1)
 
-All new arithmetic, geometry and separate raw-bath checks pass. This equality is a
-candidate theorem pending the repository's independent specialist review requirement;
-it is not yet a promoted optimum verdict. No source, physics-ledger or canon conclusion
-changes. The bath is fixed at(8,4,2,1)/15, energy is measured in the inherited units,
-and all finite/countable physically admissible catalysts in that exact model are the
-intended scope. No optimal dimension, uniqueness, source attribution or novelty is claimed.
+The exact optimum is established in the declared fixed-bath mathematical model by
+matching global lower and feasible upper certificates. Independent internal specialist
+review found and prompted repair of a missing cell188 tail path; the original candidate
+certificate is superseded. Fresh exact checks cover that path. This is not external
+specialist or proof-assistant certification. The bath is fixed at(8,4,2,1)/15, energy
+uses the inherited units, and the scope is all finite/countable physically admissible
+catalysts in that exact model. No source, physics-ledger, canon, novelty or optimizer
+uniqueness conclusion follows. The necessary dimension bound below is not an optimum
+dimension claim.
 
 ## 1. Why the first route was rejected
 
@@ -141,14 +144,24 @@ its four subsequent gaps have adjacent pairs summing at least4. Longer routes
 increase energy further. The earlier paths to(18,2) are(3,1,3,2) and(3,2,2,2).
 The separate checker enumerates the admissible paths to verify this exact coverage.
 
-For BOTH cells164 and188, whose retained endpoints are9, expand prefixes
-(3,1,3),(3,2,2),(3,2,3),(3,3,2) across every admissible fourth gap. Preserve each
-shorter actual triple with its true final reward, every other triple, every one-/two-
-terminal prefix and all later caps. Remove ONLY(18,2) and(19,2) for those two cells.
-The five new arrangements are(3,2,3,1),(3,2,3,2),(3,2,3,3),(3,3,2,2),(3,3,2,3).
-The five earlier arrangements are reused by hash. Integer-cofactor enumeration and
-separate rational row reduction agree for all new vertices/rays; direct bath-shell
-maxima independently reproduce their losses.
+Cell164 has retained endpoint9. Expand its prefixes(3,1,3),(3,2,2),(3,2,3),(3,3,2)
+across every admissible fourth gap. Cell188 has retained endpoint11, not9: its first
+gap can be2, and its sole fourth-or-later route to the removed caps is(2,2,2,2)
+to(19,2). Expand triple(2,2,2) across fourth gaps2 and3. The minimum fifth-step
+endpoint is21, so no deeper route reaches18 or19. Preserve each shorter actual triple
+with its true final reward, every other triple, every one-/two-terminal prefix and
+all later caps. Remove ONLY(18,2) and(19,2), with cell-specific coverage checks.
+
+The seven new arrangements are(2,2,2,2),(2,2,2,3),(3,2,3,1),(3,2,3,2),
+(3,2,3,3),(3,3,2,2),(3,3,2,3). Five earlier arrangements are reused by hash.
+Integer-cofactor enumeration and separate rational row reduction agree for all new
+vertices/rays; direct bath-shell maxima independently reproduce their losses.
+
+**Correction retained:** the first candidate mistakenly treated188 as endpoint9,
+removed its cap19 and omitted triple222. Producer and checker shared that mistake.
+The separate review agent found the reachable route2222. The repaired188 certificate
+is recomputed, and the checker now rejects the actual original omission. Passing
+arithmetic alone did not establish the missing graph premise.
 
 Then re-evaluate EVERY assignment below the improved threshold. Cells164,188,152,212
 improve. Common-weight attempts at187 and235 are weaker and rejected; their stronger
@@ -169,37 +182,66 @@ All671 assigned lower lines dominate it at both exact endpoints
     [32443550315996264416395618040567413114420759/13081661206323710251060134327117911652320495,
      792963719355209723823281452591470294615907/316227684004563551083971720249219734157775].                                      (8)
 
-Their differences are affine in E, so they dominate throughout. The interval is
-inside K2068's exact physical-feasibility interval; its normalization, energy,
-nonnegative populations, raw return and all shell-capacity conditions must be replayed
-before using this as an equality theorem. Thus(7)-(8) are the useful candidate
-follow-through from(1), not an unsupported interpolation of numeric samples.
-The supplied witness uses occupied energies1,3,...,39 and physical levels0,...,40.
-That proves dimension41 suffices if the equality proof is accepted; it does not show
-that dimension41 is necessary or that every optimizer has this population.
+Their differences are affine in E, so they dominate throughout. This interval is
+inside [K2068's affine feasibility chamber](k2068-thermal-population-construction-2026-10-25.md).
+That proof derives its endpoints from every population and dominance inequality;
+it is the full-interval premise, not interpolation of three sampled return values.
+The separate checker now also fixes each shell maximum at the interval midpoint,
+checks that the SAME affine maximum dominates all alternatives at both endpoints,
+and checks each output deficit retains its sign at the endpoints. Affineness then
+proves the same physical return throughout(8). Normalization and energy are affine
+identities, all populations are nonnegative throughout, and the shell capacity is
+population independent. Thus(7)-(8) are an exact interval theorem.
+The supplied witness has occupied energies1,3,...,39 and physical levels0,...,40;
+dimension41 suffices.
 
-## 6. Evidence, adverse cases and remaining review
+### Necessary conditions for attainment
+
+Among all671 assigned lines, only cell187 touches(7) at E5/2. Every other line has
+strict positive gap there and nonnegative gap at both endpoints. Affineness makes
+every other gap strictly positive throughout the OPEN interval(8). The closest
+other cell is235, with exact gap at E5/2
+
+    1596339562533897408901434645613972814313/153583818719645005987801516622422020425620000.
+
+An attaining population must therefore have genuine retained low cell187, with
+support[1,3,5,7,9,11] and orientation[-1,1,1,1,-1]. Zero-coordinate closures are
+reclassified by their actual support, so this forces six positive retained occupied
+levels. Since t=-s>0, any unused energy budget or dropped low-component shift
+D*Mlow creates strict slack; equality requires saturated energy and D=0.
+The inherited compulsory-ladder packing then requires physical levels0,...,12:
+at least13 physical catalyst levels. The resulting dimension bracket is13<=d_min<=41,
+not proof that either bound is sharp. Other high components and later positive
+populations are not classified. Endpoint ties may add possibilities, so these
+necessary conditions are asserted only on the open interval.
+
+## 6. Evidence, adverse cases and remaining scope
 
 The new shared-tail scalar inequality is proved by(2), separately checked on257
-finite controls. The new geometry has1690 combined vertex/ray raw checks.
+finite controls. The new geometry has2366 combined vertex/ray raw checks.
 Four replacement assignments pass84104 low/high inequalities; all671 affine lines
-are compared. Six corruptions of actual coefficients, weights or certificate outputs
-are rejected after a passing baseline. Stored prior bank/geometry is hash-pinned reuse,
+are compared. All80 shell maxima keep their affine chamber across the interval, and
+all five cell-specific removed-cap routes are covered. Seven corruptions of actual coefficients, weights or certificate outputs
+are rejected, including the originally omitted222 path, after a passing baseline. Stored prior bank/geometry is hash-pinned reuse,
 not a new full-bank completeness proof. Finite geometry and arithmetic do not by
 themselves prove physical packing or countable transfer; their named analytic arguments
 remain load-bearing.
 
-Strongest overclaim: treating an unchanged manifest or a matching rational number as
-proof of global physical optimality. This artifact instead identifies the whole-model
-transfer and leaves the independent specialist verdict pending. Strongest contrary
-case: an unexpanded route reaching a removed cap would invalidate the lower certificate;
-all such routes and shorter prefixes are checked explicitly. Weakest seam: inherited
-cell187's exact certificate must be replayed in its original method, rather than
-mistakenly replacing it by the weaker new common-weight attempt. The source verdict,
-minimum-dimension problem and optimizer classification remain separate.
+Strongest overclaim: treating matching rational numbers as a global optimum without
+complete graph coverage. Independent internal review found exactly such a defect in
+the candidate; the corrected cell-specific expansion and regression test repair it.
+The original cell187 certificate is replayed in its inherited separate-max method,
+not replaced by the weaker common-weight attempt. The specialist reviewer accepted
+the repaired proof structure, conditional on the fresh exact checks; those checks
+supply the arithmetic acceptance. Final review also corrected a factor-of-two in the
+new deficit-sign check: it now tests p_i minus the FULL sum of shell maxima,
+with the return factor1/2 applied only after taking the positive part. This did
+not alter the certificate numbers. The independent operator reviewer also accepted
+K2073's prepared-state energy theorem with the explicit field-energy limitation.
 
 No external specialist, proof-assistant or novelty certification is present. The
-current scripts and written argument are same-author evidence. The next substantive
-step is independent proof review of(2)-(8), path coverage, physical placement and the
-upper witness. If it passes, the declared interval can be reported as exact; if it
-fails, preserve the prior accepted bracket and record the precise failed transfer.
+inherited bank completeness, packing and finite/countable transfer remain named
+premises. Next optimizer work needs all equality conditions, especially high-component
+and tail conditions, before asserting uniqueness or minimal dimension. This closes
+the old numerical bracket in the stated regime; other spacing/energy regimes remain
+separate. No source-real detector, GU source verdict or physics-ledger change follows.

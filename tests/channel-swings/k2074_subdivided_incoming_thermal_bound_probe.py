@@ -5,6 +5,17 @@ import json,hashlib,importlib.util,copy
 ROOT=Path(__file__).resolve().parents[2]
 sp=importlib.util.spec_from_file_location('old_probe',ROOT/'tests/channel-swings/k2072_compulsory_ladder_thermal_bound_probe.py');old=importlib.util.module_from_spec(sp);sp.loader.exec_module(old)
 Z=Q(0);K=old.K;C=old.C;LH=old.LH;bell=old.bell;allowed=old.allowed;raw=old.raw;strong_shift=old.strong_shift
+def covered_caps(ci,s,omit_222=False):
+ if ci not in [164,188]:return set()
+ prefixes={(3,1,3),(3,2,2),(3,2,3),(3,3,2)} if ci==164 else ({(2,2,2)} if not omit_222 else set())
+ def walk(ds,n):
+  if n>19:return
+  if len(ds)>=4 and (n,ds[-1]) in {(18,2),(19,2)}:
+   assert len(ds)==4 and tuple(ds[:3]) in prefixes,'removed cap has unexpanded route'
+  for gap in K:
+   if ds[-1]+gap>=4:walk(ds+[gap],n+gap)
+ for gap in allowed(s):walk([gap],s[-1]+gap)
+ return {(18,2),(19,2)}
 def assignment(ci,v,bank,geom,geom3,geom4=None,high=True):
  a,t=Q(v['a']),-Q(v['s']);s=bank[ci]['s'];z=s[-1];ell=strong_shift(s);g=bell(a,t);h=bell(a,t,ell);count=0
  third=set()
@@ -16,7 +27,8 @@ def assignment(ci,v,bank,geom,geom3,geom4=None,high=True):
  for n in range(12,65):
   for d in K:
    if (n,d) in third:third.update((n+e,e) for e in K if d+e>=4 and n+e<=64)
- assert all(g[n,d]<=C[d] for n,d in third if n<=64 and not (ci in [164,188] and (n,d) in [(18,2),(19,2)])),'fourth-plus caps'
+ exemptions=covered_caps(ci,s)
+ assert all(g[n,d]<=C[d] for n,d in third if n<=64 and (n,d) not in exemptions),'fourth-plus caps'
  theta=Q(v['common_tail_weight']);assert 0<=theta<=1
  prices=[]
  def add_price(points,rewards,d):
@@ -33,7 +45,7 @@ def assignment(ci,v,bank,geom,geom3,geom4=None,high=True):
    assert all(q*x+gg*y<=c for x,y,c in rs),'joint recession';add_price(vs,[q,gg],d)
    for f in K:
     if e+f<4:continue
-    extended=ci in [164,188] and (d,e,f) in [(3,1,3),(3,2,2),(3,2,3),(3,3,2)];g3=a-t*(n+e+f) if extended else g[n+e+f,f];vs3,rs3=geom3[d,e,f]
+    extended=(ci==164 and (d,e,f) in [(3,1,3),(3,2,2),(3,2,3),(3,3,2)]) or (ci==188 and (d,e,f)==(2,2,2));g3=a-t*(n+e+f) if extended else g[n+e+f,f];vs3,rs3=geom3[d,e,f]
     assert all(q*x+gg*y+g3*z<=c for x,y,z,c in rs3),'triple recession';add_price(vs3,[q,gg,g3],d)
     if extended:
      for h4 in K:
@@ -80,6 +92,9 @@ def global_check(d,ass,prev):
  upper=Q(prev['upper']);assert Q(d['upper'])==upper,'upper witness'
  assert Q(prev['lower'])<lo<=upper and Q(d['width'])==upper-lo,'bracket width'
  assert Q(d['width_reduction'])==(lo-Q(prev['lower']))/(upper-Q(prev['lower'])),'gap reduction'
+ contacts=[i for i,v in enumerate(ass) if Q(v['a'])+Q(5,2)*Q(v['s'])==lo]
+ gap,other=min((Q(v['a'])+Q(5,2)*Q(v['s'])-lo,i) for i,v in enumerate(ass) if i not in contacts)
+ eq=d['equality_support'];assert contacts==eq['cells']==[187] and gap==Q(eq['strict_other_gap'])>0 and other==eq['nearest_other_cell'],'strict alternative cells'
  return len(ass)
 def scalar_controls():
  count=0
@@ -115,15 +130,38 @@ if __name__=='__main__':
   p=[Q(a)+E*Q(b) for a,b in witness['population_affine']];s=witness['occupied_support'];value=Q(d['lower_line'][0])+E*Q(d['lower_line'][1])
   assert min(p)>=0 and sum(p)==1 and sum(Q(n)*x for n,x in zip(s,p))==E,'witness population'
   assert up.raw(s,p)==up.output(s,p)==value,'physical equality witness'
- paths=[]
- def walk(ds,total,last):
-  if total>10:return
-  if last==2 and total in [9,10]:paths.append(tuple(ds))
-  for gap in K:
-   if last+gap>=4:walk(ds+[gap],total+gap,gap)
- walk([3],3,3)
- assert set(paths)=={(3,1,3,2),(3,2,2,2),(3,2,3,2),(3,3,2,2)},'all removed-cap paths'
- print('BASELINE',count,glob,sc,geometry,'inherited187',inherited,'physical witnesses3 paths4',flush=True)
+ # Select each shell maximum at the midpoint, then prove that selection remains
+ # maximal at BOTH endpoints. All candidates are affine, so this covers the interval.
+ endpoints=[[Q(a)+E*Q(b) for a,b in witness['population_affine']] for E in [left,right]]
+ mid=[(a+b)/2 for a,b in zip(*endpoints)];s=witness['occupied_support'];bath=list(map(Q,['8/15','4/15','2/15','1/15']))
+ deficits=[list(p) for p in endpoints];chamber=0
+ for i,n in enumerate(s):
+  for j in range(4):
+   options=[(k,n+j-x) for k,x in enumerate(s) if n+j-x in range(4)]
+   k,h=max(options,key=lambda kh:mid[kh[0]]*bath[kh[1]])
+   for ep,p in enumerate(endpoints):
+    assert all(p[k]*bath[h]>=p[kk]*bath[hh] for kk,hh in options),'affine shell maximum chamber'
+    deficits[ep][i]-=p[k]*bath[h]
+   chamber+=1
+ for i in range(len(s)):
+  assert deficits[0][i]*deficits[1][i]>=0,'affine deficit chamber'
+ assert bank[187]['s']==d['equality_support']['support']==[1,3,5,7,9,11]
+ try:covered_caps(188,bank[188]['s'],omit_222=True)
+ except AssertionError as e:assert str(e)=='removed cap has unexpanded route';print('REJECT omitted222 actual coverage')
+ else:raise AssertionError('missed original cap defect')
+ path_count=0
+ for ci in [164,188]:
+  paths=[];z=bank[ci]['s'][-1]
+  def walk(ds,total,last):
+   if z+total>19:return
+   if len(ds)>=4 and last==2 and z+total in [18,19]:paths.append(tuple(ds))
+   for gap in K:
+    if last+gap>=4:walk(ds+[gap],total+gap,gap)
+  for gap in allowed(bank[ci]['s']):walk([gap],gap,gap)
+  expected={(3,1,3,2),(3,2,2,2),(3,2,3,2),(3,3,2,2)} if ci==164 else {(2,2,2,2)}
+  assert set(paths)==expected,'all cell-specific removed-cap paths'
+  path_count+=len(paths)
+ print('BASELINE',count,glob,sc,geometry,'inherited187',inherited,'physical witnesses3 affine shell chambers',chamber,'removed-cap paths',path_count,flush=True)
  faults=[]
  for key in ['lower','upper','width','width_reduction']:
   z=copy.deepcopy(d);z[key]=str(Q(z[key])+Q(1,100));faults.append((key,z))
@@ -136,4 +174,4 @@ if __name__=='__main__':
   try:assignment(164,v,bank,g2,g3,g4,high=False)
   except AssertionError:print('REJECT',key,'actual inequality')
   else:raise AssertionError('accepted mutation '+key)
- print('PASS',count,'low/high inequalities',glob,'affine assignments',sc,'finite scalar controls;6 faults rejected')
+ print('PASS',count,'low/high inequalities',glob,'affine assignments',sc,'finite scalar controls;7 faults rejected')

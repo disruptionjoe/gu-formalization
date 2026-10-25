@@ -7,22 +7,21 @@ updated_at: "2026-10-24"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
-## 2026-10-25: Confined energy and candidate exact thermal interval
+## 2026-10-25: Reviewed energy and repaired exact thermal interval
 
-K2073 proves a common H1 domain and uniform free-energy rms bound8m+4/rho for the same
-confined pointer. Negative-energy expectation is at most eta*(16m+8/rho); mean-energy
-change at most eta*(20m+8/rho). It composes with all-outcome Bell violation and explicit
-energy/radius tolerances. K2074 replaces separately maximized incoming costs by a
-shared-tail maximum, then covers every path to the new cap19,2 and refreshes all active
-assignments. Its candidate global lower equals the K2068 physical
-upper335946011010129/1206372108151072, with a matching affine energy interval;
-independent specialist review is pending before an optimum verdict. Source, physics
-ledger and canon remain unchanged.
+Independent internal specialist review accepted K2073 prepared-state free-energy and
+radius bounds. K2074 review found and repaired an omitted cell188 tail2222; cell-
+specific fourth-terminal response and exact affine shell chambers now verify the global
+fixed-bath finite/countable optimum335946011010129/1206372108151072 at E5/2 and its
+matching interval approximately[2.4800787763,2.5075721054]. On the open interval,
+equality requires genuine low cell187, offset0, saturated energy and at least13 physical
+levels;41 levels suffice. Uniqueness and minimum dimension remain open. No source,
+physics-ledger, canon or field-energy conclusion changes.
+
+Independent internal operator and thermal proof review; repaired cell188 coverage and an actual omitted222 regression. Fresh exact producer, raw-bath/geometry/global/affine-chamber checks, strict alternative-cell certificate and inherited187 replay. Mathematical scope only; inherited bank/packing/countable premises retained, no external specialist or proof-assistant certification.
 
 - [K2073](explorations/conditional-build/k2073-confined-pointer-energy-2026-10-25.md).
 - [K2074](explorations/conditional-build/k2074-subdivided-incoming-thermal-bound-2026-10-25.md).
-
-K2073 exact Gaussian/resource reproduction; separate42 resource and115 finite spectral checks with6 real faults. K2074 exact policy reproduction, four new assignments and84104 low/high inequalities,671 global affine comparisons,257 scalar controls,1690 new raw geometry controls, separate inherited cell187 and physical-witness/path checks,6 real faults. Written operator/polyhedral/countable proofs remain distinct from finite controls and pinned reuse. Same-author scientific evidence; independent specialist review pending.
 
 
 ## 2026-10-25: Confined control and stronger thermal placement

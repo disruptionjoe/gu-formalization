@@ -81,7 +81,7 @@ Write a=1-chi/3, b=chi/3. On Cc-infinity,
 
 The displayed C alone is not claimed Hermitian; it supplies the symmetric ordering
 of the whole differential expression. The perturbation Hchi-H0 is symmetric and
-has relative H0 bound at most2/3, with bounded remainder G/3. The Kato-Rellich theorem
+has admissible (not claimed sharp) relative H0 bound at most2/3, with bounded remainder G/3. The Kato-Rellich theorem
 therefore gives a self-adjoint operator on H1, with Cc-infinity a core. This is the
 same unique closure used by K2071, whose smooth bounded symmetric-hyperbolic
 coefficients also give the speed-one propagation estimate.
@@ -206,3 +206,17 @@ Primary reference for the inherited hyperbolic closure: Paul R. Chernoff,
 [Essential self-adjointness of powers of generators of hyperbolic equations](https://www.sciencedirect.com/science/article/pii/0022123673900037),
 Journal of Functional Analysis12(1973),401-414. The explicit relative-bound proof here
 also places this particular cutoff on the standard Kato-Rellich domain.
+
+## 6. Independent internal mathematical review
+
+A separate operator/PDE review agent examined the domain, derivative correction,
+Gaussian second moment, graph conservation, entangled/mixed extension and radius
+optimization. It found no substantive defect. Its adversarial negative-sector
+construction holds probability fixed while sending the occupied negative energy to
+infinity; this confirms why the uniform second moment is essential. The probe's
+Bernoulli comment is corrected to probability1/N^2 at energy N^2; its arithmetic
+was already correct. The relative constant2/3 is admissible, not claimed sharp.
+This is independent internal agent review, not external specialist or proof-assistant
+certification. The result concerns free-energy moments of the prepared particle state,
+not the energy cost of an apparatus or control field. Radius optimization concerns
+only the conservative sufficient bound. No scientific source verdict changes.

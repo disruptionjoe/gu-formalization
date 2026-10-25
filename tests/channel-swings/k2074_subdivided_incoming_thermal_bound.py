@@ -9,7 +9,7 @@ from k2015_finite_thermal_ray_separation import matrices,vertex,rate
 sp=importlib.util.spec_from_file_location('packing',ROOT/'tests/channel-swings/k2072_compulsory_ladder_thermal_bound.py');k=importlib.util.module_from_spec(sp);sp.loader.exec_module(k)
 o=k.o
 PREV='lab/process/k2072-compulsory-ladder-thermal-bound.json'
-EXTENDED={(3,1,3),(3,2,2),(3,2,3),(3,3,2)}
+EXTENDED={164:{(3,1,3),(3,2,2),(3,2,3),(3,3,2)},188:{(2,2,2)}}
 NEW_GEOMETRY={}
 RAW_FOUR=k.four_geometry
 def decode(d):
@@ -19,7 +19,7 @@ def setup():
  for data in [prev,joint]:
   for p,h in data['inputs'].items():assert hashlib.sha256((ROOT/p).read_bytes()).hexdigest()==h,'inherited pin'
  q4=decode(prev['quad_arrangements']);q3=decode(joint['triple_arrangements']);q2=decode(joint['arrangements'])
- NEW_GEOMETRY.update({(*prefix,h):RAW_FOUR((*prefix,h)) for prefix in sorted(EXTENDED) for h in o.b.K if prefix[-1]+h>=4 and (*prefix,h) not in q4});q4.update(NEW_GEOMETRY)
+ NEW_GEOMETRY.update({(*prefix,h):RAW_FOUR((*prefix,h)) for prefix in sorted(set.union(*EXTENDED.values())) for h in o.b.K if prefix[-1]+h>=4 and (*prefix,h) not in q4});q4.update(NEW_GEOMETRY)
  k.four_geometry=lambda gaps:q4[tuple(gaps)];o.triple_geometry=lambda gaps:q3[tuple(gaps)];o.arrangement=lambda d,e:q2[d,e];o.b.shift=k.shift
  return prev
 
@@ -32,11 +32,11 @@ def extended_more_constraints(ci,seed):
    if tag in [('fourthpluscap',18,2),('fourthpluscap',19,2)]:continue
    if tag[0] in ['triple','triple_ray']:
     gaps=tag[2:5] if tag[0]=='triple' else tag[2:5]
-    if tuple(gaps) in EXTENDED:continue
+    if tuple(gaps) in EXTENDED[ci]:continue
   cons.append(row)
  ss=o.bank[ci]['s'];pol=o.b.policy(*seed,64)
  def add(A,B,C,tag):cons.append((F(A),F(B),F(C),tag))
- for gaps in sorted(EXTENDED):
+ for gaps in sorted(EXTENDED[ci]):
   d,e,f=gaps;n=ss[-1]+d;n2=n+e;n3=n2+f
   vs,rs=o.triple_geometry(gaps)
   # The shorter three-terminal tail is retained with its actual final reward.
@@ -83,8 +83,11 @@ def produce():
   else:assert da>=0
  assert left<F(5,2)<right
  assert lower<=F(prev['upper']),'lower exceeds physical upper'
+ contacts=[i for i,v in enumerate(ass) if F(v['a'])+F(5,2)*F(v['s'])==lower]
+ gap,other=min((F(v['a'])+F(5,2)*F(v['s'])-lower,i) for i,v in enumerate(ass) if i not in contacts)
+ equality=dict(cells=contacts,support=o.bank[ci]['s'],strict_other_gap=str(gap),nearest_other_cell=other,physical_dimension_lower=13,physical_dimension_upper=41,scope='necessary conditions for attainment on open interval; not uniqueness or dimension optimum')
  refs=[PREV,'tests/channel-swings/k2072_compulsory_ladder_thermal_bound.py','tests/channel-swings/k2015_finite_thermal_ray_separation.py','lab/process/k2068-thermal-population-construction.json','tests/channel-swings/k2068_thermal_population_construction_probe.py']
- return dict(id='K2074',inputs={p:hashlib.sha256((ROOT/p).read_bytes()).hexdigest() for p in refs},method='common-tail-before-maximization-and-selective-cap19-response',quad_arrangements={','.join(map(str,g)):dict(vertices=[[str(x) for x in r] for r in vs],rays=[[str(x) for x in r] for r in rs]) for g,(vs,rs) in NEW_GEOMETRY.items()},weight=str(THETA),replacements=replacements,lower=str(lower),lower_line=[str(a),str(s)],upper=prev['upper'],width=str(F(prev['upper'])-lower),width_reduction=str((lower-F(prev['lower']))/(F(prev['upper'])-F(prev['lower']))),bottleneck=ci,interval=list(map(str,[left,right])),rejected_subdivision=dict(cut='1/4',value='0.2784000433091823',role='rejected candidate discovery; never accepted bound'),scope='shared-tail convex transfer and exact finite/countable bound; no optimum or source claim')
+ return dict(id='K2074',inputs={p:hashlib.sha256((ROOT/p).read_bytes()).hexdigest() for p in refs},method='common-tail-before-maximization-and-selective-cap19-response',quad_arrangements={','.join(map(str,g)):dict(vertices=[[str(x) for x in r] for r in vs],rays=[[str(x) for x in r] for r in rs]) for g,(vs,rs) in NEW_GEOMETRY.items()},weight=str(THETA),replacements=replacements,lower=str(lower),lower_line=[str(a),str(s)],upper=prev['upper'],width=str(F(prev['upper'])-lower),width_reduction=str((lower-F(prev['lower']))/(F(prev['upper'])-F(prev['lower']))),bottleneck=ci,equality_support=equality,interval=list(map(str,[left,right])),rejected_subdivision=dict(cut='1/4',value='0.2784000433091823',role='rejected candidate discovery; never accepted bound'),scope='internally verified exact optimum in declared finite/countable fixed-bath model; no source or novelty claim')
 if __name__=='__main__':
  p=argparse.ArgumentParser();p.add_argument('--write',action='store_true');args=p.parse_args();d=json.loads(json.dumps(produce()));dest=ROOT/'lab/process/k2074-subdivided-incoming-thermal-bound.json'
  if args.write:dest.write_text(json.dumps(d,indent=2)+'\n')

@@ -45,7 +45,7 @@ def spectral_controls():
    count+=1
  # Same probability, arbitrarily high energy: a forbidden probability-only bound fails.
  b=Q(20,101);p=b*b;assert Q(10000)*p>100*p
- # Mean energy does not bound the second moment: Bernoulli energy1/N at N^2.
+ # Mean energy does not bound the second moment: probability 1/N^2 at energy N^2.
  for N in [10,100,1000]:
   q=Q(1,N*N);mean=1-q+q*N*N;second=1-q+q*N**4
   assert mean<2 and second>100;count+=1
