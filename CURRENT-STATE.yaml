@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: fb2a58e00b6f8083ced129d130014ac24da07150
+revision_basis: d294f4424361faeb222377eb00c209f0aeeb43f0
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,16 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2048 proves an exact characteristic phase current for the arbitrary-phase complex
+    sextic, completely classifies polynomial couplings preserving it, and derives pointwise
+    scattering phase restrictions and a monotone density-gain law for zero-current incoming
+    profiles. The matched-polynomial gain extension retains its support and global-existence
+    hypotheses. K2049 proves three unrestricted finite/countable thermal energy segments
+    on17/5<=E<=675/181 for every1/2<delta<=1 using forced ground-pair packing and high
+    offsets at least1. At E7/2 the cost jumps by1/1540 while the sharp physical-level
+    minimum drops14 to7. Source, physics ledger and canon remain unchanged.
+
+    Historical predecessor (not live):
     K2046 proves global smooth two-sided continuation for all bounded smooth finite-charge
     phase-locked sextic data, including zeros, by a repulsive reciprocal-density reduction.
     Fixed-support small complex neighborhoods of every compact reference also have global
@@ -16442,6 +16452,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k2048-characteristic-phase-current-2026-10-25.md
+    - lab/process/k2048-characteristic-phase-current.json
+    - tests/channel-swings/k2048_characteristic_phase_current.py
+    - tests/channel-swings/k2048_characteristic_phase_current_probe.py
+    - explorations/conditional-build/k2049-wide-spacing-packing-2026-10-25.md
+    - lab/process/k2049-wide-spacing-packing.json
+    - tests/channel-swings/k2049_wide_spacing_packing.py
+    - tests/channel-swings/k2049_wide_spacing_packing_probe.py
     - explorations/conditional-build/k2046-large-data-characteristic-reduction-2026-10-25.md
     - lab/process/k2046-large-data-characteristic-reduction.json
     - tests/channel-swings/k2046_large_data_characteristic_reduction.py
@@ -17768,6 +17786,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can the fixed complex characteristic phase current control large-data amplitudes, and
+  can a sharper tail/packing argument settle the thermal region below17/5 above half
+  spacing?
+
+  Historical predecessor (not live):
   Can phase-defect control extend large-data complex sextic continuation beyond fixed-
   support neighborhoods, and what is the true thermal frontier beyond the half-spacing
   packing boundary?
@@ -21423,6 +21446,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Use the exact characteristic current and matched-polynomial amplitude equation to seek
+  an independent coercive estimate or a genuine obstruction for unrestricted complex data;
+  current conservation alone is not a global-existence theorem. In thermal work, the
+  entire rectangle1/2<delta<=1 and17/5<=E<=675/181 is settled, including the7/2 jump and
+  strict-branch7/9/11 resources. Below17/5 the present finite-bank relaxation uses a
+  nonattained zero-return tail endpoint; sharpen that transfer or construct a physical
+  competitor before claiming an optimum. Preserve source R0/R1 dual/parity/observation,
+  full20/K-C/accessibility, mirror/full-II, normal jets,2+1/chirality, near5/4 resource
+  necessity and exact capped continuum wings.
+
+  Historical predecessor (not live):
   Compare a genuine wide-spacing thermal packing program above1/2 with arbitrary-phase
   large-data control of the explicit phase-curvature defect. Compact phase-locked data and
   their sufficiently small fixed-support complex neighborhoods are now globally complete;

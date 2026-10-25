@@ -7,6 +7,11 @@ updated_at: "2026-10-24"
 
 # Next Steps For Contributors
 
+> **2026-10-25: PHASE CURRENT AND WIDE-SPACING TRANSITION.**
+> Use the exact characteristic current and matched-polynomial amplitude equation to seek an independent coercive estimate or a genuine obstruction for unrestricted complex data; current conservation alone is not a global-existence theorem. In thermal work, the entire rectangle1/2<delta<=1 and17/5<=E<=675/181 is settled, including the7/2 jump and strict-branch7/9/11 resources. Below17/5 the present finite-bank relaxation uses a nonattained zero-return tail endpoint; sharpen that transfer or construct a physical competitor before claiming an optimum. Preserve source R0/R1 dual/parity/observation, full20/K-C/accessibility, mirror/full-II, normal jets,2+1/chirality, near5/4 resource necessity and exact capped continuum wings.
+> Prior banners preserve history; source, ledger and canon remain unchanged.
+
+
 > **2026-10-25: LARGE DATA AND THE HALF-SPACING FRONTIER.**
 > Compare a genuine wide-spacing thermal packing program above1/2 with arbitrary-phase large-data control of the explicit phase-curvature defect. Compact phase-locked data and their sufficiently small fixed-support complex neighborhoods are now globally complete; repeating small-charge or fixed-phase proofs is unnecessary. Preserve source independent-dual/parity/observation, full20/K-C/accessibility, mirror/full-II, normal jets, 2+1/chirality, near5/4 resource necessity and exact capped continuum wings. The packing failure of old interlaced constructions is not a proof of the next optimum or a jump.
 > Prior banners preserve history; source, ledger and canon remain unchanged.

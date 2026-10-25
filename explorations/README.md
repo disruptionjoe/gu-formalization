@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2048-characteristic-phase-current](conditional-build/k2048-characteristic-phase-current-2026-10-25.md).
+- [k2049-wide-spacing-packing](conditional-build/k2049-wide-spacing-packing-2026-10-25.md).
+
 - [k2046-large-data-characteristic-reduction](conditional-build/k2046-large-data-characteristic-reduction-2026-10-25.md).
 - [k2047-fifth-thermal-spacing-phase](conditional-build/k2047-fifth-thermal-spacing-phase-2026-10-25.md).
 

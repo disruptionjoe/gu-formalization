@@ -7,6 +7,23 @@ updated_at: "2026-10-24"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-25: Phase current and wide-spacing transition
+
+K2048 proves an exact characteristic phase current for the arbitrary-phase complex
+sextic, completely classifies polynomial couplings preserving it, and derives pointwise
+scattering phase restrictions and a monotone density-gain law for zero-current incoming
+profiles. The matched-polynomial gain extension retains its support and global-existence
+hypotheses. K2049 proves three unrestricted finite/countable thermal energy segments
+on17/5<=E<=675/181 for every1/2<delta<=1 using forced ground-pair packing and high
+offsets at least1. At E7/2 the cost jumps by1/1540 while the sharp physical-level
+minimum drops14 to7. Source, physics ledger and canon remain unchanged.
+
+- [K2048](explorations/conditional-build/k2048-characteristic-phase-current-2026-10-25.md).
+- [K2049](explorations/conditional-build/k2049-wide-spacing-packing-2026-10-25.md).
+
+Symbolic complex identities and separate Gaussian-rational replay cover8 actual jets,8 general current defects,8 matched-polynomial amplitude jets and9 matched/unmatched coefficient pairs; five mathematical faults rejected. Thermal direct bath-label replay covers20975 vertex records,238 support lines,45 physical controls,34 completion removals and3 entire common-cell segments plus5 ground-pair controls; four faults rejected. Polynomial classification, conditional scattering/gain, physical packing, whole-domain/countable and strict resource claims use written proofs. The unchanged626412-basis bank and erasure proofs are hash-pinned reuse. Same-author internal checking, no external/proof-assistant/novelty certification.
+
+
 ## 2026-10-25: Large data and the half-spacing frontier
 
 K2046 proves global smooth two-sided continuation for all bounded smooth finite-charge

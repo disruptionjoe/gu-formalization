@@ -1,0 +1,34 @@
+{
+  "result_id": "K2048",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "coefficients": {
+    "general_defect": 1,
+    "amplitude_current": 4,
+    "amplitude_positive": 8,
+    "initial_interaction": -1,
+    "general_amplitude": 2
+  },
+  "current": "J=Im(conj(z)*z_u); J_v=0",
+  "system": [
+    "z_v=i*conj(z)*w**4",
+    "w_u=-i*z**2*conj(w)**3"
+  ],
+  "initial_data": "J(u)=Im(conj(z0)*z0prime)-Re(z0**2*conj(w0)**4)",
+  "amplitude_identity": "a*a_uv-a_u*a_v=4*J*Re(z**2*conj(w)**4)+8*a**3*b**3",
+  "polynomial_class": {
+    "system": "z_v=i*conj(z)*F(w), w_u=-i*z**2*G(conj(w))",
+    "defect": "J_v=|z|**4*Im(Fprime(w)*G(conj(w)))",
+    "classification": "If F is nonconstant, identity J_v=0 for every local solution iff G(conj(w))=lambda*conj(Fprime(w)), lambda real. Constant F permits any G.",
+    "scope": "polynomials with constant complex coefficients; not a norm-preserving classification",
+    "amplitude": "a*a_uv-a_u*a_v=4*J*Re(z**2*conj(F))+2*lambda*a**3*abs(Fprime)**2",
+    "conditional_gain": "For F(0)=Fprime(0)=0 and a globally smooth compact solution with J=0, d_u log(aout/ain)=2*lambda*integral a*abs(Fprime)**2 dv; sign follows lambda."
+  },
+  "scattering": "For every globally smooth compactly supported solution, Im(conj(Zout)*Zoutprime)=Im(conj(Zin)*Zinprime)=J pointwise at fixed right characteristic label.",
+  "scope": "Exact local complex PDE identities and necessary scattering constraints; no unrestricted global existence, complete integrability, source physical parity or quantum scattering conclusion.",
+  "inputs": {
+    "explorations/conditional-build/k2046-large-data-characteristic-reduction-2026-10-25.md": "937a75758875844acd9789d65c87ac57de5ac840a9dda7da248a97e1f6724f2e",
+    "explorations/conditional-build/k2044-arbitrary-phase-characteristic-control-2026-10-25.md": "94c8de234b98f878697894d87c4aa35047dc546fcc7250620f9120087d86540e"
+  }
+}

@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2048-characteristic-phase-current](k2048-characteristic-phase-current.json).
+- [k2049-wide-spacing-packing](k2049-wide-spacing-packing.json).
+
 - [k2046-large-data-characteristic-reduction](k2046-large-data-characteristic-reduction.json).
 - [k2047-fifth-thermal-spacing-phase](k2047-fifth-thermal-spacing-phase.json).
 

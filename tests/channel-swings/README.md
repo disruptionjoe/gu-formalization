@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2048_characteristic_phase_current](k2048_characteristic_phase_current.py).
+- [k2048_characteristic_phase_current_probe](k2048_characteristic_phase_current_probe.py).
+- [k2049_wide_spacing_packing](k2049_wide_spacing_packing.py).
+- [k2049_wide_spacing_packing_probe](k2049_wide_spacing_packing_probe.py).
+
 - [k2046_large_data_characteristic_reduction](k2046_large_data_characteristic_reduction.py).
 - [k2046_large_data_characteristic_reduction_probe](k2046_large_data_characteristic_reduction_probe.py).
 - [k2047_fifth_thermal_spacing_phase](k2047_fifth_thermal_spacing_phase.py).
