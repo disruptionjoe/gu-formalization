@@ -8,6 +8,33 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-24: Nonlinear classical action and thermal component counterexample
+
+K2038 proves that the maximal observed1408 graph has a nondegenerate compressed kinetic
+form, classifies all169984 positive-norm induced generators with same-H zero-southeast
+extensions, and counts123072 invisible full-coefficient directions. An explicit real-
+even quartic mass interaction has a full variational lift, identically zero auxiliary
+Hessian and a conserved positive local norm. Its homogeneous flow nevertheless has
+linear growth of infinitesimal perturbations. These changed-class classical models do
+not select source fermionic parity or physical positivity. K2039 constructs a22-level
+two-component thermal catalyst that beats the next odd-tail segment for spacing
+below628/1629 and the countable candidate at(415/172,12/43) below315/724. At spacing1/4
+its improvement is201/63725398. The all-order feasible tail recurrence remains useful,
+and two components recover K1952's known limiting chord with an explicit uniform
+O(spacing) error. After an attainment-based strict-gap proof, finite-cell stability and
+physical component spacing give a direct quantitative lower bound. Swapping the
+translated endpoint yields the sharp first-order law
+F_delta(E)=L(E)+C*min(E-EA,EB-E)*delta/(EB-EA)+O(delta^2), uniformly on the whole chord
+interval. A concrete remainder constant is certified; the exact finite-spacing optimizer
+and second-order coefficient remain open. Source, physics ledger and canon verdicts
+remain unchanged.
+
+- [K2038](explorations/conditional-build/k2038-observed-action-compression-2026-10-24.md).
+- [K2039](explorations/conditional-build/k2039-thermal-component-undercut-2026-10-24.md).
+
+Full exact raw compression/inverse/spatial identities, two coefficient lifts, spectral multiplicities, nonlinear variation and homogeneous tangent identities passed. A separately implemented raw-action checker verifies the quartic derivative in arbitrary ambient directions and zero auxiliary second variation, with six actual fault controls. Thermal producer and independent bath-label checker verify13 tail controls,15 separated mixtures,nine squeeze controls,3137 independently reconstructed bank vertices,20 swapped-placement/remainder controls and seven faults; the all-order and uniform claims have explicit algebraic proofs. An independent internal reviewer derived the source compression/classification and supplied the full variational lift. Inherited graph and thermal lower bounds are hash-pinned reuse; no external review, proof-assistant certification or novelty claim. A separate adversarial review checked the full deficit-chamber decomposition, original component offsets, countable tail moment charges and the sharp uniform rate; the quantitative proof no longer depends on attainment.
+
+
 ## 2026-10-24: Raw graph couplings and three thermal phases
 
 K2036 completely tests the fixed common-form raw coefficients on the maximal

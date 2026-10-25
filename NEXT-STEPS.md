@@ -7,6 +7,11 @@ updated_at: "2026-10-24"
 
 # Next Steps For Contributors
 
+> **2026-10-24: NONLINEAR CLASSICAL ACTION AND THERMAL COMPONENT COUNTEREXAMPLE.**
+> Compare a complete offset-coupled contact perturbation program for the exact finite-spacing thermal optimum or second-order coefficient against near5/4 resource necessity and exact capped-wing continuum marginals. The first-order spacing coefficient is now sharp; more odd-tail endpoints or a merely qualitative gap no longer advance that question. Source-side changed-class nonlinear classical existence is explicit, so require a field/parity and observed-constraint bridge before physical interpretation; a specified independent-dual interaction or global nonlinear domain supplies a substantive next mathematical question. Preserve full20/K-C/accessibility, mirror/fullII, normal jets,2+1 and observed chirality debts.
+> Prior banners preserve history; source, ledger and canon remain unchanged.
+
+
 > **2026-10-24: RAW GRAPH COUPLINGS AND THREE THERMAL PHASES.**
 > Compare the actual nonconvex thermal frontier above1575/653 against the exact lower chord and geometric-tail upper family; do not interpolate different return cells as an optimum. Source work requires an explicitly changed contraction/lower map or action-owned observed constraint: the complete fixed common-form maximal1408 class adds no mass, while the changed-coefficient same-H massive extension is a control, not source selection. Near5/4 accumulation, earlier21-phase edges and exact capped-wing continuum marginals remain alternatives. Preserve full20/K-C/accessibility, mirror/fullII, normal jets,2+1 and observed chirality debts.
 > Prior banners preserve history; source, ledger and canon remain unchanged.

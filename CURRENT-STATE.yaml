@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: bac1a923be8f97750af4fc06c0c7599c052c5a25
+revision_basis: f5529c694ec62531df5406847acf5257cabbb7ec
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,26 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2038 proves that the maximal observed1408 graph has a nondegenerate compressed kinetic
+    form, classifies all169984 positive-norm induced generators with same-H zero-southeast
+    extensions, and counts123072 invisible full-coefficient directions. An explicit real-
+    even quartic mass interaction has a full variational lift, identically zero auxiliary
+    Hessian and a conserved positive local norm. Its homogeneous flow nevertheless has
+    linear growth of infinitesimal perturbations. These changed-class classical models do
+    not select source fermionic parity or physical positivity. K2039 constructs a22-level
+    two-component thermal catalyst that beats the next odd-tail segment for spacing
+    below628/1629 and the countable candidate at(415/172,12/43) below315/724. At spacing1/4
+    its improvement is201/63725398. The all-order feasible tail recurrence remains useful,
+    and two components recover K1952's known limiting chord with an explicit uniform
+    O(spacing) error. After an attainment-based strict-gap proof, finite-cell stability and
+    physical component spacing give a direct quantitative lower bound. Swapping the
+    translated endpoint yields the sharp first-order law
+    F_delta(E)=L(E)+C*min(E-EA,EB-E)*delta/(EB-EA)+O(delta^2), uniformly on the whole chord
+    interval. A concrete remainder constant is certified; the exact finite-spacing optimizer
+    and second-order coefficient remain open. Source, physics ledger and canon verdicts
+    remain unchanged.
+
+    Historical predecessor (not live):
     K2036 completely tests the fixed common-form raw coefficients on the maximal
     observed1408 graph: real graph-preserving coefficients are zero; the complex Hermitian
     branch has14 invariant directions,13 preserving the fixed positive energy, image
@@ -16368,6 +16388,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k2038-observed-action-compression-2026-10-24.md
+    - lab/process/k2038-observed-action-compression.json
+    - tests/channel-swings/k2038_observed_action_compression.py
+    - tests/channel-swings/k2038_observed_action_compression_probe.py
+    - explorations/conditional-build/k2039-thermal-component-undercut-2026-10-24.md
+    - lab/process/k2039-thermal-component-undercut.json
+    - tests/channel-swings/k2039_thermal_component_undercut.py
+    - tests/channel-swings/k2039_thermal_component_undercut_probe.py
     - explorations/conditional-build/k2036-maximal-graph-raw-couplings-2026-10-24.md
     - lab/process/k2036-maximal-graph-raw-couplings.json
     - tests/channel-swings/k2036_maximal_graph_raw_couplings.py
@@ -17654,6 +17682,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which separated-component thermal construction is optimal at fixed positive spacing, and
+  what physical field/parity or domain input can consume the now explicit changed-class
+  nonlinear observed action?
+
+  Historical predecessor (not live):
   What is the actual thermal frontier beyond1575/653, and which source-admitted changed
   coefficient or physical constraint can supply a mass after the full maximal1408 raw-
   class exclusion?
@@ -21284,6 +21317,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Compare a complete offset-coupled contact perturbation program for the exact finite-
+  spacing thermal optimum or second-order coefficient against near5/4 resource necessity
+  and exact capped-wing continuum marginals. The first-order spacing coefficient is now
+  sharp; more odd-tail endpoints or a merely qualitative gap no longer advance that
+  question. Source-side changed-class nonlinear classical existence is explicit, so
+  require a field/parity and observed-constraint bridge before physical interpretation; a
+  specified independent-dual interaction or global nonlinear domain supplies a substantive
+  next mathematical question. Preserve full20/K-C/accessibility, mirror/fullII, normal
+  jets,2+1 and observed chirality debts.
+
+  Historical predecessor (not live):
   Compare the actual nonconvex thermal frontier above1575/653 against the exact lower
   chord and geometric-tail upper family; do not interpolate different return cells as an
   optimum. Source work requires an explicitly changed contraction/lower map or action-

@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2038-observed-action-compression](k2038-observed-action-compression.json).
+- [k2039-thermal-component-undercut](k2039-thermal-component-undercut.json).
+
 - [k2036-maximal-graph-raw-couplings](k2036-maximal-graph-raw-couplings.json).
 - [k2037-thermal-seven-level-boundary](k2037-thermal-seven-level-boundary.json).
 

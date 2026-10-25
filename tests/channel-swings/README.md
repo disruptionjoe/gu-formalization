@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2038_observed_action_compression](k2038_observed_action_compression.py).
+- [k2038_observed_action_compression_probe](k2038_observed_action_compression_probe.py).
+- [k2039_thermal_component_undercut](k2039_thermal_component_undercut.py).
+- [k2039_thermal_component_undercut_probe](k2039_thermal_component_undercut_probe.py).
+
 - [k2036_maximal_graph_raw_couplings](k2036_maximal_graph_raw_couplings.py).
 - [k2036_maximal_graph_raw_couplings_probe](k2036_maximal_graph_raw_couplings_probe.py).
 - [k2037_thermal_seven_level_boundary](k2037_thermal_seven_level_boundary.py).

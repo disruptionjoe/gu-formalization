@@ -1,0 +1,202 @@
+{
+  "result_id": "K2038",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "compression": {
+    "copy_matrix": [
+      [
+        "10",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4"
+      ],
+      [
+        "4",
+        "0",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      [
+        "4",
+        "1",
+        "0",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      [
+        "4",
+        "1",
+        "1",
+        "0",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      [
+        "4",
+        "1",
+        "1",
+        "1",
+        "0",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      [
+        "4",
+        "1",
+        "1",
+        "1",
+        "1",
+        "0",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      [
+        "4",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "0",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      [
+        "4",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "0",
+        "1",
+        "1",
+        "1"
+      ],
+      [
+        "4",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "0",
+        "1",
+        "1"
+      ],
+      [
+        "4",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "0",
+        "1"
+      ],
+      [
+        "4",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "0"
+      ]
+    ],
+    "spinor_factor": "-B*g0*Wbar",
+    "rank": 1408,
+    "copy_charpoly": "(x+1)^9*(x^2-19*x-70)",
+    "determinant": "70^128 * 2^704",
+    "spinor_frequency_multiplicities": [
+      32,
+      32
+    ]
+  },
+  "positive_action_coefficients": {
+    "condition": "N^T=-N and [T,N]=0",
+    "real_dimension": 169984,
+    "invisible_full_coefficient_dimension": 123072,
+    "total_full_coefficient_dimension": 293056,
+    "compact_lie_algebra": "u(288)^2 + u(32)^4",
+    "frequency_intervals": [
+      "{1}",
+      "{2}",
+      "(3,7/2)",
+      "(6,7)",
+      "(22,45/2)",
+      "(44,45)"
+    ],
+    "mass_gap_for_general_member": false
+  },
+  "extension": {
+    "mass_entries": 20352,
+    "general_example_entries": 26752,
+    "southeast_zero": true
+  },
+  "nonlinear": {
+    "field_parity": "real commuting classical fields",
+    "invariant": "s=u^T*T*N*u/2",
+    "potential": "mu*s+g*s^2/2",
+    "equation": "du+(mu+g*s)*N*u=0",
+    "full_potential": "V(R*psi)+(Q*psi)^T*H*D0*E*T^-1*gradV(R*psi)",
+    "local_current": "dt |u|^2 + sum dj(u^T*Cj*u)=0",
+    "global_nonlinear_existence": false,
+    "full_nonlinear_action_lift": true,
+    "auxiliary_hessian_zero": true,
+    "linearized_norm_conservation": false,
+    "homogeneous_global_flow": true,
+    "homogeneous_tangent_shear": "I-g*t*(N*u0)*(S*u0)^T"
+  },
+  "inputs": {
+    "tests/channel-swings/k2021_common_degree_dual_operator.py": "61c172cba4507e91b32c26c61a5a76ef644cabb6c3a94f31c8f3755f41913560",
+    "lab/process/k2034-observed-principal-forms.json": "31fc8b55c111e83fb6068886020bff760c059a6ff47bcde61c33122dcd509566",
+    "lab/process/k2036-maximal-graph-raw-couplings.json": "f22ab3ea36ceac296a706cabcfa0aaecfa7ee10b0765dc5ce0f54f1a83b35eac"
+  },
+  "scope": "Fixed observed1408 graph and Euclidean norm, changed unrestricted H-selfadjoint coefficient class. No raw-tie rescue, source physical selection, Grassmann reduction, global nonlinear domain or quantum positivity claim."
+}

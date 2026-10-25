@@ -1,0 +1,505 @@
+{
+  "result_id": "K2039",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "tail_family": [
+    {
+      "tail": 0,
+      "support": [
+        1,
+        3
+      ],
+      "population": [
+        "2/5",
+        "3/5"
+      ],
+      "energy": "11/5",
+      "value": "3/10",
+      "next_slope": "3/28",
+      "next_intercept": "15/28",
+      "mixture_threshold": null
+    },
+    {
+      "tail": 1,
+      "support": [
+        1,
+        3,
+        5
+      ],
+      "population": [
+        "3/8",
+        "9/16",
+        "1/16"
+      ],
+      "energy": "19/8",
+      "value": "9/32",
+      "next_slope": "9/148",
+      "next_intercept": "63/148",
+      "mixture_threshold": null
+    },
+    {
+      "tail": 2,
+      "support": [
+        1,
+        3,
+        5,
+        7
+      ],
+      "population": [
+        "54/145",
+        "81/145",
+        "9/145",
+        "1/145"
+      ],
+      "energy": "349/145",
+      "value": "81/290",
+      "next_slope": "81/1912",
+      "next_intercept": "729/1912",
+      "mixture_threshold": null
+    },
+    {
+      "tail": 3,
+      "support": [
+        1,
+        3,
+        5,
+        7,
+        9
+      ],
+      "population": [
+        "243/653",
+        "729/1306",
+        "81/1306",
+        "9/1306",
+        "1/1306"
+      ],
+      "energy": "1575/653",
+      "value": "729/2612",
+      "next_slope": "729/22432",
+      "next_intercept": "8019/22432",
+      "mixture_threshold": null
+    },
+    {
+      "tail": 4,
+      "support": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11
+      ],
+      "population": [
+        "4374/11755",
+        "6561/11755",
+        "729/11755",
+        "81/11755",
+        "9/11755",
+        "1/11755"
+      ],
+      "energy": "28361/11755",
+      "value": "6561/23510",
+      "next_slope": "6561/248908",
+      "next_intercept": "85293/248908",
+      "mixture_threshold": "628/1629"
+    },
+    {
+      "tail": 5,
+      "support": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13
+      ],
+      "population": [
+        "19683/52898",
+        "59049/105796",
+        "6561/105796",
+        "729/105796",
+        "81/105796",
+        "9/105796",
+        "1/105796"
+      ],
+      "energy": "127631/52898",
+      "value": "59049/211592",
+      "next_slope": "59049/2663356",
+      "next_intercept": "885735/2663356",
+      "mixture_threshold": "3463/8145"
+    },
+    {
+      "tail": 6,
+      "support": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15
+      ],
+      "population": [
+        "354294/952165",
+        "531441/952165",
+        "59049/952165",
+        "6561/952165",
+        "729/952165",
+        "81/952165",
+        "9/952165",
+        "1/952165"
+      ],
+      "energy": "2297373/952165",
+      "value": "531441/1904330",
+      "next_slope": "531441/27778864",
+      "next_intercept": "9034497/27778864",
+      "mixture_threshold": "21418/49413"
+    },
+    {
+      "tail": 7,
+      "support": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17
+      ],
+      "population": [
+        "1594323/4284743",
+        "4782969/8569486",
+        "531441/8569486",
+        "59049/8569486",
+        "6561/8569486",
+        "729/8569486",
+        "81/8569486",
+        "9/8569486",
+        "1/8569486"
+      ],
+      "energy": "10338187/4284743",
+      "value": "4782969/17138972",
+      "next_slope": "4782969/284287720",
+      "next_intercept": "90876411/284287720",
+      "mixture_threshold": "145213/333945"
+    },
+    {
+      "tail": 8,
+      "support": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19
+      ],
+      "population": [
+        "28697814/77125375",
+        "43046721/77125375",
+        "4782969/77125375",
+        "531441/77125375",
+        "59049/77125375",
+        "6561/77125375",
+        "729/77125375",
+        "81/77125375",
+        "9/77125375",
+        "1/77125375"
+      ],
+      "energy": "37217477/15425075",
+      "value": "43046721/154250750",
+      "next_slope": "43046721/2867090980",
+      "next_intercept": "903981141/2867090980",
+      "mixture_threshold": "5230880/12023649"
+    },
+    {
+      "tail": 9,
+      "support": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21
+      ],
+      "population": [
+        "129140163/347064188",
+        "387420489/694128376",
+        "43046721/694128376",
+        "4782969/694128376",
+        "531441/694128376",
+        "59049/694128376",
+        "6561/694128376",
+        "729/694128376",
+        "81/694128376",
+        "9/694128376",
+        "1/694128376"
+      ],
+      "energy": "837393243/347064188",
+      "value": "387420489/1388256752",
+      "next_slope": "387420489/28580332324",
+      "next_intercept": "8910671247/28580332324",
+      "mixture_threshold": "7846963/18035745"
+    },
+    {
+      "tail": 10,
+      "support": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23
+      ],
+      "population": [
+        "2324522934/6247155385",
+        "3486784401/6247155385",
+        "387420489/6247155385",
+        "43046721/6247155385",
+        "4782969/6247155385",
+        "531441/6247155385",
+        "59049/6247155385",
+        "6561/6247155385",
+        "729/6247155385",
+        "81/6247155385",
+        "9/6247155385",
+        "1/6247155385"
+      ],
+      "energy": "15073078397/6247155385",
+      "value": "3486784401/12494310770",
+      "next_slope": "3486784401/282211612456",
+      "next_intercept": "87169610025/282211612456",
+      "mixture_threshold": "423740506/973931859"
+    },
+    {
+      "tail": 11,
+      "support": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25
+      ],
+      "population": [
+        "10460353203/28112199233",
+        "31381059609/56224398466",
+        "3486784401/56224398466",
+        "387420489/56224398466",
+        "43046721/56224398466",
+        "4782969/56224398466",
+        "531441/56224398466",
+        "59049/56224398466",
+        "6561/56224398466",
+        "729/56224398466",
+        "81/56224398466",
+        "9/56224398466",
+        "1/56224398466"
+      ],
+      "energy": "67828852799/28112199233",
+      "value": "31381059609/112448796932",
+      "next_slope": "31381059609/2764802105968",
+      "next_intercept": "847288609443/2764802105968",
+      "mixture_threshold": "28041689/64451385"
+    },
+    {
+      "tail": 12,
+      "support": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        27
+      ],
+      "population": [
+        "188286357654/506019586195",
+        "282429536481/506019586195",
+        "31381059609/506019586195",
+        "3486784401/506019586195",
+        "387420489/506019586195",
+        "43046721/506019586195",
+        "4782969/506019586195",
+        "531441/506019586195",
+        "59049/506019586195",
+        "6561/506019586195",
+        "729/506019586195",
+        "81/506019586195",
+        "9/506019586195",
+        "1/506019586195"
+      ],
+      "energy": "1220919350409/506019586195",
+      "value": "282429536481/1012039172390",
+      "next_slope": "282429536481/26907297298492",
+      "next_intercept": "8190456557949/26907297298492",
+      "mixture_threshold": "200719492/461336239"
+    }
+  ],
+  "endpoint_A": {
+    "energy": "1575/653",
+    "value": "729/2612",
+    "population": [
+      "243/653",
+      "729/1306",
+      "81/1306",
+      "9/1306",
+      "1/1306"
+    ]
+  },
+  "endpoint_B": {
+    "energy": "675/181",
+    "value": "81/362",
+    "population": [
+      "36/181",
+      "54/181",
+      "81/181",
+      "9/181",
+      "1/181"
+    ]
+  },
+  "polyhedral_stability": {
+    "bank_orientation_cells": 183,
+    "bank_vertex_records": 3137,
+    "positive_vertex_gap": "9/5017000",
+    "contact_count": 2,
+    "max_contacts_per_orientation": 1,
+    "KA": "2398126000/653",
+    "KB": "376275000/181",
+    "K": "2398126000/653",
+    "energy_width": "155700/118193",
+    "lower_bound": "C*delta*min(E-EA,EB-E)/(Delta+C*delta*K)",
+    "asymptotic": "F_delta(E)=L(E)+C*min(E-EA,EB-E)*delta/Delta+O(delta^2), uniformly on [EA,EB]",
+    "uniform_remainder_constant": "1177936903071/478864000",
+    "rate_scope": "0<delta<=1/2; coefficient sharp, finite-spacing optimum and second-order coefficient unproved"
+  },
+  "strict_spacing_gap": {
+    "spacing": "0<delta<=1",
+    "energy": "1575/653<E<675/181",
+    "tail_charge": "549/13840",
+    "conclusion": "F_delta(E)>L(E); positive minimum gap on every closed rectangle delta_min<=delta<=1, a<=E<=b strictly inside the energy interval",
+    "proof": "K2010 unrestricted attainment and lower semicontinuity + K2037 strict tail/offset charge + K1952 finite equality/nonattainment",
+    "rate": "explicit linear lower bound and sharp uniform first-order law from polyhedral stability"
+  },
+  "zero_spacing_limit": {
+    "intercept": "1053/2768",
+    "slope": "2907/69200",
+    "interval": [
+      "1575/653",
+      "675/181"
+    ],
+    "error_bound": "LC*delta*(E-E0)/(EB+delta-E0) <= LC*delta",
+    "status": "K1952 chord recovered with two components and an explicit uniform spacing-error bound"
+  },
+  "next_connected_line": {
+    "intercept": "8019/22432",
+    "slope": "729/22432",
+    "interval": [
+      "1575/653",
+      "28361/11755"
+    ],
+    "status": "feasible, unrestricted optimality refuted at sufficiently small spacing"
+  },
+  "separated_thresholds": {
+    "first_segment": "628/1629",
+    "countable_limit": "315/724",
+    "meaning": "sharp only for this fixed A/B shifted-mixture comparison"
+  },
+  "witness": {
+    "delta": "1/4",
+    "mixing_weight": "17195/31862699",
+    "energy": "415/172",
+    "support": [
+      "1",
+      "3",
+      "5",
+      "7",
+      "9",
+      "5/4",
+      "13/4",
+      "21/4",
+      "29/4",
+      "37/4"
+    ],
+    "population": [
+      "11850624/31862699",
+      "17775936/31862699",
+      "1975104/31862699",
+      "219456/31862699",
+      "24384/31862699",
+      "3420/31862699",
+      "5130/31862699",
+      "7695/31862699",
+      "855/31862699",
+      "95/31862699"
+    ],
+    "spectrum": [
+      "0",
+      "1/4",
+      "1",
+      "5/4",
+      "2",
+      "9/4",
+      "3",
+      "13/4",
+      "4",
+      "17/4",
+      "5",
+      "21/4",
+      "6",
+      "25/4",
+      "7",
+      "29/4",
+      "8",
+      "33/4",
+      "9",
+      "37/4",
+      "10",
+      "41/4"
+    ],
+    "physical_dimension": 22,
+    "return_value": "17783631/63725398",
+    "odd_tail_limit": "12/43",
+    "strict_improvement": "201/63725398"
+  },
+  "inputs": {
+    "lab/process/k2010-countable-thermal-attainment.json": "b52e67177bb9a0369eaf852cc394feb81638c75404a461ada7cb59497f333527",
+    "lab/process/k1952-catalyst-path-energy-extension.json": "96ea4a26a91ff82178aa632b33c6ed1ffa0bc1b8132b891061373e4d39afa2ac",
+    "lab/process/k2037-thermal-seven-level-boundary.json": "58783f70b8791513f62d6a5cc789cd5cd25e152adae9d9a03e5c233a7f1686f9",
+    "lab/process/k2020-posttransition-tail-and-resources.json": "e7efa62f90b70a79e794991170a8ef8540360851f4a5f61ae9ece26301178746"
+  },
+  "scope": "Sharp uniform first-order spacing law, exact lower bound, and finite counterexample to all-spacing odd-tail optimality. No unrestricted optimum, sharp minimum dimension, GU mechanism or novelty claim."
+}

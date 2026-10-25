@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2038-observed-action-compression](conditional-build/k2038-observed-action-compression-2026-10-24.md).
+- [k2039-thermal-component-undercut](conditional-build/k2039-thermal-component-undercut-2026-10-24.md).
+
 - [k2036-maximal-graph-raw-couplings](conditional-build/k2036-maximal-graph-raw-couplings-2026-10-24.md).
 - [k2037-thermal-seven-level-boundary](conditional-build/k2037-thermal-seven-level-boundary-2026-10-24.md).
 
