@@ -176,7 +176,10 @@ This result does not determine the entire lower-energy region between A and
 line from T to(12,0); this tail endpoint is not an attained physical channel.
 It is preserved as a failed tightness route, not labeled the true optimum.
 Further progress there needs a sharper tail argument or actual low-component
-packing optimization. Spacing above1 also lies outside the present realization.
+packing optimization. Spacing above1 lies outside this realization but is already settled by K1981
+and K2010; see the [K2051 custody correction and composition](k2051-composed-spacing-transitions-2026-10-25.md).
+The local scope limit here should not be read as reopening that settled
+regime.
 The three energy segments and full open-closed spacing range are exactly the
 claimed scope; the proof of at most one offset below1 is not a claim that all
 other components can be discarded without the supporting certificate.

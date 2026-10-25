@@ -8,6 +8,26 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-25: Conservation classification and composed spacing
+
+K2050 classifies every autonomous real C2 field-only conservation law in the matched
+complex polynomial family: nonconstant laws exist exactly for shifted pure powers, with
+positive density exactly at positive coupling. The actual sextic has only mass in this
+class. A derivative current and fixed-invariant concentration family expose its
+noncoercivity. Released results prove large-data two-sided phase-plane continuation for
+every positive even power, including zeros and fixed-support complex neighborhoods, and
+explicit blowup for a changed negative-sign control. K2051 reuses K1981/K2010 and
+K2047/K2049 to compose the full spacing response at energy7/2 for delta>=1/2:
+errors21/88,67/280,1/2 with sharp dimensions14,7,3, then infeasibility above2. A scope
+limit in K2049 is linked to the already settled above-one regime. Source, physics ledger
+and canon remain unchanged.
+
+- [K2050](explorations/conditional-build/k2050-local-conservation-classification-2026-10-25.md).
+- [K2051](explorations/conditional-build/k2051-composed-spacing-transitions-2026-10-25.md).
+
+Symbolic producer checks seven density censuses, a derivative identity and power balances; separate rational coefficient census checks eight cases, Gaussian-rational replay8 jets/48 weighted balances,24 blowup controls,3 concentration scalings and10 higher-power barriers; seven coefficient faults rejected. Universal C2 and all-even-power results use written proofs, not finite fixtures. Thermal bath-label replay checks5 realizations,2 exact jumps,3 affine formulas and10 completion removals; four faults rejected. Optimality/resources/countable transfer reuse K1981/K2010/K2047/K2049, not new enumeration. Same-author internal checks only; no external or novelty certification.
+
+
 ## 2026-10-25: Phase current and wide-spacing transition
 
 K2048 proves an exact characteristic phase current for the arbitrary-phase complex

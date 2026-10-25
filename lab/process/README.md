@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2050-local-conservation-classification](k2050-local-conservation-classification.json).
+- [k2051-composed-spacing-transitions](k2051-composed-spacing-transitions.json).
+
 - [k2048-characteristic-phase-current](k2048-characteristic-phase-current.json).
 - [k2049-wide-spacing-packing](k2049-wide-spacing-packing.json).
 

@@ -7,6 +7,11 @@ updated_at: "2026-10-24"
 
 # Next Steps For Contributors
 
+> **2026-10-25: CONSERVATION CLASSIFICATION AND COMPOSED SPACING.**
+> Do not search for another C2 autonomous field-only density of the actual sextic: K2050 proves that class contains only mass. General complex large-data continuation needs derivative/nonlocal control or a same-system obstruction; negative-coupling blowup does not decide it. The all-even-power fixed-phase theorem and fixed-support complex neighborhoods are complete in their scope. Thermal spacing above1 is already settled by K1981/K2010, now composed in K2051; below17/5 at1/2<delta<=1 the unattained cutoff tail remains the actual open frontier. Compare that tail construction with the source R0/R1 common dual/parity/observation first-map alternative. Preserve full20/K-C/accessibility, mirror/full-II, normal jets,2+1/chirality, near5/4 resource necessity and exact capped continuum wings.
+> Prior banners preserve history; source, ledger and canon remain unchanged.
+
+
 > **2026-10-25: PHASE CURRENT AND WIDE-SPACING TRANSITION.**
 > Use the exact characteristic current and matched-polynomial amplitude equation to seek an independent coercive estimate or a genuine obstruction for unrestricted complex data; current conservation alone is not a global-existence theorem. In thermal work, the entire rectangle1/2<delta<=1 and17/5<=E<=675/181 is settled, including the7/2 jump and strict-branch7/9/11 resources. Below17/5 the present finite-bank relaxation uses a nonattained zero-return tail endpoint; sharpen that transfer or construct a physical competitor before claiming an optimum. Preserve source R0/R1 dual/parity/observation, full20/K-C/accessibility, mirror/full-II, normal jets,2+1/chirality, near5/4 resource necessity and exact capped continuum wings.
 > Prior banners preserve history; source, ledger and canon remain unchanged.

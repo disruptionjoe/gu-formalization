@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2050-local-conservation-classification](conditional-build/k2050-local-conservation-classification-2026-10-25.md).
+- [k2051-composed-spacing-transitions](conditional-build/k2051-composed-spacing-transitions-2026-10-25.md).
+
 - [k2048-characteristic-phase-current](conditional-build/k2048-characteristic-phase-current-2026-10-25.md).
 - [k2049-wide-spacing-packing](conditional-build/k2049-wide-spacing-packing-2026-10-25.md).
 

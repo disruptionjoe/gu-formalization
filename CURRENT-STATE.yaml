@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d294f4424361faeb222377eb00c209f0aeeb43f0
+revision_basis: f0a9d482c4d88240dcef77c129c6b2665971ddac
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,19 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2050 classifies every autonomous real C2 field-only conservation law in the matched
+    complex polynomial family: nonconstant laws exist exactly for shifted pure powers, with
+    positive density exactly at positive coupling. The actual sextic has only mass in this
+    class. A derivative current and fixed-invariant concentration family expose its
+    noncoercivity. Released results prove large-data two-sided phase-plane continuation for
+    every positive even power, including zeros and fixed-support complex neighborhoods, and
+    explicit blowup for a changed negative-sign control. K2051 reuses K1981/K2010 and
+    K2047/K2049 to compose the full spacing response at energy7/2 for delta>=1/2:
+    errors21/88,67/280,1/2 with sharp dimensions14,7,3, then infeasibility above2. A scope
+    limit in K2049 is linked to the already settled above-one regime. Source, physics ledger
+    and canon remain unchanged.
+
+    Historical predecessor (not live):
     K2048 proves an exact characteristic phase current for the arbitrary-phase complex
     sextic, completely classifies polynomial couplings preserving it, and derives pointwise
     scattering phase restrictions and a monotone density-gain law for zero-current incoming
@@ -16452,6 +16465,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k2050-local-conservation-classification-2026-10-25.md
+    - lab/process/k2050-local-conservation-classification.json
+    - tests/channel-swings/k2050_local_conservation_classification.py
+    - tests/channel-swings/k2050_local_conservation_classification_probe.py
+    - explorations/conditional-build/k2051-composed-spacing-transitions-2026-10-25.md
+    - lab/process/k2051-composed-spacing-transitions.json
+    - tests/channel-swings/k2051_composed_spacing_transitions.py
+    - tests/channel-swings/k2051_composed_spacing_transitions_probe.py
     - explorations/conditional-build/k2048-characteristic-phase-current-2026-10-25.md
     - lab/process/k2048-characteristic-phase-current.json
     - tests/channel-swings/k2048_characteristic_phase_current.py
@@ -17786,6 +17807,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can a derivative or nonlocal estimate control arbitrary-phase positive-coupling sextic
+  data, and can a genuine tail bound settle the lower-energy thermal region below17/5
+  above half spacing?
+
+  Historical predecessor (not live):
   Can the fixed complex characteristic phase current control large-data amplitudes, and
   can a sharper tail/packing argument settle the thermal region below17/5 above half
   spacing?
@@ -21446,6 +21472,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Do not search for another C2 autonomous field-only density of the actual sextic: K2050
+  proves that class contains only mass. General complex large-data continuation needs
+  derivative/nonlocal control or a same-system obstruction; negative-coupling blowup does
+  not decide it. The all-even-power fixed-phase theorem and fixed-support complex
+  neighborhoods are complete in their scope. Thermal spacing above1 is already settled by
+  K1981/K2010, now composed in K2051; below17/5 at1/2<delta<=1 the unattained cutoff tail
+  remains the actual open frontier. Compare that tail construction with the source R0/R1
+  common dual/parity/observation first-map alternative. Preserve full20/K-C/accessibility,
+  mirror/full-II, normal jets,2+1/chirality, near5/4 resource necessity and exact capped
+  continuum wings.
+
+  Historical predecessor (not live):
   Use the exact characteristic current and matched-polynomial amplitude equation to seek
   an independent coercive estimate or a genuine obstruction for unrestricted complex data;
   current conservation alone is not a global-existence theorem. In thermal work, the

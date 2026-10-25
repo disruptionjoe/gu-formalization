@@ -1,0 +1,75 @@
+{
+  "result_id": "K2051",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "energy": "7/2",
+  "regimes": [
+    {
+      "spacing": "delta=1/2",
+      "value": "21/88",
+      "minimum_physical_levels": 14
+    },
+    {
+      "spacing": "1/2<delta<=1",
+      "value": "67/280",
+      "minimum_physical_levels": 7
+    },
+    {
+      "spacing": "1<delta<=2",
+      "value": "1/2",
+      "minimum_physical_levels": 3
+    },
+    {
+      "spacing": "delta>2",
+      "value": null,
+      "minimum_physical_levels": null
+    }
+  ],
+  "jumps": {
+    "half": "1/1540",
+    "one": "73/280"
+  },
+  "high_energy_jump_at_one": [
+    {
+      "name": "XR",
+      "interval": [
+        "17/5",
+        "67/19"
+      ],
+      "jump_at_one": [
+        "-9/140",
+        "13/140"
+      ]
+    },
+    {
+      "name": "RQ",
+      "interval": [
+        "67/19",
+        "37/10"
+      ],
+      "jump_at_one": [
+        "1/44",
+        "3/44"
+      ]
+    },
+    {
+      "name": "QB",
+      "interval": [
+        "37/10",
+        "675/181"
+      ],
+      "jump_at_one": [
+        "25/212",
+        "9/212"
+      ]
+    }
+  ],
+  "provenance": "Regime theorems reused from K2047,K2049,K1981,K2010; new composition/custody correction, not newly proved wide-spacing optimum.",
+  "inputs": {
+    "explorations/conditional-build/k1981-wide-spacing-thermal-frontier-2026-10-23.md": "a13efd3d70b457bbe4498e4b6f7cc3e023a63a589e4fb01e55f90a9bb634452b",
+    "explorations/conditional-build/k2010-countable-thermal-attainment-2026-10-24.md": "183165378f00ccc0123c112105d7c8ab0488474646c25ae05124694357b49436",
+    "explorations/conditional-build/k2047-fifth-thermal-spacing-phase-2026-10-25.md": "0c2c53bad2185749401558f0e616c9f32160382bfd75e7933b6ebd42ae293d99",
+    "lab/process/k2049-wide-spacing-packing.json": "87c84e41d00ba3387fbd1a22e22c48e15ed5ff0503aee594cf0c4d6145ba2ed2"
+  }
+}

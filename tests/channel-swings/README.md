@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2050_local_conservation_classification](k2050_local_conservation_classification.py).
+- [k2050_local_conservation_classification_probe](k2050_local_conservation_classification_probe.py).
+- [k2051_composed_spacing_transitions](k2051_composed_spacing_transitions.py).
+- [k2051_composed_spacing_transitions_probe](k2051_composed_spacing_transitions_probe.py).
+
 - [k2048_characteristic_phase_current](k2048_characteristic_phase_current.py).
 - [k2048_characteristic_phase_current_probe](k2048_characteristic_phase_current_probe.py).
 - [k2049_wide_spacing_packing](k2049_wide_spacing_packing.py).

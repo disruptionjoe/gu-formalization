@@ -1,0 +1,78 @@
+{
+  "result_id": "K2050",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "census": [
+    {
+      "degree": 2,
+      "F": "w**4",
+      "lambda_value": "1/4",
+      "unknowns": 12,
+      "nullity": 3
+    },
+    {
+      "degree": 4,
+      "F": "w**4",
+      "lambda_value": "1/4",
+      "unknowns": 30,
+      "nullity": 3
+    },
+    {
+      "degree": 6,
+      "F": "w**4",
+      "lambda_value": "1/4",
+      "unknowns": 56,
+      "nullity": 3
+    },
+    {
+      "degree": 4,
+      "F": "(w-2)**3",
+      "lambda_value": "2/3",
+      "unknowns": 30,
+      "nullity": 3
+    },
+    {
+      "degree": 4,
+      "F": "w**4+w**2",
+      "lambda_value": "1/4",
+      "unknowns": 30,
+      "nullity": 2
+    },
+    {
+      "degree": 4,
+      "F": "w**2+1",
+      "lambda_value": "1/2",
+      "unknowns": 30,
+      "nullity": 2
+    },
+    {
+      "degree": 4,
+      "F": "w",
+      "lambda_value": "-2",
+      "unknowns": 30,
+      "nullity": 3
+    }
+  ],
+  "coefficients": {
+    "weighted_density_numerator": 1,
+    "derivative_current_potential": "1/2",
+    "blowup_rate": 2,
+    "blowup_denominator_factor": 2,
+    "concentration_width_power": 2,
+    "reciprocal_factor": 2,
+    "repulsion_factor": 2
+  },
+  "theorem": "For nonconstant complex polynomial F and real nonzero lambda, an autonomous real C2 field-only conservation law is nonconstant iff F=A*(w-w0)**n. Modulo constants its density is |z|**2+|w-w0|**2/(lambda*n), and flux is the difference. Positive definite iff lambda>0.",
+  "positive_even_power_theorem": "F=w**(2*m),lambda>0: all bounded smooth finite weighted-charge phase-plane data with bounded derivatives are globally complete both ways, including zeros; fixed-support complex neighborhoods also scatter.",
+  "actual_sextic": "F=w**4,lambda=1/4: only mass and its flux modulo constants.",
+  "derivative_law": "K_u+(Re(z**2*conj(w)**4))_v/2=0, K=Im(conj(w)*w_v)",
+  "bad_sign_control": "F=w**n,lambda=-1/n: z=exp(i*pi/4)*r,w=r,r=(r0**(-n)-2*n*t)**(-1/n). Changed system, not a blowup of the actual positive coupling.",
+  "concentration": "z=exp(i*pi/4)*A*phi(A**2*x),w=A*phi(A**2*x): fixed mass, J=0 and derivative integral zero, supremum grows as A. No mass/current-only amplitude bound.",
+  "polynomial_C2_control_mass": "4096/3003",
+  "inputs": {
+    "explorations/conditional-build/k2048-characteristic-phase-current-2026-10-25.md": "6726154f79b6cef046e0c0681335bb7fcf944fc166667ef0251945388769b531",
+    "explorations/conditional-build/k2046-large-data-characteristic-reduction-2026-10-25.md": "937a75758875844acd9789d65c87ac57de5ac840a9dda7da248a97e1f6724f2e"
+  },
+  "scope": "Written proof covers all C2 field-only laws and all nonconstant polynomials; finite exact censuses are controls, not the universal proof. Original arbitrary-phase large-data existence open."
+}
