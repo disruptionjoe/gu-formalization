@@ -8,6 +8,28 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-25: Causal budget and joint thermal bounds
+
+K2069 constructs the same massive positive-sector prepared-qubit pointer inside the
+original speed-one upper cone with a=2/3, b=1/3 and T=30/m. It preserves a positive gap
+m/sqrt(3) while openly changing kinetic calibration. Exact trace calibration plus the
+cone bound forces the free principal symbol; with bounded local exact-sector controls
+this is readout-blind. Sharp displacement/gap tradeoff, smooth switching and momentum-
+conditioned approximate-calibration bounds follow. K2070 carries exact two- and three-
+terminal thermal responses plus an incoming-aware convex majorant into eight improved
+assignments. The global lower
+is199433405349365662917307150317/716395853109380299634702964040 =0.27838436596717137;
+unchanged K2068 upper335946011010129/1206372108151072. The width
+is0.00009190908946235181, reduced66.351676 percent. The global low cell164 is now
+limited by high cell174 vertex46 with offset8. These conditional results do not change
+source, physics ledger or canon.
+
+- [K2069](explorations/conditional-build/k2069-causal-budget-pointer-2026-10-25.md).
+- [K2070](explorations/conditional-build/k2070-joint-terminal-thermal-bound-2026-10-25.md).
+
+K2069:36 finite exact Clifford/characteristic/resource controls;21 separately implemented rational resource controls and5 mathematical faults. K2070:6 pair arrangements and14 triple arrangements, with854 triple vertices and378 triple rays;2996 raw/geometry controls and168276 new low/high inequalities plus all671 exact affine interval comparisons, with6 mathematical faults. Written analytic/polyhedral/countable proofs are separate from finite checks and hash-pinned prior bank/upper reuse. Same-author checking only; no independent specialist, proof-assistant, novelty or external certification.
+
+
 ## 2026-10-25: Controlled pointers and finite thermal tails
 
 K2067 shows that bounded local controls preserving the fixed massive positive-energy

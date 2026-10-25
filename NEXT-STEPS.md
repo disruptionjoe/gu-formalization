@@ -7,6 +7,11 @@ updated_at: "2026-10-24"
 
 # Next Steps For Contributors
 
+> **2026-10-25: CAUSAL BUDGET AND JOINT THERMAL BOUNDS.**
+> K2069 settles homogeneous causal-budget repair and exact kinetic-trace-calibration rigidity; do not requeue time rescaling or infer spacelike laboratories from tensor no-signalling and a full-carrier cone. Next apparatus work needs confined controls and an explicit sector-leakage or detector-field acceptance criterion on the same preparations. K2070 improves the thermal bracket through two/three-terminal joint response and an incoming convex majorant; low164 is constrained by shifted high174 vertex46. Compare a genuinely coupled low/high-component bound or new feasible population, not another independent terminal cap or the solved N20 family. Nonlattice complex phase coercivity and exact continuum wings remain alternatives. Preserve full20/K-C/accessibility, mirror/fullII, normaljets,2+1/chirality and near5/4 resource debts.
+> Prior banners preserve history; source, ledger and canon remain unchanged.
+
+
 > **2026-10-25: CONTROLLED POINTERS AND FINITE THERMAL TAILS.**
 > K2067 settles bounded local exact-sector control blindness and supplies a positive-energy derivative-pointer alternative with explicit enlarged-cone cost. Do not mistake prepared-state accuracy for a uniform observable identity or tensor no-signalling for spacelike locality. A useful next apparatus must address the fixed causal cone and real/dual/state criteria. K2068 proves N20 is uniquely best in its two-deficit odd-ladder tail family; the tiny finite upper improvement does not materially close the global gap. Do not repeat that tail search or accept floating near-zero deficits. Compare a joint two-terminal lower response, a genuinely different feasible population, nonlattice complex phase control and exact continuum wings. Preserve full20/K-C/accessibility, mirror/fullII, normaljets,2+1/chirality and near5/4 debts.
 > Prior banners preserve history; source, ledger and canon remain unchanged.

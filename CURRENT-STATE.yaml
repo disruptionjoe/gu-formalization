@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: fdf4a87f1549b99360a64496bd243a4de1162eb5
+revision_basis: 1bd61338a12c60e5369638616041c4e5b2cd75e2
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2069 constructs the same massive positive-sector prepared-qubit pointer inside the
+    original speed-one upper cone with a=2/3, b=1/3 and T=30/m. It preserves a positive gap
+    m/sqrt(3) while openly changing kinetic calibration. Exact trace calibration plus the
+    cone bound forces the free principal symbol; with bounded local exact-sector controls
+    this is readout-blind. Sharp displacement/gap tradeoff, smooth switching and momentum-
+    conditioned approximate-calibration bounds follow. K2070 carries exact two- and three-
+    terminal thermal responses plus an incoming-aware convex majorant into eight improved
+    assignments. The global lower
+    is199433405349365662917307150317/716395853109380299634702964040 =0.27838436596717137;
+    unchanged K2068 upper335946011010129/1206372108151072. The width
+    is0.00009190908946235181, reduced66.351676 percent. The global low cell164 is now
+    limited by high cell174 vertex46 with offset8. These conditional results do not change
+    source, physics ledger or canon.
+
+    Historical predecessor (not live):
     K2067 shows that bounded local controls preserving the fixed massive positive-energy
     sector throughout evolution leave scalar position readout Bell-local at a common time.
     It constructs a derivative pointer with a positive lower energy bound, finite prepared-
@@ -16567,6 +16582,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k2069-causal-budget-pointer-2026-10-25.md
+    - lab/process/k2069-causal-budget-pointer.json
+    - tests/channel-swings/k2069_causal_budget_pointer.py
+    - tests/channel-swings/k2069_causal_budget_pointer_probe.py
+    - explorations/conditional-build/k2070-joint-terminal-thermal-bound-2026-10-25.md
+    - lab/process/k2070-joint-terminal-thermal-bound.json
+    - tests/channel-swings/k2070_joint_terminal_thermal_bound.py
+    - tests/channel-swings/k2070_joint_terminal_thermal_bound_probe.py
     - explorations/conditional-build/k2067-sector-preserving-pointer-control-2026-10-25.md
     - lab/process/k2067-sector-preserving-pointer-control.json
     - tests/channel-swings/k2067_sector_preserving_pointer_control.py
@@ -17977,6 +18000,12 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can spatially confined controls realize the conditional pointer with a stated
+  approximate-sector/detector criterion, and can a jointly physical low/high-component
+  thermal certificate remove the current high174 contact without losing the shared
+  placement constraints?
+
+  Historical predecessor (not live):
   Which constrained apparatus can access the conditional multiplicity readout while
   retaining the original speed-one causal cone and justified real/dual/state ownership,
   and can a joint two-terminal thermal lower certificate or genuinely different population
@@ -21682,6 +21711,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K2069 settles homogeneous causal-budget repair and exact kinetic-trace-calibration
+  rigidity; do not requeue time rescaling or infer spacelike laboratories from tensor no-
+  signalling and a full-carrier cone. Next apparatus work needs confined controls and an
+  explicit sector-leakage or detector-field acceptance criterion on the same preparations.
+  K2070 improves the thermal bracket through two/three-terminal joint response and an
+  incoming convex majorant; low164 is constrained by shifted high174 vertex46. Compare a
+  genuinely coupled low/high-component bound or new feasible population, not another
+  independent terminal cap or the solved N20 family. Nonlattice complex phase coercivity
+  and exact continuum wings remain alternatives. Preserve full20/K-C/accessibility,
+  mirror/fullII, normaljets,2+1/chirality and near5/4 resource debts.
+
+  Historical predecessor (not live):
   K2067 settles bounded local exact-sector control blindness and supplies a positive-
   energy derivative-pointer alternative with explicit enlarged-cone cost. Do not mistake
   prepared-state accuracy for a uniform observable identity or tensor no-signalling for

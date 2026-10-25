@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2069_causal_budget_pointer](k2069_causal_budget_pointer.py).
+- [k2069_causal_budget_pointer_probe](k2069_causal_budget_pointer_probe.py).
+- [k2070_joint_terminal_thermal_bound](k2070_joint_terminal_thermal_bound.py).
+- [k2070_joint_terminal_thermal_bound_probe](k2070_joint_terminal_thermal_bound_probe.py).
+
 - [k2067_sector_preserving_pointer_control](k2067_sector_preserving_pointer_control.py).
 - [k2067_sector_preserving_pointer_control_probe](k2067_sector_preserving_pointer_control_probe.py).
 - [k2068_thermal_population_construction](k2068_thermal_population_construction.py).

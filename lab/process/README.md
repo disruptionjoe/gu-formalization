@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2069-causal-budget-pointer](k2069-causal-budget-pointer.json).
+- [k2070-joint-terminal-thermal-bound](k2070-joint-terminal-thermal-bound.json).
+
 - [k2067-sector-preserving-pointer-control](k2067-sector-preserving-pointer-control.json).
 - [k2068-thermal-population-construction](k2068-thermal-population-construction.json).
 

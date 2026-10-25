@@ -1,0 +1,37 @@
+{
+  "id": "K2069",
+  "scope": "conditional massive complex1408 positive sector; imported control and Born apparatus; no source or spacelike-laboratory claim",
+  "inputs": {
+    "explorations/conditional-build/k2067-sector-preserving-pointer-control-2026-10-25.md": "c078954e7418622126cd9aabdb8ae07e12f110c139ba6cda8134e89ce7fea037",
+    "lab/process/k2067-sector-preserving-pointer-control.json": "88dfa52e0c15716c11db0c5ca6b6941b2932eb777c0cb204d8c9b0ac4d71ef9e",
+    "explorations/conditional-build/k2062-bounded-local-multiplier-rigidity-2026-10-25.md": "ec9b23eb2b0d81139a84465844f47a3b3c9f3a80bfd907432824f1fb145864e5"
+  },
+  "finite_exact_controls": 36,
+  "family": {
+    "a": "2/3",
+    "b": "1/3",
+    "time_in_inverse_mass": "30",
+    "displacement_in_inverse_mass": "10",
+    "spectral_edge_squared_in_mass_squared": "1/3",
+    "max_speed": "1",
+    "epsilon_upper": "17/400",
+    "visibility_lower": "183/200",
+    "chsh_squared_lower": "1121513121/200000000"
+  },
+  "calibration": {
+    "deficit": "1-ReTr(C(n)A(n))/N",
+    "operator_bound": "sqrt(2*N*deficit)",
+    "exact_zero": "A(n)=C(n)"
+  },
+  "uniform_gap_frontier": {
+    "a_max_shift": "(1+gamma^2)/2",
+    "b_max_shift": "(1-gamma^2)/2",
+    "time_for_displacement": "T>=2*abs(J)/(1-gamma^2)"
+  },
+  "limitations": [
+    "spatially homogeneous controls",
+    "noncompact positive-energy preparation",
+    "changed common kinetic coefficient",
+    "source real/dual and physical quotient unbuilt"
+  ]
+}

@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2069-causal-budget-pointer](conditional-build/k2069-causal-budget-pointer-2026-10-25.md).
+- [k2070-joint-terminal-thermal-bound](conditional-build/k2070-joint-terminal-thermal-bound-2026-10-25.md).
+
 - [k2067-sector-preserving-pointer-control](conditional-build/k2067-sector-preserving-pointer-control-2026-10-25.md).
 - [k2068-thermal-population-construction](conditional-build/k2068-thermal-population-construction-2026-10-25.md).
 
