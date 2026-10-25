@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2042-sextic-transport-instability](conditional-build/k2042-sextic-transport-instability-2026-10-25.md).
+- [k2043-chamber-offset-frontier](conditional-build/k2043-chamber-offset-frontier-2026-10-25.md).
+
 - [k2040-nonlinear-resonance-selection](conditional-build/k2040-nonlinear-resonance-selection-2026-10-24.md).
 - [k2041-exact-small-spacing-frontier](conditional-build/k2041-exact-small-spacing-frontier-2026-10-24.md).
 

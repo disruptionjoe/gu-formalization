@@ -7,6 +7,27 @@ updated_at: "2026-10-24"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## 2026-10-25: Sextic dynamics and two thermal phases
+
+K2042 proves exponential and finite-amplitude instability of the fixed norm-preserving
+sextic interaction, constructs its complete transfer orbit, and gives global smooth
+characteristic solutions with explicit derivative bounds on T3 or R x T2. A compactly
+supported finite-energy profile also exhibits nonlinear departure. An invariant
+opposite-speed real phase plane has global smooth forward evolution by a monotone-
+component bound. No general3D PDE, physical parity or quantum conclusion follows. K2043
+extends the unrestricted finite/countable thermal optimum to its sharp first spacing
+transition2/181 and proves a second exact phase through2/145. Retaining the actual low
+component chamber and charging full offsets closes the gap in the prior certificate. The
+right-branch minimum physical dimension drops from22 to20; an explicit9-level catalyst
+beats the second-phase formula immediately beyond2/145. Source, physics ledger and canon
+verdicts remain unchanged.
+
+- [K2042](explorations/conditional-build/k2042-sextic-transport-instability-2026-10-25.md).
+- [K2043](explorations/conditional-build/k2043-chamber-offset-frontier-2026-10-25.md).
+
+Source symbolic producer and distinct exact polynomial-interpolation/complex-rational probe passed:19 field fixtures,48 Jacobian entries,3 invariant-plane fixtures,4 primitive checks and four faults. Thermal certificate and separate direct bath-shell replay passed3137 vertex records,30 physical mixtures, two physical boundary rivals, four forced-ground cases,31 completion removals and four faults. Opposite-speed forward continuation uses the written monotonicity and derivative argument. Whole-interval/countable/PDE claims use the written proofs; inherited raw graph and chamber completeness/erasure are hash-pinned reuse. Same-author internal verification, no external or proof-assistant acceptance or novelty claim.
+
+
 ## 2026-10-25: Polynomial resonance and exact thermal spacing
 
 K2040 classifies the complete polynomial resonance lattice of the fixed real commuting

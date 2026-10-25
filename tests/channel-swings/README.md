@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2042_sextic_transport_instability](k2042_sextic_transport_instability.py).
+- [k2042_sextic_transport_instability_probe](k2042_sextic_transport_instability_probe.py).
+- [k2043_chamber_offset_frontier](k2043_chamber_offset_frontier.py).
+- [k2043_chamber_offset_frontier_probe](k2043_chamber_offset_frontier_probe.py).
+
 - [k2040_nonlinear_resonance_selection](k2040_nonlinear_resonance_selection.py).
 - [k2040_nonlinear_resonance_selection_probe](k2040_nonlinear_resonance_selection_probe.py).
 - [k2041_exact_small_spacing_frontier](k2041_exact_small_spacing_frontier.py).

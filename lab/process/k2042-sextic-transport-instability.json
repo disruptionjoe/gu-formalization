@@ -1,0 +1,87 @@
+{
+  "result_id": "K2042",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "potential": "a**4*x**2 - a**4*y**2 + 8*a**3*b*x*y - 6*a**2*b**2*x**2 + 6*a**2*b**2*y**2 - 8*a*b**3*x*y + b**4*x**2 - b**4*y**2",
+  "variables": [
+    "x",
+    "y",
+    "a",
+    "b"
+  ],
+  "vector_field": [
+    "2*a**4*y - 8*a**3*b*x - 12*a**2*b**2*y + 8*a*b**3*x + 2*b**4*y",
+    "2*a**4*x + 8*a**3*b*y - 12*a**2*b**2*x - 8*a*b**3*y + 2*b**4*x",
+    "-4*a**3*x*y + 6*a**2*b*x**2 - 6*a**2*b*y**2 + 12*a*b**2*x*y - 2*b**3*x**2 + 2*b**3*y**2",
+    "2*a**3*x**2 - 2*a**3*y**2 + 12*a**2*b*x*y - 6*a*b**2*x**2 + 6*a*b**2*y**2 - 4*b**3*x*y"
+  ],
+  "equilibrium": [
+    "0",
+    "0",
+    "h",
+    "0"
+  ],
+  "jacobian": [
+    [
+      "0",
+      "2*h**4",
+      "0",
+      "0"
+    ],
+    [
+      "2*h**4",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  ],
+  "growth_rate": "2*h**4",
+  "reduction": [
+    "Xdot=2*X*Y**4",
+    "Ydot=-2*X**2*Y**3"
+  ],
+  "transfer": {
+    "norm": "M=X**2+Y**2",
+    "fraction": "q=X**2/M",
+    "ode": "4*M**2*q*(1-q)**2",
+    "primitive": "log(q/(1-q))+1/(1-q)",
+    "range": "0<q<1; complete heteroclinic transfer as t ranges over R"
+  },
+  "pde": {
+    "domain": "R x T^2 or T^3; fields depend on first coordinate in two selected same-speed complex eigenlines",
+    "solution": "u(t,x)=Phi_t(u0(x-c*t)), c=+1 or -1",
+    "gradient_bound": "exp(30*R**4*abs(t))*abs(u0_prime(x-c*t))",
+    "opposite_speed_real_plane": {
+      "equations": [
+        "X_t+X_x=2*X*Y**4",
+        "Y_t-Y_x=-2*X**2*Y**3"
+      ],
+      "forward_global": true,
+      "backward_global_claim": false,
+      "bounds": [
+        "abs(Y(t,x))<=sup_abs_Y0",
+        "abs(X(t,x))<=sup_abs_X0*exp(2*sup_abs_Y0**4*t)"
+      ]
+    },
+    "general_three_dimensional_global_existence": false
+  },
+  "inputs": {
+    "explorations/conditional-build/k2038-observed-action-compression-2026-10-24.md": "fd73ae69845af69c0b33dd7d59760b80071ede188fb4baa2a991eb13f207d8ab",
+    "lab/process/k2038-observed-action-compression.json": "a7ecf3420b58de4ab91b2c687b92c3c1dfdceb83746bd393346a67adfedef51c",
+    "explorations/conditional-build/k2040-nonlinear-resonance-selection-2026-10-24.md": "b9e3862bc37c167a5c9f519550175f0b3b2dcf4f4a1f408f88d107555a311f12"
+  },
+  "scope": "Conditional real commuting classical model. Exponential and nonlinear instability of a nonzero equilibrium; complete bounded homogeneous and selected characteristic solutions. No source/physical parity, quantum positivity, generic PDE blowup or novelty claim."
+}

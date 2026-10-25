@@ -1,0 +1,691 @@
+{
+  "result_id": "K2043",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "first_transition": "2/181",
+  "second_phase_endpoint": "2/145",
+  "certificates": [
+    {
+      "phase": 1,
+      "interval": [
+        "0",
+        "2/181"
+      ],
+      "cell_labels": [
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "B",
+        "AB",
+        "A",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "B",
+        "AB",
+        "AB",
+        "AB",
+        "A",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB"
+      ],
+      "label_counts": {
+        "A": 2,
+        "B": 2,
+        "AB": 179
+      },
+      "strict_tail_margins": [
+        "549/13840",
+        "549/13840",
+        "23247/628024",
+        "14499/346072"
+      ]
+    },
+    {
+      "phase": 2,
+      "interval": [
+        "2/181",
+        "2/145"
+      ],
+      "cell_labels": [
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "B",
+        "AB",
+        "A",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "B",
+        "AB",
+        "AB",
+        "AB",
+        "A",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "A",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "A",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB",
+        "AB"
+      ],
+      "label_counts": {
+        "A": 4,
+        "B": 2,
+        "AB": 177
+      },
+      "strict_tail_margins": [
+        "23247/628024",
+        "14499/346072",
+        "3318327/91251544",
+        "9/212"
+      ]
+    }
+  ],
+  "strict_interval_equalities": [
+    {
+      "phase": 1,
+      "A_low": [
+        [
+          [
+            1,
+            "243/653"
+          ],
+          [
+            3,
+            "729/1306"
+          ],
+          [
+            5,
+            "81/1306"
+          ],
+          [
+            7,
+            "9/1306"
+          ],
+          [
+            9,
+            "1/1306"
+          ]
+        ]
+      ],
+      "A_high": [
+        [
+          [
+            1,
+            "36/181"
+          ],
+          [
+            3,
+            "54/181"
+          ],
+          [
+            5,
+            "81/181"
+          ],
+          [
+            7,
+            "9/181"
+          ],
+          [
+            9,
+            "1/181"
+          ]
+        ]
+      ],
+      "B_low": [
+        [
+          [
+            1,
+            "36/181"
+          ],
+          [
+            3,
+            "54/181"
+          ],
+          [
+            5,
+            "81/181"
+          ],
+          [
+            7,
+            "9/181"
+          ],
+          [
+            9,
+            "1/181"
+          ]
+        ]
+      ],
+      "B_high": [
+        [
+          [
+            1,
+            "243/653"
+          ],
+          [
+            3,
+            "729/1306"
+          ],
+          [
+            5,
+            "81/1306"
+          ],
+          [
+            7,
+            "9/1306"
+          ],
+          [
+            9,
+            "1/1306"
+          ]
+        ]
+      ]
+    },
+    {
+      "phase": 2,
+      "A_low": [
+        [
+          [
+            1,
+            "243/653"
+          ],
+          [
+            3,
+            "729/1306"
+          ],
+          [
+            5,
+            "81/1306"
+          ],
+          [
+            7,
+            "9/1306"
+          ],
+          [
+            9,
+            "1/1306"
+          ]
+        ]
+      ],
+      "A_high": [
+        [
+          [
+            1,
+            "36/181"
+          ],
+          [
+            3,
+            "54/181"
+          ],
+          [
+            5,
+            "81/181"
+          ],
+          [
+            7,
+            "9/181"
+          ],
+          [
+            9,
+            "1/181"
+          ]
+        ]
+      ],
+      "B_low": [
+        [
+          [
+            1,
+            "36/181"
+          ],
+          [
+            3,
+            "54/181"
+          ],
+          [
+            5,
+            "81/181"
+          ],
+          [
+            7,
+            "9/181"
+          ],
+          [
+            9,
+            "1/181"
+          ]
+        ]
+      ],
+      "B_high": [
+        [
+          [
+            1,
+            "54/145"
+          ],
+          [
+            3,
+            "81/145"
+          ],
+          [
+            5,
+            "9/145"
+          ],
+          [
+            7,
+            "1/145"
+          ]
+        ]
+      ]
+    }
+  ],
+  "records": 3137,
+  "endpoints": {
+    "A": {
+      "energy": "1575/653",
+      "value": "729/2612",
+      "population": [
+        "486/1306",
+        "729/1306",
+        "81/1306",
+        "9/1306",
+        "1/1306"
+      ]
+    },
+    "B": {
+      "energy": "675/181",
+      "value": "81/362",
+      "population": [
+        "36/181",
+        "54/181",
+        "81/181",
+        "9/181",
+        "1/181"
+      ]
+    },
+    "D": {
+      "energy": "349/145",
+      "value": "81/290",
+      "population": [
+        "54/145",
+        "81/145",
+        "9/145",
+        "1/145"
+      ]
+    },
+    "Q": {
+      "energy": "37/10",
+      "value": "9/40",
+      "population": [
+        "1/5",
+        "3/10",
+        "9/20",
+        "1/20"
+      ]
+    }
+  },
+  "formula": "min(A at0 to B atdelta, low B to shifted A for delta<=2/181 or shifted D for2/181<=delta<=2/145)",
+  "resources": {
+    "phase1_strict_interior": 22,
+    "phase2_left_branch": 22,
+    "phase2_right_branch": 20,
+    "endpoints": 11,
+    "scope": "strict spacing interiors; at first transition right branch admits20 and a continuum of A/D shapes; second critical equality not classified"
+  },
+  "witnesses": [
+    {
+      "phase": 1,
+      "delta": "2000181/181000000",
+      "energy": "401850/118193",
+      "value": "386773879964643/1627090874409886",
+      "previous_formula": "2891850992639217/12165517381609834",
+      "improvement": "9511323750000/231319407138939429057407",
+      "shifted_D_mass": "1128825000000/4494726172403"
+    },
+    {
+      "phase": 2,
+      "delta": "400029/29000000",
+      "energy": "37/10",
+      "value": "9/40",
+      "previous_formula": "3090957651/13737589502",
+      "improvement": "261/274751790040",
+      "shifted_D_mass": "1"
+    }
+  ],
+  "inputs": {
+    "lab/process/k2037-thermal-seven-level-boundary.json": "58783f70b8791513f62d6a5cc789cd5cd25e152adae9d9a03e5c233a7f1686f9",
+    "explorations/conditional-build/k2037-thermal-seven-level-boundary-2026-10-24.md": "135eac66f85a1ac244e7bdb9d1633290fc1395f5dd175f2b18aeb9dded2ef24b",
+    "explorations/conditional-build/k2039-thermal-component-undercut-2026-10-24.md": "bbd74c2445ac382b99092de5000dd66540bfec0e32e201b32072d2f25f77e0bb"
+  },
+  "scope": "Unrestricted finite/countable model on EA<=E<=EB; two exact spacing phases, first phase boundary sharp. No source/physics or novelty conclusion."
+}

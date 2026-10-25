@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2042-sextic-transport-instability](k2042-sextic-transport-instability.json).
+- [k2043-chamber-offset-frontier](k2043-chamber-offset-frontier.json).
+
 - [k2040-nonlinear-resonance-selection](k2040-nonlinear-resonance-selection.json).
 - [k2041-exact-small-spacing-frontier](k2041-exact-small-spacing-frontier.json).
 

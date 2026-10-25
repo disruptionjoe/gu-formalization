@@ -7,6 +7,11 @@ updated_at: "2026-10-24"
 
 # Next Steps For Contributors
 
+> **2026-10-25: SEXTIC DYNAMICS AND TWO THERMAL PHASES.**
+> Compare the next chamber-aware thermal phase beyond2/145 (including Q, the19/8 contact and shifted lower endpoints) with arbitrary-phase opposite-speed or transverse dynamics of the explicit sextic, near5/4 resource necessity and exact capped-wing continuum marginals. The first thermal transition is now sharp, and same-speed all-time and fixed-phase opposite-speed forward completeness do not imply arbitrary-phase/general3D existence or stability. Actual independent-dual/parity and physical-observation bridges remain open; preserve full20/K-C/accessibility, mirror/fullII, normal jets,2+1 and chirality debts.
+> Prior banners preserve history; source, ledger and canon remain unchanged.
+
+
 > **2026-10-25: POLYNOMIAL RESONANCE AND EXACT THERMAL SPACING.**
 > Compare chamber-aware low-offset thermal optimization beyond1/23508, including the explicit20-level rival above2/181, with near5/4 resource necessity and exact capped-wing continuum marginals. Do not treat a failing relaxed vertex coefficient as a physical transition. For the fixed classical action, quartic searches for sector-norm exchange are exhausted; test a specified sextic interaction on a genuine PDE domain or construct an actual independent-dual/parity and observation bridge. Preserve full20/K-C/accessibility, mirror/fullII, normal jets,2+1 and chirality debts.
 > Prior banners preserve history; source, ledger and canon remain unchanged.
