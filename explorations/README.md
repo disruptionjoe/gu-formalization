@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2071-confined-pointer-control](conditional-build/k2071-confined-pointer-control-2026-10-25.md).
+- [k2072-compulsory-ladder-thermal-bound](conditional-build/k2072-compulsory-ladder-thermal-bound-2026-10-25.md).
+
 - [k2069-causal-budget-pointer](conditional-build/k2069-causal-budget-pointer-2026-10-25.md).
 - [k2070-joint-terminal-thermal-bound](conditional-build/k2070-joint-terminal-thermal-bound-2026-10-25.md).
 

@@ -7,6 +7,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2071-confined-pointer-control](k2071-confined-pointer-control.json).
+- [k2072-compulsory-ladder-thermal-bound](k2072-compulsory-ladder-thermal-bound.json).
+
 - [k2069-causal-budget-pointer](k2069-causal-budget-pointer.json).
 - [k2070-joint-terminal-thermal-bound](k2070-joint-terminal-thermal-bound.json).
 

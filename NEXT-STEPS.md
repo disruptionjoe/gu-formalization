@@ -7,6 +7,11 @@ updated_at: "2026-10-24"
 
 # Next Steps For Contributors
 
+> **2026-10-25: CONFINED CONTROL AND STRONGER THERMAL PLACEMENT.**
+> K2071 supplies a confined-control and finite-detector approximation with explicit all-outcome error and sector-leakage probability; do not requeue homogeneous slowdown or infer exact positive-sector dynamics, an energy-expectation bound or source-real field locality. Next apparatus work needs a concrete source-compatible detector algebra or physical preparation/resource criterion. K2072 removes the weak high174 placement contact and explicitly pays both fourth-terminal paths to(18,2); next compare an incoming-aware longer shared response against a genuinely new feasible thermal population. Do not independently raise a sharp terminal cap or repeat the solved N20 family. Nonlattice complex phase coercivity and exact continuum wings remain alternatives; preserve full20/K-C/accessibility, mirror/fullII, normaljets,2+1/chirality and near5/4 resource debts.
+> Prior banners preserve history; source, ledger and canon remain unchanged.
+
+
 > **2026-10-25: CAUSAL BUDGET AND JOINT THERMAL BOUNDS.**
 > K2069 settles homogeneous causal-budget repair and exact kinetic-trace-calibration rigidity; do not requeue time rescaling or infer spacelike laboratories from tensor no-signalling and a full-carrier cone. Next apparatus work needs confined controls and an explicit sector-leakage or detector-field acceptance criterion on the same preparations. K2070 improves the thermal bracket through two/three-terminal joint response and an incoming convex majorant; low164 is constrained by shifted high174 vertex46. Compare a genuinely coupled low/high-component bound or new feasible population, not another independent terminal cap or the solved N20 family. Nonlattice complex phase coercivity and exact continuum wings remain alternatives. Preserve full20/K-C/accessibility, mirror/fullII, normaljets,2+1/chirality and near5/4 resource debts.
 > Prior banners preserve history; source, ledger and canon remain unchanged.

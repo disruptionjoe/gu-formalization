@@ -8,6 +8,27 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-10-25: Confined control and stronger thermal placement
+
+K2071 constructs compact spatial speed-one pointer controls and finite all-outcome
+detectors on the same conditional massive1408 preparation. Finite propagation bounds
+prepared-state error by2eta and fixed-sector leakage probability by4eta squared. At
+eta1/100: control radius2432/m, detector radius2430/m, pulse30/m and center separation
+greater than4894/m suffice for the conditional tensor Bell lower bound202263/100000>2.
+Exact sector preservation, negative-energy expectation control and source detector-field
+realization are not established. K2072 strengthens compulsory-ladder low/high placement,
+then consumes selective exact fourth-terminal responses along both paths to state(18,2).
+The global lower is437326017365327165213/1570850681658905890000 =0.2784007560180618,
+with unchanged K2068 upper335946011010129/1206372108151072. The remaining gap
+shrinks17.832894 percent from K2070. All source, physics-ledger and canon conclusions
+remain unchanged.
+
+- [K2071](explorations/conditional-build/k2071-confined-pointer-control-2026-10-25.md).
+- [K2072](explorations/conditional-build/k2072-compulsory-ladder-thermal-bound-2026-10-25.md).
+
+K2071:395 exact finite cone/radius/resource controls and22 separate finite truncation/tensor-budget controls, with6 actual resource faults rejected. K2072:5 four-terminal arrangements with1145 vertices/545 rays;1690 direct raw-bath geometry controls,21020 low/high inequalities and all671 affine interval comparisons, with6 faults rejected. Written continuum/packing/polyhedral/countable proofs remain distinct from finite controls and hash-pinned prior evidence. Same-author checking only; no independent specialist, proof-assistant, novelty or external certification.
+
+
 ## 2026-10-25: Causal budget and joint thermal bounds
 
 K2069 constructs the same massive positive-sector prepared-qubit pointer inside the

@@ -1,0 +1,20 @@
+{
+  "id": "K2071",
+  "inputs": {
+    "lab/process/k2067-sector-preserving-pointer-control.json": "88dfa52e0c15716c11db0c5ca6b6941b2932eb777c0cb204d8c9b0ac4d71ef9e",
+    "lab/process/k2069-causal-budget-pointer.json": "a0ccbd81e626b252ac86c671a5fdfb7ea49a2ca3a472ad1e01c1c64a5de8a874"
+  },
+  "eta": "1/100",
+  "initial_radius": "2400",
+  "duration": "30",
+  "ramp_width": "1",
+  "control_radius": "2432",
+  "detector_radius": "2430",
+  "strict_center_separation": "4894",
+  "state_error": "1/50",
+  "sector_leakage_probability": "1/2500",
+  "no_click_probability": "1/10000",
+  "bell_rational_lower": "202263/100000",
+  "finite_exact_controls": 395,
+  "scope": "prepared-subspace approximation only; no exact sector or source detector field"
+}

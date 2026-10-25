@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 1bd61338a12c60e5369638616041c4e5b2cd75e2
+revision_basis: 92d354ccfa4dcfa685f226ead9fd3e3b38d3749f
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2071 constructs compact spatial speed-one pointer controls and finite all-outcome
+    detectors on the same conditional massive1408 preparation. Finite propagation bounds
+    prepared-state error by2eta and fixed-sector leakage probability by4eta squared. At
+    eta1/100: control radius2432/m, detector radius2430/m, pulse30/m and center separation
+    greater than4894/m suffice for the conditional tensor Bell lower bound202263/100000>2.
+    Exact sector preservation, negative-energy expectation control and source detector-field
+    realization are not established. K2072 strengthens compulsory-ladder low/high placement,
+    then consumes selective exact fourth-terminal responses along both paths to state(18,2).
+    The global lower is437326017365327165213/1570850681658905890000 =0.2784007560180618,
+    with unchanged K2068 upper335946011010129/1206372108151072. The remaining gap
+    shrinks17.832894 percent from K2070. All source, physics-ledger and canon conclusions
+    remain unchanged.
+
+    Historical predecessor (not live):
     K2069 constructs the same massive positive-sector prepared-qubit pointer inside the
     original speed-one upper cone with a=2/3, b=1/3 and T=30/m. It preserves a positive gap
     m/sqrt(3) while openly changing kinetic calibration. Exact trace calibration plus the
@@ -16582,6 +16596,14 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k2071-confined-pointer-control-2026-10-25.md
+    - lab/process/k2071-confined-pointer-control.json
+    - tests/channel-swings/k2071_confined_pointer_control.py
+    - tests/channel-swings/k2071_confined_pointer_control_probe.py
+    - explorations/conditional-build/k2072-compulsory-ladder-thermal-bound-2026-10-25.md
+    - lab/process/k2072-compulsory-ladder-thermal-bound.json
+    - tests/channel-swings/k2072_compulsory_ladder_thermal_bound.py
+    - tests/channel-swings/k2072_compulsory_ladder_thermal_bound_probe.py
     - explorations/conditional-build/k2069-causal-budget-pointer-2026-10-25.md
     - lab/process/k2069-causal-budget-pointer.json
     - tests/channel-swings/k2069_causal_budget_pointer.py
@@ -18000,6 +18022,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which source-compatible detector-field or preparation/resource criterion can sharpen the
+  confined approximate-sector construction, and can an incoming-aware shared response
+  beyond the active four-terminal thermal contact reduce the remaining global gap?
+
+  Historical predecessor (not live):
   Can spatially confined controls realize the conditional pointer with a stated
   approximate-sector/detector criterion, and can a jointly physical low/high-component
   thermal certificate remove the current high174 contact without losing the shared
@@ -21711,6 +21738,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K2071 supplies a confined-control and finite-detector approximation with explicit all-
+  outcome error and sector-leakage probability; do not requeue homogeneous slowdown or
+  infer exact positive-sector dynamics, an energy-expectation bound or source-real field
+  locality. Next apparatus work needs a concrete source-compatible detector algebra or
+  physical preparation/resource criterion. K2072 removes the weak high174 placement
+  contact and explicitly pays both fourth-terminal paths to(18,2); next compare an
+  incoming-aware longer shared response against a genuinely new feasible thermal
+  population. Do not independently raise a sharp terminal cap or repeat the solved N20
+  family. Nonlattice complex phase coercivity and exact continuum wings remain
+  alternatives; preserve full20/K-C/accessibility, mirror/fullII, normaljets,2+1/chirality
+  and near5/4 resource debts.
+
+  Historical predecessor (not live):
   K2069 settles homogeneous causal-budget repair and exact kinetic-trace-calibration
   rigidity; do not requeue time rescaling or infer spacelike laboratories from tensor no-
   signalling and a full-carrier cone. Next apparatus work needs confined controls and an
