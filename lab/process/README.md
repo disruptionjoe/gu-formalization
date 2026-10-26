@@ -7,6 +7,10 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2102-travelling-parity-readout](k2102-travelling-parity-readout.json).
+- [k2103-neutral-algebra-dynamics](k2103-neutral-algebra-dynamics.json).
+- [k2104-point-contact-parity-transport](k2104-point-contact-parity-transport.json).
+
 - [k2099-finite-band-massive-memory](k2099-finite-band-massive-memory.json).
 - [k2100-reference-decoupling-reset](k2100-reference-decoupling-reset.json).
 - [k2101-massive-smeared-instrument](k2101-massive-smeared-instrument.json).

@@ -7,6 +7,10 @@ updated_at: "2026-10-26"
 
 # Next Steps For Contributors
 
+> **2026-10-26: TRAVELLING PARITY AND NEUTRAL OBSERVABLE DYNAMICS.**
+> Compare a semibounded mediator with a genuine local massive-field-to-register interface against application of the neutral-algebra classification to a source-selected observation/dynamics map and a new thermal163 multi-terminal or164 cap-path31322/32222/3332 certificate. K2102/2104 construct the travelling parity gate, not massive capture; a positive-momentum projection changes local multiplication and cannot retain exact compact packets. K2103 permits charge-controlled interactions but excludes passive hidden hopping, so choose the actual accessible algebra before applying factor closure. Retain K2085 closed interval/dimension41, full20/K-C/accessibility, native2+1/chirality, mirror/fullII/normaljets, near5/4, nonlattice and exact cap-preserving wings.
+> Prior banners preserve historical questions; no source or ledger promotion.
+
 > **2026-10-26: MASSIVE SMEARED INSTRUMENTS AND REFERENCE RESET.**
 > Compare a distributed local mediator for K2101 compact spatial smear, with finite-speed communication and an actual finite-duration gate, against the source-selected observed neutral-algebra/dynamics intertwiner and a new thermal163 multi-terminal or164 cap-path31322/32222/3332 certificate. K2099/2101 now supply massive finite-band transfer, general finite-subspace full-Fock control and compact physical-CAR cutoff approximation; do not repeat generic finite circuits or Markov capture. K2100 permits state-dependent pure excitation reset with references, not purification of mixed physical sea modes or a uniform energy-only reset clock. Retain K2085 closed interval/dimension41, full20/K-C/accessibility, native2+1/chirality, mirror/fullII/normaljets, near5/4, nonlattice and exact cap-preserving wings.
 > Prior banners preserve historical questions; no source or ledger promotion.

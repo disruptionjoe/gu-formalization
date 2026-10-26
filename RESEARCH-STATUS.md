@@ -8,6 +8,32 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## K2102--K2104: Travelling parity and neutral observable dynamics (2026-10-26)
+
+K2102 constructs finite-duration coherent parity readout with a travelling chiral probe and
+sharp statewise bad-path error, including correlated spatial preparations. K2103 classifies
+all finite neutral-observable Hamiltonian dynamics, permits charge-controlled hidden
+interactions, and proves passive leakage cannot be hidden by neutrality, with an exact
+nuclear-norm defect. K2104 supplies self-adjoint point-contact readout, dimension-
+independent norm-resolvent convergence, a nonuniform dynamics counterexample, and the
+obstruction to simply restricting a compact local chiral coupling to positive momentum.
+These are conditional mathematical results; massive-field capture, a semibounded physical
+mediator and source-selected observed dynamics remain open. No source, ledger or canon
+verdict changes.
+
+- [K2102](explorations/conditional-build/k2102-travelling-parity-readout-2026-10-26.md).
+- [K2103](explorations/conditional-build/k2103-neutral-algebra-dynamics-2026-10-26.md).
+- [K2104](explorations/conditional-build/k2104-point-contact-parity-transport-2026-10-26.md).
+
+Three exact SymPy1.14.0 probes pass clean baselines and reject11 genuine faults:3
+travelling-instrument,3 neutral-algebra and5 contact/Fourier faults. Controls cover all16
+memory matrix units, clipped C1 profile crossings, correlated bad-path saturation, all6
+neutral matrix units, charged-even interactions, fixed-charge coherent leakage, two-
+singular-value Fock norms, contact/gauge/kernel identities and positive-negative Fourier
+coupling. Universal classification, continuum domains, convergence and spectral restrictions
+rely on written proofs plus three read-only independent internal specialist reviews, not
+finite sampling, external acceptance or proof-assistant certification.
+
 ## K2099--K2101: Massive smeared instruments and reference-sensitive reset (2026-10-26)
 
 K2099 constructs a supplied finite-band massive excitation-to-memory Hamiltonian with a

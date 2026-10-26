@@ -1,0 +1,21 @@
+{
+  "id": "K2103",
+  "status": "internally_reviewed_conditional_mathematics",
+  "note": "explorations/conditional-build/k2103-neutral-algebra-dynamics-2026-10-26.md",
+  "probe": "tests/channel-swings/k2103_neutral_algebra_dynamics_probe.py",
+  "source_polarity": {
+    "SC-OP-04": "ASSERTS",
+    "SC-OP-05": "UNCERTAIN",
+    "SC-META-53": "UNCERTAIN",
+    "SC-META-56": "DISAVOWS"
+  },
+  "ledger_effect": "none; native action/observation/positivity debts remain",
+  "claim_ceiling": "conditional mathematical model; no source selection or physical recovery",
+  "evidence_kinds": [
+    "written analytic proof",
+    "exact finite/data controls",
+    "independent internal specialist review"
+  ],
+  "fault_count": 3,
+  "conclusion": "K2102 constructs finite-duration coherent parity readout with a travelling chiral probe and sharp statewise bad-path error, including correlated spatial preparations. K2103 classifies all finite neutral-observable Hamiltonian dynamics, permits charge-controlled hidden interactions, and proves passive leakage cannot be hidden by neutrality, with an exact nuclear-norm defect. K2104 supplies self-adjoint point-contact readout, dimension-independent norm-resolvent convergence, a nonuniform dynamics counterexample, and the obstruction to simply restricting a compact local chiral coupling to positive momentum. These are conditional mathematical results; massive-field capture, a semibounded physical mediator and source-selected observed dynamics remain open. No source, ledger or canon verdict changes."
+}

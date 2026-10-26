@@ -7,6 +7,10 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2102-travelling-parity-readout](conditional-build/k2102-travelling-parity-readout-2026-10-26.md).
+- [k2103-neutral-algebra-dynamics](conditional-build/k2103-neutral-algebra-dynamics-2026-10-26.md).
+- [k2104-point-contact-parity-transport](conditional-build/k2104-point-contact-parity-transport-2026-10-26.md).
+
 - [k2099-finite-band-massive-memory](conditional-build/k2099-finite-band-massive-memory-2026-10-26.md).
 - [k2100-reference-decoupling-reset](conditional-build/k2100-reference-decoupling-reset-2026-10-26.md).
 - [k2101-massive-smeared-instrument](conditional-build/k2101-massive-smeared-instrument-2026-10-26.md).
