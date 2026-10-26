@@ -1,5 +1,5 @@
 {
-  "status": "PROVISIONAL_PENDING_SPECIALIST_REVIEW",
+  "status": "INTERNALLY_REVIEWED_CONDITIONAL_MATHEMATICS",
   "scope": "conditional massive1408 with supplied controls",
   "bounds": {
     "tau": "1/500",
@@ -64,7 +64,7 @@
     "explorations/conditional-build/k1897-smooth-pulse-energy-2026-10-21.md": "76c648eff8672d993e30f390cebae9c8b6d65e9b17e3835dd030b07a6a6b293d"
   },
   "limitations": [
-    "No specialist acceptance",
+    "No external or proof-assistant certification",
     "No apparatus backreaction",
     "No source-real completion",
     "Species scattering is not a shared memory"

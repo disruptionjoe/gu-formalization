@@ -5,7 +5,7 @@ doc_type: exploration
 created: "2026-10-26"
 classification: INTERNAL_STRUCTURAL_ONLY
 target_claim: NONE-NOT-A-KILL
-claim_ceiling: provisional conditional mathematics pending specialist review; no GU verdict or novelty claim
+claim_ceiling: internally reviewed conditional mathematics; no GU verdict or novelty claim
 scripts:
   - tests/channel-swings/k2080_local_car_detector.py
   - tests/channel-swings/k2080_local_car_detector_probe.py
@@ -13,8 +13,10 @@ scripts:
 
 # K2080: Local CAR detection and an all-outcome Bell construction
 
-**PROVISIONAL.** Written construction and same-author checks only. Field-relevant
-specialist review is pending. This does not replace an accepted scientific verdict.
+**Internally reviewed, conditional mathematics (2026-10-26).** An independent
+read-only CAR/field/quantum-information agent reviewed locality, covariance,
+all-outcome Bell transfer and vacuum-energy bounds. This is not external
+expert or proof-assistant certification, a GU derivation or a novelty claim.
 
 Classification: `INTERNAL_STRUCTURAL_ONLY`.
 
@@ -74,7 +76,8 @@ its covariance is Q+|psi><psi|, so
 
     p_e=nu+|<f,psi>|^2,   p_vac=nu.                   (1)
 
-Take0<=chi<=1, chi=1 on B_L, smooth and compact in B_(L+rho), and
+Take0<=chi<=1, chi=1 on B_L, smooth and compact in B_(L+rho), with
+||grad chi||_infinity<=2/rho, and
 f=chi psi/||chi psi||. Write tau=||1_(B_L^c)psi||<1 and
 b=||chi psi||, a=<psi,chi psi>/b, both real nonnegative. Since
 chi>=chi^2, a>=b>=sqrt(1-tau^2). Because P contains the direction psi,
@@ -257,5 +260,10 @@ The written CAR/support/Gram-Schmidt estimates are the continuum argument.
 Same-author hostile review checks the strongest overclaim (apparatus or GU
 realization), contrary construction (vacuum clicks and species/memory mismatch),
 and weakest reproducibility seam (logical singlet versus actual local outcomes).
-Independent field-relevant specialist acceptance remains pending. No novelty,
-external-expert or proof-assistant certification is claimed.
+Independent internal CAR/field review accepted the conditional argument after
+two corrections: section 2 now states the cutoff-gradient hypothesis required
+by the numerical energy bound, and the vacuum-noise mutation changes the saved
+covariance formula, not an assertion. The unchanged predicate compares that
+formula with independent CAR algebra and detects its omission. This reviewed
+version supersedes the provisional checkpoint. No source, physics-ledger,
+canon, novelty, external-expert or proof-assistant certification is claimed.

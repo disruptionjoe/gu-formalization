@@ -1,5 +1,5 @@
 {
-  "status": "PROVISIONAL_PENDING_SPECIALIST_REVIEW",
+  "status": "INTERNALLY_REVIEWED_CONDITIONAL_MATHEMATICS",
   "scope": "massive1408 CAR sea; algebraic instruments, no point-local apparatus",
   "constants": {
     "number_lipschitz": 2,
@@ -26,7 +26,7 @@
     "explorations/conditional-build/k2060-positive-energy-localization-2026-10-25.md": "50d277514c8756bcd64a1d46ebe4d4038c2aec37b23ef4e0afc3244edd6c5258"
   },
   "limitations": [
-    "No specialist acceptance",
+    "No external or proof-assistant certification",
     "No state preparation theorem",
     "No finite-duration point-local instrument",
     "No GU source verdict"

@@ -5,7 +5,7 @@ doc_type: exploration
 created: "2026-10-26"
 classification: INTERNAL_STRUCTURAL_ONLY
 target_claim: NONE-NOT-A-KILL
-claim_ceiling: provisional conditional mathematics pending specialist review; no GU verdict or novelty claim
+claim_ceiling: internally reviewed conditional mathematics; no GU verdict or novelty claim
 scripts:
   - tests/channel-swings/k2079_smooth_detector_energy.py
   - tests/channel-swings/k2079_smooth_detector_energy_probe.py
@@ -13,8 +13,10 @@ scripts:
 
 # K2079: Smooth detector pulses and explicit resource accounting
 
-**PROVISIONAL.** Written construction and same-author checks only. Field-relevant
-specialist review is pending. This does not replace an accepted scientific verdict.
+**Internally reviewed, conditional mathematics (2026-10-26).** An independent
+read-only operator/PDE agent reviewed the continuum domains, causal support,
+energy bounds and finite-species scattering transfer. This is not external
+expert or proof-assistant certification, a GU derivation or a novelty claim.
 
 Classification: `INTERNAL_STRUCTURAL_ONLY`.
 
@@ -43,7 +45,7 @@ Reuse [K2077](k2077-controlled-detector-response-2026-10-25.md):
 H0=alpha.D+m beta on L2(R3,C4 tensor C352), m>0, domain H1,
 P=1_(H0>0), Q=I-P, and B=A tensor sigma_y on the internal multiplicity
 and an extra two-state memory. A is an orthogonal projector. B commutes with
-all free Clifford matrices, ||B||=1, and acts trivially on position. Let
+all free Clifford matrices, ||B||<=1, and acts trivially on position. Let
 0<=chi<=1 be smooth, equal to1 on the ball B_(L+T), and zero outside
 B_(L+T+rho), with G=||grad chi||_infinity<=2/rho. Take g>=0 smooth,
 supported in(0,T), with integral theta=pi/2. The new potential is
@@ -203,11 +205,15 @@ smoothing, but not by pretending a species index is an apparatus.
 The producer emits exact rational resource bounds and pins inherited inputs.
 The separate probe checks the commutator identity on actual Clifford matrices,
 the noncommuting-matrix countercontrol, exact exponential-series bounds,
-tail/signed/absolute energy arithmetic, pulse-area reference rotations and
+tail/signed/absolute energy arithmetic and
 species dimensions. Finite numerical controls corroborate only their stated
 instances. The support, domain and field-resource arguments above are the
 load-bearing continuum reasoning. Baseline-first mutations change mathematical
-coefficients or constructions, never validation predicates. All checking is
-same-author; specialist review remains pending. No source or accepted verdict
-has changed. A shared detector-field implementation and total source-work
-account remain substantive next inputs.
+coefficients or constructions, never validation predicates. Independent internal
+operator/PDE review accepted the conditional argument after correcting the
+coverage description: no pulse-area reference-rotation test was performed.
+The bound on B is stated as <=1, which suffices without a nonzero-projector
+assumption. The original provisional checkpoint is superseded by this reviewed
+version; source, physics-ledger and canon verdicts do not change. A shared
+detector-field implementation and total source-work account remain substantive
+next inputs.

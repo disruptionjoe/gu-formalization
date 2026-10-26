@@ -12,7 +12,7 @@ def annihilators(n,omit_sign=False):
 def inner(u,v):return (u.conjugate().T*v)[0]
 def normsq(u):return s.simplify(inner(u,u))
 def number(a):return a.conjugate().T*a
-def validate(d,omit_sign=False,subtract=False,omit_noise=False):
+def validate(d,omit_sign=False,subtract=False):
     a=annihilators(4,omit_sign);I=s.eye(16);O=s.zeros(16)
     for i in range(4):
         for j in range(4):
@@ -24,7 +24,10 @@ def validate(d,omit_sign=False,subtract=False,omit_noise=False):
     assert N*N==N,"number projection"
     effect=N-nu*I if subtract else N
     assert all(e>=0 for e in effect.eigenvals()),"vacuum subtraction is not positive"
-    assert inner(sea,N*sea)==(0 if omit_noise else nu),"sea click"
+    # Check the claim-bearing serialized reference against independent CAR algebra.
+    # The hostile omission below changes that reference, never this predicate.
+    vacuum_formula=s.sympify(d["covariance"]["vacuum"],locals={"nu":nu})
+    assert inner(sea,N*sea)==vacuum_formula,"sea click reference"
     assert inner(electron,N*electron)==1,"electron click nu plus overlap"
     assert inner(sea,(N-nu*I)**2*sea)==nu*(1-nu),"vacuum variance"
     # Direct field-channel density calculation, compared with independent one-particle reflection.
@@ -75,10 +78,14 @@ def validate(d,omit_sign=False,subtract=False,omit_noise=False):
 def main():
     d=p.build();assert d==json.loads((ROOT/"lab/process/k2080-local-car-detector.json").read_text()),"serialized producer mismatch"
     print("PASS baseline",validate(d));count=0
-    for name,kwargs in [("omit_fermion_sign",dict(omit_sign=True)),("subtract_vacuum",dict(subtract=True)),("omit_vacuum_noise",dict(omit_noise=True))]:
+    for name,kwargs in [("omit_fermion_sign",dict(omit_sign=True)),("subtract_vacuum",dict(subtract=True))]:
         try:validate(d,**kwargs)
         except AssertionError as e:print("DETECTED",name,str(e));count+=1
         else:raise AssertionError("undetected "+name)
+    bad=deepcopy(d);bad["covariance"]["vacuum"]="0"
+    try:validate(bad)
+    except AssertionError as e:print("DETECTED omit_vacuum_noise",str(e));count+=1
+    else:raise AssertionError("undetected omit_vacuum_noise")
     for name,key,value in [("bell_error","bell_lower","14/5"),("radius_overlap","separation_m",4001),("tail_orthogonalization","vacuum_B_upper","1/250000"),("measurement_energy","single_mode_energy_over_m_upper","0")]:
         bad=deepcopy(d);bad["constants"][key]=value
         try:validate(bad)

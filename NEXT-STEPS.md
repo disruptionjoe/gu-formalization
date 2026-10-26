@@ -7,8 +7,8 @@ updated_at: "2026-10-24"
 
 # Next Steps For Contributors
 
-> **2026-10-26: PROVISIONAL DETECTOR CANDIDATES, REVIEW PENDING.**
-> K2079 smooth-control energy and K2080 same-carrier CAR detector/Bell candidates have written derivations and same-author probes. Review their continuum/domain/field-transfer arguments before accepting them. Current accepted frontier and thermal interval remain unchanged.
+> **2026-10-26: REVIEWED SMOOTH ENERGY AND LOCAL CAR DETECTORS.**
+> Independent internal operator/PDE and CAR/field reviews accepted the corrected conditional K2079/K2080 results. Reuse their energy, vacuum-noise and all-outcome Bell bounds; do not repeat basic detector algebra or its completed review. Compare a concrete point-local finite-time apparatus or source-real compatibility map against strengthened thermal188/235 certificates or a new feasible population. Algebraic instruments are not a physical apparatus; species scattering is not shared memory. Source, ledger, canon, thermal interval and retained source-specific debts remain unchanged.
 
 
 > **2026-10-25: CONTROLLED DETECTOR INSTRUMENTS AND CLOSED THERMAL ENDPOINTS.**

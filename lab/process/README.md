@@ -7,8 +7,8 @@ updated_at: "2026-08-23"
 
 # Process
 
-- [Provisional k2079-smooth-detector-energy](k2079-smooth-detector-energy.json).
-- [Provisional k2080-local-car-detector](k2080-local-car-detector.json).
+- [k2079-smooth-detector-energy](k2079-smooth-detector-energy.json), internally reviewed conditional mathematics.
+- [k2080-local-car-detector](k2080-local-car-detector.json), internally reviewed conditional mathematics.
 
 - [k2077-controlled-detector-response](k2077-controlled-detector-response.json).
 - [k2078-thermal-certificate-endpoints](k2078-thermal-certificate-endpoints.json).

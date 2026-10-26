@@ -8,14 +8,14 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-## 2026-10-26: Provisional smooth-energy and local CAR detector candidates
+## 2026-10-26: Reviewed smooth-energy and local CAR detectors
 
-K2079 and K2080 are provisional constructions pending field-relevant specialist review. K2079 derives smooth prepared-control energy bounds and an explicit supplied classical-source resource account, separating species scattering from a shared memory. K2080 constructs same-carrier CAR number/spin readouts with vacuum noise, an all-outcome finite-radius Bell lower bound64/25, and finite postmeasurement vacuum excitation energy. Same-author exact algebra, rational checks and finite numerical controls pass; no independent acceptance, source verdict, ledger or canon change.
+Independent internal operator/PDE and CAR/field specialist agents accepted corrected K2079/K2080 conditional mathematics. K2079 derives smooth prepared-control energy and supplied classical-source bounds; species scattering is not shared memory. K2080 constructs same-carrier CAR readouts with vacuum noise, all-outcome CHSH>64/25 and finite postmeasurement vacuum excitation energy. Review corrected test-coverage wording, made the cutoff-gradient hypothesis explicit, and replaced an assertion-altering mutation with a saved-evidence fault checked against independent CAR algebra. No source, physics-ledger or canon verdict changes; point-local finite-duration apparatus and source-real compatibility remain open.
 
 - [K2079](explorations/conditional-build/k2079-smooth-detector-energy-2026-10-26.md).
 - [K2080](explorations/conditional-build/k2080-local-car-detector-2026-10-26.md).
 
-K2079: exact resource identities, Clifford-commutant and exponential-series checks,8 species-dimension rows and6 finite numerical graph controls;6 planted faults caught. K2080: exact four-mode CAR/sea/spin/singlet/instrument/reflection-energy identities and200 rational tail checks;7 planted faults caught. Manifest/coefficient checks are reporting controls; finite matrices do not establish continuum proofs. No specialist, external or proof-assistant acceptance.
+K2079: exact resource identities, Clifford-commutant and exponential-series checks,8 species-dimension rows and6 finite numerical graph controls;6 planted faults caught. K2080: exact four-mode CAR/sea/spin/singlet/instrument/reflection-energy identities and200 rational tail checks;7 planted faults caught. Manifest/coefficient checks are reporting controls; finite matrices do not establish continuum proofs. Independent internal field-relevant agent review accepted the corrected conditional arguments; no external or proof-assistant certification.
 
 
 ## 2026-10-25: Controlled detector instruments and closed thermal endpoints
