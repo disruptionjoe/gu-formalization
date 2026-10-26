@@ -99,8 +99,27 @@ def test(fault):
         col=s.eye(4)[:,j];target=s.eye(4)[:,j+2]
         check(zero(correction*U*col-target),'entire selected-subspace capture with internal mixing')
 
+    # Cutoff-like physical smear with both energy signs, in actual sea excitation representation.
+    ap=annihilator(3,0);ah=annihilator(3,1);dm=annihilator(3,2)
+    cp0=s.Rational(3,5);ch0=s.Rational(4,5);gg=s.Rational(2,3)
+    br=cp0*ap+ch0*ah.T
+    if fault=='omit_cutoff_hole':br=cp0*ap
+    VR=gg*(dm.T*br+br.conjugate().T*dm);Videal=gg*(dm.T*ap+ap.T*dm)
+    residual=VR-Videal;ev=residual.eigenvals();norm=max(abs(x) for x in ev)
+    check(s.simplify(norm-gg*s.sqrt(2-2*cp0))==0,'full many-body cutoff coupling norm')
+    free=lift(s.diag(2,3,2));H=free+VR
+    if fault=='wrong_cutoff_pulse':H=free+2*VR
+    vac=s.zeros(8,1);vac[0]=1;nm=dm.T*dm
+    coeff=(vac.T*H*nm*H*vac)[0]
+    check(coeff==gg*gg*ch0*ch0,'actual sea pair-creation short-time noise')
+    # Smooth-cutoff inequality model: weighted values chi in[0,1].
+    weights=[s.Rational(1,2),s.Rational(1,2)];chi=[s.Rational(1,2),s.Integer(1)]
+    c2=sum(w*x*x for w,x in zip(weights,chi));av=sum(w*x for w,x in zip(weights,chi));c=s.sqrt(c2)
+    delta2=2*(1-av/c)
+    check(delta2>=0 and delta2<=2*(1-c),'normalized spatial cutoff distance bound')
+
     # Exact telescoping identity on noncommuting small unitary matrices, not a continuum proof.
     A=s.Matrix([[s.Rational(3,5),-s.Rational(4,5)],[s.Rational(4,5),s.Rational(3,5)]])
     B=s.diag(1,-1);C0=s.Matrix([[0,-1],[1,0]]);D=s.eye(2)
     check(zero(A*B-C0*D-((A-C0)*B+C0*(B-D))),'composition telescoping identity')
-if __name__=='__main__':harness(test,['unsigned_fermionic_swap','wrong_coarse_record','omit_capture_readout','refined_readout','omit_idle_residual','wrong_memory_drift'])
+if __name__=='__main__':harness(test,['unsigned_fermionic_swap','wrong_coarse_record','omit_capture_readout','refined_readout','omit_idle_residual','wrong_memory_drift','omit_cutoff_hole','wrong_cutoff_pulse'])

@@ -189,7 +189,85 @@ Without that verified premise, only closeness to the reference dynamics is
 proved, not to the desired instrument. This states the exact missing seam
 for finite-duration or sequential controls instead of silently dropping drift.
 
-## 5. Verification and next question
+## 5. Further construction: compact spatial smearing with an explicit error
+
+Return to the two reducing particle/hole sectors with fixed normalized
+positive-excitation wavepackets. For one particle sector, write its underlying
+physical Dirac mode as f with P_positive f=f. Let chi_R be a smooth real spatial
+cutoff, 0<=chi_R<=1, compactly supported, tending pointwise to1 as R grows.
+For c_R=||chi_R f||>0 put f_R=chi_R f/c_R and delta_R=||f_R-f||. Then
+
+    delta_R²=2(1-<f,chi_R f>/c_R)<=2(1-c_R) ->0,
+    ||Q_negative f_R||²<=delta_R².                     (6)
+
+The first inequality uses chi_R²<=chi_R. This is an explicit approximation,
+not simultaneous exact band limitation and compact support. Cutoff modes
+are no longer strictly positive-energy or finite-band. Use the PHYSICAL sea
+CAR field b(f_R)=a(P_positive f_R)+a*(conjugate(Q_negative f_R)), and supply
+
+    V_R=g(d* b(f_R)+b(f_R)* d).                         (7)
+
+Using only a(P_positive f_R) would reintroduce the nonlocal spectral projection
+and would be a different interaction. The original V uses b(f)=a(f). Since
+b(f_R-f)/delta_R and d are orthogonal normalized CAR modes, their exchange
+operator has eigenvalues0,+1,-1,0 on the two-mode algebra. This holds also
+in the sea representation. Consequently
+
+    ||V_R-V||=|g|delta_R.                              (8)
+
+It is bounded even though V_R need not conserve excitation number. The same
+free field/memory Hamiltonian plus either bounded interaction is self-adjoint
+on the free domain. Duhamel applies directly to these FULL many-body operators;
+no second quantization of a positive-only one-particle unitary is asserted
+for V_R. For a hole excitation labelled by a physical negative-energy q (Q_negative q=q),
+its annihilator is b(q)* with the conjugate-hole identification, not b(q).
+Use q_R=chi_R q/||chi_R q|| and replace it by b(q_R)*. Its unwanted
+particle component has norm ||P_positive q_R||. The same CAR norm estimate
+holds with that conjugation; using b(q_R) would exchange the wrong operator.
+
+Replace both simultaneous capture/release couplings this way, retaining the
+same supplied instantaneous memory gates. Triangle inequality adds
+
+    pi(delta_R,1+delta_R,2)                            (9)
+
+to the upper bound(3), capped at1 overall. More generally add the actual
+integral of sum_j |g_j(t)|delta_R,j(t) over all replaced intervals. This bound
+requires neither exact orthogonality of the cutoffs across species nor a new
+ideal code: it compares the perturbed operator to the SAME reference circuit.
+For unseparated same-species modes, use the sum bound on the actual interaction
+terms; do not assert independent exact swaps after cutoff. Memory phase
+rotations are unchanged and act only on the memory registers.
+
+There is a physical cost besides the loss of a sharp band. With sea vacuum
+and an empty particle memory initially, a constant pulse g beginning at t=0
+has, for f_R in Dom D and memory energy finite,
+
+    p_memory(t)=g² ||Q_negative f_R||² t²+o(t²).        (10)
+
+Indeed n_d annihilates the initial vacuum and the memory-occupied part of
+H Omega is g d* a*(conjugate(Q_negative f_R))Omega.
+The free Hamiltonian annihilates the excitation vacuum. Strong differentiability
+of exp(-itH)Omega suffices for this leading norm-square expansion. Smooth
+cutoffs of a smooth finite-band spinor lie in Dom D. A sharp discontinuous
+cutoff is not substituted for that hypothesis. Equation(10) is short-time
+noise, not a final-time error floor: later coherent cancellation is not excluded.
+It is not a finite-time thermal formula or total energy/work budget. No
+finite-radius convergence rate follows without a tail bound for the fixed f.
+The Hamiltonian remains bounded below as a bounded perturbation of the free
+Hamiltonian, but need not remain nonnegative relative to the original sea
+vacuum. If g Q_negative f_R is nonzero, H Omega is nonzero while
+<Omega,H Omega>=0, which is impossible for H>=0. This is a ground-energy
+shift, not an unbounded-below instability. K2099's positive-number-conserving
+Schur criterion does not apply to(7).
+
+This supplies compact spatially smeared control with a uniform comparison
+error and a quantified sea-contamination mechanism. The SAME single memory
+couples to the entire support; it is still not a spacetime-local distributed
+apparatus. A compact region is not one point, and its internal communication
+has not been supplied. K2081's causal warning survives. A local mediator and
+finite-duration gate remain substantive next constructions.
+
+## 6. Verification and next question
 
 Exact finite CAR matrices verify all16 code matrix units with an explicit
 readable pointer, code return, even parity and nonselective coherence witness.
@@ -197,7 +275,9 @@ Gate/order/sign/record mutations corrupt the actual maps before comparison.
 A separate four-field/two-memory finite example checks the full-rank leakage
 trace norm, non-diagonal internal memory dynamics and capture of the entire
 selected subspace. It detects omission of spectator drift and incorrect memory
-Hamiltonian. These finite controls are not continuum certificates; the analytic transfer
+Hamiltonian. An actual three-excitation-mode sea coupling also verifies the norm in(8)
+and the short-time coefficient(10), with faults that omit the hole term or
+alter the pulse. These finite controls are not continuum certificates; the analytic transfer
 is(3) with K2099's full-Fock rank-two bound. Independent internal review checks
 that bridge and its state-dependent preparation caveat. The next substantive
 choice compares a spacetime-local approximation to the spectral coupling,

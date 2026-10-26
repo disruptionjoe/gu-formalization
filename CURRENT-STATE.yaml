@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 019e037cdb2d3f5d70157913310609086bafb719
+revision_basis: 0de06647613e7e897c3e788ba1d8b0786066a6b0
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -64,10 +64,13 @@ current_result:
     local return to reference decoupling and distinguishes pure excitation reset from mixed
     physical-mode reset, including parity restrictions. K2101 composes a readable coarse
     instrument and extends capture to any finite selected subspace with leakage trace-norm
-    error pi||QhP||_1/g. Independent review corrected idle-sector drift, pointer correlations
-    and phase/spectator conventions. These are conditional mathematical results with spatially
-    smeared controls and supplied gates, not a causally local apparatus, source-selected
-    state/dynamics, physical recovery or source/ledger/canon promotion.
+    error pi||QhP||_1/g. A further physical-CAR cutoff construction makes the spatial smearing
+    compact with a uniform operator-error bound and explicit short-time sea-noise onset, while
+    the shared memory remains causally nonlocal. Independent review corrected idle-sector
+    drift, pointer correlations and phase/spectator conventions. These are conditional
+    mathematical results with spatially smeared controls and supplied gates, not a causally
+    local apparatus, source-selected state/dynamics, physical recovery or source/ledger/canon
+    promotion.
 
     Historical predecessor (not live):
     K2096 constructs a causal one-particle chiral boundary unitary and proves exact capture
@@ -18211,7 +18214,7 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can the proved massive finite-band smeared instrument be replaced by a spacetime-local
+  Can the proved massive compactly smeared instrument be replaced by a spacetime-local
   interaction and finite-duration gate, does a source-selected observed algebra bridge win
   next, or can a new global thermal inequality change the frontier?
 
@@ -21981,16 +21984,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Compare a spacetime-local approximation to K2101 spectral coupling, with a proved
-  error/localization budget and actual finite-duration gate, against the source-selected
-  observed neutral-algebra/dynamics intertwiner and a new thermal163 multi-terminal or164
-  cap-path31322/32222/3332 certificate. K2099/2101 now supply massive finite-band smeared
-  transfer and general finite-subspace full-Fock control; do not repeat generic finite
-  circuits or Markov capture. K2100 permits state-dependent pure excitation reset with
-  references, not purification of mixed physical sea modes or a uniform energy-only reset
-  clock. Retain K2085 closed interval/dimension41, full20/K-C/accessibility,
-  native2+1/chirality, mirror/fullII/normaljets, near5/4, nonlattice and exact cap-
-  preserving wings.
+  Compare a distributed local mediator for K2101 compact spatial smear, with finite-speed
+  communication and an actual finite-duration gate, against the source-selected observed
+  neutral-algebra/dynamics intertwiner and a new thermal163 multi-terminal or164 cap-
+  path31322/32222/3332 certificate. K2099/2101 now supply massive finite-band transfer,
+  general finite-subspace full-Fock control and compact physical-CAR cutoff approximation;
+  do not repeat generic finite circuits or Markov capture. K2100 permits state-dependent
+  pure excitation reset with references, not purification of mixed physical sea modes or a
+  uniform energy-only reset clock. Retain K2085 closed interval/dimension41,
+  full20/K-C/accessibility, native2+1/chirality, mirror/fullII/normaljets, near5/4,
+  nonlattice and exact cap-preserving wings.
 
   Historical predecessor (not live):
   Compare a derived finite-bandwidth massive-field-to-memory interface with the actual
