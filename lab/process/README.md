@@ -7,6 +7,10 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2087-relative-measurement-energy](k2087-relative-measurement-energy.json).
+- [k2088-even-ground-selection](k2088-even-ground-selection.json).
+- [k2089-distributed-smooth-transfer](k2089-distributed-smooth-transfer.json).
+
 - [k2084-continuum-instrument-limit](k2084-continuum-instrument-limit.json).
 - [k2085-thermal-boundary-slack](k2085-thermal-boundary-slack.json).
 - [k2086-ground-state-selection](k2086-ground-state-selection.json).

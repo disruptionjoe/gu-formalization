@@ -7,6 +7,10 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2087-relative-measurement-energy](conditional-build/k2087-relative-measurement-energy-2026-10-26.md).
+- [k2088-even-ground-selection](conditional-build/k2088-even-ground-selection-2026-10-26.md).
+- [k2089-distributed-smooth-transfer](conditional-build/k2089-distributed-smooth-transfer-2026-10-26.md).
+
 - [k2084-continuum-instrument-limit](conditional-build/k2084-continuum-instrument-limit-2026-10-26.md).
 - [k2085-thermal-boundary-slack](conditional-build/k2085-thermal-boundary-slack-2026-10-26.md).
 - [k2086-ground-state-selection](conditional-build/k2086-ground-state-selection-2026-10-26.md).

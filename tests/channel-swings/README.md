@@ -542,6 +542,13 @@ the ledger probe uses the standard Python interpreter.
 
 # Selected-Shiab observed-receiver probes
 
+- [k2087_relative_measurement_energy](k2087_relative_measurement_energy.py).
+- [k2087_relative_measurement_energy_probe](k2087_relative_measurement_energy_probe.py).
+- [k2088_even_ground_selection](k2088_even_ground_selection.py).
+- [k2088_even_ground_selection_probe](k2088_even_ground_selection_probe.py).
+- [k2089_distributed_smooth_transfer](k2089_distributed_smooth_transfer.py).
+- [k2089_distributed_smooth_transfer_probe](k2089_distributed_smooth_transfer_probe.py).
+
 ## 2026-10-22: Scalar certificates and thermal pricing
 
 - K1963: `k1963_effective_scalar_cut_certificates.py` and `_probe.py`: exhaustive unions, exact mincut, separate ODE/transport/quadrature and fault controls.

@@ -1,0 +1,15 @@
+{
+  "id": "K2087",
+  "status": "internally_reviewed_conditional_mathematics",
+  "scope": "conditional mathematics; finite controls support explicitly written continuum proofs",
+  "constants": {
+    "single_factor": 2,
+    "paired_factor": 2,
+    "commutator_bound": 4,
+    "unequal_coarse": "17/100"
+  },
+  "inputs": {
+    "lab/process/k2082-charge-conjugate-detectors.json": "5786d52ec14e86881d59515e4547bbb4dc37145c11a8f0716de3d03b9bc1479a",
+    "lab/process/k2086-ground-state-selection.json": "9819e776504148de7a01ce24650c6396afda1274ed29c61f90cbdc7780eea242"
+  }
+}

@@ -7,6 +7,10 @@ updated_at: "2026-10-26"
 
 # Next Steps For Contributors
 
+> **2026-10-26: RELATIVE ENERGY, NEUTRAL GROUND SELECTION AND DISTRIBUTED TRANSFER.**
+> Reuse K2087 relative energy and K2088 neutral-plus-complement selection; do not repeat the even-only selector. K2089 supplies actual smooth distributed transfer and selected-mode return, not a collective readout. Compare a coherent readout preserving paired vacuum/two-particle coherence and its causal record budget with a source-selected observed neutral algebra/state bridge and a new thermal163 multi-terminal or164 cap-path certificate (31322/32222/3332). K2085 closed interval and dimension41 remain unchanged. Preserve full20/K-C/accessibility, native2+1/chirality, mirror/fullII/normaljets, near5/4, nonlattice and exact cap-preserving wing debts.
+> Prior banners preserve historical questions; no source or ledger promotion.
+
 > **2026-10-26: CONTINUUM LIMITS, THERMAL EXTENSION AND STATE SELECTION.**
 > Reuse K2084 endpoint convergence and shrinking-root obstruction; construct an actual fixed-radius or distributed causal apparatus instead of refining the same singular funnel. K2086 state symmetry and purity do not select the sea; full-CAR ground selection is an additional imported premise, with thermal background error and energy-limited floor quantified. Compare source-selected state/observation or thermal relative-measurement energy with a state-aware multi-terminal163 certificate and coverage of164 cap paths31322,32222,3332. K2085 has already strengthened185/186 and163 and classified the new closed endpoints; nonattainment alone is not further interval extension. Preserve full20/K-C/accessibility, native2+1/chirality, mirror/fullII/normaljets, near5/4, nonlattice and exact cap-preserving wing debts.
 > Earlier banners retain historical questions at their original scope.

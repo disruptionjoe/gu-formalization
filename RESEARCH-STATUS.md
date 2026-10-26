@@ -8,6 +8,33 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## K2087--K2089: Relative energy, operational ground selection and distributed transfer (2026-10-26)
+
+K2087 defines finite relative measurement energy in infinite-volume thermal states without
+subtracting infinite totals, proves thermal positivity and the exact coarse-versus-refined
+paired cost under explicit complement and sector hypotheses, and sharpens the sea bound.
+K2088 proves that even ground tests select the sea on the nonatomic massive spectrum;
+retaining particle-hole complement makes charge-neutral tests sufficient even without
+nonatomicity. Finite parity and shifted-sea controls expose the necessary hypotheses. K2089
+constructs conjugation-compatible smooth distributed species transfer with finite final
+doubled-sea excitation energy and a selected-mode return, while preserving the collective-
+readout and full-system inverse obligations. Three independent internal specialist reviews
+accepted corrected arguments. No complete continuum measurement apparatus, total-work bound,
+source-selected state, source/physics-ledger or canon change is claimed.
+
+- [K2087](explorations/conditional-build/k2087-relative-measurement-energy-2026-10-26.md).
+- [K2088](explorations/conditional-build/k2088-even-ground-selection-2026-10-26.md).
+- [K2089](explorations/conditional-build/k2089-distributed-smooth-transfer-2026-10-26.md).
+
+Exact finite CAR probes verify covariance pinching, four-Kraus refined and coarse energy,
+population counterexamples, pair and neutral ground witnesses, b squared minus identity,
+finite-parity and shifted-sea controls, signed species transfer including anomalous even
+coherence, and the actual particle/hole coarse readout counterexample. Sixteen planted
+mathematical faults are rejected after clean baselines. Three dependency checks establish
+only input custody. Infinite-volume energy, nonatomic spectrum and continuum pulse
+conclusions rest on the written analytic arguments and the explicitly reused K1897 theorem,
+not finite matrices or external certification.
+
 ## K2084--K2086: Continuum limits, thermal extension and state selection (2026-10-26)
 
 K2084 proves ancilla-uniform convergence of full single/paired CAR instruments under cell

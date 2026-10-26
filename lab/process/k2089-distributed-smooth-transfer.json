@@ -1,0 +1,15 @@
+{
+  "id": "K2089",
+  "status": "internally_reviewed_conditional_mathematics",
+  "scope": "conditional mathematics; finite controls support explicitly written continuum proofs",
+  "constants": {
+    "swap_phase": "signed-real",
+    "coarse_coherence": "1/2",
+    "refined_coherence": 0
+  },
+  "inputs": {
+    "lab/process/k1897-smooth-pulse-energy.json": "5d88307e473c40f4eadc50cc7b0e3f6c8359ecc1ca76872d6b4bfda8540d1a8f",
+    "lab/process/k2084-continuum-instrument-limit.json": "f9d677f8d2e1a555ce9b355b2cf20ebde29568212149d83a31e3189bcc4805a6",
+    "lab/process/k2082-charge-conjugate-detectors.json": "5786d52ec14e86881d59515e4547bbb4dc37145c11a8f0716de3d03b9bc1479a"
+  }
+}
