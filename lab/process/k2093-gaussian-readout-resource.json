@@ -1,0 +1,28 @@
+{
+  "id": "K2093",
+  "status": "internally_reviewed_conditional_mathematics",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "artifact": "explorations/conditional-build/k2093-gaussian-readout-resource-2026-10-26.md",
+  "probe": "tests/channel-swings/k2093_gaussian_readout_resource_probe.py",
+  "scope": "Conditional mathematics on explicitly supplied objects; source, physics ledger and canon unchanged",
+  "evidence_kinds": {
+    "universal_claims": "written proofs and independent internal specialist review",
+    "finite_checks": "exact matrices and genuine input/gate mutations",
+    "custody": "dependency hashes, not mathematical proof"
+  },
+  "independent_review": {
+    "status": "accepted_after_corrections",
+    "tier": "internal specialist-agent review; not external certification",
+    "charges": [
+      "strongest overclaim",
+      "strongest counterconstruction",
+      "weakest reproducibility seam"
+    ],
+    "review_findings": "Random quadratic phases repair local even backaction; full extension and readable outcome differ. Added genuinely paired control."
+  },
+  "dependency_sha256": {
+    "explorations/conditional-build/k2093-gaussian-readout-resource-2026-10-26.md": "0d031bcaff1974f8373ee0aa7179a8319750fa05851bc5d3f80d8f279e6eadca",
+    "tests/channel-swings/k2093_gaussian_readout_resource_probe.py": "9173100127b60fb1bd2079141a786f0d7c545f369ba0068a281227353a51e4fb"
+  }
+}

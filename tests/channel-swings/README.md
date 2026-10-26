@@ -542,6 +542,10 @@ the ledger probe uses the standard Python interpreter.
 
 # Selected-Shiab observed-receiver probes
 
+- [k2093_gaussian_readout_resource_probe](k2093_gaussian_readout_resource_probe.py).
+- [k2094_local_collective_kernel_boundary_probe](k2094_local_collective_kernel_boundary_probe.py).
+- [k2095_normal_stationary_state_selection_probe](k2095_normal_stationary_state_selection_probe.py).
+
 - [k2090_coherent_coarse_readout_probe](k2090_coherent_coarse_readout_probe.py).
 - [k2091_intrasector_record_disturbance_probe](k2091_intrasector_record_disturbance_probe.py).
 - [k2092_robust_neutral_ground_selection_probe](k2092_robust_neutral_ground_selection_probe.py).

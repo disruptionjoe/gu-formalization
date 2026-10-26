@@ -7,6 +7,31 @@ updated_at: "2026-10-26"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K2093--K2095: Control-class limits and normal stationary states (2026-10-26)
+
+K2093 proves a sharp sqrt(2)-1 Gaussian-output separation and a bath-resource lower bound
+for coarse readout, with an exact randomized quadratic repair on local parity-even states
+and a distinct full-CAR extension limit. K2094 proves sharp one-particle generator and
+finite-phase distances from pointwise controls, plus a transport-depth error bound; time-
+ordered transport remains viable. K2095 proves vacuum uniqueness among globally normal
+stationary states in the specified free infinite-volume sea representation without
+quasifreeness, with compact diagnostic dispersion and bounded-energy approximately
+stationary counterfamilies. Independent internal specialist reviews and exact controls
+support these conditional mathematical results. No source-selected dynamics/state, completed
+continuum instrument, physical recovery or source/ledger/canon change is claimed.
+
+- [K2093](explorations/conditional-build/k2093-gaussian-readout-resource-2026-10-26.md).
+- [K2094](explorations/conditional-build/k2094-local-collective-kernel-boundary-2026-10-26.md).
+- [K2095](explorations/conditional-build/k2095-normal-stationary-state-selection-2026-10-26.md).
+
+Three exact SymPy1.14.0 probes check CAR/Wick and Gaussian saturating states, genuine
+pairing rotations, all even matrix units and odd-extension witness, collective phase and
+transport identities, atomic countercontrols, finite-box stationary rivals and spectral-
+shell formulas. Twelve genuine state/input/gate faults are detected after clean baselines.
+Universal normal-form, nonatomic-kernel and continuous-spectrum conclusions rest on written
+proofs and three independent internal specialist reviews; finite matrices do not certify
+continuum statements. Neither evidence kind is external or proof-assistant certification.
+
 ## K2090--K2092: Readable measurement resources, coherence and robust state selection (2026-10-26)
 
 K2090 constructs an exact coherent coarse-readout interface and proves the finite apparatus

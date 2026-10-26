@@ -1,0 +1,28 @@
+{
+  "id": "K2095",
+  "status": "internally_reviewed_conditional_mathematics",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "artifact": "explorations/conditional-build/k2095-normal-stationary-state-selection-2026-10-26.md",
+  "probe": "tests/channel-swings/k2095_normal_stationary_state_selection_probe.py",
+  "scope": "Conditional mathematics on explicitly supplied objects; source, physics ledger and canon unchanged",
+  "evidence_kinds": {
+    "universal_claims": "written proofs and independent internal specialist review",
+    "finite_checks": "exact matrices and genuine input/gate mutations",
+    "custody": "dependency hashes, not mathematical proof"
+  },
+  "independent_review": {
+    "status": "accepted_after_corrections",
+    "tier": "internal specialist-agent review; not external certification",
+    "charges": [
+      "strongest overclaim",
+      "strongest counterconstruction",
+      "weakest reproducibility seam"
+    ],
+    "review_findings": "Global normality and full-Fock compactness explicit; probe scope narrowed; matched-probe nonuniform-rate limits stated."
+  },
+  "dependency_sha256": {
+    "explorations/conditional-build/k2095-normal-stationary-state-selection-2026-10-26.md": "f4a450a774d773149fd4f7e2a35f2856897df19bff874f9724936a9c843cff38",
+    "tests/channel-swings/k2095_normal_stationary_state_selection_probe.py": "f9aadf18678dbb41317aeb4d10c4cd46571f1b03889784ae3e505aa9721587d4"
+  }
+}

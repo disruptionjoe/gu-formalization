@@ -7,6 +7,10 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2093-gaussian-readout-resource](conditional-build/k2093-gaussian-readout-resource-2026-10-26.md).
+- [k2094-local-collective-kernel-boundary](conditional-build/k2094-local-collective-kernel-boundary-2026-10-26.md).
+- [k2095-normal-stationary-state-selection](conditional-build/k2095-normal-stationary-state-selection-2026-10-26.md).
+
 - [k2090-coherent-coarse-readout](conditional-build/k2090-coherent-coarse-readout-2026-10-26.md).
 - [k2091-intrasector-record-disturbance](conditional-build/k2091-intrasector-record-disturbance-2026-10-26.md).
 - [k2092-robust-neutral-ground-selection](conditional-build/k2092-robust-neutral-ground-selection-2026-10-26.md).

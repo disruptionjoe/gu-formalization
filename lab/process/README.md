@@ -7,6 +7,10 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2093-gaussian-readout-resource](k2093-gaussian-readout-resource.json).
+- [k2094-local-collective-kernel-boundary](k2094-local-collective-kernel-boundary.json).
+- [k2095-normal-stationary-state-selection](k2095-normal-stationary-state-selection.json).
+
 - [k2090-coherent-coarse-readout](k2090-coherent-coarse-readout.json).
 - [k2091-intrasector-record-disturbance](k2091-intrasector-record-disturbance.json).
 - [k2092-robust-neutral-ground-selection](k2092-robust-neutral-ground-selection.json).

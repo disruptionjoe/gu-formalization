@@ -1,0 +1,28 @@
+{
+  "id": "K2094",
+  "status": "internally_reviewed_conditional_mathematics",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "artifact": "explorations/conditional-build/k2094-local-collective-kernel-boundary-2026-10-26.md",
+  "probe": "tests/channel-swings/k2094_local_collective_kernel_boundary_probe.py",
+  "scope": "Conditional mathematics on explicitly supplied objects; source, physics ledger and canon unchanged",
+  "evidence_kinds": {
+    "universal_claims": "written proofs and independent internal specialist review",
+    "finite_checks": "exact matrices and genuine input/gate mutations",
+    "custody": "dependency hashes, not mathematical proof"
+  },
+  "independent_review": {
+    "status": "accepted_after_corrections",
+    "tier": "internal specialist-agent review; not external certification",
+    "charges": [
+      "strongest overclaim",
+      "strongest counterconstruction",
+      "weakest reproducibility seam"
+    ],
+    "review_findings": "Nonatomicity and empty-Fock core explicit; atomic counterexample included; existing funnel cited without duplicate construction."
+  },
+  "dependency_sha256": {
+    "explorations/conditional-build/k2094-local-collective-kernel-boundary-2026-10-26.md": "fd1d9f4e3ce94660511c0a93a090a95058a313f3e9281796d2b48cedd5c41aa5",
+    "tests/channel-swings/k2094_local_collective_kernel_boundary_probe.py": "e3db29030ff73e5d4ba4144c5244ecac03b0a98516974359c7e5f9d3161dce35"
+  }
+}
