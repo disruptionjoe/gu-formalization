@@ -50,6 +50,22 @@ source records, papers, and branch-relative current state.
 - No publication, account action, submission, or other external effect occurs
   without the maintainer's exact authorization.
 
+## Standing independent review request
+
+For routine scientific acceptance, the maintainer explicitly requests and
+authorizes read-only specialist subagents with relevant mathematical or physical
+expertise to independently review concrete candidate results. This standing
+request does not require renewed chat approval for each review. Reviewers load
+the applicable source-native prerequisites above, challenge the strongest
+overclaim and counterconstruction, and inspect the weakest reproducibility seam.
+They do not edit owner truth, change governance, or take external actions; the
+lead agent integrates findings and serializes local verification.
+
+Permission to review is not acceptance. Keep a candidate provisional until its
+required independent review and native checks pass; internal agent review is
+not external-expert or proof-assistant certification. An unavailable review
+restricts acceptance and claims that depend on it, not safely separable research.
+
 ## Repository boundary
 
 The repository contains only native research truth and the procedures needed
