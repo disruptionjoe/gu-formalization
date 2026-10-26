@@ -7,6 +7,33 @@ updated_at: "2026-10-26"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K2084--K2086: Continuum limits, thermal extension and state selection (2026-10-26)
+
+K2084 proves ancilla-uniform convergence of full single/paired CAR instruments under cell
+approximation, while the shrinking-root funnel has no strong continuum limit and its
+concentrated modes require divergent mean absolute one-particle energy. K2085 strengthens
+thermal185/186 and then163 using true tail thresholds and global boundary slack, extending
+the exact CLOSED optimizer interval to approximately[2.4587933367,2.5339365474]; unique
+occupied N20 and minimum physical dimension41 persist at both endpoints. K2086 exhibits
+stationary conjugation-compatible thermal and pure rivals, proves the conditional full-CAR
+ground criterion selects the sea, and supplies temperature/energy-dependent paired-
+detector noise bounds. Three independent internal specialist reviews accepted corrected
+arguments. No continuum apparatus, total-work bound, source-selected state, external
+certification, source/physics-ledger or canon change is claimed.
+
+- [K2084](explorations/conditional-build/k2084-continuum-instrument-limit-2026-10-26.md).
+- [K2085](explorations/conditional-build/k2085-thermal-boundary-slack-2026-10-26.md).
+- [K2086](explorations/conditional-build/k2086-ground-state-selection-2026-10-26.md).
+
+K2084 exact CAR/ancilla/projection/smoothing controls reject7 faults; K2086 exact
+covariance, pure-band, ground-sign and thermal-click controls reject7 faults. K2085
+independently recomputes20975 raw bath returns, checks63067 low/high inequalities,671
+affine lines,3 physical witnesses and closed-endpoint equality conditions;8 mathematical
+faults rejected. Finite controls support written continuum/spectral/countable proofs;
+reused geometry and equality inputs are pinned, not newly reconstructed. Internal
+specialist acceptance is not external or proof-assistant certification.
+
+
 ## K2081--K2083: causal apparatus, conjugate detector and thermal extension (2026-10-26)
 
 K2081 proves causal record/error lower bounds and constructs exact finite-graph number-measurement circuits, with a Cartesian parallel schedule whose duration is uniform under mesh refinement. K2082 constructs a low-noise charge-conjugation-invariant particle/hole detector compatible with the inherited square-minus-one anti-involution, with excitation-energy bound, transferred causal witnesses and coherent paired finite-graph realization. K2083 strengthens thermal188/235 certificates and extends the exact optimum interval to approximately[2.4587933367,2.5241567312]; unique occupied N20 and minimum physical dimension41 hold throughout the closed interval. Independent internal specialist reviews accepted all three corrected conditional arguments. Endpoint164 is excluded by its necessary equality-ray energy and185 by a quantitative boundary slack; finite graph circuits supply no continuum resource bound, and compatibility is not source selection. Source, physics-ledger and canon verdicts remain unchanged.

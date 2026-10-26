@@ -1,0 +1,92 @@
+{
+  "id": "K2085",
+  "scope": "conditional thermal certificate; analytic transfer and independent review required",
+  "inputs": {
+    "lab/process/k2059-energy-aware-thermal-tail.json": "4aaa708aa2835f50c397b2c1ac7669b71d092706d8da387f322301f70948112e",
+    "lab/process/k2066-thermal-terminal-response.json": "bfceece25ab2f8eea62995167c4a23f4541db5ed38c7f72faa8b63ac7e961be3",
+    "lab/process/k2070-joint-terminal-thermal-bound.json": "bfb3ffedb6fce1a3a8bab5ff22e134183b2209b3497e24d598c8ac141df00d23",
+    "lab/process/k2072-compulsory-ladder-thermal-bound.json": "cc35f286066d45fdcd596e05e9f1ccf255351af807299755559316797f4ea45d",
+    "lab/process/k2074-subdivided-incoming-thermal-bound.json": "a3aec95b13665228b82ed324f90473289bc53fb81b1effd7e438838b38f0a74e",
+    "lab/process/k2083-thermal-certificate-strengthening.json": "4676f3f0a2c067da034cf4d404afebc956ab42218a5fa8f263c5902819ff5142",
+    "lab/process/k2045-third-thermal-spacing-phase.json": "6641419ca109d3cbbcd21014913ed22a710f9b1c2249974ba0bb593b9591a637",
+    "lab/process/k2068-thermal-population-construction.json": "73720b55b6b636a7b7d10ad068c6d7081b121d63fd4a471a22741ab031feda42",
+    "lab/process/k2075-thermal-equality-rigidity.json": "319f13c96c3417c5e91ab16264c9deb79049c21f8e7700fe4493171a6bc88b38"
+  },
+  "replacements": {
+    "163": {
+      "kind": "uniform_true_tail",
+      "a": "54556082/176056025",
+      "s": "-4397853/352112050",
+      "eta": "4/25",
+      "shift": 8,
+      "tail_floor": 12,
+      "boundary_shift": "14/1265"
+    },
+    "185": {
+      "kind": "uniform_true_tail",
+      "a": "47198/153775",
+      "s": "-1738/153775",
+      "eta": "4/25",
+      "shift": 10,
+      "tail_floor": 13,
+      "boundary_shift": "0"
+    },
+    "186": {
+      "kind": "uniform_true_tail",
+      "a": "212341/691675",
+      "s": "-7821/691675",
+      "eta": "4/25",
+      "shift": 10,
+      "tail_floor": 13,
+      "boundary_shift": "0"
+    }
+  },
+  "counts": {
+    "163": {
+      "low_vertices": 28,
+      "high_vertices": 20975,
+      "minimum_high_slack": "3764103117/72182970250",
+      "low_contacts": [
+        16
+      ]
+    },
+    "185": {
+      "low_vertices": 48,
+      "high_vertices": 20975,
+      "minimum_high_slack": "391228/6304775",
+      "low_contacts": [
+        29
+      ]
+    },
+    "186": {
+      "low_vertices": 66,
+      "high_vertices": 20975,
+      "minimum_high_slack": "1760046/28358675",
+      "low_contacts": [
+        41
+      ]
+    }
+  },
+  "lower_line": [
+    "178897536881397/603186054075536",
+    "-4369812550533/603186054075536"
+  ],
+  "previous_interval": [
+    "96425420388450086928001155398737098443070466271245/39216561615600457368730376349119426387920572239509",
+    "2221282318352775635/880009664584412611"
+  ],
+  "interval": [
+    "96425420388450086928001155398737098443070466271245/39216561615600457368730376349119426387920572239509",
+    "1411478601771723943027/557029971095177500779"
+  ],
+  "ties": [
+    [
+      164,
+      187
+    ],
+    [
+      163,
+      187
+    ]
+  ]
+}

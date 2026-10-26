@@ -1,0 +1,15 @@
+{
+  "id": "K2084",
+  "constants": {
+    "number_bound": 2,
+    "flagged_bound": 4,
+    "paired_bound": 4,
+    "mean_energy_factor": "1/2",
+    "smooth_projection_fraction": "8/pi**2"
+  },
+  "scope": "conditional mathematics; finite exact controls support written proofs",
+  "inputs": {
+    "lab/process/k2081-causal-instrument-realization.json": "6fc7c4906d550c1c4a9e5cce03fb0f40fec432f1413fed77819082ec2d24402d",
+    "lab/process/k2082-charge-conjugate-detectors.json": "5786d52ec14e86881d59515e4547bbb4dc37145c11a8f0716de3d03b9bc1479a"
+  }
+}

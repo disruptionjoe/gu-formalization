@@ -1,0 +1,14 @@
+{
+  "id": "K2086",
+  "constants": {
+    "paired_probability": "2*nu-nu**2",
+    "covariance_bound": "1/3",
+    "temperature_exponential": 249999,
+    "paired_budget": "1/62500"
+  },
+  "scope": "conditional mathematics; finite exact controls support written proofs",
+  "inputs": {
+    "lab/process/k2080-local-car-detector.json": "127f88841f23e9039bc9307454e8d92950bcd51204d8aa9d4d22e49403f618d3",
+    "lab/process/k2082-charge-conjugate-detectors.json": "5786d52ec14e86881d59515e4547bbb4dc37145c11a8f0716de3d03b9bc1479a"
+  }
+}

@@ -7,6 +7,10 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2084-continuum-instrument-limit](k2084-continuum-instrument-limit.json).
+- [k2085-thermal-boundary-slack](k2085-thermal-boundary-slack.json).
+- [k2086-ground-state-selection](k2086-ground-state-selection.json).
+
 ## 2026-10-26: reviewed K2081--K2083
 
 K2081 proves causal record/error lower bounds and constructs exact finite-graph number-measurement circuits, with a Cartesian parallel schedule whose duration is uniform under mesh refinement. K2082 constructs a low-noise charge-conjugation-invariant particle/hole detector compatible with the inherited square-minus-one anti-involution, with excitation-energy bound, transferred causal witnesses and coherent paired finite-graph realization. K2083 strengthens thermal188/235 certificates and extends the exact optimum interval to approximately[2.4587933367,2.5241567312]; unique occupied N20 and minimum physical dimension41 hold throughout the closed interval. Independent internal specialist reviews accepted all three corrected conditional arguments. Endpoint164 is excluded by its necessary equality-ray energy and185 by a quantitative boundary slack; finite graph circuits supply no continuum resource bound, and compatibility is not source selection. Source, physics-ledger and canon verdicts remain unchanged.

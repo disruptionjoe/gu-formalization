@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d57e4f2b70e6eaddafafb94dd2fa73db2e3da452
+revision_basis: d6f7915172f08f4001548b330cbb33895a7f905b
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -58,6 +58,19 @@ reviewed_research_2026_10_26:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2084 proves ancilla-uniform convergence of full single/paired CAR instruments under cell
+    approximation, while the shrinking-root funnel has no strong continuum limit and its
+    concentrated modes require divergent mean absolute one-particle energy. K2085 strengthens
+    thermal185/186 and then163 using true tail thresholds and global boundary slack, extending
+    the exact CLOSED optimizer interval to approximately[2.4587933367,2.5339365474]; unique
+    occupied N20 and minimum physical dimension41 persist at both endpoints. K2086 exhibits
+    stationary conjugation-compatible thermal and pure rivals, proves the conditional full-CAR
+    ground criterion selects the sea, and supplies temperature/energy-dependent paired-
+    detector noise bounds. Three independent internal specialist reviews accepted corrected
+    arguments. No continuum apparatus, total-work bound, source-selected state, external
+    certification, source/physics-ledger or canon change is claimed.
+
+    Historical predecessor (not live):
     K2081 proves causal record/error lower bounds and constructs exact finite-graph number-measurement circuits, with a Cartesian parallel schedule whose duration is uniform under mesh refinement. K2082 constructs a low-noise charge-conjugation-invariant particle/hole detector compatible with the inherited square-minus-one anti-involution, with excitation-energy bound, transferred causal witnesses and coherent paired finite-graph realization. K2083 strengthens thermal188/235 certificates and extends the exact optimum interval to approximately[2.4587933367,2.5241567312]; unique occupied N20 and minimum physical dimension41 hold throughout the closed interval. Independent internal specialist reviews accepted all three corrected conditional arguments. Endpoint164 is excluded by its necessary equality-ray energy and185 by a quantitative boundary slack; finite graph circuits supply no continuum resource bound, and compatibility is not source selection. Source, physics-ledger and canon verdicts remain unchanged.
 
     Historical predecessor (not live):
@@ -18117,6 +18130,12 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can a fixed-radius or distributed local apparatus realize the convergent CAR instrument
+  with uniform physical resources, can the imported ground-state criterion descend through a
+  source-selected observation map, and can multi-terminal thermal163/164 slack extend the
+  closed optimizer interval?
+
+  Historical predecessor (not live):
   Can the finite-graph single/paired CAR apparatus be approximated by continuum-local dynamics with uniform resources, which source criterion selects its conditional real structure/state, and can stronger thermal164/185 bounds extend the now closed optimizer interval?
 
   Historical predecessor (not live):
@@ -21856,6 +21875,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Reuse K2084 endpoint convergence and shrinking-root obstruction; construct an actual
+  fixed-radius or distributed causal apparatus instead of refining the same singular funnel.
+  K2086 state symmetry and purity do not select the sea; full-CAR ground selection is an
+  additional imported premise, with thermal background error and energy-limited floor
+  quantified. Compare source-selected state/observation or thermal relative-measurement
+  energy with a state-aware multi-terminal163 certificate and coverage of164 cap
+  paths31322,32222,3332. K2085 has already strengthened185/186 and163 and classified the new
+  closed endpoints; nonattainment alone is not further interval extension. Preserve
+  full20/K-C/accessibility, native2+1/chirality, mirror/fullII/normaljets, near5/4,
+  nonlattice and exact cap-preserving wing debts.
+
+  Historical predecessor (not live):
   Reuse reviewed K2081 causal error/duration witnesses and K2082 conjugation-compatible coarse particle/hole instrument. Compare a continuum-local approximation with regulator-uniform resources or a source-selected physical-state bridge against quantitatively strengthened thermal164/185 certificates or a different feasible population. Do not repeat basic R0/R1 existence (K2021), the paired anti-involution construction or strengthening188/235 alone. Preserve finite-regulator/continuum and compatibility/source-selection distinctions, source2+1/non-chiral/observation, full20/K-C/accessibility, mirror/fullII/normaljets/near5/4, nonlattice and exact cap-preserving wing debts.
 
   Historical predecessor (not live):
