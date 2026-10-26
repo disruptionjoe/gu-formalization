@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: c5caf7d20c8ba486527061a4166cf9769cb7f04f
+revision_basis: c74195bc84ef3ab3fefbdddd7ce406ad836e11f3
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -58,6 +58,19 @@ reviewed_research_2026_10_26:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2090 constructs an exact coherent coarse-readout interface and proves the finite
+    apparatus support requirement d>=k rank(tau). A stronger spectral bound controls full
+    recorded-instrument error even with arbitrary system disturbance; binary and three-outcome
+    label channels saturate the stated special cases. K2091 proves sharp intra-sector
+    record/disturbance and optimal deterministic system-only recovery bounds, distinguishing
+    accessible records from the total discarded complement. K2092 proves robust neutral-ground
+    covariance and finite-observable bounds under explicit stationarity, quasifreeness and
+    approximate particle-hole complement, with nonstationary, nonquasifree and infinite-volume
+    countercontrols. Three independent internal specialist reviews accepted corrected proofs.
+    No point-local continuum readout, source-selected state, physical recovery,
+    source/physics-ledger or canon change is claimed.
+
+    Historical predecessor (not live):
     K2087 defines finite relative measurement energy in infinite-volume thermal states without
     subtracting infinite totals, proves thermal positivity and the exact coarse-versus-refined
     paired cost under explicit complement and sector hypotheses, and sharpens the sea bound.
@@ -16694,6 +16707,9 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k2090-coherent-coarse-readout-2026-10-26.md
+    - explorations/conditional-build/k2091-intrasector-record-disturbance-2026-10-26.md
+    - explorations/conditional-build/k2092-robust-neutral-ground-selection-2026-10-26.md
     - explorations/conditional-build/k2087-relative-measurement-energy-2026-10-26.md
     - explorations/conditional-build/k2088-even-ground-selection-2026-10-26.md
     - explorations/conditional-build/k2089-distributed-smooth-transfer-2026-10-26.md
@@ -18147,6 +18163,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can a point-local interaction implement the collective mode readout within the proved
+  apparatus resource and coherence bounds, can the neutral test algebra be source-selected,
+  or is a new thermal163/164 certificate the strongest next calculation?
+
+  Historical predecessor (not live):
   Can coherent collective readout complete the distributed transfer, can the neutral ground
   criterion descend to a source-selected observed algebra, or does a new thermal163/164
   inequality offer the strongest next test?
@@ -21897,6 +21918,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Reuse K2090 support/spectral resource bounds and K2091 sharp coherence/recovery limits;
+  another generic finite circuit does not supply continuum-local collective control. Compare
+  a concrete localized interaction realizing the collective mode readout with a source-
+  selected observed neutral-algebra intertwiner and new thermal163 multi-terminal/164 cap-
+  path inequality (31322/32222/3332). K2092 uniform spectral-witness stability is not a
+  finite laboratory test, a nonquasifree selector or global-state closeness. K2085 closed
+  optimizer interval and minimum dimension41 remain unchanged. Retain
+  full20/K-C/accessibility, native2+1/chirality, mirror/fullII/normaljets, near5/4,
+  nonlattice and exact cap-preserving wings.
+
+  Historical predecessor (not live):
   Reuse K2087 relative energy and K2088 neutral-plus-complement selection; do not repeat the
   even-only selector. K2089 supplies actual smooth distributed transfer and selected-mode
   return, not a collective readout. Compare a coherent readout preserving paired vacuum/two-

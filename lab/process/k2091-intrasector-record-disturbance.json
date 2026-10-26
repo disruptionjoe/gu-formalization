@@ -1,0 +1,9 @@
+{
+  "id": "K2091",
+  "status": "internally_reviewed_conditional_mathematics",
+  "scope": "conditional mathematics; exact finite controls plus written universal proofs",
+  "inputs": {
+    "lab/process/k2089-distributed-smooth-transfer.json": "121a8834666cef664d2b8a9fffb1a77642dc4c6c7ac9c57e921d72576d7ae4b5",
+    "lab/process/k1927-robust-physical-environment-information.json": "b1de46c7550bb4f7a1b5148f38d2027e735401dbe6170f27db4990b507b9bf3c"
+  }
+}

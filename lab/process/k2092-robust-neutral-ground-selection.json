@@ -1,0 +1,8 @@
+{
+  "id": "K2092",
+  "status": "internally_reviewed_conditional_mathematics",
+  "scope": "conditional mathematics; exact finite controls plus written universal proofs",
+  "inputs": {
+    "lab/process/k2088-even-ground-selection.json": "252be7f880158a149e27e40266885b312e9e61201c534f70cc74c9a81a6cb33d"
+  }
+}

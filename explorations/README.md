@@ -7,6 +7,10 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2090-coherent-coarse-readout](conditional-build/k2090-coherent-coarse-readout-2026-10-26.md).
+- [k2091-intrasector-record-disturbance](conditional-build/k2091-intrasector-record-disturbance-2026-10-26.md).
+- [k2092-robust-neutral-ground-selection](conditional-build/k2092-robust-neutral-ground-selection-2026-10-26.md).
+
 - [k2087-relative-measurement-energy](conditional-build/k2087-relative-measurement-energy-2026-10-26.md).
 - [k2088-even-ground-selection](conditional-build/k2088-even-ground-selection-2026-10-26.md).
 - [k2089-distributed-smooth-transfer](conditional-build/k2089-distributed-smooth-transfer-2026-10-26.md).

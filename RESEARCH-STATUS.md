@@ -8,6 +8,32 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## K2090--K2092: Readable measurement resources, coherence and robust state selection (2026-10-26)
+
+K2090 constructs an exact coherent coarse-readout interface and proves the finite apparatus
+support requirement d>=k rank(tau). A stronger spectral bound controls full recorded-
+instrument error even with arbitrary system disturbance; binary and three-outcome label
+channels saturate the stated special cases. K2091 proves sharp intra-sector
+record/disturbance and optimal deterministic system-only recovery bounds, distinguishing
+accessible records from the total discarded complement. K2092 proves robust neutral-ground
+covariance and finite-observable bounds under explicit stationarity, quasifreeness and
+approximate particle-hole complement, with nonstationary, nonquasifree and infinite-volume
+countercontrols. Three independent internal specialist reviews accepted corrected proofs. No
+point-local continuum readout, source-selected state, physical recovery, source/physics-
+ledger or canon change is claimed.
+
+- [K2090](explorations/conditional-build/k2090-coherent-coarse-readout-2026-10-26.md).
+- [K2091](explorations/conditional-build/k2091-intrasector-record-disturbance-2026-10-26.md).
+- [K2092](explorations/conditional-build/k2092-robust-neutral-ground-selection-2026-10-26.md).
+
+Three exact SymPy1.14.0 finite probes check full circuit matrix units, mixed-rank record
+support, noisy instrument channels, spectral rank optimization, Gram/phase/partial-record
+identities, CAR neutral commutators, complex hole covariance and finite-state distances.
+Fourteen genuine gate/input/state faults are rejected after clean baselines; dependency
+hashes establish custody only. Universal support, diamond/recovery, uniform operator and
+infinite-volume conclusions rest on the written proofs. Internal specialist review is
+separate from root-run finite checks; neither is external certification.
+
 ## K2087--K2089: Relative energy, operational ground selection and distributed transfer (2026-10-26)
 
 K2087 defines finite relative measurement energy in infinite-volume thermal states without

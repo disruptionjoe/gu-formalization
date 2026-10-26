@@ -1,0 +1,9 @@
+{
+  "id": "K2090",
+  "status": "internally_reviewed_conditional_mathematics",
+  "scope": "conditional mathematics; exact finite controls plus written universal proofs",
+  "inputs": {
+    "lab/process/k2089-distributed-smooth-transfer.json": "121a8834666cef664d2b8a9fffb1a77642dc4c6c7ac9c57e921d72576d7ae4b5",
+    "lab/process/k1912-faithful-bath-dephasing-boundary.json": "d461504d71eaeea637a6f586fa01dcb2938cc1c8bbd6195b6a9c9527f647aca8"
+  }
+}

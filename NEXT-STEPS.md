@@ -7,6 +7,10 @@ updated_at: "2026-10-26"
 
 # Next Steps For Contributors
 
+> **2026-10-26: READOUT RESOURCES, COHERENCE AND ROBUST GROUND SELECTION.**
+> Reuse K2090 support/spectral resource bounds and K2091 sharp coherence/recovery limits; another generic finite circuit does not supply continuum-local collective control. Compare a concrete localized interaction realizing the collective mode readout with a source-selected observed neutral-algebra intertwiner and new thermal163 multi-terminal/164 cap-path inequality (31322/32222/3332). K2092 uniform spectral-witness stability is not a finite laboratory test, a nonquasifree selector or global-state closeness. K2085 closed optimizer interval and minimum dimension41 remain unchanged. Retain full20/K-C/accessibility, native2+1/chirality, mirror/fullII/normaljets, near5/4, nonlattice and exact cap-preserving wings.
+> Prior banners preserve historical questions; no source or ledger promotion.
+
 > **2026-10-26: RELATIVE ENERGY, NEUTRAL GROUND SELECTION AND DISTRIBUTED TRANSFER.**
 > Reuse K2087 relative energy and K2088 neutral-plus-complement selection; do not repeat the even-only selector. K2089 supplies actual smooth distributed transfer and selected-mode return, not a collective readout. Compare a coherent readout preserving paired vacuum/two-particle coherence and its causal record budget with a source-selected observed neutral algebra/state bridge and a new thermal163 multi-terminal or164 cap-path certificate (31322/32222/3332). K2085 closed interval and dimension41 remain unchanged. Preserve full20/K-C/accessibility, native2+1/chirality, mirror/fullII/normaljets, near5/4, nonlattice and exact cap-preserving wing debts.
 > Prior banners preserve historical questions; no source or ledger promotion.

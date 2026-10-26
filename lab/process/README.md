@@ -7,6 +7,10 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2090-coherent-coarse-readout](k2090-coherent-coarse-readout.json).
+- [k2091-intrasector-record-disturbance](k2091-intrasector-record-disturbance.json).
+- [k2092-robust-neutral-ground-selection](k2092-robust-neutral-ground-selection.json).
+
 - [k2087-relative-measurement-energy](k2087-relative-measurement-energy.json).
 - [k2088-even-ground-selection](k2088-even-ground-selection.json).
 - [k2089-distributed-smooth-transfer](k2089-distributed-smooth-transfer.json).
