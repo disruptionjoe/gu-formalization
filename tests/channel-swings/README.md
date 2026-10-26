@@ -542,6 +542,10 @@ the ledger probe uses the standard Python interpreter.
 
 # Selected-Shiab observed-receiver probes
 
+- [k2099_finite_band_massive_memory_probe](k2099_finite_band_massive_memory_probe.py).
+- [k2100_reference_decoupling_reset_probe](k2100_reference_decoupling_reset_probe.py).
+- [k2101_massive_smeared_instrument_probe](k2101_massive_smeared_instrument_probe.py).
+
 - [k2096_bounded_continuum_capture_probe](k2096_bounded_continuum_capture_probe.py).
 - [k2097_travelling_coarse_instrument_probe](k2097_travelling_coarse_instrument_probe.py).
 - [k2098_normal_state_local_relaxation_probe](k2098_normal_state_local_relaxation_probe.py).

@@ -7,6 +7,10 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2099-finite-band-massive-memory](k2099-finite-band-massive-memory.json).
+- [k2100-reference-decoupling-reset](k2100-reference-decoupling-reset.json).
+- [k2101-massive-smeared-instrument](k2101-massive-smeared-instrument.json).
+
 - [k2096-bounded-continuum-capture](k2096-bounded-continuum-capture.json).
 - [k2097-travelling-coarse-instrument](k2097-travelling-coarse-instrument.json).
 - [k2098-normal-state-local-relaxation](k2098-normal-state-local-relaxation.json).

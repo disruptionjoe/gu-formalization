@@ -7,6 +7,10 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2099-finite-band-massive-memory](conditional-build/k2099-finite-band-massive-memory-2026-10-26.md).
+- [k2100-reference-decoupling-reset](conditional-build/k2100-reference-decoupling-reset-2026-10-26.md).
+- [k2101-massive-smeared-instrument](conditional-build/k2101-massive-smeared-instrument-2026-10-26.md).
+
 - [k2096-bounded-continuum-capture](conditional-build/k2096-bounded-continuum-capture-2026-10-26.md).
 - [k2097-travelling-coarse-instrument](conditional-build/k2097-travelling-coarse-instrument-2026-10-26.md).
 - [k2098-normal-state-local-relaxation](conditional-build/k2098-normal-state-local-relaxation-2026-10-26.md).

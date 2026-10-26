@@ -7,6 +7,32 @@ updated_at: "2026-10-26"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K2099--K2101: Massive smeared instruments and reference-sensitive reset (2026-10-26)
+
+K2099 constructs a supplied finite-band massive excitation-to-memory Hamiltonian with a
+full-Fock spectral-variance error bound, stronger selected-input capture, exact positivity
+and speed constraints, and a spatial concentration cost. K2100 extends free normal-state
+local return to reference decoupling and distinguishes pure excitation reset from mixed
+physical-mode reset, including parity restrictions. K2101 composes a readable coarse
+instrument and extends capture to any finite selected subspace with leakage trace-norm error
+pi||QhP||_1/g. Independent review corrected idle-sector drift, pointer correlations and
+phase/spectator conventions. These are conditional mathematical results with spatially
+smeared controls and supplied gates, not a causally local apparatus, source-selected
+state/dynamics, physical recovery or source/ledger/canon promotion.
+
+- [K2099](explorations/conditional-build/k2099-finite-band-massive-memory-2026-10-26.md).
+- [K2100](explorations/conditional-build/k2100-reference-decoupling-reset-2026-10-26.md).
+- [K2101](explorations/conditional-build/k2101-massive-smeared-instrument-2026-10-26.md).
+
+Three exact SymPy1.14.0 probes pass clean baselines and reject14 genuine input/state/gate
+faults:4 spectral,4 reset,6 instrument. Exact controls include full residual Fock spectra,
+detuned and spread-sensitive capture, Schur positivity, correlated-reference spectra, mixed
+physical modes, parity-constrained reset, signed fermionic swaps, all16 code matrix units,
+inactive spectator drift and non-diagonal copied-memory dynamics. Universal domain,
+continuum and all-reference statements rest on written proofs and three independent internal
+specialist reviews; finite controls are not continuum proofs, external acceptance or proof-
+assistant certification.
+
 ## K2096--K2098: Travelling coarse instruments and normal-state local relaxation (2026-10-26)
 
 K2096 constructs a causal one-particle chiral boundary unitary and proves exact capture
