@@ -1,0 +1,34 @@
+{
+  "status": "PROVISIONAL_PENDING_SPECIALIST_REVIEW",
+  "scope": "massive1408 CAR sea; algebraic instruments, no point-local apparatus",
+  "constants": {
+    "number_lipschitz": 2,
+    "spin_lipschitz": 4,
+    "chsh_lipschitz": 16,
+    "rational_chsh_error": 120,
+    "tail": "1/500",
+    "bell_lower": "64/25",
+    "vacuum_A_upper": "1/250000",
+    "vacuum_B_upper": "1/15625",
+    "single_mode_excitation_number_upper": "1/62500",
+    "single_mode_energy_over_m_upper": "201/12500",
+    "radius_m": 2001,
+    "separation_m": 4003
+  },
+  "covariance": {
+    "vacuum": "nu",
+    "electron": "nu+a^2",
+    "spin_variance": "2*nu*(1-nu)",
+    "subtracted_minimum": "-nu"
+  },
+  "evidence": {
+    "explorations/conditional-build/k2077-controlled-detector-response-2026-10-25.md": "3e25954a47a7cf065fef7d1c3f8152f2dd526b7c759999a0546157d4468cf637",
+    "explorations/conditional-build/k2060-positive-energy-localization-2026-10-25.md": "50d277514c8756bcd64a1d46ebe4d4038c2aec37b23ef4e0afc3244edd6c5258"
+  },
+  "limitations": [
+    "No specialist acceptance",
+    "No state preparation theorem",
+    "No finite-duration point-local instrument",
+    "No GU source verdict"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "status": "PROVISIONAL_PENDING_SPECIALIST_REVIEW",
+  "scope": "conditional massive1408 with supplied controls",
+  "bounds": {
+    "tau": "1/500",
+    "theta_upper": "11/7",
+    "gradient_over_m": "2",
+    "rms_over_m": "3511/1750",
+    "signed_work_over_m": "11/875000",
+    "negative_mean_over_m": "3511/437500",
+    "absolute_mean_change_over_m": "2811/175000",
+    "record_error": "1/62500"
+  },
+  "smooth_pulse": {
+    "peak_factor": 8,
+    "derivative_factor": 128,
+    "field_temporal_factor": 16384,
+    "field_spatial_factor": 64
+  },
+  "species_dimensions": [
+    {
+      "modes": 1,
+      "two_species": 4,
+      "shared_memory": 4
+    },
+    {
+      "modes": 2,
+      "two_species": 16,
+      "shared_memory": 8
+    },
+    {
+      "modes": 3,
+      "two_species": 64,
+      "shared_memory": 16
+    },
+    {
+      "modes": 4,
+      "two_species": 256,
+      "shared_memory": 32
+    },
+    {
+      "modes": 5,
+      "two_species": 1024,
+      "shared_memory": 64
+    },
+    {
+      "modes": 6,
+      "two_species": 4096,
+      "shared_memory": 128
+    },
+    {
+      "modes": 7,
+      "two_species": 16384,
+      "shared_memory": 256
+    },
+    {
+      "modes": 8,
+      "two_species": 65536,
+      "shared_memory": 512
+    }
+  ],
+  "evidence": {
+    "explorations/conditional-build/k2077-controlled-detector-response-2026-10-25.md": "3e25954a47a7cf065fef7d1c3f8152f2dd526b7c759999a0546157d4468cf637",
+    "explorations/conditional-build/k1897-smooth-pulse-energy-2026-10-21.md": "76c648eff8672d993e30f390cebae9c8b6d65e9b17e3835dd030b07a6a6b293d"
+  },
+  "limitations": [
+    "No specialist acceptance",
+    "No apparatus backreaction",
+    "No source-real completion",
+    "Species scattering is not a shared memory"
+  ]
+}

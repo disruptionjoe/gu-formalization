@@ -7,6 +7,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [Provisional k2079-smooth-detector-energy](conditional-build/k2079-smooth-detector-energy-2026-10-26.md), pending specialist review.
+- [Provisional k2080-local-car-detector](conditional-build/k2080-local-car-detector-2026-10-26.md), pending specialist review.
+
 - [k2077-controlled-detector-response](conditional-build/k2077-controlled-detector-response-2026-10-25.md).
 - [k2078-thermal-certificate-endpoints](conditional-build/k2078-thermal-certificate-endpoints-2026-10-25.md).
 

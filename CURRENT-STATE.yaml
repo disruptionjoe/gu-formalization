@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f15430cbde7eff3dc2d4671639c5905be276806d
+revision_basis: 645d5af13a07d098c698967a99a7063521173c5e
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -32,6 +32,27 @@ research_method_control:
     - EXT-QM-MASSIVE-MATTER-INTERFERENCE
     - EXT-QM-SPACELIKE-BELL-NOSIGNAL
   scientific_claim_effect: none
+provisional_research_2026_10_26:
+  status: pending_specialist_review
+  summary: K2079 and K2080 are provisional constructions pending field-relevant specialist review.
+    K2079 derives smooth prepared-control energy bounds and an explicit supplied classical-source
+    resource account, separating species scattering from a shared memory. K2080 constructs same-carrier
+    CAR number/spin readouts with vacuum noise, an all-outcome finite-radius Bell lower bound64/25,
+    and finite postmeasurement vacuum excitation energy. Same-author exact algebra, rational
+    checks and finite numerical controls pass; no independent acceptance, source verdict, ledger
+    or canon change.
+  evidence:
+  - explorations/conditional-build/k2079-smooth-detector-energy-2026-10-26.md
+  - lab/process/k2079-smooth-detector-energy.json
+  - tests/channel-swings/k2079_smooth_detector_energy.py
+  - tests/channel-swings/k2079_smooth_detector_energy_probe.py
+  - explorations/conditional-build/k2080-local-car-detector-2026-10-26.md
+  - lab/process/k2080-local-car-detector.json
+  - tests/channel-swings/k2080_local_car_detector.py
+  - tests/channel-swings/k2080_local_car_detector_probe.py
+  acceptance_remaining: Field-relevant hostile specialist review of continuum proof, CAR locality,
+    Bell transfer and resource ceilings. Accepted current_result/current_question/next_condition
+    unchanged.
 current_result:
   status: conditional_research_front
   summary: >-

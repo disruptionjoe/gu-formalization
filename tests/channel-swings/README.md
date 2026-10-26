@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2079_smooth_detector_energy](k2079_smooth_detector_energy.py), provisional candidate check.
+- [k2079_smooth_detector_energy_probe](k2079_smooth_detector_energy_probe.py), provisional candidate check.
+- [k2080_local_car_detector](k2080_local_car_detector.py), provisional candidate check.
+- [k2080_local_car_detector_probe](k2080_local_car_detector_probe.py), provisional candidate check.
+
 - [k2077_controlled_detector_response](k2077_controlled_detector_response.py).
 - [k2077_controlled_detector_response_probe](k2077_controlled_detector_response_probe.py).
 - [k2078_thermal_certificate_endpoints](k2078_thermal_certificate_endpoints.py).

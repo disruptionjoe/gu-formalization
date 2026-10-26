@@ -7,6 +7,10 @@ updated_at: "2026-10-24"
 
 # Next Steps For Contributors
 
+> **2026-10-26: PROVISIONAL DETECTOR CANDIDATES, REVIEW PENDING.**
+> K2079 smooth-control energy and K2080 same-carrier CAR detector/Bell candidates have written derivations and same-author probes. Review their continuum/domain/field-transfer arguments before accepting them. Current accepted frontier and thermal interval remain unchanged.
+
+
 > **2026-10-25: CONTROLLED DETECTOR INSTRUMENTS AND CLOSED THERMAL ENDPOINTS.**
 > Thermal rigidity now covers the CLOSED K2074 interval; do not repeat endpoint classification. A larger interval needs a quantitative strengthened188/235 certificate or a new feasible population, not an inference from nonattainment. Bounded compact ancilla measurement and its finite resource/Bell consumer are constructed; next physical bridge is a specified field-local/source-real detector or control-field resource account. K2071 unbounded derivative control is outside K2077 remote-response theorem. Preserve conditional tensor/ancilla/Born imports, global sector-postselection counterexample, full20/K-C/accessibility/mirror/fullII/normaljets/2+1/chirality/near5/4, nonlattice phase-coercivity and exact cap-preserving continuum-wing debts.
 > Prior banners preserve history; source, ledger and canon remain unchanged.
