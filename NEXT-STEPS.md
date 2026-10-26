@@ -7,6 +7,10 @@ updated_at: "2026-10-26"
 
 # Next Steps For Contributors
 
+> **2026-10-26: TRAVELLING COARSE INSTRUMENTS AND LOCAL RELAXATION.**
+> Compare a derived finite-bandwidth massive-field-to-memory interface with the actual source-selected observed neutral-algebra/dynamics bridge and new thermal163 multi-terminal or164 cap-path certificate31322/32222/3332. K2096/97 now supply a delayed readable chiral empty-Fock model with fixed pulses and explicit error; they do not supply a massive3D sea coupling, bandwidth limit or total reset work. K2098 supplies fixed-mode and fixed-CAR-element relaxation for all normal free sea states, plus a spectral regularity clock, not global/uniform relaxation or pure-memory preparation. Reuse these results rather than repeat generic finite circuits, multiplier fitting or quasifree-only forgetting. K2085 closed optimizer interval and dimension41, full20/K-C/accessibility, native2+1/chirality, mirror/fullII/normaljets, near5/4, nonlattice and exact cap-preserving wings remain.
+> Prior banners preserve historical questions; no source or ledger promotion.
+
 > **2026-10-26: CONTROL-CLASS LIMITS AND NORMAL STATIONARY STATES.**
 > A readable continuum coarse instrument now needs explicit propagating and nonGaussian or hybrid resources; K2093 random quadratic phases only repair unrecorded local even backaction. Compare a controlled continuum detector with a source-selected observed neutral-algebra/dynamics intertwiner and the new thermal163 multi-terminal or164 cap-path certificate31322/32222/3332. Reuse K2094 sharp pointwise bounds, not more local phase fitting. K2095 global normality is an added representation assumption; neither finite-window stationarity nor finite energy alone supplies it or global vacuum proximity. K2085 closed optimum and minimum dimension41 remain unchanged. Retain full20/K-C/accessibility, native2+1/chirality, mirror/fullII/normaljets, near5/4, nonlattice and exact cap-preserving wings.
 > Prior banners preserve historical questions; no source or ledger promotion.

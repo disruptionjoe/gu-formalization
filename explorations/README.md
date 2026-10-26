@@ -7,6 +7,10 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2096-bounded-continuum-capture](conditional-build/k2096-bounded-continuum-capture-2026-10-26.md).
+- [k2097-travelling-coarse-instrument](conditional-build/k2097-travelling-coarse-instrument-2026-10-26.md).
+- [k2098-normal-state-local-relaxation](conditional-build/k2098-normal-state-local-relaxation-2026-10-26.md).
+
 - [k2093-gaussian-readout-resource](conditional-build/k2093-gaussian-readout-resource-2026-10-26.md).
 - [k2094-local-collective-kernel-boundary](conditional-build/k2094-local-collective-kernel-boundary-2026-10-26.md).
 - [k2095-normal-stationary-state-selection](conditional-build/k2095-normal-stationary-state-selection-2026-10-26.md).

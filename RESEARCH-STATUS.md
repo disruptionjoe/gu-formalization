@@ -8,6 +8,33 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## K2096--K2098: Travelling coarse instruments and normal-state local relaxation (2026-10-26)
+
+K2096 constructs a causal one-particle chiral boundary unitary and proves exact capture
+efficiency 1-exp(-K), with smooth finite-budget approximation of independently fixed
+input/output pulses. K2097 composes capture, a coherent local hybrid gate and delayed
+release into a full readable coarse instrument, with all-reference upper error and stronger
+two-excitation lower bounds, explicit memory/pointer noise and retained pair coherence.
+K2098 proves finite-mode trace-norm and fixed-CAR-element weak-star return to the sea for
+every globally normal free massive state, without quasifreeness or finite mean number, and a
+quantitative rate under a finite spectral derivative budget. Global distinction and the
+absence of an energy-only uniform clock persist. These are independently internally reviewed
+conditional mathematical results, not a massive sea apparatus, source-selected
+dynamics/state, physical recovery or source/ledger/canon promotion.
+
+- [K2096](explorations/conditional-build/k2096-bounded-continuum-capture-2026-10-26.md).
+- [K2097](explorations/conditional-build/k2097-travelling-coarse-instrument-2026-10-26.md).
+- [K2098](explorations/conditional-build/k2098-normal-state-local-relaxation-2026-10-26.md).
+
+Three exact SymPy1.14.0 probes pass clean baselines and detect13 genuine gate/input/state
+faults. Controls cover causal finite-bin unitarity and matched modes, analytic fixed-pulse
+identities, all16 ideal fermionic instrument matrix units and finite-loss/noise/coherence
+witnesses, nonquasifree mixtures, coherent pairs, particle-hole CAR signs, an actual Fourier
+integral and an atomic countercontrol. Universal continuum unitarity, complete-instrument
+norm estimates and arbitrary-normal-state convergence rest on written proofs with three
+independent internal specialist reviews. Neither finite controls nor review constitute
+external or proof-assistant certification.
+
 ## K2093--K2095: Control-class limits and normal stationary states (2026-10-26)
 
 K2093 proves a sharp sqrt(2)-1 Gaussian-output separation and a bath-resource lower bound

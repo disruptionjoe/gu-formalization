@@ -1,0 +1,23 @@
+{
+  "id": "K2098",
+  "status": "internally_reviewed_conditional_mathematics",
+  "artifact": "explorations/conditional-build/k2098-normal-state-local-relaxation-2026-10-26.md",
+  "probe": "tests/channel-swings/k2098_normal_state_local_relaxation_probe.py",
+  "claim_ceiling": "conditional supplied model; no source, ledger, canon, novelty or external certification",
+  "source_polarities": {
+    "SC-OP-04": "ASSERTS",
+    "SC-OP-05": "UNCERTAIN",
+    "SC-META-53": "UNCERTAIN",
+    "SC-META-56": "DISAVOWS"
+  },
+  "physics_rows_unchanged": [
+    "LT-SM8",
+    "LT-GR6b"
+  ],
+  "evidence_kinds": [
+    "written analytic proof",
+    "exact finite/data controls",
+    "independent internal specialist review"
+  ],
+  "fault_count": 5
+}

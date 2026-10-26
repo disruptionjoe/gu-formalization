@@ -7,6 +7,10 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2096-bounded-continuum-capture](k2096-bounded-continuum-capture.json).
+- [k2097-travelling-coarse-instrument](k2097-travelling-coarse-instrument.json).
+- [k2098-normal-state-local-relaxation](k2098-normal-state-local-relaxation.json).
+
 - [k2093-gaussian-readout-resource](k2093-gaussian-readout-resource.json).
 - [k2094-local-collective-kernel-boundary](k2094-local-collective-kernel-boundary.json).
 - [k2095-normal-stationary-state-selection](k2095-normal-stationary-state-selection.json).
