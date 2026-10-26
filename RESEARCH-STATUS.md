@@ -2,11 +2,21 @@
 title: "Research Status"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-10-24"
+updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
 # Research Status
+
+## 2026-10-26: Causal apparatus, conjugate detectors and a wider thermal interval
+
+K2081 proves causal record/error lower bounds and constructs exact finite-graph number-measurement circuits, with a Cartesian parallel schedule whose duration is uniform under mesh refinement. K2082 constructs a low-noise charge-conjugation-invariant particle/hole detector compatible with the inherited square-minus-one anti-involution, with excitation-energy bound, transferred causal witnesses and coherent paired finite-graph realization. K2083 strengthens thermal188/235 certificates and extends the exact optimum interval to approximately[2.4587933367,2.5241567312]; unique occupied N20 and minimum physical dimension41 hold throughout the closed interval. Independent internal specialist reviews accepted all three corrected conditional arguments. Endpoint164 is excluded by its necessary equality-ray energy and185 by a quantitative boundary slack; finite graph circuits supply no continuum resource bound, and compatibility is not source selection. Source, physics-ledger and canon verdicts remain unchanged.
+
+- [K2081](explorations/conditional-build/k2081-causal-instrument-realization-2026-10-26.md).
+- [K2082](explorations/conditional-build/k2082-charge-conjugate-detectors-2026-10-26.md).
+- [K2083](explorations/conditional-build/k2083-thermal-certificate-strengthening-2026-10-26.md).
+
+K2081: independent Jordan-Wigner/exterior-power controls, three-mode causal witness, two four-mode trees and two Cartesian grids;6 real faults caught. K2082: four-mode CAR/sea/conjugation/coarse-versus-refined/energy controls;6 real faults caught. K2083:42101 low/high vertex inequalities,671 global lines,1690 new exact geometry rows, inherited root/cap/recession checks, three physical witnesses, strict interior competitor checks and endpoint equality exclusions;10 real faults caught. Pinned geometry reuse is checked against the prior certificate. Finite checks support the written proofs; analytic/countable transfer and continuum assumptions remain explicit.
 
 ## 2026-10-26: Reviewed smooth-energy and local CAR detectors
 

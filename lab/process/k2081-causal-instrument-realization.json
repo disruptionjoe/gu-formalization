@@ -1,0 +1,20 @@
+{
+  "id": "K2081",
+  "constants": {
+    "record_error_factor": "1/2",
+    "channel_signal_factor": "2",
+    "channel_error_factor": "1",
+    "example_overlap_squares": [
+      "1/2",
+      "1/2"
+    ],
+    "example_channel_signal": "1/2",
+    "example_record_error": "1/4",
+    "mixing_time_factor": "1"
+  },
+  "inputs": {
+    "explorations/conditional-build/k2080-local-car-detector-2026-10-26.md": "4a98fa21c0673aa1d2fbf373b79dfabb2edb1eee54cd00632b6b3260d0912314",
+    "explorations/conditional-build/k2060-positive-energy-localization-2026-10-25.md": "50d277514c8756bcd64a1d46ebe4d4038c2aec37b23ef4e0afc3244edd6c5258"
+  },
+  "scope": "conditional mathematics; internal verification only; no GU or continuum apparatus certification"
+}

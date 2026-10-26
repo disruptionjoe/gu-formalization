@@ -1,0 +1,18 @@
+{
+  "id": "K2082",
+  "constants": {
+    "real_mode_noise": "1/2",
+    "paired_vacuum": "2*nu-nu**2",
+    "paired_signal": "2*nu-nu**2+(1-nu)*a2",
+    "energy_factor": "8",
+    "anti_square": -1,
+    "automorphism_square": "fermion_parity"
+  },
+  "inputs": {
+    "explorations/conditional-build/k2080-local-car-detector-2026-10-26.md": "4a98fa21c0673aa1d2fbf373b79dfabb2edb1eee54cd00632b6b3260d0912314",
+    "explorations/conditional-build/k2056-common-dual-successor-2026-10-25.md": "7e75a4ea6d0218d5a98b98678d2b2cccb88a08c3b1b1b2a3ad6d643e943b16da",
+    "explorations/conditional-build/k2058-universal-positive-dynamics-2026-10-25.md": "a8bfc6465994b4fc50380d618098898394ae3f6dc1219dd97eac1d9a6adb5825",
+    "explorations/conditional-build/k2060-positive-energy-localization-2026-10-25.md": "50d277514c8756bcd64a1d46ebe4d4038c2aec37b23ef4e0afc3244edd6c5258"
+  },
+  "scope": "conditional mathematics; internal verification only; no GU or continuum apparatus certification"
+}

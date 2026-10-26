@@ -2,10 +2,15 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-10-24"
+updated_at: "2026-10-26"
 ---
 
 # Next Steps For Contributors
+
+> **2026-10-26: CAUSAL APPARATUS, CONJUGATE DETECTORS AND WIDER THERMAL INTERVAL.**
+> K2081 proves causal record/error lower bounds and constructs exact finite-graph number-measurement circuits, with a Cartesian parallel schedule whose duration is uniform under mesh refinement. K2082 constructs a low-noise charge-conjugation-invariant particle/hole detector compatible with the inherited square-minus-one anti-involution, with excitation-energy bound, transferred causal witnesses and coherent paired finite-graph realization. K2083 strengthens thermal188/235 certificates and extends the exact optimum interval to approximately[2.4587933367,2.5241567312]; unique occupied N20 and minimum physical dimension41 hold throughout the closed interval. Independent internal specialist reviews accepted all three corrected conditional arguments. Endpoint164 is excluded by its necessary equality-ray energy and185 by a quantitative boundary slack; finite graph circuits supply no continuum resource bound, and compatibility is not source selection. Source, physics-ledger and canon verdicts remain unchanged.
+> Reuse reviewed K2081 causal error/duration witnesses and K2082 conjugation-compatible coarse particle/hole instrument. Compare a continuum-local approximation with regulator-uniform resources or a source-selected physical-state bridge against quantitatively strengthened thermal164/185 certificates or a different feasible population. Do not repeat basic R0/R1 existence (K2021), the paired anti-involution construction or strengthening188/235 alone. Preserve finite-regulator/continuum and compatibility/source-selection distinctions, source2+1/non-chiral/observation, full20/K-C/accessibility, mirror/fullII/normaljets/near5/4, nonlattice and exact cap-preserving wing debts.
+> Earlier banners below preserve historical frontiers.
 
 > **2026-10-26: REVIEWED SMOOTH ENERGY AND LOCAL CAR DETECTORS.**
 > Independent internal operator/PDE and CAR/field reviews accepted the corrected conditional K2079/K2080 results. Reuse their energy, vacuum-noise and all-outcome Bell bounds; do not repeat basic detector algebra or its completed review. Compare a concrete point-local finite-time apparatus or source-real compatibility map against strengthened thermal188/235 certificates or a new feasible population. Algebraic instruments are not a physical apparatus; species scattering is not shared memory. Source, ledger, canon, thermal interval and retained source-specific debts remain unchanged.

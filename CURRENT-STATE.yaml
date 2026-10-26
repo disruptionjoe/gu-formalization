@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 33686fd9cfc05b2e9de78414793d7947cdf5280d
+revision_basis: d57e4f2b70e6eaddafafb94dd2fa73db2e3da452
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -58,6 +58,9 @@ reviewed_research_2026_10_26:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2081 proves causal record/error lower bounds and constructs exact finite-graph number-measurement circuits, with a Cartesian parallel schedule whose duration is uniform under mesh refinement. K2082 constructs a low-noise charge-conjugation-invariant particle/hole detector compatible with the inherited square-minus-one anti-involution, with excitation-energy bound, transferred causal witnesses and coherent paired finite-graph realization. K2083 strengthens thermal188/235 certificates and extends the exact optimum interval to approximately[2.4587933367,2.5241567312]; unique occupied N20 and minimum physical dimension41 hold throughout the closed interval. Independent internal specialist reviews accepted all three corrected conditional arguments. Endpoint164 is excluded by its necessary equality-ray energy and185 by a quantitative boundary slack; finite graph circuits supply no continuum resource bound, and compatibility is not source selection. Source, physics-ledger and canon verdicts remain unchanged.
+
+    Historical predecessor (not live):
     Independent internal operator/PDE and CAR/field reviews accepted K2079 smooth
     prepared-control energy and supplied classical-source resource bounds, and K2080
     same-carrier CAR number/spin readouts with vacuum noise, all-outcome finite-radius
@@ -18114,6 +18117,9 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can the finite-graph single/paired CAR apparatus be approximated by continuum-local dynamics with uniform resources, which source criterion selects its conditional real structure/state, and can stronger thermal164/185 bounds extend the now closed optimizer interval?
+
+  Historical predecessor (not live):
   Can a specified point-local finite-time apparatus or source-real compatibility map
   realize the reviewed smeared CAR instrument, and which quantitative thermal
   certificate extends the closed optimizer interval?
@@ -21850,6 +21856,9 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Reuse reviewed K2081 causal error/duration witnesses and K2082 conjugation-compatible coarse particle/hole instrument. Compare a continuum-local approximation with regulator-uniform resources or a source-selected physical-state bridge against quantitatively strengthened thermal164/185 certificates or a different feasible population. Do not repeat basic R0/R1 existence (K2021), the paired anti-involution construction or strengthening188/235 alone. Preserve finite-regulator/continuum and compatibility/source-selection distinctions, source2+1/non-chiral/observation, full20/K-C/accessibility, mirror/fullII/normaljets/near5/4, nonlattice and exact cap-preserving wing debts.
+
+  Historical predecessor (not live):
   Reuse reviewed K2079 energy bounds and K2080 same-carrier algebraic CAR/Bell
   construction; do not repeat their review or basic detector algebra. Compare a concrete
   point-local finite-time instrument or source-real compatibility construction against
