@@ -1,0 +1,50 @@
+{
+  "result_id": "K2166",
+  "status": "conditional_exact_controls",
+  "exact_checks": {
+    "compressed_trace": true,
+    "compressed_determinant": true,
+    "physical_number_expansion": true,
+    "unsqueezed_number_square": true,
+    "rationalization_identity": true,
+    "denominator_amgm_identity": true,
+    "vacuum_zero_and_stationary": true,
+    "moment_hessian": true,
+    "cross_hessian": true,
+    "squeeze_hessian": true,
+    "sharp_schur_coefficient": true,
+    "complement_denominator_sum": true,
+    "homogeneous_rare_branch_bound": true,
+    "harmonic_mean_global_bound": true,
+    "two_branch_taylor_factor": true,
+    "balanced_probability_maximum": true,
+    "exact_fixture": true,
+    "safe_gap_and_global_bound": true
+  },
+  "fault_failures": {
+    "physical_cross": [
+      "physical_number_expansion",
+      "unsqueezed_number_square"
+    ],
+    "omit_schur": [
+      "sharp_schur_coefficient",
+      "exact_fixture"
+    ],
+    "omit_complement": [
+      "complement_denominator_sum"
+    ],
+    "omit_branch_weight": [
+      "homogeneous_rare_branch_bound"
+    ],
+    "moment_fixture": [
+      "exact_fixture"
+    ]
+  },
+  "dependency_sha256": {
+    "explorations/conditional-build/k2166-uniform-feedback-weak-budget-2026-10-27.md": "50cd4a0262514db19f2ea697e07c1897ce2c9a5c43c49554e7fc1e65112000f0",
+    "explorations/conditional-build/k2160-outcome-conditioned-squeezing-2026-10-27.md": "5ec83384bdf92c3065a21c0ad2659eeaff738445b864b22304563ade65b57b32",
+    "explorations/conditional-build/k2162-feedback-detector-frontier-2026-10-27.md": "d59de4d41c8e9dce3bed99e138ea982b41f03ec8238bdc6a8ee3bfd3e296a85d"
+  },
+  "probe_sha256": "7dee02fd6b58e68bd34d06ff8b9758a35259ce9eb6aef49e8624c2f3f6966381",
+  "universal_evidence": "Written Cauchy relaxation, finite-mode energy coercivity, rare-branch sequence proof, sharp asymptotic composition and necessary optimality conditions independently reviewed. Symbolic controls do not replace these proofs."
+}

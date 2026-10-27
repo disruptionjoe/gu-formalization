@@ -6,6 +6,36 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2165--K2166: Normalized adapters and sharp weak-budget limit (2026-10-27)
+
+K2165 classifies ALL normalized zero-order principal intertwiners for the fixed coupled
+operator: ten slots in the even tangent-Clifford centralizer, dimension2048 each, with
+the correct kappa equation projection. Both full rows exclude every nonzero
+nondegenerate factorized pure-degree seven-form port, all3432 coordinate blades,
+including smooth supports at fixed splitting. For arbitrary mixed even ports, tangent
+parity separates Q0 and adapter derivatives, so smooth adapters cannot repair failed
+frozen equations. Arbitrary mixed/degenerate ports in the enlarged class and moving
+geometry remain open. K2166 proves the sharp global feedback weak-budget limit
+V(B)/sqrt(B)=1/sqrt(kappa), kappa353/170 in the fixture, by homogeneous moment
+coercivity including rare outcomes and all occupation tails. Asymptotically optimal
+probabilities tend to one half and E/B tends to1; no full effect-profile uniqueness or
+apparatus cost. Conditional mathematics only; source, ledger and canon unchanged.
+
+- [K2165](explorations/conditional-build/k2165-even-clifford-adapter-descent-2026-10-27.md).
+- [K2166](explorations/conditional-build/k2166-uniform-feedback-weak-budget-2026-10-27.md).
+
+Two independent read-only specialists cross-reviewed both actual notes and probes.
+Sixteen Clifford controls include all60 principal blocks, all3432 coordinate seven-form
+ports, full16384-blade centralizer census, original coefficient maps and derivative
+parity; eighteen detector controls verify symbolic physical-number, compressed-energy
+and Hessian identities plus exact constants. Ten genuine changed-input/equation faults
+are rejected after green baselines. Universal normalized classification, smooth parity,
+coercivity, rare-branch and asymptotic proofs are independently reviewed, separate from
+finite controls. No proof-assistant, external-expert, novelty, arbitrary-channel,
+apparatus-cost or remote-CI claim.
+
+Earlier result sections below are historical snapshots; use the current result above for unresolved work.
+
 ## K2161--K2162: Complete adapter exclusions and global feedback frontier (2026-10-27)
 
 K2161 excludes every constant or smooth tangent-commutant adapter for each nonzero pure tangent-

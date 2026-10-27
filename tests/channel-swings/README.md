@@ -1,5 +1,8 @@
 # Pre-contract wave probes
 
+- [k2165_even_clifford_adapter_descent_probe](k2165_even_clifford_adapter_descent_probe.py).
+- [k2166_uniform_feedback_weak_budget_probe](k2166_uniform_feedback_weak_budget_probe.py).
+
 - [k2163_mixed_degree_adapter_obstruction_probe](k2163_mixed_degree_adapter_obstruction_probe.py).
 - [k2164_feedback_saturation_tie_probe](k2164_feedback_saturation_tie_probe.py).
 

@@ -11,6 +11,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2165-even-clifford-adapter-descent](k2165-even-clifford-adapter-descent.json).
+- [k2166-uniform-feedback-weak-budget](k2166-uniform-feedback-weak-budget.json).
+
 - [k2163-mixed-degree-adapter-obstruction](k2163-mixed-degree-adapter-obstruction.json).
 - [k2164-feedback-saturation-tie](k2164-feedback-saturation-tie.json).
 

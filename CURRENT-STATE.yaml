@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: bb23dab3b1f4cdacb0d9660b4b3fea6bfbd09bf7
+revision_basis: 82d8328761c33f1cbdbcf6de10cf4b922243ad11
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -44,6 +44,12 @@ reviewed_research_2026_10_26:
     checks and finite numerical controls pass; no external certification, source verdict,
     ledger or canon change.
   evidence:
+  - explorations/conditional-build/k2165-even-clifford-adapter-descent-2026-10-27.md
+  - lab/process/k2165-even-clifford-adapter-descent.json
+  - tests/channel-swings/k2165_even_clifford_adapter_descent_probe.py
+  - explorations/conditional-build/k2166-uniform-feedback-weak-budget-2026-10-27.md
+  - lab/process/k2166-uniform-feedback-weak-budget.json
+  - tests/channel-swings/k2166_uniform_feedback_weak_budget_probe.py
   - explorations/conditional-build/k2079-smooth-detector-energy-2026-10-26.md
   - lab/process/k2079-smooth-detector-energy.json
   - tests/channel-swings/k2079_smooth_detector_energy.py
@@ -58,6 +64,20 @@ reviewed_research_2026_10_26:
 reviewed_prediction_interfaces_2026_10_27:
   status: internally_reviewed_conditional_mathematics
   summary: >-
+    K2165 classifies ALL normalized zero-order principal intertwiners for the fixed coupled
+    operator: ten slots in the even tangent-Clifford centralizer, dimension2048 each, with
+    the correct kappa equation projection. Both full rows exclude every nonzero
+    nondegenerate factorized pure-degree seven-form port, all3432 coordinate blades,
+    including smooth supports at fixed splitting. For arbitrary mixed even ports, tangent
+    parity separates Q0 and adapter derivatives, so smooth adapters cannot repair failed
+    frozen equations. Arbitrary mixed/degenerate ports in the enlarged class and moving
+    geometry remain open. K2166 proves the sharp global feedback weak-budget limit
+    V(B)/sqrt(B)=1/sqrt(kappa), kappa353/170 in the fixture, by homogeneous moment
+    coercivity including rare outcomes and all occupation tails. Asymptotically optimal
+    probabilities tend to one half and E/B tends to1; no full effect-profile uniqueness or
+    apparatus cost. Conditional mathematics only; source, ledger and canon unchanged.
+
+    Historical predecessor (not live):
     K2161 excludes every constant or smooth tangent-commutant adapter for each nonzero pure
     tangent-degree0,2,4 seven-form port of the declared common-connection operator. The degree2
     polynomial elimination covers arbitrary nondecomposable and singular coefficients, not only
@@ -18585,6 +18605,12 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can mixed or degenerate seven-form ports satisfy the complete normalized even-Clifford
+  adapter equations, or can a source-owned changed operator or geometry do so; and which
+  stable autonomous resource model realizes the sharp feedback frontier with
+  preparation/reset included?
+
+  Historical predecessor (not live):
   With the complete fixed-geometry seven-form commutant family excluded, which genuinely
   changed source-compatible operator or moving-geometry interface can satisfy full
   equation descent; and what uniform rare-branch/tail estimate or stable controller
@@ -22471,6 +22497,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Use the complete normalized even-tangent centralizer and kappa equation map, not the old
+  commutant ansatz. Pure nondegenerate factorized seven-form ports are excluded; arbitrary
+  mixed or degenerate ports require the full50-block algebraic criterion. Smooth adapter
+  derivatives cannot repair any mixed-even frozen failure with fixed splitting; genuinely
+  moving geometry or changed target/reverse needs new principal and coefficient analysis.
+  Full16cell/full20/K-C, source admissibility and physical quotient remain separate. K2166
+  settles the leading weak-budget coefficient including rare branches/tails: do not
+  requeue that missing-bound claim. Next compare a stable autonomous detector with
+  preparation/reset accounting against finite-budget global effect optimization in the
+  declared class. Native mobile strata/integrability, thermal163/164 inequalities,
+  restricted cosmological dynamics, mirrors/fullII/normaljets/native2+1/chirality and
+  exact-wing debts remain independent alternatives.
+
+  Historical predecessor (not live):
   Do not requeue mixed0+2+4 ports or further noncentral parameters in the fixed K2159
   adapter family: K2163 exhausts them. Construct an explicit changed reverse/operator
   horn, different adapter ansatz, or moving Clifford/splitting correction and test its

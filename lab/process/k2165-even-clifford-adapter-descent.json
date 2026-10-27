@@ -1,0 +1,57 @@
+{
+  "result_id": "K2165",
+  "status": "conditional_exact_controls",
+  "exact_checks": {
+    "even_centralizer_and_kappa": true,
+    "new_anticommuting_part_present": true,
+    "kappa_involutive_multiplicative": true,
+    "all60_principal_blocks": true,
+    "section_right_inverse": true,
+    "kernel_all10_columns": true,
+    "moving_product_rule": true,
+    "original_L_identity_all_degrees": true,
+    "mixed_even_lower_parity": true,
+    "r0_r4_pass_necessary_L": true,
+    "r0_r4_full_lower_leak": true,
+    "r1_r2_r3_incompatible_forced_values": true,
+    "zero_full_positive_control": true,
+    "scalar_full_positive_control": true,
+    "complete16384_blade_centralizer": true,
+    "all3432_coordinate_ports_original_maps": true
+  },
+  "fault_failures": {
+    "omit_kappa": [
+      "all60_principal_blocks",
+      "r0_r4_full_lower_leak"
+    ],
+    "outside_centralizer": [
+      "even_centralizer_and_kappa",
+      "all60_principal_blocks",
+      "mixed_even_lower_parity",
+      "scalar_full_positive_control"
+    ],
+    "missing_normal_port": [
+      "original_L_identity_all_degrees",
+      "r0_r4_pass_necessary_L",
+      "r0_r4_full_lower_leak",
+      "r1_r2_r3_incompatible_forced_values"
+    ],
+    "reverse_sign": [
+      "original_L_identity_all_degrees",
+      "r0_r4_pass_necessary_L",
+      "r0_r4_full_lower_leak",
+      "r1_r2_r3_incompatible_forced_values"
+    ],
+    "omit_derivative": [
+      "moving_product_rule"
+    ]
+  },
+  "dependency_sha256": {
+    "explorations/conditional-build/k2165-even-clifford-adapter-descent-2026-10-27.md": "c245bebf8920981c89024c5c61f60ac2faef8273990b62f745eb791a4bf4cce2",
+    "tests/channel-swings/k2159_commutant_equation_adapters_probe.py": "66fcdfa20412a8523ab117c9300d69381ab20dd406c675243c8c2f2a01667a38",
+    "tests/channel-swings/k2161_noncentral_adapter_obstruction_probe.py": "b138c3556b5ba0e70260e0938da7abf4e56d01a4da9a38a1189ae5cb06aefba5",
+    "tests/channel-swings/source_native_fermion_transverse_port_probe.py": "74c817b7d0cd59210b09dee507ce7d0feb3f0c433ae021f0a6b7a0ba81dea390"
+  },
+  "probe_sha256": "48af4af289526570b68727a879d569c2c6b16c68098b1d4fce887769716ae389",
+  "universal_evidence": "Normalized principal classification, product-orthogonal pure-port obstruction and smooth even-parity separation are separately written/reviewed proofs. Exact basis census is not source-operator or physical certification."
+}
