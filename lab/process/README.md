@@ -7,6 +7,11 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2132-conserving-positive-sector-classification](k2132-conserving-positive-sector-classification.json).
+- [k2133-recorded-instrument-vacuum-disturbance](k2133-recorded-instrument-vacuum-disturbance.json).
+- [k2134-noncircle-current-transport](k2134-noncircle-current-transport.json).
+
+
 - [k2129-rotated-positive-sector-raw-equations](k2129-rotated-positive-sector-raw-equations.json).
 - [k2130-stable-empty-vacuum-locality](k2130-stable-empty-vacuum-locality.json).
 - [k2131-common-form-selector-completion](k2131-common-form-selector-completion.json).

@@ -8,6 +8,33 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## K2132--K2134: Conserving sector classification, noncircle transport and recorded measurement cost (2026-10-27)
+
+K2132 classifies all maximum-dimension constant Cl4-invariant positive sectors conserving the
+inherited nonzero-mass current: an explicit 320-real-dimensional graph family, including a
+native noncircle hyperbolic family. K2134 constructs its same-H selected transport at every
+finite real parameter, but exact joint raw ranks force all four derivatives to vanish at its
+origin even with arbitrary lower return. This is not all-family rigidity. K2133 bounds the
+complete local recorded channel on a fixed commutant-preparable code from global vacuum fidelity
+loss, proves exact parity-versus-random-identity distance 1/sqrt2, and derives a conditional
+gapped field-energy floor. No source-selected physical quotient, microscopic causal apparatus or
+GU recovery is supplied.
+
+- [K2132](explorations/conditional-build/k2132-conserving-positive-sector-classification-2026-10-27.md).
+- [K2133](explorations/conditional-build/k2133-recorded-instrument-vacuum-disturbance-2026-10-27.md).
+- [K2134](explorations/conditional-build/k2134-noncircle-current-transport-2026-10-27.md).
+
+Three probes pass 36 exact native identities, rank-certificate conditions and finite
+channel/reference controls, and reject 15 genuine changed inputs or equations. K2132
+reconstructs native Q/frame/current and noncommuting graph controls; classification and
+maximality use written proof. K2134 reconstructs two complete target-coset raw systems using
+inherited K2028 class completeness, exact rational upper ranks/right kernels and modular minors,
+and independently checks representative original contractions; actual Gram and full1920
+interpolation are checked in factors. K2133 checks Kraus/commutant preparations, global versus
+reduced vacuum, reference record trace norms and the inverted resource inequality. Universal
+graph, PDE, code-channel and sharp parity statements are independently internally reviewed
+proofs, not inferred from finite sampling. No external review, proof assistant or novelty claim.
+
 ## K2129--K2131: Smooth-selector rigidity, common-form completion and causal response (2026-10-27)
 
 K2129 proves every C1 selector in the fixed positive32 circle family is constant under the

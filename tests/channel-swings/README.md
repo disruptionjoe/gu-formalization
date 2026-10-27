@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2132-conserving-positive-sector-classification](k2132_conserving_positive_sector_classification_probe.py).
+- [k2133-recorded-instrument-vacuum-disturbance](k2133_recorded_instrument_vacuum_disturbance_probe.py).
+- [k2134-noncircle-current-transport](k2134_noncircle_current_transport_probe.py).
+
+
 - [k2129-rotated-positive-sector-raw-equations](k2129_rotated_positive_sector_raw_equations_probe.py).
 - [k2130-stable-empty-vacuum-locality](k2130_stable_empty_vacuum_locality_probe.py).
 - [k2131-common-form-selector-completion](k2131_common_form_selector_completion_probe.py).

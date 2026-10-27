@@ -1,0 +1,59 @@
+{
+  "result_id": "K2133",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "exact_checks": {
+    "Kraus-completeness": true,
+    "global-vacuum-loss": true,
+    "vacuum-residual": true,
+    "commutant-preparations": true,
+    "exact-C-norms": true,
+    "commutant-residual-transfer": true,
+    "recorded-parity-matrix-units": true,
+    "reduced-vacuum-preserved": true,
+    "gapped-energy-saturation": true,
+    "actual-reference-record-trace-norms": true,
+    "all-pure-weight-upper-polynomial": true,
+    "inverted-floor-root": true,
+    "nonuniform-resource-escape": true
+  },
+  "fault_failures": {
+    "nonlocal-Kraus": [
+      "global-vacuum-loss",
+      "commutant-preparations",
+      "commutant-residual-transfer",
+      "recorded-parity-matrix-units"
+    ],
+    "Kraus-normalization": [
+      "Kraus-completeness",
+      "global-vacuum-loss",
+      "vacuum-residual",
+      "recorded-parity-matrix-units",
+      "reduced-vacuum-preserved",
+      "gapped-energy-saturation"
+    ],
+    "record-labels": [
+      "recorded-parity-matrix-units"
+    ],
+    "commutant-preparation": [
+      "commutant-preparations",
+      "commutant-residual-transfer"
+    ],
+    "gap-energy": [
+      "gapped-energy-saturation"
+    ],
+    "discard-reference-coherence": [
+      "actual-reference-record-trace-norms"
+    ],
+    "root-sign": [
+      "inverted-floor-root"
+    ]
+  },
+  "parity_half_diamond_floor": "1/sqrt(2)",
+  "scope": "Full recorded channel on fixed code with explicit commutant C,delta; universal bound uses written proof. No uniform energy law or causal apparatus construction.",
+  "inputs": {
+    "explorations/conditional-build/k2108-local-detector-tradeoffs-2026-10-26.md": "1ac47560807212c9d838be25dd9ba8df0f3376863e3e27dba9c3549decab2cdc",
+    "explorations/conditional-build/k2130-stable-empty-vacuum-locality-2026-10-27.md": "e62c57168bad9580c0b2f2776fe0c53a19c602e2fe1ed0e1a3b56b4b1240b7c0"
+  }
+}

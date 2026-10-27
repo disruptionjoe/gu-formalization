@@ -7,6 +7,11 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2132-conserving-positive-sector-classification](conditional-build/k2132-conserving-positive-sector-classification-2026-10-27.md).
+- [k2133-recorded-instrument-vacuum-disturbance](conditional-build/k2133-recorded-instrument-vacuum-disturbance-2026-10-27.md).
+- [k2134-noncircle-current-transport](conditional-build/k2134-noncircle-current-transport-2026-10-27.md).
+
+
 - [k2129-rotated-positive-sector-raw-equations](conditional-build/k2129-rotated-positive-sector-raw-equations-2026-10-27.md).
 - [k2130-stable-empty-vacuum-locality](conditional-build/k2130-stable-empty-vacuum-locality-2026-10-27.md).
 - [k2131-common-form-selector-completion](conditional-build/k2131-common-form-selector-completion-2026-10-27.md).

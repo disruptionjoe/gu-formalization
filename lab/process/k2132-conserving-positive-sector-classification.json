@@ -1,0 +1,60 @@
+{
+  "result_id": "K2132",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "exact_checks": {
+    "native-Q-involution": true,
+    "native-Q-commutant": true,
+    "joint-projector-rank32": true,
+    "hyperbolic-identity": true,
+    "frame-Euclidean-Gram": true,
+    "frame-current": true,
+    "frame-current-derivative": true,
+    "frame-intertwining": true,
+    "projector-current": true,
+    "outside-positive-t-half": true,
+    "noncommuting-graph-isotropy": true,
+    "noncommuting-graph-positive-current": true,
+    "positive-not-conserving-countercontrol": true,
+    "strict-boundary-zero-not-positive": true
+  },
+  "fault_failures": {
+    "native-Q-sign": [
+      "native-Q-involution",
+      "native-Q-commutant",
+      "frame-Euclidean-Gram",
+      "frame-current",
+      "frame-current-derivative",
+      "frame-intertwining",
+      "projector-current"
+    ],
+    "hyperbolic-normalization": [
+      "hyperbolic-identity",
+      "frame-Euclidean-Gram",
+      "frame-current",
+      "projector-current"
+    ],
+    "frame-derivative": [
+      "frame-current-derivative"
+    ],
+    "polar-order": [
+      "noncommuting-graph-isotropy",
+      "noncommuting-graph-positive-current"
+    ],
+    "strict-boundary": [
+      "strict-boundary-zero-not-positive"
+    ]
+  },
+  "native_Q": {
+    "flip": 4,
+    "character": 72
+  },
+  "graph_real_dimension": 320,
+  "scope": "Maximum-dimension constant Cl4 invariant conserving complex sectors, not source selection or all smaller inclusion-maximal sectors.",
+  "inputs": {
+    "tests/channel-swings/k2123_same_current_potential_dynamics_probe.py": "02493eab919a6dd925bcf9e982862c15c6725a3a9f02a56d4bdedabde22b2bd1",
+    "lab/process/k1951-coordinated-zero-southeast-principal.json": "58ed2f1f9538cc3b47eb58322c61fa681521deb5298f20bdbd5acd6b932e7547",
+    "lab/process/k1967-paired-raw-coefficient-observation.json": "1c0d2057ec2942308c260f811a6b9f4c08a74dcec6d0c19cb25b5bc73eef8886"
+  }
+}
