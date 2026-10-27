@@ -1,0 +1,53 @@
+{
+  "result_id": "K2127",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "exact_checks": {
+    "initial-identity": true,
+    "signed-cocycle": true,
+    "signed-inverse": true,
+    "two-interfaces-support": true,
+    "profile-C2-endpoints": true,
+    "profile-monotone": true,
+    "conjugacy-potential": true,
+    "plateau-support": true,
+    "exact-plateau-phase": true,
+    "spacelike-separated-readout": true,
+    "probe-signal-positive": true,
+    "same-parity-preparations": true,
+    "all16-matrix-units-complete-record": true,
+    "complete-crossing-exact": true,
+    "midcollision-not-constant-gate": true
+  },
+  "fault_failures": {
+    "wrong-relative-speed": [
+      "signed-cocycle",
+      "signed-inverse",
+      "exact-plateau-phase",
+      "complete-crossing-exact"
+    ],
+    "omit-initial-phase": [
+      "initial-identity",
+      "signed-cocycle",
+      "signed-inverse",
+      "two-interfaces-support"
+    ],
+    "potential-sign": [
+      "conjugacy-potential"
+    ],
+    "drop-active-coupling": [
+      "probe-signal-positive"
+    ],
+    "omit-system-mode": [
+      "all16-matrix-units-complete-record"
+    ],
+    "readout-phase": [
+      "all16-matrix-units-complete-record"
+    ]
+  },
+  "scope": "Finite exact smooth-profile, signed-cocycle, full-record and signalling controls. Written proof owns smooth domains and full local-vN collar.",
+  "inputs": {
+    "explorations/conditional-build/k2125-local-two-field-collision-2026-10-27.md": "88698ac4df967b32568416bde9980fc1f57fe581445687fb2f462ffaf0658378"
+  }
+}

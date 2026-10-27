@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 506a134b8193696e16534865f406bb55816eb75b
+revision_basis: f1e99ab26c89fee149e0acbdb98d9ee43e81ee16
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -58,6 +58,18 @@ reviewed_research_2026_10_26:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2126 exhausts the actual common-H raw upper coefficient class for first derivatives of the
+    selected positive32 at P0: exact joint temporal/spatial quotient ranks force all four
+    derivatives to vanish, without demanding complement invariance. The obstruction survives
+    removing the entire lower return, so a southeast-only repair cannot help. Scope is P0, not
+    every angle or all positive families. K2127 smooths the actual two-field contact model,
+    keeps exact completed recorded parity and sectorwise finite energy, but proves an immediate
+    locality collar and explicit even-operation signalling. K2128 proves fixed-code O(sqrt
+    epsilon) contact convergence with no operator-norm convergence and logarithmic intermediate
+    free-energy cost for fixed nonzero crossing data. These are conditional internally reviewed
+    mathematics; source, ledger, canon and GU recovery unchanged.
+
+    Historical predecessor (not live):
     K2123 composes the actual thirteen-real-dimensional K2028 raw potential class with K2120
     positive32 using the SAME inherited current, giving common-H1 conservative massive dynamics,
     nonflat bounded potentials and finite speed. K2124 proves full32 moving-selector leakage
@@ -16843,6 +16855,9 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k2126-positive-sector-raw-coefficients-2026-10-27.md
+    - explorations/conditional-build/k2127-smooth-collision-locality-2026-10-27.md
+    - explorations/conditional-build/k2128-contact-limit-energy-cost-2026-10-27.md
     - explorations/conditional-build/k2123-same-current-potential-dynamics-2026-10-27.md
     - explorations/conditional-build/k2124-moving-positive-polarization-2026-10-27.md
     - explorations/conditional-build/k2125-local-two-field-collision-2026-10-27.md
@@ -18332,6 +18347,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Does the raw positive-sector obstruction persist away from P0, and can a stable causal
+  nonlinear field reproduce the complete instrument without the smooth-contact locality and
+  energy defects?
+
+  Historical predecessor (not live):
   Can a source-compatible raw coefficient class preserve only the maximal positive32 sector, and
   can a stable causal nonlinear apparatus retain finite energy through its interaction?
 
@@ -22140,6 +22160,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Compare the actual raw32 obstruction at generic Ptheta with a justified upper-class change or
+  a different positive family; do not repeat the now-excluded P0 first jet or southeast-only
+  repair. A stable causal nonlinear apparatus must avoid the demonstrated finite-range
+  signalling and contact-limit logarithmic free-energy cost while retaining full recorded
+  readout. Reuse finite-code convergence, exact final crossing and full-turn countercontrols;
+  they do not supply a uniform energy budget. Thermal163 multi-terminal/164
+  cap-path31322/32222/3332 global supporting inequalities remain the strongest independent
+  alternative; K2085 interval/dimension41 complete. Retain
+  full20/K-C/accessibility/native2+1/chirality/mirror/fullII/normaljets/near5/4/nonlattice/exact
+  wings. No source-selected quotient or GU recovery.
+
+  Historical predecessor (not live):
   Test raw coefficients preserving only K2120 positive32, without requiring all128 invariance,
   and compare a genuinely stable causal nonlinear field apparatus with a controlled smooth
   ultraviolet limit. Reuse K2123 same-current potential dynamics and K2124 exact moving-family

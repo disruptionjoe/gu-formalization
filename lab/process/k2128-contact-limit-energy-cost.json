@@ -1,0 +1,45 @@
+{
+  "result_id": "K2128",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "exact_checks": {
+    "cross-layer-integral": true,
+    "log-divergence": true,
+    "upper-log-integral": true,
+    "full-turn-uniform-bound": true,
+    "concentrating-layer-norm": true,
+    "concentrating-layer-gradient": true,
+    "pi-has-jump": true,
+    "full-turn-no-jump": true,
+    "conjugate-momenta": true,
+    "positive-proxy-symbol": true,
+    "two-slab-localization": true,
+    "two-slab-code-constant": true,
+    "operator-norm-nonconvergence-witness": true,
+    "completed-error-can-vanish": true
+  },
+  "fault_failures": {
+    "wrong-fractional-kernel": [
+      "cross-layer-integral",
+      "log-divergence"
+    ],
+    "omit-middle-range": [
+      "upper-log-integral"
+    ],
+    "wrong-coordinate-half": [
+      "conjugate-momenta",
+      "positive-proxy-symbol"
+    ],
+    "omit-initial-phase": [
+      "two-slab-localization"
+    ],
+    "omit-probe-normalization": [
+      "two-slab-code-constant"
+    ]
+  },
+  "scope": "Exact analytic integral and actual phase/support controls, separate from universal fractional-energy and full-code proofs.",
+  "inputs": {
+    "tests/channel-swings/k2127_smooth_collision_locality_probe.py": "d622360a1299b73304728dfba3138d2209df451ed6fa45aab1f00fdff751cce2"
+  }
+}

@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2126-positive-sector-raw-coefficients](k2126_positive_sector_raw_coefficients_probe.py).
+- [k2127-smooth-collision-locality](k2127_smooth_collision_locality_probe.py).
+- [k2128-contact-limit-energy-cost](k2128_contact_limit_energy_cost_probe.py).
+
+
 - [k2123-same-current-potential-dynamics](k2123_same_current_potential_dynamics_probe.py).
 - [k2124-moving-positive-polarization](k2124_moving_positive_polarization_probe.py).
 - [k2125-local-two-field-collision](k2125_local_two_field_collision_probe.py).

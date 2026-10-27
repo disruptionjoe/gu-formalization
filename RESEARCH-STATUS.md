@@ -8,6 +8,32 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## K2126--K2128: Positive-sector raw obstruction and smooth collision tradeoff (2026-10-27)
+
+K2126 exhausts the actual common-H raw upper coefficient class for first derivatives of the
+selected positive32 at P0: exact joint temporal/spatial quotient ranks force all four
+derivatives to vanish, without demanding complement invariance. The obstruction survives
+removing the entire lower return, so a southeast-only repair cannot help. Scope is P0, not every
+angle or all positive families. K2127 smooths the actual two-field contact model, keeps exact
+completed recorded parity and sectorwise finite energy, but proves an immediate locality collar
+and explicit even-operation signalling. K2128 proves fixed-code O(sqrt epsilon) contact
+convergence with no operator-norm convergence and logarithmic intermediate free-energy cost for
+fixed nonzero crossing data. These are conditional internally reviewed mathematics; source,
+ledger, canon and GU recovery unchanged.
+
+- [K2126](explorations/conditional-build/k2126-positive-sector-raw-coefficients-2026-10-27.md).
+- [K2127](explorations/conditional-build/k2127-smooth-collision-locality-2026-10-27.md).
+- [K2128](explorations/conditional-build/k2128-contact-limit-energy-cost-2026-10-27.md).
+
+Three probes pass39 certificate/equation/witness checks and report16 negative controls (13
+input/reference predicate failures and three normalization controls). K2126 reconstructs
+complete reduced raw systems with exact rational upper ranks, checked right kernels and
+independent modular minors; representative original raw contractions, complete512 time-coset
+coverage and integer-overflow bounds are checked. K2127/28 replay actual phase cocycles,
+conjugacy, full matrix-unit readout, signalling and fractional integral estimates. Universal
+PDE/local-algebra/finite-code/energy proofs are independently internally reviewed, distinct from
+finite checks. No external review, proof assistant or novelty claim.
+
 ## K2123--K2125: Same-current dynamics and causal contact readout (2026-10-27)
 
 K2123 composes the actual thirteen-real-dimensional K2028 raw potential class with K2120

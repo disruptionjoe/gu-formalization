@@ -7,6 +7,11 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2126-positive-sector-raw-coefficients](conditional-build/k2126-positive-sector-raw-coefficients-2026-10-27.md).
+- [k2127-smooth-collision-locality](conditional-build/k2127-smooth-collision-locality-2026-10-27.md).
+- [k2128-contact-limit-energy-cost](conditional-build/k2128-contact-limit-energy-cost-2026-10-27.md).
+
+
 - [k2123-same-current-potential-dynamics](conditional-build/k2123-same-current-potential-dynamics-2026-10-27.md).
 - [k2124-moving-positive-polarization](conditional-build/k2124-moving-positive-polarization-2026-10-27.md).
 - [k2125-local-two-field-collision](conditional-build/k2125-local-two-field-collision-2026-10-27.md).
