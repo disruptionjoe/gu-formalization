@@ -7,6 +7,10 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2114-binary-lueders-causality](conditional-build/k2114-binary-lueders-causality-2026-10-26.md).
+- [k2115-exact-pulse-excitation-bound](conditional-build/k2115-exact-pulse-excitation-bound-2026-10-26.md).
+- [k2116-distributed-coherent-readout](conditional-build/k2116-distributed-coherent-readout-2026-10-26.md).
+
 - [k2111-finite-car-code-continuity](conditional-build/k2111-finite-car-code-continuity-2026-10-26.md).
 - [k2112-positive-mode-local-capture](conditional-build/k2112-positive-mode-local-capture-2026-10-26.md).
 - [k2113-causal-code-instrument-budget](conditional-build/k2113-causal-code-instrument-budget-2026-10-26.md).

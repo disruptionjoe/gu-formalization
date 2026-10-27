@@ -7,6 +7,10 @@ updated_at: "2026-10-26"
 
 # Next Steps For Contributors
 
+> **2026-10-26: EXACT QUIET-FIELD TRANSFER AND CAUSAL READOUT RESOURCES.**
+> Construct a physically local controlled reflection on the distributed captured massive code, with energy-domain and causal record collection estimates; compare against the source-selected observed neutral algebra/domain on9.16 and thermal163/164 cap-path31322/32222/3332 supporting inequalities. Reuse K2115 exact synchronized pulse and full-field fixed-vacuum code bounds, K2114 causal classification and K2116 supplied-gate resource theorem. Do not repeat finite funnels, Born-only suppression or abstract Bell circuits. The new global field result fixes vacuum spectators; arbitrary spectator restoration and total controller energy remain open. Retain K2021 R0/R1, K2085 interval/dimension41, full20/K-C/accessibility, native2+1/chirality, mirror/fullII/normaljets, near5/4/nonlattice/exact wings.
+> Prior banners preserve historical questions; no source or ledger promotion.
+
 > **2026-10-26: LOCAL POSITIVE-ENERGY CODE CAPTURE AND ITS READOUT BOUNDARY.**
 > Construct an actual causal collective readout for the distributed positive-energy code, or establish an all-order global excitation budget for the growing local-pulse family; compare against a source-selected observed neutral algebra/domain for9.16 and new thermal163/164 cap-path31322/32222/3332 supporting inequalities. Reuse K2089 local swap, K2111 full-code continuity and K2112 tail capture; do not repeat compact-mode transfer, scalar pulse finiteness or finite gate matrices. Keep global sea energy and finite-code accuracy separate. Retain K2021 R0/R1, K2085 closed interval/dimension41, full20/K-C/accessibility, native2+1/chirality, mirror/fullII/normaljets, near5/4, nonlattice and exact wings.
 > Prior banners preserve historical questions; no source or ledger promotion.

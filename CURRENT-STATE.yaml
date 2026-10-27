@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 8fb2c2cab870358200971fc81aac07706feaddd8
+revision_basis: 037f785724b59c275e8865acfefc15ed1f564d1a
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -58,6 +58,19 @@ reviewed_research_2026_10_26:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2114 classifies finite binary Lueders channels by product reflections and proves the
+    exact quarter-error distance of the rank-one-versus-three coarse readout from
+    nonsignalling channels, with a localizable minimizer and even dual-rail witness. K2115
+    proves exact all-order particle-plus-hole moment decay for synchronized smooth massive
+    Dirac pulses, global sea return and mean free excitation-energy decay; its released fixed-
+    vacuum finite-code theorem controls the entire field output with arbitrary references.
+    K2116 realizes product-reflection instruments with supplied Bell ancillas and local
+    controls, computes exact Schmidt-resource protocol error, and characterizes exact pure-
+    resource feasibility by largest Schmidt weight at most one half. These are imported
+    conditional mathematics; actual local continuum collective control, controller work,
+    source selection, GU recovery and novelty remain unclaimed.
+
+    Historical predecessor (not live):
     K2111 proves complete d-mode CAR code continuity with cb error bounded by pi times the sum
     of frame errors, including arbitrary external references. K2112 composes it with the
     existing local smooth Dirac swap to capture fixed finite positive-energy codes with error
@@ -16794,6 +16807,9 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k2114-binary-lueders-causality-2026-10-26.md
+    - explorations/conditional-build/k2115-exact-pulse-excitation-bound-2026-10-26.md
+    - explorations/conditional-build/k2116-distributed-coherent-readout-2026-10-26.md
     - explorations/conditional-build/k2111-finite-car-code-continuity-2026-10-26.md
     - explorations/conditional-build/k2112-positive-mode-local-capture-2026-10-26.md
     - explorations/conditional-build/k2113-causal-code-instrument-budget-2026-10-26.md
@@ -18271,6 +18287,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can the exact quiet-field capture be coupled to physically local controlled reflections
+  and causal record collection, and does that construction outrank a source-selected
+  observation/domain test?
+
+  Historical predecessor (not live):
   Can the local positive-energy code capture now be completed by a causal collective readout
   or a controlled all-order global excitation budget, and does either beat the current
   source-selected observation/domain challenger?
@@ -22061,6 +22082,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Construct a physically local controlled reflection on the distributed captured massive
+  code, with energy-domain and causal record collection estimates; compare against the
+  source-selected observed neutral algebra/domain on9.16 and thermal163/164 cap-
+  path31322/32222/3332 supporting inequalities. Reuse K2115 exact synchronized pulse and
+  full-field fixed-vacuum code bounds, K2114 causal classification and K2116 supplied-gate
+  resource theorem. Do not repeat finite funnels, Born-only suppression or abstract Bell
+  circuits. The new global field result fixes vacuum spectators; arbitrary spectator
+  restoration and total controller energy remain open. Retain K2021 R0/R1, K2085
+  interval/dimension41, full20/K-C/accessibility, native2+1/chirality,
+  mirror/fullII/normaljets, near5/4/nonlattice/exact wings.
+
+  Historical predecessor (not live):
   Construct an actual causal collective readout for the distributed positive-energy code, or
   establish an all-order global excitation budget for the growing local-pulse family;
   compare against a source-selected observed neutral algebra/domain for9.16 and new

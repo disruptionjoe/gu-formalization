@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "status": "internally_reviewed_conditional_mathematics",
+  "artifact": "k2115-exact-pulse-excitation-bound",
+  "source_effect": "none",
+  "ledger_effect": "none",
+  "canon_effect": "none",
+  "evidence": "explorations/conditional-build/k2115-exact-pulse-excitation-bound-2026-10-26.md",
+  "probe": "tests/channel-swings/k2115_exact_pulse_excitation_bound_probe.py",
+  "claim_ceiling": "Imported positive Hilbert factors/CAR and specified massive Dirac dynamics; no source-selected physics, continuum collective readout, total controller-energy budget or novelty.",
+  "evidence_kinds": [
+    "written analytic proof",
+    "exact finite/data controls",
+    "independent internal specialist review"
+  ],
+  "fault_count": 8,
+  "conclusion": "K2114 classifies finite binary Lueders channels by product reflections and proves the exact quarter-error distance of the rank-one-versus-three coarse readout from nonsignalling channels, with a localizable minimizer and even dual-rail witness. K2115 proves exact all-order particle-plus-hole moment decay for synchronized smooth massive Dirac pulses, global sea return and mean free excitation-energy decay; its released fixed-vacuum finite-code theorem controls the entire field output with arbitrary references. K2116 realizes product-reflection instruments with supplied Bell ancillas and local controls, computes exact Schmidt-resource protocol error, and characterizes exact pure-resource feasibility by largest Schmidt weight at most one half. These are imported conditional mathematics; actual local continuum collective control, controller work, source selection, GU recovery and novelty remain unclaimed."
+}

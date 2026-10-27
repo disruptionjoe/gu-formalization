@@ -7,6 +7,33 @@ updated_at: "2026-10-26"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K2114--K2116: Causal readout and exact quiet-field transfer (2026-10-26)
+
+K2114 classifies finite binary Lueders channels by product reflections and proves the exact
+quarter-error distance of the rank-one-versus-three coarse readout from nonsignalling
+channels, with a localizable minimizer and even dual-rail witness. K2115 proves exact all-
+order particle-plus-hole moment decay for synchronized smooth massive Dirac pulses, global
+sea return and mean free excitation-energy decay; its released fixed-vacuum finite-code
+theorem controls the entire field output with arbitrary references. K2116 realizes product-
+reflection instruments with supplied Bell ancillas and local controls, computes exact
+Schmidt-resource protocol error, and characterizes exact pure-resource feasibility by
+largest Schmidt weight at most one half. These are imported conditional mathematics; actual
+local continuum collective control, controller work, source selection, GU recovery and
+novelty remain unclaimed.
+
+- [K2114](explorations/conditional-build/k2114-binary-lueders-causality-2026-10-26.md).
+- [K2115](explorations/conditional-build/k2115-exact-pulse-excitation-bound-2026-10-26.md).
+- [K2116](explorations/conditional-build/k2116-distributed-coherent-readout-2026-10-26.md).
+
+Three exact SymPy1.14.0 probes pass clean baselines and reject17 genuine input/machinery
+faults (5/7/5). Controls inspect matrix-unit causal maps and even dual-rail projectors;
+exact Sylvester, full conjugation, moving-frame derivative, kernel-volume integrals and
+polarized CAR intertwining; joint ancilla Kraus maps, sector coherence, reference-linear
+extension and sharp Schmidt errors. Universal classification, continuum
+kernel/induction/Duhamel proof and full-field isometry bound are independently reviewed
+written mathematics, separate from finite controls, external expertise and proof-assistant
+certification.
+
 ## K2111--K2113: Local capture of complete positive-energy codes (2026-10-26)
 
 K2111 proves complete d-mode CAR code continuity with cb error bounded by pi times the sum

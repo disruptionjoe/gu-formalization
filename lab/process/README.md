@@ -7,6 +7,10 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2114-binary-lueders-causality](k2114-binary-lueders-causality.json).
+- [k2115-exact-pulse-excitation-bound](k2115-exact-pulse-excitation-bound.json).
+- [k2116-distributed-coherent-readout](k2116-distributed-coherent-readout.json).
+
 - [k2111-finite-car-code-continuity](k2111-finite-car-code-continuity.json).
 - [k2112-positive-mode-local-capture](k2112-positive-mode-local-capture.json).
 - [k2113-causal-code-instrument-budget](k2113-causal-code-instrument-budget.json).
