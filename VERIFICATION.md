@@ -7,6 +7,32 @@ updated_at: "2026-10-26"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K2135--K2137: Full graph connections and stable point-memory measurements (2026-10-27)
+
+K2135 constructs inherited-current compatible connections on the full conserving graph family,
+proves a nonflat canonical example and a flat compatible countercontrol, and extends selected
+transport with the same H after changing the upper contraction. K2136 constructs a semibounded
+strictly point-local massive scalar memory model with a complete recorded non-Gaussian
+instrument. K2137 gives fixed-code full-channel cutoff bounds and finite field-energy budgets;
+triangular switching makes the second energy moment finite. These are conditional internally
+reviewed mathematical constructions, not raw-class compatibility, fermionic parity, an
+autonomous controller or GU recovery.
+
+- [K2135](explorations/conditional-build/k2135-full-graph-current-connection-2026-10-27.md).
+- [K2136](explorations/conditional-build/k2136-point-probe-recorded-field-2026-10-27.md).
+- [K2137](explorations/conditional-build/k2137-point-probe-energy-continuum-2026-10-27.md).
+
+Three probes pass 39 exact finite algebraic, symbolic resource and equation controls and reject
+12 genuine input/equation faults. K2135 checks reduced Cl4 graph identities, noncommuting
+curvature and flat countercontrol, and generic Hermitian interpolation; full-family and PDE
+statements rely on independently reviewed proofs. K2136 checks Weyl phases, complete
+memory/record matrices including the X-versus-Z readout control, and field-energy cancellation.
+K2137 checks the actual triangular Fourier transform, integrable tail bounds, low-number
+generator action and coherent-energy generating functions. Continuum form domains, local von
+Neumann-net causality and reference-stable channel bounds are written proofs, not inferred from
+finite matrices. No full raw tangent classification, remote CI, proof assistant, external review
+or novelty claim.
+
 ## K2132--K2134: Conserving sector classification, noncircle transport and recorded measurement cost (2026-10-27)
 
 K2132 classifies all maximum-dimension constant Cl4-invariant positive sectors conserving the

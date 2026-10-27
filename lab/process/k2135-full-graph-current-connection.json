@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "status": "conditional_exact_equation_controls",
+  "exact_checks": {
+    "Cl4_principal_and_mass": true,
+    "W_square_and_mass_anticommutator": true,
+    "graph_current": true,
+    "S_projection": true,
+    "metric_compatibility": true,
+    "horizontal_remainder": true,
+    "principal_connection_commutes": true,
+    "mass_current": true,
+    "nonabelian_curvature": true,
+    "scalar_curve_flat_control": true,
+    "variable_metric_flat_connection": true,
+    "hermitian_extension": true
+  },
+  "fault_failures": {
+    "omit_metric_inverse": [
+      "metric_compatibility",
+      "horizontal_remainder"
+    ],
+    "replace_pairing_coefficient": [
+      "nonabelian_curvature"
+    ],
+    "zero_variable_metric_connection": [
+      "variable_metric_flat_connection"
+    ],
+    "omit_extension_subtraction": [
+      "hermitian_extension"
+    ]
+  },
+  "universal_evidence": "Written full graph connection, curvature, domain and extension proofs; finite tests do not prove all-family raw compatibility.",
+  "native_bridge": "K2132 fullCl4 multiplicity decomposition, inherited S=a t+3a W Z; 3x3 controls embed in native multiplicity8.",
+  "probe_sha256": "26a5b323ab7cb34260541d1f709d6dbda8de067e8afa076ad53ca29ce87b269f",
+  "native_bridge_sha256": "2b6029096c6089d2da8695beabbced1802d2914ef2f49aee12147efae3a813d5"
+}

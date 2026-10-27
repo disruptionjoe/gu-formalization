@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: ca50a059336bdd95461dfba900224ab8efab8584
+revision_basis: 422875569eb2541a78a6ce65865cfd2ec8ee2e22
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -58,6 +58,16 @@ reviewed_research_2026_10_26:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2135 constructs inherited-current compatible connections on the full conserving graph
+    family, proves a nonflat canonical example and a flat compatible countercontrol, and extends
+    selected transport with the same H after changing the upper contraction. K2136 constructs a
+    semibounded strictly point-local massive scalar memory model with a complete recorded
+    non-Gaussian instrument. K2137 gives fixed-code full-channel cutoff bounds and finite
+    field-energy budgets; triangular switching makes the second energy moment finite. These are
+    conditional internally reviewed mathematical constructions, not raw-class compatibility,
+    fermionic parity, an autonomous controller or GU recovery.
+
+    Historical predecessor (not live):
     K2132 classifies all maximum-dimension constant Cl4-invariant positive sectors conserving
     the inherited nonzero-mass current: an explicit 320-real-dimensional graph family, including
     a native noncircle hyperbolic family. K2134 constructs its same-H selected transport at
@@ -16878,6 +16888,9 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k2135-full-graph-current-connection-2026-10-27.md
+    - explorations/conditional-build/k2136-point-probe-recorded-field-2026-10-27.md
+    - explorations/conditional-build/k2137-point-probe-energy-continuum-2026-10-27.md
     - explorations/conditional-build/k2132-conserving-positive-sector-classification-2026-10-27.md
     - explorations/conditional-build/k2133-recorded-instrument-vacuum-disturbance-2026-10-27.md
     - explorations/conditional-build/k2134-noncircle-current-transport-2026-10-27.md
@@ -18376,6 +18389,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which full-family graph motions are compatible with the actual raw operator, and can a
+  parity-capable or autonomously controlled local apparatus meet explicit preparation and
+  total-resource constraints?
+
+  Historical predecessor (not live):
   Which directions of the full conserving positive-sector graph family admit the actual raw
   dynamics, and can a stable causal recorded apparatus satisfy its explicit fixed-code
   disturbance and resource constraints?
@@ -22199,6 +22217,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Compare the full320 graph raw tangent compatibility with an observation/action reason
+  selecting a changed contraction and connection; current conservation alone leaves flat and
+  nonflat choices. For apparatus pursue an actual parity-capable local interaction or autonomous
+  controller with bounded total resources, and explicit code preparation constants. The
+  supplied1+1 scalar point-memory construction now has stable causal dynamics, full record and
+  finite triangular-pulse second energy moment; do not repeat that gap or call it the
+  fermion-parity target. Thermal163 multi-terminal/164 cap31322/32222/3332 global supporting
+  inequalities remain independent; K2085 interval/dimension41 complete. Retain
+  full20/K-C/accessibility/native2+1/chirality/mirror/fullII/normaljets/near5/4/nonlattice/exact
+  wings. Source, ledger and canon unchanged.
+
+  Historical predecessor (not live):
   Compare the full conserving graph family raw tangent space at a named sector with an
   observation/action-justified changed upper contraction. The fixed circle and the new
   hyperbolic origin jets are settled in their exact scopes; two curves do not exhaust320

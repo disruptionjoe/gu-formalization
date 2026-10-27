@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "status": "conditional_symbolic_resource_controls",
+  "exact_checks": {
+    "triangular_Fourier_transform": true,
+    "triangle_area": true,
+    "triangle_phase_bound": true,
+    "rectangle_displacement_tail": true,
+    "rectangle_energy_tail": true,
+    "triangle_norm_tail": true,
+    "triangle_energy_tail": true,
+    "triangle_second_tail": true,
+    "rectangle_lower_polynomial": true,
+    "triangle_sinc_lower": true,
+    "point_form_antiderivative": true,
+    "point_energy_shift": true,
+    "triangle_global_second_moment": true,
+    "code_generator_bound": true,
+    "coherent_second_moment": true
+  },
+  "fault_failures": {
+    "pulse_normalization": [
+      "triangular_Fourier_transform"
+    ],
+    "wrong_triangle_UV_power": [
+      "triangle_norm_tail",
+      "triangle_energy_tail",
+      "triangle_second_tail"
+    ],
+    "wrong_code_generator_constant": [
+      "code_generator_bound"
+    ],
+    "drop_energy_variance": [
+      "coherent_second_moment"
+    ]
+  },
+  "evidence_kind": "Exact Fourier integration, tail majorant antiderivatives, polynomial bounds and low-number generator action. Universal bounds/domain/causality are written proofs, not samples.",
+  "probe_sha256": "e4d179a6ccf6d3a1388ef7f98722ea75d812f58cbf0d99f14f9c62dbf6ed02c1"
+}

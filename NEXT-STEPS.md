@@ -7,6 +7,10 @@ updated_at: "2026-10-26"
 
 # Next Steps For Contributors
 
+> **2026-10-27: FULL GRAPH CONNECTIONS AND STABLE POINT-MEMORY MEASUREMENTS.**
+> Compare the full320 graph raw tangent compatibility with an observation/action reason selecting a changed contraction and connection; current conservation alone leaves flat and nonflat choices. For apparatus pursue an actual parity-capable local interaction or autonomous controller with bounded total resources, and explicit code preparation constants. The supplied1+1 scalar point-memory construction now has stable causal dynamics, full record and finite triangular-pulse second energy moment; do not repeat that gap or call it the fermion-parity target. Thermal163 multi-terminal/164 cap31322/32222/3332 global supporting inequalities remain independent; K2085 interval/dimension41 complete. Retain full20/K-C/accessibility/native2+1/chirality/mirror/fullII/normaljets/near5/4/nonlattice/exact wings. Source, ledger and canon unchanged.
+> Prior banners preserve historical questions; no source or ledger promotion.
+
 > **2026-10-27: CONSERVING SECTORS AND COMPLETE RECORDED MEASUREMENT BOUNDS.**
 > Compare the full conserving graph family raw tangent space at a named sector with an observation/action-justified changed upper contraction. The fixed circle and the new hyperbolic origin jets are settled in their exact scopes; two curves do not exhaust320 parameters. Retain the actual noncircle same-current transport and full1920 Hermitian interpolation, without claiming full1920 wellposedness. For apparatus construct stable causal nonlinear dynamics and full recorded readout with fixed region/code, commutant preparation constants, global vacuum disturbance and energy gap or substitute resource explicit; no code-independent energy floor. Thermal163 multi-terminal/164 cap-path31322/32222/3332 global supporting inequalities remain independent competition; K2085 interval/dimension41 complete. Retain full20/K-C/accessibility/native2+1/chirality/mirror/fullII/normaljets/near5/4/nonlattice/exact wings. No source, ledger or canon promotion.
 > Prior banners preserve historical questions; no source or ledger promotion.

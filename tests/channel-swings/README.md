@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2135-full-graph-current-connection](k2135_full_graph_current_connection_probe.py).
+- [k2136-point-probe-recorded-field](k2136_point_probe_recorded_field_probe.py).
+- [k2137-point-probe-energy-continuum](k2137_point_probe_energy_continuum_probe.py).
+
+
 - [k2132-conserving-positive-sector-classification](k2132_conserving_positive_sector_classification_probe.py).
 - [k2133-recorded-instrument-vacuum-disturbance](k2133_recorded_instrument_vacuum_disturbance_probe.py).
 - [k2134-noncircle-current-transport](k2134_noncircle_current_transport_probe.py).

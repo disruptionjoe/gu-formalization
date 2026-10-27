@@ -7,6 +7,11 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2135-full-graph-current-connection](conditional-build/k2135-full-graph-current-connection-2026-10-27.md).
+- [k2136-point-probe-recorded-field](conditional-build/k2136-point-probe-recorded-field-2026-10-27.md).
+- [k2137-point-probe-energy-continuum](conditional-build/k2137-point-probe-energy-continuum-2026-10-27.md).
+
+
 - [k2132-conserving-positive-sector-classification](conditional-build/k2132-conserving-positive-sector-classification-2026-10-27.md).
 - [k2133-recorded-instrument-vacuum-disturbance](conditional-build/k2133-recorded-instrument-vacuum-disturbance-2026-10-27.md).
 - [k2134-noncircle-current-transport](conditional-build/k2134-noncircle-current-transport-2026-10-27.md).

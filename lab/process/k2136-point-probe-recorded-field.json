@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "status": "conditional_algebra_controls",
+  "exact_checks": {
+    "static_Weyl_phase": true,
+    "displacement_picture": true,
+    "Weyl_cocycle_associative": true,
+    "Ramsey_record_Kraus": true,
+    "complete_record_normalization": true,
+    "unread_two_displacements": true,
+    "record_copy_unitary": true,
+    "record_generator_phase": true,
+    "one_photon_record_contrast": true,
+    "global_vacuum_fidelity": true,
+    "unread_energy_cross_cancellation": true,
+    "nonGaussian_characteristic_zero": true
+  },
+  "fault_failures": {
+    "weyl_phase_sign": [
+      "static_Weyl_phase"
+    ],
+    "Z_instead_of_X_readout": [
+      "Ramsey_record_Kraus"
+    ],
+    "halve_record_Weyl_argument": [
+      "one_photon_record_contrast"
+    ],
+    "omit_opposite_displacement": [
+      "unread_energy_cross_cancellation"
+    ]
+  },
+  "evidence_kind": "Weyl algebra, finite memory/record matrix equations and symbolic field-energy cancellation. No finite matrix is claimed to represent exact continuum CCR.",
+  "proof_dependency": "K2136 written form construction, retarded Klein-Gordon support and Fock characteristic identities",
+  "probe_sha256": "184ee83ed9da28256ddd7a2876cee2de765de3224aec564de72dc5f600bf0fc4"
+}

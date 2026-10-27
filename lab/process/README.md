@@ -7,6 +7,11 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2135-full-graph-current-connection](k2135-full-graph-current-connection.json).
+- [k2136-point-probe-recorded-field](k2136-point-probe-recorded-field.json).
+- [k2137-point-probe-energy-continuum](k2137-point-probe-energy-continuum.json).
+
+
 - [k2132-conserving-positive-sector-classification](k2132-conserving-positive-sector-classification.json).
 - [k2133-recorded-instrument-vacuum-disturbance](k2133-recorded-instrument-vacuum-disturbance.json).
 - [k2134-noncircle-current-transport](k2134-noncircle-current-transport.json).
