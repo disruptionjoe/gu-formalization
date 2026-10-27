@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 4ad8815e86e8e21e1d8c54319247669174cfaf91
+revision_basis: f187df16e8e7fd78e7f4882326c8513b96131f45
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -58,6 +58,19 @@ reviewed_research_2026_10_26:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2141 exhausts all1280 real graph first jets at P0 against the
+    complete16620-real-coefficient raw upper class, with no lower-return constraints: rational
+    and mod101 obstruction rank1280, zero survivors. A smooth native-equation/Gronwall argument
+    then proves bounded-coefficient no-departure through P0. K2142 proves finite-time real
+    two-site control dense on a fixed frequency shell but compact with factorial worst-direction
+    cost, while whole-field remote modes remain exactly record-invisible and force an
+    energy-constrained parity-instrument error approaching1/2. K2143 constructs supplied local
+    canonical-mode parity, computes its global-vacuum record and energy, shows widening support
+    suppresses the vacuum baseline while the rare local-odd branch approaches2m from above, and
+    excludes an instantaneous causal interpretation. Internal conditional mathematics; no
+    full-chart raw rigidity, causal detector implementation or GU recovery.
+
+    Historical predecessor (not live):
     K2138 classifies canonical full-graph holonomy U(8)xU(8), proves the full-chart
     parallel-mass obstruction and constructs a mass-preserving connection with diagonal U(8)
     holonomy, while retaining flat alternatives. K2139 excludes exact dark records and
@@ -16899,6 +16912,9 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k2141-full-graph-raw-tangent-2026-10-27.md
+    - explorations/conditional-build/k2142-finite-time-real-control-2026-10-27.md
+    - explorations/conditional-build/k2143-local-canonical-parity-2026-10-27.md
     - explorations/conditional-build/k2138-graph-holonomy-mass-transport-2026-10-27.md
     - explorations/conditional-build/k2139-finite-weyl-record-obstruction-2026-10-27.md
     - explorations/conditional-build/k2140-point-sites-blind-sectors-2026-10-27.md
@@ -18403,6 +18419,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which distinct raw sector or structure-preserving transport survives the P0 no-departure
+  theorem, and what causal finite-duration dynamics realizes a useful complete parity record
+  with quantified field and controller resources?
+
+  Historical predecessor (not live):
   Which raw-compatible graph transport or source-selected connection survives, and what actual
   non-Weyl or controlled-limit local dynamics can realize the full parity record on a nonblind
   finite-energy code?
@@ -22236,6 +22257,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Compare a genuinely different raw base sector or structural transport preserving the
+  coefficient class with a finite-duration causal implementation of local canonical parity, or
+  quantitative shell-code approximation carrying complete-record and total-resource error.
+  Repeating P0 scalar curves supplies no new tangent information: all1280 directions are
+  excluded and locally bounded coefficients cannot depart through P0. Selectors avoiding P0 and
+  singular coefficients remain open. Shell density is not a bounded inverse or whole-field
+  parity control. Local canonical parity is not global particle parity, and widening support
+  reduces baseline at the price of growing spatial support without solving causal realization.
+  Thermal163 multi-terminal/164 cap31322/32222/3332 global supporting inequalities remain
+  independent; K2085 interval/dimension41 is complete. Retain
+  full20/K-C/accessibility/native2+1/chirality/mirror/fullII/normaljets/near5/4/nonlattice/exact
+  wings. Source, ledger and canon unchanged.
+
+  Historical predecessor (not live):
   Compare the complete raw graph tangent system or action/observation selection of a connection
   with a genuinely number-dependent local detector interaction or an infinite-control limit
   carrying complete-record and total-resource bounds. Full-chart mass transport now

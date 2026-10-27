@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "status": "conditional_exact_controls",
+  "exact_checks": {
+    "canonical_reflection": true,
+    "native_single_mode_reflection": true,
+    "bogoliubov_CCR": true,
+    "rank_two_pair_creation": true,
+    "exact_free_energy": true,
+    "particle_number": true,
+    "vacuum_covariance": true,
+    "strict_vacuum_baseline": true,
+    "spectral_mode_countercontrol": true,
+    "recorded_projectors": true,
+    "unread_channel": true,
+    "branch_energy_without_cross_terms": true,
+    "intraregional_commutator": true,
+    "ordinary_free_dynamics_not_commuting": true,
+    "bounded_unread_signal": true
+  },
+  "fault_failures": {
+    "reflection_normalization": [
+      "canonical_reflection",
+      "native_single_mode_reflection",
+      "bogoliubov_CCR",
+      "rank_two_pair_creation",
+      "exact_free_energy",
+      "particle_number",
+      "intraregional_commutator",
+      "bounded_unread_signal"
+    ],
+    "beta_sum": [
+      "bogoliubov_CCR",
+      "rank_two_pair_creation",
+      "exact_free_energy",
+      "particle_number"
+    ],
+    "omit_energy_cross": [
+      "exact_free_energy"
+    ],
+    "wrong_readout": [
+      "recorded_projectors"
+    ],
+    "global_mode_substitution": [
+      "native_single_mode_reflection",
+      "rank_two_pair_creation",
+      "exact_free_energy",
+      "particle_number",
+      "intraregional_commutator",
+      "ordinary_free_dynamics_not_commuting",
+      "bounded_unread_signal"
+    ]
+  },
+  "universal_evidence": "Exact two-frequency symplectic/Bogoliubov/energy controls and finite recorded-channel identities. Continuum local CCR implementability, strict vacuum response and finite-energy transfer use independently reviewed written proofs.",
+  "probe_sha256": "008b10abe65dd1a8066d3c31c33a839cdecc9e85e24fd824a809773948d3b38f",
+  "dependency_sha256": {
+    "explorations/conditional-build/k2139-finite-weyl-record-obstruction-2026-10-27.md": "37850b727eef92abad2bbf69b86d170e33bb8907f3d3f2f17b0ffd91d39bfdb4",
+    "explorations/conditional-build/k2140-point-sites-blind-sectors-2026-10-27.md": "1b6a2b45a49c74006694af12d7f43cd71edf0bde849b0e22be827a84521dd244"
+  }
+}

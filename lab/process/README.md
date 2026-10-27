@@ -7,6 +7,11 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2141-full-graph-raw-tangent](k2141-full-graph-raw-tangent.json).
+- [k2142-finite-time-real-control](k2142-finite-time-real-control.json).
+- [k2143-local-canonical-parity](k2143-local-canonical-parity.json).
+
+
 - [k2138-graph-holonomy-mass-transport](k2138-graph-holonomy-mass-transport.json).
 - [k2139-finite-weyl-record-obstruction](k2139-finite-weyl-record-obstruction.json).
 - [k2140-point-sites-blind-sectors](k2140-point-sites-blind-sectors.json).

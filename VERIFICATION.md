@@ -7,6 +7,35 @@ updated_at: "2026-10-26"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K2141--K2143: Full raw tangent obstruction and finite-time/local-parity limits (2026-10-27)
+
+K2141 exhausts all1280 real graph first jets at P0 against the complete16620-real-coefficient
+raw upper class, with no lower-return constraints: rational and mod101 obstruction rank1280,
+zero survivors. A smooth native-equation/Gronwall argument then proves bounded-coefficient
+no-departure through P0. K2142 proves finite-time real two-site control dense on a fixed
+frequency shell but compact with factorial worst-direction cost, while whole-field remote modes
+remain exactly record-invisible and force an energy-constrained parity-instrument error
+approaching1/2. K2143 constructs supplied local canonical-mode parity, computes its
+global-vacuum record and energy, shows widening support suppresses the vacuum baseline while the
+rare local-odd branch approaches2m from above, and excludes an instantaneous causal
+interpretation. Internal conditional mathematics; no full-chart raw rigidity, causal detector
+implementation or GU recovery.
+
+- [K2141](explorations/conditional-build/k2141-full-graph-raw-tangent-2026-10-27.md).
+- [K2142](explorations/conditional-build/k2142-finite-time-real-control-2026-10-27.md).
+- [K2143](explorations/conditional-build/k2143-local-canonical-parity-2026-10-27.md).
+
+Three probes pass 34 finite exact summary checks and reject 16 actual altered-input/equation
+faults. K2141 also performs256 original gamma contractions across all32 cosets and complete
+rational/mod101 local and shared-target ranks; global targets are coupled rather than
+duplicated. The native current/leakage transfer and bounded-coefficient no-departure use
+independently reviewed proofs. K2142 real-adjoint density, compactness, factorial cost, finite
+propagation and finite-energy record witnesses are written continuum arguments with finite
+controls. K2143 exact Bogoliubov/record/energy identities are checked finitely; operator
+domains, continuum moments, widening-support asymptotics and causal limitations have independent
+written review. Finite controls are not continuum proofs. No external-expert review, proof
+assistant, causal apparatus, remote CI or novelty claim.
+
 ## K2138--K2140: Graph holonomy and finite-protocol detector limits (2026-10-27)
 
 K2138 classifies canonical full-graph holonomy U(8)xU(8), proves the full-chart parallel-mass

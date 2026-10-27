@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2141-full-graph-raw-tangent](k2141_full_graph_raw_tangent_probe.py).
+- [k2142-finite-time-real-control](k2142_finite_time_real_control_probe.py).
+- [k2143-local-canonical-parity](k2143_local_canonical_parity_probe.py).
+
+
 - [k2138-graph-holonomy-mass-transport](k2138_graph_holonomy_mass_transport_probe.py).
 - [k2139-finite-weyl-record-obstruction](k2139_finite_weyl_record_obstruction_probe.py).
 - [k2140-point-sites-blind-sectors](k2140_point_sites_blind_sectors_probe.py).

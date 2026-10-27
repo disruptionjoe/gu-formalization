@@ -7,6 +7,11 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2141-full-graph-raw-tangent](conditional-build/k2141-full-graph-raw-tangent-2026-10-27.md).
+- [k2142-finite-time-real-control](conditional-build/k2142-finite-time-real-control-2026-10-27.md).
+- [k2143-local-canonical-parity](conditional-build/k2143-local-canonical-parity-2026-10-27.md).
+
+
 - [k2138-graph-holonomy-mass-transport](conditional-build/k2138-graph-holonomy-mass-transport-2026-10-27.md).
 - [k2139-finite-weyl-record-obstruction](conditional-build/k2139-finite-weyl-record-obstruction-2026-10-27.md).
 - [k2140-point-sites-blind-sectors](conditional-build/k2140-point-sites-blind-sectors-2026-10-27.md).
