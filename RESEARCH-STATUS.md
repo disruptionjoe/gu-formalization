@@ -8,6 +8,33 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## K2129--K2131: Smooth-selector rigidity, common-form completion and causal response (2026-10-27)
+
+K2129 proves every C1 selector in the fixed positive32 circle family is constant under the
+frozen common-H raw upper contraction, even with arbitrary lower return. Exact rotated ranks,
+two universal coefficient kernels and fixed analytic minors close the global smooth question
+without classifying isolated exceptional jets. K2131 supplies an explicit rank-at-most64
+full-carrier H-selfadjoint extension of moving selected32 dynamics after changing the upper
+contraction, preserving J,D0,H and the inherited current. K2130 applies spectral analyticity to
+close autonomous stable empty-vacuum transport with exact local darkness, then constructs a
+positive-energy massive scalar field with an exact delayed differential signal above vacuum
+baseline. These conditional results do not supply a source-selected quotient, nonlinear parity
+apparatus or GU recovery.
+
+- [K2129](explorations/conditional-build/k2129-rotated-positive-sector-raw-equations-2026-10-27.md).
+- [K2130](explorations/conditional-build/k2130-stable-empty-vacuum-locality-2026-10-27.md).
+- [K2131](explorations/conditional-build/k2131-common-form-selector-completion-2026-10-27.md).
+
+Three probes pass 39 exact matrix, rank-certificate and finite witness checks and reject 12
+genuine input faults. K2129 reconstructs complete rotated XOR systems with exact rational
+ranks/right kernels and mod101 minors, retains original equation rows/fixed divisors and
+verifies four universal raw coefficients on all15 output rows. Its analytic-minor/C1 conclusion
+is a written proof, not sampled-angle extrapolation. K2131 replays actual native Gram/current
+and factorized full1920 interpolation; K2130 checks finite Kraus, hopping, support/Bessel and
+code-bound controls. Spectral analyticity, continuum local-net/Klein-Gordon statements and
+selected-domain extension rest on written internally reviewed proofs. No external review, proof
+assistant or novelty claim.
+
 ## K2126--K2128: Positive-sector raw obstruction and smooth collision tradeoff (2026-10-27)
 
 K2126 exhausts the actual common-H raw upper coefficient class for first derivatives of the

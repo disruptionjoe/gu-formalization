@@ -1,0 +1,49 @@
+{
+  "result_id": "K2130",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "exact_checks": {
+    "Kraus-normalization": true,
+    "effect-real-Weyl": true,
+    "unread-random-unitary": true,
+    "stable-hopping-control": true,
+    "hopping-equation": true,
+    "immediate-hopping-detection": true,
+    "baseline-subtracted-response": true,
+    "zero-before-contact": true,
+    "all-pairs-inside-cone": true,
+    "early-separated-interval": true,
+    "Bessel-small-argument": true,
+    "strict-signal-interval": true,
+    "code-isometry": true,
+    "fixed-code-commutant-bound": true,
+    "commutant-locality": true
+  },
+  "fault_failures": {
+    "kraus-normalization": [
+      "Kraus-normalization",
+      "effect-real-Weyl",
+      "unread-random-unitary"
+    ],
+    "spectral-stability": [
+      "stable-hopping-control",
+      "hopping-equation"
+    ],
+    "vacuum-subtraction": [
+      "baseline-subtracted-response",
+      "zero-before-contact"
+    ],
+    "arrival-time": [
+      "all-pairs-inside-cone"
+    ],
+    "code-norm-budget": [
+      "fixed-code-commutant-bound"
+    ]
+  },
+  "evidence_kind": "Finite matrix and algebraic witness controls, not spectral analyticity or continuum locality certification.",
+  "inputs": {
+    "explorations/conditional-build/k2108-local-detector-tradeoffs-2026-10-26.md": "1ac47560807212c9d838be25dd9ba8df0f3376863e3e27dba9c3549decab2cdc",
+    "explorations/conditional-build/k2125-local-two-field-collision-2026-10-27.md": "88698ac4df967b32568416bde9980fc1f57fe581445687fb2f462ffaf0658378"
+  }
+}

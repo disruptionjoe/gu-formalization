@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2129-rotated-positive-sector-raw-equations](k2129_rotated_positive_sector_raw_equations_probe.py).
+- [k2130-stable-empty-vacuum-locality](k2130_stable_empty_vacuum_locality_probe.py).
+- [k2131-common-form-selector-completion](k2131_common_form_selector_completion_probe.py).
+
+
 - [k2126-positive-sector-raw-coefficients](k2126_positive_sector_raw_coefficients_probe.py).
 - [k2127-smooth-collision-locality](k2127_smooth_collision_locality_probe.py).
 - [k2128-contact-limit-energy-cost](k2128_contact_limit_energy_cost_probe.py).

@@ -7,6 +7,10 @@ updated_at: "2026-10-26"
 
 # Next Steps For Contributors
 
+> **2026-10-27: SMOOTH-SELECTOR RIGIDITY AND STABLE CAUSAL RESPONSE.**
+> Prioritize a justified changed upper contraction or a genuinely different positive family/observation; the fixed-circle smooth raw selector is now closed, so do not requeue generic-angle ranks or southeast-only repairs. K2131 common-H extension localizes the missing input to the contraction/source bridge and full-carrier dynamics, not existence of a finite Hermitian extension. For apparatus, construct stable causal nonlinear dynamics and full recorded readout on a polarized vacuum with baseline-subtracted response; do not stabilize the unchanged empty-vacuum/dark-local interface or count scalar response as parity measurement. Thermal163 multi-terminal/164 cap-path31322/32222/3332 global supporting inequalities remain independent competition; K2085 interval/dimension41 complete. Retain full20/K-C/accessibility/native2+1/chirality/mirror/fullII/normaljets/near5/4/nonlattice/exact wings. No source, ledger or canon promotion.
+> Prior banners preserve historical questions; no source or ledger promotion.
+
 > **2026-10-27: RAW POSITIVE-SECTOR JET AND SMOOTH COLLISION TRADEOFF.**
 > Compare the actual raw32 obstruction at generic Ptheta with a justified upper-class change or a different positive family; do not repeat the now-excluded P0 first jet or southeast-only repair. A stable causal nonlinear apparatus must avoid the demonstrated finite-range signalling and contact-limit logarithmic free-energy cost while retaining full recorded readout. Reuse finite-code convergence, exact final crossing and full-turn countercontrols; they do not supply a uniform energy budget. Thermal163 multi-terminal/164 cap-path31322/32222/3332 global supporting inequalities remain the strongest independent alternative; K2085 interval/dimension41 complete. Retain full20/K-C/accessibility/native2+1/chirality/mirror/fullII/normaljets/near5/4/nonlattice/exact wings. No source-selected quotient or GU recovery.
 > Prior banners preserve historical questions; no source or ledger promotion.

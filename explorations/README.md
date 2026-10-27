@@ -7,6 +7,11 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2129-rotated-positive-sector-raw-equations](conditional-build/k2129-rotated-positive-sector-raw-equations-2026-10-27.md).
+- [k2130-stable-empty-vacuum-locality](conditional-build/k2130-stable-empty-vacuum-locality-2026-10-27.md).
+- [k2131-common-form-selector-completion](conditional-build/k2131-common-form-selector-completion-2026-10-27.md).
+
+
 - [k2126-positive-sector-raw-coefficients](conditional-build/k2126-positive-sector-raw-coefficients-2026-10-27.md).
 - [k2127-smooth-collision-locality](conditional-build/k2127-smooth-collision-locality-2026-10-27.md).
 - [k2128-contact-limit-energy-cost](conditional-build/k2128-contact-limit-energy-cost-2026-10-27.md).

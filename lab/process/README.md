@@ -7,6 +7,11 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2129-rotated-positive-sector-raw-equations](k2129-rotated-positive-sector-raw-equations.json).
+- [k2130-stable-empty-vacuum-locality](k2130-stable-empty-vacuum-locality.json).
+- [k2131-common-form-selector-completion](k2131-common-form-selector-completion.json).
+
+
 - [k2126-positive-sector-raw-coefficients](k2126-positive-sector-raw-coefficients.json).
 - [k2127-smooth-collision-locality](k2127-smooth-collision-locality.json).
 - [k2128-contact-limit-energy-cost](k2128-contact-limit-energy-cost.json).

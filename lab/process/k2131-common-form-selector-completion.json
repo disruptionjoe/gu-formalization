@@ -1,0 +1,47 @@
+{
+  "result_id": "K2131",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "exact_checks": {
+    "native-Gram-spectrum": true,
+    "Gram-commutes-TZ": true,
+    "Gram-reflection-identity": true,
+    "rotated-projector": true,
+    "compressed-Gram": true,
+    "same-inherited-current": true,
+    "actual-left-inverse": true,
+    "compressed-compatibility": true,
+    "actual-compatibility-formula": true,
+    "full-carrier-interpolation": true,
+    "Hermitian-defect-on-injection": true,
+    "original-H-Hermitian-involution": true,
+    "selected-gradient-cancellation": true
+  },
+  "fault_failures": {
+    "left-inverse-scale": [
+      "actual-left-inverse",
+      "full-carrier-interpolation"
+    ],
+    "real-gradient": [
+      "compressed-compatibility",
+      "actual-compatibility-formula",
+      "full-carrier-interpolation",
+      "Hermitian-defect-on-injection",
+      "selected-gradient-cancellation"
+    ],
+    "omit-interpolation-subtraction": [
+      "full-carrier-interpolation"
+    ],
+    "gradient-sign": [
+      "selected-gradient-cancellation"
+    ]
+  },
+  "evidence_kind": "Exact native sparse rational/complex identities and factorized full-carrier interpolation. Universal extension and PDE domain scope use the written proof.",
+  "inputs": {
+    "lab/process/k1951-coordinated-zero-southeast-principal.json": "58ed2f1f9538cc3b47eb58322c61fa681521deb5298f20bdbd5acd6b932e7547",
+    "lab/process/k1967-paired-raw-coefficient-observation.json": "1c0d2057ec2942308c260f811a6b9f4c08a74dcec6d0c19cb25b5bc73eef8886",
+    "tests/channel-swings/k2123_same_current_potential_dynamics_probe.py": "02493eab919a6dd925bcf9e982862c15c6725a3a9f02a56d4bdedabde22b2bd1",
+    "tests/channel-swings/k2021_common_degree_dual_operator.py": "61c172cba4507e91b32c26c61a5a76ef644cabb6c3a94f31c8f3755f41913560"
+  }
+}
