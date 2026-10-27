@@ -11,6 +11,10 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2157-normal-trace-equation-adapter](conditional-build/k2157-normal-trace-equation-adapter-2026-10-27.md).
+- [k2158-local-squeezing-detector-energy](conditional-build/k2158-local-squeezing-detector-energy-2026-10-27.md).
+
+
 - [k2155-observed-grade-six-port](conditional-build/k2155-observed-grade-six-port-2026-10-27.md).
 - [k2156-energy-budget-detector-frontier](conditional-build/k2156-energy-budget-detector-frontier-2026-10-27.md).
 

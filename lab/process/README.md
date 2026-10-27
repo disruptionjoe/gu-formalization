@@ -11,6 +11,10 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2157-normal-trace-equation-adapter](k2157-normal-trace-equation-adapter.json).
+- [k2158-local-squeezing-detector-energy](k2158-local-squeezing-detector-energy.json).
+
+
 - [k2155-observed-grade-six-port](k2155-observed-grade-six-port.json).
 - [k2156-energy-budget-detector-frontier](k2156-energy-budget-detector-frontier.json).
 

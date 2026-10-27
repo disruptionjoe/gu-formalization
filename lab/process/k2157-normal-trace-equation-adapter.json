@@ -1,0 +1,55 @@
+{
+  "result_id": "K2157",
+  "status": "conditional_exact_controls",
+  "exact_checks": {
+    "all_tangent_covectors_all_field_blocks": true,
+    "all_ten_kernel_blocks": true,
+    "ambient_lift_scalar_one_sixth": true,
+    "ambient_lift_observed_half": true,
+    "actual_upper_connection_leak": true,
+    "scalar_tangent_coefficient_positive_control": true,
+    "invertible_leak_square": true,
+    "forgotten_characteristic_input": true,
+    "characteristic_leak_nonzero": true,
+    "moving_leibniz_correction": true,
+    "frozen_moving_map_fails": true,
+    "field_dual_evaluation": true,
+    "equation_and_field_duals_distinct": true,
+    "normal_jet_not_descended": true,
+    "all3432_complete_upper_classification": true
+  },
+  "fault_failures": {
+    "literal_pullback": [
+      "all_tangent_covectors_all_field_blocks",
+      "all_ten_kernel_blocks",
+      "ambient_lift_scalar_one_sixth",
+      "ambient_lift_observed_half",
+      "forgotten_characteristic_input"
+    ],
+    "shift_sign": [
+      "all_tangent_covectors_all_field_blocks",
+      "all_ten_kernel_blocks",
+      "ambient_lift_scalar_one_sixth",
+      "ambient_lift_observed_half",
+      "forgotten_characteristic_input"
+    ],
+    "commutator_port": [
+      "actual_upper_connection_leak",
+      "invertible_leak_square",
+      "characteristic_leak_nonzero"
+    ],
+    "moving_sign": [
+      "moving_leibniz_correction"
+    ],
+    "wrong_dual": [
+      "field_dual_evaluation",
+      "equation_and_field_duals_distinct"
+    ]
+  },
+  "dependency_sha256": {
+    "explorations/conditional-build/k2157-normal-trace-equation-adapter-2026-10-27.md": "73445ca8c9496973f70d879db488ac60eb7ab9a726e013de062e3bb1dc2b16da",
+    "tests/channel-swings/source_native_fermion_transverse_port_probe.py": "74c817b7d0cd59210b09dee507ce7d0feb3f0c433ae021f0a6b7a0ba81dea390"
+  },
+  "probe_sha256": "3e02c46fb39258e85e74dc1b329b326a0470ac47b84f715c2964b35970f18765",
+  "universal_evidence": "Companion note proves all-input principal identity, dual distinction, mixed-contraction class obstruction and moving-factorization criterion; no full source operator or physical quotient."
+}

@@ -1,0 +1,54 @@
+{
+  "result_id": "K2158",
+  "status": "conditional_exact_controls",
+  "exact_checks": {
+    "rational_improvement": true,
+    "vacuum_cost": true,
+    "zero_squeeze": true,
+    "independent_bogoliubov_energy": true,
+    "CCR_under_squeezing": true,
+    "spectral_cross_identity": true,
+    "all_recorded_effects_unchanged": true,
+    "complete_record": true,
+    "fixed_photon_added_ROC": true,
+    "strict_positive_vacuum_controls": true,
+    "symbolic_spectral_cross_identity": true,
+    "symbolic_all_covariance_energy": true,
+    "symbolic_strict_convexity": true,
+    "small_energy_second_order": true,
+    "symbolic_quartic": true,
+    "symbolic_physical_covariance_energy": true
+  },
+  "fault_failures": {
+    "inverse_squeeze": [
+      "rational_improvement",
+      "independent_bogoliubov_energy"
+    ],
+    "omit_vacuum_cost": [
+      "rational_improvement"
+    ],
+    "drop_cross_energy": [
+      "independent_bogoliubov_energy",
+      "spectral_cross_identity"
+    ],
+    "presqueeze": [
+      "all_recorded_effects_unchanged"
+    ],
+    "changed_signal": [
+      "fixed_photon_added_ROC"
+    ]
+  },
+  "rational_certificate": {
+    "root_lower": "1952902013686209316182577931/2475880078570760549798248448",
+    "root_upper": "488225503421552329045644483/618970019642690137449562112",
+    "energy_lower": "77649041085153953840453697661653810679166465023252191063023954387802597155434961711708170817159647789786344239043254200898590712858349216055/17532013439636361410162165124088367885700576024246267523598822049847450191319854750406186266858488034644475541444237764594437449675570151424",
+    "energy_upper": "59641272737427678497288574110841232233730126816880566269503290934570408015674980032601562470182346334588434998125/13466123735422644861152535750964805586591109613102121295632538657686450212556832512501702303980888803964715270144"
+  },
+  "dependency_sha256": {
+    "explorations/conditional-build/k2158-local-squeezing-detector-energy-2026-10-27.md": "337d6be205cd0bc409731c8c0b20e5116bee2e8665bd1880609ac40bf4f9fb2a",
+    "explorations/conditional-build/k2153-diagonal-detector-energy-2026-10-27.md": "1016cbcf5829bfa6ecfa20b92714a7eb3374eeb966a79cf06e401c281e24dfe2",
+    "explorations/conditional-build/k2156-energy-budget-detector-frontier-2026-10-27.md": "f224dd502c01fa01ccbc78281c8b64b288f46ff2a17f989c801cff51918af442"
+  },
+  "probe_sha256": "accdedb69c70ca63cb29ea429d8ac779b4af479ace349e490be4f80375494127",
+  "universal_evidence": "Companion note proves countable-instrument finite energy, monotone scalar optimization and exact frontier transport; finite unitary fixture verifies ordering/effects only. No all-local optimality or apparatus cost."
+}

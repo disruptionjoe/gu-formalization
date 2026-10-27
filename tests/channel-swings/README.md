@@ -1,5 +1,9 @@
 # Pre-contract wave probes
 
+- [k2157-normal-trace-equation-adapter](k2157_normal_trace_equation_adapter_probe.py).
+- [k2158-local-squeezing-detector-energy](k2158_local_squeezing_detector_energy_probe.py).
+
+
 - [k2155-observed-grade-six-port](k2155_observed_grade_six_port_probe.py).
 - [k2156-energy-budget-detector-frontier](k2156_energy_budget_detector_frontier_probe.py).
 

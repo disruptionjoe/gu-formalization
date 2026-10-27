@@ -7,6 +7,32 @@ canon_sweep_at: "2026-07-25"
 ---
 
 
+## K2157--K2158: Equation adapters and squeezed detector frontier (2026-10-27)
+
+K2157 constructs the exact all-tangential-covector normal-trace field adapter
+A(zeta,nu)=(zeta_W,nu-Gamma_N zeta_N) with distinct equation map R. It repairs the principal5/6
+mismatch but the full common-connection upper kernel criterion excludes every visible seven-form
+port, including the prior r2 survivor; an invertible leakage persists on forgotten
+characteristic inputs. Algebraic dual, moving-map and normal-jet limits are explicit. K2158
+proves the exact frontier for diagonal detectors followed by one common real squeeze:
+E_x=xE+A(x), unique convex scalar minimization g, and V_sq(B)=V(g^-1(B)/E_sum). Unchanged-ROC
+optimal threshold energy drops from5 to g(5), certified between4.4289859434858
+and4.4289859434859. These are conditional operator and independent detector results, with no
+source, ledger, canon or GU recovery change.
+
+- [K2157](explorations/conditional-build/k2157-normal-trace-equation-adapter-2026-10-27.md).
+- [K2158](explorations/conditional-build/k2158-local-squeezing-detector-energy-2026-10-27.md).
+
+Two independent read-only specialists cross-reviewed actual artifacts and accepted the scoped
+proofs after normal-jet, algebraic-versus-density dual and form-domain clarifications. Probes
+pass 31 exact controls and reject 10 actual altered-input/equation faults, with fresh
+report/dependency hash replay. K2157 covers every tangent symbol block, all3432 seven-blades and
+actual invertible leakage; its universal linear-combination proof is separate. K2158 checks
+independent symbolic physical and Bogoliubov covariance formulas and an exact rational convex
+root/energy certificate. Infinite-domain and frontier-attainment arguments are separately
+reviewed; a finite unitary fixture checks effect ordering only. No proofassistant, external
+certification, remote CI or novelty claim.
+
 ## K2155--K2156: Observed interaction ports and detector budgets (2026-10-27)
 
 K2155 classifies literal observed null-quotient descent of the seven-form/grade-six port on full
