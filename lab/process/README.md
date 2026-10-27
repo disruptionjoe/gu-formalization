@@ -7,6 +7,11 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2150-raw-mobile-locus-regularity](k2150-raw-mobile-locus-regularity.json).
+- [k2151-optimal-local-mode-discrimination](k2151-optimal-local-mode-discrimination.json).
+- [k2152-finite-chain-threshold-detector](k2152-finite-chain-threshold-detector.json).
+
+
 - [k2147-moving-raw-kernel-prolongation](k2147-moving-raw-kernel-prolongation.json).
 - [k2148-fixed-signal-parity-response](k2148-fixed-signal-parity-response.json).
 - [k2149-energy-bounded-parity-limit](k2149-energy-bounded-parity-limit.json).

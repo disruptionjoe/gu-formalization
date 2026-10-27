@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2150-raw-mobile-locus-regularity](k2150_raw_mobile_locus_regularity_probe.py).
+- [k2151-optimal-local-mode-discrimination](k2151_optimal_local_mode_discrimination_probe.py).
+- [k2152-finite-chain-threshold-detector](k2152_finite_chain_threshold_detector_probe.py).
+
+
 - [k2147-moving-raw-kernel-prolongation](k2147_moving_raw_kernel_prolongation_probe.py).
 - [k2148-fixed-signal-parity-response](k2148_fixed_signal_parity_response_probe.py).
 - [k2149-energy-bounded-parity-limit](k2149_energy_bounded_parity_limit_probe.py).

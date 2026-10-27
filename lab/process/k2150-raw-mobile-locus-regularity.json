@@ -1,0 +1,48 @@
+{
+  "result_id": "K2150",
+  "status": "conditional_exact_controls",
+  "exact_checks": {
+    "rank_0_0": true,
+    "rank_1_0": true,
+    "rank_0_1": true,
+    "rank_1_1": true,
+    "rank_-1_0": true,
+    "nonclosed_limit": true,
+    "flat_departure_equation": true,
+    "flat_first_three_jets": true,
+    "singular_path_cost": true,
+    "integrable_unbounded_control": true,
+    "radial_equation": true,
+    "radial_norm": true,
+    "ambient_p3_finite": true,
+    "ambient_p4_diverges": true,
+    "radial_path_diverges": true,
+    "punctured_nonconstant": true,
+    "quotient_injective": true
+  },
+  "fault_failures": {
+    "target_column": [
+      "rank_1_1"
+    ],
+    "singular_sign": [
+      "flat_departure_equation"
+    ],
+    "radial_factor": [
+      "radial_equation",
+      "radial_norm"
+    ],
+    "wrong_dimension": [
+      "ambient_p3_finite"
+    ],
+    "closed_locus": [
+      "nonclosed_limit"
+    ]
+  },
+  "dependency_sha256": {
+    "lab/process/k2141-full-graph-raw-tangent.json": "afe633aabfac045c809543aa360dd1acacc643d24d8791634462f99fb39917de",
+    "lab/process/k2144-raw-neighborhood-rank-budget.json": "e3a917b821ce2df504008d5dfa25bbe26f013d16df8438c0a6427fcf27d4972b",
+    "lab/process/k2147-moving-raw-kernel-prolongation.json": "70e1d5eea8ae498f663a9b945e6014e76b397b5a56ceddd325565cdf605e84bb"
+  },
+  "probe_sha256": "2eddc494a8846eda490232509142d4e2957e70e066cfabfa981a31f977a6ac02",
+  "universal_evidence": "Written fixed-annihilator/Gronwall and rank-stratum proof; finite exact abstract controls do not classify the native exceptional locus."
+}

@@ -8,6 +8,34 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## K2150--K2152: Mobile-locus regularity and optimal mode detection (2026-10-27)
+
+K2150 extends the fixed-annihilator no-departure lemma to every zero-jet point under
+path-integrable coefficient cost, sharpening the necessary moving locus to the
+quotient-rank-deficient set; smooth singular and ambient-Lp countercontrols prevent stronger
+claims. No new native rank or exceptional-set classification is supplied. K2151 solves vacuum
+versus a fixed one-particle signal discrimination over one canonical oscillator: exact
+photon-count ROC, equal-prior threshold, full-record disturbance and exact conditional/unread
+output field energy. K2152 realizes that threshold on a finite oscillator chain with complete
+record, conditional gate duration and unconditional field-energy bounds, reusing the existing
+Givens funnel. Drift compensation and nonlinear onsite control are supplied; continuum
+causality, preparation/controller work and GU recovery remain open.
+
+- [K2150](explorations/conditional-build/k2150-raw-mobile-locus-regularity-2026-10-27.md).
+- [K2151](explorations/conditional-build/k2151-optimal-local-mode-discrimination-2026-10-27.md).
+- [K2152](explorations/conditional-build/k2152-finite-chain-threshold-detector-2026-10-27.md).
+
+Three probes pass 54 finite exact controls and reject 19 actual altered-input/equation faults.
+K2150 checks abstract quotient ranks, scalar and radial differential controls and integrability
+exponents, reusing K2141/44/47 certificates without a native rank replay. K2151 checks two-mode
+inverse coefficients, generating functions, threshold/ROC ties, full recorded vacuum distance,
+deleted Schmidt-link output energy and independent spectral moments. K2152 checks exact
+adjacent/Fock lifts on an invariant total-number<=2 sector, threshold versus parity,
+reference-retaining Kraus output and energy quadratic forms. Written Gronwall/rank-stratum,
+infinite-Fock discrimination and all-Fock control proofs were independently reviewed separately.
+No external certification, proof assistant, remote CI, continuum implementation or novelty
+claim.
+
 ## K2147--K2149: Generic raw rigidity and fixed-signal energy limits (2026-10-27)
 
 K2147 computes the three moving raw-kernel prolongation classes modulo the full raw and

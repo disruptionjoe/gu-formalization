@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 993e8728c3b107238b1cc4717ee98ec795f01c10
+revision_basis: eb0315de3c1d72025426755af1fd97599e860e54
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -58,6 +58,18 @@ reviewed_research_2026_10_26:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2150 extends the fixed-annihilator no-departure lemma to every zero-jet point under
+    path-integrable coefficient cost, sharpening the necessary moving locus to the
+    quotient-rank-deficient set; smooth singular and ambient-Lp countercontrols prevent stronger
+    claims. No new native rank or exceptional-set classification is supplied. K2151 solves
+    vacuum versus a fixed one-particle signal discrimination over one canonical oscillator:
+    exact photon-count ROC, equal-prior threshold, full-record disturbance and exact
+    conditional/unread output field energy. K2152 realizes that threshold on a finite oscillator
+    chain with complete record, conditional gate duration and unconditional field-energy bounds,
+    reusing the existing Givens funnel. Drift compensation and nonlinear onsite control are
+    supplied; continuum causality, preparation/controller work and GU recovery remain open.
+
+    Historical predecessor (not live):
     K2147 computes the three moving raw-kernel prolongation classes modulo the full raw and
     shared-target images, with exact obstruction rank3. Analytic Schur elimination gives all1280
     joint first jets obstructed at small nonzero hyperbolic sectors; analyticity on the
@@ -16941,6 +16953,9 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k2150-raw-mobile-locus-regularity-2026-10-27.md
+    - explorations/conditional-build/k2151-optimal-local-mode-discrimination-2026-10-27.md
+    - explorations/conditional-build/k2152-finite-chain-threshold-detector-2026-10-27.md
     - explorations/conditional-build/k2147-moving-raw-kernel-prolongation-2026-10-27.md
     - explorations/conditional-build/k2148-fixed-signal-parity-response-2026-10-27.md
     - explorations/conditional-build/k2149-energy-bounded-parity-limit-2026-10-27.md
@@ -18454,6 +18469,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can the native mobile raw locus carry an integrable nonconstant selector, and can a
+  fixed-signal threshold detector be implemented with physical drift and total
+  preparation/controller resources?
+
+  Historical predecessor (not live):
   Can the proper exceptional raw graph locus support any nonconstant compatible selector, and
   can a causal local apparatus resolve a fixed bounded-energy signal with complete recorded
   accuracy?
@@ -22302,6 +22322,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Compute genuine native quotient-rank strata and tangent integrability inside the smaller
+  mobile locus, with an explicit coefficient regularity class; the new lemma is not an
+  exceptional-variety computation. For detectors compare a supplied drift-compensated
+  finite-chain threshold with a fixed physical signal/code and actual local controller whose
+  preparation, switching and work resources are accounted for; no continuum velocity follows
+  from graph gates. Single-mode ROC and its exact output energy are settled for the named
+  photon-added signal. A larger regional algebra or general coherent signal is a different
+  discrimination problem. Thermal163 multi-terminal/164 cap31322/32222/3332 global supporting
+  inequalities remain independent; K2085 interval/dimension41 settled. Retain
+  full20/K-C/accessibility/native2+1/chirality/mirror/fullII/normaljets/near5/4/nonlattice/exact
+  wings. Source, ledger0.263 and canon unchanged.
+
+  Historical predecessor (not live):
   Resolve the proper analytic exceptional locus of the native raw joint-jet system, or justify
   an action/observation-selected changed contraction; generic-sector ranks and fixed/moving
   base-kernel transport are now settled in their stated scopes. For apparatus use a fixed named

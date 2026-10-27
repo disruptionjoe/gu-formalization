@@ -1,0 +1,81 @@
+{
+  "result_id": "K2151",
+  "status": "conditional_exact_controls",
+  "exact_checks": {
+    "distribution_normalization": true,
+    "vacuum_occupation_zero_signal": true,
+    "photon_added_generating_derivative": true,
+    "parity_recovery": true,
+    "schmidt_inverse_n1": true,
+    "schmidt_inverse_n2": true,
+    "schmidt_inverse_n3": true,
+    "schmidt_inverse_n4": true,
+    "tail_k1": true,
+    "tail_k2": true,
+    "tail_k3": true,
+    "tail_k5": true,
+    "inherited_exact_optimum": true,
+    "integer_N_tie": true,
+    "randomized_ROC": true,
+    "full_record_disturbance": true,
+    "mode_orthogonality": true,
+    "mode_CCR_and_N": true,
+    "conditional_tail_occupation": true,
+    "unread_deleted_link": true,
+    "actual_signal_pair_energies": true,
+    "independent_spectral_energy_sum": true,
+    "example_output_energy_account": true
+  },
+  "fault_failures": {
+    "photon_subtracted": [
+      "vacuum_occupation_zero_signal",
+      "photon_added_generating_derivative",
+      "parity_recovery",
+      "schmidt_inverse_n1",
+      "schmidt_inverse_n2",
+      "schmidt_inverse_n3",
+      "schmidt_inverse_n4",
+      "tail_k1",
+      "tail_k2",
+      "tail_k3",
+      "tail_k5"
+    ],
+    "missing_normalization": [
+      "distribution_normalization",
+      "photon_added_generating_derivative",
+      "parity_recovery",
+      "schmidt_inverse_n1",
+      "schmidt_inverse_n2",
+      "schmidt_inverse_n3",
+      "schmidt_inverse_n4",
+      "tail_k2",
+      "tail_k3",
+      "tail_k5"
+    ],
+    "wrong_threshold": [
+      "inherited_exact_optimum"
+    ],
+    "missing_tie": [
+      "integer_N_tie"
+    ],
+    "parity_substitution": [
+      "inherited_exact_optimum"
+    ],
+    "record_only": [
+      "full_record_disturbance"
+    ],
+    "energy_link": [
+      "unread_deleted_link"
+    ],
+    "conditional_energy": [
+      "conditional_tail_occupation"
+    ]
+  },
+  "dependency_sha256": {
+    "lab/process/k2148-fixed-signal-parity-response.json": "bf70c23ba5bff7df048bae287d3e7165636172e65e9bdbc75367e58ee1f95069",
+    "lab/process/k2143-local-canonical-parity.json": "391c159c2c1eddf913f19aa6b675cd2d5d3923dafc18999b50f8a37974fd095f",
+    "explorations/conditional-build/k2133-recorded-instrument-vacuum-disturbance-2026-10-27.md": "f10ad1caab54f3c4f7d00129065fe88edbdfacb74cf15450efe4465cc718d527"
+  },
+  "probe_sha256": "19e45dfe1c89213ce58bc0d8933ca04fb8587e41f1f12305319304fe259381c0",
+  "universal_evidence": "Written two-mode Schmidt decomposition, diagonal-effect optimization and exact infinite-tail sums; finite symbolic controls do not certify continuum controller realization."
+}

@@ -7,6 +7,11 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2150-raw-mobile-locus-regularity](conditional-build/k2150-raw-mobile-locus-regularity-2026-10-27.md).
+- [k2151-optimal-local-mode-discrimination](conditional-build/k2151-optimal-local-mode-discrimination-2026-10-27.md).
+- [k2152-finite-chain-threshold-detector](conditional-build/k2152-finite-chain-threshold-detector-2026-10-27.md).
+
+
 - [Mannheim–GU compatibility and DESI](../lab/active-research/joe-directed/mannheim-compatibility/mannheim-gu-compatibility-and-desi-2026-10-27.md): selected TT/Bach distinction, FLRW nonselection, source curvature/chirality boundary, and a ruler-independent observational route; no GU prediction or priority change.
 
 - [k2147-moving-raw-kernel-prolongation](conditional-build/k2147-moving-raw-kernel-prolongation-2026-10-27.md).

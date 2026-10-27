@@ -1,0 +1,61 @@
+{
+  "result_id": "K2152",
+  "status": "conditional_exact_controls",
+  "exact_checks": {
+    "adjacent_orthogonality": true,
+    "actual_gather": true,
+    "fock_lift_unitary": true,
+    "number_conserved": true,
+    "mode_number_conjugation": true,
+    "complete_Kraus": true,
+    "threshold_effect": true,
+    "full_instrument_undo": true,
+    "reference_complete_record": true,
+    "first_energy_form": true,
+    "second_energy_form": true,
+    "vacuum_site_number": true,
+    "vacuum_energy_budget": true,
+    "general_energy_bound_vacuum": true
+  },
+  "fault_failures": {
+    "gather_order": [
+      "actual_gather",
+      "mode_number_conjugation",
+      "threshold_effect",
+      "full_instrument_undo",
+      "reference_complete_record"
+    ],
+    "gather_sign": [
+      "adjacent_orthogonality",
+      "actual_gather",
+      "fock_lift_unitary",
+      "mode_number_conjugation",
+      "complete_Kraus",
+      "full_instrument_undo",
+      "reference_complete_record"
+    ],
+    "omit_undo": [
+      "full_instrument_undo",
+      "reference_complete_record"
+    ],
+    "parity_for_threshold": [
+      "threshold_effect",
+      "full_instrument_undo",
+      "reference_complete_record"
+    ],
+    "off_by_one": [
+      "threshold_effect",
+      "full_instrument_undo",
+      "reference_complete_record"
+    ],
+    "zero_point": [
+      "vacuum_energy_budget"
+    ]
+  },
+  "dependency_sha256": {
+    "explorations/conditional-build/k2145-parity-causal-duration-2026-10-27.md": "6f0fd9e4d757217c2d7af81b1c784b2481e95ff111c2d8498b3c7dfb8e8e9cb2",
+    "lab/process/k2151-optimal-local-mode-discrimination.json": "7331f9f8acd195653272a9b163ec517315e1a66dbbd256af52b0d2c1ee8960ea"
+  },
+  "probe_sha256": "ebcd59d9283aab8d59afc0e1f852d9abd327fcc1205320b698207790c99b0685",
+  "universal_evidence": "Written all-Fock conjugation and quadratic-form proof. Exact invariant total-number<=2 checks include a reference, and are not a continuum or uniform-regulator certificate."
+}

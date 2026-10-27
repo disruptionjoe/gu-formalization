@@ -7,6 +7,10 @@ updated_at: "2026-10-26"
 
 # Next Steps For Contributors
 
+> **2026-10-27: MOBILE-LOCUS REGULARITY AND OPTIMAL MODE DETECTION.**
+> Compute genuine native quotient-rank strata and tangent integrability inside the smaller mobile locus, with an explicit coefficient regularity class; the new lemma is not an exceptional-variety computation. For detectors compare a supplied drift-compensated finite-chain threshold with a fixed physical signal/code and actual local controller whose preparation, switching and work resources are accounted for; no continuum velocity follows from graph gates. Single-mode ROC and its exact output energy are settled for the named photon-added signal. A larger regional algebra or general coherent signal is a different discrimination problem. Thermal163 multi-terminal/164 cap31322/32222/3332 global supporting inequalities remain independent; K2085 interval/dimension41 settled. Retain full20/K-C/accessibility/native2+1/chirality/mirror/fullII/normaljets/near5/4/nonlattice/exact wings. Source, ledger0.263 and canon unchanged.
+> Prior banners preserve historical questions; no source or ledger promotion.
+
 > **2026-10-27: GENERIC RAW RIGIDITY AND FIXED-SIGNAL ENERGY LIMITS.**
 > Resolve the proper analytic exceptional locus of the native raw joint-jet system, or justify an action/observation-selected changed contraction; generic-sector ranks and fixed/moving base-kernel transport are now settled in their stated scopes. For apparatus use a fixed named signal/code and actual causal finite-duration local interaction with full recorded error, vacuum disturbance and preparation/controller resources. Fixed-support ultraviolet parity is uniformly trivial at bounded mean input energy and cannot supply this task; a tracking high-energy signal is a different resource regime. Thermal163 multi-terminal/164 cap31322/32222/3332 global supporting inequalities remain independent; K2085 interval/dimension41 settled. Retain full20/K-C/accessibility/native2+1/chirality/mirror/fullII/normaljets/near5/4/nonlattice/exact wings. Source, ledger0.263 and canon unchanged.
 > Prior banners preserve historical questions; no source or ledger promotion.
