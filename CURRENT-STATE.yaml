@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: eb0315de3c1d72025426755af1fd97599e860e54
+revision_basis: 2931c45393eaf553d559ddc8ff717ddaa797ed8d
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -55,6 +55,32 @@ reviewed_research_2026_10_26:
   acceptance_remaining: No internal review hold remains for these conditional results.
     Point-local finite-duration apparatus, source-real compatibility and total source-work
     claims require substantive new constructions; they are not conferred by this review.
+reviewed_prediction_interfaces_2026_10_27:
+  status: internally_reviewed_conditional_mathematics
+  summary: >-
+    Three exact conditional interfaces separate a failed completion from an absent
+    prediction. A fixed all-null mixed port with unrestricted inputs is invisible,
+    but a grade-six port survives on the massless inputs of the declared simple coupled
+    principal symbol. Coupled source/detector response requires both transformed readouts
+    and contact terms; reciprocity alone does not select a matter/light ratio. Unrestricted
+    smooth FLRW histories fit finite increasing distance nodes under the stated optics;
+    an independently supplied expansion-variation bound yields a sharp inequality, but
+    full local vacuum scalar equations with positive effective coupling alone do not
+    supply a universal bound. No physical quotient, source-selected observable or GU
+    forecast follows. Existing K2150-52 and other independent fronts remain live.
+  evidence:
+    - lab/active-research/joe-directed/prediction-kickoff/README.md
+    - lab/active-research/joe-directed/prediction-kickoff/interaction-transverse-port-2026-10-27.md
+    - lab/active-research/joe-directed/prediction-kickoff/matter-light-reciprocity-2026-10-27.md
+    - lab/active-research/joe-directed/prediction-kickoff/late-time-finite-node-identifiability-2026-10-27.md
+    - tests/channel-swings/source_native_fermion_transverse_port_probe.py
+    - tests/channel-swings/prediction_kickoff_matter_light_probe.py
+    - tests/channel-swings/late_time_finite_node_identifiability_probe.py
+  acceptance_remaining: >-
+    No internal review hold remains on these conditional results. Native coefficient/cell,
+    physical quotient and observation ownership, complete source/readout coupling, and
+    restricted cosmological solution/likelihood assumptions are substantive next tests,
+    not supplied by the finite probes. Pending evidence delta changes no ledger verdict.
 current_result:
   status: conditional_research_front
   summary: >-
@@ -18469,6 +18495,12 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Does the surviving grade-six on-shell port pass native cell, real-pairing and observation
+  admissibility; which complete coupled source/readout packet fixes a matter/light relation;
+  and which explicitly restricted late-time solution family yields a discriminating
+  ruler-independent observational test?
+
+  Parallel retained questions:
   Can the native mobile raw locus carry an integrable nonconstant selector, and can a
   fixed-signal threshold detector be implemented with physical drift and total
   preparation/controller resources?
@@ -22322,6 +22354,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Test the grade-six survivor against existing source cell/real-form and observation
+  constraints, preserving its massless input domain and supplied quotient. Evaluate a
+  complete named source and both readouts on the same coupled action/background, including
+  direct density/coframe/pairing terms and singular-block constraints; existing scalar-slip
+  calculations are not new predictions. For late-time tests restrict initial data and
+  solution branch explicitly, share curvature and ruler nuisance parameters across data,
+  and use actual observational windows/likelihood rather than arbitrary point interpolation.
+  A failed realization redirects the stated class; a survivor still needs native ownership.
+
+  Retained independent conditions:
   Compute genuine native quotient-rank strata and tangent integrability inside the smaller
   mobile locus, with an explicit coefficient regularity class; the new lemma is not an
   exceptional-variety computation. For detectors compare a supplied drift-compensated

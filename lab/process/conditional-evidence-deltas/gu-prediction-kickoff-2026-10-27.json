@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "delta_id": "GU-PREDICTION-KICKOFF-2026-10-27",
+  "status": "pending",
+  "base": {
+    "ledger_ref": "lab/process/conditional-physics-ledger-v0.263.json",
+    "ledger_sha256": "7c75c179c3af512084e50af19043a5d320b38e8c1e53325ee5ec2f97ad9c257b"
+  },
+  "affected_rows": [
+    "LT-SM5",
+    "LT-GR6b",
+    "LT-GR10",
+    "LT-GR2e"
+  ],
+  "result_refs": [
+    "lab/active-research/joe-directed/prediction-kickoff/interaction-transverse-port-2026-10-27.md",
+    "lab/active-research/joe-directed/prediction-kickoff/matter-light-reciprocity-2026-10-27.md",
+    "lab/active-research/joe-directed/prediction-kickoff/late-time-finite-node-identifiability-2026-10-27.md",
+    "lab/active-research/joe-directed/prediction-kickoff/README.md",
+    "tests/channel-swings/source_native_fermion_transverse_port_probe.py",
+    "tests/channel-swings/prediction_kickoff_matter_light_probe.py",
+    "tests/channel-swings/late_time_finite_node_identifiability_probe.py"
+  ],
+  "source_disposition": "Preserve source-native 2+1, nonchiral total and effective chirality, four independent fermion fields, K77/K95 distinction, observation contraction, independent displacement from gauge-rotated LC and native I1B corrections. Supplied external quotients, paired domains, finite response completions and local scalar cosmology are not source-selected GU physics.",
+  "claim_ceiling": "Exact conditional Clifford-port, complete source/readout Schur and late-time geometry results. Null-quotient exclusions bind their stated input/vertex class; on-shell and singular controls remain explicit. Reciprocity does not select a matter/light ratio. Smooth point-node fitting is not a survey likelihood; the full local scalar vacuum horn does not impose a universal expansion-slope bound. No GU falsification, empirical prediction, dark-energy sign selection or canon promotion.",
+  "proposed_effect": {
+    "summary": "Link reusable conditional prediction interfaces and their explicit counterconstructions to current evidence without changing ledger verdicts.",
+    "requested_row_changes": [
+      "LT-SM5: consider the exact mixed-port annihilator and null quotient conditions, with fixed/unrestricted versus characteristic-input distinctions; do not infer a family count or reopen CB8.",
+      "LT-GR6b and LT-GR10: retain transformed source, detector and contact term and actual coupled inverse as necessary response data. Common reciprocity alone is insufficient; the finite counterfamily is not two native GU realizations.",
+      "LT-GR2e: retain the sharp finite-node variation test and the local scalar-horn full-constraint nonselection result. A restricted physical solution family and observation likelihood can be tested before sound-ruler calibration, but no such GU prediction is claimed here."
+    ]
+  },
+  "conflict_keys": [
+    "LT-SM5",
+    "LT-GR6b",
+    "LT-GR10",
+    "LT-GR2e",
+    "GU-MANNHEIM-COMPATIBILITY-DESI-2026-10-27",
+    "SOURCE-TO-PHYSICAL-OBSERVATION",
+    "FROZEN-NULL-QUOTIENT-INPUT-SCOPE"
+  ],
+  "integration": null
+}

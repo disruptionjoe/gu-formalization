@@ -2,10 +2,28 @@
 title: "Verification: What Is Proved, Computed, and Conjectural"
 status: process
 doc_type: verification-map
-updated_at: "2026-10-26"
+updated_at: "2026-10-27"
 ---
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
+
+## Prediction interfaces: source ports, coupled readouts and finite distances (2026-10-27)
+
+The [three-interface synthesis](lab/active-research/joe-directed/prediction-kickoff/README.md)
+links written conditional proofs and independently reviewed exact probes. Interaction:
+125 checks and six altered-construction faults; matter/light: 106 checks and 22 faults;
+late-time geometry: 47 checks and 11 faults. All pass. These are finite algebraic controls,
+not counts of independent physical results or proof-assistant certification.
+
+The interaction exclusion is for fixed ports with unrestricted inputs; a pure grade-six
+port survives on the massless inputs of the specified simple coupled principal symbol.
+Its source cell, real-form, observation and physical quotient remain unselected. The
+response result retains both readouts, contact and boundary terms, showing why reciprocity
+alone cannot predict a matter/light ratio. The cosmology proof distinguishes finite-node
+interpolation from survey fitting, derives a sharp inequality given a regularity bound,
+and shows that even full local scalar vacuum equations do not give a universal bound from
+their coefficients and positive effective coupling alone. No native GU forecast, source
+verdict, ledger change, external certification or mathematical novelty is claimed.
 
 ## K2150--K2152: Mobile-locus regularity and optimal mode detection (2026-10-27)
 

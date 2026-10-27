@@ -36,6 +36,11 @@
       "delta_id": "GU-MANNHEIM-COMPATIBILITY-DESI-2026-10-27",
       "path": "lab/process/conditional-evidence-deltas/gu-mannheim-compatibility-desi-2026-10-27.json",
       "status": "pending"
+    },
+    {
+      "delta_id": "GU-PREDICTION-KICKOFF-2026-10-27",
+      "path": "lab/process/conditional-evidence-deltas/gu-prediction-kickoff-2026-10-27.json",
+      "status": "pending"
     }
   ]
 }

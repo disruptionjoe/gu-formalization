@@ -7,6 +7,8 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [Near-term prediction interfaces](../lab/active-research/joe-directed/prediction-kickoff/README.md): source-aware mixed-port exclusion and on-shell survivor, coupled matter/light response, and finite-distance identifiability; internally reviewed conditional results, not GU forecasts.
+
 - [k2150-raw-mobile-locus-regularity](conditional-build/k2150-raw-mobile-locus-regularity-2026-10-27.md).
 - [k2151-optimal-local-mode-discrimination](conditional-build/k2151-optimal-local-mode-discrimination-2026-10-27.md).
 - [k2152-finite-chain-threshold-detector](conditional-build/k2152-finite-chain-threshold-detector-2026-10-27.md).
