@@ -1,5 +1,9 @@
 # Pre-contract wave probes
 
+- [k2155-observed-grade-six-port](k2155_observed_grade_six_port_probe.py).
+- [k2156-energy-budget-detector-frontier](k2156_energy_budget_detector_frontier_probe.py).
+
+
 - [k2153-diagonal-detector-energy](k2153_diagonal_detector_energy_probe.py).
 - [k2154-uncompensated-detector-control](k2154_uncompensated_detector_control_probe.py).
 

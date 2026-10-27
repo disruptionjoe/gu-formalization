@@ -1,0 +1,68 @@
+{
+  "result_id": "K2155",
+  "status": "conditional_exact_controls",
+  "exact_checks": {
+    "new_tangent_trace": true,
+    "massless_descent": true,
+    "old_observation_failure": true,
+    "null_slash_square": true,
+    "invisible_component2": true,
+    "invertible_component1": true,
+    "r0_zero_port": true,
+    "r4_pure_trace": true,
+    "literal_coupled_lift_residual": true,
+    "literal_coupled_lower_row": true,
+    "real_clifford_relations": true,
+    "B_symmetric_involution": true,
+    "B_gamma_skew": true,
+    "J_half_isotropy": true,
+    "Hq_Hermitian_involution": true,
+    "Hq_half_signatures": true,
+    "Hq_tangent_selfadjoint": true,
+    "whole_port_Hq_skew": true,
+    "whole_port_J_even": true,
+    "q8_same_real_failure": true,
+    "q8_observed_imaginary_repair": true,
+    "q8_uniform_ambient_phase_fails": true,
+    "null_rank_half_identity": true,
+    "all3432_trace_identities": true,
+    "all3432_sandwich_identities": true,
+    "basis_classification": true
+  },
+  "fault_failures": {
+    "ambient_denominator": [
+      "massless_descent"
+    ],
+    "old_coefficient": [
+      "new_tangent_trace",
+      "massless_descent",
+      "invisible_component2",
+      "invertible_component1"
+    ],
+    "commutator_port": [
+      "new_tangent_trace",
+      "invisible_component2",
+      "invertible_component1"
+    ],
+    "wrong_trace_direction": [
+      "whole_port_Hq_skew"
+    ],
+    "unrestricted_inputs": [
+      "massless_descent"
+    ],
+    "observed_lift": [
+      "literal_coupled_lift_residual"
+    ],
+    "wrong_pairing": [
+      "Hq_Hermitian_involution",
+      "Hq_half_signatures",
+      "Hq_tangent_selfadjoint"
+    ]
+  },
+  "dependency_sha256": {
+    "explorations/conditional-build/k2155-observed-grade-six-port-2026-10-27.md": "e5a19d39cc3637fb7b69a84528eecf291ef4a081cee481b93f02c73f6002915b",
+    "tests/channel-swings/source_native_fermion_transverse_port_probe.py": "74c817b7d0cd59210b09dee507ce7d0feb3f0c433ae021f0a6b7a0ba81dea390"
+  },
+  "probe_sha256": "ecd41609008c6b0f8c40c05e7b01bb6ed43da1b2086e50a0a4ffe3c5907c774a",
+  "universal_evidence": "Written normal-grade/null-span classification, radical proof and injective-functional witness; finite basis identities and exact integer matrix controls independently checked. No physical quotient or complete operator descent."
+}

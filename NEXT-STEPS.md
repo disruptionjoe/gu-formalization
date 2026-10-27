@@ -6,6 +6,10 @@ updated_at: "2026-10-26"
 ---
 
 
+> **2026-10-27: OBSERVED PORTS AND CERTIFIED DETECTOR BUDGETS.**
+> Test a complete source-admissible field and barred-dual map for the observed r2 port, retaining massless inputs, supplied normal-Hq pairing and moving/derivative terms; literal pullback alone does not intertwine the full coupled operator, and the supplied q is not identified with geometric trace q_g. No need to replay the ambient all-input exclusion or fixed-plane r classification. For detectors the fixed-mode diagonal energy frontier is now certified by finite convex programs with explicit uniform tail error; change the operation algebra, named signal or resource objective explicitly, or build stable autonomous control with preparation/reset costs. Raw mobile-locus integrability, thermal163/164 global inequalities and restricted late-time solution/likelihood tests remain independent alternatives; retain full20/K-C/native2+1/chirality, physical quotient, mirror/fullII/normaljet and exact-wing debts.
+> Prior banners preserve historical questions; no source or ledger promotion.
+
 > **2026-10-27: DIAGONAL ENERGY AND PHYSICAL DRIFT.**
 > For detectors compare stable autonomous control with explicitly supplied clock, preparation and reset resources, or optimize effects under a fixed field-energy budget using K2153's exact instrument cost. K2154 already retains physical drift with a full-record energy-constrained error bound and an explicit externally switched mean-work account. Supplied nonlinear all-occupation control is not a stable autonomous or continuum apparatus. Preserve the prediction kickoff's native cell/real-form and observation tests, full coupled source/readout and restricted cosmological likelihood work. Raw mobile-locus rank/integrability and thermal163/164 global supporting inequalities remain independent. Source, ledger0.263 and canon unchanged.
 > Prior banners preserve historical questions; no source or ledger promotion.

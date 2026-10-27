@@ -11,6 +11,10 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2155-observed-grade-six-port](k2155-observed-grade-six-port.json).
+- [k2156-energy-budget-detector-frontier](k2156-energy-budget-detector-frontier.json).
+
+
 - [k2150-raw-mobile-locus-regularity](k2150-raw-mobile-locus-regularity.json).
 - [k2151-optimal-local-mode-discrimination](k2151-optimal-local-mode-discrimination.json).
 - [k2152-finite-chain-threshold-detector](k2152-finite-chain-threshold-detector.json).

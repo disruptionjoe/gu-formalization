@@ -11,6 +11,10 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2155-observed-grade-six-port](conditional-build/k2155-observed-grade-six-port-2026-10-27.md).
+- [k2156-energy-budget-detector-frontier](conditional-build/k2156-energy-budget-detector-frontier-2026-10-27.md).
+
+
 - [Near-term prediction interfaces](../lab/active-research/joe-directed/prediction-kickoff/README.md): source-aware mixed-port exclusion and on-shell survivor, coupled matter/light response, and finite-distance identifiability; internally reviewed conditional results, not GU forecasts.
 
 - [k2150-raw-mobile-locus-regularity](conditional-build/k2150-raw-mobile-locus-regularity-2026-10-27.md).

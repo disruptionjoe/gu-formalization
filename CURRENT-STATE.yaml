@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: cc0b7da695f5ec5ce7b8a1bd45efdebb8083535e
+revision_basis: 26e945fbb41b2f722fa6a37be4bf2c6ba2c1eab6
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -84,6 +84,18 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2155 classifies literal observed null-quotient descent of the seven-form/grade-six port on
+    full Cl77: exactly tangential degrees0,2,4 pass, but0 is zero and4 pure trace. The r2
+    coefficient has an explicit rank64 quotient-functional witness, supplied normal-Hq unitary
+    compatibility and exact source-cell parity limits; the ambient characteristic lift fails
+    literal full D4 intertwining by5/6. K2156 optimizes fixed-mode diagonal detector effects at
+    a field-energy budget: attained concave frontier, certified finite conic approximation,
+    sharp small-budget asymptote, sharper finite-budget bound and exact saturation thresholds
+    including likelihood ties. An explicit rational detector at z1/4,b1/10 has optimal contrast
+    bracket0.51042093979 to0.510421521. These are conditional source-interface and independent
+    detector mathematics; no source, ledger, canon or GU recovery change.
+
+    Historical predecessor (not live):
     K2153 derives exact global vacuum excitation for every countable diagonal nondemolition
     instrument on the fixed scalar mode, proves positive square-root Kraus minimize energy
     at prescribed effects, and bounds detection contrast by output energy. A soft ROC
@@ -16991,6 +17003,8 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k2155-observed-grade-six-port-2026-10-27.md
+    - explorations/conditional-build/k2156-energy-budget-detector-frontier-2026-10-27.md
     - explorations/conditional-build/k2150-raw-mobile-locus-regularity-2026-10-27.md
     - explorations/conditional-build/k2151-optimal-local-mode-discrimination-2026-10-27.md
     - explorations/conditional-build/k2152-finite-chain-threshold-detector-2026-10-27.md
@@ -18507,6 +18521,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can a complete source-compatible observed field/dual map extend the locally surviving r2
+  coefficient, and which larger detector operation class or complete apparatus resource model
+  changes the now-certified fixed-mode frontier?
+
+  Historical predecessor (not live):
   Does the surviving grade-six on-shell port pass native cell, real-pairing and observation
   admissibility; which complete coupled source/readout packet fixes a matter/light relation;
   and which explicitly restricted late-time solution family yields a discriminating
@@ -22367,6 +22386,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Test a complete source-admissible field and barred-dual map for the observed r2 port,
+  retaining massless inputs, supplied normal-Hq pairing and moving/derivative terms; literal
+  pullback alone does not intertwine the full coupled operator, and the supplied q is not
+  identified with geometric trace q_g. No need to replay the ambient all-input exclusion or
+  fixed-plane r classification. For detectors the fixed-mode diagonal energy frontier is now
+  certified by finite convex programs with explicit uniform tail error; change the operation
+  algebra, named signal or resource objective explicitly, or build stable autonomous control
+  with preparation/reset costs. Raw mobile-locus integrability, thermal163/164 global
+  inequalities and restricted late-time solution/likelihood tests remain independent
+  alternatives; retain full20/K-C/native2+1/chirality, physical quotient,
+  mirror/fullII/normaljet and exact-wing debts.
+
+  Historical predecessor (not live):
   Test the grade-six survivor against existing source cell/real-form and observation
   constraints, preserving its massless input domain and supplied quotient. Evaluate a
   complete named source and both readouts on the same coupled action/background, including

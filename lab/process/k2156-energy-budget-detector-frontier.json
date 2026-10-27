@@ -1,0 +1,75 @@
+{
+  "result_id": "K2156",
+  "status": "conditional_exact_and_interval_certificate",
+  "exact_checks": {
+    "constant_tail_contrast": true,
+    "deleted_tail_bound": true,
+    "summable_weight": true,
+    "summation_by_parts": true,
+    "positive_threshold_budget": true,
+    "positive_threshold_contrast": true,
+    "likelihood_tie_energy": true,
+    "likelihood_tie_contrast": true,
+    "edge_jensen_identity": true,
+    "edge_cost_identity": true,
+    "jensen_concavity": true
+  },
+  "interval_checks": {
+    "candidate_interior": true,
+    "dual_nonnegative": true,
+    "actual_candidate_feasible": true,
+    "finite_lower_value": true,
+    "infinite_upper_value": true,
+    "ordered_bracket": true,
+    "tail_exact": true,
+    "objective_zero_on_constants": true,
+    "gradient_edge": true
+  },
+  "certificate": {
+    "z": "1/4",
+    "budget": "1/10",
+    "M": 12,
+    "feasible_energy": "[0.0999999999999999999999999999997169869787640445316213653472873936620387316839 +/- 8.43e-77]",
+    "lower": "[0.510420939791517476969737437747782820943364423540045524412257655304764869572 +/- 4.73e-76]",
+    "finite_dual_upper": "[0.510420939791517476969737437748293241883155941017015261850039200444459061798 +/- 5.87e-76]",
+    "tail": "5.811452865600585937500000000000000000000000000000000000000000000000000000000e-7",
+    "infinite_upper": "[0.510421520936804037028331187748293241883155941017015261850039200444459061798 +/- 5.87e-76]",
+    "precision_bits": 256
+  },
+  "fault_failures": {
+    "missing_z": [
+      "actual_candidate_feasible",
+      "infinite_upper_value"
+    ],
+    "tail_coefficient": [
+      "finite_lower_value",
+      "objective_zero_on_constants"
+    ],
+    "wrong_signal": [
+      "infinite_upper_value",
+      "objective_zero_on_constants"
+    ],
+    "tight_budget": [
+      "actual_candidate_feasible",
+      "ordered_bracket"
+    ],
+    "negative_dual": [
+      "dual_nonnegative",
+      "infinite_upper_value"
+    ],
+    "gradient_sign": [
+      "infinite_upper_value",
+      "gradient_edge"
+    ],
+    "hard_tie": [
+      "likelihood_tie_energy"
+    ]
+  },
+  "dependency_sha256": {
+    "explorations/conditional-build/k2156-energy-budget-detector-frontier-2026-10-27.md": "f224dd502c01fa01ccbc78281c8b64b288f46ff2a17f989c801cff51918af442",
+    "lab/process/k2153-diagonal-detector-energy.json": "095e1304d37216985e0e780ca2c80ee7e48c9b42dafd8c1187e0d99dba73a9cb",
+    "lab/process/k2151-optimal-local-mode-discrimination.json": "7331f9f8acd195653272a9b163ec517315e1a66dbbd256af52b0d2c1ee8960ea"
+  },
+  "probe_sha256": "40785c1be01edc77f1143b3744ccb515dfcb3aa4966cdea369f2d5b092ee0c3d",
+  "universal_evidence": "Written compactness, convexity, infinite-tail, low-budget, Jensen and saturation proofs separately reviewed. Rational candidate certifies finite nonzero budget independent of search solver."
+}

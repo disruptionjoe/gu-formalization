@@ -7,6 +7,32 @@ canon_sweep_at: "2026-07-25"
 ---
 
 
+## K2155--K2156: Observed interaction ports and detector budgets (2026-10-27)
+
+K2155 classifies literal observed null-quotient descent of the seven-form/grade-six port on full
+Cl77: exactly tangential degrees0,2,4 pass, but0 is zero and4 pure trace. The r2 coefficient has
+an explicit rank64 quotient-functional witness, supplied normal-Hq unitary compatibility and
+exact source-cell parity limits; the ambient characteristic lift fails literal full D4
+intertwining by5/6. K2156 optimizes fixed-mode diagonal detector effects at a field-energy
+budget: attained concave frontier, certified finite conic approximation, sharp small-budget
+asymptote, sharper finite-budget bound and exact saturation thresholds including likelihood
+ties. An explicit rational detector at z1/4,b1/10 has optimal contrast bracket0.51042093979
+to0.510421521. These are conditional source-interface and independent detector mathematics; no
+source, ledger, canon or GU recovery change.
+
+- [K2155](explorations/conditional-build/k2155-observed-grade-six-port-2026-10-27.md).
+- [K2156](explorations/conditional-build/k2156-energy-budget-detector-frontier-2026-10-27.md).
+
+Two independent internal cross-reviews accept the scoped results after conjugate-dual,
+supplied-normal versus geometric-trace and actual coupled-operator test repairs. Probes pass 37
+exact controls, 9 outward interval certificate checks and reject 14 actual
+altered-input/equation faults. K2155 checks all3432 seven-form basis elements, six null
+representatives, exact128-dimensional Clifford/pairing matrices and an actual coupled-row lift
+mismatch; full classification and rank64 are separately proved. K2156 certifies a rational
+feasible detector and convex tangent upper bound without relying on optimizer success;
+compactness, tail, asymptotic and saturation proofs are separately reviewed. No proof assistant,
+external certification, remote CI or novelty claim.
+
 ## K2153--K2154: Diagonal detector energy and physical drift (2026-10-27)
 
 K2153 derives exact global vacuum excitation for every countable diagonal nondemolition
