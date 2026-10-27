@@ -6,6 +6,34 @@ updated_at: "2026-10-27"
 ---
 
 
+## K2159--K2160: Commutant adapters and outcome-conditioned detector energy (2026-10-27)
+
+K2159 constructs and classifies a1024-dimensional tangent Clifford commutant in
+a10-parameter-slot equation-adapter ansatz, derives a necessary and sufficient complete
+common-connection kernel/PDE criterion, and proves all scalar normal-mixing repairs of the
+actual seven-form witness fail even with smooth coefficients. Noncentral adapters and moving
+geometry remain open. K2160 derives exact unnormalized branch vacuum field-energy for
+reported-outcome real squeezing, proves fixed-effect positive-root optimality and the equality
+criterion against common squeezing, bounds optimizer locations and certifies infinite moment
+tails. The unchanged threshold ROC achieves rational2465/576, with optimized feedback certified
+between4.2304967688817322 and4.2304967688817324, below the previous common
+optimum4.4289859434858. Conditional operator and independent detector mathematics only; source,
+ledger, canon and GU recovery unchanged.
+
+- [K2159](explorations/conditional-build/k2159-commutant-equation-adapters-2026-10-27.md).
+- [K2160](explorations/conditional-build/k2160-outcome-conditioned-squeezing-2026-10-27.md).
+
+Two independent read-only specialists cross-reviewed actual notes/probes/reports. Final review
+accepted after clarifying the scalar grade bound and vacuum-energy objective, and adding
+proportional-effect equality and constrained-tail checks. Probes pass 32 exact/symbolic controls
+and reject 10 actual altered-input/equation faults; fresh reports pin note/dependency/probe
+hashes. K2159 checks every tangential field block, all16384 blades for the1024 commutant,
+original common coefficients, scalar reductions and moving corrections. K2160 independently
+expands physical covariance, recovers common squeezing and certifies rational branch minima and
+geometric tails. Universal parameter, smooth-family, countable-Kraus and form-domain proofs are
+separately reviewed; finite effect matrices test ordering only. No proofassistant, external
+certification, novelty or remote-CI claim.
+
 ## K2157--K2158: Equation adapters and squeezed detector frontier (2026-10-27)
 
 K2157 constructs the exact all-tangential-covector normal-trace field adapter

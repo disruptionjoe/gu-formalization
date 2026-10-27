@@ -6,6 +6,10 @@ updated_at: "2026-10-26"
 ---
 
 
+> **2026-10-27: COMMUTANT ADAPTERS AND OUTCOME-CONDITIONED ENERGY.**
+> Solve the noncentral commutant algebraic/PDE kernel criterion for a source-compatible common coefficient away from the excluded T=0 point, or construct an actual moving geometry/other operator horn; scalar normal mixing for the fixed seven-form witness is exhausted. For detectors optimize effects under the new outcome-feedback vacuum-energy functional, or supply stable controller/preparation/reset resources. Fixed-effect branch squeezing and certified infinite-sequence evaluation are now settled in the stated class, not the global all-instrument frontier. Raw mobile-locus native minors/integrability, thermal163/164 global inequalities and restricted cosmological dynamics remain independent alternatives. Preserve full16cell/full20/K-C/native2+1/chirality, physical quotient, mirrors/fullII/normaljet and exact-wing debts.
+> Prior banners preserve historical questions; no source or ledger promotion.
+
 > **2026-10-27: EQUATION ADAPTER AND SQUEEZED DETECTOR FRONTIER.**
 > Construct a source-owned moving correction or a materially different field/equation adapter satisfying the complete kernel criterion; the fixed normal-trace map cannot carry any visible seven-form common-connection port, even on forgotten principal-characteristic inputs, and unrestricted normal jets remain open. For detectors compare outcome-dependent Gaussian feedback or a stable autonomous implementation with full preparation/reset accounting; common deterministic squeezing is now solved by the scalar energy map and does not inherit K2154 number-preserving control bounds. Raw mobile-locus native minors/integrability, thermal163/164 global inequalities and restricted late-time dynamics/likelihood remain independent alternatives. Retain full16cell/full20/K-C/native2+1/chirality, physical quotient, mirror/fullII/normaljet and exact-wing debts.
 > Prior banners preserve historical questions; no source or ledger promotion.

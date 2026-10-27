@@ -1,0 +1,46 @@
+{
+  "result_id": "K2159",
+  "status": "conditional_exact_controls",
+  "exact_checks": {
+    "all_tangent_all_field_blocks_noncentral": true,
+    "all_kernel_columns": true,
+    "right_inverse_all_observed_blocks": true,
+    "complete_scalar_connection_positive_control": true,
+    "original_full_coefficient_reduced_identity_all_normal_slots": true,
+    "remaining_scalar_coefficients_minus14": true,
+    "scalar_grade_one_forcing_bt_j": true,
+    "moving_scalar_grade_separation": true,
+    "zero_parameter_invertible_leak": true,
+    "zero_parameter_empty_tangent_row": true,
+    "moving_product_rule_exact": true,
+    "noncentral_order_control": true,
+    "complete_16384_blade_commutant_census": true
+  },
+  "fault_failures": {
+    "shift_coefficient": [
+      "all_tangent_all_field_blocks_noncentral",
+      "all_kernel_columns"
+    ],
+    "equation_sign": [
+      "all_tangent_all_field_blocks_noncentral",
+      "complete_scalar_connection_positive_control"
+    ],
+    "noncommutant": [
+      "all_tangent_all_field_blocks_noncentral",
+      "complete_scalar_connection_positive_control"
+    ],
+    "omit_moving_derivative": [
+      "moving_product_rule_exact"
+    ],
+    "lower_row_sign": [
+      "complete_scalar_connection_positive_control"
+    ]
+  },
+  "dependency_sha256": {
+    "explorations/conditional-build/k2159-commutant-equation-adapters-2026-10-27.md": "2d7fbb12614b56bdf4807c95bbfa6198bf2d191d437d669bfb52781597bbe6c3",
+    "explorations/conditional-build/k2157-normal-trace-equation-adapter-2026-10-27.md": "73445ca8c9496973f70d879db488ac60eb7ab9a726e013de062e3bb1dc2b16da",
+    "tests/channel-swings/source_native_fermion_transverse_port_probe.py": "74c817b7d0cd59210b09dee507ce7d0feb3f0c433ae021f0a6b7a0ba81dea390"
+  },
+  "probe_sha256": "66fcdfa20412a8523ab117c9300d69381ab20dd406c675243c8c2f2a01667a38",
+  "universal_evidence": "Written commutant classification, all-scalar coefficient contradiction and moving grade obstruction separately reviewed. Rational fixtures verify reductions, not universal parameter exhaustion. No full source/physical quotient."
+}

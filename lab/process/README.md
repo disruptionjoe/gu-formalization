@@ -11,6 +11,10 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2159-commutant-equation-adapters](k2159-commutant-equation-adapters.json).
+- [k2160-outcome-conditioned-squeezing](k2160-outcome-conditioned-squeezing.json).
+
+
 - [k2157-normal-trace-equation-adapter](k2157-normal-trace-equation-adapter.json).
 - [k2158-local-squeezing-detector-energy](k2158-local-squeezing-detector-energy.json).
 

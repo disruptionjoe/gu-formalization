@@ -11,6 +11,10 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2159-commutant-equation-adapters](conditional-build/k2159-commutant-equation-adapters-2026-10-27.md).
+- [k2160-outcome-conditioned-squeezing](conditional-build/k2160-outcome-conditioned-squeezing-2026-10-27.md).
+
+
 - [k2157-normal-trace-equation-adapter](conditional-build/k2157-normal-trace-equation-adapter-2026-10-27.md).
 - [k2158-local-squeezing-detector-energy](conditional-build/k2158-local-squeezing-detector-energy-2026-10-27.md).
 

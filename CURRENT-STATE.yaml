@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f16efd69036e480005d1f6e5677b6699e6bd2fe0
+revision_basis: f8fd25f0f156be5c84742319c7b7105ec178fb20
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -84,6 +84,19 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2159 constructs and classifies a1024-dimensional tangent Clifford commutant in
+    a10-parameter-slot equation-adapter ansatz, derives a necessary and sufficient complete
+    common-connection kernel/PDE criterion, and proves all scalar normal-mixing repairs of the
+    actual seven-form witness fail even with smooth coefficients. Noncentral adapters and moving
+    geometry remain open. K2160 derives exact unnormalized branch vacuum field-energy for
+    reported-outcome real squeezing, proves fixed-effect positive-root optimality and the
+    equality criterion against common squeezing, bounds optimizer locations and certifies
+    infinite moment tails. The unchanged threshold ROC achieves rational2465/576, with optimized
+    feedback certified between4.2304967688817322 and4.2304967688817324, below the previous
+    common optimum4.4289859434858. Conditional operator and independent detector mathematics
+    only; source, ledger, canon and GU recovery unchanged.
+
+    Historical predecessor (not live):
     K2157 constructs the exact all-tangential-covector normal-trace field adapter
     A(zeta,nu)=(zeta_W,nu-Gamma_N zeta_N) with distinct equation map R. It repairs the
     principal5/6 mismatch but the full common-connection upper kernel criterion excludes every
@@ -17015,6 +17028,8 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k2159-commutant-equation-adapters-2026-10-27.md
+    - explorations/conditional-build/k2160-outcome-conditioned-squeezing-2026-10-27.md
     - explorations/conditional-build/k2157-normal-trace-equation-adapter-2026-10-27.md
     - explorations/conditional-build/k2158-local-squeezing-detector-energy-2026-10-27.md
     - explorations/conditional-build/k2155-observed-grade-six-port-2026-10-27.md
@@ -18535,6 +18550,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can a genuinely noncentral commutant adapter satisfy the complete coupled equation criterion,
+  and what fixed-signal energy frontier remains after optimizing effects with
+  outcome-conditioned feedback?
+
+  Historical predecessor (not live):
   Can a source-owned moving or different adapter remove the actual complete-operator kernel
   leakage, and can conditional feedback or complete controller accounting improve the now-exact
   common-squeeze detector frontier?
@@ -22405,6 +22425,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Solve the noncentral commutant algebraic/PDE kernel criterion for a source-compatible common
+  coefficient away from the excluded T=0 point, or construct an actual moving geometry/other
+  operator horn; scalar normal mixing for the fixed seven-form witness is exhausted. For
+  detectors optimize effects under the new outcome-feedback vacuum-energy functional, or supply
+  stable controller/preparation/reset resources. Fixed-effect branch squeezing and certified
+  infinite-sequence evaluation are now settled in the stated class, not the global
+  all-instrument frontier. Raw mobile-locus native minors/integrability, thermal163/164 global
+  inequalities and restricted cosmological dynamics remain independent alternatives. Preserve
+  full16cell/full20/K-C/native2+1/chirality, physical quotient, mirrors/fullII/normaljet and
+  exact-wing debts.
+
+  Historical predecessor (not live):
   Construct a source-owned moving correction or a materially different field/equation adapter
   satisfying the complete kernel criterion; the fixed normal-trace map cannot carry any visible
   seven-form common-connection port, even on forgotten principal-characteristic inputs, and

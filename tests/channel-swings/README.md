@@ -1,5 +1,9 @@
 # Pre-contract wave probes
 
+- [k2159-commutant-equation-adapters](k2159_commutant_equation_adapters_probe.py).
+- [k2160-outcome-conditioned-squeezing](k2160_outcome_conditioned_squeezing_probe.py).
+
+
 - [k2157-normal-trace-equation-adapter](k2157_normal_trace_equation_adapter_probe.py).
 - [k2158-local-squeezing-detector-energy](k2158_local_squeezing_detector_energy_probe.py).
 
