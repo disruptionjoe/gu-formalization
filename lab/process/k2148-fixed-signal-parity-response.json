@@ -1,0 +1,56 @@
+{
+  "result_id": "K2148",
+  "status": "conditional_exact_controls",
+  "exact_checks": {
+    "vacuum_gaussian_integral": true,
+    "independent_one_particle_integral": true,
+    "known_matrix_control": true,
+    "overlap_gram": true,
+    "moving_optimal_record": true,
+    "antisymmetric_signal": true,
+    "spectator_signal": true,
+    "complex_signal": true,
+    "moving_signal_energy": true,
+    "equal_frequency_mode": true,
+    "reference_full_record_distance": true,
+    "nonbalanced_independent_integral": true
+  },
+  "fault_failures": {
+    "gaussian_factor": [
+      "independent_one_particle_integral",
+      "known_matrix_control"
+    ],
+    "missing_v_overlap": [
+      "independent_one_particle_integral",
+      "moving_optimal_record",
+      "antisymmetric_signal",
+      "complex_signal"
+    ],
+    "wrong_s_weight": [
+      "independent_one_particle_integral",
+      "moving_optimal_record",
+      "antisymmetric_signal",
+      "complex_signal"
+    ],
+    "global_parity": [
+      "independent_one_particle_integral",
+      "moving_optimal_record",
+      "antisymmetric_signal",
+      "spectator_signal",
+      "complex_signal"
+    ],
+    "moving_square": [
+      "moving_optimal_record"
+    ],
+    "record_only": [
+      "reference_full_record_distance"
+    ]
+  },
+  "dependency_sha256": {
+    "lab/process/k2143-local-canonical-parity.json": "391c159c2c1eddf913f19aa6b675cd2d5d3923dafc18999b50f8a37974fd095f",
+    "lab/process/k2146-fixed-support-parity-ultraviolet.json": "fdf929c58b5fc1b6d84193e182b2c182c260e2307f5e313153ee151ba3d6fb02",
+    "explorations/conditional-build/k2133-recorded-instrument-vacuum-disturbance-2026-10-27.md": "f10ad1caab54f3c4f7d00129065fe88edbdfacb74cf15450efe4465cc718d527"
+  },
+  "probe_sha256": "a358dcbd42165267f6043f81a23b145ce24ec363a7a87cf277a44e7758ca5210",
+  "universal_evidence": "Written characteristic-function, Fourier weak-convergence and fixed-code proof independently internally reviewed; finite exact Gaussian and record controls are not a continuum certificate."
+}

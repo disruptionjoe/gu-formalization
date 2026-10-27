@@ -7,6 +7,35 @@ updated_at: "2026-10-26"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K2147--K2149: Generic raw rigidity and fixed-signal energy limits (2026-10-27)
+
+K2147 computes the three moving raw-kernel prolongation classes modulo the full raw and
+shared-target images, with exact obstruction rank3. Analytic Schur elimination gives all1280
+joint first jets obstructed at small nonzero hyperbolic sectors; analyticity on the connected
+conserving graph manifold gives an open dense zero-jet locus. Every nonconstant C1 solution must
+stay in the proper analytic exceptional set, whose compatibility remains open. K2148 derives
+exact one-particle local-parity response and proves ultraviolet vacuum suppression also erases
+each fixed signal and the full instrument on fixed finite codes; moving signals retain response
+with energy~K. K2149 extends trivial-instrument convergence uniformly to all mean-energy-bounded
+Fock inputs and references, with necessary order-K input energy for fixed nonzero response and a
+sharp leading mixture control. These are conditional internally reviewed results, not full raw
+rigidity, a causal detector, preparation/controller work or GU recovery.
+
+- [K2147](explorations/conditional-build/k2147-moving-raw-kernel-prolongation-2026-10-27.md).
+- [K2148](explorations/conditional-build/k2148-fixed-signal-parity-response-2026-10-27.md).
+- [K2149](explorations/conditional-build/k2149-energy-bounded-parity-limit-2026-10-27.md).
+
+Three probes pass 33 finite exact checks and reject 14 actual altered-input/equation faults.
+K2147 reuses complete K2141/K2028 base certificates and recomputes the1076 raw columns in two
+complete affected cosets, comparing rational and mod101 ranks and independent sparse versus
+array derivative products. It preserves globally shared target labels and finds three transverse
+derivative classes. K2148 independently reconstructs one-particle compression by coordinate
+Gaussian integrals and checks full recorded trace norm with a reference. K2149 checks CCR/energy
+constants, finite Fock controls, symbolic inverse-moment expansion, inverse threshold and exact
+mixed record. Analytic Schur/global-rank, Fourier, energy-form and full-channel arguments are
+independently reviewed written proofs, distinct from finite controls. No full32-bank replay,
+numerical radius, proof assistant, external certification, remote CI or novelty claim.
+
 ## K2144--K2146: Nearby raw obstruction and parity resource tradeoffs (2026-10-27)
 
 K2144 proves at least1277 joint first-jet obstructions persist near P0: the

@@ -7,6 +7,11 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2147-moving-raw-kernel-prolongation](k2147-moving-raw-kernel-prolongation.json).
+- [k2148-fixed-signal-parity-response](k2148-fixed-signal-parity-response.json).
+- [k2149-energy-bounded-parity-limit](k2149-energy-bounded-parity-limit.json).
+
+
 - [k2144-raw-neighborhood-rank-budget](k2144-raw-neighborhood-rank-budget.json).
 - [k2145-parity-causal-duration](k2145-parity-causal-duration.json).
 - [k2146-fixed-support-parity-ultraviolet](k2146-fixed-support-parity-ultraviolet.json).

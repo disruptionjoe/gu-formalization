@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2147-moving-raw-kernel-prolongation](k2147_moving_raw_kernel_prolongation_probe.py).
+- [k2148-fixed-signal-parity-response](k2148_fixed_signal_parity_response_probe.py).
+- [k2149-energy-bounded-parity-limit](k2149_energy_bounded_parity_limit_probe.py).
+
+
 - [k2144-raw-neighborhood-rank-budget](k2144_raw_neighborhood_rank_budget_probe.py).
 - [k2145-parity-causal-duration](k2145_parity_causal_duration_probe.py).
 - [k2146-fixed-support-parity-ultraviolet](k2146_fixed_support_parity_ultraviolet_probe.py).

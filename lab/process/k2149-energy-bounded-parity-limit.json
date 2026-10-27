@@ -1,0 +1,44 @@
+{
+  "result_id": "K2149",
+  "status": "conditional_exact_controls",
+  "exact_checks": {
+    "canonical_CCR": true,
+    "annihilation_energy_constant": true,
+    "creation_energy_constant": true,
+    "creation_vacuum_constant": true,
+    "positive_difference": true,
+    "actual_fock_energy_bound": true,
+    "vacuum_creation_accounting": true,
+    "inverse_moment_coefficient": true,
+    "three_resource_coefficients": true,
+    "exact_inverse_envelope": true,
+    "exact_mixed_record_target": true,
+    "eigenmode_linear_energy_threshold": true,
+    "full_record_eigenmode_distance": true
+  },
+  "fault_failures": {
+    "omit_creation_constant": [
+      "creation_vacuum_constant",
+      "vacuum_creation_accounting"
+    ],
+    "wrong_cross_sign": [
+      "creation_energy_constant",
+      "positive_difference"
+    ],
+    "wrong_inverse_moment": [
+      "inverse_moment_coefficient"
+    ],
+    "wrong_inverse_root": [
+      "exact_inverse_envelope"
+    ],
+    "record_only": [
+      "full_record_eigenmode_distance"
+    ]
+  },
+  "dependency_sha256": {
+    "lab/process/k2146-fixed-support-parity-ultraviolet.json": "fdf929c58b5fc1b6d84193e182b2c182c260e2307f5e313153ee151ba3d6fb02",
+    "lab/process/k2148-fixed-signal-parity-response.json": "bf70c23ba5bff7df048bae287d3e7165636172e65e9bdbc75367e58ee1f95069"
+  },
+  "probe_sha256": "0fa4a3b8ed407309ad63c0107cbda5c71f3220905df7b3c79d8a5c697ca12f24",
+  "universal_evidence": "Energy-form/CCR proof and controlled Fourier asymptotics separately internally reviewed; finite oscillator calculations and symbolic coefficients are controls, not continuum proof or optimality certificate."
+}

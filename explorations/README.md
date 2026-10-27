@@ -7,6 +7,11 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2147-moving-raw-kernel-prolongation](conditional-build/k2147-moving-raw-kernel-prolongation-2026-10-27.md).
+- [k2148-fixed-signal-parity-response](conditional-build/k2148-fixed-signal-parity-response-2026-10-27.md).
+- [k2149-energy-bounded-parity-limit](conditional-build/k2149-energy-bounded-parity-limit-2026-10-27.md).
+
+
 - [k2144-raw-neighborhood-rank-budget](conditional-build/k2144-raw-neighborhood-rank-budget-2026-10-27.md).
 - [k2145-parity-causal-duration](conditional-build/k2145-parity-causal-duration-2026-10-27.md).
 - [k2146-fixed-support-parity-ultraviolet](conditional-build/k2146-fixed-support-parity-ultraviolet-2026-10-27.md).
