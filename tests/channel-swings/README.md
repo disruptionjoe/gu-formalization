@@ -1,5 +1,9 @@
 # Pre-contract wave probes
 
+- [k2161_noncentral_adapter_obstruction_probe](k2161_noncentral_adapter_obstruction_probe.py).
+- [k2162_feedback_detector_frontier_probe](k2162_feedback_detector_frontier_probe.py).
+
+
 - [k2159-commutant-equation-adapters](k2159_commutant_equation_adapters_probe.py).
 - [k2160-outcome-conditioned-squeezing](k2160_outcome_conditioned_squeezing_probe.py).
 

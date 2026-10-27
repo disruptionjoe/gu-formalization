@@ -1,0 +1,74 @@
+{
+  "result_id": "K2162",
+  "status": "conditional_exact_and_interval_controls",
+  "checks": {
+    "actual_effects_and_exact_signal_contrast": true,
+    "actual_finite_budget_strict_advantage": true,
+    "actual_energy_enclosure": true,
+    "weak_squeezes_expand_click_contract_no_click": true,
+    "exact_weak_coefficients": true,
+    "finite_clipped_profile_beta": true,
+    "rational_squeeze_slope": true,
+    "threshold_exact_infinite_moments": true,
+    "threshold_complement_moments": true,
+    "constant_effect_zero_energy": true,
+    "common_squeeze_recovery": true,
+    "fixed_squeeze_convexity_control": true,
+    "uniform_energy_tail_controls": true,
+    "contrast_tail_bound": true,
+    "global_common_strong_convexity": true,
+    "general_linear_branch_derivative": true,
+    "geometric_mean_second_variation": true,
+    "independent_full_branch_weak_expansion": true
+  },
+  "fault_failures": {
+    "drop_overlap_tail": [
+      "actual_finite_budget_strict_advantage",
+      "actual_energy_enclosure",
+      "constant_effect_zero_energy",
+      "common_squeeze_recovery"
+    ],
+    "normalize_branches": [
+      "actual_finite_budget_strict_advantage",
+      "actual_energy_enclosure",
+      "common_squeeze_recovery"
+    ],
+    "same_feedback_sign": [
+      "actual_finite_budget_strict_advantage",
+      "actual_energy_enclosure",
+      "weak_squeezes_expand_click_contract_no_click"
+    ],
+    "zero_tail_allowance": [
+      "uniform_energy_tail_controls"
+    ]
+  },
+  "finite_budget_witness": {
+    "contrast": "81/6400",
+    "energy": "[0.00035417563756671290593881063264358334685130974762612707289811538990832946 +/- 5.46e-75]",
+    "common_squeeze_lower": "22036174499511/55029268480000000",
+    "x_no_click": "271271/272000",
+    "x_click": "272729/272000"
+  },
+  "saturation_certificate": [
+    {
+      "root_lower": "1735378550612560253481950869959/2535301200456458802993406410752",
+      "root_upper": "216922318826570031685243858745/316912650057057350374175801344",
+      "energy_lower": "30548977582881418685154535605823082707808426008512132445000830383223112028075328990105539969562891440266709509229339876844269810291296017940934218663382009/17199339169386730528517916326076999077038424268886113539717561019077496880209772163122323994151947660721644528741168830049746902119303478395172051803439104",
+      "energy_upper": "8801819514277772160897628937284638582574891908370813972037184035059287512813912474998437692479817409853728219306806714224105/4955500678314724192378954571687516117653674138560498095515666327288011544825388451181572912868743181910664174116184434671616"
+    },
+    {
+      "root_lower": "2309893144263196117508885219281/2535301200456458802993406410752",
+      "root_upper": "1154946572131598058754442609641/1267650600228229401496703205376",
+      "energy_lower": "99548989906576074064019012869712410506040356019813282641527193531088053245776500545085957615524198351201258870772425846557589391964739659727924949745492391/40560635861987424415486075439158984107226686519956032602891193887944823776161801337358772383256447524590678453860669377157553031904781355948063246130348032",
+      "energy_upper": "2394266355129743927209840996624902301132319406217289581265258689139968468379333200149160648654420525124817937122693549631555/975529393901065151360671236496054395241749614006694542746007215317230502994065841135618296224643198276932542746639147728896"
+    }
+  ],
+  "dependency_sha256": {
+    "explorations/conditional-build/k2162-feedback-detector-frontier-2026-10-27.md": "d59de4d41c8e9dce3bed99e138ea982b41f03ec8238bdc6a8ee3bfd3e296a85d",
+    "explorations/conditional-build/k2160-outcome-conditioned-squeezing-2026-10-27.md": "5ec83384bdf92c3065a21c0ad2659eeaff738445b864b22304563ade65b57b32",
+    "tests/channel-swings/k2160_outcome_conditioned_squeezing_probe.py": "2819036ab69b25fd9dc5f771001857eac5e2f91ef0b1fe373420d6f943289411",
+    "explorations/conditional-build/k2156-energy-budget-detector-frontier-2026-10-27.md": "f224dd502c01fa01ccbc78281c8b64b288f46ff2a17f989c801cff51918af442"
+  },
+  "probe_sha256": "8d7738c616f60bb2bfdc8a67c243b1314fab0a3fdd4824402910ed33416fa644",
+  "universal_evidence": "Written compactness, convex subproblem, global budget-slack approximation, endpoint and achievable asymptotic proofs separately reviewed. Finite controls are not a full grid solve or sharp global low-budget asymptote."
+}

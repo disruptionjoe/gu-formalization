@@ -11,6 +11,10 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2161-noncentral-adapter-obstruction-2026-10-27](conditional-build/k2161-noncentral-adapter-obstruction-2026-10-27.md).
+- [k2162-feedback-detector-frontier-2026-10-27](conditional-build/k2162-feedback-detector-frontier-2026-10-27.md).
+
+
 - [k2159-commutant-equation-adapters](conditional-build/k2159-commutant-equation-adapters-2026-10-27.md).
 - [k2160-outcome-conditioned-squeezing](conditional-build/k2160-outcome-conditioned-squeezing-2026-10-27.md).
 

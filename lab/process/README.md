@@ -11,6 +11,10 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2161-noncentral-adapter-obstruction](k2161-noncentral-adapter-obstruction.json).
+- [k2162-feedback-detector-frontier](k2162-feedback-detector-frontier.json).
+
+
 - [k2159-commutant-equation-adapters](k2159-commutant-equation-adapters.json).
 - [k2160-outcome-conditioned-squeezing](k2160-outcome-conditioned-squeezing.json).
 

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f8fd25f0f156be5c84742319c7b7105ec178fb20
+revision_basis: 19c13f760bce578f0957fb14e54a09907db7ebf3
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -58,6 +58,20 @@ reviewed_research_2026_10_26:
 reviewed_prediction_interfaces_2026_10_27:
   status: internally_reviewed_conditional_mathematics
   summary: >-
+    K2161 excludes every constant or smooth tangent-commutant adapter for each nonzero pure
+    tangent-degree0,2,4 seven-form port of the declared common-connection operator. The degree2
+    polynomial elimination covers arbitrary nondecomposable and singular coefficients, not only
+    the old scalar witness; mixed degrees and moving Clifford geometry remain open. K2162 gives
+    an attained global binary feedback detector frontier, certified finite conic/grid bounds
+    with explicit energy-budget slack, and an improved achievable weak-budget coefficient
+    kappa=353/170 versus5/2 in the fixed fixture. A rational finite detector has actual
+    energy0.00035417563756 below the common-squeeze lower bound0.00040044 at identical
+    contrast81/6400. The threshold energy4.2304967688817322..4 is now the exact global
+    saturation budget in that class. No sharp global small-budget asymptote, all-local
+    instrument optimum, apparatus work or GU recovery is claimed; source, ledger and canon
+    unchanged.
+
+    Historical predecessor (not live):
     Three exact conditional interfaces separate a failed completion from an absent
     prediction. A fixed all-null mixed port with unrestricted inputs is invisible,
     but a grade-six port survives on the massless inputs of the declared simple coupled
@@ -17028,6 +17042,8 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k2161-noncentral-adapter-obstruction-2026-10-27.md
+    - explorations/conditional-build/k2162-feedback-detector-frontier-2026-10-27.md
     - explorations/conditional-build/k2159-commutant-equation-adapters-2026-10-27.md
     - explorations/conditional-build/k2160-outcome-conditioned-squeezing-2026-10-27.md
     - explorations/conditional-build/k2157-normal-trace-equation-adapter-2026-10-27.md
@@ -18550,6 +18566,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can mixed-degree interaction ports evade the complete pure-degree obstruction, and is the
+  improved feedback detector weak-budget coefficient globally sharp once rare branches and
+  occupation tails are controlled?
+
+  Historical predecessor (not live):
   Can a genuinely noncentral commutant adapter satisfy the complete coupled equation criterion,
   and what fixed-signal energy frontier remains after optimizing effects with
   outcome-conditioned feedback?
@@ -22425,6 +22446,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Test genuinely mixed-degree0+2+4 seven-form ports under the complete same-coefficient
+  kernel/PDE criterion, or construct actual moving Clifford geometry/another source-compatible
+  operator horn; all pure0,2,4 ports in the commutant-adapter family are exhausted. For
+  detectors establish a matching global weak-budget upper bound including rare branches and
+  occupation tails, solve the integer-likelihood-tie saturation problem, or supply stable
+  autonomous controller/preparation/reset resources. Global finite approximation requires
+  certified fixed-squeeze upper bounds at every grid point; no full grid was run here. Raw
+  mobile-locus native minors/integrability, thermal163/164 global inequalities and restricted
+  cosmological dynamics remain independent alternatives. Preserve
+  full16cell/full20/K-C/native2+1/chirality, physical quotient, mirrors/fullII/normaljet and
+  exact-wing debts.
+
+  Historical predecessor (not live):
   Solve the noncentral commutant algebraic/PDE kernel criterion for a source-compatible common
   coefficient away from the excluded T=0 point, or construct an actual moving geometry/other
   operator horn; scalar normal mixing for the fixed seven-form witness is exhausted. For

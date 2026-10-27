@@ -1,0 +1,54 @@
+{
+  "result_id": "K2161",
+  "status": "conditional_exact_controls",
+  "exact_checks": {
+    "declared_noncentral_commutant": true,
+    "singular_nonzero_r2_control": true,
+    "original_C_kernel_all_rows_and_slots": true,
+    "tangent_trace_identity": true,
+    "r2_elimination_certificate": true,
+    "normal_contraction_detects_nonzero_Z": true,
+    "pure_zero_four_parity_split": true,
+    "equation_projection_cancels": true,
+    "moving_terms_cancel_exactly": true,
+    "actual_forced_noncommutant_invertible": true,
+    "zero_coefficient_positive_control": true,
+    "scalar_connection_positive_control": true,
+    "all1752_pure_even_port_identities": true
+  },
+  "fault_failures": {
+    "noncommutant": [
+      "declared_noncentral_commutant",
+      "r2_elimination_certificate",
+      "pure_zero_four_parity_split",
+      "scalar_connection_positive_control"
+    ],
+    "omit_normal_port": [
+      "original_C_kernel_all_rows_and_slots",
+      "tangent_trace_identity",
+      "r2_elimination_certificate",
+      "normal_contraction_detects_nonzero_Z"
+    ],
+    "kernel_shift": [
+      "original_C_kernel_all_rows_and_slots",
+      "tangent_trace_identity",
+      "r2_elimination_certificate"
+    ],
+    "reverse_sign": [
+      "original_C_kernel_all_rows_and_slots",
+      "tangent_trace_identity",
+      "r2_elimination_certificate"
+    ],
+    "moving_upper_coefficient": [
+      "moving_terms_cancel_exactly"
+    ]
+  },
+  "dependency_sha256": {
+    "explorations/conditional-build/k2161-noncentral-adapter-obstruction-2026-10-27.md": "59d73c60188cb3a2cde984f428d7632cec7e8e42a838d8307475865a3100b3b7",
+    "explorations/conditional-build/k2159-commutant-equation-adapters-2026-10-27.md": "2d7fbb12614b56bdf4807c95bbfa6198bf2d191d437d669bfb52781597bbe6c3",
+    "tests/channel-swings/k2159_commutant_equation_adapters_probe.py": "66fcdfa20412a8523ab117c9300d69381ab20dd406c675243c8c2f2a01667a38",
+    "tests/channel-swings/source_native_fermion_transverse_port_probe.py": "74c817b7d0cd59210b09dee507ce7d0feb3f0c433ae021f0a6b7a0ba81dea390"
+  },
+  "probe_sha256": "b138c3556b5ba0e70260e0938da7abf4e56d01a4da9a38a1189ae5cb06aefba5",
+  "universal_evidence": "Written polynomial elimination and parity proofs cover arbitrary pure0,2,4 coefficients and smooth commutant adapters, separately reviewed. Finite census controls algebra; no mixed-degree or full-source exclusion."
+}

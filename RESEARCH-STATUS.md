@@ -6,6 +6,32 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2161--K2162: Complete adapter exclusions and global feedback frontier (2026-10-27)
+
+K2161 excludes every constant or smooth tangent-commutant adapter for each nonzero pure tangent-
+degree0,2,4 seven-form port of the declared common-connection operator. The degree2 polynomial
+elimination covers arbitrary nondecomposable and singular coefficients, not only the old scalar
+witness; mixed degrees and moving Clifford geometry remain open. K2162 gives an attained global
+binary feedback detector frontier, certified finite conic/grid bounds with explicit energy-budget
+slack, and an improved achievable weak-budget coefficient kappa=353/170 versus5/2 in the fixed
+fixture. A rational finite detector has actual energy0.00035417563756 below the common-squeeze lower
+bound0.00040044 at identical contrast81/6400. The threshold energy4.2304967688817322..4 is now the
+exact global saturation budget in that class. No sharp global small-budget asymptote, all-local
+instrument optimum, apparatus work or GU recovery is claimed; source, ledger and canon unchanged.
+
+- [K2161](explorations/conditional-build/k2161-noncentral-adapter-obstruction-2026-10-27.md).
+- [K2162](explorations/conditional-build/k2162-feedback-detector-frontier-2026-10-27.md).
+
+Two independent read-only mathematical specialists cross-reviewed the actual notes/probes/reports
+and accepted the scoped claims. Thirteen exact Clifford controls include all1752 pure even-degree
+monomial identities, original coupled maps, a singular coefficient, polynomial elimination and
+moving cancellation; eighteen detector checks combine exact algebra, symbolic weak expansion and
+outward256-bit actual energy/tail controls. Nine real altered-input/equation faults are rejected
+after green baselines. The prior rational threshold certificate is replayed; universal proofs are
+separate from finite controls. No full-grid optimizer, proofassistant, external-expert, novelty or
+remote-CI claim.
+
+
 
 ## K2159--K2160: Commutant adapters and outcome-conditioned detector energy (2026-10-27)
 
