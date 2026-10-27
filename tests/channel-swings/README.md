@@ -542,6 +542,10 @@ the ledger probe uses the standard Python interpreter.
 
 # Selected-Shiab observed-receiver probes
 
+- [k2111_finite_car_code_continuity_probe](k2111_finite_car_code_continuity_probe.py).
+- [k2112_positive_mode_local_capture_probe](k2112_positive_mode_local_capture_probe.py).
+- [k2113_causal_code_instrument_budget_probe](k2113_causal_code_instrument_budget_probe.py).
+
 - [k2108_local_detector_tradeoffs_probe](k2108_local_detector_tradeoffs_probe.py).
 - [k2109_finite_switching_response_probe](k2109_finite_switching_response_probe.py).
 - [k2110_almost_local_instruments_probe](k2110_almost_local_instruments_probe.py).

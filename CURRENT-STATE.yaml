@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: a98f7fa50c37096ee61fb2c0735715631ca47842
+revision_basis: 8fb2c2cab870358200971fc81aac07706feaddd8
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -58,6 +58,17 @@ reviewed_research_2026_10_26:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2111 proves complete d-mode CAR code continuity with cb error bounded by pi times the sum
+    of frame errors, including arbitrary external references. K2112 composes it with the
+    existing local smooth Dirac swap to capture fixed finite positive-energy codes with error
+    controlled by spatial tails. Growing duration and aperture yield exact selected-code
+    convergence; fixed-duration aperture growth has a contrasting linearly growing Born
+    particle-count coefficient, not an all-order noise verdict. K2113 bounds the full recorded
+    selected-code instrument when a coherent collective gate is supplied, and exhibits its
+    independent energy-domain obligation. No global sea return, implemented collective
+    readout, source selection, GU recovery or novelty is claimed.
+
+    Historical predecessor (not live):
     K2108 applies the known local-detector responsivity inequality to exact error budgets,
     proves the global-vacuum-preserving local Kraus-channel restriction, and distinguishes
     fixed-algebra limits from growing-region approximations. K2109 derives finite compact-
@@ -16783,6 +16794,9 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k2111-finite-car-code-continuity-2026-10-26.md
+    - explorations/conditional-build/k2112-positive-mode-local-capture-2026-10-26.md
+    - explorations/conditional-build/k2113-causal-code-instrument-budget-2026-10-26.md
     - explorations/conditional-build/k2108-local-detector-tradeoffs-2026-10-26.md
     - explorations/conditional-build/k2109-finite-switching-response-2026-10-26.md
     - explorations/conditional-build/k2110-almost-local-instruments-2026-10-26.md
@@ -18257,6 +18271,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can the local positive-energy code capture now be completed by a causal collective readout
+  or a controlled all-order global excitation budget, and does either beat the current
+  source-selected observation/domain challenger?
+
+  Historical predecessor (not live):
   Can an actual source-selected observation/domain bridge or a local massive capture
   Hamiltonian now outperform the new fixed-region, finite-switching and almost-local
   detector constraints?
@@ -22042,6 +22061,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Construct an actual causal collective readout for the distributed positive-energy code, or
+  establish an all-order global excitation budget for the growing local-pulse family;
+  compare against a source-selected observed neutral algebra/domain for9.16 and new
+  thermal163/164 cap-path31322/32222/3332 supporting inequalities. Reuse K2089 local swap,
+  K2111 full-code continuity and K2112 tail capture; do not repeat compact-mode transfer,
+  scalar pulse finiteness or finite gate matrices. Keep global sea energy and finite-code
+  accuracy separate. Retain K2021 R0/R1, K2085 closed interval/dimension41,
+  full20/K-C/accessibility, native2+1/chirality, mirror/fullII/normaljets, near5/4,
+  nonlattice and exact wings.
+
+  Historical predecessor (not live):
   Compare an actual source-selected observed neutral algebra and strongly compatible domain
   on equation9.16 with a genuinely local massive-field-to-register capture Hamiltonian, and
   new thermal163 multi-terminal or164 cap-path31322/32222/3332 supporting inequalities. Use

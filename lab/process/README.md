@@ -7,6 +7,10 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2111-finite-car-code-continuity](k2111-finite-car-code-continuity.json).
+- [k2112-positive-mode-local-capture](k2112-positive-mode-local-capture.json).
+- [k2113-causal-code-instrument-budget](k2113-causal-code-instrument-budget.json).
+
 - [k2108-local-detector-tradeoffs](k2108-local-detector-tradeoffs.json).
 - [k2109-finite-switching-response](k2109-finite-switching-response.json).
 - [k2110-almost-local-instruments](k2110-almost-local-instruments.json).

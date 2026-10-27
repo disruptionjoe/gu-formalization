@@ -7,6 +7,10 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2111-finite-car-code-continuity](conditional-build/k2111-finite-car-code-continuity-2026-10-26.md).
+- [k2112-positive-mode-local-capture](conditional-build/k2112-positive-mode-local-capture-2026-10-26.md).
+- [k2113-causal-code-instrument-budget](conditional-build/k2113-causal-code-instrument-budget-2026-10-26.md).
+
 - [k2108-local-detector-tradeoffs](conditional-build/k2108-local-detector-tradeoffs-2026-10-26.md).
 - [k2109-finite-switching-response](conditional-build/k2109-finite-switching-response-2026-10-26.md).
 - [k2110-almost-local-instruments](conditional-build/k2110-almost-local-instruments-2026-10-26.md).

@@ -7,6 +7,30 @@ updated_at: "2026-10-26"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K2111--K2113: Local capture of complete positive-energy codes (2026-10-26)
+
+K2111 proves complete d-mode CAR code continuity with cb error bounded by pi times the sum
+of frame errors, including arbitrary external references. K2112 composes it with the
+existing local smooth Dirac swap to capture fixed finite positive-energy codes with error
+controlled by spatial tails. Growing duration and aperture yield exact selected-code
+convergence; fixed-duration aperture growth has a contrasting linearly growing Born
+particle-count coefficient, not an all-order noise verdict. K2113 bounds the full recorded
+selected-code instrument when a coherent collective gate is supplied, and exhibits its
+independent energy-domain obligation. No global sea return, implemented collective readout,
+source selection, GU recovery or novelty is claimed.
+
+- [K2111](explorations/conditional-build/k2111-finite-car-code-continuity-2026-10-26.md).
+- [K2112](explorations/conditional-build/k2112-positive-mode-local-capture-2026-10-26.md).
+- [K2113](explorations/conditional-build/k2113-causal-code-instrument-budget-2026-10-26.md).
+
+Three exact SymPy1.14.0 probes pass clean baselines and reject17 genuine input/machinery
+faults (5/7/5). Controls evaluate Jordan-Wigner CAR swaps and full code words; actual Dirac
+projectors, scaled-switch Fourier integration, radial integral and aperture Taylor
+coefficient; all recorded code matrix units, coherence, exact trace distance and the
+supplied-gate energy counterexample mixture. Universal cb, PDE and asymptotic proofs and
+three independent internal specialist reviews are separate from finite controls, external
+review and proof-assistant certification.
+
 ## K2108--K2110: Local detector limits and controlled approximations (2026-10-26)
 
 K2108 applies the known local-detector responsivity inequality to exact error budgets,
