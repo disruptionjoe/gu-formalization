@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 3a6102c50b97a66a4d6ed12ce6da454885bd1969
+revision_basis: 506a134b8193696e16534865f406bb55816eb75b
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -58,6 +58,18 @@ reviewed_research_2026_10_26:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2123 composes the actual thirteen-real-dimensional K2028 raw potential class with K2120
+    positive32 using the SAME inherited current, giving common-H1 conservative massive dynamics,
+    nonflat bounded potentials and finite speed. K2124 proves full32 moving-selector leakage
+    norm squared8(theta_t^2+|grad theta|^2), constructs an explicit same-current repair outside
+    the frozen whole128 raw class, and releases circle holonomy and boundary-domain shifts.
+    K2125 builds a selfadjoint counterpropagating CAR contact apparatus with full
+    local-von-Neumann-net causality and exact recorded finite-code parity after full crossing.
+    Its energy is unbounded below and generic intermediate states have infinite absolute free
+    energy. These are conditional mathematical results; source, ledger, canon and GU recovery
+    are unchanged.
+
+    Historical predecessor (not live):
     K2120 computes the actual inherited core pairing/current, both neutral64/64, and
     constructs an explicit maximal complex32 subspace invariant under all three principal
     generators and fixed nonzero mass with strictly positive SAME current9/280. A continuous
@@ -16831,6 +16843,9 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k2123-same-current-potential-dynamics-2026-10-27.md
+    - explorations/conditional-build/k2124-moving-positive-polarization-2026-10-27.md
+    - explorations/conditional-build/k2125-local-two-field-collision-2026-10-27.md
     - explorations/conditional-build/k2120-inherited-core-current-2026-10-27.md
     - explorations/conditional-build/k2121-adaptive-gaussian-parity-2026-10-27.md
     - explorations/conditional-build/k2122-regional-quartic-readout-2026-10-27.md
@@ -18317,6 +18332,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can a source-compatible raw coefficient class preserve only the maximal positive32 sector, and
+  can a stable causal nonlinear apparatus retain finite energy through its interaction?
+
+  Historical predecessor (not live):
   Does the actual source-compatible observation and connection preserve any maximal
   positive-current massive sector, and which causal nonlinear apparatus realizes complete
   readout?
@@ -22121,6 +22140,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Test raw coefficients preserving only K2120 positive32, without requiring all128 invariance,
+  and compare a genuinely stable causal nonlinear field apparatus with a controlled smooth
+  ultraviolet limit. Reuse K2123 same-current potential dynamics and K2124 exact moving-family
+  obstruction; supplied Z repair is outside the frozen raw class, not proof that every32-only
+  connection fails. K2125 full contact local-net causality is established on empty Fock, but not
+  semibounded massive energy or finite intermediate free-energy control. A smooth replacement
+  must quantify detector error and locality instead of importing K2115/K2122 domains. Thermal163
+  multi-terminal/164 cap-path31322/32222/3332 global inequalities remain independent; K2085
+  interval/dimension41 is complete. Retain
+  full20/K-C/accessibility/native2+1/chirality/mirror/fullII/normaljets/near5/4/nonlattice/exact
+  wings. No source-selected physical quotient or GU recovery.
+
+  Historical predecessor (not live):
   Test whether actual observed connection/gauge/lower-order data preserve K2120 P32 or any
   member of its maximal positive-current family, with the SAME pairing and a common domain;
   invariant restriction is not an all-state full1920 quotient. Reuse K2021 R0/R1 and K2022

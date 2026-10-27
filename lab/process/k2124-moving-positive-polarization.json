@@ -1,0 +1,86 @@
+{
+  "result_id": "K2124",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "exact_checks": {
+    "derivative-from-actual-family": true,
+    "moving-projector": true,
+    "same-current": true,
+    "offbundle-Z": true,
+    "leakage-formula-0": true,
+    "leakage-norm-0": true,
+    "parallel-projector-0": true,
+    "contracted-cancellation-0": true,
+    "outside-raw-image-0": true,
+    "leakage-formula-1": true,
+    "leakage-norm-1": true,
+    "parallel-projector-1": true,
+    "contracted-cancellation-1": true,
+    "outside-raw-image-1": true,
+    "leakage-formula-2": true,
+    "leakage-norm-2": true,
+    "parallel-projector-2": true,
+    "contracted-cancellation-2": true,
+    "outside-raw-image-2": true,
+    "leakage-formula-3": true,
+    "leakage-norm-3": true,
+    "parallel-projector-3": true,
+    "contracted-cancellation-3": true,
+    "outside-raw-image-3": true,
+    "S-compatible": true,
+    "Z-involution": true,
+    "global-section-periodic": true,
+    "moving-section-Schrodinger": true,
+    "null-gradient-full-fibre-fails": true,
+    "null-gradient-smaller-kernel-survives": true
+  },
+  "fault_failures": {
+    "projector-derivative": [
+      "derivative-from-actual-family",
+      "leakage-formula-0",
+      "parallel-projector-0",
+      "contracted-cancellation-0",
+      "leakage-formula-1",
+      "parallel-projector-1",
+      "contracted-cancellation-1",
+      "leakage-formula-2",
+      "parallel-projector-2",
+      "contracted-cancellation-2",
+      "leakage-formula-3",
+      "parallel-projector-3",
+      "contracted-cancellation-3"
+    ],
+    "omit-spatial-transport": [
+      "leakage-formula-2",
+      "leakage-norm-2",
+      "contracted-cancellation-2"
+    ],
+    "connection-sign": [
+      "parallel-projector-0",
+      "parallel-projector-1",
+      "parallel-projector-2",
+      "parallel-projector-3"
+    ],
+    "missing-temporal": [
+      "contracted-cancellation-0",
+      "outside-raw-image-0",
+      "contracted-cancellation-2",
+      "outside-raw-image-2",
+      "contracted-cancellation-3",
+      "outside-raw-image-3"
+    ],
+    "periodic-transformed-domain": [
+      "global-section-periodic"
+    ],
+    "hamiltonian-time-sign": [
+      "moving-section-Schrodinger"
+    ]
+  },
+  "scope": "Same current, full32 moving family and frozen whole128 raw image; not all32-only raw connections.",
+  "inputs": {
+    "tests/channel-swings/k2123_same_current_potential_dynamics_probe.py": "02493eab919a6dd925bcf9e982862c15c6725a3a9f02a56d4bdedabde22b2bd1",
+    "lab/process/k2120-inherited-core-current.json": "8e314ac1b790e0db204c360e7a22f3d7c7c55c61b66e2f920f7e4d5c50d1b503",
+    "lab/process/k2028-all-grade-raw-common-form.json": "18c4532092a938fa523934394db7b4f4ab6e65b0b61a960e006c2e5a56db4243"
+  }
+}

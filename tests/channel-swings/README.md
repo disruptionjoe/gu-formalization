@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2123-same-current-potential-dynamics](k2123_same_current_potential_dynamics_probe.py).
+- [k2124-moving-positive-polarization](k2124_moving_positive_polarization_probe.py).
+- [k2125-local-two-field-collision](k2125_local_two_field_collision_probe.py).
+
+
 - [k2084_continuum_instrument_limit](k2084_continuum_instrument_limit.py).
 - [k2084_continuum_instrument_limit_probe](k2084_continuum_instrument_limit_probe.py).
 - [k2085_thermal_boundary_slack](k2085_thermal_boundary_slack.py).

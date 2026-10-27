@@ -7,6 +7,11 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2123-same-current-potential-dynamics](conditional-build/k2123-same-current-potential-dynamics-2026-10-27.md).
+- [k2124-moving-positive-polarization](conditional-build/k2124-moving-positive-polarization-2026-10-27.md).
+- [k2125-local-two-field-collision](conditional-build/k2125-local-two-field-collision-2026-10-27.md).
+
+
 - [k2120-inherited-core-current](conditional-build/k2120-inherited-core-current-2026-10-27.md).
 - [k2121-adaptive-gaussian-parity](conditional-build/k2121-adaptive-gaussian-parity-2026-10-27.md).
 - [k2122-regional-quartic-readout](conditional-build/k2122-regional-quartic-readout-2026-10-27.md).

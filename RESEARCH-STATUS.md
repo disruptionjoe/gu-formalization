@@ -8,6 +8,30 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## K2123--K2125: Same-current dynamics and causal contact readout (2026-10-27)
+
+K2123 composes the actual thirteen-real-dimensional K2028 raw potential class with K2120
+positive32 using the SAME inherited current, giving common-H1 conservative massive dynamics,
+nonflat bounded potentials and finite speed. K2124 proves full32 moving-selector leakage norm
+squared8(theta_t^2+|grad theta|^2), constructs an explicit same-current repair outside the
+frozen whole128 raw class, and releases circle holonomy and boundary-domain shifts. K2125 builds
+a selfadjoint counterpropagating CAR contact apparatus with full local-von-Neumann-net causality
+and exact recorded finite-code parity after full crossing. Its energy is unbounded below and
+generic intermediate states have infinite absolute free energy. These are conditional
+mathematical results; source, ledger, canon and GU recovery are unchanged.
+
+- [K2123](explorations/conditional-build/k2123-same-current-potential-dynamics-2026-10-27.md).
+- [K2124](explorations/conditional-build/k2124-moving-positive-polarization-2026-10-27.md).
+- [K2125](explorations/conditional-build/k2125-local-two-field-collision-2026-10-27.md).
+
+Three exact SymPy1.14.0 probes pass71 clean checks and reject20 genuine input or equation faults
+(7/6/7). They replay actual stored raw images and original inherited matrices, moving sections
+and domain endpoints, signed crossing cocycles, complex quarter-turn field strings, full
+recorded matrix units/reference states, spectator and incomplete-crossing controls, and a
+symbolic fractional-energy integral. Universal PDE, domain, local-algebra and divergence proofs
+are written and independently reviewed internally; they are not inferred from finite checks. No
+external or proof-assistant certification.
+
 ## K2120--K2122: Inherited positive current and nonGaussian readout (2026-10-27)
 
 K2120 computes the actual inherited core pairing/current, both neutral64/64, and constructs

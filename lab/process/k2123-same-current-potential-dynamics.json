@@ -1,0 +1,65 @@
+{
+  "result_id": "K2123",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "exact_checks": {
+    "raw-image-0": true,
+    "raw-image-1": true,
+    "raw-image-2": true,
+    "raw-image-3": true,
+    "raw-image-4": true,
+    "raw-image-5": true,
+    "raw-image-6": true,
+    "raw-image-7": true,
+    "raw-image-8": true,
+    "raw-image-9": true,
+    "raw-image-10": true,
+    "raw-image-11": true,
+    "raw-image-12": true,
+    "right-inverse": true,
+    "same-current": true,
+    "projector-reduces": true,
+    "compressed-hermitian": true,
+    "compressed-current-conserved": true,
+    "full-current-mass-not-conserved": true,
+    "unit-normal-speed": true,
+    "gauge-curvature": true,
+    "nonflat-bounded": true
+  },
+  "fault_failures": {
+    "injection": [
+      "same-current",
+      "projector-reduces",
+      "compressed-current-conserved"
+    ],
+    "image-coordinate": [
+      "raw-image-0"
+    ],
+    "right-inverse-order": [
+      "right-inverse"
+    ],
+    "mass-adjoint": [
+      "compressed-hermitian",
+      "compressed-current-conserved"
+    ],
+    "nonreal-potential": [
+      "compressed-hermitian",
+      "compressed-current-conserved"
+    ],
+    "principal-speed": [
+      "unit-normal-speed"
+    ],
+    "gauge-time": [
+      "gauge-curvature"
+    ]
+  },
+  "scope": "Actual K2028 stored image on same K2120 positive current. Universal domain and finite speed proofs are not inferred from finite checks.",
+  "inputs": {
+    "lab/process/k1951-coordinated-zero-southeast-principal.json": "58ed2f1f9538cc3b47eb58322c61fa681521deb5298f20bdbd5acd6b932e7547",
+    "lab/process/k1967-paired-raw-coefficient-observation.json": "1c0d2057ec2942308c260f811a6b9f4c08a74dcec6d0c19cb25b5bc73eef8886",
+    "tests/channel-swings/k2021_common_degree_dual_operator.py": "61c172cba4507e91b32c26c61a5a76ef644cabb6c3a94f31c8f3755f41913560",
+    "lab/process/k2028-all-grade-raw-common-form.json": "18c4532092a938fa523934394db7b4f4ab6e65b0b61a960e006c2e5a56db4243",
+    "tests/channel-swings/k2120_inherited_core_current_probe.py": "9656f5bbafc339410a14ea0f0a325394e2924ebddad1325f4611e587653b5916"
+  }
+}

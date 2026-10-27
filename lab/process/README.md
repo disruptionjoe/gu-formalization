@@ -7,6 +7,11 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2123-same-current-potential-dynamics](k2123-same-current-potential-dynamics.json).
+- [k2124-moving-positive-polarization](k2124-moving-positive-polarization.json).
+- [k2125-local-two-field-collision](k2125-local-two-field-collision.json).
+
+
 - [k2120-inherited-core-current](k2120-inherited-core-current.json).
 - [k2121-adaptive-gaussian-parity](k2121-adaptive-gaussian-parity.json).
 - [k2122-regional-quartic-readout](k2122-regional-quartic-readout.json).

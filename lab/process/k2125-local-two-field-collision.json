@@ -1,0 +1,62 @@
+{
+  "result_id": "K2125",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "exact_checks": {
+    "initial-identity": true,
+    "signed-cocycle": true,
+    "reverse-time": true,
+    "fermionic-permutation": true,
+    "R-field-string-from-pairs": true,
+    "string-support-cone": true,
+    "L-field-string-from-pairs": true,
+    "actual-CAR": true,
+    "all16-system-matrix-units-recorded": true,
+    "reference-record": true,
+    "quarter-turn-contact-sign": true,
+    "quarter-turn-R-CAR-string": true,
+    "quarter-turn-L-CAR-string": true,
+    "crossed-spectator-flips-label": true,
+    "zero-phase-no-readout": true,
+    "zero-and-full-turn-free": true,
+    "probe-coherence-transformed": true,
+    "fractional-jump-log": true,
+    "fractional-jump-diverges": true
+  },
+  "fault_failures": {
+    "omit-initial-conjugacy": [
+      "initial-identity",
+      "signed-cocycle",
+      "reverse-time"
+    ],
+    "wrong-left-velocity": [
+      "R-field-string-from-pairs"
+    ],
+    "omit-system-mode": [
+      "all16-system-matrix-units-recorded",
+      "reference-record",
+      "quarter-turn-L-CAR-string"
+    ],
+    "incomplete-crossing": [
+      "all16-system-matrix-units-recorded",
+      "reference-record"
+    ],
+    "uncompensated-readout-phase": [
+      "all16-system-matrix-units-recorded",
+      "reference-record"
+    ],
+    "contact-sign": [
+      "R-field-string-from-pairs",
+      "L-field-string-from-pairs",
+      "quarter-turn-contact-sign",
+      "quarter-turn-R-CAR-string",
+      "quarter-turn-L-CAR-string"
+    ],
+    "wrong-fractional-kernel": [
+      "fractional-jump-log",
+      "fractional-jump-diverges"
+    ]
+  },
+  "scope": "Exact finite contact/cocycle/CAR and integral controls; continuum selfadjointness, local-vN causality and energy divergence require written proofs. Empty Fock, nonsemibounded energy; no GU claim."
+}
