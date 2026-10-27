@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 2931c45393eaf553d559ddc8ff717ddaa797ed8d
+revision_basis: cc0b7da695f5ec5ce7b8a1bd45efdebb8083535e
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -84,6 +84,18 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2153 derives exact global vacuum excitation for every countable diagonal nondemolition
+    instrument on the fixed scalar mode, proves positive square-root Kraus minimize energy
+    at prescribed effects, and bounds detection contrast by output energy. A soft ROC
+    threshold retains the detection probabilities while costing less field energy than a
+    classical threshold mixture. K2154 retains physical free drift in the finite-chain
+    controller, proves full-record error uniform on mean-energy-bounded inputs and arbitrary
+    references, and accounts for signed and absolute mean switching work. The soft
+    instrument is realized by a bounded onsite angle control. Clock, preparation, reset,
+    stable autonomous control and continuum limits remain supplied or open; no GU recovery,
+    source, ledger or canon change.
+
+    Historical predecessor (not live):
     K2150 extends the fixed-annihilator no-departure lemma to every zero-jet point under
     path-integrable coefficient cost, sharpening the necessary moving locus to the
     quotient-rank-deficient set; smooth singular and ambient-Lp countercontrols prevent stronger
@@ -18502,8 +18514,9 @@ current_question: >-
 
   Parallel retained questions:
   Can the native mobile raw locus carry an integrable nonconstant selector, and can a
-  fixed-signal threshold detector be implemented with physical drift and total
-  preparation/controller resources?
+  fixed-signal detector be implemented with stable autonomous control and explicit clock,
+  preparation/reset resources, or optimized at varying effects under a field-energy budget?
+  K2154 settles the supplied externally switched finite-chain physical-drift bound.
 
   Historical predecessor (not live):
   Can the proper exceptional raw graph locus support any nonconstant compatible selector, and
@@ -22366,11 +22379,13 @@ next_condition: >-
   Retained independent conditions:
   Compute genuine native quotient-rank strata and tangent integrability inside the smaller
   mobile locus, with an explicit coefficient regularity class; the new lemma is not an
-  exceptional-variety computation. For detectors compare a supplied drift-compensated
-  finite-chain threshold with a fixed physical signal/code and actual local controller whose
-  preparation, switching and work resources are accounted for; no continuum velocity follows
-  from graph gates. Single-mode ROC and its exact output energy are settled for the named
-  photon-added signal. A larger regional algebra or general coherent signal is a different
+  exceptional-variety computation.
+  For detectors compare stable autonomous control with explicitly supplied clock,
+  preparation and reset resources, or optimize effects under a fixed field-energy budget
+  using K2153's exact instrument cost. K2154 already retains physical drift with a full-
+  record energy-constrained error bound and an explicit externally switched mean-work
+  account. Supplied nonlinear all-occupation control is not a stable autonomous or
+  continuum apparatus. A larger regional algebra or general coherent signal is a different
   discrimination problem. Thermal163 multi-terminal/164 cap31322/32222/3332 global supporting
   inequalities remain independent; K2085 interval/dimension41 settled. Retain
   full20/K-C/accessibility/native2+1/chirality/mirror/fullII/normaljets/near5/4/nonlattice/exact

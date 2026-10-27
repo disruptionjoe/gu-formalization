@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+
+- [k2153-diagonal-detector-energy](k2153-diagonal-detector-energy.json).
+- [k2154-uncompensated-detector-control](k2154-uncompensated-detector-control.json).
+
 # Process
 
 - [k2150-raw-mobile-locus-regularity](k2150-raw-mobile-locus-regularity.json).

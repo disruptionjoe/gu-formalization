@@ -1,0 +1,71 @@
+{
+  "result_id": "K2153",
+  "status": "conditional_exact_controls",
+  "exact_checks": {
+    "complete_n0": true,
+    "complete_n1": true,
+    "complete_n2": true,
+    "annihilator_a0_n0": true,
+    "annihilator_a0_n1": true,
+    "annihilator_a0_n2": true,
+    "annihilator_a1_n0": true,
+    "annihilator_a1_n1": true,
+    "annihilator_a1_n2": true,
+    "exact_soft_energy": true,
+    "strict_classical_excess": true,
+    "fixed_signal_contrast": true,
+    "contrast_energy_bound": true,
+    "infinite_geometric_weight": true,
+    "identical_effects_different_channel": true,
+    "soft_channel_coherence": true,
+    "coin_channel_coherence": true,
+    "fixed_effects_preserved": true,
+    "projection_distance_n0": true,
+    "projection_distance_n1": true
+  },
+  "fault_failures": {
+    "annihilator_sign": [
+      "annihilator_a0_n0",
+      "annihilator_a0_n1",
+      "annihilator_a1_n1",
+      "annihilator_a1_n2"
+    ],
+    "missing_z": [
+      "exact_soft_energy"
+    ],
+    "single_population": [
+      "exact_soft_energy"
+    ],
+    "linear_amplitudes": [
+      "complete_n1",
+      "exact_soft_energy",
+      "fixed_signal_contrast",
+      "contrast_energy_bound",
+      "soft_channel_coherence",
+      "fixed_effects_preserved"
+    ],
+    "discard_complement": [
+      "complete_n0",
+      "complete_n1",
+      "exact_soft_energy",
+      "soft_channel_coherence",
+      "fixed_effects_preserved",
+      "projection_distance_n1"
+    ],
+    "erase_phase": [
+      "identical_effects_different_channel"
+    ],
+    "wrong_signal": [
+      "fixed_signal_contrast"
+    ],
+    "classical_coin": [
+      "soft_channel_coherence"
+    ]
+  },
+  "dependency_sha256": {
+    "lab/process/k2151-optimal-local-mode-discrimination.json": "7331f9f8acd195653272a9b163ec517315e1a66dbbd256af52b0d2c1ee8960ea",
+    "explorations/conditional-build/k2153-diagonal-detector-energy-2026-10-27.md": "1016cbcf5829bfa6ecfa20b92714a7eb3374eeb966a79cf06e401c281e24dfe2"
+  },
+  "probe_sha256": "e7c4742cdd84a782b8d848401cf603cf015b4ad10f658b7de5f735f27fe0296b",
+  "universal_evidence": "Written countable-instrument annihilator/form-domain proof, Cauchy-Schwarz minimization and summation by parts; finite exact controls are separate."
+}

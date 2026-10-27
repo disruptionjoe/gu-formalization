@@ -1,0 +1,62 @@
+{
+  "result_id": "K2154",
+  "status": "conditional_exact_controls",
+  "exact_checks": {
+    "compressed_number_commutator": true,
+    "free_vacuum_number_comparison": true,
+    "form_constants": true,
+    "actual_soft_pointer_rotation": true,
+    "all_outcomes_trace": true,
+    "reference_coherence_retained": true,
+    "work_energy_bookkeeping": true,
+    "unrestricted_spectator_countercontrol": true
+  },
+  "fault_failures": {
+    "commutator_factor": [
+      "compressed_number_commutator"
+    ],
+    "missing_zero_point": [
+      "free_vacuum_number_comparison"
+    ],
+    "wrong_soft_angle": [
+      "actual_soft_pointer_rotation"
+    ],
+    "lost_record": [
+      "all_outcomes_trace",
+      "reference_coherence_retained"
+    ],
+    "missing_reference": [
+      "reference_coherence_retained"
+    ],
+    "wrong_work_jump": [
+      "work_energy_bookkeeping"
+    ]
+  },
+  "dependency_sha256": {
+    "lab/process/k2152-finite-chain-threshold-detector.json": "09cd8f2ff7b5200585ac4b8fc80fdef62b2b7a55f8eac5fe1042c91de21c7a28",
+    "lab/process/k2153-diagonal-detector-energy.json": "095e1304d37216985e0e780ca2c80ee7e48c9b42dafd8c1187e0d99dba73a9cb",
+    "explorations/conditional-build/k2154-uncompensated-detector-control-2026-10-27.md": "3e3d2b011b88ea0fe6210dd7ab6af6967bac302f0f52f9a59007e1d2501f5e1a"
+  },
+  "probe_sha256": "8ad6be05fafae52744c07249ae00a905d4aafa5522f8d73cb02fdcb31fd69341",
+  "universal_evidence": "Written analytic-vector selfadjointness, total-number compression, positive-form overlap and switching-work proofs; finite compressed dynamics are numerical controls only.",
+  "numerical_evidence": {
+    "kind": "finite_compressed_numerical_only",
+    "total_number_cutoff": 4,
+    "checks": {
+      "positive_compressed_free_H": true,
+      "number_form_lower": true,
+      "number_form_upper": true,
+      "control_commutes_number": true,
+      "reference_full_record_error": true,
+      "actual_energy_growth": true,
+      "work_telescopes": true,
+      "absolute_mean_switch_bound": true,
+      "drift_changes_full_channel": true
+    },
+    "half_trace_error": 0.02187633,
+    "proven_error_upper": 0.6331326,
+    "signed_work": 0.20034149,
+    "field_energy_change": 0.20034149,
+    "absolute_mean_switch_work": 8.4262838
+  }
+}

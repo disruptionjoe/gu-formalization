@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+
+- [k2153-diagonal-detector-energy](conditional-build/k2153-diagonal-detector-energy-2026-10-27.md).
+- [k2154-uncompensated-detector-control](conditional-build/k2154-uncompensated-detector-control-2026-10-27.md).
+
 # Explorations
 
 - [Near-term prediction interfaces](../lab/active-research/joe-directed/prediction-kickoff/README.md): source-aware mixed-port exclusion and on-shell survivor, coupled matter/light response, and finite-distance identifiability; internally reviewed conditional results, not GU forecasts.

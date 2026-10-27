@@ -5,6 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+
+> **2026-10-27: DIAGONAL ENERGY AND PHYSICAL DRIFT.**
+> For detectors compare stable autonomous control with explicitly supplied clock, preparation and reset resources, or optimize effects under a fixed field-energy budget using K2153's exact instrument cost. K2154 already retains physical drift with a full-record energy-constrained error bound and an explicit externally switched mean-work account. Supplied nonlinear all-occupation control is not a stable autonomous or continuum apparatus. Preserve the prediction kickoff's native cell/real-form and observation tests, full coupled source/readout and restricted cosmological likelihood work. Raw mobile-locus rank/integrability and thermal163/164 global supporting inequalities remain independent. Source, ledger0.263 and canon unchanged.
+> Prior banners preserve historical questions; no source or ledger promotion.
+
 # Next Steps For Contributors
 
 > **2026-10-27: MOBILE-LOCUS REGULARITY AND OPTIMAL MODE DETECTION.**

@@ -1,5 +1,8 @@
 # Pre-contract wave probes
 
+- [k2153-diagonal-detector-energy](k2153_diagonal_detector_energy_probe.py).
+- [k2154-uncompensated-detector-control](k2154_uncompensated_detector_control_probe.py).
+
 - [k2150-raw-mobile-locus-regularity](k2150_raw_mobile_locus_regularity_probe.py).
 - [k2151-optimal-local-mode-discrimination](k2151_optimal_local_mode_discrimination_probe.py).
 - [k2152-finite-chain-threshold-detector](k2152_finite_chain_threshold_detector_probe.py).

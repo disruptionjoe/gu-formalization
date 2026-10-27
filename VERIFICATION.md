@@ -5,6 +5,36 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+
+## K2153--K2154: Diagonal detector energy and physical drift (2026-10-27)
+
+K2153 derives exact global vacuum excitation for every countable diagonal nondemolition
+instrument on the fixed scalar mode, proves positive square-root Kraus minimize energy at
+prescribed effects, and bounds detection contrast by output energy. A soft ROC threshold
+retains the detection probabilities while costing less field energy than a classical
+threshold mixture. K2154 retains physical free drift in the finite-chain controller,
+proves full-record error uniform on mean-energy-bounded inputs and arbitrary references,
+and accounts for signed and absolute mean switching work. The soft instrument is realized
+by a bounded onsite angle control. Clock, preparation, reset, stable autonomous control
+and continuum limits remain supplied or open; no GU recovery, source, ledger or canon
+change.
+
+- [K2153](explorations/conditional-build/k2153-diagonal-detector-energy-2026-10-27.md).
+- [K2154](explorations/conditional-build/k2154-uncompensated-detector-control-2026-10-27.md).
+
+Two independent internal specialist reviews accept the scoped mathematics after correcting
+the reference-loss mutation and proof-coverage wording. The probes pass 28 finite exact
+controls and reject 14 altered-input/equation faults; nine finite compressed numerical
+checks also pass. Written countable/domain, optimization and all-Fock proofs are separate
+from finite checks. No proof-assistant, external certification, remote CI or novelty claim.
+
+For detectors compare stable autonomous control with explicitly supplied clock,
+preparation and reset resources, or optimize effects under a fixed field-energy budget
+using K2153's exact instrument cost. K2154 already retains physical drift with a full-
+record energy-constrained error bound and an explicit externally switched mean-work
+account. Supplied nonlinear all-occupation control is not a stable autonomous or continuum
+apparatus.
+
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
 ## Prediction interfaces: source ports, coupled readouts and finite distances (2026-10-27)
