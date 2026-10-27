@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "delta_id": "GU-MANNHEIM-COMPATIBILITY-DESI-2026-10-27",
+  "status": "pending",
+  "base": {
+    "ledger_ref": "lab/process/conditional-physics-ledger-v0.263.json",
+    "ledger_sha256": "7c75c179c3af512084e50af19043a5d320b38e8c1e53325ee5ec2f97ad9c257b"
+  },
+  "affected_rows": ["LT-GR1b", "LT-GR2e", "LT-GR5", "LT-GR6b"],
+  "result_refs": [
+    "lab/active-research/joe-directed/mannheim-compatibility/mannheim-gu-compatibility-and-desi-2026-10-27.md",
+    "tests/channel-swings/mannheim_gu_compatibility_probe.py"
+  ],
+  "source_disposition": "Source curvature-induced effective chirality and 2+1 preserved; no source-selected Weyl-squared action, physical conformal frame, interacting positive metric or DESI background bridge established. Existing TT, twistor and spectral-metric results reused, not new independent evidence.",
+  "claim_ceiling": "Selected I2B flat TT polynomial differs from pure Bach by root multiplicity; isolated metric Ward defect remains. Pure four-dimensional Weyl-squared contributes zero on FLRW, not a no-go for matter-coupled conformal cosmology. No GU source falsification, empirical confirmation, dark-matter abundance or dark-energy prediction.",
+  "proposed_effect": {
+    "summary": "Retain a narrowly typed Mannheim comparison, corrected reply bibliography and AP/BAO-shape route without changing current ledger verdicts or scientific priority.",
+    "requested_row_changes": [
+      "Consider linking the assessment to LT-GR1b/LT-GR5 as a comparator boundary: distinguish native action owners, full-II structure, selected TT polynomial and existing Bach-flat detour.",
+      "Consider linking LT-GR2e to the FLRW contribution proof and ruler-independent AP test route; retain B3-DE likelihood correction and MISSING_CONSTRUCTION status.",
+      "Consider linking LT-GR6b to the already-known interaction-dependent physical metric/domain burden; no new positivity claim."
+    ]
+  },
+  "conflict_keys": ["LT-GR1b", "LT-GR2e", "LT-GR5", "LT-GR6b", "B3-DE-LIKELIHOOD-SCOPE", "MANNHEIM-GU-IDENTIFICATION"],
+  "integration": null
+}

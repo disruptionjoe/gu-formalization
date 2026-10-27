@@ -7,6 +7,8 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [Mannheim–GU compatibility and DESI](../lab/active-research/joe-directed/mannheim-compatibility/mannheim-gu-compatibility-and-desi-2026-10-27.md): selected TT/Bach distinction, FLRW nonselection, source curvature/chirality boundary, and a ruler-independent observational route; no GU prediction or priority change.
+
 - [k2147-moving-raw-kernel-prolongation](conditional-build/k2147-moving-raw-kernel-prolongation-2026-10-27.md).
 - [k2148-fixed-signal-parity-response](conditional-build/k2148-fixed-signal-parity-response-2026-10-27.md).
 - [k2149-energy-bounded-parity-limit](conditional-build/k2149-energy-bounded-parity-limit-2026-10-27.md).

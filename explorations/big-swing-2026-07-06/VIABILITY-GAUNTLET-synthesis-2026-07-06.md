@@ -33,6 +33,15 @@ scripts:
 
 # VIABILITY GAUNTLET — synthesis (2026-07-06)
 
+> **Bibliographic correction, 2026-10-27.** The title and July summary below
+> inherited an incomplete search: Mannheim did publish a
+> [response on scale-breaking scalars](https://arxiv.org/html/2105.14679v3)
+> to the Horne/Hobson–Lasenby mass-generation/orbit criticism. Do not reuse
+> “unanswered in print” as current evidence. The dispute remains unresolved
+> here; this correction neither endorses the rotation fits nor changes GU's
+> empirical status. See the [corrected critical-line record](VG-SB-conformal-gravity-critical-line.md)
+> and [narrow GU/DESI assessment](../../lab/active-research/joe-directed/mannheim-compatibility/mannheim-gu-compatibility-and-desi-2026-10-27.md).
+
 ## 1. The gauntlet statement
 
 The 2026-07-06 all-perspective steelman left the tri-theory federation — GU-as-reconstructed

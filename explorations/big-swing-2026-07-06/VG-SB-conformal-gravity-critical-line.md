@@ -14,6 +14,17 @@ scripts: none (source-intake route; no numeric claim in this doc originates from
 
 # VG-SB: the conformal-gravity critical line (rung 0 source intake)
 
+> **Bibliographic correction, 2026-10-27.** The title, grade and body below
+> preserve the July search record, not a current finding that Mannheim left
+> the frame/mass-generation criticism unanswered. His
+> [scale-breaking-scalar paper](https://arxiv.org/html/2105.14679v3) addresses
+> Horne/Brihaye-Verbin and discusses Hobson–Lasenby, arguing for microscopic
+> condensate rather than macroscopic scalar mass generation. The response
+> was omitted here. This corrects “answered only by Sultana–Kazanas” and
+> “unanswered by Mannheim”; it does not settle the physical-orbit dispute or
+> endorse the rotation fits. Retain the 2021/2022 criticism alongside it. See
+> the [scoped compatibility assessment](../../lab/active-research/joe-directed/mannheim-compatibility/mannheim-gu-compatibility-and-desi-2026-10-27.md).
+
 Executes the SKY' standing order from the 2026-07-06 all-perspective review, Section 5.3 Tier 4:
 "primary-source intake (Mannheim papers + the critical line: Edery-Paranjape, Yoon,
 Hobson-Lasenby; from-memory citations to be verified) BEFORE any sky-facing claim."
