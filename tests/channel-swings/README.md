@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2138-graph-holonomy-mass-transport](k2138_graph_holonomy_mass_transport_probe.py).
+- [k2139-finite-weyl-record-obstruction](k2139_finite_weyl_record_obstruction_probe.py).
+- [k2140-point-sites-blind-sectors](k2140_point_sites_blind_sectors_probe.py).
+
+
 - [k2135-full-graph-current-connection](k2135_full_graph_current_connection_probe.py).
 - [k2136-point-probe-recorded-field](k2136_point_probe_recorded_field_probe.py).
 - [k2137-point-probe-energy-continuum](k2137_point_probe_energy_continuum_probe.py).

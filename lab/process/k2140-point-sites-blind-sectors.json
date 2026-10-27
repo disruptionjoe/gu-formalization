@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "status": "conditional_exact_controls",
+  "exact_checks": {
+    "free_reflection_reduces": true,
+    "point_source_even": true,
+    "odd_blind_overlap": true,
+    "two_site_determinant": true,
+    "frame_characteristic_polynomial": true,
+    "coincident_site_countercontrol": true,
+    "separated_fiber_control": true,
+    "frame_resonance_has_zero_eigenvalue": true,
+    "record_block_discriminant": true,
+    "fair_record_distance": true,
+    "convexity_of_record_norm": true,
+    "no_uniform_inverse_sequence": true
+  },
+  "fault_failures": {
+    "asymmetric_point_seed": [
+      "point_source_even",
+      "odd_blind_overlap"
+    ],
+    "coincident_sites": [
+      "two_site_determinant",
+      "frame_characteristic_polynomial",
+      "separated_fiber_control"
+    ],
+    "erase_record_coherence": [
+      "record_block_discriminant"
+    ],
+    "omit_frame_cross_term": [
+      "frame_characteristic_polynomial",
+      "frame_resonance_has_zero_eigenvalue"
+    ]
+  },
+  "universal_evidence": "Exact finite fiber and record-matrix controls. Fock factorization, all-time complex cyclic density and lack of uniform inversion are written proofs, not numerical continuum claims. Sharp fair-record upper bound reused from K2133.",
+  "probe_sha256": "c5c0300158b8d6e649172c2e6a6ee7debc4b5078d1d1c96084fce776d811b586",
+  "dependency_sha256": {
+    "explorations/conditional-build/k2133-recorded-instrument-vacuum-disturbance-2026-10-27.md": "f10ad1caab54f3c4f7d00129065fe88edbdfacb74cf15450efe4465cc718d527",
+    "explorations/conditional-build/k2136-point-probe-recorded-field-2026-10-27.md": "fa03e4816fed4041d5ce17dd64591ac40e23971541cb44971964aee786743541",
+    "explorations/conditional-build/k2137-point-probe-energy-continuum-2026-10-27.md": "c11b26f0420a50261a9d3670ae354353481a236e269c4272eb5a1df22e91586d"
+  }
+}

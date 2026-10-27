@@ -7,6 +7,11 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2138-graph-holonomy-mass-transport](k2138-graph-holonomy-mass-transport.json).
+- [k2139-finite-weyl-record-obstruction](k2139-finite-weyl-record-obstruction.json).
+- [k2140-point-sites-blind-sectors](k2140-point-sites-blind-sectors.json).
+
+
 - [k2135-full-graph-current-connection](k2135-full-graph-current-connection.json).
 - [k2136-point-probe-recorded-field](k2136-point-probe-recorded-field.json).
 - [k2137-point-probe-energy-continuum](k2137-point-probe-energy-continuum.json).

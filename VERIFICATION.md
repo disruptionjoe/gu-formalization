@@ -7,6 +7,31 @@ updated_at: "2026-10-26"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K2138--K2140: Graph holonomy and finite-protocol detector limits (2026-10-27)
+
+K2138 classifies canonical full-graph holonomy U(8)xU(8), proves the full-chart parallel-mass
+obstruction and constructs a mass-preserving connection with diagonal U(8) holonomy, while
+retaining flat alternatives. K2139 excludes exact dark records and vacuum-preserving information
+for every finite controlled-Weyl protocol, with path-Gram error bounds and an unbounded-ratio
+countercontrol. K2140 proves exact single-point odd-mode blindness and sharp full-record parity
+distance1/sqrt2; two distinct sites remove the all-time complex blind subspace but have no
+uniform angular inverse. All results are conditional internally reviewed mathematics, not raw
+operator completion, finite-time parity control or GU recovery.
+
+- [K2138](explorations/conditional-build/k2138-graph-holonomy-mass-transport-2026-10-27.md).
+- [K2139](explorations/conditional-build/k2139-finite-weyl-record-obstruction-2026-10-27.md).
+- [K2140](explorations/conditional-build/k2140-point-sites-blind-sectors-2026-10-27.md).
+
+Three probes pass 39 finite exact Clifford/curvature/span, Weyl-Gram/moment and spectral/record
+matrix checks and reject 13 altered-input/equation faults. K2138 uses a unitarily equivalent
+spin4 representative and actual inherited-form curvature; arbitrary-K proofs supply the full
+multiplicity8 holonomy. K2139 reconstructs Weyl cocycles/Gram matrices and exact moment
+controls; finite-path separation and limiting statements have independent written proofs. K2140
+checks reflection/fiber matrices and record trace norms; Fock factorization and all-time cyclic
+density use written proofs. Fair-record saturation and variable-metric flat connection are
+reused from K2133/K2135. Finite checks are not continuum proofs; no external review, proof
+assistant, raw1280 exhaustion, complete detector construction, remote CI or novelty claim.
+
 ## K2135--K2137: Full graph connections and stable point-memory measurements (2026-10-27)
 
 K2135 constructs inherited-current compatible connections on the full conserving graph family,

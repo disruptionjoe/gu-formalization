@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "status": "conditional_exact_controls",
+  "exact_checks": {
+    "Clifford_and_unitary_mass": true,
+    "native_graph_metric_at_base": true,
+    "projection_base": true,
+    "full_B_curvature": true,
+    "full_C_curvature": true,
+    "two_plane_coefficient_span": true,
+    "multiplicity_two_curvature_span": true,
+    "principal_and_joint_commutants": true,
+    "mass_conjugation_involution": true,
+    "canonical_mass_not_parallel": true,
+    "mass_average_parallel": true,
+    "averaged_B_curvature": true,
+    "mass_slice_curvature_subtraction": true
+  },
+  "fault_failures": {
+    "wrong_pairing_coefficient": [
+      "full_B_curvature",
+      "full_C_curvature",
+      "two_plane_coefficient_span"
+    ],
+    "drop_adjoint": [
+      "full_B_curvature",
+      "full_C_curvature",
+      "two_plane_coefficient_span",
+      "multiplicity_two_curvature_span",
+      "averaged_B_curvature"
+    ],
+    "one_curvature_plane_only": [
+      "two_plane_coefficient_span"
+    ],
+    "drop_mass_average": [
+      "mass_average_parallel"
+    ],
+    "average_curvature_only": [
+      "mass_slice_curvature_subtraction"
+    ]
+  },
+  "universal_evidence": "Finite exact unitary-equivalent Clifford, curvature and span controls. Universal multiplicity8 holonomy and mass statements follow from the arbitrary-K written proof, not finite witness extrapolation.",
+  "probe_sha256": "244c7d11bfdaea586e047542d8e2d2348b02214046ab5e8b80dfdd61a3c5bc51",
+  "dependency_sha256": {
+    "explorations/conditional-build/k2132-conserving-positive-sector-classification-2026-10-27.md": "2b6029096c6089d2da8695beabbced1802d2914ef2f49aee12147efae3a813d5",
+    "explorations/conditional-build/k2135-full-graph-current-connection-2026-10-27.md": "8cd33a250b029a2840dafddcd06624ce328de70160d5a1166670ff623234a241"
+  }
+}

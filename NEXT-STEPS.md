@@ -7,6 +7,10 @@ updated_at: "2026-10-26"
 
 # Next Steps For Contributors
 
+> **2026-10-27: GRAPH HOLONOMY AND FINITE-PROTOCOL DETECTOR LIMITS.**
+> Compare the complete raw graph tangent system or action/observation selection of a connection with a genuinely number-dependent local detector interaction or an infinite-control limit carrying complete-record and total-resource bounds. Full-chart mass transport now distinguishes canonical and mass-parallel connections; do not infer full holonomy on every spacetime pullback. More finite Weyl pulses cannot give exact vacuum-dark parity, and a second point removes spatial blindness only, not the finite-path obstruction. A frequency-band two-site approximate construction must price its inverse, time, real controls and code preparation. Thermal163 multi-terminal/164 cap31322/32222/3332 global supporting inequalities remain independent; K2085 interval/dimension41 is complete. Retain full20/K-C/accessibility/native2+1/chirality/mirror/fullII/normaljets/near5/4/nonlattice/exact wings. Source, ledger and canon unchanged.
+> Prior banners preserve historical questions; no source or ledger promotion.
+
 > **2026-10-27: FULL GRAPH CONNECTIONS AND STABLE POINT-MEMORY MEASUREMENTS.**
 > Compare the full320 graph raw tangent compatibility with an observation/action reason selecting a changed contraction and connection; current conservation alone leaves flat and nonflat choices. For apparatus pursue an actual parity-capable local interaction or autonomous controller with bounded total resources, and explicit code preparation constants. The supplied1+1 scalar point-memory construction now has stable causal dynamics, full record and finite triangular-pulse second energy moment; do not repeat that gap or call it the fermion-parity target. Thermal163 multi-terminal/164 cap31322/32222/3332 global supporting inequalities remain independent; K2085 interval/dimension41 complete. Retain full20/K-C/accessibility/native2+1/chirality/mirror/fullII/normaljets/near5/4/nonlattice/exact wings. Source, ledger and canon unchanged.
 > Prior banners preserve historical questions; no source or ledger promotion.

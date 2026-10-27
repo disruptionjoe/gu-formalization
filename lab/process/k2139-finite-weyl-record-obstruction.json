@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "status": "conditional_exact_controls",
+  "exact_checks": {
+    "distinct_coherent_vandermonde": true,
+    "noncollinear_weyl_phase": true,
+    "two_path_vacuum_gram": true,
+    "one_photon_symmetric_ratio": true,
+    "one_photon_antisymmetric_ratio": true,
+    "generalized_eigenvectors": true,
+    "weak_two_path_limit": true,
+    "strict_R_less_three_reduction": true,
+    "probability_error_bound_algebra": true,
+    "quadrature_one_photon_normalization": true,
+    "finite_difference_cancellation": true,
+    "contraction_normalization": true,
+    "vacuum_even_moments": true,
+    "one_photon_moment_ratios": true
+  },
+  "fault_failures": {
+    "merge_distinct_paths": [
+      "distinct_coherent_vandermonde"
+    ],
+    "drop_weyl_phase": [
+      "noncollinear_weyl_phase"
+    ],
+    "erase_one_photon_correction": [
+      "one_photon_symmetric_ratio",
+      "one_photon_antisymmetric_ratio",
+      "generalized_eigenvectors"
+    ],
+    "wrong_difference_normalization": [
+      "contraction_normalization"
+    ]
+  },
+  "universal_evidence": "Exact symbolic Weyl-phase, Gram, Vandermonde, finite-difference and Gaussian-moment controls. Universal circuit separation and finite alphabet error proof are written and internally reviewed; no finite test proves all protocols.",
+  "probe_sha256": "73b9c27dce90413c7b7393a77159b1db3833b53d47b48bf6f3130291115397ec",
+  "dependency_sha256": {
+    "explorations/conditional-build/k2136-point-probe-recorded-field-2026-10-27.md": "fa03e4816fed4041d5ce17dd64591ac40e23971541cb44971964aee786743541"
+  }
+}

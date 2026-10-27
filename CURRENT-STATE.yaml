@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 422875569eb2541a78a6ce65865cfd2ec8ee2e22
+revision_basis: 4ad8815e86e8e21e1d8c54319247669174cfaf91
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -58,6 +58,17 @@ reviewed_research_2026_10_26:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2138 classifies canonical full-graph holonomy U(8)xU(8), proves the full-chart
+    parallel-mass obstruction and constructs a mass-preserving connection with diagonal U(8)
+    holonomy, while retaining flat alternatives. K2139 excludes exact dark records and
+    vacuum-preserving information for every finite controlled-Weyl protocol, with path-Gram
+    error bounds and an unbounded-ratio countercontrol. K2140 proves exact single-point odd-mode
+    blindness and sharp full-record parity distance1/sqrt2; two distinct sites remove the
+    all-time complex blind subspace but have no uniform angular inverse. All results are
+    conditional internally reviewed mathematics, not raw operator completion, finite-time parity
+    control or GU recovery.
+
+    Historical predecessor (not live):
     K2135 constructs inherited-current compatible connections on the full conserving graph
     family, proves a nonflat canonical example and a flat compatible countercontrol, and extends
     selected transport with the same H after changing the upper contraction. K2136 constructs a
@@ -16888,6 +16899,9 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k2138-graph-holonomy-mass-transport-2026-10-27.md
+    - explorations/conditional-build/k2139-finite-weyl-record-obstruction-2026-10-27.md
+    - explorations/conditional-build/k2140-point-sites-blind-sectors-2026-10-27.md
     - explorations/conditional-build/k2135-full-graph-current-connection-2026-10-27.md
     - explorations/conditional-build/k2136-point-probe-recorded-field-2026-10-27.md
     - explorations/conditional-build/k2137-point-probe-energy-continuum-2026-10-27.md
@@ -18389,6 +18403,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which raw-compatible graph transport or source-selected connection survives, and what actual
+  non-Weyl or controlled-limit local dynamics can realize the full parity record on a nonblind
+  finite-energy code?
+
+  Historical predecessor (not live):
   Which full-family graph motions are compatible with the actual raw operator, and can a
   parity-capable or autonomously controlled local apparatus meet explicit preparation and
   total-resource constraints?
@@ -22217,6 +22236,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Compare the complete raw graph tangent system or action/observation selection of a connection
+  with a genuinely number-dependent local detector interaction or an infinite-control limit
+  carrying complete-record and total-resource bounds. Full-chart mass transport now
+  distinguishes canonical and mass-parallel connections; do not infer full holonomy on every
+  spacetime pullback. More finite Weyl pulses cannot give exact vacuum-dark parity, and a second
+  point removes spatial blindness only, not the finite-path obstruction. A frequency-band
+  two-site approximate construction must price its inverse, time, real controls and code
+  preparation. Thermal163 multi-terminal/164 cap31322/32222/3332 global supporting inequalities
+  remain independent; K2085 interval/dimension41 is complete. Retain
+  full20/K-C/accessibility/native2+1/chirality/mirror/fullII/normaljets/near5/4/nonlattice/exact
+  wings. Source, ledger and canon unchanged.
+
+  Historical predecessor (not live):
   Compare the full320 graph raw tangent compatibility with an observation/action reason
   selecting a changed contraction and connection; current conservation alone leaves flat and
   nonflat choices. For apparatus pursue an actual parity-capable local interaction or autonomous

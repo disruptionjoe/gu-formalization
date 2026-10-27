@@ -7,6 +7,11 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2138-graph-holonomy-mass-transport](conditional-build/k2138-graph-holonomy-mass-transport-2026-10-27.md).
+- [k2139-finite-weyl-record-obstruction](conditional-build/k2139-finite-weyl-record-obstruction-2026-10-27.md).
+- [k2140-point-sites-blind-sectors](conditional-build/k2140-point-sites-blind-sectors-2026-10-27.md).
+
+
 - [k2135-full-graph-current-connection](conditional-build/k2135-full-graph-current-connection-2026-10-27.md).
 - [k2136-point-probe-recorded-field](conditional-build/k2136-point-probe-recorded-field-2026-10-27.md).
 - [k2137-point-probe-energy-continuum](conditional-build/k2137-point-probe-energy-continuum-2026-10-27.md).
