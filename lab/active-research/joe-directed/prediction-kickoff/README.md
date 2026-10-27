@@ -57,4 +57,3 @@ equations are reused as prior art. New repository derivations make no claim
 of external mathematical novelty. The
 [pending evidence delta](../../../process/conditional-evidence-deltas/gu-prediction-kickoff-2026-10-27.json)
 changes no ledger verdict or canon claim.
-
