@@ -7,6 +7,11 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2144-raw-neighborhood-rank-budget](conditional-build/k2144-raw-neighborhood-rank-budget-2026-10-27.md).
+- [k2145-parity-causal-duration](conditional-build/k2145-parity-causal-duration-2026-10-27.md).
+- [k2146-fixed-support-parity-ultraviolet](conditional-build/k2146-fixed-support-parity-ultraviolet-2026-10-27.md).
+
+
 - [k2141-full-graph-raw-tangent](conditional-build/k2141-full-graph-raw-tangent-2026-10-27.md).
 - [k2142-finite-time-real-control](conditional-build/k2142-finite-time-real-control-2026-10-27.md).
 - [k2143-local-canonical-parity](conditional-build/k2143-local-canonical-parity-2026-10-27.md).

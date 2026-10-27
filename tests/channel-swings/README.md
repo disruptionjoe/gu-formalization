@@ -1,5 +1,10 @@
 # Pre-contract wave probes
 
+- [k2144-raw-neighborhood-rank-budget](k2144_raw_neighborhood_rank_budget_probe.py).
+- [k2145-parity-causal-duration](k2145_parity_causal_duration_probe.py).
+- [k2146-fixed-support-parity-ultraviolet](k2146_fixed_support_parity_ultraviolet_probe.py).
+
+
 - [k2141-full-graph-raw-tangent](k2141_full_graph_raw_tangent_probe.py).
 - [k2142-finite-time-real-control](k2142_finite_time_real_control_probe.py).
 - [k2143-local-canonical-parity](k2143_local_canonical_parity_probe.py).

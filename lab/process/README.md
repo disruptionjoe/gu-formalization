@@ -7,6 +7,11 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2144-raw-neighborhood-rank-budget](k2144-raw-neighborhood-rank-budget.json).
+- [k2145-parity-causal-duration](k2145-parity-causal-duration.json).
+- [k2146-fixed-support-parity-ultraviolet](k2146-fixed-support-parity-ultraviolet.json).
+
+
 - [k2141-full-graph-raw-tangent](k2141-full-graph-raw-tangent.json).
 - [k2142-finite-time-real-control](k2142-finite-time-real-control.json).
 - [k2143-local-canonical-parity](k2143-local-canonical-parity.json).

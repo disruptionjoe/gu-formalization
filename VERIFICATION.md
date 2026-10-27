@@ -7,6 +7,38 @@ updated_at: "2026-10-26"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K2144--K2146: Nearby raw obstruction and parity resource tradeoffs (2026-10-27)
+
+K2144 proves at least1277 joint first-jet obstructions persist near P0: the
+admissible1280-dimensional jet space has dimension at most3, using the13 universal raw
+coefficients and the inherited complete rank certificate. A focused556-column replay extracts
+the three extra P0 directions and rejects every fixed combination at a distinct noncircle
+sector, proving exactly13 fixed universal homogeneous coefficients; moving kernels remain open.
+It strengthens no-departure to path-integrable coefficient cost while rejecting unjustified
+neighborhood rigidity. K2145 derives a finite-energy recorded-channel error bound before
+communication time, an unrestricted half-diamond lower bound1/4 and a fixed-profile dilation
+noise-duration law, with an honest finite-chain gate countercontrol. K2146 proves fixed-support
+high-frequency parity smears have vacuum response O(K^-2) and unread field energy O(K^-1), while
+rare-outcome energy grows as2K. The observable changes with frequency; no source-selected
+quotient, causal detector, total controller-work bound or GU recovery.
+
+- [K2144](explorations/conditional-build/k2144-raw-neighborhood-rank-budget-2026-10-27.md).
+- [K2145](explorations/conditional-build/k2145-parity-causal-duration-2026-10-27.md).
+- [K2146](explorations/conditional-build/k2146-fixed-support-parity-ultraviolet-2026-10-27.md).
+
+Three probes pass 46 finite exact checks and reject 17 actual altered-input/equation faults.
+K2144 reuses pinned K2141/K2028 rank and completeness certificates rather than rerunning the
+large bank, reconstructs all13 core images, and checks actual native current/commutant transfer
+and scalar rank-jump controls. A new focused556-column coset replay computes and verifies its
+seven raw kernel vectors, four universal directions and three extras, with eight original
+contraction checks and exact noncircle restricted residual rank3; it does not replay the
+full32-coset target bank. K2145 checks reflection, Weyl phases, energy exponents, adjacent
+Givens composition and a complete recorded map with a reference. K2146 checks symbolic moment
+coefficients, exact finite spectra and branch-energy accounting. Neighborhood continuity,
+path-integrability, channel lower bounds and compact Fourier asymptotics are independently
+reviewed written proofs, not conclusions from finite sampling. No external-expert certification,
+proof assistant, remote CI, microscopic apparatus or novelty claim.
+
 ## K2141--K2143: Full raw tangent obstruction and finite-time/local-parity limits (2026-10-27)
 
 K2141 exhausts all1280 real graph first jets at P0 against the complete16620-real-coefficient

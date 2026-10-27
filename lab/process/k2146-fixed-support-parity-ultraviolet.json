@@ -1,0 +1,44 @@
+{
+  "result_id": "K2146",
+  "status": "conditional_exact_controls",
+  "exact_checks": {
+    "real_envelope_odd_cancellation": true,
+    "a1_coefficient": true,
+    "inverse_moment_coefficient": true,
+    "A_leading_excess": true,
+    "energy_cancellation": true,
+    "probability_quarter": true,
+    "rare_particle_count": true,
+    "exact_two_frequency_A": true,
+    "exact_two_frequency_energy": true,
+    "rational_finite_branch_values": true,
+    "weighted_branch_energy": true,
+    "monochromatic_zero_probability": true,
+    "noise_conditional_energy_limit": true,
+    "mean_conditional_energy_limit": true
+  },
+  "fault_failures": {
+    "inverse-moment": [
+      "A_leading_excess",
+      "energy_cancellation"
+    ],
+    "vacuum-half": [
+      "probability_quarter"
+    ],
+    "energy-cross": [
+      "energy_cancellation"
+    ],
+    "branch-normalization": [
+      "rational_finite_branch_values",
+      "weighted_branch_energy"
+    ],
+    "lobe-odd-moment": [
+      "real_envelope_odd_cancellation"
+    ]
+  },
+  "universal_evidence": "Exact symbolic two-lobe moment coefficients, finite spectral countercontrols and complete branch-energy accounting. Compact Fourier tails and fixed-envelope asymptotic claims have written proof; no finite sample certifies continuum support or causality.",
+  "probe_sha256": "0ad052fa8285de66e5033339d4115a6ad2ebf1949595a009c85b14c257a8e7cd",
+  "dependency_sha256": {
+    "explorations/conditional-build/k2143-local-canonical-parity-2026-10-27.md": "7ea0372d9f93587b07b2b38cf5149ff47dd948e76db9757dae928660d8e83a9d"
+  }
+}

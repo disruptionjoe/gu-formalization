@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f187df16e8e7fd78e7f4882326c8513b96131f45
+revision_basis: ccc6a3c1b9f92aba569fd2f64411bbba61953980
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -58,6 +58,21 @@ reviewed_research_2026_10_26:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2144 proves at least1277 joint first-jet obstructions persist near P0: the
+    admissible1280-dimensional jet space has dimension at most3, using the13 universal raw
+    coefficients and the inherited complete rank certificate. A focused556-column replay
+    extracts the three extra P0 directions and rejects every fixed combination at a distinct
+    noncircle sector, proving exactly13 fixed universal homogeneous coefficients; moving kernels
+    remain open. It strengthens no-departure to path-integrable coefficient cost while rejecting
+    unjustified neighborhood rigidity. K2145 derives a finite-energy recorded-channel error
+    bound before communication time, an unrestricted half-diamond lower bound1/4 and a
+    fixed-profile dilation noise-duration law, with an honest finite-chain gate countercontrol.
+    K2146 proves fixed-support high-frequency parity smears have vacuum response O(K^-2) and
+    unread field energy O(K^-1), while rare-outcome energy grows as2K. The observable changes
+    with frequency; no source-selected quotient, causal detector, total controller-work bound or
+    GU recovery.
+
+    Historical predecessor (not live):
     K2141 exhausts all1280 real graph first jets at P0 against the
     complete16620-real-coefficient raw upper class, with no lower-return constraints: rational
     and mod101 obstruction rank1280, zero survivors. A smooth native-equation/Gronwall argument
@@ -16912,6 +16927,9 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k2144-raw-neighborhood-rank-budget-2026-10-27.md
+    - explorations/conditional-build/k2145-parity-causal-duration-2026-10-27.md
+    - explorations/conditional-build/k2146-fixed-support-parity-ultraviolet-2026-10-27.md
     - explorations/conditional-build/k2141-full-graph-raw-tangent-2026-10-27.md
     - explorations/conditional-build/k2142-finite-time-real-control-2026-10-27.md
     - explorations/conditional-build/k2143-local-canonical-parity-2026-10-27.md
@@ -18419,6 +18437,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Do the three possible raw rank jumps admit actual moving-sector jets, and can one fixed
+  signal/code be measured causally with bounded preparation and rare-outcome resources rather
+  than reduced vacuum baseline alone?
+
+  Historical predecessor (not live):
   Which distinct raw sector or structure-preserving transport survives the P0 no-departure
   theorem, and what causal finite-duration dynamics realizes a useful complete parity record
   with quantified field and controller resources?
@@ -22257,6 +22280,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Compute the moving-kernel prolongation or full common1280 target compatibility at a genuinely
+  distinct sector: the three fixed extra P0 directions have now been extracted and excluded from
+  universal transport; the nearby at-most3 jet-space bound does not establish nonzero jets or an
+  integrable distribution. For parity, prioritize a fixed named signal/code and an actual local
+  finite-duration controller with complete recorded error and preparation resources: modulation
+  changes the observable and its rare-outcome energy diverges, so diminishing vacuum baseline
+  alone is not useful detector performance. Dilation duration bounds are profile-specific and do
+  not transfer to fixed-support modulation. Thermal163 multi-terminal/164 cap31322/32222/3332
+  global supporting inequalities remain the independent alternative; K2085 interval/dimension41
+  settled. Retain
+  full20/K-C/accessibility/native2+1/chirality/mirror/fullII/normaljets/near5/4/nonlattice/exact
+  wings. Source, ledger and canon unchanged.
+
+  Historical predecessor (not live):
   Compare a genuinely different raw base sector or structural transport preserving the
   coefficient class with a finite-duration causal implementation of local canonical parity, or
   quantitative shell-code approximation carrying complete-record and total-resource error.

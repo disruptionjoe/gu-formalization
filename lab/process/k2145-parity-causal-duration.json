@@ -1,0 +1,44 @@
+{
+  "result_id": "K2145",
+  "status": "conditional_exact_controls",
+  "exact_checks": {
+    "unit_normalization": true,
+    "canonical_reflection": true,
+    "disjoint_source_receiver": true,
+    "exact_transmitted_phase": true,
+    "weyl_signal_modulus": true,
+    "finite_energy_budget": true,
+    "error_exponent_32": true,
+    "adjacent_givens_exact_mode": true,
+    "gather_parity_undo": true,
+    "record_completeness": true,
+    "full_record_reference_trace": true,
+    "unread_reference_channel": true
+  },
+  "fault_failures": {
+    "reflection-factor": [
+      "canonical_reflection",
+      "exact_transmitted_phase"
+    ],
+    "signal-half": [
+      "weyl_signal_modulus"
+    ],
+    "energy-factor": [
+      "finite_energy_budget",
+      "error_exponent_32"
+    ],
+    "gate-inverse": [
+      "gather_parity_undo"
+    ],
+    "record-cross": [
+      "record_completeness",
+      "full_record_reference_trace",
+      "unread_reference_channel"
+    ]
+  },
+  "universal_evidence": "Exact finite symplectic reflection, Weyl-phase, energy-exponent, Givens and complete-record matrix controls. Causal duration/channel norms and continuum energy follow the independently reviewed written argument, not matrix extrapolation.",
+  "probe_sha256": "771fbc58963128ee10c8e889c08aa909dd6f6be0dfa0506284cf4f8a8da244ca",
+  "dependency_sha256": {
+    "explorations/conditional-build/k2143-local-canonical-parity-2026-10-27.md": "7ea0372d9f93587b07b2b38cf5149ff47dd948e76db9757dae928660d8e83a9d"
+  }
+}
