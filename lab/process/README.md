@@ -7,6 +7,10 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2117-coherent-pulse-phase](k2117-coherent-pulse-phase.json).
+- [k2118-controller-locality](k2118-controller-locality.json).
+- [k2119-distributed-controller-errors](k2119-distributed-controller-errors.json).
+
 - [k2114-binary-lueders-causality](k2114-binary-lueders-causality.json).
 - [k2115-exact-pulse-excitation-bound](k2115-exact-pulse-excitation-bound.json).
 - [k2116-distributed-coherent-readout](k2116-distributed-coherent-readout.json).

@@ -7,6 +7,10 @@ updated_at: "2026-10-26"
 
 # Next Steps For Contributors
 
+> **2026-10-26: COHERENT CONTROL REQUIRES PHASE AND LOCAL APPARATUS.**
+> Compare a source-compatible observed neutral algebra on the actual K2021/K2022 transported128 core and full1920 operator with a local quantum probe-field controller for the K2115 pulse. The source attempt must name the same observation, pairing and closed domain and check simultaneous operator compatibility; transported positive core alone is already known. The apparatus attempt must construct a phase-fixed local interaction/domain, not another controlled endpoint or supplied cat circuit. Thermal163 multi-terminal/164 cap-path31322/32222/3332 global supporting inequalities remain the independent outlier. Reuse K2117-19 phase/locality/error requirements, K2115 quiet endpoints, K2021 R0/R1, K2085 interval/dimension41; retain full20/K-C/accessibility, native2+1/chirality, mirror/fullII/normaljets and near5/4/nonlattice/exact wings.
+> Prior banners preserve historical questions; no source or ledger promotion.
+
 > **2026-10-26: EXACT QUIET-FIELD TRANSFER AND CAUSAL READOUT RESOURCES.**
 > Construct a physically local controlled reflection on the distributed captured massive code, with energy-domain and causal record collection estimates; compare against the source-selected observed neutral algebra/domain on9.16 and thermal163/164 cap-path31322/32222/3332 supporting inequalities. Reuse K2115 exact synchronized pulse and full-field fixed-vacuum code bounds, K2114 causal classification and K2116 supplied-gate resource theorem. Do not repeat finite funnels, Born-only suppression or abstract Bell circuits. The new global field result fixes vacuum spectators; arbitrary spectator restoration and total controller energy remain open. Retain K2021 R0/R1, K2085 interval/dimension41, full20/K-C/accessibility, native2+1/chirality, mirror/fullII/normaljets, near5/4/nonlattice/exact wings.
 > Prior banners preserve historical questions; no source or ledger promotion.

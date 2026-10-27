@@ -7,6 +7,30 @@ updated_at: "2026-10-26"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K2117--K2119: Phase-sensitive control and distributed apparatus locality (2026-10-26)
+
+K2117 proves phase-calibrated controlled finite-code endpoint bounds and sharp phase-
+blindness/noise limits; identical unconditioned field channels can give opposite records.
+K2118 proves the sharp shared-controller commutant defect, an explicit signalling lower
+bound and conditional causal preparation/collection bounds. K2119 derives exact complete
+distributed-cat instrument error sqrt((p-1/2)^2+abs(z-1/2)^2), separating unread and label
+errors, and releases phase accumulation, independent noise scaling, leakage and resource
+bounds. Actual local continuum control, phase-fixed Fock generator, controller work, source
+selection and GU recovery remain open; supplied finite gates and endpoint control are
+conditional inputs.
+
+- [K2117](explorations/conditional-build/k2117-coherent-pulse-phase-2026-10-26.md).
+- [K2118](explorations/conditional-build/k2118-controller-locality-2026-10-26.md).
+- [K2119](explorations/conditional-build/k2119-distributed-controller-errors-2026-10-26.md).
+
+Three exact SymPy1.14.0 probes pass clean baselines and reject20 genuine
+input/machinery/reference faults (8/6/6). They inspect controlled CAR gates, complex phase
+visibility, exterior signs, commutators, signalling witnesses and an actual three-site
+apparatus contraction on a specified two-dimensional system witness. They do not exhaust all
+system matrix units. Universal operator, instrument, reference and resource statements rest
+on independently reviewed written proofs; finite controls, process checks, external
+expertise and proof-assistant certification remain distinct.
+
 ## K2114--K2116: Causal readout and exact quiet-field transfer (2026-10-26)
 
 K2114 classifies finite binary Lueders channels by product reflections and proves the exact

@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "status": "internally_reviewed_conditional_mathematics",
+  "artifact": "k2117-coherent-pulse-phase",
+  "source_effect": "none",
+  "ledger_effect": "none",
+  "canon_effect": "none",
+  "evidence": "explorations/conditional-build/k2117-coherent-pulse-phase-2026-10-26.md",
+  "probe": "tests/channel-swings/k2117_coherent_pulse_phase_probe.py",
+  "claim_ceiling": "Imported conditional mathematics; supplied endpoint coherent control/local finite gates, no constructed local continuum controller, source physics, controller work budget or novelty.",
+  "evidence_kinds": [
+    "written analytic proof",
+    "exact finite/data controls",
+    "independent internal specialist review"
+  ],
+  "fault_count": 8,
+  "conclusion": "K2117 proves phase-calibrated controlled finite-code endpoint bounds and sharp phase-blindness/noise limits; identical unconditioned field channels can give opposite records. K2118 proves the sharp shared-controller commutant defect, an explicit signalling lower bound and conditional causal preparation/collection bounds. K2119 derives exact complete distributed-cat instrument error sqrt((p-1/2)^2+abs(z-1/2)^2), separating unread and label errors, and releases phase accumulation, independent noise scaling, leakage and resource bounds. Actual local continuum control, phase-fixed Fock generator, controller work, source selection and GU recovery remain open; supplied finite gates and endpoint control are conditional inputs."
+}

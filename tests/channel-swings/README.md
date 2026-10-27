@@ -542,6 +542,10 @@ the ledger probe uses the standard Python interpreter.
 
 # Selected-Shiab observed-receiver probes
 
+- [k2117_coherent_pulse_phase_probe](k2117_coherent_pulse_phase_probe.py).
+- [k2118_controller_locality_probe](k2118_controller_locality_probe.py).
+- [k2119_distributed_controller_errors_probe](k2119_distributed_controller_errors_probe.py).
+
 - [k2114_binary_lueders_causality_probe](k2114_binary_lueders_causality_probe.py).
 - [k2115_exact_pulse_excitation_bound_probe](k2115_exact_pulse_excitation_bound_probe.py).
 - [k2116_distributed_coherent_readout_probe](k2116_distributed_coherent_readout_probe.py).

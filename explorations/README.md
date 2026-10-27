@@ -7,6 +7,10 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2117-coherent-pulse-phase](conditional-build/k2117-coherent-pulse-phase-2026-10-26.md).
+- [k2118-controller-locality](conditional-build/k2118-controller-locality-2026-10-26.md).
+- [k2119-distributed-controller-errors](conditional-build/k2119-distributed-controller-errors-2026-10-26.md).
+
 - [k2114-binary-lueders-causality](conditional-build/k2114-binary-lueders-causality-2026-10-26.md).
 - [k2115-exact-pulse-excitation-bound](conditional-build/k2115-exact-pulse-excitation-bound-2026-10-26.md).
 - [k2116-distributed-coherent-readout](conditional-build/k2116-distributed-coherent-readout-2026-10-26.md).
