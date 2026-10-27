@@ -1,0 +1,42 @@
+{
+  "result_id": "K2121",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "exact_checks": {
+    "actual-pair-preparation-unitary": true,
+    "even-Gaussian-input": true,
+    "ideal-branch-states": true,
+    "actual-BCS-Pfaffian": true,
+    "paired-AMGM": true,
+    "all256-matrix-units-two-records": true,
+    "sharp-witness-half": true,
+    "exact-sharp-trace-distance": true
+  },
+  "fault_failures": {
+    "missing-second-pair": [
+      "even-Gaussian-input",
+      "ideal-branch-states",
+      "exact-sharp-trace-distance"
+    ],
+    "wrong-system-mode": [
+      "ideal-branch-states",
+      "all256-matrix-units-two-records",
+      "exact-sharp-trace-distance"
+    ],
+    "branch-phase": [
+      "ideal-branch-states"
+    ],
+    "crossing-sign": [
+      "actual-BCS-Pfaffian"
+    ],
+    "coherent-fine-outcomes": [
+      "all256-matrix-units-two-records"
+    ],
+    "wrong-record": [
+      "sharp-witness-half"
+    ]
+  },
+  "half_diamond_optimum": "1/2",
+  "scope": "Finite CAR witnesses and full matrix-unit sharpness. Adaptive Gaussian closure and universal bound use attributed/written proof; no GU claim."
+}

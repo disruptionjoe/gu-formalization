@@ -1,0 +1,50 @@
+{
+  "result_id": "K2122",
+  "status": "active_research",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "exact_checks": {
+    "bounded-quartic-spectrum": true,
+    "unitary": true,
+    "actual-Kraus": true,
+    "all16-system-matrix-units": true,
+    "energy-product-commutator": true,
+    "separated-support-signal": true,
+    "probe-reflection": true,
+    "transported-readout": true,
+    "unread-measurement-energy": true,
+    "area-error-norm": true
+  },
+  "fault_failures": {
+    "omit-second-system": [
+      "bounded-quartic-spectrum",
+      "actual-Kraus",
+      "all16-system-matrix-units",
+      "area-error-norm"
+    ],
+    "quadratic-substitute": [
+      "bounded-quartic-spectrum",
+      "actual-Kraus",
+      "all16-system-matrix-units",
+      "energy-product-commutator",
+      "separated-support-signal",
+      "area-error-norm"
+    ],
+    "pulse-area": [
+      "actual-Kraus",
+      "all16-system-matrix-units",
+      "separated-support-signal"
+    ],
+    "probe-coherence": [
+      "actual-Kraus",
+      "all16-system-matrix-units"
+    ],
+    "omit-product-term": [
+      "energy-product-commutator"
+    ],
+    "frozen-readout": [
+      "transported-readout"
+    ]
+  },
+  "scope": "Actual finite regional quartic instrument; continuum common-domain and energy claims rely on written proof. Separated-support version signals; not local-density dynamics."
+}

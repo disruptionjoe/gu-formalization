@@ -7,6 +7,10 @@ updated_at: "2026-10-26"
 
 # Next Steps For Contributors
 
+> **2026-10-27: SAME-CURRENT POSITIVE SECTOR AND NON-GAUSSIAN READOUT.**
+> Test whether actual observed connection/gauge/lower-order data preserve K2120 P32 or any member of its maximal positive-current family, with the SAME pairing and a common domain; invariant restriction is not an all-state full1920 quotient. Reuse K2021 R0/R1 and K2022 full mass defect. Independently construct a genuinely causal local-density nonlinear probe interaction or transported mediator beyond K2122 regional smearing; Gaussian-only recorded parity has the exact K2121 error floor, while unread parity remains Gaussian-mixture realizable. Compare thermal163 multi-terminal/164 cap-path31322/32222/3332 global supporting inequalities; K2085 interval/dimension41 is complete. Retain full20/K-C/accessibility, native2+1/chirality, mirror/fullII/normaljets, near5/4/nonlattice/exact wings. Do not repeat common duality, supplied finite cat circuits or the already exact pulse theorem.
+> Prior banners preserve historical questions; no source or ledger promotion.
+
 > **2026-10-26: COHERENT CONTROL REQUIRES PHASE AND LOCAL APPARATUS.**
 > Compare a source-compatible observed neutral algebra on the actual K2021/K2022 transported128 core and full1920 operator with a local quantum probe-field controller for the K2115 pulse. The source attempt must name the same observation, pairing and closed domain and check simultaneous operator compatibility; transported positive core alone is already known. The apparatus attempt must construct a phase-fixed local interaction/domain, not another controlled endpoint or supplied cat circuit. Thermal163 multi-terminal/164 cap-path31322/32222/3332 global supporting inequalities remain the independent outlier. Reuse K2117-19 phase/locality/error requirements, K2115 quiet endpoints, K2021 R0/R1, K2085 interval/dimension41; retain full20/K-C/accessibility, native2+1/chirality, mirror/fullII/normaljets and near5/4/nonlattice/exact wings.
 > Prior banners preserve historical questions; no source or ledger promotion.

@@ -7,6 +7,33 @@ updated_at: "2026-10-26"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K2120--K2122: Inherited positive current and nonGaussian readout (2026-10-27)
+
+K2120 computes the actual inherited core pairing/current, both neutral64/64, and constructs
+an explicit maximal complex32 subspace invariant under all three principal generators and
+fixed nonzero mass with strictly positive SAME current9/280. A continuous family survives;
+fixed R3/torus H1 dynamics and a separately supplied CAR algebra are compatible, but not a
+source-selected quotient or full1920 mass repair. K2121 proves the exact1/2 half-diamond
+error floor for the recorded two-mode parity instrument under adaptive Gaussian ancillas,
+quadratic controls, occupation measurements and classical mixing. K2122 constructs a phase-
+fixed bounded regional quartic CAR instrument, finite-energy factor preparation, common
+domain and pulse-plus-unread-measurement energy bound. Its separated-support version
+explicitly signals; point-local causal dynamics remain unbuilt. Source/ledger/canon and GU
+recovery are unchanged.
+
+- [K2120](explorations/conditional-build/k2120-inherited-core-current-2026-10-27.md).
+- [K2121](explorations/conditional-build/k2121-adaptive-gaussian-parity-2026-10-27.md).
+- [K2122](explorations/conditional-build/k2122-regional-quartic-readout-2026-10-27.md).
+
+Three SymPy1.14.0/exact-rational probes pass57 clean checks and reject19 genuine input or
+machinery faults (7/6/6). Source reconstruction uses stored native injections/current and
+tests the actual complex projector. Apparatus probes inspect actual quadratic/quartic CAR
+gates, all256 four-mode matrix units for Gaussian sharpness, all16 system matrix units for
+quartic readout, transported probe measurement, energy commutators and explicit signalling.
+Universal maximality, adaptive Gaussian and infinite-domain claims rest on written proofs
+and independent internal specialist review; finite controls, process checks, external review
+and proof-assistant certification remain distinct.
+
 ## K2117--K2119: Phase-sensitive control and distributed apparatus locality (2026-10-26)
 
 K2117 proves phase-calibrated controlled finite-code endpoint bounds and sharp phase-

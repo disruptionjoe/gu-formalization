@@ -7,6 +7,10 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2120-inherited-core-current](k2120-inherited-core-current.json).
+- [k2121-adaptive-gaussian-parity](k2121-adaptive-gaussian-parity.json).
+- [k2122-regional-quartic-readout](k2122-regional-quartic-readout.json).
+
 - [k2117-coherent-pulse-phase](k2117-coherent-pulse-phase.json).
 - [k2118-controller-locality](k2118-controller-locality.json).
 - [k2119-distributed-controller-errors](k2119-distributed-controller-errors.json).

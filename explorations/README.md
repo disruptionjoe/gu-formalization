@@ -7,6 +7,10 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2120-inherited-core-current](conditional-build/k2120-inherited-core-current-2026-10-27.md).
+- [k2121-adaptive-gaussian-parity](conditional-build/k2121-adaptive-gaussian-parity-2026-10-27.md).
+- [k2122-regional-quartic-readout](conditional-build/k2122-regional-quartic-readout-2026-10-27.md).
+
 - [k2117-coherent-pulse-phase](conditional-build/k2117-coherent-pulse-phase-2026-10-26.md).
 - [k2118-controller-locality](conditional-build/k2118-controller-locality-2026-10-26.md).
 - [k2119-distributed-controller-errors](conditional-build/k2119-distributed-controller-errors-2026-10-26.md).
