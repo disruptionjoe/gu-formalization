@@ -7,6 +7,30 @@ updated_at: "2026-10-26"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K2108--K2110: Local detector limits and controlled approximations (2026-10-26)
+
+K2108 applies the known local-detector responsivity inequality to exact error budgets,
+proves the global-vacuum-preserving local Kraus-channel restriction, and distinguishes
+fixed-algebra limits from growing-region approximations. K2109 derives finite compact-
+switching massive scalar vacuum response, uniform absolute one-particle noise bounds and
+subthreshold adiabatic signal loss. K2110 constructs energy-filtered almost-local effects
+with low-energy silence, finite-region noise/signal bounds and all-reference complete
+recorded-instrument convergence. These are conditional imported positive-Hilbert results,
+with prior art attributed; no source-selected GU dynamics, capture Hamiltonian, universal
+detector floor or novelty is claimed.
+
+- [K2108](explorations/conditional-build/k2108-local-detector-tradeoffs-2026-10-26.md).
+- [K2109](explorations/conditional-build/k2109-finite-switching-response-2026-10-26.md).
+- [K2110](explorations/conditional-build/k2110-almost-local-instruments-2026-10-26.md).
+
+Three exact SymPy1.14.0 probes pass clean baselines and reject18 genuine input/machinery
+faults, six each. Controls include faithful Schmidt states, global dephasing, an exact error
+root and abstract sharpness; Fourier/Gaussian integrals, radial measure, tail constants and
+complex two-mode bosonic response; spectral transfer, low-energy silence, two-sided tails,
+product bounds and retained instrument coherence. Written universal proofs and three
+independent internal specialist reviews remain distinct from finite controls, external
+expertise and proof-assistant certification.
+
 ## K2105--K2107: Nonnegative mediator and observable-domain limits (2026-10-26)
 
 K2105 constructs a nonnegative covariant-kinetic parity mediator with exact all-energy

@@ -7,6 +7,10 @@ updated_at: "2026-10-26"
 
 # Next Steps For Contributors
 
+> **2026-10-26: LOCAL DETECTOR LIMITS AND CONTROLLED APPROXIMATIONS.**
+> Compare an actual source-selected observed neutral algebra and strongly compatible domain on equation9.16 with a genuinely local massive-field-to-register capture Hamiltonian, and new thermal163 multi-terminal or164 cap-path31322/32222/3332 supporting inequalities. Use K2108 fixed-region and global-vacuum distinctions, K2109 scalar perturbative signal/noise budget and K2110 growing-region instrument approximation as acceptance constraints, not a supplied apparatus. Do not rederive the known Reeh-Schlieder/Falcone-Conti bound, K2080 CAR cutoff, or standard energy-filter construction. Retain K2021 maps, K2085 closed interval/dimension41, full20/K-C/accessibility, native2+1/chirality, mirror/fullII/normaljets, near5/4, nonlattice and exact cap-preserving wings.
+> Prior banners preserve historical questions; no source or ledger promotion.
+
 > **2026-10-26: NONNEGATIVE MEDIATOR AND OBSERVABLE-DOMAIN LIMITS.**
 > Compare a genuinely local massive-field-to-register capture construction with a source-selected observed neutral algebra and strongly compatible domain on equation9.16, against new thermal163 multi-terminal or164 cap-path31322/32222/3332 inequalities. The nonnegative nonrelativistic mediator, unbounded neutral classification and fixed-preparation waiting floor are completed evidence. A new causal apparatus must supply its own propagation, preparation, local capture and domain bridge; positive energy alone does not do so. Retain K2085 closed interval/dimension41, full20/K-C/accessibility, native2+1/chirality, mirror/fullII/normaljets, near5/4, nonlattice and exact cap-preserving wings.
 > Prior banners preserve historical questions; no source or ledger promotion.

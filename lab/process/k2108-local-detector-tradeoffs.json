@@ -1,0 +1,21 @@
+{
+  "id": "K2108",
+  "status": "internally_reviewed_conditional_mathematics",
+  "note": "explorations/conditional-build/k2108-local-detector-tradeoffs-2026-10-26.md",
+  "probe": "tests/channel-swings/k2108_local_detector_tradeoffs_probe.py",
+  "source_polarity": {
+    "SC-OP-04": "ASSERTS",
+    "SC-OP-05": "UNCERTAIN",
+    "SC-META-53": "UNCERTAIN",
+    "SC-META-56": "DISAVOWS"
+  },
+  "ledger_effect": "none; imported detector/algebra assumptions",
+  "claim_ceiling": "conditional mathematics; no source selection, capture apparatus or GU recovery",
+  "evidence_kinds": [
+    "written analytic proof",
+    "exact finite/data controls",
+    "independent internal specialist review"
+  ],
+  "fault_count": 6,
+  "conclusion": "K2108 applies the known local-detector responsivity inequality to exact error budgets, proves the global-vacuum-preserving local Kraus-channel restriction, and distinguishes fixed-algebra limits from growing-region approximations. K2109 derives finite compact-switching massive scalar vacuum response, uniform absolute one-particle noise bounds and subthreshold adiabatic signal loss. K2110 constructs energy-filtered almost-local effects with low-energy silence, finite-region noise/signal bounds and all-reference complete recorded-instrument convergence. These are conditional imported positive-Hilbert results, with prior art attributed; no source-selected GU dynamics, capture Hamiltonian, universal detector floor or novelty is claimed."
+}

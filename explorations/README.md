@@ -7,6 +7,10 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2108-local-detector-tradeoffs](conditional-build/k2108-local-detector-tradeoffs-2026-10-26.md).
+- [k2109-finite-switching-response](conditional-build/k2109-finite-switching-response-2026-10-26.md).
+- [k2110-almost-local-instruments](conditional-build/k2110-almost-local-instruments-2026-10-26.md).
+
 - [k2105-semibounded-parity-mediator](conditional-build/k2105-semibounded-parity-mediator-2026-10-26.md).
 - [k2106-neutral-unbounded-domains](conditional-build/k2106-neutral-unbounded-domains-2026-10-26.md).
 - [k2107-parity-arrival-resources](conditional-build/k2107-parity-arrival-resources-2026-10-26.md).

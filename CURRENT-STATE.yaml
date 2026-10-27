@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: ad6140e8fd0159fa11f00b65256839efc5d88b51
+revision_basis: a98f7fa50c37096ee61fb2c0735715631ca47842
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -58,6 +58,17 @@ reviewed_research_2026_10_26:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2108 applies the known local-detector responsivity inequality to exact error budgets,
+    proves the global-vacuum-preserving local Kraus-channel restriction, and distinguishes
+    fixed-algebra limits from growing-region approximations. K2109 derives finite compact-
+    switching massive scalar vacuum response, uniform absolute one-particle noise bounds and
+    subthreshold adiabatic signal loss. K2110 constructs energy-filtered almost-local effects
+    with low-energy silence, finite-region noise/signal bounds and all-reference complete
+    recorded-instrument convergence. These are conditional imported positive-Hilbert results,
+    with prior art attributed; no source-selected GU dynamics, capture Hamiltonian, universal
+    detector floor or novelty is claimed.
+
+    Historical predecessor (not live):
     K2105 constructs a nonnegative covariant-kinetic parity mediator with exact all-energy
     transmission in fixed laboratory frames, selfadjoint point contacts and a dimension-
     independent norm-resolvent limit. K2106 classifies strong neutral autonomy with unbounded
@@ -16772,6 +16783,9 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k2108-local-detector-tradeoffs-2026-10-26.md
+    - explorations/conditional-build/k2109-finite-switching-response-2026-10-26.md
+    - explorations/conditional-build/k2110-almost-local-instruments-2026-10-26.md
     - explorations/conditional-build/k2105-semibounded-parity-mediator-2026-10-26.md
     - explorations/conditional-build/k2106-neutral-unbounded-domains-2026-10-26.md
     - explorations/conditional-build/k2107-parity-arrival-resources-2026-10-26.md
@@ -18243,6 +18257,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can an actual source-selected observation/domain bridge or a local massive capture
+  Hamiltonian now outperform the new fixed-region, finite-switching and almost-local
+  detector constraints?
+
+  Historical predecessor (not live):
   Can a causal local massive-field capture interface be constructed for the completed
   nonnegative mediator, or does an actual source-selected observed-domain bridge or new
   thermal inequality win next?
@@ -22023,6 +22042,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Compare an actual source-selected observed neutral algebra and strongly compatible domain
+  on equation9.16 with a genuinely local massive-field-to-register capture Hamiltonian, and
+  new thermal163 multi-terminal or164 cap-path31322/32222/3332 supporting inequalities. Use
+  K2108 fixed-region and global-vacuum distinctions, K2109 scalar perturbative signal/noise
+  budget and K2110 growing-region instrument approximation as acceptance constraints, not a
+  supplied apparatus. Do not rederive the known Reeh-Schlieder/Falcone-Conti bound, K2080
+  CAR cutoff, or standard energy-filter construction. Retain K2021 maps, K2085 closed
+  interval/dimension41, full20/K-C/accessibility, native2+1/chirality,
+  mirror/fullII/normaljets, near5/4, nonlattice and exact cap-preserving wings.
+
+  Historical predecessor (not live):
   Compare a genuinely local massive-field-to-register capture construction with a source-
   selected observed neutral algebra and strongly compatible domain on equation9.16, against
   new thermal163 multi-terminal or164 cap-path31322/32222/3332 inequalities. The nonnegative

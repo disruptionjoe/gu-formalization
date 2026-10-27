@@ -542,6 +542,10 @@ the ledger probe uses the standard Python interpreter.
 
 # Selected-Shiab observed-receiver probes
 
+- [k2108_local_detector_tradeoffs_probe](k2108_local_detector_tradeoffs_probe.py).
+- [k2109_finite_switching_response_probe](k2109_finite_switching_response_probe.py).
+- [k2110_almost_local_instruments_probe](k2110_almost_local_instruments_probe.py).
+
 - [k2105_semibounded_parity_mediator_probe](k2105_semibounded_parity_mediator_probe.py).
 - [k2106_neutral_unbounded_domains_probe](k2106_neutral_unbounded_domains_probe.py).
 - [k2107_parity_arrival_resources_probe](k2107_parity_arrival_resources_probe.py).

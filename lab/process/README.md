@@ -7,6 +7,10 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2108-local-detector-tradeoffs](k2108-local-detector-tradeoffs.json).
+- [k2109-finite-switching-response](k2109-finite-switching-response.json).
+- [k2110-almost-local-instruments](k2110-almost-local-instruments.json).
+
 - [k2105-semibounded-parity-mediator](k2105-semibounded-parity-mediator.json).
 - [k2106-neutral-unbounded-domains](k2106-neutral-unbounded-domains.json).
 - [k2107-parity-arrival-resources](k2107-parity-arrival-resources.json).
