@@ -7,6 +7,10 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2105-semibounded-parity-mediator](k2105-semibounded-parity-mediator.json).
+- [k2106-neutral-unbounded-domains](k2106-neutral-unbounded-domains.json).
+- [k2107-parity-arrival-resources](k2107-parity-arrival-resources.json).
+
 - [k2102-travelling-parity-readout](k2102-travelling-parity-readout.json).
 - [k2103-neutral-algebra-dynamics](k2103-neutral-algebra-dynamics.json).
 - [k2104-point-contact-parity-transport](k2104-point-contact-parity-transport.json).

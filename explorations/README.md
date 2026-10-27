@@ -7,6 +7,10 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2105-semibounded-parity-mediator](conditional-build/k2105-semibounded-parity-mediator-2026-10-26.md).
+- [k2106-neutral-unbounded-domains](conditional-build/k2106-neutral-unbounded-domains-2026-10-26.md).
+- [k2107-parity-arrival-resources](conditional-build/k2107-parity-arrival-resources-2026-10-26.md).
+
 - [k2102-travelling-parity-readout](conditional-build/k2102-travelling-parity-readout-2026-10-26.md).
 - [k2103-neutral-algebra-dynamics](conditional-build/k2103-neutral-algebra-dynamics-2026-10-26.md).
 - [k2104-point-contact-parity-transport](conditional-build/k2104-point-contact-parity-transport-2026-10-26.md).

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: b4ca50a5c1009e5ec77b4baa19ab7a7f73f81f4e
+revision_basis: ad6140e8fd0159fa11f00b65256839efc5d88b51
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -58,6 +58,17 @@ reviewed_research_2026_10_26:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2105 constructs a nonnegative covariant-kinetic parity mediator with exact all-energy
+    transmission in fixed laboratory frames, selfadjoint point contacts and a dimension-
+    independent norm-resolvent limit. K2106 classifies strong neutral autonomy with unbounded
+    hidden generators, separates observed autonomy from full-system stability, and exhibits
+    boundary-domain leakage even for a nonnegative squared extension. K2107 bounds finite-time
+    instrument error and coefficient cost, and derives the exact long-time error floor from
+    the negative-momentum fraction of a fixed compact-left preparation. These are conditional
+    positive-Hilbert mathematical results, not a relativistic apparatus, massive-field capture
+    or source-selected GU dynamics. Source, ledger and canon verdicts are unchanged.
+
+    Historical predecessor (not live):
     K2102 constructs finite-duration coherent parity readout with a travelling chiral probe
     and sharp statewise bad-path error, including correlated spatial preparations. K2103
     classifies all finite neutral-observable Hamiltonian dynamics, permits charge-controlled
@@ -16761,6 +16772,9 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k2105-semibounded-parity-mediator-2026-10-26.md
+    - explorations/conditional-build/k2106-neutral-unbounded-domains-2026-10-26.md
+    - explorations/conditional-build/k2107-parity-arrival-resources-2026-10-26.md
     - explorations/conditional-build/k2102-travelling-parity-readout-2026-10-26.md
     - explorations/conditional-build/k2103-neutral-algebra-dynamics-2026-10-26.md
     - explorations/conditional-build/k2104-point-contact-parity-transport-2026-10-26.md
@@ -18229,6 +18243,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can a causal local massive-field capture interface be constructed for the completed
+  nonnegative mediator, or does an actual source-selected observed-domain bridge or new
+  thermal inequality win next?
+
+  Historical predecessor (not live):
   Can a semibounded mediator and local massive capture implement the completed travelling
   parity gate, does an actual source-selected neutral-algebra bridge win next, or does a new
   global thermal inequality?
@@ -22004,6 +22023,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Compare a genuinely local massive-field-to-register capture construction with a source-
+  selected observed neutral algebra and strongly compatible domain on equation9.16, against
+  new thermal163 multi-terminal or164 cap-path31322/32222/3332 inequalities. The nonnegative
+  nonrelativistic mediator, unbounded neutral classification and fixed-preparation waiting
+  floor are completed evidence. A new causal apparatus must supply its own propagation,
+  preparation, local capture and domain bridge; positive energy alone does not do so. Retain
+  K2085 closed interval/dimension41, full20/K-C/accessibility, native2+1/chirality,
+  mirror/fullII/normaljets, near5/4, nonlattice and exact cap-preserving wings.
+
+  Historical predecessor (not live):
   Compare a semibounded mediator with a genuine local massive-field-to-register interface
   against application of the neutral-algebra classification to a source-selected
   observation/dynamics map and a new thermal163 multi-terminal or164 cap-

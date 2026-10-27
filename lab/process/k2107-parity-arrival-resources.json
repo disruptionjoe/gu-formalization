@@ -1,0 +1,21 @@
+{
+  "id": "K2107",
+  "status": "internally_reviewed_conditional_mathematics",
+  "note": "explorations/conditional-build/k2107-parity-arrival-resources-2026-10-26.md",
+  "probe": "tests/channel-swings/k2107_parity_arrival_resources_probe.py",
+  "source_polarity": {
+    "SC-OP-04": "ASSERTS",
+    "SC-OP-05": "UNCERTAIN",
+    "SC-META-53": "UNCERTAIN",
+    "SC-META-56": "DISAVOWS"
+  },
+  "ledger_effect": "none; source-selected action/observation/physical quotient unbuilt",
+  "claim_ceiling": "conditional operator/algebra mathematics; no relativistic apparatus or GU recovery",
+  "evidence_kinds": [
+    "written analytic proof",
+    "exact finite/data controls",
+    "independent internal specialist review"
+  ],
+  "fault_count": 6,
+  "conclusion": "K2105 constructs a nonnegative covariant-kinetic parity mediator with exact all-energy transmission in fixed laboratory frames, selfadjoint point contacts and a dimension-independent norm-resolvent limit. K2106 classifies strong neutral autonomy with unbounded hidden generators, separates observed autonomy from full-system stability, and exhibits boundary-domain leakage even for a nonnegative squared extension. K2107 bounds finite-time instrument error and coefficient cost, and derives the exact long-time error floor from the negative-momentum fraction of a fixed compact-left preparation. These are conditional positive-Hilbert mathematical results, not a relativistic apparatus, massive-field capture or source-selected GU dynamics. Source, ledger and canon verdicts are unchanged."
+}

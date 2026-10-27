@@ -542,6 +542,10 @@ the ledger probe uses the standard Python interpreter.
 
 # Selected-Shiab observed-receiver probes
 
+- [k2105_semibounded_parity_mediator_probe](k2105_semibounded_parity_mediator_probe.py).
+- [k2106_neutral_unbounded_domains_probe](k2106_neutral_unbounded_domains_probe.py).
+- [k2107_parity_arrival_resources_probe](k2107_parity_arrival_resources_probe.py).
+
 - [k2102_travelling_parity_readout_probe](k2102_travelling_parity_readout_probe.py).
 - [k2103_neutral_algebra_dynamics_probe](k2103_neutral_algebra_dynamics_probe.py).
 - [k2104_point_contact_parity_transport_probe](k2104_point_contact_parity_transport_probe.py).

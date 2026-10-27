@@ -8,6 +8,31 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## K2105--K2107: Nonnegative mediator and observable-domain limits (2026-10-26)
+
+K2105 constructs a nonnegative covariant-kinetic parity mediator with exact all-energy
+transmission in fixed laboratory frames, selfadjoint point contacts and a dimension-
+independent norm-resolvent limit. K2106 classifies strong neutral autonomy with unbounded
+hidden generators, separates observed autonomy from full-system stability, and exhibits
+boundary-domain leakage even for a nonnegative squared extension. K2107 bounds finite-time
+instrument error and coefficient cost, and derives the exact long-time error floor from the
+negative-momentum fraction of a fixed compact-left preparation. These are conditional
+positive-Hilbert mathematical results, not a relativistic apparatus, massive-field capture
+or source-selected GU dynamics. Source, ledger and canon verdicts are unchanged.
+
+- [K2105](explorations/conditional-build/k2105-semibounded-parity-mediator-2026-10-26.md).
+- [K2106](explorations/conditional-build/k2106-neutral-unbounded-domains-2026-10-26.md).
+- [K2107](explorations/conditional-build/k2107-parity-arrival-resources-2026-10-26.md).
+
+Three exact SymPy1.14.0 probes pass clean baselines and reject17 genuine faults:6
+covariant/transmission,5 neutral/domain and6 arrival/resource faults. Controls include all16
+memory matrix units, complex bidirectional scattering, kernel integral, negative quadratic-
+form energy, noncommuting boundary orientation, nonnegative squared-domain witness, Gaussian
+integrals and the full blank/parity mixture. Universal domains, scattering, strong
+classification and asymptotic channel convergence rest on written analytic proofs plus three
+read-only independent specialist reviews. Finite controls, process checks, internal review,
+external expertise and proof-assistant certification remain distinct.
+
 ## K2102--K2104: Travelling parity and neutral observable dynamics (2026-10-26)
 
 K2102 constructs finite-duration coherent parity readout with a travelling chiral probe and
