@@ -29,6 +29,11 @@ updated_at: "2026-10-26"
 
 # Next Steps For Contributors
 
+> **2026-10-27: MIXED PORT EXCLUSION AND FEEDBACK SATURATION.**
+> Do not requeue mixed0+2+4 ports or further noncentral parameters in the fixed K2159 adapter family: K2163 exhausts them. Construct an explicit changed reverse/operator horn, different adapter ansatz, or moving Clifford/splitting correction and test its full principal and coefficient kernel; source admissibility, full16cell/full20/K-C and physical quotient remain required separately. For detectors the N1 saturation example is globally enclosed and half-tie disproved; arbitrary ell/moment optima, sharp global weak-budget upper control of rare branches and occupation tails, and stable autonomous preparation/reset remain open. Compact-smear transfer is existential, not an explicit support-size certificate. Raw mobile-locus native minors/integrability, thermal163/164 global inequalities and restricted cosmological dynamics remain independent alternatives; preserve native2+1/chirality, mirrors/fullII/normaljets and exact-wing debts.
+> Earlier banners preserve history; source, ledger and canon unchanged.
+
+
 > **2026-10-27: MOBILE-LOCUS REGULARITY AND OPTIMAL MODE DETECTION.**
 > Compute genuine native quotient-rank strata and tangent integrability inside the smaller mobile locus, with an explicit coefficient regularity class; the new lemma is not an exceptional-variety computation. For detectors compare a supplied drift-compensated finite-chain threshold with a fixed physical signal/code and actual local controller whose preparation, switching and work resources are accounted for; no continuum velocity follows from graph gates. Single-mode ROC and its exact output energy are settled for the named photon-added signal. A larger regional algebra or general coherent signal is a different discrimination problem. Thermal163 multi-terminal/164 cap31322/32222/3332 global supporting inequalities remain independent; K2085 interval/dimension41 settled. Retain full20/K-C/accessibility/native2+1/chirality/mirror/fullII/normaljets/near5/4/nonlattice/exact wings. Source, ledger0.263 and canon unchanged.
 > Prior banners preserve historical questions; no source or ledger promotion.

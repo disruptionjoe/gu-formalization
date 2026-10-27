@@ -1,0 +1,52 @@
+{
+  "result_id": "K2163",
+  "status": "conditional_exact_controls",
+  "exact_checks": {
+    "tangent_volume_square": true,
+    "singular_mixed_fixture": true,
+    "full_noncentral_commutant": true,
+    "original_coupled_maps": true,
+    "mixed_projection_identity": true,
+    "projection_trace_certificates": true,
+    "normal_parity_separation": true,
+    "moving_adapter_cancellation": true,
+    "right_contraction_degrees": true,
+    "remaining_0_4_equations": true,
+    "all1024_conjugation_characters_distinct": true,
+    "involution_elimination_constants": true,
+    "representation_split_nonzero_factor": true,
+    "zero_positive_control": true,
+    "scalar_positive_control": true
+  },
+  "fault_failures": {
+    "noncommutant": [
+      "full_noncentral_commutant",
+      "scalar_positive_control"
+    ],
+    "missing_normal_coefficient": [
+      "original_coupled_maps",
+      "mixed_projection_identity",
+      "normal_parity_separation"
+    ],
+    "reverse_sign": [
+      "original_coupled_maps",
+      "mixed_projection_identity",
+      "normal_parity_separation"
+    ],
+    "projection_coefficient": [
+      "mixed_projection_identity",
+      "normal_parity_separation"
+    ],
+    "involution_constant": [
+      "involution_elimination_constants"
+    ]
+  },
+  "dependency_sha256": {
+    "explorations/conditional-build/k2163-mixed-degree-adapter-obstruction-2026-10-27.md": "d849003f55e644617cd19d49b471b3e08ee841ccdea059819ada2445e5a62b80",
+    "tests/channel-swings/k2161_noncentral_adapter_obstruction_probe.py": "b138c3556b5ba0e70260e0938da7abf4e56d01a4da9a38a1189ae5cb06aefba5",
+    "tests/channel-swings/k2159_commutant_equation_adapters_probe.py": "66fcdfa20412a8523ab117c9300d69381ab20dd406c675243c8c2f2a01667a38",
+    "tests/channel-swings/source_native_fermion_transverse_port_probe.py": "74c817b7d0cd59210b09dee507ce7d0feb3f0c433ae021f0a6b7a0ba81dea390"
+  },
+  "probe_sha256": "612c5e6cebfe980085c4c914cb2a15ad5070060166f2cafa1b43aa81fd27afea",
+  "universal_evidence": "Mixed degree projection, right-ideal simplicity, forced invertibility and impossible full Clifford representation proof separately reviewed. Finite fixture controls do not replace universal proof."
+}

@@ -1,5 +1,8 @@
 # Pre-contract wave probes
 
+- [k2163_mixed_degree_adapter_obstruction_probe](k2163_mixed_degree_adapter_obstruction_probe.py).
+- [k2164_feedback_saturation_tie_probe](k2164_feedback_saturation_tie_probe.py).
+
 - [k2161_noncentral_adapter_obstruction_probe](k2161_noncentral_adapter_obstruction_probe.py).
 - [k2162_feedback_detector_frontier_probe](k2162_feedback_detector_frontier_probe.py).
 

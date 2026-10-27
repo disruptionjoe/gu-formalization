@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 19c13f760bce578f0957fb14e54a09907db7ebf3
+revision_basis: bb23dab3b1f4cdacb0d9660b4b3fea6bfbd09bf7
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -98,6 +98,19 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2163 excludes every nonzero mixed tangent-degree0+2+4 seven-form port in the declared
+    fixed-splitting common-connection commutant-adapter family. Exact projection removes
+    degree2; equal right ideals force remaining singular candidates invertible; a second
+    Clifford representation forces incompatible grades3 and7. Constant and smooth adapters
+    are covered, with fixed geometry only. K2164 disproves half-tie optimality after outcome
+    feedback in a realizable positive two-mode model: derivative at half lies in(0.11,0.13),
+    explicit tie0.49 energy<3.1006 beats every half-tie energy>3.1013, and a rational global
+    certificate gives3.1003864<minimum<3.1003875. Maximal contrast1/2 is unchanged but
+    individual ROC coordinates change. A separate analytic compact-smear existence transfer
+    supplies exact N1 counterexamples, without explicit support size. Conditional
+    mathematics only; source, ledger and canon unchanged.
+
+    Historical predecessor (not live):
     K2159 constructs and classifies a1024-dimensional tangent Clifford commutant in
     a10-parameter-slot equation-adapter ansatz, derives a necessary and sufficient complete
     common-connection kernel/PDE criterion, and proves all scalar normal-mixing repairs of the
@@ -17042,6 +17055,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k2163-mixed-degree-adapter-obstruction-2026-10-27.md
+    - lab/process/k2163-mixed-degree-adapter-obstruction.json
+    - tests/channel-swings/k2163_mixed_degree_adapter_obstruction_probe.py
+    - explorations/conditional-build/k2164-feedback-saturation-tie-2026-10-27.md
+    - lab/process/k2164-feedback-saturation-tie.json
+    - tests/channel-swings/k2164_feedback_saturation_tie_probe.py
     - explorations/conditional-build/k2161-noncentral-adapter-obstruction-2026-10-27.md
     - explorations/conditional-build/k2162-feedback-detector-frontier-2026-10-27.md
     - explorations/conditional-build/k2159-commutant-equation-adapters-2026-10-27.md
@@ -18566,6 +18585,12 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  With the complete fixed-geometry seven-form commutant family excluded, which genuinely
+  changed source-compatible operator or moving-geometry interface can satisfy full
+  equation descent; and what uniform rare-branch/tail estimate or stable controller
+  advances the detector resource endpoint?
+
+  Historical predecessor (not live):
   Can mixed-degree interaction ports evade the complete pure-degree obstruction, and is the
   improved feedback detector weak-budget coefficient globally sharp once rare branches and
   occupation tails are controlled?
@@ -22446,6 +22471,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Do not requeue mixed0+2+4 ports or further noncentral parameters in the fixed K2159
+  adapter family: K2163 exhausts them. Construct an explicit changed reverse/operator
+  horn, different adapter ansatz, or moving Clifford/splitting correction and test its
+  full principal and coefficient kernel; source admissibility, full16cell/full20/K-C and
+  physical quotient remain required separately. For detectors the N1 saturation example is
+  globally enclosed and half-tie disproved; arbitrary ell/moment optima, sharp global
+  weak-budget upper control of rare branches and occupation tails, and stable autonomous
+  preparation/reset remain open. Compact-smear transfer is existential, not an explicit
+  support-size certificate. Raw mobile-locus native minors/integrability, thermal163/164
+  global inequalities and restricted cosmological dynamics remain independent
+  alternatives; preserve native2+1/chirality, mirrors/fullII/normaljets and exact-wing
+  debts.
+
+  Historical predecessor (not live):
   Test genuinely mixed-degree0+2+4 seven-form ports under the complete same-coefficient
   kernel/PDE criterion, or construct actual moving Clifford geometry/another source-compatible
   operator horn; all pure0,2,4 ports in the commutant-adapter family are exhausted. For

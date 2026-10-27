@@ -11,6 +11,9 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+- [k2163-mixed-degree-adapter-obstruction](conditional-build/k2163-mixed-degree-adapter-obstruction-2026-10-27.md).
+- [k2164-feedback-saturation-tie](conditional-build/k2164-feedback-saturation-tie-2026-10-27.md).
+
 - [k2161-noncentral-adapter-obstruction-2026-10-27](conditional-build/k2161-noncentral-adapter-obstruction-2026-10-27.md).
 - [k2162-feedback-detector-frontier-2026-10-27](conditional-build/k2162-feedback-detector-frontier-2026-10-27.md).
 

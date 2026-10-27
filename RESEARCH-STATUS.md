@@ -144,6 +144,34 @@ apparatus.
 
 # Research Status
 
+## K2163--K2164: Mixed port obstruction and feedback tie (2026-10-27)
+
+K2163 excludes every nonzero mixed tangent-degree0+2+4 seven-form port in the declared
+fixed-splitting common-connection commutant-adapter family. Exact projection removes
+degree2; equal right ideals force remaining singular candidates invertible; a second
+Clifford representation forces incompatible grades3 and7. Constant and smooth adapters
+are covered, with fixed geometry only. K2164 disproves half-tie optimality after outcome
+feedback in a realizable positive two-mode model: derivative at half lies in(0.11,0.13),
+explicit tie0.49 energy<3.1006 beats every half-tie energy>3.1013, and a rational global
+certificate gives3.1003864<minimum<3.1003875. Maximal contrast1/2 is unchanged but
+individual ROC coordinates change. A separate analytic compact-smear existence transfer
+supplies exact N1 counterexamples, without explicit support size. Conditional
+mathematics only; source, ledger and canon unchanged.
+
+- [K2163](explorations/conditional-build/k2163-mixed-degree-adapter-obstruction-2026-10-27.md).
+- [K2164](explorations/conditional-build/k2164-feedback-saturation-tie-2026-10-27.md).
+
+Two independent read-only specialists cross-reviewed actual notes and probes. Fifteen
+exact Clifford controls include original coupled maps, singular mixtures,
+projection/trace identities and1024 conjugation characters; ten detector controls
+include realized moments, exact derivative and finite-energy comparisons. Eleven genuine
+changed-input/equation faults are rejected after green baselines. Rational branch-and-
+bound covers all t in[0,1] in15031 subdivisions with a width below1e-6; universal
+algebra, interior-minimum and compact-smear arguments are separately reviewed. No proof-
+assistant, external-expert, novelty, global uniqueness, arbitrary-channel or apparatus-
+cost claim.
+
+
 ## K2150--K2152: Mobile-locus regularity and optimal mode detection (2026-10-27)
 
 K2150 extends the fixed-annihilator no-departure lemma to every zero-jet point under

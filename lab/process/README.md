@@ -11,6 +11,9 @@ updated_at: "2026-08-23"
 
 # Process
 
+- [k2163-mixed-degree-adapter-obstruction](k2163-mixed-degree-adapter-obstruction.json).
+- [k2164-feedback-saturation-tie](k2164-feedback-saturation-tie.json).
+
 - [k2161-noncentral-adapter-obstruction](k2161-noncentral-adapter-obstruction.json).
 - [k2162-feedback-detector-frontier](k2162-feedback-detector-frontier.json).
 

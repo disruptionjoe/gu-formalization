@@ -1,0 +1,56 @@
+{
+  "result_id": "K2164",
+  "status": "conditional_exact_certificate",
+  "exact_checks": {
+    "physical_positive_spectral_moments": true,
+    "complete_unnormalized_R": true,
+    "geometric_threshold_R": true,
+    "threshold_adjacent_moments": true,
+    "maximal_contrast_changed_ROC": true,
+    "half_squeeze_roots": true,
+    "strict_positive_half_derivative": true,
+    "actual_witness_beats_optimized_half": true,
+    "interval_lower_control": true,
+    "rational_sqrt_outward_control": true
+  },
+  "fault_failures": {
+    "spectral_frequency": [
+      "physical_positive_spectral_moments"
+    ],
+    "branch_moment": [
+      "complete_unnormalized_R",
+      "geometric_threshold_R"
+    ],
+    "fixed_ROC": [
+      "maximal_contrast_changed_ROC"
+    ],
+    "derivative_sign": [
+      "strict_positive_half_derivative"
+    ],
+    "pre_feedback_energy": [
+      "actual_witness_beats_optimized_half"
+    ],
+    "interval_wrong_endpoints": [
+      "interval_lower_control"
+    ]
+  },
+  "global_certificate": {
+    "lower": "138792943083685963058618823908323425184894637020214641473281302027858148810621488077482929705260005458112648805926653053690229/44766335905079562733277733103090330400683559498722481386385479498990135176126499482027040440602151434059776000000000000000000",
+    "upper": "36985716738378598709285928836176452125290074032169245377344070733846622441108996482970040970938417359/11929385229520928523410062503381924157999389063374951251119979630962751689034878156800000000000000000",
+    "witness_t": "4053517/8388608",
+    "witness_x": [
+      "25531665352153/35184372088832",
+      "33984047219621/35184372088832"
+    ],
+    "subdivisions": 15031,
+    "active_intervals": 9557,
+    "tolerance": "1/1000000"
+  },
+  "dependency_sha256": {
+    "explorations/conditional-build/k2164-feedback-saturation-tie-2026-10-27.md": "cb0bb6087b045a0fdc36ca56f6f5a930202fa23642df5d18116d5f94c1d888dc",
+    "explorations/conditional-build/k2160-outcome-conditioned-squeezing-2026-10-27.md": "5ec83384bdf92c3065a21c0ad2659eeaff738445b864b22304563ade65b57b32",
+    "explorations/conditional-build/k2162-feedback-detector-frontier-2026-10-27.md": "d59de4d41c8e9dce3bed99e138ea982b41f03ec8238bdc6a8ee3bfd3e296a85d"
+  },
+  "probe_sha256": "dbb8d43813daf4c51318292c797d55af8b7fae2f82724dad5be20514b363b163",
+  "scope": "Fixed positive two-mode scalar Fock model. Global energy bracket for integer N1 maximal contrast; no uniqueness, universal half-tie or apparatus cost. Separate analytic compact-smear existence transfer; no explicit support-size bound."
+}
