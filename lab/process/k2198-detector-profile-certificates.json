@@ -1,0 +1,119 @@
+{
+  "result_id": "K2198",
+  "status": "conditional_exact_profile_certificate",
+  "checks": {
+    "original_edge_exact_square": true,
+    "gap_nonnegative": true,
+    "zero_gap_coordinate_identity": true,
+    "coordinate_contains_exact_point_0": true,
+    "coordinate_contains_exact_point_2": true,
+    "coordinate_contains_exact_point_7": true,
+    "original_recurrence_kn_1": true,
+    "original_recurrence_kn_2": true,
+    "original_recurrence_kn_7": true,
+    "original_recurrence_kn_19": true,
+    "safe_barrier": true,
+    "reject_unsafe_upper_barrier": true,
+    "reject_unsafe_lower_barrier": true,
+    "geometric_mass_1/16": true,
+    "geometric_moment_1/16": true,
+    "geometric_mass_1/36": true,
+    "geometric_moment_1/36": true,
+    "geometric_mass_1/4": true,
+    "geometric_moment_1/4": true
+  },
+  "fault_failures": {
+    "gap_factor": [
+      "original_edge_exact_square"
+    ],
+    "ratio_factor": [
+      "zero_gap_coordinate_identity"
+    ],
+    "omit_1_over_n": [
+      "original_recurrence_kn_1",
+      "original_recurrence_kn_2",
+      "original_recurrence_kn_7",
+      "original_recurrence_kn_19"
+    ],
+    "eta_sign": [
+      "original_recurrence_kn_1",
+      "original_recurrence_kn_2",
+      "original_recurrence_kn_7",
+      "original_recurrence_kn_19"
+    ],
+    "barrier_direction": [
+      "safe_barrier"
+    ]
+  },
+  "finite_certificate": {
+    "s1": "105488613/100000000",
+    "s0": "2699689/3125000",
+    "contrast": "1/2",
+    "inherited_witness": "K2174.reference",
+    "dual_slopes1": [
+      "42101275441678970757/40000000000000000000",
+      "11658745770201251961/20000000000000000000",
+      "102831708080287844139/200000000000000000000",
+      "3140248327570459293/6250000000000000000",
+      "25020769817811930343/50000000000000000000",
+      "100013987217346239281/200000000000000000000",
+      "12500292012944973689/25000000000000000000",
+      "100000388002851822421/200000000000000000000",
+      "25000016625019908463/50000000000000000000"
+    ],
+    "dual_slopes0": [
+      "60807791452259276373/200000000000000000000",
+      "22868448304385448371/100000000000000000000",
+      "2640466112779245603/12500000000000000000",
+      "10338604450309413523/50000000000000000000",
+      "41023288499756034283/200000000000000000000",
+      "5105991248302400433/25000000000000000000",
+      "8145262149430764227/40000000000000000000",
+      "20291206131877163167/100000000000000000000",
+      "18077538151554681/100000000000000000"
+    ],
+    "chosen_dual_eta": "127867832632440345195771650162435405446951367339891202461/27034440348323273293284600483000000000000000000000000000",
+    "energy_upper_exact": "3670334898132493939618430419591620793950985370631735917638411566811277600504340825468640753/4415684808052974491558682662931985342330505508145496672223563391959040000000000000000000000",
+    "dual_lower_exact": "9846157537001148816364373643734590848175297702521349997074422618596066744884841559391910357260442510456723159812731690280399968161307766210342091754757227365081973857493077115292376556652566384566030769060696683125886198035672849/11847633510714175563677894329482437883160795758399604228023566093994433507742694280783759301251584202058738456836649670966469672952536000189380768927655300798732397543388667932077048231344761925613912064000000000000000000000000000",
+    "gap_exact": "533148022905278899424979122541125495150848923356155709184993161369303295654484782531700101707002262446277748488787708431190601565418978255725517214667063741118785372025323119281905136694150899590426457300508233922330278690055987061125092785322410445305604781/3844776891172072803098675677568997451072155594433113829812293681256072763447167383452613671197094457358035163966437832696442731467062837633564940412923110222354267029509800383152008070778275600488214205684941555464557020878795790352384000000000000000000000000000",
+    "energy_upper": "207801001299/250000000000",
+    "dual_lower": "103883167133/125000000000",
+    "gap_upper": "138668131/1000000000000",
+    "optimizer_coordinate_boxes": [
+      [
+        "144656079039/1000000000000",
+        "165690275767/1000000000000"
+      ],
+      [
+        "657053867431/1000000000000",
+        "718181912569/1000000000000"
+      ],
+      [
+        "876000733537/1000000000000",
+        "993307106463/1000000000000"
+      ]
+    ],
+    "true_eta_interval": [
+      "4234840131279/1000000000000",
+      "1315206093179/250000000000"
+    ],
+    "N": 2,
+    "Kminus_lower": "2313350254243/1000000000000",
+    "Kplus_upper": "1382335914687/500000000000",
+    "sigma": "1/3",
+    "rho": "1/2",
+    "exact_tail": "(1/200)*9^(-m) <= 1-e_(2+m) <= (1/8)*4^(-m), every integer m>=0",
+    "scope": "Unique optimizer at this fixed rational squeeze pair, not joint squeeze optimum; new profile enclosure using inherited feasible witness, not new energy bracket."
+  },
+  "dependency_sha256": {
+    "explorations/conditional-build/k2198-detector-profile-certificates-2026-10-28.md": "193e593802f01d572dd8b4c25d80cfcd06429880488c08385a3fd69acd5ef63d",
+    "explorations/conditional-build/k2194-detector-optimizer-structure-2026-10-28.md": "6c8a46818ad41afa8b9bd68e1596669cd193b6727c8493932b03a4588dde230e",
+    "explorations/conditional-build/k2196-detector-primal-dual-certificates-2026-10-28.md": "edabd63710aec06bae0667334b064b79112d4dd0795b7aae025061548bb691a7",
+    "tests/channel-swings/k2196_detector_primal_dual_certificates_probe.py": "c9336a1a51eac050a5c0b6da59a618b2c886976ecf24e7fc0bd4b866f227b5de",
+    "tests/channel-swings/k2176_detector_certified_convergence_probe.py": "90585714233831939d9ab185224c5d7ac3a2221b5a52bbeb8591fab5b8080348",
+    "tests/channel-swings/k2174_joint_coherence_detector_probe.py": "edee6269625f894a39022eae5ab236220a26e68ec2f55daef71505d939b1e6f5",
+    "tests/channel-swings/k2168_finite_budget_moment_envelope_probe.py": "0d74d6a769ce53e59b9d38f7700e22d86d7e16ef9e62c34186823f526c50882d"
+  },
+  "probe_sha256": "48e07d95b12d7c5c9cdf4b8697c94b90613ebf910293b9d05384fc897c1c4d6b",
+  "evidence_kinds": "Written universal coordinate-coercivity and backward-contraction proofs; exact rational finite profile/tail certificate; inherited energy witness. No arbitrary shooting or joint uniqueness/practical complexity certification."
+}

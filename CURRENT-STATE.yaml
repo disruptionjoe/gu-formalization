@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d114ec2ec49c3583a5cb2204412a54807c670fd7
+revision_basis: c43889de9bc15f9a6307e7ba3c4c86f4df0df0e7
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,7 +118,19 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
-    K2195 excludes EVERY anticommuting fixed normalized adapter, including nonscalar
+    K2197 excludes every nonzero real port in a four-parameter genuinely noncommuting
+    normal-trivector support family, retaining singular-pencil and all parameter faces;
+    general noncommuting adapters remain open. K2198 turns finite primal-dual gaps into
+    convergent optimizer-coordinate boxes and two-sided whole-tail ratio bounds. At the
+    specified fixed rational squeezes, the true optimizer satisfies
+    (1/200)*9^(-m)<=1-e_(2+m)<=(1/8)*4^(-m) for every m>=0; no joint optimum or new
+    energy bracket is claimed. K2199 classifies ALL local bilinear pairings for the
+    fixed full fourteen-direction raw principal operator as cH, including initially
+    mixed-degree, nonsymmetric and degenerate forms. Its exact spectral degree projector
+    closes the mixed-degree successor. Nonzero real forms have inertia960/960. K2021
+    already supplies the degree-dual map; changing only its pairing cannot repair the
+    fixed model. Source, ledger0.263, canon and physical quotient unchanged.
+    Historical predecessor (not live): K2195 excludes EVERY anticommuting fixed normalized adapter, including nonscalar
     squares and Jordan blocks: the J=0 census/Pfaffian proof closes that sector, and the
     nonzero-J quartic/eight-value trace reduction excludes all one/two/three/four-root
     multiplicity partitions by exact Bezout and singular-rank certificates. Missing
@@ -17271,6 +17283,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2197-general-ordered-adapter-constraints-2026-10-28.md
+  - explorations/conditional-build/k2198-detector-profile-certificates-2026-10-28.md
+  - explorations/conditional-build/k2199-degree-dual-construction-boundary-2026-10-28.md
+  - lab/process/k2197-general-ordered-adapter-constraints.json
+  - lab/process/k2198-detector-profile-certificates.json
+  - lab/process/k2199-degree-dual-construction-boundary.json
   - explorations/conditional-build/k2195-anticommuting-spectral-reduction-2026-10-28.md
   - explorations/conditional-build/k2196-detector-primal-dual-certificates-2026-10-28.md
   - lab/process/k2195-anticommuting-spectral-reduction.json
@@ -18873,7 +18891,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can a general noncommuting fixed adapter satisfy all ten original rows after the
+  Can a genuinely changed principal/core construction or another general noncommuting
+  support satisfy its actual shared equations after complete fixed-principal pairing
+  rigidity? Can the finite optimizer-coordinate and geometric-tail certificates enable a
+  practical certified detector solver or resolve joint-squeeze structure?
+  Historical predecessor (not live): Can a general noncommuting fixed adapter satisfy all ten original rows after the
   entire anticommuting family is excluded? Can an efficient certified detector optimizer
   exploit the explicit bounded dual slopes and monotone profile, or can a source-native
   common R0/R1 map resolve the independent operator input?
@@ -22829,7 +22851,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Do not requeue any anticommuting port in this fixed normalized adapter family. Test
+  Do not requeue the K2197 real support family or any local common-pairing ansatz for
+  the unchanged full14 principal operator: K2199 proves G=cH without degree or symmetry
+  assumptions. K2021 already constructs R0/R1; compare a genuinely changed
+  principal/core construction, or a precisely stated observed-four-direction
+  restriction, against other general noncommuting original-ten-row supports. Detector
+  optimizer-coordinate and whole-tail certification are now effective and concretely
+  demonstrated; useful successors are a practical certified solver exploiting these
+  bounds, joint-squeeze structure, or a shared apparatus/preparation/reset account.
+  Preserve scalar saturation/inverse, endpoint, weak353/170, inherited half bracket,
+  thermal163/164, source/full16cell/full20/K-C, native2+1/chirality, physical quotient,
+  mirrors/fullII/normaljets and exact wings.
+  Historical predecessor (not live): Do not requeue any anticommuting port in this fixed normalized adapter family. Test
   general noncommuting ports against all ten original rows, or construct the independent
   common R0/R1 same16cell/shared-return source map; the completed spectral trace
   exclusion applies only under {v,t}=0. Detector dual cutoff/mesh effectiveness is now

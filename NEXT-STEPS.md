@@ -5,6 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-10-28: GENERAL SUPPORT EXCLUSION, OPTIMIZER TAILS AND FULL PAIRING RIGIDITY.**
+> Do not requeue the K2197 real support family or any local common-pairing ansatz for the unchanged full14 principal operator: K2199 proves G=cH without degree or symmetry assumptions. K2021 already constructs R0/R1; compare a genuinely changed principal/core construction, or a precisely stated observed-four-direction restriction, against other general noncommuting original-ten-row supports. Detector optimizer-coordinate and whole-tail certification are now effective and concretely demonstrated; useful successors are a practical certified solver exploiting these bounds, joint-squeeze structure, or a shared apparatus/preparation/reset account. Preserve scalar saturation/inverse, endpoint, weak353/170, inherited half bracket, thermal163/164, source/full16cell/full20/K-C, native2+1/chirality, physical quotient, mirrors/fullII/normaljets and exact wings.
+> Earlier banners are historical; use this current condition.
+
+
 > **2026-10-28: ANTICOMMUTING SPECTRAL EXCLUSION AND EFFECTIVE DETECTOR CERTIFICATES.**
 > Do not requeue any anticommuting port in this fixed normalized adapter family. Test general noncommuting ports against all ten original rows, or construct the independent common R0/R1 same16cell/shared-return source map; the completed spectral trace exclusion applies only under {v,t}=0. Detector dual cutoff/mesh effectiveness is now established; useful work needs an efficient certified optimizer exploiting monotone structure, an actual whole-tail shooting region, profile coercivity, or a stable shared apparatus/preparation/reset account. Do not recount inherited K2176 duality, gap decomposition or61-cell bracket as new. Preserve saturation/scalar inverse, endpoint,weak353/170,thermal163/164,restricted cosmology,native2+1/chirality,source/full16cell/full20/K-C,physical quotient,mirrors/fullII/normaljets and exact wings.
 > Earlier banners are historical; use this current condition.

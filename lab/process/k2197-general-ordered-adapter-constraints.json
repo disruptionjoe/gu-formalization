@@ -1,0 +1,66 @@
+{
+  "result_id": "K2197",
+  "status": "conditional_exact_family_exclusion",
+  "checks": {
+    "inverse_numerator_both_sides": true,
+    "Y_square": true,
+    "Y_traceless": true,
+    "displayed_Y_identity": true,
+    "general_coefficient_n36": true,
+    "general_coefficient_n2456": true,
+    "c0_tangent8": true,
+    "c0_tangent6": true,
+    "real_open_contradiction": true,
+    "real_face_contradiction": true,
+    "u_square_scalar": true,
+    "scalar_faces": true,
+    "d0_commuting_wu": true,
+    "norm_one_0": true,
+    "pencil_identity_0": true,
+    "paired_conjugation_offshell_0": true,
+    "both_commutators_nonzero_0": true,
+    "original_ten_row_contraction_0": true,
+    "all_ten_rows_reject_0": true,
+    "noncommuting_nilpotent_square_control": true,
+    "norm_one_1": true,
+    "pencil_identity_1": true,
+    "paired_conjugation_offshell_1": true,
+    "both_commutators_nonzero_1": true,
+    "original_ten_row_contraction_1": true,
+    "all_ten_rows_reject_1": true,
+    "norm_one_2": true,
+    "pencil_identity_2": true,
+    "paired_conjugation_offshell_2": true,
+    "both_commutators_nonzero_2": true,
+    "original_ten_row_contraction_2": true,
+    "all_ten_rows_reject_2": true,
+    "zero_port_positive_control": true
+  },
+  "fault_failures": {
+    "coefficient": [
+      "general_coefficient_n36"
+    ],
+    "face_coefficient": [
+      "c0_tangent8"
+    ],
+    "norm_factor": [
+      "pencil_identity_0",
+      "pencil_identity_1",
+      "pencil_identity_2"
+    ],
+    "extra_eta": [
+      "original_ten_row_contraction_0",
+      "original_ten_row_contraction_1",
+      "original_ten_row_contraction_2"
+    ]
+  },
+  "dependency_sha256": {
+    "explorations/conditional-build/k2197-general-ordered-adapter-constraints-2026-10-28.md": "718e69e113e98bcd53b5acf2e0a3be5ad83e6b3c944e20a6c4360be73819429e",
+    "tests/channel-swings/k2171_mixed_port_euler_filter_probe.py": "3ffe4989295e3516104c439348ad6a7251382fdd511f9a891fae45828968683f",
+    "tests/channel-swings/k2169_invertible_pencil_full_descent_probe.py": "b44d589073b48ee121b8c7ee6fc4aa4372eb2ca17169442d6611b7275410118a",
+    "explorations/conditional-build/k2177-exceptional-spectrum-descent-2026-10-28.md": "b7e9e3d69f5fe67f90d1154d0497f6fe063f91442084978afd7b006904fe938d",
+    "explorations/conditional-build/k2195-anticommuting-spectral-reduction-2026-10-28.md": "bd2377325fb69d2884a2086a5e237ab8177dbf09357dec0d64ed3c506c5ab640"
+  },
+  "probe_sha256": "0c30fbe02f9020111df0588901af97e9fde14d45956aaf0afc24e8e79c61c3ea",
+  "evidence_kinds": "Universal written real support-family proof; exact symbolic coefficients and independent original-ten-row rational fixtures. No general noncommuting or complex exclusion."
+}

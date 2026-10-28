@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2197-general-ordered-adapter-constraints](k2197-general-ordered-adapter-constraints.json).
+- [k2198-detector-profile-certificates](k2198-detector-profile-certificates.json).
+- [k2199-degree-dual-construction-boundary](k2199-degree-dual-construction-boundary.json).
+
+
 - [k2195-anticommuting-spectral-reduction](k2195-anticommuting-spectral-reduction.json).
 - [k2196-detector-primal-dual-certificates](k2196-detector-primal-dual-certificates.json).
 

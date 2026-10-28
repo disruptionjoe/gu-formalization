@@ -6,6 +6,25 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2197--K2199: Conditional research results (2026-10-28)
+
+K2197 excludes every nonzero real port in a four-parameter genuinely noncommuting normal-trivector support family, retaining singular-pencil and all parameter faces; general noncommuting adapters remain open. K2198 turns finite primal-dual gaps into convergent optimizer-coordinate boxes and two-sided whole-tail ratio bounds. At the specified fixed rational squeezes, the true optimizer satisfies (1/200)*9^(-m)<=1-e_(2+m)<=(1/8)*4^(-m) for every m>=0; no joint optimum or new energy bracket is claimed. K2199 classifies ALL local bilinear pairings for the fixed full fourteen-direction raw principal operator as cH, including initially mixed-degree, nonsymmetric and degenerate forms. Its exact spectral degree projector closes the mixed-degree successor. Nonzero real forms have inertia960/960. K2021 already supplies the degree-dual map; changing only its pairing cannot repair the fixed model. Source, ledger0.263, canon and physical quotient unchanged.
+
+- [K2197](explorations/conditional-build/k2197-general-ordered-adapter-constraints-2026-10-28.md).
+- [K2198](explorations/conditional-build/k2198-detector-profile-certificates-2026-10-28.md).
+- [K2199](explorations/conditional-build/k2199-degree-dual-construction-boundary-2026-10-28.md).
+
+Three read-only field specialists independently reviewed the actual proofs and artifacts, with cross-review of all results. K2197 has33 exact controls and4 genuine faults; K2198 has19 exact controls and5 faults plus an actual rational fixed-squeeze profile/tail certificate; K2199 has720 exact controls and5 faults, including full14 Green identities, the complete16384-blade census and the computed spectral degree projector. Universal written proofs, finite algebraic controls, infinite-tail certificate and inherited witness reuse are distinct evidence kinds. No heavy build, proof-assistant, external-expert, novelty or remote-CI certification.
+
+| Result | Status | Boundary |
+| --- | --- | --- |
+| K2197 | Real support-family excluded | Nonzero ports only; general noncommuting open |
+| K2198 | Effective profile/tail certificates | Fixed squeezes; no joint-optimality or arbitrary-shot claim |
+| K2199 | All common local pairings classified | Fixed full14 principal operator, not physical quotient |
+
+Earlier sections are historical.
+
+
 ## K2195--K2196: Conditional research results (2026-10-28)
 
 K2195 excludes EVERY anticommuting fixed normalized adapter, including nonscalar squares and Jordan blocks: the J=0 census/Pfaffian proof closes that sector, and the nonzero-J quartic/eight-value trace reduction excludes all one/two/three/four-root multiplicity partitions by exact Bezout and singular-rank certificates. Missing quartic roots may coincide; the exceptional5210 h=-1/18 branch is explicitly inconsistent. General noncommuting original-row reconstruction remains open. K2196 gives explicit rational bounds on dual multipliers/slopes, cutoff error and finite mesh error at every nonzero interior contrast, yielding a terminating finite rational lower approximation without a shooting assumption. Its rational verifier reproduces the inherited61-rectangle half-contrast bracket0.83103<E<0.831205; neither duality nor that numerical bracket is new. No efficient complexity, joint uniqueness, apparatus account or GU physics credit. Source, ledger0.263 and canon unchanged.

@@ -1,4 +1,9 @@
 
+- [k2197_general_ordered_adapter_constraints_probe](k2197_general_ordered_adapter_constraints_probe.py).
+- [k2198_detector_profile_certificates_probe](k2198_detector_profile_certificates_probe.py).
+- [k2199_degree_dual_construction_boundary_probe](k2199_degree_dual_construction_boundary_probe.py).
+
+
 - [k2195_anticommuting_spectral_reduction_probe](k2195_anticommuting_spectral_reduction_probe.py).
 - [k2196_detector_primal_dual_certificates_probe](k2196_detector_primal_dual_certificates_probe.py).
 
