@@ -1,4 +1,7 @@
 
+- [k2175_mixed_grade_euler_localization](k2175_mixed_grade_euler_localization_probe.py).
+- [k2176_detector_certified_convergence](k2176_detector_certified_convergence_probe.py).
+
 - [k2173_general_mixed_port_constraints](k2173_general_mixed_port_constraints_probe.py).
 - [k2174_joint_coherence_detector](k2174_joint_coherence_detector_probe.py).
 

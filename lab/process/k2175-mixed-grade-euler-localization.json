@@ -1,0 +1,95 @@
+{
+  "result_id": "K2175",
+  "status": "conditional_exact_controls",
+  "checks": {
+    "trace_polynomial_2": true,
+    "inverse_mod_quadratic_2": true,
+    "trace_numerator_sign_2": true,
+    "c_zero_forces_a_zero_2": true,
+    "nonzero_distinct_roots_(2, 0)": true,
+    "multiplicity_impossible_(2, 0)": true,
+    "nonzero_distinct_roots_(2, 1)": true,
+    "multiplicity_impossible_(2, 1)": true,
+    "trace_polynomial_-6": true,
+    "inverse_mod_quadratic_-6": true,
+    "trace_numerator_sign_-6": true,
+    "c_zero_forces_a_zero_-6": true,
+    "nonzero_distinct_roots_(-6, 0)": true,
+    "multiplicity_impossible_(-6, 0)": true,
+    "nonzero_distinct_roots_(-6, 1)": true,
+    "multiplicity_impossible_(-6, 1)": true,
+    "fixture_scalar_squares": true,
+    "fixture_new_class": true,
+    "normal_volume_square": true,
+    "normal_volume_even_central": true,
+    "two_chiral_trace_zero": true,
+    "fixture_pencil_invertible": true,
+    "fixture_x_minimal_polynomial": true,
+    "quartic_split_original": true,
+    "grade_operator_mixture": true,
+    "full10_to_quartic": true,
+    "actual_residual_nonzero": true,
+    "localization_quartic_order": true,
+    "localization_F_commutes": true,
+    "localization_pencil_factor": true,
+    "localization_commutator_identity": true,
+    "mixed_fixture_outside_exception": true,
+    "mixed_fixture_rejected_by_localization": true,
+    "singular_face_factor": true,
+    "singular_face_pencil": true
+  },
+  "fault_failures": {
+    "trace_sign": [
+      "trace_polynomial_2",
+      "multiplicity_impossible_(2, 0)",
+      "trace_polynomial_-6",
+      "multiplicity_impossible_(-6, 0)"
+    ],
+    "volume_coefficient": [
+      "quartic_split_original"
+    ],
+    "euler_factor": [
+      "full10_to_quartic"
+    ],
+    "omit_complement_grade": [
+      "quartic_split_original"
+    ],
+    "localization_factor": [
+      "localization_pencil_factor"
+    ]
+  },
+  "polynomial_certificate": [
+    {
+      "k": 2,
+      "H": "-340256*(a - 3*c)*(98*a + 585*c)",
+      "roots": [
+        "-585/98",
+        "3"
+      ],
+      "multiplicity_n": [
+        "-137372160/32228329",
+        "-619008/8843"
+      ]
+    },
+    {
+      "k": -6,
+      "H": "-784*(49*a + 495*c)*(259*a + 159*c)",
+      "roots": [
+        "-495/49",
+        "-159/259"
+      ],
+      "multiplicity_n": [
+        "19798080/1739761",
+        "-1058563584/1045519"
+      ]
+    }
+  ],
+  "dependency_sha256": {
+    "explorations/conditional-build/k2175-mixed-grade-euler-localization-2026-10-27.md": "1281a0d71a737f4a0fccebf3c474fe04b219200f007291858b0603da20456305",
+    "tests/channel-swings/k2173_general_mixed_port_constraints_probe.py": "ab1a50813f94d3199d52f405d81bb58e71077f48f7fb8d3cc01261b437af2022",
+    "tests/channel-swings/k2171_mixed_port_euler_filter_probe.py": "3ffe4989295e3516104c439348ad6a7251382fdd511f9a891fae45828968683f",
+    "tests/channel-swings/k2169_invertible_pencil_full_descent_probe.py": "b44d589073b48ee121b8c7ee6fc4aa4372eb2ca17169442d6611b7275410118a"
+  },
+  "probe_sha256": "95f88a61288f1ea90c55e8c5021df06c68e2488d910e6fd1ef4bd83ced1b20f7",
+  "universal_evidence": "Written finite-dimensional trace and quadratic-spectrum argument; exact coefficient and original-row controls supplement but do not replace independent proof review. General mixed-grade x and nonscalar squares remain open."
+}

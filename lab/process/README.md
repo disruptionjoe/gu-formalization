@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2175-mixed-grade-euler-localization](k2175-mixed-grade-euler-localization.json).
+- [k2176-detector-certified-convergence](k2176-detector-certified-convergence.json).
+
 - [k2173-general-mixed-port-constraints](k2173-general-mixed-port-constraints.json).
 - [k2174-joint-coherence-detector](k2174-joint-coherence-detector.json).
 

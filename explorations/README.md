@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2175-mixed-grade-euler-localization](conditional-build/k2175-mixed-grade-euler-localization-2026-10-27.md).
+- [k2176-detector-certified-convergence](conditional-build/k2176-detector-certified-convergence-2026-10-27.md).
+
 - [k2173-general-mixed-port-constraints](conditional-build/k2173-general-mixed-port-constraints-2026-10-27.md).
 - [k2174-joint-coherence-detector](conditional-build/k2174-joint-coherence-detector-2026-10-27.md).
 

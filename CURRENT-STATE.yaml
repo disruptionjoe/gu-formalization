@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 60beb182e982cecab95ab9d2b21cb30aa673f096
+revision_basis: 669c6eeea303cd1bf6451ff5ea4b1de24c9b8571
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,22 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2175 excludes every scalar-square mixed port whose nonzero anticommutator has only
+    grade4 or only grade8, even when the commutator mixes grades6+10. The released
+    mixed-grade filter localizes noncommutativity to r=(a+9c)/6, requires a Jordan defect
+    there for noncommuting x components, and constrains singular L by
+    (17a+18c)^2+324lambda^2=0; lambda may be imaginary. Original ten-row and order-sensitive
+    consumers verify transfer. Mixed x4+x8 and nonscalar squares remain open. K2176 proves
+    unique variable-probability fixed-squeeze detector optimization, attained all-occupation
+    tangent duality, and completeness of rational eventual-constant certificates.
+    A61-rectangle exact cover gives0.831032736932633356<E_min(exact
+    Delta=1/2)<0.831204005195033235, gap below0.000171269. Positive certificate multipliers
+    extend the identical bracket to signed or absolute contrast at least1/2 without proving
+    threshold attainment or frontier monotonicity. It supplies no effective convergence rate
+    or full-energy uniqueness. Vacuum output field energy only; source, ledger, canon and
+    apparatus accounting unchanged.
+
+    Historical predecessor (not live):
     K2173 reduces arbitrary scalar-square mixed ports to an ordered quartic Euler filter and
     excludes every genuinely mixed pair whose anticommutator has one grade4 or8 and
     commutator one grade6 or10, including singular and nilpotent commutators. Original full
@@ -17138,6 +17154,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2175-mixed-grade-euler-localization-2026-10-27.md
+  - lab/process/k2175-mixed-grade-euler-localization.json
+  - tests/channel-swings/k2175_mixed_grade_euler_localization_probe.py
+  - explorations/conditional-build/k2176-detector-certified-convergence-2026-10-27.md
+  - lab/process/k2176-detector-certified-convergence.json
+  - tests/channel-swings/k2176_detector_certified_convergence_probe.py
   - explorations/conditional-build/k2173-general-mixed-port-constraints-2026-10-27.md
   - lab/process/k2173-general-mixed-port-constraints.json
   - tests/channel-swings/k2173_general_mixed_port_constraints_probe.py
@@ -18692,6 +18714,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can the remaining commuting mixed-grade or exceptional-spectrum Clifford ports satisfy
+  all ten descent rows, and what new physical or structural gain dominates further
+  numerical refinement of the now-certifiably approximable detector energy optimum?
+
+  Historical predecessor (not live):
   Can remaining mixed-grade or nonscalar-square ports satisfy the ordered Euler filter and
   all ten descent equations, and can the now-required nonconstant infinite detector
   profile yield matching primal and dual energy bounds?
@@ -22605,6 +22632,21 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Do not requeue homogeneous anticommutators even with mixed commutator grades. For
+  scalar-square mixed x4+x8 apply the exceptional r-spectrum and singular-L hypersurface
+  filters, preserving possible imaginary lambda; all survivors still owe the ordered
+  quartic and all ten K2169 rows. Nonscalar squares, moving geometry, mixed odd/even ports
+  and changed reverse remain distinct alternatives. Detector fixed-squeeze uniqueness and
+  complete rational certificates are settled in the exact Delta=1/2 fixture; full-energy
+  uniqueness and effective rate are open. More decimals have lower payoff than a
+  structural squeeze theorem or stable autonomous physical-smear controller with explicit
+  preparation/reset. The same bracket also covers contrast magnitude at least1/2; retain
+  exact-contrast scope for optimizer uniqueness/completeness, and leave threshold
+  attainment/monotonicity open. Preserve native mobile integrability, thermal163/164,
+  restricted cosmological dynamics, source/full16cell/full20/K-C, native2+1/chirality,
+  physical quotient, mirrors/fullII/normaljets and exact wings.
+
+  Historical predecessor (not live):
   Do not requeue singular pencils, Z2/pure ports, scalar-square commuting or anticommuting
   pairs, or the new homogeneous anticommutator/commutator class. Test genuinely remaining
   mixed-grade or nonscalar-square candidates with the correct ordered quartic where

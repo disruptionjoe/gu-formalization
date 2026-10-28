@@ -6,6 +6,39 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2175--K2176: Mixed-grade localization and complete energy certification (2026-10-27)
+
+K2175 excludes every scalar-square mixed port whose nonzero anticommutator has only
+grade4 or only grade8, even when the commutator mixes grades6+10. The released
+mixed-grade filter localizes noncommutativity to r=(a+9c)/6, requires a Jordan defect
+there for noncommuting x components, and constrains singular L by
+(17a+18c)^2+324lambda^2=0; lambda may be imaginary. Original ten-row and order-sensitive
+consumers verify transfer. Mixed x4+x8 and nonscalar squares remain open. K2176 proves
+unique variable-probability fixed-squeeze detector optimization, attained all-occupation
+tangent duality, and completeness of rational eventual-constant certificates.
+A61-rectangle exact cover gives0.831032736932633356<E_min(exact
+Delta=1/2)<0.831204005195033235, gap below0.000171269. Positive certificate multipliers
+extend the identical bracket to signed or absolute contrast at least1/2 without proving
+threshold attainment or frontier monotonicity. It supplies no effective convergence rate
+or full-energy uniqueness. Vacuum output field energy only; source, ledger, canon and
+apparatus accounting unchanged.
+
+- [K2175](explorations/conditional-build/k2175-mixed-grade-euler-localization-2026-10-27.md).
+- [K2176](explorations/conditional-build/k2176-detector-certified-convergence-2026-10-27.md).
+
+Two read-only field specialists derived and checked candidate arguments; a third
+independently reconstructed the proofs and inspected actual notes/probes/reports.
+Thirty-five Clifford controls include corrected trace factorizations, original ten-row
+consumers and mixed-grade localization. Ten detector controls plus61 exact rational
+rectangles certify the global bound, production dual-gap identity, infinite tails,
+coverage, multiplier signs and outcome-swap symmetry. Fifteen genuine data/equation
+faults fail after green baselines. Universal written proofs, exact computations and
+finite instrument controls remain distinct. No proof-assistant, external-expert,
+novelty, remote-CI, physical quotient or apparatus-cost claim.
+
+Earlier sections preserve historical result snapshots; the current scope is above.
+
+
 ## K2173--K2174: Mixed-port class exclusion and joint-coherence energy (2026-10-27)
 
 K2173 reduces arbitrary scalar-square mixed ports to an ordered quartic Euler filter and
