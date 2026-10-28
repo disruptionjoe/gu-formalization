@@ -1,4 +1,9 @@
 
+- [k2206_changed_raw_mass_construction_probe](k2206_changed_raw_mass_construction_probe.py).
+- [k2207_detector_nonlinear_stability_probe](k2207_detector_nonlinear_stability_probe.py).
+- [k2208_grade_constrained_pencil_reconstruction_probe](k2208_grade_constrained_pencil_reconstruction_probe.py).
+
+
 - [k2203_observed_lower_pairing_compatibility_probe](k2203_observed_lower_pairing_compatibility_probe.py).
 - [k2204_detector_infinite_stability_certificate_probe](k2204_detector_infinite_stability_certificate_probe.py).
 - [k2205_ordered_pencil_real_constraints_probe](k2205_ordered_pencil_real_constraints_probe.py).

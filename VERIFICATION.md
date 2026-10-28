@@ -5,6 +5,19 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2206--K2208: Massive sector, nonlinear stability and real-grade reconstruction (2026-10-28)
+
+K2206 constructs one changed common raw coefficient with the original lower return, yielding an invariant 1152-dimensional massive positive-current sector; classifies the two admissible Clifford axes and constant formal pairings, proves sharp positive-sector maximality, and supplies global H1 unitary evolution with finite propagation. Trace-Hq compatibility does not select a source-owned fermion action or physical quotient. K2207 proves an explicit nonlinear tangent lower model and conditional strict local minimum in a relative-cap topology from the infinite Schur margin. The actual rational fixture remains nonstationary: a certified finite energy descent exercises the indispensable first-variation term. K2208 gives an exact real linear kernel plus degree8 Pfaffian criterion for prescribed real grade3/7 pencil reconstruction, including singular-basis, central-phase and original-Euler countercontrols. No GU physics or ledger promotion follows.
+
+- [K2206](explorations/conditional-build/k2206-changed-raw-mass-construction-2026-10-28.md).
+- [K2207](explorations/conditional-build/k2207-detector-nonlinear-stability-2026-10-28.md).
+- [K2208](explorations/conditional-build/k2208-grade-constrained-pencil-reconstruction-2026-10-28.md).
+
+Three read-only internal specialists cross-reviewed the actual mathematical arguments and probes. Fresh serialized K2206/K2207/K2208 replays pass 282/31/27 controls and 6/7/6 genuine equation or data faults (340 controls,19 faults). K2207 consumes the inherited all-tail margin with dependency hashes; it does not rerun the unchanged Galerkin bank. Universal proofs, finite exact controls and outward interval witnesses are distinct. No proof-assistant, external-expert, novelty, heavy/Lean or remote-CI certification.
+
+Earlier sections preserve historical result snapshots; the current scope is above.
+
+
 ## K2203--K2205: Raw pairings, infinite stability and real pencils (2026-10-28)
 
 K2203 classifies every smooth local formal pairing for the supplied raw observed coefficient Omega_k=a_k I+delta_(k,0)mu gamma0 with its original shared return. For nonzero mu somewhere, all pairings have C768 in their radical; exact scalar drift leaves41472 bilinear and20592 symmetric forms, maximum rank1152 and balanced inertia576/576. Nonexact real drift leaves only the zero global form. The same fixed V1152 evolution admits no nonzero positive-semidefinite local conserved-current metric; a positive homogeneous-ODE metric survives but fails spatial flux compatibility. K2204 proves explicit energy/complementary-weight coercivity, an infinite constrained2x2 Schur criterion and convergent whole-tail residual certificates under certified strict-monotone tail bounds. A supplied nonstationary profile at truly minimized squeezes has S>6I with support0..4 and residual sum<53/50; this is curvature, not optimizer certification. K2205 constructs an actual real grade3/7 pencil with16 distinct full32 eigenvalues each multiplicity2 and none on the unit circle, explicitly rejected by the Euler filter. Singular-safe image tests characterize abstract invertible Euler factors; one chiral solution admits a norm-one opposite-half completion. Prescribed Clifford-pencil reconstruction, paired-Jordan tests and all ten original rows remain separate. Source, ledger0.263, canon and physical quotient unchanged.

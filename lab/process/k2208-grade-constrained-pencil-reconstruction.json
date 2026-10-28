@@ -1,0 +1,67 @@
+{
+  "result_id": "K2208",
+  "status": "exact_prescribed_real_grade_reconstruction",
+  "checks": {
+    "actual_volume_half_sign": true,
+    "all120_alternating": true,
+    "complex_Phi_isomorphism": true,
+    "normal_signature": true,
+    "all_gamma_anticommutators": true,
+    "real_invertible_trivector": true,
+    "nonalternating_image_rejected": true,
+    "real_scalar_complete120_kernel": true,
+    "nonreal_scalar_zero_kernel": true,
+    "entrywise_reality_is_not_real_form": true,
+    "nonreal_full_phase_norm_one": true,
+    "nonreal_paired_Jordan_control": true,
+    "real_scalar_both_halves": true,
+    "real_scalar_full_reconstruction": true,
+    "both_basis_trivectors_nilpotent": true,
+    "singular_basis_but_invertible_sum": true,
+    "one_dimensional_full_rejection": true,
+    "two_dimensional_grid_witness": true,
+    "explicit_balanced_grid_witness": true,
+    "degree8_simplex_cardinality": true,
+    "degree8_simplex_unisolvent": true,
+    "actual_grade_real_form_equation": true,
+    "actual392_real_equations": true,
+    "actual_coefficient_recovery": true,
+    "actual_full32_reconstruction": true,
+    "actual_both_pencil_blocks_invertible": true,
+    "reconstructed_actual_pencil_still_Euler_rejected": true
+  },
+  "fault_failures": {
+    "omit_alternation_condition": [
+      "diagonal image is not alternating"
+    ],
+    "omit_real_grade_condition": [
+      "nonreal false positive"
+    ],
+    "wrong_half_sign": [
+      "original full pencil equation"
+    ],
+    "basis_only_invertibility": [
+      "invertible combination lost"
+    ],
+    "linear_coefficient_fault": [
+      "actual original kernel witness"
+    ],
+    "outside_grade_pencil_fault": [
+      "original full pencil equation"
+    ]
+  },
+  "chirality_epsilon": "-1",
+  "grid_witness": [
+    1,
+    7
+  ],
+  "actual_Euler_residual00": "15850252893220743860640/27955676769824869 - 1581983112104607593520*I/27955676769824869",
+  "dependency_sha256": {
+    "explorations/conditional-build/k2208-grade-constrained-pencil-reconstruction-2026-10-28.md": "55c3e77a4c38d42f9a5e1f96a8c583ee773077793234bc484e929d04aabe5f6c",
+    "explorations/conditional-build/k2205-ordered-pencil-real-constraints-2026-10-28.md": "d81fe0ffab7b5f2e04fb6c7069797dd7a5fd28cdf9b0292512b36d4d81b0fb05",
+    "explorations/conditional-build/k2202-ordered-clifford-adapter-consequences-2026-10-28.md": "af902183850c9dbda9d2e00477192341afbf6c04f6201189aeb0ee3c8d867590",
+    "explorations/conditional-build/k2197-general-ordered-adapter-constraints-2026-10-28.md": "718e69e113e98bcd53b5acf2e0a3be5ad83e6b3c944e20a6c4360be73819429e"
+  },
+  "probe_sha256": "929641ddd6032467c3fc2d8cbad44e92235d70f385803993cb997a8ae7d154da",
+  "evidence_kinds": "Universal real-form reconstruction and degree8 interpolation proof; exact120-blade map and complete central kernels; exact specified-subspace grids; actual prior pencil reconstruction with retained Euler rejection; genuine data/equation faults. No nonlinear all10 solution or efficient-complexity claim."
+}

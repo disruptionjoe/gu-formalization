@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2206-changed-raw-mass-construction-2026-10-28](conditional-build/k2206-changed-raw-mass-construction-2026-10-28.md).
+- [k2207-detector-nonlinear-stability-2026-10-28](conditional-build/k2207-detector-nonlinear-stability-2026-10-28.md).
+- [k2208-grade-constrained-pencil-reconstruction-2026-10-28](conditional-build/k2208-grade-constrained-pencil-reconstruction-2026-10-28.md).
+
+
 - [k2203-observed-lower-pairing-compatibility-2026-10-28](conditional-build/k2203-observed-lower-pairing-compatibility-2026-10-28.md).
 - [k2204-detector-infinite-stability-certificate-2026-10-28](conditional-build/k2204-detector-infinite-stability-certificate-2026-10-28.md).
 - [k2205-ordered-pencil-real-constraints-2026-10-28](conditional-build/k2205-ordered-pencil-real-constraints-2026-10-28.md).
