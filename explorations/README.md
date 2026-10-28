@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2200-observed-principal-pairing-freedom-2026-10-28](conditional-build/k2200-observed-principal-pairing-freedom-2026-10-28.md).
+- [k2201-detector-joint-variational-structure-2026-10-28](conditional-build/k2201-detector-joint-variational-structure-2026-10-28.md).
+- [k2202-ordered-clifford-adapter-consequences-2026-10-28](conditional-build/k2202-ordered-clifford-adapter-consequences-2026-10-28.md).
+
+
 - [k2197-general-ordered-adapter-constraints-2026-10-28](conditional-build/k2197-general-ordered-adapter-constraints-2026-10-28.md).
 - [k2198-detector-profile-certificates-2026-10-28](conditional-build/k2198-detector-profile-certificates-2026-10-28.md).
 - [k2199-degree-dual-construction-boundary-2026-10-28](conditional-build/k2199-degree-dual-construction-boundary-2026-10-28.md).

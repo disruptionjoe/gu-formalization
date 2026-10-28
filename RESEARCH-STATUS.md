@@ -6,6 +6,25 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2200--K2202: Conditional research results (2026-10-28)
+
+K2200 completely classifies pairings for the four observed directions of the fixed raw1920 principal operator:83968 bilinear and41824 symmetric dimensions, including spinor-sensitive and degenerate forms. Every symmetric form has balanced inertia; every nondegenerate one has960/960. Fixed-operator Green compatibility forces these forms constant along the observed directions. K2201 reduces every finite detector Hessian negative index to at most two, gives an exact2x2 Schur test with a linear-arithmetic tridiagonal implementation, and certifies a smooth strictly interior negative-curvature profile after truly optimizing both squeezes. It also proves the true optimizer complement tail has a controlled geometric-times-power prefactor. K2202 proves paired Jordan blocks on each chiral16 half for every admissible ordered adapter pencil, with degree8 chiral annihilators and reciprocal-conjugate transport. General noncommuting adapters and joint detector optimality remain open. Source, ledger0.263, canon and physical quotient unchanged.
+
+- [K2200](explorations/conditional-build/k2200-observed-principal-pairing-freedom-2026-10-28.md).
+- [K2201](explorations/conditional-build/k2201-detector-joint-variational-structure-2026-10-28.md).
+- [K2202](explorations/conditional-build/k2202-ordered-clifford-adapter-consequences-2026-10-28.md).
+
+Three read-only mathematical specialists constructed independent arcs and cross-reviewed the actual other artifacts. K2200 has1002 exact controls,32 independent exact scalar systems and4 detected mutations; K2201 has28 exact controls and7 detected mutations plus an actual rational-interval full-tail negative-curvature witness; K2202 has339 exact controls and3 detected mutations, including all normal grade3/7 pairings and an actual noncommuting port. Universal proofs, actual-port controls, abstract matrix controls, reused constructions and rigorous interval witnesses are distinguished. No proof-assistant, external-expert, novelty, heavy-build or remote-CI certification.
+
+| Result | Status | Boundary |
+| --- | --- | --- |
+| K2200 | Complete observed pairing classification | Fixed raw principal operator; balanced formal inertia |
+| K2201 | Rank-two relaxation and controlled tail | Finite stability criterion; no joint global optimum |
+| K2202 | Paired Jordan necessity | General noncommuting class remains open |
+
+Earlier sections are historical.
+
+
 ## K2197--K2199: Conditional research results (2026-10-28)
 
 K2197 excludes every nonzero real port in a four-parameter genuinely noncommuting normal-trivector support family, retaining singular-pencil and all parameter faces; general noncommuting adapters remain open. K2198 turns finite primal-dual gaps into convergent optimizer-coordinate boxes and two-sided whole-tail ratio bounds. At the specified fixed rational squeezes, the true optimizer satisfies (1/200)*9^(-m)<=1-e_(2+m)<=(1/8)*4^(-m) for every m>=0; no joint optimum or new energy bracket is claimed. K2199 classifies ALL local bilinear pairings for the fixed full fourteen-direction raw principal operator as cH, including initially mixed-degree, nonsymmetric and degenerate forms. Its exact spectral degree projector closes the mixed-degree successor. Nonzero real forms have inertia960/960. K2021 already supplies the degree-dual map; changing only its pairing cannot repair the fixed model. Source, ledger0.263, canon and physical quotient unchanged.

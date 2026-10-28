@@ -1,4 +1,9 @@
 
+- [k2200_observed_principal_pairing_freedom_probe](k2200_observed_principal_pairing_freedom_probe.py).
+- [k2201_detector_joint_variational_structure_probe](k2201_detector_joint_variational_structure_probe.py).
+- [k2202_ordered_clifford_adapter_consequences_probe](k2202_ordered_clifford_adapter_consequences_probe.py).
+
+
 - [k2197_general_ordered_adapter_constraints_probe](k2197_general_ordered_adapter_constraints_probe.py).
 - [k2198_detector_profile_certificates_probe](k2198_detector_profile_certificates_probe.py).
 - [k2199_degree_dual_construction_boundary_probe](k2199_degree_dual_construction_boundary_probe.py).

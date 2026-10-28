@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: c43889de9bc15f9a6307e7ba3c4c86f4df0df0e7
+revision_basis: c18cbc5f40abe9db4bdef66daf4429d59a8eb189
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,7 +118,20 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
-    K2197 excludes every nonzero real port in a four-parameter genuinely noncommuting
+    K2200 completely classifies pairings for the four observed directions of the fixed
+    raw1920 principal operator:83968 bilinear and41824 symmetric dimensions, including
+    spinor-sensitive and degenerate forms. Every symmetric form has balanced inertia;
+    every nondegenerate one has960/960. Fixed-operator Green compatibility forces these
+    forms constant along the observed directions. K2201 reduces every finite detector
+    Hessian negative index to at most two, gives an exact2x2 Schur test with a
+    linear-arithmetic tridiagonal implementation, and certifies a smooth strictly
+    interior negative-curvature profile after truly optimizing both squeezes. It also
+    proves the true optimizer complement tail has a controlled geometric-times-power
+    prefactor. K2202 proves paired Jordan blocks on each chiral16 half for every
+    admissible ordered adapter pencil, with degree8 chiral annihilators and
+    reciprocal-conjugate transport. General noncommuting adapters and joint detector
+    optimality remain open. Source, ledger0.263, canon and physical quotient unchanged.
+    Historical predecessor (not live): K2197 excludes every nonzero real port in a four-parameter genuinely noncommuting
     normal-trivector support family, retaining singular-pencil and all parameter faces;
     general noncommuting adapters remain open. K2198 turns finite primal-dual gaps into
     convergent optimizer-coordinate boxes and two-sided whole-tail ratio bounds. At the
@@ -17283,6 +17296,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2200-observed-principal-pairing-freedom-2026-10-28.md
+  - explorations/conditional-build/k2201-detector-joint-variational-structure-2026-10-28.md
+  - explorations/conditional-build/k2202-ordered-clifford-adapter-consequences-2026-10-28.md
+  - lab/process/k2200-observed-principal-pairing-freedom.json
+  - lab/process/k2201-detector-joint-variational-structure.json
+  - lab/process/k2202-ordered-clifford-adapter-consequences.json
   - explorations/conditional-build/k2197-general-ordered-adapter-constraints-2026-10-28.md
   - explorations/conditional-build/k2198-detector-profile-certificates-2026-10-28.md
   - explorations/conditional-build/k2199-degree-dual-construction-boundary-2026-10-28.md
@@ -18891,7 +18910,12 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can a genuinely changed principal/core construction or another general noncommuting
+  Can an actual observed lower coefficient exploit the now completely classified pairing
+  family, or a changed principal/core meet the shared source constraints? Can the
+  detector2x2 stability reduction and controlled true tail support a practical certified
+  joint optimizer? Which actual noncommuting ports survive the paired-Jordan and
+  original-row conditions?
+  Historical predecessor (not live): Can a genuinely changed principal/core construction or another general noncommuting
   support satisfy its actual shared equations after complete fixed-principal pairing
   rigidity? Can the finite optimizer-coordinate and geometric-tail certificates enable a
   practical certified detector solver or resolve joint-squeeze structure?
@@ -22851,7 +22875,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Do not requeue the K2197 real support family or any local common-pairing ansatz for
+  Retire further pairing searches for the unchanged full14 operator or the unchanged
+  observed-four principal class: K2199 and K2200 classify them completely. Test a
+  concrete shared lower coefficient against the full observed pairing family, or change
+  the principal/core construction; balanced formal inertia is not a positive evolution
+  or physical-quotient verdict. For the detector, combine K2198 profile/tail enclosures
+  with K2201 finite2x2 stability tests and tridiagonal solves in a practical certified
+  optimizer; all-prefix positivity, joint uniqueness and apparatus/preparation/reset
+  accounting remain distinct. For general noncommuting adapters combine K2202
+  paired-Jordan and reciprocal-conjugate constraints with K2197 ordered filters and all
+  ten original rows; do not infer a fourfold spectrum, simultaneous triangularization or
+  class exhaustion. Preserve scalar saturation/inverse, endpoint, weak353/170, inherited
+  half bracket, thermal163/164, source/full16cell/full20/K-C, native2+1/chirality,
+  physical quotient, mirrors/fullII/normaljets and exact wings.
+  Historical predecessor (not live): Do not requeue the K2197 real support family or any local common-pairing ansatz for
   the unchanged full14 principal operator: K2199 proves G=cH without degree or symmetry
   assumptions. K2021 already constructs R0/R1; compare a genuinely changed
   principal/core construction, or a precisely stated observed-four-direction

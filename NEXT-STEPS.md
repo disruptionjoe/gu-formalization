@@ -5,6 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-10-28: OBSERVED PAIRINGS, DETECTOR STABILITY AND PAIRED JORDAN BLOCKS.**
+> Retire further pairing searches for the unchanged full14 operator or the unchanged observed-four principal class: K2199 and K2200 classify them completely. Test a concrete shared lower coefficient against the full observed pairing family, or change the principal/core construction; balanced formal inertia is not a positive evolution or physical-quotient verdict. For the detector, combine K2198 profile/tail enclosures with K2201 finite2x2 stability tests and tridiagonal solves in a practical certified optimizer; all-prefix positivity, joint uniqueness and apparatus/preparation/reset accounting remain distinct. For general noncommuting adapters combine K2202 paired-Jordan and reciprocal-conjugate constraints with K2197 ordered filters and all ten original rows; do not infer a fourfold spectrum, simultaneous triangularization or class exhaustion. Preserve scalar saturation/inverse, endpoint, weak353/170, inherited half bracket, thermal163/164, source/full16cell/full20/K-C, native2+1/chirality, physical quotient, mirrors/fullII/normaljets and exact wings.
+> Earlier banners are historical; use this current condition.
+
+
 > **2026-10-28: GENERAL SUPPORT EXCLUSION, OPTIMIZER TAILS AND FULL PAIRING RIGIDITY.**
 > Do not requeue the K2197 real support family or any local common-pairing ansatz for the unchanged full14 principal operator: K2199 proves G=cH without degree or symmetry assumptions. K2021 already constructs R0/R1; compare a genuinely changed principal/core construction, or a precisely stated observed-four-direction restriction, against other general noncommuting original-ten-row supports. Detector optimizer-coordinate and whole-tail certification are now effective and concretely demonstrated; useful successors are a practical certified solver exploiting these bounds, joint-squeeze structure, or a shared apparatus/preparation/reset account. Preserve scalar saturation/inverse, endpoint, weak353/170, inherited half bracket, thermal163/164, source/full16cell/full20/K-C, native2+1/chirality, physical quotient, mirrors/fullII/normaljets and exact wings.
 > Earlier banners are historical; use this current condition.

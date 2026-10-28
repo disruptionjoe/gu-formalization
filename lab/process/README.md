@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2200-observed-principal-pairing-freedom](k2200-observed-principal-pairing-freedom.json).
+- [k2201-detector-joint-variational-structure](k2201-detector-joint-variational-structure.json).
+- [k2202-ordered-clifford-adapter-consequences](k2202-ordered-clifford-adapter-consequences.json).
+
+
 - [k2197-general-ordered-adapter-constraints](k2197-general-ordered-adapter-constraints.json).
 - [k2198-detector-profile-certificates](k2198-detector-profile-certificates.json).
 - [k2199-degree-dual-construction-boundary](k2199-degree-dual-construction-boundary.json).
