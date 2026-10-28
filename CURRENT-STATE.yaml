@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 5112a84e6f936e20059affbc7448a76b6c77c133
+revision_basis: 60beb182e982cecab95ab9d2b21cb30aa673f096
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,21 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2173 reduces arbitrary scalar-square mixed ports to an ordered quartic Euler filter and
+    excludes every genuinely mixed pair whose anticommutator has one grade4 or8 and
+    commutator one grade6 or10, including singular and nilpotent commutators. Original full
+    ten-row controls include a mixed-grade order-sensitive fixture. General nonscalar-square
+    and remaining mixed-grade classes stay open. K2174 proves unique fixed-squeeze
+    joint-coherence optimization and all-coordinate interiority when a uniformly interior
+    same-moment reference exists; positive contrast then forbids any eventual constant tail
+    and supplies an explicit three-coordinate descent. For the exact Delta=1/2 fixture,
+    endpoint descent shows every global energy optimizer satisfies these properties. A
+    two-outcome tangent dual with exact infinite tails and2304 rational squeeze boxes
+    gives0.75913<E_min(1/2)<0.83121; actual optimum and full-energy uniqueness remain open.
+    These are vacuum output field-energy bounds, not a threshold-uniform or apparatus-cost
+    result. Source, ledger and canon remain unchanged.
+
+    Historical predecessor (not live):
     K2171 derives an ordered Euler contraction of all ten full mixed-port equations and
     excludes every genuinely mixed scalar-square pair whose components commute or
     anticommute, including nondecomposable and nilpotent cases. All coordinate two-blade
@@ -17123,6 +17138,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2173-general-mixed-port-constraints-2026-10-27.md
+  - lab/process/k2173-general-mixed-port-constraints.json
+  - tests/channel-swings/k2173_general_mixed_port_constraints_probe.py
+  - explorations/conditional-build/k2174-joint-coherence-detector-2026-10-27.md
+  - lab/process/k2174-joint-coherence-detector.json
+  - tests/channel-swings/k2174_joint_coherence_detector_probe.py
   - explorations/conditional-build/k2171-mixed-port-euler-filter-2026-10-27.md
   - lab/process/k2171-mixed-port-euler-filter.json
   - tests/channel-swings/k2171_mixed_port_euler_filter_probe.py
@@ -18671,6 +18692,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can remaining mixed-grade or nonscalar-square ports satisfy the ordered Euler filter and
+  all ten descent equations, and can the now-required nonconstant infinite detector
+  profile yield matching primal and dual energy bounds?
+
+  Historical predecessor (not live):
   Can the remaining noncommuting nonscalar-square mixed ports survive the Euler filter and
   all ten rows, and can a full two-outcome coherence optimization close the finite-budget
   energy bracket beyond the solved fidelity relaxation?
@@ -22579,6 +22605,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Do not requeue singular pencils, Z2/pure ports, scalar-square commuting or anticommuting
+  pairs, or the new homogeneous anticommutator/commutator class. Test genuinely remaining
+  mixed-grade or nonscalar-square candidates with the correct ordered quartic where
+  applicable, then all ten K2169 equations; moving geometry, odd/even mixtures and changed
+  reverse are distinct alternatives. For detectors, use full joint-coherence recurrence
+  and infinite-tail dual certificates; at exact Delta=1/2 no optimum has any saturated
+  entry or eventual constant tail. Constant-tail witnesses remain approximations with
+  explicit descent, and fixed-squeeze uniqueness is not full-energy uniqueness. Preserve
+  exact-contrast versus threshold scope and compare stable autonomous physical-smear
+  control including preparation/reset. Native mobile integrability, thermal163/164,
+  restricted cosmological dynamics, source/full16cell/full20/K-C, native2+1/chirality,
+  physical quotient, mirrors/fullII/normaljets and exact-wing debts remain.
+
+  Historical predecessor (not live):
   Use K2171 Euler filter for early rejection and all ten K2169 equations for any survivor.
   Do not requeue singular pencils, Z2/pure ports, scalar-square commuting or anticommuting
   mixed pairs, or fixed-geometry derivative repair. Remaining even-port candidates need at

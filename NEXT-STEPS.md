@@ -5,6 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-10-27: HOMOGENEOUS MIXED-PORT EXCLUSION AND JOINT-COHERENCE ENERGY.**
+> Do not requeue singular pencils, Z2/pure ports, scalar-square commuting or anticommuting pairs, or the new homogeneous anticommutator/commutator class. Test genuinely remaining mixed-grade or nonscalar-square candidates with the correct ordered quartic where applicable, then all ten K2169 equations; moving geometry, odd/even mixtures and changed reverse are distinct alternatives. For detectors, use full joint-coherence recurrence and infinite-tail dual certificates; at exact Delta=1/2 no optimum has any saturated entry or eventual constant tail. Constant-tail witnesses remain approximations with explicit descent, and fixed-squeeze uniqueness is not full-energy uniqueness. Preserve exact-contrast versus threshold scope and compare stable autonomous physical-smear control including preparation/reset. Native mobile integrability, thermal163/164, restricted cosmological dynamics, source/full16cell/full20/K-C, native2+1/chirality, physical quotient, mirrors/fullII/normaljets and exact-wing debts remain.
+> Earlier banners are historical; use this current condition.
+
+
 > **2026-10-27: MIXED-PORT CLASS EXCLUSIONS AND MEAN-CONSTRAINED FIDELITY.**
 > Use K2171 Euler filter for early rejection and all ten K2169 equations for any survivor. Do not requeue singular pencils, Z2/pure ports, scalar-square commuting or anticommuting mixed pairs, or fixed-geometry derivative repair. Remaining even-port candidates need at least one nonscalar square or neither commutation relation; moving geometry, changed reverse and mixed odd/even ports remain alternatives. For detectors, optimize both outcome coherences with actual moment and cap constraints, or certify the full squeeze/effect problem; the exact mean-fidelity profile is provably not energy-optimal. Preserve exact-contrast versus threshold bounds and compare stable autonomous physical-smear control with clock/preparation/reset. Native mobile integrability, thermal163/164, restricted cosmological dynamics, source/full16cell/full20/K-C, native2+1/chirality, physical quotient, mirrors/fullII/normaljets and exact-wing debts remain.
 > Earlier banners are historical; use this current condition.

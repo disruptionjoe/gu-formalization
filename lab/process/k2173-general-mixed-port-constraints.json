@@ -1,0 +1,169 @@
+{
+  "result_id": "K2173",
+  "status": "conditional_exact_controls",
+  "checks": {
+    "invertible_y_scalar_squares": true,
+    "invertible_y_genuine_xy": true,
+    "invertible_y_homogeneous_xy": true,
+    "invertible_y_central_x": true,
+    "invertible_y_y_square": true,
+    "invertible_y_pencil_square": true,
+    "invertible_y_quartic_equals_Euler": true,
+    "invertible_y_original10_rows": true,
+    "invertible_y_full_residual_nonzero": true,
+    "invertible_y_scalar_projection": true,
+    "nilpotent_y_scalar_squares": true,
+    "nilpotent_y_genuine_xy": true,
+    "nilpotent_y_homogeneous_xy": true,
+    "nilpotent_y_central_x": true,
+    "nilpotent_y_y_square": true,
+    "nilpotent_y_pencil_square": true,
+    "nilpotent_y_quartic_equals_Euler": true,
+    "nilpotent_y_original10_rows": true,
+    "nilpotent_y_full_residual_nonzero": true,
+    "singular_y_not_singular_pencil": true,
+    "nilpotent_y_scalar_projection": true,
+    "mixed_grades_scalar_squares": true,
+    "mixed_grades_genuine_xy": true,
+    "mixed_grades_order_sensitive": true,
+    "mixed_grades_central_x": true,
+    "mixed_grades_y_square": true,
+    "mixed_grades_pencil_square": true,
+    "mixed_grades_quartic_equals_Euler": true,
+    "mixed_grades_original10_rows": true,
+    "mixed_grades_full_residual_nonzero": true,
+    "mixed_grades_scalar_projection": true,
+    "nonzero_gamma_(2, -2)": true,
+    "factor_roots_(2, -2)": true,
+    "no_projective_common_root_(2, -2)": true,
+    "resultant_of_g_and_square_(2, -2)": true,
+    "r_zero_degenerate_(2, -2)": true,
+    "nonzero_gamma_(2, -10)": true,
+    "factor_roots_(2, -10)": true,
+    "no_projective_common_root_(2, -10)": true,
+    "resultant_of_g_and_square_(2, -10)": true,
+    "r_zero_degenerate_(2, -10)": true,
+    "nonzero_gamma_(-6, -2)": true,
+    "factor_roots_(-6, -2)": true,
+    "no_projective_common_root_(-6, -2)": true,
+    "resultant_of_g_and_square_(-6, -2)": true,
+    "r_zero_degenerate_(-6, -2)": true,
+    "nonzero_gamma_(-6, -10)": true,
+    "factor_roots_(-6, -10)": true,
+    "no_projective_common_root_(-6, -10)": true,
+    "resultant_of_g_and_square_(-6, -10)": true,
+    "r_zero_degenerate_(-6, -10)": true,
+    "reversion_parities": true
+  },
+  "fault_failures": {
+    "xy_coefficient": [
+      "invertible_y_quartic_equals_Euler",
+      "invertible_y_original10_rows",
+      "nilpotent_y_quartic_equals_Euler",
+      "nilpotent_y_original10_rows",
+      "mixed_grades_quartic_equals_Euler",
+      "mixed_grades_original10_rows"
+    ],
+    "quartic_factor": [
+      "invertible_y_quartic_equals_Euler",
+      "invertible_y_original10_rows",
+      "nilpotent_y_quartic_equals_Euler",
+      "nilpotent_y_original10_rows",
+      "mixed_grades_quartic_equals_Euler",
+      "mixed_grades_original10_rows"
+    ],
+    "extra_eta": [
+      "invertible_y_original10_rows",
+      "nilpotent_y_original10_rows",
+      "mixed_grades_original10_rows"
+    ],
+    "odd_coefficient": [
+      "nonzero_gamma_(2, -2)",
+      "factor_roots_(2, -2)",
+      "nonzero_gamma_(2, -10)",
+      "factor_roots_(2, -10)",
+      "nonzero_gamma_(-6, -2)",
+      "factor_roots_(-6, -2)",
+      "nonzero_gamma_(-6, -10)",
+      "factor_roots_(-6, -10)"
+    ],
+    "Kx_product_order": [
+      "mixed_grades_quartic_equals_Euler",
+      "mixed_grades_original10_rows"
+    ]
+  },
+  "polynomial_certificate": [
+    {
+      "k": 2,
+      "l": -2,
+      "gamma": 434,
+      "H": "6944*(49*a - 27*c)*(98*a + 585*c)",
+      "R": "(49*a - 225*c)*(49*a - 81*c)*(49*a**2 - 105*a*c + 16*c**2)",
+      "roots": [
+        "-585/98",
+        "27/49"
+      ],
+      "R_at_roots": [
+        "361994993595/784",
+        "-14134824/49"
+      ],
+      "H_at_c0": "33345088*a**2"
+    },
+    {
+      "k": 2,
+      "l": -10,
+      "gamma": 2114,
+      "H": "1568*(98*a + 585*c)*(1309*a - 2055*c)",
+      "R": "(49*a - 225*c)*(49*a - 81*c)*(49*a**2 - 105*a*c + 16*c**2)",
+      "roots": [
+        "-585/98",
+        "2055/1309"
+      ],
+      "R_at_roots": [
+        "361994993595/784",
+        "-20714624615880/1222830961"
+      ],
+      "H_at_c0": "201146176*a**2"
+    },
+    {
+      "k": -6,
+      "l": -2,
+      "gamma": 266,
+      "H": "336*(49*a + 495*c)*(343*a - 69*c)",
+      "R": "(49*a - 225*c)*(2401*a**3 - 11858*a**2*c + 8449*a*c**2 - 1296*c**3)",
+      "roots": [
+        "-495/49",
+        "69/343"
+      ],
+      "R_at_roots": [
+        "133077012480/49",
+        "1434356568/117649"
+      ],
+      "H_at_c0": "5647152*a**2"
+    },
+    {
+      "k": -6,
+      "l": -10,
+      "gamma": 1946,
+      "H": "784*(49*a + 495*c)*(1351*a - 1245*c)",
+      "R": "(49*a - 225*c)*(2401*a**3 - 11858*a**2*c + 8449*a*c**2 - 1296*c**3)",
+      "roots": [
+        "-495/49",
+        "1245/1351"
+      ],
+      "R_at_roots": [
+        "133077012480/49",
+        "424482009302520/1387488001"
+      ],
+      "H_at_c0": "51900016*a**2"
+    }
+  ],
+  "dependency_sha256": {
+    "explorations/conditional-build/k2173-general-mixed-port-constraints-2026-10-27.md": "17cf4b36bf854cbf8e6d7b64bae54ce48e5ea00034d92c21c28bbfa988b91548",
+    "tests/channel-swings/k2171_mixed_port_euler_filter_probe.py": "3ffe4989295e3516104c439348ad6a7251382fdd511f9a891fae45828968683f",
+    "tests/channel-swings/k2169_invertible_pencil_full_descent_probe.py": "b44d589073b48ee121b8c7ee6fc4aa4372eb2ca17169442d6611b7275410118a",
+    "tests/channel-swings/k2165_even_clifford_adapter_descent_probe.py": "48af4af289526570b68727a879d569c2c6b16c68098b1d4fce887769716ae389"
+  },
+  "probe_sha256": "ab1a50813f94d3199d52f405d81bb58e71077f48f7fb8d3cc01261b437af2022",
+  "universal_evidence": "Independent written central-algebra, reversion and trace/spectral proof plus exact projective root exclusions; finite original-row controls do not exclude all mixed ports."
+}

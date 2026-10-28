@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2173-general-mixed-port-constraints](conditional-build/k2173-general-mixed-port-constraints-2026-10-27.md).
+- [k2174-joint-coherence-detector](conditional-build/k2174-joint-coherence-detector-2026-10-27.md).
+
 - [k2171-mixed-port-euler-filter](conditional-build/k2171-mixed-port-euler-filter-2026-10-27.md).
 - [k2172-mean-constrained-fidelity](conditional-build/k2172-mean-constrained-fidelity-2026-10-27.md).
 

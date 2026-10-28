@@ -6,6 +6,39 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2173--K2174: Mixed-port class exclusion and joint-coherence energy (2026-10-27)
+
+K2173 reduces arbitrary scalar-square mixed ports to an ordered quartic Euler filter and
+excludes every genuinely mixed pair whose anticommutator has one grade4 or8 and
+commutator one grade6 or10, including singular and nilpotent commutators. Original full
+ten-row controls include a mixed-grade order-sensitive fixture. General nonscalar-square
+and remaining mixed-grade classes stay open. K2174 proves unique fixed-squeeze
+joint-coherence optimization and all-coordinate interiority when a uniformly interior
+same-moment reference exists; positive contrast then forbids any eventual constant tail
+and supplies an explicit three-coordinate descent. For the exact Delta=1/2 fixture,
+endpoint descent shows every global energy optimizer satisfies these properties. A
+two-outcome tangent dual with exact infinite tails and2304 rational squeeze boxes
+gives0.75913<E_min(1/2)<0.83121; actual optimum and full-energy uniqueness remain open.
+These are vacuum output field-energy bounds, not a threshold-uniform or apparatus-cost
+result. Source, ledger and canon remain unchanged.
+
+- [K2173](explorations/conditional-build/k2173-general-mixed-port-constraints-2026-10-27.md).
+- [K2174](explorations/conditional-build/k2174-joint-coherence-detector-2026-10-27.md).
+
+Two read-only field specialists derived and verified their arguments and actual
+artifacts; a third independently reconstructed both proofs and inspected final
+notes/probes/reports. Fifty-two Clifford controls test original ten rows, ordered
+quartic, mixed-grade and nilpotent fixtures and exact projective polynomial exclusions.
+Twenty-one detector controls check moments, gradients, infinite tails and the actual
+production tangent dual. Eleven genuine input/equation faults are detected after green
+baselines. Separate2304-box rational squeeze coverage, feasible infinite-tail witness
+and explicit three-coordinate energy descent certify numerical bounds. Universal proofs
+remain distinct from finite controls. No proof-assistant, external-expert, novelty,
+arbitrary-channel, apparatus-cost or remote-CI claim.
+
+Earlier sections preserve historical result snapshots; the current scope is above.
+
+
 ## K2171--K2172: Mixed-port exclusions and mean-constrained fidelity (2026-10-27)
 
 K2171 derives an ordered Euler contraction of all ten full mixed-port equations and

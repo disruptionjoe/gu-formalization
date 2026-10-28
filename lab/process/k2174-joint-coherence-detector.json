@@ -1,0 +1,114 @@
+{
+  "result_id": "K2174",
+  "status": "conditional_exact_controls",
+  "checks": {
+    "infinite_witness_exact_contrast": true,
+    "all_witness_entries_strictly_interior": true,
+    "interior_reference_mass": true,
+    "interior_reference_mean": true,
+    "edge_tangent_exact_square": true,
+    "gradient_from_two_original_edges": true,
+    "affine_gradient_tail": true,
+    "three_entry_moment_direction": true,
+    "endpoint_delta_direction_-1": true,
+    "endpoint_delta_direction_1": true,
+    "endpoint_sqrt_gain": true,
+    "positive_tail_(Fraction(-2, 1), Fraction(1, 1), 0)": true,
+    "positive_tail_(Fraction(2, 1), Fraction(-1, 1), 0)": true,
+    "positive_tail_(Fraction(2, 1), Fraction(0, 1), 3)": true,
+    "positive_tail_(Fraction(-2, 1), Fraction(0, 1), 3)": true,
+    "positive_tail_(Fraction(-2, 1), Fraction(-1, 1), 0)": true,
+    "positive_tail_(Fraction(1, 3), Fraction(-1, 7), 1)": true,
+    "squeeze_lower_and_upper": true,
+    "squeeze_curvature_bound": true,
+    "weak_dual_below_feasible_energy": true,
+    "production_tangent_touches_both_coherences": true
+  },
+  "fault_failures": {
+    "wrong_contrast": [
+      "infinite_witness_exact_contrast"
+    ],
+    "interior_reference": [
+      "interior_reference_mass",
+      "interior_reference_mean"
+    ],
+    "amgm_factor": [
+      "edge_tangent_exact_square"
+    ],
+    "tail_slope": [
+      "affine_gradient_tail"
+    ],
+    "tail_start": [
+      "positive_tail_(Fraction(2, 1), Fraction(-1, 1), 0)",
+      "positive_tail_(Fraction(2, 1), Fraction(0, 1), 3)",
+      "positive_tail_(Fraction(1, 3), Fraction(-1, 7), 1)"
+    ],
+    "dual_edge_factor": [
+      "weak_dual_below_feasible_energy",
+      "production_tangent_touches_both_coherences"
+    ]
+  },
+  "energy_certificate": {
+    "grid_per_axis": 48,
+    "interval": [
+      "2/3",
+      "113/100"
+    ],
+    "step": "139/14400",
+    "worst_cell": [
+      32,
+      29
+    ],
+    "midpoint_dual_lower": "151940978914614371/200000000000000000",
+    "curvature_correction": "54929603/95551488000",
+    "global_energy_lower": "759130025419804457/1000000000000000000",
+    "witness": {
+      "K": 9,
+      "x": [
+        "3050828806279/26214400000000",
+        "206285367/1600000000",
+        "17524761/400000000",
+        "37062627/3200000000",
+        "37425201/12800000000",
+        "9371853/12800000000",
+        "299983197/1638400000000",
+        "299997213/6553600000000",
+        "299999541/26214400000000",
+        "14999997/5242880000000"
+      ],
+      "tail_effect": "4999999/5000000",
+      "w": "1996242030651/6553600000000",
+      "M": "5273042030651/19660800000000",
+      "s1": "105488613/100000000",
+      "s0": "86390048/100000000",
+      "energy": [
+        "415602002597516617/500000000000000000",
+        "166240801039006647/200000000000000000"
+      ]
+    },
+    "explicit_tail_descent": {
+      "indices": [
+        9,
+        10,
+        11
+      ],
+      "direction": [
+        -1,
+        2,
+        -1
+      ],
+      "epsilon": "1/100000000000000",
+      "energy_change": [
+        "-150011/100000000000000000",
+        "-1500109/1000000000000000000"
+      ]
+    }
+  },
+  "dependency_sha256": {
+    "explorations/conditional-build/k2174-joint-coherence-detector-2026-10-27.md": "202abf38f6d8b7c0499e497410f306ba19a2afcbc77dea7abbe2313e2b1ff8a8",
+    "tests/channel-swings/k2168_finite_budget_moment_envelope_probe.py": "0d74d6a769ce53e59b9d38f7700e22d86d7e16ef9e62c34186823f526c50882d",
+    "explorations/conditional-build/k2172-mean-constrained-fidelity-2026-10-27.md": "c44289510ab554bbff3c933a3e2afa0a39501de310b0f6f583c8ed397a3a5e80"
+  },
+  "probe_sha256": "edee6269625f894a39022eae5ab236220a26e68ec2f55daef71505d939b1e6f5",
+  "universal_evidence": "Independently reviewed written infinite-chain optimizer and tangent-dual proofs. Rational grid plus uniform Taylor remainder certifies all squeezes; exact geometric tails retain all occupations. No actual optimum or full-energy uniqueness claim."
+}

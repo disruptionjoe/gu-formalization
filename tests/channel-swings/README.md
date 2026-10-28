@@ -1,4 +1,7 @@
 
+- [k2173_general_mixed_port_constraints](k2173_general_mixed_port_constraints_probe.py).
+- [k2174_joint_coherence_detector](k2174_joint_coherence_detector_probe.py).
+
 - [k2171_mixed_port_euler_filter](k2171_mixed_port_euler_filter_probe.py).
 - [k2172_mean_constrained_fidelity](k2172_mean_constrained_fidelity_probe.py).
 

@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2173-general-mixed-port-constraints](k2173-general-mixed-port-constraints.json).
+- [k2174-joint-coherence-detector](k2174-joint-coherence-detector.json).
+
 - [k2171-mixed-port-euler-filter](k2171-mixed-port-euler-filter.json).
 - [k2172-mean-constrained-fidelity](k2172-mean-constrained-fidelity.json).
 
