@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2212-mass-connection-algebra](k2212-mass-connection-algebra.json).
+- [k2213-detector-convex-uniqueness](k2213-detector-convex-uniqueness.json).
+- [k2214-prescribed-adapter-fibers](k2214-prescribed-adapter-fibers.json).
+
+
 - [k2209-spin-common-return](k2209-spin-common-return.json).
 - [k2210-detector-stationary-certificate](k2210-detector-stationary-certificate.json).
 - [k2211-pfaffian-adapter-system](k2211-pfaffian-adapter-system.json).

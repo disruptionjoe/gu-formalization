@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 92fcadd33f5528b6be3388985c4527eed4e07ab3
+revision_basis: ad8edc27b228407cf6e90e1410e59fe34edea823
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,7 +118,17 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
-    K2209 classifies all 1274 Spin connection coefficients for the fixed
+    K2212 identifies the minimal mass connection algebra as the entire10-dimensional
+    B-skew normal commutant, classifies all140 coefficients down to40 invariant and30
+    current-conserving ones, and proves the exact constant gap max(|m|-|b|,0). Flat
+    massive and curved invisible controls prevent a source-gauge inference. K2213 proves
+    the certified infinite detector has a unique compact-box minimizer and is the only
+    stationary point in an explicit convex profile enclosure, with quantitative weighted
+    energy growth. K2214 proves the actual noncommuting factor has a one-dimensional
+    real reconstruction fiber and excludes every nonsingular port in that fiber using
+    the original ordered Euler contraction. Source assertions, ledger0.263 and physical
+    claim grades remain unchanged.
+    Historical predecessor (not live): K2209 classifies all 1274 Spin connection coefficients for the fixed
     observed-principal raw model: 28 preserve V1152, 24 also conserve its positive
     current, and 20 additionally satisfy fixed trace-Hq compatibility. Constant
     surviving potentials shift spectral cones without opening a gap; the stated
@@ -17338,6 +17348,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2212-mass-connection-algebra-2026-10-28.md
+  - explorations/conditional-build/k2213-detector-convex-uniqueness-2026-10-28.md
+  - explorations/conditional-build/k2214-prescribed-adapter-fibers-2026-10-28.md
+  - lab/process/k2212-mass-connection-algebra.json
+  - lab/process/k2213-detector-convex-uniqueness.json
+  - lab/process/k2214-prescribed-adapter-fibers.json
   - explorations/conditional-build/k2209-spin-common-return-2026-10-28.md
   - explorations/conditional-build/k2210-detector-stationary-certificate-2026-10-28.md
   - explorations/conditional-build/k2211-pfaffian-adapter-system-2026-10-28.md
@@ -18970,7 +18986,12 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Which missing condition has the greatest research value now: a global or uniqueness
+  Can the unique certified detector be compared globally across positive squeezes, or
+  can a moving principal/observation construction make the classified massive connection
+  physically meaningful? For adapters, can a genuinely different prescribed factor
+  satisfy real-grade reconstruction and all ten original rows? The fixed K2205 factor
+  fiber is now excluded; isospectral factors are distinct.
+  Historical predecessor (not live): Which missing condition has the greatest research value now: a global or uniqueness
   certificate for the actual stationary detector, a source-owned action and observation
   selection compatible with the fixed Spin classification, or a genuine nonsingular
   solution of the reduced all-ten adapter system?
@@ -22948,7 +22969,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Compare the detector's global optimality and uniqueness question against source-owned
+  Do not repeat compact-box detector existence or uniqueness, the complete B-skew
+  normal-commuting connection class, its constant gap threshold, or the prescribed K2205
+  factor fiber. Compare global detector comparison over positive squeezes against a
+  concrete moving-principal/observation/action compatibility construction for the mass
+  algebra. The latter must account for transformations rotating the fixed principal
+  matrices; trace-Hq and curvature alone do not select physics. General adapter work
+  requires a different factor or a universal ordered obstruction, with real grades, both
+  halves, nonsingularity and all ten rows retained. Preserve
+  source/full16cells/full20/K-C, native2+1/chirality, physical quotient,
+  mirrors/fullII/normaljets, scalar saturation/inverse/endpoint/weak353/170/half
+  bracket, thermal163/164 and exact wings. Apparatus/preparation/reset remains separate.
+  Historical predecessor (not live): Compare the detector's global optimality and uniqueness question against source-owned
   action/observation selection for the now completely classified Spin sector. The
   detector certificate supplies an actual strict local minimum, but not a global optimum
   or an apparatus bridge. For the adapter, intersect the degree17 Pfaffian system with

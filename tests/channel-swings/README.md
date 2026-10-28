@@ -1,4 +1,9 @@
 
+- [k2212_mass_connection_algebra_probe](k2212_mass_connection_algebra_probe.py).
+- [k2213_detector_convex_uniqueness_probe](k2213_detector_convex_uniqueness_probe.py).
+- [k2214_prescribed_adapter_fibers_probe](k2214_prescribed_adapter_fibers_probe.py).
+
+
 - [k2209_spin_common_return_probe](k2209_spin_common_return_probe.py).
 - [k2210_detector_stationary_certificate_probe](k2210_detector_stationary_certificate_probe.py).
 - [k2211_pfaffian_adapter_system_probe](k2211_pfaffian_adapter_system_probe.py).

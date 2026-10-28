@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2212-mass-connection-algebra-2026-10-28](conditional-build/k2212-mass-connection-algebra-2026-10-28.md).
+- [k2213-detector-convex-uniqueness-2026-10-28](conditional-build/k2213-detector-convex-uniqueness-2026-10-28.md).
+- [k2214-prescribed-adapter-fibers-2026-10-28](conditional-build/k2214-prescribed-adapter-fibers-2026-10-28.md).
+
+
 - [k2209-spin-common-return-2026-10-28](conditional-build/k2209-spin-common-return-2026-10-28.md).
 - [k2210-detector-stationary-certificate-2026-10-28](conditional-build/k2210-detector-stationary-certificate-2026-10-28.md).
 - [k2211-pfaffian-adapter-system-2026-10-28](conditional-build/k2211-pfaffian-adapter-system-2026-10-28.md).

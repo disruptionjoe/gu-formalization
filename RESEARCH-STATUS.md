@@ -6,6 +6,25 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2212--K2214: Conditional research results (2026-10-28)
+
+K2212 identifies the minimal mass connection algebra as the entire10-dimensional B-skew normal commutant, classifies all140 coefficients down to40 invariant and30 current-conserving ones, and proves the exact constant gap max(|m|-|b|,0). Flat massive and curved invisible controls prevent a source-gauge inference. K2213 proves the certified infinite detector has a unique compact-box minimizer and is the only stationary point in an explicit convex profile enclosure, with quantitative weighted energy growth. K2214 proves the actual noncommuting factor has a one-dimensional real reconstruction fiber and excludes every nonsingular port in that fiber using the original ordered Euler contraction. Source assertions, ledger0.263 and physical claim grades remain unchanged.
+
+- [K2212](explorations/conditional-build/k2212-mass-connection-algebra-2026-10-28.md).
+- [K2213](explorations/conditional-build/k2213-detector-convex-uniqueness-2026-10-28.md).
+- [K2214](explorations/conditional-build/k2214-prescribed-adapter-fibers-2026-10-28.md).
+
+Independent read-only specialists reviewed the actual proofs and probes. Fresh serialized exact controls establish original raw transfer, finite coefficient ranks and spectral identities, a whole-tail interval Schur bound on the exact exported seven-coordinate envelope, and the independent119-square modular minor plus rational kernel/Euler identities. Genuine mutations change mathematical coefficients or data after a passing baseline. The new universal proofs, interval certification, finite controls and reused boundary certificate are distinct; no proof-assistant, external-expert, novelty or remote-CI certification. K2212/K2213/K2214 pass5694/34/15 fresh controls and3/2/4 fault families (5743 controls,9 families); the5694 include explicit original-row and exhaustive blade-character checks, not independent physical confirmations.
+
+| Claim | Previous state | Current state | Boundary |
+| --- | --- | --- | --- |
+| Mass connection closure and gap | One massive coefficient; full Spin fixed-sector class | Complete B-skew normal commutant and full coefficient/current classification; exact constant gap | No source gauge/action or variable-background gap |
+| Certified detector uniqueness | Actual stationary compact-box minimum; cap-local growth | Unique compact-box minimum; convex-envelope weighted growth | Global squeeze comparison remains open |
+| Actual factor reconstruction | One rejected noncommuting port | Entire real nonsingular prescribed-factor fiber excluded | No similarity-class or general noncommuting exclusion |
+
+Earlier sections are historical.
+
+
 ## K2209--K2211: Conditional research results (2026-10-28)
 
 K2209 classifies all 1274 Spin connection coefficients for the fixed observed-principal raw model: 28 preserve V1152, 24 also conserve its positive current, and 20 additionally satisfy fixed trace-Hq compatibility. Constant surviving potentials shift spectral cones without opening a gap; the stated bounded-potential evolution results retain their domain assumptions. K2210 certifies an actual infinite-profile stationary detector minimizer inside an exact squeeze rectangle and, through a corrected uniform Schur bound greater than 1/3, activates the inherited quantitative strict local-minimum theorem. K2211 replaces the real grade3/7 adapter's degree65 determinant system by an equivalent degree17 Pfaffian system on its nonsingular charts, retaining both chiral halves and every original row. These are internal conditional results; source assertions, ledger0.263 and physical claim grades are unchanged.
