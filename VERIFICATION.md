@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2181--K2182: Square pencils and detector endpoints (2026-10-28)
+
+K2181 excludes all commuting proportional-square Clifford ports for the fixed normalized adapters, including mixed product grades and exceptional slopes. Affine-square survivors obey a nondegenerate quadratic and a faithful32-dimensional integer-multiplicity filter; a genuinely mixed central affine fixture fails nine original rows. K2182 proves the square-root energy cusp at maximal detector contrast, local threshold saturation and strict frontier increase on [3/4-1/1024,3/4], and leading optimizer localization. Its released weighted-defect repair gives endpoint-uniform O(sqrt(K)2^-K) finite-head certification, preserving the sharper interior K2180 bound. No new numerical optimum, source, ledger, canon, physical quotient or apparatus-cost claim.
+
+- [K2181](explorations/conditional-build/k2181-mixed-square-pencil-descent-2026-10-28.md).
+- [K2182](explorations/conditional-build/k2182-uniform-detector-endpoints-2026-10-28.md).
+
+Two independent internal field specialists reconstructed the arguments; a distinct final reviewer inspected the actual notes, probes, reports and hashes and found no blocking issues. K2181 has71 exact controls including33 multiplicity identities and two real mixed-central Clifford fixtures with all ten original rows, detecting4 genuine equation/data faults. K2182 has160 exact and full-tail rational-interval controls and5 genuine faults. Written universal proofs, finite controls and prospective finite-optimizer error budgets are distinct. No proof-assistant, external-expert, novelty, remote-CI or new numerical optimum claim.
+
+Earlier sections preserve historical result snapshots; the current scope is above.
+
+
 ## K2179--K2180: Nonscalar homogeneous exclusion and geometric detector certification (2026-10-28)
 
 K2179 excludes commuting nonscalar Clifford ports with homogeneous grade4 or grade8 product, including singular and Jordan cases, using faithful32-dimensional integer multiplicities. General commuting candidates must centralize both product grades and satisfy FG=21U²; mixed-product and noncommuting nonscalar classes remain open. K2180 improves exact-contrast detector approximation to O(K4^-K) by extremal convex repair, extends it directly to signed/absolute thresholds, proves interior Lipschitz continuity and integrates the previously certified maximal-contrast endpoint. The rational error consumer uses K12 instead of K20 at tolerance1e-4. Half-contrast numerical bounds, source, ledger, canon, physical quotient and apparatus accounting do not change.

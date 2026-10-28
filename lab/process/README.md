@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2181-mixed-square-pencil-descent](k2181-mixed-square-pencil-descent.json).
+- [k2182-uniform-detector-endpoints](k2182-uniform-detector-endpoints.json).
+
+
 - [k2179-commuting-nonscalar-descent](k2179-commuting-nonscalar-descent.json).
 - [k2180-detector-contrast-frontier](k2180-detector-contrast-frontier.json).
 

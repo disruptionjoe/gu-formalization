@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: c9bec7efea8eb1da789873fd88a7e4a478f6a66c
+revision_basis: 43188cbd07dd2991d5c092b61e584ca2460b0844
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,7 +118,17 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
-    K2179 excludes commuting nonscalar Clifford ports with homogeneous grade4 or grade8
+    K2181 excludes all commuting proportional-square Clifford ports for the fixed
+    normalized adapters, including mixed product grades and exceptional slopes.
+    Affine-square survivors obey a nondegenerate quadratic and a faithful32-dimensional
+    integer-multiplicity filter; a genuinely mixed central affine fixture fails nine
+    original rows. K2182 proves the square-root energy cusp at maximal detector
+    contrast, local threshold saturation and strict frontier increase on
+    [3/4-1/1024,3/4], and leading optimizer localization. Its released weighted-defect
+    repair gives endpoint-uniform O(sqrt(K)2^-K) finite-head certification, preserving
+    the sharper interior K2180 bound. No new numerical optimum, source, ledger, canon,
+    physical quotient or apparatus-cost claim.
+    Historical predecessor (not live): K2179 excludes commuting nonscalar Clifford ports with homogeneous grade4 or grade8
     product, including singular and Jordan cases, using faithful32-dimensional integer
     multiplicities. General commuting candidates must centralize both product grades and
     satisfy FG=21U²; mixed-product and noncommuting nonscalar classes remain open. K2180
@@ -17176,6 +17186,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2181-mixed-square-pencil-descent-2026-10-28.md
+  - explorations/conditional-build/k2182-uniform-detector-endpoints-2026-10-28.md
+  - lab/process/k2181-mixed-square-pencil-descent.json
+  - lab/process/k2182-uniform-detector-endpoints.json
   - explorations/conditional-build/k2179-commuting-nonscalar-descent-2026-10-28.md
   - explorations/conditional-build/k2180-detector-contrast-frontier-2026-10-28.md
   - lab/process/k2179-commuting-nonscalar-descent.json
@@ -18746,7 +18760,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can genuinely mixed-product commuting nonscalar Clifford ports satisfy centrality, the
+  Can genuinely affine or nonaffine mixed commuting Clifford ports survive the new
+  square-pencil and full-equation filters, and can the detector frontier be globally
+  characterized or realized by a physically complete controller?
+  Historical predecessor (not live): Can genuinely mixed-product commuting nonscalar Clifford ports satisfy centrality, the
   polynomial spectral constraints and all ten original rows, and can geometric detector
   certification be turned into an actual optimizer or a stable autonomous physical-smear
   controller?
@@ -22674,7 +22691,21 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Do not requeue real scalar-square ports or commuting nonscalar ports with homogeneous
+  Do not requeue commuting proportional-square Clifford ports, scalar squares or
+  homogeneous commuting products. Affine-square candidates must have A(z) nonzero,
+  satisfy the quadratic/32-dimensional trace multiplicity filters, real Clifford grades,
+  centrality, invertible pencil and all ten original rows; general affine existence,
+  nonaffine and noncommuting nonscalar classes remain open. Detector endpoint cusp,
+  local threshold saturation and leading localization are settled for the supplied
+  instrument, with uniform finite-head error bounds across all contrasts. Implement a
+  certified finite optimizer or derive global threshold/joint-squeeze structure; the
+  error-budget consumer is not that optimizer. Global exact-frontier monotonicity,
+  saturation away from the proved neighborhood, uniqueness and autonomous
+  apparatus/clock/preparation/reset accounting remain open. Preserve mobile
+  deficient-stratum/common-bar construction, thermal163/164, restricted cosmology,
+  source/full16cell/full20/K-C, native2+1/chirality, physical quotient,
+  mirrors/fullII/normaljets and exact wings.
+  Historical predecessor (not live): Do not requeue real scalar-square ports or commuting nonscalar ports with homogeneous
   h4/h8 product. Remaining commuting candidates need nonscalar squares and both product
   grades, [K(h),v]=[K(h),t]=0, FG=21U², the square filter and all ten original
   equations; these necessary conditions are not existence. Noncommuting nonscalar ports

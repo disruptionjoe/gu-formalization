@@ -1,4 +1,8 @@
 
+- [k2181_mixed_square_pencil_descent_probe](k2181_mixed_square_pencil_descent_probe.py).
+- [k2182_uniform_detector_endpoints_probe](k2182_uniform_detector_endpoints_probe.py).
+
+
 - [k2179_commuting_nonscalar_descent_probe](k2179_commuting_nonscalar_descent_probe.py).
 - [k2180_detector_contrast_frontier_probe](k2180_detector_contrast_frontier_probe.py).
 

@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2181-mixed-square-pencil-descent-2026-10-28](conditional-build/k2181-mixed-square-pencil-descent-2026-10-28.md).
+- [k2182-uniform-detector-endpoints-2026-10-28](conditional-build/k2182-uniform-detector-endpoints-2026-10-28.md).
+
+
 - [k2179-commuting-nonscalar-descent-2026-10-28](conditional-build/k2179-commuting-nonscalar-descent-2026-10-28.md).
 - [k2180-detector-contrast-frontier-2026-10-28](conditional-build/k2180-detector-contrast-frontier-2026-10-28.md).
 
