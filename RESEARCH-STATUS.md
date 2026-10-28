@@ -6,6 +6,28 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2189--K2190: Conditional research results (2026-10-28)
+
+K2189 excludes nilpotent h4/h8 in every commuting fixed-adapter Clifford solution. Rank4 nondegenerate and rank6 survivors reduce to one nondegenerate six-plane, a faithful4-dimensional square algebra with ambient multiplicities divisible by8, and six-plus-one smaller-algebra equations retaining all ten original rows. Nonaffine existence remains open; a central structural fixture still fails ten rows. K2190 proves positive minimizing multiplier when both squeezes are at most1 and confines any remaining sign failure at positive contrast to s1>1>s0 with Dirichlet defect below3d/5. Exact full-tail examples disprove individual-Q sign shortcuts based on positive squeeze or negative contrast, and prove outcome-zero noise can raise energy even at positive contrast. Together with K2186 every fixed bias fails somewhere at positive contrast. Global frontier/saturation, joint uniqueness, source, ledger, canon, physical quotient and apparatus costs remain unchanged.
+
+- [K2189](explorations/conditional-build/k2189-nonaffine-clifford-reduction-2026-10-28.md).
+- [K2190](explorations/conditional-build/k2190-detector-global-minimizing-structure-2026-10-28.md).
+
+Two independent internal field specialists derived and challenged the arguments; a distinct final actual-artifact reviewer found no scientific blockers. K2189 has60 exact controls and7 genuine faults, plus an explicitly reused1122-case trace census. K2190 has50 symbolic/full-tail rational interval controls and5 genuine faults. Universal written arguments, finite identities, inherited census and certified witnesses are separate evidence kinds. No proof-assistant, external-expert, novelty, remote-CI or global optimum claim.
+
+| Claim | Prior | Current | Weakest dependency |
+| --- | --- | --- | --- |
+| Commuting nilpotent product components | homogeneous exclusion | all nilpotent components excluded | simultaneous triangular trace transfer |
+| Nondegenerate rank4/rank6 | full normal reconstruction | six-plane, faithful4 square algebra and complete6+1 row consumer | centrality, nonnull blade and ordered complement terms |
+| General nonaffine existence | open | open | original equations and remaining strata |
+| Detector multiplier sign | open | positive if both squeezes<=1; straddling remainder | actual minimizing Q equality |
+| Individual branch Q sign | candidate shortcut | both squeeze and negative-contrast shortcuts refuted | complete geometric tails and interval radicals |
+| Positive-contrast beta0 descent | unresolved by K2186 family | explicit derivative>1/10000 counterexample | full-tail derivative and energy upper bound |
+| Global frontier/joint uniqueness and GU physics | open/unchanged | open/unchanged | global optimizing construction and native physical bridges |
+
+Earlier sections are historical.
+
+
 ## K2187--K2188: Conditional research results (2026-10-28)
 
 K2187 excludes every commuting fixed-adapter Clifford port with affinely dependent squares, including the vertical scalar-V case. The rank-four geometric proof handles degenerate support and the vertical proof uses exact irrationality and multiplicity identities. A genuine nonaffine central fixture has an invertible pencil but fails all ten original rows. K2188 extends fixed-squeeze interiority and uniqueness to every nonzero interior contrast and proves all neutral-noise biases have derivative -eta*d at minimizing profiles. It links eta to the true frontier derivative, gives an optimum rejection test and exact Dirichlet form, while a formal zero-multiplier tail preserves the global sign question. No source, ledger, canon, physical quotient, global saturation, joint uniqueness, half-contrast bound or apparatus-accounting change.

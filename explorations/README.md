@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2189-nonaffine-clifford-reduction-2026-10-28](conditional-build/k2189-nonaffine-clifford-reduction-2026-10-28.md).
+- [k2190-detector-global-minimizing-structure-2026-10-28](conditional-build/k2190-detector-global-minimizing-structure-2026-10-28.md).
+
+
 - [k2187-affine-clifford-exclusion-2026-10-28](conditional-build/k2187-affine-clifford-exclusion-2026-10-28.md).
 - [k2188-detector-variational-structure-2026-10-28](conditional-build/k2188-detector-variational-structure-2026-10-28.md).
 

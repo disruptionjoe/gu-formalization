@@ -1,0 +1,109 @@
+{
+  "result_id": "K2190",
+  "status": "conditional_exact_controls",
+  "checks": {
+    "B_derivative": true,
+    "Dirichlet_orientation": true,
+    "minimizer_lower_identity": true,
+    "squeeze_at_one": true,
+    "positive_region_(Fraction(9, 10), Fraction(19, 20))": true,
+    "positive_region_(Fraction(1, 1), Fraction(4, 5))": true,
+    "positive_region_(Fraction(7, 10), Fraction(7, 10))": true,
+    "block_full_mass": true,
+    "block_full_R": true,
+    "block_full_contrast": true,
+    "block_full_T": true,
+    "block_strict_caps": true,
+    "block_full_derivative": true,
+    "block_squeeze_bracket": true,
+    "block_positive_Q": true,
+    "spike_moments": true,
+    "spike_negative_contrast": true,
+    "spike_cap_at_N": true,
+    "spike_other_caps": true,
+    "spike_full_coherence_transfer": true,
+    "spike_full_derivative_transfer": true,
+    "spike_squeeze_bracket": true,
+    "spike_D_nonnegative_defect": true,
+    "spike_positive_Q": true,
+    "positive_complement_contrast": true,
+    "small_energy_upper": true,
+    "beta0_positive_derivative": true,
+    "edge_complement_(Fraction(0, 1), Fraction(0, 1))": true,
+    "edge_complement_(Fraction(0, 1), Fraction(1, 4))": true,
+    "edge_complement_(Fraction(0, 1), Fraction(3, 4))": true,
+    "edge_complement_(Fraction(0, 1), Fraction(1, 1))": true,
+    "edge_complement_(Fraction(1, 10), Fraction(0, 1))": true,
+    "edge_complement_(Fraction(1, 10), Fraction(1, 4))": true,
+    "edge_complement_(Fraction(1, 10), Fraction(3, 4))": true,
+    "edge_complement_(Fraction(1, 10), Fraction(1, 1))": true,
+    "edge_complement_(Fraction(1, 2), Fraction(0, 1))": true,
+    "edge_complement_(Fraction(1, 2), Fraction(1, 4))": true,
+    "edge_complement_(Fraction(1, 2), Fraction(3, 4))": true,
+    "edge_complement_(Fraction(1, 2), Fraction(1, 1))": true,
+    "edge_complement_(Fraction(9, 10), Fraction(0, 1))": true,
+    "edge_complement_(Fraction(9, 10), Fraction(1, 4))": true,
+    "edge_complement_(Fraction(9, 10), Fraction(3, 4))": true,
+    "edge_complement_(Fraction(9, 10), Fraction(1, 1))": true,
+    "edge_complement_(Fraction(1, 1), Fraction(0, 1))": true,
+    "edge_complement_(Fraction(1, 1), Fraction(1, 4))": true,
+    "edge_complement_(Fraction(1, 1), Fraction(3, 4))": true,
+    "edge_complement_(Fraction(1, 1), Fraction(1, 1))": true,
+    "edge_polynomial_identity": true,
+    "geometric_derivative_summability": true,
+    "thermal_neutrality": true
+  },
+  "fault_failures": {
+    "dirichlet_contrast": [
+      "Dirichlet_orientation"
+    ],
+    "block_derivative": [
+      "block_full_derivative",
+      "block_positive_Q"
+    ],
+    "spike_derivative_tail": [
+      "spike_full_derivative_transfer",
+      "spike_D_nonnegative_defect"
+    ],
+    "energy_bound": [
+      "small_energy_upper",
+      "beta0_positive_derivative"
+    ],
+    "thermal_tail": [
+      "thermal_neutrality"
+    ]
+  },
+  "details": {
+    "flat_block": {
+      "N": 40,
+      "L": 4,
+      "squeeze_bracket": [
+        "1011/1000",
+        "253/250"
+      ],
+      "Q_lower": "12562624196120006199805523451150301888921/11056574286130159480210873830247445299200000"
+    },
+    "negative_spike": {
+      "N": 40,
+      "r": "3/13",
+      "b": "3/3967",
+      "scale": "18626859770367371198051949580841553213147003001171/45411629371793572179503511389578187310601185698535342069028238680653824",
+      "squeeze_bracket": [
+        "9723/10000",
+        "6079/6250"
+      ],
+      "Q_lower": "1214588450607525487104773282788232084803836876303531876238125645519931313373000317583794986838047704458237300817293079180776249038880426208569384247905793715933639146583892927782713123837732554776469692057480890815753216285916210620456061950318869653463908038393881251565496085134163925542757802965010181412015343956669944654769991040531134730324779391932402756364432649629011715536237581/4839244574229188931846557709441514501199053005077920710572627546301019533505916136690816874906225666255520007772503505477259314819127008595632814770660602693469182195764875909644324422427009568764928088460273968901550326255487826190780255677385277440000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "energy_upper": "493985072382530699997745237119343485200184131771665/68117444057690358269255267084367280965901778547803013103542358020980736",
+      "beta0_derivative_lower": "5703042285902231589501080809350578246665497931158779432757171521416742437518757486505025045287909930335832845412397838755825640064272024672054819286439061734832191157912118722194714228167446056091307253855381789728546836457473653091607412583320672939505614691126959823453406733902419130011788948993060913062766033600428604830751617615437569016331052810544825957596081232152825341762452697202720555590667663676852896631752041010859443/22722442671711181535479197794622520033641986650330873442236054729079482201602888228283022778329379678361252313468846966072826847260775399879390502705305161431278602913121415659684283223146214421418213501436983792671953442123171434740753796578515426841027224679924860384013064383726027167571640320000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    }
+  },
+  "dependency_sha256": {
+    "explorations/conditional-build/k2190-detector-global-minimizing-structure-2026-10-28.md": "0079615d25f3ae4ad4cc28d02cd2b54eb726acf7b0325cb9bb8d3f906442ab3c",
+    "explorations/conditional-build/k2188-detector-variational-structure-2026-10-28.md": "c55cdd360d0cae1a5af215d48d14f2dcc6142034466346f1dd4edfc5dac3c7b1",
+    "explorations/conditional-build/k2186-detector-contrast-descent-2026-10-28.md": "e38391e097561cdbb3e02a58800b22352aee23ed62d18f1412af16d0549cf8be",
+    "tests/channel-swings/k2178_effective_detector_approximation_probe.py": "e804a5ed01b1d408bce470fe17d91ad03366337bcd42b3c59739a9042fb0bd74",
+    "tests/channel-swings/k2184_global_detector_structure_probe.py": "35e9cf010683e4b6b216816c2b8cde20fdf5b2fa66a2c4b8538985aef8165eeb"
+  },
+  "probe_sha256": "e28b03a30e03ac745ef1e17fd57a7865ccffb21db6a63088c378296d5aca9347",
+  "universal_evidence": "Written minimizing sign theorem, explicit full-tail branch counterconstructions and positive-contrast beta0 noise obstruction. Symbolic identities, rational intervals and finite controls are separate evidence. No global minimizing/frontier or apparatus/GU claim."
+}

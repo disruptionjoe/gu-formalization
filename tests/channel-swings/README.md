@@ -1,4 +1,8 @@
 
+- [k2189_nonaffine_clifford_reduction_probe](k2189_nonaffine_clifford_reduction_probe.py).
+- [k2190_detector_global_minimizing_structure_probe](k2190_detector_global_minimizing_structure_probe.py).
+
+
 - [k2187_affine_clifford_exclusion_probe](k2187_affine_clifford_exclusion_probe.py).
 - [k2188_detector_variational_structure_probe](k2188_detector_variational_structure_probe.py).
 

@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2189-nonaffine-clifford-reduction](k2189-nonaffine-clifford-reduction.json).
+- [k2190-detector-global-minimizing-structure](k2190-detector-global-minimizing-structure.json).
+
+
 - [k2187-affine-clifford-exclusion](k2187-affine-clifford-exclusion.json).
 - [k2188-detector-variational-structure](k2188-detector-variational-structure.json).
 

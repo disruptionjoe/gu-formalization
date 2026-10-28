@@ -1,0 +1,163 @@
+{
+  "result_id": "K2189",
+  "status": "conditional_exact_controls",
+  "checks": {
+    "nilpotent_B_nonzero": true,
+    "nilpotent_D_nonzero_grade4": true,
+    "nilpotent_B4_zero": true,
+    "nilpotent_scalar_B2_zero": true,
+    "nonzero_Jordan_component": true,
+    "h4_diagonal_transfer": true,
+    "h8_diagonal_transfer": true,
+    "diagonal_determinant_2": true,
+    "diagonal_determinant_-6": true,
+    "chiral_anticommutator": true,
+    "vector_product_decomposable": true,
+    "simple_H_square_scalar": true,
+    "sixblade_nonnull": true,
+    "inside_anticommutes": true,
+    "outside_commutes": true,
+    "outside_not_anticommuting": true,
+    "sixblade_Gram_sign": true,
+    "invertible_odd_intertwiner": true,
+    "trace8_equals_trace4": true,
+    "Jordan_radical_preserved": true,
+    "central_pencil_two_sided": true,
+    "central_S_identity": true,
+    "central_adapter_10": true,
+    "central_complement_row_10": true,
+    "central_adapter_11": true,
+    "central_complement_row_11": true,
+    "central_adapter_12": true,
+    "central_complement_row_12": true,
+    "central_adapter_13": true,
+    "central_complement_row_13": true,
+    "central_L_row_3": true,
+    "central_L_row_4": true,
+    "central_L_row_5": true,
+    "central_L_row_6": true,
+    "central_L_row_8": true,
+    "central_L_row_9": true,
+    "central_original_rows_reject": true,
+    "central_commutes": true,
+    "central_h4_square_nonzero_scalar": true,
+    "central_sector_trace_V": true,
+    "central_sector_trace_T": true,
+    "central_sector_trace_h8": true,
+    "central_nonaffine": true,
+    "general_pencil_two_sided": true,
+    "general_S_identity": true,
+    "general_adapter_10": true,
+    "general_complement_row_10": true,
+    "general_adapter_11": true,
+    "general_complement_row_11": true,
+    "general_adapter_12": true,
+    "general_complement_row_12": true,
+    "general_adapter_13": true,
+    "general_complement_row_13": true,
+    "general_L_row_3": true,
+    "general_L_row_4": true,
+    "general_L_row_5": true,
+    "general_L_row_6": true,
+    "general_L_row_8": true,
+    "general_L_row_9": true,
+    "general_original_rows_reject": true
+  },
+  "fault_failures": {
+    "weight": [
+      "h4_diagonal_transfer"
+    ],
+    "trace_dimension": [
+      "diagonal_determinant_2",
+      "diagonal_determinant_-6"
+    ],
+    "Gram_sign": [
+      "sixblade_Gram_sign"
+    ],
+    "complement_S": [
+      "central_S_identity",
+      "central_complement_row_10",
+      "central_complement_row_11",
+      "central_complement_row_12",
+      "central_complement_row_13",
+      "central_L_row_3",
+      "central_L_row_4",
+      "central_L_row_5",
+      "central_L_row_6",
+      "central_L_row_8",
+      "central_L_row_9",
+      "general_S_identity",
+      "general_complement_row_10",
+      "general_complement_row_11",
+      "general_complement_row_12",
+      "general_complement_row_13",
+      "general_L_row_3",
+      "general_L_row_4",
+      "general_L_row_5",
+      "general_L_row_6",
+      "general_L_row_8",
+      "general_L_row_9"
+    ],
+    "bar_z": [
+      "central_complement_row_10",
+      "central_complement_row_11",
+      "central_complement_row_12",
+      "central_complement_row_13",
+      "general_complement_row_10",
+      "general_complement_row_11",
+      "general_complement_row_12",
+      "general_complement_row_13"
+    ],
+    "complement_row": [
+      "central_complement_row_10",
+      "central_complement_row_11",
+      "central_complement_row_12",
+      "central_complement_row_13",
+      "general_complement_row_10",
+      "general_complement_row_11",
+      "general_complement_row_12",
+      "general_complement_row_13"
+    ],
+    "L_row": [
+      "central_L_row_3",
+      "central_L_row_4",
+      "central_L_row_5",
+      "central_L_row_6",
+      "central_L_row_8",
+      "central_L_row_9",
+      "general_L_row_3",
+      "general_L_row_5",
+      "general_L_row_6",
+      "general_L_row_8",
+      "general_L_row_9"
+    ]
+  },
+  "details": {
+    "original_nonzero_rows": {
+      "central": 10,
+      "general": 10
+    },
+    "inherited_trace_census": {
+      "2": {
+        "count": 561,
+        "minimum_absolute_determinant": "21/10240",
+        "zero_pairs": []
+      },
+      "-6": {
+        "count": 561,
+        "minimum_absolute_determinant": "1/240",
+        "zero_pairs": []
+      }
+    }
+  },
+  "dependency_sha256": {
+    "explorations/conditional-build/k2189-nonaffine-clifford-reduction-2026-10-28.md": "875813b4d9a0efb59d25fc6f0dd028cb717b77f9c375ef2f9092d2cbe571f075",
+    "explorations/conditional-build/k2179-commuting-nonscalar-descent-2026-10-28.md": "ad21bf503e10ee320bdd65e8dd1d8dc3e2cb1dd64f6ca3152910dd3e7b040a6e",
+    "explorations/conditional-build/k2187-affine-clifford-exclusion-2026-10-28.md": "9c0ff9f4dcefa6cf6ced094c17e0024e5c48d5f5c132b45c6102bb126149196f",
+    "tests/channel-swings/k2187_affine_clifford_exclusion_probe.py": "ac190ccec5567d80781ecb644496a97cf424a36819900bdadc9eb815b6ce020d",
+    "tests/channel-swings/k2179_commuting_nonscalar_descent_probe.py": "6a7d513003a663cb45c127db0c31fdf352bfbd31a4436eb7f3cb0a8428f92ba1",
+    "tests/channel-swings/k2169_invertible_pencil_full_descent_probe.py": "b44d589073b48ee121b8c7ee6fc4aa4372eb2ca17169442d6611b7275410118a"
+  },
+  "probe_sha256": "f1beff8459c5b3fe92e7ba41dbc970b8f8a71c155cb839fd100d093eb7528bf6",
+  "universal_evidence": "Written simultaneous triangularization, chiral decomposability, six-plane localization, faithful square-algebra and ordered six-plus-one row arguments. Finite controls and inherited1122 integer cases are separate; no physical, proof-assistant or general nonaffine existence/exclusion claim."
+}
