@@ -1,0 +1,110 @@
+{
+  "result_id": "K2177",
+  "status": "conditional_exact_controls",
+  "checks": {
+    "mixed_grade_coefficients": true,
+    "mixed_grade_nonzero_determinant": true,
+    "degenerate_grade_coefficients": true,
+    "mixed_scalar_squares": true,
+    "mixed_both_x_grades": true,
+    "mixed_tangent4_ports": true,
+    "mixed_tangent0_products": true,
+    "mixed_tangent4_projection": true,
+    "mixed_reversion_even_projection": true,
+    "mixed_normal4_projection": true,
+    "mixed_normal8_projection": true,
+    "mixed_necessary_filter_rejects": true,
+    "mixed_quartic_original_Euler": true,
+    "mixed_full10_match_quartic": true,
+    "mixed_full10_rejects": true,
+    "three_tilt_scalar_squares": true,
+    "three_tilt_both_x_grades": true,
+    "three_tilt_tangent4_ports": true,
+    "three_tilt_tangent0_products": true,
+    "three_tilt_tangent4_projection": true,
+    "three_tilt_reversion_even_projection": true,
+    "three_tilt_normal4_projection": true,
+    "three_tilt_normal8_projection": true,
+    "three_tilt_necessary_filter_rejects": true,
+    "three_tilt_quartic_original_Euler": true,
+    "three_tilt_full10_match_quartic": true,
+    "three_tilt_full10_rejects": true,
+    "nonscalar_commuting_fixture": true,
+    "nonscalar_scope_refused": true,
+    "nonscalar_V_exact": true,
+    "nonscalar_T_exact": true,
+    "nonscalar_grade_operator": true,
+    "nonscalar_A_B_actual": true,
+    "nonscalar_pencil_invertible": true,
+    "nonscalar_clear_denominator": true,
+    "nonscalar_polynomial_tangent0": true,
+    "nonscalar_polynomial_tangent4": true,
+    "nonscalar_square_only_elimination": true,
+    "nonscalar_square_only_rejects": true,
+    "nonscalar_original10_euler": true,
+    "nonscalar_fixture_rejected": true
+  },
+  "fault_failures": {
+    "linear_x_coefficient": [
+      "mixed_tangent4_projection",
+      "mixed_reversion_even_projection",
+      "mixed_normal4_projection",
+      "mixed_normal8_projection",
+      "mixed_quartic_original_Euler",
+      "mixed_full10_match_quartic",
+      "three_tilt_tangent4_projection",
+      "three_tilt_reversion_even_projection",
+      "three_tilt_normal4_projection",
+      "three_tilt_normal8_projection",
+      "three_tilt_quartic_original_Euler",
+      "three_tilt_full10_match_quartic"
+    ],
+    "linear_U_coefficient": [
+      "mixed_tangent4_projection",
+      "mixed_reversion_even_projection",
+      "mixed_normal4_projection",
+      "mixed_normal8_projection",
+      "mixed_quartic_original_Euler",
+      "mixed_full10_match_quartic",
+      "three_tilt_tangent4_projection",
+      "three_tilt_reversion_even_projection",
+      "three_tilt_normal4_projection",
+      "three_tilt_normal8_projection",
+      "three_tilt_quartic_original_Euler",
+      "three_tilt_full10_match_quartic"
+    ],
+    "tangent_projection": [
+      "mixed_tangent4_projection",
+      "mixed_reversion_even_projection",
+      "mixed_normal4_projection",
+      "mixed_normal8_projection",
+      "three_tilt_tangent4_projection",
+      "three_tilt_reversion_even_projection",
+      "three_tilt_normal4_projection",
+      "three_tilt_normal8_projection"
+    ],
+    "reversion_parity": [
+      "mixed_reversion_even_projection",
+      "three_tilt_reversion_even_projection"
+    ],
+    "defect_grade_weight": [
+      "nonscalar_grade_operator"
+    ],
+    "polynomial_factor": [
+      "nonscalar_polynomial_tangent0"
+    ],
+    "square_elimination": [
+      "nonscalar_square_only_elimination"
+    ]
+  },
+  "certificate": {},
+  "dependency_sha256": {
+    "explorations/conditional-build/k2177-exceptional-spectrum-descent-2026-10-28.md": "b7e9e3d69f5fe67f90d1154d0497f6fe063f91442084978afd7b006904fe938d",
+    "tests/channel-swings/k2173_general_mixed_port_constraints_probe.py": "ab1a50813f94d3199d52f405d81bb58e71077f48f7fb8d3cc01261b437af2022",
+    "tests/channel-swings/k2171_mixed_port_euler_filter_probe.py": "3ffe4989295e3516104c439348ad6a7251382fdd511f9a891fae45828968683f",
+    "tests/channel-swings/k2169_invertible_pencil_full_descent_probe.py": "b44d589073b48ee121b8c7ee6fc4aa4372eb2ca17169442d6611b7275410118a",
+    "explorations/conditional-build/k2175-mixed-grade-euler-localization-2026-10-27.md": "1281a0d71a737f4a0fccebf3c474fe04b219200f007291858b0603da20456305"
+  },
+  "probe_sha256": "f6b7776c5c61a0a2c75bc99f06fe008922620edd52d3822be1f674ecf950975d",
+  "universal_evidence": "Written proof independently reconstructed; finite formula controls supplement rather than replace universal acceptance. No proof-assistant, physical quotient or apparatus cost claim."
+}

@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2177-exceptional-spectrum-descent](k2177-exceptional-spectrum-descent.json).
+- [k2178-effective-detector-approximation](k2178-effective-detector-approximation.json).
+
 - [k2175-mixed-grade-euler-localization](k2175-mixed-grade-euler-localization.json).
 - [k2176-detector-certified-convergence](k2176-detector-certified-convergence.json).
 

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 669c6eeea303cd1bf6451ff5ea4b1de24c9b8571
+revision_basis: 618a4ef90e4cb49990c9565f9fb855992496f7c2
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,18 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2177 excludes the entire real scalar-square fixed-adapter Clifford port class,
+    including mixed anticommutator grades and exceptional spectra, by real grade descent.
+    Its released nonscalar commuting successor supplies an ordered polynomial Euler filter
+    and square-only necessary condition; a genuine nonscalar fixture is rejected by nine
+    original rows. General nonscalar ports remain open. K2178 proves an effective
+    finite-head approximation with explicit geometric error bounds and a constructive
+    cap-safe exact-contrast repair. An adaptive rational epsilon consumer terminates even at
+    epsilon=1e-60; semialgebraic finite optimization is specified but not implemented. No
+    new numerical energy enclosure, general detector theorem, source, ledger, canon,
+    physical quotient or apparatus accounting change.
+
+    Historical predecessor (not live):
     K2175 excludes every scalar-square mixed port whose nonzero anticommutator has only
     grade4 or only grade8, even when the commutator mixes grades6+10. The released
     mixed-grade filter localizes noncommutativity to r=(a+9c)/6, requires a Jordan defect
@@ -17154,6 +17166,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2177-exceptional-spectrum-descent-2026-10-28.md
+  - lab/process/k2177-exceptional-spectrum-descent.json
+  - tests/channel-swings/k2177_exceptional_spectrum_descent_probe.py
+  - explorations/conditional-build/k2178-effective-detector-approximation-2026-10-28.md
+  - lab/process/k2178-effective-detector-approximation.json
+  - tests/channel-swings/k2178_effective_detector_approximation_probe.py
   - explorations/conditional-build/k2175-mixed-grade-euler-localization-2026-10-27.md
   - lab/process/k2175-mixed-grade-euler-localization.json
   - tests/channel-swings/k2175_mixed_grade_euler_localization_probe.py
@@ -18714,6 +18732,12 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can nonscalar-square Clifford ports survive the new commuting polynomial and square-only
+  filters and all ten descent rows, and can a structurally useful detector squeeze theorem
+  or physically complete autonomous controller improve on the now-effective approximation
+  theorem?
+
+  Historical predecessor (not live):
   Can the remaining commuting mixed-grade or exceptional-spectrum Clifford ports satisfy
   all ten descent rows, and what new physical or structural gain dominates further
   numerical refinement of the now-certifiably approximable detector energy optimum?
@@ -22632,6 +22656,22 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Do not requeue any real scalar-square fixed-adapter port: that class is excluded,
+  including mixed grades and exceptional spectra. Remaining real normal3/7 squares have
+  only grades0+4; nonscalar square defects are necessary. For commuting ports apply the
+  new ordered Euler polynomial and square-only necessary condition, then all ten original
+  rows; no invertible individual ports or commuting grade operator may be assumed. General
+  noncommuting nonscalar squares, moving geometry, mixed odd/even ports and changed
+  reverse remain separate alternatives. Detector exact Delta=1/2 now has an effective
+  finite-head approximation and cap-safe repair with an adaptive epsilon schedule; finite
+  semialgebraic solver implementation, joint squeeze uniqueness, practical complexity and
+  sharp cutoff remain open. Prefer structural or physical gains over more decimal
+  refinement. Preserve preparation/reset and total-work accounting, exact-contrast versus
+  threshold scope, native mobile integrability, thermal163/164, restricted cosmological
+  dynamics, source/full16cell/full20/K-C, native2+1/chirality, physical quotient,
+  mirrors/fullII/normaljets and exact wings.
+
+  Historical predecessor (not live):
   Do not requeue homogeneous anticommutators even with mixed commutator grades. For
   scalar-square mixed x4+x8 apply the exceptional r-spectrum and singular-L hypersurface
   filters, preserving possible imaginary lambda; all survivors still owe the ordered

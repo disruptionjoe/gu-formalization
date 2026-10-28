@@ -1,0 +1,141 @@
+{
+  "result_id": "K2178",
+  "status": "conditional_exact_controls",
+  "checks": {
+    "contrast_tail_2": true,
+    "radius_tail_2": true,
+    "edge_tail_2": true,
+    "mix_fraction_2": true,
+    "contrast_tail_9": true,
+    "radius_tail_9": true,
+    "edge_tail_9": true,
+    "mix_fraction_9": true,
+    "contrast_tail_16": true,
+    "radius_tail_16": true,
+    "edge_tail_16": true,
+    "mix_fraction_16": true,
+    "contrast_tail_20": true,
+    "radius_tail_20": true,
+    "edge_tail_20": true,
+    "mix_fraction_20": true,
+    "squeeze_bounds": true,
+    "range_constant": true,
+    "repair_constant": true,
+    "admission_0": true,
+    "repair_feasible_0": true,
+    "repair_contrast_0": true,
+    "repair_energy_0_0": true,
+    "repair_energy_0_1": true,
+    "repair_energy_0_2": true,
+    "admission_1": true,
+    "repair_feasible_1": true,
+    "repair_contrast_1": true,
+    "repair_energy_1_0": true,
+    "repair_energy_1_1": true,
+    "repair_energy_1_2": true,
+    "admission_2": true,
+    "repair_feasible_2": true,
+    "repair_contrast_2": true,
+    "repair_energy_2_0": true,
+    "repair_energy_2_1": true,
+    "repair_energy_2_2": true,
+    "admission_3": true,
+    "repair_feasible_3": true,
+    "repair_contrast_3": true,
+    "repair_energy_3_0": true,
+    "repair_energy_3_1": true,
+    "repair_energy_3_2": true,
+    "constant_zero_energy_2": true,
+    "constant_asymmetric_energy_2": true,
+    "constant_zero_energy_9": true,
+    "constant_asymmetric_energy_9": true,
+    "k20_epsilon": true,
+    "k16_epsilon": true
+  },
+  "fault_failures": {
+    "repair_sign": [
+      "repair_contrast_0",
+      "repair_contrast_1",
+      "repair_contrast_2",
+      "repair_contrast_3"
+    ],
+    "repair_margin": [
+      "repair_feasible_1"
+    ],
+    "head_endpoint": [
+      "admission_0",
+      "admission_1"
+    ],
+    "tail_mean": [
+      "constant_asymmetric_energy_2",
+      "constant_asymmetric_energy_9"
+    ],
+    "tail_coherence": [
+      "constant_zero_energy_2",
+      "constant_asymmetric_energy_2",
+      "constant_zero_energy_9",
+      "constant_asymmetric_energy_9"
+    ]
+  },
+  "certificate": {
+    "epsilon_plans": [
+      {
+        "epsilon": "1/1000",
+        "K": 17,
+        "bisections": 15,
+        "real_variables": 58,
+        "width_upper": "8060176754952408373355865478515625000000339/11250000000000000000000000000000000000000000000"
+      },
+      {
+        "epsilon": "1/10000",
+        "K": 20,
+        "bisections": 19,
+        "real_variables": 67,
+        "width_upper": "714726423852282192523696355968802726321629/11250000000000000000000000000000000000000000000"
+      },
+      {
+        "epsilon": "1/1000000",
+        "K": 27,
+        "bisections": 25,
+        "real_variables": 88,
+        "width_upper": "35115305463936531641555020957530710755076317/46080000000000000000000000000000000000000000000000"
+      },
+      {
+        "epsilon": "1/1000000000000000000000000000000000000000000000000000000000000",
+        "K": 208,
+        "bisections": 205,
+        "real_variables": 631,
+        "width_upper": "391717422405386950006502086453578156481759890259980109042442956317383741896884382635892001135736501250169379841/660527601405140595343916417847001038949410716880464963636425585743433788313483624724165343295716197727731712000000000000000000000000000000000000000000000000000000000000000"
+      }
+    ],
+    "conditional_widths": [
+      {
+        "K": 16,
+        "bisections": 15,
+        "tau": "25109/386547056640",
+        "rho_interval": [
+          "157143990128457718859222557186122946972899/312500000000000000000000000000000000000000000",
+          "1885727881541492626310670686233475363674901/3750000000000000000000000000000000000000000000"
+        ],
+        "width_upper": "10807755721297166005496037937606676091024703/11250000000000000000000000000000000000000000000"
+      },
+      {
+        "K": 20,
+        "bisections": 18,
+        "tau": "30893/98956046499840",
+        "rho_interval": [
+          "13095260997923169454656320576869433325293/375000000000000000000000000000000000000000000",
+          "130952609979231694546563205768694333253043/3750000000000000000000000000000000000000000000"
+        ],
+        "width_upper": "1036591505639391567523696355968802726321629/11250000000000000000000000000000000000000000000"
+      }
+    ]
+  },
+  "dependency_sha256": {
+    "explorations/conditional-build/k2178-effective-detector-approximation-2026-10-28.md": "a810f8736aa02a2ed0de789f10bef3a0bb9e8e023de9f502d531dc338b96d304",
+    "explorations/conditional-build/k2176-detector-certified-convergence-2026-10-27.md": "32239a146a016db33d426c7981ed9fd9f8b8c1cf7458e09fe599a6c1a554e3d0",
+    "explorations/conditional-build/k2174-joint-coherence-detector-2026-10-27.md": "202abf38f6d8b7c0499e497410f306ba19a2afcbc77dea7abbe2313e2b1ff8a8"
+  },
+  "probe_sha256": "e804a5ed01b1d408bce470fe17d91ad03366337bcd42b3c59739a9042fb0bd74",
+  "universal_evidence": "Written proof independently reconstructed; finite formula controls supplement rather than replace universal acceptance. No proof-assistant, physical quotient or apparatus cost claim."
+}

@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2177-exceptional-spectrum-descent](conditional-build/k2177-exceptional-spectrum-descent-2026-10-28.md).
+- [k2178-effective-detector-approximation](conditional-build/k2178-effective-detector-approximation-2026-10-28.md).
+
 - [k2175-mixed-grade-euler-localization](conditional-build/k2175-mixed-grade-euler-localization-2026-10-27.md).
 - [k2176-detector-certified-convergence](conditional-build/k2176-detector-certified-convergence-2026-10-27.md).
 

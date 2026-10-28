@@ -5,6 +5,36 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2177--K2178: Real scalar-square exclusion and effective detector approximation (2026-10-28)
+
+K2177 excludes the entire real scalar-square fixed-adapter Clifford port class,
+including mixed anticommutator grades and exceptional spectra, by real grade descent.
+Its released nonscalar commuting successor supplies an ordered polynomial Euler filter
+and square-only necessary condition; a genuine nonscalar fixture is rejected by nine
+original rows. General nonscalar ports remain open. K2178 proves an effective
+finite-head approximation with explicit geometric error bounds and a constructive
+cap-safe exact-contrast repair. An adaptive rational epsilon consumer terminates even at
+epsilon=1e-60; semialgebraic finite optimization is specified but not implemented. No
+new numerical energy enclosure, general detector theorem, source, ledger, canon,
+physical quotient or apparatus accounting change.
+
+- [K2177](explorations/conditional-build/k2177-exceptional-spectrum-descent-2026-10-28.md).
+- [K2178](explorations/conditional-build/k2178-effective-detector-approximation-2026-10-28.md).
+
+Two read-only specialists developed the independent arcs; a third reconstructed both
+arguments and inspected the final notes, probes and reports, including the released
+nonscalar successor. Forty-one Clifford controls verify real grade descent, original
+ten-row transfer, nonscalar applicability refusal and ordered polynomial elimination.
+Forty-nine detector controls verify infinite tails, cap-safe repair, rational error
+bounds and adaptive epsilon schedules down to1e-60. Twelve genuine equation/data faults
+are detected after green baselines. Universal written proofs, finite exact controls and
+a theoretical semialgebraic solver remain distinct. No proof-assistant, external-expert,
+novelty, remote-CI, new numerical energy bracket, physical quotient or apparatus-cost
+claim.
+
+Earlier sections preserve historical result snapshots; the current scope is above.
+
+
 ## K2175--K2176: Mixed-grade localization and complete energy certification (2026-10-27)
 
 K2175 excludes every scalar-square mixed port whose nonzero anticommutator has only

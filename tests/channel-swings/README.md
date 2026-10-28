@@ -1,4 +1,7 @@
 
+- [k2177_exceptional_spectrum_descent](k2177_exceptional_spectrum_descent_probe.py).
+- [k2178_effective_detector_approximation](k2178_effective_detector_approximation_probe.py).
+
 - [k2175_mixed_grade_euler_localization](k2175_mixed_grade_euler_localization_probe.py).
 - [k2176_detector_certified_convergence](k2176_detector_certified_convergence_probe.py).
 
