@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2171-mixed-port-euler-filter](k2171-mixed-port-euler-filter.json).
+- [k2172-mean-constrained-fidelity](k2172-mean-constrained-fidelity.json).
+
 - [k2169-invertible-pencil-full-descent](k2169-invertible-pencil-full-descent.json).
 - [k2170-bounded-effect-energy-gap](k2170-bounded-effect-energy-gap.json).
 

@@ -1,4 +1,7 @@
 
+- [k2171_mixed_port_euler_filter](k2171_mixed_port_euler_filter_probe.py).
+- [k2172_mean_constrained_fidelity](k2172_mean_constrained_fidelity_probe.py).
+
 - [k2169_invertible_pencil_full_descent](k2169_invertible_pencil_full_descent_probe.py).
 - [k2170_bounded_effect_energy_gap](k2170_bounded_effect_energy_gap_probe.py).
 

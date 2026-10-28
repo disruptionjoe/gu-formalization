@@ -5,6 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-10-27: MIXED-PORT CLASS EXCLUSIONS AND MEAN-CONSTRAINED FIDELITY.**
+> Use K2171 Euler filter for early rejection and all ten K2169 equations for any survivor. Do not requeue singular pencils, Z2/pure ports, scalar-square commuting or anticommuting mixed pairs, or fixed-geometry derivative repair. Remaining even-port candidates need at least one nonscalar square or neither commutation relation; moving geometry, changed reverse and mixed odd/even ports remain alternatives. For detectors, optimize both outcome coherences with actual moment and cap constraints, or certify the full squeeze/effect problem; the exact mean-fidelity profile is provably not energy-optimal. Preserve exact-contrast versus threshold bounds and compare stable autonomous physical-smear control with clock/preparation/reset. Native mobile integrability, thermal163/164, restricted cosmological dynamics, source/full16cell/full20/K-C, native2+1/chirality, physical quotient, mirrors/fullII/normaljets and exact-wing debts remain.
+> Earlier banners are historical; use this current condition.
+
+
 > **2026-10-27: INVERTIBLE PENCILS AND QUANTITATIVE DETECTOR GAP.**
 > Use K2169's unique invertible-pencil adapters and all ten reduced lower equations, or the degree65 polynomial system with its nonzero-determinant condition. Singular pencils, arbitrary Z2, every pure tangent degree and the complementary-coordinate mixed family are excluded; do not requeue them. Smooth fixed-geometry adapters must be tangentially constant and cannot repair frozen failures, but port amplitude can vary. General mixed odd/even ports, moving splitting/Clifford geometry, changed reverse/operator and native mobile integrability remain distinct. For detectors, use the cap-fidelity overlap relaxation or certified conic effect optimization to narrow the actual finite-budget frontier; preserve the distinction between exact-contrast and threshold-uniform bounds. Compare a stable autonomous physical-smear controller including clock, preparation and reset. Preserve source/full16cell/full20/K-C, native2+1/chirality, physical quotient, mirrors/fullII/normaljets, thermal163/164, restricted cosmological dynamics and exact-wing debts.
 > Earlier banners are historical; use this current condition.

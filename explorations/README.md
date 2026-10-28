@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2171-mixed-port-euler-filter](conditional-build/k2171-mixed-port-euler-filter-2026-10-27.md).
+- [k2172-mean-constrained-fidelity](conditional-build/k2172-mean-constrained-fidelity-2026-10-27.md).
+
 - [k2169-invertible-pencil-full-descent](conditional-build/k2169-invertible-pencil-full-descent-2026-10-27.md).
 - [k2170-bounded-effect-energy-gap](conditional-build/k2170-bounded-effect-energy-gap-2026-10-27.md).
 

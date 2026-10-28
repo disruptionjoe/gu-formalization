@@ -1,0 +1,64 @@
+{
+  "result_id": "K2171",
+  "status": "conditional_exact_controls",
+  "checks": {
+    "Euler_matches_original_all10_noncommuting_rows": true,
+    "filter_rejects_noncommuting_fixture": true,
+    "trace_cyclic_K_formula": true,
+    "K_grade4_and8": true,
+    "commuting_filter_v_coefficient": true,
+    "commuting_filter_t_coefficient": true,
+    "nonzero_linear_determinant_2": true,
+    "nonzero_linear_determinant_-6": true,
+    "degenerate_a9b_polynomial": true,
+    "commuting_coordinate_overlap_1": true,
+    "commuting_A_B_expansion_1": true,
+    "commuting_coordinate_overlap_3": true,
+    "commuting_A_B_expansion_3": true,
+    "anticommuting_scalar_reduction": true,
+    "anticommuting_h_reduction": true,
+    "anticommuting_grade6_obstruction": true,
+    "anticommuting_grade10_obstruction": true,
+    "anticommuting_coordinate_overlap_0": true,
+    "anticommuting_pencil_square_0": true,
+    "anticommuting_filter_formula_0": true,
+    "anticommuting_coordinate_overlap_2": true,
+    "anticommuting_pencil_square_2": true,
+    "anticommuting_filter_formula_2": true,
+    "scalar_elimination_f": true,
+    "h_elimination_coefficient": true
+  },
+  "fault_failures": {
+    "product_order": [
+      "Euler_matches_original_all10_noncommuting_rows"
+    ],
+    "K_coefficient": [
+      "Euler_matches_original_all10_noncommuting_rows",
+      "trace_cyclic_K_formula"
+    ],
+    "extra_eta": [
+      "Euler_matches_original_all10_noncommuting_rows"
+    ],
+    "eigenvalue": [
+      "nonzero_linear_determinant_2",
+      "nonzero_linear_determinant_-6"
+    ],
+    "scalar_square_sign": [
+      "commuting_A_B_expansion_1",
+      "commuting_A_B_expansion_3"
+    ],
+    "mixed_coefficient": [
+      "commuting_filter_v_coefficient",
+      "commuting_filter_t_coefficient"
+    ]
+  },
+  "dependency_sha256": {
+    "explorations/conditional-build/k2171-mixed-port-euler-filter-2026-10-27.md": "2842a3ec66251ed8e9dee00b5b90c4d546f0021932fb4e04356cbf48a0305a7d",
+    "tests/channel-swings/k2169_invertible_pencil_full_descent_probe.py": "b44d589073b48ee121b8c7ee6fc4aa4372eb2ca17169442d6611b7275410118a",
+    "explorations/conditional-build/k2169-invertible-pencil-full-descent-2026-10-27.md": "4bd2203f4218e6d44d6b146329116fff424f80ff7ffa7c60959e2b3582f9737c",
+    "tests/channel-swings/k2159_commutant_equation_adapters_probe.py": "66fcdfa20412a8523ab117c9300d69381ab20dd406c675243c8c2f2a01667a38",
+    "tests/channel-swings/k2165_even_clifford_adapter_descent_probe.py": "48af4af289526570b68727a879d569c2c6b16c68098b1d4fce887769716ae389"
+  },
+  "probe_sha256": "3ffe4989295e3516104c439348ad6a7251382fdd511f9a891fae45828968683f",
+  "universal_evidence": "Written contraction and commuting and anticommuting scalar-square class proofs independently reviewed; finite controls check original maps and symbolic identities, not all mixed ports."
+}

@@ -5,6 +5,40 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2171--K2172: Mixed-port exclusions and mean-constrained fidelity (2026-10-27)
+
+K2171 derives an ordered Euler contraction of all ten full mixed-port equations and
+excludes every genuinely mixed scalar-square pair whose components commute or
+anticommute, including nondecomposable and nilpotent cases. All coordinate two-blade
+overlaps are covered; general nonscalar-square or neither-commuting-nor-anticommuting
+pairs remain open. The filter is necessary only. K2172 proves mean-constrained fidelity
+strictly improves the norm-only cap relaxation, supplies a weak dual with infinite-tail
+control, and solves its entire fixed-contrast fixture exactly for every feasible click
+probability. A moment-preserving perturbation proves that fidelity optimizer never
+minimizes energy at interior probabilities and yields a feasible improved witness. A
+general three-coordinate direction excludes terminal saturated or zero tails with two
+earlier interior coordinates, without claiming all optimal entries interior. A256-bin
+rational cover and exact witness prove0.5498<E_min(Delta=1/2)<0.84168. These are
+exact-contrast vacuum output field-energy bounds, not the actual energy optimum,
+threshold-uniform upgrade or apparatus cost. Source, ledger and canon remain unchanged.
+
+- [K2171](explorations/conditional-build/k2171-mixed-port-euler-filter-2026-10-27.md).
+- [K2172](explorations/conditional-build/k2172-mean-constrained-fidelity-2026-10-27.md).
+
+Two independent field specialists derived and reviewed the new arguments and actual
+artifacts; a third independently reconstructed both proofs and inspected
+notes/probes/reports. Twenty-five Clifford controls check the original ten-row
+contraction, ordered products, grade spectra and two scalar-square exclusions. Twenty
+detector controls check the dual/profile/tail/perturbation identities;256 exact rational
+probability bins and a feasible perturbed witness provide separate numerical
+certificates. Twelve genuine altered-input/equation faults fail specific checks after
+green baselines. Universal algebraic and infinite-sequence proofs are distinct from
+finite checks. No proof-assistant, external-expert, novelty, arbitrary-channel,
+apparatus-cost or remote-CI claim.
+
+Earlier sections preserve historical result snapshots; the current scope is above.
+
+
 ## K2169--K2170: Invertible pencils and quantitative detector gap (2026-10-27)
 
 K2169 proves every nonzero mixed-even seven-form passing the complete normalized
