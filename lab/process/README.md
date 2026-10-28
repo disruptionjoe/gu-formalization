@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2167-mixed-port-complete-adapters](k2167-mixed-port-complete-adapters.json).
+- [k2168-finite-budget-moment-envelope](k2168-finite-budget-moment-envelope.json).
+
 
 - [k2153-diagonal-detector-energy](k2153-diagonal-detector-energy.json).
 - [k2154-uncompensated-detector-control](k2154-uncompensated-detector-control.json).

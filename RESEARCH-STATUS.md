@@ -6,6 +6,40 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2167--K2168: Mixed-port reduction and global detector envelope (2026-10-27)
+
+K2167 proves arbitrary mixed-even seven-form descent in the complete normalized adapter
+family requires Z2=0. A cyclic normal-bimodule dimension argument and real tangent Hodge
+obstruction cover singular and nondecomposable middle components. Further full-row Euler
+contraction excludes ALL nonzero pure tangent-degree seven-forms, including arbitrary
+invertible nonscalar-square normal forms. A complex-pencil reduction and exact degree-
+five polynomial certificate also exclude every amplitude of one complementary mixed two-
+blade family. General genuinely coupled degree0+4 remains among even ports; moving
+geometry and changed operators remain separate. K2168 proves a globally strictly convex
+finite-budget moment relaxation with one scalar minimization, exact endpoint
+classification and a strict gap from every informative detector optimum. Rational
+certificates give0.5423370097<R(1/2)<0.5423370099 and1.2985788504<R(3/4)<1.2985788507 in
+the fixed fixture. It is sharp at zero budget but not the actual finite frontier;
+apparatus preparation/reset remains open. Conditional mathematics only; source, ledger
+and canon unchanged.
+
+- [K2167](explorations/conditional-build/k2167-mixed-port-complete-adapters-2026-10-27.md).
+- [K2168](explorations/conditional-build/k2168-finite-budget-moment-envelope-2026-10-27.md).
+
+Two independent read-only specialists reviewed actual notes and probes, including the
+final pure-port Euler extension and finite-budget strictness. Twenty-three Clifford
+controls include original mixed projections, all1024 normal conjugation characters,
+both512-grade spectra and full-row nonscalar-square fixtures, exact polynomial
+interpolation and Bezout exclusion; eight symbolic detector controls plus exact rational
+interval certificates verify finite-budget bounds. Thirteen genuine changed-input or
+equation faults are rejected after green baselines. Universal algebraic, convexity,
+endpoint and compact-attainment arguments are separately reviewed; finite controls do
+not alone prove them. No proof-assistant, external-expert, novelty, arbitrary-channel,
+apparatus-cost or remote-CI claim.
+
+Earlier sections preserve historical result snapshots; the current scope is above.
+
+
 ## K2165--K2166: Normalized adapters and sharp weak-budget limit (2026-10-27)
 
 K2165 classifies ALL normalized zero-order principal intertwiners for the fixed coupled

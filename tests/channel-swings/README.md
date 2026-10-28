@@ -1,3 +1,6 @@
+
+- [k2167_mixed_port_complete_adapters](k2167_mixed_port_complete_adapters_probe.py).
+- [k2168_finite_budget_moment_envelope](k2168_finite_budget_moment_envelope_probe.py).
 # Pre-contract wave probes
 
 - [k2165_even_clifford_adapter_descent_probe](k2165_even_clifford_adapter_descent_probe.py).

@@ -1,0 +1,73 @@
+{
+  "result_id": "K2167",
+  "status": "conditional_exact_controls",
+  "exact_checks": {
+    "mixed_original_projection_all40": true,
+    "mixed_metric_traces_all10": true,
+    "residual_sensitive_linear_elimination": true,
+    "odd_nondecomposable_original_degree_formula": true,
+    "real_hodge_square_minus_one": true,
+    "all6_real_middle_hodge_pairs": true,
+    "normal_reconstruction": true,
+    "left_ideal_closure_identity": true,
+    "zero_full_map_positive": true,
+    "scalar_full_map_positive": true,
+    "necessary_not_sufficient_lower_row_controls": true,
+    "degenerate_degree0_and4_singular_witnesses": true,
+    "nondecomposable_scalar_square_controls": true,
+    "scalar_square_full_lower_identity": true,
+    "nonscalar_square_full_lower_euler_contraction": true,
+    "coupled_pencil_unique_adapter_and_full_leak": true,
+    "degree5_exact_interpolation_and_bezout": true,
+    "independent_half_ratio_interpolation_control": true,
+    "singular_pencils_fail_left_compatibility": true,
+    "1024_distinct_normal_conjugation_characters": true,
+    "all512_even_normal_grade_eigenvalues": true,
+    "all512_odd_normal_grade_eigenvalues": true,
+    "unique_full_normal_anticommutant_blade": true
+  },
+  "fault_failures": {
+    "missing_port": [
+      "mixed_original_projection_all40",
+      "mixed_metric_traces_all10",
+      "odd_nondecomposable_original_degree_formula",
+      "necessary_not_sufficient_lower_row_controls"
+    ],
+    "kernel_shift": [
+      "mixed_original_projection_all40",
+      "mixed_metric_traces_all10",
+      "odd_nondecomposable_original_degree_formula",
+      "necessary_not_sufficient_lower_row_controls"
+    ],
+    "lower_sign": [
+      "mixed_original_projection_all40",
+      "mixed_metric_traces_all10",
+      "odd_nondecomposable_original_degree_formula",
+      "necessary_not_sufficient_lower_row_controls"
+    ],
+    "derivative_factor": [
+      "left_ideal_closure_identity"
+    ],
+    "omit_kappa": [
+      "necessary_not_sufficient_lower_row_controls"
+    ],
+    "inverse_sign": [
+      "scalar_square_full_lower_identity"
+    ],
+    "euler_weight": [
+      "nonscalar_square_full_lower_euler_contraction"
+    ],
+    "pencil_sign": [
+      "coupled_pencil_unique_adapter_and_full_leak"
+    ]
+  },
+  "dependency_sha256": {
+    "explorations/conditional-build/k2167-mixed-port-complete-adapters-2026-10-27.md": "5eff542787a1afae9f162fcc533d6378b044205b3394abd4d14f8fae89530b00",
+    "tests/channel-swings/k2165_even_clifford_adapter_descent_probe.py": "48af4af289526570b68727a879d569c2c6b16c68098b1d4fce887769716ae389",
+    "tests/channel-swings/k2161_noncentral_adapter_obstruction_probe.py": "b138c3556b5ba0e70260e0938da7abf4e56d01a4da9a38a1189ae5cb06aefba5",
+    "tests/channel-swings/k2159_commutant_equation_adapters_probe.py": "66fcdfa20412a8523ab117c9300d69381ab20dd406c675243c8c2f2a01667a38",
+    "tests/channel-swings/source_native_fermion_transverse_port_probe.py": "74c817b7d0cd59210b09dee507ce7d0feb3f0c433ae021f0a6b7a0ba81dea390"
+  },
+  "probe_sha256": "fb442ed1c7aa3171da6ec4aeec0d339895d0891f7ad76e63eb93eb1b8bcfa53e",
+  "universal_evidence": "Written tangent projections, normal-bimodule dimension argument, real Hodge obstruction, pure odd/singular extensions and universal full-row Euler/spectral exclusion and degree-bounded exact polynomial/B\u00e9zout mixed-family certificate independently reviewed. Finite fixtures are not arbitrary-matrix exhaustion or source certification."
+}

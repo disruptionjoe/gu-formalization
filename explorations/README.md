@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2167-mixed-port-complete-adapters](conditional-build/k2167-mixed-port-complete-adapters-2026-10-27.md).
+- [k2168-finite-budget-moment-envelope](conditional-build/k2168-finite-budget-moment-envelope-2026-10-27.md).
+
 
 - [k2153-diagonal-detector-energy](conditional-build/k2153-diagonal-detector-energy-2026-10-27.md).
 - [k2154-uncompensated-detector-control](conditional-build/k2154-uncompensated-detector-control-2026-10-27.md).
