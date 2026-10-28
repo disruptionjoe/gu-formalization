@@ -5,6 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-10-28: ANTICOMMUTING SPECTRAL EXCLUSION AND EFFECTIVE DETECTOR CERTIFICATES.**
+> Do not requeue any J=0 anticommuting adapter, one/two-root nonzero-J spectrum or equal-four-weight spectrum. Test the remaining three-root or unequal-four-root weighted quartic trace system, retaining real Clifford grades, Jordan structure and all ten original rows; general noncommuting and common R0/R1 same16cell/shared-return constructions remain distinct alternatives. Detector dual cutoff/mesh effectiveness is now established; useful work needs an efficient certified optimizer exploiting monotone structure, an actual whole-tail shooting region, profile coercivity, or a stable shared apparatus/preparation/reset account. Do not recount inherited K2176 duality, gap decomposition or61-cell bracket as new. Preserve saturation/scalar inverse, endpoint,weak353/170,thermal163/164,restricted cosmology,native2+1/chirality,source/full16cell/full20/K-C,physical quotient,mirrors/fullII/normaljets and exact wings.
+> Earlier banners are historical; use this current condition.
+
+
 > **2026-10-28: NONCOMMUTING CLIFFORD CONSTRAINTS AND MONOTONE DETECTOR OPTIMIZERS.**
 > Do not requeue commuting ports, anticommuting proportional or nilpotent squares, J=0 scalar-square strata, detector nonmonotone optimizers or the critical B=0 tail. Compare genuine nonproportional anticommuting/general noncommuting all-ten-row reconstruction against the same16cell/common-lower-return source R0/R1 map or mobile geometry with explicit changed assumptions. Detector successors need computable uniform or a posteriori tail bounds for the exact shooting set, or a certified outer squeeze solver; the asymptotic ratio alone certifies neither finite prefixes nor numerical convergence. Preserve global saturation/scalar inverse, endpoint, weak353/170, half-contrast bracket, thermal163/164, restricted cosmology, native2+1/chirality, source/full16cell/full20/K-C, physical quotient, mirrors/fullII/normaljets and exact wings. Shared stable Hamiltonian/preparation/reset and total-work accounting remain separate missing model inputs.
 > Earlier banners are historical; use this current condition.

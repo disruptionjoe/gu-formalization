@@ -6,6 +6,25 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2195--K2196: Conditional research results (2026-10-28)
+
+K2195 excludes every anticommuting fixed-adapter solution with J=0, including nonscalar squares and Jordan blocks: a complete 6545-composition trace census leaves two spectra, both contradicted by odd-pencil/Pfaffian multiplicities. For J nonzero it derives a quartic and an eight-value weighted trace reduction, then excludes one/two distinct roots and four equal weights; three-root and unequal four-root candidates and all original-row reconstruction remain open. K2196 gives explicit rational bounds on dual multipliers/slopes, cutoff error and finite mesh error at every nonzero interior contrast, yielding a terminating finite rational lower approximation without a shooting assumption. Its rational verifier reproduces the inherited61-rectangle half-contrast bracket0.83103<E<0.831205; neither duality nor that numerical bracket is new. No efficient complexity, joint uniqueness, apparatus account or GU physics credit. Source, ledger0.263 and canon unchanged.
+
+- [K2195](explorations/conditional-build/k2195-anticommuting-spectral-reduction-2026-10-28.md).
+- [K2196](explorations/conditional-build/k2196-detector-primal-dual-certificates-2026-10-28.md).
+
+Two read-only field specialists and a distinct actual-artifact acceptance reviewer checked the final arguments and instruments. K2195 has231 exact controls, the exhaustive6545-composition trace census, four two-root Bezout certificates and5 genuine fault detections. K2196 has35 exact controls and6 faults, plus a rational re-verification of the inherited61-rectangle bracket. Universal pairing/trace and infinite-tail/error proofs, finite controls and inherited certificate reuse remain distinct evidence kinds. No heavy build, proof-assistant, external-expert, novelty or remote-CI certification.
+
+| Claim | Prior | Current | Weakest dependency and scope |
+|---|---|---|---|
+| J=0 anticommuting fixed adapters | Mixed nonscalar sector open | Excluded | K2193 necessary full-row contraction; complex32 trace and Pfaffian proof |
+| J nonzero anticommuting spectra | Necessary square equations | Quartic/eight-value trace; one/two roots and equal-four weights excluded | Necessary only; real Clifford reconstruction and all ten rows open |
+| Detector finite rational dual | Attained dual and noneffective reference completeness inherited | Explicit cutoff and bounded-mesh lower error | Supplied instrument; rational squeezes and0<abs(d)<3/4, no practical complexity |
+| Half-contrast joint energy bracket | K2176:0.83103<E<0.831205 | Preserved, reverified with rational free slopes | Same inherited61 rectangles and upper witness, no independent physics credit |
+
+Earlier sections are historical.
+
+
 ## K2193--K2194: Conditional research results (2026-10-28)
 
 K2193 derives the corrected ordered anticommuting Euler identity directly from all ten fixed-adapter equations and excludes proportional squares (including nonscalar squares), either nilpotent square, and J=0 with either square scalar, retaining Jordan blocks. A genuine nonscalar noncommuting fixture and nonzero-J controls verify the original maps; the remaining nonproportional anticommuting and general noncommuting families are open. K2194 proves every positive interior-contrast fixed-squeeze and joint detector optimizer is strictly increasing toward1, with B<0 and an explicit complementary tail ratio strictly below1. The critical B=0 case is excluded. Exact two-parameter shooting plus full infinite cap feasibility and contrast characterizes the unique fixed-squeeze optimizer; finite prefixes, practical convergence, joint uniqueness and uniform tail cutoffs are not certified. Output field energy still excludes apparatus/preparation/reset. Source, ledger0.263, canon and physical quotient remain unchanged.

@@ -1,4 +1,8 @@
 
+- [k2195_anticommuting_spectral_reduction_probe](k2195_anticommuting_spectral_reduction_probe.py).
+- [k2196_detector_primal_dual_certificates_probe](k2196_detector_primal_dual_certificates_probe.py).
+
+
 - [k2193_noncommuting_clifford_constraints_probe](k2193_noncommuting_clifford_constraints_probe.py).
 - [k2194_detector_optimizer_structure_probe](k2194_detector_optimizer_structure_probe.py).
 

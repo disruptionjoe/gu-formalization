@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2195-anticommuting-spectral-reduction-2026-10-28](conditional-build/k2195-anticommuting-spectral-reduction-2026-10-28.md).
+- [k2196-detector-primal-dual-certificates-2026-10-28](conditional-build/k2196-detector-primal-dual-certificates-2026-10-28.md).
+
+
 - [k2193-noncommuting-clifford-constraints-2026-10-28](conditional-build/k2193-noncommuting-clifford-constraints-2026-10-28.md).
 - [k2194-detector-optimizer-structure-2026-10-28](conditional-build/k2194-detector-optimizer-structure-2026-10-28.md).
 

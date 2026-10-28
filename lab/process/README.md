@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2195-anticommuting-spectral-reduction](k2195-anticommuting-spectral-reduction.json).
+- [k2196-detector-primal-dual-certificates](k2196-detector-primal-dual-certificates.json).
+
+
 - [k2193-noncommuting-clifford-constraints](k2193-noncommuting-clifford-constraints.json).
 - [k2194-detector-optimizer-structure](k2194-detector-optimizer-structure.json).
 
