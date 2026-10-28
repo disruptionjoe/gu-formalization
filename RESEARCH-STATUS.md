@@ -6,6 +6,24 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2193--K2194: Conditional research results (2026-10-28)
+
+K2193 derives the corrected ordered anticommuting Euler identity directly from all ten fixed-adapter equations and excludes proportional squares (including nonscalar squares), either nilpotent square, and J=0 with either square scalar, retaining Jordan blocks. A genuine nonscalar noncommuting fixture and nonzero-J controls verify the original maps; the remaining nonproportional anticommuting and general noncommuting families are open. K2194 proves every positive interior-contrast fixed-squeeze and joint detector optimizer is strictly increasing toward1, with B<0 and an explicit complementary tail ratio strictly below1. The critical B=0 case is excluded. Exact two-parameter shooting plus full infinite cap feasibility and contrast characterizes the unique fixed-squeeze optimizer; finite prefixes, practical convergence, joint uniqueness and uniform tail cutoffs are not certified. Output field energy still excludes apparatus/preparation/reset. Source, ledger0.263, canon and physical quotient remain unchanged.
+
+- [K2193](explorations/conditional-build/k2193-noncommuting-clifford-constraints-2026-10-28.md).
+- [K2194](explorations/conditional-build/k2194-detector-optimizer-structure-2026-10-28.md).
+
+Two read-only field specialists and a distinct actual-artifact acceptance reviewer found no remaining scientific blockers in the final proofs and instruments. K2193 has48 exact original-row/polynomial controls and seven genuine fault detections. K2194 has147 symbolic/rational recurrence, inversion, sign and tail controls and five genuine fault detections. Universal written arguments, exact identity checks and finite fixtures remain distinct evidence kinds. No heavy build, proof-assistant, external-expert, novelty or remote-CI certification.
+
+| Claim | Prior state | Current state | Weakest dependency / retained limit |
+|---|---|---|---|
+| Anticommuting fixed adapters | General nonscalar case open | Proportional/nilpotent square classes and J=0 one-scalar-square strata excluded | Ordered Euler contraction is necessary only; other noncommuting cases remain open |
+| Positive-contrast detector optimizing effect | Interiority and scalar saturation known; shape open | Strictly increasing to1 with explicit strictly subunit complementary tail ratio | Supplied positive Fock instrument; no joint uniqueness or uniform cutoff |
+| Fixed-squeeze construction | Infinite convex problem with known unique minimizer | Exact two-parameter shooting equivalence | Entire trajectory/caps/contrast required; finite-prefix feasibility insufficient |
+
+Earlier sections are historical.
+
+
 ## K2191--K2192: Conditional research results (2026-10-28)
 
 K2191 excludes ALL commuting ports in the fixed normalized Clifford-adapter family. Six-plane faithful-four spectral division and the remaining rank2/degenerate-rank4 halfspin Pfaffian trace reduction exhaust every surviving rank, retaining nilpotent parts and Jordan blocks. Noncommuting ports and different source-native adapters remain open. K2192 proves the paired full-tail defect bound Delta²<=12J/25 and eta*d>H at every positive-contrast minimizer. The detector equality frontier F and F(d)/d are strictly increasing; V(d)=F(d), so every threshold optimizer saturates. The scalar inverse energy frontier is unique and admits an equality-safe effective trisection procedure. This does not prove unique optimizing effects/squeezes, smoothing energy descent, practical solver complexity, apparatus costs or GU physical recovery. Source, ledger0.263, canon and physical-quotient status are unchanged.

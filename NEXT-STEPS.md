@@ -5,6 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-10-28: NONCOMMUTING CLIFFORD CONSTRAINTS AND MONOTONE DETECTOR OPTIMIZERS.**
+> Do not requeue commuting ports, anticommuting proportional or nilpotent squares, J=0 scalar-square strata, detector nonmonotone optimizers or the critical B=0 tail. Compare genuine nonproportional anticommuting/general noncommuting all-ten-row reconstruction against the same16cell/common-lower-return source R0/R1 map or mobile geometry with explicit changed assumptions. Detector successors need computable uniform or a posteriori tail bounds for the exact shooting set, or a certified outer squeeze solver; the asymptotic ratio alone certifies neither finite prefixes nor numerical convergence. Preserve global saturation/scalar inverse, endpoint, weak353/170, half-contrast bracket, thermal163/164, restricted cosmology, native2+1/chirality, source/full16cell/full20/K-C, physical quotient, mirrors/fullII/normaljets and exact wings. Shared stable Hamiltonian/preparation/reset and total-work accounting remain separate missing model inputs.
+> Earlier banners are historical; use this current condition.
+
+
 > **2026-10-28: CLIFFORD SPECTRAL OBSTRUCTION AND GLOBAL DETECTOR SATURATION.**
 > Do not requeue any commuting fixed-adapter Clifford stratum or the detector global multiplier/saturation question: both are closed within their declared models. Compare a genuinely noncommuting fixed-adapter construction retaining all ten original rows against a source-native common R0/R1 reality-density map on the same16 cells and lower return, or mobile geometry with explicit changed assumptions. The detector branch now supports scalar budget inversion; useful successors need a constructive optimizing-effect structure or a resource account using a stable shared Hamiltonian with preparation/reset. The effective inverse is established, but no practical numerical performance or joint optimizer uniqueness follows. Preserve K2182 endpoint, weak353/170, K2176 half bracket, thermal163/164, restricted cosmology, native2+1/chirality, source/full16cell/full20/K-C, physical quotient, mirrors/fullII/normaljets and exact wings.
 > Earlier banners are historical; use this current condition.

@@ -1,4 +1,8 @@
 
+- [k2193_noncommuting_clifford_constraints_probe](k2193_noncommuting_clifford_constraints_probe.py).
+- [k2194_detector_optimizer_structure_probe](k2194_detector_optimizer_structure_probe.py).
+
+
 - [k2191_clifford_sector_obstruction_probe](k2191_clifford_sector_obstruction_probe.py).
 - [k2192_detector_smoothing_and_sign_probe](k2192_detector_smoothing_and_sign_probe.py).
 

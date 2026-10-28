@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: fec9f6228b00a93eb02d092976cf5b05ea1f12e1
+revision_basis: cefc4191dfa54ebe6174006c04998bea4c7144f8
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,7 +118,20 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
-    K2191 excludes ALL commuting ports in the fixed normalized Clifford-adapter family.
+    K2193 derives the corrected ordered anticommuting Euler identity directly from all
+    ten fixed-adapter equations and excludes proportional squares (including nonscalar
+    squares), either nilpotent square, and J=0 with either square scalar, retaining
+    Jordan blocks. A genuine nonscalar noncommuting fixture and nonzero-J controls
+    verify the original maps; the remaining nonproportional anticommuting and general
+    noncommuting families are open. K2194 proves every positive interior-contrast
+    fixed-squeeze and joint detector optimizer is strictly increasing toward1, with B<0
+    and an explicit complementary tail ratio strictly below1. The critical B=0 case is
+    excluded. Exact two-parameter shooting plus full infinite cap feasibility and
+    contrast characterizes the unique fixed-squeeze optimizer; finite prefixes,
+    practical convergence, joint uniqueness and uniform tail cutoffs are not certified.
+    Output field energy still excludes apparatus/preparation/reset. Source, ledger0.263,
+    canon and physical quotient remain unchanged.
+    Historical predecessor (not live): K2191 excludes ALL commuting ports in the fixed normalized Clifford-adapter family.
     Six-plane faithful-four spectral division and the remaining rank2/degenerate-rank4
     halfspin Pfaffian trace reduction exhaust every surviving rank, retaining nilpotent
     parts and Jordan blocks. Noncommuting ports and different source-native adapters
@@ -17245,6 +17258,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2193-noncommuting-clifford-constraints-2026-10-28.md
+  - explorations/conditional-build/k2194-detector-optimizer-structure-2026-10-28.md
+  - lab/process/k2193-noncommuting-clifford-constraints.json
+  - lab/process/k2194-detector-optimizer-structure.json
   - explorations/conditional-build/k2191-clifford-sector-obstruction-2026-10-28.md
   - explorations/conditional-build/k2192-detector-smoothing-and-sign-2026-10-28.md
   - lab/process/k2191-clifford-sector-obstruction.json
@@ -18839,7 +18856,12 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can a noncommuting fixed-adapter construction satisfy all original rows, or can a
+  Can nonproportional, nonnilpotent anticommuting or general noncommuting Clifford ports
+  satisfy all ten original rows, or can a source-native common R0/R1 map supply the
+  missing model? Can the detector's strictly monotone optimizer and explicit tail ratio
+  yield a computable whole-tail shooting certificate or practical certified
+  joint-squeeze optimizer?
+  Historical predecessor (not live): Can a noncommuting fixed-adapter construction satisfy all original rows, or can a
   source-native common R0/R1 map supply the missing model? Which optimizing-effect or
   apparatus construction makes the now strictly increasing, saturating detector frontier
   useful beyond its effective scalar inverse?
@@ -22786,7 +22808,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Do not requeue any commuting fixed-adapter Clifford stratum or the detector global
+  Do not requeue commuting ports, anticommuting proportional or nilpotent squares, J=0
+  scalar-square strata, detector nonmonotone optimizers or the critical B=0 tail.
+  Compare genuine nonproportional anticommuting/general noncommuting all-ten-row
+  reconstruction against the same16cell/common-lower-return source R0/R1 map or mobile
+  geometry with explicit changed assumptions. Detector successors need computable
+  uniform or a posteriori tail bounds for the exact shooting set, or a certified outer
+  squeeze solver; the asymptotic ratio alone certifies neither finite prefixes nor
+  numerical convergence. Preserve global saturation/scalar inverse, endpoint,
+  weak353/170, half-contrast bracket, thermal163/164, restricted cosmology,
+  native2+1/chirality, source/full16cell/full20/K-C, physical quotient,
+  mirrors/fullII/normaljets and exact wings. Shared stable Hamiltonian/preparation/reset
+  and total-work accounting remain separate missing model inputs.
+  Historical predecessor (not live): Do not requeue any commuting fixed-adapter Clifford stratum or the detector global
   multiplier/saturation question: both are closed within their declared models. Compare
   a genuinely noncommuting fixed-adapter construction retaining all ten original rows
   against a source-native common R0/R1 reality-density map on the same16 cells and lower

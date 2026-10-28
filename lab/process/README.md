@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2193-noncommuting-clifford-constraints](k2193-noncommuting-clifford-constraints.json).
+- [k2194-detector-optimizer-structure](k2194-detector-optimizer-structure.json).
+
+
 - [k2191-clifford-sector-obstruction](k2191-clifford-sector-obstruction.json).
 - [k2192-detector-smoothing-and-sign](k2192-detector-smoothing-and-sign.json).
 

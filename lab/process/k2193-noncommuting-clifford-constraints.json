@@ -1,0 +1,110 @@
+{
+  "result_id": "K2193",
+  "status": "conditional_exact_controls",
+  "checks": {
+    "anticommuting_0": true,
+    "pencil_square_0": true,
+    "A_expansion_0": true,
+    "B_ordered_expansion_0": true,
+    "grade_contraction_0": true,
+    "filter_identity_0": true,
+    "original10_contracted_identity_0": true,
+    "original_rows_reject_0": true,
+    "both_nonscalar": true,
+    "V_square": true,
+    "inverse_both_sides": true,
+    "exact_E": true,
+    "exact_Lh": true,
+    "noncommuting": true,
+    "anticommuting_1": true,
+    "pencil_square_1": true,
+    "A_expansion_1": true,
+    "B_ordered_expansion_1": true,
+    "grade_contraction_1": true,
+    "filter_identity_1": true,
+    "original10_contracted_identity_1": true,
+    "original_rows_reject_1": true,
+    "nonzero_J_fixture": true,
+    "anticommuting_2": true,
+    "pencil_square_2": true,
+    "A_expansion_2": true,
+    "B_ordered_expansion_2": true,
+    "grade_contraction_2": true,
+    "filter_identity_2": true,
+    "original10_contracted_identity_2": true,
+    "original_rows_reject_2": true,
+    "proportional_reduction": true,
+    "coprime_A_B": true,
+    "common_root_rejection": true,
+    "grade6_exception": true,
+    "grade10_exception": true,
+    "scalar_specialization": true,
+    "nilpotent_T": true,
+    "nilpotent_V": true,
+    "T_nilpotent_trace_contradiction": true,
+    "V_nilpotent_trace_contradiction": true,
+    "V_scalar_zero_sector_ratio": true,
+    "T_scalar_zero_sector_ratio": true,
+    "mixed_spectrum_multiplicity_impossible": true,
+    "mixed_trace_fraction": true,
+    "all_nonzero_V_scalar": true,
+    "all_nonzero_T_scalar": true,
+    "mixed_T_scalar_sign": true
+  },
+  "fault_failures": {
+    "pencil": [
+      "pencil_square_0",
+      "filter_identity_0",
+      "original10_contracted_identity_0",
+      "pencil_square_1",
+      "filter_identity_1",
+      "original10_contracted_identity_1",
+      "pencil_square_2",
+      "filter_identity_2",
+      "original10_contracted_identity_2"
+    ],
+    "missing_cross_term": [
+      "filter_identity_0",
+      "original10_contracted_identity_0",
+      "exact_Lh",
+      "filter_identity_1",
+      "original10_contracted_identity_1",
+      "filter_identity_2",
+      "original10_contracted_identity_2"
+    ],
+    "grade10_sign": [
+      "filter_identity_1",
+      "original10_contracted_identity_1",
+      "filter_identity_2",
+      "original10_contracted_identity_2"
+    ],
+    "K_sign": [
+      "B_ordered_expansion_0",
+      "B_ordered_expansion_1",
+      "B_ordered_expansion_2"
+    ],
+    "extra_eta": [
+      "original10_contracted_identity_0",
+      "original10_contracted_identity_1",
+      "original10_contracted_identity_2"
+    ],
+    "polynomial_coefficient": [
+      "proportional_reduction",
+      "common_root_rejection",
+      "grade6_exception",
+      "grade10_exception"
+    ],
+    "trace_dimension": [
+      "mixed_spectrum_multiplicity_impossible"
+    ]
+  },
+  "dependency_sha256": {
+    "explorations/conditional-build/k2193-noncommuting-clifford-constraints-2026-10-28.md": "5b7779fd1b2dbdb801c5b449199c65056b936710693908e5723ebfd55e8f1058",
+    "tests/channel-swings/k2171_mixed_port_euler_filter_probe.py": "3ffe4989295e3516104c439348ad6a7251382fdd511f9a891fae45828968683f",
+    "tests/channel-swings/k2169_invertible_pencil_full_descent_probe.py": "b44d589073b48ee121b8c7ee6fc4aa4372eb2ca17169442d6611b7275410118a",
+    "explorations/conditional-build/k2171-mixed-port-euler-filter-2026-10-27.md": "2842a3ec66251ed8e9dee00b5b90c4d546f0021932fb4e04356cbf48a0305a7d",
+    "explorations/conditional-build/k2177-exceptional-spectrum-descent-2026-10-28.md": "b7e9e3d69f5fe67f90d1154d0497f6fe063f91442084978afd7b006904fe938d"
+  },
+  "probe_sha256": "00b644b9538298de35c828d6d7862a4f84a708bd642f59ba24d03d0cec3c73d2",
+  "universal_evidence": "Written ordered algebra, grade separation and finite-dimensional trace arguments; original-ten-row fixtures and polynomial identities are controls, not enumeration of all anticommuting ports."
+}
