@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2191-clifford-sector-obstruction](k2191-clifford-sector-obstruction.json).
+- [k2192-detector-smoothing-and-sign](k2192-detector-smoothing-and-sign.json).
+
+
 - [k2189-nonaffine-clifford-reduction](k2189-nonaffine-clifford-reduction.json).
 - [k2190-detector-global-minimizing-structure](k2190-detector-global-minimizing-structure.json).
 

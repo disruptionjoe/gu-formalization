@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2191-clifford-sector-obstruction-2026-10-28](conditional-build/k2191-clifford-sector-obstruction-2026-10-28.md).
+- [k2192-detector-smoothing-and-sign-2026-10-28](conditional-build/k2192-detector-smoothing-and-sign-2026-10-28.md).
+
+
 - [k2189-nonaffine-clifford-reduction-2026-10-28](conditional-build/k2189-nonaffine-clifford-reduction-2026-10-28.md).
 - [k2190-detector-global-minimizing-structure-2026-10-28](conditional-build/k2190-detector-global-minimizing-structure-2026-10-28.md).
 

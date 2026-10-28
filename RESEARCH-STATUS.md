@@ -6,6 +6,23 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2191--K2192: Conditional research results (2026-10-28)
+
+K2191 excludes ALL commuting ports in the fixed normalized Clifford-adapter family. Six-plane faithful-four spectral division and the remaining rank2/degenerate-rank4 halfspin Pfaffian trace reduction exhaust every surviving rank, retaining nilpotent parts and Jordan blocks. Noncommuting ports and different source-native adapters remain open. K2192 proves the paired full-tail defect bound Delta²<=12J/25 and eta*d>H at every positive-contrast minimizer. The detector equality frontier F and F(d)/d are strictly increasing; V(d)=F(d), so every threshold optimizer saturates. The scalar inverse energy frontier is unique and admits an equality-safe effective trisection procedure. This does not prove unique optimizing effects/squeezes, smoothing energy descent, practical solver complexity, apparatus costs or GU physical recovery. Source, ledger0.263, canon and physical-quotient status are unchanged.
+
+- [K2191](explorations/conditional-build/k2191-clifford-sector-obstruction-2026-10-28.md).
+- [K2192](explorations/conditional-build/k2192-detector-smoothing-and-sign-2026-10-28.md).
+
+Two internal specialists derived and challenged the proofs; a separate actual-artifact acceptance reviewer found no scientific blocker in their transfer, certificates or scope. K2191 passes128 exact controls and7 coefficient/trace mutations; K2192 passes105 symbolic/full-tail rational controls and3 mutations. Written universal proofs, exact identities and concrete representation fixtures remain distinct evidence kinds. No proof-assistant, external-expert, novelty or remote-CI certification.
+
+| Result | Established | Still open |
+|---|---|---|
+| K2191 | All commuting fixed normalized Clifford adapters excluded, including degenerate/nilpotent/Jordan cases | Noncommuting ports and different source-native constructions |
+| K2192 | Strict scalar frontier, exact threshold saturation and effective equality-safe inverse | Joint optimizer uniqueness, practical algorithm complexity and total apparatus work |
+
+Earlier sections are historical.
+
+
 ## K2189--K2190: Conditional research results (2026-10-28)
 
 K2189 excludes nilpotent h4/h8 in every commuting fixed-adapter Clifford solution. Rank4 nondegenerate and rank6 survivors reduce to one nondegenerate six-plane, a faithful4-dimensional square algebra with ambient multiplicities divisible by8, and six-plus-one smaller-algebra equations retaining all ten original rows. Nonaffine existence remains open; a central structural fixture still fails ten rows. K2190 proves positive minimizing multiplier when both squeezes are at most1 and confines any remaining sign failure at positive contrast to s1>1>s0 with Dirichlet defect below3d/5. Exact full-tail examples disprove individual-Q sign shortcuts based on positive squeeze or negative contrast, and prove outcome-zero noise can raise energy even at positive contrast. Together with K2186 every fixed bias fails somewhere at positive contrast. Global frontier/saturation, joint uniqueness, source, ledger, canon, physical quotient and apparatus costs remain unchanged.

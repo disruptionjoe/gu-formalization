@@ -1,4 +1,8 @@
 
+- [k2191_clifford_sector_obstruction_probe](k2191_clifford_sector_obstruction_probe.py).
+- [k2192_detector_smoothing_and_sign_probe](k2192_detector_smoothing_and_sign_probe.py).
+
+
 - [k2189_nonaffine_clifford_reduction_probe](k2189_nonaffine_clifford_reduction_probe.py).
 - [k2190_detector_global_minimizing_structure_probe](k2190_detector_global_minimizing_structure_probe.py).
 

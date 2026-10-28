@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 08cb0e6c089e74c48238b6d79be40f93d1dc22e5
+revision_basis: fec9f6228b00a93eb02d092976cf5b05ea1f12e1
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,7 +118,19 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
-    K2189 excludes nilpotent h4/h8 in every commuting fixed-adapter Clifford solution.
+    K2191 excludes ALL commuting ports in the fixed normalized Clifford-adapter family.
+    Six-plane faithful-four spectral division and the remaining rank2/degenerate-rank4
+    halfspin Pfaffian trace reduction exhaust every surviving rank, retaining nilpotent
+    parts and Jordan blocks. Noncommuting ports and different source-native adapters
+    remain open. K2192 proves the paired full-tail defect bound Delta²<=12J/25 and
+    eta*d>H at every positive-contrast minimizer. The detector equality frontier F and
+    F(d)/d are strictly increasing; V(d)=F(d), so every threshold optimizer saturates.
+    The scalar inverse energy frontier is unique and admits an equality-safe effective
+    trisection procedure. This does not prove unique optimizing effects/squeezes,
+    smoothing energy descent, practical solver complexity, apparatus costs or GU
+    physical recovery. Source, ledger0.263, canon and physical-quotient status are
+    unchanged.
+    Historical predecessor (not live): K2189 excludes nilpotent h4/h8 in every commuting fixed-adapter Clifford solution.
     Rank4 nondegenerate and rank6 survivors reduce to one nondegenerate six-plane, a
     faithful4-dimensional square algebra with ambient multiplicities divisible by8, and
     six-plus-one smaller-algebra equations retaining all ten original rows. Nonaffine
@@ -17233,6 +17245,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2191-clifford-sector-obstruction-2026-10-28.md
+  - explorations/conditional-build/k2192-detector-smoothing-and-sign-2026-10-28.md
+  - lab/process/k2191-clifford-sector-obstruction.json
+  - lab/process/k2192-detector-smoothing-and-sign.json
   - explorations/conditional-build/k2189-nonaffine-clifford-reduction-2026-10-28.md
   - explorations/conditional-build/k2190-detector-global-minimizing-structure-2026-10-28.md
   - lab/process/k2189-nonaffine-clifford-reduction.json
@@ -18823,7 +18839,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can the actual six-plane nonaffine Clifford equations be solved with their faithful4
+  Can a noncommuting fixed-adapter construction satisfy all original rows, or can a
+  source-native common R0/R1 map supply the missing model? Which optimizing-effect or
+  apparatus construction makes the now strictly increasing, saturating detector frontier
+  useful beyond its effective scalar inverse?
+  Historical predecessor (not live): Can the actual six-plane nonaffine Clifford equations be solved with their faithful4
   square algebra and retained complement row, and does genuinely paired minimizing
   structure force the detector multiplier sign in the remaining straddling regime?
   Historical predecessor (not live): Can genuinely nonaffine commuting or noncommuting Clifford ports satisfy all original
@@ -22766,7 +22786,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Do not requeue nilpotent product components or full ten-dimensional searches on the
+  Do not requeue any commuting fixed-adapter Clifford stratum or the detector global
+  multiplier/saturation question: both are closed within their declared models. Compare
+  a genuinely noncommuting fixed-adapter construction retaining all ten original rows
+  against a source-native common R0/R1 reality-density map on the same16 cells and lower
+  return, or mobile geometry with explicit changed assumptions. The detector branch now
+  supports scalar budget inversion; useful successors need a constructive
+  optimizing-effect structure or a resource account using a stable shared Hamiltonian
+  with preparation/reset. The effective inverse is established, but no practical
+  numerical performance or joint optimizer uniqueness follows. Preserve K2182 endpoint,
+  weak353/170, K2176 half bracket, thermal163/164, restricted cosmology,
+  native2+1/chirality, source/full16cell/full20/K-C, physical quotient,
+  mirrors/fullII/normaljets and exact wings.
+  Historical predecessor (not live): Do not requeue nilpotent product components or full ten-dimensional searches on the
   proved nondegenerate rank4/rank6 Clifford strata. Solve their actual six-plus-one
   reduced rows in both complement-volume sectors, retaining the faithful4 square algebra
   and ambient32 trace; scalar nonzero h4 squared is not excluded without the old affine

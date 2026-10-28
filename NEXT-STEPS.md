@@ -5,6 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-10-28: CLIFFORD SPECTRAL OBSTRUCTION AND GLOBAL DETECTOR SATURATION.**
+> Do not requeue any commuting fixed-adapter Clifford stratum or the detector global multiplier/saturation question: both are closed within their declared models. Compare a genuinely noncommuting fixed-adapter construction retaining all ten original rows against a source-native common R0/R1 reality-density map on the same16 cells and lower return, or mobile geometry with explicit changed assumptions. The detector branch now supports scalar budget inversion; useful successors need a constructive optimizing-effect structure or a resource account using a stable shared Hamiltonian with preparation/reset. The effective inverse is established, but no practical numerical performance or joint optimizer uniqueness follows. Preserve K2182 endpoint, weak353/170, K2176 half bracket, thermal163/164, restricted cosmology, native2+1/chirality, source/full16cell/full20/K-C, physical quotient, mirrors/fullII/normaljets and exact wings.
+> Earlier banners are historical; use this current condition.
+
+
 > **2026-10-28: SIX-PLANE CLIFFORD REDUCTION AND DETECTOR SIGN BOUNDARIES.**
 > Do not requeue nilpotent product components or full ten-dimensional searches on the proved nondegenerate rank4/rank6 Clifford strata. Solve their actual six-plus-one reduced rows in both complement-volume sectors, retaining the faithful4 square algebra and ambient32 trace; scalar nonzero h4 squared is not excluded without the old affine premise. Rank2, degenerate rank4 with nonzero scalar B squared and noncommuting cases remain separate. Detector sign now needs a genuinely paired/global minimizing argument in s1>1>s0, Dirichlet defect below3d/5. Individual branch-Q sign fails even at negative branch contrast; every fixed neutral bias has a positive-contrast failure. These witnesses are not optimizers and do not refute F=V. Preserve K2182 endpoint,weak353/170,K2176 half bracket,common-bar R0/R1/mobile construction,thermal163/164,restricted cosmology,native2+1/chirality,source/full16cell/full20/K-C,physical quotient,mirrors/fullII/normaljets and exact wings. Shared physical Hamiltonian,preparation/reset and total work remain unconstructed.
 > Earlier banners are historical; use this current condition.
