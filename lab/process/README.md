@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2203-observed-lower-pairing-compatibility](k2203-observed-lower-pairing-compatibility.json).
+- [k2204-detector-infinite-stability-certificate](k2204-detector-infinite-stability-certificate.json).
+- [k2205-ordered-pencil-real-constraints](k2205-ordered-pencil-real-constraints.json).
+
+
 - [k2200-observed-principal-pairing-freedom](k2200-observed-principal-pairing-freedom.json).
 - [k2201-detector-joint-variational-structure](k2201-detector-joint-variational-structure.json).
 - [k2202-ordered-clifford-adapter-consequences](k2202-ordered-clifford-adapter-consequences.json).

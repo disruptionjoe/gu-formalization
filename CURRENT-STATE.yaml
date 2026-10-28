@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: c18cbc5f40abe9db4bdef66daf4429d59a8eb189
+revision_basis: ba9b971ca3895e8aff965d19585c0e607f88b43b
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,7 +118,25 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
-    K2200 completely classifies pairings for the four observed directions of the fixed
+    K2203 classifies every smooth local formal pairing for the supplied raw observed
+    coefficient Omega_k=a_k I+delta_(k,0)mu gamma0 with its original shared return. For
+    nonzero mu somewhere, all pairings have C768 in their radical; exact scalar drift
+    leaves41472 bilinear and20592 symmetric forms, maximum rank1152 and balanced
+    inertia576/576. Nonexact real drift leaves only the zero global form. The same fixed
+    V1152 evolution admits no nonzero positive-semidefinite local conserved-current
+    metric; a positive homogeneous-ODE metric survives but fails spatial flux
+    compatibility. K2204 proves explicit energy/complementary-weight coercivity, an
+    infinite constrained2x2 Schur criterion and convergent whole-tail residual
+    certificates under certified strict-monotone tail bounds. A supplied nonstationary
+    profile at truly minimized squeezes has S>6I with support0..4 and residual
+    sum<53/50; this is curvature, not optimizer certification. K2205 constructs an
+    actual real grade3/7 pencil with16 distinct full32 eigenvalues each multiplicity2
+    and none on the unit circle, explicitly rejected by the Euler filter. Singular-safe
+    image tests characterize abstract invertible Euler factors; one chiral solution
+    admits a norm-one opposite-half completion. Prescribed Clifford-pencil
+    reconstruction, paired-Jordan tests and all ten original rows remain separate.
+    Source, ledger0.263, canon and physical quotient unchanged.
+    Historical predecessor (not live): K2200 completely classifies pairings for the four observed directions of the fixed
     raw1920 principal operator:83968 bilinear and41824 symmetric dimensions, including
     spinor-sensitive and degenerate forms. Every symmetric form has balanced inertia;
     every nondegenerate one has960/960. Fixed-operator Green compatibility forces these
@@ -17296,6 +17314,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2203-observed-lower-pairing-compatibility-2026-10-28.md
+  - explorations/conditional-build/k2204-detector-infinite-stability-certificate-2026-10-28.md
+  - explorations/conditional-build/k2205-ordered-pencil-real-constraints-2026-10-28.md
+  - lab/process/k2203-observed-lower-pairing-compatibility.json
+  - lab/process/k2204-detector-infinite-stability-certificate.json
+  - lab/process/k2205-ordered-pencil-real-constraints.json
   - explorations/conditional-build/k2200-observed-principal-pairing-freedom-2026-10-28.md
   - explorations/conditional-build/k2201-detector-joint-variational-structure-2026-10-28.md
   - explorations/conditional-build/k2202-ordered-clifford-adapter-consequences-2026-10-28.md
@@ -18910,7 +18934,12 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can an actual observed lower coefficient exploit the now completely classified pairing
+  Can certified stationary detector profiles satisfy the infinite Schur test and support
+  a nonlinear or joint-squeeze conclusion? Which changed source-admissible raw
+  coefficient/core survives shared-return constraints after the K2203 complete
+  classification? Can an actual grade3/7 pencil satisfy singular-safe Euler
+  reconstruction and all ten original rows?
+  Historical predecessor (not live): Can an actual observed lower coefficient exploit the now completely classified pairing
   family, or a changed principal/core meet the shared source constraints? Can the
   detector2x2 stability reduction and controlled true tail support a practical certified
   joint optimizer? Which actual noncommuting ports survive the paired-Jordan and
@@ -22875,7 +22904,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Retire further pairing searches for the unchanged full14 operator or the unchanged
+  Do not requeue pairings for the unchanged principal symbols or the complete K2203
+  supplied raw coefficient class. Test a source-admissible changed coefficient/core with
+  one common return; the surviving radical is not a physical quotient. Detector
+  whole-tail curvature certification is now effective under explicit profile bounds;
+  apply it to certified stationary-profile boxes or derive nonlinear/joint-squeeze
+  structure, keeping global optimality and apparatus/preparation/reset separate. K2205
+  settles abstract norm-one completion and supplies an actual non-fourfold,
+  non-unit-circle nonsolution. Intersect the singular-safe Euler image equations with
+  the prescribed real grade3/7 pencil and all ten original rows; do not use the spectral
+  witness as a solution or repeat commuting/anticommuting families. Preserve scalar
+  saturation/inverse, endpoint, weak353/170, inherited half bracket, thermal163/164,
+  restricted cosmology, source/full16cell/full20/K-C, native2+1/chirality, physical
+  quotient, mirrors/fullII/normaljets and exact wings.
+  Historical predecessor (not live): Retire further pairing searches for the unchanged full14 operator or the unchanged
   observed-four principal class: K2199 and K2200 classify them completely. Test a
   concrete shared lower coefficient against the full observed pairing family, or change
   the principal/core construction; balanced formal inertia is not a positive evolution

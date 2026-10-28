@@ -1,0 +1,71 @@
+{
+  "result_id": "K2205",
+  "status": "conditional_actual_port_countercontrol_and_Euler_reconstruction",
+  "checks": {
+    "pencil_equation": true,
+    "square_identity": true,
+    "q_squarefree": true,
+    "q_reciprocal_coprime": true,
+    "Euler_rejects": true,
+    "actual_degree8_annihilator": true,
+    "actual_clifford_signature": true,
+    "actual_odd_pencils": true,
+    "singular_A_full_stack": true,
+    "unique_left_inverse_reconstruction": true,
+    "full_stack_image_equality": true,
+    "deficient_image_invertible_factor": true,
+    "paired_norm_one_completion": true
+  },
+  "fault_failures": {
+    "Y_entry_fault": [
+      "corrupted equation rejected"
+    ],
+    "q_constant_fault": [
+      "corrupted equation rejected"
+    ],
+    "reciprocal_scaling_fault": [
+      "corrupted equation rejected"
+    ],
+    "stacked_image_fault": [
+      "corrupted equation rejected"
+    ],
+    "independent_opposite_half_fault": [
+      "corrupted equation rejected"
+    ]
+  },
+  "q_coefficients": [
+    "1",
+    "215594311518921148/27955676769824869",
+    "735656678328289732/27955676769824869",
+    "1446576020362616836/27955676769824869",
+    "1790520274742798830/27955676769824869",
+    "1428142198979408836/27955676769824869",
+    "717403806735025732/27955676769824869",
+    "207896520846657148/27955676769824869",
+    "26700314216456869/27955676769824869"
+  ],
+  "opposite_coefficients": [
+    "1",
+    "207896520846657148/26700314216456869",
+    "717403806735025732/26700314216456869",
+    "1428142198979408836/26700314216456869",
+    "1790520274742798830/26700314216456869",
+    "1446576020362616836/26700314216456869",
+    "735656678328289732/26700314216456869",
+    "215594311518921148/26700314216456869",
+    "27955676769824869/26700314216456869"
+  ],
+  "pencil_block_determinants": [
+    "3201105361546960165450616548831891456",
+    "2920066167838837908960494130311827456"
+  ],
+  "Euler_residual_00": "15850252893220743860640/27955676769824869 - 1581983112104607593520*I/27955676769824869",
+  "dependency_sha256": {
+    "explorations/conditional-build/k2202-ordered-clifford-adapter-consequences-2026-10-28.md": "af902183850c9dbda9d2e00477192341afbf6c04f6201189aeb0ee3c8d867590",
+    "explorations/conditional-build/k2197-general-ordered-adapter-constraints-2026-10-28.md": "718e69e113e98bcd53b5acf2e0a3be5ad83e6b3c944e20a6c4360be73819429e",
+    "explorations/conditional-build/k2171-mixed-port-euler-filter-2026-10-27.md": "2842a3ec66251ed8e9dee00b5b90c4d546f0021932fb4e04356cbf48a0305a7d",
+    "explorations/conditional-build/k2205-ordered-pencil-real-constraints-2026-10-28.md": "d81fe0ffab7b5f2e04fb6c7069797dd7a5fd28cdf9b0292512b36d4d81b0fb05"
+  },
+  "probe_sha256": "74bf37d86046080ad1c7f00ec4230c9a11bb54895a73fcabd277c5548e6b96c7",
+  "evidence_kinds": "Universal image-space/norm-one-completion proof; exact actual grade3/7 nonsolution spectral certificate; abstract singular-stack controls; equation/data faults. No full adapter solution, source verdict or physical claim."
+}

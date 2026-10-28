@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2203-observed-lower-pairing-compatibility-2026-10-28](conditional-build/k2203-observed-lower-pairing-compatibility-2026-10-28.md).
+- [k2204-detector-infinite-stability-certificate-2026-10-28](conditional-build/k2204-detector-infinite-stability-certificate-2026-10-28.md).
+- [k2205-ordered-pencil-real-constraints-2026-10-28](conditional-build/k2205-ordered-pencil-real-constraints-2026-10-28.md).
+
+
 - [k2200-observed-principal-pairing-freedom-2026-10-28](conditional-build/k2200-observed-principal-pairing-freedom-2026-10-28.md).
 - [k2201-detector-joint-variational-structure-2026-10-28](conditional-build/k2201-detector-joint-variational-structure-2026-10-28.md).
 - [k2202-ordered-clifford-adapter-consequences-2026-10-28](conditional-build/k2202-ordered-clifford-adapter-consequences-2026-10-28.md).

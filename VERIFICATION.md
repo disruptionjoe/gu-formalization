@@ -5,6 +5,19 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2203--K2205: Raw pairings, infinite stability and real pencils (2026-10-28)
+
+K2203 classifies every smooth local formal pairing for the supplied raw observed coefficient Omega_k=a_k I+delta_(k,0)mu gamma0 with its original shared return. For nonzero mu somewhere, all pairings have C768 in their radical; exact scalar drift leaves41472 bilinear and20592 symmetric forms, maximum rank1152 and balanced inertia576/576. Nonexact real drift leaves only the zero global form. The same fixed V1152 evolution admits no nonzero positive-semidefinite local conserved-current metric; a positive homogeneous-ODE metric survives but fails spatial flux compatibility. K2204 proves explicit energy/complementary-weight coercivity, an infinite constrained2x2 Schur criterion and convergent whole-tail residual certificates under certified strict-monotone tail bounds. A supplied nonstationary profile at truly minimized squeezes has S>6I with support0..4 and residual sum<53/50; this is curvature, not optimizer certification. K2205 constructs an actual real grade3/7 pencil with16 distinct full32 eigenvalues each multiplicity2 and none on the unit circle, explicitly rejected by the Euler filter. Singular-safe image tests characterize abstract invertible Euler factors; one chiral solution admits a norm-one opposite-half completion. Prescribed Clifford-pencil reconstruction, paired-Jordan tests and all ten original rows remain separate. Source, ledger0.263, canon and physical quotient unchanged.
+
+- [K2203](explorations/conditional-build/k2203-observed-lower-pairing-compatibility-2026-10-28.md).
+- [K2204](explorations/conditional-build/k2204-detector-infinite-stability-certificate-2026-10-28.md).
+- [K2205](explorations/conditional-build/k2205-ordered-pencil-real-constraints-2026-10-28.md).
+
+Three independent read-only specialists reviewed the concrete mathematical proofs and final native instruments. K2203 passes287 exact controls and6 genuine equation/data faults; K2204 passes13 controls and8 faults with an actual rational interval all-tail curvature certificate; K2205 passes13 controls and5 faults, including actual grade3/7 spectral and abstract singular reconstruction controls. Universal proofs, finite exact controls, interval evidence and reporting consistency remain distinct. Reviewer corrections include probe name shadowing, rational predecessor scope, actual junction mutation, norm-one completion, and topology of the holonomy example. No proof-assistant, external-expert, novelty, heavy-build or remote-CI certification.
+
+Earlier sections preserve historical result snapshots; the current scope is above.
+
+
 ## K2200--K2202: Observed pairings, detector stability and paired Jordan blocks (2026-10-28)
 
 K2200 completely classifies pairings for the four observed directions of the fixed raw1920 principal operator:83968 bilinear and41824 symmetric dimensions, including spinor-sensitive and degenerate forms. Every symmetric form has balanced inertia; every nondegenerate one has960/960. Fixed-operator Green compatibility forces these forms constant along the observed directions. K2201 reduces every finite detector Hessian negative index to at most two, gives an exact2x2 Schur test with a linear-arithmetic tridiagonal implementation, and certifies a smooth strictly interior negative-curvature profile after truly optimizing both squeezes. It also proves the true optimizer complement tail has a controlled geometric-times-power prefactor. K2202 proves paired Jordan blocks on each chiral16 half for every admissible ordered adapter pencil, with degree8 chiral annihilators and reciprocal-conjugate transport. General noncommuting adapters and joint detector optimality remain open. Source, ledger0.263, canon and physical quotient unchanged.
