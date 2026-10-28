@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: fb0a8134a1b8310374f2a03ede73478b361e2fad
+revision_basis: d114ec2ec49c3583a5cb2204412a54807c670fd7
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,18 +118,19 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
-    K2195 excludes every anticommuting fixed-adapter solution with J=0, including
-    nonscalar squares and Jordan blocks: a complete 6545-composition trace census leaves
-    two spectra, both contradicted by odd-pencil/Pfaffian multiplicities. For J nonzero
-    it derives a quartic and an eight-value weighted trace reduction, then excludes
-    one/two distinct roots and four equal weights; three-root and unequal four-root
-    candidates and all original-row reconstruction remain open. K2196 gives explicit
-    rational bounds on dual multipliers/slopes, cutoff error and finite mesh error at
-    every nonzero interior contrast, yielding a terminating finite rational lower
-    approximation without a shooting assumption. Its rational verifier reproduces the
-    inherited61-rectangle half-contrast bracket0.83103<E<0.831205; neither duality nor
-    that numerical bracket is new. No efficient complexity, joint uniqueness, apparatus
-    account or GU physics credit. Source, ledger0.263 and canon unchanged.
+    K2195 excludes EVERY anticommuting fixed normalized adapter, including nonscalar
+    squares and Jordan blocks: the J=0 census/Pfaffian proof closes that sector, and the
+    nonzero-J quartic/eight-value trace reduction excludes all one/two/three/four-root
+    multiplicity partitions by exact Bezout and singular-rank certificates. Missing
+    quartic roots may coincide; the exceptional5210 h=-1/18 branch is explicitly
+    inconsistent. General noncommuting original-row reconstruction remains open. K2196
+    gives explicit rational bounds on dual multipliers/slopes, cutoff error and finite
+    mesh error at every nonzero interior contrast, yielding a terminating finite
+    rational lower approximation without a shooting assumption. Its rational verifier
+    reproduces the inherited61-rectangle half-contrast bracket0.83103<E<0.831205;
+    neither duality nor that numerical bracket is new. No efficient complexity, joint
+    uniqueness, apparatus account or GU physics credit. Source, ledger0.263 and canon
+    unchanged.
     Historical predecessor (not live): K2193 derives the corrected ordered anticommuting Euler identity directly from all
     ten fixed-adapter equations and excludes proportional squares (including nonscalar
     squares), either nilpotent square, and J=0 with either square scalar, retaining
@@ -18872,11 +18873,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can the surviving nonzero-J three-root or unequal-four-root anticommuting spectra
-  satisfy the weighted quartic trace constraints and actual ten-row Clifford
-  reconstruction? Can an efficient certified detector optimizer exploit the new explicit
-  bounded dual slopes and monotone profile, or can a source-native common R0/R1 map
-  resolve the independent operator input?
+  Can a general noncommuting fixed adapter satisfy all ten original rows after the
+  entire anticommuting family is excluded? Can an efficient certified detector optimizer
+  exploit the explicit bounded dual slopes and monotone profile, or can a source-native
+  common R0/R1 map resolve the independent operator input?
   Historical predecessor (not live): Can nonproportional, nonnilpotent anticommuting or general noncommuting Clifford ports
   satisfy all ten original rows, or can a source-native common R0/R1 map supply the
   missing model? Can the detector's strictly monotone optimizer and explicit tail ratio
@@ -22829,16 +22829,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Do not requeue any J=0 anticommuting adapter, one/two-root nonzero-J spectrum or
-  equal-four-weight spectrum. Test the remaining three-root or unequal-four-root
-  weighted quartic trace system, retaining real Clifford grades, Jordan structure and
-  all ten original rows; general noncommuting and common R0/R1 same16cell/shared-return
-  constructions remain distinct alternatives. Detector dual cutoff/mesh effectiveness is
-  now established; useful work needs an efficient certified optimizer exploiting
-  monotone structure, an actual whole-tail shooting region, profile coercivity, or a
-  stable shared apparatus/preparation/reset account. Do not recount inherited K2176
-  duality, gap decomposition or61-cell bracket as new. Preserve saturation/scalar
-  inverse, endpoint,weak353/170,thermal163/164,restricted
+  Do not requeue any anticommuting port in this fixed normalized adapter family. Test
+  general noncommuting ports against all ten original rows, or construct the independent
+  common R0/R1 same16cell/shared-return source map; the completed spectral trace
+  exclusion applies only under {v,t}=0. Detector dual cutoff/mesh effectiveness is now
+  established; useful work needs an efficient certified optimizer exploiting monotone
+  structure, an actual whole-tail shooting region, profile coercivity, or a stable
+  shared apparatus/preparation/reset account. Do not recount inherited K2176 duality,
+  gap decomposition or61-cell bracket as new. Preserve saturation/scalar inverse,
+  endpoint,weak353/170,thermal163/164,restricted
   cosmology,native2+1/chirality,source/full16cell/full20/K-C,physical
   quotient,mirrors/fullII/normaljets and exact wings.
   Historical predecessor (not live): Do not requeue commuting ports, anticommuting proportional or nilpotent squares, J=0

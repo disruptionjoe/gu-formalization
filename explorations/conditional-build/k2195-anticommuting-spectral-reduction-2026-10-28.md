@@ -24,7 +24,7 @@ scripts:
 Classification: `BRIDGE_OR_SEMANTIC_BOUNDARY`.
 
 ```gu-typed-objects
-result: K2195 zero-top-grade exclusion and weighted quartic spectrum constraints
+result: K2195 complete anticommuting fixed-adapter exclusion
 carrier: full real Cl77 S128 vector-spinor plus scalar, W(3,1) and N(4,6) fixed LAYER=observed CHIRALITY=S-FULL-DIRAC
 pairing: algebraic field-equation evaluation; no physical Hilbert pairing ON=declared_carrier
 real_structure: real Clifford representation and independently supplied common reverse row
@@ -35,17 +35,14 @@ target: complete normalized zero-order principal and coefficient intertwiners MA
 
 ## Result and scope
 
-The fixed normalized adapter family has **no anticommuting solution with
-vanishing normal-grade10 product component J**, even when both squares are
-nonscalar and have Jordan blocks. This closes the remaining J=0 family left
-by [K2193](k2193-noncommuting-clifford-constraints-2026-10-28.md).
-
-If J is nonzero, a surviving anticommuting solution must instead have an
-invertible ratio X with a specific quartic polynomial and an eight-value
-weighted trace representation. Its spectrum cannot have one or two distinct
-roots, or four equally weighted distinct roots. The remaining three-root
-and unequal four-root possibilities are necessary spectral candidates, not
-Clifford reconstructions or solutions of the original ten rows.
+The fixed normalized adapter family has **no anticommuting solution**, including
+nonscalar squares and Jordan blocks. The J=0 case follows from a complete
+32-dimensional trace census and Pfaffian/chiral multiplicities. For J nonzero,
+a quartic and an eight-value weighted trace reduction leave finitely many
+multiplicity partitions; exact rational certificates exclude every one,
+including singular branches and coincident missing quartic roots. This closes
+the entire anticommuting family left by
+[K2193](k2193-noncommuting-clifford-constraints-2026-10-28.md).
 
 The object remains the full real Cl77 S128, fixed W(3,1)+N(4,6), normalized
 zero-order adapters and supplied common reverse of K2169/K2171. SC-OP-04
@@ -236,20 +233,177 @@ For four equally weighted distinct roots, each is counted twice in the
 hence a=c=0. The quartic's second Newton sum then makes the left side of
 the third equation85/9 instead of23/9: contradiction. Unequal weights,
 three distinct roots, repeated polynomial roots and Jordan structure are
-not eliminated by that equal-weight calculation.
+not eliminated by that equal-weight calculation; sections6--7 address them.
+
+## 6. All unequal four-root multiplicities
+
+Write the monic quartic as x⁴+A x³+B x²+C x+E, where
+
+    A=(-129a+27c)/1080, B=-85/18,
+    C=(49a+693c)/1080, E=49/54.
+
+Equations(6) are equivalently
+
+    A=-mu1/7+4mu_(-1)/45,
+    C=7mu1-196mu_(-1)/135,
+    mu2+A mu1=23/36.                         (7)
+
+The unequal partitions of8 into four positive parts are5111,4211,3311,3221.
+The exact probe derives the following exclusions, with rational Bezout
+coefficients saved in its report. All computations are over C.
+
+For5111 let t have weight5. Vieta gives mu1=(-A+4t)/8,
+mu_(-1)=(-C/E+4/t)/8, mu2=(A²-2B+4t²)/8. The first two traces give
+A=-4t/31+16/(279t), C=140t/31-812/(837t). The root equation gives
+486z²-83z-35=0, z=t², whereas the last trace gives972z+1273=0.
+Their exact substitution is nonzero.
+
+For3311 let p,q be sum/product of the weight3 pair and r,s of the weight1
+pair. Vieta gives q+s+pr=B, qs=E. The last trace gives
+2pr+3q+s=-23/9, hence q-s=62/9 and q²-62q/9-E=0. The other two traces
+are an invertible constant row combination of
+
+    (12985+504s)p+(13475+168q)r=0,
+    (12s+217)p+(12q+203)r=0.
+
+Their determinant modulo the product equation is59976q+124656, coprime
+to q²-62q/9-E. Thus p=r=0, so B then forces q=13/12, which fails the
+product equation.
+
+For3221 let the weight3 and weight1 roots have sum k, difference d and
+product h; let the weight2 pair have sum p and product q=E/h. Here h!=0,
+d!=0, and the last trace gives dp=R=124/9. Put
+
+    U=(81h+28)/(1350h), W=49(9h+2)/(270h),
+    Z=h+RU+E/h-B.
+
+The first traces give A=-dU,C=dW, hence p=R/d,k=dU-R/d. Vieta B gives
+d²Z=R², so Z!=0. Vieta C and d²=k²-4h imply
+
+    R²(W+UE/h)-R(E/h-h)Z=0,
+    R²(U²-1)+(-UR-3h+E/h-B)Z=0.
+
+Their primitive numerators are
+
+    72900h⁴+404514h³+1661352h²+52185h-60025,
+    -218700h⁴-929556h³-12428403h²+624750h+60025.
+
+Their exact rational gcd is1.
+
+For4211 let the weight4 and weight2 roots have sum k,difference d,product h;
+the weight1 pair has sum p,product q=E/h. Put f=k+d-p,g=(k-d)/h-p/q.
+The trace equations are
+
+    -k-p+3f/50-14g/675=0,
+    -hp-kq-49f/30+49g/135=0.
+
+Their k,p coefficient determinant is7Delta/(8100h), with
+Delta=1566h²-3732h-707. If Delta=0, d!=0 requires all augmented2-by2
+minors to vanish; their polynomial numerators have constant gcd7, impossible.
+Otherwise k=alpha*d,p=beta*d, where
+
+    alpha=2(27h²+957h+203)/Delta,
+    beta=-7(2430h²+657h+28)/(9h Delta).
+
+The last trace gives dp=R=124/9+2q-2h. Vieta and the difference identity
+imply alpha*R=B-h-q and R(alpha²-1)=4h beta. Their primitive numerators
+have degrees4 and6 and rational gcd1. These equations were obtained by
+multiplication, with NO division by beta or R; their zero cases remain covered.
+Thus all four-root weights, including2222 from section5, are excluded.
+
+## 7. All three-root multiplicities, including a repeated missing root
+
+The partitions of8 into three positive parts are611,521,431,422,332.
+Append a fourth quartic root of weight0. This missing root may coincide
+with a supported root; none of the following arguments assumes squarefree F.
+Every quartic root is nonzero since E!=0.
+
+### Equal supported pair:6110,4220,3320
+
+Give the distinguished supported/missing roots weights N,0, with N=6,4,2;
+give the other pair equal weights c=(8-N)/2. Let their sums/differences and
+products be k,d,h and p,q=E/h. Then
+
+    mu1=(Nk+Nd+2cp)/16,
+    mu_(-1)=((Nk-Nd)/h+2cp/q)/16,
+    Npd+2(N-4)(h-q)=248/9.                    (8)
+
+The first two traces(7) form M(h)(k,p)^T=d*v(h). The probe derives M,v
+from these displayed equations, not a fitted polynomial. For detM!=0 write
+k=alpha*d,p=beta*d. The identities d²=k²-4h and kp=B-h-q imply the
+necessary pair
+
+    4h alpha beta-(B-h-q)(alpha²-1)=0,
+    4h N beta-[248/9-2(N-4)(h-q)](alpha²-1)=0.
+
+Each pair's primitive numerators has constant gcd. No division by alpha²-1,
+beta, or d occurs in these final necessities. When detM=0 and d!=0,
+all augmented2-by2 minors must vanish; their numerator gcd is constant for
+each N. When d=0, k²=4h!=0 and p/k=(B-h-q)/(4h). Substituting this ratio
+in both trace rows and the last equation(8) again gives numerator gcd1.
+This explicitly covers a missing root coincident with the distinguished root.
+
+### Unequal pairs:5210 and4310
+
+Pair weights(5,0),(2,1) or(4,0),(3,1). Let pair sums/differences be k,d and
+p,j, products h and q=E/h. If N1,N2 are pair weight sums and D1,D2 their
+differences, the moments are exactly
+
+    mu1=(N1 k+D1 d+N2 p+D2 j)/16,
+    mu_(-1)=((N1 k-D1 d)/h+(N2 p-D2 j)/q)/16,
+    mu2=[N1(k²+d²)+2D1 kd+N2(p²+j²)+2D2 pj]/32.
+
+Use two charts for the linear trace equations(7): solve for(k,p), or for(k,d).
+Their determinant numerator polynomials, with irrelevant nonzero constants
+removed, are
+
+| weights | first chart | second chart |
+|---|---|---|
+|5210|9504h²-13062h-6125|2430h²+639h+28|
+|4310|54h²-49|2430h²+621h+28|
+
+The two chart determinants are coprime for each partition. In a valid chart,
+substitute its linear solution into the four equations
+
+    kp+h+q=B, d²-k²+4h=0, j²-p²+4q=0,
+    mu2+(-k-p)mu1=23/36.
+
+These are linear equations F(h)(u²,uv,v²,1)^T=0 in the three quadratic
+monomials of the two remaining free variables u,v. Thus detF=0. Let T be
+the first three rows/columns of F and b=-F[first three rows,last column].
+The vector y=adj(T)b must obey y1²-y0*y2=0. This remains necessary when
+T is singular: Ty_actual=b gives adj(T)b=det(T)y_actual. No division by
+detT, u, v, d or j is used.
+
+The probe constructs F from the original moment equations, verifies exact
+quadratic reconstruction, and saves rational Bezout certificates. In each
+second chart, the two necessary numerators have gcd a nonzero constant
+times h², excluding the chart because h!=0. At a second-chart singularity,
+the first chart is valid. For4310, its two necessary numerators together
+with the second determinant have gcd1. For5210 that gcd is h+1/18:
+this is a REAL exceptional branch to check, not a disposable denominator.
+At h=-1/18, the first-chart F has coefficient rank2 and augmented rank3,
+so its original four linear equations are inconsistent. The exact matrix is
+saved in the report and both ranks are checked. This closes5210 as well.
+
+Therefore no three-root spectrum survives. Together with sections2--6,
+**every anticommuting fixed normalized zero-order adapter is excluded**.
+The exclusion is a necessary-condition contradiction, so no reconstruction
+or sufficient spectral test is being claimed. Jordan blocks cannot repair
+trace contradictions. It does not exclude general noncommuting ports for
+which {v,t}!=0 or change the source-native theory.
 
 ## Verification and next question
 
 The probe performs the full rational32-dimensional trace census, exact
-factorization/elimination/Bezout checks, Fock bilinear and actual commuting
+factorization/elimination/Bezout/rank checks, Fock bilinear and actual commuting
 fixture controls, and genuine sign/coefficient/pairing faults after a green
-baseline. The proof of whole-class J=0 exclusion composes these with the
-written universal Pfaffian/chiral-transfer argument. The original ten rows
-are used through K2193's pinned necessary contraction, not silently replaced
-by a sufficient spectral test.
+baseline. The written universal Pfaffian/chiral-transfer argument supplies
+the multiplicity restriction; the finite partition certificates then cover
+all allowed supports. The original ten rows enter through K2193's pinned
+necessary contraction, never a claimed sufficient spectral replacement.
 
-Do not requeue J=0, one/two-root or equal-four-weight anticommuting spectra.
-Remaining nonzero-J spectral candidates have three distinct roots or four
-unequally weighted roots and must satisfy(4)--(6), real Clifford grades,
-invertible pencil and ALL original rows. General noncommuting ports outside
-{v,t}=0, common R0/R1 source maps and mobile geometry remain separate.
+Do not requeue any anticommuting port in this fixed normalized adapter family.
+The next operator question is the general noncommuting original ten-row
+problem, or a distinct explicit source-native common R0/R1 map on the same
+16cells/shared lower return. Mobile geometry remains a separate construction.

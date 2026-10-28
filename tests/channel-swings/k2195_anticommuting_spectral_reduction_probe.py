@@ -71,6 +71,143 @@ def algebra(fault=None):
   pairs.append(dict(n=nn,z=str(sol),polynomials=list(map(str,polys)),bezout=[str(bf),str(bg)]))
  return out,found,pairs
 
+def four_root_exclusions():
+ out={};ck=lambda k,v:out.__setitem__(k,bool(v));cert={}
+ A,C,k,p,q,r,s=S.symbols('A C k p q r s');t,h,d=S.symbols('t h d',nonzero=True)
+ B=-Q(85,18);E=Q(49,54);R=Q(124,9)
+ # Trace inversion in monic quartic coefficients: A=-mu1/7+4mu_-1/45,
+ # C=7mu1-196mu_-1/135; h trace is mu2+A*mu1=23/36.
+ m1=(-A+4*t)/8;mi=(-C/E+4/t)/8;m2=(A*A-2*B+4*t*t)/8
+ sol=S.solve([A+m1/7-Q(4,45)*mi,C-7*m1+Q(196,135)*mi],[A,C])
+ ck('four_5111_A',S.cancel(sol[A]+4*t/31-Q(16,279)/t)==0)
+ ck('four_5111_C',S.cancel(sol[C]-140*t/31+Q(812,837)/t)==0)
+ ck('four_5111_root',S.cancel((t**4+A*t**3+B*t*t+C*t+E).subs(sol)-(486*t**4-83*t*t-35)/558)==0)
+ ck('four_5111_moment',S.cancel((m2+A*m1-Q(23,36)).subs(sol)-(972*t*t+1273)/2232)==0)
+ z=-Q(1273,972);ck('four_5111_contradiction',486*z*z-83*z-35!=0)
+ # Two pairs, weights3 and1. Reduce original traces only by qs=E.
+ m1=(3*p+r)/8;mi=(3*p/q+r/s)/8;m2=(3*(p*p-2*q)+r*r-2*s)/8
+ eq1=S.cancel((-p-r)+m1/7-Q(4,45)*mi);eq2=S.cancel((-p*s-r*q)-7*m1+Q(196,135)*mi)
+ ck('four_3311_moment',S.expand(m2+(-p-r)*m1-Q(23,36)+(18*p*r+27*q+9*s+23)/36)==0)
+ # These two linear equations are an invertible constant row combination of
+ # original trace numerators after qs=E; verify reduction directly.
+ raw=[S.expand(S.fraction(e0)[0]) for e0 in [eq1,eq2]]
+ # Use division by q*s-E, no assumptions on root reality.
+ target1=(12985+504*s)*p+(13475+168*q)*r
+ target2=(12*s+217)*p+(12*q+203)*r
+ ck('four_3311_trace1',S.rem(S.together(eq1*q*s+target1/Q(15120)),q*s-E,s)==0)
+ # Once trace1 holds, trace2 is equivalent to target2 (checked via rank).
+ rawmat=S.Matrix([[S.cancel(eq.coeff(p)) if False else S.diff(eq,p),S.diff(eq,r)] for eq in [eq1,eq2]])
+ targetmat=S.Matrix([[12985+504*s,13475+168*q],[12*s+217,12*q+203]])
+ # Direct fixed row combination found algebraically; its determinant is nonzero.
+ trans=S.simplify(targetmat*rawmat.inv());trans=trans.applyfunc(lambda x:S.factor(x.subs(s,E/q)))
+ ck('four_3311_trace_equivalence',all(not x.has(q) for x in trans) and trans.det()!=0)
+ det=S.rem(S.expand(targetmat.det().subs(s,q-Q(62,9))),q*q-Q(62,9)*q-E,q)
+ ck('four_3311_determinant',det==59976*q+124656)
+ ck('four_3311_no_rank_loss',S.gcd(det,q*q-Q(62,9)*q-E)==1)
+ ck('four_3311_contradiction',(Q(13,12))**2-Q(62,9)*Q(13,12)-E!=0)
+ # Weights3,2,2,1: distinguished roots sum k,difference d,product h.
+ m1=(2*k+d+2*p)/8;mi=((2*k-d)/h+2*p/q)/8
+ ck('four_3221_trace1_coordinates',S.expand(m1-(-2*(-k-p)+d)/8)==0)
+ ck('four_3221_inverse_coordinates',S.cancel(mi-(-2*(-h*p-k*q)/(h*q)-d/h)/8)==0)
+ m2=(2*k*k-4*h+k*d+2*p*p-4*q)/8
+ ck('four_3221_moment_coordinates',S.expand(8*(m2+(-k-p)*m1-Q(23,36))+d*p+4*(h+q+k*p)+Q(46,9))==0)
+ U=(81*h+28)/(1350*h);W=49*(9*h+2)/(270*h)
+ m1=(-2*A+d)/8;mi=(-2*C/E-d/h)/8
+ sol=S.solve([A+m1/7-Q(4,45)*mi,C-7*m1+Q(196,135)*mi],[A,C])
+ ck('four_3221_trace_solution',S.cancel(sol[A]+d*U)==0 and S.cancel(sol[C]-d*W)==0)
+ Z=h+R*U+E/h-B
+ f=S.together(R**2*(W+U*E/h)-R*(E/h-h)*Z)
+ g=S.together(R**2*(U*U-1)+(-U*R-3*h+E/h-B)*Z)
+ # Trace gives p=R/d,k=d*U-R/d; B gives d² Z=R².
+ ck('four_3221_B',S.cancel((h+E/h+(d*U-R/d)*R/d-B)-(Z-R**2/d**2))==0)
+ ck('four_3221_C',S.cancel((d*W+h*R/d+(d*U-R/d)*E/h)*d-(d*d*(W+U*E/h)-R*(E/h-h)))==0)
+ ck('four_3221_difference',S.cancel(((d*U-R/d)**2-d*d-4*h)-(d*d*(U*U-1)-2*U*R+R*R/d**2-4*h))==0)
+ def bezout(label,f,g):
+  f=S.Poly(S.fraction(S.cancel(f))[0],h).primitive()[1].as_expr();g=S.Poly(S.fraction(S.cancel(g))[0],h).primitive()[1].as_expr()
+  u,v,gg=S.gcdex(f,g,h);ck(label,gg==1 and S.expand(u*f+v*g)==1)
+  cert[label]=dict(polynomials=[str(f),str(g)],bezout=[str(u),str(v)])
+ bezout('four_3221_bezout',f,g)
+ # Weights4,2,1,1. Distinguished roots distinct => d!=0; h!=0.
+ qh=E/h;f0=k+d-p;g0=(k-d)/h-p/qh
+ m1=(3*k+d+p)/8;mi=((3*k-d)/h+p/qh)/8
+ ck('four_4211_trace_coordinates',S.expand(m1-(-2*A+f0)/8).subs(A,-k-p)==0)
+ ck('four_4211_inverse_coordinates',S.cancel((mi-(-2*C/E+g0)/8).subs(C,-h*p-k*qh))==0)
+ sol=S.solve([A+m1/7-Q(4,45)*mi,C-7*m1+Q(196,135)*mi],[A,C])
+ # Original trace system, after Vieta substitution, equivalent to the following.
+ tr1=S.expand(-k-p+3*f0/50-Q(14,675)*g0)
+ tr2=S.expand(-h*p-k*qh-49*f0/30+Q(49,135)*g0)
+ direct=[S.expand(x) for x in [(-k-p)+m1/7-Q(4,45)*mi,(-h*p-k*qh)-7*m1+Q(196,135)*mi]]
+ m=S.Matrix([[S.diff(x,k),S.diff(x,p),S.diff(x,d)] for x in direct]);n=S.Matrix([[S.diff(x,k),S.diff(x,p),S.diff(x,d)] for x in [tr1,tr2]])
+ transform=S.simplify(n[:,:2]*m[:,:2].inv());ck('four_4211_trace_equivalence',all(S.cancel(x)==0 for x in transform*m-n) and transform.det()!=0)
+ m2=(Q(3,2)*(k*k+d*d)+k*d+p*p-2*qh)/8
+ ck('four_4211_moment_coordinates',S.expand((8*(m2+(-k-p)*m1-Q(23,36))).subs(d*d,k*k-4*h)+4*(h+qh+k*p)+d*p-(2*qh-2*h-Q(46,9)))==0)
+ mat=S.Matrix([[x.coeff(k),x.coeff(p)] for x in [tr1,tr2]]);delta=1566*h*h-3732*h-707
+ ck('four_4211_determinant',S.cancel(mat.det()-7*delta/(8100*h))==0)
+ aug=mat.row_join(S.Matrix([-tr1.coeff(d),-tr2.coeff(d)]));minors=[S.fraction(S.factor(aug[:,ij].det()))[0] for ij in [(0,1),(0,2),(1,2)]]
+ bezout('four_4211_singular_rank',minors[0],minors[1])
+ sol=S.solve([tr1,tr2],[k,p]);alpha=S.cancel(sol[k]/d);beta=S.cancel(sol[p]/d);rr=R+2*qh-2*h
+ ck('four_4211_alpha',S.cancel(alpha-2*(27*h*h+957*h+203)/delta)==0)
+ ck('four_4211_beta',S.cancel(beta+7*(2430*h*h+657*h+28)/(9*h*delta))==0)
+ # Multiply dp=rr with k=alpha*d,p=beta*d and d²=k²-4h.
+ # Never divide by beta or rr: their zero branches are retained.
+ bezout('four_4211_bezout',alpha*rr-(B-h-qh),rr*(alpha*alpha-1)-4*h*beta)
+ return out,cert
+
+def three_root_exclusions():
+ out={};cert={};ck=lambda k,v:out.__setitem__(k,bool(v))
+ h=S.symbols('h',nonzero=True);k,p,d,j=S.symbols('k p d j');xs=[k,p,d,j]
+ B=-Q(85,18);E=Q(49,54);q=E/h
+ def numerator(f):return S.Poly(S.fraction(S.cancel(f))[0],h).primitive()[1].as_expr()
+ def coprime(label,expressions,allow_h=False,expected=None):
+  polys=[numerator(f) for f in expressions];g=polys[0];coeff=[S.Integer(1)]
+  for f in polys[1:]:
+   u,v,ng=S.gcdex(g,f,h);coeff=[S.cancel(u*c) for c in coeff]+[v];g=ng
+  ck(label+'_identity',S.expand(sum(c*f for c,f in zip(coeff,polys))-g)==0)
+  ck(label+'_excluded',(expected is not None and S.expand(g-expected)==0) or S.degree(g,h)==0 or (allow_h and S.Poly(g,h).terms()==[((S.degree(g,h),),S.Integer(1))]))
+  cert[label]=dict(polynomials=list(map(str,polys)),bezout=list(map(str,coeff)),gcd=str(g),nonzero_h=allow_h)
+ # Equal pair weights1,2,3 and distinguished supported/missing roots.
+ for N,Delta,c in [(6,6,1),(4,4,2),(2,2,3)]:
+  label='three_'+str(N)+str(c)+str(c)+'0'
+  m1=(N*k+Delta*d+2*c*p)/16;mi=((N*k-Delta*d)/h+2*c*p/q)/16
+  m2=(N*(k*k+d*d)+2*Delta*k*d+4*c*(p*p-2*q))/32
+  # Universal h trace after d²=k²-4h and Vieta B.
+  reduced=S.expand((m2+(-k-p)*m1-Q(23,36))*16).subs(d*d,k*k-4*h)
+  ck(label+'_moment',S.expand(reduced+Delta*p*d+2*(N-4)*(h-q)+8*(h+q+k*p)+Q(92,9))==0)
+  rows=[S.expand(-k-p+m1/7-Q(4,45)*mi),S.expand(-h*p-q*k-7*m1+Q(196,135)*mi)]
+  M=S.Matrix([[S.diff(row,x) for x in [k,p]] for row in rows]);v=S.Matrix([-S.diff(row,d) for row in rows]);alpha,beta=map(S.cancel,M.inv()*v)
+  ck(label+'_trace_solution',all(S.cancel(x)==0 for x in M*S.Matrix([alpha,beta])-v))
+  fs=[4*h*alpha*beta-(B-h-q)*(alpha*alpha-1),4*h*Delta*beta-(Q(248,9)-2*(N-4)*(h-q))*(alpha*alpha-1)]
+  coprime(label+'_generic',fs)
+  aug=M.row_join(v);coprime(label+'_singular_nonzero_d',[aug[:,inds].det() for inds in [(0,1),(0,2),(1,2)]])
+  # d=0 implies k²=4h!=0; p/k is fixed by Vieta B. No trace-rank division.
+  coprime(label+'_zero_d',list(M*S.Matrix([1,(B-h-q)/(4*h)]))+[2*(N-4)*(h-q)-Q(248,9)])
+ # Unequal pairs: exact two-chart elimination, valid even if missing root repeats.
+ for weights in [(5,0,2,1),(4,0,3,1)]:
+  n1,n2,n3,n4=weights;N1=n1+n2;D1=n1-n2;N2=n3+n4;D2=n3-n4;label='three_'+''.join(map(str,weights))
+  m1=(N1*k+D1*d+N2*p+D2*j)/16;mi=((N1*k-D1*d)/h+(N2*p-D2*j)/q)/16
+  m2=(N1*(k*k+d*d)+2*D1*k*d+N2*(p*p+j*j)+2*D2*p*j)/32
+  rows=[-k-p+m1/7-Q(4,45)*mi,-h*p-q*k-7*m1+Q(196,135)*mi]
+  mat=S.Matrix([[S.diff(row,x) for x in xs] for row in rows]);charts=[]
+  for inds in [(0,1),(0,2)]:
+   M=mat[:,inds];det=S.factor(M.det());free=[x for i,x in enumerate(xs) if i not in inds];rhs=-mat[:,[i for i in range(4) if i not in inds]]*S.Matrix(free)
+   sol=M.inv()*rhs;subs={xs[ind]:S.cancel(sol[ii]) for ii,ind in enumerate(inds)}
+   ck(label+'_chart_'+str(inds),all(S.cancel(row.subs(subs,simultaneous=True))==0 for row in rows))
+   eqs=[k*p+h+q-B,d*d-k*k+4*h,j*j-p*p+4*q,m2+(-k-p)*m1-Q(23,36)]
+   forms=[S.Poly(S.cancel(eq.subs(subs,simultaneous=True)),*free) for eq in eqs];mon=[free[0]**2,free[0]*free[1],free[1]**2]
+   F=S.Matrix([[S.factor(z.coeff_monomial(m)) for m in mon]+[S.factor(z.coeff_monomial(1))] for z in forms])
+   ck(label+'_quadratic_reconstruction_'+str(inds),all(S.cancel(sum(F[i,l]*mon[l] for l in range(3))+F[i,3]-forms[i].as_expr())==0 for i in range(4)))
+   f=S.factor(F.det(method='domain-ge'));T=F[:3,:3];v=-T.adjugate()*F[:3,3];g=S.factor(v[1]*v[1]-v[0]*v[2])
+   # F annihilates (u²,uv,v²,1); detF=0 and adjugate quadratic are
+   # necessary even when T singular. No division by detT or free roots.
+   charts.append((det,f,g,F))
+  coprime(label+'_second_chart',charts[1][1:3],allow_h=True)
+  coprime(label+'_trace_charts_cover',[charts[0][0],charts[1][0]])
+  coprime(label+'_first_chart_at_second_singularity',[charts[0][1],charts[0][2],charts[1][0]],expected=h+Q(1,18) if n1==5 else None)
+  if n1==5:
+   F0=charts[0][3].subs(h,-Q(1,18));ck('three_5021_exceptional_rank',F0[:,:3].rank()==2 and F0.rank()==3)
+   cert['three_5021_exceptional_rank']=dict(h='-1/18',matrix=[[str(x) for x in row] for row in F0.tolist()],coefficient_rank=2,augmented_rank=3)
+ return out,cert
+
 def fock(fault=None):
  out={};ck=lambda k,v:out.__setitem__(k,bool(v));gam=[]
  for sign in [1,-1]:
@@ -110,14 +247,14 @@ def fock(fault=None):
 
 def main():
  ap=argparse.ArgumentParser();ap.add_argument('--write',action='store_true');args=ap.parse_args()
- cs,found,pairs=algebra();fc,char=fock();cs.update(fc);assert all(cs.values()),[k for k,v in cs.items() if not v]
+ cs,found,pairs=algebra();fc,char=fock();cs.update(fc);fcs,four=four_root_exclusions();tcs,three=three_root_exclusions();cs.update(fcs);cs.update(tcs);assert all(cs.values()),[k for k,v in cs.items() if not v]
  faults={}
  for f in ['e_cross','census_coefficient','quartic_coefficient']:
   bad=[k for k,v in algebra(f)[0].items() if not v];assert bad,('undetected',f);faults[f]=bad
  for f in ['pairing_sign','trivector_sign']:
   bad=[k for k,v in fock(f)[0].items() if not v];assert bad,('undetected',f);faults[f]=bad
  deps=['explorations/conditional-build/k2195-anticommuting-spectral-reduction-2026-10-28.md','explorations/conditional-build/k2193-noncommuting-clifford-constraints-2026-10-28.md','tests/channel-swings/k2193_noncommuting_clifford_constraints_probe.py','lab/process/k2193-noncommuting-clifford-constraints.json']
- report=dict(result_id='K2195',status='conditional_exact_exclusions',checks=cs,fault_failures=faults,trace_census=dict(compositions=6545,survivors=[list(row) for row in found]),two_root_bezout=pairs,fixture_chiral_characteristic=char,dependency_sha256={p:hashlib.sha256((ROOT/p).read_bytes()).hexdigest() for p in deps},probe_sha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),universal_evidence='Written joint-triangular trace proof and Chevalley/Pfaffian/chiral-transfer argument; complete finite census and exact elimination certificates. Fock fixtures are controls, not a search over all forms. Nonzero-J three-root and unequal four-root spectra and original-row reconstruction remain open.')
+ report=dict(result_id='K2195',status='conditional_exact_exclusions',checks=cs,fault_failures=faults,trace_census=dict(compositions=6545,survivors=[list(row) for row in found]),two_root_bezout=pairs,four_root_certificates=four,three_root_certificates=three,fixture_chiral_characteristic=char,dependency_sha256={p:hashlib.sha256((ROOT/p).read_bytes()).hexdigest() for p in deps},probe_sha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),universal_evidence='Written joint-triangular trace proof and Chevalley/Pfaffian/chiral-transfer argument; complete finite census and exact elimination certificates. Fock fixtures are controls, not a search over all forms. All one/two/three/four-root weighted spectra are excluded, including singular charts, missing-root coincidences and Jordan structure. Every anticommuting adapter in the fixed normalized family is excluded; general noncommuting adapters remain open.')
  dst=ROOT/'lab/process/k2195-anticommuting-spectral-reduction.json'
  if args.write:dst.write_text(json.dumps(report,indent=2)+'\n')
  else:assert json.loads(dst.read_text())==report
