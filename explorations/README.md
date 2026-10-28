@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2187-affine-clifford-exclusion-2026-10-28](conditional-build/k2187-affine-clifford-exclusion-2026-10-28.md).
+- [k2188-detector-variational-structure-2026-10-28](conditional-build/k2188-detector-variational-structure-2026-10-28.md).
+
+
 - [k2185-clifford-spectral-obstruction-2026-10-28](conditional-build/k2185-clifford-spectral-obstruction-2026-10-28.md).
 - [k2186-detector-contrast-descent-2026-10-28](conditional-build/k2186-detector-contrast-descent-2026-10-28.md).
 

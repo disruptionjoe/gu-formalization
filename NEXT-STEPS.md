@@ -5,6 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-10-28: AFFINE CLIFFORD EXCLUSION AND DETECTOR MULTIPLIER STRUCTURE.**
+> Do not reconstruct any commuting affine-dependent square ports, including scalar V with nonscalar T. Remaining commuting candidates need independent square defects, actual Clifford products, centrality, invertible pencil and all original equations; the new nonaffine fixture is rejected, not a class exclusion. Noncommuting ports and common-bar R0/R1 or mobile source constructions remain alternatives. At detector minimizers adaptive constant-noise bias cannot change first-order descent: prove the multiplier sign using global minimizing structure, or certify a true slack threshold optimizer. A formal polarized zero-multiplier tail is not a solution, and fixed-squeeze uniqueness is not joint uniqueness. Preserve K2182 endpoint theorem, weak-contrast353/170, K2176 half-contrast bracket, thermal163/164, restricted cosmology, native2+1/chirality, source/full16cell/full20/K-C, physical quotient, mirrors/fullII/normaljets and exact wings. Apparatus/clock/preparation/reset and total-work costs remain unaccounted.
+> Earlier banners are historical; use this current condition.
+
+
 > **2026-10-28: RANK-FOUR AFFINE LOCALIZATION AND DETECTOR NOISE OBSTRUCTION.**
 > Do not requeue scalar-product-square affine ports or bivector ranks0,2,6,8,10. Remaining affine candidates require rank4 B=(wu)2, the 34-dimensional trivector support, actual real Clifford metric and grade-one contractions, finite spectral constraints, centrality, invertible pencil and all ten original rows. Wedge-support examples are not full solutions. Nonaffine commuting and noncommuting ports remain separate. Generic convexity, radial quasiconvexity and fixed neutral-noise contraction cannot prove the detector global frontier; test adaptive or minimizer-specific descent or a certified nonconvex solver. The counterprofiles are not minimizers. Preserve weak-contrast353/170, K2182 endpoint theorem, K2176 half-contrast bracket, common-bar/mobile source construction, thermal163/164, restricted cosmology, source/full16cell/full20/K-C, native2+1/chirality, physical quotient, mirrors/fullII/normaljets and exact wings. Physical controller, preparation/reset and total-work costs remain unaccounted.
 > Earlier banners are historical; use this current condition.

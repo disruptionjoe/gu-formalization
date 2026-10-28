@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: dee05a55489609fdef75ef55795e5389a8ec5f70
+revision_basis: 24dd65cd218f67766d458e433a075fff85a20e33
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,7 +118,18 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
-    K2185 excludes every commuting affine-square Clifford candidate with scalar-square
+    K2187 excludes every commuting fixed-adapter Clifford port with affinely dependent
+    squares, including the vertical scalar-V case. The rank-four geometric proof handles
+    degenerate support and the vertical proof uses exact irrationality and multiplicity
+    identities. A genuine nonaffine central fixture has an invertible pencil but fails
+    all ten original rows. K2188 extends fixed-squeeze interiority and uniqueness to
+    every nonzero interior contrast and proves all neutral-noise biases have derivative
+    -eta*d at minimizing profiles. It links eta to the true frontier derivative, gives
+    an optimum rejection test and exact Dirichlet form, while a formal zero-multiplier
+    tail preserves the global sign question. No source, ledger, canon, physical
+    quotient, global saturation, joint uniqueness, half-contrast bound or
+    apparatus-accounting change.
+    Historical predecessor (not live): K2185 excludes every commuting affine-square Clifford candidate with scalar-square
     grade4 or grade8 product component. Exact polynomial certificates and exterior
     support then force the actual bivector (wu)2 to rank4; each trivector lies in a
     34-dimensional support space, while rank4 reconstruction and all ten original rows
@@ -17210,6 +17221,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2187-affine-clifford-exclusion-2026-10-28.md
+  - explorations/conditional-build/k2188-detector-variational-structure-2026-10-28.md
+  - lab/process/k2187-affine-clifford-exclusion.json
+  - lab/process/k2188-detector-variational-structure.json
   - explorations/conditional-build/k2185-clifford-spectral-obstruction-2026-10-28.md
   - explorations/conditional-build/k2186-detector-contrast-descent-2026-10-28.md
   - lab/process/k2185-clifford-spectral-obstruction.json
@@ -18792,7 +18807,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can the rank-four affine Clifford remainder satisfy actual metric and full-equation
+  Can genuinely nonaffine commuting or noncommuting Clifford ports satisfy all original
+  equations, and can global minimizing structure determine the detector contrast
+  multiplier sign after all neutral-noise biases collapse to one first-order slope?
+  Historical predecessor (not live): Can the rank-four affine Clifford remainder satisfy actual metric and full-equation
   reconstruction, and can a minimizer-specific or adaptive detector descent settle the
   global frontier after fixed-noise contraction fails?
   Historical predecessor (not live): Can the finite affine Clifford spectral remainder be realized by actual
@@ -22729,7 +22747,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Do not requeue scalar-product-square affine ports or bivector ranks0,2,6,8,10.
+  Do not reconstruct any commuting affine-dependent square ports, including scalar V
+  with nonscalar T. Remaining commuting candidates need independent square defects,
+  actual Clifford products, centrality, invertible pencil and all original equations;
+  the new nonaffine fixture is rejected, not a class exclusion. Noncommuting ports and
+  common-bar R0/R1 or mobile source constructions remain alternatives. At detector
+  minimizers adaptive constant-noise bias cannot change first-order descent: prove the
+  multiplier sign using global minimizing structure, or certify a true slack threshold
+  optimizer. A formal polarized zero-multiplier tail is not a solution, and
+  fixed-squeeze uniqueness is not joint uniqueness. Preserve K2182 endpoint theorem,
+  weak-contrast353/170, K2176 half-contrast bracket, thermal163/164, restricted
+  cosmology, native2+1/chirality, source/full16cell/full20/K-C, physical quotient,
+  mirrors/fullII/normaljets and exact wings. Apparatus/clock/preparation/reset and
+  total-work costs remain unaccounted.
+  Historical predecessor (not live): Do not requeue scalar-product-square affine ports or bivector ranks0,2,6,8,10.
   Remaining affine candidates require rank4 B=(wu)2, the 34-dimensional trivector
   support, actual real Clifford metric and grade-one contractions, finite spectral
   constraints, centrality, invertible pencil and all ten original rows. Wedge-support

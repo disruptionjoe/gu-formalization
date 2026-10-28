@@ -1,0 +1,122 @@
+{
+  "result_id": "K2187",
+  "status": "conditional_exact_controls",
+  "checks": {
+    "combined_volume_square": true,
+    "positive_bivector_defect": true,
+    "positive_gram_sign": true,
+    "positive_orthogonal_commutation": true,
+    "positive_factor_square": true,
+    "positive_complement_support": true,
+    "positive_nonscalar_complement_positive_control": true,
+    "positive_PBW_intersection": true,
+    "positive_dual_B_square": true,
+    "positive_dual_C_square": true,
+    "positive_E3_anticommutator": true,
+    "positive_E2K_commutator": true,
+    "indefinite_bivector_defect": true,
+    "indefinite_gram_sign": true,
+    "indefinite_orthogonal_commutation": true,
+    "indefinite_factor_square": true,
+    "indefinite_complement_support": true,
+    "indefinite_nonscalar_complement_positive_control": true,
+    "indefinite_PBW_intersection": true,
+    "indefinite_dual_B_square": true,
+    "indefinite_dual_C_square": true,
+    "indefinite_E3_anticommutator": true,
+    "indefinite_E2K_commutator": true,
+    "null_support_nonzero_top": true,
+    "null_support_square_zero": true,
+    "null_support_defect": true,
+    "null_support_scalar_part": true,
+    "nilpotent_resultant": true,
+    "vertical_operator_quadratic": true,
+    "vertical_trace_elimination": true,
+    "vertical_repeated_root_resultant": true,
+    "vertical_resultant_polynomial": true,
+    "vertical_discriminant_nonsquare": true,
+    "vertical_irrational_remainder": true,
+    "vertical_remainder_coefficient_bound": true,
+    "vertical_Bezout_1": true,
+    "vertical_Bezout_2": true,
+    "vertical_Bezout_3": true,
+    "vertical_Bezout_4": true,
+    "vertical_Bezout_5": true,
+    "vertical_Bezout_6": true,
+    "vertical_Bezout_7": true,
+    "vertical_Bezout_8": true,
+    "vertical_Bezout_9": true,
+    "vertical_Bezout_10": true,
+    "vertical_Bezout_11": true,
+    "vertical_Bezout_12": true,
+    "vertical_Bezout_13": true,
+    "vertical_Bezout_14": true,
+    "vertical_Bezout_15": true,
+    "vertical_Bezout_16": true,
+    "vertical_Bezout_17": true,
+    "vertical_Bezout_18": true,
+    "vertical_Bezout_19": true,
+    "vertical_Bezout_20": true,
+    "vertical_Bezout_21": true,
+    "vertical_Bezout_22": true,
+    "vertical_Bezout_23": true,
+    "vertical_Bezout_24": true,
+    "vertical_Bezout_25": true,
+    "vertical_Bezout_26": true,
+    "vertical_Bezout_27": true,
+    "vertical_Bezout_28": true,
+    "vertical_Bezout_29": true,
+    "vertical_Bezout_30": true,
+    "vertical_Bezout_31": true,
+    "vertical_zero_scalars_nilpotent_pencil": true,
+    "special_coefficient_kernel": true,
+    "generic_coefficient_kernel": true,
+    "nonaffine_anticommutator": true,
+    "nonaffine_B_owned": true,
+    "nonaffine_C_owned": true,
+    "nonaffine_B_centrality": true,
+    "nonaffine_U_centrality": true,
+    "nonaffine_V_formula": true,
+    "nonaffine_T_formula": true,
+    "nonaffine_rank3": true,
+    "nonaffine_pencil_inverse": true,
+    "nonaffine_original_transfer": true,
+    "nonaffine_original_rejected": true
+  },
+  "fault_failures": {
+    "wedge_factor": [
+      "positive_bivector_defect",
+      "indefinite_bivector_defect"
+    ],
+    "gram_sign": [
+      "indefinite_gram_sign"
+    ],
+    "factor_sign": [
+      "positive_factor_square",
+      "indefinite_factor_square"
+    ],
+    "dual_sign": [
+      "positive_dual_B_square",
+      "indefinite_dual_B_square"
+    ],
+    "nilpotent_polynomial": [
+      "nilpotent_resultant"
+    ]
+  },
+  "details": {
+    "nilpotent_resultant": "-1443826944",
+    "coefficient_kernel_dimensions": {
+      "special": 5,
+      "generic": 4
+    },
+    "nonaffine_original_nonzero_rows": 10
+  },
+  "dependency_sha256": {
+    "explorations/conditional-build/k2187-affine-clifford-exclusion-2026-10-28.md": "9c0ff9f4dcefa6cf6ced094c17e0024e5c48d5f5c132b45c6102bb126149196f",
+    "explorations/conditional-build/k2185-clifford-spectral-obstruction-2026-10-28.md": "dcb8c6a7427b724cfb598b63407b9c75bb4d585ee28b26f33cf772830471c098",
+    "explorations/conditional-build/k2183-commuting-trace-descent-2026-10-28.md": "c7515da397bdc66d12e5c932f8fa024fb0e71a7317320a006c7bf00be436e909",
+    "tests/channel-swings/k2185_clifford_spectral_obstruction_probe.py": "eee159dfcb0094ebbd6b96add6910f6fc5bad575792c3e6e986f484a9626e155"
+  },
+  "probe_sha256": "ac190ccec5567d80781ecb644496a97cf424a36819900bdadc9eb815b6ce020d",
+  "universal_evidence": "Written affine quadratic, degenerate blade and orthogonal PBW argument; finite exact Clifford identities and genuine nonaffine original-row countercontrol supplement internal independent review, not proof-assistant or physical certification."
+}

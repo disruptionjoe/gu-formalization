@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2187--K2188: Affine Clifford exclusion and detector multiplier structure (2026-10-28)
+
+K2187 excludes every commuting fixed-adapter Clifford port with affinely dependent squares, including the vertical scalar-V case. The rank-four geometric proof handles degenerate support and the vertical proof uses exact irrationality and multiplicity identities. A genuine nonaffine central fixture has an invertible pencil but fails all ten original rows. K2188 extends fixed-squeeze interiority and uniqueness to every nonzero interior contrast and proves all neutral-noise biases have derivative -eta*d at minimizing profiles. It links eta to the true frontier derivative, gives an optimum rejection test and exact Dirichlet form, while a formal zero-multiplier tail preserves the global sign question. No source, ledger, canon, physical quotient, global saturation, joint uniqueness, half-contrast bound or apparatus-accounting change.
+
+- [K2187](explorations/conditional-build/k2187-affine-clifford-exclusion-2026-10-28.md).
+- [K2188](explorations/conditional-build/k2188-detector-variational-structure-2026-10-28.md).
+
+Two independent internal field specialists reconstructed the candidate arguments; a distinct acceptance reviewer inspected the final proofs, probes, reports and hashes and found no remaining scientific blockers. K2187 has80 exact controls including31 vertical Bezout identities and5 genuine faults. K2188 has32 exact symbolic and full-tail interval controls with5 genuine faults. Universal proofs, finite exact identities, interval consistency and actual original-row countercontrols are separate evidence kinds. No proof-assistant, external-expert, novelty, remote-CI or global optimum claim.
+
+Earlier sections preserve historical result snapshots; the current scope is above.
+
+
 ## K2185--K2186: Rank-four affine localization and detector noise obstruction (2026-10-28)
 
 K2185 excludes every commuting affine-square Clifford candidate with scalar-square grade4 or grade8 product component. Exact polynomial certificates and exterior support then force the actual bivector (wu)2 to rank4; each trivector lies in a 34-dimensional support space, while rank4 reconstruction and all ten original rows remain open. K2186 proves fair binary outcome noise can increase optimized field energy while decreasing positive contrast, with an exact infinite-tail derivative bound greater than1/64 and a finite counterexample. Its released consequences exclude radial quasiconvexity and universal energy monotonicity for every fixed neutral replacement bias; adaptive and minimizer-specific descent remain open. No global frontier, threshold saturation, optimizer uniqueness, source, ledger, canon, physical quotient, half-contrast numerical bound or apparatus-accounting change.

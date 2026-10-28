@@ -1,4 +1,8 @@
 
+- [k2187_affine_clifford_exclusion_probe](k2187_affine_clifford_exclusion_probe.py).
+- [k2188_detector_variational_structure_probe](k2188_detector_variational_structure_probe.py).
+
+
 - [k2185_clifford_spectral_obstruction_probe](k2185_clifford_spectral_obstruction_probe.py).
 - [k2186_detector_contrast_descent_probe](k2186_detector_contrast_descent_probe.py).
 

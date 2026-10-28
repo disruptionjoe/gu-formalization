@@ -1,0 +1,82 @@
+{
+  "result_id": "K2188",
+  "status": "conditional_exact_controls",
+  "checks": {
+    "reference_contrast_-749/1000": true,
+    "reference_margin_-749/1000": true,
+    "reference_contrast_-1/2": true,
+    "reference_margin_-1/2": true,
+    "reference_contrast_-1/100": true,
+    "reference_margin_-1/100": true,
+    "reference_contrast_1/100": true,
+    "reference_margin_1/100": true,
+    "reference_contrast_1/2": true,
+    "reference_margin_1/2": true,
+    "reference_contrast_749/1000": true,
+    "reference_margin_749/1000": true,
+    "full_Dirichlet_0": true,
+    "full_energy_Dirichlet_0": true,
+    "full_Dirichlet_1": true,
+    "full_energy_Dirichlet_1": true,
+    "full_Dirichlet_2": true,
+    "full_energy_Dirichlet_2": true,
+    "local_multiplier_formula": true,
+    "neutral_full_tail": true,
+    "common_noise_slope": true,
+    "finite_stationary_variation_1": true,
+    "finite_stationary_variation_2": true,
+    "finite_stationary_variation_3": true,
+    "finite_stationary_variation_10": true,
+    "finite_stationary_variation_100": true,
+    "true_squeeze_necessary_range": true,
+    "tail_rhs_above_endpoint": true,
+    "tail_algebraic_root": true,
+    "tail_root_in_unit_interval": true,
+    "counterprofile_rejected_by_Q_equality": true,
+    "tangent_delta_exact": true
+  },
+  "fault_failures": {
+    "contrast_weight": [
+      "reference_contrast_-749/1000",
+      "reference_contrast_-1/2",
+      "reference_contrast_-1/100",
+      "reference_contrast_1/100",
+      "reference_contrast_1/2",
+      "reference_contrast_749/1000"
+    ],
+    "dirichlet_coefficient": [
+      "full_Dirichlet_0",
+      "full_Dirichlet_1"
+    ],
+    "multiplier_coefficient": [
+      "local_multiplier_formula"
+    ],
+    "tail_coefficient": [
+      "tail_algebraic_root"
+    ],
+    "tangent_tail": [
+      "tangent_delta_exact"
+    ]
+  },
+  "details": {
+    "tail_squeeze_pair": [
+      "1",
+      "9/10"
+    ],
+    "tail_rhs": "84889/64800",
+    "tail_sqrt_ratio": "84889/32400 - sqrt(3007102321)/32400",
+    "Q_difference": [
+      "579549274375052192508280090546157479300000881275947730681527265831467724042014351757711409425590209603692945798285188605888662350506859883641218083698463767268226821747089418076918199915701603931/4268980381767000475893876283649315652113221663720522180723165431955308825734057612952663645311248409784657162013788274631276366079278144016925664093452771395537197030165180241670199640512790528000",
+      "858591517592669914827081615728816173090819155925701773922163189880668207864377144675750066197046130309893105152766543348865562929935691359123176110518833673568859941602440170530570247393358191/6324415380395556260583520420220610284967600031822264737615665444942803859071526421519730470016335163092901538699199509518199787232257957072216651767007201162240730407300275042705760778715136000"
+    ]
+  },
+  "dependency_sha256": {
+    "explorations/conditional-build/k2188-detector-variational-structure-2026-10-28.md": "c55cdd360d0cae1a5af215d48d14f2dcc6142034466346f1dd4edfc5dac3c7b1",
+    "explorations/conditional-build/k2176-detector-certified-convergence-2026-10-27.md": "32239a146a016db33d426c7981ed9fd9f8b8c1cf7458e09fe599a6c1a554e3d0",
+    "explorations/conditional-build/k2186-detector-contrast-descent-2026-10-28.md": "e38391e097561cdbb3e02a58800b22352aee23ed62d18f1412af16d0549cf8be",
+    "tests/channel-swings/k2186_detector_contrast_descent_probe.py": "7ceaf8d0c8950a088bd9c381829695cdf431f98f6ff302f6c05b8ffb8d647bdc",
+    "tests/channel-swings/k2184_global_detector_structure_probe.py": "35e9cf010683e4b6b216816c2b8cde20fdf5b2fa66a2c4b8538985aef8165eeb"
+  },
+  "probe_sha256": "7633d1e6c77444661ce57441662d1cbb07adbd4652ebd0bd4ab7552ade7dbcf7",
+  "universal_evidence": "Written all-contrast interiority/uniqueness, summability, envelope and frontier arguments; exact symbolic and full-tail interval controls are distinct from universal proof. Multiplier sign, global saturation, joint uniqueness and apparatus costs remain open."
+}

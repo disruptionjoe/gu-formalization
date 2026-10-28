@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2187-affine-clifford-exclusion](k2187-affine-clifford-exclusion.json).
+- [k2188-detector-variational-structure](k2188-detector-variational-structure.json).
+
+
 - [k2185-clifford-spectral-obstruction](k2185-clifford-spectral-obstruction.json).
 - [k2186-detector-contrast-descent](k2186-detector-contrast-descent.json).
 
