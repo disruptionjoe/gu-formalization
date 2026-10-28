@@ -6,6 +6,24 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2179--K2180: Reviewed conditional results (2026-10-28)
+
+K2179 excludes commuting nonscalar Clifford ports with homogeneous grade4 or grade8 product, including singular and Jordan cases, using faithful32-dimensional integer multiplicities. General commuting candidates must centralize both product grades and satisfy FG=21U²; mixed-product and noncommuting nonscalar classes remain open. K2180 improves exact-contrast detector approximation to O(K4^-K) by extremal convex repair, extends it directly to signed/absolute thresholds, proves interior Lipschitz continuity and integrates the previously certified maximal-contrast endpoint. The rational error consumer uses K12 instead of K20 at tolerance1e-4. Half-contrast numerical bounds, source, ledger, canon, physical quotient and apparatus accounting do not change.
+
+- [K2179](explorations/conditional-build/k2179-commuting-nonscalar-descent-2026-10-28.md).
+- [K2180](explorations/conditional-build/k2180-detector-contrast-frontier-2026-10-28.md).
+
+Independent internal field reviews and a distinct acceptance review reconstructed both arguments and inspected final artifacts. K2179 has51 exact controls,1122 exhaustive multiplicity cases and6 genuine equation faults; K2180 has128 exact controls and8 genuine faults, with a rigorous maximal-contrast algebraic root interval. Universal proofs, finite controls and prospective finite-solver error budgets remain distinct. No proof-assistant, external-expert, novelty, remote-CI, half-contrast numerical improvement or apparatus-cost claim.
+
+| Claim | Prior | Current | Weakest dependency |
+| --- | --- | --- | --- |
+| Commuting nonscalar homogeneous product | open | excluded for fixed normalized adapters | real tangent split, faithful32 trace, arithmetic multiplicities |
+| Effective detector approximation | O(sqrt(K)2^-K) at exact half contrast | O(K4^-K) at interior exact/threshold contrast | fixed-squeeze convexity, cap repair, infinite tails |
+| General GU physics and canon | unchanged | unchanged | native action/domain/observation bridges remain open |
+
+The older approximation remains valid; prior result sections are historical.
+
+
 ## K2177--K2178: Real scalar-square exclusion and effective detector approximation (2026-10-28)
 
 K2177 excludes the entire real scalar-square fixed-adapter Clifford port class,

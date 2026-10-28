@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 618a4ef90e4cb49990c9565f9fb855992496f7c2
+revision_basis: c9bec7efea8eb1da789873fd88a7e4a478f6a66c
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,7 +118,17 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
-    K2177 excludes the entire real scalar-square fixed-adapter Clifford port class,
+    K2179 excludes commuting nonscalar Clifford ports with homogeneous grade4 or grade8
+    product, including singular and Jordan cases, using faithful32-dimensional integer
+    multiplicities. General commuting candidates must centralize both product grades and
+    satisfy FG=21U²; mixed-product and noncommuting nonscalar classes remain open. K2180
+    improves exact-contrast detector approximation to O(K4^-K) by extremal convex
+    repair, extends it directly to signed/absolute thresholds, proves interior Lipschitz
+    continuity and integrates the previously certified maximal-contrast endpoint. The
+    rational error consumer uses K12 instead of K20 at tolerance1e-4. Half-contrast
+    numerical bounds, source, ledger, canon, physical quotient and apparatus accounting
+    do not change.
+    Historical predecessor (not live): K2177 excludes the entire real scalar-square fixed-adapter Clifford port class,
     including mixed anticommutator grades and exceptional spectra, by real grade descent.
     Its released nonscalar commuting successor supplies an ordered polynomial Euler filter
     and square-only necessary condition; a genuine nonscalar fixture is rejected by nine
@@ -17166,6 +17176,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2179-commuting-nonscalar-descent-2026-10-28.md
+  - explorations/conditional-build/k2180-detector-contrast-frontier-2026-10-28.md
+  - lab/process/k2179-commuting-nonscalar-descent.json
+  - lab/process/k2180-detector-contrast-frontier.json
   - explorations/conditional-build/k2177-exceptional-spectrum-descent-2026-10-28.md
   - lab/process/k2177-exceptional-spectrum-descent.json
   - tests/channel-swings/k2177_exceptional_spectrum_descent_probe.py
@@ -18732,7 +18746,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can nonscalar-square Clifford ports survive the new commuting polynomial and square-only
+  Can genuinely mixed-product commuting nonscalar Clifford ports satisfy centrality, the
+  polynomial spectral constraints and all ten original rows, and can geometric detector
+  certification be turned into an actual optimizer or a stable autonomous physical-smear
+  controller?
+  Historical predecessor (not live): Can nonscalar-square Clifford ports survive the new commuting polynomial and square-only
   filters and all ten descent rows, and can a structurally useful detector squeeze theorem
   or physically complete autonomous controller improve on the now-effective approximation
   theorem?
@@ -22656,7 +22674,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Do not requeue any real scalar-square fixed-adapter port: that class is excluded,
+  Do not requeue real scalar-square ports or commuting nonscalar ports with homogeneous
+  h4/h8 product. Remaining commuting candidates need nonscalar squares and both product
+  grades, [K(h),v]=[K(h),t]=0, FG=21U², the square filter and all ten original
+  equations; these necessary conditions are not existence. Noncommuting nonscalar ports
+  and moving geometry/reverse are separate alternatives. Detector exact and threshold
+  problems now have O(K4^-K) effective finite approximations with extremal repair; use
+  the algebraic step at maximal contrast, not a zero-margin bound. Implement a certified
+  finite optimizer or derive joint-squeeze/physical controller structure; another cutoff
+  calculation is not an optimum. Exact-frontier monotonicity, threshold saturation,
+  full-energy uniqueness, endpoint-uniform rates and apparatus/clock/preparation/reset
+  costs remain open. Preserve mobile integrability, thermal163/164, restricted
+  cosmological dynamics, source/full16cell/full20/K-C, native2+1/chirality, physical
+  quotient, mirrors/fullII/normaljets and exact wings.
+  Historical predecessor (not live): Do not requeue any real scalar-square fixed-adapter port: that class is excluded,
   including mixed grades and exceptional spectra. Remaining real normal3/7 squares have
   only grades0+4; nonscalar square defects are necessary. For commuting ports apply the
   new ordered Euler polynomial and square-only necessary condition, then all ten original

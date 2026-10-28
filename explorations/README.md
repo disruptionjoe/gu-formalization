@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2179-commuting-nonscalar-descent-2026-10-28](conditional-build/k2179-commuting-nonscalar-descent-2026-10-28.md).
+- [k2180-detector-contrast-frontier-2026-10-28](conditional-build/k2180-detector-contrast-frontier-2026-10-28.md).
+
+
 - [k2177-exceptional-spectrum-descent](conditional-build/k2177-exceptional-spectrum-descent-2026-10-28.md).
 - [k2178-effective-detector-approximation](conditional-build/k2178-effective-detector-approximation-2026-10-28.md).
 

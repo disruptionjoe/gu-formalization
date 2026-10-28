@@ -1,4 +1,8 @@
 
+- [k2179_commuting_nonscalar_descent_probe](k2179_commuting_nonscalar_descent_probe.py).
+- [k2180_detector_contrast_frontier_probe](k2180_detector_contrast_frontier_probe.py).
+
+
 - [k2177_exceptional_spectrum_descent](k2177_exceptional_spectrum_descent_probe.py).
 - [k2178_effective_detector_approximation](k2178_effective_detector_approximation_probe.py).
 

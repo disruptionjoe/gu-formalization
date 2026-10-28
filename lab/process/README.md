@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2179-commuting-nonscalar-descent](k2179-commuting-nonscalar-descent.json).
+- [k2180-detector-contrast-frontier](k2180-detector-contrast-frontier.json).
+
+
 - [k2177-exceptional-spectrum-descent](k2177-exceptional-spectrum-descent.json).
 - [k2178-effective-detector-approximation](k2178-effective-detector-approximation.json).
 
