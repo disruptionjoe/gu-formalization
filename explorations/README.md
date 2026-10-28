@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2183-commuting-trace-descent-2026-10-28](conditional-build/k2183-commuting-trace-descent-2026-10-28.md).
+- [k2184-global-detector-structure-2026-10-28](conditional-build/k2184-global-detector-structure-2026-10-28.md).
+
+
 - [k2181-mixed-square-pencil-descent-2026-10-28](conditional-build/k2181-mixed-square-pencil-descent-2026-10-28.md).
 - [k2182-uniform-detector-endpoints-2026-10-28](conditional-build/k2182-uniform-detector-endpoints-2026-10-28.md).
 

@@ -1,4 +1,8 @@
 
+- [k2183_commuting_trace_descent_probe](k2183_commuting_trace_descent_probe.py).
+- [k2184_global_detector_structure_probe](k2184_global_detector_structure_probe.py).
+
+
 - [k2181_mixed_square_pencil_descent_probe](k2181_mixed_square_pencil_descent_probe.py).
 - [k2182_uniform_detector_endpoints_probe](k2182_uniform_detector_endpoints_probe.py).
 

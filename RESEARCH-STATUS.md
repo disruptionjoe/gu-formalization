@@ -6,6 +6,26 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2183--K2184: Conditional research results (2026-10-28)
+
+K2183 derives a universal commuting Clifford trace constraint, excludes affine nilpotent square defects and zero scalar part, and reduces the remaining affine spectra to at most60 complex slopes and120 normalized parameter pairs. Even multiplicities and a four-real-root spectral relaxation are explicit. A released real four-parameter central Clifford family is excluded in full, including all coefficient boundary cases; general reconstruction and all ten original rows remain open. K2184 proves the supplied detector profile energy is nonconvex even at fixed probability and contrast, with exact infinite-tail bounds and rational optimized witnesses. Its released curvature criterion identifies the negative squeeze-response term; pointwise convex-envelope gaps and hidden-random-label scope are explicit. Global frontier monotonicity, threshold saturation and optimizer uniqueness remain open. No source, ledger, canon, physical quotient, numerical half-contrast bound or apparatus-accounting change.
+
+- [K2183](explorations/conditional-build/k2183-commuting-trace-descent-2026-10-28.md).
+- [K2184](explorations/conditional-build/k2184-global-detector-structure-2026-10-28.md).
+
+Two independent internal field specialists reconstructed the candidate arguments and a distinct acceptance reviewer inspected actual notes, probes, reports and hashes with no blocking findings. K2183 has58 exact controls and6 genuine equation/data faults, including finite resultant polynomials and original ten-row consumers. K2184 has99 exact and full-tail rational-interval controls and5 faults, including the stronger fixed-probability-and-contrast witness. Universal written proofs, finite controls and actual optimized witness enclosures remain distinct. No proof-assistant, external-expert, novelty, remote-CI or global optimum claim.
+
+| Claim | Prior | Current | Weakest dependency |
+| --- | --- | --- | --- |
+| Affine Jordan and zero scalar part | open | excluded | grade trace, invertible pencil and exact resultants |
+| Remaining affine ports | continuous necessary constraints | finite normalized spectral candidates, existence open | full32 parity, real grade reconstruction and all original rows |
+| Squeeze-optimized profile convexity | unresolved | false even at fixed probability and contrast | exact infinite complement and squeeze response |
+| Global detector frontier and uniqueness | open | open; convexity proof route removed | minimizer-specific or certified nonconvex argument needed |
+| GU source and physical claims | unchanged | unchanged | native bridges remain open |
+
+Earlier sections are historical, including the previously open affine Jordan case.
+
+
 ## K2181--K2182: Conditional research results (2026-10-28)
 
 K2181 excludes all commuting proportional-square Clifford ports for the fixed normalized adapters, including mixed product grades and exceptional slopes. Affine-square survivors obey a nondegenerate quadratic and a faithful32-dimensional integer-multiplicity filter; a genuinely mixed central affine fixture fails nine original rows. K2182 proves the square-root energy cusp at maximal detector contrast, local threshold saturation and strict frontier increase on [3/4-1/1024,3/4], and leading optimizer localization. Its released weighted-defect repair gives endpoint-uniform O(sqrt(K)2^-K) finite-head certification, preserving the sharper interior K2180 bound. No new numerical optimum, source, ledger, canon, physical quotient or apparatus-cost claim.

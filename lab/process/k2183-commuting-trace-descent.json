@@ -1,0 +1,204 @@
+{
+  "result_id": "K2183",
+  "status": "conditional_exact_controls",
+  "checks": {
+    "trace_expansion": true,
+    "affine_trace": true,
+    "elimination_expansion": true,
+    "Jordan_resultant": true,
+    "AL_resultant": true,
+    "a_zero_polynomial": true,
+    "a_zero_resultant": true,
+    "leading_discriminant": true,
+    "leading_2": true,
+    "degree_2": true,
+    "leading_4": true,
+    "degree_4": true,
+    "leading_6": true,
+    "degree_6": true,
+    "leading_8": true,
+    "degree_8": true,
+    "leading_10": true,
+    "degree_10": true,
+    "leading_12": true,
+    "degree_12": true,
+    "leading_14": true,
+    "degree_14": true,
+    "leading_16": true,
+    "degree_16": true,
+    "balanced_quartic": true,
+    "finite_slope_count": true,
+    "quartic_root_0": true,
+    "quartic_root_1": true,
+    "quartic_root_2": true,
+    "quartic_root_3": true,
+    "quartic_simple": true,
+    "balanced_denominator": true,
+    "volume_pairing_model": true,
+    "ansatz_real_signatures": true,
+    "ansatz_commuting": true,
+    "ansatz_Bsquare": true,
+    "ansatz_V": true,
+    "ansatz_T": true,
+    "ansatz_original_q0": true,
+    "ansatz_original_q4": true,
+    "ansatz_elimination": true,
+    "ansatz_D": true,
+    "ansatz_J": true,
+    "ansatz_resultant": true,
+    "ansatz_remainder": true,
+    "ansatz_boundary_b0": true,
+    "ansatz_boundary_c0": true,
+    "ansatz_zero_v_q4": true,
+    "proportional_grade_trace_identity": true,
+    "proportional_moment_rejects": true,
+    "proportional_commutes": true,
+    "proportional_original10_transfer": true,
+    "proportional_original10_rejection": true,
+    "affine_grade_trace_identity": true,
+    "affine_moment_rejects": true,
+    "affine_commutes": true,
+    "affine_original10_transfer": true,
+    "affine_original10_rejection": true
+  },
+  "fault_failures": {
+    "trace_cross": [
+      "trace_expansion",
+      "affine_trace"
+    ],
+    "resultant_data": [
+      "Jordan_resultant"
+    ],
+    "trace_dimension": [
+      "leading_2",
+      "leading_4",
+      "leading_6",
+      "leading_8",
+      "leading_10",
+      "leading_12",
+      "leading_14",
+      "leading_16",
+      "degree_16",
+      "balanced_quartic"
+    ],
+    "grade_weight": [
+      "proportional_grade_trace_identity",
+      "affine_grade_trace_identity"
+    ],
+    "row_contraction": [
+      "proportional_original10_transfer",
+      "affine_original10_transfer"
+    ],
+    "ansatz_cross": [
+      "ansatz_original_q0",
+      "ansatz_elimination",
+      "ansatz_boundary_b0"
+    ]
+  },
+  "monic_squarefree_slope_polynomials": {
+    "2": [
+      "1",
+      "26088591734473/2442182151519",
+      "9801357743840713/263755672364052",
+      "30400356950812397/1186900525638234",
+      "-731967963185490811/7121403153829404",
+      "-283993569578599570/1780350788457351",
+      "6684295165777775/2373801051276468",
+      "80464735664102875/3560701576914702",
+      "-22848023657310625/7121403153829404"
+    ],
+    "4": [
+      "1",
+      "3007563422027/322526236077",
+      "714248887420235/34832833496316",
+      "-8501478102891017/156747750733422",
+      "-806527250429166019/2821459513201596",
+      "-242995181854339138/705364878300399",
+      "-24914635133013353/940486504400532",
+      "91643400955352995/1410729756600798",
+      "-24590819257663225/2821459513201596"
+    ],
+    "6": [
+      "1",
+      "7186717008473/1056931945551",
+      "-1338596759185063/114148650119508",
+      "-109659880899338051/513668925537786",
+      "-2028507874712813611/3082013553226716",
+      "-557811517951138738/770503388306679",
+      "-29723459546049931/342445950358524",
+      "232655050318227595/1541006776613358",
+      "-61116933341506225/3082013553226716"
+    ],
+    "8": [
+      "1",
+      "-1158771631/1869854679",
+      "-21888837555055/201944305332",
+      "-634534436683019/908749373994",
+      "-9826609865221651/5452496243964",
+      "-2582649451996162/1363124060991",
+      "-2042777834179/7479418716",
+      "1131577946804755/2726248121982",
+      "-293660212338025/5452496243964"
+    ],
+    "10": [
+      "1",
+      "-103857265441/112162617",
+      "-26861114823158101/2192554837116",
+      "-610770231999662249/9866496767022",
+      "-26053299485068868899/177596941806396",
+      "-6676108537156483330/44399235451599",
+      "-1415697662813887625/59198980602132",
+      "3006213797874719875/88798470903198",
+      "-45530992596415625/10446878929788"
+    ],
+    "12": [
+      "1",
+      "663109320887/21386892321",
+      "710271713137847/2309784370668",
+      "14564662378523923/10394029668006",
+      "197865600618936571/62364178008036",
+      "49969885453149970/15591044502009",
+      "11205220893022225/20788059336012",
+      "-22855403945702875/31182089004018",
+      "5854817718510625/62364178008036"
+    ],
+    "14": [
+      "1",
+      "4415965896157/185438218347",
+      "4272600195313885/20027327581476",
+      "83574062303432273/90122974116642",
+      "369838401659784259/180245948233284",
+      "92689878155097538/45061487058321",
+      "64210764963824059/180245948233284",
+      "-42742295154392995/90122974116642",
+      "10917560690863225/180245948233284"
+    ],
+    "16": [
+      "1",
+      "2506909/222966",
+      "69814211/2006694",
+      "58023859/2006694",
+      "-14806945/2006694"
+    ]
+  },
+  "fixtures": {
+    "proportional": {
+      "moment_residual": "-10704",
+      "nonzero_original_rows": 9
+    },
+    "affine": {
+      "moment_residual": "-35268",
+      "nonzero_original_rows": 9
+    }
+  },
+  "dependency_sha256": {
+    "explorations/conditional-build/k2183-commuting-trace-descent-2026-10-28.md": "c7515da397bdc66d12e5c932f8fa024fb0e71a7317320a006c7bf00be436e909",
+    "explorations/conditional-build/k2181-mixed-square-pencil-descent-2026-10-28.md": "ab2e6e88d0ff9d7d15b2f39bc307a25095e8d033ec50c5acab923d3c1f8f4985",
+    "explorations/conditional-build/k2179-commuting-nonscalar-descent-2026-10-28.md": "ad21bf503e10ee320bdd65e8dd1d8dc3e2cb1dd64f6ca3152910dd3e7b040a6e",
+    "tests/channel-swings/k2181_mixed_square_pencil_descent_probe.py": "dde59c4bfe1934b0b4215b88931ff2b3a4f89386edad8ac0a7ec92279c9ccbef",
+    "tests/channel-swings/k2179_commuting_nonscalar_descent_probe.py": "6a7d513003a663cb45c127db0c31fdf352bfbd31a4436eb7f3cb0a8428f92ba1",
+    "tests/channel-swings/k2169_invertible_pencil_full_descent_probe.py": "b44d589073b48ee121b8c7ee6fc4aa4372eb2ca17169442d6611b7275410118a"
+  },
+  "probe_sha256": "92575c02eed2ca45df3963f312f383654a8a5fbbfaa044267f606fa9def0e1d8",
+  "universal_evidence": "Written trace, Jordan, zero-scalar and parity proofs plus finite algebraic projection; exact controls and original-row fixtures supplement independent review. No affine existence, all-port exclusion, physical quotient or proof-assistant claim."
+}
