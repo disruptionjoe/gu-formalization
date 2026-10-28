@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2209-spin-common-return-2026-10-28](conditional-build/k2209-spin-common-return-2026-10-28.md).
+- [k2210-detector-stationary-certificate-2026-10-28](conditional-build/k2210-detector-stationary-certificate-2026-10-28.md).
+- [k2211-pfaffian-adapter-system-2026-10-28](conditional-build/k2211-pfaffian-adapter-system-2026-10-28.md).
+
+
 - [k2206-changed-raw-mass-construction-2026-10-28](conditional-build/k2206-changed-raw-mass-construction-2026-10-28.md).
 - [k2207-detector-nonlinear-stability-2026-10-28](conditional-build/k2207-detector-nonlinear-stability-2026-10-28.md).
 - [k2208-grade-constrained-pencil-reconstruction-2026-10-28](conditional-build/k2208-grade-constrained-pencil-reconstruction-2026-10-28.md).

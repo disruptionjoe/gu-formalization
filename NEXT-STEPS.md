@@ -5,6 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-10-28: SPIN COMMON RETURN, STATIONARY DETECTOR AND PFAFFIAN SYSTEM.**
+> Compare the detector's global optimality and uniqueness question against source-owned action/observation selection for the now completely classified Spin sector. The detector certificate supplies an actual strict local minimum, but not a global optimum or an apparatus bridge. For the adapter, intersect the degree17 Pfaffian system with prescribed invertible-Y reconstruction and ordered Euler constraints, retaining all original ten equations and nonsingularity. A lower polynomial degree is not an existence result. General unitary connections, changed sectors and source-selected variable backgrounds remain distinct constructions beyond the fixed Spin classification.
+> Earlier banners are historical; use this current condition.
+
+
 > **2026-10-28: MASSIVE SECTOR, NONLINEAR STABILITY AND REAL-GRADE RECONSTRUCTION.**
 > Compare a certified stationary detector profile with strict infinite Schur margin against a source-owned action/observation selection for the K2206 massive sector. K2207 now supplies the nonlinear local theorem once stationarity is certified; its rational fixture is nonstationary and actually descends. For normal adapters, intersect the K2208 real-grade kernel with the ordered Euler constraints and all ten original rows. The existing K2205 real pencil still fails Euler. Preserve P1-P6v1.1 and completed principal/raw pairing exclusions; shared apparatus/preparation/reset, source16cells/full20/K-C, physical quotient and global optimization remain separate obligations.
 > Earlier banners are historical; use this current condition.

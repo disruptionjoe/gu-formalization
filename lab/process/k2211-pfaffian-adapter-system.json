@@ -1,0 +1,78 @@
+{
+  "result_id": "K2211",
+  "status": "exact_full_row_pfaffian_polynomial_criterion",
+  "checks": {
+    "real_structure_fixes_all10_gamma": true,
+    "quaternionic_square": true,
+    "actual_noncommuting_and_nonanticommuting": true,
+    "prescribed_factor_real_grade_equation": true,
+    "prescribed_factor_determinant_nonzero": true,
+    "prescribed_factor_same_pfaffian_zero_locus_identity": true,
+    "singular_Y_cannot_drop_second_inequation": true,
+    "pfaffian_two_sided_0": true,
+    "pfaffian_determinant_0": true,
+    "actual_denominator_nonzero_0": true,
+    "bar_inverse_numerator_0": true,
+    "real_transport_inverse_numerator_0": true,
+    "all_adapters_numerators_0": true,
+    "all10_original_rows_0": true,
+    "all10_actual_rows_reject_0": true,
+    "pfaffian_two_sided_1": true,
+    "pfaffian_determinant_1": true,
+    "actual_denominator_nonzero_1": true,
+    "bar_inverse_numerator_1": true,
+    "real_transport_inverse_numerator_1": true,
+    "all_adapters_numerators_1": true,
+    "all10_original_rows_1": true,
+    "all10_actual_rows_reject_1": true,
+    "scaled_pfaffian_two_sided_0": true,
+    "scaled_pfaffian_determinant_0": true,
+    "scaled_actual_denominator_nonzero_0": true,
+    "scaled_bar_inverse_numerator_0": true,
+    "scaled_real_transport_inverse_numerator_0": true,
+    "scaled_all_adapters_numerators_0": true,
+    "scaled_all10_original_rows_0": true,
+    "scaled_all10_actual_rows_reject_0": true,
+    "scaled_pfaffian_two_sided_1": true,
+    "scaled_pfaffian_determinant_1": true,
+    "scaled_actual_denominator_nonzero_1": true,
+    "scaled_bar_inverse_numerator_1": true,
+    "scaled_real_transport_inverse_numerator_1": true,
+    "scaled_all_adapters_numerators_1": true,
+    "scaled_all10_original_rows_1": true,
+    "scaled_all10_actual_rows_reject_1": true,
+    "all20_polynomial_homogeneity_degree17": true,
+    "both_denominators_degree16": true,
+    "singular_zero_polynomial_counterfeit": true,
+    "saturation_rejects_zero_chart": true,
+    "rank14_singular_pfadj_nonzero": true,
+    "original_zero_port_positive": true
+  },
+  "fault_failures": {
+    "coefficient": [
+      "all10_original_rows_0",
+      "all10_original_rows_1"
+    ],
+    "product_order": [
+      "all10_original_rows_0",
+      "all10_original_rows_1"
+    ],
+    "omit_eta": [
+      "all10_original_rows_0",
+      "all10_original_rows_1"
+    ],
+    "cofactor_sign": [
+      "original inverse identity"
+    ]
+  },
+  "dependency_sha256": {
+    "explorations/conditional-build/k2211-pfaffian-adapter-system-2026-10-28.md": "a9b89857ef82caf6e6bbcee9243b212ef940510348d9e1508e78d1accee7dba8",
+    "explorations/conditional-build/k2169-invertible-pencil-full-descent-2026-10-27.md": "4bd2203f4218e6d44d6b146329116fff424f80ff7ffa7c60959e2b3582f9737c",
+    "explorations/conditional-build/k2208-grade-constrained-pencil-reconstruction-2026-10-28.md": "55c3e77a4c38d42f9a5e1f96a8c583ee773077793234bc484e929d04aabe5f6c",
+    "tests/channel-swings/k2169_invertible_pencil_full_descent_probe.py": "b44d589073b48ee121b8c7ee6fc4aa4372eb2ca17169442d6611b7275410118a",
+    "tests/channel-swings/k2159_commutant_equation_adapters_probe.py": "66fcdfa20412a8523ab117c9300d69381ab20dd406c675243c8c2f2a01667a38",
+    "tests/channel-swings/k2165_even_clifford_adapter_descent_probe.py": "48af4af289526570b68727a879d569c2c6b16c68098b1d4fce887769716ae389"
+  },
+  "probe_sha256": "191105009b8b8d4fbe0ea7613d6ef46510cc3f3321ac76dcbd9a1ae92632dd6b",
+  "evidence_kinds": "Universal chiral Pfaffian degree17 all-ten-row equivalence proof; exact finite fullCl77 original-map comparisons on actual grade ports; singular and positive controls; genuine coefficient, order, metric and cofactor faults. No port search, system emptiness, physical, proof-assistant or external-expert certificate."
+}

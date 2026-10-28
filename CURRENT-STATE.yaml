@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 2e25843f396717b99b68f41dcc879db952f70c71
+revision_basis: 92fcadd33f5528b6be3388985c4527eed4e07ab3
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,7 +118,19 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
-    K2206 constructs one changed common raw coefficient with the original lower return,
+    K2209 classifies all 1274 Spin connection coefficients for the fixed
+    observed-principal raw model: 28 preserve V1152, 24 also conserve its positive
+    current, and 20 additionally satisfy fixed trace-Hq compatibility. Constant
+    surviving potentials shift spectral cones without opening a gap; the stated
+    bounded-potential evolution results retain their domain assumptions. K2210 certifies
+    an actual infinite-profile stationary detector minimizer inside an exact squeeze
+    rectangle and, through a corrected uniform Schur bound greater than 1/3, activates
+    the inherited quantitative strict local-minimum theorem. K2211 replaces the real
+    grade3/7 adapter's degree65 determinant system by an equivalent degree17 Pfaffian
+    system on its nonsingular charts, retaining both chiral halves and every original
+    row. These are internal conditional results; source assertions, ledger0.263 and
+    physical claim grades are unchanged.
+    Historical predecessor (not live): K2206 constructs one changed common raw coefficient with the original lower return,
     yielding an invariant 1152-dimensional massive positive-current sector; classifies
     the two admissible Clifford axes and constant formal pairings, proves sharp
     positive-sector maximality, and supplies global H1 unitary evolution with finite
@@ -17326,6 +17338,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2209-spin-common-return-2026-10-28.md
+  - explorations/conditional-build/k2210-detector-stationary-certificate-2026-10-28.md
+  - explorations/conditional-build/k2211-pfaffian-adapter-system-2026-10-28.md
+  - lab/process/k2209-spin-common-return.json
+  - lab/process/k2210-detector-stationary-certificate.json
+  - lab/process/k2211-pfaffian-adapter-system.json
   - explorations/conditional-build/k2206-changed-raw-mass-construction-2026-10-28.md
   - explorations/conditional-build/k2207-detector-nonlinear-stability-2026-10-28.md
   - explorations/conditional-build/k2208-grade-constrained-pencil-reconstruction-2026-10-28.md
@@ -18952,7 +18970,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can a certified stationary detector profile activate the new nonlinear minimum
+  Which missing condition has the greatest research value now: a global or uniqueness
+  certificate for the actual stationary detector, a source-owned action and observation
+  selection compatible with the fixed Spin classification, or a genuine nonsingular
+  solution of the reduced all-ten adapter system?
+  Historical predecessor (not live): Can a certified stationary detector profile activate the new nonlinear minimum
   theorem, or can a source-owned action and observation rule select the explicit massive
   sector? Which actual Euler-compatible normal adapter survives the complete
   prescribed-real-grade reconstruction criterion?
@@ -22926,7 +22948,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Compare a certified stationary detector profile with strict infinite Schur margin
+  Compare the detector's global optimality and uniqueness question against source-owned
+  action/observation selection for the now completely classified Spin sector. The
+  detector certificate supplies an actual strict local minimum, but not a global optimum
+  or an apparatus bridge. For the adapter, intersect the degree17 Pfaffian system with
+  prescribed invertible-Y reconstruction and ordered Euler constraints, retaining all
+  original ten equations and nonsingularity. A lower polynomial degree is not an
+  existence result. General unitary connections, changed sectors and source-selected
+  variable backgrounds remain distinct constructions beyond the fixed Spin
+  classification.
+  Historical predecessor (not live): Compare a certified stationary detector profile with strict infinite Schur margin
   against a source-owned action/observation selection for the K2206 massive sector.
   K2207 now supplies the nonlinear local theorem once stationarity is certified; its
   rational fixture is nonstationary and actually descends. For normal adapters,

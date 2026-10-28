@@ -1,4 +1,9 @@
 
+- [k2209_spin_common_return_probe](k2209_spin_common_return_probe.py).
+- [k2210_detector_stationary_certificate_probe](k2210_detector_stationary_certificate_probe.py).
+- [k2211_pfaffian_adapter_system_probe](k2211_pfaffian_adapter_system_probe.py).
+
+
 - [k2206_changed_raw_mass_construction_probe](k2206_changed_raw_mass_construction_probe.py).
 - [k2207_detector_nonlinear_stability_probe](k2207_detector_nonlinear_stability_probe.py).
 - [k2208_grade_constrained_pencil_reconstruction_probe](k2208_grade_constrained_pencil_reconstruction_probe.py).

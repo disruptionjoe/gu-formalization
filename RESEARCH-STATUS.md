@@ -6,6 +6,25 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2209--K2211: Conditional research results (2026-10-28)
+
+K2209 classifies all 1274 Spin connection coefficients for the fixed observed-principal raw model: 28 preserve V1152, 24 also conserve its positive current, and 20 additionally satisfy fixed trace-Hq compatibility. Constant surviving potentials shift spectral cones without opening a gap; the stated bounded-potential evolution results retain their domain assumptions. K2210 certifies an actual infinite-profile stationary detector minimizer inside an exact squeeze rectangle and, through a corrected uniform Schur bound greater than 1/3, activates the inherited quantitative strict local-minimum theorem. K2211 replaces the real grade3/7 adapter's degree65 determinant system by an equivalent degree17 Pfaffian system on its nonsingular charts, retaining both chiral halves and every original row. These are internal conditional results; source assertions, ledger0.263 and physical claim grades are unchanged.
+
+- [K2209](explorations/conditional-build/k2209-spin-common-return-2026-10-28.md).
+- [K2210](explorations/conditional-build/k2210-detector-stationary-certificate-2026-10-28.md).
+- [K2211](explorations/conditional-build/k2211-pfaffian-adapter-system-2026-10-28.md).
+
+Independent internal specialists reviewed actual arguments and probes. K2209 passes 3621 exact controls and three genuine fault families; K2211 passes 45 controls and four fault families. K2210 passes48 exact controls and five genuine mutations. Its certificate uses exact rational coverage and outward bounds, including a corrected lower-bound direction for its residual coercivity. These are executable and mathematical checks, not proof-assistant or external-expert certification.
+
+| Result | Established | Still open |
+| --- | --- | --- |
+| K2209 | Complete fixed-sector Spin class and constant gap exclusion | Source action, observation selection, wider connection classes |
+| K2210 | Actual full-profile stationary strict local minimum | Global optimality, uniqueness, physical apparatus |
+| K2211 | Equivalent degree17 nonsingular polynomial system | Nonlinear solutions and source interpretation |
+
+Earlier sections are historical.
+
+
 ## K2206--K2208: Conditional research results (2026-10-28)
 
 K2206 constructs one changed common raw coefficient with the original lower return, yielding an invariant 1152-dimensional massive positive-current sector; classifies the two admissible Clifford axes and constant formal pairings, proves sharp positive-sector maximality, and supplies global H1 unitary evolution with finite propagation. Trace-Hq compatibility does not select a source-owned fermion action or physical quotient. K2207 proves an explicit nonlinear tangent lower model and conditional strict local minimum in a relative-cap topology from the infinite Schur margin. The actual rational fixture remains nonstationary: a certified finite energy descent exercises the indispensable first-variation term. K2208 gives an exact real linear kernel plus degree8 Pfaffian criterion for prescribed real grade3/7 pencil reconstruction, including singular-basis, central-phase and original-Euler countercontrols. No GU physics or ledger promotion follows.

@@ -1,0 +1,189 @@
+{
+  "result_id": "K2210",
+  "status": "conditional_exact_stationary_full_tail_certificate",
+  "checks": {
+    "exact_boundary_cover": true,
+    "reject_duplicate_cover": true,
+    "reject_missing_corner": true,
+    "boundary_membership_('face', 0, 0)": true,
+    "boundary_membership_('face', 0, 1)": true,
+    "boundary_membership_('face', 0, 2)": true,
+    "boundary_membership_('face', 0, 3)": true,
+    "boundary_membership_('face', 0, 4)": true,
+    "boundary_membership_('face', 0, 5)": true,
+    "boundary_membership_('face', 0, 6)": true,
+    "boundary_membership_('face', 0, 7)": true,
+    "boundary_membership_('face', 1, 0)": true,
+    "boundary_membership_('face', 1, 1)": true,
+    "boundary_membership_('face', 1, 2)": true,
+    "boundary_membership_('face', 1, 3)": true,
+    "boundary_membership_('face', 1, 4)": true,
+    "boundary_membership_('face', 1, 5)": true,
+    "boundary_membership_('face', 1, 6)": true,
+    "boundary_membership_('face', 1, 7)": true,
+    "boundary_membership_('face', 2, 0)": true,
+    "boundary_membership_('face', 2, 1)": true,
+    "boundary_membership_('face', 2, 2)": true,
+    "boundary_membership_('face', 2, 3)": true,
+    "boundary_membership_('face', 2, 4)": true,
+    "boundary_membership_('face', 2, 5)": true,
+    "boundary_membership_('face', 2, 6)": true,
+    "boundary_membership_('face', 2, 7)": true,
+    "boundary_membership_('face', 3, 0)": true,
+    "boundary_membership_('face', 3, 1)": true,
+    "boundary_membership_('face', 3, 2)": true,
+    "boundary_membership_('face', 3, 3)": true,
+    "boundary_membership_('face', 3, 4)": true,
+    "boundary_membership_('face', 3, 5)": true,
+    "boundary_membership_('face', 3, 6)": true,
+    "boundary_membership_('face', 3, 7)": true,
+    "boundary_membership_('corner', -1, -1)": true,
+    "boundary_membership_('corner', -1, 1)": true,
+    "boundary_membership_('corner', 1, -1)": true,
+    "boundary_membership_('corner', 1, 1)": true,
+    "tangential_taylor_radius": true,
+    "full_tail_contrast_repair": true,
+    "dual_constant_equality": true,
+    "complement_requires_lower_bound": true,
+    "complement_bound_exact": true,
+    "junction_residual_kept": true,
+    "contrast_tail_2": true,
+    "contrast_tail_5": true,
+    "contrast_tail_17": true
+  },
+  "mutation_failures": {
+    "missing_face_tile": [
+      "exact_boundary_cover"
+    ],
+    "taylor_radius": [
+      "tangential_taylor_radius"
+    ],
+    "contrast_tail": [
+      "full_tail_contrast_repair"
+    ],
+    "complement_bound_direction": [
+      "complement_requires_lower_bound",
+      "complement_bound_exact"
+    ],
+    "omit_junction": [
+      "junction_residual_kept"
+    ]
+  },
+  "certificate": {
+    "contrast": "1/2",
+    "squeeze_center": [
+      "105488613429285478754105931186146158654745017929929/100000000000000000000000000000000000000000000000000",
+      "431950254215114602412888045774881819310170625322357/500000000000000000000000000000000000000000000000000"
+    ],
+    "squeeze_radius": "1/100000000000000",
+    "existence": "compact-box minimizer is interior by exact full-boundary dual gap",
+    "boundary_tiles": 8,
+    "boundary_center_count": 32,
+    "corner_count": 4,
+    "boundary_gap_lower": "4090558043887/10000000000000000000000000000000000000000",
+    "feasible_energy_upper": "8312040051728984897532320250513845873411/10000000000000000000000000000000000000000",
+    "uniform_gap_upper": "782710073580547604133540901/625000000000000000000000000000000000000",
+    "coordinate_boxes": [
+      [
+        "193965248858437403658521385771185655541/1250000000000000000000000000000000000000",
+        "193967747523693915181636904113500833029/1250000000000000000000000000000000000000"
+      ],
+      [
+        "6876150255825020649942811135645181988257/10000000000000000000000000000000000000000",
+        "6876208347337446506187051722248592617029/10000000000000000000000000000000000000000"
+      ],
+      [
+        "4673241694155195305032341860455704745307/5000000000000000000000000000000000000000",
+        "9346594867421902031784184131113579197329/10000000000000000000000000000000000000000"
+      ],
+      [
+        "4941634152766787052580391921441216655183/5000000000000000000000000000000000000000",
+        "1235433302439165368237367048942035045293/1250000000000000000000000000000000000000"
+      ],
+      [
+        "4989938159086702573217211185993854809483/5000000000000000000000000000000000000000",
+        "1247528911150541849045967072246473250103/1250000000000000000000000000000000000000"
+      ],
+      [
+        "2499079989137888647383578660111479465767/2500000000000000000000000000000000000000",
+        "4998483463344334015332241656301507071051/5000000000000000000000000000000000000000"
+      ]
+    ],
+    "tail_ratio_from_index2": [
+      "1/3",
+      "1/2"
+    ],
+    "global_profile_constants": [
+      "3/20",
+      "1/3",
+      "2/3"
+    ],
+    "complementary_initial_lower": "1056032252476306084818363095886499166971/1250000000000000000000000000000000000000",
+    "kappa_lower": "20348883763365061488060557713376959617/1000000000000000000000000000000000000000",
+    "kappa_y_lower": "9475279482264152135406161902942869611/1000000000000000000000000000000000000000",
+    "trial_support_last": 3,
+    "trials": [
+      [
+        "4971002610031616718904948222403/649037107316853453566312041152512",
+        "7912807269675865902485887528267/1298074214633706907132624082305024",
+        "-122809199406782273577214723453/162259276829213363391578010288128",
+        "-121405167877150928009161209201/1298074214633706907132624082305024"
+      ],
+      [
+        "231468926814892915462018666310797/1298074214633706907132624082305024",
+        "11325176450144028052486141529679/162259276829213363391578010288128",
+        "9159314544299942848344275590041/1298074214633706907132624082305024",
+        "139672840346523511891219496429/324518553658426726783156020576256"
+      ]
+    ],
+    "residual_multipliers": [
+      "697304409893988044133114156558925/649037107316853453566312041152512",
+      "2868794406099364720002845153437581/649037107316853453566312041152512"
+    ],
+    "residual_squared_upper": [
+      "8127661614330772826774264625701208839911/10000000000000000000000000000000000000000",
+      "37986279105483588636815916949286603639091/5000000000000000000000000000000000000000"
+    ],
+    "schur_lower": [
+      [
+        [
+          "93803980104710494313576888218664515899/250000000000000000000000000000000000000",
+          "3753697167258473224612980681159124577483/10000000000000000000000000000000000000000"
+        ],
+        [
+          "-85499499661109138050048500656730227121/2500000000000000000000000000000000000000",
+          "-340964882345658498734344820517874789961/10000000000000000000000000000000000000000"
+        ]
+      ],
+      [
+        [
+          "-85499499661109138050048500656730227121/2500000000000000000000000000000000000000",
+          "-340964882345658498734344820517874789961/10000000000000000000000000000000000000000"
+        ],
+        [
+          "28368417410394324491996323516479593847439/10000000000000000000000000000000000000000",
+          "5675222098166655508356883615286665884781/2000000000000000000000000000000000000000"
+        ]
+      ]
+    ],
+    "rigorous_schur_margin": "1/3",
+    "normalized_schur_eta": "1/100",
+    "nonlinear_joint_radius": "1/6000",
+    "nonlinear_reoptimized_cap_radius": "1/18000",
+    "nonlinear_growth_coefficient": "1/800",
+    "scope": "Actual full-tail jointly stationary cap-local minimum exists; no global optimality or uniqueness claim."
+  },
+  "proof_input_sha256": "665b8037db2ead9530e11fb04df7cc1fb62a0fd8bf0fe9df83f9abffa6a8c29d",
+  "dependency_sha256": {
+    "explorations/conditional-build/k2210-detector-stationary-certificate-2026-10-28.md": "98415f192889906ad3ba0cc989a4523508faedbd5ed2148aac0628e63411caeb",
+    "explorations/conditional-build/k2198-detector-profile-certificates-2026-10-28.md": "193e593802f01d572dd8b4c25d80cfcd06429880488c08385a3fd69acd5ef63d",
+    "explorations/conditional-build/k2204-detector-infinite-stability-certificate-2026-10-28.md": "5e9e98674d72eadbca818c1de1cef07d9103cb73d50293e1b1caaec82204f2a2",
+    "explorations/conditional-build/k2207-detector-nonlinear-stability-2026-10-28.md": "21ff50228a028ef6725acfdd0b54f00198908719952f074969c6715bdd84fdf6",
+    "tests/channel-swings/k2196_detector_primal_dual_certificates_probe.py": "c9336a1a51eac050a5c0b6da59a618b2c886976ecf24e7fc0bd4b866f227b5de",
+    "tests/channel-swings/k2198_detector_profile_certificates_probe.py": "48e07d95b12d7c5c9cdf4b8697c94b90613ebf910293b9d05384fc897c1c4d6b",
+    "tests/channel-swings/k2201_detector_joint_variational_structure_probe.py": "bd4a7f6f6978e4c54fbe5e183da46cb0992d1a409e96a6e267848d551f9a5442",
+    "tests/channel-swings/k2168_finite_budget_moment_envelope_probe.py": "0d74d6a769ce53e59b9d38f7700e22d86d7e16ef9e62c34186823f526c50882d"
+  },
+  "probe_sha256": "c1b818cb2851a30ce745bb9e3237fc0b38c5e8b424487f8381e67402d54c15b0",
+  "evidence_kinds": "Written compactness and boundary-minimum theorem; exact rational full-tail primal-dual existence, profile enclosures and Schur residual; positive/negative coefficient controls. Numerical discovery coefficients are only free dual parameters. No physical/source, global uniqueness/optimality, proof-assistant or external-expert certification."
+}
