@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 61b878870f41c25b720b230784d440bb70c218b1
+revision_basis: b3221f76ef3fa631f7feca54ecac4ba6931da17e
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,22 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2169 proves every nonzero mixed-even seven-form passing the complete normalized
+    necessary adapter equations has an invertible complex pencil P=7v-15iu. A conjugate
+    right-ideal argument covers arbitrary nondecomposable and individually singular
+    components. Adapters are unique; ten explicit full lower equations and a
+    denominator-aware degree65 polynomial criterion remove all20480 adapter coordinates,
+    leaving240 real port coordinates. Smooth fixed-geometry descent forces tangentially
+    constant adapters, not constant ports. General genuinely mixed solutions remain open.
+    K2170 proves an explicit bounded-effect Cauchy deficit using a unilateral-shift gap and
+    geometric tail caps, then derives a uniform positive energy correction, exact
+    capped-overlap relaxation and a64-bin rational probability-cover certificate. In the
+    fixed fixture, contrast at least1/2 requires E>0.54234444248; exact contrast1/2 requires
+    E>0.54324604. These are vacuum output field-energy bounds, not the actual finite-budget
+    optimum or apparatus cost. Conditional mathematics only; source, ledger and canon
+    unchanged.
+
+    Historical predecessor (not live):
     K2167 proves arbitrary mixed-even seven-form descent in the complete normalized adapter
     family requires Z2=0. A cyclic normal-bimodule dimension argument and real tangent Hodge
     obstruction cover singular and nondecomposable middle components. Further full-row Euler
@@ -17091,6 +17107,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2169-invertible-pencil-full-descent-2026-10-27.md
+  - lab/process/k2169-invertible-pencil-full-descent.json
+  - tests/channel-swings/k2169_invertible_pencil_full_descent_probe.py
+  - explorations/conditional-build/k2170-bounded-effect-energy-gap-2026-10-27.md
+  - lab/process/k2170-bounded-effect-energy-gap.json
+  - tests/channel-swings/k2170_bounded_effect_energy_gap_probe.py
   - explorations/conditional-build/k2167-mixed-port-complete-adapters-2026-10-27.md
   - lab/process/k2167-mixed-port-complete-adapters.json
   - tests/channel-swings/k2167_mixed_port_complete_adapters_probe.py
@@ -18627,6 +18649,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can the denominator-aware240-coordinate mixed-port system be settled by a structural
+  trace or a genuine full-row solution, and can cap-fidelity bounds lead to a certified
+  finite-budget detector optimum or a stable autonomous preparation/reset account?
+
+  Historical predecessor (not live):
   Can a genuinely coupled normal7 plus tangent-volume/normal3 port pass the full
   normalized adapter equations; and can a bounded-effect Cauchy deficit tighten the
   globally convex finite-budget detector envelope or a stable controller account for
@@ -22525,6 +22552,21 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Use K2169's unique invertible-pencil adapters and all ten reduced lower equations, or
+  the degree65 polynomial system with its nonzero-determinant condition. Singular pencils,
+  arbitrary Z2, every pure tangent degree and the complementary-coordinate mixed family
+  are excluded; do not requeue them. Smooth fixed-geometry adapters must be tangentially
+  constant and cannot repair frozen failures, but port amplitude can vary. General mixed
+  odd/even ports, moving splitting/Clifford geometry, changed reverse/operator and native
+  mobile integrability remain distinct. For detectors, use the cap-fidelity overlap
+  relaxation or certified conic effect optimization to narrow the actual finite-budget
+  frontier; preserve the distinction between exact-contrast and threshold-uniform bounds.
+  Compare a stable autonomous physical-smear controller including clock, preparation and
+  reset. Preserve source/full16cell/full20/K-C, native2+1/chirality, physical quotient,
+  mirrors/fullII/normaljets, thermal163/164, restricted cosmological dynamics and
+  exact-wing debts.
+
+  Historical predecessor (not live):
   For fixed normalized adapters, restrict mixed-even seven-form research to genuine Z0+Z4
   with both components nonzero: arbitrary Z2 and EVERY pure tangent-degree port are now
   excluded, including singular and nonscalar-square forms. The fixed

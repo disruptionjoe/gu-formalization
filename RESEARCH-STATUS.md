@@ -6,6 +6,40 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2169--K2170: Invertible pencils and quantitative detector gap (2026-10-27)
+
+K2169 proves every nonzero mixed-even seven-form passing the complete normalized
+necessary adapter equations has an invertible complex pencil P=7v-15iu. A conjugate
+right-ideal argument covers arbitrary nondecomposable and individually singular
+components. Adapters are unique; ten explicit full lower equations and a
+denominator-aware degree65 polynomial criterion remove all20480 adapter coordinates,
+leaving240 real port coordinates. Smooth fixed-geometry descent forces tangentially
+constant adapters, not constant ports. General genuinely mixed solutions remain open.
+K2170 proves an explicit bounded-effect Cauchy deficit using a unilateral-shift gap and
+geometric tail caps, then derives a uniform positive energy correction, exact
+capped-overlap relaxation and a64-bin rational probability-cover certificate. In the
+fixed fixture, contrast at least1/2 requires E>0.54234444248; exact contrast1/2 requires
+E>0.54324604. These are vacuum output field-energy bounds, not the actual finite-budget
+optimum or apparatus cost. Conditional mathematics only; source, ledger and canon
+unchanged.
+
+- [K2169](explorations/conditional-build/k2169-invertible-pencil-full-descent-2026-10-27.md).
+- [K2170](explorations/conditional-build/k2170-bounded-effect-energy-gap-2026-10-27.md).
+
+Two read-only field specialists independently reconstructed their results and
+cross-reviewed the actual notes/probes; a third independently challenged both proofs and
+implementations. Sixteen Clifford controls check the noncommuting mixed original maps,
+all ten lower and forty upper relations, ideal instruments and smooth derivative bases.
+Twelve detector controls accompany an exact rational64-bin probability cover and a
+uniform-threshold margin. Twelve genuine equation/input faults fail specific checks
+after green baselines. Universal ideal, polynomial, smooth, shift-gap, cap and threshold
+arguments are separately reviewed; finite controls do not alone prove them. No
+proof-assistant, external-expert, novelty, arbitrary-channel, apparatus-cost or
+remote-CI claim.
+
+Earlier sections preserve historical result snapshots; the current scope is above.
+
+
 ## K2167--K2168: Mixed-port reduction and global detector envelope (2026-10-27)
 
 K2167 proves arbitrary mixed-even seven-form descent in the complete normalized adapter

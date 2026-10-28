@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2169-invertible-pencil-full-descent](k2169-invertible-pencil-full-descent.json).
+- [k2170-bounded-effect-energy-gap](k2170-bounded-effect-energy-gap.json).
+
 - [k2167-mixed-port-complete-adapters](k2167-mixed-port-complete-adapters.json).
 - [k2168-finite-budget-moment-envelope](k2168-finite-budget-moment-envelope.json).
 

@@ -1,0 +1,59 @@
+{
+  "result_id": "K2169",
+  "status": "conditional_exact_controls",
+  "checks": {
+    "noncommuting_mixed_fixture": true,
+    "pencil_inverse_two_sides": true,
+    "right_euler_distinguishes7_and3": true,
+    "ideal_recovery24iu": true,
+    "unique_odd_adapters": true,
+    "kappa_is_negative_real_conjugation": true,
+    "original_normal_E_and_F_all10": true,
+    "full_reduced_lower_all10": true,
+    "necessary_L_all40": true,
+    "upper_equals_gamma_lower_all40": true,
+    "necessary_is_not_sufficient_positive_leak": true,
+    "port_scaling_keeps_unique_adapter": true,
+    "all8_derivative_slots_independent": true,
+    "normal_simple_algebra_character_separation": true,
+    "zero_full_descent_control": true,
+    "scalar_full_descent_control": true
+  },
+  "fault_failures": {
+    "euler_degree": [
+      "right_euler_distinguishes7_and3",
+      "ideal_recovery24iu"
+    ],
+    "kernel_shift": [
+      "original_normal_E_and_F_all10",
+      "full_reduced_lower_all10",
+      "necessary_L_all40",
+      "upper_equals_gamma_lower_all40"
+    ],
+    "reverse_sign": [
+      "original_normal_E_and_F_all10",
+      "full_reduced_lower_all10",
+      "necessary_L_all40",
+      "upper_equals_gamma_lower_all40"
+    ],
+    "drop_conjugation": [
+      "full_reduced_lower_all10"
+    ],
+    "reverse_product": [
+      "full_reduced_lower_all10"
+    ],
+    "omit_volume": [
+      "all8_derivative_slots_independent"
+    ]
+  },
+  "dependency_sha256": {
+    "explorations/conditional-build/k2169-invertible-pencil-full-descent-2026-10-27.md": "4bd2203f4218e6d44d6b146329116fff424f80ff7ffa7c60959e2b3582f9737c",
+    "tests/channel-swings/k2159_commutant_equation_adapters_probe.py": "66fcdfa20412a8523ab117c9300d69381ab20dd406c675243c8c2f2a01667a38",
+    "tests/channel-swings/k2161_noncentral_adapter_obstruction_probe.py": "b138c3556b5ba0e70260e0938da7abf4e56d01a4da9a38a1189ae5cb06aefba5",
+    "tests/channel-swings/k2165_even_clifford_adapter_descent_probe.py": "48af4af289526570b68727a879d569c2c6b16c68098b1d4fce887769716ae389",
+    "tests/channel-swings/source_native_fermion_transverse_port_probe.py": "74c817b7d0cd59210b09dee507ce7d0feb3f0c433ae021f0a6b7a0ba81dea390",
+    "explorations/conditional-build/k2167-mixed-port-complete-adapters-2026-10-27.md": "5eff542787a1afae9f162fcc533d6378b044205b3394abd4d14f8fae89530b00"
+  },
+  "probe_sha256": "b44d589073b48ee121b8c7ee6fc4aa4372eb2ca17169442d6611b7275410118a",
+  "universal_evidence": "Independent written right-ideal, real conjugation, smooth grade separation and denominator elimination proofs; finite controls are not universal proof or a mixed-port exclusion."
+}

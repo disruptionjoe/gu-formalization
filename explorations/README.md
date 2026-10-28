@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2169-invertible-pencil-full-descent](conditional-build/k2169-invertible-pencil-full-descent-2026-10-27.md).
+- [k2170-bounded-effect-energy-gap](conditional-build/k2170-bounded-effect-energy-gap-2026-10-27.md).
+
 - [k2167-mixed-port-complete-adapters](conditional-build/k2167-mixed-port-complete-adapters-2026-10-27.md).
 - [k2168-finite-budget-moment-envelope](conditional-build/k2168-finite-budget-moment-envelope-2026-10-27.md).
 

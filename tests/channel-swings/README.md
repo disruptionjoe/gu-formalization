@@ -1,4 +1,7 @@
 
+- [k2169_invertible_pencil_full_descent](k2169_invertible_pencil_full_descent_probe.py).
+- [k2170_bounded_effect_energy_gap](k2170_bounded_effect_energy_gap_probe.py).
+
 - [k2167_mixed_port_complete_adapters](k2167_mixed_port_complete_adapters_probe.py).
 - [k2168_finite_budget_moment_envelope](k2168_finite_budget_moment_envelope_probe.py).
 # Pre-contract wave probes
