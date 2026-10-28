@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2185-clifford-spectral-obstruction-2026-10-28](conditional-build/k2185-clifford-spectral-obstruction-2026-10-28.md).
+- [k2186-detector-contrast-descent-2026-10-28](conditional-build/k2186-detector-contrast-descent-2026-10-28.md).
+
+
 - [k2183-commuting-trace-descent-2026-10-28](conditional-build/k2183-commuting-trace-descent-2026-10-28.md).
 - [k2184-global-detector-structure-2026-10-28](conditional-build/k2184-global-detector-structure-2026-10-28.md).
 

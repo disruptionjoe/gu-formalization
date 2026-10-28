@@ -1,4 +1,8 @@
 
+- [k2185_clifford_spectral_obstruction_probe](k2185_clifford_spectral_obstruction_probe.py).
+- [k2186_detector_contrast_descent_probe](k2186_detector_contrast_descent_probe.py).
+
+
 - [k2183_commuting_trace_descent_probe](k2183_commuting_trace_descent_probe.py).
 - [k2184_global_detector_structure_probe](k2184_global_detector_structure_probe.py).
 

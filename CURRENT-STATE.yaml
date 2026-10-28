@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 01cc865a198ea5954e1b16af7d407a59ea23d5a0
+revision_basis: dee05a55489609fdef75ef55795e5389a8ec5f70
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,7 +118,18 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
-    K2183 derives a universal commuting Clifford trace constraint, excludes affine
+    K2185 excludes every commuting affine-square Clifford candidate with scalar-square
+    grade4 or grade8 product component. Exact polynomial certificates and exterior
+    support then force the actual bivector (wu)2 to rank4; each trivector lies in a
+    34-dimensional support space, while rank4 reconstruction and all ten original rows
+    remain open. K2186 proves fair binary outcome noise can increase optimized field
+    energy while decreasing positive contrast, with an exact infinite-tail derivative
+    bound greater than1/64 and a finite counterexample. Its released consequences
+    exclude radial quasiconvexity and universal energy monotonicity for every fixed
+    neutral replacement bias; adaptive and minimizer-specific descent remain open. No
+    global frontier, threshold saturation, optimizer uniqueness, source, ledger, canon,
+    physical quotient, half-contrast numerical bound or apparatus-accounting change.
+    Historical predecessor (not live): K2183 derives a universal commuting Clifford trace constraint, excludes affine
     nilpotent square defects and zero scalar part, and reduces the remaining affine
     spectra to at most60 complex slopes and120 normalized parameter pairs. Even
     multiplicities and a four-real-root spectral relaxation are explicit. A released
@@ -17199,6 +17210,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2185-clifford-spectral-obstruction-2026-10-28.md
+  - explorations/conditional-build/k2186-detector-contrast-descent-2026-10-28.md
+  - lab/process/k2185-clifford-spectral-obstruction.json
+  - lab/process/k2186-detector-contrast-descent.json
   - explorations/conditional-build/k2183-commuting-trace-descent-2026-10-28.md
   - explorations/conditional-build/k2184-global-detector-structure-2026-10-28.md
   - lab/process/k2183-commuting-trace-descent.json
@@ -18777,7 +18792,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can the finite affine Clifford spectral remainder be realized by actual
+  Can the rank-four affine Clifford remainder satisfy actual metric and full-equation
+  reconstruction, and can a minimizer-specific or adaptive detector descent settle the
+  global frontier after fixed-noise contraction fails?
+  Historical predecessor (not live): Can the finite affine Clifford spectral remainder be realized by actual
   grade-supported ports, and can minimizer-specific detector structure settle the global
   frontier despite nonconvexity at fixed probability and contrast?
   Historical predecessor (not live): Can genuinely affine or nonaffine mixed commuting Clifford ports survive the new
@@ -22711,7 +22729,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Do not requeue affine Jordan, zero-scalar-square-part ports or the excluded real
+  Do not requeue scalar-product-square affine ports or bivector ranks0,2,6,8,10.
+  Remaining affine candidates require rank4 B=(wu)2, the 34-dimensional trivector
+  support, actual real Clifford metric and grade-one contractions, finite spectral
+  constraints, centrality, invertible pencil and all ten original rows. Wedge-support
+  examples are not full solutions. Nonaffine commuting and noncommuting ports remain
+  separate. Generic convexity, radial quasiconvexity and fixed neutral-noise contraction
+  cannot prove the detector global frontier; test adaptive or minimizer-specific descent
+  or a certified nonconvex solver. The counterprofiles are not minimizers. Preserve
+  weak-contrast353/170, K2182 endpoint theorem, K2176 half-contrast bracket,
+  common-bar/mobile source construction, thermal163/164, restricted cosmology,
+  source/full16cell/full20/K-C, native2+1/chirality, physical quotient,
+  mirrors/fullII/normaljets and exact wings. Physical controller, preparation/reset and
+  total-work costs remain unaccounted.
+  Historical predecessor (not live): Do not requeue affine Jordan, zero-scalar-square-part ports or the excluded real
   four-parameter central family. Remaining affine commuting candidates lie on the finite
   K2183 normalized spectral set and still require actual real grade7/grade3
   reconstruction, centrality, invertible pencil and all ten rows; nonaffine commuting

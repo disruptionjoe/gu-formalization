@@ -6,6 +6,26 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2185--K2186: Conditional research results (2026-10-28)
+
+K2185 excludes every commuting affine-square Clifford candidate with scalar-square grade4 or grade8 product component. Exact polynomial certificates and exterior support then force the actual bivector (wu)2 to rank4; each trivector lies in a 34-dimensional support space, while rank4 reconstruction and all ten original rows remain open. K2186 proves fair binary outcome noise can increase optimized field energy while decreasing positive contrast, with an exact infinite-tail derivative bound greater than1/64 and a finite counterexample. Its released consequences exclude radial quasiconvexity and universal energy monotonicity for every fixed neutral replacement bias; adaptive and minimizer-specific descent remain open. No global frontier, threshold saturation, optimizer uniqueness, source, ledger, canon, physical quotient, half-contrast numerical bound or apparatus-accounting change.
+
+- [K2185](explorations/conditional-build/k2185-clifford-spectral-obstruction-2026-10-28.md).
+- [K2186](explorations/conditional-build/k2186-detector-contrast-descent-2026-10-28.md).
+
+Two independent internal field specialists reconstructed the candidate arguments; a distinct acceptance reviewer inspected the actual final notes, probes, reports and hashes and found no blocking issues. K2185 has56 exact controls including16 polynomial Bezout certificates and5 genuine faults. K2186 has55 exact/full-tail interval controls and5 genuine faults, including a finite noisy energy increase. Universal support and asymptotic proofs, finite algebraic certificates, interval witnesses and report consistency are distinct evidence kinds. No proof-assistant, external-expert, novelty, remote-CI or global optimum claim.
+
+| Claim | Prior | Current | Weakest dependency |
+| --- | --- | --- | --- |
+| Affine scalar-grade-square and ranks0,2,6,8,10 | open necessary spectral remainder | excluded | Clifford centrality, exact resultants and exterior support |
+| Rank-four affine ports | general finite spectral candidates | 34-dimensional support; existence open | actual metric and all ten equations |
+| Fixed neutral-noise energy contraction | unresolved | false, including fair binary noise | corrected infinite-tail formula and optimized derivative |
+| Global detector frontier and uniqueness | open | open; fixed-noise and radial shortcuts removed | minimizer-specific or certified nonconvex argument needed |
+| GU source and physical claims | unchanged | unchanged | native bridges remain open |
+
+Earlier sections are historical, including the previously open broader affine spectral remainder.
+
+
 ## K2183--K2184: Conditional research results (2026-10-28)
 
 K2183 derives a universal commuting Clifford trace constraint, excludes affine nilpotent square defects and zero scalar part, and reduces the remaining affine spectra to at most60 complex slopes and120 normalized parameter pairs. Even multiplicities and a four-real-root spectral relaxation are explicit. A released real four-parameter central Clifford family is excluded in full, including all coefficient boundary cases; general reconstruction and all ten original rows remain open. K2184 proves the supplied detector profile energy is nonconvex even at fixed probability and contrast, with exact infinite-tail bounds and rational optimized witnesses. Its released curvature criterion identifies the negative squeeze-response term; pointwise convex-envelope gaps and hidden-random-label scope are explicit. Global frontier monotonicity, threshold saturation and optimizer uniqueness remain open. No source, ledger, canon, physical quotient, numerical half-contrast bound or apparatus-accounting change.

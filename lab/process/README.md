@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2185-clifford-spectral-obstruction](k2185-clifford-spectral-obstruction.json).
+- [k2186-detector-contrast-descent](k2186-detector-contrast-descent.json).
+
+
 - [k2183-commuting-trace-descent](k2183-commuting-trace-descent.json).
 - [k2184-global-detector-structure](k2184-global-detector-structure.json).
 

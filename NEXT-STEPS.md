@@ -5,6 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-10-28: RANK-FOUR AFFINE LOCALIZATION AND DETECTOR NOISE OBSTRUCTION.**
+> Do not requeue scalar-product-square affine ports or bivector ranks0,2,6,8,10. Remaining affine candidates require rank4 B=(wu)2, the 34-dimensional trivector support, actual real Clifford metric and grade-one contractions, finite spectral constraints, centrality, invertible pencil and all ten original rows. Wedge-support examples are not full solutions. Nonaffine commuting and noncommuting ports remain separate. Generic convexity, radial quasiconvexity and fixed neutral-noise contraction cannot prove the detector global frontier; test adaptive or minimizer-specific descent or a certified nonconvex solver. The counterprofiles are not minimizers. Preserve weak-contrast353/170, K2182 endpoint theorem, K2176 half-contrast bracket, common-bar/mobile source construction, thermal163/164, restricted cosmology, source/full16cell/full20/K-C, native2+1/chirality, physical quotient, mirrors/fullII/normaljets and exact wings. Physical controller, preparation/reset and total-work costs remain unaccounted.
+> Earlier banners are historical; use this current condition.
+
+
 > **2026-10-28: FINITE AFFINE SPECTRA AND DETECTOR NONCONVEXITY.**
 > Do not requeue affine Jordan, zero-scalar-square-part ports or the excluded real four-parameter central family. Remaining affine commuting candidates lie on the finite K2183 normalized spectral set and still require actual real grade7/grade3 reconstruction, centrality, invertible pencil and all ten rows; nonaffine commuting candidates face the new trace filter, and noncommuting cases need an ordered reduction. Detector optimized profile convexity fails even with probability and contrast fixed. Use minimizer-specific or contrast-changing descent, or a certified nonconvex solver; fixed-squeeze convexity alone cannot prove joint uniqueness or global saturation. Preserve K2182 endpoint theorem, current half-contrast bracket, common-bar/mobile source construction, thermal163/164, restricted cosmology, source/full16cell/full20/K-C, native2+1/chirality, physical quotient, mirrors/fullII/normaljets and exact wings. Hidden random-label squeezes enlarge the instrument class; preparation/reset and total-work costs remain unaccounted.
 > Earlier banners are historical; use this current condition.
