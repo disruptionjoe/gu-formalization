@@ -5,6 +5,19 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2233--K2235: Raw Green pairings, quantum causality and microscopic renewal (2026-10-29)
+
+K2233 classifies every smooth full raw Green pairing in the supplied observed-four mass/flavor class: nonzero effective curvature excludes all such forms on the connected domain; flat coefficients admit transported singular pairings with exact period condition. A curved positive unitary sector and reducing observation survive, so this is not a physical-positivity exclusion. K2234 classifies non-signalling same-oscillator channels as displacement noise and proves every nontrivial number-effect/squeeze detector has a positive finite-energy error floor before communication time; its continuum bound is existential and its 144/625 two-site example is separate. K2235 derives the thermal renewal channel from finite resonant collisions, counts fresh ancillas and heat/entropy, and shows finite cyclic entropy sinks cannot erase indefinitely. Source claims, ledger 0.263 and physical mapping grades remain unchanged.
+
+- [K2233](explorations/conditional-build/k2233-degree-dependent-raw-pairing-2026-10-29.md).
+- [K2234](explorations/conditional-build/k2234-causal-detector-error-bound-2026-10-29.md).
+- [K2235](explorations/conditional-build/k2235-microscopic-thermal-renewal-2026-10-29.md).
+
+Three read-only internal specialists constructed distinct candidates and independently cross-reviewed actual different proofs and instruments. Serialized native probes pass 1717+54+45=1816 exact finite algebra/arithmetic and reporting controls, rejecting 24 genuine mathematical-input fault families after green baselines. Universal Clifford/transport, CCR/Bochner/energy-domain and channel/entropy arguments are written proofs, distinguished from finite controls and reused predecessor results. Default runs reject stale note/code/dependency certificates. No heavy build, Lean, proof-assistant, external-expert, novelty or remote-CI certification is claimed.
+
+Earlier sections preserve historical result snapshots; the current scope is above.
+
+
 ## K2230--K2232: Time-dependent pairing, local causal controls and renewable reset (2026-10-29)
 
 K2230 proves that arbitrary time dependence cannot reconcile a nonsingular parallel spinor pairing with the optional same-pairing normal trace in the fixed Clifford class unless mV=0; a distinct-pairing massive raw construction supplies a genuinely moving rank576 observation and exact propagator. K2231 excludes direct local differential approximation of the fixed mode quadratic form, computes stable-star arbitrarily-early response, and constructs a positive local auxiliary-field alternative with finite propagation; that alternative supplies neither the rank-one plateau nor the full quantum detector. K2232 replaces instantaneous reset controls by exact smooth finite-duration pulses and supplies correlation-uniform thermal-bank renewal:1701 reused cells have renewal error below7.554e-13, and1000 reset cycles have complete error below0.000019306566 under the stated external Markov reservoirs. Source claims, ledger0.263 and physical mappings remain unchanged.

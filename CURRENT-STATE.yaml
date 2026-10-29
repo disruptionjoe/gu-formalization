@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 69a538acdb363aa14a95b139b5077b8f909ebcac
+revision_basis: 48849f2c1557ea26af1b83c9aed5d7cd09f1bbe1
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,7 +118,19 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
-    K2230 proves that arbitrary time dependence cannot reconcile a nonsingular parallel
+    K2233 classifies every smooth full raw Green pairing in the supplied observed-four
+    mass/flavor class: nonzero effective curvature excludes all such forms on the
+    connected domain; flat coefficients admit transported singular pairings with exact
+    period condition. A curved positive unitary sector and reducing observation survive,
+    so this is not a physical-positivity exclusion. K2234 classifies non-signalling
+    same-oscillator channels as displacement noise and proves every nontrivial
+    number-effect/squeeze detector has a positive finite-energy error floor before
+    communication time; its continuum bound is existential and its 144/625 two-site
+    example is separate. K2235 derives the thermal renewal channel from finite resonant
+    collisions, counts fresh ancillas and heat/entropy, and shows finite cyclic entropy
+    sinks cannot erase indefinitely. Source claims, ledger 0.263 and physical mapping
+    grades remain unchanged.
+    Historical predecessor (not live): K2230 proves that arbitrary time dependence cannot reconcile a nonsingular parallel
     spinor pairing with the optional same-pairing normal trace in the fixed Clifford
     class unless mV=0; a distinct-pairing massive raw construction supplies a genuinely
     moving rank576 observation and exact propagator. K2231 excludes direct local
@@ -17426,6 +17438,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2233-degree-dependent-raw-pairing-2026-10-29.md
+  - explorations/conditional-build/k2234-causal-detector-error-bound-2026-10-29.md
+  - explorations/conditional-build/k2235-microscopic-thermal-renewal-2026-10-29.md
+  - lab/process/k2233-degree-dependent-raw-pairing.json
+  - lab/process/k2234-causal-detector-error-bound.json
+  - lab/process/k2235-microscopic-thermal-renewal.json
   - explorations/conditional-build/k2230-time-dependent-pairing-compatibility-2026-10-29.md
   - explorations/conditional-build/k2231-spatial-local-control-boundary-2026-10-29.md
   - explorations/conditional-build/k2232-smooth-reset-and-thermal-renewal-2026-10-29.md
@@ -19100,7 +19118,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can a genuinely local causal auxiliary-field interaction implement the same complete
+  Which explicit causal apparatus after communication time, finite clock/entropy-export
+  model, or changed raw action/observation bridge can meet its shared operational
+  constraints without silently importing the missing resource?
+  Historical predecessor (not live): Can a genuinely local causal auxiliary-field interaction implement the same complete
   canonical-mode quantum instrument with a proved energy-constrained channel error, and
   can the smooth reusable-bank protocol obtain a microscopic reservoir or clock model?
   On the source-facing branch, can a degree-dependent full raw pairing/observation
@@ -23112,7 +23133,21 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Do not repeat time-dependent repair of the fixed-gamma same-spinor-pairing class,
+  Do not repeat smooth degree-dependent pairings inside the now-classified mass/flavor
+  raw class, arbitrarily fast causal replacement of the same parity-preserving
+  collective detector, or fresh-qubit thermal collision dilation. K2233 distinguishes
+  absent raw Green forms from positive reduced dynamics; a source-facing continuation
+  needs a changed principal/action or an actual shared observation/quotient bridge.
+  K2234 excludes vanishing-error short-time local implementations on every positive
+  physical energy ball, but leaves constructive controls after communication time and
+  computable continuum witness constants open. K2235 supplies finite microscopic renewal
+  by consuming fresh Gibbs stock; a sustainable apparatus requires explicit
+  clock/battery/entropy-export dynamics with their resource/error account. Compare these
+  constructions against a genuinely new nonsingular real all-ten-row adapter or broader
+  contrast proof. Preserve source/full 16cells/full 20/K-C,native 2+1/chirality,physical
+  quotient,mirrors/full II/normaljets,scalar and thermal optima,restricted cosmology and
+  exact wings.
+  Historical predecessor (not live): Do not repeat time-dependent repair of the fixed-gamma same-spinor-pairing class,
   direct local differential replacement of the canonical mode quadratic form, or
   finite-time Gibbs-bank reset accounting. K2230 supplies an actual moving massive raw
   observation only with distinct pairing roles; a source-facing successor must change

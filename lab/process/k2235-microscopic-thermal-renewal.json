@@ -1,0 +1,248 @@
+{
+  "result": "K2235",
+  "controls": [
+    {
+      "name": "exchange-unitarity",
+      "passed": true
+    },
+    {
+      "name": "resonant-energy-commutator",
+      "passed": true
+    },
+    {
+      "name": "positive-interaction-spectrum",
+      "passed": true
+    },
+    {
+      "name": "positive-interaction-spectrum",
+      "passed": true
+    },
+    {
+      "name": "positive-interaction-spectrum",
+      "passed": true
+    },
+    {
+      "name": "positive-interaction-spectrum",
+      "passed": true
+    },
+    {
+      "name": "reference-matrix-unit-channel",
+      "passed": true
+    },
+    {
+      "name": "reference-matrix-unit-channel",
+      "passed": true
+    },
+    {
+      "name": "reference-matrix-unit-channel",
+      "passed": true
+    },
+    {
+      "name": "reference-matrix-unit-channel",
+      "passed": true
+    },
+    {
+      "name": "reference-matrix-unit-channel",
+      "passed": true
+    },
+    {
+      "name": "reference-matrix-unit-channel",
+      "passed": true
+    },
+    {
+      "name": "reference-matrix-unit-channel",
+      "passed": true
+    },
+    {
+      "name": "reference-matrix-unit-channel",
+      "passed": true
+    },
+    {
+      "name": "reference-matrix-unit-channel",
+      "passed": true
+    },
+    {
+      "name": "reference-matrix-unit-channel",
+      "passed": true
+    },
+    {
+      "name": "reference-matrix-unit-channel",
+      "passed": true
+    },
+    {
+      "name": "reference-matrix-unit-channel",
+      "passed": true
+    },
+    {
+      "name": "reference-matrix-unit-channel",
+      "passed": true
+    },
+    {
+      "name": "reference-matrix-unit-channel",
+      "passed": true
+    },
+    {
+      "name": "reference-matrix-unit-channel",
+      "passed": true
+    },
+    {
+      "name": "reference-matrix-unit-channel",
+      "passed": true
+    },
+    {
+      "name": "reference-matrix-unit-channel",
+      "passed": true
+    },
+    {
+      "name": "reference-matrix-unit-channel",
+      "passed": true
+    },
+    {
+      "name": "reference-matrix-unit-channel",
+      "passed": true
+    },
+    {
+      "name": "reference-matrix-unit-channel",
+      "passed": true
+    },
+    {
+      "name": "full-exchange-reference-decoupling",
+      "passed": true
+    },
+    {
+      "name": "partial-swap-actual-coherence",
+      "passed": true
+    },
+    {
+      "name": "partial-swap-extra-contraction",
+      "passed": true
+    },
+    {
+      "name": "entangled-input-has-gibbs-marginals",
+      "passed": true
+    },
+    {
+      "name": "correlated-entry-breaks-gad-marginal",
+      "passed": true
+    },
+    {
+      "name": "gibbs-marginals-not-independent-stock",
+      "passed": true
+    },
+    {
+      "name": "same-ancilla-return-population",
+      "passed": true
+    },
+    {
+      "name": "spent-ancilla-is-not-fresh",
+      "passed": true
+    },
+    {
+      "name": "finite-ancillary-heat",
+      "passed": true
+    },
+    {
+      "name": "bare-energy-conservation",
+      "passed": true
+    },
+    {
+      "name": "fresh-ancilla-interaction-expectation",
+      "passed": true
+    },
+    {
+      "name": "conserved-coupling-work-observable",
+      "passed": true
+    },
+    {
+      "name": "fresh-two-step-population",
+      "passed": true
+    },
+    {
+      "name": "one-hundred-collision-contraction",
+      "passed": true
+    },
+    {
+      "name": "renewal-error-ceiling",
+      "passed": true
+    },
+    {
+      "name": "thousand-reset-error-ceiling",
+      "passed": true
+    },
+    {
+      "name": "finite-fresh-stock-including-final",
+      "passed": true
+    },
+    {
+      "name": "finite-fresh-stock-no-final",
+      "passed": true
+    },
+    {
+      "name": "full-exchange-stock-no-saving",
+      "passed": true
+    }
+  ],
+  "faults": {
+    "partial-swap-as-exchange": [
+      "reference-matrix-unit-channel",
+      "reference-matrix-unit-channel",
+      "reference-matrix-unit-channel",
+      "reference-matrix-unit-channel",
+      "reference-matrix-unit-channel",
+      "reference-matrix-unit-channel",
+      "reference-matrix-unit-channel",
+      "reference-matrix-unit-channel",
+      "reference-matrix-unit-channel",
+      "reference-matrix-unit-channel"
+    ],
+    "wrong-exchange-phase": [
+      "exchange-unitarity"
+    ],
+    "wrong-gibbs-ancilla": [
+      "reference-matrix-unit-channel",
+      "reference-matrix-unit-channel",
+      "reference-matrix-unit-channel",
+      "reference-matrix-unit-channel",
+      "reference-matrix-unit-channel",
+      "reference-matrix-unit-channel",
+      "reference-matrix-unit-channel",
+      "reference-matrix-unit-channel",
+      "reference-matrix-unit-channel",
+      "reference-matrix-unit-channel"
+    ],
+    "detuned-ancilla": [
+      "resonant-energy-commutator"
+    ],
+    "unshifted-positive-control": [
+      "positive-interaction-spectrum",
+      "positive-interaction-spectrum",
+      "positive-interaction-spectrum",
+      "positive-interaction-spectrum"
+    ],
+    "replace-correlated-entry-by-product": [
+      "correlated-entry-breaks-gad-marginal",
+      "gibbs-marginals-not-independent-stock"
+    ],
+    "reuse-spent-as-fresh": [
+      "same-ancilla-return-population",
+      "spent-ancilla-is-not-fresh"
+    ],
+    "reverse-heat-sign": [
+      "finite-ancillary-heat",
+      "bare-energy-conservation"
+    ],
+    "missing-fresh-collision": [
+      "one-hundred-collision-contraction",
+      "finite-fresh-stock-including-final"
+    ]
+  },
+  "fresh_ancillas_per_renewal": 170100,
+  "fresh_ancillas_1000_with_final": 170100000,
+  "claim_ceiling": "exact finite controls; universal statements use written proofs; no physical bath or clock certification",
+  "sha256": {
+    "explorations/conditional-build/k2235-microscopic-thermal-renewal-2026-10-29.md": "296ac88a81c55a8d951c49bd131ebf93a65f42e9870bb1f4e95da3fcb6f3d355",
+    "tests/channel-swings/k2235_microscopic_thermal_renewal_probe.py": "1879ae632b453fabb0185bc95f60a7999777cec6da1821e20e0e005f94afab92",
+    "explorations/conditional-build/k2229-finite-step-thermal-reset-work-2026-10-28.md": "72ef52f5a5828b392a66b9c1cbeb3bf478ef342fd8a52f888afdbcc65f089010",
+    "explorations/conditional-build/k2232-smooth-reset-and-thermal-renewal-2026-10-29.md": "cb8e3c2bbfb8782c272a88b299c506c94c04bfd9abc20bbbbd9cc36f887f5372"
+  }
+}

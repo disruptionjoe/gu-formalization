@@ -1,4 +1,9 @@
 
+- [k2233_degree_dependent_raw_pairing_probe](k2233_degree_dependent_raw_pairing_probe.py).
+- [k2234_causal_detector_error_bound_probe](k2234_causal_detector_error_bound_probe.py).
+- [k2235_microscopic_thermal_renewal_probe](k2235_microscopic_thermal_renewal_probe.py).
+
+
 - [k2230_time_dependent_pairing_compatibility_probe](k2230_time_dependent_pairing_compatibility_probe.py).
 - [k2231_spatial_local_control_boundary_probe](k2231_spatial_local_control_boundary_probe.py).
 - [k2232_smooth_reset_and_thermal_renewal_probe](k2232_smooth_reset_and_thermal_renewal_probe.py).

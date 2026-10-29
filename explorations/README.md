@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2233-degree-dependent-raw-pairing-2026-10-29](conditional-build/k2233-degree-dependent-raw-pairing-2026-10-29.md).
+- [k2234-causal-detector-error-bound-2026-10-29](conditional-build/k2234-causal-detector-error-bound-2026-10-29.md).
+- [k2235-microscopic-thermal-renewal-2026-10-29](conditional-build/k2235-microscopic-thermal-renewal-2026-10-29.md).
+
+
 - [k2230-time-dependent-pairing-compatibility-2026-10-29](conditional-build/k2230-time-dependent-pairing-compatibility-2026-10-29.md).
 - [k2231-spatial-local-control-boundary-2026-10-29](conditional-build/k2231-spatial-local-control-boundary-2026-10-29.md).
 - [k2232-smooth-reset-and-thermal-renewal-2026-10-29](conditional-build/k2232-smooth-reset-and-thermal-renewal-2026-10-29.md).

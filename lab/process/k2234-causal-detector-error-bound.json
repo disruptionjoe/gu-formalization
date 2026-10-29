@@ -1,0 +1,272 @@
+{
+  "result": "K2234",
+  "controls": [
+    {
+      "name": "real_mode_normalized",
+      "pass": true
+    },
+    {
+      "name": "mode_change_orthogonal",
+      "pass": true
+    },
+    {
+      "name": "input_offdiagonal",
+      "pass": true
+    },
+    {
+      "name": "projective_effect0_complete",
+      "pass": true
+    },
+    {
+      "name": "projective_effect1_complete",
+      "pass": true
+    },
+    {
+      "name": "projective_overlap",
+      "pass": true
+    },
+    {
+      "name": "projective_trace",
+      "pass": true
+    },
+    {
+      "name": "projective_coherence",
+      "pass": true
+    },
+    {
+      "name": "projective_bob_probability",
+      "pass": true
+    },
+    {
+      "name": "projective_independent_closed_formula",
+      "pass": true
+    },
+    {
+      "name": "soft_effect0_complete",
+      "pass": true
+    },
+    {
+      "name": "soft_effect1_complete",
+      "pass": true
+    },
+    {
+      "name": "soft_overlap",
+      "pass": true
+    },
+    {
+      "name": "soft_trace",
+      "pass": true
+    },
+    {
+      "name": "soft_coherence",
+      "pass": true
+    },
+    {
+      "name": "soft_bob_probability",
+      "pass": true
+    },
+    {
+      "name": "soft_independent_closed_formula",
+      "pass": true
+    },
+    {
+      "name": "constant_effect0_complete",
+      "pass": true
+    },
+    {
+      "name": "constant_effect1_complete",
+      "pass": true
+    },
+    {
+      "name": "constant_overlap",
+      "pass": true
+    },
+    {
+      "name": "constant_trace",
+      "pass": true
+    },
+    {
+      "name": "constant_coherence",
+      "pass": true
+    },
+    {
+      "name": "constant_bob_probability",
+      "pass": true
+    },
+    {
+      "name": "constant_independent_closed_formula",
+      "pass": true
+    },
+    {
+      "name": "effect_half_trace_bound",
+      "pass": true
+    },
+    {
+      "name": "low_energy_mixture_weight",
+      "pass": true
+    },
+    {
+      "name": "low_energy_input",
+      "pass": true
+    },
+    {
+      "name": "low_energy_effect_bound",
+      "pass": true
+    },
+    {
+      "name": "generic_witness_budget_1/10",
+      "pass": true
+    },
+    {
+      "name": "generic_witness_positive_1/10",
+      "pass": true
+    },
+    {
+      "name": "generic_witness_saturation_1/10",
+      "pass": true
+    },
+    {
+      "name": "generic_witness_budget_9",
+      "pass": true
+    },
+    {
+      "name": "generic_witness_positive_9",
+      "pass": true
+    },
+    {
+      "name": "generic_witness_saturation_9",
+      "pass": true
+    },
+    {
+      "name": "generic_witness_budget_20",
+      "pass": true
+    },
+    {
+      "name": "generic_witness_positive_20",
+      "pass": true
+    },
+    {
+      "name": "generic_witness_saturation_20",
+      "pass": true
+    },
+    {
+      "name": "cp_block_phase_0_0",
+      "pass": true
+    },
+    {
+      "name": "cp_block_phase_0_1",
+      "pass": true
+    },
+    {
+      "name": "cp_block_phase_0_2",
+      "pass": true
+    },
+    {
+      "name": "cp_block_phase_1_0",
+      "pass": true
+    },
+    {
+      "name": "cp_block_phase_1_1",
+      "pass": true
+    },
+    {
+      "name": "cp_block_phase_1_2",
+      "pass": true
+    },
+    {
+      "name": "cp_block_phase_2_0",
+      "pass": true
+    },
+    {
+      "name": "cp_block_phase_2_1",
+      "pass": true
+    },
+    {
+      "name": "cp_block_phase_2_2",
+      "pass": true
+    },
+    {
+      "name": "conjugation_eigenphase",
+      "pass": true
+    },
+    {
+      "name": "spatial_weyls_commute",
+      "pass": true
+    },
+    {
+      "name": "squeeze_parity_0",
+      "pass": true
+    },
+    {
+      "name": "squeeze_parity_1",
+      "pass": true
+    },
+    {
+      "name": "squeeze_parity_2",
+      "pass": true
+    },
+    {
+      "name": "squeeze_parity_3",
+      "pass": true
+    },
+    {
+      "name": "squeeze_parity_4",
+      "pass": true
+    },
+    {
+      "name": "squeeze_parity_5",
+      "pass": true
+    }
+  ],
+  "faults": {
+    "erase_complement_identity": [
+      "projective_trace",
+      "projective_bob_probability",
+      "projective_independent_closed_formula",
+      "soft_trace",
+      "soft_coherence",
+      "soft_bob_probability",
+      "soft_independent_closed_formula",
+      "constant_trace",
+      "constant_coherence",
+      "constant_bob_probability",
+      "constant_independent_closed_formula"
+    ],
+    "erase_detector_dephasing": [
+      "projective_coherence",
+      "projective_bob_probability",
+      "projective_independent_closed_formula",
+      "soft_coherence",
+      "soft_bob_probability",
+      "soft_independent_closed_formula"
+    ],
+    "ignore_input_mixing_budget": [
+      "low_energy_mixture_weight",
+      "low_energy_input",
+      "low_energy_effect_bound"
+    ],
+    "drop_cp_weyl_cocycle": [
+      "cp_block_phase_1_2",
+      "cp_block_phase_2_1"
+    ],
+    "reverse_complement_phase": [
+      "spatial_weyls_commute"
+    ],
+    "replace_squeeze_by_odd_generator": [
+      "squeeze_parity_0",
+      "squeeze_parity_1",
+      "squeeze_parity_2",
+      "squeeze_parity_3",
+      "squeeze_parity_4",
+      "squeeze_parity_5"
+    ]
+  },
+  "evidence_kind": "finite exact density-matrix/Weyl phase controls; continuum proof is written in the note",
+  "probe_sha256": "c0e60aa298fb1223d3f3ed365771832ba715b0763cbf20e84c5f3303e72edcbf",
+  "dependency_sha256": {
+    "explorations/conditional-build/k2234-causal-detector-error-bound-2026-10-29.md": "59a7c99ff16de408fb2613a6d145dcf2ca42303393b94ecdfbf8927486896b93",
+    "explorations/conditional-build/k2228-continuum-energy-form-detector-control-2026-10-28.md": "a0734c44e33d5a81837fa93349d87e24d421ce5a51bc25be16c335d695ce5e0d",
+    "explorations/conditional-build/k2231-spatial-local-control-boundary-2026-10-29.md": "0224444aa09a33c16ab4e76ebbfa568f4ba669935b1f3eb5cba5ced996db9b3f",
+    "explorations/conditional-build/k2145-parity-causal-duration-2026-10-27.md": "6f0fd9e4d757217c2d7af81b1c784b2481e95ff111c2d8498b3c7dfb8e8e9cb2"
+  }
+}
