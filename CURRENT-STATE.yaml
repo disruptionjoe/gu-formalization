@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f17d19eb1e9af13b3b59665f6c69862eca88d7f5
+revision_basis: c9bd805de8cc86532ee43d2c1140512875cd81d8
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,7 +118,21 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
-    K2239 proves the maximal principal hidden space for literal graph pullback is V
+    K2242 combines actual raw-symbol covariance and nonnull invertibility with the
+    ten-dimensional graph conormal to exclude every nonzero unrestricted value-only
+    projected equation. Exact ambient exponential solutions realize arbitrary
+    affine-graph traces, while specified normal-independent constraints lift the
+    positive observed subsystem. K2243 constructs full finite energy-conserving
+    variable-gap reset gates: reduced record/reference reset is exact without battery
+    coherence; joint battery restoration has explicit sine error. A multi-axis finite
+    battery implements arbitrary irrational gaps and the original logarithmic schedule,
+    with exponential dimension and priced mean energy. K2244 uses polar compression and
+    positive bounded spectral generators to approximate the complete finite-network
+    detector with retained onsite drift, arbitrary-reference energy error and explicit
+    laboratory-frame correction. Smooth pulses also impose any positive norm and slew
+    caps at longer duration. Source assertions, ledger0.263 and physical mappings remain
+    unchanged.
+    Historical predecessor (not live): K2239 proves the maximal principal hidden space for literal graph pullback is V
     intersect ker Q_B, giving sharp rank768+rank(Q_B|V) and an unavoidable defective C
     sector for every unrestricted closed refinement. Moving graph jets require more than
     pointwise closure; an explicit rank1024 repair and a positive constrained rank128
@@ -17466,6 +17480,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2242-ambient-conormal-descent-2026-10-29.md
+  - explorations/conditional-build/k2243-variable-gap-battery-reset-2026-10-29.md
+  - explorations/conditional-build/k2244-onsite-drift-local-control-2026-10-29.md
+  - lab/process/k2242-ambient-conormal-descent.json
+  - lab/process/k2243-variable-gap-battery-reset.json
+  - lab/process/k2244-onsite-drift-local-control.json
   - explorations/conditional-build/k2239-moving-observation-closure-2026-10-29.md
   - explorations/conditional-build/k2240-finite-battery-gate-2026-10-29.md
   - explorations/conditional-build/k2241-local-mode-detector-network-2026-10-29.md
@@ -19158,7 +19178,12 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Which induced moving-section principal equation or source-owned constraint can realize
+  Which source-compatible normal-jet constraint and global domain can support an
+  observed raw solution space, which microscopic reservoir and output-isolation dynamics
+  can renew the finite gap-control apparatus, and which specified local control algebra
+  can synthesize the detector under coupled drift with the same energy/reference
+  guarantee?
+  Historical predecessor (not live): Which induced moving-section principal equation or source-owned constraint can realize
   the positive graph subsystem, which finite gap-control/battery model can compile the
   variable-gap reset, and which controlled local Hamiltonian can implement the general
   complex-mode network while retaining its physical drift and error bounds?
@@ -23181,7 +23206,21 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Do not repeat unchanged-principal graph closure, fixed-gap coherent gate compilation
+  Do not repeat unrestricted raw graph descent, finite variable-gap compilation or
+  bounded positive onsite-drift existence. K2242 needs a source-compatible propagated
+  constraint/action/domain or genuinely changed principal operator before physical
+  observation; its supplied normal-independent lift is not global ambient L2 on
+  noncompact fibres. K2243 implements arbitrary gaps but consumes a finite fresh Gibbs
+  stock and an explicitly large battery; output extraction, clock recycling and entropy
+  export need actual dynamics. K2244 permits finite norm and slew caps only with
+  arbitrary large local spectral matrices and onsite drift; coupled physical drift,
+  restricted hardware controls, precision and same-mode continuum error remain separate.
+  Compare those concrete inputs against broader-contrast simultaneous-tail certification
+  and a genuine real nonsingular all-ten-row adapter. Preserve
+  source/full16cells/full20/K-C/native2+1/chirality/physical quotient,
+  mirrors/fullII/normaljets, scalar/thermal optima, exact wings and restricted cosmology
+  ceilings.
+  Historical predecessor (not live): Do not repeat unchanged-principal graph closure, fixed-gap coherent gate compilation
   or the finite complex-mode normal form. The positive graph subsystem uses a supplied
   invariant constraint; derive its source-compatible action/domain or the actual induced
   moving-section principal operator including normal derivatives before claiming

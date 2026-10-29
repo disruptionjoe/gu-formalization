@@ -1,4 +1,9 @@
 
+- [k2242_ambient_conormal_descent_probe](k2242_ambient_conormal_descent_probe.py).
+- [k2243_variable_gap_battery_reset_probe](k2243_variable_gap_battery_reset_probe.py).
+- [k2244_onsite_drift_local_control_probe](k2244_onsite_drift_local_control_probe.py).
+
+
 - [k2239_moving_observation_closure_probe](k2239_moving_observation_closure_probe.py).
 - [k2240_finite_battery_gate_probe](k2240_finite_battery_gate_probe.py).
 - [k2241_local_mode_detector_network_probe](k2241_local_mode_detector_network_probe.py).

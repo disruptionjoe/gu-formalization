@@ -1,0 +1,61 @@
+{
+  "result_id": "K2244",
+  "checks": {
+    "unitary_target": true,
+    "compression_really_leaks": true,
+    "polar_isometry": true,
+    "extended_unitary": true,
+    "extension_matches_polar": true,
+    "compression_not_unitary": true,
+    "polar_error_bound": true,
+    "onsite_modulation_hermitian": true,
+    "onsite_modulation_positive": true,
+    "interaction_picture_generator": true,
+    "laboratory_picture_cancellation": true,
+    "onsite_drift_preserves_site_projector": true,
+    "coupled_drift_spreads": true,
+    "coupled_drift_reaches_third": true,
+    "spectral_gate_agrees_on_fixed_admitted_sector": true,
+    "tail_control_positive": true,
+    "tail_markov": true,
+    "consumer_delta_squared": true,
+    "consumer_tail_squared": true,
+    "consumer_complete_error": true,
+    "smooth_pulse_area": true,
+    "smooth_pulse_endpoints": true,
+    "smooth_pulse_endpoint_derivatives": true,
+    "slew_consumer_upper_bounds": true
+  },
+  "fault_failures": {
+    "skip_polar": [
+      "polar_isometry",
+      "extension_matches_polar"
+    ],
+    "bad_extension": [
+      "extended_unitary",
+      "extension_matches_polar"
+    ],
+    "wrong_phase": [
+      "laboratory_picture_cancellation"
+    ],
+    "coupled_support": [
+      "onsite_drift_preserves_site_projector"
+    ],
+    "tail_cutoff": [
+      "spectral_gate_agrees_on_fixed_admitted_sector"
+    ],
+    "resource_cutoff": [
+      "consumer_delta_squared"
+    ],
+    "pulse_area": [
+      "smooth_pulse_area"
+    ]
+  },
+  "evidence_kinds": "Exact finite polar-compression and support countercontrols plus rational bounds; universal Fock energy/reference/unitary completion theorem in note.",
+  "dependency_sha256": {
+    "explorations/conditional-build/k2244-onsite-drift-local-control-2026-10-29.md": "18b5bd144d1e2fa871ce58b747fc35ce634cee4919dd6dfbb60da063d65c9062",
+    "explorations/conditional-build/k2241-local-mode-detector-network-2026-10-29.md": "ed6b64c6287121ac80631de72a5cd96eb982f000a85b47267b1d57ebef72a1ae",
+    "explorations/conditional-build/k2225-positive-drift-detector-control-2026-10-28.md": "dc2ca9e92eccb673c7582ea3f0e0905528624f3f37365cd13e25dfef6f1200bf"
+  },
+  "probe_sha256": "e2ab5dc4615baef9511fad12e2cea824aa2341e15df3815c678667874fa483c0"
+}

@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2242-ambient-conormal-descent-2026-10-29](conditional-build/k2242-ambient-conormal-descent-2026-10-29.md).
+- [k2243-variable-gap-battery-reset-2026-10-29](conditional-build/k2243-variable-gap-battery-reset-2026-10-29.md).
+- [k2244-onsite-drift-local-control-2026-10-29](conditional-build/k2244-onsite-drift-local-control-2026-10-29.md).
+
+
 - [k2239-moving-observation-closure-2026-10-29](conditional-build/k2239-moving-observation-closure-2026-10-29.md).
 - [k2240-finite-battery-gate-2026-10-29](conditional-build/k2240-finite-battery-gate-2026-10-29.md).
 - [k2241-local-mode-detector-network-2026-10-29](conditional-build/k2241-local-mode-detector-network-2026-10-29.md).

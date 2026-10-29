@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2242-ambient-conormal-descent](k2242-ambient-conormal-descent.json).
+- [k2243-variable-gap-battery-reset](k2243-variable-gap-battery-reset.json).
+- [k2244-onsite-drift-local-control](k2244-onsite-drift-local-control.json).
+
+
 - [k2239-moving-observation-closure](k2239-moving-observation-closure.json).
 - [k2240-finite-battery-gate](k2240-finite-battery-gate.json).
 - [k2241-local-mode-detector-network](k2241-local-mode-detector-network.json).

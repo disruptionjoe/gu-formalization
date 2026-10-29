@@ -1,0 +1,79 @@
+{
+  "result_id": "K2243",
+  "checks": {
+    "ramp_bijection_(0, 1)": true,
+    "ramp_energy_(0, 1)": true,
+    "ramp_bijection_(1, 2)": true,
+    "ramp_energy_(1, 2)": true,
+    "ramp_bijection_(2, 0)": true,
+    "ramp_energy_(2, 0)": true,
+    "swap_bijection_1": true,
+    "swap_global_energy_1": true,
+    "swap_bijection_2": true,
+    "swap_global_energy_2": true,
+    "matrix_unit_reset_(False, 0, 0)": true,
+    "matrix_unit_reset_(False, 0, 1)": true,
+    "matrix_unit_reset_(False, 1, 0)": true,
+    "matrix_unit_reset_(False, 1, 1)": true,
+    "matrix_unit_reset_(True, 0, 0)": true,
+    "matrix_unit_reset_(True, 0, 1)": true,
+    "matrix_unit_reset_(True, 1, 0)": true,
+    "matrix_unit_reset_(True, 1, 1)": true,
+    "control_returns_zero": true,
+    "mean_work_from_paths": true,
+    "arbitrary_gap_energy_vectors": true,
+    "multi_axis_safe_histories": true,
+    "reset_consumer": true,
+    "clock_consumer": true,
+    "joint_sine_consumer": true,
+    "twenty_cell_mean_work_bracket": true,
+    "gate_count": true
+  },
+  "fault_failures": {
+    "shift_sign": [
+      "ramp_energy_(0, 1)",
+      "ramp_energy_(1, 2)",
+      "ramp_energy_(2, 0)",
+      "mean_work_from_paths"
+    ],
+    "cyclic_wrap": [
+      "ramp_energy_(0, 1)",
+      "ramp_energy_(1, 2)",
+      "ramp_energy_(2, 0)"
+    ],
+    "unconditional_swap": [
+      "swap_global_energy_1",
+      "swap_global_energy_2"
+    ],
+    "insufficient_margin": [
+      "matrix_unit_reset_(False, 0, 0)",
+      "matrix_unit_reset_(False, 0, 1)",
+      "matrix_unit_reset_(False, 1, 0)",
+      "matrix_unit_reset_(False, 1, 1)",
+      "matrix_unit_reset_(True, 0, 0)",
+      "matrix_unit_reset_(True, 0, 1)",
+      "matrix_unit_reset_(True, 1, 0)",
+      "matrix_unit_reset_(True, 1, 1)",
+      "control_returns_zero"
+    ],
+    "omit_lowering": [
+      "control_returns_zero",
+      "mean_work_from_paths"
+    ],
+    "multi_axis_shift": [
+      "arbitrary_gap_energy_vectors"
+    ],
+    "work_sign": [
+      "control_returns_zero",
+      "mean_work_from_paths"
+    ]
+  },
+  "evidence_kinds": "Exact complete finite permutations, energy vectors, reference matrix-unit channel and rational resources; universal arbitrary-gap/reference/clock arguments in note.",
+  "dependency_sha256": {
+    "explorations/conditional-build/k2243-variable-gap-battery-reset-2026-10-29.md": "c4a5e31b4bbf2e15aa9872f9e9237892fee86931171a24b4d93b8aa6f1631f25",
+    "explorations/conditional-build/k2229-finite-step-thermal-reset-work-2026-10-28.md": "72ef52f5a5828b392a66b9c1cbeb3bf478ef342fd8a52f888afdbcc65f089010",
+    "explorations/conditional-build/k2240-finite-battery-gate-2026-10-29.md": "6333bdafdf415421225a4ffd3b660169e5a2c3049daa27f263bd28da59ed7377",
+    "explorations/conditional-build/k2238-finite-clock-thermal-circuit-2026-10-29.md": "67ce671725c49ca8688fe397a15be055eac6800bd4f78302e35c57b65b3c20c1"
+  },
+  "probe_sha256": "0a96ab294763178e37444452e2036f8e81b0937f7d2d06564f8d772f114cffa6"
+}

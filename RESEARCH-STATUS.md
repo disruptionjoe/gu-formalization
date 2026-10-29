@@ -6,6 +6,25 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2242--K2244: Conditional research results (2026-10-29)
+
+K2242 combines actual raw-symbol covariance and nonnull invertibility with the ten-dimensional graph conormal to exclude every nonzero unrestricted value-only projected equation. Exact ambient exponential solutions realize arbitrary affine-graph traces, while specified normal-independent constraints lift the positive observed subsystem. K2243 constructs full finite energy-conserving variable-gap reset gates: reduced record/reference reset is exact without battery coherence; joint battery restoration has explicit sine error. A multi-axis finite battery implements arbitrary irrational gaps and the original logarithmic schedule, with exponential dimension and priced mean energy. K2244 uses polar compression and positive bounded spectral generators to approximate the complete finite-network detector with retained onsite drift, arbitrary-reference energy error and explicit laboratory-frame correction. Smooth pulses also impose any positive norm and slew caps at longer duration. Source assertions, ledger0.263 and physical mappings remain unchanged.
+
+- [K2242](explorations/conditional-build/k2242-ambient-conormal-descent-2026-10-29.md).
+- [K2243](explorations/conditional-build/k2243-variable-gap-battery-reset-2026-10-29.md).
+- [K2244](explorations/conditional-build/k2244-onsite-drift-local-control-2026-10-29.md).
+
+Three independent read-only specialists cross-reviewed different actual proofs and probes. Serialized final probes pass59+27+24=110 exact finite controls and reject20 genuine changed-input fault families. Universal conormal, reference, battery and infinite-dimensional operator arguments remain written internally reviewed proofs. Corrected the constrained-lift coefficient scope, oscillator chirality metadata, laboratory versus interaction-picture wording, a cutoff fault and a conservative pi-bound consumer. No heavy build, Lean, external-expert, novelty or remote-CI certification.
+
+| Result | Proven conditional effect | Remaining boundary |
+| --- | --- | --- |
+| K2242 | Every graph has an invertible omitted raw symbol; exact arbitrary local traces and constrained positive lift | Source-selected constraints and global physical domain |
+| K2243 | Exact reduced reset at arbitrary gaps with finite conserved energy; clock and joint-error consumers | Fresh stock, extraction, recycling and enormous battery cost |
+| K2244 | Complete detector approximation with positive local norm/slew-limited controls and onsite drift | Coupled drift, restricted spectral synthesis, bandwidth and continuum |
+
+Earlier sections are historical.
+
+
 ## K2239--K2241: Conditional research results (2026-10-29)
 
 K2239 proves the maximal principal hidden space for literal graph pullback is V intersect ker Q_B, giving sharp rank768+rank(Q_B|V) and an unavoidable defective C sector for every unrestricted closed refinement. Moving graph jets require more than pointwise closure; an explicit rank1024 repair and a positive constrained rank128 graph observation distinguish the alternatives. K2240 constructs finite energy-conserving lifts of arbitrary fixed-gap qubit gates with reference-uniform joint error, exact finite-unitary obstruction and correlated reuse accounting. A sine packet improves the shift error to at most pi/(L+1); a633-level battery plus padded positive clock gives the two-gate consumer below1% complete error. K2241 explicitly collects arbitrary finite complex canonical modes using up to two active modes, constructs the complete recorded detector on an adjacent gate network, and proves graph latency, energy transport and finite spectral error. Its explicit collector has vacuum occupation881/144 versus the necessary first-mode625/144 in the exact complex fixture. Source assertions, ledger0.263 and physical mapping grades remain unchanged.
