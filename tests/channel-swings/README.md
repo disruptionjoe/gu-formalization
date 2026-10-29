@@ -1,4 +1,9 @@
 
+- [k2274_desi_fixed_family_test_probe](k2274_desi_fixed_family_test_probe.py).
+- [k2275_mean_reference_finite_source_probe](k2275_mean_reference_finite_source_probe.py).
+- [k2276_structured_detector_implementation_probe](k2276_structured_detector_implementation_probe.py).
+
+
 - [k2271_forward_cosmology_domain_probe](k2271_forward_cosmology_domain_probe.py).
 - [k2272_coherent_stock_detector_probe](k2272_coherent_stock_detector_probe.py).
 - [k2273_positive_control_energy_probe](k2273_positive_control_energy_probe.py).

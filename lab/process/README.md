@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2274-desi-fixed-family-test](k2274-desi-fixed-family-test.json).
+- [k2275-mean-reference-finite-source](k2275-mean-reference-finite-source.json).
+- [k2276-structured-detector-implementation](k2276-structured-detector-implementation.json).
+
+
 - [k2271-forward-cosmology-domain](k2271-forward-cosmology-domain.json).
 - [k2272-coherent-stock-detector](k2272-coherent-stock-detector.json).
 - [k2273-positive-control-energy](k2273-positive-control-energy.json).

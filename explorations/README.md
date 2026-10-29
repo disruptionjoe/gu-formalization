@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2274-desi-fixed-family-test-2026-10-29](conditional-build/k2274-desi-fixed-family-test-2026-10-29.md).
+- [k2275-mean-reference-finite-source-2026-10-29](conditional-build/k2275-mean-reference-finite-source-2026-10-29.md).
+- [k2276-structured-detector-implementation-2026-10-29](conditional-build/k2276-structured-detector-implementation-2026-10-29.md).
+
+
 - [k2271-forward-cosmology-domain-2026-10-29](conditional-build/k2271-forward-cosmology-domain-2026-10-29.md).
 - [k2272-coherent-stock-detector-2026-10-29](conditional-build/k2272-coherent-stock-detector-2026-10-29.md).
 - [k2273-positive-control-energy-2026-10-29](conditional-build/k2273-positive-control-energy-2026-10-29.md).

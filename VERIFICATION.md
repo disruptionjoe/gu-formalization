@@ -5,6 +5,19 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2274--K2276: Actual BAO separation, phase resources and structured detector (2026-10-29)
+
+K2274 conditionally separates the unchanged K2271 fixed-initial-data family from released DESI DR2 LRG2 distances with quadratic discrepancy>23.15111914, then proves that varying one initial slope gives a unique exact fit to the same pair. K2275 improves full-detector reference costs using mean-weighted translations: coherent occupation10^22, finite supplied pump return error<0.009904, and a coherent-to-sine preparation obstruction. K2276 replaces universal shell synthesis under a new weighted-charge trilinear/neutral alphabet: ten-call complete error<0.009957 with second-moment inputs and pump10^10, or<0.008224 on the original mean-only class with pump10^18. Explicit core operation counts, fresh-register consumer and both output moments retain their assumptions. Source claims, ledger0.263 and physical mappings are unchanged.
+
+- [K2274](explorations/conditional-build/k2274-desi-fixed-family-test-2026-10-29.md).
+- [K2275](explorations/conditional-build/k2275-mean-reference-finite-source-2026-10-29.md).
+- [K2276](explorations/conditional-build/k2276-structured-detector-implementation-2026-10-29.md).
+
+Three read-only internal specialists independently derived and cross-reviewed the actual arguments and probes. Final serialized probes pass52+56+78=186 finite exact data/algebra/matrix, moment and resource-accounting controls and detect27 changed-input/formula faults. The32 rational integral inequalities certify a continuous bound; source hashes authenticate snapshots, and budget/count checks are arithmetic rather than independent operator proofs. Review corrected outcome labels, finite-pump versus coherent-comparator transfer, carrier typing, domain extension and both-coordinate probe wording. Universal domain, contraction, adaptive-channel and initial-value arguments remain written internally reviewed proofs, distinct from finite controls, empirical applicability, Lean, external-expert, novelty and remote-CI certification.
+
+Earlier sections preserve historical result snapshots; the current scope is above.
+
+
 ## K2271--K2273: Forward cosmology, prepared stock and positive energy controls (2026-10-29)
 
 K2271 constructs a uniform positive-F forward vacuum cosmology family on redshift x in[1,2] for shared normalized coefficients |a|,|r|<=1 and fixed initial data; its whole-family common-ruler separator rejects an explicit correlated synthetic observation set. K2272 replaces supplied sine stock by a resonantly prepared ordinary coherent state with mean occupation10^28 and ten-call full-instrument error below0.008221, pricing the external phase drive and enlarged compiler. K2273 replaces signed nonlinear controls by positive whole-Fock pulses, accounts for new drift duration, proves moment-qualified energy continuity and an untruncated reference-restoration lower bound. Source claims, ledger0.263 and physical mappings are unchanged.

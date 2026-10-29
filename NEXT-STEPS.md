@@ -5,6 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-10-29: REAL BAO TEST AND STRUCTURED DETECTOR.**
+> Compare a shared physically justified cosmology initial-data/coefficient domain across additional jointly valid radial/transverse bins, including the BAO/template transport assumption; one-bin free-slope fitting earns no predictive credit. Strongest apparatus alternative is a physically specified trilinear pump, clock/phase supply and dispersive/neutral readout with calibrated implementation error and useful uniform energy control. The new primitive and weighted charge are supplied, not derived from the old pairwise alphabet or GU. Do not repeat fixed-IVP separation, abstract controllability, mean-only cutoff interpolation or unpriced reference replenishment. Source-owned matter/light response and physical local-readout cost remain alternatives with actual inputs. Preserve native2+1/nonchiral,full16cells/full20/K-C,physical quotient,mirrors/fullII/normaljets,scalar/thermal and cosmology ceilings.
+> Earlier banners are historical; use this current condition.
+
+
 > **2026-10-29: FORWARD COSMOLOGY AND POSITIVE DETECTOR ENERGY.**
 > Use an actual calibrated radial/transverse observation likelihood with an independently justified coefficient and initial-data domain for cosmology, or fix an economical finite phase-source/clock/control budget and prove both complete detector error and uniform output-energy moments. The common-interval construction and synthetic separator are not survey constraints; positive F is not stability. Glauber preparation imports a classical phase source, costs10^28 mean quanta in the example and is not economical or autonomous. Positive nonlinear spectral compilation is now available; do not repeat qualitative controllability, arbitrary toy ellipsoid refinements or treat shrinking trace error as energetic convergence. Source-owned matter/light response and physical local readout cost remain independent alternatives with actual inputs. Preserve native2+1/nonchiral,full16cells/full20/K-C,physical quotient,mirrors/fullII/normaljets,scalar/thermal and cosmology ceilings.
 > Earlier banners are historical; use this current condition.

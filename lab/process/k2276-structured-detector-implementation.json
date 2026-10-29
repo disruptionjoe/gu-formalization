@@ -1,0 +1,153 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K2276",
+  "claim_ceiling": "conditional supplied model; no source or canon verdict",
+  "evidence_kind": "finite exact algebra/matrix and resource-accounting checks; universal statements are written proofs",
+  "checks": 78,
+  "check_names": [
+    "actual trilinear Hermitian shell 2",
+    "weighted charge commutes shell 2",
+    "ordinary particle count not conserved 2",
+    "positive compensation diagonal dominates 2",
+    "actual trilinear Hermitian shell 4",
+    "weighted charge commutes shell 4",
+    "ordinary particle count not conserved 4",
+    "positive compensation diagonal dominates 4",
+    "actual trilinear Hermitian shell 6",
+    "weighted charge commutes shell 6",
+    "ordinary particle count not conserved 6",
+    "positive compensation diagonal dominates 6",
+    "canonical transformed commutator",
+    "squeeze Heisenberg equation",
+    "actual target squeeze coefficients",
+    "moment norm polynomial difference",
+    "coherent annihilation recurrence 0",
+    "coherent annihilation recurrence 1",
+    "coherent annihilation recurrence 2",
+    "coherent annihilation recurrence 3",
+    "coherent annihilation recurrence 4",
+    "pump creation fluctuation norm is one",
+    "weighted squeeze f bound",
+    "squeeze integral I bound",
+    "actual Duhamel integral derivative",
+    "two pump defects correctly composed",
+    "phase register actual residue 0",
+    "complete labeled record and clean register 0",
+    "phase register actual residue 1",
+    "complete labeled record and clean register 1",
+    "phase register actual residue 2",
+    "complete labeled record and clean register 2",
+    "phase register actual residue 3",
+    "complete labeled record and clean register 3",
+    "phase register actual residue 4",
+    "complete labeled record and clean register 4",
+    "phase register actual residue 5",
+    "complete labeled record and clean register 5",
+    "phase register actual residue 6",
+    "complete labeled record and clean register 6",
+    "phase register actual residue 7",
+    "complete labeled record and clean register 7",
+    "phase register actual residue 8",
+    "complete labeled record and clean register 8",
+    "phase register actual residue 9",
+    "complete labeled record and clean register 9",
+    "positive multiple false-vacuum alias retained",
+    "alias vector bound covers orthogonal record",
+    "first moment does not supply second premise",
+    "weighted quadratic phase repaired 0",
+    "weighted quadratic phase repaired 1",
+    "weighted quadratic phase repaired 2",
+    "weighted quadratic phase repaired 3",
+    "weighted quadratic phase repaired 4",
+    "weighted quadratic phase repaired 5",
+    "weighted quadratic phase repaired 6",
+    "ten-call ideal-control error budget",
+    "ten-call implementation allowance",
+    "pump operation count",
+    "dispersive operation count",
+    "neutral conservative gate count",
+    "neutral qubit budget",
+    "weighted second moment product expansion",
+    "fresh-input global moment expansion",
+    "ideal all-field moment explicit",
+    "small channel error does not imply small energy bound",
+    "mean-only low-vector moment estimate",
+    "mean-only cutoff optimizer",
+    "mean-only optimum value",
+    "mean-only exact input norm",
+    "mean-only ten-call budget",
+    "mean-only complete error allowance",
+    "mean-only dispersive count",
+    "mean-only neutral gate count",
+    "mean-only neutral qubit count",
+    "mean-only heavy-tail normalized",
+    "mean-only heavy-tail mean one",
+    "mean-only heavy-tail harmonic second moment"
+  ],
+  "faults_caught": {
+    "pump_weight": [
+      "weighted charge commutes shell 2",
+      "weighted charge commutes shell 4",
+      "weighted charge commutes shell 6"
+    ],
+    "squeeze_sign": [
+      "squeeze Heisenberg equation"
+    ],
+    "creation_fluctuation": [
+      "pump creation fluctuation norm is one"
+    ],
+    "record_label": [
+      "complete labeled record and clean register 0",
+      "complete labeled record and clean register 1",
+      "complete labeled record and clean register 2",
+      "complete labeled record and clean register 3",
+      "complete labeled record and clean register 4",
+      "complete labeled record and clean register 5",
+      "complete labeled record and clean register 6",
+      "complete labeled record and clean register 7",
+      "complete labeled record and clean register 8",
+      "complete labeled record and clean register 9"
+    ],
+    "omit_uncompute": [
+      "complete labeled record and clean register 1",
+      "complete labeled record and clean register 2",
+      "complete labeled record and clean register 3",
+      "complete labeled record and clean register 5",
+      "complete labeled record and clean register 6",
+      "complete labeled record and clean register 7",
+      "complete labeled record and clean register 9"
+    ],
+    "deny_alias": [
+      "positive multiple false-vacuum alias retained"
+    ],
+    "moment_bound": [
+      "alias vector bound covers orthogonal record"
+    ],
+    "pulse_bound": [
+      "two pump defects correctly composed"
+    ],
+    "compensator_sign": [
+      "weighted quadratic phase repaired 0",
+      "weighted quadratic phase repaired 2",
+      "weighted quadratic phase repaired 3",
+      "weighted quadratic phase repaired 5",
+      "weighted quadratic phase repaired 6"
+    ],
+    "input_moment": [
+      "first moment does not supply second premise"
+    ],
+    "mean_cutoff_norm": [
+      "mean-only low-vector moment estimate"
+    ]
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2253-full-instrument-reference-reuse-2026-10-29.md": "2db4b83728046f3a40ab8c207c4a2014ff7a27752a792a1bd40bf657ad265749",
+    "explorations/conditional-build/k2270-untruncated-detector-control-2026-10-29.md": "3de1aee897b844de209998006d3832062549f6fd17cf97b59234472213498ca8",
+    "explorations/conditional-build/k2273-positive-control-energy-2026-10-29.md": "3cb6f0f3ef18ba9ed265ed02dee5d1bf68f164b83bd688687bc9f5e32158c95d",
+    "explorations/conditional-build/k2276-structured-detector-implementation-2026-10-29.md": "f42347ebd54ec28400d22467946280e8d2aef28b9ec22ddb5e3169b79f3d17ae",
+    "tests/channel-swings/k2276_structured_detector_implementation_probe.py": "a1a78edf9fd2838523eac33eafc89e198709e33effb902c107ff9ce1ef645d0f"
+  },
+  "resource_accounting_checks": [
+    "ten-call ideal-control error budget"
+  ]
+}

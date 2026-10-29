@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K2275",
+  "claim_ceiling": "conditional supplied model; no source or canon verdict",
+  "evidence_kind": "finite exact algebra/matrix and resource-accounting checks; universal statements are written proofs",
+  "checks": 56,
+  "check_names": [
+    "actual unit shift norm",
+    "weighted translation 0",
+    "weighted translation 1",
+    "weighted translation 2",
+    "weighted translation 3",
+    "weighted translation 4",
+    "weighted translation 5",
+    "weighted translation 6",
+    "orthogonal one-step weighted control",
+    "failure completion actual isometry",
+    "vacuum failure retains output moment bound",
+    "pump rotation transfer sign",
+    "pump rotation unitary",
+    "passive shell Hermitian 1",
+    "positive shifted passive shell 1",
+    "finite pump output normalized 1",
+    "finite pump transfer is fractional actual mean 1",
+    "passive shell Hermitian 2",
+    "positive shifted passive shell 2",
+    "finite pump output normalized 2",
+    "finite pump transfer is fractional actual mean 2",
+    "passive shell Hermitian 3",
+    "positive shifted passive shell 3",
+    "finite pump output normalized 3",
+    "finite pump transfer is fractional actual mean 3",
+    "passive shell Hermitian 4",
+    "positive shifted passive shell 4",
+    "finite pump output normalized 4",
+    "finite pump transfer is fractional actual mean 4",
+    "finite truncated pump is not exact comparator transfer",
+    "sine orthogonal orbit L2",
+    "sine orthogonal orbit L3",
+    "sine orthogonal orbit L5",
+    "sine orthogonal orbit L7",
+    "coherent orbit from squared amplitude",
+    "covariant preparation necessary inequality algebra",
+    "Poisson raw moment 1",
+    "Poisson raw moment 2",
+    "Poisson raw moment 3",
+    "Poisson raw moment 4",
+    "tail allocation exact",
+    "sine maximum charge",
+    "sine mean charge",
+    "sine shift conservative bound",
+    "sine square root bound",
+    "output mean square root bound",
+    "sine full error budget",
+    "coherent weighted shift square-root bound",
+    "coherent reference consumer",
+    "coherent full error budget",
+    "coherent compilation threshold",
+    "pump depletion square-root lower",
+    "retained original pump cost",
+    "finite source full return budget",
+    "source return triangle has pump comparison",
+    "finite pump angle ratio exact"
+  ],
+  "faults_caught": {
+    "weight_factor": [
+      "orthogonal one-step weighted control"
+    ],
+    "failure_charge": [
+      "vacuum failure retains output moment bound"
+    ],
+    "pump_sign": [
+      "pump rotation transfer sign"
+    ],
+    "covariance_source": [
+      "coherent orbit from squared amplitude"
+    ],
+    "sine_profile": [
+      "sine orthogonal orbit L2",
+      "sine orthogonal orbit L3",
+      "sine orthogonal orbit L5",
+      "sine orthogonal orbit L7"
+    ],
+    "pump_tail": [
+      "finite source full return budget"
+    ],
+    "coherent_mean": [
+      "coherent weighted shift square-root bound"
+    ],
+    "retained_pump": [
+      "source return triangle has pump comparison"
+    ],
+    "finite_transfer": [
+      "finite truncated pump is not exact comparator transfer"
+    ]
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2253-full-instrument-reference-reuse-2026-10-29.md": "2db4b83728046f3a40ab8c207c4a2014ff7a27752a792a1bd40bf657ad265749",
+    "explorations/conditional-build/k2272-coherent-stock-detector-2026-10-29.md": "325fa07a62fe2969d8c8a7542f968592f690577bc3671a8021619deff0b751ef",
+    "explorations/conditional-build/k2273-positive-control-energy-2026-10-29.md": "3cb6f0f3ef18ba9ed265ed02dee5d1bf68f164b83bd688687bc9f5e32158c95d",
+    "explorations/conditional-build/k2275-mean-reference-finite-source-2026-10-29.md": "ab46eba37783055be66233b753ddfbd63f984afcfb7d999785c1bf9ce819bf45",
+    "tests/channel-swings/k2275_mean_reference_finite_source_probe.py": "f88d212eab0d305bade202da17013e8588b4951f7e1454bee89c91d55bafc2b6"
+  },
+  "resource_accounting_checks": [
+    "sine full error budget",
+    "coherent full error budget"
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K2274",
+  "claim_ceiling": "conditional supplied model; no source or canon verdict",
+  "evidence_kind": "finite exact algebra/matrix and resource-accounting checks; universal statements are written proofs",
+  "checks": 52,
+  "check_names": [
+    "immutable input hash mean.txt",
+    "immutable input hash cov.txt",
+    "same effective redshift",
+    "observable order",
+    "lower endpoint matches integral bound",
+    "positive rational integral cell 1",
+    "positive rational integral cell 2",
+    "positive rational integral cell 3",
+    "positive rational integral cell 4",
+    "positive rational integral cell 5",
+    "positive rational integral cell 6",
+    "positive rational integral cell 7",
+    "positive rational integral cell 8",
+    "positive rational integral cell 9",
+    "positive rational integral cell 10",
+    "positive rational integral cell 11",
+    "positive rational integral cell 12",
+    "positive rational integral cell 13",
+    "positive rational integral cell 14",
+    "positive rational integral cell 15",
+    "positive rational integral cell 16",
+    "positive rational integral cell 17",
+    "positive rational integral cell 18",
+    "positive rational integral cell 19",
+    "positive rational integral cell 20",
+    "positive rational integral cell 21",
+    "positive rational integral cell 22",
+    "positive rational integral cell 23",
+    "positive rational integral cell 24",
+    "positive rational integral cell 25",
+    "positive rational integral cell 26",
+    "positive rational integral cell 27",
+    "positive rational integral cell 28",
+    "positive rational integral cell 29",
+    "positive rational integral cell 30",
+    "positive rational integral cell 31",
+    "positive rational integral cell 32",
+    "continuum lower sum above one",
+    "exact rational certificate sum",
+    "actual covariance positive definite",
+    "data opposite allowed model halfspace",
+    "cross terms retained",
+    "all-ruler squared-radius23 separation",
+    "printed discrepancy lower bound",
+    "projected discrepancy tolerance",
+    "metric Cauchy equality",
+    "full pure-R2 constraint no slope division",
+    "curvature W positive on unit slope interval",
+    "strict slope derivative formula",
+    "data between exact slope endpoints",
+    "shared amplitude exactly fits radial coordinate",
+    "AP-ratio matching gives transverse fit"
+  ],
+  "faults_caught": {
+    "wrong_redshift": [
+      "positive rational integral cell 1",
+      "positive rational integral cell 2",
+      "positive rational integral cell 3",
+      "positive rational integral cell 4",
+      "positive rational integral cell 5",
+      "positive rational integral cell 6",
+      "positive rational integral cell 7",
+      "positive rational integral cell 8",
+      "positive rational integral cell 9",
+      "positive rational integral cell 10",
+      "positive rational integral cell 11",
+      "positive rational integral cell 12",
+      "positive rational integral cell 13",
+      "positive rational integral cell 14",
+      "positive rational integral cell 15",
+      "positive rational integral cell 16",
+      "positive rational integral cell 17",
+      "positive rational integral cell 18",
+      "positive rational integral cell 19",
+      "positive rational integral cell 20",
+      "positive rational integral cell 21",
+      "positive rational integral cell 22",
+      "positive rational integral cell 23",
+      "positive rational integral cell 24",
+      "positive rational integral cell 25",
+      "positive rational integral cell 26",
+      "positive rational integral cell 27",
+      "positive rational integral cell 28",
+      "positive rational integral cell 29",
+      "positive rational integral cell 30",
+      "positive rational integral cell 31",
+      "continuum lower sum above one",
+      "exact rational certificate sum"
+    ],
+    "endpoint_sign": [
+      "lower endpoint matches integral bound"
+    ],
+    "quadrature_upper": [
+      "positive rational integral cell 32",
+      "exact rational certificate sum"
+    ],
+    "covariance_cross": [
+      "cross terms retained"
+    ],
+    "observation_order": [
+      "data opposite allowed model halfspace",
+      "data between exact slope endpoints"
+    ],
+    "wrong_action": [
+      "full pure-R2 constraint no slope division"
+    ],
+    "slope_derivative": [
+      "strict slope derivative formula"
+    ]
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2271-forward-cosmology-domain-2026-10-29.md": "59e3493fb5fbd1122d50938368882298fe396839680dc99318d255fcdc900710",
+    "explorations/conditional-build/k2274-desi-fixed-family-test-2026-10-29.md": "184a7e1b51eaeff5eb5814e88d7c69561625defbd3f25b95fbaafd880563ce69",
+    "tests/channel-swings/k2274_desi_fixed_family_test_probe.py": "5344648ebc15dd15e6598753d8d6edb6728b540b1225a74fd4594674ca54efb7"
+  },
+  "resource_accounting_checks": [],
+  "source_inputs": {
+    "commit": "bb0c1c9009dc76d1391300e169e8df38fd1096db",
+    "retrieved_at": "2026-10-29T21:12:35.671289+00:00",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/bb0c1c9009dc76d1391300e169e8df38fd1096db/desi_bao_dr2/desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_mean.txt",
+        "sha256": "6d2f38d0727b2aefcd82fdd5a1c6df5a7d34ad8459437c195d575b5ad0c6ab32",
+        "text": "# [z] [value at z] [quantity]\n0.70600000 17.35069094 DM_over_rs\n0.70600000 19.45534918 DH_over_rs\n"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/bb0c1c9009dc76d1391300e169e8df38fd1096db/desi_bao_dr2/desi_gaussian_bao_LRG_GCcomb_z0.6-0.8_cov.txt",
+        "sha256": "16fa8c323f54139ef1249a24f8f9c8663dbac7890d5a6d9c3b97e84ee89847ae",
+        "text": "3.23752442e-02 -2.37445646e-02\n-2.37445646e-02 1.11469198e-01\n"
+      }
+    ]
+  }
+}
