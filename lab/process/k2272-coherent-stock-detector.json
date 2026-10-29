@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K2272",
+  "claim_ceiling": "conditional supplied model; no source or canon verdict",
+  "evidence_kind": "finite exact algebra/matrix and resource-accounting checks; universal statements are written proofs",
+  "checks": 29,
+  "check_names": [
+    "Poisson amplitude shift recurrence",
+    "vacuum shift contribution",
+    "padded shift preserves supported norm",
+    "square root inequality factor",
+    "Poisson moment 0",
+    "Poisson moment 1",
+    "Poisson moment 2",
+    "Poisson moment 3",
+    "Poisson moment 4",
+    "Poisson normalized variance",
+    "shifted second moment",
+    "shifted fourth moment",
+    "low input fits physical good shell",
+    "highest good total shell fits",
+    "lower Poisson tail Chebyshev condition",
+    "tail sum bound",
+    "sqrt tail strict bound",
+    "sqrt twice tail strict bound",
+    "input tail exact",
+    "output tail exact",
+    "coherent shift consumer",
+    "two controlled translations include both tails",
+    "both initial and target coherent replacement",
+    "ten-call full error budget",
+    "preparation pulse area",
+    "preparation pulse squared area",
+    "preparation endpoints zero",
+    "supplied drive is genuinely noncovariant",
+    "vacuum receives a charged amplitude"
+  ],
+  "faults_caught": {
+    "poisson_recurrence": [
+      "Poisson amplitude shift recurrence"
+    ],
+    "vacuum_boundary": [
+      "vacuum shift contribution",
+      "padded shift preserves supported norm"
+    ],
+    "translation_count": [
+      "two controlled translations include both tails"
+    ],
+    "initial_return_count": [
+      "both initial and target coherent replacement"
+    ],
+    "compiler_threshold": [
+      "highest good total shell fits"
+    ],
+    "drive_area": [
+      "preparation pulse area",
+      "preparation pulse squared area"
+    ],
+    "phase_source": [
+      "supplied drive is genuinely noncovariant",
+      "vacuum receives a charged amplitude"
+    ]
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2253-full-instrument-reference-reuse-2026-10-29.md": "2db4b83728046f3a40ab8c207c4a2014ff7a27752a792a1bd40bf657ad265749",
+    "explorations/conditional-build/k2270-untruncated-detector-control-2026-10-29.md": "3de1aee897b844de209998006d3832062549f6fd17cf97b59234472213498ca8",
+    "explorations/conditional-build/k2272-coherent-stock-detector-2026-10-29.md": "325fa07a62fe2969d8c8a7542f968592f690577bc3671a8021619deff0b751ef",
+    "tests/channel-swings/k2272_coherent_stock_detector_probe.py": "acf6faf2c9924ddfd979081b1fea1113653dcf87c8cf922d0a0233f3cfead7d5"
+  },
+  "resource_accounting_checks": [
+    "highest good total shell fits",
+    "two controlled translations include both tails",
+    "both initial and target coherent replacement",
+    "ten-call full error budget"
+  ]
+}

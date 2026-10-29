@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2271-forward-cosmology-domain-2026-10-29](conditional-build/k2271-forward-cosmology-domain-2026-10-29.md).
+- [k2272-coherent-stock-detector-2026-10-29](conditional-build/k2272-coherent-stock-detector-2026-10-29.md).
+- [k2273-positive-control-energy-2026-10-29](conditional-build/k2273-positive-control-energy-2026-10-29.md).
+
+
 - [k2268-observation-regularity-cosmology-2026-10-29](conditional-build/k2268-observation-regularity-cosmology-2026-10-29.md).
 - [k2269-correlated-cosmology-certificate-2026-10-29](conditional-build/k2269-correlated-cosmology-certificate-2026-10-29.md).
 - [k2270-untruncated-detector-control-2026-10-29](conditional-build/k2270-untruncated-detector-control-2026-10-29.md).

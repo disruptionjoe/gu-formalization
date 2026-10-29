@@ -6,6 +6,25 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2271--K2273: Conditional research results (2026-10-29)
+
+K2271 constructs a uniform positive-F forward vacuum cosmology family on redshift x in[1,2] for shared normalized coefficients |a|,|r|<=1 and fixed initial data; its whole-family common-ruler separator rejects an explicit correlated synthetic observation set. K2272 replaces supplied sine stock by a resonantly prepared ordinary coherent state with mean occupation10^28 and ten-call full-instrument error below0.008221, pricing the external phase drive and enlarged compiler. K2273 replaces signed nonlinear controls by positive whole-Fock pulses, accounts for new drift duration, proves moment-qualified energy continuity and an untruncated reference-restoration lower bound. Source claims, ledger0.263 and physical mappings are unchanged.
+
+- [K2271](explorations/conditional-build/k2271-forward-cosmology-domain-2026-10-29.md).
+- [K2272](explorations/conditional-build/k2272-coherent-stock-detector-2026-10-29.md).
+- [K2273](explorations/conditional-build/k2273-positive-control-energy-2026-10-29.md).
+
+Three independently authorized read-only specialists reviewed concrete proofs and probes, including integration cross-review. Final serialized probes pass28+29+32=89 exact algebra/matrix and resource-accounting controls and detect23 changed-input/formula faults. Tail-allocation and restoration-moment bookkeeping are explicitly distinguished from operator evidence. Review improved actual shift-boundary controls, coefficient derivatives, false independent-ruler construction, drift timing and stale-report rejection. Universal continuum, spectral and channel statements remain written internally reviewed proofs, distinct from finite checks, hashes, Lean, external-expert, novelty, empirical and remote-CI certification.
+
+| Result | New conditional endpoint | Remaining limit |
+| --- | --- | --- |
+| K2271 | Shared forward interval and ruler-free correlated separation | Fixed initial data; synthetic observations; no stability claim |
+| K2272 | Driven coherent stock and full adaptive detector bound | Supplied phase source; mean occupation10^28; huge compiler |
+| K2273 | Positive nonlinear pulses and energy/restoration bounds | Actual moment/control assumptions; no uniform energy convergence |
+
+Earlier sections are historical.
+
+
 ## K2268--K2270: Conditional research results (2026-10-29)
 
 K2268 converts a stipulated finite y=H² observation/error ellipsoid and independent curvature bound into a continuum vacuum-family rejection; weak-energy cancellation yields an exact nonempty2001-node example with error1e-8 and |alpha/b|<=100. K2269 retains joint coefficient correlations in a quadratic PSD certificate with margin1/200, unrestricted rho/b and separately priced nonpolynomial C1 discrepancy1e-8. K2270 removes detector hardwalls using genuine number-conserving full-Fock controls: ideal sector leakage is zero, projected perturbations control full-channel error and leakage probability, and the ten-call error remains below.00934. Signed Kerr energy, coherent supply, huge workspace/control costs and actual cosmological observation/error justification remain open. Source claims, ledger0.263 and physical mappings are unchanged.

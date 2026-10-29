@@ -5,6 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-10-29: FORWARD COSMOLOGY AND POSITIVE DETECTOR ENERGY.**
+> Use an actual calibrated radial/transverse observation likelihood with an independently justified coefficient and initial-data domain for cosmology, or fix an economical finite phase-source/clock/control budget and prove both complete detector error and uniform output-energy moments. The common-interval construction and synthetic separator are not survey constraints; positive F is not stability. Glauber preparation imports a classical phase source, costs10^28 mean quanta in the example and is not economical or autonomous. Positive nonlinear spectral compilation is now available; do not repeat qualitative controllability, arbitrary toy ellipsoid refinements or treat shrinking trace error as energetic convergence. Source-owned matter/light response and physical local readout cost remain independent alternatives with actual inputs. Preserve native2+1/nonchiral,full16cells/full20/K-C,physical quotient,mirrors/fullII/normaljets,scalar/thermal and cosmology ceilings.
+> Earlier banners are historical; use this current condition.
+
+
 > **2026-10-29: FINITE OBSERVATION AND UNTRUNCATED CONTROL.**
 > Prioritize an actual calibrated cosmological observation operator and independently justified reconstruction-bias/regularity class, or a validated common-interval forward likelihood with shared initial data and ruler. The2001-node and two-mode ellipsoid examples are stipulated experiments, not survey results. Do not repeat finite-node impossibility, weak interpolation cancellation or abstract untruncated controllability. Strongest apparatus alternative: a specified coherent-stock and restricted-control implementation with higher-moment/energy accounting and affordable error budget; finite mean charge does not bound Kerr energy or perturbative leaked energy. Source-owned matter/light and physical preparation/readout cost can overtake with actual inputs. Preserve native2+1/nonchiral,full16cells/full20/K-C,physical quotient,mirrors/fullII/normaljets,scalar/thermal and cosmology ceilings.
 > Earlier banners are historical; use this current condition.

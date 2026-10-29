@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K2271",
+  "claim_ceiling": "conditional supplied model; no source or canon verdict",
+  "evidence_kind": "finite exact algebra/matrix and resource-accounting checks; universal statements are written proofs",
+  "checks": 28,
+  "check_names": [
+    "independent chain-rule cancellation",
+    "full constraint recovered",
+    "curvature coordinate transformation",
+    "contraction derivative from actual equation",
+    "source coefficient bound",
+    "derivative coefficient bound",
+    "pure R squared exact control",
+    "tube self-map strict",
+    "strict tube slack",
+    "contraction factor",
+    "contraction below one",
+    "W lower",
+    "F lower",
+    "coefficient a perturbation",
+    "coefficient r perturbation",
+    "nonzero member strict departure",
+    "tube lower excludes half radial ratio",
+    "covariance SPD",
+    "correlated separator variance",
+    "deterministic support gap",
+    "shared-ruler completion square",
+    "profile minimum nonnegative",
+    "positive amplitude boundary case",
+    "shared-ruler shape inequality",
+    "independent rulers really fit",
+    "generated data zero profile",
+    "radial power derivative bound at minimum",
+    "physical F scales quadratically"
+  ],
+  "faults_caught": {
+    "redshift_power": [
+      "independent chain-rule cancellation",
+      "curvature coordinate transformation",
+      "physical F scales quadratically"
+    ],
+    "quadratic_derivative": [
+      "independent chain-rule cancellation"
+    ],
+    "source_sign": [
+      "full constraint recovered",
+      "contraction derivative from actual equation"
+    ],
+    "curvature_leg": [
+      "curvature coordinate transformation"
+    ],
+    "tube_box": [
+      "tube self-map strict",
+      "strict tube slack",
+      "contraction factor"
+    ],
+    "ruler_freedom": [
+      "shared-ruler shape inequality"
+    ],
+    "covariance_cross": [
+      "correlated separator variance"
+    ],
+    "profile_cross": [
+      "shared-ruler completion square"
+    ]
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2265-shared-cosmology-consistency-2026-10-29.md": "e0f8955f1e83bf4e9275e9914695f04a095a8a2d1180562aa41e16453783fc2d",
+    "explorations/conditional-build/k2271-forward-cosmology-domain-2026-10-29.md": "59e3493fb5fbd1122d50938368882298fe396839680dc99318d255fcdc900710",
+    "tests/channel-swings/k2271_forward_cosmology_domain_probe.py": "aba1dfd65b7999a26d27939a4c9852d40af7402021740291e08d5d1e8da83167"
+  },
+  "resource_accounting_checks": []
+}

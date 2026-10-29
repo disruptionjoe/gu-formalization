@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K2273",
+  "claim_ceiling": "conditional supplied model; no source or canon verdict",
+  "evidence_kind": "finite exact algebra/matrix and resource-accounting checks; universal statements are written proofs",
+  "checks": 32,
+  "check_names": [
+    "finite Kerr spectral control 0",
+    "finite Kerr spectral control 1",
+    "finite Kerr spectral control 2",
+    "finite Kerr spectral control 3",
+    "finite Kerr spectral control 4",
+    "positive hopping shell 1",
+    "hopping commutes with charge 1",
+    "positive hopping shell 2",
+    "hopping commutes with charge 2",
+    "positive hopping shell 3",
+    "hopping commutes with charge 3",
+    "phase-corrected full unitary",
+    "neutral spectator full identity phase",
+    "full neutral shifted flip positive",
+    "positive pulse exact area",
+    "positive pulse C1 left",
+    "positive pulse C1 right",
+    "positive pulse peak",
+    "positive pulse slope",
+    "pulse total variation from monotone halves",
+    "repair includes its own drift duration",
+    "finite peak repair budget",
+    "finite slew repair budget",
+    "energy continuity equality is sharp",
+    "tiny probability allows fixed mean",
+    "tail mass telescoping",
+    "second moment summable comparison",
+    "fourth moment terms do not vanish",
+    "tail normalization",
+    "restoration uses actual Poisson second moment",
+    "bounded field charge witness",
+    "finite positive restoration floor"
+  ],
+  "faults_caught": {
+    "noninteger_spectrum": [
+      "finite Kerr spectral control 1",
+      "finite Kerr spectral control 3"
+    ],
+    "hopping_number": [
+      "positive hopping shell 1",
+      "positive hopping shell 2",
+      "positive hopping shell 3"
+    ],
+    "missing_phase": [
+      "phase-corrected full unitary"
+    ],
+    "spectator_identity": [
+      "neutral spectator full identity phase"
+    ],
+    "pulse_area": [
+      "positive pulse exact area",
+      "positive pulse peak",
+      "positive pulse slope",
+      "pulse total variation from monotone halves"
+    ],
+    "moment_order": [
+      "energy continuity equality is sharp"
+    ],
+    "restoration_moment": [
+      "restoration uses actual Poisson second moment"
+    ],
+    "drift_duration": [
+      "repair includes its own drift duration"
+    ]
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2270-untruncated-detector-control-2026-10-29.md": "3de1aee897b844de209998006d3832062549f6fd17cf97b59234472213498ca8",
+    "explorations/conditional-build/k2225-positive-drift-detector-control-2026-10-28.md": "dc2ca9e92eccb673c7582ea3f0e0905528624f3f37365cd13e25dfef6f1200bf",
+    "explorations/conditional-build/k2272-coherent-stock-detector-2026-10-29.md": "325fa07a62fe2969d8c8a7542f968592f690577bc3671a8021619deff0b751ef",
+    "explorations/conditional-build/k2273-positive-control-energy-2026-10-29.md": "3cb6f0f3ef18ba9ed265ed02dee5d1bf68f164b83bd688687bc9f5e32158c95d",
+    "tests/channel-swings/k2273_positive_control_energy_probe.py": "93e9f69b80fa4263c5b90eb5410a6948dc5872cd470c5aa7d5abefef5654b67b"
+  },
+  "resource_accounting_checks": [
+    "restoration uses actual Poisson second moment"
+  ]
+}

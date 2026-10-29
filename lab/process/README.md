@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2271-forward-cosmology-domain](k2271-forward-cosmology-domain.json).
+- [k2272-coherent-stock-detector](k2272-coherent-stock-detector.json).
+- [k2273-positive-control-energy](k2273-positive-control-energy.json).
+
+
 - [k2268-observation-regularity-cosmology](k2268-observation-regularity-cosmology.json).
 - [k2269-correlated-cosmology-certificate](k2269-correlated-cosmology-certificate.json).
 - [k2270-untruncated-detector-control](k2270-untruncated-detector-control.json).

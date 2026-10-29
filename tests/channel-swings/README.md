@@ -1,4 +1,9 @@
 
+- [k2271_forward_cosmology_domain_probe](k2271_forward_cosmology_domain_probe.py).
+- [k2272_coherent_stock_detector_probe](k2272_coherent_stock_detector_probe.py).
+- [k2273_positive_control_energy_probe](k2273_positive_control_energy_probe.py).
+
+
 - [k2268_observation_regularity_cosmology_probe](k2268_observation_regularity_cosmology_probe.py).
 - [k2269_correlated_cosmology_certificate_probe](k2269_correlated_cosmology_certificate_probe.py).
 - [k2270_untruncated_detector_control_probe](k2270_untruncated_detector_control_probe.py).
