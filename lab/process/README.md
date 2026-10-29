@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2263-bounded-local-preparation](k2263-bounded-local-preparation.json).
+- [k2264-restricted-detector-control](k2264-restricted-detector-control.json).
+
+
 - [k2261-band-quotient-local-observation](k2261-band-quotient-local-observation.json).
 - [k2262-coherent-reference-supply](k2262-coherent-reference-supply.json).
 

@@ -1,0 +1,77 @@
+{
+  "result_id": "K2263",
+  "checks": {
+    "G_adjoint_pairing": true,
+    "left_G_orthonormal": true,
+    "weighted_singular_factorization": true,
+    "exact_preparation": true,
+    "exact_cost": true,
+    "normal_equation": true,
+    "regularized_error_formula": true,
+    "regularized_cost_formula": true,
+    "reflected_odd_mode_removed": true,
+    "projection_HS_contraction": true,
+    "moment_multinomial": true,
+    "unit_ball_13_volume": true,
+    "lambda_margin": true,
+    "G_bound": true,
+    "actual_band_HS_bound_below_1e13": true,
+    "half_error_cost_exceeds_million": true,
+    "free_copy_Frobenius_constant": true,
+    "taylor_derivative_0": true,
+    "taylor_derivative_1": true,
+    "taylor_derivative_2": true,
+    "taylor_derivative_3": true,
+    "taylor_derivative_4": true,
+    "taylor_derivative_5": true,
+    "rank_monomial_control_0": true,
+    "rank_monomial_control_1": true,
+    "rank_monomial_control_2": true,
+    "rank_monomial_control_3": true,
+    "rank_monomial_control_4": true,
+    "unit_target_cost_2": true,
+    "capacity_trace_2": true,
+    "unit_target_cost_4": true,
+    "capacity_trace_4": true,
+    "unit_target_cost_8": true,
+    "capacity_trace_8": true,
+    "unit_target_cost_16": true,
+    "capacity_trace_16": true
+  },
+  "fault_failures": {
+    "omit_g": [
+      "G_adjoint_pairing"
+    ],
+    "wrong_inverse": [
+      "exact_preparation",
+      "exact_cost"
+    ],
+    "wrong_regularizer": [
+      "normal_equation",
+      "regularized_error_formula",
+      "regularized_cost_formula"
+    ],
+    "omit_reflection": [
+      "reflected_odd_mode_removed"
+    ],
+    "wrong_volume": [
+      "unit_ball_13_volume"
+    ],
+    "wrong_taylor_factorial": [
+      "taylor_derivative_2",
+      "taylor_derivative_3",
+      "taylor_derivative_4",
+      "taylor_derivative_5"
+    ],
+    "wrong_moment_weight": [
+      "moment_multinomial"
+    ]
+  },
+  "evidence_kinds": "Finite exact controls only. Universal analytic and control statements are written proofs; report hashes are provenance.",
+  "dependency_sha256": {
+    "explorations/conditional-build/k2263-bounded-local-preparation-2026-10-29.md": "3aa369b4cf546194acbe5da9f0a2d363f78dc98671e4e9a9fc7348f924194175",
+    "explorations/conditional-build/k2261-band-quotient-local-observation-2026-10-29.md": "0cfec7449225c3e38724088403fb4232a9fe94aa525da2143451ac62bb5f6065",
+    "explorations/conditional-build/k2258-variable-local-preparation-2026-10-29.md": "85e4072f8b4888b04f69f8b500aacafa68f438f36d3415f6baafc2fd8ccca600"
+  },
+  "probe_sha256": "b6aca7ac1dbb04bdcc674bd443a57b459bf8ecca8a22bfc2171be9cf108cc199"
+}

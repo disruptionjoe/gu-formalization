@@ -5,6 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-10-29: BOUNDED LOCAL PREPARATION AND RESTRICTED DETECTOR CONTROL.**
+> Do not repeat qualitative compact-band density, exact linear locality, arbitrary shell completion or unit-amplitude filter controls. K2263 supplies preparation-potential L2 cost, not physical energy; compare a specified finite-dimensional target/readout set with actual synthesis/noise norms, or construct a noncompact/source-owned quotient with its observation algebra. K2264 supplies all-pair nonlinear hard-wall control and an enormous finite compiler; next test a specified finite-range hardware alphabet, uncontrolled drift/leakage, or coherent-stock preparation/transport with resource and complete-instrument error. Invariant donors cannot produce phase stock. Broader-contrast simultaneous tails and real all-ten adapters remain alternatives. Preserve all source/native2+1/nonchiral/full16cells/full20/K-C,physical quotient,mirrors/fullII/normaljets,scalar/thermal/cosmology ceilings.
+> Earlier banners are historical; use this current condition.
+
+
 > **2026-10-29: QUOTIENT LOCALITY AND COHERENT REFERENCE SUPPLY.**
 > Do not repeat reflected compact-band local linear readout, unconstrained two-register SWAP replenishment, or product-catalyst fidelity obstruction. K2261 leaves bounded-input approximate locality, nonlinear observable algebras and changed noncompact/domain quotients open; construct the actual observation norm and cost before calling density physical access. K2262 consumes fresh coherent stock and assumes arbitrary shell synthesis; a next construction must specify phase-stock preparation/transport/waste recovery or a restricted local charge-conserving synthesis with the full instrument error. Correlated marginal-only catalyst return is outside the product theorem. Broader-contrast simultaneous-tail certification and genuine real all-ten-row adapters remain alternatives. Preserve source/full16cells/full20/K-C,native2+1/nonchiral,physical quotient,mirrors/fullII/normaljets,scalar/thermal/cosmology ceilings.
 > Earlier banners are historical; use this current condition.

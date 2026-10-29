@@ -1,4 +1,8 @@
 
+- [k2263_bounded_local_preparation_probe](k2263_bounded_local_preparation_probe.py).
+- [k2264_restricted_detector_control_probe](k2264_restricted_detector_control_probe.py).
+
+
 - [k2261_band_quotient_local_observation_probe](k2261_band_quotient_local_observation_probe.py).
 - [k2262_coherent_reference_supply_probe](k2262_coherent_reference_supply_probe.py).
 

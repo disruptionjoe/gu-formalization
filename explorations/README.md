@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2263-bounded-local-preparation-2026-10-29](conditional-build/k2263-bounded-local-preparation-2026-10-29.md).
+- [k2264-restricted-detector-control-2026-10-29](conditional-build/k2264-restricted-detector-control-2026-10-29.md).
+
+
 - [k2261-band-quotient-local-observation-2026-10-29](conditional-build/k2261-band-quotient-local-observation-2026-10-29.md).
 - [k2262-coherent-reference-supply-2026-10-29](conditional-build/k2262-coherent-reference-supply-2026-10-29.md).
 

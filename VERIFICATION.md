@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2263--K2264: Bounded local preparation and restricted detector control (2026-10-29)
+
+K2263 gives the actual reflected compact-band preparation map a finite Hilbert-Schmidt bound, exact singular-cost/regularization formulas, an orthogonal-access budget, factorial worst-direction hierarchy and bounded-input exterior readout formula. Smooth target derivative norms price remote preparation; the specified band/volume example requires input norm greater than10^6 for half-error unit-target access. K2264 replaces arbitrary shell synthesis with explicit conserving one-/two-subsystem nonlinear controls, integer-gap Fourier edge isolation and finite product-formula compilation. Its full ten-call field/record/history detector error is below0.00934 with supplied hard walls, coherent stock, huge neutral workspace and explicitly finite timing/precision costs. This is tensor locality, not geometric locality or practical apparatus. Source claims, ledger0.263 and physical mappings remain unchanged.
+
+- [K2263](explorations/conditional-build/k2263-bounded-local-preparation-2026-10-29.md).
+- [K2264](explorations/conditional-build/k2264-restricted-detector-control-2026-10-29.md).
+
+Three read-only internal mathematical specialists reviewed the actual conditional proofs; source/Clifford, operator-domain and quantum-control scope were cross-checked. Final serialized probes pass36+89=125 finite exact controls and reject7+10=17 genuine changed inputs. Review clarified the G adjoint and completed preparation domain, C1 pulse regularity and local full-Fock block embedding; a nonunit sqrt2 hopping filter and hard-wall leakage mutation close identified probe gaps. Written universal proofs remain distinct from finite controls, provenance hashes, Lean, external-expert, novelty and remote-CI certification.
+
+Earlier sections preserve historical result snapshots; the current scope is above.
+
+
 ## K2261--K2262: Quotient locality and coherent reference supply (2026-10-29)
 
 K2261 constructs a full1024-input polynomial parametrizer for the actual constrained raw fibre and proves local representative classes are dense in the reflected compact-band quotient. Every continuous strictly local descending linear readout is zero; canonical evaluation is bounded but nonlocal, and canonical representative response has no finite support cone. K2262 supplies exact conserving reference replacement with complete history transfer and a ten-call full-detector error below0.00934 using10 fresh coherent packets; independent two-level stock satisfies error>1/4 once K>=20M, regardless of charge offsets. Exact independent whole-stock return is excluded and a quantitative joint-restoration error bound is derived. Source claims, ledger0.263 and physical mappings remain unchanged.
