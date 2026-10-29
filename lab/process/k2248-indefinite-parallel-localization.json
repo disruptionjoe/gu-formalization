@@ -1,0 +1,62 @@
+{
+  "result_id": "K2248",
+  "checks": {
+    "G_compatibility_y": true,
+    "G_compatibility_z": true,
+    "parallel_y": true,
+    "parallel_z": true,
+    "pointwise_inherited_null": true,
+    "positive_auxiliary_line": true,
+    "not_positive_compatible": true,
+    "flat_actual_connection": true,
+    "normalized_1d": true,
+    "growing_partner_parallel": true,
+    "hyperbolic_cross_pairing": true,
+    "whole_Gram_(1, 1)": true,
+    "sharp_rank_(1, 1)": true,
+    "auxiliary_Gram_(1, 1)": true,
+    "whole_Gram_(3, 2)": true,
+    "sharp_rank_(3, 2)": true,
+    "auxiliary_Gram_(3, 2)": true,
+    "whole_Gram_(2, 4)": true,
+    "sharp_rank_(2, 4)": true,
+    "auxiliary_Gram_(2, 4)": true,
+    "variable_form_compatibility": true,
+    "variable_form_constant_nonzero": true,
+    "reciprocal_form_integrable": true,
+    "finite_density_nonzero_pairing": true,
+    "full_Gram_differential_identity": true
+  },
+  "fault_failures": {
+    "positive_form": [
+      "G_compatibility_y",
+      "G_compatibility_z",
+      "pointwise_inherited_null",
+      "hyperbolic_cross_pairing",
+      "full_Gram_differential_identity"
+    ],
+    "wrong_connection_sign": [
+      "parallel_y"
+    ],
+    "wrong_null_line": [
+      "parallel_y",
+      "parallel_z"
+    ],
+    "missing_normalization": [
+      "normalized_1d"
+    ],
+    "wrong_metric_growth": [
+      "variable_form_compatibility",
+      "variable_form_constant_nonzero"
+    ],
+    "omit_connection_component": [
+      "parallel_z"
+    ]
+  },
+  "evidence_kinds": "Finite exact controls and actual changed-input faults; universal theorem proofs are written mathematics and independently reviewed, not certified by counts.",
+  "dependency_sha256": {
+    "explorations/conditional-build/k2248-indefinite-parallel-localization-2026-10-29.md": "f68379ffcc465d0bee02ec6c2ec56be304aa07efab56dfbb58707d969984ba04",
+    "explorations/conditional-build/k2245-localized-normal-domain-2026-10-29.md": "2688cd99d94e82a490c65ea6f243cdf9a49416b3e66d9736f91b01c69a2e493e"
+  },
+  "probe_sha256": "f245499696e18e8b275d45d85f9950737125ef94ee92e451caa796782d505744"
+}

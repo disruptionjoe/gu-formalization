@@ -6,6 +6,23 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2248--K2249: Conditional research results (2026-10-29)
+
+K2248 proves that all square-integrable, all-normal-parallel sections for an indefinite-compatible connection have identically zero inherited Gram pairing when the reciprocal relative-form norm has divergent integral; the sharp fibrewise Witt bound, localized null family, zero radical quotient and density/growth escapes are explicit. K2249 gives the same XY chain a finite-density product input with exact reference-uniform endpoint reset, distinguishes onsite stationarity from coupled Gibbs equilibrium, and derives exact reinjection memory. A renewal-resolvent estimate proves every output marginal of an arbitrarily long independent diagonal stream is within0.00016 of tau_(1/5) at Jtau=200; a4000001-site chain gives1000 rounds within0.000181. These are marginal bounds, not complete-process renewal. Source assertions, ledger0.263 and physical mappings stay unchanged.
+
+- [K2248](explorations/conditional-build/k2248-indefinite-parallel-localization-2026-10-29.md).
+- [K2249](explorations/conditional-build/k2249-finite-density-chain-reset-2026-10-29.md).
+
+Two independent read-only mathematical specialists reviewed concrete proofs and probes, with cross-review. Fresh serialized probes pass25+52=77 exact controls and6+8=14 genuine input faults. Whole-fibre and infinite-time assertions are written proofs, not inferred from finite samples. Final affected native audits, status currency, data/syntax, links and dependency hashes pass. No Lean, external-expert, novelty or remote-CI certification.
+
+| claim | prior status | current status | weakest dependency | stale wording searched | files updated |
+|---|---|---|---|---|---|
+| indefinite parallel localization | K2245 leaves indefinite case open | scoped null-inheritance theorem and sharp examples | actual source carrier, measure and propagation | K2245 scope preserved | K2248, current navigation |
+| finite-density reused chain | vacuum-only K2246; fresh-stock K2235 | exact endpoint channel and uniform independent-diagonal marginal stream | complete correlated process, extraction and true Gibbs preparation | K2246 and K2235 limits retained | K2249, current navigation |
+
+Earlier sections are historical.
+
+
 ## K2245--K2247: Conditional research results (2026-10-29)
 
 K2245 constructs a normalized Gaussian normal-constraint sector for the full raw operator with explicitly changed lower coefficients, a closed positive reduced domain and weighted literal graph current. It is nonreducing for the full raw equation; every positive-metric-compatible everywhere-parallel normal constraint has zero L2 sector on infinite-volume fibres. K2246 gives an autonomous positive half-line vacuum XY reservoir with exact Bessel amplitude, arbitrary-reference reset and spatial-prefix escape. A4001-site approximation has reset error below0.0101+10^-1000 throughout100<=Jt<=200 under the stated J=1 scaling. K2247 constructs positive bounded site/edge cancellation for finite number-preserving coupled drift, with exact reachable-sector dynamics and complete recorded/reference error below0.072312 in its explicit consumer. The cutoff-dependent edge cancellation cost2A|J| is sharp within that architecture. Source assertions, ledger0.263 and physical mappings remain unchanged.

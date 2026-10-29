@@ -1,4 +1,8 @@
 
+- [k2248_indefinite_parallel_localization_probe](k2248_indefinite_parallel_localization_probe.py).
+- [k2249_finite_density_chain_reset_probe](k2249_finite_density_chain_reset_probe.py).
+
+
 - [k2245_localized_normal_domain_probe](k2245_localized_normal_domain_probe.py).
 - [k2246_autonomous_vacuum_reservoir_probe](k2246_autonomous_vacuum_reservoir_probe.py).
 - [k2247_coupled_drift_cutoff_control_probe](k2247_coupled_drift_cutoff_control_probe.py).

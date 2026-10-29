@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2248-indefinite-parallel-localization-2026-10-29](conditional-build/k2248-indefinite-parallel-localization-2026-10-29.md).
+- [k2249-finite-density-chain-reset-2026-10-29](conditional-build/k2249-finite-density-chain-reset-2026-10-29.md).
+
+
 - [k2245-localized-normal-domain-2026-10-29](conditional-build/k2245-localized-normal-domain-2026-10-29.md).
 - [k2246-autonomous-vacuum-reservoir-2026-10-29](conditional-build/k2246-autonomous-vacuum-reservoir-2026-10-29.md).
 - [k2247-coupled-drift-cutoff-control-2026-10-29](conditional-build/k2247-coupled-drift-cutoff-control-2026-10-29.md).

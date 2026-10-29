@@ -5,6 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-10-29: NULL INHERITANCE AND THERMAL STREAM RESET.**
+> Compare a source-compatible nonparallel constraint or finite-volume/density construction on the actual raw carrier with an explicit arbitrary-reference repeated-input reservoir and extraction process. K2248 settles bounded-form infinite-volume all-parallel inheritance: localization may be nonzero but its restricted inherited form is zero. K2249 settles finite-density one-input reset and uniform independent-diagonal marginal streams, including a finite1000-round horizon; it does not bound the joint history or justify coupled-Hamiltonian Gibbs thermalization after a local quench. Construct the relevant bath-mode/history decorrelation or a counterexample, or price restricted fixed-budget detector control against broader-contrast tails and genuine real all-ten-row adapters. Preserve source/native2+1/nonchiral/full16cells/full20/K-C, physical quotient, mirrors/fullII/normaljets, scalar/thermal and cosmology ceilings.
+> Earlier banners are historical; use this current condition.
+
+
 > **2026-10-29: LOCALIZED DOMAINS, VACUUM ESCAPE AND COUPLED CONTROL.**
 > Do not repeat scalar Gaussian localization, one-input vacuum-chain escape or positive scalar cutoff cancellation. The positive-domain source contender needs a nonparallel constraint, finite-volume/density mechanism or actual indefinite-to-positive action/domain bridge; positive-metric-compatible all-normal parallelism cannot normalize on infinite volume. The reservoir contender needs repeated correlated inputs, finite-temperature Gibbs behavior and extraction/renewal dynamics; an infinite prepared vacuum is not those resources. Coupled detector synthesis now needs a restricted control alphabet or fixed strength/precision budget, or non-number-preserving/continuum estimates; exact positive scalar cancellation costs2A|J| per hopping edge and cannot be made cheap by longer gate time. Compare these against broader-contrast simultaneous tails and a genuine real nonsingular all-ten-row adapter. Preserve source/full16cells/full20/K-C/native2+1/chirality/physical quotient, mirrors/fullII/normaljets, scalar/thermal optima, exact wings and restricted cosmology ceilings.
 > Earlier banners are historical; use this current condition.
