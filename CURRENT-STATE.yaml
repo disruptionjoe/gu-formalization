@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 48849f2c1557ea26af1b83c9aed5d7cd09f1bbe1
+revision_basis: 02e12feb4c036a47718afdb508e1d8698c20a132
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,7 +118,20 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
-    K2233 classifies every smooth full raw Green pairing in the supplied observed-four
+    K2236 proves that ordinary fixed-plane pullback kills the supplied positive V1152
+    sector and needs a minimum rank768 pointwise refinement for closed first-order
+    dynamics. That quotient retains the known Jordan defect, has no positive local
+    symmetrizer, and inherits no nonzero raw Green form when mass is nowhere zero; a
+    massless one-dimensional consumer has exactly one derivative of Fourier growth.
+    K2237 constructs explicit continuum finite-energy causal-error witnesses for
+    supplied unequal-squeeze detectors: coefficients2209/96921600 and81/328454144 times
+    min(1,800E/(17m)), the latter resolving an exact first-moment blindspot. K2238
+    constructs a positive finite time-independent clock for resonant thermal renewal,
+    with exact endpoint, reference-uniform padded timing window and explicit
+    bandwidth/fresh-stock costs. A separate finite analytic theorem excludes an exact
+    nonidentity channel plateau. Source assertions, ledger0.263 and physical mapping
+    grades remain unchanged.
+    Historical predecessor (not live): K2233 classifies every smooth full raw Green pairing in the supplied observed-four
     mass/flavor class: nonzero effective curvature excludes all such forms on the
     connected domain; flat coefficients admit transported singular pairings with exact
     period condition. A curved positive unitary sector and reducing observation survive,
@@ -17438,6 +17451,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2236-raw-observation-closure-2026-10-29.md
+  - explorations/conditional-build/k2237-computable-causal-witness-2026-10-29.md
+  - explorations/conditional-build/k2238-finite-clock-thermal-circuit-2026-10-29.md
+  - lab/process/k2236-raw-observation-closure.json
+  - lab/process/k2237-computable-causal-witness.json
+  - lab/process/k2238-finite-clock-thermal-circuit.json
   - explorations/conditional-build/k2233-degree-dependent-raw-pairing-2026-10-29.md
   - explorations/conditional-build/k2234-causal-detector-error-bound-2026-10-29.md
   - explorations/conditional-build/k2235-microscopic-thermal-renewal-2026-10-29.md
@@ -19118,7 +19137,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Which explicit causal apparatus after communication time, finite clock/entropy-export
+  Which source-compatible constrained observation or changed raw principal/action can
+  retain actual observed data with positive dynamics, and which causal
+  after-communication detector or finite battery/extraction mechanism can supply the
+  remaining apparatus interfaces?
+  Historical predecessor (not live): Which explicit causal apparatus after communication time, finite clock/entropy-export
   model, or changed raw action/observation bridge can meet its shared operational
   constraints without silently importing the missing resource?
   Historical predecessor (not live): Can a genuinely local causal auxiliary-field interaction implement the same complete
@@ -23133,7 +23156,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Do not repeat smooth degree-dependent pairings inside the now-classified mass/flavor
+  Do not repeat the fixed-plane minimal-quotient theorem, computable squeezed-detector
+  witnesses or finite resonant clock compilation. The source-facing contender is an
+  actual constrained/moving geometric observation with its own original returns and
+  action/domain bridge; the full raw pullback refinement cannot inherit V positivity.
+  The apparatus contender is a spatially causal after-communication realization of the
+  same complete detector, or an explicit battery and endpoint extraction/reset model for
+  non-energy-preserving gap operations. The finite clock only removes internal switching
+  for energy-preserving renewal and still consumes fresh Gibbs stock. Broader contrast
+  and real all-ten-row adapter work remain alternatives needing new simultaneous bounds
+  or a genuine reconstructed pencil. Preserve source/full16cells/full20/K-C,
+  native2+1/chirality, physical quotient, mirrors/fullII/normaljets, scalar/thermal
+  optima, restricted cosmology and exact wings.
+  Historical predecessor (not live): Do not repeat smooth degree-dependent pairings inside the now-classified mass/flavor
   raw class, arbitrarily fast causal replacement of the same parity-preserving
   collective detector, or fresh-qubit thermal collision dilation. K2233 distinguishes
   absent raw Green forms from positive reduced dynamics; a source-facing continuation

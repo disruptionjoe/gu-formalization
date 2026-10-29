@@ -1,0 +1,16 @@
+{
+  "result_id": "K2238",
+  "exact_controls": 229,
+  "detected_faults": [
+    "clock_weight",
+    "positive_shift",
+    "gate_orientation",
+    "unequal_gap"
+  ],
+  "dependency_sha256": {
+    "explorations/conditional-build/k2238-finite-clock-thermal-circuit-2026-10-29.md": "67ce671725c49ca8688fe397a15be055eac6800bd4f78302e35c57b65b3c20c1",
+    "explorations/conditional-build/k2235-microscopic-thermal-renewal-2026-10-29.md": "296ac88a81c55a8d951c49bd131ebf93a65f42e9870bb1f4e95da3fcb6f3d355"
+  },
+  "probe_sha256": "1cf36e13fc2a611c216498c08d2766b1440fbc7573ed63ce9adcd206ef7f66d6",
+  "evidence_kinds": "Finite exact spin recurrence, gate/energy and complete one-bank operator-basis controls; rational timing/resource arithmetic; universal written arbitrary-M/reference and analytic no-plateau proofs separate."
+}

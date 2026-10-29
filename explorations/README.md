@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2236-raw-observation-closure-2026-10-29](conditional-build/k2236-raw-observation-closure-2026-10-29.md).
+- [k2237-computable-causal-witness-2026-10-29](conditional-build/k2237-computable-causal-witness-2026-10-29.md).
+- [k2238-finite-clock-thermal-circuit-2026-10-29](conditional-build/k2238-finite-clock-thermal-circuit-2026-10-29.md).
+
+
 - [k2233-degree-dependent-raw-pairing-2026-10-29](conditional-build/k2233-degree-dependent-raw-pairing-2026-10-29.md).
 - [k2234-causal-detector-error-bound-2026-10-29](conditional-build/k2234-causal-detector-error-bound-2026-10-29.md).
 - [k2235-microscopic-thermal-renewal-2026-10-29](conditional-build/k2235-microscopic-thermal-renewal-2026-10-29.md).

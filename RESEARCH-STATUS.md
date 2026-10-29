@@ -6,6 +6,27 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2236--K2238: Conditional research results (2026-10-29)
+
+K2236 proves that ordinary fixed-plane pullback kills the supplied positive V1152 sector and needs a minimum rank768 pointwise refinement for closed first-order dynamics. That quotient retains the known Jordan defect, has no positive local symmetrizer, and inherits no nonzero raw Green form when mass is nowhere zero; a massless one-dimensional consumer has exactly one derivative of Fourier growth. K2237 constructs explicit continuum finite-energy causal-error witnesses for supplied unequal-squeeze detectors: coefficients2209/96921600 and81/328454144 times min(1,800E/(17m)), the latter resolving an exact first-moment blindspot. K2238 constructs a positive finite time-independent clock for resonant thermal renewal, with exact endpoint, reference-uniform padded timing window and explicit bandwidth/fresh-stock costs. A separate finite analytic theorem excludes an exact nonidentity channel plateau. Source assertions, ledger0.263 and physical mapping grades remain unchanged.
+
+- [K2236](explorations/conditional-build/k2236-raw-observation-closure-2026-10-29.md).
+- [K2237](explorations/conditional-build/k2237-computable-causal-witness-2026-10-29.md).
+- [K2238](explorations/conditional-build/k2238-finite-clock-thermal-circuit-2026-10-29.md).
+
+Three read-only internal specialists developed distinct candidates and independently cross-reviewed different actual proofs. Final serialized probes pass58+17+229=304 finite exact algebra/arithmetic and reporting controls and reject18 genuine mathematical-input faults. Universal kernel/minimality/Fourier, continuum Gaussian/causal-error, arbitrary-reference clock and analytic no-plateau arguments are written proofs, distinguished from finite checks and reused dependencies. Misleading draft Boolean/predicate mutations were removed before acceptance. No heavy build, Lean, external-expert, proof-assistant, novelty or remote-CI certification is claimed.
+
+| Claim | Prior status | Current status | Weakest dependency / ceiling |
+|---|---|---|---|
+| K2236 fixed-plane observation refinement | open bridge | conditional rank768 closure and current/Green boundary | supplied raw contraction and fixed observed plane; no physical quotient |
+| K2237 computable continuum witnesses | existential bound only | two explicit bounded finite-energy witnesses | supplied scalar instrument and operational causal premise; no optimal detector or apparatus |
+| K2238 finite clock renewal | external collision timing | conditional finite autonomous endpoint and padded readout window | engineered clock, equal gaps, independent fresh stock; no battery or permanent halt |
+
+Existing source, ledger, canon and prior claim statuses are preserved. Current pointers below supersede historical lead paragraphs without deleting them.
+
+Earlier sections are historical.
+
+
 ## K2233--K2235: Conditional research results (2026-10-29)
 
 K2233 classifies every smooth full raw Green pairing in the supplied observed-four mass/flavor class: nonzero effective curvature excludes all such forms on the connected domain; flat coefficients admit transported singular pairings with exact period condition. A curved positive unitary sector and reducing observation survive, so this is not a physical-positivity exclusion. K2234 classifies non-signalling same-oscillator channels as displacement noise and proves every nontrivial number-effect/squeeze detector has a positive finite-energy error floor before communication time; its continuum bound is existential and its 144/625 two-site example is separate. K2235 derives the thermal renewal channel from finite resonant collisions, counts fresh ancillas and heat/entropy, and shows finite cyclic entropy sinks cannot erase indefinitely. Source claims, ledger 0.263 and physical mapping grades remain unchanged.

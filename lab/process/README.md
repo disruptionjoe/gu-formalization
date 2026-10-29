@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2236-raw-observation-closure](k2236-raw-observation-closure.json).
+- [k2237-computable-causal-witness](k2237-computable-causal-witness.json).
+- [k2238-finite-clock-thermal-circuit](k2238-finite-clock-thermal-circuit.json).
+
+
 - [k2233-degree-dependent-raw-pairing](k2233-degree-dependent-raw-pairing.json).
 - [k2234-causal-detector-error-bound](k2234-causal-detector-error-bound.json).
 - [k2235-microscopic-thermal-renewal](k2235-microscopic-thermal-renewal.json).
