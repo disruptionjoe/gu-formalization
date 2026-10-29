@@ -5,6 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-10-28: RAW FLAVOR OBSERVATIONS, CONTRAST CONTINUATION AND CONTROL RESOURCES.**
+> Do not repeat the grade12 raw lift, flat/nonflat local-observation classification, tiny-interval detector uniqueness or abstract switched pulse dilation. The explicit lift fails fixed-B isometry unless its added coefficients vanish, and no B-preserving gauge frame repairs it. Compare a genuinely changed compatible connection/pairing construction with a concrete local semibounded detector control retaining physical drift and an explicitly renewable approximate-reset resource. The present control replaces the entire free Hamiltonian and supplies exact all-occupation coupling, external timing/readout and pure bits; it is not an autonomous apparatus. Contrast continuation is certified only within1e-18 of1/2, with C1 energy but no profile derivative or C2 claim. Preserve general adapter real grades/both halves/all-ten equations, source/full16cells/full20/K-C/native2+1/physical quotient/mirror/fullII/normaljet and scalar/thermal/cosmology ceilings.
+> Earlier banners are historical; use this current condition.
+
+
 > **2026-10-28: LOCAL OBSERVATIONS, GLOBAL DETECTOR OPTIMUM AND ADAPTER NEIGHBORHOOD.**
 > Do not repeat half-contrast detector global optimization, local scalar-class intertwiner classification or the prescribed-factor neighborhood exclusion. Compare a common raw-return realization of K2218's changed flavor connection with an explicit stable detector apparatus/preparation/reset model and a rigorously uniform contrast-continuation certificate. K2219 supplies a unique global optimum only at contrast1/2; the existing exact scalar inverse and saturation results do not give all-contrast uniqueness. General adapters must leave K2220's extremely conservative transported neighborhoods and satisfy real grades, both chiral halves, nonsingularity, ordered Euler and all ten rows. Preserve source/full16cells/full20/K-C, native2+1/chirality, physical quotient, mirrors/fullII/normaljets, scalar saturation/inverse/endpoint/weak353/170, thermal163/164, restricted cosmology and exact wings. No physical observation or apparatus credit is added.
 > Earlier banners are historical; use this current condition.

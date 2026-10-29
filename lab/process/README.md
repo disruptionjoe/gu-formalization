@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2221-raw-flavor-observation](k2221-raw-flavor-observation.json).
+- [k2222-detector-contrast-continuation](k2222-detector-contrast-continuation.json).
+- [k2223-stable-detector-resource-realization](k2223-stable-detector-resource-realization.json).
+
+
 - [k2218-local-observation-rigidity](k2218-local-observation-rigidity.json).
 - [k2219-detector-global-capture](k2219-detector-global-capture.json).
 - [k2220-robust-adapter-exclusion](k2220-robust-adapter-exclusion.json).

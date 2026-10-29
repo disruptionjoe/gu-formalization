@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 97e04fc624b9e01d3d321fda6facd5658999c091
+revision_basis: ac290d2be1dadcd6f6b56c14dde35d8fa3e1f970
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,7 +118,22 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
-    K2218 completely classifies bounded measurable local intertwiners of the variable
+    K2221 constructs an explicit grade12 common raw coefficient that supports
+    nonconstant local observations while preserving the supplied V1152 sector, original
+    returns, positive current and every normal trace-Hq identity. Flat effective
+    connections admit transported projectors; nonzero effective curvature forces
+    constant commuting observations. Nonzero added coefficients are excluded by the
+    original fixed-B isometry connection condition, with no repair by B-preserving
+    frames; combined trace-Hq compatibility does not supply source selection. K2222
+    certifies one unique global infinite detector minimizer for every contrast in
+    [1/2-1e-18,1/2+1e-18], with continuous optimizers and C1 optimum energy whose
+    derivative is the contrast multiplier. K2223 realizes the same detector with
+    explicitly supplied semibounded whole-field Hamiltonian switches; net mean switching
+    work equals E_star, while absolute mean exchanges lie between2.34055 and2.34093.
+    Reset consumes pure-bit resources; a fixed finite faithful bath has a sharp positive
+    reset error. Source assertions, ledger0.263 and physics mapping grades remain
+    unchanged.
+    Historical predecessor (not live): K2218 completely classifies bounded measurable local intertwiners of the variable
     common-return positive sector: all are constant; nonzero mass on positive measure
     reduces them to Mat288(C), or Mat288(R) for real maps. Exact leakage coercivity and
     two-sided spectral unboundedness exclude local positive-energy selection, while a
@@ -17370,6 +17385,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2221-raw-flavor-observation-2026-10-28.md
+  - explorations/conditional-build/k2222-detector-contrast-continuation-2026-10-28.md
+  - explorations/conditional-build/k2223-stable-detector-resource-realization-2026-10-28.md
+  - lab/process/k2221-raw-flavor-observation.json
+  - lab/process/k2222-detector-contrast-continuation.json
+  - lab/process/k2223-stable-detector-resource-realization.json
   - explorations/conditional-build/k2218-local-observation-rigidity-2026-10-28.md
   - explorations/conditional-build/k2219-detector-global-capture-2026-10-28.md
   - explorations/conditional-build/k2220-robust-adapter-exclusion-2026-10-28.md
@@ -19020,7 +19041,14 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can the nonconstant flavor observation escape be realized by one shared raw-return
+  Can a changed connection/pairing construction retain the grade12 common-return
+  observation while meeting source-owned geometric/action requirements, can the
+  detector's explicitly supplied whole-field switches and pure reset bit be replaced by
+  local semibounded controls with priced timing and reservoir renewal, and can its
+  rigorously unique contrast branch be extended substantially beyond the certified tiny
+  interval? General real nonsingular adapters outside the excluded neighborhoods remain
+  open.
+  Historical predecessor (not live): Can the nonconstant flavor observation escape be realized by one shared raw-return
   coefficient and typed source observation, can the now-globally unique half-contrast
   detector be realized with a stable shared apparatus/resource account or extended to a
   genuine contrast interval, and can a real nonsingular adapter outside the certified
@@ -23012,7 +23040,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Do not repeat half-contrast detector global optimization, local scalar-class
+  Do not repeat the grade12 raw lift, flat/nonflat local-observation classification,
+  tiny-interval detector uniqueness or abstract switched pulse dilation. The explicit
+  lift fails fixed-B isometry unless its added coefficients vanish, and no B-preserving
+  gauge frame repairs it. Compare a genuinely changed compatible connection/pairing
+  construction with a concrete local semibounded detector control retaining physical
+  drift and an explicitly renewable approximate-reset resource. The present control
+  replaces the entire free Hamiltonian and supplies exact all-occupation coupling,
+  external timing/readout and pure bits; it is not an autonomous apparatus. Contrast
+  continuation is certified only within1e-18 of1/2, with C1 energy but no profile
+  derivative or C2 claim. Preserve general adapter real grades/both halves/all-ten
+  equations, source/full16cells/full20/K-C/native2+1/physical
+  quotient/mirror/fullII/normaljet and scalar/thermal/cosmology ceilings.
+  Historical predecessor (not live): Do not repeat half-contrast detector global optimization, local scalar-class
   intertwiner classification or the prescribed-factor neighborhood exclusion. Compare a
   common raw-return realization of K2218's changed flavor connection with an explicit
   stable detector apparatus/preparation/reset model and a rigorously uniform

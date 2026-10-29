@@ -6,6 +6,25 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2221--K2223: Conditional research results (2026-10-28)
+
+K2221 constructs an explicit grade12 common raw coefficient that supports nonconstant local observations while preserving the supplied V1152 sector, original returns, positive current and every normal trace-Hq identity. Flat effective connections admit transported projectors; nonzero effective curvature forces constant commuting observations. Nonzero added coefficients are excluded by the original fixed-B isometry connection condition, with no repair by B-preserving frames; combined trace-Hq compatibility does not supply source selection. K2222 certifies one unique global infinite detector minimizer for every contrast in [1/2-1e-18,1/2+1e-18], with continuous optimizers and C1 optimum energy whose derivative is the contrast multiplier. K2223 realizes the same detector with explicitly supplied semibounded whole-field Hamiltonian switches; net mean switching work equals E_star, while absolute mean exchanges lie between2.34055 and2.34093. Reset consumes pure-bit resources; a fixed finite faithful bath has a sharp positive reset error. Source assertions, ledger0.263 and physics mapping grades remain unchanged.
+
+- [K2221](explorations/conditional-build/k2221-raw-flavor-observation-2026-10-28.md).
+- [K2222](explorations/conditional-build/k2222-detector-contrast-continuation-2026-10-28.md).
+- [K2223](explorations/conditional-build/k2223-stable-detector-resource-realization-2026-10-28.md).
+
+Independent read-only specialists reviewed the actual artifacts and cross-reviewed the operator and detector arguments. Fresh serialized checks pass649 original-row/Clifford controls,17 contrast controls with221 uniform exterior leaves and fresh infinite-tail Schur margin>0.38737, and28 apparatus/resource controls plus an exact true-optimum switching-work enclosure. Fourteen genuine fault families are rejected. Universal written proofs, exact finite controls, new interval certificates and reused predecessor existence/input banks are distinguished. No heavy/Lean, proof-assistant, external-expert, novelty or remote-CI certification.
+
+| Result | Closed condition | Remaining ceiling |
+| --- | --- | --- |
+| K2221 | Explicit trace-compatible raw lift; parallel observation classification; fixed-B parent exclusion | Enlarged coefficient class, no source action or physical observation |
+| K2222 | Unique global minimizer on a nonzero contrast interval; continuous branch and C1 energy | Radius1e-18 only; no profile derivative or all-contrast result |
+| K2223 | Semibounded supplied pulse realization; signed/absolute work and sharp finite-bath reset error | Whole-field switching, external timing/readout and purity resources supplied |
+
+Earlier sections are historical.
+
+
 ## K2218--K2220: Conditional research results (2026-10-28)
 
 K2218 completely classifies bounded measurable local intertwiners of the variable common-return positive sector: all are constant; nonzero mass on positive measure reduces them to Mat288(C), or Mat288(R) for real maps. Exact leakage coercivity and two-sided spectral unboundedness exclude local positive-energy selection, while a changed flavor connection supplies a nonconstant escape. K2219 proves the supplied infinite half-contrast detector has one unique global minimizer: a new radius2e-7 stationary-capture basin, full-tail Schur margin>1/3 and complete221-leaf exterior certificate identify K2210's existing candidate globally, with exact energy bracket width<2.5e-27. K2220 excludes an explicit positive-radius factor neighborhood beyond the known adapter Spin orbit using the actual119 minor and ordered Euler residual; the conservative radius is roughly10^-2175, not a practical global search bound. Source assertions, ledger0.263 and physical mapping grades remain unchanged.

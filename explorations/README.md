@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2221-raw-flavor-observation-2026-10-28](conditional-build/k2221-raw-flavor-observation-2026-10-28.md).
+- [k2222-detector-contrast-continuation-2026-10-28](conditional-build/k2222-detector-contrast-continuation-2026-10-28.md).
+- [k2223-stable-detector-resource-realization-2026-10-28](conditional-build/k2223-stable-detector-resource-realization-2026-10-28.md).
+
+
 - [k2218-local-observation-rigidity-2026-10-28](conditional-build/k2218-local-observation-rigidity-2026-10-28.md).
 - [k2219-detector-global-capture-2026-10-28](conditional-build/k2219-detector-global-capture-2026-10-28.md).
 - [k2220-robust-adapter-exclusion-2026-10-28](conditional-build/k2220-robust-adapter-exclusion-2026-10-28.md).

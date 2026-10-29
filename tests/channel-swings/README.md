@@ -1,4 +1,9 @@
 
+- [k2221_raw_flavor_observation_probe](k2221_raw_flavor_observation_probe.py).
+- [k2222_detector_contrast_continuation_probe](k2222_detector_contrast_continuation_probe.py).
+- [k2223_stable_detector_resource_realization_probe](k2223_stable_detector_resource_realization_probe.py).
+
+
 - [k2218_local_observation_rigidity_probe](k2218_local_observation_rigidity_probe.py).
 - [k2219_detector_global_capture_probe](k2219_detector_global_capture_probe.py).
 - [k2220_robust_adapter_exclusion_probe](k2220_robust_adapter_exclusion_probe.py).
