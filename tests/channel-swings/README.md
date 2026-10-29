@@ -1,4 +1,9 @@
 
+- [k2218_local_observation_rigidity_probe](k2218_local_observation_rigidity_probe.py).
+- [k2219_detector_global_capture_probe](k2219_detector_global_capture_probe.py).
+- [k2220_robust_adapter_exclusion_probe](k2220_robust_adapter_exclusion_probe.py).
+
+
 - [k2215_variable_mass_gap_probe](k2215_variable_mass_gap_probe.py).
 - [k2216_detector_exterior_certificate_probe](k2216_detector_exterior_certificate_probe.py).
 - [k2217_spin_orbit_adapter_exclusion_probe](k2217_spin_orbit_adapter_exclusion_probe.py).

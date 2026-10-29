@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2218-local-observation-rigidity-2026-10-28](conditional-build/k2218-local-observation-rigidity-2026-10-28.md).
+- [k2219-detector-global-capture-2026-10-28](conditional-build/k2219-detector-global-capture-2026-10-28.md).
+- [k2220-robust-adapter-exclusion-2026-10-28](conditional-build/k2220-robust-adapter-exclusion-2026-10-28.md).
+
+
 - [k2215-variable-mass-gap-2026-10-28](conditional-build/k2215-variable-mass-gap-2026-10-28.md).
 - [k2216-detector-exterior-certificate-2026-10-28](conditional-build/k2216-detector-exterior-certificate-2026-10-28.md).
 - [k2217-spin-orbit-adapter-exclusion-2026-10-28](conditional-build/k2217-spin-orbit-adapter-exclusion-2026-10-28.md).

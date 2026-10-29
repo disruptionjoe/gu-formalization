@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2218-local-observation-rigidity](k2218-local-observation-rigidity.json).
+- [k2219-detector-global-capture](k2219-detector-global-capture.json).
+- [k2220-robust-adapter-exclusion](k2220-robust-adapter-exclusion.json).
+
+
 - [k2215-variable-mass-gap](k2215-variable-mass-gap.json).
 - [k2216-detector-exterior-certificate](k2216-detector-exterior-certificate.json).
 - [k2217-spin-orbit-adapter-exclusion](k2217-spin-orbit-adapter-exclusion.json).

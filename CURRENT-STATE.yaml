@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 20a6fe75c78e8e0bc6d91076d17445f7b68e821a
+revision_basis: 97e04fc624b9e01d3d321fda6facd5658999c091
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,7 +118,19 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
-    K2215 proves a derivative-free global resolvent gap for bounded real variable
+    K2218 completely classifies bounded measurable local intertwiners of the variable
+    common-return positive sector: all are constant; nonzero mass on positive measure
+    reduces them to Mat288(C), or Mat288(R) for real maps. Exact leakage coercivity and
+    two-sided spectral unboundedness exclude local positive-energy selection, while a
+    changed flavor connection supplies a nonconstant escape. K2219 proves the supplied
+    infinite half-contrast detector has one unique global minimizer: a new radius2e-7
+    stationary-capture basin, full-tail Schur margin>1/3 and complete221-leaf exterior
+    certificate identify K2210's existing candidate globally, with exact energy bracket
+    width<2.5e-27. K2220 excludes an explicit positive-radius factor neighborhood beyond
+    the known adapter Spin orbit using the actual119 minor and ordered Euler residual;
+    the conservative radius is roughly10^-2175, not a practical global search bound.
+    Source assertions, ledger0.263 and physical mapping grades remain unchanged.
+    Historical predecessor (not live): K2215 proves a derivative-free global resolvent gap for bounded real variable
     coefficients in the supplied common-return positive sector, with correlated
     pointwise mass/bound condition, static moving-frame transport and an exact
     frozen-symbol/global-gap counterexample. K2216 localizes every global half-contrast
@@ -17358,6 +17370,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2218-local-observation-rigidity-2026-10-28.md
+  - explorations/conditional-build/k2219-detector-global-capture-2026-10-28.md
+  - explorations/conditional-build/k2220-robust-adapter-exclusion-2026-10-28.md
+  - lab/process/k2218-local-observation-rigidity.json
+  - lab/process/k2219-detector-global-capture.json
+  - lab/process/k2220-robust-adapter-exclusion.json
   - explorations/conditional-build/k2215-variable-mass-gap-2026-10-28.md
   - explorations/conditional-build/k2216-detector-exterior-certificate-2026-10-28.md
   - explorations/conditional-build/k2217-spin-orbit-adapter-exclusion-2026-10-28.md
@@ -19002,7 +19020,12 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can the supplied positive common-return sector support a source-owned moving operator
+  Can the nonconstant flavor observation escape be realized by one shared raw-return
+  coefficient and typed source observation, can the now-globally unique half-contrast
+  detector be realized with a stable shared apparatus/resource account or extended to a
+  genuine contrast interval, and can a real nonsingular adapter outside the certified
+  neighborhoods satisfy all ten original equations?
+  Historical predecessor (not live): Can the supplied positive common-return sector support a source-owned moving operator
   and observation, can the retained detector exterior regions be rigorously separated
   from its unique local optimum, and can any genuinely different real nonsingular
   adapter satisfy all ten original equations?
@@ -22989,7 +23012,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Do not repeat fixed-sign derivative-free gap, static transport, the K1967 wall
+  Do not repeat half-contrast detector global optimization, local scalar-class
+  intertwiner classification or the prescribed-factor neighborhood exclusion. Compare a
+  common raw-return realization of K2218's changed flavor connection with an explicit
+  stable detector apparatus/preparation/reset model and a rigorously uniform
+  contrast-continuation certificate. K2219 supplies a unique global optimum only at
+  contrast1/2; the existing exact scalar inverse and saturation results do not give
+  all-contrast uniqueness. General adapters must leave K2220's extremely conservative
+  transported neighborhoods and satisfy real grades, both chiral halves, nonsingularity,
+  ordered Euler and all ten rows. Preserve source/full16cells/full20/K-C,
+  native2+1/chirality, physical quotient, mirrors/fullII/normaljets, scalar
+  saturation/inverse/endpoint/weak353/170, thermal163/164, restricted cosmology and
+  exact wings. No physical observation or apparatus credit is added.
+  Historical predecessor (not live): Do not repeat fixed-sign derivative-free gap, static transport, the K1967 wall
   mechanism, the exact Y0 Spin orbit or global squeeze localization. Compare a complete
   detector exterior certificate on the23 retained regions (new valid dual inputs or a
   freshly certified larger uniqueness basin) with a source-owned moving

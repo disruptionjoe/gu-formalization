@@ -5,6 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-10-28: LOCAL OBSERVATIONS, GLOBAL DETECTOR OPTIMUM AND ADAPTER NEIGHBORHOOD.**
+> Do not repeat half-contrast detector global optimization, local scalar-class intertwiner classification or the prescribed-factor neighborhood exclusion. Compare a common raw-return realization of K2218's changed flavor connection with an explicit stable detector apparatus/preparation/reset model and a rigorously uniform contrast-continuation certificate. K2219 supplies a unique global optimum only at contrast1/2; the existing exact scalar inverse and saturation results do not give all-contrast uniqueness. General adapters must leave K2220's extremely conservative transported neighborhoods and satisfy real grades, both chiral halves, nonsingularity, ordered Euler and all ten rows. Preserve source/full16cells/full20/K-C, native2+1/chirality, physical quotient, mirrors/fullII/normaljets, scalar saturation/inverse/endpoint/weak353/170, thermal163/164, restricted cosmology and exact wings. No physical observation or apparatus credit is added.
+> Earlier banners are historical; use this current condition.
+
+
 > **2026-10-28: VARIABLE GAP, DETECTOR EXTERIOR AND ADAPTER ORBIT.**
 > Do not repeat fixed-sign derivative-free gap, static transport, the K1967 wall mechanism, the exact Y0 Spin orbit or global squeeze localization. Compare a complete detector exterior certificate on the23 retained regions (new valid dual inputs or a freshly certified larger uniqueness basin) with a source-owned moving operator/action/observation construction; frozen pointwise mass gaps are insufficient and a static field re-expression does not select the source model. Adapter candidates must leave the excluded Spin orbit and satisfy real grades, both chiral halves, nonsingularity, ordered Euler and all ten original rows. Preserve scalar saturation/inverse/endpoint/weak353/170/half bracket, thermal163/164, restricted cosmology, native2+1/chirality, source/full16cell/full20/K-C, physical quotient, mirrors/fullII/normaljets and exact wings. Stable apparatus/preparation/reset remains separate.
 > Earlier banners are historical; use this current condition.

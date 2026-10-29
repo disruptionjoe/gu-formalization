@@ -1,0 +1,88 @@
+{
+  "result_id": "K2218",
+  "status": "conditional_complete_local_intertwiner_classification",
+  "checks": {
+    "mass_involution": true,
+    "real_generator": true,
+    "spatial_0": true,
+    "mass_anticommute_0": true,
+    "volume_commutes_0": true,
+    "spatial_1": true,
+    "mass_anticommute_1": true,
+    "volume_commutes_1": true,
+    "spatial_2": true,
+    "mass_anticommute_2": true,
+    "volume_commutes_2": true,
+    "clifford_1_0": true,
+    "clifford_2_0": true,
+    "clifford_2_1": true,
+    "real_full_matrix_algebra": true,
+    "character_0_0": true,
+    "character_0_1": true,
+    "character_0_2": true,
+    "character_1_0": true,
+    "character_1_1": true,
+    "character_1_2": true,
+    "character_2_0": true,
+    "character_2_1": true,
+    "character_2_2": true,
+    "character_3_0": true,
+    "character_3_1": true,
+    "character_3_2": true,
+    "orthogonal_residual_identity": true,
+    "commutant_distance": true,
+    "coercivity": true,
+    "massless_half_projector": true,
+    "massive_half_leaks": true,
+    "expectation_not_projector": true,
+    "mass_projector_principal_leaks": true,
+    "nonconstant_projector": true,
+    "connection_hermitian": true,
+    "transported_intertwining": true,
+    "omitted_connection_fails": true,
+    "actual_volume": true,
+    "faithful_massless2048": true,
+    "faithful_massive1024": true,
+    "all_nine_copy_mixing": true
+  },
+  "fault_failures": {
+    "principal": [
+      "volume_commutes_1",
+      "volume_commutes_2",
+      "clifford_2_1",
+      "real_full_matrix_algebra",
+      "character_0_1",
+      "character_0_2",
+      "character_1_1",
+      "character_1_2",
+      "character_2_1",
+      "character_2_2",
+      "character_3_1",
+      "character_3_2",
+      "orthogonal_residual_identity",
+      "massless_half_projector"
+    ],
+    "mass": [
+      "mass_anticommute_0",
+      "mass_anticommute_1",
+      "mass_anticommute_2",
+      "massive_half_leaks",
+      "expectation_not_projector",
+      "mass_projector_principal_leaks"
+    ],
+    "missing_derivative": [
+      "orthogonal_residual_identity"
+    ],
+    "connection_sign": [
+      "transported_intertwining"
+    ]
+  },
+  "dependency_sha256": {
+    "tests/channel-swings/k2212_mass_connection_algebra_probe.py": "c4f8fd73311201f2e0ee7a6c53ce23051e6d57dc8e7dceeedcac340bb6dfe59e",
+    "explorations/conditional-build/k2212-mass-connection-algebra-2026-10-28.md": "b8f9348b34d2f4e43e632cec931f994bf0911a4d775c11fbd002c5276520c151",
+    "explorations/conditional-build/k2215-variable-mass-gap-2026-10-28.md": "337c9342f1a1fd012b58aadbacf17d597c63dabc0027b5595238fa9ebcec8fdb",
+    "explorations/conditional-build/k2218-local-observation-rigidity-2026-10-28.md": "270325271931f8981d8902ff2964b29e1dd92d451e824118c7767ca47a6e4fce"
+  },
+  "probe_sha256": "010ecc74af4ae6eb77dda0f82be0d09225bd9d3ac77c9f60df10338498be1881",
+  "evidence_kinds": "Written distributional classification and oscillatory-energy proof; exact faithful Clifford census, independent small-matrix algebra and nonconstant flavor counterconstruction; no physical observation selection."
+}

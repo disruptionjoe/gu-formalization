@@ -5,6 +5,19 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2218--K2220: Local observations, global detector optimum and adapter neighborhood (2026-10-28)
+
+K2218 completely classifies bounded measurable local intertwiners of the variable common-return positive sector: all are constant; nonzero mass on positive measure reduces them to Mat288(C), or Mat288(R) for real maps. Exact leakage coercivity and two-sided spectral unboundedness exclude local positive-energy selection, while a changed flavor connection supplies a nonconstant escape. K2219 proves the supplied infinite half-contrast detector has one unique global minimizer: a new radius2e-7 stationary-capture basin, full-tail Schur margin>1/3 and complete221-leaf exterior certificate identify K2210's existing candidate globally, with exact energy bracket width<2.5e-27. K2220 excludes an explicit positive-radius factor neighborhood beyond the known adapter Spin orbit using the actual119 minor and ordered Euler residual; the conservative radius is roughly10^-2175, not a practical global search bound. Source assertions, ledger0.263 and physical mapping grades remain unchanged.
+
+- [K2218](explorations/conditional-build/k2218-local-observation-rigidity-2026-10-28.md).
+- [K2219](explorations/conditional-build/k2219-detector-global-capture-2026-10-28.md).
+- [K2220](explorations/conditional-build/k2220-robust-adapter-exclusion-2026-10-28.md).
+
+Three read-only internal specialists cross-reviewed the actual arguments and probes. Fresh serialized checks pass42 operator controls,4 detector coefficient/coverage controls plus221 exact exterior leaves and a fresh infinite-tail Schur certificate, and23 adapter controls; twelve genuine fault families are rejected. Universal distributional/convex-chord/perturbation proofs, finite exact arithmetic and inherited existence banks are distinct evidence kinds. The detector's31 numerical discovery seeds are used only as exact free positive dual inputs; reproduction requires no numerical optimizer. No heavy/Lean, proof-assistant, external-expert, novelty or remote-CI certification.
+
+Earlier sections preserve historical result snapshots; the current scope is above.
+
+
 ## K2215--K2217: Variable gap, detector exterior and adapter orbit (2026-10-28)
 
 K2215 proves a derivative-free global resolvent gap for bounded real variable coefficients in the supplied common-return positive sector, with correlated pointwise mass/bound condition, static moving-frame transport and an exact frozen-symbol/global-gap counterexample. K2216 localizes every global half-contrast detector minimizer to a smaller squeeze rectangle and certifies32 of55 clipped regions as containing no global minimizer;23 remain unresolved. K2217 excludes the entire45-dimensional genuine Spin orbit of the prescribed adapter and its46-dimensional scaled port family using full-real-fiber covariance and an exact stabilizer minor. Source assertions, ledger0.263 and physical mapping grades remain unchanged.
