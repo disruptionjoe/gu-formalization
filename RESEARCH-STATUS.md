@@ -6,6 +6,25 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2277--K2279: Conditional research results (2026-10-29)
+
+K2277 closes the one-bin free-slope escape for the entire expanding flat vacuum f(R)=R²/2, positive-F family on0<=z<=1: shared DESI DR2 distances give quadratic discrepancy>4.6408, and a declared projected discrepancy1/20 still separates squared-radius4. All initial data and common ruler scales are covered; nonzero coefficients and BAO transport remain separate. K2278 derives complex pump, dispersive-area and neutral-gate calibration bounds for the complete retained-pump instrument, with a supplied ten-call error<0.009791. K2279 proves pump-uniform actual field second moments<6300000 for a fixed fresh-register consumer; an expensive explicit precision example has joint error<1e-11 and field-number error<0.008, while ten fresh vacua consume12.8±0.004 pump quanta. A positive-compensator phase-error bound keeps signed and semibounded implementations distinct. Source claims, ledger0.263 and physical mappings are unchanged.
+
+- [K2277](explorations/conditional-build/k2277-multibin-pure-r2-test-2026-10-29.md).
+- [K2278](explorations/conditional-build/k2278-calibrated-pump-detector-2026-10-29.md).
+- [K2279](explorations/conditional-build/k2279-uniform-pump-energy-2026-10-29.md).
+
+Three read-only internal specialists independently derived and cross-reviewed the actual arguments and probe code. Final serialized probes pass288+102+38=428 finite exact source/covariance/integral-cell, operator/moment and resource-accounting controls and detect19 changed-input or formula faults. Source hashes authenticate immutable data;128 rational upper integral cells certify a continuous bound; finite shell and displaced-pump matrices check concrete transfer seams. Gate counts and numeric budgets are arithmetic, not independent universal operator proofs. Review corrected cosmology endpoint/typing/domain wording and replaced scalar sentinels and a checker-threshold mutation with actual operators, full constraint residuals and corrupted adjacency. Universal domain, Duhamel, Gronwall/Tonelli and adaptive-channel arguments remain written internally reviewed proofs, distinct from finite checks, empirical transport, hardware, Lean, external-expert, novelty and remote-CI certification.
+
+| claim | prior status | current status | weakest dependency | stale wording searched | files updated |
+|---|---|---|---|---|---|
+| K2274 one-bin slope escape | exact conditional survival | retained; shared multi-bin pure-R2 test now separates stated ellipsoid | BAO transport and fixed action class | current result/condition; historical evidence retained | current state, next steps, research status, verification |
+| K2276 implementation allowance | supplied unpriced coefficient-to-channel transfer | explicit K2278 calibration theorem for declared errors | actual physical calibration remains unsupplied | current frontier and apparatus successor | same current surfaces |
+| K2276 energetic limit | loose mu² bound, no uniform convergence | K2279 uniform field moment for fixed fresh-register consumer | exact coherent preparation, isolated logical registers, bounded pulse area | current frontier; old general scope preserved | same current surfaces |
+
+Earlier sections are historical.
+
+
 ## K2274--K2276: Conditional research results (2026-10-29)
 
 K2274 conditionally separates the unchanged K2271 fixed-initial-data family from released DESI DR2 LRG2 distances with quadratic discrepancy>23.15111914, then proves that varying one initial slope gives a unique exact fit to the same pair. K2275 improves full-detector reference costs using mean-weighted translations: coherent occupation10^22, finite supplied pump return error<0.009904, and a coherent-to-sine preparation obstruction. K2276 replaces universal shell synthesis under a new weighted-charge trilinear/neutral alphabet: ten-call complete error<0.009957 with second-moment inputs and pump10^10, or<0.008224 on the original mean-only class with pump10^18. Explicit core operation counts, fresh-register consumer and both output moments retain their assumptions. Source claims, ledger0.263 and physical mappings are unchanged.

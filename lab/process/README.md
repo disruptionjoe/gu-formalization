@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2277-multibin-pure-r2-test](k2277-multibin-pure-r2-test.json).
+- [k2278-calibrated-pump-detector](k2278-calibrated-pump-detector.json).
+- [k2279-uniform-pump-energy](k2279-uniform-pump-energy.json).
+
+
 - [k2274-desi-fixed-family-test](k2274-desi-fixed-family-test.json).
 - [k2275-mean-reference-finite-source](k2275-mean-reference-finite-source.json).
 - [k2276-structured-detector-implementation](k2276-structured-detector-implementation.json).

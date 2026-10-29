@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2277-multibin-pure-r2-test-2026-10-29](conditional-build/k2277-multibin-pure-r2-test-2026-10-29.md).
+- [k2278-calibrated-pump-detector-2026-10-29](conditional-build/k2278-calibrated-pump-detector-2026-10-29.md).
+- [k2279-uniform-pump-energy-2026-10-29](conditional-build/k2279-uniform-pump-energy-2026-10-29.md).
+
+
 - [k2274-desi-fixed-family-test-2026-10-29](conditional-build/k2274-desi-fixed-family-test-2026-10-29.md).
 - [k2275-mean-reference-finite-source-2026-10-29](conditional-build/k2275-mean-reference-finite-source-2026-10-29.md).
 - [k2276-structured-detector-implementation-2026-10-29](conditional-build/k2276-structured-detector-implementation-2026-10-29.md).

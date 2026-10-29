@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K2279",
+  "claim_ceiling": "conditional supplied model; no source or canon verdict",
+  "evidence_kind": "finite exact algebra/matrix and resource-accounting checks; universal statements are written proofs",
+  "checks": 38,
+  "check_names": [
+    "actual charge shell 1",
+    "actual commutator squared bound shell 1",
+    "actual row and column degree shell 1",
+    "actual charge shell 2",
+    "actual commutator squared bound shell 2",
+    "actual row and column degree shell 2",
+    "actual charge shell 3",
+    "actual commutator squared bound shell 3",
+    "actual row and column degree shell 3",
+    "actual charge shell 4",
+    "actual commutator squared bound shell 4",
+    "actual row and column degree shell 4",
+    "actual charge shell 5",
+    "actual commutator squared bound shell 5",
+    "actual row and column degree shell 5",
+    "actual charge shell 6",
+    "actual commutator squared bound shell 6",
+    "actual row and column degree shell 6",
+    "actual charge shell 7",
+    "actual commutator squared bound shell 7",
+    "actual row and column degree shell 7",
+    "actual charge shell 8",
+    "actual commutator squared bound shell 8",
+    "actual row and column degree shell 8",
+    "Poisson exponential positive domain",
+    "uniform exponent upper",
+    "exact exponential integer majorant",
+    "field moment limit",
+    "ideal moment smaller",
+    "weighted quadratic Poisson mean",
+    "complete expensive channel budget",
+    "neutral gates actually counted",
+    "field energy target",
+    "ten fresh vacua target energy",
+    "pump energy depletion factor two",
+    "trace-close preparation has huge actual moment",
+    "positive compensator phase variance",
+    "moment continuity equality"
+  ],
+  "faults_caught": {
+    "commutator_denominator": [
+      "actual commutator squared bound shell 2",
+      "actual commutator squared bound shell 3",
+      "actual commutator squared bound shell 4",
+      "actual commutator squared bound shell 5",
+      "actual commutator squared bound shell 6",
+      "actual commutator squared bound shell 7",
+      "actual commutator squared bound shell 8"
+    ],
+    "unweighted_shell": [
+      "actual charge shell 2",
+      "actual charge shell 3",
+      "actual charge shell 4",
+      "actual charge shell 5",
+      "actual charge shell 6",
+      "actual charge shell 7",
+      "actual charge shell 8"
+    ],
+    "row_degree": [
+      "actual row and column degree shell 4",
+      "actual row and column degree shell 5",
+      "actual row and column degree shell 6",
+      "actual row and column degree shell 7",
+      "actual row and column degree shell 8"
+    ],
+    "inflated_calibration": [
+      "complete expensive channel budget"
+    ],
+    "missing_neutral_cost": [
+      "neutral gates actually counted"
+    ]
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2278-calibrated-pump-detector-2026-10-29.md": "35b5a948060a163f8c2ac7b88ff5b3287fac09bfbf96df339761dbbfda2c770f",
+    "explorations/conditional-build/k2273-positive-control-energy-2026-10-29.md": "3cb6f0f3ef18ba9ed265ed02dee5d1bf68f164b83bd688687bc9f5e32158c95d",
+    "explorations/conditional-build/k2276-structured-detector-implementation-2026-10-29.md": "f42347ebd54ec28400d22467946280e8d2aef28b9ec22ddb5e3169b79f3d17ae",
+    "explorations/conditional-build/k2253-full-instrument-reference-reuse-2026-10-29.md": "2db4b83728046f3a40ab8c207c4a2014ff7a27752a792a1bd40bf657ad265749",
+    "explorations/conditional-build/k2279-uniform-pump-energy-2026-10-29.md": "fdeb785a6c15b230647da9722640f5105947c361d0ede27411e646f7070ff1da",
+    "tests/channel-swings/k2279_uniform_pump_energy_probe.py": "aea5a762548fe36256b113dd5729954f69ca21614bf4ef537ca80ddc5455a426"
+  },
+  "resource_accounting_checks": [
+    "field moment limit",
+    "complete expensive channel budget",
+    "neutral gates actually counted",
+    "field energy target",
+    "ten fresh vacua target energy",
+    "pump energy depletion factor two"
+  ]
+}

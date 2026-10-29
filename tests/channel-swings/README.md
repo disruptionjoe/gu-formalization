@@ -1,4 +1,9 @@
 
+- [k2277_multibin_pure_r2_test_probe](k2277_multibin_pure_r2_test_probe.py).
+- [k2278_calibrated_pump_detector_probe](k2278_calibrated_pump_detector_probe.py).
+- [k2279_uniform_pump_energy_probe](k2279_uniform_pump_energy_probe.py).
+
+
 - [k2274_desi_fixed_family_test_probe](k2274_desi_fixed_family_test_probe.py).
 - [k2275_mean_reference_finite_source_probe](k2275_mean_reference_finite_source_probe.py).
 - [k2276_structured_detector_implementation_probe](k2276_structured_detector_implementation_probe.py).

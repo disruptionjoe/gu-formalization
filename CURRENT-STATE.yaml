@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 69545cdaf021540f7ed2b255ca78f3e6efa51ccf
+revision_basis: 0823ca9a2ee930b0f087ffa1ba1a32576a2b166e
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,17 +118,18 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
-    K2274 conditionally separates the unchanged K2271 fixed-initial-data family from
-    released DESI DR2 LRG2 distances with quadratic discrepancy>23.15111914, then proves
-    that varying one initial slope gives a unique exact fit to the same pair. K2275
-    improves full-detector reference costs using mean-weighted translations: coherent
-    occupation10^22, finite supplied pump return error<0.009904, and a coherent-to-sine
-    preparation obstruction. K2276 replaces universal shell synthesis under a new
-    weighted-charge trilinear/neutral alphabet: ten-call complete error<0.009957 with
-    second-moment inputs and pump10^10, or<0.008224 on the original mean-only class with
-    pump10^18. Explicit core operation counts, fresh-register consumer and both output
-    moments retain their assumptions. Source claims, ledger0.263 and physical mappings
-    are unchanged.
+    K2277 closes the one-bin free-slope escape for the entire expanding flat vacuum
+    f(R)=R²/2, positive-F family on0<=z<=1: shared DESI DR2 distances give quadratic
+    discrepancy>4.6408, and a declared projected discrepancy1/20 still separates
+    squared-radius4. All initial data and common ruler scales are covered; nonzero
+    coefficients and BAO transport remain separate. K2278 derives complex pump,
+    dispersive-area and neutral-gate calibration bounds for the complete retained-pump
+    instrument, with a supplied ten-call error<0.009791. K2279 proves pump-uniform
+    actual field second moments<6300000 for a fixed fresh-register consumer; an
+    expensive explicit precision example has joint error<1e-11 and field-number
+    error<0.008, while ten fresh vacua consume12.8±0.004 pump quanta. A
+    positive-compensator phase-error bound keeps signed and semibounded implementations
+    distinct. Source claims, ledger0.263 and physical mappings are unchanged.
     Historical predecessor (not live): K2258 proves that every positive subspace with an equivalent L2 norm and selfadjoint evolution of
     the fixed raw constrained operator has stable Fourier support, without assuming a
     fibrewise metric or translation invariance. Consequently no nonzero smooth
@@ -17562,6 +17563,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2277-multibin-pure-r2-test-2026-10-29.md
+  - explorations/conditional-build/k2278-calibrated-pump-detector-2026-10-29.md
+  - explorations/conditional-build/k2279-uniform-pump-energy-2026-10-29.md
+  - lab/process/k2277-multibin-pure-r2-test.json
+  - lab/process/k2278-calibrated-pump-detector.json
+  - lab/process/k2279-uniform-pump-energy.json
   - explorations/conditional-build/k2274-desi-fixed-family-test-2026-10-29.md
   - explorations/conditional-build/k2275-mean-reference-finite-source-2026-10-29.md
   - explorations/conditional-build/k2276-structured-detector-implementation-2026-10-29.md
@@ -19324,9 +19331,9 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can an independently justified common cosmology domain survive multiple jointly valid
-  BAO distances, and can the specified trilinear/neutral detector primitives obtain a
-  calibrated physical source, timing and energetic error account?
+  Can the full shared nonzero-coefficient cosmology family pass a physically justified
+  multi-bin test, and can an actual pump/clock/phase implementation meet the now
+  explicit channel and field-energy tolerances at credible resource cost?
   Historical predecessor (not live): Can a source-owned global quotient or differential-constraint domain supply local
   observables and causal physical dynamics for the fixed raw candidate, and can the
   detector/reset apparatus renew its actual charged/coherent stock through a priced
@@ -23380,17 +23387,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Compare a shared physically justified cosmology initial-data/coefficient domain across
-  additional jointly valid radial/transverse bins, including the BAO/template transport
-  assumption; one-bin free-slope fitting earns no predictive credit. Strongest apparatus
-  alternative is a physically specified trilinear pump, clock/phase supply and
-  dispersive/neutral readout with calibrated implementation error and useful uniform
-  energy control. The new primitive and weighted charge are supplied, not derived from
-  the old pairwise alphabet or GU. Do not repeat fixed-IVP separation, abstract
-  controllability, mean-only cutoff interpolation or unpriced reference replenishment.
-  Source-owned matter/light response and physical local-readout cost remain alternatives
-  with actual inputs. Preserve native2+1/nonchiral,full16cells/full20/K-C,physical
-  quotient,mirrors/fullII/normaljets,scalar/thermal and cosmology ceilings.
+  Compare the genuinely shared nonzero-coefficient quadratic metric cosmology family
+  with jointly valid multi-bin observations and a justified domain/transport model; the
+  pure-R2 initial-slope escape is now constrained without choosing a slope prior.
+  Strongest apparatus alternative is an actual resonance/trilinear/clock/phase
+  preparation model with calibrated errors, including positive-compensator precision if
+  signed controls are replaced. Uniform field-energy convergence now holds for the
+  stated fresh-register consumer, not total pump energy or arbitrary
+  adaptive/trace-close-prepared inputs. Price the enormous stock and precision before
+  claiming an economical device. Source-owned matter/light and physical local-readout
+  cost remain alternatives requiring actual typed inputs. Do not repeat one-bin fitting,
+  pure-R2 slope scans, abstract controllability or infer energetic catalysis from trace
+  restoration; preserve native/source/scalar/thermal/cosmology ceilings.
   Historical predecessor (not live): Do not repeat local differential preparation into an equivalent positive raw subspace,
   fresh partial-collision donor renewal, or phase-blind charge replenishment bounds.
   K2258 leaves general differential constraint kernels and source-owned global quotients
