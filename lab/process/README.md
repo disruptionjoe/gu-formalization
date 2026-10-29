@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2239-moving-observation-closure](k2239-moving-observation-closure.json).
+- [k2240-finite-battery-gate](k2240-finite-battery-gate.json).
+- [k2241-local-mode-detector-network](k2241-local-mode-detector-network.json).
+
+
 - [k2236-raw-observation-closure](k2236-raw-observation-closure.json).
 - [k2237-computable-causal-witness](k2237-computable-causal-witness.json).
 - [k2238-finite-clock-thermal-circuit](k2238-finite-clock-thermal-circuit.json).

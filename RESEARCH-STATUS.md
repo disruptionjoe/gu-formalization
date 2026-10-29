@@ -6,6 +6,26 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2239--K2241: Conditional research results (2026-10-29)
+
+K2239 proves the maximal principal hidden space for literal graph pullback is V intersect ker Q_B, giving sharp rank768+rank(Q_B|V) and an unavoidable defective C sector for every unrestricted closed refinement. Moving graph jets require more than pointwise closure; an explicit rank1024 repair and a positive constrained rank128 graph observation distinguish the alternatives. K2240 constructs finite energy-conserving lifts of arbitrary fixed-gap qubit gates with reference-uniform joint error, exact finite-unitary obstruction and correlated reuse accounting. A sine packet improves the shift error to at most pi/(L+1); a633-level battery plus padded positive clock gives the two-gate consumer below1% complete error. K2241 explicitly collects arbitrary finite complex canonical modes using up to two active modes, constructs the complete recorded detector on an adjacent gate network, and proves graph latency, energy transport and finite spectral error. Its explicit collector has vacuum occupation881/144 versus the necessary first-mode625/144 in the exact complex fixture. Source assertions, ledger0.263 and physical mapping grades remain unchanged.
+
+- [K2239](explorations/conditional-build/k2239-moving-observation-closure-2026-10-29.md).
+- [K2240](explorations/conditional-build/k2240-finite-battery-gate-2026-10-29.md).
+- [K2241](explorations/conditional-build/k2241-local-mode-detector-network-2026-10-29.md).
+
+Three read-only internal specialists independently cross-reviewed different actual notes and probes. Root serialized109+362+33=504 exact rational/Clifford/complex algebra, finite channel and reporting controls and21 genuine mathematical-input faults; universal kernel, energy/reference, symplectic and causal arguments remain written proofs. Countercontrols retain a scalar dark line, constrained positive graph observation, dephased battery, correlated reuse, restricted one-squeeze failure and recorded-tail error. No heavy build, Lean, external-expert, proof-assistant, novelty, continuum apparatus or remote-CI certification.
+
+| Claim | Prior status | Current status | Boundary |
+|---|---|---|---|
+| K2239 literal graph closure | New question beyond horizontal K2236 | Internally reviewed conditional mathematics | Unchanged observed-four principal operator; supplied constraints only |
+| K2240 coherent battery gates | Noncommuting gate resource unsupplied by K2238 | Internally reviewed finite construction | Fixed qubit gap; no gap-ramp or renewable reservoir |
+| K2241 general complex-mode network | Real gather held; general direct controls nonlocal | Internally reviewed finite-network construction | Supplied local gates; no retained continuum drift |
+| Source/ledger/canon | Existing statuses | Unchanged | No physical or source-derived credit |
+
+Earlier sections are historical.
+
+
 ## K2236--K2238: Conditional research results (2026-10-29)
 
 K2236 proves that ordinary fixed-plane pullback kills the supplied positive V1152 sector and needs a minimum rank768 pointwise refinement for closed first-order dynamics. That quotient retains the known Jordan defect, has no positive local symmetrizer, and inherits no nonzero raw Green form when mass is nowhere zero; a massless one-dimensional consumer has exactly one derivative of Fourier growth. K2237 constructs explicit continuum finite-energy causal-error witnesses for supplied unequal-squeeze detectors: coefficients2209/96921600 and81/328454144 times min(1,800E/(17m)), the latter resolving an exact first-moment blindspot. K2238 constructs a positive finite time-independent clock for resonant thermal renewal, with exact endpoint, reference-uniform padded timing window and explicit bandwidth/fresh-stock costs. A separate finite analytic theorem excludes an exact nonidentity channel plateau. Source assertions, ledger0.263 and physical mapping grades remain unchanged.

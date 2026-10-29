@@ -1,4 +1,9 @@
 
+- [k2239_moving_observation_closure_probe](k2239_moving_observation_closure_probe.py).
+- [k2240_finite_battery_gate_probe](k2240_finite_battery_gate_probe.py).
+- [k2241_local_mode_detector_network_probe](k2241_local_mode_detector_network_probe.py).
+
+
 - [k2236_raw_observation_closure_probe](k2236_raw_observation_closure_probe.py).
 - [k2237_computable_causal_witness_probe](k2237_computable_causal_witness_probe.py).
 - [k2238_finite_clock_thermal_circuit_probe](k2238_finite_clock_thermal_circuit_probe.py).

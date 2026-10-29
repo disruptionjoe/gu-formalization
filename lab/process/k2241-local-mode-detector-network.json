@@ -1,0 +1,58 @@
+{
+  "result_id": "K2241",
+  "controls": 33,
+  "fault_families": 7,
+  "detected": {
+    "hermitian_m": [
+      "bilinear anomalous moment",
+      "symplectic vacuum eigenvalue",
+      "restricted one-squeeze impossible"
+    ],
+    "missing_conjugation": [
+      "desqueezing removes anomalous covariance",
+      "desqueezing recovers two physical modes",
+      "occupancy determines two-mode squeeze"
+    ],
+    "omit_two_mode": [
+      "two active gates reconstruct target"
+    ],
+    "reverse_gate_order": [
+      "Heisenberg collection matrix order",
+      "actual collector vacuum first occupancy",
+      "actual collector vacuum complementary occupancy"
+    ],
+    "drop_creation_vector": [
+      "exact complex coefficients",
+      "canonical commutator",
+      "bilinear anomalous moment",
+      "symplectic vacuum eigenvalue",
+      "desqueezing removes anomalous covariance",
+      "desqueezing recovers two physical modes",
+      "occupancy determines two-mode squeeze",
+      "restricted one-squeeze impossible",
+      "two active gates reconstruct target",
+      "Heisenberg collection matrix order",
+      "actual collector vacuum first occupancy",
+      "collector excitation exceeds necessary first-mode cost",
+      "number bound coefficient",
+      "vacuum occupancy retained",
+      "complete-reference consumer factor"
+    ],
+    "nonlocal_gate": [
+      "admitted gate is adjacent",
+      "record cannot depend beyond light cone"
+    ],
+    "spectral_boundary": [
+      "finite spectral gate agrees on admitted sector"
+    ]
+  },
+  "ceiling": "Exact finite controls; written proof carries all-Fock and causal statements.",
+  "dependency_sha256": {
+    "explorations/conditional-build/k2241-local-mode-detector-network-2026-10-29.md": "ed6b64c6287121ac80631de72a5cd96eb982f000a85b47267b1d57ebef72a1ae",
+    "explorations/conditional-build/k2225-positive-drift-detector-control-2026-10-28.md": "dc2ca9e92eccb673c7582ea3f0e0905528624f3f37365cd13e25dfef6f1200bf",
+    "explorations/conditional-build/k2228-continuum-energy-form-detector-control-2026-10-28.md": "a0734c44e33d5a81837fa93349d87e24d421ce5a51bc25be16c335d695ce5e0d",
+    "explorations/conditional-build/k2234-causal-detector-error-bound-2026-10-29.md": "59a7c99ff16de408fb2613a6d145dcf2ca42303393b94ecdfbf8927486896b93",
+    "explorations/conditional-build/k2237-computable-causal-witness-2026-10-29.md": "0723b90e4000f31cc2a05f682a6d69fe25eb2b4a941ef69de9dfc6c8e7fb58b9"
+  },
+  "probe_sha256": "51bfb7bee355681ee6666cb2e6e4432d87545241c8366f04250082eaa822f9a8"
+}

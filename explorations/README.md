@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2239-moving-observation-closure-2026-10-29](conditional-build/k2239-moving-observation-closure-2026-10-29.md).
+- [k2240-finite-battery-gate-2026-10-29](conditional-build/k2240-finite-battery-gate-2026-10-29.md).
+- [k2241-local-mode-detector-network-2026-10-29](conditional-build/k2241-local-mode-detector-network-2026-10-29.md).
+
+
 - [k2236-raw-observation-closure-2026-10-29](conditional-build/k2236-raw-observation-closure-2026-10-29.md).
 - [k2237-computable-causal-witness-2026-10-29](conditional-build/k2237-computable-causal-witness-2026-10-29.md).
 - [k2238-finite-clock-thermal-circuit-2026-10-29](conditional-build/k2238-finite-clock-thermal-circuit-2026-10-29.md).

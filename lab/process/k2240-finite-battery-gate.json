@@ -1,0 +1,21 @@
+{
+  "result_id": "K2240",
+  "exact_controls": 362,
+  "detected_faults": [
+    "unshifted_gate",
+    "cyclic_wrap",
+    "unequal_gap",
+    "dephased_packet",
+    "missing_buffer",
+    "wrong_order",
+    "fresh_reuse"
+  ],
+  "dependency_sha256": {
+    "explorations/conditional-build/k2240-finite-battery-gate-2026-10-29.md": "6333bdafdf415421225a4ffd3b660169e5a2c3049daa27f263bd28da59ed7377",
+    "explorations/conditional-build/k2238-finite-clock-thermal-circuit-2026-10-29.md": "67ce671725c49ca8688fe397a15be055eac6800bd4f78302e35c57b65b3c20c1",
+    "explorations/conditional-build/k2235-microscopic-thermal-renewal-2026-10-29.md": "296ac88a81c55a8d951c49bd131ebf93a65f42e9870bb1f4e95da3fcb6f3d355",
+    "explorations/conditional-build/k2229-finite-step-thermal-reset-work-2026-10-28.md": "72ef52f5a5828b392a66b9c1cbeb3bf478ef342fd8a52f888afdbcc65f089010"
+  },
+  "probe_sha256": "644a25174d268cde7137653e6d293abadd832e206bfe5d77a0806451f9358b58",
+  "evidence_kinds": "Finite rational shell/energy/isometry/channel/reuse controls, algebraic sine fixture and resource arithmetic; arbitrary-reference, all-L sine optimality and exact-unitary impossibility are separate written proofs."
+}

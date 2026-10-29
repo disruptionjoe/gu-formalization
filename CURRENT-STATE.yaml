@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 02e12feb4c036a47718afdb508e1d8698c20a132
+revision_basis: f17d19eb1e9af13b3b59665f6c69862eca88d7f5
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,7 +118,22 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
-    K2236 proves that ordinary fixed-plane pullback kills the supplied positive V1152
+    K2239 proves the maximal principal hidden space for literal graph pullback is V
+    intersect ker Q_B, giving sharp rank768+rank(Q_B|V) and an unavoidable defective C
+    sector for every unrestricted closed refinement. Moving graph jets require more than
+    pointwise closure; an explicit rank1024 repair and a positive constrained rank128
+    graph observation distinguish the alternatives. K2240 constructs finite
+    energy-conserving lifts of arbitrary fixed-gap qubit gates with reference-uniform
+    joint error, exact finite-unitary obstruction and correlated reuse accounting. A
+    sine packet improves the shift error to at most pi/(L+1); a633-level battery plus
+    padded positive clock gives the two-gate consumer below1% complete error. K2241
+    explicitly collects arbitrary finite complex canonical modes using up to two active
+    modes, constructs the complete recorded detector on an adjacent gate network, and
+    proves graph latency, energy transport and finite spectral error. Its explicit
+    collector has vacuum occupation881/144 versus the necessary first-mode625/144 in the
+    exact complex fixture. Source assertions, ledger0.263 and physical mapping grades
+    remain unchanged.
+    Historical predecessor (not live): K2236 proves that ordinary fixed-plane pullback kills the supplied positive V1152
     sector and needs a minimum rank768 pointwise refinement for closed first-order
     dynamics. That quotient retains the known Jordan defect, has no positive local
     symmetrizer, and inherits no nonzero raw Green form when mass is nowhere zero; a
@@ -17451,6 +17466,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2239-moving-observation-closure-2026-10-29.md
+  - explorations/conditional-build/k2240-finite-battery-gate-2026-10-29.md
+  - explorations/conditional-build/k2241-local-mode-detector-network-2026-10-29.md
+  - lab/process/k2239-moving-observation-closure.json
+  - lab/process/k2240-finite-battery-gate.json
+  - lab/process/k2241-local-mode-detector-network.json
   - explorations/conditional-build/k2236-raw-observation-closure-2026-10-29.md
   - explorations/conditional-build/k2237-computable-causal-witness-2026-10-29.md
   - explorations/conditional-build/k2238-finite-clock-thermal-circuit-2026-10-29.md
@@ -19137,7 +19158,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Which source-compatible constrained observation or changed raw principal/action can
+  Which induced moving-section principal equation or source-owned constraint can realize
+  the positive graph subsystem, which finite gap-control/battery model can compile the
+  variable-gap reset, and which controlled local Hamiltonian can implement the general
+  complex-mode network while retaining its physical drift and error bounds?
+  Historical predecessor (not live): Which source-compatible constrained observation or changed raw principal/action can
   retain actual observed data with positive dynamics, and which causal
   after-communication detector or finite battery/extraction mechanism can supply the
   remaining apparatus interfaces?
@@ -23156,7 +23181,21 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Do not repeat the fixed-plane minimal-quotient theorem, computable squeezed-detector
+  Do not repeat unchanged-principal graph closure, fixed-gap coherent gate compilation
+  or the finite complex-mode normal form. The positive graph subsystem uses a supplied
+  invariant constraint; derive its source-compatible action/domain or the actual induced
+  moving-section principal operator including normal derivatives before claiming
+  physical observation. A finite gap-control register and commensurate-energy
+  transitions are needed for variable-gap reset; the sine battery does not supply this
+  register, resource renewal or permanent clock halt. General complex-mode collection
+  now has an exact finite slotted-network construction, but retained physical drift,
+  bounded local control strengths, spectral-gate synthesis and a spatial continuum error
+  bound remain separate. Compare these concrete constructions against broader-contrast
+  simultaneous-tail certification and a genuinely reconstructed real all-ten-row adapter
+  pencil. Preserve source/full16cells/full20/K-C,native2+1/chirality,physical
+  quotient,mirrors/fullII/normaljets,scalar/thermal optima,restricted cosmology and
+  exact wings.
+  Historical predecessor (not live): Do not repeat the fixed-plane minimal-quotient theorem, computable squeezed-detector
   witnesses or finite resonant clock compilation. The source-facing contender is an
   actual constrained/moving geometric observation with its own original returns and
   action/domain bridge; the full raw pullback refinement cannot inherit V positivity.
