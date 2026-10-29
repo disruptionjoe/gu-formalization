@@ -6,6 +6,25 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2224--K2226: Conditional research results (2026-10-28)
+
+K2224 completely classifies parallel spinor pairings for the unchanged raw flavor connection: spatially nonconstant coefficients force constant pairings commuting with every coefficient; constant coefficients allow congruence transport. Original-B anchoring fails for nonconstant profiles, but positive and split constant parents are explicit countercontrols. Requiring the same pairing to retain the original Clifford adjoints forces zero flavor. K2225 constructs positive additive adjacent/onsite finite-chain detector controls with physical drift retained, including outcome squeezing, a full-record/reference error bound and mean switching-work bound. A concrete two-site control/reset consumer has error below0.000040032581 at supplied speed1e12; no continuum-optimum implementation or energy convergence follows. K2226 derives exact finite thermal-register fixed-record and uniform reset optima, including bath compression/SWAP, sharp error exponent and fresh-resource accounting. At p=1/4,N=101 uniform error is between3.2580e-8 and3.2581e-8. Source assertions, ledger0.263 and physics mapping grades remain unchanged.
+
+- [K2224](explorations/conditional-build/k2224-raw-parallel-pairing-classification-2026-10-28.md).
+- [K2225](explorations/conditional-build/k2225-positive-drift-detector-control-2026-10-28.md).
+- [K2226](explorations/conditional-build/k2226-thermal-register-reset-2026-10-28.md).
+
+Three independent internal specialists cross-reviewed the actual artifacts. Fresh serialized probes pass70 Clifford/pairing controls,34 control and rational-consumer controls, and230 thermal/reset arithmetic controls;13 genuine mathematical fault families are detected. Written universal connection, full-Fock/domain and channel/large-deviation proofs are distinguished from finite controls and reused antecedents. Certificates bind final note/code/dependency hashes and default runs reject stale reports. No heavy/Lean, proof-assistant, external-expert, novelty or remote-CI certification.
+
+| Claim | Prior | Current | Weakest bridge | Current surfaces |
+|---|---|---|---|---|
+| K2224 parallel spinor pairing | moving parent unclassified | exact conditional classification | source action/common raw adjoint still separate | note, CURRENT-STATE, NEXT-STEPS, this status |
+| K2225 positive retained-drift instrument | unstable beam or drift replacement | finite-chain approximation with positive additive controls | continuum uniformity and actual control resources open | note, CURRENT-STATE, NEXT-STEPS, this status |
+| K2226 thermal reset | fixed finite-bath marginal bound | exact fixed-marginal and uniform channel optima | fresh bath renewal and collective-control realization open | note, CURRENT-STATE, NEXT-STEPS, this status |
+
+Earlier sections are historical.
+
+
 ## K2221--K2223: Conditional research results (2026-10-28)
 
 K2221 constructs an explicit grade12 common raw coefficient that supports nonconstant local observations while preserving the supplied V1152 sector, original returns, positive current and every normal trace-Hq identity. Flat effective connections admit transported projectors; nonzero effective curvature forces constant commuting observations. Nonzero added coefficients are excluded by the original fixed-B isometry connection condition, with no repair by B-preserving frames; combined trace-Hq compatibility does not supply source selection. K2222 certifies one unique global infinite detector minimizer for every contrast in [1/2-1e-18,1/2+1e-18], with continuous optimizers and C1 optimum energy whose derivative is the contrast multiplier. K2223 realizes the same detector with explicitly supplied semibounded whole-field Hamiltonian switches; net mean switching work equals E_star, while absolute mean exchanges lie between2.34055 and2.34093. Reset consumes pure-bit resources; a fixed finite faithful bath has a sharp positive reset error. Source assertions, ledger0.263 and physics mapping grades remain unchanged.

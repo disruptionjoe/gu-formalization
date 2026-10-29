@@ -5,6 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-10-28: PARALLEL PAIRINGS, POSITIVE DRIFT CONTROLS AND THERMAL RESET.**
+> Do not repeat unchanged-connection parallel-pairing classification, finite-chain positive fast-pulse existence or unconstrained collective thermal-reset sorting. Compare a genuinely changed spatial raw connection with one common moving pairing/principal/trace return against continuum-uniform detector control and a realizable reset clock/bath renewal model. K2224 requires retesting all raw rows and changed adjoints; constant split pairings alone do not repair the action parent. K2225 finite-chain constants diverge for W=rI at fixed speed, a limit of this bound rather than a no-go. K2226 consumes fresh registers and arbitrary collective control; neither purity nor timing is free. Broader contrast certification and genuinely different real-grade all-ten-row adapters remain alternatives. Preserve source/full16cells/full20/K-C, native2+1/chirality, physical quotient, mirrors/fullII/normaljets, scalar saturation/inverse/endpoint/weak353/170/global half-contrast, thermal163/164, restricted cosmology and exact wings.
+> Earlier banners are historical; use this current condition.
+
+
 > **2026-10-28: RAW FLAVOR OBSERVATIONS, CONTRAST CONTINUATION AND CONTROL RESOURCES.**
 > Do not repeat the grade12 raw lift, flat/nonflat local-observation classification, tiny-interval detector uniqueness or abstract switched pulse dilation. The explicit lift fails fixed-B isometry unless its added coefficients vanish, and no B-preserving gauge frame repairs it. Compare a genuinely changed compatible connection/pairing construction with a concrete local semibounded detector control retaining physical drift and an explicitly renewable approximate-reset resource. The present control replaces the entire free Hamiltonian and supplies exact all-occupation coupling, external timing/readout and pure bits; it is not an autonomous apparatus. Contrast continuation is certified only within1e-18 of1/2, with C1 energy but no profile derivative or C2 claim. Preserve general adapter real grades/both halves/all-ten equations, source/full16cells/full20/K-C/native2+1/physical quotient/mirror/fullII/normaljet and scalar/thermal/cosmology ceilings.
 > Earlier banners are historical; use this current condition.

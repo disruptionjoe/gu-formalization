@@ -1,4 +1,9 @@
 
+- [k2224_raw_parallel_pairing_classification_probe](k2224_raw_parallel_pairing_classification_probe.py).
+- [k2225_positive_drift_detector_control_probe](k2225_positive_drift_detector_control_probe.py).
+- [k2226_thermal_register_reset_probe](k2226_thermal_register_reset_probe.py).
+
+
 - [k2221_raw_flavor_observation_probe](k2221_raw_flavor_observation_probe.py).
 - [k2222_detector_contrast_continuation_probe](k2222_detector_contrast_continuation_probe.py).
 - [k2223_stable_detector_resource_realization_probe](k2223_stable_detector_resource_realization_probe.py).

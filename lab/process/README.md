@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2224-raw-parallel-pairing-classification](k2224-raw-parallel-pairing-classification.json).
+- [k2225-positive-drift-detector-control](k2225-positive-drift-detector-control.json).
+- [k2226-thermal-register-reset](k2226-thermal-register-reset.json).
+
+
 - [k2221-raw-flavor-observation](k2221-raw-flavor-observation.json).
 - [k2222-detector-contrast-continuation](k2222-detector-contrast-continuation.json).
 - [k2223-stable-detector-resource-realization](k2223-stable-detector-resource-realization.json).

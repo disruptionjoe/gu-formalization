@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2224-raw-parallel-pairing-classification-2026-10-28](conditional-build/k2224-raw-parallel-pairing-classification-2026-10-28.md).
+- [k2225-positive-drift-detector-control-2026-10-28](conditional-build/k2225-positive-drift-detector-control-2026-10-28.md).
+- [k2226-thermal-register-reset-2026-10-28](conditional-build/k2226-thermal-register-reset-2026-10-28.md).
+
+
 - [k2221-raw-flavor-observation-2026-10-28](conditional-build/k2221-raw-flavor-observation-2026-10-28.md).
 - [k2222-detector-contrast-continuation-2026-10-28](conditional-build/k2222-detector-contrast-continuation-2026-10-28.md).
 - [k2223-stable-detector-resource-realization-2026-10-28](conditional-build/k2223-stable-detector-resource-realization-2026-10-28.md).

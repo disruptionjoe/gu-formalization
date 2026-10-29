@@ -1,0 +1,66 @@
+{
+  "result": "K2225",
+  "scope": "finite-chain positive additive controls; written universal proof plus finite exact controls",
+  "checks": {
+    "beam_positive": true,
+    "beam_spectrum": true,
+    "exact_phase_compensated_beam": true,
+    "beam_upper_2N": true,
+    "measurement_positive_0": true,
+    "positive_root_0": true,
+    "measurement_positive_1/4": true,
+    "positive_root_1/4": true,
+    "measurement_positive_1": true,
+    "positive_root_1": true,
+    "squeeze_order": true,
+    "symplectic": true,
+    "number_rate_2/3": true,
+    "positive_oscillator_2/3": true,
+    "number_rate_7/5": true,
+    "positive_oscillator_7/5": true,
+    "number_rate_1": true,
+    "positive_oscillator_1": true,
+    "squeeze_need_not_commute_cutoff": true,
+    "compressed_number_commutator": true,
+    "overlap_integral": true,
+    "zero_k_limit": true,
+    "speed_limit": true,
+    "signed_work_telescopes": true,
+    "absolute_switch_coefficient": true,
+    "pi_rational_upper_identity": true,
+    "L_less_than_four": true,
+    "joint_consumer_duration": true,
+    "joint_consumer_exp_bounds": true,
+    "joint_consumer_delta": true,
+    "joint_consumer_A": true,
+    "joint_consumer_reset": true,
+    "joint_consumer_total": true,
+    "joint_consumer_work": true
+  },
+  "faults": {
+    "beam_shift": [
+      "beam_positive",
+      "beam_spectrum",
+      "exact_phase_compensated_beam"
+    ],
+    "phase_sign": [
+      "exact_phase_compensated_beam"
+    ],
+    "measurement_shift": [
+      "measurement_positive_1/4",
+      "measurement_positive_1"
+    ],
+    "squeeze_order": [
+      "squeeze_order"
+    ],
+    "cutoff_commutes": [
+      "compressed_number_commutator"
+    ]
+  },
+  "probe_sha256": "203955620c0725e1a461d788c2c8ea6b709ead50312affc8b203a0f9ba4d26c2",
+  "dependency_sha256": {
+    "explorations/conditional-build/k2225-positive-drift-detector-control-2026-10-28.md": "dc2ca9e92eccb673c7582ea3f0e0905528624f3f37365cd13e25dfef6f1200bf",
+    "explorations/conditional-build/k2154-uncompensated-detector-control-2026-10-27.md": "3e3d2b011b88ea0fe6210dd7ab6af6967bac302f0f52f9a59007e1d2501f5e1a",
+    "explorations/conditional-build/k2223-stable-detector-resource-realization-2026-10-28.md": "790b55606fdca4cd078d26da96fadaf96dc68f58275897d69e00d7fd1a49663d"
+  }
+}

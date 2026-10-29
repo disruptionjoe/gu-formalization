@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: ac290d2be1dadcd6f6b56c14dde35d8fa3e1f970
+revision_basis: 9d67d46a92f6c122a488324b19654e6983ee4381
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,7 +118,22 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
-    K2221 constructs an explicit grade12 common raw coefficient that supports
+    K2224 completely classifies parallel spinor pairings for the unchanged raw flavor
+    connection: spatially nonconstant coefficients force constant pairings commuting
+    with every coefficient; constant coefficients allow congruence transport. Original-B
+    anchoring fails for nonconstant profiles, but positive and split constant parents
+    are explicit countercontrols. Requiring the same pairing to retain the original
+    Clifford adjoints forces zero flavor. K2225 constructs positive additive
+    adjacent/onsite finite-chain detector controls with physical drift retained,
+    including outcome squeezing, a full-record/reference error bound and mean
+    switching-work bound. A concrete two-site control/reset consumer has error
+    below0.000040032581 at supplied speed1e12; no continuum-optimum implementation or
+    energy convergence follows. K2226 derives exact finite thermal-register fixed-record
+    and uniform reset optima, including bath compression/SWAP, sharp error exponent and
+    fresh-resource accounting. At p=1/4,N=101 uniform error is between3.2580e-8
+    and3.2581e-8. Source assertions, ledger0.263 and physics mapping grades remain
+    unchanged.
+    Historical predecessor (not live): K2221 constructs an explicit grade12 common raw coefficient that supports
     nonconstant local observations while preserving the supplied V1152 sector, original
     returns, positive current and every normal trace-Hq identity. Flat effective
     connections admit transported projectors; nonzero effective curvature forces
@@ -17385,6 +17400,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2224-raw-parallel-pairing-classification-2026-10-28.md
+  - explorations/conditional-build/k2225-positive-drift-detector-control-2026-10-28.md
+  - explorations/conditional-build/k2226-thermal-register-reset-2026-10-28.md
+  - lab/process/k2224-raw-parallel-pairing-classification.json
+  - lab/process/k2225-positive-drift-detector-control.json
+  - lab/process/k2226-thermal-register-reset.json
   - explorations/conditional-build/k2221-raw-flavor-observation-2026-10-28.md
   - explorations/conditional-build/k2222-detector-contrast-continuation-2026-10-28.md
   - explorations/conditional-build/k2223-stable-detector-resource-realization-2026-10-28.md
@@ -19041,7 +19062,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can a changed connection/pairing construction retain the grade12 common-return
+  Can a common source-compatible moving connection/pairing or a continuum-uniform
+  resource-accounted detector construction cross the remaining physical interface, given
+  the new fixed-connection classification and finite supplied-control theorems?
+  Historical predecessor (not live): Can a changed connection/pairing construction retain the grade12 common-return
   observation while meeting source-owned geometric/action requirements, can the
   detector's explicitly supplied whole-field switches and pure reset bit be replaced by
   local semibounded controls with priced timing and reservoir renewal, and can its
@@ -23040,7 +23064,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Do not repeat the grade12 raw lift, flat/nonflat local-observation classification,
+  Do not repeat unchanged-connection parallel-pairing classification, finite-chain
+  positive fast-pulse existence or unconstrained collective thermal-reset sorting.
+  Compare a genuinely changed spatial raw connection with one common moving
+  pairing/principal/trace return against continuum-uniform detector control and a
+  realizable reset clock/bath renewal model. K2224 requires retesting all raw rows and
+  changed adjoints; constant split pairings alone do not repair the action parent. K2225
+  finite-chain constants diverge for W=rI at fixed speed, a limit of this bound rather
+  than a no-go. K2226 consumes fresh registers and arbitrary collective control; neither
+  purity nor timing is free. Broader contrast certification and genuinely different
+  real-grade all-ten-row adapters remain alternatives. Preserve
+  source/full16cells/full20/K-C, native2+1/chirality, physical quotient,
+  mirrors/fullII/normaljets, scalar saturation/inverse/endpoint/weak353/170/global
+  half-contrast, thermal163/164, restricted cosmology and exact wings.
+  Historical predecessor (not live): Do not repeat the grade12 raw lift, flat/nonflat local-observation classification,
   tiny-interval detector uniqueness or abstract switched pulse dilation. The explicit
   lift fails fixed-B isometry unless its added coefficients vanish, and no B-preserving
   gauge frame repairs it. Compare a genuinely changed compatible connection/pairing
