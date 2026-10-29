@@ -1,0 +1,31 @@
+{
+  "result_id": "K2267",
+  "status": "internally_reviewed_conditional_mathematics",
+  "evidence_kind": "finite_exact_symbolic_and_matrix_controls_plus_genuine_changed_input_faults",
+  "checks": 41,
+  "faults": 5,
+  "fault_failures": {
+    "missing_swap_phases": [
+      "pair_charge2_swap"
+    ],
+    "reversed_hopping_sign": [
+      "pair_charge1_swap"
+    ],
+    "wrong_remote_target": [
+      "remote_cross_routing"
+    ],
+    "unenlarged_capacity": [
+      "actual_enlarged_cap"
+    ],
+    "overspent_error_allocation": [
+      "ten_call_budget"
+    ]
+  },
+  "sha256": {
+    "explorations/conditional-build/k2267-nearest-neighbor-detector-2026-10-29.md": "c53b82055fde2e4b4100fd19694e36644a7b330314452dc559628609c49ff305",
+    "tests/channel-swings/k2267_nearest_neighbor_detector_probe.py": "b7ec44a9494e6177d417f3252b347f2eb6483541d7bf7546ef4df75640e1a092",
+    "explorations/conditional-build/k2264-restricted-detector-control-2026-10-29.md": "5dc422c7aafb5678ac899ce0201e04582cbec78f7278672e191f38d4b5d8258a",
+    "explorations/conditional-build/k2253-full-instrument-reference-reuse-2026-10-29.md": "2db4b83728046f3a40ab8c207c4a2014ff7a27752a792a1bd40bf657ad265749"
+  },
+  "ceiling": "Finite checks supplement written proofs; no empirical, source, novelty, Lean or remote-CI certification."
+}

@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2265-shared-cosmology-consistency-2026-10-29](conditional-build/k2265-shared-cosmology-consistency-2026-10-29.md).
+- [k2266-windowed-cosmology-test-2026-10-29](conditional-build/k2266-windowed-cosmology-test-2026-10-29.md).
+- [k2267-nearest-neighbor-detector-2026-10-29](conditional-build/k2267-nearest-neighbor-detector-2026-10-29.md).
+
+
 - [k2263-bounded-local-preparation-2026-10-29](conditional-build/k2263-bounded-local-preparation-2026-10-29.md).
 - [k2264-restricted-detector-control-2026-10-29](conditional-build/k2264-restricted-detector-control-2026-10-29.md).
 

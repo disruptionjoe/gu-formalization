@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: a00e62243581420d367ef42e20ae341198414a62
+revision_basis: 6bf6bedfc6a58b5c21b56348a57549477682c5d1
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,18 +118,18 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
-    K2263 gives the actual reflected compact-band preparation map a finite
-    Hilbert-Schmidt bound, exact singular-cost/regularization formulas, an
-    orthogonal-access budget, factorial worst-direction hierarchy and bounded-input
-    exterior readout formula. Smooth target derivative norms price remote preparation;
-    the specified band/volume example requires input norm greater than10^6 for
-    half-error unit-target access. K2264 replaces arbitrary shell synthesis with
-    explicit conserving one-/two-subsystem nonlinear controls, integer-gap Fourier edge
-    isolation and finite product-formula compilation. Its full ten-call
-    field/record/history detector error is below0.00934 with supplied hard walls,
-    coherent stock, huge neutral workspace and explicitly finite timing/precision costs.
-    This is tensor locality, not geometric locality or practical apparatus. Source
-    claims, ledger0.263 and physical mappings remain unchanged.
+    K2265 derives an exact whole-interval shared-coefficient criterion for the fixed
+    flat vacuum quadratic metric action, proves full-equation sufficiency and classifies
+    the zero-F constant-curvature branch. It excludes every exact dust-plus-constant
+    expansion shape with nonzero dust coefficient in this vacuum family, while a
+    nonconstant positive-F pure-R2 solution survives. K2266 constructs weak windows,
+    joint profiling, a robust C1 neighborhood exclusion at radius1e-8 with
+    |alpha/b|<=100, a shared-domain forward interface and an exact
+    finite-H-and-distance-node counterconstruction. K2267 replaces all-pair detector
+    nonlinearities by nearest-neighbor routing on a supplied finite path after enlarging
+    every charged cap and rebuilding the shell compiler; the complete ten-call error
+    remains below.00934 with explicit huge resource budgets. These are conditional
+    models; source claims, ledger0.263 and physics mapping grades remain unchanged.
     Historical predecessor (not live): K2258 proves that every positive subspace with an equivalent L2 norm and selfadjoint evolution of
     the fixed raw constrained operator has stable Fourier support, without assuming a
     fibrewise metric or translation invariance. Consequently no nonzero smooth
@@ -17563,6 +17563,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2265-shared-cosmology-consistency-2026-10-29.md
+  - explorations/conditional-build/k2266-windowed-cosmology-test-2026-10-29.md
+  - explorations/conditional-build/k2267-nearest-neighbor-detector-2026-10-29.md
+  - lab/process/k2265-shared-cosmology-consistency.json
+  - lab/process/k2266-windowed-cosmology-test.json
+  - lab/process/k2267-nearest-neighbor-detector.json
   - explorations/conditional-build/k2263-bounded-local-preparation-2026-10-29.md
   - explorations/conditional-build/k2264-restricted-detector-control-2026-10-29.md
   - lab/process/k2263-bounded-local-preparation.json
@@ -19301,10 +19307,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can the supplied quotient provide affordable robust preparation and readout on a
-  specified finite target set with a physical cost norm, or can a finite-range apparatus
-  replace the nonlinear all-pair hard-wall detector compiler and supply its coherent
-  resource?
+  Can the fixed conditional quadratic vacuum cosmology be tested on one common finite
+  interval through a declared observation operator and correlated errors, or can
+  finite-range detector synthesis shed its enlarged hardwalls and huge
+  coherent/workspace resources?
   Historical predecessor (not live): Can a source-owned global quotient or differential-constraint domain supply local
   observables and causal physical dynamics for the fixed raw candidate, and can the
   detector/reset apparatus renew its actual charged/coherent stock through a priced
@@ -23358,17 +23364,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Do not repeat qualitative compact-band density, exact linear locality, arbitrary shell
-  completion or unit-amplitude filter controls. K2263 supplies preparation-potential L2
-  cost, not physical energy; compare a specified finite-dimensional target/readout set
-  with actual synthesis/noise norms, or construct a noncompact/source-owned quotient
-  with its observation algebra. K2264 supplies all-pair nonlinear hard-wall control and
-  an enormous finite compiler; next test a specified finite-range hardware alphabet,
-  uncontrolled drift/leakage, or coherent-stock preparation/transport with resource and
-  complete-instrument error. Invariant donors cannot produce phase stock.
-  Broader-contrast simultaneous tails and real all-ten adapters remain alternatives.
-  Preserve all source/native2+1/nonchiral/full16cells/full20/K-C,physical
-  quotient,mirrors/fullII/normaljets,scalar/thermal/cosmology ceilings.
+  Test the fixed quadratic cosmology with a validated finite-interval solution family
+  and an explicit observation operator, joint initial data, ruler and covariance; do not
+  infer an empirical test from finite nodes or the weak derivative identity. The new
+  radius1e-8 exclusion assumes a specified dimensionless C1 norm and |alpha/b|<=100.
+  Compare that next calculation with bounded-resource, ordinary-untruncated detector
+  control and coherent-stock supply; K2267 needs enlarged hard walls and a huge endpoint
+  workspace, not merely a finite graph. Source-owned matter/light and physical
+  preparation/readout cost remain alternatives. Preserve
+  native2+1/nonchiral,full16cells/full20/K-C,physical
+  quotient,mirrors/fullII/normaljets,scalar/thermal and cosmology ceilings.
   Historical predecessor (not live): Do not repeat local differential preparation into an equivalent positive raw subspace,
   fresh partial-collision donor renewal, or phase-blind charge replenishment bounds.
   K2258 leaves general differential constraint kernels and source-owned global quotients

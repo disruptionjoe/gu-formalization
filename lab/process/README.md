@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2265-shared-cosmology-consistency](k2265-shared-cosmology-consistency.json).
+- [k2266-windowed-cosmology-test](k2266-windowed-cosmology-test.json).
+- [k2267-nearest-neighbor-detector](k2267-nearest-neighbor-detector.json).
+
+
 - [k2263-bounded-local-preparation](k2263-bounded-local-preparation.json).
 - [k2264-restricted-detector-control](k2264-restricted-detector-control.json).
 

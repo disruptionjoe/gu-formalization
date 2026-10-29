@@ -5,6 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-10-29: SHARED COSMOLOGY AND FINITE-RANGE CONTROL.**
+> Test the fixed quadratic cosmology with a validated finite-interval solution family and an explicit observation operator, joint initial data, ruler and covariance; do not infer an empirical test from finite nodes or the weak derivative identity. The new radius1e-8 exclusion assumes a specified dimensionless C1 norm and |alpha/b|<=100. Compare that next calculation with bounded-resource, ordinary-untruncated detector control and coherent-stock supply; K2267 needs enlarged hard walls and a huge endpoint workspace, not merely a finite graph. Source-owned matter/light and physical preparation/readout cost remain alternatives. Preserve native2+1/nonchiral,full16cells/full20/K-C,physical quotient,mirrors/fullII/normaljets,scalar/thermal and cosmology ceilings.
+> Earlier banners are historical; use this current condition.
+
+
 > **2026-10-29: BOUNDED LOCAL PREPARATION AND RESTRICTED DETECTOR CONTROL.**
 > Do not repeat qualitative compact-band density, exact linear locality, arbitrary shell completion or unit-amplitude filter controls. K2263 supplies preparation-potential L2 cost, not physical energy; compare a specified finite-dimensional target/readout set with actual synthesis/noise norms, or construct a noncompact/source-owned quotient with its observation algebra. K2264 supplies all-pair nonlinear hard-wall control and an enormous finite compiler; next test a specified finite-range hardware alphabet, uncontrolled drift/leakage, or coherent-stock preparation/transport with resource and complete-instrument error. Invariant donors cannot produce phase stock. Broader-contrast simultaneous tails and real all-ten adapters remain alternatives. Preserve all source/native2+1/nonchiral/full16cells/full20/K-C,physical quotient,mirrors/fullII/normaljets,scalar/thermal/cosmology ceilings.
 > Earlier banners are historical; use this current condition.

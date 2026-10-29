@@ -1,4 +1,9 @@
 
+- [k2265_shared_cosmology_consistency_probe](k2265_shared_cosmology_consistency_probe.py).
+- [k2266_windowed_cosmology_test_probe](k2266_windowed_cosmology_test_probe.py).
+- [k2267_nearest_neighbor_detector_probe](k2267_nearest_neighbor_detector_probe.py).
+
+
 - [k2263_bounded_local_preparation_probe](k2263_bounded_local_preparation_probe.py).
 - [k2264_restricted_detector_control_probe](k2264_restricted_detector_control_probe.py).
 

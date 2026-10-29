@@ -1,0 +1,37 @@
+{
+  "result_id": "K2265",
+  "status": "internally_reviewed_conditional_mathematics",
+  "evidence_kind": "finite_exact_symbolic_and_matrix_controls_plus_genuine_changed_input_faults",
+  "checks": 22,
+  "faults": 5,
+  "fault_failures": {
+    "quadratic_derivative_coefficient": [
+      "independent_redshift_substitution",
+      "power_plus_constant",
+      "dust_shape_residual",
+      "degenerate_constraint",
+      "nonconstant_pure_R2_positive_control"
+    ],
+    "redshift_HP_sign": [
+      "independent_redshift_substitution"
+    ],
+    "vacuum_normalization": [
+      "off_shell_constraint_identity",
+      "actual_spatial_component"
+    ],
+    "shared_slope_sign": [
+      "shared_pair_1",
+      "shared_pair_2",
+      "shared_pair_3"
+    ],
+    "scale_power": [
+      "scale_quartic"
+    ]
+  },
+  "sha256": {
+    "explorations/conditional-build/k2265-shared-cosmology-consistency-2026-10-29.md": "e0f8955f1e83bf4e9275e9914695f04a095a8a2d1180562aa41e16453783fc2d",
+    "tests/channel-swings/k2265_shared_cosmology_consistency_probe.py": "5c005eab95b10eada3fb2c2167e947b934d052efba5c948db698404184bb6ffa",
+    "lab/active-research/joe-directed/prediction-kickoff/late-time-finite-node-identifiability-2026-10-27.md": "f59caeec08aef66ac5c7fb49a7917b1319b7a3ae6a0e22017d4f2c7b4371a629"
+  },
+  "ceiling": "Finite checks supplement written proofs; no empirical, source, novelty, Lean or remote-CI certification."
+}

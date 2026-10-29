@@ -1,0 +1,36 @@
+{
+  "result_id": "K2266",
+  "status": "internally_reviewed_conditional_mathematics",
+  "evidence_kind": "finite_exact_symbolic_and_matrix_controls_plus_genuine_changed_input_faults",
+  "checks": 29,
+  "faults": 6,
+  "fault_failures": {
+    "weak_derivative_coefficient": [
+      "weak_strong_0",
+      "weak_strong_1",
+      "weak_strong_2",
+      "nonvanishing_boundary"
+    ],
+    "missing_boundary": [
+      "nonvanishing_boundary"
+    ],
+    "wrong_profiled_constant": [
+      "one_window_false_pass"
+    ],
+    "wrong_ode_rho_normalization": [
+      "forward_ode"
+    ],
+    "wrong_bump_response": [
+      "bump_residual"
+    ],
+    "oversized_robust_radius": [
+      "robust_neighborhood_exclusion"
+    ]
+  },
+  "sha256": {
+    "explorations/conditional-build/k2266-windowed-cosmology-test-2026-10-29.md": "94ecdb75d32c4477db6d2dc771926a0d307855f0484c0dd6c9fb451d8eb1ed77",
+    "tests/channel-swings/k2266_windowed_cosmology_test_probe.py": "45dfc03db5ae5d7055689b0695fb81af8cfa099fb923dccf0bcdb5c5be745d6d",
+    "explorations/conditional-build/k2265-shared-cosmology-consistency-2026-10-29.md": "e0f8955f1e83bf4e9275e9914695f04a095a8a2d1180562aa41e16453783fc2d"
+  },
+  "ceiling": "Finite checks supplement written proofs; no empirical, source, novelty, Lean or remote-CI certification."
+}

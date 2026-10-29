@@ -5,6 +5,19 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2265--K2267: Shared cosmology, weak windows and nearest-neighbor control (2026-10-29)
+
+K2265 derives an exact whole-interval shared-coefficient criterion for the fixed flat vacuum quadratic metric action, proves full-equation sufficiency and classifies the zero-F constant-curvature branch. It excludes every exact dust-plus-constant expansion shape with nonzero dust coefficient in this vacuum family, while a nonconstant positive-F pure-R2 solution survives. K2266 constructs weak windows, joint profiling, a robust C1 neighborhood exclusion at radius1e-8 with |alpha/b|<=100, a shared-domain forward interface and an exact finite-H-and-distance-node counterconstruction. K2267 replaces all-pair detector nonlinearities by nearest-neighbor routing on a supplied finite path after enlarging every charged cap and rebuilding the shell compiler; the complete ten-call error remains below.00934 with explicit huge resource budgets. These are conditional models; source claims, ledger0.263 and physics mapping grades remain unchanged.
+
+- [K2265](explorations/conditional-build/k2265-shared-cosmology-consistency-2026-10-29.md).
+- [K2266](explorations/conditional-build/k2266-windowed-cosmology-test-2026-10-29.md).
+- [K2267](explorations/conditional-build/k2267-nearest-neighbor-detector-2026-10-29.md).
+
+Three independently authorized read-only specialists reviewed actual proofs and probes, including cross-review of the cosmology artifacts. Final serialized probes pass22+29+41=92 exact symbolic/matrix/rational controls and reject16 genuine changed-input faults. Universal interval, smooth-bump and shell-control claims remain written internally reviewed mathematics, distinct from finite checks. Corrected F terminology, dimensionless initial-data accounting, verification attribution, integration origin, typed carriers and the charge-one phase seam. No heavy build, Lean, external-expert, novelty, empirical or remote-CI certification.
+
+Earlier sections preserve historical result snapshots; the current scope is above.
+
+
 ## K2263--K2264: Bounded local preparation and restricted detector control (2026-10-29)
 
 K2263 gives the actual reflected compact-band preparation map a finite Hilbert-Schmidt bound, exact singular-cost/regularization formulas, an orthogonal-access budget, factorial worst-direction hierarchy and bounded-input exterior readout formula. Smooth target derivative norms price remote preparation; the specified band/volume example requires input norm greater than10^6 for half-error unit-target access. K2264 replaces arbitrary shell synthesis with explicit conserving one-/two-subsystem nonlinear controls, integer-gap Fourier edge isolation and finite product-formula compilation. Its full ten-call field/record/history detector error is below0.00934 with supplied hard walls, coherent stock, huge neutral workspace and explicitly finite timing/precision costs. This is tensor locality, not geometric locality or practical apparatus. Source claims, ledger0.263 and physical mappings remain unchanged.
