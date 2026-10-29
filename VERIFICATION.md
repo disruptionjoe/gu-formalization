@@ -5,6 +5,19 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2268--K2270: Finite observations, correlated certificates and untruncated control (2026-10-29)
+
+K2268 converts a stipulated finite y=H² observation/error ellipsoid and independent curvature bound into a continuum vacuum-family rejection; weak-energy cancellation yields an exact nonempty2001-node example with error1e-8 and |alpha/b|<=100. K2269 retains joint coefficient correlations in a quadratic PSD certificate with margin1/200, unrestricted rho/b and separately priced nonpolynomial C1 discrepancy1e-8. K2270 removes detector hardwalls using genuine number-conserving full-Fock controls: ideal sector leakage is zero, projected perturbations control full-channel error and leakage probability, and the ten-call error remains below.00934. Signed Kerr energy, coherent supply, huge workspace/control costs and actual cosmological observation/error justification remain open. Source claims, ledger0.263 and physical mappings are unchanged.
+
+- [K2268](explorations/conditional-build/k2268-observation-regularity-cosmology-2026-10-29.md).
+- [K2269](explorations/conditional-build/k2269-correlated-cosmology-certificate-2026-10-29.md).
+- [K2270](explorations/conditional-build/k2270-untruncated-detector-control-2026-10-29.md).
+
+Three independently authorized read-only specialists reviewed actual proofs and probes, including cross-review of cosmology assumption transport. Final serialized probes pass40+34+46=120 exact rational/symbolic/matrix controls and reject17 genuine changed-input faults. Review corrected generic-data error notation, sample-versus-continuous discrepancy accounting, typed carriers, global energy/phase scope and complex-matrix/projection controls. Universal continuum and operator statements remain written internally reviewed proofs, distinct from finite checks. No heavy build, Lean, external-expert, novelty, empirical or remote-CI certification.
+
+Earlier sections preserve historical result snapshots; the current scope is above.
+
+
 ## K2265--K2267: Shared cosmology, weak windows and nearest-neighbor control (2026-10-29)
 
 K2265 derives an exact whole-interval shared-coefficient criterion for the fixed flat vacuum quadratic metric action, proves full-equation sufficiency and classifies the zero-F constant-curvature branch. It excludes every exact dust-plus-constant expansion shape with nonzero dust coefficient in this vacuum family, while a nonconstant positive-F pure-R2 solution survives. K2266 constructs weak windows, joint profiling, a robust C1 neighborhood exclusion at radius1e-8 with |alpha/b|<=100, a shared-domain forward interface and an exact finite-H-and-distance-node counterconstruction. K2267 replaces all-pair detector nonlinearities by nearest-neighbor routing on a supplied finite path after enlarging every charged cap and rebuilding the shell compiler; the complete ten-call error remains below.00934 with explicit huge resource budgets. These are conditional models; source claims, ledger0.263 and physics mapping grades remain unchanged.

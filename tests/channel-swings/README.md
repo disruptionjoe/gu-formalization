@@ -1,4 +1,9 @@
 
+- [k2268_observation_regularity_cosmology_probe](k2268_observation_regularity_cosmology_probe.py).
+- [k2269_correlated_cosmology_certificate_probe](k2269_correlated_cosmology_certificate_probe.py).
+- [k2270_untruncated_detector_control_probe](k2270_untruncated_detector_control_probe.py).
+
+
 - [k2265_shared_cosmology_consistency_probe](k2265_shared_cosmology_consistency_probe.py).
 - [k2266_windowed_cosmology_test_probe](k2266_windowed_cosmology_test_probe.py).
 - [k2267_nearest_neighbor_detector_probe](k2267_nearest_neighbor_detector_probe.py).

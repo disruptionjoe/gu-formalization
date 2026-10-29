@@ -1,0 +1,35 @@
+{
+  "result_id": "K2268",
+  "status": "internally_reviewed_conditional_mathematics",
+  "evidence_kind": "finite_exact_symbolic_and_matrix_controls_plus_genuine_changed_input_faults",
+  "checks": 40,
+  "faults": 6,
+  "fault_failures": {
+    "too_small_value_bound": [
+      "interpolation_sharp_midpoint"
+    ],
+    "too_small_derivative_bound": [
+      "derivative_sharp_endpoint"
+    ],
+    "lost_covariance": [
+      "correlated_support_saturation"
+    ],
+    "lost_noise_amplification": [
+      "secant_noise_amplification"
+    ],
+    "wrong_energy_cross": [
+      "weak_energy_cancellation_0",
+      "weak_energy_cancellation_1",
+      "weak_energy_cancellation_2"
+    ],
+    "overlarge_noise": [
+      "actual_rejection_consumer"
+    ]
+  },
+  "sha256": {
+    "explorations/conditional-build/k2268-observation-regularity-cosmology-2026-10-29.md": "af78caaabb97faa30a1a358795de1bf55d6a6e230c03dec4b4db6d9737cda09c",
+    "tests/channel-swings/k2268_observation_regularity_cosmology_probe.py": "e59131ed5bb94fef182b2c9373d532014c7aacff30b8385514b3a9bc6f411a48",
+    "explorations/conditional-build/k2266-windowed-cosmology-test-2026-10-29.md": "94ecdb75d32c4477db6d2dc771926a0d307855f0484c0dd6c9fb451d8eb1ed77"
+  },
+  "ceiling": "Finite checks supplement written proofs; no empirical, source, novelty, Lean or remote-CI certification."
+}

@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2268-observation-regularity-cosmology](k2268-observation-regularity-cosmology.json).
+- [k2269-correlated-cosmology-certificate](k2269-correlated-cosmology-certificate.json).
+- [k2270-untruncated-detector-control](k2270-untruncated-detector-control.json).
+
+
 - [k2265-shared-cosmology-consistency](k2265-shared-cosmology-consistency.json).
 - [k2266-windowed-cosmology-test](k2266-windowed-cosmology-test.json).
 - [k2267-nearest-neighbor-detector](k2267-nearest-neighbor-detector.json).

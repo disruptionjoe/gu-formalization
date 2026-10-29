@@ -5,6 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-10-29: FINITE OBSERVATION AND UNTRUNCATED CONTROL.**
+> Prioritize an actual calibrated cosmological observation operator and independently justified reconstruction-bias/regularity class, or a validated common-interval forward likelihood with shared initial data and ruler. The2001-node and two-mode ellipsoid examples are stipulated experiments, not survey results. Do not repeat finite-node impossibility, weak interpolation cancellation or abstract untruncated controllability. Strongest apparatus alternative: a specified coherent-stock and restricted-control implementation with higher-moment/energy accounting and affordable error budget; finite mean charge does not bound Kerr energy or perturbative leaked energy. Source-owned matter/light and physical preparation/readout cost can overtake with actual inputs. Preserve native2+1/nonchiral,full16cells/full20/K-C,physical quotient,mirrors/fullII/normaljets,scalar/thermal and cosmology ceilings.
+> Earlier banners are historical; use this current condition.
+
+
 > **2026-10-29: SHARED COSMOLOGY AND FINITE-RANGE CONTROL.**
 > Test the fixed quadratic cosmology with a validated finite-interval solution family and an explicit observation operator, joint initial data, ruler and covariance; do not infer an empirical test from finite nodes or the weak derivative identity. The new radius1e-8 exclusion assumes a specified dimensionless C1 norm and |alpha/b|<=100. Compare that next calculation with bounded-resource, ordinary-untruncated detector control and coherent-stock supply; K2267 needs enlarged hard walls and a huge endpoint workspace, not merely a finite graph. Source-owned matter/light and physical preparation/readout cost remain alternatives. Preserve native2+1/nonchiral,full16cells/full20/K-C,physical quotient,mirrors/fullII/normaljets,scalar/thermal and cosmology ceilings.
 > Earlier banners are historical; use this current condition.

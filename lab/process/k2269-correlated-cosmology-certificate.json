@@ -1,0 +1,47 @@
+{
+  "result_id": "K2269",
+  "status": "internally_reviewed_conditional_mathematics",
+  "evidence_kind": "finite_exact_symbolic_and_matrix_controls_plus_genuine_changed_input_faults",
+  "checks": 34,
+  "faults": 7,
+  "fault_failures": {
+    "wrong_annihilator": [
+      "moment_0",
+      "moment_1",
+      "moment_2",
+      "moment_3",
+      "moment_4",
+      "moment_6",
+      "independent_formula",
+      "rho_annihilator"
+    ],
+    "lost_cross_term": [
+      "independent_formula"
+    ],
+    "expanded_uncertainty": [
+      "PSD_-100_3",
+      "positive_reconstruction",
+      "bounded_reconstruction",
+      "bounded_derivative"
+    ],
+    "unchecked_far_endpoint": [
+      "PSD_100000000_3"
+    ],
+    "wrong_S_procedure_sign": [
+      "certificate_identity_-100",
+      "certificate_identity_100"
+    ],
+    "lost_observation_correlations": [
+      "correlated_design_ellipsoid"
+    ],
+    "excess_model_bias": [
+      "nonpolynomial_bias_consumer"
+    ]
+  },
+  "sha256": {
+    "explorations/conditional-build/k2269-correlated-cosmology-certificate-2026-10-29.md": "d7eb4bcd50f711a19017471a4829e9ef011009bc58fc3b0cf87c27ab69d17c50",
+    "tests/channel-swings/k2269_correlated_cosmology_certificate_probe.py": "191161be56274563dacc5dd954570395633c83ab1334c11976cfc7d5a30a82f4",
+    "explorations/conditional-build/k2266-windowed-cosmology-test-2026-10-29.md": "94ecdb75d32c4477db6d2dc771926a0d307855f0484c0dd6c9fb451d8eb1ed77"
+  },
+  "ceiling": "Finite checks supplement written proofs; no empirical, source, novelty, Lean or remote-CI certification."
+}

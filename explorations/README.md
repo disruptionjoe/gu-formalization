@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2268-observation-regularity-cosmology-2026-10-29](conditional-build/k2268-observation-regularity-cosmology-2026-10-29.md).
+- [k2269-correlated-cosmology-certificate-2026-10-29](conditional-build/k2269-correlated-cosmology-certificate-2026-10-29.md).
+- [k2270-untruncated-detector-control-2026-10-29](conditional-build/k2270-untruncated-detector-control-2026-10-29.md).
+
+
 - [k2265-shared-cosmology-consistency-2026-10-29](conditional-build/k2265-shared-cosmology-consistency-2026-10-29.md).
 - [k2266-windowed-cosmology-test-2026-10-29](conditional-build/k2266-windowed-cosmology-test-2026-10-29.md).
 - [k2267-nearest-neighbor-detector-2026-10-29](conditional-build/k2267-nearest-neighbor-detector-2026-10-29.md).

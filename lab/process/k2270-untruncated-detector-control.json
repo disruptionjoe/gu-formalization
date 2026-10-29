@@ -1,0 +1,39 @@
+{
+  "result_id": "K2270",
+  "status": "internally_reviewed_conditional_mathematics",
+  "evidence_kind": "finite_exact_symbolic_and_matrix_controls_plus_genuine_changed_input_faults",
+  "checks": 46,
+  "faults": 4,
+  "fault_failures": {
+    "nonphysical_hopping": [
+      "genuine_swap_1",
+      "supported_hopping_norm_1",
+      "genuine_swap_2",
+      "supported_hopping_norm_2",
+      "genuine_swap_3",
+      "edge_to_30",
+      "middle_physical_amplitude",
+      "supported_hopping_norm_3",
+      "genuine_swap_4",
+      "supported_hopping_norm_4"
+    ],
+    "lost_swap_phase": [
+      "genuine_swap_1",
+      "genuine_swap_2",
+      "genuine_swap_3"
+    ],
+    "lost_outgoing_perturbation": [
+      "outgoing_projected_norm_squared"
+    ],
+    "excess_perturbation_budget": [
+      "full_channel_budget"
+    ]
+  },
+  "sha256": {
+    "explorations/conditional-build/k2270-untruncated-detector-control-2026-10-29.md": "3de1aee897b844de209998006d3832062549f6fd17cf97b59234472213498ca8",
+    "tests/channel-swings/k2270_untruncated_detector_control_probe.py": "e8a8a7e1693b1bace67f48fb856b72bd31db7d4066434305539f7656056b3edb",
+    "explorations/conditional-build/k2267-nearest-neighbor-detector-2026-10-29.md": "c53b82055fde2e4b4100fd19694e36644a7b330314452dc559628609c49ff305",
+    "explorations/conditional-build/k2253-full-instrument-reference-reuse-2026-10-29.md": "2db4b83728046f3a40ab8c207c4a2014ff7a27752a792a1bd40bf657ad265749"
+  },
+  "ceiling": "Finite checks supplement written proofs; no empirical, source, novelty, Lean or remote-CI certification."
+}

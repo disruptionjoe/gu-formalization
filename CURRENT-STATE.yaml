@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 6bf6bedfc6a58b5c21b56348a57549477682c5d1
+revision_basis: fb7a3c37dec2f1061ecdcb2b61d742e3356c1aa4
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,18 +118,17 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
-    K2265 derives an exact whole-interval shared-coefficient criterion for the fixed
-    flat vacuum quadratic metric action, proves full-equation sufficiency and classifies
-    the zero-F constant-curvature branch. It excludes every exact dust-plus-constant
-    expansion shape with nonzero dust coefficient in this vacuum family, while a
-    nonconstant positive-F pure-R2 solution survives. K2266 constructs weak windows,
-    joint profiling, a robust C1 neighborhood exclusion at radius1e-8 with
-    |alpha/b|<=100, a shared-domain forward interface and an exact
-    finite-H-and-distance-node counterconstruction. K2267 replaces all-pair detector
-    nonlinearities by nearest-neighbor routing on a supplied finite path after enlarging
-    every charged cap and rebuilding the shell compiler; the complete ten-call error
-    remains below.00934 with explicit huge resource budgets. These are conditional
-    models; source claims, ledger0.263 and physics mapping grades remain unchanged.
+    K2268 converts a stipulated finite y=H² observation/error ellipsoid and independent
+    curvature bound into a continuum vacuum-family rejection; weak-energy cancellation
+    yields an exact nonempty2001-node example with error1e-8 and |alpha/b|<=100. K2269
+    retains joint coefficient correlations in a quadratic PSD certificate with
+    margin1/200, unrestricted rho/b and separately priced nonpolynomial C1
+    discrepancy1e-8. K2270 removes detector hardwalls using genuine number-conserving
+    full-Fock controls: ideal sector leakage is zero, projected perturbations control
+    full-channel error and leakage probability, and the ten-call error remains
+    below.00934. Signed Kerr energy, coherent supply, huge workspace/control costs and
+    actual cosmological observation/error justification remain open. Source claims,
+    ledger0.263 and physical mappings are unchanged.
     Historical predecessor (not live): K2258 proves that every positive subspace with an equivalent L2 norm and selfadjoint evolution of
     the fixed raw constrained operator has stable Fourier support, without assuming a
     fibrewise metric or translation invariance. Consequently no nonzero smooth
@@ -17563,6 +17562,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2268-observation-regularity-cosmology-2026-10-29.md
+  - explorations/conditional-build/k2269-correlated-cosmology-certificate-2026-10-29.md
+  - explorations/conditional-build/k2270-untruncated-detector-control-2026-10-29.md
+  - lab/process/k2268-observation-regularity-cosmology.json
+  - lab/process/k2269-correlated-cosmology-certificate.json
+  - lab/process/k2270-untruncated-detector-control.json
   - explorations/conditional-build/k2265-shared-cosmology-consistency-2026-10-29.md
   - explorations/conditional-build/k2266-windowed-cosmology-test-2026-10-29.md
   - explorations/conditional-build/k2267-nearest-neighbor-detector-2026-10-29.md
@@ -19307,10 +19312,9 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can the fixed conditional quadratic vacuum cosmology be tested on one common finite
-  interval through a declared observation operator and correlated errors, or can
-  finite-range detector synthesis shed its enlarged hardwalls and huge
-  coherent/workspace resources?
+  Can the conditional cosmology acquire a justified observation-plus-continuous-bias
+  interface or a validated shared-domain forward likelihood, and can the untruncated
+  detector meet a specified finite-energy/coherent-supply implementation budget?
   Historical predecessor (not live): Can a source-owned global quotient or differential-constraint domain supply local
   observables and causal physical dynamics for the fixed raw candidate, and can the
   detector/reset apparatus renew its actual charged/coherent stock through a priced
@@ -23364,15 +23368,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Test the fixed quadratic cosmology with a validated finite-interval solution family
-  and an explicit observation operator, joint initial data, ruler and covariance; do not
-  infer an empirical test from finite nodes or the weak derivative identity. The new
-  radius1e-8 exclusion assumes a specified dimensionless C1 norm and |alpha/b|<=100.
-  Compare that next calculation with bounded-resource, ordinary-untruncated detector
-  control and coherent-stock supply; K2267 needs enlarged hard walls and a huge endpoint
-  workspace, not merely a finite graph. Source-owned matter/light and physical
-  preparation/readout cost remain alternatives. Preserve
-  native2+1/nonchiral,full16cells/full20/K-C,physical
+  Prioritize an actual calibrated cosmological observation operator and independently
+  justified reconstruction-bias/regularity class, or a validated common-interval forward
+  likelihood with shared initial data and ruler. The2001-node and two-mode ellipsoid
+  examples are stipulated experiments, not survey results. Do not repeat finite-node
+  impossibility, weak interpolation cancellation or abstract untruncated
+  controllability. Strongest apparatus alternative: a specified coherent-stock and
+  restricted-control implementation with higher-moment/energy accounting and affordable
+  error budget; finite mean charge does not bound Kerr energy or perturbative leaked
+  energy. Source-owned matter/light and physical preparation/readout cost can overtake
+  with actual inputs. Preserve native2+1/nonchiral,full16cells/full20/K-C,physical
   quotient,mirrors/fullII/normaljets,scalar/thermal and cosmology ceilings.
   Historical predecessor (not live): Do not repeat local differential preparation into an equivalent positive raw subspace,
   fresh partial-collision donor renewal, or phase-blind charge replenishment bounds.
