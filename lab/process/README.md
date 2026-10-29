@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2230-time-dependent-pairing-compatibility](k2230-time-dependent-pairing-compatibility.json).
+- [k2231-spatial-local-control-boundary](k2231-spatial-local-control-boundary.json).
+- [k2232-smooth-reset-and-thermal-renewal](k2232-smooth-reset-and-thermal-renewal.json).
+
+
 - [k2227-same-pairing-temporal-compatibility](k2227-same-pairing-temporal-compatibility.json).
 - [k2228-continuum-energy-form-detector-control](k2228-continuum-energy-form-detector-control.json).
 - [k2229-finite-step-thermal-reset-work](k2229-finite-step-thermal-reset-work.json).

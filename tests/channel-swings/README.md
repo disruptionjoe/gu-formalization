@@ -1,4 +1,9 @@
 
+- [k2230_time_dependent_pairing_compatibility_probe](k2230_time_dependent_pairing_compatibility_probe.py).
+- [k2231_spatial_local_control_boundary_probe](k2231_spatial_local_control_boundary_probe.py).
+- [k2232_smooth_reset_and_thermal_renewal_probe](k2232_smooth_reset_and_thermal_renewal_probe.py).
+
+
 - [k2227_same_pairing_temporal_compatibility_probe](k2227_same_pairing_temporal_compatibility_probe.py).
 - [k2228_continuum_energy_form_detector_control_probe](k2228_continuum_energy_form_detector_control_probe.py).
 - [k2229_finite_step_thermal_reset_work_probe](k2229_finite_step_thermal_reset_work_probe.py).

@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2230-time-dependent-pairing-compatibility-2026-10-29](conditional-build/k2230-time-dependent-pairing-compatibility-2026-10-29.md).
+- [k2231-spatial-local-control-boundary-2026-10-29](conditional-build/k2231-spatial-local-control-boundary-2026-10-29.md).
+- [k2232-smooth-reset-and-thermal-renewal-2026-10-29](conditional-build/k2232-smooth-reset-and-thermal-renewal-2026-10-29.md).
+
+
 - [k2227-same-pairing-temporal-compatibility-2026-10-28](conditional-build/k2227-same-pairing-temporal-compatibility-2026-10-28.md).
 - [k2228-continuum-energy-form-detector-control-2026-10-28](conditional-build/k2228-continuum-energy-form-detector-control-2026-10-28.md).
 - [k2229-finite-step-thermal-reset-work-2026-10-28](conditional-build/k2229-finite-step-thermal-reset-work-2026-10-28.md).

@@ -1,0 +1,231 @@
+{
+  "result": "K2231",
+  "controls": [
+    {
+      "name": "canonical_normalization",
+      "passed": true
+    },
+    {
+      "name": "target_polarization",
+      "passed": true
+    },
+    {
+      "name": "local_polarization",
+      "passed": true
+    },
+    {
+      "name": "q_energy_lower_bound",
+      "passed": true
+    },
+    {
+      "name": "p_energy_lower_bound",
+      "passed": true
+    },
+    {
+      "name": "retained_drift_cross",
+      "passed": true
+    },
+    {
+      "name": "susceptibility",
+      "passed": true
+    },
+    {
+      "name": "schur_remainder_3",
+      "passed": true
+    },
+    {
+      "name": "explicit_schur_vector_3",
+      "passed": true
+    },
+    {
+      "name": "square_completion",
+      "passed": true
+    },
+    {
+      "name": "square_completion",
+      "passed": true
+    },
+    {
+      "name": "square_completion",
+      "passed": true
+    },
+    {
+      "name": "square_completion",
+      "passed": true
+    },
+    {
+      "name": "schur_remainder_4",
+      "passed": true
+    },
+    {
+      "name": "explicit_schur_vector_4",
+      "passed": true
+    },
+    {
+      "name": "square_completion",
+      "passed": true
+    },
+    {
+      "name": "square_completion",
+      "passed": true
+    },
+    {
+      "name": "square_completion",
+      "passed": true
+    },
+    {
+      "name": "square_completion",
+      "passed": true
+    },
+    {
+      "name": "static_elimination",
+      "passed": true
+    },
+    {
+      "name": "bilocal_completion_counterterm",
+      "passed": true
+    },
+    {
+      "name": "static_elimination",
+      "passed": true
+    },
+    {
+      "name": "bilocal_completion_counterterm",
+      "passed": true
+    },
+    {
+      "name": "static_elimination",
+      "passed": true
+    },
+    {
+      "name": "bilocal_completion_counterterm",
+      "passed": true
+    },
+    {
+      "name": "star_hamiltonian_symmetry",
+      "passed": true
+    },
+    {
+      "name": "stable_star_determinant",
+      "passed": true
+    },
+    {
+      "name": "star_zero_second_order_cross",
+      "passed": true
+    },
+    {
+      "name": "star_fourth_order_cross",
+      "passed": true
+    },
+    {
+      "name": "star_response_t4",
+      "passed": true
+    },
+    {
+      "name": "retarded_kernel_initial_derivative",
+      "passed": true
+    },
+    {
+      "name": "retarded_kernel_ode_1",
+      "passed": true
+    },
+    {
+      "name": "retarded_kernel_ode_3",
+      "passed": true
+    },
+    {
+      "name": "retarded_memory_t4",
+      "passed": true
+    },
+    {
+      "name": "block_memory_agreement",
+      "passed": true
+    },
+    {
+      "name": "auxiliary_inverse",
+      "passed": true
+    },
+    {
+      "name": "distributed_correction_rank",
+      "passed": true
+    },
+    {
+      "name": "distributed_cross",
+      "passed": true
+    },
+    {
+      "name": "distributed_q_diagonal",
+      "passed": true
+    },
+    {
+      "name": "distributed_schur_positive",
+      "passed": true
+    },
+    {
+      "name": "sufficient_stability",
+      "passed": true
+    },
+    {
+      "name": "distributed_no_two_edge_cross",
+      "passed": true
+    },
+    {
+      "name": "distributed_three_edge_cross",
+      "passed": true
+    }
+  ],
+  "faults": {
+    "delete_bilocal_cross": [
+      "target_polarization",
+      "q_energy_lower_bound",
+      "p_energy_lower_bound",
+      "retained_drift_cross"
+    ],
+    "inject_local_cross": [
+      "local_polarization",
+      "q_energy_lower_bound",
+      "p_energy_lower_bound",
+      "retained_drift_cross"
+    ],
+    "wrong_susceptibility": [
+      "susceptibility",
+      "schur_remainder_3",
+      "square_completion",
+      "square_completion",
+      "square_completion",
+      "square_completion",
+      "schur_remainder_4",
+      "square_completion",
+      "square_completion",
+      "square_completion",
+      "square_completion"
+    ],
+    "wrong_minimizer_sign": [
+      "static_elimination",
+      "static_elimination",
+      "static_elimination"
+    ],
+    "omit_field_return": [
+      "star_hamiltonian_symmetry",
+      "stable_star_determinant",
+      "star_fourth_order_cross",
+      "star_response_t4",
+      "block_memory_agreement"
+    ],
+    "reverse_memory_sign": [
+      "retarded_memory_t4",
+      "block_memory_agreement"
+    ],
+    "collapse_distributed_rank": [
+      "distributed_correction_rank",
+      "distributed_cross",
+      "distributed_q_diagonal"
+    ]
+  },
+  "evidence_kind": "exact finite arithmetic/Clifford controls; universal proof is in the note",
+  "probe_sha256": "dbdabe8fbec65d2e3078ec406ee7537f142fbe84c9ba92a2d8778caefc7c5225",
+  "dependency_sha256": {
+    "explorations/conditional-build/k2228-continuum-energy-form-detector-control-2026-10-28.md": "a0734c44e33d5a81837fa93349d87e24d421ce5a51bc25be16c335d695ce5e0d",
+    "explorations/conditional-build/k2231-spatial-local-control-boundary-2026-10-29.md": "0224444aa09a33c16ab4e76ebbfa568f4ba669935b1f3eb5cba5ced996db9b3f"
+  }
+}

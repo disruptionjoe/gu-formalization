@@ -1,0 +1,555 @@
+{
+  "result": "K2232",
+  "controls": [
+    {
+      "name": "exact-control-001",
+      "passed": true
+    },
+    {
+      "name": "exact-control-002",
+      "passed": true
+    },
+    {
+      "name": "exact-control-003",
+      "passed": true
+    },
+    {
+      "name": "exact-control-004",
+      "passed": true
+    },
+    {
+      "name": "exact-control-005",
+      "passed": true
+    },
+    {
+      "name": "exact-control-006",
+      "passed": true
+    },
+    {
+      "name": "exact-control-007",
+      "passed": true
+    },
+    {
+      "name": "exact-control-008",
+      "passed": true
+    },
+    {
+      "name": "exact-control-009",
+      "passed": true
+    },
+    {
+      "name": "exact-control-010",
+      "passed": true
+    },
+    {
+      "name": "exact-control-011",
+      "passed": true
+    },
+    {
+      "name": "exact-control-012",
+      "passed": true
+    },
+    {
+      "name": "exact-control-013",
+      "passed": true
+    },
+    {
+      "name": "exact-control-014",
+      "passed": true
+    },
+    {
+      "name": "exact-control-015",
+      "passed": true
+    },
+    {
+      "name": "exact-control-016",
+      "passed": true
+    },
+    {
+      "name": "exact-control-017",
+      "passed": true
+    },
+    {
+      "name": "exact-control-018",
+      "passed": true
+    },
+    {
+      "name": "exact-control-019",
+      "passed": true
+    },
+    {
+      "name": "exact-control-020",
+      "passed": true
+    },
+    {
+      "name": "exact-control-021",
+      "passed": true
+    },
+    {
+      "name": "exact-control-022",
+      "passed": true
+    },
+    {
+      "name": "exact-control-023",
+      "passed": true
+    },
+    {
+      "name": "exact-control-024",
+      "passed": true
+    },
+    {
+      "name": "exact-control-025",
+      "passed": true
+    },
+    {
+      "name": "exact-control-026",
+      "passed": true
+    },
+    {
+      "name": "exact-control-027",
+      "passed": true
+    },
+    {
+      "name": "exact-control-028",
+      "passed": true
+    },
+    {
+      "name": "exact-control-029",
+      "passed": true
+    },
+    {
+      "name": "exact-control-030",
+      "passed": true
+    },
+    {
+      "name": "exact-control-031",
+      "passed": true
+    },
+    {
+      "name": "exact-control-032",
+      "passed": true
+    },
+    {
+      "name": "exact-control-033",
+      "passed": true
+    },
+    {
+      "name": "exact-control-034",
+      "passed": true
+    },
+    {
+      "name": "exact-control-035",
+      "passed": true
+    },
+    {
+      "name": "exact-control-036",
+      "passed": true
+    },
+    {
+      "name": "exact-control-037",
+      "passed": true
+    },
+    {
+      "name": "exact-control-038",
+      "passed": true
+    },
+    {
+      "name": "exact-control-039",
+      "passed": true
+    },
+    {
+      "name": "exact-control-040",
+      "passed": true
+    },
+    {
+      "name": "exact-control-041",
+      "passed": true
+    },
+    {
+      "name": "exact-control-042",
+      "passed": true
+    },
+    {
+      "name": "exact-control-043",
+      "passed": true
+    },
+    {
+      "name": "exact-control-044",
+      "passed": true
+    },
+    {
+      "name": "exact-control-045",
+      "passed": true
+    },
+    {
+      "name": "exact-control-046",
+      "passed": true
+    },
+    {
+      "name": "exact-control-047",
+      "passed": true
+    },
+    {
+      "name": "exact-control-048",
+      "passed": true
+    },
+    {
+      "name": "exact-control-049",
+      "passed": true
+    },
+    {
+      "name": "exact-control-050",
+      "passed": true
+    },
+    {
+      "name": "exact-control-051",
+      "passed": true
+    },
+    {
+      "name": "exact-control-052",
+      "passed": true
+    },
+    {
+      "name": "exact-control-053",
+      "passed": true
+    },
+    {
+      "name": "exact-control-054",
+      "passed": true
+    },
+    {
+      "name": "exact-control-055",
+      "passed": true
+    },
+    {
+      "name": "exact-control-056",
+      "passed": true
+    },
+    {
+      "name": "exact-control-057",
+      "passed": true
+    },
+    {
+      "name": "exact-control-058",
+      "passed": true
+    },
+    {
+      "name": "exact-control-059",
+      "passed": true
+    },
+    {
+      "name": "exact-control-060",
+      "passed": true
+    },
+    {
+      "name": "exact-control-061",
+      "passed": true
+    },
+    {
+      "name": "exact-control-062",
+      "passed": true
+    },
+    {
+      "name": "exact-control-063",
+      "passed": true
+    },
+    {
+      "name": "exact-control-064",
+      "passed": true
+    },
+    {
+      "name": "exact-control-065",
+      "passed": true
+    },
+    {
+      "name": "exact-control-066",
+      "passed": true
+    },
+    {
+      "name": "exact-control-067",
+      "passed": true
+    },
+    {
+      "name": "exact-control-068",
+      "passed": true
+    },
+    {
+      "name": "exact-control-069",
+      "passed": true
+    },
+    {
+      "name": "exact-control-070",
+      "passed": true
+    },
+    {
+      "name": "exact-control-071",
+      "passed": true
+    },
+    {
+      "name": "exact-control-072",
+      "passed": true
+    },
+    {
+      "name": "exact-control-073",
+      "passed": true
+    },
+    {
+      "name": "exact-control-074",
+      "passed": true
+    },
+    {
+      "name": "exact-control-075",
+      "passed": true
+    },
+    {
+      "name": "exact-control-076",
+      "passed": true
+    },
+    {
+      "name": "exact-control-077",
+      "passed": true
+    },
+    {
+      "name": "exact-control-078",
+      "passed": true
+    },
+    {
+      "name": "exact-control-079",
+      "passed": true
+    },
+    {
+      "name": "exact-control-080",
+      "passed": true
+    },
+    {
+      "name": "exact-control-081",
+      "passed": true
+    },
+    {
+      "name": "exact-control-082",
+      "passed": true
+    },
+    {
+      "name": "exact-control-083",
+      "passed": true
+    },
+    {
+      "name": "exact-control-084",
+      "passed": true
+    },
+    {
+      "name": "exact-control-085",
+      "passed": true
+    },
+    {
+      "name": "exact-control-086",
+      "passed": true
+    },
+    {
+      "name": "exact-control-087",
+      "passed": true
+    },
+    {
+      "name": "exact-control-088",
+      "passed": true
+    },
+    {
+      "name": "exact-control-089",
+      "passed": true
+    },
+    {
+      "name": "exact-control-090",
+      "passed": true
+    },
+    {
+      "name": "exact-control-091",
+      "passed": true
+    },
+    {
+      "name": "swap-area-endpoint",
+      "passed": true
+    },
+    {
+      "name": "exact-control-093",
+      "passed": true
+    },
+    {
+      "name": "exact-control-094",
+      "passed": true
+    },
+    {
+      "name": "exact-control-095",
+      "passed": true
+    },
+    {
+      "name": "exact-control-096",
+      "passed": true
+    },
+    {
+      "name": "exact-control-097",
+      "passed": true
+    },
+    {
+      "name": "exact-control-098",
+      "passed": true
+    },
+    {
+      "name": "exact-control-099",
+      "passed": true
+    },
+    {
+      "name": "exact-control-100",
+      "passed": true
+    },
+    {
+      "name": "exact-control-101",
+      "passed": true
+    },
+    {
+      "name": "exact-control-102",
+      "passed": true
+    },
+    {
+      "name": "exact-control-103",
+      "passed": true
+    },
+    {
+      "name": "exact-control-104",
+      "passed": true
+    },
+    {
+      "name": "exact-control-105",
+      "passed": true
+    },
+    {
+      "name": "exact-control-106",
+      "passed": true
+    },
+    {
+      "name": "exact-control-107",
+      "passed": true
+    },
+    {
+      "name": "exact-control-108",
+      "passed": true
+    },
+    {
+      "name": "exact-control-109",
+      "passed": true
+    },
+    {
+      "name": "exact-control-110",
+      "passed": true
+    },
+    {
+      "name": "exact-control-111",
+      "passed": true
+    },
+    {
+      "name": "unequal-gap-countercontrol",
+      "passed": true
+    },
+    {
+      "name": "double-area-countercontrol",
+      "passed": true
+    },
+    {
+      "name": "correlated-coupling-exchange-bound",
+      "passed": true
+    },
+    {
+      "name": "singlet-coupling-expectation",
+      "passed": true
+    },
+    {
+      "name": "fresh-product-entry-coupling-exchange-bound",
+      "passed": true
+    }
+  ],
+  "faults": {
+    "coherence-decay-rate": [
+      "exact-control-006",
+      "exact-control-010",
+      "exact-control-026",
+      "exact-control-030",
+      "exact-control-042",
+      "exact-control-046",
+      "exact-control-050",
+      "exact-control-054",
+      "exact-control-066",
+      "exact-control-070"
+    ],
+    "upward-detailed-balance-rate": [
+      "exact-control-002",
+      "exact-control-014",
+      "exact-control-018",
+      "exact-control-022",
+      "exact-control-034",
+      "exact-control-038",
+      "exact-control-058",
+      "exact-control-062",
+      "exact-control-074",
+      "exact-control-078",
+      "exact-control-082",
+      "exact-control-083",
+      "exact-control-088"
+    ],
+    "finite-time-exact-renewal": [
+      "exact-control-002",
+      "exact-control-006",
+      "exact-control-010",
+      "exact-control-014",
+      "exact-control-018",
+      "exact-control-022",
+      "exact-control-026",
+      "exact-control-030",
+      "exact-control-034",
+      "exact-control-038",
+      "exact-control-042",
+      "exact-control-046",
+      "exact-control-050",
+      "exact-control-054",
+      "exact-control-058",
+      "exact-control-062",
+      "exact-control-066",
+      "exact-control-070",
+      "exact-control-074",
+      "exact-control-078",
+      "exact-control-089"
+    ],
+    "omitted-final-gap-lowering": [
+      "exact-control-101",
+      "exact-control-102",
+      "exact-control-103",
+      "exact-control-104",
+      "exact-control-105"
+    ],
+    "reservoir-heat-sign": [
+      "exact-control-101",
+      "exact-control-102",
+      "exact-control-103",
+      "exact-control-104",
+      "exact-control-105"
+    ],
+    "unequal-contact-gaps": [
+      "exact-control-093"
+    ],
+    "double-swap-pulse-area": [
+      "swap-area-endpoint",
+      "exact-control-094",
+      "exact-control-095",
+      "exact-control-096",
+      "exact-control-097"
+    ],
+    "fresh-entry-coupling-bound-on-correlated-state": [
+      "fresh-product-entry-coupling-exchange-bound"
+    ]
+  },
+  "evidence_kind": "exact finite arithmetic/Clifford controls; universal proof is in the note",
+  "probe_sha256": "5f1fbf306612c4cfc9457ed164f4c4e448c3625c9bddfa05e4ec83a0ebe212d4",
+  "dependency_sha256": {
+    "explorations/conditional-build/k2228-continuum-energy-form-detector-control-2026-10-28.md": "a0734c44e33d5a81837fa93349d87e24d421ce5a51bc25be16c335d695ce5e0d",
+    "explorations/conditional-build/k2229-finite-step-thermal-reset-work-2026-10-28.md": "72ef52f5a5828b392a66b9c1cbeb3bf478ef342fd8a52f888afdbcc65f089010",
+    "explorations/conditional-build/k2232-smooth-reset-and-thermal-renewal-2026-10-29.md": "cb8e3c2bbfb8782c272a88b299c506c94c04bfd9abc20bbbbd9cc36f887f5372"
+  }
+}

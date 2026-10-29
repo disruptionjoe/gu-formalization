@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f7c32a9e3511eb1e0fc1f9c84286b47f20835129
+revision_basis: 69a538acdb363aa14a95b139b5077b8f909ebcac
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,7 +118,19 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
-    K2227 proves that fixed time-independent raw Omega0=mA+V cannot admit an invertible
+    K2230 proves that arbitrary time dependence cannot reconcile a nonsingular parallel
+    spinor pairing with the optional same-pairing normal trace in the fixed Clifford
+    class unless mV=0; a distinct-pairing massive raw construction supplies a genuinely
+    moving rank576 observation and exact propagator. K2231 excludes direct local
+    differential approximation of the fixed mode quadratic form, computes stable-star
+    arbitrarily-early response, and constructs a positive local auxiliary-field
+    alternative with finite propagation; that alternative supplies neither the rank-one
+    plateau nor the full quantum detector. K2232 replaces instantaneous reset controls
+    by exact smooth finite-duration pulses and supplies correlation-uniform thermal-bank
+    renewal:1701 reused cells have renewal error below7.554e-13, and1000 reset cycles
+    have complete error below0.000019306566 under the stated external Markov reservoirs.
+    Source claims, ledger0.263 and physical mappings remain unchanged.
+    Historical predecessor (not live): K2227 proves that fixed time-independent raw Omega0=mA+V cannot admit an invertible
     time-parallel spinor pairing also satisfying the optional same-pairing normal trace
     equations unless mV=0, regardless of spatial connection. A massless changed-spatial
     construction preserves original raw returns and current; a transported massive frame
@@ -17414,6 +17426,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2230-time-dependent-pairing-compatibility-2026-10-29.md
+  - explorations/conditional-build/k2231-spatial-local-control-boundary-2026-10-29.md
+  - explorations/conditional-build/k2232-smooth-reset-and-thermal-renewal-2026-10-29.md
+  - lab/process/k2230-time-dependent-pairing-compatibility.json
+  - lab/process/k2231-spatial-local-control-boundary.json
+  - lab/process/k2232-smooth-reset-and-thermal-renewal.json
   - explorations/conditional-build/k2227-same-pairing-temporal-compatibility-2026-10-28.md
   - explorations/conditional-build/k2228-continuum-energy-form-detector-control-2026-10-28.md
   - explorations/conditional-build/k2229-finite-step-thermal-reset-work-2026-10-28.md
@@ -19082,7 +19100,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can a source-admissible moving principal or time-dependent raw coefficient retain one
+  Can a genuinely local causal auxiliary-field interaction implement the same complete
+  canonical-mode quantum instrument with a proved energy-constrained channel error, and
+  can the smooth reusable-bank protocol obtain a microscopic reservoir or clock model?
+  On the source-facing branch, can a degree-dependent full raw pairing/observation
+  assignment supply a source-admissible bridge after the optional single-spinor same-G
+  condition is excluded even with time dependence?
+  Historical predecessor (not live): Can a source-admissible moving principal or time-dependent raw coefficient retain one
   common pairing/return and typed observation, and can supplied continuum mode controls
   and resonant reset be replaced by spatially local interactions, a finite switching
   model and renewed thermal resources?
@@ -23088,7 +23112,23 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Do not repeat arbitrary spatial repair of the fixed massive same-pairing temporal
+  Do not repeat time-dependent repair of the fixed-gamma same-spinor-pairing class,
+  direct local differential replacement of the canonical mode quadratic form, or
+  finite-time Gibbs-bank reset accounting. K2230 supplies an actual moving massive raw
+  observation only with distinct pairing roles; a source-facing successor must change
+  the declared pairing/principal/trace premise and test shared original returns. K2231
+  supplies a stable causal classical auxiliary field, but its static correction is
+  negative and infinite-rank; construct dynamic mode selection and the nonlinear record
+  control with a quantum energy-domain/error bridge before claiming the detector is
+  local. K2232 reuses1701 cells only with supplied thermal Markov reservoirs and
+  external timing; derive a microscopic reservoir approximation, clock/resource model or
+  finite-error physical coupling without reusing ideal later-cycle priors. Broader
+  contrast certification and real nonsingular all-ten-row adapters remain alternatives
+  requiring fresh analytic inputs. Preserve
+  source/full16cells/full20/K-C,native2+1/chirality,physical
+  quotient,mirrors/fullII/normaljets,scalar and thermal optima,restricted cosmology and
+  exact wings.
+  Historical predecessor (not live): Do not repeat arbitrary spatial repair of the fixed massive same-pairing temporal
   class, fixed-mode continuum form bounds or finite-step resonant reset accounting. The
   source-facing alternatives must change time dependence, principal/normal frame or the
   optional same-pairing trace premise and then test all original returns jointly; the

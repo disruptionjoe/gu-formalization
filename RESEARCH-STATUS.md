@@ -6,6 +6,25 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2230--K2232: Conditional research results (2026-10-29)
+
+K2230 proves that arbitrary time dependence cannot reconcile a nonsingular parallel spinor pairing with the optional same-pairing normal trace in the fixed Clifford class unless mV=0; a distinct-pairing massive raw construction supplies a genuinely moving rank576 observation and exact propagator. K2231 excludes direct local differential approximation of the fixed mode quadratic form, computes stable-star arbitrarily-early response, and constructs a positive local auxiliary-field alternative with finite propagation; that alternative supplies neither the rank-one plateau nor the full quantum detector. K2232 replaces instantaneous reset controls by exact smooth finite-duration pulses and supplies correlation-uniform thermal-bank renewal:1701 reused cells have renewal error below7.554e-13, and1000 reset cycles have complete error below0.000019306566 under the stated external Markov reservoirs. Source claims, ledger0.263 and physical mappings remain unchanged.
+
+- [K2230](explorations/conditional-build/k2230-time-dependent-pairing-compatibility-2026-10-29.md).
+- [K2231](explorations/conditional-build/k2231-spatial-local-control-boundary-2026-10-29.md).
+- [K2232](explorations/conditional-build/k2232-smooth-reset-and-thermal-renewal-2026-10-29.md).
+
+Independent read-only specialists cross-reviewed actual proofs, probes and certificates. Final serialized exact controls pass1054+43+116=1213, with23 genuinely changed mathematical inputs rejected by unchanged checks after green baselines. Universal polar/domain, support/propagation and quantum-channel/entropy arguments are written proofs; finite controls and note/code/dependency consistency are separate evidence. The default probes reject stale certificates. No heavy build, Lean, proof-assistant, external-expert, novelty or remote-CI certification is claimed.
+
+| Claim | Prior status | Current result and ceiling | Weakest remaining dependency |
+|---|---|---|---|
+| K2230 same-G/moving observation | variable-time class open after K2227 | mV=0 necessary even for nonsymmetric G; distinct-pairing actual raw moving observation survives | optional trace premise is not source-owned; full physical observation/action open |
+| K2231 local controls | K2228 supplies nonlocal direct mode controls | direct Cauchy-form replacement excluded; stable star acausal; distributed classical field causal | desired positive mode plateau, nonlinear record and quantum channel approximation open |
+| K2232 reusable reset bank | K2229 fresh cells and instantaneous controls | smooth exact SWAP; reference-uniform approximate renewal and same-bank repeated work/heat bounds | external thermal Markov reservoir, rates and timing supplied |
+
+Earlier sections are historical.
+
+
 ## K2227--K2229: Conditional research results (2026-10-28)
 
 K2227 proves that fixed time-independent raw Omega0=mA+V cannot admit an invertible time-parallel spinor pairing also satisfying the optional same-pairing normal trace equations unless mV=0, regardless of spatial connection. A massless changed-spatial construction preserves original raw returns and current; a transported massive frame changes principal data and escapes the stated class. K2228 proves reference-uniform continuum detector approximation with retained physical drift for a fixed regular canonical Bogoliubov mode and supplied positive nonlocal controls; constants depend on mode energy norms rather than ultraviolet spectator count. K2229 constructs finite-step positive resonant thermal reset with exact mean work/dissipation:1701 fresh cells give error below1.930581e-8 and0.616212<beta W<0.616260 for the certified ideal detector prior. Detector approximation delta changes reset work by at most x0 delta; bath renewal, clock, energy-output convergence and local physical implementation remain open. Source assertions, ledger0.263 and physical mappings unchanged.
