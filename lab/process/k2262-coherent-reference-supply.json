@@ -1,0 +1,102 @@
+{
+  "result_id": "K2262",
+  "checks": {
+    "swap_unitary": true,
+    "swap_hermitian": true,
+    "number_conserved": true,
+    "positive_generator": true,
+    "swap_propagator": true,
+    "full_history_transfer": true,
+    "fresh_mixed_stock_decouples": true,
+    "correlated_countercontrol": true,
+    "sine_normalized_2": true,
+    "sine_mean_2": true,
+    "sine_variance_2": true,
+    "stock_orbit_2_1": true,
+    "bernoulli_orbit_2_1": true,
+    "offset_invariance_2_1": true,
+    "stock_orbit_2_2": true,
+    "bernoulli_orbit_2_2": true,
+    "offset_invariance_2_2": true,
+    "stock_orbit_2_5": true,
+    "bernoulli_orbit_2_5": true,
+    "offset_invariance_2_5": true,
+    "stock_orbit_2_10": true,
+    "bernoulli_orbit_2_10": true,
+    "offset_invariance_2_10": true,
+    "sine_normalized_3": true,
+    "sine_mean_3": true,
+    "sine_variance_3": true,
+    "stock_orbit_3_1": true,
+    "bernoulli_orbit_3_1": true,
+    "offset_invariance_3_1": true,
+    "stock_orbit_3_2": true,
+    "bernoulli_orbit_3_2": true,
+    "offset_invariance_3_2": true,
+    "stock_orbit_3_5": true,
+    "bernoulli_orbit_3_5": true,
+    "offset_invariance_3_5": true,
+    "stock_orbit_3_10": true,
+    "bernoulli_orbit_3_10": true,
+    "offset_invariance_3_10": true,
+    "recorded_fidelity": true,
+    "halfturn_recorded_fidelity": true,
+    "halfturn_stock_overlap": true,
+    "joint_restoration_bound": true,
+    "linear_stock_drop_1": true,
+    "linear_stock_drop_2": true,
+    "linear_stock_drop_5": true,
+    "linear_stock_drop_100": true,
+    "linear_stock_consumer": true,
+    "input_tail_square": true,
+    "output_tail_square": true,
+    "phase_bound": true,
+    "complete_consumer": true,
+    "capacity": true,
+    "occupied": true,
+    "mean": true,
+    "whole_stock_mean": true,
+    "empty_margins_not_charge": true,
+    "pulse_area": true,
+    "pulse_endpoint": true,
+    "pulse_slew_endpoint": true
+  },
+  "fault_failures": {
+    "omit_swap": [
+      "full_history_transfer",
+      "fresh_mixed_stock_decouples"
+    ],
+    "unequal_charge_spectra": [
+      "number_conserved"
+    ],
+    "dephase_donor": [
+      "full_history_transfer"
+    ],
+    "correlated_stock": [
+      "fresh_mixed_stock_decouples"
+    ],
+    "wrong_orbit_power": [
+      "stock_orbit_2_1",
+      "stock_orbit_2_2",
+      "stock_orbit_2_5",
+      "stock_orbit_2_10",
+      "stock_orbit_3_1",
+      "stock_orbit_3_2",
+      "stock_orbit_3_5",
+      "stock_orbit_3_10"
+    ],
+    "coherent_record_sum": [
+      "recorded_fidelity"
+    ],
+    "missing_stock_cell": [
+      "whole_stock_mean"
+    ]
+  },
+  "evidence_kinds": "Finite exact algebra, rational resource and changed-input controls. Universal continuum/channel theorems are written proofs; hashes establish report provenance only.",
+  "dependency_sha256": {
+    "explorations/conditional-build/k2262-coherent-reference-supply-2026-10-29.md": "143cc4ec15fd03429b4380886e2c88201c204b0c596ffa9b50f0197bea2cf3d9",
+    "explorations/conditional-build/k2253-full-instrument-reference-reuse-2026-10-29.md": "2db4b83728046f3a40ab8c207c4a2014ff7a27752a792a1bd40bf657ad265749",
+    "explorations/conditional-build/k2260-coherent-replenishment-bound-2026-10-29.md": "d2b1df52b9e93c21e57eedae1f26c9786294075c180351eb67feef8417988289"
+  },
+  "probe_sha256": "a9857355fd707b6c8336b6d19b0b4fd99942b1f88c916501b2af66bc7b70cd99"
+}

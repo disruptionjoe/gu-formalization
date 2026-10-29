@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2261-band-quotient-local-observation](k2261-band-quotient-local-observation.json).
+- [k2262-coherent-reference-supply](k2262-coherent-reference-supply.json).
+
+
 - [k2258-variable-local-preparation](k2258-variable-local-preparation.json).
 - [k2259-microscopic-donor-renewal](k2259-microscopic-donor-renewal.json).
 - [k2260-coherent-replenishment-bound](k2260-coherent-replenishment-bound.json).

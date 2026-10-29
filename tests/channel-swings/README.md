@@ -1,4 +1,8 @@
 
+- [k2261_band_quotient_local_observation_probe](k2261_band_quotient_local_observation_probe.py).
+- [k2262_coherent_reference_supply_probe](k2262_coherent_reference_supply_probe.py).
+
+
 - [k2258_variable_local_preparation_probe](k2258_variable_local_preparation_probe.py).
 - [k2259_microscopic_donor_renewal_probe](k2259_microscopic_donor_renewal_probe.py).
 - [k2260_coherent_replenishment_bound_probe](k2260_coherent_replenishment_bound_probe.py).

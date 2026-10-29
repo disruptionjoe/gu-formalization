@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d98e64dd08a88017279e1ceafe63cb61837231df
+revision_basis: 9bc4ab9e3d2e51d98d8444d7d6eed673c4e79abb
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,7 +118,17 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
-    K2258 proves that every positive subspace with an equivalent L2 norm and selfadjoint evolution of
+    K2261 constructs a full1024-input polynomial parametrizer for the actual constrained
+    raw fibre and proves local representative classes are dense in the reflected
+    compact-band quotient. Every continuous strictly local descending linear readout is
+    zero; canonical evaluation is bounded but nonlocal, and canonical representative
+    response has no finite support cone. K2262 supplies exact conserving reference
+    replacement with complete history transfer and a ten-call full-detector error
+    below0.00934 using10 fresh coherent packets; independent two-level stock satisfies
+    error>1/4 once K>=20M, regardless of charge offsets. Exact independent whole-stock
+    return is excluded and a quantitative joint-restoration error bound is derived.
+    Source claims, ledger0.263 and physical mappings remain unchanged.
+    Historical predecessor (not live): K2258 proves that every positive subspace with an equivalent L2 norm and selfadjoint evolution of
     the fixed raw constrained operator has stable Fourier support, without assuming a
     fibrewise metric or translation invariance. Consequently no nonzero smooth
     finite-order local preparation map exists; an explicit reflected-band global
@@ -17551,6 +17561,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2261-band-quotient-local-observation-2026-10-29.md
+  - explorations/conditional-build/k2262-coherent-reference-supply-2026-10-29.md
+  - lab/process/k2261-band-quotient-local-observation.json
+  - lab/process/k2262-coherent-reference-supply.json
   - explorations/conditional-build/k2258-variable-local-preparation-2026-10-29.md
   - explorations/conditional-build/k2259-microscopic-donor-renewal-2026-10-29.md
   - explorations/conditional-build/k2260-coherent-replenishment-bound-2026-10-29.md
@@ -19281,7 +19295,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can a source-owned global quotient or differential-constraint domain supply local
+  Can a cost-bounded approximate local observable or a noncompact/source-owned quotient
+  evade the reflected-band locality obstruction, and can a physically restricted
+  controller prepare, transport and recycle the coherent stock required by complete
+  detector service?
+  Historical predecessor (not live): Can a source-owned global quotient or differential-constraint domain supply local
   observables and causal physical dynamics for the fixed raw candidate, and can the
   detector/reset apparatus renew its actual charged/coherent stock through a priced
   entropy-export and phase-supply interface with controlled routing and timing?
@@ -23334,7 +23352,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Do not repeat local differential preparation into an equivalent positive raw subspace,
+  Do not repeat reflected compact-band local linear readout, unconstrained two-register
+  SWAP replenishment, or product-catalyst fidelity obstruction. K2261 leaves
+  bounded-input approximate locality, nonlinear observable algebras and changed
+  noncompact/domain quotients open; construct the actual observation norm and cost
+  before calling density physical access. K2262 consumes fresh coherent stock and
+  assumes arbitrary shell synthesis; a next construction must specify phase-stock
+  preparation/transport/waste recovery or a restricted local charge-conserving synthesis
+  with the full instrument error. Correlated marginal-only catalyst return is outside
+  the product theorem. Broader-contrast simultaneous-tail certification and genuine real
+  all-ten-row adapters remain alternatives. Preserve
+  source/full16cells/full20/K-C,native2+1/nonchiral,physical
+  quotient,mirrors/fullII/normaljets,scalar/thermal/cosmology ceilings.
+  Historical predecessor (not live): Do not repeat local differential preparation into an equivalent positive raw subspace,
   fresh partial-collision donor renewal, or phase-blind charge replenishment bounds.
   K2258 leaves general differential constraint kernels and source-owned global quotients
   open, and its explicit reflection/band quotient requires a local-observable/causality

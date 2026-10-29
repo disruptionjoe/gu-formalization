@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2261--K2262: Quotient locality and coherent reference supply (2026-10-29)
+
+K2261 constructs a full1024-input polynomial parametrizer for the actual constrained raw fibre and proves local representative classes are dense in the reflected compact-band quotient. Every continuous strictly local descending linear readout is zero; canonical evaluation is bounded but nonlocal, and canonical representative response has no finite support cone. K2262 supplies exact conserving reference replacement with complete history transfer and a ten-call full-detector error below0.00934 using10 fresh coherent packets; independent two-level stock satisfies error>1/4 once K>=20M, regardless of charge offsets. Exact independent whole-stock return is excluded and a quantitative joint-restoration error bound is derived. Source claims, ledger0.263 and physical mappings remain unchanged.
+
+- [K2261](explorations/conditional-build/k2261-band-quotient-local-observation-2026-10-29.md).
+- [K2262](explorations/conditional-build/k2262-coherent-reference-supply-2026-10-29.md).
+
+Two independent read-only specialists reviewed concrete proofs and probes and cross-reviewed scope. Fresh serialized probes pass270+59=329 finite exact Clifford/projection/channel/rational controls and detect6+7=13 genuinely changed mathematical/resource inputs. Universal analytic-density, adaptive-process and fidelity statements are written proofs, distinct from finite controls and provenance hashes. Review replaced the insufficient single-spinor parametrizer, clarified constraint annihilators, pulse regularity, drift and output isolation. No Lean, external-expert, novelty or remote-CI certification is claimed.
+
+Earlier sections preserve historical result snapshots; the current scope is above.
+
+
 ## K2258--K2260: Local preparation, donor renewal and coherent replenishment (2026-10-29)
 
 K2258 proves that every positive subspace with an equivalent L2 norm and selfadjoint evolution of the fixed raw constrained operator has stable Fourier support, without assuming a fibrewise metric or translation invariance. Consequently no nonzero smooth finite-order local preparation map exists; an explicit reflected-band global quotient nevertheless has positive dynamics and compact representatives with nonlocal canonical representatives. K2259 constructs finite conserving partial-collision donor renewal, including arbitrary history correlations, with 1000-call error below 0.000677 using 19980 fresh collision cells, and derives exact conditional-entropy waste accounting plus approximate closed-apparatus Choi capacity: 10 calls at p=1/5 and error .01 require dimension at least 787; asymptotic log2 dimension per call is at least (1+h2(p))/2. K2260 derives a whole detector field-plus-record phase-reference bound despite unlimited invariant charge donors: K>=20H² forces error above 1/4 for initial total phase-bearing bandwidth H; coherent charge translation can be exactly recharged, while destroyed global asymmetry cannot be supplied by invariant donors. Source claims, ledger0.263 and physical mapping grades remain unchanged.
