@@ -1,4 +1,9 @@
 
+- [k2227_same_pairing_temporal_compatibility_probe](k2227_same_pairing_temporal_compatibility_probe.py).
+- [k2228_continuum_energy_form_detector_control_probe](k2228_continuum_energy_form_detector_control_probe.py).
+- [k2229_finite_step_thermal_reset_work_probe](k2229_finite_step_thermal_reset_work_probe.py).
+
+
 - [k2224_raw_parallel_pairing_classification_probe](k2224_raw_parallel_pairing_classification_probe.py).
 - [k2225_positive_drift_detector_control_probe](k2225_positive_drift_detector_control_probe.py).
 - [k2226_thermal_register_reset_probe](k2226_thermal_register_reset_probe.py).

@@ -1,0 +1,31 @@
+{
+  "result": "K2229",
+  "checks": 78,
+  "faults": [
+    "omitted final gap quench",
+    "nonresonant free Hamiltonian",
+    "identity substituted for SWAP",
+    "reversed Gibbs odds"
+  ],
+  "q_bounds": [
+    "0.00000001930579",
+    "0.00000001930581"
+  ],
+  "beta_work_bounds": [
+    "616212495251/1000000000000",
+    "154064795341/250000000000"
+  ],
+  "maximum_beta_gap_bounds": [
+    "4440715077693/250000000000",
+    "17762860310773/1000000000000"
+  ],
+  "fresh_cells": 1701,
+  "certification": "exact rational controls/intervals plus reporting checks; universal claims use the written proof",
+  "probe_sha256": "5afae60474c3e2418d8722e1deb09288ac4c4ba80e2ba6f9f90e1a1e3dbb5b57",
+  "dependency_sha256": {
+    "explorations/conditional-build/k2229-finite-step-thermal-reset-work-2026-10-28.md": "72ef52f5a5828b392a66b9c1cbeb3bf478ef342fd8a52f888afdbcc65f089010",
+    "lab/process/k2223-stable-detector-resource-realization.json": "f7dd1cd867c40825da011ef6532dcc910a3a4e6f4c75fc3accb3fbf4927bae70",
+    "explorations/conditional-build/k2226-thermal-register-reset-2026-10-28.md": "967a196e3c7ce53331983d4830ceb6f223130eb5d1a70adad720551d7d11da86",
+    "explorations/conditional-build/k2228-continuum-energy-form-detector-control-2026-10-28.md": "a0734c44e33d5a81837fa93349d87e24d421ce5a51bc25be16c335d695ce5e0d"
+  }
+}

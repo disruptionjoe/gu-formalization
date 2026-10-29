@@ -5,6 +5,19 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2227--K2229: Temporal compatibility, continuum controls and finite reset work (2026-10-28)
+
+K2227 proves that fixed time-independent raw Omega0=mA+V cannot admit an invertible time-parallel spinor pairing also satisfying the optional same-pairing normal trace equations unless mV=0, regardless of spatial connection. A massless changed-spatial construction preserves original raw returns and current; a transported massive frame changes principal data and escapes the stated class. K2228 proves reference-uniform continuum detector approximation with retained physical drift for a fixed regular canonical Bogoliubov mode and supplied positive nonlocal controls; constants depend on mode energy norms rather than ultraviolet spectator count. K2229 constructs finite-step positive resonant thermal reset with exact mean work/dissipation:1701 fresh cells give error below1.930581e-8 and0.616212<beta W<0.616260 for the certified ideal detector prior. Detector approximation delta changes reset work by at most x0 delta; bath renewal, clock, energy-output convergence and local physical implementation remain open. Source assertions, ledger0.263 and physical mappings unchanged.
+
+- [K2227](explorations/conditional-build/k2227-same-pairing-temporal-compatibility-2026-10-28.md).
+- [K2228](explorations/conditional-build/k2228-continuum-energy-form-detector-control-2026-10-28.md).
+- [K2229](explorations/conditional-build/k2229-finite-step-thermal-reset-work-2026-10-28.md).
+
+Independent internal specialists cross-reviewed actual different artifacts; K2228 also received a second scope review. Final serialized probes pass781+30+78=889 finite algebra/rational and reporting controls and detect14 genuine mathematical fault families. Universal temporal, whole-Fock/form-domain and channel/thermodynamic proofs are distinguished from those controls and reused antecedents. Final note/code/dependency hashes are bound and default probes reject stale certificates. No heavy/Lean, proof-assistant, external-expert, novelty or remote-CI certification.
+
+Earlier sections preserve historical result snapshots; the current scope is above.
+
+
 ## K2224--K2226: Parallel pairings, positive drift controls and thermal reset (2026-10-28)
 
 K2224 completely classifies parallel spinor pairings for the unchanged raw flavor connection: spatially nonconstant coefficients force constant pairings commuting with every coefficient; constant coefficients allow congruence transport. Original-B anchoring fails for nonconstant profiles, but positive and split constant parents are explicit countercontrols. Requiring the same pairing to retain the original Clifford adjoints forces zero flavor. K2225 constructs positive additive adjacent/onsite finite-chain detector controls with physical drift retained, including outcome squeezing, a full-record/reference error bound and mean switching-work bound. A concrete two-site control/reset consumer has error below0.000040032581 at supplied speed1e12; no continuum-optimum implementation or energy convergence follows. K2226 derives exact finite thermal-register fixed-record and uniform reset optima, including bath compression/SWAP, sharp error exponent and fresh-resource accounting. At p=1/4,N=101 uniform error is between3.2580e-8 and3.2581e-8. Source assertions, ledger0.263 and physics mapping grades remain unchanged.

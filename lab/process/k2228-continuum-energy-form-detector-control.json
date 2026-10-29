@@ -1,0 +1,71 @@
+{
+  "result": "K2228",
+  "scope": "same fixed canonical-mode continuum energy-form drift control; finite algebra supports written proof",
+  "checks": {
+    "canonical_CCR": true,
+    "same_optimized_mode_h": true,
+    "same_optimized_mode_j": true,
+    "same_thermal_N": true,
+    "energy_B_squared": true,
+    "energy_eta_squared": true,
+    "energy_A_squared": true,
+    "complement_commutes_b_0": true,
+    "complement_commutes_bdag_0": true,
+    "complement_commutes_b_1": true,
+    "complement_commutes_bdag_1": true,
+    "UV_spectator_h_energy": true,
+    "UV_spectator_j_energy": true,
+    "UV_spectator_h_inverse": true,
+    "UV_spectator_j_inverse": true,
+    "adjacent_number_shift_gram_1": true,
+    "adjacent_number_shift_gram_2": true,
+    "adjacent_number_shift_gram_3": true,
+    "quadratic_generator_squared": true,
+    "Bogoliubov_CCR_flow_generator": true,
+    "same_squeeze_order": true,
+    "generator_row_norm_2/3": true,
+    "positive_quadratic_2/3": true,
+    "generator_row_norm_7/5": true,
+    "positive_quadratic_7/5": true,
+    "generator_row_norm_1": true,
+    "positive_quadratic_1": true,
+    "speed_error_vanishes": true,
+    "absolute_switch_twice_each": true,
+    "net_work_telescopes": true
+  },
+  "faults": {
+    "drop_creation": [
+      "canonical_CCR",
+      "same_optimized_mode_j",
+      "same_thermal_N",
+      "energy_B_squared",
+      "energy_eta_squared",
+      "energy_A_squared",
+      "complement_commutes_bdag_0",
+      "complement_commutes_bdag_1"
+    ],
+    "omit_creation_vacuum": [
+      "energy_B_squared",
+      "energy_A_squared"
+    ],
+    "complement_sign": [
+      "complement_commutes_b_0",
+      "complement_commutes_b_1"
+    ],
+    "ignore_number_shift": [
+      "adjacent_number_shift_gram_1",
+      "adjacent_number_shift_gram_2",
+      "adjacent_number_shift_gram_3"
+    ],
+    "squeeze_order": [
+      "same_squeeze_order"
+    ]
+  },
+  "probe_sha256": "497c09e4dc59d10e7250df81e53583e4fc7ba64f2fe93b76a01acb491694f7cc",
+  "dependency_sha256": {
+    "explorations/conditional-build/k2228-continuum-energy-form-detector-control-2026-10-28.md": "a0734c44e33d5a81837fa93349d87e24d421ce5a51bc25be16c335d695ce5e0d",
+    "explorations/conditional-build/k2223-stable-detector-resource-realization-2026-10-28.md": "790b55606fdca4cd078d26da96fadaf96dc68f58275897d69e00d7fd1a49663d",
+    "explorations/conditional-build/k2225-positive-drift-detector-control-2026-10-28.md": "dc2ca9e92eccb673c7582ea3f0e0905528624f3f37365cd13e25dfef6f1200bf",
+    "explorations/conditional-build/k2160-outcome-conditioned-squeezing-2026-10-27.md": "5ec83384bdf92c3065a21c0ad2659eeaff738445b864b22304563ade65b57b32"
+  }
+}

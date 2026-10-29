@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2227-same-pairing-temporal-compatibility](k2227-same-pairing-temporal-compatibility.json).
+- [k2228-continuum-energy-form-detector-control](k2228-continuum-energy-form-detector-control.json).
+- [k2229-finite-step-thermal-reset-work](k2229-finite-step-thermal-reset-work.json).
+
+
 - [k2224-raw-parallel-pairing-classification](k2224-raw-parallel-pairing-classification.json).
 - [k2225-positive-drift-detector-control](k2225-positive-drift-detector-control.json).
 - [k2226-thermal-register-reset](k2226-thermal-register-reset.json).

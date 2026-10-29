@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2227-same-pairing-temporal-compatibility-2026-10-28](conditional-build/k2227-same-pairing-temporal-compatibility-2026-10-28.md).
+- [k2228-continuum-energy-form-detector-control-2026-10-28](conditional-build/k2228-continuum-energy-form-detector-control-2026-10-28.md).
+- [k2229-finite-step-thermal-reset-work-2026-10-28](conditional-build/k2229-finite-step-thermal-reset-work-2026-10-28.md).
+
+
 - [k2224-raw-parallel-pairing-classification-2026-10-28](conditional-build/k2224-raw-parallel-pairing-classification-2026-10-28.md).
 - [k2225-positive-drift-detector-control-2026-10-28](conditional-build/k2225-positive-drift-detector-control-2026-10-28.md).
 - [k2226-thermal-register-reset-2026-10-28](conditional-build/k2226-thermal-register-reset-2026-10-28.md).

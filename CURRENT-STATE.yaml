@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 9d67d46a92f6c122a488324b19654e6983ee4381
+revision_basis: f7c32a9e3511eb1e0fc1f9c84286b47f20835129
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,7 +118,21 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
-    K2224 completely classifies parallel spinor pairings for the unchanged raw flavor
+    K2227 proves that fixed time-independent raw Omega0=mA+V cannot admit an invertible
+    time-parallel spinor pairing also satisfying the optional same-pairing normal trace
+    equations unless mV=0, regardless of spatial connection. A massless changed-spatial
+    construction preserves original raw returns and current; a transported massive frame
+    changes principal data and escapes the stated class. K2228 proves reference-uniform
+    continuum detector approximation with retained physical drift for a fixed regular
+    canonical Bogoliubov mode and supplied positive nonlocal controls; constants depend
+    on mode energy norms rather than ultraviolet spectator count. K2229 constructs
+    finite-step positive resonant thermal reset with exact mean work/dissipation:1701
+    fresh cells give error below1.930581e-8 and0.616212<beta W<0.616260 for the
+    certified ideal detector prior. Detector approximation delta changes reset work by
+    at most x0 delta; bath renewal, clock, energy-output convergence and local physical
+    implementation remain open. Source assertions, ledger0.263 and physical mappings
+    unchanged.
+    Historical predecessor (not live): K2224 completely classifies parallel spinor pairings for the unchanged raw flavor
     connection: spatially nonconstant coefficients force constant pairings commuting
     with every coefficient; constant coefficients allow congruence transport. Original-B
     anchoring fails for nonconstant profiles, but positive and split constant parents
@@ -17400,6 +17414,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2227-same-pairing-temporal-compatibility-2026-10-28.md
+  - explorations/conditional-build/k2228-continuum-energy-form-detector-control-2026-10-28.md
+  - explorations/conditional-build/k2229-finite-step-thermal-reset-work-2026-10-28.md
+  - lab/process/k2227-same-pairing-temporal-compatibility.json
+  - lab/process/k2228-continuum-energy-form-detector-control.json
+  - lab/process/k2229-finite-step-thermal-reset-work.json
   - explorations/conditional-build/k2224-raw-parallel-pairing-classification-2026-10-28.md
   - explorations/conditional-build/k2225-positive-drift-detector-control-2026-10-28.md
   - explorations/conditional-build/k2226-thermal-register-reset-2026-10-28.md
@@ -19062,7 +19082,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can a common source-compatible moving connection/pairing or a continuum-uniform
+  Can a source-admissible moving principal or time-dependent raw coefficient retain one
+  common pairing/return and typed observation, and can supplied continuum mode controls
+  and resonant reset be replaced by spatially local interactions, a finite switching
+  model and renewed thermal resources?
+  Historical predecessor (not live): Can a common source-compatible moving connection/pairing or a continuum-uniform
   resource-accounted detector construction cross the remaining physical interface, given
   the new fixed-connection classification and finite supplied-control theorems?
   Historical predecessor (not live): Can a changed connection/pairing construction retain the grade12 common-return
@@ -23064,7 +23088,22 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Do not repeat unchanged-connection parallel-pairing classification, finite-chain
+  Do not repeat arbitrary spatial repair of the fixed massive same-pairing temporal
+  class, fixed-mode continuum form bounds or finite-step resonant reset accounting. The
+  source-facing alternatives must change time dependence, principal/normal frame or the
+  optional same-pairing trace premise and then test all original returns jointly; the
+  constructed massless and transported massive controls define exact starting evidence.
+  Strongest operational continuation is a spatially local approximation to the supplied
+  continuum number/squeeze control, with energy-form error and actual detector mode
+  fixed, or an explicit bath-renewal/clock/switching construction. K2228 proves channel
+  convergence, not output-energy convergence; K2229 consumes1701 fresh varying-gap cells
+  and requires a common energy ruler before adding field/reset work. Wider-contrast
+  uniqueness and genuinely different real nonsingular all-ten-row adapters remain
+  alternatives needing fresh simultaneous bounds or a reconstructed pencil. Preserve
+  source/full16cells/full20/K-C,native2+1/chirality,physical
+  quotient,mirrors/fullII/normaljets,scalar and thermal optima,restricted cosmology and
+  exact wings.
+  Historical predecessor (not live): Do not repeat unchanged-connection parallel-pairing classification, finite-chain
   positive fast-pulse existence or unconstrained collective thermal-reset sorting.
   Compare a genuinely changed spatial raw connection with one common moving
   pairing/principal/trace return against continuum-uniform detector control and a
