@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 71323d4f5f460d05ce5c415e240101a3d20de42f
+revision_basis: d98e64dd08a88017279e1ceafe63cb61837231df
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,7 +118,23 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
-    K2255 proves that finite constant-coefficient polynomial kernels, images and finite
+    K2258 proves that every positive subspace with an equivalent L2 norm and selfadjoint evolution of
+    the fixed raw constrained operator has stable Fourier support, without assuming a
+    fibrewise metric or translation invariance. Consequently no nonzero smooth
+    finite-order local preparation map exists; an explicit reflected-band global
+    quotient nevertheless has positive dynamics and compact representatives with
+    nonlocal canonical representatives. K2259 constructs finite conserving
+    partial-collision donor renewal, including arbitrary history correlations,
+    with 1000-call error below 0.000677 using 19980 fresh collision cells, and derives
+    exact conditional-entropy waste accounting plus approximate closed-apparatus Choi
+    capacity: 10 calls at p=1/5 and error .01 require dimension at least 787; asymptotic
+    log2 dimension per call is at least (1+h2(p))/2. K2260 derives a whole detector
+    field-plus-record phase-reference bound despite unlimited invariant charge
+    donors: K>=20H² forces error above 1/4 for initial total phase-bearing bandwidth H;
+    coherent charge translation can be exactly recharged, while destroyed global
+    asymmetry cannot be supplied by invariant donors. Source claims, ledger0.263 and
+    physical mapping grades remain unchanged.
+    Historical predecessor (not live): K2255 proves that finite constant-coefficient polynomial kernels, images and finite
     fibre quotients cannot select a nonzero positive-selfadjoint L2 sector of the
     specified raw candidate on all momenta. Local S,T still admit compact initial data;
     explicit high-frequency growth defeats every finite Sobolev derivative-loss
@@ -17535,6 +17551,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2258-variable-local-preparation-2026-10-29.md
+  - explorations/conditional-build/k2259-microscopic-donor-renewal-2026-10-29.md
+  - explorations/conditional-build/k2260-coherent-replenishment-bound-2026-10-29.md
+  - lab/process/k2258-variable-local-preparation.json
+  - lab/process/k2259-microscopic-donor-renewal.json
+  - lab/process/k2260-coherent-replenishment-bound.json
   - explorations/conditional-build/k2255-local-constraint-stability-2026-10-29.md
   - explorations/conditional-build/k2256-causal-fresh-resource-reset-2026-10-29.md
   - explorations/conditional-build/k2257-finite-battery-service-capacity-2026-10-29.md
@@ -19259,7 +19281,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can a variable-coefficient constraint or genuinely global quotient give the fixed raw
+  Can a source-owned global quotient or differential-constraint domain supply local
+  observables and causal physical dynamics for the fixed raw candidate, and can the
+  detector/reset apparatus renew its actual charged/coherent stock through a priced
+  entropy-export and phase-supply interface with controlled routing and timing?
+  Historical predecessor (not live): Can a variable-coefficient constraint or genuinely global quotient give the fixed raw
   candidate a positive local domain beyond finite polynomial fibre reductions, and can
   isolated reset/detector service replenish its charged and coherent resources through a
   specified conserving local apparatus?
@@ -23308,7 +23334,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Do not repeat the finite polynomial positive-domain search, isolated fresh-donor reset
+  Do not repeat local differential preparation into an equivalent positive raw subspace,
+  fresh partial-collision donor renewal, or phase-blind charge replenishment bounds.
+  K2258 leaves general differential constraint kernels and source-owned global quotients
+  open, and its explicit reflection/band quotient requires a local-observable/causality
+  test. K2259 renews one donor by consuming finite fresh cells and isolating waste; a
+  next construction must supply stock preparation/entropy export and routing or a
+  genuinely closed finite apparatus compatible with its smooth-Choi capacity. K2260
+  requires counting the whole asymmetric device and distinguishes reversible charge
+  translation from lost phase information; specify a coherent donor/recovery protocol
+  and its complete detector error. Restricted local detector synthesis, broader-contrast
+  simultaneous tails and genuine real all-ten-row adapters remain independent
+  alternatives. Preserve source/full16cells/full20/K-C,native2+1/nonchiral,physical
+  quotient,mirrors/fullII/normaljets,scalar/thermal/cosmology ceilings.
+  Historical predecessor (not live): Do not repeat the finite polynomial positive-domain search, isolated fresh-donor reset
   or finite-battery retained-output support theorem. Test a specified variable
   geometry/constraint or non-fibrewise global quotient with the actual raw returns and
   observed map; alternatively construct priced correlated-donor renewal or

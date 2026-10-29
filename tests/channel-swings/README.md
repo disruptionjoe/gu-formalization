@@ -1,4 +1,9 @@
 
+- [k2258_variable_local_preparation_probe](k2258_variable_local_preparation_probe.py).
+- [k2259_microscopic_donor_renewal_probe](k2259_microscopic_donor_renewal_probe.py).
+- [k2260_coherent_replenishment_bound_probe](k2260_coherent_replenishment_bound_probe.py).
+
+
 - [k2255_local_constraint_stability_probe](k2255_local_constraint_stability_probe.py).
 - [k2256_causal_fresh_resource_reset_probe](k2256_causal_fresh_resource_reset_probe.py).
 - [k2257_finite_battery_service_capacity_probe](k2257_finite_battery_service_capacity_probe.py).

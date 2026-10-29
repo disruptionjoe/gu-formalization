@@ -6,6 +6,26 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2258--K2260: Conditional research results (2026-10-29)
+
+K2258 proves that every positive subspace with an equivalent L2 norm and selfadjoint evolution of the fixed raw constrained operator has stable Fourier support, without assuming a fibrewise metric or translation invariance. Consequently no nonzero smooth finite-order local preparation map exists; an explicit reflected-band global quotient nevertheless has positive dynamics and compact representatives with nonlocal canonical representatives. K2259 constructs finite conserving partial-collision donor renewal, including arbitrary history correlations, with 1000-call error below 0.000677 using 19980 fresh collision cells, and derives exact conditional-entropy waste accounting plus approximate closed-apparatus Choi capacity: 10 calls at p=1/5 and error .01 require dimension at least 787; asymptotic log2 dimension per call is at least (1+h2(p))/2. K2260 derives a whole detector field-plus-record phase-reference bound despite unlimited invariant charge donors: K>=20H² forces error above 1/4 for initial total phase-bearing bandwidth H; coherent charge translation can be exactly recharged, while destroyed global asymmetry cannot be supplied by invariant donors. Source claims, ledger0.263 and physical mapping grades remain unchanged.
+
+- [K2258](explorations/conditional-build/k2258-variable-local-preparation-2026-10-29.md).
+- [K2259](explorations/conditional-build/k2259-microscopic-donor-renewal-2026-10-29.md).
+- [K2260](explorations/conditional-build/k2260-coherent-replenishment-bound-2026-10-29.md).
+
+Three read-only internal specialists independently reviewed actual arguments and probes and cross-reviewed separate artifacts. Fresh serialized probes pass89+163+33=285 finite exact algebra/rational controls and detect18 genuine mathematical/resource input faults. Universal two-sided domain, adaptive-channel, entropy/spectral and covariance proofs are written mathematics, distinct from finite controls and dependency/report hashes. Probe corrections replace overcoarse Frobenius control by exact eigenvalues, put correlated-output distance in the green baseline, and mutate actual projectors/observables rather than expected answers. No heavy build, Lean, external-expert, novelty or remote-CI certification is claimed.
+
+| Claim | Prior status | Current result | Remaining bridge |
+|---|---|---|---|
+| Raw positive domain | K2255 constant polynomial filter obstruction | Stable-support necessity for arbitrary equivalent positive subspaces; smooth local preparation excluded; explicit non-fibrewise quotient constructed | Source selection, local observable and causal physical quotient |
+| Donor renewal | K2256 fresh isolated service | Finite microscopic conserving renewal and approximate capacity/entropy account | Fresh stock production, waste export, routing and timing |
+| Reference replenishment | K2257 charge necessity | Independent coherent bandwidth necessity and exact charge-only recharge control | Actual coherent replenishment/full detector synthesis |
+| Source/physics ledger | Existing source polarities and ledger0.263 | Unchanged | Native action/observation/physical domain still required |
+
+Earlier sections are historical.
+
+
 ## K2255--K2257: Conditional research results (2026-10-29)
 
 K2255 proves that finite constant-coefficient polynomial kernels, images and finite fibre quotients cannot select a nonzero positive-selfadjoint L2 sector of the specified raw candidate on all momenta. Local S,T still admit compact initial data; explicit high-frequency growth defeats every finite Sobolev derivative-loss estimate. K2256 supplies physically isolated ordinary adaptive reset with fresh thermal donors, complete correlated-stock error control below0.000701 for1000 calls under stated tolerances, and exact donor-dimension optimality in a restricted closed-dilation class. K2257 bounds retained-output detector service by an exact infinite-law charge tail: fixed finite battery error tends to1, and uniform accuracy requires asymptotic charge at least64/25 per call. Source claims, ledger0.263 and physical mappings remain unchanged.

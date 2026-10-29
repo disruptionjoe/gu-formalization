@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2258-variable-local-preparation-2026-10-29](conditional-build/k2258-variable-local-preparation-2026-10-29.md).
+- [k2259-microscopic-donor-renewal-2026-10-29](conditional-build/k2259-microscopic-donor-renewal-2026-10-29.md).
+- [k2260-coherent-replenishment-bound-2026-10-29](conditional-build/k2260-coherent-replenishment-bound-2026-10-29.md).
+
+
 - [k2255-local-constraint-stability-2026-10-29](conditional-build/k2255-local-constraint-stability-2026-10-29.md).
 - [k2256-causal-fresh-resource-reset-2026-10-29](conditional-build/k2256-causal-fresh-resource-reset-2026-10-29.md).
 - [k2257-finite-battery-service-capacity-2026-10-29](conditional-build/k2257-finite-battery-service-capacity-2026-10-29.md).

@@ -1,0 +1,83 @@
+{
+  "result_id": "K2260",
+  "checks": {
+    "branch_norm": true,
+    "f_zero": true,
+    "even_number_period": true,
+    "f_halfturn": true,
+    "branch_halfturn": true,
+    "general_recorded_fidelity": true,
+    "record_is_essential": true,
+    "whole_tail_overlap_0": true,
+    "whole_tail_overlap_1": true,
+    "whole_tail_overlap_2": true,
+    "whole_tail_overlap_5": true,
+    "whole_tail_overlap_10": true,
+    "angular_coefficient": true,
+    "rational_uniform_drop_1": true,
+    "rational_uniform_drop_2": true,
+    "rational_uniform_drop_10": true,
+    "rational_uniform_drop_100": true,
+    "twenty_H_squared_consumer": true,
+    "two_level_orbit_1": true,
+    "number_eigenstate_no_phase_1": true,
+    "two_level_orbit_2": true,
+    "number_eigenstate_no_phase_2": true,
+    "two_level_orbit_3": true,
+    "number_eigenstate_no_phase_3": true,
+    "two_level_orbit_7": true,
+    "number_eigenstate_no_phase_7": true,
+    "recharge_unitary": true,
+    "recharge_conserves_number": true,
+    "recharge_packet_exact": true,
+    "dephased_sharp_witness": true,
+    "dephased_distance_attained": true,
+    "donor_joint_invariance": true,
+    "diagonal_marginals_insufficient": true
+  },
+  "fault_failures": {
+    "wrong_field_phase": [
+      "even_number_period",
+      "f_halfturn",
+      "branch_halfturn",
+      "general_recorded_fidelity"
+    ],
+    "omitted_record_branch": [
+      "f_zero",
+      "even_number_period",
+      "f_halfturn",
+      "branch_halfturn",
+      "general_recorded_fidelity"
+    ],
+    "coherent_branch_sum": [
+      "general_recorded_fidelity"
+    ],
+    "wrong_geometric_ratio": [
+      "branch_norm",
+      "f_zero",
+      "even_number_period",
+      "f_halfturn",
+      "branch_halfturn",
+      "general_recorded_fidelity",
+      "whole_tail_overlap_0",
+      "whole_tail_overlap_1",
+      "whole_tail_overlap_2",
+      "whole_tail_overlap_5",
+      "whole_tail_overlap_10"
+    ],
+    "nonconserving_recharge": [
+      "recharge_conserves_number",
+      "recharge_packet_exact"
+    ],
+    "hidden_coherent_donor": [
+      "donor_joint_invariance"
+    ]
+  },
+  "evidence_kinds": "Finite exact algebra and rational controls; changed mathematical/resource inputs must fail unchanged checks. Universal proofs and report hashes are separate evidence.",
+  "dependency_sha256": {
+    "explorations/conditional-build/k2260-coherent-replenishment-bound-2026-10-29.md": "d2b1df52b9e93c21e57eedae1f26c9786294075c180351eb67feef8417988289",
+    "explorations/conditional-build/k2253-full-instrument-reference-reuse-2026-10-29.md": "2db4b83728046f3a40ab8c207c4a2014ff7a27752a792a1bd40bf657ad265749",
+    "explorations/conditional-build/k2257-finite-battery-service-capacity-2026-10-29.md": "4b32b54a5da0544f4469ff579b57b4bb15cac090c021dfa6a8b78d21b142d09a"
+  },
+  "probe_sha256": "8e457ac52adc0e33ce5bcbf69c401476a5867ddc700a7b04b1034c9f133be40e"
+}

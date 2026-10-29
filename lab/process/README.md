@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2258-variable-local-preparation](k2258-variable-local-preparation.json).
+- [k2259-microscopic-donor-renewal](k2259-microscopic-donor-renewal.json).
+- [k2260-coherent-replenishment-bound](k2260-coherent-replenishment-bound.json).
+
+
 - [k2255-local-constraint-stability](k2255-local-constraint-stability.json).
 - [k2256-causal-fresh-resource-reset](k2256-causal-fresh-resource-reset.json).
 - [k2257-finite-battery-service-capacity](k2257-finite-battery-service-capacity.json).

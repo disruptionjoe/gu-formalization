@@ -5,6 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-10-29: LOCAL PREPARATION, DONOR RENEWAL AND COHERENT REPLENISHMENT.**
+> Do not repeat local differential preparation into an equivalent positive raw subspace, fresh partial-collision donor renewal, or phase-blind charge replenishment bounds. K2258 leaves general differential constraint kernels and source-owned global quotients open, and its explicit reflection/band quotient requires a local-observable/causality test. K2259 renews one donor by consuming finite fresh cells and isolating waste; a next construction must supply stock preparation/entropy export and routing or a genuinely closed finite apparatus compatible with its smooth-Choi capacity. K2260 requires counting the whole asymmetric device and distinguishes reversible charge translation from lost phase information; specify a coherent donor/recovery protocol and its complete detector error. Restricted local detector synthesis, broader-contrast simultaneous tails and genuine real all-ten-row adapters remain independent alternatives. Preserve source/full16cells/full20/K-C,native2+1/nonchiral,physical quotient,mirrors/fullII/normaljets,scalar/thermal/cosmology ceilings.
+> Earlier banners are historical; use this current condition.
+
+
 > **2026-10-29: LOCAL CONSTRAINTS, CAUSAL RESET AND BATTERY CAPACITY.**
 > Do not repeat the finite polynomial positive-domain search, isolated fresh-donor reset or finite-battery retained-output support theorem. Test a specified variable geometry/constraint or non-fibrewise global quotient with the actual raw returns and observed map; alternatively construct priced correlated-donor renewal or charged/coherent detector replenishment with output isolation. K2255 leaves these changed premises open; K2256 consumes fresh stock and externally timed ports; K2257 gives necessary charge budgets, not an achievable optimal battery. Restricted local detector synthesis, broader-contrast simultaneous tails and genuine real all-ten-row adapters remain alternatives. Preserve source/full16cells/full20/K-C,native2+1/nonchiral,physical quotient,mirrors/fullII/normaljets,scalar/thermal and cosmology ceilings.
 > Earlier banners are historical; use this current condition.
