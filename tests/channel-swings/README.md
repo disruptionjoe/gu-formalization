@@ -1,4 +1,9 @@
 
+- [k2255_local_constraint_stability_probe](k2255_local_constraint_stability_probe.py).
+- [k2256_causal_fresh_resource_reset_probe](k2256_causal_fresh_resource_reset_probe.py).
+- [k2257_finite_battery_service_capacity_probe](k2257_finite_battery_service_capacity_probe.py).
+
+
 - [k2252_adaptive_reset_interface_probe](k2252_adaptive_reset_interface_probe.py).
 - [k2253_full_instrument_reference_reuse_probe](k2253_full_instrument_reference_reuse_probe.py).
 - [k2254_raw_nonparallel_domain_probe](k2254_raw_nonparallel_domain_probe.py).

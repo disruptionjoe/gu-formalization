@@ -6,6 +6,25 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2255--K2257: Conditional research results (2026-10-29)
+
+K2255 proves that finite constant-coefficient polynomial kernels, images and finite fibre quotients cannot select a nonzero positive-selfadjoint L2 sector of the specified raw candidate on all momenta. Local S,T still admit compact initial data; explicit high-frequency growth defeats every finite Sobolev derivative-loss estimate. K2256 supplies physically isolated ordinary adaptive reset with fresh thermal donors, complete correlated-stock error control below0.000701 for1000 calls under stated tolerances, and exact donor-dimension optimality in a restricted closed-dilation class. K2257 bounds retained-output detector service by an exact infinite-law charge tail: fixed finite battery error tends to1, and uniform accuracy requires asymptotic charge at least64/25 per call. Source claims, ledger0.263 and physical mappings remain unchanged.
+
+- [K2255](explorations/conditional-build/k2255-local-constraint-stability-2026-10-29.md).
+- [K2256](explorations/conditional-build/k2256-causal-fresh-resource-reset-2026-10-29.md).
+- [K2257](explorations/conditional-build/k2257-finite-battery-service-capacity-2026-10-29.md).
+
+Three independent read-only field specialists reviewed the actual notes and probes, with cross-review of the charge-budget argument. Final serialized probes pass33+36+134=203 finite exact controls and6+6+6=18 genuine changed-input faults. Review clarified multiplier domains, actual versus nominal stock costs, battery restoration, and finite control labels; actual small Choi ranks were added. Polynomial/domain, adaptive-process and infinite-tail conclusions are written proofs, not finite-test or proof-assistant certification. Six affected native audits, absolute status currency and integrity checks pass; no novelty, external-expert or remote-CI claim.
+
+| Result | Established | Limit |
+|---|---|---|
+| K2255 | Polynomial kernel/image/quotient obstruction and full-kernel instability | Fixed raw candidate; nonlocal, variable and global quotient domains remain open |
+| K2256 | Causal complete reset with isolated outputs and priced finite fresh stock | No donor renewal, autonomous timing or single-port transport |
+| K2257 | Exact retained-output tail and linear necessary charge capacity | No optimal synthesis or sufficient replenishment theorem |
+
+Earlier sections are historical.
+
+
 ## K2252--K2254: Conditional research results (2026-10-29)
 
 K2252 implements the prepared-input fermionic reset circuit with positive nearest-neighbor spin controls and explicit switching errors, while an exact future-input witness excludes interpreting its final output channel as ordinary adaptive service. K2253 constructs the complete recorded field instrument with a finite number-conserving reference, controls output tails and correlated adaptive reuse, and prices a ten-call error below0.00914; a bounded charge witness excludes exact reference restoration. K2254 constructs normally localized nonparallel solutions of the unchanged specified raw1920 candidate: rank256 propagated constraints leave1024 modes with a supplied positive norm on a compact stable Fourier band, including a complex512-dimensional positive-energy half. Source assertions, ledger0.263 and physical mappings remain unchanged.

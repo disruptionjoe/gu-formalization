@@ -1,0 +1,81 @@
+{
+  "result_id": "K2255",
+  "checks": {
+    "actual_unstable_square": true,
+    "projector_idempotent": true,
+    "growing_eigenvalue": true,
+    "projector_rank64_from_trace": true,
+    "C1_square_negative": true,
+    "mass_square_negative": true,
+    "mass_anticommutes": true,
+    "local_S_(1, 2)": true,
+    "local_T_(1, 2)": true,
+    "local_image_nonzero_(1, 2)": true,
+    "rank_patch_(1, 2)": true,
+    "local_S_(2, -1)": true,
+    "local_T_(2, -1)": true,
+    "local_image_nonzero_(2, -1)": true,
+    "rank_patch_(2, -1)": true,
+    "local_S_(0, 3)": true,
+    "local_T_(0, 3)": true,
+    "local_image_nonzero_(0, 3)": true,
+    "rank_patch_(0, 3)": true,
+    "local_S_(3, 0)": true,
+    "local_T_(3, 0)": true,
+    "local_image_nonzero_(3, 0)": true,
+    "rank_patch_(3, 0)": true,
+    "minor_nonzero_polynomial": true,
+    "generic_full_rank": true,
+    "exceptional_rank_drop": true,
+    "quotient_DP_zero": true,
+    "quotient_generic_rank_sum": true,
+    "quotient_exceptional_rank_drop": true,
+    "rho_lower_5": true,
+    "rho_lower_10": true,
+    "rho_lower_20": true,
+    "rho_lower_100": true
+  },
+  "fault_failures": {
+    "mass_sign": [
+      "actual_unstable_square",
+      "projector_idempotent",
+      "growing_eigenvalue"
+    ],
+    "omit_coupled_copy": [
+      "local_S_(1, 2)",
+      "local_T_(1, 2)",
+      "local_S_(2, -1)",
+      "local_T_(2, -1)",
+      "local_S_(0, 3)",
+      "local_T_(0, 3)",
+      "local_S_(3, 0)"
+    ],
+    "inverse_order": [
+      "local_T_(1, 2)",
+      "local_T_(2, -1)",
+      "local_T_(0, 3)",
+      "local_T_(3, 0)"
+    ],
+    "wrong_growing_sign": [
+      "growing_eigenvalue"
+    ],
+    "spatial_signature": [
+      "local_T_(1, 2)",
+      "rank_patch_(1, 2)",
+      "local_T_(2, -1)",
+      "rank_patch_(2, -1)",
+      "local_T_(0, 3)",
+      "rank_patch_(0, 3)"
+    ],
+    "quotient_not_complex": [
+      "quotient_DP_zero"
+    ]
+  },
+  "evidence_kinds": "Finite exact algebra, changed-input faults and rational resource controls; universal proofs are written separately. Hashes check reporting integrity.",
+  "dependency_sha256": {
+    "explorations/conditional-build/k2255-local-constraint-stability-2026-10-29.md": "6a398c664a8d916c67ad62f68d1519f2ec7cd66ad9882960a2945fc77752da6d",
+    "tests/channel-swings/k2206_changed_raw_mass_construction_probe.py": "441f226b668ab31205f7ae0166a518b154e010f2f411b0556937d96fd285cce7",
+    "explorations/conditional-build/k2254-raw-nonparallel-domain-2026-10-29.md": "0b34be2c03bd475d3f1f3de75c29ae78a03d620bb5ce59f2d29f5f3bc0f9f068"
+  },
+  "probe_sha256": "54b0d3d06e2c21cdd0ddbc8c97b7a5ddf90c3d1e723a8a011c3d21e568e87cb8"
+}

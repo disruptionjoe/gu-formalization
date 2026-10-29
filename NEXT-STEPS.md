@@ -5,6 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-10-29: LOCAL CONSTRAINTS, CAUSAL RESET AND BATTERY CAPACITY.**
+> Do not repeat the finite polynomial positive-domain search, isolated fresh-donor reset or finite-battery retained-output support theorem. Test a specified variable geometry/constraint or non-fibrewise global quotient with the actual raw returns and observed map; alternatively construct priced correlated-donor renewal or charged/coherent detector replenishment with output isolation. K2255 leaves these changed premises open; K2256 consumes fresh stock and externally timed ports; K2257 gives necessary charge budgets, not an achievable optimal battery. Restricted local detector synthesis, broader-contrast simultaneous tails and genuine real all-ten-row adapters remain alternatives. Preserve source/full16cells/full20/K-C,native2+1/nonchiral,physical quotient,mirrors/fullII/normaljets,scalar/thermal and cosmology ceilings.
+> Earlier banners are historical; use this current condition.
+
+
 > **2026-10-29: LOCAL EXTRACTION, FULL INSTRUMENTS AND NONPARALLEL RAW DOMAINS.**
 > Compare source ownership or a local/causal replacement of K2254's nonlocal Fourier constraint and pairing against output-isolating adaptive reset extraction and restricted local synthesis/reference replenishment of K2253's full instrument. Do not repeat all-parallel or fixed-copy-line localization, prepared-input parity routing, binary effects or finite shell existence. K2254 is a supplied stable-band domain, not source physicalization; K2252 delivers outputs after routing, not during an adaptive comb; K2253 uses arbitrary shell controls and huge finite charge resources. Broader-contrast simultaneous tails and genuine real all-ten-row adapters remain alternatives. Preserve native2+1/nonchiral,full16cells/full20/K-C,physical quotient,mirrors/fullII/normaljets,scalar/thermal and cosmology ceilings.
 > Earlier banners are historical; use this current condition.

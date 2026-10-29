@@ -1,0 +1,87 @@
+{
+  "result_id": "K2256",
+  "checks": {
+    "positive_generator_identity": true,
+    "generator_square": true,
+    "number_conservation": true,
+    "exact_F_gate": true,
+    "complete_matrix_unit_(0, 0)": true,
+    "complete_matrix_unit_(0, 1)": true,
+    "complete_matrix_unit_(1, 0)": true,
+    "complete_matrix_unit_(1, 1)": true,
+    "entangled_complete_reset": true,
+    "spent_dephased_input": true,
+    "next_slot_fresh_reset": true,
+    "correlated_marginals": true,
+    "joint_freshness_counterexample": true,
+    "product_stock_joint_reset": true,
+    "causal_adaptive_fixture": true,
+    "partial_gate_unitary": true,
+    "partial_GAD_(0, 0)": true,
+    "partial_GAD_(0, 1)": true,
+    "partial_GAD_(1, 0)": true,
+    "partial_GAD_(1, 1)": true,
+    "1000_full_dilation_budget": true,
+    "1000_reduced_channel_budget": true,
+    "actual_Choi_rank_1": true,
+    "actual_Choi_rank_2": true,
+    "Choi_rank_formula_arithmetic_1": true,
+    "one_fewer_donor_insufficient_1": true,
+    "Choi_rank_formula_arithmetic_2": true,
+    "one_fewer_donor_insufficient_2": true,
+    "Choi_rank_formula_arithmetic_3": true,
+    "one_fewer_donor_insufficient_3": true,
+    "Choi_rank_formula_arithmetic_4": true,
+    "one_fewer_donor_insufficient_4": true,
+    "Choi_rank_formula_arithmetic_5": true,
+    "one_fewer_donor_insufficient_5": true,
+    "Choi_rank_formula_arithmetic_6": true,
+    "one_fewer_donor_insufficient_6": true
+  },
+  "fault_failures": {
+    "wrong_area": [
+      "positive_generator_identity",
+      "exact_F_gate",
+      "complete_matrix_unit_(0, 0)",
+      "complete_matrix_unit_(0, 1)",
+      "complete_matrix_unit_(1, 0)",
+      "complete_matrix_unit_(1, 1)",
+      "entangled_complete_reset",
+      "spent_dephased_input",
+      "next_slot_fresh_reset",
+      "product_stock_joint_reset",
+      "causal_adaptive_fixture"
+    ],
+    "wrong_donor": [
+      "complete_matrix_unit_(0, 0)",
+      "complete_matrix_unit_(1, 1)",
+      "entangled_complete_reset",
+      "spent_dephased_input",
+      "next_slot_fresh_reset"
+    ],
+    "coherent_donor": [
+      "complete_matrix_unit_(0, 0)",
+      "complete_matrix_unit_(1, 1)",
+      "entangled_complete_reset",
+      "next_slot_fresh_reset"
+    ],
+    "omit_F_phase": [
+      "positive_generator_identity",
+      "exact_F_gate",
+      "spent_dephased_input"
+    ],
+    "correlated_stock": [
+      "product_stock_joint_reset"
+    ],
+    "reuse_spent": [
+      "next_slot_fresh_reset"
+    ]
+  },
+  "evidence_kinds": "Finite exact algebra, changed-input faults and rational resource controls; universal proofs are written separately. Hashes check reporting integrity.",
+  "dependency_sha256": {
+    "explorations/conditional-build/k2256-causal-fresh-resource-reset-2026-10-29.md": "8849ef7b337bba7c776000cadcf46f91746d2524bdcdecbc5679b3146c38f4b8",
+    "explorations/conditional-build/k2252-adaptive-reset-interface-2026-10-29.md": "e3ad7b57c500f8599d4b7b44ba1e9fefaef514b9e9b781562c7f4cfe57f4a910",
+    "explorations/conditional-build/k2249-finite-density-chain-reset-2026-10-29.md": "28ff63a104d402816110f6f06709642c7e7188770d963258658afab2132ce76a"
+  },
+  "probe_sha256": "fa7e6c63ee0f2f1cedd5f73d95c762e90c50ae0581480ea603c4af861e59ae5a"
+}
