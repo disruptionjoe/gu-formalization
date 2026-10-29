@@ -1,4 +1,8 @@
 
+- [k2250_quantum_stream_interface_probe](k2250_quantum_stream_interface_probe.py).
+- [k2251_detector_phase_reference_probe](k2251_detector_phase_reference_probe.py).
+
+
 - [k2248_indefinite_parallel_localization_probe](k2248_indefinite_parallel_localization_probe.py).
 - [k2249_finite_density_chain_reset_probe](k2249_finite_density_chain_reset_probe.py).
 

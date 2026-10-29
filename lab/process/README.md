@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2250-quantum-stream-interface](k2250-quantum-stream-interface.json).
+- [k2251-detector-phase-reference](k2251-detector-phase-reference.json).
+
+
 - [k2248-indefinite-parallel-localization](k2248-indefinite-parallel-localization.json).
 - [k2249-finite-density-chain-reset](k2249-finite-density-chain-reset.json).
 

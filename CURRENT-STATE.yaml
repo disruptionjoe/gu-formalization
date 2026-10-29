@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: aae4efe63629b5c6926ec3b19fd65ae3df2c2ff5
+revision_basis: 329a05753eb49d86e9d2fd8e759bb61b49a0803c
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,7 +118,16 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
-    K2248 proves that all square-integrable, all-normal-parallel sections for an
+    K2250 gives an exact coherent-spin counterexample to extending diagonal reset
+    recurrences, then proves joint-output arbitrary-reference reset for an explicitly
+    fermionic extraction circuit: ten jointly prepared inputs have error below0.004501
+    using2000000 reservoir modes. K2251 proves the actual mode-vacuum detector has error
+    at least0.288 under number-conserving controls with invariant preparation/readout,
+    quantifies the missing charge coherence, and constructs finite-reference
+    binary-record approximations on both a two-state compression and the full
+    fixed-number-budget input ball. Source claims, ledger0.263 and physical mappings
+    remain unchanged.
+    Historical predecessor (not live): K2248 proves that all square-integrable, all-normal-parallel sections for an
     indefinite-compatible connection have identically zero inherited Gram pairing when
     the reciprocal relative-form norm has divergent integral; the sharp fibrewise Witt
     bound, localized null family, zero radical quotient and density/growth escapes are
@@ -17504,6 +17513,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2250-quantum-stream-interface-2026-10-29.md
+  - explorations/conditional-build/k2251-detector-phase-reference-2026-10-29.md
+  - lab/process/k2250-quantum-stream-interface.json
+  - lab/process/k2251-detector-phase-reference.json
   - explorations/conditional-build/k2248-indefinite-parallel-localization-2026-10-29.md
   - explorations/conditional-build/k2249-finite-density-chain-reset-2026-10-29.md
   - lab/process/k2248-indefinite-parallel-localization.json
@@ -19212,7 +19225,12 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can a source-compatible nonparallel constraint or geometric density support a nonzero
+  Can actual spin/adaptive extraction achieve reference-safe repeated reset, and can a
+  finite asymmetric apparatus implement the full recorded detector with field backaction
+  under specified local bounded controls? The declared fermionic joint-input channel and
+  finite-reference binary record effect are now constructed; they do not settle those
+  stronger interfaces.
+  Historical predecessor (not live): Can a source-compatible nonparallel constraint or geometric density support a nonzero
   inherited positive observed domain, and can a reused thermal chain control the joint
   output/history channel for coherent or correlated injections rather than only
   independent diagonal marginals?
@@ -23248,7 +23266,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Compare a source-compatible nonparallel constraint or finite-volume/density
+  Compare source-compatible nonparallel constraints and positive domain on the actual
+  raw carrier against ordinary-spin/adaptive history reset, locally implemented
+  fermionic extraction, or finite-reference full detector backaction and reuse. K2250
+  settles joint prepared-input reset only for an explicit parity-aware fermionic
+  circuit; K2251 settles invariant-apparatus failure and finite-reference binary record
+  effects on a mean-number ball. Do not repeat diagonal marginal renewal, phase-free
+  control searches or sine-reference overlap. Broader-contrast simultaneous tails and
+  genuine real all-ten-row adapters remain alternatives. Preserve
+  source/full16cells/full20/K-C, native2+1/nonchiral, physical quotient,
+  mirrors/fullII/normaljets, scalar/thermal and cosmology ceilings.
+  Historical predecessor (not live): Compare a source-compatible nonparallel constraint or finite-volume/density
   construction on the actual raw carrier with an explicit arbitrary-reference
   repeated-input reservoir and extraction process. K2248 settles bounded-form
   infinite-volume all-parallel inheritance: localization may be nonzero but its

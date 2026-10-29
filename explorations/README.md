@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2250-quantum-stream-interface-2026-10-29](conditional-build/k2250-quantum-stream-interface-2026-10-29.md).
+- [k2251-detector-phase-reference-2026-10-29](conditional-build/k2251-detector-phase-reference-2026-10-29.md).
+
+
 - [k2248-indefinite-parallel-localization-2026-10-29](conditional-build/k2248-indefinite-parallel-localization-2026-10-29.md).
 - [k2249-finite-density-chain-reset-2026-10-29](conditional-build/k2249-finite-density-chain-reset-2026-10-29.md).
 

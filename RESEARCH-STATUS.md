@@ -6,6 +6,23 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2250--K2251: Conditional research results (2026-10-29)
+
+K2250 gives an exact coherent-spin counterexample to extending diagonal reset recurrences, then proves joint-output arbitrary-reference reset for an explicitly fermionic extraction circuit: ten jointly prepared inputs have error below0.004501 using2000000 reservoir modes. K2251 proves the actual mode-vacuum detector has error at least0.288 under number-conserving controls with invariant preparation/readout, quantifies the missing charge coherence, and constructs finite-reference binary-record approximations on both a two-state compression and the full fixed-number-budget input ball. Source claims, ledger0.263 and physical mappings remain unchanged.
+
+- [K2250](explorations/conditional-build/k2250-quantum-stream-interface-2026-10-29.md).
+- [K2251](explorations/conditional-build/k2251-detector-phase-reference-2026-10-29.md).
+
+Two independent read-only specialists reviewed concrete proofs and probes with cross-review. Final serialized probes pass38+63=101 finite exact algebra/arithmetic controls and6+8=14 genuine changed-input faults. Universal claims are written proofs; finite controls and dependency/report hashes are distinct evidence. Affected native audits, status currency, syntax/data and local links pass. No Lean, external-expert, novelty or remote-CI certification.
+
+| Result | Established scope | Still missing |
+|---|---|---|
+| K2250 | Joint prepared-input/reference reset for explicit fermionic extraction; coherent-spin counterexample | Ordinary-spin/adaptive process, local parity routing, autonomous extraction and renewal |
+| K2251 | Number-conservation charge-mode bound; finite-reference full binary effect on a fixed mean-number ball | Full field backaction, local fixed-cap synthesis, precision and reference reuse |
+
+Earlier sections are historical.
+
+
 ## K2248--K2249: Conditional research results (2026-10-29)
 
 K2248 proves that all square-integrable, all-normal-parallel sections for an indefinite-compatible connection have identically zero inherited Gram pairing when the reciprocal relative-form norm has divergent integral; the sharp fibrewise Witt bound, localized null family, zero radical quotient and density/growth escapes are explicit. K2249 gives the same XY chain a finite-density product input with exact reference-uniform endpoint reset, distinguishes onsite stationarity from coupled Gibbs equilibrium, and derives exact reinjection memory. A renewal-resolvent estimate proves every output marginal of an arbitrarily long independent diagonal stream is within0.00016 of tau_(1/5) at Jtau=200; a4000001-site chain gives1000 rounds within0.000181. These are marginal bounds, not complete-process renewal. Source assertions, ledger0.263 and physical mappings stay unchanged.
