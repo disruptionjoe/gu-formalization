@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2245-localized-normal-domain](k2245-localized-normal-domain.json).
+- [k2246-autonomous-vacuum-reservoir](k2246-autonomous-vacuum-reservoir.json).
+- [k2247-coupled-drift-cutoff-control](k2247-coupled-drift-cutoff-control.json).
+
+
 - [k2242-ambient-conormal-descent](k2242-ambient-conormal-descent.json).
 - [k2243-variable-gap-battery-reset](k2243-variable-gap-battery-reset.json).
 - [k2244-onsite-drift-local-control](k2244-onsite-drift-local-control.json).

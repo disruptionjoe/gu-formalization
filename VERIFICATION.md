@@ -5,6 +5,19 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2245--K2247: Localized domains, vacuum escape and coupled control (2026-10-29)
+
+K2245 constructs a normalized Gaussian normal-constraint sector for the full raw operator with explicitly changed lower coefficients, a closed positive reduced domain and weighted literal graph current. It is nonreducing for the full raw equation; every positive-metric-compatible everywhere-parallel normal constraint has zero L2 sector on infinite-volume fibres. K2246 gives an autonomous positive half-line vacuum XY reservoir with exact Bessel amplitude, arbitrary-reference reset and spatial-prefix escape. A4001-site approximation has reset error below0.0101+10^-1000 throughout100<=Jt<=200 under the stated J=1 scaling. K2247 constructs positive bounded site/edge cancellation for finite number-preserving coupled drift, with exact reachable-sector dynamics and complete recorded/reference error below0.072312 in its explicit consumer. The cutoff-dependent edge cancellation cost2A|J| is sharp within that architecture. Source assertions, ledger0.263 and physical mappings remain unchanged.
+
+- [K2245](explorations/conditional-build/k2245-localized-normal-domain-2026-10-29.md).
+- [K2246](explorations/conditional-build/k2246-autonomous-vacuum-reservoir-2026-10-29.md).
+- [K2247](explorations/conditional-build/k2247-coupled-drift-cutoff-control-2026-10-29.md).
+
+Three independent read-only specialists inspected actual proofs, probes and reports. Final serialized probes pass47+44+28=119 finite exact controls and reject19 genuinely changed-input fault families. Review corrected reset-channel diagonal signs, a projected-complement result override, weak record and boundary mutations, domain wording and resource bounds; all affected controls were rerun. Universal distributional, spectral, reference-channel and operator proofs are written internally reviewed arguments. No heavy build, Lean, external-expert, novelty or remote-CI certification.
+
+Earlier sections preserve historical result snapshots; the current scope is above.
+
+
 ## K2242--K2244: Ambient descent, variable gaps and bounded local control (2026-10-29)
 
 K2242 combines actual raw-symbol covariance and nonnull invertibility with the ten-dimensional graph conormal to exclude every nonzero unrestricted value-only projected equation. Exact ambient exponential solutions realize arbitrary affine-graph traces, while specified normal-independent constraints lift the positive observed subsystem. K2243 constructs full finite energy-conserving variable-gap reset gates: reduced record/reference reset is exact without battery coherence; joint battery restoration has explicit sine error. A multi-axis finite battery implements arbitrary irrational gaps and the original logarithmic schedule, with exponential dimension and priced mean energy. K2244 uses polar compression and positive bounded spectral generators to approximate the complete finite-network detector with retained onsite drift, arbitrary-reference energy error and explicit laboratory-frame correction. Smooth pulses also impose any positive norm and slew caps at longer duration. Source assertions, ledger0.263 and physical mappings remain unchanged.

@@ -1,4 +1,9 @@
 
+- [k2245_localized_normal_domain_probe](k2245_localized_normal_domain_probe.py).
+- [k2246_autonomous_vacuum_reservoir_probe](k2246_autonomous_vacuum_reservoir_probe.py).
+- [k2247_coupled_drift_cutoff_control_probe](k2247_coupled_drift_cutoff_control_probe.py).
+
+
 - [k2242_ambient_conormal_descent_probe](k2242_ambient_conormal_descent_probe.py).
 - [k2243_variable_gap_battery_reset_probe](k2243_variable_gap_battery_reset_probe.py).
 - [k2244_onsite_drift_local_control_probe](k2244_onsite_drift_local_control_probe.py).

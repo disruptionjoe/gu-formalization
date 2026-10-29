@@ -1,0 +1,64 @@
+{
+  "result_id": "K2247",
+  "checks": {
+    "drift_number_preserving": true,
+    "actual_cancellation": true,
+    "positive_piece_0": true,
+    "bounded_piece_0": true,
+    "positive_piece_1": true,
+    "bounded_piece_1": true,
+    "positive_piece_2": true,
+    "bounded_piece_2": true,
+    "drift_positive": true,
+    "positive_local_gate": true,
+    "path_first_derivative": true,
+    "path_second_derivative": true,
+    "path_third_derivative": true,
+    "undercut_remote_leak": true,
+    "complete_record_control": true,
+    "extra_initial_tail": true,
+    "local_tail": true,
+    "local_polar_delta": true,
+    "complete_consumer": true,
+    "edge_spectrum_1": true,
+    "sharp_edge_cost_1": true,
+    "undershift_fails_1": true,
+    "edge_spectrum_2": true,
+    "sharp_edge_cost_2": true,
+    "undershift_fails_2": true,
+    "edge_spectrum_3": true,
+    "sharp_edge_cost_3": true,
+    "undershift_fails_3": true
+  },
+  "fault_failures": {
+    "cancel_sign": [
+      "actual_cancellation"
+    ],
+    "omit_edge": [
+      "actual_cancellation"
+    ],
+    "undersized_cutoff": [
+      "path_second_derivative",
+      "path_third_derivative"
+    ],
+    "negative_shift": [
+      "actual_cancellation",
+      "positive_piece_0",
+      "positive_piece_1",
+      "positive_piece_2"
+    ],
+    "drop_record": [
+      "complete_record_control"
+    ],
+    "resource_tail": [
+      "extra_initial_tail"
+    ]
+  },
+  "evidence_kinds": "Finite exact arithmetic and algebra controls; universal domain/channel/locality claims are written independently reviewed proofs, not consequences of counts.",
+  "dependency_sha256": {
+    "explorations/conditional-build/k2247-coupled-drift-cutoff-control-2026-10-29.md": "77b41b26d39ee01b1a49ba6ebed7fc280e3f49831b0196b471ac9e9b41bb93d5",
+    "explorations/conditional-build/k2244-onsite-drift-local-control-2026-10-29.md": "18b5bd144d1e2fa871ce58b747fc35ce634cee4919dd6dfbb60da063d65c9062",
+    "explorations/conditional-build/k2241-local-mode-detector-network-2026-10-29.md": "ed6b64c6287121ac80631de72a5cd96eb982f000a85b47267b1d57ebef72a1ae"
+  },
+  "probe_sha256": "836d7ceb680a60c0e652fe6daa7e949bd36c5320bd4d6d16ac62d975a1c50e29"
+}

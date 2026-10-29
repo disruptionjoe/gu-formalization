@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: c9bd805de8cc86532ee43d2c1140512875cd81d8
+revision_basis: 0cbbb69f7626b32edebaa962902b96ee46bebbaa
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,7 +118,20 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
-    K2242 combines actual raw-symbol covariance and nonnull invertibility with the
+    K2245 constructs a normalized Gaussian normal-constraint sector for the full raw
+    operator with explicitly changed lower coefficients, a closed positive reduced
+    domain and weighted literal graph current. It is nonreducing for the full raw
+    equation; every positive-metric-compatible everywhere-parallel normal constraint has
+    zero L2 sector on infinite-volume fibres. K2246 gives an autonomous positive
+    half-line vacuum XY reservoir with exact Bessel amplitude, arbitrary-reference reset
+    and spatial-prefix escape. A4001-site approximation has reset error
+    below0.0101+10^-1000 throughout100<=Jt<=200 under the stated J=1 scaling. K2247
+    constructs positive bounded site/edge cancellation for finite number-preserving
+    coupled drift, with exact reachable-sector dynamics and complete recorded/reference
+    error below0.072312 in its explicit consumer. The cutoff-dependent edge cancellation
+    cost2A|J| is sharp within that architecture. Source assertions, ledger0.263 and
+    physical mappings remain unchanged.
+    Historical predecessor (not live): K2242 combines actual raw-symbol covariance and nonnull invertibility with the
     ten-dimensional graph conormal to exclude every nonzero unrestricted value-only
     projected equation. Exact ambient exponential solutions realize arbitrary
     affine-graph traces, while specified normal-independent constraints lift the
@@ -17480,6 +17493,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2245-localized-normal-domain-2026-10-29.md
+  - explorations/conditional-build/k2246-autonomous-vacuum-reservoir-2026-10-29.md
+  - explorations/conditional-build/k2247-coupled-drift-cutoff-control-2026-10-29.md
+  - lab/process/k2245-localized-normal-domain.json
+  - lab/process/k2246-autonomous-vacuum-reservoir.json
+  - lab/process/k2247-coupled-drift-cutoff-control.json
   - explorations/conditional-build/k2242-ambient-conormal-descent-2026-10-29.md
   - explorations/conditional-build/k2243-variable-gap-battery-reset-2026-10-29.md
   - explorations/conditional-build/k2244-onsite-drift-local-control-2026-10-29.md
@@ -19178,7 +19197,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Which source-compatible normal-jet constraint and global domain can support an
+  Which actual nonparallel or source-compatible normal constraint/domain can replace the
+  supplied Gaussian sector, which finite-temperature or repeated-input reservoir gives
+  controlled renewal and extraction, and which restricted fixed-budget local controller
+  can approximate the same complete detector under coupled drift?
+  Historical predecessor (not live): Which source-compatible normal-jet constraint and global domain can support an
   observed raw solution space, which microscopic reservoir and output-isolation dynamics
   can renew the finite gap-control apparatus, and which specified local control algebra
   can synthesize the detector under coupled drift with the same energy/reference
@@ -23206,7 +23229,22 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Do not repeat unrestricted raw graph descent, finite variable-gap compilation or
+  Do not repeat scalar Gaussian localization, one-input vacuum-chain escape or positive
+  scalar cutoff cancellation. The positive-domain source contender needs a nonparallel
+  constraint, finite-volume/density mechanism or actual indefinite-to-positive
+  action/domain bridge; positive-metric-compatible all-normal parallelism cannot
+  normalize on infinite volume. The reservoir contender needs repeated correlated
+  inputs, finite-temperature Gibbs behavior and extraction/renewal dynamics; an infinite
+  prepared vacuum is not those resources. Coupled detector synthesis now needs a
+  restricted control alphabet or fixed strength/precision budget, or
+  non-number-preserving/continuum estimates; exact positive scalar cancellation
+  costs2A|J| per hopping edge and cannot be made cheap by longer gate time. Compare
+  these against broader-contrast simultaneous tails and a genuine real nonsingular
+  all-ten-row adapter. Preserve
+  source/full16cells/full20/K-C/native2+1/chirality/physical quotient,
+  mirrors/fullII/normaljets, scalar/thermal optima, exact wings and restricted cosmology
+  ceilings.
+  Historical predecessor (not live): Do not repeat unrestricted raw graph descent, finite variable-gap compilation or
   bounded positive onsite-drift existence. K2242 needs a source-compatible propagated
   constraint/action/domain or genuinely changed principal operator before physical
   observation; its supplied normal-independent lift is not global ambient L2 on

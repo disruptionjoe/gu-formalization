@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2245-localized-normal-domain-2026-10-29](conditional-build/k2245-localized-normal-domain-2026-10-29.md).
+- [k2246-autonomous-vacuum-reservoir-2026-10-29](conditional-build/k2246-autonomous-vacuum-reservoir-2026-10-29.md).
+- [k2247-coupled-drift-cutoff-control-2026-10-29](conditional-build/k2247-coupled-drift-cutoff-control-2026-10-29.md).
+
+
 - [k2242-ambient-conormal-descent-2026-10-29](conditional-build/k2242-ambient-conormal-descent-2026-10-29.md).
 - [k2243-variable-gap-battery-reset-2026-10-29](conditional-build/k2243-variable-gap-battery-reset-2026-10-29.md).
 - [k2244-onsite-drift-local-control-2026-10-29](conditional-build/k2244-onsite-drift-local-control-2026-10-29.md).

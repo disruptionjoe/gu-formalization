@@ -1,0 +1,90 @@
+{
+  "result_id": "K2245",
+  "checks": {
+    "full_conjugation": true,
+    "kernel": true,
+    "flat_constraint_commutator": true,
+    "raw_lower_cancel_1": true,
+    "raw_upper_cancel_1": true,
+    "raw_normal_return_nonzero_1": true,
+    "raw_lower_cancel_2": true,
+    "raw_upper_cancel_2": true,
+    "raw_normal_return_nonzero_2": true,
+    "raw_lower_cancel_3": true,
+    "raw_upper_cancel_3": true,
+    "raw_normal_return_nonzero_3": true,
+    "raw_lower_cancel_4": true,
+    "raw_upper_cancel_4": true,
+    "raw_normal_return_nonzero_4": true,
+    "raw_lower_cancel_5": true,
+    "raw_upper_cancel_5": true,
+    "raw_normal_return_nonzero_5": true,
+    "raw_lower_cancel_6": true,
+    "raw_upper_cancel_6": true,
+    "raw_normal_return_nonzero_6": true,
+    "raw_lower_cancel_10": true,
+    "raw_upper_cancel_10": true,
+    "raw_normal_return_nonzero_10": true,
+    "raw_lower_cancel_11": true,
+    "raw_upper_cancel_11": true,
+    "raw_normal_return_nonzero_11": true,
+    "raw_lower_cancel_12": true,
+    "raw_upper_cancel_12": true,
+    "raw_normal_return_nonzero_12": true,
+    "raw_lower_cancel_13": true,
+    "raw_upper_cancel_13": true,
+    "raw_normal_return_nonzero_13": true,
+    "normal_gaussian_unit_norm": true,
+    "odd_complement": true,
+    "actual_complement_return": true,
+    "moving_output_equation": true,
+    "weighted_density_conserved": true,
+    "unweighted_density_not_conserved": true,
+    "real_amplitude_connection": true,
+    "two_copy_isometry": true,
+    "symmetric_C_7": true,
+    "symmetric_C_8": true,
+    "symmetric_C_9": true,
+    "skew_mass": true,
+    "compatible_connection_constant_norm": true,
+    "localizing_connection_changes_norm": true
+  },
+  "fault_failures": {
+    "gradient_sign": [
+      "full_conjugation",
+      "kernel"
+    ],
+    "omit_lower_return": [
+      "raw_lower_cancel_1",
+      "raw_lower_cancel_2",
+      "raw_lower_cancel_3",
+      "raw_lower_cancel_4",
+      "raw_lower_cancel_5",
+      "raw_lower_cancel_6",
+      "raw_lower_cancel_10",
+      "raw_lower_cancel_11",
+      "raw_lower_cancel_12",
+      "raw_lower_cancel_13"
+    ],
+    "normalization": [
+      "normal_gaussian_unit_norm"
+    ],
+    "moving_trace_sign": [
+      "moving_output_equation"
+    ],
+    "unitary_gradient": [
+      "real_amplitude_connection"
+    ],
+    "reduce_complement": [
+      "actual_complement_return"
+    ]
+  },
+  "evidence_kinds": "Finite exact arithmetic and algebra controls; universal normal-domain and graph-current claims are written independently reviewed proofs, not consequences of counts.",
+  "dependency_sha256": {
+    "explorations/conditional-build/k2245-localized-normal-domain-2026-10-29.md": "2688cd99d94e82a490c65ea6f243cdf9a49416b3e66d9736f91b01c69a2e493e",
+    "explorations/conditional-build/k2242-ambient-conormal-descent-2026-10-29.md": "8011d22bdb86d1b4263dfe228271afe1540869d8b84f54985c798aec26e8be0f",
+    "explorations/conditional-build/k2239-moving-observation-closure-2026-10-29.md": "fa4c4697ebf9b3a03fe875dba4a3a5c6c53e850b242dc4370bb233c5239ac98b",
+    "tests/channel-swings/k2206_changed_raw_mass_construction_probe.py": "441f226b668ab31205f7ae0166a518b154e010f2f411b0556937d96fd285cce7"
+  },
+  "probe_sha256": "e0bf307e9f28d4f8ee4fb682491306964f3130a63ceaa75477d40f6b12dd93fc"
+}
