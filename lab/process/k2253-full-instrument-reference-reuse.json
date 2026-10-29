@@ -1,0 +1,105 @@
+{
+  "result_id": "K2253",
+  "checks": {
+    "original_isometry": true,
+    "failure_square": true,
+    "completed_isometry": true,
+    "exact_output_tail_gram": true,
+    "good_shells_no_lost_amplitude": true,
+    "actual_shell_columns_orthonormal": true,
+    "actual_lift_charge_conservation": true,
+    "actual_reference_dilation_isometry": true,
+    "controlled_translation_factorization": true,
+    "full_joint_amplitudes": true,
+    "joint_norm": true,
+    "entangled_reference_full_amplitudes": true,
+    "entangled_reference_marginal": true,
+    "physical_reference_dimension": true,
+    "degenerate_input_is_retained": true,
+    "vacuum_distribution_norm": true,
+    "vacuum_output_charge": true,
+    "bounded_restoration_witness_1": true,
+    "bounded_restoration_witness_2": true,
+    "bounded_restoration_witness_5": true,
+    "bounded_first_witness": true,
+    "consumer_input_tail": true,
+    "consumer_output_tail": true,
+    "consumer_phase": true,
+    "ten_call_error": true,
+    "reference_maximum": true,
+    "reference_mean": true,
+    "same_records_wrong_backaction": true
+  },
+  "fault_failures": {
+    "omit_failure": [
+      "failure_square",
+      "completed_isometry",
+      "exact_output_tail_gram",
+      "actual_shell_columns_orthonormal",
+      "actual_reference_dilation_isometry",
+      "joint_norm",
+      "entangled_reference_marginal",
+      "degenerate_input_is_retained"
+    ],
+    "wrong_failure_norm": [
+      "failure_square",
+      "completed_isometry",
+      "exact_output_tail_gram",
+      "actual_shell_columns_orthonormal",
+      "actual_reference_dilation_isometry",
+      "joint_norm",
+      "entangled_reference_marginal",
+      "degenerate_input_is_retained"
+    ],
+    "reverse_shift": [
+      "good_shells_no_lost_amplitude",
+      "actual_shell_columns_orthonormal",
+      "actual_lift_charge_conservation",
+      "controlled_translation_factorization",
+      "full_joint_amplitudes",
+      "entangled_reference_full_amplitudes"
+    ],
+    "wrong_degenerate_charge": [
+      "actual_shell_columns_orthonormal",
+      "actual_lift_charge_conservation",
+      "actual_reference_dilation_isometry",
+      "controlled_translation_factorization",
+      "full_joint_amplitudes",
+      "joint_norm",
+      "entangled_reference_full_amplitudes",
+      "entangled_reference_marginal"
+    ],
+    "discard_phase": [
+      "full_joint_amplitudes"
+    ],
+    "wrong_discarded_row": [
+      "failure_square",
+      "completed_isometry",
+      "exact_output_tail_gram",
+      "actual_shell_columns_orthonormal",
+      "actual_reference_dilation_isometry",
+      "joint_norm",
+      "entangled_reference_marginal",
+      "degenerate_input_is_retained"
+    ],
+    "wrong_squeeze_energy": [
+      "consumer_output_tail"
+    ],
+    "wrong_reference_range": [
+      "actual_reference_dilation_isometry",
+      "controlled_translation_factorization",
+      "full_joint_amplitudes",
+      "joint_norm",
+      "entangled_reference_full_amplitudes",
+      "entangled_reference_marginal",
+      "physical_reference_dimension"
+    ]
+  },
+  "evidence_kinds": "Exact finite complex isometry/shell/charge and rational resource controls; universal Hilbert and adaptive hybrid claims are written proofs. Hash checks report integrity.",
+  "dependency_sha256": {
+    "explorations/conditional-build/k2253-full-instrument-reference-reuse-2026-10-29.md": "2db4b83728046f3a40ab8c207c4a2014ff7a27752a792a1bd40bf657ad265749",
+    "explorations/conditional-build/k2251-detector-phase-reference-2026-10-29.md": "8f996e21ef8ad7ab5e09ce169096ab0dc4a21915ba271675a303de45e40a5430",
+    "explorations/conditional-build/k2241-local-mode-detector-network-2026-10-29.md": "ed6b64c6287121ac80631de72a5cd96eb982f000a85b47267b1d57ebef72a1ae"
+  },
+  "probe_sha256": "560e876e36e6362565ed4a7b43ebff09d87d4907bcc0040f8b845f66fea20e0b"
+}

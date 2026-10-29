@@ -5,6 +5,19 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2252--K2254: Local extraction, full instruments and nonparallel raw domains (2026-10-29)
+
+K2252 implements the prepared-input fermionic reset circuit with positive nearest-neighbor spin controls and explicit switching errors, while an exact future-input witness excludes interpreting its final output channel as ordinary adaptive service. K2253 constructs the complete recorded field instrument with a finite number-conserving reference, controls output tails and correlated adaptive reuse, and prices a ten-call error below0.00914; a bounded charge witness excludes exact reference restoration. K2254 constructs normally localized nonparallel solutions of the unchanged specified raw1920 candidate: rank256 propagated constraints leave1024 modes with a supplied positive norm on a compact stable Fourier band, including a complex512-dimensional positive-energy half. Source assertions, ledger0.263 and physical mappings remain unchanged.
+
+- [K2252](explorations/conditional-build/k2252-adaptive-reset-interface-2026-10-29.md).
+- [K2253](explorations/conditional-build/k2253-full-instrument-reference-reuse-2026-10-29.md).
+- [K2254](explorations/conditional-build/k2254-raw-nonparallel-domain-2026-10-29.md).
+
+Three read-only field specialists reviewed actual proofs and probes with independent cross-review. Final serialized probes pass47+28+4937=5012 finite exact algebra/arithmetic controls and6+8+8=22 genuine changed-input faults. Original raw block identities are finite exact computations; universal Fourier-domain, Hilbert-space, circuit and adaptive-hybrid results are written proofs. Review corrected a dropped graph-trace prefactor, finite environment support, mean-number wording, a predicate-only fault and a falsely labeled entangled fixture. Affected native audits and integrity checks pass. No Lean, external-expert, novelty or remote-CI certification.
+
+Earlier sections preserve historical result snapshots; the current scope is above.
+
+
 ## K2250--K2251: Quantum extraction and detector phase reference (2026-10-29)
 
 K2250 gives an exact coherent-spin counterexample to extending diagonal reset recurrences, then proves joint-output arbitrary-reference reset for an explicitly fermionic extraction circuit: ten jointly prepared inputs have error below0.004501 using2000000 reservoir modes. K2251 proves the actual mode-vacuum detector has error at least0.288 under number-conserving controls with invariant preparation/readout, quantifies the missing charge coherence, and constructs finite-reference binary-record approximations on both a two-state compression and the full fixed-number-budget input ball. Source claims, ledger0.263 and physical mappings remain unchanged.

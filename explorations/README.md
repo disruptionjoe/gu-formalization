@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2252-adaptive-reset-interface-2026-10-29](conditional-build/k2252-adaptive-reset-interface-2026-10-29.md).
+- [k2253-full-instrument-reference-reuse-2026-10-29](conditional-build/k2253-full-instrument-reference-reuse-2026-10-29.md).
+- [k2254-raw-nonparallel-domain-2026-10-29](conditional-build/k2254-raw-nonparallel-domain-2026-10-29.md).
+
+
 - [k2250-quantum-stream-interface-2026-10-29](conditional-build/k2250-quantum-stream-interface-2026-10-29.md).
 - [k2251-detector-phase-reference-2026-10-29](conditional-build/k2251-detector-phase-reference-2026-10-29.md).
 

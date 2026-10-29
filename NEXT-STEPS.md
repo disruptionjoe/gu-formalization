@@ -5,6 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-10-29: LOCAL EXTRACTION, FULL INSTRUMENTS AND NONPARALLEL RAW DOMAINS.**
+> Compare source ownership or a local/causal replacement of K2254's nonlocal Fourier constraint and pairing against output-isolating adaptive reset extraction and restricted local synthesis/reference replenishment of K2253's full instrument. Do not repeat all-parallel or fixed-copy-line localization, prepared-input parity routing, binary effects or finite shell existence. K2254 is a supplied stable-band domain, not source physicalization; K2252 delivers outputs after routing, not during an adaptive comb; K2253 uses arbitrary shell controls and huge finite charge resources. Broader-contrast simultaneous tails and genuine real all-ten-row adapters remain alternatives. Preserve native2+1/nonchiral,full16cells/full20/K-C,physical quotient,mirrors/fullII/normaljets,scalar/thermal and cosmology ceilings.
+> Earlier banners are historical; use this current condition.
+
+
 > **2026-10-29: QUANTUM EXTRACTION AND DETECTOR PHASE REFERENCE.**
 > Compare source-compatible nonparallel constraints and positive domain on the actual raw carrier against ordinary-spin/adaptive history reset, locally implemented fermionic extraction, or finite-reference full detector backaction and reuse. K2250 settles joint prepared-input reset only for an explicit parity-aware fermionic circuit; K2251 settles invariant-apparatus failure and finite-reference binary record effects on a mean-number ball. Do not repeat diagonal marginal renewal, phase-free control searches or sine-reference overlap. Broader-contrast simultaneous tails and genuine real all-ten-row adapters remain alternatives. Preserve source/full16cells/full20/K-C, native2+1/nonchiral, physical quotient, mirrors/fullII/normaljets, scalar/thermal and cosmology ceilings.
 > Earlier banners are historical; use this current condition.

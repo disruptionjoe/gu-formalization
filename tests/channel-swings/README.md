@@ -1,4 +1,9 @@
 
+- [k2252_adaptive_reset_interface_probe](k2252_adaptive_reset_interface_probe.py).
+- [k2253_full_instrument_reference_reuse_probe](k2253_full_instrument_reference_reuse_probe.py).
+- [k2254_raw_nonparallel_domain_probe](k2254_raw_nonparallel_domain_probe.py).
+
+
 - [k2250_quantum_stream_interface_probe](k2250_quantum_stream_interface_probe.py).
 - [k2251_detector_phase_reference_probe](k2251_detector_phase_reference_probe.py).
 
