@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: ad8edc27b228407cf6e90e1410e59fe34edea823
+revision_basis: 20a6fe75c78e8e0bc6d91076d17445f7b68e821a
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,7 +118,17 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
-    K2212 identifies the minimal mass connection algebra as the entire10-dimensional
+    K2215 proves a derivative-free global resolvent gap for bounded real variable
+    coefficients in the supplied common-return positive sector, with correlated
+    pointwise mass/bound condition, static moving-frame transport and an exact
+    frozen-symbol/global-gap counterexample. K2216 localizes every global half-contrast
+    detector minimizer to a smaller squeeze rectangle and certifies32 of55 clipped
+    regions as containing no global minimizer;23 remain unresolved. K2217 excludes the
+    entire45-dimensional genuine Spin orbit of the prescribed adapter and
+    its46-dimensional scaled port family using full-real-fiber covariance and an exact
+    stabilizer minor. Source assertions, ledger0.263 and physical mapping grades remain
+    unchanged.
+    Historical predecessor (not live): K2212 identifies the minimal mass connection algebra as the entire10-dimensional
     B-skew normal commutant, classifies all140 coefficients down to40 invariant and30
     current-conserving ones, and proves the exact constant gap max(|m|-|b|,0). Flat
     massive and curved invisible controls prevent a source-gauge inference. K2213 proves
@@ -17348,6 +17358,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2215-variable-mass-gap-2026-10-28.md
+  - explorations/conditional-build/k2216-detector-exterior-certificate-2026-10-28.md
+  - explorations/conditional-build/k2217-spin-orbit-adapter-exclusion-2026-10-28.md
+  - lab/process/k2215-variable-mass-gap.json
+  - lab/process/k2216-detector-exterior-certificate.json
+  - lab/process/k2217-spin-orbit-adapter-exclusion.json
   - explorations/conditional-build/k2212-mass-connection-algebra-2026-10-28.md
   - explorations/conditional-build/k2213-detector-convex-uniqueness-2026-10-28.md
   - explorations/conditional-build/k2214-prescribed-adapter-fibers-2026-10-28.md
@@ -18986,7 +19002,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can the unique certified detector be compared globally across positive squeezes, or
+  Can the supplied positive common-return sector support a source-owned moving operator
+  and observation, can the retained detector exterior regions be rigorously separated
+  from its unique local optimum, and can any genuinely different real nonsingular
+  adapter satisfy all ten original equations?
+  Historical predecessor (not live): Can the unique certified detector be compared globally across positive squeezes, or
   can a moving principal/observation construction make the classified massive connection
   physically meaningful? For adapters, can a genuinely different prescribed factor
   satisfy real-grade reconstruction and all ten original rows? The fixed K2205 factor
@@ -22969,7 +22989,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Do not repeat compact-box detector existence or uniqueness, the complete B-skew
+  Do not repeat fixed-sign derivative-free gap, static transport, the K1967 wall
+  mechanism, the exact Y0 Spin orbit or global squeeze localization. Compare a complete
+  detector exterior certificate on the23 retained regions (new valid dual inputs or a
+  freshly certified larger uniqueness basin) with a source-owned moving
+  operator/action/observation construction; frozen pointwise mass gaps are insufficient
+  and a static field re-expression does not select the source model. Adapter candidates
+  must leave the excluded Spin orbit and satisfy real grades, both chiral halves,
+  nonsingularity, ordered Euler and all ten original rows. Preserve scalar
+  saturation/inverse/endpoint/weak353/170/half bracket, thermal163/164, restricted
+  cosmology, native2+1/chirality, source/full16cell/full20/K-C, physical quotient,
+  mirrors/fullII/normaljets and exact wings. Stable apparatus/preparation/reset remains
+  separate.
+  Historical predecessor (not live): Do not repeat compact-box detector existence or uniqueness, the complete B-skew
   normal-commuting connection class, its constant gap threshold, or the prescribed K2205
   factor fiber. Compare global detector comparison over positive squeezes against a
   concrete moving-principal/observation/action compatibility construction for the mass

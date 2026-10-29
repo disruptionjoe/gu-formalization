@@ -1,0 +1,66 @@
+{
+  "result_id": "K2215",
+  "status": "conditional_variable_gap_and_frame_boundary",
+  "checks": {
+    "mass_involution": true,
+    "S_involution": true,
+    "mass_S_anticommutator": true,
+    "Clifford_0": true,
+    "Clifford_pair_0_0": true,
+    "Clifford_pair_0_1": true,
+    "Clifford_pair_0_2": true,
+    "Clifford_1": true,
+    "Clifford_pair_1_0": true,
+    "Clifford_pair_1_1": true,
+    "Clifford_pair_1_2": true,
+    "Clifford_2": true,
+    "Clifford_pair_2_0": true,
+    "Clifford_pair_2_1": true,
+    "Clifford_pair_2_2": true,
+    "native_anticommutation_7": true,
+    "native_anticommutation_8": true,
+    "native_anticommutation_9": true,
+    "native_mass_square": true,
+    "correlated_gap": true,
+    "pointwise_form_0": true,
+    "pointwise_eigenvalues_0": true,
+    "pointwise_form_1": true,
+    "pointwise_eigenvalues_1": true,
+    "finite_Hermitian": true,
+    "finite_correlated_gap_form": true,
+    "scalar_contamination_counterexample": true,
+    "static_frame_derivative": true,
+    "frame_unitary": true,
+    "divergence_free_twist": true,
+    "frozen_mass_0": true,
+    "frozen_mass_1": true,
+    "frozen_mass_2": true,
+    "shifted_spectrum_zero": true,
+    "wall_normal_equation": true,
+    "wall_tangent_preservation": true,
+    "inherited_wall_profile": true,
+    "step_wall_-1": true,
+    "step_wall_1": true,
+    "step_wall_continuity": true
+  },
+  "controls": 40,
+  "fault_failures": {
+    "commuting_contamination": [
+      "finite_correlated_gap_form"
+    ],
+    "frame_sign": [
+      "static_frame_derivative"
+    ],
+    "wall_projector": [
+      "wall_normal_equation"
+    ]
+  },
+  "dependency_sha256": {
+    "tests/channel-swings/k2212_mass_connection_algebra_probe.py": "c4f8fd73311201f2e0ee7a6c53ce23051e6d57dc8e7dceeedcac340bb6dfe59e",
+    "explorations/conditional-build/k2212-mass-connection-algebra-2026-10-28.md": "b8f9348b34d2f4e43e632cec931f994bf0911a4d775c11fbd002c5276520c151",
+    "explorations/conditional-build/k1967-paired-raw-coefficient-observation-2026-10-22.md": "cfefc928e48a60c1af69c3eb3a327090c402cd4397d7e96c8c7c5bea8af44c33",
+    "explorations/conditional-build/k2215-variable-mass-gap-2026-10-28.md": "337c9342f1a1fd012b58aadbacf17d597c63dabc0027b5595238fa9ebcec8fdb"
+  },
+  "probe_sha256": "78c7f0ceb757b8c655e9f8a628a14d012d9e331c7267df5d49514e32f5e28fdf",
+  "evidence_kinds": "Universal Hilbert-space proof; exact Clifford and finite form controls; inherited wall mechanism; explicit moving-symbol counterexample. No physical source selection."
+}

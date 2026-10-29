@@ -6,6 +6,25 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2215--K2217: Conditional research results (2026-10-28)
+
+K2215 proves a derivative-free global resolvent gap for bounded real variable coefficients in the supplied common-return positive sector, with correlated pointwise mass/bound condition, static moving-frame transport and an exact frozen-symbol/global-gap counterexample. K2216 localizes every global half-contrast detector minimizer to a smaller squeeze rectangle and certifies32 of55 clipped regions as containing no global minimizer;23 remain unresolved. K2217 excludes the entire45-dimensional genuine Spin orbit of the prescribed adapter and its46-dimensional scaled port family using full-real-fiber covariance and an exact stabilizer minor. Source assertions, ledger0.263 and physical mapping grades remain unchanged.
+
+- [K2215](explorations/conditional-build/k2215-variable-mass-gap-2026-10-28.md).
+- [K2216](explorations/conditional-build/k2216-detector-exterior-certificate-2026-10-28.md).
+- [K2217](explorations/conditional-build/k2217-spin-orbit-adapter-exclusion-2026-10-28.md).
+
+Three read-only internal specialists reviewed actual proofs and instruments, with cross-review of every result. Fresh serialized exact probes pass40+16+84=140 controls and3+3+4=10 genuine fault families. Universal operator and covariance proofs, exact global localization, finite Clifford/form controls, rational full-tail tile evaluation and inherited certificates are distinguished. K2216 reuses valid dual inputs but recalculates its clipped cover; it does not rerun the unchanged K2210 boundary or K2213 Schur banks. No heavy/Lean, proof-assistant, external-expert, novelty or remote-CI certification.
+
+| Result | Established | Remaining |
+| --- | --- | --- |
+| K2215 | Variable fixed-sign global gap; moving-symbol counterexample | Source action/observation selection |
+| K2216 | Global localization;32 regions excluded |23 regions and global uniqueness |
+| K2217 | Spin orbit45 and scaled port46 excluded | Other real noncommuting factors |
+
+Earlier sections are historical.
+
+
 ## K2212--K2214: Conditional research results (2026-10-28)
 
 K2212 identifies the minimal mass connection algebra as the entire10-dimensional B-skew normal commutant, classifies all140 coefficients down to40 invariant and30 current-conserving ones, and proves the exact constant gap max(|m|-|b|,0). Flat massive and curved invisible controls prevent a source-gauge inference. K2213 proves the certified infinite detector has a unique compact-box minimizer and is the only stationary point in an explicit convex profile enclosure, with quantitative weighted energy growth. K2214 proves the actual noncommuting factor has a one-dimensional real reconstruction fiber and excludes every nonsingular port in that fiber using the original ordered Euler contraction. Source assertions, ledger0.263 and physical claim grades remain unchanged.

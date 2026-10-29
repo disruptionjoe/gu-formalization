@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2215-variable-mass-gap](k2215-variable-mass-gap.json).
+- [k2216-detector-exterior-certificate](k2216-detector-exterior-certificate.json).
+- [k2217-spin-orbit-adapter-exclusion](k2217-spin-orbit-adapter-exclusion.json).
+
+
 - [k2212-mass-connection-algebra](k2212-mass-connection-algebra.json).
 - [k2213-detector-convex-uniqueness](k2213-detector-convex-uniqueness.json).
 - [k2214-prescribed-adapter-fibers](k2214-prescribed-adapter-fibers.json).

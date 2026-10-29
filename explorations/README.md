@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2215-variable-mass-gap-2026-10-28](conditional-build/k2215-variable-mass-gap-2026-10-28.md).
+- [k2216-detector-exterior-certificate-2026-10-28](conditional-build/k2216-detector-exterior-certificate-2026-10-28.md).
+- [k2217-spin-orbit-adapter-exclusion-2026-10-28](conditional-build/k2217-spin-orbit-adapter-exclusion-2026-10-28.md).
+
+
 - [k2212-mass-connection-algebra-2026-10-28](conditional-build/k2212-mass-connection-algebra-2026-10-28.md).
 - [k2213-detector-convex-uniqueness-2026-10-28](conditional-build/k2213-detector-convex-uniqueness-2026-10-28.md).
 - [k2214-prescribed-adapter-fibers-2026-10-28](conditional-build/k2214-prescribed-adapter-fibers-2026-10-28.md).

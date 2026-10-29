@@ -5,6 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-10-28: VARIABLE GAP, DETECTOR EXTERIOR AND ADAPTER ORBIT.**
+> Do not repeat fixed-sign derivative-free gap, static transport, the K1967 wall mechanism, the exact Y0 Spin orbit or global squeeze localization. Compare a complete detector exterior certificate on the23 retained regions (new valid dual inputs or a freshly certified larger uniqueness basin) with a source-owned moving operator/action/observation construction; frozen pointwise mass gaps are insufficient and a static field re-expression does not select the source model. Adapter candidates must leave the excluded Spin orbit and satisfy real grades, both chiral halves, nonsingularity, ordered Euler and all ten original rows. Preserve scalar saturation/inverse/endpoint/weak353/170/half bracket, thermal163/164, restricted cosmology, native2+1/chirality, source/full16cell/full20/K-C, physical quotient, mirrors/fullII/normaljets and exact wings. Stable apparatus/preparation/reset remains separate.
+> Earlier banners are historical; use this current condition.
+
+
 > **2026-10-28: MASS ALGEBRA, DETECTOR UNIQUENESS AND ADAPTER FIBER.**
 > Do not repeat compact-box detector existence or uniqueness, the complete B-skew normal-commuting connection class, its constant gap threshold, or the prescribed K2205 factor fiber. Compare global detector comparison over positive squeezes against a concrete moving-principal/observation/action compatibility construction for the mass algebra. The latter must account for transformations rotating the fixed principal matrices; trace-Hq and curvature alone do not select physics. General adapter work requires a different factor or a universal ordered obstruction, with real grades, both halves, nonsingularity and all ten rows retained. Preserve source/full16cells/full20/K-C, native2+1/chirality, physical quotient, mirrors/fullII/normaljets, scalar saturation/inverse/endpoint/weak353/170/half bracket, thermal163/164 and exact wings. Apparatus/preparation/reset remains separate.
 > Earlier banners are historical; use this current condition.
