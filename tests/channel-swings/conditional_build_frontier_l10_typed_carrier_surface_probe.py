@@ -38,6 +38,14 @@ def run_gate(cwd):
         capture_output=True, check=False)
 
 
+def integration_cursor_is_current(index):
+    integrated = [
+        item["delta_id"] for item in index.get("deltas", [])
+        if item.get("status") == "integrated"
+    ]
+    return bool(integrated) and index.get("integration_cursor") == integrated[-1]
+
+
 def main():
     text = ARTIFACT.read_text(encoding="utf-8")
     index = json.loads(INDEX.read_text(encoding="utf-8"))
@@ -65,7 +73,7 @@ def main():
     indexed = [item for item in index["deltas"] if item["delta_id"] == delta["delta_id"]]
     check("LT-GR8 delta indexed exactly once", len(indexed) == 1)
     check("index disposition deferred", indexed[0]["status"] == "deferred")
-    check("integration cursor is current", index["integration_cursor"] == index["deltas"][-1]["delta_id"])
+    check("integration cursor follows last integrated delta", integration_cursor_is_current(index))
     check("delta disposition deferred", delta["integration"]["disposition"] == "deferred")
     check("priority unchanged", delta["integration"]["priority_effect"] == "none")
     check("verdict ceiling preserved", "NEEDS / MISSING_CONSTRUCTION" in delta["integration"]["reason"])
@@ -96,6 +104,23 @@ def selftest():
         check("old owner token is caught", "OWNER-UNTOKENED" in gate.validate_block(bad)[0])
         bad = gate.VALID_BLOCK.replace("MAP-TYPE=restriction", "MAP-TYPE=typing")
         check("old map token is caught", "TARGET-BAD-MAPTYPE:typing" in gate.validate_block(bad)[0])
+        pending_tail = {
+            "integration_cursor": "INTEGRATED-1",
+            "deltas": [
+                {"delta_id": "INTEGRATED-1", "status": "integrated"},
+                {"delta_id": "PENDING-1", "status": "pending"},
+            ],
+        }
+        check("pending tail preserves last integrated cursor", integration_cursor_is_current(pending_tail))
+        pending_tail["integration_cursor"] = "PENDING-1"
+        check("pending tail cannot become integration cursor", not integration_cursor_is_current(pending_tail))
+        check(
+            "cursor check fails closed without integrated delta",
+            not integration_cursor_is_current({
+                "integration_cursor": "PENDING-1",
+                "deltas": [{"delta_id": "PENDING-1", "status": "pending"}],
+            }),
+        )
     finally:
         gate.ROOT = original_root
         os.chdir(original_cwd)
