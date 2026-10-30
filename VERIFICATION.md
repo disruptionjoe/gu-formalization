@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2323--K2324: Observer lensing domain and Kerr control (2026-10-30)
+
+K2323 proves that a smooth positive anisotropic source window can have divergent Born-lensing variance under the same supplied white-UV seed, from the shared observer endpoint. It derives the exact adjoint, a quadrupole counterexample and sufficient foreground or angular-moment repairs, plus the colored quadrupole threshold. K2324 replaces ideal selective pulses with a supplied Kerr and beam-splitter Hamiltonian, proving a direct lossy averaging bound, programmed lab-phase compensation and an explicit sufficient selectivity/loss window. Full relativistic counts, physical covariance, readout hardware and native GU claims remain open.
+
+- [K2323](explorations/conditional-build/k2323-born-lensing-observer-domain-2026-10-30.md).
+- [K2324](explorations/conditional-build/k2324-kerr-selective-lossy-control-2026-10-30.md).
+
+Three independent read-only specialist reviews accepted the actual written proofs and probes after corrections. 51 exact symbolic controls,15 finite65-digit numerical controls and14 genuine changed-input faults pass. Continuum and uniform control theorems rely on written proofs; finite tests are not interval or proof-assistant certificates. No external-expert, novelty, empirical, hardware or whole-GU certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2321--K2322: Current counts and protected-reference compilation (2026-10-30)
 
 K2321 derives conserved-current flux and an exact Doppler radial count pushforward on a fixed background cone. The same healthy dust-scalar seed gives an elliptic positive density-plus-displacement response, a sharp H1 window criterion and a derivative-sensitive displacement-noise/calibration budget. K2322 constructs loss-compensated arbitrary-stock sine preparation and proves the sharp control-class threshold gamma<4J, with quadratic exposure, actual-contraction error, storage and charged-renewal bounds. These are conditional mathematical results; full relativistic counts, physical initial statistics, hardware feasibility and native GU claims remain unestablished.

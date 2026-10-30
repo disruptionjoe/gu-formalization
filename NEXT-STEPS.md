@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-10-30: CURRENT COUNTS AND PROTECTED-REFERENCE COMPILATION.**
+> **2026-10-30: OBSERVER LENSING DOMAIN AND KERR CONTROL.**
+> Compose the remaining observer, redshift and radial-ray terms before extrapolating the Born quadrupole obstruction to a complete observed count. Alternatively construct the SAME action physical seed covariance and test its UV tail; smooth source tapering alone does not suffice for the supplied white seed. For calibration, implement a complete noninstantaneous neutral readout/flag/reset and rate/clock model against the actual Kerr compiler bounds; do not assume ideal selector norm or free terminal phase correction. Preserve native curved stationary field/receiver jets and analytic domain as a separate construction, with algebraic P and frozen199/931 already available. Do not repeat the smooth-window counterexample, generic averaging, sine preparation or fixed-flat root.
+
+
+> **Historical predecessor, no longer the live next condition: 2026-10-30 CURRENT COUNTS AND PROTECTED-REFERENCE COMPILATION.**
 > Compose current flux with actual gravitational/integrated redshift, perturbed photon paths, observer terms and tracer selection on the SAME healthy action, retaining shared initial covariance; the fixed-cone Doppler H1 theorem cannot be assumed for the full count observable. For calibration, all-stock conditional reachability is settled at gamma<4J; next price occupation-selective controls, rate/timing uncertainty and a complete noninstantaneous readout/reset using actual no-jump contractions. Do not repeat generic sine preparation, N1 threshold, fixed-cone taper or frozen199/931 coordinate roots. Retain the native curved stationary field/receiver-jet and analytic-domain construction as a separate source-facing contender.
 
 

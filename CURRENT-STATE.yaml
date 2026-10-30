@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 1a16b1ccb32610c8cd4a4ffc804c5d9caf148aa4
+revision_basis: efba3759de9089288409b2f2b36404f61bd7f652
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,15 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2323 proves that a smooth positive anisotropic source window can have divergent
+    Born-lensing variance under the same supplied white-UV seed, from the shared observer
+    endpoint. It derives the exact adjoint, a quadrupole counterexample and sufficient
+    foreground or angular-moment repairs, plus the colored quadrupole threshold. K2324
+    replaces ideal selective pulses with a supplied Kerr and beam-splitter Hamiltonian,
+    proving a direct lossy averaging bound, programmed lab-phase compensation and an
+    explicit sufficient selectivity/loss window. Full relativistic counts, physical
+    covariance, readout hardware and native GU claims remain open. Historical predecessor
+    (not live):
     K2321 derives conserved-current flux and an exact Doppler radial count pushforward on a
     fixed background cone. The same healthy dust-scalar seed gives an elliptic positive
     density-plus-displacement response, a sharp H1 window criterion and a
@@ -17622,6 +17631,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2323-born-lensing-observer-domain-2026-10-30.md
+  - lab/process/k2323-born-lensing-observer-domain.json
+  - tests/channel-swings/k2323_born_lensing_observer_domain_probe.py
+  - explorations/conditional-build/k2324-kerr-selective-lossy-control-2026-10-30.md
+  - lab/process/k2324-kerr-selective-lossy-control.json
+  - tests/channel-swings/k2324_kerr_selective_lossy_control_probe.py
   - explorations/conditional-build/k2321-radial-count-operator-2026-10-30.md
   - lab/process/k2321-radial-count-operator.json
   - tests/channel-swings/k2321_radial_count_operator_probe.py
@@ -19492,6 +19507,9 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which complete observer/redshift kernel or physical covariance removes or preserves the
+  lensing endpoint obstruction, and which explicit readout/reference implementation meets
+  the Kerr compiler resource conditions? Historical predecessor (not live):
   Which complete perturbed-ray and redshift observable for the same healthy dust-scalar
   action, or microscopic selective-control and readout architecture, can satisfy the newly
   explicit domain and resource requirements? Historical predecessor (not live):
@@ -23568,6 +23586,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Compose the remaining observer, redshift and radial-ray terms before extrapolating the
+  Born quadrupole obstruction to a complete observed count. Alternatively construct the
+  SAME action physical seed covariance and test its UV tail; smooth source tapering alone
+  does not suffice for the supplied white seed. For calibration, implement a complete
+  noninstantaneous neutral readout/flag/reset and rate/clock model against the actual Kerr
+  compiler bounds; do not assume ideal selector norm or free terminal phase correction.
+  Preserve native curved stationary field/receiver jets and analytic domain as a separate
+  construction, with algebraic P and frozen199/931 already available. Do not repeat the
+  smooth-window counterexample, generic averaging, sine preparation or fixed-flat root.
+  Historical predecessor (not live):
   Compose current flux with actual gravitational/integrated redshift, perturbed photon
   paths, observer terms and tracer selection on the SAME healthy action, retaining shared
   initial covariance; the fixed-cone Doppler H1 theorem cannot be assumed for the full

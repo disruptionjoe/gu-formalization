@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2323-born-lensing-observer-domain](k2323-born-lensing-observer-domain.json).
+- [k2324-kerr-selective-lossy-control](k2324-kerr-selective-lossy-control.json).
+
 - [k2321-radial-count-operator](k2321-radial-count-operator.json).
 - [k2322-protected-reference-compiler](k2322-protected-reference-compiler.json).
 

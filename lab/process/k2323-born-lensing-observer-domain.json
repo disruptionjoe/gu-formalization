@@ -1,0 +1,85 @@
+{
+  "check_names": [
+    "angular_map_jacobian",
+    "angular_count_sign",
+    "lens_kernel",
+    "source_normalized",
+    "foreground_moment",
+    "quadrupole_eigen",
+    "monopole_zero",
+    "observer_dipole_projection",
+    "log_remainder_L2",
+    "cross_growth_sublinear",
+    "angular_mean_zero",
+    "normalized_Y20",
+    "bessel_primitive",
+    "bessel_origin",
+    "bessel_second_order",
+    "plane_wave_l2",
+    "tail_coefficient",
+    "variance_slope",
+    "positive_counterwindow",
+    "repair_angular_moment",
+    "repair_nontrivial",
+    "repair_normalized",
+    "repair_radial_information",
+    "taper_trace",
+    "white_tail_diverges",
+    "borderline_log",
+    "colored_tail_finite",
+    "foreground_weight_cost",
+    "weyl_cancellation",
+    "tangent_divergence",
+    "vector_L2_radial_measure",
+    "shared_covariance",
+    "shared_positive"
+  ],
+  "checks": 33,
+  "dependencies": {
+    "explorations/conditional-build/k2311-uniform-constrained-dust-evolution-2026-10-30.md": "d5a022fbf98da92dc0bc4e5bb64faab18179af2f2ab05211531edb36bf392c5a",
+    "explorations/conditional-build/k2319-lightcone-density-readout-2026-10-30.md": "b83d7f7b6f96f7fe391f31b01fd97b44da3bd0bd9fa988f6bbd846e9f65e3bbc",
+    "explorations/conditional-build/k2321-radial-count-operator-2026-10-30.md": "bc886f61ff369cae88b577a42b5f34c9f1e0109ee9c808623f9a7316919cfde5",
+    "explorations/conditional-build/k2323-born-lensing-observer-domain-2026-10-30.md": "9c533b8b9cf448bdff11a30e492c9f720c470bd5599e6e153f4833cfe2c20863",
+    "tests/channel-swings/k2323_born_lensing_observer_domain_probe.py": "ae276b15d0fd6e835b8ac6844f2130be7d2ad70c27e6202fb0bbddccf7d5141d"
+  },
+  "details": {
+    "repairs": [
+      "foreground cutoff",
+      "angularly constant integrated moment",
+      "explicit colored quadrupole P~k^-alpha, alpha>1"
+    ],
+    "scope": "specified Born angular map and white-UV seed; not full relativistic counts",
+    "tail": "-8pi*p(0)*M2*Y20/k"
+  },
+  "evidence_kind": "exact symbolic harmonic, adjoint, moment and finite covariance controls; universal continuum conclusions use written proofs",
+  "mutation_failed_checks": {
+    "independent_seed": [
+      "shared_covariance"
+    ],
+    "laplace5": [
+      "quadrupole_eigen"
+    ],
+    "reverse_count_sign": [
+      "angular_count_sign"
+    ],
+    "same_sign_repair": [
+      "repair_angular_moment"
+    ],
+    "wrong_integral": [
+      "tail_coefficient",
+      "variance_slope"
+    ],
+    "wrong_kernel": [
+      "lens_kernel",
+      "foreground_moment"
+    ],
+    "wrong_primitive": [
+      "bessel_primitive"
+    ],
+    "wrong_weyl": [
+      "weyl_cancellation"
+    ]
+  },
+  "result_id": "K2323",
+  "schema_version": "1.0"
+}

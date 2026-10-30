@@ -1,4 +1,7 @@
 
+- [k2323-born-lensing-observer-domain](k2323_born_lensing_observer_domain_probe.py).
+- [k2324-kerr-selective-lossy-control](k2324_kerr_selective_lossy_control_probe.py).
+
 - [k2321-radial-count-operator](k2321_radial_count_operator_probe.py).
 - [k2322-protected-reference-compiler](k2322_protected_reference_compiler_probe.py).
 

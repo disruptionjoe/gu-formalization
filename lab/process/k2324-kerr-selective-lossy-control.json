@@ -1,0 +1,100 @@
+{
+  "check_names": [
+    "detuning",
+    "dissipative_similarity",
+    "coupling_ratio_controls",
+    "beam_splitter_spectrum",
+    "deleted_edge_blocks",
+    "N1_no_unwanted",
+    "convex_log",
+    "reciprocal_square_sum_2",
+    "reciprocal_square_sum_4",
+    "reciprocal_square_sum_7",
+    "fixed_a_resource_constant",
+    "N3_passive_obstruction",
+    "N3_sine_ratio",
+    "sequence_constant",
+    "terminal_phase_gap",
+    "global_clock_recovery",
+    "readout_channel_TP",
+    "readout_final_flag",
+    "ideal_lab_endpoint_N1",
+    "actual_error_bound_N1",
+    "survival_lower_N1",
+    "conditional_distance_N1",
+    "whole_sequence_bound_N1",
+    "ideal_lab_endpoint_N2",
+    "actual_error_bound_N2",
+    "survival_lower_N2",
+    "conditional_distance_N2",
+    "whole_sequence_bound_N2",
+    "ideal_lab_endpoint_N3",
+    "actual_error_bound_N3",
+    "survival_lower_N3",
+    "conditional_distance_N3",
+    "whole_sequence_bound_N3"
+  ],
+  "dependencies": {
+    "explorations/conditional-build/k2312-relational-finite-calibration-2026-10-30.md": "a289f0d96a4446576a57ca89b420e09ae5ba8b3e0835cbaab374ed2db4ee2304",
+    "explorations/conditional-build/k2322-protected-reference-compiler-2026-10-30.md": "ced595988e0ac27c8342d14743c9ab40230de955ecf700fdded412052df884fb",
+    "explorations/conditional-build/k2324-kerr-selective-lossy-control-2026-10-30.md": "7feb3d52319e5e688b071a870115c4fb4e0bbf5d7005a6c509917ac593ce120d",
+    "tests/channel-swings/k2324_kerr_selective_lossy_control_probe.py": "261967aec37b025ec495923e6b799a2975c468a5cdf3134bb4d1dea0ad0244b9"
+  },
+  "evidence_kind": "symbolic finite identities and 65-digit finite matrix exponential controls; universal bounds use written proof, not interval or proof-assistant certification",
+  "exact_checks": 18,
+  "mutation_failed_checks": {
+    "anticommutator": [
+      "dissipative_similarity"
+    ],
+    "early_flag": [
+      "readout_final_flag"
+    ],
+    "omit_terminal_phase": [
+      "ideal_lab_endpoint_N2",
+      "actual_error_bound_N2",
+      "conditional_distance_N2",
+      "ideal_lab_endpoint_N3",
+      "actual_error_bound_N3",
+      "conditional_distance_N3"
+    ],
+    "wrong_carrier": [
+      "detuning"
+    ],
+    "wrong_loss_factor": [
+      "sequence_constant"
+    ],
+    "wrong_start_phase": [
+      "global_clock_recovery"
+    ]
+  },
+  "numeric_checks": 15,
+  "numerical_controls": [
+    {
+      "N": 1,
+      "chi": "17.0",
+      "gamma": "0.1",
+      "ideal_survival": "0.985516274735687622",
+      "proved_bound": "0.0",
+      "raw_error": "1.18694596821997484e-66"
+    },
+    {
+      "N": 2,
+      "chi": "1000.0",
+      "gamma": "0.2",
+      "ideal_survival": "0.837656228330890729",
+      "proved_bound": "0.0461129458726545845",
+      "raw_error": "0.00185574220579082345"
+    },
+    {
+      "N": 3,
+      "chi": "1200.0",
+      "gamma": "0.3",
+      "ideal_survival": "0.477132839593016585",
+      "proved_bound": "0.0661561879896083673",
+      "raw_error": "0.00151348006697050535"
+    }
+  ],
+  "result_id": "K2324",
+  "schema_version": "1.0",
+  "scope": "supplied finite-shell Kerr/beam-splitter Markov model; no hardware or native GU claim"
+}
