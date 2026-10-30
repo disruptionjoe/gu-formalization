@@ -1,0 +1,191 @@
+{
+  "result": "K2336",
+  "status": "pass",
+  "exact_controls": [
+    [
+      "total contact excitation commutes with actual Hamiltonian",
+      true
+    ],
+    [
+      "anti-Hermitian generator",
+      true
+    ],
+    [
+      "first exchange cancellation",
+      true
+    ],
+    [
+      "second-order exact dispersive operator",
+      true
+    ],
+    [
+      "compensated second-order matched LZ",
+      true
+    ],
+    [
+      "actual JC cross commutator retained",
+      true
+    ],
+    [
+      "compensator norm is abs chi",
+      true
+    ],
+    [
+      "enlarged physical boundary included",
+      true
+    ],
+    [
+      "actual Ising plus local phases CZ",
+      true
+    ],
+    [
+      "actual neutral CNOT circuit",
+      true
+    ],
+    [
+      "actual three CNOT SWAP circuit",
+      true
+    ],
+    [
+      "actual two CNOT controlled phase",
+      true
+    ],
+    [
+      "fixed coupling actual chi",
+      true
+    ],
+    [
+      "small exponential majorant domain",
+      true
+    ],
+    [
+      "exact full apparatus certificate below one percent",
+      true
+    ],
+    [
+      "hopping cap gBS one satisfies J/bk",
+      true
+    ]
+  ],
+  "finite_70digit_controls": [
+    [
+      "D sign 1 remainder bound",
+      true
+    ],
+    [
+      "D sign 1 corrected propagator bound",
+      true
+    ],
+    [
+      "D sign 1 omitted phase is a genuine failure",
+      true
+    ],
+    [
+      "D sign -1 remainder bound",
+      true
+    ],
+    [
+      "D sign -1 corrected propagator bound",
+      true
+    ],
+    [
+      "D sign -1 omitted phase is a genuine failure",
+      true
+    ],
+    [
+      "long-time phase defect strictly positive",
+      true
+    ],
+    [
+      "long-time actual pure-state trace distance near one",
+      true
+    ],
+    [
+      "long-time leakage remains small",
+      true
+    ]
+  ],
+  "changed_operator_faults": [
+    {
+      "changed_operator": "wrong_dispersive_sign",
+      "detected_by": [
+        "compensated second-order matched LZ"
+      ]
+    },
+    {
+      "changed_operator": "omit_mediator_matching",
+      "detected_by": [
+        "compensated second-order matched LZ"
+      ]
+    },
+    {
+      "changed_operator": "omit_local_counterterm",
+      "detected_by": [
+        "compensated second-order matched LZ"
+      ]
+    },
+    {
+      "changed_operator": "drop_extra_photon",
+      "detected_by": [
+        "second-order exact dispersive operator",
+        "compensated second-order matched LZ",
+        "enlarged physical boundary included"
+      ]
+    },
+    {
+      "changed_operator": "discard_mediator_exchange",
+      "detected_by": [
+        "actual JC cross commutator retained"
+      ]
+    },
+    {
+      "changed_operator": "omit_neutral_entangler",
+      "detected_by": [
+        "actual Ising plus local phases CZ",
+        "actual neutral CNOT circuit",
+        "actual three CNOT SWAP circuit",
+        "actual two CNOT controlled phase"
+      ]
+    }
+  ],
+  "numerical_omitted_phase_faults": 2,
+  "rate_fixture": {
+    "full_rate_fixture_rational_upper_bound": "2645130333704618749952837485454990426740373/7503124699875000000000000000000000000000000000",
+    "full_rate_fixture_decimal_upper_bound": "0.00035253716811459709526",
+    "contact_error_upper_bound": "1.6833572005914308808e-6",
+    "neutral_gate_bound": 3440,
+    "contact_count": 6
+  },
+  "numerical_values": {
+    "1": {
+      "time": "3.700111",
+      "remainder": "0.0007713221968575682888594389573224922407671243962995877491736211586867638",
+      "remainder_bound": "0.001552841992164716502235086719741632367262646652234329899921696645559036",
+      "corrected_error": "0.001333791392598117563116683469763763697508541721487734050207593899474532",
+      "error_bound": "0.008574030010948537100732178487803423232439331274624087426618939679754069",
+      "omitted_phase_error": "0.8388257782777868661685451721133135049696412991207116211210701379458469"
+    },
+    "-1": {
+      "time": "3.700111",
+      "remainder": "0.0007713221968575682888594389573224922407671243962995877491736211586371115",
+      "remainder_bound": "0.001552841992164716502235086719741632367262646652234329899921696645559036",
+      "corrected_error": "0.001229369870628491250300124197108484926796990759424102113896599903986691",
+      "error_bound": "0.008574030010948537100732178487803423232439331274624087426618939679754069",
+      "omitted_phase_error": "0.8388245760978924498085707407899579286794961607317430849482561137801562"
+    },
+    "long_time_counterexample": {
+      "h_over_D": "0.01",
+      "energy_defect": "0.000001999400219910039381948553843459942811071764624246651314399096648234273",
+      "time": "1571267.534286429875941107218377738084308276978737326958912121521810863",
+      "state_trace_distance": "0.9999999900079939260780578422322230527947985775475118933734948263403931",
+      "leakage_amplitude": "0.01999400322649406516167027328490205840042091284123394459533639863028215"
+    }
+  },
+  "scope": "Finite exact matrices/rational rate bound and finite high-precision propagators. Universal bounds rest on written BCH and channel-telescoping proofs; no interval, empirical, hardware or native GU certificate.",
+  "dependencies": {
+    "tests/channel-swings/k2336_dispersive_contact_realization_probe.py": "5511458155eacad0e11e09c40ca3b5aff08ed8c7e67f1f58b68c05168070b31e",
+    "explorations/conditional-build/k2336-dispersive-contact-realization-2026-10-30.md": "e00ebd8b1ed1ddb20276c64853c2798da99b8d25de4a417932bb41d9ba88c5da",
+    "explorations/conditional-build/k2334-microscopic-neutral-transfer-2026-10-30.md": "9559ce4f0760d7f09c488fbf71fd7d6efa8224782a3ee255dcdf323d070ca8d5",
+    "lab/process/k2334-microscopic-neutral-transfer.json": "79e77b3a811f90d94e001b8e8a4c0c633f546445aa69b2421e49dc46a104933a"
+  }
+}

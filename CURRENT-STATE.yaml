@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 2510c1d9bf7e6f4289649bb8b43516434898d390
+revision_basis: ae8d938d9b6ae2137b4e635da363f375ac198dbf
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,12 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2335 constructs exact all-multipole recovery for positive angular responses, evaluates
+    the noise integrals and proves the hard-cut identifiability/finite-band instability
+    boundary with mean and tail budgets. K2336 realizes the matched contact from an explicit
+    microscopic exchange/longitudinal model and compiles adjacent Ising neutral gates,
+    charging switching, phase, leakage and full instrument noise. Physical survey/device
+    inputs and native GU verdicts remain open. Historical predecessor (not live):
     K2333 carries the actual full-count covariance into distinct finite angular maps and
     proves a sub5% one-sky test under bounded correlated Gaussian noise. K2334 compiles
     coherent unknown lower-dressed-state transfer and finite recorded readout using exact JC
@@ -17666,6 +17672,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2335-angular-response-recovery-2026-10-30.md
+  - lab/process/k2335-angular-response-recovery.json
+  - tests/channel-swings/k2335_angular_response_recovery_probe.py
+  - explorations/conditional-build/k2336-dispersive-contact-realization-2026-10-30.md
+  - lab/process/k2336-dispersive-contact-realization.json
+  - tests/channel-swings/k2336_dispersive_contact_realization_probe.py
   - explorations/conditional-build/k2333-masked-count-discrimination-2026-10-30.md
   - lab/process/k2333-masked-count-discrimination.json
   - tests/channel-swings/k2333_masked_count_discrimination_probe.py
@@ -19572,6 +19584,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which physically justified angular response, spectrum, nuisance and calibration bounds
+  make the count discriminator usable, and which same-device coupling/noise/clock ranges
+  satisfy the now explicit microscopic instrument budget? Historical predecessor (not
+  live):
   Can actual angular response, other-multipole contamination and joint noise meet the
   certified count-test bound, and can one physical device supply the matched dispersive,
   neutral-gate, reference and clock resources required for coherent readout? Historical
@@ -23671,6 +23687,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Supply actual response/beam/pixel and physical seed/tracer/noise or angular-tail bounds
+  before empirical count inference; a hard cut has no unrestricted-nuisance quadrupole
+  recovery, and radial compact support is not angular truncation. For the apparatus,
+  constrain simultaneous exchange, signed detuning, longitudinal matching, switchable
+  adjacent Ising, noise, clock/ramp and pure-register/reset resources, then test the full
+  rate inequality. Native curved stationary field/receiver jets and common domain remain
+  an independent construction. Do not repeat inverse weighting, generic mask inversion,
+  the matched-contact BCH proof or abstract neutral controllability. Historical
+  predecessor (not live):
   Supply a concrete angular response and all other-multipole/observer contamination with a
   calibrated joint covariance, propagate through the actual extraction and test its
   relative error bound; no radial band limit grants angular truncation. Independently

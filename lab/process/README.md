@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2335-angular-response-recovery](k2335-angular-response-recovery.json).
+- [k2336-dispersive-contact-realization](k2336-dispersive-contact-realization.json).
+
 - [k2333-masked-count-discrimination](k2333-masked-count-discrimination.json).
 - [k2334-microscopic-neutral-transfer](k2334-microscopic-neutral-transfer.json).
 

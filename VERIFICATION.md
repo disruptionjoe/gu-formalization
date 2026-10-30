@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2335--K2336: Angular recovery and microscopic matched contacts (2026-10-30)
+
+K2335 constructs exact all-multipole recovery for positive angular responses, evaluates the noise integrals and proves the hard-cut identifiability/finite-band instability boundary with mean and tail budgets. K2336 realizes the matched contact from an explicit microscopic exchange/longitudinal model and compiles adjacent Ising neutral gates, charging switching, phase, leakage and full instrument noise. Physical survey/device inputs and native GU verdicts remain open.
+
+- [K2335](explorations/conditional-build/k2335-angular-response-recovery-2026-10-30.md).
+- [K2336](explorations/conditional-build/k2336-dispersive-contact-realization-2026-10-30.md).
+
+Three read-only specialists reviewed the actual proofs, probes and reports. K2335 passes44 exact controls and5 genuine input faults. K2336 passes16 exact controls,9 finite70-digit numerical controls,6 changed-operator faults and2 actual omitted-phase faults. The explicit rate fixture has a rational full-error upper bound below0.000353; its extreme supplied rates are not hardware evidence. Universal statements use written proofs; no empirical, interval, Lean, external-expert or native GU certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2333--K2334: Masked count tests and microscopic neutral transfer (2026-10-30)
 
 K2333 carries the actual full-count covariance into distinct finite angular maps and proves a sub5% one-sky test under bounded correlated Gaussian noise. K2334 compiles coherent unknown lower-dressed-state transfer and finite recorded readout using exact JC tones, matched bare dispersive contacts and priced neutral gates. Physical survey and same-device resource inputs remain open; native GU verdicts are unchanged.

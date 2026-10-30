@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2335-angular-response-recovery](conditional-build/k2335-angular-response-recovery-2026-10-30.md).
+- [k2336-dispersive-contact-realization](conditional-build/k2336-dispersive-contact-realization-2026-10-30.md).
+
 - [k2333-masked-count-discrimination](conditional-build/k2333-masked-count-discrimination-2026-10-30.md).
 - [k2334-microscopic-neutral-transfer](conditional-build/k2334-microscopic-neutral-transfer-2026-10-30.md).
 

@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-10-30: MASKED COUNTS AND MICROSCOPIC NEUTRAL TRANSFER.**
+> **2026-10-30: ANGULAR RECOVERY AND MICROSCOPIC MATCHED CONTACTS.**
+> Supply actual response/beam/pixel and physical seed/tracer/noise or angular-tail bounds before empirical count inference; a hard cut has no unrestricted-nuisance quadrupole recovery, and radial compact support is not angular truncation. For the apparatus, constrain simultaneous exchange, signed detuning, longitudinal matching, switchable adjacent Ising, noise, clock/ramp and pure-register/reset resources, then test the full rate inequality. Native curved stationary field/receiver jets and common domain remain an independent construction. Do not repeat inverse weighting, generic mask inversion, the matched-contact BCH proof or abstract neutral controllability.
+
+
+> **Historical predecessor, no longer the live next condition: 2026-10-30 MASKED COUNTS AND MICROSCOPIC NEUTRAL TRANSFER.**
 > Supply a concrete angular response and all other-multipole/observer contamination with a calibrated joint covariance, propagate through the actual extraction and test its relative error bound; no radial band limit grants angular truncation. Independently derive or characterize matched photon/mediator neutral contacts and adjacent entangling gates together with same-device loss, clock, reference protection and fresh-register costs, then evaluate the full overhead and amplitude window. Native curved stationary fields, receiver jets and common domain remain separate. Do not repeat finite-map whitening, generic Gaussian concentration, abstract controllability or the completed conditional neutral-transfer compiler.
 
 

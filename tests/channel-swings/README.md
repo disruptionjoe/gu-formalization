@@ -1,4 +1,7 @@
 
+- [k2335-angular-response-recovery](k2335_angular_response_recovery_probe.py).
+- [k2336-dispersive-contact-realization](k2336_dispersive_contact_realization_probe.py).
+
 - [k2333-masked-count-discrimination](k2333_masked_count_discrimination_probe.py).
 - [k2334-microscopic-neutral-transfer](k2334_microscopic_neutral_transfer_probe.py).
 

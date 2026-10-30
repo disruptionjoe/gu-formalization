@@ -1,0 +1,257 @@
+{
+  "result": "K2335",
+  "status": "pass",
+  "exact_controls": [
+    [
+      "window 0 actual l0 extraction",
+      true
+    ],
+    [
+      "window 0 actual l1 extraction",
+      true
+    ],
+    [
+      "window 0 actual l2 extraction",
+      true
+    ],
+    [
+      "window 0 actual l3 extraction",
+      true
+    ],
+    [
+      "window 0 actual l4 extraction",
+      true
+    ],
+    [
+      "window 0 actual l6 extraction",
+      true
+    ],
+    [
+      "window 0 naive monopole leakage nonzero",
+      true
+    ],
+    [
+      "window 0 m0 exact primitive derivative",
+      true
+    ],
+    [
+      "window 0 m0 exact endpoint formula",
+      true
+    ],
+    [
+      "window 0 m1 exact primitive derivative",
+      true
+    ],
+    [
+      "window 0 m1 exact endpoint formula",
+      true
+    ],
+    [
+      "window 0 m2 exact primitive derivative",
+      true
+    ],
+    [
+      "window 0 m2 exact endpoint formula",
+      true
+    ],
+    [
+      "window 1 actual l0 extraction",
+      true
+    ],
+    [
+      "window 1 actual l1 extraction",
+      true
+    ],
+    [
+      "window 1 actual l2 extraction",
+      true
+    ],
+    [
+      "window 1 actual l3 extraction",
+      true
+    ],
+    [
+      "window 1 actual l4 extraction",
+      true
+    ],
+    [
+      "window 1 actual l6 extraction",
+      true
+    ],
+    [
+      "window 1 naive monopole leakage nonzero",
+      true
+    ],
+    [
+      "window 1 m0 exact primitive derivative",
+      true
+    ],
+    [
+      "window 1 m0 exact endpoint formula",
+      true
+    ],
+    [
+      "window 1 m1 exact primitive derivative",
+      true
+    ],
+    [
+      "window 1 m1 exact endpoint formula",
+      true
+    ],
+    [
+      "window 1 m2 exact primitive derivative",
+      true
+    ],
+    [
+      "window 1 m2 exact endpoint formula",
+      true
+    ],
+    [
+      "addition theorem polynomial",
+      true
+    ],
+    [
+      "actual D4 mean normalization beta squared",
+      true
+    ],
+    [
+      "covariance plus mean exact five-percent margin",
+      true
+    ],
+    [
+      "relative covariance extraction coisometry",
+      true
+    ],
+    [
+      "raw actual covariance relative bound",
+      true
+    ],
+    [
+      "extracted actual covariance relative bound",
+      true
+    ],
+    [
+      "hemisphere L2 Gram positive",
+      true
+    ],
+    [
+      "hemisphere L2 exact unbiased inverse",
+      true
+    ],
+    [
+      "actual l3 tail creates quadrupole bias",
+      true
+    ],
+    [
+      "hemisphere L3 Gram positive",
+      true
+    ],
+    [
+      "hemisphere L3 exact unbiased inverse",
+      true
+    ],
+    [
+      "hemisphere L4 Gram positive",
+      true
+    ],
+    [
+      "hemisphere L4 exact unbiased inverse",
+      true
+    ],
+    [
+      "hemisphere L6 Gram positive",
+      true
+    ],
+    [
+      "hemisphere L6 exact unbiased inverse",
+      true
+    ],
+    [
+      "fixed quadrupole noise increases in concrete band sequence",
+      true
+    ],
+    [
+      "hidden hemisphere quadrupole is nonzero",
+      true
+    ],
+    [
+      "small calibration error times monopole leaks",
+      true
+    ]
+  ],
+  "values": {
+    "window_0_gram": [
+      "0.963620856979615658",
+      "0.943951023931954923",
+      "1.43067891068367794"
+    ],
+    "window_1_gram": [
+      "1.90226174387391018",
+      "1.31108641007880613",
+      "0.803337038488179080"
+    ],
+    "hemisphere_L2_l3_bias": "sqrt(35)/2",
+    "hemisphere_quadrupole_variance_factors": {
+      "2": "32",
+      "3": "1152",
+      "4": "37152",
+      "6": "34159232"
+    }
+  },
+  "changed_input_faults": [
+    {
+      "changed_input": "omit_inverse_response",
+      "detected_by": [
+        "window 0 actual l0 extraction",
+        "window 0 actual l2 extraction",
+        "window 0 actual l4 extraction",
+        "window 1 actual l0 extraction",
+        "window 1 actual l2 extraction",
+        "window 1 actual l4 extraction"
+      ]
+    },
+    {
+      "changed_input": "noise_weight_not_squared",
+      "detected_by": [
+        "window 0 m0 exact primitive derivative",
+        "window 0 m0 exact endpoint formula",
+        "window 0 m1 exact primitive derivative",
+        "window 0 m1 exact endpoint formula",
+        "window 0 m2 exact primitive derivative",
+        "window 0 m2 exact endpoint formula",
+        "window 1 m0 exact primitive derivative",
+        "window 1 m0 exact endpoint formula",
+        "window 1 m1 exact primitive derivative",
+        "window 1 m1 exact endpoint formula",
+        "window 1 m2 exact primitive derivative",
+        "window 1 m2 exact endpoint formula"
+      ]
+    },
+    {
+      "changed_input": "raw_correlation_amplitude",
+      "detected_by": [
+        "raw actual covariance relative bound",
+        "extracted actual covariance relative bound"
+      ]
+    },
+    {
+      "changed_input": "discard_angular_tail",
+      "detected_by": [
+        "actual l3 tail creates quadrupole bias"
+      ]
+    },
+    {
+      "changed_input": "covariance_inverse_not_sqrt",
+      "detected_by": [
+        "actual D4 mean normalization beta squared"
+      ]
+    }
+  ],
+  "scope": "Exact finite harmonic integrals, finite-band matrices and rational margins; continuum recovery, hidden-sky and divergence results rely on written proofs. No empirical or GU certificate.",
+  "dependencies": {
+    "tests/channel-swings/k2335_angular_response_recovery_probe.py": "e7133ac5121d89c3bd06d1eb820a4f32aaf6d11176c082c6db8e63c24c560326",
+    "explorations/conditional-build/k2335-angular-response-recovery-2026-10-30.md": "70c8ef900ca0d2a3cd0cdafe63244f64440fe7c1a51c9e3bf1c6a6f0ce0344b4",
+    "lab/process/k2331-certified-count-window-covariance.json": "974a3ff6b4cdba1f4b51a2fe7a32c967433f9d37a10573c1bdb20307226280ed",
+    "explorations/conditional-build/k2333-masked-count-discrimination-2026-10-30.md": "d4ef4fe64fe992a66e763cde09780ec105b4437375945adfaaae6cfb6f1de930"
+  }
+}
