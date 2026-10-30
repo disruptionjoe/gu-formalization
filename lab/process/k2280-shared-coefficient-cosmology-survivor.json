@@ -1,0 +1,94 @@
+{
+  "check_names": [
+    "source_hash_0",
+    "source_hash_1",
+    "seven_data_labels",
+    "covariance_SPD_1",
+    "covariance_SPD_2",
+    "covariance_SPD_3",
+    "covariance_SPD_4",
+    "covariance_SPD_5",
+    "covariance_SPD_6",
+    "covariance_SPD_7",
+    "cross_covariance_retained",
+    "general_g_derivative",
+    "g_time_derivative",
+    "distance_second_derivative",
+    "full_constraint_substitution",
+    "general_full00_RHS",
+    "oracle_full00",
+    "oracle_general_derivative",
+    "oracle_distance_jacobian",
+    "oracle_covariance",
+    "oracle_labels",
+    "oracle_volume_distance",
+    "seven_coordinate_interval_survivor",
+    "shared_parameter_box_survivor",
+    "original_three_survivor",
+    "additional_data_discriminate_old_witness",
+    "full_covariance_SPD_8",
+    "full_covariance_SPD_9",
+    "full_covariance_SPD_10",
+    "full_covariance_SPD_11",
+    "full_covariance_SPD_12",
+    "full_covariance_SPD_13",
+    "full_domain_fixed_shape_rejected",
+    "all_ruler_fixed_shape_rejected"
+  ],
+  "checks": 34,
+  "claim_ceiling": "conditional supplied model; no native GU, empirical confidence or hardware claim",
+  "dependencies": {
+    "explorations/conditional-build/k2271-forward-cosmology-domain-2026-10-29.md": "59e3493fb5fbd1122d50938368882298fe396839680dc99318d255fcdc900710",
+    "explorations/conditional-build/k2277-multibin-pure-r2-test-2026-10-29.md": "625ecbf8bddc09355b704f3f838a9891e70a19da9c2882158a39724b1261a46b",
+    "explorations/conditional-build/k2280-shared-coefficient-cosmology-survivor-2026-10-29.md": "b29d8de2294800caf69b28daaca63137c427eff53b65e8fc385513935440cedc",
+    "lab/process/k2277-multibin-pure-r2-test.json": "83ee122496aa99ff097825a86246f012b0ccc563c629462e235fad5097ca0afd",
+    "tests/channel-swings/k2280_shared_coefficient_cosmology_survivor_probe.py": "31ae9149da4e56a1924f34bbd305581340fb78ac6c89177a536f20325d3596d1"
+  },
+  "evidence_kind": "exact algebra/finite operator controls plus separately identified interval and resource certificates; universal proofs in note",
+  "faults_caught": [
+    "wrong_rho_sign",
+    "lost_general_derivative_term",
+    "lost_distance_Jacobian",
+    "shifted_observable_label",
+    "dropped_covariance_cross_term",
+    "wrong_DV_formula"
+  ],
+  "interval_certificates": {
+    "Q7": "[3.1 +/- 0.0559]",
+    "Q7_box": "[3.1 +/- 0.0559]",
+    "cells_per_run": 14003,
+    "comparison_Q3": "[0.0164 +/- 2.89e-5]",
+    "comparison_Q7": "[17.78 +/- 4.38e-3]",
+    "comparison_cells": 14003,
+    "full_data_Q": "[1.2e+4 +/- 2.95e+2]",
+    "full_data_cells": 71857,
+    "full_data_profiled_Q": "[8e+3 +/- 5.99e+2]",
+    "full_domain_z_max": "2.33",
+    "parameter_box_cells": 14003,
+    "parameter_box_radius": "1e-8",
+    "precision_bits": 120
+  },
+  "mutation_failed_checks": {
+    "dropped_covariance_cross_term": [
+      "covariance"
+    ],
+    "lost_distance_Jacobian": [
+      "distance_jacobian"
+    ],
+    "lost_general_derivative_term": [
+      "general_derivative"
+    ],
+    "shifted_observable_label": [
+      "labels"
+    ],
+    "wrong_DV_formula": [
+      "volume_distance"
+    ],
+    "wrong_rho_sign": [
+      "full00"
+    ]
+  },
+  "result_id": "K2280",
+  "schema_version": "1.0",
+  "source_commit": "bb0c1c9009dc76d1391300e169e8df38fd1096db"
+}

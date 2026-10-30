@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 0823ca9a2ee930b0f087ffa1ba1a32576a2b166e
+revision_basis: 1f57d817484dca1b4267d759464140f8c8d6008c
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,18 +118,18 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
-    K2277 closes the one-bin free-slope escape for the entire expanding flat vacuum
-    f(R)=R²/2, positive-F family on0<=z<=1: shared DESI DR2 distances give quadratic
-    discrepancy>4.6408, and a declared projected discrepancy1/20 still separates
-    squared-radius4. All initial data and common ruler scales are covered; nonzero
-    coefficients and BAO transport remain separate. K2278 derives complex pump,
-    dispersive-area and neutral-gate calibration bounds for the complete retained-pump
-    instrument, with a supplied ten-call error<0.009791. K2279 proves pump-uniform
-    actual field second moments<6300000 for a fixed fresh-register consumer; an
-    expensive explicit precision example has joint error<1e-11 and field-number
-    error<0.008, while ten fresh vacua consume12.8±0.004 pump quanta. A
-    positive-compensator phase-error bound keeps signed and semibounded implementations
-    distinct. Source claims, ledger0.263 and physical mappings are unchanged.
+    K2280 certifies a shared nonzero-coefficient positive-F metric-vacuum history and
+    radius1e-8 parameter box fitting seven selected DESI DR2 coordinates with Q<3.2; the
+    same history extended to z2.33 fails all13 coordinates even after common-ruler
+    profiling(Q>7000). This is a fitted conditional witness, not a general-family
+    exclusion or calibrated confidence. K2281 extends complete detector and uniform
+    field-energy bounds to a specified displaced thermal pump: n=1,mu=4e28 retains joint
+    error<1e-11 and field error<.008, while phase dephasing with unchanged number
+    statistics forces instrument error>=.10368. K2282 supplies new global centered
+    positive controls, one final compensator and explicit error budgets preserving the
+    coherent-vacuum strong consumer; pump shifts are exact and final compensator errors
+    separately bounded. Source claims,ledger0.263,canonical and physical mappings remain
+    unchanged.
     Historical predecessor (not live): K2258 proves that every positive subspace with an equivalent L2 norm and selfadjoint evolution of
     the fixed raw constrained operator has stable Fourier support, without assuming a
     fibrewise metric or translation invariance. Consequently no nonzero smooth
@@ -17563,6 +17563,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2280-shared-coefficient-cosmology-survivor-2026-10-29.md
+  - explorations/conditional-build/k2281-thermal-pump-preparation-2026-10-29.md
+  - explorations/conditional-build/k2282-centered-positive-control-2026-10-29.md
+  - lab/process/k2280-shared-coefficient-cosmology-survivor.json
+  - lab/process/k2281-thermal-pump-preparation.json
+  - lab/process/k2282-centered-positive-control.json
   - explorations/conditional-build/k2277-multibin-pure-r2-test-2026-10-29.md
   - explorations/conditional-build/k2278-calibrated-pump-detector-2026-10-29.md
   - explorations/conditional-build/k2279-uniform-pump-energy-2026-10-29.md
@@ -19331,9 +19337,9 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can the full shared nonzero-coefficient cosmology family pass a physically justified
-  multi-bin test, and can an actual pump/clock/phase implementation meet the now
-  explicit channel and field-energy tolerances at credible resource cost?
+  Which shared-coefficient cosmology histories survive the full distance snapshot on a
+  justified physical domain, or which specified phase-controlled detector primitive can
+  be synthesized with calibrated physical costs?
   Historical predecessor (not live): Can a source-owned global quotient or differential-constraint domain supply local
   observables and causal physical dynamics for the fixed raw candidate, and can the
   detector/reset apparatus renew its actual charged/coherent stock through a priced
@@ -23387,18 +23393,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Compare the genuinely shared nonzero-coefficient quadratic metric cosmology family
-  with jointly valid multi-bin observations and a justified domain/transport model; the
-  pure-R2 initial-slope escape is now constrained without choosing a slope prior.
-  Strongest apparatus alternative is an actual resonance/trilinear/clock/phase
-  preparation model with calibrated errors, including positive-compensator precision if
-  signed controls are replaced. Uniform field-energy convergence now holds for the
-  stated fresh-register consumer, not total pump energy or arbitrary
-  adaptive/trace-close-prepared inputs. Price the enormous stock and precision before
-  claiming an economical device. Source-owned matter/light and physical local-readout
-  cost remain alternatives requiring actual typed inputs. Do not repeat one-bin fitting,
-  pure-R2 slope scans, abstract controllability or infer energetic catalysis from trace
-  restoration; preserve native/source/scalar/thermal/cosmology ceilings.
+  Use the full13-coordinate shared-coefficient cosmology family with justified
+  coefficient/initial-data and BAO/template domain; the certified seven-coordinate
+  witness fails the full snapshot and cannot be rescued merely by changing its common
+  ruler. No global-family exclusion or independently selected prior follows. Strongest
+  apparatus alternative is actual synthesis/calibration of the specified
+  phase-controlled thermal preparation or global centered positive controls, with
+  measured resonance, finite clock and phase costs. Do not replace phase by number
+  statistics, infer energy catalysis from trace restoration, or apply the
+  coherent-centered variance to thermal pumps. Matter/light native source/readout and
+  physical local-preparation cost remain alternatives requiring typed inputs. Preserve
+  existing native/source/scalar/thermal/cosmology ceilings.
   Historical predecessor (not live): Do not repeat local differential preparation into an equivalent positive raw subspace,
   fresh partial-collision donor renewal, or phase-blind charge replenishment bounds.
   K2258 leaves general differential constraint kernels and source-owned global quotients

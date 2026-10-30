@@ -1,4 +1,9 @@
 
+- [k2280_shared_coefficient_cosmology_survivor_probe](k2280_shared_coefficient_cosmology_survivor_probe.py).
+- [k2281_thermal_pump_preparation_probe](k2281_thermal_pump_preparation_probe.py).
+- [k2282_centered_positive_control_probe](k2282_centered_positive_control_probe.py).
+
+
 - [k2277_multibin_pure_r2_test_probe](k2277_multibin_pure_r2_test_probe.py).
 - [k2278_calibrated_pump_detector_probe](k2278_calibrated_pump_detector_probe.py).
 - [k2279_uniform_pump_energy_probe](k2279_uniform_pump_energy_probe.py).

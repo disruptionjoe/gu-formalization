@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2280-shared-coefficient-cosmology-survivor-2026-10-29](conditional-build/k2280-shared-coefficient-cosmology-survivor-2026-10-29.md).
+- [k2281-thermal-pump-preparation-2026-10-29](conditional-build/k2281-thermal-pump-preparation-2026-10-29.md).
+- [k2282-centered-positive-control-2026-10-29](conditional-build/k2282-centered-positive-control-2026-10-29.md).
+
+
 - [k2277-multibin-pure-r2-test-2026-10-29](conditional-build/k2277-multibin-pure-r2-test-2026-10-29.md).
 - [k2278-calibrated-pump-detector-2026-10-29](conditional-build/k2278-calibrated-pump-detector-2026-10-29.md).
 - [k2279-uniform-pump-energy-2026-10-29](conditional-build/k2279-uniform-pump-energy-2026-10-29.md).

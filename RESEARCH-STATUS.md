@@ -6,6 +6,25 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2280--K2282: Conditional research results (2026-10-29)
+
+K2280 certifies a shared nonzero-coefficient positive-F metric-vacuum history and radius1e-8 parameter box fitting seven selected DESI DR2 coordinates with Q<3.2; the same history extended to z2.33 fails all13 coordinates even after common-ruler profiling(Q>7000). This is a fitted conditional witness, not a general-family exclusion or calibrated confidence. K2281 extends complete detector and uniform field-energy bounds to a specified displaced thermal pump: n=1,mu=4e28 retains joint error<1e-11 and field error<.008, while phase dephasing with unchanged number statistics forces instrument error>=.10368. K2282 supplies new global centered positive controls, one final compensator and explicit error budgets preserving the coherent-vacuum strong consumer; pump shifts are exact and final compensator errors separately bounded. Source claims,ledger0.263,canonical and physical mappings remain unchanged.
+
+- [K2280](explorations/conditional-build/k2280-shared-coefficient-cosmology-survivor-2026-10-29.md).
+- [K2281](explorations/conditional-build/k2281-thermal-pump-preparation-2026-10-29.md).
+- [K2282](explorations/conditional-build/k2282-centered-positive-control-2026-10-29.md).
+
+Three read-only internal specialists independently reviewed the actual proofs/probes and cross-reviewed scope. Final probes pass34+36+42=112 exact algebra, finite operator, covariance and resource controls, detect18 genuine altered-input/formula faults, and separately certify three14003-cell interval runs plus one71857-cell full-data extension. Reports bind notes,code and dependencies; stored-report freshness is checked. Interval induction certifies continua; finite matrix and budget controls do not prove the universal operator theorems. Review corrected purification notation, conservative calibration rounding, real/complex typing, same-predicate mutation detection and the positive compensator error model. No Lean, external-expert, empirical transport, hardware, novelty or remote-CI certification is claimed.
+
+| Result | Prior state | Current state | Remaining boundary |
+| --- | --- | --- | --- |
+| K2280 | Nonzero-coefficient repair open | Certified seven-coordinate survivor; fixed shape rejected by full snapshot | Joint family, physical domain and BAO transport open |
+| K2281 | Exact coherent preparation required | Specified displaced thermal family accepted conditionally | Arbitrary trace-close and phase-dephased preparations excluded from transfer |
+| K2282 | Positive-control phase cost unresolved | Supplied centered alphabet with complete explicit budget | New global primitive, exact shifts and compensator calibration required |
+
+Earlier sections are historical.
+
+
 ## K2277--K2279: Conditional research results (2026-10-29)
 
 K2277 closes the one-bin free-slope escape for the entire expanding flat vacuum f(R)=R²/2, positive-F family on0<=z<=1: shared DESI DR2 distances give quadratic discrepancy>4.6408, and a declared projected discrepancy1/20 still separates squared-radius4. All initial data and common ruler scales are covered; nonzero coefficients and BAO transport remain separate. K2278 derives complex pump, dispersive-area and neutral-gate calibration bounds for the complete retained-pump instrument, with a supplied ten-call error<0.009791. K2279 proves pump-uniform actual field second moments<6300000 for a fixed fresh-register consumer; an expensive explicit precision example has joint error<1e-11 and field-number error<0.008, while ten fresh vacua consume12.8±0.004 pump quanta. A positive-compensator phase-error bound keeps signed and semibounded implementations distinct. Source claims, ledger0.263 and physical mappings are unchanged.

@@ -5,6 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-10-29: SHARED COSMOLOGY AND PHASE-CONTROLLED DETECTOR.**
+> Use the full13-coordinate shared-coefficient cosmology family with justified coefficient/initial-data and BAO/template domain; the certified seven-coordinate witness fails the full snapshot and cannot be rescued merely by changing its common ruler. No global-family exclusion or independently selected prior follows. Strongest apparatus alternative is actual synthesis/calibration of the specified phase-controlled thermal preparation or global centered positive controls, with measured resonance, finite clock and phase costs. Do not replace phase by number statistics, infer energy catalysis from trace restoration, or apply the coherent-centered variance to thermal pumps. Matter/light native source/readout and physical local-preparation cost remain alternatives requiring typed inputs. Preserve existing native/source/scalar/thermal/cosmology ceilings.
+> Earlier banners are historical; use this current condition.
+
+
 > **2026-10-29: MULTI-BIN TEST AND CALIBRATED FIELD ENERGY.**
 > Compare the genuinely shared nonzero-coefficient quadratic metric cosmology family with jointly valid multi-bin observations and a justified domain/transport model; the pure-R2 initial-slope escape is now constrained without choosing a slope prior. Strongest apparatus alternative is an actual resonance/trilinear/clock/phase preparation model with calibrated errors, including positive-compensator precision if signed controls are replaced. Uniform field-energy convergence now holds for the stated fresh-register consumer, not total pump energy or arbitrary adaptive/trace-close-prepared inputs. Price the enormous stock and precision before claiming an economical device. Source-owned matter/light and physical local-readout cost remain alternatives requiring actual typed inputs. Do not repeat one-bin fitting, pure-R2 slope scans, abstract controllability or infer energetic catalysis from trace restoration; preserve native/source/scalar/thermal/cosmology ceilings.
 > Earlier banners are historical; use this current condition.

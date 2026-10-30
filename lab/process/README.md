@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2280-shared-coefficient-cosmology-survivor](k2280-shared-coefficient-cosmology-survivor.json).
+- [k2281-thermal-pump-preparation](k2281-thermal-pump-preparation.json).
+- [k2282-centered-positive-control](k2282-centered-positive-control.json).
+
+
 - [k2277-multibin-pure-r2-test](k2277-multibin-pure-r2-test.json).
 - [k2278-calibrated-pump-detector](k2278-calibrated-pump-detector.json).
 - [k2279-uniform-pump-energy](k2279-uniform-pump-energy.json).
