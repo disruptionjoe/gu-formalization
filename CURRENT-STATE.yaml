@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: adc36a246333da22e8c44d95f293b29f17826bbb
+revision_basis: 76e0f6adab40bd0ce56733bd7fc75bb90295413f
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,16 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2316 reuses the existing induced metric derivative and finds a nonzero-curvature199/931
+    branch of its frozen coupled pencil, closes companion resonances and source
+    compatibility, and proves fixed-varpi coordinate congruence preserves this full
+    mixed-order branch. K2317 proves positive time averaging retains rough dust variance,
+    constructs normalized temporal compensation with noise/calibration costs, and
+    distinguishes transverse from longitudinal moving-window smoothing. K2318 derives a
+    necessary loss ratio at most4/(3e21) for stock3e27 calibration, a sharp fixed-shell
+    channel bound, sufficient flagged-confidence and average budgets, and a precisely scoped
+    loss-correcting-code limitation. All results remain conditional; source claims,
+    ledger0.263 and physical mappings are unchanged. Historical predecessor (not live):
     K2313 excludes nonnull metric curvature in the explicit full105-metric extension of the
     flat K77 I1B coefficient model, including companion resonances, while preserving
     pure-distortion modes and the distinct ten-row branch. K2314 derives sharp Gaussian
@@ -17594,6 +17604,15 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2316-induced-metric-coupled-pencil-2026-10-30.md
+  - lab/process/k2316-induced-metric-coupled-pencil.json
+  - tests/channel-swings/k2316_induced_metric_coupled_pencil_probe.py
+  - explorations/conditional-build/k2317-spacetime-dust-windows-2026-10-30.md
+  - lab/process/k2317-spacetime-dust-windows.json
+  - tests/channel-swings/k2317_spacetime_dust_windows_probe.py
+  - explorations/conditional-build/k2318-loss-limited-calibration-2026-10-30.md
+  - lab/process/k2318-loss-limited-calibration.json
+  - tests/channel-swings/k2318_loss_limited_calibration_probe.py
   - explorations/conditional-build/k2313-full-metric-variation-boundary-2026-10-30.md
   - lab/process/k2313-full-metric-variation-boundary.json
   - tests/channel-swings/k2313_full_metric_variation_boundary_probe.py
@@ -19443,6 +19462,9 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can the induced frozen metric branch survive the actual curved metric-on-metrics
+  background and moving jets, and can physically specified spacetime readout or loss-aware
+  apparatus meet the newly quantitative requirements? Historical predecessor (not live):
   Which actual induced metric variation selects between the ten-row and full105
   coefficient models, and which source/readout/noise or selective-control construction can
   satisfy the newly explicit requirements? Historical predecessor (not live):
@@ -23510,6 +23532,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Compose the already available induced metric derivative with actual curved-background
+  field/receiver jets and an analytic domain; a triangular fixed-varpi coordinate change
+  alone cannot alter the frozen199/931 branch. For the SAME healthy dust/scalar model,
+  supply physical covariance and an optical spacetime window with calibration/noise;
+  positive averaging does not cure slow Jeans roughness, while signed compensation removes
+  leading signal. For retained-pump calibration, test an explicit lossy
+  selective-control/reference/reset architecture against necessary and sufficient loss
+  budgets, accounting for failure outcomes and charged replenishment. Null covectors, full
+  normal localization and global physical quotients remain distinct. Preserve source and
+  ledger ceilings. Historical predecessor (not live):
   Derive the actual source-owned induced metric/normal-jet map before transporting the
   ten-row growing branch or full105 nonnull-curvature exclusion. On the SAME healthy dust
   action, supply constrained initial statistics and jointly calibrated density/potential

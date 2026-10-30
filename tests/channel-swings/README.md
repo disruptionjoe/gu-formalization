@@ -1,4 +1,8 @@
 
+- [k2316-induced-metric-coupled-pencil](k2316_induced_metric_coupled_pencil_probe.py).
+- [k2317-spacetime-dust-windows](k2317_spacetime_dust_windows_probe.py).
+- [k2318-loss-limited-calibration](k2318_loss_limited_calibration_probe.py).
+
 - [k2313-full-metric-variation-boundary](k2313_full_metric_variation_boundary_probe.py).
 - [k2314-windowed-dust-observables](k2314_windowed_dust_observables_probe.py).
 - [k2315-calibration-control-cost](k2315_calibration_control_cost_probe.py).

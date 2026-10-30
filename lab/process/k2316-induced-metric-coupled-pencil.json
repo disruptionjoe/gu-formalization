@@ -1,0 +1,112 @@
+{
+  "check_names": [
+    "metric_derivative_0",
+    "metric_derivative_1",
+    "metric_derivative_4",
+    "metric_derivative_5",
+    "metric_derivative_9",
+    "rational_fibre_congruence",
+    "native_signature",
+    "rank10",
+    "trace_vector",
+    "tau",
+    "kernel_direction",
+    "secular_root",
+    "nonresonance",
+    "matrix_odd_companion",
+    "matrix_even_companion",
+    "matrix_metric_0",
+    "matrix_metric_1",
+    "matrix_metric_2",
+    "matrix_metric_3",
+    "matrix_metric_4",
+    "matrix_metric_5",
+    "matrix_metric_6",
+    "matrix_metric_7",
+    "matrix_metric_8",
+    "matrix_metric_9",
+    "nonzero_curvature_matrix",
+    "simple_kernel",
+    "source_inverse",
+    "root_compatible_source",
+    "no_pure_transverse_trace",
+    "tracefree_restriction_nondegenerate",
+    "native_curvature_0",
+    "native_curvature_1",
+    "native_curvature_2",
+    "native_curvature_3",
+    "native_curvature_4",
+    "native_curvature_5",
+    "native_curvature_6",
+    "native_curvature_7",
+    "native_curvature_8",
+    "native_curvature_9",
+    "native_odd_companion",
+    "native_even_companion",
+    "native_metric_0",
+    "native_metric_1",
+    "native_metric_2",
+    "native_metric_3",
+    "native_metric_4",
+    "native_metric_5",
+    "native_metric_6",
+    "native_metric_7",
+    "native_metric_8",
+    "native_metric_9",
+    "native_nonzero_curvature",
+    "coordinate_inverse",
+    "coordinate_det_one",
+    "old_formal_adjoint",
+    "new_formal_adjoint",
+    "mixed_order_determinant",
+    "source_covector_transport",
+    "odd_J_transpose_matters"
+  ],
+  "checks": 61,
+  "dependencies": {
+    "explorations/conditional-build/k2313-full-metric-variation-boundary-2026-10-30.md": "ddaad7ce25e36eeb3f261985f57a60fef715d8e86c1530fa17eb2c1db985b0e5",
+    "explorations/conditional-build/k2316-induced-metric-coupled-pencil-2026-10-30.md": "79f1b385b423d43e7eadc118054fd62f4885cccb7ee150aaaa42d962c9aba627",
+    "tests/channel-swings/k2298_enlarged_native_companion_probe.py": "b9e368a438277a68f4f72a111010e8240572e627c1cf997511ea02834fc7aa9a",
+    "tests/channel-swings/k2307_spatial_coupled_native_mode_probe.py": "ef984dd959fcb01e5ae8c7093842f73e5912b087046865db51106d8ae8a9ff59",
+    "tests/channel-swings/k2316_induced_metric_coupled_pencil_probe.py": "a4ac9e7ac88ccf98e5f4454bd4cb59e261f51265ec21348e22d1648ae698cb73",
+    "tests/channel-swings/k77_exact_bank_api.py": "5f9ca5458e55669bce226bf65e82b11a54d81d7cffeb2d18a1fb4635f575cf5b",
+    "tests/channel-swings/selected_k77_full_normal_owner_bank_probe.py": "f8115c8ea3cff0f6f7e24da7d050a58539c34494e8892902216faa9368b8de7a",
+    "tests/fixtures/k77_exact_coefficient_bank_v1.json": "af7642876b0f788c4561f977c62b57307783849170031536a9e578102fc382c8"
+  },
+  "details": {
+    "C": "Matrix([[11/2, 0, 0, 0, -3/2, 0, 0, -3/2, 0, -3/2], [0, -8, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, -8, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, -8, 0, 0, 0, 0, 0, 0], [-3/2, 0, 0, 0, 13/2, 0, 0, 3/2, 0, 3/2], [0, 0, 0, 0, 0, 10, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 10, 0, 0, 0], [-3/2, 0, 0, 0, 3/2, 0, 0, 13/2, 0, 3/2], [0, 0, 0, 0, 0, 0, 0, 0, 10, 0], [-3/2, 0, 0, 0, 3/2, 0, 0, 3/2, 0, 13/2]])",
+    "fibre_congruence": "Matrix([[1/2, 1/2, 1/2, 0, 0, 0, 1/2, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 1/2, 1/2, 0], [0, 0, 0, 0, 0, 0, 0, 1/2, -1/2, 0], [0, 0, 0, 0, 0, 1/4, 0, 0, 0, 3/4], [-1/2, 1/2, 1/2, 0, 0, 0, -1/2, 0, 0, 0], [0, 0, 0, 1/2, 1/2, 0, 0, 0, 0, 0], [0, 0, 0, 1/2, -1/2, 0, 0, 0, 0, 0], [1/2, -1/2, 1/2, 0, 0, 0, -1/2, 0, 0, 0], [0, 0, 0, 0, 0, 3/4, 0, 0, 0, 1/4], [1/2, 1/2, -1/2, 0, 0, 0, -1/2, 0, 0, 0]])",
+    "kernel": "Matrix([[-59/91], [0], [0], [0], [29/91], [0], [0], [29/91], [0], [29/91]])",
+    "root_s_over_kappa_squared": "199/931",
+    "tau": "643/91"
+  },
+  "evidence_kind": "exact rational geometry/native sparse operator and symbolic source algebra; universal covariance/domain boundaries written in note",
+  "mutation_failed_checks": {
+    "omit_companion_source_shift": [
+      "actual_coefficient_or_source_equation"
+    ],
+    "omit_even_companion": [
+      "actual_coefficient_or_source_equation"
+    ],
+    "omit_fibre_variation": [
+      "actual_coefficient_or_source_equation"
+    ],
+    "ordinary_transpose_for_odd_J": [
+      "actual_coefficient_or_source_equation"
+    ],
+    "remove_trace_coupling": [
+      "actual_coefficient_or_source_equation"
+    ],
+    "reuse_horizontal_root": [
+      "actual_coefficient_or_source_equation"
+    ],
+    "source_inverse_sign": [
+      "actual_coefficient_or_source_equation"
+    ],
+    "wrong_index_raising": [
+      "actual_coefficient_or_source_equation"
+    ]
+  },
+  "result_id": "K2316",
+  "schema_version": "1.0"
+}

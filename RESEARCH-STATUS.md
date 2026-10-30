@@ -6,6 +6,19 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2316--K2318: Induced metric, spacetime dust and calibration loss (2026-10-30)
+
+K2316 reuses the existing induced metric derivative and finds a nonzero-curvature199/931 branch of its frozen coupled pencil, closes companion resonances and source compatibility, and proves fixed-varpi coordinate congruence preserves this full mixed-order branch. K2317 proves positive time averaging retains rough dust variance, constructs normalized temporal compensation with noise/calibration costs, and distinguishes transverse from longitudinal moving-window smoothing. K2318 derives a necessary loss ratio at most4/(3e21) for stock3e27 calibration, a sharp fixed-shell channel bound, sufficient flagged-confidence and average budgets, and a precisely scoped loss-correcting-code limitation. All results remain conditional; source claims, ledger0.263 and physical mappings are unchanged.
+
+- [K2316](explorations/conditional-build/k2316-induced-metric-coupled-pencil-2026-10-30.md).
+- [K2317](explorations/conditional-build/k2317-spacetime-dust-windows-2026-10-30.md).
+- [K2318](explorations/conditional-build/k2318-loss-limited-calibration-2026-10-30.md).
+
+Three read-only specialists independently reviewed the concrete notes/probes/reports.161 checks(61+51+49) and20 genuine altered-input/formula failures(8+6+6) pass. Exact geometry, native coefficient, symbolic covariance and finite Kraus/code controls are separated from four numerical trace-norm evaluations; universal covariance, summability, channel and domain statements use written proofs. No Lean, remoteCI, external-expert, novelty, empirical, hardware or whole-GU certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2313--K2315: Metric variation, windowed dust and calibration cost (2026-10-30)
 
 K2313 excludes nonnull metric curvature in the explicit full105-metric extension of the flat K77 I1B coefficient model, including companion resonances, while preserving pure-distortion modes and the distinct ten-row branch. K2314 derives sharp Gaussian dust-window domains and a compensated density/potential channel; white readout noise and fixed calibration error can destroy the improvement. K2315 rules out passive preparation at stock3e27 for uniform95% retained-pump calibration, requiring at least9e48, and prices a selective adjacent-control repair by N/(2J) preparation time and accumulated pulse error. All results are conditional; source claims, ledger0.263 and native physical mappings remain unchanged.

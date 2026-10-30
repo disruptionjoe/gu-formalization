@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2316-induced-metric-coupled-pencil](conditional-build/k2316-induced-metric-coupled-pencil-2026-10-30.md).
+- [k2317-spacetime-dust-windows](conditional-build/k2317-spacetime-dust-windows-2026-10-30.md).
+- [k2318-loss-limited-calibration](conditional-build/k2318-loss-limited-calibration-2026-10-30.md).
+
 - [k2313-full-metric-variation-boundary](conditional-build/k2313-full-metric-variation-boundary-2026-10-30.md).
 - [k2314-windowed-dust-observables](conditional-build/k2314-windowed-dust-observables-2026-10-30.md).
 - [k2315-calibration-control-cost](conditional-build/k2315-calibration-control-cost-2026-10-30.md).

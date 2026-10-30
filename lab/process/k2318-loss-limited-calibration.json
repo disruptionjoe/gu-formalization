@@ -1,0 +1,88 @@
+{
+  "check_names": [
+    "binomial_complete_1",
+    "horizontal_phase_1",
+    "purification_variance_1",
+    "binomial_complete_2",
+    "horizontal_phase_2",
+    "purification_variance_2",
+    "binomial_complete_3",
+    "horizontal_phase_3",
+    "purification_variance_3",
+    "binomial_complete_4",
+    "horizontal_phase_4",
+    "purification_variance_4",
+    "binomial_complete_5",
+    "horizontal_phase_5",
+    "purification_variance_5",
+    "binomial_complete_6",
+    "horizontal_phase_6",
+    "purification_variance_6",
+    "success_implies_radius",
+    "necessary_loss_ratio",
+    "confidence_budget",
+    "confidence_loss",
+    "averaged_loss",
+    "averaged_output",
+    "Kraus_complete_1",
+    "finite_trace_norm_formula_1",
+    "finite_channel_bound_1",
+    "Fock_exact_saturation_1",
+    "Kraus_complete_2",
+    "finite_trace_norm_formula_2",
+    "finite_channel_bound_2",
+    "Fock_exact_saturation_2",
+    "Kraus_complete_3",
+    "finite_trace_norm_formula_3",
+    "finite_channel_bound_3",
+    "Fock_exact_saturation_3",
+    "Kraus_complete_4",
+    "finite_trace_norm_formula_4",
+    "finite_channel_bound_4",
+    "Fock_exact_saturation_4",
+    "continuity_polynomial",
+    "interval_coefficient",
+    "code_isometry",
+    "loss_KL",
+    "projected_signal_scalar",
+    "raw_signal_leaks",
+    "raw_signal_variance",
+    "actual_generator_leakage_oracle",
+    "actual_projected_scalar_oracle"
+  ],
+  "checks": 49,
+  "dependencies": {
+    "explorations/conditional-build/k2312-relational-finite-calibration-2026-10-30.md": "a289f0d96a4446576a57ca89b420e09ae5ba8b3e0835cbaab374ed2db4ee2304",
+    "explorations/conditional-build/k2315-calibration-control-cost-2026-10-30.md": "1a0a04967118cb3c37eecef594569809fab7826555dbb0a8ebac4b287452997c",
+    "explorations/conditional-build/k2318-loss-limited-calibration-2026-10-30.md": "4598ea154cdea2f46cbf4d3adf70cf7e2a8686a29c1d909bd3de5f0f60779bef",
+    "tests/channel-swings/k2318_loss_limited_calibration_probe.py": "eb0e0d35eccee27c4298769cfea3553a8ac50ba8e9888fb42c09e24423e4a5a4"
+  },
+  "details": {
+    "necessary_loss_ratio": "1/750000000000000000000",
+    "sufficient_average_loss": "1/6000000000000000000000000000000000000000",
+    "sufficient_confidence_loss": "1/600000000000000000000000000000"
+  },
+  "evidence_kind": "exact binomial/Kraus/code/rational controls; four finite numerical trace norms; universal bounds proved in note",
+  "mutation_failed_checks": {
+    "discard_loss_outcomes": [
+      "binomial_channel_or_code_equation"
+    ],
+    "erase_raw_code_leakage": [
+      "binomial_channel_or_code_equation"
+    ],
+    "missing_phase_factor2": [
+      "binomial_channel_or_code_equation"
+    ],
+    "nonlinear_signal_not_scalar": [
+      "binomial_channel_or_code_equation"
+    ],
+    "wrong_Kraus_amplitude": [
+      "binomial_channel_or_code_equation"
+    ],
+    "wrong_loss_denominator": [
+      "binomial_channel_or_code_equation"
+    ]
+  },
+  "result_id": "K2318",
+  "schema_version": "1.0"
+}

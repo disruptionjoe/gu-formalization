@@ -1,0 +1,93 @@
+{
+  "check_names": [
+    "unit_DC",
+    "growth_null",
+    "l1_cost",
+    "leakage",
+    "nonzero_error_can_cancel",
+    "constant_error_leaks",
+    "coherent_time_variance_zero",
+    "false_independent_time_variance_positive",
+    "time_covariance_isometry",
+    "disjoint_noise_amplification",
+    "ordered_normalization_1",
+    "positive_cost_1",
+    "ordered_normalization_2",
+    "positive_cost_2",
+    "ordered_normalization_99",
+    "positive_cost_99",
+    "slab_coefficient_1",
+    "odd_mode_tail_1",
+    "transverse_no_phase_1",
+    "longitudinal_phase_1",
+    "slab_coefficient_2",
+    "odd_mode_tail_2",
+    "transverse_no_phase_2",
+    "longitudinal_phase_2",
+    "slab_coefficient_3",
+    "odd_mode_tail_3",
+    "transverse_no_phase_3",
+    "longitudinal_phase_3",
+    "slab_coefficient_4",
+    "odd_mode_tail_4",
+    "transverse_no_phase_4",
+    "longitudinal_phase_4",
+    "slab_coefficient_5",
+    "odd_mode_tail_5",
+    "transverse_no_phase_5",
+    "longitudinal_phase_5",
+    "slab_coefficient_6",
+    "odd_mode_tail_6",
+    "transverse_no_phase_6",
+    "longitudinal_phase_6",
+    "slab_coefficient_7",
+    "odd_mode_tail_7",
+    "transverse_no_phase_7",
+    "longitudinal_phase_7",
+    "slab_coefficient_8",
+    "odd_mode_tail_8",
+    "transverse_no_phase_8",
+    "longitudinal_phase_8",
+    "integration_by_parts_1",
+    "integration_by_parts_2",
+    "integration_by_parts_3"
+  ],
+  "checks": 51,
+  "dependencies": {
+    "explorations/conditional-build/k2311-uniform-constrained-dust-evolution-2026-10-30.md": "d5a022fbf98da92dc0bc4e5bb64faab18179af2f2ab05211531edb36bf392c5a",
+    "explorations/conditional-build/k2314-windowed-dust-observables-2026-10-30.md": "b7ccadbc726149b79cffbb07053c9e03fee072841198e132dd1c60c3d3aae5fb",
+    "explorations/conditional-build/k2317-spacetime-dust-windows-2026-10-30.md": "40fd8a42c3d8f5ee79cc5be8eb9cc04fb41f7771ef030fc65978ffc13091f712",
+    "tests/channel-swings/k2317_spacetime_dust_windows_probe.py": "753b6b1a820e172372b1fd4ea975fdf97736d96f686800d68a8de1b7bfddf903"
+  },
+  "details": {
+    "compensation": [
+      "D2/(-D1 + D2)",
+      "-D1/(-D1 + D2)"
+    ],
+    "l1_norm": "-(D1 + D2)/(D1 - D2)",
+    "leakage": "-(-D1*e2 + D2*e1)/(D1 - D2)"
+  },
+  "evidence_kind": "exact symbolic filter/covariance/Fourier controls; uniform transfer inherited and infinite Gaussian/summability proofs in note",
+  "mutation_failed_checks": {
+    "constant_response_calibration_shift": [
+      "filter_covariance_or_direction_equation"
+    ],
+    "independent_temporal_signal": [
+      "filter_covariance_or_direction_equation"
+    ],
+    "omit_noise_cross_bin_scale": [
+      "filter_covariance_or_direction_equation"
+    ],
+    "replace_dot_by_norm": [
+      "filter_covariance_or_direction_equation"
+    ],
+    "wrong_filter_ratio": [
+      "filter_covariance_or_direction_equation"
+    ],
+    "wrong_filter_sign": [
+      "filter_covariance_or_direction_equation"
+    ]
+  },
+  "result_id": "K2317",
+  "schema_version": "1.0"
+}

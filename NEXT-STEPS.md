@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-10-30: METRIC VARIATION, WINDOWED DUST AND CALIBRATION COST.**
+> **2026-10-30: INDUCED METRIC, SPACETIME DUST AND CALIBRATION LOSS.**
+> Compose the already available induced metric derivative with actual curved-background field/receiver jets and an analytic domain; a triangular fixed-varpi coordinate change alone cannot alter the frozen199/931 branch. For the SAME healthy dust/scalar model, supply physical covariance and an optical spacetime window with calibration/noise; positive averaging does not cure slow Jeans roughness, while signed compensation removes leading signal. For retained-pump calibration, test an explicit lossy selective-control/reference/reset architecture against necessary and sufficient loss budgets, accounting for failure outcomes and charged replenishment. Null covectors, full normal localization and global physical quotients remain distinct. Preserve source and ledger ceilings.
+
+
+> **Historical predecessor, no longer the live next condition: 2026-10-30 METRIC VARIATION, WINDOWED DUST AND CALIBRATION COST.**
 > Derive the actual source-owned induced metric/normal-jet map before transporting the ten-row growing branch or full105 nonnull-curvature exclusion. On the SAME healthy dust action, supply constrained initial statistics and jointly calibrated density/potential observation windows and noise; exact compensation is not robust to fixed coefficient error or white potential-readout noise. For calibration, construct a nonlinear selective-control/reference/reset architecture meeting stock, norm/time and cumulative precision constraints; passive mixing at3e27 is insufficient for the uniform95% task. Null metric covectors, complementary distortion source compatibility and nonlinear dust domains remain separate. Preserve source, ledger and object ceilings.
 
 
