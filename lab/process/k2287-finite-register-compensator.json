@@ -1,0 +1,118 @@
+{
+  "check_names": [
+    "elementary_QFT_2",
+    "elementary_QFT_3",
+    "elementary_QFT_4",
+    "prior_hash_explorations/conditional-build/k2273-positive-control-energy-2026-10-29.md",
+    "prior_hash_explorations/conditional-build/k2279-uniform-pump-energy-2026-10-29.md",
+    "prior_hash_explorations/conditional-build/k2281-thermal-pump-preparation-2026-10-29.md",
+    "prior_hash_explorations/conditional-build/k2282-centered-positive-control-2026-10-29.md",
+    "prior_hash_explorations/conditional-build/k2285-thermal-centered-composition-2026-10-30.md",
+    "prior_hash_tests/channel-swings/k2285_thermal_centered_composition_probe.py",
+    "circuit_q2_delta-1",
+    "circuit_q2_delta0",
+    "circuit_q2_delta1",
+    "coherent_superposition_q2",
+    "circuit_q3_delta-3",
+    "circuit_q3_delta-1",
+    "circuit_q3_delta0",
+    "circuit_q3_delta1",
+    "circuit_q3_delta3",
+    "coherent_superposition_q3",
+    "circuit_q4_delta-1",
+    "circuit_q4_delta0",
+    "circuit_q4_delta1",
+    "circuit_q4_delta7",
+    "coherent_superposition_q4",
+    "outside_window_alias_present",
+    "signed_binary_square",
+    "positive_inverse_period_0",
+    "positive_inverse_period_1",
+    "positive_inverse_period_2",
+    "positive_inverse_period_3",
+    "positive_inverse_period_4",
+    "positive_inverse_period_5",
+    "positive_inverse_period_6",
+    "positive_inverse_period_7",
+    "hadamard_positive_generator",
+    "charge_commutator",
+    "field_commutator",
+    "coherent_second_moment",
+    "thermal_second_moment",
+    "coherent_sqrtC_upper",
+    "coherent_sqrtQ_upper",
+    "coherent_complete_budget",
+    "coherent_energy",
+    "coherent_gate_count",
+    "thermal_sqrtC_upper",
+    "thermal_sqrtQ_upper",
+    "thermal_complete_budget",
+    "thermal_energy",
+    "thermal_gate_count",
+    "rayleigh_growth",
+    "negative_compression_rayleigh",
+    "same_charge_pair"
+  ],
+  "checks": 52,
+  "claim_ceiling": "conditional supplied model; no GU, empirical or hardware acceptance",
+  "dependencies": {
+    "explorations/conditional-build/k2282-centered-positive-control-2026-10-29.md": "c83969144c3ea4c9d3deea5f94a52a1f3d4354a5b096e50bd61b0b6c815a6fa2",
+    "explorations/conditional-build/k2287-finite-register-compensator-2026-10-30.md": "37d5e773ece033ca114b0f450f73987e5dcee2010a976d49861ce1481b2d2d5b",
+    "lab/process/k2285-thermal-centered-composition.json": "90247e6a0a151e6c9ac47c559bc93f88d6c8f45c3104bbc5e169b772a1794bf4",
+    "tests/channel-swings/k2287_finite_register_compensator_probe.py": "4447790dc70b4c69ba919b348e00524d864c5aa11cf7eaf2089d397b0a5b3d18"
+  },
+  "evidence_kind": "symbolic identities, finite circuit controls and rational or interval bounds; universal proofs in companion",
+  "mutation_failed_checks": {
+    "missing_center_offset": [
+      "field0_pump1",
+      "field1_pump1",
+      "field2_pump1"
+    ],
+    "missing_square_cross_terms": [
+      "field0_pump1"
+    ],
+    "missing_uncompute": [
+      "field0_pump1",
+      "field2_pump1"
+    ],
+    "omitted_QFT_controlled_phases": [
+      "elementary_QFT"
+    ],
+    "undersized_register": [
+      "complete_budget"
+    ],
+    "unsigned_top_bit": [
+      "field0_pump1"
+    ],
+    "wrong_pump_weight": [
+      "field0_pump1",
+      "field1_pump1",
+      "field2_pump1"
+    ]
+  },
+  "resource_certificates": {
+    "coherent": {
+      "alias_upper": "200000000000001/19807040628566084398385987584",
+      "compiler_upper_decimal": "1.234861958682900e-14",
+      "complete_upper_decimal": "9.260147124254884e-12",
+      "dispersive_upper": "1260000000000000000000000000063/1562500000000000000000000000000000000000000000",
+      "neutral_gates": 14448,
+      "neutral_upper": "903/625000000000000000",
+      "number_pulses": 4032,
+      "qubits": 96
+    },
+    "thermal": {
+      "alias_upper": "692820323027551/79228162514264337593543950336",
+      "compiler_upper_decimal": "1.354172187486444e-14",
+      "complete_upper_decimal": "9.261340226542919e-12",
+      "dispersive_upper": "16464000000000000000000000001029/5000000000000000000000000000000000000000000000",
+      "neutral_gates": 15043,
+      "neutral_upper": "15043/10000000000000000000",
+      "number_pulses": 4116,
+      "qubits": 98
+    }
+  },
+  "result_id": "K2287",
+  "schema_version": "1.0",
+  "unbounded_claim": "modular identity plus tail and hybrid proof; finite matrices are controls only"
+}

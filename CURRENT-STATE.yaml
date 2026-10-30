@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 7f009621eb5184b28c9786a02596f0caa9291c93
+revision_basis: e81e84012928b34958ac613fb9761696dd839edb
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,16 +118,17 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
-    K2283 proves global positive-U histories for a<0,r<0 and an exact F-crossing
-    classification; a new shared history and simultaneous parameter box have full13 DESI
-    discrepancy between5.87 and5.90, inside squared radius6 but not4. K2284 proves a
-    local duration-controlled centered-phase lower bound for the recorded retained-pump
-    instrument, supplies a finite-clock countercontrol against universalization, and
-    reduces coherent compensation area nearly eightfold on actual even-charge support.
-    K2285 composes displaced thermal preparation with corrected centered moments and
-    positive controls: full error<9.997798505e-12, field error<.008, real pump
-    depletion12.8±.004, and nearly fourfold shorter supported compensation. All results
-    are conditional; no native GU, empirical-confidence, hardware or canon claim.
+    K2286 derives tensor propagation for the unchanged full13-compatible quadratic
+    history: geometric-optics endpoint ratio0.63506--0.63509 and present running
+    alphaM=-0.825581476, independent of the common BAO ruler. K2288 certifies the
+    finite-frequency prepared-wave transfer between0.6349 and0.6352 when k/Hstar>=1e10
+    using the inherited continuous trajectory and a new exact wave-potential bound.
+    K2287 constructs the final compensator from96/98 neutral qubits,4032/4116 positive
+    local number pulses and14448/15043 neutral gates: coherent/thermal complete
+    errors<9.261e-12/<9.262e-12, with field energy and depletion bounds retained. A
+    Rayleigh sequence proves the bounded modular square cannot replace instantaneous
+    positive pump stabilization. All are conditional models; no GU, empirical, hardware
+    or canon verdict.
     Historical predecessor (not live): K2258 proves that every positive subspace with an equivalent L2 norm and selfadjoint evolution of
     the fixed raw constrained operator has stable Fourier support, without assuming a
     fibrewise metric or translation invariance. Consequently no nonzero smooth
@@ -17561,6 +17562,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2286-quadratic-tensor-propagation-2026-10-30.md
+  - explorations/conditional-build/k2287-finite-register-compensator-2026-10-30.md
+  - explorations/conditional-build/k2288-finite-frequency-tensor-bound-2026-10-30.md
+  - lab/process/k2286-quadratic-tensor-propagation.json
+  - lab/process/k2287-finite-register-compensator.json
+  - lab/process/k2288-finite-frequency-tensor-bound.json
   - explorations/conditional-build/k2283-global-quadratic-cosmology-2026-10-30.md
   - explorations/conditional-build/k2284-operational-clock-tolerance-2026-10-30.md
   - explorations/conditional-build/k2285-thermal-centered-composition-2026-10-30.md
@@ -19341,10 +19348,9 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Which independently justified observable or perturbation requirement discriminates the
-  full13-compatible shared quadratic history, and which accessible physical interaction
-  implements the independent detector construction's centered control with measured timing and phase
-  cost?
+  Can actual matter/source/environment matching turn the fixed-history tensor transfer
+  into an observational discriminator, and can an explicit semibounded pump or
+  calibrated number/register apparatus replace the remaining supplied detector controls?
   Historical predecessor (not live): Can a source-owned global quotient or differential-constraint domain supply local
   observables and causal physical dynamics for the fixed raw candidate, and can the
   detector/reset apparatus renew its actual charged/coherent stock through a priced
@@ -23398,17 +23404,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Test the same full13-compatible quadratic background against an independently fixed
-  perturbation/matter/ruler or BAO-transfer requirement; the radius6 fitted witness does
-  not meet radius4 or establish a physical prior. Strongest apparatus alternative is
-  physical synthesis/calibration of the specified centered charge interaction and
-  phase-controlled preparation with accessible clock couplings; a supplied whole-unitary
-  clock hides that cost. Keep the sharp duration-model bound, supported periods, mixed
-  thermal center and actual moment/depletion controls. Do not repeat arbitrary subset
-  fits, infer general-family exclusion from failed optimization, port pure-state lower
-  bounds to mixed pumps, or equate trace restoration with energy restoration. Native
-  matter/light paired readout and physical preparation-energy inputs remain
-  alternatives; source/ledger ceilings stay intact.
+  Prioritize source/environment and matter matching for the SAME fitted cosmology before
+  comparing its tensor transfer with measured standard sirens; background F endpoints
+  are not automatically local emitter/detector values. Scalar trace mass alone does not
+  prove rolling-background stability. Strongest apparatus alternative is a semibounded
+  synthesis of the remaining B_z pump or a priced physical implementation of the
+  explicit number/register couplings; final modular compensation does not synthesize
+  B_z, and bounded modular stabilization is now excluded. Keep the enormous stock,
+  precise gate/angle budgets and full retained-pump consumer. Do not repeat fits,
+  tighter already-sufficient wave bounds, supplied whole-unitary clocks or the failed
+  bounded-shift shortcut. Native matter/light paired readout and physical
+  preparation-energy remain alternatives under unchanged source/ledger ceilings.
   Historical predecessor (not live): Do not repeat local differential preparation into an equivalent positive raw subspace,
   fresh partial-collision donor renewal, or phase-blind charge replenishment bounds.
   K2258 leaves general differential constraint kernels and source-owned global quotients

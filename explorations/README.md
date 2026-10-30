@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2286-quadratic-tensor-propagation-2026-10-30](conditional-build/k2286-quadratic-tensor-propagation-2026-10-30.md).
+- [k2287-finite-register-compensator-2026-10-30](conditional-build/k2287-finite-register-compensator-2026-10-30.md).
+- [k2288-finite-frequency-tensor-bound-2026-10-30](conditional-build/k2288-finite-frequency-tensor-bound-2026-10-30.md).
+
+
 - [k2283-global-quadratic-cosmology-2026-10-30](conditional-build/k2283-global-quadratic-cosmology-2026-10-30.md).
 - [k2284-operational-clock-tolerance-2026-10-30](conditional-build/k2284-operational-clock-tolerance-2026-10-30.md).
 - [k2285-thermal-centered-composition-2026-10-30](conditional-build/k2285-thermal-centered-composition-2026-10-30.md).

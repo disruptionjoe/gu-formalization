@@ -1,0 +1,54 @@
+{
+  "check_names": [
+    "prior_hash_explorations/conditional-build/k2271-forward-cosmology-domain-2026-10-29.md",
+    "prior_hash_explorations/conditional-build/k2280-shared-coefficient-cosmology-survivor-2026-10-29.md",
+    "prior_hash_explorations/conditional-build/k2283-global-quadratic-cosmology-2026-10-30.md",
+    "prior_hash_lab/process/k2277-multibin-pure-r2-test.json",
+    "prior_hash_tests/channel-swings/k2283_global_quadratic_cosmology_probe.py",
+    "tensor_variational_friction",
+    "canonical_equation",
+    "Fs_chain_identity",
+    "Xi_log_derivative",
+    "redshift_chain",
+    "Xi_initial_slope",
+    "normalization_cancels",
+    "F0_enclosure",
+    "alphaM0_enclosure",
+    "endpoint_Xi",
+    "positive_endpoints",
+    "rolling_scalar_trace"
+  ],
+  "checks": 17,
+  "claim_ceiling": "conditional supplied model; no GU, empirical or hardware acceptance",
+  "dependencies": {
+    "explorations/conditional-build/k2286-quadratic-tensor-propagation-2026-10-30.md": "a2bd2c4f4ad63d690646000fe35cc739def8284b85a43403e1392412725de812",
+    "lab/process/k2283-global-quadratic-cosmology.json": "dc741a3d4a3c726c110d5d2bc7c30102bb7ee39c88f03a7a0342c3a9a9dc1947",
+    "tests/channel-swings/k2286_quadratic_tensor_propagation_probe.py": "010fcc6b66751d6b4ad570b96246543a9af3efb4c10fa2b32062572cc4e6fd55"
+  },
+  "evidence_kind": "symbolic derivative identities and outward interval bounds; dependency hashes are provenance checks; universal proof in companion",
+  "inherited_certificate": "K2283 complete continuous trajectory; not rerun",
+  "interval_results": {
+    "F0": "[49.972850564870549892217822239266250 +/- 4.80e-34]",
+    "Xi_endpoint": "[0.63507 +/- 3.86e-6]",
+    "alphaM0": "[-0.8255814760095571689407962871871200 +/- 3.58e-35]"
+  },
+  "mutation_failed_checks": {
+    "drop_rolling_deltaBox": [
+      "trace"
+    ],
+    "inverse_distance_ratio": [
+      "ratio"
+    ],
+    "missing_tensor_friction": [
+      "canonical"
+    ],
+    "wrong_canonical_power": [
+      "canonical"
+    ],
+    "wrong_redshift_direction": [
+      "redshift"
+    ]
+  },
+  "result_id": "K2286",
+  "schema_version": "1.0"
+}

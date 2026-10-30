@@ -5,6 +5,19 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2286--K2288: Tensor transport and register compensation (2026-10-30)
+
+K2286 derives tensor propagation for the unchanged full13-compatible quadratic history: geometric-optics endpoint ratio0.63506--0.63509 and present running alphaM=-0.825581476, independent of the common BAO ruler. K2288 certifies the finite-frequency prepared-wave transfer between0.6349 and0.6352 when k/Hstar>=1e10 using the inherited continuous trajectory and a new exact wave-potential bound. K2287 constructs the final compensator from96/98 neutral qubits,4032/4116 positive local number pulses and14448/15043 neutral gates: coherent/thermal complete errors<9.261e-12/<9.262e-12, with field energy and depletion bounds retained. A Rayleigh sequence proves the bounded modular square cannot replace instantaneous positive pump stabilization. All are conditional models; no GU, empirical, hardware or canon verdict.
+
+- [K2286](explorations/conditional-build/k2286-quadratic-tensor-propagation-2026-10-30.md).
+- [K2287](explorations/conditional-build/k2287-finite-register-compensator-2026-10-30.md).
+- [K2288](explorations/conditional-build/k2288-finite-frequency-tensor-bound-2026-10-30.md).
+
+Two field specialists and a separate adversarial reviewer independently accepted the actual conditional arguments after corrections.95 checks comprise symbolic identities, rational bounds, interval evaluation, finite numerical elementary-gate/wave controls and inherited-dependency hashes;17 genuine changed-input/formula/circuit faults rejected. The inherited K2283 continuum bank was hash-verified, not rerun or counted again. Review corrected a loose endpoint rounding bound, convention-only mutation sentinels, dense-versus-elementary QFT testing, dependency checks and angle-precision accounting. Whole-domain claims rely on the written Duhamel, tail/hybrid and Rayleigh proofs. No Lean, external-expert, empirical, hardware, novelty or remote-CI certification is claimed.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2283--K2285: Global histories and operational control bounds (2026-10-30)
 
 K2283 proves global positive-U histories for a<0,r<0 and an exact F-crossing classification; a new shared history and simultaneous parameter box have full13 DESI discrepancy between5.87 and5.90, inside squared radius6 but not4. K2284 proves a local duration-controlled centered-phase lower bound for the recorded retained-pump instrument, supplies a finite-clock countercontrol against universalization, and reduces coherent compensation area nearly eightfold on actual even-charge support. K2285 composes displaced thermal preparation with corrected centered moments and positive controls: full error<9.997798505e-12, field error<.008, real pump depletion12.8±.004, and nearly fourfold shorter supported compensation. All results are conditional; no native GU, empirical-confidence, hardware or canon claim.

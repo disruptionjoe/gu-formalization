@@ -1,4 +1,9 @@
 
+- [k2286_quadratic_tensor_propagation_probe](k2286_quadratic_tensor_propagation_probe.py).
+- [k2287_finite_register_compensator_probe](k2287_finite_register_compensator_probe.py).
+- [k2288_finite_frequency_tensor_bound_probe](k2288_finite_frequency_tensor_bound_probe.py).
+
+
 - [k2283_global_quadratic_cosmology_probe](k2283_global_quadratic_cosmology_probe.py).
 - [k2284_operational_clock_tolerance_probe](k2284_operational_clock_tolerance_probe.py).
 - [k2285_thermal_centered_composition_probe](k2285_thermal_centered_composition_probe.py).

@@ -5,6 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-10-30: TENSOR TRANSFER AND EXPLICIT COMPENSATOR SYNTHESIS.**
+> Prioritize source/environment and matter matching for the SAME fitted cosmology before comparing its tensor transfer with measured standard sirens; background F endpoints are not automatically local emitter/detector values. Scalar trace mass alone does not prove rolling-background stability. Strongest apparatus alternative is a semibounded synthesis of the remaining B_z pump or a priced physical implementation of the explicit number/register couplings; final modular compensation does not synthesize B_z, and bounded modular stabilization is now excluded. Keep the enormous stock, precise gate/angle budgets and full retained-pump consumer. Do not repeat fits, tighter already-sufficient wave bounds, supplied whole-unitary clocks or the failed bounded-shift shortcut. Native matter/light paired readout and physical preparation-energy remain alternatives under unchanged source/ledger ceilings.
+> Earlier banners are historical; use this current condition.
+
+
 > **2026-10-30: FULL-DATA HISTORY AND OPERATIONAL CONTROL COST.**
 > Test the same full13-compatible quadratic background against an independently fixed perturbation/matter/ruler or BAO-transfer requirement; the radius6 fitted witness does not meet radius4 or establish a physical prior. Strongest apparatus alternative is physical synthesis/calibration of the specified centered charge interaction and phase-controlled preparation with accessible clock couplings; a supplied whole-unitary clock hides that cost. Keep the sharp duration-model bound, supported periods, mixed thermal center and actual moment/depletion controls. Do not repeat arbitrary subset fits, infer general-family exclusion from failed optimization, port pure-state lower bounds to mixed pumps, or equate trace restoration with energy restoration. Native matter/light paired readout and physical preparation-energy inputs remain alternatives; source/ledger ceilings stay intact.
 > Earlier banners are historical; use this current condition.

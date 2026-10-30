@@ -1,0 +1,66 @@
+{
+  "check_names": [
+    "differentiate_P_twice",
+    "vacuum_potential_identity",
+    "T_below37",
+    "U_bound",
+    "p_bound",
+    "F_uniform_lower",
+    "Delta_bound",
+    "Fs_relative_bound",
+    "alphaM_bound",
+    "potential_bound",
+    "U_two_thirds_bound",
+    "conformal_integral",
+    "J_bound",
+    "epsilon_fraction",
+    "finite_lower",
+    "finite_upper",
+    "prior_hash_explorations/conditional-build/k2271-forward-cosmology-domain-2026-10-29.md",
+    "prior_hash_explorations/conditional-build/k2280-shared-coefficient-cosmology-survivor-2026-10-29.md",
+    "prior_hash_explorations/conditional-build/k2283-global-quadratic-cosmology-2026-10-30.md",
+    "prior_hash_lab/process/k2277-multibin-pure-r2-test.json",
+    "prior_hash_tests/channel-swings/k2283_global_quadratic_cosmology_probe.py",
+    "certified_endpoint",
+    "exp_majorant_at_budget",
+    "constant_potential_2.0",
+    "constant_potential_-3.0",
+    "constant_potential_1.0"
+  ],
+  "checks": 26,
+  "claim_ceiling": "conditional supplied model; no GU, empirical or hardware acceptance",
+  "dependencies": {
+    "explorations/conditional-build/k2288-finite-frequency-tensor-bound-2026-10-30.md": "832309070f6d4b1172bfeb26009b214542b563c91bc7fba6fa2a2c7184b187ef",
+    "lab/process/k2283-global-quadratic-cosmology.json": "dc741a3d4a3c726c110d5d2bc7c30102bb7ee39c88f03a7a0342c3a9a9dc1947",
+    "lab/process/k2286-quadratic-tensor-propagation.json": "18c3e45d622ef43d6a1df8ebc0e1f257dec78af4a319882778fa8bf37a305e7c",
+    "tests/channel-swings/k2288_finite_frequency_tensor_bound_probe.py": "2bce21d66a6c88fc9f48e3b7710aedae87f609f19622ece514fbd9fd7d91282f"
+  },
+  "evidence_kind": "symbolic identities and rational bounds plus finite numerical wave controls; dependency hashes are provenance checks; universal proof in companion",
+  "evidence_reuse": "K2283 first-exit continuous tube and endpoint, unchanged",
+  "mutation_failed_checks": {
+    "endpoint_positivity_without_margin": [
+      "F_positive"
+    ],
+    "inverted_transfer": [
+      "transfer_upper"
+    ],
+    "missing_conformal_weight": [
+      "conformal_measure"
+    ],
+    "wrong_redshift_factor": [
+      "redshift"
+    ],
+    "wrong_spatial_sign": [
+      "potential"
+    ]
+  },
+  "rational_bound": {
+    "J_over_Hstar_less_than": 1080000,
+    "epsilon_upper": "27/249973",
+    "k_over_Hstar_at_least": 10000000000,
+    "transfer_lower": ".6349",
+    "transfer_upper": ".6352"
+  },
+  "result_id": "K2288",
+  "schema_version": "1.0"
+}

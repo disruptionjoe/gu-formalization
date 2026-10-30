@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2286-quadratic-tensor-propagation](k2286-quadratic-tensor-propagation.json).
+- [k2287-finite-register-compensator](k2287-finite-register-compensator.json).
+- [k2288-finite-frequency-tensor-bound](k2288-finite-frequency-tensor-bound.json).
+
+
 - [k2283-global-quadratic-cosmology](k2283-global-quadratic-cosmology.json).
 - [k2284-operational-clock-tolerance](k2284-operational-clock-tolerance.json).
 - [k2285-thermal-centered-composition](k2285-thermal-centered-composition.json).
