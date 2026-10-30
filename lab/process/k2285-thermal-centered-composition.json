@@ -1,0 +1,82 @@
+{
+  "check_names": [
+    "cumulant_1",
+    "cumulant_2",
+    "cumulant_3",
+    "cumulant_4",
+    "raw_moment_variance",
+    "real_optimal_center",
+    "nearest_integer_penalty",
+    "thermal_centered_variance",
+    "coherent_limit",
+    "thermal_centered_mean",
+    "thermal_linear_variance",
+    "center_lower_boundary",
+    "center_upper_boundary",
+    "tight_centered_sqrt_bound",
+    "tight_linear_sqrt_bound",
+    "complete_instrument_budget",
+    "energy_continuity",
+    "pump_depletion_half_width",
+    "even_center_even_Q_revival_2",
+    "even_center_even_Q_revival_4",
+    "even_center_even_Q_revival_6",
+    "thermal_short_period_area_lower",
+    "actual_trilinear_charge_commutes",
+    "oracle_variance",
+    "oracle_nearest_center",
+    "oracle_linear_variance",
+    "oracle_full_budget",
+    "oracle_conserved_charge"
+  ],
+  "checks": 28,
+  "claim_ceiling": "conditional supplied model; no native GU, empirical confidence or hardware claim",
+  "dependencies": {
+    "explorations/conditional-build/k2273-positive-control-energy-2026-10-29.md": "3cb6f0f3ef18ba9ed265ed02dee5d1bf68f164b83bd688687bc9f5e32158c95d",
+    "explorations/conditional-build/k2279-uniform-pump-energy-2026-10-29.md": "fdeb785a6c15b230647da9722640f5105947c361d0ede27411e646f7070ff1da",
+    "explorations/conditional-build/k2281-thermal-pump-preparation-2026-10-29.md": "d398fe0638268c19172a3647ca53e6e2e7fd208bb3730fb6489dc41a65be3914",
+    "explorations/conditional-build/k2282-centered-positive-control-2026-10-29.md": "c83969144c3ea4c9d3deea5f94a52a1f3d4354a5b096e50bd61b0b6c815a6fa2",
+    "explorations/conditional-build/k2285-thermal-centered-composition-2026-10-30.md": "0b85cb2115dfd9177fdbdf2bb870c22cb7db68e7fdfee07b1afb8c8ae19c8258",
+    "tests/channel-swings/k2285_thermal_centered_composition_probe.py": "051382c8fdcbe0a60859a0574ba3027452f080018d0e8abf8fe01ff92065dd22"
+  },
+  "evidence_kind": "exact algebra/finite matrix controls; interval/resource certificates separately typed; universal proofs in companion note",
+  "faults_caught": [
+    "coherent_variance_on_thermal",
+    "coherent_center_on_thermal",
+    "lost_thermal_linear_variance",
+    "too_large_area_error",
+    "wrong_charge_weight"
+  ],
+  "mutation_failed_checks": {
+    "coherent_center_on_thermal": [
+      "variance",
+      "nearest_center"
+    ],
+    "coherent_variance_on_thermal": [
+      "variance"
+    ],
+    "lost_thermal_linear_variance": [
+      "linear_variance"
+    ],
+    "too_large_area_error": [
+      "full_budget"
+    ],
+    "wrong_charge_weight": [
+      "conserved_charge"
+    ]
+  },
+  "resource_certificates": {
+    "centered_variance": "460800000000000000000000000027520000000000000000000000000288",
+    "core_upper": "4164838189962051877021597764223/450359962737050000000000000000000000000000",
+    "displacement_intensity": "40000000000000000000000000000",
+    "field_moment_upper": 6300000,
+    "full_upper": "900521632402967875404319552853607199254741/90071992547410000000000000000000000000000000000000000",
+    "integer_center": "80000000000000000000000000006",
+    "linear_variance": "480000000000000000000000000008",
+    "margin_to_1e_minus11": "198293071132124595680447146392800745259/90071992547410000000000000000000000000000000000000000",
+    "phase_upper": "7500000000000000000000000001/10000000000000000000000000000000000000000",
+    "thermal_occupation": 1
+  },
+  "result_id": "K2285",
+  "schema_version": "1.0"
+}

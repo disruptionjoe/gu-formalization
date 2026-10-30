@@ -6,6 +6,25 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2283--K2285: Conditional research results (2026-10-30)
+
+K2283 proves global positive-U histories for a<0,r<0 and an exact F-crossing classification; a new shared history and simultaneous parameter box have full13 DESI discrepancy between5.87 and5.90, inside squared radius6 but not4. K2284 proves a local duration-controlled centered-phase lower bound for the recorded retained-pump instrument, supplies a finite-clock countercontrol against universalization, and reduces coherent compensation area nearly eightfold on actual even-charge support. K2285 composes displaced thermal preparation with corrected centered moments and positive controls: full error<9.997798505e-12, field error<.008, real pump depletion12.8±.004, and nearly fourfold shorter supported compensation. All results are conditional; no native GU, empirical-confidence, hardware or canon claim.
+
+- [K2283](explorations/conditional-build/k2283-global-quadratic-cosmology-2026-10-30.md).
+- [K2284](explorations/conditional-build/k2284-operational-clock-tolerance-2026-10-30.md).
+- [K2285](explorations/conditional-build/k2285-thermal-centered-composition-2026-10-30.md).
+
+Two independent proof-review returns and one broader independent acceptance review cover actual artifacts. The three probes pass36+28+28=92 exact algebra, finite matrix, covariance and resource controls and reject16 genuine formula/input faults. Two separately typed71857-cell interval runs certify the full history and simultaneous parameter neighborhood; they are not counted as finite controls. Reports bind code, notes and dependencies. Review corrected an energy-bound check, nontrivial clock partial trace, charge commutator and covariance-symmetry premise. Internal review and finite controls are not Lean, external-expert, empirical transfer, hardware or novelty certification.
+
+| Result | Closed condition | Remaining limit |
+|---|---|---|
+| K2283 | Global positive-U branch and full13 radius6 witness | Radius4, independent priors and physical transfer unproved |
+| K2284 | Recorded-output duration sensitivity and supported shorter compensation | Accessible physical clock/coupling still unspecified |
+| K2285 | Thermal centered-control instrument and field/pump energy composition | Preparation and global control supplied |
+
+Earlier sections are historical.
+
+
 ## K2280--K2282: Conditional research results (2026-10-29)
 
 K2280 certifies a shared nonzero-coefficient positive-F metric-vacuum history and radius1e-8 parameter box fitting seven selected DESI DR2 coordinates with Q<3.2; the same history extended to z2.33 fails all13 coordinates even after common-ruler profiling(Q>7000). This is a fitted conditional witness, not a general-family exclusion or calibrated confidence. K2281 extends complete detector and uniform field-energy bounds to a specified displaced thermal pump: n=1,mu=4e28 retains joint error<1e-11 and field error<.008, while phase dephasing with unchanged number statistics forces instrument error>=.10368. K2282 supplies new global centered positive controls, one final compensator and explicit error budgets preserving the coherent-vacuum strong consumer; pump shifts are exact and final compensator errors separately bounded. Source claims,ledger0.263,canonical and physical mappings remain unchanged.

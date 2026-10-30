@@ -5,6 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-10-30: FULL-DATA HISTORY AND OPERATIONAL CONTROL COST.**
+> Test the same full13-compatible quadratic background against an independently fixed perturbation/matter/ruler or BAO-transfer requirement; the radius6 fitted witness does not meet radius4 or establish a physical prior. Strongest apparatus alternative is physical synthesis/calibration of the specified centered charge interaction and phase-controlled preparation with accessible clock couplings; a supplied whole-unitary clock hides that cost. Keep the sharp duration-model bound, supported periods, mixed thermal center and actual moment/depletion controls. Do not repeat arbitrary subset fits, infer general-family exclusion from failed optimization, port pure-state lower bounds to mixed pumps, or equate trace restoration with energy restoration. Native matter/light paired readout and physical preparation-energy inputs remain alternatives; source/ledger ceilings stay intact.
+> Earlier banners are historical; use this current condition.
+
+
 > **2026-10-29: SHARED COSMOLOGY AND PHASE-CONTROLLED DETECTOR.**
 > Use the full13-coordinate shared-coefficient cosmology family with justified coefficient/initial-data and BAO/template domain; the certified seven-coordinate witness fails the full snapshot and cannot be rescued merely by changing its common ruler. No global-family exclusion or independently selected prior follows. Strongest apparatus alternative is actual synthesis/calibration of the specified phase-controlled thermal preparation or global centered positive controls, with measured resonance, finite clock and phase costs. Do not replace phase by number statistics, infer energy catalysis from trace restoration, or apply the coherent-centered variance to thermal pumps. Matter/light native source/readout and physical local-preparation cost remain alternatives requiring typed inputs. Preserve existing native/source/scalar/thermal/cosmology ceilings.
 > Earlier banners are historical; use this current condition.

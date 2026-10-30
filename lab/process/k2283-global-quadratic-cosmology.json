@@ -1,0 +1,93 @@
+{
+  "check_names": [
+    "energy_growth_identity",
+    "F_integrating_factor_identity",
+    "coercive_potential_minimum",
+    "initial_positive_F_threshold",
+    "crossing_sign_1",
+    "crossing_sign_0",
+    "crossing_sign_-1",
+    "source_hash_0",
+    "source_hash_1",
+    "all_observable_labels",
+    "full13_rows",
+    "covariance_SPD_1",
+    "covariance_SPD_2",
+    "covariance_SPD_3",
+    "covariance_SPD_4",
+    "covariance_SPD_5",
+    "covariance_SPD_6",
+    "covariance_SPD_7",
+    "covariance_SPD_8",
+    "covariance_SPD_9",
+    "covariance_SPD_10",
+    "covariance_SPD_11",
+    "covariance_SPD_12",
+    "covariance_SPD_13",
+    "covariance_symmetric",
+    "cross_covariance_retained",
+    "quadrature_remainder_identity",
+    "full00_identity",
+    "oracle_energy",
+    "oracle_F_identity",
+    "oracle_distance",
+    "oracle_cross_covariance",
+    "full13_rational_witness",
+    "full13_parameter_box",
+    "endpoint_positive_F",
+    "does_not_meet_radius4"
+  ],
+  "checks": 36,
+  "claim_ceiling": "conditional supplied model; no native GU, empirical confidence or hardware claim",
+  "dependencies": {
+    "explorations/conditional-build/k2271-forward-cosmology-domain-2026-10-29.md": "59e3493fb5fbd1122d50938368882298fe396839680dc99318d255fcdc900710",
+    "explorations/conditional-build/k2280-shared-coefficient-cosmology-survivor-2026-10-29.md": "b29d8de2294800caf69b28daaca63137c427eff53b65e8fc385513935440cedc",
+    "explorations/conditional-build/k2283-global-quadratic-cosmology-2026-10-30.md": "7480540a504b3b253029260b026c8d1aeaa4d811a1470eae816aed0ff08b85ec",
+    "lab/process/k2277-multibin-pure-r2-test.json": "83ee122496aa99ff097825a86246f012b0ccc563c629462e235fad5097ca0afd",
+    "tests/channel-swings/k2283_global_quadratic_cosmology_probe.py": "71278c01e5bd55d0818ba487dc7f89eb17fbc400eada9f221b21990992cd2101"
+  },
+  "evidence_kind": "exact algebra/finite matrix controls; interval/resource certificates separately typed; universal proofs in companion note",
+  "faults_caught": [
+    "rho_force_sign",
+    "wrong_F_crossing",
+    "missing_F_coefficient",
+    "missing_energy_barrier",
+    "missing_distance_jacobian",
+    "dropped_covariance"
+  ],
+  "interval_certificates": {
+    "Q13": "[5.881 +/- 8.28e-4]",
+    "Q13_box": "[5.881 +/- 8.35e-4]",
+    "box_cells": 71857,
+    "box_endpoint_F": "[123.905 +/- 9.30e-4]",
+    "cells": 71857,
+    "criterion_squared_radius": 6,
+    "endpoint_F": "[123.905 +/- 9.05e-4]",
+    "parameter_radius": "1e-8",
+    "precision_bits": 120
+  },
+  "mutation_failed_checks": {
+    "dropped_covariance": [
+      "cross_covariance"
+    ],
+    "missing_F_coefficient": [
+      "F_identity"
+    ],
+    "missing_distance_jacobian": [
+      "distance"
+    ],
+    "missing_energy_barrier": [
+      "energy"
+    ],
+    "rho_force_sign": [
+      "energy",
+      "F_identity"
+    ],
+    "wrong_F_crossing": [
+      "F_identity"
+    ]
+  },
+  "result_id": "K2283",
+  "schema_version": "1.0",
+  "source_commit": "bb0c1c9009dc76d1391300e169e8df38fd1096db"
+}

@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2283-global-quadratic-cosmology-2026-10-30](conditional-build/k2283-global-quadratic-cosmology-2026-10-30.md).
+- [k2284-operational-clock-tolerance-2026-10-30](conditional-build/k2284-operational-clock-tolerance-2026-10-30.md).
+- [k2285-thermal-centered-composition-2026-10-30](conditional-build/k2285-thermal-centered-composition-2026-10-30.md).
+
+
 - [k2280-shared-coefficient-cosmology-survivor-2026-10-29](conditional-build/k2280-shared-coefficient-cosmology-survivor-2026-10-29.md).
 - [k2281-thermal-pump-preparation-2026-10-29](conditional-build/k2281-thermal-pump-preparation-2026-10-29.md).
 - [k2282-centered-positive-control-2026-10-29](conditional-build/k2282-centered-positive-control-2026-10-29.md).
