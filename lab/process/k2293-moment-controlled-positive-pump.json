@@ -1,0 +1,111 @@
+{
+  "bounds": {
+    "coherent": "1043878921061648012015399441055750027021597764223/112589990684262500000000000000000000000000000000000000000000",
+    "common": "1159/125000000000000",
+    "diagonal_allowance": "1e-95",
+    "idle_coherent_distance": "[0.99079985926082257377382890994855917127001488189 +/- 3.70e-48]",
+    "positive_pulses": 600000000000000000000,
+    "slices": 10000000000000000000,
+    "thermal": "260898573391299549103849860263937527021597764223/28147497671065625000000000000000000000000000000000000000000"
+  },
+  "check_names": [
+    "hash_explorations/conditional-build/k2290-local-positive-pump-2026-10-30.md",
+    "hash_lab/process/k2279-uniform-pump-energy.json",
+    "hash_lab/process/k2285-thermal-centered-composition.json",
+    "hash_tests/channel-swings/k2290_local_positive_pump_probe.py",
+    "hash_explorations/conditional-build/k2276-structured-detector-implementation-2026-10-29.md",
+    "hash_explorations/conditional-build/k2278-calibrated-pump-detector-2026-10-29.md",
+    "hash_explorations/conditional-build/k2279-uniform-pump-energy-2026-10-29.md",
+    "hash_explorations/conditional-build/k2281-thermal-pump-preparation-2026-10-29.md",
+    "hash_tests/channel-swings/k2281_thermal_pump_preparation_probe.py",
+    "hash_explorations/conditional-build/k2273-positive-control-energy-2026-10-29.md",
+    "hash_explorations/conditional-build/k2253-full-instrument-reference-reuse-2026-10-29.md",
+    "hash_tests/channel-swings/k2279_uniform_pump_energy_probe.py",
+    "weighted_H_entries_1_2",
+    "weighted_commutator_norm_1_2",
+    "positive_shell_1_2",
+    "charge_conservation_1_2",
+    "diagonal_dressing_1_2",
+    "weighted_H_entries_1_4",
+    "weighted_commutator_norm_1_4",
+    "positive_shell_1_4",
+    "charge_conservation_1_4",
+    "diagonal_dressing_1_4",
+    "weighted_H_entries_2_4",
+    "weighted_commutator_norm_2_4",
+    "positive_shell_2_4",
+    "charge_conservation_2_4",
+    "diagonal_dressing_2_4",
+    "weighted_H_entries_2_8",
+    "weighted_commutator_norm_2_8",
+    "positive_shell_2_8",
+    "charge_conservation_2_8",
+    "diagonal_dressing_2_8",
+    "weighted_H_entries_3_6",
+    "weighted_commutator_norm_3_6",
+    "positive_shell_3_6",
+    "charge_conservation_3_6",
+    "diagonal_dressing_3_6",
+    "weighted_H_entries_3_12",
+    "weighted_commutator_norm_3_12",
+    "positive_shell_3_12",
+    "charge_conservation_3_12",
+    "diagonal_dressing_3_12",
+    "weighted_H_entries_6_12",
+    "weighted_commutator_norm_6_12",
+    "positive_shell_6_12",
+    "charge_conservation_6_12",
+    "diagonal_dressing_6_12",
+    "weighted_H_entries_6_24",
+    "weighted_commutator_norm_6_24",
+    "positive_shell_6_24",
+    "charge_conservation_6_24",
+    "diagonal_dressing_6_24",
+    "unweighted_countercontrol",
+    "outside_charge_countercontrol",
+    "finite_product_convergence",
+    "single_final_cancellation_not_exact",
+    "parity_flips_H_not_D",
+    "weighted_constant",
+    "moment_sqrt_constant",
+    "split_constant",
+    "coherent_budget",
+    "thermal_budget",
+    "energy_consumer",
+    "pulse_reduction",
+    "precision_allowance_change",
+    "thermal_tail",
+    "coherent_drift_overlap",
+    "idle_drift_large_at_fixed_phase"
+  ],
+  "checks": 68,
+  "claim_ceiling": "conditional supplied models; no GU empirical or hardware acceptance",
+  "dependencies": {
+    "explorations/conditional-build/k2293-moment-controlled-positive-pump-2026-10-30.md": "44e4f523e831061770e20bec17481f9c002a8c6131caadf07f550d201a9cd821",
+    "lab/process/k2279-uniform-pump-energy.json": "3eb1ba6c387b872e9776f7747a2487a1a610befbcf7471073db8cc672f85041f",
+    "lab/process/k2281-thermal-pump-preparation.json": "caca863c0f6487fb37d11ca558e2182f3fea7fbe315b8138ff159deca49d2477",
+    "lab/process/k2290-local-positive-pump.json": "9e52eb433b173e4486cbfea2b8b1e47f2d157d33cd89c57c75bbb980dd921062",
+    "tests/channel-swings/k2293_moment_controlled_positive_pump_probe.py": "11e858babbc185bc57cb0e5f879b64fa8586446a80e089b362cd9a3b033a95c6"
+  },
+  "evidence_kind": "exact rational identities/bounds and outward Arb interval bound; finite matrix and Poisson overlap controls numerical; hashes provenance only; universal proofs in companion",
+  "mutation_failed_checks": {
+    "loose_diagonal_errors": [
+      "complete_budget"
+    ],
+    "missing_pump_charge_in_drift": [
+      "drift_overlap"
+    ],
+    "too_few_slices": [
+      "complete_budget"
+    ],
+    "wrong_charge_weight": [
+      "charge_commutator"
+    ],
+    "wrong_diagonal_generator": [
+      "weighted_commutator"
+    ]
+  },
+  "result_id": "K2293",
+  "schema_version": "1.0",
+  "scope": "state-dependent same alphabet; no arbitrary-input operator bound or hardware synthesis"
+}

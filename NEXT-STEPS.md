@@ -5,6 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-10-30: CONSERVED MATTER, WEIGHTED PUMP AND SCALAR TRANSFER.**
+> Test a background-consistent matter/perturbation/source packet with justified density and initial data; the vacuum distance fit and single-scalar action cannot be reused unchanged with matter. Scalar high-frequency transfer is now controlled; long-wave evolution and physical source/readout remain distinct. For the apparatus, supply microscopic positive-interaction synthesis and calibrated timing/idle-drift/isolation: reduced pulse bounds alone do not make hardware practical, and conserved-charge drift can spoil the retained pump. Native paired I1B matter/light remains a concrete challenger: construct the ten-input symmetric horizontal distortion injection in the actual trace/Hodge pairing and test complete companion C leakage before consuming K1861. Do not repeat trace-only matter insertion, instantaneous-mass instability claims, unweighted pump bounds or generic controllability. Preserve source and ledger ceilings.
+> Earlier banners are historical; use this current condition.
+
+
 > **2026-10-30: LOCAL MATCHING, CONSTRAINED SCALAR AND POSITIVE PUMP.**
 > The same-history cosmology now needs the coupled scalar/matter/source evolution with controlled local matching; an instantaneous negative constrained mass is not a global instability and endpoint substitution is not a measured siren transfer. The exact rolling metric source term is available. Compare this with physical synthesis/calibration of the local positive square interaction: the new compiler removes global Q² but supplies local quartic/trilinear access, enormous timing resources and explicit L1 control tolerances. Do not repeat point-source Yukawa, fixed-history fits, potential-mass substitution, modular instantaneous stabilization or abstract controllability. Native paired I1B matter/light is a distinct challenger: construct the smallest pairing-preserving distortion injection and full companion/source/readout block before importing the horizontal inverse. Preserve source and ledger ceilings.
 > Earlier banners are historical; use this current condition.

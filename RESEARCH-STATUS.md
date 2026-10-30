@@ -6,6 +6,25 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2292--K2294: Conditional research results (2026-10-30)
+
+K2292 extends global positive-U continuation and the positive-F endpoint criterion to nonnegative conserved fluids with -1<=w<=1 in the supplied quadratic metric model; nonzero homogeneous matter changes the vacuum fit, including trace-free radiation. K2293 uses actual field moments to reduce the positive-pump compiler from6e47 to6e20 pulses, with1e-95 diagonal allowance and full retained-pump error<9.272e-12; field error<.008 and depletion12.8±.004 survive. A charge-conserving idle drift can still rotate the retained coherent pump to distance>.98. K2294 proves whole-interval high-frequency scalar propagation error<.004666 for k/Hstar>=1e9 on the unchanged vacuum history, including all-initial-data canonical phase-space transfer. No low-frequency, matter-perturbation, empirical, hardware or GU verdict follows.
+
+- [K2292](explorations/conditional-build/k2292-conserved-matter-cosmology-2026-10-30.md).
+- [K2293](explorations/conditional-build/k2293-moment-controlled-positive-pump-2026-10-30.md).
+- [K2294](explorations/conditional-build/k2294-regular-scalar-transfer-2026-10-30.md).
+
+Two deriving specialists and a separate independent reviewer inspected actual final notes, probes and reports.121 checks(17+68+36) distinguish symbolic identities, exact rational bounds, outward Arb drift intervals, finite shell/oscillator/matrix controls and dependency hashes;14 genuine changed-input/operator/formula faults fail the same clean predicates. Universal continuation, weighted-Duhamel and full-phase-space arguments are in the notes. Review repaired dimensional notation, arithmetic, carrier typing and evidence labels; a development variable-shadowing failure was corrected and is not a mutation catch. Existing continuum banks were hash-verified without replay. No Lean, external-expert, novelty, empirical, hardware or remote-CI certification.
+
+| Result | Closed condition | Remaining limit |
+|---|---|---|
+| K2292 | Conserved-fluid global expansion and F endpoint criterion | Matter changes the fit; perturbation/source packet open |
+| K2293 | State-weighted compiler, full consumer and idle-drift discriminator | Supplied primitive, huge stock and timing/calibration costs |
+| K2294 | Full-interval scalar mode and canonical phase-space transfer | High-frequency vacuum only; sources and long waves open |
+
+Earlier sections are historical.
+
+
 ## K2289--K2291: Conditional research results (2026-10-30)
 
 K2289 derives finite-source response and a weak-environment endpoint bound for the unchanged quadratic history: compactness at most0.001 leaves the endpoint-only ratio within0.6347--0.6355; arbitrary positive-source potentials and the omitted rolling metric term are explicit. K2291 obtains positive canonical scalar kinetic/gradient terms but present constrained mass ratio between-8.532 and-8.531, despite positive potential curvature; no global instability verdict. K2290 replaces the global pump stabilizer by a supplied local positive square with noncommuting interleaved corrections. Coherent and thermal full retained-pump instrument errors stay below9.3e-12, field error below.008 and depletion12.8±.004, at6e47 pulses and1e-122 diagonal-error budgets. All results are conditional; no GU, empirical or hardware acceptance.

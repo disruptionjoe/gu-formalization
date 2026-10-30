@@ -1,0 +1,53 @@
+{
+  "check_names": [
+    "hash_explorations/conditional-build/k2271-forward-cosmology-domain-2026-10-29.md",
+    "hash_explorations/conditional-build/k2280-shared-coefficient-cosmology-survivor-2026-10-29.md",
+    "hash_explorations/conditional-build/k2283-global-quadratic-cosmology-2026-10-30.md",
+    "hash_lab/process/k2277-multibin-pure-r2-test.json",
+    "hash_tests/channel-swings/k2283_global_quadratic_cosmology_probe.py",
+    "full00_constraint",
+    "F_integrating_factor_identity",
+    "nonautonomous_energy",
+    "energy_majorant",
+    "conserved_matter_trace",
+    "Hdot_curvature",
+    "same_vacuum_with_matter_fails00",
+    "radiation_trace_zero",
+    "radiation_force_nonzero",
+    "dust_conservation",
+    "radiation_conservation",
+    "F_zero_downcrossing"
+  ],
+  "checks": 17,
+  "claim_ceiling": "conditional supplied models; no GU empirical or hardware acceptance",
+  "dependencies": {
+    "explorations/conditional-build/k2292-conserved-matter-cosmology-2026-10-30.md": "5865f83a96f74493fa2e92e26311285057c6c15a3ab2f9de861d20cf5c210e2a",
+    "lab/process/k2283-global-quadratic-cosmology.json": "dc741a3d4a3c726c110d5d2bc7c30102bb7ee39c88f03a7a0342c3a9a9dc1947",
+    "tests/channel-swings/k2292_conserved_matter_cosmology_probe.py": "03fd3b0acd1aad602f9642087ec69574e91265ebeb2154b9d49e0d001a201c3e"
+  },
+  "evidence_kind": "exact symbolic identities; hashes provenance only; global continuation and integrating-factor proofs in companion",
+  "mutation_failed_checks": {
+    "omit_matter_energy": [
+      "energy_derivative"
+    ],
+    "omit_matter_force": [
+      "full00",
+      "energy_derivative",
+      "F_source"
+    ],
+    "reverse_matter_force": [
+      "full00",
+      "energy_derivative",
+      "F_source"
+    ],
+    "vacuum_trace_for_dust": [
+      "trace_source"
+    ],
+    "wrong_F_source": [
+      "F_source"
+    ]
+  },
+  "result_id": "K2292",
+  "schema_version": "1.0",
+  "scope": "all finite s>=0 for alpha,rho_v>0 and nonnegative conserved fluids -1<=w<=1; positive F still needs endpoint check; no new fit"
+}

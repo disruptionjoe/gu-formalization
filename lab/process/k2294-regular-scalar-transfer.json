@@ -1,0 +1,73 @@
+{
+  "bounds": {
+    "error": "1161/248839",
+    "frequency_over_Hstar": 1000000000,
+    "integral_over_Hstar": 4644000,
+    "potential_majorant": 129000
+  },
+  "check_names": [
+    "hash_explorations/conditional-build/k2291-rolling-scalar-applicability-2026-10-30.md",
+    "hash_lab/process/k2286-quadratic-tensor-propagation.json",
+    "hash_tests/channel-swings/k2291_rolling_scalar_applicability_probe.py",
+    "hash_explorations/conditional-build/k2288-finite-frequency-tensor-bound-2026-10-30.md",
+    "hash_lab/process/k2283-global-quadratic-cosmology.json",
+    "hash_tests/channel-swings/k2288_finite_frequency_tensor_bound_probe.py",
+    "hash_explorations/conditional-build/k2271-forward-cosmology-domain-2026-10-29.md",
+    "hash_explorations/conditional-build/k2280-shared-coefficient-cosmology-survivor-2026-10-29.md",
+    "hash_explorations/conditional-build/k2283-global-quadratic-cosmology-2026-10-30.md",
+    "hash_lab/process/k2277-multibin-pure-r2-test.json",
+    "hash_tests/channel-swings/k2283_global_quadratic_cosmology_probe.py",
+    "canonical_scalar_potential",
+    "vacuum_regular_constraint",
+    "polynomial_minimum",
+    "polynomial_endpoints",
+    "polynomial_convex",
+    "whole_path_constant",
+    "conformal_integral",
+    "rational_Gronwall_budget",
+    "constant_potential_control_-3.0",
+    "constant_potential_control_2.0",
+    "constant_potential_control_8.0",
+    "low_frequency_tachyonic_countercontrol",
+    "canonical_rescaling",
+    "phase_space_transfer_-3.0",
+    "phase_space_two_sided_-3.0",
+    "unit_determinant_-3.0",
+    "matrix_vs_oscillator_-3.0",
+    "phase_space_transfer_2.0",
+    "phase_space_two_sided_2.0",
+    "unit_determinant_2.0",
+    "matrix_vs_oscillator_2.0",
+    "phase_space_transfer_8.0",
+    "phase_space_two_sided_8.0",
+    "unit_determinant_8.0",
+    "matrix_vs_oscillator_8.0"
+  ],
+  "checks": 36,
+  "claim_ceiling": "conditional supplied models; no GU empirical or hardware acceptance",
+  "dependencies": {
+    "explorations/conditional-build/k2294-regular-scalar-transfer-2026-10-30.md": "e489a97b76fd2aa48954c9f1419c82cb71ee3a7b8b7db8d8cb4fdf47bd42073d",
+    "lab/process/k2283-global-quadratic-cosmology.json": "dc741a3d4a3c726c110d5d2bc7c30102bb7ee39c88f03a7a0342c3a9a9dc1947",
+    "lab/process/k2288-finite-frequency-tensor-bound.json": "12cfcff7c90bd217a5431436064a0974337ed83e3bd0dd762942c9a89f522465",
+    "lab/process/k2291-rolling-scalar-applicability.json": "00666baf9e9265d66bb8f8f98bf9b3e31e1105f3d06e59e30b534b1bd6cdd93b",
+    "tests/channel-swings/k2294_regular_scalar_transfer_probe.py": "b846a189fbf9e250ee1af0c592be506bf749687165b1c08348e433450945d852"
+  },
+  "evidence_kind": "exact symbolic and rational identities/bounds; finite matrix or oscillator controls numerical only; hashes provenance only; universal proofs in companion",
+  "mutation_failed_checks": {
+    "omit_constraint_cross": [
+      "constrained_potential"
+    ],
+    "wrong_canonical_mass_sign": [
+      "constrained_potential"
+    ],
+    "wrong_redshift_measure": [
+      "redshift_measure"
+    ],
+    "wrong_scalar_coefficient": [
+      "polynomial_identity"
+    ]
+  },
+  "result_id": "K2294",
+  "schema_version": "1.0",
+  "scope": "prepared mode and all-initial-data canonical phase-space transfer on vacuum history; no low-frequency, sourced, matter or observed-wave conclusion"
+}
