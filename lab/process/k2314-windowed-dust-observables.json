@@ -1,0 +1,72 @@
+{
+  "check_names": [
+    "compensated_constraint",
+    "off_shell_defect",
+    "frame_potential_sum",
+    "seed_constraint",
+    "physical_velocity_normalization",
+    "density_limit",
+    "potential_limit",
+    "scalar_limit",
+    "compensated_N_limit_zero",
+    "compensated_inverse_N_bound",
+    "density_remainder_inverse_N",
+    "conjugate_pair_variance",
+    "mode_rank_one",
+    "summed_rank_two",
+    "cross_covariance_psd",
+    "joint_cancellation_variance",
+    "covariance_not_independent",
+    "density_shell_exponent",
+    "potential_shell_exponent",
+    "p4_velocity_finite_density_not",
+    "noise_covariance_exact",
+    "anticorrelated_noise_zero",
+    "white_potential_noise_order4",
+    "calibration_error_leading",
+    "frequency_decaying_repair"
+  ],
+  "checks": 25,
+  "dependencies": {
+    "explorations/conditional-build/k2308-inhomogeneous-constrained-dust-transfer-2026-10-30.md": "1118f1f7d3dfb0ffe93fd4187e6472733fab3541469228c33ace7f0b3a30cad6",
+    "explorations/conditional-build/k2311-uniform-constrained-dust-evolution-2026-10-30.md": "d5a022fbf98da92dc0bc4e5bb64faab18179af2f2ab05211531edb36bf392c5a",
+    "explorations/conditional-build/k2314-windowed-dust-observables-2026-10-30.md": "b7ccadbc726149b79cffbb07053c9e03fee072841198e132dd1c60c3d3aae5fb",
+    "tests/channel-swings/k2311_uniform_constrained_dust_evolution_probe.py": "f5e53ebc1acde78436bc7b6df1742772fcef195d3b0c0c6d0ead429c08fcc8b1",
+    "tests/channel-swings/k2314_windowed_dust_observables_probe.py": "5f588243ecd0da317ee6d90898934657dbae287eb74d4f430e24800f1b147845"
+  },
+  "details": {
+    "compensated_constraint_rhs": "3*H*d*v + Phi*u**2 - chi*(3*H*u + V1 + 4*beta*d) - pi*u",
+    "compensated_scaled_limit": "(-4*H*a**2*beta*m**2*r0*u + 3*H*a**2*d*m*s0 - 2*V1*a**2*beta*m**2*r0 - 8*a**2*beta**2*d*m**2*r0 - 2*a**2*beta**2*m**2*r0*u**2 + a**2*beta*d*m*s0*u + a**2*m*r0*u**2 - m*p0*u)/(d*m)",
+    "generic_compensated_window_sufficient": "H^(-1-p/2)",
+    "white_density_window": "H1"
+  },
+  "evidence_kind": "exact symbolic constraint/asymptotic coefficients and finite covariance; exponent arithmetic consistency; infinite Gaussian/domain proof in note",
+  "mutation_failed_checks": {
+    "assume_summed_rank_one": [
+      "constraint_or_covariance"
+    ],
+    "constant_error_as_decaying": [
+      "constraint_or_covariance"
+    ],
+    "omit_conjugate_pair": [
+      "constraint_or_covariance"
+    ],
+    "omit_cross_covariance": [
+      "constraint_or_covariance"
+    ],
+    "omit_q_in_potential_noise": [
+      "constraint_or_covariance"
+    ],
+    "omit_scalar_charge": [
+      "constraint_or_covariance"
+    ],
+    "wrong_Jordan_density": [
+      "constraint_or_covariance"
+    ],
+    "wrong_potential_coefficient": [
+      "constraint_or_covariance"
+    ]
+  },
+  "result_id": "K2314",
+  "schema_version": "1.0"
+}

@@ -1,4 +1,8 @@
 
+- [k2313-full-metric-variation-boundary](k2313_full_metric_variation_boundary_probe.py).
+- [k2314-windowed-dust-observables](k2314_windowed_dust_observables_probe.py).
+- [k2315-calibration-control-cost](k2315_calibration_control_cost_probe.py).
+
 - [k2310-normal-localized-coupled-branch](k2310_normal_localized_coupled_branch_probe.py).
 - [k2311-uniform-constrained-dust-evolution](k2311_uniform_constrained_dust_evolution_probe.py).
 - [k2312-relational-finite-calibration](k2312_relational_finite_calibration_probe.py).

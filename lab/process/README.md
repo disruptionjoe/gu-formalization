@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2313-full-metric-variation-boundary](k2313-full-metric-variation-boundary.json).
+- [k2314-windowed-dust-observables](k2314-windowed-dust-observables.json).
+- [k2315-calibration-control-cost](k2315-calibration-control-cost.json).
+
 - [k2310-normal-localized-coupled-branch](k2310-normal-localized-coupled-branch.json).
 - [k2311-uniform-constrained-dust-evolution](k2311-uniform-constrained-dust-evolution.json).
 - [k2312-relational-finite-calibration](k2312-relational-finite-calibration.json).

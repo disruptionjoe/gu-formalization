@@ -5,6 +5,19 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2313--K2315: Metric variation, windowed dust and calibration cost (2026-10-30)
+
+K2313 excludes nonnull metric curvature in the explicit full105-metric extension of the flat K77 I1B coefficient model, including companion resonances, while preserving pure-distortion modes and the distinct ten-row branch. K2314 derives sharp Gaussian dust-window domains and a compensated density/potential channel; white readout noise and fixed calibration error can destroy the improvement. K2315 rules out passive preparation at stock3e27 for uniform95% retained-pump calibration, requiring at least9e48, and prices a selective adjacent-control repair by N/(2J) preparation time and accumulated pulse error. All results are conditional; source claims, ledger0.263 and native physical mappings remain unchanged.
+
+- [K2313](explorations/conditional-build/k2313-full-metric-variation-boundary-2026-10-30.md).
+- [K2314](explorations/conditional-build/k2314-windowed-dust-observables-2026-10-30.md).
+- [K2315](explorations/conditional-build/k2315-calibration-control-cost-2026-10-30.md).
+
+Three independent read-only specialists reviewed the actual arguments and probes.548 checks(479+25+44),18 genuine altered-input/formula failures(4+8+6),and two hypothesis-degeneracy controls pass. Exact native signed-basis and symbolic transfer/covariance/control calculations support finite identities; universal covariance, Gaussian-domain and resource theorems are written proofs. No Lean, remoteCI, external-expert, novelty, empirical, hardware or whole-GU certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2310--K2312: Normal localization, uniform dust and relational calibration (2026-10-30)
 
 K2310 constructs a changed-root5/29 native-bank solution and real Schwartz packets in all13 non-time coordinates for explicitly enlarged horizontal-supported metric coefficients; strict pullback and full105 metric variation remain different unsolved objects. K2311 proves frequency-uniform constrained dust/scalar evolution through H=0 in mixed Sobolev spaces, with a controlled attractive Jeans limit and one-derivative equal-regularity loss. K2312 constructs a finite relational calibration instrument with total stock3e27, exact charged-pair return and92-qubit record; average error stays below9.491e-12 under supplied protected-reference and shell-control assumptions. Explicit reference/actuator angle budgets retain both average and95%-success goals. These are conditional mathematical results; source claims, ledger0.263 and native physical mappings remain unchanged.

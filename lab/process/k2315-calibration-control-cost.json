@@ -1,0 +1,85 @@
+{
+  "check_names": [
+    "binomial_overlap_1_1/3",
+    "passive_fidelity_1_1/3",
+    "binomial_overlap_1_1/2",
+    "passive_fidelity_1_1/2",
+    "binomial_overlap_1_1",
+    "passive_fidelity_1_1",
+    "binomial_overlap_2_1/3",
+    "passive_fidelity_2_1/3",
+    "binomial_overlap_2_1/2",
+    "passive_fidelity_2_1/2",
+    "binomial_overlap_2_1",
+    "passive_fidelity_2_1",
+    "binomial_overlap_3_1/3",
+    "passive_fidelity_3_1/3",
+    "binomial_overlap_3_1/2",
+    "passive_fidelity_3_1/2",
+    "binomial_overlap_3_1",
+    "passive_fidelity_3_1",
+    "binomial_overlap_5_1/3",
+    "passive_fidelity_5_1/3",
+    "binomial_overlap_5_1/2",
+    "passive_fidelity_5_1/2",
+    "binomial_overlap_5_1",
+    "passive_fidelity_5_1",
+    "small_sine_passive_1",
+    "small_sine_passive_2",
+    "N3_ratio_mismatch",
+    "success_implies_phase_radius",
+    "conservative_199_bound",
+    "confidence_stock_lower",
+    "fixture_distinguishability",
+    "fixture_below_required",
+    "Givens_actual_0",
+    "Givens_actual_1",
+    "Givens_actual_2",
+    "speed_unitary_2",
+    "diagonal_commutes_2",
+    "speed_unitary_3",
+    "diagonal_commutes_3",
+    "speed_unitary_5",
+    "diagonal_commutes_5",
+    "hard_shell_mean_error",
+    "exact_preparation_JT",
+    "pulse_budget"
+  ],
+  "checks": 44,
+  "dependencies": {
+    "explorations/conditional-build/k2264-restricted-detector-control-2026-10-29.md": "5dc422c7aafb5678ac899ce0201e04582cbec78f7278672e191f38d4b5d8258a",
+    "explorations/conditional-build/k2306-retained-pump-phase-calibration-2026-10-30.md": "bacc3001dbb869a19031ab958cf2cd83326e5f2704f215004608f580f5589ff1",
+    "explorations/conditional-build/k2312-relational-finite-calibration-2026-10-30.md": "a289f0d96a4446576a57ca89b420e09ae5ba8b3e0835cbaab374ed2db4ee2304",
+    "explorations/conditional-build/k2315-calibration-control-cost-2026-10-30.md": "1a0a04967118cb3c37eecef594569809fab7826555dbb0a8ebac4b287452997c",
+    "tests/channel-swings/k2315_calibration_control_cost_probe.py": "c27b3256ad4d9cb3fdaa3a7695ddbb5e28c1ce82e3ef851f66c3f7d7c8043e2e"
+  },
+  "details": {
+    "JT_lower_exact": "1500000000000000000000000000",
+    "fixture_D_squared_upper": "27/100000000000000000000000",
+    "necessary_stock": "9000000000000000000000000000000000000000000000000",
+    "uniform_pulse_error_sufficient": "1/300000000000000000000000000000000000000000"
+  },
+  "evidence_kind": "exact finite state/control maps and rational confidence bounds; universal passive/Helstrom/speed proof in note",
+  "mutation_failed_checks": {
+    "allow_two_step_hopping": [
+      "overlap_map_or_budget"
+    ],
+    "common_mode_encoding": [
+      "overlap_map_or_budget"
+    ],
+    "skip_last_rotation": [
+      "overlap_map_or_budget"
+    ],
+    "too_small_phase_radius": [
+      "overlap_map_or_budget"
+    ],
+    "wrong_encoding_charge": [
+      "overlap_map_or_budget"
+    ],
+    "wrong_rotation_sign": [
+      "overlap_map_or_budget"
+    ]
+  },
+  "result_id": "K2315",
+  "schema_version": "1.0"
+}

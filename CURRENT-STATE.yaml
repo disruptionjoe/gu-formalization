@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 099a46921530b149da3eabaa9d66704fb9a276d8
+revision_basis: adc36a246333da22e8c44d95f293b29f17826bbb
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,15 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2313 excludes nonnull metric curvature in the explicit full105-metric extension of the
+    flat K77 I1B coefficient model, including companion resonances, while preserving
+    pure-distortion modes and the distinct ten-row branch. K2314 derives sharp Gaussian
+    dust-window domains and a compensated density/potential channel; white readout noise and
+    fixed calibration error can destroy the improvement. K2315 rules out passive preparation
+    at stock3e27 for uniform95% retained-pump calibration, requiring at least9e48, and
+    prices a selective adjacent-control repair by N/(2J) preparation time and accumulated
+    pulse error. All results are conditional; source claims, ledger0.263 and native physical
+    mappings remain unchanged. Historical predecessor (not live):
     K2310 constructs a changed-root5/29 native-bank solution and real Schwartz packets in
     all13 non-time coordinates for explicitly enlarged horizontal-supported metric
     coefficients; strict pullback and full105 metric variation remain different unsolved
@@ -17585,6 +17594,15 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2313-full-metric-variation-boundary-2026-10-30.md
+  - lab/process/k2313-full-metric-variation-boundary.json
+  - tests/channel-swings/k2313_full_metric_variation_boundary_probe.py
+  - explorations/conditional-build/k2314-windowed-dust-observables-2026-10-30.md
+  - lab/process/k2314-windowed-dust-observables.json
+  - tests/channel-swings/k2314_windowed_dust_observables_probe.py
+  - explorations/conditional-build/k2315-calibration-control-cost-2026-10-30.md
+  - lab/process/k2315-calibration-control-cost.json
+  - tests/channel-swings/k2315_calibration_control_cost_probe.py
   - explorations/conditional-build/k2310-normal-localized-coupled-branch-2026-10-30.md
   - lab/process/k2310-normal-localized-coupled-branch.json
   - tests/channel-swings/k2310_normal_localized_coupled_branch_probe.py
@@ -19425,6 +19443,9 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which actual induced metric variation selects between the ten-row and full105
+  coefficient models, and which source/readout/noise or selective-control construction can
+  satisfy the newly explicit requirements? Historical predecessor (not live):
   Which source-owned normal-jet/metric variation or physical readout admits the enlarged
   localized branch, and can specified matter initial spectra or a microscopic
   protected-reference actuator turn the conditional transfers into observable tests?
@@ -23489,6 +23510,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Derive the actual source-owned induced metric/normal-jet map before transporting the
+  ten-row growing branch or full105 nonnull-curvature exclusion. On the SAME healthy dust
+  action, supply constrained initial statistics and jointly calibrated density/potential
+  observation windows and noise; exact compensation is not robust to fixed coefficient
+  error or white potential-readout noise. For calibration, construct a nonlinear
+  selective-control/reference/reset architecture meeting stock, norm/time and cumulative
+  precision constraints; passive mixing at3e27 is insufficient for the uniform95% task.
+  Null metric covectors, complementary distortion source compatibility and nonlinear dust
+  domains remain separate. Preserve source, ledger and object ceilings. Historical
+  predecessor (not live):
   Resolve the source-owned metric dependence and variation space before importing K2310
   normal-localized5/29 packets into strict-pullback or full105 equations. On the SAME
   healthy designer action, use constrained physical initial statistics and a windowed

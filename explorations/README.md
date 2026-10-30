@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2313-full-metric-variation-boundary](conditional-build/k2313-full-metric-variation-boundary-2026-10-30.md).
+- [k2314-windowed-dust-observables](conditional-build/k2314-windowed-dust-observables-2026-10-30.md).
+- [k2315-calibration-control-cost](conditional-build/k2315-calibration-control-cost-2026-10-30.md).
+
 - [k2310-normal-localized-coupled-branch](conditional-build/k2310-normal-localized-coupled-branch-2026-10-30.md).
 - [k2311-uniform-constrained-dust-evolution](conditional-build/k2311-uniform-constrained-dust-evolution-2026-10-30.md).
 - [k2312-relational-finite-calibration](conditional-build/k2312-relational-finite-calibration-2026-10-30.md).

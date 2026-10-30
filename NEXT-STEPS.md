@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-10-30: NORMAL LOCALIZATION, UNIFORM DUST AND RELATIONAL CALIBRATION.**
+> **2026-10-30: METRIC VARIATION, WINDOWED DUST AND CALIBRATION COST.**
+> Derive the actual source-owned induced metric/normal-jet map before transporting the ten-row growing branch or full105 nonnull-curvature exclusion. On the SAME healthy dust action, supply constrained initial statistics and jointly calibrated density/potential observation windows and noise; exact compensation is not robust to fixed coefficient error or white potential-readout noise. For calibration, construct a nonlinear selective-control/reference/reset architecture meeting stock, norm/time and cumulative precision constraints; passive mixing at3e27 is insufficient for the uniform95% task. Null metric covectors, complementary distortion source compatibility and nonlinear dust domains remain separate. Preserve source, ledger and object ceilings.
+
+
+> **Historical predecessor, no longer the live next condition: 2026-10-30 NORMAL LOCALIZATION, UNIFORM DUST AND RELATIONAL CALIBRATION.**
 > Resolve the source-owned metric dependence and variation space before importing K2310 normal-localized5/29 packets into strict-pullback or full105 equations. On the SAME healthy designer action, use constrained physical initial statistics and a windowed observable transfer; uniform linear evolution permits dust derivative loss and is not nonlinear stability. For calibration, construct or test protected-reference/clock/control physics at the explicit angle budgets, including neutral-record reset and spatial shell synthesis. Do not repeat known roots, sine minimax or the coherent preparation bound on a different resource class. Preserve source, ledger and domain ceilings.
 
 
