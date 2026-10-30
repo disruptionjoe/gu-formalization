@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2325-relativistic-count-covariance](conditional-build/k2325-relativistic-count-covariance-2026-10-30.md).
+- [k2326-finite-neutral-readout](conditional-build/k2326-finite-neutral-readout-2026-10-30.md).
+
 - [k2323-born-lensing-observer-domain](conditional-build/k2323-born-lensing-observer-domain-2026-10-30.md).
 - [k2324-kerr-selective-lossy-control](conditional-build/k2324-kerr-selective-lossy-control-2026-10-30.md).
 

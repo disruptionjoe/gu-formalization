@@ -1,0 +1,129 @@
+{
+  "check_names": [
+    "source_ODE",
+    "destination_ODE",
+    "initial_source",
+    "initial_destination",
+    "endpoint_angle",
+    "source_endpoint_zero",
+    "destination_endpoint_attenuation",
+    "late_switch_residual",
+    "residual_first_order",
+    "pretilt_transfer",
+    "sine_normalized",
+    "query_pretilt_1",
+    "query_pretilt_2",
+    "Kerr_interaction_frame",
+    "known_storage_phase",
+    "orthogonal_block_norm",
+    "charge_conserved",
+    "parked_loss_dark",
+    "lower_shell_inactive",
+    "late_flag_counterexample",
+    "flag_loss_TP",
+    "safe_flag_requires_dark",
+    "Fourier_unitary",
+    "Fourier_fourth_power",
+    "spectral_projector_1",
+    "spectral_projector_-1",
+    "spectral_projector_I",
+    "spectral_projector_-I",
+    "swap_involution",
+    "finite_swap_pulse",
+    "reset_exports_state",
+    "no_loss_alias_N1",
+    "no_loss_alias_N2",
+    "no_loss_alias_N5",
+    "alias_actual_risk",
+    "normalized_error_scale",
+    "survival_composition",
+    "matrix_endpoint_N1",
+    "duration_bound_N1",
+    "full_pretilt_N1",
+    "survival_bound_N1",
+    "Fourier_risk_N1",
+    "Fourier_normalized_N1",
+    "matrix_endpoint_N3",
+    "duration_bound_N3",
+    "full_pretilt_N3",
+    "survival_bound_N3",
+    "Fourier_risk_N3",
+    "Fourier_normalized_N3",
+    "matrix_endpoint_N4",
+    "duration_bound_N4",
+    "full_pretilt_N4",
+    "survival_bound_N4",
+    "Fourier_risk_N4",
+    "Fourier_normalized_N4"
+  ],
+  "dependencies": {
+    "explorations/conditional-build/k2312-relational-finite-calibration-2026-10-30.md": "a289f0d96a4446576a57ca89b420e09ae5ba8b3e0835cbaab374ed2db4ee2304",
+    "explorations/conditional-build/k2322-protected-reference-compiler-2026-10-30.md": "ced595988e0ac27c8342d14743c9ab40230de955ecf700fdded412052df884fb",
+    "explorations/conditional-build/k2324-kerr-selective-lossy-control-2026-10-30.md": "7feb3d52319e5e688b071a870115c4fb4e0bbf5d7005a6c509917ac593ce120d",
+    "explorations/conditional-build/k2326-finite-neutral-readout-2026-10-30.md": "f4e389ac8ef0cac9bf163a203a05d9987f186a69337a0bf9ae57a72dc982a25c",
+    "tests/channel-swings/k2326_finite_neutral_readout_probe.py": "a9612ba874e0aa13055452fd48f95bda80d7ba3a70dfb276729d794e5b45b923"
+  },
+  "evidence_kind": "exact symbolic finite block/instrument controls and 60-digit matrix exponentials; universal bounds rely on written proof, not interval or proof-assistant certificates",
+  "exact_checks": 37,
+  "mutation_failed_checks": {
+    "early_flag_as_safe": [
+      "safe_flag_requires_dark"
+    ],
+    "half_loss": [
+      "source_ODE"
+    ],
+    "missing_pretilt": [
+      "pretilt_transfer"
+    ],
+    "omit_storage_phase": [
+      "known_storage_phase"
+    ],
+    "query_loss_factor": [
+      "query_pretilt_1",
+      "query_pretilt_2"
+    ],
+    "too_few_outcomes": [
+      "no_loss_alias_N1",
+      "no_loss_alias_N2",
+      "no_loss_alias_N5"
+    ],
+    "uncorrected_pi_pulse": [
+      "matrix_endpoint_N1",
+      "matrix_endpoint_N3",
+      "matrix_endpoint_N4"
+    ],
+    "wrong_Kerr_phase": [
+      "Kerr_interaction_frame"
+    ]
+  },
+  "numeric_checks": 18,
+  "numerical_controls": [
+    {
+      "G": "1.0",
+      "N": 1,
+      "Tq": "0.7",
+      "gamma": "0.2",
+      "max_endpoint_residual": "1.27287e-63",
+      "survival": "0.854897427467237174"
+    },
+    {
+      "G": "1.0",
+      "N": 3,
+      "Tq": "0.7",
+      "gamma": "0.3",
+      "max_endpoint_residual": "7.68396e-62",
+      "survival": "0.493309889455794411"
+    },
+    {
+      "G": "1.0",
+      "N": 4,
+      "Tq": "0.7",
+      "gamma": "0.99",
+      "max_endpoint_residual": "4.58685e-62",
+      "survival": "0.0394015412251879583"
+    }
+  ],
+  "result_id": "K2326",
+  "schema_version": "1.0",
+  "scope": "supplied selective rank-block readout and finite neutral reservoir; no microscopic Kerr readout or native GU acceptance"
+}

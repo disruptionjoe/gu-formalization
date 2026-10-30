@@ -6,6 +6,18 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2325--K2326: Relativistic count covariance and finite neutral readout (2026-10-30)
+
+K2325 derives the full linear volume-limited dust count on the supplied Jordan photon model: gravitational redshift, radial rays and observer terms leave the white-seed quadrupole divergence intact. A positive finite-energy colored covariance removes it; kinetic and point-density thresholds are distinguished. K2326 constructs finite lossy coherent transfer to neutral memory, exact parking before a finite flag, finite Fourier measurement and reset, with pretilt, Kerr-frame programming and full-instrument error/resource bounds. Physical seed selection, microscopic readout hardware and native GU claims remain open.
+
+- [K2325](explorations/conditional-build/k2325-relativistic-count-covariance-2026-10-30.md).
+- [K2326](explorations/conditional-build/k2326-finite-neutral-readout-2026-10-30.md).
+
+Three independent read-only specialists accepted the actual written proofs, probes and reports after corrections. 67 exact symbolic controls,18 finite60-digit numerical controls and15 genuine changed-input faults pass. Universal continuum/control conclusions rely on written proofs; finite tests are not interval or proof-assistant certificates. No external-expert, novelty, empirical, microscopic-hardware or whole-GU certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2323--K2324: Observer lensing domain and Kerr control (2026-10-30)
 
 K2323 proves that a smooth positive anisotropic source window can have divergent Born-lensing variance under the same supplied white-UV seed, from the shared observer endpoint. It derives the exact adjoint, a quadrupole counterexample and sufficient foreground or angular-moment repairs, plus the colored quadrupole threshold. K2324 replaces ideal selective pulses with a supplied Kerr and beam-splitter Hamiltonian, proving a direct lossy averaging bound, programmed lab-phase compensation and an explicit sufficient selectivity/loss window. Full relativistic counts, physical covariance, readout hardware and native GU claims remain open.

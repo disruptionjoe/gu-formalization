@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2325-relativistic-count-covariance](k2325-relativistic-count-covariance.json).
+- [k2326-finite-neutral-readout](k2326-finite-neutral-readout.json).
+
 - [k2323-born-lensing-observer-domain](k2323-born-lensing-observer-domain.json).
 - [k2324-kerr-selective-lossy-control](k2324-kerr-selective-lossy-control.json).
 

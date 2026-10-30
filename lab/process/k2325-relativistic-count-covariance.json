@@ -1,0 +1,85 @@
+{
+  "check_names": [
+    "current_lapse_cancels",
+    "spatial_flux_sign",
+    "radial_jacobian",
+    "null_displacement",
+    "cone_redshift_euler",
+    "expanded_count",
+    "radial_adjoint",
+    "aberration_divergence",
+    "quadrupole_monopole_zero",
+    "quadrupole_dipole_zero",
+    "quadrupole_norm",
+    "annular_fixture_H1",
+    "fixture_mass",
+    "lens_singular_moment",
+    "delay_weight_bounded",
+    "foreground_remainder_L2",
+    "cross_variance_sublinear",
+    "lens_finite",
+    "lens_borderline",
+    "kinetic_finite",
+    "kinetic_borderline",
+    "density_finite",
+    "density_borderline",
+    "finite_energy_rough_density",
+    "positive_density_coefficient",
+    "colored_positive",
+    "colored_kinetic",
+    "colored_density",
+    "shared_covariance",
+    "positive_covariance"
+  ],
+  "checks": 30,
+  "dependencies": {
+    "explorations/conditional-build/k2311-uniform-constrained-dust-evolution-2026-10-30.md": "d5a022fbf98da92dc0bc4e5bb64faab18179af2f2ab05211531edb36bf392c5a",
+    "explorations/conditional-build/k2321-radial-count-operator-2026-10-30.md": "bc886f61ff369cae88b577a42b5f34c9f1e0109ee9c808623f9a7316919cfde5",
+    "explorations/conditional-build/k2323-born-lensing-observer-domain-2026-10-30.md": "9c533b8b9cf448bdff11a30e492c9f720c470bd5599e6e153f4833cfe2c20863",
+    "explorations/conditional-build/k2325-relativistic-count-covariance-2026-10-30.md": "bf25f64e4af8d88418d22e4e8e9497d077c9117855e72d1d80f690c06252cd56",
+    "tests/channel-swings/k2325_relativistic_count_covariance_probe.py": "4b3021ba4f610da829de476c490c23448fd552bddddc0e3511a0db195f92738d"
+  },
+  "details": {
+    "covariance_thresholds": {
+      "kinetic_q": "3/2",
+      "point_density_q": "5/2",
+      "quadrupole_q": "1/2"
+    },
+    "native_GU_credit": false,
+    "quadrupole_tail": "-8pi p(0) M2 Y20/k plus L2",
+    "scope": "volume-limited conserved dust with supplied Jordan null photons and seed",
+    "strict_thresholds": true
+  },
+  "evidence_kind": "exact symbolic current, cone, adjoint, harmonic, spectral-power and finite covariance controls; uniform continuum statements rely on written proofs",
+  "mutation_failed_checks": {
+    "aberration_sign": [
+      "aberration_divergence"
+    ],
+    "adjoint_extra_area": [
+      "radial_adjoint"
+    ],
+    "drop_radial_measure": [
+      "lens_finite",
+      "lens_borderline",
+      "kinetic_finite",
+      "kinetic_borderline",
+      "density_finite",
+      "density_borderline"
+    ],
+    "lapse_sign": [
+      "current_lapse_cancels"
+    ],
+    "redshift_sign": [
+      "null_displacement",
+      "expanded_count"
+    ],
+    "spatial_cone_mix": [
+      "expanded_count"
+    ],
+    "split_seed": [
+      "shared_covariance"
+    ]
+  },
+  "result_id": "K2325",
+  "schema_version": "1.0"
+}

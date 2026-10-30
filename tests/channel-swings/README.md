@@ -1,4 +1,7 @@
 
+- [k2325-relativistic-count-covariance](k2325_relativistic_count_covariance_probe.py).
+- [k2326-finite-neutral-readout](k2326_finite_neutral_readout_probe.py).
+
 - [k2323-born-lensing-observer-domain](k2323_born_lensing_observer_domain_probe.py).
 - [k2324-kerr-selective-lossy-control](k2324_kerr_selective_lossy_control_probe.py).
 

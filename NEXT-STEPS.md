@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-10-30: OBSERVER LENSING DOMAIN AND KERR CONTROL.**
+> **2026-10-30: RELATIVISTIC COUNTS AND FINITE NEUTRAL READOUT.**
+> Construct or justify a physical constrained seed covariance and actual tracer/flux-selection/observer-resolution model before an observational likelihood; the white-seed quadrupole obstruction survives the completed volume-limited operator, but finite-energy colored seeds repair it without changing the action. For calibration, compile the explicit occupation-selective transfer, number flag and neutral Fourier/copy/reset from a microscopic spatial alphabet and rate/clock/noise law; persistent Kerr phases are programmed, not freely removed. Preserve native curved stationary field/receiver jets and analytic domain with existing P and frozen199/931. Do not repeat the complete count formula, power thresholds, abstract unitary extension or lossy rank-block transfer.
+
+
+> **Historical predecessor, no longer the live next condition: 2026-10-30 OBSERVER LENSING DOMAIN AND KERR CONTROL.**
 > Compose the remaining observer, redshift and radial-ray terms before extrapolating the Born quadrupole obstruction to a complete observed count. Alternatively construct the SAME action physical seed covariance and test its UV tail; smooth source tapering alone does not suffice for the supplied white seed. For calibration, implement a complete noninstantaneous neutral readout/flag/reset and rate/clock model against the actual Kerr compiler bounds; do not assume ideal selector norm or free terminal phase correction. Preserve native curved stationary field/receiver jets and analytic domain as a separate construction, with algebraic P and frozen199/931 already available. Do not repeat the smooth-window counterexample, generic averaging, sine preparation or fixed-flat root.
 
 

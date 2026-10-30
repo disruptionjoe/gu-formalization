@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: efba3759de9089288409b2f2b36404f61bd7f652
+revision_basis: dcf4f921ae5f44eec1b4eac850eadc2b38e901e5
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,14 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2325 derives the full linear volume-limited dust count on the supplied Jordan photon
+    model: gravitational redshift, radial rays and observer terms leave the white-seed
+    quadrupole divergence intact. A positive finite-energy colored covariance removes it;
+    kinetic and point-density thresholds are distinguished. K2326 constructs finite lossy
+    coherent transfer to neutral memory, exact parking before a finite flag, finite Fourier
+    measurement and reset, with pretilt, Kerr-frame programming and full-instrument
+    error/resource bounds. Physical seed selection, microscopic readout hardware and native
+    GU claims remain open. Historical predecessor (not live):
     K2323 proves that a smooth positive anisotropic source window can have divergent
     Born-lensing variance under the same supplied white-UV seed, from the shared observer
     endpoint. It derives the exact adjoint, a quadrupole counterexample and sufficient
@@ -17631,6 +17639,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2325-relativistic-count-covariance-2026-10-30.md
+  - lab/process/k2325-relativistic-count-covariance.json
+  - tests/channel-swings/k2325_relativistic_count_covariance_probe.py
+  - explorations/conditional-build/k2326-finite-neutral-readout-2026-10-30.md
+  - lab/process/k2326-finite-neutral-readout.json
+  - tests/channel-swings/k2326_finite_neutral_readout_probe.py
   - explorations/conditional-build/k2323-born-lensing-observer-domain-2026-10-30.md
   - lab/process/k2323-born-lensing-observer-domain.json
   - tests/channel-swings/k2323_born_lensing_observer_domain_probe.py
@@ -19507,6 +19521,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which physical initial covariance and tracer/observer selection yields a predictive
+  count likelihood on this same action, and can the explicit selective neutral readout be
+  compiled from a microscopic alphabet with defensible rate and clock costs? Historical
+  predecessor (not live):
   Which complete observer/redshift kernel or physical covariance removes or preserves the
   lensing endpoint obstruction, and which explicit readout/reference implementation meets
   the Kerr compiler resource conditions? Historical predecessor (not live):
@@ -23586,6 +23604,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Construct or justify a physical constrained seed covariance and actual
+  tracer/flux-selection/observer-resolution model before an observational likelihood; the
+  white-seed quadrupole obstruction survives the completed volume-limited operator, but
+  finite-energy colored seeds repair it without changing the action. For calibration,
+  compile the explicit occupation-selective transfer, number flag and neutral
+  Fourier/copy/reset from a microscopic spatial alphabet and rate/clock/noise law;
+  persistent Kerr phases are programmed, not freely removed. Preserve native curved
+  stationary field/receiver jets and analytic domain with existing P and frozen199/931. Do
+  not repeat the complete count formula, power thresholds, abstract unitary extension or
+  lossy rank-block transfer. Historical predecessor (not live):
   Compose the remaining observer, redshift and radial-ray terms before extrapolating the
   Born quadrupole obstruction to a complete observed count. Alternatively construct the
   SAME action physical seed covariance and test its UV tail; smooth source tapering alone
