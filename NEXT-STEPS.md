@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-10-30: LIGHT-CONE READOUT AND LOSSY SELECTIVE CALIBRATION.**
+> **2026-10-30: CURRENT COUNTS AND PROTECTED-REFERENCE COMPILATION.**
+> Compose current flux with actual gravitational/integrated redshift, perturbed photon paths, observer terms and tracer selection on the SAME healthy action, retaining shared initial covariance; the fixed-cone Doppler H1 theorem cannot be assumed for the full count observable. For calibration, all-stock conditional reachability is settled at gamma<4J; next price occupation-selective controls, rate/timing uncertainty and a complete noninstantaneous readout/reset using actual no-jump contractions. Do not repeat generic sine preparation, N1 threshold, fixed-cone taper or frozen199/931 coordinate roots. Retain the native curved stationary field/receiver-jet and analytic-domain construction as a separate source-facing contender.
+
+
+> **Historical predecessor, no longer the live next condition: 2026-10-30 LIGHT-CONE READOUT AND LOSSY SELECTIVE CALIBRATION.**
 > For the SAME dust-scalar model, specify the full covariance including infrared spectrum, exact transfer and finite exposure before optimizing the actual detector; observed counts need explicit redshift, volume and optical terms before inheriting the H1 criterion. For retained-pump calibration, construct the large-N protected-reference selective compiler with its normalized no-jump endpoint and full-channel accuracy, plus actual rate/control relation and charged/neutral reset. The one-photon threshold and ideal Givens synthesis do not solve that problem. Retain K2316 induced199/931 branch with actual curved-background field/receiver jets and analytic-domain debt; no frozen-coordinate replay or native physical inference.
 
 

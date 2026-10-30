@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2321--K2322: Current counts and protected-reference compilation (2026-10-30)
+
+K2321 derives conserved-current flux and an exact Doppler radial count pushforward on a fixed background cone. The same healthy dust-scalar seed gives an elliptic positive density-plus-displacement response, a sharp H1 window criterion and a derivative-sensitive displacement-noise/calibration budget. K2322 constructs loss-compensated arbitrary-stock sine preparation and proves the sharp control-class threshold gamma<4J, with quadratic exposure, actual-contraction error, storage and charged-renewal bounds. These are conditional mathematical results; full relativistic counts, physical initial statistics, hardware feasibility and native GU claims remain unestablished.
+
+- [K2321](explorations/conditional-build/k2321-radial-count-operator-2026-10-30.md).
+- [K2322](explorations/conditional-build/k2322-protected-reference-compiler-2026-10-30.md).
+
+Three independent read-only specialist reviews supported the actual arguments after corrections.45 exact symbolic controls,26 finite numerical controls and17 genuine changed-input faults pass. Universal Gaussian-domain and arbitrary-control results rest on written proofs; numerical matrix tests are not interval certificates. No Lean, remote CI, external-expert, novelty, empirical, hardware or whole-GU certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2319--K2320: Light-cone readout and lossy selective calibration (2026-10-30)
 
 K2319 constructs a conditional background-light-cone density readout with exact radial and angular H1 criteria, positive taper repair, finite-response noise cost, a complete-signal exposure certificate and a uniquely normalized leading-response taper optimizer. K2320 prices equal-loss selective calibration by N-squared preparation exposure, derives flagged confidence and averaged-output budgets, proves a protected-reference exposure bound, constructs the optimal one-photon protected-reference compiler with threshold gamma<4J, and accounts charged renewal and neutral record reset. These are conditional mathematical models; native GU claims, ledger0.263 and physical mappings are unchanged.

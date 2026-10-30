@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2321-radial-count-operator](conditional-build/k2321-radial-count-operator-2026-10-30.md).
+- [k2322-protected-reference-compiler](conditional-build/k2322-protected-reference-compiler-2026-10-30.md).
+
 - [k2319-lightcone-density-readout](conditional-build/k2319-lightcone-density-readout-2026-10-30.md).
 - [k2320-lossy-selective-calibration](conditional-build/k2320-lossy-selective-calibration-2026-10-30.md).
 

@@ -1,0 +1,118 @@
+{
+  "checks": 43,
+  "dependencies": {
+    "explorations/conditional-build/k2312-relational-finite-calibration-2026-10-30.md": "a289f0d96a4446576a57ca89b420e09ae5ba8b3e0835cbaab374ed2db4ee2304",
+    "explorations/conditional-build/k2320-lossy-selective-calibration-2026-10-30.md": "f1a9205ce79e10ee55cca83947d2bcce039261a4f18896c6e6a822a675342190",
+    "explorations/conditional-build/k2322-protected-reference-compiler-2026-10-30.md": "ced595988e0ac27c8342d14743c9ab40230de955ecf700fdded412052df884fb",
+    "tests/channel-swings/k2322_protected_reference_compiler_probe.py": "162de28dbd7ae94a55e29c5d94df954faaf438843ab24a73ea892e10d0911157"
+  },
+  "details": {
+    "exposure_lower": "N**2/(8*J)",
+    "exposure_upper": "N**2*tau_max/2",
+    "full_instrument": "immediate flag and instantaneous ideal subsequent instrument, or separately compensated pure-loss storage with final flag",
+    "reachability": "gamma<4J iff finite-time exact sine target"
+  },
+  "evidence_kind": "exact local symbolic identities; 160-digit finite matrix controls are numerical evidence only; universal arbitrary-stock/control-class proof in note",
+  "exact_check_names": [
+    "centered_square",
+    "backward_angle",
+    "tail_loss",
+    "critical_quadratic_zero",
+    "exposure_symmetry",
+    "sum_stage_exposure",
+    "sufficient_rate",
+    "renewal_charge",
+    "sine_norm_1",
+    "sine_mean_1",
+    "sine_norm_2",
+    "sine_mean_2",
+    "sine_norm_3",
+    "sine_mean_3",
+    "sine_norm_4",
+    "sine_mean_4",
+    "all_launch_probability"
+  ],
+  "mutation_failed_checks": {
+    "angle_loss_factor": [
+      "backward_angle"
+    ],
+    "atan_wrong_branch": [
+      "positive_times_N3_g2.4",
+      "survival_bound_N3_g2.4",
+      "endpoint_N5_g3.9",
+      "positive_times_N5_g3.9"
+    ],
+    "discard_failures": [
+      "all_launch_probability"
+    ],
+    "double_loss": [
+      "endpoint_N2_g.4",
+      "inverse_N2_g.4",
+      "endpoint_N3_g2.4",
+      "inverse_N3_g2.4",
+      "endpoint_N5_g3.9",
+      "inverse_N5_g3.9"
+    ],
+    "omit_charge_two": [
+      "renewal_charge"
+    ],
+    "omit_spectator_filter": [
+      "endpoint_N3_g2.4",
+      "inverse_N3_g2.4",
+      "endpoint_N5_g3.9",
+      "inverse_N5_g3.9"
+    ],
+    "omit_storage_pretilt": [
+      "storage_endpoint",
+      "storage_probability"
+    ],
+    "wrong_control_sign": [
+      "endpoint_N1_g0",
+      "inverse_N1_g0",
+      "endpoint_N2_g.4",
+      "inverse_N2_g.4",
+      "endpoint_N3_g2.4",
+      "inverse_N3_g2.4",
+      "endpoint_N5_g3.9",
+      "inverse_N5_g3.9"
+    ],
+    "wrong_pulse_order": [
+      "endpoint_N2_g.4",
+      "inverse_N2_g.4",
+      "endpoint_N3_g2.4",
+      "inverse_N3_g2.4",
+      "endpoint_N5_g3.9",
+      "inverse_N5_g3.9"
+    ]
+  },
+  "numerical_check_names": [
+    "endpoint_N1_g0",
+    "inverse_N1_g0",
+    "positive_times_N1_g0",
+    "elimination_residual_N1_g0",
+    "time_bound_N1_g0",
+    "survival_bound_N1_g0",
+    "endpoint_N2_g.4",
+    "inverse_N2_g.4",
+    "positive_times_N2_g.4",
+    "elimination_residual_N2_g.4",
+    "time_bound_N2_g.4",
+    "survival_bound_N2_g.4",
+    "endpoint_N3_g2.4",
+    "inverse_N3_g2.4",
+    "positive_times_N3_g2.4",
+    "elimination_residual_N3_g2.4",
+    "time_bound_N3_g2.4",
+    "survival_bound_N3_g2.4",
+    "endpoint_N5_g3.9",
+    "inverse_N5_g3.9",
+    "positive_times_N5_g3.9",
+    "elimination_residual_N5_g3.9",
+    "time_bound_N5_g3.9",
+    "survival_bound_N5_g3.9",
+    "storage_endpoint",
+    "storage_probability"
+  ],
+  "result_id": "K2322",
+  "schema_version": "1.0"
+}

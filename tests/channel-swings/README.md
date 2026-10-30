@@ -1,4 +1,7 @@
 
+- [k2321-radial-count-operator](k2321_radial_count_operator_probe.py).
+- [k2322-protected-reference-compiler](k2322_protected_reference_compiler_probe.py).
+
 - [k2319-lightcone-density-readout](k2319_lightcone_density_readout_probe.py).
 - [k2320-lossy-selective-calibration](k2320_lossy_selective_calibration_probe.py).
 

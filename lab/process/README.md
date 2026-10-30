@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2321-radial-count-operator](k2321-radial-count-operator.json).
+- [k2322-protected-reference-compiler](k2322-protected-reference-compiler.json).
+
 - [k2319-lightcone-density-readout](k2319-lightcone-density-readout.json).
 - [k2320-lossy-selective-calibration](k2320-lossy-selective-calibration.json).
 

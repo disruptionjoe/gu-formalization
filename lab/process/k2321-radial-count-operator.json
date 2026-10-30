@@ -1,0 +1,78 @@
+{
+  "check_names": [
+    "current_flux",
+    "frame_cancellation",
+    "lapse_cancels",
+    "angular_triangular_det",
+    "radial_area",
+    "selected_count_fixture",
+    "post_map_selection",
+    "cone_chain_rule",
+    "fourier_rsd_sign",
+    "jordan_expansion",
+    "conformal_expansion",
+    "unit_radial",
+    "radial_eigen",
+    "tangent_eigen",
+    "principal_charpoly",
+    "wrong_sign_degeneracy",
+    "elliptic_divergence_split",
+    "taper_endpoints",
+    "taper_energy",
+    "positive_taper",
+    "noise_adjoint",
+    "displacement_noise_nonzero",
+    "response_normalized",
+    "response_noise",
+    "response_scaling",
+    "shared_covariance",
+    "covariance_positive",
+    "cross_terms_matter"
+  ],
+  "checks": 28,
+  "dependencies": {
+    "explorations/conditional-build/k2305-regular-constrained-matter-transfer-2026-10-30.md": "0c9f531e68df8016d888f31bc3271bc20eed66ffabefe967aca5a37590db45b0",
+    "explorations/conditional-build/k2308-inhomogeneous-constrained-dust-transfer-2026-10-30.md": "1118f1f7d3dfb0ffe93fd4187e6472733fab3541469228c33ace7f0b3a30cad6",
+    "explorations/conditional-build/k2311-uniform-constrained-dust-evolution-2026-10-30.md": "d5a022fbf98da92dc0bc4e5bb64faab18179af2f2ab05211531edb36bf392c5a",
+    "explorations/conditional-build/k2319-lightcone-density-readout-2026-10-30.md": "b83d7f7b6f96f7fe391f31b01fd97b44da3bd0bd9fa988f6bbd846e9f65e3bbc",
+    "explorations/conditional-build/k2321-radial-count-operator-2026-10-30.md": "bc886f61ff369cae88b577a42b5f34c9f1e0109ee9c808623f9a7316919cfde5",
+    "tests/channel-swings/k2321_radial_count_operator_probe.py": "116dd1fad016e77c795df97fa092287c924e9788c18057d9775a1faf95b02c17"
+  },
+  "details": {
+    "current": "n_J-3*Psi_J+V_r=n-3*Phi+V_r",
+    "domain": "zero-extended compact-annular window H1(R3)",
+    "principal": "k*(delta+c*mu**2), delta>0,c>0",
+    "scope": "fixed coordinate cone, Doppler radial map; not full relativistic observed counts"
+  },
+  "evidence_kind": "exact symbolic identities and finite covariance controls; continuum elliptic/Gaussian domain proof is in note",
+  "mutation_failed_checks": {
+    "independent_fake_seeds": [
+      "shared_covariance"
+    ],
+    "omit_area": [
+      "selected_count_fixture"
+    ],
+    "omit_selection": [
+      "selected_count_fixture"
+    ],
+    "partial_only": [
+      "cone_chain_rule"
+    ],
+    "reverse_flux_velocity": [
+      "current_flux",
+      "frame_cancellation"
+    ],
+    "reverse_rsd": [
+      "fourier_rsd_sign"
+    ],
+    "wrong_beta": [
+      "jordan_expansion",
+      "conformal_expansion"
+    ],
+    "wrong_noise_adjoint": [
+      "noise_adjoint"
+    ]
+  },
+  "result_id": "K2321",
+  "schema_version": "1.0"
+}
