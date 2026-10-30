@@ -1,4 +1,7 @@
 
+- [k2331-certified-count-window-covariance](k2331_certified_count_window_covariance_probe.py).
+- [k2332-exact-jc-selective-control](k2332_exact_jc_selective_control_probe.py).
+
 - [k2329-robust-count-covariance-test](k2329_robust_count_covariance_test_probe.py).
 - [k2330-microscopic-kerr-validity](k2330_microscopic_kerr_validity_probe.py).
 

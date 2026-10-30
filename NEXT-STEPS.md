@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-10-30: ROBUST COVARIANCE AND MICROSCOPIC KERR VALIDITY.**
+> **2026-10-30: CERTIFIED COUNT WINDOWS AND EXACT JC CONTROL.**
+> Extend the actual full-count certificate to a physically justified seed spectrum, tracer/selection and noise family; retain the compact-band result and five-mode calibration without treating a mask or correlated noise as independent full-sky modes. For the apparatus, construct number-copy and record-preserving neutral readout from an explicit microscopic coupling alphabet with same-device rates, clock and reset costs; exact lower-shell known-state preparation alone is not unknown-state readout. Curved native stationary field/receiver jets and common analytic domain remain separate. Do not repeat the completed finite-band covariance, generic Gaussian concentration, JC gap proof or abstract state controllability.
+
+
+> **Historical predecessor, no longer the live next condition: 2026-10-30 ROBUST COVARIANCE AND MICROSCOPIC KERR VALIDITY.**
 > Integrate the actual harmonic full-count kernels with certified ODE, radial, spectral and tail errors for a fixed seed/tracer/noise family, then test the robust margins using genuinely justified Gaussian replication. Independently build selective controls using the exact JC frequencies, lower-branch matrix elements and upper-branch leakage constraints, retaining idle phases and physical noise. Preserve curved native stationary field/receiver jets and common domain as a distinct construction. Do not repeat population-cone algebra, generic concentration, Taylor expansion or abstract controllability as new results.
 
 

@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2331-certified-count-window-covariance](conditional-build/k2331-certified-count-window-covariance-2026-10-30.md).
+- [k2332-exact-jc-selective-control](conditional-build/k2332-exact-jc-selective-control-2026-10-30.md).
+
 - [k2329-robust-count-covariance-test](conditional-build/k2329-robust-count-covariance-test-2026-10-30.md).
 - [k2330-microscopic-kerr-validity](conditional-build/k2330-microscopic-kerr-validity-2026-10-30.md).
 

@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2331-certified-count-window-covariance](k2331-certified-count-window-covariance.json).
+- [k2332-exact-jc-selective-control](k2332-exact-jc-selective-control.json).
+
 - [k2329-robust-count-covariance-test](k2329-robust-count-covariance-test.json).
 - [k2330-microscopic-kerr-validity](k2330-microscopic-kerr-validity.json).
 

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: db7433adc0fc3590b119dbf8554eb1f0a312ba7b
+revision_basis: 232b49fedc37381b1c5959b924afc6d449d5c25c
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,12 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2331 certifies actual full-count covariance for two positive windows and a compact
+    spectral band, including the full foreground; its positive cross sign yields an exact
+    one-sky five-mode sign test. K2332 proves exact-JC selective control and constructive
+    known dressed-state synthesis with all branch couplings, absolute phases and an explicit
+    noise/time window. Physical survey and complete neutral readout inputs remain open;
+    native GU verdicts are unchanged. Historical predecessor (not live):
     K2329 reduces the actual full-count operator to harmonic radial kernels and proves
     covariance-error-aware Gaussian tests, including unknown-power trace calibration. K2330
     derives a finite-shell microscopic JC-to-Kerr error account with dressed controls,
@@ -17654,6 +17660,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2331-certified-count-window-covariance-2026-10-30.md
+  - lab/process/k2331-certified-count-window-covariance.json
+  - tests/channel-swings/k2331_certified_count_window_covariance_probe.py
+  - explorations/conditional-build/k2332-exact-jc-selective-control-2026-10-30.md
+  - lab/process/k2332-exact-jc-selective-control.json
+  - tests/channel-swings/k2332_exact_jc_selective_control_probe.py
   - explorations/conditional-build/k2329-robust-count-covariance-test-2026-10-30.md
   - lab/process/k2329-robust-count-covariance-test.json
   - tests/channel-swings/k2329_robust_count_covariance_test_probe.py
@@ -19548,6 +19560,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Does a physically justified spectral/tracer/noise family preserve the certified
+  observational discriminator, and can the exact JC control family implement microscopic
+  number-copy and neutral readout on a declared available alphabet? Historical predecessor
+  (not live):
   Can certified actual count-window matrices retain a finite-data separation under
   physical nuisance and sampling constraints, and can exact JC transition frequencies and
   dressed control matrices replace the long-time Kerr approximation? Historical
@@ -23639,6 +23655,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Extend the actual full-count certificate to a physically justified seed spectrum,
+  tracer/selection and noise family; retain the compact-band result and five-mode
+  calibration without treating a mask or correlated noise as independent full-sky modes.
+  For the apparatus, construct number-copy and record-preserving neutral readout from an
+  explicit microscopic coupling alphabet with same-device rates, clock and reset costs;
+  exact lower-shell known-state preparation alone is not unknown-state readout. Curved
+  native stationary field/receiver jets and common analytic domain remain separate. Do not
+  repeat the completed finite-band covariance, generic Gaussian concentration, JC gap
+  proof or abstract state controllability. Historical predecessor (not live):
   Integrate the actual harmonic full-count kernels with certified ODE, radial, spectral
   and tail errors for a fixed seed/tracer/noise family, then test the robust margins using
   genuinely justified Gaussian replication. Independently build selective controls using

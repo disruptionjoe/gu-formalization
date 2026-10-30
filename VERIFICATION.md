@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2331--K2332: Certified count windows and exact JC control (2026-10-30)
+
+K2331 certifies actual full-count covariance for two positive windows and a compact spectral band, including the full foreground; its positive cross sign yields an exact one-sky five-mode sign test. K2332 proves exact-JC selective control and constructive known dressed-state synthesis with all branch couplings, absolute phases and an explicit noise/time window. Physical survey and complete neutral readout inputs remain open; native GU verdicts are unchanged.
+
+- [K2331](explorations/conditional-build/k2331-certified-count-window-covariance-2026-10-30.md).
+- [K2332](explorations/conditional-build/k2332-exact-jc-selective-control-2026-10-30.md).
+
+Three independent read-only specialists reviewed the actual notes, probes and reports. K2331 uses 16384 validated Arb time/parameter tubes, complete interval radial/spectral sums, five interval result checks, four sign controls and three genuine faults. K2332 passes five exact identities,42 finite60-digit controls, a separate sparse-target rerun and six genuine changed-input faults. Universal statements use the written proofs; JC fixtures are numerical controls. No empirical, hardware, external-expert, Lean or native GU certification is claimed.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2329--K2330: Robust covariance and microscopic Kerr validity (2026-10-30)
 
 K2329 reduces the actual full-count operator to harmonic radial kernels and proves covariance-error-aware Gaussian tests, including unknown-power trace calibration. K2330 derives a finite-shell microscopic JC-to-Kerr error account with dressed controls, physical loss, nonquadratic spectral bounds and exact-frequency repair conditions. Actual count covariance integration, survey replication and a complete microscopic controller remain open; native GU verdicts are unchanged.

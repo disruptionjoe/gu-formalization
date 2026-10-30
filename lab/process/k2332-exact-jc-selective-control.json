@@ -1,0 +1,270 @@
+{
+  "result": "K2332",
+  "status": "pass",
+  "exact_controls": [
+    [
+      "lower curvature giving all-n separation",
+      true
+    ],
+    [
+      "amplitude endpoints solve actual cost polynomial",
+      true
+    ],
+    [
+      "amplitude endpoints solve actual cost polynomial",
+      true
+    ],
+    [
+      "positive cost optimizer stationary",
+      true
+    ],
+    [
+      "positive-amplitude minimum identity",
+      true
+    ]
+  ],
+  "finite_60_digit_controls": [
+    [
+      "N1 complete dressed diagonalization",
+      true
+    ],
+    [
+      "N1 full bare hopping conjugation",
+      true
+    ],
+    [
+      "N1 manuscript four-block formulas match physical transform",
+      true
+    ],
+    [
+      "N1 tone1 all-branch detuning",
+      true
+    ],
+    [
+      "N1 edge1 positive lower coupling",
+      true
+    ],
+    [
+      "N2 complete dressed diagonalization",
+      true
+    ],
+    [
+      "N2 full bare hopping conjugation",
+      true
+    ],
+    [
+      "N2 manuscript four-block formulas match physical transform",
+      true
+    ],
+    [
+      "N2 tone1 all-branch detuning",
+      true
+    ],
+    [
+      "N2 edge1 positive lower coupling",
+      true
+    ],
+    [
+      "N2 tone2 all-branch detuning",
+      true
+    ],
+    [
+      "N2 edge2 positive lower coupling",
+      true
+    ],
+    [
+      "N3 complete dressed diagonalization",
+      true
+    ],
+    [
+      "N3 full bare hopping conjugation",
+      true
+    ],
+    [
+      "N3 manuscript four-block formulas match physical transform",
+      true
+    ],
+    [
+      "N3 tone1 all-branch detuning",
+      true
+    ],
+    [
+      "N3 edge1 positive lower coupling",
+      true
+    ],
+    [
+      "N3 tone2 all-branch detuning",
+      true
+    ],
+    [
+      "N3 edge2 positive lower coupling",
+      true
+    ],
+    [
+      "N3 tone3 all-branch detuning",
+      true
+    ],
+    [
+      "N3 edge3 positive lower coupling",
+      true
+    ],
+    [
+      "N5 complete dressed diagonalization",
+      true
+    ],
+    [
+      "N5 full bare hopping conjugation",
+      true
+    ],
+    [
+      "N5 manuscript four-block formulas match physical transform",
+      true
+    ],
+    [
+      "N5 tone1 all-branch detuning",
+      true
+    ],
+    [
+      "N5 edge1 positive lower coupling",
+      true
+    ],
+    [
+      "N5 tone2 all-branch detuning",
+      true
+    ],
+    [
+      "N5 edge2 positive lower coupling",
+      true
+    ],
+    [
+      "N5 tone3 all-branch detuning",
+      true
+    ],
+    [
+      "N5 edge3 positive lower coupling",
+      true
+    ],
+    [
+      "N5 tone4 all-branch detuning",
+      true
+    ],
+    [
+      "N5 edge4 positive lower coupling",
+      true
+    ],
+    [
+      "N5 tone5 all-branch detuning",
+      true
+    ],
+    [
+      "N5 edge5 positive lower coupling",
+      true
+    ],
+    [
+      "constructive ideal target with complete final phases",
+      true
+    ],
+    [
+      "full microscopic pulse sequence hits target within finite tolerance",
+      true
+    ],
+    [
+      "actual upper leakage remains below finite tolerance",
+      true
+    ],
+    [
+      "same-edge cross-shell frequencies coincide",
+      true
+    ],
+    [
+      "actual cross-shell frequency degeneracy",
+      true
+    ],
+    [
+      "actual cross-shell resonant rate differs",
+      true
+    ],
+    [
+      "actual N3 sufficient control-noise window nonempty",
+      true
+    ],
+    [
+      "actual N3 minimum equals half tolerance",
+      true
+    ]
+  ],
+  "changed_input_faults": [
+    {
+      "changed_input": "cross",
+      "failures": [
+        "N1 full bare hopping conjugation",
+        "N2 full bare hopping conjugation",
+        "N3 full bare hopping conjugation",
+        "N5 full bare hopping conjugation"
+      ]
+    },
+    {
+      "changed_input": "reference",
+      "failures": [
+        "N2 full bare hopping conjugation",
+        "N3 full bare hopping conjugation",
+        "N5 full bare hopping conjugation",
+        "N5 edge1 positive lower coupling",
+        "actual cross-shell resonant rate differs"
+      ]
+    },
+    {
+      "changed_input": "tone",
+      "failures": [
+        "full microscopic pulse sequence hits target within finite tolerance"
+      ]
+    },
+    {
+      "changed_input": "clock",
+      "failures": [
+        "full microscopic pulse sequence hits target within finite tolerance"
+      ]
+    },
+    {
+      "changed_input": "phase",
+      "failures": [
+        "full microscopic pulse sequence hits target within finite tolerance"
+      ]
+    },
+    {
+      "changed_input": "target_phase",
+      "failures": [
+        "constructive ideal target with complete final phases",
+        "full microscopic pulse sequence hits target within finite tolerance"
+      ]
+    }
+  ],
+  "evidence": {
+    "finite_N3_sequence_state_error": "0.0000763866820890062777390712415139425922928350028100908385406782",
+    "J": "0.000001",
+    "duration": "3208318.71927983301339673954569117379447319245696757163794752",
+    "finite_tolerance": "0.005",
+    "A_N": "39980.3154419823741803777087599751906685582380353949951792367",
+    "B_N": "4.71238898038468985769396507491925432629575409906265873146242",
+    "constructed_noise_lambda": "0.00000000331736050046207097503619860848791517813295986236252659072824",
+    "constructed_Jopt": "0.000000625307722653636124383230890771105914857918661404114883013942",
+    "note": "finite60digit controls; not interval or all-N proof"
+  },
+  "sparse_target_evidence": {
+    "finite_N3_sequence_state_error": "0.000104483917414916092025155291681836512582012304148566066735002",
+    "J": "0.000001",
+    "duration": "3926990.81698724154807830422909937860524646174921888227621868",
+    "finite_tolerance": "0.005",
+    "A_N": "39980.3154419823741803777087599751906685582380353949951792367",
+    "B_N": "4.71238898038468985769396507491925432629575409906265873146242",
+    "constructed_noise_lambda": "0.00000000331736050046207097503619860848791517813295986236252659072824",
+    "constructed_Jopt": "0.000000625307722653636124383230890771105914857918661404114883013942",
+    "note": "finite60digit controls; not interval or all-N proof"
+  },
+  "sparse_target_controls": 47,
+  "scope": "all-N claims rest on written spectrum/averaging/synthesis proof; finite tests are numerical controls only",
+  "dependencies": {
+    "tests/channel-swings/k2332_exact_jc_selective_control_probe.py": "bafaca3af1960709a6f79d8e96d3929c063f1a53fbcc5042767fa53819a55746",
+    "explorations/conditional-build/k2332-exact-jc-selective-control-2026-10-30.md": "cbd38418f9af97f1574398de69fda0973dd8d4cfe76882e0b042464fa3c7e84d"
+  }
+}
