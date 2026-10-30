@@ -5,6 +5,19 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2301--K2303: Native time domain, designer turnaround and local bath (2026-10-30)
+
+K2301 constructs the full native companion on a four-dimensional reducing time-profile sector with Schwartz/periodic inverse; a nonnegative compact metric profile forces exponential retarded tails, so tempered and retarded prescriptions differ. This is not a full coupled physical Green operator. K2302 classifies the designer Einstein-frame turnaround threshold, supplies a positive-algebraic-mass crossing counterexample, and freezes healthy matter while proving that identical backgrounds can hide different matter Hessians. K2303 replaces collective number noise by21 independent mode-local baths, retains Q conservation, bounds full recorded retained-pump error below9.386e-12, and exhibits exact fixed-charge distance4/9 against a false collective reduction. Source claims, ledger0.263 and native physical mappings remain unchanged.
+
+- [K2301](explorations/conditional-build/k2301-native-companion-time-domain-2026-10-30.md).
+- [K2302](explorations/conditional-build/k2302-designer-frame-turnaround-2026-10-30.md).
+- [K2303](explorations/conditional-build/k2303-local-number-bath-control-2026-10-30.md).
+
+Three independent read-only specialists reviewed actual notes/probes/reports.56 scientific checks(25+18+13) and14 changed-formula/input/operator faults(5+4+5) pass. Exact native Clifford, symbolic conformal/matter and rational moment/budget checks are distinct from the finite numerical interleaving fixture and written continuum/domain proofs. Review repaired a non-evaluated fault, vacuous zero-kappa control, radiation absence and physical units. No Lean, heavy predecessor replay, external-expert, novelty, empirical or hardware certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2298--K2300: Full native completion, designer family and positive bath (2026-10-30)
 
 K2298 proves that higher odd grades cannot cancel the symmetric native companion curl, then constructs a full ambient polynomial distortion with an essential even-grade correction and nonzero metric source Jg=diag(0,-12,-11,-11)/kappa. This also enlarges grade1 support; it is not physical matter or a global Green solution. K2299 classifies all finite-F designer branches with F>0 and f_RR>0 on the fixed dust/radiation history: F=alpha-A v, 0<A<alpha, with an exact smaller interval for positive algebraic trace mass. This is not the rolling constrained perturbation mass. K2300 derives full retained-pump noise from positive finite baths, including coherent Q² phase, correlated waits, centered-coupling costs and a positive number-bath alternative without Q². Raw, centered and number-bath budgets remain below1e-11 under stated collective coupling assumptions. Source claims, ledger0.263 and physical mappings remain unchanged.

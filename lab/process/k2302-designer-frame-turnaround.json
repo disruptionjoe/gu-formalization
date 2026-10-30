@@ -1,0 +1,53 @@
+{
+  "check_names": [
+    "J_derivative",
+    "conformal_factor",
+    "dust_exponent",
+    "dust_exact_interval",
+    "crossing_amplitude",
+    "positive_mass_allx",
+    "crossing_F",
+    "unique_crossing_domain",
+    "dust_Raychaudhuri",
+    "same_background_value",
+    "same_background_Xderivative",
+    "same_background_chiderivative",
+    "matter_kinetic",
+    "matter_gradient",
+    "healthy_radiation_speed",
+    "unhealthy_same_background",
+    "radiation_conformal_cancellation",
+    "radiation_stress"
+  ],
+  "checks": 18,
+  "dependencies": {
+    "explorations/conditional-build/k2291-rolling-scalar-applicability-2026-10-30.md": "b275380fa539e4818b9dbf98059522560b59bf6142c9324e45af7cb5e5652b45",
+    "explorations/conditional-build/k2299-finite-curvature-designer-family-2026-10-30.md": "25f10817abc16eb65b9aee5cfadfcc99c7fb4e292bc1207b81170330df6d6ae7",
+    "explorations/conditional-build/k2302-designer-frame-turnaround-2026-10-30.md": "c5559975da47f62c901d9897deee3891954e8c2acb9f9b7c9f660f0991602d5e",
+    "tests/channel-swings/k2302_designer_frame_turnaround_probe.py": "de7b41a5661f40a960355ccc4df50bba2e9a46e874f082984d70a37f991fe9e3"
+  },
+  "details": {
+    "amplitude": "2/5",
+    "crossing_F_over_alpha": "(5/4 + sqrt(73)/4)/(sqrt(73)/4 + 13/4)",
+    "gradient": "2*Xb*c",
+    "kinetic": "2*Xb*c + 4*Xb*(c + eps)",
+    "p": "5/4 + sqrt(73)/4"
+  },
+  "evidence_kind": "Exact symbolic conformal/flow/matter identities; universal monotonicity proof in note",
+  "mutation_failed_checks": {
+    "omit_matter_Hessian": [
+      "matter_kinetic"
+    ],
+    "wrong_conformal_sign": [
+      "conformal_factor"
+    ],
+    "wrong_flow_damping": [
+      "J_derivative"
+    ],
+    "wrong_measure_power": [
+      "radiation_conformal_cancellation"
+    ]
+  },
+  "result_id": "K2302",
+  "schema_version": "1.0"
+}

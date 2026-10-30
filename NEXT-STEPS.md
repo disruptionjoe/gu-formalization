@@ -5,6 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-10-30: NATIVE TIME DOMAIN, DESIGNER TURNAROUND AND LOCAL BATH.**
+> Freeze the full coupled native source/readout and temporal boundary prescription, then test whether solving the metric jointly removes the forced growing time-profile sector. The new Schwartz inverse is two-sided, not physical causality; its torus realization is explicitly supplied. Independently derive coupled dust/radiation/scalar transfer for the fixed healthy designer matter action in variables regular at H_E=0, or supply spatial realization and calibrated coupling/clock bounds for the same local-bath pump circuit. Positive algebraic mass does not clear a gauge chart, identical background stress does not freeze matter kinetics, and fixed Q does not remove independent local noise. Preserve all source and ledger ceilings.
+> Earlier banners are historical; use this current condition.
+
+
 > **2026-10-30: FULL NATIVE COMPLETION, DESIGNER FAMILY AND POSITIVE BATH.**
 > Prioritize a source/readout and closed-domain test of the actual full ambient I1B operator after the polynomial completion: determine which physical source class and boundary/causal realization admit it; do not identify the constructed negative-spatial metric source with ordinary matter. Compare coupled matter perturbations of one fixed decaying designer action with physically priced collective bath coupling, counterterm/force calibration and local control. Finite-F and positive algebraic trace mass are not perturbative viability. Higher odd grades alone cannot repair the fixed horizontal lift, but the full ambient even/odd carrier has a polynomial escape. Positive number coupling avoids the displaced-bath Q² cost only by changing the supplied interaction; finite-duration and correlated-bath assumptions remain. Preserve all source/ledger ceilings.
 > Earlier banners are historical; use this current condition.

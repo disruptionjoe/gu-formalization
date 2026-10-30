@@ -1,0 +1,173 @@
+{
+  "check_names": [
+    "native_column_0",
+    "native_column_1",
+    "native_column_2",
+    "native_column_3",
+    "native_gram",
+    "native_skew",
+    "auxiliary_selfadjoint",
+    "minimal_polynomial",
+    "projector_11",
+    "projector_-11",
+    "projector_2",
+    "projector_-2",
+    "projector_completeness",
+    "full_fourier_residual",
+    "all10_native_source_rows",
+    "polynomial_control",
+    "kernel_jumps",
+    "compact_C1_profile_moment",
+    "kappa_zero_constant_kernel",
+    "joint_J11_transfer",
+    "joint_J22_transfer",
+    "joint_source_compatibility",
+    "joint_poles_not_canceled",
+    "fourth_order_zero",
+    "compact_completion"
+  ],
+  "checks": 25,
+  "dependencies": {
+    "explorations/conditional-build/k2301-native-companion-time-domain-2026-10-30.md": "7226e50ed7ec9a0a03c2fdd470ae73a72d9fad59d481ce055ce645a62ab9b587",
+    "tests/channel-swings/k2298_enlarged_native_companion_probe.py": "b9e368a438277a68f4f72a111010e8240572e627c1cf997511ea02834fc7aa9a",
+    "tests/channel-swings/k2301_native_companion_time_domain_probe.py": "0dc83bc5eae052ae29a0953de7b0bfb789e71c665568745ecd1694d920800f0f",
+    "tests/channel-swings/k77_exact_bank_api.py": "5f9ca5458e55669bce226bf65e82b11a54d81d7cffeb2d18a1fb4635f575cf5b",
+    "tests/fixtures/k77_exact_coefficient_bank_v1.json": "af7642876b0f788c4561f977c62b57307783849170031536a9e578102fc382c8"
+  },
+  "details": {
+    "G": [
+      [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "12",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "-1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "-12"
+      ]
+    ],
+    "L": [
+      [
+        "0",
+        "0",
+        "-1",
+        "12"
+      ],
+      [
+        "0",
+        "0",
+        "1",
+        "10"
+      ],
+      [
+        "-1",
+        "12",
+        "0",
+        "0"
+      ],
+      [
+        "1",
+        "10",
+        "0",
+        "0"
+      ]
+    ],
+    "source_rows": [
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "12",
+        "0",
+        "0"
+      ],
+      [
+        "1",
+        "11",
+        "0",
+        "0"
+      ],
+      [
+        "1",
+        "11",
+        "0",
+        "0"
+      ]
+    ]
+  },
+  "evidence_kind": "Exact native Clifford columns and symbolic domain identities; continuum Fourier and moment proofs in note",
+  "mutation_failed_checks": {
+    "drop_vertical_source": [
+      "all10_native_source_rows"
+    ],
+    "omit_even_correction": [
+      "full_fourier_residual"
+    ],
+    "wrong_advanced_sign": [
+      "kernel_jumps"
+    ],
+    "wrong_joint_source_coefficient": [
+      "joint_source_compatibility"
+    ],
+    "wrong_native_coefficient": [
+      "native_column_1"
+    ]
+  },
+  "result_id": "K2301",
+  "schema_version": "1.0"
+}

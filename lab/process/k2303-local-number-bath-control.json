@@ -1,0 +1,52 @@
+{
+  "check_names": [
+    "independent_bath_second_moment",
+    "upper_bound_gap",
+    "positive_coefficient",
+    "pair_creation_commutator",
+    "Q_conservation",
+    "fixed_charge_coherence",
+    "fixed_charge_distance",
+    "noncentral_interleaved_countercontrol",
+    "residual_budget",
+    "coherent_full_budget",
+    "coherent_field_budget",
+    "thermal_full_budget",
+    "thermal_field_budget"
+  ],
+  "checks": 13,
+  "dependencies": {
+    "explorations/conditional-build/k2293-moment-controlled-positive-pump-2026-10-30.md": "44e4f523e831061770e20bec17481f9c002a8c6131caadf07f550d201a9cd821",
+    "explorations/conditional-build/k2300-positive-bath-pump-dephasing-2026-10-30.md": "7975c98c54098aaadba87a1d30db337b87072b3edbb9b8591793d48de18e271c",
+    "explorations/conditional-build/k2303-local-number-bath-control-2026-10-30.md": "92bc65251ed0f4bbd7aa357c579c7e34dc20d8a94b0e781403db54af0eac958e",
+    "tests/channel-swings/k2303_local_number_bath_control_probe.py": "2f8489653d7eefd52f7fb78d41e191ed2bef47231523dd81dfe548893919307f"
+  },
+  "details": {
+    "budgets": {
+      "coherent": "233386853255964235213537029843223466364093576756648804022865420358380670806642896221507604037609022235379/25000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "thermal": "234618904063533413032653308761246060506863700692837122492275396440117888274697409625744315401666643383353/25000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "countercontrol_distance": "4/9",
+    "residual_upper": "4347413023856831572115816617802124358520645637/100000000000000000000000000000000000000000000000000000000000"
+  },
+  "evidence_kind": "Exact covariance, commutator, coherence and rational budget; numerical interleaving fixture; Duhamel proof in note",
+  "mutation_failed_checks": {
+    "independent_pump_per_field": [
+      "independent_bath_second_moment"
+    ],
+    "move_bath_to_input": [
+      "noncentral_interleaved_countercontrol"
+    ],
+    "replace_local_by_collective": [
+      "fixed_charge_coherence"
+    ],
+    "wrong_pump_charge": [
+      "Q_conservation"
+    ],
+    "wrong_thermal_variance": [
+      "independent_bath_second_moment"
+    ]
+  },
+  "result_id": "K2303",
+  "schema_version": "1.0"
+}
