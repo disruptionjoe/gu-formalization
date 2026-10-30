@@ -1,0 +1,199 @@
+{
+  "result": "K2334",
+  "status": "pass",
+  "exact_controls": [
+    [
+      "finite exhaustive carry truth and reverse cleanup",
+      true
+    ],
+    [
+      "actual copy SWAP trace channel retains diagonal record and resets B",
+      true
+    ],
+    [
+      "actual trace-preserving channel",
+      true
+    ],
+    [
+      "fixed overhead amplitude polynomial",
+      true
+    ],
+    [
+      "fixed overhead amplitude polynomial",
+      true
+    ],
+    [
+      "mismatch population has norm one",
+      true
+    ]
+  ],
+  "finite_60_digit_controls": [
+    [
+      "actual matched contact commutes with JC",
+      true
+    ],
+    [
+      "bare total excitation contact identity",
+      true
+    ],
+    [
+      "lowering commutator",
+      true
+    ],
+    [
+      "Fourier unitary",
+      true
+    ],
+    [
+      "copy input0 actual phase and amplitude",
+      true
+    ],
+    [
+      "copy input1 actual phase and amplitude",
+      true
+    ],
+    [
+      "copy input2 actual phase and amplitude",
+      true
+    ],
+    [
+      "full microscopic transfer column0",
+      true
+    ],
+    [
+      "upper-branch leakage column0",
+      true
+    ],
+    [
+      "full microscopic transfer column1",
+      true
+    ],
+    [
+      "upper-branch leakage column1",
+      true
+    ],
+    [
+      "full microscopic transfer column2",
+      true
+    ],
+    [
+      "upper-branch leakage column2",
+      true
+    ],
+    [
+      "conjugate second phase reverses first",
+      true
+    ],
+    [
+      "flag zero cancels two ideal halves",
+      true
+    ],
+    [
+      "sine Fourier exact-risk finite control",
+      true
+    ],
+    [
+      "actual POVM resolution",
+      true
+    ],
+    [
+      "record survives reset and trace is one",
+      true
+    ],
+    [
+      "actual binary minimal-register alias changes risk",
+      true
+    ],
+    [
+      "binary enlarged register removes alias",
+      true
+    ],
+    [
+      "full basis-column error inside universal bound",
+      true
+    ]
+  ],
+  "evidence": {
+    "N": 2,
+    "d": 4,
+    "J": "0.000001",
+    "all_basis_column_errors": [
+      "0.0000871605769632024622526537250371032996871256087561677942886416",
+      "0.0000932364878524373692759197034569346301667698486889953803943334",
+      "0.0000549216650794298137273113954330371310905989526200773235231271"
+    ],
+    "duration_last_column": "3141600.59226656044764064782348665982160711673954114296062187",
+    "A_prime_N": "17574.0564561470321668326910671859994072396234667594755204944",
+    "analytic_control_bound": "0.0175740564561470321668326910671859994072396234667594755204944",
+    "carry_cases": 310,
+    "risk": "0.58578643762690495119831127579030192143032812462305192682332",
+    "alias_N": 3,
+    "alias_binary_d": 4,
+    "aliased_risk": "0.367932288766717751252645191493276709576344251076738342525643",
+    "scope": "finite60digit full dressed propagators with nonzero gaps; no interval/hardware certificate, no measured device rates"
+  },
+  "changed_input_faults": [
+    {
+      "changed_operator_or_input": "photon_only",
+      "detected_by": [
+        "actual matched contact commutes with JC",
+        "full microscopic transfer column0",
+        "upper-branch leakage column0",
+        "full microscopic transfer column1",
+        "upper-branch leakage column1",
+        "full microscopic transfer column2",
+        "upper-branch leakage column2",
+        "full basis-column error inside universal bound"
+      ]
+    },
+    {
+      "changed_operator_or_input": "copy_phase",
+      "detected_by": [
+        "copy input1 actual phase and amplitude",
+        "copy input2 actual phase and amplitude",
+        "full microscopic transfer column1",
+        "full microscopic transfer column2",
+        "full basis-column error inside universal bound"
+      ]
+    },
+    {
+      "changed_operator_or_input": "reset_clock",
+      "detected_by": [
+        "full microscopic transfer column0",
+        "full microscopic transfer column1",
+        "full microscopic transfer column2",
+        "full basis-column error inside universal bound"
+      ]
+    },
+    {
+      "changed_operator_or_input": "second_tone",
+      "detected_by": [
+        "full microscopic transfer column0",
+        "full microscopic transfer column1",
+        "full microscopic transfer column2",
+        "full basis-column error inside universal bound"
+      ]
+    },
+    {
+      "changed_operator_or_input": "strict_threshold",
+      "detected_by": [
+        "full microscopic transfer column1",
+        "full microscopic transfer column2",
+        "full basis-column error inside universal bound"
+      ]
+    },
+    {
+      "changed_operator_or_input": "omit_reset",
+      "detected_by": [
+        "actual copy SWAP trace channel retains diagonal record and resets B"
+      ]
+    }
+  ],
+  "scope": "universal claims rely on written proofs; finite controls only; copied predecessor functions are hashed dependencies",
+  "dependencies": {
+    "tests/channel-swings/k2334_microscopic_neutral_transfer_probe.py": "436798107c138e0edc35141d6617dfb092a5801c6b636423beadf4021002edbf",
+    "explorations/conditional-build/k2334-microscopic-neutral-transfer-2026-10-30.md": "9559ce4f0760d7f09c488fbf71fd7d6efa8224782a3ee255dcdf323d070ca8d5",
+    "tests/channel-swings/k2332_exact_jc_selective_control_probe.py": "bafaca3af1960709a6f79d8e96d3929c063f1a53fbcc5042767fa53819a55746",
+    "explorations/conditional-build/k2332-exact-jc-selective-control-2026-10-30.md": "cbd38418f9af97f1574398de69fda0973dd8d4cfe76882e0b042464fa3c7e84d"
+  }
+}

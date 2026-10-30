@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 232b49fedc37381b1c5959b924afc6d449d5c25c
+revision_basis: 2510c1d9bf7e6f4289649bb8b43516434898d390
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,12 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2333 carries the actual full-count covariance into distinct finite angular maps and
+    proves a sub5% one-sky test under bounded correlated Gaussian noise. K2334 compiles
+    coherent unknown lower-dressed-state transfer and finite recorded readout using exact JC
+    tones, matched bare dispersive contacts and priced neutral gates. Physical survey and
+    same-device resource inputs remain open; native GU verdicts are unchanged. Historical
+    predecessor (not live):
     K2331 certifies actual full-count covariance for two positive windows and a compact
     spectral band, including the full foreground; its positive cross sign yields an exact
     one-sky five-mode sign test. K2332 proves exact-JC selective control and constructive
@@ -17660,6 +17666,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2333-masked-count-discrimination-2026-10-30.md
+  - lab/process/k2333-masked-count-discrimination.json
+  - tests/channel-swings/k2333_masked_count_discrimination_probe.py
+  - explorations/conditional-build/k2334-microscopic-neutral-transfer-2026-10-30.md
+  - lab/process/k2334-microscopic-neutral-transfer.json
+  - tests/channel-swings/k2334_microscopic_neutral_transfer_probe.py
   - explorations/conditional-build/k2331-certified-count-window-covariance-2026-10-30.md
   - lab/process/k2331-certified-count-window-covariance.json
   - tests/channel-swings/k2331_certified_count_window_covariance_probe.py
@@ -19560,6 +19572,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can actual angular response, other-multipole contamination and joint noise meet the
+  certified count-test bound, and can one physical device supply the matched dispersive,
+  neutral-gate, reference and clock resources required for coherent readout? Historical
+  predecessor (not live):
   Does a physically justified spectral/tracer/noise family preserve the certified
   observational discriminator, and can the exact JC control family implement microscopic
   number-copy and neutral readout on a declared available alphabet? Historical predecessor
@@ -23655,6 +23671,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Supply a concrete angular response and all other-multipole/observer contamination with a
+  calibrated joint covariance, propagate through the actual extraction and test its
+  relative error bound; no radial band limit grants angular truncation. Independently
+  derive or characterize matched photon/mediator neutral contacts and adjacent entangling
+  gates together with same-device loss, clock, reference protection and fresh-register
+  costs, then evaluate the full overhead and amplitude window. Native curved stationary
+  fields, receiver jets and common domain remain separate. Do not repeat finite-map
+  whitening, generic Gaussian concentration, abstract controllability or the completed
+  conditional neutral-transfer compiler. Historical predecessor (not live):
   Extend the actual full-count certificate to a physically justified seed spectrum,
   tracer/selection and noise family; retain the compact-band result and five-mode
   calibration without treating a mask or correlated noise as independent full-sky modes.

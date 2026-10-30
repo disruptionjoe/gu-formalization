@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-10-30: CERTIFIED COUNT WINDOWS AND EXACT JC CONTROL.**
+> **2026-10-30: MASKED COUNTS AND MICROSCOPIC NEUTRAL TRANSFER.**
+> Supply a concrete angular response and all other-multipole/observer contamination with a calibrated joint covariance, propagate through the actual extraction and test its relative error bound; no radial band limit grants angular truncation. Independently derive or characterize matched photon/mediator neutral contacts and adjacent entangling gates together with same-device loss, clock, reference protection and fresh-register costs, then evaluate the full overhead and amplitude window. Native curved stationary fields, receiver jets and common domain remain separate. Do not repeat finite-map whitening, generic Gaussian concentration, abstract controllability or the completed conditional neutral-transfer compiler.
+
+
+> **Historical predecessor, no longer the live next condition: 2026-10-30 CERTIFIED COUNT WINDOWS AND EXACT JC CONTROL.**
 > Extend the actual full-count certificate to a physically justified seed spectrum, tracer/selection and noise family; retain the compact-band result and five-mode calibration without treating a mask or correlated noise as independent full-sky modes. For the apparatus, construct number-copy and record-preserving neutral readout from an explicit microscopic coupling alphabet with same-device rates, clock and reset costs; exact lower-shell known-state preparation alone is not unknown-state readout. Curved native stationary field/receiver jets and common analytic domain remain separate. Do not repeat the completed finite-band covariance, generic Gaussian concentration, JC gap proof or abstract state controllability.
 
 

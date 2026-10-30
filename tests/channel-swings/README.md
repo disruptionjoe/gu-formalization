@@ -1,4 +1,7 @@
 
+- [k2333-masked-count-discrimination](k2333_masked_count_discrimination_probe.py).
+- [k2334-microscopic-neutral-transfer](k2334_microscopic_neutral_transfer_probe.py).
+
 - [k2331-certified-count-window-covariance](k2331_certified_count_window_covariance_probe.py).
 - [k2332-exact-jc-selective-control](k2332_exact_jc_selective_control_probe.py).
 

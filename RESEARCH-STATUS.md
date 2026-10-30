@@ -6,6 +6,18 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2333--K2334: Masked count tests and microscopic neutral transfer (2026-10-30)
+
+K2333 carries the actual full-count covariance into distinct finite angular maps and proves a sub5% one-sky test under bounded correlated Gaussian noise. K2334 compiles coherent unknown lower-dressed-state transfer and finite recorded readout using exact JC tones, matched bare dispersive contacts and priced neutral gates. Physical survey and same-device resource inputs remain open; native GU verdicts are unchanged.
+
+- [K2333](explorations/conditional-build/k2333-masked-count-discrimination-2026-10-30.md).
+- [K2334](explorations/conditional-build/k2334-microscopic-neutral-transfer-2026-10-30.md).
+
+Independent specialists reviewed the actual notes and probes, including canonical-angle noise calibration and the microscopic phase/echo/parking proof. K2333 passes22 exact rational controls and4 genuine changed-input faults. K2334 passes6 exact controls (including310 reversible carry cases and actual copy/SWAP/trace),21 finite60-digit controls and6 genuine faults. Universal results rely on the written proofs; no empirical, hardware, external-expert, Lean or native GU certification is claimed.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2331--K2332: Certified count windows and exact JC control (2026-10-30)
 
 K2331 certifies actual full-count covariance for two positive windows and a compact spectral band, including the full foreground; its positive cross sign yields an exact one-sky five-mode sign test. K2332 proves exact-JC selective control and constructive known dressed-state synthesis with all branch couplings, absolute phases and an explicit noise/time window. Physical survey and complete neutral readout inputs remain open; native GU verdicts are unchanged.

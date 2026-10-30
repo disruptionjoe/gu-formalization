@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2333-masked-count-discrimination](k2333-masked-count-discrimination.json).
+- [k2334-microscopic-neutral-transfer](k2334-microscopic-neutral-transfer.json).
+
 - [k2331-certified-count-window-covariance](k2331-certified-count-window-covariance.json).
 - [k2332-exact-jc-selective-control](k2332-exact-jc-selective-control.json).
 

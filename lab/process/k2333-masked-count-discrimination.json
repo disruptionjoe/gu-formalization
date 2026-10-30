@@ -1,0 +1,130 @@
+{
+  "result": "K2333",
+  "status": "pass",
+  "exact_rational_controls": [
+    [
+      "first map inverse",
+      true
+    ],
+    [
+      "second map inverse",
+      true
+    ],
+    [
+      "fixture lies within actual certified entry envelope",
+      true
+    ],
+    [
+      "fixture positive definite",
+      true
+    ],
+    [
+      "actual map covariance congruence",
+      true
+    ],
+    [
+      "common row-space first",
+      true
+    ],
+    [
+      "common row-space second",
+      true
+    ],
+    [
+      "intersection dimension",
+      true
+    ],
+    [
+      "canonical-angle squared singulars",
+      true
+    ],
+    [
+      "four canonical pairs exceed three matched",
+      true
+    ],
+    [
+      "three-mode baseline insufficient for five percent",
+      true
+    ],
+    [
+      "rank-one correlated perturbation eigenvalue",
+      true
+    ],
+    [
+      "actual positive covariance",
+      true
+    ],
+    [
+      "nonseparable cross-mode covariance retained",
+      true
+    ],
+    [
+      "exact squared TV correction",
+      true
+    ],
+    [
+      "strict five-percent margin",
+      true
+    ],
+    [
+      "perturbation support dimension",
+      true
+    ],
+    [
+      "conditional discordance strict difference identity",
+      true
+    ],
+    [
+      "duplicated modes have rank one",
+      true
+    ],
+    [
+      "unbounded anticorrelated covariance PSD",
+      true
+    ],
+    [
+      "inverse noise amplification charged",
+      true
+    ],
+    [
+      "amplification factor exact",
+      true
+    ]
+  ],
+  "changed_input_faults": [
+    {
+      "changed_input": "omit_unshear",
+      "detected_by": [
+        "first map inverse",
+        "actual map covariance congruence"
+      ]
+    },
+    {
+      "changed_input": "reverse_channel",
+      "detected_by": [
+        "second map inverse",
+        "actual map covariance congruence"
+      ]
+    },
+    {
+      "changed_input": "noise_strength",
+      "detected_by": [
+        "rank-one correlated perturbation eigenvalue"
+      ]
+    },
+    {
+      "changed_input": "raw_noise_is_extracted",
+      "detected_by": [
+        "inverse noise amplification charged",
+        "amplification factor exact"
+      ]
+    }
+  ],
+  "scope": "Finite exact matrix controls; universal Gaussian/canonical-angle/TV theorems rest on written proofs. Covariance fixture is within bounds, not a replacement for certified M.",
+  "dependencies": {
+    "tests/channel-swings/k2333_masked_count_discrimination_probe.py": "7067879eeec6d270047cdb9bc615f80725461feeddc2f3ad69f207beb17d0344",
+    "explorations/conditional-build/k2333-masked-count-discrimination-2026-10-30.md": "d4ef4fe64fe992a66e763cde09780ec105b4437375945adfaaae6cfb6f1de930",
+    "lab/process/k2331-certified-count-window-covariance.json": "974a3ff6b4cdba1f4b51a2fe7a32c967433f9d37a10573c1bdb20307226280ed",
+    "explorations/conditional-build/k2331-certified-count-window-covariance-2026-10-30.md": "c9b1eea286085410fc156662f734c05aa0974a40f60c4f7cc4c7cd17773661b4"
+  }
+}

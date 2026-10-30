@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2333-masked-count-discrimination](conditional-build/k2333-masked-count-discrimination-2026-10-30.md).
+- [k2334-microscopic-neutral-transfer](conditional-build/k2334-microscopic-neutral-transfer-2026-10-30.md).
+
 - [k2331-certified-count-window-covariance](conditional-build/k2331-certified-count-window-covariance-2026-10-30.md).
 - [k2332-exact-jc-selective-control](conditional-build/k2332-exact-jc-selective-control-2026-10-30.md).
 
