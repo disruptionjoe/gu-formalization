@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2329--K2330: Robust covariance and microscopic Kerr validity (2026-10-30)
+
+K2329 reduces the actual full-count operator to harmonic radial kernels and proves covariance-error-aware Gaussian tests, including unknown-power trace calibration. K2330 derives a finite-shell microscopic JC-to-Kerr error account with dressed controls, physical loss, nonquadratic spectral bounds and exact-frequency repair conditions. Actual count covariance integration, survey replication and a complete microscopic controller remain open; native GU verdicts are unchanged.
+
+- [K2329](explorations/conditional-build/k2329-robust-count-covariance-test-2026-10-30.md).
+- [K2330](explorations/conditional-build/k2330-microscopic-kerr-validity-2026-10-30.md).
+
+Independent read-only specialist reviews cover the actual notes, probes and reports.40 exact symbolic/rational controls,35 finite70-digit matrix controls and19 genuine changed-input faults pass. General continuum, probability and all-shell bounds rely on written proofs. No actual full-count covariance integral, empirical test, interval/Lean proof, hardware feasibility or native GU certificate is claimed.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2327--K2328: Seed likelihood and structured neutral readout (2026-10-30)
 
 K2327 constructs a constrained colored Gaussian seed, full-count finite-window likelihood and exact finite-template covariance-cone tests; shared channels retain response-direction information despite unknown seed amplitudes, with explicit Fisher and tracer limits. K2328 compiles neutral phase parking through N threshold-controlled Kerr edge swaps, dispersive parity echoes and local neutral gates, with retained-drift revival, routing, time, loss and clock bounds. Physical seed selection, actual survey covariance integrals, microscopic rate feasibility and native GU remain open.

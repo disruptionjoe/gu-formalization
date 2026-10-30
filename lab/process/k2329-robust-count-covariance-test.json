@@ -1,0 +1,79 @@
+{
+  "result_id": "K2329",
+  "status": "PASS",
+  "scope": "Exact symbolic/rational finite controls; general probability and continuum claims use written proofs. No actual full-count covariance integrals evaluated.",
+  "exact_checks": 28,
+  "numerical_checks": 0,
+  "checks": [
+    "null dual exact",
+    "actual alternative cross signal",
+    "same diagonal cannot distinguish",
+    "noise positive and alternative PSD",
+    "Frobenius and operator norms",
+    "uncertainty has adverse sign",
+    "bounded-power robust minimum",
+    "interval perturbation trace support",
+    "uniform covariance bound",
+    "sample consumer exact radius",
+    "separation exceeds both tails",
+    "trace lower bounds safe",
+    "shift repairs BOTH interval margins",
+    "shift preserves alternative separation",
+    "shift norm exact",
+    "trace-calibrated threshold factor",
+    "signed quadratic mean/variance",
+    "unknown amplitude really scales variance",
+    "Gaussian MGF is centered",
+    "MGF variance coefficient",
+    "signed MGF coefficient bound",
+    "normalized quadrupole plane wave",
+    "first angular derivative",
+    "radial velocity sign in actual kernel",
+    "spherical harmonic normalization",
+    "lens actual spherical operator sign",
+    "same-sky repeats retain correlations",
+    "kernel-to-matrix Frobenius bound"
+  ],
+  "mutations": {
+    "wrong_cross": [
+      "actual alternative cross signal",
+      "shift preserves alternative separation"
+    ],
+    "uncertainty_sign": [
+      "uncertainty has adverse sign",
+      "bounded-power robust minimum"
+    ],
+    "missing_power_cap": [
+      "bounded-power robust minimum"
+    ],
+    "no_dual_repair": [
+      "shift repairs BOTH interval margins",
+      "shift preserves alternative separation",
+      "shift norm exact"
+    ],
+    "uncentered_mgf": [
+      "Gaussian MGF is centered"
+    ],
+    "radial_sign": [
+      "radial velocity sign in actual kernel"
+    ],
+    "lens_sign": [
+      "lens actual spherical operator sign"
+    ],
+    "tail_constant": [
+      "sample consumer exact radius"
+    ],
+    "trace_denominator": [
+      "trace-calibrated threshold factor"
+    ],
+    "independent_sky_fiction": [
+      "same-sky repeats retain correlations"
+    ]
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2329-robust-count-covariance-test-2026-10-30.md": "62d5c949789ab606b19c31f132ce2079bd1fa9c95c5b15129e2b106b16f7800a",
+    "tests/channel-swings/k2329_robust_count_covariance_test_probe.py": "eb7c005d16d993fd46938c52ab5b8e1a2784205ab66e0210f5d6a6c853542fda",
+    "explorations/conditional-build/k2325-relativistic-count-covariance-2026-10-30.md": "bf25f64e4af8d88418d22e4e8e9497d077c9117855e72d1d80f690c06252cd56",
+    "explorations/conditional-build/k2327-constrained-seed-likelihood-2026-10-30.md": "323c63bf03d0736c1991962a23bc53a98fdfdfb4f34134758eddddf0d56f6d73"
+  }
+}

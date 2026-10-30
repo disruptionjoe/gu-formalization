@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2329-robust-count-covariance-test](conditional-build/k2329-robust-count-covariance-test-2026-10-30.md).
+- [k2330-microscopic-kerr-validity](conditional-build/k2330-microscopic-kerr-validity-2026-10-30.md).
+
 - [k2327-constrained-seed-likelihood](conditional-build/k2327-constrained-seed-likelihood-2026-10-30.md).
 - [k2328-local-neutral-readout-compiler](conditional-build/k2328-local-neutral-readout-compiler-2026-10-30.md).
 

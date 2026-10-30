@@ -1,0 +1,100 @@
+{
+  "result_id": "K2330",
+  "status": "PASS",
+  "scope": "Exact formulas and finite 70-digit matrix controls; written proofs supply uniform bounds. Not interval/proof-assistant/hardware certification.",
+  "exact_checks": 12,
+  "numerical_checks": 35,
+  "precision_digits": 70,
+  "checks": [
+    "actual two-level characteristic polynomial",
+    "lower energy is eigenvalue",
+    "second derivative",
+    "third derivative",
+    "quadratic becomes Kerr after TOTAL compensation",
+    "Taylor third-order coefficient",
+    "second difference removes every affine",
+    "third difference removes every quadratic",
+    "affine lower-bound constant",
+    "quadratic lower-bound constant",
+    "quadratic fit cannot remove cubic",
+    "Kerr revival identity on integer levels",
+    "full dressing unitary",
+    "full dressed Hamiltonian diagonal",
+    "number diagonal n=1",
+    "number offbranch n=1",
+    "actual Taylor remainder n=1",
+    "number diagonal n=2",
+    "number offbranch n=2",
+    "actual Taylor remainder n=2",
+    "number diagonal n=3",
+    "number offbranch n=3",
+    "actual Taylor remainder n=3",
+    "number diagonal n=4",
+    "number offbranch n=4",
+    "actual Taylor remainder n=4",
+    "specified compensation really commutes",
+    "photon loss number does not commute",
+    "dressing rotation bound",
+    "actual transformed hopping matches basis",
+    "control conjugation norm bound",
+    "annihilation both branches n=2",
+    "nonzero upper loss branch n=2",
+    "annihilation both branches n=3",
+    "nonzero upper loss branch n=3",
+    "annihilation both branches n=4",
+    "nonzero upper loss branch n=4",
+    "finite difference affine certificate",
+    "finite difference quadratic certificate",
+    "exact nonuniform gap n=1",
+    "exact nonuniform gap n=2",
+    "exact nonuniform gap n=3",
+    "gap bound coefficient",
+    "nominal revival residual actually nonzero",
+    "nominal revival residual bounded",
+    "full-carrier propagator error bounded",
+    "actual hard charge includes mediator"
+  ],
+  "mutations": {
+    "kerr_factor": [
+      "quadratic becomes Kerr after TOTAL compensation"
+    ],
+    "wrong_linear_compensation": [
+      "quadratic becomes Kerr after TOTAL compensation"
+    ],
+    "missing_remainder": [
+      "Taylor third-order coefficient",
+      "actual Taylor remainder n=1",
+      "actual Taylor remainder n=2",
+      "actual Taylor remainder n=3",
+      "actual Taylor remainder n=4"
+    ],
+    "wrong_jump_branch": [
+      "annihilation both branches n=2",
+      "annihilation both branches n=3",
+      "annihilation both branches n=4"
+    ],
+    "bare_number": [
+      "number diagonal n=1",
+      "number diagonal n=2",
+      "number diagonal n=3",
+      "number diagonal n=4"
+    ],
+    "cavity_only_compensation": [
+      "specified compensation really commutes"
+    ],
+    "oversized_gap": [
+      "gap bound coefficient"
+    ],
+    "quadratic_spectrum_substitution": [
+      "nominal revival residual actually nonzero"
+    ],
+    "untransformed_control": [
+      "actual transformed hopping matches basis"
+    ]
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2330-microscopic-kerr-validity-2026-10-30.md": "31404726bad0cd1273436169b187a8611a51983a337bf614e5fb4fad4fd4e591",
+    "tests/channel-swings/k2330_microscopic_kerr_validity_probe.py": "2aad8296953e76a3b927f59e725cf392ac410f4e48eb0af18804bbe0c658ce45",
+    "explorations/conditional-build/k2328-local-neutral-readout-compiler-2026-10-30.md": "4b02420cb51501e184e089f02b4344731ffee35d95d6053c1969cc3ad716a46b"
+  }
+}

@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2329-robust-count-covariance-test](k2329-robust-count-covariance-test.json).
+- [k2330-microscopic-kerr-validity](k2330-microscopic-kerr-validity.json).
+
 - [k2327-constrained-seed-likelihood](k2327-constrained-seed-likelihood.json).
 - [k2328-local-neutral-readout-compiler](k2328-local-neutral-readout-compiler.json).
 

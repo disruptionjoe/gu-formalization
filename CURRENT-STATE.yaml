@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f1685242cafd4ce1c6b35bf3d6c16e9ddfccc074
+revision_basis: db7433adc0fc3590b119dbf8554eb1f0a312ba7b
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,13 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2329 reduces the actual full-count operator to harmonic radial kernels and proves
+    covariance-error-aware Gaussian tests, including unknown-power trace calibration. K2330
+    derives a finite-shell microscopic JC-to-Kerr error account with dressed controls,
+    physical loss, nonquadratic spectral bounds and exact-frequency repair conditions.
+    Actual count covariance integration, survey replication and a complete microscopic
+    controller remain open; native GU verdicts are unchanged. Historical predecessor (not
+    live):
     K2327 constructs a constrained colored Gaussian seed, full-count finite-window
     likelihood and exact finite-template covariance-cone tests; shared channels retain
     response-direction information despite unknown seed amplitudes, with explicit Fisher and
@@ -17647,6 +17654,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2329-robust-count-covariance-test-2026-10-30.md
+  - lab/process/k2329-robust-count-covariance-test.json
+  - tests/channel-swings/k2329_robust_count_covariance_test_probe.py
+  - explorations/conditional-build/k2330-microscopic-kerr-validity-2026-10-30.md
+  - lab/process/k2330-microscopic-kerr-validity.json
+  - tests/channel-swings/k2330_microscopic_kerr_validity_probe.py
   - explorations/conditional-build/k2327-constrained-seed-likelihood-2026-10-30.md
   - lab/process/k2327-constrained-seed-likelihood.json
   - tests/channel-swings/k2327_constrained_seed_likelihood_probe.py
@@ -19535,6 +19548,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can certified actual count-window matrices retain a finite-data separation under
+  physical nuisance and sampling constraints, and can exact JC transition frequencies and
+  dressed control matrices replace the long-time Kerr approximation? Historical
+  predecessor (not live):
   Which actual count windows and constrained statistical family distinguish competing
   dynamics after nuisance fitting, and can a specified microscopic device meet the
   explicit neutral-readout time, loss and clock requirements? Historical predecessor (not
@@ -23622,6 +23639,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Integrate the actual harmonic full-count kernels with certified ODE, radial, spectral
+  and tail errors for a fixed seed/tracer/noise family, then test the robust margins using
+  genuinely justified Gaussian replication. Independently build selective controls using
+  the exact JC frequencies, lower-branch matrix elements and upper-branch leakage
+  constraints, retaining idle phases and physical noise. Preserve curved native stationary
+  field/receiver jets and common domain as a distinct construction. Do not repeat
+  population-cone algebra, generic concentration, Taylor expansion or abstract
+  controllability as new results. Historical predecessor (not live):
   Instantiate and certify actual full-count covariance matrices for fixed windows, noise
   and allowed seed/tracer templates, then test cone separation or nuisance-projected
   information before empirical inference. For calibration, derive or measure the same

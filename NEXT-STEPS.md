@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-10-30: SEED LIKELIHOOD AND STRUCTURED NEUTRAL READOUT.**
+> **2026-10-30: ROBUST COVARIANCE AND MICROSCOPIC KERR VALIDITY.**
+> Integrate the actual harmonic full-count kernels with certified ODE, radial, spectral and tail errors for a fixed seed/tracer/noise family, then test the robust margins using genuinely justified Gaussian replication. Independently build selective controls using the exact JC frequencies, lower-branch matrix elements and upper-branch leakage constraints, retaining idle phases and physical noise. Preserve curved native stationary field/receiver jets and common domain as a distinct construction. Do not repeat population-cone algebra, generic concentration, Taylor expansion or abstract controllability as new results.
+
+
+> **Historical predecessor, no longer the live next condition: 2026-10-30 SEED LIKELIHOOD AND STRUCTURED NEUTRAL READOUT.**
 > Instantiate and certify actual full-count covariance matrices for fixed windows, noise and allowed seed/tracer templates, then test cone separation or nuisance-projected information before empirical inference. For calibration, derive or measure the same device Kerr, hopping, dispersive, neutral-gate, loss and clock rates against the structured compiler cost; avoid repeating number recording or abstract controllability. Retain curved native stationary field/receiver jets and common analytic domain with held P and frozen199/931. No physical seed, catalog model or hardware feasibility is inferred from the conditional constructions.
 
 

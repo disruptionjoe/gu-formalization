@@ -1,4 +1,7 @@
 
+- [k2329-robust-count-covariance-test](k2329_robust_count_covariance_test_probe.py).
+- [k2330-microscopic-kerr-validity](k2330_microscopic_kerr_validity_probe.py).
+
 - [k2327-constrained-seed-likelihood](k2327_constrained_seed_likelihood_probe.py).
 - [k2328-local-neutral-readout-compiler](k2328_local_neutral_readout_compiler_probe.py).
 
