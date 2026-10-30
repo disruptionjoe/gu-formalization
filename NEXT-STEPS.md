@@ -5,6 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-10-30: LOCAL MATCHING, CONSTRAINED SCALAR AND POSITIVE PUMP.**
+> The same-history cosmology now needs the coupled scalar/matter/source evolution with controlled local matching; an instantaneous negative constrained mass is not a global instability and endpoint substitution is not a measured siren transfer. The exact rolling metric source term is available. Compare this with physical synthesis/calibration of the local positive square interaction: the new compiler removes global Q² but supplies local quartic/trilinear access, enormous timing resources and explicit L1 control tolerances. Do not repeat point-source Yukawa, fixed-history fits, potential-mass substitution, modular instantaneous stabilization or abstract controllability. Native paired I1B matter/light is a distinct challenger: construct the smallest pairing-preserving distortion injection and full companion/source/readout block before importing the horizontal inverse. Preserve source and ledger ceilings.
+> Earlier banners are historical; use this current condition.
+
+
 > **2026-10-30: TENSOR TRANSFER AND EXPLICIT COMPENSATOR SYNTHESIS.**
 > Prioritize source/environment and matter matching for the SAME fitted cosmology before comparing its tensor transfer with measured standard sirens; background F endpoints are not automatically local emitter/detector values. Scalar trace mass alone does not prove rolling-background stability. Strongest apparatus alternative is a semibounded synthesis of the remaining B_z pump or a priced physical implementation of the explicit number/register couplings; final modular compensation does not synthesize B_z, and bounded modular stabilization is now excluded. Keep the enormous stock, precise gate/angle budgets and full retained-pump consumer. Do not repeat fits, tighter already-sufficient wave bounds, supplied whole-unitary clocks or the failed bounded-shift shortcut. Native matter/light paired readout and physical preparation-energy remain alternatives under unchanged source/ledger ceilings.
 > Earlier banners are historical; use this current condition.

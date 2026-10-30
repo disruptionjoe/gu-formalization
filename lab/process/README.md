@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2289-quadratic-source-matching](k2289-quadratic-source-matching.json).
+- [k2290-local-positive-pump](k2290-local-positive-pump.json).
+- [k2291-rolling-scalar-applicability](k2291-rolling-scalar-applicability.json).
+
+
 - [k2286-quadratic-tensor-propagation](k2286-quadratic-tensor-propagation.json).
 - [k2287-finite-register-compensator](k2287-finite-register-compensator.json).
 - [k2288-finite-frequency-tensor-bound](k2288-finite-frequency-tensor-bound.json).

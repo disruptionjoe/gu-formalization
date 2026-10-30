@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2289-quadratic-source-matching-2026-10-30](conditional-build/k2289-quadratic-source-matching-2026-10-30.md).
+- [k2290-local-positive-pump-2026-10-30](conditional-build/k2290-local-positive-pump-2026-10-30.md).
+- [k2291-rolling-scalar-applicability-2026-10-30](conditional-build/k2291-rolling-scalar-applicability-2026-10-30.md).
+
+
 - [k2286-quadratic-tensor-propagation-2026-10-30](conditional-build/k2286-quadratic-tensor-propagation-2026-10-30.md).
 - [k2287-finite-register-compensator-2026-10-30](conditional-build/k2287-finite-register-compensator-2026-10-30.md).
 - [k2288-finite-frequency-tensor-bound-2026-10-30](conditional-build/k2288-finite-frequency-tensor-bound-2026-10-30.md).

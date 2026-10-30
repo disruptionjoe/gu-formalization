@@ -1,0 +1,53 @@
+{
+  "check_names": [
+    "hash_explorations/conditional-build/k2286-quadratic-tensor-propagation-2026-10-30.md",
+    "hash_lab/process/k2283-global-quadratic-cosmology.json",
+    "hash_tests/channel-swings/k2286_quadratic_tensor_propagation_probe.py",
+    "hash_explorations/conditional-build/k2271-forward-cosmology-domain-2026-10-29.md",
+    "hash_explorations/conditional-build/k2280-shared-coefficient-cosmology-survivor-2026-10-29.md",
+    "hash_explorations/conditional-build/k2283-global-quadratic-cosmology-2026-10-30.md",
+    "hash_lab/process/k2277-multibin-pure-r2-test.json",
+    "hash_tests/channel-swings/k2283_global_quadratic_cosmology_probe.py",
+    "potential_first",
+    "potential_second",
+    "constraint_mass_expansion",
+    "deSitter_countercontrol",
+    "independent_adiabatic_identity",
+    "mass_negative_interval",
+    "potential_positive_interval",
+    "independent_interval_overlap",
+    "initial_Einstein_expansion",
+    "potential_concavity_crossing"
+  ],
+  "checks": 18,
+  "claim_ceiling": "conditional supplied models; no GU empirical or hardware acceptance",
+  "dependencies": {
+    "explorations/conditional-build/k2291-rolling-scalar-applicability-2026-10-30.md": "b275380fa539e4818b9dbf98059522560b59bf6142c9324e45af7cb5e5652b45",
+    "lab/process/k2286-quadratic-tensor-propagation.json": "18c3e45d622ef43d6a1df8ebc0e1f257dec78af4a319882778fa8bf37a305e7c",
+    "tests/channel-swings/k2291_rolling_scalar_applicability_probe.py": "ab1f858a25c4f03a1315c96e8924e648fa6d8d081352ac5e6e73327b49ed5179"
+  },
+  "evidence_kind": "symbolic identities and rational or outward interval bounds; hashes provenance only; universal arguments in companion",
+  "interval_results": {
+    "adiabatic_mass_over_HE2": "[-8.5314253754947240822772332626211209989589208 +/- 6.09e-44]",
+    "constrained_mass_over_HE2": "[-8.53142537549472408227723326262112099895892083 +/- 7.03e-45]",
+    "potential_curvature_over_HE2": "[4.604582524001109030830814512505114778310111322 +/- 8.01e-46]",
+    "potential_inflection_F": "[67.718343195266272189349112426035502958579881657 +/- 5.69e-46]"
+  },
+  "mutation_failed_checks": {
+    "missing_metric_cross": [
+      "constrained_mass"
+    ],
+    "potential_as_mass": [
+      "constrained_mass"
+    ],
+    "wrong_Hdot_sign": [
+      "constrained_mass"
+    ],
+    "wrong_time_orientation": [
+      "redshift_Einstein_chain"
+    ]
+  },
+  "result_id": "K2291",
+  "schema_version": "1.0",
+  "scope": "instantaneous flat-gauge mass; no global instability verdict"
+}

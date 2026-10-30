@@ -1,4 +1,9 @@
 
+- [k2289_quadratic_source_matching_probe](k2289_quadratic_source_matching_probe.py).
+- [k2290_local_positive_pump_probe](k2290_local_positive_pump_probe.py).
+- [k2291_rolling_scalar_applicability_probe](k2291_rolling_scalar_applicability_probe.py).
+
+
 - [k2286_quadratic_tensor_propagation_probe](k2286_quadratic_tensor_propagation_probe.py).
 - [k2287_finite_register_compensator_probe](k2287_finite_register_compensator_probe.py).
 - [k2288_finite_frequency_tensor_bound_probe](k2288_finite_frequency_tensor_bound_probe.py).

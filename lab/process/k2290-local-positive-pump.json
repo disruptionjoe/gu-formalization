@@ -1,0 +1,111 @@
+{
+  "calibration": "positive B coefficient L1 errors and correction area errors <=1e-122",
+  "check_names": [
+    "hash_explorations/conditional-build/k2278-calibrated-pump-detector-2026-10-29.md",
+    "hash_explorations/conditional-build/k2273-positive-control-energy-2026-10-29.md",
+    "hash_explorations/conditional-build/k2276-structured-detector-implementation-2026-10-29.md",
+    "hash_explorations/conditional-build/k2253-full-instrument-reference-reuse-2026-10-29.md",
+    "hash_explorations/conditional-build/k2279-uniform-pump-energy-2026-10-29.md",
+    "hash_tests/channel-swings/k2279_uniform_pump_energy_probe.py",
+    "hash_explorations/conditional-build/k2281-thermal-pump-preparation-2026-10-29.md",
+    "hash_explorations/conditional-build/k2282-centered-positive-control-2026-10-29.md",
+    "hash_explorations/conditional-build/k2285-thermal-centered-composition-2026-10-30.md",
+    "hash_tests/channel-swings/k2285_thermal_centered_composition_probe.py",
+    "square_matrix_0",
+    "positive_matrix_0",
+    "charge_commutator_0",
+    "diagonal_number_commutator_0",
+    "square_matrix_1",
+    "positive_matrix_1",
+    "charge_commutator_1",
+    "diagonal_number_commutator_1",
+    "square_matrix_2",
+    "positive_matrix_2",
+    "charge_commutator_2",
+    "diagonal_number_commutator_2",
+    "square_matrix_3",
+    "positive_matrix_3",
+    "charge_commutator_3",
+    "diagonal_number_commutator_3",
+    "square_matrix_4",
+    "positive_matrix_4",
+    "charge_commutator_4",
+    "diagonal_number_commutator_4",
+    "square_matrix_5",
+    "positive_matrix_5",
+    "charge_commutator_5",
+    "diagonal_number_commutator_5",
+    "square_matrix_6",
+    "positive_matrix_6",
+    "charge_commutator_6",
+    "diagonal_number_commutator_6",
+    "square_matrix_7",
+    "positive_matrix_7",
+    "charge_commutator_7",
+    "diagonal_number_commutator_7",
+    "square_matrix_8",
+    "positive_matrix_8",
+    "charge_commutator_8",
+    "diagonal_number_commutator_8",
+    "thermal_raw_fourth_from_mgf",
+    "thermal_raw_fourth_from_normal_moments",
+    "fourth_moment_uniform_bound",
+    "second_moment_uniform_bound",
+    "commutator_uniform_constant",
+    "noisy_square_margin",
+    "coherent_channel_budget",
+    "coherent_energy_budget",
+    "thermal_tail_enclosure",
+    "thermal_channel_budget",
+    "thermal_energy_budget",
+    "noncentral_shift",
+    "actual_time_dependent_convergence",
+    "finite_shell_duhamel_bound"
+  ],
+  "checks": 60,
+  "claim_ceiling": "conditional supplied models; no GU empirical or hardware acceptance",
+  "dependencies": {
+    "explorations/conditional-build/k2290-local-positive-pump-2026-10-30.md": "d565defb85f00879b5e0f143ad3cd0f131a59151740fb66d4c3c83c9bc48a053",
+    "lab/process/k2279-uniform-pump-energy.json": "3eb1ba6c387b872e9776f7747a2487a1a610befbcf7471073db8cc672f85041f",
+    "lab/process/k2285-thermal-centered-composition.json": "90247e6a0a151e6c9ac47c559bc93f88d6c8f45c3104bbc5e169b772a1794bf4",
+    "tests/channel-swings/k2290_local_positive_pump_probe.py": "2235e4810dc49a20d0332a7098f5b5489ef4e74cdd860c6433553b46d14c2954"
+  },
+  "evidence_kind": "symbolic identities and rational or outward interval bounds; finite matrices are controls; hashes provenance only; universal arguments in companion",
+  "finite_matrix_scope": "q<=8 controls, not proof of whole-Fock positivity",
+  "mutation_failed_checks": {
+    "insufficient_pump_stabilizer": [
+      "positive_generator"
+    ],
+    "no_interleaving": [
+      "compiler"
+    ],
+    "wrong_charge_weight": [
+      "charge"
+    ],
+    "wrong_cross_sign": [
+      "cross_term"
+    ],
+    "wrong_thermal_fourth": [
+      "thermal_fourth"
+    ]
+  },
+  "pulses": "600000000000000000000000000000000000000000000000",
+  "resource_certificates": {
+    "coherent": {
+      "core": "4164838189962051877021597764223/450359962737050000000000000000000000000000",
+      "diagonal_errors": "110000000000000000000000000003/12500000000000000000000000000000000000000000000",
+      "split": "39/12500000000000000",
+      "tail": "1/50000000000000",
+      "total": "1043813618867051139765399441055750027021597764223/112589990684262500000000000000000000000000000000000000000000"
+    },
+    "thermal": {
+      "core": "4164838189962051877021597764223/450359962737050000000000000000000000000000",
+      "diagonal_errors": "440000000000000000000000000003/3125000000000000000000000000000000000000000000",
+      "split": "39/3125000000000000",
+      "tail": "867/50000000000000000",
+      "total": "261145708420851505291349860263937527021597764223/28147497671065625000000000000000000000000000000000000000000"
+    }
+  },
+  "result_id": "K2290",
+  "schema_version": "1.0"
+}

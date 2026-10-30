@@ -1,0 +1,70 @@
+{
+  "check_names": [
+    "hash_explorations/conditional-build/k2286-quadratic-tensor-propagation-2026-10-30.md",
+    "hash_lab/process/k2283-global-quadratic-cosmology.json",
+    "hash_tests/channel-swings/k2286_quadratic_tensor_propagation_probe.py",
+    "hash_explorations/conditional-build/k2271-forward-cosmology-domain-2026-10-29.md",
+    "hash_explorations/conditional-build/k2280-shared-coefficient-cosmology-survivor-2026-10-29.md",
+    "hash_explorations/conditional-build/k2283-global-quadratic-cosmology-2026-10-30.md",
+    "hash_lab/process/k2277-multibin-pure-r2-test.json",
+    "hash_tests/channel-swings/k2283_global_quadratic_cosmology_probe.py",
+    "interior_equation",
+    "exterior_equation",
+    "matching_value",
+    "matching_derivative",
+    "regular_center",
+    "small_mass_charge",
+    "massless_center",
+    "range_countercontrol",
+    "surface_range_countercontrol",
+    "positive_charge_series_1",
+    "positive_charge_series_2",
+    "positive_charge_series_3",
+    "positive_charge_series_4",
+    "positive_charge_series_5",
+    "positive_charge_series_6",
+    "positive_charge_series_7",
+    "trace_sign",
+    "positive_density_equilibrium",
+    "endpoint_interval",
+    "equalization_requires_strong_source",
+    "same_history_range",
+    "rolling_metric_wave_variation",
+    "arbitrary_shape_kernel_factor",
+    "concentrated_source_countercontrol"
+  ],
+  "checks": 32,
+  "claim_ceiling": "conditional supplied models; no GU empirical or hardware acceptance",
+  "dependencies": {
+    "explorations/conditional-build/k2289-quadratic-source-matching-2026-10-30.md": "d7c66c1f0be8f41fb9964ae79ee4f3233ee1291434ad4881694d8ef839e4ef9a",
+    "lab/process/k2286-quadratic-tensor-propagation.json": "18c3e45d622ef43d6a1df8ebc0e1f257dec78af4a319882778fa8bf37a305e7c",
+    "tests/channel-swings/k2289_quadratic_source_matching_probe.py": "9ea92ea18742f6842b28e88f86e9f8d2abf4cf893800f4165c023e89e1d39105"
+  },
+  "evidence_kind": "symbolic identities and rational or outward interval bounds; hashes provenance only; universal arguments in companion",
+  "interval_results": {
+    "endpoint_lower": "[0.63475 +/- 6.57e-6]",
+    "endpoint_upper": "[0.63539 +/- 6.41e-6]",
+    "mass_over_H0": "[2.1145164056375700109889055298449217947827195707 +/- 4.16e-47]",
+    "required_observer_compactness": "[1.4795 +/- 7.19e-5]"
+  },
+  "mutation_failed_checks": {
+    "drop_interior_one_plus_x": [
+      "boundary"
+    ],
+    "omit_rolling_metric_response": [
+      "rolling_metric"
+    ],
+    "strong_environment_outside_class": [
+      "weak_endpoint_bound"
+    ],
+    "wrong_charge_normalization": [
+      "unit_mass_limit"
+    ],
+    "wrong_source_sign": [
+      "source_equation"
+    ]
+  },
+  "result_id": "K2289",
+  "schema_version": "1.0",
+  "scope": "exact frozen elliptic model and endpoint substitution only"
+}

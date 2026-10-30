@@ -5,6 +5,19 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2289--K2291: Source matching, local positive pump and rolling scalar (2026-10-30)
+
+K2289 derives finite-source response and a weak-environment endpoint bound for the unchanged quadratic history: compactness at most0.001 leaves the endpoint-only ratio within0.6347--0.6355; arbitrary positive-source potentials and the omitted rolling metric term are explicit. K2291 obtains positive canonical scalar kinetic/gradient terms but present constrained mass ratio between-8.532 and-8.531, despite positive potential curvature; no global instability verdict. K2290 replaces the global pump stabilizer by a supplied local positive square with noncommuting interleaved corrections. Coherent and thermal full retained-pump instrument errors stay below9.3e-12, field error below.008 and depletion12.8±.004, at6e47 pulses and1e-122 diagonal-error budgets. All results are conditional; no GU, empirical or hardware acceptance.
+
+- [K2289](explorations/conditional-build/k2289-quadratic-source-matching-2026-10-30.md).
+- [K2290](explorations/conditional-build/k2290-local-positive-pump-2026-10-30.md).
+- [K2291](explorations/conditional-build/k2291-rolling-scalar-applicability-2026-10-30.md).
+
+Two independent field specialists and a separate adversarial reviewer inspected the actual arguments and probes.110 checks distinguish symbolic/algebraic-field identities, outward intervals, rational resources, finite matrix controls and inherited-dependency hashes;14 genuine changed-input/formula/operator faults fail the same clean predicates. The scalar mass agrees by potential/constraint and adiabatic-flow derivations. Corrected a thermal fourth-moment polynomial, an endpoint provenance literal and evidence labels; exact algebraic-field evaluation replaces an interrupted expression-expansion attempt. Universal Green-function, constrained-action, direct-sum positivity, Duhamel and moment arguments are in the companions. No full trajectory rebuild, Lean, external-expert, novelty, empirical, hardware or remote-CI certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2286--K2288: Tensor transport and register compensation (2026-10-30)
 
 K2286 derives tensor propagation for the unchanged full13-compatible quadratic history: geometric-optics endpoint ratio0.63506--0.63509 and present running alphaM=-0.825581476, independent of the common BAO ruler. K2288 certifies the finite-frequency prepared-wave transfer between0.6349 and0.6352 when k/Hstar>=1e10 using the inherited continuous trajectory and a new exact wave-potential bound. K2287 constructs the final compensator from96/98 neutral qubits,4032/4116 positive local number pulses and14448/15043 neutral gates: coherent/thermal complete errors<9.261e-12/<9.262e-12, with field energy and depletion bounds retained. A Rayleigh sequence proves the bounded modular square cannot replace instantaneous positive pump stabilization. All are conditional models; no GU, empirical, hardware or canon verdict.
