@@ -6,6 +6,19 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2307--K2309: Conditional spatial and operational results (2026-10-30)
+
+K2307 extends the selected native coupled scalar mode to nonzero real spatial Fourier momentum, verifies every coupled row and constructs growing horizontal Schwartz packets; full normal localization and physical source/readout remain open. K2308 constructs the fixed healthy designer action's k>0 constrained dust/scalar system through H_E=0, proves determinant(a0/a)^4 and an explicit finite transfer bound, and derives Jordan-frame matter/lensing readouts. K2309 supplies nonclassical sine-pilot calibration below9.491e-12 average error, or9.511e-12 with stated preparation/correction errors, while a deterministic covariant coherent preparation costs more than1.575e54 mean photons. General single-pass95%-success calibration still requires mean phase-bearing number above1e24. These are conditional mathematical results; source claims, ledger0.263 and native physical mappings are unchanged.
+
+- [K2307](explorations/conditional-build/k2307-spatial-coupled-native-mode-2026-10-30.md).
+- [K2308](explorations/conditional-build/k2308-inhomogeneous-constrained-dust-transfer-2026-10-30.md).
+- [K2309](explorations/conditional-build/k2309-nonclassical-pump-calibration-2026-10-30.md).
+
+Three read-only mathematical/physical specialists reviewed the actual arguments and probes.83 checks(20+29+34) and21 altered-input/formula faults(7each) pass. Evidence includes exact native Gaussian-rational coefficients, symbolic constraints/frame identities, finite Fourier controls and rational bounds; universal covariance/domain/probability claims use written proofs. Review repaired source/flux controls, strengthened coefficient-bound and divisor checks, and clarified pilot independence, actual record conditioning and finite-carrier energy. No Lean, external-expert, novelty, empirical, hardware or whole-GU certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2304--K2306: Conditional research results (2026-10-30)
 
 K2304 solves all six temporal spatial-metric source channels of the selected native coupled Hessian: tracefree response has no exponential pole, while the scalar coupled mode obeys113a²=17kappa². Schwartz response is unique under four moment conditions; tempered polynomial ambiguity and compact-source repairs remain explicit. K2305 constructs homogeneous constrained dust/scalar transfer regular through the designer turnaround, proves an exact transfer determinant and finite interval bound, and propagates a specified non-time-shift perturbation. K2306 prices coherent-pilot calibration of the same retained coherent pump: more than10^49 effective pilot photons are necessary for the stated95% accuracy requirement; ideal heterodyne protocols with10^53 or10^54 photons give success or averaged bounds respectively. Source claims, ledger0.263 and native physical mappings remain unchanged.

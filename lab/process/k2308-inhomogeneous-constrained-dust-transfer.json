@@ -1,0 +1,71 @@
+{
+  "check_names": [
+    "constraint_propagation_off_surface",
+    "trace_Einstein_equation",
+    "number_constraint_chart",
+    "constraint_reconstruction",
+    "reduced_trace",
+    "reconstructed_number_evolution",
+    "no_H_divisor",
+    "no_Poisson_divisor",
+    "number_current_conservation",
+    "particle_acceleration",
+    "mass_density_conversion_KG",
+    "velocity_seed_initial_constraint",
+    "velocity_seed_jets",
+    "number_derivative_cancellation",
+    "Poisson_zero_is_regular",
+    "Jordan_lapse",
+    "Jordan_spatial",
+    "Jordan_mass_number_agreement",
+    "Jordan_lensing_sum",
+    "selected_slip_second_jet",
+    "fixture_determinant_identity",
+    "fixture_minimum_a2",
+    "bound_Phi_row",
+    "bound_chi_row",
+    "bound_velocity_row",
+    "bound_scalar_row_constants",
+    "bound_other_actual_rows",
+    "bound_scalar_q_coefficient",
+    "finite_interval_norm_bound"
+  ],
+  "checks": 29,
+  "dependencies": {
+    "explorations/conditional-build/k2302-designer-frame-turnaround-2026-10-30.md": "c5559975da47f62c901d9897deee3891954e8c2acb9f9b7c9f660f0991602d5e",
+    "explorations/conditional-build/k2305-regular-constrained-matter-transfer-2026-10-30.md": "0c9f531e68df8016d888f31bc3271bc20eed66ffabefe967aca5a37590db45b0",
+    "explorations/conditional-build/k2308-inhomogeneous-constrained-dust-transfer-2026-10-30.md": "1118f1f7d3dfb0ffe93fd4187e6472733fab3541469228c33ace7f0b3a30cad6",
+    "tests/channel-swings/k2308_inhomogeneous_constrained_dust_transfer_probe.py": "080b968df924ef2910e53e3da1e712560dbd8b646538c62485c6fa5ed9620c07"
+  },
+  "details": {
+    "determinant": "(a0/a)^4",
+    "norm_bound": "exp(33+121*k^2/300)",
+    "reduced_matrix": "Matrix([[-H, u/(2*m), 0, -d/(2*m)], [0, 0, 1, 0], [-4*H*u - 2*V1 - 2*beta*d - beta*(-2*m*q + u**2), -V2 - beta**2*d - beta*(-3*H*u - V1 - beta*d) - q + 2*u**2/m, -3*H + beta*u, -3*H*beta*d - 2*d*u/m], [-1, -beta, 0, -beta*u]])"
+  },
+  "evidence_kind": "symbolic ODE/constraint/frame identities and rational norm bounds; action derivations and fixed-k existence in note",
+  "mutation_failed_checks": {
+    "omit_dust_lapse": [
+      "constraint_propagation_off_surface"
+    ],
+    "omit_mass_conversion": [
+      "constraint_propagation_off_surface"
+    ],
+    "omit_metric_scalar_drive": [
+      "constraint_propagation_off_surface"
+    ],
+    "wrong_Jordan_density": [
+      "Jordan_mass_number_agreement"
+    ],
+    "wrong_force_sign": [
+      "constraint_propagation_off_surface"
+    ],
+    "wrong_transfer_power": [
+      "reduced_trace"
+    ],
+    "wrong_velocity_divergence": [
+      "constraint_propagation_off_surface"
+    ]
+  },
+  "result_id": "K2308",
+  "schema_version": "1.0"
+}

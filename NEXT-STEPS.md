@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-10-30: COUPLED SOURCE, REGULAR MATTER TRANSFER AND CALIBRATION.**
+> **2026-10-30: SPATIAL MODE, INHOMOGENEOUS TRANSFER AND NONCLASSICAL CALIBRATION.**
+> Test full normal localization and an owned source/readout or constraint for K2307's nonzero-curvature spatial branch; conservation or unspecified positivity does not remove it. On the SAME healthy designer action, supply physical initial spectra and observed transfer or controlled spatial/Jeans estimates; fixed-k regularity is not stability. For retained-pump calibration, construct preparation/reference/correction resources with leakage, independence and error budgets included; low sine-pilot occupation does not remove its coherent preparation cost. Preserve native/source/ledger and domain ceilings.
+
+
+> **Historical predecessor, no longer the live next condition: 2026-10-30 COUPLED SOURCE, REGULAR MATTER TRANSFER AND CALIBRATION.**
 > Test the scalar native coupled mode against an actual source/readout law or a nonzero spatial coupled symbol; do not replay the restricted h11 pole or claim tempered uniqueness. For the fixed healthy designer action, construct k>0 constrained matter/scalar transfer in variables regular through H_E=0; homogeneous finite transfer is not Jeans stability. For the same pump circuit, supply reference, clock, calibration-transfer and correction-error budgets or a specified nonclassical pilot class; coherent-pilot resource bounds are not hardware impossibility. Preserve source, ledger and physical-mapping ceilings.
 > Earlier banners are historical; use this current condition.
 

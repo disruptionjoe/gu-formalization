@@ -1,0 +1,65 @@
+{
+  "check_names": [
+    "phi1_fixed",
+    "Lorentz_relation",
+    "native_curvature_covariance",
+    "odd_full_companion",
+    "even_full_companion",
+    "metric_row_(0, 0)",
+    "metric_row_(0, 1)",
+    "metric_row_(0, 2)",
+    "metric_row_(0, 3)",
+    "metric_row_(1, 1)",
+    "metric_row_(1, 2)",
+    "metric_row_(1, 3)",
+    "metric_row_(2, 2)",
+    "metric_row_(2, 3)",
+    "metric_row_(3, 3)",
+    "nongauge_scalar_curvature",
+    "growth_dispersion",
+    "WEC_timelike_control",
+    "DEC_flux_spacelike_control",
+    "normal_support_retained"
+  ],
+  "checks": 20,
+  "dependencies": {
+    "explorations/conditional-build/k2307-spatial-coupled-native-mode-2026-10-30.md": "fb1b7609582614495d616d4205cfd1c8a225c55d6330b0e5db6b282a1bda983b",
+    "lab/process/k2304-coupled-temporal-source-response.json": "8862d415b421d17e27bbe95b5a65cbe396db80b68be16532ed4e013e12535880",
+    "tests/channel-swings/k2298_enlarged_native_companion_probe.py": "b9e368a438277a68f4f72a111010e8240572e627c1cf997511ea02834fc7aa9a",
+    "tests/channel-swings/k2307_spatial_coupled_native_mode_probe.py": "ef984dd959fcb01e5ae8c7093842f73e5912b087046865db51106d8ae8a9ff59",
+    "tests/channel-swings/k77_exact_bank_api.py": "5f9ca5458e55669bce226bf65e82b11a54d81d7cffeb2d18a1fb4635f575cf5b",
+    "tests/fixtures/k77_exact_coefficient_bank_v1.json": "af7642876b0f788c4561f977c62b57307783849170031536a9e578102fc382c8"
+  },
+  "details": {
+    "full_metric_rows": 10,
+    "lambda_over_a": "3/5",
+    "p_over_a": "4/5",
+    "scalar_curvature_over_a2": "3"
+  },
+  "evidence_kind": "exact native Gaussian-rational full-row witness; general covariance/domain arguments in note",
+  "mutation_failed_checks": {
+    "delete_time_metric": [
+      "odd_full_companion"
+    ],
+    "drop_normal_distortion": [
+      "odd_full_companion"
+    ],
+    "metric_only_boost": [
+      "odd_full_companion"
+    ],
+    "negative_pressure": [
+      "WEC_timelike_control"
+    ],
+    "omit_even_distortion": [
+      "odd_full_companion"
+    ],
+    "same_clifford_boost": [
+      "phi1_fixed"
+    ],
+    "wrong_dispersion": [
+      "odd_full_companion"
+    ]
+  },
+  "result_id": "K2307",
+  "schema_version": "1.0"
+}

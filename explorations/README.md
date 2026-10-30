@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2307-spatial-coupled-native-mode](conditional-build/k2307-spatial-coupled-native-mode-2026-10-30.md).
+- [k2308-inhomogeneous-constrained-dust-transfer](conditional-build/k2308-inhomogeneous-constrained-dust-transfer-2026-10-30.md).
+- [k2309-nonclassical-pump-calibration](conditional-build/k2309-nonclassical-pump-calibration-2026-10-30.md).
+
 - [k2304-coupled-temporal-source-response-2026-10-30](conditional-build/k2304-coupled-temporal-source-response-2026-10-30.md).
 - [k2305-regular-constrained-matter-transfer-2026-10-30](conditional-build/k2305-regular-constrained-matter-transfer-2026-10-30.md).
 - [k2306-retained-pump-phase-calibration-2026-10-30](conditional-build/k2306-retained-pump-phase-calibration-2026-10-30.md).

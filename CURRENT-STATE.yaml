@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: b1c339426c8abc117b96669fc87d28f19a34aaa8
+revision_basis: 41f0889d58bbd2d8b07972d1849abed718fb84ce
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,17 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2307 extends the selected native coupled scalar mode to nonzero real spatial Fourier
+    momentum, verifies every coupled row and constructs growing horizontal Schwartz packets;
+    full normal localization and physical source/readout remain open. K2308 constructs the
+    fixed healthy designer action's k>0 constrained dust/scalar system through H_E=0, proves
+    determinant(a0/a)^4 and an explicit finite transfer bound, and derives Jordan-frame
+    matter/lensing readouts. K2309 supplies nonclassical sine-pilot calibration
+    below9.491e-12 average error, or9.511e-12 with stated preparation/correction errors,
+    while a deterministic covariant coherent preparation costs more than1.575e54 mean
+    photons. General single-pass95%-success calibration still requires mean phase-bearing
+    number above1e24. These are conditional mathematical results; source claims, ledger0.263
+    and native physical mappings are unchanged. Historical predecessor (not live):
     K2304 solves all six temporal spatial-metric source channels of the selected native
     coupled Hessian: tracefree response has no exponential pole, while the scalar
     coupled mode obeys113a²=17kappa². Schwartz response is unique under four moment
@@ -17563,6 +17574,15 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2307-spatial-coupled-native-mode-2026-10-30.md
+  - lab/process/k2307-spatial-coupled-native-mode.json
+  - tests/channel-swings/k2307_spatial_coupled_native_mode_probe.py
+  - explorations/conditional-build/k2308-inhomogeneous-constrained-dust-transfer-2026-10-30.md
+  - lab/process/k2308-inhomogeneous-constrained-dust-transfer.json
+  - tests/channel-swings/k2308_inhomogeneous_constrained_dust_transfer_probe.py
+  - explorations/conditional-build/k2309-nonclassical-pump-calibration-2026-10-30.md
+  - lab/process/k2309-nonclassical-pump-calibration.json
+  - tests/channel-swings/k2309_nonclassical_pump_calibration_probe.py
   - explorations/conditional-build/k2304-coupled-temporal-source-response-2026-10-30.md
   - explorations/conditional-build/k2305-regular-constrained-matter-transfer-2026-10-30.md
   - explorations/conditional-build/k2306-retained-pump-phase-calibration-2026-10-30.md
@@ -19385,6 +19405,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which native source/readout or full normal-domain construction admits the growing
+  nonzero-spatial coupled mode, and can fixed-action matter initial data or a priced
+  calibration preparation/reference architecture close the remaining physical interfaces?
+  Historical predecessor (not live):
   Which source/observable or spatial-domain condition determines the surviving native
   scalar coupled mode, and can inhomogeneous matter response or a fully priced
   calibration architecture meet the remaining physical interface?
@@ -23441,6 +23465,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Test full normal localization and an owned source/readout or constraint for K2307's
+  nonzero-curvature spatial branch; conservation or unspecified positivity does not remove
+  it. On the SAME healthy designer action, supply physical initial spectra and observed
+  transfer or controlled spatial/Jeans estimates; fixed-k regularity is not stability. For
+  retained-pump calibration, construct preparation/reference/correction resources with
+  leakage, independence and error budgets included; low sine-pilot occupation does not
+  remove its coherent preparation cost. Preserve native/source/ledger and domain ceilings.
+  Historical predecessor (not live):
   Test the scalar native coupled mode against an actual source/readout law or a nonzero
   spatial coupled symbol; do not replay the restricted h11 pole or claim tempered
   uniqueness. For the fixed healthy designer action, construct k>0 constrained

@@ -1,0 +1,85 @@
+{
+  "check_names": [
+    "0_norm",
+    "0_mean",
+    "0_eigen",
+    "0_circular_loss",
+    "1_norm",
+    "1_mean",
+    "1_eigen",
+    "1_circular_loss",
+    "2_norm",
+    "2_mean",
+    "2_eigen",
+    "2_circular_loss",
+    "2_preparation_orthogonality",
+    "4_norm",
+    "4_mean",
+    "4_eigen",
+    "4_circular_loss",
+    "4_preparation_orthogonality",
+    "POVM_normalized",
+    "Fourier_loss_N1",
+    "twirled_loss",
+    "general_path_recurrence",
+    "charge_two_alias",
+    "pi_square_bound",
+    "confidence_failure",
+    "confidence_error",
+    "averaged_error",
+    "imperfect_average",
+    "imperfect_success",
+    "general_mean_resource_control",
+    "linear_duration_resource",
+    "preparation_log_lower",
+    "coherent_preparation_price",
+    "preparation_fidelity_threshold"
+  ],
+  "checks": 34,
+  "dependencies": {
+    "explorations/conditional-build/k2240-finite-battery-gate-2026-10-29.md": "6333bdafdf415421225a4ffd3b660169e5a2c3049daa27f263bd28da59ed7377",
+    "explorations/conditional-build/k2251-detector-phase-reference-2026-10-29.md": "8f996e21ef8ad7ab5e09ce169096ab0dc4a21915ba271675a303de45e40a5430",
+    "explorations/conditional-build/k2275-mean-reference-finite-source-2026-10-29.md": "ab46eba37783055be66233b753ddfbd63f984afcfb7d999785c1bf9ce819bf45",
+    "explorations/conditional-build/k2306-retained-pump-phase-calibration-2026-10-30.md": "bacc3001dbb869a19031ab958cf2cd83326e5f2704f215004608f580f5589ff1",
+    "explorations/conditional-build/k2309-nonclassical-pump-calibration-2026-10-30.md": "c424053e9d47b906fed74c53f67e06f3e6108a277c982e20146f820882ab6c00",
+    "tests/channel-swings/k2309_nonclassical_pump_calibration_probe.py": "8215f9b9216ed540c7ce0ad02eed56d063804ed291f40c27524c86c0c983c54d"
+  },
+  "details": {
+    "average_upper": "9.491e-12",
+    "cutoff": "3000000000000000000000000000",
+    "imperfect_average_upper": "9.511e-12",
+    "mean": "1500000000000000000000000000",
+    "preparation_mean_lower": "1.575e54",
+    "success_mean_lower": "(1-sqrt(19/100))/(4e-25)"
+  },
+  "evidence_kind": "exact finite Fourier/path controls, symbolic recurrence, rational budgets; uniform minimax and contraction proofs in note",
+  "mutation_failed_checks": {
+    "amplitude_as_fidelity": [
+      "preparation_fidelity_threshold"
+    ],
+    "charge_one": [
+      "charge_two_alias"
+    ],
+    "half_circular_loss": [
+      "Fourier_loss_N1"
+    ],
+    "missing_normalizer": [
+      "norm",
+      "mean"
+    ],
+    "shifted_sine_index": [
+      "norm",
+      "mean",
+      "eigen"
+    ],
+    "squared_duration_in_mean_bound": [
+      "linear_duration_resource"
+    ],
+    "wrong_cutoff_denominator": [
+      "mean",
+      "eigen"
+    ]
+  },
+  "result_id": "K2309",
+  "schema_version": "1.0"
+}
