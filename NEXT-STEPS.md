@@ -5,6 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-10-30: EXACT EXPANSION, STOCHASTIC DRIFT AND NATIVE COMPANION.**
+> Prioritize the enlarged native I1B distortion/source packet now that the bare symmetric lift is exactly obstructed: solve the coupled adjacent-grade completion or construct a source-owned distortion forcing satisfying the new metric-source compatibility identity. Keep full offslice rows and domain/readout obligations. Strong alternatives are a background-consistent coupled matter/perturbation test with justified density and initial data, or a physical residual-phase/covariance/clock/isolation model for the positive pump. The exact quadratic LCDM transplant is excluded, not approximate fits; the chosen positive designer branch has no finite-F high-curvature limit, not a universal f(R) exclusion. Do not repeat the symmetric injection, ignore its companion, apply pure-state square-root distance to phase mixtures, or infer hardware feasibility from a supplied Gaussian variance. Preserve ledger and source ceilings.
+> Earlier banners are historical; use this current condition.
+
+
 > **2026-10-30: CONSERVED MATTER, WEIGHTED PUMP AND SCALAR TRANSFER.**
 > Test a background-consistent matter/perturbation/source packet with justified density and initial data; the vacuum distance fit and single-scalar action cannot be reused unchanged with matter. Scalar high-frequency transfer is now controlled; long-wave evolution and physical source/readout remain distinct. For the apparatus, supply microscopic positive-interaction synthesis and calibrated timing/idle-drift/isolation: reduced pulse bounds alone do not make hardware practical, and conserved-charge drift can spoil the retained pump. Native paired I1B matter/light remains a concrete challenger: construct the ten-input symmetric horizontal distortion injection in the actual trace/Hodge pairing and test complete companion C leakage before consuming K1861. Do not repeat trace-only matter insertion, instantaneous-mass instability claims, unweighted pump bounds or generic controllability. Preserve source and ledger ceilings.
 > Earlier banners are historical; use this current condition.

@@ -1,0 +1,64 @@
+{
+  "check_names": [
+    "full00_polynomial",
+    "curvature_radiation_cancellation",
+    "sixth_coefficient_obstruction",
+    "seventh_coefficient",
+    "exact_coefficient_support",
+    "radiation_countercontrol",
+    "einstein_countercontrol",
+    "fluid_power_3",
+    "fluid_power_4",
+    "fluid_power_6",
+    "fluid_power_7",
+    "spatial",
+    "trace",
+    "integrability",
+    "reconstruction00",
+    "designer_homogeneous_reduction",
+    "matter_conservation",
+    "curvature_invertibility",
+    "positive_quadrant_boundary",
+    "logtime_ODE",
+    "n_lower_identity",
+    "n_upper_identity",
+    "comparison_solution",
+    "integrated_log_lower",
+    "positiveF_does_not_rescue00"
+  ],
+  "checks": 25,
+  "claim_ceiling": "exact supplied metric backgrounds only; no approximate-fit exclusion or GU verdict",
+  "dependencies": {
+    "explorations/conditional-build/k2295-quadratic-expansion-reconstruction-2026-10-30.md": "786e58bd9643fc5d86a588d62f84aabfc491e373137b70e3e6e21b9b4a842e42",
+    "lab/process/k2265-shared-cosmology-consistency.json": "d3195fb5353ab906ac0ed15c9c752cb8424ca83b72f7e137754892ca8f7d4df3",
+    "lab/process/k2292-conserved-matter-cosmology.json": "07e645e3dea14a89040e7cfb24d9f29d3db062baef6012843e23fe0bce8cbc3c",
+    "tests/channel-swings/k2295_quadratic_expansion_reconstruction_probe.py": "b8fc62e740b5835345c69ad57834191ffa30cbf24192f3be6eb494f159ed5410"
+  },
+  "evidence_kind": "exact symbolic identities; analytic positivity and ODE existence proof in companion; hashes are provenance",
+  "mutation_failed_checks": {
+    "omit_mixed_radiation": [
+      "full00_polynomial"
+    ],
+    "omit_pressure": [
+      "spatial",
+      "trace",
+      "integrability"
+    ],
+    "omit_stiff": [
+      "full00_polynomial"
+    ],
+    "vacuum_source_transplant": [
+      "full00_polynomial"
+    ],
+    "wrong00_derivative_sign": [
+      "spatial",
+      "trace",
+      "reconstruction00"
+    ],
+    "wrong_trace_pressure": [
+      "trace"
+    ]
+  },
+  "result_id": "K2295",
+  "schema_version": "1.0"
+}

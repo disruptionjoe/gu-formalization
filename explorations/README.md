@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2295-quadratic-expansion-reconstruction-2026-10-30](conditional-build/k2295-quadratic-expansion-reconstruction-2026-10-30.md).
+- [k2296-stochastic-pump-drift-2026-10-30](conditional-build/k2296-stochastic-pump-drift-2026-10-30.md).
+- [k2297-symmetric-shiab-companion-2026-10-30](conditional-build/k2297-symmetric-shiab-companion-2026-10-30.md).
+
+
 - [k2292-conserved-matter-cosmology-2026-10-30](conditional-build/k2292-conserved-matter-cosmology-2026-10-30.md).
 - [k2293-moment-controlled-positive-pump-2026-10-30](conditional-build/k2293-moment-controlled-positive-pump-2026-10-30.md).
 - [k2294-regular-scalar-transfer-2026-10-30](conditional-build/k2294-regular-scalar-transfer-2026-10-30.md).

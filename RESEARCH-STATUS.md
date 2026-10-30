@@ -6,6 +6,25 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2295--K2297: Conditional research results (2026-10-30)
+
+K2295 excludes exact dust-bearing LCDM-shaped histories in the nonzero-quadratic metric family with only conserved dust/radiation; GR and radiation controls survive. A positive nonquadratic designer repair exists but its chosen branch fails a finite-F high-curvature asymptote. K2296 bounds unobserved independent Gaussian phase drift of the same retained-pump instrument: variance1e-42 gives coherent error<9.327e-12 and thermal error<9.928e-12, with correlation and control assumptions explicit. K2297 constructs the actual selected K77 symmetric injection, verifies its Einstein pairing, and proves the grade-two part of its full companion equivalent to a symmetric curl. On a contractible flat patch, the unsourced restricted companion forces a scalar Hessian and zero metric-row source; a sourced repair obeys an explicit differential compatibility condition. These are conditional model/restricted-germ results; no empirical, hardware or full GU verdict.
+
+- [K2295](explorations/conditional-build/k2295-quadratic-expansion-reconstruction-2026-10-30.md).
+- [K2296](explorations/conditional-build/k2296-stochastic-pump-drift-2026-10-30.md).
+- [K2297](explorations/conditional-build/k2297-symmetric-shiab-companion-2026-10-30.md).
+
+Three read-only specialists reviewed actual final notes/probes/reports; cosmology also cross-reviewed native framing.71 controls(25+24+22) and18 genuine altered-formula/operator/channel faults(6 each) pass. Exact symbolic/rational identities, full native Clifford receiver coefficients and analytic local/global arguments are distinguished from finite quantum-matrix controls and provenance hashes. All ten quadratic covector coefficients and the full1274-row derivative receiver bank are checked; constant first-jet rowspaces prove the curl identity. No heavy predecessor replay, Lean, remoteCI, external-expert, novelty, empirical or hardware certification. Development normalization simplification and finite-difference tolerance failures were repaired, not counted as mutation catches.
+
+| Result | Closed condition | Remaining limit |
+|---|---|---|
+| K2295 | Full matter shape exclusion and positive designer repair | Approximate fits, other branches and perturbations open |
+| K2296 | Stochastic retained-pump bounds and correlated-wait budgets | Noise law, independence and physical calibration supplied |
+| K2297 | Native injection, full curl companion and source compatibility | Restricted flat lift only; enlarged sourced system open |
+
+Earlier sections are historical.
+
+
 ## K2292--K2294: Conditional research results (2026-10-30)
 
 K2292 extends global positive-U continuation and the positive-F endpoint criterion to nonnegative conserved fluids with -1<=w<=1 in the supplied quadratic metric model; nonzero homogeneous matter changes the vacuum fit, including trace-free radiation. K2293 uses actual field moments to reduce the positive-pump compiler from6e47 to6e20 pulses, with1e-95 diagonal allowance and full retained-pump error<9.272e-12; field error<.008 and depletion12.8±.004 survive. A charge-conserving idle drift can still rotate the retained coherent pump to distance>.98. K2294 proves whole-interval high-frequency scalar propagation error<.004666 for k/Hstar>=1e9 on the unchanged vacuum history, including all-initial-data canonical phase-space transfer. No low-frequency, matter-perturbation, empirical, hardware or GU verdict follows.

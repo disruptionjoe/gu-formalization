@@ -1,0 +1,63 @@
+{
+  "budgets": {
+    "coherent": "582915063509461096616909307927/62500000000000000000000000000000000000000",
+    "thermal": "2481923048454132637611646780497/250000000000000000000000000000000000000000"
+  },
+  "check_names": [
+    "poisson_difference_variance",
+    "poisson_difference_fourth",
+    "thermal_variance",
+    "thermal_fourth_cumulant",
+    "thermal_fourth_central",
+    "coherent_budget",
+    "thermal_budget",
+    "full_budget",
+    "field_energy_consumer",
+    "independent_wait_budget",
+    "common_wait_budget",
+    "covariance_sum",
+    "mixed_projector_lower",
+    "pure_sqrt_equality_rejected",
+    "poisson_taylor_lower",
+    "poisson_taylor_upper",
+    "semigroup_upper",
+    "Gaussian_generator",
+    "thermal_overlap_matrix",
+    "thermal_effect",
+    "even_charge_period",
+    "number_sector_immunity",
+    "pump_only_not_full_inverse",
+    "noncancelling_covariance"
+  ],
+  "checks": 24,
+  "claim_ceiling": "fixed noise-independent conserving circuit and specified unobserved Gaussian residual; no hardware or GU claim",
+  "dependencies": {
+    "explorations/conditional-build/k2296-stochastic-pump-drift-2026-10-30.md": "e892b00e0a6b2eb99dac7d1b79f74b5ca730e96418fb020ebcfdaf5b514aaa9e",
+    "lab/process/k2285-thermal-centered-composition.json": "90247e6a0a151e6c9ac47c559bc93f88d6c8f45c3104bbc5e169b772a1794bf4",
+    "lab/process/k2293-moment-controlled-positive-pump.json": "32e6c4d04235ca128cec6df2e16924c1f3de8622729506ec2861c303590979de",
+    "tests/channel-swings/k2296_stochastic_pump_drift_probe.py": "489eb55be5b6192748f7e7c2f36792831644f798181eacbd2f1e88f2f8eb3eaa"
+  },
+  "evidence_kind": "symbolic moments and exact rational budgets; finite numerical state controls; universal proof in companion; hashes provenance",
+  "mutation_failed_checks": {
+    "coherent_variance_for_thermal": [
+      "thermal_variance"
+    ],
+    "common_noise_as_iid": [
+      "common_wait_budget"
+    ],
+    "drop_noise_correlations": [
+      "noncancelling_covariance"
+    ],
+    "pump_only_compensation": [
+      "full_field_rotation"
+    ],
+    "pure_lower_for_mixture": [
+      "mixed_distance"
+    ],
+    "wrong_charge_multiplier": [
+      "Gaussian_generator"
+    ]
+  },
+  "result_id": "K2296",
+  "schema_version": "1.0"
+}

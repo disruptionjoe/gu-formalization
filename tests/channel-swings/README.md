@@ -1,4 +1,9 @@
 
+- [k2295_quadratic_expansion_reconstruction_probe](k2295_quadratic_expansion_reconstruction_probe.py).
+- [k2296_stochastic_pump_drift_probe](k2296_stochastic_pump_drift_probe.py).
+- [k2297_symmetric_shiab_companion_probe](k2297_symmetric_shiab_companion_probe.py).
+
+
 - [k2292_conserved_matter_cosmology_probe](k2292_conserved_matter_cosmology_probe.py).
 - [k2293_moment_controlled_positive_pump_probe](k2293_moment_controlled_positive_pump_probe.py).
 - [k2294_regular_scalar_transfer_probe](k2294_regular_scalar_transfer_probe.py).
