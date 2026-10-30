@@ -1,4 +1,7 @@
 
+- [k2319-lightcone-density-readout](k2319_lightcone_density_readout_probe.py).
+- [k2320-lossy-selective-calibration](k2320_lossy_selective_calibration_probe.py).
+
 - [k2316-induced-metric-coupled-pencil](k2316_induced_metric_coupled_pencil_probe.py).
 - [k2317-spacetime-dust-windows](k2317_spacetime_dust_windows_probe.py).
 - [k2318-loss-limited-calibration](k2318_loss_limited_calibration_probe.py).

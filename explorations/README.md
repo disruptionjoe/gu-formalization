@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2319-lightcone-density-readout](conditional-build/k2319-lightcone-density-readout-2026-10-30.md).
+- [k2320-lossy-selective-calibration](conditional-build/k2320-lossy-selective-calibration-2026-10-30.md).
+
 - [k2316-induced-metric-coupled-pencil](conditional-build/k2316-induced-metric-coupled-pencil-2026-10-30.md).
 - [k2317-spacetime-dust-windows](conditional-build/k2317-spacetime-dust-windows-2026-10-30.md).
 - [k2318-loss-limited-calibration](conditional-build/k2318-loss-limited-calibration-2026-10-30.md).

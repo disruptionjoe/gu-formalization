@@ -1,0 +1,88 @@
+{
+  "check_names": [
+    "normalized_shell_1",
+    "normalized_shell_2",
+    "normalized_shell_3",
+    "radial_transfer_jacobian",
+    "radial_zero_traces",
+    "positive_taper_energy",
+    "positive_selection_mass",
+    "sine_derivative_identity_1",
+    "sine_derivative_identity_2",
+    "sine_derivative_identity_3",
+    "top_hat_boundary_distribution",
+    "all_sky_radial_energy",
+    "angular_normalization",
+    "angular_l2_norm",
+    "angular_gradient_energy",
+    "schur_coulomb_integral",
+    "hemisphere_jump",
+    "temporal_response_mass",
+    "temporal_l2_constant",
+    "response_scaling_1/2",
+    "response_scaling_1/3",
+    "response_scaling_2/3",
+    "noise_radial_cost",
+    "full_sky_noise_cost",
+    "smearing_changes_signal",
+    "density_derivative_identity",
+    "healthy_beta_coefficient",
+    "response_absolute_first_moment",
+    "optimal_taper_euler",
+    "optimal_taper_boundary",
+    "optimal_taper_green_energy",
+    "optimal_taper_normalized",
+    "optimal_taper_equality",
+    "optimal_taper_positive"
+  ],
+  "checks": 34,
+  "dependencies": {
+    "explorations/conditional-build/k2308-inhomogeneous-constrained-dust-transfer-2026-10-30.md": "1118f1f7d3dfb0ffe93fd4187e6472733fab3541469228c33ace7f0b3a30cad6",
+    "explorations/conditional-build/k2311-uniform-constrained-dust-evolution-2026-10-30.md": "d5a022fbf98da92dc0bc4e5bb64faab18179af2f2ab05211531edb36bf392c5a",
+    "explorations/conditional-build/k2314-windowed-dust-observables-2026-10-30.md": "b7ccadbc726149b79cffbb07053c9e03fee072841198e132dd1c60c3d3aae5fb",
+    "explorations/conditional-build/k2317-spacetime-dust-windows-2026-10-30.md": "40fd8a42c3d8f5ee79cc5be8eb9cc04fb41f7771ef030fc65978ffc13091f712",
+    "explorations/conditional-build/k2319-lightcone-density-readout-2026-10-30.md": "b83d7f7b6f96f7fe391f31b01fd97b44da3bd0bd9fa988f6bbd846e9f65e3bbc",
+    "tests/channel-swings/k2319_lightcone_density_readout_probe.py": "e2de9445a4230fd6ef769bf0bb65d7f5fc9ab91d7a20948776367c0055c2a11b"
+  },
+  "details": {
+    "coordinate_white_noise_full_sky_fixture": "sigma**2/(168*pi*tau)",
+    "spectrum": "supplied continuum; bounded IR-cut white UV",
+    "uncut_leading_taper_variance": "2*pi**2/3"
+  },
+  "evidence_kind": "exact symbolic shell, radial/angle weak derivative and noise-dilation controls; continuum iff and dominated-convergence proofs in note; no sampled convergence certification",
+  "mutation_failed_checks": {
+    "ignore_angular_gradient": [
+      "angular_gradient_energy"
+    ],
+    "missing_noise_volume_jacobian": [
+      "noise_radial_cost"
+    ],
+    "missing_temporal_normalization": [
+      "response_scaling_1/2",
+      "response_scaling_1/3",
+      "response_scaling_2/3"
+    ],
+    "omit_endpoint_jumps": [
+      "top_hat_boundary_distribution"
+    ],
+    "wrong_frame_derivative": [
+      "density_derivative_identity"
+    ],
+    "wrong_radial_jacobian": [
+      "radial_transfer_jacobian"
+    ],
+    "wrong_solid_angle": [
+      "normalized_shell_1",
+      "normalized_shell_2",
+      "normalized_shell_3"
+    ],
+    "wrong_taper_coefficient": [
+      "optimal_taper_boundary",
+      "optimal_taper_green_energy",
+      "optimal_taper_equality",
+      "optimal_taper_positive"
+    ]
+  },
+  "result_id": "K2319",
+  "schema_version": "1.0"
+}

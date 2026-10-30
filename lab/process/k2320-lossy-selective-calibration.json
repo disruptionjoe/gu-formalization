@@ -1,0 +1,116 @@
+{
+  "check_names": [
+    "complete_1",
+    "scalar_no_jump_1",
+    "survival_1",
+    "mean_stock_1",
+    "final_flag_1",
+    "orthogonal_loss_1",
+    "complete_2",
+    "scalar_no_jump_2",
+    "survival_2",
+    "mean_stock_2",
+    "final_flag_2",
+    "orthogonal_loss_2",
+    "complete_3",
+    "scalar_no_jump_3",
+    "survival_3",
+    "mean_stock_3",
+    "final_flag_3",
+    "orthogonal_loss_3",
+    "complete_4",
+    "scalar_no_jump_4",
+    "survival_4",
+    "mean_stock_4",
+    "final_flag_4",
+    "orthogonal_loss_4",
+    "speed_conjugacy",
+    "normalized_drift",
+    "positive_variance",
+    "backward_cone",
+    "protected_exposure",
+    "equal_loss_exposure",
+    "filter_survival",
+    "ideal_exposure_is_wrong",
+    "conditional_mean",
+    "conditional_hazard",
+    "all_launch_confidence",
+    "average_budget",
+    "confidence_rate_before_pi",
+    "average_rate_before_pi",
+    "renewal_equation",
+    "charge_units",
+    "record_bits",
+    "angle_speed",
+    "target_barrier",
+    "compiler_ode_0",
+    "compiler_ode_1",
+    "compiler_initial",
+    "compiler_endpoint",
+    "compiler_survival_factor",
+    "time_angle_identity",
+    "threshold_quadratic_zero"
+  ],
+  "checks": 50,
+  "dependencies": {
+    "explorations/conditional-build/k2312-relational-finite-calibration-2026-10-30.md": "a289f0d96a4446576a57ca89b420e09ae5ba8b3e0835cbaab374ed2db4ee2304",
+    "explorations/conditional-build/k2315-calibration-control-cost-2026-10-30.md": "1a0a04967118cb3c37eecef594569809fab7826555dbb0a8ebac4b287452997c",
+    "explorations/conditional-build/k2318-loss-limited-calibration-2026-10-30.md": "4598ea154cdea2f46cbf4d3adf70cf7e2a8686a29c1d909bd3de5f0f60779bef",
+    "explorations/conditional-build/k2320-lossy-selective-calibration-2026-10-30.md": "f1a9205ce79e10ee55cca83947d2bcce039261a4f18896c6e6a822a675342190",
+    "tests/channel-swings/k2320_lossy_selective_calibration_probe.py": "63f43e53dd001c8d7958186f55be73d90036551d6cf20a12778355fe6173eb74"
+  },
+  "details": {
+    "average_sufficient_loss": "5/10**13",
+    "confidence_sufficient_loss": "1/172",
+    "equal_loss_preparation_exposure": "N**2/(2*J)",
+    "protected_exact_conditional_endpoint_exposure": "N**2/(8*J)",
+    "renewal_photons": "N*(1-exp(-gamma*T))*exp(gamma*N*T)"
+  },
+  "evidence_kind": "exact finite Kraus, conditional drift, exposure and rational resource controls; arbitrary-N/time-dependent proofs in note",
+  "mutation_failed_checks": {
+    "accept_loss_sectors": [
+      "final_flag_1",
+      "final_flag_2",
+      "final_flag_3",
+      "final_flag_4"
+    ],
+    "discard_failures_in_confidence": [
+      "all_launch_confidence"
+    ],
+    "double_angle_loss": [
+      "angle_speed"
+    ],
+    "drop_stock_factor": [
+      "equal_loss_exposure"
+    ],
+    "omit_charge_two": [
+      "charge_units"
+    ],
+    "omit_survival_denominator": [
+      "compiler_survival_factor"
+    ],
+    "remove_reference_loss": [
+      "scalar_no_jump_1",
+      "survival_1",
+      "mean_stock_1",
+      "final_flag_1",
+      "scalar_no_jump_2",
+      "survival_2",
+      "mean_stock_2",
+      "final_flag_2",
+      "scalar_no_jump_3",
+      "survival_3",
+      "mean_stock_3",
+      "final_flag_3",
+      "scalar_no_jump_4",
+      "survival_4",
+      "mean_stock_4",
+      "final_flag_4"
+    ],
+    "reverse_conditional_drift": [
+      "normalized_drift"
+    ]
+  },
+  "result_id": "K2320",
+  "schema_version": "1.0"
+}

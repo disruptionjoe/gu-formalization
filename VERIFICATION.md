@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2319--K2320: Light-cone readout and lossy selective calibration (2026-10-30)
+
+K2319 constructs a conditional background-light-cone density readout with exact radial and angular H1 criteria, positive taper repair, finite-response noise cost, a complete-signal exposure certificate and a uniquely normalized leading-response taper optimizer. K2320 prices equal-loss selective calibration by N-squared preparation exposure, derives flagged confidence and averaged-output budgets, proves a protected-reference exposure bound, constructs the optimal one-photon protected-reference compiler with threshold gamma<4J, and accounts charged renewal and neutral record reset. These are conditional mathematical models; native GU claims, ledger0.263 and physical mappings are unchanged.
+
+- [K2319](explorations/conditional-build/k2319-lightcone-density-readout-2026-10-30.md).
+- [K2320](explorations/conditional-build/k2320-lossy-selective-calibration-2026-10-30.md).
+
+Two independent read-only specialists reviewed the concrete arguments and artifacts, including released exposure/taper and one-photon compiler consequences.84 exact symbolic, finite Kraus and rational controls and16 genuine altered-input/formula faults pass. Universal continuum, arbitrary-stock and time-dependent results use written proofs; no Lean, remote CI, external-expert, novelty, empirical, hardware or whole-GU certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2316--K2318: Induced metric, spacetime dust and calibration loss (2026-10-30)
 
 K2316 reuses the existing induced metric derivative and finds a nonzero-curvature199/931 branch of its frozen coupled pencil, closes companion resonances and source compatibility, and proves fixed-varpi coordinate congruence preserves this full mixed-order branch. K2317 proves positive time averaging retains rough dust variance, constructs normalized temporal compensation with noise/calibration costs, and distinguishes transverse from longitudinal moving-window smoothing. K2318 derives a necessary loss ratio at most4/(3e21) for stock3e27 calibration, a sharp fixed-shell channel bound, sufficient flagged-confidence and average budgets, and a precisely scoped loss-correcting-code limitation. All results remain conditional; source claims, ledger0.263 and physical mappings are unchanged.

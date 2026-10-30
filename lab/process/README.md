@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2319-lightcone-density-readout](k2319-lightcone-density-readout.json).
+- [k2320-lossy-selective-calibration](k2320-lossy-selective-calibration.json).
+
 - [k2316-induced-metric-coupled-pencil](k2316-induced-metric-coupled-pencil.json).
 - [k2317-spacetime-dust-windows](k2317-spacetime-dust-windows.json).
 - [k2318-loss-limited-calibration](k2318-loss-limited-calibration.json).

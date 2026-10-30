@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 76e0f6adab40bd0ce56733bd7fc75bb90295413f
+revision_basis: a88f7cfc12774f39f656756800e3835b07c46a56
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,15 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2319 constructs a conditional background-light-cone density readout with exact radial
+    and angular H1 criteria, positive taper repair, finite-response noise cost, a
+    complete-signal exposure certificate and a uniquely normalized leading-response taper
+    optimizer. K2320 prices equal-loss selective calibration by N-squared preparation
+    exposure, derives flagged confidence and averaged-output budgets, proves a
+    protected-reference exposure bound, constructs the optimal one-photon
+    protected-reference compiler with threshold gamma<4J, and accounts charged renewal and
+    neutral record reset. These are conditional mathematical models; native GU claims,
+    ledger0.263 and physical mappings are unchanged. Historical predecessor (not live):
     K2316 reuses the existing induced metric derivative and finds a nonzero-curvature199/931
     branch of its frozen coupled pencil, closes companion resonances and source
     compatibility, and proves fixed-varpi coordinate congruence preserves this full
@@ -17604,6 +17613,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2319-lightcone-density-readout-2026-10-30.md
+  - lab/process/k2319-lightcone-density-readout.json
+  - tests/channel-swings/k2319_lightcone_density_readout_probe.py
+  - explorations/conditional-build/k2320-lossy-selective-calibration-2026-10-30.md
+  - lab/process/k2320-lossy-selective-calibration.json
+  - tests/channel-swings/k2320_lossy_selective_calibration_probe.py
   - explorations/conditional-build/k2316-induced-metric-coupled-pencil-2026-10-30.md
   - lab/process/k2316-induced-metric-coupled-pencil.json
   - tests/channel-swings/k2316_induced_metric_coupled_pencil_probe.py
@@ -19462,6 +19477,9 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can the conditional light-cone readout be composed with an actual covariance and
+  observed-count operator, and can the protected-reference compiler reach the large-stock
+  sine target within priced loss and reset resources? Historical predecessor (not live):
   Can the induced frozen metric branch survive the actual curved metric-on-metrics
   background and moving jets, and can physically specified spacetime readout or loss-aware
   apparatus meet the newly quantitative requirements? Historical predecessor (not live):
@@ -23532,6 +23550,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  For the SAME dust-scalar model, specify the full covariance including infrared spectrum,
+  exact transfer and finite exposure before optimizing the actual detector; observed
+  counts need explicit redshift, volume and optical terms before inheriting the H1
+  criterion. For retained-pump calibration, construct the large-N protected-reference
+  selective compiler with its normalized no-jump endpoint and full-channel accuracy, plus
+  actual rate/control relation and charged/neutral reset. The one-photon threshold and
+  ideal Givens synthesis do not solve that problem. Retain K2316 induced199/931 branch
+  with actual curved-background field/receiver jets and analytic-domain debt; no
+  frozen-coordinate replay or native physical inference. Historical predecessor (not
+  live):
   Compose the already available induced metric derivative with actual curved-background
   field/receiver jets and an analytic domain; a triangular fixed-varpi coordinate change
   alone cannot alter the frozen199/931 branch. For the SAME healthy dust/scalar model,
