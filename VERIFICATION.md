@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2327--K2328: Seed likelihood and structured neutral readout (2026-10-30)
+
+K2327 constructs a constrained colored Gaussian seed, full-count finite-window likelihood and exact finite-template covariance-cone tests; shared channels retain response-direction information despite unknown seed amplitudes, with explicit Fisher and tracer limits. K2328 compiles neutral phase parking through N threshold-controlled Kerr edge swaps, dispersive parity echoes and local neutral gates, with retained-drift revival, routing, time, loss and clock bounds. Physical seed selection, actual survey covariance integrals, microscopic rate feasibility and native GU remain open.
+
+- [K2327](explorations/conditional-build/k2327-constrained-seed-likelihood-2026-10-30.md).
+- [K2328](explorations/conditional-build/k2328-local-neutral-readout-compiler-2026-10-30.md).
+
+Three independent read-only specialists reviewed the actual proofs, probes and reports.62 exact symbolic/rational/circuit controls,23 finite60-digit numerical controls and17 genuine changed-input faults pass. Universal continuum and all-N results rely on written proofs; actual survey covariance integrals and an entire compiled microscopic pulse list were not evaluated. No interval, Lean, external-expert, novelty, empirical, hardware or native GU certificate.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2325--K2326: Relativistic count covariance and finite neutral readout (2026-10-30)
 
 K2325 derives the full linear volume-limited dust count on the supplied Jordan photon model: gravitational redshift, radial rays and observer terms leave the white-seed quadrupole divergence intact. A positive finite-energy colored covariance removes it; kinetic and point-density thresholds are distinguished. K2326 constructs finite lossy coherent transfer to neutral memory, exact parking before a finite flag, finite Fourier measurement and reset, with pretilt, Kerr-frame programming and full-instrument error/resource bounds. Physical seed selection, microscopic readout hardware and native GU claims remain open.

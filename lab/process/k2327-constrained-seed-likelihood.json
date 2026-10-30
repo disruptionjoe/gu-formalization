@@ -1,0 +1,70 @@
+{
+  "result": "K2327",
+  "scope": "conditional exact algebra controls; continuum and inference theorems rely on written proofs",
+  "evidence_kind": "exact_symbolic_and_rational",
+  "checks": {
+    "differential_precision_spectrum": true,
+    "common_filter_preserves_constraint": true,
+    "discarded_support_null": true,
+    "retained_support_positive": true,
+    "common_seed_cross_covariance": true,
+    "noise_floor": true,
+    "known_noise_covariance_determinant": true,
+    "inverse_identity": true,
+    "dual_generator_nonnegative": true,
+    "dual_target_negative": true,
+    "same_diagonal_distinct_covariance": true,
+    "same_diagonal_dual_detects": true,
+    "no_target_band_solution": true,
+    "projective_power_repair": true,
+    "noncollinear_ranges": true,
+    "rank_one_signal": true,
+    "nuisance_orthogonality": true,
+    "positive_remaining_information": true,
+    "nuisance_direction_zero": true,
+    "score_mean_zero": true,
+    "score_covariance_metric": true,
+    "conserved_tracer_difference": true,
+    "multiplicative_bias_has_extra_derivative": true
+  },
+  "exact_checks": 23,
+  "numerical_checks": 0,
+  "changed_input_faults": {
+    "gap_removed": [
+      "discarded_support_null"
+    ],
+    "filter_power": [
+      "differential_precision_spectrum"
+    ],
+    "partial_constraint_filter": [
+      "common_filter_preserves_constraint"
+    ],
+    "drop_cross": [
+      "common_seed_cross_covariance",
+      "known_noise_covariance_determinant"
+    ],
+    "witness_sign": [
+      "dual_generator_nonnegative",
+      "dual_target_negative",
+      "same_diagonal_dual_detects"
+    ],
+    "wrong_rescale": [
+      "projective_power_repair"
+    ],
+    "fisher_projection_sign": [
+      "nuisance_orthogonality"
+    ],
+    "score_factor": [
+      "score_covariance_metric"
+    ],
+    "time_bias": [
+      "conserved_tracer_difference"
+    ]
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2327-constrained-seed-likelihood-2026-10-30.md": "323c63bf03d0736c1991962a23bc53a98fdfdfb4f34134758eddddf0d56f6d73",
+    "explorations/conditional-build/k2311-uniform-constrained-dust-evolution-2026-10-30.md": "d5a022fbf98da92dc0bc4e5bb64faab18179af2f2ab05211531edb36bf392c5a",
+    "explorations/conditional-build/k2325-relativistic-count-covariance-2026-10-30.md": "bf25f64e4af8d88418d22e4e8e9497d077c9117855e72d1d80f690c06252cd56",
+    "tests/channel-swings/k2327_constrained_seed_likelihood_probe.py": "d9b1626ff2a04481db7fc7b9ae4ea830c1ece924e3f1f6bbaa342106f56b88c9"
+  }
+}

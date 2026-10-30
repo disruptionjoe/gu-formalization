@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2327-constrained-seed-likelihood](k2327-constrained-seed-likelihood.json).
+- [k2328-local-neutral-readout-compiler](k2328-local-neutral-readout-compiler.json).
+
 - [k2325-relativistic-count-covariance](k2325-relativistic-count-covariance.json).
 - [k2326-finite-neutral-readout](k2326-finite-neutral-readout.json).
 

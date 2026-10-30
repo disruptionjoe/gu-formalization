@@ -1,0 +1,120 @@
+{
+  "result": "K2328",
+  "scope": "conditional finite exact joint-circuit and 60-digit numerical controls; all-N error theorem rests on written proof",
+  "exact_checks": 39,
+  "numerical_checks": 23,
+  "checks": {
+    "joint_parking_N1": true,
+    "isometry_N1": true,
+    "joint_parking_N2": true,
+    "isometry_N2": true,
+    "joint_parking_N3": true,
+    "isometry_N3": true,
+    "joint_parking_N4": true,
+    "isometry_N4": true,
+    "joint_parking_N5": true,
+    "isometry_N5": true,
+    "physical_hopping_charge_cap1": true,
+    "physical_hopping_charge_cap2": true,
+    "physical_hopping_charge_cap3": true,
+    "physical_hopping_charge_cap4": true,
+    "passive_orbit_obstruction": true,
+    "parity_hopping_anticommutation": true,
+    "parity_drift_commutation": true,
+    "parity_involution": true,
+    "active_echo_generators_equal": true,
+    "inactive_echo_generator_average": true,
+    "revival_all_levels": true,
+    "coherent_number_copy_n0": true,
+    "coherent_number_copy_n1": true,
+    "coherent_number_copy_n2": true,
+    "fourier_normalized_zero": true,
+    "fourier_risk_zero": true,
+    "fourier_normalized_quarter": true,
+    "fourier_risk_quarter": true,
+    "dispersive_copy_uncompute_count": true,
+    "lower_shell_bound_N1": true,
+    "lower_shell_bound_N2": true,
+    "lower_shell_bound_N3": true,
+    "lower_shell_bound_N4": true,
+    "kerr_integer_n0": true,
+    "kerr_integer_n1": true,
+    "kerr_integer_n2": true,
+    "kerr_integer_n3": true,
+    "kerr_integer_n4": true,
+    "kerr_integer_n5": true
+  },
+  "numerical_controls": {
+    "inactive_echo_N2_delta0.01": true,
+    "active_echo_N2_delta0.01": true,
+    "inactive_echo_N2_delta0.02": true,
+    "active_echo_N2_delta0.02": true,
+    "inactive_echo_N3_delta0.01": true,
+    "active_echo_N3_delta0.01": true,
+    "inactive_echo_N3_delta0.02": true,
+    "active_echo_N3_delta0.02": true,
+    "edge_sum_N1": true,
+    "echo_step_budget_N1": true,
+    "echo_count_bound_N1": true,
+    "edge_sum_N2": true,
+    "echo_step_budget_N2": true,
+    "echo_count_bound_N2": true,
+    "edge_sum_N3": true,
+    "echo_step_budget_N3": true,
+    "echo_count_bound_N3": true,
+    "edge_sum_N7": true,
+    "echo_step_budget_N7": true,
+    "echo_count_bound_N7": true,
+    "edge_sum_N16": true,
+    "echo_step_budget_N16": true,
+    "echo_count_bound_N16": true
+  },
+  "changed_input_faults": {
+    "omit_reference_increment": [
+      "physical_hopping_charge_cap1",
+      "physical_hopping_charge_cap2",
+      "physical_hopping_charge_cap3",
+      "physical_hopping_charge_cap4"
+    ],
+    "equality_flag": [
+      "joint_parking_N2",
+      "joint_parking_N3",
+      "joint_parking_N4",
+      "joint_parking_N5"
+    ],
+    "no_flag": [
+      "joint_parking_N1",
+      "joint_parking_N2",
+      "joint_parking_N3",
+      "joint_parking_N4",
+      "joint_parking_N5"
+    ],
+    "wrong_transfer_phase": [
+      "joint_parking_N1",
+      "joint_parking_N2",
+      "joint_parking_N3",
+      "joint_parking_N4",
+      "joint_parking_N5"
+    ],
+    "missing_parity": [
+      "parity_hopping_anticommutation",
+      "active_echo_generators_equal"
+    ],
+    "half_revival": [
+      "revival_all_levels"
+    ],
+    "fourier_alias": [
+      "fourier_risk_zero",
+      "fourier_risk_quarter"
+    ],
+    "omit_scratch_uncompute": [
+      "dispersive_copy_uncompute_count"
+    ]
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2328-local-neutral-readout-compiler-2026-10-30.md": "4b02420cb51501e184e089f02b4344731ffee35d95d6053c1969cc3ad716a46b",
+    "explorations/conditional-build/k2324-kerr-selective-lossy-control-2026-10-30.md": "7feb3d52319e5e688b071a870115c4fb4e0bbf5d7005a6c509917ac593ce120d",
+    "explorations/conditional-build/k2326-finite-neutral-readout-2026-10-30.md": "f4e389ac8ef0cac9bf163a203a05d9987f186a69337a0bf9ae57a72dc982a25c",
+    "tests/channel-swings/k2328_local_neutral_readout_compiler_probe.py": "974550dc51160fb9e36410a25b3de901932c55eabfaeebf4ac997b7da5a8514d"
+  }
+}

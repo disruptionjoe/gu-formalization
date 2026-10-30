@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-10-30: RELATIVISTIC COUNTS AND FINITE NEUTRAL READOUT.**
+> **2026-10-30: SEED LIKELIHOOD AND STRUCTURED NEUTRAL READOUT.**
+> Instantiate and certify actual full-count covariance matrices for fixed windows, noise and allowed seed/tracer templates, then test cone separation or nuisance-projected information before empirical inference. For calibration, derive or measure the same device Kerr, hopping, dispersive, neutral-gate, loss and clock rates against the structured compiler cost; avoid repeating number recording or abstract controllability. Retain curved native stationary field/receiver jets and common analytic domain with held P and frozen199/931. No physical seed, catalog model or hardware feasibility is inferred from the conditional constructions.
+
+
+> **Historical predecessor, no longer the live next condition: 2026-10-30 RELATIVISTIC COUNTS AND FINITE NEUTRAL READOUT.**
 > Construct or justify a physical constrained seed covariance and actual tracer/flux-selection/observer-resolution model before an observational likelihood; the white-seed quadrupole obstruction survives the completed volume-limited operator, but finite-energy colored seeds repair it without changing the action. For calibration, compile the explicit occupation-selective transfer, number flag and neutral Fourier/copy/reset from a microscopic spatial alphabet and rate/clock/noise law; persistent Kerr phases are programmed, not freely removed. Preserve native curved stationary field/receiver jets and analytic domain with existing P and frozen199/931. Do not repeat the complete count formula, power thresholds, abstract unitary extension or lossy rank-block transfer.
 
 

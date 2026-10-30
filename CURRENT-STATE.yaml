@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: dcf4f921ae5f44eec1b4eac850eadc2b38e901e5
+revision_basis: f1685242cafd4ce1c6b35bf3d6c16e9ddfccc074
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,14 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2327 constructs a constrained colored Gaussian seed, full-count finite-window
+    likelihood and exact finite-template covariance-cone tests; shared channels retain
+    response-direction information despite unknown seed amplitudes, with explicit Fisher and
+    tracer limits. K2328 compiles neutral phase parking through N threshold-controlled Kerr
+    edge swaps, dispersive parity echoes and local neutral gates, with retained-drift
+    revival, routing, time, loss and clock bounds. Physical seed selection, actual survey
+    covariance integrals, microscopic rate feasibility and native GU remain open. Historical
+    predecessor (not live):
     K2325 derives the full linear volume-limited dust count on the supplied Jordan photon
     model: gravitational redshift, radial rays and observer terms leave the white-seed
     quadrupole divergence intact. A positive finite-energy colored covariance removes it;
@@ -17639,6 +17647,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2327-constrained-seed-likelihood-2026-10-30.md
+  - lab/process/k2327-constrained-seed-likelihood.json
+  - tests/channel-swings/k2327_constrained_seed_likelihood_probe.py
+  - explorations/conditional-build/k2328-local-neutral-readout-compiler-2026-10-30.md
+  - lab/process/k2328-local-neutral-readout-compiler.json
+  - tests/channel-swings/k2328_local_neutral_readout_compiler_probe.py
   - explorations/conditional-build/k2325-relativistic-count-covariance-2026-10-30.md
   - lab/process/k2325-relativistic-count-covariance.json
   - tests/channel-swings/k2325_relativistic_count_covariance_probe.py
@@ -19521,6 +19535,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which actual count windows and constrained statistical family distinguish competing
+  dynamics after nuisance fitting, and can a specified microscopic device meet the
+  explicit neutral-readout time, loss and clock requirements? Historical predecessor (not
+  live):
   Which physical initial covariance and tracer/observer selection yields a predictive
   count likelihood on this same action, and can the explicit selective neutral readout be
   compiled from a microscopic alphabet with defensible rate and clock costs? Historical
@@ -23604,6 +23622,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Instantiate and certify actual full-count covariance matrices for fixed windows, noise
+  and allowed seed/tracer templates, then test cone separation or nuisance-projected
+  information before empirical inference. For calibration, derive or measure the same
+  device Kerr, hopping, dispersive, neutral-gate, loss and clock rates against the
+  structured compiler cost; avoid repeating number recording or abstract controllability.
+  Retain curved native stationary field/receiver jets and common analytic domain with held
+  P and frozen199/931. No physical seed, catalog model or hardware feasibility is inferred
+  from the conditional constructions. Historical predecessor (not live):
   Construct or justify a physical constrained seed covariance and actual
   tracer/flux-selection/observer-resolution model before an observational likelihood; the
   white-seed quadrupole obstruction survives the completed volume-limited operator, but

@@ -1,4 +1,7 @@
 
+- [k2327-constrained-seed-likelihood](k2327_constrained_seed_likelihood_probe.py).
+- [k2328-local-neutral-readout-compiler](k2328_local_neutral_readout_compiler_probe.py).
+
 - [k2325-relativistic-count-covariance](k2325_relativistic_count_covariance_probe.py).
 - [k2326-finite-neutral-readout](k2326_finite_neutral_readout_probe.py).
 
