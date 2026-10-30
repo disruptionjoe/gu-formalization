@@ -5,6 +5,19 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2298--K2300: Full native completion, designer family and positive bath (2026-10-30)
+
+K2298 proves that higher odd grades cannot cancel the symmetric native companion curl, then constructs a full ambient polynomial distortion with an essential even-grade correction and nonzero metric source Jg=diag(0,-12,-11,-11)/kappa. This also enlarges grade1 support; it is not physical matter or a global Green solution. K2299 classifies all finite-F designer branches with F>0 and f_RR>0 on the fixed dust/radiation history: F=alpha-A v, 0<A<alpha, with an exact smaller interval for positive algebraic trace mass. This is not the rolling constrained perturbation mass. K2300 derives full retained-pump noise from positive finite baths, including coherent Q² phase, correlated waits, centered-coupling costs and a positive number-bath alternative without Q². Raw, centered and number-bath budgets remain below1e-11 under stated collective coupling assumptions. Source claims, ledger0.263 and physical mappings remain unchanged.
+
+- [K2298](explorations/conditional-build/k2298-enlarged-native-companion-2026-10-30.md).
+- [K2299](explorations/conditional-build/k2299-finite-curvature-designer-family-2026-10-30.md).
+- [K2300](explorations/conditional-build/k2300-positive-bath-pump-dephasing-2026-10-30.md).
+
+Three read-only specialists independently reviewed final notes/probes/reports.67 checks(14+20+33) and14 altered-input/formula/operator faults(5+3+6) pass. Exact sparse Clifford identities,440 grade5 columns,all10 metric-source components, symbolic designer and bath moments, and rational budgets are distinguished from finite oscillator numerics and analytic continuum/domain proofs. Review corrected source coverage, normal ordering, mass identities, repair scope and fault accounting. No heavy predecessor replay, Lean, remoteCI, external-expert, novelty, empirical or hardware certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2295--K2297: Exact expansion, stochastic drift and symmetric companion (2026-10-30)
 
 K2295 excludes exact dust-bearing LCDM-shaped histories in the nonzero-quadratic metric family with only conserved dust/radiation; GR and radiation controls survive. A positive nonquadratic designer repair exists but its chosen branch fails a finite-F high-curvature asymptote. K2296 bounds unobserved independent Gaussian phase drift of the same retained-pump instrument: variance1e-42 gives coherent error<9.327e-12 and thermal error<9.928e-12, with correlation and control assumptions explicit. K2297 constructs the actual selected K77 symmetric injection, verifies its Einstein pairing, and proves the grade-two part of its full companion equivalent to a symmetric curl. On a contractible flat patch, the unsourced restricted companion forces a scalar Hessian and zero metric-row source; a sourced repair obeys an explicit differential compatibility condition. These are conditional model/restricted-germ results; no empirical, hardware or full GU verdict.

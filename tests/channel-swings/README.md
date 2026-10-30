@@ -1,4 +1,9 @@
 
+- [k2298_enlarged_native_companion_probe](k2298_enlarged_native_companion_probe.py).
+- [k2299_finite_curvature_designer_family_probe](k2299_finite_curvature_designer_family_probe.py).
+- [k2300_positive_bath_pump_dephasing_probe](k2300_positive_bath_pump_dephasing_probe.py).
+
+
 - [k2295_quadratic_expansion_reconstruction_probe](k2295_quadratic_expansion_reconstruction_probe.py).
 - [k2296_stochastic_pump_drift_probe](k2296_stochastic_pump_drift_probe.py).
 - [k2297_symmetric_shiab_companion_probe](k2297_symmetric_shiab_companion_probe.py).

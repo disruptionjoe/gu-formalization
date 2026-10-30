@@ -1,0 +1,49 @@
+{
+  "check_names": [
+    "self_adjoint_equation",
+    "reduction_of_order",
+    "Wronskian",
+    "reconstruction_integrability",
+    "curvature_monotonic",
+    "source_conservation",
+    "constant_particular",
+    "dust_indicial",
+    "dust_decreasing",
+    "dust_action_derivative",
+    "dust_equation",
+    "dust_mass_numerator",
+    "mass_countercontrol",
+    "healthy_mass_control",
+    "endpoint_failure",
+    "negative_amplitude_wrong_sign",
+    "log_coordinate_w_equation",
+    "general_mass_identity",
+    "w_monotone",
+    "limit_integral_majorant"
+  ],
+  "checks": 20,
+  "claim_ceiling": "supplied metric homogeneous family; algebraic mass is not rolling physical mass",
+  "dependencies": {
+    "explorations/conditional-build/k2299-finite-curvature-designer-family-2026-10-30.md": "25f10817abc16eb65b9aee5cfadfcc99c7fb4e292bc1207b81170330df6d6ae7",
+    "lab/process/k2295-quadratic-expansion-reconstruction.json": "28c718120ee10f608b81fb504687a314d921ccabf4ab9dbdf63631f266aabe24",
+    "tests/channel-swings/k2299_finite_curvature_designer_family_probe.py": "a5ac1d442133e130341183c847d71b67122f4e9031af65c43b7b6fc9639dd400"
+  },
+  "dust_exponents": [
+    "-sqrt(73)/4 - 5/4",
+    "-5/4 + sqrt(73)/4"
+  ],
+  "evidence_kind": "exact symbolic identities and algebraic sign controls; continuum proof in note; hashes provenance",
+  "mutation_failed_checks": {
+    "wrong_action_coefficient": [
+      "dust_action_derivative"
+    ],
+    "wrong_reconstruction_derivative_sign": [
+      "reconstruction_integrability"
+    ],
+    "wrong_sturm_sign": [
+      "self_adjoint_equation"
+    ]
+  },
+  "result_id": "K2299",
+  "schema_version": "1.0"
+}

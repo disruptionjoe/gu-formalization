@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2298-enlarged-native-companion](k2298-enlarged-native-companion.json).
+- [k2299-finite-curvature-designer-family](k2299-finite-curvature-designer-family.json).
+- [k2300-positive-bath-pump-dephasing](k2300-positive-bath-pump-dephasing.json).
+
+
 - [k2295-quadratic-expansion-reconstruction](k2295-quadratic-expansion-reconstruction.json).
 - [k2296-stochastic-pump-drift](k2296-stochastic-pump-drift.json).
 - [k2297-symmetric-shiab-companion](k2297-symmetric-shiab-companion.json).

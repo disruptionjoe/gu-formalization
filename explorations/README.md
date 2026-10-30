@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2298-enlarged-native-companion-2026-10-30](conditional-build/k2298-enlarged-native-companion-2026-10-30.md).
+- [k2299-finite-curvature-designer-family-2026-10-30](conditional-build/k2299-finite-curvature-designer-family-2026-10-30.md).
+- [k2300-positive-bath-pump-dephasing-2026-10-30](conditional-build/k2300-positive-bath-pump-dephasing-2026-10-30.md).
+
+
 - [k2295-quadratic-expansion-reconstruction-2026-10-30](conditional-build/k2295-quadratic-expansion-reconstruction-2026-10-30.md).
 - [k2296-stochastic-pump-drift-2026-10-30](conditional-build/k2296-stochastic-pump-drift-2026-10-30.md).
 - [k2297-symmetric-shiab-companion-2026-10-30](conditional-build/k2297-symmetric-shiab-companion-2026-10-30.md).

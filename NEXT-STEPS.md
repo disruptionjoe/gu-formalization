@@ -5,6 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-10-30: FULL NATIVE COMPLETION, DESIGNER FAMILY AND POSITIVE BATH.**
+> Prioritize a source/readout and closed-domain test of the actual full ambient I1B operator after the polynomial completion: determine which physical source class and boundary/causal realization admit it; do not identify the constructed negative-spatial metric source with ordinary matter. Compare coupled matter perturbations of one fixed decaying designer action with physically priced collective bath coupling, counterterm/force calibration and local control. Finite-F and positive algebraic trace mass are not perturbative viability. Higher odd grades alone cannot repair the fixed horizontal lift, but the full ambient even/odd carrier has a polynomial escape. Positive number coupling avoids the displaced-bath Q² cost only by changing the supplied interaction; finite-duration and correlated-bath assumptions remain. Preserve all source/ledger ceilings.
+> Earlier banners are historical; use this current condition.
+
+
 > **2026-10-30: EXACT EXPANSION, STOCHASTIC DRIFT AND NATIVE COMPANION.**
 > Prioritize the enlarged native I1B distortion/source packet now that the bare symmetric lift is exactly obstructed: solve the coupled adjacent-grade completion or construct a source-owned distortion forcing satisfying the new metric-source compatibility identity. Keep full offslice rows and domain/readout obligations. Strong alternatives are a background-consistent coupled matter/perturbation test with justified density and initial data, or a physical residual-phase/covariance/clock/isolation model for the positive pump. The exact quadratic LCDM transplant is excluded, not approximate fits; the chosen positive designer branch has no finite-F high-curvature limit, not a universal f(R) exclusion. Do not repeat the symmetric injection, ignore its companion, apply pure-state square-root distance to phase mixtures, or infer hardware feasibility from a supplied Gaussian variance. Preserve ledger and source ceilings.
 > Earlier banners are historical; use this current condition.

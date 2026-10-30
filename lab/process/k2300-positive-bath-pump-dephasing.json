@@ -1,0 +1,76 @@
+{
+  "budgets": {
+    "centered_coherent": "231978065184077863588099663667739/25000000000000000000000000000000000000000000",
+    "centered_thermal": "233936782208934363057195964012881/25000000000000000000000000000000000000000000",
+    "number_bath_coherent": "29037500000000003415063509461096616909307927/3125000000000000000000000000000000000000000000000000000",
+    "number_bath_thermal": "116766025403784603923048454132637611646780497/12500000000000000000000000000000000000000000000000000000",
+    "raw_coherent": "1448875000000000010245190528383299225727923781/156250000000000000000000000000000000000000000000000000000",
+    "raw_thermal": "1160385640646055200188651029552934489200265897/125000000000000000000000000000000000000000000000000000000"
+  },
+  "check_names": [
+    "coherent_square_variance",
+    "coherent_central_square_variance",
+    "thermal_square_variance",
+    "thermal_central_square_variance",
+    "Qsquare_charge_factor",
+    "miscenter_linear_term",
+    "counterterm_phase",
+    "revival_phase_mismatch",
+    "positive_square_completion",
+    "wrong_normal_order_distinct",
+    "common_bath_revival_covariance",
+    "sign_switch_destroys_revival",
+    "oscillator_0_2",
+    "oscillator_2_4",
+    "oscillator_1_3",
+    "raw_coherent_full_budget",
+    "raw_coherent_field_consumer",
+    "raw_coherent_preparation_energy",
+    "raw_thermal_full_budget",
+    "raw_thermal_field_consumer",
+    "raw_thermal_preparation_energy",
+    "centered_coherent_full_budget",
+    "centered_coherent_field_consumer",
+    "centered_coherent_preparation_energy",
+    "centered_thermal_full_budget",
+    "centered_thermal_field_consumer",
+    "centered_thermal_preparation_energy",
+    "Kerr_parity_overlap",
+    "number_bath_mean",
+    "number_bath_variance",
+    "number_bath_not_Gaussian",
+    "number_bath_coherent_budget",
+    "number_bath_thermal_budget"
+  ],
+  "checks": 33,
+  "claim_ceiling": "enlarged supplied collective finite bath; no inherited local alphabet or physical calibration claim",
+  "dependencies": {
+    "explorations/conditional-build/k2300-positive-bath-pump-dephasing-2026-10-30.md": "7975c98c54098aaadba87a1d30db337b87072b3edbb9b8591793d48de18e271c",
+    "lab/process/k2293-moment-controlled-positive-pump.json": "32e6c4d04235ca128cec6df2e16924c1f3de8622729506ec2861c303590979de",
+    "lab/process/k2296-stochastic-pump-drift.json": "8d15135e252ff13f6dbb18be0f4d677b4f414546cdafbed85289cdc921a12aec",
+    "tests/channel-swings/k2300_positive_bath_pump_dephasing_probe.py": "fb6f594793ac24745800df6be5f370e4a89ae862d435b481aadf98e57494d2d8"
+  },
+  "evidence_kind": "exact cumulants/formulas/rational bounds; finite oscillator numerics independently check channel; universal argument in note; hashes provenance",
+  "mutation_failed_checks": {
+    "coherent_moments_for_thermal": [
+      "thermal_square_variance"
+    ],
+    "discard_segment_correlations": [
+      "common_bath_revival_covariance"
+    ],
+    "drop_Kerr_phase": [
+      "oscillator_0_2"
+    ],
+    "omit_counterterm_phase": [
+      "oscillator_0_2"
+    ],
+    "wrong_Gaussian_factor": [
+      "oscillator_0_2"
+    ],
+    "wrong_center_sign": [
+      "miscenter_linear_term"
+    ]
+  },
+  "result_id": "K2300",
+  "schema_version": "1.0"
+}
