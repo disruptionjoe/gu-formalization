@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 04f27454a1854d760016d85c3270306e8cc9c999
+revision_basis: b1c339426c8abc117b96669fc87d28f19a34aaa8
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,17 +118,18 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
-    K2301 constructs the full native companion on a four-dimensional reducing
-    time-profile sector with Schwartz/periodic inverse; a nonnegative compact metric
-    profile forces exponential retarded tails, so tempered and retarded prescriptions
-    differ. This is not a full coupled physical Green operator. K2302 classifies the
-    designer Einstein-frame turnaround threshold, supplies a positive-algebraic-mass
-    crossing counterexample, and freezes healthy matter while proving that identical
-    backgrounds can hide different matter Hessians. K2303 replaces collective number
-    noise by21 independent mode-local baths, retains Q conservation, bounds full
-    recorded retained-pump error below9.386e-12, and exhibits exact fixed-charge
-    distance4/9 against a false collective reduction. Source claims, ledger0.263 and
-    native physical mappings remain unchanged.
+    K2304 solves all six temporal spatial-metric source channels of the selected native
+    coupled Hessian: tracefree response has no exponential pole, while the scalar
+    coupled mode obeys113a²=17kappa². Schwartz response is unique under four moment
+    conditions; tempered polynomial ambiguity and compact-source repairs remain
+    explicit. K2305 constructs homogeneous constrained dust/scalar transfer regular
+    through the designer turnaround, proves an exact transfer determinant and finite
+    interval bound, and propagates a specified non-time-shift perturbation. K2306 prices
+    coherent-pilot calibration of the same retained coherent pump: more than10^49
+    effective pilot photons are necessary for the stated95% accuracy requirement; ideal
+    heterodyne protocols with10^53 or10^54 photons give success or averaged bounds
+    respectively. Source claims, ledger0.263 and native physical mappings remain
+    unchanged.
     Historical predecessor (not live): K2258 proves that every positive subspace with an equivalent L2 norm and selfadjoint evolution of
     the fixed raw constrained operator has stable Fourier support, without assuming a
     fibrewise metric or translation invariance. Consequently no nonzero smooth
@@ -17562,6 +17563,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2304-coupled-temporal-source-response-2026-10-30.md
+  - explorations/conditional-build/k2305-regular-constrained-matter-transfer-2026-10-30.md
+  - explorations/conditional-build/k2306-retained-pump-phase-calibration-2026-10-30.md
+  - lab/process/k2304-coupled-temporal-source-response.json
+  - lab/process/k2305-regular-constrained-matter-transfer.json
+  - lab/process/k2306-retained-pump-phase-calibration.json
   - explorations/conditional-build/k2301-native-companion-time-domain-2026-10-30.md
   - explorations/conditional-build/k2302-designer-frame-turnaround-2026-10-30.md
   - explorations/conditional-build/k2303-local-number-bath-control-2026-10-30.md
@@ -19378,9 +19385,9 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can the full coupled native source problem remove the explicit retarded-tail
-  obstruction, and can the now specified matter and local-bath completions support
-  controlled physical response without changing their fixed assumptions?
+  Which source/observable or spatial-domain condition determines the surviving native
+  scalar coupled mode, and can inhomogeneous matter response or a fully priced
+  calibration architecture meet the remaining physical interface?
   Historical predecessor (not live): Can a source-owned global quotient or differential-constraint domain supply local
   observables and causal physical dynamics for the fixed raw candidate, and can the
   detector/reset apparatus renew its actual charged/coherent stock through a priced
@@ -23434,15 +23441,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Freeze the full coupled native source/readout and temporal boundary prescription, then
-  test whether solving the metric jointly removes the forced growing time-profile
-  sector. The new Schwartz inverse is two-sided, not physical causality; its torus
-  realization is explicitly supplied. Independently derive coupled dust/radiation/scalar
-  transfer for the fixed healthy designer matter action in variables regular at H_E=0,
-  or supply spatial realization and calibrated coupling/clock bounds for the same
-  local-bath pump circuit. Positive algebraic mass does not clear a gauge chart,
-  identical background stress does not freeze matter kinetics, and fixed Q does not
-  remove independent local noise. Preserve all source and ledger ceilings.
+  Test the scalar native coupled mode against an actual source/readout law or a nonzero
+  spatial coupled symbol; do not replay the restricted h11 pole or claim tempered
+  uniqueness. For the fixed healthy designer action, construct k>0 constrained
+  matter/scalar transfer in variables regular through H_E=0; homogeneous finite transfer
+  is not Jeans stability. For the same pump circuit, supply reference, clock,
+  calibration-transfer and correction-error budgets or a specified nonclassical pilot
+  class; coherent-pilot resource bounds are not hardware impossibility. Preserve source,
+  ledger and physical-mapping ceilings.
   Historical predecessor (not live): Do not repeat local differential preparation into an equivalent positive raw subspace,
   fresh partial-collision donor renewal, or phase-blind charge replenishment bounds.
   K2258 leaves general differential constraint kernels and source-owned global quotients

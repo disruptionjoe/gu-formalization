@@ -1,0 +1,58 @@
+{
+  "check_names": [
+    "coherent_charge_two",
+    "Helstrom_two_dimensional",
+    "Helstrom_threshold",
+    "necessary_phase_radius",
+    "two_hypothesis_exponent",
+    "exact_exp_overlap_bound",
+    "heterodyne95_exponent",
+    "heterodyne95_tail",
+    "success_error",
+    "averaged_exponent",
+    "averaged_tail",
+    "averaged_total",
+    "duration_weighted_curvature",
+    "known_phase_zero",
+    "phase_mod_pi",
+    "confidence_not_average",
+    "wedge_tangent_geometry"
+  ],
+  "checks": 17,
+  "dependencies": {
+    "explorations/conditional-build/k2293-moment-controlled-positive-pump-2026-10-30.md": "44e4f523e831061770e20bec17481f9c002a8c6131caadf07f550d201a9cd821",
+    "explorations/conditional-build/k2303-local-number-bath-control-2026-10-30.md": "92bc65251ed0f4bbd7aa357c579c7e34dc20d8a94b0e781403db54af0eac958e",
+    "explorations/conditional-build/k2306-retained-pump-phase-calibration-2026-10-30.md": "bacc3001dbb869a19031ab958cf2cd83326e5f2704f215004608f580f5589ff1",
+    "tests/channel-swings/k2306_retained_pump_phase_calibration_probe.py": "14a9d2b0a53336f3ca78376d4a6b41ae48b10ea1b082f0405fee662ea3a219b4"
+  },
+  "details": {
+    "averaged_error": "<9.987e-12",
+    "necessary_effective_photons": ">1e49",
+    "success_error": "<9.986e-12",
+    "sufficient95_photons": "1e53",
+    "sufficient_average_photons": "1e54"
+  },
+  "evidence_kind": "Exact coherent overlap, two-state discrimination and rational sine/exponential budget bounds; operational theorem and heterodyne proof in note",
+  "mutation_failed_checks": {
+    "omit_baseline_error": [
+      "success_error"
+    ],
+    "omit_duration_weight": [
+      "duration_weighted_curvature"
+    ],
+    "omit_pump_charge_two": [
+      "coherent_charge_two"
+    ],
+    "overlap_not_squared": [
+      "Helstrom_two_dimensional"
+    ],
+    "use_95percent_budget_for_average": [
+      "averaged_total"
+    ],
+    "wrong_heterodyne_angle": [
+      "heterodyne95_exponent"
+    ]
+  },
+  "result_id": "K2306",
+  "schema_version": "1.0"
+}

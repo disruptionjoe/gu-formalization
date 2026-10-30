@@ -1,0 +1,68 @@
+{
+  "check_names": [
+    "off_shell_constraint",
+    "tangent_constraint",
+    "radiation_constrained_trace",
+    "dust_constrained_trace",
+    "regular_constraint_chart",
+    "fixture_phi",
+    "fixture_friedmann",
+    "fixture_H",
+    "fixture_scalar",
+    "fixture_dust",
+    "potential_first",
+    "potential_second",
+    "fixture_determinant",
+    "p_bracket",
+    "F_upper",
+    "H_bound",
+    "u_bound_squared",
+    "dust_bound",
+    "potential_bound",
+    "potential_derivative_bound",
+    "row_bound",
+    "crossing_inside",
+    "duration_bound",
+    "selected_first_jet",
+    "selected_second_H",
+    "selected_second_phi",
+    "integrable_initial_family",
+    "crossing_event_sensitivity"
+  ],
+  "checks": 28,
+  "dependencies": {
+    "explorations/conditional-build/k2299-finite-curvature-designer-family-2026-10-30.md": "25f10817abc16eb65b9aee5cfadfcc99c7fb4e292bc1207b81170330df6d6ae7",
+    "explorations/conditional-build/k2302-designer-frame-turnaround-2026-10-30.md": "c5559975da47f62c901d9897deee3891954e8c2acb9f9b7c9f660f0991602d5e",
+    "explorations/conditional-build/k2305-regular-constrained-matter-transfer-2026-10-30.md": "0c9f531e68df8016d888f31bc3271bc20eed66ffabefe967aca5a37590db45b0",
+    "tests/channel-swings/k2305_regular_constrained_matter_transfer_probe.py": "13972bf03207e2137bcd3689bd1e7f36a1889f97b72574b594c36ee725ae17ca"
+  },
+  "details": {
+    "determinant": "(x/x0)^6*(F0/F)^(7/2)",
+    "jacobian": "Matrix([[0, 0, -u/M**2, -1/(2*M**2), -2/(3*M**2)], [0, 0, 1, 0, 0], [-3*u, -Derivative(V(phi), (phi, 2)), -3*H, -beta, 0], [-3*d, 0, beta*d, -3*H + beta*u, 0], [-4*rho, 0, 0, 0, -4*H]])",
+    "norm_bound": "exp(37/5)",
+    "reduced_dust_trace": "-6*H + beta*u"
+  },
+  "evidence_kind": "Exact symbolic ODE, constraint and Jacobi identities plus rational interval bound certificates; no numerical evolution used",
+  "mutation_failed_checks": {
+    "freeze_dust_tangent": [
+      "tangent_constraint"
+    ],
+    "omit_dust_exchange": [
+      "off_shell_constraint"
+    ],
+    "omit_potential_hessian": [
+      "tangent_constraint"
+    ],
+    "wrong_determinant_power": [
+      "fixture_determinant"
+    ],
+    "wrong_dust_Raychaudhuri": [
+      "off_shell_constraint"
+    ],
+    "wrong_scalar_exchange": [
+      "off_shell_constraint"
+    ]
+  },
+  "result_id": "K2305",
+  "schema_version": "1.0"
+}

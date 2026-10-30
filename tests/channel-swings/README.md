@@ -1,4 +1,9 @@
 
+- [k2304_coupled_temporal_source_response_probe](k2304_coupled_temporal_source_response_probe.py).
+- [k2305_regular_constrained_matter_transfer_probe](k2305_regular_constrained_matter_transfer_probe.py).
+- [k2306_retained_pump_phase_calibration_probe](k2306_retained_pump_phase_calibration_probe.py).
+
+
 - [k2301_native_companion_time_domain_probe](k2301_native_companion_time_domain_probe.py).
 - [k2302_designer_frame_turnaround_probe](k2302_designer_frame_turnaround_probe.py).
 - [k2303_local_number_bath_control_probe](k2303_local_number_bath_control_probe.py).

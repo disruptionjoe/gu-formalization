@@ -5,6 +5,19 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2304--K2306: Coupled source, regular matter transfer and calibration (2026-10-30)
+
+K2304 solves all six temporal spatial-metric source channels of the selected native coupled Hessian: tracefree response has no exponential pole, while the scalar coupled mode obeys113a²=17kappa². Schwartz response is unique under four moment conditions; tempered polynomial ambiguity and compact-source repairs remain explicit. K2305 constructs homogeneous constrained dust/scalar transfer regular through the designer turnaround, proves an exact transfer determinant and finite interval bound, and propagates a specified non-time-shift perturbation. K2306 prices coherent-pilot calibration of the same retained coherent pump: more than10^49 effective pilot photons are necessary for the stated95% accuracy requirement; ideal heterodyne protocols with10^53 or10^54 photons give success or averaged bounds respectively. Source claims, ledger0.263 and native physical mappings remain unchanged.
+
+- [K2304](explorations/conditional-build/k2304-coupled-temporal-source-response-2026-10-30.md).
+- [K2305](explorations/conditional-build/k2305-regular-constrained-matter-transfer-2026-10-30.md).
+- [K2306](explorations/conditional-build/k2306-retained-pump-phase-calibration-2026-10-30.md).
+
+Three independent read-only specialists reviewed the final artifacts.83 scientific checks(38+28+17) and18 genuine changed-input/formula/operator faults(6each) pass. Evidence is exact native Clifford/rational matrices, symbolic ODE/constraint/Jacobi identities and rational sine/exponential bounds; continuum domain, transfer and operational statements have written arguments. Review corrected tempered uniqueness, qualified the phase prior and strengthened mutation/geometry evidence. No Lean, external-expert, novelty, empirical, hardware or whole-GU certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2301--K2303: Native time domain, designer turnaround and local bath (2026-10-30)
 
 K2301 constructs the full native companion on a four-dimensional reducing time-profile sector with Schwartz/periodic inverse; a nonnegative compact metric profile forces exponential retarded tails, so tempered and retarded prescriptions differ. This is not a full coupled physical Green operator. K2302 classifies the designer Einstein-frame turnaround threshold, supplies a positive-algebraic-mass crossing counterexample, and freezes healthy matter while proving that identical backgrounds can hide different matter Hessians. K2303 replaces collective number noise by21 independent mode-local baths, retains Q conservation, bounds full recorded retained-pump error below9.386e-12, and exhibits exact fixed-charge distance4/9 against a false collective reduction. Source claims, ledger0.263 and native physical mappings remain unchanged.

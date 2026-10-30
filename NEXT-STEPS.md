@@ -5,6 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-10-30: COUPLED SOURCE, REGULAR MATTER TRANSFER AND CALIBRATION.**
+> Test the scalar native coupled mode against an actual source/readout law or a nonzero spatial coupled symbol; do not replay the restricted h11 pole or claim tempered uniqueness. For the fixed healthy designer action, construct k>0 constrained matter/scalar transfer in variables regular through H_E=0; homogeneous finite transfer is not Jeans stability. For the same pump circuit, supply reference, clock, calibration-transfer and correction-error budgets or a specified nonclassical pilot class; coherent-pilot resource bounds are not hardware impossibility. Preserve source, ledger and physical-mapping ceilings.
+> Earlier banners are historical; use this current condition.
+
+
 > **2026-10-30: NATIVE TIME DOMAIN, DESIGNER TURNAROUND AND LOCAL BATH.**
 > Freeze the full coupled native source/readout and temporal boundary prescription, then test whether solving the metric jointly removes the forced growing time-profile sector. The new Schwartz inverse is two-sided, not physical causality; its torus realization is explicitly supplied. Independently derive coupled dust/radiation/scalar transfer for the fixed healthy designer matter action in variables regular at H_E=0, or supply spatial realization and calibrated coupling/clock bounds for the same local-bath pump circuit. Positive algebraic mass does not clear a gauge chart, identical background stress does not freeze matter kinetics, and fixed Q does not remove independent local noise. Preserve all source and ledger ceilings.
 > Earlier banners are historical; use this current condition.

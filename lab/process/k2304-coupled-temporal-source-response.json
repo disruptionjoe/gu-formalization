@@ -1,0 +1,79 @@
+{
+  "check_names": [
+    "native_L_column_0",
+    "native_L_column_1",
+    "native_L_column_2",
+    "native_L_column_3",
+    "native_L_column_4",
+    "native_L_column_5",
+    "native_L_column_6",
+    "native_L_column_7",
+    "native_L_column_8",
+    "native_L_column_9",
+    "native_L_column_10",
+    "native_L_column_11",
+    "native_L_column_12",
+    "native_L_column_13",
+    "native_all_grams",
+    "nondegenerate_reducing",
+    "native_A_image_0",
+    "native_A_image_1",
+    "native_A_image_2",
+    "native_A_image_3",
+    "native_A_image_4",
+    "native_A_image_5",
+    "native_Astar_six_rows",
+    "native_four_temporal_rows",
+    "native_full_schur",
+    "restricted_previous_response",
+    "all_six_joint_companion_rows",
+    "all_six_joint_metric_rows",
+    "old_companion_poles_cancel",
+    "full_homogeneous_companion",
+    "full_homogeneous_metric",
+    "homogeneous_not_companion_root",
+    "zero_order_four",
+    "tracefree_compact_repair",
+    "scalar_compact_repair",
+    "schur_order_two",
+    "polynomial_tempered_homogeneous",
+    "scalar_curvature_not_gauge"
+  ],
+  "checks": 38,
+  "dependencies": {
+    "explorations/conditional-build/k2304-coupled-temporal-source-response-2026-10-30.md": "36a1f68b7d32f3d694f3908a3bfdf93e0bbdf69489e14af65c6b5d8bcac97e8b",
+    "tests/channel-swings/k2298_enlarged_native_companion_probe.py": "b9e368a438277a68f4f72a111010e8240572e627c1cf997511ea02834fc7aa9a",
+    "tests/channel-swings/k2304_coupled_temporal_source_response_probe.py": "c362336736ab3b6d275e38856c05da170950ac56e63d3e612efa03d60da17454",
+    "tests/channel-swings/k77_exact_bank_api.py": "5f9ca5458e55669bce226bf65e82b11a54d81d7cffeb2d18a1fb4635f575cf5b",
+    "tests/fixtures/k77_exact_coefficient_bank_v1.json": "af7642876b0f788c4561f977c62b57307783849170031536a9e578102fc382c8"
+  },
+  "details": {
+    "B": "[[-1, 1, 1, 10, 0, 0, 0], [1, -1, 1, 10, 0, 0, 0], [1, 1, -1, 10, 0, 0, 0], [1, 1, 1, 8, 0, 0, 0], [0, 0, 0, 0, -2, 0, 0], [0, 0, 0, 0, 0, -2, 0], [0, 0, 0, 0, 0, 0, -2]]",
+    "R": "[[0, 1, 1, 0, 0, 0], [1, 0, 1, 0, 0, 0], [1, 1, 0, 0, 0, 0], [1, 1, 1, 0, 0, 0], [0, 0, 0, -1, 0, 0], [0, 0, 0, 0, -1, 0], [0, 0, 0, 0, 0, -1]]",
+    "scalar_response": "-2*k*z**4*(17*k**2 - 113*z**2)/((k**2 - 121*z**2)*(k**2 - 4*z**2))",
+    "tracefree_response": "-k*z**4/(k**2 - 4*z**2)"
+  },
+  "evidence_kind": "Exact native Clifford and rational matrix identities; continuum Fourier/domain and moment proofs in note",
+  "mutation_failed_checks": {
+    "drop_normal_metric_source": [
+      "full_homogeneous_metric"
+    ],
+    "omit_even_companion": [
+      "full_homogeneous_companion"
+    ],
+    "omit_offdiagonal_factor_two": [
+      "all_six_joint_metric_rows"
+    ],
+    "replace_scalar113": [
+      "native_full_schur"
+    ],
+    "retain_restricted_pole": [
+      "full_homogeneous_companion"
+    ],
+    "wrong_normal_multiplicity": [
+      "native_L_column_7"
+    ]
+  },
+  "result_id": "K2304",
+  "schema_version": "1.0"
+}
