@@ -5,6 +5,19 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2310--K2312: Normal localization, uniform dust and relational calibration (2026-10-30)
+
+K2310 constructs a changed-root5/29 native-bank solution and real Schwartz packets in all13 non-time coordinates for explicitly enlarged horizontal-supported metric coefficients; strict pullback and full105 metric variation remain different unsolved objects. K2311 proves frequency-uniform constrained dust/scalar evolution through H=0 in mixed Sobolev spaces, with a controlled attractive Jeans limit and one-derivative equal-regularity loss. K2312 constructs a finite relational calibration instrument with total stock3e27, exact charged-pair return and92-qubit record; average error stays below9.491e-12 under supplied protected-reference and shell-control assumptions. Explicit reference/actuator angle budgets retain both average and95%-success goals. These are conditional mathematical results; source claims, ledger0.263 and native physical mappings remain unchanged.
+
+- [K2310](explorations/conditional-build/k2310-normal-localized-coupled-branch-2026-10-30.md).
+- [K2311](explorations/conditional-build/k2311-uniform-constrained-dust-evolution-2026-10-30.md).
+- [K2312](explorations/conditional-build/k2312-relational-finite-calibration-2026-10-30.md).
+
+Three independent read-only specialists reviewed the actual arguments and probes.97 checks(24+25+48) and18 altered-input/formula faults(6 each) pass. Exact native coefficients, symbolic coordinate/constraint/energy identities, finite Fourier maps and rational budgets support the results; continuum/domain and error theorems use written proofs. Development review corrected a missing scalar coefficient and nonzero transformed seed, clarified native even-coefficient scaling, and isolated a metric mutation. No Lean, external-expert, novelty, empirical, hardware or whole-GU certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2307--K2309: Spatial mode, inhomogeneous transfer and nonclassical calibration (2026-10-30)
 
 K2307 extends the selected native coupled scalar mode to nonzero real spatial Fourier momentum, verifies every coupled row and constructs growing horizontal Schwartz packets; full normal localization and physical source/readout remain open. K2308 constructs the fixed healthy designer action's k>0 constrained dust/scalar system through H_E=0, proves determinant(a0/a)^4 and an explicit finite transfer bound, and derives Jordan-frame matter/lensing readouts. K2309 supplies nonclassical sine-pilot calibration below9.491e-12 average error, or9.511e-12 with stated preparation/correction errors, while a deterministic covariant coherent preparation costs more than1.575e54 mean photons. General single-pass95%-success calibration still requires mean phase-bearing number above1e24. These are conditional mathematical results; source claims, ledger0.263 and native physical mappings are unchanged.

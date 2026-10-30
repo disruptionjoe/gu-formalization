@@ -1,0 +1,90 @@
+{
+  "check_names": [
+    "sine_norm_1",
+    "prepare_unitary_1",
+    "prepare_actual_state_1",
+    "Fourier_isometry_1",
+    "charge_conserved_1",
+    "uniform_loss_1",
+    "pilot_mean_1",
+    "Kraus_complete_1",
+    "charged_return_1",
+    "pilot_reduced_purity_1",
+    "sine_norm_2",
+    "prepare_unitary_2",
+    "prepare_actual_state_2",
+    "Fourier_isometry_2",
+    "charge_conserved_2",
+    "uniform_loss_2",
+    "pilot_mean_2",
+    "Kraus_complete_2",
+    "charged_return_2",
+    "pilot_reduced_purity_2",
+    "sine_norm_4",
+    "prepare_unitary_4",
+    "prepare_actual_state_4",
+    "Fourier_isometry_4",
+    "charge_conserved_4",
+    "uniform_loss_4",
+    "pilot_mean_4",
+    "Kraus_complete_4",
+    "charged_return_4",
+    "pilot_reduced_purity_4",
+    "relative_information",
+    "common_mode_blind",
+    "discard_reference_blind",
+    "dephased_uniform_outcomes",
+    "alias_counterexample",
+    "positive_actuator_0_1",
+    "positive_actuator_1_1",
+    "positive_actuator_2_3",
+    "positive_actuator_4_2",
+    "average_budget",
+    "record92",
+    "success_probability",
+    "ideal_success",
+    "precision_budget",
+    "two_full_budgets_do_not_certify_success",
+    "tight_success_budget",
+    "tight_average_budget",
+    "total_stock_count"
+  ],
+  "checks": 48,
+  "dependencies": {
+    "explorations/conditional-build/k2306-retained-pump-phase-calibration-2026-10-30.md": "bacc3001dbb869a19031ab958cf2cd83326e5f2704f215004608f580f5589ff1",
+    "explorations/conditional-build/k2309-nonclassical-pump-calibration-2026-10-30.md": "c424053e9d47b906fed74c53f67e06f3e6108a277c982e20146f820882ab6c00",
+    "explorations/conditional-build/k2312-relational-finite-calibration-2026-10-30.md": "a289f0d96a4446576a57ca89b420e09ae5ba8b3e0835cbaab374ed2db4ee2304",
+    "tests/channel-swings/k2312_relational_finite_calibration_probe.py": "4ba0e6295c754c5746dda3b8c13b649a375c63c592eb9265d69e5e0c99729a64"
+  },
+  "details": {
+    "average_upper": "9.491e-12",
+    "outcomes": "3000000000000000000000000002",
+    "record_qubits": 92,
+    "strict_correction_angle_example": "1e-29",
+    "strict_reference_angle_example": "1e-29",
+    "total_stock": "3000000000000000000000000000"
+  },
+  "evidence_kind": "exact small-shell maps and Fourier coefficients; rational fixture budgets; general finite construction and distance proof in note",
+  "mutation_failed_checks": {
+    "common_arm_encoding": [
+      "relative_information"
+    ],
+    "dephase_prepared_pair": [
+      "uniform_loss_2"
+    ],
+    "half_Householder": [
+      "prepare_actual_state_2"
+    ],
+    "odd_Q_half_actuator": [
+      "positive_actuator_1_1"
+    ],
+    "one_too_few_outcomes": [
+      "uniform_loss_1"
+    ],
+    "wrong_readout_normalization": [
+      "Fourier_isometry_2"
+    ]
+  },
+  "result_id": "K2312",
+  "schema_version": "1.0"
+}

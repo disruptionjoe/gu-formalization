@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-10-30: SPATIAL MODE, INHOMOGENEOUS TRANSFER AND NONCLASSICAL CALIBRATION.**
+> **2026-10-30: NORMAL LOCALIZATION, UNIFORM DUST AND RELATIONAL CALIBRATION.**
+> Resolve the source-owned metric dependence and variation space before importing K2310 normal-localized5/29 packets into strict-pullback or full105 equations. On the SAME healthy designer action, use constrained physical initial statistics and a windowed observable transfer; uniform linear evolution permits dust derivative loss and is not nonlinear stability. For calibration, construct or test protected-reference/clock/control physics at the explicit angle budgets, including neutral-record reset and spatial shell synthesis. Do not repeat known roots, sine minimax or the coherent preparation bound on a different resource class. Preserve source, ledger and domain ceilings.
+
+
+> **Historical predecessor, no longer the live next condition: 2026-10-30 SPATIAL MODE, INHOMOGENEOUS TRANSFER AND NONCLASSICAL CALIBRATION.**
 > Test full normal localization and an owned source/readout or constraint for K2307's nonzero-curvature spatial branch; conservation or unspecified positivity does not remove it. On the SAME healthy designer action, supply physical initial spectra and observed transfer or controlled spatial/Jeans estimates; fixed-k regularity is not stability. For retained-pump calibration, construct preparation/reference/correction resources with leakage, independence and error budgets included; low sine-pilot occupation does not remove its coherent preparation cost. Preserve native/source/ledger and domain ceilings.
 
 

@@ -1,0 +1,67 @@
+{
+  "check_names": [
+    "normal_is_negative",
+    "phi1_fixed",
+    "odd_companion_full",
+    "even_companion_full",
+    "horizontal_metric_(0, 0)",
+    "horizontal_metric_(0, 1)",
+    "horizontal_metric_(0, 2)",
+    "horizontal_metric_(0, 3)",
+    "horizontal_metric_(1, 1)",
+    "horizontal_metric_(1, 2)",
+    "horizontal_metric_(1, 3)",
+    "horizontal_metric_(2, 2)",
+    "horizontal_metric_(2, 3)",
+    "horizontal_metric_(3, 3)",
+    "gauge_adjustment_metric",
+    "gauge_curvature_zero",
+    "native_covariance",
+    "nongauge_curvature_four",
+    "full105_not_solved",
+    "old_boost_horizontal_row_fails",
+    "rank3_inherited",
+    "rank4_new",
+    "pole_avoidance",
+    "patch_positive"
+  ],
+  "checks": 24,
+  "dependencies": {
+    "explorations/conditional-build/k2310-normal-localized-coupled-branch-2026-10-30.md": "8b73043ed2ed94d279016b5150d7d65528d3afac88b4250adf153c4568558501",
+    "tests/channel-swings/k2298_enlarged_native_companion_probe.py": "b9e368a438277a68f4f72a111010e8240572e627c1cf997511ea02834fc7aa9a",
+    "tests/channel-swings/k2307_spatial_coupled_native_mode_probe.py": "ef984dd959fcb01e5ae8c7093842f73e5912b087046865db51106d8ae8a9ff59",
+    "tests/channel-swings/k2310_normal_localized_coupled_branch_probe.py": "fdabdbd3c25902ada450a5669dbc5006cf1f9084ee6253cee9e39ee53baa7bc9",
+    "tests/channel-swings/k77_exact_bank_api.py": "5f9ca5458e55669bce226bf65e82b11a54d81d7cffeb2d18a1fb4635f575cf5b",
+    "tests/fixtures/k77_exact_coefficient_bank_v1.json": "af7642876b0f788c4561f977c62b57307783849170031536a9e578102fc382c8"
+  },
+  "details": {
+    "curvature_over_b2": "4",
+    "full105_not_solved": true,
+    "old_root": "17/113",
+    "root": "5/29",
+    "selected_metric_rows": 10
+  },
+  "evidence_kind": "exact native Gaussian-rational witness and altered-input failures; universal patch and restriction proofs in note",
+  "mutation_failed_checks": {
+    "delete_time_metric": [
+      "odd_companion_full"
+    ],
+    "drop_normal_distortion": [
+      "odd_companion_full"
+    ],
+    "old_root": [
+      "odd_companion_full"
+    ],
+    "omit_distortion_boost": [
+      "odd_companion_full"
+    ],
+    "omit_even": [
+      "odd_companion_full"
+    ],
+    "wrong_Clifford_transform": [
+      "phi1_fixed"
+    ]
+  },
+  "result_id": "K2310",
+  "schema_version": "1.0"
+}

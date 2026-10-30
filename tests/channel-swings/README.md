@@ -1,4 +1,8 @@
 
+- [k2310-normal-localized-coupled-branch](k2310_normal_localized_coupled_branch_probe.py).
+- [k2311-uniform-constrained-dust-evolution](k2311_uniform_constrained_dust_evolution_probe.py).
+- [k2312-relational-finite-calibration](k2312_relational_finite_calibration_probe.py).
+
 - [k2307-spatial-coupled-native-mode](k2307_spatial_coupled_native_mode_probe.py).
 - [k2308-inhomogeneous-constrained-dust-transfer](k2308_inhomogeneous_constrained_dust_transfer_probe.py).
 - [k2309-nonclassical-pump-calibration](k2309_nonclassical_pump_calibration_probe.py).

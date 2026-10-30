@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2310-normal-localized-coupled-branch](conditional-build/k2310-normal-localized-coupled-branch-2026-10-30.md).
+- [k2311-uniform-constrained-dust-evolution](conditional-build/k2311-uniform-constrained-dust-evolution-2026-10-30.md).
+- [k2312-relational-finite-calibration](conditional-build/k2312-relational-finite-calibration-2026-10-30.md).
+
 - [k2307-spatial-coupled-native-mode](conditional-build/k2307-spatial-coupled-native-mode-2026-10-30.md).
 - [k2308-inhomogeneous-constrained-dust-transfer](conditional-build/k2308-inhomogeneous-constrained-dust-transfer-2026-10-30.md).
 - [k2309-nonclassical-pump-calibration](conditional-build/k2309-nonclassical-pump-calibration-2026-10-30.md).

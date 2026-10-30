@@ -1,0 +1,66 @@
+{
+  "check_names": [
+    "W_dot_identity",
+    "Phi_normal_form",
+    "velocity_normal_form",
+    "p_normal_form",
+    "constraint_propagated",
+    "inverse_pi",
+    "r_qW_cancels",
+    "s_qW_cancels",
+    "wave_W_dot",
+    "wave_principal",
+    "no_H_divisor",
+    "only_inverse_q_lower",
+    "q_cross_cancels",
+    "only_q_weight_term",
+    "large_q_slow_limit",
+    "wave_slow_forcing_inverse_q",
+    "limit_density_number",
+    "limit_delta_dot",
+    "limit_Jeans_equation",
+    "healthy_attraction",
+    "seed_full_constraint",
+    "seed_W_zero_p_small",
+    "normalized_actual_seed",
+    "physical_velocity_bounded",
+    "fixture_friction_bound"
+  ],
+  "checks": 25,
+  "dependencies": {
+    "explorations/conditional-build/k2302-designer-frame-turnaround-2026-10-30.md": "c5559975da47f62c901d9897deee3891954e8c2acb9f9b7c9f660f0991602d5e",
+    "explorations/conditional-build/k2308-inhomogeneous-constrained-dust-transfer-2026-10-30.md": "1118f1f7d3dfb0ffe93fd4187e6472733fab3541469228c33ace7f0b3a30cad6",
+    "explorations/conditional-build/k2311-uniform-constrained-dust-evolution-2026-10-30.md": "d5a022fbf98da92dc0bc4e5bb64faab18179af2f2ab05211531edb36bf392c5a",
+    "tests/channel-swings/k2308_inhomogeneous_constrained_dust_transfer_probe.py": "080b968df924ef2910e53e3da1e712560dbd8b646538c62485c6fa5ed9620c07",
+    "tests/channel-swings/k2311_uniform_constrained_dust_evolution_probe.py": "f5e53ebc1acde78436bc7b6df1742772fcef195d3b0c0c6d0ead429c08fcc8b1"
+  },
+  "details": {
+    "density_reconstruction": "(-m*q*(2*m*r - p*u) - m*(3*H*u*(W*q + beta*(2*m*r - p*u)) + V1*(W*q + beta*(2*m*r - p*u)) - d*(3*H*(beta*p + s) - beta*(W*q + beta*(2*m*r - p*u))) + u*(-beta*(H*(2*m*r - p*u) + d*(beta*p + s) - u*(W*q + beta*(2*m*r - p*u))) + p*q)) + u**2*(2*m*r - p*u)/2)/(d*m*q)",
+    "energy_derivative": "-8*H**2*beta**2*m*r*s/q + 4*H**2*beta**2*p*s*u/q + 8*H**2*beta*m*p*r/q - 4*H**2*beta*p**2*u/q + 4*H**2*beta*r**2*u/q - 2*H**2*beta*p*r*u**2/(m*q) - 2*H*W**2*q - 8*H*W*beta**2*s*u + 8*H*W*beta*p*u + 4*H*W*beta*r*u**2/m + 8*H*beta**3*d*p*s/q - 16*H*beta**3*m*r*s*u/q + 8*H*beta**3*p*s*u**2/q - 8*H*beta**2*d*p**2/q + 8*H*beta**2*d*s**2/q - 4*H*beta**2*d*p*r*u/(m*q) + 16*H*beta**2*m*p*r*u/q - 8*H*beta**2*p**2*u**2/q + 8*H*beta**2*r**2*u**2/q - 4*H*beta**2*p*r*u**3/(m*q) - 8*H*beta*d*p*s/q - 4*H*beta*d*r*s*u/(m*q) + 2*H*beta*p*s + 8*H*beta*r*s*u/q - 4*H*beta*p*s*u**2/(m*q) - 6*H*p**2 - 8*H*p*r*u/q - 6*H*r**2 - 4*H*s**2 + 4*H*p**2*u**2/(m*q) - 3*H*p*r*u/m - 4*H*r**2*u**2/(m*q) + 2*H*p*r*u**3/(m**2*q) - 4*V1*W*beta**2*s + 4*V1*W*beta*p + 2*V1*W*beta*r*u/m - 8*V1*beta**3*m*r*s/q + 4*V1*beta**3*p*s*u/q + 8*V1*beta**2*m*p*r/q - 4*V1*beta**2*p**2*u/q + 4*V1*beta**2*r**2*u/q - 2*V1*beta**2*p*r*u**2/(m*q) + 4*V1*beta*r*s/q - 2*V1*beta*p*s*u/(m*q) - 4*V1*p*r/q + 2*V1*p**2*u/(m*q) - V1*p*r/m - 2*V1*r**2*u/(m*q) + V1*p*r*u**2/(m**2*q) + 2*V2*W*beta*s - 2*V2*W*p - V2*W*r*u/m + 4*V2*beta**2*m*r*s/q - 2*V2*beta**2*p*s*u/q - 4*V2*beta*m*p*r/q + 2*V2*beta*p**2*u/q - 2*V2*beta*r**2*u/q + V2*beta*p*r*u**2/(m*q) - 4*W*beta*s*u**2/m + 2*W*p + 4*W*p*u**2/m + 2*W*r*u**3/m**2 + 8*beta**2*d*r*s/q - 4*beta**2*m*r*s - 4*beta**2*r*s*u**2/q + 2*beta**2*p*s*u**3/(m*q) - 8*beta*d*p*r/q - 2*beta*d*p*r/m - 4*beta*d*r**2*u/(m*q) + 4*beta*d*s**2*u/(m*q) + 4*beta*p*r*u**2/q + 2*beta*r**2*u - 2*beta*s**2*u - 2*beta*p**2*u**3/(m*q) - beta*p*r*u**2/m + 2*beta*r**2*u**3/(m*q) - beta*p*r*u**4/(m**2*q) - 4*d*p*s*u/(m*q) - d*r*s/m - 2*d*r*s*u**2/(m**2*q) - 2*r*s + p*s*u/m",
+    "normal_matrix": "Matrix([[(-4*H*m**2*q - 2*m**2*q*(H - beta*u) - 2*m*u*(V1 + beta*d - beta*m*(3*H*beta*u + 2*V1*beta - V2) - beta*(3*H**2*m - d - u**2) + (H - beta*u)*(H*beta*m + 2*u)))/(2*m**2*q), (-d*m*q - 2*d*u*(2*H*beta*m + u))/(2*m**2*q), (m*q**2*u - u*(m*q**2 - q*(m*(4*H*beta*u + 2*V1*beta - V2) + 2*u**2)))/(2*m**2*q), (m*q*(-beta*d + u*(H - beta*u)) - m*q*(H*u + V1 + beta*d) - u*(3*H*m*q + 2*beta*d*(2*H*beta*m + u) - u*(V1 + beta*d - beta*m*(3*H*beta*u + 2*V1*beta - V2) - beta*(3*H**2*m - d - u**2) + (H - beta*u)*(H*beta*m + 2*u))))/(2*m**2*q)], [(2*beta*m*(V1 + beta*d - beta*m*(3*H*beta*u + 2*V1*beta - V2) - beta*(3*H**2*m - d - u**2) + (H - beta*u)*(H*beta*m + 2*u)) - m*q*(2*beta**2*m + 1))/(m*q), (-2*H*m*q + 2*beta*d*(2*H*beta*m + u) - beta*m*q*u)/(m*q), (-beta*m*q**2 + beta*(m*q**2 - q*(m*(4*H*beta*u + 2*V1*beta - V2) + 2*u**2)))/(m*q), (-2*H*beta*m*q + beta*(3*H*m*q + 2*beta*d*(2*H*beta*m + u) - u*(V1 + beta*d - beta*m*(3*H*beta*u + 2*V1*beta - V2) - beta*(3*H**2*m - d - u**2) + (H - beta*u)*(H*beta*m + 2*u))) - q*(2*beta**2*m*u - u*(2*beta**2*m + 1))/2)/(m*q)], [0, 0, 0, 1], [-2*(V1 + beta*d - beta*m*(3*H*beta*u + 2*V1*beta - V2) - beta*(3*H**2*m - d - u**2) + (H - beta*u)*(H*beta*m + 2*u))/q, -2*d*(2*H*beta*m + u)/(m*q), (-m*q**2 + q*(m*(4*H*beta*u + 2*V1*beta - V2) + 2*u**2))/(m*q), (-3*H*m*q - 2*beta*d*(2*H*beta*m + u) + u*(V1 + beta*d - beta*m*(3*H*beta*u + 2*V1*beta - V2) - beta*(3*H**2*m - d - u**2) + (H - beta*u)*(H*beta*m + 2*u)))/(m*q)]])",
+    "space": "Phi,v H^(s+2); chi H^(s+1); pi,n H^s"
+  },
+  "evidence_kind": "exact symbolic coordinate/constraint/energy/limit identities; uniform estimates and convergence proof in note",
+  "mutation_failed_checks": {
+    "half_W_shift": [
+      "p_normal_form"
+    ],
+    "omit_scalar_attraction": [
+      "limit_Jeans_equation"
+    ],
+    "omit_wave_principal": [
+      "wave_principal"
+    ],
+    "wrong_dust_force": [
+      "constraint_propagated"
+    ],
+    "wrong_r_shift": [
+      "r_qW_cancels"
+    ],
+    "wrong_s_shift": [
+      "s_qW_cancels"
+    ]
+  },
+  "result_id": "K2311",
+  "schema_version": "1.0"
+}
