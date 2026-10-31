@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2403-drift-robust-calibration](conditional-build/k2403-drift-robust-calibration-2026-10-31.md).
+- [k2404-rotation-uncertain-recovery](conditional-build/k2404-rotation-uncertain-recovery-2026-10-31.md).
+- [k2405-fifth-euler-compatibility](conditional-build/k2405-fifth-euler-compatibility-2026-10-31.md).
+
 - [k2400-adaptive-calibration-confidence](conditional-build/k2400-adaptive-calibration-confidence-2026-10-31.md).
 - [k2401-positive-visibility-minimax-recovery](conditional-build/k2401-positive-visibility-minimax-recovery-2026-10-31.md).
 - [k2402-coupled-polar-compatibility](conditional-build/k2402-coupled-polar-compatibility-2026-10-31.md).

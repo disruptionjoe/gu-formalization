@@ -1,4 +1,8 @@
 
+- [k2403-drift-robust-calibration](k2403_drift_robust_calibration_probe.py).
+- [k2404-rotation-uncertain-recovery](k2404_rotation_uncertain_recovery_probe.py).
+- [k2405-fifth-euler-compatibility](k2405_fifth_euler_compatibility_probe.py).
+
 - [k2400-adaptive-calibration-confidence](k2400_adaptive_calibration_confidence_probe.py).
 - [k2401-positive-visibility-minimax-recovery](k2401_positive_visibility_minimax_recovery_probe.py).
 - [k2402-coupled-polar-compatibility](k2402_coupled_polar_compatibility_probe.py).

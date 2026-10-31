@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2403-drift-robust-calibration](k2403-drift-robust-calibration.json).
+- [k2404-rotation-uncertain-recovery](k2404-rotation-uncertain-recovery.json).
+- [k2405-fifth-euler-compatibility](k2405-fifth-euler-compatibility.json).
+
 - [k2400-adaptive-calibration-confidence](k2400-adaptive-calibration-confidence.json).
 - [k2401-positive-visibility-minimax-recovery](k2401-positive-visibility-minimax-recovery.json).
 - [k2402-coupled-polar-compatibility](k2402-coupled-polar-compatibility.json).

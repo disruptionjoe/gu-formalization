@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 154a08bf6564e3a505c9591bb39be35ebc741441
+revision_basis: 791674a061979fc7d7f48e185984b0bc223f342d
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,20 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2403 proves time-uniform calibration under predictable drift, exact hidden-role odds
+    for heterogeneous fresh pools, a sharp calibration-only drift floor, and separately
+    priced synthetic calibration/science evidence. K2404 proves the all-CPTP identity
+    minimax criterion for compact convex planar uncertainty, a constructive uniform gain,
+    sharp orientation thresholds, a non-mirror physical fixture and an exact variable-trace
+    segment optimizer. K2405 evaluates all105 actual curved fifth-Euler compatibility
+    conditions on the stored cubic:101 fail, excluding every quartic extension of that
+    cubic. A raw81-entry dual excludes all19110 realified second-jet orthogonal orbit repair
+    columns; a broader174-coefficient polar correction preserves lower Euler/fourth
+    algebraic and cancels all105 compatibility conditions, but its same-cubic replay
+    passes924 all-W fifth receivers and fails24/420 four-W receivers, with an
+    original-column dual. The joint Euler/algebraic cubic intersection is unresolved. No
+    smooth solution, measured calibration, hardware validation or native GU verdict is
+    claimed. Historical predecessor (not live):
     K2400 proves time-uniform adaptive calibration with stopped-process error delta+eta,
     exact optional-stopping controls and priced synthetic pooled evidence. K2401 resolves
     the all-CPTP mirror-law minimax decoder for0<visibility<1/2 with a unique scalar root,
@@ -17879,6 +17893,15 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2403-drift-robust-calibration-2026-10-31.md
+  - lab/process/k2403-drift-robust-calibration.json
+  - tests/channel-swings/k2403_drift_robust_calibration_probe.py
+  - explorations/conditional-build/k2404-rotation-uncertain-recovery-2026-10-31.md
+  - lab/process/k2404-rotation-uncertain-recovery.json
+  - tests/channel-swings/k2404_rotation_uncertain_recovery_probe.py
+  - explorations/conditional-build/k2405-fifth-euler-compatibility-2026-10-31.md
+  - lab/process/k2405-fifth-euler-compatibility.json
+  - tests/channel-swings/k2405_fifth_euler_compatibility_probe.py
   - explorations/conditional-build/k2400-adaptive-calibration-confidence-2026-10-31.md
   - lab/process/k2400-adaptive-calibration-confidence.json
   - tests/channel-swings/k2400_adaptive_calibration_confidence_probe.py
@@ -19989,6 +20012,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can the full pointwise-polar cubic family satisfy homogeneous lower Euler, all105
+  fifth-Euler compatibility and the complete fifth-algebraic image conditions
+  simultaneously, preserving the useful lower finite-jet construction? Historical
+  predecessor (not live):
   Does the fixed repaired cubic pass all105 actual fifth-Euler compatibility conditions,
   and can its quartic fiber then satisfy the remaining mixed-E sixth-algebraic sectors?
   Historical predecessor (not live):
@@ -24174,6 +24201,22 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Use both exact candidate outcomes: old
+  cubic2c0e4ba811548bb58f4f575c0b66404c4147c9de6969ffd27363d29cc9791675 has101
+  quartic-independent fifth-Euler failures; new
+  cubic3e5dd4529a932dad94f765ece36ced571e0568fd2211b74146ec113de3d50337 has all105
+  compatibility values zero but24/420 four-W fifth-algebraic failures. The174-coefficient
+  correction proves the polar Euler/J intersection is feasible; do not requeue that as
+  open. Preserve the full kernel of that combined map and impose the four-W quotient
+  equations jointly, then the168/56/14/2 remaining fifth-algebraic sectors and all-W sixth
+  conditions on the SAME cubic. A single-row four-W dual rejects the new candidate only,
+  while the81-entry Euler/J dual excludes the whole second-jet orthogonal orbit family.
+  Neither is an all-cubic no-go. General variable-trace recovery needs a justified broader
+  physical uncertainty model and calibrated implementation margins; the supplied segment
+  is solved exactly. Drift-aware inference needs measured or supplied drift/common-kernel
+  guarantees and actual complete costs. Retain common-bar/mobile, thermal163/164,
+  native2+1/chirality and source/matter/physical-quotient alternatives under unchanged
+  source and ledger ceilings. Historical predecessor (not live):
   Use the shared cubic
   digest2c0e4ba811548bb58f4f575c0b66404c4147c9de6969ffd27363d29cc9791675 and reconstructed
   W4 digest3bcd306c5f4be8d279dd71a371afe31593f10739c4f7f380cf9a50c34ddc96f7. First derive

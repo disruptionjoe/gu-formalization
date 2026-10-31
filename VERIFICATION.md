@@ -5,6 +5,19 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2403--K2405: Drift, uncertain recovery and curved compatibility (2026-10-31)
+
+K2403 proves time-uniform calibration under predictable drift, exact hidden-role odds for heterogeneous fresh pools, a sharp calibration-only drift floor, and separately priced synthetic calibration/science evidence. K2404 proves the all-CPTP identity minimax criterion for compact convex planar uncertainty, a constructive uniform gain, sharp orientation thresholds, a non-mirror physical fixture and an exact variable-trace segment optimizer. K2405 evaluates all105 actual curved fifth-Euler compatibility conditions on the stored cubic:101 fail, excluding every quartic extension of that cubic. A raw81-entry dual excludes all19110 realified second-jet orthogonal orbit repair columns; a broader174-coefficient polar correction preserves lower Euler/fourth algebraic and cancels all105 compatibility conditions, but its same-cubic replay passes924 all-W fifth receivers and fails24/420 four-W receivers, with an original-column dual. The joint Euler/algebraic cubic intersection is unresolved. No smooth solution, measured calibration, hardware validation or native GU verdict is claimed.
+
+- [K2403](explorations/conditional-build/k2403-drift-robust-calibration-2026-10-31.md).
+- [K2404](explorations/conditional-build/k2404-rotation-uncertain-recovery-2026-10-31.md).
+- [K2405](explorations/conditional-build/k2405-fifth-euler-compatibility-2026-10-31.md).
+
+Independent specialists reviewed the statistical guarantees, all-CPTP recovery arguments and actual curved compatibility/repair maps. Exact native reports and changed-input controls support the conditional claims; universal proofs remain distinct from finite symbolic fixtures. No external-expert or proof-assistant certification is asserted. The geometric Euler repair and prior algebraic extension occur on different cubics; neither is reported as a shared higher-order extension.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2400--K2402: Adaptive calibration, exact recovery and shared quartic extension (2026-10-31)
 
 K2400 proves time-uniform adaptive calibration with stopped-process error delta+eta, exact optional-stopping controls and priced synthetic pooled evidence. K2401 resolves the all-CPTP mirror-law minimax decoder for0<visibility<1/2 with a unique scalar root, rigorous value bounds and a physical unknown-visibility confidence polytope. K2402 constructs a coupled cubic repair, passes every fifth-algebraic sector and14 actual curved compatibility conditions, and proves an existential shared fourth-Euler/fifth-algebraic quartic extension with affine field dimension672721. Continuing through the entire59640-variable W4 fiber yields a555-coefficient witness passing all1848 mixed all-W sixth targets, with Euler restoration preserving W4. Remaining sixth sectors and fifth Euler are open; no smooth/all-order field, measured calibration, hardware validation or native GU recovery is claimed.

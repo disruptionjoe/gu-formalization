@@ -1,0 +1,40 @@
+{
+  "adaptive_crossing_probability": "19937959862637880302976817589073123333741703601740151819781431580080638981930874641749977127547518902436112337609217633/1980704062856608439838598758400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "checks": {
+    "adaptive_first_crossing_below_budget": true,
+    "all_shared_graph_cells_endpoints": true,
+    "complete_finite_heterogeneous_odds_boxes": true,
+    "complete_finite_score_boxes": true,
+    "current_law_interval": true,
+    "current_odds_enclosure": true,
+    "deployment_identification_floor": true,
+    "error_and_exposure_account": true,
+    "heterogeneous_fixture": true,
+    "independent_hidden_role_enumeration": true,
+    "indistinguishable_anchor_models": true,
+    "outward_radius_at4096": true,
+    "summable_time_spending": true
+  },
+  "controls": {
+    "average_law_unsafe_normalizer": true,
+    "average_probability_substitution_is_wrong": true,
+    "dependent_block_not_independent_likelihood": true,
+    "omitted_drift_actual_binomial_coverage_failure": true,
+    "reused_science_factor_not_evalue": true
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2397-finite-training-shift-confidence-2026-10-31.md": "92d6a14a2890a0b9e358a241d401f9ce49939606cd8903cc8d35daf6ca42cb95",
+    "explorations/conditional-build/k2400-adaptive-calibration-confidence-2026-10-31.md": "361b3c2cff5156ddc4672e1b5eb567b402b432d607dc586da6566a1cbae1860f",
+    "lab/process/k2400-adaptive-calibration-confidence.json": "8ea69ad0a6d1802c0c61e6cb1d8961444da2019d30497896c727572d7a672a9c"
+  },
+  "direct_role_cases": 24,
+  "evidence_kind": "finite exact rational checks; universal martingale, symmetric-polynomial and identifiability arguments are written proofs",
+  "favorable_bookkeeping_sum_not_physical_cost": 8240,
+  "favorable_calibration_label_observations": 8192,
+  "favorable_science_pool_exposures": 48,
+  "heterogeneous_cases": 1278,
+  "omitted_drift_failure_probability": "89884656718711361085238209845408865327889567313341425614022942489689527079260699882867709688854741493026780303613043373856287881235442337468769424973328171889314447887089985105146974373587835611362993643203043261036014767989911101912294526036669068075124649681598126484906696893454241127563158677231456037061/89884656743115795386465259539451236680898848947115328636715040578866337902750481566354238661203768010560056939935696678829394884407208311246423715319737062188883946712432742638151109800623047059726541476042502884419075341171231440736956555270413618581675255342293149119973622969239858152417678164812112068608",
+  "result_id": "K2403",
+  "score_cases": 54,
+  "shared_graph_minimum": "27512614111/1073741824"
+}
