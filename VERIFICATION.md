@@ -5,6 +5,19 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2388--K2390: Exchangeable noise, quantum clock and full finite hook jet (2026-10-31)
+
+K2388 replaces Gaussian covariance calibration with a frozen-score exchangeable rank test, sharp adaptive replacement correction, a global shared-graph rejection certificate and a bounded-support power guarantee. K2389 constructs a finite-duration bit-blind clock instrument, proves classical versus coherent recovery optima and complete conditional costs, extends the fixed decoder to arbitrary angle laws with an exact noisy minimax guarantee, and solves the known aligned-mean noisy all-CPTP optimum with an explicit two-Kraus recovery and an interior fixture beating both simpler decoders. K2390 rejects the selected cubic orbit family by an exact dual witness, repairs it through the full 284-dimensional pointwise polar annihilator, and reconstructs one shared actual-metric tensor satisfying all third-Euler and fourth Gram/sigma equations; all 924 necessary all-W fifth-order groups pass and a constructive theorem settles fifth Gram alone. The stronger four-W test rejects the first cubic representative (13 of 420 field-part targets); an exact homogeneous adjustment reduces these to nine. Coordinated repair is impossible within an exhaustively tested 12,577-direction supportwise-quiet family (rank 16,112), with an exact dual; broader coupled cubic repair remains open. These are conditional mathematical results, not measured cosmology, hardware validation, a local geometric solution or native GU recovery.
+
+- [K2388](explorations/conditional-build/k2388-exchangeable-noise-calibration-2026-10-31.md).
+- [K2389](explorations/conditional-build/k2389-clock-pointer-recovery-2026-10-31.md).
+- [K2390](explorations/conditional-build/k2390-full-hook-jet-2026-10-31.md).
+
+Independent read-only specialist derivation and cross-review, exact finite/symbolic/channel and actual-curvature tensor probes, changed-input and changed-coefficient controls, and seven affected native audits. Universal statistical and recovery claims rely on written proofs; geometry relies on a reconstructible shared finite certificate and direct tensor replay. No external-expert or proof-assistant certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2385--K2387: Estimated noise, finite timing and coupled hook blocks (2026-10-31)
 
 K2385 gives a finite-sample shared-graph rejection test with independent estimated noise covariance, robust graph-error bounds and an explicit calibration-event power condition. K2386 proves the optimal finite timing-record recovery tradeoff, a globally optimal finite-bit circle fixture and conditional decoder/control costs. K2387 constructs one exact shared tensor satisfying ten coupled vertical hook-jet blocks on the stored lower jet. These are conditional mathematical results, not measured cosmology, hardware or native GU verdicts.

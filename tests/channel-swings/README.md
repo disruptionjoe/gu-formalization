@@ -1,4 +1,8 @@
 
+- [k2388-exchangeable-noise-calibration](k2388_exchangeable_noise_calibration_probe.py).
+- [k2389-clock-pointer-recovery](k2389_clock_pointer_recovery_probe.py).
+- [k2390-full-hook-jet](k2390_full_hook_jet_probe.py).
+
 - [k2385-estimated-noise-calibration](k2385_estimated_noise_calibration_probe.py).
 - [k2386-finite-timing-recovery](k2386_finite_timing_recovery_probe.py).
 - [k2387-coupled-hook-jet-blocks](k2387_coupled_hook_jet_blocks_probe.py).

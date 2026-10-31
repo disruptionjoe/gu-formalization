@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2388-exchangeable-noise-calibration](conditional-build/k2388-exchangeable-noise-calibration-2026-10-31.md).
+- [k2389-clock-pointer-recovery](conditional-build/k2389-clock-pointer-recovery-2026-10-31.md).
+- [k2390-full-hook-jet](conditional-build/k2390-full-hook-jet-2026-10-31.md).
+
 - [k2385-estimated-noise-calibration](conditional-build/k2385-estimated-noise-calibration-2026-10-31.md).
 - [k2386-finite-timing-recovery](conditional-build/k2386-finite-timing-recovery-2026-10-31.md).
 - [k2387-coupled-hook-jet-blocks](conditional-build/k2387-coupled-hook-jet-blocks-2026-10-31.md).

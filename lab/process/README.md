@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2388-exchangeable-noise-calibration](k2388-exchangeable-noise-calibration.json).
+- [k2389-clock-pointer-recovery](k2389-clock-pointer-recovery.json).
+- [k2390-full-hook-jet](k2390-full-hook-jet.json).
+
 - [k2385-estimated-noise-calibration](k2385-estimated-noise-calibration.json).
 - [k2386-finite-timing-recovery](k2386-finite-timing-recovery.json).
 - [k2387-coupled-hook-jet-blocks](k2387-coupled-hook-jet-blocks.json).

@@ -1,0 +1,59 @@
+{
+  "changed_input_or_inference_controls": {
+    "adaptive_replacement_uncorrected_size": true,
+    "below_resolution_no_rejection": true,
+    "grid_has_wrong_bound_direction": true,
+    "large_error_removes_reject": true,
+    "reused_calibration_wrong_rank": true,
+    "science_only_bias_falsely_rejects": true,
+    "smaller_contamination_correction_fails": true,
+    "strict_tie_mutation_falsely_rejects": true,
+    "uncorrected_replacement_changes_decision": true,
+    "wider_gain_removes_reject": true,
+    "wrong_profile_inf_falsely_rejects": true
+  },
+  "check_names": {
+    "adaptive_replacement_corrected_size": true,
+    "adversarial_power_count": true,
+    "all_486_replacement_domination_cases": true,
+    "all_81_four_score_rank_lists_with_ties": true,
+    "bounded_noise_alternative_identity": true,
+    "calibration_score": true,
+    "contamination_resolution": true,
+    "finite_exchangeable_orbit_coverage": true,
+    "global_difference_certificate": true,
+    "global_strict_margin": true,
+    "matched_nonzero_bias_does_not_reject": true,
+    "one_high_replacement_still_rejects": true,
+    "overfit_new_score_positive": true,
+    "overfit_score_zeros_calibration": true,
+    "power_margin_with_discrepancy": true,
+    "profile_p_and_reject": true,
+    "raw_error_global_certificate": true,
+    "replacement_correction_repairs_rank": true,
+    "replacement_correction_sharp_grid": true,
+    "science_score": true,
+    "shared_parameter_sup_preserves_true_null": true,
+    "ties_count_as_exceedances": true,
+    "whole_support_noise_upper_bound": true,
+    "whole_support_signal_lower_bound": true
+  },
+  "checks": 24,
+  "dependencies": {
+    "lab/process/k2376-windowed-cosmological-null.json": "1ef2a9f1419c70e08d98089e763a3bd5999a468e9d02d77ac9bb336865d45605",
+    "lab/process/k2385-estimated-noise-calibration.json": "04d7b2c2a65403448c468c97917e57eaacd90cf352d387ae4a3c456b127b4e3c"
+  },
+  "finite_rank_lists": 81,
+  "fixture": {
+    "D": 4,
+    "alpha": "1/20",
+    "d": 2,
+    "k": 1,
+    "m": 59,
+    "one_arbitrary_replacement_bound": "1/20",
+    "profile_p": "1/30"
+  },
+  "replacement_cases": 486,
+  "result_id": "K2388",
+  "scope": "Exact finite-list/rational/symbolic controls; universal coverage and power are written proofs, not Monte Carlo or survey tests. Continuous overfit failure is written reasoning with a finite interpolation countercontrol."
+}

@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-10-31: ESTIMATED NOISE, FINITE TIMING AND COUPLED HOOK BLOCKS.**
+> **2026-10-31: EXCHANGEABLE NOISE, QUANTUM CLOCK AND FULL FINITE HOOK JET.**
+> Geometry: solve the coupled delta-S system with zero Euler image, homogeneous fourth Gram/sigma, zero W-cubic restriction and the required full four-W quotient correction. Begin with the full 284-dimensional polar kernel and allow cross-support Euler cancellation; two/three-transverse cubic values may close Euler without changing the one-transverse/two-W receiver. Preserve the original finite tensor, 13-failure obstruction, nine-failure partial repair and both exact restricted-family duals. A repair must then face fewer-W fifth sectors and the joint fourth-Euler/fifth-algebraic system using a validated curved fourth baseline. Observation: supply frozen same-window full-experiment calibration and justified exchangeability, contamination and raw-error budgets, then certify the entire shared-parameter profile. Recovery: price the explicit nonunitary aligned-mean decoder with actual complete control/noise/reset costs; nonaligned-mean recovery remains open. No source, ledger0.263, canon or scheduler change follows.
+
+
+> **Historical predecessor, no longer the live next condition: 2026-10-31 ESTIMATED NOISE, FINITE TIMING AND COUPLED HOOK BLOCKS.**
 > Retain the estimated-noise finite-sample theorem, exact finite-bit recovery frontier and shared ten-block hook certificate. Observation needs independent full-stack noise calibration with the same windows and selection; apparatus needs a record-resolved timing instrument and measured complete costs. Geometry requires actual mixed/horizontal Ricci-Hessian receivers and the remaining coupled Euler/fourth-algebraic sectors, allowing the constructed solution kernel rather than freezing one sparse representative. Separate Euler existence, separate block solutions or zero extension do not certify the full intersection. Zero-kappa/nonradial and source-owned matter/action/observation/domain bridges remain open; source and ledger unchanged.
 
 

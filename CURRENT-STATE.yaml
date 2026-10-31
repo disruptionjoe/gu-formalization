@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 5d44fda5f374f0f69315ef12c2d9b13642d50872
+revision_basis: c0d70983147a386eadf2188034072db08ca60c06
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,23 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2388 replaces Gaussian covariance calibration with a frozen-score exchangeable rank
+    test, sharp adaptive replacement correction, a global shared-graph rejection certificate
+    and a bounded-support power guarantee. K2389 constructs a finite-duration bit-blind
+    clock instrument, proves classical versus coherent recovery optima and complete
+    conditional costs, extends the fixed decoder to arbitrary angle laws with an exact noisy
+    minimax guarantee, and solves the known aligned-mean noisy all-CPTP optimum with an
+    explicit two-Kraus recovery and an interior fixture beating both simpler decoders. K2390
+    rejects the selected cubic orbit family by an exact dual witness, repairs it through the
+    full 284-dimensional pointwise polar annihilator, and reconstructs one shared
+    actual-metric tensor satisfying all third-Euler and fourth Gram/sigma equations; all 924
+    necessary all-W fifth-order groups pass and a constructive theorem settles fifth Gram
+    alone. The stronger four-W test rejects the first cubic representative (13 of 420
+    field-part targets); an exact homogeneous adjustment reduces these to nine. Coordinated
+    repair is impossible within an exhaustively tested 12,577-direction supportwise-quiet
+    family (rank 16,112), with an exact dual; broader coupled cubic repair remains open.
+    These are conditional mathematical results, not measured cosmology, hardware validation,
+    a local geometric solution or native GU recovery. Historical predecessor (not live):
     K2385 gives a finite-sample shared-graph rejection test with independent estimated noise
     covariance, robust graph-error bounds and an explicit calibration-event power condition.
     K2386 proves the optimal finite timing-record recovery tradeoff, a globally optimal
@@ -17814,6 +17831,15 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2388-exchangeable-noise-calibration-2026-10-31.md
+  - lab/process/k2388-exchangeable-noise-calibration.json
+  - tests/channel-swings/k2388_exchangeable_noise_calibration_probe.py
+  - explorations/conditional-build/k2389-clock-pointer-recovery-2026-10-31.md
+  - lab/process/k2389-clock-pointer-recovery.json
+  - tests/channel-swings/k2389_clock_pointer_recovery_probe.py
+  - explorations/conditional-build/k2390-full-hook-jet-2026-10-31.md
+  - lab/process/k2390-full-hook-jet.json
+  - tests/channel-swings/k2390_full_hook_jet_probe.py
   - explorations/conditional-build/k2385-estimated-noise-calibration-2026-10-31.md
   - lab/process/k2385-estimated-noise-calibration.json
   - tests/channel-swings/k2385_estimated_noise_calibration_probe.py
@@ -19879,6 +19905,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can broader coupled homogeneous cubic Euler/quartic freedom remove the complete four-W
+  fifth-order obstruction, and can actual matched calibration or implemented clock costs
+  turn the two completed mathematical interfaces into physical tests? Historical
+  predecessor (not live):
   Can independent same-observation calibration and a fully priced record-resolved detector
   realize these statistical/control bounds, and can the remaining actual-metric hook-jet
   equations extend the shared vertical-block solution? Historical predecessor (not live):
@@ -24047,6 +24077,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Geometry: solve the coupled delta-S system with zero Euler image, homogeneous fourth
+  Gram/sigma, zero W-cubic restriction and the required full four-W quotient correction.
+  Begin with the full 284-dimensional polar kernel and allow cross-support Euler
+  cancellation; two/three-transverse cubic values may close Euler without changing the
+  one-transverse/two-W receiver. Preserve the original finite tensor, 13-failure
+  obstruction, nine-failure partial repair and both exact restricted-family duals. A
+  repair must then face fewer-W fifth sectors and the joint fourth-Euler/fifth-algebraic
+  system using a validated curved fourth baseline. Observation: supply frozen same-window
+  full-experiment calibration and justified exchangeability, contamination and raw-error
+  budgets, then certify the entire shared-parameter profile. Recovery: price the explicit
+  nonunitary aligned-mean decoder with actual complete control/noise/reset costs;
+  nonaligned-mean recovery remains open. No source, ledger0.263, canon or scheduler change
+  follows. Historical predecessor (not live):
   Retain the estimated-noise finite-sample theorem, exact finite-bit recovery frontier and
   shared ten-block hook certificate. Observation needs independent full-stack noise
   calibration with the same windows and selection; apparatus needs a record-resolved
