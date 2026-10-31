@@ -6,6 +6,19 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2361--K2363: Matter rigidity, transparent locality and variable-projector exclusion (2026-10-31)
+
+K2361 proves that constant coefficient retuning cannot preserve an exact regular quadratic vacuum history after adding conserved dust or radiation, and evolves the new joint-history constrained scalar numerically. K2362 proves minimal transparent logical Z and X localities three and five under fixed-code pair-conservation premises and constructs a two-block entangling control. K2363 excludes every smooth horizontal/trace/traceless projector field on the actual curved metric through the complete Codazzi equation. These are scoped mathematical and numerical results; no native GU, empirical stability or hardware certification.
+
+- [K2361](explorations/conditional-build/k2361-shared-history-dynamics-and-matter-2026-10-31.md).
+- [K2362](explorations/conditional-build/k2362-transparent-control-locality-2026-10-31.md).
+- [K2363](explorations/conditional-build/k2363-variable-projector-stationarity-2026-10-31.md).
+
+Three read-only specialists reviewed the concrete proofs, probes and reports. Validation:130 exact Clifford, rational, dyadic Pauli and symbolic checks;13 numerical convergence/identity checks;16 changed-input, counterexample or algebraic scope controls. Full256-state Pauli expansion and all code/loss images are checked. Independent scalar transfer methods differ by at most2.4e-11; sampled mass positivity is not a continuum certificate. The universal exclusions and channel statements rest on written proofs. No external-expert, proof-assistant, hardware, empirical stability or native GU acceptance is claimed.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2358--K2360: Shared history, gate loss and anisotropic stationarity (2026-10-31)
 
 K2358 confronts one rolling quadratic vacuum history with both Pantheon+ and DESI: a shared numerical witness gives chi-square 1402.46615 and 7.00625, with fitted rather than predicted coefficients. K2359 realizes encoded exchange/ZZ controls, proves unknown-time gate loss defeats exact end-only recovery, and constructs a separately supplied transparent logical-Z extension. K2360 constructs a non-Einstein parallel-product translation-critical field, but excludes constant horizontal/trace/traceless projector repair on the actual curved metric through complete derivative-adjoint rows. All results remain conditional; no native GU or hardware certification.

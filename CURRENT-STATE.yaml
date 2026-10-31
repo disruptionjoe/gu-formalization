@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 44e5fa62ac4c5feb639c4d88aee499734e0c0b57
+revision_basis: 82ee09bd2d40ede9d4bd50d232f864ca2eaca8b9
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,15 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2361 proves that constant coefficient retuning cannot preserve an exact regular
+    quadratic vacuum history after adding conserved dust or radiation, and evolves the new
+    joint-history constrained scalar numerically. K2362 proves minimal transparent logical Z
+    and X localities three and five under fixed-code pair-conservation premises and
+    constructs a two-block entangling control. K2363 excludes every smooth
+    horizontal/trace/traceless projector field on the actual curved metric through the
+    complete Codazzi equation. These are scoped mathematical and numerical results; no
+    native GU, empirical stability or hardware certification. Historical predecessor (not
+    live):
     K2358 confronts one rolling quadratic vacuum history with both Pantheon+ and DESI: a
     shared numerical witness gives chi-square 1402.46615 and 7.00625, with fitted rather
     than predicted coefficients. K2359 realizes encoded exchange/ZZ controls, proves
@@ -17733,6 +17742,15 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2361-shared-history-dynamics-and-matter-2026-10-31.md
+  - lab/process/k2361-shared-history-dynamics-and-matter.json
+  - tests/channel-swings/k2361_shared_history_dynamics_and_matter_probe.py
+  - explorations/conditional-build/k2362-transparent-control-locality-2026-10-31.md
+  - lab/process/k2362-transparent-control-locality.json
+  - tests/channel-swings/k2362_transparent_control_locality_probe.py
+  - explorations/conditional-build/k2363-variable-projector-stationarity-2026-10-31.md
+  - lab/process/k2363-variable-projector-stationarity.json
+  - tests/channel-swings/k2363_variable_projector_stationarity_probe.py
   - explorations/conditional-build/k2358-shared-history-supernova-test-2026-10-31.md
   - lab/process/k2358-shared-history-supernova-test.json
   - tests/channel-swings/k2358_shared_history_supernova_test_probe.py
@@ -19717,6 +19735,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which jointly solved matter and perturbation model can reproduce the released distance
+  data, which simultaneous many-body physical controls realize the transparent logical
+  gates, and which actual-metric symmetric Codazzi or mixed-grade field lies outside the
+  excluded projector family? Historical predecessor (not live):
   Which physically justified matter/perturbation and selection model preserves the shared
   cosmology witness, which available control realizes continuous error-transparent gates,
   and which variable or mixed native field closes the actual curved action and receiver
@@ -23851,6 +23873,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Build a jointly solved matter background and coupled perturbation/ruler/selection model
+  before reusing the vacuum likelihood; constant retuning cannot keep its entire regular
+  history. The joint vacuum scalar transfer is numerically converged but neither continuum
+  positivity nor empirical stability is certified. Implement or physically constrain the
+  simultaneous three-local Z, five-local X and two-block ZZ controls with measured
+  rail-noise assumptions and preparation/readout costs. On the actual curved metric leave
+  the entire smooth three-projector family: test general symmetric Codazzi or mixed-grade
+  fields with all transverse and independent metric/epsilon/domain equations. Preserve all
+  source and ledger verdicts. Historical predecessor (not live):
   Reuse the shared Pantheon+/DESI witness with one coefficient set and explicit
   inter-survey/selection assumptions; build a justified common matter, perturbation and
   ruler model rather than a new fitted fixture. Continuous occupation-conditioned

@@ -1,0 +1,136 @@
+{
+  "altered_input_controls": {
+    "Fzero_exception_is_real": true,
+    "comoving_variable_divides_by_zero": true,
+    "ignore_x6_obstruction": true,
+    "old_mass_does_not_transfer": true,
+    "potential_only_changes_transfer": true,
+    "radiation_not_absent_from_tensor_pump": true
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2361-shared-history-dynamics-and-matter-2026-10-31.md": "51680d554f182d0205a26b9db903a4731e33522cef38a3b26f165d96795528c1",
+    "lab/process/k2291-rolling-scalar-applicability.json": "00666baf9e9265d66bb8f8f98bf9b3e31e1105f3d06e59e30b534b1bd6cdd93b",
+    "lab/process/k2292-conserved-matter-cosmology.json": "07e645e3dea14a89040e7cfb24d9f29d3db062baef6012843e23fe0bce8cbc3c",
+    "lab/process/k2358-shared-history-supernova-test.json": "8d74aad4dc391d58828f97f7eecf1caf60b3af96b3b721353fde81663b584e54",
+    "tests/channel-swings/k2361_shared_history_dynamics_and_matter_probe.py": "a37dbafa74a6e9e9c40e62e9fa08b32bcc18160065b0dc713de9425ac79b3b12"
+  },
+  "details": {
+    "coefficients": [
+      55.85236076,
+      929.86045772,
+      2,
+      0.4885325972
+    ],
+    "controls": "F=0 exception retained; no finite-distance exclusion",
+    "maximum_method_matrix_discrepancy": 2.4e-11,
+    "phase_norm": "Euclidean (Q,dQ/dN_E), no primordial spectrum or energy interpretation",
+    "present": {
+      "F": 78.7043159242,
+      "beta": 0.000867016429,
+      "constrained_mass": 9.3387633286
+    },
+    "retuning": "no regular positive-F vacuum history retained after nonzero conserved dust/radiation, even constant coefficient changes",
+    "sampled_mass_range": [
+      2.15599014,
+      9.60248622
+    ],
+    "transfers": {
+      "0": {
+        "determinant": 0.1016025987,
+        "matrix": [
+          [
+            0.1550386,
+            0.1433722
+          ],
+          [
+            -1.19694457,
+            -0.45153898
+          ]
+        ],
+        "singular_values": [
+          1.2942153,
+          0.07850518
+        ]
+      },
+      "0.1": {
+        "determinant": 0.1016025987,
+        "matrix": [
+          [
+            0.15409326,
+            0.14314284
+          ],
+          [
+            -1.1958566,
+            -0.45151693
+          ]
+        ],
+        "singular_values": [
+          1.2930588,
+          0.07857539
+        ]
+      },
+      "1": {
+        "determinant": 0.1016025987,
+        "matrix": [
+          [
+            0.06626254,
+            0.12128873
+          ],
+          [
+            -1.08230121,
+            -0.44773922
+          ]
+        ],
+        "singular_values": [
+          1.17621697,
+          0.08638083
+        ]
+      },
+      "10": {
+        "determinant": 0.1016025987,
+        "matrix": [
+          [
+            -0.18122318,
+            0.03185441
+          ],
+          [
+            -2.19090545,
+            -0.17554374
+          ]
+        ],
+        "singular_values": [
+          2.20513398,
+          0.04607548
+        ]
+      }
+    },
+    "turning_redshift": 0.000885986797
+  },
+  "evidence_kind": "exact polynomial/matter identities and double precision ODE transfer with independent method; mass grid is not interval proof",
+  "exact_check_names": [
+    "actual_full00_polynomial",
+    "dust_square_obstruction",
+    "radiation_Fzero",
+    "degenerate_radiation_control",
+    "all_constant_retuning_eliminates_Q",
+    "matter_tensor_pump"
+  ],
+  "exact_checks": 6,
+  "numerical_check_names": [
+    "new_present_mass",
+    "sampled_positive_F_and_mass",
+    "independent_background_method",
+    "turning_point_regular_Q",
+    "independent_transfer_0",
+    "Liouville_0",
+    "independent_transfer_0.1",
+    "Liouville_0.1",
+    "independent_transfer_1",
+    "Liouville_1",
+    "independent_transfer_10",
+    "Liouville_10",
+    "independent_adiabatic_solution"
+  ],
+  "numerical_checks": 13,
+  "result_id": "K2361"
+}

@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-10-31: SHARED HISTORY, GATE LOSS AND ANISOTROPIC STATIONARITY.**
+> **2026-10-31: MATTER RIGIDITY, TRANSPARENT LOCALITY AND VARIABLE-PROJECTOR EXCLUSION.**
+> Build a jointly solved matter background and coupled perturbation/ruler/selection model before reusing the vacuum likelihood; constant retuning cannot keep its entire regular history. The joint vacuum scalar transfer is numerically converged but neither continuum positivity nor empirical stability is certified. Implement or physically constrain the simultaneous three-local Z, five-local X and two-block ZZ controls with measured rail-noise assumptions and preparation/readout costs. On the actual curved metric leave the entire smooth three-projector family: test general symmetric Codazzi or mixed-grade fields with all transverse and independent metric/epsilon/domain equations. Preserve all source and ledger verdicts.
+
+
+> **Historical predecessor, no longer the live next condition: 2026-10-31 SHARED HISTORY, GATE LOSS AND ANISOTROPIC STATIONARITY.**
 > Reuse the shared Pantheon+/DESI witness with one coefficient set and explicit inter-survey/selection assumptions; build a justified common matter, perturbation and ruler model rather than a new fitted fixture. Continuous occupation-conditioned transparent control or time-resolved loss information is required before replacing gate noise by the idle erasure bound. The actual curved metric excludes constant three-projector weights; next fields must retain variable-weight derivatives or mixed grades and all independent metric/epsilon/domain equations. No source or ledger verdict changes.
 
 

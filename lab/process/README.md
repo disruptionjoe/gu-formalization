@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2361-shared-history-dynamics-and-matter](k2361-shared-history-dynamics-and-matter.json).
+- [k2362-transparent-control-locality](k2362-transparent-control-locality.json).
+- [k2363-variable-projector-stationarity](k2363-variable-projector-stationarity.json).
+
 - [k2358-shared-history-supernova-test](k2358-shared-history-supernova-test.json).
 - [k2359-loss-during-neutral-control](k2359-loss-during-neutral-control.json).
 - [k2360-anisotropic-native-stationarity](k2360-anisotropic-native-stationarity.json).

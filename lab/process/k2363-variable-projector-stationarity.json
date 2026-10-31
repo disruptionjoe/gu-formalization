@@ -1,0 +1,175 @@
+{
+  "altered_input_controls": {
+    "Codazzi_does_not_imply_parallel": true,
+    "freeze_projector_connection": true,
+    "omit_formal_adjoint": true,
+    "one_horizontal_row_only": true
+  },
+  "check_names": [
+    "diagonal_jet_0_4_4",
+    "diagonal_jet_0_4_0",
+    "diagonal_jet_0_4_5",
+    "diagonal_jet_1_4_4",
+    "diagonal_jet_1_4_1",
+    "diagonal_jet_1_4_5",
+    "diagonal_jet_4_1_1",
+    "diagonal_jet_4_1_4",
+    "diagonal_jet_4_1_5",
+    "diagonal_jet_1_2_2",
+    "diagonal_jet_1_2_1",
+    "diagonal_jet_1_2_5",
+    "mixed_Codazzi_coefficient",
+    "tensor_contraction",
+    "dimension14_nonexceptional",
+    "all_variable_projector_values",
+    "flat_Hessian_nonconstant",
+    "flat_Hessian_Codazzi",
+    "radial_minus11",
+    "trace_connection_reproduced",
+    "traceless_connection_reproduced",
+    "odd_Ricci_difference"
+  ],
+  "checks": 22,
+  "dependencies": {
+    "explorations/conditional-build/k2363-variable-projector-stationarity-2026-10-31.md": "f1e25ba4f941b69199f1ee716c4f70a71d8ca527f1fa904b71a925555ebcf2ea",
+    "lab/process/k2345-curved-bundle-ricci-obstruction.json": "31a13a1f7fee6cdbd945c74108d26e0ed49c05f585c855375beded44e38f0602",
+    "lab/process/k2357-curved-native-stationarity.json": "735c7fdae8f6cf31b80434ca5ab4f2a5a919e4b925bf409b4987c5ebd5cedb98",
+    "lab/process/k2360-anisotropic-native-stationarity.json": "86a58dcee80dbeb29192d62073667a7f0414a5e08780d3a033433ed39d8b6e6f",
+    "tests/channel-swings/k2363_variable_projector_stationarity_probe.py": "fed2d112592f026cb133c592dd41c5980d6143c9a798edc517676390f359d529",
+    "tests/channel-swings/k77_wave2_moving_shiab_epsilon_ward_green_domain_probe.py": "acc72e643032b4927db49963fd4de5b43b0c7f387a078b210a0d759e57e7bdb4"
+  },
+  "details": {
+    "Codazzi": "E=2 curl(A)+g wedge(divA-dtrA); contraction=11Q",
+    "diagonal_fixtures": [
+      [
+        0,
+        4,
+        4,
+        [
+          "2",
+          "0",
+          "1"
+        ]
+      ],
+      [
+        0,
+        4,
+        0,
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      [
+        0,
+        4,
+        5,
+        [
+          "0",
+          "2",
+          "-1"
+        ]
+      ],
+      [
+        1,
+        4,
+        4,
+        [
+          "2",
+          "0",
+          "1"
+        ]
+      ],
+      [
+        1,
+        4,
+        1,
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      [
+        1,
+        4,
+        5,
+        [
+          "0",
+          "2",
+          "-1"
+        ]
+      ],
+      [
+        4,
+        1,
+        1,
+        [
+          "-2",
+          "0",
+          "-1"
+        ]
+      ],
+      [
+        4,
+        1,
+        4,
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      [
+        4,
+        1,
+        5,
+        [
+          "0",
+          "-2",
+          "1"
+        ]
+      ],
+      [
+        1,
+        2,
+        2,
+        [
+          "2",
+          "0",
+          "1"
+        ]
+      ],
+      [
+        1,
+        2,
+        1,
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      [
+        1,
+        2,
+        5,
+        [
+          "0",
+          "2",
+          "-1"
+        ]
+      ]
+    ],
+    "mixed_fixture": [
+      "2",
+      "-2",
+      "2"
+    ],
+    "nonconstant_control": "Matrix([[6*u, 2*v], [2*v, 2*u]])",
+    "projector_solution": "a=b=d constant; odd Euler difference -3"
+  },
+  "evidence_kind": "exact selected Clifford fixtures, symbolic tensor contraction and variable-projector elimination; universal proof in note",
+  "result_id": "K2363"
+}

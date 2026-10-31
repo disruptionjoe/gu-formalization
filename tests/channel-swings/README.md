@@ -1,4 +1,8 @@
 
+- [k2361-shared-history-dynamics-and-matter](k2361_shared_history_dynamics_and_matter_probe.py).
+- [k2362-transparent-control-locality](k2362_transparent_control_locality_probe.py).
+- [k2363-variable-projector-stationarity](k2363_variable_projector_stationarity_probe.py).
+
 - [k2358-shared-history-supernova-test](k2358_shared_history_supernova_test_probe.py).
 - [k2359-loss-during-neutral-control](k2359_loss_during_neutral_control_probe.py).
 - [k2360-anisotropic-native-stationarity](k2360_anisotropic_native_stationarity_probe.py).

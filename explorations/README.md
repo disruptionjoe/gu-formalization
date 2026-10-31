@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2361-shared-history-dynamics-and-matter](conditional-build/k2361-shared-history-dynamics-and-matter-2026-10-31.md).
+- [k2362-transparent-control-locality](conditional-build/k2362-transparent-control-locality-2026-10-31.md).
+- [k2363-variable-projector-stationarity](conditional-build/k2363-variable-projector-stationarity-2026-10-31.md).
+
 - [k2358-shared-history-supernova-test](conditional-build/k2358-shared-history-supernova-test-2026-10-31.md).
 - [k2359-loss-during-neutral-control](conditional-build/k2359-loss-during-neutral-control-2026-10-31.md).
 - [k2360-anisotropic-native-stationarity](conditional-build/k2360-anisotropic-native-stationarity-2026-10-31.md).
