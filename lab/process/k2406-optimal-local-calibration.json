@@ -1,0 +1,41 @@
+{
+  "checks": {
+    "128_histories_direct_chisquare": true,
+    "TV_strict_bound": true,
+    "active_ages_exact": true,
+    "all_heterogeneous_exact_cases": true,
+    "better_than_uniform": true,
+    "confidence_exp_bound": true,
+    "exact_chisquare_product": true,
+    "interval": true,
+    "log_concavity_induction_identity": true,
+    "objective_exact": true,
+    "outward_noise": true,
+    "rational_drift": true,
+    "rational_noise": true,
+    "score_normalizer": true,
+    "seven_distinguishing_innovations": true,
+    "sharp_box_t1": true,
+    "sharp_box_t2": true,
+    "taper_root": true,
+    "weights_nonnegative_normalized": true,
+    "width_probability": true
+  },
+  "chi_square_plus_one": "4292603444493/2815640580500",
+  "controls": {
+    "coarse_envelope_loses_evidence": true,
+    "hindsight_weight_bias": true,
+    "old_samples_do_not_distinguish": true,
+    "omitted_drift_creates_population_bias": true,
+    "pool_average_substitution_fails": true
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2403-drift-robust-calibration-2026-10-31.md": "4f72b195a4ae48b145308af84eaf5cadafbf12b11e361f8200a40e8c9df500cd",
+    "tests/channel-swings/k2403_drift_robust_calibration_probe.py": "8b40552919a6e1dbf121367575b846367f81c2496b0e04b45736773e5d347f2a"
+  },
+  "exact_pool_cases": 243,
+  "likelihood_histories": 128,
+  "result_id": "K2406",
+  "scope": "Written martingale, optimization and testing proofs with exact finite fixtures; no empirical drift or GU verdict.",
+  "taper_radius": "(5+sqrt(11))/64"
+}

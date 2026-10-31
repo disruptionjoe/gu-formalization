@@ -6,6 +6,19 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2406--K2408: Optimal calibration, robust certificates and joint cubic compatibility (2026-10-31)
+
+K2406 derives exact optimal drift-aware linear calibration weights, heterogeneous pool-odds endpoints and a recent-history information lower bound. K2407 proves the physical planar moment cone, at-most-seven-law minimax certificates, the fixed-weight arbitrary-good-decoder theorem and a certified epsilon-net bound, with an exact scalene variable-trace fixture. K2408 constructs one 197-coefficient polar cubic satisfying all lower Euler rows, all105 curved compatibility receivers, all924 all-W and420 four-W fifth-algebraic tests; complete three-W replay exposes79/168 failures and a6272-column raw dual. Follow-through gives a638-term original-operator dual excluding the complete59640-coordinate ambient-0-supported polar cubic family from the joint Euler/J/four-W/three-W system. All are conditional mathematics; source polarities and ledger0.263 are unchanged. A concrete W3-fixed polar column escapes that dual, preventing its transfer to the broader family.
+
+- [K2406](explorations/conditional-build/k2406-optimal-local-calibration-2026-10-31.md).
+- [K2407](explorations/conditional-build/k2407-finite-minimax-certificates-2026-10-31.md).
+- [K2408](explorations/conditional-build/k2408-joint-cubic-compatibility-2026-10-31.md).
+
+Independent read-only inference, recovery and geometry specialists reviewed exact proofs, equation transfers, scope and contrary controls. Universal proofs are distinguished from finite fixtures. No external-expert, proof-assistant, empirical, hardware or native GU certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2403--K2405: Drift, uncertain recovery and curved compatibility (2026-10-31)
 
 K2403 proves time-uniform calibration under predictable drift, exact hidden-role odds for heterogeneous fresh pools, a sharp calibration-only drift floor, and separately priced synthetic calibration/science evidence. K2404 proves the all-CPTP identity minimax criterion for compact convex planar uncertainty, a constructive uniform gain, sharp orientation thresholds, a non-mirror physical fixture and an exact variable-trace segment optimizer. K2405 evaluates all105 actual curved fifth-Euler compatibility conditions on the stored cubic:101 fail, excluding every quartic extension of that cubic. A raw81-entry dual excludes all19110 realified second-jet orthogonal orbit repair columns; a broader174-coefficient polar correction preserves lower Euler/fourth algebraic and cancels all105 compatibility conditions, but its same-cubic replay passes924 all-W fifth receivers and fails24/420 four-W receivers, with an original-column dual. The joint Euler/algebraic cubic intersection is unresolved. No smooth solution, measured calibration, hardware validation or native GU verdict is claimed.

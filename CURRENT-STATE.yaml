@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 791674a061979fc7d7f48e185984b0bc223f342d
+revision_basis: bb0725cce699c9cb1e0e62f3cd2832aa2056d997
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,18 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2406 derives exact optimal drift-aware linear calibration weights, heterogeneous
+    pool-odds endpoints and a recent-history information lower bound. K2407 proves the
+    physical planar moment cone, at-most-seven-law minimax certificates, the fixed-weight
+    arbitrary-good-decoder theorem and a certified epsilon-net bound, with an exact scalene
+    variable-trace fixture. K2408 constructs one 197-coefficient polar cubic satisfying all
+    lower Euler rows, all105 curved compatibility receivers, all924 all-W and420 four-W
+    fifth-algebraic tests; complete three-W replay exposes79/168 failures and a6272-column
+    raw dual. Follow-through gives a638-term original-operator dual excluding the
+    complete59640-coordinate ambient-0-supported polar cubic family from the joint
+    Euler/J/four-W/three-W system. All are conditional mathematics; source polarities and
+    ledger0.263 are unchanged. A concrete W3-fixed polar column escapes that dual,
+    preventing its transfer to the broader family. Historical predecessor (not live):
     K2403 proves time-uniform calibration under predictable drift, exact hidden-role odds
     for heterogeneous fresh pools, a sharp calibration-only drift floor, and separately
     priced synthetic calibration/science evidence. K2404 proves the all-CPTP identity
@@ -17893,6 +17905,15 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2406-optimal-local-calibration-2026-10-31.md
+  - lab/process/k2406-optimal-local-calibration.json
+  - tests/channel-swings/k2406_optimal_local_calibration_probe.py
+  - explorations/conditional-build/k2407-finite-minimax-certificates-2026-10-31.md
+  - lab/process/k2407-finite-minimax-certificates.json
+  - tests/channel-swings/k2407_finite_minimax_certificates_probe.py
+  - explorations/conditional-build/k2408-joint-cubic-compatibility-2026-10-31.md
+  - lab/process/k2408-joint-cubic-compatibility.json
+  - tests/channel-swings/k2408_joint_cubic_compatibility_probe.py
   - explorations/conditional-build/k2403-drift-robust-calibration-2026-10-31.md
   - lab/process/k2403-drift-robust-calibration.json
   - tests/channel-swings/k2403_drift_robust_calibration_probe.py
@@ -20012,6 +20033,9 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can the full W3-fixed polar cubic family, beyond the excluded ambient-0-supported
+  subfamily, satisfy all lower Euler/J and complete fifth-algebraic sectors and then admit
+  one compatible quartic? Historical predecessor (not live):
   Can the full pointwise-polar cubic family satisfy homogeneous lower Euler, all105
   fifth-Euler compatibility and the complete fifth-algebraic image conditions
   simultaneously, preserving the useful lower finite-jet construction? Historical
@@ -24201,6 +24225,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Retain K2408 as a positive shared Euler/J plus all-W/four-W witness and an exact
+  exclusion of its complete ambient-0-supported polar correction family. Broaden to the
+  full W3-fixed polar family (270368 realified coordinates before Euler), preserving all
+  previous constraints; only a fully replayed positive candidate can proceed to lower W
+  sectors and a common quartic. Calibration needs justified drift and current-pool
+  matching; robust recovery needs a certified physical uncertainty set, with variable loss
+  and nonplanar laws separate successors. The existing dual demonstrably fails on a
+  broader W3-fixed polar column, so it cannot be reused as the larger-family exclusion.
+  Historical predecessor (not live):
   Use both exact candidate outcomes: old
   cubic2c0e4ba811548bb58f4f575c0b66404c4147c9de6969ffd27363d29cc9791675 has101
   quartic-independent fifth-Euler failures; new

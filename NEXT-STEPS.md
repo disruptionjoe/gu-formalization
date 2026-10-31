@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-10-31: DRIFT, UNCERTAIN RECOVERY AND CURVED COMPATIBILITY.**
+> **2026-10-31: OPTIMAL CALIBRATION, ROBUST CERTIFICATES AND JOINT CUBIC COMPATIBILITY.**
+> Retain K2408 as a positive shared Euler/J plus all-W/four-W witness and an exact exclusion of its complete ambient-0-supported polar correction family. Broaden to the full W3-fixed polar family (270368 realified coordinates before Euler), preserving all previous constraints; only a fully replayed positive candidate can proceed to lower W sectors and a common quartic. Calibration needs justified drift and current-pool matching; robust recovery needs a certified physical uncertainty set, with variable loss and nonplanar laws separate successors. The existing dual demonstrably fails on a broader W3-fixed polar column, so it cannot be reused as the larger-family exclusion.
+
+
+> **Historical predecessor, no longer the live next condition: 2026-10-31 DRIFT, UNCERTAIN RECOVERY AND CURVED COMPATIBILITY.**
 > Use both exact candidate outcomes: old cubic2c0e4ba811548bb58f4f575c0b66404c4147c9de6969ffd27363d29cc9791675 has101 quartic-independent fifth-Euler failures; new cubic3e5dd4529a932dad94f765ece36ced571e0568fd2211b74146ec113de3d50337 has all105 compatibility values zero but24/420 four-W fifth-algebraic failures. The174-coefficient correction proves the polar Euler/J intersection is feasible; do not requeue that as open. Preserve the full kernel of that combined map and impose the four-W quotient equations jointly, then the168/56/14/2 remaining fifth-algebraic sectors and all-W sixth conditions on the SAME cubic. A single-row four-W dual rejects the new candidate only, while the81-entry Euler/J dual excludes the whole second-jet orthogonal orbit family. Neither is an all-cubic no-go. General variable-trace recovery needs a justified broader physical uncertainty model and calibrated implementation margins; the supplied segment is solved exactly. Drift-aware inference needs measured or supplied drift/common-kernel guarantees and actual complete costs. Retain common-bar/mobile, thermal163/164, native2+1/chirality and source/matter/physical-quotient alternatives under unchanged source and ledger ceilings.
 
 

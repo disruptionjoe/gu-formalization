@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2406-optimal-local-calibration](conditional-build/k2406-optimal-local-calibration-2026-10-31.md).
+- [k2407-finite-minimax-certificates](conditional-build/k2407-finite-minimax-certificates-2026-10-31.md).
+- [k2408-joint-cubic-compatibility](conditional-build/k2408-joint-cubic-compatibility-2026-10-31.md).
+
 - [k2403-drift-robust-calibration](conditional-build/k2403-drift-robust-calibration-2026-10-31.md).
 - [k2404-rotation-uncertain-recovery](conditional-build/k2404-rotation-uncertain-recovery-2026-10-31.md).
 - [k2405-fifth-euler-compatibility](conditional-build/k2405-fifth-euler-compatibility-2026-10-31.md).

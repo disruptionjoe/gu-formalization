@@ -1,4 +1,8 @@
 
+- [k2406-optimal-local-calibration](k2406_optimal_local_calibration_probe.py).
+- [k2407-finite-minimax-certificates](k2407_finite_minimax_certificates_probe.py).
+- [k2408-joint-cubic-compatibility](k2408_joint_cubic_compatibility_probe.py).
+
 - [k2403-drift-robust-calibration](k2403_drift_robust_calibration_probe.py).
 - [k2404-rotation-uncertain-recovery](k2404_rotation_uncertain_recovery_probe.py).
 - [k2405-fifth-euler-compatibility](k2405_fifth_euler_compatibility_probe.py).

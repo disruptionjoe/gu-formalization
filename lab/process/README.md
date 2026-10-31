@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2406-optimal-local-calibration](k2406-optimal-local-calibration.json).
+- [k2407-finite-minimax-certificates](k2407-finite-minimax-certificates.json).
+- [k2408-joint-cubic-compatibility](k2408-joint-cubic-compatibility.json).
+
 - [k2403-drift-robust-calibration](k2403-drift-robust-calibration.json).
 - [k2404-rotation-uncertain-recovery](k2404-rotation-uncertain-recovery.json).
 - [k2405-fifth-euler-compatibility](k2405-fifth-euler-compatibility.json).
