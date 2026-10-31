@@ -1,4 +1,8 @@
 
+- [k2409-coupled-drift-calibration](k2409_coupled_drift_calibration_probe.py).
+- [k2410-variable-loss-recovery](k2410_variable_loss_recovery_probe.py).
+- [k2411-broader-polar-compatibility](k2411_broader_polar_compatibility_probe.py).
+
 - [k2406-optimal-local-calibration](k2406_optimal_local_calibration_probe.py).
 - [k2407-finite-minimax-certificates](k2407_finite_minimax_certificates_probe.py).
 - [k2408-joint-cubic-compatibility](k2408_joint_cubic_compatibility_probe.py).

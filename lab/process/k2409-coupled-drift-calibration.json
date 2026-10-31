@@ -1,0 +1,51 @@
+{
+  "checks": {
+    "consumer_factor_improvement": true,
+    "finite_feasibility_and_simultaneous_extremal_witnesses": true,
+    "interior_stationary_maximum_identity": true,
+    "lower_whole_cell_polynomial_identities": true,
+    "original_128_history_likelihood_sum": true,
+    "original_hidden_role_probabilities_and_actual_e_factor": true,
+    "original_odds_whole_cell_0_lower": true,
+    "original_odds_whole_cell_0_upper": true,
+    "original_odds_whole_cell_1_lower": true,
+    "original_odds_whole_cell_1_upper": true,
+    "ramp_integral_scale_bound": true,
+    "rectangular_relaxation": true,
+    "sharp_consumer_attainment": true,
+    "sharp_t1_attainment": true,
+    "sharp_t2_attainment": true,
+    "stationary_reference_TV_bound": true,
+    "stationary_reference_chisquare_exact": true,
+    "upper_whole_cell_polynomial_identities": true,
+    "whole_cell_sign_certificates": true,
+    "width_probability_under_stationary_truth": true
+  },
+  "controls": {
+    "arbitrarily_many_older_observations_identical": true,
+    "endpoint_only_coupled_optimizer_misses_maximum": true,
+    "marginal_fairness_does_not_supply_independent_pool": true,
+    "rectangle_extreme_corner_is_infeasible": true,
+    "unbounded_future_drift_current_zero_or_one_share_history": true
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2406-optimal-local-calibration-2026-10-31.md": "bf8efe461c6a51097ddf6f0b0ca7fa00cb6efc4d9edacfa149dc0311ff0cd4bc",
+    "tests/channel-swings/k2406_optimal_local_calibration_probe.py": "379e66177df45401364597647482a73e46b83428d7b23e0e440952b073cc45cf"
+  },
+  "finite_feasibility_cases": 648,
+  "nonempty_feasibility_cases": 414,
+  "original_likelihood_histories": 128,
+  "original_pool_cases": 390,
+  "realized_max_factor": "29/15",
+  "result_id": "K2409",
+  "scope": "Conditional mathematical derivation with exact finite fixtures; no empirical calibration or native GU verdict.",
+  "sharp_t1_odds": [
+    "3/7",
+    "15/7"
+  ],
+  "sharp_t2_odds": [
+    "7/15",
+    "7/3"
+  ],
+  "stationary_reference_chi_square_plus_one": "164741122962235625/148074416822550528"
+}

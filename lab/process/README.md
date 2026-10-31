@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2409-coupled-drift-calibration](k2409-coupled-drift-calibration.json).
+- [k2410-variable-loss-recovery](k2410-variable-loss-recovery.json).
+- [k2411-broader-polar-compatibility](k2411-broader-polar-compatibility.json).
+
 - [k2406-optimal-local-calibration](k2406-optimal-local-calibration.json).
 - [k2407-finite-minimax-certificates](k2407-finite-minimax-certificates.json).
 - [k2408-joint-cubic-compatibility](k2408-joint-cubic-compatibility.json).

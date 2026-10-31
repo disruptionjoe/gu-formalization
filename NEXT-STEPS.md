@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-10-31: OPTIMAL CALIBRATION, ROBUST CERTIFICATES AND JOINT CUBIC COMPATIBILITY.**
+> **2026-10-31: COUPLED CALIBRATION, VARIABLE LOSS AND POLAR KERNELS.**
+> Use the full A/B/C triangular filtration, preserving all freedoms and original curved J and algebraic receivers on the SAME cubic. The ambient-0 family remains excluded; the broader family is unresolved. The 284 constant,102 linear and11 quadratic polar-symbol generators now span all homogeneous quartic sectors through degree4, so a solver must not omit the11 new freedoms or mistake kernel generation for affine image feasibility. Any positive cubic still needs complete earlier-sector replay and one shared quartic. Calibration requires supplied/justified joint drift and matching; adding old stationary data cannot yield honest shrinking intervals over the rough class. Recovery must price the full variable-loss instrument and compare with the all-CPTP joint optimum; the good-Y-rotation class is now solved but general good channels remain open; good identity is no longer generally optimal. Retain common-bar/mobile, thermal163/164, native2+1/chirality and native matter/light alternatives under their exact source and domain ceilings.
+
+
+> **Historical predecessor, no longer the live next condition: 2026-10-31 OPTIMAL CALIBRATION, ROBUST CERTIFICATES AND JOINT CUBIC COMPATIBILITY.**
 > Retain K2408 as a positive shared Euler/J plus all-W/four-W witness and an exact exclusion of its complete ambient-0-supported polar correction family. Broaden to the full W3-fixed polar family (270368 realified coordinates before Euler), preserving all previous constraints; only a fully replayed positive candidate can proceed to lower W sectors and a common quartic. Calibration needs justified drift and current-pool matching; robust recovery needs a certified physical uncertainty set, with variable loss and nonplanar laws separate successors. The existing dual demonstrably fails on a broader W3-fixed polar column, so it cannot be reused as the larger-family exclusion.
 
 

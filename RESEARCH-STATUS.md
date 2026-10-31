@@ -6,6 +6,19 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2409--K2411: Coupled calibration, variable loss and complete finite-degree polar kernels (2026-10-31)
+
+K2409 derives sharp joint drift-constrained pool odds, an exact hidden-role evidence improvement, and an honest-confidence lower bound that remains nonvanishing at a stationary truth. K2410 proves a complete variable-loss recovery norm and finite certificate bound, then exhibits physical laws where correcting the good flag strictly improves every good-identity strategy, certifies a complete implementation allowance below 1/100000, and solves the restricted good-Y-rotation class exactly. K2411 finds eleven missing quadratic polar-symbol generators and certifies that the full constant/linear/quadratic family generates every kernel through degree four; its complete A/B/C filtration preserves the broader cubic problem without claiming a solution. These are conditional mathematical results; source polarities and ledger0.263 remain unchanged.
+
+- [K2409](explorations/conditional-build/k2409-coupled-drift-calibration-2026-10-31.md).
+- [K2410](explorations/conditional-build/k2410-variable-loss-recovery-2026-10-31.md).
+- [K2411](explorations/conditional-build/k2411-broader-polar-compatibility-2026-10-31.md).
+
+Independent internal specialists reviewed Lipschitz envelopes, sharp pooled odds, stationary-law coverage limits, the original quantum channels and global recovery certificates, and polar-module quotient/rank and tensor-normalization arguments. Exact original-operator and channel probes support finite results; universal proofs and inherited rank premises are identified separately. No external-expert, proof-assistant, measured-data, hardware or native GU certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2406--K2408: Optimal calibration, robust certificates and joint cubic compatibility (2026-10-31)
 
 K2406 derives exact optimal drift-aware linear calibration weights, heterogeneous pool-odds endpoints and a recent-history information lower bound. K2407 proves the physical planar moment cone, at-most-seven-law minimax certificates, the fixed-weight arbitrary-good-decoder theorem and a certified epsilon-net bound, with an exact scalene variable-trace fixture. K2408 constructs one 197-coefficient polar cubic satisfying all lower Euler rows, all105 curved compatibility receivers, all924 all-W and420 four-W fifth-algebraic tests; complete three-W replay exposes79/168 failures and a6272-column raw dual. Follow-through gives a638-term original-operator dual excluding the complete59640-coordinate ambient-0-supported polar cubic family from the joint Euler/J/four-W/three-W system. All are conditional mathematics; source polarities and ledger0.263 are unchanged. A concrete W3-fixed polar column escapes that dual, preventing its transfer to the broader family.
