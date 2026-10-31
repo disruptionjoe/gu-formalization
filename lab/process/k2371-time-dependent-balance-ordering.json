@@ -1,0 +1,75 @@
+{
+  "changed_schedule_operator_controls": {
+    "diagonal_Z_order_control": true,
+    "move_X_after_exposures": true,
+    "remove_pulse_scalar": true,
+    "wrong_extension_deceptive_scalar": true,
+    "wrong_extension_matches_only_on_code": true
+  },
+  "check_names": [
+    "physical_support_0_0_1",
+    "physical_support_0_2_3",
+    "physical_support_1_0_1",
+    "physical_support_1_2_3",
+    "physical_support_2_0_1",
+    "physical_support_2_2_3",
+    "physical_support_3_0_1",
+    "physical_support_3_2_3",
+    "physical_X_ET_restriction",
+    "code_X_intertwining",
+    "physical_spectrum_0_plusminus1",
+    "finite_pulse_unitary",
+    "finite_pulse_code_action",
+    "strictly_positive_exposure_rates",
+    "pairwise_integrated_balance",
+    "physical_first_nojump_square_0",
+    "physical_last_nojump_square_0",
+    "physical_first_nojump_square_1",
+    "physical_last_nojump_square_1",
+    "physical_first_nojump_square_2",
+    "physical_last_nojump_square_2",
+    "physical_first_nojump_square_3",
+    "physical_last_nojump_square_3",
+    "pulse_positive_matched_survival",
+    "total_pair_survival",
+    "exact_nojump_Gram",
+    "non_scalar_nojump",
+    "physical_probability_difference",
+    "physical_probability_range"
+  ],
+  "checks": 29,
+  "dependencies": {
+    "explorations/conditional-build/k2362-transparent-control-locality-2026-10-31.md": "dab79d1d328345bb6ce7d15fd21568d216147920bceacb375cf21050cbfe80c1",
+    "explorations/conditional-build/k2365-serial-transparent-control-2026-10-31.md": "1768b1545f8d6eb5ae4d71dd1349d9d240aed69ce1826da34ae17da7c8efdcc2",
+    "explorations/conditional-build/k2368-unequal-rail-recovery-2026-10-31.md": "d5a7bce6bdb9eb3e5d25a16e4a91da72b0468ca7f41989d89d6a9227a9a210d1",
+    "explorations/conditional-build/k2371-time-dependent-balance-ordering-2026-10-31.md": "23d109a5dd260b55c9f4d788e85df5ee48a2ade43898c8dbff0b336f5125cbea",
+    "tests/channel-swings/k2371_time_dependent_balance_ordering_probe.py": "1bfd358ff579822359466d4a37990aad2f574ccd8900394cf065dd36cb97c27b"
+  },
+  "details": {
+    "physical_diagonal_difference": "15625/113246208",
+    "unscaled_Gram": [
+      [
+        [
+          "860809/5184",
+          "0"
+        ],
+        [
+          "0",
+          "12025/216"
+        ]
+      ],
+      [
+        [
+          "0",
+          "-12025/216"
+        ],
+        [
+          "110809/5184",
+          "0"
+        ]
+      ]
+    ]
+  },
+  "result_id": "K2371",
+  "scope": "Universal idle/diagonal trajectory proof; finite exact noncommuting physical-control counterexample; no measured hardware or native GU claim"
+}

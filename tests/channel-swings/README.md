@@ -1,4 +1,8 @@
 
+- [k2370-potential-jet-density-identity](k2370_potential_jet_density_identity_probe.py).
+- [k2371-time-dependent-balance-ordering](k2371_time_dependent_balance_ordering_probe.py).
+- [k2372-vectorial-mixed-grade-obstruction](k2372_vectorial_mixed_grade_obstruction_probe.py).
+
 - [k2367-sourced-fit-dust-transfer](k2367_sourced_fit_dust_transfer_probe.py).
 - [k2368-unequal-rail-recovery](k2368_unequal_rail_recovery_probe.py).
 - [k2369-nonsymmetric-native-derivative](k2369_nonsymmetric_native_derivative_probe.py).

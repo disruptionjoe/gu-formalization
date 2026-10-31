@@ -1,0 +1,62 @@
+{
+  "changed_equation_controls": {
+    "flip_lensing_derivative": true,
+    "omit_background_H_squared": true,
+    "omit_slip_derivative": true,
+    "omit_slip_matter_term": true,
+    "omit_velocity_from_momentum": true
+  },
+  "check_names": [
+    "exact_null_equals_four_Hamiltonian",
+    "exact_all_seed_null",
+    "exact_observability_determinant",
+    "exact_state_recovery",
+    "exact_three_channel_right_inverse",
+    "positive_target_principal_minor_1",
+    "positive_target_principal_minor_2",
+    "positive_target_principal_minor_3",
+    "same_fit_all_four_initial_columns_0.1",
+    "same_fit_observability_0.1",
+    "same_fit_three_readout_right_inverse_0.1",
+    "same_fit_positive_covariance_pullback_0.1",
+    "same_fit_all_four_initial_columns_1.0",
+    "same_fit_observability_1.0",
+    "same_fit_three_readout_right_inverse_1.0",
+    "same_fit_positive_covariance_pullback_1.0",
+    "same_fit_all_four_initial_columns_10.0",
+    "same_fit_observability_10.0",
+    "same_fit_three_readout_right_inverse_10.0",
+    "same_fit_positive_covariance_pullback_10.0"
+  ],
+  "checks": 20,
+  "dependencies": {
+    "explorations/conditional-build/k2367-sourced-fit-dust-transfer-2026-10-31.md": "382ebe9859737216d6e1558bc7ffb1bd59f5c02f3b3275a3b8a140dbc064eabd",
+    "explorations/conditional-build/k2370-potential-jet-density-identity-2026-10-31.md": "6d09710541e28ca21f1ca5b41979b77319ec4d0e029b51bff942b74112f1a823",
+    "lab/process/k2367-sourced-fit-dust-transfer.json": "9f1cdde39704a487aaac964e94853d7c104b73cded32e41052986ae0fff59e1a",
+    "tests/channel-swings/k2370_potential_jet_density_identity_probe.py": "c3e671a962a8d79350f2870f72c3b0bc91d6dfb2802f6cd1b3f2fe78e3815581"
+  },
+  "details": {
+    "actual_same_fit_rows": [
+      {
+        "all_seed_scaled_residual": 4.804008098319739e-17,
+        "covariance_pullback_relative_error": 1.1308279249684857e-69,
+        "k_rd": 0.1,
+        "observability_det": 3.0238105197476957
+      },
+      {
+        "all_seed_scaled_residual": 6.452394043216133e-17,
+        "covariance_pullback_relative_error": 3.6530009465247985e-66,
+        "k_rd": 1.0,
+        "observability_det": 3.0238105197476957
+      },
+      {
+        "all_seed_scaled_residual": 1.5927222283977683e-16,
+        "covariance_pullback_relative_error": 2.4090495158582857e-63,
+        "k_rd": 10.0,
+        "observability_det": 3.0238105197476957
+      }
+    ]
+  },
+  "result_id": "K2370",
+  "scope": "Exact model-field identity and finite all-seed matrix/covariance controls; no observed-null, initial-spectrum, interval-domain or native GU claim"
+}

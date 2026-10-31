@@ -5,6 +5,19 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2370--K2372: Potential rates, control ordering and vectorial mixed-field exclusion (2026-10-31)
+
+K2370 reconstructs the constrained dust state from two potential fields and their rates, gives an exact all-seed Hamiltonian consistency identity and proves unrestricted initial covariance saturates any three-field covariance at one mode/time. K2371 proves integrated damping balance for idle and diagonal control but supplies a finite physical transparent-X counterexample to arbitrary-control sufficiency. K2372 derives the full radial-odd/vectorial-grade-two receiver equations and excludes that entire mixed family on the actual curved metric, including singular auxiliary branches, then reduces all radial-odd/general-grade-two candidates to exact axial or hook resonances (with the zero-kappa pure-even case retained). Conditional mathematics only; no observed-null, calibrated primordial spectrum, hardware or native GU verdict.
+
+- [K2370](explorations/conditional-build/k2370-potential-jet-density-identity-2026-10-31.md).
+- [K2371](explorations/conditional-build/k2371-time-dependent-balance-ordering-2026-10-31.md).
+- [K2372](explorations/conditional-build/k2372-vectorial-mixed-grade-obstruction-2026-10-31.md).
+
+Three read-only specialists derived/reviewed the new evidence; independent cross-reviews accepted the covariance, time-resolved instrument and geometric integrability proofs. K2370 has20 symbolic/finite-matrix checks and5 changed-equation controls; K2371 has29 exact physical-support/Kraus checks and5 control predicates across4 changed schedules/extensions; K2372 has234 native Clifford/symbolic checks and11 changed-formula/family/scope predicates. Universal conclusions rest on the written proofs and pinned inherited geometry. Grade graph and formal-adjoint support were corrected before acceptance; signed and mixed-block native coefficients support the irreducible auxiliary eigenvalues and exact singular-stratum reduction. No measured observation, interval domain, proof-assistant, external-expert, hardware or native GU certificate is claimed.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2367--K2369: Coupled dust, balanced damping and all grade-one exclusion (2026-10-31)
 
 K2367 applies the fully constrained dust system to the actual sourced distance fit and constructs a same-initial-density velocity change that cancels final density while retaining lensing and slip. K2368 proves exact zero/one-loss recovery for balanced unequal rail damping, extending transparent and serial-control bounds and pricing residual group imbalance. K2369 derives the nonsymmetric cubic and derivative Euler operators and excludes every smooth grade-one translation field on the actual selected curved metric, while preserving an explicit flat null-skew escape. Conditional results only; no native GU, calibrated growth, hardware or global mixed-field verdict.

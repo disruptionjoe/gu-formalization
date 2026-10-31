@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-10-31: COUPLED DUST, BALANCED DAMPING AND ALL GRADE-ONE EXCLUSION.**
+> **2026-10-31: POTENTIAL RATES, CONTROL ORDERING AND VECTORIAL MIXED-FIELD EXCLUSION.**
+> Do not repeat the actual-fit dust transfer, arbitrary-seed snapshot fit or grade-one/vectorial mixed searches. Potential rates eliminate hidden state and yield a model-field identity; observational use requires a jointly typed lightcone/time/noise/selection operator or a justified common initial covariance across times. Integrated damping balance suffices for idle and diagonal paths but fails through the supplied finite transparent-X pulse; noncommuting control requires pointwise sufficient balance or its actual full time-ordered Kraus analysis and complete measured instrument costs. The entire radial-odd plus vectorial grade-two class is excluded on the actual metric, including null and singular cases. For radial odd fields, the complete grade-two auxiliary operator now leaves only constant axial/hook resonance candidates at nonzero kappa, or a=0 with general even fields at kappa=0; solve their actual odd grade-one/five derivative and quadratic equations before claiming stationarity. Nonradial odd fields remain separate; retain all transverse receivers and independent metric/epsilon/domain equations. Source and ledger verdicts remain unchanged.
+
+
+> **Historical predecessor, no longer the live next condition: 2026-10-31 COUPLED DUST, BALANCED DAMPING AND ALL GRADE-ONE EXCLUSION.**
 > The actual sourced fit now has coupled dust transfers at ruler-labelled modes; do not repeat a generic dust derivation or fit. Initial density alone does not fix final density, lensing or slip: specify common velocity/covariance, physical ruler and selection before observational credit. Pairwise equal damping is sufficient but not necessary; exact zero/one-loss recovery allows delta1+delta2=delta3+delta4=0, with residual imbalance and complete preparation/control/recovery costs still to calibrate. All smooth grade-one fields, including nonsymmetric and null cases, are excluded on the selected actual curved metric/action. A new stationary construction must include mixed Clifford grades or explicitly change geometry/action and retain all receivers and independent metric/epsilon/domain equations. Source and ledger verdicts remain unchanged.
 
 
