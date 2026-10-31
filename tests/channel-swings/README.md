@@ -1,4 +1,8 @@
 
+- [k2349-positive-flrw-source-counts](k2349_positive_flrw_source_counts_probe.py).
+- [k2350-joint-switching-resource-certificate](k2350_joint_switching_resource_certificate_probe.py).
+- [k2351-mixed-parity-auxiliary-reduction](k2351_mixed_parity_auxiliary_reduction_probe.py).
+
 - [k2346-positive-count-response-discrimination](k2346_positive_count_response_discrimination_probe.py).
 - [k2347-microscopic-copy-echo-composition](k2347_microscopic_copy_echo_composition_probe.py).
 - [k2348-even-distortion-stationarity-boundary](k2348_even_distortion_stationarity_boundary_probe.py).

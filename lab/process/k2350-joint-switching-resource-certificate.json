@@ -1,0 +1,53 @@
+{
+  "altered_input_controls": {
+    "changed_slew_cap_rejects_same_ramp": true,
+    "detuning_exceeds_changed_amplitude_cap": true,
+    "high_noise_certificate_infeasible": true,
+    "longer_ramps_not_free": true,
+    "omit_early_common_loss": true
+  },
+  "check_names": [
+    "exp_majorant",
+    "complete_joint_certificate",
+    "exact_total_rational",
+    "amplitude_cap_all_pulses",
+    "finite_operator_envelope_slew",
+    "eleven_pulses_and22_ramps",
+    "two_triangles_integrate_ramp_debt",
+    "exact_J_rearrangement",
+    "nonempty_certificate_interval",
+    "witness_inside_J_interval",
+    "loss_rate_split",
+    "Xf_norm_on_K3",
+    "hopping_norm_on_three_bosons",
+    "early_common_erasure_trace_distance",
+    "early_erasure_Kraus_complete",
+    "encoded_state_to_common_vacuum",
+    "flag_error_lower_bound",
+    "gamma100_stage_decay_bound"
+  ],
+  "checks": 18,
+  "dependencies": {
+    "explorations/conditional-build/k2338-resonant-contact-resource-boundary-2026-10-30.md": "0b5fda23171c7d044da3e12a8729e20fcebd956856bf06969614d2f7b56daa6b",
+    "explorations/conditional-build/k2344-signed-detuning-echo-repair-2026-10-30.md": "59363b72597e2f7cc68bc958b1adad6135b1c13e76c95ca4f58386e03bb1c84c",
+    "explorations/conditional-build/k2347-microscopic-copy-echo-composition-2026-10-30.md": "a2c5f290bd2dbba992e8cd3135d702f482a4e58cc2b7254cbc92dfe06eb76867",
+    "explorations/conditional-build/k2350-joint-switching-resource-certificate-2026-10-30.md": "d81034f7c276a6937b27559570c93a3b34777aff5a733d131de297c74737dd5b",
+    "lab/process/k2347-microscopic-copy-echo-composition.json": "06f45bd3a17f04fd8eec0a75e27382b0dcef31b13dbd35b254a922c15b630c18",
+    "tests/channel-swings/k2350_joint_switching_resource_certificate_probe.py": "a1e0338ccb27261acee23c0ac59424637ef083b002078632ece94f981711c16a"
+  },
+  "details": {
+    "amplitude_upper": "800220017/80004",
+    "contact_bound": "78286320428806673/11421900000000000000",
+    "duration_upper": "56650084600000077/35000000000",
+    "early_erasure_eta": "1/4",
+    "flag_error_lower_bound": "3/8",
+    "full_bound": "2407557647809475658676809227/342674132850000000000000000000",
+    "full_bound_decimal": 0.007025793361716464,
+    "positive_J_discriminant": "14269656246504478105174465052681180734935863481312809/1449698287956783322500000000000000000000000000000000000000",
+    "ramp_bound": "244374195455419/77003850000000000000",
+    "selective_bound": "523/77962500",
+    "slew_upper": "2000550042500000000/20001"
+  },
+  "evidence_kind": "exact symbolic/rational controls; universal theorems proved in companion note, no empirical or proof-assistant certification",
+  "result_id": "K2350"
+}

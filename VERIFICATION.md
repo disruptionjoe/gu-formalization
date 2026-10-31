@@ -5,6 +5,19 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2349--K2351: FLRW counts, finite ramps and mixed parity (2026-10-30)
+
+K2349 derives positive FLRW source-count and flux laws, conditional distance-shape identification, finite history discrimination and exact evolution degeneracies. K2350 composes finite switching ramps with the coherent copy-echo, proves a joint resource certificate and an early-loss flag-information obstruction. K2351 reduces the selected mixed-parity first action by its algebraic even field, verifies a nonzero native cubic coefficient, and retains singular branches and derivative/domain terms. Empirical calibration, hardware realization and native stationary dynamics remain open.
+
+- [K2349](explorations/conditional-build/k2349-positive-flrw-source-counts-2026-10-30.md).
+- [K2350](explorations/conditional-build/k2350-joint-switching-resource-certificate-2026-10-30.md).
+- [K2351](explorations/conditional-build/k2351-mixed-parity-auxiliary-reduction-2026-10-30.md).
+
+Three read-only specialist agents independently reviewed the concrete notes, probes and reports after finite-intensity, stagewise-support and inverse-domain corrections. All56 exact symbolic/rational/Clifford checks and18 altered-input or altered-equation controls pass. The native cubic coefficient is computed with the selected backend; other finite geometry controls are explicitly polynomial comparators. Universal statements rest on written proofs. No new ramp-matrix integration, empirical, hardware, external-expert, Lean or native GU certification is claimed.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2346--K2348: Positive counts, coherent copy and even distortion (2026-10-30)
 
 K2346 constructs a positive count-response discriminator with exact Cox brightness removal, finite-count errors and explicit nuisance/low-intensity boundaries. K2347 composes improved signed contacts through actual coherent microscopic copy and echo on its full reachable carrier. K2348 excludes purely even stationary distortion repairs at nonzero kappa under the selected first action and separates the zero-kappa flat-connection I1/I2 branches. Physical models, feasible device rates and mixed-grade stationary dynamics remain open.

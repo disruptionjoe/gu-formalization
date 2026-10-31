@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-10-30: POSITIVE COUNTS, COHERENT COPY AND EVEN DISTORTION.**
+> **2026-10-30: FLRW COUNTS, FINITE RAMPS AND MIXED PARITY.**
+> Use one actual volume-limited tracer and its joint completeness, evolution, redshift and flux-error model before claiming cosmological discrimination; arbitrary density and luminosity evolution exactly hide expansion. Compare measured switching, carrier slew, losses and timing on one device with the full joint certificate; early common loss before copying cannot be repaired afterward. Evaluate the actual mixed-parity coefficient and reduced odd Euler on a named curved chart with a common boundary domain, retaining singular strata. Reuse the conserved-count law, finite-ramp construction and algebraic reduction rather than repeating their controls.
+
+
+> **Historical predecessor, no longer the live next condition: 2026-10-30 POSITIVE COUNTS, COHERENT COPY AND EVEN DISTORTION.**
 > Supply actual cosmological positive intensity/response hypotheses with bounded shape and calibrated sampling; the heat-response example is a conditional experiment. Test joint microscopic switching, noise, loss and clock resources against the full coherent copy-plus-echo budget. Construct the mixed-grade first-action Euler system or a separately owned zero-residual second-action Hessian on the same curved receiver and domain. Reuse the exact count law, improved contact composition and parity/frame-jet theorem; do not repeat them as new results.
 
 

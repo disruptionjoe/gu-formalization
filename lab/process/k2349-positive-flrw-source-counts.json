@@ -1,0 +1,64 @@
+{
+  "altered_input_controls": {
+    "duplicate_one_source128_times": true,
+    "insert_transient_time_dilation_in_source_census": true,
+    "omit_density_evolution_in_mimic": true,
+    "omit_luminosity_evolution_in_mimic": true,
+    "wrong_luminosity_distance_power": true
+  },
+  "check_names": [
+    "dS_distance_derivative",
+    "EdS_distance_derivative",
+    "shell_primitive",
+    "exact_bin_probabilities",
+    "concentration_exponent",
+    "exp3_exceeds20",
+    "both_exact128_tails_below5percent",
+    "both_robust192_tails_below5percent",
+    "robust_exponent",
+    "weighted_bin_normalization",
+    "radial_distortion_budget",
+    "full_intensity_mimic",
+    "flux_mimic",
+    "positive_mimic_sample",
+    "regular_origin_mimic",
+    "scale_count_gauge",
+    "scale_flux_gauge",
+    "joint_flux_count_invariant",
+    "Poisson_multinomial_factorization",
+    "edge_distances_same",
+    "distance_derivative_positive_bound",
+    "different_interior_H"
+  ],
+  "checks": 22,
+  "dependencies": {
+    "explorations/conditional-build/k2346-positive-count-response-discrimination-2026-10-30.md": "e6486dacb4b89f8fea12ec525bb19985aca8d524652b3281e31ed475962c764d",
+    "explorations/conditional-build/k2349-positive-flrw-source-counts-2026-10-30.md": "06261d45ea72a386937c75f68dffe6d11b9b9df5adc69f4561973a613c8eb3c8",
+    "lab/active-research/joe-directed/prediction-kickoff/late-time-finite-node-identifiability-2026-10-27.md": "f59caeec08aef66ac5c7fb49a7917b1319b7a3ae6a0e22017d4f2c7b4371a629",
+    "tests/channel-swings/k2349_positive_flrw_source_counts_probe.py": "a015ff73148ca4155e1afaabba29a1f049c2b1c2c1fbc3b3bcbea2a538253926"
+  },
+  "details": {
+    "N128_cut": 23,
+    "N192_robust_cut": 35,
+    "decimal_robust_tails192": [
+      1.2126506646571617e-05,
+      0.0010819610297159966
+    ],
+    "decimal_tails128": [
+      1.513380855999865e-05,
+      0.0018159106924488834
+    ],
+    "exact_tails128": [
+      "1426208281924707700630548519346458653117762218537518276068790094888542576618960511109276401173393105549720412948975877620075465223213119139702506758012741703719575364623077141955517243361540908020390969938874440635883206161833632467544534760160925617521374991891357648914590449161284580037787751028626851815770717073178249098907858710086345488709879566294604288448637403885488339483345043845474720001220703125/94239878631373081004779740914909785589474144070096149511451840375089070857667781020112125852438569805838943612399105895466296185014929572199565227255185479534015289037496551162703470138065655776415785575399662303707821982835779668559622925471060775650019986519421936706346538443367906498622211220533565650175083242341832944401001907022914774112459666504629950925536430203766292879884618565674716129955249146298368",
+      "110228153932939046277969183637670628693232624021276150654084083618793355496483148689264646426277313786798103712320281971027137099017716137552469561635507826054468933840102816023571/60701307829345189598774052427511817542263878230067241627714758618305019959491554026181355395005222312988332370503818752056184095339903896765894489087914722228298983367879572998390803"
+    ],
+    "finite_bin_epsilon": "1/10000",
+    "p0": "125/1728",
+    "p1": "8/27",
+    "positive_mimic_L1": "4*(sqrt(z + 1) - 1)**2/(z**2*(z + 1))",
+    "positive_mimic_n1": "z**2*(z + 1)**(5/2)/(4*(sqrt(z + 1) - 1)**2)",
+    "threshold": "637/3456"
+  },
+  "evidence_kind": "exact symbolic/rational controls; universal theorems proved in companion note, no empirical or proof-assistant certification",
+  "result_id": "K2349"
+}

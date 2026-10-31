@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: e1bd696671ec5c9786fb35ace571e69d6e6d6ea4
+revision_basis: 050ccb8e6646a86d8d4a5c300ecda879900b595f
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,14 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2349 derives positive FLRW source-count and flux laws, conditional distance-shape
+    identification, finite history discrimination and exact evolution degeneracies. K2350
+    composes finite switching ramps with the coherent copy-echo, proves a joint resource
+    certificate and an early-loss flag-information obstruction. K2351 reduces the selected
+    mixed-parity first action by its algebraic even field, verifies a nonzero native cubic
+    coefficient, and retains singular branches and derivative/domain terms. Empirical
+    calibration, hardware realization and native stationary dynamics remain open. Historical
+    predecessor (not live):
     K2346 constructs a positive count-response discriminator with exact Cox brightness
     removal, finite-count errors and explicit nuisance/low-intensity boundaries. K2347
     composes improved signed contacts through actual coherent microscopic copy and echo on
@@ -17701,6 +17709,15 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2349-positive-flrw-source-counts-2026-10-30.md
+  - lab/process/k2349-positive-flrw-source-counts.json
+  - tests/channel-swings/k2349_positive_flrw_source_counts_probe.py
+  - explorations/conditional-build/k2350-joint-switching-resource-certificate-2026-10-30.md
+  - lab/process/k2350-joint-switching-resource-certificate.json
+  - tests/channel-swings/k2350_joint_switching_resource_certificate_probe.py
+  - explorations/conditional-build/k2351-mixed-parity-auxiliary-reduction-2026-10-30.md
+  - lab/process/k2351-mixed-parity-auxiliary-reduction.json
+  - tests/channel-swings/k2351_mixed_parity_auxiliary_reduction_probe.py
   - explorations/conditional-build/k2346-positive-count-response-discrimination-2026-10-30.md
   - lab/process/k2346-positive-count-response-discrimination.json
   - tests/channel-swings/k2346_positive_count_response_discrimination_probe.py
@@ -19649,6 +19666,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which calibrated tracer populations make the joint FLRW likelihood identifiable, which
+  measured controls lie inside the finite-ramp resource region, and which actual mixed
+  odd-field solution survives the reduced native Euler equation and its domain? Historical
+  predecessor (not live):
   Which physically justified positive count hypotheses survive nuisance fitting and
   calibration, which jointly attainable device controls realize the coherent transfer
   budget, and which mixed-grade stationary source construction survives the new
@@ -23768,6 +23789,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Use one actual volume-limited tracer and its joint completeness, evolution, redshift and
+  flux-error model before claiming cosmological discrimination; arbitrary density and
+  luminosity evolution exactly hide expansion. Compare measured switching, carrier slew,
+  losses and timing on one device with the full joint certificate; early common loss
+  before copying cannot be repaired afterward. Evaluate the actual mixed-parity
+  coefficient and reduced odd Euler on a named curved chart with a common boundary domain,
+  retaining singular strata. Reuse the conserved-count law, finite-ramp construction and
+  algebraic reduction rather than repeating their controls. Historical predecessor (not
+  live):
   Supply actual cosmological positive intensity/response hypotheses with bounded shape and
   calibrated sampling; the heat-response example is a conditional experiment. Test joint
   microscopic switching, noise, loss and clock resources against the full coherent

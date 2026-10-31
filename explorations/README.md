@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2349-positive-flrw-source-counts](conditional-build/k2349-positive-flrw-source-counts-2026-10-30.md).
+- [k2350-joint-switching-resource-certificate](conditional-build/k2350-joint-switching-resource-certificate-2026-10-30.md).
+- [k2351-mixed-parity-auxiliary-reduction](conditional-build/k2351-mixed-parity-auxiliary-reduction-2026-10-30.md).
+
 - [k2346-positive-count-response-discrimination](conditional-build/k2346-positive-count-response-discrimination-2026-10-30.md).
 - [k2347-microscopic-copy-echo-composition](conditional-build/k2347-microscopic-copy-echo-composition-2026-10-30.md).
 - [k2348-even-distortion-stationarity-boundary](conditional-build/k2348-even-distortion-stationarity-boundary-2026-10-30.md).

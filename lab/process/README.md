@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2349-positive-flrw-source-counts](k2349-positive-flrw-source-counts.json).
+- [k2350-joint-switching-resource-certificate](k2350-joint-switching-resource-certificate.json).
+- [k2351-mixed-parity-auxiliary-reduction](k2351-mixed-parity-auxiliary-reduction.json).
+
 - [k2346-positive-count-response-discrimination](k2346-positive-count-response-discrimination.json).
 - [k2347-microscopic-copy-echo-composition](k2347-microscopic-copy-echo-composition.json).
 - [k2348-even-distortion-stationarity-boundary](k2348-even-distortion-stationarity-boundary.json).
