@@ -1,4 +1,8 @@
 
+- [k2373-two-epoch-cosmological-observability](k2373_two_epoch_cosmological_observability_probe.py).
+- [k2374-time-ordered-loss-recovery](k2374_time_ordered_loss_recovery_probe.py).
+- [k2375-axial-hook-stationarity](k2375_axial_hook_stationarity_probe.py).
+
 - [k2370-potential-jet-density-identity](k2370_potential_jet_density_identity_probe.py).
 - [k2371-time-dependent-balance-ordering](k2371_time_dependent_balance_ordering_probe.py).
 - [k2372-vectorial-mixed-grade-obstruction](k2372_vectorial_mixed_grade_obstruction_probe.py).

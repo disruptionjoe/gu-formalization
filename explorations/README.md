@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2373-two-epoch-cosmological-observability](conditional-build/k2373-two-epoch-cosmological-observability-2026-10-31.md).
+- [k2374-time-ordered-loss-recovery](conditional-build/k2374-time-ordered-loss-recovery-2026-10-31.md).
+- [k2375-axial-hook-stationarity](conditional-build/k2375-axial-hook-stationarity-2026-10-31.md).
+
 - [k2370-potential-jet-density-identity](conditional-build/k2370-potential-jet-density-identity-2026-10-31.md).
 - [k2371-time-dependent-balance-ordering](conditional-build/k2371-time-dependent-balance-ordering-2026-10-31.md).
 - [k2372-vectorial-mixed-grade-obstruction](conditional-build/k2372-vectorial-mixed-grade-obstruction-2026-10-31.md).

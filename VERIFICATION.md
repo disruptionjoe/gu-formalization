@@ -5,6 +5,19 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2373--K2375: Two-epoch observability, time-ordered recovery and axial exclusion (2026-10-31)
+
+K2373 reconstructs the four-state cosmological perturbation from two-epoch potentials and forces density cross-covariance, with exact noise-weighted nulls and an actual same-fit transfer consumer. K2374 proves a sharp finite-block time-ordered X/Z loss-recovery criterion and gives a no-jump-pass but cross-time-fail witness plus a positive noncommuting schedule. K2375 excludes every smooth axial mixed field on the actual non-Einstein metric and reduces the surviving hook resonance to explicit first-order tensor and algebraic constraints, then rejects a constructed first-order-compatible jet at second-order prolongation while preserving indefinite kernel alternatives. These are conditional mathematical results, not observed nulls, hardware certification or native GU verdicts.
+
+- [K2373](explorations/conditional-build/k2373-two-epoch-cosmological-observability-2026-10-31.md).
+- [K2374](explorations/conditional-build/k2374-time-ordered-loss-recovery-2026-10-31.md).
+- [K2375](explorations/conditional-build/k2375-axial-hook-stationarity-2026-10-31.md).
+
+Three read-only specialists derived the independent candidates and cross-reviewed their actual proofs. K2373 combines exact determinant/covariance/noise identities with finite stored-transfer arithmetic and changed readout/covariance controls; no new ODE or fit is counted. K2374 uses exact physical-support and cross-time Kraus matrices, all eight loss-sector checks for a positive schedule, and changed-schedule controls; its universal iff rests on the written continuum proof with maximal idle stretches. K2375 uses invariant contraction proofs and exact signed, null, mixed and transverse native Clifford controls; finite fixtures fix coefficients rather than prove universality by sampling. The particular hook jet is rejected by an exact nonzero norm Laplacian; a negative-norm derivative kernel is a countercontrol to any wider exclusion. Internal agent review is not external-expert or proof-assistant certification. No empirical, hardware, interval-domain or native GU acceptance is claimed.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2370--K2372: Potential rates, control ordering and vectorial mixed-field exclusion (2026-10-31)
 
 K2370 reconstructs the constrained dust state from two potential fields and their rates, gives an exact all-seed Hamiltonian consistency identity and proves unrestricted initial covariance saturates any three-field covariance at one mode/time. K2371 proves integrated damping balance for idle and diagonal control but supplies a finite physical transparent-X counterexample to arbitrary-control sufficiency. K2372 derives the full radial-odd/vectorial-grade-two receiver equations and excludes that entire mixed family on the actual curved metric, including singular auxiliary branches, then reduces all radial-odd/general-grade-two candidates to exact axial or hook resonances (with the zero-kappa pure-even case retained). Conditional mathematics only; no observed-null, calibrated primordial spectrum, hardware or native GU verdict.

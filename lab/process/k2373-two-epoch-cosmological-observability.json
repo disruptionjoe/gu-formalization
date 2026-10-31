@@ -1,0 +1,105 @@
+{
+  "actual_rows": [
+    {
+      "density_coefficients": [
+        0.3577589322846829,
+        -0.15077688456195246,
+        -12.532698561905349,
+        -1.7270795897608031
+      ],
+      "endpoint_determinant": 0.044277086177796666,
+      "endpoint_infinity_condition_number": 944.5215072038916,
+      "k_rd": 0.1,
+      "potential_momentum_block_determinant": 0.01660390731667375,
+      "row_scaled_endpoint_infinity_condition_number": 104.96063997995155,
+      "stored_seed_relative_errors": [
+        3.149865235031099e-16,
+        2.555494152256425e-17
+      ],
+      "wrong_density_max_absolute_error": 0.016814125848240626
+    },
+    {
+      "density_coefficients": [
+        0.5251952967474184,
+        -0.5887634010575196,
+        -1038.2307546003071,
+        -2.036882013477825
+      ],
+      "endpoint_determinant": 0.01023643726540648,
+      "endpoint_infinity_condition_number": 5920.024607431148,
+      "k_rd": 1.0,
+      "potential_momentum_block_determinant": 0.00383866397452743,
+      "row_scaled_endpoint_infinity_condition_number": 2859.4054714167773,
+      "stored_seed_relative_errors": [
+        1.9340802314529005e-16,
+        2.933400439284425e-16
+      ],
+      "wrong_density_max_absolute_error": 0.0166235300246011
+    },
+    {
+      "density_coefficients": [
+        10.907936486068149,
+        -31.733311554087592,
+        -103648.42222450027,
+        100.12805679493772
+      ],
+      "endpoint_determinant": 0.0001854676088105127,
+      "endpoint_infinity_condition_number": 388358.9756799759,
+      "k_rd": 10.0,
+      "potential_momentum_block_determinant": 6.955035330394226e-05,
+      "row_scaled_endpoint_infinity_condition_number": 175296.2312091532,
+      "stored_seed_relative_errors": [
+        1.398953605822021e-16,
+        1.1212806234112828e-16
+      ],
+      "wrong_density_max_absolute_error": 0.0019042052826213137
+    }
+  ],
+  "changed_input_controls": {
+    "changed_density_relation": true,
+    "coincident_epochs_not_identifiable": true,
+    "independent_density_variance": true,
+    "omit_Jordan_slip_matter_term_0.1": true,
+    "omit_Jordan_slip_matter_term_1.0": true,
+    "omit_Jordan_slip_matter_term_10.0": true,
+    "positive_definite_covariance_closes_escape": true,
+    "separately_fitted_marginals_discard_cross_epoch_covariance": true
+  },
+  "check_names": [
+    "exact_two_epoch_determinant",
+    "exact_local_leading_coefficient",
+    "exact_rational_two_epoch_reconstruction",
+    "exact_joint_null",
+    "exact_shared_seed_covariance_null",
+    "exact_rank_four_example",
+    "exact_noise_weighted_projection_constraint",
+    "exact_noise_weighted_projection_cost",
+    "exact_noise_subtracted_null_variance",
+    "exact_singular_covariance_escape",
+    "exact_wrong_model_noise_excess",
+    "actual_endpoint_nonzero_block_0.1",
+    "actual_block_determinant_0.1",
+    "actual_all_seed_relation_0.1",
+    "actual_stored_seed_readout_0.1_density",
+    "actual_stored_seed_readout_0.1_velocity",
+    "actual_endpoint_nonzero_block_1.0",
+    "actual_block_determinant_1.0",
+    "actual_all_seed_relation_1.0",
+    "actual_stored_seed_readout_1.0_density",
+    "actual_stored_seed_readout_1.0_velocity",
+    "actual_endpoint_nonzero_block_10.0",
+    "actual_block_determinant_10.0",
+    "actual_all_seed_relation_10.0",
+    "actual_stored_seed_readout_10.0_density",
+    "actual_stored_seed_readout_10.0_velocity"
+  ],
+  "checks": 26,
+  "dependencies": {
+    "explorations/conditional-build/k2370-potential-jet-density-identity-2026-10-31.md": "6d09710541e28ca21f1ca5b41979b77319ec4d0e029b51bff942b74112f1a823",
+    "explorations/conditional-build/k2373-two-epoch-cosmological-observability-2026-10-31.md": "bd19353accc60098d8cb8d47fa74b24a6da2f22e19209a77b45a2d12dc4e3233",
+    "lab/process/k2367-sourced-fit-dust-transfer.json": "9f1cdde39704a487aaac964e94853d7c104b73cded32e41052986ae0fff59e1a",
+    "tests/channel-swings/k2373_two_epoch_cosmological_observability_probe.py": "4b729618ff8ce76097db7afddf361a687ccfc3caea599320ed3bba874d10b2f4"
+  },
+  "result_id": "K2373",
+  "scope": "Written theorem exact; finite matrix consumer inherits K2367 ODE errors. No observation, likelihood, interval or native GU certificate."
+}

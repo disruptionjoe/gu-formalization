@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: a1af52e720a61053c330cc8e90548d827a35b47e
+revision_basis: d76909f8a3f9ddba6e93e06a51ff70c19c66f811
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,16 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2373 reconstructs the four-state cosmological perturbation from two-epoch potentials
+    and forces density cross-covariance, with exact noise-weighted nulls and an actual
+    same-fit transfer consumer. K2374 proves a sharp finite-block time-ordered X/Z
+    loss-recovery criterion and gives a no-jump-pass but cross-time-fail witness plus a
+    positive noncommuting schedule. K2375 excludes every smooth axial mixed field on the
+    actual non-Einstein metric and reduces the surviving hook resonance to explicit
+    first-order tensor and algebraic constraints, then rejects a constructed
+    first-order-compatible jet at second-order prolongation while preserving indefinite
+    kernel alternatives. These are conditional mathematical results, not observed nulls,
+    hardware certification or native GU verdicts. Historical predecessor (not live):
     K2370 reconstructs the constrained dust state from two potential fields and their rates,
     gives an exact all-seed Hamiltonian consistency identity and proves unrestricted initial
     covariance saturates any three-field covariance at one mode/time. K2371 proves
@@ -17772,6 +17782,15 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2373-two-epoch-cosmological-observability-2026-10-31.md
+  - lab/process/k2373-two-epoch-cosmological-observability.json
+  - tests/channel-swings/k2373_two_epoch_cosmological_observability_probe.py
+  - explorations/conditional-build/k2374-time-ordered-loss-recovery-2026-10-31.md
+  - lab/process/k2374-time-ordered-loss-recovery.json
+  - tests/channel-swings/k2374_time_ordered_loss_recovery_probe.py
+  - explorations/conditional-build/k2375-axial-hook-stationarity-2026-10-31.md
+  - lab/process/k2375-axial-hook-stationarity.json
+  - tests/channel-swings/k2375_axial_hook_stationarity_probe.py
   - explorations/conditional-build/k2370-potential-jet-density-identity-2026-10-31.md
   - lab/process/k2370-potential-jet-density-identity.json
   - tests/channel-swings/k2370_potential_jet_density_identity_probe.py
@@ -19792,6 +19811,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which real joint observation operator preserves the two-epoch density constraint, which
+  measured full instrument meets the sharp time-ordered recovery criterion, and does the
+  remaining hook tensor system admit a smooth solution on the actual metric? Historical
+  predecessor (not live):
   Which shared lightcone observation/rate operator makes the fixed-history identity
   testable, which full time-ordered physical instrument survives noncommuting control, and
   which nonvectorial grade-two or nonradial odd field can solve the actual-metric receiver
@@ -23943,6 +23966,21 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Do not repeat arbitrary snapshot covariance, generic integrated-balance tests or
+  axial-field searches. Cosmology now has derivative-free two-epoch state recovery and a
+  sharp shared-covariance/noise null; actual lightcone, mode mixing, calibration and
+  excitation require a joint observation operator, and endpoint conditioning limits
+  precision. For the stipulated physical X/Z controls, aggregate imbalance must vanish
+  pointwise during X-active portions and integrate to zero on each maximal X-idle stretch;
+  physical rates, full instrument costs and approximate robustness remain open. Every
+  radial-plus-axial field is excluded on the actual metric. At nonzero kappa only the hook
+  resonance a=3kappa/56 remains, with explicit symmetric divergence, quadratic stress,
+  fixed signed norm and sigma_H=0 constraints; the displayed first-order-compatible
+  critical-kappa jet fails the second-order constant-norm condition, while a negative-norm
+  divergence kernel prevents a general jet exclusion. A different prolonged jet or actual
+  solution remains unconstructed. General zero-kappa mixtures and nonradial odd fields are
+  separate. Source and ledger verdicts remain unchanged. Historical predecessor (not
+  live):
   Do not repeat the actual-fit dust transfer, arbitrary-seed snapshot fit or
   grade-one/vectorial mixed searches. Potential rates eliminate hidden state and yield a
   model-field identity; observational use requires a jointly typed
