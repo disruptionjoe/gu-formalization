@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2397-finite-training-shift-confidence](k2397-finite-training-shift-confidence.json).
+- [k2398-uncertain-clock-law-recovery](k2398-uncertain-clock-law-recovery.json).
+- [k2399-complete-polar-joint-lift](k2399-complete-polar-joint-lift.json).
+
 - [k2394-robust-pool-sequential-evidence](k2394-robust-pool-sequential-evidence.json).
 - [k2395-planar-recovery-closed-form](k2395-planar-recovery-closed-form.json).
 - [k2396-full-polar-coupled-repair](k2396-full-polar-coupled-repair.json).

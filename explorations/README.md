@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2397-finite-training-shift-confidence](conditional-build/k2397-finite-training-shift-confidence-2026-10-31.md).
+- [k2398-uncertain-clock-law-recovery](conditional-build/k2398-uncertain-clock-law-recovery-2026-10-31.md).
+- [k2399-complete-polar-joint-lift](conditional-build/k2399-complete-polar-joint-lift-2026-10-31.md).
+
 - [k2394-robust-pool-sequential-evidence](conditional-build/k2394-robust-pool-sequential-evidence-2026-10-31.md).
 - [k2395-planar-recovery-closed-form](conditional-build/k2395-planar-recovery-closed-form-2026-10-31.md).
 - [k2396-full-polar-coupled-repair](conditional-build/k2396-full-polar-coupled-repair-2026-10-31.md).

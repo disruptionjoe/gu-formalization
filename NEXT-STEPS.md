@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-10-31: ROBUST EVIDENCE, CLOSED-FORM RECOVERY AND COUPLED REPAIR.**
+> **2026-10-31: LEARNED CALIBRATION, UNCERTAIN RECOVERY AND JOINT COMPATIBILITY.**
+> Prioritize the simultaneous A/B/C two-W extension using the complete raw families, full 420 + 168 prior receivers and all 56 two-W targets; require one reconstructed shared tensor or an original-generator dual with its exact family scope. Then test the remaining one/zero-W sectors and shared curved fourth-Euler/fifth-algebraic intersection. In parallel scientific selection, certify the uncertain-clock mirror optimizer for 0 < nu < 1/2 with a physical calibration confidence set and implementation cost, and extend finite-training shift inference only with explicit common-kernel/stability checks and priced training. Keep common-bar/mobile, thermal 163/164, native 2+1/chirality and source-action/physical-quotient fronts eligible; no toy/comparator result is native GU credit.
+
+
+> **Historical predecessor, no longer the live next condition: 2026-10-31 ROBUST EVIDENCE, CLOSED-FORM RECOVERY AND COUPLED REPAIR.**
 > Geometry: preserve the98-component four-W anchor and60-component A escape, each satisfying all420 targets but failing8/168 three-W targets; the16-component B-only branch fails9/168. Restore the29064 repeated-hook A-kernel directions omitted from the23688-coordinate four-W quotient: the next exact joint3W construction has52752 A field coordinates before coupling to B. Build a complete A-to-B Euler right-inverse and the full3W map modulo the B kernel, or retain simultaneous Euler rows; selected-dual cancellation and40 currently unsupported B rows do not certify the intersection. Nonzero W-cubic and broader fourth-preserving corrections remain alternatives. Exact polynomial membership can organize later algebraic slices; generic rational-function rank and separate Euler/algebraic witnesses are insufficient. Observation needs actual fixed-window matching and shift evidence;26/28exposure optima apply only to the enlarged conditional pool-index class. Recovery has a closed planar formula and explicit optimizer; actual use needs calibrated moments and complete reset/rotation/control/noise costs. Source,ledger0.263,canon and scheduler unchanged.
 
 

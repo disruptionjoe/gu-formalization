@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 3536a83d0514409f0e50841c65059cbcaf230d0f
+revision_basis: 613ac0f065a015abc04e7d90cdadc0514f99b1ae
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,19 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2397 supplies exact finite-training confidence for unknown two-environment shift odds,
+    a shared-environment pool normalizer and conditional anytime error accounting, with a
+    continuous shared-graph synthetic fixture and explicit training/exposure costs. K2398
+    gives an exact fixed-decoder diamond formula for uncertain planar clock laws, robust
+    conic formulation, all-CPTP mirror-law optimum, coherent positive-visibility improvement
+    and physical calibration/implementation interfaces. K2399 constructs one 236-component
+    shared cubic satisfying all 420 four-W and 168 three-W fifth-algebraic targets with full
+    homogeneous Euler closure. The complete two-W map fails 3/56 targets; a 12-component
+    C-kernel escape cancels the first dual but does not solve them, and a 156-entry
+    original-receiver dual excludes all pointwise-polar C corrections with A/B fixed.
+    Simultaneous A/B/C variation remains open. These are conditional mathematical results,
+    not measured calibration, hardware validation, a smooth geometric field or native GU
+    recovery. Historical predecessor (not live):
     K2394 characterizes sharp robust full-pool sequential e-factors, log-optimal betting and
     continuous shared-graph recovery after weak looks, with exact 26/28-exposure limits
     within the declared enlarged ambiguity class. K2395 derives the closed-form all-CPTP
@@ -17854,6 +17867,15 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2397-finite-training-shift-confidence-2026-10-31.md
+  - lab/process/k2397-finite-training-shift-confidence.json
+  - tests/channel-swings/k2397_finite_training_shift_confidence_probe.py
+  - explorations/conditional-build/k2398-uncertain-clock-law-recovery-2026-10-31.md
+  - lab/process/k2398-uncertain-clock-law-recovery.json
+  - tests/channel-swings/k2398_uncertain_clock_law_recovery_probe.py
+  - explorations/conditional-build/k2399-complete-polar-joint-lift-2026-10-31.md
+  - lab/process/k2399-complete-polar-joint-lift.json
+  - tests/channel-swings/k2399_complete_polar_joint_lift_probe.py
   - explorations/conditional-build/k2394-robust-pool-sequential-evidence-2026-10-31.md
   - lab/process/k2394-robust-pool-sequential-evidence.json
   - tests/channel-swings/k2394_robust_pool_sequential_evidence_probe.py
@@ -19946,6 +19968,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can simultaneous A/B/C variation within the full pointwise-polar homogeneous Euler
+  family satisfy all four-W, three-W and two-W fifth-algebraic receivers, now that a
+  shared four/three-W lift exists and fixed-A/B C freedom cannot finish the two-W
+  extension? Historical predecessor (not live):
   Can the full fixed-W-cubic pointwise-polar family, restoring all52752 A coordinates and
   their coupled B Euler completion, satisfy four-W and three-W fifth algebraic equations
   simultaneously? Historical predecessor (not live):
@@ -24124,6 +24150,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Prioritize the simultaneous A/B/C two-W extension using the complete raw families, full
+  420 + 168 prior receivers and all 56 two-W targets; require one reconstructed shared
+  tensor or an original-generator dual with its exact family scope. Then test the
+  remaining one/zero-W sectors and shared curved fourth-Euler/fifth-algebraic
+  intersection. In parallel scientific selection, certify the uncertain-clock mirror
+  optimizer for 0 < nu < 1/2 with a physical calibration confidence set and implementation
+  cost, and extend finite-training shift inference only with explicit
+  common-kernel/stability checks and priced training. Keep common-bar/mobile, thermal
+  163/164, native 2+1/chirality and source-action/physical-quotient fronts eligible; no
+  toy/comparator result is native GU credit. Historical predecessor (not live):
   Geometry: preserve the98-component four-W anchor and60-component A escape, each
   satisfying all420 targets but failing8/168 three-W targets; the16-component B-only
   branch fails9/168. Restore the29064 repeated-hook A-kernel directions omitted from

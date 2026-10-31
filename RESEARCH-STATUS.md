@@ -6,6 +6,19 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2397--K2399: Learned calibration, uncertain recovery and joint compatibility (2026-10-31)
+
+K2397 supplies exact finite-training confidence for unknown two-environment shift odds, a shared-environment pool normalizer and conditional anytime error accounting, with a continuous shared-graph synthetic fixture and explicit training/exposure costs. K2398 gives an exact fixed-decoder diamond formula for uncertain planar clock laws, robust conic formulation, all-CPTP mirror-law optimum, coherent positive-visibility improvement and physical calibration/implementation interfaces. K2399 constructs one 236-component shared cubic satisfying all 420 four-W and 168 three-W fifth-algebraic targets with full homogeneous Euler closure. The complete two-W map fails 3/56 targets; a 12-component C-kernel escape cancels the first dual but does not solve them, and a 156-entry original-receiver dual excludes all pointwise-polar C corrections with A/B fixed. Simultaneous A/B/C variation remains open. These are conditional mathematical results, not measured calibration, hardware validation, a smooth geometric field or native GU recovery.
+
+- [K2397](explorations/conditional-build/k2397-finite-training-shift-confidence-2026-10-31.md).
+- [K2398](explorations/conditional-build/k2398-uncertain-clock-law-recovery-2026-10-31.md).
+- [K2399](explorations/conditional-build/k2399-complete-polar-joint-lift-2026-10-31.md).
+
+Three specialist constructions received independent cross-review and root review; exact probe replays, changed-input controls and affected governance audits are recorded with the native reports. These are conditional mathematical results, not experimental or native GU recovery credit.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2394--K2396: Robust evidence, closed-form recovery and coupled repair (2026-10-31)
 
 K2394 characterizes sharp robust full-pool sequential e-factors, log-optimal betting and continuous shared-graph recovery after weak looks, with exact 26/28-exposure limits within the declared enlarged ambiguity class. K2395 derives the closed-form all-CPTP optimum for every known planar clock law, constructs a two-Kraus optimal decoder and proves its exact implementation-error margin. K2396 constructs a 98-component homogeneous correction satisfying all 420 four-W fifth-algebraic targets on the stored finite jet; its stronger three-W test still fails, and an exact 23-entry dual excludes every pointwise-polar B correction with A fixed. A further60-component A correction preserves all420 targets and cancels that dual, but still fails8 of168 three-W targets. These are conditional mathematical results, not empirical calibration, hardware validation, a smooth geometric solution or native GU recovery.

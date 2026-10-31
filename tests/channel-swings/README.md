@@ -1,4 +1,8 @@
 
+- [k2397-finite-training-shift-confidence](k2397_finite_training_shift_confidence_probe.py).
+- [k2398-uncertain-clock-law-recovery](k2398_uncertain_clock_law_recovery_probe.py).
+- [k2399-complete-polar-joint-lift](k2399_complete_polar_joint_lift_probe.py).
+
 - [k2394-robust-pool-sequential-evidence](k2394_robust_pool_sequential_evidence_probe.py).
 - [k2395-planar-recovery-closed-form](k2395_planar_recovery_closed_form_probe.py).
 - [k2396-full-polar-coupled-repair](k2396_full_polar_coupled_repair_probe.py).

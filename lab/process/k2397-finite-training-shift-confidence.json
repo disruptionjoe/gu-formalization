@@ -1,0 +1,42 @@
+{
+  "checks": {
+    "continuous_graph_fixture": {
+      "cells_and_endpoints": 7,
+      "environment_training_observations": 200,
+      "exposures": 48,
+      "separate_minima_product": "887503681/268435456",
+      "shared_minimum": "27512614111/1073741824"
+    },
+    "finite_counterexample_assumption_controls": 6,
+    "rational_true_parameter_coverage_cases": 245,
+    "shared_environment_normalizer_cases": 1548,
+    "synthetic_finite_symmetric_support": true,
+    "total_error_budget": {
+      "alpha": "1/20",
+      "conditional_eta": "4/99",
+      "delta": "1/100",
+      "threshold": "99/4"
+    },
+    "training_fixture": {
+      "count_each": 50,
+      "delta": "1/100",
+      "interval": [
+        "1/3",
+        "2/3"
+      ],
+      "n_each": 100,
+      "odds_interval": [
+        "1/4",
+        "4"
+      ]
+    },
+    "unbounded_odds_and_same_environment_controls": 4
+  },
+  "dependencies": {
+    "lab/process/k2391-shifted-sequential-calibration.json": "9c2a98a1359d2d0cd0836456445b365e9dfbae205e679e35118acf95d85e4d93",
+    "lab/process/k2394-robust-pool-sequential-evidence.json": "9407483c59b44351537af4d3e3d49f93789048c86fd01cfac77222fa8e776d8e"
+  },
+  "evidence_kind": "Exact binomial, shared-environment normalizer and continuous-graph fixtures; universal coverage and anytime claims are proved in the note, not inferred from finite counts",
+  "result": "K2397",
+  "status": "pass"
+}
