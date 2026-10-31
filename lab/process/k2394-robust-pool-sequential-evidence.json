@@ -1,0 +1,33 @@
+{
+  "checks": {
+    "conditional_tv_controls": 4,
+    "continuous_fixture_cells_endpoints": 7,
+    "finite_counterexample_assumption_controls": 5,
+    "finite_symmetric_exposure_realization": true,
+    "log_optimal_finite_certificate": true,
+    "normalizer_corner_cases": 1440,
+    "pair_cost_dynamic_program": {
+      "B13": "20",
+      "B14": "25",
+      "path13": [
+        4,
+        3,
+        3,
+        3
+      ],
+      "path14": [
+        4,
+        4,
+        3,
+        3
+      ]
+    },
+    "positive_28_exposure_certificate": "14311089/640000"
+  },
+  "dependencies": {
+    "lab/process/k2391-shifted-sequential-calibration.json": "9c2a98a1359d2d0cd0836456445b365e9dfbae205e679e35118acf95d85e4d93"
+  },
+  "evidence_kind": "Exact finite normalizer enumeration, rational cost/TV/counterexample fixtures; universal and continuous claims are written proofs, not sample counts",
+  "result": "K2394",
+  "status": "pass"
+}

@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2394-robust-pool-sequential-evidence](k2394-robust-pool-sequential-evidence.json).
+- [k2395-planar-recovery-closed-form](k2395-planar-recovery-closed-form.json).
+- [k2396-full-polar-coupled-repair](k2396-full-polar-coupled-repair.json).
+
 - [k2391-shifted-sequential-calibration](k2391-shifted-sequential-calibration.json).
 - [k2392-nonaligned-clock-recovery](k2392-nonaligned-clock-recovery.json).
 - [k2393-coupled-polar-dual](k2393-coupled-polar-dual.json).

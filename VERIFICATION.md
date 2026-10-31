@@ -5,6 +5,19 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2394--K2396: Robust evidence, closed-form recovery and coupled repair (2026-10-31)
+
+K2394 characterizes sharp robust full-pool sequential e-factors, log-optimal betting and continuous shared-graph recovery after weak looks, with exact 26/28-exposure limits within the declared enlarged ambiguity class. K2395 derives the closed-form all-CPTP optimum for every known planar clock law, constructs a two-Kraus optimal decoder and proves its exact implementation-error margin. K2396 constructs a 98-component homogeneous correction satisfying all 420 four-W fifth-algebraic targets on the stored finite jet; its stronger three-W test still fails, and an exact 23-entry dual excludes every pointwise-polar B correction with A fixed. A further60-component A correction preserves all420 targets and cancels that dual, but still fails8 of168 three-W targets. These are conditional mathematical results, not empirical calibration, hardware validation, a smooth geometric solution or native GU recovery.
+
+- [K2394](explorations/conditional-build/k2394-robust-pool-sequential-evidence-2026-10-31.md).
+- [K2395](explorations/conditional-build/k2395-planar-recovery-closed-form-2026-10-31.md).
+- [K2396](explorations/conditional-build/k2396-full-polar-coupled-repair-2026-10-31.md).
+
+Universal statistical and quantum claims rest on written proofs with independent internal review and exact fixtures. Geometry reconstructs original tensors and checks the actual receivers independently of its large search matrices. Counts of checks are implementation evidence, not independent proofs; no empirical, hardware, external-expert or proof-assistant certification is asserted.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2391--K2393: Shifted calibration, nonaligned recovery and polar completion (2026-10-31)
 
 K2391 constructs a paired-exposure calibration model with exact covariate-weighted ranks, sharp shift sensitivity and anytime shared-graph evidence, then proves a26-exposure minimum within its separated binary-bet class. K2392 solves arbitrary planar clock recovery by a four-by-four Choi program, proves the exact identity-optimality criterion and certifies a nonaligned optimum within one millionth using rational primal/dual matrices. K2393 proves full homogeneous Euler completion for the polar cubic repair class and constructs a16-component correction cancelling the previous restricted dual; complete four-W replay leaves24 failures versus13 originally, so no joint repair is claimed. It reduces the full fixed-W-cubic polar family to23688 field coordinates. These are conditional mathematical results, not measured cosmology, hardware or native GU verdicts.

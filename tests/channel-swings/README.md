@@ -1,4 +1,8 @@
 
+- [k2394-robust-pool-sequential-evidence](k2394_robust_pool_sequential_evidence_probe.py).
+- [k2395-planar-recovery-closed-form](k2395_planar_recovery_closed_form_probe.py).
+- [k2396-full-polar-coupled-repair](k2396_full_polar_coupled_repair_probe.py).
+
 - [k2391-shifted-sequential-calibration](k2391_shifted_sequential_calibration_probe.py).
 - [k2392-nonaligned-clock-recovery](k2392_nonaligned_clock_recovery_probe.py).
 - [k2393-coupled-polar-dual](k2393_coupled_polar_dual_probe.py).

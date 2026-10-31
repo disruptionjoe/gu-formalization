@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-10-31: SHIFTED CALIBRATION, NONALIGNED RECOVERY AND POLAR COMPLETION.**
+> **2026-10-31: ROBUST EVIDENCE, CLOSED-FORM RECOVERY AND COUPLED REPAIR.**
+> Geometry: preserve the98-component four-W anchor and60-component A escape, each satisfying all420 targets but failing8/168 three-W targets; the16-component B-only branch fails9/168. Restore the29064 repeated-hook A-kernel directions omitted from the23688-coordinate four-W quotient: the next exact joint3W construction has52752 A field coordinates before coupling to B. Build a complete A-to-B Euler right-inverse and the full3W map modulo the B kernel, or retain simultaneous Euler rows; selected-dual cancellation and40 currently unsupported B rows do not certify the intersection. Nonzero W-cubic and broader fourth-preserving corrections remain alternatives. Exact polynomial membership can organize later algebraic slices; generic rational-function rank and separate Euler/algebraic witnesses are insufficient. Observation needs actual fixed-window matching and shift evidence;26/28exposure optima apply only to the enlarged conditional pool-index class. Recovery has a closed planar formula and explicit optimizer; actual use needs calibrated moments and complete reset/rotation/control/noise costs. Source,ledger0.263,canon and scheduler unchanged.
+
+
+> **Historical predecessor, no longer the live next condition: 2026-10-31 SHIFTED CALIBRATION, NONALIGNED RECOVERY AND POLAR COMPLETION.**
 > Retain the original K2390 cubic tensor as the geometric search anchor: K2393 cancels one dual but its full420 replay worsens the failed-target count13 to24, which is not a distance metric. Assemble and solve the exact23688-coordinate system on the computed846-dimensional common kernel per W pair, then reconstruct the full Euler completion and test fewer-W fifth sectors and the fourth-Euler/fifth-algebraic intersection. Nonzero W-cubic and larger quartic-kernel corrections remain separate alternatives. Observation requires actual fixed-window independent paired exposures, a justified conditional matching law and covariate weight bounds before empirical inference; the26-exposure optimum applies only to the declared separated binary-bet class. Recovery has a certified arbitrary-law SDP and nonaligned fixture; supply a physical moment law and price the polar rotation, decoder noise, reset and complete clock costs, or derive a general closed form. Source, ledger0.263, canon and scheduler remain unchanged.
 
 

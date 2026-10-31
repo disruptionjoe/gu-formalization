@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2394-robust-pool-sequential-evidence](conditional-build/k2394-robust-pool-sequential-evidence-2026-10-31.md).
+- [k2395-planar-recovery-closed-form](conditional-build/k2395-planar-recovery-closed-form-2026-10-31.md).
+- [k2396-full-polar-coupled-repair](conditional-build/k2396-full-polar-coupled-repair-2026-10-31.md).
+
 - [k2391-shifted-sequential-calibration](conditional-build/k2391-shifted-sequential-calibration-2026-10-31.md).
 - [k2392-nonaligned-clock-recovery](conditional-build/k2392-nonaligned-clock-recovery-2026-10-31.md).
 - [k2393-coupled-polar-dual](conditional-build/k2393-coupled-polar-dual-2026-10-31.md).

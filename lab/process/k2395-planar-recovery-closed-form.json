@@ -1,0 +1,82 @@
+{
+  "checks": {
+    "aligned_interior": true,
+    "antipodal_clock": true,
+    "antipodal_sign": true,
+    "canonical_two_choi_equalities": true,
+    "exact_gain_factorization": true,
+    "fixture_actual_objective": true,
+    "fixture_canonical_parameters": true,
+    "fixture_choi_all_principal_minors": true,
+    "fixture_choi_rank_two": true,
+    "fixture_choi_trace": true,
+    "fixture_closed_value": true,
+    "fixture_full_sign_composition_0": true,
+    "fixture_full_sign_composition_1": true,
+    "fixture_full_sign_composition_2": true,
+    "fixture_full_sign_composition_3": true,
+    "fixture_improvement_region": true,
+    "fixture_kraus_TP": true,
+    "fixture_kraus_column_0": true,
+    "fixture_kraus_column_1": true,
+    "fixture_kraus_column_2": true,
+    "fixture_kraus_reconstruct_choi": true,
+    "fixture_kraus_translation": true,
+    "fixture_moment_feasible": true,
+    "fixture_noise_margin_factorization": true,
+    "fixture_paired_B_symmetric_psd": true,
+    "fixture_planar_rotation": true,
+    "fixture_polar_rotation": true,
+    "fixture_top_eigenpair": true,
+    "interior_optimum_value": true,
+    "interior_stationary_point": true,
+    "maximization_square_identity": true,
+    "noiseless": true,
+    "prior_rational_interval_encloses_exact_optimum": true,
+    "trace_one_cayley_hamilton": true,
+    "zero_all": true,
+    "zero_mean": true,
+    "zero_visibility": true
+  },
+  "controls": {
+    "changed_choi_trace_rejected": true,
+    "changed_optimum_rejected": true,
+    "naive_aligned_formula_rejected": true,
+    "transpose_is_not_CP": true,
+    "wrong_nonunital_sign_order_rejected": true
+  },
+  "dependencies": {
+    "lab/process/k2392-nonaligned-clock-recovery.json": "0580e52c02b78923441fe50e36704e6a10f3b75fdf11066dd0990b611d4ae782"
+  },
+  "evidence_kind": "exact symbolic identities, actual algebraic Kraus/sign-block composition, principal-minor checks and independent prior rational interval; universal optimum uses written proof and RSW rank-two theorem",
+  "fixture": {
+    "F_display_only": "0.731953469605706",
+    "F_squared": "2300/4293",
+    "M": [
+      "3/4",
+      "1/4"
+    ],
+    "h": "1325/6912",
+    "mean": [
+      "1/2",
+      "23/72"
+    ],
+    "nu": "25/36",
+    "planar_A": [
+      [
+        "5776*sqrt(1219)/323035",
+        "-819*sqrt(1219)/323035"
+      ],
+      [
+        "-2457*sqrt(1219)/323035",
+        "4208*sqrt(1219)/323035"
+      ]
+    ],
+    "translation": [
+      "3276*sqrt(1219)/323035",
+      "4368*sqrt(1219)/323035"
+    ]
+  },
+  "prior_fixture_exact_F_squared": "1172889/(40960000*(39/1280 + 3*sqrt(10169)/1600)) + 3*sqrt(10169)/1600 + 761/1280",
+  "result": "K2395"
+}

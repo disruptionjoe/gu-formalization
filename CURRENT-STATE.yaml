@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: b169d8f39bfb5d94692352da5ccfe4e635d510a2
+revision_basis: 3536a83d0514409f0e50841c65059cbcaf230d0f
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,18 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2394 characterizes sharp robust full-pool sequential e-factors, log-optimal betting and
+    continuous shared-graph recovery after weak looks, with exact 26/28-exposure limits
+    within the declared enlarged ambiguity class. K2395 derives the closed-form all-CPTP
+    optimum for every known planar clock law, constructs a two-Kraus optimal decoder and
+    proves its exact implementation-error margin. K2396 constructs a 98-component
+    homogeneous correction satisfying all 420 four-W fifth-algebraic targets on the stored
+    finite jet; its stronger three-W test still fails, and an exact 23-entry dual excludes
+    every pointwise-polar B correction with A fixed. A further60-component A correction
+    preserves all420 targets and cancels that dual, but still fails8 of168 three-W targets.
+    These are conditional mathematical results, not empirical calibration, hardware
+    validation, a smooth geometric solution or native GU recovery. Historical predecessor
+    (not live):
     K2391 constructs a paired-exposure calibration model with exact covariate-weighted
     ranks, sharp shift sensitivity and anytime shared-graph evidence, then proves
     a26-exposure minimum within its separated binary-bet class. K2392 solves arbitrary
@@ -17842,6 +17854,15 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2394-robust-pool-sequential-evidence-2026-10-31.md
+  - lab/process/k2394-robust-pool-sequential-evidence.json
+  - tests/channel-swings/k2394_robust_pool_sequential_evidence_probe.py
+  - explorations/conditional-build/k2395-planar-recovery-closed-form-2026-10-31.md
+  - lab/process/k2395-planar-recovery-closed-form.json
+  - tests/channel-swings/k2395_planar_recovery_closed_form_probe.py
+  - explorations/conditional-build/k2396-full-polar-coupled-repair-2026-10-31.md
+  - lab/process/k2396-full-polar-coupled-repair.json
+  - tests/channel-swings/k2396_full_polar_coupled_repair_probe.py
   - explorations/conditional-build/k2391-shifted-sequential-calibration-2026-10-31.md
   - lab/process/k2391-shifted-sequential-calibration.json
   - tests/channel-swings/k2391_shifted_sequential_calibration_probe.py
@@ -19925,6 +19946,9 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can the full fixed-W-cubic pointwise-polar family, restoring all52752 A coordinates and
+  their coupled B Euler completion, satisfy four-W and three-W fifth algebraic equations
+  simultaneously? Historical predecessor (not live):
   Can the exact23688-coordinate polar correction system satisfy all four-W fifth targets
   together, and can a real matched exposure protocol or priced nonaligned clock decoder
   consume the new statistical and recovery guarantees? Historical predecessor (not live):
@@ -24100,6 +24124,21 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Geometry: preserve the98-component four-W anchor and60-component A escape, each
+  satisfying all420 targets but failing8/168 three-W targets; the16-component B-only
+  branch fails9/168. Restore the29064 repeated-hook A-kernel directions omitted from
+  the23688-coordinate four-W quotient: the next exact joint3W construction has52752 A
+  field coordinates before coupling to B. Build a complete A-to-B Euler right-inverse and
+  the full3W map modulo the B kernel, or retain simultaneous Euler rows; selected-dual
+  cancellation and40 currently unsupported B rows do not certify the intersection. Nonzero
+  W-cubic and broader fourth-preserving corrections remain alternatives. Exact polynomial
+  membership can organize later algebraic slices; generic rational-function rank and
+  separate Euler/algebraic witnesses are insufficient. Observation needs actual
+  fixed-window matching and shift evidence;26/28exposure optima apply only to the enlarged
+  conditional pool-index class. Recovery has a closed planar formula and explicit
+  optimizer; actual use needs calibrated moments and complete reset/rotation/control/noise
+  costs. Source,ledger0.263,canon and scheduler unchanged. Historical predecessor (not
+  live):
   Retain the original K2390 cubic tensor as the geometric search anchor: K2393 cancels one
   dual but its full420 replay worsens the failed-target count13 to24, which is not a
   distance metric. Assemble and solve the exact23688-coordinate system on the
