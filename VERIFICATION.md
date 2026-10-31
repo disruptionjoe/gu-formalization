@@ -5,6 +5,19 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2346--K2348: Positive counts, coherent copy and even distortion (2026-10-30)
+
+K2346 constructs a positive count-response discriminator with exact Cox brightness removal, finite-count errors and explicit nuisance/low-intensity boundaries. K2347 composes improved signed contacts through actual coherent microscopic copy and echo on its full reachable carrier. K2348 excludes purely even stationary distortion repairs at nonzero kappa under the selected first action and separates the zero-kappa flat-connection I1/I2 branches. Physical models, feasible device rates and mixed-grade stationary dynamics remain open.
+
+- [K2346](explorations/conditional-build/k2346-positive-count-response-discrimination-2026-10-30.md).
+- [K2347](explorations/conditional-build/k2347-microscopic-copy-echo-composition-2026-10-30.md).
+- [K2348](explorations/conditional-build/k2348-even-distortion-stationarity-boundary-2026-10-30.md).
+
+Three read-only specialists independently reviewed the actual notes, probes and reports after wording and evidence-kind corrections.45 checks pass:36 exact symbolic/rational controls (including exact8192-photon binomial tails) and9 finite256-bit Arb checks.15 changed-input/model faults include4 explicitly evolved faulty quantum circuits and1 analytic excluded-support control. Universal theorems rely on written proofs. No empirical, hardware, external-expert, Lean or native GU certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2343--K2345: Exact counts, echo repair and curved Ricci (2026-10-30)
 
 K2343 constructs an exact shared-photon count equality test with proved positive-intensity power and a sharp exchangeability boundary. K2344 repairs both signed microscopic echo contacts with a phase-sensitive uniform bound and full13-sector interval certificate. K2345 computes the full curved metric-bundle Ricci tensor and excludes its conditional selected T=0 stationary background. Empirical inputs, microscopic copy and native stationary dynamics remain open.

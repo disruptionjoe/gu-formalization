@@ -1,0 +1,55 @@
+{
+  "check_names": [
+    "positive_source_floor",
+    "polar_mean",
+    "equator_mean",
+    "normalized_bin_intervals",
+    "two_sided_gap",
+    "finite_likelihood_factorization",
+    "count_error_exponent",
+    "exp3_exceeds20",
+    "exact_size_under5percent",
+    "exact_power_over95percent",
+    "robust_gap",
+    "robust_error_exponent",
+    "robust_below5percent",
+    "low_intensity_power_ceiling",
+    "overlap_counterexample",
+    "positive_heat_absorption"
+  ],
+  "checks": 16,
+  "dependencies": {
+    "explorations/conditional-build/k2327-constrained-seed-likelihood-2026-10-30.md": "323c63bf03d0736c1991962a23bc53a98fdfdfb4f34134758eddddf0d56f6d73",
+    "explorations/conditional-build/k2343-conditional-count-exchangeability-2026-10-30.md": "abf06b6182df08489906b062f57a70d24aa27a280bc85a8f3e9b94a8727e8837",
+    "explorations/conditional-build/k2346-positive-count-response-discrimination-2026-10-30.md": "e6486dacb4b89f8fea12ec525bb19985aca8d524652b3281e31ed475962c764d",
+    "tests/channel-swings/k2346_positive_count_response_discrimination_probe.py": "b215250fb2400972d16e1998c86bc17a3a595c2815c7079bad441f6411009d16"
+  },
+  "details": {
+    "N": 8192,
+    "cut": 4360,
+    "gap": "15/512",
+    "nuisance": "common Cox amplitude; bounded shape",
+    "robust_N": 12288,
+    "size_decimal": "0.004020331418112650",
+    "type2_decimal": "0.003845953863494466"
+  },
+  "evidence_kind": "exact symbolic/rational controls and two exact integer binomial tail sums; universal nuisance/concentration proof in note",
+  "mutation_failed_checks": {
+    "duplicate_one_photon_into_both_bins": [
+      "finite_likelihood_factorization"
+    ],
+    "independent_bin_brightness": [
+      "normalized_bin_intervals"
+    ],
+    "remove_positive_baseline": [
+      "positive_source_floor"
+    ],
+    "reverse_heat_attenuation": [
+      "normalized_bin_intervals"
+    ],
+    "widen_shape_to_overlap": [
+      "two_sided_gap"
+    ]
+  },
+  "result_id": "K2346"
+}

@@ -1,4 +1,8 @@
 
+- [k2346-positive-count-response-discrimination](k2346_positive_count_response_discrimination_probe.py).
+- [k2347-microscopic-copy-echo-composition](k2347_microscopic_copy_echo_composition_probe.py).
+- [k2348-even-distortion-stationarity-boundary](k2348_even_distortion_stationarity_boundary_probe.py).
+
 - [k2343-conditional-count-exchangeability](k2343_conditional_count_exchangeability_probe.py).
 - [k2344-signed-detuning-echo-repair](k2344_signed_detuning_echo_repair_probe.py).
 - [k2345-curved-bundle-ricci-obstruction](k2345_curved_bundle_ricci_obstruction_probe.py).

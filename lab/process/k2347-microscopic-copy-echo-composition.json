@@ -1,0 +1,63 @@
+{
+  "check_names": [
+    "complete_neutral_tensor_support",
+    "coherent_microscopic_copy_echo",
+    "ideal_contact_selected_pulse_target",
+    "micro_vs_ideal_contact_columns",
+    "column_isometry",
+    "actual_enlarged_support_nonzero",
+    "reachable_K_bound",
+    "final_K_bound",
+    "exp_majorant",
+    "whole_transfer_rational_bound",
+    "exact_one_shell_gap",
+    "upper_lower_transition_gap"
+  ],
+  "checks": 12,
+  "dependencies": {
+    "explorations/conditional-build/k2332-exact-jc-selective-control-2026-10-30.md": "cbd38418f9af97f1574398de69fda0973dd8d4cfe76882e0b042464fa3c7e84d",
+    "explorations/conditional-build/k2336-dispersive-contact-realization-2026-10-30.md": "e00ebd8b1ed1ddb20276c64853c2798da99b8d25de4a417932bb41d9ba88c5da",
+    "explorations/conditional-build/k2344-signed-detuning-echo-repair-2026-10-30.md": "59363b72597e2f7cc68bc958b1adad6135b1c13e76c95ca4f58386e03bb1c84c",
+    "explorations/conditional-build/k2347-microscopic-copy-echo-composition-2026-10-30.md": "a2c5f290bd2dbba992e8cd3135d702f482a4e58cc2b7254cbc92dfe06eb76867",
+    "tests/channel-swings/k2347_microscopic_copy_echo_composition_probe.py": "0d7026c5ca81860c3f3567e13d6ae49870a7958716921767561c531064c69bd2"
+  },
+  "details": {
+    "D": "20001/2",
+    "contact_bound": "78286320428806673/11421900000000000000",
+    "delta": "1/100",
+    "dimension": 32,
+    "duration_upper": "283250423/175",
+    "fault_errors": {
+      "no_compensator": "[2.000380158796223895523469986762042778911983633584733928777167885 +/- 4.06e-64]",
+      "omit_copy_phase": "[1.999953830918245745481830383224152853726632631315036406669124169 +/- 6.09e-64]",
+      "reset_clock": "[0.569121210534984420022503840535936250004769394260130058502039682 +/- 6.45e-64]",
+      "skip_copy": "[2.00000000993743198147449935114718006746623952604193764921092464792 +/- 3.58e-66]"
+    },
+    "ideal_contact_target_frobenius_squared": "[3.145538544839740003624708962721489670447542387959232696847e-16 +/- 5.41e-74]",
+    "micro_ideal_frobenius_squared": "[9.835970700939415046879657300289266227713236858525417314538558e-8 +/- 9.28e-69]",
+    "microscopic_target_frobenius_squared": "[9.835972312736613554026403005913118833025064648247661760065178e-8 +/- 8.12e-69]",
+    "precision_bits": 256,
+    "prefix_Qabove1_weight": "[1.024477729060389489931137505057036367827107411805339854761305834e-8 +/- 1.86e-72]",
+    "selective_bound": "523/77962500",
+    "total_bound": "7940954481674664227/1130768100000000000000"
+  },
+  "evidence_kind": "exact rational budget and256bit Arb coherent32-state reachable evolution; universal restricted-input telescope in note",
+  "mutation_failed_checks": {
+    "no_compensator": [
+      "coherent_microscopic_copy_echo"
+    ],
+    "omit_copy_phase": [
+      "coherent_microscopic_copy_echo"
+    ],
+    "project_to_Q1": [
+      "actual_enlarged_support_nonzero"
+    ],
+    "reset_clock": [
+      "coherent_microscopic_copy_echo"
+    ],
+    "skip_copy": [
+      "coherent_microscopic_copy_echo"
+    ]
+  },
+  "result_id": "K2347"
+}

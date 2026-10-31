@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-10-30: EXACT COUNT TEST, SIGNED ECHO REPAIR AND CURVED RICCI.**
+> **2026-10-30: POSITIVE COUNTS, COHERENT COPY AND EVEN DISTORTION.**
+> Supply actual cosmological positive intensity/response hypotheses with bounded shape and calibrated sampling; the heat-response example is a conditional experiment. Test joint microscopic switching, noise, loss and clock resources against the full coherent copy-plus-echo budget. Construct the mixed-grade first-action Euler system or a separately owned zero-residual second-action Hessian on the same curved receiver and domain. Reuse the exact count law, improved contact composition and parity/frame-jet theorem; do not repeat them as new results.
+
+
+> **Historical predecessor, no longer the live next condition: 2026-10-30 EXACT COUNT TEST, SIGNED ECHO REPAIR AND CURVED RICCI.**
 > Use physical positive count laws and calibrated responses for actual competing cosmologies; the exact equality-null test does not restore the earlier covariance-null claim. Compose microscopic number-copy with the repaired signed contacts, finite switches and a jointly attainable loss/clock/control budget. Construct a nonzero-distortion or changed curved stationary action/receiver packet; the selected T=0 continuation fails its actual conditional Euler test. Do not repeat the completed exchangeability theorem, two-step echo repair or full Ricci contraction.
 
 

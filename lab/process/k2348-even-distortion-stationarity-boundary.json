@@ -1,0 +1,64 @@
+{
+  "check_names": [
+    "even_curvature_to_nonzero_odd",
+    "odd_curvature_to_nonzero_even",
+    "even_odd_pair_zero",
+    "odd_translation_live",
+    "frame_jet_Euler_coefficient",
+    "even_pairing_nonzero",
+    "all_eight_channel_parities",
+    "even_null_nonzero",
+    "null_detected_by_independent_dual",
+    "all8192_even_blade_squares_nondegenerate",
+    "one_form_metric_nondegenerate",
+    "kappa_zero_Euler_family_slope",
+    "two_flat_members_cannot_both_vanish",
+    "moving_I2_first_variation_zero",
+    "I2_hessian_not_zero",
+    "equal_residual_different_hessian",
+    "nonstationary_second_jet"
+  ],
+  "checks": 17,
+  "dependencies": {
+    "explorations/conditional-build/k2345-curved-bundle-ricci-obstruction-2026-10-30.md": "cebbaae76afd966c1d53fd449ab52185cb9574ecdc8cb1a53b36e21017e530ad",
+    "explorations/conditional-build/k2348-even-distortion-stationarity-boundary-2026-10-30.md": "0bb5b25acea32ee48741e113ba1323a7748a568e92306b79e78d5dfba9368fb2",
+    "lab/sources/gu-eddy-augmented-torsion-euler-functor-source-reinspection-2026-08-05.md": "c125a62d7f7ca08ed4491e0df02b3c0864ad88b814f6d690892a6ea36ba14a5a",
+    "tests/channel-swings/k2348_even_distortion_stationarity_boundary_probe.py": "a284a4cf869ccfc7053dc3c3f159ae78a74af4c944ecc78d678a7073694d66bc",
+    "tests/channel-swings/k77_wave2_moving_shiab_epsilon_ward_green_domain_probe.py": "acc72e643032b4927db49963fd4de5b43b0c7f387a078b210a0d759e57e7bdb4"
+  },
+  "details": {
+    "I2_hessians": [
+      1,
+      4
+    ],
+    "channels": [
+      "comm",
+      "symi",
+      "symi"
+    ],
+    "even_shiab_terms": 12,
+    "frame_Euler_shift": "c",
+    "nonstationary_path_second_derivative": "a + 1",
+    "null_dual_pairing": "(Fraction(1, 1), Fraction(0, 1))",
+    "odd_shiab_terms": 1
+  },
+  "evidence_kind": "exact Clifford/exterior rational and symbolic variation controls; universal parity and local jet arguments in note",
+  "mutation_failed_checks": {
+    "discard_path_acceleration": [
+      "nonstationary_second_jet"
+    ],
+    "omit_adjoint_derivative_term": [
+      "kappa_zero_Euler_family_slope"
+    ],
+    "radial_test_only_on_null_T": [
+      "null_detected_by_independent_dual"
+    ],
+    "replace_odd_S_by_parity_preserving_Hodge": [
+      "even_curvature_to_nonzero_odd"
+    ],
+    "reuse_hessian_from_equal_residual": [
+      "equal_residual_different_hessian"
+    ]
+  },
+  "result_id": "K2348"
+}
