@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-10-30: POISSON CALIBRATION, REACHABLE ECHO AND HOLONOMIC LIFT.**
+> **2026-10-30: EXACT COUNT TEST, SIGNED ECHO REPAIR AND CURVED RICCI.**
+> Use physical positive count laws and calibrated responses for actual competing cosmologies; the exact equality-null test does not restore the earlier covariance-null claim. Compose microscopic number-copy with the repaired signed contacts, finite switches and a jointly attainable loss/clock/control budget. Construct a nonzero-distortion or changed curved stationary action/receiver packet; the selected T=0 continuation fails its actual conditional Euler test. Do not repeat the completed exchangeability theorem, two-step echo repair or full Ricci contraction.
+
+
+> **Historical predecessor, no longer the live next condition: 2026-10-30 POISSON CALIBRATION, REACHABLE ECHO AND HOLONOMIC LIFT.**
 > Supply a physically justified nonnegative intensity/tracer law and calibrate its full overlapping shared-count likelihood or a proved distributional approximation; exact covariance matching does not transfer the Gaussian sign bound. Test a jointly feasible microscopic copy-plus-echo repair with both signed contact resonances, finite phase resources, loss and clock retained. Compose the actual moving field/receiver lift and second jets with a stationary curved source action before importing the frozen growing mode. Do not repeat the completed parity-count counterexample, reachable echo witness or contact-integrability construction.
 
 

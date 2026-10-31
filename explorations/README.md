@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2343-conditional-count-exchangeability](conditional-build/k2343-conditional-count-exchangeability-2026-10-30.md).
+- [k2344-signed-detuning-echo-repair](conditional-build/k2344-signed-detuning-echo-repair-2026-10-30.md).
+- [k2345-curved-bundle-ricci-obstruction](conditional-build/k2345-curved-bundle-ricci-obstruction-2026-10-30.md).
+
 - [k2340-poisson-aperture-calibration](conditional-build/k2340-poisson-aperture-calibration-2026-10-30.md).
 - [k2341-reachable-microscopic-echo](conditional-build/k2341-reachable-microscopic-echo-2026-10-30.md).
 - [k2342-holonomic-metric-lift](conditional-build/k2342-holonomic-metric-lift-2026-10-30.md).

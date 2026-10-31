@@ -1,0 +1,69 @@
+{
+  "check_names": [
+    "exact_64_orbit",
+    "all_orbit_levels_superuniform",
+    "five_percent_size",
+    "arbitrary_positive_magnitudes_1",
+    "arbitrary_positive_magnitudes_2",
+    "all_zero_ties_give_one",
+    "triple_overlap_projected_weight",
+    "shared_counts_cancel_before_projection",
+    "overlap_orbit_size",
+    "sqrt_upper",
+    "sqrt_lower",
+    "singleton_geometry",
+    "cap_harmonic_mean",
+    "cap_factor",
+    "positive_source_floor",
+    "chebyshev_union_constant",
+    "positive_heat_power",
+    "two_sided_extrema",
+    "latent_total_rates_equal",
+    "private_pair_total_one_orbit",
+    "global_swap_counterexample"
+  ],
+  "checks": 21,
+  "dependencies": {
+    "explorations/conditional-build/k2337-pixel-beam-count-test-2026-10-30.md": "60999fdfafa243f7ba806d59bc25ace01cb2ec0b50e6da244187fb49944ecb19",
+    "explorations/conditional-build/k2340-poisson-aperture-calibration-2026-10-30.md": "fe10b716bab18af96666fea4234d517e21a71d3aca6e42fc0b55481c2e6af9ff",
+    "explorations/conditional-build/k2343-conditional-count-exchangeability-2026-10-30.md": "abf06b6182df08489906b062f57a70d24aa27a280bc85a8f3e9b94a8727e8837",
+    "tests/channel-swings/k2343_conditional_count_exchangeability_probe.py": "81865ba9b727da2f52ab7f942a90b85274a28c7f4a50a983cc3ffa7984a154a9"
+  },
+  "details": {
+    "cap_beta": "2094081/2097152",
+    "orbit_histogram": {
+      "0": 2,
+      "10": 2,
+      "2": 10,
+      "4": 20,
+      "6": 20,
+      "8": 10
+    },
+    "power_lower": "7551578797735169/7613151448890625",
+    "shared_cancelled_difference": [
+      7,
+      4,
+      2,
+      -6,
+      -5,
+      -5
+    ],
+    "size_at_1_over_20": "1/32"
+  },
+  "evidence_kind": "exact finite sign orbits, incidence maps and rational bounds; universal Cox-invariance and power proof in note",
+  "mutation_failed_checks": {
+    "only_global_sign_randomized": [
+      "five_percent_size"
+    ],
+    "remove_source_baseline": [
+      "positive_source_floor"
+    ],
+    "shared_registration_mismatch": [
+      "shared_counts_cancel_before_projection"
+    ],
+    "strict_tail_omits_ties": [
+      "all_orbit_levels_superuniform"
+    ]
+  },
+  "result_id": "K2343"
+}

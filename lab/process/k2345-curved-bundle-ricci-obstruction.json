@@ -1,0 +1,54 @@
+{
+  "check_names": [
+    "all196_full_Ricci_entries",
+    "Ricci_symmetric",
+    "full_scalar",
+    "mixed_Ricci_zero",
+    "horizontal_convention_0101",
+    "horizontal_convention_1212",
+    "raised_Ricci_eigenvalues",
+    "vertical_inertia",
+    "Einstein_eigenvalues",
+    "cosmological_shift_obstruction",
+    "selected_radial_Euler",
+    "actual_observed_scalar",
+    "simultaneous_receiver_exact",
+    "frozen_receiver_changes"
+  ],
+  "checks": 14,
+  "dependencies": {
+    "explorations/conditional-build/k2342-holonomic-metric-lift-2026-10-30.md": "30e93652515ed6da6cd5a03af5cc1c46756d4596c074eb33222078907e09a245",
+    "explorations/conditional-build/k2345-curved-bundle-ricci-obstruction-2026-10-30.md": "cebbaae76afd966c1d53fd449ab52185cb9574ecdc8cb1a53b36e21017e530ad",
+    "explorations/conditional-build/selected-action-curvature-graph-six-versus-four-2026-08-06.md": "f7eaac1c6fd2329d950f32a5878015fd5a3f50cb93ff1da81ba6f63e8d8f7d93",
+    "tests/channel-swings/k2345_curved_bundle_ricci_obstruction_probe.py": "259a8d35a8fb07b71bbd8771f0cefbd51775f2e008b8583c0a28bfce78552027"
+  },
+  "details": {
+    "Ricci_eigenvalues": {
+      "-5/4": 9,
+      "1/4": 5
+    },
+    "metric_inertia": [
+      7,
+      7
+    ],
+    "observed_scalar_coefficient": "87/91",
+    "scalar": "-10",
+    "selected_conditional_radial_Euler": "-120"
+  },
+  "evidence_kind": "exact rational full metric two-jet and196 Ricci entries; covariance and analytic tensor proofs in note",
+  "mutation_failed_checks": {
+    "freeze_receiver_during_transport": [
+      "simultaneous_receiver_exact"
+    ],
+    "horizontal_Ricci_trace_only": [
+      "full_scalar"
+    ],
+    "omit_mixed_Christoffels": [
+      "all196_full_Ricci_entries"
+    ],
+    "omit_vertical_connection_derivatives": [
+      "all196_full_Ricci_entries"
+    ]
+  },
+  "result_id": "K2345"
+}

@@ -1,4 +1,8 @@
 
+- [k2343-conditional-count-exchangeability](k2343_conditional_count_exchangeability_probe.py).
+- [k2344-signed-detuning-echo-repair](k2344_signed_detuning_echo_repair_probe.py).
+- [k2345-curved-bundle-ricci-obstruction](k2345_curved_bundle_ricci_obstruction_probe.py).
+
 - [k2340-poisson-aperture-calibration](k2340_poisson_aperture_calibration_probe.py).
 - [k2341-reachable-microscopic-echo](k2341_reachable_microscopic_echo_probe.py).
 - [k2342-holonomic-metric-lift](k2342_holonomic_metric_lift_probe.py).

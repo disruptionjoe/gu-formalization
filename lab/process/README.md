@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2343-conditional-count-exchangeability](k2343-conditional-count-exchangeability.json).
+- [k2344-signed-detuning-echo-repair](k2344-signed-detuning-echo-repair.json).
+- [k2345-curved-bundle-ricci-obstruction](k2345-curved-bundle-ricci-obstruction.json).
+
 - [k2340-poisson-aperture-calibration](k2340-poisson-aperture-calibration.json).
 - [k2341-reachable-microscopic-echo](k2341-reachable-microscopic-echo.json).
 - [k2342-holonomic-metric-lift](k2342-holonomic-metric-lift.json).

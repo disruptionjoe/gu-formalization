@@ -1,0 +1,57 @@
+{
+  "check_names": [
+    "complete_excitation_sector",
+    "tone_commutator",
+    "first_fast_cancellation",
+    "exact_matching_compensator",
+    "mediator_exchange_residual",
+    "second_signed_cancellation",
+    "exponential_majorant",
+    "uniform_two_contact_bound",
+    "priced_noise_budget",
+    "full13_coherent_interval_error",
+    "both_encoded_sectors_phase_sensitive",
+    "unitarity_enclosure"
+  ],
+  "checks": 12,
+  "dependencies": {
+    "explorations/conditional-build/k2336-dispersive-contact-realization-2026-10-30.md": "e00ebd8b1ed1ddb20276c64853c2798da99b8d25de4a417932bb41d9ba88c5da",
+    "explorations/conditional-build/k2341-reachable-microscopic-echo-2026-10-30.md": "9d05a102e56321196e5463217f3311f2c6d23d7c8bbfdabc66d33ebe45660cb9",
+    "explorations/conditional-build/k2344-signed-detuning-echo-repair-2026-10-30.md": "59363b72597e2f7cc68bc958b1adad6135b1c13e76c95ca4f58386e03bb1c84c",
+    "tests/channel-swings/k2344_signed_detuning_echo_repair_probe.py": "51af8209db233382913c56dfca3241047acc891e12d8887149f8b0079fa11517"
+  },
+  "details": {
+    "D": "20001/2",
+    "Delta": 10,
+    "dimension": 13,
+    "duration_upper": "561000557/350",
+    "encoded_error_squared": "[7.477949646538253912038712394359727131313834646978765987125373e-8 +/- 4.37e-69]",
+    "fault_error_squared": {
+      "no_compensator": "[0.00083889646926372820688293608900097321128233123198581449454773065 +/- 2.35e-66]",
+      "omit_first_phase": "[0.608963960185364089024352257864783192879770833676765890784638020 +/- 2.20e-64]",
+      "reverse_compensator": "[0.00335504818587768466732576955452972456639052841581853811851011871 +/- 7.72e-66]"
+    },
+    "full_frobenius_squared": "[2.339016734797285632912965060205912085786371216009768302207960e-7 +/- 1.35e-68]",
+    "noise_combined_upper": "81032474255377373/17132850000000000000",
+    "phase_duration": "1/100",
+    "precision_bits": 256,
+    "resonant_error_squared": "[11.8977873047492754024544508917284263347295945996641530419475074371 +/- 6.60e-65]",
+    "two_contact_bound": "78286320428806673/17132850000000000000"
+  },
+  "evidence_kind": "exact symbolic commutators/rational bounds and256bit Arb full13 matrices; uniform time-sensitive proof in note",
+  "mutation_failed_checks": {
+    "no_compensator": [
+      "full13_coherent_interval_error"
+    ],
+    "omit_first_phase": [
+      "full13_coherent_interval_error"
+    ],
+    "restore_resonance": [
+      "full13_coherent_interval_error"
+    ],
+    "reverse_compensator": [
+      "full13_coherent_interval_error"
+    ]
+  },
+  "result_id": "K2344"
+}

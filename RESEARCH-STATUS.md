@@ -6,6 +6,19 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2343--K2345: Exact counts, echo repair and curved Ricci (2026-10-30)
+
+K2343 constructs an exact shared-photon count equality test with proved positive-intensity power and a sharp exchangeability boundary. K2344 repairs both signed microscopic echo contacts with a phase-sensitive uniform bound and full13-sector interval certificate. K2345 computes the full curved metric-bundle Ricci tensor and excludes its conditional selected T=0 stationary background. Empirical inputs, microscopic copy and native stationary dynamics remain open.
+
+- [K2343](explorations/conditional-build/k2343-conditional-count-exchangeability-2026-10-30.md).
+- [K2344](explorations/conditional-build/k2344-signed-detuning-echo-repair-2026-10-30.md).
+- [K2345](explorations/conditional-build/k2345-curved-bundle-ricci-obstruction-2026-10-30.md).
+
+Three independent read-only specialists reviewed the concrete proofs, probes and reports.47 checks comprise43 exact symbolic/rational controls and4 finite Arb matrix/enclosure controls, with12 substantive changed-input faults. Universal statements rely on written proofs; the echo comparison uses256-bit complex-ball exponentials on all13 conserved states. No empirical, hardware, external-expert, Lean or native GU certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2340--K2342: Poisson calibration, reachable echo and holonomic lift (2026-10-30)
 
 K2340 constructs the exact overlapping Poisson count law and a strictly positive shared-photon counterexample to covariance-only Gaussian sign calibration, then executes finite-count calibration. K2341 interval-certifies a reachable full two-half microscopic echo failure after ideal number copy. K2342 constructs the contact lift and computes the actual mode second-jet and curved-background corrections. Physical intensity/device inputs and source stationary dynamics remain open; native GU verdicts are unchanged.

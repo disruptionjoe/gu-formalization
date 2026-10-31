@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 80e35ba29431640db45801c75ea77963636cc34d
+revision_basis: 2681c082650965ad1b688bcacdd1281b316ed263
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,13 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2343 constructs an exact shared-photon count equality test with proved
+    positive-intensity power and a sharp exchangeability boundary. K2344 repairs both signed
+    microscopic echo contacts with a phase-sensitive uniform bound and full13-sector
+    interval certificate. K2345 computes the full curved metric-bundle Ricci tensor and
+    excludes its conditional selected T=0 stationary background. Empirical inputs,
+    microscopic copy and native stationary dynamics remain open. Historical predecessor (not
+    live):
     K2340 constructs the exact overlapping Poisson count law and a strictly positive
     shared-photon counterexample to covariance-only Gaussian sign calibration, then executes
     finite-count calibration. K2341 interval-certifies a reachable full two-half microscopic
@@ -17687,6 +17694,15 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2343-conditional-count-exchangeability-2026-10-30.md
+  - lab/process/k2343-conditional-count-exchangeability.json
+  - tests/channel-swings/k2343_conditional_count_exchangeability_probe.py
+  - explorations/conditional-build/k2344-signed-detuning-echo-repair-2026-10-30.md
+  - lab/process/k2344-signed-detuning-echo-repair.json
+  - tests/channel-swings/k2344_signed_detuning_echo_repair_probe.py
+  - explorations/conditional-build/k2345-curved-bundle-ricci-obstruction-2026-10-30.md
+  - lab/process/k2345-curved-bundle-ricci-obstruction.json
+  - tests/channel-swings/k2345_curved_bundle_ricci_obstruction_probe.py
   - explorations/conditional-build/k2340-poisson-aperture-calibration-2026-10-30.md
   - lab/process/k2340-poisson-aperture-calibration.json
   - tests/channel-swings/k2340_poisson_aperture_calibration_probe.py
@@ -19617,6 +19633,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which positive joint count laws distinguish actual cosmological alternatives beyond
+  equality calibration, which microscopic number-copy and jointly attainable rates
+  complete coherent readout, and which nonzero-distortion stationary background repairs
+  the explicit curved continuation? Historical predecessor (not live):
   Which nonnegative physical tracer law and full count likelihood preserve an
   observational test, which jointly feasible contact controls repair the reachable echo,
   and what complete moving source action admits the constructed metric/section lift?
@@ -23728,6 +23748,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Use physical positive count laws and calibrated responses for actual competing
+  cosmologies; the exact equality-null test does not restore the earlier covariance-null
+  claim. Compose microscopic number-copy with the repaired signed contacts, finite
+  switches and a jointly attainable loss/clock/control budget. Construct a
+  nonzero-distortion or changed curved stationary action/receiver packet; the selected T=0
+  continuation fails its actual conditional Euler test. Do not repeat the completed
+  exchangeability theorem, two-step echo repair or full Ricci contraction. Historical
+  predecessor (not live):
   Supply a physically justified nonnegative intensity/tracer law and calibrate its full
   overlapping shared-count likelihood or a proved distributional approximation; exact
   covariance matching does not transfer the Gaussian sign bound. Test a jointly feasible
