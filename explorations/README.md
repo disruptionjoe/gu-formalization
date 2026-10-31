@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2400-adaptive-calibration-confidence](conditional-build/k2400-adaptive-calibration-confidence-2026-10-31.md).
+- [k2401-positive-visibility-minimax-recovery](conditional-build/k2401-positive-visibility-minimax-recovery-2026-10-31.md).
+- [k2402-coupled-polar-compatibility](conditional-build/k2402-coupled-polar-compatibility-2026-10-31.md).
+
 - [k2397-finite-training-shift-confidence](conditional-build/k2397-finite-training-shift-confidence-2026-10-31.md).
 - [k2398-uncertain-clock-law-recovery](conditional-build/k2398-uncertain-clock-law-recovery-2026-10-31.md).
 - [k2399-complete-polar-joint-lift](conditional-build/k2399-complete-polar-joint-lift-2026-10-31.md).

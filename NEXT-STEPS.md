@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-10-31: LEARNED CALIBRATION, UNCERTAIN RECOVERY AND JOINT COMPATIBILITY.**
+> **2026-10-31: ADAPTIVE CALIBRATION, EXACT RECOVERY AND SHARED QUARTIC EXTENSION.**
+> Use the shared cubic digest2c0e4ba811548bb58f4f575c0b66404c4147c9de6969ffd27363d29cc9791675 and reconstructed W4 digest3bcd306c5f4be8d279dd71a371afe31593f10739c4f7f380cf9a50c34ddc96f7. First derive and verify the105 fifth-Euler compatibility conditions by twice differentiating the full curved double-divergence identity on the fixed actual lower cubic jet, including M0+S and an independently checked second curvature derivative. These conditions are independent of quartic choices and can decide the next Euler gate before a larger solve. If they pass, preserve full admissible quartic freedom while assembling the five-W sixth receiver and remaining mixed-E sectors; an arbitrary quartic representative or generic symbol rank cannot decide that intersection. The existing672721-dimensional fourth-Euler/fifth-algebraic affine fiber and exact59640-variable all-W6 projection are proved; do not requeue them as open. Adaptive inference next needs actual common-kernel/stability and complete costs; recovery needs physical calibration and implementation margins or a justified non-mirror uncertainty question. Retain common-bar/mobile, thermal163/164, native2+1/chirality and source/matter/physical-quotient alternatives under unchanged source and ledger ceilings.
+
+
+> **Historical predecessor, no longer the live next condition: 2026-10-31 LEARNED CALIBRATION, UNCERTAIN RECOVERY AND JOINT COMPATIBILITY.**
 > Prioritize the simultaneous A/B/C two-W extension using the complete raw families, full 420 + 168 prior receivers and all 56 two-W targets; require one reconstructed shared tensor or an original-generator dual with its exact family scope. Then test the remaining one/zero-W sectors and shared curved fourth-Euler/fifth-algebraic intersection. In parallel scientific selection, certify the uncertain-clock mirror optimizer for 0 < nu < 1/2 with a physical calibration confidence set and implementation cost, and extend finite-training shift inference only with explicit common-kernel/stability checks and priced training. Keep common-bar/mobile, thermal 163/164, native 2+1/chirality and source-action/physical-quotient fronts eligible; no toy/comparator result is native GU credit.
 
 

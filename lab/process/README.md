@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2400-adaptive-calibration-confidence](k2400-adaptive-calibration-confidence.json).
+- [k2401-positive-visibility-minimax-recovery](k2401-positive-visibility-minimax-recovery.json).
+- [k2402-coupled-polar-compatibility](k2402-coupled-polar-compatibility.json).
+
 - [k2397-finite-training-shift-confidence](k2397-finite-training-shift-confidence.json).
 - [k2398-uncertain-clock-law-recovery](k2398-uncertain-clock-law-recovery.json).
 - [k2399-complete-polar-joint-lift](k2399-complete-polar-joint-lift.json).

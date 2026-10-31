@@ -5,6 +5,19 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2400--K2402: Adaptive calibration, exact recovery and shared quartic extension (2026-10-31)
+
+K2400 proves time-uniform adaptive calibration with stopped-process error delta+eta, exact optional-stopping controls and priced synthetic pooled evidence. K2401 resolves the all-CPTP mirror-law minimax decoder for0<visibility<1/2 with a unique scalar root, rigorous value bounds and a physical unknown-visibility confidence polytope. K2402 constructs a coupled cubic repair, passes every fifth-algebraic sector and14 actual curved compatibility conditions, and proves an existential shared fourth-Euler/fifth-algebraic quartic extension with affine field dimension672721. Continuing through the entire59640-variable W4 fiber yields a555-coefficient witness passing all1848 mixed all-W sixth targets, with Euler restoration preserving W4. Remaining sixth sectors and fifth Euler are open; no smooth/all-order field, measured calibration, hardware validation or native GU recovery is claimed.
+
+- [K2400](explorations/conditional-build/k2400-adaptive-calibration-confidence-2026-10-31.md).
+- [K2401](explorations/conditional-build/k2401-positive-visibility-minimax-recovery-2026-10-31.md).
+- [K2402](explorations/conditional-build/k2402-coupled-polar-compatibility-2026-10-31.md).
+
+Independent specialists reviewed the adaptive stopping proof, global all-CPTP optimizer, full geometric receiver maps, curved finite-jet compatibility and W4-preserving Euler completion. Native exact reports and changed-input controls support the stated conditional results. The quartic existence/dimension statements use written proofs with finite exact premises; they are not giant-matrix, external-expert or proof-assistant certifications.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2397--K2399: Learned calibration, uncertain recovery and joint compatibility (2026-10-31)
 
 K2397 supplies exact finite-training confidence for unknown two-environment shift odds, a shared-environment pool normalizer and conditional anytime error accounting, with a continuous shared-graph synthetic fixture and explicit training/exposure costs. K2398 gives an exact fixed-decoder diamond formula for uncertain planar clock laws, robust conic formulation, all-CPTP mirror-law optimum, coherent positive-visibility improvement and physical calibration/implementation interfaces. K2399 constructs one 236-component shared cubic satisfying all 420 four-W and 168 three-W fifth-algebraic targets with full homogeneous Euler closure. The complete two-W map fails 3/56 targets; a 12-component C-kernel escape cancels the first dual but does not solve them, and a 156-entry original-receiver dual excludes all pointwise-polar C corrections with A/B fixed. Simultaneous A/B/C variation remains open. These are conditional mathematical results, not measured calibration, hardware validation, a smooth geometric field or native GU recovery.

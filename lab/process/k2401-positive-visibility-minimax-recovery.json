@@ -1,0 +1,80 @@
+{
+  "checks": {
+    "CP_boundary_identity": true,
+    "CP_minus_determinant": true,
+    "CP_plus_determinant": true,
+    "actual_decoder_Choi_CP_TP_rank2": true,
+    "axis_visibility_composition_0": true,
+    "axis_visibility_composition_1": true,
+    "axis_visibility_composition_2": true,
+    "axis_visibility_composition_3": true,
+    "axis_visibility_instrument_CP": true,
+    "axis_visibility_total_TP": true,
+    "exact_Sturm_unique_root": true,
+    "independent_Bell_trace_norm_-1": true,
+    "independent_Bell_trace_norm_1": true,
+    "original_sign_composition_-1_0": true,
+    "original_sign_composition_-1_1": true,
+    "original_sign_composition_-1_2": true,
+    "original_sign_composition_-1_3": true,
+    "original_sign_composition_1_0": true,
+    "original_sign_composition_1_1": true,
+    "original_sign_composition_1_2": true,
+    "original_sign_composition_1_3": true,
+    "physical_uncertain_visibility_linear_constraints": true,
+    "rational_channel_strict_margin": true,
+    "recovered_CP_TP_-1": true,
+    "recovered_CP_TP_1": true,
+    "rigorous_optimum_gap_below_1e12": true,
+    "root_bracket_signs": true,
+    "squared_polynomial_identity": true,
+    "strict_gain_over_identity": true,
+    "support_alignment_stationarity": true,
+    "support_alignment_trace_relation": true,
+    "support_derivative": true,
+    "support_function_attained": true,
+    "unsquared_positive_numerator": true
+  },
+  "controls": {
+    "dropped_skew_term_incorrect": true,
+    "enlargement_not_common_visibility": true,
+    "nonphysical_pointer_weight_rejected": true,
+    "wrong_output_sign_order_incorrect": true,
+    "wrong_radical_translation_sign_rejected": true
+  },
+  "dependencies": {
+    "tests/channel-swings/k2398_uncertain_clock_law_recovery_probe.py": "2dd9f9abcf81bb1f66bbbb4ec39273be15b48bdf7460ba684865e0161d151184"
+  },
+  "fixture": {
+    "decimal_display_only": [
+      0.6824389370450891,
+      0.6824389370450891
+    ],
+    "ell_interval": [
+      "1348002678699845999/2305843009213693952",
+      "2696005357399691999/4611686018427387904"
+    ],
+    "interval_width": "4155859877129947105987359216081946666448120463671049934767/8902331137488489276344821608962667857635480344998723289053506804227839334171375912878080",
+    "nu": "1/4",
+    "polynomial_coefficients": [
+      -64512,
+      111744,
+      3780,
+      56808,
+      -38844,
+      -11268,
+      612,
+      216,
+      441,
+      -36,
+      108
+    ],
+    "value_interval": [
+      "38340516843346194804152298251824327292553958729008741315229/56181607997570954837516394200866953240229427637834132897140",
+      "432547064082160978469521845883/633825300114114700748351602688"
+    ]
+  },
+  "result": "K2401",
+  "scope": "Exact symbolic support/CP identities, Sturm root isolation, rational norm brackets and actual sign-instrument controls; universal all-CPTP theorem uses the written proof.",
+  "status": "PASS"
+}

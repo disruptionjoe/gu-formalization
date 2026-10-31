@@ -1,4 +1,8 @@
 
+- [k2400-adaptive-calibration-confidence](k2400_adaptive_calibration_confidence_probe.py).
+- [k2401-positive-visibility-minimax-recovery](k2401_positive_visibility_minimax_recovery_probe.py).
+- [k2402-coupled-polar-compatibility](k2402_coupled_polar_compatibility_probe.py).
+
 - [k2397-finite-training-shift-confidence](k2397_finite_training_shift_confidence_probe.py).
 - [k2398-uncertain-clock-law-recovery](k2398_uncertain_clock_law_recovery_probe.py).
 - [k2399-complete-polar-joint-lift](k2399_complete_polar_joint_lift_probe.py).

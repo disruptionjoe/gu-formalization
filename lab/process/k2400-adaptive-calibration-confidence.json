@@ -1,0 +1,48 @@
+{
+  "checks": {
+    "adaptive_error_addition": true,
+    "all_one_endpoint": true,
+    "all_ones_Q_keeps_upper1": true,
+    "all_zero_endpoint": true,
+    "all_zeros_P_keeps_lower0": true,
+    "beta_mixture_recurrence_exact": true,
+    "crossing_probability_conserved": true,
+    "finite_time_uniform_outward_coverage": true,
+    "first_adaptive_stop_n128": true,
+    "initial_full_interval": true,
+    "n100_balanced": true,
+    "n150_balanced": true,
+    "optional_first_crossing_99_over1024": true,
+    "pool_assignment_exact_bounds": true,
+    "seven_looks_insufficient": true,
+    "unbounded_repeated_environment_retains_gain": true,
+    "unbounded_singleton_science_no_gain": true,
+    "whole_graph_cells_and_endpoints": true
+  },
+  "controls": {
+    "accepted_grid_points_round_inward": true,
+    "current_label_fitted_bonus_invalid": true,
+    "independent_training_bound_not_transferred": true,
+    "retrospective_mixture_fit_invalid": true,
+    "reused_fair_residual_invalid": true,
+    "separate_minima_lose_shared_evidence": true
+  },
+  "counts": {
+    "coverage_prefixes": 100,
+    "pool_cases": 216,
+    "recurrence": 364
+  },
+  "dependencies": {
+    "tests/channel-swings/k2397_finite_training_shift_confidence_probe.py": "39635eab40c1760589d6acaa3fb4975b969cf5f471beabe937cbcfad2d2e6392"
+  },
+  "fixture": {
+    "first_crossing": "99/1024",
+    "labels_on_synthetic_stop_path": 256,
+    "science_exposures": 48,
+    "shared_graph_minimum": "27512614111/1073741824",
+    "threshold": "25"
+  },
+  "result": "K2400",
+  "scope": "Finite exact checks; universal validity uses predictable conditional laws and written stopped-process proof. No empirical claim.",
+  "status": "PASS"
+}
