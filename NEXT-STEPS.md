@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-10-31: EXCHANGEABLE NOISE, QUANTUM CLOCK AND FULL FINITE HOOK JET.**
+> **2026-10-31: SHIFTED CALIBRATION, NONALIGNED RECOVERY AND POLAR COMPLETION.**
+> Retain the original K2390 cubic tensor as the geometric search anchor: K2393 cancels one dual but its full420 replay worsens the failed-target count13 to24, which is not a distance metric. Assemble and solve the exact23688-coordinate system on the computed846-dimensional common kernel per W pair, then reconstruct the full Euler completion and test fewer-W fifth sectors and the fourth-Euler/fifth-algebraic intersection. Nonzero W-cubic and larger quartic-kernel corrections remain separate alternatives. Observation requires actual fixed-window independent paired exposures, a justified conditional matching law and covariate weight bounds before empirical inference; the26-exposure optimum applies only to the declared separated binary-bet class. Recovery has a certified arbitrary-law SDP and nonaligned fixture; supply a physical moment law and price the polar rotation, decoder noise, reset and complete clock costs, or derive a general closed form. Source, ledger0.263, canon and scheduler remain unchanged.
+
+
+> **Historical predecessor, no longer the live next condition: 2026-10-31 EXCHANGEABLE NOISE, QUANTUM CLOCK AND FULL FINITE HOOK JET.**
 > Geometry: solve the coupled delta-S system with zero Euler image, homogeneous fourth Gram/sigma, zero W-cubic restriction and the required full four-W quotient correction. Begin with the full 284-dimensional polar kernel and allow cross-support Euler cancellation; two/three-transverse cubic values may close Euler without changing the one-transverse/two-W receiver. Preserve the original finite tensor, 13-failure obstruction, nine-failure partial repair and both exact restricted-family duals. A repair must then face fewer-W fifth sectors and the joint fourth-Euler/fifth-algebraic system using a validated curved fourth baseline. Observation: supply frozen same-window full-experiment calibration and justified exchangeability, contamination and raw-error budgets, then certify the entire shared-parameter profile. Recovery: price the explicit nonunitary aligned-mean decoder with actual complete control/noise/reset costs; nonaligned-mean recovery remains open. No source, ledger0.263, canon or scheduler change follows.
 
 

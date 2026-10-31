@@ -1,0 +1,64 @@
+{
+  "checks": {
+    "Bell_complement_slack": true,
+    "Choi_Bloch_objective_match": true,
+    "actual_moment_feasibility": true,
+    "certified_lower_strictly_above_identity": true,
+    "exact_gap_below_one_millionth": true,
+    "extreme_channel_CP_equalities": true,
+    "forced_identity_complementarity": true,
+    "identity_choi_trace": true,
+    "identity_criterion_violated": true,
+    "identity_objective": true,
+    "nonaligned_feasible_value": true,
+    "rational_decoder_CP_all15_principal_minors": true,
+    "rational_decoder_trace": true,
+    "rational_dual_all15_principal_minors": true,
+    "uniform_singular_and_noiseless_duals": true
+  },
+  "controls": {
+    "changed_dual_rejected": true,
+    "changed_trace_rejected": true,
+    "identity_dual_negative_determinant": true,
+    "naive_aligned_transfer_passes_false_premise": true,
+    "non_CP_matrix_rejected": true,
+    "strict_improvement_over_wrong_transfer": true,
+    "unrealizable_singular_mean_rejected": true
+  },
+  "dependencies": {
+    "lab/process/k2389-clock-pointer-recovery.json": "ba11937a7be01662ee9b3ebe106a14bb2e63bcd6f646a86636bdd062f847c33d"
+  },
+  "evidence_kind": "exact Choi/principal-minor and rational/algebraic certificates; universal optimization and transfer claims are written proofs",
+  "nonaligned_certificate": {
+    "F_lower": "543745211928697049239910050360628960109545365/568739754903914205984563224604808349518119156",
+    "F_upper": "504057785445577/527227885000000",
+    "decimal_display_only": [
+      "0.956052759175522",
+      "0.956052970236157"
+    ],
+    "dual_Y_coefficients": [
+      "504057785445577/1054455770000000",
+      "56236105/160093158",
+      "77233853/750908558"
+    ],
+    "gap": "15821920880048233857476215757757260169498040353543253/74963864523352266260673902889293266736694682948966265000000",
+    "moment_diagonal": [
+      "3/4",
+      "0",
+      "1/4"
+    ],
+    "moment_mean": [
+      "3/4",
+      "0",
+      "1/4"
+    ],
+    "primal_half_angle_tangents": [
+      "547/1772",
+      "203/4413",
+      "22184/9189",
+      "-19065/8629"
+    ],
+    "visibility": "19/20"
+  },
+  "result": "K2392"
+}

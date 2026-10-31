@@ -1,4 +1,8 @@
 
+- [k2391-shifted-sequential-calibration](k2391_shifted_sequential_calibration_probe.py).
+- [k2392-nonaligned-clock-recovery](k2392_nonaligned_clock_recovery_probe.py).
+- [k2393-coupled-polar-dual](k2393_coupled_polar_dual_probe.py).
+
 - [k2388-exchangeable-noise-calibration](k2388_exchangeable_noise_calibration_probe.py).
 - [k2389-clock-pointer-recovery](k2389_clock_pointer_recovery_probe.py).
 - [k2390-full-hook-jet](k2390_full_hook_jet_probe.py).

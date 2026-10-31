@@ -1,0 +1,63 @@
+{
+  "checks": {
+    "15_weight_boxes_all_corners_sharp": true,
+    "26_exposure_schedule": true,
+    "all6561_weighted_tied_pools_superuniform": true,
+    "asymmetric_noise_zero_mean": true,
+    "calibration_upper_bound": true,
+    "conditional_TV_nonempty_budget": true,
+    "each_look_global_bet": true,
+    "fresh_three_look_null_probability": true,
+    "minimum26_exposures_in_stated_bet_class": true,
+    "one_look_resolution_barrier": true,
+    "paired_symmetric_noise_matching": true,
+    "rank_threshold_identity": true,
+    "raw_error_margin": true,
+    "science_lower_bound": true,
+    "three_look_crossing": true
+  },
+  "controls": {
+    "asymmetry_size_exceeds_alpha": true,
+    "common_bias_not_in_differences": true,
+    "individual_weight_intervals_allow_squared_distortion": true,
+    "no_overlap_can_force_false_rejection": true,
+    "pointwise_profile_grid_not_global": true,
+    "reused_uniform_p_invalid": true,
+    "too_large_TV_budget_no_three_look_certificate": true,
+    "unweighted_shift_fails": true,
+    "zero_mean_does_not_match_pair_noise": true
+  },
+  "dependencies": {
+    "lab/process/k2388-exchangeable-noise-calibration.json": "ace3d4ed60b49c1e6aa60efe011be63bb4564be9a988be833668bd0a49275300"
+  },
+  "evidence_kind": "exact finite weighted-score enumeration, rational inequalities and exact paired distributions; universal theorems are written proofs",
+  "exposure_optimizer": {
+    "best_product_at_each_pair_cost": {
+      "0": "1",
+      "10": "10",
+      "11": "25/2",
+      "12": "16",
+      "13": "20",
+      "2": "3/2",
+      "3": "2",
+      "4": "5/2",
+      "5": "3",
+      "6": "4",
+      "7": "5",
+      "8": "25/4",
+      "9": "8"
+    },
+    "minimum_exposures": 26,
+    "minimum_pair_cost": 13,
+    "one_optimal_pair_partition": [
+      3,
+      3,
+      3,
+      4
+    ],
+    "scope": "perfect global score separation; Gamma2; deterministic binary rank bets; disjoint paired exposures; no per-look overhead cost"
+  },
+  "result": "K2391",
+  "weight_boxes": 15,
+  "weighted_pools": 6561
+}

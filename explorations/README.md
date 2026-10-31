@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2391-shifted-sequential-calibration](conditional-build/k2391-shifted-sequential-calibration-2026-10-31.md).
+- [k2392-nonaligned-clock-recovery](conditional-build/k2392-nonaligned-clock-recovery-2026-10-31.md).
+- [k2393-coupled-polar-dual](conditional-build/k2393-coupled-polar-dual-2026-10-31.md).
+
 - [k2388-exchangeable-noise-calibration](conditional-build/k2388-exchangeable-noise-calibration-2026-10-31.md).
 - [k2389-clock-pointer-recovery](conditional-build/k2389-clock-pointer-recovery-2026-10-31.md).
 - [k2390-full-hook-jet](conditional-build/k2390-full-hook-jet-2026-10-31.md).
