@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2337-pixel-beam-count-test](k2337-pixel-beam-count-test.json).
+- [k2338-resonant-contact-resource-boundary](k2338-resonant-contact-resource-boundary.json).
+- [k2339-induced-normal-localization](k2339-induced-normal-localization.json).
+
 - [k2335-angular-response-recovery](k2335-angular-response-recovery.json).
 - [k2336-dispersive-contact-realization](k2336-dispersive-contact-realization.json).
 

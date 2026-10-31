@@ -1,4 +1,8 @@
 
+- [k2337-pixel-beam-count-test](k2337_pixel_beam_count_test_probe.py).
+- [k2338-resonant-contact-resource-boundary](k2338_resonant_contact_resource_boundary_probe.py).
+- [k2339-induced-normal-localization](k2339_induced_normal_localization_probe.py).
+
 - [k2335-angular-response-recovery](k2335_angular_response_recovery_probe.py).
 - [k2336-dispersive-contact-realization](k2336_dispersive_contact_realization_probe.py).
 

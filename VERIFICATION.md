@@ -5,6 +5,19 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2337--K2339: Finite apertures, contact limits and normal localization (2026-10-30)
+
+K2337 constructs a finite twelve-aperture count test with exact all-multipole alias covariance and proves the actual K2331 compact-band count model meets its infinite-tail budget; unrestricted recovery and unbounded contamination have explicit counterexamples. K2338 proves fixed-angle resonant contact failure, unique finite-cap certificate optimization and a genuine equal-loss floor. K2339 constructs full-normal localized growing solutions for the explicitly enlarged induced-metric frozen model. Physical survey/device inputs and source stationary dynamics remain open; native GU verdicts are unchanged.
+
+- [K2337](explorations/conditional-build/k2337-pixel-beam-count-test-2026-10-30.md).
+- [K2338](explorations/conditional-build/k2338-resonant-contact-resource-boundary-2026-10-30.md).
+- [K2339](explorations/conditional-build/k2339-induced-normal-localization-2026-10-30.md).
+
+Three read-only mathematical/physical specialists reviewed the concrete notes and probes after statistical-premise, mutation and scope repairs. 122 scientific controls pass: 111 exact symbolic/rational and 11 finite 70-digit propagator controls, with 19 genuine changed-input faults. Universal all-multipole, channel and analytic-continuation statements rely on the written proofs. K2331 quadrupole interval evidence is reused; the new tail proof is analytic. No survey, hardware, new interval computation, Lean, external-expert or native GU certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2335--K2336: Angular recovery and microscopic matched contacts (2026-10-30)
 
 K2335 constructs exact all-multipole recovery for positive angular responses, evaluates the noise integrals and proves the hard-cut identifiability/finite-band instability boundary with mean and tail budgets. K2336 realizes the matched contact from an explicit microscopic exchange/longitudinal model and compiles adjacent Ising neutral gates, charging switching, phase, leakage and full instrument noise. Physical survey/device inputs and native GU verdicts remain open.

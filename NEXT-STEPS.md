@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-10-30: ANGULAR RECOVERY AND MICROSCOPIC MATCHED CONTACTS.**
+> **2026-10-30: FINITE APERTURES, CONTACT LIMITS AND NORMAL LOCALIZATION.**
+> Replace the supplied K2331 compact spectrum/tracer by a physically justified family and calibrate actual response, correlated noise and means for the finite-aperture test; the existing compact-band all-multipole tail is now analytically bounded. Obtain a jointly attainable device-rate/noise/control set, evaluate the convex capped certificate and actual resonant channel; contact-domain failure is not whole-instrument failure. For native geometry, construct the actual moving field/receiver lift and stationarity for one background: allowing induced coefficients to depend on normal coordinates is an explicit enlarged frozen class, not strict base pullback or native dynamics. Do not repeat ideal angular inversion, the completed compact-band tail bound, generic dispersive smallness or the completed local Fourier continuation.
+
+
+> **Historical predecessor, no longer the live next condition: 2026-10-30 ANGULAR RECOVERY AND MICROSCOPIC MATCHED CONTACTS.**
 > Supply actual response/beam/pixel and physical seed/tracer/noise or angular-tail bounds before empirical count inference; a hard cut has no unrestricted-nuisance quadrupole recovery, and radial compact support is not angular truncation. For the apparatus, constrain simultaneous exchange, signed detuning, longitudinal matching, switchable adjacent Ising, noise, clock/ramp and pure-register/reset resources, then test the full rate inequality. Native curved stationary field/receiver jets and common domain remain an independent construction. Do not repeat inverse weighting, generic mask inversion, the matched-contact BCH proof or abstract neutral controllability.
 
 

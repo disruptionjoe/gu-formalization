@@ -1,0 +1,91 @@
+{
+  "check_names": [
+    "bright_dark_matrix",
+    "omega_upper_square",
+    "omega_lower_square",
+    "actual_amplitude_2",
+    "actual_lower_bound_2",
+    "phase_bounds_2",
+    "actual_amplitude_10",
+    "actual_lower_bound_10",
+    "phase_bounds_10",
+    "actual_amplitude_30",
+    "actual_lower_bound_30",
+    "phase_bounds_30",
+    "finite_rational_lower_bound",
+    "phase_fixture_exact",
+    "cap_reduction_identity",
+    "fixed_rho_decreases_with_h",
+    "joint_caps_1/100",
+    "maximal_h_1/100",
+    "joint_caps_1/10",
+    "maximal_h_1/10",
+    "joint_caps_1/2",
+    "maximal_h_1/2",
+    "joint_caps_2",
+    "maximal_h_2",
+    "hopping_optimum",
+    "exp_over_rho_curvature",
+    "left_kink_derivative_negative",
+    "right_kink_derivative_positive",
+    "exponential_rational_majorant",
+    "finite_cap_contact_certificate",
+    "certificate_floor_decomposition",
+    "equal_loss_total_rate",
+    "vacuum_absorbing",
+    "exact_survival_generator",
+    "off_resonant_leakage_3.14159",
+    "off_resonant_leakage_157.08"
+  ],
+  "checks": 36,
+  "dependencies": {
+    "explorations/conditional-build/k2334-microscopic-neutral-transfer-2026-10-30.md": "9559ce4f0760d7f09c488fbf71fd7d6efa8224782a3ee255dcdf323d070ca8d5",
+    "explorations/conditional-build/k2336-dispersive-contact-realization-2026-10-30.md": "e00ebd8b1ed1ddb20276c64853c2798da99b8d25de4a417932bb41d9ba88c5da",
+    "explorations/conditional-build/k2338-resonant-contact-resource-boundary-2026-10-30.md": "0b5fda23171c7d044da3e12a8729e20fcebd956856bf06969614d2f7b56daa6b",
+    "tests/channel-swings/k2338_resonant_contact_resource_boundary_probe.py": "369cf8ab8a56e7d5002280b55ac1cd31548f7db3b531094a4ccfa33d5917a5b0"
+  },
+  "details": [
+    {
+      "analytic_lower_bound": "0.03400482672760049690146665017457868036647",
+      "transition_amplitude_abs": "0.7689509217924136984848399070494164515768",
+      "x": 2
+    },
+    {
+      "analytic_lower_bound": "0.9794705489328447648150403060321781117268",
+      "transition_amplitude_abs": "0.9898747968144832632203213314844398524353",
+      "x": 10
+    },
+    {
+      "analytic_lower_bound": "0.9977713081764110101467537120253293947227",
+      "transition_amplitude_abs": "0.99888713177315944112939917769996770244",
+      "x": 30
+    }
+  ],
+  "evidence_kind": "exact finite matrix and resource algebra plus finite70digit propagators; universal statements proved in note",
+  "exact_checks": 25,
+  "mutation_failed_checks": {
+    "change_mediator_detuning": [
+      "actual_amplitude_10"
+    ],
+    "ignore_detuning_cap": [
+      "joint_caps"
+    ],
+    "omit_actual_matched_counterterms": [
+      "bright_dark_matrix"
+    ],
+    "remove_mediator_exchange": [
+      "actual_amplitude_10"
+    ],
+    "replace_loss_by_dephasing": [
+      "exact_survival_generator"
+    ],
+    "truncate_actual_excitation_bridge": [
+      "actual_amplitude_10"
+    ],
+    "wrong_contact_duration": [
+      "actual_amplitude_10"
+    ]
+  },
+  "numerical_checks": 11,
+  "result_id": "K2338"
+}

@@ -1,0 +1,98 @@
+{
+  "check_names": [
+    "unit_vertices",
+    "quadratic_moments",
+    "fourth_0",
+    "fourth_1",
+    "mixed_10",
+    "fourth_2",
+    "mixed_20",
+    "mixed_21",
+    "antipodal",
+    "quadrupole_gram",
+    "quadrupole_mean",
+    "six_line_inner_products",
+    "beam2",
+    "beam4",
+    "forward_inverse",
+    "actual_noise_gram",
+    "actual_harmonic_alias_0",
+    "actual_harmonic_alias_1",
+    "actual_harmonic_alias_2",
+    "actual_harmonic_alias_3",
+    "actual_harmonic_alias_4",
+    "actual_harmonic_alias_5",
+    "actual_harmonic_alias_6",
+    "actual_harmonic_alias_7",
+    "actual_harmonic_alias_8",
+    "k4",
+    "raw_l2_l4_cancellation",
+    "tail_weight_bound",
+    "full_tail_margin",
+    "infinite_spectrum_energy",
+    "robust_probability_margin",
+    "actual_contamination_large",
+    "contaminated_correlation",
+    "false_rejection_lower_bound",
+    "turnaround_bound",
+    "p_algebraic_bounds",
+    "background_F_bound",
+    "scale_factor_bound",
+    "H_factors",
+    "u_d_q_bounds",
+    "potential_bounds",
+    "actual_weighted_J_bound",
+    "number_field_bound",
+    "Bessel_derivative_ratio",
+    "kernel_extra_bound",
+    "kernel_bracket_all_l",
+    "q4_actual_kernel_bound",
+    "q_ratio_all_l",
+    "actual_kernel_infinite_tail",
+    "actual_spectral_normalization",
+    "actual_spectral_tail",
+    "actual_alias_cross_margin"
+  ],
+  "checks": 52,
+  "dependencies": {
+    "explorations/conditional-build/k2305-regular-constrained-matter-transfer-2026-10-30.md": "0c9f531e68df8016d888f31bc3271bc20eed66ffabefe967aca5a37590db45b0",
+    "explorations/conditional-build/k2329-robust-count-covariance-test-2026-10-30.md": "62d5c949789ab606b19c31f132ce2079bd1fa9c95c5b15129e2b106b16f7800a",
+    "explorations/conditional-build/k2331-certified-count-window-covariance-2026-10-30.md": "c9b1eea286085410fc156662f734c05aa0974a40f60c4f7cc4c7cd17773661b4",
+    "explorations/conditional-build/k2335-angular-response-recovery-2026-10-30.md": "70c8ef900ca0d2a3cd0cdafe63244f64440fe7c1a51c9e3bf1c6a6f0ce0344b4",
+    "explorations/conditional-build/k2337-pixel-beam-count-test-2026-10-30.md": "60999fdfafa243f7ba806d59bc25ace01cb2ec0b50e6da244187fb49944ecb19",
+    "tests/channel-swings/k2337_pixel_beam_count_test_probe.py": "75ad1f9ff11773337f747a1f5501ce3b29c5d6b895bdbe53fa403474159cdbf8"
+  },
+  "details": {
+    "actual_count_alias_cross_upper": "1/345600",
+    "actual_count_tail_energy_upper": "1/50",
+    "b2": "3/64",
+    "b4": "-15/131072",
+    "general_tail_cross_bound": "4096/27",
+    "k4": "45/4194304"
+  },
+  "evidence_kind": "exact symbolic/rational finite geometry and covariance; universal proof in note",
+  "mutation_failed_checks": {
+    "changed_seed_normalization": [
+      "actual_spectral_normalization"
+    ],
+    "excess_anticorrelated_power": [
+      "cross_covariance_nonnegative"
+    ],
+    "lost_aperture": [
+      "quadrupole_gram"
+    ],
+    "omit_actual_l4_signal": [
+      "actual_harmonic_alias_4"
+    ],
+    "omit_beam_normalization": [
+      "forward_inverse"
+    ],
+    "raw_noise_outside_allowance": [
+      "relative_noise_bound"
+    ],
+    "wrong_forward_cap_sign": [
+      "forward_inverse"
+    ]
+  },
+  "result_id": "K2337"
+}

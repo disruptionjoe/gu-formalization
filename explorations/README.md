@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2337-pixel-beam-count-test](conditional-build/k2337-pixel-beam-count-test-2026-10-30.md).
+- [k2338-resonant-contact-resource-boundary](conditional-build/k2338-resonant-contact-resource-boundary-2026-10-30.md).
+- [k2339-induced-normal-localization](conditional-build/k2339-induced-normal-localization-2026-10-30.md).
+
 - [k2335-angular-response-recovery](conditional-build/k2335-angular-response-recovery-2026-10-30.md).
 - [k2336-dispersive-contact-realization](conditional-build/k2336-dispersive-contact-realization-2026-10-30.md).
 

@@ -1,0 +1,71 @@
+{
+  "check_names": [
+    "symbolic_tau_identity",
+    "projector_idempotent",
+    "projector_G_selfadjoint",
+    "projector_annihilates_qsharp",
+    "normal_norm",
+    "tau_temporal",
+    "tau_second_order",
+    "independent_direction_tau_1/2",
+    "independent_direction_tau_I/2",
+    "normal_s",
+    "normal_tau",
+    "normal_Cdet",
+    "normal_t",
+    "normal_u",
+    "changed_root",
+    "normal_odd_companion",
+    "normal_even_companion",
+    "normal_metric_0",
+    "normal_metric_1",
+    "normal_metric_2",
+    "normal_metric_3",
+    "normal_metric_4",
+    "normal_metric_5",
+    "normal_metric_6",
+    "normal_metric_7",
+    "normal_metric_8",
+    "normal_metric_9",
+    "normal_curvature_nonzero",
+    "normal_simple_kernel",
+    "temporal_root",
+    "IFT_derivative",
+    "normal_dispersion_slope",
+    "constant_tau_shortcut_wrong",
+    "temporal_nonresonance"
+  ],
+  "checks": 34,
+  "dependencies": {
+    "explorations/conditional-build/k2313-full-metric-variation-boundary-2026-10-30.md": "ddaad7ce25e36eeb3f261985f57a60fef715d8e86c1530fa17eb2c1db985b0e5",
+    "explorations/conditional-build/k2316-induced-metric-coupled-pencil-2026-10-30.md": "79f1b385b423d43e7eadc118054fd62f4885cccb7ee150aaaa42d962c9aba627",
+    "explorations/conditional-build/k2339-induced-normal-localization-2026-10-30.md": "7b4591750a3fe7df119c67fed381525d0039eb4ce5e2846a67652603da0b1beb",
+    "tests/channel-swings/k2339_induced_normal_localization_probe.py": "12bf7ffdca9acaaee62a9f4644d9a6c499de0a67fe40b89863a0caa1ee5be89b",
+    "tests/channel-swings/selected_k77_full_normal_owner_bank_probe.py": "f8115c8ea3cff0f6f7e24da7d050a58539c34494e8892902216faa9368b8de7a"
+  },
+  "details": {
+    "normal_Cdet": "-5124528732635136/5764801",
+    "normal_dispersion_slope": "9319/19502",
+    "normal_root": "1793/8441",
+    "tau_formula": "(184*v**6 + 428*v**4 + 1424*v**2 + 2572)/(37*v**6 + 62*v**4 + 176*v**2 + 364)"
+  },
+  "evidence_kind": "exact symbolic induced geometry/reduced companion algebra; local all-momentum and Fourier existence use written proof",
+  "mutation_failed_checks": {
+    "constant_tau_normal_dispersion": [
+      "normal_dispersion_slope"
+    ],
+    "omit_even_companion": [
+      "normal_odd_companion"
+    ],
+    "omit_induced_fibre_derivative": [
+      "normal_t"
+    ],
+    "omit_projection_normalization": [
+      "projector_idempotent"
+    ],
+    "reuse_temporal_root_at_normal_direction": [
+      "normal_metric_rows"
+    ]
+  },
+  "result_id": "K2339"
+}
