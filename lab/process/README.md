@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2340-poisson-aperture-calibration](k2340-poisson-aperture-calibration.json).
+- [k2341-reachable-microscopic-echo](k2341-reachable-microscopic-echo.json).
+- [k2342-holonomic-metric-lift](k2342-holonomic-metric-lift.json).
+
 - [k2337-pixel-beam-count-test](k2337-pixel-beam-count-test.json).
 - [k2338-resonant-contact-resource-boundary](k2338-resonant-contact-resource-boundary.json).
 - [k2339-induced-normal-localization](k2339-induced-normal-localization.json).

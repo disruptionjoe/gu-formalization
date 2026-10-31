@@ -1,0 +1,59 @@
+{
+  "check_names": [
+    "dewitt_nondegenerate",
+    "all_256_inverse_components",
+    "all_256_curvature_components",
+    "actual_kernel_dewitt_norm",
+    "actual_kernel_coordinate_norm",
+    "moving_cross_nonzero",
+    "literal_graph_second_jet",
+    "moving_fibre_derivative_nonzero",
+    "fibre_derivative_direct_replay",
+    "complete_moving_tensor",
+    "normal_dependent_contact_ideal",
+    "second_prolongation_holonomic",
+    "nonstationary_full_chain_rule",
+    "stationary_full_chain_rule",
+    "stationarity_controls_embedding_term"
+  ],
+  "checks": 15,
+  "dependencies": {
+    "explorations/conditional-build/k2316-induced-metric-coupled-pencil-2026-10-30.md": "79f1b385b423d43e7eadc118054fd62f4885cccb7ee150aaaa42d962c9aba627",
+    "explorations/conditional-build/k2339-induced-normal-localization-2026-10-30.md": "7b4591750a3fe7df119c67fed381525d0039eb4ce5e2846a67652603da0b1beb",
+    "explorations/conditional-build/k2342-holonomic-metric-lift-2026-10-30.md": "30e93652515ed6da6cd5a03af5cc1c46756d4596c074eb33222078907e09a245",
+    "explorations/geometry-curvature-emergence/ii-s-coordinate-formula-2026-06-23.md": "291a5d6521197b57da77c16f7fe2284da497e97fd8ae02fff0bb6ba1bb8883c0",
+    "tests/channel-swings/k2342_holonomic_metric_lift_probe.py": "979db6eddd209cbe6edd2c29b20196426f2262a5f813798e6bcce40204eddf25"
+  },
+  "details": {
+    "R0101": "-1/4",
+    "R1212": "1/4",
+    "curvature_components_checked": 256,
+    "dewitt_kernel_norm": "-358/637",
+    "gamma_second_00": "-716*lam**2*exp(2*lam*t)/637"
+  },
+  "evidence_kind": "exact symbolic/rational geometric controls; universal contact/existence/chain-rule statements proved in note",
+  "mutation_failed_checks": {
+    "drop_embedding_term_off_shell": [
+      "nonstationary_full_chain_rule"
+    ],
+    "omit_fibre_derivative": [
+      "complete_moving_tensor"
+    ],
+    "omit_graph_slope_term": [
+      "literal_graph_second_jet"
+    ],
+    "omit_mixed_metric_terms": [
+      "complete_moving_tensor"
+    ],
+    "omit_normal_total_derivative": [
+      "normal_dependent_contact_ideal"
+    ],
+    "omit_trace_reversal": [
+      "actual_kernel_dewitt_norm"
+    ],
+    "omit_vertical_jacobian": [
+      "complete_moving_tensor"
+    ]
+  },
+  "result_id": "K2342"
+}

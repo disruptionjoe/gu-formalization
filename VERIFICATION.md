@@ -5,6 +5,19 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2340--K2342: Poisson calibration, reachable echo and holonomic lift (2026-10-30)
+
+K2340 constructs the exact overlapping Poisson count law and a strictly positive shared-photon counterexample to covariance-only Gaussian sign calibration, then executes finite-count calibration. K2341 interval-certifies a reachable full two-half microscopic echo failure after ideal number copy. K2342 constructs the contact lift and computes the actual mode second-jet and curved-background corrections. Physical intensity/device inputs and source stationary dynamics remain open; native GU verdicts are unchanged.
+
+- [K2340](explorations/conditional-build/k2340-poisson-aperture-calibration-2026-10-30.md).
+- [K2341](explorations/conditional-build/k2341-reachable-microscopic-echo-2026-10-30.md).
+- [K2342](explorations/conditional-build/k2342-holonomic-metric-lift-2026-10-30.md).
+
+Three independent read-only specialists reviewed the actual final notes, probes and reports after scope and mutation repairs.48 checks pass:37 symbolic/rational checks and11 complete-carrier algebra/Arb interval checks, with16 genuine changed-input faults. Universal counting and geometric results rely on written proofs; the echo failure is certified by256-bit complex-ball matrix exponentials. No empirical, hardware, external-expert, Lean or native GU certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2337--K2339: Finite apertures, contact limits and normal localization (2026-10-30)
 
 K2337 constructs a finite twelve-aperture count test with exact all-multipole alias covariance and proves the actual K2331 compact-band count model meets its infinite-tail budget; unrestricted recovery and unbounded contamination have explicit counterexamples. K2338 proves fixed-angle resonant contact failure, unique finite-cap certificate optimization and a genuine equal-loss floor. K2339 constructs full-normal localized growing solutions for the explicitly enlarged induced-metric frozen model. Physical survey/device inputs and source stationary dynamics remain open; native GU verdicts are unchanged.

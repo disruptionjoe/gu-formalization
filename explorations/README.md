@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2340-poisson-aperture-calibration](conditional-build/k2340-poisson-aperture-calibration-2026-10-30.md).
+- [k2341-reachable-microscopic-echo](conditional-build/k2341-reachable-microscopic-echo-2026-10-30.md).
+- [k2342-holonomic-metric-lift](conditional-build/k2342-holonomic-metric-lift-2026-10-30.md).
+
 - [k2337-pixel-beam-count-test](conditional-build/k2337-pixel-beam-count-test-2026-10-30.md).
 - [k2338-resonant-contact-resource-boundary](conditional-build/k2338-resonant-contact-resource-boundary-2026-10-30.md).
 - [k2339-induced-normal-localization](conditional-build/k2339-induced-normal-localization-2026-10-30.md).

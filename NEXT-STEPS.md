@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-10-30: FINITE APERTURES, CONTACT LIMITS AND NORMAL LOCALIZATION.**
+> **2026-10-30: POISSON CALIBRATION, REACHABLE ECHO AND HOLONOMIC LIFT.**
+> Supply a physically justified nonnegative intensity/tracer law and calibrate its full overlapping shared-count likelihood or a proved distributional approximation; exact covariance matching does not transfer the Gaussian sign bound. Test a jointly feasible microscopic copy-plus-echo repair with both signed contact resonances, finite phase resources, loss and clock retained. Compose the actual moving field/receiver lift and second jets with a stationary curved source action before importing the frozen growing mode. Do not repeat the completed parity-count counterexample, reachable echo witness or contact-integrability construction.
+
+
+> **Historical predecessor, no longer the live next condition: 2026-10-30 FINITE APERTURES, CONTACT LIMITS AND NORMAL LOCALIZATION.**
 > Replace the supplied K2331 compact spectrum/tracer by a physically justified family and calibrate actual response, correlated noise and means for the finite-aperture test; the existing compact-band all-multipole tail is now analytically bounded. Obtain a jointly attainable device-rate/noise/control set, evaluate the convex capped certificate and actual resonant channel; contact-domain failure is not whole-instrument failure. For native geometry, construct the actual moving field/receiver lift and stationarity for one background: allowing induced coefficients to depend on normal coordinates is an explicit enlarged frozen class, not strict base pullback or native dynamics. Do not repeat ideal angular inversion, the completed compact-band tail bound, generic dispersive smallness or the completed local Fourier continuation.
 
 

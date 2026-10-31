@@ -1,4 +1,8 @@
 
+- [k2340-poisson-aperture-calibration](k2340_poisson_aperture_calibration_probe.py).
+- [k2341-reachable-microscopic-echo](k2341_reachable_microscopic_echo_probe.py).
+- [k2342-holonomic-metric-lift](k2342_holonomic_metric_lift_probe.py).
+
 - [k2337-pixel-beam-count-test](k2337_pixel_beam_count_test_probe.py).
 - [k2338-resonant-contact-resource-boundary](k2338_resonant_contact_resource_boundary_probe.py).
 - [k2339-induced-normal-localization](k2339_induced_normal_localization_probe.py).

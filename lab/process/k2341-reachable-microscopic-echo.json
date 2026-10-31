@@ -1,0 +1,94 @@
+{
+  "check_names": [
+    "complete_excitation_sector",
+    "tone_commutator",
+    "certified_full_echo_failure",
+    "norm_encloses_one",
+    "first_contact_failure",
+    "ideal_contact_flag_preserved",
+    "ideal_full_echo_parking",
+    "removed_exchange_flag_preserved",
+    "bad_truncation_erases_leak",
+    "finite_phase_duration_failure",
+    "noninteger_counterphase_failure"
+  ],
+  "checks": 11,
+  "dependencies": {
+    "explorations/conditional-build/k2334-microscopic-neutral-transfer-2026-10-30.md": "9559ce4f0760d7f09c488fbf71fd7d6efa8224782a3ee255dcdf323d070ca8d5",
+    "explorations/conditional-build/k2336-dispersive-contact-realization-2026-10-30.md": "e00ebd8b1ed1ddb20276c64853c2798da99b8d25de4a417932bb41d9ba88c5da",
+    "explorations/conditional-build/k2338-resonant-contact-resource-boundary-2026-10-30.md": "0b5fda23171c7d044da3e12a8729e20fcebd956856bf06969614d2f7b56daa6b",
+    "explorations/conditional-build/k2341-reachable-microscopic-echo-2026-10-30.md": "9d05a102e56321196e5463217f3311f2c6d23d7c8bbfdabc66d33ebe45660cb9",
+    "tests/channel-swings/k2341_reachable_microscopic_echo_probe.py": "cd3a766d4264175fabfd880c0599311d783dcfc6ea804084473cab99a12806c5"
+  },
+  "details": {
+    "basis": [
+      [
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        0
+      ]
+    ],
+    "finite_phase_duration_wrong_flag": "[0.9871572169617046335110847416071572072732134664479179730756878368 +/- 4.13e-65]",
+    "first_contact_wrong_flag": "[0.986530703317856451566575700137236502319518787774180702206655779428239680 +/- 5.47e-73]",
+    "ideal_parking_probability": "[0.999999999999999906632143672310783457853477867559257379517534248297 +/- 3.98e-67]",
+    "noninteger_D_wrong_flag": "[0.98509656821216410521808014052209829583078376032028684053189623759 +/- 9.19e-66]",
+    "precision_bits": 256,
+    "wrong_flag_probability": "[0.9871037825995797968354691722718888018296101248548379752377697604 +/- 3.49e-65]"
+  },
+  "evidence_kind": "rigorous256bit Arb complex-ball matrix exponentials and event bounds; complete finite conserved carrier",
+  "mutation_failed_checks": {
+    "remove_actual_neutral_exchange": [
+      "certified_full_echo_failure"
+    ],
+    "replace_with_ideal_matched_contacts": [
+      "certified_full_echo_failure"
+    ],
+    "truncate_reachable_intermediates": [
+      "certified_full_echo_failure"
+    ]
+  },
+  "result_id": "K2341"
+}

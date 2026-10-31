@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 08df9648affb1013e58b5005af3823a891e1fc3b
+revision_basis: 80e35ba29431640db45801c75ea77963636cc34d
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,13 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2340 constructs the exact overlapping Poisson count law and a strictly positive
+    shared-photon counterexample to covariance-only Gaussian sign calibration, then executes
+    finite-count calibration. K2341 interval-certifies a reachable full two-half microscopic
+    echo failure after ideal number copy. K2342 constructs the contact lift and computes the
+    actual mode second-jet and curved-background corrections. Physical intensity/device
+    inputs and source stationary dynamics remain open; native GU verdicts are unchanged.
+    Historical predecessor (not live):
     K2337 constructs a finite twelve-aperture count test with exact all-multipole alias
     covariance and proves the actual K2331 compact-band count model meets its
     infinite-tail budget; unrestricted recovery and unbounded contamination have
@@ -17680,6 +17687,15 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2340-poisson-aperture-calibration-2026-10-30.md
+  - lab/process/k2340-poisson-aperture-calibration.json
+  - tests/channel-swings/k2340_poisson_aperture_calibration_probe.py
+  - explorations/conditional-build/k2341-reachable-microscopic-echo-2026-10-30.md
+  - lab/process/k2341-reachable-microscopic-echo.json
+  - tests/channel-swings/k2341_reachable_microscopic_echo_probe.py
+  - explorations/conditional-build/k2342-holonomic-metric-lift-2026-10-30.md
+  - lab/process/k2342-holonomic-metric-lift.json
+  - tests/channel-swings/k2342_holonomic_metric_lift_probe.py
   - explorations/conditional-build/k2337-pixel-beam-count-test-2026-10-30.md
   - lab/process/k2337-pixel-beam-count-test.json
   - tests/channel-swings/k2337_pixel_beam_count_test_probe.py
@@ -19601,6 +19617,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which nonnegative physical tracer law and full count likelihood preserve an
+  observational test, which jointly feasible contact controls repair the reachable echo,
+  and what complete moving source action admits the constructed metric/section lift?
+  Historical predecessor (not live):
   Which physically justified seed/tracer law and calibrated detector response preserve the
   finite-aperture test, which joint device rates avoid resonance and meet the full
   instrument budget, and can the induced coefficient solution class be lifted to the
@@ -23708,6 +23728,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Supply a physically justified nonnegative intensity/tracer law and calibrate its full
+  overlapping shared-count likelihood or a proved distributional approximation; exact
+  covariance matching does not transfer the Gaussian sign bound. Test a jointly feasible
+  microscopic copy-plus-echo repair with both signed contact resonances, finite phase
+  resources, loss and clock retained. Compose the actual moving field/receiver lift and
+  second jets with a stationary curved source action before importing the frozen growing
+  mode. Do not repeat the completed parity-count counterexample, reachable echo witness or
+  contact-integrability construction. Historical predecessor (not live):
   Replace the supplied K2331 compact spectrum/tracer by a physically justified family and
   calibrate actual response, correlated noise and means for the finite-aperture test;
   the existing compact-band all-multipole tail is now analytically bounded. Obtain a

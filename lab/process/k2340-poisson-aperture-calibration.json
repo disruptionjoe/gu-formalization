@@ -1,0 +1,61 @@
+{
+  "check_names": [
+    "parity_sizes",
+    "plus_zero_mean",
+    "plus_identity_cov",
+    "minus_zero_mean",
+    "minus_identity_cov",
+    "joint_sign_probability",
+    "positive_sky_from_pi_lower",
+    "aperture_r_upper",
+    "overlap_even_zero_sum_eigen",
+    "full_reference_diagonal_B11",
+    "full_reference_diagonal_B22",
+    "full_reference_cross",
+    "actual_full_tail_ratio_bound",
+    "finite_exposure_counterexample",
+    "triple_overlap_atom",
+    "nonzero_extracted_atom",
+    "actual_cap_overlap_offdiagonal",
+    "shared_sparse_integer_enumeration",
+    "sparse_probability_lower",
+    "total_count_tail",
+    "shared_count_total_mean",
+    "tail_allowance_covers_first_omitted_event"
+  ],
+  "checks": 22,
+  "dependencies": {
+    "explorations/conditional-build/k2337-pixel-beam-count-test-2026-10-30.md": "60999fdfafa243f7ba806d59bc25ace01cb2ec0b50e6da244187fb49944ecb19",
+    "explorations/conditional-build/k2340-poisson-aperture-calibration-2026-10-30.md": "fe10b716bab18af96666fea4234d517e21a71d3aca6e42fc0b55481c2e6af9ff",
+    "tests/channel-swings/k2340_poisson_aperture_calibration_probe.py": "ba8149dd566e73ee3689d7734e3d04061540ae732ac51a27deaa128bdef67848"
+  },
+  "details": {
+    "all_discord_lower": "26077/450000",
+    "exposure": 1000000,
+    "r_upper": "4096/27",
+    "sparse_mass_without_exponential": "750512033/1321205760",
+    "tail_upper": "243/1086324736"
+  },
+  "evidence_kind": "exact finite ensemble, matrix and rational checks; universal Poisson and probability proofs in note",
+  "mutation_failed_checks": {
+    "beam_attenuate_shot_noise_again": [
+      "overlap_even_zero_sum_eigen"
+    ],
+    "diagonalize_actual_overlap": [
+      "actual_cap_overlap_offdiagonal"
+    ],
+    "independent_shared_photons": [
+      "full_reference_cross"
+    ],
+    "omit_positive_tail": [
+      "tail_allowance_covers_first_omitted_event"
+    ],
+    "same_parity_classes": [
+      "joint_sign_probability"
+    ],
+    "zero_intensity_baseline": [
+      "positive_sky_from_pi_lower"
+    ]
+  },
+  "result_id": "K2340"
+}
