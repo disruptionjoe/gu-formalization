@@ -6,6 +6,19 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2367--K2369: Coupled dust, balanced damping and all grade-one exclusion (2026-10-31)
+
+K2367 applies the fully constrained dust system to the actual sourced distance fit and constructs a same-initial-density velocity change that cancels final density while retaining lensing and slip. K2368 proves exact zero/one-loss recovery for balanced unequal rail damping, extending transparent and serial-control bounds and pricing residual group imbalance. K2369 derives the nonsymmetric cubic and derivative Euler operators and excludes every smooth grade-one translation field on the actual selected curved metric, while preserving an explicit flat null-skew escape. Conditional results only; no native GU, calibrated growth, hardware or global mixed-field verdict.
+
+- [K2367](explorations/conditional-build/k2367-sourced-fit-dust-transfer-2026-10-31.md).
+- [K2368](explorations/conditional-build/k2368-unequal-rail-recovery-2026-10-31.md).
+- [K2369](explorations/conditional-build/k2369-nonsymmetric-native-derivative-2026-10-31.md).
+
+Three read-only specialists reviewed the actual artifacts; a second independent reviewer checked the geometric integrability and indefinite rank proof. K2367 has44 symbolic/numerical check predicates and6 control predicates across3 altered-physics types, with independent DOP853/RK45 replay. K2368 has117 exact Kraus/rational checks and4 changed-input or scope controls; K2369 has528 exact selected-Clifford, symbolic and rank checks plus5 scope/altered-formula controls. Universal conclusions rest on written proofs and inherited scoped theorems, not finite sampling. No interval F, primordial-growth, proof-assistant, external-expert, hardware or native GU certificate is claimed.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2364--K2366: Sourced distances, serial loss and full symmetric rigidity (2026-10-31)
 
 K2364 computes actual conserved-matter continuations of the shared cosmology witness and their released covariance likelihoods: chosen dust fraction .3 changes distance at z2.33 by -20.85% and fixed-shape BAO chi-square from7.0063 to1945.9336; a two-start coefficient refit supplies a sourced witness with SN1409.2981 and BAO10.5996, without physical-density calibration or optimality claims. K2365 proves a reference-aware serial-Z loss bound with an exact loss-free endpoint, explicit midpulse counterexample and finite-slew costs. K2366 proves every smooth self-adjoint Codazzi field on the actual metric is constant scalar, excluding all symmetric grade-one stationary translation fields for the selected action. Conditional results only; no native GU, empirical stability or hardware certification.

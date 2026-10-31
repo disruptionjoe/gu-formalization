@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-10-31: SOURCED DISTANCES, SERIAL LOSS AND FULL SYMMETRIC RIGIDITY.**
+> **2026-10-31: COUPLED DUST, BALANCED DAMPING AND ALL GRADE-ONE EXCLUSION.**
+> The actual sourced fit now has coupled dust transfers at ruler-labelled modes; do not repeat a generic dust derivation or fit. Initial density alone does not fix final density, lensing or slip: specify common velocity/covariance, physical ruler and selection before observational credit. Pairwise equal damping is sufficient but not necessary; exact zero/one-loss recovery allows delta1+delta2=delta3+delta4=0, with residual imbalance and complete preparation/control/recovery costs still to calibrate. All smooth grade-one fields, including nonsymmetric and null cases, are excluded on the selected actual curved metric/action. A new stationary construction must include mixed Clifford grades or explicitly change geometry/action and retain all receivers and independent metric/epsilon/domain equations. Source and ledger verdicts remain unchanged.
+
+
+> **Historical predecessor, no longer the live next condition: 2026-10-31 SOURCED DISTANCES, SERIAL LOSS AND FULL SYMMETRIC RIGIDITY.**
 > The completed sourced refit repairs the poor fixed-parameter distance fit at chosen dust fraction .3. Now justify physical density/ruler/selection and coupled fluid perturbations; the two-start fitted witness is neither a global optimum nor a calibrated empirical or native GU result. Serial diagonal Z has exact loss-free endpoints but requires fixed-sign no-overshoot pulses; balance subdivision against finite slew and measured loss, adding all preparation/recovery/readout debts. On the actual metric leave ALL symmetric grade-one fields; curvature compatibility now forces constant scalar and the remaining odd Euler rows exclude it. Test nonsymmetric or mixed-grade fields with all independent geometry and common-domain equations. Source and ledger verdicts stay unchanged.
 
 

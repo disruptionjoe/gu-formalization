@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2367-sourced-fit-dust-transfer](conditional-build/k2367-sourced-fit-dust-transfer-2026-10-31.md).
+- [k2368-unequal-rail-recovery](conditional-build/k2368-unequal-rail-recovery-2026-10-31.md).
+- [k2369-nonsymmetric-native-derivative](conditional-build/k2369-nonsymmetric-native-derivative-2026-10-31.md).
+
 - [k2364-sourced-shared-history](conditional-build/k2364-sourced-shared-history-2026-10-31.md).
 - [k2365-serial-transparent-control](conditional-build/k2365-serial-transparent-control-2026-10-31.md).
 - [k2366-curvature-codazzi-rigidity](conditional-build/k2366-curvature-codazzi-rigidity-2026-10-31.md).

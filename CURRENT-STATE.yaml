@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f22e0c4121d71ffba4c61e62815699261d6c2d04
+revision_basis: 1817496fcdd27f71caf045096e717990e944fe14
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,15 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2367 applies the fully constrained dust system to the actual sourced distance fit and
+    constructs a same-initial-density velocity change that cancels final density while
+    retaining lensing and slip. K2368 proves exact zero/one-loss recovery for balanced
+    unequal rail damping, extending transparent and serial-control bounds and pricing
+    residual group imbalance. K2369 derives the nonsymmetric cubic and derivative Euler
+    operators and excludes every smooth grade-one translation field on the actual selected
+    curved metric, while preserving an explicit flat null-skew escape. Conditional results
+    only; no native GU, calibrated growth, hardware or global mixed-field verdict.
+    Historical predecessor (not live):
     K2364 computes actual conserved-matter continuations of the shared cosmology witness and
     their released covariance likelihoods: chosen dust fraction .3 changes distance at z2.33
     by -20.85% and fixed-shape BAO chi-square from7.0063 to1945.9336; a two-start
@@ -17752,6 +17761,15 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2367-sourced-fit-dust-transfer-2026-10-31.md
+  - lab/process/k2367-sourced-fit-dust-transfer.json
+  - tests/channel-swings/k2367_sourced_fit_dust_transfer_probe.py
+  - explorations/conditional-build/k2368-unequal-rail-recovery-2026-10-31.md
+  - lab/process/k2368-unequal-rail-recovery.json
+  - tests/channel-swings/k2368_unequal_rail_recovery_probe.py
+  - explorations/conditional-build/k2369-nonsymmetric-native-derivative-2026-10-31.md
+  - lab/process/k2369-nonsymmetric-native-derivative.json
+  - tests/channel-swings/k2369_nonsymmetric_native_derivative_probe.py
   - explorations/conditional-build/k2364-sourced-shared-history-2026-10-31.md
   - lab/process/k2364-sourced-shared-history.json
   - tests/channel-swings/k2364_sourced_shared_history_probe.py
@@ -19754,6 +19772,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which physical initial covariance and ruler/selection construction selects a
+  cosmological response on the sourced fit, which measured aggregate rail balance and
+  complete instrument costs realize coherent protection, and which mixed-Clifford-grade
+  field can supply stationary dynamics on the actual metric? Historical predecessor (not
+  live):
   Can the fitted sourced cosmology survive physically justified density, coupled fluid
   perturbation and ruler assumptions, which physically calibrated serial-control schedule
   meets complete instrument costs, and which nonsymmetric or mixed-grade field can supply
@@ -23896,6 +23919,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  The actual sourced fit now has coupled dust transfers at ruler-labelled modes; do not
+  repeat a generic dust derivation or fit. Initial density alone does not fix final
+  density, lensing or slip: specify common velocity/covariance, physical ruler and
+  selection before observational credit. Pairwise equal damping is sufficient but not
+  necessary; exact zero/one-loss recovery allows delta1+delta2=delta3+delta4=0, with
+  residual imbalance and complete preparation/control/recovery costs still to calibrate.
+  All smooth grade-one fields, including nonsymmetric and null cases, are excluded on the
+  selected actual curved metric/action. A new stationary construction must include mixed
+  Clifford grades or explicitly change geometry/action and retain all receivers and
+  independent metric/epsilon/domain equations. Source and ledger verdicts remain
+  unchanged. Historical predecessor (not live):
   The completed sourced refit repairs the poor fixed-parameter distance fit at chosen dust
   fraction .3. Now justify physical density/ruler/selection and coupled fluid
   perturbations; the two-start fitted witness is neither a global optimum nor a calibrated

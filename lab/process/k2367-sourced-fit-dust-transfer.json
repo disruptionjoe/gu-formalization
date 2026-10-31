@@ -1,0 +1,336 @@
+{
+  "altered_input_controls": {
+    "omit_F0_in_density": true,
+    "omitted_force_fails_same_constraint": true,
+    "omitted_scalar_dust_force_changes_transfer_0.1": true,
+    "omitted_scalar_dust_force_changes_transfer_1.0": true,
+    "omitted_scalar_dust_force_changes_transfer_10.0": true,
+    "wrong_dust_coupling_sign": true
+  },
+  "check_names": [
+    "background_integrators_success",
+    "independent_background",
+    "sampled_domain",
+    "background_friedmann",
+    "background_acceleration",
+    "background_scalar",
+    "background_dust",
+    "exact_constraint_propagation",
+    "exact_reduced_trace",
+    "exact_number_reconstruction",
+    "exact_reconstructed_number_evolution",
+    "transfer_success_4.84745294_DOP853_False",
+    "transfer_success_4.84745294_RK45_False",
+    "independent_transfer_0.1",
+    "Liouville_determinant_0.1",
+    "seed_chart_0.1",
+    "initial_readout_0.1density",
+    "independent_readout_0.1density",
+    "initial_readout_0.1velocity",
+    "independent_readout_0.1velocity",
+    "same_initial_density_different_response_0.1",
+    "transfer_success_4.84745294_DOP853_True",
+    "transfer_success_48.4745294_DOP853_False",
+    "transfer_success_48.4745294_RK45_False",
+    "independent_transfer_1.0",
+    "Liouville_determinant_1.0",
+    "seed_chart_1.0",
+    "initial_readout_1.0density",
+    "independent_readout_1.0density",
+    "initial_readout_1.0velocity",
+    "independent_readout_1.0velocity",
+    "same_initial_density_different_response_1.0",
+    "transfer_success_48.4745294_DOP853_True",
+    "transfer_success_484.745294_DOP853_False",
+    "transfer_success_484.745294_RK45_False",
+    "independent_transfer_10.0",
+    "Liouville_determinant_10.0",
+    "seed_chart_10.0",
+    "initial_readout_10.0density",
+    "independent_readout_10.0density",
+    "initial_readout_10.0velocity",
+    "independent_readout_10.0velocity",
+    "same_initial_density_different_response_10.0",
+    "transfer_success_484.745294_DOP853_True"
+  ],
+  "checks": 44,
+  "dependencies": {
+    "explorations/conditional-build/k2308-inhomogeneous-constrained-dust-transfer-2026-10-30.md": "1118f1f7d3dfb0ffe93fd4187e6472733fab3541469228c33ace7f0b3a30cad6",
+    "explorations/conditional-build/k2367-sourced-fit-dust-transfer-2026-10-31.md": "382ebe9859737216d6e1558bc7ffb1bd59f5c02f3b3275a3b8a140dbc064eabd",
+    "lab/process/k2364-sourced-shared-history.json": "76ca19339afd9cf48f958457d7128ec41a3fd0b56af2aaf62691aba9dc5b9dde",
+    "tests/channel-swings/k2308_inhomogeneous_constrained_dust_transfer_probe.py": "080b968df924ef2910e53e3da1e712560dbd8b646538c62485c6fa5ed9620c07",
+    "tests/channel-swings/k2367_sourced_fit_dust_transfer_probe.py": "c74ea68d9c52a8e3b99a967bbe598a4f78078aeafdffcc6404ae0939388489cb"
+  },
+  "details": {
+    "background_max_residuals": {
+      "acceleration": 4.618527782440651e-14,
+      "dust": 2.2737367544323206e-13,
+      "friedmann": 1.2789769243681803e-13,
+      "scalar": 1.1901590823981678e-13
+    },
+    "background_today": [
+      1.0,
+      1.6125138743279652,
+      0.061513600782583326,
+      2.2678578898107715,
+      5.53085313334918,
+      1.3527609340921762,
+      256.41777444833565,
+      -0.20998684164914552,
+      801.3174579758934,
+      -1.1358209064460048,
+      -0.7244864317273324,
+      -11.027809249296045
+    ],
+    "normalized_density_times_ruler_squared": 0.0009651362635134069,
+    "numerical_F_min": 797.2480578715075,
+    "parameters": {
+      "F0": 801.3174579758934,
+      "Omega": 0.3,
+      "U0": 2.0,
+      "alpha": 775.88047141,
+      "p0": 0.3175541986,
+      "rho": 8540.41820373,
+      "ruler": 48.4745294
+    },
+    "trace_mass_times_ruler": 0.33175935772680076,
+    "transfers": [
+      {
+        "cancelled_today_density_lensing_slip": [
+          0.0,
+          -0.018450899407867427,
+          -0.003914865721906001
+        ],
+        "cancelling_velocity_seed_coefficient": -1.2009778044351962,
+        "determinant": 0.009172681035997698,
+        "determinant_expected": 0.009172681034214867,
+        "k_over_Hstar": 4.84745294,
+        "k_rd": 0.1,
+        "relative_independent_error": 1.3702091026604587e-10,
+        "seeds": [
+          {
+            "initial": [
+              -0.15155712553857376,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "initial_unit_velocity": 0.0,
+            "label": "density",
+            "today_density_lensing_slip": [
+              1.894718972586472,
+              -0.15867621221424216,
+              -0.008407062924120015
+            ]
+          },
+          {
+            "initial": [
+              0.1507690411074995,
+              0.0,
+              0.0,
+              0.06384258618042273
+            ],
+            "initial_unit_velocity": 0.06384258618042273,
+            "label": "velocity",
+            "today_density_lensing_slip": [
+              1.577646951999694,
+              -0.1167592875476336,
+              -0.003740449811498918
+            ]
+          }
+        ],
+        "singular_values": [
+          5.342498447160761,
+          1.7778842014691418,
+          0.10410627181743322,
+          0.009276230304227823
+        ],
+        "transfer": [
+          [
+            0.5234864796042087,
+            -0.02939091723282363,
+            -0.001458983255444679,
+            -2.150683525702605
+          ],
+          [
+            -0.0679381267175177,
+            -0.04861236461580945,
+            0.007877811302944864,
+            0.23219709335203367
+          ],
+          [
+            -1.138237305734006,
+            -3.099312687892977,
+            -0.09691954457296216,
+            3.439140507001293
+          ],
+          [
+            -0.33570700408784293,
+            0.029393397406777818,
+            0.0015890518144582345,
+            1.9750484202140302
+          ]
+        ],
+        "wrong_force_transfer_max_difference": 0.10388975312923066
+      },
+      {
+        "cancelled_today_density_lensing_slip": [
+          0.0,
+          -1.2431784331776857e-06,
+          -0.00015146517740220278
+        ],
+        "cancelling_velocity_seed_coefficient": -0.06233516695906941,
+        "determinant": 0.009172681038393114,
+        "determinant_expected": 0.009172681034214867,
+        "k_over_Hstar": 48.4745294,
+        "k_rd": 1.0,
+        "relative_independent_error": 8.341758693495096e-10,
+        "seeds": [
+          {
+            "initial": [
+              -0.0015131199385194816,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "initial_unit_velocity": 0.0,
+            "label": "density",
+            "today_density_lensing_slip": [
+              1.837301163036804,
+              -0.001769863458095509,
+              -0.0006695804371682397
+            ]
+          },
+          {
+            "initial": [
+              0.00015052518408522968,
+              0.0,
+              0.0,
+              0.006384258618042272
+            ],
+            "initial_unit_velocity": 0.006384258618042272,
+            "label": "velocity",
+            "today_density_lensing_slip": [
+              29.474552690990862,
+              -0.02837275274843885,
+              -0.008311765012296227
+            ]
+          }
+        ],
+        "singular_values": [
+          17.31116004992116,
+          3.570108852835393,
+          0.09367862570206517,
+          0.0015843391409917965
+        ],
+        "transfer": [
+          [
+            0.5848391171909476,
+            -0.0006922093490157432,
+            -4.638868480944914e-05,
+            -2.2358758070443066
+          ],
+          [
+            -0.541969731235143,
+            -0.12704818422014064,
+            0.0017501974627767921,
+            1.6072926049056708
+          ],
+          [
+            -10.46325083935539,
+            -13.763079410459776,
+            -0.04704329938651049,
+            0.495884791449433
+          ],
+          [
+            -0.4362458724589381,
+            0.0029046620658037922,
+            5.08412850548611e-05,
+            2.2036034340248527
+          ]
+        ],
+        "wrong_force_transfer_max_difference": 0.03774855067986316
+      },
+      {
+        "cancelled_today_density_lensing_slip": [
+          0.0,
+          -2.1088617089854312e-10,
+          3.078631255597574e-06
+        ],
+        "cancelling_velocity_seed_coefficient": -0.006212165081049072,
+        "determinant": 0.009172681017448106,
+        "determinant_expected": 0.009172681034214867,
+        "k_over_Hstar": 484.745294,
+        "k_rd": 10.0,
+        "relative_independent_error": 5.969227911611724e-08,
+        "seeds": [
+          {
+            "initial": [
+              -1.5130954653947681e-05,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "initial_unit_velocity": 0.0,
+            "label": "density",
+            "today_density_lensing_slip": [
+              1.841442651730911,
+              -1.7772163522622938e-05,
+              -2.835987526223839e-06
+            ]
+          },
+          {
+            "initial": [
+              1.5052274949857936e-07,
+              0.0,
+              0.0,
+              0.0006384258618042272
+            ],
+            "initial_unit_velocity": 0.0006384258618042272,
+            "label": "velocity",
+            "today_density_lensing_slip": [
+              296.42526038923927,
+              -0.002860830709516628,
+              -0.000952102641294038
+            ]
+          }
+        ],
+        "singular_values": [
+          30.735474021854177,
+          3.7225246835019212,
+          0.08570078487020023,
+          0.0009354788866010404
+        ],
+        "transfer": [
+          [
+            0.5872783287334141,
+            -5.680826791788806e-06,
+            -4.92286213867679e-07,
+            -2.240673254470601
+          ],
+          [
+            -0.2295533399914699,
+            0.30570591056112917,
+            3.144123714914999e-05,
+            1.8265509744038841
+          ],
+          [
+            -19.2851784046101,
+            -23.625589285228806,
+            0.09455604688908241,
+            -3.8032729181663956
+          ],
+          [
+            -0.4437218857626674,
+            4.7420344349251773e-05,
+            2.86119443051335e-07,
+            2.2200578986502486
+          ]
+        ],
+        "wrong_force_transfer_max_difference": 0.08685269321352962
+      }
+    ]
+  },
+  "evidence_kind": "symbolic exact constraint/reduction identities plus finite double-precision same-fit transfers and independent integrator checks; no interval domain, physical covariance or stability certificate",
+  "result_id": "K2367"
+}

@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2367-sourced-fit-dust-transfer](k2367-sourced-fit-dust-transfer.json).
+- [k2368-unequal-rail-recovery](k2368-unequal-rail-recovery.json).
+- [k2369-nonsymmetric-native-derivative](k2369-nonsymmetric-native-derivative.json).
+
 - [k2364-sourced-shared-history](k2364-sourced-shared-history.json).
 - [k2365-serial-transparent-control](k2365-serial-transparent-control.json).
 - [k2366-curvature-codazzi-rigidity](k2366-curvature-codazzi-rigidity.json).

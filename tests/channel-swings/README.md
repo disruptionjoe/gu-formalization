@@ -1,4 +1,8 @@
 
+- [k2367-sourced-fit-dust-transfer](k2367_sourced_fit_dust_transfer_probe.py).
+- [k2368-unequal-rail-recovery](k2368_unequal_rail_recovery_probe.py).
+- [k2369-nonsymmetric-native-derivative](k2369_nonsymmetric_native_derivative_probe.py).
+
 - [k2364-sourced-shared-history](k2364_sourced_shared_history_probe.py).
 - [k2365-serial-transparent-control](k2365_serial_transparent_control_probe.py).
 - [k2366-curvature-codazzi-rigidity](k2366_curvature_codazzi_rigidity_probe.py).
