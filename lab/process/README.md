@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2385-estimated-noise-calibration](k2385-estimated-noise-calibration.json).
+- [k2386-finite-timing-recovery](k2386-finite-timing-recovery.json).
+- [k2387-coupled-hook-jet-blocks](k2387-coupled-hook-jet-blocks.json).
+
 - [k2382-finite-sample-shared-calibration](k2382-finite-sample-shared-calibration.json).
 - [k2383-driven-erasure-recovery](k2383-driven-erasure-recovery.json).
 - [k2384-third-hook-jet-compatibility](k2384-third-hook-jet-compatibility.json).

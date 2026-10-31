@@ -1,0 +1,157 @@
+{
+  "changed_input_or_inference_controls": {
+    "constant_rate_not_uniform": true,
+    "diameter_substitution_fails": true,
+    "equal_probability_not_universal": true,
+    "reversed_rotor_order_fails": true,
+    "upper_certificate_is_not_actual_improvement": true
+  },
+  "check_names": {
+    "B2_exact_error": true,
+    "B4_strict_improvement": true,
+    "antipode_0": true,
+    "antipode_1": true,
+    "antipode_2": true,
+    "axis_half_trace_distance": true,
+    "axis_trace_norm": true,
+    "bounded_end_rate": true,
+    "centered_arc_integral": true,
+    "circle_norm_squared_1_0": true,
+    "circle_norm_squared_2_0": true,
+    "circle_norm_squared_2_1": true,
+    "circle_norm_squared_3_0": true,
+    "circle_norm_squared_3_1": true,
+    "circle_norm_squared_3_2": true,
+    "circle_norm_squared_4_0": true,
+    "circle_norm_squared_4_1": true,
+    "circle_norm_squared_4_2": true,
+    "circle_norm_squared_4_3": true,
+    "circle_norm_squared_8_0": true,
+    "circle_norm_squared_8_1": true,
+    "circle_norm_squared_8_2": true,
+    "circle_norm_squared_8_3": true,
+    "circle_norm_squared_8_4": true,
+    "circle_norm_squared_8_5": true,
+    "circle_norm_squared_8_6": true,
+    "circle_norm_squared_8_7": true,
+    "complete_budget_sufficient": true,
+    "equal_two_endpoint_bound": true,
+    "ideal_B2_gain": true,
+    "integrated_loss_probability": true,
+    "physical_linear_survival": true,
+    "pulse_boundary_continuity": true,
+    "rotor_axis_0_0": true,
+    "rotor_axis_0_1": true,
+    "rotor_axis_0_2": true,
+    "rotor_axis_1_0": true,
+    "rotor_axis_1_1": true,
+    "rotor_axis_1_2": true,
+    "rotor_axis_2_0": true,
+    "rotor_axis_2_1": true,
+    "rotor_axis_2_2": true,
+    "rotor_unitary_0_0": true,
+    "rotor_unitary_0_1": true,
+    "rotor_unitary_0_2": true,
+    "rotor_unitary_1_0": true,
+    "rotor_unitary_1_1": true,
+    "rotor_unitary_1_2": true,
+    "rotor_unitary_2_0": true,
+    "rotor_unitary_2_1": true,
+    "rotor_unitary_2_2": true,
+    "three_pulse_fixture": true,
+    "trapezoid_area": true,
+    "triangle_area": true,
+    "uniform_second_loss_density": true
+  },
+  "checks": 55,
+  "circle_moments": {
+    "1": [
+      [
+        "0",
+        "0"
+      ]
+    ],
+    "2": [
+      [
+        "0",
+        "1/pi"
+      ],
+      [
+        "0",
+        "-1/pi"
+      ]
+    ],
+    "3": [
+      [
+        "sqrt(3)/(4*pi)",
+        "3/(4*pi)"
+      ],
+      [
+        "-sqrt(3)/(2*pi)",
+        "0"
+      ],
+      [
+        "sqrt(3)/(4*pi)",
+        "-3/(4*pi)"
+      ]
+    ],
+    "4": [
+      [
+        "1/(2*pi)",
+        "1/(2*pi)"
+      ],
+      [
+        "-1/(2*pi)",
+        "1/(2*pi)"
+      ],
+      [
+        "-1/(2*pi)",
+        "-1/(2*pi)"
+      ],
+      [
+        "1/(2*pi)",
+        "-1/(2*pi)"
+      ]
+    ],
+    "8": [
+      [
+        "sqrt(2)/(4*pi)",
+        "(1 - sqrt(2)/2)/(2*pi)"
+      ],
+      [
+        "(1 - sqrt(2)/2)/(2*pi)",
+        "sqrt(2)/(4*pi)"
+      ],
+      [
+        "(-1 + sqrt(2)/2)/(2*pi)",
+        "sqrt(2)/(4*pi)"
+      ],
+      [
+        "-sqrt(2)/(4*pi)",
+        "(1 - sqrt(2)/2)/(2*pi)"
+      ],
+      [
+        "-sqrt(2)/(4*pi)",
+        "(-1 + sqrt(2)/2)/(2*pi)"
+      ],
+      [
+        "(-1 + sqrt(2)/2)/(2*pi)",
+        "-sqrt(2)/(4*pi)"
+      ],
+      [
+        "(1 - sqrt(2)/2)/(2*pi)",
+        "-sqrt(2)/(4*pi)"
+      ],
+      [
+        "sqrt(2)/(4*pi)",
+        "(-1 + sqrt(2)/2)/(2*pi)"
+      ]
+    ]
+  },
+  "dependencies": {
+    "lab/process/k2380-complete-erasure-recovery.json": "e876b5b3d642dde8c0be1875cb0188d0b9663513c29880bb60a675748570860c",
+    "lab/process/k2383-driven-erasure-recovery.json": "4cd5679eca3142c6cc396967bc199f26011d1f4f5e4f0c469c39808a0d6f0909"
+  },
+  "result_id": "K2386",
+  "scope": "Exact supplied finite-channel/rotation fixtures and analytic optimization/bounds; no measured timing instrument or hardware costs."
+}

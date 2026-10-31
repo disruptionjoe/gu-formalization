@@ -1,4 +1,8 @@
 
+- [k2385-estimated-noise-calibration](k2385_estimated_noise_calibration_probe.py).
+- [k2386-finite-timing-recovery](k2386_finite_timing_recovery_probe.py).
+- [k2387-coupled-hook-jet-blocks](k2387_coupled_hook_jet_blocks_probe.py).
+
 - [k2382-finite-sample-shared-calibration](k2382_finite_sample_shared_calibration_probe.py).
 - [k2383-driven-erasure-recovery](k2383_driven_erasure_recovery_probe.py).
 - [k2384-third-hook-jet-compatibility](k2384_third_hook_jet_compatibility_probe.py).

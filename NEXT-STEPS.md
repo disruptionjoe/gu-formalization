@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-10-31: FINITE-SAMPLE NULLS, DRIVEN RECOVERY AND THIRD EULER JETS.**
+> **2026-10-31: ESTIMATED NOISE, FINITE TIMING AND COUPLED HOOK BLOCKS.**
+> Retain the estimated-noise finite-sample theorem, exact finite-bit recovery frontier and shared ten-block hook certificate. Observation needs independent full-stack noise calibration with the same windows and selection; apparatus needs a record-resolved timing instrument and measured complete costs. Geometry requires actual mixed/horizontal Ricci-Hessian receivers and the remaining coupled Euler/fourth-algebraic sectors, allowing the constructed solution kernel rather than freezing one sparse representative. Separate Euler existence, separate block solutions or zero extension do not certify the full intersection. Zero-kappa/nonradial and source-owned matter/action/observation/domain bridges remain open; source and ledger unchanged.
+
+
+> **Historical predecessor, no longer the live next condition: 2026-10-31 FINITE-SAMPLE NULLS, DRIVEN RECOVERY AND THIRD EULER JETS.**
 > Retain the finite-sample size/power theorem, driven-channel optimum and unrestricted third-Euler-jet existence. Physical use needs justified shared windows/calibration and joint noise, plus the actual decoder rotations and timing-record costs. For geometry solve D2 S=actual curved receiver together with fourth Gram/sigma rows on the SAME stored K,L, using the kernel-direction reduction; separate Euler and algebraic witnesses do not compose. Zero-kappa/nonradial and source-owned matter/action/observation/domain bridges remain open; source and ledger unchanged.
 
 

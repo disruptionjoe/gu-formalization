@@ -1,0 +1,46 @@
+{
+  "changed_input_or_inference_controls": {
+    "grid_false_certificate": true,
+    "incorrect_df_changes_scale": true,
+    "known_noise_pivot_anti_conservative": true,
+    "pointwise_does_not_mean_uniform": true,
+    "robust_large_radius_nonreject": true,
+    "scaled_noise_changes_decision": true,
+    "wider_gain_removes_reject": true,
+    "wrong_error_metric_factor": true
+  },
+  "check_names": {
+    "centered_projection_df": true,
+    "centered_scatter": true,
+    "certified_strict_rejection": true,
+    "global_minimum_identity": true,
+    "loewner_inverse_order_fixture": true,
+    "nonempty_calibration_event_power_margin": true,
+    "operator_norm_square": true,
+    "projected_scatter": true,
+    "raw_calibration_identity": true,
+    "raw_signal_separation": true,
+    "residual_projection_rank": true,
+    "residual_projection_scatter": true,
+    "robust_small_radius_reject": true,
+    "same_gain_statistic": true,
+    "schur_inverse_entry": true,
+    "threshold_tail": true,
+    "uniform_rank_counterexample": true
+  },
+  "checks": 17,
+  "dependencies": {
+    "lab/process/k2376-windowed-cosmological-null.json": "1ef2a9f1419c70e08d98089e763a3bd5999a468e9d02d77ac9bb336865d45605",
+    "lab/process/k2382-finite-sample-shared-calibration.json": "8e9bd356807405faaa00ccb8e39506c5d9a9d302c20b99661013ad648641a4a7"
+  },
+  "fixture": {
+    "D": 4,
+    "alpha": "1/16",
+    "d": 2,
+    "global_minimum": 10,
+    "nu": 9,
+    "threshold": 9
+  },
+  "result_id": "K2385",
+  "scope": "Exact finite algebra and proof-backed inference controls; written Gaussian/Wishart proof owns size. No survey data or simulated coverage."
+}

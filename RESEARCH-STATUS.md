@@ -6,6 +6,19 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2385--K2387: Estimated noise, finite timing and coupled hook blocks (2026-10-31)
+
+K2385 gives a finite-sample shared-graph rejection test with independent estimated noise covariance, robust graph-error bounds and an explicit calibration-event power condition. K2386 proves the optimal finite timing-record recovery tradeoff, a globally optimal finite-bit circle fixture and conditional decoder/control costs. K2387 constructs one exact shared tensor satisfying ten coupled vertical hook-jet blocks on the stored lower jet. These are conditional mathematical results, not measured cosmology, hardware or native GU verdicts.
+
+- [K2385](explorations/conditional-build/k2385-estimated-noise-calibration-2026-10-31.md).
+- [K2386](explorations/conditional-build/k2386-finite-timing-recovery-2026-10-31.md).
+- [K2387](explorations/conditional-build/k2387-coupled-hook-jet-blocks-2026-10-31.md).
+
+Three read-only specialists and independent cross-reviews checked the finite normal/Wishart inference, finite-label channel optimization and actual curved tensor construction. Uniform covariance rank, path-length versus diameter, optimizer density regularity, executed-source dependency pin and direct tensor replay were addressed. K2385 has17 exact/proof-fixture checks and8 changed-input/inference controls; K2386 has55 exact channel/integral/rotation checks and5 controls. K2387 computes rank73460 in107520 unknowns, replays476480 affine rows and independently checks2100 grouped quartic and1050 Euler tensor identities, with a changed coefficient rejected. Counts denote different evidence kinds, not independent proofs. No external-expert, proof-assistant, empirical, hardware or full coupled-jet certificate.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2382--K2384: Finite-sample tests, driven recovery and third Euler jets (2026-10-31)
 
 K2382 constructs a finite-sample shared-calibration null test with bounded model error and a quantitative synthetic power guarantee. K2383 proves the optimal complete driven erasure-recovery error, strict unknown-time drive penalty and the value of added timing records. K2384 proves existence of the full third Euler jet from a one-dimensional symbol cokernel and reduces the next quartic algebraic system along the seven-dimensional kernel. These are conditional mathematical results, not measured cosmology, hardware or native GU verdicts.
