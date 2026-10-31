@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2352-calibrated-flrw-identifiability](k2352-calibrated-flrw-identifiability.json).
+- [k2353-late-record-relaxation](k2353-late-record-relaxation.json).
+- [k2354-native-mixed-euler-slice](k2354-native-mixed-euler-slice.json).
+
 - [k2349-positive-flrw-source-counts](k2349-positive-flrw-source-counts.json).
 - [k2350-joint-switching-resource-certificate](k2350-joint-switching-resource-certificate.json).
 - [k2351-mixed-parity-auxiliary-reduction](k2351-mixed-parity-auxiliary-reduction.json).

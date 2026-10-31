@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-10-30: FLRW COUNTS, FINITE RAMPS AND MIXED PARITY.**
+> **2026-10-31: CALIBRATION, DAMPING AND TRANSVERSE EULER.**
+> Instantiate a real tracer population with joint density, completeness, luminosity and error calibration; positive nuisance budgets need not identify a unique history. Test simultaneous device T1 and full-carrier amplitude/slew against the necessary late-readout bound and sufficient stagewise budget, or construct and price a different protected final record. Do not search again for nonzero full stationary fields within the excluded real four-component flat nonzero-kappa ansatz: enlarge its native tangent or change its explicit background and recompute every transverse row. General mixed-grade curved stationary/domain construction remains open.
+
+
+> **Historical predecessor, no longer the live next condition: 2026-10-30 FLRW COUNTS, FINITE RAMPS AND MIXED PARITY.**
 > Use one actual volume-limited tracer and its joint completeness, evolution, redshift and flux-error model before claiming cosmological discrimination; arbitrary density and luminosity evolution exactly hide expansion. Compare measured switching, carrier slew, losses and timing on one device with the full joint certificate; early common loss before copying cannot be repaired afterward. Evaluate the actual mixed-parity coefficient and reduced odd Euler on a named curved chart with a common boundary domain, retaining singular strata. Reuse the conserved-count law, finite-ramp construction and algebraic reduction rather than repeating their controls.
 
 

@@ -1,4 +1,8 @@
 
+- [k2352-calibrated-flrw-identifiability](k2352_calibrated_flrw_identifiability_probe.py).
+- [k2353-late-record-relaxation](k2353_late_record_relaxation_probe.py).
+- [k2354-native-mixed-euler-slice](k2354_native_mixed_euler_slice_probe.py).
+
 - [k2349-positive-flrw-source-counts](k2349_positive_flrw_source_counts_probe.py).
 - [k2350-joint-switching-resource-certificate](k2350_joint_switching_resource_certificate_probe.py).
 - [k2351-mixed-parity-auxiliary-reduction](k2351_mixed_parity_auxiliary_reduction_probe.py).

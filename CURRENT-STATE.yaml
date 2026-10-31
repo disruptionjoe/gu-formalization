@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 050ccb8e6646a86d8d4a5c300ecda879900b595f
+revision_basis: 646a101c032cf6a84cf753622e486028bf16a58f
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,13 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2352 derives sharp bounded-population marked-law overlap and identified-set criteria,
+    plus robust finite count and paired-mark tests. K2353 instantiates stagewise amplitude
+    damping and proves a late-record relaxation speed limit under whole-carrier control
+    caps. K2354 computes actual four-field mixed Euler coefficients and excludes every
+    nonzero full stationary field in that real flat ansatz at nonzero kappa. Actual
+    population calibration, measured device rates and general curved stationary dynamics
+    remain open. Historical predecessor (not live):
     K2349 derives positive FLRW source-count and flux laws, conditional distance-shape
     identification, finite history discrimination and exact evolution degeneracies. K2350
     composes finite switching ramps with the coherent copy-echo, proves a joint resource
@@ -17709,6 +17716,15 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2352-calibrated-flrw-identifiability-2026-10-31.md
+  - lab/process/k2352-calibrated-flrw-identifiability.json
+  - tests/channel-swings/k2352_calibrated_flrw_identifiability_probe.py
+  - explorations/conditional-build/k2353-late-record-relaxation-2026-10-31.md
+  - lab/process/k2353-late-record-relaxation.json
+  - tests/channel-swings/k2353_late_record_relaxation_probe.py
+  - explorations/conditional-build/k2354-native-mixed-euler-slice-2026-10-31.md
+  - lab/process/k2354-native-mixed-euler-slice.json
+  - tests/channel-swings/k2354_native_mixed_euler_slice_probe.py
   - explorations/conditional-build/k2349-positive-flrw-source-counts-2026-10-30.md
   - lab/process/k2349-positive-flrw-source-counts.json
   - tests/channel-swings/k2349_positive_flrw_source_counts_probe.py
@@ -19666,6 +19682,9 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which actual calibrated population or corrected final record can satisfy the new
+  identification and relaxation bounds, and which larger native mixed-field ansatz closes
+  its transverse Euler equations on curved geometry? Historical predecessor (not live):
   Which calibrated tracer populations make the joint FLRW likelihood identifiable, which
   measured controls lie inside the finite-ramp resource region, and which actual mixed
   odd-field solution survives the reduced native Euler equation and its domain? Historical
@@ -23789,6 +23808,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Instantiate a real tracer population with joint density, completeness, luminosity and
+  error calibration; positive nuisance budgets need not identify a unique history. Test
+  simultaneous device T1 and full-carrier amplitude/slew against the necessary
+  late-readout bound and sufficient stagewise budget, or construct and price a different
+  protected final record. Do not search again for nonzero full stationary fields within
+  the excluded real four-component flat nonzero-kappa ansatz: enlarge its native tangent
+  or change its explicit background and recompute every transverse row. General
+  mixed-grade curved stationary/domain construction remains open. Historical predecessor
+  (not live):
   Use one actual volume-limited tracer and its joint completeness, evolution, redshift and
   flux-error model before claiming cosmological discrimination; arbitrary density and
   luminosity evolution exactly hide expansion. Compare measured switching, carrier slew,

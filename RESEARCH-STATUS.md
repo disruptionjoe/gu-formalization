@@ -6,6 +6,19 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2352--K2354: Calibration, damping and transverse Euler (2026-10-31)
+
+K2352 derives sharp bounded-population marked-law overlap and identified-set criteria, plus robust finite count and paired-mark tests. K2353 instantiates stagewise amplitude damping and proves a late-record relaxation speed limit under whole-carrier control caps. K2354 computes actual four-field mixed Euler coefficients and excludes every nonzero full stationary field in that real flat ansatz at nonzero kappa. Actual population calibration, measured device rates and general curved stationary dynamics remain open.
+
+- [K2352](explorations/conditional-build/k2352-calibrated-flrw-identifiability-2026-10-31.md).
+- [K2353](explorations/conditional-build/k2353-late-record-relaxation-2026-10-31.md).
+- [K2354](explorations/conditional-build/k2354-native-mixed-euler-slice-2026-10-31.md).
+
+Three read-only specialists reviewed the actual proofs, probes and reports. The scientific probes pass 68 exact symbolic/rational/native-coefficient checks and 18 altered-input, equation or excluded-support controls. The selected Clifford backend reconstructs all four-field mass, derivative and cubic coefficients and decisive transverse rows; the cosmology and damping guarantees rest on written proofs with finite exact consumers. No empirical population, hardware, external-expert, Lean or native GU certification is claimed.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2349--K2351: FLRW counts, finite ramps and mixed parity (2026-10-30)
 
 K2349 derives positive FLRW source-count and flux laws, conditional distance-shape identification, finite history discrimination and exact evolution degeneracies. K2350 composes finite switching ramps with the coherent copy-echo, proves a joint resource certificate and an early-loss flag-information obstruction. K2351 reduces the selected mixed-parity first action by its algebraic even field, verifies a nonzero native cubic coefficient, and retains singular branches and derivative/domain terms. Empirical calibration, hardware realization and native stationary dynamics remain open.

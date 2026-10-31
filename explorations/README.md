@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2352-calibrated-flrw-identifiability](conditional-build/k2352-calibrated-flrw-identifiability-2026-10-31.md).
+- [k2353-late-record-relaxation](conditional-build/k2353-late-record-relaxation-2026-10-31.md).
+- [k2354-native-mixed-euler-slice](conditional-build/k2354-native-mixed-euler-slice-2026-10-31.md).
+
 - [k2349-positive-flrw-source-counts](conditional-build/k2349-positive-flrw-source-counts-2026-10-30.md).
 - [k2350-joint-switching-resource-certificate](conditional-build/k2350-joint-switching-resource-certificate-2026-10-30.md).
 - [k2351-mixed-parity-auxiliary-reduction](conditional-build/k2351-mixed-parity-auxiliary-reduction-2026-10-30.md).

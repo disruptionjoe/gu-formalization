@@ -1,0 +1,58 @@
+{
+  "altered_input_controls": {
+    "dephasing_not_relaxation": true,
+    "heating_breaks_K3_carrier": true,
+    "remove_neutral_relaxation": true,
+    "subsequent_record_recovery_changes_floor": true,
+    "underprice_full_support_as_Q1": true
+  },
+  "check_names": [
+    "support_max_(1/3, 2/5)_11/15_8",
+    "support_max_(1/3, 2/5)_11/15_13",
+    "support_max_(1/3, 2/5)_16/15_18",
+    "support_max_(1/3, 2/5)_16/15_25",
+    "support_max_(2/3, 1/5)_13/15_8",
+    "support_max_(2/3, 1/5)_4/3_13",
+    "support_max_(2/3, 1/5)_23/15_18",
+    "support_max_(2/3, 1/5)_2_25",
+    "support_max_(1, 1)_2_8",
+    "support_max_(1, 1)_2_13",
+    "support_max_(1, 1)_3_18",
+    "support_max_(1, 1)_3_25",
+    "all_loss_jumps_lower_K",
+    "equal_rate_debt",
+    "strict_global_saving",
+    "stage_durations_sum",
+    "AD_Kraus_complete",
+    "late_flag_floor",
+    "correlated_marginal_factorization",
+    "hopping_norm_1",
+    "hopping_norm_2",
+    "hopping_norm_3",
+    "slew_minimizer",
+    "slew_minimum",
+    "amplitude_boundary_continuity",
+    "ramp_limited_convexity",
+    "improved_certificate",
+    "equal_rates_below_old_nu",
+    "large_T1_floor_elementary"
+  ],
+  "checks": 29,
+  "dependencies": {
+    "explorations/conditional-build/k2347-microscopic-copy-echo-composition-2026-10-30.md": "a2c5f290bd2dbba992e8cd3135d702f482a4e58cc2b7254cbc92dfe06eb76867",
+    "explorations/conditional-build/k2350-joint-switching-resource-certificate-2026-10-30.md": "d81034f7c276a6937b27559570c93a3b34777aff5a733d131de297c74737dd5b",
+    "explorations/conditional-build/k2353-late-record-relaxation-2026-10-31.md": "c91a7aa5d936fa99378db5ceb5fdc40faaf3de1cf7336895ab4d2d2e49d1b130",
+    "lab/process/k2350-joint-switching-resource-certificate.json": "79e24b3f72e8b586c2ea8eacd8a2edf8ba0a97048463509f5fc61ccc9e69b323",
+    "tests/channel-swings/k2353_late_record_relaxation_probe.py": "c6099ebd2f9c9fd6c85572f5d693d0469f5c9f1b0c95638c2baa5a27d16a1283"
+  },
+  "details": {
+    "full_bound": "957422773680172486595847971/137069653140000000000000000000",
+    "full_bound_decimal": 0.006984936138287892,
+    "late_error_floor": "3/4",
+    "late_eta": "1/4",
+    "necessary_rate": "kappa*(pi/(4J)+2r)<=-log(1-epsilon)",
+    "stagewise_equal_rate": "lambda*(8t+16delta+6tau+60r)"
+  },
+  "evidence_kind": "exact symbolic/rational controls; universal theorems in companion proofs",
+  "result_id": "K2353"
+}

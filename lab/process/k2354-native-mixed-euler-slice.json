@@ -1,0 +1,68 @@
+{
+  "altered_input_controls": {
+    "discard_singular_restricted_branch": true,
+    "drop_even_cross_coupling": true,
+    "erase_native_cubic": true,
+    "freeze_inverse_derivatives": true,
+    "promote_three_field_pulse": true,
+    "suppress_transverse_receivers": true
+  },
+  "check_names": [
+    "all_native_mass_coefficients",
+    "all_native_derivative_coefficients",
+    "all64_native_cubic_coefficients_composed",
+    "four_Euler_equations",
+    "auxiliary_inverse",
+    "full_reduced_derivative_equivalence",
+    "principal_matrix",
+    "principal_determinant",
+    "line_zero_full_block_regular",
+    "native_transverse_hsquare",
+    "native_transverse_y_square",
+    "native_transverse_ex_hy",
+    "native_transverse_xprime",
+    "rational_singular_restricted_stationarity",
+    "rational_full_Euler_failure",
+    "third_native_transverse_control",
+    "three_field_pulse_stationary",
+    "pulse_h_transverse_nonzero",
+    "rational_pulse_residual",
+    "pulse_line_singular_crossing",
+    "nonzero_kappa_slice_exclusion"
+  ],
+  "checks": 21,
+  "dependencies": {
+    "explorations/conditional-build/k2351-mixed-parity-auxiliary-reduction-2026-10-30.md": "ae3ed0c430f01d92596aa37522e770424dfa22a95692b3b350650842faec13e4",
+    "explorations/conditional-build/k2354-native-mixed-euler-slice-2026-10-31.md": "b3caeab5de587443c0e1c01953b37a4d7adddacdb88502e47c0a7cfd446f55be",
+    "lab/process/k2351-mixed-parity-auxiliary-reduction.json": "8b32be629f721e1659c7cfc5548c842e0004261be364d07f79f6cafdc649abbf",
+    "tests/channel-swings/k2354_native_mixed_euler_slice_probe.py": "043afd1c49394a27e638dc0ae7c26dcb75e2f28bc1b81349adef1d9871f2dd6b",
+    "tests/channel-swings/k77_wave2_moving_shiab_epsilon_ward_green_domain_probe.py": "acc72e643032b4927db49963fd4de5b43b0c7f387a078b210a0d759e57e7bdb4"
+  },
+  "details": {
+    "Delta": "(-9*k**2 + 24*k*x - 16*y**2)/9",
+    "density": "e**2*k/2 - 4*e**2*x/3 - 4*e*h*y/3 + e*yp - h**2*k/2 + h*xp + k*x**2/2 - k*y**2/2",
+    "even_solution": [
+      "3*(-3*k*yp + 4*xp*y)/(9*k**2 - 24*k*x + 16*y**2)",
+      "3*(xp*(3*k - 8*x) + 4*y*yp)/(9*k**2 - 24*k*x + 16*y**2)"
+    ],
+    "full_missing_row": 12,
+    "principal": "Matrix([[3*(3*k - 8*x)/(-9*k**2 + 24*k*x - 16*y**2), 12*y/(-9*k**2 + 24*k*x - 16*y**2)], [12*y/(-9*k**2 + 24*k*x - 16*y**2), 9*k/(9*k**2 - 24*k*x + 16*y**2)]])",
+    "rational_restricted_stationary": {
+      "e": 3,
+      "h": 3,
+      "kappa": 4,
+      "x": 3,
+      "y": -3
+    },
+    "scope": "only zero full fixed-geometry stationary field in this real four-component flat slice for kappa!=0",
+    "transverse_rows": [
+      "4*h**2/3",
+      "hp + 4*y**2/3",
+      "-4*e*x/3 - 4*h*y/3",
+      "-xp",
+      "4*e*h/3"
+    ]
+  },
+  "evidence_kind": "exact symbolic/rational/native coefficient controls; universal theorems in companion proofs",
+  "result_id": "K2354"
+}

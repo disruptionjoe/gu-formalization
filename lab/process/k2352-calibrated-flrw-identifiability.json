@@ -1,0 +1,51 @@
+{
+  "altered_input_controls": {
+    "flux_selection_changes_centered_mean": true,
+    "ignore_count_calibration": true,
+    "ignore_mark_calibration": true,
+    "known_absolute_zero_point_changes_overlap": true,
+    "reuse_correlated_pair_errors": true,
+    "unclipped_completeness_box": true,
+    "underprice_two_hypothesis_radius": true
+  },
+  "check_names": [
+    "distance_ratio",
+    "volume_ratio",
+    "strict_distance_monotonicity",
+    "volume_monotonicity_positive_coefficients",
+    "endpoint_ratios",
+    "centered_radial_equality",
+    "centered_mark_equality",
+    "overlap_3_2",
+    "count_separation_2_2",
+    "mark_separation_3_threehalves",
+    "sharp_count_gap",
+    "rational_count_certificate",
+    "exp3_exceeds20",
+    "extreme_weights_attain_bounds",
+    "paired_window_ratio",
+    "paired_mark_exponent",
+    "exp9half_exceeds20",
+    "zero_point_cancels"
+  ],
+  "checks": 18,
+  "dependencies": {
+    "explorations/conditional-build/k2349-positive-flrw-source-counts-2026-10-30.md": "06261d45ea72a386937c75f68dffe6d11b9b9df5adc69f4561973a613c8eb3c8",
+    "explorations/conditional-build/k2352-calibrated-flrw-identifiability-2026-10-31.md": "d7c61928ee0333bc232eb16c4b13407c0dfaac93689958e0b1dccf88cddf9551",
+    "lab/process/k2349-positive-flrw-source-counts.json": "52ba5a75fbc20cc3083c1a5cb0c261e8abb38478951f0a7abe6751df8594d34d",
+    "tests/channel-swings/k2352_calibrated_flrw_identifiability_probe.py": "27593471214e17f3ed68ac16921c13d478fd192f561eabcd77280f040b4e4e57"
+  },
+  "details": {
+    "alpha": "6/5",
+    "conditional_count_N": 383,
+    "count_lower1": "50/221",
+    "count_upper0": "180/1783",
+    "gap": "49370/394043",
+    "overlap_count_ratio": 72,
+    "overlap_flux_ratio": 9,
+    "paired_M": 2,
+    "paired_exponent": "9/2"
+  },
+  "evidence_kind": "exact symbolic/rational controls; universal theorems in companion proofs",
+  "result_id": "K2352"
+}
