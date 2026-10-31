@@ -1,0 +1,66 @@
+{
+  "altered_input_controls": {
+    "discard_merged_root": true,
+    "flat_root_is_not_curved_stationarity": true,
+    "ignore_derivative_equations_on_variable_amplitude": true,
+    "omit_formal_adjoint": true,
+    "replace_two_curvatures_by_average": true,
+    "transfer_fixed_geometry_to_metric_stationarity": "analytic scope control: translation Euler zero does not set independent metric/epsilon Euler; no computed metric solution claimed"
+  },
+  "check_names": [
+    "actual_derivative_pairings",
+    "actual_adjoint_skew_coefficient",
+    "all196_derivative_minor_entries",
+    "injectivity_nonzero_determinant",
+    "null_covector_still_detected",
+    "all14_radial_mass_entries",
+    "all14_radial_cubic_entries",
+    "all14_constant_curvature_entries",
+    "dimension14_Einstein_normalization",
+    "curved_discriminant",
+    "two_exact_roots",
+    "flat_old_branches_reused",
+    "double_root_retained",
+    "positive_lambda_no_real_root_witness",
+    "upstream_Ricci_values",
+    "non_Einstein_all_amplitude_obstruction"
+  ],
+  "checks": 16,
+  "dependencies": {
+    "explorations/conditional-build/k2357-curved-native-stationarity-2026-10-31.md": "ce7c92ece2bdcd56d198088c206f4e162294bdaaf6d1024a975c266f84a12ed9",
+    "explorations/conditional-build/selected-action-curvature-graph-six-versus-four-2026-08-06.md": "f7eaac1c6fd2329d950f32a5878015fd5a3f50cb93ff1da81ba6f63e8d8f7d93",
+    "lab/process/k2345-curved-bundle-ricci-obstruction.json": "31a13a1f7fee6cdbd945c74108d26e0ed49c05f585c855375beded44e38f0602",
+    "tests/channel-swings/k2357_curved_native_stationarity_probe.py": "da5eddf323c385c869ca799381e06b41a947b3f8a70f67ff86475c769a8a1e97",
+    "tests/channel-swings/k77_wave2_moving_shiab_epsilon_ward_green_domain_probe.py": "acc72e643032b4927db49963fd4de5b43b0c7f387a078b210a0d759e57e7bdb4"
+  },
+  "details": {
+    "Einstein_quadratic": "312*a**2 + a*k + 12*lam",
+    "K2345_equation_difference": -3,
+    "constant_curvature_coefficient": 156,
+    "cubic_coefficient": 312,
+    "derivative_pairings": [
+      "2",
+      "24"
+    ],
+    "discriminant": "k**2 - 14976*lam",
+    "minor_determinant": "-379749833583241",
+    "minor_diagonal": [
+      "-11",
+      "-11",
+      "-11",
+      "-11",
+      "-11",
+      "-11",
+      "-11",
+      "-11",
+      "-11",
+      "-11",
+      "-11",
+      "-11",
+      "-11",
+      "11"
+    ]
+  },
+  "evidence_kind": "exact rational selected-Clifford and symbolic controls; all-receiver theorem in companion proof",
+  "result_id": "K2357"
+}

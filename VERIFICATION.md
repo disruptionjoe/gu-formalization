@@ -5,6 +5,19 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2355--K2357: Released data, protected record and curved stationarity (2026-10-31)
+
+K2355 implements a pinned Pantheon+ full-covariance distance-shape diagnostic, approximately reproduces the matter-density fit, and quantifies actual covariance and additional-drift sensitivity. K2356 constructs an eight-qubit coherent erasure-protected final record with explicit recovery, finite controls, noise costs and correlated-loss limits. K2357 proves that variable radial distortion cannot repair a non-Einstein selected-native geometry and classifies the Einstein radial roots. These are released-likelihood and conditional mathematical results, not native GU predictions or hardware certification.
+
+- [K2355](explorations/conditional-build/k2355-released-supernova-shape-2026-10-31.md).
+- [K2356](explorations/conditional-build/k2356-protected-erasure-record-2026-10-31.md).
+- [K2357](explorations/conditional-build/k2357-curved-native-stationarity-2026-10-31.md).
+
+Three read-only specialists accepted the actual proofs, probes and reports after scope and control-accounting repairs. Validation comprises 89 exact finite-circuit, Clifford and symbolic checks, 23 numerical/integrity checks on the real release, 15 executed changed-input controls, and one separately labeled analytic scope control. All-receiver and reference-aware channel statements rest on written proofs; finite controls are not universal sampling proofs. No external-expert, Lean, hardware or native GU certification is claimed.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2352--K2354: Calibration, damping and transverse Euler (2026-10-31)
 
 K2352 derives sharp bounded-population marked-law overlap and identified-set criteria, plus robust finite count and paired-mark tests. K2353 instantiates stagewise amplitude damping and proves a late-record relaxation speed limit under whole-carrier control caps. K2354 computes actual four-field mixed Euler coefficients and excludes every nonzero full stationary field in that real flat ansatz at nonzero kappa. Actual population calibration, measured device rates and general curved stationary dynamics remain open.

@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2355-released-supernova-shape](conditional-build/k2355-released-supernova-shape-2026-10-31.md).
+- [k2356-protected-erasure-record](conditional-build/k2356-protected-erasure-record-2026-10-31.md).
+- [k2357-curved-native-stationarity](conditional-build/k2357-curved-native-stationarity-2026-10-31.md).
+
 - [k2352-calibrated-flrw-identifiability](conditional-build/k2352-calibrated-flrw-identifiability-2026-10-31.md).
 - [k2353-late-record-relaxation](conditional-build/k2353-late-record-relaxation-2026-10-31.md).
 - [k2354-native-mixed-euler-slice](conditional-build/k2354-native-mixed-euler-slice-2026-10-31.md).

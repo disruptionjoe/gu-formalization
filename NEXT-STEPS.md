@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-10-31: CALIBRATION, DAMPING AND TRANSVERSE EULER.**
+> **2026-10-31: RELEASED DATA, PROTECTED RECORD AND CURVED STATIONARITY.**
+> Use the working Pantheon+ interface for a source-derived shared expansion family or actual selection/population simulation variants, retaining covariance and unbounded-evolution limits; do not infer endpoint-model truth from the tiny conditional classification error. Realize the supplied neutral two-body gates and measure correlated or mismatched rail noise before full instrument claims. Replace excluded radial and four-field flat ansatzes with a derivative-complete anisotropic mixed construction on the actual curved chart; its nonparallel projectors and all transverse, metric/epsilon and common-domain equations remain required.
+
+
+> **Historical predecessor, no longer the live next condition: 2026-10-31 CALIBRATION, DAMPING AND TRANSVERSE EULER.**
 > Instantiate a real tracer population with joint density, completeness, luminosity and error calibration; positive nuisance budgets need not identify a unique history. Test simultaneous device T1 and full-carrier amplitude/slew against the necessary late-readout bound and sufficient stagewise budget, or construct and price a different protected final record. Do not search again for nonzero full stationary fields within the excluded real four-component flat nonzero-kappa ansatz: enlarge its native tangent or change its explicit background and recompute every transverse row. General mixed-grade curved stationary/domain construction remains open.
 
 

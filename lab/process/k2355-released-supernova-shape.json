@@ -1,0 +1,98 @@
+{
+  "altered_input_controls": {
+    "replace_full_covariance_by_diagonal": true,
+    "swap_Hubble_and_heliocentric_redshifts": true,
+    "unrestricted_luminosity_evolution_removes_fixed_shape_separation": true
+  },
+  "check_names": [
+    "pinned_data.dat",
+    "pinned_covariance.cov",
+    "pinned_statonly.cov",
+    "full_dimensions",
+    "symmetric_covariance",
+    "positive_Cholesky",
+    "quadrature_endpoint_dS",
+    "quadrature_endpoint_EdS",
+    "fit_converged_interior",
+    "released_LCDM_positive_control",
+    "quadrature_32_64_128_convergence",
+    "fixed_shape_delta_chi_identity",
+    "zero_point_invariance",
+    "intercept_annihilation",
+    "joint_row_covariance_permutation",
+    "exact_mean_mimic_numerical",
+    "adversarial_box_attainment",
+    "repeated_CID_rows_present",
+    "both_extremes_worse_than_fitted_control",
+    "profile_CI_one_unit",
+    "statonly_dimensions",
+    "statonly_symmetry",
+    "statonly_interior_fit"
+  ],
+  "checks": 23,
+  "dependencies": {
+    "explorations/conditional-build/k2355-released-supernova-shape-2026-10-31.md": "0a9f479e6230132530a319ceae67387b1efb48d820dff7de319dc15e0cd3004d",
+    "lab/process/k2352-calibrated-flrw-identifiability.json": "957ffca7d98b6352fa138b97e053f319559e58ae54a5c95d4c26bea8021b4696",
+    "tests/channel-swings/k2355_released_supernova_shape_probe.py": "45b25d2a19de91ed9311d6ef0a4fe9d8b160dce697a82848487b242a04174c1d"
+  },
+  "details": {
+    "Einstein_deSitter": {
+      "chi2": 2101.14554143,
+      "intercept": 23.98145349,
+      "nominal_dof": 1589
+    },
+    "altered_diagonal_chi2_at_full_fit": 1328.2365545,
+    "altered_redshift_chi2_at_full_fit": 1452.81951106,
+    "deSitter": {
+      "chi2": 2059.86945115,
+      "intercept": 23.68000757,
+      "nominal_dof": 1589
+    },
+    "fixed_extreme_pair": {
+      "D2": 2664.50869842,
+      "T": -20.63804514,
+      "conditional_Gaussian_log10_error": -146.45919614,
+      "delta_chi2": -41.27609028,
+      "infinity_bias_halfseparation": 0.14157274,
+      "observed_sign_bias_radius": 0.00219311,
+      "one_sided_exact_mimic_radius": 1.00113074,
+      "symmetric_two_class_overlap_radius": 0.50056537
+    },
+    "full_rows": 1701,
+    "lcdm": {
+      "Omega_m": 0.33157578,
+      "chi2": 1402.91912826,
+      "intercept": 23.80723184,
+      "nominal_dof": 1588,
+      "profile_delta_chi2_1": [
+        0.31360802,
+        0.34999852
+      ]
+    },
+    "literal_distinct_selected_CID": 1473,
+    "observable": "m_b_corr; free intercept; no SH0ES absolute calibration",
+    "release_revision": "c447f0fea703fcd0fff57de5000947b5ca81286b",
+    "selected_rows": 1590,
+    "selection": "zHD > 0.01; all lightcurves retained with full selected covariance",
+    "statistical_only_release_sensitivity": {
+      "Einstein_deSitter_chi2": 2843.62436597,
+      "Omega_m": 0.34783709,
+      "chi2": 1484.10550478,
+      "deSitter_chi2": 2812.01424527,
+      "extreme_delta_chi2": -31.6101207,
+      "scope": "released STATONLY still includes duplicate-lightcurve intrinsic covariance; no removal of mean bias corrections"
+    },
+    "versions": {
+      "numpy": "2.5.1",
+      "python": "3.14.6",
+      "scipy": "1.18.0"
+    }
+  },
+  "evidence_kind": "double-precision numerical fixed-release diagnostics; exact profiling and perturbation proofs in companion note",
+  "external_input_sha256": {
+    "covariance.cov": "abf806d966485e64afdb359c87bffc0ecc00d05eff0a31ced66f247385df0fdc",
+    "data.dat": "1cb0fc379ef066afdc2ffd1857681cc478024570d8a3eba284fb645775198cf8",
+    "statonly.cov": "9f177129a332735d3637affd20054080d5260815f3ca0809120c05b2c902297f"
+  },
+  "result_id": "K2355"
+}

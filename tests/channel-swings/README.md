@@ -1,4 +1,8 @@
 
+- [k2355-released-supernova-shape](k2355_released_supernova_shape_probe.py).
+- [k2356-protected-erasure-record](k2356_protected_erasure_record_probe.py).
+- [k2357-curved-native-stationarity](k2357_curved_native_stationarity_probe.py).
+
 - [k2352-calibrated-flrw-identifiability](k2352_calibrated_flrw_identifiability_probe.py).
 - [k2353-late-record-relaxation](k2353_late_record_relaxation_probe.py).
 - [k2354-native-mixed-euler-slice](k2354_native_mixed_euler_slice_probe.py).
