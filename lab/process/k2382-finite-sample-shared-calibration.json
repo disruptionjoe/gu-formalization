@@ -1,0 +1,47 @@
+{
+  "changed_input_or_inference_controls": {
+    "bounded_error_can_remove_reject": true,
+    "centering_hides_offset": true,
+    "diagonal_noise_substitution_wrong": true,
+    "grid_upper_bound_not_rejection": true,
+    "ignore_replica_correlation_wrong": true,
+    "power_certificate_lost_with_wider_calibration": true,
+    "separate_gains_change_null": true,
+    "wrong_df_zero_counterexample": true
+  },
+  "check_names": {
+    "bounded_error_reject": true,
+    "correlated_noise_covariance": true,
+    "derivative_in_square": true,
+    "exact_reject_threshold": true,
+    "global_lower_bound": true,
+    "global_min_a2": true,
+    "inverse_covariance_identity": true,
+    "mean_offset_remains": true,
+    "no_excitation_no_identification": true,
+    "opposed_rows": true,
+    "pointwise_envelope_fixture": true,
+    "positive_noise": true,
+    "power_at_least_nine_tenths": true,
+    "power_global_separation": true,
+    "power_noise_span_dimension": true,
+    "power_radius_implication": true,
+    "raw_moment_decomposition": true,
+    "stacked_covariance": true,
+    "wide_calibration_weakens_test": true
+  },
+  "checks": 19,
+  "dependencies": {
+    "lab/process/k2376-windowed-cosmological-null.json": "1ef2a9f1419c70e08d98089e763a3bd5999a468e9d02d77ac9bb336865d45605",
+    "lab/process/k2379-shared-calibration-cosmological-null.json": "636256fb37b130cbbe3ebc68b09ad71a09e00b234e3010dbeca948b968ebcced"
+  },
+  "exact_fixture": {
+    "alpha": "exp(-2)",
+    "bounded_error_one_fifth": "reject",
+    "bounded_error_one_half": "not rejected",
+    "global_minimum": 5,
+    "threshold": 4
+  },
+  "result_id": "K2382",
+  "scope": "Finite-sample size theorem under specified Gaussian noise and one fixed shared calibrated graph; exact algebra fixtures are not survey data or Monte Carlo size estimates."
+}

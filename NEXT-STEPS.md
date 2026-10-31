@@ -5,6 +5,10 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-10-31: FINITE-SAMPLE NULLS, DRIVEN RECOVERY AND THIRD EULER JETS.**
+> Retain the finite-sample size/power theorem, driven-channel optimum and unrestricted third-Euler-jet existence. Physical use needs justified shared windows/calibration and joint noise, plus the actual decoder rotations and timing-record costs. For geometry solve D2 S=actual curved receiver together with fourth Gram/sigma rows on the SAME stored K,L, using the kernel-direction reduction; separate Euler and algebraic witnesses do not compose. Zero-kappa/nonradial and source-owned matter/action/observation/domain bridges remain open; source and ledger unchanged.
+
+
 > **2026-10-31: SHARED CALIBRATION, OPTIMAL RECOVERY AND HOOK-JET REPAIR.**
 > Do not repeat shared-calibration range tests, optimal idle erasure recovery or the repaired finite hook compatibility. Apply the population theorem to a justified joint calibration/noise/selection model, preserving the fixed-versus-random distinction. For apparatus, compute the complete driven two-loss channel before claiming the idle optimum under noncommuting control, or evaluate the same-decoder bound with measured full costs. Geometry requires the full twice-differentiated first-order Euler tensor equations plus third covariant commutation and algebraic constraints; the fourteen contracted equations are now always repairable within the fixed-K null divergence kernel. This does not supply a stationary local solution, general hook exclusion, zero-kappa/nonradial verdict or source-owned observation/domain bridge. Source and ledger remain unchanged.
 

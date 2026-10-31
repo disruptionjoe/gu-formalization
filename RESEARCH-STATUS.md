@@ -6,6 +6,19 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2382--K2384: Finite-sample tests, driven recovery and third Euler jets (2026-10-31)
+
+K2382 constructs a finite-sample shared-calibration null test with bounded model error and a quantitative synthetic power guarantee. K2383 proves the optimal complete driven erasure-recovery error, strict unknown-time drive penalty and the value of added timing records. K2384 proves existence of the full third Euler jet from a one-dimensional symbol cokernel and reduces the next quartic algebraic system along the seven-dimensional kernel. These are conditional mathematical results, not measured cosmology, hardware or native GU verdicts.
+
+- [K2382](explorations/conditional-build/k2382-finite-sample-shared-calibration-2026-10-31.md).
+- [K2383](explorations/conditional-build/k2383-driven-erasure-recovery-2026-10-31.md).
+- [K2384](explorations/conditional-build/k2384-third-hook-jet-compatibility-2026-10-31.md).
+
+Three independent read-only specialists and cross-reviews checked the statistical pivot and power proof, full driven channel and arbitrary-decoder lower bound, and polynomial hook-symbol cokernel with curved-jet transfer. Shared-gain fixture, full spectator-factorization coverage, positive-rate interval, time-record quantifiers and trace wording were corrected before acceptance. Exact rational/symbolic probes support the proofs; n14 symbol rank is analytically deduced, actual curvature compatibility inherited with pinned hashes, and no third-jet coefficient array is claimed. No proof-assistant, external-expert, measured-data, hardware or native GU certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2379--K2381: Shared calibration, optimal recovery and hook-jet repair (2026-10-31)
 
 K2379 gives exact bounded shared-calibration feasibility for cosmological graph covariances, with mean, singular-excitation, joint-PSD and stochastic-gain controls. K2380 proves the optimal complete idle erasure-recovery error P2/2+3(P3+P4)/4 and composes the same decoder with finite costs and rate robustness. K2381 constructs rotating-null hook second jets matching the actual differentiated PDE, rejects the first witness at the next curvature identity, then repairs all14 derivative conditions and proves the fixed-jet common-null divergence kernel surjects onto those receivers. These are conditional mathematical results, not empirical or native GU verdicts.

@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2382-finite-sample-shared-calibration](k2382-finite-sample-shared-calibration.json).
+- [k2383-driven-erasure-recovery](k2383-driven-erasure-recovery.json).
+- [k2384-third-hook-jet-compatibility](k2384-third-hook-jet-compatibility.json).
+
 - [k2379-shared-calibration-cosmological-null](k2379-shared-calibration-cosmological-null.json).
 - [k2380-complete-erasure-recovery](k2380-complete-erasure-recovery.json).
 - [k2381-rotated-null-hook-prolongation](k2381-rotated-null-hook-prolongation.json).

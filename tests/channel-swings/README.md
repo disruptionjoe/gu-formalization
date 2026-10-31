@@ -1,4 +1,8 @@
 
+- [k2382-finite-sample-shared-calibration](k2382_finite_sample_shared_calibration_probe.py).
+- [k2383-driven-erasure-recovery](k2383_driven_erasure_recovery_probe.py).
+- [k2384-third-hook-jet-compatibility](k2384_third_hook_jet_compatibility_probe.py).
+
 - [k2379-shared-calibration-cosmological-null](k2379_shared_calibration_cosmological_null_probe.py).
 - [k2380-complete-erasure-recovery](k2380_complete_erasure_recovery_probe.py).
 - [k2381-rotated-null-hook-prolongation](k2381_rotated_null_hook_prolongation_probe.py).

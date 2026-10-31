@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2382-finite-sample-shared-calibration](conditional-build/k2382-finite-sample-shared-calibration-2026-10-31.md).
+- [k2383-driven-erasure-recovery](conditional-build/k2383-driven-erasure-recovery-2026-10-31.md).
+- [k2384-third-hook-jet-compatibility](conditional-build/k2384-third-hook-jet-compatibility-2026-10-31.md).
+
 - [k2379-shared-calibration-cosmological-null](conditional-build/k2379-shared-calibration-cosmological-null-2026-10-31.md).
 - [k2380-complete-erasure-recovery](conditional-build/k2380-complete-erasure-recovery-2026-10-31.md).
 - [k2381-rotated-null-hook-prolongation](conditional-build/k2381-rotated-null-hook-prolongation-2026-10-31.md).

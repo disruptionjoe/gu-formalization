@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 087a51660ce3e1f340d6e1df4145fd9ec27d9e98
+revision_basis: e5264daf0184114cb5fcbb2c78d44eb558ffff2c
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,13 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2382 constructs a finite-sample shared-calibration null test with bounded model error
+    and a quantitative synthetic power guarantee. K2383 proves the optimal complete driven
+    erasure-recovery error, strict unknown-time drive penalty and the value of added timing
+    records. K2384 proves existence of the full third Euler jet from a one-dimensional
+    symbol cokernel and reduces the next quartic algebraic system along the
+    seven-dimensional kernel. These are conditional mathematical results, not measured
+    cosmology, hardware or native GU verdicts. Historical predecessor (not live):
     K2379 gives exact bounded shared-calibration feasibility for cosmological graph
     covariances, with mean, singular-excitation, joint-PSD and stochastic-gain controls.
     K2380 proves the optimal complete idle erasure-recovery error P2/2+3(P3+P4)/4 and
@@ -17800,6 +17807,15 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2382-finite-sample-shared-calibration-2026-10-31.md
+  - lab/process/k2382-finite-sample-shared-calibration.json
+  - tests/channel-swings/k2382_finite_sample_shared_calibration_probe.py
+  - explorations/conditional-build/k2383-driven-erasure-recovery-2026-10-31.md
+  - lab/process/k2383-driven-erasure-recovery.json
+  - tests/channel-swings/k2383_driven_erasure_recovery_probe.py
+  - explorations/conditional-build/k2384-third-hook-jet-compatibility-2026-10-31.md
+  - lab/process/k2384-third-hook-jet-compatibility.json
+  - tests/channel-swings/k2384_third_hook_jet_compatibility_probe.py
   - explorations/conditional-build/k2379-shared-calibration-cosmological-null-2026-10-31.md
   - lab/process/k2379-shared-calibration-cosmological-null.json
   - tests/channel-swings/k2379_shared_calibration_cosmological_null_probe.py
@@ -19847,6 +19863,9 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can calibrated joint observations and a priced timing-aware decoder consume the new
+  guarantees, and can one third hook jet satisfy the Euler equations and remaining
+  fourth-order algebraic constraints together? Historical predecessor (not live):
   Which calibrated joint observation and complete measured apparatus can consume the new
   exact tests, and can the repaired rotating hook jet extend to the full third Euler jet
   on the actual metric? Historical predecessor (not live):
@@ -24009,6 +24028,13 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Retain the finite-sample size/power theorem, driven-channel optimum and unrestricted
+  third-Euler-jet existence. Physical use needs justified shared windows/calibration and
+  joint noise, plus the actual decoder rotations and timing-record costs. For geometry
+  solve D2 S=actual curved receiver together with fourth Gram/sigma rows on the SAME
+  stored K,L, using the kernel-direction reduction; separate Euler and algebraic witnesses
+  do not compose. Zero-kappa/nonradial and source-owned matter/action/observation/domain
+  bridges remain open; source and ledger unchanged. Historical predecessor (not live):
   Do not repeat shared-calibration range tests, optimal idle erasure recovery or the
   repaired finite hook compatibility. Apply the population theorem to a justified joint
   calibration/noise/selection model, preserving the fixed-versus-random distinction. For
