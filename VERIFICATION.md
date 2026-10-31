@@ -5,6 +5,19 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2364--K2366: Sourced distances, serial loss and full symmetric rigidity (2026-10-31)
+
+K2364 computes actual conserved-matter continuations of the shared cosmology witness and their released covariance likelihoods: chosen dust fraction .3 changes distance at z2.33 by -20.85% and fixed-shape BAO chi-square from7.0063 to1945.9336; a two-start coefficient refit supplies a sourced witness with SN1409.2981 and BAO10.5996, without physical-density calibration or optimality claims. K2365 proves a reference-aware serial-Z loss bound with an exact loss-free endpoint, explicit midpulse counterexample and finite-slew costs. K2366 proves every smooth self-adjoint Codazzi field on the actual metric is constant scalar, excluding all symmetric grade-one stationary translation fields for the selected action. Conditional results only; no native GU, empirical stability or hardware certification.
+
+- [K2364](explorations/conditional-build/k2364-sourced-shared-history-2026-10-31.md).
+- [K2365](explorations/conditional-build/k2365-serial-transparent-control-2026-10-31.md).
+- [K2366](explorations/conditional-build/k2366-curvature-codazzi-rigidity-2026-10-31.md).
+
+Three read-only specialists accepted the final notes/probes/reports after scope, pulse-monotonicity, backend-provenance and dependency repairs. Evidence includes907 exact actual-metric curvature/algebra checks,79 exact full-carrier phase and rational pulse-budget checks,6 symbolic cosmology identities and numerical/provenance checks, including independent replay of two rounded sourced refits. Thirteen altered-input and algebraic scope controls are separately labeled; they are not all executions of mutated solvers. Universal theorems rest on written proofs. Cosmology convergence is numerical at declared nodes, with independent likelihood checks; no continuum F certificate, external-expert, Lean, hardware or native GU certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2361--K2363: Matter rigidity, transparent locality and variable-projector exclusion (2026-10-31)
 
 K2361 proves that constant coefficient retuning cannot preserve an exact regular quadratic vacuum history after adding conserved dust or radiation, and evolves the new joint-history constrained scalar numerically. K2362 proves minimal transparent logical Z and X localities three and five under fixed-code pair-conservation premises and constructs a two-block entangling control. K2363 excludes every smooth horizontal/trace/traceless projector field on the actual curved metric through the complete Codazzi equation. These are scoped mathematical and numerical results; no native GU, empirical stability or hardware certification.

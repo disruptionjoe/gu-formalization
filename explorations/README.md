@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2364-sourced-shared-history](conditional-build/k2364-sourced-shared-history-2026-10-31.md).
+- [k2365-serial-transparent-control](conditional-build/k2365-serial-transparent-control-2026-10-31.md).
+- [k2366-curvature-codazzi-rigidity](conditional-build/k2366-curvature-codazzi-rigidity-2026-10-31.md).
+
 - [k2361-shared-history-dynamics-and-matter](conditional-build/k2361-shared-history-dynamics-and-matter-2026-10-31.md).
 - [k2362-transparent-control-locality](conditional-build/k2362-transparent-control-locality-2026-10-31.md).
 - [k2363-variable-projector-stationarity](conditional-build/k2363-variable-projector-stationarity-2026-10-31.md).

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 82ee09bd2d40ede9d4bd50d232f864ca2eaca8b9
+revision_basis: f22e0c4121d71ffba4c61e62815699261d6c2d04
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,16 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2364 computes actual conserved-matter continuations of the shared cosmology witness and
+    their released covariance likelihoods: chosen dust fraction .3 changes distance at z2.33
+    by -20.85% and fixed-shape BAO chi-square from7.0063 to1945.9336; a two-start
+    coefficient refit supplies a sourced witness with SN1409.2981 and BAO10.5996, without
+    physical-density calibration or optimality claims. K2365 proves a reference-aware
+    serial-Z loss bound with an exact loss-free endpoint, explicit midpulse counterexample
+    and finite-slew costs. K2366 proves every smooth self-adjoint Codazzi field on the
+    actual metric is constant scalar, excluding all symmetric grade-one stationary
+    translation fields for the selected action. Conditional results only; no native GU,
+    empirical stability or hardware certification. Historical predecessor (not live):
     K2361 proves that constant coefficient retuning cannot preserve an exact regular
     quadratic vacuum history after adding conserved dust or radiation, and evolves the new
     joint-history constrained scalar numerically. K2362 proves minimal transparent logical Z
@@ -17742,6 +17752,15 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2364-sourced-shared-history-2026-10-31.md
+  - lab/process/k2364-sourced-shared-history.json
+  - tests/channel-swings/k2364_sourced_shared_history_probe.py
+  - explorations/conditional-build/k2365-serial-transparent-control-2026-10-31.md
+  - lab/process/k2365-serial-transparent-control.json
+  - tests/channel-swings/k2365_serial_transparent_control_probe.py
+  - explorations/conditional-build/k2366-curvature-codazzi-rigidity-2026-10-31.md
+  - lab/process/k2366-curvature-codazzi-rigidity.json
+  - tests/channel-swings/k2366_curvature_codazzi_rigidity_probe.py
   - explorations/conditional-build/k2361-shared-history-dynamics-and-matter-2026-10-31.md
   - lab/process/k2361-shared-history-dynamics-and-matter.json
   - tests/channel-swings/k2361_shared_history_dynamics_and_matter_probe.py
@@ -19735,6 +19754,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can the fitted sourced cosmology survive physically justified density, coupled fluid
+  perturbation and ruler assumptions, which physically calibrated serial-control schedule
+  meets complete instrument costs, and which nonsymmetric or mixed-grade field can supply
+  actual-metric stationary receiver dynamics? Historical predecessor (not live):
   Which jointly solved matter and perturbation model can reproduce the released distance
   data, which simultaneous many-body physical controls realize the transparent logical
   gates, and which actual-metric symmetric Codazzi or mixed-grade field lies outside the
@@ -23873,6 +23896,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  The completed sourced refit repairs the poor fixed-parameter distance fit at chosen dust
+  fraction .3. Now justify physical density/ruler/selection and coupled fluid
+  perturbations; the two-start fitted witness is neither a global optimum nor a calibrated
+  empirical or native GU result. Serial diagonal Z has exact loss-free endpoints but
+  requires fixed-sign no-overshoot pulses; balance subdivision against finite slew and
+  measured loss, adding all preparation/recovery/readout debts. On the actual metric leave
+  ALL symmetric grade-one fields; curvature compatibility now forces constant scalar and
+  the remaining odd Euler rows exclude it. Test nonsymmetric or mixed-grade fields with
+  all independent geometry and common-domain equations. Source and ledger verdicts stay
+  unchanged. Historical predecessor (not live):
   Build a jointly solved matter background and coupled perturbation/ruler/selection model
   before reusing the vacuum likelihood; constant retuning cannot keep its entire regular
   history. The joint vacuum scalar transfer is numerically converged but neither continuum

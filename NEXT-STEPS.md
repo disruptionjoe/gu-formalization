@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-10-31: MATTER RIGIDITY, TRANSPARENT LOCALITY AND VARIABLE-PROJECTOR EXCLUSION.**
+> **2026-10-31: SOURCED DISTANCES, SERIAL LOSS AND FULL SYMMETRIC RIGIDITY.**
+> The completed sourced refit repairs the poor fixed-parameter distance fit at chosen dust fraction .3. Now justify physical density/ruler/selection and coupled fluid perturbations; the two-start fitted witness is neither a global optimum nor a calibrated empirical or native GU result. Serial diagonal Z has exact loss-free endpoints but requires fixed-sign no-overshoot pulses; balance subdivision against finite slew and measured loss, adding all preparation/recovery/readout debts. On the actual metric leave ALL symmetric grade-one fields; curvature compatibility now forces constant scalar and the remaining odd Euler rows exclude it. Test nonsymmetric or mixed-grade fields with all independent geometry and common-domain equations. Source and ledger verdicts stay unchanged.
+
+
+> **Historical predecessor, no longer the live next condition: 2026-10-31 MATTER RIGIDITY, TRANSPARENT LOCALITY AND VARIABLE-PROJECTOR EXCLUSION.**
 > Build a jointly solved matter background and coupled perturbation/ruler/selection model before reusing the vacuum likelihood; constant retuning cannot keep its entire regular history. The joint vacuum scalar transfer is numerically converged but neither continuum positivity nor empirical stability is certified. Implement or physically constrain the simultaneous three-local Z, five-local X and two-block ZZ controls with measured rail-noise assumptions and preparation/readout costs. On the actual curved metric leave the entire smooth three-projector family: test general symmetric Codazzi or mixed-grade fields with all transverse and independent metric/epsilon/domain equations. Preserve all source and ledger verdicts.
 
 

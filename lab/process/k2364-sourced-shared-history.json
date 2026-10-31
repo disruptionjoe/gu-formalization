@@ -1,0 +1,412 @@
+{
+  "altered_input_and_algebraic_scope_controls": {
+    "freeze_scalar_velocity": [
+      "exact_delta_beta"
+    ],
+    "omit_source_force": [
+      "sourced_distance"
+    ],
+    "omit_tracefree_radiation": [
+      "sourced_distance"
+    ],
+    "zero_source_tangent": [
+      "tangent_difference_0.3_0.0"
+    ]
+  },
+  "check_names": [
+    "exact_full00",
+    "exact_delta_beta",
+    "exact_h_second_derivative",
+    "exact_distance_cubic",
+    "exact_force_U_tangent",
+    "exact_F_tangent",
+    "independent_convergence_0.0_0.0",
+    "full00_numeric_0.0_0.0",
+    "tangent_difference_0.0_0.0",
+    "present_beta_shift_0.0_0.0",
+    "independent_convergence_0.01_0.0",
+    "full00_numeric_0.01_0.0",
+    "tangent_difference_0.01_0.0",
+    "present_beta_shift_0.01_0.0",
+    "independent_convergence_0.1_0.0",
+    "full00_numeric_0.1_0.0",
+    "tangent_difference_0.1_0.0",
+    "present_beta_shift_0.1_0.0",
+    "independent_convergence_0.3_0.0",
+    "full00_numeric_0.3_0.0",
+    "tangent_difference_0.3_0.0",
+    "present_beta_shift_0.3_0.0",
+    "independent_convergence_0.3_0.0001",
+    "full00_numeric_0.3_0.0001",
+    "tangent_difference_0.3_0.0001",
+    "present_beta_shift_0.3_0.0001",
+    "local_cubic_convergence",
+    "release_hash_data.dat",
+    "release_hash_covariance.cov",
+    "BAO_source_hash_0",
+    "BAO_source_hash_1",
+    "released_counts",
+    "data_inside_solved_interval",
+    "likelihood_convergence_0.0_0.0",
+    "likelihood_convergence_0.01_0.0",
+    "likelihood_convergence_0.1_0.0",
+    "likelihood_convergence_0.3_0.0",
+    "likelihood_convergence_0.3_0.0001",
+    "prior_vacuum_likelihood_reproduced",
+    "dust_fixed_shape_changes_likelihood",
+    "refit_positive_coefficients_and_F0_near_zero_rho_basin",
+    "refit_independent_state_near_zero_rho_basin",
+    "refit_numerical_domain_near_zero_rho_basin",
+    "refit_full00_near_zero_rho_basin",
+    "refit_independent_likelihood_near_zero_rho_basin",
+    "refit_positive_coefficients_and_F0_better_interior_witness",
+    "refit_independent_state_better_interior_witness",
+    "refit_numerical_domain_better_interior_witness",
+    "refit_full00_better_interior_witness",
+    "refit_independent_likelihood_better_interior_witness",
+    "sourced_refit_repairs_fixed_parameter_BAO"
+  ],
+  "checks": 51,
+  "dependencies": {
+    "explorations/conditional-build/k2364-sourced-shared-history-2026-10-31.md": "b01ec4d79b5eeb35408c607ffa92d3f5ee355f09383a19cc77d29e01685c656c",
+    "lab/process/k2277-multibin-pure-r2-test.json": "83ee122496aa99ff097825a86246f012b0ccc563c629462e235fad5097ca0afd",
+    "lab/process/k2292-conserved-matter-cosmology.json": "07e645e3dea14a89040e7cfb24d9f29d3db062baef6012843e23fe0bce8cbc3c",
+    "lab/process/k2358-shared-history-supernova-test.json": "8d74aad4dc391d58828f97f7eecf1caf60b3af96b3b721353fde81663b584e54",
+    "lab/process/k2361-shared-history-dynamics-and-matter.json": "68a85734fa39e2b46292952bfd67858d392625aca1dd02e16483c20c6eff5ef1",
+    "tests/channel-swings/k2364_sourced_shared_history_probe.py": "e22942de796a9f18ced4b8755a893fd1f4c03b5d81cc954e68fb9cdb17183890"
+  },
+  "details": {
+    "F0": 78.70431592421184,
+    "external_input_sha256": {
+      "covariance.cov": "abf806d966485e64afdb359c87bffc0ecc00d05eff0a31ced66f247385df0fdc",
+      "data.dat": "1cb0fc379ef066afdc2ffd1857681cc478024570d8a3eba284fb645775198cf8"
+    },
+    "local_cubic_coefficient": -0.163967324842108,
+    "local_cubic_ratios": [
+      0.995077946289635,
+      0.9975907211058437,
+      0.999048872039983
+    ],
+    "max_integrator_difference": 3.275317794759758e-10,
+    "parameters": [
+      55.85236076,
+      929.86045772,
+      2.0,
+      0.4885325972
+    ],
+    "redshifts": [
+      0.01,
+      0.1,
+      0.5,
+      1.0,
+      2.0,
+      2.33
+    ],
+    "refit_search": {
+      "bounds": "alpha,rho>0 via logs; p0 unrestricted; reject F0<=0, failed integration or nonpositive endpoint F",
+      "coordinates": "log(alpha), log(rho), p0; U0=2; Omega_d=.3; Omega_r=0",
+      "fatol": 1e-07,
+      "maxiter": 3000,
+      "method": "Nelder-Mead",
+      "objective": "SN_chi2+BAO_chi2 with original intercept and ruler profiled",
+      "rtol": 2e-09,
+      "scope": "two numerical starts; replay rounded witnesses; no global optimum, physical-density calibration, or held-out prediction",
+      "xatol": 1e-08
+    },
+    "source_normalization": 594.9673461029445,
+    "sourced_refit_witnesses": [
+      {
+        "F0": 86.56569830029164,
+        "F_crossings_z": [],
+        "F_endpoint": 129.9429642921408,
+        "domain_grid_nodes": 1001,
+        "full00_scaled_residual": 2.1152727396003233e-15,
+        "integrator_max_difference": 1.2319034681240737e-11,
+        "label": "near_zero_rho_basin",
+        "likelihood": {
+          "BAO_chi2": 28.54310847554401,
+          "SN_chi2": 1416.5679759540762,
+          "ruler": 48.33468470429154
+        },
+        "numerical_F_min": 86.56569830029164,
+        "numerical_U_min": 2.0,
+        "parameters": [
+          69.86241292,
+          2.175269709e-09,
+          2.0,
+          0.895216134
+        ],
+        "q_d0": 196.31870187729533,
+        "search_nfev": 567,
+        "seed": [
+          55.85236076,
+          929.86045772,
+          0.4885325972
+        ]
+      },
+      {
+        "F0": 801.3174579758934,
+        "F_crossings_z": [],
+        "F_endpoint": 851.0228431658414,
+        "domain_grid_nodes": 1001,
+        "full00_scaled_residual": 6.026638615273446e-16,
+        "integrator_max_difference": 1.1237233366045984e-11,
+        "label": "better_interior_witness",
+        "likelihood": {
+          "BAO_chi2": 10.599620436424741,
+          "SN_chi2": 1409.2981486736576,
+          "ruler": 48.474529406194875
+        },
+        "numerical_F_min": 797.2474781221031,
+        "numerical_U_min": 2.0,
+        "parameters": [
+          775.88047141,
+          8540.41820373,
+          2.0,
+          0.3175541986
+        ],
+        "q_d0": 1817.2741193137408,
+        "search_nfev": 332,
+        "seed": [
+          200.0,
+          2000.0,
+          0.7
+        ]
+      }
+    ],
+    "trajectories": [
+      {
+        "F_crossings_z": [],
+        "F_endpoint": 143.74230978217088,
+        "Omega_d": 0.0,
+        "Omega_r": 0.0,
+        "beta0": 0.0008670164290883637,
+        "chi": [
+          0.0062841400504800304,
+          0.06139481108671553,
+          0.2740223833972522,
+          0.4776786536257818,
+          0.7519653719850468,
+          0.8165867703486557
+        ],
+        "fixed_shape_likelihood": {
+          "BAO_chi2": 7.006253537648471,
+          "SN_chi2": 1402.4661462876647,
+          "ruler": 47.69122442737145
+        },
+        "h": [
+          1.5952527210325125,
+          1.6737389160486766,
+          2.128984161850657,
+          2.8380356510939437,
+          4.730239010973197,
+          5.517594539909958
+        ],
+        "integrator_max_difference": 8.00977062453967e-11,
+        "relative_distance_change": [
+          1.3700152123874432e-13,
+          -3.2085445411667024e-14,
+          1.2042367103504148e-11,
+          1.7912338279302276e-12,
+          3.907540957470701e-12,
+          -4.655165142253281e-13
+        ],
+        "source_tangent_chi": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "tangent_max_difference": 0.0
+      },
+      {
+        "F_crossings_z": [],
+        "F_endpoint": 142.6013722772131,
+        "Omega_d": 0.01,
+        "Omega_r": 0.0,
+        "beta0": 0.010867016429088367,
+        "chi": [
+          0.006284134611394699,
+          0.06138966276983458,
+          0.2735704839517701,
+          0.4753961273896728,
+          0.7437398360866856,
+          0.8062887360196459
+        ],
+        "fixed_shape_likelihood": {
+          "BAO_chi2": 15.890030176000785,
+          "SN_chi2": 1402.9464116453735,
+          "ruler": 48.147811574622594
+        },
+        "h": [
+          1.5952568665855162,
+          1.674161528797826,
+          2.139379955649462,
+          2.877596430613406,
+          4.876854542815918,
+          5.712159101305094
+        ],
+        "integrator_max_difference": 1.794999704429756e-10,
+        "relative_distance_change": [
+          -8.655256610312634e-07,
+          -8.385589582882158e-05,
+          -0.0016491333174508682,
+          -0.004778371857172559,
+          -0.010938716331765574,
+          -0.012611071723569789
+        ],
+        "source_tangent_chi": [
+          -5.439070970810128e-09,
+          -5.147025833811874e-06,
+          -0.00044975183566465615,
+          -0.0022522865817455533,
+          -0.00798787676801673,
+          -0.009959233393849371
+        ],
+        "tangent_max_difference": 4.1312520071556946e-10
+      },
+      {
+        "F_crossings_z": [],
+        "F_endpoint": 132.44619465172713,
+        "Omega_d": 0.1,
+        "Omega_r": 0.0,
+        "beta0": 0.10086701642908848,
+        "chi": [
+          0.006284085660896808,
+          0.061343443750001045,
+          0.2696864391665103,
+          0.45721458929787356,
+          0.685870658982082,
+          0.7359302306265453
+        ],
+        "fixed_shape_likelihood": {
+          "BAO_chi2": 500.1700051429474,
+          "SN_chi2": 1421.0395344212238,
+          "ruler": 51.41849109108248
+        },
+        "h": [
+          1.5952941759173178,
+          1.677958773842676,
+          2.230298488297655,
+          3.2087768572202333,
+          6.026123067405429,
+          7.2156108522901325
+        ],
+        "integrator_max_difference": 4.1136871686831e-11,
+        "relative_distance_change": [
+          -8.655055731665584e-06,
+          -0.0008366722823514028,
+          -0.01582332134236064,
+          -0.04284065065867704,
+          -0.08789595300885622,
+          -0.09877277302449472
+        ],
+        "source_tangent_chi": [
+          -5.438816841742638e-08,
+          -5.1239020898982125e-05,
+          -0.004143246941405055,
+          -0.018182077793579953,
+          -0.05240605927607657,
+          -0.06230068802053368
+        ],
+        "tangent_max_difference": 3.5967602229902695e-09
+      },
+      {
+        "F_crossings_z": [],
+        "F_endpoint": 110.84677633408197,
+        "Omega_d": 0.3,
+        "Omega_r": 0.0,
+        "beta0": 0.30086701642908825,
+        "chi": [
+          0.0062839768902074045,
+          0.06124147388920052,
+          0.26205212267399247,
+          0.4270149353667142,
+          0.608722877535497,
+          0.6462986782126134
+        ],
+        "fixed_shape_likelihood": {
+          "BAO_chi2": 1945.9335561056137,
+          "SN_chi2": 1515.2808975436672,
+          "ruler": 56.29064388149804
+        },
+        "h": [
+          1.595377081385517,
+          1.686357040044286,
+          2.4175649723077,
+          3.829614787827107,
+          7.958537754751654,
+          9.693744879138496
+        ],
+        "integrator_max_difference": 3.2438407515655854e-10,
+        "relative_distance_change": [
+          -2.5963818510499337e-05,
+          -0.002497559562491314,
+          -0.04368351436003193,
+          -0.10606234520580704,
+          -0.19049081218864905,
+          -0.20853643277080736
+        ],
+        "source_tangent_chi": [
+          -1.6314756274027442e-07,
+          -0.00015219754339100596,
+          -0.01057147148610469,
+          -0.037971032131232915,
+          -0.08709990121604172,
+          -0.09917365034847156
+        ],
+        "tangent_max_difference": 2.2697026480500426e-08
+      },
+      {
+        "F_crossings_z": [],
+        "F_endpoint": 110.8232372551144,
+        "Omega_d": 0.3,
+        "Omega_r": 0.0001,
+        "beta0": 0.3009670164290882,
+        "chi": [
+          0.006283976835689196,
+          0.06124142191749316,
+          0.26204822462606864,
+          0.4270000798921487,
+          0.6086867821028571,
+          0.6462571471015404
+        ],
+        "fixed_shape_likelihood": {
+          "BAO_chi2": 1946.854050264046,
+          "SN_chi2": 1515.3495472797858,
+          "ruler": 56.293078228822814
+        },
+        "h": [
+          1.5953771229747058,
+          1.686361362025117,
+          2.4176671261011524,
+          3.8299639693272374,
+          7.959655995887425,
+          9.695186362989512
+        ],
+        "integrator_max_difference": 3.275317794759758e-10,
+        "relative_distance_change": [
+          -2.5972494034687266e-05,
+          -0.0024984060787757167,
+          -0.043697739650227385,
+          -0.10609344451169544,
+          -0.19053881364454694,
+          -0.20858729216821748
+        ],
+        "source_tangent_chi": [
+          -1.6320207243539564e-07,
+          -0.00015224874122339685,
+          -0.010574476582344792,
+          -0.03797881332585554,
+          -0.08710997027661044,
+          -0.09918345202471725
+        ],
+        "tangent_max_difference": 2.2711876823677812e-08
+      }
+    ]
+  },
+  "evidence_kind": "six symbolic identities plus finite double-precision trajectory/convergence/tangent controls; local Taylor proof in note; two changed-source solves and two algebraic scope controls, no interval F or observational fit certificate",
+  "result_id": "K2364"
+}

@@ -1,4 +1,8 @@
 
+- [k2364-sourced-shared-history](k2364_sourced_shared_history_probe.py).
+- [k2365-serial-transparent-control](k2365_serial_transparent_control_probe.py).
+- [k2366-curvature-codazzi-rigidity](k2366_curvature_codazzi_rigidity_probe.py).
+
 - [k2361-shared-history-dynamics-and-matter](k2361_shared_history_dynamics_and_matter_probe.py).
 - [k2362-transparent-control-locality](k2362_transparent_control_locality_probe.py).
 - [k2363-variable-projector-stationarity](k2363_variable_projector_stationarity_probe.py).

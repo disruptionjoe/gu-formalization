@@ -1,0 +1,134 @@
+{
+  "altered_input_and_algebraic_scope_controls": {
+    "discard_jump_time_phase": [
+      "actual_first_pulse_phase_0_1"
+    ],
+    "flip_first_pulse_sign": [
+      "full_cycle_exact"
+    ],
+    "omit_first_pulse": [
+      "full_cycle_exact"
+    ],
+    "pulse_overshoot_with_same_net_area": [
+      "cumulative_boundary_1"
+    ],
+    "unmatched_rail_rates": [
+      "logical_independent_scalar_attenuation"
+    ]
+  },
+  "check_names": [
+    "32_equal_signed_coefficients",
+    "first_coefficient",
+    "l1_two",
+    "all256_physical_expansion",
+    "full_norm_one",
+    "code_0_0",
+    "loss_covariance_0_0_0",
+    "loss_covariance_0_0_1",
+    "loss_covariance_0_0_2",
+    "loss_covariance_0_0_3",
+    "code_0_1",
+    "loss_covariance_0_1_0",
+    "loss_covariance_0_1_1",
+    "loss_covariance_0_1_2",
+    "loss_covariance_0_1_3",
+    "code_1_0",
+    "loss_covariance_1_0_0",
+    "loss_covariance_1_0_1",
+    "loss_covariance_1_0_2",
+    "loss_covariance_1_0_3",
+    "code_1_1",
+    "loss_covariance_1_1_0",
+    "loss_covariance_1_1_1",
+    "loss_covariance_1_1_2",
+    "loss_covariance_1_1_3",
+    "cumulative_boundary_0",
+    "cumulative_boundary_1",
+    "cumulative_boundary_2",
+    "cumulative_boundary_3",
+    "cumulative_boundary_4",
+    "cumulative_boundary_5",
+    "cumulative_boundary_6",
+    "cumulative_boundary_7",
+    "cumulative_boundary_8",
+    "cumulative_boundary_9",
+    "cumulative_boundary_10",
+    "cumulative_boundary_11",
+    "cumulative_boundary_12",
+    "cumulative_boundary_13",
+    "cumulative_boundary_14",
+    "cumulative_boundary_15",
+    "cumulative_boundary_16",
+    "cumulative_boundary_17",
+    "cumulative_boundary_18",
+    "cumulative_boundary_19",
+    "cumulative_boundary_20",
+    "cumulative_boundary_21",
+    "cumulative_boundary_22",
+    "cumulative_boundary_23",
+    "cumulative_boundary_24",
+    "cumulative_boundary_25",
+    "cumulative_boundary_26",
+    "cumulative_boundary_27",
+    "cumulative_boundary_28",
+    "cumulative_boundary_29",
+    "cumulative_boundary_30",
+    "cumulative_boundary_31",
+    "cumulative_boundary_32",
+    "full_cycle_exact",
+    "interior_phase_0",
+    "interior_phase_7",
+    "interior_phase_15",
+    "interior_phase_16",
+    "interior_phase_24",
+    "interior_phase_31",
+    "actual_first_pulse_phase_0_0",
+    "actual_first_pulse_phase_0_1",
+    "actual_first_pulse_phase_1_0",
+    "actual_first_pulse_phase_1_1",
+    "counterexample_coherence_modulus",
+    "positive_counterexample",
+    "probability_partition",
+    "nonidentical_rates_partition",
+    "pulse_duration_8",
+    "rational_budget_8",
+    "pulse_duration_32",
+    "rational_budget_32",
+    "pulse_duration_128",
+    "rational_budget_128"
+  ],
+  "checks": 79,
+  "dependencies": {
+    "explorations/conditional-build/k2365-serial-transparent-control-2026-10-31.md": "1768b1545f8d6eb5ae4d71dd1349d9d240aed69ce1826da34ae17da7c8efdcc2",
+    "lab/process/k2356-protected-erasure-record.json": "0396cbcc664a0ccd0ef2c11f032b1e3accb988180fa3898190286d2e1792a074",
+    "lab/process/k2362-transparent-control-locality.json": "0bb2f35f55701fdb6c831c7ecf350536fc3b74dff09c8cac3146dd2ea105cdf6",
+    "tests/channel-swings/k2365_serial_transparent_control_probe.py": "aa162f4031eab594756fae8b17eb0e12406e077772749a22a06442ece89576eb"
+  },
+  "details": {
+    "budgets": [
+      {
+        "T": 32,
+        "error_upper": "53/20000",
+        "n": 8,
+        "p_upper": "1/200"
+      },
+      {
+        "T": 64,
+        "error_upper": "37/20000",
+        "n": 32,
+        "p_upper": "1/100"
+      },
+      {
+        "T": 128,
+        "error_upper": "121/40000",
+        "n": 128,
+        "p_upper": "1/50"
+      }
+    ],
+    "first_pulse_error": "abs(sin(2x))/2",
+    "max_unit_cycle_boundary_norm": "13/16",
+    "serial_bound": "B+P1 min(1,2theta/n)"
+  },
+  "evidence_kind": "exact rational all256-state phase algebra, actual code/loss phases and symbolic coherent error; universal reference-aware proof in note",
+  "result_id": "K2365"
+}

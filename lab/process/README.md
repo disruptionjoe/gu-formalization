@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2364-sourced-shared-history](k2364-sourced-shared-history.json).
+- [k2365-serial-transparent-control](k2365-serial-transparent-control.json).
+- [k2366-curvature-codazzi-rigidity](k2366-curvature-codazzi-rigidity.json).
+
 - [k2361-shared-history-dynamics-and-matter](k2361-shared-history-dynamics-and-matter.json).
 - [k2362-transparent-control-locality](k2362-transparent-control-locality.json).
 - [k2363-variable-projector-stationarity](k2363-variable-projector-stationarity.json).
