@@ -5,6 +5,19 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2379--K2381: Shared calibration, optimal recovery and hook-jet repair (2026-10-31)
+
+K2379 gives exact bounded shared-calibration feasibility for cosmological graph covariances, with mean, singular-excitation, joint-PSD and stochastic-gain controls. K2380 proves the optimal complete idle erasure-recovery error P2/2+3(P3+P4)/4 and composes the same decoder with finite costs and rate robustness. K2381 constructs rotating-null hook second jets matching the actual differentiated PDE, rejects the first witness at the next curvature identity, then repairs all14 derivative conditions and proves the fixed-jet common-null divergence kernel surjects onto those receivers. These are conditional mathematical results, not empirical or native GU verdicts.
+
+- [K2379](explorations/conditional-build/k2379-shared-calibration-cosmological-null-2026-10-31.md).
+- [K2380](explorations/conditional-build/k2380-complete-erasure-recovery-2026-10-31.md).
+- [K2381](explorations/conditional-build/k2381-rotated-null-hook-prolongation-2026-10-31.md).
+
+Three independent read-only specialists and cross-reviews checked concrete proofs and exact artifacts. K2379 executes9 exact/synthetic predicates and10 changed-input controls; K2380 executes84 finite matrix/channel/cost checks and2 changed-channel controls; K2381 has12 grouped finite tensor/rank/proof checks including all2744 ordered Bianchi rows, ordered receiver reconstruction, all560 cubic triples in each field part and14 repaired contracted derivatives. Counts describe different evidence kinds, not independent proof totals. Independent tensor replay and direct quadratic-polarization evaluation confirmed the geometry witness. Mean/residual labeling, Bell-preparation/fallback controls and computed-rank reporting were repaired before acceptance. No proof-assistant, external-expert, hardware, observed-null or native GU certificate.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2376--K2378: Windowed nulls, rate robustness and hook compatibility (2026-10-31)
 
 K2376 proves when finite observation windows preserve the two-epoch density null, gives a minimal contrast repair and applies the failure to stored sourced-history responses. K2377 bounds complete time-ordered physical loss-channel error by survival-weighted square-root rate mismatch, with an exact nonvacuous fixture where the prior L1 bound fails. K2378 constructs finite second-jet hook compatibility, rejects the original and common-parameter jets by actual curvature, repairs the scalar mismatch, then excludes all seven parameters with the fixed second derivative and a 77-dimensional common-null second-derivative repair. These are conditional mathematical results, not measured cosmology, hardware or native GU verdicts.

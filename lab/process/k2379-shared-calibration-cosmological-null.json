@@ -1,0 +1,32 @@
+{
+  "changed_input_controls": {
+    "inconsistent_cross_data_not_psd": true,
+    "indefinite_input_rejected": true,
+    "mean_row_radius_control": true,
+    "opposite_shared_rejected": true,
+    "positive_schur_debt_rejected": true,
+    "radius_rejected": true,
+    "random_gain_fixed_graph_rejected": true,
+    "range_control": true,
+    "stored_gain_radius_rejected": true,
+    "stored_mode_dependent_gain_rejected": true
+  },
+  "check_names": {
+    "cross_fixture_psd": true,
+    "minimum_norm_solution": true,
+    "one_shared_positive": true,
+    "opposite_separate_fits": true,
+    "random_gain_covariance": true,
+    "residual_decomposition": true,
+    "residual_trial_value": true,
+    "stored_common_gain_recovered": true,
+    "unexcited_gain_invisible": true
+  },
+  "checks": 9,
+  "dependencies": {
+    "lab/process/k2373-two-epoch-cosmological-observability.json": "1877bd433bc7c79591c2d24b6aff4469a9620c0dafb19f63c8a380a3b3320c7b"
+  },
+  "result_id": "K2379",
+  "scope": "Exact population covariance theorem and synthetic stored-decimal consumer, not finite-sample test or measured calibration.",
+  "stored_gain": "1/10"
+}

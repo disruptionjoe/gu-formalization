@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2379-shared-calibration-cosmological-null](k2379-shared-calibration-cosmological-null.json).
+- [k2380-complete-erasure-recovery](k2380-complete-erasure-recovery.json).
+- [k2381-rotated-null-hook-prolongation](k2381-rotated-null-hook-prolongation.json).
+
 - [k2376-windowed-cosmological-null](k2376-windowed-cosmological-null.json).
 - [k2377-time-ordered-rate-robustness](k2377-time-ordered-rate-robustness.json).
 - [k2378-null-hook-jet-compatibility](k2378-null-hook-jet-compatibility.json).

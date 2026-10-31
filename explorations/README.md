@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2379-shared-calibration-cosmological-null](conditional-build/k2379-shared-calibration-cosmological-null-2026-10-31.md).
+- [k2380-complete-erasure-recovery](conditional-build/k2380-complete-erasure-recovery-2026-10-31.md).
+- [k2381-rotated-null-hook-prolongation](conditional-build/k2381-rotated-null-hook-prolongation-2026-10-31.md).
+
 - [k2376-windowed-cosmological-null](conditional-build/k2376-windowed-cosmological-null-2026-10-31.md).
 - [k2377-time-ordered-rate-robustness](conditional-build/k2377-time-ordered-rate-robustness-2026-10-31.md).
 - [k2378-null-hook-jet-compatibility](conditional-build/k2378-null-hook-jet-compatibility-2026-10-31.md).

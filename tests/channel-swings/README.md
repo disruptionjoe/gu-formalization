@@ -1,4 +1,8 @@
 
+- [k2379-shared-calibration-cosmological-null](k2379_shared_calibration_cosmological_null_probe.py).
+- [k2380-complete-erasure-recovery](k2380_complete_erasure_recovery_probe.py).
+- [k2381-rotated-null-hook-prolongation](k2381_rotated_null_hook_prolongation_probe.py).
+
 - [k2376-windowed-cosmological-null](k2376_windowed_cosmological_null_probe.py).
 - [k2377-time-ordered-rate-robustness](k2377_time_ordered_rate_robustness_probe.py).
 - [k2378-null-hook-jet-compatibility](k2378_null_hook_jet_compatibility_probe.py).

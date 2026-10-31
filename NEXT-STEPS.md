@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-10-31: WINDOWED NULLS, RATE ROBUSTNESS AND HOOK COMPATIBILITY.**
+> **2026-10-31: SHARED CALIBRATION, OPTIMAL RECOVERY AND HOOK-JET REPAIR.**
+> Do not repeat shared-calibration range tests, optimal idle erasure recovery or the repaired finite hook compatibility. Apply the population theorem to a justified joint calibration/noise/selection model, preserving the fixed-versus-random distinction. For apparatus, compute the complete driven two-loss channel before claiming the idle optimum under noncommuting control, or evaluate the same-decoder bound with measured full costs. Geometry requires the full twice-differentiated first-order Euler tensor equations plus third covariant commutation and algebraic constraints; the fourteen contracted equations are now always repairable within the fixed-K null divergence kernel. This does not supply a stationary local solution, general hook exclusion, zero-kappa/nonradial verdict or source-owned observation/domain bridge. Source and ledger remain unchanged.
+
+
+> **Historical predecessor, no longer the live next condition: 2026-10-31 WINDOWED NULLS, RATE ROBUSTNESS AND HOOK COMPATIBILITY.**
 > Do not repeat latent two-epoch reconstruction, exact schedule classification, axial exclusion or the rejected fixed hook prolongations. Apply window factorization VD=KU to calibrated survey/tracer operators and test whether the required response-weighted contrast can actually be measured. Compare survival-weighted and L1 error certificates using the same complete instrument and measured rates; preparation/recovery/readout remain unpriced. Geometry now requires a second-jet correction outside the excluded 77-dimensional common-null space, satisfying differentiated divergence and all mixed third-order norm/sigma equations together, then the full third-jet curvature/PDE constraints. The rational first-jet scalar repair alone is insufficient. General hook, zero-kappa/nonradial branches and native matter/action/observation/domain bridges remain open; source and ledger verdicts unchanged.
 
 
