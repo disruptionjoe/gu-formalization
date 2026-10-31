@@ -6,6 +6,19 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2376--K2378: Windowed nulls, rate robustness and hook compatibility (2026-10-31)
+
+K2376 proves when finite observation windows preserve the two-epoch density null, gives a minimal contrast repair and applies the failure to stored sourced-history responses. K2377 bounds complete time-ordered physical loss-channel error by survival-weighted square-root rate mismatch, with an exact nonvacuous fixture where the prior L1 bound fails. K2378 constructs finite second-jet hook compatibility, rejects the original and common-parameter jets by actual curvature, repairs the scalar mismatch, then excludes all seven parameters with the fixed second derivative and a 77-dimensional common-null second-derivative repair. These are conditional mathematical results, not measured cosmology, hardware or native GU verdicts.
+
+- [K2376](explorations/conditional-build/k2376-windowed-cosmological-null-2026-10-31.md).
+- [K2377](explorations/conditional-build/k2377-time-ordered-rate-robustness-2026-10-31.md).
+- [K2378](explorations/conditional-build/k2378-null-hook-jet-compatibility-2026-10-31.md).
+
+Three independent read-only specialists reviewed concrete predecessor questions and new results; cross-review checked exact window factorization, the complete-history overlap proof and hook index contractions. Root executed 15 window predicates, 250 finite apparatus assertions and 15 grouped geometry checks including all196 Gram/all196 sigma pairs, actual curvature and actual Ricci derivatives. Counts are different evidence groupings, not interchangeable independent proofs. Stored-decimal arithmetic is not a new ODE certificate. Endpoint and time-resolved dilations are distinct; the same decoder is used. The hook second jet, scalar repair, fixed-L third-order failure and 77-dimensional support obstruction have explicit separate scopes. Universal claims rest on written proofs; internal review is not external-expert, proof-assistant, empirical or hardware certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2373--K2375: Two-epoch observability, time-ordered recovery and axial exclusion (2026-10-31)
 
 K2373 reconstructs the four-state cosmological perturbation from two-epoch potentials and forces density cross-covariance, with exact noise-weighted nulls and an actual same-fit transfer consumer. K2374 proves a sharp finite-block time-ordered X/Z loss-recovery criterion and gives a no-jump-pass but cross-time-fail witness plus a positive noncommuting schedule. K2375 excludes every smooth axial mixed field on the actual non-Einstein metric and reduces the surviving hook resonance to explicit first-order tensor and algebraic constraints, then rejects a constructed first-order-compatible jet at second-order prolongation while preserving indefinite kernel alternatives. These are conditional mathematical results, not observed nulls, hardware certification or native GU verdicts.

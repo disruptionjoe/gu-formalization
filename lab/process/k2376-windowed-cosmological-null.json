@@ -1,0 +1,32 @@
+{
+  "changed_input_controls": {
+    "correlation_cannot_be_ignored": true,
+    "matched_windows_do_not_preserve_null": true,
+    "omitted_contrast_false_rejection": true,
+    "stored_decimal_hidden_mode_signal": true
+  },
+  "check_names": {
+    "arbitrary_psd_covariance_lift": true,
+    "common_window_rank5": true,
+    "constant_response_escape": true,
+    "contrast_repair_factorization": true,
+    "correlated_noise_full_identity": true,
+    "explicit_right_inverse": true,
+    "minimal_extra_rank": true,
+    "mismatch_power_identity": true,
+    "noise_projection_constraint": true,
+    "noise_projection_cost": true,
+    "noise_variance": true,
+    "repaired_exact_null": true,
+    "stored_decimal_rank5": true,
+    "stored_decimal_weighted_contrast_repair": true,
+    "unexcited_mismatch_escape": true
+  },
+  "checks": 15,
+  "dependencies": {
+    "lab/process/k2373-two-epoch-cosmological-observability.json": "1877bd433bc7c79591c2d24b6aff4469a9620c0dafb19f63c8a380a3b3320c7b"
+  },
+  "result_id": "K2376",
+  "scope": "Exact finite linear theorem; stored decimal consumer not a new ODE or continuum certificate. No supplied physical survey windows.",
+  "stored_decimal_signal": "1025698056038401751/1000000000000000"
+}

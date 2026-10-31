@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-10-31: TWO-EPOCH OBSERVABILITY, TIME-ORDERED RECOVERY AND AXIAL EXCLUSION.**
+> **2026-10-31: WINDOWED NULLS, RATE ROBUSTNESS AND HOOK COMPATIBILITY.**
+> Do not repeat latent two-epoch reconstruction, exact schedule classification, axial exclusion or the rejected fixed hook prolongations. Apply window factorization VD=KU to calibrated survey/tracer operators and test whether the required response-weighted contrast can actually be measured. Compare survival-weighted and L1 error certificates using the same complete instrument and measured rates; preparation/recovery/readout remain unpriced. Geometry now requires a second-jet correction outside the excluded 77-dimensional common-null space, satisfying differentiated divergence and all mixed third-order norm/sigma equations together, then the full third-jet curvature/PDE constraints. The rational first-jet scalar repair alone is insufficient. General hook, zero-kappa/nonradial branches and native matter/action/observation/domain bridges remain open; source and ledger verdicts unchanged.
+
+
+> **Historical predecessor, no longer the live next condition: 2026-10-31 TWO-EPOCH OBSERVABILITY, TIME-ORDERED RECOVERY AND AXIAL EXCLUSION.**
 > Do not repeat arbitrary snapshot covariance, generic integrated-balance tests or axial-field searches. Cosmology now has derivative-free two-epoch state recovery and a sharp shared-covariance/noise null; actual lightcone, mode mixing, calibration and excitation require a joint observation operator, and endpoint conditioning limits precision. For the stipulated physical X/Z controls, aggregate imbalance must vanish pointwise during X-active portions and integrate to zero on each maximal X-idle stretch; physical rates, full instrument costs and approximate robustness remain open. Every radial-plus-axial field is excluded on the actual metric. At nonzero kappa only the hook resonance a=3kappa/56 remains, with explicit symmetric divergence, quadratic stress, fixed signed norm and sigma_H=0 constraints; the displayed first-order-compatible critical-kappa jet fails the second-order constant-norm condition, while a negative-norm divergence kernel prevents a general jet exclusion. A different prolonged jet or actual solution remains unconstructed. General zero-kappa mixtures and nonradial odd fields are separate. Source and ledger verdicts remain unchanged.
 
 

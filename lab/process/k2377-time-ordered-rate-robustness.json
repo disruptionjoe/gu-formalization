@@ -1,0 +1,16 @@
+{
+  "Q": "50706024009129176059868128215/5070602400912917605986812821504",
+  "baseline_bad": "3799150116534603744515021003212083373/1267650600228229401496703205376000000000",
+  "changed_input_controls": [
+    "pumping violates occupancy envelope",
+    "L1 wins in small exposure"
+  ],
+  "checks": 250,
+  "dependencies": {
+    "explorations/conditional-build/k2368-unequal-rail-recovery-2026-10-31.md": "d5a7bce6bdb9eb3e5d25a16e4a91da72b0468ca7f41989d89d6a9227a9a210d1",
+    "explorations/conditional-build/k2374-time-ordered-loss-recovery-2026-10-31.md": "e1bf7d8b9c3e851dd28c08c32379b22af60bc80be2490d6fe5c6ebba16fd23f4"
+  },
+  "result_id": "K2377",
+  "scope": "Exact finite checks plus analytic full-history proof; endpoint two-Kraus dilation is distinct from time-resolved dilation; no hardware calibration.",
+  "total_upper_bound": "103/1000 (strict)"
+}

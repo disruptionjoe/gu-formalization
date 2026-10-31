@@ -1,4 +1,8 @@
 
+- [k2376-windowed-cosmological-null](k2376_windowed_cosmological_null_probe.py).
+- [k2377-time-ordered-rate-robustness](k2377_time_ordered_rate_robustness_probe.py).
+- [k2378-null-hook-jet-compatibility](k2378_null_hook_jet_compatibility_probe.py).
+
 - [k2373-two-epoch-cosmological-observability](k2373_two_epoch_cosmological_observability_probe.py).
 - [k2374-time-ordered-loss-recovery](k2374_time_ordered_loss_recovery_probe.py).
 - [k2375-axial-hook-stationarity](k2375_axial_hook_stationarity_probe.py).

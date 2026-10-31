@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d76909f8a3f9ddba6e93e06a51ff70c19c66f811
+revision_basis: 628fa4e06ce408225056a868f91eea8a84c86060
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,15 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2376 proves when finite observation windows preserve the two-epoch density null, gives
+    a minimal contrast repair and applies the failure to stored sourced-history responses.
+    K2377 bounds complete time-ordered physical loss-channel error by survival-weighted
+    square-root rate mismatch, with an exact nonvacuous fixture where the prior L1 bound
+    fails. K2378 constructs finite second-jet hook compatibility, rejects the original and
+    common-parameter jets by actual curvature, repairs the scalar mismatch, then excludes
+    all seven parameters with the fixed second derivative and a 77-dimensional common-null
+    second-derivative repair. These are conditional mathematical results, not measured
+    cosmology, hardware or native GU verdicts. Historical predecessor (not live):
     K2373 reconstructs the four-state cosmological perturbation from two-epoch potentials
     and forces density cross-covariance, with exact noise-weighted nulls and an actual
     same-fit transfer consumer. K2374 proves a sharp finite-block time-ordered X/Z
@@ -17782,6 +17791,15 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2376-windowed-cosmological-null-2026-10-31.md
+  - lab/process/k2376-windowed-cosmological-null.json
+  - tests/channel-swings/k2376_windowed_cosmological_null_probe.py
+  - explorations/conditional-build/k2377-time-ordered-rate-robustness-2026-10-31.md
+  - lab/process/k2377-time-ordered-rate-robustness.json
+  - tests/channel-swings/k2377_time_ordered_rate_robustness_probe.py
+  - explorations/conditional-build/k2378-null-hook-jet-compatibility-2026-10-31.md
+  - lab/process/k2378-null-hook-jet-compatibility.json
+  - tests/channel-swings/k2378_null_hook_jet_compatibility_probe.py
   - explorations/conditional-build/k2373-two-epoch-cosmological-observability-2026-10-31.md
   - lab/process/k2373-two-epoch-cosmological-observability.json
   - tests/channel-swings/k2373_two_epoch_cosmological_observability_probe.py
@@ -19811,6 +19829,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which physical observation windows preserve the response-weighted contrast, which
+  measured device rates meet the complete-channel certificate, and which hook
+  second-derivative kernel can satisfy higher compatibility on the actual metric?
+  Historical predecessor (not live):
   Which real joint observation operator preserves the two-epoch density constraint, which
   measured full instrument meets the sharp time-ordered recovery criterion, and does the
   remaining hook tensor system admit a smooth solution on the actual metric? Historical
@@ -23966,6 +23988,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Do not repeat latent two-epoch reconstruction, exact schedule classification, axial
+  exclusion or the rejected fixed hook prolongations. Apply window factorization VD=KU to
+  calibrated survey/tracer operators and test whether the required response-weighted
+  contrast can actually be measured. Compare survival-weighted and L1 error certificates
+  using the same complete instrument and measured rates; preparation/recovery/readout
+  remain unpriced. Geometry now requires a second-jet correction outside the excluded
+  77-dimensional common-null space, satisfying differentiated divergence and all mixed
+  third-order norm/sigma equations together, then the full third-jet curvature/PDE
+  constraints. The rational first-jet scalar repair alone is insufficient. General hook,
+  zero-kappa/nonradial branches and native matter/action/observation/domain bridges remain
+  open; source and ledger verdicts unchanged. Historical predecessor (not live):
   Do not repeat arbitrary snapshot covariance, generic integrated-balance tests or
   axial-field searches. Cosmology now has derivative-free two-epoch state recovery and a
   sharp shared-covariance/noise null; actual lightcone, mode mixing, calibration and

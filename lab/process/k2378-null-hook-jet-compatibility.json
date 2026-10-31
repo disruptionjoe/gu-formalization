@@ -1,0 +1,58 @@
+{
+  "changed_input_controls": [
+    "delete null partner fails Gram",
+    "nonzero hook sigma fixture detected"
+  ],
+  "check_groups": [
+    "row and column constraints",
+    "all slice hook identities",
+    "actual Ricci divergence",
+    "196 pairwise Gram zeros",
+    "196 polarized sigma zeros",
+    "critical kappa signed norm",
+    "retained failed old jet",
+    "four full second-jet right inverse fixtures",
+    "actual curvature entries and double-divergence defect",
+    "all common-parameter repairs excluded",
+    "seven-parameter polynomial",
+    "rational scalar repair",
+    "actual differentiated Ricci and full PDE",
+    "two-row third-sigma inconsistency for all seven parameters",
+    "77-dimensional null-subspace second-jet repair excluded"
+  ],
+  "checks": 15,
+  "curvature": {
+    "Bnorm": "405/56",
+    "X": "-1167/7840",
+    "Y": "4797/3920",
+    "cross": "0",
+    "curvature_K": "33/35",
+    "defect": "-751/70",
+    "double_div_Q": "817/70"
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2375-axial-hook-stationarity-2026-10-31.md": "d6b5435055da3615386471831dadea4329e32ca3b26cffe341152a9fc5c3f402",
+    "tests/channel-swings/k2345_curved_bundle_ricci_obstruction_probe.py": "259a8d35a8fb07b71bbd8771f0cefbd51775f2e008b8583c0a28bfce78552027"
+  },
+  "null_subspace_repair": {
+    "actual_C": "3/4",
+    "dimension": 77,
+    "forced_receiver": "D_2,4,2=0",
+    "scope": "second derivatives valued in this common-null subspace only"
+  },
+  "result_id": "K2378",
+  "scalar_repair": {
+    "b1": "-9012/493",
+    "others": "0"
+  },
+  "scope": "Finite second jet only: algebraic constraints through two derivatives, first-order Euler through one derivative. No higher integrability or local solution.",
+  "seven_parameter_defect": "-(1120*b1*b2 + 1120*b1*b3 + 1972*b1 + 1120*b2*b3 + 1972*b2 + 1114*b3 - 3*b4 - 3*b6 + 36048)/3360",
+  "third_constraint": {
+    "actual_Ricci_derivative_nonzero_components": 48,
+    "common_coefficient": "-167063*sqrt(2)/2032800",
+    "scope": "All seven first-jet parameters with the displayed fixed second jet only; arbitrary second-jet kernels remain open.",
+    "sigma000_slot": "0,1,2,12",
+    "sigma111_slot": "0,1,3,8",
+    "witness": "sigma000/c - sigma111/c = 1"
+  }
+}
