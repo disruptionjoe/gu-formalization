@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2358-shared-history-supernova-test](conditional-build/k2358-shared-history-supernova-test-2026-10-31.md).
+- [k2359-loss-during-neutral-control](conditional-build/k2359-loss-during-neutral-control-2026-10-31.md).
+- [k2360-anisotropic-native-stationarity](conditional-build/k2360-anisotropic-native-stationarity-2026-10-31.md).
+
 - [k2355-released-supernova-shape](conditional-build/k2355-released-supernova-shape-2026-10-31.md).
 - [k2356-protected-erasure-record](conditional-build/k2356-protected-erasure-record-2026-10-31.md).
 - [k2357-curved-native-stationarity](conditional-build/k2357-curved-native-stationarity-2026-10-31.md).

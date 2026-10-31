@@ -5,6 +5,19 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2358--K2360: Shared history, gate loss and anisotropic stationarity (2026-10-31)
+
+K2358 confronts one rolling quadratic vacuum history with both Pantheon+ and DESI: a shared numerical witness gives chi-square 1402.46615 and 7.00625, with fitted rather than predicted coefficients. K2359 realizes encoded exchange/ZZ controls, proves unknown-time gate loss defeats exact end-only recovery, and constructs a separately supplied transparent logical-Z extension. K2360 constructs a non-Einstein parallel-product translation-critical field, but excludes constant horizontal/trace/traceless projector repair on the actual curved metric through complete derivative-adjoint rows. All results remain conditional; no native GU or hardware certification.
+
+- [K2358](explorations/conditional-build/k2358-shared-history-supernova-test-2026-10-31.md).
+- [K2359](explorations/conditional-build/k2359-loss-during-neutral-control-2026-10-31.md).
+- [K2360](explorations/conditional-build/k2360-anisotropic-native-stationarity-2026-10-31.md).
+
+Three read-only specialists accepted the final mathematics and numerical methodology after units, carrier typing, scope and pulse-endpoint repairs. Evidence: 72 exact Clifford, circuit and symbolic checks; 13 numerical/integrity checks; 11 executed changed-input controls. Universal claims rest on the written proofs. The shared history is double-precision numerical evidence with independent ODE convergence checks, not an interval or confidence certificate. No external-expert, proof-assistant, hardware or native GU acceptance is claimed.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2355--K2357: Released data, protected record and curved stationarity (2026-10-31)
 
 K2355 implements a pinned Pantheon+ full-covariance distance-shape diagnostic, approximately reproduces the matter-density fit, and quantifies actual covariance and additional-drift sensitivity. K2356 constructs an eight-qubit coherent erasure-protected final record with explicit recovery, finite controls, noise costs and correlated-loss limits. K2357 proves that variable radial distortion cannot repair a non-Einstein selected-native geometry and classifies the Einstein radial roots. These are released-likelihood and conditional mathematical results, not native GU predictions or hardware certification.

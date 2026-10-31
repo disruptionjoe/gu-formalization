@@ -1,0 +1,79 @@
+{
+  "altered_input_controls": {
+    "drop_formal_adjoint": true,
+    "freeze_nonparallel_projectors": true,
+    "replace_by_common_radial": true
+  },
+  "check_names": [
+    "backend_diagonal_cubic_0",
+    "backend_diagonal_cubic_1",
+    "backend_diagonal_cubic_2",
+    "backend_diagonal_cubic_3",
+    "backend_diagonal_cubic_4",
+    "backend_diagonal_cubic_5",
+    "backend_diagonal_cubic_6",
+    "backend_diagonal_cubic_7",
+    "backend_diagonal_cubic_8",
+    "backend_diagonal_cubic_9",
+    "backend_diagonal_cubic_10",
+    "backend_diagonal_cubic_11",
+    "backend_diagonal_cubic_12",
+    "backend_diagonal_cubic_13",
+    "cubic_density_12e3",
+    "product_cubic_0",
+    "product_cubic_7",
+    "product_all14_Euler",
+    "product_nonEinstein",
+    "actual_trace_projector_adjoint_row",
+    "actual_traceless_projector_adjoint_row",
+    "three_weight_kernel_only_radial",
+    "radial_remaining_Ricci_obstruction",
+    "trace_vertical_norm",
+    "traceless_vertical_norm",
+    "vertical_orthogonality",
+    "mixed_trace_connection",
+    "mixed_traceless_connection",
+    "radial_limit",
+    "two_factor_cubic_difference"
+  ],
+  "checks": 30,
+  "dependencies": {
+    "explorations/conditional-build/k2360-anisotropic-native-stationarity-2026-10-31.md": "123cd4e93526325c21c8915e7541a7f407a5eab865fdfe1bd1af43e2922578b9",
+    "lab/process/k2345-curved-bundle-ricci-obstruction.json": "31a13a1f7fee6cdbd945c74108d26e0ed49c05f585c855375beded44e38f0602",
+    "lab/process/k2357-curved-native-stationarity.json": "735c7fdae8f6cf31b80434ca5ab4f2a5a919e4b925bf409b4987c5ebd5cedb98",
+    "tests/channel-swings/k2360_anisotropic_native_stationarity_probe.py": "3765aeddcc24b06718df20cce0498aebe029e87bb0f51412168b36ea8e41ecad",
+    "tests/channel-swings/k77_wave2_moving_shiab_epsilon_ward_green_domain_probe.py": "acc72e643032b4927db49963fd4de5b43b0c7f387a078b210a0d759e57e7bdb4"
+  },
+  "details": {
+    "constant_projector_kernel": "a=b=d; then K2357 odd rows differ by -3",
+    "cubic": "4(A^2-tr(A)A+e2(A)I)",
+    "product": {
+      "Ricci": [
+        3,
+        1
+      ],
+      "amplitudes": [
+        1,
+        -1
+      ],
+      "dimensions": [
+        7,
+        7
+      ],
+      "kappa": 2,
+      "scalar": 28
+    },
+    "trace_row": [
+      "2",
+      "6",
+      "-2"
+    ],
+    "traceless_row": [
+      "2",
+      "-2",
+      "2"
+    ]
+  },
+  "evidence_kind": "exact Clifford/rational/symbolic controls; invariant all-receiver and connection proof in note",
+  "result_id": "K2360"
+}

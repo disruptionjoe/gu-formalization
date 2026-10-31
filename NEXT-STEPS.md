@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-10-31: RELEASED DATA, PROTECTED RECORD AND CURVED STATIONARITY.**
+> **2026-10-31: SHARED HISTORY, GATE LOSS AND ANISOTROPIC STATIONARITY.**
+> Reuse the shared Pantheon+/DESI witness with one coefficient set and explicit inter-survey/selection assumptions; build a justified common matter, perturbation and ruler model rather than a new fitted fixture. Continuous occupation-conditioned transparent control or time-resolved loss information is required before replacing gate noise by the idle erasure bound. The actual curved metric excludes constant three-projector weights; next fields must retain variable-weight derivatives or mixed grades and all independent metric/epsilon/domain equations. No source or ledger verdict changes.
+
+
+> **Historical predecessor, no longer the live next condition: 2026-10-31 RELEASED DATA, PROTECTED RECORD AND CURVED STATIONARITY.**
 > Use the working Pantheon+ interface for a source-derived shared expansion family or actual selection/population simulation variants, retaining covariance and unbounded-evolution limits; do not infer endpoint-model truth from the tiny conditional classification error. Realize the supplied neutral two-body gates and measure correlated or mismatched rail noise before full instrument claims. Replace excluded radial and four-field flat ansatzes with a derivative-complete anisotropic mixed construction on the actual curved chart; its nonparallel projectors and all transverse, metric/epsilon and common-domain equations remain required.
 
 

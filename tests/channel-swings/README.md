@@ -1,4 +1,8 @@
 
+- [k2358-shared-history-supernova-test](k2358_shared_history_supernova_test_probe.py).
+- [k2359-loss-during-neutral-control](k2359_loss_during_neutral_control_probe.py).
+- [k2360-anisotropic-native-stationarity](k2360_anisotropic_native_stationarity_probe.py).
+
 - [k2355-released-supernova-shape](k2355_released_supernova_shape_probe.py).
 - [k2356-protected-erasure-record](k2356_protected_erasure_record_probe.py).
 - [k2357-curved-native-stationarity](k2357_curved_native_stationarity_probe.py).
