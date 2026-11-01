@@ -1,4 +1,7 @@
 
+- [k2437-augmented-compatibility-adjoint](k2437_augmented_compatibility_adjoint_probe.py).
+- [k2438-mixed-instrument-certification](k2438_mixed_instrument_certification_probe.py).
+
 - [k2435-fischer-frame-annihilator](k2435_fischer_frame_annihilator_probe.py).
 - [k2436-multiround-process-certificate](k2436_multiround_process_certificate_probe.py).
 

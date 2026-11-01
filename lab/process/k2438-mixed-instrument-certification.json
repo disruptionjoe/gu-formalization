@@ -1,0 +1,254 @@
+{
+  "checks": {
+    "actual_operational_counterexample_0": true,
+    "actual_operational_counterexample_1": true,
+    "complete_complex_Pauli_Gram": true,
+    "complete_tomography_detects_Y": true,
+    "complex_direction_counterexample_CP_TP": true,
+    "freedman_sharpens_range_only": true,
+    "freedman_tail_inversion": true,
+    "full_block_reconstruction_0_0": true,
+    "full_block_reconstruction_0_1": true,
+    "full_block_reconstruction_0_2": true,
+    "full_block_reconstruction_1_0": true,
+    "full_block_reconstruction_1_1": true,
+    "full_block_reconstruction_1_2": true,
+    "importance_weight_second_moment": true,
+    "importance_weight_unbiased": true,
+    "mixed_support_injectivity": true,
+    "original_CP_and_normalization_0": true,
+    "original_CP_and_normalization_1": true,
+    "original_antipodal_law_0": true,
+    "original_antipodal_law_1": true,
+    "original_recorded_ranks_1_4_4_0": true,
+    "original_recorded_ranks_1_4_4_1": true,
+    "pins_k2432-bell-preparation-memory-decoupling": true,
+    "pins_k2436-multiround-process-certificate": true,
+    "product_support_conditioning": true,
+    "prospective_1percent_tomography_budget": true,
+    "prospective_preparation_margin": true,
+    "prospective_readout_margin": true,
+    "recorded_output_dimensions": true,
+    "rival_same_support_0": true,
+    "rival_same_support_1": true,
+    "same_ALL_input_flag_effects_0": true,
+    "same_ALL_input_flag_effects_1": true,
+    "same_average_mixed_target": true,
+    "supported_flagged_constraint_rank4": true,
+    "time_union_telescope": true,
+    "tomography_bounds_full_Choi_0": true,
+    "tomography_bounds_full_Choi_1": true
+  },
+  "controls": {
+    "conditional_bad_not_TP_0": true,
+    "conditional_bad_not_TP_1": true,
+    "ignoring_random_setting_variance": true,
+    "ignoring_visible_flags_underprices_tester": true,
+    "mean_distance_not_distance_of_mean": true,
+    "purification_access_not_implied_by_mixed_support": true,
+    "real_plane_tomography_misses_Y": true,
+    "support_without_constraint_injectivity": true,
+    "within_block_moments_detect_missing_output_0": true,
+    "within_block_moments_detect_missing_output_1": true,
+    "zero_support_failure_does_not_identify_0": true,
+    "zero_support_failure_does_not_identify_1": true
+  },
+  "dependencies": {
+    "lab/process/k2432-bell-preparation-memory-decoupling.json": "dd46a80a593610cd7b5ad7b5463f83838160bb7b0261fa6c6d7cfa291d6bd638",
+    "lab/process/k2436-multiround-process-certificate.json": "cb0cab1d799ad7201d4f80ad2b6cb6edcdf9f7402bf70af6c13ee8ed6aa67248",
+    "tests/channel-swings/k2419_positive_visibility_dual_probe.py": "d401d829d8d2b6ebf1b99c77b7e7b7497c99bffb4efffaac61363659b58ed757"
+  },
+  "evidence_kinds": {
+    "exact": "original CP/TP blocks, physical contrary instrument, complete Pauli reconstruction, support constraint rank and complex direction controls",
+    "rigorous_numeric": "Arb256 prospective sufficient error/sample consumer",
+    "universal": "written support uniqueness, conditioning, trace-norm tester transfer and adaptive martingale confidence proofs"
+  },
+  "mixed_amplitude_damping": {
+    "Gram": [
+      [
+        "26/25",
+        "0",
+        "0",
+        "-4/25"
+      ],
+      [
+        "0",
+        "4/5",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "4/5",
+        "0"
+      ],
+      [
+        "-4/25",
+        "0",
+        "0",
+        "16/25"
+      ]
+    ],
+    "gamma": "3/4",
+    "mu_squared": "21/25 - sqrt(41)/25"
+  },
+  "original_instrument_fixtures": [
+    {
+      "Choi_distance": "73/400",
+      "input_maximally_mixed_distance": "73/416",
+      "law": 1,
+      "ranks": [
+        1,
+        4,
+        4
+      ],
+      "target_moments": [
+        [
+          "27/100",
+          "0",
+          "0",
+          "0",
+          "0",
+          "27/100",
+          "0",
+          "0",
+          "0",
+          "0",
+          "-27/100",
+          "0",
+          "0",
+          "0",
+          "0",
+          "27/100"
+        ],
+        [
+          "73/200",
+          "365/2704",
+          "0",
+          "219/676",
+          "365/5408",
+          "73/2704",
+          "0",
+          "219/3380",
+          "0",
+          "0",
+          "0",
+          "0",
+          "219/1352",
+          "219/3380",
+          "0",
+          "657/4225"
+        ],
+        [
+          "73/200",
+          "-365/2704",
+          "0",
+          "-219/676",
+          "365/5408",
+          "-73/2704",
+          "0",
+          "-219/3380",
+          "0",
+          "0",
+          "0",
+          "0",
+          "219/1352",
+          "-219/3380",
+          "0",
+          "-657/4225"
+        ]
+      ],
+      "tomography_Choi_bound": "73*sqrt(1301)/10400"
+    },
+    {
+      "Choi_distance": "37/208",
+      "input_maximally_mixed_distance": "259/2080",
+      "law": 2,
+      "ranks": [
+        1,
+        4,
+        4
+      ],
+      "target_moments": [
+        [
+          "15/52",
+          "0",
+          "0",
+          "0",
+          "0",
+          "15/52",
+          "0",
+          "0",
+          "0",
+          "0",
+          "-15/52",
+          "0",
+          "0",
+          "0",
+          "0",
+          "15/52"
+        ],
+        [
+          "37/104",
+          "1813/26000",
+          "0",
+          "-777/3250",
+          "1813/52000",
+          "1813/130000",
+          "0",
+          "-777/16250",
+          "0",
+          "0",
+          "0",
+          "0",
+          "-777/6500",
+          "-777/16250",
+          "0",
+          "1332/8125"
+        ],
+        [
+          "37/104",
+          "-1813/26000",
+          "0",
+          "777/3250",
+          "1813/52000",
+          "-1813/130000",
+          "0",
+          "777/16250",
+          "0",
+          "0",
+          "0",
+          "0",
+          "-777/6500",
+          "777/16250",
+          "0",
+          "-1332/8125"
+        ]
+      ],
+      "tomography_Choi_bound": "37*sqrt(149)/2080"
+    }
+  ],
+  "prospective_budget": {
+    "alpha": "0.05",
+    "batches": 4000000000,
+    "coefficients": 48,
+    "confidence_method": "time-uniform union of scalar Freedman bounds; increment S+1, variance S",
+    "empirical_component_residual_bound": "1e-5",
+    "joint_infidelity": "1e-8",
+    "observable_readout_error": "1e-5",
+    "one_slot_distance_with_empirical_tolerance": "[0.007845078393339268976491473180100955957821031445938455975159591886205449520095 +/- 6.92e-79]",
+    "range_only_hoeffding_radius": "[0.002574439300169993741948296440953959511850828049840648329191785337873661082530 +/- 4.09e-79]",
+    "settings": 16,
+    "statistical_radius": "[0.0006437565327782724147076227650084129964850859538282046645966326571837874600079 +/- 7.10e-80]",
+    "status": "sufficient conditional prospective example; estimates not supplied; not optimized",
+    "total_distance_bound": "[0.00816508839258926897508522317482751843310179303491245426860708209131454272173 +/- 1.05e-78]"
+  },
+  "result_id": "K2438",
+  "scope": "Imported finite-dimensional mixed-target quantum processes; actual flagged instruments need output moments. Tested-average certificate only for tomography, no actual counts, physical calibration, future transfer or native GU identification.",
+  "supported_classical_carrier": {
+    "TP_rank": 4,
+    "dimension": 33,
+    "invisible_dimension": 29
+  }
+}

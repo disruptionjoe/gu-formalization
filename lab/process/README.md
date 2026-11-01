@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2437-augmented-compatibility-adjoint](k2437-augmented-compatibility-adjoint.json).
+- [k2438-mixed-instrument-certification](k2438-mixed-instrument-certification.json).
+
 - [k2435-fischer-frame-annihilator](k2435-fischer-frame-annihilator.json).
 - [k2436-multiround-process-certificate](k2436-multiround-process-certificate.json).
 

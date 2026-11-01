@@ -1,0 +1,177 @@
+{
+  "analytic_scalar_bound": "||S p||_(r1,r2) <= r1/a ||p||_(r1,r2+r1/8519); degree-k coefficient l1 bound (1+1/8519)^k/a; full recursion inverse not bounded",
+  "checks": {
+    "all343_original_second_order_coefficients_vanish": true,
+    "all_original_Gram_polar_constraints": true,
+    "all_seven_transverse_Euler_symbols_zero": true,
+    "ambient_augmented_dimension_10": true,
+    "ambient_augmented_dimension_11": true,
+    "ambient_augmented_dimension_4": true,
+    "ambient_augmented_dimension_5": true,
+    "ambient_augmented_dimension_6": true,
+    "ambient_augmented_dimension_7": true,
+    "ambient_augmented_dimension_8": true,
+    "ambient_augmented_dimension_9": true,
+    "dependency_pins_k2433-lower-quartic-compatibility": true,
+    "dependency_pins_k2435-fischer-frame-annihilator": true,
+    "diagonal_normalization_10": true,
+    "diagonal_normalization_11": true,
+    "diagonal_normalization_12": true,
+    "diagonal_normalization_13": true,
+    "diagonal_normalization_14": true,
+    "diagonal_normalization_4": true,
+    "diagonal_normalization_5": true,
+    "diagonal_normalization_6": true,
+    "diagonal_normalization_7": true,
+    "diagonal_normalization_8": true,
+    "diagonal_normalization_9": true,
+    "linear_generator_outer_derivative": true,
+    "mixed_Euler_only_higher_E_degree": true,
+    "mixed_scalar_leading_block_original_replay": true,
+    "mixed_scalar_other_blocks_strictly_higher": true,
+    "original_curvature_and_quadratic_first_order_coefficients": true,
+    "original_scalar_Fischer_pairing_0": true,
+    "original_scalar_Fischer_pairing_1": true,
+    "original_scalar_Fischer_pairing_2": true,
+    "original_scalar_Fischer_pairing_3": true,
+    "original_scalar_Fischer_pairing_4": true,
+    "primitive_original_direction_degree_0": true,
+    "primitive_original_direction_degree_1": true,
+    "primitive_original_direction_degree_2": true,
+    "primitive_original_direction_degree_3": true,
+    "primitive_original_direction_degree_4": true,
+    "primitive_original_direction_degree_5": true,
+    "primitive_original_direction_degree_6": true,
+    "primitive_original_direction_degree_7": true,
+    "primitive_vanishes_on_W_degree_0": true,
+    "primitive_vanishes_on_W_degree_1": true,
+    "primitive_vanishes_on_W_degree_2": true,
+    "primitive_vanishes_on_W_degree_3": true,
+    "primitive_vanishes_on_W_degree_4": true,
+    "primitive_vanishes_on_W_degree_5": true,
+    "primitive_vanishes_on_W_degree_6": true,
+    "primitive_vanishes_on_W_degree_7": true,
+    "scalar_primitive_coefficient_bound_0": true,
+    "scalar_primitive_coefficient_bound_1": true,
+    "scalar_primitive_coefficient_bound_16": true,
+    "scalar_primitive_coefficient_bound_2": true,
+    "scalar_primitive_coefficient_bound_32": true,
+    "scalar_primitive_coefficient_bound_4": true,
+    "scalar_primitive_coefficient_bound_64": true,
+    "scalar_primitive_coefficient_bound_8": true,
+    "witness_original_repeated_hook": true
+  },
+  "controls": {
+    "omit_second_direction_fails": true,
+    "omitted_outer_derivative_detected": true,
+    "reversed_second_order_adjoint_detected": true,
+    "scalar_inverse_exceeds_naive_1_over_a_bound": true,
+    "transverse_kernel_not_ambient_kernel": true,
+    "wrong_curvature_scale_fails": true
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2429-shared-eighth-euler-extension-2026-11-01.md": "1855d0a987a1da2f5eed97d399fc0a561e8cc18b2d56bb15ca48cfb9b4de49ac",
+    "explorations/conditional-build/k2433-lower-quartic-compatibility-2026-11-01.md": "c0c354ae2fcc5a3edab2a9050d5f0af9ccfe46e1536698fbb375f5eb93e59ebd",
+    "lab/process/k2433-lower-quartic-compatibility.json": "c4b5fc3e13fb84bdb44c0d69d1a487792d65a7af1e38228d95ab1aeed8155780",
+    "lab/process/k2435-fischer-frame-annihilator.json": "8a72e68e0568e56e892348f6c3461c8c0f81c7c62ac70a0d116ad1e0238a11a6",
+    "tests/channel-swings/k2425_frame_euler_module_probe.py": "99c9f284517a0738cb559afa15ab38275ff20a755af7c502bd6ba88e2d735a3a",
+    "tests/channel-swings/k2435_fischer_frame_annihilator_probe.py": "a6eaa247cbbd41a73458fa6723a90064ec768319de9389ce81ac2336b35b1fcc"
+  },
+  "evidence_kinds": {
+    "exact": "original symbol, Gram, curvature, all343 second coefficients, polynomial primitives, Fischer pairings",
+    "reporting": "dependency pins and dimension/binomial fixtures",
+    "universal": "written directional-antiderivative, triangular image and same-jet induction"
+  },
+  "primitive": "finite sum_j (-b)^j/a^(j+1) I_y1^(j+1) partial_y2^j target",
+  "result_id": "K2437",
+  "scope": "Conditional original hook model; all-degree augmented image and shared formal Gram/sigma/Euler construction, subject to written induction; no convergence or source-native GU identification.",
+  "witness": {
+    "first_order": [
+      "0",
+      "2253/2",
+      "2253/17038",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "operator": "(2253/2) partial_y1 + (2253/17038) partial_y2",
+    "original_hook": [
+      [
+        [
+          11,
+          2,
+          11
+        ],
+        "1"
+      ],
+      [
+        [
+          11,
+          4,
+          11
+        ],
+        "9012/8519"
+      ],
+      [
+        [
+          11,
+          11,
+          2
+        ],
+        "-1"
+      ],
+      [
+        [
+          11,
+          11,
+          4
+        ],
+        "-9012/8519"
+      ],
+      [
+        [
+          13,
+          2,
+          13
+        ],
+        "-1"
+      ],
+      [
+        [
+          13,
+          4,
+          13
+        ],
+        "-9012/8519"
+      ],
+      [
+        [
+          13,
+          13,
+          2
+        ],
+        "1"
+      ],
+      [
+        [
+          13,
+          13,
+          4
+        ],
+        "9012/8519"
+      ]
+    ],
+    "rep_coefficients": [
+      [
+        32,
+        "1"
+      ],
+      [
+        55,
+        "9012/8519"
+      ]
+    ],
+    "second_order_nonzero": 0
+  }
+}

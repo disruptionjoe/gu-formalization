@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2437--K2438: Shared formal solution and mixed instrument certification (2026-11-01)
+
+K2437 constructs one shared formal series satisfying every original conditional hook Gram, sigma and Euler coefficient. An exact original repeated-polar hook gives a nonzero scalar directional derivative inside the transverse Euler kernel; the augmented ambient image and nested same-coefficient induction follow at every order. Its explicit scalar inverse has a controlled analytic domain loss, while the full coupled convergence problem remains open. K2438 proves support identification and robust mixed-process bounds, shows that all original instrument flag probabilities leave29 supported directions invisible, and supplies full flagged tomography with stopping-safe Freedman confidence. A prospective one-slot budget including empirical, preparation and readout tolerances is below0.82%; no actual counts, future-device guarantee or native GU identification is supplied.
+
+- [K2437](explorations/conditional-build/k2437-augmented-compatibility-adjoint-2026-11-01.md).
+- [K2438](explorations/conditional-build/k2438-mixed-instrument-certification-2026-11-01.md).
+
+Three independent read-only reviewers accepted the conditional formal induction and mixed-process certificate after challenges to mixed E/W terms, top-jet scaling, carrier compression, empirical finite-count tolerances, visible-flag tester costs and average-versus-individual quantifiers. Original exact replay and negative controls support the written universal proofs; internal review is not external or proof-assistant certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2435--K2436: All-degree frame image and temporal process certificate (2026-11-01)
 
 K2435 proves the original ordinary frame/Euler image formula in every homogeneous degree. Exact rank88 and primitive polynomial saturation reduce the dual to15 components; original nonresonant rotation equations eliminate all15. This removes the ordinary rank ladder but leaves augmented curved compatibility and full stationary/convergent solutions open. K2436 gives a direct fixed-slot quantum-process certificate against a memoryless unitary target, including arbitrary internal memory, adaptive testers, whole-batch preparation/readout transfer, stopping-safe statistics and a same-batch marginal protocol. The dimension cost is explicit; physical calibration, future transfer and native GU identification remain open.

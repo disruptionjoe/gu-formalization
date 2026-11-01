@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2437-augmented-compatibility-adjoint](conditional-build/k2437-augmented-compatibility-adjoint-2026-11-01.md).
+- [k2438-mixed-instrument-certification](conditional-build/k2438-mixed-instrument-certification-2026-11-01.md).
+
 - [k2435-fischer-frame-annihilator](conditional-build/k2435-fischer-frame-annihilator-2026-11-01.md).
 - [k2436-multiround-process-certificate](conditional-build/k2436-multiround-process-certificate-2026-11-01.md).
 

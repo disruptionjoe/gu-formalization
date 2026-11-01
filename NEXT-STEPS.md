@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-01: ALL-DEGREE FRAME IMAGE AND PROCESS CERTIFICATE.**
+> **2026-11-01: SHARED FORMAL SOLUTION AND MIXED INSTRUMENT CERTIFICATION.**
+> Use K2437's all-order formal Gram/sigma/Euler theorem; further finite Euler or augmented-rank banks are dominated. The scalar inverse has an explicit polydisc loss and only geometric coefficient growth, but the full ordinary inverse, mixed E/W elimination, common-section lifts and nonlinear frame recurrence need compatible quantitative estimates before convergence or exact neighborhood solutions can be claimed. Formal smooth realizations have only flat residuals. For the original noisy instrument, support and all input-dependent flag probabilities are insufficient: use K2438's complete same-ensemble flagged moments with trusted joint preparation/readout, or prove a smaller moment family has positive supported conditioning. Tomography bounds distance of the tested average, not mean distances or future behavior. Retain paired native matter/light, common-bar/mobile, thermal163/164, native2+1/chirality and physical quotient ceilings.
+
+
+> **Historical predecessor, no longer the live next condition: 2026-11-01 ALL-DEGREE FRAME IMAGE AND PROCESS CERTIFICATE.**
 > Use K2435's all-degree ordinary image theorem instead of another T_k rank bank. Keep K2433's coherent formal Gram/sigma family and Euler-through8 unchanged. Derive the original augmented scalar compatibility adjoint on the same lower jets; ordinary image completeness does not supply it or a ninth-Euler extension. For quantum processes, instantiate the fixed-slot joint Bell experiment with trusted whole-batch preparation/readout and operational costs, or derive a mixed/instrument-target conditioning theorem. Actual marginal failures bound actual p and require B transfer; pure ideal marginals constrain the whole same-batch process. Future behavior requires independent transport evidence. Retain paired native source-fixed matter/light response, common-bar/mobile, thermal163/164, native2+1/chirality and physical quotient ceilings.
 
 
