@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2464-cancelling-hook-inverse](k2464-cancelling-hook-inverse.json).
+- [k2465-sharp-leakage-compensator](k2465-sharp-leakage-compensator.json).
+- [k2466-calibrated-verifier-design](k2466-calibrated-verifier-design.json).
+
 - [k2461-rank-two-hook-potentials](k2461-rank-two-hook-potentials.json).
 - [k2462-expected-leakage-certificate](k2462-expected-leakage-certificate.json).
 - [k2463-local-verifier-calibration](k2463-local-verifier-calibration.json).

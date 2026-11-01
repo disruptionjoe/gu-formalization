@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 51a0ed345d0b4aa1e985b0564d754a9193c86c5c
+revision_basis: d8f84543a945a60510cd937217594ba07be4f72f
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,16 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2464 constructs an original ordinary-cancelling hook inverse and classifies its
+    enlarged thirteen-dimensional span: all twelve-variable forcing is covered with a
+    geometric analytic bound, while four cubic constraints remain. K2465 proves the sharp
+    half/half leakage compensation and transfer constants, and proves coefficient-one
+    expected exact-cost sharpness within actual binary stopping experiments. K2466 solves
+    full108-dimensional two-effect verifier design with unequal calibration and costs,
+    including character crossovers a calibrated added-effect dual, and an exhaustive
+    finite-trial optimizer that improves both rounded continuous designs. These are
+    conditional mathematical results; source polarities, ledger0.263 and physical credit
+    remain unchanged. Historical predecessor (not live):
     K2461-K2463: classified280 real repeated rank-two hook lines,16 original polar survivors
     and4 scalar-active lines. Their exact scalar image is two PDE kernels with a bounded
     analytic inverse; an all-degree rigidity proof shows arbitrary ordinary-response
@@ -18115,6 +18125,15 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2464-cancelling-hook-inverse-2026-11-01.md
+  - lab/process/k2464-cancelling-hook-inverse.json
+  - tests/channel-swings/k2464_cancelling_hook_inverse_probe.py
+  - explorations/conditional-build/k2465-sharp-leakage-compensator-2026-11-01.md
+  - lab/process/k2465-sharp-leakage-compensator.json
+  - tests/channel-swings/k2465_sharp_leakage_compensator_probe.py
+  - explorations/conditional-build/k2466-calibrated-verifier-design-2026-11-01.md
+  - lab/process/k2466-calibrated-verifier-design.json
+  - tests/channel-swings/k2466_calibrated_verifier_design_probe.py
   - explorations/conditional-build/k2461-rank-two-hook-potentials-2026-11-01.md
   - lab/process/k2461-rank-two-hook-potentials.json
   - tests/channel-swings/k2461_rank_two_hook_potentials_probe.py
@@ -20408,6 +20427,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can original generators beyond the enlarged thirteen-dimensional hook span lift the
+  remaining mixed cubics with a controlled full inverse; can measured full instruments,
+  routing-stable leakage and costs select an operational verifier? Historical predecessor
+  (not live):
   Can original hooks or linear generators outside the exhausted rank-two span give a
   controlled full analytic mixed lift; which measured leakage, whole-instrument
   calibration and cost data select an actual operational verifier? Historical predecessor
@@ -24687,6 +24710,21 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Use generators outside the classified thirteen-dimensional constant span to target
+  x11*x2^2 (and its x13 and x3/x10 contrasts) with full ordinary cancellation and boundary
+  compatibility. The enlarged image has cubic dimension556/560 and analytic inverse
+  bound48*d*3^(d-1); repeating its compensator cannot fill the four remaining cubic
+  directions. Full mixed and nonlinear convergence remain open. Half/half pointwise
+  compensation and original-budget transfer are sharp, but the stopped
+  expected-original-budget minimax coefficient remains between2*log2 and gamma_star;
+  exact-H sharpness does not settle that distinct question. Verifier optimization must
+  retain all original character blocks and actual branch errors/costs; Finite-count
+  rounding and fixed setup are now resolved for this two-effect sufficient expected-cost
+  objective; calibration-acquisition, routing-stable measured budgets and cost-tail
+  decisions require separate operational inputs. Actual native matter/light,
+  common-domain, positive quotient, common-bar/mobile, thermal163/164 and
+  native2+1/chirality constructions retain their ceilings. Historical predecessor (not
+  live):
   A new mixed lift must use original generators outside the12-dimensional rank-two span:
   target x2^3 or x2^2*x0 with full ordinary cancellation and boundary compatibility, then
   seek all-order controlled estimates. Same-span cancellations and removing the

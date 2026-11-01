@@ -6,6 +6,19 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2464--K2466: Cancelling lifts, sharp leakage and verifier design (2026-11-01)
+
+K2464 constructs an original ordinary-cancelling hook inverse and classifies its enlarged thirteen-dimensional span: all twelve-variable forcing is covered with a geometric analytic bound, while four cubic constraints remain. K2465 proves the sharp half/half leakage compensation and transfer constants, and proves coefficient-one expected exact-cost sharpness within actual binary stopping experiments. K2466 solves full108-dimensional two-effect verifier design with unequal calibration and costs, including character crossovers a calibrated added-effect dual, and an exhaustive finite-trial optimizer that improves both rounded continuous designs. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.
+
+- [K2464](explorations/conditional-build/k2464-cancelling-hook-inverse-2026-11-01.md).
+- [K2465](explorations/conditional-build/k2465-sharp-leakage-compensator-2026-11-01.md).
+- [K2466](explorations/conditional-build/k2466-calibrated-verifier-design-2026-11-01.md).
+
+Three read-only field specialists independently challenged geometry, stopping probability and complete-carrier quantum optimization; cross-review checked the analytic image, sharp constant and calibrated dual. Root serialized original exact reconstruction and Arb256 controls. Universal written arguments remain distinct from finite grid/examples and internal review is not external-expert or proof-assistant certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2461--K2463: Exact scalar image, expected leakage and calibrated cost (2026-11-01)
 
 K2461-K2463: classified280 real repeated rank-two hook lines,16 original polar survivors and4 scalar-active lines. Their exact scalar image is two PDE kernels with a bounded analytic inverse; an all-degree rigidity proof shows arbitrary ordinary-response cancellations within their12-dimensional constant span do not enlarge it. K2462 proves an all-prefix actual-use certificate from expected leakage and an actual binary stopping construction proving the K_H/epsilon scale necessary. K2463 composes whole-instrument calibration and stopping-safe cost, then solves the exact cheap two-effect optimum on both full108-dimensional programs and proves a dual bound excluding every sufficiently costly added effect under the stated charges, including common calibration. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.

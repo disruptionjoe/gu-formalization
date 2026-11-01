@@ -1,4 +1,8 @@
 
+- [k2464-cancelling-hook-inverse](k2464_cancelling_hook_inverse_probe.py).
+- [k2465-sharp-leakage-compensator](k2465_sharp_leakage_compensator_probe.py).
+- [k2466-calibrated-verifier-design](k2466_calibrated_verifier_design_probe.py).
+
 - [k2461-rank-two-hook-potentials](k2461_rank_two_hook_potentials_probe.py).
 - [k2462-expected-leakage-certificate](k2462_expected_leakage_certificate_probe.py).
 - [k2463-local-verifier-calibration](k2463_local_verifier_calibration_probe.py).

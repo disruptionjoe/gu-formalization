@@ -5,6 +5,10 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-11-01: CANCELLING LIFTS, SHARP LEAKAGE AND VERIFIER DESIGN.**
+> Use generators outside the classified thirteen-dimensional constant span to target x11*x2^2 (and its x13 and x3/x10 contrasts) with full ordinary cancellation and boundary compatibility. The enlarged image has cubic dimension556/560 and analytic inverse bound48*d*3^(d-1); repeating its compensator cannot fill the four remaining cubic directions. Full mixed and nonlinear convergence remain open. Half/half pointwise compensation and original-budget transfer are sharp, but the stopped expected-original-budget minimax coefficient remains between2*log2 and gamma_star; exact-H sharpness does not settle that distinct question. Verifier optimization must retain all original character blocks and actual branch errors/costs; Finite-count rounding and fixed setup are now resolved for this two-effect sufficient expected-cost objective; calibration-acquisition, routing-stable measured budgets and cost-tail decisions require separate operational inputs. Actual native matter/light, common-domain, positive quotient, common-bar/mobile, thermal163/164 and native2+1/chirality constructions retain their ceilings.
+
+
 > **2026-11-01: EXACT SCALAR IMAGE, EXPECTED LEAKAGE AND CALIBRATED COST.**
 > A new mixed lift must use original generators outside the12-dimensional rank-two span: target x2^3 or x2^2*x0 with full ordinary cancellation and boundary compatibility, then seek all-order controlled estimates. Same-span cancellations and removing the expected-leakage inverse-confidence scale are exhausted. Exact binary constants remain unoptimized; the two cheap verifiers are cost-optimal only against additions above their proved charge threshold with common calibration. Actual device selection needs measured instruments, fresh setting laws and costs. Native I1B matter/readout/common-domain construction and full nonlinear closure remain open; no physical GU credit follows.
 

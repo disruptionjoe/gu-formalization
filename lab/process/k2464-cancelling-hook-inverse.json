@@ -1,0 +1,228 @@
+{
+  "allowed_ambient_coordinates": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12
+  ],
+  "checks": {
+    "Hilbert_identity_2": true,
+    "Hilbert_identity_3": true,
+    "Hilbert_identity_4": true,
+    "Hilbert_identity_5": true,
+    "Hilbert_identity_6": true,
+    "Hilbert_identity_7": true,
+    "U_complete_first_order": true,
+    "U_cyclic": true,
+    "U_original_polar": true,
+    "U_tracefree": true,
+    "actual_degree_normalization_0": true,
+    "actual_degree_normalization_1": true,
+    "actual_degree_normalization_2": true,
+    "actual_degree_normalization_3": true,
+    "actual_degree_normalization_4": true,
+    "all_quadratics": true,
+    "authenticated_k2452-partial-analytic-hook-inverse": true,
+    "authenticated_k2461-rank-two-hook-potentials": true,
+    "bound_comparison_degree4": true,
+    "bound_ratio_monotone": true,
+    "boundary_ideal_0": true,
+    "boundary_ideal_1": true,
+    "boundary_ideal_2": true,
+    "boundary_ideal_3": true,
+    "boundary_ideal_4": true,
+    "cubic_dimension556": true,
+    "enlarged_span_dimension13": true,
+    "explicit_x2_cubed_comp": true,
+    "explicit_x2_cubed_f": true,
+    "geometric_bound_0": true,
+    "geometric_bound_1": true,
+    "geometric_bound_2": true,
+    "geometric_bound_3": true,
+    "geometric_bound_4": true,
+    "h_complete_first_order": true,
+    "h_cyclic": true,
+    "h_original_polar": true,
+    "h_tracefree": true,
+    "individual_factors_allowed": true,
+    "new_scalar_monomials_in_enlarged_image": true,
+    "new_unmatched_symbol_(2, 11)": true,
+    "new_unmatched_symbol_(2, 13)": true,
+    "new_unmatched_symbol_(4, 11)": true,
+    "new_unmatched_symbol_(4, 13)": true,
+    "old_span_no_off_block_cancellation": true,
+    "ordinary_cancellation_0": true,
+    "ordinary_cancellation_1": true,
+    "ordinary_cancellation_2": true,
+    "ordinary_cancellation_3": true,
+    "ordinary_cancellation_4": true,
+    "original_Jstar_0": true,
+    "original_Jstar_1": true,
+    "original_Jstar_2": true,
+    "original_Jstar_3": true,
+    "original_Jstar_4": true,
+    "original_inputs": true,
+    "original_second_coefficient_factorization_0": true,
+    "original_second_coefficient_factorization_1": true,
+    "original_second_coefficient_factorization_10": true,
+    "original_second_coefficient_factorization_11": true,
+    "original_second_coefficient_factorization_12": true,
+    "original_second_coefficient_factorization_13": true,
+    "original_second_coefficient_factorization_2": true,
+    "original_second_coefficient_factorization_3": true,
+    "original_second_coefficient_factorization_4": true,
+    "original_second_coefficient_factorization_5": true,
+    "original_second_coefficient_factorization_6": true,
+    "original_second_coefficient_factorization_7": true,
+    "original_second_coefficient_factorization_8": true,
+    "original_second_coefficient_factorization_9": true,
+    "ring_preserved_0": true,
+    "ring_preserved_1": true,
+    "ring_preserved_2": true,
+    "ring_preserved_3": true,
+    "ring_preserved_4": true
+  },
+  "compensator_U": [
+    [
+      [
+        11,
+        11,
+        12
+      ],
+      "1"
+    ],
+    [
+      [
+        11,
+        12,
+        11
+      ],
+      "-1"
+    ],
+    [
+      [
+        13,
+        13,
+        12
+      ],
+      "-1"
+    ],
+    [
+      [
+        13,
+        12,
+        13
+      ],
+      "1"
+    ]
+  ],
+  "controls": {
+    "enlarged_image_not_algebra": true,
+    "enlarged_span_cubic_obstruction": true,
+    "forbidden_coordinate_not_unrestricted_inverse": true,
+    "omitted_integral_rejected": true,
+    "omitting_4_over_d_3": true,
+    "omitting_4_over_d_4": true,
+    "omitting_compensator_0": true,
+    "omitting_compensator_1": true,
+    "omitting_compensator_2": true,
+    "omitting_compensator_3": true,
+    "omitting_compensator_4": true,
+    "rank_two_PDE_obstruction_crossed": true,
+    "wrong_compensator_sign_0": true,
+    "wrong_compensator_sign_1": true,
+    "wrong_compensator_sign_2": true,
+    "wrong_compensator_sign_3": true,
+    "wrong_compensator_sign_4": true
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2464-cancelling-hook-inverse-2026-11-01.md": "7a8ceefd40a4268200bc7b86968df3131fb71e78088df2e7f8a2c25b46255999",
+    "lab/process/k2452-partial-analytic-hook-inverse.json": "9e2ce6957e3f0f7bb448c5732bcd12bb38ab7c792a8509c2c373f36abd1739f4",
+    "lab/process/k2461-rank-two-hook-potentials.json": "90e6d275f084099bb5127ae764958fa5e272473ad8f1ea956e16a9af9735b3f2",
+    "tests/channel-swings/k2425_frame_euler_module_probe.py": "99c9f284517a0738cb559afa15ab38275ff20a755af7c502bd6ba88e2d735a3a",
+    "tests/channel-swings/k2437_augmented_compatibility_adjoint_probe.py": "1aedbde2169152d21dc08646f9a7088b10697e1f0fb6db9653facead613ea6d8",
+    "tests/channel-swings/k2464_cancelling_hook_inverse_probe.py": "37b85b3d33ee63e6be8e4ba365efb2f679989f2a221e59ab5e540e48135efcdb"
+  },
+  "evidence_kinds": {
+    "ceiling": "twelve-variable restricted scalar inverse; full mixed and nonlinear convergence open",
+    "finite": "all original background coefficients and exact scalar/ordinary/boundary fixtures",
+    "universal": "weighted-divergence factorization and explicit characteristic integral; analytic coefficient estimate"
+  },
+  "inverse_bound": "d(d+1)(1+9012/8519)*2^(d-1)/(2253/17038)",
+  "original_h": [
+    [
+      [
+        11,
+        11,
+        2
+      ],
+      "-1"
+    ],
+    [
+      [
+        11,
+        2,
+        11
+      ],
+      "1"
+    ],
+    [
+      [
+        13,
+        13,
+        2
+      ],
+      "1"
+    ],
+    [
+      [
+        13,
+        2,
+        13
+      ],
+      "-1"
+    ],
+    [
+      [
+        11,
+        11,
+        4
+      ],
+      "-9012/8519"
+    ],
+    [
+      [
+        11,
+        4,
+        11
+      ],
+      "9012/8519"
+    ],
+    [
+      [
+        13,
+        13,
+        4
+      ],
+      "9012/8519"
+    ],
+    [
+      [
+        13,
+        4,
+        13
+      ],
+      "-9012/8519"
+    ]
+  ],
+  "result_id": "K2464",
+  "scalar_coefficient": "2253/17038"
+}

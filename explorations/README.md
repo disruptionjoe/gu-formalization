@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2464-cancelling-hook-inverse](conditional-build/k2464-cancelling-hook-inverse-2026-11-01.md).
+- [k2465-sharp-leakage-compensator](conditional-build/k2465-sharp-leakage-compensator-2026-11-01.md).
+- [k2466-calibrated-verifier-design](conditional-build/k2466-calibrated-verifier-design-2026-11-01.md).
+
 - [k2461-rank-two-hook-potentials](conditional-build/k2461-rank-two-hook-potentials-2026-11-01.md).
 - [k2462-expected-leakage-certificate](conditional-build/k2462-expected-leakage-certificate-2026-11-01.md).
 - [k2463-local-verifier-calibration](conditional-build/k2463-local-verifier-calibration-2026-11-01.md).
