@@ -6,6 +6,19 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2418--K2420: Attainment, recovery dual and repeated cubic repair (2026-10-31)
+
+K2418 gives complete exact attainable metric-pool probability intervals, replacing exponential support faces with equality-class dynamic programming and deciding global endpoint attainment. K2419 brackets the unrestricted two-law positive-visibility recovery optimum between1786296137/4000100000 and447/1000, a gap under438 millionths, and proves one shared good-branch unitary suffices for the stated arbitrary uncertainty family. K2420 computes the full lower Euler/J image and finds repeated A/B/C alone span its entire nuisance image; an actual repeated-only repair preserves complete fifth-algebraic feasibility and yields a shared fourth-Euler/fifth-algebraic finite jet satisfying all105 next-Euler J conditions; a new original Gram-orthogonal quartic correction also preserves all1848 all-W sixth targets. The shared higher-order extension remains open. All results are conditional mathematics; source polarities and ledger0.263 remain unchanged.
+
+- [K2418](explorations/conditional-build/k2418-support-attainment-2026-10-31.md).
+- [K2419](explorations/conditional-build/k2419-positive-visibility-dual-2026-10-31.md).
+- [K2420](explorations/conditional-build/k2420-coupled-nuisance-image-2026-10-31.md).
+
+Independent internal reviews checked universal probability and channel arguments and original-coordinate geometry. Geometry review corrected a mistaken baseline inference and prompted the successful all-repeated repair plus full sector follow-through. Finite checks are supporting certificates, not native GU or empirical evidence.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2415--K2417: Boundary support, positive visibility and coupled reduction (2026-10-31)
 
 K2415 extends exact metric-pool bounds to zero/one probabilities with original event support, unattained extrema and a valid hidden-role consumer. K2416 constructs positive-visibility recovery, solves the fixed-translation scalar affine family, and certifies an anisotropic controller below0.487 while every scalar controller at the same translation and good rotation exceeds0.5. Its unrestricted optimum remains bracketed, not solved. K2417 finds66/168 failed three-W targets on the A-only projection and proves all repeated polar cubic corrections admit a shared fifth-algebraic quartic lift; repeated variables must remain in Euler/J elimination. The full coupled geometric family remains open. All are conditional mathematics; source polarities and ledger0.263 are unchanged.

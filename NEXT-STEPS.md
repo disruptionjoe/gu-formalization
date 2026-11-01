@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-10-31: BOUNDARY SUPPORT, POSITIVE VISIBILITY AND COUPLED REDUCTION.**
+> **2026-10-31: ATTAINMENT, RECOVERY DUAL AND REPEATED CUBIC REPAIR.**
+> Start from K2420's saved repeated-only solution at the K2402 baseline, not the failed K2417 A projection. The former lower-Euler/J/four-W/three-W compatibility question is resolved and complete fifth-algebraic feasibility follows from the shared repeated primitive. Use the new Gram-orthogonal correction of K2402's W4 witness: its changed Phi targets and all1848 all-W sixth receivers are verified. Continue mixed sixth sectors on the complete shared quartic fiber, then its common fifth-Euler completion; do not return to the unmodified old W4 witness. K2418 range and attainment are closed for the stated rational input model; empirical use still needs justified joint calibration and matching. K2419 exact unrestricted optimality remains open within the certified bracket, with the good branch reduced to one unitary. Preserve native matter/light, common-bar/mobile, thermal163/164, native2+1/chirality and physical-quotient alternatives under their exact source/domain ceilings.
+
+
+> **Historical predecessor, no longer the live next condition: 2026-10-31 BOUNDARY SUPPORT, POSITIVE VISIBILITY AND COUPLED REDUCTION.**
 > Use K2417 to eliminate repeated coordinates through the combined Euler/J map while retaining left-annihilator constraints and back-substitution. Solve the retained distinct A/B system with all earlier sectors simultaneously, then one shared quartic and its Euler conditions using all11 quadratic generators. The A-only projection and fixed-A repeated-only repair are excluded, not the full fiber. For recovery, seek a joint all-CPTP primal/dual certificate that closes the gap to the physical anisotropic upper witness or improves it; the exact scalar-family optimum fixes translation and good rotation only. Boundary pool bounds require positive event support, nonnegative role-blind scores, justified joint calibration and matching; global attainment classification is not asserted. Preserve source/domain ceilings on common-bar/mobile, thermal163/164, native2+1/chirality, physical quotient and native matter/light alternatives.
 
 

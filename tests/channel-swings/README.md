@@ -1,4 +1,8 @@
 
+- [k2418-support-attainment](k2418_support_attainment_probe.py).
+- [k2419-positive-visibility-dual](k2419_positive_visibility_dual_probe.py).
+- [k2420-coupled-nuisance-image](k2420_coupled_nuisance_image_probe.py).
+
 - [k2415-boundary-pool-support](k2415_boundary_pool_support_probe.py).
 - [k2416-positive-visibility-recovery](k2416_positive_visibility_recovery_probe.py).
 - [k2417-coupled-three-w-compatibility](k2417_coupled_three_w_compatibility_probe.py).

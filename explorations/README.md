@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2418-support-attainment](conditional-build/k2418-support-attainment-2026-10-31.md).
+- [k2419-positive-visibility-dual](conditional-build/k2419-positive-visibility-dual-2026-10-31.md).
+- [k2420-coupled-nuisance-image](conditional-build/k2420-coupled-nuisance-image-2026-10-31.md).
+
 - [k2415-boundary-pool-support](conditional-build/k2415-boundary-pool-support-2026-10-31.md).
 - [k2416-positive-visibility-recovery](conditional-build/k2416-positive-visibility-recovery-2026-10-31.md).
 - [k2417-coupled-three-w-compatibility](conditional-build/k2417-coupled-three-w-compatibility-2026-10-31.md).

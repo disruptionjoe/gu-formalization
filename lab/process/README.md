@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2418-support-attainment](k2418-support-attainment.json).
+- [k2419-positive-visibility-dual](k2419-positive-visibility-dual.json).
+- [k2420-coupled-nuisance-image](k2420-coupled-nuisance-image.json).
+
 - [k2415-boundary-pool-support](k2415-boundary-pool-support.json).
 - [k2416-positive-visibility-recovery](k2416-positive-visibility-recovery.json).
 - [k2417-coupled-three-w-compatibility](k2417-coupled-three-w-compatibility.json).

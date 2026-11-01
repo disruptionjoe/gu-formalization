@@ -1,0 +1,154 @@
+{
+  "checks": {
+    "all15_exact_dual_principal_minors_positive": true,
+    "arbitrary_good_conformal_projection_preserves_L": true,
+    "canonical_extreme_CP_identities": true,
+    "certified_gap_under_438_millionths": true,
+    "dual_probability_and_unit_support": true,
+    "dual_trace_TP_identity": true,
+    "full_all_CPTP_lower_bound": true,
+    "good_mixture_and_boundary_unitary_CP": true,
+    "good_support_radius_bound": true,
+    "identity_complete_norm_branch_0": true,
+    "identity_complete_norm_branch_1": true,
+    "identity_exact_error_0": true,
+    "identity_exact_error_1": true,
+    "identity_original_Bell_norm_0": true,
+    "identity_original_Bell_norm_1": true,
+    "identity_original_full_CP_TP_0": true,
+    "identity_original_full_CP_TP_1": true,
+    "identity_original_full_composition_0": true,
+    "identity_original_full_composition_1": true,
+    "loss_one_good_channel_irrelevant": true,
+    "original_Choi_support_identity": true,
+    "original_decoder_CP_TP": true,
+    "original_good_CP_TP": true,
+    "original_instrument_CP_TP_0": true,
+    "original_instrument_CP_TP_1": true,
+    "original_physical_law_0": true,
+    "original_physical_law_1": true,
+    "rational_complete_norm_branch_0": true,
+    "rational_complete_norm_branch_1": true,
+    "rational_original_Bell_norm_0": true,
+    "rational_original_Bell_norm_1": true,
+    "rational_original_full_CP_TP_0": true,
+    "rational_original_full_CP_TP_1": true,
+    "rational_original_full_composition_0": true,
+    "rational_original_full_composition_1": true,
+    "rational_strict_upper_0": true,
+    "rational_strict_upper_1": true,
+    "same_unitary_strictly_dominates_mixture_0": true,
+    "same_unitary_strictly_dominates_mixture_1": true
+  },
+  "controller": {
+    "A": [
+      [
+        "306966733950744/708521943849161",
+        "-145821634447438257/2228301513405611345"
+      ],
+      [
+        "16018172241879/708521943849161",
+        "414501262094084616/445660302681122269"
+      ]
+    ],
+    "G": [
+      [
+        "73983/73985",
+        "544/73985"
+      ],
+      [
+        "-544/73985",
+        "73983/73985"
+      ]
+    ],
+    "t": [
+      "7009334323200/21974276548549",
+      "528424512000/21974276548549"
+    ],
+    "y": "1463/3145"
+  },
+  "controls": {
+    "bad_dual_shift_loses_PSD": true,
+    "identity_improves_old_anisotropic_bound": true,
+    "nonzero_translation_with_identity_is_unphysical": true,
+    "opposite_circle_boundary_can_worsen_error": true
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2413-joint-recovery-optimum-2026-10-31.md": "6055c1635680378f066d846f694d4e4d8ba0d8ccc5dc07e587b00877cd755af1",
+    "tests/channel-swings/k2416_positive_visibility_recovery_probe.py": "786fc6e77867d1530cafd7c8a5c68fbb55d7de0b62a7c44d05cd17c5f4ccae28"
+  },
+  "dual": {
+    "Z": [
+      [
+        "2441/10000",
+        "37/1000"
+      ],
+      [
+        "37/1000",
+        "1261/10000"
+      ]
+    ],
+    "good_radius_squared": "6250334491593/81252031250000",
+    "p": [
+      "263/500",
+      "237/500"
+    ],
+    "principal_minors": [
+      "165330968099/8450211250000",
+      "149636636137/650016250000",
+      "3960062164151/8450211250000",
+      "14297462113/650016250000",
+      "5542781830453303836107/1428121403392531250000000",
+      "2140818455368233/1373159328125000000",
+      "289287774949237647863/1428121403392531250000000",
+      "153742995424909588629653/1428121403392531250000000",
+      "3324025012203/3300863769531250",
+      "11285954484558881301557/1428121403392531250000000",
+      "5953503392334713041261911/46413945610257265625000000000",
+      "143451905064936988466579/92827891220514531250000000000",
+      "893492307900092162534607/92827891220514531250000000000",
+      "8709314010630114991267/1160348640256431640625000000",
+      "1338958443564577796801493987/150845323233336113281250000000000000"
+    ],
+    "support_half_angles": [
+      "-1/21",
+      "1/19"
+    ]
+  },
+  "gap_upper": "1748563/4000100000",
+  "good_channel_reduction": "One proper Y-axis unitary suffices for any uncertainty family of the stated physical planar instruments; proof in note.",
+  "lower_bound": "1786296137/4000100000",
+  "original_channel_results": [
+    {
+      "H2": "5329/40000",
+      "L2": "47961/40000",
+      "controller": "identity",
+      "law": 0,
+      "upper": "73/160"
+    },
+    {
+      "H2": "1412704303307914649643314531757/7841158162694833371619237000000",
+      "L2": "1687860130919423027571851251732663621/1508333025334140842198048048557000000",
+      "controller": "rational",
+      "law": 0,
+      "upper": "447/1000"
+    },
+    {
+      "H2": "1369/10816",
+      "L2": "12321/10816",
+      "controller": "identity",
+      "law": 1,
+      "upper": "73/160"
+    },
+    {
+      "H2": "10604387398359649555433401281/74459500449257000607049000000",
+      "L2": "47232423458274658571593943537980849/40765757441463266005352649961000000",
+      "controller": "rational",
+      "law": 1,
+      "upper": "447/1000"
+    }
+  ],
+  "result_id": "K2419",
+  "scope": "Certified bracket over all shared good/bad CPTP recovery channels for the two supplied visibility-half laws and convex hull; not exact optimality, device calibration or native GU evidence.",
+  "upper_bound": "447/1000"
+}
