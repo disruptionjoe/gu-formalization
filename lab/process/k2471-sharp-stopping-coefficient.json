@@ -1,0 +1,57 @@
+{
+  "checks": {
+    "A_B_decrease": true,
+    "A_lower": true,
+    "B_lower": true,
+    "Q_leading_negative": true,
+    "Q_one_negative": true,
+    "Q_zero_positive": true,
+    "constant_enclosure": true,
+    "consumer_ceiling_2/5": true,
+    "consumer_ceiling_9/20": true,
+    "exact_endpoint_constant": true,
+    "finite_strict_bound_(Fraction(0, 1), Fraction(1, 1))": true,
+    "finite_strict_bound_(Fraction(1, 100), Fraction(1, 50))": true,
+    "finite_strict_bound_(Fraction(1, 2), Fraction(1, 1))": true,
+    "finite_strict_bound_(Fraction(9, 10), Fraction(99, 100))": true,
+    "log_bound_endpoints": true,
+    "log_derivative_identity": true,
+    "log_rational_bounds": true,
+    "positive_actual_success_2/5": true,
+    "positive_actual_success_9/20": true,
+    "predecessor_dependencies_authentic": true,
+    "sharp_constant_covers_same_law": true,
+    "unique_stationary_endpoint": true,
+    "whole_triangle_square_identity": true
+  },
+  "consumers": [
+    {
+      "gap": "2/5",
+      "prior_uses": 440199,
+      "uses": 439724
+    },
+    {
+      "gap": "9/20",
+      "prior_uses": 391245,
+      "uses": 390822
+    }
+  ],
+  "controls": {
+    "actual_binary_smaller_coefficient_fails": true,
+    "omitted_mixed_square_term": true,
+    "pointwise_derivative_method_still_false": true
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2471-sharp-stopping-coefficient-2026-11-01.md": "a3bfcede34e9fd10eba91e2c4886851e3e7d67ca240c31860098fd86a26082c6",
+    "lab/process/k2468-stopped-original-budget.json": "427ed3a861282635ff170e18a5ab7af12f7b4b7a3afc086832314e3a4aa608cf",
+    "tests/channel-swings/k2471_sharp_stopping_coefficient_probe.py": "950c432205dbc85463366c0a0d82cafc71608acfd70af75e92f27cfe72b1f704"
+  },
+  "evidence_kinds": {
+    "ceiling": "uniform-confidence conditional certificate; not fixed-confidence optimum or inferred budget",
+    "finite": "exact symbolic identities and Arb256 controls/consumers",
+    "universal": "log minorant sign proof, positive-square identity, inherited entropy and limiting actual-law sharpness"
+  },
+  "result_id": "K2471",
+  "sharp_coefficient": "[2.335604558130943127243609326559111130678108715188837395108168984108895958085 +/- 3.88e-76]",
+  "sharp_coefficient_exact": "(1+log(2))^2/(4*(1-log(2)))"
+}

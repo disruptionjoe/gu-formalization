@@ -6,6 +6,19 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2470--K2472: Analytic scalar lifts, sharp stopping and actual costs (2026-11-01)
+
+K2470 constructs an original boundary-preserving analytic scalar inverse inside the full ordinary hook kernel, with all-degree bound576*d*(d+5)^5*210^(d-1), crossing the prior degree-seven obstruction. K2471 closes the exact uniform-confidence expected-budget coefficient at (1+log2)^2/[4(1-log2)]. K2472 proves that the previous prospective budgets828/846 are exact worst-case actual-spending optima within their stated Q/T design class, derives conditional pass-cap envelopes, and proves budget-abort risk preservation. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.
+
+- [K2470](explorations/conditional-build/k2470-mixed-hook-syzygies-2026-11-01.md).
+- [K2471](explorations/conditional-build/k2471-sharp-stopping-coefficient-2026-11-01.md).
+- [K2472](explorations/conditional-build/k2472-outcome-dependent-cost-2026-11-01.md).
+
+Three read-only specialists reviewed original hook syzygies and analytic bounds, the sharp entropy-coefficient proof, and actual-spending minimax/capping. Root independently reconstructed the original tensors, symbol, full field fixture and exact polynomial identities; heavy jobs serialized. Universal proofs are distinct from finite controls and inherited certificates. Internal review is not external-expert or proof-assistant certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2467--K2469: Mixed lifts, entropy budgets and cost quantiles (2026-11-01)
 
 K2467 constructs seven original ordinary-cancelling hook families, covering all scalar forcing through degree six with an analytic inverse bound, and identifies 36 first missing constructed-family directions at degree seven. K2468 proves an exact variational stopping coefficient, narrows it to 2.335604558... through 2.5, and gives a sharp smaller expected entropy cost. K2469 globally optimizes prospective cost quantiles on both full 108-dimensional verifier programs, certifying budgets 828 and 846 for the supplied normalized parameters. These are conditional mathematical results; source polarities, ledger 0.263 and physical credit remain unchanged.

@@ -1,4 +1,8 @@
 
+- [k2470-mixed-hook-syzygies](k2470_mixed_hook_syzygies_probe.py).
+- [k2471-sharp-stopping-coefficient](k2471_sharp_stopping_coefficient_probe.py).
+- [k2472-outcome-dependent-cost](k2472_outcome_dependent_cost_probe.py).
+
 - [k2467-mixed-hook-generators](k2467_mixed_hook_generators_probe.py).
 - [k2468-stopped-original-budget](k2468_stopped_original_budget_probe.py).
 - [k2469-verifier-cost-tail](k2469_verifier_cost_tail_probe.py).

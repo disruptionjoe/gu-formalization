@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2470-mixed-hook-syzygies](conditional-build/k2470-mixed-hook-syzygies-2026-11-01.md).
+- [k2471-sharp-stopping-coefficient](conditional-build/k2471-sharp-stopping-coefficient-2026-11-01.md).
+- [k2472-outcome-dependent-cost](conditional-build/k2472-outcome-dependent-cost-2026-11-01.md).
+
 - [k2467-mixed-hook-generators](conditional-build/k2467-mixed-hook-generators-2026-11-01.md).
 - [k2468-stopped-original-budget](conditional-build/k2468-stopped-original-budget-2026-11-01.md).
 - [k2469-verifier-cost-tail](conditional-build/k2469-verifier-cost-tail-2026-11-01.md).

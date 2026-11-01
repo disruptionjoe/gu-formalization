@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 9794e450495cd766edc0522046223698cdd01132
+revision_basis: 894dbe2484996ab973aedb3a2f627f575508be53
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,14 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2470 constructs an original boundary-preserving analytic scalar inverse inside the full
+    ordinary hook kernel, with all-degree bound576*d*(d+5)^5*210^(d-1), crossing the prior
+    degree-seven obstruction. K2471 closes the exact uniform-confidence expected-budget
+    coefficient at (1+log2)^2/[4(1-log2)]. K2472 proves that the previous prospective
+    budgets828/846 are exact worst-case actual-spending optima within their stated Q/T
+    design class, derives conditional pass-cap envelopes, and proves budget-abort risk
+    preservation. These are conditional mathematical results; source polarities, ledger0.263
+    and physical credit remain unchanged. Historical predecessor (not live):
     K2467 constructs seven original ordinary-cancelling hook families, covering all scalar
     forcing through degree six with an analytic inverse bound, and identifies 36 first
     missing constructed-family directions at degree seven. K2468 proves an exact variational
@@ -18134,6 +18142,15 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2470-mixed-hook-syzygies-2026-11-01.md
+  - lab/process/k2470-mixed-hook-syzygies.json
+  - tests/channel-swings/k2470_mixed_hook_syzygies_probe.py
+  - explorations/conditional-build/k2471-sharp-stopping-coefficient-2026-11-01.md
+  - lab/process/k2471-sharp-stopping-coefficient.json
+  - tests/channel-swings/k2471_sharp_stopping_coefficient_probe.py
+  - explorations/conditional-build/k2472-outcome-dependent-cost-2026-11-01.md
+  - lab/process/k2472-outcome-dependent-cost.json
+  - tests/channel-swings/k2472_outcome_dependent_cost_probe.py
   - explorations/conditional-build/k2467-mixed-hook-generators-2026-11-01.md
   - lab/process/k2467-mixed-hook-generators.json
   - tests/channel-swings/k2467_mixed_hook_generators_probe.py
@@ -20445,6 +20462,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can the unrestricted ordinary mixed hook inverse achieve a geometric estimate compatible
+  with the new full scalar inverse, enabling a controlled nonlinear construction; which
+  actual complete-instrument and cost laws instantiate the now sharp verification
+  interfaces? Historical predecessor (not live):
   Can genuinely different mixed hook potentials lift the degree-seven forcing beyond the
   seven constructed families with controlled estimates; is the scalar stopping coefficient
   endpoint globally optimal; which measured complete instruments and routing/cost laws
@@ -24732,6 +24753,21 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  The seven-family scalar exclusions remain valid for that family; the full
+  boundary-preserving differential inverse now lifts those targets in the larger bank. Its scalar radius loss210 is sufficient, not
+  optimal. The joint inverse now permits compatible ordinary forcing with fixed finite
+  passive degree and arbitrary analytic scalar forcing. Unrestricted ordinary mixed
+  estimates remain unproved: K2443 is transverse and K2452 constants depend on passive
+  degree. No nonlinear convergence follows from fixed linear radius loss. The
+  expected-original-budget uniform-confidence constant is exactly (1+log2)^2/[4(1-log2)];
+  fixed-small-confidence optimality remains separate. Budgets828/846 are minimax
+  actual-cost optima only in the uncertainty class including ideal all-pass targets, under
+  the inherited sufficient risk constraint. A fixed actual outcome law can reverse
+  expensive-label monotonicity; nontrivial pass caps require independent per-history
+  evidence. Zero-cost budget abort preserves unconditional risk and loses at most delta
+  absolute completion probability; no conditional-on-output or unlimited retry claim.
+  Native matter/light, common-domain, positive quotient, common-bar/mobile, thermal163/164
+  and native2+1/chirality remain open. Historical predecessor (not live):
   The original cubic and degree-six examples are lifted. The seven-family image covers
   scalar degrees through six, has degree-seven codimension 36, and retains bound
   48*d*3^(d-1). Test x4*x2^2*x7*x8*x11*x12 with genuinely different original potentials or

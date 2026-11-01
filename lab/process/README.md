@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2470-mixed-hook-syzygies](k2470-mixed-hook-syzygies.json).
+- [k2471-sharp-stopping-coefficient](k2471-sharp-stopping-coefficient.json).
+- [k2472-outcome-dependent-cost](k2472-outcome-dependent-cost.json).
+
 - [k2467-mixed-hook-generators](k2467-mixed-hook-generators.json).
 - [k2468-stopped-original-budget](k2468-stopped-original-budget.json).
 - [k2469-verifier-cost-tail](k2469-verifier-cost-tail.json).
