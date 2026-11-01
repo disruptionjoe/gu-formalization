@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2415-boundary-pool-support](conditional-build/k2415-boundary-pool-support-2026-10-31.md).
+- [k2416-positive-visibility-recovery](conditional-build/k2416-positive-visibility-recovery-2026-10-31.md).
+- [k2417-coupled-three-w-compatibility](conditional-build/k2417-coupled-three-w-compatibility-2026-10-31.md).
+
 - [k2412-exact-metric-pool-odds](conditional-build/k2412-exact-metric-pool-odds-2026-10-31.md).
 - [k2413-joint-recovery-optimum](conditional-build/k2413-joint-recovery-optimum-2026-10-31.md).
 - [k2414-inherited-polar-fiber](conditional-build/k2414-inherited-polar-fiber-2026-10-31.md).

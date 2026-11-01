@@ -1,0 +1,943 @@
+{
+  "checks": {
+    "243_original_count_support_cases": true,
+    "all_supported_values_half": true,
+    "approach_infimum_formula": true,
+    "approach_supremum_formula": true,
+    "attained_lower_two_thirds": true,
+    "attained_upper_one_third": true,
+    "consumer_uses_unattained_upper_endpoint": true,
+    "interior_original_odds_agreement_lower": true,
+    "interior_original_odds_agreement_upper": true,
+    "nonconstant_endpoint_support_regression_1": true,
+    "nonconstant_endpoint_support_regression_2": true,
+    "null_endpoint_not_value": true,
+    "original_consumer_safe_unattained_endpoint": true,
+    "path_dependent_null_limit": true,
+    "supported_science_endpoint_0": true,
+    "supported_science_endpoint_1": true,
+    "unattained_infimum": true,
+    "unattained_supremum": true,
+    "unsupported_extremal_envelope_can_be_attained": true
+  },
+  "controls": {
+    "false_endpoint_fill_rejected": true,
+    "invalid_probabilities_rejected": true,
+    "null_event_is_not_infinite_evidence": true
+  },
+  "coupled_null_fixture": {
+    "branches": {
+      "lower": {
+        "candidates": [
+          {
+            "attained": true,
+            "kind": "supported_breakpoint",
+            "q": "1/2",
+            "value_interval": [
+              "1/2",
+              "1/2"
+            ],
+            "witness": [
+              "1/2"
+            ]
+          },
+          {
+            "attained": "not_asserted",
+            "kind": "one_sided_limit",
+            "q": "0",
+            "side": "+",
+            "value_interval": [
+              "1/2",
+              "1/2"
+            ]
+          },
+          {
+            "attained": "not_asserted",
+            "kind": "one_sided_limit",
+            "q": "1/2",
+            "side": "-",
+            "value_interval": [
+              "1/2",
+              "1/2"
+            ]
+          },
+          {
+            "attained": true,
+            "kind": "constant_cell",
+            "q": "1/4",
+            "value_interval": [
+              "1/2",
+              "1/2"
+            ],
+            "witness": [
+              "1/4"
+            ]
+          }
+        ],
+        "extremum_enclosure": [
+          "1/2",
+          "1/2"
+        ]
+      },
+      "upper": {
+        "candidates": [
+          {
+            "attained": true,
+            "kind": "supported_breakpoint",
+            "q": "1/2",
+            "value_interval": [
+              "1/2",
+              "1/2"
+            ],
+            "witness": [
+              "1/2"
+            ]
+          },
+          {
+            "attained": "not_asserted",
+            "kind": "one_sided_limit",
+            "q": "0",
+            "side": "+",
+            "value_interval": [
+              "1/2",
+              "1/2"
+            ]
+          },
+          {
+            "attained": "not_asserted",
+            "kind": "one_sided_limit",
+            "q": "1/2",
+            "side": "-",
+            "value_interval": [
+              "1/2",
+              "1/2"
+            ]
+          },
+          {
+            "attained": true,
+            "kind": "constant_cell",
+            "q": "1/4",
+            "value_interval": [
+              "1/2",
+              "1/2"
+            ],
+            "witness": [
+              "1/4"
+            ]
+          }
+        ],
+        "extremum_enclosure": [
+          "1/2",
+          "1/2"
+        ]
+      }
+    },
+    "cells": [
+      {
+        "branch": "lower",
+        "envelope_null": false,
+        "function": "1/2",
+        "interval": [
+          "0",
+          "1/2"
+        ],
+        "original_support_polynomial": "-2*x**2 + 2*x",
+        "status": "supported"
+      },
+      {
+        "branch": "upper",
+        "envelope_null": false,
+        "function": "1/2",
+        "interval": [
+          "0",
+          "1/2"
+        ],
+        "original_support_polynomial": "-2*x**2 + 2*x",
+        "status": "supported"
+      }
+    ],
+    "points": [
+      {
+        "q": "0",
+        "status": "zero_event_support"
+      },
+      {
+        "lower": {
+          "attained": true,
+          "value": "1/2",
+          "witness": [
+            "1/2"
+          ]
+        },
+        "q": "1/2",
+        "status": "supported",
+        "upper": {
+          "attained": true,
+          "value": "1/2",
+          "witness": [
+            "1/2"
+          ]
+        },
+        "witness": [
+          "1/2"
+        ]
+      }
+    ],
+    "status": "supported"
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2409-coupled-drift-calibration-2026-10-31.md": "5eb173f5eb7f3d0564d3a9cc9cf5b79de8f4c27613a8eb88e12f1ffdcea43f0c",
+    "tests/channel-swings/k2412_exact_metric_pool_odds_probe.py": "27c671f655abc56a6d5e657efa1eaed698d15cce02abc8301138d876ca16ba64"
+  },
+  "interior_fixture": {
+    "branches": {
+      "lower": {
+        "candidates": [
+          {
+            "attained": true,
+            "kind": "supported_breakpoint",
+            "q": "3/8",
+            "value_interval": [
+              "1341/5201",
+              "1341/5201"
+            ],
+            "witness": [
+              "7/16",
+              "1/2",
+              "9/16",
+              "5/8"
+            ]
+          },
+          {
+            "attained": true,
+            "kind": "supported_breakpoint",
+            "q": "7/16",
+            "value_interval": [
+              "2261/8777",
+              "2261/8777"
+            ],
+            "witness": [
+              "1/2",
+              "9/16",
+              "5/8",
+              "11/16"
+            ]
+          },
+          {
+            "attained": true,
+            "kind": "supported_breakpoint",
+            "q": "1/2",
+            "value_interval": [
+              "428/1693",
+              "428/1693"
+            ],
+            "witness": [
+              "9/16",
+              "5/8",
+              "11/16",
+              "3/4"
+            ]
+          },
+          {
+            "attained": true,
+            "kind": "supported_breakpoint",
+            "q": "9/16",
+            "value_interval": [
+              "666/2549",
+              "666/2549"
+            ],
+            "witness": [
+              "5/8",
+              "11/16",
+              "3/4",
+              "3/4"
+            ]
+          },
+          {
+            "attained": true,
+            "kind": "supported_breakpoint",
+            "q": "5/8",
+            "value_interval": [
+              "140/491",
+              "140/491"
+            ],
+            "witness": [
+              "11/16",
+              "3/4",
+              "3/4",
+              "3/4"
+            ]
+          },
+          {
+            "attained": "not_asserted",
+            "kind": "one_sided_limit",
+            "q": "3/8",
+            "side": "+",
+            "value_interval": [
+              "1341/5201",
+              "1341/5201"
+            ]
+          },
+          {
+            "attained": "not_asserted",
+            "kind": "one_sided_limit",
+            "q": "7/16",
+            "side": "-",
+            "value_interval": [
+              "2261/8777",
+              "2261/8777"
+            ]
+          },
+          {
+            "attained": true,
+            "function": "(16384*x**5 - 38912*x**4 + 28352*x**3 - 4184*x**2 - 1584*x)/(40960*x**5 - 97280*x**4 + 67040*x**3 - 4460*x**2 - 5785*x - 419)",
+            "kind": "stationary",
+            "probabilities": [
+              "x + 1/16",
+              "x + 1/8",
+              "x + 3/16",
+              "x + 1/4"
+            ],
+            "root_interval": [
+              "4638/11509",
+              "66469/164940"
+            ],
+            "root_polynomial": "-15728640*x**7 + 55541760*x**6 - 73318400*x**5 + 41595520*x**4 - 6304176*x**3 - 2312333*x**2 + 438274*x + 82962",
+            "value_interval": [
+              "364306994391628293265914416/1410559208888952289373991725",
+              "746829346786529039794876752/2891646356009925974412830417"
+            ]
+          },
+          {
+            "attained": "not_asserted",
+            "kind": "one_sided_limit",
+            "q": "7/16",
+            "side": "+",
+            "value_interval": [
+              "2261/8777",
+              "2261/8777"
+            ]
+          },
+          {
+            "attained": "not_asserted",
+            "kind": "one_sided_limit",
+            "q": "1/2",
+            "side": "-",
+            "value_interval": [
+              "428/1693",
+              "428/1693"
+            ]
+          },
+          {
+            "attained": "not_asserted",
+            "kind": "one_sided_limit",
+            "q": "1/2",
+            "side": "+",
+            "value_interval": [
+              "428/1693",
+              "428/1693"
+            ]
+          },
+          {
+            "attained": "not_asserted",
+            "kind": "one_sided_limit",
+            "q": "9/16",
+            "side": "-",
+            "value_interval": [
+              "666/2549",
+              "666/2549"
+            ]
+          },
+          {
+            "attained": "not_asserted",
+            "kind": "one_sided_limit",
+            "q": "9/16",
+            "side": "+",
+            "value_interval": [
+              "666/2549",
+              "666/2549"
+            ]
+          },
+          {
+            "attained": "not_asserted",
+            "kind": "one_sided_limit",
+            "q": "5/8",
+            "side": "-",
+            "value_interval": [
+              "140/491",
+              "140/491"
+            ]
+          }
+        ],
+        "extremum_enclosure": [
+          "428/1693",
+          "428/1693"
+        ]
+      },
+      "upper": {
+        "candidates": [
+          {
+            "attained": true,
+            "kind": "supported_breakpoint",
+            "q": "3/8",
+            "value_interval": [
+              "72/137",
+              "72/137"
+            ],
+            "witness": [
+              "5/16",
+              "1/4",
+              "1/4",
+              "1/4"
+            ]
+          },
+          {
+            "attained": true,
+            "kind": "supported_breakpoint",
+            "q": "7/16",
+            "value_interval": [
+              "994/1801",
+              "994/1801"
+            ],
+            "witness": [
+              "3/8",
+              "5/16",
+              "1/4",
+              "1/4"
+            ]
+          },
+          {
+            "attained": true,
+            "kind": "supported_breakpoint",
+            "q": "1/2",
+            "value_interval": [
+              "1608/2873",
+              "1608/2873"
+            ],
+            "witness": [
+              "7/16",
+              "3/8",
+              "5/16",
+              "1/4"
+            ]
+          },
+          {
+            "attained": true,
+            "kind": "supported_breakpoint",
+            "q": "9/16",
+            "value_interval": [
+              "6309/11377",
+              "6309/11377"
+            ],
+            "witness": [
+              "1/2",
+              "7/16",
+              "3/8",
+              "5/16"
+            ]
+          },
+          {
+            "attained": true,
+            "kind": "supported_breakpoint",
+            "q": "5/8",
+            "value_interval": [
+              "2885/5201",
+              "2885/5201"
+            ],
+            "witness": [
+              "9/16",
+              "1/2",
+              "7/16",
+              "3/8"
+            ]
+          },
+          {
+            "attained": "not_asserted",
+            "kind": "one_sided_limit",
+            "q": "3/8",
+            "side": "+",
+            "value_interval": [
+              "72/137",
+              "72/137"
+            ]
+          },
+          {
+            "attained": "not_asserted",
+            "kind": "one_sided_limit",
+            "q": "7/16",
+            "side": "-",
+            "value_interval": [
+              "994/1801",
+              "994/1801"
+            ]
+          },
+          {
+            "attained": "not_asserted",
+            "kind": "one_sided_limit",
+            "q": "7/16",
+            "side": "+",
+            "value_interval": [
+              "994/1801",
+              "994/1801"
+            ]
+          },
+          {
+            "attained": "not_asserted",
+            "kind": "one_sided_limit",
+            "q": "1/2",
+            "side": "-",
+            "value_interval": [
+              "1608/2873",
+              "1608/2873"
+            ]
+          },
+          {
+            "attained": "not_asserted",
+            "kind": "one_sided_limit",
+            "q": "1/2",
+            "side": "+",
+            "value_interval": [
+              "1608/2873",
+              "1608/2873"
+            ]
+          },
+          {
+            "attained": "not_asserted",
+            "kind": "one_sided_limit",
+            "q": "9/16",
+            "side": "-",
+            "value_interval": [
+              "6309/11377",
+              "6309/11377"
+            ]
+          },
+          {
+            "attained": "not_asserted",
+            "kind": "one_sided_limit",
+            "q": "9/16",
+            "side": "+",
+            "value_interval": [
+              "6309/11377",
+              "6309/11377"
+            ]
+          },
+          {
+            "attained": "not_asserted",
+            "kind": "one_sided_limit",
+            "q": "5/8",
+            "side": "-",
+            "value_interval": [
+              "2885/5201",
+              "2885/5201"
+            ]
+          },
+          {
+            "attained": true,
+            "function": "(16384*x**5 - 59392*x**4 + 74432*x**3 - 35304*x**2 + 3836*x)/(40960*x**5 - 148480*x**4 + 189920*x**3 - 97620*x**2 + 15895*x - 719)",
+            "kind": "stationary",
+            "probabilities": [
+              "x - 1/16",
+              "x - 1/8",
+              "x - 3/16",
+              "x - 1/4"
+            ],
+            "root_interval": [
+              "126527/213802",
+              "28505/48167"
+            ],
+            "root_polynomial": "31457280*x**7 - 172032000*x**6 + 381255680*x**5 - 435854080*x**4 + 269984608*x**3 - 86809146*x**2 + 12691788*x - 689521",
+            "value_interval": [
+              "52070806061227799244785513659392/93994539060438601072586775673511",
+              "208283225159387393543294254195160/375978153864661812152556395531969"
+            ]
+          }
+        ],
+        "extremum_enclosure": [
+          "1608/2873",
+          "1608/2873"
+        ]
+      }
+    },
+    "cells": [
+      {
+        "branch": "lower",
+        "envelope_null": false,
+        "function": "(16384*x**5 - 38912*x**4 + 28352*x**3 - 4184*x**2 - 1584*x)/(40960*x**5 - 97280*x**4 + 67040*x**3 - 4460*x**2 - 5785*x - 419)",
+        "interval": [
+          "3/8",
+          "7/16"
+        ],
+        "original_support_polynomial": "-10*x**5 + 95*x**4/4 - 2095*x**3/128 + 1115*x**2/1024 + 5785*x/4096 + 419/4096",
+        "status": "supported"
+      },
+      {
+        "branch": "upper",
+        "envelope_null": false,
+        "function": "(768*x**3 - 528*x**2 - 342*x)/(640*x**3 + 264*x**2 - 1003*x - 3)",
+        "interval": [
+          "3/8",
+          "7/16"
+        ],
+        "original_support_polynomial": "-5*x**3/8 - 33*x**2/128 + 1003*x/1024 + 3/1024",
+        "status": "supported"
+      },
+      {
+        "branch": "lower",
+        "envelope_null": false,
+        "function": "(16384*x**5 - 38912*x**4 + 28352*x**3 - 4184*x**2 - 1584*x)/(40960*x**5 - 97280*x**4 + 67040*x**3 - 4460*x**2 - 5785*x - 419)",
+        "interval": [
+          "7/16",
+          "1/2"
+        ],
+        "original_support_polynomial": "-10*x**5 + 95*x**4/4 - 2095*x**3/128 + 1115*x**2/1024 + 5785*x/4096 + 419/4096",
+        "status": "supported"
+      },
+      {
+        "branch": "upper",
+        "envelope_null": false,
+        "function": "(8192*x**4 - 18432*x**3 + 10336*x**2 + 24*x)/(14336*x**4 - 29952*x**3 + 13672*x**2 + 2395*x - 331)",
+        "interval": [
+          "7/16",
+          "1/2"
+        ],
+        "original_support_polynomial": "7*x**4/2 - 117*x**3/16 + 1709*x**2/512 + 2395*x/4096 - 331/4096",
+        "status": "supported"
+      },
+      {
+        "branch": "lower",
+        "envelope_null": false,
+        "function": "(-3072*x**3 + 5376*x**2 - 2348*x)/(6144*x**4 - 22272*x**3 + 24072*x**2 - 7047*x - 941)",
+        "interval": [
+          "1/2",
+          "9/16"
+        ],
+        "original_support_polynomial": "-3*x**4/2 + 87*x**3/16 - 3009*x**2/512 + 7047*x/4096 + 941/4096",
+        "status": "supported"
+      },
+      {
+        "branch": "upper",
+        "envelope_null": false,
+        "function": "(16384*x**5 - 59392*x**4 + 74432*x**3 - 35304*x**2 + 3836*x)/(40960*x**5 - 148480*x**4 + 189920*x**3 - 97620*x**2 + 15895*x - 719)",
+        "interval": [
+          "1/2",
+          "9/16"
+        ],
+        "original_support_polynomial": "-10*x**5 + 145*x**4/4 - 5935*x**3/128 + 24405*x**2/1024 - 15895*x/4096 + 719/4096",
+        "status": "supported"
+      },
+      {
+        "branch": "lower",
+        "envelope_null": false,
+        "function": "(256*x**3 - 592*x**2 + 326*x)/(384*x**3 - 312*x**2 - 621*x + 539)",
+        "interval": [
+          "9/16",
+          "5/8"
+        ],
+        "original_support_polynomial": "3*x**3/8 - 39*x**2/128 - 621*x/1024 + 539/1024",
+        "status": "supported"
+      },
+      {
+        "branch": "upper",
+        "envelope_null": false,
+        "function": "(16384*x**5 - 59392*x**4 + 74432*x**3 - 35304*x**2 + 3836*x)/(40960*x**5 - 148480*x**4 + 189920*x**3 - 97620*x**2 + 15895*x - 719)",
+        "interval": [
+          "9/16",
+          "5/8"
+        ],
+        "original_support_polynomial": "-10*x**5 + 145*x**4/4 - 5935*x**3/128 + 24405*x**2/1024 - 15895*x/4096 + 719/4096",
+        "status": "supported"
+      }
+    ],
+    "points": [
+      {
+        "lower": {
+          "attained": true,
+          "value": "1341/5201",
+          "witness": [
+            "7/16",
+            "1/2",
+            "9/16",
+            "5/8"
+          ]
+        },
+        "q": "3/8",
+        "status": "supported",
+        "upper": {
+          "attained": true,
+          "value": "72/137",
+          "witness": [
+            "5/16",
+            "1/4",
+            "1/4",
+            "1/4"
+          ]
+        },
+        "witness": [
+          "3/8",
+          "3/8",
+          "13/32",
+          "7/16"
+        ]
+      },
+      {
+        "lower": {
+          "attained": true,
+          "value": "2261/8777",
+          "witness": [
+            "1/2",
+            "9/16",
+            "5/8",
+            "11/16"
+          ]
+        },
+        "q": "7/16",
+        "status": "supported",
+        "upper": {
+          "attained": true,
+          "value": "994/1801",
+          "witness": [
+            "3/8",
+            "5/16",
+            "1/4",
+            "1/4"
+          ]
+        },
+        "witness": [
+          "7/16",
+          "7/16",
+          "7/16",
+          "15/32"
+        ]
+      },
+      {
+        "lower": {
+          "attained": true,
+          "value": "428/1693",
+          "witness": [
+            "9/16",
+            "5/8",
+            "11/16",
+            "3/4"
+          ]
+        },
+        "q": "1/2",
+        "status": "supported",
+        "upper": {
+          "attained": true,
+          "value": "1608/2873",
+          "witness": [
+            "7/16",
+            "3/8",
+            "5/16",
+            "1/4"
+          ]
+        },
+        "witness": [
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2"
+        ]
+      },
+      {
+        "lower": {
+          "attained": true,
+          "value": "666/2549",
+          "witness": [
+            "5/8",
+            "11/16",
+            "3/4",
+            "3/4"
+          ]
+        },
+        "q": "9/16",
+        "status": "supported",
+        "upper": {
+          "attained": true,
+          "value": "6309/11377",
+          "witness": [
+            "1/2",
+            "7/16",
+            "3/8",
+            "5/16"
+          ]
+        },
+        "witness": [
+          "9/16",
+          "9/16",
+          "9/16",
+          "17/32"
+        ]
+      },
+      {
+        "lower": {
+          "attained": true,
+          "value": "140/491",
+          "witness": [
+            "11/16",
+            "3/4",
+            "3/4",
+            "3/4"
+          ]
+        },
+        "q": "5/8",
+        "status": "supported",
+        "upper": {
+          "attained": true,
+          "value": "2885/5201",
+          "witness": [
+            "9/16",
+            "1/2",
+            "7/16",
+            "3/8"
+          ]
+        },
+        "witness": [
+          "5/8",
+          "5/8",
+          "19/32",
+          "9/16"
+        ]
+      }
+    ],
+    "status": "supported"
+  },
+  "lower_fixture": {
+    "branches": {
+      "lower": {
+        "candidates": [
+          {
+            "attained": false,
+            "kind": "supported_breakpoint",
+            "q": "1/2",
+            "value_interval": [
+              "0",
+              "0"
+            ],
+            "witness": null
+          }
+        ],
+        "extremum_enclosure": [
+          "0",
+          "0"
+        ]
+      },
+      "upper": {
+        "candidates": [
+          {
+            "attained": true,
+            "kind": "supported_breakpoint",
+            "q": "1/2",
+            "value_interval": [
+              "1/3",
+              "1/3"
+            ],
+            "witness": [
+              "1/2",
+              "1/2"
+            ]
+          }
+        ],
+        "extremum_enclosure": [
+          "1/3",
+          "1/3"
+        ]
+      }
+    },
+    "cells": [],
+    "points": [
+      {
+        "lower": {
+          "attained": false,
+          "value": "0",
+          "witness": null
+        },
+        "q": "1/2",
+        "status": "supported",
+        "upper": {
+          "attained": true,
+          "value": "1/3",
+          "witness": [
+            "1/2",
+            "1/2"
+          ]
+        },
+        "witness": [
+          "3/4",
+          "3/4"
+        ]
+      }
+    ],
+    "status": "supported"
+  },
+  "result_id": "K2415",
+  "scope": "Exact support-aware infimum/supremum certificates; candidate-wise attainment only. Conditional independent labels and valid joint metric calibration required.",
+  "upper_fixture": {
+    "branches": {
+      "lower": {
+        "candidates": [
+          {
+            "attained": true,
+            "kind": "supported_breakpoint",
+            "q": "1/2",
+            "value_interval": [
+              "2/3",
+              "2/3"
+            ],
+            "witness": [
+              "1/2",
+              "1/2"
+            ]
+          }
+        ],
+        "extremum_enclosure": [
+          "2/3",
+          "2/3"
+        ]
+      },
+      "upper": {
+        "candidates": [
+          {
+            "attained": false,
+            "kind": "supported_breakpoint",
+            "q": "1/2",
+            "value_interval": [
+              "1",
+              "1"
+            ],
+            "witness": null
+          }
+        ],
+        "extremum_enclosure": [
+          "1",
+          "1"
+        ]
+      }
+    },
+    "cells": [],
+    "points": [
+      {
+        "lower": {
+          "attained": true,
+          "value": "2/3",
+          "witness": [
+            "1/2",
+            "1/2"
+          ]
+        },
+        "q": "1/2",
+        "status": "supported",
+        "upper": {
+          "attained": false,
+          "value": "1",
+          "witness": null
+        },
+        "witness": [
+          "1/4",
+          "1/4"
+        ]
+      }
+    ],
+    "status": "supported"
+  }
+}

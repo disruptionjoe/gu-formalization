@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2415-boundary-pool-support](k2415-boundary-pool-support.json).
+- [k2416-positive-visibility-recovery](k2416-positive-visibility-recovery.json).
+- [k2417-coupled-three-w-compatibility](k2417-coupled-three-w-compatibility.json).
+
 - [k2412-exact-metric-pool-odds](k2412-exact-metric-pool-odds.json).
 - [k2413-joint-recovery-optimum](k2413-joint-recovery-optimum.json).
 - [k2414-inherited-polar-fiber](k2414-inherited-polar-fiber.json).

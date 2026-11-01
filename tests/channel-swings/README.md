@@ -1,4 +1,8 @@
 
+- [k2415-boundary-pool-support](k2415_boundary_pool_support_probe.py).
+- [k2416-positive-visibility-recovery](k2416_positive_visibility_recovery_probe.py).
+- [k2417-coupled-three-w-compatibility](k2417_coupled_three_w_compatibility_probe.py).
+
 - [k2412-exact-metric-pool-odds](k2412_exact_metric_pool_odds_probe.py).
 - [k2413-joint-recovery-optimum](k2413_joint_recovery_optimum_probe.py).
 - [k2414-inherited-polar-fiber](k2414_inherited_polar_fiber_probe.py).

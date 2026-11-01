@@ -1,0 +1,127 @@
+{
+  "anisotropic_fixtures": [
+    {
+      "H_squared": "61821729/169000000",
+      "L_squared": "622548413293/421213000000",
+      "best_scalar_L_squared": "9014813764441/5475769000000",
+      "upper": "487/1000"
+    },
+    {
+      "H_squared": "32736897/169000000",
+      "L_squared": "8255421173737/5475769000000",
+      "best_scalar_L_squared": "1839887963093/1095153800000",
+      "upper": "487/1000"
+    }
+  ],
+  "checks": {
+    "PSD_moment_changes_only_trace": true,
+    "algebraic_translation_radius": true,
+    "anisotropic_complete_Choi_CP_TP_0": true,
+    "anisotropic_complete_Choi_CP_TP_1": true,
+    "anisotropic_implementation_allowance": true,
+    "anisotropic_original_Bell_norm_0": true,
+    "anisotropic_original_Bell_norm_1": true,
+    "anisotropic_original_Choi_CP_TP": true,
+    "anisotropic_whole_error_upper_0": true,
+    "anisotropic_whole_error_upper_1": true,
+    "best_same_translation_scalar_error_above_half_0": true,
+    "best_same_translation_scalar_error_above_half_1": true,
+    "complete_Bell_blocks_0": true,
+    "complete_Bell_blocks_1": true,
+    "complete_branch_margins_0": true,
+    "complete_branch_margins_1": true,
+    "complete_instrument_convex_hull_CP_TP": true,
+    "conformal_length_vs_frobenius_det": true,
+    "decoder_original_Choi_CP_TP": true,
+    "full_scalar_family_derivative": true,
+    "gain_over_zero_visibility_optimum_0": true,
+    "gain_over_zero_visibility_optimum_1": true,
+    "opposite_input_average_identity": true,
+    "original_affine_composition_0_0": true,
+    "original_affine_composition_0_1": true,
+    "original_affine_composition_0_2": true,
+    "original_affine_composition_0_3": true,
+    "original_affine_composition_1_0": true,
+    "original_affine_composition_1_1": true,
+    "original_affine_composition_1_2": true,
+    "original_affine_composition_1_3": true,
+    "original_full_CP_TP_0": true,
+    "original_full_CP_TP_1": true,
+    "original_sign_block_CP_0_-1": true,
+    "original_sign_block_CP_0_1": true,
+    "original_sign_block_CP_1_-1": true,
+    "original_sign_block_CP_1_1": true,
+    "original_sign_blocks_TP_0": true,
+    "original_sign_blocks_TP_1": true,
+    "physical_second_moment_0": true,
+    "physical_second_moment_1": true,
+    "positive_visibility_lower_bound": true,
+    "rounded_decoder_feasible": true,
+    "scalar_family_boundary_CPTP": true,
+    "uniform_branch_lower_margin": true,
+    "uniform_gain_coefficient": true,
+    "weights_above_seven_tenths": true,
+    "whole_error_below_51_percent_0": true,
+    "whole_error_below_51_percent_1": true
+  },
+  "controls": {
+    "excess_identity_component_not_CP": true,
+    "isotropic_substitution_loses_gain_0": true,
+    "isotropic_substitution_loses_gain_1": true,
+    "preparation_only_discards_visibility_0": true,
+    "preparation_only_discards_visibility_1": true,
+    "replacing_Q_with_nu_identity_changes_actual_map_0": true,
+    "replacing_Q_with_nu_identity_changes_actual_map_1": true,
+    "scalar_family_above_boundary_not_CP": true
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2398-uncertain-clock-law-recovery-2026-10-31.md": "67fcdadbae8a33a1a0cddabb225ca68debacba169e0981698f67367d49aefa60",
+    "lab/process/k2410-variable-loss-recovery.json": "392fa6ce74989737b27a29f3d322ca419e4b4f898b0f8a7165d778371f945f93",
+    "lab/process/k2413-joint-recovery-optimum.json": "82cfeefbdd66b14ebd5dbf6cd2e1ed78fd0b23e39c73399da91f64f5bf25cdb8",
+    "tests/channel-swings/k2410_variable_loss_recovery_probe.py": "433b53fdc3cdfe32fdf6d57104920fb4032c86dc8dd0212bcc38c9826f3e3ced",
+    "tests/channel-swings/k2413_joint_recovery_optimum_probe.py": "881039f4a840879f9f097fcee284b43eaacd348d4ec0e05d28c5e642af08776e"
+  },
+  "fixtures": [
+    {
+      "H_squared": "379411843555133021/1081600000000000000",
+      "L_squared": "57779698036302460213421/35044921600000000000000",
+      "complete_upper": "51/100",
+      "law": 0,
+      "moment": [
+        [
+          "25/338",
+          "30/169"
+        ],
+        [
+          "30/169",
+          "72/169"
+        ]
+      ]
+    },
+    {
+      "H_squared": "4823925898633718069/27040000000000000000",
+      "L_squared": "1483535645913921563153669/876123040000000000000000",
+      "complete_upper": "51/100",
+      "law": 1,
+      "moment": [
+        [
+          "49/1250",
+          "-84/625"
+        ],
+        [
+          "-84/625",
+          "288/625"
+        ]
+      ]
+    }
+  ],
+  "inherited_checks": 14,
+  "inherited_original_checks": 70,
+  "new_optimum_outer_bracket": [
+    "1715296372484759/3993600000000000",
+    "487/1000"
+  ],
+  "result_id": "K2416",
+  "scope": "Positive-visibility upper construction and all-CPTP lower bound; exact new optimum unresolved. Physical moments must preserve the supplied means.",
+  "uniform_strict_gain": "min(trace(Q1),trace(Q2))/100 with algebraic tstar, epsilon=19/100"
+}

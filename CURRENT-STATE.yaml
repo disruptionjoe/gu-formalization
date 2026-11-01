@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: a7fc16b1a94e286b91a36b9f596d97cbceeb5d85
+revision_basis: 5e1a52e7770a7a39b87cd121b8ba203992b1f34d
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,16 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2415 extends exact metric-pool bounds to zero/one probabilities with original event
+    support, unattained extrema and a valid hidden-role consumer. K2416 constructs
+    positive-visibility recovery, solves the fixed-translation scalar affine family, and
+    certifies an anisotropic controller below0.487 while every scalar controller at the same
+    translation and good rotation exceeds0.5. Its unrestricted optimum remains bracketed,
+    not solved. K2417 finds66/168 failed three-W targets on the A-only projection and proves
+    all repeated polar cubic corrections admit a shared fifth-algebraic quartic lift;
+    repeated variables must remain in Euler/J elimination. The full coupled geometric family
+    remains open. All are conditional mathematics; source polarities and ledger0.263 are
+    unchanged. Historical predecessor (not live):
     K2412 implements complete exact stationary-root certification for rational
     metric-constrained pool odds, with sharp five-member endpoints and a direct hidden-role
     consumer improvement. K2413 proves the algebraic variable-loss recovery candidate
@@ -17928,6 +17938,15 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2415-boundary-pool-support-2026-10-31.md
+  - lab/process/k2415-boundary-pool-support.json
+  - tests/channel-swings/k2415_boundary_pool_support_probe.py
+  - explorations/conditional-build/k2416-positive-visibility-recovery-2026-10-31.md
+  - lab/process/k2416-positive-visibility-recovery.json
+  - tests/channel-swings/k2416_positive_visibility_recovery_probe.py
+  - explorations/conditional-build/k2417-coupled-three-w-compatibility-2026-10-31.md
+  - lab/process/k2417-coupled-three-w-compatibility.json
+  - tests/channel-swings/k2417_coupled_three_w_compatibility_probe.py
   - explorations/conditional-build/k2412-exact-metric-pool-odds-2026-10-31.md
   - lab/process/k2412-exact-metric-pool-odds.json
   - tests/channel-swings/k2412_exact_metric_pool_odds_probe.py
@@ -20074,6 +20093,9 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can combined repeated-coordinate Euler/J elimination and all original four-W/three-W
+  constraints produce one complete distinct-A/B compatible cubic, or a full
+  original-column obstruction? Historical predecessor (not live):
   Can the full inherited A affine fiber and B mixed-Euler/curved-J equations satisfy every
   original three-W quartic annihilator on one cubic, retaining all homogeneous freedoms?
   Historical predecessor (not live):
@@ -24272,6 +24294,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Use K2417 to eliminate repeated coordinates through the combined Euler/J map while
+  retaining left-annihilator constraints and back-substitution. Solve the retained
+  distinct A/B system with all earlier sectors simultaneously, then one shared quartic and
+  its Euler conditions using all11 quadratic generators. The A-only projection and fixed-A
+  repeated-only repair are excluded, not the full fiber. For recovery, seek a joint
+  all-CPTP primal/dual certificate that closes the gap to the physical anisotropic upper witness or improves it; the exact
+  scalar-family optimum fixes translation and good rotation only. Boundary pool bounds
+  require positive event support, nonnegative role-blind scores, justified joint
+  calibration and matching; global attainment classification is not asserted. Preserve
+  source/domain ceilings on common-bar/mobile, thermal163/164, native2+1/chirality,
+  physical quotient and native matter/light alternatives. Historical predecessor (not
+  live):
   Preserve the full A/B/C affine fiber and impose every original three-W quartic
   annihilator on one cubic, then all remaining sectors with one shared quartic and all11
   quadratic generators. A feasibility is inherited; the old short dual now has an explicit

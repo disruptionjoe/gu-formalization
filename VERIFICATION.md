@@ -5,6 +5,19 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2415--K2417: Boundary support, positive visibility and coupled reduction (2026-10-31)
+
+K2415 extends exact metric-pool bounds to zero/one probabilities with original event support, unattained extrema and a valid hidden-role consumer. K2416 constructs positive-visibility recovery, solves the fixed-translation scalar affine family, and certifies an anisotropic controller below0.487 while every scalar controller at the same translation and good rotation exceeds0.5. Its unrestricted optimum remains bracketed, not solved. K2417 finds66/168 failed three-W targets on the A-only projection and proves all repeated polar cubic corrections admit a shared fifth-algebraic quartic lift; repeated variables must remain in Euler/J elimination. The full coupled geometric family remains open. All are conditional mathematics; source polarities and ledger0.263 are unchanged.
+
+- [K2415](explorations/conditional-build/k2415-boundary-pool-support-2026-10-31.md).
+- [K2416](explorations/conditional-build/k2416-positive-visibility-recovery-2026-10-31.md).
+- [K2417](explorations/conditional-build/k2417-coupled-three-w-compatibility-2026-10-31.md).
+
+Independent probability, quantum-channel and geometry reviews challenged original support, physical complete norms and full-coordinate transfers. Review corrected deterministic science endpoints and retained role-blind score assumptions; its anisotropic recovery challenge was executed with a strict original-channel gain. Geometry review accepted the universal algebraic proof and exact primitive fixture while keeping Euler/J feasibility unresolved.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2412--K2414: Exact odds, full joint recovery and inherited polar fiber (2026-10-31)
 
 K2412 implements complete exact stationary-root certification for rational metric-constrained pool odds, with sharp five-member endpoints and a direct hidden-role consumer improvement. K2413 proves the algebraic variable-loss recovery candidate globally optimal over all good/bad CPTP channels, with a general sufficient certificate and quantitative contraction penalty. K2414 replays the inherited feasible A projection, then constructs a seven-term B/C correction preserving full lower Euler and all curved J equations; scaling repairs the old short three-W obstruction while retaining all-W/four-W acceptance. Complete three-W replay finds80/168 failed targets and a fresh original-column dual, versus79 before repair; no net sector compatibility improvement is claimed. The broader coupled family remains open. All are conditional mathematical results; source polarities and ledger0.263 remain unchanged.

@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-10-31: EXACT ODDS, FULL JOINT RECOVERY AND POLAR FIBER.**
+> **2026-10-31: BOUNDARY SUPPORT, POSITIVE VISIBILITY AND COUPLED REDUCTION.**
+> Use K2417 to eliminate repeated coordinates through the combined Euler/J map while retaining left-annihilator constraints and back-substitution. Solve the retained distinct A/B system with all earlier sectors simultaneously, then one shared quartic and its Euler conditions using all11 quadratic generators. The A-only projection and fixed-A repeated-only repair are excluded, not the full fiber. For recovery, seek a joint all-CPTP primal/dual certificate that closes the gap to the physical anisotropic upper witness or improves it; the exact scalar-family optimum fixes translation and good rotation only. Boundary pool bounds require positive event support, nonnegative role-blind scores, justified joint calibration and matching; global attainment classification is not asserted. Preserve source/domain ceilings on common-bar/mobile, thermal163/164, native2+1/chirality, physical quotient and native matter/light alternatives.
+
+
+> **Historical predecessor, no longer the live next condition: 2026-10-31 EXACT ODDS, FULL JOINT RECOVERY AND POLAR FIBER.**
 > Preserve the full A/B/C affine fiber and impose every original three-W quartic annihilator on one cubic, then all remaining sectors with one shared quartic and all11 quadratic generators. A feasibility is inherited; the old short dual now has an explicit seven-term full Euler/J repair, so neither can serve as a remaining obstruction. The scaled particular cubic fails80/168 three-W targets with a fresh exact dual; solve the coupled system rather than repeat isolated repairs. The broader family remains open. Use exact metric-odds certification only with justified joint calibration bounds and the matched original consumer. The zero-visibility two-law all-CPTP recovery optimum is settled; positive-visibility recovery needs a new complete instrument norm/certificate. Retain common-bar/mobile, thermal163/164, native2+1/chirality, physical quotient and native matter/light alternatives under their source/domain ceilings.
 
 
