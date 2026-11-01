@@ -5,6 +5,10 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-11-01: ANALYTIC FAMILIES, INFORMATION BUDGETS AND LOCAL VERIFICATION.**
+> Use the fixed-passive-degree and eleven-variable scalar inverses as restricted linear ingredients, retaining actual 4/d normalization and the explicit scalar radius factor8520/8519. Full unbounded mixed ordinary forcing and nonlinear closure need a joint estimate or full-bank dual obstruction; restricted inverses and finite ranks do not settle them. The two-setting local verifier has exact gaps(1-sqrt(27/127))/2 and(1-sqrt(15/67))/2 but requires twelve conditional coherent E projections, trusted F/R/B bases and complete-effect calibration. Total expected test-to-use risk KL can replace a worst-history leakage bound only with the same frozen pU event and justified finite-prefix budget; persistent leakage accumulates. Current-resource E/test data stay out of the privately initialized controller; prior classical history may select it. Actual apparatus/storage/routing evidence and native shared-source matter/light, common-bar/mobile, thermal163/164, native2+1/chirality and positive physical quotient remain open.
+
+
 > **2026-11-01: MIXED ADJOINT, ROBUST ROUTING AND LOCAL VERIFICATION.**
 > Use K2449 exact full mixed adjoint on the trace/double-divergence quotient; prove a uniform geometric lower bound or construct an original invariant contrary family. Kernel identification and further finite ranks do not establish convergence; nonlinear majorant and same-section realization remain separate. K2451 supplies a finite four-register local verifier with a smaller proved gap, not hardware calibration or freedom from coherent flag/environment access. Test actual local filter/basis/feedforward/storage and per-history branch-separation assumptions; K2450 makes leakage an explicit nonzero floor, never an observed secrecy guarantee. Preserve success-weighted means, nonzero actual uses, predictable parameter choices and source/ledger ceilings. Shared native matter/light, common-bar/mobile, thermal163/164, native2+1/chirality and positive physical quotient remain distinct open routes.
 

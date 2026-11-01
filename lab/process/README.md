@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2452-partial-analytic-hook-inverse](k2452-partial-analytic-hook-inverse.json).
+- [k2453-use-reference-information-budget](k2453-use-reference-information-budget.json).
+- [k2454-two-setting-local-verifier](k2454-two-setting-local-verifier.json).
+
 - [k2449-full-mixed-boundary-adjoint](k2449-full-mixed-boundary-adjoint.json).
 - [k2450-route-leakage-certificate](k2450-route-leakage-certificate.json).
 - [k2451-verifier-operation-boundary](k2451-verifier-operation-boundary.json).

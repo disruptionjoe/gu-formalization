@@ -6,6 +6,19 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2452--K2454: Analytic families, information budgets and local verification (2026-11-01)
+
+K2452 proves analytic linear inversion for fixed finite passive degree and an explicit eleven-variable scalar family on the original hook operator. K2453 transfers stopping-safe actual-use risk bounds under a total expected directional information budget without changing the risk being certified. K2454 constructs a two-setting four-register local verifier with exact gaps above 0.26 for both original programs, replacing the tree bottleneck. These are conditional mathematical results, not measured performance or native GU recovery.
+
+- [K2452](explorations/conditional-build/k2452-partial-analytic-hook-inverse-2026-11-01.md).
+- [K2453](explorations/conditional-build/k2453-use-reference-information-budget-2026-11-01.md).
+- [K2454](explorations/conditional-build/k2454-two-setting-local-verifier-2026-11-01.md).
+
+Three read-only specialists developed and challenged original geometry, probability and quantum candidates. Lead independent review checked the complete proofs and original-object implementations; a separate quantum review accepted the information-budget common event and consumer after clarifying controller independence. No external-expert, proof-assistant, novelty or device-performance claim.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2449--K2451: Mixed adjoint, robust routing and local verification (2026-11-01)
 
 K2449 gives the full original mixed boundary-ideal adjoint, an independent dual proof of its exact compatibility kernel, and a sufficient joint coercivity criterion without claiming convergence. K2450 proves stopping-safe certificates with bounded conditional test/use leakage, a sharp family exponent and an unavoidable leakage floor. K2451 replaces the original internal entangled verifier effects with an explicit four-register local tree protocol, with exact conservative gaps85/10071 and221/27783 and priced sampling costs. These are conditional mathematical results, not measured performance or native GU recovery.

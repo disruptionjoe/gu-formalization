@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2452-partial-analytic-hook-inverse](conditional-build/k2452-partial-analytic-hook-inverse-2026-11-01.md).
+- [k2453-use-reference-information-budget](conditional-build/k2453-use-reference-information-budget-2026-11-01.md).
+- [k2454-two-setting-local-verifier](conditional-build/k2454-two-setting-local-verifier-2026-11-01.md).
+
 - [k2449-full-mixed-boundary-adjoint](conditional-build/k2449-full-mixed-boundary-adjoint-2026-11-01.md).
 - [k2450-route-leakage-certificate](conditional-build/k2450-route-leakage-certificate-2026-11-01.md).
 - [k2451-verifier-operation-boundary](conditional-build/k2451-verifier-operation-boundary-2026-11-01.md).

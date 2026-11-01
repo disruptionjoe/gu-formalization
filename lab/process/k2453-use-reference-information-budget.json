@@ -1,0 +1,135 @@
+{
+  "adaptive_tree": {
+    "actual_crossing_probability": "35/128",
+    "chain_cost": "[0.62229217273371825727477785019438892858998742719191166165194787905237257265 +/- 5.36e-75]",
+    "horizon": 7,
+    "nodes": 3280,
+    "nominal_alpha": "1/4",
+    "path_space_divergence": "[0.62229217273371825727477785019438892858998742719191166165194787905237257265 +/- 6.51e-75]",
+    "reference_crossing_probability": "9/64",
+    "transferred_upper_bracket": "3964912788940625333942575258297/5070602400912917605986812821504"
+  },
+  "checks": {
+    "adaptive_both_laws_normalized": true,
+    "adaptive_chain_rule_identity": true,
+    "adaptive_event_data_processing": true,
+    "adaptive_reference_crossing_bound": true,
+    "adaptive_transferred_bound": true,
+    "consumer_count_suffices_gap_half_one_slot": true,
+    "consumer_count_suffices_gap_half_two_slot": true,
+    "consumer_count_suffices_k2454_original_law_0": true,
+    "consumer_count_suffices_k2454_original_law_1": true,
+    "consumer_positive_success_gap_half_one_slot": true,
+    "consumer_positive_success_gap_half_two_slot": true,
+    "consumer_positive_success_k2454_original_law_0": true,
+    "consumer_positive_success_k2454_original_law_1": true,
+    "entropy_design_orientation": true,
+    "harmless_endpoint_finite_cost": true,
+    "nominal_alpha_below_actual_allowance": true,
+    "one_sided_cost_strictly_improves": true,
+    "one_sided_full_chain_identity": true,
+    "pointwise_reference_optimum_1/4": true,
+    "pointwise_reference_optimum_3/4": true,
+    "positive_consumer_denominator_gap_half_one_slot": true,
+    "positive_consumer_denominator_gap_half_two_slot": true,
+    "positive_consumer_denominator_k2454_original_law_0": true,
+    "positive_consumer_denominator_k2454_original_law_1": true,
+    "rare_expected_budget": true,
+    "reference_exponential_expectations": true,
+    "sharp_event_inverse_bracket": true,
+    "sharp_event_path_divergence": true,
+    "source_label_data_processing_strict": true,
+    "source_route_mutual_information_finite": true,
+    "unit_event_threshold": true,
+    "zero_budget_equal_law": true
+  },
+  "controls": {
+    "acceptance_can_concentrate_failure": true,
+    "actual_process_need_not_be_supermartingale": true,
+    "adaptive_crossing_nonzero": true,
+    "consumer_predecessor_fails_gap_half_one_slot": true,
+    "consumer_predecessor_fails_gap_half_two_slot": true,
+    "consumer_predecessor_fails_k2454_original_law_0": true,
+    "consumer_predecessor_fails_k2454_original_law_1": true,
+    "entropy_omission_cannot_calibrate": true,
+    "harmless_histories_genuinely_present": true,
+    "identical_records_do_not_identify_use_risk": true,
+    "lower_cost_cannot_cover_sharp_event": true,
+    "overcharged_equal_mean_reference": true,
+    "product_reference_cannot_use_actual_use_exponent": true,
+    "product_reference_changes_risk": true,
+    "rare_cost_not_worst_history_cost": true,
+    "realized_zero_cost_is_not_expected_zero": true,
+    "reverse_kl_is_not_forward_budget": true,
+    "support_failure_0": true,
+    "support_failure_1": true
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2444-sharp-heralded-transfer-2026-11-01.md": "5eadfe16c8b827aff2e84f16cbd9dcf976c0f566afc8562fb880859ac0852216",
+    "explorations/conditional-build/k2448-binary-hidden-route-certificate-2026-11-01.md": "745948d78f9f18f02ce72d3f6a234aa8be03be6d06a96bb4ca1f717d5b33ba28",
+    "explorations/conditional-build/k2450-route-leakage-certificate-2026-11-01.md": "14f30d07b605f7061e6dbb786c3415d5d2648eb3e809ac741add42ddceeb8d8f",
+    "explorations/conditional-build/k2453-use-reference-information-budget-2026-11-01.md": "391bbf6b9742137c75af0cc96e17131506efa49ececa13c0fb7bec6414393970",
+    "explorations/conditional-build/k2454-two-setting-local-verifier-2026-11-01.md": "1d3e21154aeac2bb0b76639551855ed977ead94c438750f812fb9b07574b1e46",
+    "tests/channel-swings/k2453_use_reference_information_budget_probe.py": "6814d109daa28ea7185e078459552f3a98ecf8207af4ad024137a1371017bf7e"
+  },
+  "evidence_kinds": {
+    "ceiling": "external expected total risk-divergence premise; no inferred secrecy or physical Q",
+    "finite": "independent exact adaptive tree, sharp-event controls and Arb consumer bounds",
+    "universal": "written common-risk reference, KL chain rule, binary event inverse and increasing-prefix proof"
+  },
+  "prospective_not_data": {
+    "actual_failure_allowance": "1/20",
+    "consumers": [
+      {
+        "case": "gap_half_one_slot",
+        "gap_interval": "0.5000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "output_allowance": "[0.00999999365412030056638687110723365116970027516215255620202483954520127066385 +/- 1.24e-78]",
+        "required_actual_uses": 485592,
+        "risk_denominator": "[1.239000200000000000000000000000000000000000000000000000000000000000000000000e-5 +/- 9.04e-82]",
+        "slots": 1,
+        "success_margin": "[0.2475000015864699248584032822231915872075749312094618609494937901136996823340 +/- 4.02e-77]"
+      },
+      {
+        "case": "gap_half_two_slot",
+        "gap_interval": "0.5000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "output_allowance": "[0.00999999955248763766287846784827103146635465271490525337781969441834126536490 +/- 1.73e-78]",
+        "required_actual_uses": 8864031,
+        "risk_denominator": "[6.787520000000000000000000000000000000000000000000000000000000000000000000000e-7 +/- 5.83e-83]",
+        "slots": 2,
+        "success_margin": "[0.06187500002796952264607009575948306053335283420531842166388626909885367091469 +/- 3.98e-78]"
+      },
+      {
+        "case": "k2454_original_law_0",
+        "gap_interval": "[0.2694580161896480113808023744321384853131572808359588856136289195727092202994 +/- 1.33e-77]",
+        "output_allowance": "[0.00999999668262725019288210966248201269912763858075878640224357607930093279001 +/- 2.16e-78]",
+        "required_actual_uses": 907318,
+        "risk_denominator": "[6.631062322249472082884488836524317091676610127911376306463992865441954613916e-6 +/- 5.29e-82]",
+        "slots": 1,
+        "success_margin": "[0.2475000008293431874517794725843794968252180903548103033994391059801747668025 +/- 9.75e-78]"
+      },
+      {
+        "case": "k2454_original_law_1",
+        "gap_interval": "[0.2634198882963080869710138459402350340269059935215898206500920294738960048294 +/- 4.73e-77]",
+        "output_allowance": "[0.00999999955586845965946622286592778755941707375341966153838591183057654837079 +/- 1.66e-78]",
+        "required_actual_uses": 928436,
+        "risk_denominator": "[6.480229863321329197768273755642454910932247825793287806198581496626040096221e-6 +/- 8.67e-82]",
+        "slots": 1,
+        "success_margin": "[0.2475000001110328850851334442835180531101457315616450846154035220423558629073 +/- 4.74e-78]"
+      }
+    ],
+    "nominal_alpha": "[0.0154475499590210924054826067528287935192274188992267406285966961974106075952 +/- 5.72e-77]",
+    "nominal_log_threshold": "[4.170304866917451128532950316981598306021826495097117050858913717442763293721 +/- 6.64e-76]",
+    "total_budget_nats": "1/100"
+  },
+  "rare_history": {
+    "expected_total_cost": "[0.0003384507717577857956138828718057502773806152999805933858011132858854461044774 +/- 1.02e-80]",
+    "probability": "1/1024"
+  },
+  "result_id": "K2453",
+  "sharp_event": {
+    "actual_probability": "1/5",
+    "divergence_interval": "[0.1397786666826507458948136917391528152818970746576158600040798450487828774395 +/- 6.13e-77]",
+    "exact_divergence_expression": "(1/5)*log(4)+(4/5)*log(16/19)",
+    "reference_probability": "1/20"
+  }
+}

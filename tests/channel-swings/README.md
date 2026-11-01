@@ -1,4 +1,8 @@
 
+- [k2452-partial-analytic-hook-inverse](k2452_partial_analytic_hook_inverse_probe.py).
+- [k2453-use-reference-information-budget](k2453_use_reference_information_budget_probe.py).
+- [k2454-two-setting-local-verifier](k2454_two_setting_local_verifier_probe.py).
+
 - [k2449-full-mixed-boundary-adjoint](k2449_full_mixed_boundary_adjoint_probe.py).
 - [k2450-route-leakage-certificate](k2450_route_leakage_certificate_probe.py).
 - [k2451-verifier-operation-boundary](k2451_verifier_operation_boundary_probe.py).
