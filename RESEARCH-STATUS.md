@@ -6,6 +6,19 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2467--K2469: Mixed lifts, entropy budgets and cost quantiles (2026-11-01)
+
+K2467 constructs seven original ordinary-cancelling hook families, covering all scalar forcing through degree six with an analytic inverse bound, and identifies 36 first missing constructed-family directions at degree seven. K2468 proves an exact variational stopping coefficient, narrows it to 2.335604558... through 2.5, and gives a sharp smaller expected entropy cost. K2469 globally optimizes prospective cost quantiles on both full 108-dimensional verifier programs, certifying budgets 828 and 846 for the supplied normalized parameters. These are conditional mathematical results; source polarities, ledger 0.263 and physical credit remain unchanged.
+
+- [K2467](explorations/conditional-build/k2467-mixed-hook-generators-2026-11-01.md).
+- [K2468](explorations/conditional-build/k2468-stopped-original-budget-2026-11-01.md).
+- [K2469](explorations/conditional-build/k2469-verifier-cost-tail-2026-11-01.md).
+
+Three read-only field specialists independently reviewed the original hook identities and constructed-family image, actual-law entropy stopping proof and global scalar bound, and complete-carrier prospective cost optimization. Root serialized original-bank and exact/Arb256 checks. Universal arguments are distinct from finite arithmetic and reporting checks; internal review is not external-expert or proof-assistant certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2464--K2466: Cancelling lifts, sharp leakage and verifier design (2026-11-01)
 
 K2464 constructs an original ordinary-cancelling hook inverse and classifies its enlarged thirteen-dimensional span: all twelve-variable forcing is covered with a geometric analytic bound, while four cubic constraints remain. K2465 proves the sharp half/half leakage compensation and transfer constants, and proves coefficient-one expected exact-cost sharpness within actual binary stopping experiments. K2466 solves full108-dimensional two-effect verifier design with unequal calibration and costs, including character crossovers a calibrated added-effect dual, and an exhaustive finite-trial optimizer that improves both rounded continuous designs. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.

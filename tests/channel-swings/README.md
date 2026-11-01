@@ -1,4 +1,8 @@
 
+- [k2467-mixed-hook-generators](k2467_mixed_hook_generators_probe.py).
+- [k2468-stopped-original-budget](k2468_stopped_original_budget_probe.py).
+- [k2469-verifier-cost-tail](k2469_verifier_cost_tail_probe.py).
+
 - [k2464-cancelling-hook-inverse](k2464_cancelling_hook_inverse_probe.py).
 - [k2465-sharp-leakage-compensator](k2465_sharp_leakage_compensator_probe.py).
 - [k2466-calibrated-verifier-design](k2466_calibrated_verifier_design_probe.py).

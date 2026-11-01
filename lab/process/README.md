@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2467-mixed-hook-generators](k2467-mixed-hook-generators.json).
+- [k2468-stopped-original-budget](k2468-stopped-original-budget.json).
+- [k2469-verifier-cost-tail](k2469-verifier-cost-tail.json).
+
 - [k2464-cancelling-hook-inverse](k2464-cancelling-hook-inverse.json).
 - [k2465-sharp-leakage-compensator](k2465-sharp-leakage-compensator.json).
 - [k2466-calibrated-verifier-design](k2466-calibrated-verifier-design.json).
