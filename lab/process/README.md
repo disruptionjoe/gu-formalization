@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2435-fischer-frame-annihilator](k2435-fischer-frame-annihilator.json).
+- [k2436-multiround-process-certificate](k2436-multiround-process-certificate.json).
+
 - [k2433-lower-quartic-compatibility](k2433-lower-quartic-compatibility.json).
 - [k2434-direct-preparation-leakage](k2434-direct-preparation-leakage.json).
 

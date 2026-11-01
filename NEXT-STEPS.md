@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-01: FORMAL ALGEBRAIC/EULER8 EXTENSION AND SHARP PREPARATION LEAKAGE.**
+> **2026-11-01: ALL-DEGREE FRAME IMAGE AND PROCESS CERTIFICATE.**
+> Use K2435's all-degree ordinary image theorem instead of another T_k rank bank. Keep K2433's coherent formal Gram/sigma family and Euler-through8 unchanged. Derive the original augmented scalar compatibility adjoint on the same lower jets; ordinary image completeness does not supply it or a ninth-Euler extension. For quantum processes, instantiate the fixed-slot joint Bell experiment with trusted whole-batch preparation/readout and operational costs, or derive a mixed/instrument-target conditioning theorem. Actual marginal failures bound actual p and require B transfer; pure ideal marginals constrain the whole same-batch process. Future behavior requires independent transport evidence. Retain paired native source-fixed matter/light response, common-bar/mobile, thermal163/164, native2+1/chirality and physical quotient ceilings.
+
+
+> **Historical predecessor, superseded by K2435/K2436: 2026-11-01 FORMAL ALGEBRAIC/EULER8 EXTENSION AND SHARP PREPARATION LEAKAGE.**
 > Use K2433's coherent formal Gram/sigma family with Euler through8 as the shared input. Study the original Fischer-dual frame/Euler annihilator, including linear Koszul/rotation generators and degree-dependent terms; ordinary finite rank saturation cannot prove all-degree surjectivity. A specific ninth-Euler extension additionally needs augmented septic compatibility. Scalar Gram and mixed-normal algebraic lifting are already settled. For recovery, instantiate trusted conditional preparation/readout, complete instrument costs and uniform reset/fixed-reference transfer, or a specified multiround tester; the universal B(p,q) envelope is sharp. Retain paired native fixed-source/matter-light response as the strongest independent physics challenger, with its typed source/current/readout inputs still missing.
 
 

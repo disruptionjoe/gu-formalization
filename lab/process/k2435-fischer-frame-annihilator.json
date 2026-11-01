@@ -1,0 +1,1837 @@
+{
+  "result_id": "K2435",
+  "scope": "Exact ordinary original frame/Euler image in every homogeneous degree; no augmented compatibility, new shared Euler order or convergence claim.",
+  "checks": {
+    "all161_trace_and_double_divergence_constant_operators": true,
+    "all112_universal_linear_operators": true,
+    "all161_original_constant_Fischer_pairings": true,
+    "all112_original_linear_Fischer_pairings": true,
+    "original_six_inactive_axes": true,
+    "fifteen_dark_receivers_annihilate_repeated_symbol": true,
+    "rotation_resolves_dark_constant_subspace": true,
+    "Koszul_cannot_resolve_dark_constants": true,
+    "constant_only_kernel_strictly_exceeds_universal_two": true,
+    "all36_original_rotation_operator_identities": true,
+    "anchor_divergence": true,
+    "every_other_divergence_propagates": true,
+    "all30_Euler_shifts_nonresonant": true,
+    "generic_rank88_with_universal17_kernel": true,
+    "quadratic_kernel_primitive_three_entries": true,
+    "inactive_diagonal_extracts_trace_coefficient": true,
+    "all_degree_formula_reproduces_inherited_T0_through_T7": true,
+    "ambient_filtration_convolution": true,
+    "homogeneous_potential_recovery": true,
+    "potential_is_closed": true,
+    "resonance_preceding_degrees_surjective": true,
+    "resonance_degree_N_one_dimensional_failure": true
+  },
+  "controls": {
+    "omitted_linear_generator_derivative_detected": true,
+    "raw_symmetric_offdiagonal_factor_detected": true,
+    "naive_Euler_plus_one_shift_rejected": true,
+    "nonclosed_potential_rejected": true,
+    "finite_saturation_does_not_certify_all_degrees": true
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2375-axial-hook-stationarity-2026-10-31.md": "d6b5435055da3615386471831dadea4329e32ca3b26cffe341152a9fc5c3f402",
+    "explorations/conditional-build/k2393-coupled-polar-dual-2026-10-31.md": "260cec53dd5709278a5095823ecaa3d4ddf449b1997059287a81fadca7269303",
+    "explorations/conditional-build/k2405-fifth-euler-compatibility-2026-10-31.md": "4e59bdc36fcabf312557cb5b6f26959db2e03b272629d0a46e403516ffbc9e94",
+    "explorations/conditional-build/k2411-broader-polar-compatibility-2026-10-31.md": "d152122bcec12b1010aa321c5e97e70f692c17040fd7b95ce754b808960da45d",
+    "explorations/conditional-build/k2417-coupled-three-w-compatibility-2026-10-31.md": "533e2d9bffdacf782671e1c52a8af41a1fbfbe4b62f0222a5cae84b72d13d7dd",
+    "lab/process/k2378-null-hook-jet-compatibility.json": "37fca8ea51b57f371747fc98aec2b6f9754853b03251dbd1d709a089898073a9",
+    "lab/process/k2381-rotated-null-hook-prolongation.json": "208328f1fdd7661d6fd264c9ca79a26a4cc12b18f035685f62484ad9b7fa9559",
+    "lab/process/k2384-third-hook-jet-compatibility.json": "4245a8869e8e0ec78263dd58d39ea285de245df8d60dffdd14776faccca43162",
+    "lab/process/k2387-coupled-hook-jet-blocks.json": "970eea2a764f786104a1a9e71ca4518e6c53b21ae77fd12d45a6e8ff517e4369",
+    "lab/process/k2390-full-hook-jet.json": "c42b5d0cefb5308ba3c7c48433fdbbd81b97e88e4fd80d6ce420e1c652766123",
+    "lab/process/k2393-coupled-polar-dual.json": "cda6755b83b1698ac33a651504e8a27a8301fe8780615b1e737085cad68ed5ca",
+    "lab/process/k2396-full-polar-coupled-repair.json": "72d17be4c9b1fe7b72e5fc462d49c03445b17462ee7e5a78c64777abfd0c55ea",
+    "lab/process/k2399-complete-polar-joint-lift.json": "761aaf54cbd9e46ee126e071f6d16f91ea5473ea7eb2a36ac5df1efba17762cb",
+    "lab/process/k2402-coupled-polar-compatibility.json": "d455772e6a36c81eff97e4c73b60b57477fb47ce14615c7f4c3cba1c9b859da3",
+    "lab/process/k2405-fifth-euler-compatibility.json": "c862b0872b8ad6ecaac8dabcfc4ab31a8b876f758e54ebfdf0cb42258bbf07fc",
+    "lab/process/k2408-joint-cubic-compatibility.json": "1a87048f1fb3020da67dba9aff250d30d310a3be478ca26a9724fc50ec871b37",
+    "lab/process/k2414-inherited-polar-fiber.json": "e8eb7b2654f1e352fe7e83b0e0a1aa32f0290caf5c50c2276d484bfb9b6c102b",
+    "lab/process/k2417-coupled-three-w-compatibility.json": "395510ac1d80c006d00207f19f53f5781408517e92dca35737395c44a572ed5f",
+    "lab/process/k2420-coupled-nuisance-image.json": "edbabccc04e4e3b3596a2b518da446ec73e5862b3654109898662f1db013e9da",
+    "lab/process/k2421-mixed-sixth-structural-reduction.json": "f9737a5dc8d558409497c1219238d442a319889447aa3f0f8eed143e460c619a",
+    "lab/process/k2423-corotating-mixed-sixth.json": "12b89e3414676ce8990a6b0611ded42a1426b07a7b3dabe3be89781f4ae5475b",
+    "lab/process/k2425-frame-euler-module.json": "fbf7e7670a8251bd614c2cb5c72042f479b09317a04c350a7b2942fb28b59572",
+    "lab/process/k2427-frame-boundary-quotient.json": "35fd6e3ca30433f8435847437cb0305e18b76ead8f9a2bbc08a0af253256afc9",
+    "lab/process/k2429-shared-eighth-euler-extension.json": "7e44e0a88656a9dc8cac9466cc9eb18e9ffacd5ba45a2a3bc3fc557c3636ca1b",
+    "lab/process/k2431-quintic-vanishing-ideal.json": "2e358860bbd04f2cb1e04407e1060c20494e48b000fec2464e2d5f5373a345e5",
+    "tests/channel-swings/k2345_curved_bundle_ricci_obstruction_probe.py": "259a8d35a8fb07b71bbd8771f0cefbd51775f2e008b8583c0a28bfce78552027",
+    "tests/channel-swings/k2378_null_hook_jet_compatibility_probe.py": "0e7175c484585b92e1093d85e2e0bb293249eda9224d5e7eb22d90bccb18711c",
+    "tests/channel-swings/k2381_rotated_null_hook_prolongation_probe.py": "493a679da7b26c619b306d9565a3ee2cb882f94dfd1f2fa8dd0a21ea62708a17",
+    "tests/channel-swings/k2387_coupled_hook_jet_blocks_probe.py": "f482f8f5cf54f75d471c765f46e3fcdb6f5d49e8674bb9057efb5b5be807416b",
+    "tests/channel-swings/k2390_full_hook_jet_probe.py": "68eac16a8b282fe05a7d45ee76ca13028a923104628c819704303ff4746a2260",
+    "tests/channel-swings/k2393_coupled_polar_dual_probe.py": "a7ca2c1b77fa3d89b64daf6e5fd33ecfc4b48681da87ac4572818269b7209c4c",
+    "tests/channel-swings/k2396_full_polar_coupled_repair_probe.py": "4e378821a976773241dd839bbdc6494ea8a8a038f434f44b1ba0c7c696097202",
+    "tests/channel-swings/k2399_complete_polar_joint_lift_probe.py": "23aa9051bb10ab69c35e8ea446a8ab4d36a0b80b4cfebcc0aa956bc383eccf88",
+    "tests/channel-swings/k2402_coupled_polar_compatibility_probe.py": "03295360fcc118611247e4188bd7a2c4297e6ca50ff8a9deb588814d1f268027",
+    "tests/channel-swings/k2405_fifth_euler_compatibility_probe.py": "71e3645dc813f482d1b5d9201c0bfe2aaeae7e9cd43b6a5e0dc8bdc951382558",
+    "tests/channel-swings/k2408_joint_cubic_compatibility_probe.py": "cc59d069d4ce4bed0104b22a58706027a2a080ae87132cd0f881adba3505dec1",
+    "tests/channel-swings/k2414_inherited_polar_fiber_probe.py": "89d44d985e40897ab8b222e5e7ee992a6fd401e4a14c2d4c08ba2cb9b6f05b1f",
+    "tests/channel-swings/k2417_coupled_three_w_compatibility_probe.py": "0a0edaf84e9ef95e64c64ada02e32263ef83ca4a824c4f9fd01cc6e2313f3dd2",
+    "tests/channel-swings/k2421_mixed_sixth_structural_reduction_probe.py": "05d7684c7acb45965cd2dbf7e793b2099b340138a855b2c7a1a9584a6832d8a9",
+    "tests/channel-swings/k2425_frame_euler_module_probe.py": "99c9f284517a0738cb559afa15ab38275ff20a755af7c502bd6ba88e2d735a3a",
+    "tests/channel-swings/k2427_frame_boundary_quotient_probe.py": "8a21a954cacd1f6e8b579b1c4bd88effecb0bd2040bb29b31ce77860b66c7b5a",
+    "tests/channel-swings/k2429_shared_eighth_euler_extension_probe.py": "0c873fb07ce12cd6cce20388227630081cdaa10777b2818da5c32e87f61b5ea7",
+    "tests/channel-swings/k2431_quintic_vanishing_ideal_probe.py": "79001d100d75a29a2660b84574da38ebedc89c79352f3345610d2393606738eb"
+  },
+  "original_generator_counts": {
+    "constant": 161,
+    "koszul": 21,
+    "rotation": 91
+  },
+  "rotation_operator_bank": [
+    {
+      "rotation": [
+        "rotation",
+        0,
+        3
+      ],
+      "coefficients": {
+        "(0, 0, 0)": "-53/70",
+        "(0, 3, 5)": "1/70",
+        "(0, 4, 6)": "1/70",
+        "(0, 5, 7)": "1/70",
+        "(0, 6, 8)": "1/70"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        0,
+        10
+      ],
+      "coefficients": {
+        "(0, 0, 1)": "-53/70",
+        "(0, 2, 5)": "1/70",
+        "(0, 4, 9)": "1/70",
+        "(0, 5, 10)": "1/70",
+        "(0, 6, 11)": "1/70"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        0,
+        11
+      ],
+      "coefficients": {
+        "(0, 0, 2)": "9/35",
+        "(0, 2, 6)": "36/35",
+        "(0, 3, 9)": "36/35",
+        "(0, 5, 12)": "36/35",
+        "(0, 6, 13)": "36/35"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        0,
+        12
+      ],
+      "coefficients": {
+        "(0, 0, 3)": "9/35",
+        "(0, 2, 7)": "36/35",
+        "(0, 3, 10)": "36/35",
+        "(0, 4, 12)": "36/35",
+        "(0, 6, 14)": "36/35"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        0,
+        13
+      ],
+      "coefficients": {
+        "(0, 0, 4)": "9/35",
+        "(0, 2, 8)": "36/35",
+        "(0, 3, 11)": "36/35",
+        "(0, 4, 13)": "36/35",
+        "(0, 5, 14)": "36/35"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        1,
+        2
+      ],
+      "coefficients": {
+        "(1, 2, 0)": "4506/35",
+        "(1, 3, 1)": "4506/35",
+        "(1, 4, 2)": "4506/35",
+        "(1, 5, 3)": "4506/35",
+        "(1, 6, 4)": "4506/35"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        1,
+        3
+      ],
+      "coefficients": {
+        "(0, 0, 0)": "-53/35",
+        "(1, 1, 0)": "1/35",
+        "(2, 2, 0)": "48/35",
+        "(3, 3, 0)": "1/35",
+        "(4, 4, 0)": "1/35",
+        "(5, 5, 0)": "1/35",
+        "(6, 6, 0)": "1/35"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        1,
+        4
+      ],
+      "coefficients": {
+        "(1, 2, 0)": "-86407/10",
+        "(1, 3, 1)": "-86407/10",
+        "(1, 4, 2)": "-86407/10",
+        "(1, 5, 3)": "-86407/10",
+        "(1, 6, 4)": "-86407/10"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        1,
+        5
+      ],
+      "coefficients": {
+        "(2, 2, 0)": "-24/35",
+        "(2, 3, 1)": "-71/70",
+        "(2, 4, 2)": "-71/70",
+        "(2, 5, 3)": "-71/70",
+        "(2, 6, 4)": "-71/70"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        1,
+        6
+      ],
+      "coefficients": {
+        "(3, 2, 0)": "-71/70",
+        "(3, 3, 1)": "-24/35",
+        "(3, 4, 2)": "-71/70",
+        "(3, 5, 3)": "-71/70",
+        "(3, 6, 4)": "-71/70"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        1,
+        7
+      ],
+      "coefficients": {
+        "(4, 2, 0)": "-36/35",
+        "(4, 3, 1)": "-36/35",
+        "(4, 4, 2)": "-3/5",
+        "(4, 5, 3)": "-36/35",
+        "(4, 6, 4)": "-36/35"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        1,
+        8
+      ],
+      "coefficients": {
+        "(5, 2, 0)": "-36/35",
+        "(5, 3, 1)": "-36/35",
+        "(5, 4, 2)": "-36/35",
+        "(5, 5, 3)": "-3/5",
+        "(5, 6, 4)": "-36/35"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        1,
+        9
+      ],
+      "coefficients": {
+        "(6, 2, 0)": "-36/35",
+        "(6, 3, 1)": "-36/35",
+        "(6, 4, 2)": "-36/35",
+        "(6, 5, 3)": "-36/35",
+        "(6, 6, 4)": "-3/5"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        1,
+        10
+      ],
+      "coefficients": {
+        "(0, 0, 1)": "-53/35",
+        "(1, 1, 1)": "1/35",
+        "(2, 2, 1)": "1/35",
+        "(3, 3, 1)": "48/35",
+        "(4, 4, 1)": "1/35",
+        "(5, 5, 1)": "1/35",
+        "(6, 6, 1)": "1/35"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        1,
+        11
+      ],
+      "coefficients": {
+        "(0, 0, 2)": "18/35",
+        "(1, 1, 2)": "72/35",
+        "(2, 2, 2)": "72/35",
+        "(3, 3, 2)": "72/35",
+        "(4, 4, 2)": "6/5",
+        "(5, 5, 2)": "72/35",
+        "(6, 6, 2)": "72/35"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        1,
+        12
+      ],
+      "coefficients": {
+        "(0, 0, 3)": "18/35",
+        "(1, 1, 3)": "72/35",
+        "(2, 2, 3)": "72/35",
+        "(3, 3, 3)": "72/35",
+        "(4, 4, 3)": "72/35",
+        "(5, 5, 3)": "6/5",
+        "(6, 6, 3)": "72/35"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        1,
+        13
+      ],
+      "coefficients": {
+        "(0, 0, 4)": "18/35",
+        "(1, 1, 4)": "72/35",
+        "(2, 2, 4)": "72/35",
+        "(3, 3, 4)": "72/35",
+        "(4, 4, 4)": "72/35",
+        "(5, 5, 4)": "72/35",
+        "(6, 6, 4)": "6/5"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        2,
+        11
+      ],
+      "coefficients": {
+        "(1, 0, 2)": "319926/35",
+        "(1, 2, 6)": "319926/35",
+        "(1, 3, 9)": "319926/35",
+        "(1, 5, 12)": "319926/35",
+        "(1, 6, 13)": "319926/35"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        2,
+        12
+      ],
+      "coefficients": {
+        "(1, 0, 3)": "319926/35",
+        "(1, 2, 7)": "319926/35",
+        "(1, 3, 10)": "319926/35",
+        "(1, 4, 12)": "319926/35",
+        "(1, 6, 14)": "319926/35"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        2,
+        13
+      ],
+      "coefficients": {
+        "(1, 0, 4)": "319926/35",
+        "(1, 2, 8)": "319926/35",
+        "(1, 3, 11)": "319926/35",
+        "(1, 4, 13)": "319926/35",
+        "(1, 5, 14)": "319926/35"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        3,
+        4
+      ],
+      "coefficients": {
+        "(1, 0, 0)": "-8519",
+        "(1, 3, 5)": "-8519",
+        "(1, 4, 6)": "-8519",
+        "(1, 5, 7)": "-8519",
+        "(1, 6, 8)": "-8519"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        3,
+        5
+      ],
+      "coefficients": {
+        "(2, 0, 0)": "-1",
+        "(2, 3, 5)": "-1",
+        "(2, 4, 6)": "-1",
+        "(2, 5, 7)": "-1",
+        "(2, 6, 8)": "-1"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        3,
+        6
+      ],
+      "coefficients": {
+        "(3, 0, 0)": "-1",
+        "(3, 3, 5)": "-47/70",
+        "(3, 4, 6)": "-1",
+        "(3, 5, 7)": "-1",
+        "(3, 6, 8)": "-1"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        3,
+        7
+      ],
+      "coefficients": {
+        "(4, 0, 0)": "-71/70",
+        "(4, 3, 5)": "-71/70",
+        "(4, 4, 6)": "-41/70",
+        "(4, 5, 7)": "-71/70",
+        "(4, 6, 8)": "-71/70"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        3,
+        8
+      ],
+      "coefficients": {
+        "(5, 0, 0)": "-71/70",
+        "(5, 3, 5)": "-71/70",
+        "(5, 4, 6)": "-71/70",
+        "(5, 5, 7)": "-41/70",
+        "(5, 6, 8)": "-71/70"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        3,
+        9
+      ],
+      "coefficients": {
+        "(6, 0, 0)": "-71/70",
+        "(6, 3, 5)": "-71/70",
+        "(6, 4, 6)": "-71/70",
+        "(6, 5, 7)": "-71/70",
+        "(6, 6, 8)": "-41/70"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        3,
+        10
+      ],
+      "coefficients": {
+        "(2, 2, 5)": "-47/35",
+        "(3, 3, 5)": "47/35"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        3,
+        11
+      ],
+      "coefficients": {
+        "(0, 0, 6)": "71/35",
+        "(1, 1, 6)": "71/35",
+        "(2, 2, 6)": "24/35",
+        "(3, 3, 6)": "71/35",
+        "(4, 4, 6)": "41/35",
+        "(5, 5, 6)": "71/35",
+        "(6, 6, 6)": "71/35"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        3,
+        12
+      ],
+      "coefficients": {
+        "(0, 0, 7)": "71/35",
+        "(1, 1, 7)": "71/35",
+        "(2, 2, 7)": "24/35",
+        "(3, 3, 7)": "71/35",
+        "(4, 4, 7)": "71/35",
+        "(5, 5, 7)": "41/35",
+        "(6, 6, 7)": "71/35"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        3,
+        13
+      ],
+      "coefficients": {
+        "(0, 0, 8)": "71/35",
+        "(1, 1, 8)": "71/35",
+        "(2, 2, 8)": "24/35",
+        "(3, 3, 8)": "71/35",
+        "(4, 4, 8)": "71/35",
+        "(5, 5, 8)": "71/35",
+        "(6, 6, 8)": "41/35"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        4,
+        10
+      ],
+      "coefficients": {
+        "(1, 0, 1)": "-8519",
+        "(1, 2, 5)": "-8519",
+        "(1, 4, 9)": "-8519",
+        "(1, 5, 10)": "-8519",
+        "(1, 6, 11)": "-8519"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        4,
+        11
+      ],
+      "coefficients": {
+        "(1, 0, 2)": "1217/10",
+        "(1, 2, 6)": "1217/10",
+        "(1, 3, 9)": "1217/10",
+        "(1, 5, 12)": "1217/10",
+        "(1, 6, 13)": "1217/10"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        4,
+        12
+      ],
+      "coefficients": {
+        "(1, 0, 3)": "1217/10",
+        "(1, 2, 7)": "1217/10",
+        "(1, 3, 10)": "1217/10",
+        "(1, 4, 12)": "1217/10",
+        "(1, 6, 14)": "1217/10"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        4,
+        13
+      ],
+      "coefficients": {
+        "(1, 0, 4)": "1217/10",
+        "(1, 2, 8)": "1217/10",
+        "(1, 3, 11)": "1217/10",
+        "(1, 4, 13)": "1217/10",
+        "(1, 5, 14)": "1217/10"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        5,
+        10
+      ],
+      "coefficients": {
+        "(2, 0, 1)": "-1",
+        "(2, 2, 5)": "-47/70",
+        "(2, 4, 9)": "-1",
+        "(2, 5, 10)": "-1",
+        "(2, 6, 11)": "-1"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        5,
+        11
+      ],
+      "coefficients": {
+        "(2, 0, 2)": "1/70",
+        "(2, 2, 6)": "12/35",
+        "(2, 3, 9)": "1/70",
+        "(2, 5, 12)": "1/70",
+        "(2, 6, 13)": "1/70"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        5,
+        12
+      ],
+      "coefficients": {
+        "(2, 0, 3)": "1/70",
+        "(2, 2, 7)": "12/35",
+        "(2, 3, 10)": "1/70",
+        "(2, 4, 12)": "1/70",
+        "(2, 6, 14)": "1/70"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        5,
+        13
+      ],
+      "coefficients": {
+        "(2, 0, 4)": "1/70",
+        "(2, 2, 8)": "12/35",
+        "(2, 3, 11)": "1/70",
+        "(2, 4, 13)": "1/70",
+        "(2, 5, 14)": "1/70"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        6,
+        10
+      ],
+      "coefficients": {
+        "(3, 0, 1)": "-1",
+        "(3, 2, 5)": "-1",
+        "(3, 4, 9)": "-1",
+        "(3, 5, 10)": "-1",
+        "(3, 6, 11)": "-1"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        6,
+        11
+      ],
+      "coefficients": {
+        "(3, 0, 2)": "1/70",
+        "(3, 2, 6)": "1/70",
+        "(3, 3, 9)": "12/35",
+        "(3, 5, 12)": "1/70",
+        "(3, 6, 13)": "1/70"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        6,
+        12
+      ],
+      "coefficients": {
+        "(3, 0, 3)": "1/70",
+        "(3, 2, 7)": "1/70",
+        "(3, 3, 10)": "12/35",
+        "(3, 4, 12)": "1/70",
+        "(3, 6, 14)": "1/70"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        6,
+        13
+      ],
+      "coefficients": {
+        "(3, 0, 4)": "1/70",
+        "(3, 2, 8)": "1/70",
+        "(3, 3, 11)": "12/35",
+        "(3, 4, 13)": "1/70",
+        "(3, 5, 14)": "1/70"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        7,
+        10
+      ],
+      "coefficients": {
+        "(4, 0, 1)": "-71/70",
+        "(4, 2, 5)": "-71/70",
+        "(4, 4, 9)": "-41/70",
+        "(4, 5, 10)": "-71/70",
+        "(4, 6, 11)": "-71/70"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        7,
+        12
+      ],
+      "coefficients": {
+        "(4, 4, 12)": "3/7"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        7,
+        13
+      ],
+      "coefficients": {
+        "(4, 4, 13)": "3/7"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        8,
+        10
+      ],
+      "coefficients": {
+        "(5, 0, 1)": "-71/70",
+        "(5, 2, 5)": "-71/70",
+        "(5, 4, 9)": "-71/70",
+        "(5, 5, 10)": "-41/70",
+        "(5, 6, 11)": "-71/70"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        8,
+        11
+      ],
+      "coefficients": {
+        "(5, 5, 12)": "3/7"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        8,
+        13
+      ],
+      "coefficients": {
+        "(5, 5, 14)": "3/7"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        9,
+        10
+      ],
+      "coefficients": {
+        "(6, 0, 1)": "-71/70",
+        "(6, 2, 5)": "-71/70",
+        "(6, 4, 9)": "-71/70",
+        "(6, 5, 10)": "-71/70",
+        "(6, 6, 11)": "-41/70"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        9,
+        11
+      ],
+      "coefficients": {
+        "(6, 6, 13)": "3/7"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        9,
+        12
+      ],
+      "coefficients": {
+        "(6, 6, 14)": "3/7"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        10,
+        11
+      ],
+      "coefficients": {
+        "(0, 0, 9)": "71/35",
+        "(1, 1, 9)": "71/35",
+        "(2, 2, 9)": "71/35",
+        "(3, 3, 9)": "24/35",
+        "(4, 4, 9)": "41/35",
+        "(5, 5, 9)": "71/35",
+        "(6, 6, 9)": "71/35"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        10,
+        12
+      ],
+      "coefficients": {
+        "(0, 0, 10)": "71/35",
+        "(1, 1, 10)": "71/35",
+        "(2, 2, 10)": "71/35",
+        "(3, 3, 10)": "24/35",
+        "(4, 4, 10)": "71/35",
+        "(5, 5, 10)": "41/35",
+        "(6, 6, 10)": "71/35"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        10,
+        13
+      ],
+      "coefficients": {
+        "(0, 0, 11)": "71/35",
+        "(1, 1, 11)": "71/35",
+        "(2, 2, 11)": "71/35",
+        "(3, 3, 11)": "24/35",
+        "(4, 4, 11)": "71/35",
+        "(5, 5, 11)": "71/35",
+        "(6, 6, 11)": "41/35"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        11,
+        12
+      ],
+      "coefficients": {
+        "(4, 4, 12)": "6/7",
+        "(5, 5, 12)": "-6/7"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        11,
+        13
+      ],
+      "coefficients": {
+        "(4, 4, 13)": "6/7",
+        "(6, 6, 13)": "-6/7"
+      }
+    },
+    {
+      "rotation": [
+        "rotation",
+        12,
+        13
+      ],
+      "coefficients": {
+        "(5, 5, 14)": "6/7",
+        "(6, 6, 14)": "-6/7"
+      }
+    }
+  ],
+  "rotation_elimination_table": [
+    {
+      "u": 1,
+      "s": 0,
+      "active_axis": 0,
+      "partner": 1,
+      "A": "0",
+      "B": null,
+      "lambda": null
+    },
+    {
+      "u": 1,
+      "s": 2,
+      "active_axis": 5,
+      "partner": 3,
+      "A": "-71/70",
+      "B": "23/70",
+      "lambda": "-48/23"
+    },
+    {
+      "u": 1,
+      "s": 3,
+      "active_axis": 6,
+      "partner": 10,
+      "A": "-71/70",
+      "B": "23/70",
+      "lambda": "-48/23"
+    },
+    {
+      "u": 1,
+      "s": 4,
+      "active_axis": 7,
+      "partner": 11,
+      "A": "-36/35",
+      "B": "3/7",
+      "lambda": "-7/5"
+    },
+    {
+      "u": 1,
+      "s": 5,
+      "active_axis": 8,
+      "partner": 12,
+      "A": "-36/35",
+      "B": "3/7",
+      "lambda": "-7/5"
+    },
+    {
+      "u": 1,
+      "s": 6,
+      "active_axis": 9,
+      "partner": 13,
+      "A": "-36/35",
+      "B": "3/7",
+      "lambda": "-7/5"
+    },
+    {
+      "u": 3,
+      "s": 0,
+      "active_axis": 0,
+      "partner": 1,
+      "A": "1/70",
+      "B": "-27/35",
+      "lambda": "53/54"
+    },
+    {
+      "u": 3,
+      "s": 2,
+      "active_axis": 5,
+      "partner": 3,
+      "A": "-1",
+      "B": null,
+      "lambda": null
+    },
+    {
+      "u": 3,
+      "s": 3,
+      "active_axis": 6,
+      "partner": 10,
+      "A": "-1",
+      "B": "23/70",
+      "lambda": "-47/23"
+    },
+    {
+      "u": 3,
+      "s": 4,
+      "active_axis": 7,
+      "partner": 11,
+      "A": "-71/70",
+      "B": "3/7",
+      "lambda": "-41/30"
+    },
+    {
+      "u": 3,
+      "s": 5,
+      "active_axis": 8,
+      "partner": 12,
+      "A": "-71/70",
+      "B": "3/7",
+      "lambda": "-41/30"
+    },
+    {
+      "u": 3,
+      "s": 6,
+      "active_axis": 9,
+      "partner": 13,
+      "A": "-71/70",
+      "B": "3/7",
+      "lambda": "-41/30"
+    },
+    {
+      "u": 10,
+      "s": 0,
+      "active_axis": 0,
+      "partner": 1,
+      "A": "1/70",
+      "B": "-27/35",
+      "lambda": "53/54"
+    },
+    {
+      "u": 10,
+      "s": 2,
+      "active_axis": 5,
+      "partner": 3,
+      "A": "-1",
+      "B": "23/70",
+      "lambda": "-47/23"
+    },
+    {
+      "u": 10,
+      "s": 3,
+      "active_axis": 6,
+      "partner": 10,
+      "A": "-1",
+      "B": null,
+      "lambda": null
+    },
+    {
+      "u": 10,
+      "s": 4,
+      "active_axis": 7,
+      "partner": 11,
+      "A": "-71/70",
+      "B": "3/7",
+      "lambda": "-41/30"
+    },
+    {
+      "u": 10,
+      "s": 5,
+      "active_axis": 8,
+      "partner": 12,
+      "A": "-71/70",
+      "B": "3/7",
+      "lambda": "-41/30"
+    },
+    {
+      "u": 10,
+      "s": 6,
+      "active_axis": 9,
+      "partner": 13,
+      "A": "-71/70",
+      "B": "3/7",
+      "lambda": "-41/30"
+    },
+    {
+      "u": 11,
+      "s": 0,
+      "active_axis": 0,
+      "partner": 1,
+      "A": "36/35",
+      "B": "-27/35",
+      "lambda": "-1/3"
+    },
+    {
+      "u": 11,
+      "s": 2,
+      "active_axis": 5,
+      "partner": 3,
+      "A": "1/70",
+      "B": "23/70",
+      "lambda": "24/23"
+    },
+    {
+      "u": 11,
+      "s": 3,
+      "active_axis": 6,
+      "partner": 10,
+      "A": "1/70",
+      "B": "23/70",
+      "lambda": "24/23"
+    },
+    {
+      "u": 11,
+      "s": 4,
+      "active_axis": 7,
+      "partner": 11,
+      "A": "0",
+      "B": null,
+      "lambda": null
+    },
+    {
+      "u": 11,
+      "s": 5,
+      "active_axis": 8,
+      "partner": 12,
+      "A": "0",
+      "B": "3/7",
+      "lambda": "1"
+    },
+    {
+      "u": 11,
+      "s": 6,
+      "active_axis": 9,
+      "partner": 13,
+      "A": "0",
+      "B": "3/7",
+      "lambda": "1"
+    },
+    {
+      "u": 12,
+      "s": 0,
+      "active_axis": 0,
+      "partner": 1,
+      "A": "36/35",
+      "B": "-27/35",
+      "lambda": "-1/3"
+    },
+    {
+      "u": 12,
+      "s": 2,
+      "active_axis": 5,
+      "partner": 3,
+      "A": "1/70",
+      "B": "23/70",
+      "lambda": "24/23"
+    },
+    {
+      "u": 12,
+      "s": 3,
+      "active_axis": 6,
+      "partner": 10,
+      "A": "1/70",
+      "B": "23/70",
+      "lambda": "24/23"
+    },
+    {
+      "u": 12,
+      "s": 4,
+      "active_axis": 7,
+      "partner": 11,
+      "A": "0",
+      "B": "3/7",
+      "lambda": "1"
+    },
+    {
+      "u": 12,
+      "s": 5,
+      "active_axis": 8,
+      "partner": 12,
+      "A": "0",
+      "B": null,
+      "lambda": null
+    },
+    {
+      "u": 12,
+      "s": 6,
+      "active_axis": 9,
+      "partner": 13,
+      "A": "0",
+      "B": "3/7",
+      "lambda": "1"
+    },
+    {
+      "u": 13,
+      "s": 0,
+      "active_axis": 0,
+      "partner": 1,
+      "A": "36/35",
+      "B": "-27/35",
+      "lambda": "-1/3"
+    },
+    {
+      "u": 13,
+      "s": 2,
+      "active_axis": 5,
+      "partner": 3,
+      "A": "1/70",
+      "B": "23/70",
+      "lambda": "24/23"
+    },
+    {
+      "u": 13,
+      "s": 3,
+      "active_axis": 6,
+      "partner": 10,
+      "A": "1/70",
+      "B": "23/70",
+      "lambda": "24/23"
+    },
+    {
+      "u": 13,
+      "s": 4,
+      "active_axis": 7,
+      "partner": 11,
+      "A": "0",
+      "B": "3/7",
+      "lambda": "1"
+    },
+    {
+      "u": 13,
+      "s": 5,
+      "active_axis": 8,
+      "partner": 12,
+      "A": "0",
+      "B": "3/7",
+      "lambda": "1"
+    },
+    {
+      "u": 13,
+      "s": 6,
+      "active_axis": 9,
+      "partner": 13,
+      "A": "0",
+      "B": null,
+      "lambda": null
+    }
+  ],
+  "inactive_axes": [
+    1,
+    3,
+    10,
+    11,
+    12,
+    13
+  ],
+  "dark_receivers": [
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      10
+    ],
+    [
+      1,
+      11
+    ],
+    [
+      1,
+      12
+    ],
+    [
+      1,
+      13
+    ],
+    [
+      3,
+      10
+    ],
+    [
+      3,
+      11
+    ],
+    [
+      3,
+      12
+    ],
+    [
+      3,
+      13
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      10,
+      12
+    ],
+    [
+      10,
+      13
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      11,
+      13
+    ],
+    [
+      12,
+      13
+    ]
+  ],
+  "dark_rotation_rank": 15,
+  "constant_symbol_rank_at_y_1_through_7": 88,
+  "omitted_derivative_detected_generators": [
+    [
+      "koszul",
+      0,
+      1
+    ],
+    [
+      "koszul",
+      0,
+      2
+    ],
+    [
+      "koszul",
+      0,
+      3
+    ],
+    [
+      "koszul",
+      0,
+      4
+    ],
+    [
+      "koszul",
+      0,
+      5
+    ],
+    [
+      "koszul",
+      0,
+      6
+    ],
+    [
+      "rotation",
+      0,
+      1
+    ],
+    [
+      "rotation",
+      0,
+      2
+    ],
+    [
+      "rotation",
+      0,
+      3
+    ],
+    [
+      "rotation",
+      0,
+      4
+    ],
+    [
+      "rotation",
+      0,
+      5
+    ],
+    [
+      "rotation",
+      0,
+      6
+    ],
+    [
+      "rotation",
+      0,
+      7
+    ],
+    [
+      "rotation",
+      0,
+      8
+    ],
+    [
+      "rotation",
+      0,
+      9
+    ],
+    [
+      "rotation",
+      0,
+      10
+    ],
+    [
+      "rotation",
+      0,
+      11
+    ],
+    [
+      "rotation",
+      0,
+      12
+    ],
+    [
+      "rotation",
+      0,
+      13
+    ],
+    [
+      "rotation",
+      1,
+      2
+    ],
+    [
+      "rotation",
+      1,
+      4
+    ],
+    [
+      "rotation",
+      1,
+      5
+    ],
+    [
+      "rotation",
+      1,
+      6
+    ],
+    [
+      "rotation",
+      1,
+      7
+    ],
+    [
+      "rotation",
+      1,
+      8
+    ],
+    [
+      "rotation",
+      1,
+      9
+    ],
+    [
+      "rotation",
+      1,
+      11
+    ],
+    [
+      "rotation",
+      1,
+      12
+    ],
+    [
+      "rotation",
+      1,
+      13
+    ],
+    [
+      "rotation",
+      2,
+      3
+    ],
+    [
+      "rotation",
+      2,
+      4
+    ],
+    [
+      "rotation",
+      2,
+      5
+    ],
+    [
+      "rotation",
+      2,
+      6
+    ],
+    [
+      "rotation",
+      2,
+      7
+    ],
+    [
+      "rotation",
+      2,
+      8
+    ],
+    [
+      "rotation",
+      2,
+      9
+    ],
+    [
+      "rotation",
+      2,
+      10
+    ],
+    [
+      "rotation",
+      2,
+      11
+    ],
+    [
+      "rotation",
+      2,
+      12
+    ],
+    [
+      "rotation",
+      2,
+      13
+    ],
+    [
+      "rotation",
+      3,
+      4
+    ],
+    [
+      "rotation",
+      3,
+      5
+    ],
+    [
+      "rotation",
+      3,
+      6
+    ],
+    [
+      "rotation",
+      3,
+      7
+    ],
+    [
+      "rotation",
+      3,
+      8
+    ],
+    [
+      "rotation",
+      3,
+      9
+    ],
+    [
+      "rotation",
+      3,
+      11
+    ],
+    [
+      "rotation",
+      3,
+      12
+    ],
+    [
+      "rotation",
+      3,
+      13
+    ],
+    [
+      "rotation",
+      4,
+      5
+    ],
+    [
+      "rotation",
+      4,
+      6
+    ],
+    [
+      "rotation",
+      4,
+      7
+    ],
+    [
+      "rotation",
+      4,
+      8
+    ],
+    [
+      "rotation",
+      4,
+      9
+    ],
+    [
+      "rotation",
+      4,
+      10
+    ],
+    [
+      "rotation",
+      4,
+      11
+    ],
+    [
+      "rotation",
+      4,
+      12
+    ],
+    [
+      "rotation",
+      4,
+      13
+    ],
+    [
+      "rotation",
+      5,
+      6
+    ],
+    [
+      "rotation",
+      5,
+      7
+    ],
+    [
+      "rotation",
+      5,
+      8
+    ],
+    [
+      "rotation",
+      5,
+      9
+    ],
+    [
+      "rotation",
+      5,
+      10
+    ],
+    [
+      "rotation",
+      5,
+      11
+    ],
+    [
+      "rotation",
+      5,
+      12
+    ],
+    [
+      "rotation",
+      5,
+      13
+    ],
+    [
+      "rotation",
+      6,
+      7
+    ],
+    [
+      "rotation",
+      6,
+      8
+    ],
+    [
+      "rotation",
+      6,
+      9
+    ],
+    [
+      "rotation",
+      6,
+      10
+    ],
+    [
+      "rotation",
+      6,
+      11
+    ],
+    [
+      "rotation",
+      6,
+      12
+    ],
+    [
+      "rotation",
+      6,
+      13
+    ],
+    [
+      "rotation",
+      7,
+      8
+    ],
+    [
+      "rotation",
+      7,
+      9
+    ],
+    [
+      "rotation",
+      7,
+      10
+    ],
+    [
+      "rotation",
+      7,
+      11
+    ],
+    [
+      "rotation",
+      7,
+      12
+    ],
+    [
+      "rotation",
+      7,
+      13
+    ],
+    [
+      "rotation",
+      8,
+      9
+    ],
+    [
+      "rotation",
+      8,
+      10
+    ],
+    [
+      "rotation",
+      8,
+      11
+    ],
+    [
+      "rotation",
+      8,
+      12
+    ],
+    [
+      "rotation",
+      8,
+      13
+    ],
+    [
+      "rotation",
+      9,
+      10
+    ],
+    [
+      "rotation",
+      9,
+      11
+    ],
+    [
+      "rotation",
+      9,
+      12
+    ],
+    [
+      "rotation",
+      9,
+      13
+    ],
+    [
+      "rotation",
+      10,
+      11
+    ],
+    [
+      "rotation",
+      10,
+      12
+    ],
+    [
+      "rotation",
+      10,
+      13
+    ]
+  ],
+  "delay_countermodel": {
+    "N": 11,
+    "eigenvalues": {
+      "0": [
+        -11
+      ],
+      "1": [
+        -10,
+        -23
+      ],
+      "2": [
+        -9,
+        -22,
+        -35
+      ],
+      "3": [
+        -8,
+        -21,
+        -34,
+        -47
+      ],
+      "4": [
+        -7,
+        -20,
+        -33,
+        -46,
+        -59
+      ],
+      "5": [
+        -6,
+        -19,
+        -32,
+        -45,
+        -58,
+        -71
+      ],
+      "6": [
+        -5,
+        -18,
+        -31,
+        -44,
+        -57,
+        -70,
+        -83
+      ],
+      "7": [
+        -4,
+        -17,
+        -30,
+        -43,
+        -56,
+        -69,
+        -82,
+        -95
+      ],
+      "8": [
+        -3,
+        -16,
+        -29,
+        -42,
+        -55,
+        -68,
+        -81,
+        -94,
+        -107
+      ],
+      "9": [
+        -2,
+        -15,
+        -28,
+        -41,
+        -54,
+        -67,
+        -80,
+        -93,
+        -106,
+        -119
+      ],
+      "10": [
+        -1,
+        -14,
+        -27,
+        -40,
+        -53,
+        -66,
+        -79,
+        -92,
+        -105,
+        -118,
+        -131
+      ],
+      "11": [
+        0,
+        -13,
+        -26,
+        -39,
+        -52,
+        -65,
+        -78,
+        -91,
+        -104,
+        -117,
+        -130,
+        -143
+      ]
+    }
+  },
+  "evidence_kinds": {
+    "exact": "original rational generators; full adjoint coefficients; primal/dual factorial pairing; support and rank; contrary constructions",
+    "universal": "written Fischer adjoint and homogeneous potential proofs; original nonresonant rotation elimination proves ordinary all-degree completeness"
+  }
+}

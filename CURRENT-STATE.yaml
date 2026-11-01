@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 2d2503534d4c7e81ce8dbb52730b15c0ba376a38
+revision_basis: 78b92134ecef0ad8b377c253ee17e560ec4f2f81
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,16 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2435 proves the original ordinary frame/Euler image formula in every homogeneous
+    degree. Exact rank88 and primitive polynomial saturation reduce the dual to15
+    components; original nonresonant rotation equations eliminate all15. This removes the
+    ordinary rank ladder but leaves augmented curved compatibility and full
+    stationary/convergent solutions open. K2436 gives a direct fixed-slot quantum-process
+    certificate against a memoryless unitary target, including arbitrary internal memory,
+    adaptive testers, whole-batch preparation/readout transfer, stopping-safe statistics and
+    a same-batch marginal protocol. The dimension cost is explicit; physical calibration,
+    future transfer and native GU identification remain open. Historical predecessor (not
+    live):
     K2433 rejects the original null section under all admissible lower-quartic forcing,
     constructs a new common null section for all fourteen original K/q targets, and lifts
     its boundary recurrence by actual-K normal-ideal division to a coherent ambient formal
@@ -18013,6 +18023,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2435-fischer-frame-annihilator-2026-11-01.md
+  - lab/process/k2435-fischer-frame-annihilator.json
+  - tests/channel-swings/k2435_fischer_frame_annihilator_probe.py
+  - explorations/conditional-build/k2436-multiround-process-certificate-2026-11-01.md
+  - lab/process/k2436-multiround-process-certificate.json
+  - tests/channel-swings/k2436_multiround_process_certificate_probe.py
   - explorations/conditional-build/k2433-lower-quartic-compatibility-2026-11-01.md
   - lab/process/k2433-lower-quartic-compatibility.json
   - tests/channel-swings/k2433_lower_quartic_compatibility_probe.py
@@ -20219,6 +20235,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can the original augmented Euler/curved-compatibility operator be exhausted at every
+  degree on K2433's same algebraic family, now that ordinary frame-image completeness is
+  proved? Which declared full temporal experiment or mixed-target conditioning theorem
+  makes process certification useful for the actual nonunitary recovery instrument?
+  Historical predecessor (not live):
   Can the original repeated/frame Euler correction system be characterized at every
   degree, including its augmented compatibility operator, so that the formal Gram/sigma
   family also satisfies all Euler equations? What actual instrument or multiround evidence
@@ -24453,6 +24474,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Use K2435's all-degree ordinary image theorem instead of another T_k rank bank. Keep
+  K2433's coherent formal Gram/sigma family and Euler-through8 unchanged. Derive the
+  original augmented scalar compatibility adjoint on the same lower jets; ordinary image
+  completeness does not supply it or a ninth-Euler extension. For quantum processes,
+  instantiate the fixed-slot joint Bell experiment with trusted whole-batch
+  preparation/readout and operational costs, or derive a mixed/instrument-target
+  conditioning theorem. Actual marginal failures bound actual p and require B transfer;
+  pure ideal marginals constrain the whole same-batch process. Future behavior requires
+  independent transport evidence. Retain paired native source-fixed matter/light response,
+  common-bar/mobile, thermal163/164, native2+1/chirality and physical quotient ceilings.
+  Historical predecessor (not live):
   Use K2433's coherent formal Gram/sigma family with Euler through8 as the shared input.
   Study the original Fischer-dual frame/Euler annihilator, including linear
   Koszul/rotation generators and degree-dependent terms; ordinary finite rank saturation

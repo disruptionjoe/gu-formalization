@@ -6,6 +6,18 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2435--K2436: All-degree frame image and temporal process certificate (2026-11-01)
+
+K2435 proves the original ordinary frame/Euler image formula in every homogeneous degree. Exact rank88 and primitive polynomial saturation reduce the dual to15 components; original nonresonant rotation equations eliminate all15. This removes the ordinary rank ladder but leaves augmented curved compatibility and full stationary/convergent solutions open. K2436 gives a direct fixed-slot quantum-process certificate against a memoryless unitary target, including arbitrary internal memory, adaptive testers, whole-batch preparation/readout transfer, stopping-safe statistics and a same-batch marginal protocol. The dimension cost is explicit; physical calibration, future transfer and native GU identification remain open.
+
+- [K2435](explorations/conditional-build/k2435-fischer-frame-annihilator-2026-11-01.md).
+- [K2436](explorations/conditional-build/k2436-multiround-process-certificate-2026-11-01.md).
+
+Three independent read-only reviews checked polynomial saturation, original rotation coefficients, all-degree elimination and ambient filtration; pure-target tester normalization, batch transfer, same-ensemble marginal bounds and applicability ceilings. Corrections retained the extra zero-order rotation term, distinguished actual from ideal marginal failure, made loss-carrier limits explicit and added a genuinely complex phase-unitary control. Internal review is not external or proof-assistant certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2433--K2434: Formal algebraic/Euler8 extension and sharp preparation leakage (2026-11-01)
 
 K2433 rejects the original null section under all admissible lower-quartic forcing, constructs a new common null section for all fourteen original K/q targets, and lifts its boundary recurrence by actual-K normal-ideal division to a coherent ambient formal Gram/sigma solution. A new original T7 rank178002 certificate and inherited frame corrections retain Euler through eighth order in that same formal family. All-order Euler and convergence remain open. K2434 proves the sharp direct preparation-to-leakage envelope B(p,q), physical saturation across the probability square, adaptive concavity and exact inversion. Under prospective zero-count assumptions, the nine-million-trial joint-infidelity threshold improves from about8.37e-16 to4.329e-10. No physical calibration or native GU identification is supplied.

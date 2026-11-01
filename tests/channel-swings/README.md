@@ -1,4 +1,7 @@
 
+- [k2435-fischer-frame-annihilator](k2435_fischer_frame_annihilator_probe.py).
+- [k2436-multiround-process-certificate](k2436_multiround_process_certificate_probe.py).
+
 - [k2433-lower-quartic-compatibility](k2433_lower_quartic_compatibility_probe.py).
 - [k2434-direct-preparation-leakage](k2434_direct_preparation_leakage_probe.py).
 

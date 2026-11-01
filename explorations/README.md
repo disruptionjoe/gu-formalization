@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2435-fischer-frame-annihilator](conditional-build/k2435-fischer-frame-annihilator-2026-11-01.md).
+- [k2436-multiround-process-certificate](conditional-build/k2436-multiround-process-certificate-2026-11-01.md).
+
 - [k2433-lower-quartic-compatibility](conditional-build/k2433-lower-quartic-compatibility-2026-11-01.md).
 - [k2434-direct-preparation-leakage](conditional-build/k2434-direct-preparation-leakage-2026-11-01.md).
 

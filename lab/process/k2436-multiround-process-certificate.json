@@ -1,0 +1,121 @@
+{
+  "batch_bound": "min(1,sqrt(D*product_{i<r}d_Bi*B(a,e)))",
+  "budgets": [
+    {
+      "K_squared": 2,
+      "alpha": "0.05",
+      "batches_with_margin": 239664,
+      "conservative_joint_infidelity": "[5.000000000000000000000000000000000000000000000000000000000000000000000000000e-7 +/- 2.04e-83]",
+      "distance_bound_with_margin": "[0.006082697903752780126211055511286542178090836631442076156676766723686407261914 +/- 5.87e-79]",
+      "distance_target": "0.01",
+      "ideal_zero_failure_batches": 59916,
+      "qubit_slots": 1,
+      "sharp_joint_preparation_threshold": "[8.46445675102778293665886429870943591172687304908761229860929136691700950172e-6 +/- 6.92e-81]",
+      "slot_uses_ideal": 59916
+    },
+    {
+      "K_squared": 8,
+      "alpha": "0.05",
+      "batches_with_margin": 958640,
+      "conservative_joint_infidelity": "[1.250000000000000000000000000000000000000000000000000000000000000000000000000e-7 +/- 5.09e-84]",
+      "distance_bound_with_margin": "[0.006082745719180318876391013107241983695936991119351220583568700739263149702272 +/- 7.27e-79]",
+      "distance_target": "0.01",
+      "ideal_zero_failure_batches": 239660,
+      "qubit_slots": 2,
+      "sharp_joint_preparation_threshold": "[2.116039198970949684268462614595720820652073817919770896037602596191391473037e-6 +/- 8.30e-82]",
+      "slot_uses_ideal": 479320
+    },
+    {
+      "K_squared": 128,
+      "alpha": "0.05",
+      "batches_with_margin": 15338156,
+      "conservative_joint_infidelity": "[7.812500000000000000000000000000000000000000000000000000000000000000000000000e-9 +/- 3.19e-85]",
+      "distance_bound_with_margin": "[0.006082761304846578492110498202198275297540438225030841609226193126498630879318 +/- 7.31e-79]",
+      "distance_target": "0.01",
+      "ideal_zero_failure_batches": 3834539,
+      "qubit_slots": 4,
+      "sharp_joint_preparation_threshold": "[1.322509564633350455499704798849918247999840756782020669859887035186610865986e-7 +/- 5.17e-83]",
+      "slot_uses_ideal": 15338156
+    },
+    {
+      "K_squared": 32768,
+      "alpha": "0.05",
+      "batches_with_margin": 3926566212,
+      "conservative_joint_infidelity": "[3.051757812500000000000000000000000000000000000000000000000000000000000000000e-11 +/- 1.25e-87]",
+      "distance_bound_with_margin": "[0.006082762525732419622652070848776658923965356844092228371158398722819231148406 +/- 7.89e-79]",
+      "distance_target": "0.01",
+      "ideal_zero_failure_batches": 981641553,
+      "qubit_slots": 8,
+      "sharp_joint_preparation_threshold": "[5.16604878673977962421189177634647422290354054019754125104186921766425143857e-10 +/- 2.35e-85]",
+      "slot_uses_ideal": 7853132424
+    }
+  ],
+  "checks": {
+    "coherent_marginal_union_bound": true,
+    "coherent_process_exact_failure": true,
+    "complex_target_coherent_feedback": true,
+    "complex_target_pure_effect_bound": true,
+    "complex_unitary_target_positive_and_causal": true,
+    "exceptional_fraction_consumer": true,
+    "failure_effect_positive_annihilates_target": true,
+    "independent_causal_first_trace": true,
+    "independent_causal_last_trace": true,
+    "independent_feedback_effect_probability": true,
+    "independent_feedback_normalization": true,
+    "independent_marginal_union_bound": true,
+    "independent_positive_normalized": true,
+    "mean_square_root_consumer": true,
+    "normalized_Choi_tester_operator": true,
+    "physical_same_input_memory_discriminator": true,
+    "pins_k2430-adaptive-decoder-certification": true,
+    "pins_k2434-direct-preparation-leakage": true,
+    "pure_target_link": true,
+    "pure_target_operator_bound": true,
+    "r1_ideal_budget": true,
+    "r1_nonzero_preparation_budget": true,
+    "r2_ideal_budget": true,
+    "r2_nonzero_preparation_budget": true,
+    "r4_ideal_budget": true,
+    "r4_nonzero_preparation_budget": true,
+    "r8_ideal_budget": true,
+    "r8_nonzero_preparation_budget": true,
+    "same_batch_projector_union_operator": true,
+    "same_complete_one_slot_channels": true,
+    "shared_causal_first_trace": true,
+    "shared_causal_last_trace": true,
+    "shared_feedback_effect_probability": true,
+    "shared_feedback_normalization": true,
+    "shared_marginal_union_bound": true,
+    "shared_positive_normalized": true,
+    "target_causal_first_trace": true,
+    "target_causal_last_trace": true,
+    "target_positive_normalized": true,
+    "tester_trace_and_norm": true,
+    "zero_marginal_union_kernel_is_target": true
+  },
+  "controls": {
+    "complex_transpose_without_conjugation_rejected": true,
+    "different_full_temporal_processes": true,
+    "future_switch_not_constrained": true,
+    "generic_tester_norm_one_is_false": true,
+    "linear_failure_distance_bound_false": true,
+    "marginal_control_not_exact_unitary_target": true
+  },
+  "dependencies": {
+    "lab/process/k2430-adaptive-decoder-certification.json": "dca5798633e4ea6ed0a99418bac8f39ee3fa585a3b34a98102f5714d70111bda",
+    "lab/process/k2434-direct-preparation-leakage.json": "da8cbac4de773586632032fe1990ef29559259cd3926234f2fc32ad74e63bce1"
+  },
+  "evidence_kinds": {
+    "exact": "causal Choi traces, actual feedback map, operator inequality, complete marginal/memory controls and union projector",
+    "rigorous_numerics": "Arb256 prospective sample and preparation budgets",
+    "universal": "written pure-target effect, batch conditional martingale transfer and same-batch union argument"
+  },
+  "result_id": "K2436",
+  "scope": "Conditional tested fixed-slot combs against a memoryless unitary target; no measured calibration, future process transfer, optimal dimension constant or GU identification.",
+  "strategy_bound": "min(1,sqrt(D*product_{i<r}d_Bi*p))",
+  "tester_fixture": {
+    "D": 4,
+    "normalized_contraction_squared_norm": 8,
+    "tester_norm": 2
+  }
+}
