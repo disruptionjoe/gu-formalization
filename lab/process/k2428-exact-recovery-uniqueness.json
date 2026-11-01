@@ -1,0 +1,114 @@
+{
+  "checks": {
+    "170000_zero_fail_good_allowance_below_one_percent": true,
+    "both_positive_rank_two_products": true,
+    "complex_Hermitian_TP_Gram_positive": true,
+    "endpoint_localization_0": true,
+    "endpoint_localization_1": true,
+    "exact_three_branch_failure_budget": true,
+    "inherited_good_radius": true,
+    "inherited_reduced_bad_radius": true,
+    "interval_simple_improving_positive_det": true,
+    "nine_million_zero_fail_bad_allowance_below_one_percent": true,
+    "nonzero_translation_and_strict_canonical_branch": true,
+    "opposite_strict_endpoint_slopes": true,
+    "original_complementarity_interval_consistent": true,
+    "positive_cosine_0": true,
+    "positive_cosine_1": true,
+    "projector_interval_consistent": true,
+    "rational_candidate_in_localized_box": true,
+    "strict_interior_weights": true,
+    "support_test_conditioning_floor": true,
+    "uniform_TP_injectivity": true,
+    "uniform_good_support_nonzero": true,
+    "uniform_nonzero_translation": true,
+    "uniform_original_bad_stability_constant71": true,
+    "uniform_original_good_stability_constants4": true,
+    "uniform_rank_two_slack_gap": true,
+    "whole_box_compact_domain": true
+  },
+  "controls": {
+    "branch_boundary_multiple_exact_CPTP_maximizers": true,
+    "inactive_law_balanced_zero_sine_rejected": true,
+    "postselection_loses_all_failure_evidence": true,
+    "repeated_top_eigenvalue_projector_undefined": true,
+    "singular_TP_distinct_supported_channels": true,
+    "understated_failure_probability_not_certified": true
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2422-joint-recovery-optimality-2026-10-31.md": "2cfc6f1d40d9d85e160051a2393e1548679764e39d1dff720b50864e163e6abf",
+    "tests/channel-swings/k2424_recovery_saddle_reduction_probe.py": "08421f5fb8e4161c4d6fe2cd4a6e1b23a5881900ff7b6f2d286131f50656829e",
+    "tests/channel-swings/k2426_recovery_rigidity_probe.py": "5f85302eae87cb25b2c186b35922ad721b2a0eedc8705588b1f070422a7fcf4f"
+  },
+  "dual_box": {
+    "lambda": "[0.518217356 +/- 1.87e-10]",
+    "tau": "[0.0575373309 +/- 4.23e-11]"
+  },
+  "endpoint_boxes": [
+    [
+      "[1.0514072180 +/- 1.09e-11]",
+      "[-0.1167370492 +/- 3.35e-11]"
+    ],
+    [
+      "[1.0687350655 +/- 2.10e-11]",
+      "[0.1276346581 +/- 5.52e-11]"
+    ]
+  ],
+  "exact_optimum_stability": {
+    "bad_sqrt_coefficient": "[70.8254 +/- 6.37e-5]",
+    "good_linear_coefficient": "[3.60925305 +/- 5.75e-9]",
+    "good_sqrt_coefficient": "[3.79960685 +/- 1.11e-9]",
+    "simple_bounds": "bad<=71 sqrt(e); good<=4 sqrt(e)+4e; e=nominal excess error; no objective-gap floor"
+  },
+  "finite_shot_implementation": {
+    "assumptions": "zero observed support failures, fixed independent stationary trials, trusted Bell preparation and exact support/Bell measurement, complete TP outputs with every trial retained; add preparation/measurement systematic probability allowance before square roots",
+    "bad_distance_upper": "[0.009696408081077068002114987637022158956110931028458363937218455299946102863427 +/- 7.71e-79]",
+    "bad_shots_each": 9000000,
+    "bad_support_factor": "[14.37606227672978526948946542035027246014661304078675891308595438004179748508 +/- 5.04e-75]",
+    "branch_failure_probability": "1/60",
+    "good_distance_upper": "[0.009815167808606649156507610958764678126389515803053243804664388254234415760604 +/- 6.84e-79]",
+    "good_shots": 170000,
+    "scope": "Prospective decoder implementation certificate, not observed data or flagged-instrument delta.",
+    "simultaneous_confidence": "at least19/20",
+    "total_shots": 18170000
+  },
+  "inherited_K2426_checks": {
+    "both_positive_rank_two_products": true,
+    "complex_Hermitian_TP_Gram_positive": true,
+    "exact_complex_Gram_positive": true,
+    "exact_fixture_canonical_determinant": true,
+    "exact_support_projector": true,
+    "full_bad_original_bound_below_1e_minus10": true,
+    "full_good_original_bound_below_1e_minus12": true,
+    "good_gap_branch": true,
+    "nonzero_translation_and_strict_canonical_branch": true,
+    "nonzero_uncertainty_consumer": true,
+    "original_complementarity_interval_consistent": true,
+    "original_good_Bell_gap": true,
+    "original_good_functional_all_Hermitian_directions": true,
+    "positive_conditioning_bounds": true,
+    "projector_interval_consistent": true,
+    "universal_canonical_Gram_determinant": true,
+    "universal_canonical_Gram_trace": true
+  },
+  "inherited_K2426_controls": {
+    "imaginary_direction_is_actually_checked": true,
+    "leakage_alone_not_rigidity": true,
+    "original_sign_factor_two_required": true
+  },
+  "result_id": "K2428",
+  "scope": "Existence of an attained exact dual in this uniformly exposing box plus nonnegative original-controller gaps proves uniqueness of nominal physical channels and projective dual. Rational candidate not asserted optimal; no empirical or Kraus uniqueness.",
+  "slope_boxes": [
+    "[-0.1110293398 +/- 6.02e-11]",
+    "[0.1194259104 +/- 3.61e-11]"
+  ],
+  "uniform_exposure": {
+    "TP_mu_squared_lower": "[0.0522307 +/- 7.41e-8]",
+    "determinant": "[0.0089535021 +/- 2.21e-11]",
+    "eigengap": "[0.118116678 +/- 1.39e-10]",
+    "good_support_norm": "[0.2788964717 +/- 8.75e-11]",
+    "improvement_gap": "[0.010558375 +/- 5.22e-10]",
+    "slack_gamma_lower": "[0.16589057 +/- 8.16e-9]",
+    "translation_squared": "[0.10294844 +/- 5.50e-9]"
+  }
+}

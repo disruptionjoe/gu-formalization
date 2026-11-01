@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2427-frame-boundary-quotient](k2427-frame-boundary-quotient.json).
+- [k2428-exact-recovery-uniqueness](k2428-exact-recovery-uniqueness.json).
+
 - [k2425-frame-euler-module](k2425-frame-euler-module.json).
 - [k2426-recovery-rigidity](k2426-recovery-rigidity.json).
 

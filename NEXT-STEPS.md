@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-01: SHARED EULER COMPATIBILITY AND FULL-CHANNEL RIGIDITY.**
+> **2026-11-01: SEVENTH EULER COMPATIBILITY AND EXACT RECOVERY UNIQUENESS.**
+> Retain K2423 repaired cubic and W4 digest2632127837a3051e07e50c59bf244c1c8cd27a5af0867b0c550b791460920610. K2427 closes shared seventh Euler/eighth algebraic compatibility and additionally resolves the universal ninth boundary: H=I+t(Cq)+r(Cqt), raw joint kernel dimension130, all336 original repeated-source lifts, proper quotient283. Do not redo the failed old-ideal shortcut or infer the full ninth/eighth jet. Next prove a frame-preserving septic Euler replacement and impose all8568 eighth-Euler compatibility values on the same lower fiber. K2428 closes nominal original-channel/projective-dual uniqueness and gives zero-floor stability. Its finite-shot decoder test needs trusted joint input/reference preparation and readout, fixed independent stationary trials and all outcomes; no actual counts or flagged-instrument uncertainty supplied. Preserve native matter/light, common-bar/mobile, thermal163/164, native2+1/chirality and physical-quotient source/domain ceilings.
+
+
+> **Historical predecessor, no longer the live next condition: 2026-11-01 SHARED EULER COMPATIBILITY AND FULL-CHANNEL RIGIDITY.**
 > Retain K2423's repaired cubic and W4 digest2632127837a3051e07e50c59bf244c1c8cd27a5af0867b0c550b791460920610. K2425 now proves one shared completion through sixth Euler and seventh algebraic compatibility. Next test the eighth-boundary source56G(T,R5)+35G(R4,R4) modulo the exact quadratic ideal, retaining all h5 withG(N,h5)=0, and derive the1716 seventh-Euler compatibility conditions on those same quintic choices. Do not transfer an all-order frame representation to the final polar sextic or combine distinct existential jets. K2426 bounds every original full decoder, including complex directions and pre-replacement good branches. Physical use requires measured full flagged-instrument uncertainty or native same-background source/readout inputs; planar moments alone do not bound it. Preserve common-bar/mobile, thermal163/164, native2+1/chirality, physical quotient and source/domain ceilings.
 
 

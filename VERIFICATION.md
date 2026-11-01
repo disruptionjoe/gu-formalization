@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2427--K2428: Seventh Euler compatibility and exact recovery uniqueness (2026-11-01)
+
+K2427 proves one shared finite jet through seventh Euler and eighth algebraic compatibility, retaining the repeated frame and the full mixed-quartic dependence. Its executed successor then proves universal ninth-boundary repair using a 130-dimensional joint kernel and 336 original homogeneous source identities; the full next Euler intersection remains open. Seventh-Euler compatibility has 2380 receivers, correcting the prior 1716 handoff. K2428 proves exact uniqueness of the original nominal recovery channels and projective dual, zero-floor stability, and a prospective finite-shot decoder certificate. These are conditional mathematical results; source polarities and ledger 0.263 are unchanged.
+
+- [K2427](explorations/conditional-build/k2427-frame-boundary-quotient-2026-11-01.md).
+- [K2428](explorations/conditional-build/k2428-exact-recovery-uniqueness-2026-11-01.md).
+
+Independent internal geometry, quantum and acceptance reviewers checked same-coefficient boundary preservation, original compatibility coefficients and full unsymmetrized complex-channel support gaps. Review corrected the seventh-Euler receiver count and required explicit residual ideal lifts. No external-expert or proof-assistant certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2425--K2426: Shared Euler compatibility and full-channel rigidity (2026-11-01)
 
 K2425 proves a common finite jet through sixth Euler and seventh algebraic compatibility: six original Euler maps attain their exact upper bounds, four augmented maps prescribe all560 sixth-Euler compatibility values, and the actual830-term seventh-boundary target has an exact lift through the proper seven-generator ideal. K2426 converts the existing1e-27 optimality bracket into full complex-channel rigidity: each original bad-sign decoder lies within2.240e-12 half-diamond distance and the original good decoder within1.202e-13; complete-instrument uncertainty propagates explicitly. No all-order, smooth or native GU claim; source polarities and ledger0.263 are unchanged.

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: c38cb7add389745d99c921e5b248e993e7df260e
+revision_basis: c7017e8b8c6b027ed795347322077a7b9757c954
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,15 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2427 proves one shared finite jet through seventh Euler and eighth algebraic
+    compatibility, retaining the repeated frame and the full mixed-quartic dependence. Its
+    executed successor then proves universal ninth-boundary repair using a 130-dimensional
+    joint kernel and 336 original homogeneous source identities; the full next Euler
+    intersection remains open. Seventh-Euler compatibility has 2380 receivers, correcting
+    the prior 1716 handoff. K2428 proves exact uniqueness of the original nominal recovery
+    channels and projective dual, zero-floor stability, and a prospective finite-shot
+    decoder certificate. These are conditional mathematical results; source polarities and
+    ledger 0.263 are unchanged. Historical predecessor (not live):
     K2425 proves a common finite jet through sixth Euler and seventh algebraic
     compatibility: six original Euler maps attain their exact upper bounds, four augmented
     maps prescribe all560 sixth-Euler compatibility values, and the actual830-term
@@ -17969,6 +17978,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2427-frame-boundary-quotient-2026-11-01.md
+  - lab/process/k2427-frame-boundary-quotient.json
+  - tests/channel-swings/k2427_frame_boundary_quotient_probe.py
+  - explorations/conditional-build/k2428-exact-recovery-uniqueness-2026-11-01.md
+  - lab/process/k2428-exact-recovery-uniqueness.json
+  - tests/channel-swings/k2428_exact_recovery_uniqueness_probe.py
   - explorations/conditional-build/k2425-frame-euler-module-2026-11-01.md
   - lab/process/k2425-frame-euler-module.json
   - tests/channel-swings/k2425_frame_euler_module_probe.py
@@ -20151,6 +20166,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can the universal ninth-boundary repair be combined with a frame-preserving septic Euler
+  correction and all8568 eighth-Euler compatibility values on one jet? Which complete
+  instrument calibration and trusted decoder tests can consume the exact recovery
+  stability theorem? Historical predecessor (not live):
   Can the same admissible finite-jet fiber satisfy eighth algebraic compatibility and
   seventh Euler, retaining the seventh-boundary lift kernel and quartic self-interaction?
   Can the established quadratic quotient yield a uniform compatible lifting criterion
@@ -24366,6 +24385,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Retain K2423 repaired cubic and W4
+  digest2632127837a3051e07e50c59bf244c1c8cd27a5af0867b0c550b791460920610. K2427 closes
+  shared seventh Euler/eighth algebraic compatibility and additionally resolves the
+  universal ninth boundary: H=I+t(Cq)+r(Cqt), raw joint kernel dimension130, all336
+  original repeated-source lifts, proper quotient283. Do not redo the failed old-ideal
+  shortcut or infer the full ninth/eighth jet. Next prove a frame-preserving septic Euler
+  replacement and impose all8568 eighth-Euler compatibility values on the same lower
+  fiber. K2428 closes nominal original-channel/projective-dual uniqueness and gives
+  zero-floor stability. Its finite-shot decoder test needs trusted joint input/reference
+  preparation and readout, fixed independent stationary trials and all outcomes; no actual
+  counts or flagged-instrument uncertainty supplied. Preserve native matter/light,
+  common-bar/mobile, thermal163/164, native2+1/chirality and physical-quotient
+  source/domain ceilings. Historical predecessor (not live):
   Retain K2423's repaired cubic and W4
   digest2632127837a3051e07e50c59bf244c1c8cd27a5af0867b0c550b791460920610. K2425 now proves
   one shared completion through sixth Euler and seventh algebraic compatibility. Next test

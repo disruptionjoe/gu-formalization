@@ -1,4 +1,7 @@
 
+- [k2427-frame-boundary-quotient](k2427_frame_boundary_quotient_probe.py).
+- [k2428-exact-recovery-uniqueness](k2428_exact_recovery_uniqueness_probe.py).
+
 - [k2425-frame-euler-module](k2425_frame_euler_module_probe.py).
 - [k2426-recovery-rigidity](k2426_recovery_rigidity_probe.py).
 
