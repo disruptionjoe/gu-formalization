@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2431--K2432: Polynomial null section and sharp Bell-memory decoupling (2026-11-01)
+
+K2431 constructs a polynomial null section for all fourteen original K/q targets in the 168-dimensional repeated-hook space. A17-term ideal obstruction excludes vanishing on Z; the complete syzygy-image test excludes the K-zero section at eighth order, while freely selected K targets admit a null seventh/eighth solution. Those targets remain unmatched to the admissible lower-quartic fiber; K2429 remains the complete finite-jet theorem. K2432 proves the sharp actual-memory Bell-preparation decoupling bound f(q)=(q+sqrt(4q-3q^2))/2, propagates it through adaptive channel certification, and gives uniform process-composition conditions. The prospective nine-million-trial bad branch permits roughly8.37e-16 joint infidelity under this sufficient bound. Neither result supplies a new complete Euler jet, measured preparation budget, or native GU identification.
+
+- [K2431](explorations/conditional-build/k2431-quintic-vanishing-ideal-2026-11-01.md).
+- [K2432](explorations/conditional-build/k2432-bell-preparation-memory-decoupling-2026-11-01.md).
+
+Three independent read-only specialist reviews examined the original construction, sharp bound and acceptance ceiling. Corrections integrated: replay every original q polynomial; independently compare all21 monomial syzygy images; retain the full admissible K fiber instead of one saved target; specify Cq within K-polar hooks; replace the false near-pure-memory f-only estimate by min(1,f+sqrt(epsilon)) with a counterexample; require uniform adaptive tester bounds and an independently declared reference channel. No novelty, external certification or proof-assistant verification is claimed.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2429--K2430: Shared eighth Euler jet and adaptive decoder certification (2026-11-01)
 
 K2429 constructs one shared conditional finite jet through eighth Euler and ninth algebraic compatibility: original T6 rank95,886 and augmented T5 rank48,426 assemble full images2,819,348 and899,080, with an independent8,568-receiver sextic compatibility replay. Its executed tenth-boundary successor finds the necessary quintic norm on Z and a raw q/t/r-null direction with norm-2, so automatic extension fails for some selectable representatives without excluding the whole fiber. An executed rational-kernel repair gives an explicit null alternative and, using Meyer with exact rank/positivity premises, a rational norm2 counterpart existence proof; the affine base cross term remains unresolved. K2430 proves stopping-safe certification under adaptive drift for tested conditional channel averages and mean distances, plus exceptional-trial, capped-reweighting and separately justified future-transfer bounds. The full complex-channel prospective18,170,000-trial budget survives at simultaneous95% in the ideal experiment. Neither result supplies a smooth/all-order field, physical calibration or native GU identification.

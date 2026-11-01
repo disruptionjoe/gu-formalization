@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-01: EIGHTH EULER JET AND ADAPTIVE DECODER CERTIFICATION.**
+> **2026-11-01: NULL SECTION AND SHARP BELL-MEMORY DECOUPLING.**
+> Solve [B8+56 t(DK*k)]=0 in P/E, E=I+t(Dq Syz(q0)), over the full admissible lower-quartic K image, retaining all lower Euler constraints and affine K freedom; the saved relaxed K choice is sufficient if realizable, not uniquely necessary. Then solve ninth/tenth boundaries on those same coefficients or test a different null section. In recovery, instantiate conditional joint preparation/readout and uniform reset/fixed-reference channel bounds with actual instrument evidence; marginal Bell fidelities and tested averages alone cannot establish the process premises. The source-native paired fixed-source/matter-readout response remains the strongest independent physics challenger, with its missing native input explicit.
+
+
+> **Historical predecessor, no longer the live next condition: 2026-11-01 EIGHTH EULER JET AND ADAPTIVE DECODER CERTIFICATION.**
 > Select the complete coupled quintic fiber jointly with G(R5W,R5W)|Z=0, retain all earlier choices, and test the remaining tenth boundary and ninth-Euler intersection using original operators; one failed representative is not a family obstruction. In recovery, instantiate the declared conditional experiment with actual joint preparation/readout and instrument error budgets, or prove a specified drift/transport bound; tested averages alone do not certify future or multi-use behavior. Source-native fixed-source/matter-readout response remains the strongest independent physics challenger; no native input is fabricated.
 
 

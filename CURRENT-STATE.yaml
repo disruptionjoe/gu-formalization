@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 8b4b5c4e1c691dc20d04ae9acd1335fbac3cb7f6
+revision_basis: 94a35217c983790db61d83359f81a0bb85b88ade
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,17 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2431 constructs a polynomial null section for all fourteen original K/q targets in the
+    168-dimensional repeated-hook space. A17-term ideal obstruction excludes vanishing on Z;
+    the complete syzygy-image test excludes the K-zero section at eighth order, while freely
+    selected K targets admit a null seventh/eighth solution. Those targets remain unmatched
+    to the admissible lower-quartic fiber; K2429 remains the complete finite-jet theorem.
+    K2432 proves the sharp actual-memory Bell-preparation decoupling bound
+    f(q)=(q+sqrt(4q-3q^2))/2, propagates it through adaptive channel certification, and
+    gives uniform process-composition conditions. The prospective nine-million-trial bad
+    branch permits roughly8.37e-16 joint infidelity under this sufficient bound. Neither
+    result supplies a new complete Euler jet, measured preparation budget, or native GU
+    identification. Historical predecessor (not live):
     K2429 constructs one shared conditional finite jet through eighth Euler and ninth
     algebraic compatibility: original T6 rank95,886 and augmented T5 rank48,426 assemble
     full images2,819,348 and899,080, with an independent8,568-receiver sextic compatibility
@@ -17992,6 +18003,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2431-quintic-vanishing-ideal-2026-11-01.md
+  - lab/process/k2431-quintic-vanishing-ideal.json
+  - tests/channel-swings/k2431_quintic_vanishing_ideal_probe.py
+  - explorations/conditional-build/k2432-bell-preparation-memory-decoupling-2026-11-01.md
+  - lab/process/k2432-bell-preparation-memory-decoupling.json
+  - tests/channel-swings/k2432_bell_preparation_memory_decoupling_probe.py
   - explorations/conditional-build/k2429-shared-eighth-euler-extension-2026-11-01.md
   - lab/process/k2429-shared-eighth-euler-extension.json
   - tests/channel-swings/k2429_shared_eighth_euler_extension_probe.py
@@ -20186,6 +20203,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Does the full admissible lower-quartic K image intersect the null section's affine
+  eighth-compatibility module, and can the same coefficients satisfy ninth/tenth
+  boundaries? For decoder deployment, what trusted conditional joint Bell preparation,
+  readout, reset and fixed-reference transfer evidence satisfies the now explicit budget?
+  Historical predecessor (not live):
   Can the complete coupled quintic boundary fiber satisfy its tenth quadratic norm
   condition and then ninth-Euler compatibility on those same choices? For decoder
   deployment, what physically justified fresh joint input/reference decoupling and
@@ -24410,6 +24432,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Solve [B8+56 t(DK*k)]=0 in P/E, E=I+t(Dq Syz(q0)), over the full admissible
+  lower-quartic K image, retaining all lower Euler constraints and affine K freedom; the
+  saved relaxed K choice is sufficient if realizable, not uniquely necessary. Then solve
+  ninth/tenth boundaries on those same coefficients or test a different null section. In
+  recovery, instantiate conditional joint preparation/readout and uniform
+  reset/fixed-reference channel bounds with actual instrument evidence; marginal Bell
+  fidelities and tested averages alone cannot establish the process premises. The
+  source-native paired fixed-source/matter-readout response remains the strongest
+  independent physics challenger, with its missing native input explicit. Historical
+  predecessor (not live):
   Select the complete coupled quintic fiber jointly with G(R5W,R5W)|Z=0, retain all
   earlier choices, and test the remaining tenth boundary and ninth-Euler intersection
   using original operators; one failed representative is not a family obstruction. In

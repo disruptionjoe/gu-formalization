@@ -1,0 +1,96 @@
+{
+  "actual_memory_bound": "(q+sqrt(4q-3q^2))/2",
+  "budgets": [
+    {
+      "C_upper_enclosure": "[14.37606227672978526948946542035027246014661304078675891308595438004179748508 +/- 5.04e-75]",
+      "branch": "bad_previous",
+      "joint_infidelity_threshold": "[8.3713343382975014231218562591611672656298512498055194914797478652777544562e-16 +/- 5.27e-90]",
+      "n": 9000000,
+      "probability_margin": "[2.8933258683576373734162029640829909852870659390790085132086749888080792941e-8 +/- 4.22e-82]",
+      "tested_sufficient_epsilon": "[1.000000000000000000000000000000000000000000000000000000000000000000000000000e-16 +/- 3.11e-94]"
+    },
+    {
+      "C_upper_enclosure": "2.000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "branch": "good_previous",
+      "joint_infidelity_threshold": "[8.3835962372525867483935898934234703786919684673281448098033494069119285412e-13 +/- 4.60e-87]",
+      "n": 170000,
+      "probability_margin": "[9.1562022222293714805606580549960893927004599522483716536057503471493808903e-7 +/- 5.30e-81]",
+      "tested_sufficient_epsilon": "[1.000000000000000000000000000000000000000000000000000000000000000000000000000e-13 +/- 3.25e-91]"
+    },
+    {
+      "C_upper_enclosure": "[14.37606227672978526948946542035027246014661304078675891308595438004179748508 +/- 5.04e-75]",
+      "branch": "bad_expanded",
+      "joint_infidelity_threshold": "[7.79209066735531141096343192412049448481825458690847010433775201580725244835e-14 +/- 8.53e-89]",
+      "n": 20000000,
+      "probability_margin": "[2.79143204152704748918246234883695083650454070440398721247507442582986713905e-7 +/- 4.11e-82]",
+      "tested_sufficient_epsilon": "[1.000000000000000000000000000000000000000000000000000000000000000000000000000e-14 +/- 1.16e-91]"
+    }
+  ],
+  "checks": {
+    "Jensen_example": true,
+    "actual_marginal_product_schmidt_distance": true,
+    "actual_memory_marginal": true,
+    "bad_expanded_distance_with_correlated_preparation": true,
+    "bad_expanded_positive_margin": true,
+    "bad_expanded_selected_joint_infidelity_sufficient": true,
+    "bad_previous_distance_with_correlated_preparation": true,
+    "bad_previous_positive_margin": true,
+    "bad_previous_selected_joint_infidelity_sufficient": true,
+    "concavity_exact": true,
+    "conditional_average_allowance_example": true,
+    "corrected_near_pure_memory_allowance": true,
+    "endpoints": true,
+    "exact_reset_decouples_correlated_input": true,
+    "free_memory_characteristic_polynomial": true,
+    "free_memory_minimum_at_projection": true,
+    "free_memory_projection_distance": true,
+    "good_previous_distance_with_correlated_preparation": true,
+    "good_previous_positive_margin": true,
+    "good_previous_selected_joint_infidelity_sufficient": true,
+    "identical_one_use_marginals": true,
+    "inverse_quadratic": true,
+    "joint_infidelity": true,
+    "joint_state_normalized_positive": true,
+    "original_eight_dimensional_spectrum": true,
+    "perfect_preparation_product_fixture": true,
+    "prior_dependency_hashes": true,
+    "reset_Kraus_trace_preserving": true,
+    "sharp_bound_attained": true,
+    "sharp_root_equation": true,
+    "stable_inverse": true,
+    "telescoping_error_example": true,
+    "two_use_states_CPTP_outputs": true
+  },
+  "controls": {
+    "bad_fixed_floor_not_removed_by_samples": true,
+    "free_memory_bound_wrong_for_actual_memory": true,
+    "input_marginal_does_not_determine_joint_fidelity": true,
+    "linear_infidelity_bound_wrong": true,
+    "pure_memory_reference_is_not_actual_marginal": true,
+    "single_use_does_not_certify_process": true,
+    "unconditional_fidelity_does_not_bound_selected_history": true
+  },
+  "dependencies": {
+    "lab/process/k2428-exact-recovery-uniqueness.json": "63bee16e614803def28804b015bd2b39f4a2b94bbcf11320308983e4b5402aa0",
+    "lab/process/k2430-adaptive-decoder-certification.json": "dca5798633e4ea6ed0a99418bac8f39ee3fa585a3b34a98102f5714d70111bda",
+    "tests/channel-swings/k2430_adaptive_decoder_certification_probe.py": "398b53d97997d6e2a8fb0e79d08fd3d17953b75fe6c939423ca757003f233284"
+  },
+  "evidence_kinds": {
+    "exact_algebra": "symbolic identities, exact spectra, CPTP state controls",
+    "not_supplied": "physical conditional fidelity, readout, full reset or deployment transfer evidence",
+    "rigorous_numerics": "Arb 256-bit sufficient preparation budgets",
+    "universal_proof": "purification, rank-one secular inequality, monotonic inverse, conditional contraction and uniform telescoping in note"
+  },
+  "free_memory_bound": "sqrt(q)",
+  "result_id": "K2432",
+  "scope": "Sharp finite-dimensional actual-memory preparation decoupling; adaptive tested-average and explicitly uniform deployment consumers only; no measured calibration or GU recovery.",
+  "sharp_fixture": {
+    "distance": "(9+3sqrt(73))/50",
+    "eigenvalues": [
+      "(9+3sqrt(73))/50",
+      "(9-3sqrt(73))/50",
+      "-9/25"
+    ],
+    "q": "9/25"
+  }
+}

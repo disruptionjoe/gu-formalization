@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2431-quintic-vanishing-ideal](k2431-quintic-vanishing-ideal.json).
+- [k2432-bell-preparation-memory-decoupling](k2432-bell-preparation-memory-decoupling.json).
+
 - [k2429-shared-eighth-euler-extension](k2429-shared-eighth-euler-extension.json).
 - [k2430-adaptive-decoder-certification](k2430-adaptive-decoder-certification.json).
 

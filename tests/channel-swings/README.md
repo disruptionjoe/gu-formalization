@@ -1,4 +1,7 @@
 
+- [k2431-quintic-vanishing-ideal](k2431_quintic_vanishing_ideal_probe.py).
+- [k2432-bell-preparation-memory-decoupling](k2432_bell_preparation_memory_decoupling_probe.py).
+
 - [k2429-shared-eighth-euler-extension](k2429_shared_eighth_euler_extension_probe.py).
 - [k2430-adaptive-decoder-certification](k2430_adaptive_decoder_certification_probe.py).
 

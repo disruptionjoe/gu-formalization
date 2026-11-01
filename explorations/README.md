@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2431-quintic-vanishing-ideal](conditional-build/k2431-quintic-vanishing-ideal-2026-11-01.md).
+- [k2432-bell-preparation-memory-decoupling](conditional-build/k2432-bell-preparation-memory-decoupling-2026-11-01.md).
+
 - [k2429-shared-eighth-euler-extension](conditional-build/k2429-shared-eighth-euler-extension-2026-11-01.md).
 - [k2430-adaptive-decoder-certification](conditional-build/k2430-adaptive-decoder-certification-2026-11-01.md).
 
