@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2449-full-mixed-boundary-adjoint](k2449-full-mixed-boundary-adjoint.json).
+- [k2450-route-leakage-certificate](k2450-route-leakage-certificate.json).
+- [k2451-verifier-operation-boundary](k2451-verifier-operation-boundary.json).
+
 - [k2447-coherent-program-verification](k2447-coherent-program-verification.json).
 - [k2448-binary-hidden-route-certificate](k2448-binary-hidden-route-certificate.json).
 

@@ -6,6 +6,19 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2449--K2451: Mixed adjoint, robust routing and local verification (2026-11-01)
+
+K2449 gives the full original mixed boundary-ideal adjoint, an independent dual proof of its exact compatibility kernel, and a sufficient joint coercivity criterion without claiming convergence. K2450 proves stopping-safe certificates with bounded conditional test/use leakage, a sharp family exponent and an unavoidable leakage floor. K2451 replaces the original internal entangled verifier effects with an explicit four-register local tree protocol, with exact conservative gaps85/10071 and221/27783 and priced sampling costs. These are conditional mathematical results, not measured performance or native GU recovery.
+
+- [K2449](explorations/conditional-build/k2449-full-mixed-boundary-adjoint-2026-11-01.md).
+- [K2450](explorations/conditional-build/k2450-route-leakage-certificate-2026-11-01.md).
+- [K2451](explorations/conditional-build/k2451-verifier-operation-boundary-2026-11-01.md).
+
+Independent geometry, probability and quantum-information reviews checked the universal arguments and exact original-object implementations. Review corrections strengthened nonvacuous pairing, actual factorial-inverse and indistinguishability controls, clarified the zero-failure process, corrected outside-cube acceptance prose, and pinned the dynamically consumed original-law source. No external-expert, proof-assistant, novelty or device-performance claim.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2447--K2448: Coherent programs and stopping-safe binary certification (2026-11-01)
 
 K2447 constructs a rank-nine coherent purification of each original mixed flagged program, an explicit two-setting one-way verifier with gap one half, and a no-free-upgrade theorem for nondisturbing extensions. Exact dephasing controls show that a correct recorded program can fail the stronger coherent test. K2448 proves a stopping-safe binary hidden-route certificate under adaptive drift, with a sharp exponent within its exponential family, weighted tuning and zero-failure resource-distance scaling proportional to the inverse square root of uses. Prospective calibrated one/two-slot bounds are below0.70/0.95percent. These are conditional mathematical interfaces, not actual observations or native GU recovery.

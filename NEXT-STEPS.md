@@ -5,6 +5,10 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-11-01: MIXED ADJOINT, ROBUST ROUTING AND LOCAL VERIFICATION.**
+> Use K2449 exact full mixed adjoint on the trace/double-divergence quotient; prove a uniform geometric lower bound or construct an original invariant contrary family. Kernel identification and further finite ranks do not establish convergence; nonlinear majorant and same-section realization remain separate. K2451 supplies a finite four-register local verifier with a smaller proved gap, not hardware calibration or freedom from coherent flag/environment access. Test actual local filter/basis/feedforward/storage and per-history branch-separation assumptions; K2450 makes leakage an explicit nonzero floor, never an observed secrecy guarantee. Preserve success-weighted means, nonzero actual uses, predictable parameter choices and source/ledger ceilings. Shared native matter/light, common-bar/mobile, thermal163/164, native2+1/chirality and positive physical quotient remain distinct open routes.
+
+
 > **2026-11-01: COHERENT PROGRAMS AND STOPPING-SAFE BINARY CERTIFICATION.**
 > Use the original full ambient Fischer adjoint with the repeated-polar boundary ideal, Koszul/rotation outer derivatives and y_E second-derivative terms; a constant-coefficient symbol shortcut or scalar primitive alone does not settle mixed convergence. K2447 provides two E-to-S feedforward setting families with exact gap1/2; local means only the E|S partition and requires coherent program flags. A measured instrument cannot be upgraded nondisturbingly on its full support. K2448 now supplies time-uniform actual-used risk bounds, but trusted coherent custody, verifier calibration, storage/controller errors and actual outcomes remain inputs. Preserve weighted tuning, nonzero use count, success-weighted means and the distinction from final-transcript/future guarantees. If only recorded resources exist, retain K2445 or full tomography. Shared native matter/light, common-bar/mobile, thermal163/164, native2+1/chirality and positive physical quotient remain open distinct routes.
 

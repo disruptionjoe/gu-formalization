@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: b20fb83ea55620e23340a676d88e951fc11f29bd
+revision_basis: b323c6c6c19540eab2317e6f012a81b2d9e01a82
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,14 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2449 gives the full original mixed boundary-ideal adjoint, an independent dual proof of
+    its exact compatibility kernel, and a sufficient joint coercivity criterion without
+    claiming convergence. K2450 proves stopping-safe certificates with bounded conditional
+    test/use leakage, a sharp family exponent and an unavoidable leakage floor. K2451
+    replaces the original internal entangled verifier effects with an explicit four-register
+    local tree protocol, with exact conservative gaps85/10071 and221/27783 and priced
+    sampling costs. These are conditional mathematical results, not measured performance or
+    native GU recovery. Historical predecessor (not live):
     K2447 constructs a rank-nine coherent purification of each original mixed flagged
     program, an explicit two-setting one-way verifier with gap one half, and a
     no-free-upgrade theorem for nondisturbing extensions. Exact dephasing controls show that
@@ -18075,6 +18083,15 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2449-full-mixed-boundary-adjoint-2026-11-01.md
+  - lab/process/k2449-full-mixed-boundary-adjoint.json
+  - tests/channel-swings/k2449_full_mixed_boundary_adjoint_probe.py
+  - explorations/conditional-build/k2450-route-leakage-certificate-2026-11-01.md
+  - lab/process/k2450-route-leakage-certificate.json
+  - tests/channel-swings/k2450_route_leakage_certificate_probe.py
+  - explorations/conditional-build/k2451-verifier-operation-boundary-2026-11-01.md
+  - lab/process/k2451-verifier-operation-boundary.json
+  - tests/channel-swings/k2451_verifier_operation_boundary_probe.py
   - explorations/conditional-build/k2447-coherent-program-verification-2026-11-01.md
   - lab/process/k2447-coherent-program-verification.json
   - tests/channel-swings/k2447_coherent_program_verification_probe.py
@@ -20323,6 +20340,9 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can the explicit1239-row full mixed adjoint satisfy a geometric quotient estimate, and
+  can actual coherent logical-register controls and per-history leakage/calibration
+  evidence meet the now explicit local-verifier budget? Historical predecessor (not live):
   Can the actual full mixed hook adjoint, retaining the boundary ideal and linear
   generators, admit a geometric inverse bound; or can the explicit coherent-reference
   verification settings be implemented with independently calibrated costs on an available
@@ -24584,6 +24604,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Use K2449 exact full mixed adjoint on the trace/double-divergence quotient; prove a
+  uniform geometric lower bound or construct an original invariant contrary family. Kernel
+  identification and further finite ranks do not establish convergence; nonlinear majorant
+  and same-section realization remain separate. K2451 supplies a finite four-register
+  local verifier with a smaller proved gap, not hardware calibration or freedom from
+  coherent flag/environment access. Test actual local filter/basis/feedforward/storage and
+  per-history branch-separation assumptions; K2450 makes leakage an explicit nonzero
+  floor, never an observed secrecy guarantee. Preserve success-weighted means, nonzero
+  actual uses, predictable parameter choices and source/ledger ceilings. Shared native
+  matter/light, common-bar/mobile, thermal163/164, native2+1/chirality and positive
+  physical quotient remain distinct open routes. Historical predecessor (not live):
   Use the original full ambient Fischer adjoint with the repeated-polar boundary ideal,
   Koszul/rotation outer derivatives and y_E second-derivative terms; a
   constant-coefficient symbol shortcut or scalar primitive alone does not settle mixed

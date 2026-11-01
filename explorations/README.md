@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2449-full-mixed-boundary-adjoint](conditional-build/k2449-full-mixed-boundary-adjoint-2026-11-01.md).
+- [k2450-route-leakage-certificate](conditional-build/k2450-route-leakage-certificate-2026-11-01.md).
+- [k2451-verifier-operation-boundary](conditional-build/k2451-verifier-operation-boundary-2026-11-01.md).
+
 - [k2447-coherent-program-verification](conditional-build/k2447-coherent-program-verification-2026-11-01.md).
 - [k2448-binary-hidden-route-certificate](conditional-build/k2448-binary-hidden-route-certificate-2026-11-01.md).
 

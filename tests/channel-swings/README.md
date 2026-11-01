@@ -1,4 +1,8 @@
 
+- [k2449-full-mixed-boundary-adjoint](k2449_full_mixed_boundary_adjoint_probe.py).
+- [k2450-route-leakage-certificate](k2450_route_leakage_certificate_probe.py).
+- [k2451-verifier-operation-boundary](k2451_verifier_operation_boundary_probe.py).
+
 - [k2447-coherent-program-verification](k2447_coherent_program_verification_probe.py).
 - [k2448-binary-hidden-route-certificate](k2448_binary_hidden_route_certificate_probe.py).
 
