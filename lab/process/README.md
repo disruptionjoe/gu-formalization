@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2423-corotating-mixed-sixth](k2423-corotating-mixed-sixth.json).
+- [k2424-recovery-saddle-reduction](k2424-recovery-saddle-reduction.json).
+
 - [k2421-mixed-sixth-structural-reduction](k2421-mixed-sixth-structural-reduction.json).
 - [k2422-joint-recovery-optimality](k2422-joint-recovery-optimality.json).
 

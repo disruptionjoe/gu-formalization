@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 53f2db0972661dbbd91b84f49d6c01817d82e701
+revision_basis: 4ec609c7a88133e76049069ec12d0b8542f5a690
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,17 +118,15 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
-    K2421 reduces the shared mixed-sixth extension to the distinct-hook sigma quotient:
-    all-degree polar Euler image equality gives next rank247415, existing105 curved
-    compatibility identities guarantee fifth-Euler completion once one quartic passes full
-    sixth algebraic, and explicit Gram/repeated primitives identify a357924-dimensional
-    repeated quartic nuisance space before Euler. K2422 gives the attained joint
-    variable-loss recovery dual, a four-term exact gap certificate, and a
-    necessary-and-sufficient3x3 matrix criterion for identity optimality with at most six
-    active laws. Balanced-active and antipodal families have exact closed optima; a
-    non-antipodal three-law fixture equals1/2. Mixed sigma feasibility and the asymmetric
-    K2419 nonidentity optimum remain open. These are conditional mathematics; source
-    polarities and ledger0.263 are unchanged.
+    K2423 constructs an exact repeated frame for K2420's repaired cubic, proves the
+    inherited W4 outside that fixed-first-rotation family with a224-column dual, and
+    executes an admissible changed-W4 repair passing420 Phi and1848 all-W sixth targets.
+    Repeated Gram ideal division yields a shared full fifth/sixth-algebraic quartic/quintic;
+    cubic rotations fill its first104-dimensional Euler boundary block, while the remaining
+    shared fourth-Euler completion stays open. K2424 removes bad-channel optimization by a
+    closed arbitrary planar support formula, reduces two-law recovery to a compact
+    two-scalar maximum, and certifies the original asymmetric optimum within a1e-27-wide
+    global bracket. Source polarities and ledger0.263 remain unchanged.
     Historical predecessor (not live):
     K2418 gives complete exact attainable metric-pool probability intervals, replacing
     exponential support faces with equality-class dynamic programming and deciding global
@@ -17962,6 +17960,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2423-corotating-mixed-sixth-2026-10-31.md
+  - lab/process/k2423-corotating-mixed-sixth.json
+  - tests/channel-swings/k2423_corotating_mixed_sixth_probe.py
+  - explorations/conditional-build/k2424-recovery-saddle-reduction-2026-10-31.md
+  - lab/process/k2424-recovery-saddle-reduction.json
+  - tests/channel-swings/k2424_recovery_saddle_reduction_probe.py
   - explorations/conditional-build/k2421-mixed-sixth-structural-reduction-2026-10-31.md
   - lab/process/k2421-mixed-sixth-structural-reduction.json
   - tests/channel-swings/k2421_mixed_sixth_structural_reduction_probe.py
@@ -20132,11 +20136,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can the full five-W mixed-sixth sigma quotient be solved on K2420's compatible quartic
-  fiber after eliminating repeated nuisance variables with Euler back-substitution? For
-  the asymmetric recovery pair, can singular matching primal/dual witnesses close the
-  optimum, or can justified uncertainty select a class with the new exact identity
-  criterion? Historical predecessor (not live):
+  Can the exact repeated-frame algebraic extension with its new compatible W4 also satisfy
+  fourth Euler, retaining higher frame rotations and all relevant repeated/kernel freedom?
+  Is algebraic isolation of the recovery saddle useful beyond the now certified1e-27
+  bracket, or should calibrated instrument/source inputs take priority?
+  Historical predecessor (not live):
   Can the mixed-sixth algebraic conditions be satisfied on K2420's shared quartic family
   retaining the checked changed-Phi/all-W sixth witness, then completed with the same
   fifth-Euler quintic? Recovery now reduces to the shared bad CPTP channel and one
@@ -24343,6 +24347,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Use K2423's actual repaired cubic, ambient quadratic rotation and new W4
+  digest2632127837a3051e07e50c59bf244c1c8cd27a5af0867b0c550b791460920610. All fifth/sixth
+  algebraic equations are constructively solvable in the repeated frame; the shared
+  fourth-Euler intersection remains. Do not use the old K2420 fixedW4 or combine distinct
+  existential quartics. Repeated-polar transverse Euler rank89 rises to the full104 after
+  cubic frame rotations; the first W3 boundary block is now solved at image level.
+  Continue the coupled mixed-E blocks with the same coefficients and preserve all
+  algebraic constraints. K2424's arbitrary support and compact scalar dual replace channel
+  SDP searches; its exact rational candidate gives a1e-27 bracket but neither exact
+  optimizer nor uniqueness. More decimals have no stated payoff. Physical use needs actual
+  joint calibration, measured full-instrument costs, or a native same-background
+  source/readout block. Preserve common-bar/mobile, thermal163/164, native2+1/chirality,
+  physical quotient and source/domain ceilings.
+  Historical predecessor (not live):
   Retain K2420's repaired cubic and changed-Phi/all-W sixth W4 witness. Assemble all462
   five-W tuples (924 field targets) on the complete distinct U(E,W3) affine fiber,
   retaining prior algebraic/Euler constraints and all102 linear syzygies; repeated

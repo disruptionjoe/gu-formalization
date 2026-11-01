@@ -1,4 +1,7 @@
 
+- [k2423-corotating-mixed-sixth](k2423_corotating_mixed_sixth_probe.py).
+- [k2424-recovery-saddle-reduction](k2424_recovery_saddle_reduction_probe.py).
+
 - [k2421-mixed-sixth-structural-reduction](k2421_mixed_sixth_structural_reduction_probe.py).
 - [k2422-joint-recovery-optimality](k2422_joint_recovery_optimality_probe.py).
 

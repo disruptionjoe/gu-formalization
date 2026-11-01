@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2423-corotating-mixed-sixth](conditional-build/k2423-corotating-mixed-sixth-2026-10-31.md).
+- [k2424-recovery-saddle-reduction](conditional-build/k2424-recovery-saddle-reduction-2026-10-31.md).
+
 - [k2421-mixed-sixth-structural-reduction](conditional-build/k2421-mixed-sixth-structural-reduction-2026-10-31.md).
 - [k2422-joint-recovery-optimality](conditional-build/k2422-joint-recovery-optimality-2026-10-31.md).
 

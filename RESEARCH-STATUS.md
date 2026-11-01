@@ -6,6 +6,18 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2423--K2424: Repeated frame and radical recovery saddle (2026-10-31)
+
+K2423 constructs an exact repeated frame for K2420's repaired cubic, proves the inherited W4 outside that fixed-first-rotation family with a224-column dual, and executes an admissible changed-W4 repair passing420 Phi and1848 all-W sixth targets. Repeated Gram ideal division yields a shared full fifth/sixth-algebraic quartic/quintic; cubic rotations fill its first104-dimensional Euler boundary block, while the remaining shared fourth-Euler completion stays open. K2424 removes bad-channel optimization by a closed arbitrary planar support formula, reduces two-law recovery to a compact two-scalar maximum, and certifies the original asymmetric optimum within a1e-27-wide global bracket. Source polarities and ledger0.263 remain unchanged.
+
+- [K2423](explorations/conditional-build/k2423-corotating-mixed-sixth-2026-10-31.md).
+- [K2424](explorations/conditional-build/k2424-recovery-saddle-reduction-2026-10-31.md).
+
+Independent internal geometry review derived the frame factors, challenged fixed-W4 and repeated-only shortcuts, and prompted the executed changed-W4 repair. Independent quantum review and a separate acceptance reviewer checked arbitrary support, determinant signs, physical radical reconstruction, compact dual boundaries and the final Arb certificate. No external-expert or proof-assistant certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2421--K2422: Mixed-sixth reduction and joint recovery optimality (2026-10-31)
 
 K2421 reduces the shared mixed-sixth extension to the distinct-hook sigma quotient: all-degree polar Euler image equality gives next rank247415, existing105 curved compatibility identities guarantee fifth-Euler completion once one quartic passes full sixth algebraic, and explicit Gram/repeated primitives identify a357924-dimensional repeated quartic nuisance space before Euler. K2422 gives the attained joint variable-loss recovery dual, a four-term exact gap certificate, and a necessary-and-sufficient3x3 matrix criterion for identity optimality with at most six active laws. Balanced-active and antipodal families have exact closed optima; a non-antipodal three-law fixture equals1/2. Mixed sigma feasibility and the asymmetric K2419 nonidentity optimum remain open. These are conditional mathematics; source polarities and ledger0.263 are unchanged.

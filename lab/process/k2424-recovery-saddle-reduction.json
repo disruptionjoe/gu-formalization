@@ -1,0 +1,120 @@
+{
+  "certified_bracket": {
+    "dual_enclosure": "[0.446966996608947629838642518898041648441903994242256857013244602121632779229 +/- 5.39e-76]",
+    "lower": "223483498304473814919321259/500000000000000000000000000",
+    "precision_bits": 256,
+    "primal_endpoint_enclosures": [
+      "[0.446966996608947629838642518898022188975246081285564229050469977879560465765 +/- 7.54e-76]",
+      "[0.446966996608947629838642518898062559550724307018582406848706811034906826081 +/- 2.73e-76]"
+    ],
+    "upper": "446966996608947629838642519/1000000000000000000000000000",
+    "width": "1/1000000000000000000000000000"
+  },
+  "checks": {
+    "actual_law_0": true,
+    "actual_law_1": true,
+    "actual_sign_CP_0-1": true,
+    "actual_sign_CP_01": true,
+    "actual_sign_CP_1-1": true,
+    "actual_sign_CP_11": true,
+    "candidate_compact_domain": true,
+    "certified_gap_1e_minus27": true,
+    "compact_cone_constants": true,
+    "gain_over_unital_identity": true,
+    "gradient_matrix_fixture": true,
+    "gradient_translation_fixture": true,
+    "identity_upper_and_rectangle": true,
+    "interval_simple_improving_positive_det": true,
+    "nonsymmetric_complementarity": true,
+    "nonsymmetric_dual_PSD": true,
+    "nonsymmetric_formula": true,
+    "nonsymmetric_original_Choi_CP_TP": true,
+    "nonsymmetric_original_support": true,
+    "original_composition_0_0": true,
+    "original_composition_0_1": true,
+    "original_composition_0_2": true,
+    "original_composition_0_3": true,
+    "original_composition_1_0": true,
+    "original_composition_1_1": true,
+    "original_composition_1_2": true,
+    "original_composition_1_3": true,
+    "original_full_norm_branch": true,
+    "preparation_complementarity": true,
+    "preparation_dual_PSD": true,
+    "preparation_formula": true,
+    "preparation_original_Choi_CP_TP": true,
+    "preparation_original_support": true,
+    "rank_one_complementarity": true,
+    "rank_one_dual_PSD": true,
+    "rank_one_formula": true,
+    "rank_one_original_Choi_CP_TP": true,
+    "rank_one_original_support": true,
+    "reflection_complementarity": true,
+    "reflection_dual_PSD": true,
+    "reflection_formula": true,
+    "reflection_original_Choi_CP_TP": true,
+    "reflection_original_support": true,
+    "rigorous_constructed_upper": true,
+    "rigorous_global_lower": true,
+    "scalar_quadratic_branch_identity": true,
+    "zero_complementarity": true,
+    "zero_dual_PSD": true,
+    "zero_formula": true,
+    "zero_original_Choi_CP_TP": true,
+    "zero_original_support": true
+  },
+  "controls": {
+    "independent_translation_plus_identity_not_CP": true,
+    "old_nonstationary_dual_not_exact": true,
+    "reflection_needs_perpendicular_sign": true,
+    "rounded_claim_above_primal_not_lower": true,
+    "transpose_Gram_changes_support": true
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2395-planar-recovery-closed-form-2026-10-31.md": "8acf65dd02797ecfa744b73c7a73f75e64dad4c03b8c095ebc0967f6d8d51bdb",
+    "explorations/conditional-build/k2422-joint-recovery-optimality-2026-10-31.md": "2cfc6f1d40d9d85e160051a2393e1548679764e39d1dff720b50864e163e6abf",
+    "tests/channel-swings/k2419_positive_visibility_dual_probe.py": "d401d829d8d2b6ebf1b99c77b7e7b7497c99bffb4efffaac61363659b58ed757"
+  },
+  "rational_dual_candidate": {
+    "lambda": "129554338976598907126282968331/250000000000000000000000000000",
+    "t": "57537330873480255935665491873/1000000000000000000000000000000"
+  },
+  "result_id": "K2424",
+  "scope": "Closed arbitrary real planar Choi support; exact compact two-scalar global maximum; original physical radical primal and dual certify a 1e-27 bracket. Exact maximizing algebraic point, uniqueness, physical apparatus and GU interpretation unproved.",
+  "software": {
+    "python_flint": "0.9.0",
+    "sympy": "1.14.0"
+  },
+  "support_fixtures": [
+    {
+      "Choi_rank": 2,
+      "dual_slack_rank": 2,
+      "fixture": "nonsymmetric",
+      "support": "3*sqrt(30)/5"
+    },
+    {
+      "Choi_rank": 2,
+      "dual_slack_rank": 2,
+      "fixture": "rank_one",
+      "support": "sqrt(5)"
+    },
+    {
+      "Choi_rank": 1,
+      "dual_slack_rank": 3,
+      "fixture": "reflection",
+      "support": "2"
+    },
+    {
+      "Choi_rank": 2,
+      "dual_slack_rank": 2,
+      "fixture": "preparation",
+      "support": "5"
+    },
+    {
+      "Choi_rank": 4,
+      "dual_slack_rank": 0,
+      "fixture": "zero",
+      "support": "0"
+    }
+  ]
+}
