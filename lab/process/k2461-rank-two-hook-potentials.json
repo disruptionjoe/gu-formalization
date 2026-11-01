@@ -1,0 +1,2119 @@
+{
+  "actual_top_jet_obstruction_degree": 3,
+  "actual_witness_first_order": [
+    "0",
+    "0",
+    "0",
+    "-1/16",
+    "1/16",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "cancelling_rank_two_span_same_scalar_image": true,
+  "candidate_lines": 280,
+  "checks": {
+    "active_constant_span_dimension": true,
+    "active_derivatives_exact": true,
+    "actual_diagonal_normalization_0": true,
+    "actual_diagonal_normalization_1": true,
+    "actual_diagonal_normalization_2": true,
+    "all_line_boundary_0_-1_1": true,
+    "all_line_boundary_0_1_1": true,
+    "all_line_boundary_1_-1_-1": true,
+    "all_line_boundary_1_1_-1": true,
+    "all_line_boundary_2_-1_1": true,
+    "all_line_boundary_2_1_-1": true,
+    "all_line_boundary_2_1_1": true,
+    "all_line_primitive_0_-1_1": true,
+    "all_line_primitive_0_1_1": true,
+    "all_line_primitive_1_-1_-1": true,
+    "all_line_primitive_1_1_-1": true,
+    "all_line_primitive_2_-1_1": true,
+    "all_line_primitive_2_1_-1": true,
+    "all_line_primitive_2_1_1": true,
+    "all_second_terms_zero_0": true,
+    "all_second_terms_zero_1": true,
+    "all_second_terms_zero_10": true,
+    "all_second_terms_zero_11": true,
+    "all_second_terms_zero_12": true,
+    "all_second_terms_zero_13": true,
+    "all_second_terms_zero_14": true,
+    "all_second_terms_zero_15": true,
+    "all_second_terms_zero_2": true,
+    "all_second_terms_zero_3": true,
+    "all_second_terms_zero_4": true,
+    "all_second_terms_zero_5": true,
+    "all_second_terms_zero_6": true,
+    "all_second_terms_zero_7": true,
+    "all_second_terms_zero_8": true,
+    "all_second_terms_zero_9": true,
+    "analytic_coefficient_bound_0": true,
+    "analytic_coefficient_bound_1": true,
+    "analytic_coefficient_bound_2": true,
+    "boundary_coordinate_owned": true,
+    "cancel_kernel_dimension_0": true,
+    "cancel_kernel_dimension_1": true,
+    "cancel_kernel_dimension_2": true,
+    "cancel_kernel_dimension_3": true,
+    "cancel_kernel_dimension_4": true,
+    "cancel_kernel_dimension_5": true,
+    "cancel_kernel_dimension_6": true,
+    "cancel_ridge_is_null_0_(-1, -1)": true,
+    "cancel_ridge_is_null_0_(-1, 1)": true,
+    "cancel_ridge_is_null_0_(1, -1)": true,
+    "cancel_ridge_is_null_0_(1, 1)": true,
+    "cancel_ridge_is_null_1_(-1, -1)": true,
+    "cancel_ridge_is_null_1_(-1, 1)": true,
+    "cancel_ridge_is_null_1_(1, -1)": true,
+    "cancel_ridge_is_null_1_(1, 1)": true,
+    "cancel_ridge_is_null_2_(-1, -1)": true,
+    "cancel_ridge_is_null_2_(-1, 1)": true,
+    "cancel_ridge_is_null_2_(1, -1)": true,
+    "cancel_ridge_is_null_2_(1, 1)": true,
+    "cancel_ridge_is_null_3_(-1, -1)": true,
+    "cancel_ridge_is_null_3_(-1, 1)": true,
+    "cancel_ridge_is_null_3_(1, -1)": true,
+    "cancel_ridge_is_null_3_(1, 1)": true,
+    "cancel_ridge_is_null_4_(-1, -1)": true,
+    "cancel_ridge_is_null_4_(-1, 1)": true,
+    "cancel_ridge_is_null_4_(1, -1)": true,
+    "cancel_ridge_is_null_4_(1, 1)": true,
+    "cancel_ridge_is_null_5_(-1, -1)": true,
+    "cancel_ridge_is_null_5_(-1, 1)": true,
+    "cancel_ridge_is_null_5_(1, -1)": true,
+    "cancel_ridge_is_null_5_(1, 1)": true,
+    "cancel_ridge_is_null_6_(-1, -1)": true,
+    "cancel_ridge_is_null_6_(-1, 1)": true,
+    "cancel_ridge_is_null_6_(1, -1)": true,
+    "cancel_ridge_is_null_6_(1, 1)": true,
+    "cancel_ridges_span_kernel_0": true,
+    "cancel_ridges_span_kernel_1": true,
+    "cancel_ridges_span_kernel_2": true,
+    "cancel_ridges_span_kernel_3": true,
+    "cancel_ridges_span_kernel_4": true,
+    "cancel_ridges_span_kernel_5": true,
+    "cancel_ridges_span_kernel_6": true,
+    "character_reconstruction_0": true,
+    "character_reconstruction_1": true,
+    "character_reconstruction_2": true,
+    "complete_original_first_order_on_ring": true,
+    "complete_real_line_enumeration": true,
+    "cyclic_1": true,
+    "cyclic_10": true,
+    "cyclic_100": true,
+    "cyclic_101": true,
+    "cyclic_102": true,
+    "cyclic_103": true,
+    "cyclic_104": true,
+    "cyclic_105": true,
+    "cyclic_106": true,
+    "cyclic_107": true,
+    "cyclic_108": true,
+    "cyclic_109": true,
+    "cyclic_11": true,
+    "cyclic_110": true,
+    "cyclic_111": true,
+    "cyclic_112": true,
+    "cyclic_113": true,
+    "cyclic_114": true,
+    "cyclic_115": true,
+    "cyclic_116": true,
+    "cyclic_117": true,
+    "cyclic_118": true,
+    "cyclic_119": true,
+    "cyclic_12": true,
+    "cyclic_120": true,
+    "cyclic_121": true,
+    "cyclic_122": true,
+    "cyclic_123": true,
+    "cyclic_124": true,
+    "cyclic_125": true,
+    "cyclic_126": true,
+    "cyclic_127": true,
+    "cyclic_128": true,
+    "cyclic_129": true,
+    "cyclic_13": true,
+    "cyclic_130": true,
+    "cyclic_131": true,
+    "cyclic_132": true,
+    "cyclic_133": true,
+    "cyclic_134": true,
+    "cyclic_135": true,
+    "cyclic_136": true,
+    "cyclic_137": true,
+    "cyclic_138": true,
+    "cyclic_139": true,
+    "cyclic_14": true,
+    "cyclic_140": true,
+    "cyclic_141": true,
+    "cyclic_142": true,
+    "cyclic_143": true,
+    "cyclic_144": true,
+    "cyclic_145": true,
+    "cyclic_146": true,
+    "cyclic_147": true,
+    "cyclic_148": true,
+    "cyclic_149": true,
+    "cyclic_15": true,
+    "cyclic_150": true,
+    "cyclic_151": true,
+    "cyclic_152": true,
+    "cyclic_153": true,
+    "cyclic_154": true,
+    "cyclic_155": true,
+    "cyclic_156": true,
+    "cyclic_157": true,
+    "cyclic_158": true,
+    "cyclic_159": true,
+    "cyclic_16": true,
+    "cyclic_160": true,
+    "cyclic_161": true,
+    "cyclic_162": true,
+    "cyclic_163": true,
+    "cyclic_164": true,
+    "cyclic_165": true,
+    "cyclic_166": true,
+    "cyclic_167": true,
+    "cyclic_168": true,
+    "cyclic_169": true,
+    "cyclic_17": true,
+    "cyclic_170": true,
+    "cyclic_171": true,
+    "cyclic_172": true,
+    "cyclic_173": true,
+    "cyclic_174": true,
+    "cyclic_175": true,
+    "cyclic_176": true,
+    "cyclic_177": true,
+    "cyclic_178": true,
+    "cyclic_179": true,
+    "cyclic_18": true,
+    "cyclic_180": true,
+    "cyclic_181": true,
+    "cyclic_182": true,
+    "cyclic_183": true,
+    "cyclic_184": true,
+    "cyclic_185": true,
+    "cyclic_186": true,
+    "cyclic_187": true,
+    "cyclic_188": true,
+    "cyclic_189": true,
+    "cyclic_19": true,
+    "cyclic_190": true,
+    "cyclic_191": true,
+    "cyclic_192": true,
+    "cyclic_193": true,
+    "cyclic_194": true,
+    "cyclic_195": true,
+    "cyclic_196": true,
+    "cyclic_197": true,
+    "cyclic_198": true,
+    "cyclic_199": true,
+    "cyclic_2": true,
+    "cyclic_20": true,
+    "cyclic_200": true,
+    "cyclic_201": true,
+    "cyclic_202": true,
+    "cyclic_203": true,
+    "cyclic_204": true,
+    "cyclic_205": true,
+    "cyclic_206": true,
+    "cyclic_207": true,
+    "cyclic_208": true,
+    "cyclic_209": true,
+    "cyclic_21": true,
+    "cyclic_210": true,
+    "cyclic_211": true,
+    "cyclic_212": true,
+    "cyclic_213": true,
+    "cyclic_214": true,
+    "cyclic_215": true,
+    "cyclic_216": true,
+    "cyclic_217": true,
+    "cyclic_218": true,
+    "cyclic_219": true,
+    "cyclic_22": true,
+    "cyclic_220": true,
+    "cyclic_221": true,
+    "cyclic_222": true,
+    "cyclic_223": true,
+    "cyclic_224": true,
+    "cyclic_225": true,
+    "cyclic_226": true,
+    "cyclic_227": true,
+    "cyclic_228": true,
+    "cyclic_229": true,
+    "cyclic_23": true,
+    "cyclic_230": true,
+    "cyclic_231": true,
+    "cyclic_232": true,
+    "cyclic_233": true,
+    "cyclic_234": true,
+    "cyclic_235": true,
+    "cyclic_236": true,
+    "cyclic_237": true,
+    "cyclic_238": true,
+    "cyclic_239": true,
+    "cyclic_24": true,
+    "cyclic_240": true,
+    "cyclic_241": true,
+    "cyclic_242": true,
+    "cyclic_243": true,
+    "cyclic_244": true,
+    "cyclic_245": true,
+    "cyclic_246": true,
+    "cyclic_247": true,
+    "cyclic_248": true,
+    "cyclic_249": true,
+    "cyclic_25": true,
+    "cyclic_250": true,
+    "cyclic_251": true,
+    "cyclic_252": true,
+    "cyclic_253": true,
+    "cyclic_254": true,
+    "cyclic_255": true,
+    "cyclic_256": true,
+    "cyclic_257": true,
+    "cyclic_258": true,
+    "cyclic_259": true,
+    "cyclic_26": true,
+    "cyclic_260": true,
+    "cyclic_261": true,
+    "cyclic_262": true,
+    "cyclic_263": true,
+    "cyclic_264": true,
+    "cyclic_265": true,
+    "cyclic_266": true,
+    "cyclic_267": true,
+    "cyclic_268": true,
+    "cyclic_269": true,
+    "cyclic_27": true,
+    "cyclic_270": true,
+    "cyclic_271": true,
+    "cyclic_272": true,
+    "cyclic_273": true,
+    "cyclic_274": true,
+    "cyclic_275": true,
+    "cyclic_276": true,
+    "cyclic_277": true,
+    "cyclic_278": true,
+    "cyclic_279": true,
+    "cyclic_28": true,
+    "cyclic_280": true,
+    "cyclic_29": true,
+    "cyclic_3": true,
+    "cyclic_30": true,
+    "cyclic_31": true,
+    "cyclic_32": true,
+    "cyclic_33": true,
+    "cyclic_34": true,
+    "cyclic_35": true,
+    "cyclic_36": true,
+    "cyclic_37": true,
+    "cyclic_38": true,
+    "cyclic_39": true,
+    "cyclic_4": true,
+    "cyclic_40": true,
+    "cyclic_41": true,
+    "cyclic_42": true,
+    "cyclic_43": true,
+    "cyclic_44": true,
+    "cyclic_45": true,
+    "cyclic_46": true,
+    "cyclic_47": true,
+    "cyclic_48": true,
+    "cyclic_49": true,
+    "cyclic_5": true,
+    "cyclic_50": true,
+    "cyclic_51": true,
+    "cyclic_52": true,
+    "cyclic_53": true,
+    "cyclic_54": true,
+    "cyclic_55": true,
+    "cyclic_56": true,
+    "cyclic_57": true,
+    "cyclic_58": true,
+    "cyclic_59": true,
+    "cyclic_6": true,
+    "cyclic_60": true,
+    "cyclic_61": true,
+    "cyclic_62": true,
+    "cyclic_63": true,
+    "cyclic_64": true,
+    "cyclic_65": true,
+    "cyclic_66": true,
+    "cyclic_67": true,
+    "cyclic_68": true,
+    "cyclic_69": true,
+    "cyclic_7": true,
+    "cyclic_70": true,
+    "cyclic_71": true,
+    "cyclic_72": true,
+    "cyclic_73": true,
+    "cyclic_74": true,
+    "cyclic_75": true,
+    "cyclic_76": true,
+    "cyclic_77": true,
+    "cyclic_78": true,
+    "cyclic_79": true,
+    "cyclic_8": true,
+    "cyclic_80": true,
+    "cyclic_81": true,
+    "cyclic_82": true,
+    "cyclic_83": true,
+    "cyclic_84": true,
+    "cyclic_85": true,
+    "cyclic_86": true,
+    "cyclic_87": true,
+    "cyclic_88": true,
+    "cyclic_89": true,
+    "cyclic_9": true,
+    "cyclic_90": true,
+    "cyclic_91": true,
+    "cyclic_92": true,
+    "cyclic_93": true,
+    "cyclic_94": true,
+    "cyclic_95": true,
+    "cyclic_96": true,
+    "cyclic_97": true,
+    "cyclic_98": true,
+    "cyclic_99": true,
+    "dimension_ratio_0": true,
+    "dimension_ratio_1": true,
+    "dimension_ratio_100": true,
+    "dimension_ratio_203": true,
+    "dimension_ratio_43": true,
+    "dimension_ratio_44": true,
+    "exact_original_supports": true,
+    "exact_original_survivor_count": true,
+    "first_original_dimension_exclusion": true,
+    "first_scalar_image_deficit": true,
+    "full_hilbert_dimension_0": true,
+    "full_hilbert_dimension_1": true,
+    "full_hilbert_dimension_2": true,
+    "full_hilbert_dimension_3": true,
+    "full_hilbert_dimension_4": true,
+    "full_hilbert_dimension_5": true,
+    "full_hilbert_dimension_6": true,
+    "full_hilbert_dimension_7": true,
+    "full_hilbert_dimension_8": true,
+    "full_hilbert_dimension_9": true,
+    "full_image_PDE_0": true,
+    "full_image_PDE_1": true,
+    "full_image_PDE_2": true,
+    "full_ordinary_zero_0": true,
+    "full_ordinary_zero_1": true,
+    "full_ordinary_zero_2": true,
+    "full_polar_121": true,
+    "full_polar_122": true,
+    "full_polar_123": true,
+    "full_polar_124": true,
+    "full_polar_185": true,
+    "full_polar_186": true,
+    "full_polar_187": true,
+    "full_polar_188": true,
+    "full_polar_261": true,
+    "full_polar_262": true,
+    "full_polar_263": true,
+    "full_polar_264": true,
+    "full_polar_277": true,
+    "full_polar_278": true,
+    "full_polar_279": true,
+    "full_polar_280": true,
+    "nonrepeated_control_is_tracefree_cyclic": true,
+    "normal_form_1": true,
+    "normal_form_10": true,
+    "normal_form_100": true,
+    "normal_form_101": true,
+    "normal_form_102": true,
+    "normal_form_103": true,
+    "normal_form_104": true,
+    "normal_form_105": true,
+    "normal_form_106": true,
+    "normal_form_107": true,
+    "normal_form_108": true,
+    "normal_form_109": true,
+    "normal_form_11": true,
+    "normal_form_110": true,
+    "normal_form_111": true,
+    "normal_form_112": true,
+    "normal_form_113": true,
+    "normal_form_114": true,
+    "normal_form_115": true,
+    "normal_form_116": true,
+    "normal_form_117": true,
+    "normal_form_118": true,
+    "normal_form_119": true,
+    "normal_form_12": true,
+    "normal_form_120": true,
+    "normal_form_121": true,
+    "normal_form_122": true,
+    "normal_form_123": true,
+    "normal_form_124": true,
+    "normal_form_125": true,
+    "normal_form_126": true,
+    "normal_form_127": true,
+    "normal_form_128": true,
+    "normal_form_129": true,
+    "normal_form_13": true,
+    "normal_form_130": true,
+    "normal_form_131": true,
+    "normal_form_132": true,
+    "normal_form_133": true,
+    "normal_form_134": true,
+    "normal_form_135": true,
+    "normal_form_136": true,
+    "normal_form_137": true,
+    "normal_form_138": true,
+    "normal_form_139": true,
+    "normal_form_14": true,
+    "normal_form_140": true,
+    "normal_form_141": true,
+    "normal_form_142": true,
+    "normal_form_143": true,
+    "normal_form_144": true,
+    "normal_form_145": true,
+    "normal_form_146": true,
+    "normal_form_147": true,
+    "normal_form_148": true,
+    "normal_form_149": true,
+    "normal_form_15": true,
+    "normal_form_150": true,
+    "normal_form_151": true,
+    "normal_form_152": true,
+    "normal_form_153": true,
+    "normal_form_154": true,
+    "normal_form_155": true,
+    "normal_form_156": true,
+    "normal_form_157": true,
+    "normal_form_158": true,
+    "normal_form_159": true,
+    "normal_form_16": true,
+    "normal_form_160": true,
+    "normal_form_161": true,
+    "normal_form_162": true,
+    "normal_form_163": true,
+    "normal_form_164": true,
+    "normal_form_165": true,
+    "normal_form_166": true,
+    "normal_form_167": true,
+    "normal_form_168": true,
+    "normal_form_169": true,
+    "normal_form_17": true,
+    "normal_form_170": true,
+    "normal_form_171": true,
+    "normal_form_172": true,
+    "normal_form_173": true,
+    "normal_form_174": true,
+    "normal_form_175": true,
+    "normal_form_176": true,
+    "normal_form_177": true,
+    "normal_form_178": true,
+    "normal_form_179": true,
+    "normal_form_18": true,
+    "normal_form_180": true,
+    "normal_form_181": true,
+    "normal_form_182": true,
+    "normal_form_183": true,
+    "normal_form_184": true,
+    "normal_form_185": true,
+    "normal_form_186": true,
+    "normal_form_187": true,
+    "normal_form_188": true,
+    "normal_form_189": true,
+    "normal_form_19": true,
+    "normal_form_190": true,
+    "normal_form_191": true,
+    "normal_form_192": true,
+    "normal_form_193": true,
+    "normal_form_194": true,
+    "normal_form_195": true,
+    "normal_form_196": true,
+    "normal_form_197": true,
+    "normal_form_198": true,
+    "normal_form_199": true,
+    "normal_form_2": true,
+    "normal_form_20": true,
+    "normal_form_200": true,
+    "normal_form_201": true,
+    "normal_form_202": true,
+    "normal_form_203": true,
+    "normal_form_204": true,
+    "normal_form_205": true,
+    "normal_form_206": true,
+    "normal_form_207": true,
+    "normal_form_208": true,
+    "normal_form_209": true,
+    "normal_form_21": true,
+    "normal_form_210": true,
+    "normal_form_211": true,
+    "normal_form_212": true,
+    "normal_form_213": true,
+    "normal_form_214": true,
+    "normal_form_215": true,
+    "normal_form_216": true,
+    "normal_form_217": true,
+    "normal_form_218": true,
+    "normal_form_219": true,
+    "normal_form_22": true,
+    "normal_form_220": true,
+    "normal_form_221": true,
+    "normal_form_222": true,
+    "normal_form_223": true,
+    "normal_form_224": true,
+    "normal_form_225": true,
+    "normal_form_226": true,
+    "normal_form_227": true,
+    "normal_form_228": true,
+    "normal_form_229": true,
+    "normal_form_23": true,
+    "normal_form_230": true,
+    "normal_form_231": true,
+    "normal_form_232": true,
+    "normal_form_233": true,
+    "normal_form_234": true,
+    "normal_form_235": true,
+    "normal_form_236": true,
+    "normal_form_237": true,
+    "normal_form_238": true,
+    "normal_form_239": true,
+    "normal_form_24": true,
+    "normal_form_240": true,
+    "normal_form_241": true,
+    "normal_form_242": true,
+    "normal_form_243": true,
+    "normal_form_244": true,
+    "normal_form_245": true,
+    "normal_form_246": true,
+    "normal_form_247": true,
+    "normal_form_248": true,
+    "normal_form_249": true,
+    "normal_form_25": true,
+    "normal_form_250": true,
+    "normal_form_251": true,
+    "normal_form_252": true,
+    "normal_form_253": true,
+    "normal_form_254": true,
+    "normal_form_255": true,
+    "normal_form_256": true,
+    "normal_form_257": true,
+    "normal_form_258": true,
+    "normal_form_259": true,
+    "normal_form_26": true,
+    "normal_form_260": true,
+    "normal_form_261": true,
+    "normal_form_262": true,
+    "normal_form_263": true,
+    "normal_form_264": true,
+    "normal_form_265": true,
+    "normal_form_266": true,
+    "normal_form_267": true,
+    "normal_form_268": true,
+    "normal_form_269": true,
+    "normal_form_27": true,
+    "normal_form_270": true,
+    "normal_form_271": true,
+    "normal_form_272": true,
+    "normal_form_273": true,
+    "normal_form_274": true,
+    "normal_form_275": true,
+    "normal_form_276": true,
+    "normal_form_277": true,
+    "normal_form_278": true,
+    "normal_form_279": true,
+    "normal_form_28": true,
+    "normal_form_280": true,
+    "normal_form_29": true,
+    "normal_form_3": true,
+    "normal_form_30": true,
+    "normal_form_31": true,
+    "normal_form_32": true,
+    "normal_form_33": true,
+    "normal_form_34": true,
+    "normal_form_35": true,
+    "normal_form_36": true,
+    "normal_form_37": true,
+    "normal_form_38": true,
+    "normal_form_39": true,
+    "normal_form_4": true,
+    "normal_form_40": true,
+    "normal_form_41": true,
+    "normal_form_42": true,
+    "normal_form_43": true,
+    "normal_form_44": true,
+    "normal_form_45": true,
+    "normal_form_46": true,
+    "normal_form_47": true,
+    "normal_form_48": true,
+    "normal_form_49": true,
+    "normal_form_5": true,
+    "normal_form_50": true,
+    "normal_form_51": true,
+    "normal_form_52": true,
+    "normal_form_53": true,
+    "normal_form_54": true,
+    "normal_form_55": true,
+    "normal_form_56": true,
+    "normal_form_57": true,
+    "normal_form_58": true,
+    "normal_form_59": true,
+    "normal_form_6": true,
+    "normal_form_60": true,
+    "normal_form_61": true,
+    "normal_form_62": true,
+    "normal_form_63": true,
+    "normal_form_64": true,
+    "normal_form_65": true,
+    "normal_form_66": true,
+    "normal_form_67": true,
+    "normal_form_68": true,
+    "normal_form_69": true,
+    "normal_form_7": true,
+    "normal_form_70": true,
+    "normal_form_71": true,
+    "normal_form_72": true,
+    "normal_form_73": true,
+    "normal_form_74": true,
+    "normal_form_75": true,
+    "normal_form_76": true,
+    "normal_form_77": true,
+    "normal_form_78": true,
+    "normal_form_79": true,
+    "normal_form_8": true,
+    "normal_form_80": true,
+    "normal_form_81": true,
+    "normal_form_82": true,
+    "normal_form_83": true,
+    "normal_form_84": true,
+    "normal_form_85": true,
+    "normal_form_86": true,
+    "normal_form_87": true,
+    "normal_form_88": true,
+    "normal_form_89": true,
+    "normal_form_9": true,
+    "normal_form_90": true,
+    "normal_form_91": true,
+    "normal_form_92": true,
+    "normal_form_93": true,
+    "normal_form_94": true,
+    "normal_form_95": true,
+    "normal_form_96": true,
+    "normal_form_97": true,
+    "normal_form_98": true,
+    "normal_form_99": true,
+    "null_ring_0": true,
+    "null_ring_1": true,
+    "null_ring_10": true,
+    "null_ring_11": true,
+    "null_ring_12": true,
+    "null_ring_13": true,
+    "null_ring_14": true,
+    "null_ring_15": true,
+    "null_ring_2": true,
+    "null_ring_3": true,
+    "null_ring_4": true,
+    "null_ring_5": true,
+    "null_ring_6": true,
+    "null_ring_7": true,
+    "null_ring_8": true,
+    "null_ring_9": true,
+    "old_rank3_direction_ordinary_null": true,
+    "only_four_scalar_active_lines": true,
+    "original_boundary_ideal_0": true,
+    "original_boundary_ideal_1": true,
+    "original_boundary_ideal_2": true,
+    "original_hook_norm": true,
+    "original_input_reconstruction": true,
+    "original_witness_recovered": true,
+    "ridge_degree_rank_0": true,
+    "ridge_degree_rank_1": true,
+    "ridge_degree_rank_2": true,
+    "ridge_degree_rank_3": true,
+    "ridge_degree_rank_4": true,
+    "ridge_degree_rank_5": true,
+    "ridge_degree_rank_6": true,
+    "ridge_degree_rank_7": true,
+    "scalar_inverse_0": true,
+    "scalar_inverse_1": true,
+    "scalar_inverse_2": true,
+    "survivor_rank2_0": true,
+    "survivor_rank2_1": true,
+    "survivor_rank2_10": true,
+    "survivor_rank2_11": true,
+    "survivor_rank2_12": true,
+    "survivor_rank2_13": true,
+    "survivor_rank2_14": true,
+    "survivor_rank2_15": true,
+    "survivor_rank2_2": true,
+    "survivor_rank2_3": true,
+    "survivor_rank2_4": true,
+    "survivor_rank2_5": true,
+    "survivor_rank2_6": true,
+    "survivor_rank2_7": true,
+    "survivor_rank2_8": true,
+    "survivor_rank2_9": true,
+    "synthesized_original_coordinate_bound_0": true,
+    "synthesized_original_coordinate_bound_1": true,
+    "synthesized_original_coordinate_bound_2": true,
+    "trace_1": true,
+    "trace_10": true,
+    "trace_100": true,
+    "trace_101": true,
+    "trace_102": true,
+    "trace_103": true,
+    "trace_104": true,
+    "trace_105": true,
+    "trace_106": true,
+    "trace_107": true,
+    "trace_108": true,
+    "trace_109": true,
+    "trace_11": true,
+    "trace_110": true,
+    "trace_111": true,
+    "trace_112": true,
+    "trace_113": true,
+    "trace_114": true,
+    "trace_115": true,
+    "trace_116": true,
+    "trace_117": true,
+    "trace_118": true,
+    "trace_119": true,
+    "trace_12": true,
+    "trace_120": true,
+    "trace_121": true,
+    "trace_122": true,
+    "trace_123": true,
+    "trace_124": true,
+    "trace_125": true,
+    "trace_126": true,
+    "trace_127": true,
+    "trace_128": true,
+    "trace_129": true,
+    "trace_13": true,
+    "trace_130": true,
+    "trace_131": true,
+    "trace_132": true,
+    "trace_133": true,
+    "trace_134": true,
+    "trace_135": true,
+    "trace_136": true,
+    "trace_137": true,
+    "trace_138": true,
+    "trace_139": true,
+    "trace_14": true,
+    "trace_140": true,
+    "trace_141": true,
+    "trace_142": true,
+    "trace_143": true,
+    "trace_144": true,
+    "trace_145": true,
+    "trace_146": true,
+    "trace_147": true,
+    "trace_148": true,
+    "trace_149": true,
+    "trace_15": true,
+    "trace_150": true,
+    "trace_151": true,
+    "trace_152": true,
+    "trace_153": true,
+    "trace_154": true,
+    "trace_155": true,
+    "trace_156": true,
+    "trace_157": true,
+    "trace_158": true,
+    "trace_159": true,
+    "trace_16": true,
+    "trace_160": true,
+    "trace_161": true,
+    "trace_162": true,
+    "trace_163": true,
+    "trace_164": true,
+    "trace_165": true,
+    "trace_166": true,
+    "trace_167": true,
+    "trace_168": true,
+    "trace_169": true,
+    "trace_17": true,
+    "trace_170": true,
+    "trace_171": true,
+    "trace_172": true,
+    "trace_173": true,
+    "trace_174": true,
+    "trace_175": true,
+    "trace_176": true,
+    "trace_177": true,
+    "trace_178": true,
+    "trace_179": true,
+    "trace_18": true,
+    "trace_180": true,
+    "trace_181": true,
+    "trace_182": true,
+    "trace_183": true,
+    "trace_184": true,
+    "trace_185": true,
+    "trace_186": true,
+    "trace_187": true,
+    "trace_188": true,
+    "trace_189": true,
+    "trace_19": true,
+    "trace_190": true,
+    "trace_191": true,
+    "trace_192": true,
+    "trace_193": true,
+    "trace_194": true,
+    "trace_195": true,
+    "trace_196": true,
+    "trace_197": true,
+    "trace_198": true,
+    "trace_199": true,
+    "trace_2": true,
+    "trace_20": true,
+    "trace_200": true,
+    "trace_201": true,
+    "trace_202": true,
+    "trace_203": true,
+    "trace_204": true,
+    "trace_205": true,
+    "trace_206": true,
+    "trace_207": true,
+    "trace_208": true,
+    "trace_209": true,
+    "trace_21": true,
+    "trace_210": true,
+    "trace_211": true,
+    "trace_212": true,
+    "trace_213": true,
+    "trace_214": true,
+    "trace_215": true,
+    "trace_216": true,
+    "trace_217": true,
+    "trace_218": true,
+    "trace_219": true,
+    "trace_22": true,
+    "trace_220": true,
+    "trace_221": true,
+    "trace_222": true,
+    "trace_223": true,
+    "trace_224": true,
+    "trace_225": true,
+    "trace_226": true,
+    "trace_227": true,
+    "trace_228": true,
+    "trace_229": true,
+    "trace_23": true,
+    "trace_230": true,
+    "trace_231": true,
+    "trace_232": true,
+    "trace_233": true,
+    "trace_234": true,
+    "trace_235": true,
+    "trace_236": true,
+    "trace_237": true,
+    "trace_238": true,
+    "trace_239": true,
+    "trace_24": true,
+    "trace_240": true,
+    "trace_241": true,
+    "trace_242": true,
+    "trace_243": true,
+    "trace_244": true,
+    "trace_245": true,
+    "trace_246": true,
+    "trace_247": true,
+    "trace_248": true,
+    "trace_249": true,
+    "trace_25": true,
+    "trace_250": true,
+    "trace_251": true,
+    "trace_252": true,
+    "trace_253": true,
+    "trace_254": true,
+    "trace_255": true,
+    "trace_256": true,
+    "trace_257": true,
+    "trace_258": true,
+    "trace_259": true,
+    "trace_26": true,
+    "trace_260": true,
+    "trace_261": true,
+    "trace_262": true,
+    "trace_263": true,
+    "trace_264": true,
+    "trace_265": true,
+    "trace_266": true,
+    "trace_267": true,
+    "trace_268": true,
+    "trace_269": true,
+    "trace_27": true,
+    "trace_270": true,
+    "trace_271": true,
+    "trace_272": true,
+    "trace_273": true,
+    "trace_274": true,
+    "trace_275": true,
+    "trace_276": true,
+    "trace_277": true,
+    "trace_278": true,
+    "trace_279": true,
+    "trace_28": true,
+    "trace_280": true,
+    "trace_29": true,
+    "trace_3": true,
+    "trace_30": true,
+    "trace_31": true,
+    "trace_32": true,
+    "trace_33": true,
+    "trace_34": true,
+    "trace_35": true,
+    "trace_36": true,
+    "trace_37": true,
+    "trace_38": true,
+    "trace_39": true,
+    "trace_4": true,
+    "trace_40": true,
+    "trace_41": true,
+    "trace_42": true,
+    "trace_43": true,
+    "trace_44": true,
+    "trace_45": true,
+    "trace_46": true,
+    "trace_47": true,
+    "trace_48": true,
+    "trace_49": true,
+    "trace_5": true,
+    "trace_50": true,
+    "trace_51": true,
+    "trace_52": true,
+    "trace_53": true,
+    "trace_54": true,
+    "trace_55": true,
+    "trace_56": true,
+    "trace_57": true,
+    "trace_58": true,
+    "trace_59": true,
+    "trace_6": true,
+    "trace_60": true,
+    "trace_61": true,
+    "trace_62": true,
+    "trace_63": true,
+    "trace_64": true,
+    "trace_65": true,
+    "trace_66": true,
+    "trace_67": true,
+    "trace_68": true,
+    "trace_69": true,
+    "trace_7": true,
+    "trace_70": true,
+    "trace_71": true,
+    "trace_72": true,
+    "trace_73": true,
+    "trace_74": true,
+    "trace_75": true,
+    "trace_76": true,
+    "trace_77": true,
+    "trace_78": true,
+    "trace_79": true,
+    "trace_8": true,
+    "trace_80": true,
+    "trace_81": true,
+    "trace_82": true,
+    "trace_83": true,
+    "trace_84": true,
+    "trace_85": true,
+    "trace_86": true,
+    "trace_87": true,
+    "trace_88": true,
+    "trace_89": true,
+    "trace_9": true,
+    "trace_90": true,
+    "trace_91": true,
+    "trace_92": true,
+    "trace_93": true,
+    "trace_94": true,
+    "trace_95": true,
+    "trace_96": true,
+    "trace_97": true,
+    "trace_98": true,
+    "trace_99": true
+  },
+  "controls": {
+    "actual_top_jet_cubic_excluded": true,
+    "arbitrary_ambient_extension_rejected": true,
+    "arbitrary_repetition_not_new_dimension": true,
+    "image_not_an_algebra": true,
+    "mixed_sign_equal_real_amplitudes_rejected": true,
+    "omitted_diagonal_factor_detected": true,
+    "quadratic_receiver_excluded": true,
+    "rank2_does_not_imply_repeated": true,
+    "rank3_image_not_excluded": true,
+    "tracefree_does_not_imply_original_polar": true,
+    "wrong_scalar_sign_detected": true
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2452-partial-analytic-hook-inverse-2026-11-01.md": "daa552606c04d10553ce922695447b0be79a440c92e1637a07dc5c739e7bbfa3",
+    "explorations/conditional-build/k2461-rank-two-hook-potentials-2026-11-01.md": "27e1049de28f4959990fe4d57338c1a78a1dd71d3b379505219c6b40202d9700",
+    "lab/process/k2458-hook-symbol-rank-boundary.json": "0b917ab123fdfae73263db7dbd9c00b4f253cd816cafcfe225140a005a7a4c35",
+    "tests/channel-swings/k2387_coupled_hook_jet_blocks_probe.py": "f482f8f5cf54f75d471c765f46e3fcdb6f5d49e8674bb9057efb5b5be807416b",
+    "tests/channel-swings/k2405_fifth_euler_compatibility_probe.py": "71e3645dc813f482d1b5d9201c0bfe2aaeae7e9cd43b6a5e0dc8bdc951382558",
+    "tests/channel-swings/k2425_frame_euler_module_probe.py": "99c9f284517a0738cb559afa15ab38275ff20a755af7c502bd6ba88e2d735a3a",
+    "tests/channel-swings/k2437_augmented_compatibility_adjoint_probe.py": "1aedbde2169152d21dc08646f9a7088b10697e1f0fb6db9653facead613ea6d8",
+    "tests/channel-swings/k2461_rank_two_hook_potentials_probe.py": "c7ef33bd438975c4ad8d1d88c3f7ecdbb82f0c27494e53f2b6bba4dbc6da4eb6"
+  },
+  "dimension_exclusion_from_receiver_degree": 44,
+  "evidence_kinds": {
+    "ceiling": "entire rank2 constant span including ordinary cancellations only; distinct12-variable ring, no full mixed analytic/nonlinear inverse",
+    "exact": "complete280 candidate polarization enumeration,16 full-rank/null-ring/scalar coefficients, original boundary and polynomial controls",
+    "universal": "rank2 normal form; real repeated tracefree support classification; exact two-PDE scalar image via parity recurrence; four-character synthesis and analytic bound48*d*3^(d-1)"
+  },
+  "exact_scalar_image": "kernel(d2^2-d3^2) intersect kernel(d2^2-d10^2)",
+  "exact_scalar_image_first_deficit_degree": 2,
+  "original_lines": [
+    {
+      "first_order": [
+        "0",
+        "0",
+        "0",
+        "1/16",
+        "-1/16",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "null_covectors": [
+        {
+          "0": "1"
+        },
+        {
+          "1": "1"
+        },
+        {
+          "4": "1"
+        },
+        {
+          "5": "1"
+        },
+        {
+          "6": "1"
+        },
+        {
+          "7": "1"
+        },
+        {
+          "8": "1"
+        },
+        {
+          "9": "1"
+        },
+        {
+          "11": "1"
+        },
+        {
+          "12": "1"
+        },
+        {
+          "13": "1"
+        },
+        {
+          "10": "1",
+          "2": "1",
+          "3": "1"
+        }
+      ],
+      "signs": [
+        1,
+        1
+      ],
+      "triple": [
+        2,
+        3,
+        10
+      ]
+    },
+    {
+      "first_order": [
+        "0",
+        "0",
+        "0",
+        "1/16",
+        "-1/16",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "null_covectors": [
+        {
+          "0": "1"
+        },
+        {
+          "1": "1"
+        },
+        {
+          "4": "1"
+        },
+        {
+          "5": "1"
+        },
+        {
+          "6": "1"
+        },
+        {
+          "7": "1"
+        },
+        {
+          "8": "1"
+        },
+        {
+          "9": "1"
+        },
+        {
+          "11": "1"
+        },
+        {
+          "12": "1"
+        },
+        {
+          "13": "1"
+        },
+        {
+          "10": "-1",
+          "2": "1",
+          "3": "1"
+        }
+      ],
+      "signs": [
+        1,
+        -1
+      ],
+      "triple": [
+        2,
+        3,
+        10
+      ]
+    },
+    {
+      "first_order": [
+        "0",
+        "0",
+        "0",
+        "-1/16",
+        "1/16",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "null_covectors": [
+        {
+          "0": "1"
+        },
+        {
+          "1": "1"
+        },
+        {
+          "4": "1"
+        },
+        {
+          "5": "1"
+        },
+        {
+          "6": "1"
+        },
+        {
+          "7": "1"
+        },
+        {
+          "8": "1"
+        },
+        {
+          "9": "1"
+        },
+        {
+          "11": "1"
+        },
+        {
+          "12": "1"
+        },
+        {
+          "13": "1"
+        },
+        {
+          "10": "1",
+          "2": "1",
+          "3": "-1"
+        }
+      ],
+      "signs": [
+        -1,
+        1
+      ],
+      "triple": [
+        2,
+        3,
+        10
+      ]
+    },
+    {
+      "first_order": [
+        "0",
+        "0",
+        "0",
+        "-1/16",
+        "1/16",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "null_covectors": [
+        {
+          "0": "1"
+        },
+        {
+          "1": "1"
+        },
+        {
+          "4": "1"
+        },
+        {
+          "5": "1"
+        },
+        {
+          "6": "1"
+        },
+        {
+          "7": "1"
+        },
+        {
+          "8": "1"
+        },
+        {
+          "9": "1"
+        },
+        {
+          "11": "1"
+        },
+        {
+          "12": "1"
+        },
+        {
+          "13": "1"
+        },
+        {
+          "10": "-1",
+          "2": "1",
+          "3": "-1"
+        }
+      ],
+      "signs": [
+        -1,
+        -1
+      ],
+      "triple": [
+        2,
+        3,
+        10
+      ]
+    },
+    {
+      "first_order": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "null_covectors": [
+        {
+          "0": "1"
+        },
+        {
+          "1": "1"
+        },
+        {
+          "2": "1"
+        },
+        {
+          "3": "1"
+        },
+        {
+          "7": "1"
+        },
+        {
+          "8": "1"
+        },
+        {
+          "9": "1"
+        },
+        {
+          "10": "1"
+        },
+        {
+          "11": "1"
+        },
+        {
+          "12": "1"
+        },
+        {
+          "13": "1"
+        },
+        {
+          "4": "1",
+          "5": "1",
+          "6": "1"
+        }
+      ],
+      "signs": [
+        1,
+        1
+      ],
+      "triple": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "first_order": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "null_covectors": [
+        {
+          "0": "1"
+        },
+        {
+          "1": "1"
+        },
+        {
+          "2": "1"
+        },
+        {
+          "3": "1"
+        },
+        {
+          "7": "1"
+        },
+        {
+          "8": "1"
+        },
+        {
+          "9": "1"
+        },
+        {
+          "10": "1"
+        },
+        {
+          "11": "1"
+        },
+        {
+          "12": "1"
+        },
+        {
+          "13": "1"
+        },
+        {
+          "4": "1",
+          "5": "1",
+          "6": "-1"
+        }
+      ],
+      "signs": [
+        1,
+        -1
+      ],
+      "triple": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "first_order": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "null_covectors": [
+        {
+          "0": "1"
+        },
+        {
+          "1": "1"
+        },
+        {
+          "2": "1"
+        },
+        {
+          "3": "1"
+        },
+        {
+          "7": "1"
+        },
+        {
+          "8": "1"
+        },
+        {
+          "9": "1"
+        },
+        {
+          "10": "1"
+        },
+        {
+          "11": "1"
+        },
+        {
+          "12": "1"
+        },
+        {
+          "13": "1"
+        },
+        {
+          "4": "1",
+          "5": "-1",
+          "6": "1"
+        }
+      ],
+      "signs": [
+        -1,
+        1
+      ],
+      "triple": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "first_order": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "null_covectors": [
+        {
+          "0": "1"
+        },
+        {
+          "1": "1"
+        },
+        {
+          "2": "1"
+        },
+        {
+          "3": "1"
+        },
+        {
+          "7": "1"
+        },
+        {
+          "8": "1"
+        },
+        {
+          "9": "1"
+        },
+        {
+          "10": "1"
+        },
+        {
+          "11": "1"
+        },
+        {
+          "12": "1"
+        },
+        {
+          "13": "1"
+        },
+        {
+          "4": "1",
+          "5": "-1",
+          "6": "-1"
+        }
+      ],
+      "signs": [
+        -1,
+        -1
+      ],
+      "triple": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "first_order": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "null_covectors": [
+        {
+          "0": "1"
+        },
+        {
+          "1": "1"
+        },
+        {
+          "2": "1"
+        },
+        {
+          "3": "1"
+        },
+        {
+          "4": "1"
+        },
+        {
+          "5": "1"
+        },
+        {
+          "6": "1"
+        },
+        {
+          "10": "1"
+        },
+        {
+          "11": "1"
+        },
+        {
+          "12": "1"
+        },
+        {
+          "13": "1"
+        },
+        {
+          "7": "1",
+          "8": "1",
+          "9": "1"
+        }
+      ],
+      "signs": [
+        1,
+        1
+      ],
+      "triple": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "first_order": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "null_covectors": [
+        {
+          "0": "1"
+        },
+        {
+          "1": "1"
+        },
+        {
+          "2": "1"
+        },
+        {
+          "3": "1"
+        },
+        {
+          "4": "1"
+        },
+        {
+          "5": "1"
+        },
+        {
+          "6": "1"
+        },
+        {
+          "10": "1"
+        },
+        {
+          "11": "1"
+        },
+        {
+          "12": "1"
+        },
+        {
+          "13": "1"
+        },
+        {
+          "7": "1",
+          "8": "1",
+          "9": "-1"
+        }
+      ],
+      "signs": [
+        1,
+        -1
+      ],
+      "triple": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "first_order": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "null_covectors": [
+        {
+          "0": "1"
+        },
+        {
+          "1": "1"
+        },
+        {
+          "2": "1"
+        },
+        {
+          "3": "1"
+        },
+        {
+          "4": "1"
+        },
+        {
+          "5": "1"
+        },
+        {
+          "6": "1"
+        },
+        {
+          "10": "1"
+        },
+        {
+          "11": "1"
+        },
+        {
+          "12": "1"
+        },
+        {
+          "13": "1"
+        },
+        {
+          "7": "1",
+          "8": "-1",
+          "9": "1"
+        }
+      ],
+      "signs": [
+        -1,
+        1
+      ],
+      "triple": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "first_order": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "null_covectors": [
+        {
+          "0": "1"
+        },
+        {
+          "1": "1"
+        },
+        {
+          "2": "1"
+        },
+        {
+          "3": "1"
+        },
+        {
+          "4": "1"
+        },
+        {
+          "5": "1"
+        },
+        {
+          "6": "1"
+        },
+        {
+          "10": "1"
+        },
+        {
+          "11": "1"
+        },
+        {
+          "12": "1"
+        },
+        {
+          "13": "1"
+        },
+        {
+          "7": "1",
+          "8": "-1",
+          "9": "-1"
+        }
+      ],
+      "signs": [
+        -1,
+        -1
+      ],
+      "triple": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "first_order": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "null_covectors": [
+        {
+          "0": "1"
+        },
+        {
+          "1": "1"
+        },
+        {
+          "2": "1"
+        },
+        {
+          "3": "1"
+        },
+        {
+          "4": "1"
+        },
+        {
+          "5": "1"
+        },
+        {
+          "6": "1"
+        },
+        {
+          "7": "1"
+        },
+        {
+          "8": "1"
+        },
+        {
+          "9": "1"
+        },
+        {
+          "10": "1"
+        },
+        {
+          "11": "1",
+          "12": "1",
+          "13": "1"
+        }
+      ],
+      "signs": [
+        1,
+        1
+      ],
+      "triple": [
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "first_order": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "null_covectors": [
+        {
+          "0": "1"
+        },
+        {
+          "1": "1"
+        },
+        {
+          "2": "1"
+        },
+        {
+          "3": "1"
+        },
+        {
+          "4": "1"
+        },
+        {
+          "5": "1"
+        },
+        {
+          "6": "1"
+        },
+        {
+          "7": "1"
+        },
+        {
+          "8": "1"
+        },
+        {
+          "9": "1"
+        },
+        {
+          "10": "1"
+        },
+        {
+          "11": "1",
+          "12": "1",
+          "13": "-1"
+        }
+      ],
+      "signs": [
+        1,
+        -1
+      ],
+      "triple": [
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "first_order": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "null_covectors": [
+        {
+          "0": "1"
+        },
+        {
+          "1": "1"
+        },
+        {
+          "2": "1"
+        },
+        {
+          "3": "1"
+        },
+        {
+          "4": "1"
+        },
+        {
+          "5": "1"
+        },
+        {
+          "6": "1"
+        },
+        {
+          "7": "1"
+        },
+        {
+          "8": "1"
+        },
+        {
+          "9": "1"
+        },
+        {
+          "10": "1"
+        },
+        {
+          "11": "1",
+          "12": "-1",
+          "13": "1"
+        }
+      ],
+      "signs": [
+        -1,
+        1
+      ],
+      "triple": [
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "first_order": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "null_covectors": [
+        {
+          "0": "1"
+        },
+        {
+          "1": "1"
+        },
+        {
+          "2": "1"
+        },
+        {
+          "3": "1"
+        },
+        {
+          "4": "1"
+        },
+        {
+          "5": "1"
+        },
+        {
+          "6": "1"
+        },
+        {
+          "7": "1"
+        },
+        {
+          "8": "1"
+        },
+        {
+          "9": "1"
+        },
+        {
+          "10": "1"
+        },
+        {
+          "11": "1",
+          "12": "-1",
+          "13": "-1"
+        }
+      ],
+      "signs": [
+        -1,
+        -1
+      ],
+      "triple": [
+        11,
+        12,
+        13
+      ]
+    }
+  ],
+  "result_id": "K2461",
+  "scalar_active_lines": 4
+}

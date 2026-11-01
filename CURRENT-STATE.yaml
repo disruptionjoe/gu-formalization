@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 646d8cd0418222ba678e623c947014d1e177149a
+revision_basis: 51a0ed345d0b4aa1e985b0564d754a9193c86c5c
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,17 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2461-K2463: classified280 real repeated rank-two hook lines,16 original polar survivors
+    and4 scalar-active lines. Their exact scalar image is two PDE kernels with a bounded
+    analytic inverse; an all-degree rigidity proof shows arbitrary ordinary-response
+    cancellations within their12-dimensional constant span do not enlarge it. K2462 proves
+    an all-prefix actual-use certificate from expected leakage and an actual binary stopping
+    construction proving the K_H/epsilon scale necessary. K2463 composes whole-instrument
+    calibration and stopping-safe cost, then solves the exact cheap two-effect optimum on
+    both full108-dimensional programs and proves a dual bound excluding every sufficiently
+    costly added effect under the stated charges, including common calibration. These are
+    conditional mathematical results; source polarities, ledger0.263 and physical credit
+    remain unchanged. Historical predecessor (not live):
     K2458 proves the sharp rank-two ordinary hook-symbol bound and quadratic necessary
     growth of individually ordinary-null banks, with an original-polar witness. K2459
     removes the smoothing residual from the same-budget stopping certificate, giving O(1/N)
@@ -18104,6 +18115,15 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2461-rank-two-hook-potentials-2026-11-01.md
+  - lab/process/k2461-rank-two-hook-potentials.json
+  - tests/channel-swings/k2461_rank_two_hook_potentials_probe.py
+  - explorations/conditional-build/k2462-expected-leakage-certificate-2026-11-01.md
+  - lab/process/k2462-expected-leakage-certificate.json
+  - tests/channel-swings/k2462_expected_leakage_certificate_probe.py
+  - explorations/conditional-build/k2463-local-verifier-calibration-2026-11-01.md
+  - lab/process/k2463-local-verifier-calibration.json
+  - tests/channel-swings/k2463_local_verifier_calibration_probe.py
   - explorations/conditional-build/k2458-hook-symbol-rank-boundary-2026-11-01.md
   - lab/process/k2458-hook-symbol-rank-boundary.json
   - tests/channel-swings/k2458_hook_symbol_rank_boundary_probe.py
@@ -20388,6 +20408,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can original hooks or linear generators outside the exhausted rank-two span give a
+  controlled full analytic mixed lift; which measured leakage, whole-instrument
+  calibration and cost data select an actual operational verifier? Historical predecessor
+  (not live):
   Can ordinary-response cancellations yield a quantitative full mixed hook inverse, or can
   a genuinely different local test or independently calibrated coherent apparatus meet the
   now explicit certification requirements? Historical predecessor (not live):
@@ -24663,6 +24687,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  A new mixed lift must use original generators outside the12-dimensional rank-two span:
+  target x2^3 or x2^2*x0 with full ordinary cancellation and boundary compatibility, then
+  seek all-order controlled estimates. Same-span cancellations and removing the
+  expected-leakage inverse-confidence scale are exhausted. Exact binary constants remain
+  unoptimized; the two cheap verifiers are cost-optimal only against additions above their
+  proved charge threshold with common calibration. Actual device selection needs measured
+  instruments, fresh setting laws and costs. Native I1B matter/readout/common-domain
+  construction and full nonlinear closure remain open; no physical GU credit follows.
+  Historical predecessor (not live):
   The hook-symbol bound is sharp at rank2 in the original polar bank, so individually
   ordinary-null banks need at least ceil((n+13)(n+1)/156) summands; their scalar
   usefulness and the full cancelling mixed inverse remain separate. Do not extend this

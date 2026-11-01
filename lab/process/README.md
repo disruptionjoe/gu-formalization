@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2461-rank-two-hook-potentials](k2461-rank-two-hook-potentials.json).
+- [k2462-expected-leakage-certificate](k2462-expected-leakage-certificate.json).
+- [k2463-local-verifier-calibration](k2463-local-verifier-calibration.json).
+
 - [k2458-hook-symbol-rank-boundary](k2458-hook-symbol-rank-boundary.json).
 - [k2459-direct-leakage-certificate](k2459-direct-leakage-certificate.json).
 - [k2460-reordered-local-verification](k2460-reordered-local-verification.json).

@@ -5,6 +5,19 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2461--K2463: Exact scalar image, expected leakage and calibrated cost (2026-11-01)
+
+K2461-K2463: classified280 real repeated rank-two hook lines,16 original polar survivors and4 scalar-active lines. Their exact scalar image is two PDE kernels with a bounded analytic inverse; an all-degree rigidity proof shows arbitrary ordinary-response cancellations within their12-dimensional constant span do not enlarge it. K2462 proves an all-prefix actual-use certificate from expected leakage and an actual binary stopping construction proving the K_H/epsilon scale necessary. K2463 composes whole-instrument calibration and stopping-safe cost, then solves the exact cheap two-effect optimum on both full108-dimensional programs and proves a dual bound excluding every sufficiently costly added effect under the stated charges, including common calibration. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.
+
+- [K2461](explorations/conditional-build/k2461-rank-two-hook-potentials-2026-11-01.md).
+- [K2462](explorations/conditional-build/k2462-expected-leakage-certificate-2026-11-01.md).
+- [K2463](explorations/conditional-build/k2463-local-verifier-calibration-2026-11-01.md).
+
+Three specialists supplied independent geometric, probability and quantum derivations. Cross-review accepted the full scalar-image synthesis and cancellation rigidity, actual binary necessity construction, and operational calibration/cost statements. Root serialized exact original-operator, coefficient-kernel and Arb256 verification. Written universal proofs remain distinct from finite probes; no external-expert or proof-assistant certification is claimed.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2458--K2460: Sharp symbols, direct compensation and changed-order verification (2026-11-01)
 
 K2458 proves the sharp rank-two ordinary hook-symbol bound and quadratic necessary growth of individually ordinary-null banks, with an original-polar witness. K2459 removes the smoothing residual from the same-budget stopping certificate, giving O(1/N) actual-use risk. K2460 certifies a fully local changed-order verifier gap9/20 and excludes a half-gap throughout the five fixed Fourier-order effect hull. These are conditional mathematical results, not measured performance or native GU recovery.

@@ -1,4 +1,8 @@
 
+- [k2461-rank-two-hook-potentials](k2461_rank_two_hook_potentials_probe.py).
+- [k2462-expected-leakage-certificate](k2462_expected_leakage_certificate_probe.py).
+- [k2463-local-verifier-calibration](k2463_local_verifier_calibration_probe.py).
+
 - [k2458-hook-symbol-rank-boundary](k2458_hook_symbol_rank_boundary_probe.py).
 - [k2459-direct-leakage-certificate](k2459_direct_leakage_certificate_probe.py).
 - [k2460-reordered-local-verification](k2460_reordered_local_verification_probe.py).

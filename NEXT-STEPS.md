@@ -5,6 +5,10 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-11-01: EXACT SCALAR IMAGE, EXPECTED LEAKAGE AND CALIBRATED COST.**
+> A new mixed lift must use original generators outside the12-dimensional rank-two span: target x2^3 or x2^2*x0 with full ordinary cancellation and boundary compatibility, then seek all-order controlled estimates. Same-span cancellations and removing the expected-leakage inverse-confidence scale are exhausted. Exact binary constants remain unoptimized; the two cheap verifiers are cost-optimal only against additions above their proved charge threshold with common calibration. Actual device selection needs measured instruments, fresh setting laws and costs. Native I1B matter/readout/common-domain construction and full nonlinear closure remain open; no physical GU credit follows.
+
+
 > **2026-11-01: SHARP HOOK SYMBOLS, DIRECT LEAKAGE AND CHANGED-ORDER VERIFICATION.**
 > The hook-symbol bound is sharp at rank2 in the original polar bank, so individually ordinary-null banks need at least ceil((n+13)(n+1)/156) summands; their scalar usefulness and the full cancelling mixed inverse remain separate. Do not extend this dimension obstruction to the full joint operator or analytic/nonlinear closure. The direct actual-law certificate achieves O(1/N_use) risk under the existing justified fixed leakage budget, with gamma about4.3356; it does not estimate that budget from passing tests or remove systematic floors. The local changed-order verifier certifies gap9/20, while every mixture of Q and the four fixed Fourier last-register tests has gap below12/25. Retuning these weights cannot reach1/2; a different basis/effect or an operational cost comparison is needed. The composed384822-use budget is hypothetical and requires actual coherent nine-level controls, conditional qubit operations, calibration, private routing and positive actual mean success. Preserve original source/ledger ceilings and native matter/light, common-bar/mobile, thermal163/164, native2+1/chirality and physical-quotient routes.
 
