@@ -5,6 +5,10 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-11-01: SHARP PROGRAMS, CORRELATED BLOCKS AND MIXED LINEAR BOUNDS.**
+> Use K2446 actual mixed recurrence to estimate products of adjacent diagonal inverses and couplings, or construct a joint inverse; separate geometric diagonal bounds alone are insufficient even with bounded offdiagonal terms. The quadratic-exponential upper bound is not divergence and its entire-forcing corollary is linear only. For operational use, compare a smaller witnessed common support or a measured block-purity bound against the explicit random-block storage and sampling cost. K2445 certifies only the unlabelled mean marginal under secret whole-block routing; preserve index independence, joint local flag dephasing for the sharper floor, positive success, and fresh private controller initialization. K2444 gives the sharp ideal transfer while trusted operation error remains unscaled. Native shared-source matter/light, common-bar/mobile, thermal163/164, native2+1/chirality and positive physical quotient remain distinct open routes.
+
+
 > **2026-11-01: ADAPTIVE PROGRAMS, REPLICAS AND ORDINARY ANALYTIC INVERSE.**
 > Use K2443 ordinary transverse inverse as a proved linear ingredient; derive compatible augmented E/W and mixed-degree estimates before any nonlinear convergence claim. Its large fixed radius-loss bound cannot be iterated indefinitely without a majorant or another convergence scheme. Use K2441 for a fixed batch controller with arbitrary within-batch feedback and private independent inputs; its certified object is the predictable used-index average, not a final-transcript joint process. K2442 allows history-selected consumers through mean distance only under conditional independent replicas or a priced pair defect; equal marginals alone are defeated by the exact counterfeit. Trusted routing, preparation, pair operations, readout and actual records remain operational inputs. Native paired fixed-source matter/light, common-bar/mobile, thermal163/164, native2+1/chirality and the positive physical quotient remain distinct open routes.
 

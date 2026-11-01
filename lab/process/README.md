@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2444-sharp-heralded-transfer](k2444-sharp-heralded-transfer.json).
+- [k2445-correlated-block-certificate](k2445-correlated-block-certificate.json).
+- [k2446-augmented-diagonal-estimate](k2446-augmented-diagonal-estimate.json).
+
 - [k2441-heralded-adaptive-batch](k2441-heralded-adaptive-batch.json).
 - [k2442-replicated-process-distance](k2442-replicated-process-distance.json).
 - [k2443-hook-quantitative-symbol](k2443-hook-quantitative-symbol.json).

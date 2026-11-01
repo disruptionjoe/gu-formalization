@@ -1,4 +1,8 @@
 
+- [k2444-sharp-heralded-transfer](k2444_sharp_heralded_transfer_probe.py).
+- [k2445-correlated-block-certificate](k2445_correlated_block_certificate_probe.py).
+- [k2446-augmented-diagonal-estimate](k2446_augmented_diagonal_estimate_probe.py).
+
 - [k2441-heralded-adaptive-batch](k2441_heralded_adaptive_batch_probe.py).
 - [k2442-replicated-process-distance](k2442_replicated_process_distance_probe.py).
 - [k2443-hook-quantitative-symbol](k2443_hook_quantitative_symbol_probe.py).

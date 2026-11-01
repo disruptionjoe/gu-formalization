@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2444-sharp-heralded-transfer](conditional-build/k2444-sharp-heralded-transfer-2026-11-01.md).
+- [k2445-correlated-block-certificate](conditional-build/k2445-correlated-block-certificate-2026-11-01.md).
+- [k2446-augmented-diagonal-estimate](conditional-build/k2446-augmented-diagonal-estimate-2026-11-01.md).
+
 - [k2441-heralded-adaptive-batch](conditional-build/k2441-heralded-adaptive-batch-2026-11-01.md).
 - [k2442-replicated-process-distance](conditional-build/k2442-replicated-process-distance-2026-11-01.md).
 - [k2443-hook-quantitative-symbol](conditional-build/k2443-hook-quantitative-symbol-2026-11-01.md).

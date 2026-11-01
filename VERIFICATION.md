@@ -5,6 +5,19 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2444--K2446: Sharp programs, correlated blocks and mixed inverse bounds (2026-11-01)
+
+K2444 proves sharp heralded program error min(1,C epsilon), C=D_in^2/d_A1, with all-slot causal saturation and separate trusted-operation cost. K2445 replaces independent replicas by secret random-pair testing and unlabelled use of an arbitrary correlated block, with a sharp universal finite-size correction and a stronger bound for jointly classical flags. Its exact counterexamples preserve the hidden-index and joint-coherence requirements. K2446 proves a parameter-stable augmented transverse hook inverse and a conservative exp(O(d^2+d log d)) full mixed linear bound, with a restricted entire-forcing consequence. General analytic mixed and nonlinear convergence remain open. These are conditional mathematical results, not measured performance or native GU recovery.
+
+- [K2444](explorations/conditional-build/k2444-sharp-heralded-transfer-2026-11-01.md).
+- [K2445](explorations/conditional-build/k2445-correlated-block-certificate-2026-11-01.md).
+- [K2446](explorations/conditional-build/k2446-augmented-diagonal-estimate-2026-11-01.md).
+
+Three read-only specialists independently reviewed the postselection, correlated-block and original hook arguments; a separate cross-review checked their composition. Corrected explicit positive-success and joint flag-dephasing qualifications, added original-law affine and hidden-index countercontrols, and strengthened the triangular comparison to bounded offdiagonal coefficients. Universal proofs are distinct from exact finite controls; no external-expert, proof-assistant or novelty claim.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2441--K2443: Adaptive programs, replicas and ordinary inverse (2026-11-01)
 
 K2441 implements full-comb heralded Bell programming for within-batch adaptive controllers, with hidden-route predictable used-index guarantees, coherent quantum-memory controls and a sharper tester factor C=D^2/d_A1 (two-slot qubit factor8 is sharp on causal differences). K2442 proves a conditional replica squared-distance certificate that cannot hide drift by averaging, and constructs exact original-law correlated pairs that counterfeit it; hidden-use, preparation and systematic errors are priced. K2443 proves a geometric ordinary-adjoint quotient bound and an original transverse linear right inverse with fixed analytic radius loss, despite actual symbol ranks25/88. The mixed nonlinear convergence problem remains open. All results are conditional mathematics, not measured performance or native GU recovery.
