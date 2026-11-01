@@ -6,6 +6,18 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2433--K2434: Formal algebraic/Euler8 extension and sharp preparation leakage (2026-11-01)
+
+K2433 rejects the original null section under all admissible lower-quartic forcing, constructs a new common null section for all fourteen original K/q targets, and lifts its boundary recurrence by actual-K normal-ideal division to a coherent ambient formal Gram/sigma solution. A new original T7 rank178002 certificate and inherited frame corrections retain Euler through eighth order in that same formal family. All-order Euler and convergence remain open. K2434 proves the sharp direct preparation-to-leakage envelope B(p,q), physical saturation across the probability square, adaptive concavity and exact inversion. Under prospective zero-count assumptions, the nine-million-trial joint-infidelity threshold improves from about8.37e-16 to4.329e-10. No physical calibration or native GU identification is supplied.
+
+- [K2433](explorations/conditional-build/k2433-lower-quartic-compatibility-2026-11-01.md).
+- [K2434](explorations/conditional-build/k2434-direct-preparation-leakage-2026-11-01.md).
+
+Three independent read-only reviews checked original differentiation, exact common-section repair, shared-input ambient ideal induction, frame/Euler interleaving, sharp leakage and physical extremizers. Corrections included mixed-quartic differentiation, independent syzygies, recursive pins, actual-K target selection, all14 pairing constraints, inverse-root substitution, infidelity clipping and the zero-count assumption. Exact original T7 lower and universal upper bounds are distinct. No novelty, external certification or proof-assistant verification is claimed.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2431--K2432: Polynomial null section and sharp Bell-memory decoupling (2026-11-01)
 
 K2431 constructs a polynomial null section for all fourteen original K/q targets in the 168-dimensional repeated-hook space. A17-term ideal obstruction excludes vanishing on Z; the complete syzygy-image test excludes the K-zero section at eighth order, while freely selected K targets admit a null seventh/eighth solution. Those targets remain unmatched to the admissible lower-quartic fiber; K2429 remains the complete finite-jet theorem. K2432 proves the sharp actual-memory Bell-preparation decoupling bound f(q)=(q+sqrt(4q-3q^2))/2, propagates it through adaptive channel certification, and gives uniform process-composition conditions. The prospective nine-million-trial bad branch permits roughly8.37e-16 joint infidelity under this sufficient bound. Neither result supplies a new complete Euler jet, measured preparation budget, or native GU identification.

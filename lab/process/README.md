@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2433-lower-quartic-compatibility](k2433-lower-quartic-compatibility.json).
+- [k2434-direct-preparation-leakage](k2434-direct-preparation-leakage.json).
+
 - [k2431-quintic-vanishing-ideal](k2431-quintic-vanishing-ideal.json).
 - [k2432-bell-preparation-memory-decoupling](k2432-bell-preparation-memory-decoupling.json).
 

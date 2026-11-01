@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-01: NULL SECTION AND SHARP BELL-MEMORY DECOUPLING.**
+> **2026-11-01: FORMAL ALGEBRAIC/EULER8 EXTENSION AND SHARP PREPARATION LEAKAGE.**
+> Use K2433's coherent formal Gram/sigma family with Euler through8 as the shared input. Study the original Fischer-dual frame/Euler annihilator, including linear Koszul/rotation generators and degree-dependent terms; ordinary finite rank saturation cannot prove all-degree surjectivity. A specific ninth-Euler extension additionally needs augmented septic compatibility. Scalar Gram and mixed-normal algebraic lifting are already settled. For recovery, instantiate trusted conditional preparation/readout, complete instrument costs and uniform reset/fixed-reference transfer, or a specified multiround tester; the universal B(p,q) envelope is sharp. Retain paired native fixed-source/matter-light response as the strongest independent physics challenger, with its typed source/current/readout inputs still missing.
+
+
+> **Historical predecessor, superseded by K2433/K2434: 2026-11-01 NULL SECTION AND SHARP BELL-MEMORY DECOUPLING.**
 > Solve [B8+56 t(DK*k)]=0 in P/E, E=I+t(Dq Syz(q0)), over the full admissible lower-quartic K image, retaining all lower Euler constraints and affine K freedom; the saved relaxed K choice is sufficient if realizable, not uniquely necessary. Then solve ninth/tenth boundaries on those same coefficients or test a different null section. In recovery, instantiate conditional joint preparation/readout and uniform reset/fixed-reference channel bounds with actual instrument evidence; marginal Bell fidelities and tested averages alone cannot establish the process premises. The source-native paired fixed-source/matter-readout response remains the strongest independent physics challenger, with its missing native input explicit.
 
 

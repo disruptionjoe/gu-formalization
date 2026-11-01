@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2433-lower-quartic-compatibility](conditional-build/k2433-lower-quartic-compatibility-2026-11-01.md).
+- [k2434-direct-preparation-leakage](conditional-build/k2434-direct-preparation-leakage-2026-11-01.md).
+
 - [k2431-quintic-vanishing-ideal](conditional-build/k2431-quintic-vanishing-ideal-2026-11-01.md).
 - [k2432-bell-preparation-memory-decoupling](conditional-build/k2432-bell-preparation-memory-decoupling-2026-11-01.md).
 

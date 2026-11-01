@@ -1,4 +1,7 @@
 
+- [k2433-lower-quartic-compatibility](k2433_lower_quartic_compatibility_probe.py).
+- [k2434-direct-preparation-leakage](k2434_direct_preparation_leakage_probe.py).
+
 - [k2431-quintic-vanishing-ideal](k2431_quintic_vanishing_ideal_probe.py).
 - [k2432-bell-preparation-memory-decoupling](k2432_bell_preparation_memory_decoupling_probe.py).
 
