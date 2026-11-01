@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-01: MINIMAL INSTRUMENT MEASUREMENTS AND HIDDEN USE.**
+> **2026-11-01: ADAPTIVE PROGRAMS, REPLICAS AND ORDINARY ANALYTIC INVERSE.**
+> Use K2443 ordinary transverse inverse as a proved linear ingredient; derive compatible augmented E/W and mixed-degree estimates before any nonlinear convergence claim. Its large fixed radius-loss bound cannot be iterated indefinitely without a majorant or another convergence scheme. Use K2441 for a fixed batch controller with arbitrary within-batch feedback and private independent inputs; its certified object is the predictable used-index average, not a final-transcript joint process. K2442 allows history-selected consumers through mean distance only under conditional independent replicas or a priced pair defect; equal marginals alone are defeated by the exact counterfeit. Trusted routing, preparation, pair operations, readout and actual records remain operational inputs. Native paired fixed-source matter/light, common-bar/mobile, thermal163/164, native2+1/chirality and the positive physical quotient remain distinct open routes.
+
+
+> **Historical predecessor, no longer the live next condition: 2026-11-01 MINIMAL INSTRUMENT MEASUREMENTS AND HIDDEN USE.**
 > Use complete nine-axis tomography when signed leakage uncertainty defeats the29-coordinate support savings;44 coordinates identify the full TP family but need TP-defect pricing under preparation errors. K2440 certifies only pre-round conditional averages at used indices and a normalized mean subchannel for one fixed independent input. Its original-target counterexample excludes automatic adaptive-input or product-process transfer. A stronger temporal/mean-distance certificate needs its own noncancellation or uniform reset premise and actual trusted operation data. Preserve K2437 all-order formal Gram/sigma/Euler; convergence needs the full ordinary-plus-mixed inverse in fixed adapted norms, not more finite ranks. Native fixed-source matter/light, common-bar/mobile, thermal163/164, native2+1/chirality and positive physical quotient remain distinct open routes.
 
 

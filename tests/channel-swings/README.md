@@ -1,4 +1,8 @@
 
+- [k2441-heralded-adaptive-batch](k2441_heralded_adaptive_batch_probe.py).
+- [k2442-replicated-process-distance](k2442_replicated_process_distance_probe.py).
+- [k2443-hook-quantitative-symbol](k2443_hook_quantitative_symbol_probe.py).
+
 - [k2439-minimal-flagged-tomography](k2439_minimal_flagged_tomography_probe.py).
 - [k2440-hidden-route-instrument-use](k2440_hidden_route_instrument_use_probe.py).
 

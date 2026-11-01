@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: a7be0fabcfd5f2ca04903eaf29505ed076180126
+revision_basis: 28e915215970f49ab91504f8cbe9ac7f0c865c5e
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,17 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2441 implements full-comb heralded Bell programming for within-batch adaptive
+    controllers, with hidden-route predictable used-index guarantees, coherent
+    quantum-memory controls and a sharper tester factor C=D^2/d_A1 (two-slot qubit factor8
+    is sharp on causal differences). K2442 proves a conditional replica squared-distance
+    certificate that cannot hide drift by averaging, and constructs exact original-law
+    correlated pairs that counterfeit it; hidden-use, preparation and systematic errors are
+    priced. K2443 proves a geometric ordinary-adjoint quotient bound and an original
+    transverse linear right inverse with fixed analytic radius loss, despite actual symbol
+    ranks25/88. The mixed nonlinear convergence problem remains open. All results are
+    conditional mathematics, not measured performance or native GU recovery. Historical
+    predecessor (not live):
     K2439 proves dimension-minimal29-coordinate identification on the original instrument
     support and44-coordinate identification across the full TP family, with explicit robust
     inverses. A coherent original-law counterexample proves square-root leakage sensitivity;
@@ -18044,6 +18055,15 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2441-heralded-adaptive-batch-2026-11-01.md
+  - lab/process/k2441-heralded-adaptive-batch.json
+  - tests/channel-swings/k2441_heralded_adaptive_batch_probe.py
+  - explorations/conditional-build/k2442-replicated-process-distance-2026-11-01.md
+  - lab/process/k2442-replicated-process-distance.json
+  - tests/channel-swings/k2442_replicated_process_distance_probe.py
+  - explorations/conditional-build/k2443-hook-quantitative-symbol-2026-11-01.md
+  - lab/process/k2443-hook-quantitative-symbol.json
+  - tests/channel-swings/k2443_hook_quantitative_symbol_probe.py
   - explorations/conditional-build/k2439-minimal-flagged-tomography-2026-11-01.md
   - lab/process/k2439-minimal-flagged-tomography.json
   - tests/channel-swings/k2439_minimal_flagged_tomography_probe.py
@@ -20268,6 +20288,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can the original mixed ordinary/augmented hook elimination preserve analytic bounds
+  through repeated degree coupling, now that the ordinary transverse linear inverse has a
+  fixed-radius-loss estimate? Can a trusted replica or full-comb program experiment supply
+  actual calibrated records without assuming the independence or custody that it is meant
+  to test? Historical predecessor (not live):
   Can a noncancelling or full temporal certificate qualify genuinely adaptive use of the
   original instrument, and can trusted actual support/readout/programming evidence make
   the proved tomography interfaces operational? The shared formal hook family still needs
@@ -24516,6 +24541,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Use K2443 ordinary transverse inverse as a proved linear ingredient; derive compatible
+  augmented E/W and mixed-degree estimates before any nonlinear convergence claim. Its
+  large fixed radius-loss bound cannot be iterated indefinitely without a majorant or
+  another convergence scheme. Use K2441 for a fixed batch controller with arbitrary
+  within-batch feedback and private independent inputs; its certified object is the
+  predictable used-index average, not a final-transcript joint process. K2442 allows
+  history-selected consumers through mean distance only under conditional independent
+  replicas or a priced pair defect; equal marginals alone are defeated by the exact
+  counterfeit. Trusted routing, preparation, pair operations, readout and actual records
+  remain operational inputs. Native paired fixed-source matter/light, common-bar/mobile,
+  thermal163/164, native2+1/chirality and the positive physical quotient remain distinct
+  open routes. Historical predecessor (not live):
   Use complete nine-axis tomography when signed leakage uncertainty defeats
   the29-coordinate support savings;44 coordinates identify the full TP family but need
   TP-defect pricing under preparation errors. K2440 certifies only pre-round conditional

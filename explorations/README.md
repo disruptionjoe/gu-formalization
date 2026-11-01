@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2441-heralded-adaptive-batch](conditional-build/k2441-heralded-adaptive-batch-2026-11-01.md).
+- [k2442-replicated-process-distance](conditional-build/k2442-replicated-process-distance-2026-11-01.md).
+- [k2443-hook-quantitative-symbol](conditional-build/k2443-hook-quantitative-symbol-2026-11-01.md).
+
 - [k2439-minimal-flagged-tomography](conditional-build/k2439-minimal-flagged-tomography-2026-11-01.md).
 - [k2440-hidden-route-instrument-use](conditional-build/k2440-hidden-route-instrument-use-2026-11-01.md).
 

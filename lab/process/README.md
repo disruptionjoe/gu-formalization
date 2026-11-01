@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2441-heralded-adaptive-batch](k2441-heralded-adaptive-batch.json).
+- [k2442-replicated-process-distance](k2442-replicated-process-distance.json).
+- [k2443-hook-quantitative-symbol](k2443-hook-quantitative-symbol.json).
+
 - [k2439-minimal-flagged-tomography](k2439-minimal-flagged-tomography.json).
 - [k2440-hidden-route-instrument-use](k2440-hidden-route-instrument-use.json).
 

@@ -5,6 +5,19 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2441--K2443: Adaptive programs, replicas and ordinary inverse (2026-11-01)
+
+K2441 implements full-comb heralded Bell programming for within-batch adaptive controllers, with hidden-route predictable used-index guarantees, coherent quantum-memory controls and a sharper tester factor C=D^2/d_A1 (two-slot qubit factor8 is sharp on causal differences). K2442 proves a conditional replica squared-distance certificate that cannot hide drift by averaging, and constructs exact original-law correlated pairs that counterfeit it; hidden-use, preparation and systematic errors are priced. K2443 proves a geometric ordinary-adjoint quotient bound and an original transverse linear right inverse with fixed analytic radius loss, despite actual symbol ranks25/88. The mixed nonlinear convergence problem remains open. All results are conditional mathematics, not measured performance or native GU recovery.
+
+- [K2441](explorations/conditional-build/k2441-heralded-adaptive-batch-2026-11-01.md).
+- [K2442](explorations/conditional-build/k2442-replicated-process-distance-2026-11-01.md).
+- [K2443](explorations/conditional-build/k2443-hook-quantitative-symbol-2026-11-01.md).
+
+Three independent read-only specialists challenged the quantum operational statements and original hook algebra. Corrected common-support and used-index allowance quantifiers; tested genuinely quantum memory and causal sharpness. Independent acceptance review confirmed the determinant division, monomial gauge, normalized Fischer (k+1)H scaling and fixed-radius ordinary linear conclusion. Finite exact fixtures support written universal proofs; internal review is not external-expert or proof-assistant certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2439--K2440: Minimal instrument measurements and hidden use (2026-11-01)
 
 K2439 proves dimension-minimal29-coordinate identification on the original instrument support and44-coordinate identification across the full TP family, with explicit robust inverses. A coherent original-law counterexample proves square-root leakage sensitivity; complete48 tomography can outperform the smaller design. Nine local axes reuse marginals with exact variance control. K2440 supplies hidden late test/use routing and heralded Bell programming for a fixed independent input: the actual used-index predictable state average is certified despite arbitrary drift. A prospective allowance is below1.502percent with explicit success/error costs. These are conditional mathematical results, not measured performance, adaptive multi-use guarantees or native GU identification.
