@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 5145f9b4a2feccee1f9356c72a040087cfd5305a
+revision_basis: a7be0fabcfd5f2ca04903eaf29505ed076180126
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,16 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2439 proves dimension-minimal29-coordinate identification on the original instrument
+    support and44-coordinate identification across the full TP family, with explicit robust
+    inverses. A coherent original-law counterexample proves square-root leakage sensitivity;
+    complete48 tomography can outperform the smaller design. Nine local axes reuse marginals
+    with exact variance control. K2440 supplies hidden late test/use routing and heralded
+    Bell programming for a fixed independent input: the actual used-index predictable state
+    average is certified despite arbitrary drift. A prospective allowance is
+    below1.502percent with explicit success/error costs. These are conditional mathematical
+    results, not measured performance, adaptive multi-use guarantees or native GU
+    identification. Historical predecessor (not live):
     K2437 constructs one shared formal series satisfying every original conditional hook
     Gram, sigma and Euler coefficient. An exact original repeated-polar hook gives a nonzero
     scalar directional derivative inside the transverse Euler kernel; the augmented ambient
@@ -18034,6 +18044,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2439-minimal-flagged-tomography-2026-11-01.md
+  - lab/process/k2439-minimal-flagged-tomography.json
+  - tests/channel-swings/k2439_minimal_flagged_tomography_probe.py
+  - explorations/conditional-build/k2440-hidden-route-instrument-use-2026-11-01.md
+  - lab/process/k2440-hidden-route-instrument-use.json
+  - tests/channel-swings/k2440_hidden_route_instrument_use_probe.py
   - explorations/conditional-build/k2437-augmented-compatibility-adjoint-2026-11-01.md
   - lab/process/k2437-augmented-compatibility-adjoint.json
   - tests/channel-swings/k2437_augmented_compatibility_adjoint_probe.py
@@ -20252,6 +20268,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can a noncancelling or full temporal certificate qualify genuinely adaptive use of the
+  original instrument, and can trusted actual support/readout/programming evidence make
+  the proved tomography interfaces operational? The shared formal hook family still needs
+  a compatible quantitative ambient inverse and nonlinear majorant. Historical predecessor
+  (not live):
   Can the now-complete shared formal hook solution be promoted using a quantitative right
   inverse for the full ordinary-plus-scalar ambient map and a nonlinear majorant? Which
   actual complete instrument data or conditioning-certified smaller measurement family
@@ -24495,6 +24516,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Use complete nine-axis tomography when signed leakage uncertainty defeats
+  the29-coordinate support savings;44 coordinates identify the full TP family but need
+  TP-defect pricing under preparation errors. K2440 certifies only pre-round conditional
+  averages at used indices and a normalized mean subchannel for one fixed independent
+  input. Its original-target counterexample excludes automatic adaptive-input or
+  product-process transfer. A stronger temporal/mean-distance certificate needs its own
+  noncancellation or uniform reset premise and actual trusted operation data. Preserve
+  K2437 all-order formal Gram/sigma/Euler; convergence needs the full ordinary-plus-mixed
+  inverse in fixed adapted norms, not more finite ranks. Native fixed-source matter/light,
+  common-bar/mobile, thermal163/164, native2+1/chirality and positive physical quotient
+  remain distinct open routes. Historical predecessor (not live):
   Use K2437's all-order formal Gram/sigma/Euler theorem; further finite Euler or
   augmented-rank banks are dominated. The scalar inverse has an explicit polydisc loss and
   only geometric coefficient growth, but the full ordinary inverse, mixed E/W elimination,

@@ -1,4 +1,7 @@
 
+- [k2439-minimal-flagged-tomography](k2439_minimal_flagged_tomography_probe.py).
+- [k2440-hidden-route-instrument-use](k2440_hidden_route_instrument_use_probe.py).
+
 - [k2437-augmented-compatibility-adjoint](k2437_augmented_compatibility_adjoint_probe.py).
 - [k2438-mixed-instrument-certification](k2438_mixed_instrument_certification_probe.py).
 

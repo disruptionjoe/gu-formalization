@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2439-minimal-flagged-tomography](conditional-build/k2439-minimal-flagged-tomography-2026-11-01.md).
+- [k2440-hidden-route-instrument-use](conditional-build/k2440-hidden-route-instrument-use-2026-11-01.md).
+
 - [k2437-augmented-compatibility-adjoint](conditional-build/k2437-augmented-compatibility-adjoint-2026-11-01.md).
 - [k2438-mixed-instrument-certification](conditional-build/k2438-mixed-instrument-certification-2026-11-01.md).
 

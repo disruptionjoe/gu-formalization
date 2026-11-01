@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-01: SHARED FORMAL SOLUTION AND MIXED INSTRUMENT CERTIFICATION.**
+> **2026-11-01: MINIMAL INSTRUMENT MEASUREMENTS AND HIDDEN USE.**
+> Use complete nine-axis tomography when signed leakage uncertainty defeats the29-coordinate support savings;44 coordinates identify the full TP family but need TP-defect pricing under preparation errors. K2440 certifies only pre-round conditional averages at used indices and a normalized mean subchannel for one fixed independent input. Its original-target counterexample excludes automatic adaptive-input or product-process transfer. A stronger temporal/mean-distance certificate needs its own noncancellation or uniform reset premise and actual trusted operation data. Preserve K2437 all-order formal Gram/sigma/Euler; convergence needs the full ordinary-plus-mixed inverse in fixed adapted norms, not more finite ranks. Native fixed-source matter/light, common-bar/mobile, thermal163/164, native2+1/chirality and positive physical quotient remain distinct open routes.
+
+
+> **Historical predecessor, no longer the live next condition: 2026-11-01 SHARED FORMAL SOLUTION AND MIXED INSTRUMENT CERTIFICATION.**
 > Use K2437's all-order formal Gram/sigma/Euler theorem; further finite Euler or augmented-rank banks are dominated. The scalar inverse has an explicit polydisc loss and only geometric coefficient growth, but the full ordinary inverse, mixed E/W elimination, common-section lifts and nonlinear frame recurrence need compatible quantitative estimates before convergence or exact neighborhood solutions can be claimed. Formal smooth realizations have only flat residuals. For the original noisy instrument, support and all input-dependent flag probabilities are insufficient: use K2438's complete same-ensemble flagged moments with trusted joint preparation/readout, or prove a smaller moment family has positive supported conditioning. Tomography bounds distance of the tested average, not mean distances or future behavior. Retain paired native matter/light, common-bar/mobile, thermal163/164, native2+1/chirality and physical quotient ceilings.
 
 

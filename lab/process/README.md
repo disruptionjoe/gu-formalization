@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2439-minimal-flagged-tomography](k2439-minimal-flagged-tomography.json).
+- [k2440-hidden-route-instrument-use](k2440-hidden-route-instrument-use.json).
+
 - [k2437-augmented-compatibility-adjoint](k2437-augmented-compatibility-adjoint.json).
 - [k2438-mixed-instrument-certification](k2438-mixed-instrument-certification.json).
 

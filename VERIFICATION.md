@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2439--K2440: Minimal instrument measurements and hidden use (2026-11-01)
+
+K2439 proves dimension-minimal29-coordinate identification on the original instrument support and44-coordinate identification across the full TP family, with explicit robust inverses. A coherent original-law counterexample proves square-root leakage sensitivity; complete48 tomography can outperform the smaller design. Nine local axes reuse marginals with exact variance control. K2440 supplies hidden late test/use routing and heralded Bell programming for a fixed independent input: the actual used-index predictable state average is certified despite arbitrary drift. A prospective allowance is below1.502percent with explicit success/error costs. These are conditional mathematical results, not measured performance, adaptive multi-use guarantees or native GU identification.
+
+- [K2439](explorations/conditional-build/k2439-minimal-flagged-tomography-2026-11-01.md).
+- [K2440](explorations/conditional-build/k2440-hidden-route-instrument-use-2026-11-01.md).
+
+Three independent read-only specialist reviews checked affine minimum scope, robust marginal/leakage errors, complex measurement conventions, routing martingales, conditional ensembles and success weighting. Corrections were integrated: signed reconstructions are not clipped;44 is a full-family minimum; leakage includes empirical error and g upper bounds; original33/48 augmented ranks, symbolic error identities and odd-Y controls are executed. Bias retains the sparse second-moment premise. Original instruments supply an adaptive-input counterexample. Internal review is not external-expert or proof-assistant certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2437--K2438: Shared formal solution and mixed instrument certification (2026-11-01)
 
 K2437 constructs one shared formal series satisfying every original conditional hook Gram, sigma and Euler coefficient. An exact original repeated-polar hook gives a nonzero scalar directional derivative inside the transverse Euler kernel; the augmented ambient image and nested same-coefficient induction follow at every order. Its explicit scalar inverse has a controlled analytic domain loss, while the full coupled convergence problem remains open. K2438 proves support identification and robust mixed-process bounds, shows that all original instrument flag probabilities leave29 supported directions invisible, and supplies full flagged tomography with stopping-safe Freedman confidence. A prospective one-slot budget including empirical, preparation and readout tolerances is below0.82%; no actual counts, future-device guarantee or native GU identification is supplied.

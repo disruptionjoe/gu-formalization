@@ -1,0 +1,135 @@
+{
+  "checks": {
+    "Freedman_inversion": true,
+    "all_time_union": true,
+    "allocation_exact_square": true,
+    "allocation_worst_weight9": true,
+    "arbitrary_program_is_state": true,
+    "bias_normalization": true,
+    "chosen_Bell_outcome_still_exact": true,
+    "correlated_marginals_target": true,
+    "heralded_rate": true,
+    "noncovariant_channel_CP_TP": true,
+    "original_Bell_contraction_0_0": true,
+    "original_Bell_contraction_0_1": true,
+    "original_Bell_contraction_0_2": true,
+    "original_Bell_contraction_0_3": true,
+    "original_Bell_contraction_1_0": true,
+    "original_Bell_contraction_1_1": true,
+    "original_Bell_contraction_1_2": true,
+    "original_Bell_contraction_1_3": true,
+    "original_herald_success_0": true,
+    "original_herald_success_1": true,
+    "original_mean_exact_0": true,
+    "original_mean_exact_1": true,
+    "original_opposite_tangents_CP_TP_0": true,
+    "original_opposite_tangents_CP_TP_1": true,
+    "postselection_transfer_1/10": true,
+    "postselection_transfer_1/100": true,
+    "prospective_nonvacuous": true,
+    "route_moments_1/2_-2/5_1": true,
+    "route_moments_1/2_-2/5_3": true,
+    "route_moments_1/2_-2/5_9": true,
+    "route_moments_1/2_0_1": true,
+    "route_moments_1/2_0_3": true,
+    "route_moments_1/2_0_9": true,
+    "route_moments_1/2_2/5_1": true,
+    "route_moments_1/2_2/5_3": true,
+    "route_moments_1/2_2/5_9": true,
+    "route_moments_1/3_-2/5_1": true,
+    "route_moments_1/3_-2/5_3": true,
+    "route_moments_1/3_-2/5_9": true,
+    "route_moments_1/3_0_1": true,
+    "route_moments_1/3_0_3": true,
+    "route_moments_1/3_0_9": true,
+    "route_moments_1/3_2/5_1": true,
+    "route_moments_1/3_2/5_3": true,
+    "route_moments_1/3_2/5_9": true,
+    "route_moments_4/5_-2/5_1": true,
+    "route_moments_4/5_-2/5_3": true,
+    "route_moments_4/5_-2/5_9": true,
+    "route_moments_4/5_0_1": true,
+    "route_moments_4/5_0_3": true,
+    "route_moments_4/5_0_9": true,
+    "route_moments_4/5_2/5_1": true,
+    "route_moments_4/5_2/5_3": true,
+    "route_moments_4/5_2/5_9": true,
+    "same_program_average_target": true
+  },
+  "controls": {
+    "adaptive_inputs_defeat_average_channel": true,
+    "adding_eta_once_underprices_bias": true,
+    "all_Bell_outcome_Pauli_correction_false": true,
+    "disclosed_route_breaks_martingale": true,
+    "future_transcript_can_steer_past_description": true,
+    "input_dependent_actual_success": true,
+    "normalizing_each_branch_changes_target": true,
+    "original_adaptive_input_error_0": true,
+    "original_adaptive_input_error_1": true,
+    "unseen_external_memory": true,
+    "wrong_input_transpose_detected_0": true,
+    "wrong_input_transpose_detected_1": true
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2440-hidden-route-instrument-use-2026-11-01.md": "94b7a08d79c23b5d90f6c29d89246e9d914529c4cdd7851ce59301f64889c478",
+    "lab/process/k2439-minimal-flagged-tomography.json": "859873ea0df963ea2e1cf0ff70e7f72761238fddada1b15b39a83101f3c20373",
+    "tests/channel-swings/k2419_positive_visibility_dual_probe.py": "d401d829d8d2b6ebf1b99c77b7e7b7497c99bffb4efffaac61363659b58ed757",
+    "tests/channel-swings/k2439_minimal_flagged_tomography_probe.py": "37f032a8cc7383d6302da2040103b73f15a0e0d73e803494954bed5ed2ff19a3",
+    "tests/channel-swings/k2440_hidden_route_instrument_use_probe.py": "44b1d1cea1e60b449d8d1f7ecffda187703d121e313bdc1194e9c449a5b82cd9"
+  },
+  "evidence_kinds": {
+    "exact": "original complete matrix-unit Bell contractions, complex input, route first/second moments, contrary noncovariance/conditioning/normalization controls",
+    "rigorous_numeric": "Arb256 conditional prospective allowance",
+    "universal": "written hidden-routing martingale, fixed-input linear contraction and completed-instrument postselection proof"
+  },
+  "original_contractions": [
+    {
+      "complex_input": [
+        [
+          "2/3",
+          "-I/4"
+        ],
+        [
+          "I/4",
+          "1/3"
+        ]
+      ],
+      "law": 1,
+      "success": "1/4"
+    },
+    {
+      "complex_input": [
+        [
+          "2/3",
+          "-I/4"
+        ],
+        [
+          "I/4",
+          "1/3"
+        ]
+      ],
+      "law": 2,
+      "success": "1/4"
+    }
+  ],
+  "prospective": {
+    "alpha": ".05",
+    "completed_program_operation_error": "1e-5",
+    "empirical_residual_bound": "1e-6",
+    "ideal_successes_per_emission": "1/8",
+    "normalized_average_success_output_bound": "[0.01501639746641209254200902237858005910544269543197967928504895899453999664078 +/- 7.16e-78]",
+    "program_state_distance": "[0.00368856031486156363999589845685720833647582843669888750601574290455289873810 +/- 1.01e-78]",
+    "readout_bias_bound": "1e-6",
+    "status": "hypothetical data and trusted error premises; no realized success-count or future-device guarantee",
+    "success_probability_lower": "[0.2463014396851384363600041015431427916635241715633011124939842570954471012619 +/- 4.92e-78]",
+    "test_probability": "1/2",
+    "total_emissions": 4000000000,
+    "used_indices": 2000000000,
+    "widths": {
+      "1": "[0.0003228221722634995526973650863009214688029932947662590724807352227705056996764 +/- 3.09e-80]",
+      "3": "[0.0004561526509353293476975557388278091140336695063539025478906797332986321476132 +/- 6.93e-80]",
+      "9": "[0.0007207329975021005674671789506726259001668048293974699756325951226902345365964 +/- 8.08e-80]"
+    }
+  },
+  "result_id": "K2440"
+}
