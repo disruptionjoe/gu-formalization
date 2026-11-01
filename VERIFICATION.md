@@ -5,6 +5,19 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2455--K2457: Mixed compatibility, predictable budgets and local phase verification (2026-11-01)
+
+K2455 excludes uniformly bounded banks of individually ordinary-null hook fields as an unrestricted scalar inverse and gives an original mixed-compatibility counterfixture. K2456 proves a support-safe stopping certificate with a predictable accumulated leakage budget. K2457 constructs a fully local phase-averaged verifier with full-carrier gap at least2/5 and proves two exact restricted design limitations. These are conditional mathematical results, not measured performance or native GU recovery.
+
+- [K2455](explorations/conditional-build/k2455-mixed-compatibility-filtration-2026-11-01.md).
+- [K2456](explorations/conditional-build/k2456-predictable-leakage-budget-2026-11-01.md).
+- [K2457](explorations/conditional-build/k2457-local-verifier-phase-design-2026-11-01.md).
+
+Three independent read-only field specialists and the lead reviewed the original-object arguments. A separate geometry reviewer also checked the probability theorem. Final corrections clarified the ideal heralding probability, sufficient positive-success condition, statistical-only decay rate and persistent-cost qualification. Internal review is not external-expert, proof-assistant, novelty or measured-device certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2452--K2454: Analytic families, information budgets and local verification (2026-11-01)
 
 K2452 proves analytic linear inversion for fixed finite passive degree and an explicit eleven-variable scalar family on the original hook operator. K2453 transfers stopping-safe actual-use risk bounds under a total expected directional information budget without changing the risk being certified. K2454 constructs a two-setting four-register local verifier with exact gaps above 0.26 for both original programs, replacing the tree bottleneck. These are conditional mathematical results, not measured performance or native GU recovery.

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 76fa9aac42e4f2e01347ac48c373fc2121648c35
+revision_basis: bb4b4d54793de7160034da2b8ca3a30bb22690e6
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,13 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2455 excludes uniformly bounded banks of individually ordinary-null hook fields as an
+    unrestricted scalar inverse and gives an original mixed-compatibility counterfixture.
+    K2456 proves a support-safe stopping certificate with a predictable accumulated leakage
+    budget. K2457 constructs a fully local phase-averaged verifier with full-carrier gap at
+    least2/5 and proves two exact restricted design limitations. These are conditional
+    mathematical results, not measured performance or native GU recovery. Historical
+    predecessor (not live):
     K2452 proves analytic linear inversion for fixed finite passive degree and an explicit
     eleven-variable scalar family on the original hook operator. K2453 transfers
     stopping-safe actual-use risk bounds under a total expected directional information
@@ -18090,6 +18097,15 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2455-mixed-compatibility-filtration-2026-11-01.md
+  - lab/process/k2455-mixed-compatibility-filtration.json
+  - tests/channel-swings/k2455_mixed_compatibility_filtration_probe.py
+  - explorations/conditional-build/k2456-predictable-leakage-budget-2026-11-01.md
+  - lab/process/k2456-predictable-leakage-budget.json
+  - tests/channel-swings/k2456_predictable_leakage_budget_probe.py
+  - explorations/conditional-build/k2457-local-verifier-phase-design-2026-11-01.md
+  - lab/process/k2457-local-verifier-phase-design.json
+  - tests/channel-swings/k2457_local_verifier_phase_design_probe.py
   - explorations/conditional-build/k2452-partial-analytic-hook-inverse-2026-11-01.md
   - lab/process/k2452-partial-analytic-hook-inverse.json
   - tests/channel-swings/k2452_partial_analytic_hook_inverse_probe.py
@@ -20356,6 +20372,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can ordinary-response cancellation yield a quantitative full mixed hook inverse, and can
+  an inequivalent local conditional-test family exceed the diagonal-twirl limitation with
+  independently justified coherent operation and routing costs? Historical predecessor
+  (not live):
   Can the full mixed hook quotient retain analytic estimates beyond the two proved
   subfamilies, and can actual coherent nine-level control and a justified total
   branch-risk information budget realize the improved verification interface? Historical
@@ -24624,6 +24644,21 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Do not replace full mixed compatibility by coefficientwise compatibility or seek
+  unrestricted scalar inversion from a uniformly bounded individually ordinary-null bank;
+  the actual quotient requires cancelling ordinary responses or a new joint estimate.
+  Degreewise bank size must grow at least ceil((n+1)/13), and the full nonlinear/analytic
+  bridge stays open. The local phase-averaged verifier has certified gap2/5,135 phase
+  labels, complete108-dimensional evidence and hypothetical actual-use
+  budgets433407/934421 under distinct leakage assumptions. A single product-unbiased
+  replacement cannot improve K2454; any target-preserving local diagonal average of its T
+  with Q cannot reach gap1/2 for the original laws. New inequivalent tests or a different
+  first effect remain open. K2456 needs independently justified predictable cost and
+  residual leakage, ideal heralding probability and positive actual success; it is not
+  stronger under every hypothesis than K2453 expected-KL transfer. Preserve
+  fixed-systematic floors, current-resource controller independence, source/ledger
+  ceilings and native matter/light, common-bar/mobile, thermal163/164, native2+1/chirality
+  and physical-quotient routes. Historical predecessor (not live):
   Use the fixed-passive-degree and eleven-variable scalar inverses as restricted linear
   ingredients, retaining actual 4/d normalization and the explicit scalar radius
   factor8520/8519. Full unbounded mixed ordinary forcing and nonlinear closure need a

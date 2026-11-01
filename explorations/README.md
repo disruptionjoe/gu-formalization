@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2455-mixed-compatibility-filtration](conditional-build/k2455-mixed-compatibility-filtration-2026-11-01.md).
+- [k2456-predictable-leakage-budget](conditional-build/k2456-predictable-leakage-budget-2026-11-01.md).
+- [k2457-local-verifier-phase-design](conditional-build/k2457-local-verifier-phase-design-2026-11-01.md).
+
 - [k2452-partial-analytic-hook-inverse](conditional-build/k2452-partial-analytic-hook-inverse-2026-11-01.md).
 - [k2453-use-reference-information-budget](conditional-build/k2453-use-reference-information-budget-2026-11-01.md).
 - [k2454-two-setting-local-verifier](conditional-build/k2454-two-setting-local-verifier-2026-11-01.md).
