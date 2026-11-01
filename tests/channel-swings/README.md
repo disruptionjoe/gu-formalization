@@ -1,4 +1,7 @@
 
+- [k2425-frame-euler-module](k2425_frame_euler_module_probe.py).
+- [k2426-recovery-rigidity](k2426_recovery_rigidity_probe.py).
+
 - [k2423-corotating-mixed-sixth](k2423_corotating_mixed_sixth_probe.py).
 - [k2424-recovery-saddle-reduction](k2424_recovery_saddle_reduction_probe.py).
 

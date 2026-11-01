@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2425-frame-euler-module](k2425-frame-euler-module.json).
+- [k2426-recovery-rigidity](k2426-recovery-rigidity.json).
+
 - [k2423-corotating-mixed-sixth](k2423-corotating-mixed-sixth.json).
 - [k2424-recovery-saddle-reduction](k2424-recovery-saddle-reduction.json).
 

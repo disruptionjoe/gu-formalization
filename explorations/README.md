@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2425-frame-euler-module](conditional-build/k2425-frame-euler-module-2026-11-01.md).
+- [k2426-recovery-rigidity](conditional-build/k2426-recovery-rigidity-2026-11-01.md).
+
 - [k2423-corotating-mixed-sixth](conditional-build/k2423-corotating-mixed-sixth-2026-10-31.md).
 - [k2424-recovery-saddle-reduction](conditional-build/k2424-recovery-saddle-reduction-2026-10-31.md).
 

@@ -6,6 +6,18 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2425--K2426: Shared Euler compatibility and full-channel rigidity (2026-11-01)
+
+K2425 proves a common finite jet through sixth Euler and seventh algebraic compatibility: six original Euler maps attain their exact upper bounds, four augmented maps prescribe all560 sixth-Euler compatibility values, and the actual830-term seventh-boundary target has an exact lift through the proper seven-generator ideal. K2426 converts the existing1e-27 optimality bracket into full complex-channel rigidity: each original bad-sign decoder lies within2.240e-12 half-diamond distance and the original good decoder within1.202e-13; complete-instrument uncertainty propagates explicitly. No all-order, smooth or native GU claim; source polarities and ledger0.263 are unchanged.
+
+- [K2425](explorations/conditional-build/k2425-frame-euler-module-2026-11-01.md).
+- [K2426](explorations/conditional-build/k2426-recovery-rigidity-2026-11-01.md).
+
+Independent internal geometry and acceptance reviews verified the module upper bounds, common-coefficient triangular minors, full differentiated J3 operator, exact proper-ideal boundary lift and original-row replays. Quantum and acceptance reviews independently reconstructed original-controller support inequalities, full complex TP conditioning and perturbation constants. No external-expert or proof-assistant certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2423--K2424: Repeated frame and radical recovery saddle (2026-10-31)
 
 K2423 constructs an exact repeated frame for K2420's repaired cubic, proves the inherited W4 outside that fixed-first-rotation family with a224-column dual, and executes an admissible changed-W4 repair passing420 Phi and1848 all-W sixth targets. Repeated Gram ideal division yields a shared full fifth/sixth-algebraic quartic/quintic; cubic rotations fill its first104-dimensional Euler boundary block, while the remaining shared fourth-Euler completion stays open. K2424 removes bad-channel optimization by a closed arbitrary planar support formula, reduces two-law recovery to a compact two-scalar maximum, and certifies the original asymmetric optimum within a1e-27-wide global bracket. Source polarities and ledger0.263 remain unchanged.

@@ -1,0 +1,135 @@
+{
+  "certificate": {
+    "TP_Gram_det": "[0.02380002328415032221656309763276167454906751687867304561879440816221006230 +/- 8.46e-75]",
+    "TP_mu_squared_lower": "[0.0522307236213509890813118749686968157347430277243843260527240382275748440 +/- 2.94e-74]",
+    "bad_original_each_aligned_sign_half_diamond_bound": "[2.239694746018955287750292083972830465913011699079824059979382214242229846e-12 +/- 5.70e-85]",
+    "bad_reduced_half_diamond_bound": "[1.583703342697885548787451745081884375388585871776097867026494499788817356e-12 +/- 3.82e-85]",
+    "exact_fixture_Gram": [
+      [
+        "1",
+        "0",
+        "0",
+        "-3/17"
+      ],
+      [
+        "0",
+        "15/17",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "25/34",
+        "0"
+      ],
+      [
+        "-3/17",
+        "0",
+        "0",
+        "393/578"
+      ]
+    ],
+    "good_original_half_diamond_bound": "[1.201541186044059355514315025722287644658019317697303548836028773629384010302e-13 +/- 4.94e-89]",
+    "normalization_R": "[1.006607942216219654322363078171828136023089716231782110218094417022075617808 +/- 2.87e-76]",
+    "raw_slack_gap_lower": "[0.16589056550189874829579728918119897343663562207452023171992607954313973740 +/- 2.88e-75]",
+    "uncertainty_1e_minus8_bad_bound": "[0.01001621940189502102244097246692195957047107191660034142650798015391651027 +/- 5.21e-75]"
+  },
+  "checks": {
+    "both_positive_rank_two_products": true,
+    "complex_Hermitian_TP_Gram_positive": true,
+    "exact_complex_Gram_positive": true,
+    "exact_fixture_canonical_determinant": true,
+    "exact_support_projector": true,
+    "full_bad_original_bound_below_1e_minus10": true,
+    "full_good_original_bound_below_1e_minus12": true,
+    "good_gap_branch": true,
+    "nonzero_translation_and_strict_canonical_branch": true,
+    "nonzero_uncertainty_consumer": true,
+    "original_complementarity_interval_consistent": true,
+    "original_good_Bell_gap": true,
+    "original_good_functional_all_Hermitian_directions": true,
+    "positive_conditioning_bounds": true,
+    "projector_interval_consistent": true,
+    "universal_canonical_Gram_determinant": true,
+    "universal_canonical_Gram_trace": true
+  },
+  "controls": {
+    "imaginary_direction_is_actually_checked": true,
+    "leakage_alone_not_rigidity": true,
+    "original_sign_factor_two_required": true
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2422-joint-recovery-optimality-2026-10-31.md": "2cfc6f1d40d9d85e160051a2393e1548679764e39d1dff720b50864e163e6abf",
+    "lab/process/k2424-recovery-saddle-reduction.json": "9185837aee1f056bcb09e7acc2584755bdc910d1609eb32ac66b668a2c2d4601",
+    "tests/channel-swings/k2419_positive_visibility_dual_probe.py": "d401d829d8d2b6ebf1b99c77b7e7b7497c99bffb4efffaac61363659b58ed757",
+    "tests/channel-swings/k2424_recovery_saddle_reduction_probe.py": "08421f5fb8e4161c4d6fe2cd4a6e1b23a5881900ff7b6f2d286131f50656829e"
+  },
+  "inherited_checks": {
+    "actual_law_0": true,
+    "actual_law_1": true,
+    "actual_sign_CP_0-1": true,
+    "actual_sign_CP_01": true,
+    "actual_sign_CP_1-1": true,
+    "actual_sign_CP_11": true,
+    "candidate_compact_domain": true,
+    "certified_gap_1e_minus27": true,
+    "compact_cone_constants": true,
+    "gain_over_unital_identity": true,
+    "gradient_matrix_fixture": true,
+    "gradient_translation_fixture": true,
+    "identity_upper_and_rectangle": true,
+    "interval_simple_improving_positive_det": true,
+    "nonsymmetric_complementarity": true,
+    "nonsymmetric_dual_PSD": true,
+    "nonsymmetric_formula": true,
+    "nonsymmetric_original_Choi_CP_TP": true,
+    "nonsymmetric_original_support": true,
+    "original_composition_0_0": true,
+    "original_composition_0_1": true,
+    "original_composition_0_2": true,
+    "original_composition_0_3": true,
+    "original_composition_1_0": true,
+    "original_composition_1_1": true,
+    "original_composition_1_2": true,
+    "original_composition_1_3": true,
+    "original_full_norm_branch": true,
+    "preparation_complementarity": true,
+    "preparation_dual_PSD": true,
+    "preparation_formula": true,
+    "preparation_original_Choi_CP_TP": true,
+    "preparation_original_support": true,
+    "rank_one_complementarity": true,
+    "rank_one_dual_PSD": true,
+    "rank_one_formula": true,
+    "rank_one_original_Choi_CP_TP": true,
+    "rank_one_original_support": true,
+    "reflection_complementarity": true,
+    "reflection_dual_PSD": true,
+    "reflection_formula": true,
+    "reflection_original_Choi_CP_TP": true,
+    "reflection_original_support": true,
+    "rigorous_constructed_upper": true,
+    "rigorous_global_lower": true,
+    "scalar_quadratic_branch_identity": true,
+    "zero_complementarity": true,
+    "zero_dual_PSD": true,
+    "zero_formula": true,
+    "zero_original_Choi_CP_TP": true,
+    "zero_original_support": true
+  },
+  "inherited_controls": {
+    "independent_translation_plus_identity_not_CP": true,
+    "old_nonstationary_dual_not_exact": true,
+    "reflection_needs_perpendicular_sign": true,
+    "rounded_claim_above_primal_not_lower": true,
+    "transpose_Gram_changes_support": true
+  },
+  "result_id": "K2426",
+  "scope": "All globally optimal or sufficiently near-optimal nominal controllers lie near one certified original full complex Choi channel. Exact optimizer uniqueness only under an exact dual support condition; no uniqueness from nonzero gap, no Kraus uniqueness, and no native apparatus or GU claim.",
+  "software": {
+    "arb_bits": 256,
+    "python_flint": "0.9.0",
+    "sympy": "1.14.0"
+  }
+}
