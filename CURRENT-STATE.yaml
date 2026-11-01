@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 5b93ede2e4b2010dbf1edad3d63b43d223f01cd9
+revision_basis: b20fb83ea55620e23340a676d88e951fc11f29bd
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,16 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2447 constructs a rank-nine coherent purification of each original mixed flagged
+    program, an explicit two-setting one-way verifier with gap one half, and a
+    no-free-upgrade theorem for nondisturbing extensions. Exact dephasing controls show that
+    a correct recorded program can fail the stronger coherent test. K2448 proves a
+    stopping-safe binary hidden-route certificate under adaptive drift, with a sharp
+    exponent within its exponential family, weighted tuning and zero-failure
+    resource-distance scaling proportional to the inverse square root of uses. Prospective
+    calibrated one/two-slot bounds are below0.70/0.95percent. These are conditional
+    mathematical interfaces, not actual observations or native GU recovery. Historical
+    predecessor (not live):
     K2444 proves sharp heralded program error min(1,C epsilon), C=D_in^2/d_A1, with all-slot
     causal saturation and separate trusted-operation cost. K2445 replaces independent
     replicas by secret random-pair testing and unlabelled use of an arbitrary correlated
@@ -18065,6 +18075,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2447-coherent-program-verification-2026-11-01.md
+  - lab/process/k2447-coherent-program-verification.json
+  - tests/channel-swings/k2447_coherent_program_verification_probe.py
+  - explorations/conditional-build/k2448-binary-hidden-route-certificate-2026-11-01.md
+  - lab/process/k2448-binary-hidden-route-certificate.json
+  - tests/channel-swings/k2448_binary_hidden_route_certificate_probe.py
   - explorations/conditional-build/k2444-sharp-heralded-transfer-2026-11-01.md
   - lab/process/k2444-sharp-heralded-transfer.json
   - tests/channel-swings/k2444_sharp_heralded_transfer_probe.py
@@ -20307,6 +20323,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can the actual full mixed hook adjoint, retaining the boundary ideal and linear
+  generators, admit a geometric inverse bound; or can the explicit coherent-reference
+  verification settings be implemented with independently calibrated costs on an available
+  apparatus? Historical predecessor (not live):
   Can actual mixed hook inverse products retain the directional denominators needed for a
   geometric full inverse, or can the correlated-block program certificate be made
   operationally economical without weakening its hidden-index and joint-flag assumptions?
@@ -24564,6 +24584,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Use the original full ambient Fischer adjoint with the repeated-polar boundary ideal,
+  Koszul/rotation outer derivatives and y_E second-derivative terms; a
+  constant-coefficient symbol shortcut or scalar primitive alone does not settle mixed
+  convergence. K2447 provides two E-to-S feedforward setting families with exact gap1/2;
+  local means only the E|S partition and requires coherent program flags. A measured
+  instrument cannot be upgraded nondisturbingly on its full support. K2448 now supplies
+  time-uniform actual-used risk bounds, but trusted coherent custody, verifier
+  calibration, storage/controller errors and actual outcomes remain inputs. Preserve
+  weighted tuning, nonzero use count, success-weighted means and the distinction from
+  final-transcript/future guarantees. If only recorded resources exist, retain K2445 or
+  full tomography. Shared native matter/light, common-bar/mobile, thermal163/164,
+  native2+1/chirality and positive physical quotient remain open distinct routes.
+  Historical predecessor (not live):
   Use K2446 actual mixed recurrence to estimate products of adjacent diagonal inverses and
   couplings, or construct a joint inverse; separate geometric diagonal bounds alone are
   insufficient even with bounded offdiagonal terms. The quadratic-exponential upper bound

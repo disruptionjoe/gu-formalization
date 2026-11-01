@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2447-coherent-program-verification](k2447-coherent-program-verification.json).
+- [k2448-binary-hidden-route-certificate](k2448-binary-hidden-route-certificate.json).
+
 - [k2444-sharp-heralded-transfer](k2444-sharp-heralded-transfer.json).
 - [k2445-correlated-block-certificate](k2445-correlated-block-certificate.json).
 - [k2446-augmented-diagonal-estimate](k2446-augmented-diagonal-estimate.json).

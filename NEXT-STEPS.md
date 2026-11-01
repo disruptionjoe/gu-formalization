@@ -5,6 +5,10 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-11-01: COHERENT PROGRAMS AND STOPPING-SAFE BINARY CERTIFICATION.**
+> Use the original full ambient Fischer adjoint with the repeated-polar boundary ideal, Koszul/rotation outer derivatives and y_E second-derivative terms; a constant-coefficient symbol shortcut or scalar primitive alone does not settle mixed convergence. K2447 provides two E-to-S feedforward setting families with exact gap1/2; local means only the E|S partition and requires coherent program flags. A measured instrument cannot be upgraded nondisturbingly on its full support. K2448 now supplies time-uniform actual-used risk bounds, but trusted coherent custody, verifier calibration, storage/controller errors and actual outcomes remain inputs. Preserve weighted tuning, nonzero use count, success-weighted means and the distinction from final-transcript/future guarantees. If only recorded resources exist, retain K2445 or full tomography. Shared native matter/light, common-bar/mobile, thermal163/164, native2+1/chirality and positive physical quotient remain open distinct routes.
+
+
 > **2026-11-01: SHARP PROGRAMS, CORRELATED BLOCKS AND MIXED LINEAR BOUNDS.**
 > Use K2446 actual mixed recurrence to estimate products of adjacent diagonal inverses and couplings, or construct a joint inverse; separate geometric diagonal bounds alone are insufficient even with bounded offdiagonal terms. The quadratic-exponential upper bound is not divergence and its entire-forcing corollary is linear only. For operational use, compare a smaller witnessed common support or a measured block-purity bound against the explicit random-block storage and sampling cost. K2445 certifies only the unlabelled mean marginal under secret whole-block routing; preserve index independence, joint local flag dephasing for the sharper floor, positive success, and fresh private controller initialization. K2444 gives the sharp ideal transfer while trusted operation error remains unscaled. Native shared-source matter/light, common-bar/mobile, thermal163/164, native2+1/chirality and positive physical quotient remain distinct open routes.
 

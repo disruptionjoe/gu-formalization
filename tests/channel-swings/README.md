@@ -1,4 +1,7 @@
 
+- [k2447-coherent-program-verification](k2447_coherent_program_verification_probe.py).
+- [k2448-binary-hidden-route-certificate](k2448_binary_hidden_route_certificate_probe.py).
+
 - [k2444-sharp-heralded-transfer](k2444_sharp_heralded_transfer_probe.py).
 - [k2445-correlated-block-certificate](k2445_correlated_block_certificate_probe.py).
 - [k2446-augmented-diagonal-estimate](k2446_augmented_diagonal_estimate_probe.py).

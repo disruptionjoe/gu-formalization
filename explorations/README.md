@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2447-coherent-program-verification](conditional-build/k2447-coherent-program-verification-2026-11-01.md).
+- [k2448-binary-hidden-route-certificate](conditional-build/k2448-binary-hidden-route-certificate-2026-11-01.md).
+
 - [k2444-sharp-heralded-transfer](conditional-build/k2444-sharp-heralded-transfer-2026-11-01.md).
 - [k2445-correlated-block-certificate](conditional-build/k2445-correlated-block-certificate-2026-11-01.md).
 - [k2446-augmented-diagonal-estimate](conditional-build/k2446-augmented-diagonal-estimate-2026-11-01.md).

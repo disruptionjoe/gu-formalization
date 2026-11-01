@@ -6,6 +6,18 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2447--K2448: Coherent programs and stopping-safe binary certification (2026-11-01)
+
+K2447 constructs a rank-nine coherent purification of each original mixed flagged program, an explicit two-setting one-way verifier with gap one half, and a no-free-upgrade theorem for nondisturbing extensions. Exact dephasing controls show that a correct recorded program can fail the stronger coherent test. K2448 proves a stopping-safe binary hidden-route certificate under adaptive drift, with a sharp exponent within its exponential family, weighted tuning and zero-failure resource-distance scaling proportional to the inverse square root of uses. Prospective calibrated one/two-slot bounds are below0.70/0.95percent. These are conditional mathematical interfaces, not actual observations or native GU recovery.
+
+- [K2447](explorations/conditional-build/k2447-coherent-program-verification-2026-11-01.md).
+- [K2448](explorations/conditional-build/k2448-binary-hidden-route-certificate-2026-11-01.md).
+
+Independent quantum-information and probability specialists checked the pure extension, original Kraus laws, no-free-upgrade proof, two-setting spectral gap, optional-stopping process and heralded composition. Corrections made the zero-failure use count, nontrivial tolerance and expected heralding cost explicit. A separate geometric review rejected a constant-symbol shortcut and retained the full mixed-adjoint question without claiming divergence. Exact controls support written universal proofs; no external-expert, proof-assistant or novelty claim.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2444--K2446: Sharp programs, correlated blocks and mixed inverse bounds (2026-11-01)
 
 K2444 proves sharp heralded program error min(1,C epsilon), C=D_in^2/d_A1, with all-slot causal saturation and separate trusted-operation cost. K2445 replaces independent replicas by secret random-pair testing and unlabelled use of an arbitrary correlated block, with a sharp universal finite-size correction and a stronger bound for jointly classical flags. Its exact counterexamples preserve the hidden-index and joint-coherence requirements. K2446 proves a parameter-stable augmented transverse hook inverse and a conservative exp(O(d^2+d log d)) full mixed linear bound, with a restricted entire-forcing consequence. General analytic mixed and nonlinear convergence remain open. These are conditional mathematical results, not measured performance or native GU recovery.
