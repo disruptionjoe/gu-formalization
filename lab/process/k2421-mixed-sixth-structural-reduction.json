@@ -1,0 +1,66 @@
+{
+  "checks": {
+    "all21_original_Koszul_generators": true,
+    "all_coefficients_shared_sixth_lift": true,
+    "all_original_L_decompositions": true,
+    "arbitrary_mixed_Gram_lift": true,
+    "complete_repeated_Gram_monomial_image": true,
+    "factor5_sigma_primitive": true,
+    "full_polar_original_columns": true,
+    "full_repeated_polar161": true,
+    "next_Euler_rank": true,
+    "next_tracefree_cokernel105": true,
+    "original_Gram_sigma_duals": true,
+    "original_N_repeated": true,
+    "original_ambient_sixth_identity": true,
+    "original_polar_basis_dimension": true,
+    "original_polar_symbol_rank103": true,
+    "quadratic_cokernel_primitive": true,
+    "quadratic_symbol_annihilator": true,
+    "quartic_W4_zero": true,
+    "quartic_preserves_fifth_algebraic": true,
+    "remaining_Gram_transverse_ideal": true,
+    "repeated_Gram_dual_rank7": true,
+    "tracefree_symbol": true,
+    "zero_W4_repeated_nuisance_dimension": true
+  },
+  "controls": {
+    "algebraic_fixture_not_automatically_Euler": true,
+    "factor4_changes_actual_sigma": true,
+    "omitting_linear_Koszul_loses_freedom": true,
+    "pure_W_Gram_cannot_be_in_image": true
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2405-fifth-euler-compatibility-2026-10-31.md": "4e59bdc36fcabf312557cb5b6f26959db2e03b272629d0a46e403516ffbc9e94",
+    "lab/process/k2381-rotated-null-hook-prolongation.json": "208328f1fdd7661d6fd264c9ca79a26a4cc12b18f035685f62484ad9b7fa9559",
+    "lab/process/k2390-full-hook-jet.json": "c42b5d0cefb5308ba3c7c48433fdbbd81b97e88e4fd80d6ce420e1c652766123",
+    "lab/process/k2420-coupled-nuisance-image.json": "edbabccc04e4e3b3596a2b518da446ec73e5862b3654109898662f1db013e9da",
+    "tests/channel-swings/k2387_coupled_hook_jet_blocks_probe.py": "f482f8f5cf54f75d471c765f46e3fcdb6f5d49e8674bb9057efb5b5be807416b",
+    "tests/channel-swings/k2390_full_hook_jet_probe.py": "68eac16a8b282fe05a7d45ee76ca13028a923104628c819704303ff4746a2260",
+    "tests/channel-swings/k2393_coupled_polar_dual_probe.py": "a7ca2c1b77fa3d89b64daf6e5fd33ecfc4b48681da87ac4572818269b7209c4c",
+    "tests/channel-swings/k2417_coupled_three_w_compatibility_probe.py": "0a0edaf84e9ef95e64c64ada02e32263ef83ca4a824c4f9fd01cc6e2313f3dd2"
+  },
+  "next_Euler_cokernel": 105,
+  "next_Euler_rank": 247415,
+  "repeated_Koszul_linear_generators": 21,
+  "repeated_quartic_primitive": {
+    "adapted_terms": 4,
+    "ambient_quartic_terms": 7,
+    "ambient_quintic_terms": 141,
+    "factor": 5,
+    "quartic_digest": "4c116debe6dafb1b75c324f39e16fdfcd58fa0ecd6c4ee6749ab00443d709d88",
+    "quintic_digest": "851c984bcd92ffdf7f3cde9656519cb98bb402d08903ba513b2138805c5abc21"
+  },
+  "repeated_zero_W4_nuisance_dimension": 357924,
+  "result_id": "K2421",
+  "scope": "All-degree symbol image equality; fifth-Euler follows conditionally from same-quartic full sixth algebraic and checked curved J. Gram and repeated-quartic reductions are constructive. Mixed sigma feasibility, curved higher orders and smooth stationarity remain open.",
+  "symbol_ranks_by_receiver_degree": {
+    "0": 104,
+    "1": 1456,
+    "2": 10919,
+    "3": 58226,
+    "4": 247415,
+    "5": 890512,
+    "6": 2819348
+  }
+}

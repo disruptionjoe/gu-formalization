@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2421-mixed-sixth-structural-reduction](k2421-mixed-sixth-structural-reduction.json).
+- [k2422-joint-recovery-optimality](k2422-joint-recovery-optimality.json).
+
 - [k2418-support-attainment](k2418-support-attainment.json).
 - [k2419-positive-visibility-dual](k2419-positive-visibility-dual.json).
 - [k2420-coupled-nuisance-image](k2420-coupled-nuisance-image.json).

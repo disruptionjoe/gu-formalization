@@ -1,4 +1,7 @@
 
+- [k2421-mixed-sixth-structural-reduction](k2421_mixed_sixth_structural_reduction_probe.py).
+- [k2422-joint-recovery-optimality](k2422_joint_recovery_optimality_probe.py).
+
 - [k2418-support-attainment](k2418_support_attainment_probe.py).
 - [k2419-positive-visibility-dual](k2419_positive_visibility_dual_probe.py).
 - [k2420-coupled-nuisance-image](k2420_coupled_nuisance_image_probe.py).

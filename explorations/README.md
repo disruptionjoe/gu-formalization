@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2421-mixed-sixth-structural-reduction](conditional-build/k2421-mixed-sixth-structural-reduction-2026-10-31.md).
+- [k2422-joint-recovery-optimality](conditional-build/k2422-joint-recovery-optimality-2026-10-31.md).
+
 - [k2418-support-attainment](conditional-build/k2418-support-attainment-2026-10-31.md).
 - [k2419-positive-visibility-dual](conditional-build/k2419-positive-visibility-dual-2026-10-31.md).
 - [k2420-coupled-nuisance-image](conditional-build/k2420-coupled-nuisance-image-2026-10-31.md).

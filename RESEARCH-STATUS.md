@@ -6,6 +6,18 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2421--K2422: Mixed-sixth reduction and joint recovery optimality (2026-10-31)
+
+K2421 reduces the shared mixed-sixth extension to the distinct-hook sigma quotient: all-degree polar Euler image equality gives next rank247415, existing105 curved compatibility identities guarantee fifth-Euler completion once one quartic passes full sixth algebraic, and explicit Gram/repeated primitives identify a357924-dimensional repeated quartic nuisance space before Euler. K2422 gives the attained joint variable-loss recovery dual, a four-term exact gap certificate, and a necessary-and-sufficient3x3 matrix criterion for identity optimality with at most six active laws. Balanced-active and antipodal families have exact closed optima; a non-antipodal three-law fixture equals1/2. Mixed sigma feasibility and the asymmetric K2419 nonidentity optimum remain open. These are conditional mathematics; source polarities and ledger0.263 are unchanged.
+
+- [K2421](explorations/conditional-build/k2421-mixed-sixth-structural-reduction-2026-10-31.md).
+- [K2422](explorations/conditional-build/k2422-joint-recovery-optimality-2026-10-31.md).
+
+Independent internal geometry review corrected a summand-count test to aggregate the actual Euler residual. Independent recovery review checked minimax, original Choi normalization, balanced and complete identity criteria including singular cases, and prior-result overlap. A separate actual-artifact review checked universal transfers and reproducibility seams. Finite checks support implementation; no external-expert or proof-assistant certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2418--K2420: Attainment, recovery dual and repeated cubic repair (2026-10-31)
 
 K2418 gives complete exact attainable metric-pool probability intervals, replacing exponential support faces with equality-class dynamic programming and deciding global endpoint attainment. K2419 brackets the unrestricted two-law positive-visibility recovery optimum between1786296137/4000100000 and447/1000, a gap under438 millionths, and proves one shared good-branch unitary suffices for the stated arbitrary uncertainty family. K2420 computes the full lower Euler/J image and finds repeated A/B/C alone span its entire nuisance image; an actual repeated-only repair preserves complete fifth-algebraic feasibility and yields a shared fourth-Euler/fifth-algebraic finite jet satisfying all105 next-Euler J conditions; a new original Gram-orthogonal quartic correction also preserves all1848 all-W sixth targets. The shared higher-order extension remains open. All results are conditional mathematics; source polarities and ledger0.263 remain unchanged.

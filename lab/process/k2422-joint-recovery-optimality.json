@@ -1,0 +1,149 @@
+{
+  "K2419_gap_decomposition": {
+    "four_scaled_gap_terms": [
+      "711/32500",
+      "415491/76925000",
+      "-13867983/25000625 + 9*sqrt(237435546057181)/250006250",
+      "2275217/200005000"
+    ],
+    "scaled_gap": "-258032191/500012500 + 9*sqrt(237435546057181)/250006250",
+    "strict_slack": true
+  },
+  "balanced_three_law_optimum": "1/2",
+  "checks": {
+    "K2419_dual_still_feasible": true,
+    "active_weighted_means_balance": true,
+    "arbitrary_original_support_identity": true,
+    "asymmetric_identity_excluded_exactly": true,
+    "balanced_three_matching_dual": true,
+    "balanced_three_original_error": true,
+    "certified_dual_PSD_shift": true,
+    "constant_decoder_CP_TP": true,
+    "criterion_determinant": true,
+    "exact_gap_decomposition": true,
+    "four_original_gap_terms_nonnegative": true,
+    "full_Choi_trace_normalization": true,
+    "identity_complete_error_0minus": true,
+    "identity_complete_error_0plus": true,
+    "identity_complete_error_1minus": true,
+    "identity_complete_error_1plus": true,
+    "identity_complete_error_2minus": true,
+    "identity_complete_error_2plus": true,
+    "opposite_mean_same_Q_0": true,
+    "opposite_mean_same_Q_1": true,
+    "opposite_mean_same_Q_2": true,
+    "original_Bell_blocks": true,
+    "original_Bell_identity_criterion": true,
+    "original_composition": true,
+    "original_full_channel_CP_TP": true,
+    "original_sign_CP_0minus-1": true,
+    "original_sign_CP_0minus1": true,
+    "original_sign_CP_0plus-1": true,
+    "original_sign_CP_0plus1": true,
+    "original_sign_CP_1minus-1": true,
+    "original_sign_CP_1minus1": true,
+    "original_sign_CP_1plus-1": true,
+    "original_sign_CP_1plus1": true,
+    "original_sign_CP_2minus-1": true,
+    "original_sign_CP_2minus1": true,
+    "original_sign_CP_2plus-1": true,
+    "original_sign_CP_2plus1": true,
+    "paired_complementary_slackness_0": true,
+    "paired_complementary_slackness_1": true,
+    "paired_complementary_slackness_2": true,
+    "paired_dual_trace_TP_0": true,
+    "paired_dual_trace_TP_1": true,
+    "paired_dual_trace_TP_2": true,
+    "paired_original_dual_PSD_0": true,
+    "paired_original_dual_PSD_1": true,
+    "paired_original_dual_PSD_2": true,
+    "physical_law_0": true,
+    "physical_law_1": true,
+    "physical_law_2": true,
+    "singular_safe_criterion_PD_pass": true,
+    "singular_safe_criterion_rank1_fail": true,
+    "singular_safe_criterion_rank1_pass": true,
+    "singular_safe_criterion_zero_fail": true,
+    "singular_safe_criterion_zero_pass": true,
+    "three_laws_are_not_pairwise_antipodal": true,
+    "variable_loss_family_exact_optimum": true
+  },
+  "controls": {
+    "balance_is_not_necessary": true,
+    "omitted_channel_gap_breaks_identity": true,
+    "strict_dual_slack_cannot_match_TP": true,
+    "uncertified_negative_slack_is_not_dual": true,
+    "unpaired_law_beats_paired_formula": true
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2407-finite-minimax-certificates-2026-10-31.md": "a619ddb17a5ba485c7633e47942dcc9ae0fb66a772716f28f0fcb2cbdadccb47",
+    "explorations/conditional-build/k2419-positive-visibility-dual-2026-10-31.md": "16c7797d5a90c4664e0534f3f80eb9a6ee02b2f654119898791864209db48017",
+    "tests/channel-swings/k2419_positive_visibility_dual_probe.py": "d401d829d8d2b6ebf1b99c77b7e7b7497c99bffb4efffaac61363659b58ed757"
+  },
+  "identity_criterion": "Exists active p: v v^T <= tr(M) M; M=sum p w Q, v=sum p w m.",
+  "paired_family": [
+    {
+      "dual_slack_rank": 2,
+      "law": 0,
+      "loss": "7/10",
+      "mean": [
+        "1/2",
+        "0"
+      ],
+      "moment": [
+        [
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "optimum": "7/16"
+    },
+    {
+      "dual_slack_rank": 3,
+      "law": 1,
+      "loss": "4/5",
+      "mean": [
+        "2/5",
+        "3/5"
+      ],
+      "moment": [
+        [
+          "2/15",
+          "0"
+        ],
+        [
+          "0",
+          "12/25"
+        ]
+      ],
+      "optimum": "179/375"
+    },
+    {
+      "dual_slack_rank": 3,
+      "law": 2,
+      "loss": "3/4",
+      "mean": [
+        "1/5",
+        "14/15"
+      ],
+      "moment": [
+        [
+          "3/25",
+          "4/25"
+        ],
+        [
+          "4/25",
+          "19/50"
+        ]
+      ],
+      "optimum": "15/32"
+    }
+  ],
+  "paired_family_optimum": "179/375",
+  "result_id": "K2422",
+  "scope": "Complete identity-optimality criterion and attained finite variable-loss joint dual; exact sign-paired uncertainty optimum and gap certificate. Asymmetric K2419 exact optimum remains open; no hardware or native GU result."
+}
