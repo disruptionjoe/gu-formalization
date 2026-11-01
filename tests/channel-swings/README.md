@@ -1,4 +1,7 @@
 
+- [k2429-shared-eighth-euler-extension](k2429_shared_eighth_euler_extension_probe.py).
+- [k2430-adaptive-decoder-certification](k2430_adaptive_decoder_certification_probe.py).
+
 - [k2427-frame-boundary-quotient](k2427_frame_boundary_quotient_probe.py).
 - [k2428-exact-recovery-uniqueness](k2428_exact_recovery_uniqueness_probe.py).
 

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: c7017e8b8c6b027ed795347322077a7b9757c954
+revision_basis: 8b4b5c4e1c691dc20d04ae9acd1335fbac3cb7f6
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,20 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2429 constructs one shared conditional finite jet through eighth Euler and ninth
+    algebraic compatibility: original T6 rank95,886 and augmented T5 rank48,426 assemble
+    full images2,819,348 and899,080, with an independent8,568-receiver sextic compatibility
+    replay. Its executed tenth-boundary successor finds the necessary quintic norm on Z and
+    a raw q/t/r-null direction with norm-2, so automatic extension fails for some selectable
+    representatives without excluding the whole fiber. An executed rational-kernel repair
+    gives an explicit null alternative and, using Meyer with exact rank/positivity premises,
+    a rational norm2 counterpart existence proof; the affine base cross term remains
+    unresolved. K2430 proves stopping-safe certification under adaptive drift for tested
+    conditional channel averages and mean distances, plus exceptional-trial,
+    capped-reweighting and separately justified future-transfer bounds. The full
+    complex-channel prospective18,170,000-trial budget survives at simultaneous95% in the
+    ideal experiment. Neither result supplies a smooth/all-order field, physical calibration
+    or native GU identification. Historical predecessor (not live):
     K2427 proves one shared finite jet through seventh Euler and eighth algebraic
     compatibility, retaining the repeated frame and the full mixed-quartic dependence. Its
     executed successor then proves universal ninth-boundary repair using a 130-dimensional
@@ -17978,6 +17992,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2429-shared-eighth-euler-extension-2026-11-01.md
+  - lab/process/k2429-shared-eighth-euler-extension.json
+  - tests/channel-swings/k2429_shared_eighth_euler_extension_probe.py
+  - explorations/conditional-build/k2430-adaptive-decoder-certification-2026-11-01.md
+  - lab/process/k2430-adaptive-decoder-certification.json
+  - tests/channel-swings/k2430_adaptive_decoder_certification_probe.py
   - explorations/conditional-build/k2427-frame-boundary-quotient-2026-11-01.md
   - lab/process/k2427-frame-boundary-quotient.json
   - tests/channel-swings/k2427_frame_boundary_quotient_probe.py
@@ -20166,6 +20186,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can the complete coupled quintic boundary fiber satisfy its tenth quadratic norm
+  condition and then ninth-Euler compatibility on those same choices? For decoder
+  deployment, what physically justified fresh joint input/reference decoupling and
+  systematic/transport bounds turn tested-average mathematics into an instrument
+  certificate? Historical predecessor (not live):
   Can the universal ninth-boundary repair be combined with a frame-preserving septic Euler
   correction and all8568 eighth-Euler compatibility values on one jet? Which complete
   instrument calibration and trusted decoder tests can consume the exact recovery
@@ -24385,6 +24410,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Select the complete coupled quintic fiber jointly with G(R5W,R5W)|Z=0, retain all
+  earlier choices, and test the remaining tenth boundary and ninth-Euler intersection
+  using original operators; one failed representative is not a family obstruction. In
+  recovery, instantiate the declared conditional experiment with actual joint
+  preparation/readout and instrument error budgets, or prove a specified drift/transport
+  bound; tested averages alone do not certify future or multi-use behavior. Source-native
+  fixed-source/matter-readout response remains the strongest independent physics
+  challenger; no native input is fabricated. Historical predecessor (not live):
   Retain K2423 repaired cubic and W4
   digest2632127837a3051e07e50c59bf244c1c8cd27a5af0867b0c550b791460920610. K2427 closes
   shared seventh Euler/eighth algebraic compatibility and additionally resolves the

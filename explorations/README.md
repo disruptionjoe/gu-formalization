@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2429-shared-eighth-euler-extension](conditional-build/k2429-shared-eighth-euler-extension-2026-11-01.md).
+- [k2430-adaptive-decoder-certification](conditional-build/k2430-adaptive-decoder-certification-2026-11-01.md).
+
 - [k2427-frame-boundary-quotient](conditional-build/k2427-frame-boundary-quotient-2026-11-01.md).
 - [k2428-exact-recovery-uniqueness](conditional-build/k2428-exact-recovery-uniqueness-2026-11-01.md).
 

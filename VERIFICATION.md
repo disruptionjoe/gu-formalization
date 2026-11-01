@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2429--K2430: Shared eighth Euler jet and adaptive decoder certification (2026-11-01)
+
+K2429 constructs one shared conditional finite jet through eighth Euler and ninth algebraic compatibility: original T6 rank95,886 and augmented T5 rank48,426 assemble full images2,819,348 and899,080, with an independent8,568-receiver sextic compatibility replay. Its executed tenth-boundary successor finds the necessary quintic norm on Z and a raw q/t/r-null direction with norm-2, so automatic extension fails for some selectable representatives without excluding the whole fiber. An executed rational-kernel repair gives an explicit null alternative and, using Meyer with exact rank/positivity premises, a rational norm2 counterpart existence proof; the affine base cross term remains unresolved. K2430 proves stopping-safe certification under adaptive drift for tested conditional channel averages and mean distances, plus exceptional-trial, capped-reweighting and separately justified future-transfer bounds. The full complex-channel prospective18,170,000-trial budget survives at simultaneous95% in the ideal experiment. Neither result supplies a smooth/all-order field, physical calibration or native GU identification.
+
+- [K2429](explorations/conditional-build/k2429-shared-eighth-euler-extension-2026-11-01.md).
+- [K2430](explorations/conditional-build/k2430-adaptive-decoder-certification-2026-11-01.md).
+
+Internal mathematical review found no blocking mathematical defect at the stated conditional ceilings. Their corrections were integrated: higher jets cannot cancel the fixed quintic norm on Z; positive crossing control1/16 prevents a vacuous stopping test; gamma is a separately supplied upper bound; epsilon>0 and external failure probability beta are explicit. Original-operator/no-write replay, dependency hashes and seven affected governance/currency audits provide execution evidence; finite checks do not replace the written universal proofs. No novelty, external certification or proof-assistant verification is claimed.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2427--K2428: Seventh Euler compatibility and exact recovery uniqueness (2026-11-01)
 
 K2427 proves one shared finite jet through seventh Euler and eighth algebraic compatibility, retaining the repeated frame and the full mixed-quartic dependence. Its executed successor then proves universal ninth-boundary repair using a 130-dimensional joint kernel and 336 original homogeneous source identities; the full next Euler intersection remains open. Seventh-Euler compatibility has 2380 receivers, correcting the prior 1716 handoff. K2428 proves exact uniqueness of the original nominal recovery channels and projective dual, zero-floor stability, and a prospective finite-shot decoder certificate. These are conditional mathematical results; source polarities and ledger 0.263 are unchanged.

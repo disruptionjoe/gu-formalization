@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2429-shared-eighth-euler-extension](k2429-shared-eighth-euler-extension.json).
+- [k2430-adaptive-decoder-certification](k2430-adaptive-decoder-certification.json).
+
 - [k2427-frame-boundary-quotient](k2427-frame-boundary-quotient.json).
 - [k2428-exact-recovery-uniqueness](k2428-exact-recovery-uniqueness.json).
 

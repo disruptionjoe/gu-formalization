@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-01: SEVENTH EULER COMPATIBILITY AND EXACT RECOVERY UNIQUENESS.**
+> **2026-11-01: EIGHTH EULER JET AND ADAPTIVE DECODER CERTIFICATION.**
+> Select the complete coupled quintic fiber jointly with G(R5W,R5W)|Z=0, retain all earlier choices, and test the remaining tenth boundary and ninth-Euler intersection using original operators; one failed representative is not a family obstruction. In recovery, instantiate the declared conditional experiment with actual joint preparation/readout and instrument error budgets, or prove a specified drift/transport bound; tested averages alone do not certify future or multi-use behavior. Source-native fixed-source/matter-readout response remains the strongest independent physics challenger; no native input is fabricated.
+
+
+> **Historical predecessor, no longer the live next condition: 2026-11-01 SEVENTH EULER COMPATIBILITY AND EXACT RECOVERY UNIQUENESS.**
 > Retain K2423 repaired cubic and W4 digest2632127837a3051e07e50c59bf244c1c8cd27a5af0867b0c550b791460920610. K2427 closes shared seventh Euler/eighth algebraic compatibility and additionally resolves the universal ninth boundary: H=I+t(Cq)+r(Cqt), raw joint kernel dimension130, all336 original repeated-source lifts, proper quotient283. Do not redo the failed old-ideal shortcut or infer the full ninth/eighth jet. Next prove a frame-preserving septic Euler replacement and impose all8568 eighth-Euler compatibility values on the same lower fiber. K2428 closes nominal original-channel/projective-dual uniqueness and gives zero-floor stability. Its finite-shot decoder test needs trusted joint input/reference preparation and readout, fixed independent stationary trials and all outcomes; no actual counts or flagged-instrument uncertainty supplied. Preserve native matter/light, common-bar/mobile, thermal163/164, native2+1/chirality and physical-quotient source/domain ceilings.
 
 
