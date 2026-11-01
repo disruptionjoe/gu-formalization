@@ -1,4 +1,8 @@
 
+- [k2458-hook-symbol-rank-boundary](k2458_hook_symbol_rank_boundary_probe.py).
+- [k2459-direct-leakage-certificate](k2459_direct_leakage_certificate_probe.py).
+- [k2460-reordered-local-verification](k2460_reordered_local_verification_probe.py).
+
 - [k2455-mixed-compatibility-filtration](k2455_mixed_compatibility_filtration_probe.py).
 - [k2456-predictable-leakage-budget](k2456_predictable_leakage_budget_probe.py).
 - [k2457-local-verifier-phase-design](k2457_local_verifier_phase_design_probe.py).

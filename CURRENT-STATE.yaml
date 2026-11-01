@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: bb4b4d54793de7160034da2b8ca3a30bb22690e6
+revision_basis: 646d8cd0418222ba678e623c947014d1e177149a
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,13 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2458 proves the sharp rank-two ordinary hook-symbol bound and quadratic necessary
+    growth of individually ordinary-null banks, with an original-polar witness. K2459
+    removes the smoothing residual from the same-budget stopping certificate, giving O(1/N)
+    actual-use risk. K2460 certifies a fully local changed-order verifier gap9/20 and
+    excludes a half-gap throughout the five fixed Fourier-order effect hull. These are
+    conditional mathematical results, not measured performance or native GU recovery.
+    Historical predecessor (not live):
     K2455 excludes uniformly bounded banks of individually ordinary-null hook fields as an
     unrestricted scalar inverse and gives an original mixed-compatibility counterfixture.
     K2456 proves a support-safe stopping certificate with a predictable accumulated leakage
@@ -18097,6 +18104,15 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2458-hook-symbol-rank-boundary-2026-11-01.md
+  - lab/process/k2458-hook-symbol-rank-boundary.json
+  - tests/channel-swings/k2458_hook_symbol_rank_boundary_probe.py
+  - explorations/conditional-build/k2459-direct-leakage-certificate-2026-11-01.md
+  - lab/process/k2459-direct-leakage-certificate.json
+  - tests/channel-swings/k2459_direct_leakage_certificate_probe.py
+  - explorations/conditional-build/k2460-reordered-local-verification-2026-11-01.md
+  - lab/process/k2460-reordered-local-verification.json
+  - tests/channel-swings/k2460_reordered_local_verification_probe.py
   - explorations/conditional-build/k2455-mixed-compatibility-filtration-2026-11-01.md
   - lab/process/k2455-mixed-compatibility-filtration.json
   - tests/channel-swings/k2455_mixed_compatibility_filtration_probe.py
@@ -20372,6 +20388,9 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can ordinary-response cancellations yield a quantitative full mixed hook inverse, or can
+  a genuinely different local test or independently calibrated coherent apparatus meet the
+  now explicit certification requirements? Historical predecessor (not live):
   Can ordinary-response cancellation yield a quantitative full mixed hook inverse, and can
   an inequivalent local conditional-test family exceed the diagonal-twirl limitation with
   independently justified coherent operation and routing costs? Historical predecessor
@@ -24644,6 +24663,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  The hook-symbol bound is sharp at rank2 in the original polar bank, so individually
+  ordinary-null banks need at least ceil((n+13)(n+1)/156) summands; their scalar
+  usefulness and the full cancelling mixed inverse remain separate. Do not extend this
+  dimension obstruction to the full joint operator or analytic/nonlinear closure. The
+  direct actual-law certificate achieves O(1/N_use) risk under the existing justified
+  fixed leakage budget, with gamma about4.3356; it does not estimate that budget from
+  passing tests or remove systematic floors. The local changed-order verifier certifies
+  gap9/20, while every mixture of Q and the four fixed Fourier last-register tests has gap
+  below12/25. Retuning these weights cannot reach1/2; a different basis/effect or an
+  operational cost comparison is needed. The composed384822-use budget is hypothetical and
+  requires actual coherent nine-level controls, conditional qubit operations, calibration,
+  private routing and positive actual mean success. Preserve original source/ledger
+  ceilings and native matter/light, common-bar/mobile, thermal163/164, native2+1/chirality
+  and physical-quotient routes. Historical predecessor (not live):
   Do not replace full mixed compatibility by coefficientwise compatibility or seek
   unrestricted scalar inversion from a uniformly bounded individually ordinary-null bank;
   the actual quotient requires cancelling ordinary responses or a new joint estimate.

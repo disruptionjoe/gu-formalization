@@ -6,6 +6,19 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2458--K2460: Sharp symbols, direct compensation and changed-order verification (2026-11-01)
+
+K2458 proves the sharp rank-two ordinary hook-symbol bound and quadratic necessary growth of individually ordinary-null banks, with an original-polar witness. K2459 removes the smoothing residual from the same-budget stopping certificate, giving O(1/N) actual-use risk. K2460 certifies a fully local changed-order verifier gap9/20 and excludes a half-gap throughout the five fixed Fourier-order effect hull. These are conditional mathematical results, not measured performance or native GU recovery.
+
+- [K2458](explorations/conditional-build/k2458-hook-symbol-rank-boundary-2026-11-01.md).
+- [K2459](explorations/conditional-build/k2459-direct-leakage-certificate-2026-11-01.md).
+- [K2460](explorations/conditional-build/k2460-reordered-local-verification-2026-11-01.md).
+
+Three independent read-only specialists reviewed the original-object proofs and implementations. Cross-reviews checked the probability theorem independently. Corrections strengthened the negative-pivot test, added full original polar constraints, and replaced a trivial reset control with an actual false crossing. The five-effect dual obstruction received a separate final quantum review. Internal review is not external-expert, proof-assistant, novelty or measured-device certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2455--K2457: Mixed compatibility, predictable budgets and local phase verification (2026-11-01)
 
 K2455 excludes uniformly bounded banks of individually ordinary-null hook fields as an unrestricted scalar inverse and gives an original mixed-compatibility counterfixture. K2456 proves a support-safe stopping certificate with a predictable accumulated leakage budget. K2457 constructs a fully local phase-averaged verifier with full-carrier gap at least2/5 and proves two exact restricted design limitations. These are conditional mathematical results, not measured performance or native GU recovery.

@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2458-hook-symbol-rank-boundary](k2458-hook-symbol-rank-boundary.json).
+- [k2459-direct-leakage-certificate](k2459-direct-leakage-certificate.json).
+- [k2460-reordered-local-verification](k2460-reordered-local-verification.json).
+
 - [k2455-mixed-compatibility-filtration](k2455-mixed-compatibility-filtration.json).
 - [k2456-predictable-leakage-budget](k2456-predictable-leakage-budget.json).
 - [k2457-local-verifier-phase-design](k2457-local-verifier-phase-design.json).

@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2458-hook-symbol-rank-boundary](conditional-build/k2458-hook-symbol-rank-boundary-2026-11-01.md).
+- [k2459-direct-leakage-certificate](conditional-build/k2459-direct-leakage-certificate-2026-11-01.md).
+- [k2460-reordered-local-verification](conditional-build/k2460-reordered-local-verification-2026-11-01.md).
+
 - [k2455-mixed-compatibility-filtration](conditional-build/k2455-mixed-compatibility-filtration-2026-11-01.md).
 - [k2456-predictable-leakage-budget](conditional-build/k2456-predictable-leakage-budget-2026-11-01.md).
 - [k2457-local-verifier-phase-design](conditional-build/k2457-local-verifier-phase-design-2026-11-01.md).
