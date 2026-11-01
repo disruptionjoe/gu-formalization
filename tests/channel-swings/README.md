@@ -1,4 +1,8 @@
 
+- [k2412-exact-metric-pool-odds](k2412_exact_metric_pool_odds_probe.py).
+- [k2413-joint-recovery-optimum](k2413_joint_recovery_optimum_probe.py).
+- [k2414-inherited-polar-fiber](k2414_inherited_polar_fiber_probe.py).
+
 - [k2409-coupled-drift-calibration](k2409_coupled_drift_calibration_probe.py).
 - [k2410-variable-loss-recovery](k2410_variable_loss_recovery_probe.py).
 - [k2411-broader-polar-compatibility](k2411_broader_polar_compatibility_probe.py).

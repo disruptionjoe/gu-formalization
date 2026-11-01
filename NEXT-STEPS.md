@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-10-31: COUPLED CALIBRATION, VARIABLE LOSS AND POLAR KERNELS.**
+> **2026-10-31: EXACT ODDS, FULL JOINT RECOVERY AND POLAR FIBER.**
+> Preserve the full A/B/C affine fiber and impose every original three-W quartic annihilator on one cubic, then all remaining sectors with one shared quartic and all11 quadratic generators. A feasibility is inherited; the old short dual now has an explicit seven-term full Euler/J repair, so neither can serve as a remaining obstruction. The scaled particular cubic fails80/168 three-W targets with a fresh exact dual; solve the coupled system rather than repeat isolated repairs. The broader family remains open. Use exact metric-odds certification only with justified joint calibration bounds and the matched original consumer. The zero-visibility two-law all-CPTP recovery optimum is settled; positive-visibility recovery needs a new complete instrument norm/certificate. Retain common-bar/mobile, thermal163/164, native2+1/chirality, physical quotient and native matter/light alternatives under their source/domain ceilings.
+
+
+> **Historical predecessor, no longer the live next condition: 2026-10-31 COUPLED CALIBRATION, VARIABLE LOSS AND POLAR KERNELS.**
 > Use the full A/B/C triangular filtration, preserving all freedoms and original curved J and algebraic receivers on the SAME cubic. The ambient-0 family remains excluded; the broader family is unresolved. The 284 constant,102 linear and11 quadratic polar-symbol generators now span all homogeneous quartic sectors through degree4, so a solver must not omit the11 new freedoms or mistake kernel generation for affine image feasibility. Any positive cubic still needs complete earlier-sector replay and one shared quartic. Calibration requires supplied/justified joint drift and matching; adding old stationary data cannot yield honest shrinking intervals over the rough class. Recovery must price the full variable-loss instrument and compare with the all-CPTP joint optimum; the good-Y-rotation class is now solved but general good channels remain open; good identity is no longer generally optimal. Retain common-bar/mobile, thermal163/164, native2+1/chirality and native matter/light alternatives under their exact source and domain ceilings.
 
 

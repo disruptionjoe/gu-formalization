@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2412-exact-metric-pool-odds](conditional-build/k2412-exact-metric-pool-odds-2026-10-31.md).
+- [k2413-joint-recovery-optimum](conditional-build/k2413-joint-recovery-optimum-2026-10-31.md).
+- [k2414-inherited-polar-fiber](conditional-build/k2414-inherited-polar-fiber-2026-10-31.md).
+
 - [k2409-coupled-drift-calibration](conditional-build/k2409-coupled-drift-calibration-2026-10-31.md).
 - [k2410-variable-loss-recovery](conditional-build/k2410-variable-loss-recovery-2026-10-31.md).
 - [k2411-broader-polar-compatibility](conditional-build/k2411-broader-polar-compatibility-2026-10-31.md).

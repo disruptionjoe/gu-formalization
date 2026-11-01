@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2412-exact-metric-pool-odds](k2412-exact-metric-pool-odds.json).
+- [k2413-joint-recovery-optimum](k2413-joint-recovery-optimum.json).
+- [k2414-inherited-polar-fiber](k2414-inherited-polar-fiber.json).
+
 - [k2409-coupled-drift-calibration](k2409-coupled-drift-calibration.json).
 - [k2410-variable-loss-recovery](k2410-variable-loss-recovery.json).
 - [k2411-broader-polar-compatibility](k2411-broader-polar-compatibility.json).

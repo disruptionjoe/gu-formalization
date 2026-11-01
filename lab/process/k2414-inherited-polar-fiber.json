@@ -1,0 +1,972 @@
+{
+  "A_projected_cubic_sha256": "785561b25e56e257d68924ba6d3f9c708035e028069e942c642073b9fc351603",
+  "A_projection_sha256": "d53b56d9aad86ad9741f0e44d3484f117d6bd5821ccc9c100cb1fbfac6855926",
+  "A_pullback_nonzero": [
+    [
+      1,
+      0,
+      167,
+      "993/4282691"
+    ],
+    [
+      1,
+      1,
+      184,
+      "-540523/39195744"
+    ]
+  ],
+  "B_EW_J_kernel_discriminator": {
+    "EE_Euler_nonzero_entries": 10,
+    "W_slot": 0,
+    "coefficients": [
+      [
+        [
+          0,
+          0
+        ],
+        167,
+        "-1"
+      ],
+      [
+        [
+          0,
+          0
+        ],
+        171,
+        "-1"
+      ],
+      [
+        [
+          0,
+          4
+        ],
+        197,
+        "-1"
+      ],
+      [
+        [
+          0,
+          4
+        ],
+        199,
+        "1"
+      ]
+    ],
+    "dual_change": "10929/12236260",
+    "field_part": 1,
+    "prefix_columns": 1336,
+    "prefix_rank": 335,
+    "remaining_ambient_J": [],
+    "status": "explicit_EW_Euler_and_J_kernel_escape"
+  },
+  "B_EW_kernel_discriminator": {
+    "status": "explicit_EW_Euler_kernel_escape",
+    "witness": {
+      "EE_Euler_nonzero_entries": 6,
+      "W_slot": 0,
+      "adapted_J_nonzero_receivers": {
+        "EE": 0,
+        "EW": 1,
+        "WW": 0
+      },
+      "ambient_J_residual": [
+        [
+          [
+            1,
+            7
+          ],
+          [
+            "0",
+            "-1/4"
+          ]
+        ]
+      ],
+      "coefficients": [
+        [
+          [
+            0,
+            0
+          ],
+          167,
+          "1"
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          171,
+          "1"
+        ],
+        [
+          [
+            0,
+            4
+          ],
+          197,
+          "1"
+        ]
+      ],
+      "dual_change": "-10929/12236260",
+      "field_part": 1,
+      "nonzero_ambient_J_receivers": 1,
+      "prefix_columns": 1334,
+      "prefix_rank": 326
+    }
+  },
+  "B_pullback_nonzero": [
+    [
+      1,
+      0,
+      167,
+      "-10929/12236260"
+    ],
+    [
+      1,
+      1,
+      184,
+      "5949019/55993920"
+    ]
+  ],
+  "C_completion": {
+    "BC_sha256": "1a70e7d31f2aee20a9f5e69a87aef775cfa0c9325d536dd406a46c6f9f885e7d",
+    "C_coefficients": [
+      [
+        [
+          0,
+          0,
+          0
+        ],
+        137,
+        "-2"
+      ],
+      [
+        [
+          0,
+          0,
+          4
+        ],
+        176,
+        "1"
+      ],
+      [
+        [
+          0,
+          0,
+          4
+        ],
+        178,
+        "-1"
+      ]
+    ],
+    "dual_change": "10929/12236260",
+    "field_part": 1,
+    "repaired_cubic_sha256": "53a0953a63310bc8e5878360290b39372a2281e17cf4d2a7e31bb1fe205d277a",
+    "scaled_repair_factor": "19813878626523774879631700783228831062975679889525084064049346728521368389114634080736278360674370090617418121619691796828583252037/80086159243819216543668001051096225341539172433767936619342515337547722090648286699371952962254989613612652631000345770721280000",
+    "scope": "Explicit full homogeneous Euler/J correction; scaled repair of one short three-W dual preserves W3/fourW. Scaled cubic fails complete three-W replay; full correction-family feasibility remains open."
+  },
+  "adapted_A_nonzero_hook_entries": 132,
+  "checks": {
+    "BC_all105_original_curved_J_receivers": true,
+    "BC_all22050_original_ambient_Euler_entries": true,
+    "BC_original_threeW_change": true,
+    "B_escape_direct_ambient_EW_Euler": true,
+    "B_escape_direct_threeW_delta": true,
+    "B_escape_original_EW_Euler": true,
+    "B_escape_short_dual_nonzero": true,
+    "adapted_dual_coframe": true,
+    "all28_actual_curved_WW_receivers": true,
+    "all392_A_values_roundtrip": true,
+    "all420_original_fourW_quotients": true,
+    "all5880_WW_Euler_entries": true,
+    "all924_original_allW_targets": true,
+    "all_off_A_adapted_values_zero": true,
+    "complete_B_pullback_evaluated": true,
+    "inherited_original_tensor_digest": true,
+    "joint_B_direct_EW_Euler_and_curved_J": true,
+    "joint_B_original_short_dual_escape": true,
+    "new_dual_all6272_original_quartic_columns": true,
+    "new_dual_repaired_target_nonzero": true,
+    "original_curved_J_pullback_agrees": true,
+    "same_W_annihilates_K": true,
+    "scaled_cubic_W3_unchanged": true,
+    "scaled_cubic_all105_original_curved_J": true,
+    "scaled_cubic_all168_threeW_tested": true,
+    "scaled_cubic_all420_fourW": true,
+    "scaled_short_dual_target_zero": true,
+    "short_dual_all6272_original_columns": true,
+    "short_dual_original_target_reproduced": true,
+    "threeW_complete_map_rank4182": true
+  },
+  "controls": {
+    "omitted_C_fails_EE_Euler": true,
+    "projection_does_not_solve_every_curved_receiver": true,
+    "zero_correction_fails_curved_WW": true
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2393-coupled-polar-dual-2026-10-31.md": "260cec53dd5709278a5095823ecaa3d4ddf449b1997059287a81fadca7269303",
+    "explorations/conditional-build/k2411-broader-polar-compatibility-2026-10-31.md": "d152122bcec12b1010aa321c5e97e70f692c17040fd7b95ce754b808960da45d",
+    "lab/process/k2381-rotated-null-hook-prolongation.json": "208328f1fdd7661d6fd264c9ca79a26a4cc12b18f035685f62484ad9b7fa9559",
+    "lab/process/k2390-full-hook-jet.json": "c42b5d0cefb5308ba3c7c48433fdbbd81b97e88e4fd80d6ce420e1c652766123",
+    "lab/process/k2396-full-polar-coupled-repair.json": "72d17be4c9b1fe7b72e5fc462d49c03445b17462ee7e5a78c64777abfd0c55ea",
+    "lab/process/k2399-complete-polar-joint-lift.json": "761aaf54cbd9e46ee126e071f6d16f91ea5473ea7eb2a36ac5df1efba17762cb",
+    "lab/process/k2402-coupled-polar-compatibility.json": "d455772e6a36c81eff97e4c73b60b57477fb47ce14615c7f4c3cba1c9b859da3",
+    "lab/process/k2408-joint-cubic-compatibility.json": "1a87048f1fb3020da67dba9aff250d30d310a3be478ca26a9724fc50ec871b37",
+    "tests/channel-swings/k2345_curved_bundle_ricci_obstruction_probe.py": "259a8d35a8fb07b71bbd8771f0cefbd51775f2e008b8583c0a28bfce78552027",
+    "tests/channel-swings/k2381_rotated_null_hook_prolongation_probe.py": "493a679da7b26c619b306d9565a3ee2cb882f94dfd1f2fa8dd0a21ea62708a17",
+    "tests/channel-swings/k2387_coupled_hook_jet_blocks_probe.py": "f482f8f5cf54f75d471c765f46e3fcdb6f5d49e8674bb9057efb5b5be807416b",
+    "tests/channel-swings/k2390_full_hook_jet_probe.py": "68eac16a8b282fe05a7d45ee76ca13028a923104628c819704303ff4746a2260",
+    "tests/channel-swings/k2405_fifth_euler_compatibility_probe.py": "71e3645dc813f482d1b5d9201c0bfe2aaeae7e9cd43b6a5e0dc8bdc951382558",
+    "tests/channel-swings/k2408_joint_cubic_compatibility_probe.py": "cc59d069d4ce4bed0104b22a58706027a2a080ae87132cd0f881adba3505dec1"
+  },
+  "inherited_geometry_checks": 9,
+  "repaired_threeW": {
+    "failed_targets": [
+      [
+        [
+          0,
+          0,
+          0
+        ],
+        0
+      ],
+      [
+        [
+          0,
+          0,
+          0
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          0,
+          1
+        ],
+        0
+      ],
+      [
+        [
+          0,
+          0,
+          1
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          0,
+          2
+        ],
+        0
+      ],
+      [
+        [
+          0,
+          0,
+          2
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          0,
+          3
+        ],
+        0
+      ],
+      [
+        [
+          0,
+          0,
+          3
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          0,
+          4
+        ],
+        0
+      ],
+      [
+        [
+          0,
+          0,
+          4
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          0,
+          5
+        ],
+        0
+      ],
+      [
+        [
+          0,
+          0,
+          5
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          0,
+          6
+        ],
+        0
+      ],
+      [
+        [
+          0,
+          0,
+          6
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          1,
+          1
+        ],
+        0
+      ],
+      [
+        [
+          0,
+          1,
+          1
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          1,
+          2
+        ],
+        0
+      ],
+      [
+        [
+          0,
+          1,
+          2
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          1,
+          3
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          1,
+          4
+        ],
+        0
+      ],
+      [
+        [
+          0,
+          1,
+          4
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          1,
+          5
+        ],
+        0
+      ],
+      [
+        [
+          0,
+          1,
+          6
+        ],
+        0
+      ],
+      [
+        [
+          0,
+          2,
+          2
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          2,
+          3
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          2,
+          4
+        ],
+        0
+      ],
+      [
+        [
+          0,
+          2,
+          4
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          2,
+          5
+        ],
+        0
+      ],
+      [
+        [
+          0,
+          2,
+          6
+        ],
+        0
+      ],
+      [
+        [
+          0,
+          3,
+          3
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          3,
+          4
+        ],
+        0
+      ],
+      [
+        [
+          0,
+          3,
+          5
+        ],
+        0
+      ],
+      [
+        [
+          0,
+          4,
+          4
+        ],
+        0
+      ],
+      [
+        [
+          0,
+          4,
+          4
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          4,
+          5
+        ],
+        0
+      ],
+      [
+        [
+          0,
+          4,
+          6
+        ],
+        0
+      ],
+      [
+        [
+          0,
+          4,
+          6
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          5,
+          5
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          6,
+          6
+        ],
+        1
+      ],
+      [
+        [
+          1,
+          1,
+          1
+        ],
+        1
+      ],
+      [
+        [
+          1,
+          1,
+          2
+        ],
+        0
+      ],
+      [
+        [
+          1,
+          1,
+          2
+        ],
+        1
+      ],
+      [
+        [
+          1,
+          1,
+          3
+        ],
+        1
+      ],
+      [
+        [
+          1,
+          1,
+          4
+        ],
+        0
+      ],
+      [
+        [
+          1,
+          1,
+          4
+        ],
+        1
+      ],
+      [
+        [
+          1,
+          1,
+          5
+        ],
+        0
+      ],
+      [
+        [
+          1,
+          1,
+          6
+        ],
+        0
+      ],
+      [
+        [
+          1,
+          2,
+          2
+        ],
+        0
+      ],
+      [
+        [
+          1,
+          2,
+          2
+        ],
+        1
+      ],
+      [
+        [
+          1,
+          2,
+          3
+        ],
+        0
+      ],
+      [
+        [
+          1,
+          2,
+          3
+        ],
+        1
+      ],
+      [
+        [
+          1,
+          2,
+          4
+        ],
+        0
+      ],
+      [
+        [
+          1,
+          2,
+          4
+        ],
+        1
+      ],
+      [
+        [
+          1,
+          2,
+          5
+        ],
+        0
+      ],
+      [
+        [
+          1,
+          2,
+          5
+        ],
+        1
+      ],
+      [
+        [
+          1,
+          2,
+          6
+        ],
+        0
+      ],
+      [
+        [
+          1,
+          2,
+          6
+        ],
+        1
+      ],
+      [
+        [
+          1,
+          3,
+          3
+        ],
+        1
+      ],
+      [
+        [
+          1,
+          3,
+          4
+        ],
+        0
+      ],
+      [
+        [
+          1,
+          3,
+          4
+        ],
+        1
+      ],
+      [
+        [
+          1,
+          3,
+          5
+        ],
+        0
+      ],
+      [
+        [
+          1,
+          4,
+          4
+        ],
+        0
+      ],
+      [
+        [
+          1,
+          4,
+          4
+        ],
+        1
+      ],
+      [
+        [
+          1,
+          4,
+          5
+        ],
+        0
+      ],
+      [
+        [
+          1,
+          4,
+          6
+        ],
+        0
+      ],
+      [
+        [
+          1,
+          4,
+          6
+        ],
+        1
+      ],
+      [
+        [
+          1,
+          5,
+          5
+        ],
+        1
+      ],
+      [
+        [
+          1,
+          6,
+          6
+        ],
+        1
+      ],
+      [
+        [
+          2,
+          2,
+          4
+        ],
+        1
+      ],
+      [
+        [
+          2,
+          3,
+          4
+        ],
+        1
+      ],
+      [
+        [
+          2,
+          4,
+          4
+        ],
+        0
+      ],
+      [
+        [
+          2,
+          4,
+          5
+        ],
+        0
+      ],
+      [
+        [
+          2,
+          4,
+          6
+        ],
+        0
+      ],
+      [
+        [
+          3,
+          3,
+          4
+        ],
+        1
+      ],
+      [
+        [
+          3,
+          4,
+          4
+        ],
+        0
+      ],
+      [
+        [
+          3,
+          4,
+          5
+        ],
+        0
+      ],
+      [
+        [
+          4,
+          4,
+          4
+        ],
+        1
+      ],
+      [
+        [
+          4,
+          4,
+          6
+        ],
+        1
+      ],
+      [
+        [
+          4,
+          5,
+          5
+        ],
+        1
+      ],
+      [
+        [
+          4,
+          6,
+          6
+        ],
+        1
+      ]
+    ],
+    "residual_entries": 1350
+  },
+  "repaired_threeW_first_obstruction": {
+    "W_indices": [
+      0,
+      0,
+      0
+    ],
+    "field_part": 0,
+    "raw_dual": [
+      [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          8,
+          13
+        ],
+        "2"
+      ],
+      [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          7,
+          8,
+          13
+        ],
+        "-1"
+      ],
+      [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          7,
+          8,
+          13
+        ],
+        "1"
+      ]
+    ],
+    "scope": "Obstructs only this particular scaled cubic, not its full homogeneous correction fiber.",
+    "target_value": "-72181959836426111886498285953302631562420401837539881245331770132003345041544611956122262067936730240119254217060537215846528787170791/1325158981621061969742559857392138875318001506537413457928054153785289641526593650585607915015445894806577358867619054686201446400000"
+  },
+  "result_id": "K2414",
+  "scope": "Inherited A feasibility and seven-term full Euler/J correction repairing one short three-W dual; no complete three-W or full-family feasibility/exclusion.",
+  "short_dual": {
+    "W_indices": [
+      0,
+      0,
+      0
+    ],
+    "field_part": 0,
+    "raw_dual": [
+      [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          7,
+          8
+        ],
+        "-2/493"
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          7,
+          8
+        ],
+        "-1"
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2,
+          7,
+          8
+        ],
+        "1"
+      ]
+    ],
+    "target_value": "-72181959836426111886498285953302631562420401837539881245331770132003345041544611956122262067936730240119254217060537215846528787170791/326651688969591775541541004847162232765887371361472417379265348908073896636305334869352351051307413069821318960868096980148656537600000"
+  },
+  "short_dual_projected_target": "0"
+}

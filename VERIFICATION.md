@@ -5,6 +5,19 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2412--K2414: Exact odds, full joint recovery and inherited polar fiber (2026-10-31)
+
+K2412 implements complete exact stationary-root certification for rational metric-constrained pool odds, with sharp five-member endpoints and a direct hidden-role consumer improvement. K2413 proves the algebraic variable-loss recovery candidate globally optimal over all good/bad CPTP channels, with a general sufficient certificate and quantitative contraction penalty. K2414 replays the inherited feasible A projection, then constructs a seven-term B/C correction preserving full lower Euler and all curved J equations; scaling repairs the old short three-W obstruction while retaining all-W/four-W acceptance. Complete three-W replay finds80/168 failed targets and a fresh original-column dual, versus79 before repair; no net sector compatibility improvement is claimed. The broader coupled family remains open. All are conditional mathematical results; source polarities and ledger0.263 remain unchanged.
+
+- [K2412](explorations/conditional-build/k2412-exact-metric-pool-odds-2026-10-31.md).
+- [K2413](explorations/conditional-build/k2413-joint-recovery-optimum-2026-10-31.md).
+- [K2414](explorations/conditional-build/k2414-inherited-polar-fiber-2026-10-31.md).
+
+Independent statistical, quantum-channel and geometry reviews tested the universal arguments, multiplicities and original-operator seams. Review corrected touching-root sign sampling and required a direct ambient mixed-Euler replay plus adapted J classification. Finite fixtures, inherited theorems and unresolved full-family feasibility remain distinct.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2409--K2411: Coupled calibration, variable loss and complete finite-degree polar kernels (2026-10-31)
 
 K2409 derives sharp joint drift-constrained pool odds, an exact hidden-role evidence improvement, and an honest-confidence lower bound that remains nonvanishing at a stationary truth. K2410 proves a complete variable-loss recovery norm and finite certificate bound, then exhibits physical laws where correcting the good flag strictly improves every good-identity strategy, certifies a complete implementation allowance below 1/100000, and solves the restricted good-Y-rotation class exactly. K2411 finds eleven missing quadratic polar-symbol generators and certifies that the full constant/linear/quadratic family generates every kernel through degree four; its complete A/B/C filtration preserves the broader cubic problem without claiming a solution. These are conditional mathematical results; source polarities and ledger0.263 remain unchanged.

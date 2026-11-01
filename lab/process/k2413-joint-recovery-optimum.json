@@ -1,0 +1,37 @@
+{
+  "checks": {
+    "anisotropy_singular_value_polynomial": true,
+    "conformal_norm_identity": true,
+    "conformal_projection": true,
+    "exact_fixture_alphas": true,
+    "global_value_interval": true,
+    "original_norm_squares": true,
+    "positive_balancing_weights": true,
+    "positive_norm_gap": true,
+    "rounded_controller_upper_0": true,
+    "rounded_controller_upper_1": true,
+    "rounded_controller_within_two_billionths": true,
+    "same_attaining_value": true,
+    "strict_attenuation_penalty": true,
+    "unrestricted_center_polynomial_identity": true
+  },
+  "controls": {
+    "omit_conformal_skew_breaks_identity": true,
+    "transpose_rotation_breaks_identity": true,
+    "unphysical_expansion_breaks_distance_bound": true
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2410-variable-loss-recovery-2026-10-31.md": "62ce4adc7fba81cbf6b81b3e22a4f213d282222301a95fa6de13154eba149d11",
+    "lab/process/k2410-variable-loss-recovery.json": "392fa6ce74989737b27a29f3d322ca419e4b4f898b0f8a7165d778371f945f93",
+    "tests/channel-swings/k2410_variable_loss_recovery_probe.py": "433b53fdc3cdfe32fdf6d57104920fb4032c86dc8dd0212bcc38c9826f3e3ced"
+  },
+  "inherited_checks": 70,
+  "inherited_controls": 8,
+  "optimum_interval": [
+    "5194114591/10000000000",
+    "5194114592/10000000000"
+  ],
+  "result_id": "K2413",
+  "rounded_optimality_gap_upper": "1/500000000",
+  "scope": "Universal analytic contraction lower bound plus exact original-channel attainment. No empirical or GU credit."
+}

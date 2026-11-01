@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: e4300daf7ce76d5828c2f06a4145c13179e7c14b
+revision_basis: a7fc16b1a94e286b91a36b9f596d97cbceeb5d85
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,18 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2412 implements complete exact stationary-root certification for rational
+    metric-constrained pool odds, with sharp five-member endpoints and a direct hidden-role
+    consumer improvement. K2413 proves the algebraic variable-loss recovery candidate
+    globally optimal over all good/bad CPTP channels, with a general sufficient certificate
+    and quantitative contraction penalty. K2414 replays the inherited feasible A projection,
+    then constructs a seven-term B/C correction preserving full lower Euler and all curved J
+    equations; scaling repairs the old short three-W obstruction while retaining
+    all-W/four-W acceptance. Complete three-W replay finds80/168 failed targets and a fresh
+    original-column dual, versus79 before repair; no net sector compatibility improvement is
+    claimed. The broader coupled family remains open. All are conditional mathematical
+    results; source polarities and ledger0.263 remain unchanged. Historical predecessor (not
+    live):
     K2409 derives sharp joint drift-constrained pool odds, an exact hidden-role evidence
     improvement, and an honest-confidence lower bound that remains nonvanishing at a
     stationary truth. K2410 proves a complete variable-loss recovery norm and finite
@@ -17916,6 +17928,15 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2412-exact-metric-pool-odds-2026-10-31.md
+  - lab/process/k2412-exact-metric-pool-odds.json
+  - tests/channel-swings/k2412_exact_metric_pool_odds_probe.py
+  - explorations/conditional-build/k2413-joint-recovery-optimum-2026-10-31.md
+  - lab/process/k2413-joint-recovery-optimum.json
+  - tests/channel-swings/k2413_joint_recovery_optimum_probe.py
+  - explorations/conditional-build/k2414-inherited-polar-fiber-2026-10-31.md
+  - lab/process/k2414-inherited-polar-fiber.json
+  - tests/channel-swings/k2414_inherited_polar_fiber_probe.py
   - explorations/conditional-build/k2409-coupled-drift-calibration-2026-10-31.md
   - lab/process/k2409-coupled-drift-calibration.json
   - tests/channel-swings/k2409_coupled_drift_calibration_probe.py
@@ -20053,6 +20074,9 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can the full inherited A affine fiber and B mixed-Euler/curved-J equations satisfy every
+  original three-W quartic annihilator on one cubic, retaining all homogeneous freedoms?
+  Historical predecessor (not live):
   Can the complete A block of the broader W3-fixed polar cubic family satisfy WW Euler/J
   and four-W algebraic constraints, retaining its entire solution fiber for the B and C
   stages? Historical predecessor (not live):
@@ -24248,6 +24272,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Preserve the full A/B/C affine fiber and impose every original three-W quartic
+  annihilator on one cubic, then all remaining sectors with one shared quartic and all11
+  quadratic generators. A feasibility is inherited; the old short dual now has an explicit
+  seven-term full Euler/J repair, so neither can serve as a remaining obstruction. The
+  scaled particular cubic fails80/168 three-W targets with a fresh exact dual; solve the
+  coupled system rather than repeat isolated repairs. The broader family remains open. Use
+  exact metric-odds certification only with justified joint calibration bounds and the
+  matched original consumer. The zero-visibility two-law all-CPTP recovery optimum is
+  settled; positive-visibility recovery needs a new complete instrument norm/certificate.
+  Retain common-bar/mobile, thermal163/164, native2+1/chirality, physical quotient and
+  native matter/light alternatives under their source/domain ceilings. Historical
+  predecessor (not live):
   Use the full A/B/C triangular filtration, preserving all freedoms and original curved J
   and algebraic receivers on the SAME cubic. The ambient-0 family remains excluded; the
   broader family is unresolved. The 284 constant,102 linear and11 quadratic polar-symbol
