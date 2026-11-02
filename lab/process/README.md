@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2514-structured-spectator-calibration](k2514-structured-spectator-calibration.json).
+- [k2515-stopping-transition-certificate](k2515-stopping-transition-certificate.json).
+
 - [k2512-finite-memory-implementation](k2512-finite-memory-implementation.json).
 - [k2513-exact-schur-stopping](k2513-exact-schur-stopping.json).
 

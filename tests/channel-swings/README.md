@@ -1,4 +1,7 @@
 
+- [k2514-structured-spectator-calibration](k2514_structured_spectator_calibration_probe.py).
+- [k2515-stopping-transition-certificate](k2515_stopping_transition_certificate_probe.py).
+
 - [k2512-finite-memory-implementation](k2512_finite_memory_implementation_probe.py).
 - [k2513-exact-schur-stopping](k2513_exact_schur_stopping_probe.py).
 

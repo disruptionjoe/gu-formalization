@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-02: FINITE MEMORY AND EXACT SCHUR STOPPING.**
+> **2026-11-02: STRUCTURED CALIBRATION AND CURVED STOPPING.**
+> K2515 extends the original-law all-policy frontier through budget 1/90 using a second curved ratio domain and uniform residual gap 1/40. Curves retaining intercept 1/2 cannot admit the true small-score optimizer below multiplier 18/7; further substantive progress needs a different domain/value estimate or an exact competing policy, not solved-budget inverses. K2514 removes a norm-closeness premise only within a specified full-memory layered unitary class; its minimax result concerns the summed-angle envelope and trusted label tests, not arbitrary devices or final-channel minimax. Class membership, isolated primitive access, preparation/readout, stationarity and full history coverage remain independent inputs. Cross-plane/nonunitary controls or independent implementation evidence are the next calibration construction. Native matter/light, full multivariable hook inverse, common-bar/mobile, thermal163/164 and native2+1/chirality retain their ceilings.
+
+
+> **Historical predecessor: 2026-11-02 FINITE MEMORY AND EXACT SCHUR STOPPING.**
 > K2513 closes the all-policy one-stage regime for lambda>=4 and S=1/2,K<=1/200. The exact Schur correction bypasses the old scalar-template barrier, but its extension to the lambda3 ratio rectangle fails at r5/9,b0; this is not a true policy transition. Compare an actual-U residual with exact multiple-atom/optimized-tail competitors; do not polish solved-budget inverses. K2512 supplies a finite retained-memory circuit and robust two-setting consumer with nonzero trusted full-carrier error margins. One-gap invisible memory rotation can change later records; leakage cannot be discarded. The structural tests cannot detect arbitrary spectator dynamics or establish model/norm promises. Next needs independent implementation evidence or a test for a specified perturbation class. Native matter/light, full multivariable hook inverse, common-bar/mobile, thermal163/164 and native2+1/chirality remain open.
 
 

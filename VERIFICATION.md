@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2514--K2515: Structured spectator calibration and curved stopping domain (2026-11-02)
+
+K2514 certifies a declared layered spectator-error class using effect tests, with optimal pooled angular-envelope detection and no assumed full-carrier norm closeness. K2515 proves global one-stage stopping optimality for multipliers at least 8/3 and the exact score-1/2 frontier through budget 1/90. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.
+
+- [K2514](explorations/conditional-build/k2514-structured-spectator-calibration-2026-11-02.md).
+- [K2515](explorations/conditional-build/k2515-stopping-transition-certificate-2026-11-02.md).
+
+Two read-only mathematical specialists constructed and challenged the candidates; a distinct independent reviewer checked the proofs, probe code and evidence pins. Review preserved the globally noncommuting Q/T carrier, clarified the structurally faithful finite fixture and explicit nonoptimal label distribution, and checked the noncircular two-optimizer domain admission. Released follow-through replaces per-layer rectangular pooling with exact angular-envelope minimax and improves the initial stopping threshold 8001/2816 to 8/3. Exact polynomial certificates, finite matrix controls, universal proofs and report consistency remain distinct evidence kinds. Internal review is not experimental, external-expert or proof-assistant certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2512--K2513: Finite-memory calibration and exact Schur stopping frontier (2026-11-02)
 
 K2512 constructs an explicit retained-qutrit verifier circuit with joint preparation/readout, exact support and effect operators, two-setting calibration and robustness to trusted full-carrier implementation errors. K2513 proves global one-stage stopping optimality for multipliers at least 4 and the exact score-1/2 frontier through budget 1/200 using an exact Schur defect. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.

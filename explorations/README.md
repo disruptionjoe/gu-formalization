@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2514-structured-spectator-calibration](conditional-build/k2514-structured-spectator-calibration-2026-11-02.md).
+- [k2515-stopping-transition-certificate](conditional-build/k2515-stopping-transition-certificate-2026-11-02.md).
+
 - [k2512-finite-memory-implementation](conditional-build/k2512-finite-memory-implementation-2026-11-02.md).
 - [k2513-exact-schur-stopping](conditional-build/k2513-exact-schur-stopping-2026-11-02.md).
 
