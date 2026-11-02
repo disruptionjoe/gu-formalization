@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2486-noisy-flag-alternating-verifier](k2486-noisy-flag-alternating-verifier.json).
+- [k2487-controlled-stopping-approximation](k2487-controlled-stopping-approximation.json).
+
 - [k2484-coherent-verifier-instruments](k2484-coherent-verifier-instruments.json).
 - [k2485-constrained-stopping-frontier](k2485-constrained-stopping-frontier.json).
 

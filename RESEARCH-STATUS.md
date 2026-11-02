@@ -6,6 +6,18 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2486--K2487: Robust noisy filtering and controlled finite stopping (2026-11-01)
+
+K2486 derives exact noisy-flag filtering on the original coherent verifier, sharp full-carrier error and renewal costs, and a robust bounded-drift guarantee; correlated flags with identical marginals retain an error floor. K2487 proves uniform schedule compression and finite action-grid approximation of the unrestricted original stopping frontier, with explicit same-budget error and a certified Bellman interface. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.
+
+- [K2486](explorations/conditional-build/k2486-noisy-flag-alternating-verifier-2026-11-01.md).
+- [K2487](explorations/conditional-build/k2487-controlled-stopping-approximation-2026-11-01.md).
+
+Independent quantum and probability specialists derived candidates; a separate adversarial reviewer checked universal arguments and probe logic. Lead independently derived CP products, costs and compression inequalities, then added bounded nonidentical flag drift through completely-positive order. Review corrected effective real-threshold access, strictly positive tolerance and strengthened cost checks. Finite fixtures, universal proofs and inherited original evidence remain distinct; no external-expert, proof-assistant, novelty or hardware certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2484--K2485: Coherent instruments and constrained stopping frontier (2026-11-01)
 
 K2484 constructs coherent binary instruments for the original verifier, proves exact alternating filtering and its unassisted-LOCC resource obstruction, and prices complete-instrument errors. K2485 proves a global stopping certificate, exact expected-budget duality and two-schedule approximation; identifies the sharp sure-success saturation budget with nonattainment at equality; and closes the two-stage tangent-family optimum with a finite witness above2.15232. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.

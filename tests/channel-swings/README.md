@@ -1,4 +1,7 @@
 
+- [k2486-noisy-flag-alternating-verifier](k2486_noisy_flag_alternating_verifier_probe.py).
+- [k2487-controlled-stopping-approximation](k2487_controlled_stopping_approximation_probe.py).
+
 - [k2484-coherent-verifier-instruments](k2484_coherent_verifier_instruments_probe.py).
 - [k2485-constrained-stopping-frontier](k2485_constrained_stopping_frontier_probe.py).
 

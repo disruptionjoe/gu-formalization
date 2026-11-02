@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 852fcc57b39447e79b665919ae00833928649396
+revision_basis: 46f3a8ce8e806ef4f54e880521dc986b28ca5a6e
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,13 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2486 derives exact noisy-flag filtering on the original coherent verifier, sharp
+    full-carrier error and renewal costs, and a robust bounded-drift guarantee; correlated
+    flags with identical marginals retain an error floor. K2487 proves uniform schedule
+    compression and finite action-grid approximation of the unrestricted original stopping
+    frontier, with explicit same-budget error and a certified Bellman interface. These are
+    conditional mathematical results; source polarities, ledger0.263 and physical credit
+    remain unchanged. Historical predecessor (not live):
     K2484 constructs coherent binary instruments for the original verifier, proves exact
     alternating filtering and its unassisted-LOCC resource obstruction, and prices
     complete-instrument errors. K2485 proves a global stopping certificate, exact
@@ -18181,6 +18188,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2486-noisy-flag-alternating-verifier-2026-11-01.md
+  - lab/process/k2486-noisy-flag-alternating-verifier.json
+  - tests/channel-swings/k2486_noisy_flag_alternating_verifier_probe.py
+  - explorations/conditional-build/k2487-controlled-stopping-approximation-2026-11-01.md
+  - lab/process/k2487-controlled-stopping-approximation.json
+  - tests/channel-swings/k2487_controlled_stopping_approximation_probe.py
   - explorations/conditional-build/k2484-coherent-verifier-instruments-2026-11-01.md
   - lab/process/k2484-coherent-verifier-instruments.json
   - tests/channel-swings/k2484_coherent_verifier_instruments_probe.py
@@ -20540,6 +20553,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can sharper compression or a global analytic Bellman certificate make the
+  fixed-confidence frontier practical, and which full-memory calibrated gate/reset model
+  realizes the exact robust noisy verifier? Full ordinary boundary analytic inversion and
+  native shared-domain matter/light constructions remain open. Historical predecessor (not
+  live):
   Can the constrained two-schedule frontier yield a sharp continuum fixed-confidence
   certificate, and which elementary coherent gate, memory/reset and calibration model
   realizes the now explicit original verifier? Full ordinary boundary analytic inversion
@@ -24853,6 +24871,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K2487 bounds each fixed-target positive-budget frontier by a finite schedule library:
+  E=delta*s*(6+s)+N*(9+s)/M, N=ceil(2s/delta)+1, and same-budget error at most E/(K+E).
+  Effective numerical use requires rational s or a certified ceil(Ms), plus specified
+  computable multiplier. The example s=1,K=1/10,error1/100 needs N27721,M548875800; its
+  library was not evaluated. Seek sharper structural bounds or adaptive certified
+  partitioning rather than claim a sharp global constant. K2486 homogeneous full-sector
+  envelope is sharp for any supplied independent fresh flag sequence eta_j<=eta_star<1/2;
+  target throughput decays and generic correlated/coherent errors are not covered.
+  Hypothetical eta_star=.01,F>=.9 still needs five tests for infidelity<=7/10000. Complete
+  gate/storage/reset calibration, physical source/readout/domain and ordinary
+  multivariable inverse remain independent inputs. Native matter/light, physical positive
+  quotient, common-bar/mobile, thermal163/164 and native2+1/chirality retain their
+  ceilings. Historical predecessor (not live):
   Use K2485 exact constrained reduction and overshoot clipping to seek a continuum Bellman
   certificate or controlled finite approximation; finite-grid values are not global upper
   bounds. At remaining normalized score s, the success frontier reaches1 exactly at

@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2486-noisy-flag-alternating-verifier](conditional-build/k2486-noisy-flag-alternating-verifier-2026-11-01.md).
+- [k2487-controlled-stopping-approximation](conditional-build/k2487-controlled-stopping-approximation-2026-11-01.md).
+
 - [k2484-coherent-verifier-instruments](conditional-build/k2484-coherent-verifier-instruments-2026-11-01.md).
 - [k2485-constrained-stopping-frontier](conditional-build/k2485-constrained-stopping-frontier-2026-11-01.md).
 

@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-01: COHERENT INSTRUMENTS AND CONSTRAINED STOPPING FRONTIER.**
+> **2026-11-01: ROBUST NOISY FILTERING AND CONTROLLED FINITE STOPPING.**
+> K2487 bounds each fixed-target positive-budget frontier by a finite schedule library: E=delta*s*(6+s)+N*(9+s)/M, N=ceil(2s/delta)+1, and same-budget error at most E/(K+E). Effective numerical use requires rational s or a certified ceil(Ms), plus specified computable multiplier. The example s=1,K=1/10,error1/100 needs N27721,M548875800; its library was not evaluated. Seek sharper structural bounds or adaptive certified partitioning rather than claim a sharp global constant. K2486 homogeneous full-sector envelope is sharp for any supplied independent fresh flag sequence eta_j<=eta_star<1/2; target throughput decays and generic correlated/coherent errors are not covered. Hypothetical eta_star=.01,F>=.9 still needs five tests for infidelity<=7/10000. Complete gate/storage/reset calibration, physical source/readout/domain and ordinary multivariable inverse remain independent inputs. Native matter/light, physical positive quotient, common-bar/mobile, thermal163/164 and native2+1/chirality retain their ceilings.
+
+
+> **Historical predecessor: 2026-11-01 COHERENT INSTRUMENTS AND CONSTRAINED STOPPING FRONTIER.**
 > Use K2485 exact constrained reduction and overshoot clipping to seek a continuum Bellman certificate or controlled finite approximation; finite-grid values are not global upper bounds. At remaining normalized score s, the success frontier reaches1 exactly at budgets K>=s/2, but no policy attains1 at equality. Two finite schedules approximate every constrained optimum without relaxing expected cost; lengths and primal attainment remain unproved below saturation. The two-stage tangent optimum2.152320551 is scoped to that family; a finite original witness exceeds2.15232. K2484 coherent Q/T alternation gives exact bad mass r^(n-1)zweight, r=27/127 or15/67, and five tests suffice for infidelity<7/10000 if initial fidelity>=.9. Binary instruments require joint coherent controls and pure/reset flags; locally measurable effects alone do not supply them. Elementary gate/spatial costs and full-memory calibration remain independent inputs. Native matter/light, physical positive quotient, common-bar/mobile, thermal163/164 and native2+1/chirality retain current ceilings.
 
 
