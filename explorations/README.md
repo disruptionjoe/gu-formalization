@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2482-same-copy-retry-boundary](conditional-build/k2482-same-copy-retry-boundary-2026-11-01.md).
+- [k2483-adaptive-stopping-bellman](conditional-build/k2483-adaptive-stopping-bellman-2026-11-01.md).
+
 - [k2479-ordinary-hook-quotient](conditional-build/k2479-ordinary-hook-quotient-2026-11-01.md).
 - [k2480-scheduled-stopping-preludes](conditional-build/k2480-scheduled-stopping-preludes-2026-11-01.md).
 - [k2481-complete-retry-instrument](conditional-build/k2481-complete-retry-instrument-2026-11-01.md).

@@ -5,6 +5,10 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-11-01: SAME-COPY INSTRUMENTS AND GLOBAL STOPPING REDUCTION.**
+> Use K2483 stage/trial supersolution equivalence to seek a global analytic upper certificate or a stronger explicit original schedule; the two-stage rational family gives C_epsilon>=1207200*log2/388781 at every dyadic confidence, not global optimality. Preserve the exact nondyadic zero-budget boundary. K2482 canonical square-root first-pass retries eventually accept all54 bright bad directions in each original108 carrier; requiring all passes repairs filtering only with target-preserving complete instruments. The original local tests disturb even perfect targets, so coherent realization, reference/memory calibration and complete costs must be supplied. Full multivariable ordinary hook inverse, characteristic boundary quotient, nonlinear convergence, native matter/light, physical positive quotient, common-bar/mobile, thermal163/164 and native2+1/chirality remain open.
+
+
 > **2026-11-01: ORDINARY SYMBOLS, SCHEDULED STOPPING AND COMPLETE RETRIES.**
 > The repeated-only constant-symbol shortcut is excluded by an original order12 compatibility equation and a full-bank rotation counterexample; generic rank restoration does not prove boundary analytic solvability. A four-rotation combination now lifts any analytic ridge defect g(sum x) with twelve scalar integrations. General multivariable defects, remaining repeated-compatible image and uniform boundary quotient estimates are still unproved; retain full scalar inverse and ordinary-first splitting. Scheduled continuum repair is sharp within its declared family and gives dyadic lower bound1.906452238; unrestricted adaptive and nondyadic optima remain open. Retry risk needs complete no-output state updates, not only first-attempt POVMs. Full-memory/reference calibration and same-count completion/reset/resource costs remain independent empirical inputs. Native matter/light, positive physical quotient, common-bar/mobile, thermal163/164 and native2+1/chirality retain their recorded ceilings.
 

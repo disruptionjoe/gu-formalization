@@ -1,4 +1,7 @@
 
+- [k2482-same-copy-retry-boundary](k2482_same_copy_retry_boundary_probe.py).
+- [k2483-adaptive-stopping-bellman](k2483_adaptive_stopping_bellman_probe.py).
+
 - [k2479-ordinary-hook-quotient](k2479_ordinary_hook_quotient_probe.py).
 - [k2480-scheduled-stopping-preludes](k2480_scheduled_stopping_preludes_probe.py).
 - [k2481-complete-retry-instrument](k2481_complete_retry_instrument_probe.py).

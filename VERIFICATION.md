@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2482--K2483: Same-copy instruments and global stopping reduction (2026-11-01)
+
+K2482 proves that canonical same-copy retries lose bright-state filtering, reconstructs the original 53-dimensional dark sectors, distinguishes local target disturbance, and gives an all-pass repair. K2483 reduces unrestricted original stopping control to a least Bellman supersolution, gives the exact zero-budget boundary, and constructs a two-stage dyadic lower bound 2.152284 with a finite certified witness above2.15223. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.
+
+- [K2482](explorations/conditional-build/k2482-same-copy-retry-boundary-2026-11-01.md).
+- [K2483](explorations/conditional-build/k2483-adaptive-stopping-bellman-2026-11-01.md).
+
+Independent read-only quantum and probability specialists plus a separate integration reviewer assessed the universal arguments and original reconstruction. Review corrected native one-sided cost, improper Bellman-selector claims, a tautological dark control and an unsupported control description; exact original z reconstruction and the stronger two-stage successor were then validated. Finite checks, inherited full-carrier evidence and written universal proofs are distinct; no external-expert, proof-assistant, novelty or hardware certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2479--K2481: Ordinary symbols, scheduled stopping and complete retries (2026-11-01)
 
 K2479 identifies an additional order12 compatibility equation for the original repeated-hook subfamily and constructs an analytic rotation lift for every scalar ridge defect after proving the actual generic symbol ranks102/103. K2480 solves the scheduled repair variational problem and improves dyadic fixed-confidence lower bounds to1.906452238..., with finite original-law violations at1.905. K2481 derives complete quantum-instrument retry effects and sharp delta/p calibration degradation, including shared failure and full-cost consumers. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.

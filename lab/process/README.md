@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2482-same-copy-retry-boundary](k2482-same-copy-retry-boundary.json).
+- [k2483-adaptive-stopping-bellman](k2483-adaptive-stopping-bellman.json).
+
 - [k2479-ordinary-hook-quotient](k2479-ordinary-hook-quotient.json).
 - [k2480-scheduled-stopping-preludes](k2480-scheduled-stopping-preludes.json).
 - [k2481-complete-retry-instrument](k2481-complete-retry-instrument.json).

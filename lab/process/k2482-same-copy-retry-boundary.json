@@ -1,0 +1,212 @@
+{
+  "checks": {
+    "allpass_repair_consumer": true,
+    "canonical_dark_fixture_1": true,
+    "canonical_dark_fixture_2": true,
+    "canonical_dark_fixture_8": true,
+    "dark53_bright55_bad54_0": true,
+    "dark53_bright55_bad54_1": true,
+    "explicit_onepass_gain_and_limit_0": true,
+    "explicit_onepass_gain_and_limit_1": true,
+    "finite_bad_effect_telescope": true,
+    "four_companions_one_added_direction_0": true,
+    "four_companions_one_added_direction_1": true,
+    "full108_all31_characters": true,
+    "local_original_probability_0_0_-1_-1": true,
+    "local_original_probability_0_0_-1_1": true,
+    "local_original_probability_0_0_1_-1": true,
+    "local_original_probability_0_0_1_1": true,
+    "local_original_probability_0_1_-1_-1": true,
+    "local_original_probability_0_1_-1_1": true,
+    "local_original_probability_0_1_1_-1": true,
+    "local_original_probability_0_1_1_1": true,
+    "local_original_probability_0_2_-1_-1": true,
+    "local_original_probability_0_2_-1_1": true,
+    "local_original_probability_0_2_1_-1": true,
+    "local_original_probability_0_2_1_1": true,
+    "local_original_probability_1_0_-1_-1": true,
+    "local_original_probability_1_0_-1_1": true,
+    "local_original_probability_1_0_1_-1": true,
+    "local_original_probability_1_0_1_1": true,
+    "local_original_probability_1_1_-1_-1": true,
+    "local_original_probability_1_1_-1_1": true,
+    "local_original_probability_1_1_1_-1": true,
+    "local_original_probability_1_1_1_1": true,
+    "local_original_probability_1_2_-1_-1": true,
+    "local_original_probability_1_2_-1_1": true,
+    "local_original_probability_1_2_1_-1": true,
+    "local_original_probability_1_2_1_1": true,
+    "local_target_fidelity_0": true,
+    "local_target_fidelity_1": true,
+    "nonzero_exact_census_0": true,
+    "nonzero_exact_census_1": true,
+    "original_weights_0": true,
+    "original_weights_1": true,
+    "original_z_Q_T_forms_0": true,
+    "original_z_Q_T_forms_1": true,
+    "original_z_normalized_orthogonal_0": true,
+    "original_z_normalized_orthogonal_1": true,
+    "positive_two_column_rank_0_(-1, 0, 1, -1)": true,
+    "positive_two_column_rank_0_(-1, 0, 1, 0)": true,
+    "positive_two_column_rank_0_(-1, 0, 1, 1)": true,
+    "positive_two_column_rank_0_(-1, 1, 0, -1)": true,
+    "positive_two_column_rank_0_(-1, 1, 0, 0)": true,
+    "positive_two_column_rank_0_(-1, 1, 0, 1)": true,
+    "positive_two_column_rank_0_(0, -1, 1, -1)": true,
+    "positive_two_column_rank_0_(0, -1, 1, -2)": true,
+    "positive_two_column_rank_0_(0, -1, 1, 0)": true,
+    "positive_two_column_rank_0_(0, -1, 1, 1)": true,
+    "positive_two_column_rank_0_(0, -1, 1, 2)": true,
+    "positive_two_column_rank_0_(0, 0, 0, -1)": true,
+    "positive_two_column_rank_0_(0, 0, 0, -2)": true,
+    "positive_two_column_rank_0_(0, 0, 0, 0)": true,
+    "positive_two_column_rank_0_(0, 0, 0, 1)": true,
+    "positive_two_column_rank_0_(0, 0, 0, 2)": true,
+    "positive_two_column_rank_0_(0, 1, -1, -1)": true,
+    "positive_two_column_rank_0_(0, 1, -1, -2)": true,
+    "positive_two_column_rank_0_(0, 1, -1, 0)": true,
+    "positive_two_column_rank_0_(0, 1, -1, 1)": true,
+    "positive_two_column_rank_0_(0, 1, -1, 2)": true,
+    "positive_two_column_rank_0_(1, -1, 0, -1)": true,
+    "positive_two_column_rank_0_(1, -1, 0, -2)": true,
+    "positive_two_column_rank_0_(1, -1, 0, 0)": true,
+    "positive_two_column_rank_0_(1, -1, 0, 1)": true,
+    "positive_two_column_rank_0_(1, -1, 0, 2)": true,
+    "positive_two_column_rank_0_(1, 0, -1, -1)": true,
+    "positive_two_column_rank_0_(1, 0, -1, -2)": true,
+    "positive_two_column_rank_0_(1, 0, -1, 0)": true,
+    "positive_two_column_rank_0_(1, 0, -1, 1)": true,
+    "positive_two_column_rank_0_(1, 0, -1, 2)": true,
+    "positive_two_column_rank_1_(-1, 0, 1, -1)": true,
+    "positive_two_column_rank_1_(-1, 0, 1, 0)": true,
+    "positive_two_column_rank_1_(-1, 0, 1, 1)": true,
+    "positive_two_column_rank_1_(-1, 1, 0, -1)": true,
+    "positive_two_column_rank_1_(-1, 1, 0, 0)": true,
+    "positive_two_column_rank_1_(-1, 1, 0, 1)": true,
+    "positive_two_column_rank_1_(0, -1, 1, -1)": true,
+    "positive_two_column_rank_1_(0, -1, 1, -2)": true,
+    "positive_two_column_rank_1_(0, -1, 1, 0)": true,
+    "positive_two_column_rank_1_(0, -1, 1, 1)": true,
+    "positive_two_column_rank_1_(0, -1, 1, 2)": true,
+    "positive_two_column_rank_1_(0, 0, 0, -1)": true,
+    "positive_two_column_rank_1_(0, 0, 0, -2)": true,
+    "positive_two_column_rank_1_(0, 0, 0, 0)": true,
+    "positive_two_column_rank_1_(0, 0, 0, 1)": true,
+    "positive_two_column_rank_1_(0, 0, 0, 2)": true,
+    "positive_two_column_rank_1_(0, 1, -1, -1)": true,
+    "positive_two_column_rank_1_(0, 1, -1, -2)": true,
+    "positive_two_column_rank_1_(0, 1, -1, 0)": true,
+    "positive_two_column_rank_1_(0, 1, -1, 1)": true,
+    "positive_two_column_rank_1_(0, 1, -1, 2)": true,
+    "positive_two_column_rank_1_(1, -1, 0, -1)": true,
+    "positive_two_column_rank_1_(1, -1, 0, -2)": true,
+    "positive_two_column_rank_1_(1, -1, 0, 0)": true,
+    "positive_two_column_rank_1_(1, -1, 0, 1)": true,
+    "positive_two_column_rank_1_(1, -1, 0, 2)": true,
+    "positive_two_column_rank_1_(1, 0, -1, -1)": true,
+    "positive_two_column_rank_1_(1, 0, -1, -2)": true,
+    "positive_two_column_rank_1_(1, 0, -1, 0)": true,
+    "positive_two_column_rank_1_(1, 0, -1, 1)": true,
+    "positive_two_column_rank_1_(1, 0, -1, 2)": true,
+    "projector_CP_completeness": true,
+    "trap_CP_complete": true,
+    "trap_no_later_output": true,
+    "zero_character_rank11_0": true,
+    "zero_character_rank11_1": true
+  },
+  "contrary_controls": {
+    "allpass_not_anypass": true,
+    "averaged_effect_wrong_finite_update": true,
+    "dark_component_not_certain_output": true,
+    "effect_complete_does_not_preserve_target_0": true,
+    "effect_complete_does_not_preserve_target_1": true,
+    "grading_alone_does_not_prove_bright_completion": true
+  },
+  "dependencies": {
+    "lab/process/k2454-two-setting-local-verifier.json": "4b729197f0542d4e7edddb6e174d913fa8edb957007bf1e36e8357d388d3fa45",
+    "lab/process/k2457-local-verifier-phase-design.json": "32bfbf712a2008724891cf879b8b037bd6be82fc1066d475a09bd60456cd0f56",
+    "tests/channel-swings/k2419_positive_visibility_dual_probe.py": "d401d829d8d2b6ebf1b99c77b7e7b7497c99bffb4efffaac61363659b58ed757",
+    "tests/channel-swings/k2457_local_verifier_phase_design_probe.py": "b304adba63a5a8c7dfed3bf02635305eec79eda0a41e9347d7108f2868c6d07f"
+  },
+  "evidence_kinds": {
+    "exact": "original coordinate ranks, conditional probabilities and CP counterexamples",
+    "inherited": "K2457 complete phase block formula and gap authenticated, not rerun",
+    "universal": "written positive-map and stopping proofs"
+  },
+  "original_laws": [
+    {
+      "bright": 55,
+      "canonical_onepass_fidelity": "1143/1195",
+      "canonical_retry_limit": "9/10",
+      "dark": 53,
+      "law": 1,
+      "local_Q_output_fidelity": "42550009/216320000",
+      "local_T_output_fidelity": "10729/120000",
+      "nonzero_blocks": [
+        [
+          1,
+          1,
+          12
+        ],
+        [
+          2,
+          1,
+          4
+        ],
+        [
+          4,
+          2,
+          8
+        ],
+        [
+          6,
+          2,
+          4
+        ],
+        [
+          9,
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "bright": 55,
+      "canonical_onepass_fidelity": "603/631",
+      "canonical_retry_limit": "9/10",
+      "dark": 53,
+      "law": 2,
+      "local_Q_output_fidelity": "275981/1730560",
+      "local_T_output_fidelity": "2929/32448",
+      "nonzero_blocks": [
+        [
+          1,
+          1,
+          12
+        ],
+        [
+          2,
+          1,
+          4
+        ],
+        [
+          4,
+          2,
+          8
+        ],
+        [
+          6,
+          2,
+          4
+        ],
+        [
+          9,
+          2,
+          2
+        ]
+      ]
+    }
+  ],
+  "result": "K2482",
+  "scope": "conditional canonical instruments and exact original local disturbance; no hardware or native physics"
+}
