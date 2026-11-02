@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2490-storage-noisy-markov-verifier](conditional-build/k2490-storage-noisy-markov-verifier-2026-11-02.md).
+- [k2491-analytic-stopping-certificate](conditional-build/k2491-analytic-stopping-certificate-2026-11-02.md).
+
 - [k2488-markov-flag-filtering](conditional-build/k2488-markov-flag-filtering-2026-11-02.md).
 - [k2489-certified-stopping-grid](conditional-build/k2489-certified-stopping-grid-2026-11-02.md).
 

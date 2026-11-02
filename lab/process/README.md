@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2490-storage-noisy-markov-verifier](k2490-storage-noisy-markov-verifier.json).
+- [k2491-analytic-stopping-certificate](k2491-analytic-stopping-certificate.json).
+
 - [k2488-markov-flag-filtering](k2488-markov-flag-filtering.json).
 - [k2489-certified-stopping-grid](k2489-certified-stopping-grid.json).
 

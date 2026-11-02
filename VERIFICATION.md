@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2490--K2491: Storage limits and exact stopping certificate (2026-11-02)
+
+K2490 constructs exact original Markov-verifier transfer with fresh depolarizing storage, proves a final-test error floor and parity-sector limits, and prices sharp finite-cap designs. K2491 gives an exact all-control Jensen/Bernstein certificate narrowing a nondyadic stopping frontier to [0.6840881105,0.6848857418], width below0.000798. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.
+
+- [K2490](explorations/conditional-build/k2490-storage-noisy-markov-verifier-2026-11-02.md).
+- [K2491](explorations/conditional-build/k2491-analytic-stopping-certificate-2026-11-02.md).
+
+Independent quantum and probability specialists reviewed the concrete universal arguments and implementation; a separate adversarial integration review checked both final candidates and found no substantive remaining issue. Corrections replaced arithmetic-only reminders with changed-instrument countercontrols, completed all-sector zero-storage recovery, and retained exact Bernstein rejection paths. Final verification directly replays saved rational cell bounds without numerical optimization. Universal proofs, finite exact/interval certificates and inherited evidence are separate; no external-expert or proof-assistant certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2488--K2489: Markov filtering and certified stopping bracket (2026-11-02)
 
 K2488 classifies exact full-carrier filtering with Markov flag errors, proves a sharp marginal threshold, repairs antipersistence by two-step flag spacing, and prices stopped/renewal costs. K2489 proves an all-policy occupation bound and brackets a concrete nondyadic stopping frontier within0.0068, with an executable score-state Bellman and all-control residual certificate. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.

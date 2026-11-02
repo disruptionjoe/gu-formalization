@@ -1,4 +1,7 @@
 
+- [k2490-storage-noisy-markov-verifier](k2490_storage_noisy_markov_verifier_probe.py).
+- [k2491-analytic-stopping-certificate](k2491_analytic_stopping_certificate_probe.py).
+
 - [k2488-markov-flag-filtering](k2488_markov_flag_filtering_probe.py).
 - [k2489-certified-stopping-grid](k2489_certified_stopping_grid_probe.py).
 

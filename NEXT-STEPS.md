@@ -5,6 +5,10 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-11-02: STORAGE LIMITS AND EXACT STOPPING CERTIFICATE.**
+> K2491 proves5000/7309<=F_(1/2)(1/1000)<=684885741753/10^12 using an actual original-law lower policy and32896 exact continuum score rectangles. The width is below0.000798; one-stage optimality and a sharp global fixed-confidence coefficient are not established. Further mesh refinement alone does not decide multi-stage structure. K2490 gives exact multiplicity-aware storage transfer, sharp six-vertex fidelity/cost consumers and positive parity-sector limits. Every cap n>=2 with fresh global replacement delta before the final rank10/12 Q/T test has infidelity at least delta(k-1)/(108(1-delta)+delta*k). An appended ideal rank-one target filter exits this model and defeats the floor. With per-transition noise.001 and the stated prices, gap2 first meets1% at cap12; gaps1/4 have no feasible cap through24, not a global exclusion. Calibrated full-memory/storage law, native positive quotient, matter/light, common-bar/mobile, thermal163/164 and native2+1/chirality remain open.
+
+
 > **2026-11-02: MARKOV FILTERING AND CERTIFIED STOPPING BRACKET.**
 > K2489 proves500/731<=F_(1/2)(1/1000)<62171/90000, width<0.0068, using an actual one-stage lower witness and an all-adaptive-policy occupation upper. Its bound complements rather than uniformly improves the entropy bound. All-length grid values need compression error or all-control residual certification; raw grid slopes need not converge near tiny stages. K2488 full-sector Markov purification holds iff uv<(1-u)^2 for0<u<v<1, with a parity floor at equality and failure above. Every fixed chain below marginal threshold(5-sqrt5)/10 purifies, but no common finite cap follows. Sampling every second flag repairs antipersistence only with the declared transition law and exact storage; prices and independent restart assumptions remain essential. General quantum memory, measured calibration, native positive quotient, matter/light, common-bar/mobile, thermal163/164 and native2+1/chirality remain open.
 

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: fd90e57957441c002d7d4fb0b26a9a388262f67e
+revision_basis: 4a5f89417725baa6d6c656e6f80cb61f3d97d0fc
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,12 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2490 constructs exact original Markov-verifier transfer with fresh depolarizing
+    storage, proves a final-test error floor and parity-sector limits, and prices sharp
+    finite-cap designs. K2491 gives an exact all-control Jensen/Bernstein certificate
+    narrowing a nondyadic stopping frontier to [0.6840881105,0.6848857418], width
+    below0.000798. These are conditional mathematical results; source polarities,
+    ledger0.263 and physical credit remain unchanged. Historical predecessor (not live):
     K2488 classifies exact full-carrier filtering with Markov flag errors, proves a sharp
     marginal threshold, repairs antipersistence by two-step flag spacing, and prices
     stopped/renewal costs. K2489 proves an all-policy occupation bound and brackets a
@@ -18195,6 +18201,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2490-storage-noisy-markov-verifier-2026-11-02.md
+  - lab/process/k2490-storage-noisy-markov-verifier.json
+  - tests/channel-swings/k2490_storage_noisy_markov_verifier_probe.py
+  - explorations/conditional-build/k2491-analytic-stopping-certificate-2026-11-02.md
+  - lab/process/k2491-analytic-stopping-certificate.json
+  - tests/channel-swings/k2491_analytic_stopping_certificate_probe.py
   - explorations/conditional-build/k2488-markov-flag-filtering-2026-11-02.md
   - lab/process/k2488-markov-flag-filtering.json
   - tests/channel-swings/k2488_markov_flag_filtering_probe.py
@@ -20566,6 +20578,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Does a merge inequality or analytic supersolution establish the small-budget stopping
+  optimum, and can a calibrated target-preserving storage or recovery model meet the
+  correlated verifier requirements? Native common-domain source/readout and full ordinary
+  boundary analytic inverse remain open. Historical predecessor (not live):
   Can a certified piecewise-affine Bellman supersolution close the nondyadic stopping gap
   or sharpen the global fixed-confidence coefficient, and which calibrated full-memory
   reset/storage law can instantiate the exact correlated verifier? Native common-domain
@@ -24889,6 +24905,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K2491 proves5000/7309<=F_(1/2)(1/1000)<=684885741753/10^12 using an actual original-law
+  lower policy and32896 exact continuum score rectangles. The width is below0.000798;
+  one-stage optimality and a sharp global fixed-confidence coefficient are not
+  established. Further mesh refinement alone does not decide multi-stage structure. K2490
+  gives exact multiplicity-aware storage transfer, sharp six-vertex fidelity/cost
+  consumers and positive parity-sector limits. Every cap n>=2 with fresh global
+  replacement delta before the final rank10/12 Q/T test has infidelity at least
+  delta(k-1)/(108(1-delta)+delta*k). An appended ideal rank-one target filter exits this
+  model and defeats the floor. With per-transition noise.001 and the stated prices, gap2
+  first meets1% at cap12; gaps1/4 have no feasible cap through24, not a global exclusion.
+  Calibrated full-memory/storage law, native positive quotient, matter/light,
+  common-bar/mobile, thermal163/164 and native2+1/chirality remain open. Historical
+  predecessor (not live):
   K2489 proves500/731<=F_(1/2)(1/1000)<62171/90000, width<0.0068, using an actual
   one-stage lower witness and an all-adaptive-policy occupation upper. Its bound
   complements rather than uniformly improves the entropy bound. All-length grid values
