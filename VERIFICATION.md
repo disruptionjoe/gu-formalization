@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2506--K2507: Deployment coverage and optimal distributed stopping tails (2026-11-02)
+
+K2506 composes five-setting sequential calibration with effect-specific coverage over every deployment history, producing priced complete-record and postselection guarantees without requiring full-channel closeness. K2507 solves the optimal distributed tail after a fixed first stage, gives a restricted attainable hybrid minimization and matching equations, and strictly improves constant-ratio and identical finite tails. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.
+
+- [K2506](explorations/conditional-build/k2506-calibration-deployment-transfer-2026-11-02.md).
+- [K2507](explorations/conditional-build/k2507-stopping-optimal-hybrid-tail-2026-11-02.md).
+
+Two read-only specialists independently derived and challenged both results; a distinct reviewer checked the actual proofs, counterconstructions and dependency pins and found no remaining substantive issue. Lead review corrected a terminal-zero-arc derivative; final review prompted an explicit within-domain zero-arc fixture. Both corrections are tested directly. Universal proofs, finite exact/certified controls and reporting hashes are separate evidence kinds; no experimental, external-expert or proof-assistant certification is claimed.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2504--K2505: Sector calibration and strict satellite fragmentation (2026-11-02)
 
 K2504 replaces full effect tomography with five trusted sector-mixture/leakage tests, finite-confidence bounds and a pooled protocol whose all-zero sample threshold is sharp within that design. K2505 proves an explicit success-preserving stage-fragmentation theorem, a strictly improving onset-local satellite hierarchy, and a cheaper exact finite policy. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.

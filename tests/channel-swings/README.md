@@ -1,4 +1,7 @@
 
+- [k2506-calibration-deployment-transfer](k2506_calibration_deployment_transfer_probe.py).
+- [k2507-stopping-optimal-hybrid-tail](k2507_stopping_optimal_hybrid_tail_probe.py).
+
 - [k2504-verifier-sector-calibration](k2504_verifier_sector_calibration_probe.py).
 - [k2505-stopping-satellite-hierarchy](k2505_stopping_satellite_hierarchy_probe.py).
 

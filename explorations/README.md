@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2506-calibration-deployment-transfer](conditional-build/k2506-calibration-deployment-transfer-2026-11-02.md).
+- [k2507-stopping-optimal-hybrid-tail](conditional-build/k2507-stopping-optimal-hybrid-tail-2026-11-02.md).
+
 - [k2504-verifier-sector-calibration](conditional-build/k2504-verifier-sector-calibration-2026-11-02.md).
 - [k2505-stopping-satellite-hierarchy](conditional-build/k2505-stopping-satellite-hierarchy-2026-11-02.md).
 

@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2506-calibration-deployment-transfer](k2506-calibration-deployment-transfer.json).
+- [k2507-stopping-optimal-hybrid-tail](k2507-stopping-optimal-hybrid-tail.json).
+
 - [k2504-verifier-sector-calibration](k2504-verifier-sector-calibration.json).
 - [k2505-stopping-satellite-hierarchy](k2505-stopping-satellite-hierarchy.json).
 

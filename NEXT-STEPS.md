@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-02: SECTOR CALIBRATION AND STRICT SATELLITE FRAGMENTATION.**
+> **2026-11-02: DEPLOYMENT COVERAGE AND OPTIMAL DISTRIBUTED TAILS.**
+> K2506 requires a uniform three-effect deployment hull over all actual and hybrid histories on the complete retained carrier. Density cap rho, systematic bias and effect drift are explicitly priced; counts alone cannot establish that coverage, and identical marginal channels can have different records. K2507 proves the unique fixed-main tail, attainable restricted one-first-stage minimum, corrected zero-arc derivative and strict cubic improvement over constant tails. Adjacent identical costly stages are not finite optima; an exact three-stage policy reaches3/4 below212613497/10^10. Multiple finite atoms, arbitrary mixtures, global transition and K1/1000 remain open. Native matter/light, full multivariable hook inverse, common-bar/mobile, thermal163/164 and native2+1/chirality retain their ceilings.
+
+
+> **Historical predecessor: 2026-11-02 SECTOR CALIBRATION AND STRICT SATELLITE FRAGMENTATION.**
 > K2504 gives epsilon<=sqrt(max sector-rank times wrong-event mean) and ell<=d times leakage mean from five mixed-state distributions. Pooled iid labels attain the exact restricted all-zero threshold ceil(log(G/alpha)/[-log(1-1/W)]), W=2d/epsilon^2+d/ell, with trusted fixed maps, support, preparation/readout and bias margins. This is not hardware calibration or universal sampling optimality. K2505 proves every finite stage with b<=1/100 and a/b in[2/5,9/20] admits a cheaper success-preserving binary split; a three-stage policy reaches3/4 below106307/5000000 and beats all one-stage mixtures. The onset hierarchy has decreasing positive quadratic costs, an equal-ratio finite-main/microstage limit and explicit strict-feasibility requirements. Unweighted global merging is refuted; the unrestricted optimum and K1/1000 remain open. Native matter/light, ordinary multivariable inverse, common-bar/mobile, thermal163/164 and native2+1/chirality retain their ceilings.
 
 
