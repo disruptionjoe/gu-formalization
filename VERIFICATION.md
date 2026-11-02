@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2484--K2485: Coherent instruments and constrained stopping frontier (2026-11-01)
+
+K2484 constructs coherent binary instruments for the original verifier, proves exact alternating filtering and its unassisted-LOCC resource obstruction, and prices complete-instrument errors. K2485 proves a global stopping certificate, exact expected-budget duality and two-schedule approximation; identifies the sharp sure-success saturation budget with nonattainment at equality; and closes the two-stage tangent-family optimum with a finite witness above2.15232. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.
+
+- [K2484](explorations/conditional-build/k2484-coherent-verifier-instruments-2026-11-01.md).
+- [K2485](explorations/conditional-build/k2485-constrained-stopping-frontier-2026-11-01.md).
+
+Independent quantum and probability specialists derived candidates; a separate reviewer challenged the universal arguments, original objects, clipping and critical-budget nonattainment. Lead reconstructed original complex conditional vectors, full-carrier projection factors and original cost laws. Prior generic uncomputation and commuting projector identities are explicitly reused; finite checks, inherited evidence and universal proofs remain distinct. No external-expert, proof-assistant, novelty or hardware certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2482--K2483: Same-copy instruments and global stopping reduction (2026-11-01)
 
 K2482 proves that canonical same-copy retries lose bright-state filtering, reconstructs the original 53-dimensional dark sectors, distinguishes local target disturbance, and gives an all-pass repair. K2483 reduces unrestricted original stopping control to a least Bellman supersolution, gives the exact zero-budget boundary, and constructs a two-stage dyadic lower bound 2.152284 with a finite certified witness above2.15223. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.

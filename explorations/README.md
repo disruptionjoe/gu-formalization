@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2484-coherent-verifier-instruments](conditional-build/k2484-coherent-verifier-instruments-2026-11-01.md).
+- [k2485-constrained-stopping-frontier](conditional-build/k2485-constrained-stopping-frontier-2026-11-01.md).
+
 - [k2482-same-copy-retry-boundary](conditional-build/k2482-same-copy-retry-boundary-2026-11-01.md).
 - [k2483-adaptive-stopping-bellman](conditional-build/k2483-adaptive-stopping-bellman-2026-11-01.md).
 

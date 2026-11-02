@@ -1,4 +1,7 @@
 
+- [k2484-coherent-verifier-instruments](k2484_coherent_verifier_instruments_probe.py).
+- [k2485-constrained-stopping-frontier](k2485_constrained_stopping_frontier_probe.py).
+
 - [k2482-same-copy-retry-boundary](k2482_same_copy_retry_boundary_probe.py).
 - [k2483-adaptive-stopping-bellman](k2483_adaptive_stopping_bellman_probe.py).
 

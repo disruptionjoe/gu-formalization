@@ -5,6 +5,10 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-11-01: COHERENT INSTRUMENTS AND CONSTRAINED STOPPING FRONTIER.**
+> Use K2485 exact constrained reduction and overshoot clipping to seek a continuum Bellman certificate or controlled finite approximation; finite-grid values are not global upper bounds. At remaining normalized score s, the success frontier reaches1 exactly at budgets K>=s/2, but no policy attains1 at equality. Two finite schedules approximate every constrained optimum without relaxing expected cost; lengths and primal attainment remain unproved below saturation. The two-stage tangent optimum2.152320551 is scoped to that family; a finite original witness exceeds2.15232. K2484 coherent Q/T alternation gives exact bad mass r^(n-1)zweight, r=27/127 or15/67, and five tests suffice for infidelity<7/10000 if initial fidelity>=.9. Binary instruments require joint coherent controls and pure/reset flags; locally measurable effects alone do not supply them. Elementary gate/spatial costs and full-memory calibration remain independent inputs. Native matter/light, physical positive quotient, common-bar/mobile, thermal163/164 and native2+1/chirality retain current ceilings.
+
+
 > **2026-11-01: SAME-COPY INSTRUMENTS AND GLOBAL STOPPING REDUCTION.**
 > Use K2483 stage/trial supersolution equivalence to seek a global analytic upper certificate or a stronger explicit original schedule; the two-stage rational family gives C_epsilon>=1207200*log2/388781 at every dyadic confidence, not global optimality. Preserve the exact nondyadic zero-budget boundary. K2482 canonical square-root first-pass retries eventually accept all54 bright bad directions in each original108 carrier; requiring all passes repairs filtering only with target-preserving complete instruments. The original local tests disturb even perfect targets, so coherent realization, reference/memory calibration and complete costs must be supplied. Full multivariable ordinary hook inverse, characteristic boundary quotient, nonlinear convergence, native matter/light, physical positive quotient, common-bar/mobile, thermal163/164 and native2+1/chirality remain open.
 

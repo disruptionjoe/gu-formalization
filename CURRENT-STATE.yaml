@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 997c91081188b6f07c3c34656d245924287bb84e
+revision_basis: 852fcc57b39447e79b665919ae00833928649396
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,14 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2484 constructs coherent binary instruments for the original verifier, proves exact
+    alternating filtering and its unassisted-LOCC resource obstruction, and prices
+    complete-instrument errors. K2485 proves a global stopping certificate, exact
+    expected-budget duality and two-schedule approximation; identifies the sharp
+    sure-success saturation budget with nonattainment at equality; and closes the two-stage
+    tangent-family optimum with a finite witness above2.15232. These are conditional
+    mathematical results; source polarities, ledger0.263 and physical credit remain
+    unchanged. Historical predecessor (not live):
     K2482 proves that canonical same-copy retries lose bright-state filtering, reconstructs
     the original 53-dimensional dark sectors, distinguishes local target disturbance, and
     gives an all-pass repair. K2483 reduces unrestricted original stopping control to a
@@ -18173,6 +18181,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2484-coherent-verifier-instruments-2026-11-01.md
+  - lab/process/k2484-coherent-verifier-instruments.json
+  - tests/channel-swings/k2484_coherent_verifier_instruments_probe.py
+  - explorations/conditional-build/k2485-constrained-stopping-frontier-2026-11-01.md
+  - lab/process/k2485-constrained-stopping-frontier.json
+  - tests/channel-swings/k2485_constrained_stopping_frontier_probe.py
   - explorations/conditional-build/k2482-same-copy-retry-boundary-2026-11-01.md
   - lab/process/k2482-same-copy-retry-boundary.json
   - tests/channel-swings/k2482_same_copy_retry_boundary_probe.py
@@ -20526,6 +20540,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can the constrained two-schedule frontier yield a sharp continuum fixed-confidence
+  certificate, and which elementary coherent gate, memory/reset and calibration model
+  realizes the now explicit original verifier? Full ordinary boundary analytic inversion
+  and native shared-domain matter/light constructions remain open. Historical predecessor
+  (not live):
   Can an analytic Bellman supersolution match the new two-stage stopping lower bound, and
   can a physically allowed coherent instrument realize the original verifier without
   destroying the retained target? The original ordinary boundary analytic inverse and
@@ -24834,6 +24853,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Use K2485 exact constrained reduction and overshoot clipping to seek a continuum Bellman
+  certificate or controlled finite approximation; finite-grid values are not global upper
+  bounds. At remaining normalized score s, the success frontier reaches1 exactly at
+  budgets K>=s/2, but no policy attains1 at equality. Two finite schedules approximate
+  every constrained optimum without relaxing expected cost; lengths and primal attainment
+  remain unproved below saturation. The two-stage tangent optimum2.152320551 is scoped to
+  that family; a finite original witness exceeds2.15232. K2484 coherent Q/T alternation
+  gives exact bad mass r^(n-1)zweight, r=27/127 or15/67, and five tests suffice for
+  infidelity<7/10000 if initial fidelity>=.9. Binary instruments require joint coherent
+  controls and pure/reset flags; locally measurable effects alone do not supply them.
+  Elementary gate/spatial costs and full-memory calibration remain independent inputs.
+  Native matter/light, physical positive quotient, common-bar/mobile, thermal163/164 and
+  native2+1/chirality retain current ceilings. Historical predecessor (not live):
   Use K2483 stage/trial supersolution equivalence to seek a global analytic upper
   certificate or a stronger explicit original schedule; the two-stage rational family
   gives C_epsilon>=1207200*log2/388781 at every dyadic confidence, not global optimality.
