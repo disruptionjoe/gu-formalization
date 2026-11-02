@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2500-reachable-memory-leakage](k2500-reachable-memory-leakage.json).
+- [k2501-collective-stopping-satellites](k2501-collective-stopping-satellites.json).
+
 - [k2498-joint-effect-calibration](k2498-joint-effect-calibration.json).
 - [k2499-sharp-small-budget-stopping](k2499-sharp-small-budget-stopping.json).
 

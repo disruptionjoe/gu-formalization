@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2500-reachable-memory-leakage](conditional-build/k2500-reachable-memory-leakage-2026-11-02.md).
+- [k2501-collective-stopping-satellites](conditional-build/k2501-collective-stopping-satellites-2026-11-02.md).
+
 - [k2498-joint-effect-calibration](conditional-build/k2498-joint-effect-calibration-2026-11-02.md).
 - [k2499-sharp-small-budget-stopping](conditional-build/k2499-sharp-small-budget-stopping-2026-11-02.md).
 

@@ -1,4 +1,7 @@
 
+- [k2500-reachable-memory-leakage](k2500_reachable_memory_leakage_probe.py).
+- [k2501-collective-stopping-satellites](k2501_collective_stopping_satellites_probe.py).
+
 - [k2498-joint-effect-calibration](k2498_joint_effect_calibration_probe.py).
 - [k2499-sharp-small-budget-stopping](k2499_sharp_small_budget_stopping_probe.py).
 

@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-02: JOINT CALIBRATION AND SHARP STOPPING BOUNDARY.**
+> **2026-11-02: LINEAR LEAKAGE AND EXACT LOCAL STOPPING OPTIMUM.**
+> K2500 now proves E<=min(1,1024 sum epsilon+[513m(m-1)/2]sum ell), with exact initial support, worst-history effect/leakage bounds and aggregate complete histories. Trusted three-effect calibration has sufficient inverse-square accuracy sampling at fixed horizon; coherent rotations exclude cap-independent leakage control. Sharper horizon coefficients and trusted implementations remain open. K2501 proves the local one-stage optimum against arbitrary coordinated satellites and costly mixtures, with linear coefficient(3S-1)/(1+S)^2. S=1/2,K<=2^-88 is sufficient, not the transition; K=1/1000 and the global frontier remain open. Native matter/light, positive quotient, ordinary multivariable hook inverse, common-bar/mobile, thermal163/164 and native2+1/chirality retain their ceilings.
+
+
+> **Historical predecessor: 2026-11-02 JOINT CALIBRATION AND SHARP STOPPING BOUNDARY.**
 > K2498 reconstructs the two full retained-carrier effects from D^2 complex preparations with simultaneous operator error sqrt(8D^2-7D) times the probability radius. Its confidence and postselection bound require known memory dimension, coherent joint preparation, fixed covered map classes, trusted readout and independent repetitions; initialized system-only tests cannot identify global behavior on dormant memory. The example sample count is a conservative sufficient bound, not a lower bound or executed experiment. K2499 proves F_S(K)=1/(1+S)+2sqrt(S(1-S))/(1+S)^(3/2)*sqrt(K)+O_S(K), for each fixed0<S<=1/2, over all original adaptive policies; high-success low-cost finite schedules concentrate their score into one stage. At S1/2,a499/1000 and a2309/5000, sufficiently small second stages in either order increase fixed-success cost; for a=S-d the scale t=tau*d^2 also increases cost. Positive-budget exact optimum, coordinated satellite families, uniformity as S tends to0 and the sharp global fixed-confidence constant remain open. Native matter/light, positive quotient, ordinary mixed-hook inverse, common-bar/mobile, thermal163/164 and native2+1/chirality retain their ceilings.
 
 

@@ -6,6 +6,18 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2500--K2501: Linear leakage and exact local stopping optimum (2026-11-02)
+
+K2500 proves a reference-safe fixed-horizon recorded verifier bound linear in compressed effect error and memory leakage, with inverse-square accuracy calibration and a counterexample to cap-independent leakage control. K2501 proves exact one-stage optimality at sufficiently small budgets for every fixed score, including all adaptive policies, derives the next coefficient and certifies S=1/2,K<=2^-88. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.
+
+- [K2500](explorations/conditional-build/k2500-reachable-memory-leakage-2026-11-02.md).
+- [K2501](explorations/conditional-build/k2501-collective-stopping-satellites-2026-11-02.md).
+
+Independent quantum-information and probability specialists rederived the universal arguments and contrary constructions. A separate final-artifact reviewer checked collective satellite uniformity, all-policy tangent transfer, the subleading coefficient, and the explicit2^-88 interval, with no remaining findings. Review made the shared repaired-prefix history weights explicit in the leakage bound. Exact probes test channels, entangled references, original-cost identities and rational inequalities; finite fixture totals are coverage, not theorem counts. Internal review is not external-expert or proof-assistant certification. Two independent reviewers also rederived the released direct-record theorem, calibration and horizon counterexample; aggregate rather than normalized branch leakage is explicit.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2498--K2499: Joint calibration and sharp stopping boundary (2026-11-02)
 
 K2498 constructs a confidence-qualified joint-memory two-effect calibration protocol with explicit sample and postselection costs, and proves its memory-access limitations. K2499 proves the sharp small-budget original stopping frontier with an order-K remainder, a global all-policy envelope concentration into one dominant stage and local satellite stability in both insertion orders. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: caa82fd0377721da3b4020b71d80df71edd37f4b
+revision_basis: 4affd2e2937fe24fea949f0145b663844c60ae1d
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,13 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2500 proves a reference-safe fixed-horizon recorded verifier bound linear in compressed
+    effect error and memory leakage, with inverse-square accuracy calibration and a
+    counterexample to cap-independent leakage control. K2501 proves exact one-stage
+    optimality at sufficiently small budgets for every fixed score, including all adaptive
+    policies, derives the next coefficient and certifies S=1/2,K<=2^-88. These are
+    conditional mathematical results; source polarities, ledger0.263 and physical credit
+    remain unchanged. Historical predecessor (not live):
     K2498 constructs a confidence-qualified joint-memory two-effect calibration protocol
     with explicit sample and postselection costs, and proves its memory-access limitations.
     K2499 proves the sharp small-budget original stopping frontier with an order-K
@@ -18230,6 +18237,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2500-reachable-memory-leakage-2026-11-02.md
+  - lab/process/k2500-reachable-memory-leakage.json
+  - tests/channel-swings/k2500_reachable_memory_leakage_probe.py
+  - explorations/conditional-build/k2501-collective-stopping-satellites-2026-11-02.md
+  - lab/process/k2501-collective-stopping-satellites.json
+  - tests/channel-swings/k2501_collective_stopping_satellites_probe.py
   - explorations/conditional-build/k2498-joint-effect-calibration-2026-11-02.md
   - lab/process/k2498-joint-effect-calibration.json
   - tests/channel-swings/k2498_joint_effect_calibration_probe.py
@@ -20631,6 +20644,9 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  What is the sharp horizon dependence of verifier leakage, and where does one-stage
+  stopping optimality first fail beyond the certified interval? Historical predecessor
+  (not live):
   Can a structured reachable-memory implementation supply practical trusted calibration,
   and can finite costly satellites or a hybrid Bellman argument determine the stopping
   frontier beyond its sharp zero-budget asymptotic? Historical predecessor (not live):
@@ -24973,6 +24989,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K2500 now proves E<=min(1,1024 sum epsilon+[513m(m-1)/2]sum ell), with exact initial
+  support, worst-history effect/leakage bounds and aggregate complete histories. Trusted
+  three-effect calibration has sufficient inverse-square accuracy sampling at fixed
+  horizon; coherent rotations exclude cap-independent leakage control. Sharper horizon
+  coefficients and trusted implementations remain open. K2501 proves the local one-stage
+  optimum against arbitrary coordinated satellites and costly mixtures, with linear
+  coefficient(3S-1)/(1+S)^2. S=1/2,K<=2^-88 is sufficient, not the transition; K=1/1000
+  and the global frontier remain open. Native matter/light, positive quotient, ordinary
+  multivariable hook inverse, common-bar/mobile, thermal163/164 and native2+1/chirality
+  retain their ceilings. Historical predecessor (not live):
   K2498 reconstructs the two full retained-carrier effects from D^2 complex preparations
   with simultaneous operator error sqrt(8D^2-7D) times the probability radius. Its
   confidence and postselection bound require known memory dimension, coherent joint
