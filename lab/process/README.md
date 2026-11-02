@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2498-joint-effect-calibration](k2498-joint-effect-calibration.json).
+- [k2499-sharp-small-budget-stopping](k2499-sharp-small-budget-stopping.json).
+
 - [k2496-approximate-verifier-effects](k2496-approximate-verifier-effects.json).
 - [k2497-finite-stopping-normal-form](k2497-finite-stopping-normal-form.json).
 

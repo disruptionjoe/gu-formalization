@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2498--K2499: Joint calibration and sharp stopping boundary (2026-11-02)
+
+K2498 constructs a confidence-qualified joint-memory two-effect calibration protocol with explicit sample and postselection costs, and proves its memory-access limitations. K2499 proves the sharp small-budget original stopping frontier with an order-K remainder, a global all-policy envelope concentration into one dominant stage and local satellite stability in both insertion orders. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.
+
+- [K2498](explorations/conditional-build/k2498-joint-effect-calibration-2026-11-02.md).
+- [K2499](explorations/conditional-build/k2499-sharp-small-budget-stopping-2026-11-02.md).
+
+Independent quantum-calibration and probability specialists rederived both universal proofs and contrary examples. A separate final-artifact reviewer found no blocking error in joint-effect reconstruction/confidence, dormant-memory scope, the uniform stopping envelope or exact constrained-mixture transfer. Review exposed degenerate product-excess fixtures; eighteen multi-positive-hazard cases now cover that seam. The released prefix/suffix stability proof is checked separately. These internal reviews and exact fixtures do not constitute external-expert or proof-assistant certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2496--K2497: Approximate effects and finite stopping normal form (2026-11-02)
 
 K2496 derives a linear full-record/reference error bound from uniform approximate preservation of the original two verifier effects on retained memory, with explicit algebra constants and postselection costs. K2497 proves a one-free-prefix finite-schedule reduction, excludes positive zero-hazard atoms from finite minimizers, and gives a closed all-adaptive-policy cost bound. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.

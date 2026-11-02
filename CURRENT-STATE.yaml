@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: faaabb2aaa048fffbffade17039d5015bfd6bcda
+revision_basis: caa82fd0377721da3b4020b71d80df71edd37f4b
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,13 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2498 constructs a confidence-qualified joint-memory two-effect calibration protocol
+    with explicit sample and postselection costs, and proves its memory-access limitations.
+    K2499 proves the sharp small-budget original stopping frontier with an order-K
+    remainder, a global all-policy envelope concentration into one dominant stage and local
+    satellite stability in both insertion orders. These are conditional mathematical
+    results; source polarities, ledger0.263 and physical credit remain unchanged. Historical
+    predecessor (not live):
     K2496 derives a linear full-record/reference error bound from uniform approximate
     preservation of the original two verifier effects on retained memory, with explicit
     algebra constants and postselection costs. K2497 proves a one-free-prefix
@@ -18223,6 +18230,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2498-joint-effect-calibration-2026-11-02.md
+  - lab/process/k2498-joint-effect-calibration.json
+  - tests/channel-swings/k2498_joint_effect_calibration_probe.py
+  - explorations/conditional-build/k2499-sharp-small-budget-stopping-2026-11-02.md
+  - lab/process/k2499-sharp-small-budget-stopping.json
+  - tests/channel-swings/k2499_sharp_small_budget_stopping_probe.py
   - explorations/conditional-build/k2496-approximate-verifier-effects-2026-11-02.md
   - lab/process/k2496-approximate-verifier-effects.json
   - tests/channel-swings/k2496_approximate_verifier_effects_probe.py
@@ -20618,6 +20631,9 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can a structured reachable-memory implementation supply practical trusted calibration,
+  and can finite costly satellites or a hybrid Bellman argument determine the stopping
+  frontier beyond its sharp zero-budget asymptotic? Historical predecessor (not live):
   Can a complete joint-memory calibration and priced storage/flag/restart process realize
   the new two-effect tolerance, and can a mixed finite-atom/continuum Bellman argument
   characterize the sharp original stopping frontier beyond the one-free-prefix reduction?
@@ -24957,6 +24973,21 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K2498 reconstructs the two full retained-carrier effects from D^2 complex preparations
+  with simultaneous operator error sqrt(8D^2-7D) times the probability radius. Its
+  confidence and postselection bound require known memory dimension, coherent joint
+  preparation, fixed covered map classes, trusted readout and independent repetitions;
+  initialized system-only tests cannot identify global behavior on dormant memory. The
+  example sample count is a conservative sufficient bound, not a lower bound or executed
+  experiment. K2499 proves F_S(K)=1/(1+S)+2sqrt(S(1-S))/(1+S)^(3/2)*sqrt(K)+O_S(K), for
+  each fixed0<S<=1/2, over all original adaptive policies; high-success low-cost finite
+  schedules concentrate their score into one stage. At S1/2,a499/1000 and a2309/5000,
+  sufficiently small second stages in either order increase fixed-success cost; for a=S-d
+  the scale t=tau*d^2 also increases cost. Positive-budget exact optimum, coordinated
+  satellite families, uniformity as S tends to0 and the sharp global fixed-confidence
+  constant remain open. Native matter/light, positive quotient, ordinary mixed-hook
+  inverse, common-bar/mobile, thermal163/164 and native2+1/chirality retain their
+  ceilings. Historical predecessor (not live):
   K2496 proves recorded-output/reference error <=min(1,512 sum epsilon_j) from
   operator-norm Q/T effect errors on the complete retained carrier; original target effect
   error is <=22epsilon. This replaces an assumed diamond-distance premise but does not

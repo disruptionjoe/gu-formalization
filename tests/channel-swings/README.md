@@ -1,4 +1,7 @@
 
+- [k2498-joint-effect-calibration](k2498_joint_effect_calibration_probe.py).
+- [k2499-sharp-small-budget-stopping](k2499_sharp_small_budget_stopping_probe.py).
+
 - [k2496-approximate-verifier-effects](k2496_approximate_verifier_effects_probe.py).
 - [k2497-finite-stopping-normal-form](k2497_finite_stopping_normal_form_probe.py).
 
