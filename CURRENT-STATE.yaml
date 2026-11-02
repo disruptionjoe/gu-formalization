@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: fc013a136d70490bffdb461635c8634ae2dd5d34
+revision_basis: 1cf6b118d3eb1df8ba90b2959186eee3611ab391
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,14 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2476 reduces joint analytic hook inversion to the ordinary equation and improves the
+    sufficient borderline forcing class from factorial power three to one. K2477 constructs
+    genuine randomized score preludes giving dyadic fixed-confidence lower bounds
+    above1.8736 and exact finite violations at1.87. K2478 proves sharp unequal-attempt retry
+    risk, distinct risk/cost ordering and convex allocation, then certifies848 minimum uses
+    versus866 equal-count uses in one supplied two-attempt design. All are conditional
+    mathematical results; source polarities, ledger0.263 and physical credit remain
+    unchanged. Historical predecessor (not live):
     K2473 improves the constructed mixed hook inverse bound from C^(d^2) to C^[d(d+1)/2],
     enlarges its sufficient forcing class and composes unrestricted analytic scalar forcing.
     K2474 proves fixed-confidence stopping lower bounds with an actual dyadic-prelude law
@@ -18149,6 +18157,15 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2476-mixed-hook-decoupling-2026-11-01.md
+  - lab/process/k2476-mixed-hook-decoupling.json
+  - tests/channel-swings/k2476_mixed_hook_decoupling_probe.py
+  - explorations/conditional-build/k2477-randomized-score-preludes-2026-11-01.md
+  - lab/process/k2477-randomized-score-preludes.json
+  - tests/channel-swings/k2477_randomized_score_preludes_probe.py
+  - explorations/conditional-build/k2478-heterogeneous-retry-design-2026-11-01.md
+  - lab/process/k2478-heterogeneous-retry-design.json
+  - tests/channel-swings/k2478_heterogeneous_retry_design_probe.py
   - explorations/conditional-build/k2473-mixed-inverse-growth-2026-11-01.md
   - lab/process/k2473-mixed-inverse-growth.json
   - tests/channel-swings/k2473_mixed_inverse_growth_probe.py
@@ -20478,6 +20495,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can the actual ordinary hook transfer products admit a geometric analytic bound; can
+  fixed-confidence adaptive stopping exceed the mixed-prelude family or obtain a matching
+  upper bound; which history-valid measured instruments and complete costs instantiate
+  heterogeneous verifier designs? Historical predecessor (not live):
   Can an original composed ordinary hook transfer give a geometric analytic inverse; can a
   full adaptive stopping variational argument close the fixed-confidence coefficient gap;
   which measured conditional instrument, completion and cost laws instantiate the retry
@@ -24773,6 +24794,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  The scalar mixed transfers need not be repeated: solve the original ordinary equation,
+  then apply the full scalar-kernel correction once. Ordinary sufficient estimates retain
+  C^[d(d+1)/2] but need only one factorial in the borderline forcing class; unrestricted
+  analytic ordinary and nonlinear convergence remain open. Dyadic confidence now needs at
+  least1.8736375 in the constructed limiting family, with finite fair-bit witnesses
+  violating1.87; no nondyadic/global optimum is claimed. Heterogeneous retry risk is sharp
+  under conditional-on-good-calibration reached-history premises. Risk and cost orderings
+  may conflict; integer848 optimum applies only to the supplied two-attempt sufficient
+  certificate, not hardware or all protocols. Actual common-domain matter/light, physical
+  positive quotient, common-bar/mobile, thermal163/164 and native2+1/chirality remain
+  open. Historical predecessor (not live):
   Retain K2473 monotone block bound and its sufficient Gaussian/factorial forcing classes;
   general analytic ordinary forcing still needs an original product or quotient estimate,
   and nonlinear convergence needs its own majorant. K2470 scalar inverse remains full with

@@ -5,6 +5,10 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-11-01: DECOUPLING, RANDOMIZED PRELUDES AND UNEQUAL RETRIES.**
+> The scalar mixed transfers need not be repeated: solve the original ordinary equation, then apply the full scalar-kernel correction once. Ordinary sufficient estimates retain C^[d(d+1)/2] but need only one factorial in the borderline forcing class; unrestricted analytic ordinary and nonlinear convergence remain open. Dyadic confidence now needs at least1.8736375 in the constructed limiting family, with finite fair-bit witnesses violating1.87; no nondyadic/global optimum is claimed. Heterogeneous retry risk is sharp under conditional-on-good-calibration reached-history premises. Risk and cost orderings may conflict; integer848 optimum applies only to the supplied two-attempt sufficient certificate, not hardware or all protocols. Actual common-domain matter/light, physical positive quotient, common-bar/mobile, thermal163/164 and native2+1/chirality remain open.
+
+
 > **2026-11-01: MIXED INVERSE BOUNDS, FIXED CONFIDENCE AND RETRIES.**
 > Retain K2473 monotone block bound and its sufficient Gaussian/factorial forcing classes; general analytic ordinary forcing still needs an original product or quotient estimate, and nonlinear convergence needs its own majorant. K2470 scalar inverse remains full with radius loss210. K2474 gives C*eta*log(1/eta)/(1-eta)<=C_epsilon<=C, eta=2^m*epsilon in[1/2,1) with strict2^-m>epsilon; exact fixed-confidence optimality is open and independent activation cannot prove it. K2475 sharpness is over a conditional classical attempt interface, not arbitrary original quantum instruments. Repeated experiments require history-valid error/completion/calibration and complete costs; shared calibration failure sets a sufficient finite-count floor. Choose the use count, then rejustify p and K for that same capped attempt. Native I1B matter/light, common-domain, positive quotient, common-bar/mobile, thermal163/164 and native2+1/chirality remain open.
 

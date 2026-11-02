@@ -1,4 +1,8 @@
 
+- [k2476-mixed-hook-decoupling](k2476_mixed_hook_decoupling_probe.py).
+- [k2477-randomized-score-preludes](k2477_randomized_score_preludes_probe.py).
+- [k2478-heterogeneous-retry-design](k2478_heterogeneous_retry_design_probe.py).
+
 - [k2473-mixed-inverse-growth](k2473_mixed_inverse_growth_probe.py).
 - [k2474-fixed-confidence-stopping](k2474_fixed_confidence_stopping_probe.py).
 - [k2475-retry-risk-cost](k2475_retry_risk_cost_probe.py).

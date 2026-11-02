@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2476-mixed-hook-decoupling](k2476-mixed-hook-decoupling.json).
+- [k2477-randomized-score-preludes](k2477-randomized-score-preludes.json).
+- [k2478-heterogeneous-retry-design](k2478-heterogeneous-retry-design.json).
+
 - [k2473-mixed-inverse-growth](k2473-mixed-inverse-growth.json).
 - [k2474-fixed-confidence-stopping](k2474-fixed-confidence-stopping.json).
 - [k2475-retry-risk-cost](k2475-retry-risk-cost.json).

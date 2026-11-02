@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2476-mixed-hook-decoupling](conditional-build/k2476-mixed-hook-decoupling-2026-11-01.md).
+- [k2477-randomized-score-preludes](conditional-build/k2477-randomized-score-preludes-2026-11-01.md).
+- [k2478-heterogeneous-retry-design](conditional-build/k2478-heterogeneous-retry-design-2026-11-01.md).
+
 - [k2473-mixed-inverse-growth](conditional-build/k2473-mixed-inverse-growth-2026-11-01.md).
 - [k2474-fixed-confidence-stopping](conditional-build/k2474-fixed-confidence-stopping-2026-11-01.md).
 - [k2475-retry-risk-cost](conditional-build/k2475-retry-risk-cost-2026-11-01.md).

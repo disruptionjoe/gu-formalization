@@ -6,6 +6,19 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2476--K2478: Decoupling, randomized preludes and unequal retries (2026-11-01)
+
+K2476 reduces joint analytic hook inversion to the ordinary equation and improves the sufficient borderline forcing class from factorial power three to one. K2477 constructs genuine randomized score preludes giving dyadic fixed-confidence lower bounds above1.8736 and exact finite violations at1.87. K2478 proves sharp unequal-attempt retry risk, distinct risk/cost ordering and convex allocation, then certifies848 minimum uses versus866 equal-count uses in one supplied two-attempt design. All are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.
+
+- [K2476](explorations/conditional-build/k2476-mixed-hook-decoupling-2026-11-01.md).
+- [K2477](explorations/conditional-build/k2477-randomized-score-preludes-2026-11-01.md).
+- [K2478](explorations/conditional-build/k2478-heterogeneous-retry-design-2026-11-01.md).
+
+Three read-only mathematical specialists reviewed the original ordinary-only filtration, actual mixed-prelude stopping laws and heterogeneous retry interfaces. Cross-review checked the probability and retry proofs independently; the lead verified splitting, limits, Bellman slopes, allocation and integer exclusion. Review corrected an accidental N=1 negative-control equality, clarified unbounded trial time versus finite use targets, typed each carrier and added explicit latent-selection and branching-history controls. Exact finite, interval, universal-proof and inherited-evidence checks remain distinct; no external-expert or proof-assistant certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2473--K2475: Mixed inverse bounds, fixed confidence and retries (2026-11-01)
 
 K2473 improves the constructed mixed hook inverse bound from C^(d^2) to C^[d(d+1)/2], enlarges its sufficient forcing class and composes unrestricted analytic scalar forcing. K2474 proves fixed-confidence stopping lower bounds with an actual dyadic-prelude law and rejects the random-activation shortcut. K2475 proves sharp abstract retry risk and conditional-output bounds, with capped costs, shared-calibration floors and a composed finite-use consumer. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.
