@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2504-verifier-sector-calibration](conditional-build/k2504-verifier-sector-calibration-2026-11-02.md).
+- [k2505-stopping-satellite-hierarchy](conditional-build/k2505-stopping-satellite-hierarchy-2026-11-02.md).
+
 - [k2502-verifier-leakage-horizon](conditional-build/k2502-verifier-leakage-horizon-2026-11-02.md).
 - [k2503-stopping-instability-boundary](conditional-build/k2503-stopping-instability-boundary-2026-11-02.md).
 

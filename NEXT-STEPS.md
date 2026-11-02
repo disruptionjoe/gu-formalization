@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-02: SHARP LEAKAGE HORIZON AND STOPPING INSTABILITY.**
+> **2026-11-02: SECTOR CALIBRATION AND STRICT SATELLITE FRAGMENTATION.**
+> K2504 gives epsilon<=sqrt(max sector-rank times wrong-event mean) and ell<=d times leakage mean from five mixed-state distributions. Pooled iid labels attain the exact restricted all-zero threshold ceil(log(G/alpha)/[-log(1-1/W)]), W=2d/epsilon^2+d/ell, with trusted fixed maps, support, preparation/readout and bias margins. This is not hardware calibration or universal sampling optimality. K2505 proves every finite stage with b<=1/100 and a/b in[2/5,9/20] admits a cheaper success-preserving binary split; a three-stage policy reaches3/4 below106307/5000000 and beats all one-stage mixtures. The onset hierarchy has decreasing positive quadratic costs, an equal-ratio finite-main/microstage limit and explicit strict-feasibility requirements. Unweighted global merging is refuted; the unrestricted optimum and K1/1000 remain open. Native matter/light, ordinary multivariable inverse, common-bar/mobile, thermal163/164 and native2+1/chirality retain their ceilings.
+
+
+> **Historical predecessor: 2026-11-02 SHARP LEAKAGE HORIZON AND STOPPING INSTABILITY.**
 > K2502 proves E<=min(1,(sum prior sqrt ell)^2+sum(1-sqrt(1-ell))^2), with last-gap leakage absent and sharp weak-leakage coefficient m-1 at fixed horizon. General coherent effects also satisfy E<=min(1,(3m+5)[sum prior ell+540600sum epsilon]); take the minimum with K2500. Exact-effect sharpness still requires structural preservation. Independently block-dephased outputs admit E<=sum prior ell+512sum epsilon; no physical dephasing or calibration is inferred. K2503 proves a unique first strict single-satellite suffix instability at S1/2,d in(4/25,17/100), while all prefixes remain stable there. At K2127/100000 an exact two-stage policy reaches3/4 and beats every one-stage mixture by at least27/2450000. The directional threshold is not the global transition; equality is uniformly stable against small single satellites, while the optimized local suffix branch has linear satellite scale and quadratic same-budget advantage beyond onset. Finite/global competitors and K1/1000 remain open. Native matter/light, ordinary multivariable inverse, common-bar/mobile, thermal163/164 and native2+1/chirality retain their ceilings.
 
 

@@ -1,4 +1,7 @@
 
+- [k2504-verifier-sector-calibration](k2504_verifier_sector_calibration_probe.py).
+- [k2505-stopping-satellite-hierarchy](k2505_stopping_satellite_hierarchy_probe.py).
+
 - [k2502-verifier-leakage-horizon](k2502_verifier_leakage_horizon_probe.py).
 - [k2503-stopping-instability-boundary](k2503_stopping_instability_boundary_probe.py).
 

@@ -6,6 +6,18 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2504--K2505: Sector calibration and strict satellite fragmentation (2026-11-02)
+
+K2504 replaces full effect tomography with five trusted sector-mixture/leakage tests, finite-confidence bounds and a pooled protocol whose all-zero sample threshold is sharp within that design. K2505 proves an explicit success-preserving stage-fragmentation theorem, a strictly improving onset-local satellite hierarchy, and a cheaper exact finite policy. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.
+
+- [K2504](explorations/conditional-build/k2504-verifier-sector-calibration-2026-11-02.md).
+- [K2505](explorations/conditional-build/k2505-stopping-satellite-hierarchy-2026-11-02.md).
+
+Read-only probability and quantum-information specialists derived and challenged the arguments, including independent rational-polynomial verification of the whole-rectangle split certificate. A distinct actual-artifact reviewer checked both proofs, instruments and saved dependency hashes. Review corrected cross-setting independence in the restricted lower bound and a limiting-policy boundary where finite approximants were inadmissible; the latter has an explicit countercontrol. Universal proofs, finite algebra/confidence fixtures and255 whole-domain Bernstein coefficients are distinct evidence kinds; internal review is not external-expert, experimental or proof-assistant certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2502--K2503: Sharp leakage horizon and stopping instability (2026-11-02)
 
 K2502 proves the optimal weak-leakage horizon coefficient for complete verifier records plus a general coherent-error extension with explicit conservative constants and a stronger dephased-output certificate. K2503 identifies the first infinitesimal suffix instability, proves small-satellite stability at equality, and certifies a finite policy outperforming every one-stage mixture at budget2127/100000. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.

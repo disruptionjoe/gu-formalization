@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: eaac879dd1043c9430938216b4fa83a5bd10d0c2
+revision_basis: 2a26e56397f948da32029daa2469a48fe3be2eb3
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,12 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2504 replaces full effect tomography with five trusted sector-mixture/leakage tests,
+    finite-confidence bounds and a pooled protocol whose all-zero sample threshold is sharp
+    within that design. K2505 proves an explicit success-preserving stage-fragmentation
+    theorem, a strictly improving onset-local satellite hierarchy, and a cheaper exact
+    finite policy. These are conditional mathematical results; source polarities,
+    ledger0.263 and physical credit remain unchanged. Historical predecessor (not live):
     K2502 proves the optimal weak-leakage horizon coefficient for complete verifier records
     plus a general coherent-error extension with explicit conservative constants and a
     stronger dephased-output certificate. K2503 identifies the first infinitesimal suffix
@@ -18244,6 +18250,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2504-verifier-sector-calibration-2026-11-02.md
+  - lab/process/k2504-verifier-sector-calibration.json
+  - tests/channel-swings/k2504_verifier_sector_calibration_probe.py
+  - explorations/conditional-build/k2505-stopping-satellite-hierarchy-2026-11-02.md
+  - lab/process/k2505-stopping-satellite-hierarchy.json
+  - tests/channel-swings/k2505_stopping_satellite_hierarchy_probe.py
   - explorations/conditional-build/k2502-verifier-leakage-horizon-2026-11-02.md
   - lab/process/k2502-verifier-leakage-horizon.json
   - tests/channel-swings/k2502_verifier_leakage_horizon_probe.py
@@ -20657,6 +20669,9 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which trusted preparation/readout model can meet the calibration error floors, and can a
+  prefix-weighted global stopping certificate or finite-main/distributed-tail variational
+  proof close the remaining frontier? Historical predecessor (not live):
   Can trusted calibration/readout data instantiate the general coherent-error law, and
   where does global one-stage stopping optimality end before the local directional
   threshold? Historical predecessor (not live):
@@ -25005,6 +25020,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K2504 gives epsilon<=sqrt(max sector-rank times wrong-event mean) and ell<=d times
+  leakage mean from five mixed-state distributions. Pooled iid labels attain the exact
+  restricted all-zero threshold ceil(log(G/alpha)/[-log(1-1/W)]), W=2d/epsilon^2+d/ell,
+  with trusted fixed maps, support, preparation/readout and bias margins. This is not
+  hardware calibration or universal sampling optimality. K2505 proves every finite stage
+  with b<=1/100 and a/b in[2/5,9/20] admits a cheaper success-preserving binary split; a
+  three-stage policy reaches3/4 below106307/5000000 and beats all one-stage mixtures. The
+  onset hierarchy has decreasing positive quadratic costs, an equal-ratio
+  finite-main/microstage limit and explicit strict-feasibility requirements. Unweighted
+  global merging is refuted; the unrestricted optimum and K1/1000 remain open. Native
+  matter/light, ordinary multivariable inverse, common-bar/mobile, thermal163/164 and
+  native2+1/chirality retain their ceilings. Historical predecessor (not live):
   K2502 proves E<=min(1,(sum prior sqrt ell)^2+sum(1-sqrt(1-ell))^2), with last-gap
   leakage absent and sharp weak-leakage coefficient m-1 at fixed horizon. General coherent
   effects also satisfy E<=min(1,(3m+5)[sum prior ell+540600sum epsilon]); take the minimum

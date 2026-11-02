@@ -1,0 +1,362 @@
+{
+  "result": "K2504",
+  "scope": "conditional five-distribution calibration; no measured data or native physical credit",
+  "evidence_kind": "universal written proof plus finite exact algebra/rational coverage and certified log enclosures; counts are not theorem totals",
+  "checks": {
+    "effect_and_complement_positive_(1/3, (1/4, 3/4), 1)": true,
+    "exact_square_identity_(1/3, (1/4, 3/4), 1)": true,
+    "square_domination_(1/3, (1/4, 3/4), 1)": true,
+    "operator_bound_(1/3, (1/4, 3/4), 1)": true,
+    "effect_and_complement_positive_(1/3, (1/4, 3/4), I)": true,
+    "exact_square_identity_(1/3, (1/4, 3/4), I)": true,
+    "square_domination_(1/3, (1/4, 3/4), I)": true,
+    "operator_bound_(1/3, (1/4, 3/4), I)": true,
+    "effect_and_complement_positive_(1/3, (0, 1), 1)": true,
+    "exact_square_identity_(1/3, (0, 1), 1)": true,
+    "square_domination_(1/3, (0, 1), 1)": true,
+    "operator_bound_(1/3, (0, 1), 1)": true,
+    "effect_and_complement_positive_(1/3, (0, 1), I)": true,
+    "exact_square_identity_(1/3, (0, 1), I)": true,
+    "square_domination_(1/3, (0, 1), I)": true,
+    "operator_bound_(1/3, (0, 1), I)": true,
+    "effect_and_complement_positive_(1/3, (1/5, 2/5), 1)": true,
+    "exact_square_identity_(1/3, (1/5, 2/5), 1)": true,
+    "square_domination_(1/3, (1/5, 2/5), 1)": true,
+    "operator_bound_(1/3, (1/5, 2/5), 1)": true,
+    "effect_and_complement_positive_(1/3, (1/5, 2/5), I)": true,
+    "exact_square_identity_(1/3, (1/5, 2/5), I)": true,
+    "square_domination_(1/3, (1/5, 2/5), I)": true,
+    "operator_bound_(1/3, (1/5, 2/5), I)": true,
+    "effect_and_complement_positive_(2/5, (1/4, 3/4), 1)": true,
+    "exact_square_identity_(2/5, (1/4, 3/4), 1)": true,
+    "square_domination_(2/5, (1/4, 3/4), 1)": true,
+    "operator_bound_(2/5, (1/4, 3/4), 1)": true,
+    "effect_and_complement_positive_(2/5, (1/4, 3/4), I)": true,
+    "exact_square_identity_(2/5, (1/4, 3/4), I)": true,
+    "square_domination_(2/5, (1/4, 3/4), I)": true,
+    "operator_bound_(2/5, (1/4, 3/4), I)": true,
+    "effect_and_complement_positive_(2/5, (0, 1), 1)": true,
+    "exact_square_identity_(2/5, (0, 1), 1)": true,
+    "square_domination_(2/5, (0, 1), 1)": true,
+    "operator_bound_(2/5, (0, 1), 1)": true,
+    "effect_and_complement_positive_(2/5, (0, 1), I)": true,
+    "exact_square_identity_(2/5, (0, 1), I)": true,
+    "square_domination_(2/5, (0, 1), I)": true,
+    "operator_bound_(2/5, (0, 1), I)": true,
+    "effect_and_complement_positive_(2/5, (1/5, 2/5), 1)": true,
+    "exact_square_identity_(2/5, (1/5, 2/5), 1)": true,
+    "square_domination_(2/5, (1/5, 2/5), 1)": true,
+    "operator_bound_(2/5, (1/5, 2/5), 1)": true,
+    "effect_and_complement_positive_(2/5, (1/5, 2/5), I)": true,
+    "exact_square_identity_(2/5, (1/5, 2/5), I)": true,
+    "square_domination_(2/5, (1/5, 2/5), I)": true,
+    "operator_bound_(2/5, (1/5, 2/5), I)": true,
+    "effect_and_complement_positive_(3/7, (1/4, 3/4), 1)": true,
+    "exact_square_identity_(3/7, (1/4, 3/4), 1)": true,
+    "square_domination_(3/7, (1/4, 3/4), 1)": true,
+    "operator_bound_(3/7, (1/4, 3/4), 1)": true,
+    "effect_and_complement_positive_(3/7, (1/4, 3/4), I)": true,
+    "exact_square_identity_(3/7, (1/4, 3/4), I)": true,
+    "square_domination_(3/7, (1/4, 3/4), I)": true,
+    "operator_bound_(3/7, (1/4, 3/4), I)": true,
+    "effect_and_complement_positive_(3/7, (0, 1), 1)": true,
+    "exact_square_identity_(3/7, (0, 1), 1)": true,
+    "square_domination_(3/7, (0, 1), 1)": true,
+    "operator_bound_(3/7, (0, 1), 1)": true,
+    "effect_and_complement_positive_(3/7, (0, 1), I)": true,
+    "exact_square_identity_(3/7, (0, 1), I)": true,
+    "square_domination_(3/7, (0, 1), I)": true,
+    "operator_bound_(3/7, (0, 1), I)": true,
+    "effect_and_complement_positive_(3/7, (1/5, 2/5), 1)": true,
+    "exact_square_identity_(3/7, (1/5, 2/5), 1)": true,
+    "square_domination_(3/7, (1/5, 2/5), 1)": true,
+    "operator_bound_(3/7, (1/5, 2/5), 1)": true,
+    "effect_and_complement_positive_(3/7, (1/5, 2/5), I)": true,
+    "exact_square_identity_(3/7, (1/5, 2/5), I)": true,
+    "square_domination_(3/7, (1/5, 2/5), I)": true,
+    "operator_bound_(3/7, (1/5, 2/5), I)": true,
+    "original_Q_rank10": true,
+    "original_T_rank12": true,
+    "original_noncommuting_plane": true,
+    "actual_unitary_1/10": true,
+    "rank_rotation_norm_Q1/10": true,
+    "rank_sharpness_Q1/10": true,
+    "rank_rotation_norm_T1/10": true,
+    "rank_sharpness_T1/10": true,
+    "actual_unitary_1/5": true,
+    "rank_rotation_norm_Q1/5": true,
+    "rank_sharpness_Q1/5": true,
+    "rank_rotation_norm_T1/5": true,
+    "rank_sharpness_T1/5": true,
+    "faithful_preparation_bound_sharp": true,
+    "initialized_memory_calibration_passes": true,
+    "leakage_trace_bound_sharp": true,
+    "binomial_upper_monotone_1": true,
+    "binomial_all_wrong_endpoint_1": true,
+    "binomial_root_upper_(1, 0)": true,
+    "finite_coverage_(1, Fraction(0, 1))": true,
+    "finite_coverage_(1, Fraction(1, 10))": true,
+    "finite_coverage_(1, Fraction(1, 3))": true,
+    "finite_coverage_(1, Fraction(1, 2))": true,
+    "finite_coverage_(1, Fraction(9, 10))": true,
+    "finite_coverage_(1, Fraction(1, 1))": true,
+    "binomial_upper_monotone_2": true,
+    "binomial_all_wrong_endpoint_2": true,
+    "binomial_root_upper_(2, 0)": true,
+    "binomial_root_upper_(2, 1)": true,
+    "finite_coverage_(2, Fraction(0, 1))": true,
+    "finite_coverage_(2, Fraction(1, 10))": true,
+    "finite_coverage_(2, Fraction(1, 3))": true,
+    "finite_coverage_(2, Fraction(1, 2))": true,
+    "finite_coverage_(2, Fraction(9, 10))": true,
+    "finite_coverage_(2, Fraction(1, 1))": true,
+    "binomial_upper_monotone_5": true,
+    "binomial_all_wrong_endpoint_5": true,
+    "binomial_root_upper_(5, 0)": true,
+    "binomial_root_upper_(5, 1)": true,
+    "binomial_root_upper_(5, 2)": true,
+    "binomial_root_upper_(5, 3)": true,
+    "binomial_root_upper_(5, 4)": true,
+    "finite_coverage_(5, Fraction(0, 1))": true,
+    "finite_coverage_(5, Fraction(1, 10))": true,
+    "finite_coverage_(5, Fraction(1, 3))": true,
+    "finite_coverage_(5, Fraction(1, 2))": true,
+    "finite_coverage_(5, Fraction(9, 10))": true,
+    "finite_coverage_(5, Fraction(1, 1))": true,
+    "binomial_upper_monotone_10": true,
+    "binomial_all_wrong_endpoint_10": true,
+    "binomial_root_upper_(10, 0)": true,
+    "binomial_root_upper_(10, 1)": true,
+    "binomial_root_upper_(10, 2)": true,
+    "binomial_root_upper_(10, 3)": true,
+    "binomial_root_upper_(10, 4)": true,
+    "binomial_root_upper_(10, 5)": true,
+    "binomial_root_upper_(10, 6)": true,
+    "binomial_root_upper_(10, 7)": true,
+    "binomial_root_upper_(10, 8)": true,
+    "binomial_root_upper_(10, 9)": true,
+    "finite_coverage_(10, Fraction(0, 1))": true,
+    "finite_coverage_(10, Fraction(1, 10))": true,
+    "finite_coverage_(10, Fraction(1, 3))": true,
+    "finite_coverage_(10, Fraction(1, 2))": true,
+    "finite_coverage_(10, Fraction(9, 10))": true,
+    "finite_coverage_(10, Fraction(1, 1))": true,
+    "confidence_allocation_1": true,
+    "confidence_allocation_2": true,
+    "confidence_allocation_7": true,
+    "log500_below7": true,
+    "tomography_log_above15": true,
+    "total_trials": true,
+    "design_improvement": true,
+    "ranks_sum_two_d": true,
+    "ordered_record_consumer": true,
+    "positive_postselection_margin": true,
+    "transcript_probability_nonzero": true,
+    "confidence_bias_triangle": true,
+    "pooled_label_weights": true,
+    "pooled_load_identity_[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]": true,
+    "pooled_gate_implies_each_[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]": true,
+    "pooled_load_identity_[Fraction(1, 2), Fraction(1, 8), Fraction(1, 8), Fraction(1, 8), Fraction(1, 8)]": true,
+    "pooled_gate_implies_each_[Fraction(1, 2), Fraction(1, 8), Fraction(1, 8), Fraction(1, 8), Fraction(1, 8)]": true,
+    "pooled_load_identity_[Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]": true,
+    "pooled_gate_implies_each_[Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]": true,
+    "pooled_log100_below5": true,
+    "pooled_sufficient_trials": true,
+    "pooled_systematic_bias": true,
+    "actual_preparation_readout_bias": true,
+    "pooled_memory_unitary": true,
+    "pooled_memory_effects_exact": true,
+    "pooled_memory_rank_one_leak": true,
+    "pooled_leak_probability": true,
+    "pooling_scalar_minimax_False": true,
+    "pooling_scalar_minimax_True": true,
+    "pooled_sufficient_zero_count": true
+  },
+  "contrary_controls": {
+    "unphysical_matrix_cannot_use_identity": true,
+    "linear_wrong_count_bound_false_Q1/10": true,
+    "linear_wrong_count_bound_false_T1/10": true,
+    "linear_wrong_count_bound_false_Q1/5": true,
+    "linear_wrong_count_bound_false_T1/5": true,
+    "wrong_uniform_rank_under_biased_prep": true,
+    "missing_support_invisible": true,
+    "uncovered_memory_defect_one": true,
+    "point_estimate_not_confidence": true,
+    "finite_zero_not_exact": true,
+    "failure_to_allocate_settings": true,
+    "systematic_floor_cannot_shrink_with_shots": true,
+    "zero_acceptance_margin_invalid": true,
+    "undersampled_rotation_false_certification": true,
+    "omit_sector_rank_fails": true,
+    "omit_leakage_dimension_fails": true,
+    "separate_gate_not_pooled_gate": true,
+    "misweighted_label_gate_false": true,
+    "nonoptimal_weights_larger_scalar": true,
+    "pooled_insufficient_zero_count": true,
+    "pooled_systematic_floor": true
+  },
+  "rotation_rows": [
+    {
+      "z": "1/10",
+      "effect_error_squared": "400/10201",
+      "rank": 10,
+      "wrong_plus": "40/10201",
+      "wrong_minus": "200/499849"
+    },
+    {
+      "z": "1/10",
+      "effect_error_squared": "400/10201",
+      "rank": 12,
+      "wrong_plus": "100/30603",
+      "wrong_minus": "25/61206"
+    },
+    {
+      "z": "1/5",
+      "effect_error_squared": "25/169",
+      "rank": 10,
+      "wrong_plus": "5/338",
+      "wrong_minus": "25/16562"
+    },
+    {
+      "z": "1/5",
+      "effect_error_squared": "25/169",
+      "rank": 12,
+      "wrong_plus": "25/2028",
+      "wrong_minus": "25/16224"
+    }
+  ],
+  "binomial_fixtures": [
+    {
+      "n": 1,
+      "p": "0",
+      "risk": "0"
+    },
+    {
+      "n": 1,
+      "p": "1/10",
+      "risk": "0"
+    },
+    {
+      "n": 1,
+      "p": "1/3",
+      "risk": "0"
+    },
+    {
+      "n": 1,
+      "p": "1/2",
+      "risk": "0"
+    },
+    {
+      "n": 1,
+      "p": "9/10",
+      "risk": "0"
+    },
+    {
+      "n": 1,
+      "p": "1",
+      "risk": "0"
+    },
+    {
+      "n": 2,
+      "p": "0",
+      "risk": "0"
+    },
+    {
+      "n": 2,
+      "p": "1/10",
+      "risk": "0"
+    },
+    {
+      "n": 2,
+      "p": "1/3",
+      "risk": "0"
+    },
+    {
+      "n": 2,
+      "p": "1/2",
+      "risk": "0"
+    },
+    {
+      "n": 2,
+      "p": "9/10",
+      "risk": "1/100"
+    },
+    {
+      "n": 2,
+      "p": "1",
+      "risk": "0"
+    },
+    {
+      "n": 5,
+      "p": "0",
+      "risk": "0"
+    },
+    {
+      "n": 5,
+      "p": "1/10",
+      "risk": "0"
+    },
+    {
+      "n": 5,
+      "p": "1/3",
+      "risk": "0"
+    },
+    {
+      "n": 5,
+      "p": "1/2",
+      "risk": "0"
+    },
+    {
+      "n": 5,
+      "p": "9/10",
+      "risk": "107/12500"
+    },
+    {
+      "n": 5,
+      "p": "1",
+      "risk": "0"
+    },
+    {
+      "n": 10,
+      "p": "0",
+      "risk": "0"
+    },
+    {
+      "n": 10,
+      "p": "1/10",
+      "risk": "0"
+    },
+    {
+      "n": 10,
+      "p": "1/3",
+      "risk": "1024/59049"
+    },
+    {
+      "n": 10,
+      "p": "1/2",
+      "risk": "11/1024"
+    },
+    {
+      "n": 10,
+      "p": "9/10",
+      "risk": "7996999/625000000"
+    },
+    {
+      "n": 10,
+      "p": "1",
+      "risk": "0"
+    }
+  ],
+  "resources": {
+    "new_sufficient_trials": 1512000756000000,
+    "old_design_lower": 97161586560000000000000,
+    "record_bound": "2049/1000000",
+    "accepted_bound": "2049/497951"
+  },
+  "dependencies": {
+    "tests/channel-swings/k2504_verifier_sector_calibration_probe.py": "7a481c18515e3ea1edc55d45b88262dd53eb1a355dd0fe8009570bf5ad80cfaf",
+    "explorations/conditional-build/k2504-verifier-sector-calibration-2026-11-02.md": "a787b45d78c0f94e39f39627511bfb2cb0bb8612d77245f3bd89d44a7974c890",
+    "explorations/conditional-build/k2502-verifier-leakage-horizon-2026-11-02.md": "b60fa7cbfe0e05561368217775b11a4e1d0d43e6ab5d509b4bb2cd369faa1084",
+    "explorations/conditional-build/k2500-reachable-memory-leakage-2026-11-02.md": "2a360d979171e7579fed8f64203d1c2cf0ee016ace6dc71c3ef99356e7c8f379"
+  }
+}

@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2504-verifier-sector-calibration](k2504-verifier-sector-calibration.json).
+- [k2505-stopping-satellite-hierarchy](k2505-stopping-satellite-hierarchy.json).
+
 - [k2502-verifier-leakage-horizon](k2502-verifier-leakage-horizon.json).
 - [k2503-stopping-instability-boundary](k2503-stopping-instability-boundary.json).
 
