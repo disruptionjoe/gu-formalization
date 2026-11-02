@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-02: LINEAR LEAKAGE AND EXACT LOCAL STOPPING OPTIMUM.**
+> **2026-11-02: SHARP LEAKAGE HORIZON AND STOPPING INSTABILITY.**
+> K2502 proves E<=min(1,(sum prior sqrt ell)^2+sum(1-sqrt(1-ell))^2), with last-gap leakage absent and sharp weak-leakage coefficient m-1 at fixed horizon. General coherent effects also satisfy E<=min(1,(3m+5)[sum prior ell+540600sum epsilon]); take the minimum with K2500. Exact-effect sharpness still requires structural preservation. Independently block-dephased outputs admit E<=sum prior ell+512sum epsilon; no physical dephasing or calibration is inferred. K2503 proves a unique first strict single-satellite suffix instability at S1/2,d in(4/25,17/100), while all prefixes remain stable there. At K2127/100000 an exact two-stage policy reaches3/4 and beats every one-stage mixture by at least27/2450000. The directional threshold is not the global transition; equality is uniformly stable against small single satellites, while the optimized local suffix branch has linear satellite scale and quadratic same-budget advantage beyond onset. Finite/global competitors and K1/1000 remain open. Native matter/light, ordinary multivariable inverse, common-bar/mobile, thermal163/164 and native2+1/chirality retain their ceilings.
+
+
+> **Historical predecessor: 2026-11-02 LINEAR LEAKAGE AND EXACT LOCAL STOPPING OPTIMUM.**
 > K2500 now proves E<=min(1,1024 sum epsilon+[513m(m-1)/2]sum ell), with exact initial support, worst-history effect/leakage bounds and aggregate complete histories. Trusted three-effect calibration has sufficient inverse-square accuracy sampling at fixed horizon; coherent rotations exclude cap-independent leakage control. Sharper horizon coefficients and trusted implementations remain open. K2501 proves the local one-stage optimum against arbitrary coordinated satellites and costly mixtures, with linear coefficient(3S-1)/(1+S)^2. S=1/2,K<=2^-88 is sufficient, not the transition; K=1/1000 and the global frontier remain open. Native matter/light, positive quotient, ordinary multivariable hook inverse, common-bar/mobile, thermal163/164 and native2+1/chirality retain their ceilings.
 
 

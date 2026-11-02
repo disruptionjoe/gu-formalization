@@ -1,4 +1,7 @@
 
+- [k2502-verifier-leakage-horizon](k2502_verifier_leakage_horizon_probe.py).
+- [k2503-stopping-instability-boundary](k2503_stopping_instability_boundary_probe.py).
+
 - [k2500-reachable-memory-leakage](k2500_reachable_memory_leakage_probe.py).
 - [k2501-collective-stopping-satellites](k2501_collective_stopping_satellites_probe.py).
 

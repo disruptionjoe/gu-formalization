@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2502--K2503: Sharp leakage horizon and stopping instability (2026-11-02)
+
+K2502 proves the optimal weak-leakage horizon coefficient for complete verifier records plus a general coherent-error extension with explicit conservative constants and a stronger dephased-output certificate. K2503 identifies the first infinitesimal suffix instability, proves small-satellite stability at equality, and certifies a finite policy outperforming every one-stage mixture at budget2127/100000. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.
+
+- [K2502](explorations/conditional-build/k2502-verifier-leakage-horizon-2026-11-02.md).
+- [K2503](explorations/conditional-build/k2503-stopping-instability-boundary-2026-11-02.md).
+
+Read-only quantum-information and stopping specialists derived and challenged the proofs; a distinct actual-artifact reviewer checked the full-reference polar telescope, complete-history quantifiers, entire-interval root certificate and original-cost mixture separation. Review corrected two descriptions of probe coverage and replaced a trivial zero-count reminder with a finite Bernoulli countermodel. Exact/rational controls and a certified finite Arb record calculation support the written universal proofs; internal review is not external-expert or proof-assistant certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2500--K2501: Linear leakage and exact local stopping optimum (2026-11-02)
 
 K2500 proves a reference-safe fixed-horizon recorded verifier bound linear in compressed effect error and memory leakage, with inverse-square accuracy calibration and a counterexample to cap-independent leakage control. K2501 proves exact one-stage optimality at sufficiently small budgets for every fixed score, including all adaptive policies, derives the next coefficient and certifies S=1/2,K<=2^-88. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.

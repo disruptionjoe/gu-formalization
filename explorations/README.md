@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2502-verifier-leakage-horizon](conditional-build/k2502-verifier-leakage-horizon-2026-11-02.md).
+- [k2503-stopping-instability-boundary](conditional-build/k2503-stopping-instability-boundary-2026-11-02.md).
+
 - [k2500-reachable-memory-leakage](conditional-build/k2500-reachable-memory-leakage-2026-11-02.md).
 - [k2501-collective-stopping-satellites](conditional-build/k2501-collective-stopping-satellites-2026-11-02.md).
 

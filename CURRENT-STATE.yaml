@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 4affd2e2937fe24fea949f0145b663844c60ae1d
+revision_basis: eaac879dd1043c9430938216b4fa83a5bd10d0c2
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,13 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2502 proves the optimal weak-leakage horizon coefficient for complete verifier records
+    plus a general coherent-error extension with explicit conservative constants and a
+    stronger dephased-output certificate. K2503 identifies the first infinitesimal suffix
+    instability, proves small-satellite stability at equality, and certifies a finite policy
+    outperforming every one-stage mixture at budget2127/100000. These are conditional
+    mathematical results; source polarities, ledger0.263 and physical credit remain
+    unchanged. Historical predecessor (not live):
     K2500 proves a reference-safe fixed-horizon recorded verifier bound linear in compressed
     effect error and memory leakage, with inverse-square accuracy calibration and a
     counterexample to cap-independent leakage control. K2501 proves exact one-stage
@@ -18237,6 +18244,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2502-verifier-leakage-horizon-2026-11-02.md
+  - lab/process/k2502-verifier-leakage-horizon.json
+  - tests/channel-swings/k2502_verifier_leakage_horizon_probe.py
+  - explorations/conditional-build/k2503-stopping-instability-boundary-2026-11-02.md
+  - lab/process/k2503-stopping-instability-boundary.json
+  - tests/channel-swings/k2503_stopping_instability_boundary_probe.py
   - explorations/conditional-build/k2500-reachable-memory-leakage-2026-11-02.md
   - lab/process/k2500-reachable-memory-leakage.json
   - tests/channel-swings/k2500_reachable_memory_leakage_probe.py
@@ -20644,6 +20657,9 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can trusted calibration/readout data instantiate the general coherent-error law, and
+  where does global one-stage stopping optimality end before the local directional
+  threshold? Historical predecessor (not live):
   What is the sharp horizon dependence of verifier leakage, and where does one-stage
   stopping optimality first fail beyond the certified interval? Historical predecessor
   (not live):
@@ -24989,6 +25005,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K2502 proves E<=min(1,(sum prior sqrt ell)^2+sum(1-sqrt(1-ell))^2), with last-gap
+  leakage absent and sharp weak-leakage coefficient m-1 at fixed horizon. General coherent
+  effects also satisfy E<=min(1,(3m+5)[sum prior ell+540600sum epsilon]); take the minimum
+  with K2500. Exact-effect sharpness still requires structural preservation. Independently
+  block-dephased outputs admit E<=sum prior ell+512sum epsilon; no physical dephasing or
+  calibration is inferred. K2503 proves a unique first strict single-satellite suffix
+  instability at S1/2,d in(4/25,17/100), while all prefixes remain stable there. At
+  K2127/100000 an exact two-stage policy reaches3/4 and beats every one-stage mixture by
+  at least27/2450000. The directional threshold is not the global transition; equality is
+  uniformly stable against small single satellites, while the optimized local suffix
+  branch has linear satellite scale and quadratic same-budget advantage beyond onset.
+  Finite/global competitors and K1/1000 remain open. Native matter/light, ordinary
+  multivariable inverse, common-bar/mobile, thermal163/164 and native2+1/chirality retain
+  their ceilings. Historical predecessor (not live):
   K2500 now proves E<=min(1,1024 sum epsilon+[513m(m-1)/2]sum ell), with exact initial
   support, worst-history effect/leakage bounds and aggregate complete histories. Trusted
   three-effect calibration has sufficient inverse-square accuracy sampling at fixed

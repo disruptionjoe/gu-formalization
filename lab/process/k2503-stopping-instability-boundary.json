@@ -1,0 +1,120 @@
+{
+  "boundary_equality": {
+    "coefficient_scope": "suffix ratios r in [2/5,9/20] and d in [4/25,17/100]",
+    "scope": "uniform sufficiently small single satellites, both orders; no explicit radius or global optimum",
+    "second_cost_coefficient_lower": "1/67"
+  },
+  "checks": {
+    "A_upper_identity": true,
+    "Aprime_lower_identity": true,
+    "Aprime_upper_identity": true,
+    "Asecond_lower_identity": true,
+    "Asecond_upper": true,
+    "H_convex_bound": true,
+    "H_decreases_in_M": true,
+    "H_initial": true,
+    "M_derivative": true,
+    "M_interior_domain": true,
+    "NM_second_lower": true,
+    "Z_first_lower": true,
+    "Z_second": true,
+    "Z_second_lower": true,
+    "Z_upper": true,
+    "budget_gain_coefficient": true,
+    "cost_derivative_at_witness": true,
+    "cost_gap": true,
+    "derivative_upper": true,
+    "exact_prefix_positive": true,
+    "feasible_3/700": true,
+    "feasible_691/2109": true,
+    "finite_policy_budget": true,
+    "fixed_success_d_derivative": true,
+    "g_first": true,
+    "g_second": true,
+    "interior_value": true,
+    "mixture_gap": true,
+    "one_stage_cost_lower": true,
+    "prefix_interval_bound": true,
+    "prefix_quadratic_increasing": true,
+    "prefix_sign_polynomial": true,
+    "prefix_tail_pair_sign": true,
+    "quadratic_cost_gain": true,
+    "quadratic_score_optimum": true,
+    "root_box_A_upper": true,
+    "root_box_cost_second_lower": true,
+    "root_box_k_bounds": true,
+    "root_box_log_upper": true,
+    "root_box_mixed_hessian": true,
+    "root_box_satellite": true,
+    "root_box_second_lower": true,
+    "root_box_vv_hessian": true,
+    "root_box_wb": true,
+    "root_bracket_left": true,
+    "root_bracket_right": true,
+    "root_ratio_M_lower": true,
+    "root_ratio_M_upper": true,
+    "score": true,
+    "second_coefficient_identity": true,
+    "single_cost_d_derivative": true,
+    "stationary_jacobian_invertible": true,
+    "success": true,
+    "suffix_negative": true,
+    "w_derivative": true,
+    "whole_interval_polynomial_0": true,
+    "whole_interval_polynomial_1": true,
+    "whole_interval_polynomial_2": true,
+    "whole_interval_polynomial_3": true
+  },
+  "contrary_controls": {
+    "cost_free_satellite_wrong": true,
+    "final_survival_for_all_stages_wrong": true,
+    "global_one_stage_optimum_false": true,
+    "prefix_only_misses_suffix": true,
+    "tiny_interval_not_transition": true,
+    "unclipped_ratio_invalid": true,
+    "unrepaired_success_changes": true
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2485-constrained-stopping-frontier-2026-11-01.md": "a253dd93ac94bdfe28fcb703c2c9cff88c45614dadcb44a0b6c69384bdb333a2",
+    "explorations/conditional-build/k2493-stopping-stage-splitting-2026-11-02.md": "23c335d3224168c550c75f0da066b8a6c6e6a0ff1db4380ab1d2c50400080881",
+    "explorations/conditional-build/k2499-sharp-small-budget-stopping-2026-11-02.md": "3178bceadee11406eeeabe684da9dbf419213e4023e20a8c15e7e5de3935604a",
+    "explorations/conditional-build/k2501-collective-stopping-satellites-2026-11-02.md": "b847e1bb3c2c34dd11474f244980a8a16bbcfa4d42182250a7d24c5c3e2579ea"
+  },
+  "evidence_kinds": {
+    "exact": "symbolic identities, rational whole-interval bounds and original finite-policy costs",
+    "not_claimed": "global adaptive transition or finite-error optimizer",
+    "universal": "written strict-convexity/root and supporting convex-mixture arguments"
+  },
+  "finite_policy": {
+    "budget": "2127/100000",
+    "cost_lower": "212663001213452514777576608991/10002735672694282295034398680000",
+    "cost_upper": "3972357561264872532219174098937941186310441/186831110315160481113639544896176761468375000",
+    "one_stage_mixture_gap": "27/2450000",
+    "stages": [
+      [
+        "691/2109",
+        "49/100"
+      ],
+      [
+        "3/700",
+        "1/100"
+      ]
+    ],
+    "success": "3/4"
+  },
+  "onset_branch": {
+    "fixed_success_cost_gain": "Gamma*(d-d_star)^2+O((d-d_star)^3)",
+    "same_budget_success_gain": "Gamma*L0^4/M0^3*(K-K0)^2+O((K-K0)^3)",
+    "satellite_score": "alpha*(d-d_star)/(2*beta0)+O((d-d_star)^2)",
+    "scope": "constructed local suffix optimum; lower separation from one-stage mixtures; not the global frontier"
+  },
+  "result": "K2503",
+  "root_bracket": [
+    "4/25",
+    "17/100"
+  ],
+  "root_sign_certificates": {
+    "left": "-250907660607680/52364805962614929",
+    "right": "1113850881070405/36639136021617441"
+  }
+}

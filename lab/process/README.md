@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2502-verifier-leakage-horizon](k2502-verifier-leakage-horizon.json).
+- [k2503-stopping-instability-boundary](k2503-stopping-instability-boundary.json).
+
 - [k2500-reachable-memory-leakage](k2500-reachable-memory-leakage.json).
 - [k2501-collective-stopping-satellites](k2501-collective-stopping-satellites.json).
 
