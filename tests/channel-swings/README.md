@@ -1,4 +1,7 @@
 
+- [k2494-memory-transparent-storage](k2494_memory_transparent_storage_probe.py).
+- [k2495-stopping-order-and-continuum](k2495_stopping_order_and_continuum_probe.py).
+
 - [k2492-target-preserving-storage](k2492_target_preserving_storage_probe.py).
 - [k2493-stopping-stage-splitting](k2493_stopping_stage_splitting_probe.py).
 

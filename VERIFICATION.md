@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2494--K2495: Memory-transparent storage and optimal stage structure (2026-11-02)
+
+K2494 characterizes exact verifier-transparent storage on the full retained-memory carrier, proves its non-pumping commutant structure, rejects weaker calibration assumptions and prices finite-error postselection. K2495 proves optimal fixed-multiset stage ordering, strictly improves the original two-stage witness, solves the continuum microstage variational problem and certifies finite approximation while proving that continuum-only optimization misses finite-policy advantages. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.
+
+- [K2494](explorations/conditional-build/k2494-memory-transparent-storage-2026-11-02.md).
+- [K2495](explorations/conditional-build/k2495-stopping-order-and-continuum-2026-11-02.md).
+
+Independent quantum and probability specialists derived and challenged the concrete arguments. A separate integration reviewer rederived the joint-memory theorem and convex-perspective global optimum, and caught a cancelling memory-test sequence plus a mislabeled storage-memory reference. Root replaced them with noncancelling joint storage, a distinct untouched reference and every-prefix checks. Strict positive-score scope, exogenous flag independence and finite-versus-continuum limits are explicit. Exact fixtures are supporting coverage; universal proofs are reviewed separately. No external-expert or proof-assistant certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2492--K2493: Pump thresholds and strict multistage advantage (2026-11-02)
 
 K2492 proves that target-preserving storage alone does not preserve verifier discrimination, classifies the fresh reset-to-target purification threshold including critical resonance and full-sector floors, and prices exact cap designs. K2493 proves a strict two-stage advantage over every initial mixture of single-stage policies through convexity and a rational original-law witness. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.

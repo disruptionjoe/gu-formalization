@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2494-memory-transparent-storage](k2494-memory-transparent-storage.json).
+- [k2495-stopping-order-and-continuum](k2495-stopping-order-and-continuum.json).
+
 - [k2492-target-preserving-storage](k2492-target-preserving-storage.json).
 - [k2493-stopping-stage-splitting](k2493-stopping-stage-splitting.json).
 

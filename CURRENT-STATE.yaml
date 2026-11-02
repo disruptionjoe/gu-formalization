@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 68503538c597a36331d8f4ee70f4d3bcbae6bfd2
+revision_basis: 1096bc8066eb6e5da79deb5bbf0427d3f93bc796
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,14 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2494 characterizes exact verifier-transparent storage on the full retained-memory
+    carrier, proves its non-pumping commutant structure, rejects weaker calibration
+    assumptions and prices finite-error postselection. K2495 proves optimal fixed-multiset
+    stage ordering, strictly improves the original two-stage witness, solves the continuum
+    microstage variational problem and certifies finite approximation while proving that
+    continuum-only optimization misses finite-policy advantages. These are conditional
+    mathematical results; source polarities, ledger0.263 and physical credit remain
+    unchanged. Historical predecessor (not live):
     K2492 proves that target-preserving storage alone does not preserve verifier
     discrimination, classifies the fresh reset-to-target purification threshold including
     critical resonance and full-sector floors, and prices exact cap designs. K2493 proves a
@@ -18208,6 +18216,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2494-memory-transparent-storage-2026-11-02.md
+  - lab/process/k2494-memory-transparent-storage.json
+  - tests/channel-swings/k2494_memory_transparent_storage_probe.py
+  - explorations/conditional-build/k2495-stopping-order-and-continuum-2026-11-02.md
+  - lab/process/k2495-stopping-order-and-continuum.json
+  - tests/channel-swings/k2495_stopping_order_and_continuum_probe.py
   - explorations/conditional-build/k2492-target-preserving-storage-2026-11-02.md
   - lab/process/k2492-target-preserving-storage.json
   - tests/channel-swings/k2492_target_preserving_storage_probe.py
@@ -20591,6 +20605,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can an original-law mixed finite-stage/continuum or Bellman construction characterize
+  the full stopping frontier, and can a physically priced storage process satisfy the
+  joint verifier-algebra condition including its flag and restart interface? Historical
+  predecessor (not live):
   Can a resource-calibrated full-memory storage/recovery law preserve useful verifier
   discrimination without importing target preparation, and can a structural Bellman or
   merge theorem characterize the genuinely multistage stopping frontier? Historical
@@ -24922,6 +24940,22 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K2494 exact preservation of Q/T effects is equivalent to joint Kraus commutation and
+  preserves all words/target mass with unchanged exogenous flags, even with correlated
+  retained storage memory. The original commutant has dimension7735 and protects the
+  principal-plane qubit; it cannot pump target population. Target preservation, covariance
+  and reset-memory tomography do not establish this condition. Uniform process errors
+  accumulate before conditioning and require a positive acceptance margin;
+  resource-calibrated storage/flags/restarts remain separate. K2495 sorts fixed stages by
+  increasing w/a. Reversing K2493 costs less than633/20000 at success10/13 and improves
+  cost by more than1/30000. The unique continuum optimizer follows r'=-(1-r)(1+r)(1+3r)/8
+  with possible zero suffix; exact-success finite approximations have error<=13S^2/(4n)
+  under the stated mesh condition. This is not the unrestricted optimum: finite free
+  stages beat the continuum on H in[log(1+S),S). Seek a mixed finite-stage/continuum or
+  original Bellman certificate, not further continuum-only refinement. Native
+  matter/light, positive quotient, ordinary mixed-hook inverse, common-bar/mobile,
+  thermal163/164 and native2+1/chirality retain their ceilings. Historical predecessor
+  (not live):
   K2492 target preservation alone fails by a Q-only/T-only swapping unitary. Fresh
   reset-to-target pumping purifies exactly when (1-gamma)*sqrt(uv)<=1-u for gamma>0 and
   fixed0<F0<1; equality has error~2h/[gamma(1+h)n]. Below threshold retain the

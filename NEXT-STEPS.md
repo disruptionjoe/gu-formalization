@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-02: PUMP THRESHOLDS AND STRICT MULTISTAGE ADVANTAGE.**
+> **2026-11-02: MEMORY TRANSPARENCY AND OPTIMAL STAGE STRUCTURE.**
+> K2494 exact preservation of Q/T effects is equivalent to joint Kraus commutation and preserves all words/target mass with unchanged exogenous flags, even with correlated retained storage memory. The original commutant has dimension7735 and protects the principal-plane qubit; it cannot pump target population. Target preservation, covariance and reset-memory tomography do not establish this condition. Uniform process errors accumulate before conditioning and require a positive acceptance margin; resource-calibrated storage/flags/restarts remain separate. K2495 sorts fixed stages by increasing w/a. Reversing K2493 costs less than633/20000 at success10/13 and improves cost by more than1/30000. The unique continuum optimizer follows r'=-(1-r)(1+r)(1+3r)/8 with possible zero suffix; exact-success finite approximations have error<=13S^2/(4n) under the stated mesh condition. This is not the unrestricted optimum: finite free stages beat the continuum on H in[log(1+S),S). Seek a mixed finite-stage/continuum or original Bellman certificate, not further continuum-only refinement. Native matter/light, positive quotient, ordinary mixed-hook inverse, common-bar/mobile, thermal163/164 and native2+1/chirality retain their ceilings.
+
+
+> **Historical predecessor: 2026-11-02 PUMP THRESHOLDS AND STRICT MULTISTAGE ADVANTAGE.**
 > K2492 target preservation alone fails by a Q-only/T-only swapping unitary. Fresh reset-to-target pumping purifies exactly when (1-gamma)*sqrt(uv)<=1-u for gamma>0 and fixed0<F0<1; equality has error~2h/[gamma(1+h)n]. Below threshold retain the principal-plane floor as well as alternating sectors. The pump is supplied target preparation, not free passive storage; correlated pump decisions with identical one-gap channels can make error tend to1. Critical unit-price example first reaches5% at cap26 with worst renewal cost about249million; stronger pumping gamma1/2 reaches cap2 at1612/153. K2493 at S1/2,K317/10000 attains10/13 using two stages, while every initial single-stage mixture is at most10/13-163/5616000. The K2491 tiny-budget witness is only infinitesimal-prefix stable, not globally optimal. Native matter/light, positive quotient, full ordinary mixed-hook inverse, common-bar/mobile, thermal163/164 and native2+1/chirality remain open.
 
 
