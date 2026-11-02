@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2492--K2493: Pump thresholds and strict multistage advantage (2026-11-02)
+
+K2492 proves that target-preserving storage alone does not preserve verifier discrimination, classifies the fresh reset-to-target purification threshold including critical resonance and full-sector floors, and prices exact cap designs. K2493 proves a strict two-stage advantage over every initial mixture of single-stage policies through convexity and a rational original-law witness. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.
+
+- [K2492](explorations/conditional-build/k2492-target-preserving-storage-2026-11-02.md).
+- [K2493](explorations/conditional-build/k2493-stopping-stage-splitting-2026-11-02.md).
+
+Independent quantum and probability specialists reviewed the concrete arguments; a separate adversarial integration reviewer found no remaining mathematical issue after the F0<1 scope repair. Root corrected a rounded cost and a derivative-probe sign, replaced a symbolic-log limit failure with exact first-order rational extraction, and directly checked the forced principal-plane eigenmode. Universal proofs, finite exact fixtures and inherited evidence are separate; no external-expert or proof-assistant certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2490--K2491: Storage limits and exact stopping certificate (2026-11-02)
 
 K2490 constructs exact original Markov-verifier transfer with fresh depolarizing storage, proves a final-test error floor and parity-sector limits, and prices sharp finite-cap designs. K2491 gives an exact all-control Jensen/Bernstein certificate narrowing a nondyadic stopping frontier to [0.6840881105,0.6848857418], width below0.000798. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.

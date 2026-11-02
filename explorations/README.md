@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2492-target-preserving-storage](conditional-build/k2492-target-preserving-storage-2026-11-02.md).
+- [k2493-stopping-stage-splitting](conditional-build/k2493-stopping-stage-splitting-2026-11-02.md).
+
 - [k2490-storage-noisy-markov-verifier](conditional-build/k2490-storage-noisy-markov-verifier-2026-11-02.md).
 - [k2491-analytic-stopping-certificate](conditional-build/k2491-analytic-stopping-certificate-2026-11-02.md).
 

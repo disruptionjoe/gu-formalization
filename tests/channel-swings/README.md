@@ -1,4 +1,7 @@
 
+- [k2492-target-preserving-storage](k2492_target_preserving_storage_probe.py).
+- [k2493-stopping-stage-splitting](k2493_stopping_stage_splitting_probe.py).
+
 - [k2490-storage-noisy-markov-verifier](k2490_storage_noisy_markov_verifier_probe.py).
 - [k2491-analytic-stopping-certificate](k2491_analytic_stopping_certificate_probe.py).
 

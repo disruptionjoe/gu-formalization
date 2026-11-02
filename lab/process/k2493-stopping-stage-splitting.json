@@ -1,0 +1,65 @@
+{
+  "checks": {
+    "curvature_identity": true,
+    "factored_numerator": true,
+    "g_derivative": true,
+    "native_log_arguments": true,
+    "negative_split_slope": true,
+    "numerator_factor": true,
+    "perspective_second": true,
+    "prior_small_budget_positive_split_derivative": true,
+    "same_score": true,
+    "same_success": true,
+    "single_class_gap": true,
+    "single_lower_bound": true,
+    "split_derivative": true,
+    "strict_budget_separation": true,
+    "tangent_slope_upper": true,
+    "tiny_stage_limit": true
+  },
+  "contrary_controls": {
+    "additive_failure_wrong": true,
+    "budget_actual_1/1000": true,
+    "budget_actual_317/10000": true,
+    "free_stages_do_not_match_success": true,
+    "invalid_(Fraction(-1, 1), Fraction(1, 2))": true,
+    "invalid_(Fraction(0, 1), Fraction(2, 1))": true,
+    "merge_increases_cost": true,
+    "omitting_survival_changes_cost": true,
+    "taylor_upper_not_lower": true
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2485-constrained-stopping-frontier-2026-11-01.md": "a253dd93ac94bdfe28fcb703c2c9cff88c45614dadcb44a0b6c69384bdb333a2",
+    "lab/process/k2491-analytic-stopping-certificate.json": "01a2f585c5d6e40d2ccfc62607ed92e7b982895460d809083544049c34d232fa"
+  },
+  "evidence_kinds": {
+    "exact": "symbolic identities and rational logarithm brackets",
+    "not_claimed": "global adaptive optimum, small-budget one-stage optimality, native GU physics, novelty",
+    "universal": "written strict convex perspective and Jensen mixture exclusion; exact insertion derivative"
+  },
+  "prior_witness_local_stability": {
+    "A": "95500000000000/1247265255863361",
+    "B": "476106425800000000/9116261755105305549",
+    "claim": "positive insertion derivative for every ratio r in [0,1]; not global optimality"
+  },
+  "result": "K2493",
+  "witness": {
+    "budget": "317/10000",
+    "cost_lower": "34814612470890774206262875/1099239043771144188380756106",
+    "cost_upper": "23953698080207568695086312488346395340/756214107135085584280098236052573693831",
+    "single_cost_lower": "475/14976",
+    "single_cost_upper": "34205/1078272",
+    "split_derivative": "-19/3822",
+    "stages": [
+      [
+        "1/200",
+        "1/100"
+      ],
+      [
+        "59/201",
+        "49/100"
+      ]
+    ],
+    "success": "10/13"
+  }
+}

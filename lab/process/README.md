@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2492-target-preserving-storage](k2492-target-preserving-storage.json).
+- [k2493-stopping-stage-splitting](k2493-stopping-stage-splitting.json).
+
 - [k2490-storage-noisy-markov-verifier](k2490-storage-noisy-markov-verifier.json).
 - [k2491-analytic-stopping-certificate](k2491-analytic-stopping-certificate.json).
 

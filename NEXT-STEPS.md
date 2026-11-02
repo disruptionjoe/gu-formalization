@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-02: STORAGE LIMITS AND EXACT STOPPING CERTIFICATE.**
+> **2026-11-02: PUMP THRESHOLDS AND STRICT MULTISTAGE ADVANTAGE.**
+> K2492 target preservation alone fails by a Q-only/T-only swapping unitary. Fresh reset-to-target pumping purifies exactly when (1-gamma)*sqrt(uv)<=1-u for gamma>0 and fixed0<F0<1; equality has error~2h/[gamma(1+h)n]. Below threshold retain the principal-plane floor as well as alternating sectors. The pump is supplied target preparation, not free passive storage; correlated pump decisions with identical one-gap channels can make error tend to1. Critical unit-price example first reaches5% at cap26 with worst renewal cost about249million; stronger pumping gamma1/2 reaches cap2 at1612/153. K2493 at S1/2,K317/10000 attains10/13 using two stages, while every initial single-stage mixture is at most10/13-163/5616000. The K2491 tiny-budget witness is only infinitesimal-prefix stable, not globally optimal. Native matter/light, positive quotient, full ordinary mixed-hook inverse, common-bar/mobile, thermal163/164 and native2+1/chirality remain open.
+
+
+> **Historical predecessor: 2026-11-02 STORAGE LIMITS AND EXACT STOPPING CERTIFICATE.**
 > K2491 proves5000/7309<=F_(1/2)(1/1000)<=684885741753/10^12 using an actual original-law lower policy and32896 exact continuum score rectangles. The width is below0.000798; one-stage optimality and a sharp global fixed-confidence coefficient are not established. Further mesh refinement alone does not decide multi-stage structure. K2490 gives exact multiplicity-aware storage transfer, sharp six-vertex fidelity/cost consumers and positive parity-sector limits. Every cap n>=2 with fresh global replacement delta before the final rank10/12 Q/T test has infidelity at least delta(k-1)/(108(1-delta)+delta*k). An appended ideal rank-one target filter exits this model and defeats the floor. With per-transition noise.001 and the stated prices, gap2 first meets1% at cap12; gaps1/4 have no feasible cap through24, not a global exclusion. Calibrated full-memory/storage law, native positive quotient, matter/light, common-bar/mobile, thermal163/164 and native2+1/chirality remain open.
 
 
