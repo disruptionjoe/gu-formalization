@@ -1,4 +1,7 @@
 
+- [k2522-redshift-drift-interface](k2522_redshift_drift_interface_probe.py).
+- [k2523-coupled-receiver-variation](k2523_coupled_receiver_variation_probe.py).
+
 - [k2520-nonlinear-observation-null](k2520_nonlinear_observation_null_probe.py).
 - [k2521-free-observer-receiver](k2521_free_observer_receiver_probe.py).
 

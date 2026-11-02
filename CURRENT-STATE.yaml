@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 632d5c014b606cc4c7adb69a87c0ca5112389f70
+revision_basis: 176b3eb92ac1af87ce180c7429fbffd607994651
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,13 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2522 constructs a proper-time redshift-drift interface to the sourced weak cosmology
+    test, absolute-distance H0 calibration and finite-error bounds; exact same-window
+    recombination improves its sufficient expansion error tolerance to 3.30265e-10. K2523
+    derives a rank-ten receiver bending-action obstruction, its intrinsic-curvature
+    counterroute, and the conditional separated-action response map. These are conditional
+    constructions, not native GU or empirical verdicts; ledger0.263 is unchanged. Historical
+    predecessor (not live):
     K2520 derives an exact nonlinear count-distance control and a sourced weak distance
     test, with a four-window certificate excluding a history for every shared coefficient
     and explicit nonlinear error bounds. K2521 constructs a genuine rank-ten observer graph
@@ -18303,6 +18310,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2522-redshift-drift-interface-2026-11-02.md
+  - lab/process/k2522-redshift-drift-interface.json
+  - tests/channel-swings/k2522_redshift_drift_interface_probe.py
+  - explorations/conditional-build/k2523-coupled-receiver-variation-2026-11-02.md
+  - lab/process/k2523-coupled-receiver-variation.json
+  - tests/channel-swings/k2523_coupled_receiver_variation_probe.py
   - explorations/conditional-build/k2520-nonlinear-observation-null-2026-11-02.md
   - lab/process/k2520-nonlinear-observation-null.json
   - tests/channel-swings/k2520_nonlinear_observation_null_probe.py
@@ -20770,6 +20783,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can a specified drift program supply common H0, acceleration and interpolation bands for
+  the strengthened weak test, or can the native coupled metric/observation relation supply
+  a cancelling normal-jet coefficient and a physical shared-domain response? Historical
+  predecessor (not live):
   Can justified distance-slope/selection bands make the sourced weak test discriminating,
   or can a source-owned coupled observation action retain the repaired rank-ten receiver
   without the excluded parallel/minimal-section assumptions? Historical predecessor (not
@@ -25151,6 +25168,24 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K2522 replaces uncontrolled distance differentiation with repeated comoving-source
+  redshift measurements and one absolute distance anchor. The actual same-model numerical
+  forecast changes sign between z1 and z2, without a certified global crossing or selected
+  Hstar; exact local positive drift and inherited no-identically-zero-interval result
+  retain their scope. Exact inverse-window recombination and eight Bernstein hulls improve
+  a sufficient common expansion error band from4.36898e-19 to3.30265e-10; this is not
+  necessary precision or a survey feasibility statement. Next supply a concrete
+  observational error/covariance and continuous interpolation/acceleration model with an
+  absolute anchor; higher-multipole velocity/slip access remains independent. K2523 rules
+  out every nonzero uncancelled alpha||II||²+beta||H||² defect at rank10 under
+  unrestricted independent ambient metric variation. Intrinsic EH retains the Gauss
+  ambient-curvature term and escapes; separated intrinsic response is imported, not
+  derived from I1. Next derive the actual native G(g,s) normal-jet coefficient and coupled
+  equations, or construct a genuine stationary Einstein/free embedding plus compatible
+  domains. K2516 joint-attainability calibration, K2517 finite-score/degenerate stopping
+  and K2479 multivariable hook inversion remain distinct independent candidates.
+  Common-bar/mobile, thermal163/164, native2+1/chirality and physical-quotient debts
+  retain exact ceilings. Historical predecessor (not live):
   K2520 replaces finite-amplitude geometric Taylor error by an exact
   mean-count/cubed-distance relation, but that relation is action-independent. Its sourced
   weak test needs only the first distance derivative; four exact windows exclude

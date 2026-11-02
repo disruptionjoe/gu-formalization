@@ -6,6 +6,18 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2522--K2523: Redshift drift and coupled receiver variation (2026-11-02)
+
+K2522 constructs a proper-time redshift-drift interface to the sourced weak cosmology test, absolute-distance H0 calibration and finite-error bounds; exact same-window recombination improves its sufficient expansion error tolerance to 3.30265e-10. K2523 derives a rank-ten receiver bending-action obstruction, its intrinsic-curvature counterroute, and the conditional separated-action response map. These are conditional constructions, not native GU or empirical verdicts; ledger0.263 is unchanged.
+
+- [K2522](explorations/conditional-build/k2522-redshift-drift-interface-2026-11-02.md).
+- [K2523](explorations/conditional-build/k2523-coupled-receiver-variation-2026-11-02.md).
+
+Two read-only scientific specialists checked the concrete measurement and geometry constructions; a distinct integrated reviewer checked actual notes/probes and the released exact window conditioning. Review narrowed response separation to the additive action class, identified an unattained calibration-envelope endpoint and repaired numeric-report coverage. Universal variational/Taylor/monotonicity arguments, exact finite identities and Bernstein interval bounds, inherited evidence, numerical forecasts and report consistency are separate evidence kinds. No external-expert, proof-assistant, empirical or novelty certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2520--K2521: Nonlinear observation tests and free receiver geometry (2026-11-02)
 
 K2520 derives an exact nonlinear count-distance control and a sourced weak distance test, with a four-window certificate excluding a history for every shared coefficient and explicit nonlinear error bounds. K2521 constructs a genuine rank-ten observer graph on the stationary ambient seed, then proves connection-preserving and minimal-section obstructions. These are conditional constructions, not native GU or empirical verdicts; ledger0.263 is unchanged.

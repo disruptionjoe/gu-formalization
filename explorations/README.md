@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2522-redshift-drift-interface](conditional-build/k2522-redshift-drift-interface-2026-11-02.md).
+- [k2523-coupled-receiver-variation](conditional-build/k2523-coupled-receiver-variation-2026-11-02.md).
+
 - [k2520-nonlinear-observation-null](conditional-build/k2520-nonlinear-observation-null-2026-11-02.md).
 - [k2521-free-observer-receiver](conditional-build/k2521-free-observer-receiver-2026-11-02.md).
 

@@ -1,0 +1,45 @@
+{
+  "result": "K2523",
+  "exact_identity_groups": {
+    "inherited_free_graph_receiver": true,
+    "full_graph_moment_forces_both_coefficients_zero": true,
+    "moment_trace_identity": true,
+    "trace_map_eigenvalue_four": true,
+    "bending_map_generic_determinant": true,
+    "generic_bending_rank_ten": true,
+    "tracefree_bending_map_kernel_one": true,
+    "mean_only_bending_map_rank_one": true,
+    "tracefree_receiver_dimension_nine": true,
+    "umbilic_receiver_rank_at_most_one": true,
+    "actual_connection_Gauss_scalar": true,
+    "all_100_independent_normal_jet_coefficients": true,
+    "EH_cancellation_all_100_actual_connection_jets": true,
+    "full_coupled_hessian_diagonalizes": true,
+    "metric_conjugate_source_transforms": true,
+    "full_induced_response_equals_intrinsic_response": true,
+    "intrinsic_readout_can_be_blind_to_changed_bulk_source": true,
+    "general_source_dual_chain": true
+  },
+  "contrary_controls": {
+    "dropping_ambient_curvature_loses_nonzero_cancellation": true,
+    "pure_II_graph_is_not_stationary": true,
+    "pure_mean_graph_is_not_stationary": true,
+    "tuned_tracefree_bending_still_fails_free_graph": true,
+    "indefinite_zero_norm_does_not_kill_jet_source": true,
+    "dropping_ambient_source_changes_general_response": true,
+    "free_receiver_does_not_remove_intrinsic_kernel": true,
+    "off_shell_second_chain_term_cannot_be_dropped": true,
+    "nonzero_tension_fails_free_normal_Euler": true
+  },
+  "scope": "Universal variational and distribution arguments in note; grouped finite exact identities here, not theorem totals. Independent ambient metric class only.",
+  "bending_symmetric_map_determinant": "alpha**9*(alpha + 4*beta)",
+  "full_graph_coefficient_rank": 2,
+  "finite_full_response": "13/63",
+  "dependencies": {
+    "explorations/conditional-build/k2523-coupled-receiver-variation-2026-11-02.md": "5789a3a53edeb95fd0043787b664431563904f80ede4017fd100610e9f3deaee",
+    "tests/channel-swings/k2523_coupled_receiver_variation_probe.py": "15df133ea20542bdc219fb1d8422789f5c5249392406d84f3a54300456dc850a",
+    "lab/process/k2521-free-observer-receiver.json": "491b49d58621e5cbfb4e160848eaaf1e904c51fd1f62497ecb077df038f5e786",
+    "lab/active-research/joe-directed/prediction-kickoff/matter-light-reciprocity-2026-10-27.md": "75cdbd0ee983291dcbc0756a302d110ebe45a5f5c99c4b6603a23db28f0cc2d6",
+    "explorations/k77-wave2-full-source-action-defect-localization-moving-section-ward-bv-2026-08-05.md": "1ac37dd4d06df2003679557bd12614a6aca6041b5d491e531d0acf790a17d665"
+  }
+}

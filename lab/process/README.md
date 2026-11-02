@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2522-redshift-drift-interface](k2522-redshift-drift-interface.json).
+- [k2523-coupled-receiver-variation](k2523-coupled-receiver-variation.json).
+
 - [k2520-nonlinear-observation-null](k2520-nonlinear-observation-null.json).
 - [k2521-free-observer-receiver](k2521-free-observer-receiver.json).
 
