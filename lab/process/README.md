@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2508-controller-coverage](k2508-controller-coverage.json).
+- [k2509-stopping-atom-certificate](k2509-stopping-atom-certificate.json).
+
 - [k2506-calibration-deployment-transfer](k2506-calibration-deployment-transfer.json).
 - [k2507-stopping-optimal-hybrid-tail](k2507-stopping-optimal-hybrid-tail.json).
 

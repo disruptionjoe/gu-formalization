@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: b19fedc0257d6bad35e7a168837110104811f5b1
+revision_basis: d6144a3c330bdb688bd3afab9a598c3c8eea3a6e
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,13 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2508 proves sharp coherent-controller calibration penalties and a constructive
+    finite-parameter coverage theorem with explicit full-record costs. K2509 proves global
+    one-stage stopping optimality for every score0<S<=1/2 at multipliers>=35/4,
+    quantitatively excludes finite multistage competitors and settles the original
+    budget1/1000 optimum at0.6840939084244854. These are conditional mathematical results;
+    source polarities, ledger0.263 and physical credit remain unchanged. Historical
+    predecessor (not live):
     K2506 composes five-setting sequential calibration with effect-specific coverage over
     every deployment history, producing priced complete-record and postselection guarantees
     without requiring full-channel closeness. K2507 solves the optimal distributed tail
@@ -18257,6 +18264,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2508-controller-coverage-2026-11-02.md
+  - lab/process/k2508-controller-coverage.json
+  - tests/channel-swings/k2508_controller_coverage_probe.py
+  - explorations/conditional-build/k2509-stopping-atom-certificate-2026-11-02.md
+  - lab/process/k2509-stopping-atom-certificate.json
+  - tests/channel-swings/k2509_stopping_atom_certificate_probe.py
   - explorations/conditional-build/k2506-calibration-deployment-transfer-2026-11-02.md
   - lab/process/k2506-calibration-deployment-transfer.json
   - tests/channel-swings/k2506_calibration_deployment_transfer_probe.py
@@ -20682,6 +20695,9 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can a tighter coupled Bellman estimate locate the original stopping transition beyond
+  the certified small-budget interval, and can a trusted finite-memory circuit model meet
+  the priced controller calibration requirements? Historical predecessor (not live):
   Can an independently justified effect-coverage model instantiate the verifier
   certificate, and can a global original-law certificate exclude multiple finite stopping
   atoms or improve the remaining K=1/1000 frontier? Historical predecessor (not live):
@@ -25036,6 +25052,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K2509 closes the original S1/2,K1/1000 frontier with an exact one-stage optimizer and
+  all-policy upper bound; do not requeue that endpoint. The global support certificate
+  holds for lambda>=35/4; its decoupled-curvature template fails at lambda8, which does
+  not refute one-stage optimality there. Larger-budget transitions, multiple atoms and
+  distributed tails remain open. K2508 covers every declared parametric/full-memory
+  history mixture with trusted effect regularity, including coherent controller penalties
+  sqrtG/G and explicit net sampling costs. Actual stationary generator bounds, support and
+  preparation/readout are independent inputs; no apparatus is calibrated. Native
+  matter/light, full multivariable hook inverse, common-bar/mobile, thermal163/164 and
+  native2+1/chirality retain their ceilings. Historical predecessor (not live):
   K2506 requires a uniform three-effect deployment hull over all actual and hybrid
   histories on the complete retained carrier. Density cap rho, systematic bias and effect
   drift are explicitly priced; counts alone cannot establish that coverage, and identical

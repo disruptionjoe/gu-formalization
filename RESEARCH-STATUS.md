@@ -6,6 +6,18 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2508--K2509: Coherent controller coverage and global stopping optimum (2026-11-02)
+
+K2508 proves sharp coherent-controller calibration penalties and a constructive finite-parameter coverage theorem with explicit full-record costs. K2509 proves global one-stage stopping optimality for every score0<S<=1/2 at multipliers>=35/4, quantitatively excludes finite multistage competitors and settles the original budget1/1000 optimum at0.6840939084244854. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.
+
+- [K2508](explorations/conditional-build/k2508-controller-coverage-2026-11-02.md).
+- [K2509](explorations/conditional-build/k2509-stopping-atom-certificate-2026-11-02.md).
+
+Two read-only mathematical specialists derived and challenged the independent questions; a distinct reviewer checked the actual arguments and probe/report sources. Review corrected the leakage sharpness fixture to a rank-one supported defect and clarified the global stopping claim ceiling and score domain. The subsequent exact lambda8 template obstruction was also independently reviewed. No substantive findings remain. Universal proofs, exact polynomial certification, finite channel controls, interval root signs and reporting hashes remain distinct evidence kinds; no experimental, external-expert or proof-assistant certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2506--K2507: Deployment coverage and optimal distributed stopping tails (2026-11-02)
 
 K2506 composes five-setting sequential calibration with effect-specific coverage over every deployment history, producing priced complete-record and postselection guarantees without requiring full-channel closeness. K2507 solves the optimal distributed tail after a fixed first stage, gives a restricted attainable hybrid minimization and matching equations, and strictly improves constant-ratio and identical finite tails. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.

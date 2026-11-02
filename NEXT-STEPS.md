@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-02: DEPLOYMENT COVERAGE AND OPTIMAL DISTRIBUTED TAILS.**
+> **2026-11-02: CONTROLLER COVERAGE AND GLOBAL STOPPING OPTIMUM.**
+> K2509 closes the original S1/2,K1/1000 frontier with an exact one-stage optimizer and all-policy upper bound; do not requeue that endpoint. The global support certificate holds for lambda>=35/4; its decoupled-curvature template fails at lambda8, which does not refute one-stage optimality there. Larger-budget transitions, multiple atoms and distributed tails remain open. K2508 covers every declared parametric/full-memory history mixture with trusted effect regularity, including coherent controller penalties sqrtG/G and explicit net sampling costs. Actual stationary generator bounds, support and preparation/readout are independent inputs; no apparatus is calibrated. Native matter/light, full multivariable hook inverse, common-bar/mobile, thermal163/164 and native2+1/chirality retain their ceilings.
+
+
+> **Historical predecessor: 2026-11-02 DEPLOYMENT COVERAGE AND OPTIMAL DISTRIBUTED TAILS.**
 > K2506 requires a uniform three-effect deployment hull over all actual and hybrid histories on the complete retained carrier. Density cap rho, systematic bias and effect drift are explicitly priced; counts alone cannot establish that coverage, and identical marginal channels can have different records. K2507 proves the unique fixed-main tail, attainable restricted one-first-stage minimum, corrected zero-arc derivative and strict cubic improvement over constant tails. Adjacent identical costly stages are not finite optima; an exact three-stage policy reaches3/4 below212613497/10^10. Multiple finite atoms, arbitrary mixtures, global transition and K1/1000 remain open. Native matter/light, full multivariable hook inverse, common-bar/mobile, thermal163/164 and native2+1/chirality retain their ceilings.
 
 

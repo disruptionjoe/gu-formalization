@@ -1,4 +1,7 @@
 
+- [k2508-controller-coverage](k2508_controller_coverage_probe.py).
+- [k2509-stopping-atom-certificate](k2509_stopping_atom_certificate_probe.py).
+
 - [k2506-calibration-deployment-transfer](k2506_calibration_deployment_transfer_probe.py).
 - [k2507-stopping-optimal-hybrid-tail](k2507_stopping_optimal_hybrid_tail_probe.py).
 

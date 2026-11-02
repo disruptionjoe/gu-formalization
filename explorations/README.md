@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2508-controller-coverage](conditional-build/k2508-controller-coverage-2026-11-02.md).
+- [k2509-stopping-atom-certificate](conditional-build/k2509-stopping-atom-certificate-2026-11-02.md).
+
 - [k2506-calibration-deployment-transfer](conditional-build/k2506-calibration-deployment-transfer-2026-11-02.md).
 - [k2507-stopping-optimal-hybrid-tail](conditional-build/k2507-stopping-optimal-hybrid-tail-2026-11-02.md).
 
