@@ -1,0 +1,285 @@
+{
+  "result": "K2516",
+  "scope": "exact finite controls and scalar identities; universal compression/minimax proof in note",
+  "checks": {
+    "sharp_characteristic": true,
+    "acceptance_square": true,
+    "PSD_A_0_0": true,
+    "PSD_IminusA_0_0": true,
+    "sharp_norm_0_0": true,
+    "old_bound_0_0": true,
+    "PSD_A_0_1/4": true,
+    "PSD_IminusA_0_1/4": true,
+    "sharp_norm_0_1/4": true,
+    "old_bound_0_1/4": true,
+    "PSD_A_0_1/2": true,
+    "PSD_IminusA_0_1/2": true,
+    "sharp_norm_0_1/2": true,
+    "old_bound_0_1/2": true,
+    "PSD_A_0_3/4": true,
+    "PSD_IminusA_0_3/4": true,
+    "sharp_norm_0_3/4": true,
+    "old_bound_0_3/4": true,
+    "PSD_A_0_1": true,
+    "PSD_IminusA_0_1": true,
+    "sharp_norm_0_1": true,
+    "old_bound_0_1": true,
+    "PSD_A_1/4_0": true,
+    "PSD_IminusA_1/4_0": true,
+    "sharp_norm_1/4_0": true,
+    "old_bound_1/4_0": true,
+    "PSD_A_1/4_1/4": true,
+    "PSD_IminusA_1/4_1/4": true,
+    "sharp_norm_1/4_1/4": true,
+    "old_bound_1/4_1/4": true,
+    "PSD_A_1/4_1/2": true,
+    "PSD_IminusA_1/4_1/2": true,
+    "sharp_norm_1/4_1/2": true,
+    "old_bound_1/4_1/2": true,
+    "PSD_A_1/4_3/4": true,
+    "PSD_IminusA_1/4_3/4": true,
+    "sharp_norm_1/4_3/4": true,
+    "old_bound_1/4_3/4": true,
+    "PSD_A_1/4_1": true,
+    "PSD_IminusA_1/4_1": true,
+    "sharp_norm_1/4_1": true,
+    "old_bound_1/4_1": true,
+    "PSD_A_1/2_0": true,
+    "PSD_IminusA_1/2_0": true,
+    "sharp_norm_1/2_0": true,
+    "old_bound_1/2_0": true,
+    "PSD_A_1/2_1/4": true,
+    "PSD_IminusA_1/2_1/4": true,
+    "sharp_norm_1/2_1/4": true,
+    "old_bound_1/2_1/4": true,
+    "PSD_A_1/2_1/2": true,
+    "PSD_IminusA_1/2_1/2": true,
+    "sharp_norm_1/2_1/2": true,
+    "old_bound_1/2_1/2": true,
+    "PSD_A_1/2_3/4": true,
+    "PSD_IminusA_1/2_3/4": true,
+    "sharp_norm_1/2_3/4": true,
+    "old_bound_1/2_3/4": true,
+    "PSD_A_1/2_1": true,
+    "PSD_IminusA_1/2_1": true,
+    "sharp_norm_1/2_1": true,
+    "old_bound_1/2_1": true,
+    "PSD_A_3/4_0": true,
+    "PSD_IminusA_3/4_0": true,
+    "sharp_norm_3/4_0": true,
+    "old_bound_3/4_0": true,
+    "PSD_A_3/4_1/4": true,
+    "PSD_IminusA_3/4_1/4": true,
+    "sharp_norm_3/4_1/4": true,
+    "old_bound_3/4_1/4": true,
+    "PSD_A_3/4_1/2": true,
+    "PSD_IminusA_3/4_1/2": true,
+    "sharp_norm_3/4_1/2": true,
+    "old_bound_3/4_1/2": true,
+    "PSD_A_3/4_3/4": true,
+    "PSD_IminusA_3/4_3/4": true,
+    "sharp_norm_3/4_3/4": true,
+    "old_bound_3/4_3/4": true,
+    "PSD_A_3/4_1": true,
+    "PSD_IminusA_3/4_1": true,
+    "sharp_norm_3/4_1": true,
+    "old_bound_3/4_1": true,
+    "PSD_A_1_0": true,
+    "PSD_IminusA_1_0": true,
+    "sharp_norm_1_0": true,
+    "old_bound_1_0": true,
+    "PSD_A_1_1/4": true,
+    "PSD_IminusA_1_1/4": true,
+    "sharp_norm_1_1/4": true,
+    "old_bound_1_1/4": true,
+    "PSD_A_1_1/2": true,
+    "PSD_IminusA_1_1/2": true,
+    "sharp_norm_1_1/2": true,
+    "old_bound_1_1/2": true,
+    "PSD_A_1_3/4": true,
+    "PSD_IminusA_1_3/4": true,
+    "sharp_norm_1_3/4": true,
+    "old_bound_1_3/4": true,
+    "PSD_A_1_1": true,
+    "PSD_IminusA_1_1": true,
+    "sharp_norm_1_1": true,
+    "old_bound_1_1": true,
+    "actual_CPTP_Kraus_complete": true,
+    "actual_channel_effect": true,
+    "complex_phase_spectrum": true,
+    "higher_rank_embedding": true,
+    "rank_two_wrong_trace": true,
+    "rank_four_wrong_trace": true,
+    "label_normalization": true,
+    "balanced_minimax_vertex": true,
+    "large_sector_axis_vertex": true,
+    "small_sector_axis_gap": true,
+    "balanced_increases_with_q": true,
+    "large_axis_decreases": true,
+    "nonlinear_domination_other_half": true,
+    "large_tolerance_axis_equalization": true,
+    "large_tolerance_balanced_gap": true,
+    "boundary_(1/100, 1/100, 0)": true,
+    "boundary_(1/100, 1/10000, 1/10000)": true,
+    "boundary_(1/100, 0, 1/100)": true,
+    "boundary_(1/4, 1/4, 0)": true,
+    "boundary_(1/4, 1/16, 1/16)": true,
+    "boundary_(1/4, 0, 1/4)": true,
+    "boundary_(1/2, 1/2, 0)": true,
+    "boundary_(1/2, 1/4, 1/4)": true,
+    "boundary_(1/2, 0, 1/2)": true,
+    "resource_weight": true,
+    "zero_count_sufficient": true,
+    "same_carrier_old_weight": true,
+    "improvement_over_9_8": true,
+    "outer_mix_normalized": true,
+    "record_bound": true,
+    "postselection_consumer": true
+  },
+  "contrary_controls": {
+    "coherent_linear_error_false": true,
+    "one_endpoint_nonunitary_invisible": true,
+    "asymmetric_old_bound_strict": true,
+    "rank_factor_required": true,
+    "omit_effect_positivity_invalid": true,
+    "arbitrary_labels_lose_minimax": true,
+    "systematic_floor_not_removed_by_samples": true,
+    "pooled_gate_not_necessary": true,
+    "average_not_history_uniform": true
+  },
+  "sharp_fixtures": [
+    {
+      "a": "0",
+      "b": "0",
+      "norm": "0"
+    },
+    {
+      "a": "0",
+      "b": "1/4",
+      "norm": "1/4"
+    },
+    {
+      "a": "0",
+      "b": "1/2",
+      "norm": "1/2"
+    },
+    {
+      "a": "0",
+      "b": "3/4",
+      "norm": "3/4"
+    },
+    {
+      "a": "0",
+      "b": "1",
+      "norm": "1"
+    },
+    {
+      "a": "1/4",
+      "b": "0",
+      "norm": "1/4"
+    },
+    {
+      "a": "1/4",
+      "b": "1/4",
+      "norm": "1/2"
+    },
+    {
+      "a": "1/4",
+      "b": "1/2",
+      "norm": "1/8 + sqrt(17)/8"
+    },
+    {
+      "a": "1/4",
+      "b": "3/4",
+      "norm": "1/4 + sqrt(5)/4"
+    },
+    {
+      "a": "1/4",
+      "b": "1",
+      "norm": "1"
+    },
+    {
+      "a": "1/2",
+      "b": "0",
+      "norm": "1/2"
+    },
+    {
+      "a": "1/2",
+      "b": "1/4",
+      "norm": "1/8 + sqrt(17)/8"
+    },
+    {
+      "a": "1/2",
+      "b": "1/2",
+      "norm": "sqrt(2)/2"
+    },
+    {
+      "a": "1/2",
+      "b": "3/4",
+      "norm": "1/8 + sqrt(33)/8"
+    },
+    {
+      "a": "1/2",
+      "b": "1",
+      "norm": "1"
+    },
+    {
+      "a": "3/4",
+      "b": "0",
+      "norm": "3/4"
+    },
+    {
+      "a": "3/4",
+      "b": "1/4",
+      "norm": "1/4 + sqrt(5)/4"
+    },
+    {
+      "a": "3/4",
+      "b": "1/2",
+      "norm": "1/8 + sqrt(33)/8"
+    },
+    {
+      "a": "3/4",
+      "b": "3/4",
+      "norm": "sqrt(3)/2"
+    },
+    {
+      "a": "3/4",
+      "b": "1",
+      "norm": "1"
+    },
+    {
+      "a": "1",
+      "b": "0",
+      "norm": "1"
+    },
+    {
+      "a": "1",
+      "b": "1/4",
+      "norm": "1"
+    },
+    {
+      "a": "1",
+      "b": "1/2",
+      "norm": "1"
+    },
+    {
+      "a": "1",
+      "b": "3/4",
+      "norm": "1"
+    },
+    {
+      "a": "1",
+      "b": "1",
+      "norm": "1"
+    }
+  ],
+  "weight": "44000560000000",
+  "zero_count_n": "220002800000000",
+  "dependencies": {
+    "explorations/conditional-build/k2516-asymmetric-effect-calibration-2026-11-02.md": "e1baf2ab7654b46bbdbc5b3e4b7a8290b2ff452adee18bad8ca2e2c515531b8a",
+    "tests/channel-swings/k2516_asymmetric_effect_calibration_probe.py": "3af9b9682ed6503749e043cfaeff26bd959cdc1e802d54719b833da78d935c78",
+    "explorations/conditional-build/k2504-verifier-sector-calibration-2026-11-02.md": "a787b45d78c0f94e39f39627511bfb2cb0bb8612d77245f3bd89d44a7974c890",
+    "explorations/conditional-build/k2514-structured-spectator-calibration-2026-11-02.md": "883d8c156bd8c763e418ee76305f2a321b35c64ad9a3e86cd58c2770538ad5fe"
+  }
+}

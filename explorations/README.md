@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2516-asymmetric-effect-calibration](conditional-build/k2516-asymmetric-effect-calibration-2026-11-02.md).
+- [k2517-small-score-stopping-transition](conditional-build/k2517-small-score-stopping-transition-2026-11-02.md).
+
 - [k2514-structured-spectator-calibration](conditional-build/k2514-structured-spectator-calibration-2026-11-02.md).
 - [k2515-stopping-transition-certificate](conditional-build/k2515-stopping-transition-certificate-2026-11-02.md).
 

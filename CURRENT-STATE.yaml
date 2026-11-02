@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 3b081e239447d84e69371223e7ed340414af07dc
+revision_basis: 8125dcc17d40c7d3a26f197bfd675658b735573c
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,12 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2516 proves the sharp asymmetric sector-effect bound and optimal two-sector pooling,
+    reducing a same-carrier sufficient calibration count by more than9.8-fold. K2517 proves
+    the sharp all-policy second-order small-score stopping transition at4sqrt(3)/3, an exact
+    finite two-stage separation, and the fixed-split cubic equality behavior. These are
+    conditional mathematical results; source polarities, ledger0.263 and physical credit
+    remain unchanged. Historical predecessor (not live):
     K2514 certifies a declared layered spectator-error class using effect tests, with
     optimal pooled angular-envelope detection and no assumed full-carrier norm closeness.
     K2515 proves global one-stage stopping optimality for multipliers at least 8/3 and the
@@ -18284,6 +18290,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2516-asymmetric-effect-calibration-2026-11-02.md
+  - lab/process/k2516-asymmetric-effect-calibration.json
+  - tests/channel-swings/k2516_asymmetric_effect_calibration_probe.py
+  - explorations/conditional-build/k2517-small-score-stopping-transition-2026-11-02.md
+  - lab/process/k2517-small-score-stopping-transition.json
+  - tests/channel-swings/k2517_small_score_stopping_transition_probe.py
   - explorations/conditional-build/k2514-structured-spectator-calibration-2026-11-02.md
   - lab/process/k2514-structured-spectator-calibration.json
   - tests/channel-swings/k2514_structured_spectator_calibration_probe.py
@@ -20733,6 +20745,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Does a physically specified past-lightcone measurement on the same sourced quadratic
+  metric background preserve the two-epoch density relation, and which native stationary
+  source/readout block can instantiate the matter/light response? Historical predecessor
+  (not live):
   Can a genuinely different-domain or actual-value Bellman certificate locate the
   remaining stopping transition below multiplier 8/3, and can tests control cross-plane or
   nonunitary errors beyond the structured calibration class? Historical predecessor (not
@@ -25102,6 +25118,23 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  First derive one justified past-lightcone potential/density measurement configuration on
+  the same K2367 background and apply K2376 to its actual operators; check access before
+  treating equal-comoving-mode two-time fields as data. In parallel attempt the smallest
+  native stationary matter/light source/readout block, accounting for coupled equations
+  and contact terms. Retain the sharp calibration and stopping results as independent
+  alternatives: K2517 establishes V_lambda(S)=1-A S+[rA/2+max(H,0)]S^2+O_lambda(S^3) with
+  stage-uniform explicit errors. Every1<lambda<4sqrt(3)/3 has finite two-stage
+  improvements at sufficiently small scores; lambda128/57,S1/100000 has a rational
+  positive gap against the optimized one-stage value. Above the threshold only the
+  second-order coefficient is settled; at equality each fixed nondegenerate two-stage
+  split loses at cubic order, without uniform control of degenerating splits or arbitrary
+  stage counts. Exact S1/2/global transition remains open; K2515 budgets through1/90 stay
+  solved. K2516 improves K2504 generic CPTP calibration using sharp asymmetric effects and
+  optimal two-sector design; whole Q/T/leakage allocation remains sufficient, not globally
+  minimax. Independent preparation/readout and every-history coverage remain inputs.
+  Native matter/light, full multivariable hook inverse, common-bar/mobile, thermal163/164
+  and native2+1/chirality retain their ceilings. Historical predecessor (not live):
   K2515 extends the original-law all-policy frontier through budget 1/90 using a second
   curved ratio domain and uniform residual gap 1/40. Curves retaining intercept 1/2 cannot
   admit the true small-score optimizer below multiplier 18/7; further substantive progress

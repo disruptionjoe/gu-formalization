@@ -1,4 +1,7 @@
 
+- [k2516-asymmetric-effect-calibration](k2516_asymmetric_effect_calibration_probe.py).
+- [k2517-small-score-stopping-transition](k2517_small_score_stopping_transition_probe.py).
+
 - [k2514-structured-spectator-calibration](k2514_structured_spectator_calibration_probe.py).
 - [k2515-stopping-transition-certificate](k2515_stopping_transition_certificate_probe.py).
 

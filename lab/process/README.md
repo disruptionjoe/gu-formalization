@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2516-asymmetric-effect-calibration](k2516-asymmetric-effect-calibration.json).
+- [k2517-small-score-stopping-transition](k2517-small-score-stopping-transition.json).
+
 - [k2514-structured-spectator-calibration](k2514-structured-spectator-calibration.json).
 - [k2515-stopping-transition-certificate](k2515-stopping-transition-certificate.json).
 

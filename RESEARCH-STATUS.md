@@ -6,6 +6,20 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2516--K2517: Sharp asymmetric calibration and small-score stopping transition (2026-11-02)
+
+K2516 proves the sharp asymmetric sector-effect bound and optimal two-sector pooling, reducing a same-carrier sufficient calibration count by more than9.8-fold. K2517 proves the sharp all-policy second-order small-score stopping transition at4sqrt(3)/3, an exact finite two-stage separation, and the fixed-split cubic equality behavior. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.
+
+- [K2516](explorations/conditional-build/k2516-asymmetric-effect-calibration-2026-11-02.md).
+- [K2517](explorations/conditional-build/k2517-small-score-stopping-transition-2026-11-02.md).
+
+Two read-only mathematical specialists independently reconstructed candidates and a distinct integration reviewer challenged actual proofs and probes. The lead checked the compression/extremizer and label-design proof, original ordered-prefix expansion, uniform stage-count errors, rational finite witness and optimized equality coefficients. Review strengthened the rank-loss and pooled-conservatism controls using actual effects. Exact identities and finite fixtures, universal written arguments, inherited confidence/policy reductions and report consistency remain distinct evidence kinds. No external-expert, proof-assistant, experimental or novelty certification.
+
+Final independent review: substantive findings []. Actual-effect controls and the test-label correction were applied before final no-write reproduction.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2514--K2515: Structured spectator calibration and curved stopping domain (2026-11-02)
 
 K2514 certifies a declared layered spectator-error class using effect tests, with optimal pooled angular-envelope detection and no assumed full-carrier norm closeness. K2515 proves global one-stage stopping optimality for multipliers at least 8/3 and the exact score-1/2 frontier through budget 1/90. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.
