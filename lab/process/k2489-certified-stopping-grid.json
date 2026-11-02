@@ -1,0 +1,91 @@
+{
+  "checks": {
+    "actual_cost_interval": true,
+    "all_cell_finite_certificate": true,
+    "analytic_rational_fixture": true,
+    "better_than_K2485_sqrt": true,
+    "better_than_entropy_baseline": true,
+    "bracket_width": true,
+    "cost_a_derivative": true,
+    "derivative_nonnegative_factor": true,
+    "exhaustive_grid_2_1": true,
+    "exhaustive_grid_2_2": true,
+    "exhaustive_grid_3_2": true,
+    "linear_square_certificate": true,
+    "lower_cost_denominator": true,
+    "moment_for_witness": true,
+    "normalized_log_factor": true,
+    "occupation_cost_0": true,
+    "occupation_cost_1": true,
+    "occupation_cost_2": true,
+    "occupation_cost_3": true,
+    "occupation_fail_0": true,
+    "occupation_fail_1": true,
+    "occupation_fail_2": true,
+    "occupation_fail_3": true,
+    "occupation_score_0": true,
+    "occupation_score_1": true,
+    "occupation_score_2": true,
+    "occupation_score_3": true,
+    "policy_lower_2_1": true,
+    "policy_lower_2_2": true,
+    "policy_lower_3_2": true,
+    "quadratic_discriminant": true,
+    "rational_log_upper_witness": true,
+    "rational_sqrt_upper": true,
+    "zero_stage_limit": true
+  },
+  "contrary_controls": {
+    "bad_candidate_detected": true,
+    "failed_path_not_free": true,
+    "signed_moment_requires_positive_part": true,
+    "success_only_cost_undercounts": true,
+    "tiny_stage_grid_not_global": true,
+    "unclipped_cost_wrong": true
+  },
+  "dependencies": {
+    "lab/process/k2471-sharp-stopping-coefficient.json": "776c1975f673cbbd70a8538902169493ed63924c26768e64eb809222b4d19d8b",
+    "lab/process/k2485-constrained-stopping-frontier.json": "e9c764a80c42812d252558ec26ff751a11ab5d4fc768023bd505d9133522316b",
+    "lab/process/k2487-controlled-stopping-approximation.json": "319020462b54aea4214adff0f8c0df6ecc4de3fcff3e4ee902a0cb4aa760d9f5"
+  },
+  "evidence_kinds": {
+    "finite": "rational witness and symbolic identities; exhaustive tiny grids; interval all-cell residual",
+    "inherited": "K2483/K2485 all-policy stage reduction and clipping; K2487 compression",
+    "universal": "written leakage, occupation, inversion, score-DP and residual proofs"
+  },
+  "grid": {
+    "J": 16,
+    "M": 32,
+    "lambda": "12",
+    "policy": [
+      [
+        15,
+        16
+      ]
+    ],
+    "policy_cost_interval": "[0.000665380969828409628572747699549351288380221783668089566 +/- 9.23e-58]",
+    "policy_success": "32/47",
+    "support_interval": "[0.67286649219184631849968021909476948666709691306406803160 +/- 8.93e-57]"
+  },
+  "nondyadic_bracket": {
+    "a": "231/500",
+    "actual_cost_arb": "[0.000988758967455554503252692917130058970227953164159579743 +/- 6.59e-58]",
+    "b": "1/2",
+    "budget": "1/1000",
+    "frontier_upper": "62171/90000",
+    "scope": "all-policy upper plus one-stage original-law lower; no optimum claim",
+    "success": "500/731",
+    "target": "1/2",
+    "width": "447001/65790000"
+  },
+  "residual": {
+    "covered_cells": 8704,
+    "delta_upper": "[0.00951813163233458177278401997503121098626716604244694132340 +/- 4.06e-60]",
+    "frontier_bound_at_K_1_10": "[0.733129242743445692883895131086142322097378277153558052434 +/- 7.39e-58]",
+    "knots": 16,
+    "ratio_bins": 64,
+    "scope": "rigorous all-cell residual, not sampled maximum; simple linear test candidate"
+  },
+  "result": "K2489",
+  "scope": "original fresh fair-routing law, actual failure-inclusive expected cost"
+}

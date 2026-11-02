@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2488--K2489: Markov filtering and certified stopping bracket (2026-11-02)
+
+K2488 classifies exact full-carrier filtering with Markov flag errors, proves a sharp marginal threshold, repairs antipersistence by two-step flag spacing, and prices stopped/renewal costs. K2489 proves an all-policy occupation bound and brackets a concrete nondyadic stopping frontier within0.0068, with an executable score-state Bellman and all-control residual certificate. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.
+
+- [K2488](explorations/conditional-build/k2488-markov-flag-filtering-2026-11-02.md).
+- [K2489](explorations/conditional-build/k2489-certified-stopping-grid-2026-11-02.md).
+
+Independent quantum and probability specialists reviewed concrete candidates; a separate adversarial reviewer checked universal arguments and executable seams. Root corrected critical odd B-sector ratio, a characteristic-polynomial typo and the one-sided occupation bound, added exact symbolic controls, and replaced a bare arithmetic nonrenewal control with a frozen-chain process. All final proofs and probes reviewed; no external-expert or proof-assistant certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2486--K2487: Robust noisy filtering and controlled finite stopping (2026-11-01)
 
 K2486 derives exact noisy-flag filtering on the original coherent verifier, sharp full-carrier error and renewal costs, and a robust bounded-drift guarantee; correlated flags with identical marginals retain an error floor. K2487 proves uniform schedule compression and finite action-grid approximation of the unrestricted original stopping frontier, with explicit same-budget error and a certified Bellman interface. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.

@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2488-markov-flag-filtering](conditional-build/k2488-markov-flag-filtering-2026-11-02.md).
+- [k2489-certified-stopping-grid](conditional-build/k2489-certified-stopping-grid-2026-11-02.md).
+
 - [k2486-noisy-flag-alternating-verifier](conditional-build/k2486-noisy-flag-alternating-verifier-2026-11-01.md).
 - [k2487-controlled-stopping-approximation](conditional-build/k2487-controlled-stopping-approximation-2026-11-01.md).
 

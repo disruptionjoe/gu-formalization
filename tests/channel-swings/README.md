@@ -1,4 +1,7 @@
 
+- [k2488-markov-flag-filtering](k2488_markov_flag_filtering_probe.py).
+- [k2489-certified-stopping-grid](k2489_certified_stopping_grid_probe.py).
+
 - [k2486-noisy-flag-alternating-verifier](k2486_noisy_flag_alternating_verifier_probe.py).
 - [k2487-controlled-stopping-approximation](k2487_controlled_stopping_approximation_probe.py).
 

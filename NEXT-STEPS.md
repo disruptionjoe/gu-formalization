@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-01: ROBUST NOISY FILTERING AND CONTROLLED FINITE STOPPING.**
+> **2026-11-02: MARKOV FILTERING AND CERTIFIED STOPPING BRACKET.**
+> K2489 proves500/731<=F_(1/2)(1/1000)<62171/90000, width<0.0068, using an actual one-stage lower witness and an all-adaptive-policy occupation upper. Its bound complements rather than uniformly improves the entropy bound. All-length grid values need compression error or all-control residual certification; raw grid slopes need not converge near tiny stages. K2488 full-sector Markov purification holds iff uv<(1-u)^2 for0<u<v<1, with a parity floor at equality and failure above. Every fixed chain below marginal threshold(5-sqrt5)/10 purifies, but no common finite cap follows. Sampling every second flag repairs antipersistence only with the declared transition law and exact storage; prices and independent restart assumptions remain essential. General quantum memory, measured calibration, native positive quotient, matter/light, common-bar/mobile, thermal163/164 and native2+1/chirality remain open.
+
+
+> **Historical predecessor: 2026-11-01 ROBUST NOISY FILTERING AND CONTROLLED FINITE STOPPING.**
 > K2487 bounds each fixed-target positive-budget frontier by a finite schedule library: E=delta*s*(6+s)+N*(9+s)/M, N=ceil(2s/delta)+1, and same-budget error at most E/(K+E). Effective numerical use requires rational s or a certified ceil(Ms), plus specified computable multiplier. The example s=1,K=1/10,error1/100 needs N27721,M548875800; its library was not evaluated. Seek sharper structural bounds or adaptive certified partitioning rather than claim a sharp global constant. K2486 homogeneous full-sector envelope is sharp for any supplied independent fresh flag sequence eta_j<=eta_star<1/2; target throughput decays and generic correlated/coherent errors are not covered. Hypothetical eta_star=.01,F>=.9 still needs five tests for infidelity<=7/10000. Complete gate/storage/reset calibration, physical source/readout/domain and ordinary multivariable inverse remain independent inputs. Native matter/light, physical positive quotient, common-bar/mobile, thermal163/164 and native2+1/chirality retain their ceilings.
 
 

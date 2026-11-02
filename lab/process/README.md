@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2488-markov-flag-filtering](k2488-markov-flag-filtering.json).
+- [k2489-certified-stopping-grid](k2489-certified-stopping-grid.json).
+
 - [k2486-noisy-flag-alternating-verifier](k2486-noisy-flag-alternating-verifier.json).
 - [k2487-controlled-stopping-approximation](k2487-controlled-stopping-approximation.json).
 
