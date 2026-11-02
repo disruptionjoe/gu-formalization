@@ -1,0 +1,95 @@
+{
+  "H_interval": [
+    "236694862229397/400000000000000",
+    "5917371555734927/10000000000000000"
+  ],
+  "L_interval": [
+    "[1.906452238345552703728066006943559708575511896675767330848791794288212268772 +/- 4.59e-76]",
+    "[1.906452238345553074440348539781973794205566421369511488613582945963739352921 +/- 6.89e-76]"
+  ],
+  "checks": {
+    "H_root_interval": true,
+    "L_interval": true,
+    "actual_probability_1024_0": true,
+    "actual_probability_1024_1": true,
+    "actual_probability_1024_3": true,
+    "actual_probability_1024_9": true,
+    "actual_probability_8192_0": true,
+    "actual_probability_8192_1": true,
+    "actual_probability_8192_3": true,
+    "actual_probability_8192_9": true,
+    "actual_threshold_violation_0": true,
+    "actual_threshold_violation_1": true,
+    "actual_threshold_violation_3": true,
+    "actual_threshold_violation_9": true,
+    "authenticated_lab/process/k2471-sharp-stopping-coefficient.json": true,
+    "authenticated_lab/process/k2474-fixed-confidence-stopping.json": true,
+    "authenticated_lab/process/k2477-randomized-score-preludes.json": true,
+    "bellman_positive_square_identity": true,
+    "below_global_upper": true,
+    "bound_above_1_9064": true,
+    "coin_domain_1024": true,
+    "coin_domain_8192": true,
+    "convex_cost": true,
+    "equal_actual_score_1024_0": true,
+    "equal_actual_score_1024_1": true,
+    "equal_actual_score_1024_3": true,
+    "equal_actual_score_1024_9": true,
+    "equal_actual_score_8192_0": true,
+    "equal_actual_score_8192_1": true,
+    "equal_actual_score_8192_3": true,
+    "equal_actual_score_8192_9": true,
+    "finite_violation_1_905": true,
+    "heterogeneous_recursion_[Fraction(1, 13), Fraction(1, 13), Fraction(1, 13), Fraction(1, 13), Fraction(1, 13)]": true,
+    "heterogeneous_recursion_[Fraction(1, 5), Fraction(1, 7), Fraction(1, 11)]": true,
+    "primitive_derivative": true,
+    "schedule_limit_above_1_9064": true,
+    "schedule_success_above_half": true,
+    "scheduled_cost_ge_optimum": true,
+    "strict_success_1024": true,
+    "strict_success_8192": true
+  },
+  "controls": {
+    "activation_has_no_initial_score": true,
+    "endpoint_equality_is_not_violation": true,
+    "missing_prelude_survival_changes_budget_1024": true,
+    "missing_prelude_survival_changes_budget_8192": true,
+    "omitted_failed_cost_[Fraction(1, 13), Fraction(1, 13), Fraction(1, 13), Fraction(1, 13), Fraction(1, 13)]": true,
+    "omitted_failed_cost_[Fraction(1, 5), Fraction(1, 7), Fraction(1, 11)]": true,
+    "order_matters_for_cost": true
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2480-scheduled-stopping-preludes-2026-11-01.md": "5639668c3c2f7f4f36102c7aae9267f9c320a464e82fd3d0ca4eaf1db4b03432",
+    "lab/process/k2471-sharp-stopping-coefficient.json": "776c1975f673cbbd70a8538902169493ed63924c26768e64eb809222b4d19d8b",
+    "lab/process/k2474-fixed-confidence-stopping.json": "29bbbf61a01b2bfecb18b7ef3b0648250797f2172d83ea2a0f4490a762df04e6",
+    "lab/process/k2477-randomized-score-preludes.json": "31e252082ec9f630b21b3aab5b0103a625d02c7098967ffc7d6f131b662ea0a9",
+    "tests/channel-swings/k2480_scheduled_stopping_preludes_probe.py": "30b5c891ce280cf64408bdc243d28c0e469f2e59657951adbe941d44b43f22d0"
+  },
+  "evidence_kinds": {
+    "ceiling": "sharp continuum scheduled repair subproblem and dyadic lower bound; no global adaptive optimum or physical calibration",
+    "finite": "exact rational stage probabilities and coin weights; Arb256 cost, root and violation certificates",
+    "reused": "K2471 universal upper and K2474/K2477 original stage/mixture interfaces",
+    "universal": "written sharp scheduled-continuum verification inequality, root uniqueness, finite-law approximation and strict-margin theorem"
+  },
+  "piecewise_schedule_H": "[0.59175424890619782250993430649905391359320207245668768422102749062229679116 +/- 4.83e-75]",
+  "piecewise_schedule_limit": "[1.90642055446675838191314288912235823062583596588032716624506802226792732080 +/- 8.25e-75]",
+  "result_id": "K2480",
+  "witnesses": [
+    {
+      "K_over_rho": "[0.0001781422728377492430025664718305864615380132592712201150961253958001781108 +/- 7.91e-77]",
+      "M": 1024,
+      "alpha": "2968807/2147483648",
+      "coin_bits": 32,
+      "ratio": "[1.89989027515127996019922974708324426220088549794372874015947882868844141 +/- 4.01e-72]",
+      "success_over_rho": "[0.5000009536700227554776908353296761605090331401065576562101619631117844824255 +/- 1.93e-77]"
+    },
+    {
+      "K_over_rho": "[2.22010366372874435148596999485330203706151446364748790749353118041413864e-5 +/- 6.90e-77]",
+      "M": 8192,
+      "alpha": "94588709/549755813888",
+      "coin_bits": 41,
+      "ratio": "[1.90560229960920772245698993854245264842312063061894191155223325650393422 +/- 7.07e-72]",
+      "success_over_rho": "[0.5000000149011600633573592511845730460547429476408463054382936845061833781629 +/- 2.00e-77]"
+    }
+  ]
+}

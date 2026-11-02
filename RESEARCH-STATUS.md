@@ -6,6 +6,19 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2479--K2481: Ordinary symbols, scheduled stopping and complete retries (2026-11-01)
+
+K2479 identifies an additional order12 compatibility equation for the original repeated-hook subfamily and constructs an analytic rotation lift for every scalar ridge defect after proving the actual generic symbol ranks102/103. K2480 solves the scheduled repair variational problem and improves dyadic fixed-confidence lower bounds to1.906452238..., with finite original-law violations at1.905. K2481 derives complete quantum-instrument retry effects and sharp delta/p calibration degradation, including shared failure and full-cost consumers. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.
+
+- [K2479](explorations/conditional-build/k2479-ordinary-hook-quotient-2026-11-01.md).
+- [K2480](explorations/conditional-build/k2480-scheduled-stopping-preludes-2026-11-01.md).
+- [K2481](explorations/conditional-build/k2481-complete-retry-instrument-2026-11-01.md).
+
+Three read-only specialists and the lead reviewed original hook coefficients and differential compatibility, scheduled stopping verification and strict finite embeddings, and complete CP retry effects/calibration. Independent cross-reviews found no substantive remaining defect at the stated scopes. Generic real-symbol rank, finite modular minors, exact coefficient extraction, universal variational proofs and interval finite-law checks are kept distinct; no external-expert, proof-assistant or novelty certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2476--K2478: Decoupling, randomized preludes and unequal retries (2026-11-01)
 
 K2476 reduces joint analytic hook inversion to the ordinary equation and improves the sufficient borderline forcing class from factorial power three to one. K2477 constructs genuine randomized score preludes giving dyadic fixed-confidence lower bounds above1.8736 and exact finite violations at1.87. K2478 proves sharp unequal-attempt retry risk, distinct risk/cost ordering and convex allocation, then certifies848 minimum uses versus866 equal-count uses in one supplied two-attempt design. All are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.

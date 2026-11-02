@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 1cf6b118d3eb1df8ba90b2959186eee3611ab391
+revision_basis: d6086183136bcbab50cfa714422831ccd3ef381e
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,15 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2479 identifies an additional order12 compatibility equation for the original
+    repeated-hook subfamily and constructs an analytic rotation lift for every scalar ridge
+    defect after proving the actual generic symbol ranks102/103. K2480 solves the scheduled
+    repair variational problem and improves dyadic fixed-confidence lower bounds
+    to1.906452238..., with finite original-law violations at1.905. K2481 derives complete
+    quantum-instrument retry effects and sharp delta/p calibration degradation, including
+    shared failure and full-cost consumers. These are conditional mathematical results;
+    source polarities, ledger0.263 and physical credit remain unchanged. Historical
+    predecessor (not live):
     K2476 reduces joint analytic hook inversion to the ordinary equation and improves the
     sufficient borderline forcing class from factorial power three to one. K2477 constructs
     genuine randomized score preludes giving dyadic fixed-confidence lower bounds
@@ -18157,6 +18166,15 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2479-ordinary-hook-quotient-2026-11-01.md
+  - lab/process/k2479-ordinary-hook-quotient.json
+  - tests/channel-swings/k2479_ordinary_hook_quotient_probe.py
+  - explorations/conditional-build/k2480-scheduled-stopping-preludes-2026-11-01.md
+  - lab/process/k2480-scheduled-stopping-preludes.json
+  - tests/channel-swings/k2480_scheduled_stopping_preludes_probe.py
+  - explorations/conditional-build/k2481-complete-retry-instrument-2026-11-01.md
+  - lab/process/k2481-complete-retry-instrument.json
+  - tests/channel-swings/k2481_complete_retry_instrument_probe.py
   - explorations/conditional-build/k2476-mixed-hook-decoupling-2026-11-01.md
   - lab/process/k2476-mixed-hook-decoupling.json
   - tests/channel-swings/k2476_mixed_hook_decoupling_probe.py
@@ -20495,6 +20513,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can the full ordinary hook inverse control its rotation defect and characteristic
+  boundary analytically; can unrestricted adaptive stopping beat the optimal
+  scheduled-repair family; which complete measured instrument and reset maps instantiate
+  the new retry bounds? Historical predecessor (not live):
   Can the actual ordinary hook transfer products admit a geometric analytic bound; can
   fixed-confidence adaptive stopping exceed the mixed-prelude family or obtain a matching
   upper bound; which history-valid measured instruments and complete costs instantiate
@@ -24794,6 +24816,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  The repeated-only constant-symbol shortcut is excluded by an original order12
+  compatibility equation and a full-bank rotation counterexample; generic rank restoration
+  does not prove boundary analytic solvability. A four-rotation combination now lifts any
+  analytic ridge defect g(sum x) with twelve scalar integrations. General multivariable
+  defects, remaining repeated-compatible image and uniform boundary quotient estimates are
+  still unproved; retain full scalar inverse and ordinary-first splitting. Scheduled
+  continuum repair is sharp within its declared family and gives dyadic lower
+  bound1.906452238; unrestricted adaptive and nondyadic optima remain open. Retry risk
+  needs complete no-output state updates, not only first-attempt POVMs.
+  Full-memory/reference calibration and same-count completion/reset/resource costs remain
+  independent empirical inputs. Native matter/light, positive physical quotient,
+  common-bar/mobile, thermal163/164 and native2+1/chirality retain their recorded
+  ceilings. Historical predecessor (not live):
   The scalar mixed transfers need not be repeated: solve the original ordinary equation,
   then apply the full scalar-kernel correction once. Ordinary sufficient estimates retain
   C^[d(d+1)/2] but need only one factorial in the borderline forcing class; unrestricted

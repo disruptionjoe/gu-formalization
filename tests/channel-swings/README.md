@@ -1,4 +1,8 @@
 
+- [k2479-ordinary-hook-quotient](k2479_ordinary_hook_quotient_probe.py).
+- [k2480-scheduled-stopping-preludes](k2480_scheduled_stopping_preludes_probe.py).
+- [k2481-complete-retry-instrument](k2481_complete_retry_instrument_probe.py).
+
 - [k2476-mixed-hook-decoupling](k2476_mixed_hook_decoupling_probe.py).
 - [k2477-randomized-score-preludes](k2477_randomized_score_preludes_probe.py).
 - [k2478-heterogeneous-retry-design](k2478_heterogeneous_retry_design_probe.py).

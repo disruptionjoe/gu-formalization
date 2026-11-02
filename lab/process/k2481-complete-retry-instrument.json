@@ -1,0 +1,68 @@
+{
+  "checks": {
+    "adaptive_cost_recursion": true,
+    "adaptive_tree_complete": true,
+    "adaptive_tree_output": true,
+    "adaptive_tree_wrong": true,
+    "authenticate_lab/process/k2457-local-verifier-phase-design.json": true,
+    "authenticate_lab/process/k2463-local-verifier-calibration.json": true,
+    "authenticate_lab/process/k2478-heterogeneous-retry-design.json": true,
+    "block_floor_without_one_step": true,
+    "block_tail_and_mean": true,
+    "coherent_cost_recursion": true,
+    "coherent_generalized_polynomial": true,
+    "coherent_resolvent": true,
+    "coherent_two_attempt": true,
+    "complete_equal_effects": true,
+    "complete_reset_budget": true,
+    "dark_fixed_survival": true,
+    "infinite_bad_fixed_equation": true,
+    "infinite_good_fixed_equation": true,
+    "naive_bound_strictly_weaker": true,
+    "nontrivial_generalized_attainment": true,
+    "nontrivial_generalized_bound": true,
+    "replacement_choi_positive": true,
+    "replacement_choi_trace_preservation": true,
+    "reset_budget": true,
+    "reset_consumer": true,
+    "saturation_attainment": true,
+    "scalar_sharpness_family": true,
+    "singular_support": true,
+    "terminal_tv_grid": true,
+    "two_attempt_ratio": true,
+    "two_attempt_same_povm_wrong_different": true
+  },
+  "controls": {
+    "dark_resolvent_invalid": true,
+    "diagonalized_memory_risk_invalid": true,
+    "effects_do_not_determine_retry": true,
+    "hidden_memory_evades_effect_calibration": true,
+    "independent_ratio_worsening_is_loose": true,
+    "omit_bad_history_cost": true,
+    "omit_retry_reset_cost": true,
+    "one_step_floor_not_necessary": true,
+    "unweighted_hybrid_overcharges": true,
+    "wrong_mass_is_not_conditional_risk": true,
+    "wrong_no_output_update": true,
+    "wrong_shared_failure_reuse": true,
+    "zero_output_not_zero_error": true
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2481-complete-retry-instrument-2026-11-01.md": "759425c2e02a2023bcda68a24cdf08ced0491a9531be5cd0cc6fc322e44ae584",
+    "lab/process/k2457-local-verifier-phase-design.json": "32bfbf712a2008724891cf879b8b037bd6be82fc1066d475a09bd60456cd0f56",
+    "lab/process/k2463-local-verifier-calibration.json": "e2dc580415f314ad4b6173c8c4b0ea0e6beca2bbce060dc8cf08cd49b73a712c",
+    "lab/process/k2478-heterogeneous-retry-design.json": "1b94696c88170488375a84bf44ac6160a6aa4ebd15dd3cb5bce6271ea651a11b",
+    "tests/channel-swings/k2481_complete_retry_instrument_probe.py": "5720061dd89868feb08654aa3895754fd39896d0f79742d68a5c5f04085d3f5e"
+  },
+  "evidence_kinds": {
+    "ceiling": "supplied complete positive-Hilbert instruments; no original Q/T implementation, physical GU or novelty claim",
+    "finite": "exact Fraction matrices, adaptive trees, terminal-law grids and attained scalar controls",
+    "universal": "CP adjoint recurrence, generalized Rayleigh quotient, finite-dimensional survival contraction, stopped-channel telescoping and signed TV proof"
+  },
+  "finite_counts": {
+    "scalar_calibration_cases": 216,
+    "terminal_tv_pairs": 746
+  },
+  "reset_consumer": "49751/700100",
+  "result_id": "K2481"
+}

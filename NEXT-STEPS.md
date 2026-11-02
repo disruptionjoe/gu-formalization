@@ -5,6 +5,10 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
+> **2026-11-01: ORDINARY SYMBOLS, SCHEDULED STOPPING AND COMPLETE RETRIES.**
+> The repeated-only constant-symbol shortcut is excluded by an original order12 compatibility equation and a full-bank rotation counterexample; generic rank restoration does not prove boundary analytic solvability. A four-rotation combination now lifts any analytic ridge defect g(sum x) with twelve scalar integrations. General multivariable defects, remaining repeated-compatible image and uniform boundary quotient estimates are still unproved; retain full scalar inverse and ordinary-first splitting. Scheduled continuum repair is sharp within its declared family and gives dyadic lower bound1.906452238; unrestricted adaptive and nondyadic optima remain open. Retry risk needs complete no-output state updates, not only first-attempt POVMs. Full-memory/reference calibration and same-count completion/reset/resource costs remain independent empirical inputs. Native matter/light, positive physical quotient, common-bar/mobile, thermal163/164 and native2+1/chirality retain their recorded ceilings.
+
+
 > **2026-11-01: DECOUPLING, RANDOMIZED PRELUDES AND UNEQUAL RETRIES.**
 > The scalar mixed transfers need not be repeated: solve the original ordinary equation, then apply the full scalar-kernel correction once. Ordinary sufficient estimates retain C^[d(d+1)/2] but need only one factorial in the borderline forcing class; unrestricted analytic ordinary and nonlinear convergence remain open. Dyadic confidence now needs at least1.8736375 in the constructed limiting family, with finite fair-bit witnesses violating1.87; no nondyadic/global optimum is claimed. Heterogeneous retry risk is sharp under conditional-on-good-calibration reached-history premises. Risk and cost orderings may conflict; integer848 optimum applies only to the supplied two-attempt sufficient certificate, not hardware or all protocols. Actual common-domain matter/light, physical positive quotient, common-bar/mobile, thermal163/164 and native2+1/chirality remain open.
 

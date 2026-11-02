@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2479-ordinary-hook-quotient](conditional-build/k2479-ordinary-hook-quotient-2026-11-01.md).
+- [k2480-scheduled-stopping-preludes](conditional-build/k2480-scheduled-stopping-preludes-2026-11-01.md).
+- [k2481-complete-retry-instrument](conditional-build/k2481-complete-retry-instrument-2026-11-01.md).
+
 - [k2476-mixed-hook-decoupling](conditional-build/k2476-mixed-hook-decoupling-2026-11-01.md).
 - [k2477-randomized-score-preludes](conditional-build/k2477-randomized-score-preludes-2026-11-01.md).
 - [k2478-heterogeneous-retry-design](conditional-build/k2478-heterogeneous-retry-design-2026-11-01.md).

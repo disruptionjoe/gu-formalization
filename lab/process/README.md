@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2479-ordinary-hook-quotient](k2479-ordinary-hook-quotient.json).
+- [k2480-scheduled-stopping-preludes](k2480-scheduled-stopping-preludes.json).
+- [k2481-complete-retry-instrument](k2481-complete-retry-instrument.json).
+
 - [k2476-mixed-hook-decoupling](k2476-mixed-hook-decoupling.json).
 - [k2477-randomized-score-preludes](k2477-randomized-score-preludes.json).
 - [k2478-heterogeneous-retry-design](k2478-heterogeneous-retry-design.json).
