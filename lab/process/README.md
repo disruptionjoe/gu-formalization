@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2520-nonlinear-observation-null](k2520-nonlinear-observation-null.json).
+- [k2521-free-observer-receiver](k2521-free-observer-receiver.json).
+
 - [k2518-lightcone-count-access](k2518-lightcone-count-access.json).
 - [k2519-stationary-product-receiver](k2519-stationary-product-receiver.json).
 

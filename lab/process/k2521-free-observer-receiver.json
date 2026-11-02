@@ -1,0 +1,61 @@
+{
+  "result": "K2521",
+  "exact_identity_groups": {
+    "full_DeWitt_Gram_100_entries": true,
+    "receiver_rank_ten": true,
+    "actual_graph_Hessians": true,
+    "graph_has_zero_first_derivative_at_origin": true,
+    "normal_metric_receiver": true,
+    "completeness_256_entries": true,
+    "mean_curvature_trace_normal": true,
+    "mean_curvature_norm": true,
+    "signed_second_fundamental_norm": true,
+    "Gauss_full_tensor": true,
+    "Gauss_scalar": true,
+    "Ricci_all_600_pairings": true,
+    "parallel_isometric_curvature_requires_3_over_8": true,
+    "Codazzi_contraction_0": true,
+    "Codazzi_contraction_1": true,
+    "Codazzi_contraction_2": true,
+    "Codazzi_contraction_3": true,
+    "parallel_product_rank_bound": true,
+    "trace_response_mean_curvature": true,
+    "minimal_section_trace_kernel_rank9": true,
+    "second_factor_graph_nontrivial": true
+  },
+  "contrary_controls": {
+    "flat_parallel_isometry_fails": true,
+    "tuned_curvature_does_not_rescue_Codazzi": true,
+    "graph_not_area_stationary": true,
+    "drop_trace_normal_loses_rank": true,
+    "totally_geodesic_receiver_zero": true,
+    "wrong_normal_signature_not_isometric": true,
+    "unsigned_Gauss_contraction_wrong": true,
+    "missing_factor_two_changes_receiver": true,
+    "first_factor_only_Hessians_rank_at_most3": true
+  },
+  "scope": "Universal graph/Codazzi/section arguments in note; grouped exact finite algebra here, not theorem counts. K2519 ambient stationarity is inherited unchanged.",
+  "receiver_determinant": "1/8",
+  "normal_Gram_diagonal": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "Gauss_sectional": "c1-1/4",
+  "Ricci_coefficient": "1/8",
+  "parallel_product_rank_upper_bound": 3,
+  "minimal_section_rank_upper_bound": 9,
+  "dependencies": {
+    "explorations/conditional-build/k2521-free-observer-receiver-2026-11-02.md": "4b35be546d0621ab5ee24cb7fed5032ab770067899d37f2d6564c3b30451d18c",
+    "tests/channel-swings/k2521_free_observer_receiver_probe.py": "f977d1edac8c695b715dda287ee77c8f5cb1ceab301fc53355856ddacaee0d2d",
+    "explorations/conditional-build/k2519-stationary-product-receiver-2026-11-02.md": "55a02ce285f604f53766196dfa8246ec5df7ceb441553032f678bfc8596fcc6d",
+    "lab/process/k2519-stationary-product-receiver.json": "6cb91aeadd506e13622554dc65b8cf1ff82bacc5bb5592aa7bcc2ace4b4f2253"
+  }
+}

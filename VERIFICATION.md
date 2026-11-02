@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2520--K2521: Nonlinear observation tests and free receiver geometry (2026-11-02)
+
+K2520 derives an exact nonlinear count-distance control and a sourced weak distance test, with a four-window certificate excluding a history for every shared coefficient and explicit nonlinear error bounds. K2521 constructs a genuine rank-ten observer graph on the stationary ambient seed, then proves connection-preserving and minimal-section obstructions. These are conditional constructions, not native GU or empirical verdicts; ledger0.263 is unchanged.
+
+- [K2520](explorations/conditional-build/k2520-nonlinear-observation-null-2026-11-02.md).
+- [K2521](explorations/conditional-build/k2521-free-observer-receiver-2026-11-02.md).
+
+Two read-only cosmology and geometry specialists independently checked concrete candidates; a distinct integrated reviewer challenged the actual notes/probes. Lead serialized exact tests and the fitted-background weak numerical consumer. Universal smooth proofs, inherited stationary-seed evidence, grouped finite exact identities, numerical quadrature and report consistency remain distinct evidence kinds. No external-expert, proof-assistant, empirical or novelty certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2518--K2519: Physical lightcone and stationary receiver constructions (2026-11-02)
 
 K2518 derives actual lightcone count/shear/distance operators on the same fitted metric model, proves a homogeneous count contrast invisible to shear, and constructs its one-dimensional distance/calibration repair with a finite-window forecast. K2519 solves full stationary selected-I1 product branches in a declared ambient completion and proves that their totally geodesic observer cannot carry the native rank-ten metric receiver. These are conditional constructions and scoped obstructions, not native GU or empirical verdicts; ledger0.263 is unchanged.

@@ -1,4 +1,7 @@
 
+- [k2520-nonlinear-observation-null](k2520_nonlinear_observation_null_probe.py).
+- [k2521-free-observer-receiver](k2521_free_observer_receiver_probe.py).
+
 - [k2518-lightcone-count-access](k2518_lightcone_count_access_probe.py).
 - [k2519-stationary-product-receiver](k2519_stationary_product_receiver_probe.py).
 

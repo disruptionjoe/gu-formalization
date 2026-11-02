@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: b08fe9bc45ba88a1004aff9c4c62f816efa87057
+revision_basis: 632d5c014b606cc4c7adb69a87c0ca5112389f70
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,12 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2520 derives an exact nonlinear count-distance control and a sourced weak distance
+    test, with a four-window certificate excluding a history for every shared coefficient
+    and explicit nonlinear error bounds. K2521 constructs a genuine rank-ten observer graph
+    on the stationary ambient seed, then proves connection-preserving and minimal-section
+    obstructions. These are conditional constructions, not native GU or empirical verdicts;
+    ledger0.263 is unchanged. Historical predecessor (not live):
     K2518 derives actual lightcone count/shear/distance operators on the same fitted metric
     model, proves a homogeneous count contrast invisible to shear, and constructs its
     one-dimensional distance/calibration repair with a finite-window forecast. K2519 solves
@@ -18297,6 +18303,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2520-nonlinear-observation-null-2026-11-02.md
+  - lab/process/k2520-nonlinear-observation-null.json
+  - tests/channel-swings/k2520_nonlinear_observation_null_probe.py
+  - explorations/conditional-build/k2521-free-observer-receiver-2026-11-02.md
+  - lab/process/k2521-free-observer-receiver.json
+  - tests/channel-swings/k2521_free_observer_receiver_probe.py
   - explorations/conditional-build/k2518-lightcone-count-access-2026-11-02.md
   - lab/process/k2518-lightcone-count-access.json
   - tests/channel-swings/k2518_lightcone_count_access_probe.py
@@ -20758,6 +20770,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can justified distance-slope/selection bands make the sourced weak test discriminating,
+  or can a source-owned coupled observation action retain the repaired rank-ten receiver
+  without the excluded parallel/minimal-section assumptions? Historical predecessor (not
+  live):
   Can calibrated finite-window counts and electromagnetic distances bound the same-action
   homogeneous tangent, or can a non-totally-geodesic native observer restore the missing
   rank-ten metric receiver while retaining full stationarity? Historical predecessor (not
@@ -25135,6 +25151,23 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K2520 replaces finite-amplitude geometric Taylor error by an exact
+  mean-count/cubed-distance relation, but that relation is action-independent. Its sourced
+  weak test needs only the first distance derivative; four exact windows exclude
+  chi=log(1+z) for all shared coefficients. Actual augmented-matrix conditioning and
+  nonlinear slope-band bounds are explicit, but no real data, selection, standardization
+  or slope bands are supplied. Next compare a justified measured-window reconstruction
+  with higher-multipole velocity/slip access; finite noisy points do not imply slope
+  control. K2521 restores receiver rank10 locally and DeWitt isometry at one point using a
+  genuine graph on the same stationary ambient seed. Parallel receiver at a first-factor
+  tangent forces rank at most3 on every nonzero product branch; an uncoupled minimal
+  section forces rank at most9. Neither condition is a source mandate. Next needs an
+  actual coupled source-owned section/metric relation with nonparallel connection or a
+  different tangent/ambient construction, retaining full variation and paired
+  source/readout/contact/common-domain requirements. K2516 joint-effect calibration, K2517
+  finite-score/degenerate-split stopping and K2479 multivariable ordinary hook inversion
+  remain independent alternatives. Common-bar/mobile, thermal163/164 and
+  native2+1/chirality retain their exact ceilings. Historical predecessor (not live):
   K2518 now supplies physically derived lightcone operators and a continuum homogeneous
   lost contrast, plus a shared-calibration distance repair. Its matched local ratio tends
   to5, whereas the actual stated finite-window numerical ratio is4.57109801847. Next

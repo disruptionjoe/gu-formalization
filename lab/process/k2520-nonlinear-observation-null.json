@@ -1,0 +1,115 @@
+{
+  "result": "K2520",
+  "exact_checks": {
+    "exact_current_cube_primitive": true,
+    "finite_shell_calibrated_cross_product": true,
+    "shared_amplitudes": true,
+    "nonlinear_cube_error": true,
+    "bilinear_error_terms": true,
+    "weak_integration_by_parts": true,
+    "slope_to_U": true,
+    "slope_to_source": true,
+    "shared_distance_calibration": true,
+    "fixed_action_scale_invariant": true,
+    "L_derivative_for_band": true,
+    "C_derivative_for_band": true,
+    "source_derivative_for_band": true,
+    "log_history_strong_residual": true,
+    "exact_four_window_determinant": true,
+    "every_three_row_subset_can_fit": true,
+    "window_0_boundary": true,
+    "window_0_direct_weak_L": true,
+    "window_0_source_columns": true,
+    "window_1_boundary": true,
+    "window_1_direct_weak_L": true,
+    "window_1_source_columns": true,
+    "window_2_boundary": true,
+    "window_2_direct_weak_L": true,
+    "window_2_source_columns": true,
+    "window_3_boundary": true,
+    "window_3_direct_weak_L": true,
+    "window_3_source_columns": true,
+    "robust_rank_sufficient_half_margin": true,
+    "actual_augmented_matrix_invertible": true,
+    "actual_augmented_half_margin": true
+  },
+  "numerical_checks": {
+    "fitted_member_integrates": true,
+    "fitted_member_weak_residual_numeric": true,
+    "quadrature_agrees_numeric": true
+  },
+  "contrary_controls": {
+    "independent_shell_selection_breaks": true,
+    "cube_of_mean_is_not_mean_cube": true,
+    "missing_source_exponential_changes_column": true,
+    "fourth_rejects_three_row_fit": true,
+    "dropping_endpoint_term_fails": true,
+    "rank_one_update_at_boundary_singular": true,
+    "point_samples_do_not_control_slope": true
+  },
+  "moment_matrix": [
+    [
+      "1/93750",
+      "7741/492187500",
+      "6507779/338378906250",
+      "24745033/1047363281250"
+    ],
+    [
+      "11/937500",
+      "427757/24609375000",
+      "312071/14648437500",
+      "174829211/6665039062500"
+    ],
+    [
+      "106/8203125",
+      "6507779/338378906250",
+      "24745033/1047363281250",
+      "13359649136/458221435546875"
+    ],
+    [
+      "187/13125000",
+      "312071/14648437500",
+      "174829211/6665039062500",
+      "108114484643/3332519531250000"
+    ]
+  ],
+  "determinant": "12587308921/53806725372851360589265823364257812500000000",
+  "inverse_infinity_norm": "358864017928147265625000/12587308921",
+  "conservative_entrywise_error": "12587308921/2870912143425178125000000",
+  "augmented_window_matrix": [
+    [
+      "7741/2953125000",
+      "-1/3375000",
+      "-6507779/6090820312500",
+      "-24745033/698242187500"
+    ],
+    [
+      "427757/147656250000",
+      "-11/33750000",
+      "-312071/263671875000",
+      "-174829211/4443359375000"
+    ],
+    [
+      "6507779/2030273437500",
+      "-53/147656250",
+      "-24745033/18852539062500",
+      "-6679824568/152740478515625"
+    ],
+    [
+      "312071/87890625000",
+      "-187/472500000",
+      "-174829211/119970703125000",
+      "-108114484643/2221679687500000"
+    ]
+  ],
+  "augmented_inverse_infinity_norm": "6459552322706650781250000/12587308921",
+  "augmented_conservative_entrywise_error": "12587308921/51676418581653206250000000",
+  "numeric_residual": 1.6525320958444713e-15,
+  "dependencies": {
+    "explorations/conditional-build/k2520-nonlinear-observation-null-2026-11-02.md": "540432e8b6ac79e81f034cdc7e35938093953a2fc90ead1a1cae0e0edadf0798",
+    "tests/channel-swings/k2520_nonlinear_observation_null_probe.py": "d128bc71542a094d737bad974f7b70e8efb22292a6ea342bf2d621bc93d4e7d0",
+    "explorations/conditional-build/k2518-lightcone-count-access-2026-11-02.md": "64d505480e32c936ef447de7fd31c8db5896dd8e8fc86499181704979f9d2fde",
+    "explorations/conditional-build/k2367-sourced-fit-dust-transfer-2026-10-31.md": "382ebe9859737216d6e1558bc7ffb1bd59f5c02f3b3275a3b8a140dbc064eabd",
+    "explorations/conditional-build/k2266-windowed-cosmology-test-2026-10-29.md": "94ecdb75d32c4477db6d2dc771926a0d307855f0484c0dd6c9fb451d8eb1ed77"
+  }
+}

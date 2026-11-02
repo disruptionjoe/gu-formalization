@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2520-nonlinear-observation-null](conditional-build/k2520-nonlinear-observation-null-2026-11-02.md).
+- [k2521-free-observer-receiver](conditional-build/k2521-free-observer-receiver-2026-11-02.md).
+
 - [k2518-lightcone-count-access](conditional-build/k2518-lightcone-count-access-2026-11-02.md).
 - [k2519-stationary-product-receiver](conditional-build/k2519-stationary-product-receiver-2026-11-02.md).
 
