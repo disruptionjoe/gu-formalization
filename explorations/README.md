@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2510-effect-path-calibration](conditional-build/k2510-effect-path-calibration-2026-11-02.md).
+- [k2511-coupled-stopping-certificate](conditional-build/k2511-coupled-stopping-certificate-2026-11-02.md).
+
 - [k2508-controller-coverage](conditional-build/k2508-controller-coverage-2026-11-02.md).
 - [k2509-stopping-atom-certificate](conditional-build/k2509-stopping-atom-certificate-2026-11-02.md).
 

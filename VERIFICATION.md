@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2510--K2511: Angular calibration and score-coupled stopping frontier (2026-11-02)
+
+K2510 proves sharp effect-specific angular circuit and support-leakage bounds, removes globally invisible control coordinates from calibration covers, and prices a complete-record consumer. K2511 proves global one-stage stopping optimality for multipliers at least 5 and the exact frontier for every score-1/2 budget through 1/315, with quantitative finite-atom exclusion and an exact proof-template limit. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.
+
+- [K2510](explorations/conditional-build/k2510-effect-path-calibration-2026-11-02.md).
+- [K2511](explorations/conditional-build/k2511-coupled-stopping-certificate-2026-11-02.md).
+
+Two read-only mathematical specialists challenged the candidate proofs, and an independent final reviewer inspected actual notes, probe code, reports and dependency hashes. Follow-through retained the actual one-stage value to improve the provisional multiplier threshold from 13/2 to 5; the stronger argument received renewed independent review. A K2507 evidence-link typo was corrected. Whole-domain polynomial certificates, universal arguments, finite matrix/consumer controls and report consistency are distinct evidence kinds. Internal review is not experimental, external-expert or proof-assistant certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2508--K2509: Coherent controller coverage and global stopping optimum (2026-11-02)
 
 K2508 proves sharp coherent-controller calibration penalties and a constructive finite-parameter coverage theorem with explicit full-record costs. K2509 proves global one-stage stopping optimality for every score0<S<=1/2 at multipliers>=35/4, quantitatively excludes finite multistage competitors and settles the original budget1/1000 optimum at0.6840939084244854. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.

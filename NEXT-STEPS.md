@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-02: CONTROLLER COVERAGE AND GLOBAL STOPPING OPTIMUM.**
+> **2026-11-02: ANGULAR CALIBRATION AND SCORE-COUPLED STOPPING.**
+> K2511 extends the all-policy one-stage regime to lambda>=5 and S=1/2,K<=1/315; do not requeue solved 1/1000 or polish its decimals. Keeping the actual value bound bypasses the intermediate lambda6.48 limitation. The refined constant-envelope template has an exact necessary boundary in (4.7,4.8), not an actual policy transition. Next requires an exact Schur/actual-U residual or a finite competing policy. K2510 gives sharp sine effect and angle-addition leakage transport and removes only globally proved invisible parameter coordinates. A downstream Hadamard refutes raw gate commutators; full memory/support, stationary generator model and trusted preparation/readout remain supplied inputs. Physical calibration, unrestricted stopping, native matter/light, full multivariable hook inverse, common-bar/mobile, thermal163/164 and native2+1/chirality remain open.
+
+
+> **Historical predecessor: 2026-11-02 CONTROLLER COVERAGE AND GLOBAL STOPPING OPTIMUM.**
 > K2509 closes the original S1/2,K1/1000 frontier with an exact one-stage optimizer and all-policy upper bound; do not requeue that endpoint. The global support certificate holds for lambda>=35/4; its decoupled-curvature template fails at lambda8, which does not refute one-stage optimality there. Larger-budget transitions, multiple atoms and distributed tails remain open. K2508 covers every declared parametric/full-memory history mixture with trusted effect regularity, including coherent controller penalties sqrtG/G and explicit net sampling costs. Actual stationary generator bounds, support and preparation/readout are independent inputs; no apparatus is calibrated. Native matter/light, full multivariable hook inverse, common-bar/mobile, thermal163/164 and native2+1/chirality retain their ceilings.
 
 

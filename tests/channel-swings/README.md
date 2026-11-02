@@ -1,4 +1,7 @@
 
+- [k2510-effect-path-calibration](k2510_effect_path_calibration_probe.py).
+- [k2511-coupled-stopping-certificate](k2511_coupled_stopping_certificate_probe.py).
+
 - [k2508-controller-coverage](k2508_controller_coverage_probe.py).
 - [k2509-stopping-atom-certificate](k2509_stopping_atom_certificate_probe.py).
 

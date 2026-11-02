@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2510-effect-path-calibration](k2510-effect-path-calibration.json).
+- [k2511-coupled-stopping-certificate](k2511-coupled-stopping-certificate.json).
+
 - [k2508-controller-coverage](k2508-controller-coverage.json).
 - [k2509-stopping-atom-certificate](k2509-stopping-atom-certificate.json).
 

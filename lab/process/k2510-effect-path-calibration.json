@@ -1,0 +1,54 @@
+{
+  "result": "K2510",
+  "scope": "finite exact controls and rational resource composition; universal proof in note",
+  "checks": {
+    "rotation_unitary": true,
+    "Q_sharp_effect_square": true,
+    "T_sharp_effect_square": true,
+    "sharp_leakage": true,
+    "angular_leakage_addition": true,
+    "angular_leakage_square": true,
+    "angle_below_half_pi": true,
+    "raw_commutator_zero": true,
+    "suffix_generator": true,
+    "suffix_cross_block_norm": true,
+    "output_generator_product_rule": true,
+    "effect_derivative_identity": true,
+    "controller_1_Q_cross_zero": true,
+    "controller_1_T_cross_zero": true,
+    "controller_1_effect_independent": true,
+    "controller_17_Q_cross_zero": true,
+    "controller_17_T_cross_zero": true,
+    "controller_17_effect_independent": true,
+    "controller_1000000_Q_cross_zero": true,
+    "controller_1000000_T_cross_zero": true,
+    "controller_1000000_effect_independent": true,
+    "effect_mesh_margin": true,
+    "leakage_mesh_margin_squared": true,
+    "pooled_weight": true,
+    "visible_cover": true,
+    "removed_coordinate_saving": true,
+    "complete_record": true,
+    "postselection": true
+  },
+  "contrary_controls": {
+    "raw_commutator_invisibility_refuted": true,
+    "center_derivative_zero_not_global": true,
+    "sampled_identity_unmodeled_swap": true,
+    "bias_floor_no_sample_repair": true,
+    "ignoring_coherent_dimension_underprices": true,
+    "corrupt_rotation_detected": true
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2510-effect-path-calibration-2026-11-02.md": "53751bbe042ffb87da6e19ebfdcc6fc1af6060ea1da6e11d5912feb8d526bc9f",
+    "tests/channel-swings/k2510_effect_path_calibration_probe.py": "f122b06129e008309e5b5e5d1555b55d4ac7551678ef995bd6b652c2266204a6",
+    "explorations/conditional-build/k2508-controller-coverage-2026-11-02.md": "c8c7a7b26c700193900ac7388dc613e93794cac82e36dac886cc87b896e68b48",
+    "explorations/conditional-build/k2506-calibration-deployment-transfer-2026-11-02.md": "79014b326cbd90e612169e3be6977af223dc0e5cd452e4f14e1e662c9e19a225"
+  },
+  "consumer": {
+    "pooled_weight": "1728000864000000",
+    "cover_points": 2000001,
+    "record_error": "2049/1000000",
+    "postselection_error": "2049/497951"
+  }
+}

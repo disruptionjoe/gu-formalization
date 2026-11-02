@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d6144a3c330bdb688bd3afab9a598c3c8eea3a6e
+revision_basis: f4fcde89ce3c2f77fe085fc3d970e2b1855e58d3
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,13 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2510 proves sharp effect-specific angular circuit and support-leakage bounds, removes
+    globally invisible control coordinates from calibration covers, and prices a
+    complete-record consumer. K2511 proves global one-stage stopping optimality for
+    multipliers at least 5 and the exact frontier for every score-1/2 budget through 1/315,
+    with quantitative finite-atom exclusion and an exact proof-template limit. These are
+    conditional mathematical results; source polarities, ledger0.263 and physical credit
+    remain unchanged. Historical predecessor (not live):
     K2508 proves sharp coherent-controller calibration penalties and a constructive
     finite-parameter coverage theorem with explicit full-record costs. K2509 proves global
     one-stage stopping optimality for every score0<S<=1/2 at multipliers>=35/4,
@@ -18264,6 +18271,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2510-effect-path-calibration-2026-11-02.md
+  - lab/process/k2510-effect-path-calibration.json
+  - tests/channel-swings/k2510_effect_path_calibration_probe.py
+  - explorations/conditional-build/k2511-coupled-stopping-certificate-2026-11-02.md
+  - lab/process/k2511-coupled-stopping-certificate.json
+  - tests/channel-swings/k2511_coupled_stopping_certificate_probe.py
   - explorations/conditional-build/k2508-controller-coverage-2026-11-02.md
   - lab/process/k2508-controller-coverage.json
   - tests/channel-swings/k2508_controller_coverage_probe.py
@@ -20695,6 +20708,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can a tighter original-law Bellman residual locate the stopping transition beyond the
+  certified 1/315 budget interval, and can a declared finite-memory implementation supply
+  the trusted projected-generator, support and readout bounds needed by angular
+  calibration? Historical predecessor (not live):
   Can a tighter coupled Bellman estimate locate the original stopping transition beyond
   the certified small-budget interval, and can a trusted finite-memory circuit model meet
   the priced controller calibration requirements? Historical predecessor (not live):
@@ -25052,6 +25069,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K2511 extends the all-policy one-stage regime to lambda>=5 and S=1/2,K<=1/315; do not
+  requeue solved 1/1000 or polish its decimals. Keeping the actual value bound bypasses
+  the intermediate lambda6.48 limitation. The refined constant-envelope template has an
+  exact necessary boundary in (4.7,4.8), not an actual policy transition. Next requires an
+  exact Schur/actual-U residual or a finite competing policy. K2510 gives sharp sine
+  effect and angle-addition leakage transport and removes only globally proved invisible
+  parameter coordinates. A downstream Hadamard refutes raw gate commutators; full
+  memory/support, stationary generator model and trusted preparation/readout remain
+  supplied inputs. Physical calibration, unrestricted stopping, native matter/light, full
+  multivariable hook inverse, common-bar/mobile, thermal163/164 and native2+1/chirality
+  remain open. Historical predecessor (not live):
   K2509 closes the original S1/2,K1/1000 frontier with an exact one-stage optimizer and
   all-policy upper bound; do not requeue that endpoint. The global support certificate
   holds for lambda>=35/4; its decoupled-curvature template fails at lambda8, which does
