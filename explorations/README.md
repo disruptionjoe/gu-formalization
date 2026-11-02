@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2496-approximate-verifier-effects](conditional-build/k2496-approximate-verifier-effects-2026-11-02.md).
+- [k2497-finite-stopping-normal-form](conditional-build/k2497-finite-stopping-normal-form-2026-11-02.md).
+
 - [k2494-memory-transparent-storage](conditional-build/k2494-memory-transparent-storage-2026-11-02.md).
 - [k2495-stopping-order-and-continuum](conditional-build/k2495-stopping-order-and-continuum-2026-11-02.md).
 

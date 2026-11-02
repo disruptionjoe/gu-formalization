@@ -1,0 +1,95 @@
+{
+  "analytic_bound": "positive_part((1+S)*p-1)^2/(2*(1+(S-1)*p))",
+  "checks": {
+    "actual_cost_bound_1/2": true,
+    "actual_cost_bound_1/20": true,
+    "actual_cost_bound_1/5": true,
+    "actual_occupation_1/2": true,
+    "actual_occupation_1/20": true,
+    "actual_occupation_1/5": true,
+    "baseline": true,
+    "convexity_identity": true,
+    "critical_budget": true,
+    "exact_success_score": true,
+    "fixed_a_derivative": true,
+    "log_cost_gain_argument": true,
+    "merge_invariants_(Fraction(1, 10), Fraction(1, 10))": true,
+    "merge_invariants_(Fraction(1, 10), Fraction(1, 20))": true,
+    "merge_invariants_(Fraction(1, 20), Fraction(1, 10))": true,
+    "merge_invariants_(Fraction(1, 20), Fraction(1, 20))": true,
+    "merge_invariants_(Fraction(1, 8), Fraction(1, 10))": true,
+    "merge_invariants_(Fraction(1, 8), Fraction(1, 20))": true,
+    "merge_strict_(Fraction(1, 10), Fraction(1, 10))": true,
+    "merge_strict_(Fraction(1, 10), Fraction(1, 20))": true,
+    "merge_strict_(Fraction(1, 20), Fraction(1, 10))": true,
+    "merge_strict_(Fraction(1, 20), Fraction(1, 20))": true,
+    "merge_strict_(Fraction(1, 8), Fraction(1, 10))": true,
+    "merge_strict_(Fraction(1, 8), Fraction(1, 20))": true,
+    "newly_free_iteration_cost": true,
+    "newly_free_iteration_invariants": true,
+    "quadratic_inverse_identity": true,
+    "stage_bound_identity": true,
+    "stage_lower_(Fraction(0, 1), Fraction(1, 10))": true,
+    "stage_lower_(Fraction(1, 20), Fraction(1, 4))": true,
+    "stage_lower_(Fraction(1, 4), Fraction(1, 2))": true,
+    "strict_cost_gain": true,
+    "upper_above_existing_certificate": true,
+    "upper_below_691_thousandths": true,
+    "zero_hazard_convexity_identity": true,
+    "zero_hazard_gain": true,
+    "zero_hazard_split_ratio": true
+  },
+  "contrary_controls": {
+    "all_free_outside_high_success": true,
+    "failed_paths_cannot_be_dropped": true,
+    "fair_coin_factor_essential": true,
+    "invalid_stage_(Fraction(-1, 1), Fraction(1, 2))": true,
+    "invalid_stage_(Fraction(1, 2), Fraction(1, 4))": true,
+    "merge_sum_only_changes_success": true,
+    "merge_without_score_repair_changes_target": true,
+    "new_bound_does_not_beat_k2491": true,
+    "positive_part_essential": true,
+    "zero_hazard_not_finite_optimum": true
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2485-constrained-stopping-frontier-2026-11-01.md": "a253dd93ac94bdfe28fcb703c2c9cff88c45614dadcb44a0b6c69384bdb333a2",
+    "explorations/conditional-build/k2491-analytic-stopping-certificate-2026-11-02.md": "1db20f28ba5b63a7e6d0ceb1e02fe29e78c0bd8dedc851982d07912756f87950",
+    "explorations/conditional-build/k2495-stopping-order-and-continuum-2026-11-02.md": "f7d0e4a6374923461e83eff19e800211569d87c7c8f4992e6123dc4e77bc95d4"
+  },
+  "evidence_kinds": {
+    "exact": "symbolic identities and rational finite witnesses",
+    "not_claimed": "sharp global positive-budget optimum, finite attainment, GU recovery, hardware or novelty",
+    "universal": "written free coalescence, convex splitting, nonnegative occupancy and Cauchy proof"
+  },
+  "result": "K2497",
+  "witness": {
+    "gain_log_argument": "687157/685146",
+    "gain_lower": "8044000/1746065937",
+    "new": [
+      [
+        "21/100",
+        "21/100"
+      ],
+      [
+        "1/20",
+        "29/100"
+      ]
+    ],
+    "old": [
+      [
+        "1/10",
+        "1/10"
+      ],
+      [
+        "1/10",
+        "1/10"
+      ],
+      [
+        "1/20",
+        "3/10"
+      ]
+    ],
+    "score": "1/2",
+    "success": "2000/2541"
+  }
+}

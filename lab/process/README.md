@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2496-approximate-verifier-effects](k2496-approximate-verifier-effects.json).
+- [k2497-finite-stopping-normal-form](k2497-finite-stopping-normal-form.json).
+
 - [k2494-memory-transparent-storage](k2494-memory-transparent-storage.json).
 - [k2495-stopping-order-and-continuum](k2495-stopping-order-and-continuum.json).
 

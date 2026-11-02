@@ -1,4 +1,7 @@
 
+- [k2496-approximate-verifier-effects](k2496_approximate_verifier_effects_probe.py).
+- [k2497-finite-stopping-normal-form](k2497_finite_stopping_normal_form_probe.py).
+
 - [k2494-memory-transparent-storage](k2494_memory_transparent_storage_probe.py).
 - [k2495-stopping-order-and-continuum](k2495_stopping_order_and_continuum_probe.py).
 

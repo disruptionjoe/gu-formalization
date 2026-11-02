@@ -6,6 +6,18 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2496--K2497: Approximate effects and finite stopping normal form (2026-11-02)
+
+K2496 derives a linear full-record/reference error bound from uniform approximate preservation of the original two verifier effects on retained memory, with explicit algebra constants and postselection costs. K2497 proves a one-free-prefix finite-schedule reduction, excludes positive zero-hazard atoms from finite minimizers, and gives a closed all-adaptive-policy cost bound. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.
+
+- [K2496](explorations/conditional-build/k2496-approximate-verifier-effects-2026-11-02.md).
+- [K2497](explorations/conditional-build/k2497-finite-stopping-normal-form-2026-11-02.md).
+
+Independent quantum and probability specialists rederived the candidate proofs and supplied contrary constructions. A separate final-artifact reviewer found no blocking error in the linear word-defect identity, reference amplification, adaptive record hybrid, coalescence and all-policy occupancy argument. Review prompted explicit newly-free-stage, geometric failed-path and biased-coin controls; root added them and reran exact reproduction. General reference trace-distance, adaptive stopping and correlated-flag conclusions rely on the written proofs beyond finite coverage. No external-expert or proof-assistant certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2494--K2495: Memory-transparent storage and optimal stage structure (2026-11-02)
 
 K2494 characterizes exact verifier-transparent storage on the full retained-memory carrier, proves its non-pumping commutant structure, rejects weaker calibration assumptions and prices finite-error postselection. K2495 proves optimal fixed-multiset stage ordering, strictly improves the original two-stage witness, solves the continuum microstage variational problem and certifies finite approximation while proving that continuum-only optimization misses finite-policy advantages. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.
