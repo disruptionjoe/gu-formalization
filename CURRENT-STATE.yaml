@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 176b3eb92ac1af87ce180c7429fbffd607994651
+revision_basis: 3056fc05af1b1ccda0f272b9eb29702ab17872b1
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,12 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2524 constructs exact affine and polynomial wavelength-calibration removal, a
+    finite-time action-membership ambiguity and shared-anchor error/covariance bounds. K2525
+    computes the full stationary fixed-bundle section response, exact Fourier degeneracies
+    and a decaying static source/readout inverse whose light/motion ratio differs from the
+    supplied Einstein benchmark. These are conditional constructions; native GU, empirical
+    credit and ledger0.263 remain unchanged. Historical predecessor (not live):
     K2522 constructs a proper-time redshift-drift interface to the sourced weak cosmology
     test, absolute-distance H0 calibration and finite-error bounds; exact same-window
     recombination improves its sufficient expansion error tolerance to 3.30265e-10. K2523
@@ -18310,6 +18316,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2524-anchored-drift-nuisance-quotient-2026-11-02.md
+  - lab/process/k2524-anchored-drift-nuisance-quotient.json
+  - tests/channel-swings/k2524_anchored_drift_nuisance_quotient_probe.py
+  - explorations/conditional-build/k2525-metric-bundle-section-action-2026-11-02.md
+  - lab/process/k2525-metric-bundle-section-action.json
+  - tests/channel-swings/k2525_metric_bundle_section_action_probe.py
   - explorations/conditional-build/k2522-redshift-drift-interface-2026-11-02.md
   - lab/process/k2522-redshift-drift-interface.json
   - tests/channel-swings/k2522_redshift_drift_interface_probe.py
@@ -20783,6 +20795,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which physically justified line/anchor residual model can support the repaired cosmology
+  test, and can the actual native coupled action construct a stationary source/readout
+  response rather than import the now explicit fixed-bundle comparator? Historical
+  predecessor (not live):
   Can a specified drift program supply common H0, acceleration and interpolation bands for
   the strengthened weak test, or can the native coupled metric/observation relation supply
   a cancelling normal-jet coefficient and a physical shared-domain response? Historical
@@ -25168,6 +25184,26 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K2524 removes affine wavelength offset with two rest lines and degree-d polynomial
+  distortion with d+1 distinct lines, while the absolute anchor cancels the common
+  fractional mode exactly. The finite-time deSitter/coasting ambiguity proves one-line
+  data plus one anchor can hide membership in the vacuum-inclusive metric-action family;
+  it is not the fixed dust-fit model or an achieved instrument error. Polynomial
+  cancellation prices noise and residual shape, and the actual K2522 weak consumer now
+  uses joint-anchor oscillation bounds. Next requires a concrete line-selection,
+  reference-calibration, finite-baseline, acceleration/interpolation and joint ruler-error
+  model; higher-multipole/slip access remains an alternative. K2525 reuses W136 stationary
+  beta2alpha sections and derives the entire ten-component response. Its static conserved
+  external source gives an exact light/motion Fourier ratio rising from4/3 to2, a nonzero
+  fixed-direction mismatch and an explicit decay-fixed Coulomb/Yukawa inverse. Minimal
+  matter/photon coupling is supplied, so this is a conditional comparator response, not
+  native GU. Native G(g,s), full stationary distortion/section equations and causal
+  physical domain remain the next source-facing construction. Further toy response
+  refinements cannot repair K2345 translation stationarity. K2516 joint attainable
+  calibration, K2517 finite-score/degenerate stopping and K2479 full multivariable hook
+  inversion remain independent research alternatives; common-bar/mobile, thermal163/164
+  and native2+1/physical quotient retain exact ceilings. Historical predecessor (not
+  live):
   K2522 replaces uncontrolled distance differentiation with repeated comoving-source
   redshift measurements and one absolute distance anchor. The actual same-model numerical
   forecast changes sign between z1 and z2, without a certified global crossing or selected

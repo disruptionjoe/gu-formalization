@@ -6,6 +6,18 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2524--K2525: Calibration quotient and static section response (2026-11-02)
+
+K2524 constructs exact affine and polynomial wavelength-calibration removal, a finite-time action-membership ambiguity and shared-anchor error/covariance bounds. K2525 computes the full stationary fixed-bundle section response, exact Fourier degeneracies and a decaying static source/readout inverse whose light/motion ratio differs from the supplied Einstein benchmark. These are conditional constructions; native GU, empirical credit and ledger0.263 remain unchanged.
+
+- [K2524](explorations/conditional-build/k2524-anchored-drift-nuisance-quotient-2026-11-02.md).
+- [K2525](explorations/conditional-build/k2525-metric-bundle-section-action-2026-11-02.md).
+
+Read-only cosmology and geometry specialists independently derived and challenged the constructions; a separate integrated reviewer checked the actual proofs and probes. Review preserved prior W136 stationarity credit, clarified density-normalized Euler and linearized-gauge scope, retained fixed-direction/real-space static domains, and strengthened the deSitter check to full homogeneous vacuum equations. Exact algebra and tensor/functional proofs, finite controls, inherited evidence and report consistency are distinct evidence kinds. No external-expert, proof-assistant, empirical or novelty certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2522--K2523: Redshift drift and coupled receiver variation (2026-11-02)
 
 K2522 constructs a proper-time redshift-drift interface to the sourced weak cosmology test, absolute-distance H0 calibration and finite-error bounds; exact same-window recombination improves its sufficient expansion error tolerance to 3.30265e-10. K2523 derives a rank-ten receiver bending-action obstruction, its intrinsic-curvature counterroute, and the conditional separated-action response map. These are conditional constructions, not native GU or empirical verdicts; ledger0.263 is unchanged.

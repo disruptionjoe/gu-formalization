@@ -1,0 +1,116 @@
+{
+  "checks": {
+    "GLS_all_feasible_perturbations_increase_cost": true,
+    "GLS_physical_constraints": true,
+    "GLS_positive_covariance": true,
+    "GLS_variance_identity": true,
+    "actual_anchor_linear_map_annihilates_common_mode": true,
+    "actual_weak_consumer_allocation": true,
+    "affine_equal_noise_cost": true,
+    "anchor_J_lower_bound_integral": true,
+    "anchor_projection_idempotent_with_sign": true,
+    "coasting_exact_anchor": true,
+    "common_rate_noise_cost": true,
+    "correct_reference_calibration": true,
+    "deSitter_same_anchor": true,
+    "deSitter_vacuum_action_equation": true,
+    "degree_1_all_distortion_moments": true,
+    "degree_1_missing_line_1_counterpolynomial": true,
+    "degree_2_all_distortion_moments": true,
+    "degree_2_missing_line_1_counterpolynomial": true,
+    "degree_2_missing_line_2_counterpolynomial": true,
+    "degree_3_all_distortion_moments": true,
+    "degree_3_missing_line_1_counterpolynomial": true,
+    "degree_3_missing_line_2_counterpolynomial": true,
+    "degree_3_missing_line_3_counterpolynomial": true,
+    "degree_4_all_distortion_moments": true,
+    "degree_4_missing_line_1_counterpolynomial": true,
+    "degree_4_missing_line_2_counterpolynomial": true,
+    "degree_4_missing_line_3_counterpolynomial": true,
+    "degree_4_missing_line_4_counterpolynomial": true,
+    "differentiated_affine_wavelength_map": true,
+    "exact_finite_time_one_line_counterfamily": true,
+    "finite_anchor_reciprocal_identity": true,
+    "finite_oscillation_bound": true,
+    "finite_shape_oscillation_common_mode_invariant": true,
+    "finite_shared_anchor_identity": true,
+    "full_vacuum_Friedmann_equation": true,
+    "full_vacuum_trace_equation": true,
+    "joint_anchor_covariance_symmetric": true,
+    "nonlinear_anchor_equivariance": true,
+    "one_line_deSitter_mimics_zero_drift": true,
+    "physical_H0_from_effective_parameter": true,
+    "polynomial_remainder_triangle_fixture": true,
+    "positive_counterfamily_scale": true,
+    "quadratic_three_line_noise_cost": true,
+    "quadratic_three_line_weights": true,
+    "reference_rate_matches_counterfamily": true,
+    "second_anchor_pair_separation": true,
+    "two_line_offset_removal": true,
+    "two_lines_recover_shifted_drift": true,
+    "zero_effective_root_recovers_positive_history": true
+  },
+  "consumer": {
+    "Jmin": "671/5000",
+    "absolute_anchor_allocation": "11613365893237625/754633482166733514536282112",
+    "inherited_eta": "432688744159375/1310127573206134573847712",
+    "shape_allocation": "10817218603984375/94329185270841689317035264"
+  },
+  "contrary_controls": {
+    "common_acceleration_is_not_offset_calibration": true,
+    "dropping_anchor_cross_covariance_changes_result": true,
+    "duplicate_lines_cannot_remove_offset": true,
+    "ignoring_line_covariance_changes_cost": true,
+    "one_line_offset_not_anchor_null": true,
+    "positive_dust_breaks_same_deSitter_solution": true,
+    "positive_effective_parameter_not_required": true,
+    "quadratic_error_survives_two_line_repair": true,
+    "redshift_shape_survives_projection": true,
+    "second_line_exposes_offset": true,
+    "wrong_affine_weight_does_not_cancel_offset": true
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2520-nonlinear-observation-null-2026-11-02.md": "540432e8b6ac79e81f034cdc7e35938093953a2fc90ead1a1cae0e0edadf0798",
+    "explorations/conditional-build/k2524-anchored-drift-nuisance-quotient-2026-11-02.md": "993795c4000426b16aeefed0b4770b6790b0db45d8cfc111791eebd1771db7d1",
+    "lab/process/k2522-redshift-drift-interface.json": "72eb507ad47e9b041ec32d01a12037085cb11eda29975a72fec38d6e2ff0e80b",
+    "tests/channel-swings/k2524_anchored_drift_nuisance_quotient_probe.py": "e41973d9ed088bea20984103ca990d1b45e1e8134cb60ff1c2df98ef1b0e8248"
+  },
+  "evidence_kind": "universal instrument, interpolation, convex-hull and variational proofs in note; exact finite identities and same-realization quadrature controls; report checks do not certify surveys or continuum quadrature",
+  "polynomial_line_designs": {
+    "1": {
+      "independent_equal_noise_multiplier": "5",
+      "weights": [
+        "-1",
+        "2"
+      ]
+    },
+    "2": {
+      "independent_equal_noise_multiplier": "181/2",
+      "weights": [
+        "-5/2",
+        "8",
+        "-9/2"
+      ]
+    },
+    "3": {
+      "independent_equal_noise_multiplier": "7871/9",
+      "weights": [
+        "-13/3",
+        "19",
+        "-21",
+        "22/3"
+      ]
+    },
+    "4": {
+      "independent_equal_noise_multiplier": "467843/72",
+      "weights": [
+        "-77/12",
+        "107/3",
+        "-117/2",
+        "122/3",
+        "-125/12"
+      ]
+    }
+  },
+  "result_id": "K2524"
+}

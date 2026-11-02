@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2524-anchored-drift-nuisance-quotient](k2524-anchored-drift-nuisance-quotient.json).
+- [k2525-metric-bundle-section-action](k2525-metric-bundle-section-action.json).
+
 - [k2522-redshift-drift-interface](k2522-redshift-drift-interface.json).
 - [k2523-coupled-receiver-variation](k2523-coupled-receiver-variation.json).
 

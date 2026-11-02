@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2524-anchored-drift-nuisance-quotient](conditional-build/k2524-anchored-drift-nuisance-quotient-2026-11-02.md).
+- [k2525-metric-bundle-section-action](conditional-build/k2525-metric-bundle-section-action-2026-11-02.md).
+
 - [k2522-redshift-drift-interface](conditional-build/k2522-redshift-drift-interface-2026-11-02.md).
 - [k2523-coupled-receiver-variation](conditional-build/k2523-coupled-receiver-variation-2026-11-02.md).
 

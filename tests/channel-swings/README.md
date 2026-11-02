@@ -1,4 +1,7 @@
 
+- [k2524-anchored-drift-nuisance-quotient](k2524_anchored_drift_nuisance_quotient_probe.py).
+- [k2525-metric-bundle-section-action](k2525_metric_bundle_section_action_probe.py).
+
 - [k2522-redshift-drift-interface](k2522_redshift_drift_interface_probe.py).
 - [k2523-coupled-receiver-variation](k2523_coupled_receiver_variation_probe.py).
 
