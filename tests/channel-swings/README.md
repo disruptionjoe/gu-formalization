@@ -1,4 +1,7 @@
 
+- [k2518-lightcone-count-access](k2518_lightcone_count_access_probe.py).
+- [k2519-stationary-product-receiver](k2519_stationary_product_receiver_probe.py).
+
 - [k2516-asymmetric-effect-calibration](k2516_asymmetric_effect_calibration_probe.py).
 - [k2517-small-score-stopping-transition](k2517_small_score_stopping_transition_probe.py).
 

@@ -6,6 +6,18 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2518--K2519: Physical lightcone and stationary receiver constructions (2026-11-02)
+
+K2518 derives actual lightcone count/shear/distance operators on the same fitted metric model, proves a homogeneous count contrast invisible to shear, and constructs its one-dimensional distance/calibration repair with a finite-window forecast. K2519 solves full stationary selected-I1 product branches in a declared ambient completion and proves that their totally geodesic observer cannot carry the native rank-ten metric receiver. These are conditional constructions and scoped obstructions, not native GU or empirical verdicts; ledger0.263 is unchanged.
+
+- [K2518](explorations/conditional-build/k2518-lightcone-count-access-2026-11-02.md).
+- [K2519](explorations/conditional-build/k2519-stationary-product-receiver-2026-11-02.md).
+
+Independent cosmology and geometry specialists constructed and checked the candidates; a distinct integrated reviewer challenged the full-action, lightcone, calibration and receiver arguments. Root independently reconstructed the action polynomial, all branch equations, full00/source tangent and exact local coefficients, and ran dual numerical integration and window quadrature. Universal written proofs, inherited full-receiver theorem, exact finite controls and floating-point forecasts are separate evidence kinds. No external-expert, proof-assistant, empirical or novelty certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2516--K2517: Sharp asymmetric calibration and small-score stopping transition (2026-11-02)
 
 K2516 proves the sharp asymmetric sector-effect bound and optimal two-sector pooling, reducing a same-carrier sufficient calibration count by more than9.8-fold. K2517 proves the sharp all-policy second-order small-score stopping transition at4sqrt(3)/3, an exact finite two-stage separation, and the fixed-split cubic equality behavior. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.

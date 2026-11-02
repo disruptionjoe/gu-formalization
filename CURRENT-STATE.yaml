@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 8125dcc17d40c7d3a26f197bfd675658b735573c
+revision_basis: b08fe9bc45ba88a1004aff9c4c62f816efa87057
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,13 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2518 derives actual lightcone count/shear/distance operators on the same fitted metric
+    model, proves a homogeneous count contrast invisible to shear, and constructs its
+    one-dimensional distance/calibration repair with a finite-window forecast. K2519 solves
+    full stationary selected-I1 product branches in a declared ambient completion and proves
+    that their totally geodesic observer cannot carry the native rank-ten metric receiver.
+    These are conditional constructions and scoped obstructions, not native GU or empirical
+    verdicts; ledger0.263 is unchanged. Historical predecessor (not live):
     K2516 proves the sharp asymmetric sector-effect bound and optimal two-sector pooling,
     reducing a same-carrier sufficient calibration count by more than9.8-fold. K2517 proves
     the sharp all-policy second-order small-score stopping transition at4sqrt(3)/3, an exact
@@ -18290,6 +18297,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2518-lightcone-count-access-2026-11-02.md
+  - lab/process/k2518-lightcone-count-access.json
+  - tests/channel-swings/k2518_lightcone_count_access_probe.py
+  - explorations/conditional-build/k2519-stationary-product-receiver-2026-11-02.md
+  - lab/process/k2519-stationary-product-receiver.json
+  - tests/channel-swings/k2519_stationary_product_receiver_probe.py
   - explorations/conditional-build/k2516-asymmetric-effect-calibration-2026-11-02.md
   - lab/process/k2516-asymmetric-effect-calibration.json
   - tests/channel-swings/k2516_asymmetric_effect_calibration_probe.py
@@ -20745,6 +20758,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can calibrated finite-window counts and electromagnetic distances bound the same-action
+  homogeneous tangent, or can a non-totally-geodesic native observer restore the missing
+  rank-ten metric receiver while retaining full stationarity? Historical predecessor (not
+  live):
   Does a physically specified past-lightcone measurement on the same sourced quadratic
   metric background preserve the two-epoch density relation, and which native stationary
   source/readout block can instantiate the matter/light response? Historical predecessor
@@ -25118,6 +25135,21 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K2518 now supplies physically derived lightcone operators and a continuum homogeneous
+  lost contrast, plus a shared-calibration distance repair. Its matched local ratio tends
+  to5, whereas the actual stated finite-window numerical ratio is4.57109801847. Next
+  supply selection/luminosity/noise and a bounded nonlinear response for that forecast, or
+  construct higher-multipole velocity/slip access for K2373; the k0 obstruction does not
+  settle its nonzero-k carrier. K2519 supplies all real full stationary7+7 branches for
+  the declared independent-ambient-metric and conjugation completion, but its totally
+  geodesic normal metric receiver has rank0 versus native rank10. Next construct nonzero
+  second fundamental form or coupled ambient/native metric variation satisfying the full
+  equations, or an actual mixed-grade solution on K2345. The native matter action, paired
+  source/readout, physical Green domain and fixed-source motion/light ratio remain open.
+  K2516 sharp joint-effect calibration and K2517 finite-score/degenerate-split stopping
+  remain independent alternatives; no requeue of solved bounds. Full multivariable hook
+  inversion, common-bar/mobile, thermal163/164 and native2+1/chirality retain their exact
+  ceilings. Historical predecessor (not live):
   First derive one justified past-lightcone potential/density measurement configuration on
   the same K2367 background and apply K2376 to its actual operators; check access before
   treating equal-comoving-mode two-time fields as data. In parallel attempt the smallest

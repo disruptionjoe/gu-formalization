@@ -1,0 +1,91 @@
+{
+  "result": "K2518",
+  "checks": {
+    "full00_identity": true,
+    "source_velocity": true,
+    "tangent_constraint": true,
+    "tangent_U_coefficient": true,
+    "tangent_source_force": true,
+    "u_quadratic": true,
+    "distance_cubic": true,
+    "B_quadratic": true,
+    "A_quadratic": true,
+    "local_matched_ratio": true,
+    "Volterra_inverse_2": true,
+    "Volterra_inverse_3": true,
+    "Volterra_inverse_4": true,
+    "Volterra_inverse_5": true,
+    "Volterra_inverse_6": true,
+    "calibrated_factorization": true,
+    "count_intercept_removed": true,
+    "distance_intercept_removed": true,
+    "covariance_positive": true,
+    "integrator_DOP853_1817.2741193137415": true,
+    "integrator_RK45_1817.2741193137415": true,
+    "dual_integrator_window_agreement": true,
+    "quadrature_48_96": true,
+    "finite_window_nonzero_DeltaB": true,
+    "integrator_DOP853_1817.3741193137414": true,
+    "integrator_DOP853_1817.1741193137416": true,
+    "nonlinear_count_tangent": true,
+    "nonlinear_distance_tangent": true
+  },
+  "contrary_controls": {
+    "inverse_missing_factor": true,
+    "free_bin_calibration_survives": true,
+    "absolute_monopole_visible": true,
+    "angular_mean_subtraction_erases": true,
+    "freeze_scalar_velocity_breaks00": true,
+    "discard_cross_covariance_changes_variance": true,
+    "wrong_ratio_fails": true,
+    "finite_window_ratio_not_five": true,
+    "unweighted_counts_change_rows": true
+  },
+  "numerical_forecast": {
+    "base_q0": 1817.2741193137415,
+    "point_z": [
+      0.1,
+      0.2
+    ],
+    "point_A": [
+      0.00048231440215637186,
+      0.00032966580554467993
+    ],
+    "point_B": [
+      -1.37865750696788e-05,
+      -4.688383223023276e-05
+    ],
+    "windows": [
+      [
+        0.08,
+        0.12
+      ],
+      [
+        0.18,
+        0.22
+      ]
+    ],
+    "window_A_B": [
+      [
+        0.00047860347911694206,
+        -1.3918646772871626e-05
+      ],
+      [
+        0.00032779619534391904,
+        -4.691012566122326e-05
+      ]
+    ],
+    "K": 4.571098018472547,
+    "dual_max_abs_difference": 6.57677037829707e-16,
+    "scope": "floating point convergence evidence, not certified interval or survey likelihood"
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2518-lightcone-count-access-2026-11-02.md": "64d505480e32c936ef447de7fd31c8db5896dd8e8fc86499181704979f9d2fde",
+    "tests/channel-swings/k2518_lightcone_count_access_probe.py": "d023d6f4e6c3eb93c746ba91cc7c5e6979e52d7cf5741b671a3947c9db4111f8",
+    "explorations/conditional-build/k2364-sourced-shared-history-2026-10-31.md": "b01ec4d79b5eeb35408c607ffa92d3f5ee355f09383a19cc77d29e01685c656c",
+    "explorations/conditional-build/k2367-sourced-fit-dust-transfer-2026-10-31.md": "382ebe9859737216d6e1558bc7ffb1bd59f5c02f3b3275a3b8a140dbc064eabd",
+    "explorations/conditional-build/k2373-two-epoch-cosmological-observability-2026-10-31.md": "bd19353accc60098d8cb8d47fa74b24a6da2f22e19209a77b45a2d12dc4e3233",
+    "explorations/conditional-build/k2376-windowed-cosmological-null-2026-10-31.md": "4ec55d7ab82f9eec935d581703286a5c131c3761217fa6dbc0174632e74275aa",
+    "explorations/conditional-build/k2379-shared-calibration-cosmological-null-2026-10-31.md": "2c9f70effa9025df52a1cca3af0e09a1a522cff485bd215c80420017c301e381"
+  }
+}
