@@ -5,6 +5,19 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2473--K2475: Mixed inverse bounds, fixed confidence and retries (2026-11-01)
+
+K2473 improves the constructed mixed hook inverse bound from C^(d^2) to C^[d(d+1)/2], enlarges its sufficient forcing class and composes unrestricted analytic scalar forcing. K2474 proves fixed-confidence stopping lower bounds with an actual dyadic-prelude law and rejects the random-activation shortcut. K2475 proves sharp abstract retry risk and conditional-output bounds, with capped costs, shared-calibration floors and a composed finite-use consumer. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.
+
+- [K2473](explorations/conditional-build/k2473-mixed-inverse-growth-2026-11-01.md).
+- [K2474](explorations/conditional-build/k2474-fixed-confidence-stopping-2026-11-01.md).
+- [K2475](explorations/conditional-build/k2475-retry-risk-cost-2026-11-01.md).
+
+Three read-only mathematical specialists reviewed the original mixed inverse estimates, actual absorbing stopping laws, and repeated-verifier selection/cost interface. Lead independently checked algebra, finite rational and Arb256 laws. Review corrections fixed inclusive crossing, capped versus uncapped stopping notation, coordinate radii and probability domains. Universal proofs, finite examples and unchanged predecessor authentication are separate evidence; no external-expert or proof-assistant certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2470--K2472: Analytic scalar lifts, sharp stopping and actual costs (2026-11-01)
 
 K2470 constructs an original boundary-preserving analytic scalar inverse inside the full ordinary hook kernel, with all-degree bound576*d*(d+5)^5*210^(d-1), crossing the prior degree-seven obstruction. K2471 closes the exact uniform-confidence expected-budget coefficient at (1+log2)^2/[4(1-log2)]. K2472 proves that the previous prospective budgets828/846 are exact worst-case actual-spending optima within their stated Q/T design class, derives conditional pass-cap envelopes, and proves budget-abort risk preservation. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.

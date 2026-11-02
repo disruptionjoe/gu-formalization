@@ -1,4 +1,8 @@
 
+- [k2473-mixed-inverse-growth](k2473_mixed_inverse_growth_probe.py).
+- [k2474-fixed-confidence-stopping](k2474_fixed_confidence_stopping_probe.py).
+- [k2475-retry-risk-cost](k2475_retry_risk_cost_probe.py).
+
 - [k2470-mixed-hook-syzygies](k2470_mixed_hook_syzygies_probe.py).
 - [k2471-sharp-stopping-coefficient](k2471_sharp_stopping_coefficient_probe.py).
 - [k2472-outcome-dependent-cost](k2472_outcome_dependent_cost_probe.py).

@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2473-mixed-inverse-growth](conditional-build/k2473-mixed-inverse-growth-2026-11-01.md).
+- [k2474-fixed-confidence-stopping](conditional-build/k2474-fixed-confidence-stopping-2026-11-01.md).
+- [k2475-retry-risk-cost](conditional-build/k2475-retry-risk-cost-2026-11-01.md).
+
 - [k2470-mixed-hook-syzygies](conditional-build/k2470-mixed-hook-syzygies-2026-11-01.md).
 - [k2471-sharp-stopping-coefficient](conditional-build/k2471-sharp-stopping-coefficient-2026-11-01.md).
 - [k2472-outcome-dependent-cost](conditional-build/k2472-outcome-dependent-cost-2026-11-01.md).

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 894dbe2484996ab973aedb3a2f627f575508be53
+revision_basis: fc013a136d70490bffdb461635c8634ae2dd5d34
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,13 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2473 improves the constructed mixed hook inverse bound from C^(d^2) to C^[d(d+1)/2],
+    enlarges its sufficient forcing class and composes unrestricted analytic scalar forcing.
+    K2474 proves fixed-confidence stopping lower bounds with an actual dyadic-prelude law
+    and rejects the random-activation shortcut. K2475 proves sharp abstract retry risk and
+    conditional-output bounds, with capped costs, shared-calibration floors and a composed
+    finite-use consumer. These are conditional mathematical results; source polarities,
+    ledger0.263 and physical credit remain unchanged. Historical predecessor (not live):
     K2470 constructs an original boundary-preserving analytic scalar inverse inside the full
     ordinary hook kernel, with all-degree bound576*d*(d+5)^5*210^(d-1), crossing the prior
     degree-seven obstruction. K2471 closes the exact uniform-confidence expected-budget
@@ -18142,6 +18149,15 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2473-mixed-inverse-growth-2026-11-01.md
+  - lab/process/k2473-mixed-inverse-growth.json
+  - tests/channel-swings/k2473_mixed_inverse_growth_probe.py
+  - explorations/conditional-build/k2474-fixed-confidence-stopping-2026-11-01.md
+  - lab/process/k2474-fixed-confidence-stopping.json
+  - tests/channel-swings/k2474_fixed_confidence_stopping_probe.py
+  - explorations/conditional-build/k2475-retry-risk-cost-2026-11-01.md
+  - lab/process/k2475-retry-risk-cost.json
+  - tests/channel-swings/k2475_retry_risk_cost_probe.py
   - explorations/conditional-build/k2470-mixed-hook-syzygies-2026-11-01.md
   - lab/process/k2470-mixed-hook-syzygies.json
   - tests/channel-swings/k2470_mixed_hook_syzygies_probe.py
@@ -20462,6 +20478,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can an original composed ordinary hook transfer give a geometric analytic inverse; can a
+  full adaptive stopping variational argument close the fixed-confidence coefficient gap;
+  which measured conditional instrument, completion and cost laws instantiate the retry
+  certificate? Historical predecessor (not live):
   Can the unrestricted ordinary mixed hook inverse achieve a geometric estimate compatible
   with the new full scalar inverse, enabling a controlled nonlinear construction; which
   actual complete-instrument and cost laws instantiate the now sharp verification
@@ -24753,6 +24773,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Retain K2473 monotone block bound and its sufficient Gaussian/factorial forcing classes;
+  general analytic ordinary forcing still needs an original product or quotient estimate,
+  and nonlinear convergence needs its own majorant. K2470 scalar inverse remains full with
+  radius loss210. K2474 gives C*eta*log(1/eta)/(1-eta)<=C_epsilon<=C, eta=2^m*epsilon
+  in[1/2,1) with strict2^-m>epsilon; exact fixed-confidence optimality is open and
+  independent activation cannot prove it. K2475 sharpness is over a conditional classical
+  attempt interface, not arbitrary original quantum instruments. Repeated experiments
+  require history-valid error/completion/calibration and complete costs; shared
+  calibration failure sets a sufficient finite-count floor. Choose the use count, then
+  rejustify p and K for that same capped attempt. Native I1B matter/light, common-domain,
+  positive quotient, common-bar/mobile, thermal163/164 and native2+1/chirality remain
+  open. Historical predecessor (not live):
   The seven-family scalar exclusions remain valid for that family; the full
   boundary-preserving differential inverse now lifts those targets in the larger bank. Its scalar radius loss210 is sufficient, not
   optimal. The joint inverse now permits compatible ordinary forcing with fixed finite

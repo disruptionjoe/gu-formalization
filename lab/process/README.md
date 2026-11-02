@@ -5,6 +5,10 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2473-mixed-inverse-growth](k2473-mixed-inverse-growth.json).
+- [k2474-fixed-confidence-stopping](k2474-fixed-confidence-stopping.json).
+- [k2475-retry-risk-cost](k2475-retry-risk-cost.json).
+
 - [k2470-mixed-hook-syzygies](k2470-mixed-hook-syzygies.json).
 - [k2471-sharp-stopping-coefficient](k2471-sharp-stopping-coefficient.json).
 - [k2472-outcome-dependent-cost](k2472-outcome-dependent-cost.json).
