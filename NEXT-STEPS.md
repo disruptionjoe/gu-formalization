@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-02: ANGULAR CALIBRATION AND SCORE-COUPLED STOPPING.**
+> **2026-11-02: FINITE MEMORY AND EXACT SCHUR STOPPING.**
+> K2513 closes the all-policy one-stage regime for lambda>=4 and S=1/2,K<=1/200. The exact Schur correction bypasses the old scalar-template barrier, but its extension to the lambda3 ratio rectangle fails at r5/9,b0; this is not a true policy transition. Compare an actual-U residual with exact multiple-atom/optimized-tail competitors; do not polish solved-budget inverses. K2512 supplies a finite retained-memory circuit and robust two-setting consumer with nonzero trusted full-carrier error margins. One-gap invisible memory rotation can change later records; leakage cannot be discarded. The structural tests cannot detect arbitrary spectator dynamics or establish model/norm promises. Next needs independent implementation evidence or a test for a specified perturbation class. Native matter/light, full multivariable hook inverse, common-bar/mobile, thermal163/164 and native2+1/chirality remain open.
+
+
+> **Historical predecessor: 2026-11-02 ANGULAR CALIBRATION AND SCORE-COUPLED STOPPING.**
 > K2511 extends the all-policy one-stage regime to lambda>=5 and S=1/2,K<=1/315; do not requeue solved 1/1000 or polish its decimals. Keeping the actual value bound bypasses the intermediate lambda6.48 limitation. The refined constant-envelope template has an exact necessary boundary in (4.7,4.8), not an actual policy transition. Next requires an exact Schur/actual-U residual or a finite competing policy. K2510 gives sharp sine effect and angle-addition leakage transport and removes only globally proved invisible parameter coordinates. A downstream Hadamard refutes raw gate commutators; full memory/support, stationary generator model and trusted preparation/readout remain supplied inputs. Physical calibration, unrestricted stopping, native matter/light, full multivariable hook inverse, common-bar/mobile, thermal163/164 and native2+1/chirality remain open.
 
 

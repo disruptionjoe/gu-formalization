@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2512-finite-memory-implementation](conditional-build/k2512-finite-memory-implementation-2026-11-02.md).
+- [k2513-exact-schur-stopping](conditional-build/k2513-exact-schur-stopping-2026-11-02.md).
+
 - [k2510-effect-path-calibration](conditional-build/k2510-effect-path-calibration-2026-11-02.md).
 - [k2511-coupled-stopping-certificate](conditional-build/k2511-coupled-stopping-certificate-2026-11-02.md).
 

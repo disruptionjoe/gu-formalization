@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2512-finite-memory-implementation](k2512-finite-memory-implementation.json).
+- [k2513-exact-schur-stopping](k2513-exact-schur-stopping.json).
+
 - [k2510-effect-path-calibration](k2510-effect-path-calibration.json).
 - [k2511-coupled-stopping-certificate](k2511-coupled-stopping-certificate.json).
 

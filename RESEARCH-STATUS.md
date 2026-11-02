@@ -6,6 +6,18 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2512--K2513: Finite-memory calibration and exact Schur stopping frontier (2026-11-02)
+
+K2512 constructs an explicit retained-qutrit verifier circuit with joint preparation/readout, exact support and effect operators, two-setting calibration and robustness to trusted full-carrier implementation errors. K2513 proves global one-stage stopping optimality for multipliers at least 4 and the exact score-1/2 frontier through budget 1/200 using an exact Schur defect. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.
+
+- [K2512](explorations/conditional-build/k2512-finite-memory-implementation-2026-11-02.md).
+- [K2513](explorations/conditional-build/k2513-exact-schur-stopping-2026-11-02.md).
+
+Two read-only mathematical specialists developed and challenged the candidate arguments; a distinct independent reviewer checked the proofs, exact probe machinery and dependency reports. Review corrected a proposed zero support-generator block by distinguishing the nonzero ambient block from the exact compressed leakage. Follow-through extended the initial stopping threshold9/2 to4 and the circuit certificate to nonzero trusted implementation errors. Whole-domain polynomial certificates, finite matrix/consumer controls and report consistency are separate evidence kinds. Internal review is not experimental, external-expert or proof-assistant certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2510--K2511: Angular calibration and score-coupled stopping frontier (2026-11-02)
 
 K2510 proves sharp effect-specific angular circuit and support-leakage bounds, removes globally invisible control coordinates from calibration covers, and prices a complete-record consumer. K2511 proves global one-stage stopping optimality for multipliers at least 5 and the exact frontier for every score-1/2 budget through 1/315, with quantitative finite-atom exclusion and an exact proof-template limit. These are conditional mathematical results; source polarities, ledger0.263 and physical credit remain unchanged.

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f4fcde89ce3c2f77fe085fc3d970e2b1855e58d3
+revision_basis: a894429af54d5bea0ba750891dec6da9a8a4b35c
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,13 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2512 constructs an explicit retained-qutrit verifier circuit with joint
+    preparation/readout, exact support and effect operators, two-setting calibration and
+    robustness to trusted full-carrier implementation errors. K2513 proves global one-stage
+    stopping optimality for multipliers at least 4 and the exact score-1/2 frontier through
+    budget 1/200 using an exact Schur defect. These are conditional mathematical results;
+    source polarities, ledger0.263 and physical credit remain unchanged. Historical
+    predecessor (not live):
     K2510 proves sharp effect-specific angular circuit and support-leakage bounds, removes
     globally invisible control coordinates from calibration covers, and prices a
     complete-record consumer. K2511 proves global one-stage stopping optimality for
@@ -18271,6 +18278,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2512-finite-memory-implementation-2026-11-02.md
+  - lab/process/k2512-finite-memory-implementation.json
+  - tests/channel-swings/k2512_finite_memory_implementation_probe.py
+  - explorations/conditional-build/k2513-exact-schur-stopping-2026-11-02.md
+  - lab/process/k2513-exact-schur-stopping.json
+  - tests/channel-swings/k2513_exact_schur_stopping_probe.py
   - explorations/conditional-build/k2510-effect-path-calibration-2026-11-02.md
   - lab/process/k2510-effect-path-calibration.json
   - tests/channel-swings/k2510_effect_path_calibration_probe.py
@@ -20708,6 +20721,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can an actual-value Bellman residual or finite competing policy locate the stopping
+  transition beyond the certified 1/200 budget interval, and can a declared restricted
+  perturbation class be certified without assuming a full-carrier norm bound? Historical
+  predecessor (not live):
   Can a tighter original-law Bellman residual locate the stopping transition beyond the
   certified 1/315 budget interval, and can a declared finite-memory implementation supply
   the trusted projected-generator, support and readout bounds needed by angular
@@ -25069,6 +25086,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K2513 closes the all-policy one-stage regime for lambda>=4 and S=1/2,K<=1/200. The exact
+  Schur correction bypasses the old scalar-template barrier, but its extension to the
+  lambda3 ratio rectangle fails at r5/9,b0; this is not a true policy transition. Compare
+  an actual-U residual with exact multiple-atom/optimized-tail competitors; do not polish
+  solved-budget inverses. K2512 supplies a finite retained-memory circuit and robust
+  two-setting consumer with nonzero trusted full-carrier error margins. One-gap invisible
+  memory rotation can change later records; leakage cannot be discarded. The structural
+  tests cannot detect arbitrary spectator dynamics or establish model/norm promises. Next
+  needs independent implementation evidence or a test for a specified perturbation class.
+  Native matter/light, full multivariable hook inverse, common-bar/mobile, thermal163/164
+  and native2+1/chirality remain open. Historical predecessor (not live):
   K2511 extends the all-policy one-stage regime to lambda>=5 and S=1/2,K<=1/315; do not
   requeue solved 1/1000 or polish its decimals. Keeping the actual value bound bypasses
   the intermediate lambda6.48 limitation. The refined constant-envelope template has an

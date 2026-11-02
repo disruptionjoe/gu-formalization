@@ -1,4 +1,7 @@
 
+- [k2512-finite-memory-implementation](k2512_finite_memory_implementation_probe.py).
+- [k2513-exact-schur-stopping](k2513_exact_schur_stopping_probe.py).
+
 - [k2510-effect-path-calibration](k2510_effect_path_calibration_probe.py).
 - [k2511-coupled-stopping-certificate](k2511_coupled_stopping_certificate_probe.py).
 
