@@ -6,6 +6,18 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2526--K2527: Geodesic emitters and coupled lift action (2026-11-02)
+
+K2526 derives exact common-momentum radial-geodesic drift/distance repair, a velocity-uniform weak cosmology test and two-anchor identification versus third-anchor discrimination. K2527 reduces the single-field LC-coupled bending action to volume, then proves joint stationary backgrounds and the complete two-field Hessian: induced-metric-only sources have no differentiable linear response, and compatible paired sources leave that metric readout undetermined. These are conditional constructions; native GU, empirical credit and ledger0.263 remain unchanged.
+
+- [K2526](explorations/conditional-build/k2526-geodesic-emitter-drift-repair-2026-11-02.md).
+- [K2527](explorations/conditional-build/k2527-coupled-horizontal-bending-action-2026-11-02.md).
+
+Read-only geometry and cosmology specialists derived and reviewed the concrete objects; a separate integrated reviewer independently checked the universal proofs, actual probes and source ceilings. Review removed a floating intermediate from one expected geometric norm, added a nonzero-Q-prime sensitivity control and clarified the third-anchor domain. Exact identities and finite fixtures, universal tensor/functional arguments, inherited certificate reuse and report consistency are distinct evidence kinds. No experimental, external-expert, proof-assistant or novelty certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2524--K2525: Calibration quotient and static section response (2026-11-02)
 
 K2524 constructs exact affine and polynomial wavelength-calibration removal, a finite-time action-membership ambiguity and shared-anchor error/covariance bounds. K2525 computes the full stationary fixed-bundle section response, exact Fourier degeneracies and a decaying static source/readout inverse whose light/motion ratio differs from the supplied Einstein benchmark. These are conditional constructions; native GU, empirical credit and ledger0.263 remain unchanged.

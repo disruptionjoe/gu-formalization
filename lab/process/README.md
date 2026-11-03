@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2526-geodesic-emitter-drift-repair](k2526-geodesic-emitter-drift-repair.json).
+- [k2527-coupled-horizontal-bending-action](k2527-coupled-horizontal-bending-action.json).
+
 - [k2524-anchored-drift-nuisance-quotient](k2524-anchored-drift-nuisance-quotient.json).
 - [k2525-metric-bundle-section-action](k2525-metric-bundle-section-action.json).
 

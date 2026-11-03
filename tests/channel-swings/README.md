@@ -1,4 +1,7 @@
 
+- [k2526-geodesic-emitter-drift-repair](k2526_geodesic_emitter_drift_repair_probe.py).
+- [k2527-coupled-horizontal-bending-action](k2527_coupled_horizontal_bending_action_probe.py).
+
 - [k2524-anchored-drift-nuisance-quotient](k2524_anchored_drift_nuisance_quotient_probe.py).
 - [k2525-metric-bundle-section-action](k2525_metric_bundle_section_action_probe.py).
 

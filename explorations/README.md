@@ -5,6 +5,9 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2526-geodesic-emitter-drift-repair](conditional-build/k2526-geodesic-emitter-drift-repair-2026-11-02.md).
+- [k2527-coupled-horizontal-bending-action](conditional-build/k2527-coupled-horizontal-bending-action-2026-11-02.md).
+
 - [k2524-anchored-drift-nuisance-quotient](conditional-build/k2524-anchored-drift-nuisance-quotient-2026-11-02.md).
 - [k2525-metric-bundle-section-action](conditional-build/k2525-metric-bundle-section-action-2026-11-02.md).
 
