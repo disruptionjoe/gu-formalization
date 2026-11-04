@@ -6,6 +6,18 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2538--K2539: Derivative discrimination and full generated-source response (2026-11-04)
+
+K2538 proves C2 but not observer-inclusive C3 closure for the exact jet-matched sourced cosmology family, derives a nonzero snap difference and prices shrinking-window resolution/noise with a limiting alias control. Fixed-window observations still converge; no empirical or native GU claim. K2539 derives full covariant skew/vector and Weyl-dependent symmetric constraints, excludes two simple tensor profiles, repairs them by a coupled profile and constructs explicit full local Einstein/tensor solutions for generated conserved sources. This does not solve the prescribed order-zero tension or select a Green boundary/physical readout. Source polarities and ledger0.263 unchanged.
+
+- [K2538](explorations/conditional-build/k2538-derivative-limit-and-snap-2026-11-04.md).
+- [K2539](explorations/conditional-build/k2539-covariant-tensor-constraints-2026-11-04.md).
+
+Independent ODE, geometry and integrated reviews checked actual proofs, proper-time conventions, indefinite adjoints, product curvature and the full generated-source construction. Review qualified the alias as a property of the limiting statistic and aligned the full metric carrier. Universal proofs, exact finite controls and report consistency are separate evidence kinds; no external-expert, proof-assistant, empirical or novelty certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2536--K2537: Einstein-limit closure and full sourced action split (2026-11-04)
 
 K2536 proves compact-interval Einstein-history closure of the positive sourced quadratic family by nonlinear energy, then composes common distances, drift and finite likelihoods: no uniform positive background gap from the limiting reference. Exact finite-a equality remains false; no empirical or native GU credit. K2537 derives the full curved301-field quadratic action and source-preserving Einstein/tensor split, evaluates all196 algebraic tensor masses as nonzero, proves distributional skew closedness, and resolves the auxiliary inverse into explicit vector/hook kinetics and a full traced source equation. The original metric still receives both forced sectors; full Green/domain and observed response remain open. Source polarities and ledger0.263 unchanged.

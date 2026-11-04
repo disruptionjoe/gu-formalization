@@ -5,11 +5,15 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-04: BACKGROUND CLOSURE AND FULL SOURCED ACTION.**
+> **2026-11-04: DERIVATIVE RESOLUTION AND FULL GENERATED-SOURCE RESPONSE.**
+> Reuse K2538 C2 closure and exact selected-seed snap: physical discrimination needs justified source/initial-data restrictions and an actual joint high-derivative window/noise model; fixed-width forecasts do not recover the snap gap. K2539 now supplies full curved constraints and a generated-source full local solution class, including original h and reconstructed auxiliary. Next test the prescribed conserved order-zero source on a common tensor/Einstein boundary realization with a defined original-metric readout. Do not repeat trace-only profiles, omit product Weyl curvature, or treat generated derivative sources as the prescribed tension. Native Met(X), physical quotient, finite-score/joint-calibration and other portfolio debts retain their exact prior ceilings.
+
+
+> **Historical predecessor: 2026-11-04: BACKGROUND CLOSURE AND FULL SOURCED ACTION.**
 > Do not repeat background refits to claim uniform separation: K2536 proves one positive family approaches the reference on every fixed finite interval, with shared likelihood infimum no larger than the reference. Test independently justified finite parameter/source constraints or perturbation/growth/slip observables with their own uniform bounds; derivatives and arbitrary initial data are not covered. K2537 supplies the full constant-radial Einstein/tensor split and dK=0, retaining transformed tensor forcing and original h=z-C/(6a0). The explicit tensor kinetic density and traced source equation are now owned. Next derive the remaining symmetric-divergence constraints and a common distributional boundary/source/readout realization; do not infer a Green inverse, physical gauge or Einstein readout from nonzero masses or symbol ranks. Finite-score/joint-calibration, native2+1, physical quotient, common-bar/mobile and thermal alternatives retain their exact prior debts.
 
 
-> **2026-11-04 CALIBRATED FAMILY AND FULL GRADE REDUCTION.**
+> **Historical predecessor: 2026-11-04 CALIBRATED FAMILY AND FULL GRADE REDUCTION.**
 > Do not repeat the large odd census or fixed-shape H0 penalty. K2535 justifies301-field full linear reduction only at the constant radial completion: construct its actual curvature/potential constraints and source/readout domain, retaining null principal compatibility without claiming a PDE no-go. K2534 refits shared calibrated SN/BAO and releases a high-alpha forecast repair; next needs an analytic Einstein-limit/oscillatory-mode control or family uncertainty and a distinct applicability-qualified growth/slip/drift consumer, not another assumed global optimum. Native Met(X), physical quotient, finite-score stopping and joint-effect calibration retain their separate prior ceilings.
 
 

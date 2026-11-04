@@ -1,4 +1,10 @@
 
+## Latest conditional constructions (2026-11-04)
+
+- [K2538 exact derivative/observation controls](k2538_derivative_limit_and_snap_probe.py).
+- [K2539 exact variational/curvature/source controls](k2539_covariant_tensor_constraints_probe.py).
+
+
 
 ## Latest conditional constructions (2026-11-04)
 

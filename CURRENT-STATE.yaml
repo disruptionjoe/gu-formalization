@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 5cd3cbf19d9b016f116e47afe70ed3107a22139d
+revision_basis: c6bd7ade41ecd4fbf3a34d7566cfa007dcd6389b
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,15 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2538 proves C2 but not observer-inclusive C3 closure for the exact jet-matched sourced
+    cosmology family, derives a nonzero snap difference and prices shrinking-window
+    resolution/noise with a limiting alias control. Fixed-window observations still converge; no
+    empirical or native GU claim. K2539 derives full covariant skew/vector and Weyl-dependent
+    symmetric constraints, excludes two simple tensor profiles, repairs them by a coupled
+    profile and constructs explicit full local Einstein/tensor solutions for generated conserved
+    sources. This does not solve the prescribed order-zero tension or select a Green
+    boundary/physical readout. Source polarities and ledger0.263 unchanged.
+    Historical predecessor (not live):
     K2536 proves compact-interval Einstein-history closure of the positive sourced quadratic family
     by nonlinear energy, then composes common distances, drift and finite likelihoods: no uniform
     positive background gap from the limiting reference. Exact finite-a equality remains false; no
@@ -18357,6 +18366,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2538-derivative-limit-and-snap-2026-11-04.md
+  - explorations/conditional-build/k2539-covariant-tensor-constraints-2026-11-04.md
+  - lab/process/k2538-derivative-limit-and-snap.json
+  - lab/process/k2539-covariant-tensor-constraints.json
+  - tests/channel-swings/k2538_derivative_limit_and_snap_probe.py
+  - tests/channel-swings/k2539_covariant_tensor_constraints_probe.py
   - explorations/conditional-build/k2536-einstein-limit-closure-2026-11-04.md
   - explorations/conditional-build/k2537-reduced-action-decoupling-2026-11-04.md
   - lab/process/k2536-einstein-limit-closure.json
@@ -20872,6 +20887,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can the prescribed conserved order-zero matter source be realized on a common tensor/Einstein
+  domain with a defined original-metric readout, or can a physically justified initial/source
+  restriction make the derivative-sensitive cosmology distinction measurable?
+  Historical predecessor (not live):
   Can the explicit sourced tensor operator and its closed skew constraint support a common
   distributional metric readout, or can an independently justified perturbation/parameter
   constraint discriminate the cosmology family beyond its proved background closure?
@@ -25278,6 +25297,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Reuse K2538 C2 closure and exact selected-seed snap: physical discrimination needs justified
+  source/initial-data restrictions and an actual joint high-derivative window/noise model;
+  fixed-width forecasts do not recover the snap gap. K2539 now supplies full curved constraints
+  and a generated-source full local solution class, including original h and reconstructed
+  auxiliary. Next test the prescribed conserved order-zero source on a common tensor/Einstein
+  boundary realization with a defined original-metric readout. Do not repeat trace-only
+  profiles, omit product Weyl curvature, or treat generated derivative sources as the prescribed
+  tension. Native Met(X), physical quotient, finite-score/joint-calibration and other portfolio
+  debts retain their exact prior ceilings.
+  Historical predecessor (not live):
   Do not repeat background refits to claim uniform separation: K2536 proves one positive family
   approaches the reference on every fixed finite interval, with shared likelihood infimum no
   larger than the reference. Test independently justified finite parameter/source constraints or

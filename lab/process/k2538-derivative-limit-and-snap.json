@@ -1,0 +1,44 @@
+{
+  "contrary_controls": {
+    "dropping_proper_time_minus_sign_changes_snap": true,
+    "fixed_window_loses_derivative_signal": true,
+    "near_prepared_different_seed": true,
+    "nonzero_initial_third_jet_prevents_C3": true,
+    "one_period_sampling_alias": true
+  },
+  "dependencies": {
+    "tests/channel-swings/k2536_einstein_limit_closure_probe.py": "65de9251fe9e4b895f6b0ebbc6589ea12fcf15bc01165c8b5ca967aeefa0d127",
+    "tests/channel-swings/k2538_derivative_limit_and_snap_probe.py": "954359d4cf36d6b66825e4b08086ac493b0d4c241da365be900822cdca6a4fa2"
+  },
+  "exact_checks": {
+    "absolute_noise_weights": true,
+    "actual_Omega03_snap_gap": true,
+    "curvature_formula": true,
+    "deceleration_formula": true,
+    "energy_bound_coefficients": true,
+    "fast_forcing_slope": true,
+    "fast_limit_original_ivp": true,
+    "fast_restoring_limit": true,
+    "initial_third_difference": true,
+    "jerk_formula": true,
+    "original_second_jet": true,
+    "original_third_jet_independent_a": true,
+    "residual_young_square": true,
+    "restoring_coefficient": true,
+    "shrinking_window_derivative_limit": true,
+    "slow_correction_cancels": true,
+    "snap_highest_jet_coefficient": true,
+    "third_difference_cubic_normalization": true,
+    "worst_case_noise_attained": true,
+    "zero_initial_position_correction": true
+  },
+  "identities": {
+    "c": "1/(27*(O*t - O + 1))",
+    "d0": "O*(3*O + 8)/24",
+    "fast_profile": "9*O*(3*O + 8)*(T - 3*sqrt(3)*sin(sqrt(3)*T/9))/8",
+    "finite_difference": "27*sqrt(3)*O*(3*O + 8)*(-3*sin(sqrt(3)*b/9) + 3*sin(2*sqrt(3)*b/9) - sin(sqrt(3)*b/3))/(8*b**3)",
+    "snap_gap": "-3*O*(3*O + 8)/4"
+  },
+  "result": "K2538",
+  "scope": "same jet-matched family C2 not C3 on observer-inclusive compact interval; exact snap and conditional finite-window/noise scaling; no empirical/native GU claim"
+}

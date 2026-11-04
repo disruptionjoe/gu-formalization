@@ -7,6 +7,12 @@ updated_at: "2026-08-21"
 
 ## Latest conditional constructions (2026-11-04)
 
+- [K2538: sharp derivative closure, snap and finite-window resolution](conditional-build/k2538-derivative-limit-and-snap-2026-11-04.md).
+- [K2539: covariant source constraints and full local generated-source solutions](conditional-build/k2539-covariant-tensor-constraints-2026-11-04.md).
+
+
+## Latest conditional constructions (2026-11-04)
+
 - [K2536](conditional-build/k2536-einstein-limit-closure-2026-11-04.md): uniform Einstein-history and common-observable closure.
 - [K2537](conditional-build/k2537-reduced-action-decoupling-2026-11-04.md): full curved source-preserving action split and skew constraint.
 

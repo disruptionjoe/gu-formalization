@@ -7,6 +7,12 @@ updated_at: "2026-08-23"
 
 ## Latest conditional constructions (2026-11-04)
 
+- [K2538 report](k2538-derivative-limit-and-snap.json).
+- [K2539 report](k2539-covariant-tensor-constraints.json).
+
+
+## Latest conditional constructions (2026-11-04)
+
 - [K2536](k2536-einstein-limit-closure.json): uniform Einstein-history and common-observable closure.
 - [K2537](k2537-reduced-action-decoupling.json): full curved source-preserving action split and skew constraint.
 
