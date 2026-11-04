@@ -5,6 +5,12 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+## Latest conditional constructions (2026-11-04)
+
+- [K2530](conditional-build/k2530-finite-drift-envelope-2026-11-04.md): sharp finite-drift anchor feasibility and shared weak test.
+- [K2531](conditional-build/k2531-partial-thickness-source-2026-11-04.md): stationary-product support and conserved partial-width source.
+
+
 - [k2528-observation-forecast-feasibility](conditional-build/k2528-observation-forecast-feasibility-2026-11-04.md).
 - [k2529-native-displacement-response](conditional-build/k2529-native-displacement-response-2026-11-04.md).
 

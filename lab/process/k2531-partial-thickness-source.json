@@ -1,0 +1,71 @@
+{
+  "checks": {
+    "all_mixed_fixed_spaces_force_second_factor_zero": true,
+    "boost_preserves_actual_form_0_3": true,
+    "boost_preserves_actual_form_0_4": true,
+    "boost_preserves_actual_form_0_5": true,
+    "boost_preserves_actual_form_0_6": true,
+    "boost_preserves_actual_form_1_3": true,
+    "boost_preserves_actual_form_1_4": true,
+    "boost_preserves_actual_form_1_5": true,
+    "boost_preserves_actual_form_1_6": true,
+    "boost_preserves_actual_form_2_3": true,
+    "boost_preserves_actual_form_2_4": true,
+    "boost_preserves_actual_form_2_5": true,
+    "boost_preserves_actual_form_2_6": true,
+    "convergent_seven_normal_integral": true,
+    "covariant_majorant_not_fixed": true,
+    "dyadic_null_coordinate_scaling": true,
+    "finite_regularity_outer_matching": true,
+    "first_normal_signature": true,
+    "flat_escape": true,
+    "hyperbolic_tube_jacobi": true,
+    "integral_pressure_solves_divergence": true,
+    "integrated_pressure_scaling": true,
+    "near_axis_pressure_even": true,
+    "nonpoint_first_normal_support_point": true,
+    "nonradial_first_curvature_nonzero": true,
+    "original_tensor_divergence": true,
+    "partial_source_tail_endpoint": true,
+    "pressure_fixture_original_divergence": true,
+    "pressure_integrand_antiderivative": true,
+    "pressure_outer_zero": true,
+    "product_compatible_choice_dimension": true,
+    "radial_ball_probability_normalization": true,
+    "radial_ball_rotation_control": true,
+    "regularity_gain": true,
+    "tangent_mass_scaling": true,
+    "thin_source_tail_endpoint": true
+  },
+  "contrary_controls": {
+    "endpoint_not_square_integrable": true,
+    "full_delta_claim_false": true,
+    "full_normal_group_overcounts_choice": true,
+    "homogeneous_pressure_tail_requires_boundary": true,
+    "positive_gaussian_is_not_boost_invariant": true,
+    "sign_reversed_pressure_fails": true,
+    "zero_pressure_has_curvature_defect": true
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2245-localized-normal-domain-2026-10-29.md": "2688cd99d94e82a490c65ea6f243cdf9a49416b3e66d9736f91b01c69a2e493e",
+    "explorations/conditional-build/k2519-stationary-product-receiver-2026-11-02.md": "55a02ce285f604f53766196dfa8246ec5df7ceb441553032f678bfc8596fcc6d",
+    "explorations/conditional-build/k2529-native-displacement-response-2026-11-04.md": "9282a991b5dc655e2d8d431e9d68732e0f2a5ff683f44a7ebb9217dd45b6ba6a"
+  },
+  "evidence_kinds": {
+    "exact_finite": "boost, connection, pressure and algebraic controls",
+    "provenance": "dependency hashes/report equality",
+    "universal": "written total-variation bands, tensor conservation and distributional thin-limit proofs"
+  },
+  "exact_values": {
+    "fixed_width_source_sobolev": "H^(-s) iff s>7/2",
+    "majorant_choice_dimension": 12,
+    "pressure_fixture": "(c - 2)**3*(c + 2)**3*(3*c**2 + 4)/(6*c**4)",
+    "residual_codimension": 7,
+    "residual_support": "R3 x {0 in R3,4}",
+    "thin_integrated_pressure_order": "O(abs(K1)*epsilon^2)",
+    "thin_source_sobolev": "H^(-s) iff s>5"
+  },
+  "result": "K2531",
+  "scope": "actual product scalar-measure support and supplied conserved stress; no full response",
+  "source_owned_matter_action_or_Green_response": false
+}

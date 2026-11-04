@@ -1,5 +1,11 @@
 
 
+## Latest conditional constructions (2026-11-04)
+
+- [K2530](k2530_finite_drift_envelope_probe.py): sharp finite-drift anchor feasibility and shared weak test.
+- [K2531](k2531_partial_thickness_source_probe.py): stationary-product support and conserved partial-width source.
+
+
 - [k2528-observation-forecast-feasibility](k2528_observation_forecast_feasibility_probe.py).
 - [k2529-native-displacement-response](k2529_native_displacement_response_probe.py).
 

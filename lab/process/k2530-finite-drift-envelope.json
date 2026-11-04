@@ -1,0 +1,57 @@
+{
+  "checks": {
+    "actual_second_window_derivative": true,
+    "coarse_lower_below_one": true,
+    "coarse_upper_above_one_integrand": true,
+    "common_clock_shift_invariance": true,
+    "compatible_exact_nodes": true,
+    "exponential_lower_bound": true,
+    "first_saturation_strictness": true,
+    "individual_first_anchor_control": true,
+    "individual_second_anchor_control": true,
+    "joint_second_shell_saturates_upper": true,
+    "momentum_kernel_decreases": true,
+    "moving_emitter_log_jacobian": true,
+    "no_positive_history_discarded_by_fixture": true,
+    "outer_matrix_bound_strict": true,
+    "positive_coasting_anchor": true,
+    "second_saturation_strictness": true,
+    "sharp_lower_integral": true,
+    "sharp_upper_integral": true,
+    "signed_power_-1/2_-3": true,
+    "signed_power_-1/2_2": true,
+    "signed_power_-5/2_-3": true,
+    "signed_power_-5/2_2": true,
+    "signed_power_3/2_-3": true,
+    "signed_power_3/2_2": true,
+    "strict_upper_bound_squared": true
+  },
+  "contrary_controls": {
+    "coarse_rectangle_misses_anchor_contradiction": true,
+    "cross_node_incompatibility": true,
+    "four_rows_cannot_fit": true,
+    "joint_saturation_one_sided_traces_disagree": true,
+    "robust_positivity_slice_not_all_histories": true,
+    "three_rows_can_fit": true
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2409-coupled-drift-calibration-2026-10-31.md": "5eb173f5eb7f3d0564d3a9cc9cf5b79de8f4c27613a8eb88e12f1ffdcea43f0c",
+    "explorations/conditional-build/k2520-nonlinear-observation-null-2026-11-02.md": "540432e8b6ac79e81f034cdc7e35938093953a2fc90ead1a1cae0e0edadf0798",
+    "explorations/conditional-build/k2528-observation-forecast-feasibility-2026-11-04.md": "8c64e079449df65dbb426763af2a1b3645e061ca355c1fc0c5632bf6aad807a3"
+  },
+  "empirical_or_native_GU_certification": false,
+  "evidence_kinds": {
+    "exact_finite": "symbolic identities and rational controls; matrix fixture is not observed data",
+    "provenance": "dependency hashes and report equality",
+    "universal": "written extension, monotonicity, continuity and saturation proofs"
+  },
+  "exact_values": {
+    "anchor_lower": "(1+log(2))/3",
+    "anchor_upper": "3*log(3)/2-log(2)",
+    "coarse_interval": "[2*log(2)/3,2*log(2)]",
+    "rejected_anchor": "1",
+    "separate_matrix_fixture_bound": "1/15"
+  },
+  "result": "K2530",
+  "scope": "conditional finite-information/anchor and weak-column construction"
+}

@@ -6,6 +6,18 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2530--K2531: Finite drift information and conserved partial thickness (2026-11-04)
+
+K2530 composes finite drift nodes and a supplied Lipschitz bound into a sharp nonlinear distance-anchor interval, proves an exact rejection missed by a coarse band and a joint-anchor incompatibility, and bounds the sourced weak columns with shared trials. K2531 classifies invariant finite normal measures on the actual stationary product: three directions may thicken while seven remain singular. An explicit normal pressure restores conservation of that partial-thickness stress and vanishes in its thin limit. The fixed-width source has the exact local Sobolev threshold s>7/2, compared with s>5 for the original thin source. These are conditional constructions; no measured sensitivity, source-owned matter action, full Green response or native GU certification. Source polarities and ledger0.263 remain unchanged.
+
+- [K2530](explorations/conditional-build/k2530-finite-drift-envelope-2026-11-04.md).
+- [K2531](explorations/conditional-build/k2531-partial-thickness-source-2026-11-04.md).
+
+Independent observation and geometry specialists checked the concrete constructions; a separate integrated reviewer challenged the proofs and actual probe seams. Review clarified effective clock calibration, moved the joint-anchor fixture off the observer endpoint, retained tangential boundary conditions and strengthened counterfixtures. Universal measure/functional/conservation arguments, exact finite controls and report consistency are distinct evidence kinds. No experimental, external-expert, proof-assistant or novelty certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2528--K2529: Observation feasibility and selected-action response (2026-11-04)
 
 K2528 tests a specified ANDES forecast against the existing sufficient cosmology certificate, identifies coverage/tracer/joint-band gaps, and constructs a high-redshift two-anchor difference repair with an anchor-preserving information counterexample. K2529 computes the selected I1 action's full four-coordinate homogeneous metric-displacement Hessian on every nonzero stationary product branch, retains source/contact terms and obtains a factor-sensitive paired response. An explicit thin tension source then satisfies the seed conservation identity but requires a distributional response; no smooth perturbation can realize its nonzero codimension10 support. These are conditional constructions; no empirical exclusion, full-field Green response or native GU certification. Source polarities and ledger0.263 remain unchanged.
