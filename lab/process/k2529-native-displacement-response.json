@@ -1,0 +1,93 @@
+{
+  "result": "K2529",
+  "scope": "selected I1 completion, homogeneous four-coordinate Hessian and supplied coordinate-source response; no full Green or physical source",
+  "checks": {
+    "radial_full_family_stationarity": true,
+    "radial_A_actual_second_derivative": true,
+    "radial_B_actual_mixed_derivative": true,
+    "radial_D_actual_displacement_derivative": true,
+    "radial_full_determinant": true,
+    "radial_effective_block": true,
+    "radial_effective_plus": true,
+    "radial_effective_minus": true,
+    "radial_sector_indefinite_1": true,
+    "radial_sector_indefinite_-1": true,
+    "source_contact_elimination_identity": true,
+    "full_original_source_equations": true,
+    "zero_branch_constant_family_hessian": true,
+    "moving_amplitude_coordinate_congruence": true,
+    "determinant_coordinate_factor": true,
+    "nonradial_full_family_stationarity": true,
+    "nonradial_determinant": true,
+    "nonradial_displacement_determinant": true,
+    "schur_determinant_quotient": true,
+    "paired_branch_discriminator": true,
+    "original_adjugate_metric_response": true,
+    "root_rational_isolation": true,
+    "roots_below_both_determinant_thresholds": true,
+    "discriminator_never_zero": true,
+    "all_entry_kappa_scalings": true,
+    "four_dimensional_tension_metric_source": true,
+    "nonzero_conformal_source_test": true,
+    "normal_test_volume_scales_codimension10": true
+  },
+  "contrary_controls": {
+    "freezing_displacement_changes_response": true,
+    "dropping_contact_changes_action": true,
+    "branch_first_substitution_erases_hessian": true,
+    "zero_kappa_not_invertible": true,
+    "factor_blind_scalar_misses_readout": true,
+    "delta_source_not_smooth_density": true
+  },
+  "radial_hessian_ab": [
+    [
+      "6125*k**3/57584384",
+      "8575*k**3/57584384",
+      "-1225*k**2/302016",
+      "-1715*k**2/302016"
+    ],
+    [
+      "8575*k**3/57584384",
+      "6125*k**3/57584384",
+      "-1715*k**2/302016",
+      "-1225*k**2/302016"
+    ],
+    [
+      "-1225*k**2/302016",
+      "-1715*k**2/302016",
+      "371*k/143",
+      "-735*k/143"
+    ],
+    [
+      "-1715*k**2/302016",
+      "-1225*k**2/302016",
+      "-735*k/143",
+      "371*k/143"
+    ]
+  ],
+  "radial_effective_metric": [
+    [
+      "81760175*k**3/655079952384",
+      "109854325*k**3/655079952384"
+    ],
+    [
+      "109854325*k**3/655079952384",
+      "81760175*k**3/655079952384"
+    ]
+  ],
+  "nonradial_detH_uv_k1": "-117649*(6770965254529032408*u - 331145834811398885)/1515995281338278400000",
+  "nonradial_detD_uv_k1": "49*(273264*u - 24485)/4180",
+  "nonradial_inverse_metric_diagonal_difference_numerator": "266511*v*(118088*u - 5735)/4368100",
+  "evidence_kinds": {
+    "exact": "original density differentiation, source elimination, quotient determinants and branch discriminator",
+    "inherited": "K2519 full first-variation admissibility, K2345 nonstationary metric-bundle control",
+    "universal": "finite-dimensional inverse-function consequence; thin-source first variation, Ward identity and smoothness obstruction in note; no field-domain inverse",
+    "reporting": "saved report equality and dependency pins"
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2519-stationary-product-receiver-2026-11-02.md": "55a02ce285f604f53766196dfa8246ec5df7ceb441553032f678bfc8596fcc6d",
+    "lab/process/k2519-stationary-product-receiver.json": "6cb91aeadd506e13622554dc65b8cf1ff82bacc5bb5592aa7bcc2ace4b4f2253",
+    "explorations/conditional-build/k2345-curved-bundle-ricci-obstruction-2026-10-30.md": "cebbaae76afd966c1d53fd449ab52185cb9574ecdc8cb1a53b36e21017e530ad",
+    "explorations/conditional-build/k2527-coupled-horizontal-bending-action-2026-11-02.md": "46b4b3575794d630188a6b24d800a634861a07a4bdf2e68795323691e989f8f0"
+  }
+}

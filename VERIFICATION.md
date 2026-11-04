@@ -5,6 +5,19 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2528--K2529: Observation feasibility and selected-action response (2026-11-04)
+
+K2528 tests a specified ANDES forecast against the existing sufficient cosmology certificate, identifies coverage/tracer/joint-band gaps, and constructs a high-redshift two-anchor difference repair with an anchor-preserving information counterexample. K2529 computes the selected I1 action's full four-coordinate homogeneous metric-displacement Hessian on every nonzero stationary product branch, retains source/contact terms and obtains a factor-sensitive paired response. An explicit thin tension source then satisfies the seed conservation identity but requires a distributional response; no smooth perturbation can realize its nonzero codimension10 support. These are conditional constructions; no empirical exclusion, full-field Green response or native GU certification. Source polarities and ledger0.263 remain unchanged.
+
+- [K2528](explorations/conditional-build/k2528-observation-forecast-feasibility-2026-11-04.md).
+- [K2529](explorations/conditional-build/k2529-native-displacement-response-2026-11-04.md).
+
+Independent observation and geometry specialists reconstructed the concrete results and reviewed actual notes/probes; a separate integrated reviewer checked proofs and source ceilings. Review added the positive-denominator hypothesis, an exact bump bound and a composed Doppler countercontrol, and clarified branch-coordinate/sign conventions. Exact symbolic identities and quotient computations, universal integral/finite-dimensional arguments, dated numerical forecasts, inherited evidence and reporting checks are distinct evidence kinds. No experimental, external-expert, proof-assistant or novelty certification.
+
+Earlier sections preserve historical snapshots.
+
+
+
 ## K2526--K2527: Geodesic emitters and coupled lift action (2026-11-02)
 
 K2526 derives exact common-momentum radial-geodesic drift/distance repair, a velocity-uniform weak cosmology test and two-anchor identification versus third-anchor discrimination. K2527 reduces the single-field LC-coupled bending action to volume, then proves joint stationary backgrounds and the complete two-field Hessian: induced-metric-only sources have no differentiable linear response, and compatible paired sources leave that metric readout undetermined. These are conditional constructions; native GU, empirical credit and ledger0.263 remain unchanged.

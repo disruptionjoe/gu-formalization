@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-21"
 ---
 
+- [k2528-observation-forecast-feasibility](conditional-build/k2528-observation-forecast-feasibility-2026-11-04.md).
+- [k2529-native-displacement-response](conditional-build/k2529-native-displacement-response-2026-11-04.md).
+
+
+
 - [k2526-geodesic-emitter-drift-repair](conditional-build/k2526-geodesic-emitter-drift-repair-2026-11-02.md).
 - [k2527-coupled-horizontal-bending-action](conditional-build/k2527-coupled-horizontal-bending-action-2026-11-02.md).
 

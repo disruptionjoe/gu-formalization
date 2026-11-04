@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: a1899e2f763909e02d1f82044261c02f4297e4c9
+revision_basis: 6f1dff999ba67e3dba489dd75f1cdac5a240883f
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,17 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2528 tests a specified ANDES forecast against the existing sufficient cosmology
+    certificate, identifies coverage/tracer/joint-band gaps, and constructs a
+    high-redshift two-anchor difference repair with an anchor-preserving information
+    counterexample. K2529 computes the selected I1 action's full four-coordinate
+    homogeneous metric-displacement Hessian on every nonzero stationary product branch,
+    retains source/contact terms and obtains a factor-sensitive paired response. An
+    explicit thin tension source then satisfies the seed conservation identity but
+    requires a distributional response; no smooth perturbation can realize its nonzero
+    codimension10 support. These are conditional constructions; no empirical exclusion,
+    full-field Green response or native GU certification. Source polarities and
+    ledger0.263 remain unchanged. Historical predecessor (not live):
     K2526 derives exact common-momentum radial-geodesic drift/distance repair, a
     velocity-uniform weak cosmology test and two-anchor identification versus third-anchor
     discrimination. K2527 reduces the single-field LC-coupled bending action to volume, then
@@ -18324,6 +18335,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2528-observation-forecast-feasibility-2026-11-04.md
+  - lab/process/k2528-observation-forecast-feasibility.json
+  - tests/channel-swings/k2528_observation_forecast_feasibility_probe.py
+  - explorations/conditional-build/k2529-native-displacement-response-2026-11-04.md
+  - lab/process/k2529-native-displacement-response.json
+  - tests/channel-swings/k2529_native_displacement_response_probe.py
   - explorations/conditional-build/k2526-geodesic-emitter-drift-repair-2026-11-02.md
   - lab/process/k2526-geodesic-emitter-drift-repair.json
   - tests/channel-swings/k2526_geodesic_emitter_drift_repair_probe.py
@@ -20809,6 +20826,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can an actual jointly calibrated finite-observable measurement close the cosmology
+  decision gap, or can a source-localized observed metric input extend the nonzero
+  selected-I1 product response beyond its homogeneous four-coordinate family? Historical
+  predecessor (not live):
   Can justified source-motion and joint observation bands meet the velocity-uniform
   cosmology test, and which actual additional native action or source coupling removes the
   two-field induced-metric response obstruction? Historical predecessor (not live):
@@ -25201,6 +25222,25 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K2528 closes the specified forecast comparison: marginal statistical errors and
+  high-redshift absorption bins do not supply the old continuous common-momentum
+  low-origin envelope. The two high-redshift distance differences remove that origin
+  requirement conditionally, not precision, joint-band or tracer burdens. Do not report
+  its sufficient tolerance as a necessary sensitivity or infer a continuous band from
+  exact nodes and anchors. K2529 closes every nonzero stationary product branch's
+  four-coordinate mixed metric-displacement response, with exact Schur source/contact
+  retention and factor-sensitive readout; inertia(2,2) is not a physical-ghost verdict.
+  The supplied thin tension source now fixes an explicit conserved metric covector and
+  rules out smooth response by a distributional-support argument; a compatible
+  distributional Green domain or action-owned finite thickness and the full
+  finite-momentum/Met(X) bridge remain decisive. Do not replace them with another
+  homogeneous Hessian, import a bending inverse or use the nonstationary T=0 lift.
+  Compare a directly measurable finite-observable residual and justified joint
+  calibration against the smallest source-localization/receiver construction. Retain
+  higher-multipole/slip access, K2516 joint-effect calibration, K2517 finite-score
+  stopping, full multivariable hook inversion, common-bar/mobile, thermal163/164,
+  native2+1/chirality and physical quotient at their exact ceilings. Historical
+  predecessor (not live):
   K2526 supplies exact radial-geodesic source motion and a velocity-uniform coasting-shape
   test at its explicit7.117771307378410e-11 sufficient normalized-rate oscillation
   threshold. Continuous shared bands, low-redshift origin coverage, same-p test tracers,

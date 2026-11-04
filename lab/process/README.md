@@ -5,6 +5,11 @@ doc_type: overview
 updated_at: "2026-08-23"
 ---
 
+- [k2528-observation-forecast-feasibility](k2528-observation-forecast-feasibility.json).
+- [k2529-native-displacement-response](k2529-native-displacement-response.json).
+
+
+
 - [k2526-geodesic-emitter-drift-repair](k2526-geodesic-emitter-drift-repair.json).
 - [k2527-coupled-horizontal-bending-action](k2527-coupled-horizontal-bending-action.json).
 

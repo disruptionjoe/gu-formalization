@@ -1,4 +1,9 @@
 
+
+- [k2528-observation-forecast-feasibility](k2528_observation_forecast_feasibility_probe.py).
+- [k2529-native-displacement-response](k2529_native_displacement_response_probe.py).
+
+
 - [k2526-geodesic-emitter-drift-repair](k2526_geodesic_emitter_drift_repair_probe.py).
 - [k2527-coupled-horizontal-bending-action](k2527_coupled_horizontal_bending_action_probe.py).
 

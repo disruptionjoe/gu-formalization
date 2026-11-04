@@ -1,0 +1,82 @@
+{
+  "result": "K2528",
+  "scope": "dated forecast does not supply joint sufficient-certificate inputs; conditional shifted-anchor repair, not empirical exclusion",
+  "checks": {
+    "ratio_decreases": true,
+    "endpoint_squared_margin": true,
+    "common_normalized_domain": true,
+    "all_four_shifted_weak_columns": true,
+    "inherited_tolerance_composes": true,
+    "positive_scale_lower_bound": true,
+    "bump_anchor_integral_exact": true,
+    "bump_endpoint_jets": true,
+    "bump_exact_factorization": true,
+    "bump_product_quadratic_bound": true,
+    "bump_linear_extrema": true,
+    "bump_positive_denominator_bound": true,
+    "physical_comoving_drift_identity": true,
+    "anchor_preserved_before_integration": true,
+    "common_ruler_scales_difference": true,
+    "shared_ruler_covariance_control": true,
+    "velocity_clock_dimensionless_conversion": true
+  },
+  "contrary_controls": {
+    "forecast_not_low_redshift": true,
+    "dust_shift_omission_changes_equation": true,
+    "same_anchor_nonzero_oscillation": true,
+    "dropping_doppler_in_distance_difference_changes_it": true,
+    "ruler_not_cancelled": true
+  },
+  "forecast": [
+    {
+      "z": "2",
+      "sigma_v_cm_per_s": "5.68314499355570",
+      "sigma_dimensionless_Q": "0.132399570366941",
+      "sigma_over_illustrative_uniform_budget": "3720253563.91243"
+    },
+    {
+      "z": "5/2",
+      "sigma_v_cm_per_s": "4.37299714623090",
+      "sigma_dimensionless_Q": "0.101877207784309",
+      "sigma_over_illustrative_uniform_budget": "2862615371.71618"
+    },
+    {
+      "z": "3",
+      "sigma_v_cm_per_s": "3.48492057137060",
+      "sigma_dimensionless_Q": "0.0811877907277714",
+      "sigma_over_illustrative_uniform_budget": "2281269999.32158"
+    },
+    {
+      "z": "7/2",
+      "sigma_v_cm_per_s": "2.85255216987960",
+      "sigma_dimensionless_Q": "0.0664555773554262",
+      "sigma_over_illustrative_uniform_budget": "1867314205.12309"
+    },
+    {
+      "z": "9/2",
+      "sigma_v_cm_per_s": "2.18873128343200",
+      "sigma_dimensionless_Q": "0.0509906190856786",
+      "sigma_over_illustrative_uniform_budget": "1432769244.29479"
+    }
+  ],
+  "illustrative_c_T_Href_cm_per_s": "42.92419512997708",
+  "inherited_sufficient_R": "97354967435859375/1367773186740903834612558203",
+  "illustrative_uniform_velocity_budget_cm_per_s": "1.527623022442315e-9",
+  "sources": [
+    "https://arxiv.org/pdf/2305.01446#section2",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11413136/#Sec5"
+  ],
+  "evidence_kinds": {
+    "exact": "domain margin, weak-column transformation, anchor-preserving counterprofile and sufficient tolerance composition",
+    "universal": "positive-history integral inequality and compact-bump argument in note",
+    "numerical": "dated forecast sigmas and illustrative dimensional conversion only",
+    "inherited": "K2522/K2526 exact weak certificate; unchanged dependency reuse",
+    "reporting": "saved report equality and dependency hashes"
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2522-redshift-drift-interface-2026-11-02.md": "db193322e289ef67ecd81ebbe00266ec2048bfe63ac10ee2c8a33b24fcf933bf",
+    "lab/process/k2522-redshift-drift-interface.json": "72eb507ad47e9b041ec32d01a12037085cb11eda29975a72fec38d6e2ff0e80b",
+    "explorations/conditional-build/k2526-geodesic-emitter-drift-repair-2026-11-02.md": "9cf0394e780863562f743271e2687cdf9b2e2daa058460a9d0c5c40e91157d68",
+    "lab/process/k2526-geodesic-emitter-drift-repair.json": "82f518858232aa9ae953bd04ee85d720e8af5a3570363a24bba81daf905ce573"
+  }
+}
