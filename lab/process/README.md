@@ -7,6 +7,12 @@ updated_at: "2026-08-23"
 
 ## Latest conditional constructions (2026-11-04)
 
+- [K2534](k2534-calibrated-family-refit.json): calibrated family refit and held-out high-alpha repair.
+- [K2535](k2535-reduced-response-symbol.json): full covariant grade reduction and exact source-compatible symbol.
+
+
+## Latest conditional constructions (2026-11-04)
+
 - [K2532](k2532-finite-drift-forecast.json): finite drift, joint released calibration and scale/offset consumer.
 - [K2533](k2533-mixed-source-response.json): actual symbol, radial source obstruction and complete even auxiliary elimination.
 

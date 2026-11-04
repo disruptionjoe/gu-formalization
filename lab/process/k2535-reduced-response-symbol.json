@@ -1,0 +1,7750 @@
+{
+  "causal_census": {
+    "negative": {
+      "B_rank": 65456,
+      "active_dimension": 56448,
+      "active_rank": 32241,
+      "affected_odd_dimension": 1288,
+      "affected_odd_rank": 988,
+      "augmented_rank": 1079,
+      "component_dimensions_ranks": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          26,
+          26
+        ]
+      ],
+      "full_metric_odd_dimension": 114793,
+      "full_metric_odd_rank": 65547,
+      "grade1_rank": 117,
+      "metric_grade1_rank": 208,
+      "odd_dimension": 114688,
+      "odd_radical": 49232,
+      "odd_rank": 65456,
+      "orbits": [
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 13,
+          "multiplicity": 1,
+          "negative_count": 0,
+          "odd_dimension": 14,
+          "positive_count": 0
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 2,
+          "multiplicity": 6,
+          "negative_count": 1,
+          "odd_dimension": 14,
+          "positive_count": 0
+        },
+        {
+          "B_rank": 12,
+          "Schur_rank": 12,
+          "active_rank": 1,
+          "multiplicity": 15,
+          "negative_count": 2,
+          "odd_dimension": 14,
+          "positive_count": 0
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 1,
+          "multiplicity": 20,
+          "negative_count": 3,
+          "odd_dimension": 14,
+          "positive_count": 0
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 9,
+          "multiplicity": 15,
+          "negative_count": 4,
+          "odd_dimension": 14,
+          "positive_count": 0
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 2,
+          "multiplicity": 6,
+          "negative_count": 5,
+          "odd_dimension": 14,
+          "positive_count": 0
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 6,
+          "multiplicity": 1,
+          "negative_count": 6,
+          "odd_dimension": 14,
+          "positive_count": 0
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 2,
+          "multiplicity": 7,
+          "negative_count": 0,
+          "odd_dimension": 14,
+          "positive_count": 1
+        },
+        {
+          "B_rank": 12,
+          "Schur_rank": 12,
+          "active_rank": 1,
+          "multiplicity": 42,
+          "negative_count": 1,
+          "odd_dimension": 14,
+          "positive_count": 1
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 1,
+          "multiplicity": 105,
+          "negative_count": 2,
+          "odd_dimension": 14,
+          "positive_count": 1
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 9,
+          "multiplicity": 140,
+          "negative_count": 3,
+          "odd_dimension": 14,
+          "positive_count": 1
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 2,
+          "multiplicity": 105,
+          "negative_count": 4,
+          "odd_dimension": 14,
+          "positive_count": 1
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 6,
+          "multiplicity": 42,
+          "negative_count": 5,
+          "odd_dimension": 14,
+          "positive_count": 1
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 1,
+          "multiplicity": 7,
+          "negative_count": 6,
+          "odd_dimension": 14,
+          "positive_count": 1
+        },
+        {
+          "B_rank": 12,
+          "Schur_rank": 12,
+          "active_rank": 1,
+          "multiplicity": 21,
+          "negative_count": 0,
+          "odd_dimension": 14,
+          "positive_count": 2
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 1,
+          "multiplicity": 126,
+          "negative_count": 1,
+          "odd_dimension": 14,
+          "positive_count": 2
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 9,
+          "multiplicity": 315,
+          "negative_count": 2,
+          "odd_dimension": 14,
+          "positive_count": 2
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 2,
+          "multiplicity": 420,
+          "negative_count": 3,
+          "odd_dimension": 14,
+          "positive_count": 2
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 6,
+          "multiplicity": 315,
+          "negative_count": 4,
+          "odd_dimension": 14,
+          "positive_count": 2
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 1,
+          "multiplicity": 126,
+          "negative_count": 5,
+          "odd_dimension": 14,
+          "positive_count": 2
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 5,
+          "multiplicity": 21,
+          "negative_count": 6,
+          "odd_dimension": 14,
+          "positive_count": 2
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 1,
+          "multiplicity": 35,
+          "negative_count": 0,
+          "odd_dimension": 14,
+          "positive_count": 3
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 9,
+          "multiplicity": 210,
+          "negative_count": 1,
+          "odd_dimension": 14,
+          "positive_count": 3
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 2,
+          "multiplicity": 525,
+          "negative_count": 2,
+          "odd_dimension": 14,
+          "positive_count": 3
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 6,
+          "multiplicity": 700,
+          "negative_count": 3,
+          "odd_dimension": 14,
+          "positive_count": 3
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 1,
+          "multiplicity": 525,
+          "negative_count": 4,
+          "odd_dimension": 14,
+          "positive_count": 3
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 5,
+          "multiplicity": 210,
+          "negative_count": 5,
+          "odd_dimension": 14,
+          "positive_count": 3
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 2,
+          "multiplicity": 35,
+          "negative_count": 6,
+          "odd_dimension": 14,
+          "positive_count": 3
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 9,
+          "multiplicity": 35,
+          "negative_count": 0,
+          "odd_dimension": 14,
+          "positive_count": 4
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 2,
+          "multiplicity": 210,
+          "negative_count": 1,
+          "odd_dimension": 14,
+          "positive_count": 4
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 6,
+          "multiplicity": 525,
+          "negative_count": 2,
+          "odd_dimension": 14,
+          "positive_count": 4
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 1,
+          "multiplicity": 700,
+          "negative_count": 3,
+          "odd_dimension": 14,
+          "positive_count": 4
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 5,
+          "multiplicity": 525,
+          "negative_count": 4,
+          "odd_dimension": 14,
+          "positive_count": 4
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 2,
+          "multiplicity": 210,
+          "negative_count": 5,
+          "odd_dimension": 14,
+          "positive_count": 4
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 10,
+          "multiplicity": 35,
+          "negative_count": 6,
+          "odd_dimension": 14,
+          "positive_count": 4
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 2,
+          "multiplicity": 21,
+          "negative_count": 0,
+          "odd_dimension": 14,
+          "positive_count": 5
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 6,
+          "multiplicity": 126,
+          "negative_count": 1,
+          "odd_dimension": 14,
+          "positive_count": 5
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 1,
+          "multiplicity": 315,
+          "negative_count": 2,
+          "odd_dimension": 14,
+          "positive_count": 5
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 5,
+          "multiplicity": 420,
+          "negative_count": 3,
+          "odd_dimension": 14,
+          "positive_count": 5
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 2,
+          "multiplicity": 315,
+          "negative_count": 4,
+          "odd_dimension": 14,
+          "positive_count": 5
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 10,
+          "multiplicity": 126,
+          "negative_count": 5,
+          "odd_dimension": 14,
+          "positive_count": 5
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 1,
+          "multiplicity": 21,
+          "negative_count": 6,
+          "odd_dimension": 14,
+          "positive_count": 5
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 6,
+          "multiplicity": 7,
+          "negative_count": 0,
+          "odd_dimension": 14,
+          "positive_count": 6
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 1,
+          "multiplicity": 42,
+          "negative_count": 1,
+          "odd_dimension": 14,
+          "positive_count": 6
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 5,
+          "multiplicity": 105,
+          "negative_count": 2,
+          "odd_dimension": 14,
+          "positive_count": 6
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 2,
+          "multiplicity": 140,
+          "negative_count": 3,
+          "odd_dimension": 14,
+          "positive_count": 6
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 10,
+          "multiplicity": 105,
+          "negative_count": 4,
+          "odd_dimension": 14,
+          "positive_count": 6
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 1,
+          "multiplicity": 42,
+          "negative_count": 5,
+          "odd_dimension": 14,
+          "positive_count": 6
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 1,
+          "multiplicity": 7,
+          "negative_count": 6,
+          "odd_dimension": 14,
+          "positive_count": 6
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 1,
+          "multiplicity": 1,
+          "negative_count": 0,
+          "odd_dimension": 14,
+          "positive_count": 7
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 5,
+          "multiplicity": 6,
+          "negative_count": 1,
+          "odd_dimension": 14,
+          "positive_count": 7
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 2,
+          "multiplicity": 15,
+          "negative_count": 2,
+          "odd_dimension": 14,
+          "positive_count": 7
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 10,
+          "multiplicity": 20,
+          "negative_count": 3,
+          "odd_dimension": 14,
+          "positive_count": 7
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 1,
+          "multiplicity": 15,
+          "negative_count": 4,
+          "odd_dimension": 14,
+          "positive_count": 7
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 1,
+          "multiplicity": 6,
+          "negative_count": 5,
+          "odd_dimension": 14,
+          "positive_count": 7
+        },
+        {
+          "B_rank": 1,
+          "Schur_rank": 1,
+          "active_rank": 1,
+          "multiplicity": 1,
+          "negative_count": 6,
+          "odd_dimension": 14,
+          "positive_count": 7
+        }
+      ],
+      "source_compatibility": {
+        "Einstein_image_extra_rank": 0,
+        "all_conserved_extra_rank": 0,
+        "witness": null
+      }
+    },
+    "null": {
+      "B_rank": 61373,
+      "active_dimension": 56448,
+      "active_rank": 15936,
+      "affected_odd_dimension": 2212,
+      "affected_odd_rank": 302,
+      "augmented_rank": 316,
+      "component_dimensions_ranks": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          24,
+          12
+        ],
+        [
+          24,
+          12
+        ],
+        [
+          24,
+          12
+        ],
+        [
+          24,
+          12
+        ],
+        [
+          24,
+          12
+        ],
+        [
+          24,
+          12
+        ],
+        [
+          24,
+          12
+        ],
+        [
+          24,
+          12
+        ],
+        [
+          24,
+          12
+        ],
+        [
+          24,
+          12
+        ],
+        [
+          24,
+          12
+        ],
+        [
+          24,
+          12
+        ],
+        [
+          31,
+          4
+        ]
+      ],
+      "full_metric_odd_dimension": 114793,
+      "full_metric_odd_rank": 32782,
+      "grade1_rank": 26,
+      "metric_grade1_rank": 40,
+      "odd_dimension": 114688,
+      "odd_radical": 81920,
+      "odd_rank": 32768,
+      "orbits": [
+        {
+          "B_rank": 15,
+          "Schur_rank": 2,
+          "active_rank": 2,
+          "multiplicity": 1,
+          "negative_count": 0,
+          "odd_dimension": 28,
+          "positive_count": 0
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 14,
+          "active_rank": 2,
+          "multiplicity": 6,
+          "negative_count": 1,
+          "odd_dimension": 28,
+          "positive_count": 0
+        },
+        {
+          "B_rank": 14,
+          "Schur_rank": 2,
+          "active_rank": 0,
+          "multiplicity": 15,
+          "negative_count": 2,
+          "odd_dimension": 28,
+          "positive_count": 0
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 14,
+          "active_rank": 10,
+          "multiplicity": 20,
+          "negative_count": 3,
+          "odd_dimension": 28,
+          "positive_count": 0
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 2,
+          "active_rank": 2,
+          "multiplicity": 15,
+          "negative_count": 4,
+          "odd_dimension": 28,
+          "positive_count": 0
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 14,
+          "active_rank": 6,
+          "multiplicity": 6,
+          "negative_count": 5,
+          "odd_dimension": 28,
+          "positive_count": 0
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 2,
+          "active_rank": 0,
+          "multiplicity": 1,
+          "negative_count": 6,
+          "odd_dimension": 28,
+          "positive_count": 0
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 14,
+          "active_rank": 2,
+          "multiplicity": 6,
+          "negative_count": 0,
+          "odd_dimension": 28,
+          "positive_count": 1
+        },
+        {
+          "B_rank": 14,
+          "Schur_rank": 2,
+          "active_rank": 0,
+          "multiplicity": 36,
+          "negative_count": 1,
+          "odd_dimension": 28,
+          "positive_count": 1
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 14,
+          "active_rank": 10,
+          "multiplicity": 90,
+          "negative_count": 2,
+          "odd_dimension": 28,
+          "positive_count": 1
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 2,
+          "active_rank": 2,
+          "multiplicity": 120,
+          "negative_count": 3,
+          "odd_dimension": 28,
+          "positive_count": 1
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 14,
+          "active_rank": 6,
+          "multiplicity": 90,
+          "negative_count": 4,
+          "odd_dimension": 28,
+          "positive_count": 1
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 2,
+          "active_rank": 0,
+          "multiplicity": 36,
+          "negative_count": 5,
+          "odd_dimension": 28,
+          "positive_count": 1
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 14,
+          "active_rank": 6,
+          "multiplicity": 6,
+          "negative_count": 6,
+          "odd_dimension": 28,
+          "positive_count": 1
+        },
+        {
+          "B_rank": 14,
+          "Schur_rank": 2,
+          "active_rank": 0,
+          "multiplicity": 15,
+          "negative_count": 0,
+          "odd_dimension": 28,
+          "positive_count": 2
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 14,
+          "active_rank": 10,
+          "multiplicity": 90,
+          "negative_count": 1,
+          "odd_dimension": 28,
+          "positive_count": 2
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 2,
+          "active_rank": 2,
+          "multiplicity": 225,
+          "negative_count": 2,
+          "odd_dimension": 28,
+          "positive_count": 2
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 14,
+          "active_rank": 6,
+          "multiplicity": 300,
+          "negative_count": 3,
+          "odd_dimension": 28,
+          "positive_count": 2
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 2,
+          "active_rank": 0,
+          "multiplicity": 225,
+          "negative_count": 4,
+          "odd_dimension": 28,
+          "positive_count": 2
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 14,
+          "active_rank": 6,
+          "multiplicity": 90,
+          "negative_count": 5,
+          "odd_dimension": 28,
+          "positive_count": 2
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 2,
+          "active_rank": 2,
+          "multiplicity": 15,
+          "negative_count": 6,
+          "odd_dimension": 28,
+          "positive_count": 2
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 14,
+          "active_rank": 10,
+          "multiplicity": 20,
+          "negative_count": 0,
+          "odd_dimension": 28,
+          "positive_count": 3
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 2,
+          "active_rank": 2,
+          "multiplicity": 120,
+          "negative_count": 1,
+          "odd_dimension": 28,
+          "positive_count": 3
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 14,
+          "active_rank": 6,
+          "multiplicity": 300,
+          "negative_count": 2,
+          "odd_dimension": 28,
+          "positive_count": 3
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 2,
+          "active_rank": 0,
+          "multiplicity": 400,
+          "negative_count": 3,
+          "odd_dimension": 28,
+          "positive_count": 3
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 14,
+          "active_rank": 6,
+          "multiplicity": 300,
+          "negative_count": 4,
+          "odd_dimension": 28,
+          "positive_count": 3
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 2,
+          "active_rank": 2,
+          "multiplicity": 120,
+          "negative_count": 5,
+          "odd_dimension": 28,
+          "positive_count": 3
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 14,
+          "active_rank": 10,
+          "multiplicity": 20,
+          "negative_count": 6,
+          "odd_dimension": 28,
+          "positive_count": 3
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 2,
+          "active_rank": 2,
+          "multiplicity": 15,
+          "negative_count": 0,
+          "odd_dimension": 28,
+          "positive_count": 4
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 14,
+          "active_rank": 6,
+          "multiplicity": 90,
+          "negative_count": 1,
+          "odd_dimension": 28,
+          "positive_count": 4
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 2,
+          "active_rank": 0,
+          "multiplicity": 225,
+          "negative_count": 2,
+          "odd_dimension": 28,
+          "positive_count": 4
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 14,
+          "active_rank": 6,
+          "multiplicity": 300,
+          "negative_count": 3,
+          "odd_dimension": 28,
+          "positive_count": 4
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 2,
+          "active_rank": 2,
+          "multiplicity": 225,
+          "negative_count": 4,
+          "odd_dimension": 28,
+          "positive_count": 4
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 14,
+          "active_rank": 10,
+          "multiplicity": 90,
+          "negative_count": 5,
+          "odd_dimension": 28,
+          "positive_count": 4
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 2,
+          "active_rank": 0,
+          "multiplicity": 15,
+          "negative_count": 6,
+          "odd_dimension": 28,
+          "positive_count": 4
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 14,
+          "active_rank": 6,
+          "multiplicity": 6,
+          "negative_count": 0,
+          "odd_dimension": 28,
+          "positive_count": 5
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 2,
+          "active_rank": 0,
+          "multiplicity": 36,
+          "negative_count": 1,
+          "odd_dimension": 28,
+          "positive_count": 5
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 14,
+          "active_rank": 6,
+          "multiplicity": 90,
+          "negative_count": 2,
+          "odd_dimension": 28,
+          "positive_count": 5
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 2,
+          "active_rank": 2,
+          "multiplicity": 120,
+          "negative_count": 3,
+          "odd_dimension": 28,
+          "positive_count": 5
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 14,
+          "active_rank": 10,
+          "multiplicity": 90,
+          "negative_count": 4,
+          "odd_dimension": 28,
+          "positive_count": 5
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 2,
+          "active_rank": 0,
+          "multiplicity": 36,
+          "negative_count": 5,
+          "odd_dimension": 28,
+          "positive_count": 5
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 14,
+          "active_rank": 2,
+          "multiplicity": 6,
+          "negative_count": 6,
+          "odd_dimension": 28,
+          "positive_count": 5
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 2,
+          "active_rank": 0,
+          "multiplicity": 1,
+          "negative_count": 0,
+          "odd_dimension": 28,
+          "positive_count": 6
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 14,
+          "active_rank": 6,
+          "multiplicity": 6,
+          "negative_count": 1,
+          "odd_dimension": 28,
+          "positive_count": 6
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 2,
+          "active_rank": 2,
+          "multiplicity": 15,
+          "negative_count": 2,
+          "odd_dimension": 28,
+          "positive_count": 6
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 14,
+          "active_rank": 10,
+          "multiplicity": 20,
+          "negative_count": 3,
+          "odd_dimension": 28,
+          "positive_count": 6
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 2,
+          "active_rank": 0,
+          "multiplicity": 15,
+          "negative_count": 4,
+          "odd_dimension": 28,
+          "positive_count": 6
+        },
+        {
+          "B_rank": 15,
+          "Schur_rank": 14,
+          "active_rank": 2,
+          "multiplicity": 6,
+          "negative_count": 5,
+          "odd_dimension": 28,
+          "positive_count": 6
+        },
+        {
+          "B_rank": 14,
+          "Schur_rank": 2,
+          "active_rank": 2,
+          "multiplicity": 1,
+          "negative_count": 6,
+          "odd_dimension": 28,
+          "positive_count": 6
+        }
+      ],
+      "source_compatibility": {
+        "Einstein_image_extra_rank": 1,
+        "all_conserved_extra_rank": 78,
+        "witness": {
+          "null_vector_native": {
+            "h(1, 1)": "-1",
+            "h(2, 2)": "1"
+          },
+          "pairing": "-1",
+          "source_column": 105,
+          "source_metric_covector": {
+            "(1, 1)": "1"
+          }
+        }
+      }
+    },
+    "positive": {
+      "B_rank": 65456,
+      "active_dimension": 56448,
+      "active_rank": 32241,
+      "affected_odd_dimension": 1288,
+      "affected_odd_rank": 988,
+      "augmented_rank": 1079,
+      "component_dimensions_ranks": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          26,
+          26
+        ]
+      ],
+      "full_metric_odd_dimension": 114793,
+      "full_metric_odd_rank": 65547,
+      "grade1_rank": 117,
+      "metric_grade1_rank": 208,
+      "odd_dimension": 114688,
+      "odd_radical": 49232,
+      "odd_rank": 65456,
+      "orbits": [
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 13,
+          "multiplicity": 1,
+          "negative_count": 0,
+          "odd_dimension": 14,
+          "positive_count": 0
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 2,
+          "multiplicity": 7,
+          "negative_count": 1,
+          "odd_dimension": 14,
+          "positive_count": 0
+        },
+        {
+          "B_rank": 12,
+          "Schur_rank": 12,
+          "active_rank": 1,
+          "multiplicity": 21,
+          "negative_count": 2,
+          "odd_dimension": 14,
+          "positive_count": 0
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 1,
+          "multiplicity": 35,
+          "negative_count": 3,
+          "odd_dimension": 14,
+          "positive_count": 0
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 9,
+          "multiplicity": 35,
+          "negative_count": 4,
+          "odd_dimension": 14,
+          "positive_count": 0
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 2,
+          "multiplicity": 21,
+          "negative_count": 5,
+          "odd_dimension": 14,
+          "positive_count": 0
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 6,
+          "multiplicity": 7,
+          "negative_count": 6,
+          "odd_dimension": 14,
+          "positive_count": 0
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 1,
+          "multiplicity": 1,
+          "negative_count": 7,
+          "odd_dimension": 14,
+          "positive_count": 0
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 2,
+          "multiplicity": 6,
+          "negative_count": 0,
+          "odd_dimension": 14,
+          "positive_count": 1
+        },
+        {
+          "B_rank": 12,
+          "Schur_rank": 12,
+          "active_rank": 1,
+          "multiplicity": 42,
+          "negative_count": 1,
+          "odd_dimension": 14,
+          "positive_count": 1
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 1,
+          "multiplicity": 126,
+          "negative_count": 2,
+          "odd_dimension": 14,
+          "positive_count": 1
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 9,
+          "multiplicity": 210,
+          "negative_count": 3,
+          "odd_dimension": 14,
+          "positive_count": 1
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 2,
+          "multiplicity": 210,
+          "negative_count": 4,
+          "odd_dimension": 14,
+          "positive_count": 1
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 6,
+          "multiplicity": 126,
+          "negative_count": 5,
+          "odd_dimension": 14,
+          "positive_count": 1
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 1,
+          "multiplicity": 42,
+          "negative_count": 6,
+          "odd_dimension": 14,
+          "positive_count": 1
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 5,
+          "multiplicity": 6,
+          "negative_count": 7,
+          "odd_dimension": 14,
+          "positive_count": 1
+        },
+        {
+          "B_rank": 12,
+          "Schur_rank": 12,
+          "active_rank": 1,
+          "multiplicity": 15,
+          "negative_count": 0,
+          "odd_dimension": 14,
+          "positive_count": 2
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 1,
+          "multiplicity": 105,
+          "negative_count": 1,
+          "odd_dimension": 14,
+          "positive_count": 2
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 9,
+          "multiplicity": 315,
+          "negative_count": 2,
+          "odd_dimension": 14,
+          "positive_count": 2
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 2,
+          "multiplicity": 525,
+          "negative_count": 3,
+          "odd_dimension": 14,
+          "positive_count": 2
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 6,
+          "multiplicity": 525,
+          "negative_count": 4,
+          "odd_dimension": 14,
+          "positive_count": 2
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 1,
+          "multiplicity": 315,
+          "negative_count": 5,
+          "odd_dimension": 14,
+          "positive_count": 2
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 5,
+          "multiplicity": 105,
+          "negative_count": 6,
+          "odd_dimension": 14,
+          "positive_count": 2
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 2,
+          "multiplicity": 15,
+          "negative_count": 7,
+          "odd_dimension": 14,
+          "positive_count": 2
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 1,
+          "multiplicity": 20,
+          "negative_count": 0,
+          "odd_dimension": 14,
+          "positive_count": 3
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 9,
+          "multiplicity": 140,
+          "negative_count": 1,
+          "odd_dimension": 14,
+          "positive_count": 3
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 2,
+          "multiplicity": 420,
+          "negative_count": 2,
+          "odd_dimension": 14,
+          "positive_count": 3
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 6,
+          "multiplicity": 700,
+          "negative_count": 3,
+          "odd_dimension": 14,
+          "positive_count": 3
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 1,
+          "multiplicity": 700,
+          "negative_count": 4,
+          "odd_dimension": 14,
+          "positive_count": 3
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 5,
+          "multiplicity": 420,
+          "negative_count": 5,
+          "odd_dimension": 14,
+          "positive_count": 3
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 2,
+          "multiplicity": 140,
+          "negative_count": 6,
+          "odd_dimension": 14,
+          "positive_count": 3
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 10,
+          "multiplicity": 20,
+          "negative_count": 7,
+          "odd_dimension": 14,
+          "positive_count": 3
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 9,
+          "multiplicity": 15,
+          "negative_count": 0,
+          "odd_dimension": 14,
+          "positive_count": 4
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 2,
+          "multiplicity": 105,
+          "negative_count": 1,
+          "odd_dimension": 14,
+          "positive_count": 4
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 6,
+          "multiplicity": 315,
+          "negative_count": 2,
+          "odd_dimension": 14,
+          "positive_count": 4
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 1,
+          "multiplicity": 525,
+          "negative_count": 3,
+          "odd_dimension": 14,
+          "positive_count": 4
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 5,
+          "multiplicity": 525,
+          "negative_count": 4,
+          "odd_dimension": 14,
+          "positive_count": 4
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 2,
+          "multiplicity": 315,
+          "negative_count": 5,
+          "odd_dimension": 14,
+          "positive_count": 4
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 10,
+          "multiplicity": 105,
+          "negative_count": 6,
+          "odd_dimension": 14,
+          "positive_count": 4
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 1,
+          "multiplicity": 15,
+          "negative_count": 7,
+          "odd_dimension": 14,
+          "positive_count": 4
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 2,
+          "multiplicity": 6,
+          "negative_count": 0,
+          "odd_dimension": 14,
+          "positive_count": 5
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 6,
+          "multiplicity": 42,
+          "negative_count": 1,
+          "odd_dimension": 14,
+          "positive_count": 5
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 1,
+          "multiplicity": 126,
+          "negative_count": 2,
+          "odd_dimension": 14,
+          "positive_count": 5
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 5,
+          "multiplicity": 210,
+          "negative_count": 3,
+          "odd_dimension": 14,
+          "positive_count": 5
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 2,
+          "multiplicity": 210,
+          "negative_count": 4,
+          "odd_dimension": 14,
+          "positive_count": 5
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 10,
+          "multiplicity": 126,
+          "negative_count": 5,
+          "odd_dimension": 14,
+          "positive_count": 5
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 1,
+          "multiplicity": 42,
+          "negative_count": 6,
+          "odd_dimension": 14,
+          "positive_count": 5
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 1,
+          "multiplicity": 6,
+          "negative_count": 7,
+          "odd_dimension": 14,
+          "positive_count": 5
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 6,
+          "multiplicity": 1,
+          "negative_count": 0,
+          "odd_dimension": 14,
+          "positive_count": 6
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 1,
+          "multiplicity": 7,
+          "negative_count": 1,
+          "odd_dimension": 14,
+          "positive_count": 6
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 5,
+          "multiplicity": 21,
+          "negative_count": 2,
+          "odd_dimension": 14,
+          "positive_count": 6
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 2,
+          "multiplicity": 35,
+          "negative_count": 3,
+          "odd_dimension": 14,
+          "positive_count": 6
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 10,
+          "multiplicity": 35,
+          "negative_count": 4,
+          "odd_dimension": 14,
+          "positive_count": 6
+        },
+        {
+          "B_rank": 3,
+          "Schur_rank": 3,
+          "active_rank": 1,
+          "multiplicity": 21,
+          "negative_count": 5,
+          "odd_dimension": 14,
+          "positive_count": 6
+        },
+        {
+          "B_rank": 13,
+          "Schur_rank": 13,
+          "active_rank": 1,
+          "multiplicity": 7,
+          "negative_count": 6,
+          "odd_dimension": 14,
+          "positive_count": 6
+        },
+        {
+          "B_rank": 1,
+          "Schur_rank": 1,
+          "active_rank": 1,
+          "multiplicity": 1,
+          "negative_count": 7,
+          "odd_dimension": 14,
+          "positive_count": 6
+        }
+      ],
+      "source_compatibility": {
+        "Einstein_image_extra_rank": 0,
+        "all_conserved_extra_rank": 0,
+        "witness": null
+      }
+    }
+  },
+  "checks": {
+    "actual_orbit_original_elimination": true,
+    "all_offgrade_reduced_cancellation": true,
+    "broken_fixture_preserves_pair_symmetries": true,
+    "negative_B_matches_owned_first_order": true,
+    "negative_action_pairing_symmetric": true,
+    "negative_active_chain_exhausted": true,
+    "negative_all_odd_exhausted": true,
+    "negative_complete_source_space": true,
+    "negative_diffeo_0": true,
+    "negative_diffeo_1": true,
+    "negative_diffeo_10": true,
+    "negative_diffeo_11": true,
+    "negative_diffeo_12": true,
+    "negative_diffeo_13": true,
+    "negative_diffeo_2": true,
+    "negative_diffeo_3": true,
+    "negative_diffeo_4": true,
+    "negative_diffeo_5": true,
+    "negative_diffeo_6": true,
+    "negative_diffeo_7": true,
+    "negative_diffeo_8": true,
+    "negative_diffeo_9": true,
+    "null_B_matches_owned_first_order": true,
+    "null_action_pairing_symmetric": true,
+    "null_active_chain_exhausted": true,
+    "null_all_odd_exhausted": true,
+    "null_complete_source_space": true,
+    "null_diffeo_0": true,
+    "null_diffeo_1": true,
+    "null_diffeo_10": true,
+    "null_diffeo_11": true,
+    "null_diffeo_12": true,
+    "null_diffeo_13": true,
+    "null_diffeo_2": true,
+    "null_diffeo_3": true,
+    "null_diffeo_4": true,
+    "null_diffeo_5": true,
+    "null_diffeo_6": true,
+    "null_diffeo_7": true,
+    "null_diffeo_8": true,
+    "null_diffeo_9": true,
+    "positive_B_matches_owned_first_order": true,
+    "positive_action_pairing_symmetric": true,
+    "positive_active_chain_exhausted": true,
+    "positive_all_odd_exhausted": true,
+    "positive_complete_source_space": true,
+    "positive_diffeo_0": true,
+    "positive_diffeo_1": true,
+    "positive_diffeo_10": true,
+    "positive_diffeo_11": true,
+    "positive_diffeo_12": true,
+    "positive_diffeo_13": true,
+    "positive_diffeo_2": true,
+    "positive_diffeo_3": true,
+    "positive_diffeo_4": true,
+    "positive_diffeo_5": true,
+    "positive_diffeo_6": true,
+    "positive_diffeo_7": true,
+    "positive_diffeo_8": true,
+    "positive_diffeo_9": true,
+    "product_curvature_first_Bianchi": true,
+    "two_grade_chains": true
+  },
+  "contrary_controls": {
+    "Bianchi_broken_four_tensor_rejected": true,
+    "rank_B_not_Schur_rank": true,
+    "wrong_adjoint_sign_changes_actual_orbit": true
+  },
+  "dependencies": {
+    "lab/process/k2533-mixed-source-response.json": "abb157c215dae7266a55cae1a893d9cd0b963fc273329b90bd4c34037366594f",
+    "tests/channel-swings/k2535_reduced_response_symbol_probe.py": "3aa6fda7274c8d81878e4b0a489a3678b7bb13e5222dc82d16981b32c98315cf",
+    "tests/channel-swings/k77_wave2_moving_shiab_epsilon_ward_green_domain_probe.py": "acc72e643032b4927db49963fd4de5b43b0c7f387a078b210a0d759e57e7bdb4",
+    "tests/channel-swings/selected_k132_native_i1b_t0_all_grade_noether_complex_probe.py": "45d37a3b418c8e973b32056871fb7594fcdc89d337452f5c97b687edf08d8405",
+    "tests/channel-swings/selected_k77_nonzero_branch_parent_hessian_probe.py": "c8ef3b8032354ee291615f77404841abac1db4016f648077bdea0de4f142ef88"
+  },
+  "grade1_grade5_witness": null,
+  "grade_edges": [
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      6,
+      9
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      8,
+      11
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      10,
+      13
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      13,
+      14
+    ]
+  ],
+  "reduced_grade_edges": [
+    [
+      1,
+      1
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      7,
+      7
+    ],
+    [
+      9,
+      9
+    ],
+    [
+      11,
+      11
+    ],
+    [
+      13,
+      13
+    ]
+  ],
+  "result": "K2535",
+  "scope": "exact frozen reduced principal symbol at radial stationary product, kappa nonzero; no Green inverse, physical quotient or native GU claim"
+}

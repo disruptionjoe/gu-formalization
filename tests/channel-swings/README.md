@@ -2,6 +2,12 @@
 
 ## Latest conditional constructions (2026-11-04)
 
+- [K2534](k2534_calibrated_family_refit_probe.py): calibrated family refit and held-out high-alpha repair.
+- [K2535](k2535_reduced_response_symbol_probe.py): full covariant grade reduction and exact source-compatible symbol.
+
+
+## Latest conditional constructions (2026-11-04)
+
 - [K2532](k2532_finite_drift_forecast_probe.py): finite drift, joint released calibration and scale/offset consumer.
 - [K2533](k2533_mixed_source_response_probe.py): actual symbol, radial source obstruction and complete even auxiliary elimination.
 

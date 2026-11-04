@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-04 CALIBRATED DRIFT AND MIXED SOURCE RESPONSE.**
+> **2026-11-04 CALIBRATED FAMILY AND FULL GRADE REDUCTION.**
+> Do not repeat the large odd census or fixed-shape H0 penalty. K2535 justifies301-field full linear reduction only at the constant radial completion: construct its actual curvature/potential constraints and source/readout domain, retaining null principal compatibility without claiming a PDE no-go. K2534 refits shared calibrated SN/BAO and releases a high-alpha forecast repair; next needs an analytic Einstein-limit/oscillatory-mode control or family uncertainty and a distinct applicability-qualified growth/slip/drift consumer, not another assumed global optimum. Native Met(X), physical quotient, finite-score stopping and joint-effect calibration retain their separate prior ceilings.
+
+
+> **Historical predecessor: 2026-11-04 CALIBRATED DRIFT AND MIXED SOURCE RESPONSE.**
 > K2532 now consumes the pinned Cepheid/SN calibration jointly: do not requeue a missing H0 prior or double-count SH0ES over the same SN rows. Next compare a joint dimensionless-parameter calibrated likelihood/BAO refit with held-out drift/growth under explicit stellar, tracer and selection assumptions; the fixed-shape loss is not a family exclusion. K2533 owns the actual ordinary top symbol, localized radial-response obstruction, full first-order TT port and new-amplitude114688-dimensional even inverse. Do not recompute those or claim a Green function from ranks. Assemble the remaining105-metric plus114688-odd reduced operator, retain indefinite Schur/Noether constraints, then specify distributional domain and observed pullback. Native Met(X), physical quotient, finite-score stopping and joint-effect calibration keep their prior ceilings.
 
 

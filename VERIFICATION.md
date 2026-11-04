@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2534--K2535: Calibrated family repair and full grade reduction (2026-11-04)
+
+K2534 jointly refits the sourced quadratic shape to released calibrated SN and BAO. A high-alpha witness improves loss1470.18 to1461.82 and hypothetical held-out drift free-offset loss8.3 to0.8, defeating a fixed-shape family inference; no global optimum or empirical/native GU claim. Exact normalization and second-jet/LCDM residual controls plus independent extended trajectories preserve applicability limits. K2535 constructs the complete reduced odd-metric symbol, ranks65547 nonnull/32782 null, and proves full covariant grade preservation at the constant radial seed using parallel metric coefficients and curvature Bianchi. Metric source response consistently reduces to301 second-order fields with reconstructed grade2 auxiliary. Complete frozen conserved-source compatibility is nonnull91 of91/null13 of91; lower-order Green/domain/readout remain open. Source polarities and ledger0.263 unchanged.
+
+- [K2534](explorations/conditional-build/k2534-calibrated-family-refit-2026-11-04.md).
+- [K2535](explorations/conditional-build/k2535-reduced-response-symbol-2026-11-04.md).
+
+Independent observation, geometry and integrated reviews checked the actual correlated likelihood, original-row residual, extended numerical convergence, full covariant grade proof, formal adjoint and conserved-source scope. Exact proofs/census, numerical evidence and provenance remain separate; internal review is not external-expert or proof-assistant certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2532--K2533: Calibrated drift and mixed source response (2026-11-04)
 
 K2532 executes the fitted dimensionless sourced history at actual ANDES forecast bins: free scale/offset nearly erase the fixed-scale discrepancy, but the joint released Cepheid/SN covariance constrains its scale to H0=73.6806 at the fixed shape. The hypothetical joint drift consumer retains substantial calibration dependence; no empirical or family exclusion. K2533 constructs the actual radial stationary-product ordinary order-two symbol with nonnull/null ranks182/28 and excludes radial-only localized-source response. It ports the already-owned full TT first-order coefficient and computes all114688 even auxiliary directions at the new amplitude as invertible, releasing exact local moving-geometry Schur elimination. Full odd-metric Green/domain, physical readout and native GU certification remain open. Source polarities and ledger0.263 unchanged.

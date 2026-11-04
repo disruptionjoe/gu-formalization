@@ -1,0 +1,298 @@
+{
+  "contrary_controls": {
+    "calibrator_removal_loses_H0": true,
+    "matching_two_jets_not_full_LCDM": true,
+    "rowwise_offsets_erase_data": true
+  },
+  "dependencies": {
+    "lab/process/k2277-multibin-pure-r2-test.json": "83ee122496aa99ff097825a86246f012b0ccc563c629462e235fad5097ca0afd",
+    "lab/process/k2532-finite-drift-forecast.json": "210bad1359d149e2e5b2345a01262726cac333477398f8da273267433c06a78e",
+    "tests/channel-swings/k2534_calibrated_family_refit_probe.py": "7522f032459bd32b419a2030e4b826ef5447bdb4816ab40c0f9e482cc1667185"
+  },
+  "exact_checks": {
+    "LCDM_first_jet": true,
+    "LCDM_second_jet": true,
+    "joint_profile_projector": true,
+    "original_LCDM_row_residual": true
+  },
+  "large_alpha_second_jet_sequence": [
+    {
+      "alpha": 1000.0,
+      "fit": {
+        "BAO": 44.7527304,
+        "H0": 73.7328086,
+        "M": -19.2460002,
+        "SN": 1453.43186,
+        "k": -0.112813687,
+        "ruler": 47.7455208,
+        "total": 1498.18459
+      },
+      "max_E_LCDM_difference": 0.235650475,
+      "parameters": [
+        1000.0,
+        10453.9001,
+        0.45
+      ]
+    },
+    {
+      "alpha": 10000.0,
+      "fit": {
+        "BAO": 11.6952851,
+        "H0": 73.774475,
+        "M": -19.2468995,
+        "SN": 1454.9824,
+        "k": -0.114040439,
+        "ruler": 47.0557724,
+        "total": 1466.67769
+      },
+      "max_E_LCDM_difference": 0.0318509548,
+      "parameters": [
+        10000.0,
+        105703.932,
+        0.45
+      ]
+    },
+    {
+      "alpha": 100000.0,
+      "fit": {
+        "BAO": 10.4414225,
+        "H0": 73.7821441,
+        "M": -19.2470068,
+        "SN": 1455.23943,
+        "k": -0.114266158,
+        "ruler": 46.969664,
+        "total": 1465.68085
+      },
+      "max_E_LCDM_difference": 0.00338094569,
+      "parameters": [
+        100000.0,
+        1058204.25,
+        0.45
+      ]
+    }
+  ],
+  "normalization": "U0=2 is redundant after alpha/U0^(4/3),rho/U0^(8/3),p0/U0 normalization; Omega_d=.3 fixed; Omega_r=0",
+  "numerical_checks": {
+    "BAO_release_0": true,
+    "BAO_release_1": true,
+    "alpha_sequence_independent_1000.0": true,
+    "alpha_sequence_independent_10000.0": true,
+    "alpha_sequence_independent_100000.0": true,
+    "joint_rows": true,
+    "large_alpha_control_attempted": true,
+    "large_alpha_second_jet_extended_drift_agreement": true,
+    "large_alpha_second_jet_extended_independent_states": true,
+    "large_alpha_second_jet_extended_sampled_domain": true,
+    "large_alpha_second_jet_independent_observables": true,
+    "large_alpha_second_jet_independent_states": true,
+    "large_alpha_second_jet_original00_algebraic_residual": true,
+    "large_alpha_second_jet_profile_equations": true,
+    "large_alpha_second_jet_sampled_domain": true,
+    "prior_SN_replays": true,
+    "prior_boundary_extended_drift_agreement": true,
+    "prior_boundary_extended_independent_states": true,
+    "prior_boundary_extended_sampled_domain": true,
+    "prior_boundary_independent_observables": true,
+    "prior_boundary_independent_states": true,
+    "prior_boundary_original00_algebraic_residual": true,
+    "prior_boundary_profile_equations": true,
+    "prior_boundary_sampled_domain": true,
+    "prior_interior_extended_drift_agreement": true,
+    "prior_interior_extended_independent_states": true,
+    "prior_interior_extended_sampled_domain": true,
+    "prior_interior_independent_observables": true,
+    "prior_interior_independent_states": true,
+    "prior_interior_original00_algebraic_residual": true,
+    "prior_interior_profile_equations": true,
+    "prior_interior_sampled_domain": true,
+    "refit_improves_calibrated_start": true,
+    "release_covariance.cov": true,
+    "release_data.dat": true,
+    "rounded_covariance": true
+  },
+  "prior_calibrated_fit": {
+    "BAO": 10.5996204,
+    "H0": 73.6805984,
+    "M": -19.2405509,
+    "SN": 1459.58361,
+    "k": -0.111275523,
+    "ruler": 48.4745294,
+    "total": 1470.18323
+  },
+  "release_hashes": {
+    "covariance.cov": "abf806d966485e64afdb359c87bffc0ecc00d05eff0a31ced66f247385df0fdc",
+    "data.dat": "1cb0fc379ef066afdc2ffd1857681cc478024570d8a3eba284fb645775198cf8"
+  },
+  "result": "K2534",
+  "results": [
+    {
+      "fit": {
+        "BAO": 10.8114802,
+        "H0": 73.6755191,
+        "M": -19.2405913,
+        "SN": 1459.36005,
+        "k": -0.111125822,
+        "r_d_Mpc": 133.249596,
+        "ruler": 48.4750496,
+        "total": 1470.17153
+      },
+      "held_out_forecast": {
+        "drift_cm_s": [
+          -0.942478465,
+          -5.38231984,
+          -10.2106122,
+          -15.2394284,
+          -25.652107
+        ],
+        "fitted_offset_cm_s": 8.66298656,
+        "fixed_offset_loss": 45.6342147,
+        "free_offset_loss": 8.3181217,
+        "scope": "held-out hypothetical ANDES mean at LCDM Omega .3 H0=70; calibration shape and H0 frozen, free offset comparison only",
+        "z": [
+          2.0,
+          2.5,
+          3.0,
+          3.5,
+          4.5
+        ]
+      },
+      "label": "prior_interior",
+      "positive_domain_sample": {
+        "F_endpoint": 847.859399,
+        "F_min": 793.82355,
+        "U_min": 2.0,
+        "nodes": 1001
+      }
+    },
+    {
+      "fit": {
+        "BAO": 28.8636139,
+        "H0": 72.494713,
+        "M": -19.2373294,
+        "SN": 1465.78912,
+        "k": -0.0760414734,
+        "r_d_Mpc": 135.869681,
+        "ruler": 48.3146099,
+        "total": 1494.65274
+      },
+      "held_out_forecast": {
+        "drift_cm_s": [
+          -0.823361153,
+          -5.79359405,
+          -11.2923502,
+          -17.0982925,
+          -29.2174532
+        ],
+        "fitted_offset_cm_s": 10.8341582,
+        "fixed_offset_loss": 72.8088348,
+        "free_offset_loss": 14.4440043,
+        "scope": "held-out hypothetical ANDES mean at LCDM Omega .3 H0=70; calibration shape and H0 frozen, free offset comparison only",
+        "z": [
+          2.0,
+          2.5,
+          3.0,
+          3.5,
+          4.5
+        ]
+      },
+      "label": "prior_boundary",
+      "positive_domain_sample": {
+        "F_endpoint": 129.59725,
+        "F_min": 86.4233692,
+        "U_min": 2.0,
+        "nodes": 1001
+      }
+    },
+    {
+      "fit": {
+        "BAO": 10.5759258,
+        "H0": 73.6279145,
+        "M": -19.2453425,
+        "SN": 1451.24418,
+        "k": -0.109722298,
+        "r_d_Mpc": 137.015713,
+        "ruler": 47.173108,
+        "total": 1461.82011
+      },
+      "held_out_forecast": {
+        "drift_cm_s": [
+          0.607639642,
+          -2.52697593,
+          -6.38629374,
+          -9.95387725,
+          -16.184072
+        ],
+        "fitted_offset_cm_s": 2.35173178,
+        "fixed_offset_loss": 3.54999559,
+        "free_offset_loss": 0.799971726,
+        "scope": "held-out hypothetical ANDES mean at LCDM Omega .3 H0=70; calibration shape and H0 frozen, free offset comparison only",
+        "z": [
+          2.0,
+          2.5,
+          3.0,
+          3.5,
+          4.5
+        ]
+      },
+      "label": "large_alpha_second_jet",
+      "positive_domain_sample": {
+        "F_endpoint": 9106.58261,
+        "F_min": 9036.78861,
+        "U_min": 2.0,
+        "nodes": 1001
+      }
+    }
+  ],
+  "scope": "conditional shared Cepheid/SN and BAO likelihood; independent ruler, fixed matter normalization; no native GU inference or empirical family exclusion",
+  "search": "three-start numerical Nelder-Mead; log alpha/log rho/p0; safeguard abs logs <=25/40 and abs p0<=20; no global optimality claim",
+  "witnesses": [
+    {
+      "evaluations": 174,
+      "label": "prior_interior",
+      "parameters": [
+        772.398289,
+        8497.5033,
+        0.321172005
+      ],
+      "search_message": "Optimization terminated successfully.",
+      "search_success": true,
+      "seed": [
+        775.880471,
+        8540.4182,
+        0.317554199
+      ]
+    },
+    {
+      "evaluations": 218,
+      "label": "prior_boundary",
+      "parameters": [
+        69.6805616,
+        9.36795382e-10,
+        0.892602067
+      ],
+      "search_message": "Optimization terminated successfully.",
+      "search_success": true,
+      "seed": [
+        69.8624129,
+        2.17526971e-09,
+        0.895216134
+      ]
+    },
+    {
+      "evaluations": 233,
+      "label": "large_alpha_second_jet",
+      "parameters": [
+        9017.14629,
+        97041.2841,
+        0.272158521
+      ],
+      "search_message": "Optimization terminated successfully.",
+      "search_success": true,
+      "seed": [
+        10000.0,
+        105703.932,
+        0.45
+      ]
+    }
+  ]
+}
