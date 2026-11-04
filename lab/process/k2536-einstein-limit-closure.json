@@ -1,0 +1,38 @@
+{
+  "contrary_controls": {
+    "C2_transfer_fails_fast_mode": true,
+    "changing_jet_seed_breaks_initial_matching": true,
+    "finite_a_Lcdm_is_not_solution": true,
+    "independent_row_nuisances_destroy_test": true
+  },
+  "dependencies": {
+    "tests/channel-swings/k2534_calibrated_family_refit_probe.py": "7522f032459bd32b419a2030e4b826ef5447bdb4816ab40c0f9e482cc1667185",
+    "tests/channel-swings/k2536_einstein_limit_closure_probe.py": "65de9251fe9e4b895f6b0ebbc6589ea12fcf15bc01165c8b5ca967aeefa0d127"
+  },
+  "exact_checks": {
+    "derivative_forcing_square": true,
+    "energy_coefficient_decomposition": true,
+    "energy_cross_term_square": true,
+    "equilibrium_curve": true,
+    "exact_linear_oscillator": true,
+    "exact_original_force_split": true,
+    "exact_residual_on_Einstein_curve": true,
+    "finite_profile_continuity": true,
+    "gronwall_solution": true,
+    "initial_energy_margin": true,
+    "initial_position_velocity": true,
+    "initial_second_jet": true,
+    "nonlinear_fast_mode_limit": true,
+    "restoring_derivative": true,
+    "shared_calibrator_projector": true,
+    "tube_coercivity_constant": true
+  },
+  "identities": {
+    "B": "J**2*(exp(ss*(d*(1 + 2/m) + 2*k/m + 3)) - 1)/(m*(d*(1 + 2/m) + 2*k/m + 3)) + K*exp(ss*(d*(1 + 2/m) + 2*k/m + 3))",
+    "C": "d*(1 + 2/m) + 2*k/m + 3",
+    "b0": "-81*O**2/2 - O*(72 - 54*O)",
+    "h0": "O*(t - 1)*(O*(3*t - 1)/16 + 1/3)/(O*t - O + 1)**(5/4)"
+  },
+  "result": "K2536",
+  "scope": "analytic finite-interval positive-a well-prepared family closure; no uniform infinite-redshift, C2, empirical, native GU or optimal-constant claim"
+}

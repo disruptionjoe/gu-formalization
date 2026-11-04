@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2536--K2537: Einstein-limit closure and full sourced action split (2026-11-04)
+
+K2536 proves compact-interval Einstein-history closure of the positive sourced quadratic family by nonlinear energy, then composes common distances, drift and finite likelihoods: no uniform positive background gap from the limiting reference. Exact finite-a equality remains false; no empirical or native GU credit. K2537 derives the full curved301-field quadratic action and source-preserving Einstein/tensor split, evaluates all196 algebraic tensor masses as nonzero, proves distributional skew closedness, and resolves the auxiliary inverse into explicit vector/hook kinetics and a full traced source equation. The original metric still receives both forced sectors; full Green/domain and observed response remain open. Source polarities and ledger0.263 unchanged.
+
+- [K2536](explorations/conditional-build/k2536-einstein-limit-closure-2026-11-04.md).
+- [K2537](explorations/conditional-build/k2537-reduced-action-decoupling-2026-11-04.md).
+
+Independent ODE and geometry specialists and a distinct integrated reviewer checked the actual nonlinear proof, source normalization, full curved action, indefinite adjoints, transformed sources and closed-skew constraint. Review tightened the positive limiting BAO-amplitude premise. Universal analytic proofs, exact native coefficients, finite algebra/contrary fixtures and report consistency are separate evidence kinds; no empirical, external-expert, proof-assistant or novelty certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2534--K2535: Calibrated family repair and full grade reduction (2026-11-04)
 
 K2534 jointly refits the sourced quadratic shape to released calibrated SN and BAO. A high-alpha witness improves loss1470.18 to1461.82 and hypothetical held-out drift free-offset loss8.3 to0.8, defeating a fixed-shape family inference; no global optimum or empirical/native GU claim. Exact normalization and second-jet/LCDM residual controls plus independent extended trajectories preserve applicability limits. K2535 constructs the complete reduced odd-metric symbol, ranks65547 nonnull/32782 null, and proves full covariant grade preservation at the constant radial seed using parallel metric coefficients and curvature Bianchi. Metric source response consistently reduces to301 second-order fields with reconstructed grade2 auxiliary. Complete frozen conserved-source compatibility is nonnull91 of91/null13 of91; lower-order Green/domain/readout remain open. Source polarities and ledger0.263 unchanged.

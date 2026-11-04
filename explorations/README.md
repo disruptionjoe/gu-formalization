@@ -7,6 +7,12 @@ updated_at: "2026-08-21"
 
 ## Latest conditional constructions (2026-11-04)
 
+- [K2536](conditional-build/k2536-einstein-limit-closure-2026-11-04.md): uniform Einstein-history and common-observable closure.
+- [K2537](conditional-build/k2537-reduced-action-decoupling-2026-11-04.md): full curved source-preserving action split and skew constraint.
+
+
+## Latest conditional constructions (2026-11-04)
+
 - [K2534](conditional-build/k2534-calibrated-family-refit-2026-11-04.md): calibrated family refit and held-out high-alpha repair.
 - [K2535](conditional-build/k2535-reduced-response-symbol-2026-11-04.md): full covariant grade reduction and exact source-compatible symbol.
 

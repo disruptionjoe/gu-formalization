@@ -2,6 +2,12 @@
 
 ## Latest conditional constructions (2026-11-04)
 
+- [K2536](k2536_einstein_limit_closure_probe.py): uniform Einstein-history and common-observable closure.
+- [K2537](k2537_reduced_action_decoupling_probe.py): full curved source-preserving action split and skew constraint.
+
+
+## Latest conditional constructions (2026-11-04)
+
 - [K2534](k2534_calibrated_family_refit_probe.py): calibrated family refit and held-out high-alpha repair.
 - [K2535](k2535_reduced_response_symbol_probe.py): full covariant grade reduction and exact source-compatible symbol.
 

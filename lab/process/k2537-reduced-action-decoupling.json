@@ -1,0 +1,74 @@
+{
+  "A2_Riesz_masses_at_kappa1": {
+    "hook": "893/858",
+    "three_form": "394/429",
+    "vector": "503/858"
+  },
+  "contrary_controls": {
+    "closed_is_not_zero": true,
+    "discarding_tensor_source_changes_readout": true,
+    "longitudinal_skew_B_detected": true,
+    "positive_grade2_pairing_wrong_sign": true,
+    "wrong_shift_sign_fails": true
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2369-nonsymmetric-native-derivative-2026-10-31.md": "3db5c9f9b9846e6fea0d5efd925b166c8993c18e902fbc1e62a7a33910de2456",
+    "lab/process/k2533-mixed-source-response.json": "abb157c215dae7266a55cae1a893d9cd0b963fc273329b90bd4c34037366594f",
+    "lab/process/k2535-reduced-response-symbol.json": "5d3a5d5929de4aaa9546a7d67c8bebe0e0b6d8d89b40610b88215a6dff96688d",
+    "tests/channel-swings/k2537_reduced_action_decoupling_probe.py": "6e910cfe95f2c5d0ec03d8e784d725ae711d3cc0d1987245fb83ee0b10958640",
+    "tests/channel-swings/k77_wave2_moving_shiab_epsilon_ward_green_domain_probe.py": "acc72e643032b4927db49963fd4de5b43b0c7f387a078b210a0d759e57e7bdb4",
+    "tests/channel-swings/selected_k132_native_i1b_t0_all_grade_noether_complex_probe.py": "45d37a3b418c8e973b32056871fb7594fcdc89d337452f5c97b687edf08d8405",
+    "tests/channel-swings/selected_k77_nonzero_branch_parent_hessian_probe.py": "c8ef3b8032354ee291615f77404841abac1db4016f648077bdea0de4f142ef88"
+  },
+  "dimensions": [
+    1,
+    104,
+    91
+  ],
+  "exact_checks": {
+    "A2_hook_native_pairing_and_mass": true,
+    "A2_three_form_native_pairing_and_mass": true,
+    "A2_vector_native_pairing_and_mass": true,
+    "B_has_no_three_form": true,
+    "actual_curvature_mixed_block_removed": true,
+    "actual_full_homogeneous_response_invertible": true,
+    "actual_trace_jet_B_Riesz_normalization": true,
+    "full_four_coordinate_stationarity": true,
+    "full_homogeneous_trace_source_consumer": true,
+    "hook_has_no_trace": true,
+    "mixed_H1_0_1_-1": true,
+    "mixed_H1_0_1_1": true,
+    "mixed_H1_0_4_-1": true,
+    "mixed_H1_0_4_1": true,
+    "mixed_H1_1_2_-1": true,
+    "mixed_H1_1_2_1": true,
+    "mixed_H1_scalar": true,
+    "mixed_H1_tracefree_diagonal": true,
+    "native_H1_0_1_-1": true,
+    "native_H1_0_1_1": true,
+    "native_H1_0_4_-1": true,
+    "native_H1_0_4_1": true,
+    "native_H1_1_2_-1": true,
+    "native_H1_1_2_1": true,
+    "native_H1_scalar": true,
+    "native_H1_tracefree_diagonal": true,
+    "operator_and_source_completion": true,
+    "original_source_response_preserved": true,
+    "orthogonal_trace_hook_decomposition": true,
+    "radial_full_Einstein_density": true,
+    "skew_cubic_linearization": true,
+    "source_must_transform": true,
+    "stationary_translation_curvature": true,
+    "symmetric_cubic_linearization": true,
+    "three_nonzero_actual_masses": true,
+    "trace_equation_exact_coefficients": true,
+    "transverse_skew_full_native_B_zero": true
+  },
+  "mass_eigenvalues": {
+    "scalar": "-4*kappa/11",
+    "skew": "148*kappa/143",
+    "symmetric_tracefree": "158*kappa/143"
+  },
+  "result": "K2537",
+  "scope": "full local constant-radial quadratic action/source decoupling and skew closedness; no global Green inverse, positivity, observed Einstein response or native Met(X)"
+}
