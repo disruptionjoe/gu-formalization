@@ -1,0 +1,271 @@
+{
+  "E": [
+    3.060684472,
+    3.915269912,
+    4.902597358,
+    6.016715012,
+    8.621849611
+  ],
+  "H0_r_d_over_c": 0.0327471163,
+  "calibrated_release": {
+    "H0": 73.68059845,
+    "H0_linear_sigma": 1.009337762,
+    "H0_profile_delta1": [
+      72.67814259,
+      74.69688126
+    ],
+    "M": -19.24055087,
+    "SN_loss": 1459.583613,
+    "calibrator_rows": 77,
+    "covariance_convention": "symmetric average of pinned rounded matrix; both triangular completions checked",
+    "covariance_max_asymmetry": 3e-08,
+    "covariance_rounding_controls": [
+      {
+        "completion": "lower",
+        "loss_change": 2.539803518e-06,
+        "max_parameter_change": 3.91198153e-08
+      },
+      {
+        "completion": "upper",
+        "loss_change": -2.539929255e-06,
+        "max_parameter_change": 3.911847431e-08
+      }
+    ],
+    "drift_scale_remote_SN_delta": 2394.813178,
+    "future_drift_at_calibrated_H0": [
+      {
+        "free_common_offset": false,
+        "loss": 45.55262385
+      },
+      {
+        "free_common_offset": true,
+        "loss": 8.342291108
+      }
+    ],
+    "hashes": {
+      "covariance.cov": "abf806d966485e64afdb359c87bffc0ecc00d05eff0a31ced66f247385df0fdc",
+      "data.dat": "1cb0fc379ef066afdc2ffd1857681cc478024570d8a3eba284fb645775198cf8"
+    },
+    "hypothetical_joint_forecast": [
+      {
+        "H0": 72.51054334,
+        "SN_delta_loss": 1.365470438,
+        "added_total_loss": 44.12082735,
+        "forecast_loss": 42.75535691,
+        "free_common_offset": false,
+        "unique_global_scalar_minimum_bracket": [
+          36.19735582,
+          73.68059845
+        ]
+      },
+      {
+        "H0": 73.44762561,
+        "SN_delta_loss": 0.05344567082,
+        "added_total_loss": 8.288327242,
+        "forecast_loss": 8.234881572,
+        "free_common_offset": true,
+        "unique_global_scalar_minimum_bracket": [
+          37.68877761,
+          73.68059845
+        ]
+      }
+    ],
+    "independent_SN_loss_difference": 2.705746738e-11,
+    "kappa": -0.111275523,
+    "kappa_variance": 0.0008848616741,
+    "literal_calibrator_CIDs": 43,
+    "noncalibrator_rows": 1580,
+    "r_d_Mpc": 133.2418397,
+    "reference_LCDM_H0": 73.53461875,
+    "reference_LCDM_M": -19.24407911,
+    "reference_LCDM_SN_loss": 1452.016122,
+    "release_revision": "c447f0fea703fcd0fff57de5000947b5ca81286b",
+    "rows": 1657,
+    "scope": "fixed dimensionless shape with released Cepheid/SN calibration and full joint covariance transported; replaces previous uncalibrated SN likelihood; no independent SH0ES prior added"
+  },
+  "contrary_controls": {
+    "actual_source_omission_changes_forecast": true,
+    "independent_bin_offsets_erase_all_information": true,
+    "missing_present_normalization_changes_forecast": true,
+    "omitted_dust_fails_original00": true,
+    "one_nonaffine_bin_survives_shared_nuisance": true,
+    "shape_only_without_calibrators_has_rank_one": true
+  },
+  "contrast_weights": [
+    0.01615962606,
+    0.003968001639,
+    -0.01289578939,
+    -0.02696509587,
+    0.01973325756
+  ],
+  "dependencies": {
+    "explorations/conditional-build/k2364-sourced-shared-history-2026-10-31.md": "b01ec4d79b5eeb35408c607ffa92d3f5ee355f09383a19cc77d29e01685c656c",
+    "explorations/conditional-build/k2528-observation-forecast-feasibility-2026-11-04.md": "8c64e079449df65dbb426763af2a1b3645e061ca355c1fc0c5632bf6aad807a3",
+    "lab/process/k2364-sourced-shared-history.json": "76ca19339afd9cf48f958457d7128ec41a3fd0b56af2aaf62691aba9dc5b9dde",
+    "tests/channel-swings/k2532_finite_drift_forecast_probe.py": "7c28e465cd43a48fd32cea809a3f1ec513f3b620ad4d88418f57266f0574f46c"
+  },
+  "domain": {
+    "F_endpoint": 974.9754431,
+    "F_min": 797.2474671,
+    "U_min": 2.0,
+    "full00_scaled_residual": 2.190742466e-15,
+    "grid": 2001,
+    "independent_max_difference": 4.81534812e-11,
+    "z_max": 4.5
+  },
+  "empirical_exclusion_or_native_GU_credit": false,
+  "evidence_kinds": {
+    "exact": "weighted projection and original sourced00 algebra; universal argument in note",
+    "numerical": "DOP853 and RK45 trajectory/forecast, not interval enclosure",
+    "provenance": "input hashes and report replay"
+  },
+  "exact_checks": {
+    "original_full00_identity": true,
+    "weighted_projection_annihilates_shared_nuisances": true,
+    "weighted_projection_idempotent": true,
+    "weighted_selfadjoint": true
+  },
+  "fixed": {
+    "A": 42.92419513,
+    "H0": 70.0,
+    "chi2": 37.05271561,
+    "offset": 0.0,
+    "r_d_Mpc": 140.2476927
+  },
+  "fixed70_free_offset_loss": 6.726928217,
+  "fixed70_offset_cm_s": 7.809542639,
+  "fixed_H0_drift_cm_s": [
+    -0.868277366,
+    -5.092893352,
+    -9.685816282,
+    -14.46750469,
+    -24.36416034
+  ],
+  "forecast_assumptions": "comoving tracers; 20 Julian years; SN3000; six quasars per bin; diagonal marginal statistical covariance supplied",
+  "forecast_source": "https://arxiv.org/pdf/2305.01446 section2 equations1-3",
+  "free_scale": {
+    "A": 22.19631949,
+    "H0": 36.19735582,
+    "boundary": false,
+    "chi2": 0.0363658282,
+    "offset": 0.0,
+    "r_d_Mpc": 271.2170065,
+    "residual": [
+      0.9286056384,
+      0.3925505539,
+      0.06219798805,
+      -0.102482101,
+      0.0006089901224
+    ]
+  },
+  "free_scale_offset": {
+    "A": 23.11086349,
+    "H0": 37.68877761,
+    "boundary": false,
+    "chi2": 0.018536926,
+    "offset": 0.4251793616,
+    "r_d_Mpc": 260.4843965,
+    "residual": [
+      0.5219258166,
+      0.07588050818,
+      -0.1566151244,
+      -0.219416438,
+      0.09453305104
+    ]
+  },
+  "numerical_checks": {
+    "common_mode_variance_absorbed_by_free_offset": true,
+    "contrast_matches_profile_information": true,
+    "contrast_removes_both_nuisances": true,
+    "covariance_rounding_control_lower": true,
+    "covariance_rounding_control_upper": true,
+    "fixed_scale_offset_quadratic_profile": true,
+    "forecast_sigma_replay": true,
+    "full00_numeric": true,
+    "independent_trajectory_agreement": true,
+    "integration_DOP853_2e-12_0.0": true,
+    "integration_DOP853_2e-12_1.0": true,
+    "integration_DOP853_3e-14_1.0": true,
+    "integration_RK45_2e-12_1.0": true,
+    "joint_calibration_independent_trajectory": true,
+    "joint_design_identifies_scale": true,
+    "joint_fit_normal_equations": true,
+    "joint_scalar_bracket_False": true,
+    "joint_scalar_bracket_True": true,
+    "joint_scalar_stationarity_False": true,
+    "joint_scalar_stationarity_True": true,
+    "pinned_covariance.cov": true,
+    "pinned_data.dat": true,
+    "pinned_release_rounding_asymmetry": true,
+    "profile_normal_equations": true,
+    "profiling_never_increases_loss": true,
+    "raw_covariance_size": true,
+    "release_rows_inside_extension": true,
+    "released_calibration_broad_positive_control": true,
+    "remote_scale_penalty_matches_direct_joint_fit": true,
+    "sampled_positive_U_F": true,
+    "scale_prior_profile_1.0": true,
+    "scale_prior_profile_10.0": true,
+    "scale_prior_profile_20.0": true,
+    "scale_prior_profile_5.0": true
+  },
+  "parameters": {
+    "F0": 801.317458,
+    "Omega_d": 0.3,
+    "P0": 0.3175541986,
+    "U0": 2.0,
+    "alpha": 775.8804714,
+    "q0": 1817.274119,
+    "rho": 8540.418204
+  },
+  "reference_drift_cm_s": [
+    0.4796149989,
+    -2.241010486,
+    -4.946386845,
+    -7.583702317,
+    -12.59822217
+  ],
+  "result": "K2532",
+  "scale_information": 0.006425569264,
+  "sigma_cm_s": [
+    5.683144994,
+    4.372997146,
+    3.484920571,
+    2.85255217,
+    2.188731283
+  ],
+  "supplied_scale_prior": [
+    {
+      "profiled_H0": 69.79370755,
+      "quadratic_loss": 6.684098191,
+      "supplied_H0_sigma": 1.0
+    },
+    {
+      "profiled_H0": 65.52793857,
+      "quadratic_loss": 5.798447779,
+      "supplied_H0_sigma": 5.0
+    },
+    {
+      "profiled_H0": 57.36007293,
+      "quadratic_loss": 4.102651871,
+      "supplied_H0_sigma": 10.0
+    },
+    {
+      "profiled_H0": 46.73896293,
+      "quadratic_loss": 1.897518281,
+      "supplied_H0_sigma": 20.0
+    }
+  ],
+  "versions": {
+    "numpy": "2.5.1",
+    "scipy": "1.18.0",
+    "sympy": "1.14.0"
+  },
+  "z": [
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.5
+  ]
+}

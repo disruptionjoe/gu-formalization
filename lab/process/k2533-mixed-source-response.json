@@ -1,0 +1,794 @@
+{
+  "actual_even_auxiliary": {
+    "amplitude": "-5*kappa/2288",
+    "dimension": 114688,
+    "grades": {
+      "0": {
+        "dimension": 14,
+        "rank": 14
+      },
+      "10": {
+        "dimension": 14014,
+        "rank": 14014
+      },
+      "12": {
+        "dimension": 1274,
+        "rank": 1274
+      },
+      "14": {
+        "dimension": 14,
+        "rank": 14
+      },
+      "2": {
+        "dimension": 1274,
+        "rank": 1274
+      },
+      "4": {
+        "dimension": 14014,
+        "rank": 14014
+      },
+      "6": {
+        "dimension": 42042,
+        "rank": 42042
+      },
+      "8": {
+        "dimension": 42042,
+        "rank": 42042
+      }
+    },
+    "normalized_kappa": 1,
+    "orbits": [
+      {
+        "determinant": "-1",
+        "grade": 0,
+        "label_size": 1,
+        "multiplicity": 7,
+        "positive": 0,
+        "rank": 1,
+        "size": 1
+      },
+      {
+        "determinant": "1",
+        "grade": 0,
+        "label_size": 1,
+        "multiplicity": 7,
+        "positive": 1,
+        "rank": 1,
+        "size": 1
+      },
+      {
+        "determinant": "129355676545830246875323457855093408903/136563532452995511429514242027809906688",
+        "grade": 2,
+        "label_size": 1,
+        "multiplicity": 7,
+        "positive": 0,
+        "rank": 13,
+        "size": 13
+      },
+      {
+        "determinant": "-129355676545830246875323457855093408903/136563532452995511429514242027809906688",
+        "grade": 2,
+        "label_size": 1,
+        "multiplicity": 7,
+        "positive": 1,
+        "rank": 13,
+        "size": 13
+      },
+      {
+        "determinant": "157097453/157907178",
+        "grade": 2,
+        "label_size": 3,
+        "multiplicity": 35,
+        "positive": 0,
+        "rank": 3,
+        "size": 3
+      },
+      {
+        "determinant": "-157097453/157907178",
+        "grade": 2,
+        "label_size": 3,
+        "multiplicity": 147,
+        "positive": 1,
+        "rank": 3,
+        "size": 3
+      },
+      {
+        "determinant": "157097453/157907178",
+        "grade": 2,
+        "label_size": 3,
+        "multiplicity": 147,
+        "positive": 2,
+        "rank": 3,
+        "size": 3
+      },
+      {
+        "determinant": "-157097453/157907178",
+        "grade": 2,
+        "label_size": 3,
+        "multiplicity": 35,
+        "positive": 3,
+        "rank": 3,
+        "size": 3
+      },
+      {
+        "determinant": "-1165999389911476270614123191/1047192117300356121695451136",
+        "grade": 4,
+        "label_size": 3,
+        "multiplicity": 35,
+        "positive": 0,
+        "rank": 11,
+        "size": 11
+      },
+      {
+        "determinant": "1165999389911476270614123191/1047192117300356121695451136",
+        "grade": 4,
+        "label_size": 3,
+        "multiplicity": 147,
+        "positive": 1,
+        "rank": 11,
+        "size": 11
+      },
+      {
+        "determinant": "-1165999389911476270614123191/1047192117300356121695451136",
+        "grade": 4,
+        "label_size": 3,
+        "multiplicity": 147,
+        "positive": 2,
+        "rank": 11,
+        "size": 11
+      },
+      {
+        "determinant": "1165999389911476270614123191/1047192117300356121695451136",
+        "grade": 4,
+        "label_size": 3,
+        "multiplicity": 35,
+        "positive": 3,
+        "rank": 11,
+        "size": 11
+      },
+      {
+        "determinant": "-927565155713/956753743088",
+        "grade": 4,
+        "label_size": 5,
+        "multiplicity": 21,
+        "positive": 0,
+        "rank": 5,
+        "size": 5
+      },
+      {
+        "determinant": "927565155713/956753743088",
+        "grade": 4,
+        "label_size": 5,
+        "multiplicity": 245,
+        "positive": 1,
+        "rank": 5,
+        "size": 5
+      },
+      {
+        "determinant": "-927565155713/956753743088",
+        "grade": 4,
+        "label_size": 5,
+        "multiplicity": 735,
+        "positive": 2,
+        "rank": 5,
+        "size": 5
+      },
+      {
+        "determinant": "927565155713/956753743088",
+        "grade": 4,
+        "label_size": 5,
+        "multiplicity": 735,
+        "positive": 3,
+        "rank": 5,
+        "size": 5
+      },
+      {
+        "determinant": "-927565155713/956753743088",
+        "grade": 4,
+        "label_size": 5,
+        "multiplicity": 245,
+        "positive": 4,
+        "rank": 5,
+        "size": 5
+      },
+      {
+        "determinant": "927565155713/956753743088",
+        "grade": 4,
+        "label_size": 5,
+        "multiplicity": 21,
+        "positive": 5,
+        "rank": 5,
+        "size": 5
+      },
+      {
+        "determinant": "1448223905265403363/1175558130046130688",
+        "grade": 6,
+        "label_size": 5,
+        "multiplicity": 21,
+        "positive": 0,
+        "rank": 9,
+        "size": 9
+      },
+      {
+        "determinant": "-1448223905265403363/1175558130046130688",
+        "grade": 6,
+        "label_size": 5,
+        "multiplicity": 245,
+        "positive": 1,
+        "rank": 9,
+        "size": 9
+      },
+      {
+        "determinant": "1448223905265403363/1175558130046130688",
+        "grade": 6,
+        "label_size": 5,
+        "multiplicity": 735,
+        "positive": 2,
+        "rank": 9,
+        "size": 9
+      },
+      {
+        "determinant": "-1448223905265403363/1175558130046130688",
+        "grade": 6,
+        "label_size": 5,
+        "multiplicity": 735,
+        "positive": 3,
+        "rank": 9,
+        "size": 9
+      },
+      {
+        "determinant": "1448223905265403363/1175558130046130688",
+        "grade": 6,
+        "label_size": 5,
+        "multiplicity": 245,
+        "positive": 4,
+        "rank": 9,
+        "size": 9
+      },
+      {
+        "determinant": "-1448223905265403363/1175558130046130688",
+        "grade": 6,
+        "label_size": 5,
+        "multiplicity": 21,
+        "positive": 5,
+        "rank": 9,
+        "size": 9
+      },
+      {
+        "determinant": "326940373369/365949351144",
+        "grade": 6,
+        "label_size": 7,
+        "multiplicity": 1,
+        "positive": 0,
+        "rank": 7,
+        "size": 7
+      },
+      {
+        "determinant": "-326940373369/365949351144",
+        "grade": 6,
+        "label_size": 7,
+        "multiplicity": 49,
+        "positive": 1,
+        "rank": 7,
+        "size": 7
+      },
+      {
+        "determinant": "326940373369/365949351144",
+        "grade": 6,
+        "label_size": 7,
+        "multiplicity": 441,
+        "positive": 2,
+        "rank": 7,
+        "size": 7
+      },
+      {
+        "determinant": "-326940373369/365949351144",
+        "grade": 6,
+        "label_size": 7,
+        "multiplicity": 1225,
+        "positive": 3,
+        "rank": 7,
+        "size": 7
+      },
+      {
+        "determinant": "326940373369/365949351144",
+        "grade": 6,
+        "label_size": 7,
+        "multiplicity": 1225,
+        "positive": 4,
+        "rank": 7,
+        "size": 7
+      },
+      {
+        "determinant": "-326940373369/365949351144",
+        "grade": 6,
+        "label_size": 7,
+        "multiplicity": 441,
+        "positive": 5,
+        "rank": 7,
+        "size": 7
+      },
+      {
+        "determinant": "326940373369/365949351144",
+        "grade": 6,
+        "label_size": 7,
+        "multiplicity": 49,
+        "positive": 6,
+        "rank": 7,
+        "size": 7
+      },
+      {
+        "determinant": "-326940373369/365949351144",
+        "grade": 6,
+        "label_size": 7,
+        "multiplicity": 1,
+        "positive": 7,
+        "rank": 7,
+        "size": 7
+      },
+      {
+        "determinant": "-91335502435673/70917089113728",
+        "grade": 8,
+        "label_size": 7,
+        "multiplicity": 1,
+        "positive": 0,
+        "rank": 7,
+        "size": 7
+      },
+      {
+        "determinant": "91335502435673/70917089113728",
+        "grade": 8,
+        "label_size": 7,
+        "multiplicity": 49,
+        "positive": 1,
+        "rank": 7,
+        "size": 7
+      },
+      {
+        "determinant": "-91335502435673/70917089113728",
+        "grade": 8,
+        "label_size": 7,
+        "multiplicity": 441,
+        "positive": 2,
+        "rank": 7,
+        "size": 7
+      },
+      {
+        "determinant": "91335502435673/70917089113728",
+        "grade": 8,
+        "label_size": 7,
+        "multiplicity": 1225,
+        "positive": 3,
+        "rank": 7,
+        "size": 7
+      },
+      {
+        "determinant": "-91335502435673/70917089113728",
+        "grade": 8,
+        "label_size": 7,
+        "multiplicity": 1225,
+        "positive": 4,
+        "rank": 7,
+        "size": 7
+      },
+      {
+        "determinant": "91335502435673/70917089113728",
+        "grade": 8,
+        "label_size": 7,
+        "multiplicity": 441,
+        "positive": 5,
+        "rank": 7,
+        "size": 7
+      },
+      {
+        "determinant": "-91335502435673/70917089113728",
+        "grade": 8,
+        "label_size": 7,
+        "multiplicity": 49,
+        "positive": 6,
+        "rank": 7,
+        "size": 7
+      },
+      {
+        "determinant": "91335502435673/70917089113728",
+        "grade": 8,
+        "label_size": 7,
+        "multiplicity": 1,
+        "positive": 7,
+        "rank": 7,
+        "size": 7
+      },
+      {
+        "determinant": "-8394795906194893/11881340006899968",
+        "grade": 8,
+        "label_size": 9,
+        "multiplicity": 21,
+        "positive": 2,
+        "rank": 9,
+        "size": 9
+      },
+      {
+        "determinant": "8394795906194893/11881340006899968",
+        "grade": 8,
+        "label_size": 9,
+        "multiplicity": 245,
+        "positive": 3,
+        "rank": 9,
+        "size": 9
+      },
+      {
+        "determinant": "-8394795906194893/11881340006899968",
+        "grade": 8,
+        "label_size": 9,
+        "multiplicity": 735,
+        "positive": 4,
+        "rank": 9,
+        "size": 9
+      },
+      {
+        "determinant": "8394795906194893/11881340006899968",
+        "grade": 8,
+        "label_size": 9,
+        "multiplicity": 735,
+        "positive": 5,
+        "rank": 9,
+        "size": 9
+      },
+      {
+        "determinant": "-8394795906194893/11881340006899968",
+        "grade": 8,
+        "label_size": 9,
+        "multiplicity": 245,
+        "positive": 6,
+        "rank": 9,
+        "size": 9
+      },
+      {
+        "determinant": "8394795906194893/11881340006899968",
+        "grade": 8,
+        "label_size": 9,
+        "multiplicity": 21,
+        "positive": 7,
+        "rank": 9,
+        "size": 9
+      },
+      {
+        "determinant": "2441642430501/1913507486176",
+        "grade": 10,
+        "label_size": 9,
+        "multiplicity": 21,
+        "positive": 2,
+        "rank": 5,
+        "size": 5
+      },
+      {
+        "determinant": "-2441642430501/1913507486176",
+        "grade": 10,
+        "label_size": 9,
+        "multiplicity": 245,
+        "positive": 3,
+        "rank": 5,
+        "size": 5
+      },
+      {
+        "determinant": "2441642430501/1913507486176",
+        "grade": 10,
+        "label_size": 9,
+        "multiplicity": 735,
+        "positive": 4,
+        "rank": 5,
+        "size": 5
+      },
+      {
+        "determinant": "-2441642430501/1913507486176",
+        "grade": 10,
+        "label_size": 9,
+        "multiplicity": 735,
+        "positive": 5,
+        "rank": 5,
+        "size": 5
+      },
+      {
+        "determinant": "2441642430501/1913507486176",
+        "grade": 10,
+        "label_size": 9,
+        "multiplicity": 245,
+        "positive": 6,
+        "rank": 5,
+        "size": 5
+      },
+      {
+        "determinant": "-2441642430501/1913507486176",
+        "grade": 10,
+        "label_size": 9,
+        "multiplicity": 21,
+        "positive": 7,
+        "rank": 5,
+        "size": 5
+      },
+      {
+        "determinant": "76180952729873774596928409/261798029325089030423862784",
+        "grade": 10,
+        "label_size": 11,
+        "multiplicity": 35,
+        "positive": 4,
+        "rank": 11,
+        "size": 11
+      },
+      {
+        "determinant": "-76180952729873774596928409/261798029325089030423862784",
+        "grade": 10,
+        "label_size": 11,
+        "multiplicity": 147,
+        "positive": 5,
+        "rank": 11,
+        "size": 11
+      },
+      {
+        "determinant": "76180952729873774596928409/261798029325089030423862784",
+        "grade": 10,
+        "label_size": 11,
+        "multiplicity": 147,
+        "positive": 6,
+        "rank": 11,
+        "size": 11
+      },
+      {
+        "determinant": "-76180952729873774596928409/261798029325089030423862784",
+        "grade": 10,
+        "label_size": 11,
+        "multiplicity": 35,
+        "positive": 7,
+        "rank": 11,
+        "size": 11
+      },
+      {
+        "determinant": "-758529397/631628712",
+        "grade": 12,
+        "label_size": 11,
+        "multiplicity": 35,
+        "positive": 4,
+        "rank": 3,
+        "size": 3
+      },
+      {
+        "determinant": "758529397/631628712",
+        "grade": 12,
+        "label_size": 11,
+        "multiplicity": 147,
+        "positive": 5,
+        "rank": 3,
+        "size": 3
+      },
+      {
+        "determinant": "-758529397/631628712",
+        "grade": 12,
+        "label_size": 11,
+        "multiplicity": 147,
+        "positive": 6,
+        "rank": 3,
+        "size": 3
+      },
+      {
+        "determinant": "758529397/631628712",
+        "grade": 12,
+        "label_size": 11,
+        "multiplicity": 35,
+        "positive": 7,
+        "rank": 3,
+        "size": 3
+      },
+      {
+        "determinant": "494470415808058352723734672259352001/842984768228367354503174333504999424",
+        "grade": 12,
+        "label_size": 13,
+        "multiplicity": 7,
+        "positive": 6,
+        "rank": 13,
+        "size": 13
+      },
+      {
+        "determinant": "-494470415808058352723734672259352001/842984768228367354503174333504999424",
+        "grade": 12,
+        "label_size": 13,
+        "multiplicity": 7,
+        "positive": 7,
+        "rank": 13,
+        "size": 13
+      },
+      {
+        "determinant": "71/66",
+        "grade": 14,
+        "label_size": 13,
+        "multiplicity": 7,
+        "positive": 6,
+        "rank": 1,
+        "size": 1
+      },
+      {
+        "determinant": "-71/66",
+        "grade": 14,
+        "label_size": 13,
+        "multiplicity": 7,
+        "positive": 7,
+        "rank": 1,
+        "size": 1
+      }
+    ],
+    "radical": 0,
+    "rank": 114688
+  },
+  "checks": {
+    "actual_new_amplitude_radial_hessian": true,
+    "all_Bianchi_columns_negative": true,
+    "all_Bianchi_columns_null": true,
+    "all_Bianchi_columns_positive": true,
+    "auxiliary_elimination_original_quadratic": true,
+    "even_carrier_exhaustion": true,
+    "even_orbit_exhaustion_0": true,
+    "even_orbit_exhaustion_10": true,
+    "even_orbit_exhaustion_12": true,
+    "even_orbit_exhaustion_14": true,
+    "even_orbit_exhaustion_2": true,
+    "even_orbit_exhaustion_4": true,
+    "even_orbit_exhaustion_6": true,
+    "even_orbit_exhaustion_8": true,
+    "full_normal_and_partial_codimension": true,
+    "gauge_injection_negative": true,
+    "gauge_injection_null": true,
+    "gauge_injection_positive": true,
+    "gauge_negative_0": true,
+    "gauge_negative_1": true,
+    "gauge_negative_10": true,
+    "gauge_negative_11": true,
+    "gauge_negative_12": true,
+    "gauge_negative_13": true,
+    "gauge_negative_2": true,
+    "gauge_negative_3": true,
+    "gauge_negative_4": true,
+    "gauge_negative_5": true,
+    "gauge_negative_6": true,
+    "gauge_negative_7": true,
+    "gauge_negative_8": true,
+    "gauge_negative_9": true,
+    "gauge_null_0": true,
+    "gauge_null_1": true,
+    "gauge_null_10": true,
+    "gauge_null_11": true,
+    "gauge_null_12": true,
+    "gauge_null_13": true,
+    "gauge_null_2": true,
+    "gauge_null_3": true,
+    "gauge_null_4": true,
+    "gauge_null_5": true,
+    "gauge_null_6": true,
+    "gauge_null_7": true,
+    "gauge_null_8": true,
+    "gauge_null_9": true,
+    "gauge_positive_0": true,
+    "gauge_positive_1": true,
+    "gauge_positive_10": true,
+    "gauge_positive_11": true,
+    "gauge_positive_12": true,
+    "gauge_positive_13": true,
+    "gauge_positive_2": true,
+    "gauge_positive_3": true,
+    "gauge_positive_4": true,
+    "gauge_positive_5": true,
+    "gauge_positive_6": true,
+    "gauge_positive_7": true,
+    "gauge_positive_8": true,
+    "gauge_positive_9": true,
+    "mixed_coefficient_det": true,
+    "mixed_coefficient_inverse": true,
+    "new_even_auxiliary_full_rank": true,
+    "null_v_trace_map_surjective": true,
+    "ordinary_order2_necessary_regularity_partial": true,
+    "ordinary_order2_necessary_regularity_thin": true,
+    "pairing_selfadjoint_negative": true,
+    "pairing_selfadjoint_null": true,
+    "pairing_selfadjoint_positive": true,
+    "ported_first_order_Euler_coefficient": true,
+    "ported_first_order_raw_pairings": true,
+    "radial_joint_seed": true,
+    "radial_metric_composition": true,
+    "radial_restricted_density_derivative": true,
+    "radial_source_coefficient": true,
+    "rank_negative": true,
+    "rank_null": true,
+    "rank_positive": true,
+    "reused_all_grade_TT_rank_identity": true,
+    "same_seed_translation_equation": true
+  },
+  "contrary_controls": {
+    "freeze_translation_removes_half_top_rank": true,
+    "indefinite_Schur_rank_not_rank_B": true,
+    "isotropic_trace_sufficient_range_disjoint": true,
+    "old_amplitude_not_replayed": true,
+    "omitted_Einstein_trace_breaks_Bianchi_negative": true,
+    "omitted_Einstein_trace_breaks_Bianchi_null": true,
+    "omitted_Einstein_trace_breaks_Bianchi_positive": true,
+    "radial_metric_source_not_arbitrary": true,
+    "raw_without_formal_adjoint_is_wrong": true
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2357-curved-native-stationarity-2026-10-31.md": "ce7c92ece2bdcd56d198088c206f4e162294bdaaf6d1024a975c266f84a12ed9",
+    "explorations/conditional-build/k2519-stationary-product-receiver-2026-11-02.md": "55a02ce285f604f53766196dfa8246ec5df7ceb441553032f678bfc8596fcc6d",
+    "explorations/conditional-build/k2529-native-displacement-response-2026-11-04.md": "9282a991b5dc655e2d8d431e9d68732e0f2a5ff683f44a7ebb9217dd45b6ba6a",
+    "explorations/conditional-build/k2531-partial-thickness-source-2026-11-04.md": "c47c752a175b8863e7675996833af1c9a3174a5773ed68315977f927b8f64995",
+    "explorations/conditional-build/selected-k77-nonzero-branch-parent-hessian-2026-08-10.md": "f6129aec18fea3c2de30d396ec4b7489dfe77af4a5ecaa7cbf17466ca54ea0cb",
+    "lab/process/selected-k132-native-i1b-t0-all-grade-noether-complex.json": "c2835f33db681168424e95ff0195a5c88813f3d7db073bda45ccfef1c2dbf5b8",
+    "tests/channel-swings/k2533_mixed_source_response_probe.py": "20a736992b876c9b5acaf53dbc187fda550564f35d1f79118e7d0d791be4eb80",
+    "tests/channel-swings/k77_wave2_moving_shiab_epsilon_ward_green_domain_probe.py": "acc72e643032b4927db49963fd4de5b43b0c7f387a078b210a0d759e57e7bdb4",
+    "tests/channel-swings/selected_k77_nonzero_branch_parent_hessian_probe.py": "c8ef3b8032354ee291615f77404841abac1db4016f648077bdea0de4f142ef88"
+  },
+  "evidence_kinds": {
+    "exact_finite": "all105 metric basis columns for three covectors and symbolic radial algebra",
+    "provenance": "dependency hashes and report equality",
+    "universal": "written first-jet argument, Einstein decomposition, distributional radial-source proof"
+  },
+  "exact_values": {
+    "Einstein_ranks": {
+      "negative": 91,
+      "null": 14,
+      "positive": 91
+    },
+    "coefficient_determinant": "-4",
+    "coefficient_matrix": "Matrix([[15*k/572, -2], [-2, 0]])",
+    "coupled_top_ranks": {
+      "negative": 182,
+      "null": 28,
+      "positive": 182
+    },
+    "partial_common_Hr_necessary": "r < -3/2",
+    "radial_source_coefficient": "-25*kappa^2/4576",
+    "thin_common_Hr_necessary": "r < -3"
+  },
+  "full_mixed_characteristic_Green_or_native_GU_claim": false,
+  "result": "K2533",
+  "reused_TT_first_order": {
+    "carrier": "Omega1(Cl(7,7))",
+    "dimension": 229376,
+    "formal_euler_green_ranks": {
+      "null": 122746,
+      "spacelike": 130912,
+      "timelike": 130912
+    },
+    "grade_chains": [
+      [
+        0,
+        3,
+        4,
+        7,
+        8,
+        11,
+        12
+      ],
+      [
+        1,
+        2,
+        5,
+        6,
+        9,
+        10,
+        13,
+        14
+      ]
+    ],
+    "isolated_grades": [],
+    "nonnull_block_dimension": 28,
+    "null_block_dimension": 56,
+    "null_radical_jump": 8166,
+    "radicals": {
+      "null": 106630,
+      "spacelike": 98464,
+      "timelike": 98464
+    },
+    "raw_density_ranks": {
+      "null": 122864,
+      "spacelike": 122864,
+      "timelike": 122864
+    }
+  },
+  "scope": "selected independent-(G,T) completion, radial stationary product; ordinary order-two symbol and radial-only linear response"
+}

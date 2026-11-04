@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 660143f5616b99496011911b93b2ca7d9edb411b
+revision_basis: bacc54d54b96d810de64f60ad617fba1593519cd
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,7 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2532 executes the fitted dimensionless sourced history at actual ANDES forecast bins: free scale/offset nearly erase the fixed-scale discrepancy, but the joint released Cepheid/SN covariance constrains its scale to H0=73.6806 at the fixed shape. The hypothetical joint drift consumer retains substantial calibration dependence; no empirical or family exclusion. K2533 constructs the actual radial stationary-product ordinary order-two symbol with nonnull/null ranks182/28 and excludes radial-only localized-source response. It ports the already-owned full TT first-order coefficient and computes all114688 even auxiliary directions at the new amplitude as invertible, releasing exact local moving-geometry Schur elimination. Full odd-metric Green/domain, physical readout and native GU certification remain open. Source polarities and ledger0.263 unchanged. Historical predecessor (not live):
     K2530 composes finite drift nodes and a supplied Lipschitz bound into a sharp nonlinear
     distance-anchor interval, proves an exact rejection missed by a coarse band and a joint-anchor
     incompatibility, and bounds the sourced weak columns with shared trials. K2531 classifies
@@ -18345,6 +18346,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2532-finite-drift-forecast-2026-11-04.md
+  - explorations/conditional-build/k2533-mixed-source-response-2026-11-04.md
+  - lab/process/k2532-finite-drift-forecast.json
+  - lab/process/k2533-mixed-source-response.json
+  - tests/channel-swings/k2532_finite_drift_forecast_probe.py
+  - tests/channel-swings/k2533_mixed_source_response_probe.py
   - explorations/conditional-build/k2530-finite-drift-envelope-2026-11-04.md
   - explorations/conditional-build/k2531-partial-thickness-source-2026-11-04.md
   - lab/process/k2530-finite-drift-envelope.json
@@ -20842,6 +20849,7 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can a joint calibrated SN/BAO parameter fit preserve the sourced quadratic history and its held-out response, or can the now-owned even auxiliary inverse and first-order coefficient construct the full odd-metric source response on a valid common domain? Historical predecessor (not live):
   Can the explicit conserved partial-width source be answered by the full mixed selected-I1
   operator on a common distributional domain, or can actual jointly calibrated drift and distance
   inputs satisfy the sharp finite-information test?
@@ -25242,6 +25250,7 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K2532 now consumes the pinned Cepheid/SN calibration jointly: do not requeue a missing H0 prior or double-count SH0ES over the same SN rows. Next compare a joint dimensionless-parameter calibrated likelihood/BAO refit with held-out drift/growth under explicit stellar, tracer and selection assumptions; the fixed-shape loss is not a family exclusion. K2533 owns the actual ordinary top symbol, localized radial-response obstruction, full first-order TT port and new-amplitude114688-dimensional even inverse. Do not recompute those or claim a Green function from ranks. Assemble the remaining105-metric plus114688-odd reduced operator, retain indefinite Schur/Noether constraints, then specify distributional domain and observed pullback. Native Met(X), physical quotient, finite-score stopping and joint-effect calibration keep their prior ceilings. Historical predecessor (not live):
   Use K2530 only with an actual common tracer/clock/ruler trial and independently justified
   regularity or an action-forward likelihood; covariance alone, separate anchors and a coarse
   sampled curve do not supply joint feasibility. Cover every allowed q=H0+b and momentum trial,

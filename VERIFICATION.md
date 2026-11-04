@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2532--K2533: Calibrated drift and mixed source response (2026-11-04)
+
+K2532 executes the fitted dimensionless sourced history at actual ANDES forecast bins: free scale/offset nearly erase the fixed-scale discrepancy, but the joint released Cepheid/SN covariance constrains its scale to H0=73.6806 at the fixed shape. The hypothetical joint drift consumer retains substantial calibration dependence; no empirical or family exclusion. K2533 constructs the actual radial stationary-product ordinary order-two symbol with nonnull/null ranks182/28 and excludes radial-only localized-source response. It ports the already-owned full TT first-order coefficient and computes all114688 even auxiliary directions at the new amplitude as invertible, releasing exact local moving-geometry Schur elimination. Full odd-metric Green/domain, physical readout and native GU certification remain open. Source polarities and ledger0.263 unchanged.
+
+- [K2532](explorations/conditional-build/k2532-finite-drift-forecast-2026-11-04.md).
+- [K2533](explorations/conditional-build/k2533-mixed-source-response-2026-11-04.md).
+
+Independent observation, geometry and integrated reviewers challenged dimensional scaling, original-row residual evidence, covariance treatment, invariant-block completeness and stable report serialization. Repaired findings before acceptance; exact proofs/census, numerical likelihood/forecast and provenance checks remain separate. No experimental, external-expert, proof-assistant or novelty certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2530--K2531: Finite drift information and conserved partial thickness (2026-11-04)
 
 K2530 composes finite drift nodes and a supplied Lipschitz bound into a sharp nonlinear distance-anchor interval, proves an exact rejection missed by a coarse band and a joint-anchor incompatibility, and bounds the sourced weak columns with shared trials. K2531 classifies invariant finite normal measures on the actual stationary product: three directions may thicken while seven remain singular. An explicit normal pressure restores conservation of that partial-thickness stress and vanishes in its thin limit. The fixed-width source has the exact local Sobolev threshold s>7/2, compared with s>5 for the original thin source. These are conditional constructions; no measured sensitivity, source-owned matter action, full Green response or native GU certification. Source polarities and ledger0.263 remain unchanged.

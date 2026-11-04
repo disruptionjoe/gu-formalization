@@ -2,6 +2,12 @@
 
 ## Latest conditional constructions (2026-11-04)
 
+- [K2532](k2532_finite_drift_forecast_probe.py): finite drift, joint released calibration and scale/offset consumer.
+- [K2533](k2533_mixed_source_response_probe.py): actual symbol, radial source obstruction and complete even auxiliary elimination.
+
+
+## Latest conditional constructions (2026-11-04)
+
 - [K2530](k2530_finite_drift_envelope_probe.py): sharp finite-drift anchor feasibility and shared weak test.
 - [K2531](k2531_partial_thickness_source_probe.py): stationary-product support and conserved partial-width source.
 

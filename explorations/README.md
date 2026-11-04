@@ -7,6 +7,12 @@ updated_at: "2026-08-21"
 
 ## Latest conditional constructions (2026-11-04)
 
+- [K2532](conditional-build/k2532-finite-drift-forecast-2026-11-04.md): finite drift, joint released calibration and scale/offset consumer.
+- [K2533](conditional-build/k2533-mixed-source-response-2026-11-04.md): actual symbol, radial source obstruction and complete even auxiliary elimination.
+
+
+## Latest conditional constructions (2026-11-04)
+
 - [K2530](conditional-build/k2530-finite-drift-envelope-2026-11-04.md): sharp finite-drift anchor feasibility and shared weak test.
 - [K2531](conditional-build/k2531-partial-thickness-source-2026-11-04.md): stationary-product support and conserved partial-width source.
 

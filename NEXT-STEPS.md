@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-04: FINITE INFORMATION AND CONSERVED PARTIAL THICKNESS.**
+> **2026-11-04 CALIBRATED DRIFT AND MIXED SOURCE RESPONSE.**
+> K2532 now consumes the pinned Cepheid/SN calibration jointly: do not requeue a missing H0 prior or double-count SH0ES over the same SN rows. Next compare a joint dimensionless-parameter calibrated likelihood/BAO refit with held-out drift/growth under explicit stellar, tracer and selection assumptions; the fixed-shape loss is not a family exclusion. K2533 owns the actual ordinary top symbol, localized radial-response obstruction, full first-order TT port and new-amplitude114688-dimensional even inverse. Do not recompute those or claim a Green function from ranks. Assemble the remaining105-metric plus114688-odd reduced operator, retain indefinite Schur/Noether constraints, then specify distributional domain and observed pullback. Native Met(X), physical quotient, finite-score stopping and joint-effect calibration keep their prior ceilings.
+
+
+> **Historical predecessor: 2026-11-04 FINITE INFORMATION AND CONSERVED PARTIAL THICKNESS.**
 > Use K2530 only with an actual common tracer/clock/ruler trial and independently justified regularity or an action-forward likelihood; covariance alone, separate anchors and a coarse sampled curve do not supply joint feasibility. Cover every allowed q=H0+b and momentum trial, including positive histories outside the robust envelope slice. K2531 supplies a conserved partial-width source with residual codimension7 support, not a smooth full regulator or a response. Next derive the full mixed finite-momentum I1 operator on this stationary seed and a compatible distributional source/readout domain, or construct an action-owned majorant/thickness with all source equations. Do not recompute the four-coordinate inverse or generic Gaussian nonnormalizability. Compare actual jointly calibrated finite observations against that source-response construction. Retain finite-score stopping, joint-effect calibration, higher multipole/slip, common-bar/mobile, thermal and native2+1/physical quotient at their exact prior ceilings.
 
 
