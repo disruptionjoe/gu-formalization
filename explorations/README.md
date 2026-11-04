@@ -7,6 +7,12 @@ updated_at: "2026-08-21"
 
 ## Latest conditional constructions (2026-11-04)
 
+- [K2540: initialization and rho repair; uniform C3 closure](conditional-build/k2540-prepared-cosmology-source-data-2026-11-04.md).
+- [K2541: prescribed product-source response and singular original readout](conditional-build/k2541-prescribed-product-source-response-2026-11-04.md).
+
+
+## Latest conditional constructions (2026-11-04)
+
 - [K2538: sharp derivative closure, snap and finite-window resolution](conditional-build/k2538-derivative-limit-and-snap-2026-11-04.md).
 - [K2539: covariant source constraints and full local generated-source solutions](conditional-build/k2539-covariant-tensor-constraints-2026-11-04.md).
 

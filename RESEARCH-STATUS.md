@@ -6,6 +6,18 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2540--K2541: Initialization repair and prescribed-source response (2026-11-04)
+
+K2540 repairs observer snap exactly within the sourced quadratic action family by shifting initial velocity, constant action coefficient rho and source normalization, and proves compact-interval C3 convergence with a nonzero fourth-jet limit. This is not a fixed coefficient-complete action or empirical test. K2541 solves the full local distributional equations for prescribed conserved A-homogeneous order-zero sources, including a B-point delta, through a curved three-scalar reduction. Its original metric coefficient necessarily fails local L2 at the delta source; observer-localized tension, global boundary selection and physical readout remain open. Source polarities and ledger0.263 unchanged.
+
+- [K2540](explorations/conditional-build/k2540-prepared-cosmology-source-data-2026-11-04.md).
+- [K2541](explorations/conditional-build/k2541-prescribed-product-source-response-2026-11-04.md).
+
+Independent ODE and geometry/PDE specialists and a separate integrated review checked the original equations, uniform proof, curved scalar reduction, applicable local-solvability theorem and singular original readout. Review corrected same-action wording to same action family and replaced a source control with the actual prior repaired profile. Universal proofs, exact finite controls, external theorem application and report consistency remain distinct evidence kinds; no empirical, external-expert or proof-assistant certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2538--K2539: Derivative discrimination and full generated-source response (2026-11-04)
 
 K2538 proves C2 but not observer-inclusive C3 closure for the exact jet-matched sourced cosmology family, derives a nonzero snap difference and prices shrinking-window resolution/noise with a limiting alias control. Fixed-window observations still converge; no empirical or native GU claim. K2539 derives full covariant skew/vector and Weyl-dependent symmetric constraints, excludes two simple tensor profiles, repairs them by a coupled profile and constructs explicit full local Einstein/tensor solutions for generated conserved sources. This does not solve the prescribed order-zero tension or select a Green boundary/physical readout. Source polarities and ledger0.263 unchanged.

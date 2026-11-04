@@ -1,0 +1,53 @@
+{
+  "contrary_controls": {
+    "dropping_Hessian_fails_prescribed_source": true,
+    "nonnull_gradient_on_characteristic": true,
+    "old_repaired_profile_fails_prescribed_B_zero": true,
+    "repeated_principal_product_not_real_principal_type": true,
+    "wrong_metric_shift_changes_source_readout": true
+  },
+  "dependencies": {
+    "tests/channel-swings/k2539_covariant_tensor_constraints_probe.py": "e88d587b2ae95a10d2905edbddc43a9552317def18f913feff3b840f76d4ebd4",
+    "tests/channel-swings/k2541_prescribed_product_source_response_probe.py": "2828c4f11f99e1e276074e5944d85cdf7b13e8433c683950f9c87cf1528eaaad"
+  },
+  "exact_checks": {
+    "Einstein_prescribed_A": true,
+    "Einstein_prescribed_B": true,
+    "Hessian_column_from_full_Euler": true,
+    "Hessian_hook_B": true,
+    "Hessian_hook_H": true,
+    "adjugate_Hessian_constant": true,
+    "common_master_Einstein": true,
+    "common_master_tensor": true,
+    "constant_source_direct_solution": true,
+    "delta_source_regularities": true,
+    "determinant_exact_coefficients": true,
+    "determinant_quadratic": true,
+    "divergence_Hessian_column": true,
+    "forced_B_Hessian_rows_zero": true,
+    "full_polynomial_adjugate": true,
+    "mass_Hessian_divergence": true,
+    "no_constant_kernel": true,
+    "no_shared_Einstein_root": true,
+    "original_hA_no_canceled_poles": true,
+    "original_hA_nonzero_high_frequency": true,
+    "original_hA_numerator_degree": true,
+    "original_hA_source_identity": true,
+    "skew_closed_exact_gradient": true,
+    "two_negative_roots": true,
+    "two_real_distinct_roots": true
+  },
+  "polynomials": {
+    "adjugate_first_column": [
+      "(-121558485114114048*D + 97712717036293*k**2)/253954106385408",
+      "7*(116625596252166144*D + 153233472236795*k**2)/1269770531927040",
+      "-10607043027/17967160"
+    ],
+    "determinant": "-(3094302258846107172864*D**2 + 48852605799064661880*D*k**2 + 19514973635487875*k**4)/(38093115957811200*k)",
+    "hA_leading_ratio": "559559/(224031*k)",
+    "hA_numerator": "(-111470108038212059136*D**2 + 23443121698297931487*D*k**2 + 9086860628609870*k**4)/(549419941699200*k**2)",
+    "matrix": "Matrix([[-1281307742*D/(2245895*k) + 7177*k/20592, -1237682732*D/(2245895*k) - 15757*k/20592, -427500405*D*k/4110886208], [-4331889562*D/(6737685*k) - 15757*k/20592, -645016372*D/(1347537*k) + 7177*k/20592, -1282043485*D*k/12332658624], [4331889562/(6737685*k), 645016372/(1347537*k), 13614702109*k/12332658624]])"
+  },
+  "result": "K2541",
+  "scope": "full prescribed A-homogeneous order-zero source j=J(B)G_A has local distributional solutions; original on-source continuous readout fails for delta within this family; not K2531 localized source, Green selection, physical quotient or GU certification"
+}

@@ -1,0 +1,46 @@
+{
+  "contrary_controls": {
+    "C4_not_closed": true,
+    "b_fixed_would_change_second_jet": true,
+    "dimensionful_source_changes": true,
+    "old_fixed_seed_snap_gap_survives": true,
+    "third_and_snap_roots_are_distinct": true
+  },
+  "dependencies": {
+    "tests/channel-swings/k2538_derivative_limit_and_snap_probe.py": "954359d4cf36d6b66825e4b08086ac493b0d4c241da365be900822cdca6a4fa2",
+    "tests/channel-swings/k2540_prepared_cosmology_source_data_probe.py": "caef798ce2ea717cd5eeb41a6e066977b882995bbb30873e9c2c3c9e5700fee4"
+  },
+  "exact_checks": {
+    "Omega03_fourth_gap": true,
+    "exact_snap_polynomial": true,
+    "five_sample_error_sharp": true,
+    "fourth_difference_normalization": true,
+    "fourth_jet_limit_independent_subleading_shift": true,
+    "fourth_jet_vs_fast_profile": true,
+    "original00_full_identity": true,
+    "original_modified_force": true,
+    "preparation_velocity_matches_slow_profile": true,
+    "proper_time_snap_formula": true,
+    "required_noise_scaling": true,
+    "second_jet_exact": true,
+    "second_slow_initial_position": true,
+    "second_slow_residual_cancellation": true,
+    "snap_leading_initial_shift": true,
+    "snap_small_root": true,
+    "snap_stable_root": true,
+    "source_normalized_once": true,
+    "third_jet_polynomial": true,
+    "third_jet_small_root": true,
+    "third_leading_initial_shift": true,
+    "third_stable_root": true
+  },
+  "identities": {
+    "b_shift": "d*(72*O - 216)",
+    "fourth_gap_limit": "-O*(3*O**2 - 16*O - 16)/48",
+    "slow_velocity": "27*O**2/8 + 9*O",
+    "snap_gap": "(-27*O**2 - 108*O*d - 72*O + 8*a*d - 120*d**2 - 144*d)/12",
+    "third_gap": "-(-135*O**2*d - 54*O**2 - 396*O*d - 144*O + 16*a*d - 720*d**2)/432"
+  },
+  "result": "K2540",
+  "scope": "same sourced quadratic family with altered initialization and dimensional source, fixed action-normalized Omega; exact observer snap repair and compact-interval C3 not C4 closure; no empirical/native GU credit"
+}

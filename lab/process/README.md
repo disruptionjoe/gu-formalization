@@ -7,6 +7,12 @@ updated_at: "2026-08-23"
 
 ## Latest conditional constructions (2026-11-04)
 
+- [K2540 report](k2540-prepared-cosmology-source-data.json).
+- [K2541 report](k2541-prescribed-product-source-response.json).
+
+
+## Latest conditional constructions (2026-11-04)
+
 - [K2538 report](k2538-derivative-limit-and-snap.json).
 - [K2539 report](k2539-covariant-tensor-constraints.json).
 

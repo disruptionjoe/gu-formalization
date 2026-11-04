@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-04: DERIVATIVE RESOLUTION AND FULL GENERATED-SOURCE RESPONSE.**
+> **2026-11-04: INITIALIZATION REPAIR AND PRESCRIBED SOURCE.**
+> Reuse K2540 initialization/rho repair and C3 theorem: derivative discrimination needs independently justified action/source/initial restrictions or perturbation data; the next derivative is not automatically a family exclusion. K2541 supplies local prescribed A-homogeneous source solutions and a necessary singular original-readout bound, not the observer-localized K2531 source or a global selected Green operator. Next construct its A-normal/tensor response and a justified observation smearing or boundary realization; use K2541 as a full-equation control. Native Met(X), physical quotient, finite-score/joint-calibration and other portfolio debts retain exact prior ceilings.
+
+
+> **Historical predecessor: 2026-11-04: DERIVATIVE RESOLUTION AND FULL GENERATED-SOURCE RESPONSE.**
 > Reuse K2538 C2 closure and exact selected-seed snap: physical discrimination needs justified source/initial-data restrictions and an actual joint high-derivative window/noise model; fixed-width forecasts do not recover the snap gap. K2539 now supplies full curved constraints and a generated-source full local solution class, including original h and reconstructed auxiliary. Next test the prescribed conserved order-zero source on a common tensor/Einstein boundary realization with a defined original-metric readout. Do not repeat trace-only profiles, omit product Weyl curvature, or treat generated derivative sources as the prescribed tension. Native Met(X), physical quotient, finite-score/joint-calibration and other portfolio debts retain their exact prior ceilings.
 
 
