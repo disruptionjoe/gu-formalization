@@ -7,6 +7,12 @@ updated_at: "2026-08-21"
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2584 scalar spectral inverse](conditional-build/k2584-scalar-spectral-boundary-inverse-2026-11-05.md).
+- [K2585 eventual stopping tail](conditional-build/k2585-eventual-stopping-tail-2026-11-05.md).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2582 affine boundary repair](conditional-build/k2582-affine-radial-boundary-response-2026-11-05.md).
 - [K2583 complete stopping frontier](conditional-build/k2583-complete-stopping-resource-frontier-2026-11-05.md).
 

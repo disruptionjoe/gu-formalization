@@ -2,6 +2,12 @@
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2584 scalar inverse probe](k2584_scalar_spectral_boundary_inverse_probe.py).
+- [K2585 eventual tail probe](k2585_eventual_stopping_tail_probe.py).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2582 boundary response probe](k2582_affine_radial_boundary_response_probe.py).
 - [K2583 complete frontier probe](k2583_complete_stopping_resource_frontier_probe.py).
 

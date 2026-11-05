@@ -5,7 +5,10 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-05: AFFINE BOUNDARY REPAIR AND COMPLETE STOPPING FRONTIER.**
+> **2026-11-05: SCALAR COMPLEMENT AND EVENTUAL STOPPING TAIL.**
+> Reuse K2584 fixed spectral scalar cofactor inverse and actual compact-source compatibility; do not requeue the general scalar complement on this annulus as absent. The prescription is complexified and nonlocal in mode space; physical selection, sharp finite-order tensor norms and B point-source admission remain separate. Preserve K2582 exact-field splitter matching with distinct component domains. Reuse K2585 eventual exact tail, sufficient onset and finite certified price window above Lambda; do not infer sharp onset or all lower budgets from its certificate. Next test global score-sensitive positive-action support or independently calibrated real boundary/readout selection. K2565lambda1.9 bracket and native source/action/displacement debts remain.
+
+> **Historical predecessor: 2026-11-05: AFFINE BOUNDARY REPAIR AND COMPLETE STOPPING FRONTIER.**
 > Reuse K2582 trace-tagged TT and exact scalar-overlap response, including the gauge correction that preserves all total fields; do not confuse homogeneous component boundaries with total physical boundary data or remove the outer boundary condition by adding an unmarked eigenmode. General scalar matrix complement still needs its actual boundary/domain inverse. Reuse K2583 complete all-budget and all-positive-price solution through Lambda(S); neither the old middle-budget gap nor the sharp tail bracket remains open. Next probability work must address above-transition positive-action/multistage support, retaining K2565lambda1.9 bracket. Physical calibration/preparation and native Met(X) bridges remain independent alternatives.
 
 > **Historical predecessor: 2026-11-05: FIXED RADIAL DOMAIN AND SHARP STOPPING TRANSITION.**

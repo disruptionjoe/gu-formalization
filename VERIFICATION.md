@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2584--K2585: Scalar spectral inverse and eventual stopping tail (2026-11-05)
+
+K2584 confines all five roots of the actual mixed scalar determinant and constructs uniform complex factor inverses with sign-adapted impedance. Ten explicit intermediate traces give a fixed spectral cofactor right inverse on the existing annulus. The actual compact radial-pressure source satisfies every TT Dirichlet compatibility condition after trace lifting, completing the selected coupled response on this preparation; different scalar/TT bases and two real quadratures remain explicit. No physical preparation, point-source theorem or native GU recovery. K2585 proves the exact eventual stopping tail ABOVE Lambda(S) whenever lambda<=B_N(S), with explicit sufficient onset and certificate asymptotic. At lambda.55,S.5 every budget>=6 is solved, budget7 has an exact optimal mixture, while an actual budget3 positive-action mixture beats the old chord. An executed finite search certifies the full sufficient small-price window; a quarter-score consumer also passes. Onset and price thresholds are sufficient, not individually sharp; low budgets and larger multipliers remain open. Source polarities, ledger0.263 and canon unchanged.
+
+- [K2584](explorations/conditional-build/k2584-scalar-spectral-boundary-inverse-2026-11-05.md).
+- [K2585](explorations/conditional-build/k2585-eventual-stopping-tail-2026-11-05.md).
+
+Independent field specialists cross-reviewed both constructions; a distinct integrated hostile reviewer returned no substantive findings. Exact probes and native checks support the stated scope. Universal domain and optimizer arguments remain separate from finite identities and controls. No external-expert, proof-assistant, remote-CI or physical certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2582--K2583: Affine boundary repair and complete stopping frontier (2026-11-05)
 
 K2582 proves the regular scalar/TT splitter overlap leaves homogeneous component Dirichlet domains, and a naive unmarked radial-domain enlargement has empty resolvent. Trace-tagged compatible TT data admit paired all-angular polynomial response bounds. The actual scalar overlap eigenline bypasses the general cofactor inverse; an explicit gauge repair makes scalar/TT responses match exactly, preserving total fields and boundary data. A nonzero source-trace/readout consumer is executed. General scalar complement and physical preparation remain open. K2583 solves the COMPLETE finite expected-resource frontier and every positive-price optimizer for every0<S<=1/2 and0<lambda<=Lambda(S), extending the old middle range. It executes an exact corner law, certain-success minimum-leakage tradeoff, two middle-budget consumers, low/tail mixtures and a certified scalar-price optimizer. Above-transition global policies remain open. Source polarities, ledger0.263 and canon unchanged; no native GU or physical certification.
