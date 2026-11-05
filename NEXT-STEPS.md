@@ -5,7 +5,10 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-05: DISTRIBUTIONAL RESPONSE AND ADAPTIVE RIGIDITY.**
+> **2026-11-05: DISTRIBUTIONAL DESCENT AND GLOBAL STOPPING FRONTIER.**
+> Reuse K2558 synchronized distributional overlap and exact Dirichlet splitter for finite polynomial pressure; do not repeat analytic or fixed-mode existence. The actual compact radial profile requires N-uniform inverse bounds or a direct domain construction. The explicit homogeneous source-disjoint detector proves that splitter consistency alone cannot select a response; test an independently justified boundary/preparation rule. K2559 closes ALL finite lambda>=4/sqrt(3), not merely the previous gap interval, and the exact adaptive budget segment including zero-cost rigidity and square-root sensitivity. Next stopping work must address the higher-budget fixed-score phase or genuinely parameter-uniform quantitative stability; new root ribbons for the closed interval are redundant. Compare those proof attempts against independently grounded cosmology/common-carrier inputs. No native GU or physical-domain acceptance is implied.
+
+> **Historical predecessor: 2026-11-05: DISTRIBUTIONAL RESPONSE AND ADAPTIVE RIGIDITY.**
 > Reuse K2556 finite radial-polynomial B-point-source existence and its fixed-mode smoothing limit; preserve the actual mixed determinant, chosen splitter and original metric. The compact radial cutoff and arbitrary-splitter boundary matching require a new norm-controlled synthesis or direct domain argument, not finite-polynomial density alone. The frozen one-time instability rejects a naive Cauchy repair only. Reuse K2557 full-adaptive quantitative stability and exact nonidle-action classification at the critical multiplier; do not requeue finite-mixture transfer. Parameter extension needs new residual and one-stage root ribbons: both the old upper residual hazard and lower quadratic ribbon fail at lambda=8/3. Compare that whole-domain construction against a boundary-explicit gauge-invariant source response or independently grounded cosmology/common-carrier inputs. No physical measurement or native GU acceptance is supplied.
 
 > **Historical predecessor: 2026-11-05: ANALYTIC RESPONSE AND STOPPING STABILITY.**

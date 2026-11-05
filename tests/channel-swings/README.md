@@ -2,6 +2,12 @@
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2558 overlap and observation probe](k2558_distributional_splitter_overlap_probe.py).
+- [K2559 decreasing-generator certificate](k2559_parametric_stopping_concavity_probe.py).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2556 finite-mode response and dispersion probe](k2556_distributional_source_response_probe.py).
 - [K2557 adaptive stability and parameter probe](k2557_parametric_stopping_support_probe.py).
 

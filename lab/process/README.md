@@ -7,6 +7,12 @@ updated_at: "2026-08-23"
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2558 report](k2558-distributional-splitter-overlap.json).
+- [K2559 report](k2559-parametric-stopping-concavity.json).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2556 report](k2556-distributional-source-response.json).
 - [K2557 report](k2557-parametric-stopping-support.json).
 

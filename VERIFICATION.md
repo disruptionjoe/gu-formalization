@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2558--K2559: Distributional descent and global stopping frontier (2026-11-05)
+
+K2558 constructs coordinated B-distributional responses using the exact regular Dirichlet radial splitter for every finite polynomial pressure, including a B point source. Regular splitter changes are pure original-metric gauge under the synchronized prescription; an exact inverse-mismatch formula and a full homogeneous construction show source-disjoint conserved observations still vary at fixed source. Compact radial synthesis and physical boundary selection remain open. K2559 proves global original-law one-stage support for every finite multiplier at least 4/sqrt(3) by a certified decreasing generator and scalar flow comparison. It closes the exact adaptive budget frontier from zero through the critical contact, qualitative optimizer rigidity, strict concavity and small-budget square-root sensitivity. The higher-budget frontier and uniform radial/domain bounds remain open. Source polarities, ledger0.263, canon and native GU verdicts are unchanged.
+
+- [K2558](explorations/conditional-build/k2558-distributional-splitter-overlap-2026-11-05.md).
+- [K2559](explorations/conditional-build/k2559-parametric-stopping-concavity-2026-11-05.md).
+
+Independent geometry/PDE and probability specialists plus a distinct integrated hostile review found no substantive mathematical defects after the strictness-corner and evidence-control repairs. Universal distributional/flow/expectation proofs, exact algebraic sign certificates and bookkeeping remain separate; no external-expert or proof-assistant certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2556--K2557: Distributional response and adaptive rigidity (2026-11-05)
 
 K2556 constructs local distributional responses, including a B point source, for every finite radial-polynomial conserved pressure source in the selected curved completion. All four scalar equations and original metric are retained; a nontrivial positive pressure example, TT degree reduction and fixed-mode smoothing limit follow. A compact-source core can match locally, but cutoff-region response, uniform radial synthesis and physical boundary selection remain open. The actual mixed determinant produces exponential frequency-to-the-one-third growth in an auxiliary frozen one-time scalar pencil; no full curved or physical instability follows. K2557 proves quantitative stability and exact nonidle-action rigidity for the full original adaptive stopping class at the critical multiplier, including clipping, abandonment and nonabsorption losses. Two exact parameter-ribbon failures prevent unmodified certificate extension; the remaining multiplier interval and other-budget frontier remain open. No source, ledger0.263, canon or native GU verdict changes.

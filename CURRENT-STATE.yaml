@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: c0208aed28c5d50f6853932f7e2b6b498699d1da
+revision_basis: 193d9c1b8164a02be02b48389f0592e71f1f455f
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,18 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2558 constructs coordinated B-distributional responses using the exact regular Dirichlet
+    radial splitter for every finite polynomial pressure, including a B point source. Regular
+    splitter changes are pure original-metric gauge under the synchronized prescription; an
+    exact inverse-mismatch formula and a full homogeneous construction show source-disjoint
+    conserved observations still vary at fixed source. Compact radial synthesis and physical
+    boundary selection remain open. K2559 proves global original-law one-stage support for every
+    finite multiplier at least 4/sqrt(3) by a certified decreasing generator and scalar flow
+    comparison. It closes the exact adaptive budget frontier from zero through the critical
+    contact, qualitative optimizer rigidity, strict concavity and small-budget square-root
+    sensitivity. The higher-budget frontier and uniform radial/domain bounds remain open. Source
+    polarities, ledger0.263, canon and native GU verdicts are unchanged.
+    Historical predecessor (not live):
     K2556 constructs local distributional responses, including a B point source, for every
     finite radial-polynomial conserved pressure source in the selected curved completion. All
     four scalar equations and original metric are retained; a nontrivial positive pressure
@@ -18461,6 +18473,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2558-distributional-splitter-overlap-2026-11-05.md
+  - explorations/conditional-build/k2559-parametric-stopping-concavity-2026-11-05.md
+  - lab/process/k2558-distributional-splitter-overlap.json
+  - lab/process/k2559-parametric-stopping-concavity.json
   - explorations/conditional-build/k2556-distributional-source-response-2026-11-05.md
   - explorations/conditional-build/k2557-parametric-stopping-support-2026-11-05.md
   - lab/process/k2556-distributional-source-response.json
@@ -21030,6 +21046,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which boundary or preparation condition can select an original-metric response to the actual
+  compact source, and what replaces the one-stage stopping frontier above the now certified
+  critical-contact budget?
+  Historical predecessor (not live):
   Can the finite-mode B-distributional response be extended through the radial cutoff with
   uniform bounds, or can new parameter-dependent stopping certificates close the remaining
   multiplier interval?
@@ -25477,6 +25497,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Reuse K2558 synchronized distributional overlap and exact Dirichlet splitter for finite
+  polynomial pressure; do not repeat analytic or fixed-mode existence. The actual compact radial
+  profile requires N-uniform inverse bounds or a direct domain construction. The explicit
+  homogeneous source-disjoint detector proves that splitter consistency alone cannot select a
+  response; test an independently justified boundary/preparation rule. K2559 closes ALL finite
+  lambda>=4/sqrt(3), not merely the previous gap interval, and the exact adaptive budget segment
+  including zero-cost rigidity and square-root sensitivity. Next stopping work must address the
+  higher-budget fixed-score phase or genuinely parameter-uniform quantitative stability; new
+  root ribbons for the closed interval are redundant. Compare those proof attempts against
+  independently grounded cosmology/common-carrier inputs. No native GU or physical-domain
+  acceptance is implied.
+  Historical predecessor (not live):
   Reuse K2556 finite radial-polynomial B-point-source existence and its fixed-mode smoothing
   limit; preserve the actual mixed determinant, chosen splitter and original metric. The compact
   radial cutoff and arbitrary-splitter boundary matching require a new norm-controlled synthesis

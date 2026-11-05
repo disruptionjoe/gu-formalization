@@ -1,0 +1,67 @@
+{
+  "result": "K2558",
+  "checks": {
+    "TT_kinetic_coefficient": true,
+    "TT_full_mass_coefficient": true,
+    "TT_Einstein_curvature_shift": true,
+    "TT_displacement_curvature_shift": true,
+    "full_Einstein_source_row_0": true,
+    "full_Einstein_source_row_1": true,
+    "full_Einstein_source_row_2": true,
+    "full_Einstein_source_row_3": true,
+    "full_Einstein_source_row_4": true,
+    "scalar_source_divergence_A": true,
+    "scalar_source_divergence_B": true,
+    "scalar_source_trace": true,
+    "overlap_all_six_rows": true,
+    "overlap_four_factor_quotient": true,
+    "independent_adjugate_0": true,
+    "independent_adjugate_1": true,
+    "independent_adjugate_2": true,
+    "radial_overlap_scalar_eigenvalue": true,
+    "radial_overlap_TT_eigenvalue": true,
+    "source_splitter_opposite_TT_sign": true,
+    "regular_center_TT_nonzero_coefficient": true,
+    "Dirichlet_splitter_boundary": true,
+    "positive_resolvent_gap": true,
+    "added_scalar_eigenvalue_distinct": true,
+    "added_TT_eigenvalue_distinct": true,
+    "scalar_integer_roots_excluded": true,
+    "original_metric_general_overlap_AA": true,
+    "original_metric_general_overlap_AB": true,
+    "Einstein_detects_inverse_mismatch": true,
+    "nonzero_pole_gap": true,
+    "ordered_inverse_fixture_solves_second_derivative": true,
+    "overlap_TT_Einstein_shift": true,
+    "overlap_TT_displacement_shift": true,
+    "homogeneous_R1_displacement_equation": true,
+    "homogeneous_original_metric_detector": true
+  },
+  "contrary_controls": {
+    "wrong_overlap_eigenvalue_rejected": true,
+    "flat_TT_operator_rejected": true,
+    "polynomial_source_requires_actual_boundary_correction": true,
+    "independent_Q_inverse_need_not_be_gauge": true,
+    "omitting_original_metric_shift_misses_defect": true,
+    "right_inverse_commutation_not_available": true,
+    "gauge_invariance_not_solution_independence": true
+  },
+  "overlap": {
+    "quotient_degree": 4,
+    "radial_TT_eigenvalue": "21K",
+    "pole_gap": "67736495*k**2/4439232512"
+  },
+  "evidence_kinds": {
+    "exact": "new radial extension, synchronized overlap and inverse defect, full six-row/cofactor fixtures and homogeneous response coefficients; introductory coefficient/source identities reused as supporting checks",
+    "universal": "regular Dirichlet uniqueness, local bounded factor inverses, distributional gauge duality, fixed-N smoothing and compact off-source detector proof in note",
+    "bookkeeping": "ordered right-inverse polynomial fixture and boundary normalization",
+    "not_claimed": "N-uniform radial cutoff, common physical domain, empirical response or native GU"
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2558-distributional-splitter-overlap-2026-11-05.md": "da1ea9c59dd9bd48ba2505fc414192cb9301e3dce8a63fa9bfa6df5397f2d381",
+    "tests/channel-swings/k2558_distributional_splitter_overlap_probe.py": "b0a90034ca3086514b4010ef5bf68b9d71cfc8de71f3623561e2aac0d5e44e69",
+    "explorations/conditional-build/k2552-localized-source-domain-2026-11-04.md": "f45ce693d63d8e438af1564575edf4898764130efe2210beb6cb1dd0ed638cc3",
+    "explorations/conditional-build/k2554-analytic-source-response-2026-11-05.md": "63d79eb9399f7dcdf28b0d442e88c0e2b421d4de10fb44c50b4f362706bec37f",
+    "explorations/conditional-build/k2556-distributional-source-response-2026-11-05.md": "925f8a61b49ec5c77c75f87359f8e20cff3fa0ff4de3e7ee6b30b1c298959781"
+  }
+}

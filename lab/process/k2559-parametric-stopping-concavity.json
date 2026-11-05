@@ -1,0 +1,92 @@
+{
+  "result": "K2559",
+  "multiplier_domain": "all finite lambda>=4/sqrt(3)",
+  "score_domain": "0<S<=1/2",
+  "checks": {
+    "negative_flow_generator_whole_domain": true,
+    "strict_generator_numerator_nonnegative_coefficients": true,
+    "strict_generator_numerator_not_zero": true,
+    "strict_generator_denominator_positive": true,
+    "strict_upper_score_edge": true,
+    "strict_lower_ribbon_upper_score_corner": true,
+    "strict_lower_ribbon_edge": true,
+    "zero_budget_original_slack": true,
+    "output_root_derivative_a": true,
+    "output_root_derivative_b": true,
+    "constant_output_generator_derivative": true,
+    "zero_score_output_root": true,
+    "continuous_initial_generator": true,
+    "critical_zero_score_threshold": true,
+    "cost_strict_derivative_identity": true,
+    "frontier_slope": true,
+    "frontier_second_derivative": true,
+    "original_law_generator_fixture_0": true,
+    "original_law_generator_fixture_1": true,
+    "small_budget_original_denominator": true,
+    "small_budget_second_coefficient": true,
+    "small_budget_third_coefficient": true,
+    "small_budget_inverse_linear_square": true,
+    "small_budget_inverse_quadratic": true,
+    "true_frontier_budget_coefficient": true
+  },
+  "contrary_controls": {
+    "zero_budget_partial_action_has_loss": true,
+    "global_all_root_generator_sign_false": true,
+    "input_and_output_roots_distinct": true,
+    "wrong_expected_cost_prefix": true,
+    "omitted_output_chain_term_rejected": true,
+    "omitted_prefix_changes_small_budget_cubic": true
+  },
+  "certificates": {
+    "negative_flow_generator": {
+      "domain": {
+        "r_lower": "9*b**2/100 + b*(-13/2 + 4*sqrt(3)) - 3 + 2*sqrt(3)",
+        "r_upper": "1",
+        "b_lower": "0",
+        "b_upper": "1/2"
+      },
+      "numerator_degree": [
+        9,
+        22
+      ],
+      "denominator_degree": [
+        10,
+        26
+      ],
+      "numerator_coefficients": 230,
+      "denominator_coefficients": 297,
+      "zero_numerator_coefficients": 24,
+      "coefficient_digest": "87efb3b1136daa1967f0db0b8921b4b8e548f15e51ef60c68e11e1d8bd8c29e7",
+      "independent_basis_reconstruction": true
+    }
+  },
+  "strictness": {
+    "factored_zero": "1-r",
+    "nonnegative_numerator_coefficients": 189,
+    "positive_numerator_coefficients": 188,
+    "positive_denominator_coefficients": 297,
+    "factored_numerator_degree": [
+      8,
+      20
+    ],
+    "zero_positions": [
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  "evidence_kinds": {
+    "exact": "new two-variable algebraic Bernstein generator certificate with independent basis reconstruction; implicit root and original-law cost derivatives",
+    "universal": "nonautonomous scalar-flow comparison, full-policy Bellman transfer, rigidity and constrained-frontier proof in note",
+    "not_claimed": "residual concavity in theta, full higher-budget frontier, physical law, external certification or GU prediction"
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2559-parametric-stopping-concavity-2026-11-05.md": "70f71e851feb0d8a59aa8bab26237754765cee412bc8bd86c7725ae07f82eb97",
+    "tests/channel-swings/k2559_parametric_stopping_concavity_probe.py": "587a5b5b0fbf5ff3cc0becef03cf1c5f315cf6f16a7476018654f70dbb31dbb1",
+    "explorations/conditional-build/k2553-global-stopping-certificate-2026-11-04.md": "7c6798a4d61c614b194559aa5891b20d4f992907387189bd4272f3280bd7e520",
+    "lab/process/k2553-global-stopping-certificate.json": "e581825e645be32c5a9306869aeb4ec6922a84de474825aa5fc016fab06e261f",
+    "explorations/conditional-build/k2557-parametric-stopping-support-2026-11-05.md": "4b5c9552397b3f109fb7019ade40be794e608eab6865ab8abcd7ae3bbef97c63",
+    "explorations/conditional-build/k2509-stopping-atom-certificate-2026-11-02.md": "cc81bb19995406be32f722591cd5cb09845887849e3c17ebd08716e750f5c170"
+  }
+}

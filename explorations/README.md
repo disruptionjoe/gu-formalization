@@ -7,6 +7,12 @@ updated_at: "2026-08-21"
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2558 distributional splitter descent](conditional-build/k2558-distributional-splitter-overlap-2026-11-05.md).
+- [K2559 global support and exact budget frontier](conditional-build/k2559-parametric-stopping-concavity-2026-11-05.md).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2556 distributional source response](conditional-build/k2556-distributional-source-response-2026-11-05.md).
 - [K2557 adaptive stopping rigidity](conditional-build/k2557-parametric-stopping-support-2026-11-05.md).
 
