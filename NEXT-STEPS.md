@@ -5,7 +5,10 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-05: LOCALIZED RESPONSE AND GLOBAL STOPPING CERTIFICATE.**
+> **2026-11-05: FINITE OBSERVATION AND ADAPTIVE NONATTAINMENT.**
+> Reuse K2566 actual local homogeneous family and exact detector-span criterion: finite calibration cannot select the entire response, but specified detectors in the response-functional span are fixed. A stated finite-mode norm gives a sharp interval, not physical preparation; next construct an independently justified domain/norm or test a specified detector. Reuse K2567 nonattainment for0<lambda<=98/51 and positive final relaxed continuum tail, and K2559 attainment forlambda>=4/sqrt3. Do not seek a finite exact optimizer inside the certified nonattainment range. Next characterize maximizing sequences or the intervening transition with an all-domain proof; retain K2565 value bracket and finite lower witness. Empirical cosmology/common-carrier, source-owned native quotient and observation debts persist; no GU verdict change.
+
+> **Historical predecessor: 2026-11-05: LOCALIZED RESPONSE AND GLOBAL STOPPING CERTIFICATE.**
 > Reuse K2564 actual compact-radial times point-source existence, its explicit supplied completion and local splitter consistency. Do not repeat eigenfamily synthesis or mistake a self-adjoint mathematical preparation for physical selection: the same source permits different conserved source-disjoint readings until homogeneous data are constrained. K2565 closes the prior 1/2500 global stopping precision target by a direct all-policy certificate and supplies exact-budget and occupation consequences. Retain the 120-leaf certificate and improved 41-stage finite lower witness; the additional-atom scout is nonexhaustive, so next prove or refute structural one-atom/optimal-tail versus additional-atom improvement or a useful multiplier family, without claiming exact attainment. Empirical cosmology/common-carrier inputs, native quotient, observation and physical-preparation debts remain separate; no GU verdict change.
 
 > **Historical predecessor: 2026-11-05: UNIFORM RESPONSE AND GLOBAL HYBRID APPROXIMATION.**

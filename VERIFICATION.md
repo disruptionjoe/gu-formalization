@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2566--K2567: Finite observation preparation and adaptive nonattainment (2026-11-05)
+
+K2566 proves infinite-dimensional local metric-gauge-distinct response freedom at the actual localized source after any finite set of conserved calibrations. It gives the exact fixed-detector span criterion and a sharp residual observation interval under an explicitly supplied finite-mode norm bound. K2567 certifies that no original adaptive policy attains the stopping dual supremum for every positive multiplier at most98/51 and every score at most1/2. Every optimal terminal atom admits a better two-finite-atom split; maximizing relaxed finite-atom hybrids require a positive final continuum tail. The prior19/10 numerical bracket remains valid; no exact intermediate value, physical preparation, global boundary theorem or native GU verdict follows. Source polarities, ledger0.263 and canon are unchanged.
+
+- [K2566](explorations/conditional-build/k2566-finite-observation-preparation-2026-11-05.md).
+- [K2567](explorations/conditional-build/k2567-stopping-family-structure-2026-11-05.md).
+
+Independent geometry/PDE and probability specialists plus a distinct integrated hostile review found no substantive mathematical defects. Universal domain, detector and adaptive-law proofs, exact whole-ribbon Bernstein certificates, finite supporting fixtures and reporting checks remain distinct; no external-expert, proof-assistant or remote CI certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2564--K2565: Localized distributional response and global stopping certificate (2026-11-05)
 
 K2564 constructs a positive elliptic companion on an explicit completion of the actual curved B factor, admitting compact distributions and the original B point source through orthogonal spectral synthesis. The full compact radial source now has all selected response fields; local synchronized splitter changes preserve compact conserved observations, while homogeneous freedom still prevents a unique readout without preparation data. K2565 certifies the full original adaptive stopping value at S=1/2 and multiplier 19/10 between 0.711079567311 and 0.711321968356 using 120 exact Bernstein leaves and a new rational 41-stage lower witness, bypassing the enormous hybrid grid. Exact-budget and witness-relative terminal-loss bounds follow; a nonexhaustive two-atom scout finds no improvement but supplies no structural classification. Source polarities, ledger 0.263, canon and native GU judgments remain unchanged.

@@ -7,6 +7,12 @@ updated_at: "2026-08-23"
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2566 report](k2566-finite-observation-preparation.json).
+- [K2567 report](k2567-stopping-family-structure.json).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2564 report](k2564-localized-spectral-response.json).
 - [K2565 report](k2565-bellman-supersolution.json).
 

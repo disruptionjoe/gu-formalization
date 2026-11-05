@@ -2,6 +2,12 @@
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2566 conserved calibration probe](k2566_finite_observation_preparation_probe.py).
+- [K2567 whole-ribbon certificate probe](k2567_stopping_family_structure_probe.py).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2564 elliptic companion probe](k2564_localized_spectral_response_probe.py).
 - [K2565 Bernstein certificate probe](k2565_bellman_supersolution_probe.py).
 
