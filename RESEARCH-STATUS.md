@@ -6,6 +6,18 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2560--K2561: Compact radial response and high-budget stopping (2026-11-05)
+
+K2560 constructs full selected-system responses through the actual compact radial pressure cutoff for supplied bounded B eigenfamilies, with explicit regular-center bounds, continuous test observations and synchronized splitter descent away from two poles. Its center-zero scalar inverse grows exponentially at negative spectral parameters; a Dirichlet alternative repairs that end but has an exact positive-source resonance and resolvent pole. These are scoped inverse limits, not full-system nonexistence. K2561 proves the high-budget adaptive stopping supremum for 0<lambda<=4/5, nonattainment, sharp adaptive trial complexity and saturation sensitivity. An exact 21-stage rational hybrid at score1/2 and multiplier19/10 beats both the global one-stage optimum and the named fluid candidate, and beats every one-stage mixture at its exact budget by more than1/1000. The full intermediate frontier, compact-profile B point source and physical preparation remain open; source polarities, ledger0.263, canon and native GU verdicts are unchanged.
+
+- [K2560](explorations/conditional-build/k2560-compact-source-response-2026-11-05.md).
+- [K2561](explorations/conditional-build/k2561-higher-budget-stopping-2026-11-05.md).
+
+Independent geometry/PDE and probability specialists plus a distinct integrated hostile review found no substantive mathematical defects after exact-control and evidence-label repairs. Universal radial, flow and expectation proofs, exact algebra and finite supporting fixtures remain distinct; no external-expert, proof-assistant or remote CI certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2558--K2559: Distributional descent and global stopping frontier (2026-11-05)
 
 K2558 constructs coordinated B-distributional responses using the exact regular Dirichlet radial splitter for every finite polynomial pressure, including a B point source. Regular splitter changes are pure original-metric gauge under the synchronized prescription; an exact inverse-mismatch formula and a full homogeneous construction show source-disjoint conserved observations still vary at fixed source. Compact radial synthesis and physical boundary selection remain open. K2559 proves global original-law one-stage support for every finite multiplier at least 4/sqrt(3) by a certified decreasing generator and scalar flow comparison. It closes the exact adaptive budget frontier from zero through the critical contact, qualitative optimizer rigidity, strict concavity and small-budget square-root sensitivity. The higher-budget frontier and uniform radial/domain bounds remain open. Source polarities, ledger0.263, canon and native GU verdicts are unchanged.

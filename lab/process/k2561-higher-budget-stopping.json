@@ -1,0 +1,184 @@
+{
+  "result": "K2561",
+  "multiplier_domain": "0<lambda<=4/5",
+  "score_domain": "0<S<=1/2",
+  "checks": {
+    "constant_output_chain_derivative": true,
+    "output_root_decreases_with_a": true,
+    "inverse_basis_increasing_generator_numerator": true,
+    "inverse_basis_increasing_generator_denominator": true,
+    "increasing_generator_positive_numerator": true,
+    "increasing_generator_positive_denominator": true,
+    "uniform_generator_increment": true,
+    "logarithmic_root_barrier_identity": true,
+    "inverse_basis_root_barrier_numerator": true,
+    "inverse_basis_root_barrier_denominator": true,
+    "root_barrier_positive_numerator": true,
+    "root_barrier_positive_denominator": true,
+    "boundary_generator_derivative": true,
+    "boundary_minimum": true,
+    "inverse_basis_boundary_generator_increases_numerator": true,
+    "inverse_basis_boundary_generator_increases_denominator": true,
+    "boundary_generator_increases_positive_numerator": true,
+    "boundary_generator_increases_positive_denominator": true,
+    "unique_branch_crossing_derivative": true,
+    "inverse_basis_boundary_threshold_increases_numerator": true,
+    "inverse_basis_boundary_threshold_increases_denominator": true,
+    "boundary_threshold_increases_positive_numerator": true,
+    "boundary_threshold_increases_positive_denominator": true,
+    "fluid_minimizer_stationarity": true,
+    "fluid_minimum_value": true,
+    "fluid_derivative_equals_ratio": true,
+    "fluid_boundary_C1": true,
+    "valid_input_floor": true,
+    "integrated_clock_derivative": true,
+    "clock_branch_match": true,
+    "budget_derivative_cancellation": true,
+    "constrained_marginal": true,
+    "strict_curvature_formula": true,
+    "original_prefix_affine_composition": true,
+    "finite_dual_error_identity": true,
+    "saturation_q_coefficients": true,
+    "saturation_theta_coefficients": true,
+    "saturation_budget_coefficients": true,
+    "frontier_three_halves_coefficient": true,
+    "square_root_conversion": true,
+    "marginal_square_root_conversion": true,
+    "finite_hybrid_original_dual_lower": true,
+    "global_one_stage_optimizer_bracket": true,
+    "global_one_stage_upper_below_hybrid": true,
+    "fluid_clock_root_upper_bound": true,
+    "fluid_value_upper_bound": true,
+    "hybrid_two_candidate_separation": true,
+    "hybrid_same_budget_one_stage_mixture_margin": true,
+    "finite_hybrid_total_score": true,
+    "finite_hybrid_geometric_prefix": true
+  },
+  "contrary_controls": {
+    "wrong_cost_prefix_rejected": true,
+    "wrong_composition_order_rejected": true,
+    "input_root_not_output_root": true,
+    "positive_generator_not_global": true,
+    "boundary_minimizer_cannot_be_omitted": true,
+    "finite_zero_failure_stage_not_fluid_exact": true,
+    "intermediate_output_criterion_extension_rejected": true
+  },
+  "certificates": {
+    "increasing_generator": {
+      "numerator_degree": [
+        9,
+        4
+      ],
+      "denominator_degree": [
+        10,
+        6
+      ],
+      "numerator_coefficients": 50,
+      "denominator_coefficients": 77,
+      "minimum_numerator": "78360951/7812500",
+      "maximum_denominator": "87808/125",
+      "minimum_denominator": "861/16",
+      "numerator_sha256": "b2fb7dda0cebca12ae15d8f51765c34d36edc0de86d05e74d866e26dbe5dd6f7",
+      "denominator_sha256": "d0e82807c636f576895341167bf7cfd23a867d8853a20a10bf38ffb1c1aff042"
+    },
+    "root_barrier": {
+      "numerator_degree": [
+        2
+      ],
+      "denominator_degree": [
+        2
+      ],
+      "numerator_coefficients": 3,
+      "denominator_coefficients": 3,
+      "minimum_numerator": "631/2",
+      "maximum_denominator": "9800",
+      "minimum_denominator": "17381/4",
+      "numerator_sha256": "4f81a203d655ae3bac648c725f308d720929e48013e91f1f52d717406c2496bf",
+      "denominator_sha256": "2b6c9aa9e2761cafea37e0e886be9566300a58b0376e4d55285a1c064155a4c6"
+    },
+    "boundary_generator_increases": {
+      "numerator_degree": [
+        2
+      ],
+      "denominator_degree": [
+        6
+      ],
+      "numerator_coefficients": 3,
+      "denominator_coefficients": 7,
+      "minimum_numerator": "158",
+      "maximum_denominator": "512",
+      "minimum_denominator": "9261/64",
+      "numerator_sha256": "fdb97c27d96c83fcf30f369f10defcfc29c57076e9dc359c0323e987548026b7",
+      "denominator_sha256": "92768f967f89228df12efea4004d5c2d222b97b68bdb7d9e42711f3042042fcc"
+    },
+    "boundary_threshold_increases": {
+      "numerator_degree": [
+        2
+      ],
+      "denominator_degree": [
+        4
+      ],
+      "numerator_coefficients": 3,
+      "denominator_coefficients": 5,
+      "minimum_numerator": "19",
+      "maximum_denominator": "64",
+      "minimum_denominator": "441/16",
+      "numerator_sha256": "8968e0d58152563fbb4aab25ac3b08a0b6e3d59bd4a2d8e7355689c54dd73c41",
+      "denominator_sha256": "a939f0720566ab16b462467c0806b1047a6112de96229a363341a67bb9918c5e"
+    },
+    "intermediate_output_counterexample": {
+      "a": "7/20",
+      "score": "1/2",
+      "x": "9/782",
+      "output_lower": "261444772980873/591607255275232",
+      "output_upper": "20895522552/47283188561",
+      "generator": "91680/309281",
+      "squared_difference_lower_endpoint": "-12883279505305109446082979375/349999144494293521092072653824",
+      "squared_difference_upper_endpoint": "-82294956257367123744/2235699920495081250721",
+      "claim": "G_score(v)<q(v) at exact logarithmic output v in(sqrt(3)/4,1); criterion failure only, not complete optimal phase"
+    },
+    "finite_hybrid_successor": {
+      "multiplier": "19/10",
+      "score": "1/2",
+      "first_action": [
+        "349/2000",
+        "3/10"
+      ],
+      "tail_action": [
+        "21/5000",
+        "1/100"
+      ],
+      "tail_stages": 20,
+      "dual_interval": [
+        "711020048691/1000000000000",
+        "177755012173/250000000000"
+      ],
+      "exact_budget_interval": [
+        "37866038451/1000000000000",
+        "9466509613/250000000000"
+      ],
+      "same_budget_one_stage_mixture_margin": "1/1000",
+      "global_one_stage_upper": "71/100",
+      "fluid_candidate_upper": "3553/5000",
+      "strict_margin_over_both": "1/2500",
+      "clock_difference_upper": [
+        "15614261397/31250000000",
+        "99931272941/200000000000"
+      ],
+      "claim": "explicit finite policy superiority to both named candidates; no globally optimal hybrid or complete phase"
+    }
+  },
+  "generator_increment": "78360951/2744000000",
+  "evidence_kinds": {
+    "exact": "rational whole-domain Bernstein certificate and independent inversion; clock, original prefix accounting, saturation series",
+    "universal": "ODE comparison, original-policy telescope, finite-stage approximation, exact-budget repair and nonattainment proved in note",
+    "not_claimed": "full intermediate frontier, physical law, external certification, native GU"
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2561-higher-budget-stopping-2026-11-05.md": "adce2808277a9206b573a88c0a71a3bf78dff1e32306780107efb2eeb5c0a698",
+    "tests/channel-swings/k2561_higher_budget_stopping_probe.py": "a8c44086802967a9b37629f494799bc0e537d8f2816d96a9d425278624f0a365",
+    "explorations/conditional-build/k2559-parametric-stopping-concavity-2026-11-05.md": "70f71e851feb0d8a59aa8bab26237754765cee412bc8bd86c7725ae07f82eb97",
+    "explorations/conditional-build/k2557-parametric-stopping-support-2026-11-05.md": "4b5c9552397b3f109fb7019ade40be794e608eab6865ab8abcd7ae3bbef97c63",
+    "explorations/conditional-build/k2485-constrained-stopping-frontier-2026-11-01.md": "a253dd93ac94bdfe28fcb703c2c9cff88c45614dadcb44a0b6c69384bdb333a2"
+  }
+}

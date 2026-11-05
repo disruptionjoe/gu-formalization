@@ -5,7 +5,10 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-05: DISTRIBUTIONAL DESCENT AND GLOBAL STOPPING FRONTIER.**
+> **2026-11-05: COMPACT RADIAL RESPONSE AND HIGH-BUDGET STOPPING.**
+> Reuse K2560 full radial-cutoff and bounded-family construction. The center-zero scalar inverse has exponential negative-parameter growth; the regular Dirichlet alternative repairs that end but has a positive ground-state pole. A mixed or parameter-dependent preparation is a concrete successor, requiring uniform bounds for all four response equations and synchronized overlap, or a controlled full-response cancellation/direct-domain construction. Neither tested failure proves all-domain nonexistence. K2561 closes the high-budget diffuse supremum and its adaptive complexity; the exact21-stage witness atS=1/2,lambda=19/10 proves an intermediate hybrid can beat both named candidates and all one-stage mixtures at its exact budget. Next derive a genuine hybrid Bellman upper bound/order rule, not another unconstrained grid or extrapolation of either sign certificate. Keep K2559 low-budget atoms, full point-source and physical-boundary debts, and independently specified cosmology/common-carrier alternatives; no GU verdict changes.
+
+> **Historical predecessor: 2026-11-05: DISTRIBUTIONAL DESCENT AND GLOBAL STOPPING FRONTIER.**
 > Reuse K2558 synchronized distributional overlap and exact Dirichlet splitter for finite polynomial pressure; do not repeat analytic or fixed-mode existence. The actual compact radial profile requires N-uniform inverse bounds or a direct domain construction. The explicit homogeneous source-disjoint detector proves that splitter consistency alone cannot select a response; test an independently justified boundary/preparation rule. K2559 closes ALL finite lambda>=4/sqrt(3), not merely the previous gap interval, and the exact adaptive budget segment including zero-cost rigidity and square-root sensitivity. Next stopping work must address the higher-budget fixed-score phase or genuinely parameter-uniform quantitative stability; new root ribbons for the closed interval are redundant. Compare those proof attempts against independently grounded cosmology/common-carrier inputs. No native GU or physical-domain acceptance is implied.
 
 > **Historical predecessor: 2026-11-05: DISTRIBUTIONAL RESPONSE AND ADAPTIVE RIGIDITY.**

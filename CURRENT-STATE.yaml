@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 193d9c1b8164a02be02b48389f0592e71f1f455f
+revision_basis: 4116771e0cba3b269cb609700cfe5a244a922514
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,19 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2560 constructs full selected-system responses through the actual compact radial pressure
+    cutoff for supplied bounded B eigenfamilies, with explicit regular-center bounds, continuous
+    test observations and synchronized splitter descent away from two poles. Its center-zero
+    scalar inverse grows exponentially at negative spectral parameters; a Dirichlet alternative
+    repairs that end but has an exact positive-source resonance and resolvent pole. These are
+    scoped inverse limits, not full-system nonexistence. K2561 proves the high-budget adaptive
+    stopping supremum for 0<lambda<=4/5, nonattainment, sharp adaptive trial complexity and
+    saturation sensitivity. An exact 21-stage rational hybrid at score1/2 and multiplier19/10
+    beats both the global one-stage optimum and the named fluid candidate, and beats every
+    one-stage mixture at its exact budget by more than1/1000. The full intermediate frontier,
+    compact-profile B point source and physical preparation remain open; source polarities,
+    ledger0.263, canon and native GU verdicts are unchanged.
+    Historical predecessor (not live):
     K2558 constructs coordinated B-distributional responses using the exact regular Dirichlet
     radial splitter for every finite polynomial pressure, including a B point source. Regular
     splitter changes are pure original-metric gauge under the synchronized prescription; an
@@ -18473,6 +18486,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2560-compact-source-response-2026-11-05.md
+  - explorations/conditional-build/k2561-higher-budget-stopping-2026-11-05.md
+  - lab/process/k2560-compact-source-response.json
+  - lab/process/k2561-higher-budget-stopping.json
   - explorations/conditional-build/k2558-distributional-splitter-overlap-2026-11-05.md
   - explorations/conditional-build/k2559-parametric-stopping-concavity-2026-11-05.md
   - lab/process/k2558-distributional-splitter-overlap.json
@@ -21046,6 +21063,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can a compatible parameter-dependent inverse answer the actual compact-profile B point source,
+  and what certified hybrid Bellman value fills the stopping-budget gap now known to exceed all
+  one-stage mixtures?
+  Historical predecessor (not live):
   Which boundary or preparation condition can select an original-metric response to the actual
   compact source, and what replaces the one-stage stopping frontier above the now certified
   critical-contact budget?
@@ -25497,6 +25518,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Reuse K2560 full radial-cutoff and bounded-family construction. The center-zero scalar inverse
+  has exponential negative-parameter growth; the regular Dirichlet alternative repairs that end
+  but has a positive ground-state pole. A mixed or parameter-dependent preparation is a concrete
+  successor, requiring uniform bounds for all four response equations and synchronized overlap,
+  or a controlled full-response cancellation/direct-domain construction. Neither tested failure
+  proves all-domain nonexistence. K2561 closes the high-budget diffuse supremum and its adaptive
+  complexity; the exact21-stage witness atS=1/2,lambda=19/10 proves an intermediate hybrid can
+  beat both named candidates and all one-stage mixtures at its exact budget. Next derive a
+  genuine hybrid Bellman upper bound/order rule, not another unconstrained grid or extrapolation
+  of either sign certificate. Keep K2559 low-budget atoms, full point-source and
+  physical-boundary debts, and independently specified cosmology/common-carrier alternatives; no
+  GU verdict changes.
+  Historical predecessor (not live):
   Reuse K2558 synchronized distributional overlap and exact Dirichlet splitter for finite
   polynomial pressure; do not repeat analytic or fixed-mode existence. The actual compact radial
   profile requires N-uniform inverse bounds or a direct domain construction. The explicit

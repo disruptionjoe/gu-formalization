@@ -1,0 +1,80 @@
+{
+  "result": "K2560",
+  "checks": {
+    "fixed_B_radial_degree_five": true,
+    "fixed_B_leading_independent_of_nu": true,
+    "power_majorant_ratio": true,
+    "weight4_actual_margin": true,
+    "Dirichlet_sup_Neumann_margin": true,
+    "weight_dimension_monotonicity": true,
+    "flat_Volterra_equation_2_0": true,
+    "flat_Volterra_equation_2_1": true,
+    "flat_Volterra_equation_2_4": true,
+    "flat_Volterra_equation_4_0": true,
+    "flat_Volterra_equation_4_1": true,
+    "flat_Volterra_equation_4_4": true,
+    "curved_Volterra_flux": true,
+    "H_bound_factorial_comparison": true,
+    "H_series_coefficients": true,
+    "all_scalar_Einstein_source_rows": true,
+    "actual_full_radial_determinant_0": true,
+    "actual_full_radial_determinant_1/3": true,
+    "direct_fifth_order_regular_jet_fixture": true,
+    "five_potential_center_jets": true,
+    "actual_pressure_conservation": true,
+    "all_three_radial_forced_equations": true,
+    "full_overlap_eigenline": true,
+    "two_distinct_overlap_poles": true,
+    "original_metric_overlap_AA": true,
+    "original_metric_overlap_AB": true,
+    "B_delta_has_nonzero_principal_derivative": true,
+    "finite_spectral_annihilator_delta_control": true,
+    "flat_positive_mass_resolvent": true,
+    "flat_growth_center_value": true,
+    "flat_growth_center_derivative": true,
+    "curved_weight_ratio_monotonic_identity": true,
+    "flat_growth_series_coefficients": true,
+    "Dirichlet_inverse_Hilbert_Schmidt_bound": true,
+    "Dirichlet_resonance_strictly_positive": true,
+    "negative_parameter_coercive_ground_fixture": true,
+    "flat_regular_Dirichlet_forced_equation": true,
+    "flat_Dirichlet_outer_value": true,
+    "Dirichlet_ground_pole_identity": true
+  },
+  "contrary_controls": {
+    "dropping_actual_mixed_term_changes_radial_equation": true,
+    "wrong_Volterra_sign_changes_forcing": true,
+    "singular_center_branch_has_nonzero_flux": true,
+    "omitting_fifth_factor_leaves_wrong_source": true,
+    "omit_required_pressure_nonconserved": true,
+    "flat_TT_curvature_shift_rejected": true,
+    "literal_metric_equality_not_descent": true,
+    "zero_parameter_inverse_is_not_positive_mass_inverse": true,
+    "positive_ground_resonance_forcing_incompatible": true,
+    "center_zero_is_not_Dirichlet": true
+  },
+  "bounds": {
+    "volterra_power": "2^n R^(2n)/(2n+1)!",
+    "resolvent": "H_R(q)<=R^2 exp(sqrt(2q)R)/3",
+    "scalar_displacement": "abs(L)^-1 H_R(Z(V))^5 norm(chi_D)",
+    "central_potential_jets": 5,
+    "overlap_poles": [
+      "-mu",
+      "-5K"
+    ]
+  },
+  "evidence_kinds": {
+    "exact": "Volterra coefficients/flux, new fixed-B full determinant checks, independent Einstein source column, central jet fixture, overlap and point-source controls, positive-mass growth formula, Dirichlet compact-kernel and alternate-boundary fixtures",
+    "supporting": "declared radial-response substitutions check signs/accounting; they are not independent inverse verification",
+    "universal": "Volterra convergence and uniqueness, regularity, compact-profile response, bounded spectral superposition and test continuity proved in note; finite principal/jet fixtures do not replace these proofs",
+    "reused": "full K2552 curved TT/cofactor intertwinings and K2554 exact determinant coefficient evidence",
+    "not_claimed": "actual compact profile times delta_B, arbitrary spectral synthesis, physical preparation, full-system uniqueness or native GU"
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2560-compact-source-response-2026-11-05.md": "af3485ff61c102bbefb45e5b933eef10a8a3fabfc039a9e5840f78558d2da3b1",
+    "tests/channel-swings/k2560_compact_source_response_probe.py": "3940c14a0b56269eb74291d70367886f8fc6d2cdb0110c8aebe3fb2969d33454",
+    "lab/process/k2554-analytic-source-response.json": "6baae61e9e3deb87efa3d29db60994378d7278fb44194e20387710737500a8fa",
+    "explorations/conditional-build/k2552-localized-source-domain-2026-11-04.md": "f45ce693d63d8e438af1564575edf4898764130efe2210beb6cb1dd0ed638cc3",
+    "explorations/conditional-build/k2558-distributional-splitter-overlap-2026-11-05.md": "da1ea9c59dd9bd48ba2505fc414192cb9301e3dce8a63fa9bfa6df5397f2d381"
+  }
+}

@@ -7,6 +7,12 @@ updated_at: "2026-08-23"
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2560 report](k2560-compact-source-response.json).
+- [K2561 report](k2561-higher-budget-stopping.json).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2558 report](k2558-distributional-splitter-overlap.json).
 - [K2559 report](k2559-parametric-stopping-concavity.json).
 

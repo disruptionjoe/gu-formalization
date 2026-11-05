@@ -2,6 +2,12 @@
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2560 regular-center response probe](k2560_compact_source_response_probe.py).
+- [K2561 high-budget generator certificate](k2561_higher_budget_stopping_probe.py).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2558 overlap and observation probe](k2558_distributional_splitter_overlap_probe.py).
 - [K2559 decreasing-generator certificate](k2559_parametric_stopping_concavity_probe.py).
 
