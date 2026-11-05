@@ -1,0 +1,60 @@
+{
+  "result": "K2550",
+  "checks": {
+    "original_mass_e": true,
+    "original_mass_mu": true,
+    "original_residue_E": true,
+    "original_residue_T": true,
+    "distinct_positive_masses": true,
+    "weight_lower_half": true,
+    "resolvent_gap": true,
+    "residue_noncancellation": true,
+    "ordered_residue_signs": true,
+    "warped_radial_curvature": true,
+    "warped_tangential_curvature": true,
+    "weighted_scalar_operator": true,
+    "resolvent_identity": true,
+    "Einstein_forced_equation": true,
+    "tensor_forced_equation": true,
+    "original_reconstruction": true,
+    "off_source_with_contact_retained": true,
+    "original_fourth_order_numerator": true,
+    "green_flux_jump": true,
+    "separated_green_bound": true,
+    "psi_difference_identity": true,
+    "metric_fixed_boundary": true,
+    "homogeneous_Einstein_equation": true,
+    "homogeneous_tensor_equation": true,
+    "boundary_change_observable": true,
+    "negative_tangential_principal_energy": true
+  },
+  "contrary_controls": {
+    "drop_displacement_changes_forced_response": true,
+    "wrong_sign_inverse_fails_source": true,
+    "equal_pole_substitution_fails_tensor": true,
+    "metric_boundary_is_weaker": true,
+    "full_mode_positive_form_false": true
+  },
+  "constants": {
+    "K_over_kappa2": "35/3624192",
+    "e_over_kappa2": "175/3624192",
+    "mu_over_kappa2": "611557655/39953092608",
+    "weight_lower": "1208029/1208064",
+    "spectral_lower": "1/8",
+    "resolvent_norm_coefficient": "64/7",
+    "original_residue_sum": "429/106",
+    "separated_kernel_coefficient": "3/64"
+  },
+  "evidence_kinds": {
+    "exact": "coefficient, warped-curvature, forced-equation, Green-jump and boundary-change identities",
+    "universal": "weighted energy, Neumann positivity, prescribed-source reconstruction, regularity, off-source observation and unrestricted-mode counterexample proved in note",
+    "not_claimed": "full original-action boundary self-adjointness, arbitrary localized-source solution, physical positivity, native GU"
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2550-common-domain-tensor-response-2026-11-04.md": "198b930ec872353d261120568882fa1ef8188ed95b69e628e3b1ec027b286e86",
+    "tests/channel-swings/k2550_common_domain_tensor_response_probe.py": "1dc739e756c6010cce46238973f035c5d275a83a6600725e23f70a5b34f88fe0",
+    "explorations/conditional-build/k2544-constrained-tensor-response-2026-11-04.md": "d89c6d0a254d3461dbdd8573af4ab93327131ae105713f523ab288ddb781ad42",
+    "lab/process/k2544-constrained-tensor-response.json": "104169a807ed8471c034ac06f3c42e56c82a16dfbaf8bdf7924ab7614448df27",
+    "explorations/conditional-build/k2548-compact-coupled-metric-detectors-2026-11-04.md": "99bba231bf1c046e600674f62578cc16dcbeea5644ba323a02eb66bb69c5ac8c"
+  }
+}

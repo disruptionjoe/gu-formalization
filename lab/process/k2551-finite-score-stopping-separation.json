@@ -1,0 +1,84 @@
+{
+  "result": "K2551",
+  "global_method_limit": {
+    "lambda": "4sqrt(3)/3",
+    "S": "1/2",
+    "b": "99/200",
+    "one_stage_root": [
+      "13655516700103698508854317/38685626227668133590597632",
+      "27311033400207397017708635/77371252455336267181195264"
+    ],
+    "residual_root": [
+      "2572360384668068456649/7378697629483820646400",
+      "643090096167017114187/1844674407370955161600"
+    ],
+    "remaining_score_root": [
+      "9018503013644854761980509/3868562622766813359059763200",
+      "18037006027289709523961019/7737125245533626718119526400"
+    ],
+    "residual_second_derivative": "[0.0443395041214579 +/- 6.32e-17]",
+    "scope": "rejects old uniform-concavity proof extension only; does not exhibit better policy or refute global optimality"
+  },
+  "checks": {
+    "Bregman_exact": true,
+    "Bregman_lower_constant": true,
+    "J_identity": true,
+    "main_original_coordinate_Taylor": true,
+    "product_second_order": true,
+    "unequal_ratio_original_quadratic": true,
+    "arbitrary_partition_beta_identity": true,
+    "strict_beta_lower": true,
+    "J_endpoint_signs": true,
+    "prefix_suffix_cancellation": true,
+    "prefix_linear_coefficient": true,
+    "completed_square": true,
+    "Cauchy_stage_count_three": true,
+    "onset_bracket_signs": true,
+    "onset_ratio_box": true,
+    "alpha_positive": true,
+    "beta_strict_gap": true,
+    "J_negative": true,
+    "actual_split_preserves_success": true,
+    "actual_split_admissible": true,
+    "actual_split_strict_cost": true
+  },
+  "contrary_controls": {
+    "additive_hazard_not_same_success": true,
+    "unweighted_cost_not_original": true,
+    "ratio_penalty_cannot_be_omitted": true,
+    "drop_survival_changes_quadratic": true,
+    "fixed_count_cloud_has_extra_cost": true,
+    "all_zero_tails_no_strict_gain": true,
+    "global_critical_concavity_extension_false": true
+  },
+  "onset": {
+    "d_interval": [
+      "2439079944995437009836777/15111572745182864683827200",
+      "19512639559963496078694217/120892581961462917470617600"
+    ],
+    "d_ball": "[0.16140477143737045070484362 +/- 7.70e-27]",
+    "ratio": "[0.4314254271830585804705910 +/- 5.70e-26]",
+    "alpha": "[0.459732684393131577960020 +/- 5.05e-25]",
+    "beta_infinity": "[0.082722468315035495285696 +/- 2.59e-25]",
+    "Gamma": "[0.63874466455233709940393 +/- 1.73e-24]"
+  },
+  "fragmentation_control": {
+    "old_cost": "[0.000534244840127658220603347686038728591428473898301052763 +/- 8.82e-58]",
+    "new_cost": "[0.00053413497202119876446771869482319979508982300250840400 +/- 4.32e-57]",
+    "gap": "[1.0986810645945613562899121552879633865089579264876e-7 +/- 2.12e-57]"
+  },
+  "evidence_kinds": {
+    "exact": "original-cost polynomial expansions, Bregman/beta/prefix identities and algebraic deficit controls",
+    "interval": "inherited root bracket/coefficient signs and actual finite split cost",
+    "universal": "stage-independent remainders, localization, sharp local infimum and finite nonattainment proved in note",
+    "not_claimed": "explicit validity radius, remote/global optimum, cross-success mixtures, native GU"
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2551-finite-score-stopping-separation-2026-11-04.md": "5209a98b6cc981576da6426bbe78c0c6104b2544be890fd8555769231342d0b1",
+    "tests/channel-swings/k2551_finite_score_stopping_separation_probe.py": "6cfbb33b58fec3f4eb26dcbe9f77797d0dbc5659bc73010737ccbb5e98f8af0d",
+    "explorations/conditional-build/k2503-stopping-instability-boundary-2026-11-02.md": "580941964a5a3981b7a33486a151a4b0c21744ceb1255c254b451f80f77f66d4",
+    "lab/process/k2505-stopping-satellite-hierarchy.json": "3b5ce7a13e7d716f2c10d59b77cbb132eeb5ec5b68932619f649428402bb1a5c",
+    "explorations/conditional-build/k2507-stopping-optimal-hybrid-tail-2026-11-02.md": "ae4ec04677a48010171f22650efe75096cf96c968846cc57daca8763d3c4d48d",
+    "explorations/conditional-build/k2549-uniform-nearcritical-stopping-bound-2026-11-04.md": "9211a9b837cddfc6468387cc94bac1193ef7791deb6e4f28389c2b992a2b357e"
+  }
+}

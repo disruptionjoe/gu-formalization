@@ -5,7 +5,11 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-04: FULL COUPLED CONTACT AND UNIFORM STOPPING.**
+> **2026-11-04: COMMON DOMAIN AND UNIFORM LOCAL ONSET.**
+> Reuse K2550 prescribed-source sector response and metric-boundary insufficiency; the next source-facing construction must retain actual radial-pressure source support, all tangential modes and justified displacement/boundary data. A further one-coordinate profile or compact contact filter cannot settle that domain. K2551 closes variable-count local fixed-score onset and finite nonattainment; the remaining stopping question is a global Bellman/exchange bound or certified full-class value that treats remote multiple atoms and different-success mixtures. The old uniform-concavity extension fails at the actual critical-multiplier residual; use a genuinely different estimate. Prepared cosmology, physical common-carrier calibration, native Met(X) and interacting quotient debts retain their prior ceilings.
+
+
+> **Historical predecessor: 2026-11-04: FULL COUPLED CONTACT AND UNIFORM STOPPING.**
 > Reuse K2548 full coupled compact adjoint cancellation and actual-source contact sensitivity; further contact filters cannot supply source-disjoint propagation. Next construct a justified common Einstein/tensor domain with original readout, or a physical coupling/observation bridge, retaining the conditional product versus native Met(X) distinction. K2549 closes the all-stage fifth-order and shrinking-tube phase questions, including growing satellite counts; the finite-stage compression bound supplies a horizon error rate but still needs explicit constants, a validity radius and continuous-control discretization for a numerical certificate, not another fixed-stage Taylor coefficient. No infinite-policy attainment or arbitrary-score global phase follows. Prepared cosmology closure, empirical/common-carrier calibration and all source/ledger debts remain.
 
 

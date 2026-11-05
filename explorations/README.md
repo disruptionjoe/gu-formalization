@@ -7,6 +7,12 @@ updated_at: "2026-08-21"
 
 ## Latest conditional constructions (2026-11-04)
 
+- [K2550: prescribed source, common domain and boundary sensitivity](conditional-build/k2550-common-domain-tensor-response-2026-11-04.md).
+- [K2551: uniform local onset and finite nonattainment](conditional-build/k2551-finite-score-stopping-separation-2026-11-04.md).
+
+
+## Latest conditional constructions (2026-11-04)
+
 - [K2548: compact full coupled metric contact detectors](conditional-build/k2548-compact-coupled-metric-detectors-2026-11-04.md).
 - [K2549: uniform nearcritical value, phase and satellite count](conditional-build/k2549-uniform-nearcritical-stopping-bound-2026-11-04.md).
 

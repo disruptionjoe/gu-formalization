@@ -7,6 +7,12 @@ updated_at: "2026-08-23"
 
 ## Latest conditional constructions (2026-11-04)
 
+- [K2550 report](k2550-common-domain-tensor-response.json).
+- [K2551 report](k2551-finite-score-stopping-separation.json).
+
+
+## Latest conditional constructions (2026-11-04)
+
 - [K2548 report](k2548-compact-coupled-metric-detectors.json).
 - [K2549 report](k2549-uniform-nearcritical-stopping-bound.json).
 

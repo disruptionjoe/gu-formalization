@@ -6,6 +6,18 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2550--K2551: Common-domain response and uniform local stopping onset (2026-11-04)
+
+K2550 constructs a common curved interval domain for prescribed TT sources, with a nonzero source-disjoint original-metric observation for compact nonnegative forcing, quantitative response bounds and exact boundary sensitivity. Identical metric endpoint data do not fix displacement data; unrestricted tangential modes invalidate the sector coercivity estimate. K2551 proves the stage-uniform fixed-score local stopping onset for arbitrary satellite counts, ratios and positions, sharp local cost infimum, necessary stage-count growth and exact local finite nonattainment. It certifies failure of the old global concavity proof at the critical multiplier without refuting global optimality. No actual radial-pressure inverse, physical boundary selection, unrestricted stopping frontier or native GU claim. Source polarities and ledger0.263 unchanged.
+
+- [K2550](explorations/conditional-build/k2550-common-domain-tensor-response-2026-11-04.md).
+- [K2551](explorations/conditional-build/k2551-finite-score-stopping-separation-2026-11-04.md).
+
+Independent geometry/PDE and probability specialists plus a separate integrated review checked the domain, source support, original readout, boundary counterconstruction, uniform remainders, arbitrary-ratio localization and finite nonattainment. Review clarified compact forcing and changing-count same-budget inversion. Universal proofs, exact algebra, interval signs and reporting consistency remain separate; no external-expert or proof-assistant certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2548--K2549: Full coupled contact observations and uniform stopping value (2026-11-04)
 
 K2548 constructs compact full coupled metric-only contact detectors through an exact curved six-potential module and polynomial adjugate, valid for arbitrary full solutions. It proves nonzero contact sensitivity to the actual conserved partial-width source and small smooth thickenings, without proving response existence or choosing homogeneous data. K2549 proves the uniform all-stage fifth-order stopping value, a growing finite satellite witness, the exact all-policy phase boundary inside a shrinking nearcritical tube, necessary satellite-count scaling for near-optimal accuracy, and a uniform finite-stage compression rate. No source-disjoint gravity prediction, finite-score global stopping frontier, physical measurement or native GU claim. Source polarities and ledger0.263 unchanged.

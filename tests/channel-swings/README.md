@@ -1,6 +1,12 @@
 
 ## Latest conditional constructions (2026-11-04)
 
+- [K2550 exact curved-domain and source controls](k2550_common_domain_tensor_response_probe.py).
+- [K2551 original-law expansion and interval controls](k2551_finite_score_stopping_separation_probe.py).
+
+
+## Latest conditional constructions (2026-11-04)
+
 - [K2548 exact algebra and contrary controls](k2548_compact_coupled_metric_detectors_probe.py).
 - [K2549 exact algebra and contrary controls](k2549_uniform_nearcritical_stopping_bound_probe.py).
 
