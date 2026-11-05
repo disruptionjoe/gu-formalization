@@ -5,7 +5,10 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-05: POLYNOMIAL SCALAR INVERSE AND EXACT RESOURCE FRONTIER.**
+> **2026-11-05: COUPLED TT FORCING AND STOPPING TRANSITION.**
+> Reuse K2578 paired Q/E inverses and forced original-metric observation on the fixed R(1) TT source sector; do not call it the original compact radial-pressure source or arbitrary coupled inverse. General radial D5+Y and scalar cofactor domains, physical control/observation and useful constants remain open. Reuse K2579 exact post2 tail forlambda<=lambda_safe≈0.535190, transition bracket[lambda_safe,lambda1≈0.536354], feasible-budget perturbation and exactlambda3/5 witness. The middle-resource range is not extended; no exact intermediate optimizer or sharp transition is proved. Retain K2565lambda1.9 bracket, source/ledger ceilings and expected-versus-pathwise distinction. Next test score-dependent action exclusion or a stronger multistage perturbation, alongside a source-specific common-domain construction.
+
+> **Historical predecessor: 2026-11-05: POLYNOMIAL SCALAR INVERSE AND EXACT RESOURCE FRONTIER.**
 > Reuse K2576 full-angular polynomial scalar impedance inverse and Sobolev synthesis on the fixed annulus; analytic boundary data are no longer required for that sufficient scalar construction. Opposite complex impedances represent two real quadratures, not real Robin or physical selection. The actual double-turning exception is bounded, while arbitrary potentials remain outside the theorem. Next derive the exact nonzero scalar-forcing adapter into every coupled source equation or supply justified observation/control. Reuse K2577 complete score1/2 resource frontier for0<lambda<=2/5, adjacent-count mixtures, exact prices and sharp complexity constants. Do not requeue generic attainment, analytic homogeneous existence or the low-multiplier post2 frontier. Intermediate lambda1.9 support/efficient certified optimization, sharp transition, physical calibration and native observation/quotient debts remain open; preserve K2565 bracket and expected-versus-pathwise distinctions.
 
 > **Historical predecessor: 2026-11-05: ANGULAR CONE DOMAINS AND CONSTRUCTIVE PRICED OPTIMIZATION.**

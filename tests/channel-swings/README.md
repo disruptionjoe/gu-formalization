@@ -2,6 +2,12 @@
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2578 polynomial probe](k2578_coupled_forcing_adapter_probe.py).
+- [K2579 resource probe](k2579_resource_tail_breakdown_probe.py).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2576 polynomial probe](k2576_polynomial_impedance_control_probe.py).
 - [K2577 resource probe](k2577_exact_resource_tail_probe.py).
 

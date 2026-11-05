@@ -7,6 +7,12 @@ updated_at: "2026-08-23"
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2578 report](k2578-coupled-forcing-adapter.json).
+- [K2579 report](k2579-resource-tail-breakdown.json).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2576 report](k2576-polynomial-impedance-control.json).
 - [K2577 report](k2577-exact-resource-tail.json).
 

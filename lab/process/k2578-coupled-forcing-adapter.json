@@ -1,0 +1,44 @@
+{
+  "result": "K2578",
+  "evidence_kind": "exact actual coordinate/row identities and constant-source fixture; universal estimates and module composition in note",
+  "checks": [
+    "actual_dimensionless_Q",
+    "source_normalization",
+    "Einstein_derivative",
+    "common_bound_constant",
+    "negative_terms_bound",
+    "full_nonzero_forcing_Liouville_identity",
+    "actual_E_potential",
+    "paired_forcing_ratio",
+    "Q_source_row",
+    "E_source_row",
+    "original_metric_invariant",
+    "constant_Q_source",
+    "constant_E_source",
+    "constant_invariant_consumer",
+    "constant_readout_nonzero",
+    "constant_Q_forced_ODE",
+    "constant_E_forced_ODE",
+    "radial_TT_trace",
+    "radial_TT_divergence"
+  ],
+  "contrary_controls": [
+    "drop_E_channel_nonzero_residual",
+    "reverse_E_forcing_wrong_source",
+    "omit_direct_source_term_changes_readout",
+    "shifted_z_is_not_original_h",
+    "dimensionless_c_wrong_source_residual",
+    "constant_Q_boundary_not_zero",
+    "constant_E_boundary_not_zero"
+  ],
+  "kappa1_constant_source": {
+    "u": "42073244928/603455015",
+    "v": "86376576/175",
+    "Eh": "23259657564/603455015"
+  },
+  "ceiling": "fixed R(1) TT source module, supplied complex controls; no full arbitrary coupled source or physical selection",
+  "provenance": {
+    "explorations/conditional-build/k2552-localized-source-domain-2026-11-04.md": "f45ce693d63d8e438af1564575edf4898764130efe2210beb6cb1dd0ed638cc3",
+    "explorations/conditional-build/k2576-polynomial-impedance-control-2026-11-05.md": "997caba70853e484d9fb41ce46b0be4672561c3d2486d64c950b0e928787691a"
+  }
+}

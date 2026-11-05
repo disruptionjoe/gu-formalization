@@ -7,6 +7,12 @@ updated_at: "2026-08-21"
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2578 coupled TT forcing](conditional-build/k2578-coupled-forcing-adapter-2026-11-05.md).
+- [K2579 stopping transition](conditional-build/k2579-resource-tail-breakdown-2026-11-05.md).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2576 polynomial scalar inverse](conditional-build/k2576-polynomial-impedance-control-2026-11-05.md).
 - [K2577 exact resource frontier](conditional-build/k2577-exact-resource-tail-2026-11-05.md).
 

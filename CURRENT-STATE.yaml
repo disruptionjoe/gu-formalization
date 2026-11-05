@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 38db5107389ba1b22a8b7cb3ecd95d292f9836b5
+revision_basis: 295c8364a996f497ffc197e128a2bbc32a48fb71
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,18 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2578 constructs a paired polynomial scalar inverse for the full selected linear response on
+    the fixed R(1) radial TT source module, including the Einstein, Schur, skew, mixed and
+    auxiliary rows and original metric. Nonzero source and compact conserved observation
+    consumers retain the direct source term; E-channel homogeneous preparation drops out only
+    for compact Einstein-image tests. K2579 extends the exact post2 expected-trial frontier
+    through lambda_safe about0.535190 and brackets its full-tail transition above by
+    about0.536354, width below0.001164. A resource-preserving perturbation defeats every finite
+    equal-stage chord atlambda4/7; an exact budget3 mixture atlambda3/5 improves the old chord
+    by more0.00049. These are conditional mathematics: no arbitrary coupled source inverse,
+    physical boundary selection, middle-resource extension, exact transition or native GU
+    recovery. Source polarities, ledger0.263 and canon remain unchanged.
+    Historical predecessor (not live):
     K2576 proves polynomial uniform impedance bounds on the actual fixed annulus for every
     angular mode, including turning modes and bounded double-turning exceptions. It constructs
     full-angular Sobolev homogeneous preparation, a forced scalar Green inverse and continuous
@@ -18589,6 +18601,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2578-coupled-forcing-adapter-2026-11-05.md
+  - explorations/conditional-build/k2579-resource-tail-breakdown-2026-11-05.md
+  - lab/process/k2578-coupled-forcing-adapter.json
+  - lab/process/k2579-resource-tail-breakdown.json
   - explorations/conditional-build/k2576-polynomial-impedance-control-2026-11-05.md
   - explorations/conditional-build/k2577-exact-resource-tail-2026-11-05.md
   - lab/process/k2576-polynomial-impedance-control.json
@@ -21198,6 +21214,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can a common all-angular domain extend the paired TT source response to radial-dependent and
+  scalar source modules, and can score-sensitive global support close the narrow equal-stage
+  stopping tail transition bracket?
+  Historical predecessor (not live):
   Which actual coupled-source adapter lifts the polynomial scalar inverse to the selected
   response system, and what structure resolves the remaining intermediate stopping multipliers
   beyond the complete small-multiplier frontier?
@@ -25683,6 +25703,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Reuse K2578 paired Q/E inverses and forced original-metric observation on the fixed R(1) TT
+  source sector; do not call it the original compact radial-pressure source or arbitrary coupled
+  inverse. General radial D5+Y and scalar cofactor domains, physical control/observation and
+  useful constants remain open. Reuse K2579 exact post2 tail forlambda<=lambda_safe≈0.535190,
+  transition bracket[lambda_safe,lambda1≈0.536354], feasible-budget perturbation and
+  exactlambda3/5 witness. The middle-resource range is not extended; no exact intermediate
+  optimizer or sharp transition is proved. Retain K2565lambda1.9 bracket, source/ledger ceilings
+  and expected-versus-pathwise distinction. Next test score-dependent action exclusion or a
+  stronger multistage perturbation, alongside a source-specific common-domain construction.
+  Historical predecessor (not live):
   Reuse K2576 full-angular polynomial scalar impedance inverse and Sobolev synthesis on the
   fixed annulus; analytic boundary data are no longer required for that sufficient scalar
   construction. Opposite complex impedances represent two real quadratures, not real Robin or

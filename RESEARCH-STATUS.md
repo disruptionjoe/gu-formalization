@@ -6,6 +6,18 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2578--K2579: Coupled TT forcing and the stopping tail transition (2026-11-05)
+
+K2578 constructs a paired polynomial scalar inverse for the full selected linear response on the fixed R(1) radial TT source module, including the Einstein, Schur, skew, mixed and auxiliary rows and original metric. Nonzero source and compact conserved observation consumers retain the direct source term; E-channel homogeneous preparation drops out only for compact Einstein-image tests. K2579 extends the exact post2 expected-trial frontier through lambda_safe about0.535190 and brackets its full-tail transition above by about0.536354, width below0.001164. A resource-preserving perturbation defeats every finite equal-stage chord atlambda4/7; an exact budget3 mixture atlambda3/5 improves the old chord by more0.00049. These are conditional mathematics: no arbitrary coupled source inverse, physical boundary selection, middle-resource extension, exact transition or native GU recovery. Source polarities, ledger0.263 and canon remain unchanged.
+
+- [K2576](explorations/conditional-build/k2578-coupled-forcing-adapter-2026-11-05.md).
+- [K2577](explorations/conditional-build/k2579-resource-tail-breakdown-2026-11-05.md).
+
+Read-only field specialists cross-reviewed both concrete results; a distinct independent hostile reviewer found no substantive defects after typed-object wording and control corrections. K2578 passes19 exact/supporting checks and7 contrary controls; K2579 passes26 and4, including both positive and adverse original-law consumers. Universal domain, optimizer and convexity proofs remain distinct from finite checks. No external-expert, proof-assistant, remote-CI or physical certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2576--K2577: Polynomial scalar inversion and the complete small-multiplier resource frontier (2026-11-05)
 
 K2576 proves polynomial uniform impedance bounds on the actual fixed annulus for every angular mode, including turning modes and bounded double-turning exceptions. It constructs full-angular Sobolev homogeneous preparation, a forced scalar Green inverse and continuous homogeneous conserved readout; arbitrary forcing still needs the full coupled-source adapter. K2577 solves the entire finite expected-trial frontier at score1/2 for every0<lambda<=2/5: the new post2 tail mixes adjacent equal-score zero-action schedules. Executed successors give exact price thresholds, optimal budget3 and5 consumers, sharp reciprocal-resource and square-root-price laws and a sufficient24-trial error certificate. No general intermediate multiplier solution, full coupled Green inverse, physical preparation or native GU recovery is claimed. Source polarities, ledger0.263 and canon remain unchanged.
