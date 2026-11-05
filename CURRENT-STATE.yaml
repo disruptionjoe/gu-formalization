@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d1674a7e8e80d72b018d898e9117907768c4fe7e
+revision_basis: 339aaf4d2a185fb17332723cf6b37035910a72ac
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,17 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2568 proves exact exponential growth of the actual localized homogeneous response under
+    zero-normal-derivative annular Cauchy preparation, a sharp analytic bandwidth/noise tradeoff
+    and a fixed conserved detector witnessing instability. A different supplied scalar Dirichlet
+    preparation removes that growth with an explicit order-one nonlocal normal trace. K2569
+    proves resource-preserving reduction of arbitrary adaptive stopping policies to
+    completed-schedule mixtures, strictly increasing finite-stage maxima, and necessary
+    divergence of expected positive-score trials near the optimum. An executed hybrid conversion
+    supplies a sufficient O(1/error) finite-policy resource bound. These are conditional
+    mathematical results; no physical boundary selection, exact intermediate stopping value,
+    native GU verdict, source polarity, ledger0.263 or canon change.
+    Historical predecessor (not live):
     K2566 proves infinite-dimensional local metric-gauge-distinct response freedom at the actual
     localized source after any finite set of conserved calibrations. It gives the exact
     fixed-detector span criterion and a sharp residual observation interval under an explicitly
@@ -18521,6 +18532,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2568-cauchy-preparation-bandwidth-2026-11-05.md
+  - explorations/conditional-build/k2569-stopping-maximizing-sequences-2026-11-05.md
+  - lab/process/k2568-cauchy-preparation-bandwidth.json
+  - lab/process/k2569-stopping-maximizing-sequences.json
   - explorations/conditional-build/k2566-finite-observation-preparation-2026-11-05.md
   - explorations/conditional-build/k2567-stopping-family-structure-2026-11-05.md
   - lab/process/k2566-finite-observation-preparation.json
@@ -21110,6 +21125,9 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which independently justified observation or boundary condition selects a stable localized
+  response, and what certified finite-stage gaps sharpen the stopping resource tradeoff?
+  Historical predecessor (not live):
   Which independently justified preparation or specified detector constrains the actual
   localized response, and where is the stopping transition from nonattainment to the attained
   one-stage regime?
@@ -25577,6 +25595,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Reuse K2568 exact annular bandwidth d and sharp noisy-data exponent1-d/rho for rho>d; critical
+  analytic radius lacks uniform noisy recovery. The constructed correlated scalar Dirichlet
+  boundary family is stable but supplied, with Hs-to-H(s-1) normal trace: next test a
+  source/observation-selected restriction or a specified empirical detector, without
+  transferring this to physical time or all global domains. Reuse K2569 all-adaptive resource
+  reduction and strict finite-stage gap modulus: bounded expected positive-trial maximizing
+  sequences are excluded at0<lambda<=98/51. Its original-policy upper bound
+  D_(3N+1)>=V-lambda*S²/N gives a search tolerance, not an efficient global solver or matching
+  lower rate. Next certify useful D_n gaps or limiting-hybrid structure; preserve K2565
+  numerical bracket and K2559 attained regime. Native quotient and empirical
+  cosmology/common-carrier debts remain open.
+  Historical predecessor (not live):
   Reuse K2566 actual local homogeneous family and exact detector-span criterion: finite
   calibration cannot select the entire response, but specified detectors in the
   response-functional span are fixed. A stated finite-mode norm gives a sharp interval, not

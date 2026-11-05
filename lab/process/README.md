@@ -7,6 +7,12 @@ updated_at: "2026-08-23"
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2568 report](k2568-cauchy-preparation-bandwidth.json).
+- [K2569 report](k2569-stopping-maximizing-sequences.json).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2566 report](k2566-finite-observation-preparation.json).
 - [K2567 report](k2567-stopping-family-structure.json).
 

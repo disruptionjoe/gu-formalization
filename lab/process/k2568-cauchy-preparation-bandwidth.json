@@ -1,0 +1,87 @@
+{
+  "result": "K2568",
+  "evidence_kind": "exact rational-coordinate identities and finite supporting/control fixtures; universal comparison and minimax proofs in note",
+  "checks": {
+    "actual_homogeneous_constant": true,
+    "original_Einstein_coefficient": true,
+    "actual_x_first_derivative": true,
+    "conjugating_weight": true,
+    "Liouville_potential": true,
+    "positive_factorization": true,
+    "potential_monotone_factor_identities": true,
+    "coordinate_derivative": true,
+    "exact_propagation_factor": true,
+    "initial_x_slope": true,
+    "positive_actual_potential": true,
+    "initial_jet_polynomial_2": true,
+    "initial_jet_polynomial_3": true,
+    "initial_jet_polynomial_4": true,
+    "initial_jet_polynomial_5": true,
+    "second_jet_matches_curved_equation": true,
+    "comparison_equation": true,
+    "comparison_initial_data": true,
+    "analytic_prior_unit_2": true,
+    "same_zero_noisy_datum_2": true,
+    "sharp_half_exponent_2": true,
+    "analytic_prior_unit_4": true,
+    "same_zero_noisy_datum_4": true,
+    "sharp_half_exponent_4": true,
+    "analytic_prior_unit_8": true,
+    "same_zero_noisy_datum_8": true,
+    "sharp_half_exponent_8": true,
+    "analytic_prior_unit_16": true,
+    "same_zero_noisy_datum_16": true,
+    "sharp_half_exponent_16": true,
+    "stable_boundary_equation": true,
+    "stable_boundary_endpoints": true,
+    "stable_DN_multiplier": true,
+    "boundary_DN_exact_fixture": true,
+    "normal_trace_conversion": true
+  },
+  "contrary_controls": {
+    "flipping_indefinite_angular_sign_changes_equation": true,
+    "omitting_J_retains_nonzero_first_derivative": true,
+    "omitting_geometric_potential_fails": true,
+    "degree10_n200_exponential_counterfixture": true,
+    "critical_radius_no_uniform_noise_decay": true,
+    "subcritical_radius_unbounded_envelope": true,
+    "stable_preparation_not_zero_normal_derivative": true,
+    "constant_order_trace_bound_fails": true
+  },
+  "constants": {
+    "mu_over_K_minus21": "120691003/77168",
+    "growth_rate": "log(tanh(t1/2)/tanh(t0/2))",
+    "noise_exponent": "1-d/rho for rho>d"
+  },
+  "initial_jets": [
+    "1",
+    "0",
+    "(1234688*n**2 + 1084984339)/694512",
+    "-(93836288*n**2 + 55303334089)/5208840",
+    "(7622272286720*n**4 + 13783763981292032*n**2 + 6085732870333334861)/2411734590720",
+    "-(769849500958720*n**4 + 1031383978513487872*n**2 + 306580923294559755511)/9044004715200"
+  ],
+  "noise_fixtures": [
+    {
+      "n": 2,
+      "delta": "16/81",
+      "normalized_output_separation_half": "4/9"
+    },
+    {
+      "n": 4,
+      "delta": "256/6561",
+      "normalized_output_separation_half": "16/81"
+    },
+    {
+      "n": 8,
+      "delta": "65536/43046721",
+      "normalized_output_separation_half": "256/6561"
+    },
+    {
+      "n": 16,
+      "delta": "4294967296/1853020188851841",
+      "normalized_output_separation_half": "65536/43046721"
+    }
+  ],
+  "ceiling": "omega harmonics: zero-normal-derivative Cauchy family in sections1-5; different far-Dirichlet family in section6; positive auxiliary norm, no physical energy"
+}

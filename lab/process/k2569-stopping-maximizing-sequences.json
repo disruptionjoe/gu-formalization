@@ -1,0 +1,71 @@
+{
+  "result": "K2569",
+  "evidence_kind": "exact finite original-law accounting and gap consumers; universal reduction/compactness in note",
+  "checks": {
+    "compressed_weights": true,
+    "all_mass_accounted": true,
+    "distinct_post_use_continuations_preserved": true,
+    "failure_weights_preserved": true,
+    "positive_trials_preserved": true,
+    "original_log_cost_coefficients_preserved": true,
+    "continuation_payoff_preserved": true,
+    "above_diagonal_execution_probability": true,
+    "above_diagonal_use": true,
+    "above_diagonal_trials": true,
+    "overshoot_execution_probability": true,
+    "overshoot_use_and_trials": true,
+    "overshoot_strict_cost_reduction": true,
+    "zero_score_free_randomized_continuation": true,
+    "prefix_weighted_resource": true,
+    "actual_log_cost_intervals_equal": true,
+    "zero_stage_cost_bound_fixture_0": true,
+    "zero_stage_cost_bound_fixture_1": true,
+    "zero_stage_cost_bound_fixture_2": true,
+    "existing_certificate_gap_consumer": true,
+    "one_stage_mixture_mass_bound": true,
+    "exponential_upper_rational": true,
+    "resource_example_rational": true,
+    "infinite_approach_prefix_1": true,
+    "infinite_approach_prefix_4": true,
+    "infinite_approach_prefix_16": true,
+    "reused_attainment_regime_interval_separation": true,
+    "original_stage_Euler_identity": true,
+    "positive_Euler_remainder_factors": true,
+    "hybrid_and_substitution_errors_compose": true,
+    "continuum_partition_score": true,
+    "continuum_partition_size_and_count": true,
+    "continuum_partition_square_budget": true,
+    "explicit_original_policy_tolerance": true,
+    "explicit_original_stage_resource_ceiling": true
+  },
+  "contrary_controls": {
+    "wrong_unhazarded_selection_changes_use": true,
+    "discarding_continuation_label_changes_payoff": true,
+    "omitting_preabort_changes_original_use": true,
+    "unweighted_stage_count_is_wrong": true,
+    "conditioning_cost_on_eventual_use_changes_cost": true,
+    "finite_hit_cannot_be_replaced_by_limit_hit": true,
+    "finite_stage_cost_exceeds_continuum_cost": true
+  },
+  "epoch": {
+    "selection_weights": [
+      "5/8",
+      "9/40"
+    ],
+    "abort": "3/20",
+    "mean_positive_trials": "11/8"
+  },
+  "gap_consumer": {
+    "score": "1/2",
+    "lambda": "19/10",
+    "lower_bound_for_V_minus_D1": "1079/1000000",
+    "not_a_computed_g1": true
+  },
+  "scope": "all original adaptive policies; necessary divergence and sufficient O(1/eta) upper resource; no matching lower rate",
+  "reused_evidence": [
+    "k2483-adaptive-stopping-bellman-2026-11-01.md",
+    "k2567-stopping-family-structure-2026-11-05.md",
+    "k2561-higher-budget-stopping-2026-11-05.md",
+    "k2565-bellman-supersolution-2026-11-05.md"
+  ]
+}

@@ -5,7 +5,10 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-05: FINITE OBSERVATION AND ADAPTIVE NONATTAINMENT.**
+> **2026-11-05: CAUCHY PREPARATION AND STOPPING RESOURCES.**
+> Reuse K2568 exact annular bandwidth d and sharp noisy-data exponent1-d/rho for rho>d; critical analytic radius lacks uniform noisy recovery. The constructed correlated scalar Dirichlet boundary family is stable but supplied, with Hs-to-H(s-1) normal trace: next test a source/observation-selected restriction or a specified empirical detector, without transferring this to physical time or all global domains. Reuse K2569 all-adaptive resource reduction and strict finite-stage gap modulus: bounded expected positive-trial maximizing sequences are excluded at0<lambda<=98/51. Its original-policy upper bound D_(3N+1)>=V-lambda*S²/N gives a search tolerance, not an efficient global solver or matching lower rate. Next certify useful D_n gaps or limiting-hybrid structure; preserve K2565 numerical bracket and K2559 attained regime. Native quotient and empirical cosmology/common-carrier debts remain open.
+
+> **Historical predecessor: 2026-11-05: FINITE OBSERVATION AND ADAPTIVE NONATTAINMENT.**
 > Reuse K2566 actual local homogeneous family and exact detector-span criterion: finite calibration cannot select the entire response, but specified detectors in the response-functional span are fixed. A stated finite-mode norm gives a sharp interval, not physical preparation; next construct an independently justified domain/norm or test a specified detector. Reuse K2567 nonattainment for0<lambda<=98/51 and positive final relaxed continuum tail, and K2559 attainment forlambda>=4/sqrt3. Do not seek a finite exact optimizer inside the certified nonattainment range. Next characterize maximizing sequences or the intervening transition with an all-domain proof; retain K2565 value bracket and finite lower witness. Empirical cosmology/common-carrier, source-owned native quotient and observation debts persist; no GU verdict change.
 
 > **Historical predecessor: 2026-11-05: LOCALIZED RESPONSE AND GLOBAL STOPPING CERTIFICATE.**

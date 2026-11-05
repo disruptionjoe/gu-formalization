@@ -2,6 +2,12 @@
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2568 preparation probe](k2568_cauchy_preparation_bandwidth_probe.py).
+- [K2569 resource probe](k2569_stopping_maximizing_sequences_probe.py).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2566 conserved calibration probe](k2566_finite_observation_preparation_probe.py).
 - [K2567 whole-ribbon certificate probe](k2567_stopping_family_structure_probe.py).
 

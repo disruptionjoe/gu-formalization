@@ -6,6 +6,18 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2568--K2569: Cauchy preparation and stopping resource bounds (2026-11-05)
+
+K2568 proves exact exponential growth of the actual localized homogeneous response under zero-normal-derivative annular Cauchy preparation, a sharp analytic bandwidth/noise tradeoff and a fixed conserved detector witnessing instability. A different supplied scalar Dirichlet preparation removes that growth with an explicit order-one nonlocal normal trace. K2569 proves resource-preserving reduction of arbitrary adaptive stopping policies to completed-schedule mixtures, strictly increasing finite-stage maxima, and necessary divergence of expected positive-score trials near the optimum. An executed hybrid conversion supplies a sufficient O(1/error) finite-policy resource bound. These are conditional mathematical results; no physical boundary selection, exact intermediate stopping value, native GU verdict, source polarity, ledger0.263 or canon change.
+
+- [K2568](explorations/conditional-build/k2568-cauchy-preparation-bandwidth-2026-11-05.md).
+- [K2569](explorations/conditional-build/k2569-stopping-maximizing-sequences-2026-11-05.md).
+
+Independent geometry/PDE and probability specialists plus a distinct integrated hostile review found no substantive mathematical defects. Universal comparison, minimax, boundary and adaptive-resource proofs, exact identities, finite supporting fixtures and reporting checks remain distinct; no external-expert, proof-assistant or remote CI certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2566--K2567: Finite observation preparation and adaptive nonattainment (2026-11-05)
 
 K2566 proves infinite-dimensional local metric-gauge-distinct response freedom at the actual localized source after any finite set of conserved calibrations. It gives the exact fixed-detector span criterion and a sharp residual observation interval under an explicitly supplied finite-mode norm bound. K2567 certifies that no original adaptive policy attains the stopping dual supremum for every positive multiplier at most98/51 and every score at most1/2. Every optimal terminal atom admits a better two-finite-atom split; maximizing relaxed finite-atom hybrids require a positive final continuum tail. The prior19/10 numerical bracket remains valid; no exact intermediate value, physical preparation, global boundary theorem or native GU verdict follows. Source polarities, ledger0.263 and canon are unchanged.

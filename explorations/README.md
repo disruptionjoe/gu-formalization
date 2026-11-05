@@ -7,6 +7,12 @@ updated_at: "2026-08-21"
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2568 Cauchy preparation and bandwidth](conditional-build/k2568-cauchy-preparation-bandwidth-2026-11-05.md).
+- [K2569 maximizing-sequence resources](conditional-build/k2569-stopping-maximizing-sequences-2026-11-05.md).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2566 finite observation preparation](conditional-build/k2566-finite-observation-preparation-2026-11-05.md).
 - [K2567 adaptive nonattainment](conditional-build/k2567-stopping-family-structure-2026-11-05.md).
 
