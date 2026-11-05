@@ -1,6 +1,12 @@
 
 ## Latest conditional constructions (2026-11-04)
 
+- [K2552 exact source reduction probe](k2552_localized_source_domain_probe.py).
+- [K2553 whole-domain stopping probe](k2553_global_stopping_certificate_probe.py).
+
+
+## Latest conditional constructions (2026-11-04)
+
 - [K2550 exact curved-domain and source controls](k2550_common_domain_tensor_response_probe.py).
 - [K2551 original-law expansion and interval controls](k2551_finite_score_stopping_separation_probe.py).
 

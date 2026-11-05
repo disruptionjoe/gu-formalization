@@ -1,0 +1,197 @@
+{
+  "result": "K2553",
+  "multiplier": "4*sqrt(3)/3",
+  "score_domain": "0<S<=1/2",
+  "checks": {
+    "T3_whole_domain": true,
+    "residual_lower_hazard_whole_domain": true,
+    "residual_upper_hazard_whole_domain": true,
+    "root_lower_whole_domain": true,
+    "root_upper_whole_domain": true,
+    "endpoint_whole_domain": true,
+    "H3_whole_domain": true,
+    "lambda_identity": true,
+    "M_monotonic": true,
+    "residual_third_derivative_exact_fixture": true,
+    "third_derivative_gap": true,
+    "zero_score_optimizer": true,
+    "zero_score_value_slope": true,
+    "Hermite_end_values": true,
+    "Hermite_end_derivative": true,
+    "Hermite_remainder_factor": true,
+    "original_prefix_telescope": true
+  },
+  "contrary_controls": {
+    "wrong_prefix_changes_cost": true,
+    "different_optimizers": true,
+    "negative_denominator_not_positive": true,
+    "endpoint_sampling_insufficient": true,
+    "algebraic_sign_control": true,
+    "corrupted_polynomial_detected": true,
+    "wrong_Hermite_sign": true
+  },
+  "certificates": {
+    "T3": {
+      "domain": {
+        "r_lower": "23/50",
+        "r_upper": "7*b/20 + 3/5",
+        "b_lower": "0",
+        "b_upper": "1/2"
+      },
+      "numerator_degree": [
+        17,
+        27
+      ],
+      "denominator_degree": [
+        17,
+        27
+      ],
+      "numerator_coefficients": 504,
+      "denominator_coefficients": 504,
+      "zero_numerator_coefficients": 0,
+      "coefficient_digest": "096fbc8c743529c3ec44431af5c84e5fdd7efb0ae483736386d7940282f04677",
+      "independent_basis_reconstruction": true
+    },
+    "residual_lower_hazard": {
+      "domain": {
+        "r_lower": "23/50",
+        "r_upper": "23/50",
+        "b_lower": "0",
+        "b_upper": "1/2"
+      },
+      "numerator_degree": [
+        0,
+        2
+      ],
+      "denominator_degree": [
+        0,
+        2
+      ],
+      "numerator_coefficients": 3,
+      "denominator_coefficients": 3,
+      "zero_numerator_coefficients": 0,
+      "coefficient_digest": "fdb8267a48c86839dc47bdf97f742c4b73a28fa657247e53381fd757cf7457f1",
+      "independent_basis_reconstruction": true
+    },
+    "residual_upper_hazard": {
+      "domain": {
+        "r_lower": "7*b/20 + 3/5",
+        "r_upper": "7*b/20 + 3/5",
+        "b_lower": "0",
+        "b_upper": "1/2"
+      },
+      "numerator_degree": [
+        0,
+        6
+      ],
+      "denominator_degree": [
+        0,
+        6
+      ],
+      "numerator_coefficients": 7,
+      "denominator_coefficients": 7,
+      "zero_numerator_coefficients": 0,
+      "coefficient_digest": "a90b1cd5b3808f3673aab5f320dc7896b6a274aaf6ff319cb408f2d5a1e3e1ba",
+      "independent_basis_reconstruction": true
+    },
+    "root_lower": {
+      "domain": {
+        "r_lower": "9*b**2/100 + b*(-13/2 + 4*sqrt(3)) - 3 + 2*sqrt(3)",
+        "r_upper": "9*b**2/100 + b*(-13/2 + 4*sqrt(3)) - 3 + 2*sqrt(3)",
+        "b_lower": "0",
+        "b_upper": "1/2"
+      },
+      "numerator_degree": [
+        0,
+        15
+      ],
+      "denominator_degree": [
+        0,
+        15
+      ],
+      "numerator_coefficients": 16,
+      "denominator_coefficients": 16,
+      "zero_numerator_coefficients": 2,
+      "coefficient_digest": "9d88beb29036972040f014f0571656cf064f8339a3eafab0f2a0a9a70cdd41b0",
+      "independent_basis_reconstruction": true
+    },
+    "root_upper": {
+      "domain": {
+        "r_lower": "b**2/8 + b*(-13/2 + 4*sqrt(3)) - 3 + 2*sqrt(3)",
+        "r_upper": "b**2/8 + b*(-13/2 + 4*sqrt(3)) - 3 + 2*sqrt(3)",
+        "b_lower": "0",
+        "b_upper": "1/2"
+      },
+      "numerator_degree": [
+        0,
+        20
+      ],
+      "denominator_degree": [
+        0,
+        20
+      ],
+      "numerator_coefficients": 21,
+      "denominator_coefficients": 21,
+      "zero_numerator_coefficients": 2,
+      "coefficient_digest": "56b2eb1fd7987c64d6d6e14fc3afad29851aa4a249e2f17f4f9d6e6425c2b929",
+      "independent_basis_reconstruction": true
+    },
+    "endpoint": {
+      "domain": {
+        "r_lower": "9*b**2/100 + b*(-13/2 + 4*sqrt(3)) - 3 + 2*sqrt(3)",
+        "r_upper": "b**2/8 + b*(-13/2 + 4*sqrt(3)) - 3 + 2*sqrt(3)",
+        "b_lower": "0",
+        "b_upper": "1/2"
+      },
+      "numerator_degree": [
+        4,
+        10
+      ],
+      "denominator_degree": [
+        4,
+        10
+      ],
+      "numerator_coefficients": 55,
+      "denominator_coefficients": 55,
+      "zero_numerator_coefficients": 10,
+      "coefficient_digest": "ec8bb4a63528e54c05aff33ab655ccabf692193d19858ed86216d7a13fba2b21",
+      "independent_basis_reconstruction": true
+    },
+    "H3": {
+      "domain": {
+        "r_lower": "9*b**2/100 + b*(-13/2 + 4*sqrt(3)) - 3 + 2*sqrt(3)",
+        "r_upper": "b**2/8 + b*(-13/2 + 4*sqrt(3)) - 3 + 2*sqrt(3)",
+        "b_lower": "0",
+        "b_upper": "1/2"
+      },
+      "numerator_degree": [
+        24,
+        64
+      ],
+      "denominator_degree": [
+        24,
+        64
+      ],
+      "numerator_coefficients": 1625,
+      "denominator_coefficients": 1625,
+      "zero_numerator_coefficients": 0,
+      "coefficient_digest": "2155019bf0e3eec0ca14645892b1ab11bbb13f0a2743223424c282d8b0412197",
+      "independent_basis_reconstruction": true
+    }
+  },
+  "evidence_kinds": {
+    "exact": "original-law rational derivatives, seven whole-domain algebraic Bernstein certificates, inverse basis reconstruction and prefix identities",
+    "universal": "optimizer admission, Hermite shape lemma and all-policy support transfer proved in note",
+    "not_claimed": "all multipliers above lambda_star, entire budget frontier, external certification or GU prediction"
+  },
+  "dependencies": {
+    "explorations/conditional-build/k2553-global-stopping-certificate-2026-11-04.md": "7c6798a4d61c614b194559aa5891b20d4f992907387189bd4272f3280bd7e520",
+    "tests/channel-swings/k2553_global_stopping_certificate_probe.py": "545026f648a2d3e8ae920e6b561968dfc398831cb1dd816fe864f104c6efa7de",
+    "explorations/conditional-build/k2515-stopping-transition-certificate-2026-11-02.md": "3b59aecad14b11882e8a67b7e5de4d629e70e0a831f146ea23fb73c7463ae045",
+    "explorations/conditional-build/k2551-finite-score-stopping-separation-2026-11-04.md": "5209a98b6cc981576da6426bbe78c0c6104b2544be890fd8555769231342d0b1",
+    "explorations/conditional-build/k2509-stopping-atom-certificate-2026-11-02.md": "cc81bb19995406be32f722591cd5cb09845887849e3c17ebd08716e750f5c170",
+    "explorations/conditional-build/k2483-adaptive-stopping-bellman-2026-11-01.md": "87bc25db2dfdbb3d77a4b985d2d82e99b8b78f0fb2d3a06d881f326aea223f0c",
+    "explorations/conditional-build/k2485-constrained-stopping-frontier-2026-11-01.md": "a253dd93ac94bdfe28fcb703c2c9cff88c45614dadcb44a0b6c69384bdb333a2",
+    "explorations/conditional-build/k2517-small-score-stopping-transition-2026-11-02.md": "3eca9b204bed9c98f9db2adff7d876c051955a20a75d37bde2cb1bf4618dcf5c"
+  }
+}

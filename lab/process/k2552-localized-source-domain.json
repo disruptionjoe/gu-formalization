@@ -1,0 +1,72 @@
+{
+  "result": "K2552",
+  "checks": {
+    "trace_TT": true,
+    "divergence_TT": true,
+    "nondegenerate_radial_split": true,
+    "radial_weight": true,
+    "tensor_weight": true,
+    "rough_Box_observer": true,
+    "rough_Box_radial": true,
+    "rough_Box_angular": true,
+    "original_source_trace": true,
+    "actual_radial_eigenvalue": true,
+    "same_prescribed_source_observer": true,
+    "same_prescribed_source_radial": true,
+    "same_prescribed_source_angular": true,
+    "overlap_trace_zero": true,
+    "positive_radial_weight_margin": true,
+    "radial_Neumann_ratio": true,
+    "radial_Poincare_integral": true,
+    "positive_inverse_flux": true,
+    "TT_kinetic_coefficient": true,
+    "TT_full_mass_coefficient": true,
+    "TT_Einstein_curvature_shift": true,
+    "TT_displacement_curvature_shift": true,
+    "full_Einstein_source_row_0": true,
+    "full_Einstein_source_row_1": true,
+    "full_Einstein_source_row_2": true,
+    "full_Einstein_source_row_3": true,
+    "full_Einstein_source_row_4": true,
+    "scalar_source_divergence_A": true,
+    "scalar_source_divergence_B": true,
+    "scalar_source_trace": true,
+    "full_six_row_source_cofactor_fixture_0": true,
+    "nonzero_determinant_polynomial": true,
+    "full_six_row_source_cofactor_fixture_1": true,
+    "full_six_row_source_cofactor_fixture_2": true,
+    "original_metric_Einstein_source": true
+  },
+  "contrary_controls": {
+    "missing_source_half_changes_trace": true,
+    "omit_radial_curvature_changes_Box": true,
+    "flat_tensor_weight_changes_operator": true,
+    "wrong_inverse_sign_fails_source": true,
+    "punctured_harmonic_has_center_flux": true,
+    "drop_skew_component_breaks_full_source": true,
+    "flat_scalar_Einstein_shift_fails": true,
+    "shifted_metric_fails_original_Einstein_row": true
+  },
+  "evidence_kinds": {
+    "exact": "source and all radial curvature identities, full Einstein column, coefficient shifts, radial constants and finite cofactor fixtures",
+    "universal": "positive radial inverse and unavoidable tails, full-operator intertwining and universal cofactor identity in note",
+    "not_claimed": "existence of four remaining scalar inverses, physical boundary domain, uniqueness or native GU"
+  },
+  "remaining_scalar_operators": [
+    "D5+Y-16K",
+    "c(D5+Y+mu-21K)",
+    "X+Y+2lambda",
+    "det M(X,Y)"
+  ],
+  "dependencies": {
+    "explorations/conditional-build/k2552-localized-source-domain-2026-11-04.md": "f45ce693d63d8e438af1564575edf4898764130efe2210beb6cb1dd0ed638cc3",
+    "tests/channel-swings/k2552_localized_source_domain_probe.py": "abc6f3b5d44b823a4f64fd5ca6873b795d3232c3c48ab84a3bf05078f6cf2ddd",
+    "explorations/conditional-build/k2531-partial-thickness-source-2026-11-04.md": "c47c752a175b8863e7675996833af1c9a3174a5773ed68315977f927b8f64995",
+    "explorations/conditional-build/k2548-compact-coupled-metric-detectors-2026-11-04.md": "99bba231bf1c046e600674f62578cc16dcbeea5644ba323a02eb66bb69c5ac8c",
+    "explorations/conditional-build/k2550-common-domain-tensor-response-2026-11-04.md": "198b930ec872353d261120568882fa1ef8188ed95b69e628e3b1ec027b286e86",
+    "explorations/conditional-build/k2535-reduced-response-symbol-2026-11-04.md": "74940e1e08c58c5d5716e9ca5052207cde42b597dd2109853ea7150140df240b",
+    "lab/process/k2535-reduced-response-symbol.json": "5d3a5d5929de4aaa9546a7d67c8bebe0e0b6d8d89b40610b88215a6dff96688d",
+    "explorations/conditional-build/k2539-covariant-tensor-constraints-2026-11-04.md": "d8f1bfb2edcd9522fec266fa408116a8399b3d4fc3d0d24cf492215973a69b5a",
+    "lab/process/k2539-covariant-tensor-constraints.json": "dead6c5107d7930fc97e30e521b36938bfbebd5bfab7d3ac566d714765707c45"
+  }
+}

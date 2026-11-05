@@ -7,6 +7,12 @@ updated_at: "2026-08-23"
 
 ## Latest conditional constructions (2026-11-04)
 
+- [K2552 report](k2552-localized-source-domain.json).
+- [K2553 report](k2553-global-stopping-certificate.json).
+
+
+## Latest conditional constructions (2026-11-04)
+
 - [K2550 report](k2550-common-domain-tensor-response.json).
 - [K2551 report](k2551-finite-score-stopping-separation.json).
 

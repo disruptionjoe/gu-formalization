@@ -5,7 +5,10 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-04: COMMON DOMAIN AND UNIFORM LOCAL ONSET.**
+> **2026-11-04: ACTUAL-SOURCE REDUCTION AND GLOBAL STOPPING SUPPORT.**
+> Reuse K2552 exact source-preserving four-scalar reduction and solved auxiliary splitter; construct response inverses accepting the actual B source, cancelling radial tails and regular-center extension, with matching original-metric response on the scalar/TT overlap. Do not replace that source by a Codazzi eigenmode or infer an inverse from a determinant. K2553 settles the critical-multiplier global support and constrained contact point for all scores through one half; next compare a parameter-uniform Bellman certificate or a fixed-score onset support value, preserving the unproved interval to multiplier8/3 and the full-budget boundary. K2517 lower-multiplier obstruction is reused. Prepared cosmology, empirical common-carrier calibration, native Met(X) and interacting quotient debts remain.
+
+> **Historical predecessor: 2026-11-04: COMMON DOMAIN AND UNIFORM LOCAL ONSET.**
 > Reuse K2550 prescribed-source sector response and metric-boundary insufficiency; the next source-facing construction must retain actual radial-pressure source support, all tangential modes and justified displacement/boundary data. A further one-coordinate profile or compact contact filter cannot settle that domain. K2551 closes variable-count local fixed-score onset and finite nonattainment; the remaining stopping question is a global Bellman/exchange bound or certified full-class value that treats remote multiple atoms and different-success mixtures. The old uniform-concavity extension fails at the actual critical-multiplier residual; use a genuinely different estimate. Prepared cosmology, physical common-carrier calibration, native Met(X) and interacting quotient debts retain their prior ceilings.
 
 

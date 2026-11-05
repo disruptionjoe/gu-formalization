@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2552--K2553: Actual-source reduction and global stopping support (2026-11-04)
+
+K2552 reduces the actual conserved radial-pressure source to four explicit scalar response problems, retaining all B dependence and the original metric shift. A positive radial inverse constructs the source splitter; its scalar and TT tails cancel, and overlap matching plus regular-center extension are necessary domain conditions. The remaining four response inverses are not supplied. K2553 proves global original-law one-stage support at lambda=4/sqrt(3) for every score through one half, using seven whole-domain certificates and Hermite interpolation despite failed concavity. It gives an exact constrained contact point, global affine budget bound and remote-stage gap; K2517 supplies the lower-multiplier minimality obstruction. No full budget frontier, physical source domain, native GU or empirical claim. Source polarities and ledger0.263 unchanged.
+
+- [K2552](explorations/conditional-build/k2552-localized-source-domain-2026-11-04.md).
+- [K2553](explorations/conditional-build/k2553-global-stopping-certificate-2026-11-04.md).
+
+Independent geometry/PDE and probability specialists plus an integrated hostile review checked the complete source reduction, radial curvature, center flux and overlap conditions, and the distinct-root Bernstein/Hermite/Bellman argument. Exact computation, universal analytic proofs, finite controls and reporting consistency remain distinct; no external-expert or proof-assistant certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2550--K2551: Common-domain response and uniform local stopping onset (2026-11-04)
 
 K2550 constructs a common curved interval domain for prescribed TT sources, with a nonzero source-disjoint original-metric observation for compact nonnegative forcing, quantitative response bounds and exact boundary sensitivity. Identical metric endpoint data do not fix displacement data; unrestricted tangential modes invalidate the sector coercivity estimate. K2551 proves the stage-uniform fixed-score local stopping onset for arbitrary satellite counts, ratios and positions, sharp local cost infimum, necessary stage-count growth and exact local finite nonattainment. It certifies failure of the old global concavity proof at the critical multiplier without refuting global optimality. No actual radial-pressure inverse, physical boundary selection, unrestricted stopping frontier or native GU claim. Source polarities and ledger0.263 unchanged.

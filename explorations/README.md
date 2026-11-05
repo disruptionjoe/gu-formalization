@@ -7,6 +7,12 @@ updated_at: "2026-08-21"
 
 ## Latest conditional constructions (2026-11-04)
 
+- K2552: actual-source scalar reduction. Result: `conditional-build/k2552-localized-source-domain-2026-11-04.md`.
+- K2553: global critical-multiplier support. Result: `conditional-build/k2553-global-stopping-certificate-2026-11-04.md`.
+
+
+## Latest conditional constructions (2026-11-04)
+
 - [K2550: prescribed source, common domain and boundary sensitivity](conditional-build/k2550-common-domain-tensor-response-2026-11-04.md).
 - [K2551: uniform local onset and finite nonattainment](conditional-build/k2551-finite-score-stopping-separation-2026-11-04.md).
 
