@@ -5,7 +5,10 @@ doc_type: roadmap
 updated_at: "2026-10-26"
 ---
 
-> **2026-11-05: FIXED RADIAL DOMAIN AND SHARP STOPPING TRANSITION.**
+> **2026-11-05: AFFINE BOUNDARY REPAIR AND COMPLETE STOPPING FRONTIER.**
+> Reuse K2582 trace-tagged TT and exact scalar-overlap response, including the gauge correction that preserves all total fields; do not confuse homogeneous component boundaries with total physical boundary data or remove the outer boundary condition by adding an unmarked eigenmode. General scalar matrix complement still needs its actual boundary/domain inverse. Reuse K2583 complete all-budget and all-positive-price solution through Lambda(S); neither the old middle-budget gap nor the sharp tail bracket remains open. Next probability work must address above-transition positive-action/multistage support, retaining K2565lambda1.9 bracket. Physical calibration/preparation and native Met(X) bridges remain independent alternatives.
+
+> **Historical predecessor: 2026-11-05: FIXED RADIAL DOMAIN AND SHARP STOPPING TRANSITION.**
 > Reuse K2580 fixed radial/annular TT common-domain estimate and nonconstant-source observation; preserve auxiliary spectral versus physical tensor regularity, endpoint compatibility and amplitude versus full tensor Dirichlet distinctions. K2562/64 already supply full compact-source responses under different preparations. Next test the actual scalar cofactor complement under this same fixed domain, or independently justified physical control/observation. Reuse K2581 exact general-score Lambda(S), including equality, criticalM2 differentiability and ordered sufficient count thresholds. The former narrow full-tail bracket is closed; do not requeue it. Exact middle budgets above the prior proven range and globally certified positive-action policies above Lambda remain open; preserve K2565lambda1.9 bracket and expected-versus-pathwise trials.
 
 > **Historical predecessor: 2026-11-05: COUPLED TT FORCING AND STOPPING TRANSITION.**

@@ -2,6 +2,12 @@
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2582 boundary response probe](k2582_affine_radial_boundary_response_probe.py).
+- [K2583 complete frontier probe](k2583_complete_stopping_resource_frontier_probe.py).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2580 radial source probe](k2580_radial_angular_source_domain_probe.py).
 - [K2581 transition probe](k2581_score_sensitive_tail_transition_probe.py).
 

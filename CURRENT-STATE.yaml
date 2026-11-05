@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 37fd59ac1529ad24e72c8ec304abc9dc4f47c41f
+revision_basis: 959bdfae61576a3f4be606c640c1205491de9e26
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,19 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2582 proves the regular scalar/TT splitter overlap leaves homogeneous component Dirichlet
+    domains, and a naive unmarked radial-domain enlargement has empty resolvent. Trace-tagged
+    compatible TT data admit paired all-angular polynomial response bounds. The actual scalar
+    overlap eigenline bypasses the general cofactor inverse; an explicit gauge repair makes
+    scalar/TT responses match exactly, preserving total fields and boundary data. A nonzero
+    source-trace/readout consumer is executed. General scalar complement and physical
+    preparation remain open. K2583 solves the COMPLETE finite expected-resource frontier and
+    every positive-price optimizer for every0<S<=1/2 and0<lambda<=Lambda(S), extending the old
+    middle range. It executes an exact corner law, certain-success minimum-leakage tradeoff, two
+    middle-budget consumers, low/tail mixtures and a certified scalar-price optimizer.
+    Above-transition global policies remain open. Source polarities, ledger0.263 and canon
+    unchanged; no native GU or physical certification.
+    Historical predecessor (not live):
     K2580 constructs one fixed regular-center radial-amplitude Dirichlet and B-annular
     complex-impedance TT response domain. A radial spectral gap makes both actual potentials
     monotone for every radial/angular mode, giving common polynomial bounds without the old
@@ -18616,6 +18629,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2582-affine-radial-boundary-response-2026-11-05.md
+  - explorations/conditional-build/k2583-complete-stopping-resource-frontier-2026-11-05.md
+  - lab/process/k2582-affine-radial-boundary-response.json
+  - lab/process/k2583-complete-stopping-resource-frontier.json
   - explorations/conditional-build/k2580-radial-angular-source-domain-2026-11-05.md
   - explorations/conditional-build/k2581-score-sensitive-tail-transition-2026-11-05.md
   - lab/process/k2580-radial-angular-source-domain.json
@@ -21233,6 +21250,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which boundary trace map permits the GENERAL scalar cofactor complement with compatible fixed
+  preparation, and what globally certified positive-action multistage frontier holds above the
+  now fully solved Lambda(S) regime?
+  Historical predecessor (not live):
   Can the scalar cofactor complement share the fixed radial/annular TT preparation and preserve
   source-split overlap, and what global positive-action or middle-resource frontier replaces the
   solved equal-stage tail beyond its sharp transition?
@@ -25726,6 +25747,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Reuse K2582 trace-tagged TT and exact scalar-overlap response, including the gauge correction
+  that preserves all total fields; do not confuse homogeneous component boundaries with total
+  physical boundary data or remove the outer boundary condition by adding an unmarked eigenmode.
+  General scalar matrix complement still needs its actual boundary/domain inverse. Reuse K2583
+  complete all-budget and all-positive-price solution through Lambda(S); neither the old
+  middle-budget gap nor the sharp tail bracket remains open. Next probability work must address
+  above-transition positive-action/multistage support, retaining K2565lambda1.9 bracket.
+  Physical calibration/preparation and native Met(X) bridges remain independent alternatives.
+  Historical predecessor (not live):
   Reuse K2580 fixed radial/annular TT common-domain estimate and nonconstant-source observation;
   preserve auxiliary spectral versus physical tensor regularity, endpoint compatibility and
   amplitude versus full tensor Dirichlet distinctions. K2562/64 already supply full

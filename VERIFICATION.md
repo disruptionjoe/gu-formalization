@@ -5,6 +5,18 @@ doc_type: verification-map
 updated_at: "2026-10-27"
 ---
 
+## K2582--K2583: Affine boundary repair and complete stopping frontier (2026-11-05)
+
+K2582 proves the regular scalar/TT splitter overlap leaves homogeneous component Dirichlet domains, and a naive unmarked radial-domain enlargement has empty resolvent. Trace-tagged compatible TT data admit paired all-angular polynomial response bounds. The actual scalar overlap eigenline bypasses the general cofactor inverse; an explicit gauge repair makes scalar/TT responses match exactly, preserving total fields and boundary data. A nonzero source-trace/readout consumer is executed. General scalar complement and physical preparation remain open. K2583 solves the COMPLETE finite expected-resource frontier and every positive-price optimizer for every0<S<=1/2 and0<lambda<=Lambda(S), extending the old middle range. It executes an exact corner law, certain-success minimum-leakage tradeoff, two middle-budget consumers, low/tail mixtures and a certified scalar-price optimizer. Above-transition global policies remain open. Source polarities, ledger0.263 and canon unchanged; no native GU or physical certification.
+
+- [K2582](explorations/conditional-build/k2582-affine-radial-boundary-response-2026-11-05.md).
+- [K2583](explorations/conditional-build/k2583-complete-stopping-resource-frontier-2026-11-05.md).
+
+Two read-only field specialists cross-reviewed both results; a distinct integrated hostile reviewer found no substantive defects after the tensor-boundary and price-tie controls were strengthened. K2582 passes39 exact/supporting checks and8 contrary controls; K2583 passes23 and6. Universal domain and all-policy proofs remain separate from finite algebra, boundary bookkeeping and original-law fixtures. No external-expert, proof-assistant, remote-CI or physical certification.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2580--K2581: Fixed radial source domain and sharp stopping transition (2026-11-05)
 
 K2580 constructs one fixed regular-center radial-amplitude Dirichlet and B-annular complex-impedance TT response domain. A radial spectral gap makes both actual potentials monotone for every radial/angular mode, giving common polynomial bounds without the old finite-exception exponential constant. Compatible spectral-smooth data reconstruct every selected TT equation; an explicit nonconstant radial source and compact Einstein-image observation execute the construction. This is not the scalar complement or physical preparation; K2562/64 full-source constructions under other domains remain valid. K2581 closes the full equal-stage stopping-tail transition exactly for every0<S<=1/2: Lambda(S)=1/[2c(S)+4H1-2H2], including equality. AtS.5 it is about.5363538617. Joint convexity, score-sensitive exclusion and exchange prove the global post2 formula; actual budget3 consumers lie on both sides. Critical M2 tangent contact and strictly ordered count-specific failure thresholds are proved. No full middle-budget extension or intermediate optimizer, native GU recovery or physical credit. Source polarities, ledger0.263 and canon unchanged.

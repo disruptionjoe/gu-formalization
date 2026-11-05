@@ -1,0 +1,63 @@
+{
+  "result": "K2583",
+  "evidence_kind": "exact price/derivative identities and rational-log original-law consumers; universal reduction/support proof in note",
+  "checks": [
+    "price_domination_identity",
+    "one_stage_derivative",
+    "Mfun_decreases_identity",
+    "Mfun_free_endpoint",
+    "consumer_derivative_exact",
+    "frontier_derivative_price",
+    "frontier_curvature",
+    "corner_gap",
+    "multistage_resource_gap_rational_bound",
+    "exponential_upper_certificate",
+    "lambda_in_range",
+    "middle_original_policy",
+    "middle_leakage",
+    "full_price_branch",
+    "priced_value_positive",
+    "abort_free_budget1",
+    "exact_count_price_tie",
+    "certain_success_tradeoff_budget3",
+    "quarter_score_middle_original",
+    "quarter_score_log_argument",
+    "quarter_score_multiplier_admitted",
+    "certified_scalar_price_solver",
+    "counterpolicy_preserves_resource"
+  ],
+  "contrary_controls": [
+    "reverse_price_direction_can_lose",
+    "omit_failure_trials_changes_budget",
+    "strict_tie_claim_rejected",
+    "leakage_without_success_constraint",
+    "middle_above2_has_invalid_action",
+    "beyond_threshold_tail_extension_false"
+  ],
+  "middle_budget8over5": [
+    "14450881916428287255580191166366683498091447426861850642/18721682452957964634484666617154791479926186093443046875",
+    "18646299247004241620103472472731204513666383780453284/24157009616719954367076989183425537393453143346378125"
+  ],
+  "support_price": [
+    "4463167431907605912429398793355909633229001615583741321/14977345962366371707587733293723833183940948874754437500",
+    "89263348638152118248587975867118192664580032341569271/299546919247327434151754665874476663678818977495088750"
+  ],
+  "quarter_score_budget9over5": [
+    "17285190513690272733031350675379200904991782555916032379314494833637104806964420839015885583/19579256170958831652446968307245452742820201534688686304338755178967771840945761704125960240",
+    "1385919701225967986933238508288903215602291737966327169708569065638917794407295258989689/1569856973296891569311014136244824626589175876738990242490278638467589146964862227720170"
+  ],
+  "certain_success_leakage_budget3": [
+    "123218998302581179469083336821972384988262858565617371574031645184/421785811988423508315079552758293037421288280566237519591782511455",
+    "1760271404322588278129761954668324610552832940410245214530592078299/6025511599834621547358279325118471963161261150946250279882607306500"
+  ],
+  "rational_price3over10_action_bracket": [
+    "541752141/2147483648",
+    "270876071/1073741824"
+  ],
+  "ceiling": "all budgets/all positive prices for lambda<=Lambda(S), not above-transition optimizer",
+  "provenance": {
+    "explorations/conditional-build/k2581-score-sensitive-tail-transition-2026-11-05.md": "6d066a152805196143d9834315dc25a16d9c31afd38dab39c5196afb2813c770",
+    "explorations/conditional-build/k2575-constructive-priced-optimization-2026-11-05.md": "ec2921bb0375dcbad4f22783484566b3aa3b10eafa9397423e2d1820aed37fbd",
+    "explorations/conditional-build/k2569-stopping-maximizing-sequences-2026-11-05.md": "86320b42a82c0001f5500dd779b90b0f53980f98b936985ba9d736a4584e868e"
+  }
+}

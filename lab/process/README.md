@@ -7,6 +7,12 @@ updated_at: "2026-08-23"
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2582 report](k2582-affine-radial-boundary-response.json).
+- [K2583 report](k2583-complete-stopping-resource-frontier.json).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2580 report](k2580-radial-angular-source-domain.json).
 - [K2581 report](k2581-score-sensitive-tail-transition.json).
 
