@@ -2,6 +2,12 @@
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2576 polynomial probe](k2576_polynomial_impedance_control_probe.py).
+- [K2577 resource probe](k2577_exact_resource_tail_probe.py).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2574 cone probe](k2574_angular_cone_domains_probe.py).
 - [K2575 constructive probe](k2575_constructive_priced_optimization_probe.py).
 

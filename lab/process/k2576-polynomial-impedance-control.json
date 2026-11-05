@@ -1,0 +1,71 @@
+{
+  "result": "K2576",
+  "evidence_kind": "exact actual-potential/energy/Green identities, infinite-family coefficient signs, and independent forced fixture; universal comparison/density proof in note",
+  "checks": [
+    "actual_A",
+    "actual_far_V",
+    "actual_derivative",
+    "threshold",
+    "threshold_endpoint_derivative",
+    "monotone_whole_interval_polynomial",
+    "monotone_interval_factor",
+    "exceptional_frequency_bound",
+    "infinite_turning_near",
+    "infinite_turning_far",
+    "infinite_turning_monotone",
+    "actual_double_turn_values",
+    "double_turn_class_is_bounded",
+    "shifted_energy_derivative",
+    "backward_energy_positive_squares",
+    "positive_prefix_energy_derivative",
+    "near_flux_expansion",
+    "far_flux_expansion",
+    "endpoint_coefficient_bound",
+    "forced_second_derivative",
+    "forced_near_boundary",
+    "forced_far_boundary",
+    "free_wronskian",
+    "green_continuity",
+    "green_jump_one",
+    "green_near_condition",
+    "green_far_condition",
+    "independent_green_integral_forcing",
+    "same_sign_nonzero_solution_equation",
+    "dirichlet_midpoint_max",
+    "dirichlet_global_max_square",
+    "short_interval_taylor_coefficient",
+    "barrier_well_C1_matching",
+    "barrier_well_actual_coefficients"
+  ],
+  "contrary_controls": [
+    "global_monotonicity_false",
+    "shifted_energy_need_not_increase",
+    "reversed_green_sign_wrong_forcing",
+    "homogeneous_reconstruction_cannot_ignore_f",
+    "dropping_imaginary_quadrature_breaks_boundary",
+    "same_sign_uniqueness_false",
+    "opposite_sign_excludes_same_wave",
+    "generic_well_does_not_meet_high_mode_structure"
+  ],
+  "actual_double_turn": {
+    "ell": 100,
+    "n": 60,
+    "P_1_2_4": [
+      "5585285/77168",
+      "-2121869/38584",
+      "166915639/96460"
+    ]
+  },
+  "constants": {
+    "A": "121366223/77168",
+    "D": "606773239/96460",
+    "Lstar": "3034097699/77168",
+    "Kstar_squared": "4247765441/55120"
+  },
+  "forcing_fixture": "P=0 f=1 y=x(x-d)/2-i*d/(2*k), independently replayed by Green integration",
+  "ceiling": "all-angular fixed-annulus scalar Sobolev inverse; supplied complex impedance, no full coupled or physical inverse",
+  "provenance": {
+    "explorations/conditional-build/k2574-angular-cone-domains-2026-11-05.md": "fe44331b01f1361f8e4170bf0482a6d83dc33aa663edc33529ce460da85fcf87",
+    "explorations/conditional-build/k2572-boundary-preparation-robustness-2026-11-05.md": "8dca5f325c95992d29a6d32b65b3169b832ed139780f1682e56be29b28b4573d"
+  }
+}

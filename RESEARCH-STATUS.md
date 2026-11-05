@@ -6,6 +6,18 @@ updated_at: "2026-10-26"
 canon_sweep_at: "2026-07-25"
 ---
 
+## K2576--K2577: Polynomial scalar inversion and the complete small-multiplier resource frontier (2026-11-05)
+
+K2576 proves polynomial uniform impedance bounds on the actual fixed annulus for every angular mode, including turning modes and bounded double-turning exceptions. It constructs full-angular Sobolev homogeneous preparation, a forced scalar Green inverse and continuous homogeneous conserved readout; arbitrary forcing still needs the full coupled-source adapter. K2577 solves the entire finite expected-trial frontier at score1/2 for every0<lambda<=2/5: the new post2 tail mixes adjacent equal-score zero-action schedules. Executed successors give exact price thresholds, optimal budget3 and5 consumers, sharp reciprocal-resource and square-root-price laws and a sufficient24-trial error certificate. No general intermediate multiplier solution, full coupled Green inverse, physical preparation or native GU recovery is claimed. Source polarities, ledger0.263 and canon remain unchanged.
+
+- [K2576](explorations/conditional-build/k2576-polynomial-impedance-control-2026-11-05.md).
+- [K2577](explorations/conditional-build/k2577-exact-resource-tail-2026-11-05.md).
+
+Independent read-only PDE and probability specialists cross-reviewed both concrete results; a distinct integrated hostile review found no substantive issues in the final artifacts. The potential control was strengthened to derive the actual barrier/well coefficients and C1 join; the stopping control names the fair-trial charge correctly. Universal energy, Green comparison, density, optimization and support proofs are distinct from exact identities and finite supporting fixtures. No external-expert, proof-assistant, remote-CI or physical certification is claimed.
+
+Earlier sections preserve historical snapshots.
+
+
 ## K2574--K2575: Angular cone domains and constructive priced optimization (2026-11-05)
 
 K2574 constructs stable preparations on two disjoint infinite angular cones of the actual fixed annular response: positive modes admit two-boundary contraction and interior smoothing, oscillatory modes admit bounded real Cauchy-jet propagation. A common spectral solution space, conserved detector bound and explicitly complex impedance repair are executed. Further follow-through constructs full-angular homogeneous preparation, including turning modes, for supplied analytic impedance data with a conservative uniform radius. A general Sobolev inverse remains open. K2575 quantifies positive-stage size and proves a new global one-stage merge region. It solves a supported resource point and extends the exact nonlinear resource frontier through the entire interval from4/3 to2 for every multiplier0<lambda<=2/5. An explicit finite rational-grid error and certified short two/three-stage contrary witnesses provide constructive follow-through. The grid was not enumerated, the general optimizer remains open, and no general Sobolev or inhomogeneous inverse, physical preparation selection or native GU recovery follows. Source polarity, ledger0.263 and canon remain unchanged.

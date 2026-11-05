@@ -1,0 +1,84 @@
+{
+  "result": "K2577",
+  "evidence_kind": "exact symbolic identities and rational original-law consumers; universal optimality and duality proof in note",
+  "checks": [
+    "actual_zero_action_cost",
+    "actual_zero_action_derivative",
+    "uniform_derivative_margin_polynomial",
+    "margin_positive_square",
+    "zero_action_second_derivative",
+    "upper_second_derivative_remainder",
+    "third_derivative",
+    "third_derivative_upper",
+    "optimizer_lower_value",
+    "strict_uniform_action_margin",
+    "all_tie_prices_inside_region",
+    "perspective_second_derivative",
+    "series_coefficients",
+    "suffix_action_derivative_identity",
+    "original_equal_stage_law_1",
+    "original_equal_stage_law_2",
+    "original_equal_stage_law_3",
+    "original_equal_stage_law_12",
+    "mixture_exact_resource",
+    "mixture_log_combination",
+    "optimal_M3_bracket",
+    "first_two_support_prices",
+    "M3_support_price_bracket",
+    "support_tie",
+    "mixture_support",
+    "optimal_M5_bracket",
+    "budget_join_corner",
+    "finite_resource_sufficient",
+    "exact_24_trial_gap",
+    "interpolation_second_coefficient_cancels",
+    "interpolation_third_coefficient",
+    "sharp_resource_coefficient",
+    "second_resource_coefficient",
+    "small_price_duality_coefficient"
+  ],
+  "contrary_controls": [
+    "fractional_stage_is_unattainable_chord",
+    "counting_one_trial_per_stage_wrong",
+    "deterministic_two_stage_violates_M3",
+    "one_stage_is_suboptimal_at_M3",
+    "dropping_fair_trial_factor_two_changes_consumer",
+    "large_multiplier_zero_action_extension_false",
+    "unequal_two_stage_cost_worse",
+    "truncated_log_is_not_upper_bound"
+  ],
+  "M3": {
+    "p": "1",
+    "R": "3",
+    "C": "log(525/392)",
+    "F_bracket": [
+      "970786357719/1000000000000",
+      "24269658943/25000000000"
+    ],
+    "support_price_bracket": [
+      "323298737/200000000000",
+      "808246843/500000000000"
+    ]
+  },
+  "M5": {
+    "F_bracket": [
+      "972865896931/1000000000000",
+      "243216474233/250000000000"
+    ]
+  },
+  "resource_consumer": {
+    "expected_trials": 24,
+    "error_target": "1/1000",
+    "gap_bracket": [
+      "397062393/1000000000000",
+      "198531197/500000000000"
+    ]
+  },
+  "ceiling": "complete resource frontier at S=1/2 and 0<lambda<=2/5; no general multiplier or GU claim",
+  "provenance": {
+    "explorations/conditional-build/k2575-constructive-priced-optimization-2026-11-05.md": "ec2921bb0375dcbad4f22783484566b3aa3b10eafa9397423e2d1820aed37fbd",
+    "explorations/conditional-build/k2571-stopping-resource-price-2026-11-05.md": "87162b0b74de5fa69161e81490c62e7d89ae5adbf25b5a6656ef5b85e902ea13",
+    "explorations/conditional-build/k2569-stopping-maximizing-sequences-2026-11-05.md": "86320b42a82c0001f5500dd779b90b0f53980f98b936985ba9d736a4584e868e",
+    "explorations/conditional-build/k2561-higher-budget-stopping-2026-11-05.md": "adce2808277a9206b573a88c0a71a3bf78dff1e32306780107efb2eeb5c0a698"
+  }
+}

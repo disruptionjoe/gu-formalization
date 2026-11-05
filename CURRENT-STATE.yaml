@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 2fc94eeb6c2eead8832ede3d008277449f30f598
+revision_basis: 38db5107389ba1b22a8b7cb3ecd95d292f9836b5
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -118,6 +118,18 @@ reviewed_prediction_interfaces_2026_10_27:
 current_result:
   status: conditional_research_front
   summary: >-
+    K2576 proves polynomial uniform impedance bounds on the actual fixed annulus for every
+    angular mode, including turning modes and bounded double-turning exceptions. It constructs
+    full-angular Sobolev homogeneous preparation, a forced scalar Green inverse and continuous
+    homogeneous conserved readout; arbitrary forcing still needs the full coupled-source
+    adapter. K2577 solves the entire finite expected-trial frontier at score1/2 for
+    every0<lambda<=2/5: the new post2 tail mixes adjacent equal-score zero-action schedules.
+    Executed successors give exact price thresholds, optimal budget3 and5 consumers, sharp
+    reciprocal-resource and square-root-price laws and a sufficient24-trial error certificate.
+    No general intermediate multiplier solution, full coupled Green inverse, physical
+    preparation or native GU recovery is claimed. Source polarities, ledger0.263 and canon
+    remain unchanged.
+    Historical predecessor (not live):
     K2574 constructs stable preparations on two disjoint infinite angular cones of the actual
     fixed annular response: positive modes admit two-boundary contraction and interior
     smoothing, oscillatory modes admit bounded real Cauchy-jet propagation. A common spectral
@@ -18577,6 +18589,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+  - explorations/conditional-build/k2576-polynomial-impedance-control-2026-11-05.md
+  - explorations/conditional-build/k2577-exact-resource-tail-2026-11-05.md
+  - lab/process/k2576-polynomial-impedance-control.json
+  - lab/process/k2577-exact-resource-tail.json
   - explorations/conditional-build/k2574-angular-cone-domains-2026-11-05.md
   - explorations/conditional-build/k2575-constructive-priced-optimization-2026-11-05.md
   - lab/process/k2574-angular-cone-domains.json
@@ -21182,6 +21198,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Which actual coupled-source adapter lifts the polynomial scalar inverse to the selected
+  response system, and what structure resolves the remaining intermediate stopping multipliers
+  beyond the complete small-multiplier frontier?
+  Historical predecessor (not live):
   Which justified preparation or quantitative turning-band boundary estimate completes the
   actual angular response, and which efficient certified optimization resolves stopping support
   beyond the new exact resource segment?
@@ -25663,6 +25683,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Reuse K2576 full-angular polynomial scalar impedance inverse and Sobolev synthesis on the
+  fixed annulus; analytic boundary data are no longer required for that sufficient scalar
+  construction. Opposite complex impedances represent two real quadratures, not real Robin or
+  physical selection. The actual double-turning exception is bounded, while arbitrary potentials
+  remain outside the theorem. Next derive the exact nonzero scalar-forcing adapter into every
+  coupled source equation or supply justified observation/control. Reuse K2577 complete score1/2
+  resource frontier for0<lambda<=2/5, adjacent-count mixtures, exact prices and sharp complexity
+  constants. Do not requeue generic attainment, analytic homogeneous existence or the
+  low-multiplier post2 frontier. Intermediate lambda1.9 support/efficient certified
+  optimization, sharp transition, physical calibration and native observation/quotient debts
+  remain open; preserve K2565 bracket and expected-versus-pathwise distinctions.
+  Historical predecessor (not live):
   Reuse K2574 disjoint and nonexhaustive positive and oscillatory cone estimates, all
   multiplicities, common homogeneous control space and compact detector continuity. Complex
   impedance means two real quadratures; a full-angular analytic homogeneous preparation is now

@@ -7,6 +7,12 @@ updated_at: "2026-08-23"
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2576 report](k2576-polynomial-impedance-control.json).
+- [K2577 report](k2577-exact-resource-tail.json).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2574 report](k2574-angular-cone-domains.json).
 - [K2575 report](k2575-constructive-priced-optimization.json).
 

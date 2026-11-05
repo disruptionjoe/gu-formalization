@@ -7,6 +7,12 @@ updated_at: "2026-08-21"
 
 ## Latest conditional constructions (2026-11-05)
 
+- [K2576 polynomial scalar inverse](conditional-build/k2576-polynomial-impedance-control-2026-11-05.md).
+- [K2577 exact resource frontier](conditional-build/k2577-exact-resource-tail-2026-11-05.md).
+
+
+## Latest conditional constructions (2026-11-05)
+
 - [K2574 angular cone domains](conditional-build/k2574-angular-cone-domains-2026-11-05.md).
 - [K2575 constructive optimization](conditional-build/k2575-constructive-priced-optimization-2026-11-05.md).
 
